@@ -1,4 +1,4 @@
-baseURL: 'https://blog.containerize.com/'
+baseURL: 'https://blog-qa.containerize.com/'
 languageCode: 'en-us'
 title: 'Containerize Blog'
 theme: "PaperMod"
