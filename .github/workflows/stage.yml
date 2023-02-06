@@ -46,7 +46,7 @@ jobs:
 
     # Deploys built website to S3
     - name: Deploy to S3
-      run: hugo --config "./config/stage.toml" deploy --target "Stage" --maxDeletes -1
+      run: hugo --config "./config/stage.toml" deploy --target "stage" --maxDeletes -1
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS }}
