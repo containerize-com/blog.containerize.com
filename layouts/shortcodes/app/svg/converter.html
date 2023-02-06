@@ -1,0 +1,32 @@
+{{ $main := resources.Get "ts/app/svg/converter/main.ts" | js.Build }}
+{{ $js := (slice $main) | resources.Concat "js/svg-converter-apps.js" | resources.Minify | fingerprint}}
+
+{{ $scss := resources.Get "scss/app/html/_converter.scss" }}
+{{ $css := resources.Get $scss | toCSS (dict "enableSourceMap" false) | postCSS | resources.Minify | fingerprint}}
+
+{{ $id := substr (md5 .Inner) 0 16 }}
+{{ $inputFormat := index (split (index .Params 0) "|") 0 }}
+{{ $outputFormats :=  after 1 .Params }}
+
+<div class="container" id='container.{{ $id }}'>
+    <div class="row">
+        <div class="col" id='{{ $id }}'>
+            <pre class="hidden">
+                <template id="template">{{ .Inner }}</template>
+            </pre>
+        </div>
+    </div>
+</div>
+<script>
+Promise
+.all([
+    window.svg.addStyle('{{ $css.RelPermalink }}'),
+    window.svg.addScript('{{ $js.RelPermalink }}', '{{ $js.Data.Integrity }}'), 
+    window.svg.addScript('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js', 'sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==', 'anonymous', 'no-referrer'), 
+])
+.then((result) => 
+{
+    window.svg.converter.create('{{ $id }}', '{{ $inputFormat }}', '{{ delimit $outputFormats "," }}').show();
+})
+.catch(err =>  console.error(err));
+</script>

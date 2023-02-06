@@ -1,0 +1,11 @@
+Sitemap: https://blog.aspose.com/sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /*?utm_*=*
+Disallow: /*?from=*
+Disallow: /feed/
+Disallow: /wp-content/
+Disallow: /author/
+Disallow: /tags/
+Disallow: /categories/

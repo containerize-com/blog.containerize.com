@@ -1,0 +1,17 @@
+{{ $inputLinkArg := .Get "productLink" }}
+{{ if strings.HasSuffix (strings.TrimSuffix "/" .Site.BaseURL) "psd" }}
+{{ $inputLinkArg = $inputLinkArg}}
+{{ end }}
+<div class="col-lg-4 col-md-6 col-sm-12 productfamily_box">
+    <div class="productfamilytitle">
+        <div class="imgblock"><div style="width: 60px; height: 60px;border-radius: 20px 20px 20px 20px; background-color: #3392ca;"><span style="width: 100%; height: 100%; text-align: center; vertical-align: middle; color: #fff; display: inline-block; font-size: 30px; line-height:40px; font-weight: 700; }">{{ .Get "symbol" }}</span></div></div>
+        <a href='{{ relref . $inputLinkArg }}'>
+            <span class="spanclass">
+            {{ .Get "pfName" }}<em>{{ .Get "title" }}</em>
+            </span>
+            <em>
+                {{ .Inner | markdownify }}
+            </em>
+        </a>
+    </div>
+</div>

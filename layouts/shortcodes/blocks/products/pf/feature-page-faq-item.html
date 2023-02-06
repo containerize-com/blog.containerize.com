@@ -1,0 +1,11 @@
+{{ if .Get "odd"}}
+<div class="col-md-5 offset-lg-1 p-0 mb-3">
+    <h4>{{ .Get "question" }}</h4>
+    <p>{{ .Get "answer" | markdownify }}</p>
+</div>
+{{ else }}
+<div class="col-md-5 p-0 mb-1">
+    <h4>{{ .Get "question" }}</h4>
+    <p>{{ .Get "answer" | markdownify  }}</p>
+</div>
+{{ end }}

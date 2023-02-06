@@ -1,0 +1,51 @@
+.link-list {
+	margin-top: 20px;
+	padding: 0px 0px 0px 35px;
+	margin-bottom: 20px;
+}
+
+.link-item {
+	line-height: 3;
+}
+
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+.tab button:hover {
+	background-color: #ddd;
+}
+
+.tab button.active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.code-sample {
+	background: #f5f5ff;
+	padding: 5px;
+	border: 1px dashed rgba(32, 32, 32, 0.1);
+	margin: 10px 0 10px;
+}
+
+.code-sample>pre {
+	margin: 5px 0 5px 0;
+}

@@ -1,0 +1,26 @@
+{{ $name := .Get "name" | default "unknown" }}
+{{ $id := .Get "id" | default "1" }}
+{{ $elId := print "generator-" $name "-" $id }}
+{{ $key := lower (replace $name "-" "") }}
+
+{{ $jsPath := print "ts/app/html/generators/" $key ".ts" }}
+
+{{ $js := resources.Get $jsPath | js.Build | resources.Minify | fingerprint }}
+{{ $scss := resources.Get "scss/app/html/_generators.scss" }}
+{{ $css := resources.Get $scss | toCSS (dict "enableSourceMap" false) | postCSS | resources.Minify | fingerprint }}
+<div id='{{ $elId }}'>
+    <template>{{ .Inner }}</template>
+</div>
+<script>
+Promise
+.all([
+    window.html.addScript('{{ $js.RelPermalink }}'), 
+    window.html.addStyle('{{ $css.RelPermalink }}')
+])
+.then((result) => 
+{
+    var f = window.html.generator['{{ $key }}'];
+    f('{{ $elId }}').show();
+})
+.catch(err =>  console.error(err));
+</script>

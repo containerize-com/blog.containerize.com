@@ -1,0 +1,61 @@
+{{$allparams := .Params }}
+
+{{ $baseUrl := index $allparams 0 }}
+
+{{ $codeSnippets := index $allparams 1 }}
+
+{{ $docLinks := .Get "docLinks" | default `` }}
+
+<div class="tab">
+    <button class="tablinks" id="tab-live">Live example</button>
+    <button class="tablinks" id="tab-code">Code snippet</button>
+    <button class="tablinks" id="tab-docs">Links to docs</button>
+</div>
+
+<div id="Live" class="tabcontent">
+    <app-root>Loading...</app-root>
+</div>
+  
+  <div id="Code" class="tabcontent">
+    <p>You can reproduce the main functionality of this built-in app using <a href="https://releases.aspose.com/psd/net/">Aspose.PSD</a></p>
+	<div class="code-sample">
+    <pre>{{ $codeSnippets }}</pre>
+	</div>
+	 <p>You can download <a href="https://www.nuget.org/packages/Aspose.PSD/">Aspose.PSD from Nuget package manager</a></p>
+  </div>
+  
+  <div id="Docs" class="tabcontent">
+    <p>Check the following list of documentation links:</p>	
+	<div class="code-sample">
+	<ul class="link-list">
+	{{range $index, $element := .Params}}
+		{{ if gt $index 1}}
+		  {{ if eq (mod $index 2) 0}}
+		  <li class="link-item"><a href="{{ index $allparams (add $index 1) }}">{{ $element }}</a></li>
+		  {{ end }}
+		{{ end }}
+    {{ end }}
+	</ul>
+	</div>
+	<p>Please check the offical documentation <a href="https://docs.aspose.com/psd/">https://docs.aspose.com/psd/</a></p>
+  </div>
+
+ 
+{{ $jstabs := resources.Get "js/psd/tabs.js" | js.Build (dict "params" ("test")) }}
+{{ $jsmain := resources.Get "js/psd/editor/main.js" | js.Build (dict "params" ("test")) }}
+{{ $jspolyfills := resources.Get "js/psd/editor/polyfills.js" | js.Build (dict "params" ("test")) }}
+{{ $jsruntime := resources.Get "js/psd/editor/runtime.js" | js.Build (dict "params" ("test")) }}
+
+{{ $tabs := resources.Get "css/psd/tabs.css" }}
+<link rel="stylesheet" href="{{ $tabs.RelPermalink }}">
+
+<script>
+const baseUrl = "{{ $baseUrl }}";
+</script>
+
+<script type="text/javascript" src="{{ $jstabs.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $jsmain.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $jspolyfills.RelPermalink }}"></script>
+<script type="text/javascript" src="{{ $jsruntime.RelPermalink }}"></script>
+
+<script type="text/javascript" src="{{ $jsruntime.RelPermalink }}"></script>

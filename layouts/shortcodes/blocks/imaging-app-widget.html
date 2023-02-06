@@ -1,0 +1,20 @@
+{{ $checkFreeAppLabelUrl := .Get "checkFreeAppLabelUrl" | lower }}
+{{ $checkFreeAppLabel := .Get "checkFreeAppLabel" }}
+{{ $checkFreeApp := print $checkFreeAppLabel $checkFreeAppLabelUrl}}
+{{ partial "imaging-widget-url.html" . }}
+<div class="autogen section container-fluid" style="border-bottom: 1px solid #eaeaea;">
+    <h3 class="tc" style="font-size: 26px">{{ .Get "sectionTitle" | markdownify}}</h3>
+  <div class="container full-width section">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md-7">
+          <ul>
+            {{ if .Get "label1" }}<li>{{.Get "label1"}}</li>{{ end }}
+            {{ if .Get "label2" }}<li>{{.Get "label2"}}</li>{{ end }}
+            {{ if .Get "label3" }}<li>{{.Get "label3"}}</li>{{ end }}
+          </ul>
+      </div>
+      <div id="imaging-widget" class="col-md-5"></div>
+    </div>
+  </div>
+    {{ if .Get "checkFreeAppLabel" }} <p class="tc" style="font-size: 15px">{{ $checkFreeApp | markdownify }}</p> {{ end }}
+</div>

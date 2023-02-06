@@ -1,0 +1,12 @@
+{{ $inputLinkArg := .Get "link" }}
+{{ if strings.HasSuffix (strings.TrimSuffix "/" .Site.BaseURL) "psd" }}
+{{ $inputLinkArg = $inputLinkArg | relLangURL }}
+{{ end }}
+<li>
+    <div class="offer-products"><a href='{{ $inputLinkArg }}'>
+        <img width="42" height="42" src='{{ .Get "imgSrc" }}' alt='{{ .Parent.Get "pfName" }} for {{ .Get "sdkName" }}' class="{{if in (.Get "sdkName") "via" }}ico-48-mt {{ end }}lazyloaded"></a>
+        <h5>
+            <a href='{{ $inputLinkArg }}'>{{ .Parent.Get "pfName" }} <span class="spanclass"><em>for</em>{{ .Get "sdkName" }}</span></a>
+        </h5>
+    </div>
+</li>

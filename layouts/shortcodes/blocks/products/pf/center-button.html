@@ -1,0 +1,7 @@
+{{ $inputLinkArg := .Get "href" }}
+{{ if strings.HasSuffix (strings.TrimSuffix "/" .Site.BaseURL) "psd" }}
+{{ $inputLinkArg = $inputLinkArg | relLangURL }}
+{{ end }}
+<div class="clearfix tc centerbutton">
+    <a class="btn-primary btn-lg whitebg" href='{{ $inputLinkArg }}'>{{ .Get "innerText" }}</a>
+</div>

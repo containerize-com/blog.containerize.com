@@ -1,0 +1,26 @@
+{{ $pathsegments := (split .Page.RelPermalink "/") }}
+<div class="container-fluid header1 header2 productfamilyheader minify-header2">
+    <div class="container">
+        <div class="row pt-lg-5">
+            <div class="col-md-9 m-auto padding0">
+                <div class="padding0 col-lg-12 tc">
+                    <h1 class="mt-0 mb-0">{{ .Get "h1" | markdownify }}</h1>
+                    <h2 class="pr-h2">{{ .Get "h2" | markdownify }}</h2> 
+                </div>
+            </div>
+            <div class="padding0 col-lg-3 tr">
+                {{ if eq .Page.Lang "en" }}
+                    <a href="https://releases.aspose.com/{{ index ($pathsegments) 1}}/{{ index ($pathsegments) 2}}/" class="btn btn-warning btn-large">Download</a>
+                {{ else }}
+                    {{ $releases_langs := slice "es" "de" "fr" "ru" "zh" "ja" "pt" "el" "id" "tr" }}
+                    {{ if in $releases_langs .Page.Lang }}
+                        <a href="https://releases.aspose.com/{{ index ($pathsegments) 2}}/{{ index ($pathsegments) 1}}/{{ index ($pathsegments) 3}}/" class="btn btn-warning btn-large">{{i18n "sub-menu.download"}}</a>
+                    {{ else }}
+                        <a href="https://releases.aspose.com/{{ index ($pathsegments) 1}}/{{ index ($pathsegments) 3}}/" class="btn btn-warning btn-large">{{i18n "sub-menu.download"}}</a>
+                    {{ end }}
+                {{ end }}
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

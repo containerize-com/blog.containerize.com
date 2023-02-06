@@ -1,0 +1,15 @@
+<div class="container-fluid diagram-tab-content bg-gray"><a id="overview" class="anchor"
+        name="overview"></a>&nbsp;&nbsp;
+    <div class="row">
+        <div class="container">
+            <div class="cleartop">&nbsp;</div>
+            {{ .Inner }}
+            <ul class="nav nav-pills nav-center">
+                <li data-target="#diagramcarousel" data-slide-to="0"><a class="" href="#">{{ if .Get "carousel1Text1" }} {{ .Get "carousel1Text1" }} {{ else }} At a {{ end }} <em>{{ if .Get "carousel1Text2" }} {{ .Get "carousel1Text2" }} {{ else }} Glance {{ end }}</em></a></li>
+                <li data-target="#diagramcarousel" data-slide-to="1"><a href="#">{{ if .Get "carousel2Text1" }} {{ .Get "carousel2Text1" }} {{ else }} Platform {{ end }} <em>{{ if .Get "carousel2Text2" }} {{ .Get "carousel2Text2" }} {{ else }} Independence {{ end }}</em></a></li>
+                <li data-target="#diagramcarousel" data-slide-to="2"><a href="#" class="activetab"> {{ if .Get "carousel3Text1" }} {{ .Get "carousel3Text1" }} {{ else }} Supported File {{ end }}
+                        <em>{{ if .Get "carousel3Text2" }} {{ .Get "carousel3Text2" }} {{ else }} Formats {{ end }}</em></a></li>
+            </ul>
+        </div>
+    </div>
+</div>

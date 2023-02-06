@@ -1,0 +1,36 @@
+{{ $main := resources.Get "ts/app/html/merger/main.ts" | js.Build }}
+{{ $js := (slice $main) | resources.Concat "js/html-merger-apps.js" | resources.Minify | fingerprint }}
+
+{{ $scssCommon := resources.Get "scss/app/html/_common.scss" }}
+{{ $scss := resources.Get "scss/app/html/_converter.scss" }}
+{{ $css := (slice $scssCommon $scss) | resources.Concat "css/html-merger-apps.css" | toCSS (dict "enableSourceMap" false) | postCSS | resources.Minify | fingerprint }}
+
+{{ $id := substr (md5 .Inner) 0 16 }}
+{{ $inputFormat := index (split (index .Params 0) "|") 0 }}
+{{ $outputFormats :=  after 1 .Params }}
+
+<div class="container" id='container.{{ $id }}'>
+    <div class="row">
+        <div class="col" id='{{ $id }}'>
+            <pre class="hidden">
+                <template id="template">{{ .Inner }}</template>
+            </pre>
+        </div>
+    </div>
+</div>
+<script>
+Promise
+.all([
+    window.html.addStyle('{{ $css.RelPermalink }}'),
+    window.html.addScript('{{ $js.RelPermalink }}', '{{ $js.Data.Integrity }}')
+])
+.then((result) => 
+{
+    window.html.merger.create('{{ $id }}', '{{ $inputFormat }}', '{{ delimit $outputFormats "," }}').show();
+})
+.catch(err =>  console.error(err));
+
+// workaround to embed the live-example into section
+var section = document.getElementById('container.{{ $id }}').previousElementSibling;
+section.classList.add('not-eof-section');
+</script>

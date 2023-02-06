@@ -1,0 +1,112 @@
+export const layout = `
+<div class="container">
+    <form class="app-svg-base">
+        <div class="header">
+            Vectorize Image File:&nbsp;<input type="file" class="actionButton" style="display: inline-block;"
+                id="fileInput" name="fileupload" accept="image/*">
+            <button type="button" id="clean" class="actionButton" style="background-color: #2e79b8;">Clean</button>
+        </div>
+        <div class="parameters" style="width: 100%;">
+            <div class="row" style="width: 100%; margin-top: 0; flex-flow:wrap;">
+                <div class="col">
+                    <fieldset>
+                        <legend>Source Image</legend>
+                        <div class="cnvc">
+                            <div style="position:absolute; text-align:right; margin: 3px;">
+                                <input id="imgzin" type="button" class="cbtn" value="+">
+                                <input id="imgzout" type="button" class="cbtn" value="-">
+                                <input id="imgzreset" type="button" class="cbtn" value="&#60;&#62;">
+                            </div>
+                            <canvas id="imgCnv" class="cnv"></canvas>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col">
+                    <fieldset>
+                        <legend>Quantized Image</legend>
+                        <div class="cnvc">
+                            <div style="position:absolute; text-align:right; margin: 3px;">
+                                <input id="qtzin" type="button" class="cbtn" value="+">
+                                <input id="qtzout" type="button" class="cbtn" value="-">
+                                <input id="qtzreset" type="button" class="cbtn" value="&#60;&#62;">
+                            </div>
+                            <canvas id="qtCnv" class="cnv"></canvas>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col" id="config" style="max-width: 203px;">
+                    <fieldset>
+                        <legend>Quantization Options</legend>
+                        <div>colors: <input type="number" id="colors" class="val" min="1" max="255"></div>
+                        <div>method: <input type="number" id="method" class="val" min="1" max="2"></div>
+                        <div>minHueCols: <input id="minHueCols" type="number" value="1000" class="val" min="0"
+                                max="50000" step="100"></div>
+                        <div>scale: <input id="scale" type="number" class="val" min="0.1" max="5" step="0.1">
+                        </div>
+                        <div>grayscale: <input type="checkbox" id="grayscale"></div>
+                        <div><button id="quantize" type="button" class="actionButton">Quantize</button>&nbsp;<button type="button" id="download_quant" class="actionButton"
+                            style="background-color: #2e79b8; margin-top:7px; margin-bottom:7px;">Download</button></div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row" style="width: 100%; flex-flow:wrap;">
+                <div class="col" style="margin-bottom:7px;">
+                    <fieldset>
+                        <legend>Vectorized Image</legend>
+                        <div class="cnvc" style="margin-top: 0px; float:none; overflow: hidden; position: relative;">
+                            <div style="position:absolute; text-align:right; margin: 3px; z-index: 1;">
+                                <input id="vctzin" type="button" class="cbtn" value="+">
+                                <input id="vctzout" type="button" class="cbtn" value="-">
+                                <input id="vctzreset" type="button" class="cbtn" value="&#60;&#62;">
+                            </div>
+                            <div id="size" class="size" style="margin: 3px; z-index: 1;"></div>
+                            <div id="svgResultCtr" style="width:100%; height:100%; position:absolute; z-index: 0;">
+                                <div style ="position:absolute; left:10px; top:20px; display:none; color:greenyellow" id="sizeWarning">There are too many traces.<br>Please, reduce the scale or number of colors.</div>
+                                <svg id="svgResult" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                    <style id="stroot"></style>
+                                    <defs xmlns="http://www.w3.org/2000/svg">
+                                        <marker id="dot" refX="10" refY="10" markerWidth="45" markerHeight="45"
+                                            markerUnits="userSpaceOnUse" viewBox="0 0 20 20">
+                                            <circle cx="10" cy="10" r="7" fill="white" stroke="blue" stroke-width="5">
+                                            </circle>
+                                        </marker>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <canvas id="vctCnv" class="cnv"></canvas>
+                        </div>
+                    </fieldset>
+                </div>
+                <div id="vectConfig" class="col" style="max-width: 203px;">
+                    <fieldset>
+                        <legend>Vectorization Options</legend>
+                        <div>threshold: <input type="number" id="threshold" class="val" min="0" max="200" step="1">
+                        </div>
+                        <div>severity: <input type="number" id="extent" class="val" min="0" max="10"></div>
+                        <div>line-width: <input type="number" id="lineWidth" class="val" min="0" max="50" step="0.1">
+                        </div>
+                        <div>stencil:
+                            <select id="stencil" style="color:black;">
+                                <option value="none">None</option>
+                                <option value="auto">Auto</option>
+                                <option value="monocolor">MonoColor</option>
+                            </select>
+                        </div>
+                        <div>stencil color:
+                            <input id="stencilColor" type="color" value="#0000ff" style="width:40px; padding:0;" >
+                        </div>
+                        <div>trace paths: <input type="checkbox" id="trace"></div>
+                        <div><button type="button" id="vectorize" class="actionButton">Vectorize</button>&nbsp;<button type="button" id="download_result" class="actionButton"
+                            style="background-color: #2e79b8; margin-top:7px; margin-bottom:7px;">Download</button></div>
+                    </fieldset>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="codeblock" id="codeblock" style="padding-top:0px">
+            <pre class="code"><code id="snippet" class="hljs csharp hidden"></code></pre>
+        </div>
+    </form>
+</div>
+`

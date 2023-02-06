@@ -1,0 +1,50 @@
+{{ $pathsegments := (split .Page.RelPermalink "/") }}
+{{ $relpermalink := .Page.RelPermalink }}
+{{ $beforeslug := .Get "beforeslug" }}
+{{ $afterslug := .Get "afterslug" }}
+
+
+<div class="container-fluid productfamilypage bg-gray">
+    <div class="convertypes bg-gray agp-content section">
+        <div class="container">
+            <div class="row other-converters">
+                {{ if ($.Get "pairs") }}
+                    {{ $pairs := split ( .Get "pairs" ) " " }}
+                    {{ range $pairs }}
+                        {{ $pair := . }}
+                        <div class="col-md-2 other-converter remove-lp remove-rp"><a href="{{ $relpermalink }}{{ $pair }}/">
+                            {{ if $beforeslug  }}{{ $beforeslug  | humanize }} {{end}}{{upper (index (split $pair "-to-") 0) }} to {{upper (index (split $pair "-to-") 1) }}{{ if $afterslug }} {{ $afterslug | humanize }}{{end}}</a></div>
+                    {{ end }}
+                {{ else if and (.Get "formats") (ne (.Get "formats") "all") }}
+                    {{ $formats := split ( .Get "formats" ) " " }}
+                    {{ range (.Page.Pages | union .Page.Sections) }}
+                        {{ $page := . }}
+                            {{ range $formats}}
+                                {{ if eq (index (split (index (split $page.RelPermalink "/") 4) "-to-") 1) (lower . )}}
+                                    {{ if eq (index $pathsegments 3) "conversion" }}
+                                        <div class="col-md-2 other-converter remove-lp remove-rp"><a href="{{ $page.RelPermalink }} ">
+                                            {{ if $beforeslug  }}{{ $beforeslug  | humanize }} {{end}}{{upper (index (split (index (split $page.RelPermalink "/") 4) "-to-") 0)}} to {{upper (index (split (index (split $page.RelPermalink "/") 4) "-to-") 1)}}{{ if $afterslug }} {{ $afterslug | humanize }}{{end}}</a></div>
+                                    {{ else }}
+                                        <div class="col-md-2 other-converter remove-lp remove-rp"><a href="{{ $page.RelPermalink }} ">
+                                            {{ if $beforeslug }}{{ $beforeslug | humanize }} {{end}}{{upper  (index (split $page.RelPermalink "/") 4) }}{{ if $afterslug }} {{ $afterslug | humanize }}{{end}}</a></div>
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                    {{ end }}
+                {{ else if (eq (.Get "formats") "all") }}
+                    {{ range (.Page.Pages | union .Page.Sections) }}
+                        {{ $page := . }}
+                        {{ if eq (index $pathsegments 3) "conversion" }}
+                            <div class="col-md-2 other-converter remove-lp remove-rp"><a href="{{ $page.RelPermalink }} ">
+                                {{ if $beforeslug }}{{ $beforeslug | humanize }} {{end}}{{upper (index (split (index (split $page.RelPermalink "/") 4) "-to-") 0)}} to <em>{{upper (index (split (index (split $page.RelPermalink "/") 4) "-to-") 1)}}</em>{{ if $afterslug }} {{ $afterslug | humanize }}{{end}}</a></span></div>
+                        {{ else }}
+                            <div class="col-md-2 other-converter remove-lp remove-rp"><a href="{{ $page.RelPermalink }} ">
+                                {{ if $beforeslug }}{{ $beforeslug | humanize }} {{end}}{{upper  (index (split $page.RelPermalink "/") 4) }}{{ if $afterslug }} {{ $afterslug | humanize }}{{end}}</a></div>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cleartop ">&nbsp;</div>

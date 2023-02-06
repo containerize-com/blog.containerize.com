@@ -1,0 +1,50 @@
+<div class="container-fluid agp-content bg-white aboutfile box-1 vh100 section nopbtm">
+    <div class="container">			   
+        <div class="row">
+
+
+
+{{ $features := slice "merger" "compress" "conversion" "signature" "watermark" "verify-watermark" "viewer" "annotation" "parser" "unlock" "protect" "splitter" "comparison" "redaction" "search"}}
+{{ $families := slice "3d" "cad" "cells" "email" "note" "page" "pdf" "psd" "pub" "slides" "tasks" "words" }}
+{{ $height := dict "conversion" "420" "annotation" "410" "viewer" "410" "comparison" "410" "signature" "590" "metadata" "410" "search" "540" "watermark" "590" "merger" "410" "redaction" "640" "splitter" "550" "compress" "440" "parser" "410" "annotation" "410" "unlock" "510" "protect" "510" "verify-watermark" "410"}}
+{{ $family := (index (split .Page.RelPermalink "/") 1) }}
+{{ $feature := (index (split .Page.RelPermalink "/") 3) }}
+{{ $slug := (index (split .Page.RelPermalink "/") 4) }}
+
+<div class="demobox tc col-md-12 padding-0">
+    <h3>{{ .Get "sectionTitle" | markdownify}}</h3>
+    {{ if 
+        and 
+        (in $features $feature) 
+        (in $families $family)
+    }}
+    <p></p>
+    {{ if .Get "url" }}
+    <iframe style="border: none; height: {{index $height $feature}}px;" scrolling="no" src="{{.Get "url"}}" id="child-iframe" data-dashlane-frameid="4294967393" width="100%"></iframe>
+    {{ else }}
+    <iframe style="border: none; height: {{index $height $feature}}px;" scrolling="no" src="https://products.aspose.app/{{$family}}/{{$feature}}/embed&h1&h2" id="child-iframe" data-dashlane-frameid="4294967393" width="100%"></iframe>
+    {{ end }}
+    <script>
+        $(document).ready(function() {
+            window.addEventListener('message', function(e) {
+            var $iframe = jQuery("#child-iframe");
+            var eventName = e.data[0];
+            var data = e.data[1];
+            switch(eventName) {
+                case 'setHeight':
+                $iframe.height(data);
+                break;
+            }
+            }, false);
+        });
+    </script>
+    <style>.autogen .demobox{margin-bottom: 0!important;}.aboutfile.nopbtm{padding-bottom: 0!important}</style>
+    {{ else }}
+        {{ if .Get "sectionDescription" }} <p>{{ .Get "sectionDescription" | markdownify }}</p> {{ end }}
+        {{ .Inner }}
+    {{ end }}
+</div>
+
+        </div>
+    </div>
+</div>

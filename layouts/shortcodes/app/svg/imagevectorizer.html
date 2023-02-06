@@ -1,0 +1,65 @@
+{{ $main := resources.Get "ts/app/svg/imagevectorizer/main.ts" | js.Build }}
+{{ $scalableCanvas := resources.Get "js/svg/scalable-canvas.js" }}
+{{ $appImageVectorizer := resources.Get "js/svg/app-svg-image-vectorizer.js" }}
+{{ $js := (slice $main $scalableCanvas $appImageVectorizer) | resources.Concat "js/svg-vect-apps.js" | resources.Minify | fingerprint }}
+
+{{ $fitCurve := resources.Get "js/svg/fit-curve.js" }}
+{{ $vectHelper := resources.Get "js/svg/vectorize-helper.js" }}
+{{ $quantHelper := resources.Get "js/svg/quant-helper.js" }}
+{{ $vectWorker := resources.Get "js/svg/image-vectorization-worker.js" }}
+{{ $jsWorker := (slice $fitCurve $vectHelper $quantHelper $vectWorker) | resources.Concat "js/svg-vect-worker.js" | resources.Minify | fingerprint }}
+
+{{ $scssCommon := resources.Get "scss/app/html/_common.scss" }}
+{{ $scss := resources.Get "scss/app/svg/_svgbase.scss" }}
+{{ $css := (slice $scssCommon $scss) | resources.Concat "css/svg/common.css" | toCSS (dict "enableSourceMap" false) | postCSS | resources.Minify | fingerprint }}
+
+{{ $id := .Get "id" | default (print "svg.v." (delimit (seq 8 | shuffle) "")) }}
+{{ $inputFormat := .Get "inputFormat" }}
+
+{{ $sourceImage := .Get "sourceImage" | default "/svg/icons/sprite.png" }}
+{{ $colors := .Get "colors" | default 25 }}
+{{ $scale := .Get "scale" | default 1 }}
+{{ $grayscale := .Get "grayscale" | default false }}
+{{ $threshold := .Get "threshold" | default 30 }}
+{{ $extent := .Get "extent" | default 0 }}
+{{ $lineWidth := .Get "lineWidth" | default 1 }}
+{{ $stencil := .Get "stencil" | default "none" }}
+{{ $stencilColor := .Get "stencilColor" | default "#0000ff" }}
+{{ $trace := .Get "trace" | default false }}
+
+<div class="container" id='container.{{ $id }}'>
+    <div class="row">
+        <div class="col" id='{{ $id }}'>
+            <pre class="hidden">
+                <template id="inner">{{ .Inner }}</template>
+            </pre>
+        </div>
+    </div>
+</div>
+<script>
+Promise
+.all([
+    window.svg.addStyle('{{ $css.RelPermalink }}'),
+    window.svg.addScript('{{ $js.RelPermalink }}', '{{ $js.Data.Integrity }}'), 
+    window.svg.addScript('{{ $jsWorker.RelPermalink }}', '{{ $jsWorker.Data.Integrity }}')
+])
+.then((result) => 
+{
+    var vectorizer = window.svg.vectorizer.create('{{ $id }}');
+    vectorizer.init('{{ $jsWorker.RelPermalink }}',{colors: '{{ $colors }}',
+                scale: '{{ $scale }}',
+                grayscale: '{{ $grayscale }}',
+                threshold: '{{ $threshold }}',
+                extent: '{{ $extent }}',
+                lineWidth: '{{ $lineWidth }}',
+                stencil: '{{ $stencil }}',
+                stencilColor: '{{ $stencilColor }}',
+                trace: '{{ $trace }}'
+            })
+    vectorizer.show();
+    vectorizer.loadFile('{{ $sourceImage }}');
+})
+.catch(err =>  console.error(err));
+var section = document.getElementById('container.{{ $id }}').previousElementSibling;
+section.classList.add('not-eof-section');
+</script>

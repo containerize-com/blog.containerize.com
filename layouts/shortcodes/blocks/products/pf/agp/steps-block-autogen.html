@@ -1,0 +1,6 @@
+<div itemtype="http://schema.org/HowTo" itemscope>
+    <p itemprop="name">{{ .Get "name" | markdownify }}</p>
+    <ol>
+        {{ .Inner }}
+    </ol>
+</div>

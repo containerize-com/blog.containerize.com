@@ -1,0 +1,7 @@
+{{ $inputLinkArg := .Get "href" }}
+{{ if strings.HasSuffix (strings.TrimSuffix "/" .Site.BaseURL) "psd" }}
+{{ $inputLinkArg = $inputLinkArg | relLangURL }}
+{{ end }}
+<div class="col-md-3 other-converter"><a
+    href='{{ $inputLinkArg }}'>{{ .Get "name" }}</a>{{ if .Get "description" }} ({{ .Get "description"}}){{ end }}
+</div>

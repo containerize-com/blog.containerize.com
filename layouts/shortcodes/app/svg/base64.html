@@ -1,0 +1,37 @@
+{{ $main := resources.Get "ts/app/svg/base64/main.ts" | js.Build }}
+{{ $scalableCanvas := resources.Get "js/svg/scalable-canvas.js" }}
+{{ $base64 := resources.Get "js/svg/app-svg-base64-encoder.js" }}
+{{ $js := (slice $main $scalableCanvas $base64) | resources.Concat "js/svg-base64-apps.js" | resources.Minify | fingerprint}}
+
+{{ $scssCommon := resources.Get "scss/app/html/_common.scss" }}
+{{ $scss := resources.Get "scss/app/svg/_svgbase.scss" }}
+{{ $css := (slice $scssCommon $scss) | resources.Concat "css/svg/common.css" | toCSS (dict "enableSourceMap" false) | postCSS | resources.Minify | fingerprint}}
+
+{{ $id := .Get "id" | default (print "svg.b64." (delimit (seq 8 | shuffle) "")) }}
+{{ $sourceImage := .Get "sourceImage" | default "/svg/icons/sprite.png" }}
+<div class="container" id='container.{{ $id }}'>
+    <div class="row">
+        <div class="col" id='{{ $id }}'>
+            <pre class="hidden">
+                <template id="inner">{{ .Inner }}</template>
+            </pre>
+        </div>
+    </div>
+</div>
+<script>
+Promise
+.all([
+    window.svg.addStyle('{{ $css.RelPermalink }}'),
+    window.svg.addScript('{{ $js.RelPermalink }}', '{{ $js.Data.Integrity }}')
+])
+.then((result) => 
+{
+    var base64 = window.svg.base64.create('{{ $id }}');
+    base64.init();
+    base64.show();
+    base64.loadFile('{{ $sourceImage }}');
+})
+.catch(err =>  console.error(err));
+var section = document.getElementById('container.{{ $id }}').previousElementSibling;
+section.classList.add('not-eof-section');
+</script>

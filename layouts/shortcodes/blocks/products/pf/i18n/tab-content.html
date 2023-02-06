@@ -1,0 +1,14 @@
+<div class="container-fluid diagram-tab-content bg-gray"><a id="overview" class="anchor"
+        name="overview"></a>&nbsp;&nbsp;
+    <div class="row">
+        <div class="container">
+            <div class="cleartop">&nbsp;</div>
+            {{ .Inner }}
+            <ul class="nav nav-pills nav-center">
+                <li data-target="#diagramcarousel" data-slide-to="0"><a class="" href="#">{{safeHTML (i18n "tab-content.at-a")}}</a></li>
+                <li data-target="#diagramcarousel" data-slide-to="1"><a href="#">{{safeHTML (i18n "tab-content.platform")}}</a></li>
+                <li data-target="#diagramcarousel" data-slide-to="2"><a href="#" class="activetab">{{safeHTML (i18n "tab-content.supported-file")}}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

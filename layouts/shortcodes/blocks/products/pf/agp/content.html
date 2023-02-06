@@ -1,0 +1,11 @@
+<div class="autogen container-fluid {{ if .Get "isGrey"}} bg-gray-lite {{ else }} bg-white {{ end }} agp-content section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 tl ">
+                {{ if  .Get "h2" }}<h2 class="bold-h2">{{ .Get "h2"}}</h2>{{ end }}
+                {{ if .Get "clearfix" }}<div class="clearfix">&nbsp;</div>{{ end }}
+                {{ .Inner | markdownify }}
+            </div>
+        </div>
+    </div>
+</div>

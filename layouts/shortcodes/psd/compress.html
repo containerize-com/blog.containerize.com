@@ -1,0 +1,600 @@
+{{$allparams := .Params }}
+
+{{ $baseUrl := index $allparams 0 }}
+
+{{ $codeSnippets := index $allparams 1 }}
+
+{{ $docLinks := .Get "docLinks" | default `` }}
+
+<div class="tab">
+    <button class="tablinks" id="tab-live">Live example</button>
+    <button class="tablinks" id="tab-code">Code snippet</button>
+    <button class="tablinks" id="tab-docs">Links to docs</button>
+</div>
+
+<div id="Live" class="tabcontent">
+  <div class="row compress-module">  
+    <div id="upload-block" class="col-md-12 file-upload">
+
+        <button class="flat-btn file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )"><span style="color: #fff">Add Image</span></button>
+        <div class="image-upload-wrap">
+            <input class="file-upload-input" type='file' onchange="onFileInputChange(this, event);" accept="image/*,.psd,.psd" />
+            <div class="drag-text">
+            <h3>Drag and drop a file or select add Image</h3>
+            </div>
+        </div>
+        <div class="file-upload-content">
+            <img class="file-upload-image" id="preview-img" src="#" alt="your image" />
+            <div class="image-title-wrap">
+            <button type="button" onclick="removeUpload()" class="flat-btn remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+            </div>
+        </div>
+    </div>
+  <div id="compress-options-block" class="col-md-6 compress-options">
+    <form class="row">
+		<div class="col-md-12 col-sm-12">
+        <div class="compressoptiongroupheader">
+            <h4 class="compress-options-header">Lossless PSD Compress methods</h4>
+        </div>
+        <div class="compressoption">
+            <input type="checkbox" id="RleCompressing" name="RleCompressing" value="RleCompressing" disabled>
+            <label for="RleCompressing">Apply RLE compressing for CacheData Instead of RAW</label>
+        </div>
+        <div class="compressoption">
+            <input type="checkbox" id="CachedDataRemove" name="CachedDataRemove" value="CachedDataRemove" disabled>
+            <label for="CachedDataRemove">Remove Cached Data of Smart Objects</label>
+        </div>
+		</div>
+		<div class="col-md-12 col-sm-12">
+        <div class="compressoptiongroupheader">
+            <h4 class="compress-options-header">Lossy PSD Compress methods</h4>
+        </div>
+        <div class="compressoption">
+            <input type="checkbox" id="NotVisibleLayersRemoving" name="NotVisibleLayersRemoving" value="NotVisibleLayersRemoving" disabled>
+            <label for="NotVisibleLayersRemoving">Remove not visible PSD Layers</label>
+        </div>
+        <div class="compressoption">
+            <input type="checkbox" id="LayerMerge" name="LayerMerge" value="LayerMerge" disabled>
+            <label for="LayerMerge">Merge Layers</label>
+        </div>
+        <div class="compressoption">
+            <input type="checkbox" id="ConvertTo8Bit" name="ConvertTo8Bit" value="ConvertTo8Bit" disabled>
+            <label for="ConvertTo8Bit">Convert to 8 bits per channel</label>
+        </div>
+        <div class="compressoption">
+            <input type="checkbox" id="ConvertToRgba" name="ConvertToRgba" value="ConvertToRgba"  disabled>
+            <label for="ConvertToRgba">Convert to RGBA</label>
+        </div>
+        <div class="compressoption">
+            <input type="checkbox" id="OptionalResourceRemoving" name="OptionalResourceRemoving" value="OptionalResourceRemoving" disabled>
+            <label for="OptionalResourceRemoving">Remove optional Layer Resources</label>
+        </div>
+		</div>
+        <input type="hidden" id="FolderIdInput" name="FolderIdInput" value="">
+        <input type="hidden" id="FilenameInput" name="FilenameInput" value="">
+        <div class="compressbtn">
+            <div class="flat-btn confirm" id="psdCompressBtn">Compress PSD</div>
+        </div>
+    </form>
+</div>  
+  </div> 
+</div>
+  
+  <div id="Code" class="tabcontent">
+    <p>You can reproduce the main functionality of this built-in app using <a href="https://releases.aspose.com/psd/net/">Aspose.PSD</a></p>
+	<div class="code-sample">
+    <pre>{{ $codeSnippets }}</pre>
+	</div>
+	 <p>You can download <a href="https://www.nuget.org/packages/Aspose.PSD/">Aspose.PSD from Nuget package manager</a></p>
+  </div>
+  
+  <div id="Docs" class="tabcontent">
+    <p>Check the following list of documentation links:</p>	
+	<div class="code-sample">
+	<ul class="link-list">
+	{{range $index, $element := .Params}}
+		{{ if gt $index 1}}
+		  {{ if eq (mod $index 2) 0}}
+		  <li class="link-item"><a href="{{ index $allparams (add $index 1) }}">{{ $element }}</a></li>
+		  {{ end }}
+		{{ end }}
+    {{ end }}
+	</ul>
+	</div>
+	
+	<p>Please check the offical documentation <a href="https://docs.aspose.com/psd/">https://docs.aspose.com/psd/</a></p>
+
+  </div>
+  
+{{ $jstabs := resources.Get "js/psd/tabs.js" | js.Build (dict "params" ("test")) }}
+
+{{ $csstabs := resources.Get "css/psd/tabs.css" }}
+{{ $flatwidget := resources.Get "css/psd/flatwidget.css" }}
+
+<link rel="stylesheet" href="{{ $csstabs.RelPermalink }}">
+<link rel="stylesheet" href="{{ $flatwidget.RelPermalink }}">
+
+<script type="text/javascript" src="{{ $jstabs.RelPermalink }}" ></script>
+
+<script>
+const baseUrl = "{{ $baseUrl }}";
+const needServerRenderFormats = ['.psd', '.psb', '.rar', '.zip', '.7z', '.tar'];
+const supportedUpload = ['.psd', '.psb', '.rar', '.zip', '.7z', '.tar'];
+
+document.getElementsByClassName('image-upload-wrap')[0].addEventListener(
+	'dragover', 
+	function () { document.getElementsByClassName('image-upload-wrap')[0].classList.add('image-dropping'); }
+);
+
+document.getElementsByClassName('image-upload-wrap')[0].addEventListener(
+	'dragleave', 
+	function () { document.getElementsByClassName('image-upload-wrap')[0].classList.remove('image-dropping'); }
+);
+
+function ReadAsDataUrl(input) {
+  let reader = new FileReader();
+
+  reader.onload = function (e) {
+    setPreviewSource(e.target.result, input.files[0].name);
+  };
+
+  reader.readAsDataURL(input.files[0]);
+}
+
+function doWeNeedServerRender(file) {
+  let fileName = file.name.toLowerCase();
+  for (let i = 0; i < needServerRenderFormats.length; i++) {
+    if (fileName.endsWith(needServerRenderFormats[i])) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function updateWorkspace(uploaded) {
+	    let uploadedBlock = document.getElementById('upload-block');
+		let optionsBlock = document.getElementById('compress-options-block');		
+  if (uploaded) {  	
+		uploadedBlock.classList.add("col-md-6");
+		uploadedBlock.classList.remove("col-md-12");
+		uploadedBlock.classList.remove("hidden");
+    } else {
+		uploadedBlock.classList.add("col-md-12");
+		uploadedBlock.classList.remove("col-md-6");
+		uploadedBlock.classList.add("hidden");		
+    }  
+}
+
+function setPreviewSource(source, fileName) {
+  document.getElementsByClassName('image-upload-wrap')[0].style.display = 'none';
+  document.getElementsByClassName('file-upload-image')[0].setAttribute('src', source);
+  document.getElementsByClassName('file-upload-content')[0].style.display = 'block';
+  document.getElementsByClassName('image-title')[0].innerHTML = fileName;
+}
+
+function removeUpload() {
+  document.getElementsByClassName("file-upload-content")[0].style.display = "none";
+  document.getElementsByClassName("image-upload-wrap")[0].style.display = "block";
+  document.getElementsByClassName("convert-options")[0].style.display = "none";
+  document.getElementsByClassName("file-upload-btn")[0].innerHTML = "Add Image"
+}
+
+function isValidExtension(fileName) {
+  
+  var lowerFileName = fileName.toLowerCase();
+
+  for (var i = 0; i < supportedUpload.length; i++) {
+      if (lowerFileName.endsWith(supportedUpload[i])) {
+          return true;
+      }
+  }
+
+  return false;
+};
+
+function setWaitingStatus(waiting) {
+    var compressPsdbtn = document.getElementById('psdCompressBtn');
+
+    if (waiting) {
+        compressPsdbtn.removeEventListener(
+            "click",
+            compressOnClick
+        );
+        compressPsdbtn.classList.add("waiting");
+    } else {
+        compressPsdbtn.addEventListener(
+            "click",
+            compressOnClick
+        );
+        compressPsdbtn.classList.remove("waiting");
+    }
+}
+
+function compressOnClick (e) {
+    e.preventDefault();
+    setWaitingStatus(true);
+    var options = collectCompressOptions();
+    let filename = window.psdUploadedFiles[0].fileName;
+    let folderId =  window.psdUploadedFiles[0].idUpload;
+
+    let compressPromise = postAsync(
+        baseUrl + "psd/compress/api/compress?folderId=" + folderId + "&file=" + filename,
+        JSON.stringify(options),
+        "application/json; charset=utf-8"
+    );
+
+    compressPromise.then((response) => {	    
+		downloadURI(baseUrl + "psd/compress/api/GetCompressed?folderId=" + folderId + "&file=" + filename);
+        setWaitingStatus(false);
+    }).catch((response) => {
+        setWaitingStatus(false);
+    });
+}
+
+function GetPreview(filename, folderId) {
+  let url = "psd/compress/api/GetPreview?" + filename + folderId;
+  let previewPromise = getAsync(url);
+ 
+  previewPromise.then((response) => {
+  }).catch((response) => {
+    console.error(response);
+  });
+  }
+
+function downloadURI(uri, name) 
+{
+  let link = document.createElement("a");
+  link.setAttribute('download', name);
+  link.href = uri;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+}
+
+
+function startPromiseTimer(promise, methodToDo) {
+  let isPromiseResolved = false;
+
+  promise.then((response) => {
+    isPromiseResolved = true;
+  }).catch((response) => {
+      isPromiseResolved = true;
+  });
+
+  var localTimer = setInterval(function() {
+    if (isPromiseResolved) {
+      clearInterval(localTimer);
+    } else {
+      methodToDo();
+    }
+  }, 500);
+}
+
+function onFileInputChange(input, e)
+{  
+  e.preventDefault();
+  if (input.files && input.files[0]) {
+    let files = e.target.files;
+    document.getElementsByClassName("compress-options")[0].style.display = "none";
+    document.getElementsByClassName("file-upload-btn")[0].innerHTML = "Loading";
+    let needServerRender = doWeNeedServerRender(input.files[0]);
+    let postFilesPromise = postFilesAsync(files);
+    startPromiseTimer(postFilesPromise, () => { document.getElementsByClassName("file-upload-btn")[0].innerHTML += "."; } );
+
+    if (!needServerRender) {
+      ReadAsDataUrl(input);
+    }
+
+    postFilesPromise.then((response) => {		
+		updateWorkspace(true);
+        let responceJson = JSON.parse(response);
+        let isMultipleUpload = Array.isArray(responceJson);
+
+		let folder = responceJson.FolderId;
+		let filename = responceJson.FileName;		
+		let optionsUrl = "psd/compress/api/GetCompressOptions/?folderId=" + folder + "&file=" + filename;
+		let getCompressOptionsPromise = getAsync(optionsUrl);
+			
+		getCompressOptionsPromise.then((response) => {
+        var checkBoxStatuses = $.parseJSON(response);
+			for (var propertyName in checkBoxStatuses) {
+				$("#" + propertyName).attr("disabled", !checkBoxStatuses[propertyName]);
+
+				if (propertyName == "RleCompressing" || propertyName == "CachedDataRemove") {
+					$("#" + propertyName).attr("checked", checkBoxStatuses[propertyName]);
+				}
+			}
+		});
+
+		
+		
+        if (needServerRender) {
+          let filename = window.psdUploadedFiles[0].fileName;
+          let folderId =  window.psdUploadedFiles[0].idUpload;
+          let url = baseUrl +  "psd/compress/api/GetPreview?folderId=" + folderId + "&file=" + filename;
+
+          setPreviewSource(url, input.files[0].name);
+        } 
+        document.getElementsByClassName("compress-options")[0].style.display = "block";
+        document.getElementsByClassName("file-upload-btn")[0].innerHTML = "Select another"
+		setWaitingStatus(false);
+    }).catch((response) => {
+        console.error(response);
+    });
+  }
+}
+
+function collectCompressOptions() {
+    var compressOptions = $('.compressoption > input');
+    var options = {};
+    for (var i = 0; i < compressOptions.length; i++) {
+        options[compressOptions[i].id] = compressOptions[i].checked;
+    }
+
+    return options;
+}
+
+function postFilesAsync(files) {
+  if (files.length === 1) {
+      var requestData = prepareRequestFilesData(files);
+      return postAsync(baseUrl + "psd/common/api/UploadFile", requestData);
+  }
+
+  var requestData = prepareRequestFilesData(files);
+  return postAsync(baseUrl + "psd/common/api/UploadFiles", requestData);
+}
+
+function prepareRequestFilesData(filesList) {
+  var form_data = new FormData();
+
+  for (var i = 0; i < filesList.length && i < 10; i++) {
+      form_data.append('file', filesList[i]);
+  }
+
+  return form_data;
+}
+
+function postAsync(url, requestBody, contentType) {
+  if (!contentType) {
+      contentType = false;
+  }
+
+  return new Promise(function (succeed, fail) {
+      $.ajax({
+          url: url,
+          data: requestBody,
+          type: 'POST', dataType: 'text', cache: false, contentType: contentType, processData: false,
+
+          success: function (response) {
+              registerUpload(url, response);
+              succeed(response);
+          },
+
+          error: function (response) {
+              fail(response);
+          }
+      });
+  });
+}
+
+function getAsync(url, contentType) {
+
+if (!contentType) {
+    contentType = false;
+}
+
+return new Promise(function (succeed, fail) {
+    $.ajax({
+        url: baseUrl + url,
+        dataType: 'text',
+        cache: false,
+        contentType: contentType,
+        processData: false,
+        type: 'GET',
+        success: function (response) {
+            succeed(response);
+        },
+        error: function (response) {
+            fail(response);
+        }
+    });   
+});
+}
+
+function registerUpload(url, resp) {
+  if (!url || url.toLowerCase().indexOf('uploadfile') < 0) {
+      return;
+  }
+
+  let response = JSON.parse(resp);
+
+  if (!window.psdUploadedFiles) {
+      window.psdUploadedFiles = [];
+  }
+
+  let file = {
+      idUpload: response.FolderId,
+      fileName: response.FileName
+  };
+
+  if (window.psdUploadedFiles.length == 0) {
+    window.psdUploadedFiles.push(file);
+  } else {
+    window.psdUploadedFiles[0] = file;
+  }
+}
+
+
+// Tabs functionalities 
+function openTab(evt, tabName) {
+  let i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+	
+  document.getElementById(tabName).style.display = "block";
+  
+  
+  if (evt != null) {
+	  evt.currentTarget.className += " active";
+  }
+}
+
+const tabsList = ["Live", "Code", "Docs"];
+
+tabsList.forEach(el => {
+	let tabName = "tab-" + el.toLowerCase();
+	let tab = document.getElementById(tabName);
+	tab.addEventListener("click", () => { openTab(null, el); } )
+} );
+
+openTab(null, "Live");
+setWaitingStatus(true);
+</script>
+
+<style>
+
+.hidden {
+	display: none;
+}
+
+.link-list {
+	margin-top: 20px;
+	padding: 0px 0px 0px 35px;
+	margin-bottom: 20px;
+}
+
+.link-item {
+	line-height: 3;
+}
+
+  .compressoption label {
+	font-weight: 400;
+	font-size: 14px;
+  }
+
+	h4.compress-options-header  {
+	    color: #4d92ca;
+		text-transform: uppercase;
+		ont-weight: 400;
+	}
+	
+	.compress-options {
+		display: none;
+	}
+
+  .file-upload {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .file-upload-btn {
+    width: 100%;
+	border-bottom: 4px solid #1b4b72;
+    background: #30638e;   
+    height: 40px;
+    padding: 10px;   
+  }
+
+ 
+  .file-upload-btn:hover {
+    background: #4d92ca;
+    border-bottom: 4px solid #30638e;
+  }
+  
+  .file-upload-btn:active {
+    border-bottom: 2px solid #1b4b72;
+    margin-top: 2px;
+    height: 38px;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .image-upload-wrap {
+    margin-top: 20px;
+    border: 4px dashed #30638e;
+    position: relative;
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+    background-color: rgba(102,187,255,.1);
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    text-align: center;
+  }
+  
+  .drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #4d92ca;
+    border-bottom-color: #30638e;
+    padding: 12px 5px 20px 5px;
+  }
+  
+  .file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .compressbtn {
+	margin: 10px auto 0;
+  }
+  
+  .remove-image {    
+    background: #cd4535;
+    border-bottom: 4px solid #b02818;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+  }
+  
+  .remove-image:active {
+    border-bottom: 2px solid #b02818;
+  }
+  
+  .confirm {    
+    background: #4d8127;
+    border-bottom: 4px solid #2c5210;
+  }
+  
+  .confirm:hover {
+    background: #559527;
+  }
+  
+  .confirm:active {
+    border-bottom: 2px solid #2c5210;
+  }
+</style>

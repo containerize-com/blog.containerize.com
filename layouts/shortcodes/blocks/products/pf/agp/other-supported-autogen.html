@@ -1,0 +1,49 @@
+{{ $outformat := $.Page.Params.outformat }}
+{{ $outformats := split $.Page.Params.otherformats " " }}
+{{ $formatname := "" }}
+{{ $formatdetails := newScratch }}
+{{ range site.Data.fileformats }}
+    {{ if in $outformats .format}}
+        {{ $formatdetails.Set .format (index . "name") }}
+    {{ end }}
+{{ end }}
+{{ $IsRelLangUrlEnabled := (strings.HasSuffix (strings.TrimSuffix "/" .Site.BaseURL) "psd") }}
+
+<div class="col-md-12 pt-5 pb-5 convertypes bg-white agp-content section" id="dvOtherSupportedConversions">
+    <div class="container">
+        <h3 id="hOtherSupportedFeatureHeading tc" class="tc d-block">Other {{ humanize $.Page.Params.feature }} Options</h3>
+        <!--<p id="pOtherSupportedFeatureSubHeading" class="tc d-block ">You can also convert {{ $.Page.Params.informat }} into many other file formats.</p>-->
+        <div class="row other-converters">
+            {{ range $outformats}}
+                {{ if . }}
+                <div class="col-md-3 other-converter">
+
+                    {{ $inputLinkArg := "" }}
+
+                    {{ if $IsRelLangUrlEnabled }}
+                        {{ $inputLinkArg = print (lower $.Page.Params.platformtag) "/" (lower $.Page.Params.feature) "/" (lower $.Page.Params.informat) }}
+                    {{ else}}
+                        {{ $inputLinkArg = print "/" (lower $.Page.Params.family) "/" (lower $.Page.Params.platformtag) "/" (lower $.Page.Params.feature) "/" (lower $.Page.Params.informat) }}
+                    {{ end }}
+
+                    {{ if eq (lower $.Page.Params.feature) "conversion" }}
+                        {{ $inputLinkArg = print $inputLinkArg "-to-" (lower . ) "/" }}
+                    {{ else }}
+                        {{ $inputLinkArg = print $inputLinkArg "/" }}
+                    {{ end }}
+
+                    {{ if $IsRelLangUrlEnabled }}
+                        {{ $inputLinkArg = $inputLinkArg | relLangURL }}
+                    {{ end }}
+                    
+                    {{ if eq (lower $.Page.Params.feature) "conversion" }}
+                    <a href="{{ $inputLinkArg }}">{{ $.Page.Params.informat }} TO {{ . }}</a>  {{ if (ne ($formatdetails.Get .) nil) }}({{ ($formatdetails.Get .) }}){{ end }}
+                    {{ else }}
+                    <a href="{{ $inputLinkArg }}">{{ $.Page.Params.informat }} {{ humanize $.Page.Params.feature }}</a>  {{ if (ne ($formatdetails.Get .) nil) }}({{ ($formatdetails.Get .) }}){{ end }}
+                    {{ end }}
+                </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</div>

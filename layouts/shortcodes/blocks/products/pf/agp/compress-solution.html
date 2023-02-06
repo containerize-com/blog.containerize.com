@@ -1,0 +1,501 @@
+{{ $family := index (split .Page.RelPermalink "/") 1 }}
+{{ $feature := index (split .Page.RelPermalink "/") 2 }}
+{{ $map := dict "conversion" "convert" "annotation" "comment" "viewer" "view" "comparison" "compare" "signature" "eSign" "assembly" "create" "metadata" "document properties" "search" "find" "watermark" "watermark" "editor" "edit" "merger" "combine" "redaction" "redact" "splitter" "split"}}
+{{ $apiname := "" }}
+{{ $filecategory := "" }}
+{{ $primaryapp := "" }}
+{{ $secondaryapp := "" }}
+{{ $app := "" }}
+{{ $ioformats := "" }}
+{{ $outformats := "" }}
+{{ $informats := "" }}
+{{ $platforms := "" }}
+{{ $net := "" }}
+{{ $cpp := "" }}
+{{ $java := "" }}
+{{ $interconversion := "" }}
+{{ $fixedlayout := "" }}
+{{ $image := "" }}
+{{ $office := "" }}
+{{ $web := "" }}
+{{ $formatcategory := "" }}
+{{ $conversionvideo := "" }}
+{{ $conversion := "" }}
+{{ $specialin := ""}}
+{{ $specialout := ""}}
+{{ $details := site.Data.apis }}
+{{ range $details}}
+    {{ if eq $family .family }}
+        {{ $apiname = .apiname }}
+        {{ $filecategory = .filecategory }}
+        {{ $app = .app }}
+        {{ $primaryapp = .primaryapp }}
+        {{ $secondaryapp = .secondaryapp }}
+        {{ $ioformats = .ioformats }}
+        {{ $informats = .informats }}
+        {{ $platforms = .platforms }}
+        {{ $net = .net }}
+        {{ $java = .java }}
+        {{ $cpp = .cpp }}
+        {{ $conversion = .conversion }}
+        {{ $interconversion = .interconversion }}
+        {{ $fixedlayout = .fixedlayout }}
+        {{ $image = .image }}
+        {{ $office = .office }}
+        {{ $web = .web }}
+        {{ $specialin = .specialin }}
+        {{ $specialout = .specialout }}
+        {{ $conversionvideo = .conversionvideo }}
+    {{ end }}
+{{ end }}
+{{ $limit:= .Page.Params.limit | default 4 }}
+{{ $netconversionlink:=""}}
+{{ $javaconversionlink:=""}}
+{{ $cppconversionlink:=""}}
+{{ $interconversionformats := split $interconversion " " }}
+{{ $imageformats := split $image " " }}
+{{ $fixedlayout := split $fixedlayout " " }}
+{{ $web := split $web " " }}
+{{ $office := split $office " " }}
+{{ $interconversionpages := newScratch }}
+{{ $imagepages := newScratch }}
+{{ $fixedlayoutpages := newScratch }}
+{{ $webpages := newScratch }}
+{{ $officepages := newScratch }}
+{{ $specialinpages := newScratch }}
+{{ $specialoutpages := newScratch }}
+{{ $familyposition := 1 }}
+{{ $platformposition := 2 }}
+{{ $featureposition := 3 }}
+{{ $slugposition := 4 }}
+{{ range .Site.Pages }}
+  {{ if (eq (index (split .RelPermalink "/") $featureposition) $feature) }}
+
+    {{ $in :=  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }}
+    {{ $out := upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1) }}
+
+    {{ if and (ne $out "") (ne $in "") (ne $interconversion nil)  }}
+      {{ if or (in $interconversion $in) (in $interconversion $out )}}
+        {{ $interconversionpages.Add (index (split .RelPermalink "/") $platformposition) (slice .) }}
+      {{ end }}
+    {{ end }}
+    {{ if and (ne $out "") (ne $image nil) (in $image $out) }}
+      {{ $imagepages.Add (index (split .RelPermalink "/") $platformposition) (slice .) }}
+    {{ end }}
+    {{ if and (ne $out "") (ne $in "") (ne $fixedlayout nil) (in $fixedlayout $out) }}
+      {{ $fixedlayoutpages.Add (index (split .RelPermalink "/") $platformposition) (slice .) }}
+    {{ end }}
+    {{ if and (ne $out "") (ne $in "") (ne $web nil) (in $web $out) }}
+      {{ $webpages.Add (index (split .RelPermalink "/") $platformposition) (slice .) }}
+    {{ end }}
+    {{ if and (ne $out "") (ne $in "") (ne $office nil) (in $office $out) }}
+      {{ $officepages.Add (index (split .RelPermalink "/") $platformposition) (slice .) }}
+    {{ end }}
+    {{ if and (ne $specialin "") (ne $in "") (eq $in $specialin) }}
+      {{ $specialinpages.Add (index (split .RelPermalink "/") $platformposition) (slice .) }}
+    {{ end }}
+    {{ if and (ne $specialout "") (ne $out "") (eq $out $specialout) }}
+      {{ $specialoutpages.Add (index (split .RelPermalink "/") $platformposition) (slice .) }}
+    {{ end }}
+  {{ end }}
+{{end }}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<div itemprop="articleBody">  
+    <div class="smaller text-center header-bg row align-item-center justify-content-center flex-column">
+        <h1 class="pt-4 font-40 pb-1 font-b text-white">{{ $primaryapp | markdownify }} Format {{ $feature | humanize}} Solution</h1>
+        <h4 class="font-20 font-m text-white pb-4 text-center">{{ index $map $feature | humanize }} {{ $app }}{{if $secondaryapp}} and {{$secondaryapp | markdownify }}{{end}} {{$filecategory | lower }}s with cross-platform apps or via code on {{$platforms}}</h4>
+    </div>
+    <div class="contentlist pt-3 pb-3 mb-5">
+      <div class="container">
+        <div class="row">
+            {{ $features := slice "merger" "compress" "conversion" "signature" "watermark" "viewer" "annotation" "parser" "unlock" "protect" "splitter" "comparison" "redaction" "search"}}
+            {{ $feature := (index (split .Page.RelPermalink "/") (sub $featureposition 1) ) }}
+            {{ if and ($conversion) (in $features $feature) }}
+              <div class="col-md-12 mt-4 mb-0 tc diagram-tab-content">
+              <h3 class="headingpdleft">Free Online App for {{ $filecategory }} Compress</h3>
+              <p>{{ $conversion | markdownify }}</p>
+              </div>
+              <iframe style="border: medium none; width: 100%;" scrolling="no" src="https://products.aspose.app/total/{{$feature}}/embed&h1&h2" id="child-iframe" data-dashlane-frameid="4294967393" width="100%"></iframe>
+              <script>
+                $(document).ready(function() {
+                          window.addEventListener('message', function(e) {
+                          var $iframe = jQuery("#child-iframe");
+                          if (e.data.hasOwnProperty("height")) {
+                            $iframe.height(e.data.height);
+                          }
+                        }, false);
+                    });
+              </script>
+
+              <div class="col-md-12 tc mt-5 mb-5 btnbar">
+              </div>
+            {{ end }}
+            
+            
+
+            {{ if and ($net) (or ($interconversionpages.Get "net") ($imagepages.Get "net") ($fixedlayoutpages.Get "net") ($webpages.Get "net") ($officepages.Get "net") ($specialinpages.Get "net")  ($specialoutpages.Get "net") ) }}
+            <div class="col-md-12 mt-4 mb-0 tc diagram-tab-content">
+                <h3 class="headingpdleft">.NET APIs for {{ $app }} {{ $filecategory | humanize}}s</h3>
+                <p>{{ $net | markdownify }}</p>
+            </div>
+
+            {{ if $webpages.Get "net"}}
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                  <h3 class="font-20 font-b text-black m-0">Convert {{ $filecategory}}s to Web</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($webpages.Get "net")}}
+                  <li class="convert-platform">
+                      {{ $netconversionlink = .Parent.RelPermalink }}
+                      <a href="{{ .RelPermalink }}"><b>Convert</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C#</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            {{ else if $specialoutpages.Get "net"}}
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                <h3 class="font-20 font-b text-black m-0"> Convert to {{$specialout}} Format</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($specialoutpages.Get "net")}}
+                  <li class="convert-platform">
+                      {{ $netconversionlink = .Parent.RelPermalink }}
+                      <a href="{{.RelPermalink}}"><b>Convert</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C++</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+           {{ end }}
+
+            {{ if $imagepages.Get "net"}}
+            
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                <h3 class="font-20 font-b text-black m-0">Convert {{ $app }} to Image</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($imagepages.Get "net") }}
+                  <li class="convert-platform">
+                     {{ $netconversionlink = .Parent.RelPermalink }}
+                      <a href="{{.RelPermalink}}"><b>Render</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} as {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }}<em> via C#</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+
+            {{ else if $interconversionpages.Get "net"}}
+     
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                  <h3 class="font-20 font-b text-black m-0">Inter-convert {{ $filecategory | humanize}}s</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($interconversionpages.Get "net")}}
+                  <li class="convert-platform">
+                      {{ $netconversionlink = .Parent.RelPermalink }}
+                      <a href="{{ .RelPermalink }}"><b>Convert</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C#</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            {{ end }}
+
+            {{ if $specialinpages.Get "net"}}
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                <h3 class="font-20 font-b text-black m-0">Export {{ $specialin }} Files</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($specialinpages.Get "net")}}
+                  <li class="convert-platform">
+                    {{ $netconversionlink = .Parent.RelPermalink }}
+                      <a href="{{.RelPermalink}}"><b>Export</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C#</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            {{ else if $fixedlayoutpages.Get "net"}}
+            <!-- Productbox-->
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                <h3 class="font-20 font-b text-black m-0">{{ $app }} to PDF Converter</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($fixedlayoutpages.Get "net")}}
+                  <li class="convert-platform">
+                    {{ $netconversionlink = .Parent.RelPermalink }}
+                      <a href="{{.RelPermalink}}"><b>Export</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C#</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+            {{ end }}
+
+            {{ if ne $netconversionlink "" }}
+            <div class="col-md-12 tc mt-5 mb-5 btnbar">
+              <a class="btn-primary btn-lg whitebg" href="{{$netconversionlink}}">Explore {{ $app }} Conversion Options with .NET</a>
+            </div>
+            {{ end }}
+            {{ end }}
+
+          {{ if and ($java) (or ($interconversionpages.Get "java") ($imagepages.Get "java") ($fixedlayoutpages.Get "java") ($webpages.Get "java") ($officepages.Get "java") ($specialinpages.Get "java")  ($specialoutpages.Get "java") )}}
+          <div class="col-md-12 mt-4 mb-0 tc diagram-tab-content">
+              <h3 class="headingpdleft">Java Class Library to Process & Convert {{ $app  }} {{ $filecategory | humanize}}s</h3>
+              <p>{{ $java | markdownify }}</p>
+          </div>
+          
+          {{ if $interconversionpages.Get "java"}}
+          <!-- Productbox-->
+          <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+            <div class="col-md-12">
+                <h3 class="font-20 font-b text-black m-0">Import & Export {{ $filecategory  }}s</h3>
+            </div>
+            <div class="col-md-12 convert-platform-types">
+              <ul>
+                {{ range first $limit ($interconversionpages.Get "java")}}
+                <li class="convert-platform">
+                    {{$javaconversionlink = .Parent.RelPermalink }}
+                    <a href="{{.RelPermalink}}"><b>Convert</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via Java</em></a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          {{ else if $officepages.Get "java"}}
+          
+          <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+            <div class="col-md-12">
+              <h3 class="font-20 font-b text-black m-0">{{ $app }} to Office Formats</h3>
+            </div>
+            <div class="col-md-12 convert-platform-types">
+              <ul>
+                {{ range first $limit ($officepages.Get "java") }}
+                <li class="convert-platform">
+                  {{$javaconversionlink = .Parent.RelPermalink }}
+                    <a href="{{.RelPermalink}}"><b>Export</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via Java</em></a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          {{ else if $webpages.Get "java"}}
+    
+          <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+            <div class="col-md-12">
+              <h3 class="font-20 font-b text-black m-0">Convert {{ $filecategory }} to HTML</h3>
+            </div>
+            <div class="col-md-12 convert-platform-types">
+              <ul>
+                {{ range first $limit ($webpages.Get "java") }}
+                <li class="convert-platform">
+                  {{$javaconversionlink = .Parent.RelPermalink }}
+                    <a href="{{.RelPermalink}}"><b>View</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} as {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via Java</em></a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          {{ end }}
+
+          {{ if $specialinpages.Get "java"}}
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                <h3 class="font-20 font-b text-black m-0">Export {{ $specialin }} Files</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($specialinpages.Get "java")}}
+                  <li class="convert-platform">
+                    {{$javaconversionlink = .Parent.RelPermalink }}
+                      <a href="{{.RelPermalink}}"><b>Export</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via Java</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          {{ else if $imagepages.Get "java"}}
+    
+          <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+            <div class="col-md-12">
+              <h3 class="font-20 font-b text-black m-0">Export {{ $app }} as Images</h3>
+            </div>
+            <div class="col-md-12 convert-platform-types">
+              <ul>
+                {{ range first $limit ($imagepages.Get "java") }}
+                <li class="convert-platform">
+                  {{$javaconversionlink = .Parent.RelPermalink }}
+                    <a href="{{.RelPermalink}}"><b>View</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} as {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via Java</em></a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          
+          {{ end }}
+
+
+          {{ if $specialoutpages.Get "java" }}
+          <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+            <div class="col-md-12">
+              <h3 class="font-20 font-b text-black m-0">Convert {{$filecategory}}s to {{$specialout}}</h3>
+            </div>
+            <div class="col-md-12 convert-platform-types">
+              <ul>
+                {{ range first $limit ($specialoutpages.Get "java")}}
+                <li class="convert-platform">
+                  {{$javaconversionlink = .Parent.RelPermalink }}
+                    <a href="{{.RelPermalink}}"><b>Transform</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via Java</em></a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          {{ else if $fixedlayoutpages.Get "java"}}
+          <!-- Productbox-->
+          <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+            <div class="col-md-12">
+              <h3 class="font-20 font-b text-black m-0">Convert to {{ delimit $fixedlayout " "}}</h3>
+            </div>
+            <div class="col-md-12 convert-platform-types">
+              <ul>
+                {{ range first $limit ($fixedlayoutpages.Get "java")}}
+                <li class="convert-platform">
+                  {{$javaconversionlink = .Parent.RelPermalink }}
+                    <a href="{{.RelPermalink}}"><b>Transform</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via Java</em></a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          {{ end }}
+  
+          {{ if ne $javaconversionlink "" }}
+          <div class="col-md-12 tc mt-5 mb-5 btnbar">
+            <a class="btn-primary btn-lg whitebg" href="{{$javaconversionlink}}">Explore {{ $app  }} Conversion Options with Java</a>
+          </div>
+          {{ end }}
+        {{ end }}
+
+        {{ if and ($cpp) (or ($interconversionpages.Get "cpp") ($imagepages.Get "cpp") ($fixedlayoutpages.Get "cpp") ($webpages.Get "cpp") ($officepages.Get "cpp") ($specialinpages.Get "cpp")  ($specialoutpages.Get "cpp") )}}
+        <div class="col-md-12 mt-4 mb-0 tc diagram-tab-content">
+            <h3 class="headingpdleft">C++ Library to Manipulate {{ $app  }} Files</h3>
+            <p>{{ $cpp | markdownify }}</p>
+        </div>
+
+        {{ if ($webpages.Get "cpp")}}
+        <!-- Productbox-->
+        <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+          <div class="col-md-12">
+              <h3 class="font-20 font-b text-black m-0">Convert {{ $filecategory }}s to HTML</h3>
+          </div>
+          <div class="col-md-12 convert-platform-types">
+            <ul>
+              {{ range last $limit ($webpages.Get "cpp")}}
+              <li class="convert-platform">
+                  {{ $cppconversionlink = .Parent.RelPermalink }}
+                  <a href="{{.RelPermalink}}"><b>Convert</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C++</em></a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+        
+        {{ if $specialoutpages.Get "cpp"}}
+            <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+              <div class="col-md-12">
+                <h3 class="font-20 font-b text-black m-0"> Convert {{$app}} to {{$specialout}}</h3>
+              </div>
+              <div class="col-md-12 convert-platform-types">
+                <ul>
+                  {{ range first $limit ($specialoutpages.Get "cpp")}}
+                  <li class="convert-platform">
+                    {{ $cppconversionlink = .Parent.RelPermalink }}
+                      <a href="{{.RelPermalink}}"><b>Convert</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C++</em></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+        {{ else if $imagepages.Get "cpp"}}
+        <!-- Productbox-->
+        <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+          <div class="col-md-12">
+            <h3 class="font-20 font-b text-black m-0">{{ $app }} to {{ $image  }}</h3>
+          </div>
+          <div class="col-md-12 convert-platform-types">
+            <ul>
+              {{ range first $limit ($imagepages.Get "cpp") }}
+              <li class="convert-platform">
+                {{ $cppconversionlink = .Parent.RelPermalink }}
+                  <a href="{{.RelPermalink}}"><b>View</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} as {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }}<em> using C++</em></a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+    
+        {{ if $fixedlayoutpages.Get "cpp"}}
+        <!-- Productbox-->
+        <div class="col-md-4 pt-3 pb-3 mt-2 mb-2 pr-boxlist">
+          <div class="col-md-12">
+            <h3 class="font-20 font-b text-black m-0">Export {{$filecategory}}s to PDF XPS</h3>
+          </div>
+          <div class="col-md-12 convert-platform-types">
+            <ul>
+              {{ range first $limit ($fixedlayoutpages.Get "cpp")}}
+              <li class="convert-platform">
+                {{ $cppconversionlink = .Parent.RelPermalink }}
+                  <a href="{{.RelPermalink}}"><b>Export</b> {{ upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 0) }} to {{  upper (index (split (index (split .RelPermalink "/") $slugposition) "-to-") 1 ) }} <em> via C++</em></a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+
+  
+        {{ if ne $cppconversionlink "" }}
+        <div class="col-md-12 tc mt-5 mb-5 btnbar">
+          <a class="btn-primary btn-lg whitebg" href="{{$cppconversionlink}}">Explore {{ $app }} Conversion Options with C++</a>
+        </div>
+        {{ end }}
+      {{ end }}
+        {{ if ne $conversionvideo nil }}
+          <div class="col-md-12 mt-4 mb-0 tc diagram-tab-content">
+            <h3 class="headingpdleft">Cross Platform Apps for {{ $app }} Conversion</h3>
+            <p>{{ $conversion | markdownify }}</p>
+            <a href="{{$conversionvideo}}"><img src="video-preview.png"></a>
+          </div>
+          
+          <div class="col-md-12 tc mt-5 mb-5 btnbar">
+            <a class="btn-primary btn-lg whitebg" href="https://products.aspose.app/{{$family}}/{{$feature}}">Explore Free {{ $app }} Conversion App</a>
+          </div>
+        {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <link rel="stylesheet" href="https://cms.admin.containerize.com/templates/releases/css/bootstrap.css"
+  type="text/css" />
+  <link rel="stylesheet" href="https://cms.admin.containerize.com/templates/aspose/css/common.css?v0.30"
+  type="text/css" />
+  <link rel="stylesheet" href="https://cms.admin.containerize.com/templates/releases/css/releases-template.css?v1.1"
+  type="text/css" />
+  <style>
+  .convert-platform-types ul{padding:0 20px;margin:10px 0;list-style-type:disc}.convert-platform a{font-size:14px;color:#0082cb;cursor:pointer;padding:10px 0!important;font-weight:700;color:#0082cb;border-bottom:1px dashed #ccc;display:block;margin:0;}.convert-platform-types li:last-child a{border:0!important}.convert-platform a b{font-weight:400;color:#333}.convert-platform a em{font-style:normal;font-weight:400;color:#333}.pr-boxlist p{color:#7c7c7c}.contentlist div,a,a:hover{transition:.1s all ease-in-out}.font-14{font-size:14px}.font-16{font-size:16px}.font-18{font-size:18px}.font-20{font-size:20px}.font-22{font-size:22px}.font-24{font-size:24px}.font-30{font-size:30px}.font-40{font-size:40px}.font-50{font-size:50px}.font-70{font-size:70px}.font-b{font-weight:700}.font-n{font-weight:400}.font-m{font-weight:700}.font-l{font-weight:100}.header-bg{background:url(../img/header-app.png) no-repeat center center transparent;background-size:cover}.productlistingbox{padding:0 0 0 82px;margin-top:5px;margin-bottom:0}.productlistingbox a{color:#333;margin-bottom:5px;font-size:14px;display:block}.productlistingbox li:last-child a{margin-bottom:0!important}.pr-boxlist h3:hover a,.pr-boxlist h3:hover a span,.productlistingbox a:hover{color:#0082cb}.pr-boxlist h3 a{color:#000}.pr-boxlist h3 span{color:#666}.pr-boxlist:hover{background:#f8f9fa}.productlistingbox a{padding-right:15px}@media(max-width:1100px){.pr-boxlist{max-width:50%;flex:none;text-align:left!important}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.content2 .box1 blockquote footer,.content2 .box1 h6{text-align:left!important}}.font-20{font-size:18px!important}.pr-boxlist .col-md-2{width:auto}@media(max-width:668px){.row{margin:0!important}.container{max-width:100%;padding:0!important}.pr-boxlist{max-width:100%;flex:none;border-bottom:1px solid #efefef;margin:0!important;padding:30px 20px!important}.pr-boxlist:last-child{border:0!important}.productlistingbox a{font-size:18px;margin-bottom:10px!important}.bigger{padding:0 20px!important}.bigger h1{font-size:55px!important}.contentlist{padding:0!important}.header-bg h4{margin-bottom:0!important}}.productlistingbox { padding-left:30px!important;}.productlistingbox :last-child{ border-bottom:0;}.productlistingbox li {border-bottom: 1px dashed #cccccc; padding: 5px 0 5px 5px; font-size: 14px;}.productlistingbox li span{ display:inline-block;}.list-links a{font-size: 12px!important;    color: #0082cb; cursor: pointer;}.productlistingbox a { display: inherit!important; padding-right:0px!important;}.header-bg {background: url(https://cms.admin.containerize.com/templates/releases/img/header-app.png) no-repeat center center transparent;background-size: cover;}@media (max-width: 668px){.pi-product-title { padding-left:20px!important; } .productlistingbox li{ font-size: 14px!important; }.smaller.header-bg{margin:0 -15px!important}}@media (max-width: 1100px){.pr-boxlist{margin-left:0!important;}}@media(max-width:668px){.diagram-tab-content,.smaller.header-bg h4{padding:0 20px}.btnbar{display:block;width:100%;text-align:center!important}.convert-platform a{border:0!important}}</style>

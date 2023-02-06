@@ -1,0 +1,19 @@
+{{ $inputLinkArg := .Get "productLink" }}
+{{ if strings.HasSuffix (strings.TrimSuffix "/" .Site.BaseURL) "psd" }}
+{{ $inputLinkArg = $inputLinkArg | relLangURL }}
+{{ end }}
+<div class="col-lg-4 col-md-6 col-sm-12 productfamily_box">
+    <div class="productfamilytitle">
+        <div class="imgblock"><img height="60" width="60" class="{{if in (.Get "title") "via"}}ico-70 {{ end }}lazy lazyloaded"
+                src='{{ .Get "imgSrc" }}'
+                alt='{{ .Get "pfName" }} {{ .Get "title" }}'></div>
+        <a href='{{ $inputLinkArg }}'>
+            <span class="spanclass">
+            {{ .Get "pfName" }}<em>{{ .Get "title" }}</em>
+            </span>
+            <em>
+                {{ .Inner | markdownify }}
+            </em>
+        </a>
+    </div>
+</div>

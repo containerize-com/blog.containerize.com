@@ -1,0 +1,10 @@
+<div class="container-fluid downloadbtn-section bg-darkgray tc">
+    <div class="row">
+        <div class="container">
+            <div class="col-lg-12">
+                <a class="btn btn-primary btn-lg" href='{{ .Get "downloadFreeTrialLink" }}'>{{ if .Get "downloadFreeTrialText" }} {{ .Get "downloadFreeTrialText" }} {{ else }}Download Free Trial {{ end }}</a>
+                <a class="btn btn-primary btn-lg" href='{{ .Get "pricingInformationLink" }}'>{{ if .Get "pricingInformationText" }} {{ .Get "pricingInformationText" }} {{ else }} Pricing Information {{ end }}</a>
+            </div>
+        </div>
+    </div>
+</div>

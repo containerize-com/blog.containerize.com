@@ -1,0 +1,149 @@
+.app-html-image-downloader 
+{
+  margin: auto;
+  // width: 50%;
+  margin: auto;
+  padding: 1px;
+
+  .header {
+    background: silver !important;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+
+    .header-caption 
+    {
+      align-self:flex-end;
+    }
+  }
+
+  .card{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-radius: 3px;
+    overflow: hidden;
+    img{
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      object-fit:contain;
+      filter: grayscale(50%) blur(2px);
+      transition: transform 1s ease;
+    }
+    .card-body{
+      padding: 2px;
+    }
+  }
+  .card:hover img {
+    // transform: scale(1.1);
+    filter: grayscale(0%);
+    // z-index: 999;
+  }
+
+  .card:not(:hover) {
+    // z-index: 1;
+  }
+
+  .card-deck-scrollable
+  {
+    overflow: auto;
+  }
+
+  .input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .input-group>.form-control, .input-group>.form-select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 2.5rem;
+  }
+
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+  .disabled {
+    /* Make the disabled links grayish*/
+    color: gray;
+    /* And disable the pointer events */
+    pointer-events: none;
+    opacity: .1;
+  }
+
+  .action-button{
+    //border: 1px solid grey;
+    background: transparent;
+    width: 2rem;
+    height: 2rem;
+    margin-left: -10px;
+    margin-right: 2px;
+    cursor: pointer;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    svg{
+      width: 80%;
+      height: 80%;
+    }
+
+    .tooltip{
+      visibility: hidden;
+      width: 140px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: relative;
+      bottom: 2.5em;
+      left: 2.5em;
+      margin-left: -10rem;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .action-button:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .search-button{
+    position: relative;
+    z-index: 2;
+    margin-left: -2rem;
+    margin-top: 0.25rem;
+  }
+}

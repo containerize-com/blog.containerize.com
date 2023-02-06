@@ -1,0 +1,22 @@
+{{ $name := .Get "name" | default "unknown" }}
+{{ $id := .Get "id" | default "1" }}
+{{ $elId := print "downloader-" $name "-" $id }}
+
+{{ $js := resources.Get "ts/app/html/downloader/image.ts" | js.Build }}
+{{ $scss := resources.Get "scss/app/html/_image-downloader.scss" }}
+{{ $css := resources.Get $scss | toCSS (dict "enableSourceMap" false) | postCSS }}
+<div id='{{ $elId }}'>
+    <template>{{ .Inner }}</template>
+</div>
+<script>
+Promise
+.all([
+    window.html.addScript('{{ $js.RelPermalink }}'), 
+    window.html.addStyle('{{ $css.RelPermalink }}')
+])
+.then((result) => 
+{
+    window.html.downloader.image('{{ $elId }}').show();
+})
+.catch(err =>  console.error(err));
+</script>

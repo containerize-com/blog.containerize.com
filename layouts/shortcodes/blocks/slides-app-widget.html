@@ -1,0 +1,74 @@
+{{ if and (.Get "appName") (.Get "sectionTitle")}}
+<div class="container-fluid agp-content bg-white aboutfile box-1 vh100 section nopbtm">
+    <div class="container">			   
+        <div class="row">
+            {{ block "demobox-app-part" . }}{{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
+
+
+{{ define "demobox-app-part" }}
+    {{ $height := dict "conversion" "426" "annotation" "410" "viewer" "410" "comparison" "410" "signature" "590" "metadata" "410" "search" "540" "watermark" "590" "merger" "410" "redaction" "640" "splitter" "550" "compress" "440" "parser" "410" "annotation" "410" "unlock" "510" "protect" "510" "verify-watermark" "410"}}
+
+    {{ $family := "slides" }}
+    {{ $app := .Get "appName" }}
+    {{ $extension := .Get "extension" }}
+    {{ $lang := cond (isset .Page.Params "lang") .Page.Params.lang .Site.Language.Lang }}
+    {{ $lang_url := cond (eq $lang "en") "" (printf "%s/" $lang)}}
+    {{ $domain_app := "https://products.aspose.app" }}
+    {{ $appUrl := printf "%s/slides/%swidget?appName=%s&extension=%s" $domain_app $lang_url $app $extension }}
+
+    {{ if $app }}
+        <div class="demobox tc col-md-12 padding-0">
+        <h3>{{ .Get "sectionTitle" | markdownify }} </h3>
+        <iframe onload="widgetLoaded()" style="border: none; height: {{index $height $app}}px;" scrolling="no" src="{{$appUrl}}" id="child-iframe" width="100%"></iframe>
+        
+        {{ if .Get "sectionDescription" }} 
+            <p style="font-size: 1.3rem;color: #3d8ec4;font-weight: 400;">{{ .Get "sectionDescription" | markdownify }}</p> 
+        {{ end }}
+        <script>
+            const appUrl = "{{$appUrl}}";
+            const iframe = document.getElementById('child-iframe');
+            function invokeGettingIframeHeight() {
+                iframe.contentWindow.postMessage("", appUrl);
+            }
+           const ro = new ResizeObserver((resizeList) => {
+               invokeGettingIframeHeight();
+            });
+               
+            function widgetLoaded() {
+                invokeGettingIframeHeight();
+
+                ro.observe(iframe);
+                iframe.addEventListener("onclick", invokeGettingIframeHeight());
+            }
+            
+            setIframeHeight = function(height) {
+                iframe.style.height = height + "px";
+            }            
+
+            function onMessage(event) {
+
+                var data = event.data;
+
+                if (typeof(window[data.func]) == "function") {
+                    window[data.func].call(null, data.message);
+                }
+            }
+
+            if (window.addEventListener) {
+                window.addEventListener("message", onMessage, false);        
+            } 
+            else if (window.attachEvent) {
+                window.attachEvent("onmessage", onMessage, false);
+            }
+        </script>
+        <style>
+        .autogen .demobox{margin-bottom: 0!important;}
+        .aboutfile.nopbtm{padding-bottom: 0!important}
+        </style>
+        </div>
+    {{ end }}
+{{ end }}

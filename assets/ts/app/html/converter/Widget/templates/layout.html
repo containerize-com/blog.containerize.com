@@ -1,0 +1,128 @@
+export const layout = `
+<div class="app-html-converter">
+    <div class="header">
+        Code example in C# to convert document formats
+    </div>
+    <div class="parameters">
+        <div class="row p-5">
+            <div class="col text-center" id="placeholder">
+
+            </div>
+        </div>
+        <div class="hidden" id="footer">
+            <div class="separator"></div>
+            <div class="row justify-content-md-center p-2">
+                <div class="col-auto my-auto">
+                    <span class="minw-100 description">Output Format</span>
+                </div>
+                <div class="col-auto">
+                    <select class="actionButton bg-blue outputFormat" id="outputFormat"></select>
+                </div>
+                <div class="col-auto">
+                    <a class="actionButton" type="button" id="run">
+                        <svg class="spinner hidden" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                        <span>Convert</span>
+                    </a>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="codeblock">
+        <pre class="code"><code id="snippet" class="hljs csharp"></code></pre>
+    </div>
+    <div class="footer">
+        <span class="error hidden" id="error"></span>
+		<div class="clipboard" id="clipboard">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+            </svg>&nbsp;
+            <span class="copyCodeButton" href="javascript:void(0)" id="copy">Copy C# code to the clipboard</span>
+        </div>
+	</div>
+</div>
+`
+
+export const card = `
+<div class="card my-1">
+    <div class="card-content black">
+        <div class="d-flex flex-column flex-md-row ">
+            <div class="align-self-center p-1">
+                <div class="text-truncate">
+                    <i class="fa fa-fw fa-link mr-1"></i><span id="name"></span>
+                </div>
+            </div>
+            <div class="align-self-center p-1 flex-grow-1"></div>
+            <div class="align-self-center px-1">
+                <a id="delete" title="Delete" class="d-none d-md-inline-block btn-delete"><i class="fa fa-times"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+`
+
+export const addFileSelect = `
+<div class="btn-group">
+    <button class="btn btn-lg bg-blue hover" type="button" id="addFile">
+        <input type="file" class="hidden" id="file">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus" viewBox="0 0 16 16">
+            <path d="M8 6.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 .5-.5z"/>
+            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+        </svg>
+        Add File
+    </button>
+    <button type="button" class="btn btn-lg dropdown-toggle dropdown-toggle-split bg-blue hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark bg-blue" aria-labelledby="dropdownMenuButton2">
+        <li>
+            <a class="dropdown-item" data-target="file">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus" viewBox="0 0 16 16">
+                    <path d="M8 6.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V11a.5.5 0 0 1-1 0V9.5H6a.5.5 0 0 1 0-1h1.5V7a.5.5 0 0 1 .5-.5z"/>
+                    <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                </svg>
+                From my Computer
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                    <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                    <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                </svg>
+                by URL
+            </a>
+        </li>
+    </ul>
+</div>
+`
+
+export const addUrlModal = `
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add file by URL</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">URL:</label>
+              <input type="text" class="form-control" id="url">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-target="ok" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+`
