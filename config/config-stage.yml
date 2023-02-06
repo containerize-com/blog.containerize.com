@@ -505,5 +505,5 @@ menu:
 
 deployment:
   targets:
-    name: "production"
+    name: "stage"
     URL: "s3://blog-qa.containerize.com/?region=us-west-2"
