@@ -50,3 +50,13 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS }}
+        
+    # Invalidate Cloudfront Home Page
+    - name: invalidate
+      uses: chetan/invalidate-cloudfront-action@master
+      env:
+          DISTRIBUTION: ${{ secrets.AWS_DISTRIBUTION }}
+          PATHS: /* /index.html
+          AWS_REGION: 'us-west-2'
+          AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS }}
