@@ -23,7 +23,7 @@ We will cover the following points:
 
   * [**What is Code GPT?**][7]
   * [**How to install the VSCode extension Code GPT?**][8]
-  * [**Retrieve OpenAI API Key & configure Code GPT **][9]
+  * [**Retrieve OpenAI API Key & configure Code GPT**][9]
   * [**Start using Code GPT – an AI-Powered OpenAI Code Generator**][10]
 
 ## What is Code GPT? {#What-is-CodeGPT}

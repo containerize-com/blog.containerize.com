@@ -49,9 +49,11 @@ Finally, the OpenAI GPT-3 has been installed in your Google Docs and you can sta
 
 It is time to start using this Google Docs Automation. Fur this purpose, a new tab will be opened by clicking “Extensions->App Script”. Now, copy and paste the following code into the code editor.
 
-<div class="wp-block-embed__wrapper">
+<!-- <div class="wp-block-embed__wrapper">
   https://gist.github.com/mustafabutt-dev/997afd9cc9f7285b055e053ad95ff298
-</div> 
+</div>  -->
+
+{{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 
 In the core above, replace the “xxxxxxxxxxxxxxx” with your OpenAI API key. Next, save the file and click “Run” placed on the top center of the code editor, and close the window. 
 

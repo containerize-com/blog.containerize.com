@@ -19,7 +19,7 @@ We have been publishing some really interesting and trending blog posts in the c
 
 We will cover the following **open-source AI libraries:**
 
-  * **[TensorFlow][2] **
+  * **[TensorFlow][2]**
   * **[PyTorch][3]**
   * **[Keras][4]**
   * **[Scikit-Learn][5]**
