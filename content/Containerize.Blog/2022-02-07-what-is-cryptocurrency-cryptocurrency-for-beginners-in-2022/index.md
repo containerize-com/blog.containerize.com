@@ -11,7 +11,7 @@ categories: ['Blockchain Platforms', 'Business Intelligence Software']
 ---
 ## Cryptocurrency is digital or virtual currency secured by cryptography and stored in crypto wallets. It’s a peer-to-peer system to buy & invest cryptocurrencies.
 
-<img src="http://localhost/wordpress/wp-content/uploads/2022/02/what-is-cryptocurrency.png" alt="What is Cryptocurrency? |{{< figure align=center src="images/what-is-cryptocurrency.png" alt="What is Cryptocurrency? | Cryptocurrency for Beginners| Cryptocurrency Explained | Cryptocurrency Basics">}}|{{< figure align=center src="images/what-is-cryptocurrency.png" alt="What is Cryptocurrency? | Cryptocurrency for Beginners| Cryptocurrency Explained | Cryptocurrency Basics">}}|{{< figure align=center src="images/what-is-cryptocurrency.png" alt="What is Cryptocurrency? | Cryptocurrency for Beginners| Cryptocurrency Explained | Cryptocurrency Basics">}}  
+{{< figure align=center src="images/what-is-cryptocurrency.png" alt="What is Cryptocurrency? | Cryptocurrency for Beginners| Cryptocurrency Explained | Cryptocurrency Basics">}}  
 
 ## **Overview**
 

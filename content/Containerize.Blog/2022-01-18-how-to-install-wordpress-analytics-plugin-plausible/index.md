@@ -24,7 +24,7 @@ In fact, there are millions of websites running over the internet and millions o
   * **[Plausible Analytics Plugin Dashboard][8]**
   * **[Conclusion][9]**
 
-## What is Plausible? {#What-is-Plausible?}
+## What is Plausible? {#What-is-Plausible}
 
 In this section, we will come to know about the Plausible analytics software. Plausible is a lightweight, free and open source business intelligence software that comes with self-hosting capabilities. It is highly configurable, privacy-focused, and completely compliant with international privacy laws. Further, this WordPress analytics plugin is cookie-less and offers provisions for the site owners to understand site visitors. In addition, it does not support personal data collection and cross-site tracking. Above all, Plausible offers an installation script just like Google Analytics and this installation script is 45 times lighter than Google Analytics’s script. Moreover, this Google Analytics alternative offers a wide range of features that includes unlimited websites, campaign tracking, Privacy oriented, and many more. 
 
@@ -78,7 +78,7 @@ You may find the following links relevant.
  [3]: https://blog.containerize.com/2021/10/26/how-to-install-matomo-for-wordpress-wordpress-tutorial/
  [4]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
  [5]: https://analytics.google.com/analytics/web/
- [6]: #What-is-Plausible?
+ [6]: #What-is-Plausible
  [7]: #Install
  [8]: #dashboard
  [9]: #Conclusion

@@ -24,13 +24,13 @@ In this blog post, we will go through **non-fungible tokens** by covering the fo
   * **[Crypto and NFT][6]**
   * **[NFT Marketplace][7]**
 
-## What is NFT? {#What-is-NFT?}
+## What is NFT? {#What-is-NFT}
 
 Non-fungible tokens are digital representations of data and data could be in any format such as a video file, audio file, movie ticket, drawing, or any social media comment or post. The name itself is explanatory that it is a token that is linked with any asset and contains ownership rights of that asset. Moreover, no one can interchange these digital assets and non-fungible in nature. Let’s take the example of fungible and non-fungible things. You can interchange your $10 note with two $5 notes which means money($10 note) is fungible and the same is the case with BTC or other cryptocurrencies that are interchangeable and contain the same value. Whereas, you cannot interchange a painting, or any art because you cannot denominate art. However, these digital assets are unique and have only one owner at a time.
 
 These tokens contain complete information from their creation time to the last transaction. In addition, it is more like buying or selling ownership rights of digital or physical assets. There can be many copies of a painting but the real file will reside under the ownership of an owner. Therefore, it can be sold or bought for an amount of money using secure channels such as blockchain. At this stage, we have an idea of **what is NFT** and we will go through the linkage of **non-fungible tokens** with the **distributed ledger** that is open source in nature. However, you can read more about blockchain and popular open source blockchain platforms in this [space][8].
 
-## NFT and Distributed Ledger(Blockchain) {#NFT-and-Distributed-Ledger(Bockchain)-}
+## NFT and Distributed Ledger(Blockchain) {#NFT-and-Distributed-Ledger-Bockchain}
 
 Non-fungible tokens are backed by blockchain technology just like cryptocurrencies. Every NFT resides on a digital distributed ledger that is publically available to everyone. The information about a particular token is available on the blockchain such as the owner of the token, creation date, and all transactions records. All the tokens are safe and secure as the digital ledger is shared among all the participants and there is no chance of forgery and other fraud. In the initial times of the non-fungible tokens, the Etheruem blockchain was supposed to handle the NFT transactions. Ethereum is open source and provides many enterprise-level provisions. Above all, the Ethereum blockchain platform also lets developers write smart contracts to govern the NFT transactions.
 
@@ -77,8 +77,8 @@ You may find the following links relevant:
  [1]: https://products.containerize.com/blockchain-platforms/
  [2]: https://blog.containerize.com/2021/11/17/top-5-free-open-source-crypto-wallets-in-2021/
  [3]: https://blog.containerize.com/2020/12/23/how-to-set-up-ethereum-node-on-localhost-beginners-guide/
- [4]: #What-is-NFT?
- [5]: #NFT-and-Distributed-Ledger(Bockchain)-
+ [4]: #What-is-NFT
+ [5]: #NFT-and-Distributed-Ledger-Bockchain
  [6]: #Crypto-and-NFT
  [7]: #NFT-Marketplace
  [8]: https://blog.containerize.com/category/blockchain-platforms/

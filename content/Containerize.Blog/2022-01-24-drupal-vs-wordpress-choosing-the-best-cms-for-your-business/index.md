@@ -11,7 +11,8 @@ categories: ['Content Management']
 ---
 ## WordPress and Drupal are two of the most popular CMS to create, manage and edit the content of a website. Let’s see which one is better, Drupal or WordPress?.
 
-{{< figure align=center src="images/WordPress-vs-Drupal.png" alt="Drupal vs WordPress | Choosing the Best CMS for Your Business">}}|{{< figure align=center src="images/WordPress-vs-Drupal.png" alt="Drupal vs WordPress | Choosing the Best CMS for Your Business">}}  
+{{< figure align=center src="images/WordPress-vs-Drupal.png" alt="Drupal vs WordPress | Choosing the Best CMS for Your Business">}}
+
 
 ## Overview
 
@@ -26,7 +27,7 @@ Obviously, both drupal vs wordpress content management systems provide you a sel
 
 ## **1. What Is Drupal?**
 
-[**Drupal**][1]** **is one of the most versatile free and open-source web content management system, originally launched in 2000. It is written in PHP language and distributed under the GNU General Public License. Drupal is a flexible CMS based on the LAMP stack. 
+[**Drupal**][1] is one of the most versatile free and open-source web content management system, originally launched in 2000. It is written in PHP language and distributed under the GNU General Public License. Drupal is a flexible CMS based on the LAMP stack. 
 
 Drupal helps in providing an open-source back-end framework for at least 14% of the top 10,000 websites worldwide. It’s ranging from personal weblogs to corporate, political, government to large community-driven websites and with a large, supportive community.
 
@@ -82,12 +83,12 @@ Here’s the list of top websites and big-name brands using WordPress.
 
 Here are the top reasons why WordPress is so popular and why you might want to consider switching to a WordPress platform for your business website. WordPress benefits are:
 
-  * **Ease of use **– WordPress is very easy to use, more user-friendly and has an intuitive interface. Create new pages, blog articles, images, etc. on a regular basis is so simple and can be done quickly, especially for non-developers.
-  * **Extensibility **– WordPress makes it possible to extend WordPress without the need for custom development. Add an event calendar, video gallery, Twitter Feed, Facebook Box, and more with third-party theme and plugins.
+  * **Ease of use** – WordPress is very easy to use, more user-friendly and has an intuitive interface. Create new pages, blog articles, images, etc. on a regular basis is so simple and can be done quickly, especially for non-developers.
+  * **Extensibility** – WordPress makes it possible to extend WordPress without the need for custom development. Add an event calendar, video gallery, Twitter Feed, Facebook Box, and more with third-party theme and plugins.
   * **Scalability** – WordPress sites are very scalable as as your business grows. As an administrator, you add hundreds of pages or blog posts on your website and the performance of your site will not be compromised.
   * **No HTML editing** – WordPress is a self-contained platform and it does not require HTML editing software. Anyone can create a new page or blog post, format text, upload images, video files etc. without the need for additional HTML or FTP software.
   * **Lower development cost** – WordPress offers more design and layout solutions and its developers are usually more affordable than Drupal developers even for small businesses.
-  * **Support **– WordPress global community helps and provides support for any issue or view support documentation to get answers.[][5]
+  * **Support** – WordPress global community helps and provides support for any issue or view support documentation to get answers.[][5]
 
 **How many plugins does WordPress have?** As of December 2021, WordPress.org has 59,756 plugins available. Each of which offers custom functions and features enabling users to tailor their sites to their specific needs.  
 **How many themes are there on WordPress?** There are 9,159 free themes, plus thousands of more premium themes. Tools like the WYSIWYG theme customizer and the Gutenberg editor make it simpler for casual users to create unique content.

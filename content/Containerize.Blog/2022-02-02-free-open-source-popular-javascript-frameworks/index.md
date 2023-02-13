@@ -88,7 +88,7 @@ You may find the following links relevant:
   * [Learning Management System (LMS)][55], [Backup and Sync Software][56], [Digital Forensic Software][57]
 
  [1]: https://products.containerize.com/
- [2]: http://Search Google or type a URL  Have questions about the COVID-19 vaccine?  Get the Facts Photo by Gen Vagula
+ [2]: #
  [3]: https://www.facebook.com/
  [4]: #Angular
  [5]: #React

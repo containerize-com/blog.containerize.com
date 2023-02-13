@@ -11,7 +11,7 @@ categories: ['Marketing Automation', 'Marketplace']
 ---
 ## Search engine optimization (SEO) tools help you to optimize your website and increase organic traffic. This article covers top open-source and free SEO tools.
 
-{{< figure align=center src="images/Open-Source-SEO-Tools-to-Drive-Traffic-Search-Engine-Marketing-Tools-SEM-Tools-for-Marketers.png" alt="Open Source SEO Tools to Drive Traffic | Search Engine Marketing Tools | SEM Tools for Marketers">}}|{{< figure align=center src="images/Open-Source-SEO-Tools-to-Drive-Traffic-Search-Engine-Marketing-Tools-SEM-Tools-for-Marketers.png" alt="Open Source SEO Tools to Drive Traffic | Search Engine Marketing Tools | SEM Tools for Marketers">}}|{{< figure align=center src="images/Open-Source-SEO-Tools-to-Drive-Traffic-Search-Engine-Marketing-Tools-SEM-Tools-for-Marketers.png" alt="Open Source SEO Tools to Drive Traffic | Search Engine Marketing Tools | SEM Tools for Marketers">}}  
+{{< figure align=center src="images/Open-Source-SEO-Tools-to-Drive-Traffic-Search-Engine-Marketing-Tools-SEM-Tools-for-Marketers.png" alt="Open Source SEO Tools to Drive Traffic | Search Engine Marketing Tools | SEM Tools for Marketers">}}
 
 ## **Overview**
 

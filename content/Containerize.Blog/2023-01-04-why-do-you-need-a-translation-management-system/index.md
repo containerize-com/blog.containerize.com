@@ -61,7 +61,7 @@ This feature is super awesome as it reduces the time & effort of going back and 
 
 Translation memory saves time, increases efficiency, and makes the translation process even quicker. So, it keeps a record of all the previous translations so that all the repetitive strings get translated without initiating any new process.
 
-## Business benefits of globalization & localization  {#Benefits-of-globalization-&-localization-}
+## Business benefits of globalization & localization  {#Benefits-of-globalization-and-localization}
 
 This section will describe some of the prominent perks linked to adding translations to your business application.
 
@@ -111,7 +111,7 @@ Please visit this [link][4] to know the advantages of a translation management s
  [1]: https://products.containerize.com/
  [2]: #What-is-a-translation-management-system
  [3]: #How-does-it-work-and-what-does-it-offer
- [4]: #Benefits-of-globalization-&-localization-
+ [4]: #Benefits-of-globalization-and-localization
  [5]: https://www.npmjs.com/package/i18n
  [6]: https://www.containerize.com/
  [7]: https://forum.containerize.com/

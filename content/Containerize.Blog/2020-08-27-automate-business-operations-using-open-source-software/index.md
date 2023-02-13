@@ -205,8 +205,9 @@ Therefore, containerize.com is on the way to enhance the stack of open source pr
  [14]: https://products.containerize.com/content-management/joomla
  [15]: https://products.containerize.com/content-management/drupal
  [16]: https://products.containerize.com/content-management/pyro
- [17]: http://Django CMS - Python DJango Base Enterprise Level Web Content Management Software
- [18]: https://products.containerize.com/content-management/umbraco
+ [17]: #
+
+[18]: https://products.containerize.com/content-management/umbraco
  [19]: https://products.containerize.com/content-management
  [20]: https://products.containerize.com/blogging/wordpress
  [21]: https://products.containerize.com/blogging/jekyll
