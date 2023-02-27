@@ -6,6 +6,8 @@ date: Fri, 04 Jun 2021 13:25:15 +0000
 author: yasir saeed
 summary: phpMyAdmin is open source graphical web interface database management tool written in PHP. In this tutorial, we’ll learn how to install phpMyAdmin with Nginx.
 url: /web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+aliases: 
+    -  /2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 categories: ['Web Server Solution Stack']
 
 ---

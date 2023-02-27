@@ -6,6 +6,8 @@ date: Wed, 25 Nov 2020 10:51:13 +0000
 author: Assad Mahmood
 summary: "Configure open source Gatsby with your WordPress to bring greater user experience and overall performance. Let's learn how to use this static site generator."
 url: /blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
+aliases: 
+    -  /2020/11/25/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
 categories: ['Blogging']
 
 ---
@@ -177,7 +179,8 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // your WordPress source
-        baseUrl: `wpexample.com`,
+        baseurl:  `wpexample.com`,
+aliases: -  `wpexample.com`,
         protocol: `https`,
         // is it hosted on wordpress.com, or self-hosted?
         hostingWPCOM: false,

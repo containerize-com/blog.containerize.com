@@ -6,6 +6,8 @@ date: Fri, 05 Mar 2021 11:12:55 +0000
 author: Assad Mahmood
 summary: Redis Pub/Sub implements a real-time messaging system, where publishers, publish to a channel/topic and several clients can subscribe to that channel/topic.
 url: /database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/
+aliases: 
+    -  /2021/03/05/introduction-to-redis-pubsub-and-how-does-it-work/
 categories: ['Database Management Software']
 
 ---

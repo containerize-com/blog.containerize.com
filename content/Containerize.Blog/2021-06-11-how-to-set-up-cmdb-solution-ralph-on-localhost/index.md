@@ -6,6 +6,8 @@ date: Fri, 11 Jun 2021 12:54:21 +0000
 author: muhammadmustafa
 summary: IT asset management solution reduces operational costs and increases efficiency. This article is about how to set up CMDB software Ralph on your local machine.
 url: /cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
+aliases: 
+    -  /2021/06/11/how-to-set-up-cmdb-solution-ralph-on-localhost/
 categories: ['CMDB Software']
 
 ---

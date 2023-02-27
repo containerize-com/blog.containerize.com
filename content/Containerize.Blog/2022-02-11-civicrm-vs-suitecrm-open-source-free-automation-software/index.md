@@ -6,6 +6,8 @@ date: Fri, 11 Feb 2022 14:57:52 +0000
 author: muhammadmustafa
 summary: "Refine marketing processes and nurture leads by installing a marketing automation tool. Let's compare two popular free automation software CiviCRM &amp; SuiteCRM."
 url: /marketing-automation/civicrm-vs-suitecrm-open-source-free-automation-software/
+aliases: 
+    -  /2022/02/11/civicrm-vs-suitecrm-open-source-free-automation-software/
 categories: ['Marketing Automation']
 
 ---

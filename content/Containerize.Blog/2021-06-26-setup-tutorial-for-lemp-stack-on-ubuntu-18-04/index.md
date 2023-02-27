@@ -6,6 +6,8 @@ date: Sat, 26 Jun 2021 00:05:53 +0000
 author: Masood Anwer
 summary: 'Install &amp; configure LEMP Stack for developing and deploying web applications. This guide will assist you to install Nginx, MySQL, and PHP on Ubuntu 18.04.'
 url: /web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
+aliases: 
+    -  /2021/06/26/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
 categories: ['Web Server Solution Stack']
 
 ---

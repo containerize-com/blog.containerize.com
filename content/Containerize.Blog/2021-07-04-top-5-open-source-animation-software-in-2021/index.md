@@ -6,6 +6,8 @@ date: Sun, 04 Jul 2021 09:14:12 +0000
 author: bilalahmed
 summary: Create moving graphics using open source animation software. Animate 2D or 3D generated graphics with options to add music and other effects.
 url: /animation-software/top-5-open-source-animation-software-in-2021/
+aliases: 
+    -  /2021/07/04/top-5-open-source-animation-software-in-2021/
 categories: ['Animation Software']
 
 ---

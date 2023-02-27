@@ -6,6 +6,8 @@ date: Mon, 14 Feb 2022 08:29:49 +0000
 author: muhammadmustafa
 summary: "Generate smooth &amp; appealing animations using 2D, 3D graphics. Let's explore widely used open-source animation tools OpenToonz, Krita and compare their features."
 url: /animation-software/opentoonz-vs-krita-open-source-animation-software/
+aliases: 
+    -  /2022/02/14/opentoonz-vs-krita-open-source-animation-software/
 categories: ['Animation Software']
 
 ---

@@ -6,6 +6,8 @@ date: Fri, 05 Mar 2021 09:23:11 +0000
 author: bilalahmed
 summary: Adminer is an open-source web-based database management system to manage databases. Let’s learn how to set up Adminer on localhost and review its key features.
 url: /database-management-software/what-is-adminer-open-source-database-management-tool/
+aliases: 
+    -  /2021/03/05/what-is-adminer-open-source-database-management-tool/
 categories: ['Database Management Software']
 
 ---

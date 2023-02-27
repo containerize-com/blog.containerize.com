@@ -6,6 +6,8 @@ date: Fri, 16 Apr 2021 11:10:45 +0000
 author: muhammadmustafa
 summary: Build flexible and adaptable applications through agile software development. RAD methodology shortens the development time and costs with improved efficiency.
 url: /rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
+aliases: 
+    -  /2021/04/16/top-5-free-rapid-application-development-software-in-2021/
 categories: ['Rapid Application Development']
 
 ---

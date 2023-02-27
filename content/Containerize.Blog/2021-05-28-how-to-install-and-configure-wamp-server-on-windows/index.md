@@ -6,6 +6,8 @@ date: Fri, 28 May 2021 15:30:40 +0000
 author: Masood Anwer
 summary: Setup a web development environment for creating web applications with Apache2, PHP, and MySQL. This article helps you to install WAMP Server on windows.
 url: /web-server-solution-stack/how-to-install-and-configure-wamp-server-on-windows/
+aliases: 
+    -  /2021/05/28/how-to-install-and-configure-wamp-server-on-windows/
 categories: ['Web Server Solution Stack']
 
 ---

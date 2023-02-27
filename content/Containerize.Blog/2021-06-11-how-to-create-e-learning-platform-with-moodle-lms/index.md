@@ -6,6 +6,8 @@ date: Fri, 11 Jun 2021 22:35:00 +0000
 author: Masood Anwer
 summary: Build an online learning platform with open source e-learning platform. This article explains how to use Moodle LMS to create a distance learning site.
 url: /learning-management-system/how-to-create-e-learning-platform-with-moodle-lms/
+aliases: 
+    -  /2021/06/11/how-to-create-e-learning-platform-with-moodle-lms/
 categories: ['Learning Management System']
 
 ---

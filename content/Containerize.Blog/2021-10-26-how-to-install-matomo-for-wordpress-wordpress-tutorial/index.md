@@ -6,6 +6,8 @@ date: Tue, 26 Oct 2021 21:30:36 +0000
 author: muhammadmustafa
 summary: "Matomo is an open-source Google Analytics software. Let's learn how to install this self-hosted and rich-featured web analytics software on WordPress."
 url: /blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/
+aliases: 
+    -  /2021/10/26/how-to-install-matomo-for-wordpress-wordpress-tutorial/
 categories: ['Blogging', 'Business Intelligence Software']
 
 ---

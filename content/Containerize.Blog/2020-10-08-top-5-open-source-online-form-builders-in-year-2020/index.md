@@ -6,6 +6,8 @@ date: Thu, 08 Oct 2020 06:31:15 +0000
 author: Assad Mahmood
 summary: Best guide to choose the best web form builder software in 2020
 url: /form/top-5-open-source-online-form-builders-in-year-2020/
+aliases: 
+    -  /2020/10/08/top-5-open-source-online-form-builders-in-year-2020/
 categories: ['Form']
 
 ---

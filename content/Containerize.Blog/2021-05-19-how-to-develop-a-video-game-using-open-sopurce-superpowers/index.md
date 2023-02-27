@@ -6,6 +6,8 @@ date: Wed, 19 May 2021 20:28:01 +0000
 author: muhammadmustafa
 summary: 'Free video game design software for video game development with an offline mode. Self-host it, create animated 2D &amp; 3D games with sound effects and fonts.'
 url: /game-development-software/how-to-develop-a-video-game-using-open-sopurce-superpowers/
+aliases: 
+    -  /2021/05/19/how-to-develop-a-video-game-using-open-sopurce-superpowers/
 categories: ['Game Development Software']
 
 ---

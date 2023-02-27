@@ -6,6 +6,8 @@ date: Sat, 13 Mar 2021 07:34:04 +0000
 author: bilalahmed
 summary: KeePass is a popular, secure, free, and open-source password manager. This guide will help Windows users set up and manage passwords using KeePass.
 url: /password-management/setup-manage-keepass-password-manager-for-windows/
+aliases: 
+    -  /2021/03/13/setup-manage-keepass-password-manager-for-windows/
 categories: ['Password Management']
 
 ---

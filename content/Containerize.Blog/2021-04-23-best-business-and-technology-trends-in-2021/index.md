@@ -6,6 +6,8 @@ date: Fri, 23 Apr 2021 23:28:27 +0000
 author: yasir saeed
 summary: There will be rapid changes in top technological and business innovations in 2021. Here are few emerging technologies and business trends we will see in 2021.
 url: /business-intelligence-software/best-business-and-technology-trends-in-2021/
+aliases: 
+    -  /2021/04/23/best-business-and-technology-trends-in-2021/
 categories: ['Business Intelligence Software']
 
 ---

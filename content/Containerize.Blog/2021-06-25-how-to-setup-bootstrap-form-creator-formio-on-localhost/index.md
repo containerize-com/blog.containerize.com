@@ -6,6 +6,8 @@ date: Fri, 25 Jun 2021 10:30:28 +0000
 author: muhammadmustafa
 summary: Build task-specific and customizable forms using a drag and drop HTML form builder. Formio is self-hosted, API driven, provides forms and data management.
 url: /form/how-to-setup-bootstrap-form-creator-formio-on-localhost/
+aliases: 
+    -  /2021/06/25/how-to-setup-bootstrap-form-creator-formio-on-localhost/
 categories: ['Form']
 
 ---

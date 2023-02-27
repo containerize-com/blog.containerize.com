@@ -6,6 +6,8 @@ date: Fri, 29 Jan 2021 05:46:42 +0000
 author: muhammadmustafa
 summary: Single sign-on software offers a central login for all user accounts and IT systems. It modernizes the user experience by offering security and transparency.
 url: /single-sign-on/top-5-open-source-single-sign-on-software-in-the-year-2021/
+aliases: 
+    -  /2021/01/29/top-5-open-source-single-sign-on-software-in-the-year-2021/
 categories: ['Single Sign-On']
 
 ---

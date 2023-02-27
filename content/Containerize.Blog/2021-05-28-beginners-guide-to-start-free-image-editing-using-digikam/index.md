@@ -6,6 +6,8 @@ date: Fri, 28 May 2021 19:25:41 +0000
 author: bilalahmed
 summary: DigiKam is a multifunctional digital photography and editing software tool. As an open source software, it is quite stable application offering many features.
 url: /animation-software/beginners-guide-to-start-free-image-editing-using-digikam/
+aliases: 
+    -  /2021/05/28/beginners-guide-to-start-free-image-editing-using-digikam/
 categories: ['Animation Software']
 
 ---

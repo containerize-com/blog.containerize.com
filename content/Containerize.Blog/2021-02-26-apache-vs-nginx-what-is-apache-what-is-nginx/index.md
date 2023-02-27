@@ -6,6 +6,8 @@ date: Fri, 26 Feb 2021 10:57:10 +0000
 author: bilalahmed
 summary: Apache uses a process-driven approach and Nginx uses event-driven approach to process user requests. Lets explore the difference between Apache and Nginx.
 url: /web-server-solution-stack/apache-vs-nginx-what-is-apache-what-is-nginx/
+aliases: 
+    -  /2021/02/26/apache-vs-nginx-what-is-apache-what-is-nginx/
 categories: ['Web Server Solution Stack']
 
 ---

@@ -6,6 +6,8 @@ date: Thu, 04 Feb 2021 08:07:10 +0000
 author: Assad Mahmood
 summary: "Git Branch is the fundamental component of the git version control system. We'll explore different Branching Models in this Tutorial"
 url: /version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
+aliases: 
+    -  /2021/02/04/understand-and-learn-branches-and-pull-requests-in-git/
 categories: ['Version Control Software']
 
 ---

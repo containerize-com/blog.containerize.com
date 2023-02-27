@@ -6,6 +6,8 @@ date: Fri, 11 Jun 2021 12:46:52 +0000
 author: Assad Mahmood
 summary: This tutorial guides you on how to optimize your website performance and make it fast by reducing the file sizes using gzip compression in Nginx.
 url: /web-server-solution-stack/how-to-optimize-your-website-using-gzip-compression-in-nginx/
+aliases: 
+    -  /2021/06/11/how-to-optimize-your-website-using-gzip-compression-in-nginx/
 categories: ['Web Server Solution Stack']
 
 ---

@@ -6,6 +6,8 @@ date: Fri, 28 May 2021 13:54:20 +0000
 author: Assad Mahmood
 summary: "Nginx does not support htaccess rewrite rules, and developers require to convert those rules to Nginx Rewrite directives. Let's learn how to do this conversion."
 url: /web-server-solution-stack/how-to-convert-htaccess-rewrite-rules-to-nginx-rewrite-directives/
+aliases: 
+    -  /2021/05/28/how-to-convert-htaccess-rewrite-rules-to-nginx-rewrite-directives/
 categories: ['Web Server Solution Stack']
 
 ---

@@ -6,6 +6,8 @@ date: Fri, 25 Jun 2021 10:31:32 +0000
 author: yasir saeed
 summary: Cloud storage has made sharing and collaboration easier by storing data in a remote location. This article focuses on open source cloud file sharing platforms.
 url: /backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/
+aliases: 
+    -  /2021/06/25/top-5-open-source-cloud-storage-software-in-2021/
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 ---

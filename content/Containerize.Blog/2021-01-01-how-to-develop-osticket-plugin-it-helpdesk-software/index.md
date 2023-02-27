@@ -6,6 +6,8 @@ date: Fri, 01 Jan 2021 07:11:49 +0000
 author: bilalahmed
 summary: Create an osTicket plugin to add features into your osTicket installation. This open-source ticketing system helps businesses to handle customers efficiently.
 url: /helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
+aliases: 
+    -  /2021/01/01/how-to-develop-osticket-plugin-it-helpdesk-software/
 categories: ['Help Desk']
 
 ---

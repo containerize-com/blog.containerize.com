@@ -6,6 +6,8 @@ date: Fri, 30 Apr 2021 11:49:30 +0000
 author: muhammadmustafa
 summary: "Establish your own public/private blockchain network to manage and monitor business digital transactions. Let's learn how to setup Consensys Quorum on localhost."
 url: /blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+aliases: 
+    -  /2021/04/30/how-to-setup-consensys-quorum-blockchain-network-locally/
 categories: ['Blockchain Platforms']
 
 ---

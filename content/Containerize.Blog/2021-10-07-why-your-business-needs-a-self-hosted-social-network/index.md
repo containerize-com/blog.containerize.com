@@ -6,6 +6,8 @@ date: Thu, 07 Oct 2021 12:59:11 +0000
 author: muhammadmustafa
 summary: Adopt enterprise social software for your business. It gives you control and lets you share your professional ideas with the public/private community.
 url: /social-network-platforms/why-your-business-needs-a-self-hosted-social-network/
+aliases: 
+    -  /2021/10/07/why-your-business-needs-a-self-hosted-social-network/
 categories: ['Social Network Platforms']
 
 ---

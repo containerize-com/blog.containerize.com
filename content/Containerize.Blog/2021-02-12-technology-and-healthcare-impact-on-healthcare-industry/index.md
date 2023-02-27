@@ -6,6 +6,8 @@ date: Fri, 12 Feb 2021 07:12:43 +0000
 author: muhammadmustafa
 summary: Healthcare IT systems are significantly contributing to the healthcare sector. Medical professionals are now able to respond quickly to the challenges.
 url: /healthcare-software/technology-and-healthcare-impact-on-healthcare-industry/
+aliases: 
+    -  /2021/02/12/technology-and-healthcare-impact-on-healthcare-industry/
 categories: ['Healthcare Software']
 
 ---

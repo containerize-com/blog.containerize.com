@@ -6,6 +6,8 @@ date: Fri, 30 Apr 2021 07:31:14 +0000
 author: Assad Mahmood
 summary: 'Nginx is popular for its high performance and scalability. It’s the #1 open source web server. In this tutorial, we’ll learn to use Nginx as a load balancer.'
 url: /web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+aliases: 
+    -  /2021/04/30/how-to-use-nginx-as-load-balancer-for-your-application/
 categories: ['Web Server Solution Stack']
 
 ---

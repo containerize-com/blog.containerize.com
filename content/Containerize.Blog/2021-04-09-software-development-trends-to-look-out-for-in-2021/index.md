@@ -6,6 +6,8 @@ date: Fri, 09 Apr 2021 11:46:14 +0000
 author: yasir saeed
 summary: Are you interested in the latest software trends? This article shares insights about the latest software development trends that will dominate the industry.
 url: /blockchain-platforms/software-development-trends-to-look-out-for-in-2021/
+aliases: 
+    -  /2021/04/09/software-development-trends-to-look-out-for-in-2021/
 categories: ['Blockchain Platforms', 'Rapid Application Development']
 
 ---

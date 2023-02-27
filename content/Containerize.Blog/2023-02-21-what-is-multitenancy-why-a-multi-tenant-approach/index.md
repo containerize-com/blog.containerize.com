@@ -6,6 +6,8 @@ date: Tue, 21 Feb 2023 20:10:22 +0000
 author: muhammadmustafa
 summary: "Design a multi-tenant application architecture and meet your user's requirements efficiently. Let's explore how multitenancy lets you build scalable software."
 url: /programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
+aliases: 
+    -  /2023/02/21/what-is-multitenancy-why-a-multi-tenant-approach/
 categories: ['Programming']
 
 ---

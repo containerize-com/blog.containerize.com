@@ -6,6 +6,8 @@ date: Fri, 18 Jun 2021 13:53:31 +0000
 author: yasir saeed
 summary: Nextcloud is self-hosted open source files synchronization and collaboration software. This tutorial will show how to install NextCloud with Apache on Ubuntu.
 url: /backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+aliases: 
+    -  /2021/06/18/how-to-install-nextcloud-with-apache-on-ubuntu-server/
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 ---

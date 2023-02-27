@@ -6,6 +6,8 @@ date: Fri, 12 Feb 2021 06:48:04 +0000
 author: bilalahmed
 summary: Open-source DBMS software have gained maturity and popularity to the enterprise level. They are flexible, offer robustness, efficiency, and data integrity.
 url: /database-management-software/top-5-open-source-database-management-systems-in-2022/
+aliases: 
+    -  /2021/02/12/top-5-open-source-database-management-systems-in-2022/
 categories: ['Database Management Software']
 
 ---

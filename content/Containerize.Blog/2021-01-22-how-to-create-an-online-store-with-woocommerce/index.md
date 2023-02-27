@@ -6,6 +6,8 @@ date: Fri, 22 Jan 2021 18:19:24 +0000
 author: Masood Anwer
 summary: Create an online store with free WordPress plugin and quickly start selling to customers. Manage WordPress website and store from a single interface.
 url: /shopping-cart-software/how-to-create-an-online-store-with-woocommerce/
+aliases: 
+    -  /2021/01/22/how-to-create-an-online-store-with-woocommerce/
 categories: ['Shopping Cart Software']
 
 ---

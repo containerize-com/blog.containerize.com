@@ -507,3 +507,8 @@ deployment:
   targets:
     name: "production"
     URL: "s3://blog.containerize.com/?region=us-west-2"
+  matchers:
+    - pattern: "^.+\\.(xml)$"
+      contentType: "application/xml"
+      gzip: true
+      force: true

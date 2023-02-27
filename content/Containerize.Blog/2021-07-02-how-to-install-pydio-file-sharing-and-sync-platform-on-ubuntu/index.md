@@ -6,6 +6,8 @@ date: Fri, 02 Jul 2021 22:46:01 +0000
 author: yasir saeed
 summary: Pydio is a cloud-based file sharing and sync platform to access all data anywhere and on any device. This tutorial is about how to install Pydio on Ubuntu.
 url: /backup-and-sync-software/how-to-install-pydio-file-sharing-and-sync-platform-on-ubuntu/
+aliases: 
+    -  /2021/07/02/how-to-install-pydio-file-sharing-and-sync-platform-on-ubuntu/
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 ---

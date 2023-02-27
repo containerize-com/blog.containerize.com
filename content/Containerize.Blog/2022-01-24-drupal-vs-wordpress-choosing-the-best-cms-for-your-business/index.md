@@ -6,6 +6,8 @@ date: Mon, 24 Jan 2022 02:32:32 +0000
 author: yasir saeed
 summary: "WordPress and Drupal are two of the most popular CMS to create, manage and edit the content of a website. Let's see which one is better, Drupal or WordPress?."
 url: /content-management/drupal-vs-wordpress-choosing-the-best-cms-for-your-business/
+aliases: 
+    -  /2022/01/24/drupal-vs-wordpress-choosing-the-best-cms-for-your-business/
 categories: ['Content Management']
 
 ---

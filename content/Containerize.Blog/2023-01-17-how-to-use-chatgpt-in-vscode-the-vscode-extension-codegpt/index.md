@@ -6,6 +6,8 @@ date: Tue, 17 Jan 2023 10:26:29 +0000
 author: muhammadmustafa
 summary: '<strong>This article will introduce ChatGPT for VSCode. An OpenAI code generator Code GPT is based on an open-source artificial intelligence-powered GPT-3 model.</strong>'
 url: /artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+aliases: 
+    -  /2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 
 ---

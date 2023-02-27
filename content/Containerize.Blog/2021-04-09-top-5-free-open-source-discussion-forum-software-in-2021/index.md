@@ -6,6 +6,8 @@ date: Fri, 09 Apr 2021 09:38:33 +0000
 author: muhammadmustafa
 summary: Improve productivity with your team and other collaborators by installing an online discussion forum. These solutions come with diverse plugins and modern UI.
 url: /discussion-forum/top-5-free-open-source-discussion-forum-software-in-2021/
+aliases: 
+    -  /2021/04/09/top-5-free-open-source-discussion-forum-software-in-2021/
 categories: ['Discussion Forum']
 
 ---

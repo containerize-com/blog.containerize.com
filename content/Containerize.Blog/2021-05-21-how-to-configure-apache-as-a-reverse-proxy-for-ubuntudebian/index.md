@@ -6,6 +6,8 @@ date: Fri, 21 May 2021 18:58:46 +0000
 author: yasir saeed
 summary: Apache Reverse Proxy allows you to run one or more back-end servers behind a proxy server. Here’s how to configure Apache Reverse Proxy on Ubuntu/Debian system.
 url: /web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+aliases: 
+    -  /2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 categories: ['Web Server Solution Stack']
 
 ---

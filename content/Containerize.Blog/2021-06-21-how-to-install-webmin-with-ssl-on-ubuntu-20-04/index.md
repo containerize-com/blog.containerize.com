@@ -6,6 +6,8 @@ date: Mon, 21 Jun 2021 04:28:34 +0000
 author: Assad Mahmood
 summary: Webmin is a web-based system administration tool that is a simple alternative to command-line system administration. This article guides how to install Webmin
 url: /web-hosting/how-to-install-webmin-with-ssl-on-ubuntu-20-04/
+aliases: 
+    -  /2021/06/21/how-to-install-webmin-with-ssl-on-ubuntu-20-04/
 categories: ['Web Hosting']
 
 ---

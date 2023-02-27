@@ -6,6 +6,8 @@ date: Fri, 06 Jan 2023 13:46:35 +0000
 author: muhammadmustafa
 summary: Opt for the right localization management platform for small to enterprise-level business applications. This article will help you in making the right choice.
 url: /software-development/top-3-open-source-translation-management-tools-in-2023/
+aliases: 
+    -  /2023/01/06/top-3-open-source-translation-management-tools-in-2023/
 categories: ['Software Development']
 
 ---

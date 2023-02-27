@@ -6,6 +6,8 @@ date: Fri, 03 Feb 2023 21:44:01 +0000
 author: muhammadmustafa
 summary: Are you looking to modernize repetitive actions? Here is an AI-powered OpenAI GPT-3 NLP model that offers a wide range of features for Google Docs automation.
 url: /artificial-intelligence/google-docs-integration-with-chatgpt/
+aliases: 
+    -  /2023/02/03/google-docs-integration-with-chatgpt/
 categories: ['Artificial intelligence']
 
 ---

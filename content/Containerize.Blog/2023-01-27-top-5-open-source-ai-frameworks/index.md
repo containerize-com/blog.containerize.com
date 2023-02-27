@@ -6,6 +6,8 @@ date: Fri, 27 Jan 2023 12:24:22 +0000
 author: muhammadmustafa
 summary: The advancement in AI and Machine learning has given a boost to every industry. You can consider the following open-source AI libraries for your business apps.
 url: /artificial-intelligence/top-5-open-source-ai-frameworks/
+aliases: 
+    -  /2023/01/27/top-5-open-source-ai-frameworks/
 categories: ['Artificial intelligence']
 
 ---

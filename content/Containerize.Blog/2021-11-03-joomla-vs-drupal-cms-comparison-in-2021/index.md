@@ -6,6 +6,8 @@ date: Wed, 03 Nov 2021 18:12:43 +0000
 author: muhammadmustafa
 summary: 'Drupal &amp; Joomla come with a stack of plugins and extensions to manage and publish enterprise-level web content. Let’s compare these open source CMS software.'
 url: /content-management/joomla-vs-drupal-cms-comparison-in-2021/
+aliases: 
+    -  /2021/11/03/joomla-vs-drupal-cms-comparison-in-2021/
 categories: ['Content Management']
 
 ---

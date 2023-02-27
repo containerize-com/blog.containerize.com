@@ -6,6 +6,8 @@ date: Fri, 18 Dec 2020 11:07:03 +0000
 author: muhammadmustafa
 summary: Business video marketing is a vital component of a business’s digital marketing. Businesses tend to go for appealing video content for higher competitive edge.
 url: /video-editing-software/how-video-editing-software-improves-business-video-marketing/
+aliases: 
+    -  /2020/12/18/how-video-editing-software-improves-business-video-marketing/
 categories: ['Video Editing Software']
 
 ---

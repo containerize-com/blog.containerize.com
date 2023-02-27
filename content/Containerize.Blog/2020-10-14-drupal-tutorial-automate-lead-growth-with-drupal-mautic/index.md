@@ -6,6 +6,8 @@ date: Wed, 14 Oct 2020 11:01:35 +0000
 author: muhammadmustafa
 summary: Let Mautic take charge of marketing automation workflows to improve consumers’ responses. It is free, open-source, and easy to integrate with your Drupal site.
 url: /content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+aliases: 
+    -  /2020/10/14/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
 categories: ['Content Management', 'Marketing Automation']
 
 ---

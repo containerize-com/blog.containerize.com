@@ -6,6 +6,8 @@ date: Thu, 23 Sep 2021 23:43:29 +0000
 author: yasir saeed
 summary: Open-source software licenses are legal contracts between the creator and the user to modify and share software code. Lets review popular open-source licenses
 url: /licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+aliases: 
+    -  /2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
 categories: ['Licenses &amp; Standards']
 
 ---

@@ -6,6 +6,8 @@ date: Fri, 17 Feb 2023 08:57:43 +0000
 author: muhammadmustafa
 summary: The popularity of JavaScript is unstoppable due to its adaptability. Follow this JavaScript beginner’s guide and start nurturing your expertise in JS stack.
 url: /programming/what-are-javascript-data-types-a-beginners-guide/
+aliases: 
+    -  /2023/02/17/what-are-javascript-data-types-a-beginners-guide/
 categories: ['Programming']
 
 ---

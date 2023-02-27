@@ -6,6 +6,8 @@ date: Sat, 13 Nov 2021 03:53:39 +0000
 author: yasir saeed
 summary: Portainer allows you to manage Dockers via the web while Rancher was built to manage Kubernetes everywhere it runs. Let’s compare the two famous Container GUIs.
 url: /devops/portainer-vs-rancher-what-are-the-differences/
+aliases: 
+    -  /2021/11/13/portainer-vs-rancher-what-are-the-differences/
 categories: ['DevOps', 'Software Development']
 
 ---

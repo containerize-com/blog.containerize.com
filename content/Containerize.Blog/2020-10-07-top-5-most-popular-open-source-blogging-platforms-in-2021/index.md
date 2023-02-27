@@ -6,6 +6,8 @@ date: Wed, 07 Oct 2020 06:24:30 +0000
 author: yasir saeed
 summary: Explore
 url: /blogging/top-5-most-popular-open-source-blogging-platforms-in-2021/
+aliases: 
+    -  /2020/10/07/top-5-most-popular-open-source-blogging-platforms-in-2021/
 categories: ['Blogging']
 
 ---

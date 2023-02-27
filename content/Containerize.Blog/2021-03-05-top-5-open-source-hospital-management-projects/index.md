@@ -6,6 +6,8 @@ date: Fri, 05 Mar 2021 06:30:11 +0000
 author: muhammadmustafa
 summary: Schedule medical services using a corporate-level hospital management system. These open-source software are designed on scalable architecture and tech stack.
 url: /healthcare-software/top-5-open-source-hospital-management-projects/
+aliases: 
+    -  /2021/03/05/top-5-open-source-hospital-management-projects/
 categories: ['Healthcare Software']
 
 ---

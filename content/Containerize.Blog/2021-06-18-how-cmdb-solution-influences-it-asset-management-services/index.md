@@ -6,6 +6,8 @@ date: Fri, 18 Jun 2021 08:03:01 +0000
 author: muhammadmustafa
 summary: CMDB solution provides better IT asset inventory management and operational benefits. Organizations tend to install it for a competitive edge and efficiency.
 url: /cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
+aliases: 
+    -  /2021/06/18/how-cmdb-solution-influences-it-asset-management-services/
 categories: ['CMDB Software']
 
 ---
