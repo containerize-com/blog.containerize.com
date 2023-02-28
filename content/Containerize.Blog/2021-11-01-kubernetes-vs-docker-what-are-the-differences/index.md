@@ -13,7 +13,7 @@ categories: ['DevOps', 'Software Development']
 ---
 ## Kubernetes is a container orchestration technology, while Docker enables developers to create and run containers. Let’s review the two container technologies.
 
-{{< figure align=center src="images/KubernetesVsDocker.png" alt="Kubernetes vs Docker | Docker vs Kubernetes?">}}| Docker vs Kubernetes?">  
+{{< figure align=center src="images/KubernetesVsDocker.png" alt="Kubernetes vs Docker">}}
 
 ## **Overview**
 
