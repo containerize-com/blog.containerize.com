@@ -99,7 +99,8 @@ Please visit this [link][9] to install this AI-powered VSCode extension.
  [3]: https://marketplace.visualstudio.com/items?itemName=timkmecl.codegpt3
  [4]: https://www.containerize.com/
  [5]: https://en.wikipedia.org/wiki/GPT-3
- [6]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [6]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
  [7]: #What-is-CodeGPT
  [8]: #How-to-install-the-VSCode-extension-CodeGPT
  [9]: #Retrieve-OpenAI-API-Key-configure-CodeGPT-
@@ -111,4 +112,4 @@ Please visit this [link][9] to install this AI-powered VSCode extension.
  [15]: https://www.linkedin.com/company/containerize/
  [16]: https://twitter.com/containerize_co
  [17]: https://forum.containerize.com/
- [18]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [18]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

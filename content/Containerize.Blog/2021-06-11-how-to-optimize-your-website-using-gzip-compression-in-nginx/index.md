@@ -164,5 +164,6 @@ In this article we have learned that you can use the Nginx gzip module to speed 
  [5]: #verify-gzip
  [6]: #conclusion
  [7]: https://nginx.org/en/docs/http/ngx_http_gzip_module.html
- [8]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [9]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [9]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

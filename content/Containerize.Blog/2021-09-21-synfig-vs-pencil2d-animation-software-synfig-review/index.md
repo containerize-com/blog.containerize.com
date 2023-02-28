@@ -72,9 +72,12 @@ You may find the following links relevant:
 
  [1]: https://products.containerize.com/animation-software/synfig/
  [2]: https://products.containerize.com/animation-software/pencil2d/
- [3]: https://blog.containerize.com/2021/06/21/how-to-create-animations-with-pencil2d-animation-software/
- [4]: https://blog.containerize.com/2021/07/04/top-5-open-source-animation-software-in-2021/
- [5]: https://blog.containerize.com/2021/06/29/synfig-tutorial-an-open-source-2d-animation-software/
+ [3]: https://blog.containerize.com/animation-software/how-to-create-animations-with-pencil2d-animation-software/
+
+ [4]: https://blog.containerize.com/animation-software/top-5-open-source-animation-software-in-2021/
+
+ [5]: https://blog.containerize.com/animation-software/synfig-tutorial-an-open-source-2d-animation-software/
+
  [6]: https://www.facebook.com/
  [7]: https://www.youtube.com/
  [8]: http://instagram.com/
@@ -91,4 +94,4 @@ You may find the following links relevant:
  [19]: https://products.containerize.com/animation-software/k3d/
  [20]: https://products.containerize.com/animation-software/krita/
  [21]: https://products.containerize.com/animation-software/tupitube/
- [22]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [22]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

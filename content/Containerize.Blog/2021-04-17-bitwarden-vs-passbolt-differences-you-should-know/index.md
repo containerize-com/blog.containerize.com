@@ -74,4 +74,4 @@ You may find following links relevant:
  [4]: #conclusion
  [5]: https://products.containerize.com/password-management/bitwarden
  [6]: https://products.containerize.com/password-management/passbolt
- [7]: https://blog.containerize.com/2021/03/13/setup-manage-keepass-password-manager-for-windows/
+ [7]: https://blog.containerize.com/password-management/setup-manage-keepass-password-manager-for-windows/

@@ -158,10 +158,14 @@ The Nginx’s headers module can be used to add any arbitrary headers to the res
   * [How to Install Multiple PHP Versions with Nginx on Ubuntu][3]
   * [How to Setup and Configure Nginx as Reverse Proxy][2]
 
- [1]: https://blog.containerize.com/2021/04/30/how-to-use-nginx-as-load-balancer-for-your-application/
- [2]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
- [3]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [4]: https://blog.containerize.com/2021/05/28/how-to-convert-htaccess-rewrite-rules-to-nginx-rewrite-directives/
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+ [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+
+ [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [4]: https://blog.containerize.com/web-server-solution-stack/how-to-convert-htaccess-rewrite-rules-to-nginx-rewrite-directives/
+
  [5]: #browser-caching
  [6]: #header-module
  [7]: #etag

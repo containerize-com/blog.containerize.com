@@ -78,9 +78,11 @@ You may find the following links relevant:
   * [A Tutorial To Start Video Editing With OpenShot Video Editor][4]
 
  [1]: https://products.containerize.com/video-editing-software
- [2]: https://blog.containerize.com/2021/04/23/blender-video-editing-tutorial-for-beginners/
- [3]: https://blog.containerize.com/2021/01/08/top-5-open-source-video-editor-software-for-video-marketing/
- [4]: https://blog.containerize.com/2020/12/30/a-tutorial-to-start-video-editing-with-openshot-video-editor/
+ [2]: https://blog.containerize.com/video-editing-software/blender-video-editing-tutorial-for-beginners/
+
+ [3]: https://blog.containerize.com/video-editing-software/top-5-open-source-video-editor-software-for-video-marketing/
+
+ [4]: https://blog.containerize.com/video-editing-software/openshot-video-editor-tutorial-for-beginners-open-source/
  [5]: #essential
  [6]: #how
  [7]: #adv

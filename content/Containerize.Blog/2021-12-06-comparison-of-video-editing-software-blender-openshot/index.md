@@ -78,8 +78,9 @@ You may find the following links relevant:
 
  [1]: https://products.containerize.com/video-editing-software/openshot
  [2]: https://products.containerize.com/video-editing-software/blender
- [3]: https://blog.containerize.com/2021/04/23/blender-video-editing-tutorial-for-beginners/
- [4]: https://blog.containerize.com/2020/12/30/video-editing-tutorial-free-openshot-video-editor/
+ [3]: https://blog.containerize.com/video-editing-software/blender-video-editing-tutorial-for-beginners/
+
+ [4]: https://blog.containerize.com/video-editing-software/openshot-video-editor-tutorial-for-beginners-open-source/
  [5]: https://products.containerize.com/video-editing-software/
  [6]: #blender
  [7]: #openshot
@@ -96,6 +97,7 @@ You may find the following links relevant:
  [18]: https://products.containerize.com/video-editing-software/shotcut
  [19]: https://products.containerize.com/video-editing-software/flowblade
  [20]: https://products.containerize.com/video-editing-software/kdenlive
- [21]: https://blog.containerize.com/2021/01/08/top-5-open-source-video-editor-software-for-video-marketing/
- [22]: https://blog.containerize.com/2020/12/30/a-tutorial-to-start-video-editing-with-openshot-video-editor/
- [23]: https://blog.containerize.com/2020/12/18/how-video-editing-software-improves-business-video-marketing/
+ [21]: https://blog.containerize.com/video-editing-software/top-5-open-source-video-editor-software-for-video-marketing/
+
+ [22]: https://blog.containerize.com/video-editing-software/openshot-video-editor-tutorial-for-beginners-open-source/
+ [23]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/

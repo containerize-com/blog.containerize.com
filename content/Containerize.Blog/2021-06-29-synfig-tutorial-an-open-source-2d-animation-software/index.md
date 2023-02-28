@@ -122,5 +122,6 @@ You may find following links relevant:
  [6]: mailto:yasir.saeed@aspose.com
  [7]: https://products.containerize.com/animation-software/
  [8]: https://products.containerize.com/animation-software/synfig/
- [9]: https://blog.containerize.com/2021/06/21/how-to-create-animations-with-pencil2d-animation-software/
- [10]: https://blog.containerize.com/2021/05/28/beginners-guide-to-start-free-image-editing-using-digikam/
+ [9]: https://blog.containerize.com/animation-software/how-to-create-animations-with-pencil2d-animation-software/
+
+ [10]: https://blog.containerize.com/animation-software/beginners-guide-to-start-free-image-editing-using-digikam/

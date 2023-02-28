@@ -161,8 +161,8 @@ You may find the following links relevant:
   * [How to Enable GZIP Compression in WordPress for Better PagSpeed and SEO][22]
 
  [1]: https://products.containerize.com/blogging/
- [2]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
- [3]: https://blog.containerize.com/2020/11/25/how-to-build-your-website-with-wordpress-and-gatsby/
+ [2]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+ [3]: https://blog.containerize.com/blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
  [4]: #docker
  [5]: #why
  [6]: #install
@@ -177,8 +177,11 @@ You may find the following links relevant:
  [15]: https://products.containerize.com/blogging/jekyll/
  [16]: https://products.containerize.com/discussion-forum/discourse/
  [17]: https://products.containerize.com/blogging/ghost/
- [18]: https://blog.containerize.com/2020/12/18/how-to-dockerize-wordpress-with-docker-compose/
- [19]: https://blog.containerize.com/2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
- [20]: https://blog.containerize.com/2020/10/14/how-to-integrate-discourse-forum-with-wordpress/
- [21]: https://blog.containerize.com/2021/01/17/increase-website-search-traffic-by-following-top-7-seo-blogs/
+ [18]: https://blog.containerize.com/blogging/how-to-dockerize-wordpress-docker-wordpress/
+ [19]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+ [20]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
+
+ [21]: https://blog.containerize.com/blogging/increase-website-search-traffic-by-following-top-7-seo-blogs/
+
  [22]: https://blog.containerize.com/2020/12/12/how-to-enable-gzip-compression-in-wordpress-for-better-speed/

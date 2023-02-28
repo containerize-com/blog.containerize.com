@@ -100,8 +100,10 @@ Finally, [containerize.com][18] is continuously writing blog posts on further 
   * [Top 5 Open-Source Social Networking Software in 2022][24]
   * [What is NFT? | Non Fungible Tokens Explained][25]
 
- [1]: https://blog.containerize.com/2022/02/02/free-open-source-popular-javascript-frameworks/
- [2]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
+ [1]: https://blog.containerize.com/software-development/free-open-source-popular-javascript-frameworks/
+
+ [2]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
  [3]: https://www.google.com/maps
  [4]: #OpenStreetMap
  [5]: #OsmAnd
@@ -121,7 +123,10 @@ Finally, [containerize.com][18] is continuously writing blog posts on further 
  [19]: https://web.facebook.com/containerize
  [20]: https://www.linkedin.com/company/containerize/
  [21]: https://twitter.com/containerize_co
- [22]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [23]: https://blog.containerize.com/2022/01/27/nft-vs-crypto-difference-between-cryptocurrency-nft/
- [24]: https://blog.containerize.com/2022/01/12/top-5-open-source-social-networking-software-in-2022/
- [25]: https://blog.containerize.com/2021/11/23/what-is-nft-non-fungible-tokens-explained/
+ [22]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [23]: https://blog.containerize.com/blockchain-platforms/nft-vs-crypto-difference-between-cryptocurrency-nft/
+
+ [24]: https://blog.containerize.com/social-network-platforms/top-5-open-source-social-networking-software-in-2022/
+
+ [25]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/

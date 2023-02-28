@@ -134,8 +134,10 @@ Further, [containerize.com][11] is continuously working to enhance the list of
  [12]: https://products.containerize.com/content-management/
  [13]: https://products.containerize.com/rad
  [14]: https://products.containerize.com/content-management/concrete5
- [15]: https://blog.containerize.com/2020/09/29/responsive-joomla-templates-tutorial/
- [16]: https://blog.containerize.com/2020/10/16/how-to-create-joomla-theme-with-gantry-framework/
- [17]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [18]: https://blog.containerize.com/2020/10/09/top-5-best-free-responsive-joomla-templates-of-2020/
- [19]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [15]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
+
+ [16]: https://blog.containerize.com/content-management/how-to-create-joomla-theme-joomla-gantry-framework/
+ [17]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [18]: https://blog.containerize.com/content-management/top-5-best-free-responsive-joomla-templates-of-2020/
+
+ [19]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

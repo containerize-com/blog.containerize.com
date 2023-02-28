@@ -122,6 +122,8 @@ You may find the following links relevant.
  [16]: https://products.containerize.com/office-productivity/neooffice
  [17]: https://products.containerize.com/office-productivity/freeoffice
  [18]: https://products.containerize.com/office-productivity/calligra
- [19]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [20]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [21]: https://blog.containerize.com/2021/11/23/what-is-nft-non-fungible-tokens-explained/
+ [19]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [20]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [21]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/

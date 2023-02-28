@@ -203,5 +203,6 @@ Development with the Docker Container is is very simple and easy. Docker helps d
  [4]: #dockerfile
  [5]: #build
  [6]: #conclusion
- [7]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [8]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

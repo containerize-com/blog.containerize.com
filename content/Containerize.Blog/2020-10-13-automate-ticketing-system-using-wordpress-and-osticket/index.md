@@ -82,4 +82,4 @@ To learn more about osTicket and WordPress please check out these pages:
  [6]: https://href.li/?http://your.domain/api/tickets.json
  [7]: https://href.li/?https://products.containerize.com/helpdesk/osticket
  [8]: https://href.li/?https://products.containerize.com/blogging/wordpress
- [9]: https://blog.containerize.com/2020/12/25/how-to-set-up-help-desk-system-using-osticket/
+ [9]: https://blog.containerize.com/helpdesk/how-to-set-up-help-desk-system-using-osticket/

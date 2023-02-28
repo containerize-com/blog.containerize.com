@@ -105,7 +105,8 @@ A translation management system automated various translation processes and incr
   * [Why Do You Need a Translation Management System?][1]
   * [Automate Business Operations Using Free and Open Source Software][16]
 
- [1]: https://blog.containerize.com/2023/01/04/why-do-you-need-a-translation-management-system/
+ [1]: https://blog.containerize.com/software-development/why-do-you-need-a-translation-management-system/
+
  [2]: #i18n-tasks
  [3]: #Tolgee
  [4]: #Traduora
@@ -120,4 +121,4 @@ A translation management system automated various translation processes and incr
  [13]: https://traduora.co/
  [14]: https://www.containerize.com/
  [15]: https://forum.containerize.com/
- [16]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [16]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

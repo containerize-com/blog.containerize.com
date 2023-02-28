@@ -73,7 +73,8 @@ You may find the following links relevant:
   * [Setup XAMPP and phpMyAdmin as localhost on Windows][2]
 
  [1]: https://blog.containerize.com/category/database-management-software/
- [2]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+
  [3]: https://blog.containerize.com/2021/02/12/top-5-open-source-dbms-software-in-2021-mysql-and-alternatives/
  [4]: #what
  [5]: #why

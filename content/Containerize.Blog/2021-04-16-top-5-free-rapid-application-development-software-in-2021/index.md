@@ -133,7 +133,9 @@ You may find the following links relevant:
  [20]: https://www.containerize.com/
  [21]: https://products.containerize.com/rad
  [22]: https://products.containerize.com/rad/li3
- [23]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [24]: https://blog.containerize.com/2020/10/28/jhipster-tutorial-getting-started-with-jhipster/
- [25]: https://blog.containerize.com/2020/10/23/rapid-application-development-software-for-business-rad/
- [26]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [24]: https://blog.containerize.com/rapid-application-development/jhipster-tutorial-getting-started-with-rad-software/
+ [25]: https://blog.containerize.com/rapid-application-development/rapid-application-development-software-for-business-rad/
+
+ [26]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

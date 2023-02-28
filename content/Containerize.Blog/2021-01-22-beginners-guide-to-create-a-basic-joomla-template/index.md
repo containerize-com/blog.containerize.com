@@ -146,4 +146,4 @@ You may find the following links relevant:
  [5]: #install
  [6]: #package
  [7]: #conclusion
- [8]: https://blog.containerize.com/2020/09/29/responsive-joomla-templates-tutorial/
+ [8]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/

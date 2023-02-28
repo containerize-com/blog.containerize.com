@@ -116,7 +116,8 @@ You may find the following links relevant:
  [4]: #Conclusion
  [5]: https://containerize.com
  [6]: https://blog.containerize.com/category/status-page/
- [7]: https://blog.containerize.com/2020/11/20/top-5-open-source-status-page-software-for-2020/
+ [7]: https://blog.containerize.com/status-page/top-5-open-source-status-page-software-for-2020/
+
  [8]: https://products.containerize.com/status/statping
  [9]: https://products.containerize.com/status/cachet/
  [10]: https://products.containerize.com/status/monitoror/

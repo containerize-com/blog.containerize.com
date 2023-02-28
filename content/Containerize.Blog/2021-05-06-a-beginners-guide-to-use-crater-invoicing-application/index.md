@@ -103,4 +103,4 @@ You may find the following links relevant:
  [6]: https://github.com/bytefury/crater
  [7]: https://containerize.com
  [8]: https://blog.containerize.com/category/invoicing/
- [9]: https://blog.containerize.com/2021/02/08/top-5-open-source-accounting-software-in-the-year-2021/
+ [9]: https://blog.containerize.com/invoicing/top-5-open-source-accounting-software-in-the-year-2021/

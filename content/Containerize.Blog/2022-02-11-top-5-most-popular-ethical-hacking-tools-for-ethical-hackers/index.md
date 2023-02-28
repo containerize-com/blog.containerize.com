@@ -133,4 +133,4 @@ You may find the more related below articles:
  [8]: https://products.containerize.com/marketplace/cocorico/
  [9]: https://products.containerize.com/marketplace/edurge/
  [10]: https://products.containerize.com/marketplace/
- [11]: https://blog.containerize.com/2021/06/25/top-5-open-source-cloud-storage-software-in-2021/
+ [11]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/

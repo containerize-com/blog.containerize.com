@@ -199,7 +199,8 @@ You may find the following links relevant:
  [7]: #status
  [8]: #revert
  [9]: #conclusion
- [10]: https://blog.containerize.com/2021/02/19/automate-software-development-workflows-with-github-actions/
- [11]: https://blog.containerize.com/2021/02/12/set-up-a-continuous-deployment-pipeline-with-gitlab-cicd/
- [12]: https://blog.containerize.com/2021/02/04/understand-and-learn-branches-and-pull-requests-in-git/
- [13]: https://blog.containerize.com/2020/12/11/top-5-open-source-version-control-systems-in-2021/
+ [10]: https://blog.containerize.com/version-control-software/github-actions-tutorial-automate-your-first-workflow/
+ [11]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/
+ [12]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
+
+ [13]: https://blog.containerize.com/version-control-software/top-5-open-source-version-control-systems-in-2021/

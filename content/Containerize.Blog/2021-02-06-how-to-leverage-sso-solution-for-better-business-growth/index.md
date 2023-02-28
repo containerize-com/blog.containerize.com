@@ -79,7 +79,7 @@ You may find the following links relevant:
   * **[How To Leverage SSO System For Better Business Growth][15]**
   * **[Automate Business Operations Using Free and Open Source Software][16]**
 
- [1]: https://blog.containerize.com/2021/01/29/Top-5-Open-Source-Single-Sign-On-Software-In-the-Year-2021/
+ [1]: https://blog.containerize.com/single-sign-on/top-5-open-source-single-sign-on-software-in-the-year-2021/
  [2]: #what
  [3]: #features
  [4]: #business
@@ -93,5 +93,6 @@ You may find the following links relevant:
  [12]: https://products.containerize.com/single-sign-on/wso2
  [13]: https://products.containerize.com/single-sign-on/openidentityplatform
  [14]: https://products.containerize.com/single-sign-on/freeipa
- [15]: https://blog.containerize.com/2021/02/06/how-to-leverage-sso-solution-for-better-business-growth/
- [16]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [15]: https://blog.containerize.com/single-sign-on/how-to-leverage-sso-solution-for-better-business-growth/
+
+ [16]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

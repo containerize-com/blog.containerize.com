@@ -118,8 +118,8 @@ You may find the following links relevant:
   * [Features Exploration Of Medical Record Manager HospitalRun][29]
 
  [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
- [2]: https://blog.containerize.com/2021/02/26/features-exploration-of-medical-health-solution-openemr/
- [3]: https://blog.containerize.com/2021/02/19/how-to-set-up-ehealth-system-hospitalrun-on-localhost/
+ [2]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/
+ [3]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
  [4]: #OpenEMR
  [5]: #OpenMRS
  [6]: #Hospitalrun
@@ -145,4 +145,4 @@ You may find the following links relevant:
  [26]: https://products.containerize.com/healthcare-technologies/
  [27]: https://products.containerize.com/health-care-technologies/openemr
  [28]: https://products.containerize.com/health-care-technologies/openmrs
- [29]: https://blog.containerize.com/2021/08/04/features-exploration-of-medical-record-manager-hospitalrun/
+ [29]: https://blog.containerize.com/healthcare-software/features-exploration-of-medical-record-manager-hospitalrun/

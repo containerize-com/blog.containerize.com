@@ -90,6 +90,8 @@ Finally, [containerize.com][7] is thriving to enhance its tutorials bucket tha
  [11]: https://products.containerize.com/business-intelligence/hypercable
  [12]: https://products.containerize.com/business-intelligence/posthog
  [13]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
- [14]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
- [15]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [16]: https://blog.containerize.com/2021/10/20/matomo-vs-plausible-google-analytics-alternatives/
+ [14]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+
+ [15]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [16]: https://blog.containerize.com/business-intelligence-software/matomo-vs-plausible-google-analytics-alternatives/

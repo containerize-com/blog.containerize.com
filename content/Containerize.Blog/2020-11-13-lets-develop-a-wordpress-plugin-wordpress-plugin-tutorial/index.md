@@ -155,8 +155,11 @@ Finally, [containerize.com][8] is writing articles on further open source prod
  [8]: https://www.containerize.com/
  [9]: https://products.containerize.com/blogging/
  [10]: https://products.containerize.com/business-intelligence/
- [11]: https://blog.containerize.com/2021/10/26/how-to-install-matomo-for-wordpress-wordpress-tutorial/
- [12]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
- [13]: https://blog.containerize.com/2021/01/13/how-to-a-install-plugin-in-wordpress-vanilla-forum/
- [14]: https://blog.containerize.com/2021/11/03/joomla-vs-drupal-cms-comparison-in-2021/
- [15]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
+ [11]: https://blog.containerize.com/blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/
+
+ [12]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+ [13]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+
+ [14]: https://blog.containerize.com/content-management/joomla-vs-drupal-cms-comparison-in-2021/
+
+ [15]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/

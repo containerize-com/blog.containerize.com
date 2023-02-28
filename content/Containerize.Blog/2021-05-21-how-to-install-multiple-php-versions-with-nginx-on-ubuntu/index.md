@@ -249,5 +249,6 @@ In this tutorial we explored how to multiple php versions on ubuntu. We learned 
  [3]: #web
  [4]: #configure
  [5]: #conclusion
- [6]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
- [7]: https://blog.containerize.com/2021/04/30/how-to-use-nginx-as-load-balancer-for-your-application/
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/

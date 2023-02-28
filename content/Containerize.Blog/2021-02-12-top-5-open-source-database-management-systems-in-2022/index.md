@@ -140,4 +140,4 @@ You may find the following links relevant:
  [20]: https://www.linkedin.com/company/containerize/
  [21]: https://twitter.com/containerize_co
  [22]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
- [23]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [23]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/

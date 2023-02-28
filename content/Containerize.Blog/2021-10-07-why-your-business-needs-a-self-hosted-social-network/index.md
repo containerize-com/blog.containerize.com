@@ -78,6 +78,8 @@ You may find the following links relevant:
  [1]: https://www.containerize.com/
  [2]: https://products.containerize.com/social-network-platforms/
  [3]: https://products.containerize.com/social-network-platforms/humhub/
- [4]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [5]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [6]: https://blog.containerize.com/2021/01/22/top-5-open-source-video-conferencing-software-of-2021/
+ [4]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [5]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [6]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/

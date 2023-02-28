@@ -87,6 +87,8 @@ Finally, [containerize.com][9] is writing articles on further open source prod
  [13]: https://products.containerize.com/business-intelligence/plausible
  [14]: https://products.containerize.com/blogging/jekyll/
  [15]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
- [16]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
- [17]: https://blog.containerize.com/2021/01/13/how-to-a-install-plugin-in-wordpress-vanilla-forum/
- [18]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
+ [16]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+
+ [17]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+
+ [18]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/

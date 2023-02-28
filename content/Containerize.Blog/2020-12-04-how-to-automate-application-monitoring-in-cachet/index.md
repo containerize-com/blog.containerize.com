@@ -171,4 +171,4 @@ You may find the following links relevant:
  [7]: https://blog.containerize.com/category/status-page
  [8]: https://products.containerize.com/status
  [9]: https://products.containerize.com/status/cachet
- [10]: https://blog.containerize.com/2020/11/20/top-5-open-source-status-page-software-for-2020/
+ [10]: https://blog.containerize.com/status-page/top-5-open-source-status-page-software-for-2020/

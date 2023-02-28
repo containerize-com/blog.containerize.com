@@ -114,5 +114,6 @@ In this article, we’ve covered top 5 of the best free animation apps. All of t
  [16]: https://products.containerize.com/
  [17]: https://blog.containerize.com/
  [18]: https://products.containerize.com/animation-software/
- [19]: https://blog.containerize.com/2021/06/29/synfig-tutorial-an-open-source-2d-animation-software/
- [20]: https://blog.containerize.com/2021/06/21/how-to-create-animations-with-pencil2d-animation-software/
+ [19]: https://blog.containerize.com/animation-software/synfig-tutorial-an-open-source-2d-animation-software/
+
+ [20]: https://blog.containerize.com/animation-software/how-to-create-animations-with-pencil2d-animation-software/

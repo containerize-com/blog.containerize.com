@@ -88,7 +88,9 @@ You may find following links relevant:
  [5]: https://href.li/?http://yourWordpressSite.com/wp-admin/admin.php
  [6]: https://products.containerize.com/blogging/wordpress
  [7]: https://products.containerize.com/marketing-automation/mautic
- [8]: https://blog.containerize.com/2020/12/04/how-to-setup-mautic-facebook-integration/
- [9]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [10]: https://blog.containerize.com/2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/
- [11]: https://blog.containerize.com/2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+ [8]: https://blog.containerize.com/marketing-automation/how-to-setup-mautic-facebook-integration/
+
+ [9]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [10]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+
+ [11]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/

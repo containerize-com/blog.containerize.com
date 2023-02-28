@@ -79,9 +79,11 @@ You may find the following links relevant:
   * [Joomla vs Drupal | CMS Comparison in 2021][21]
   * [Automate Business Operations Using Free and Open Source Software][22]
 
- [1]: https://blog.containerize.com/2020/09/29/responsive-joomla-templates-tutorial/
- [2]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [3]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [1]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
+
+ [2]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [3]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
+
  [4]: https://products.containerize.com/content-management/joomla/
  [5]: https://products.containerize.com/blogging/wordpress/
  [6]: #gantry
@@ -97,7 +99,10 @@ You may find the following links relevant:
  [16]: https://products.containerize.com/content-management/django
  [17]: https://products.containerize.com/content-management/umbraco
  [18]: https://products.containerize.com/content-management/concrete5
- [19]: https://blog.containerize.com/2020/10/09/top-5-best-free-responsive-joomla-templates-of-2020/
- [20]: https://blog.containerize.com/2021/01/22/beginners-guide-to-create-a-basic-joomla-template/
- [21]: https://blog.containerize.com/2021/11/03/joomla-vs-drupal-cms-comparison-in-2021/
- [22]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [19]: https://blog.containerize.com/content-management/top-5-best-free-responsive-joomla-templates-of-2020/
+
+ [20]: https://blog.containerize.com/content-management/beginners-guide-to-create-a-basic-joomla-template/
+
+ [21]: https://blog.containerize.com/content-management/joomla-vs-drupal-cms-comparison-in-2021/
+
+ [22]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

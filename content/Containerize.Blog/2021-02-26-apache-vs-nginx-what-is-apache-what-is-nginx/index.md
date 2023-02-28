@@ -93,7 +93,8 @@ You may find the following links relevant:
  [10]: https://www.linkedin.com/company/containerize/
  [11]: https://twitter.com/containerize_co
  [12]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
- [13]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [13]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+
  [14]: https://products.containerize.com/solution-stack/xampp
  [15]: https://products.containerize.com/solution-stack/nginx
- [16]: https://blog.containerize.com/2021/06/26/setup-tutorial-for-lemp-stack-on-ubuntu-18.04/
+ [16]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/

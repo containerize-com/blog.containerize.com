@@ -121,5 +121,6 @@ You may find the following links relevant:
  [14]: https://products.containerize.com/deployment-tools/concourse/
  [15]: https://products.containerize.com/deployment-tools/ansible/
  [16]: https://products.containerize.com/deployment-tools/gocd/
- [17]: https://blog.containerize.com/2021/03/12/top-5-open-source-deployment-tools-in-the-year-2021/
- [18]: https://blog.containerize.com/2021/03/05/automate-php-application-deployment-with-deployer/
+ [17]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+
+ [18]: https://blog.containerize.com/deployment-tools/automate-php-application-deployment-with-deployer/

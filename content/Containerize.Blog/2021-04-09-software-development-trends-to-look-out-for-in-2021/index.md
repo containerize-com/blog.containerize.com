@@ -74,7 +74,8 @@ You may find following links relevant:
   * [How RAD Software Helps You To Grow Business to Next Level][5]
 
  [1]: mailto:yasir.saeed@aspose.com
- [2]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
+ [2]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
  [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
  [4]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
- [5]: https://blog.containerize.com/2020/10/23/how-rad-software-helps-you-to-grow-business-to-next-level/
+ [5]: https://blog.containerize.com/rapid-application-development/rapid-application-development-software-for-business-rad/

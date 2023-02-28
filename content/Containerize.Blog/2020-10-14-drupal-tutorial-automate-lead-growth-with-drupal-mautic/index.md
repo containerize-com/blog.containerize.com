@@ -90,11 +90,16 @@ You may find the following links relevant:
  [8]: https://www.containerize.com/
  [9]: https://products.containerize.com/content-management/drupal/
  [10]: https://products.containerize.com/marketing-automation/mautic/
- [11]: https://blog.containerize.com/2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/
- [12]: https://blog.containerize.com/2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
- [13]: https://blog.containerize.com/2020/12/04/how-to-setup-mautic-facebook-integration/
- [14]: https://blog.containerize.com/2020/10/09/top-5-best-free-responsive-joomla-templates-of-2020/
- [15]: https://blog.containerize.com/2020/09/29/responsive-joomla-templates-tutorial/
- [16]: https://blog.containerize.com/2020/10/16/how-to-create-joomla-theme-with-gantry-framework/
- [17]: https://blog.containerize.com/2020/10/12/top-5-open-source-cms-software-for-2020/
- [18]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
+ [11]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+
+ [12]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+
+ [13]: https://blog.containerize.com/marketing-automation/how-to-setup-mautic-facebook-integration/
+
+ [14]: https://blog.containerize.com/content-management/top-5-best-free-responsive-joomla-templates-of-2020/
+
+ [15]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
+
+ [16]: https://blog.containerize.com/content-management/how-to-create-joomla-theme-joomla-gantry-framework/
+ [17]: https://blog.containerize.com/content-management/top-5-open-source-content-management-systems-for-2020/
+ [18]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/

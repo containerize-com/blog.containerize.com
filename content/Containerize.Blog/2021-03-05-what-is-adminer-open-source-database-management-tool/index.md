@@ -123,4 +123,4 @@ To learn more about free web-based database management tools, please check the f
  [13]: https://twitter.com/containerize_co
  [14]: https://products.containerize.com/database-management/adminer
  [15]: https://blog.containerize.com/2021/01/16/top-5-open-source-database-management-tools-in-2021/
- [16]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [16]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

@@ -84,7 +84,7 @@ You may find the following links relevant:
   * [[Automate Business Operations Using Free and Open Source Software][19]][20]
 
  [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
- [2]: https://blog.containerize.com/2021/02/19/how-to-set-up-ehealth-system-hospitalrun-on-localhost/
+ [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
  [3]: #intro
  [4]: #features
  [5]: #Conclusion
@@ -97,9 +97,12 @@ You may find the following links relevant:
  [12]: https://products.containerize.com/healthcare-technologies/hospitalrun
  [13]: https://products.containerize.com/healthcare-technologies/open-hospital
  [14]: https://products.containerize.com/healthcare-technologies/solismed
- [15]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [16]: https://blog.containerize.com/2021/08/04/features-exploration-of-medical-record-manager-hospitalrun/
+ [15]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [16]: https://blog.containerize.com/healthcare-software/features-exploration-of-medical-record-manager-hospitalrun/
+
  [17]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
  [18]: https://blog.containerize.com/2021/02/12/technology-in-healthcare-impact-on-healthcare-industry/
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [20]: https://blog.containerize.com/2021/02/19/how-to-install-ehealth-system-hospitalrun-on-localhost/
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [20]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/

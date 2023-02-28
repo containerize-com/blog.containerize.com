@@ -119,4 +119,4 @@ Please visit this [link][4] to know the advantages of a translation management s
  [8]: https://blog.containerize.com/category/version-control-software/
  [9]: https://blog.containerize.com/category/marketing-automation/
  [10]: https://blog.containerize.com/category/deployment-tools/
- [11]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [11]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

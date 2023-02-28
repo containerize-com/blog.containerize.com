@@ -75,7 +75,8 @@ You may find the following links relevant:
 
  [1]: https://blog.containerize.com/category/blogging/
  [2]: https://blog.containerize.com/category/video-conferencing-software/
- [3]: https://blog.containerize.com/2020/11/19/how-to-set-up-open-source-jitsi-meet/
+ [3]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/
+
  [4]: http://how%20to%20install%20matomo%20for%20wordpress%20%7C%20wordpress%20tutorial/
  [5]: #what
  [6]: #intro
@@ -90,9 +91,13 @@ You may find the following links relevant:
  [15]: https://web.facebook.com/containerize
  [16]: https://www.linkedin.com/company/containerize/
  [17]: https://twitter.com/containerize_co
- [18]: https://blog.containerize.com/2020/11/13/how-free-video-conferencing-solution-benefits-your-business/
- [19]: https://blog.containerize.com/2021/01/22/top-5-open-source-video-conferencing-software-of-2021/
+ [18]: https://blog.containerize.com/
+
+ [19]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
+
  [20]: #
- [21]: https://blog.containerize.com/2021/01/13/how-to-a-install-plugin-in-wordpress-vanilla-forum/
- [22]: https://blog.containerize.com/2020/10/13/civicrm-wordpress-integration-wordpress-tutorial/
- [23]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [21]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+
+ [22]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+
+ [23]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

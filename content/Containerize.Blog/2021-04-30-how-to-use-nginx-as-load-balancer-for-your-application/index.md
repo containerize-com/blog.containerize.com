@@ -176,5 +176,5 @@ You may find the more related below articles
  [8]: https://www.linkedin.com/company/containerize/
  [9]: http://facebook.com/containerize
  [10]: mailto:yasir.saeed@aspose.com
- [11]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
  [12]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/

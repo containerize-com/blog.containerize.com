@@ -94,8 +94,10 @@ ChatGPT is AI-powered and interacts in a conversational way. You can integrate C
   * [What is OpenAI Chatbot GPT-3 | ChatGPT an AI Revolution][2]
   * [What are The Top 5 Open-Source AI Frameworks][16]
 
- [1]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [2]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
  [3]: https://www.google.com/sheets/about/
  [4]: https://products.containerize.com/
  [5]: https://openai.com/
@@ -108,5 +110,6 @@ ChatGPT is AI-powered and interacts in a conversational way. You can integrate C
  [12]: https://www.linkedin.com/company/containerize/
  [13]: https://twitter.com/containerize_co
  [14]: https://forum.containerize.com/
- [15]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
- [16]: https://blog.containerize.com/2023/01/27/top-5-open-source-ai-frameworks/
+ [15]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+
+ [16]: https://blog.containerize.com/artificial-intelligence/top-5-open-source-ai-frameworks/

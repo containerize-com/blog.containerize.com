@@ -80,8 +80,8 @@ You may find the following links relevant:
   * [Automate Business Operations Using Free and Open Source Software][18]
 
  [1]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
- [2]: https://blog.containerize.com/2021/02/19/how-to-install-ehealth-system-hospitalrun-on-localhost/
- [3]: https://blog.containerize.com/2021/02/26/features-exploration-of-medical-health-solution-openemr/
+ [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
+ [3]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/
  [4]: #health
  [5]: #impact
  [6]: #types
@@ -93,7 +93,9 @@ You may find the following links relevant:
  [12]: https://products.containerize.com/healthcare-technologies/hospitalrun
  [13]: https://products.containerize.com/healthcare-technologies/open-hospital
  [14]: https://products.containerize.com/healthcare-technologies/solismed
- [15]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [16]: https://blog.containerize.com/2021/08/04/features-exploration-of-medical-record-manager-hospitalrun/
- [17]: https://blog.containerize.com/2021/02/19/how-to-set-up-ehealth-system-hospitalrun-on-localhost/
- [18]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [15]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [16]: https://blog.containerize.com/healthcare-software/features-exploration-of-medical-record-manager-hospitalrun/
+
+ [17]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
+ [18]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

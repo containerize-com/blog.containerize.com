@@ -95,16 +95,20 @@ You may find the following links relevant:
  [12]: https://products.containerize.com/marketing-automation
  [13]: https://wordpress.org/plugins/vanilla-forums/
  [14]: https://blog.containerize.com/2020/11/13/a-beginners-guide-to-develop-a-wordpress-plugin/
- [15]: https://blog.containerize.com/2020/11/04/a-beginners-guide-to-create-wordpress-theme-from-scratch/
+ [15]: https://blog.containerize.com/blogging/a-beginners-guide-to-create-wordpress-theme-from-scratch/
+
  [16]: https://blog.containerize.com/
  [17]: https://www.containerize.com/
  [18]: https://products.containerize.com/blogging/wordpress/
  [19]: https://products.containerize.com/blogging/jekyll/
  [20]: https://products.containerize.com/blogging/ghost/
- [21]: https://blog.containerize.com/2020/12/18/how-to-dockerize-wordpress-with-docker-compose/
- [22]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
- [23]: https://blog.containerize.com/2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
- [24]: https://blog.containerize.com/2020/10/14/how-to-integrate-discourse-forum-with-wordpress/
- [25]: https://blog.containerize.com/2021/01/17/increase-website-search-traffic-by-following-top-7-seo-blogs/
- [26]: https://blog.containerize.com/2020/11/25/how-to-build-your-website-with-wordpress-and-gatsby/
+ [21]: https://blog.containerize.com/blogging/how-to-dockerize-wordpress-docker-wordpress/
+ [22]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+ [23]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+ [24]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
+
+ [25]: https://blog.containerize.com/blogging/increase-website-search-traffic-by-following-top-7-seo-blogs/
+
+ [26]: https://blog.containerize.com/blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
  [27]: https://blog.containerize.com/2020/12/12/how-to-enable-gzip-compression-in-wordpress-for-better-speed/

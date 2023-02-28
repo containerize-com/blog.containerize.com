@@ -88,10 +88,12 @@ Please visit this [link][7] to know the steps of Google Docs integration with Ch
   * [What is OpenAI Chatbot GPT-3 | ChatGPT an AI Revolution][1]
   * [What are The Top 5 Open-Source AI Frameworks][16]
 
- [1]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
  [2]: https://www.containerize.com/
  [3]: https://docs.google.com/document/u/0/
- [4]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
+ [4]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+
  [5]: https://openai.com/
  [6]: #How-to-obtain-the-OpenAI-API-key
  [7]: #Lets-do-Google-Docs-Integration-with-ChatGPT
@@ -101,6 +103,8 @@ Please visit this [link][7] to know the steps of Google Docs integration with Ch
  [11]: https://www.linkedin.com/company/containerize/
  [12]: https://twitter.com/containerize_co
  [13]: https://forum.containerize.com/
- [14]: https://blog.containerize.com/2023/02/01/integrate-chatgpt-with-google-sheets/
- [15]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [16]: https://blog.containerize.com/2023/01/27/top-5-open-source-ai-frameworks/
+ [14]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
+
+ [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [16]: https://blog.containerize.com/artificial-intelligence/top-5-open-source-ai-frameworks/

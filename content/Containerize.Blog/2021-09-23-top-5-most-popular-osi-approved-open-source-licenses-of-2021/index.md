@@ -78,7 +78,9 @@ We also have several other articles that you might be interested in.
  [2]: https://www.linkedin.com/company/containerize/
  [3]: http://facebook.com/containerize
  [4]: mailto:yasir.saeed@aspose.com
- [5]: https://blog.containerize.com/2021/10/11/top-5-open-source-container-orchestration-tools-for-devops-in-2021/
- [6]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
+ [5]: https://blog.containerize.com/devops/top-5-open-source-container-orchestration-tools-for-devops-in-2021/
+
+ [6]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
  [7]: https://products.containerize.com/backup-and-sync/
- [8]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
+ [8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/

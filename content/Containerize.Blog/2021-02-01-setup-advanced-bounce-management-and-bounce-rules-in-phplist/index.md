@@ -92,7 +92,8 @@ You may find the following links relevant:
   * [How to setup and process bounces in phpList][1]
   * [Beginners Guide To Develop phpList Plugin][10]
 
- [1]: https://blog.containerize.com/2020/11/13/how-to-setup-and-process-bounces-in-phplist/
+ [1]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
+
  [2]: #Enable
  [3]: #Add
  [4]: #List
@@ -100,5 +101,6 @@ You may find the following links relevant:
  [6]: https://containerize.com
  [7]: https://blog.containerize.com/category/newsletter/
  [8]: https://products.containerize.com/newsletter/phplist
- [9]: https://blog.containerize.com/2020/10/29/how-to-create-and-send-newsletter-using-phplist/
- [10]: https://blog.containerize.com/2020/12/18/beginners-guide-to-develop-phplist-plugin/
+ [9]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
+
+ [10]: https://blog.containerize.com/newsletter/beginners-guide-to-develop-phplist-plugin/

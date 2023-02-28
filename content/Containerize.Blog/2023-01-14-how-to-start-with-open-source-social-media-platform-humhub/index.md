@@ -92,8 +92,10 @@ Follow this [link][6] to know about a self-hosted social network.
   * [Automate Business Operations Using Free and Open Source Software][18]
 
  [1]: https://products.containerize.com/social-network-platforms/
- [2]: https://blog.containerize.com/2021/10/07/why-your-business-needs-a-self-hosted-social-network/
- [3]: https://blog.containerize.com/2022/01/12/top-5-open-source-social-networking-software-in-2022/
+ [2]: https://blog.containerize.com/social-network-platforms/why-your-business-needs-a-self-hosted-social-network/
+
+ [3]: https://blog.containerize.com/social-network-platforms/top-5-open-source-social-networking-software-in-2022/
+
  [4]: https://products.containerize.com/social-network-platforms/humhub/
  [5]: https://saas.humhub.com/en/create
  [6]: #Why-should-you-opt-for-HumHub
@@ -108,4 +110,4 @@ Follow this [link][6] to know about a self-hosted social network.
  [15]: https://twitter.com/containerize_co
  [16]: https://forum.containerize.com/
  [17]: //blog.containerize.com/2021/10/07/why-your-business-needs-a-self-hosted-social-network/
- [18]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [18]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

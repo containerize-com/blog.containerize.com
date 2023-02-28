@@ -145,9 +145,13 @@ We also have several other articles relating to the day-to-day management of you
  [21]: https://www.linkedin.com/company/containerize/
  [22]: http://facebook.com/containerize
  [23]: mailto:yasir.saeed@aspose.com
- [24]: https://blog.containerize.com/2021/04/30/important-digital-marketing-practices-for-startups-in-2021/
+ [24]: https://blog.containerize.com/marketing-automation/important-digital-marketing-practices-for-startups-in-2021/
+
  [25]: https://blog.containerize.com/2021/04/23/best-business-and-technology-trends-in-2021-and-beyond/
- [26]: https://blog.containerize.com/2021/05/07/top-5-open-source-marketplace-software-in-2021/
- [27]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [28]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [29]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
+ [26]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/
+
+ [27]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [28]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [29]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/

@@ -101,6 +101,8 @@ We also have several other related information from OSS watch:
 
  [1]: mailto:yasir.saeed@aspose.com
  [2]: https://products.containerize.com/backup-and-sync/
- [3]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
- [4]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
- [5]: https://blog.containerize.com/2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+ [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
+ [4]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+
+ [5]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

@@ -106,7 +106,8 @@ You may find the following links relevant:
  [16]: https://web.facebook.com/containerize
  [17]: https://www.linkedin.com/company/containerize/
  [18]: https://twitter.com/containerize_co
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
  [20]: https://products.containerize.com/content-management/
  [21]: https://products.containerize.com/blogging/
  [22]: https://products.containerize.com/discussion-forum/

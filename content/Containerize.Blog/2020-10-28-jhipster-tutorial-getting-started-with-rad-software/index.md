@@ -136,6 +136,8 @@ You may find the following links relevant:
  [13]: https://products.containerize.com/rad/quickapp
  [14]: https://products.containerize.com/rad/li3
  [15]: https://products.containerize.com/rad/apache-isis
- [16]: https://blog.containerize.com/2021/04/16/top-5-free-rapid-application-development-software-in-2021/
- [17]: https://blog.containerize.com/2020/10/23/rapid-application-development-software-for-business-rad/
- [18]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
+ [16]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
+
+ [17]: https://blog.containerize.com/rapid-application-development/rapid-application-development-software-for-business-rad/
+
+ [18]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/

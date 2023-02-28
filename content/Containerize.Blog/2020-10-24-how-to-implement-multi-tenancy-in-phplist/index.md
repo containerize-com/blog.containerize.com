@@ -91,7 +91,10 @@ You may find the following links relevant:
  [2]: #database
  [3]: #nginx
  [4]: https://products.containerize.com/newsletter/phplist
- [5]: https://blog.containerize.com/2020/10/29/how-to-create-and-send-newsletter-using-phplist/
- [6]: https://blog.containerize.com/2020/11/13/how-to-setup-and-process-bounces-in-phplist/
- [7]: https://blog.containerize.com/2020/12/18/beginners-guide-to-develop-phplist-plugin/
- [8]: https://blog.containerize.com/2021/02/01/setup-advanced-bounce-management-and-bounce-rules-in-phplist/
+ [5]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
+
+ [6]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
+
+ [7]: https://blog.containerize.com/newsletter/beginners-guide-to-develop-phplist-plugin/
+
+ [8]: https://blog.containerize.com/newsletter/setup-advanced-bounce-management-and-bounce-rules-in-phplist/

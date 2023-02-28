@@ -147,10 +147,11 @@ In this tutorial, we explored Apache’s .htaccess rewrite rules and how we can 
   * [How to Install Multiple PHP Versions with Nginx on Ubuntu][1]
   * [How to Setup and Configure Nginx as Reverse Proxy][7]
 
- [1]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
  [2]: #nginx
  [3]: #apache
  [4]: #convert
  [5]: #conclusion
  [6]: https://codex.wordpress.org/htaccess
- [7]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

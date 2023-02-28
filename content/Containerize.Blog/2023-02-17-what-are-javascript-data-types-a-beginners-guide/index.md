@@ -135,5 +135,6 @@ Please visit this [link][3] to know the 8 JavaScript Data Types.
  [6]: https://twitter.com/containerize_co
  [7]: https://forum.containerize.com/
  [8]: //blog.containerize.com/2022/02/02/free-open-source-popular-javascript-frameworks/
- [9]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
  [10]: //blog.containerize.com/2022/01/31/top-10-open-source-trending-technologies-of-2022/

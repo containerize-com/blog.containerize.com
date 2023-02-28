@@ -139,8 +139,9 @@ Finally, you may find the following links relevant:
  [24]: https://products.containerize.com/content-management/fork
  [25]: https://products.containerize.com/content-management/refinery-cms
  [26]: https://products.containerize.com/content-management/locomotive-cms
- [27]: https://blog.containerize.com/2020/09/29/responsive-joomla-templates-tutorial/
- [28]: https://blog.containerize.com/2020/10/16/how-to-create-joomla-theme-with-gantry-framework/
- [29]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [30]: https://blog.containerize.com/2020/10/12/top-5-open-source-cms-software-for-2020/
- [31]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [27]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
+
+ [28]: https://blog.containerize.com/content-management/how-to-create-joomla-theme-joomla-gantry-framework/
+ [29]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [30]: https://blog.containerize.com/content-management/top-5-open-source-content-management-systems-for-2020/
+ [31]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

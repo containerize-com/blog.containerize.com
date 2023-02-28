@@ -113,7 +113,8 @@ You may find the following links relevant:
   * [ConsenSys Quorum][26]
 
  [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
- [2]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [2]: https://blog.containerize.com/
+
  [3]: #ether
  [4]: #hyper
  [5]: #open

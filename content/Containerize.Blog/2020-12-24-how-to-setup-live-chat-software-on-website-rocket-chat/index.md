@@ -110,8 +110,10 @@ You may find the following links relevant.
   * [<mark>How to Create and Run a Bot in Rocket.Chat using Botpress</mark>][21]
   * [Automate Business Operations Using Free and Open Source Software][20]
 
- [1]: https://blog.containerize.com/2020/10/05/top-5-free-customer-support-chat-software-for-website/
- [2]: https://blog.containerize.com/2020/10/15/instantly-communicate-with-customers-using-wordpress-and-rocket.chat/
+ [1]: https://blog.containerize.com/live-chat/top-5-free-customer-support-chat-software-for-website/
+
+ [2]: https://blog.containerize.com/blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
+
  [3]: #intro
  [4]: #install
  [5]: #enable
@@ -128,6 +130,8 @@ You may find the following links relevant.
  [16]: https://products.containerize.com/live-chat/zulip/
  [17]: https://products.containerize.com/live-chat/lets-chat/
  [18]: https://products.containerize.com/live-chat/botpress/
- [19]: https://blog.containerize.com/2021/01/01/how-to-create-an-ai-based-faq-bot-for-your-business-using-botpress/
- [20]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [21]: https://blog.containerize.com/2020/10/25/how-to-create-and-run-a-bot-in-rocket.chat-using-botpress/
+ [19]: https://blog.containerize.com/live-chat/how-to-create-an-ai-based-faq-bot-for-your-business-using-botpress/
+
+ [20]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [21]: https://blog.containerize.com/live-chat/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/

@@ -111,6 +111,8 @@ You may find the following links relevant:
  [14]: https://products.containerize.com/video-conferencing/
  [15]: https://products.containerize.com/video-conferencing/element
  [16]: https://products.containerize.com/video-conferencing/wire
- [17]: https://blog.containerize.com/2021/01/22/top-5-open-source-video-conferencing-software-of-2021/
- [18]: https://blog.containerize.com/2020/11/19/how-to-set-up-open-source-jitsi-meet/
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [17]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
+
+ [18]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/
+
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

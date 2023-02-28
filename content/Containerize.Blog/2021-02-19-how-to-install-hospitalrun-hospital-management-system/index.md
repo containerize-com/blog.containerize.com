@@ -111,8 +111,10 @@ You may find the following links relevant:
  [13]: https://products.containerize.com/healthcare-technologies/hospitalrun
  [14]: https://products.containerize.com/healthcare-technologies/open-hospital
  [15]: https://products.containerize.com/healthcare-technologies/solismed
- [16]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [17]: https://blog.containerize.com/2021/08/04/features-exploration-of-medical-record-manager-hospitalrun/
+ [16]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [17]: https://blog.containerize.com/healthcare-software/features-exploration-of-medical-record-manager-hospitalrun/
+
  [18]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
- [19]: https://blog.containerize.com/2021/02/26/features-exploration-of-medical-health-solution-openemr/
- [20]: https://blog.containerize.com/2021/02/19/how-to-set-up-ehealth-system-hospitalrun-on-localhost/
+ [19]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/
+ [20]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/

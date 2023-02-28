@@ -92,4 +92,4 @@ These articles could be very helpful if you want to integrate Mautic with WordPr
  [5]: https://products.containerize.com/marketing-automation/mautic
  [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
  [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
- [8]: https://blog.containerize.com/2020/12/11/how-to-implement-multi-tenancy-in-mautic/
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

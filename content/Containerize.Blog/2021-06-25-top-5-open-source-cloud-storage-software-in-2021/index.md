@@ -90,14 +90,17 @@ We also have several other articles relating to the day-to-day management of you
   * [Configure HTTP/2 Support in Nginx On Ubuntu/Debian][12]
 
  [1]: https://owncloud.com/
- [2]: https://blog.containerize.com/2021/06/11/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+ [2]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
  [3]: https://nextcloud.com/
- [4]: https://blog.containerize.com/2021/06/18/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+ [4]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+
  [5]: https://pydio.com/
  [6]: https://www.seafile.com/
  [7]: https://ceph.io/en/
  [8]: mailto:yasir.saeed@aspose.com
  [9]: https://products.containerize.com/backup-and-sync/
- [10]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [11]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
- [12]: https://blog.containerize.com/2021/05/28/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+ [10]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
+ [12]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/

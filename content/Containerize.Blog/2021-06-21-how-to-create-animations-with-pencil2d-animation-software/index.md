@@ -107,5 +107,6 @@ You may find following links relevant:
  [5]: #create-animations
  [6]: #conclusion
  [7]: https://products.containerize.com/animation-software/pencil2d/
- [8]: https://blog.containerize.com/2021/05/28/beginners-guide-to-start-free-image-editing-using-digikam/
+ [8]: https://blog.containerize.com/animation-software/beginners-guide-to-start-free-image-editing-using-digikam/
+
  [9]: https://products.containerize.com/animation-software/

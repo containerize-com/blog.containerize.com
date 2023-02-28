@@ -90,4 +90,4 @@ You may find the following links relevant:
  [5]: https://containerize.com
  [6]: https://blog.containerize.com/category/web-server-solution-stack/
  [7]: https://products.containerize.com/solution-stack/
- [8]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [8]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/

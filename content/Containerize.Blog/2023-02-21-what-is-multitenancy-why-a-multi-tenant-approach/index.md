@@ -109,8 +109,12 @@ A **multi-tenant application architecture** means a single instance of a server 
  [11]: https://www.linkedin.com/company/containerize/
  [12]: https://twitter.com/containerize_co
  [13]: https://forum.containerize.com/
- [14]: https://blog.containerize.com/2023/02/14/what-is-generative-ai-generative-artificial-intelligence/
- [15]: https://blog.containerize.com/2023/02/01/integrate-chatgpt-with-google-sheets/
- [16]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [17]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
- [18]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
+ [14]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
+
+ [15]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
+
+ [16]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [17]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
+ [18]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/

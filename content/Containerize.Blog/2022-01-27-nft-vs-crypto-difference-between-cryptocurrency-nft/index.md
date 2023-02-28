@@ -75,18 +75,21 @@ You may find the following links relevant:
   * [How To Setup ConsenSys Quorum Blockchain Network Locally][24]
 
  [1]: https://blog.containerize.com/category/blockchain-platforms/
- [2]: https://blog.containerize.com/2021/11/23/what-is-nft-non-fungible-tokens-explained/
+ [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
+
  [3]: https://products.containerize.com/blockchain-platforms/
  [4]: #mean
  [5]: #cypto
  [6]: #nft
  [7]: #Conclusion
  [8]: https://products.containerize.com/blockchain-platforms/ethereum
- [9]: https://blog.containerize.com/2020/12/01/smart-contract-tutorial-ethereum-blockchain-development/
+ [9]: https://blog.containerize.com/blockchain-platforms/smart-contract-tutorial-ethereum-blockchain-development/
+
  [10]: https://bitcoin.org/en/
  [11]: https://opencollective.com/ccxt
  [12]: https://www.freqtrade.io/en/stable/
- [13]: https://blog.containerize.com/2021/11/17/top-5-free-open-source-crypto-wallets-in-2021/
+ [13]: https://blog.containerize.com/blockchain-platforms/top-5-free-open-source-crypto-wallets-in-2021/
+
  [14]: https://www.containerize.com/
  [15]: https://products.containerize.com/helpdesk/
  [16]: https://web.facebook.com/containerize
@@ -97,7 +100,10 @@ You may find the following links relevant:
  [21]: https://products.containerize.com/blockchain-platforms/ripple
  [22]: https://products.containerize.com/blockchain-platforms/multichain
  [23]: https://products.containerize.com/blockchain-platforms/consensys-quorum
- [24]: https://blog.containerize.com/2021/04/30/how-to-setup-consensys-quorum-blockchain-network-locally/
- [25]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
- [26]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [24]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+
+ [25]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
+ [26]: https://blog.containerize.com/
+
  [27]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

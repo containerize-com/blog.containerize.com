@@ -147,4 +147,4 @@ You may find the following links relevant:
  [22]: https://containerize.com
  [23]: https://blog.containerize.com/category/newsletter/
  [24]: https://products.containerize.com/newsletter
- [25]: https://blog.containerize.com/2021/05/07/top-5-open-source-marketplace-software-in-2021/
+ [25]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/

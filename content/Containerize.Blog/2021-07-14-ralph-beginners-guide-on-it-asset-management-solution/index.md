@@ -68,8 +68,10 @@ Finally, [**containerize.com**][8] is writing articles on further open source 
   * [**Automate Business Operations Using Free and Open Source Software**][14]
   * **[Software development trends to look out for in 2021][15]**
 
- [1]: https://blog.containerize.com/2021/06/18/how-cmdb-solution-influences-it-asset-management-services/
- [2]: https://blog.containerize.com/2021/06/11/how-to-set-up-cmdb-solution-ralph-on-localhost/
+ [1]: https://blog.containerize.com/cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
+
+ [2]: https://blog.containerize.com/cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
+
  [3]: https://products.containerize.com/cmdb-software/ralph/
  [4]: #dashboard
  [5]: #office
@@ -81,5 +83,6 @@ Finally, [**containerize.com**][8] is writing articles on further open source 
  [11]: https://products.containerize.com/cmdb-software/cmdbuild/
  [12]: https://products.containerize.com/cmdb-software/foreman/
  [13]: https://products.containerize.com/cmdb-software/itop/
- [14]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [15]: https://blog.containerize.com/2021/04/09/software-development-trends-to-look-out-for-in-2021/
+ [14]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [15]: https://blog.containerize.com/blockchain-platforms/software-development-trends-to-look-out-for-in-2021/

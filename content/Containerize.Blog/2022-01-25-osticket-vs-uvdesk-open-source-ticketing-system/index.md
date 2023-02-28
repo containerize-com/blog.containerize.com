@@ -68,8 +68,10 @@ You may find the following links relevant.
   * [How To Develop osTicket Plugin | IT HelpDesk software][2]
 
  [1]: https://blog.containerize.com/category/helpdesk/
- [2]: https://blog.containerize.com/2021/01/01/how-to-develop-osticket-plugin-it-helpdesk-software/
- [3]: https://blog.containerize.com/2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
+ [2]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
+
+ [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
  [4]: #osticket
  [5]: #overview
  [6]: #uvdesk
@@ -88,6 +90,8 @@ You may find the following links relevant.
  [19]: https://www.linkedin.com/company/containerize/
  [20]: https://twitter.com/containerize_co
  [21]: https://products.containerize.com/helpdesk/osticket
- [22]: https://blog.containerize.com/2020/12/25/how-to-set-up-help-desk-system-using-osticket/
- [23]: https://blog.containerize.com/2020/11/02/how-to-implement-multi-tenancy-in-osticket/
- [24]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [22]: https://blog.containerize.com/helpdesk/how-to-set-up-help-desk-system-using-osticket/
+
+ [23]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
+
+ [24]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

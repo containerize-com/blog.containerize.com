@@ -103,6 +103,8 @@ Follow this [link][5] to learn the installation and setting up process on [WordP
  [18]: https://www.linkedin.com/company/containerize/
  [19]: https://twitter.com/containerize_co
  [20]: https://forum.containerize.com/
- [21]: https://blog.containerize.com/2022/01/05/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
- [22]: https://blog.containerize.com/2021/01/22/top-5-open-source-video-conferencing-software-of-2021/
- [23]: https://blog.containerize.com/2020/11/19/how-to-set-up-open-source-jitsi-meet/
+ [21]: https://blog.containerize.com/blogging/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
+
+ [22]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
+
+ [23]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/

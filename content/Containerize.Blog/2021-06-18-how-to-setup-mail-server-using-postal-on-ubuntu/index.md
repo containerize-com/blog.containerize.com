@@ -483,4 +483,4 @@ You may find the following links relevant:
  [7]: https://containerize.com
  [8]: https://blog.containerize.com/category/transactional-email/
  [9]: https://products.containerize.com/transactional-email/
- [10]: https://blog.containerize.com/2020/10/02/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
+ [10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/

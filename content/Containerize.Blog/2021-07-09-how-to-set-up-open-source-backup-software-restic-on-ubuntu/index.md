@@ -223,10 +223,16 @@ We also have several other related information from OSS watch:
  [12]: https://containerize.com
  [13]: https://blog.containerize.com/category/backup-software/
  [14]: mailto:yasir.saeed@aspose.com
- [15]: https://blog.containerize.com/2021/06/25/top-5-open-source-cloud-storage-software-in-2021/
- [16]: https://blog.containerize.com/2021/06/18/how-to-install-nextcloud-with-apache-on-ubuntu-server/
- [17]: https://blog.containerize.com/2021/06/11/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
- [18]: https://blog.containerize.com/2021/07/02/how-to-install-pydio-file-sharing-and-sync-platform-on-ubuntu/
- [19]: https://blog.containerize.com/2021/07/17/nsq-vs-kafka-what-are-the-key-differences/
- [20]: https://blog.containerize.com/2021/07/31/nextcloud-vs-owncloud-what-are-the-differences/
+ [15]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/
+
+ [16]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+
+ [17]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
+ [18]: https://blog.containerize.com/backup-and-sync-software/how-to-install-pydio-file-sharing-and-sync-platform-on-ubuntu/
+
+ [19]: https://blog.containerize.com/backup-and-sync-software/nsq-vs-kafka-what-are-the-key-differences/
+
+ [20]: https://blog.containerize.com/backup-and-sync-software/nextcloud-vs-owncloud-what-are-the-differences/
+
  [21]: https://products.containerize.com/backup-and-sync/

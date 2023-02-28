@@ -151,8 +151,10 @@ You may find the following links relevant:
   * [How Decentralized Technology Upgrades Your Business Strategy][19]
 
  [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
- [2]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
- [3]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
+ [2]: https://blog.containerize.com/
+
+ [3]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
  [4]: #setup
  [5]: #interact
  [6]: #Conclusion
@@ -167,5 +169,6 @@ You may find the following links relevant:
  [15]: https://products.containerize.com/blockchain-platforms/ripple
  [16]: https://products.containerize.com/blockchain-platforms/multichain
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
- [18]: https://blog.containerize.com/2021/04/30/how-to-setup-consensys-quorum-blockchain-network-locally/
+ [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

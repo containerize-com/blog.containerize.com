@@ -89,7 +89,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 In this tutorial, we learned about the Publish/Subscribe design pattern. And explored how the Redis pub/sub works. We also explored what are the best use cases of Redis pub/sub, real-time messaging. In my upcoming tutorial, we’ll explore the Redis further and explain how we can use Redis Pub/Sub with Node.js to build a real-time chat application.
 
- [1]: https://blog.containerize.com/2021/02/24/a-beginners-guide-to-redis-in-memory-database/
+ [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
+
  [2]: #what
  [3]: #how
  [4]: #when

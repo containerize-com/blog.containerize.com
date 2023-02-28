@@ -85,4 +85,4 @@ To learn more about XAMPP and phpMyAdmin, checkout following guides:
  [4]: #php
  [5]: #test
  [6]: #conclusion
- [7]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [7]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/

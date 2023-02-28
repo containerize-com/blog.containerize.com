@@ -102,12 +102,15 @@ Finally, [containerize.com][15] is all set to enhance its tutorial base with so
   * **[GDevelop Tutorial For Beginners To Start Game Development][6]**
   * [**Top 5 Free Game Development Software In The Year 2021**][1]
 
- [1]: https://blog.containerize.com/2021/06/30/top-5-free-game-development-software-in-the-year-2021/
- [2]: https://blog.containerize.com/2021/06/04/superpowers-animation-getting-started-with-game-development/
- [3]: https://blog.containerize.com/2021/05/28/game-development-tutorial-player-movement-in-gdevelop/
+ [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
+
+ [2]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
+
+ [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+
  [4]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
- [5]: https://blog.containerize.com/2021/05/07/how-global-gaming-industry-leveraging-open-source-software/
- [6]: https://blog.containerize.com/2021/05/05/gdevelop-tutorial-for-beginners-to-start-game-development/
+ [5]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
+ [6]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
  [7]: https://products.containerize.com/game-development-software/gdevelop/
  [8]: #why
  [9]: #setting

@@ -107,7 +107,8 @@ To learn more about the above-mentioned database management tools, check these p
 
  [1]: https://products.containerize.com/database-management/
  [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
- [3]: https://blog.containerize.com/2021/04/09/kafka-vs-redis-pub-sub-differences-which-you-should-know/
+ [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/
+
  [4]: #phpmyadmin
  [5]: #adminer
  [6]: #dbeaver
@@ -125,4 +126,4 @@ To learn more about the above-mentioned database management tools, check these p
  [18]: https://twitter.com/containerize_co
  [19]: https://products.containerize.com/database-management-system
  [20]: https://blog.containerize.com/2021/03/05/manage-databases-with-adminer-database-management-tool/
- [21]: https://blog.containerize.com/2021/02/24/a-beginners-guide-to-redis-in-memory-database/
+ [21]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/

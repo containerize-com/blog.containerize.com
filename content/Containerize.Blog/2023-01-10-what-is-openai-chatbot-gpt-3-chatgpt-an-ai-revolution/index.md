@@ -102,6 +102,8 @@ No, this [OpenAI][1] chatbot [ChatGPT][2] helps developers in finding the best p
  [13]: https://www.linkedin.com/company/containerize/
  [14]: https://twitter.com/containerize_co
  [15]: https://forum.containerize.com/
- [16]: https://blog.containerize.com/2023/01/04/why-do-you-need-a-translation-management-system/
- [17]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [18]: https://blog.containerize.com/2022/01/31/top-10-open-source-trending-technologies-of-2022/
+ [16]: https://blog.containerize.com/software-development/why-do-you-need-a-translation-management-system/
+
+ [17]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [18]: https://blog.containerize.com/backup-and-sync-software/top-10-open-source-trending-technologies-of-2022/

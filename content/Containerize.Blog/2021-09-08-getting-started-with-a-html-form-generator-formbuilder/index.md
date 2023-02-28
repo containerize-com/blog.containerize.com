@@ -116,8 +116,10 @@ Finally, [containerize.com][10] is writing articles on further open source pro
   * [**Automate Business Operations Using Free and Open Source Software**][17]
   * [**Top 5 Open Source Online Form Builders in the year 2020**][2]
 
- [1]: https://blog.containerize.com/2021/06/25/how-to-setup-bootstrap-form-creator-formio-on-localhost/
- [2]: https://blog.containerize.com/2020/10/08/top-5-open-source-online-form-builders-in-year-2020/
+ [1]: https://blog.containerize.com/form/how-to-setup-bootstrap-form-creator-formio-on-localhost/
+
+ [2]: https://blog.containerize.com/form/top-5-open-source-online-form-builders-in-year-2020/
+
  [3]: https://products.containerize.com/form/formio/
  [4]: https://products.containerize.com/form/formbuilder/
  [5]: #what
@@ -132,4 +134,4 @@ Finally, [containerize.com][10] is writing articles on further open source pro
  [14]: https://products.containerize.com/form/webiny/
  [15]: https://products.containerize.com/form/formtools/
  [16]: https://products.containerize.com/form/alpaca/
- [17]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [17]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

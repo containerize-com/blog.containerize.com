@@ -146,4 +146,4 @@ To learn about other free image editing software applications, please check foll
  [5]: #conclusion
  [6]: https://blog.containerize.com/
  [7]: https://products.containerize.com/photo-editing-software/
- [8]: https://blog.containerize.com/2021/05/06/top-5-open-source-photo-editor-software-in-2021/
+ [8]: https://blog.containerize.com/photo-editing-software/top-5-open-source-photo-editor-software-in-2021/

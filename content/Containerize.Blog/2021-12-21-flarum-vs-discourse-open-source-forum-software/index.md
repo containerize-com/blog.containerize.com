@@ -74,7 +74,8 @@ You may find the following links relevant:
   * [Automate Business Operations Using Free and Open Source Software][19]
 
  [1]: https://products.containerize.com/discussion-forum/
- [2]: https://blog.containerize.com/2020/10/14/how-to-integrate-discourse-forum-with-wordpress/
+ [2]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
+
  [3]: https://products.containerize.com/discussion-forum/discourse/
  [4]: https://products.containerize.com/discussion-forum/flarum/
  [5]: #What-is-Discourse?
@@ -88,7 +89,9 @@ You may find the following links relevant:
  [13]: https://web.facebook.com/containerize
  [14]: https://www.linkedin.com/company/containerize/
  [15]: https://twitter.com/containerize_co
- [16]: https://blog.containerize.com/2021/01/13/a-beginners-guide-on-vanilla-forum-wordpress-integration/
- [17]: https://blog.containerize.com/2021/04/09/top-5-free-open-source-discussion-forum-software-in-2021/
- [18]: https://blog.containerize.com/2020/11/06/how-to-use-discourse-as-a-knowledge-base/
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [16]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+ [17]: https://blog.containerize.com/discussion-forum/top-5-free-open-source-discussion-forum-software-in-2021/
+
+ [18]: https://blog.containerize.com/discussion-forum/how-to-use-discourse-as-a-knowledge-base/
+
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

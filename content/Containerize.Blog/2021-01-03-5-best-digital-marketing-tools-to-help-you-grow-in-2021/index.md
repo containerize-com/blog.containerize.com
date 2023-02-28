@@ -100,7 +100,8 @@ You can check out the related articles below to read up on even more.
  [11]: https://mention.com/en/
  [12]: mailto:yasir.saeed@aspose.com
  [13]: https://forum.containerize.com
- [14]: https://blog.containerize.com/2021/05/07/top-5-open-source-marketplace-software-in-2021/
+ [14]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/
+
  [15]: https://products.containerize.com/marketplace/sharetribe/
  [16]: https://products.containerize.com/marketplace/cocorico/
  [17]: https://products.containerize.com/marketplace/edurge/

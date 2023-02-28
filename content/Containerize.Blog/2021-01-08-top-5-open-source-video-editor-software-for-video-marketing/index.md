@@ -114,7 +114,8 @@ You may find the following links relevant:
   * [Kdenlive][26]
   * [Blender][27]
 
- [1]: https://blog.containerize.com/2020/12/18/how-video-editing-software-improves-business-video-marketing/
+ [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
+
  [2]: https://blog.containerize.com/2020/12/30/a-beginners-guide-to-start-video-editing-with-free-openshot/
  [3]: #openshot
  [4]: #Shotcut

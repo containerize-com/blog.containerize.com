@@ -264,5 +264,6 @@ This article discusses briefly numerous things that Webmin can do, Webmin is one
  [4]: #install
  [5]: #install-apache
  [6]: #conclusion
- [7]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [8]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

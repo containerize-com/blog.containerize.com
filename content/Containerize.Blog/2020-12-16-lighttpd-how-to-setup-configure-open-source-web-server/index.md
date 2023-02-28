@@ -134,7 +134,8 @@ You may find the following links relevant:
   * [Setup XAMPP and phpMyAdmin as localhost on Windows][2]
 
  [1]: https://products.containerize.com/solution-stack/
- [2]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+
  [3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
  [4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
  [5]: #what

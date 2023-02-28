@@ -91,12 +91,15 @@ You may find the more related following blog articles
   * [Top 5 Open Source Marketplace Software in 2021][8]
   * [Best Free and Open Source Marketplace Software][9]
 
- [1]: https://blog.containerize.com/2021/01/17/increase-website-search-traffic-by-following-top-7-seo-blogs/
+ [1]: https://blog.containerize.com/blogging/increase-website-search-traffic-by-following-top-7-seo-blogs/
+
  [2]: https://twitter.com/containerize_co
  [3]: https://www.linkedin.com/company/containerize/
  [4]: http://facebook.com/containerize
  [5]: mailto:yasir.saeed@aspose.com
  [6]: https://blog.containerize.com/2021/01/03/5-digital-marketing-tools-you-shouldn%e2%80%99t-live-without-in-2021/
- [7]: https://blog.containerize.com/2021/05/07/top-5-open-source-marketplace-software-in-2021/
- [8]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [7]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/
+
+ [8]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
+
  [9]: https://products.containerize.com/marketplace/

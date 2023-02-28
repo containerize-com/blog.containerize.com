@@ -181,7 +181,8 @@ You may find the following links relevant:
 
  [1]: https://products.containerize.com/video-editing-software
  [2]: https://products.containerize.com/helpdesk/osticket
- [3]: https://blog.containerize.com/2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
+ [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
  [4]: #why
  [5]: #requirements
  [6]: #how
@@ -195,6 +196,8 @@ You may find the following links relevant:
  [14]: https://products.containerize.com/helpdesk/freescout/
  [15]: https://products.containerize.com/helpdesk/helpy/
  [16]: https://products.containerize.com/helpdesk/
- [17]: https://blog.containerize.com/2020/12/25/how-to-set-up-help-desk-system-using-osticket/
- [18]: https://blog.containerize.com/2020/11/02/how-to-implement-multi-tenancy-in-osticket/
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [17]: https://blog.containerize.com/helpdesk/how-to-set-up-help-desk-system-using-osticket/
+
+ [18]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
+
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

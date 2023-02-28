@@ -121,6 +121,7 @@ You may find the following links relevant:
  [15]: https://github.com/edx/edx-platform
  [16]: https://containerize.com
  [17]: https://blog.containerize.com/category/learning-management-system/
- [18]: https://blog.containerize.com/2021/06/11/how-to-create-e-learning-platform-with-moodle-lms/
+ [18]: https://blog.containerize.com/learning-management-system/how-to-create-e-learning-platform-with-moodle-lms/
+
  [19]: https://products.containerize.com/lms/moodle/
  [20]: https://products.containerize.com/lms/chamilo/

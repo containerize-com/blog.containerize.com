@@ -86,7 +86,8 @@ You may find the following links relevant:
  [6]: #Extensibility
  [7]: #Security
  [8]: https://www.containerize.com/
- [9]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
  [10]: https://products.containerize.com/content-management/
  [11]: https://products.containerize.com/blogging/
  [12]: https://products.containerize.com/discussion-forum/

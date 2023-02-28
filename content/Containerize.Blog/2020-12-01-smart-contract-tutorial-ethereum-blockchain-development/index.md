@@ -106,7 +106,8 @@ You may find the following links relevant:
   * [How To Setup ConsenSys Quorum Blockchain Network Locally][19]
 
  [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
- [2]: https://blog.containerize.com/2021/11/23/what-is-nft-non-fungible-tokens-explained/
+ [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
+
  [3]: #what
  [4]: #build
  [5]: #deploy
@@ -123,7 +124,10 @@ You may find the following links relevant:
  [16]: https://products.containerize.com/blockchain-platforms/ripple
  [17]: https://products.containerize.com/blockchain-platforms/multichain
  [18]: https://products.containerize.com/blockchain-platforms/consensys-quorum
- [19]: https://blog.containerize.com/2021/04/30/how-to-setup-consensys-quorum-blockchain-network-locally/
- [20]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
- [21]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [19]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+
+ [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
+ [21]: https://blog.containerize.com/
+
  [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

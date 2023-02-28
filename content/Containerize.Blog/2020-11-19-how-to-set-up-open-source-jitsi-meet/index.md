@@ -93,7 +93,7 @@ You may find the following links relevant:
   * [Element][13]
   * [Wire][14]
 
- [1]: https://blog.containerize.com/2020/11/13/how-video-conferencing-software-can-benefit-your-business/
+ [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
  [2]: https://products.containerize.com/video-conferencing/
  [3]: #intro
  [4]: #setup

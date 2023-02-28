@@ -79,7 +79,8 @@ You may find the following links relevant:
   * [Impact of Open Source Video Editor On Businesses in 2021][1]
   * [Automate Business Operations Using Free and Open Source Software][24]
 
- [1]: https://blog.containerize.com/2020/12/18/how-video-editing-software-improves-business-video-marketing/
+ [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
+
  [2]: #intro
  [3]: #features
  [4]: #Conclusion
@@ -99,7 +100,10 @@ You may find the following links relevant:
  [18]: https://products.containerize.com/video-editing-software/flowblade
  [19]: https://products.containerize.com/video-editing-software/kdenlive
  [20]: https://products.containerize.com/video-editing-software/blender
- [21]: https://blog.containerize.com/2021/04/23/blender-video-editing-tutorial-for-beginners/
- [22]: https://blog.containerize.com/2021/01/08/top-5-open-source-video-editor-software-for-video-marketing/
- [23]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [24]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [21]: https://blog.containerize.com/video-editing-software/blender-video-editing-tutorial-for-beginners/
+
+ [22]: https://blog.containerize.com/video-editing-software/top-5-open-source-video-editor-software-for-video-marketing/
+
+ [23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [24]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
