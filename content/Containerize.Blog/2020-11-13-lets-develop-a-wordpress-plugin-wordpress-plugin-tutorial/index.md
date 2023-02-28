@@ -8,7 +8,7 @@ summary: WordPress Plugin is a module you activate on your website to provide a 
 url: /blogging/lets-develop-a-wordpress-plugin-wordpress-plugin-tutorial/
 aliases: 
     -  /2020/11/13/lets-develop-a-wordpress-plugin-wordpress-plugin-tutorial/
-    -  /2020/11/13/let’s-develop-a-wordpress-plugin-wordpress-plugin-tutorial//
+    -  /2020/11/13/let’s-develop-a-wordpress-plugin-wordpress-plugin-tutorial/
 categories: ['Blogging']
 
 ---
