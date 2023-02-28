@@ -6,8 +6,7 @@ date: Wed, 01 Feb 2023 09:27:21 +0000
 author: muhammadmustafa
 summary: 'Unlock the power of automation with ChatGPT and Google Sheets Integration. OpenAI GPT-3 offers AI-powered conversational, text completion &amp; search features.'
 url: /artificial-intelligence/integrate-chatgpt-with-google-sheets/
-aliases: 
-    -  /2023/02/01/integrate-chatgpt-with-google-sheets/
+
 categories: ['Artificial intelligence']
 
 ---

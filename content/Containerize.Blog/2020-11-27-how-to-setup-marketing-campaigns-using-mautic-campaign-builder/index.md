@@ -6,8 +6,7 @@ date: Fri, 27 Nov 2020 09:46:58 +0000
 author: bilalahmed
 summary: Easily create campaigns using Mautic campaign builder. Engage target audience, keep them updated about your products and convert them into your customers.
 url: /marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
-aliases: 
-    -  /2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+
 categories: ['Marketing Automation']
 
 ---

@@ -6,8 +6,7 @@ date: Fri, 27 Nov 2020 11:12:07 +0000
 author: muhammadmustafa
 summary: 'The progressive success of decentralized technology is bringing new ways to achieve business goals by providing transparency &amp; security to your digital assets.'
 url: /blockchain-platforms/how-distributed-ledger-technology-benefits-business-strategy/
-aliases: 
-    -  /2020/11/27/how-distributed-ledger-technology-benefits-business-strategy/
+
 categories: ['Blockchain Platforms']
 
 ---

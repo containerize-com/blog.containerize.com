@@ -6,8 +6,7 @@ date: Fri, 11 Dec 2020 19:58:04 +0000
 author: Masood Anwer
 summary: Version control software helps teams to keep track and control the versions of code. This is a concise review of the top 5 open source version control systems.
 url: /version-control-software/top-5-open-source-version-control-systems-in-2021/
-aliases: 
-    -  /2020/12/11/top-5-open-source-version-control-systems-in-2021/
+
 categories: ['Version Control Software']
 
 ---

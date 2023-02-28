@@ -6,8 +6,7 @@ date: Sat, 06 Feb 2021 07:42:02 +0000
 author: muhammadmustafa
 summary: Single set of credentials for multiple applications. SSO system simplifies the identification process by providing ease of use while singing into many servers.
 url: /single-sign-on/how-to-leverage-sso-solution-for-better-business-growth/
-aliases: 
-    -  /2021/02/06/how-to-leverage-sso-solution-for-better-business-growth/
+
 categories: ['Single Sign-On']
 
 ---

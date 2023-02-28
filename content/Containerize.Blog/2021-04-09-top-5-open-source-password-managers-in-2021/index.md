@@ -6,8 +6,7 @@ date: Fri, 09 Apr 2021 08:47:58 +0000
 author: yasir saeed
 summary: Password managers allow users to store passwords, share credentials across the team securely and easily login into various apps using one master password.
 url: /password-management/top-5-open-source-password-managers-in-2021/
-aliases: 
-    -  /2021/04/09/top-5-open-source-password-managers-in-2021/
+
 categories: ['Password Management']
 
 ---

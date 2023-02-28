@@ -6,8 +6,7 @@ date: Wed, 02 Feb 2022 12:07:18 +0000
 author: muhammadmustafa
 summary: "JavaScript has become an integral part of modern software development. Let's explore the most used JavaScript frameworks for front-end and back-end development."
 url: /software-development/free-open-source-popular-javascript-frameworks/
-aliases: 
-    -  /2022/02/02/free-open-source-popular-javascript-frameworks/
+
 categories: ['Software Development']
 
 ---

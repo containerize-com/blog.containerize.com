@@ -6,8 +6,7 @@ date: Sun, 03 Jan 2021 23:50:11 +0000
 author: yasir saeed
 summary: "Most companies use marketing tools to promote &amp; sell their products and services. Let's learn about the top 5 digital marketing tools for businesses in 2021."
 url: /marketing-automation/5-best-digital-marketing-tools-to-help-you-grow-in-2021/
-aliases: 
-    -  /2021/01/03/5-best-digital-marketing-tools-to-help-you-grow-in-2021/
+
 categories: ['Marketing Automation']
 
 ---

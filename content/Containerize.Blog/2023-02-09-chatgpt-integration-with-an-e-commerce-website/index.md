@@ -6,8 +6,7 @@ date: Thu, 09 Feb 2023 20:02:56 +0000
 author: Fahad Adeel
 summary: "Let's learn how to integrate ChatGPT with a PHP-based E-Commerce website. Automate the personalization process of product recommendations programmatically."
 url: /artificial-intelligence/chatgpt-integration-with-an-e-commerce-website/
-aliases: 
-    -  /2023/02/09/chatgpt-integration-with-an-e-commerce-website/
+
 categories: ['Artificial intelligence']
 
 ---

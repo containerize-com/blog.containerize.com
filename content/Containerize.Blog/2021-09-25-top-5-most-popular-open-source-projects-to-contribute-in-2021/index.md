@@ -6,8 +6,7 @@ date: Sat, 25 Sep 2021 01:16:52 +0000
 author: yasir saeed
 summary: 'Working on open-source software is an effective way to improve &amp; sharpen your critical thinking and problem-solving skills by collaborating on team projects.'
 url: /business-intelligence-software/top-5-most-popular-open-source-projects-to-contribute-in-2021/
-aliases: 
-    -  /2021/09/25/top-5-most-popular-open-source-projects-to-contribute-in-2021/
+
 categories: ['Business Intelligence Software', 'CMDB Software', 'Database Management Software', 'Deployment Tools', 'Learning Management System', 'Rapid Application Development', 'Software Development']
 
 ---

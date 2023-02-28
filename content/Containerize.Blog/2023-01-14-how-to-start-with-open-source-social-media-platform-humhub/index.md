@@ -6,8 +6,7 @@ date: Sat, 14 Jan 2023 15:47:05 +0000
 author: muhammadmustafa
 summary: "Establish a public/private social network within your organization by using an open-source social network platform. Let's tour HumHub to see what it offers."
 url: /social-network-platforms/how-to-start-with-open-source-social-media-platform-humhub/
-aliases: 
-    -  /2023/01/14/how-to-start-with-open-source-social-media-platform-humhub/
+
 categories: ['Social Network Platforms']
 
 ---

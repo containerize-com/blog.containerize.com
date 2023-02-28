@@ -6,8 +6,7 @@ date: Fri, 24 Feb 2023 12:48:19 +0000
 author: muhammadmustafa
 summary: 'Automate the backend infrastructure, and forget the hassle of managing &amp; maintaining servers. Choose serverless architecture to streamline software development.'
 url: /programming/what-is-serverless-computing-serverless-architecture/
-aliases: 
-    -  /2023/02/24/what-is-serverless-computing-serverless-architecture/
+
     
 categories: ['Programming']
 

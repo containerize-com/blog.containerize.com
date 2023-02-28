@@ -6,8 +6,7 @@ date: Tue, 25 Jan 2022 20:22:57 +0000
 author: muhammadmustafa
 summary: "Automate customer service tasks, manage complex support tickets and measure performances using a free helpdesk software. Let's go through OsTicket &amp; UVdesk."
 url: /helpdesk/osticket-vs-uvdesk-open-source-ticketing-system/
-aliases: 
-    -  /2022/01/25/osticket-vs-uvdesk-open-source-ticketing-system/
+
 categories: ['Help Desk']
 
 ---

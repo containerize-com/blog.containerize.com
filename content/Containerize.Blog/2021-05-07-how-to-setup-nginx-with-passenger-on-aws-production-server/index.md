@@ -6,8 +6,7 @@ date: Fri, 07 May 2021 15:19:29 +0000
 author: yasir saeed
 summary: This blog post describes the steps for the installation of NGINX with Passenger through the Ubuntu 20.04 LTS operating system following APT method.
 url: /web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
-aliases: 
-    -  /2021/05/07/how-to-setup-nginx-with-passenger-on-aws-production-server/
+
 categories: ['Web Server Solution Stack']
 
 ---

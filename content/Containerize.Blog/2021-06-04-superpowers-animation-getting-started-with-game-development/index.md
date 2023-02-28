@@ -6,8 +6,7 @@ date: Fri, 04 Jun 2021 11:36:14 +0000
 author: muhammadmustafa
 summary: The behavior and movement of game objects are controlled by animations. In this game development tutorial, we will learn how to animate game characters.
 url: /game-development-software/superpowers-animation-getting-started-with-game-development/
-aliases: 
-    -  /2021/06/04/superpowers-animation-getting-started-with-game-development/
+
 categories: ['Game Development Software']
 
 ---

@@ -6,8 +6,7 @@ date: Tue, 13 Oct 2020 07:58:41 +0000
 author: bilalahmed
 summary: Automate the helpdesk process with seamless WordPress and osTicket integration. Transform customers’ inquires through web-based forms into support tickets.
 url: /blogging/automate-ticketing-system-using-wordpress-and-osticket/
-aliases: 
-    -  /2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
+
 categories: ['Blogging', 'Help Desk']
 
 ---

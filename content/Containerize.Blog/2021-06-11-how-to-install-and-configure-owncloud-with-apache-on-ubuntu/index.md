@@ -6,8 +6,7 @@ date: Fri, 11 Jun 2021 18:59:44 +0000
 author: yasir saeed
 summary: ownCloud is an open-source collection of client-server software for creating file hosting servers. This tutorial is about how to configure OwnCloud on Ubuntu.
 url: /backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
-aliases: 
-    -  /2021/06/11/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 ---

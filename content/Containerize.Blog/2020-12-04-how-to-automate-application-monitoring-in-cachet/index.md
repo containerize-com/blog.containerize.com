@@ -6,8 +6,7 @@ date: Fri, 04 Dec 2020 19:42:42 +0000
 author: Masood Anwer
 summary: Cachet status page enables businesses to get instant notifications about service downtime. We will learn how to automate web application monitoring in Cachet.
 url: /status-page/how-to-automate-application-monitoring-in-cachet/
-aliases: 
-    -  /2020/12/04/how-to-automate-application-monitoring-in-cachet/
+
 categories: ['Status Page']
 
 ---

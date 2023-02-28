@@ -6,8 +6,7 @@ date: Fri, 06 Nov 2020 09:55:07 +0000
 author: muhammadmustafa
 summary: Archive, organize and share the information by installing the Knowledge explorer plugin at Discourse. Discourse as KB is useful and offers rich search options.
 url: /discussion-forum/how-to-use-discourse-as-a-knowledge-base/
-aliases: 
-    -  /2020/11/06/how-to-use-discourse-as-a-knowledge-base/
+
 categories: ['Discussion Forum']
 
 ---

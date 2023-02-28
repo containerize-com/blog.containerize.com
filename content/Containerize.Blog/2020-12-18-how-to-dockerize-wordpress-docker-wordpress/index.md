@@ -6,8 +6,7 @@ date: Fri, 18 Dec 2020 15:35:07 +0000
 author: Assad Mahmood
 summary: A container software bundles up an application, its dependencies and make the app run on any computing environment. Let’s learn how to Dockerize WordPress.
 url: /blogging/how-to-dockerize-wordpress-docker-wordpress/
-aliases: 
-    -  /2020/12/18/how-to-dockerize-wordpress-docker-wordpress/
+
 categories: ['Blogging']
 
 ---

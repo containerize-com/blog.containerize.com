@@ -6,8 +6,7 @@ date: Thu, 15 Oct 2020 08:42:39 +0000
 author: bilalahmed
 summary: This integration improves productivity by allowing instant messaging from a WordPress site. It empowers to communicate with customers and team mates.
 url: /blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
-aliases: 
-    -  /2020/10/15/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
+
 categories: ['Blogging', 'Live Chat']
 
 ---

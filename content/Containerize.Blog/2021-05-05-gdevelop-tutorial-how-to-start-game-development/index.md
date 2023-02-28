@@ -6,8 +6,7 @@ date: Wed, 05 May 2021 16:51:40 +0000
 author: muhammadmustafa
 summary: Build your video game from scratch and run it on Android, iOS, Web, Windows, and Linux. GDevelop is a self-hosted, free game engine with powerful features.
 url: /game-development-software/gdevelop-tutorial-how-to-start-game-development/
-aliases: 
-    -  /2021/05/05/gdevelop-tutorial-how-to-start-game-development/
+
 categories: ['Game Development Software']
 
 ---

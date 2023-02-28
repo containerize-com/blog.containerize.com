@@ -6,8 +6,7 @@ date: Fri, 23 Apr 2021 09:53:35 +0000
 author: Assad Mahmood
 summary: "Office productivity tools play a vital role in the automation and compilation of business's workflows. Let’s review the top 5 open-source office software."
 url: /office-productivity-software/top-5-enterprise-level-open-source-office-software-of-2022/
-aliases: 
-    -  /2021/04/23/top-5-enterprise-level-open-source-office-software-of-2022/
+
 categories: ['Office Productivity Software']
 
 ---

@@ -6,8 +6,7 @@ date: Tue, 29 Jun 2021 08:08:53 +0000
 author: yasir saeed
 summary: Creating 2D animations with Synfig is a free, seamless, and fast process. In this guide, you will find all the information you need to get started.
 url: /animation-software/synfig-tutorial-an-open-source-2d-animation-software/
-aliases: 
-    -  /2021/06/29/synfig-tutorial-an-open-source-2d-animation-software/
+
 categories: ['Animation Software']
 
 ---

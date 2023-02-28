@@ -6,8 +6,7 @@ date: Mon, 07 Feb 2022 05:41:10 +0000
 author: yasir saeed
 summary: Search engine optimization (SEO) tools help you to optimize your website and increase organic traffic. This article covers top open-source and free SEO tools.
 url: /marketing-automation/top-5-free-open-source-seo-tools-to-optimize-your-website/
-aliases: 
-    -  /2022/02/07/top-5-free-open-source-seo-tools-to-optimize-your-website/
+
 categories: ['Marketing Automation', 'Marketplace']
 
 ---

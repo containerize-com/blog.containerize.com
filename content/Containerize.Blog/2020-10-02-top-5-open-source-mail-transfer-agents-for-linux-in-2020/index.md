@@ -6,8 +6,7 @@ date: Fri, 02 Oct 2020 11:18:57 +0000
 author: Assad Mahmood
 summary: Every business need reliable email service. We have prepared a list of top on premise open source mail transfer agents for small and medium businesses.
 url: /transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
-aliases: 
-    -  /2020/10/02/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
+
 categories: ['Transactional Email']
 
 ---

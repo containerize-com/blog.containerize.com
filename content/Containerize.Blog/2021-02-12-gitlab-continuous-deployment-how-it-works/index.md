@@ -6,8 +6,7 @@ date: Fri, 12 Feb 2021 12:51:28 +0000
 author: Assad Mahmood
 summary: 'Automated Deployment streamlines your workflow &amp; processes. This GitLab tutorial helps you learn to set up a continuous deployment pipeline using GitLab CI/CD.'
 url: /version-control-software/gitlab-continuous-deployment-how-it-works/
-aliases: 
-    -  /2021/02/12/gitlab-continuous-deployment-how-it-works/
+
 categories: ['Version Control Software']
 
 ---

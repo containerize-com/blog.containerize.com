@@ -6,8 +6,7 @@ date: Fri, 22 Jan 2021 07:18:13 +0000
 author: muhammadmustafa
 summary: Video collaboration software helps people to conduct video meetings. It has enabled many businesses to operate freely from anywhere with complete security.
 url: /video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
-aliases: 
-    -  /2021/01/22/top-5-open-source-video-conferencing-software-of-2021/
+
 categories: ['Video Conferencing Software']
 
 ---
