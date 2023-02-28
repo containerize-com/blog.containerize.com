@@ -1,0 +1,1 @@
+rewrite /2021/02/19/github-actions-tutorial-automate-your-first-workflow/ https://blog.containerize.com/version-control-software/github-actions-tutorial-automate-your-first-workflow/ permanent
