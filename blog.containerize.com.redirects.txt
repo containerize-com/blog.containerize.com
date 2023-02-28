@@ -74,6 +74,7 @@ rewrite /2020/11/25/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/ h
 rewrite /2021/10/04/top-5-open-source-rpa-tools-2021-robotic-process-automation/ https://blog.containerize.com/deployment-tools/top-5-open-source-rpa-tools-2021-robotic-process-automation/ permanent;
 rewrite /2021/05/07/how-to-setup-nginx-with-passenger-on-aws-production-server/ https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/ permanent;
 rewrite /2021/06/25/how-to-build-a-node-js-application-with-docker-on-ubuntu/ https://blog.containerize.com/software-development/how-to-build-a-node-js-application-with-docker-on-ubuntu/ permanent;
+rewrite /2021/06/25/how-to-build-a-node.js-application-with-docker-on-ubuntu/ https://blog.containerize.com/software-development/how-to-build-a-node-js-application-with-docker-on-ubuntu/ permanent;
 rewrite /2020/10/05/top-5-free-customer-support-chat-software-for-website/ https://blog.containerize.com/live-chat/top-5-free-customer-support-chat-software-for-website/ permanent;
 rewrite /2021/12/21/flarum-vs-discourse-open-source-forum-software/ https://blog.containerize.com/discussion-forum/flarum-vs-discourse-open-source-forum-software/ permanent;
 rewrite /2021/02/19/how-to-install-hospitalrun-hospital-management-system/ https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/ permanent;
@@ -81,6 +82,7 @@ rewrite /2020/12/12/how-to-enable-gzip-compression-in-wordpress-gzip-wordpress/ 
 rewrite /2021/03/12/everything-you-need-to-know-about-two-factor-authentication-2fa/ https://blog.containerize.com/single-sign-on/everything-you-need-to-know-about-two-factor-authentication-2fa/ permanent;
 rewrite /2021/06/30/top-5-free-game-development-software-in-the-year-2021/ https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/ permanent;
 rewrite /2021/06/21/how-to-install-webmin-with-ssl-on-ubuntu-20-04/ https://blog.containerize.com/web-hosting/how-to-install-webmin-with-ssl-on-ubuntu-20-04/ permanent;
+rewrite /2021/06/21/how-to-install-webmin-with-ssl-on-ubuntu-20.04/ https://blog.containerize.com/web-hosting/how-to-install-webmin-with-ssl-on-ubuntu-20-04/ permanent;
 rewrite /2023/02/07/open-source-log-management-tool/ https://blog.containerize.com/deployment-tools/open-source-log-management-tool/ permanent;
 rewrite /2021/04/30/how-to-use-nginx-as-load-balancer-for-your-application/ https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/ permanent;
 rewrite /2021/07/02/top-5-open-source-lms-tools-for-business-in-2021/ https://blog.containerize.com/learning-management-system/top-5-open-source-lms-tools-for-business-in-2021/ permanent;
@@ -116,6 +118,8 @@ rewrite /2020/10/13/civicrm-wordpress-integration-wordpress-tutorial/ https://bl
 rewrite /2020/12/01/smart-contract-tutorial-ethereum-blockchain-development/ https://blog.containerize.com/blockchain-platforms/smart-contract-tutorial-ethereum-blockchain-development/ permanent;
 rewrite /2020/12/18/how-video-editing-software-improves-business-video-marketing/ https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/ permanent;
 rewrite /2020/11/13/lets-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ https://blog.containerize.com/blogging/lets-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ permanent;
+rewrite /2020/11/13/let’s-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ https://blog.containerize.com/blogging/lets-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ permanent;
+rewrite /2020/11/13/let%E2%80%99s-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ https://blog.containerize.com/blogging/lets-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ permanent;
 rewrite /2021/01/22/beginners-guide-to-create-a-basic-joomla-template/ https://blog.containerize.com/content-management/beginners-guide-to-create-a-basic-joomla-template/ permanent;
 rewrite /2020/10/29/how-to-create-and-send-newsletter-using-phplist/ https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/ permanent;
 rewrite /2021/06/18/how-cmdb-solution-influences-it-asset-management-services/ https://blog.containerize.com/cmdb-software/how-cmdb-solution-influences-it-asset-management-services/ permanent;
@@ -129,6 +133,7 @@ rewrite /2020/08/27/automate-business-operations-using-open-source-software/ htt
 rewrite /2022/02/07/top-5-free-open-source-seo-tools-to-optimize-your-website/ https://blog.containerize.com/marketing-automation/top-5-free-open-source-seo-tools-to-optimize-your-website/ permanent;
 rewrite /2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/ https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/ permanent;
 rewrite /2020/12/24/how-to-setup-live-chat-software-on-website-rocket-chat/ https://blog.containerize.com/live-chat/how-to-setup-live-chat-software-on-website-rocket-chat/ permanent;
+rewrite /2020/12/24/how-to-setup-live-chat-software-on-website-rocket.chat/ https://blog.containerize.com/live-chat/how-to-setup-live-chat-software-on-website-rocket-chat/ permanent;
 rewrite /2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/ https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/ permanent;
 rewrite /2022/02/07/what-is-cryptocurrency-cryptocurrency-for-beginners-in-2022/ https://blog.containerize.com/blockchain-platforms/what-is-cryptocurrency-cryptocurrency-for-beginners-in-2022/ permanent;
 rewrite /2023/01/27/top-5-open-source-ai-frameworks/ https://blog.containerize.com/artificial-intelligence/top-5-open-source-ai-frameworks/ permanent;
@@ -158,6 +163,7 @@ rewrite /2021/07/31/nextcloud-vs-owncloud-what-are-the-differences/ https://blog
 rewrite /2021/05/28/how-to-install-and-configure-wamp-server-on-windows/ https://blog.containerize.com/web-server-solution-stack/how-to-install-and-configure-wamp-server-on-windows/ permanent;
 rewrite /2021/09/29/things-to-review-before-opting-open-source-software-in-2021/ https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/ permanent;
 rewrite /2020/10/15/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/ https://blog.containerize.com/blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/ permanent;
+rewrite /2020/10/15/instantly-communicate-with-customers-using-wordpress-and-rocket.chat/ https://blog.containerize.com/blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/ permanent;
 rewrite /2020/10/07/top-5-most-popular-open-source-blogging-platforms-in-2021/ https://blog.containerize.com/blogging/top-5-most-popular-open-source-blogging-platforms-in-2021/ permanent;
 rewrite /2021/04/23/top-5-enterprise-level-open-source-office-software-of-2022/ https://blog.containerize.com/office-productivity-software/top-5-enterprise-level-open-source-office-software-of-2022/ permanent;
 rewrite /2020/11/02/how-to-implement-multi-tenancy-in-osticket/ https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/ permanent;
@@ -181,9 +187,11 @@ rewrite /2021/04/23/blender-video-editing-tutorial-for-beginners/ https://blog.c
 rewrite /2020/10/14/how-to-integrate-discourse-forum-with-wordpress/ https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/ permanent;
 rewrite /2021/10/07/why-your-business-needs-a-self-hosted-social-network/ https://blog.containerize.com/social-network-platforms/why-your-business-needs-a-self-hosted-social-network/ permanent;
 rewrite /2020/10/25/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/ https://blog.containerize.com/live-chat/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/ permanent;
+rewrite /2020/10/25/how-to-create-and-run-a-bot-in-rocket.chat-using-botpress/ https://blog.containerize.com/live-chat/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/ permanent;
 rewrite /2020/12/16/lighttpd-how-to-setup-configure-open-source-web-server/ https://blog.containerize.com/web-server-solution-stack/lighttpd-how-to-setup-configure-open-source-web-server/ permanent;
 rewrite /2021/05/21/top-5-open-source-big-data-tools-in-2021/ https://blog.containerize.com/big-data/top-5-open-source-big-data-tools-in-2021/ permanent;
 rewrite /2021/06/26/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/ https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/ permanent;
+rewrite /2021/06/26/setup-tutorial-for-lemp-stack-on-ubuntu-18.04/ https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/ permanent;
 rewrite /2021/03/05/what-is-adminer-open-source-database-management-tool/ https://blog.containerize.com/database-management-software/what-is-adminer-open-source-database-management-tool/ permanent;
 rewrite /2023/01/19/install-a-web-conferencing-software-on-a-wordpress-site/ https://blog.containerize.com/blogging/install-a-web-conferencing-software-on-a-wordpress-site/ permanent;
 rewrite /2020/11/04/a-beginners-guide-to-create-wordpress-theme-from-scratch/ https://blog.containerize.com/blogging/a-beginners-guide-to-create-wordpress-theme-from-scratch/ permanent;
@@ -193,6 +201,7 @@ rewrite /2021/02/24/a-beginners-guide-to-redis-in-memory-database/ https://blog.
 rewrite /2021/01/08/top-5-open-source-web-server-software-in-2021/ https://blog.containerize.com/web-server-solution-stack/top-5-open-source-web-server-software-in-2021/ permanent;
 rewrite /2021/01/08/source-code-management-software-what-is-git/ https://blog.containerize.com/version-control-software/source-code-management-software-what-is-git/ permanent;
 rewrite /2021/04/19/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/ https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/ permanent;
+rewrite /2021/04/19/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20.04/ https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/ permanent;
 rewrite /2020/11/20/top-5-open-source-status-page-software-for-2020/ https://blog.containerize.com/status-page/top-5-open-source-status-page-software-for-2020/ permanent;
 rewrite /2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/ https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/ permanent;
 rewrite /2020/12/02/quick-guide-on-how-to-migrate-from-wordpress-to-jekyll/ https://blog.containerize.com/blogging/quick-guide-on-how-to-migrate-from-wordpress-to-jekyll/ permanent;
@@ -201,7 +210,7 @@ rewrite /2023/02/17/what-are-javascript-data-types-a-beginners-guide/ https://bl
 rewrite /2023/02/21/what-is-multitenancy-why-a-multi-tenant-approach/ https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/ permanent;
 rewrite /2021/07/17/nsq-vs-kafka-what-are-the-key-differences/ https://blog.containerize.com/backup-and-sync-software/nsq-vs-kafka-what-are-the-key-differences/ permanent;
 rewrite /2020/10/08/top-5-open-source-online-form-builders-in-year-2020/ https://blog.containerize.com/form/top-5-open-source-online-form-builders-in-year-2020/ permanent;
-rewrite /2020/11/13/let’s-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ https://blog.containerize.com/blogging/lets-develop-a-wordpress-plugin-wordpress-plugin-tutorial/ permanent;
 rewrite /2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/ https://blog.containerize.com/ permanent;
 rewrite /2020/11/13/how-free-video-conferencing-solution-benefits-your-business/ https://blog.containerize.com/ permanent;
 rewrite /2020/11/13/how-free-video-conferencing-solution-benefits-your-business/ https://blog.containerize.com/ permanent;
+rewrite /2020/10/26/ https://blog.containerize.com/ permanent;
