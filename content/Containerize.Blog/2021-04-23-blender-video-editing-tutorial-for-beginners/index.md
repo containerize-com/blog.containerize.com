@@ -6,8 +6,7 @@ date: Fri, 23 Apr 2021 14:22:00 +0000
 author: muhammadmustafa
 summary: The editing part is a critical aspect of video production. Install free video editing software to get professional results for your business video marketing.
 url: /video-editing-software/blender-video-editing-tutorial-for-beginners/
-aliases: 
-    -  /2021/04/23/blender-video-editing-tutorial-for-beginners/
+
 categories: ['Video Editing Software']
 
 ---

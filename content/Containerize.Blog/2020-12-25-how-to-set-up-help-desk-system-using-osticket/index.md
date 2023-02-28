@@ -6,8 +6,7 @@ date: Fri, 25 Dec 2020 05:46:51 +0000
 author: bilalahmed
 summary: Manage all your support requests in one place using osTicket. Convert inquiries created via email, phone and forms into simple web-based tickets.
 url: /helpdesk/how-to-set-up-help-desk-system-using-osticket/
-aliases: 
-    -  /2020/12/25/how-to-set-up-help-desk-system-using-osticket/
+
 categories: ['Help Desk']
 
 ---

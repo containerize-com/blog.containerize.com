@@ -6,8 +6,7 @@ date: Mon, 12 Oct 2020 09:46:24 +0000
 author: Assad Mahmood
 summary: Open-source CMS platforms provide many plugins and templates to meet your business website needs. Let’s explore the most widely used self-hosted CMS software.
 url: /content-management/top-5-open-source-content-management-systems-for-2020/
-aliases: 
-    -  /2020/10/12/top-5-open-source-content-management-systems-for-2020/
+
 categories: ['Content Management']
 
 ---

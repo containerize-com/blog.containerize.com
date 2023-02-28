@@ -6,8 +6,7 @@ date: Wed, 21 Apr 2021 15:32:02 +0000
 author: muhammadmustafa
 summary: Handle your business data efficiently with free data insights tools. Data visualization using charts brings clarity in understanding users and product usage.
 url: /business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
-aliases: 
-    -  /2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
+
 categories: ['Business Intelligence Software']
 
 ---

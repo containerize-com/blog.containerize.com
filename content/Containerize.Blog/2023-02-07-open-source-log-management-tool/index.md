@@ -6,8 +6,7 @@ date: Tue, 07 Feb 2023 18:51:23 +0000
 author: muhammadmustafa
 summary: "Collect, manage, and analyze logs to collect information about the system's efficiency and performance by installing an open-source log management system."
 url: /deployment-tools/open-source-log-management-tool/
-aliases: 
-    -  /2023/02/07/open-source-log-management-tool/
+
 categories: ['Deployment Tools', 'DevOps']
 
 ---

@@ -6,8 +6,7 @@ date: Fri, 21 May 2021 21:47:37 +0000
 author: Masood Anwer
 summary: Big data frameworks allow businesses to get insights from data that helps in decision-making. Check out the list of the top 5 open source big data tools.
 url: /big-data/top-5-open-source-big-data-tools-in-2021/
-aliases: 
-    -  /2021/05/21/top-5-open-source-big-data-tools-in-2021/
+
 categories: ['Big Data']
 
 ---

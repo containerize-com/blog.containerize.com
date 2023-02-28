@@ -6,8 +6,7 @@ date: Fri, 20 Nov 2020 17:57:53 +0000
 author: Masood Anwer
 summary: Status page system helps businesses to reduce downtime of services and instantly notify customers. We have compiled a list of the top 5 free status page software of 2020.
 url: /status-page/top-5-open-source-status-page-software-for-2020/
-aliases: 
-    -  /2020/11/20/top-5-open-source-status-page-software-for-2020/
+
 categories: ['Status Page']
 
 ---

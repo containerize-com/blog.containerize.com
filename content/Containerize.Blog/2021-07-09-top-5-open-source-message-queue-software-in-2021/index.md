@@ -6,8 +6,7 @@ date: Fri, 09 Jul 2021 23:53:06 +0000
 author: yasir saeed
 summary: Message queue (MQ) software is used to handle asynchronous communication. The queue provides asynchronous protocols to allow data communications within a system.
 url: /message-queue-software/top-5-open-source-message-queue-software-in-2021/
-aliases: 
-    -  /2021/07/09/top-5-open-source-message-queue-software-in-2021/
+
 categories: ['Message Queue Software']
 
 ---

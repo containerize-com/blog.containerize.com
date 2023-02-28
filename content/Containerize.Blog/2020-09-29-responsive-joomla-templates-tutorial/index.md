@@ -6,8 +6,7 @@ date: Tue, 29 Sep 2020 07:25:12 +0000
 author: muhammadmustafa
 summary: Build highly professional and customizable Joomla templates that offer a bunch of features such as multilingual, SEO / user friendly, and rich color schemes.
 url: /content-management/responsive-joomla-templates-tutorial/
-aliases: 
-    -  /2020/09/29/responsive-joomla-templates-tutorial/
+
 categories: ['Content Management']
 
 ---

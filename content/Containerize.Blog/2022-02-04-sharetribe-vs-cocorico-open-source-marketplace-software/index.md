@@ -6,8 +6,7 @@ date: Fri, 04 Feb 2022 19:19:42 +0000
 author: muhammadmustafa
 summary: "Selection of an open-source marketplace software to power an online marketplace is crucial. Let's compare two free marketplace solutions ShareTribe &amp; Cocorico."
 url: /marketplace/sharetribe-vs-cocorico-open-source-marketplace-software/
-aliases: 
-    -  /2022/02/04/sharetribe-vs-cocorico-open-source-marketplace-software/
+
 categories: ['Marketplace']
 
 ---

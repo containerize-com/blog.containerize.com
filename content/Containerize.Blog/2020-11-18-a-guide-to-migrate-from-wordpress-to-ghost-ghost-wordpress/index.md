@@ -6,8 +6,7 @@ date: Wed, 18 Nov 2020 10:07:06 +0000
 author: Assad Mahmood
 summary: Ghost and WordPress are two leading open-source content publishing platforms. In this tutorial, we will learn how to migrate content from WordPress to Ghost.
 url: /blogging/a-guide-to-migrate-from-wordpress-to-ghost-ghost-wordpress/
-aliases: 
-    -  /2020/11/18/a-guide-to-migrate-from-wordpress-to-ghost-ghost-wordpress/
+
 categories: ['Blogging']
 
 ---

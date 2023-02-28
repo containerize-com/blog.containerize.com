@@ -6,8 +6,7 @@ date: Fri, 07 May 2021 11:48:24 +0000
 author: muhammadmustafa
 summary: Open-source software provides rapid evolution of source code with transparency. It is flourishing the game design tools to the highest level of efficiency.
 url: /game-development-software/how-global-gaming-market-leveraging-open-source-software/
-aliases: 
-    -  /2021/05/07/how-global-gaming-market-leveraging-open-source-software/
+
 categories: ['Game Development Software']
 
 ---

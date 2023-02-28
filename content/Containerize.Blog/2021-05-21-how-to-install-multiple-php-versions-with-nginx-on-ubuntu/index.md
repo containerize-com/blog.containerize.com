@@ -6,8 +6,7 @@ date: Fri, 21 May 2021 09:49:12 +0000
 author: Assad Mahmood
 summary: "If you are looking to use multiple versions of PHP with Nginx then in this article we'll guide you step-by-step on how to install PHP with Nginx on Ubuntu."
 url: /web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-aliases: 
-    -  /2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
 categories: ['Web Server Solution Stack']
 
 ---

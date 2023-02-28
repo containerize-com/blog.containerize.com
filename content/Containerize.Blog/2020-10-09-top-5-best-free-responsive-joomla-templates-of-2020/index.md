@@ -6,8 +6,7 @@ date: Fri, 09 Oct 2020 13:49:17 +0000
 author: muhammadmustafa
 summary: Joomla community has developed several multipurpose open source free web templates. We have compiled a list of free responsive joomla templates of 2020.
 url: /content-management/top-5-best-free-responsive-joomla-templates-of-2020/
-aliases: 
-    -  /2020/10/09/top-5-best-free-responsive-joomla-templates-of-2020/
+
 categories: ['Content Management']
 
 ---

@@ -6,8 +6,7 @@ date: Thu, 18 Feb 2021 09:00:58 +0000
 author: bilalahmed
 summary: MySQL is a most widely used popular database that is adopted as a primary relational database for enterprise-level apps due to its powerful characteristics.
 url: /database-management-software/mysql-dbms-popular-database-why-mysql-is-so-popular/
-aliases: 
-    -  /2021/02/18/mysql-dbms-popular-database-why-mysql-is-so-popular/
+
 categories: ['Database Management Software']
 
 ---

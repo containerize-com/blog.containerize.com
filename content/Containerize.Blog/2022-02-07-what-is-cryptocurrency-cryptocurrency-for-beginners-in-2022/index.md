@@ -6,8 +6,7 @@ date: Mon, 07 Feb 2022 05:15:35 +0000
 author: yasir saeed
 summary: "Cryptocurrency is digital or virtual currency secured by cryptography and stored in crypto wallets. It's a peer-to-peer system to buy &amp; invest cryptocurrencies."
 url: /blockchain-platforms/what-is-cryptocurrency-cryptocurrency-for-beginners-in-2022/
-aliases: 
-    -  /2022/02/07/what-is-cryptocurrency-cryptocurrency-for-beginners-in-2022/
+
 categories: ['Blockchain Platforms', 'Business Intelligence Software']
 
 ---

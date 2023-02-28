@@ -6,8 +6,7 @@ date: Fri, 13 Nov 2020 17:50:16 +0000
 author: Masood Anwer
 summary: Send campaign with open source newsletter and email marketing software. Setup bounce management in phpList and automate bounce processing for healthy mailing lists.
 url: /newsletter/how-to-setup-and-process-bounces-in-phplist/
-aliases: 
-    -  /2020/11/13/how-to-setup-and-process-bounces-in-phplist/
+
 categories: ['Newsletters']
 
 ---

@@ -6,8 +6,7 @@ date: Sat, 24 Oct 2020 03:25:27 +0000
 author: Masood Anwer
 summary: Tutorial to develop a multi-tenant application in phpList. The multi-tenant feature uses a single installation for multiple hosts to reduce hosting costs.
 url: /newsletter/how-to-implement-multi-tenancy-in-phplist/
-aliases: 
-    -  /2020/10/24/how-to-implement-multi-tenancy-in-phplist/
+
 categories: ['Newsletters']
 
 ---

@@ -6,8 +6,7 @@ date: Wed, 05 Jan 2022 21:39:09 +0000
 author: muhammadmustafa
 summary: Conduct webinars, video conferences and share content using free video conferencing software. Let’s learn how to install the Jitsi Meet plugin in WordPress.
 url: /blogging/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
-aliases: 
-    -  /2022/01/05/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
+
 categories: ['Blogging', 'Video Conferencing Software']
 
 ---

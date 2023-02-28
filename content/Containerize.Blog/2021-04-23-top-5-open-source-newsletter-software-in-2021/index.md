@@ -6,8 +6,7 @@ date: Fri, 23 Apr 2021 11:26:30 +0000
 author: Masood Anwer
 summary: Email marketing software helps businesses for sending newsletter campaigns to get in touch with customers. Check out a list of open source newsletter software.
 url: /newsletter/top-5-open-source-newsletter-software-in-2021/
-aliases: 
-    -  /2021/04/23/top-5-open-source-newsletter-software-in-2021/
+
 categories: ['Newsletters']
 
 ---

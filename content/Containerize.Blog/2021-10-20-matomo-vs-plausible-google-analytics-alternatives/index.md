@@ -6,8 +6,7 @@ date: Wed, 20 Oct 2021 08:57:29 +0000
 author: muhammadmustafa
 summary: Fetch conclusive insights of your business website using open-source BI tools. These solutions are compliant with GDPR, PECR, and offer powerful features.
 url: /business-intelligence-software/matomo-vs-plausible-google-analytics-alternatives/
-aliases: 
-    -  /2021/10/20/matomo-vs-plausible-google-analytics-alternatives/
+
 categories: ['Business Intelligence Software']
 
 ---

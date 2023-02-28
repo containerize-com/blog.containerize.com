@@ -6,8 +6,7 @@ date: Fri, 16 Apr 2021 18:12:12 +0000
 author: Masood Anwer
 summary: Automatically monitor your websites, web applications, APIs with free monitoring tools and showcase services uptime with an open source status page system.
 url: /status-page/how-to-do-web-applications-monitoring-with-statping/
-aliases: 
-    -  /2021/04/16/how-to-do-web-applications-monitoring-with-statping/
+
 categories: ['Status Page']
 
 ---

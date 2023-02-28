@@ -6,8 +6,7 @@ date: Fri, 18 Jun 2021 12:00:53 +0000
 author: Masood Anwer
 summary: Send and receive emails with an open source mail server. This article will assist you in installing and configuring the Postal mail server for your company.
 url: /transactional-email/how-to-setup-mail-server-using-postal-on-ubuntu/
-aliases: 
-    -  /2021/06/18/how-to-setup-mail-server-using-postal-on-ubuntu/
+
 categories: ['Transactional Email']
 
 ---

@@ -6,8 +6,7 @@ date: Thu, 06 May 2021 14:36:15 +0000
 author: bilalahmed
 summary: Photo editors are the advanced image editing tools that follow the sophisticated algorithms to edit and manipulate existing pictures into brand new photos.
 url: /photo-editing-software/top-5-open-source-photo-editor-software-in-2021/
-aliases: 
-    -  /2021/05/06/top-5-open-source-photo-editor-software-in-2021/
+
 categories: ['Photo Editing Software']
 
 ---

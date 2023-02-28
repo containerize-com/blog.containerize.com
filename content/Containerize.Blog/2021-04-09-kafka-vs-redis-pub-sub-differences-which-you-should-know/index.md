@@ -6,8 +6,7 @@ date: Fri, 09 Apr 2021 07:43:18 +0000
 author: Assad Mahmood
 summary: Redis and Kafka are two different tools that happen to be doing similar jobs in their own ways. Kafka vs Redis comparison gives you insight which you should know.
 url: /database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/
-aliases: 
-    -  /2021/04/09/kafka-vs-redis-pub-sub-differences-which-you-should-know/
+
 categories: ['Database Management Software']
 
 ---

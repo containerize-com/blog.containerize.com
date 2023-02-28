@@ -6,8 +6,7 @@ date: Fri, 16 Apr 2021 11:14:12 +0000
 author: Assad Mahmood
 summary: "Apache Kafka is an open-source distributed event streaming platform. This tutorial gives you an introduction to Kafka from a beginner's perspective. "
 url: /message-queue-software/apache-kafka-tutorial-introduction-to-kafka-for-beginners/
-aliases: 
-    -  /2021/04/16/apache-kafka-tutorial-introduction-to-kafka-for-beginners/
+
 categories: ['Message Queue Software']
 
 ---

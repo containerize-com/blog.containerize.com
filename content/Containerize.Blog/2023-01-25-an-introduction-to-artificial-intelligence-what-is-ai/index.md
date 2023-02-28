@@ -6,8 +6,7 @@ date: Wed, 25 Jan 2023 07:23:31 +0000
 author: muhammadmustafa
 summary: Artificial intelligence is the fourth industrial revolution that is reshaping the world. The fundamentals of AI are based on machine learning and NLP.
 url: /artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
-aliases: 
-    -  /2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
+
 categories: ['Artificial intelligence']
 
 ---

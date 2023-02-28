@@ -6,8 +6,7 @@ date: Mon, 08 Feb 2021 14:18:42 +0000
 author: Masood Anwer
 summary: Accounting software enables companies for managing finances and keeps tracking of estimates, invoices, expenses, time tracking, and payment handling.
 url: /invoicing/top-5-open-source-accounting-software-in-the-year-2021/
-aliases: 
-    -  /2021/02/08/top-5-open-source-accounting-software-in-the-year-2021/
+
 categories: ['Invoicing']
 
 ---

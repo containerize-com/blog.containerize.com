@@ -6,8 +6,7 @@ date: Sat, 17 Apr 2021 14:24:13 +0000
 author: bilalahmed
 summary: Both Bitwarden and Passbolt are open source password managers specifically built for teams. This article will help you decide which one suits you better.
 url: /uncategorized/bitwarden-vs-passbolt-differences-you-should-know/
-aliases: 
-    -  /2021/04/17/bitwarden-vs-passbolt-differences-you-should-know/
+
 categories: ['Uncategorized']
 
 ---

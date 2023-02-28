@@ -6,8 +6,7 @@ date: Tue, 08 Feb 2022 13:45:40 +0000
 author: muhammadmustafa
 summary: "Google Maps is the most popular navigation and map application for mobile and web platforms. Let's explore further open-source interactive maps software."
 url: /software-development/top-5-open-source-google-maps-alternatives-in-2022/
-aliases: 
-    -  /2022/02/08/top-5-open-source-google-maps-alternatives-in-2022/
+
 categories: ['Software Development']
 
 ---

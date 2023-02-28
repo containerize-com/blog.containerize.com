@@ -6,8 +6,7 @@ date: Wed, 08 Sep 2021 18:01:02 +0000
 author: muhammadmustafa
 summary: "JavaScript powered open source form editor with multiple configurations, configurable form templates and custom controls. Let's learn how to set up FormBuilder."
 url: /form/getting-started-with-a-html-form-generator-formbuilder/
-aliases: 
-    -  /2021/09/08/getting-started-with-a-html-form-generator-formbuilder/
+
 categories: ['Form']
 
 ---

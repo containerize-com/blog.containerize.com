@@ -6,8 +6,7 @@ date: Fri, 26 Feb 2021 09:22:16 +0000
 author: muhammadmustafa
 summary: ONC Certified cross-platform free medical health solution. It automates several tasks such as patient appointments, patient records, billing, and much more.
 url: /healthcare-software/open-source-medical-software-openemr-features/
-aliases: 
-    -  /2021/02/26/open-source-medical-software-openemr-features/
+
 categories: ['Healthcare Software']
 
 ---

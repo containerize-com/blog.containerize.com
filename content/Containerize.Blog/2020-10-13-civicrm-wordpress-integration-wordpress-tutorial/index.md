@@ -6,8 +6,7 @@ date: Tue, 13 Oct 2020 08:23:40 +0000
 author: muhammadmustafa
 summary: In this WordPress plugin tutorial, we will learn how to integrate free CiviCRM with WordPress to gain competitive advantages in terms of contact management.
 url: /blogging/civicrm-wordpress-integration-wordpress-tutorial/
-aliases: 
-    -  /2020/10/13/civicrm-wordpress-integration-wordpress-tutorial/
+
 categories: ['Blogging', 'Marketing Automation']
 
 ---
