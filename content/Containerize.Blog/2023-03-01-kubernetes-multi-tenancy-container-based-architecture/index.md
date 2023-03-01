@@ -2,7 +2,7 @@
 title: Kubernetes Multi-Tenancy & Container-Based Architecture
 seoTitle: Multi-Tenancy & Container-Based Architecture
 description: 'Follow this guide to learn how to obtain multi-tenancy in a container-based architecture. Kubernetes multi-tenancy refers to shared resources'
-date: Wed, 01 Mar 2023 12:48:19 +0000
+date: 2023-03-01T00:00:00+00:00
 author: muhammadmustafa
 summary: 'Follow this guide to learn how to obtain multi-tenancy in a container-based architecture. Kubernetes multi-tenancy refers to shared resources'
 url: /kubernetes-multi-tenancy-container-based-architecture/
