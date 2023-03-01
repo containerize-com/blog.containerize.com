@@ -11,8 +11,7 @@ url: /kubernetes-multi-tenancy-container-based-architecture/
 categories: ['Programming']
 
 ---
-## Follow this guide to learn how to obtain multi-tenancy in a container-based architecture. Kubernetes multi-tenancy refers to shared resources
-
+## Kubernetes cluster resources are shared among all tenants. Implement Multi-Tenant container hosts approach to deploy optimized and resource-saving applications.
 
 {{< figure align=center src="images/Kubernetes Multi-Tenancy & Container-Based Architecture.png" alt="Kubernetes Multi-Tenancy & Container-Based Architecture" caption="Kubernetes Multi-Tenancy & Container-Based Architecture" >}}
 ## Overview
@@ -35,7 +34,7 @@ However, achieving multi-tenancy in a container-based architecture is quite stra
   * Database instance
   * Application Server 
 
-You will use Docker to build the image which is a template to build the container. In addition, you will use Docker Compose to spin up multiple container hosts. Moreover, you will use Nginx to redirect the incoming requests to the proper tenant. So, every container host contains the application and database instances up & running. This multi-tenant container hosts method is not resource-intensive and offers robustness in managing various tenants and making sure data isolation and security.
+You will use Docker to build the image which is a template to build the container. In addition, you will use Docker Compose to spin up multiple container hosts. Moreover, you will use Nginx to redirect the incoming requests to the proper tenant. So, every container host contains the application and database instances up & running. This **multi-tenant container hosts** method is not resource-intensive and offers robustness in managing various tenants and making sure data isolation and security.
 
 ## Kubernetes Multi-Tenancy {#Kubernetes-Multi-Tenancy-}
 
@@ -49,7 +48,7 @@ Fairly speaking, Kubernetes multi-tenancy offers a cost-effective solution to th
 
 ## Conclusion
 
-This brings us to the end of this blog post. We have gone through Kubernetes multi-tenancy & container-based architecture for achieving multi-tenancy. In addition, there are many third-party libraries available to bridge the multi-tenant apps with Kubernetes. This blog post will help you in understanding the concept of multi-tenant container hosts. There are other interesting blog posts that you may find in the "See Also" section.  
+This brings us to the end of this blog post. We have gone through **Kubernetes multi-tenancy & container-based architecture** for achieving multi-tenancy. In addition, there are many third-party libraries available to bridge the multi-tenant apps with Kubernetes. This blog post will help you in understanding the concept of **multi-tenant container hosts**. There are other interesting blog posts that you may find in the "See Also" section.  
 
 ## Connect with us
 
