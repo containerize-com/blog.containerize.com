@@ -13,7 +13,7 @@ categories: ['Programming']
 ---
 ## Kubernetes cluster resources are shared among all tenants. Implement Multi-Tenant container hosts approach to deploy optimized and resource-saving applications.
 
-{{< figure align=center src="images/Kubernetes Multi-Tenancy & Container-Based Architecture.png" alt="Kubernetes Multi-Tenancy & Container-Based Architecture" caption="Kubernetes Multi-Tenancy & Container-Based Architecture" >}}
+{{< figure align=center src="images/Kubernetes Multi-Tenancy & Container-Based Architecture.png" alt="Kubernetes Multi-Tenancy & Container-Based Architecture" title="Kubernetes Multi-Tenancy & Container-Based Architecture" caption="Kubernetes Multi-Tenancy & Container-Based Architecture" >}}
 ## Overview
 
 We are here with another exciting blog post in the series of multi-tenancy. In our previous [article][1], we touched on the basic concept behind multi-tenant apps, the pros, and cons, and the types of multi-tenant architecture. Since it is high time to serve multiple users/tenants, manage and utilize resources in an efficient way. So, multi-tenancy is the top approach to building an infrastructure that handles various clients/tenants simultaneously. However, our most recent [blog post][2] demonstrated serverless architecture, containerization, and [Kubernetes][3]. Therefore, in this article, we will explore multi-tenancy & container-based architecture. In addition, we will see how you can achieve multi-tenancy in your [containerized][4] apps. 
