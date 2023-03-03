@@ -107,7 +107,7 @@ Hello Word
 It is executing asynchronously: Success
 promise is completed
 ```
-So, the code inside the Promise body works synchronously so the "synchronous execution" is printed. Next, .then() block works asynchronously and waits until the result has been generated but the program execution does not stop that's why "Hello Word" is printed and promise execution has been deferred. After that, .then() block executes and returns the values that it promised. That is the story of JavaScript promises.
+So, the code inside the Promise body works synchronously so the "synchronous execution" is printed. Next, .then() block works asynchronously and waits until the result has been generated but the program execution does not stop that's why "Hello Word" is printed and promise execution has been deferred. After that, .then() block executes and returns the values that it promised. That is the story of JavaScript promises. Again, since JavaScript is single threaded, promises are used to handle asynchronous operations in a non-blocking way.
 ## Conclusion
 
 This is the end of this **JavaScript tutorial**. Hope you have a good idea of JavaScript promises. We have covered **what is promise in JavaScript**, why we use promise in JavaScript, **how promise work in JavaScript**, and how to create a promise. Further, we will cover this topic more regarding its advanced usage and provisions. Therefore, go through this article in case you are preparing yourself for an interview session. 
