@@ -27,7 +27,7 @@ We will cover the following points in this JavaScript tutorial:
 
 ## What is promise in JavaScript? Promises Explained {#What-is-promise-in-JavaScript-Promises-Explained}
 
-A promise is an object that represents a value of an async operation which is resolved, rejected or is in pending state. In more simple words, promises are used to return a value that is yet to be produced by an asynchronous block of code. In fact, there are three **states of promise** and it can be in any of the following states:
+A promise is an object that represents a value of an async operation weather it is resolved, rejected or is in pending state. In more simple words, promises are used to return a value that is yet to be produced by an asynchronous block of code. In fact, there are three **states of promise** and it can be in any of the following states:
 
 **Pending**: Promise is in a pending state which means it’s in starting phase and is currently in execution.
 
@@ -78,9 +78,39 @@ console.log(dataValue);
 ```
 In the code snippet above, you can further make API calls in the resolve() block. 
 
+Now, let's see the execution pattern of a JavaScript promise. 
+
+```
+let promiseExecution = new Promise((res, rej) => {
+  console.log('synchronous execution');
+  if (true) {
+    res('Success');
+  } else {
+    rej('Error');
+  }
+})
+
+promiseExecution.then((data) => {
+  console.log('It is executing asynchronously: ' + data);
+}).catch((err) => {
+  console.log('It is executing asynchronously: ' + err);
+}).finally(() => {
+  console.log('promise is completed');
+});
+
+console.log('Hello Word');
+```
+Following is the output of the above code snippet:
+```
+synchronous execution
+Hello Word
+It is executing asynchronously: Success
+promise is completed
+```
+So, the code inside the Promise body works synchronously so the "synchronous execution" is printed. Next, .then() block works asynchronously and waits until the result has been generated but the program execution does not stop that's why "Hello Word" is printed and promise execution has been deferred. After that, .then() block executes and returns the values that it promised. That is the story of JavaScript promises.
 ## Conclusion
 
-This is the end of this JavaScript tutorial. Hope you have a good idea of JavaScript promises. We have covered what is promise in JavaScript, why we use promise in JavaScript, how promise work in JavaScript, and how to create a promise. Further, we will cover this topic more regarding its advanced usage and provisions. Therefore, go through this article in case you are preparing yourself for an interview session. 
+This is the end of this **JavaScript tutorial**. Hope you have a good idea of JavaScript promises. We have covered **what is promise in JavaScript**, why we use promise in JavaScript, **how promise work in JavaScript**, and how to create a promise. Further, we will cover this topic more regarding its advanced usage and provisions. Therefore, go through this article in case you are preparing yourself for an interview session. 
 
 ## Connect with us
 
