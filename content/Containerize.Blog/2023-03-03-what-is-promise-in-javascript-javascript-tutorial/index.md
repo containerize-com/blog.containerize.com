@@ -27,19 +27,19 @@ We will cover the following points in this JavaScript tutorial:
 
 ## What is promise in JavaScript? Promises Explained {#What-is-promise-in-JavaScript-Promises-Explained}
 
-A promise is an object that represents a vlue of an async operation which is resolved, rejected or is in pending state. In more simple words, promises are used to return a value that is yet to be produced by an asynchronous block of code. In fact, there are three states of promise and it can be in any of the following states:
+A promise is an object that represents a value of an async operation which is resolved, rejected or is in pending state. In more simple words, promises are used to return a value that is yet to be produced by an asynchronous block of code. In fact, there are three **states of promise** and it can be in any of the following states:
 
-Pending: Promise is in a pending state which means it’s in starting phase and is currently in execution.
+**Pending**: Promise is in a pending state which means it’s in starting phase and is currently in execution.
 
-Fulfilled: Promise is resolved and value has been returned.
+**Fulfilled**: Promise is resolved and value has been returned.
 
-Rejected: This is the state that is caused by any error which means the promise has been rejected.
+**Rejected**: This is the state that is caused by any error which means the promise has been rejected.
 
 An important thing to consider here is that the value/state returned by the promise is immutable and cannot be changed which means promises make sure that there is no unusual behavior.
 
 ## Why we use promise in JavaScript? {#Why-we-use-promise-in-JavaScript}
 
-If you are not aware of “callback hell” then let me share what it is. First, a callback is a function inside another function. Basically, a callback function is passed as a second argument in a function that executes upon receiving results. So, in many scenarios, you need to nest a callback function and as nesting increases, it becomes near to impossible to handle. Hence, we call this long nesting of callback functions “callback hell”.
+If you are not aware of **callback hell** then let me share what it is. First, a callback is a function inside another function. Basically, a callback function is passed as a second argument in a function that executes upon receiving results. So, in many scenarios, you need to nest a callback function and as nesting increases, it becomes near to impossible to handle. Hence, we call this long nesting of callback functions **callback hell**.
 
 So, a promise is a way to avoid a callback hell situation. The usage of promises gives better readability and improved error handling. Further, you can better handle asynchronous operations by retrieving the returned value and passing that value to the next function in the chain.
 
@@ -62,7 +62,7 @@ let promise = new Promise(function(resolve, reject) {
 ```
 Promise constructor takes a function as an argument that again takes two arguments first, resolves and the other reject. It invokes the resolve() method in case of success and it goes into the reject() block in case of error or rejection.
 
-Let's go a little deep and write explore the promise creation a little further.
+Let's go a little deep and explore the promise creation a little further.
 ```
 let data = "";
 
