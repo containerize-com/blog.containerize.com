@@ -4,7 +4,7 @@ seoTitle: What is Promise in JavaScript?
 description: 'What is Promise in JavaScript? A promise is a block of code that gives the end result of an asynchronous operation such as pending, completed or rejected.'
 date: 2023-03-03T00:00:00+00:00
 author: muhammadmustafa
-summary: 'What is Promise in JavaScript? A promise is a block of code that gives the end result of an asynchronous operation such as pending, completed or rejected.'
+summary: 'What is Promise in JavaScript? A promise is a block of code that gives the end result of an asynchronous operation such as completed or rejected.'
 url: /what-is-promise-in-javascript-javascript-tutorial/
 
     
@@ -27,7 +27,7 @@ We will cover the following points in this JavaScript tutorial:
 
 ## What is promise in JavaScript? Promises Explained {#What-is-promise-in-JavaScript-Promises-Explained}
 
-A promise is an object that makes asynchronous functions synchronous. In more simple words, promises are used to return a value that is yet to be produced by an asynchronous block of code. In fact, there are three states of promise and it can be in any of the following states:
+A promise is an object that represents a vlue of an async operation which is resolved, rejected or is in pending state. In more simple words, promises are used to return a value that is yet to be produced by an asynchronous block of code. In fact, there are three states of promise and it can be in any of the following states:
 
 Pending: Promise is in a pending state which means it’s in starting phase and is currently in execution.
 
