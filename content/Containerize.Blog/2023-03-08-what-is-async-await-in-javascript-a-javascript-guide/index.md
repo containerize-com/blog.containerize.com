@@ -111,7 +111,7 @@ You can let us know about your questions or queries on our [forum][10].
 
 ## FAQs
 
-**What is async await in JavaScript with example?**?
+**What is async await in JavaScript with example?**
 
 You may visit this [link][3] to understand the concept of async await. 
 
