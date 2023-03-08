@@ -6,7 +6,7 @@ date: 2023-03-08T00:00:00+00:00
 author: muhammadmustafa
 summary: 'What is Async Await in JavaScript? Async & Await keywords are used to operate asynchronous operations better than traditional Promises in JavaScript.'
 url: /what-is-async-await-in-javascript-a-javascript-guide/
-
+tags: ["What is Async Await in JavaScript", "JavaScript Async Await, async await", " javascript async await tutorial", "async await syntax", "try catch async await javascript"]
     
 categories: ['Programming']
 
