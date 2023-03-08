@@ -16,9 +16,9 @@ categories: ['Programming']
 {{< figure align=center src="images/what-is-async-await-in-javascript-a-javascript-guide.png" alt="What is Async Await in JavaScript?">}}
 ## Overview
 
-We covered [JavaScript Promises][1] in our previous blog post and you must visit if you want to get a clear understanding of the concept behind JavaScript Promises. In this series of [JavaScript tutorials][2], we are here with another JavaScript guide that will demonstrate the modern features of JavaScript Async/Await. This blog post is for those who have prior knowledge of JavaScript Promises. Further, we will try to cover **What is Async/Await in JavaScript**, and when we need to use Async/Await. In addition, we will also cover handling errors with Async/Await. So, give a thorough read to this JavaScript Async/Await tutorial to mark this concept checked. 
+We covered [JavaScript Promises][1] in our previous blog post and you must visit if you want to get a clear understanding of the concept behind JavaScript Promises. In this series of [JavaScript tutorials][2], we are here with another JavaScript guide that will demonstrate the modern features of JavaScript Async/Await. This blog post is for those who have prior knowledge of JavaScript Promises. Further, we will try to cover **What is Async/Await in JavaScript**, and when we need to use Async/Await. In addition, we will also cover handling errors with Async/Await. So, give a thorough read to this **JavaScript Async/Await tutorial** to mark this concept checked. 
 
-We will go through the following sections in this JavaScript Async Await  tutorial:
+We will go through the following sections in this JavaScript Async Await tutorial:
 
   * **[What is Async/Await in JavaScript | Async Await Syntax][3]**
   * **[When to use Async/Await?][4]**
@@ -51,24 +51,26 @@ Well, the async keyword at the start of the function implies that this function 
 
 ## When to use Async/Await? {#When-to-use-AsyncAwait}
 
-So far, you have the answer to what is Async Await in JavaScript. Since this is only a wrapper around the traditional JavaScript promises so you better use this new way to create and handle promises in a more cleaner and readable way. In addition, you can get rid of multiple promise.then() calls using async/await which eventually makes source code more manageable and maintainable. The await keyword encapsulates the .then() statement into a single line.
+So far, you have the answer to **what is Async Await in JavaScript**. Since this is only a wrapper around the traditional JavaScript promises so you better use this new way to create and handle promises in a more cleaner and readable way. In addition, you can get rid of multiple promise.then() calls using async/await which eventually makes source code more manageable and maintainable. The await keyword encapsulates the .then() statement into a single line.
 
 ## Error handling with Async/Await {#Error-handling-with-AsyncAwait}
 
 Error handling is a critical task when it comes to enterprise-level software development. There are multiple ways to catch errors in Async/Await approach. 
+{{< figure align=center src="images/async-await.png" alt="try catch async await javascript">}}
 
-Try Catch Async Await JavaScript: Nothing new with this error handling approach. However, you can use a try/catch block inside an async function as shown in the code snippet below:
+
+**Try Catch Async Await JavaScript**: Nothing new with this error handling approach. However, you can use a try/catch block inside an async function as shown in the code snippet below:
 
 ```
 async function getValues() {
   try{
-  let promise = new Promise(function(resolve, reject) {
-   // processing.. 
-  });
+    let promise = new Promise(function(resolve, reject) {
+     // processing.. 
+    });
 
-  let data = await promise; // waits until the promise fulfills
+    let data = await promise; // waits until the promise fulfills
    
-  return data;
+    return data;
   } catch(err){
     // you may handle errors the way you want..
   }
@@ -97,11 +99,11 @@ getValues().catch(err){
 
 ## Conclusion
 
-We are ending this JavaScript async await tutorial. Hope you have a better understanding of What is Async Await in JavaScript. In addition, we have gone through JavaScript async await syntax that makes source code less complex. This JavaScript feature is being widely used due to its rich usage and performance. In the coming days, we will write further on JavaScript features and concepts so that you can gain a strong command over JS concepts. Moreover, there are some other interesting articles mentioned in the "See Also" section.
+We are ending this **JavaScript async await tutorial**. Hope you have a better understanding of **What is Async Await in JavaScript**. In addition, we have gone through JavaScript async await syntax that makes source code less complex. This JavaScript feature is being widely used due to its rich usage and performance. In the coming days, we will write further on JavaScript features and concepts so that you can gain a strong command over JS concepts. Moreover, there are some other interesting articles mentioned in the "See Also" section.
 
 ## Connect with us
 
-Lastly, [containerize.com][6] offers ongoing JavaScript tutorials on various exciting topics. You can stay in the loop by following us on our social media platforms, including [Facebook][7], [LinkedIn][8], and [Twitter][9].
+Lastly, [containerize.com][6] offers ongoing JavaScript tutorials on various exciting topics. You can stay updated by following us on our social media platforms, including [Facebook][7], [LinkedIn][8], and [Twitter][9].
 
 ## Ask a Question
 
