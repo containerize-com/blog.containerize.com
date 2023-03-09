@@ -6,7 +6,7 @@ date: 2023-03-10T00:00:00+00:00
 author: muhammadmustafa
 summary: 'What is DOM in JavaScript? This guide will demonstrate the Document Object Model, properties of DOM, levels of DOM, and how to access DOM elements.'
 url: /what-is-dom-in-javascript-document-object-model/
-tags: ["what is dom", "what is document object model", " dom levels", "HTML DOM tree", "dom properties"]
+tags: ["what is DOM", "what is document object model", " DOM levels", "HTML DOM tree", "DOM properties"]
     
 categories: ['Programming']
 
