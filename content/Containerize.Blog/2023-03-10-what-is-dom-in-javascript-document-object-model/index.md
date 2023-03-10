@@ -39,7 +39,7 @@ Well, you can see the DOM elements in the picture above. Window and Document are
 
 ## What are DOM properties and how to access them? {#What-are-DOM-properties-and-how-to-access-them}
 
-So far, we have come up with an and of what is DOM in JavaScript, and DOM levels, and we have also gone through DOM nodes. In this section, we will go through DOM properties and will see how can we interact with them. Every DOM element has a value linked to it such as "p" tag has text property, img tag has the image and so on. JavaScript methods are used to access the values of nodes. Further, you can add/remove event listeners to the DOM elements. 
+So far, we have come up with an answer to what is DOM in JavaScript, and DOM levels, and we have also gone through DOM nodes. In this section, we will go through DOM properties and will see how can we interact with them. Every DOM element has a value linked to it such as "p" tag has text property, img tag has the image and so on. JavaScript methods are used to access the values of nodes. Further, you can add/remove event listeners to the DOM elements. 
 
 You can find the following DOM properties:
 
