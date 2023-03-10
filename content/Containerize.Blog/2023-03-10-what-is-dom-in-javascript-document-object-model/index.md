@@ -31,10 +31,6 @@ In fact, DOM is a programming interface that formulates the logical structure of
 
 ## DOM levels {#DOM-levels}
 
-So far, you have the answer to what is Async Await in JavaScript. Since this is only a wrapper around the traditional JavaScript promises so you better use this new way to create and handle promises in a more cleaner and readable way. In addition, you can get rid of multiple promise.then() calls using async/await which eventually makes source code more manageable and maintainable. The await keyword encapsulates the .then() statement into a single line.
-
-## Error handling with Async/Await {#Error-handling-with-AsyncAwait}
-
 This section will demonstrate the various levels of DOM. First, there is a window object in a browser that is always on top, and then there is a document node. Let's have a look at the image below: 
 
 {{< figure align=center src="images/DOM.png" alt="DOM levels">}}
