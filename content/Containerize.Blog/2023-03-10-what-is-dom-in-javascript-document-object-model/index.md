@@ -118,7 +118,7 @@ You can visit this [link][2] to get a detailed answer to this question.
 
  [1]: https://blog.containerize.com/categories/programming/
  [2]: #What-is-Document-Object-Model
- [3]: #Error-handling-with-AsyncAwait
+ [3]: #DOM-levels
  [4]: #What-are-DOM-properties-and-how-to-access-them
  [5]: https://www.containerize.com/
  [6]: https://web.facebook.com/containerize
