@@ -41,7 +41,7 @@ Well, you can see the DOM elements in the picture above. Window and Document are
 
 So far, we have come up with an answer to what is DOM in JavaScript, and DOM levels, and we have also gone through DOM nodes. In this section, we will go through DOM properties and will see how can we interact with them. Every DOM element has a value linked to it such as "p" tag has text property, img tag has the image and so on. JavaScript methods are used to access the values of nodes. Further, you can add/remove event listeners to the DOM elements. 
 
-You can find the following DOM properties:
+You can find the following **DOM properties**:
 
 **innerHTML**: This property is used to set or fetch the HTML content of a DOM node. 
 ```
@@ -63,6 +63,7 @@ let styleAttr = document.getElementById("customID").style.color = "red";
 ```
 document.getElementById("customID").title= "this is a web page";
 ```
+ 
  The following are some of the methods we can use to interact with JavaScript DOM:
 
 **addEventListener()**: This DOM method is used to attach an event handler to an element.
@@ -73,7 +74,7 @@ document.getElementById("customID").addEventListener("click", customFunction);
 ```
 document.getElementById("customID").addEventListener("click", customFunction);
 ```
-**getElementById()**: ethod to get a specific element with the given "id".
+**getElementById()**: Method to get a specific element with the given "id".
 ```
 let element = document.getElementById("myID");
 ```
