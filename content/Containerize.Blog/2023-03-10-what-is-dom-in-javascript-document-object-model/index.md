@@ -88,7 +88,7 @@ Likewise, there are many other methods and properties that you can explore.
 
 ## Conclusion
 
-We are ending this JavaSxcript tutorial here with the hope you have a good understanding of **what is DOM in JavaScript**. We also have gone through **DOM levels and DOM, HTML DOM tree and DOM properties**. This blog post is highly essential for newbies who are looking to have a strong grip on JavaScrit concepts. In addition, there are other relevant articles you can find in the "See Also" section. 
+We are ending this JavaSxcript tutorial here with the hope you have a good understanding of **what is DOM in JavaScript**. We also have gone through **DOM, DOM levels, HTML DOM tree and DOM properties**. This blog post is highly essential for newbies who are looking to have a strong grip on JavaScrit concepts. In addition, there are other relevant articles you can find in the "See Also" section. 
 
 ## Connect with us
 
@@ -114,7 +114,6 @@ You can visit this [link][2] to get a detailed answer to this question.
   * [How to use ChatGPT in VSCode | The VSCode Extension Code GPT][15]
   * [What is OpenAI Chatbot GPT-3 | ChatGPT an AI Revolution][16]
   * [An Introduction to Artificial Intelligence | What is AI?][17]
-  * [What is Async Await in JavaScript? | A JavaScript Guide][18]
 
 
  [1]: https://blog.containerize.com/categories/programming/
