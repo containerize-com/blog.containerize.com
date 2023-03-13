@@ -1,5 +1,7 @@
 rewrite ^/(\d{4})/(\d{2})/(\d{2})/(.*) https://blog.containerize.com/$4/ permanent;
 
+rewrite /2020/12/24/how-to-setup-live-chat-software-on-website-rocket.chat/ https://blog.containerize.com/how-to-setup-live-chat-software-on-website-rocket-chat/ permanent;
+
 rewrite /version-control-software/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /blogging/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /password-management/(.*)/ https://blog.containerize.com/$1/ permanent;
