@@ -1,6 +1,6 @@
 baseURL: 'https://blog.containerize.com/'
 languageCode: 'en-us'
-title: 'Containerize Blog'
+title: 'Open Source Software Blog'
 theme: "PaperMod"
 paginate: 10
 enableRobotsTXT: true
