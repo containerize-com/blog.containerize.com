@@ -20,6 +20,8 @@ rewrite /version-control-software//(.*)/ https://blog.containerize.com/$1/ perma
 rewrite /animation-software/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /artificial-intelligence/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /cmdb-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /web-server-solution-stack/(.*)/ https://blog.containerize.com/$1/ permanent;
+
 rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
