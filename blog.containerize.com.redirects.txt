@@ -21,15 +21,49 @@ rewrite /animation-software/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /artificial-intelligence/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /cmdb-software/(.*)/ https://blog.containerize.com/$1/ permanent;
 rewrite /web-server-solution-stack/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /message-queue-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /software-development/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /marketing-automation/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /newsletter/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /animation-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /artificial-intelligence/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /cmdb-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /business-intelligence-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /uncategorized/(.*)/ https://blog.containerize.com/$1/ permanent;
 
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
-rewrite /game/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /social-network-platforms/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /licenses-standards/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /backup-and-sync-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /status-page/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /transactional-email/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /discussion-forum/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /shopping-cart-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /programming/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /video-conferencing-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /game-development-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /content-management/(.*)/ https://blog.containerize.com/$1/ permanent;
+
+
+rewrite /digital-forensic-tools/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /animation-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /video-editing-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /helpdesk/(.*)/ https://blog.containerize.com/$1/ permanent;
+
+
+rewrite /blockchain-platforms/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /live-chat/(.*)/ https://blog.containerize.com/$1/ permanent;
+
+rewrite /invoicing/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /devops/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /single-sign-on/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /web-hosting/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /learning-management-system/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /enterprise-resource-planning/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /photo-editing-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /rapid-application-development/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /office-productivity-software/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /marketplace/(.*)/ https://blog.containerize.com/$1/ permanent;
+rewrite /big-data/(.*)/ https://blog.containerize.com/$1/ permanent;
 
 
 rewrite /2021/02/19/github-actions-tutorial-automate-your-first-workflow/ https://blog.containerize.com/version-control-software/github-actions-tutorial-automate-your-first-workflow/ permanent;
