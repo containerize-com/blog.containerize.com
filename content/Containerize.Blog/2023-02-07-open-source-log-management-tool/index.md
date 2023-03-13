@@ -5,7 +5,7 @@ description: Go through this guide to learn how an open-source log management to
 date: Tue, 07 Feb 2023 18:51:23 +0000
 author: muhammadmustafa
 summary: "Collect, manage, and analyze logs to collect information about the system's efficiency and performance by installing an open-source log management system."
-url: /deployment-tools/open-source-log-management-tool/
+url: /open-source-log-management-tool/
 
 categories: ['Deployment Tools', 'DevOps']
 

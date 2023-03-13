@@ -5,7 +5,7 @@ description: Lets explore top 5 open-source self-hosted social networking softwa
 date: Wed, 12 Jan 2022 01:37:31 +0000
 author: muhammadmustafa
 summary: 'Build your own social network using open-source social network platforms. Control your data and collaborate with your team members &amp; customers effectively.'
-url: /social-network-platforms/top-5-open-source-social-networking-software-in-2022/
+url: /top-5-open-source-social-networking-software-in-2022/
 
 categories: ['Social Network Platforms']
 

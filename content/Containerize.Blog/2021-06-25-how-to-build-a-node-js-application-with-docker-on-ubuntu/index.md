@@ -5,7 +5,7 @@ description: If you are interested in Node.js and want to use Docker. This tutor
 date: Fri, 25 Jun 2021 17:08:00 +0000
 author: Assad Mahmood
 summary: This article will explain to you how to build a nodejs application with Docker containerization. Docker allows to package and run applications as containers.
-url: /software-development/how-to-build-a-node-js-application-with-docker-on-ubuntu/
+url: /how-to-build-a-node-js-application-with-docker-on-ubuntu/
 
 categories: ['Software Development']
 

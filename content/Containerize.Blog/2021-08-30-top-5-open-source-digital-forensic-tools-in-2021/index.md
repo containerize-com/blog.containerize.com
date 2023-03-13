@@ -5,7 +5,7 @@ description: Digital forensic tool help to make the digital forensic process sim
 date: Mon, 30 Aug 2021 03:34:47 +0000
 author: yasir saeed
 summary: Digital forensic tools help to investigate, preserve, extract and document computer evidence for law procedures. This article focuses on digital forensic tools.
-url: /digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+url: /top-5-open-source-digital-forensic-tools-in-2021/
 
 categories: ['Digital Forensic Tools']
 

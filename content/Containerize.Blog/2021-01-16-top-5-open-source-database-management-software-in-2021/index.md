@@ -5,7 +5,7 @@ description: This blog post is about the top 5 self-hosted and open-source datab
 date: Sat, 16 Jan 2021 00:02:07 +0000
 author: bilalahmed
 summary: Database management software offer an intuitive user interface to perform transactions. This is a concise review of the best enterprise-level free DBMS tools.
-url: /database-management-software/top-5-open-source-database-management-software-in-2021/
+url: /top-5-open-source-database-management-software-in-2021/
 
 categories: ['Database Management Software']
 

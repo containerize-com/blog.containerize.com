@@ -5,7 +5,7 @@ description: Follow this article to learn about the comparison of NFT vs Crypto.
 date: Thu, 27 Jan 2022 19:30:29 +0000
 author: muhammadmustafa
 summary: "Non-Fungible tokens have gained a surge in popularity. Let's explore what does NFT mean? what is cryptocurrency? and how do they differ from digital currency?"
-url: /blockchain-platforms/nft-vs-crypto-difference-between-cryptocurrency-nft/
+url: /nft-vs-crypto-difference-between-cryptocurrency-nft/
 
 categories: ['Blockchain Platforms']
 

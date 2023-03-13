@@ -5,7 +5,7 @@ description: Messaging queue platform offers a way to communicate asynchronously
 date: Sat, 17 Jul 2021 03:54:59 +0000
 author: yasir saeed
 summary: Messaging queue platform offers a way to communicate asynchronously while improving performance and scalability. This article is about NSQ and Kafka comparison.
-url: /backup-and-sync-software/nsq-vs-kafka-what-are-the-key-differences/
+url: /nsq-vs-kafka-what-are-the-key-differences/
 
 categories: ['Backup and Sync Software']
 

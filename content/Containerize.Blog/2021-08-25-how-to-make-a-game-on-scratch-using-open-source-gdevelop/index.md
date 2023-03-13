@@ -5,7 +5,7 @@ description: How to make a game from scratch? Gdevelop offers a logical UI fille
 date: Wed, 25 Aug 2021 11:20:52 +0000
 author: muhammadmustafa
 summary: This game development tutorial explains the basics of building a truck racing game. You can install it or use its online app to build an exciting video game.
-url: /game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
+url: /how-to-make-a-game-on-scratch-using-open-source-gdevelop/
 
 categories: ['Game Development Software']
 

@@ -5,7 +5,7 @@ description: Nginx Amplify is a free monitoring agent for Nginx web server and P
 date: Fri, 04 Jun 2021 19:08:47 +0000
 author: Masood Anwer
 summary: Monitor Nginx, PHP applications, operating system with Nginx Amplify and improve configuration. This article guides you to setup and configure Nginx Amplify.
-url: /web-server-solution-stack/how-to-monitor-nginx-web-server-with-nginx-amplify/
+url: /how-to-monitor-nginx-web-server-with-nginx-amplify/
 
 categories: ['Web Server Solution Stack']
 

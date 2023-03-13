@@ -5,7 +5,7 @@ description: Setup web development environment using free and open source web se
 date: Sat, 30 Jan 2021 06:00:06 +0000
 author: bilalahmed
 summary: Setup web development environment using free and open source XAMPP server. Learn, create and test your PHP projects on localhost by following a few easy steps.
-url: /web-server-solution-stack/create-your-first-php-project-on-localhost-using-xampp/
+url: /create-your-first-php-project-on-localhost-using-xampp/
 
 categories: ['Web Server Solution Stack']
 

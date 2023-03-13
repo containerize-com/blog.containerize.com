@@ -5,7 +5,7 @@ description: Read through this detailed guide on the top 5 open source game deve
 date: Wed, 30 Jun 2021 07:50:03 +0000
 author: muhammadmustafa
 summary: '3D game development software come with design and asset creation tools. Choose the best software, build 2D &amp; 3D models, powerful game storylines, and visuals.'
-url: /game-development-software/top-5-free-game-development-software-in-the-year-2021/
+url: /top-5-free-game-development-software-in-the-year-2021/
 
 categories: ['Game Development Software']
 

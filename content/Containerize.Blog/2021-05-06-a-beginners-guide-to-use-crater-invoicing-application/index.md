@@ -5,7 +5,7 @@ description: A tutorial for getting started with an open source invoice system. 
 date: Thu, 06 May 2021 21:23:50 +0000
 author: Masood Anwer
 summary: This tutorial will help you to learn about Crater invoicing applications. It is a free and open source invoice system for the small businesses.
-url: /invoicing/a-beginners-guide-to-use-crater-invoicing-application/
+url: /a-beginners-guide-to-use-crater-invoicing-application/
 
 categories: ['Invoicing']
 

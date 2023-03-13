@@ -5,7 +5,7 @@ description: What is Git? Git is a free source code management software that all
 date: Fri, 08 Jan 2021 14:11:16 +0000
 author: Assad Mahmood
 summary: 'In this article, we will explore What is Git &amp; How Git works? Git is a version control system that is designed to manage source code, track &amp; log versions.'
-url: /version-control-software/source-code-management-software-what-is-git/
+url: /source-code-management-software-what-is-git/
 
 categories: ['Version Control Software']
 

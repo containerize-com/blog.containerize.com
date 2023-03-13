@@ -5,7 +5,7 @@ description: ChatGPT is an AI-powered chatbot that interacts with humans in a na
 date: Tue, 10 Jan 2023 18:44:15 +0000
 author: muhammadmustafa
 summary: "Why everyone is talking about ChatGPT? Does your software leverage a Chatbot? Let's explore the phenomenon behind this artificial intelligence-powered ChatGPT."
-url: /artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+url: /what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 
 categories: ['Artificial intelligence']
 

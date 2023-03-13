@@ -5,7 +5,7 @@ description: This tutorial is about how to set up and configure Nginx as Reverse
 date: Fri, 07 May 2021 07:38:05 +0000
 author: yasir saeed
 summary: Nginx is an open-source web server that can also act as a reverse proxy. This tutorial will help you learn how to set up and configure Nginx as Reverse Proxy.
-url: /web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+url: /how-to-setup-and-configure-nginx-as-reverse-proxy/
 
 categories: ['Web Server Solution Stack']
 

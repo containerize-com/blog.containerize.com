@@ -5,7 +5,7 @@ description: This smart contract tutorial elaborates the basic steps to create E
 date: Tue, 01 Dec 2020 20:27:48 +0000
 author: muhammadmustafa
 summary: Ethereum is a mature platform to create smart contracts and decentralized applications(Dapps). Follow these steps to Create, Test, and Deploy Smart Contracts.
-url: /blockchain-platforms/smart-contract-tutorial-ethereum-blockchain-development/
+url: /smart-contract-tutorial-ethereum-blockchain-development/
 
 categories: ['Blockchain Platforms']
 

@@ -5,7 +5,7 @@ description: Mautic and WooCommerce Integration allow sending contact informatio
 date: Mon, 12 Oct 2020 06:09:14 +0000
 author: bilalahmed
 summary: "Boast sales using Mautic and WordPress WooCommerce together. Automate marketing process by fetching customers' data from WordPress to Mautic."
-url: /blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+url: /marketing-automation-using-mautic-and-wordpress-woocommerce/
 
 categories: ['Blogging', 'Marketing Automation']
 

@@ -5,7 +5,7 @@ description: Get familiarize with the phpList plugin architecture and learn how 
 date: Fri, 18 Dec 2020 19:51:33 +0000
 author: Masood Anwer
 summary: phpList plugins allows developers to customize the product and enhance its functionality. In this post, we will learn how to create basic plugin in phpList.
-url: /newsletter/beginners-guide-to-develop-phplist-plugin/
+url: /beginners-guide-to-develop-phplist-plugin/
 
 categories: ['Newsletters']
 

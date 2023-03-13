@@ -5,7 +5,7 @@ description: Rocket.Chat is easy to set up, helps teams and customers communicat
 date: Thu, 24 Dec 2020 10:37:56 +0000
 author: Assad Mahmood
 summary: "Live chat support software brings convenience and efficiency in delivering customer support. Let's learn how to install Rocket.Chat on your business website."
-url: /live-chat/how-to-setup-live-chat-software-on-website-rocket-chat/
+url: /how-to-setup-live-chat-software-on-website-rocket-chat/
 
 categories: ['Live Chat']
 

@@ -5,7 +5,7 @@ description: OpenEMR is an open-source medical software to manage medical practi
 date: Fri, 26 Feb 2021 09:22:16 +0000
 author: muhammadmustafa
 summary: ONC Certified cross-platform free medical health solution. It automates several tasks such as patient appointments, patient records, billing, and much more.
-url: /healthcare-software/open-source-medical-software-openemr-features/
+url: /open-source-medical-software-openemr-features/
 
 categories: ['Healthcare Software']
 

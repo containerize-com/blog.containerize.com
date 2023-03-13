@@ -5,7 +5,7 @@ description: What is NFT? This article talks about non-fungible tokens. An NFT i
 date: Tue, 23 Nov 2021 14:37:01 +0000
 author: muhammadmustafa
 summary: NFT stands for non-fungible token. NFT represents a digital entity, that is cryptographically unique, non-interchangeable such as drawing, video, or anything.
-url: /blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
+url: /what-is-nft-non-fungible-tokens-explained/
 
 categories: ['Blockchain Platforms']
 

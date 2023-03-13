@@ -5,7 +5,7 @@ description: What is Testnet? This guide is about how to set up Ethereum Node on
 date: Wed, 23 Dec 2020 11:32:05 +0000
 author: muhammadmustafa
 summary: Ethereum is an open-source blockchain peer-to-peer network of connected nodes. Let’s learn how to deploy and interact with Ethereum Node on a local server.
-url: /blockchain-platforms/what-is-testnet-how-to-deploy-it-ethereum-testnet/
+url: /what-is-testnet-how-to-deploy-it-ethereum-testnet/
 
 categories: ['Blockchain Platforms']
 

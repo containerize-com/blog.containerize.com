@@ -5,7 +5,7 @@ description: Setup XAMPP and phpMyAdmin as localhost on Windows. Create your own
 date: Mon, 26 Oct 2020 07:29:24 +0000
 author: bilalahmed
 summary: Setup a development environment with free and open source web server solution stack (XAMPP) and Database management software (phpMyAdmin)
-url: /database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+url: /how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 
 categories: ['Database Management Software', 'Web Server Solution Stack']
 

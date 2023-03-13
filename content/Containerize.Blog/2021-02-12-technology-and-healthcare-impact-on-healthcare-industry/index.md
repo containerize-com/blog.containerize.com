@@ -5,7 +5,7 @@ description: "The combination of technology and healthcare has revolutionized th
 date: Fri, 12 Feb 2021 07:12:43 +0000
 author: muhammadmustafa
 summary: Healthcare IT systems are significantly contributing to the healthcare sector. Medical professionals are now able to respond quickly to the challenges.
-url: /healthcare-software/technology-and-healthcare-impact-on-healthcare-industry/
+url: /technology-and-healthcare-impact-on-healthcare-industry/
 
 categories: ['Healthcare Software']
 

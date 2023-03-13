@@ -5,7 +5,7 @@ description: Top self-hosted eCommerce multi-vendor open source marketplace plat
 date: Fri, 07 May 2021 19:56:25 +0000
 author: yasir saeed
 summary: Marketplace platforms are a popular way to set up a business for selling products online. Check out the list of top open source marketplace software of 2021.
-url: /marketplace/top-5-open-source-marketplace-software-in-2021/
+url: /top-5-open-source-marketplace-software-in-2021/
 
 categories: ['Marketplace', 'Shopping Cart Software']
 

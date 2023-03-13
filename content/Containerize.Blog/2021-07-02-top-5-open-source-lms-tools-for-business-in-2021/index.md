@@ -5,7 +5,7 @@ description: Create an e-learning website with a free and open-source distance l
 date: Fri, 02 Jul 2021 19:44:37 +0000
 author: Masood Anwer
 summary: Create an e-learning website with free learning management software. We have compiled a list of the top 5 open source learning management systems (LMS).
-url: /learning-management-system/top-5-open-source-lms-tools-for-business-in-2021/
+url: /top-5-open-source-lms-tools-for-business-in-2021/
 
 categories: ['Learning Management System']
 

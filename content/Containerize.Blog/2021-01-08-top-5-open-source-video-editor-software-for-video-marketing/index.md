@@ -5,7 +5,7 @@ description: This blog post introduces you to the top five open source free vide
 date: Fri, 08 Jan 2021 07:17:51 +0000
 author: muhammadmustafa
 summary: Advanced video editing software is an integral part of any growing business to achieve high user engagement, effective video marketing, and buyer motivation.
-url: /video-editing-software/top-5-open-source-video-editor-software-for-video-marketing/
+url: /top-5-open-source-video-editor-software-for-video-marketing/
 
 categories: ['Video Editing Software']
 

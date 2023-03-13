@@ -5,7 +5,7 @@ description: This blog post provides an overview of the top 5 popular web server
 date: Fri, 08 Jan 2021 08:24:10 +0000
 author: bilalahmed
 summary: Solution stacks provide a complete environment for developers to build enterprise web applications. Let’s discuss the top 5 open-source configurable servers.
-url: /web-server-solution-stack/top-5-open-source-web-server-software-in-2021/
+url: /top-5-open-source-web-server-software-in-2021/
 
 categories: ['Web Server Solution Stack']
 

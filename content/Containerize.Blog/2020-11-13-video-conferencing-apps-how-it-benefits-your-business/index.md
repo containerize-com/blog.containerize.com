@@ -5,7 +5,7 @@ description: This blog post is a brief introduction to free video conferencing a
 date: Fri, 13 Nov 2020 15:18:07 +0000
 author: muhammadmustafa
 summary: Streamline your business processes by installing open source meeting software. Structured meetings boost productivity and provide a competitive edge.
-url: /video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
+url: /video-conferencing-apps-how-it-benefits-your-business/
 
 categories: ['Video Conferencing Software']
 

@@ -5,7 +5,7 @@ description: "Vanilla Forum is a free discussion forum. WordPress is a popular e
 date: Wed, 13 Jan 2021 04:31:37 +0000
 author: muhammadmustafa
 summary: Integrate a free forum software with WordPress to improve support, lower the service cost and boost sales. Let’s learn how to integrate WordPress and Vanilla.
-url: /blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+url: /how-to-a-install-plugin-in-wordpress-vanilla-forum/
 
 categories: ['Blogging', 'Discussion Forum']
 

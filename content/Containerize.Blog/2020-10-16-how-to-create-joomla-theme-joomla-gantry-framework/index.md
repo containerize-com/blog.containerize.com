@@ -5,7 +5,7 @@ description: 'Joomla Gantry framework is open source and offers GUI with drag & 
 date: Fri, 16 Oct 2020 10:55:10 +0000
 author: Masood Anwer
 summary: Design powerful, interactive, and easy-to-use Joomla theme with open source template builder. Gantry framework boosts page response time and performance.
-url: /content-management/how-to-create-joomla-theme-joomla-gantry-framework/
+url: /how-to-create-joomla-theme-joomla-gantry-framework/
 
 categories: ['Content Management']
 

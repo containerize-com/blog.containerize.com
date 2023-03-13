@@ -5,7 +5,7 @@ description: Minor change in Meta DescriptionFollow this blog post to learn abou
 date: Mon, 05 Oct 2020 11:28:14 +0000
 author: Assad Mahmood
 summary: Open source chat apps help teams to collaborate with each other in real time. These can be used for lead generation, customer support, and team communication.
-url: /live-chat/top-5-free-customer-support-chat-software-for-website/
+url: /top-5-free-customer-support-chat-software-for-website/
 
 categories: ['Live Chat']
 

@@ -5,7 +5,7 @@ description: Kubernetes is a container orchestration technology, while Docker is
 date: Mon, 01 Nov 2021 01:16:43 +0000
 author: yasir saeed
 summary: Kubernetes is a container orchestration technology, while Docker enables developers to create and run containers. Let’s review the two container technologies.
-url: /devops/kubernetes-vs-docker-what-are-the-differences/
+url: /kubernetes-vs-docker-what-are-the-differences/
 
 categories: ['DevOps', 'Software Development']
 

@@ -5,7 +5,7 @@ description: "Follow this guide to learn about an open-source web conferencing s
 date: Thu, 19 Jan 2023 20:06:03 +0000
 author: muhammadmustafa
 summary: Install BigBlueButton plugin on your WordPress-based business website to conduct virtual meetings. It is free, open-source, and offers a wide range of features.
-url: /blogging/install-a-web-conferencing-software-on-a-wordpress-site/
+url: /install-a-web-conferencing-software-on-a-wordpress-site/
 
 categories: ['Blogging', 'Video Conferencing Software']
 

@@ -5,7 +5,7 @@ description: In this blog post, we will discover the most widely used open-sourc
 date: Wed, 17 Nov 2021 10:26:32 +0000
 author: muhammadmustafa
 summary: What is a crypto wallet? Crypto wallet is an integral of a blockchain network. It brings transparency, trust and security into a distributed ledger technology.
-url: /blockchain-platforms/top-5-free-open-source-crypto-wallets-in-2021/
+url: /top-5-free-open-source-crypto-wallets-in-2021/
 
 categories: ['Blockchain Platforms']
 

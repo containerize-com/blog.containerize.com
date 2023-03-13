@@ -5,7 +5,7 @@ description: Follow this article to learn how to set up and configure open-sourc
 date: Wed, 16 Dec 2020 12:53:41 +0000
 author: bilalahmed
 summary: Configure a secure, lightweight, and open-source web server. Lighttpd is an enterprise-level free web server and best suited for highly performant websites.
-url: /web-server-solution-stack/lighttpd-how-to-setup-configure-open-source-web-server/
+url: /lighttpd-how-to-setup-configure-open-source-web-server/
 
 categories: ['Web Server Solution Stack']
 

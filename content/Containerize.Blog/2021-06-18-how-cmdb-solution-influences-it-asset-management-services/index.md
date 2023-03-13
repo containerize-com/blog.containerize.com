@@ -5,7 +5,7 @@ description: Follow this blog post to learn the importance of open source IT ass
 date: Fri, 18 Jun 2021 08:03:01 +0000
 author: muhammadmustafa
 summary: CMDB solution provides better IT asset inventory management and operational benefits. Organizations tend to install it for a competitive edge and efficiency.
-url: /cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
+url: /how-cmdb-solution-influences-it-asset-management-services/
 
 categories: ['CMDB Software']
 
