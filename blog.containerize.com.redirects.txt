@@ -1,5 +1,4 @@
-rewrite ^/(\d{4})/(\d{2})/(\d{2})/(.*) https://blog-qa.containerize.com/$4/ permanent;
-rewrite ^/([^/\s]+)/([^/\s]+)/?$ https://blog-qa.containerize.com/$2/ permanent;
+rewrite ^/(\d{4})/(\d{2})/(\d{2})/(.*) https://blog.containerize.com/$4/ permanent;
 
 rewrite /2021/02/19/github-actions-tutorial-automate-your-first-workflow/ https://blog.containerize.com/version-control-software/github-actions-tutorial-automate-your-first-workflow/ permanent;
 rewrite /2021/01/17/increase-website-search-traffic-by-following-top-7-seo-blogs/ https://blog.containerize.com/blogging/increase-website-search-traffic-by-following-top-7-seo-blogs/ permanent;
