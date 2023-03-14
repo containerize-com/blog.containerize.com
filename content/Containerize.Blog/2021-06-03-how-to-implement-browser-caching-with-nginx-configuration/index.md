@@ -5,7 +5,7 @@ description: The faster a website loads, the more likely a visitor is to stay. I
 date: Thu, 03 Jun 2021 11:46:56 +0000
 author: Assad Mahmood
 summary: The faster a website loads, the more likely a visitor is to stay. This article guides you on how to implement Browser Caching with Nginx Configurations.
-url: /uncategorized/how-to-implement-browser-caching-with-nginx-configuration/
+url: /how-to-implement-browser-caching-with-nginx-configuration/
 
 categories: ['Uncategorized', 'Web Server Solution Stack']
 

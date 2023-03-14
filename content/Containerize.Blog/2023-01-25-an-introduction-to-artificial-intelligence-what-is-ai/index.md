@@ -5,7 +5,7 @@ description: Follow this guide to learn what is AI and the applications of artif
 date: Wed, 25 Jan 2023 07:23:31 +0000
 author: muhammadmustafa
 summary: Artificial intelligence is the fourth industrial revolution that is reshaping the world. The fundamentals of AI are based on machine learning and NLP.
-url: /artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+url: /an-introduction-to-artificial-intelligence-what-is-ai/
 
 categories: ['Artificial intelligence']
 

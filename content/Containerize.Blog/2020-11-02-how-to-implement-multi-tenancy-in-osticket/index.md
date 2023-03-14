@@ -5,7 +5,7 @@ description: "Implementing multi-tenancy in osTicket can save costs and resource
 date: Mon, 02 Nov 2020 13:33:19 +0000
 author: bilalahmed
 summary: Multi-tenant osTicket helpdesk allows you to create multiple tenants from a single installation. That makes optimum use of web server resources.
-url: /helpdesk/how-to-implement-multi-tenancy-in-osticket/
+url: /how-to-implement-multi-tenancy-in-osticket/
 
 categories: ['Help Desk']
 

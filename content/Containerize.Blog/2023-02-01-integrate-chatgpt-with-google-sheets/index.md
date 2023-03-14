@@ -5,7 +5,7 @@ description: Follow this guide to learn how to integrate ChatGPT with Google She
 date: Wed, 01 Feb 2023 09:27:21 +0000
 author: muhammadmustafa
 summary: 'Unlock the power of automation with ChatGPT and Google Sheets Integration. OpenAI GPT-3 offers AI-powered conversational, text completion &amp; search features.'
-url: /artificial-intelligence/integrate-chatgpt-with-google-sheets/
+url: /integrate-chatgpt-with-google-sheets/
 
 categories: ['Artificial intelligence']
 

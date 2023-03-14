@@ -5,7 +5,7 @@ description: "Explore this category of Artificial Intelligence that generates un
 date: Tue, 14 Feb 2023 20:43:20 +0000
 author: muhammadmustafa
 summary: "Let's understand the processes behind Generative Artificial Intelligence and see how a Generative AI model is built and what are its business applications."
-url: /artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
+url: /what-is-generative-ai-generative-artificial-intelligence/
 
 categories: ['Artificial intelligence']
 

@@ -5,7 +5,7 @@ description: 'This article is about two leading open-source forum software Flaru
 date: Tue, 21 Dec 2021 20:57:57 +0000
 author: muhammadmustafa
 summary: "Next-generation open source forum software that offers quick &amp; extendable space for online discussions. Let's compare the usage of Flarum and Discourse."
-url: /discussion-forum/flarum-vs-discourse-open-source-forum-software/
+url: /flarum-vs-discourse-open-source-forum-software/
 
 categories: ['Discussion Forum']
 

@@ -5,7 +5,7 @@ description: 'Follow this Github Actions tutorial to explore that how can we use
 date: Fri, 19 Feb 2021 10:21:38 +0000
 author: Assad Mahmood
 summary: 'Github has introduced Github Actions that allow you to set up Continuous Integration &amp; Continuous Deployment using a config file right in your Github repo.'
-url: /version-control-software/github-actions-tutorial-automate-your-first-workflow/
+url: /github-actions-tutorial-automate-your-first-workflow/
 categories: ['Version Control Software']
 
 ---

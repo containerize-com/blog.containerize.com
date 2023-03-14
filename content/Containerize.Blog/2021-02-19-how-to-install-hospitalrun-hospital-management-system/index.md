@@ -5,7 +5,7 @@ description: This article helps you to install Hospitalrun on localhost. Automat
 date: Fri, 19 Feb 2021 09:24:09 +0000
 author: muhammadmustafa
 summary: "Self-hosted healthcare solution to facilitate clinicians and patients. Let's learn how to deploy free Hospitalrun on the localhost by following simple steps."
-url: /healthcare-software/how-to-install-hospitalrun-hospital-management-system/
+url: /how-to-install-hospitalrun-hospital-management-system/
 
 categories: ['Healthcare Software']
 

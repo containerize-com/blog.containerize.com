@@ -5,7 +5,7 @@ description: Open-source container orchestration tools help DevOps engineers to 
 date: Mon, 11 Oct 2021 04:01:46 +0000
 author: yasir saeed
 summary: "Container Orchestration tools help users to automate the deployment, networking, scaling and management of containers. Let's review the best orchestration tools"
-url: /devops/top-5-open-source-container-orchestration-tools-for-devops-in-2021/
+url: /top-5-open-source-container-orchestration-tools-for-devops-in-2021/
 
 categories: ['DevOps', 'Software Development']
 

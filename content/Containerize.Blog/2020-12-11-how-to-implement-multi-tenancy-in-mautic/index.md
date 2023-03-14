@@ -5,7 +5,7 @@ description: Mautic is an open source marketing automation solution. Implementin
 date: Fri, 11 Dec 2020 11:34:25 +0000
 author: bilalahmed
 summary: Save costs and maximize resource usage by implementing multi-tenancy in Mautic. Multi-tenancy helps in code customizations, app updates, improved productivity and easy maintenance.
-url: /marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+url: /how-to-implement-multi-tenancy-in-mautic/
 
 categories: ['Marketing Automation']
 

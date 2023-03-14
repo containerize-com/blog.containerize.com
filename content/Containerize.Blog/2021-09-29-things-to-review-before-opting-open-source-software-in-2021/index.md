@@ -5,7 +5,7 @@ description: Go through this blog post to learn about the most important points 
 date: Wed, 29 Sep 2021 07:04:33 +0000
 author: muhammadmustafa
 summary: Free and open-source software are developed to be publically available with source code. Let’s review critical factors for the choice of open-source software.
-url: /cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+url: /things-to-review-before-opting-open-source-software-in-2021/
 
 categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'Form', 'Game Development Software', 'Healthcare Software', 'Marketing Automation', 'Rapid Application Development', 'Single Sign-On', 'Video Conferencing Software', 'Video Editing Software']
 

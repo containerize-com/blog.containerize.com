@@ -5,7 +5,7 @@ description: Tech industry is being reshaped by digital transformations and busi
 date: Mon, 31 Jan 2022 06:03:24 +0000
 author: yasir saeed
 summary: Tech industry is being reshaped by digital transformations and businesses are searching for digital solutions. This article covers top open source technologies.
-url: /backup-and-sync-software/top-10-open-source-trending-technologies-of-2022/
+url: /top-10-open-source-trending-technologies-of-2022/
 
 categories: ['Backup and Sync Software', 'Blockchain Platforms', 'Business Intelligence Software', 'DevOps', 'Software Development']
 

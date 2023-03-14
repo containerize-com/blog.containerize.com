@@ -5,7 +5,7 @@ description: HTTP2 or h2 is a binary protocol and improved version of the HTTP p
 date: Fri, 28 May 2021 18:59:02 +0000
 author: yasir saeed
 summary: HTTP/2 is a robust multiplexed protocol for improving page load speed and security. In this tutorial, we will learn how to setup NGINX with HTTP/2 support.
-url: /web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+url: /how-to-configure-http2-support-in-nginx-on-ubuntudebian/
 
 categories: ['Web Server Solution Stack']
 

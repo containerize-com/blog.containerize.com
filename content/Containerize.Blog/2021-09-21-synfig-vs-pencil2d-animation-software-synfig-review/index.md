@@ -5,7 +5,7 @@ description: In this article, we will do Synfig review in comparison with Pencil
 date: Tue, 21 Sep 2021 13:31:58 +0000
 author: muhammadmustafa
 summary: "Synfig and Pencil2D are open source animation software that are used to build professional animation. Let's compare these two software regarding their usage."
-url: /animation-software/synfig-vs-pencil2d-animation-software-synfig-review/
+url: /synfig-vs-pencil2d-animation-software-synfig-review/
 
 categories: ['Animation Software']
 

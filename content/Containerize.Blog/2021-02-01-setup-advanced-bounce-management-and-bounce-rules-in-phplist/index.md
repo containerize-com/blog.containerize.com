@@ -5,7 +5,7 @@ description: Enable advanced bounce management in phpList and handle bounce emai
 date: Mon, 01 Feb 2021 19:28:58 +0000
 author: Masood Anwer
 summary: Depending on the type of bounce error code that is returned by the MTA, advanced bounce management allows the automated execution of different actions.
-url: /newsletter/setup-advanced-bounce-management-and-bounce-rules-in-phplist/
+url: /setup-advanced-bounce-management-and-bounce-rules-in-phplist/
 
 categories: ['Newsletters']
 

@@ -5,7 +5,7 @@ description: Mautic and Joomla Integration can help your business with digital m
 date: Fri, 09 Oct 2020 15:16:25 +0000
 author: bilalahmed
 summary: Mautic and Joomla Integration can help your business with digital marketing automation. It helps to market products through online Mautic campaigns.
-url: /content-management/integrate-mautic-with-joomla-for-marketing-automation/
+url: /integrate-mautic-with-joomla-for-marketing-automation/
 
 categories: ['Content Management', 'Marketing Automation']
 

@@ -5,7 +5,7 @@ description: Go through this guide to learn about the top 5 open-source AI frame
 date: Fri, 27 Jan 2023 12:24:22 +0000
 author: muhammadmustafa
 summary: The advancement in AI and Machine learning has given a boost to every industry. You can consider the following open-source AI libraries for your business apps.
-url: /artificial-intelligence/top-5-open-source-ai-frameworks/
+url: /top-5-open-source-ai-frameworks/
 
 categories: ['Artificial intelligence']
 

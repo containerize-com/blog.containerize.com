@@ -5,7 +5,7 @@ description: This OpenShot video editor tutorial is for beginners to start video
 date: Wed, 30 Dec 2020 09:52:51 +0000
 author: muhammadmustafa
 summary: "Video marketing boosts user engagement, brand awareness, and drives sales. Let's learn how to nurture video editing skills with an open source video editor."
-url: /video-editing-software/openshot-video-editor-tutorial-for-beginners-open-source/
+url: /openshot-video-editor-tutorial-for-beginners-open-source/
 
 categories: ['Video Editing Software']
 

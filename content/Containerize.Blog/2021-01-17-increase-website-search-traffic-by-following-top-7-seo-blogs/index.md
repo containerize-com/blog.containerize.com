@@ -5,7 +5,7 @@ description: Website search traffic helps to improve rank and is an important dr
 date: Sun, 17 Jan 2021 00:25:42 +0000
 author: yasir saeed
 summary: The digital marketplace is constantly changing and trying to find the best sources to increase search traffic can be tricky. This article is about top SEO blogs
-url: /blogging/increase-website-search-traffic-by-following-top-7-seo-blogs/
+url: /increase-website-search-traffic-by-following-top-7-seo-blogs/
 
 categories: ['Blogging', 'SEO']
 

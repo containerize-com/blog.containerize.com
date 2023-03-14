@@ -5,7 +5,7 @@ description: Our team has gone through an extensive list of blogging and content
 date: Wed, 07 Oct 2020 06:24:30 +0000
 author: yasir saeed
 summary: Explore
-url: /blogging/top-5-most-popular-open-source-blogging-platforms-in-2021/
+url: /top-5-most-popular-open-source-blogging-platforms-in-2021/
 
 categories: ['Blogging']
 

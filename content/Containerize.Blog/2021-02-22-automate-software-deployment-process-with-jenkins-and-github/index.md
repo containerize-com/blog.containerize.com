@@ -5,7 +5,7 @@ description: Free deployment tool helps development teams to automate software d
 date: Mon, 22 Feb 2021 06:11:17 +0000
 author: Masood Anwer
 summary: Automate development workflows using free deployment tool. We will learn how to setup CI/CD with Jenkins automation server and GitHub for software deployment.
-url: /deployment-tools/automate-software-deployment-process-with-jenkins-and-github/
+url: /automate-software-deployment-process-with-jenkins-and-github/
 
 categories: ['Deployment Tools']
 

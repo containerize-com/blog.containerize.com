@@ -5,7 +5,7 @@ description: Follow this guide to getting started with medical record manager Ho
 date: Wed, 04 Aug 2021 18:37:19 +0000
 author: muhammadmustafa
 summary: Hospital management system is an essential part of healthcare establishments. HospitalRun provides data control, access-based roles and revenue management.
-url: /healthcare-software/features-exploration-of-medical-record-manager-hospitalrun/
+url: /features-exploration-of-medical-record-manager-hospitalrun/
 
 categories: ['Healthcare Software']
 

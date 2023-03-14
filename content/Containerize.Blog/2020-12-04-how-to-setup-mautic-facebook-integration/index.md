@@ -5,7 +5,7 @@ description: 'Mautic - Facebook Integration can help synchronize your Facebook l
 date: Fri, 04 Dec 2020 09:51:26 +0000
 author: bilalahmed
 summary: Fetch Facebook leads to Mautic, add contacts into a segment and run email campaigns. Also use these contacts to create custom audience for Facebook ads.
-url: /marketing-automation/how-to-setup-mautic-facebook-integration/
+url: /how-to-setup-mautic-facebook-integration/
 
 categories: ['Marketing Automation']
 

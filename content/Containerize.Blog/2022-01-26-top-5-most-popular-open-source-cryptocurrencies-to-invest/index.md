@@ -5,7 +5,7 @@ description: "Cryptocurrency transactions can be made easily and quickly at a lo
 date: Wed, 26 Jan 2022 06:49:02 +0000
 author: yasir saeed
 summary: "Cryptocurrency transactions can be made easily and quickly at a low cost based on cryptography. Let's review the top cryptocurrencies to invest in 2022."
-url: /blockchain-platforms/top-5-most-popular-open-source-cryptocurrencies-to-invest/
+url: /top-5-most-popular-open-source-cryptocurrencies-to-invest/
 
 categories: ['Blockchain Platforms', 'Business Intelligence Software']
 

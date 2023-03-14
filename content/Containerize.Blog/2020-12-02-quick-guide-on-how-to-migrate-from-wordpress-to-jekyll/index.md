@@ -5,7 +5,7 @@ description: In this tutorial we will learn how to migrate your site from WordPr
 date: Wed, 02 Dec 2020 13:37:14 +0000
 author: Assad Mahmood
 summary: "In this tutorial we'll learn how to migrate your website from Wordpress to Jekyll and host it with Github free of cost"
-url: /blogging/quick-guide-on-how-to-migrate-from-wordpress-to-jekyll/
+url: /quick-guide-on-how-to-migrate-from-wordpress-to-jekyll/
 
 categories: ['Blogging']
 

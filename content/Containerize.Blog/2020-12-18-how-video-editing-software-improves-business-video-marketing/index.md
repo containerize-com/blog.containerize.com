@@ -5,7 +5,7 @@ description: Boost the organic traffic of your business by launching a powerful 
 date: Fri, 18 Dec 2020 11:07:03 +0000
 author: muhammadmustafa
 summary: Business video marketing is a vital component of a business’s digital marketing. Businesses tend to go for appealing video content for higher competitive edge.
-url: /video-editing-software/how-video-editing-software-improves-business-video-marketing/
+url: /how-video-editing-software-improves-business-video-marketing/
 
 categories: ['Video Editing Software']
 

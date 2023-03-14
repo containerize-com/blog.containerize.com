@@ -5,7 +5,7 @@ description: "Use Gatsby WordPress together to improve your website's speed, sca
 date: Wed, 25 Nov 2020 10:51:13 +0000
 author: Assad Mahmood
 summary: "Configure open source Gatsby with your WordPress to bring greater user experience and overall performance. Let's learn how to use this static site generator."
-url: /blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
+url: /how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
 
 categories: ['Blogging']
 

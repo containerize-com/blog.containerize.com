@@ -5,7 +5,7 @@ description: Follow this guide to explore the top 3 Open-Source Translation Mana
 date: Fri, 06 Jan 2023 13:46:35 +0000
 author: muhammadmustafa
 summary: Opt for the right localization management platform for small to enterprise-level business applications. This article will help you in making the right choice.
-url: /software-development/top-3-open-source-translation-management-tools-in-2023/
+url: /top-3-open-source-translation-management-tools-in-2023/
 
 categories: ['Software Development']
 

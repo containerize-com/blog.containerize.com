@@ -5,7 +5,7 @@ description: Nextcloud vs ownCloud is one of the biggest debate in the self host
 date: Sat, 31 Jul 2021 06:19:30 +0000
 author: yasir saeed
 summary: Nextcloud vs ownCloud is one of the biggest debate in the self-hosted open source cloud storage world. This article is about Nextcloud and ownCloud differences.
-url: /backup-and-sync-software/nextcloud-vs-owncloud-what-are-the-differences/
+url: /nextcloud-vs-owncloud-what-are-the-differences/
 
 categories: ['Backup and Sync Software']
 

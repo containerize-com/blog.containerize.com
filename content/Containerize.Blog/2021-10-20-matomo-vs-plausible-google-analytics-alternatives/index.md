@@ -5,7 +5,7 @@ description: This blog post draws a comparison between two open-source BI tools 
 date: Wed, 20 Oct 2021 08:57:29 +0000
 author: muhammadmustafa
 summary: Fetch conclusive insights of your business website using open-source BI tools. These solutions are compliant with GDPR, PECR, and offer powerful features.
-url: /business-intelligence-software/matomo-vs-plausible-google-analytics-alternatives/
+url: /matomo-vs-plausible-google-analytics-alternatives/
 
 categories: ['Business Intelligence Software']
 

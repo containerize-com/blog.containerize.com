@@ -5,7 +5,7 @@ description: This blog post is about comparison of the two leading open source i
 date: Thu, 12 Aug 2021 10:47:02 +0000
 author: muhammadmustafa
 summary: "Keycloak and Identityserver4 are open source identity providers that offer single sign on services to access resources. Let's compare these two sso software."
-url: /single-sign-on/keycloak-vs-identityserver4-what-are-the-differences/
+url: /keycloak-vs-identityserver4-what-are-the-differences/
 
 categories: ['Single Sign-On']
 

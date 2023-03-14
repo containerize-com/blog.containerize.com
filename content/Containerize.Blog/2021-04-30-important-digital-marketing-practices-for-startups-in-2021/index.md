@@ -5,7 +5,7 @@ description: Here are a few digital marketing practices and best digital marketi
 date: Fri, 30 Apr 2021 18:25:32 +0000
 author: yasir saeed
 summary: New and innovative brands are launching every day because of the rapidly growing competition. This post covers best marketing practices for business in 2021.
-url: /marketing-automation/important-digital-marketing-practices-for-startups-in-2021/
+url: /important-digital-marketing-practices-for-startups-in-2021/
 
 categories: ['Marketing Automation']
 

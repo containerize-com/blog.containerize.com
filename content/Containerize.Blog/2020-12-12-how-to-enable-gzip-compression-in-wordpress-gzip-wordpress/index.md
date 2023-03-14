@@ -5,7 +5,7 @@ description: "Do you want to enable GZIP compression in WordPress to speed up yo
 date: Sat, 12 Dec 2020 11:51:16 +0000
 author: Assad Mahmood
 summary: Page speed and load times are the key factors for better ranking in search engines. GZIP compression can make it happen and provide a competitive edge.
-url: /blogging/how-to-enable-gzip-compression-in-wordpress-gzip-wordpress/
+url: /how-to-enable-gzip-compression-in-wordpress-gzip-wordpress/
 
 categories: ['Blogging']
 

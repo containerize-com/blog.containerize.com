@@ -5,7 +5,7 @@ description: "phpList is the leading open source newsletter software for email m
 date: Thu, 29 Oct 2020 18:30:18 +0000
 author: Masood Anwer
 summary: Create and send newsletter using open source phpList and reach to millions of subscribers. Enhance the engagement of clients with product updates, promotions and new features.
-url: /newsletter/how-to-create-and-send-newsletter-using-phplist/
+url: /how-to-create-and-send-newsletter-using-phplist/
 
 categories: ['Newsletters']
 

@@ -5,7 +5,7 @@ description: Restic is a fast, secure, and one of the best open-source backup so
 date: Fri, 09 Jul 2021 20:38:14 +0000
 author: Masood Anwer
 summary: Take backup with open source backup software and store it locally or on external backends. Restic is cross-platform and supports multiple storage types.
-url: /backup-software/how-to-set-up-open-source-backup-software-restic-on-ubuntu/
+url: /how-to-set-up-open-source-backup-software-restic-on-ubuntu/
 
 categories: ['Backup Software']
 

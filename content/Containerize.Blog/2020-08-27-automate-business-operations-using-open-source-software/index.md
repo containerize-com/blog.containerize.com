@@ -5,7 +5,7 @@ description: Run your paperless business remotely from anywhere using an array o
 date: Thu, 27 Aug 2020 11:33:31 +0000
 author: adilfazal
 summary: 'List of free and open source software for all the segments of the business including CMS, communication, customer support, marketing &amp; financial operations.'
-url: /blogging/automate-business-operations-using-open-source-software/
+url: /automate-business-operations-using-open-source-software/
 
 categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help Desk', 'Invoicing', 'Live Chat', 'Marketing Automation', 'Newsletters', 'Single Sign-On', 'Status Page', 'Transactional Email']
 

@@ -5,7 +5,7 @@ description: Follow this tutorial to know about Ralph and its features. Ralph is
 date: Wed, 14 Jul 2021 14:45:20 +0000
 author: muhammadmustafa
 summary: CMDB solution offers a faster resolution of incidents, asset tracking, and change management. It helps automation of IT tasks with security and transparency.
-url: /cmdb-software/ralph-beginners-guide-on-it-asset-management-solution/
+url: /ralph-beginners-guide-on-it-asset-management-solution/
 
 categories: ['CMDB Software']
 

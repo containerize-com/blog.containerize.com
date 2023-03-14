@@ -5,7 +5,7 @@ description: Open source ERP software enables companies for integrating and mana
 date: Mon, 11 Jan 2021 07:00:29 +0000
 author: Masood Anwer
 summary: Enterprise Resource Planning software enables companies to collect, store, process, analyze data from all business units, and help to improve decision making.
-url: /enterprise-resource-planning/top-5-open-source-erp-software-for-your-business/
+url: /top-5-open-source-erp-software-for-your-business/
 
 categories: ['Enterprise Resource Planning']
 

@@ -5,7 +5,7 @@ description: Pencil2D is an open source animation software that lets users creat
 date: Mon, 21 Jun 2021 06:45:42 +0000
 author: bilalahmed
 summary: '<strong>Pencil2D is an open source animation software that lets users create 2D animations and sketches. This article is about how to create animation with Pencil2D</strong>.'
-url: /animation-software/how-to-create-animations-with-pencil2d-animation-software/
+url: /how-to-create-animations-with-pencil2d-animation-software/
 
 categories: ['Animation Software']
 

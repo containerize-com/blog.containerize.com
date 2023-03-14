@@ -5,7 +5,7 @@ description: "Joomla is a popular open-source content management system. In this
 date: Fri, 22 Jan 2021 08:30:26 +0000
 author: Assad Mahmood
 summary: Joomla is one of the most popular open-source content management systems. This tutorial will walk you through the necessary steps of creating a Joomla template from scratch.
-url: /content-management/beginners-guide-to-create-a-basic-joomla-template/
+url: /beginners-guide-to-create-a-basic-joomla-template/
 
 categories: ['Content Management']
 

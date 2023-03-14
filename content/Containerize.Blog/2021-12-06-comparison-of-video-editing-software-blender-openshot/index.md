@@ -5,7 +5,7 @@ description: This guide draws a comparison of video editing software, Blender vi
 date: Mon, 06 Dec 2021 10:59:28 +0000
 author: muhammadmustafa
 summary: 'OpenShot is an award-winning free video editor &amp; blender that supports powerful built-in video sequence editing capabilities. Let’s compare both video editors.'
-url: /video-editing-software/comparison-of-video-editing-software-blender-openshot/
+url: /comparison-of-video-editing-software-blender-openshot/
 
 categories: ['Video Editing Software']
 

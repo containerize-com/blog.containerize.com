@@ -5,7 +5,7 @@ description: "How To Setup, Encrypt and Secure Nginx with Let's Encrypt on Ubunt
 date: Mon, 19 Apr 2021 06:27:22 +0000
 author: yasir saeed
 summary: Websites include SSL/TLS encryption for its domain to attract visitors. This article explains use of Certbot utility to obtain TLS/SSL certificates for Nginx.
-url: /web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
+url: /how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 
 categories: ['Web Server Solution Stack']
 

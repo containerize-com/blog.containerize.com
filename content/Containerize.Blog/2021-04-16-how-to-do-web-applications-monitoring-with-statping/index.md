@@ -5,7 +5,7 @@ description: Statping is one of the best website monitoring tools that enables y
 date: Fri, 16 Apr 2021 18:12:12 +0000
 author: Masood Anwer
 summary: Automatically monitor your websites, web applications, APIs with free monitoring tools and showcase services uptime with an open source status page system.
-url: /status-page/how-to-do-web-applications-monitoring-with-statping/
+url: /how-to-do-web-applications-monitoring-with-statping/
 
 categories: ['Status Page']
 

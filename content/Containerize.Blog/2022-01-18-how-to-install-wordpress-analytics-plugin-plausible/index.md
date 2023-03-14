@@ -5,7 +5,7 @@ description: Plausible is an open-source Google Analytics alternative with enter
 date: Tue, 18 Jan 2022 06:03:31 +0000
 author: muhammadmustafa
 summary: "Plausible is a business intelligence software that lets you track important business insights and data analytics. Let's learn how to install it on WordPress."
-url: /blogging/how-to-install-wordpress-analytics-plugin-plausible/
+url: /how-to-install-wordpress-analytics-plugin-plausible/
 
 categories: ['Blogging', 'Business Intelligence Software']
 
