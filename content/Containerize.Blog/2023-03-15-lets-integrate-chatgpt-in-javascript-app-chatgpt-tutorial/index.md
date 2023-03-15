@@ -44,18 +44,10 @@ npm i chatgpt
 ```
 Upon successful run, follow the following steps and the code snippet to make a request to GPT-3 model to interact with ChatGPT programmatically:
 
- * Import the ChatGPTAPI
- * Initialize the constructor with your OpenAI API key
- * Invoke the sendMessage method to send a message to the GPT-3 model
- * Display the response
-
-## JavaScript Closures {#JavaScript-Closures}
-
-This is another important concept that strengthens your JavaScript knowledge about scopes and data encapsulation. In the simplest form, a function inside a function is known as a closure. You may call the inner function a closure. This inner function has three types of scope:
-
- * It has its own block-level scope.
- * It has access to parent's variables
- * Variables in the global scope are also accessible inside the closure  
+ * Import the ChatGPTAPI.
+ * Initialize the constructor with your OpenAI API key.
+ * Invoke the sendMessage method to send a message to the GPT-3 model and receive the response.
+ * Display the response.
 
 {{< gist mustafabutt-dev 772dc075f44561ff923e9b0fb761ed38 >}}
 Copy and paste the above code snippet into your main server file and run the following command into your terminal:
