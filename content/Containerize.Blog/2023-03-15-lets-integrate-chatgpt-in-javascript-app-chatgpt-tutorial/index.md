@@ -11,7 +11,7 @@ tags: ["Integrate ChatGPT in JavaScript App", "ChatGPT tutorial", "ChatGPT JavaS
 categories: ['Programming', 'Artificial intelligence']
 
 ---
-## Streamline your business software by integrating a GPT-3 based viral chatbot with your software. This ChatGPT tutorial demonstrates the integration steps.
+## Streamline your business software by integrating a GPT-3 based viral chatbot. This ChatGPT tutorial demonstrates the integration steps and the code snippet.
 
 {{< figure align=center src="images/lets-integrate-chatgpt-in-javascript-app-chatgpt-tutorial.png" alt="Integrate ChatGPT in JavaScript app">}}
 ## Overview
@@ -32,7 +32,7 @@ Following are the pre-requires to practice this ChatGPT JavaScript integration:
  * [Node.js][4](>= 18)
  * [npm][5](>=9)
 
-Once the above prerequisites are installed, the next step is to get an OpenAI API key. This key is used to make API requests to the ChatGPT programmatically. Therefore, please visit [this][6] link to learn how to obtain the OpenAI API key in case you don't know the procedure. 
+Once the above prerequisites are installed, the next step is to get an OpenAI API key. This key is used to make API requests to the ChatGPT programmatically. Therefore, please visit this [link][6] to learn how to obtain the OpenAI API key in case you don't know the procedure. 
 Please keep your API key in a safe place and that's all for the requirements phase.
 
 ## ChatGPT integration with Node.js application {#ChatGPT-integration-with-Node.js-application}
