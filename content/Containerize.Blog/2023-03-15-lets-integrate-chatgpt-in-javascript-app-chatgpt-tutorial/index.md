@@ -8,7 +8,7 @@ summary: 'Simply run "npm i chatgpt" and start using OpenAI chatbot in your Node
 url: /lets-integrate-chatgpt-in-javascript-app-chatgpt-tutorial/
 tags: ["Integrate ChatGPT in JavaScript App", "ChatGPT tutorial", "ChatGPT JavaScript", "ChatGPT integration", "OpenAI Chatbot"]
     
-categories: ['Programming', 'Artificial intelligence']
+categories: [ 'Artificial intelligence']
 
 ---
 ## Streamline your business software by integrating a GPT-3 based viral chatbot. This ChatGPT tutorial demonstrates the integration steps and the code snippet.
