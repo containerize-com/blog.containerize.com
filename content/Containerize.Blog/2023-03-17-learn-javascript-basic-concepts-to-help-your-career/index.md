@@ -62,7 +62,7 @@ The error in the code snippet above occurred. The reason is that the initializat
 
 ## Scopes in JavaScript {#Scopes-in-JavaScript}
 
-The scope is one of the JavaScript basic concepts that a developer must have. However, working with JavaScript scopes is not straightforward and is a little different. Therefore, there are three types of scopes in JavaScript and these are as follows:
+The scope is one of the JavaScript basic concepts that a developer must know. However, working with JavaScript scopes is not straightforward and is a little different. Therefore, there are three types of scopes in JavaScript and these are as follows:
 
 **Block-level**: Variables declared with "let" or "const" contains the block-level scope. 
 ```
@@ -98,10 +98,10 @@ function innerFunc(){
 This is another important concept that strengthens your JavaScript knowledge about scopes and data encapsulation. In the simplest form, a function inside a function is known as a closure. You may call the inner function a closure. This inner function has three types of scope:
 
  * It has its own block-level scope.
- * It has access to parent's variables
- * Variables in the global scope are also accessible inside the closure  
+ * It has access to parent's variables.
+ * Variables in the global scope are also accessible inside the closure.
 
- Let's see who to create a closure:
+ Let's see how to create a closure:
 ```
  function myFunction(){
     let first_name = "mustafa";
@@ -115,7 +115,7 @@ myFunction()
 // output: hello mustafa ashraf
 ```
 
-The variable first_name is accessible inside the function named innerFunc but the parent function cannot have access to the last_name variable. This behavior lets the programmers create private variables in the scope chain. 
+The variable first_name is accessible inside the function named innerFunc but the parent function cannot have access to the last_name variable. This behavior lets programmers create private variables in the scope chain. 
 ## Conclusion
 
 We are ending this JavaScript guide here and hope you have a better understanding of **JavaScript basic concepts**. Moreover, we have also gone through **JavaScript closures, Scopes in JavaScript**, and hoisting. There are many other important concepts that are mandatory for beginners. So, this article will help you if you are thriving to improve or refresh your JavaScript concepts. In addition, you may go through the blog posts mentioned in the "See Also" section.
