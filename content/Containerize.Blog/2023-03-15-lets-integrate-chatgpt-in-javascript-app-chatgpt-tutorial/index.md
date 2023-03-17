@@ -16,7 +16,7 @@ categories: [ 'Artificial intelligence']
 {{< figure align=center src="images/lets-integrate-chatgpt-in-javascript-app-chatgpt-tutorial.png" alt="Integrate ChatGPT in JavaScript app">}}
 ## Overview
 
-Hello readers! Thank you so much for your overwhelming response to the blog posts that we published on [ChatGPT][1] integrations. We are here with another useful Chatgpt tutorial following your interest. In addition, we will be in a loop to publish articles beneficial to your academics and career. However, we have started a [series][20] of JavaScript tutorials so it is the best time to write a guide that demonstrates how to **integrate ChatGPT in JavaScript aqpp** programmatically. Further, we will write the code snippet to make this GPT-3 based **viral chatbot** functionality. For this purpose, we will enable ChatGPT functionality in a Node.js app. Therefore, a basic level of prior knowledge of Node.js is a plus while going through this guide. 
+Hello readers! Thank you so much for your overwhelming response to the blog posts that we published on [ChatGPT][1] integrations. We are here with another useful **Chatgpt tutorial** following your interest. In addition, we will be in a loop to publish articles beneficial to your academics and career. However, we have started a [series][20] of JavaScript tutorials so it is the best time to write a guide that demonstrates how to **integrate ChatGPT in JavaScript aqpp** programmatically. Further, we will write the code snippet to make this GPT-3 based **viral chatbot** functionality. For this purpose, we will enable ChatGPT functionality in a Node.js app. Therefore, a basic level of prior knowledge of Node.js is a plus while going through this guide. 
 
 The following sections will be covered in this ChatGPT tutorial:
 
@@ -37,7 +37,7 @@ Please keep your API key in a safe place and that's all for the requirements pha
 
 ## ChatGPT integration with Node.js application {#ChatGPT-integration-with-Node.js-application}
 
-Now, we are all set to integrate ChatGPT in JavaScript app programmatically. First, open the terminal and run the following command:
+Now, we are all set to **integrate ChatGPT in JavaScript app programmatically.** First, open the terminal and run the following command:
 
 ```
 npm i chatgpt
