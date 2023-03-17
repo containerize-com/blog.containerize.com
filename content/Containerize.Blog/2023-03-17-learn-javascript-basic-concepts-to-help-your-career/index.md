@@ -16,7 +16,7 @@ categories: ['Programming']
 {{< figure align=center src="images/Learn-JavaScript-Basic-Concepts-to-Help-Your-Career.png" alt="JavaScript Basic Concepts">}}
 ## Overview
 
-JavaScript is a scripting language used to develop dynamic web-based applications. We use HTML and CSS to build static websites whereas JavaScript is used to add interactivity. In our previous blog post, we covered [Document Object Model][1] and now we will cover some other important **JavaScript basic concepts**. Web developers tend to opt for this scripting language due to its rich features and framework. In addition, you can do development on the front end and back end by learning JavaScript. However, you cannot only develop web apps but also mobile apps. This JavaScript tutorial will help you if you are preparing yourself for an interview session. Nevertheless, this guide is worth reading to add more to your knowledge bucket.
+JavaScript is a scripting language used to develop dynamic web-based applications. We use HTML and CSS to build static websites whereas JavaScript is used to add interactivity. In our previous blog post, we covered [Document Object Model][1] and now we will cover some other important **JavaScript basic concepts**. Web developers tend to opt for this scripting language due to its rich features and frameworks. In addition, you can do development on the front end and back end by learning JavaScript. However, you cannot only develop web apps but also mobile apps. This JavaScript tutorial will help you if you are preparing yourself for an interview session. Nevertheless, this guide is worth reading to add more to your knowledge bucket.
 
 We will cover the following points in this article:
 
