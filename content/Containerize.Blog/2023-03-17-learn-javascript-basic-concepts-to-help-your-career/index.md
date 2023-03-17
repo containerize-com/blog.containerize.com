@@ -58,7 +58,7 @@ let name;
 // Uncaught ReferenceError: Cannot access 'name' before initialization
 
 ```
-The error in the code snippet above occurred. The reason is that we did not initialize while hoisting this variable. Long story short, all declarations are initialized with "undefined" while variables declared with "let" or "const" is not initialized in hoisting. 
+The error in the code snippet above occurred. The reason is that the initialization was not done while hoisting this variable. Long story short, all declarations are initialized with "undefined" while variables declared with "let" or "const" is not initialized in hoisting. 
 
 ## Scopes in JavaScript {#Scopes-in-JavaScript}
 
