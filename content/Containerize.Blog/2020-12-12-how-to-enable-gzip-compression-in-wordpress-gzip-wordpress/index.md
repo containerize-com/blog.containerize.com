@@ -5,7 +5,7 @@ description: "Do you want to enable GZIP compression in WordPress to speed up yo
 date: Sat, 12 Dec 2020 11:51:16 +0000
 author: Assad Mahmood
 summary: Page speed and load times are the key factors for better ranking in search engines. GZIP compression can make it happen and provide a competitive edge.
-url: /blogging/how-to-enable-gzip-compression-in-wordpress-gzip-wordpress/
+url: /how-to-enable-gzip-compression-in-wordpress-gzip-wordpress/
 
 categories: ['Blogging']
 
@@ -142,8 +142,10 @@ Finally, [containerize.com][9] is writing articles on further open source prod
  [12]: https://products.containerize.com/business-intelligence/plausible
  [13]: https://products.containerize.com/blogging/wordpress/
  [14]: https://products.containerize.com/blogging/jekyll/
- [15]: https://blog.containerize.com/2020/12/18/how-to-dockerize-wordpress-with-docker-compose/
+ [15]: https://blog.containerize.com/blogging/how-to-dockerize-wordpress-docker-wordpress/
  [16]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
- [17]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
- [18]: https://blog.containerize.com/2021/01/13/how-to-a-install-plugin-in-wordpress-vanilla-forum/
- [19]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
+ [17]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+
+ [18]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+
+ [19]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/

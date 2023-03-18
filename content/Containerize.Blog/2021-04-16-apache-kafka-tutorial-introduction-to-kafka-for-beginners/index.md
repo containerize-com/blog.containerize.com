@@ -204,5 +204,6 @@ You may find following links relevant:
  [8]: #conclusion
  [9]: mailto:yasir.saeed@aspose.com
  [10]: https://products.containerize.com/message-queue-software/
- [11]: https://blog.containerize.com/2021/04/09/kafka-vs-redis-pub-sub-differences-which-you-should-know/
- [12]: https://blog.containerize.com/2021/03/05/introduction-to-redis-pubsub-and-how-does-it-work/
+ [11]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/
+
+ [12]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/

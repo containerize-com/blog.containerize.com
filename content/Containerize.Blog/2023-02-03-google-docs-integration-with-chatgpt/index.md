@@ -5,7 +5,7 @@ description: "Install an AI-powered GPT-3 model in your Google Docs to automate 
 date: Fri, 03 Feb 2023 21:44:01 +0000
 author: muhammadmustafa
 summary: Are you looking to modernize repetitive actions? Here is an AI-powered OpenAI GPT-3 NLP model that offers a wide range of features for Google Docs automation.
-url: /artificial-intelligence/google-docs-integration-with-chatgpt/
+url: /google-docs-integration-with-chatgpt/
 
 categories: ['Artificial intelligence']
 
@@ -50,9 +50,7 @@ Finally, the OpenAI GPT-3 has been installed in your Google Docs and you can sta
 
 It is time to start using this Google Docs Automation. Fur this purpose, a new tab will be opened by clicking “Extensions->App Script”. Now, copy and paste the following code into the code editor.
 
-<!-- <div class="wp-block-embed__wrapper">
-  https://gist.github.com/mustafabutt-dev/997afd9cc9f7285b055e053ad95ff298
-</div>  -->
+
 
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 
@@ -88,10 +86,12 @@ Please visit this [link][7] to know the steps of Google Docs integration with Ch
   * [What is OpenAI Chatbot GPT-3 | ChatGPT an AI Revolution][1]
   * [What are The Top 5 Open-Source AI Frameworks][16]
 
- [1]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
  [2]: https://www.containerize.com/
  [3]: https://docs.google.com/document/u/0/
- [4]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
+ [4]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+
  [5]: https://openai.com/
  [6]: #How-to-obtain-the-OpenAI-API-key
  [7]: #Lets-do-Google-Docs-Integration-with-ChatGPT
@@ -101,6 +101,8 @@ Please visit this [link][7] to know the steps of Google Docs integration with Ch
  [11]: https://www.linkedin.com/company/containerize/
  [12]: https://twitter.com/containerize_co
  [13]: https://forum.containerize.com/
- [14]: https://blog.containerize.com/2023/02/01/integrate-chatgpt-with-google-sheets/
- [15]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [16]: https://blog.containerize.com/2023/01/27/top-5-open-source-ai-frameworks/
+ [14]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
+
+ [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [16]: https://blog.containerize.com/artificial-intelligence/top-5-open-source-ai-frameworks/

@@ -5,7 +5,7 @@ description: Webmin is a web-based system administration tool for Unix-like syst
 date: Mon, 21 Jun 2021 04:28:34 +0000
 author: Assad Mahmood
 summary: Webmin is a web-based system administration tool that is a simple alternative to command-line system administration. This article guides how to install Webmin
-url: /web-hosting/how-to-install-webmin-with-ssl-on-ubuntu-20-04/
+url: /how-to-install-webmin-with-ssl-on-ubuntu-20-04/
 
 categories: ['Web Hosting']
 
@@ -264,5 +264,6 @@ This article discusses briefly numerous things that Webmin can do, Webmin is one
  [4]: #install
  [5]: #install-apache
  [6]: #conclusion
- [7]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [8]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

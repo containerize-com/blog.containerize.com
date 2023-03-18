@@ -5,7 +5,7 @@ description: Follow this E-commerce guide to learn how to achieve ChatGPT Integr
 date: Thu, 09 Feb 2023 20:02:56 +0000
 author: Fahad Adeel
 summary: "Let's learn how to integrate ChatGPT with a PHP-based E-Commerce website. Automate the personalization process of product recommendations programmatically."
-url: /artificial-intelligence/chatgpt-integration-with-an-e-commerce-website/
+url: /chatgpt-integration-with-an-e-commerce-website/
 
 categories: ['Artificial intelligence']
 
@@ -114,9 +114,12 @@ You can let us know about your questions or queries on our [forum][14].
 
  
 
- [1]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [2]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
- [3]: https://blog.containerize.com/2023/02/01/integrate-chatgpt-with-google-sheets/
+ [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
+ [3]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
+
  [4]: https://www.php.net/
  [5]: #How-to-Integrate-ChatGPT
  [6]: #Store-User-Data
@@ -128,4 +131,4 @@ You can let us know about your questions or queries on our [forum][14].
  [12]: https://www.linkedin.com/company/containerize/
  [13]: https://twitter.com/containerize_co
  [14]: https://forum.containerize.com/
- [15]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
+ [15]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/

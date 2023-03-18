@@ -5,7 +5,7 @@ description: "How To Setup, Encrypt and Secure Nginx with Let's Encrypt on Ubunt
 date: Mon, 19 Apr 2021 06:27:22 +0000
 author: yasir saeed
 summary: Websites include SSL/TLS encryption for its domain to attract visitors. This article explains use of Certbot utility to obtain TLS/SSL certificates for Nginx.
-url: /web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
+url: /how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 
 categories: ['Web Server Solution Stack']
 
@@ -179,8 +179,12 @@ You may find the following relevant links to monitor the server performance and
  [2]: https://www.linkedin.com/company/containerize/
  [3]: http://facebook.com/containerize
  [4]: mailto:yasir.saeed@aspose.com
- [5]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [6]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [7]: https://blog.containerize.com/2021/05/28/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
- [8]: https://blog.containerize.com/2021/05/07/how-to-setup-nginx-with-passenger-on-aws-production-server/
- [9]: https://blog.containerize.com/2021/06/11/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+ [5]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
+
+ [9]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/

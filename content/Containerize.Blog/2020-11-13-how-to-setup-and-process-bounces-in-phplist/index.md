@@ -5,7 +5,7 @@ description: phpList is powerful self-hosted mailing list and newsletter manager
 date: Fri, 13 Nov 2020 17:50:16 +0000
 author: Masood Anwer
 summary: Send campaign with open source newsletter and email marketing software. Setup bounce management in phpList and automate bounce processing for healthy mailing lists.
-url: /newsletter/how-to-setup-and-process-bounces-in-phplist/
+url: /how-to-setup-and-process-bounces-in-phplist/
 
 categories: ['Newsletters']
 
@@ -52,8 +52,10 @@ phpList supports two methods for process bounces: Manual and Automated. You will
 
 In this post, we have learnt how to configure bounce email address and process bounces. You can easily process bounces with manual method, if you have less amount of subscribers. However, you must use automate bounce handling process for large lists. It will save your time and help you to create clean and valid subscriber lists.
 
- [1]: https://blog.containerize.com/2020/10/24/how-to-implement-multi-tenancy-in-phplist/
- [2]: https://blog.containerize.com/2020/10/29/how-to-create-and-send-newsletter-using-phplist/
+ [1]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
+
+ [2]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
+
  [3]: #phplist
  [4]: #bounce
  [5]: #setup

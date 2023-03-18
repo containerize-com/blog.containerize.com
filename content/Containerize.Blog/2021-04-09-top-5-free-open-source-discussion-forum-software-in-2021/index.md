@@ -5,7 +5,7 @@ description: Go through this blog post to learn about the top 5 free open source
 date: Fri, 09 Apr 2021 09:38:33 +0000
 author: muhammadmustafa
 summary: Improve productivity with your team and other collaborators by installing an online discussion forum. These solutions come with diverse plugins and modern UI.
-url: /discussion-forum/top-5-free-open-source-discussion-forum-software-in-2021/
+url: /top-5-free-open-source-discussion-forum-software-in-2021/
 
 categories: ['Discussion Forum']
 
@@ -117,9 +117,11 @@ You may find the following links relevant:
   * [How to Integrate Discourse Forum with WordPress][1]
   * [Automate Business Operations Using Free and Open Source Software][28]
 
- [1]: https://blog.containerize.com/2020/10/14/how-to-integrate-discourse-forum-with-wordpress/
- [2]: https://blog.containerize.com/2020/11/06/how-to-use-discourse-as-a-knowledge-base/
- [3]: https://blog.containerize.com/2021/01/13/A-Beginners-Guide-On-Vanilla-Forum-Integration-With-WordPress/
+ [1]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
+
+ [2]: https://blog.containerize.com/discussion-forum/how-to-use-discourse-as-a-knowledge-base/
+
+ [3]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
  [4]: #Discourse
  [5]: #Flarum
  [6]: #Vanilla
@@ -143,5 +145,5 @@ You may find the following links relevant:
  [24]: https://www.phpbb.com/
  [25]: https://www.containerize.com/
  [26]: https://products.containerize.com/discussion-forum/
- [27]: https://blog.containerize.com/2021/01/13/a-beginners-guide-on-vanilla-forum-wordpress-integration/
- [28]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [27]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+ [28]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

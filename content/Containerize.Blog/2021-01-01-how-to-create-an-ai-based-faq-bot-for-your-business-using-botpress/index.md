@@ -5,7 +5,7 @@ description: "In this blog post, we'll learn how to automate your customer queri
 date: Fri, 01 Jan 2021 12:38:51 +0000
 author: Assad Mahmood
 summary: "Businesses need better customer support platforms to efficiently resolve their queries. In this tutorial, we'll learn how to create an AI-based FAQ bot using Botpress"
-url: /live-chat/how-to-create-an-ai-based-faq-bot-for-your-business-using-botpress/
+url: /how-to-create-an-ai-based-faq-bot-for-your-business-using-botpress/
 
 categories: ['Live Chat']
 

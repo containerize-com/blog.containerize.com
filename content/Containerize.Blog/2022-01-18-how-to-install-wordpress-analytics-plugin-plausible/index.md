@@ -5,7 +5,7 @@ description: Plausible is an open-source Google Analytics alternative with enter
 date: Tue, 18 Jan 2022 06:03:31 +0000
 author: muhammadmustafa
 summary: "Plausible is a business intelligence software that lets you track important business insights and data analytics. Let's learn how to install it on WordPress."
-url: /blogging/how-to-install-wordpress-analytics-plugin-plausible/
+url: /how-to-install-wordpress-analytics-plugin-plausible/
 
 categories: ['Blogging', 'Business Intelligence Software']
 
@@ -76,8 +76,10 @@ You may find the following links relevant.
 
  [1]: https://products.containerize.com/business-intelligence/plausible
  [2]: https://blog.containerize.com/category/business-intelligence-software/
- [3]: https://blog.containerize.com/2021/10/26/how-to-install-matomo-for-wordpress-wordpress-tutorial/
- [4]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
+ [3]: https://blog.containerize.com/blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/
+
+ [4]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+
  [5]: https://analytics.google.com/analytics/web/
  [6]: #What-is-Plausible
  [7]: #Install
@@ -94,6 +96,7 @@ You may find the following links relevant.
  [18]: https://products.containerize.com/blogging/wordpress/
  [19]: https://products.containerize.com/blogging/jekyll/
  [20]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
- [21]: https://blog.containerize.com/2021/01/13/how-to-a-install-plugin-in-wordpress-vanilla-forum/
- [22]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
- [23]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
+ [21]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+
+ [22]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+ [23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/

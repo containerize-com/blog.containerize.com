@@ -5,7 +5,7 @@ description: Lets explore top 5 open-source self-hosted social networking softwa
 date: Wed, 12 Jan 2022 01:37:31 +0000
 author: muhammadmustafa
 summary: 'Build your own social network using open-source social network platforms. Control your data and collaborate with your team members &amp; customers effectively.'
-url: /social-network-platforms/top-5-open-source-social-networking-software-in-2022/
+url: /top-5-open-source-social-networking-software-in-2022/
 
 categories: ['Social Network Platforms']
 
@@ -110,7 +110,8 @@ Finally, [containerize.com][23] is continuously writing blog posts on further 
   * [**Why Your Business Needs A Self Hosted Social Network**][17]
 
  [1]: https://blog.containerize.com/category/social-network-platforms/
- [2]: https://blog.containerize.com/2021/10/07/why-your-business-needs-a-self-hosted-social-network/
+ [2]: https://blog.containerize.com/social-network-platforms/why-your-business-needs-a-self-hosted-social-network/
+
  [3]: #Humhub
  [4]: #Elgg
  [5]: #Diaspora
@@ -137,4 +138,4 @@ Finally, [containerize.com][23] is continuously writing blog posts on further 
  [26]: https://web.facebook.com/containerize
  [27]: https://www.linkedin.com/company/containerize/
  [28]: https://twitter.com/containerize_co
- [29]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [29]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

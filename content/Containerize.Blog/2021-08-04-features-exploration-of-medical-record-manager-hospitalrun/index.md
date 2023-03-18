@@ -5,7 +5,7 @@ description: Follow this guide to getting started with medical record manager Ho
 date: Wed, 04 Aug 2021 18:37:19 +0000
 author: muhammadmustafa
 summary: Hospital management system is an essential part of healthcare establishments. HospitalRun provides data control, access-based roles and revenue management.
-url: /healthcare-software/features-exploration-of-medical-record-manager-hospitalrun/
+url: /features-exploration-of-medical-record-manager-hospitalrun/
 
 categories: ['Healthcare Software']
 
@@ -83,7 +83,7 @@ You may find the following links relevant:
  [1]: https://products.containerize.com/healthcare-technologies/
  [2]: https://www.containerize.com/
  [3]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
- [4]: https://blog.containerize.com/2021/02/26/features-exploration-of-medical-health-solution-openemr/
+ [4]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/
  [5]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
  [6]: https://products.containerize.com/healthcare-technologies/hospitalrun/
  [7]: #why
@@ -97,4 +97,4 @@ You may find the following links relevant:
  [15]: https://products.containerize.com/healthcare-technologies/hospitalrun
  [16]: https://products.containerize.com/healthcare-technologies/open-hospital
  [17]: https://products.containerize.com/healthcare-technologies/solismed
- [18]: https://blog.containerize.com/2021/02/19/how-to-set-up-ehealth-system-hospitalrun-on-localhost/
+ [18]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/

@@ -5,7 +5,7 @@ description: Statping is one of the best website monitoring tools that enables y
 date: Fri, 16 Apr 2021 18:12:12 +0000
 author: Masood Anwer
 summary: Automatically monitor your websites, web applications, APIs with free monitoring tools and showcase services uptime with an open source status page system.
-url: /status-page/how-to-do-web-applications-monitoring-with-statping/
+url: /how-to-do-web-applications-monitoring-with-statping/
 
 categories: ['Status Page']
 
@@ -116,7 +116,8 @@ You may find the following links relevant:
  [4]: #Conclusion
  [5]: https://containerize.com
  [6]: https://blog.containerize.com/category/status-page/
- [7]: https://blog.containerize.com/2020/11/20/top-5-open-source-status-page-software-for-2020/
+ [7]: https://blog.containerize.com/status-page/top-5-open-source-status-page-software-for-2020/
+
  [8]: https://products.containerize.com/status/statping
  [9]: https://products.containerize.com/status/cachet/
  [10]: https://products.containerize.com/status/monitoror/

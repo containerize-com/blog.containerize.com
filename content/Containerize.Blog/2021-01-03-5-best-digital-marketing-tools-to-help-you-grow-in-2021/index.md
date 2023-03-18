@@ -5,7 +5,7 @@ description: SEMRush, Google Analytics, MailChimp, Google Search Console and Men
 date: Sun, 03 Jan 2021 23:50:11 +0000
 author: yasir saeed
 summary: "Most companies use marketing tools to promote &amp; sell their products and services. Let's learn about the top 5 digital marketing tools for businesses in 2021."
-url: /marketing-automation/5-best-digital-marketing-tools-to-help-you-grow-in-2021/
+url: /5-best-digital-marketing-tools-to-help-you-grow-in-2021/
 
 categories: ['Marketing Automation']
 
@@ -100,7 +100,8 @@ You can check out the related articles below to read up on even more.
  [11]: https://mention.com/en/
  [12]: mailto:yasir.saeed@aspose.com
  [13]: https://forum.containerize.com
- [14]: https://blog.containerize.com/2021/05/07/top-5-open-source-marketplace-software-in-2021/
+ [14]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/
+
  [15]: https://products.containerize.com/marketplace/sharetribe/
  [16]: https://products.containerize.com/marketplace/cocorico/
  [17]: https://products.containerize.com/marketplace/edurge/

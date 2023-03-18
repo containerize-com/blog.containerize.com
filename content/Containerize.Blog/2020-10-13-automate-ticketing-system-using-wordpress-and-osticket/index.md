@@ -5,7 +5,7 @@ description: osTicket-WordPress integration provides a way for customers to gene
 date: Tue, 13 Oct 2020 07:58:41 +0000
 author: bilalahmed
 summary: Automate the helpdesk process with seamless WordPress and osTicket integration. Transform customers’ inquires through web-based forms into support tickets.
-url: /blogging/automate-ticketing-system-using-wordpress-and-osticket/
+url: /automate-ticketing-system-using-wordpress-and-osticket/
 
 categories: ['Blogging', 'Help Desk']
 
@@ -82,4 +82,4 @@ To learn more about osTicket and WordPress please check out these pages:
  [6]: https://href.li/?http://your.domain/api/tickets.json
  [7]: https://href.li/?https://products.containerize.com/helpdesk/osticket
  [8]: https://href.li/?https://products.containerize.com/blogging/wordpress
- [9]: https://blog.containerize.com/2020/12/25/how-to-set-up-help-desk-system-using-osticket/
+ [9]: https://blog.containerize.com/helpdesk/how-to-set-up-help-desk-system-using-osticket/

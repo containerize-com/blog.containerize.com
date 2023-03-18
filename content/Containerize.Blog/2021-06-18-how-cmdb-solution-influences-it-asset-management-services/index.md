@@ -5,7 +5,7 @@ description: Follow this blog post to learn the importance of open source IT ass
 date: Fri, 18 Jun 2021 08:03:01 +0000
 author: muhammadmustafa
 summary: CMDB solution provides better IT asset inventory management and operational benefits. Organizations tend to install it for a competitive edge and efficiency.
-url: /cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
+url: /how-cmdb-solution-influences-it-asset-management-services/
 
 categories: ['CMDB Software']
 
@@ -114,7 +114,8 @@ Finally, [**containerize.com**][16] is writing articles on further open source
  [1]: https://products.containerize.com/cmdb-software/
  [2]: https://products.containerize.com/cmdb-software/ralph/
  [3]: https://products.containerize.com/cmdb-software/snipe-it/
- [4]: https://blog.containerize.com/2021/06/11/how-to-set-up-cmdb-solution-ralph-on-localhost/
+ [4]: https://blog.containerize.com/cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
+
  [5]: #what
  [6]: #top
  [7]: #impact
@@ -128,5 +129,6 @@ Finally, [**containerize.com**][16] is writing articles on further open source
  [15]: https://blog.containerize.com/wp-admin/post.php?post=5864&action=edit#app
  [16]: https://www.containerize.com/
  [17]: https://products.containerize.com/single-sign-on/
- [18]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [19]: https://blog.containerize.com/2021/04/09/software-development-trends-to-look-out-for-in-2021/
+ [18]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [19]: https://blog.containerize.com/blockchain-platforms/software-development-trends-to-look-out-for-in-2021/

@@ -5,7 +5,7 @@ description: Check this blog post to learn about the top open-source video confe
 date: Fri, 22 Jan 2021 07:18:13 +0000
 author: muhammadmustafa
 summary: Video collaboration software helps people to conduct video meetings. It has enabled many businesses to operate freely from anywhere with complete security.
-url: /video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
+url: /top-5-open-source-video-conferencing-software-of-2021/
 
 categories: ['Video Conferencing Software']
 
@@ -115,8 +115,9 @@ You may find the following links relevant:
   * [A Step By Step Guide To Set up Open Source Jitsi Meet][2]
   * [How Free Video Conferencing Solutions Benefit Your Business][28]
 
- [1]: https://blog.containerize.com/2020/11/13/how-video-conferencing-software-can-benefit-your-business/
- [2]: https://blog.containerize.com/2020/11/19/how-to-set-up-open-source-jitsi-meet/
+ [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
+ [2]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/
+
  [3]: #jitsi
  [4]: #big
  [5]: #open
@@ -142,4 +143,4 @@ You may find the following links relevant:
  [25]: https://app.wire.com/
  [26]: https://www.containerize.com/
  [27]: https://products.containerize.com/video-conferencing/
- [28]: https://blog.containerize.com/2020/11/13/how-free-video-conferencing-solution-benefits-your-business/
+ [28]: https://blog.containerize.com/

@@ -5,7 +5,7 @@ description: Open source message queue software is used to handle a variety of t
 date: Fri, 09 Jul 2021 23:53:06 +0000
 author: yasir saeed
 summary: Message queue (MQ) software is used to handle asynchronous communication. The queue provides asynchronous protocols to allow data communications within a system.
-url: /message-queue-software/top-5-open-source-message-queue-software-in-2021/
+url: /top-5-open-source-message-queue-software-in-2021/
 
 categories: ['Message Queue Software']
 
@@ -99,6 +99,8 @@ We also have several other articles relating to the day-to-day management of you
  [9]: mailto:yasir.saeed@aspose.com
  [10]: https://products.containerize.com/message-queue-software/resque/
  [11]: https://products.containerize.com/message-queue-software/sidekiq/
- [12]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [13]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [14]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
+ [12]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [13]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [14]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/

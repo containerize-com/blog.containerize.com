@@ -5,7 +5,7 @@ description: The LEMP Stack is a software stack that is used to develop and depl
 date: Sat, 26 Jun 2021 00:05:53 +0000
 author: Masood Anwer
 summary: 'Install &amp; configure LEMP Stack for developing and deploying web applications. This guide will assist you to install Nginx, MySQL, and PHP on Ubuntu 18.04.'
-url: /web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
+url: /setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
 
 categories: ['Web Server Solution Stack']
 
@@ -237,9 +237,13 @@ You may find the following links relevant:
  [5]: https://containerize.com
  [6]: https://blog.containerize.com/category/web-server-solution-stack/
  [7]: https://products.containerize.com/solution-stack/
- [8]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
- [9]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
+ [8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+
+ [9]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
  [10]: https://products.containerize.com/backup-and-sync/
- [11]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [12]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [13]: https://blog.containerize.com/2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [12]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [13]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

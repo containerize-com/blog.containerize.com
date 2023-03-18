@@ -5,7 +5,7 @@ description: "Open-source shopping cart software enables you to set up a low-cos
 date: Fri, 27 Nov 2020 14:05:20 +0000
 author: yasir saeed
 summary: Build an online store with the popular best open-source eCommerce platform. We have compiled a list of the top 5 open-source shopping cart software of 2021.
-url: /shopping-cart-software/top-5-open-source-shopping-cart-software-in-2021/
+url: /top-5-open-source-shopping-cart-software-in-2021/
 
 categories: ['Shopping Cart Software']
 

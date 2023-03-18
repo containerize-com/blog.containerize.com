@@ -5,7 +5,7 @@ description: 'Highly advanced self-hosted open-source animation software to gene
 date: Mon, 14 Feb 2022 08:29:49 +0000
 author: muhammadmustafa
 summary: "Generate smooth &amp; appealing animations using 2D, 3D graphics. Let's explore widely used open-source animation tools OpenToonz, Krita and compare their features."
-url: /animation-software/opentoonz-vs-krita-open-source-animation-software/
+url: /opentoonz-vs-krita-open-source-animation-software/
 
 categories: ['Animation Software']
 
@@ -81,8 +81,10 @@ You can find the following links relevant.
 ##
 
  [1]: https://blog.containerize.com/category/animation-software/
- [2]: https://blog.containerize.com/2021/09/21/synfig-vs-pencil2d-animation-software-synfig-review/
- [3]: https://blog.containerize.com/2021/07/04/top-5-open-source-animation-software-in-2021/
+ [2]: https://blog.containerize.com/animation-software/synfig-vs-pencil2d-animation-software-synfig-review/
+
+ [3]: https://blog.containerize.com/animation-software/top-5-open-source-animation-software-in-2021/
+
  [4]: #krita
  [5]: #toonz
  [6]: #vs
@@ -96,6 +98,8 @@ You can find the following links relevant.
  [14]: https://web.facebook.com/containerize
  [15]: https://www.linkedin.com/company/containerize/
  [16]: https://twitter.com/containerize_co
- [17]: https://blog.containerize.com/2021/06/29/synfig-tutorial-an-open-source-2d-animation-software/
- [18]: https://blog.containerize.com/2021/06/21/how-to-create-animations-with-pencil2d-animation-software/
- [19]: https://blog.containerize.com/2021/05/28/beginners-guide-to-start-free-image-editing-using-digikam/
+ [17]: https://blog.containerize.com/animation-software/synfig-tutorial-an-open-source-2d-animation-software/
+
+ [18]: https://blog.containerize.com/animation-software/how-to-create-animations-with-pencil2d-animation-software/
+
+ [19]: https://blog.containerize.com/animation-software/beginners-guide-to-start-free-image-editing-using-digikam/

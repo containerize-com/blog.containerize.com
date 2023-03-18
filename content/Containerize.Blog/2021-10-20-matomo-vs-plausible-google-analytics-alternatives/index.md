@@ -5,7 +5,7 @@ description: This blog post draws a comparison between two open-source BI tools 
 date: Wed, 20 Oct 2021 08:57:29 +0000
 author: muhammadmustafa
 summary: Fetch conclusive insights of your business website using open-source BI tools. These solutions are compliant with GDPR, PECR, and offer powerful features.
-url: /business-intelligence-software/matomo-vs-plausible-google-analytics-alternatives/
+url: /matomo-vs-plausible-google-analytics-alternatives/
 
 categories: ['Business Intelligence Software']
 
@@ -95,6 +95,8 @@ Finally, [containerize.com][10] is writing articles on further open source pro
  [14]: https://products.containerize.com/business-intelligence/hypercable
  [15]: https://products.containerize.com/business-intelligence/posthog
  [16]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
- [17]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
- [18]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [17]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+
+ [18]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

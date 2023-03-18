@@ -5,7 +5,7 @@ description: Messaging queue platform offers a way to communicate asynchronously
 date: Sat, 17 Jul 2021 03:54:59 +0000
 author: yasir saeed
 summary: Messaging queue platform offers a way to communicate asynchronously while improving performance and scalability. This article is about NSQ and Kafka comparison.
-url: /backup-and-sync-software/nsq-vs-kafka-what-are-the-key-differences/
+url: /nsq-vs-kafka-what-are-the-key-differences/
 
 categories: ['Backup and Sync Software']
 
@@ -92,6 +92,8 @@ We also have several other articles relating to the day-to-day management of you
  [6]: mailto:yasir.saeed@aspose.com
  [7]: https://products.containerize.com/message-queue-software/resque/
  [8]: https://products.containerize.com/message-queue-software/sidekiq/
- [9]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [10]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [11]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
+ [9]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [10]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/

@@ -5,7 +5,7 @@ description: 'Send emails from your web apps with the open source mail server. P
 date: Fri, 18 Jun 2021 12:00:53 +0000
 author: Masood Anwer
 summary: Send and receive emails with an open source mail server. This article will assist you in installing and configuring the Postal mail server for your company.
-url: /transactional-email/how-to-setup-mail-server-using-postal-on-ubuntu/
+url: /how-to-setup-mail-server-using-postal-on-ubuntu/
 
 categories: ['Transactional Email']
 
@@ -483,4 +483,4 @@ You may find the following links relevant:
  [7]: https://containerize.com
  [8]: https://blog.containerize.com/category/transactional-email/
  [9]: https://products.containerize.com/transactional-email/
- [10]: https://blog.containerize.com/2020/10/02/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
+ [10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/

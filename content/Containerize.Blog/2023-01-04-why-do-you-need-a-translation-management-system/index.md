@@ -5,7 +5,7 @@ description: "Automate globalization and localization to maximize the reach of y
 date: Wed, 04 Jan 2023 13:14:13 +0000
 author: muhammadmustafa
 summary: Get rid of old-school translation practices and install an open-source translation management system to add localization to your business application.
-url: /software-development/why-do-you-need-a-translation-management-system/
+url: /why-do-you-need-a-translation-management-system/
 
 categories: ['Software Development']
 
@@ -119,4 +119,4 @@ Please visit this [link][4] to know the advantages of a translation management s
  [8]: https://blog.containerize.com/category/version-control-software/
  [9]: https://blog.containerize.com/category/marketing-automation/
  [10]: https://blog.containerize.com/category/deployment-tools/
- [11]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [11]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

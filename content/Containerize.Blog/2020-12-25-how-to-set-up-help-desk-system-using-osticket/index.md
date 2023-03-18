@@ -5,7 +5,7 @@ description: Manage all your support requests in one place using osTicket Help D
 date: Fri, 25 Dec 2020 05:46:51 +0000
 author: bilalahmed
 summary: Manage all your support requests in one place using osTicket. Convert inquiries created via email, phone and forms into simple web-based tickets.
-url: /helpdesk/how-to-set-up-help-desk-system-using-osticket/
+url: /how-to-set-up-help-desk-system-using-osticket/
 
 categories: ['Help Desk']
 
@@ -217,6 +217,7 @@ osTicket is best suited for companies with low budget or the ones who want a sim
  [4]: #conclusion
  [5]: https://products.containerize.com/helpdesk/
  [6]: https://products.containerize.com/helpdesk/osticket
- [7]: https://blog.containerize.com/2021/01/01/a-beginner%e2%80%99s-guide-to-develop-osticket%e2%80%99s-plugin/
- [8]: https://blog.containerize.com/2020/11/02/how-to-implement-multi-tenancy-in-osticket/
- [9]: https://blog.containerize.com/2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
+ [7]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
+ [8]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
+
+ [9]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

@@ -5,7 +5,7 @@ description: Boost productivity by incorporating the best open source CI/CD tool
 date: Fri, 12 Mar 2021 18:53:10 +0000
 author: Masood Anwer
 summary: Automate software building, testing, and deployment workflows with free deployment tools. We have compiled a list of top 5 open source deployment software.
-url: /deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+url: /top-5-open-source-deployment-tools-in-the-year-2021/
 
 categories: ['Deployment Tools']
 

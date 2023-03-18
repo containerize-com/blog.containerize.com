@@ -5,7 +5,7 @@ description: This article is about a comparison of the two leading free CMS soft
 date: Wed, 03 Nov 2021 18:12:43 +0000
 author: muhammadmustafa
 summary: 'Drupal &amp; Joomla come with a stack of plugins and extensions to manage and publish enterprise-level web content. Let’s compare these open source CMS software.'
-url: /content-management/joomla-vs-drupal-cms-comparison-in-2021/
+url: /joomla-vs-drupal-cms-comparison-in-2021/
 
 categories: ['Content Management']
 
@@ -84,8 +84,10 @@ Finally, **[containerize.com][11]** has been writing on further open source pr
   * [Drupal Mautic Integration To Automate Lead Nurturing][21]
   * [Top 5 Free Responsive Joomla Bootstrap Templates Of 2020][22]
 
- [1]: https://blog.containerize.com/2020/09/29/responsive-joomla-templates-tutorial/
- [2]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [1]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
+
+ [2]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
+
  [3]: https://products.containerize.com/content-management/joomla
  [4]: https://products.containerize.com/content-management/drupal
  [5]: #joomla
@@ -103,6 +105,6 @@ Finally, **[containerize.com][11]** has been writing on further open source pr
  [17]: https://products.containerize.com/content-management/django
  [18]: https://products.containerize.com/content-management/umbraco
  [19]: https://products.containerize.com/content-management/concrete5
- [20]: https://blog.containerize.com/2020/10/16/how-to-create-joomla-theme-with-gantry-framework/
- [21]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [22]: https://blog.containerize.com/2020/10/09/top-5-best-free-responsive-joomla-templates-of-2020/
+ [20]: https://blog.containerize.com/content-management/how-to-create-joomla-theme-joomla-gantry-framework/
+ [21]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [22]: https://blog.containerize.com/content-management/top-5-best-free-responsive-joomla-templates-of-2020/

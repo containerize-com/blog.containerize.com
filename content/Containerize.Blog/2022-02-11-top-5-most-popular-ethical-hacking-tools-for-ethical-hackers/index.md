@@ -4,7 +4,7 @@ seoTitle: Top 5 Most Popular Ethical Hacking Tools For Ethical Hackers
 date: Fri, 11 Feb 2022 10:46:28 +0000
 author: yasir saeed
 summary: Hacking Tools are computer programs and scripts that help you find and exploit weaknesses in computer systems, web applications, servers and networks.
-url: /digital-forensic-tools/top-5-most-popular-ethical-hacking-tools-for-ethical-hackers/
+url: /top-5-most-popular-ethical-hacking-tools-for-ethical-hackers/
 
 categories: ['Digital Forensic Tools']
 
@@ -133,4 +133,4 @@ You may find the more related below articles:
  [8]: https://products.containerize.com/marketplace/cocorico/
  [9]: https://products.containerize.com/marketplace/edurge/
  [10]: https://products.containerize.com/marketplace/
- [11]: https://blog.containerize.com/2021/06/25/top-5-open-source-cloud-storage-software-in-2021/
+ [11]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/

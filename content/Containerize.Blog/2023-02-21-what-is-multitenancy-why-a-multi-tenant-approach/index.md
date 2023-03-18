@@ -5,7 +5,7 @@ description: What is Multitenancy? Follow this blog post to learn the actual con
 date: Tue, 21 Feb 2023 20:10:22 +0000
 author: muhammadmustafa
 summary: "Design a multi-tenant application architecture and meet your user's requirements efficiently. Let's explore how multitenancy lets you build scalable software."
-url: /programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
+url: /what-is-multitenancy-why-a-multi-tenant-approach-2/
 
 categories: ['Programming']
 
@@ -109,8 +109,12 @@ A **multi-tenant application architecture** means a single instance of a server 
  [11]: https://www.linkedin.com/company/containerize/
  [12]: https://twitter.com/containerize_co
  [13]: https://forum.containerize.com/
- [14]: https://blog.containerize.com/2023/02/14/what-is-generative-ai-generative-artificial-intelligence/
- [15]: https://blog.containerize.com/2023/02/01/integrate-chatgpt-with-google-sheets/
- [16]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [17]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
- [18]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
+ [14]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
+
+ [15]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
+
+ [16]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [17]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
+ [18]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/

@@ -5,7 +5,7 @@ description: What is NFT? This article talks about non-fungible tokens. An NFT i
 date: Tue, 23 Nov 2021 14:37:01 +0000
 author: muhammadmustafa
 summary: NFT stands for non-fungible token. NFT represents a digital entity, that is cryptographically unique, non-interchangeable such as drawing, video, or anything.
-url: /blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
+url: /what-is-nft-non-fungible-tokens-explained/
 
 categories: ['Blockchain Platforms']
 
@@ -76,8 +76,9 @@ You may find the following links relevant:
   * [How To Setup ConsenSys Quorum Blockchain Network Locally][19]
 
  [1]: https://products.containerize.com/blockchain-platforms/
- [2]: https://blog.containerize.com/2021/11/17/top-5-free-open-source-crypto-wallets-in-2021/
- [3]: https://blog.containerize.com/2020/12/23/how-to-set-up-ethereum-node-on-localhost-beginners-guide/
+ [2]: https://blog.containerize.com/blockchain-platforms/top-5-free-open-source-crypto-wallets-in-2021/
+
+ [3]: https://blog.containerize.com/blockchain-platforms/what-is-testnet-how-to-deploy-it-ethereum-testnet/
  [4]: #What-is-NFT
  [5]: #NFT-and-Distributed-Ledger-Bockchain
  [6]: #Crypto-and-NFT
@@ -93,7 +94,10 @@ You may find the following links relevant:
  [16]: https://products.containerize.com/blockchain-platforms/ripple
  [17]: https://products.containerize.com/blockchain-platforms/multichain
  [18]: https://products.containerize.com/blockchain-platforms/consensys-quorum
- [19]: https://blog.containerize.com/2021/04/30/how-to-setup-consensys-quorum-blockchain-network-locally/
- [20]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
- [21]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [19]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+
+ [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
+ [21]: https://blog.containerize.com/
+
  [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

@@ -5,7 +5,7 @@ description: 'Open-source database management systems manage storage and provide
 date: Fri, 12 Feb 2021 06:48:04 +0000
 author: bilalahmed
 summary: Open-source DBMS software have gained maturity and popularity to the enterprise level. They are flexible, offer robustness, efficiency, and data integrity.
-url: /database-management-software/top-5-open-source-database-management-systems-in-2022/
+url: /top-5-open-source-database-management-systems-in-2022/
 
 categories: ['Database Management Software']
 
@@ -140,4 +140,4 @@ You may find the following links relevant:
  [20]: https://www.linkedin.com/company/containerize/
  [21]: https://twitter.com/containerize_co
  [22]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
- [23]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [23]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/

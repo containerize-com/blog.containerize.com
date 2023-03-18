@@ -5,7 +5,7 @@ description: Follow this guide to learn about the top 5 open-source content mana
 date: Mon, 12 Oct 2020 09:46:24 +0000
 author: Assad Mahmood
 summary: Open-source CMS platforms provide many plugins and templates to meet your business website needs. Let’s explore the most widely used self-hosted CMS software.
-url: /content-management/top-5-open-source-content-management-systems-for-2020/
+url: /top-5-open-source-content-management-systems-for-2020/
 
 categories: ['Content Management']
 
@@ -134,8 +134,10 @@ Further, [containerize.com][11] is continuously working to enhance the list of
  [12]: https://products.containerize.com/content-management/
  [13]: https://products.containerize.com/rad
  [14]: https://products.containerize.com/content-management/concrete5
- [15]: https://blog.containerize.com/2020/09/29/responsive-joomla-templates-tutorial/
- [16]: https://blog.containerize.com/2020/10/16/how-to-create-joomla-theme-with-gantry-framework/
- [17]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [18]: https://blog.containerize.com/2020/10/09/top-5-best-free-responsive-joomla-templates-of-2020/
- [19]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [15]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
+
+ [16]: https://blog.containerize.com/content-management/how-to-create-joomla-theme-joomla-gantry-framework/
+ [17]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [18]: https://blog.containerize.com/content-management/top-5-best-free-responsive-joomla-templates-of-2020/
+
+ [19]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

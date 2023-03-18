@@ -5,7 +5,7 @@ description: Minor change in Meta DescriptionFollow this blog post to learn abou
 date: Mon, 05 Oct 2020 11:28:14 +0000
 author: Assad Mahmood
 summary: Open source chat apps help teams to collaborate with each other in real time. These can be used for lead generation, customer support, and team communication.
-url: /live-chat/top-5-free-customer-support-chat-software-for-website/
+url: /top-5-free-customer-support-chat-software-for-website/
 
 categories: ['Live Chat']
 
@@ -123,8 +123,11 @@ Finally, [**containerize.com**][11] is writing articles on further open source
  [10]: https://products.containerize.com/live-chat/botpress
  [11]: https://www.containerize.com/
  [12]: https://products.containerize.com/live-chat/
- [13]: https://blog.containerize.com/2021/01/01/how-to-create-an-ai-based-faq-bot-for-your-business-using-botpress/
- [14]: https://blog.containerize.com/2020/12/24/how-to-setup-live-chat-support-on-your-website-using-rocket.chat/
- [15]: https://blog.containerize.com/2020/10/15/instantly-communicate-with-customers-using-wordpress-and-rocket.chat/
- [16]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [17]: https://blog.containerize.com/2020/10/25/how-to-create-and-run-a-bot-in-rocket.chat-using-botpress/
+ [13]: https://blog.containerize.com/live-chat/how-to-create-an-ai-based-faq-bot-for-your-business-using-botpress/
+
+ [14]: https://blog.containerize.com/live-chat/how-to-setup-live-chat-software-on-website-rocket-chat/
+ [15]: https://blog.containerize.com/blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
+
+ [16]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [17]: https://blog.containerize.com/live-chat/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/

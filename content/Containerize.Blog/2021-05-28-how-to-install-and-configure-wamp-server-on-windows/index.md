@@ -5,7 +5,7 @@ description: Install WampServer on windows and quickly start developing PHP-base
 date: Fri, 28 May 2021 15:30:40 +0000
 author: Masood Anwer
 summary: Setup a web development environment for creating web applications with Apache2, PHP, and MySQL. This article helps you to install WAMP Server on windows.
-url: /web-server-solution-stack/how-to-install-and-configure-wamp-server-on-windows/
+url: /how-to-install-and-configure-wamp-server-on-windows/
 
 categories: ['Web Server Solution Stack']
 
@@ -90,4 +90,4 @@ You may find the following links relevant:
  [5]: https://containerize.com
  [6]: https://blog.containerize.com/category/web-server-solution-stack/
  [7]: https://products.containerize.com/solution-stack/
- [8]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [8]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/

@@ -5,7 +5,7 @@ description: 'How to develop a video game? Superpowers is an open-source HTML5 g
 date: Wed, 19 May 2021 20:28:01 +0000
 author: muhammadmustafa
 summary: 'Free video game design software for video game development with an offline mode. Self-host it, create animated 2D &amp; 3D games with sound effects and fonts.'
-url: /game-development-software/how-to-develop-a-video-game-using-open-sopurce-superpowers/
+url: /how-to-develop-a-video-game-using-open-sopurce-superpowers/
 
 categories: ['Game Development Software']
 
@@ -152,9 +152,12 @@ You may find the following links relevant:
  [15]: https://products.containerize.com/game-development-software/godot/
  [16]: https://products.containerize.com/game-development-software/cocos-creator/
  [17]: https://products.containerize.com/game-development-software/panda3d/
- [18]: https://blog.containerize.com/2021/06/04/superpowers-animation-getting-started-with-game-development/
- [19]: https://blog.containerize.com/2021/05/28/game-development-tutorial-player-movement-in-gdevelop/
- [20]: https://blog.containerize.com/2021/08/25/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
- [21]: https://blog.containerize.com/2021/05/07/how-global-gaming-industry-leveraging-open-source-software/
- [22]: https://blog.containerize.com/2021/05/05/gdevelop-tutorial-for-beginners-to-start-game-development/
- [23]: https://blog.containerize.com/2021/06/30/top-5-free-game-development-software-in-the-year-2021/
+ [18]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
+
+ [19]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+
+ [20]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
+
+ [21]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
+ [22]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+ [23]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/

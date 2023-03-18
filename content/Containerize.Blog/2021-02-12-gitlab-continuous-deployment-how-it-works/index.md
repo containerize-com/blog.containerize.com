@@ -5,7 +5,7 @@ description: "In this tutorial, we'll build a continuous deployment pipeline wit
 date: Fri, 12 Feb 2021 12:51:28 +0000
 author: Assad Mahmood
 summary: 'Automated Deployment streamlines your workflow &amp; processes. This GitLab tutorial helps you learn to set up a continuous deployment pipeline using GitLab CI/CD.'
-url: /version-control-software/gitlab-continuous-deployment-how-it-works/
+url: /gitlab-continuous-deployment-how-it-works/
 
 categories: ['Version Control Software']
 
@@ -144,7 +144,8 @@ You may find the following links relevant:
   * [Automate Business Operations Using Free and Open Source Software][19]
 
  [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
- [2]: https://blog.containerize.com/2021/02/04/understand-and-learn-branches-and-pull-requests-in-git/
+ [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
+
  [3]: #cicd
  [4]: #runner
  [5]: #yml
@@ -158,7 +159,9 @@ You may find the following links relevant:
  [13]: https://web.facebook.com/containerize
  [14]: https://www.linkedin.com/company/containerize/
  [15]: https://twitter.com/containerize_co
- [16]: https://blog.containerize.com/2021/02/19/automate-software-development-workflows-with-github-actions/
- [17]: https://blog.containerize.com/2021/01/08/source-code-management-software-what-is-git/
- [18]: https://blog.containerize.com/2020/12/11/top-5-open-source-version-control-systems-in-2021/
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [16]: https://blog.containerize.com/version-control-software/github-actions-tutorial-automate-your-first-workflow/
+ [17]: https://blog.containerize.com/version-control-software/source-code-management-software-what-is-git/
+
+ [18]: https://blog.containerize.com/version-control-software/top-5-open-source-version-control-systems-in-2021/
+
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

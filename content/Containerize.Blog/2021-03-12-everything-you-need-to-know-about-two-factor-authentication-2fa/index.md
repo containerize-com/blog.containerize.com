@@ -5,7 +5,7 @@ description: This article explains two-factor (2FA) authentication in detail and
 date: Fri, 12 Mar 2021 13:14:33 +0000
 author: Hammad Abbasi
 summary: 'This article explains two-factor authentication in detail and how to It can be implemented in .NET 5 using Identity Frameworks like IdentityServer4 and an SMS Provider (Twilio).&nbsp;'
-url: /single-sign-on/everything-you-need-to-know-about-two-factor-authentication-2fa/
+url: /everything-you-need-to-know-about-two-factor-authentication-2fa/
 
 categories: ['Single Sign-On']
 

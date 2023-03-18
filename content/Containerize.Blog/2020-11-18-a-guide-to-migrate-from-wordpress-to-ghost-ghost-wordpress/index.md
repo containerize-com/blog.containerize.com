@@ -5,7 +5,7 @@ description: "This tutorial is about how to migrate from WordPress to Ghost. We'
 date: Wed, 18 Nov 2020 10:07:06 +0000
 author: Assad Mahmood
 summary: Ghost and WordPress are two leading open-source content publishing platforms. In this tutorial, we will learn how to migrate content from WordPress to Ghost.
-url: /blogging/a-guide-to-migrate-from-wordpress-to-ghost-ghost-wordpress/
+url: /a-guide-to-migrate-from-wordpress-to-ghost-ghost-wordpress/
 
 categories: ['Blogging']
 
@@ -99,8 +99,9 @@ You may find the following links relevant:
   * [Increase Website Search Traffic by Following Top 7 SEO Blogs][18]
   * [How to Build Your Website with WordPress and Gatsby][19]
 
- [1]: https://blog.containerize.com/2020/10/13/boost-your-leads-with-civicrm-wordpress-integration/
- [2]: https://blog.containerize.com/2020/10/14/how-to-integrate-discourse-forum-with-wordpress/
+ [1]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+ [2]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
+
  [3]: #wp
  [4]: #ghost
  [5]: #requirements
@@ -113,8 +114,10 @@ You may find the following links relevant:
  [12]: https://blog.containerize.com/
  [13]: https://products.containerize.com/blogging/jekyll/
  [14]: https://products.containerize.com/discussion-forum/discourse/
- [15]: https://blog.containerize.com/2020/12/18/how-to-dockerize-wordpress-with-docker-compose/
- [16]: https://blog.containerize.com/2020/12/12/how-to-enable-gzip-compression-in-wordpress-for-better-speed/
- [17]: https://blog.containerize.com/2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
- [18]: https://blog.containerize.com/2021/01/17/increase-website-search-traffic-by-following-top-7-seo-blogs/
- [19]: https://blog.containerize.com/2020/11/25/how-to-build-your-website-with-wordpress-and-gatsby/
+ [15]: https://blog.containerize.com/blogging/how-to-dockerize-wordpress-docker-wordpress/
+ [16]: https://blog.containerize.com/blogging/how-to-enable-gzip-compression-in-wordpress-gzip-wordpress/
+ [17]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+ [18]: https://blog.containerize.com/blogging/increase-website-search-traffic-by-following-top-7-seo-blogs/
+
+ [19]: https://blog.containerize.com/blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/

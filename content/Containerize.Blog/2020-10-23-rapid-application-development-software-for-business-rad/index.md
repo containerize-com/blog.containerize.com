@@ -5,7 +5,7 @@ description: Learn how you can grow your business using rapid application develo
 date: Fri, 23 Oct 2020 07:40:20 +0000
 author: muhammadmustafa
 summary: Boost up your business with open source RAD software. RAD provides a framework to lower development costs, faster delivery, fewer errors, and happier clients.
-url: /rapid-application-development/rapid-application-development-software-for-business-rad/
+url: /rapid-application-development-software-for-business-rad/
 
 categories: ['Rapid Application Development']
 
@@ -88,7 +88,8 @@ You may find the following links relevant:
   * [Jhipster Tutorial To Setup And Create The First Application][3]
 
  [1]: https://products.containerize.com/rad
- [2]: https://blog.containerize.com/2021/04/16/top-5-free-rapid-application-development-software-in-2021/
+ [2]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
+
  [3]: https://blog.containerize.com/2020/10/28/jhipster-tutorial-to-setup-and-create-the-first-application/
  [4]: https://products.containerize.com/rad/jhipster
  [5]: #rad

@@ -5,7 +5,7 @@ description: Superpowers is an open source 3D game maker with real time collabor
 date: Fri, 04 Jun 2021 11:36:14 +0000
 author: muhammadmustafa
 summary: The behavior and movement of game objects are controlled by animations. In this game development tutorial, we will learn how to animate game characters.
-url: /game-development-software/superpowers-animation-getting-started-with-game-development/
+url: /superpowers-animation-getting-started-with-game-development/
 
 categories: ['Game Development Software']
 
@@ -101,10 +101,11 @@ This is the end of the tutorial in which we learned how to make a game on scratc
   * [Panda3D][17]
   * [PlayCanvas][18]
 
- [1]: https://blog.containerize.com/2021/05/28/game-development-tutorial-player-movement-in-gdevelop/
+ [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+
  [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
- [3]: https://blog.containerize.com/2021/05/07/how-global-gaming-industry-leveraging-open-source-software/
- [4]: https://blog.containerize.com/2021/05/05/gdevelop-tutorial-for-beginners-to-start-game-development/
+ [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
+ [4]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
  [5]: https://products.containerize.com/game-development-software/superpowers/
  [6]: #types
  [7]: #sprites

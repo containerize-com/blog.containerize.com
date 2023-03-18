@@ -5,7 +5,7 @@ description: "ownCloud is open source client-server software for creating file h
 date: Fri, 11 Jun 2021 18:59:44 +0000
 author: yasir saeed
 summary: ownCloud is an open-source collection of client-server software for creating file hosting servers. This tutorial is about how to configure OwnCloud on Ubuntu.
-url: /backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+url: /how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
 
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
@@ -152,8 +152,11 @@ We also have several other articles relating to the day-to-day management of you
  [3]: https://www.linkedin.com/company/containerize/
  [4]: http://facebook.com/containerize
  [5]: mailto:yasir.saeed@aspose.com
- [6]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [7]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [8]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
- [9]: https://blog.containerize.com/2021/05/28/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
- [10]: https://blog.containerize.com/2021/05/07/how-to-setup-nginx-with-passenger-on-aws-production-server/
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
+ [9]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+
+ [10]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

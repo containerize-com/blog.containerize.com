@@ -5,7 +5,7 @@ description: Portainer is a lightweight management UI which allows you to easily
 date: Sat, 13 Nov 2021 03:53:39 +0000
 author: yasir saeed
 summary: Portainer allows you to manage Dockers via the web while Rancher was built to manage Kubernetes everywhere it runs. Let’s compare the two famous Container GUIs.
-url: /devops/portainer-vs-rancher-what-are-the-differences/
+url: /portainer-vs-rancher-what-are-the-differences/
 
 categories: ['DevOps', 'Software Development']
 
@@ -87,8 +87,11 @@ We have several other related articles to handle the day-to-day tasks managemen
  [3]: https://rancher.com/
  [4]: https://github.com/rancher/rancher
  [5]: mailto:yasir.saeed@aspose.com
- [6]: https://blog.containerize.com/2021/10/11/top-5-open-source-container-orchestration-tools-for-devops-in-2021/
+ [6]: https://blog.containerize.com/devops/top-5-open-source-container-orchestration-tools-for-devops-in-2021/
+
  [7]: https://products.containerize.com/backup-and-sync/
- [8]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
- [9]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
- [10]: https://blog.containerize.com/2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+ [8]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
+ [9]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+
+ [10]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

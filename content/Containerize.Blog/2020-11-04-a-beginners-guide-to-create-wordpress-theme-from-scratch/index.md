@@ -5,7 +5,7 @@ description: Learn how to create wordpress theme from scratch painlessly. In thi
 date: Wed, 04 Nov 2020 02:18:25 +0000
 author: Assad Mahmood
 summary: 'Step 5: styles.css File'
-url: /blogging/a-beginners-guide-to-create-wordpress-theme-from-scratch/
+url: /a-beginners-guide-to-create-wordpress-theme-from-scratch/
 
 categories: ['Blogging']
 

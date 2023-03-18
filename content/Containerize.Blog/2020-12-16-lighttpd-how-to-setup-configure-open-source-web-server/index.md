@@ -5,7 +5,7 @@ description: Follow this article to learn how to set up and configure open-sourc
 date: Wed, 16 Dec 2020 12:53:41 +0000
 author: bilalahmed
 summary: Configure a secure, lightweight, and open-source web server. Lighttpd is an enterprise-level free web server and best suited for highly performant websites.
-url: /web-server-solution-stack/lighttpd-how-to-setup-configure-open-source-web-server/
+url: /lighttpd-how-to-setup-configure-open-source-web-server/
 
 categories: ['Web Server Solution Stack']
 
@@ -134,7 +134,8 @@ You may find the following links relevant:
   * [Setup XAMPP and phpMyAdmin as localhost on Windows][2]
 
  [1]: https://products.containerize.com/solution-stack/
- [2]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+
  [3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
  [4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
  [5]: #what

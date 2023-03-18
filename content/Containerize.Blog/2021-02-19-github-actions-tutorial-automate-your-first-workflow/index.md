@@ -5,8 +5,7 @@ description: 'Follow this Github Actions tutorial to explore that how can we use
 date: Fri, 19 Feb 2021 10:21:38 +0000
 author: Assad Mahmood
 summary: 'Github has introduced Github Actions that allow you to set up Continuous Integration &amp; Continuous Deployment using a config file right in your Github repo.'
-url: /version-control-software/github-actions-tutorial-automate-your-first-workflow/
-
+url: /github-actions-tutorial-automate-your-first-workflow/
 categories: ['Version Control Software']
 
 ---
@@ -113,8 +112,9 @@ You may find the following links relevant:
   * [Top 5 Open Source Version Control Systems In 2021][18]
 
  [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
- [2]: https://blog.containerize.com/2021/02/04/understand-and-learn-branches-and-pull-requests-in-git/
- [3]: https://blog.containerize.com/2021/02/12/set-up-a-continuous-deployment-pipeline-with-gitlab-cicd/
+ [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
+
+ [3]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/
  [4]: #cicd
  [5]: #github-actions
  [6]: #yaml
@@ -127,6 +127,8 @@ You may find the following links relevant:
  [13]: https://web.facebook.com/containerize
  [14]: https://www.linkedin.com/company/containerize/
  [15]: https://twitter.com/containerize_co
- [16]: https://blog.containerize.com/2021/02/12/gitlab-continuous-deployment-how-it-works/
- [17]: https://blog.containerize.com/2021/01/08/source-code-management-software-what-is-git/
- [18]: https://blog.containerize.com/2020/12/11/top-5-open-source-version-control-systems-in-2021/
+ [16]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/
+
+ [17]: https://blog.containerize.com/version-control-software/source-code-management-software-what-is-git/
+
+ [18]: https://blog.containerize.com/version-control-software/top-5-open-source-version-control-systems-in-2021/

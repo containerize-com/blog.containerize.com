@@ -5,7 +5,7 @@ description: Follow this tutorial to know about Ralph and its features. Ralph is
 date: Wed, 14 Jul 2021 14:45:20 +0000
 author: muhammadmustafa
 summary: CMDB solution offers a faster resolution of incidents, asset tracking, and change management. It helps automation of IT tasks with security and transparency.
-url: /cmdb-software/ralph-beginners-guide-on-it-asset-management-solution/
+url: /ralph-beginners-guide-on-it-asset-management-solution/
 
 categories: ['CMDB Software']
 
@@ -68,8 +68,10 @@ Finally, [**containerize.com**][8] is writing articles on further open source 
   * [**Automate Business Operations Using Free and Open Source Software**][14]
   * **[Software development trends to look out for in 2021][15]**
 
- [1]: https://blog.containerize.com/2021/06/18/how-cmdb-solution-influences-it-asset-management-services/
- [2]: https://blog.containerize.com/2021/06/11/how-to-set-up-cmdb-solution-ralph-on-localhost/
+ [1]: https://blog.containerize.com/cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
+
+ [2]: https://blog.containerize.com/cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
+
  [3]: https://products.containerize.com/cmdb-software/ralph/
  [4]: #dashboard
  [5]: #office
@@ -81,5 +83,6 @@ Finally, [**containerize.com**][8] is writing articles on further open source 
  [11]: https://products.containerize.com/cmdb-software/cmdbuild/
  [12]: https://products.containerize.com/cmdb-software/foreman/
  [13]: https://products.containerize.com/cmdb-software/itop/
- [14]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [15]: https://blog.containerize.com/2021/04/09/software-development-trends-to-look-out-for-in-2021/
+ [14]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [15]: https://blog.containerize.com/blockchain-platforms/software-development-trends-to-look-out-for-in-2021/

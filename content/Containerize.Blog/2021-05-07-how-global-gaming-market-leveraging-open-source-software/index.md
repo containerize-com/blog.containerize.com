@@ -5,7 +5,7 @@ description: This article is about the impact of open-source software on the glo
 date: Fri, 07 May 2021 11:48:24 +0000
 author: muhammadmustafa
 summary: Open-source software provides rapid evolution of source code with transparency. It is flourishing the game design tools to the highest level of efficiency.
-url: /game-development-software/how-global-gaming-market-leveraging-open-source-software/
+url: /how-global-gaming-market-leveraging-open-source-software/
 
 categories: ['Game Development Software']
 
@@ -87,7 +87,8 @@ Finally, ****[containerize.com][5]**** will publish articles on further open s
  [9]: https://products.containerize.com/game-development-software/superpowers/
  [10]: https://products.containerize.com/game-development-software/cocos-creator/
  [11]: https://products.containerize.com/game-development-software/panda3d/
- [12]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [12]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
  [13]: https://products.containerize.com/content-management/
  [14]: https://products.containerize.com/blogging/
  [15]: https://products.containerize.com/discussion-forum/

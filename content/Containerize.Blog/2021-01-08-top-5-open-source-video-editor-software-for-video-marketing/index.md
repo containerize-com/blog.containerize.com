@@ -5,7 +5,7 @@ description: This blog post introduces you to the top five open source free vide
 date: Fri, 08 Jan 2021 07:17:51 +0000
 author: muhammadmustafa
 summary: Advanced video editing software is an integral part of any growing business to achieve high user engagement, effective video marketing, and buyer motivation.
-url: /video-editing-software/top-5-open-source-video-editor-software-for-video-marketing/
+url: /top-5-open-source-video-editor-software-for-video-marketing/
 
 categories: ['Video Editing Software']
 
@@ -114,7 +114,8 @@ You may find the following links relevant:
   * [Kdenlive][26]
   * [Blender][27]
 
- [1]: https://blog.containerize.com/2020/12/18/how-video-editing-software-improves-business-video-marketing/
+ [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
+
  [2]: https://blog.containerize.com/2020/12/30/a-beginners-guide-to-start-video-editing-with-free-openshot/
  [3]: #openshot
  [4]: #Shotcut

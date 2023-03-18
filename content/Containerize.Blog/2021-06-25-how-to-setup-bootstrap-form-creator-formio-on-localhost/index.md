@@ -5,7 +5,7 @@ description: Go through this article and learn how to set up Formio on localhost
 date: Fri, 25 Jun 2021 10:30:28 +0000
 author: muhammadmustafa
 summary: Build task-specific and customizable forms using a drag and drop HTML form builder. Formio is self-hosted, API driven, provides forms and data management.
-url: /form/how-to-setup-bootstrap-form-creator-formio-on-localhost/
+url: /how-to-setup-bootstrap-form-creator-formio-on-localhost/
 
 categories: ['Form']
 
@@ -136,7 +136,8 @@ Finally, [**containerize.com**][8] is in a consistent process of writing artic
   * [**Top 5 Open Source Online Form Builders in the year 2020**][2]
 
  [1]: https://products.containerize.com/form/formio/
- [2]: https://blog.containerize.com/2020/10/08/top-5-open-source-online-form-builders-in-year-2020/
+ [2]: https://blog.containerize.com/form/top-5-open-source-online-form-builders-in-year-2020/
+
  [3]: #what
  [4]: #localhost
  [5]: #work
@@ -150,4 +151,4 @@ Finally, [**containerize.com**][8] is in a consistent process of writing artic
  [13]: https://products.containerize.com/form/formtools/
  [14]: https://products.containerize.com/form/formbuilder/
  [15]: https://products.containerize.com/form/alpaca/
- [16]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [16]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

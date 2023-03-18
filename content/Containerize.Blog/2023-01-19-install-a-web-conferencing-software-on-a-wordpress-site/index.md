@@ -5,7 +5,7 @@ description: "Follow this guide to learn about an open-source web conferencing s
 date: Thu, 19 Jan 2023 20:06:03 +0000
 author: muhammadmustafa
 summary: Install BigBlueButton plugin on your WordPress-based business website to conduct virtual meetings. It is free, open-source, and offers a wide range of features.
-url: /blogging/install-a-web-conferencing-software-on-a-wordpress-site/
+url: /install-a-web-conferencing-software-on-a-wordpress-site/
 
 categories: ['Blogging', 'Video Conferencing Software']
 
@@ -103,6 +103,8 @@ Follow this [link][5] to learn the installation and setting up process on [WordP
  [18]: https://www.linkedin.com/company/containerize/
  [19]: https://twitter.com/containerize_co
  [20]: https://forum.containerize.com/
- [21]: https://blog.containerize.com/2022/01/05/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
- [22]: https://blog.containerize.com/2021/01/22/top-5-open-source-video-conferencing-software-of-2021/
- [23]: https://blog.containerize.com/2020/11/19/how-to-set-up-open-source-jitsi-meet/
+ [21]: https://blog.containerize.com/blogging/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
+
+ [22]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
+
+ [23]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/

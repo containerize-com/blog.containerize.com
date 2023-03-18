@@ -5,7 +5,7 @@ description: Get familiarize with the phpList plugin architecture and learn how 
 date: Fri, 18 Dec 2020 19:51:33 +0000
 author: Masood Anwer
 summary: phpList plugins allows developers to customize the product and enhance its functionality. In this post, we will learn how to create basic plugin in phpList.
-url: /newsletter/beginners-guide-to-develop-phplist-plugin/
+url: /beginners-guide-to-develop-phplist-plugin/
 
 categories: ['Newsletters']
 
@@ -127,6 +127,8 @@ You may find the following links relevant.
  [10]: https://products.containerize.com/newsletter/listmonk/
  [11]: https://products.containerize.com/newsletter/moonmail/
  [12]: https://products.containerize.com/newsletter/mailman/
- [13]: https://blog.containerize.com/2021/04/23/top-5-open-source-newsletter-software-in-2021/
- [14]: https://blog.containerize.com/2020/10/24/how-to-implement-multi-tenancy-in-phplist/
- [15]: https://blog.containerize.com/2020/10/29/how-to-create-and-send-newsletter-using-phplist/
+ [13]: https://blog.containerize.com/newsletter/top-5-open-source-newsletter-software-in-2021/
+
+ [14]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
+
+ [15]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/

@@ -5,7 +5,7 @@ description: In this blog post, we will discover the most widely used open-sourc
 date: Wed, 17 Nov 2021 10:26:32 +0000
 author: muhammadmustafa
 summary: What is a crypto wallet? Crypto wallet is an integral of a blockchain network. It brings transparency, trust and security into a distributed ledger technology.
-url: /blockchain-platforms/top-5-free-open-source-crypto-wallets-in-2021/
+url: /top-5-free-open-source-crypto-wallets-in-2021/
 
 categories: ['Blockchain Platforms']
 
@@ -113,7 +113,7 @@ You may find the following links relevant:
   * [How To Setup ConsenSys Quorum Blockchain Network Locally][20]
 
  [1]: https://products.containerize.com/blockchain-platforms/
- [2]: https://blog.containerize.com/2020/12/23/how-to-set-up-ethereum-node-on-localhost-beginners-guide/
+ [2]: https://blog.containerize.com/blockchain-platforms/what-is-testnet-how-to-deploy-it-ethereum-testnet/
  [3]: #MyEtherWallet
  [4]: #Copay
  [5]: #Breadwallet
@@ -131,7 +131,10 @@ You may find the following links relevant:
  [17]: https://products.containerize.com/blockchain-platforms/ripple
  [18]: https://products.containerize.com/blockchain-platforms/multichain
  [19]: https://products.containerize.com/blockchain-platforms/consensys-quorum
- [20]: https://blog.containerize.com/2021/04/30/how-to-setup-consensys-quorum-blockchain-network-locally/
- [21]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
- [22]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [20]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+
+ [21]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
+ [22]: https://blog.containerize.com/
+
  [23]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

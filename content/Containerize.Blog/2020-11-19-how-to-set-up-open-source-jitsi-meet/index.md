@@ -5,7 +5,7 @@ description: Learn how to set up Jitsi Meet. It is an open source video conferen
 date: Thu, 19 Nov 2020 09:32:35 +0000
 author: muhammadmustafa
 summary: "Jitsi Meet brings remote people together to conduct effective meetings. Let's learn how to set up this video conferencing software and explore its features"
-url: /video-conferencing-software/how-to-set-up-open-source-jitsi-meet/
+url: /how-to-set-up-open-source-jitsi-meet/
 
 categories: ['Video Conferencing Software']
 
@@ -93,7 +93,7 @@ You may find the following links relevant:
   * [Element][13]
   * [Wire][14]
 
- [1]: https://blog.containerize.com/2020/11/13/how-video-conferencing-software-can-benefit-your-business/
+ [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
  [2]: https://products.containerize.com/video-conferencing/
  [3]: #intro
  [4]: #setup

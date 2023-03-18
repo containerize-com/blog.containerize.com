@@ -5,7 +5,7 @@ description: This guide teaches you with simple and easy steps that how to creat
 date: Sun, 25 Oct 2020 15:01:25 +0000
 author: Assad Mahmood
 summary: In this tutorial, we’ll guide you on how to create a bot using Botpress and it’s integration with Rocket.Chat
-url: /live-chat/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/
+url: /how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/
 
 categories: ['Live Chat']
 

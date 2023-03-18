@@ -5,7 +5,7 @@ description: Welcome to this Blender video editing tutorial. Blender is open-sou
 date: Fri, 23 Apr 2021 14:22:00 +0000
 author: muhammadmustafa
 summary: The editing part is a critical aspect of video production. Install free video editing software to get professional results for your business video marketing.
-url: /video-editing-software/blender-video-editing-tutorial-for-beginners/
+url: /blender-video-editing-tutorial-for-beginners/
 
 categories: ['Video Editing Software']
 
@@ -102,9 +102,11 @@ You may find the following links relevant:
   * [A Tutorial To Start Video Editing With OpenShot Video Editor][3]
   * [How Open Source Video Editor boosts Business Video Marketing][1]
 
- [1]: https://blog.containerize.com/2020/12/18/how-video-editing-software-improves-business-video-marketing/
- [2]: https://blog.containerize.com/2021/01/08/top-5-open-source-video-editor-software-for-video-marketing/
- [3]: https://blog.containerize.com/2020/12/30/a-tutorial-to-start-video-editing-with-openshot-video-editor/
+ [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
+
+ [2]: https://blog.containerize.com/video-editing-software/top-5-open-source-video-editor-software-for-video-marketing/
+
+ [3]: https://blog.containerize.com/video-editing-software/openshot-video-editor-tutorial-for-beginners-open-source/
  [4]: #intro
  [5]: #Installation
  [6]: #features

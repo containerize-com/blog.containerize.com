@@ -5,7 +5,7 @@ description: Read through this detailed guide on the top 5 open source game deve
 date: Wed, 30 Jun 2021 07:50:03 +0000
 author: muhammadmustafa
 summary: '3D game development software come with design and asset creation tools. Choose the best software, build 2D &amp; 3D models, powerful game storylines, and visuals.'
-url: /game-development-software/top-5-free-game-development-software-in-the-year-2021/
+url: /top-5-free-game-development-software-in-the-year-2021/
 
 categories: ['Game Development Software']
 
@@ -114,7 +114,7 @@ Finally, [**containerize.com**][22] is writing articles on further open source
   * **[How Global Gaming Industry Leveraging Open Source Software][1]**
   * **[GDevelop Tutorial For Beginners To Start Game Development][28]**
 
- [1]: https://blog.containerize.com/2021/05/07/how-global-gaming-industry-leveraging-open-source-software/
+ [1]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
  [2]: #GDevelop
  [3]: #Godot
  [4]: #Superpowers
@@ -138,7 +138,9 @@ Finally, [**containerize.com**][22] is writing articles on further open source
  [22]: https://www.containerize.com/
  [23]: https://products.containerize.com/game-development-software/
  [24]: https://products.containerize.com/game-development-software/cocos-creator/
- [25]: https://blog.containerize.com/2021/06/04/superpowers-animation-getting-started-with-game-development/
- [26]: https://blog.containerize.com/2021/05/28/game-development-tutorial-player-movement-in-gdevelop/
+ [25]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
+
+ [26]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+
  [27]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
- [28]: https://blog.containerize.com/2021/05/05/gdevelop-tutorial-for-beginners-to-start-game-development/
+ [28]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/

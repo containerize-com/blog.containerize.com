@@ -5,7 +5,7 @@ description: Follow this GDevelop tutorial article to get started with video gam
 date: Wed, 05 May 2021 16:51:40 +0000
 author: muhammadmustafa
 summary: Build your video game from scratch and run it on Android, iOS, Web, Windows, and Linux. GDevelop is a self-hosted, free game engine with powerful features.
-url: /game-development-software/gdevelop-tutorial-how-to-start-game-development/
+url: /gdevelop-tutorial-how-to-start-game-development/
 
 categories: ['Game Development Software']
 
@@ -122,10 +122,15 @@ Finally, containerize.com is all set to enhance its tutorial base with some mo
  [10]: https://products.containerize.com/game-development-software/superpowers/
  [11]: https://products.containerize.com/game-development-software/cocos-creator/
  [12]: https://products.containerize.com/game-development-software/panda3d/
- [13]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [14]: https://blog.containerize.com/2021/08/25/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
- [15]: https://blog.containerize.com/2021/06/30/top-5-free-game-development-software-in-the-year-2021/
- [16]: https://blog.containerize.com/2021/06/04/superpowers-animation-getting-started-with-game-development/
- [17]: https://blog.containerize.com/2021/05/28/game-development-tutorial-player-movement-in-gdevelop/
+ [13]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [14]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
+
+ [15]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
+
+ [16]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
+
+ [17]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+
  [18]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
  [19]: https://blog.containerize.com/2021/05/07/how-video-gaming-industry-leveraging-open-source-software/

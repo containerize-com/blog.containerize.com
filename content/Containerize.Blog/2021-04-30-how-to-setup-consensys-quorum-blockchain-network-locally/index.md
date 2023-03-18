@@ -5,7 +5,7 @@ description: Follow this guide to learn about the installation process of Consen
 date: Fri, 30 Apr 2021 11:49:30 +0000
 author: muhammadmustafa
 summary: "Establish your own public/private blockchain network to manage and monitor business digital transactions. Let's learn how to setup Consensys Quorum on localhost."
-url: /blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+url: /how-to-setup-consensys-quorum-blockchain-network-locally/
 
 categories: ['Blockchain Platforms']
 
@@ -119,8 +119,10 @@ You may find the following links relevant:
   * [Multichain][19]
   * [ConsenSys Quorum][9]
 
- [1]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
- [2]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [1]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
+ [2]: https://blog.containerize.com/
+
  [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
  [4]: https://blog.containerize.com/2020/12/23/a-beginners-guide-to-setup-ethereum-node-on-localhost/
  [5]: #Introduction

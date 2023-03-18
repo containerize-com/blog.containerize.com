@@ -5,7 +5,7 @@ description: Check the list of enterprise-level free Single Sign-On Software. Th
 date: Fri, 29 Jan 2021 05:46:42 +0000
 author: muhammadmustafa
 summary: Single sign-on software offers a central login for all user accounts and IT systems. It modernizes the user experience by offering security and transparency.
-url: /single-sign-on/top-5-open-source-single-sign-on-software-in-the-year-2021/
+url: /top-5-open-source-single-sign-on-software-in-the-year-2021/
 
 categories: ['Single Sign-On']
 
@@ -143,5 +143,6 @@ Finally, [**containerize.com**][22] is writing articles on further open source p
  [28]: https://products.containerize.com/single-sign-on/wso2/
  [29]: https://products.containerize.com/single-sign-on/openidentityplatform/
  [30]: https://products.containerize.com/single-sign-on/freeipa/
- [31]: https://blog.containerize.com/2021/02/06/how-to-leverage-sso-solution-for-better-business-growth/
- [32]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [31]: https://blog.containerize.com/single-sign-on/how-to-leverage-sso-solution-for-better-business-growth/
+
+ [32]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

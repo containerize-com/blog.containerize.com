@@ -5,7 +5,7 @@ description: Go through this guide and choose the right Blockchain Platform for 
 date: Fri, 11 Dec 2020 13:53:34 +0000
 author: muhammadmustafa
 summary: Blockchain technology is based on a distributed ledger secured with cryptography. It is immutable in nature and provides improved security and availability.
-url: /blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+url: /top-5-open-source-blockchain-platforms-in-2020/
 
 categories: ['Blockchain Platforms']
 
@@ -113,7 +113,8 @@ You may find the following links relevant:
   * [ConsenSys Quorum][26]
 
  [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
- [2]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [2]: https://blog.containerize.com/
+
  [3]: #ether
  [4]: #hyper
  [5]: #open

@@ -5,7 +5,7 @@ description: Redis Pub/Sub is a flexible, reliable, real-time messaging service 
 date: Fri, 05 Mar 2021 11:12:55 +0000
 author: Assad Mahmood
 summary: Redis Pub/Sub implements a real-time messaging system, where publishers, publish to a channel/topic and several clients can subscribe to that channel/topic.
-url: /database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/
+url: /introduction-to-redis-pubsub-and-how-does-it-work/
 
 categories: ['Database Management Software']
 
@@ -89,7 +89,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 In this tutorial, we learned about the Publish/Subscribe design pattern. And explored how the Redis pub/sub works. We also explored what are the best use cases of Redis pub/sub, real-time messaging. In my upcoming tutorial, we’ll explore the Redis further and explain how we can use Redis Pub/Sub with Node.js to build a real-time chat application.
 
- [1]: https://blog.containerize.com/2021/02/24/a-beginners-guide-to-redis-in-memory-database/
+ [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
+
  [2]: #what
  [3]: #how
  [4]: #when

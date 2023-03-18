@@ -5,7 +5,7 @@ description: 'Mautic - Facebook Integration can help synchronize your Facebook l
 date: Fri, 04 Dec 2020 09:51:26 +0000
 author: bilalahmed
 summary: Fetch Facebook leads to Mautic, add contacts into a segment and run email campaigns. Also use these contacts to create custom audience for Facebook ads.
-url: /marketing-automation/how-to-setup-mautic-facebook-integration/
+url: /how-to-setup-mautic-facebook-integration/
 
 categories: ['Marketing Automation']
 
@@ -96,7 +96,9 @@ To learn more about Mautic and FaceBook, please visit:
  [4]: #conclusion
  [5]: https://developers.facebook.com/docs/apps#register
  [6]: https://products.containerize.com/marketing-automation/mautic
- [7]: https://blog.containerize.com/2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
- [8]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [9]: https://blog.containerize.com/2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/
- [10]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [7]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+
+ [8]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [9]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+
+ [10]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

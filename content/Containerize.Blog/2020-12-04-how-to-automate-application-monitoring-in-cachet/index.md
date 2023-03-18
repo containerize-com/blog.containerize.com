@@ -5,7 +5,7 @@ description: Cachet helps to monitor all your services and instantly notify subs
 date: Fri, 04 Dec 2020 19:42:42 +0000
 author: Masood Anwer
 summary: Cachet status page enables businesses to get instant notifications about service downtime. We will learn how to automate web application monitoring in Cachet.
-url: /status-page/how-to-automate-application-monitoring-in-cachet/
+url: /how-to-automate-application-monitoring-in-cachet/
 
 categories: ['Status Page']
 
@@ -171,4 +171,4 @@ You may find the following links relevant:
  [7]: https://blog.containerize.com/category/status-page
  [8]: https://products.containerize.com/status
  [9]: https://products.containerize.com/status/cachet
- [10]: https://blog.containerize.com/2020/11/20/top-5-open-source-status-page-software-for-2020/
+ [10]: https://blog.containerize.com/status-page/top-5-open-source-status-page-software-for-2020/

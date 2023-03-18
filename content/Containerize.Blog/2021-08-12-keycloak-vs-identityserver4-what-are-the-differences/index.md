@@ -5,7 +5,7 @@ description: This blog post is about comparison of the two leading open source i
 date: Thu, 12 Aug 2021 10:47:02 +0000
 author: muhammadmustafa
 summary: "Keycloak and Identityserver4 are open source identity providers that offer single sign on services to access resources. Let's compare these two sso software."
-url: /single-sign-on/keycloak-vs-identityserver4-what-are-the-differences/
+url: /keycloak-vs-identityserver4-what-are-the-differences/
 
 categories: ['Single Sign-On']
 
@@ -93,6 +93,7 @@ You may find the following links relevant:
  [19]: https://products.containerize.com/single-sign-on/wso2
  [20]: https://products.containerize.com/single-sign-on/openidentityplatform
  [21]: https://products.containerize.com/single-sign-on/freeipa
- [22]: https://blog.containerize.com/2021/01/29/Top-5-Open-Source-Single-Sign-On-Software-In-the-Year-2021/
- [23]: https://blog.containerize.com/2021/02/06/how-to-leverage-sso-solution-for-better-business-growth/
- [24]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [22]: https://blog.containerize.com/single-sign-on/top-5-open-source-single-sign-on-software-in-the-year-2021/
+ [23]: https://blog.containerize.com/single-sign-on/how-to-leverage-sso-solution-for-better-business-growth/
+
+ [24]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

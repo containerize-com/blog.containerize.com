@@ -5,7 +5,7 @@ description: "Explore this category of Artificial Intelligence that generates un
 date: Tue, 14 Feb 2023 20:43:20 +0000
 author: muhammadmustafa
 summary: "Let's understand the processes behind Generative Artificial Intelligence and see how a Generative AI model is built and what are its business applications."
-url: /artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
+url: /what-is-generative-ai-generative-artificial-intelligence/
 
 categories: ['Artificial intelligence']
 
@@ -76,8 +76,10 @@ The main purpose of **generative Artificial Intelligence** is to make AI-powered
   * [Google Docs Integration with ChatGPT | OpenAI GPT-3][12]
   * [What are The Top 5 Open-Source AI Frameworks][13]
 
- [1]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
- [2]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [1]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+
+ [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
  [3]: #What-is-Generative-AI-how-it-works-Generative-AI-explained
  [4]: #Business-benefits-of-Generative-Artificial-Intelligence
  [5]: https://www.containerize.com/
@@ -85,7 +87,10 @@ The main purpose of **generative Artificial Intelligence** is to make AI-powered
  [7]: https://www.linkedin.com/company/containerize/
  [8]: https://twitter.com/containerize_co
  [9]: https://forum.containerize.com/
- [10]: https://blog.containerize.com/2023/02/01/integrate-chatgpt-with-google-sheets/
- [11]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [12]: https://blog.containerize.com/2023/02/03/google-docs-integration-with-chatgpt/
- [13]: https://blog.containerize.com/2023/01/27/top-5-open-source-ai-frameworks/
+ [10]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
+
+ [11]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [12]: https://blog.containerize.com/artificial-intelligence/google-docs-integration-with-chatgpt/
+
+ [13]: https://blog.containerize.com/artificial-intelligence/top-5-open-source-ai-frameworks/

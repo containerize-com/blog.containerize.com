@@ -5,7 +5,7 @@ description: This tutorial is about setting up Ralph on localhost. Ralph is a fr
 date: Fri, 11 Jun 2021 12:54:21 +0000
 author: muhammadmustafa
 summary: IT asset management solution reduces operational costs and increases efficiency. This article is about how to set up CMDB software Ralph on your local machine.
-url: /cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
+url: /how-to-set-up-cmdb-solution-ralph-on-localhost/
 
 categories: ['CMDB Software']
 
@@ -195,5 +195,6 @@ After going through this CMDB tutorial blog post, one thing is clear that asset 
  [9]: https://docs.docker.com/docker-for-mac/install/
  [10]: https://products.containerize.com/healthcare-technologies/
  [11]: https://products.containerize.com/cmdb-software/
- [12]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [13]: https://blog.containerize.com/2021/04/09/software-development-trends-to-look-out-for-in-2021/
+ [12]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [13]: https://blog.containerize.com/blockchain-platforms/software-development-trends-to-look-out-for-in-2021/

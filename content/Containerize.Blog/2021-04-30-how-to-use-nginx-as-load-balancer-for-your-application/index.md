@@ -5,7 +5,7 @@ description: "Nginx is a popular open-source web server. It is well known for hi
 date: Fri, 30 Apr 2021 07:31:14 +0000
 author: Assad Mahmood
 summary: 'Nginx is popular for its high performance and scalability. It’s the #1 open source web server. In this tutorial, we’ll learn to use Nginx as a load balancer.'
-url: /web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+url: /how-to-use-nginx-as-load-balancer-for-your-application/
 
 categories: ['Web Server Solution Stack']
 
@@ -176,5 +176,5 @@ You may find the more related below articles
  [8]: https://www.linkedin.com/company/containerize/
  [9]: http://facebook.com/containerize
  [10]: mailto:yasir.saeed@aspose.com
- [11]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
  [12]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/

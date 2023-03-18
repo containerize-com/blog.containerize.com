@@ -5,7 +5,7 @@ description: Nextcloud vs ownCloud is one of the biggest debate in the self host
 date: Sat, 31 Jul 2021 06:19:30 +0000
 author: yasir saeed
 summary: Nextcloud vs ownCloud is one of the biggest debate in the self-hosted open source cloud storage world. This article is about Nextcloud and ownCloud differences.
-url: /backup-and-sync-software/nextcloud-vs-owncloud-what-are-the-differences/
+url: /nextcloud-vs-owncloud-what-are-the-differences/
 
 categories: ['Backup and Sync Software']
 
@@ -88,8 +88,12 @@ We also have several other articles relating to the day-to-day management of you
  [4]: https://www.linkedin.com/company/containerize/
  [5]: http://facebook.com/containerize
  [6]: mailto:yasir.saeed@aspose.com
- [7]: https://blog.containerize.com/2021/06/18/how-to-install-nextcloud-with-apache-on-ubuntu-server/
- [8]: https://blog.containerize.com/2021/06/11/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
- [9]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [10]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [11]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
+ [7]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+
+ [8]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
+ [9]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [10]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/

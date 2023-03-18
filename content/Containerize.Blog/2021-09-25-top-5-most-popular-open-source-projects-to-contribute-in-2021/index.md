@@ -5,7 +5,7 @@ description: Contributing to popular open-source projects is an effective way to
 date: Sat, 25 Sep 2021 01:16:52 +0000
 author: yasir saeed
 summary: 'Working on open-source software is an effective way to improve &amp; sharpen your critical thinking and problem-solving skills by collaborating on team projects.'
-url: /business-intelligence-software/top-5-most-popular-open-source-projects-to-contribute-in-2021/
+url: /top-5-most-popular-open-source-projects-to-contribute-in-2021/
 
 categories: ['Business Intelligence Software', 'CMDB Software', 'Database Management Software', 'Deployment Tools', 'Learning Management System', 'Rapid Application Development', 'Software Development']
 
@@ -139,6 +139,8 @@ We also have several other related information from OSS watch:
  [11]: https://www.djangoproject.com/
  [12]: mailto:yasir.saeed@aspose.com
  [13]: https://products.containerize.com/backup-and-sync/
- [14]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
- [15]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
- [16]: https://blog.containerize.com/2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+ [14]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
+ [15]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+
+ [16]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

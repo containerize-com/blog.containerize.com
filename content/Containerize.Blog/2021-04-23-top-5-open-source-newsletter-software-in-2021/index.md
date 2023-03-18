@@ -5,7 +5,7 @@ description: Choosing the right tool is very important for the growth of the bus
 date: Fri, 23 Apr 2021 11:26:30 +0000
 author: Masood Anwer
 summary: Email marketing software helps businesses for sending newsletter campaigns to get in touch with customers. Check out a list of open source newsletter software.
-url: /newsletter/top-5-open-source-newsletter-software-in-2021/
+url: /top-5-open-source-newsletter-software-in-2021/
 
 categories: ['Newsletters']
 
@@ -147,4 +147,4 @@ You may find the following links relevant:
  [22]: https://containerize.com
  [23]: https://blog.containerize.com/category/newsletter/
  [24]: https://products.containerize.com/newsletter
- [25]: https://blog.containerize.com/2021/05/07/top-5-open-source-marketplace-software-in-2021/
+ [25]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/

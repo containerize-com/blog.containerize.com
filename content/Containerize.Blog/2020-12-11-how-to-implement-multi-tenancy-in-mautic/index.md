@@ -5,7 +5,7 @@ description: Mautic is an open source marketing automation solution. Implementin
 date: Fri, 11 Dec 2020 11:34:25 +0000
 author: bilalahmed
 summary: Save costs and maximize resource usage by implementing multi-tenancy in Mautic. Multi-tenancy helps in code customizations, app updates, improved productivity and easy maintenance.
-url: /marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+url: /how-to-implement-multi-tenancy-in-mautic/
 
 categories: ['Marketing Automation']
 
@@ -76,7 +76,9 @@ To learn more about Mautic and FaceBook, please visit:
  [3]: #implement
  [4]: #conclusion
  [5]: https://products.containerize.com/marketing-automation/mautic
- [6]: https://blog.containerize.com/2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
- [7]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [8]: https://blog.containerize.com/2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/
- [9]: https://blog.containerize.com/2020/10/09/integrate-mautic-with-joomla-for-marketing-automation/
+ [6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+
+ [7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+
+ [9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

@@ -5,7 +5,7 @@ description: HTTP2 or h2 is a binary protocol and improved version of the HTTP p
 date: Fri, 28 May 2021 18:59:02 +0000
 author: yasir saeed
 summary: HTTP/2 is a robust multiplexed protocol for improving page load speed and security. In this tutorial, we will learn how to setup NGINX with HTTP/2 support.
-url: /web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+url: /how-to-configure-http2-support-in-nginx-on-ubuntudebian/
 
 categories: ['Web Server Solution Stack']
 
@@ -185,9 +185,12 @@ You may also like below articles:
   * [Secure and Encrypt Nginx with Let’s Encrypt on Ubuntu 20.04][1]
   * [How to Install and Configure ownCloud with Apache on Ubuntu][6]
 
- [1]: https://blog.containerize.com/2021/04/19/how-to-secure-and-encrypt-nginx-with-lets-encrypt-on-ubuntu-20.04/
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
  [2]: mailto:yasir.saeed@aspose.com
- [3]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [4]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [5]: https://blog.containerize.com/2021/05/07/how-to-setup-nginx-with-passenger-on-aws-production-server/
- [6]: https://blog.containerize.com/2021/06/11/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+ [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [4]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [5]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
+
+ [6]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/

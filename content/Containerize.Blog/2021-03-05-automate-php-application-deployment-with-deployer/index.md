@@ -5,7 +5,7 @@ description: Deploy PHP application with open source deployment tool and automat
 date: Fri, 05 Mar 2021 22:07:03 +0000
 author: Masood Anwer
 summary: Automate PHP application deployment process with PHP deployment tool. We will learn how to setup Deployer and use it to deploy PHP application.
-url: /deployment-tools/automate-php-application-deployment-with-deployer/
+url: /automate-php-application-deployment-with-deployer/
 
 categories: ['Deployment Tools']
 
@@ -187,5 +187,6 @@ You may find the following links relevant:
  [13]: https://products.containerize.com/deployment-tools/concourse/
  [14]: https://products.containerize.com/deployment-tools/ansible/
  [15]: https://products.containerize.com/deployment-tools/gocd/
- [16]: https://blog.containerize.com/2021/03/12/top-5-open-source-deployment-tools-in-the-year-2021/
- [17]: https://blog.containerize.com/2021/02/22/automate-software-deployment-process-with-jenkins-and-github/
+ [16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+
+ [17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/

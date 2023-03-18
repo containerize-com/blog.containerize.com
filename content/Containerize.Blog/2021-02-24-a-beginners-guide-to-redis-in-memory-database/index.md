@@ -5,7 +5,7 @@ description: "Redis in-memory database is an open-source, key-value store. It's 
 date: Wed, 24 Feb 2021 11:48:57 +0000
 author: Assad Mahmood
 summary: This tutorial helps you learn about Redis In-Memory Database. It is open-source and also called a key-value store, which is a type of database non-relational.
-url: /database-management-software/a-beginners-guide-to-redis-in-memory-database/
+url: /a-beginners-guide-to-redis-in-memory-database/
 
 categories: ['Database Management Software']
 

@@ -5,7 +5,7 @@ description: "Cryptocurrency transactions can be made easily and quickly at a lo
 date: Wed, 26 Jan 2022 06:49:02 +0000
 author: yasir saeed
 summary: "Cryptocurrency transactions can be made easily and quickly at a low cost based on cryptography. Let's review the top cryptocurrencies to invest in 2022."
-url: /blockchain-platforms/top-5-most-popular-open-source-cryptocurrencies-to-invest/
+url: /top-5-most-popular-open-source-cryptocurrencies-to-invest/
 
 categories: ['Blockchain Platforms', 'Business Intelligence Software']
 
@@ -122,6 +122,8 @@ We also have several other related information from OSS watch:
  [10]: https://github.com/monero-project/monero
  [11]: mailto:yasir.saeed@aspose.com
  [12]: https://products.containerize.com/backup-and-sync/
- [13]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
- [14]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
- [15]: https://blog.containerize.com/2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+ [13]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
+ [14]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+
+ [15]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

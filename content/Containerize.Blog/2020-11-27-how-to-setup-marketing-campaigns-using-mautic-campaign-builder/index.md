@@ -5,7 +5,7 @@ description: Step by setup guide to configure campaigns in Mautic and get comple
 date: Fri, 27 Nov 2020 09:46:58 +0000
 author: bilalahmed
 summary: Easily create campaigns using Mautic campaign builder. Engage target audience, keep them updated about your products and convert them into your customers.
-url: /marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+url: /how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
 
 categories: ['Marketing Automation']
 
@@ -92,4 +92,4 @@ These articles could be very helpful if you want to integrate Mautic with WordPr
  [5]: https://products.containerize.com/marketing-automation/mautic
  [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
  [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
- [8]: https://blog.containerize.com/2020/12/11/how-to-implement-multi-tenancy-in-mautic/
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

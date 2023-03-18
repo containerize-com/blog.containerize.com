@@ -5,7 +5,7 @@ description: Distributed ledger technology records the transactions in a traceab
 date: Fri, 27 Nov 2020 11:12:07 +0000
 author: muhammadmustafa
 summary: 'The progressive success of decentralized technology is bringing new ways to achieve business goals by providing transparency &amp; security to your digital assets.'
-url: /blockchain-platforms/how-distributed-ledger-technology-benefits-business-strategy/
+url: /how-distributed-ledger-technology-benefits-business-strategy/
 
 categories: ['Blockchain Platforms']
 
@@ -107,7 +107,9 @@ You may find the following links relevant:
  [10]: https://products.containerize.com/blockchain-platforms/ripple
  [11]: https://products.containerize.com/blockchain-platforms/multichain
  [12]: https://products.containerize.com/blockchain-platforms/consensys-quorum
- [13]: https://blog.containerize.com/2021/04/30/how-to-setup-consensys-quorum-blockchain-network-locally/
- [14]: https://blog.containerize.com/2020/12/23/how-to-set-up-ethereum-node-on-localhost-beginners-guide/
- [15]: https://blog.containerize.com/2020/12/11/top-5-open-source-blockchain-platforms-in-2020/
- [16]: https://blog.containerize.com/2020/12/01/a-basic-guide-on-how-to-create-ethereum-smart-contract/
+ [13]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+
+ [14]: https://blog.containerize.com/blockchain-platforms/what-is-testnet-how-to-deploy-it-ethereum-testnet/
+ [15]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+
+ [16]: https://blog.containerize.com/

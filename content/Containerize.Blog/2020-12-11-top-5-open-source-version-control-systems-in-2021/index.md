@@ -5,7 +5,7 @@ description: Version control systems allow developers to manage changes to the c
 date: Fri, 11 Dec 2020 19:58:04 +0000
 author: Masood Anwer
 summary: Version control software helps teams to keep track and control the versions of code. This is a concise review of the top 5 open source version control systems.
-url: /version-control-software/top-5-open-source-version-control-systems-in-2021/
+url: /top-5-open-source-version-control-systems-in-2021/
 
 categories: ['Version Control Software']
 
@@ -139,7 +139,8 @@ You may find the following links relevant:
  [20]: https://products.containerize.com/version-control/mercurial
  [21]: https://products.containerize.com/version-control/gitlab
  [22]: https://products.containerize.com/version-control/bazaar
- [23]: https://blog.containerize.com/2021/02/19/automate-software-development-workflows-with-github-actions/
- [24]: https://blog.containerize.com/2021/02/12/set-up-a-continuous-deployment-pipeline-with-gitlab-cicd/
- [25]: https://blog.containerize.com/2021/02/04/understand-and-learn-branches-and-pull-requests-in-git/
+ [23]: https://blog.containerize.com/version-control-software/github-actions-tutorial-automate-your-first-workflow/
+ [24]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/
+ [25]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
+
  [26]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/

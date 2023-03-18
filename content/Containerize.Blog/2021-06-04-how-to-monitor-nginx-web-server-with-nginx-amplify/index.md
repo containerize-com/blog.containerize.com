@@ -5,7 +5,7 @@ description: Nginx Amplify is a free monitoring agent for Nginx web server and P
 date: Fri, 04 Jun 2021 19:08:47 +0000
 author: Masood Anwer
 summary: Monitor Nginx, PHP applications, operating system with Nginx Amplify and improve configuration. This article guides you to setup and configure Nginx Amplify.
-url: /web-server-solution-stack/how-to-monitor-nginx-web-server-with-nginx-amplify/
+url: /how-to-monitor-nginx-web-server-with-nginx-amplify/
 
 categories: ['Web Server Solution Stack']
 
@@ -187,5 +187,6 @@ You may find the following links relevant:
  [6]: https://amplify.nginx.com/signup/
  [7]: https://containerize.com
  [8]: https://blog.containerize.com/category/web-server-solution-stack/
- [9]: https://blog.containerize.com/2021/04/30/how-to-use-nginx-as-load-balancer-for-your-application/
- [10]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [9]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+ [10]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

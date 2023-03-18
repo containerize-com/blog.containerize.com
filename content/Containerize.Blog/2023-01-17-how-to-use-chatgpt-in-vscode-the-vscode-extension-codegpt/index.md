@@ -5,7 +5,7 @@ description: 'Let artificial intelligence write & optimize source code using Ope
 date: Tue, 17 Jan 2023 10:26:29 +0000
 author: muhammadmustafa
 summary: '<strong>This article will introduce ChatGPT for VSCode. An OpenAI code generator Code GPT is based on an open-source artificial intelligence-powered GPT-3 model.</strong>'
-url: /artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+url: /how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 
 categories: ['Artificial intelligence']
 
@@ -99,7 +99,8 @@ Please visit this [link][9] to install this AI-powered VSCode extension.
  [3]: https://marketplace.visualstudio.com/items?itemName=timkmecl.codegpt3
  [4]: https://www.containerize.com/
  [5]: https://en.wikipedia.org/wiki/GPT-3
- [6]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [6]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
  [7]: #What-is-CodeGPT
  [8]: #How-to-install-the-VSCode-extension-CodeGPT
  [9]: #Retrieve-OpenAI-API-Key-configure-CodeGPT-
@@ -111,4 +112,4 @@ Please visit this [link][9] to install this AI-powered VSCode extension.
  [15]: https://www.linkedin.com/company/containerize/
  [16]: https://twitter.com/containerize_co
  [17]: https://forum.containerize.com/
- [18]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [18]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

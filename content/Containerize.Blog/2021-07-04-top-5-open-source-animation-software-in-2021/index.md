@@ -5,7 +5,7 @@ description: Create moving graphics using open source animation software. Animat
 date: Sun, 04 Jul 2021 09:14:12 +0000
 author: bilalahmed
 summary: Create moving graphics using open source animation software. Animate 2D or 3D generated graphics with options to add music and other effects.
-url: /animation-software/top-5-open-source-animation-software-in-2021/
+url: /top-5-open-source-animation-software-in-2021/
 
 categories: ['Animation Software']
 
@@ -114,5 +114,6 @@ In this article, we’ve covered top 5 of the best free animation apps. All of t
  [16]: https://products.containerize.com/
  [17]: https://blog.containerize.com/
  [18]: https://products.containerize.com/animation-software/
- [19]: https://blog.containerize.com/2021/06/29/synfig-tutorial-an-open-source-2d-animation-software/
- [20]: https://blog.containerize.com/2021/06/21/how-to-create-animations-with-pencil2d-animation-software/
+ [19]: https://blog.containerize.com/animation-software/synfig-tutorial-an-open-source-2d-animation-software/
+
+ [20]: https://blog.containerize.com/animation-software/how-to-create-animations-with-pencil2d-animation-software/

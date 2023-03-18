@@ -5,7 +5,7 @@ description: ChatGPT is an AI-powered chatbot that interacts with humans in a na
 date: Tue, 10 Jan 2023 18:44:15 +0000
 author: muhammadmustafa
 summary: "Why everyone is talking about ChatGPT? Does your software leverage a Chatbot? Let's explore the phenomenon behind this artificial intelligence-powered ChatGPT."
-url: /artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+url: /what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 
 categories: ['Artificial intelligence']
 
@@ -102,6 +102,8 @@ No, this [OpenAI][1] chatbot [ChatGPT][2] helps developers in finding the best p
  [13]: https://www.linkedin.com/company/containerize/
  [14]: https://twitter.com/containerize_co
  [15]: https://forum.containerize.com/
- [16]: https://blog.containerize.com/2023/01/04/why-do-you-need-a-translation-management-system/
- [17]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [18]: https://blog.containerize.com/2022/01/31/top-10-open-source-trending-technologies-of-2022/
+ [16]: https://blog.containerize.com/software-development/why-do-you-need-a-translation-management-system/
+
+ [17]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [18]: https://blog.containerize.com/backup-and-sync-software/top-10-open-source-trending-technologies-of-2022/

@@ -5,7 +5,7 @@ description: If you are looking for tools to manage a large amount of data and c
 date: Fri, 09 Apr 2021 07:43:18 +0000
 author: Assad Mahmood
 summary: Redis and Kafka are two different tools that happen to be doing similar jobs in their own ways. Kafka vs Redis comparison gives you insight which you should know.
-url: /database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/
+url: /kafka-vs-redis-pub-sub-differences-which-you-should-know/
 
 categories: ['Database Management Software']
 
@@ -66,6 +66,9 @@ On the other hand, **Kafka** is a high throughput, distributed log that can be u
 
 In this tutorial Kafka vs Redis Pub-Sub, we explored Kafka and Redis. What are their differences and similarities? We also learned when you should Redis and when it’s good to use Kafka. In our upcoming tutorials, we’ll explore more about Kafka and in-depth analysis.
 
- [1]: https://blog.containerize.com/2021/02/24/a-beginners-guide-to-redis-in-memory-database/
- [2]: https://blog.containerize.com/2021/03/05/introduction-to-redis-pubsub-and-how-does-it-work/
- [3]: https://blog.containerize.com/2021/03/05/introduction-to-redis-pubsub-and-how-does-it-work/#what
+ [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
+
+ [2]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/
+
+ [3]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/
+#what

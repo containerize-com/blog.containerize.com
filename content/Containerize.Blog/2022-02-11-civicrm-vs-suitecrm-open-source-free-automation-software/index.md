@@ -5,7 +5,7 @@ description: Go through this article to learn about the comparison of CiviCRM vs
 date: Fri, 11 Feb 2022 14:57:52 +0000
 author: muhammadmustafa
 summary: "Refine marketing processes and nurture leads by installing a marketing automation tool. Let's compare two popular free automation software CiviCRM &amp; SuiteCRM."
-url: /marketing-automation/civicrm-vs-suitecrm-open-source-free-automation-software/
+url: /civicrm-vs-suitecrm-open-source-free-automation-software/
 
 categories: ['Marketing Automation']
 
@@ -74,8 +74,10 @@ Finally, [containerize.com][16] is continuously writing blog posts on further 
   * [CiviCRM WordPress Integration | WordPress Tutorial][25]
 
  [1]: https://blog.containerize.com/category/marketing-automation/
- [2]: https://blog.containerize.com/2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
- [3]: https://blog.containerize.com/2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/
+ [2]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+
+ [3]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+
  [4]: https://products.containerize.com/marketing-automation/civicrm/
  [5]: https://products.containerize.com/marketing-automation/suitecrm/
  [6]: https://products.containerize.com/marketing-automation/
@@ -94,7 +96,10 @@ Finally, [containerize.com][16] is continuously writing blog posts on further 
  [19]: https://twitter.com/containerize_co
  [20]: https://products.containerize.com/marketing-automation/mautic/
  [21]: https://products.containerize.com/marketing-automation/espocrm/
- [22]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
- [23]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [24]: https://blog.containerize.com/2020/10/14/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
- [25]: https://blog.containerize.com/2020/10/13/civicrm-wordpress-integration-wordpress-tutorial/
+ [22]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+ [23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [24]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+
+ [25]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/

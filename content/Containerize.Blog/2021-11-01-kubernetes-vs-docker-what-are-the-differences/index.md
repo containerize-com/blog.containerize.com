@@ -5,7 +5,7 @@ description: Kubernetes is a container orchestration technology, while Docker is
 date: Mon, 01 Nov 2021 01:16:43 +0000
 author: yasir saeed
 summary: Kubernetes is a container orchestration technology, while Docker enables developers to create and run containers. Let’s review the two container technologies.
-url: /devops/kubernetes-vs-docker-what-are-the-differences/
+url: /kubernetes-vs-docker-what-are-the-differences/
 
 categories: ['DevOps', 'Software Development']
 
@@ -79,8 +79,11 @@ We have several other related articles to handle the day-to-day tasks managemen
  [3]: https://kubernetes.io/
  [4]: https://github.com/kubernetes/kubernetes
  [5]: mailto:yasir.saeed@aspose.com
- [6]: https://blog.containerize.com/2021/10/11/top-5-open-source-container-orchestration-tools-for-devops-in-2021/
+ [6]: https://blog.containerize.com/devops/top-5-open-source-container-orchestration-tools-for-devops-in-2021/
+
  [7]: https://products.containerize.com/backup-and-sync/
- [8]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
- [9]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
- [10]: https://blog.containerize.com/2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+ [8]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
+ [9]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+
+ [10]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

@@ -5,7 +5,7 @@ description: Mautic and Joomla Integration can help your business with digital m
 date: Fri, 09 Oct 2020 15:16:25 +0000
 author: bilalahmed
 summary: Mautic and Joomla Integration can help your business with digital marketing automation. It helps to market products through online Mautic campaigns.
-url: /content-management/integrate-mautic-with-joomla-for-marketing-automation/
+url: /integrate-mautic-with-joomla-for-marketing-automation/
 
 categories: ['Content Management', 'Marketing Automation']
 
@@ -87,7 +87,9 @@ You may find following links relevant:
  [6]: https://href.li/?https://yourjoomlasite.com
  [7]: https://products.containerize.com/content-management/joomla
  [8]: https://products.containerize.com/marketing-automation/mautic
- [9]: https://blog.containerize.com/2020/12/04/how-to-setup-mautic-facebook-integration/
- [10]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [11]: https://blog.containerize.com/2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/
- [12]: https://blog.containerize.com/2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+ [9]: https://blog.containerize.com/marketing-automation/how-to-setup-mautic-facebook-integration/
+
+ [10]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [11]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+
+ [12]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/

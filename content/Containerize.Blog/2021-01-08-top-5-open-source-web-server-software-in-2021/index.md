@@ -5,7 +5,7 @@ description: This blog post provides an overview of the top 5 popular web server
 date: Fri, 08 Jan 2021 08:24:10 +0000
 author: bilalahmed
 summary: Solution stacks provide a complete environment for developers to build enterprise web applications. Let’s discuss the top 5 open-source configurable servers.
-url: /web-server-solution-stack/top-5-open-source-web-server-software-in-2021/
+url: /top-5-open-source-web-server-software-in-2021/
 
 categories: ['Web Server Solution Stack']
 
@@ -105,9 +105,12 @@ Finally, [containerize.com][15] is continuously writing blog posts on further 
   * [How to Install Nextcloud with Apache on Ubuntu Server][3]
 
  [1]: https://products.containerize.com/solution-stack/
- [2]: https://blog.containerize.com/2020/10/26/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
- [3]: https://blog.containerize.com/2021/06/18/how-to-install-nextcloud-with-apache-on-ubuntu-server/
- [4]: https://blog.containerize.com/2021/06/26/setup-tutorial-for-lemp-stack-on-ubuntu-18.04/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+
+ [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+
+ [4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
+
  [5]: #xampp-stands
  [6]: #NGINX
  [7]: #Lighttpd
@@ -126,4 +129,4 @@ Finally, [containerize.com][15] is continuously writing blog posts on further 
  [20]: https://products.containerize.com/solution-stack
  [21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
  [22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
- [23]: https://blog.containerize.com/2021/06/25/top-5-open-source-cloud-storage-software-in-2021/
+ [23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/

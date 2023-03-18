@@ -4,7 +4,7 @@ seoTitle: Top 5 Open Source RPA Tools 2021 | Robotic Process Automation
 date: Mon, 04 Oct 2021 02:31:01 +0000
 author: yasir saeed
 summary: Robotic Process Automation saves time, cost and human efforts by automating business processes and operations. Let’s review the most popular RPA tools for 2021.
-url: /deployment-tools/top-5-open-source-rpa-tools-2021-robotic-process-automation/
+url: /top-5-open-source-rpa-tools-2021-robotic-process-automation/
 
 categories: ['Deployment Tools', 'Marketing Automation']
 
@@ -234,6 +234,8 @@ We also have several other related information watch:
  [5]: https://www.kofax.com/
  [6]: mailto:yasir.saeed@aspose.com
  [7]: https://products.containerize.com/backup-and-sync/
- [8]: https://blog.containerize.com/2021/07/09/top-5-open-source-message-queue-software-in-2021/
- [9]: https://blog.containerize.com/2021/08/30/top-5-open-source-digital-forensic-tools-in-2021/
- [10]: https://blog.containerize.com/2021/09/23/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+ [8]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+
+ [9]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+
+ [10]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

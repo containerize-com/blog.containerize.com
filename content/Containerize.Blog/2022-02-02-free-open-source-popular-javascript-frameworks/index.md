@@ -5,7 +5,7 @@ description: Follow this article to know about the popular javascript frameworks
 date: Wed, 02 Feb 2022 12:07:18 +0000
 author: muhammadmustafa
 summary: "JavaScript has become an integral part of modern software development. Let's explore the most used JavaScript frameworks for front-end and back-end development."
-url: /software-development/free-open-source-popular-javascript-frameworks/
+url: /free-open-source-popular-javascript-frameworks/
 
 categories: ['Software Development']
 
@@ -106,7 +106,8 @@ You may find the following links relevant:
  [16]: https://web.facebook.com/containerize
  [17]: https://www.linkedin.com/company/containerize/
  [18]: https://twitter.com/containerize_co
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
  [20]: https://products.containerize.com/content-management/
  [21]: https://products.containerize.com/blogging/
  [22]: https://products.containerize.com/discussion-forum/

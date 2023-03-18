@@ -5,7 +5,7 @@ description: Create an e-learning website with a free and open-source distance l
 date: Fri, 02 Jul 2021 19:44:37 +0000
 author: Masood Anwer
 summary: Create an e-learning website with free learning management software. We have compiled a list of the top 5 open source learning management systems (LMS).
-url: /learning-management-system/top-5-open-source-lms-tools-for-business-in-2021/
+url: /top-5-open-source-lms-tools-for-business-in-2021/
 
 categories: ['Learning Management System']
 
@@ -121,6 +121,7 @@ You may find the following links relevant:
  [15]: https://github.com/edx/edx-platform
  [16]: https://containerize.com
  [17]: https://blog.containerize.com/category/learning-management-system/
- [18]: https://blog.containerize.com/2021/06/11/how-to-create-e-learning-platform-with-moodle-lms/
+ [18]: https://blog.containerize.com/learning-management-system/how-to-create-e-learning-platform-with-moodle-lms/
+
  [19]: https://products.containerize.com/lms/moodle/
  [20]: https://products.containerize.com/lms/chamilo/

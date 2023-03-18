@@ -5,7 +5,7 @@ description: This blog post is a brief introduction to free video conferencing a
 date: Fri, 13 Nov 2020 15:18:07 +0000
 author: muhammadmustafa
 summary: Streamline your business processes by installing open source meeting software. Structured meetings boost productivity and provide a competitive edge.
-url: /video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
+url: /video-conferencing-apps-how-it-benefits-your-business/
 
 categories: ['Video Conferencing Software']
 
@@ -111,6 +111,8 @@ You may find the following links relevant:
  [14]: https://products.containerize.com/video-conferencing/
  [15]: https://products.containerize.com/video-conferencing/element
  [16]: https://products.containerize.com/video-conferencing/wire
- [17]: https://blog.containerize.com/2021/01/22/top-5-open-source-video-conferencing-software-of-2021/
- [18]: https://blog.containerize.com/2020/11/19/how-to-set-up-open-source-jitsi-meet/
- [19]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [17]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
+
+ [18]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/
+
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

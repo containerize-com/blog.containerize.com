@@ -5,7 +5,7 @@ description: Learn how to integrate Discourse Forum with WordPress. Installation
 date: Wed, 14 Oct 2020 06:49:27 +0000
 author: Assad Mahmood
 summary: "Learn how to integrate Discourse Forum with WordPress in this tutorial. Using Discourse's Official WordPress Plugin"
-url: /blogging/how-to-integrate-discourse-forum-with-wordpress/
+url: /how-to-integrate-discourse-forum-with-wordpress/
 
 categories: ['Blogging', 'Discussion Forum']
 

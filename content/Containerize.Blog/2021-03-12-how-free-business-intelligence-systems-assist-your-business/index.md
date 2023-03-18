@@ -5,7 +5,7 @@ description: Open-source business intelligence systems help organizations to ana
 date: Fri, 12 Mar 2021 14:14:36 +0000
 author: muhammadmustafa
 summary: Business intelligence analytics software converts the raw data into meaningful information. Businesses tend to opt for a BI solution to identify opportunities.
-url: /business-intelligence-software/how-free-business-intelligence-systems-assist-your-business/
+url: /how-free-business-intelligence-systems-assist-your-business/
 
 categories: ['Business Intelligence Software']
 
@@ -90,6 +90,8 @@ Finally, [containerize.com][7] is thriving to enhance its tutorials bucket tha
  [11]: https://products.containerize.com/business-intelligence/hypercable
  [12]: https://products.containerize.com/business-intelligence/posthog
  [13]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
- [14]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/
- [15]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
- [16]: https://blog.containerize.com/2021/10/20/matomo-vs-plausible-google-analytics-alternatives/
+ [14]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+
+ [15]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+ [16]: https://blog.containerize.com/business-intelligence-software/matomo-vs-plausible-google-analytics-alternatives/

@@ -5,7 +5,7 @@ description: PrestaShop is an efficient and cost effective open source eCommerce
 date: Fri, 01 Jan 2021 21:45:49 +0000
 author: Masood Anwer
 summary: "The PrestaShop modules are small programs that allow you to improve your shop's functionality. We'll learn how to build a basic module in this tutorial."
-url: /shopping-cart-software/a-beginners-guide-to-create-prestashop-module/
+url: /a-beginners-guide-to-create-prestashop-module/
 
 categories: ['Shopping Cart Software']
 

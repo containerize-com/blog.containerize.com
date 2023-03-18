@@ -5,7 +5,7 @@ description: Follow this guide to learn what is AI and the applications of artif
 date: Wed, 25 Jan 2023 07:23:31 +0000
 author: muhammadmustafa
 summary: Artificial intelligence is the fourth industrial revolution that is reshaping the world. The fundamentals of AI are based on machine learning and NLP.
-url: /artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+url: /an-introduction-to-artificial-intelligence-what-is-ai/
 
 categories: ['Artificial intelligence']
 
@@ -92,12 +92,15 @@ Please follow this [link][1] to know about Artificial intelligence. In addition,
  [7]: https://instagram.com/
  [8]: https://www.facebook.com/
  [9]: https://twitter.com/home
- [10]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [10]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+
  [11]: https://www.containerize.com/
  [12]: https://web.facebook.com/containerize
  [13]: https://www.linkedin.com/company/containerize/
  [14]: https://twitter.com/containerize_co
  [15]: https://forum.containerize.com/
- [16]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [17]: https://blog.containerize.com/2021/04/21/top-5-open-source-business-intelligence-solutions-of-2021/]
- [18]: https://blog.containerize.com/2023/01/14/how-to-start-with-open-source-social-media-platform-humhub/
+ [16]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [17]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+]
+ [18]: https://blog.containerize.com/social-network-platforms/how-to-start-with-open-source-social-media-platform-humhub/

@@ -5,7 +5,7 @@ description: This tutorial is about how to set up and configure Nginx as Reverse
 date: Fri, 07 May 2021 07:38:05 +0000
 author: yasir saeed
 summary: Nginx is an open-source web server that can also act as a reverse proxy. This tutorial will help you learn how to set up and configure Nginx as Reverse Proxy.
-url: /web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+url: /how-to-setup-and-configure-nginx-as-reverse-proxy/
 
 categories: ['Web Server Solution Stack']
 
@@ -112,11 +112,17 @@ You may find the more related below articles
   * [Install Multiple PHP Versions with Nginx on Ubuntu][7]
   * [Setup Nginx With Passenger on AWS Production Server][8]
 
- [1]: https://blog.containerize.com/2021/04/30/how-to-use-nginx-as-load-balancer-for-your-application/
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
  [2]: mailto:yasir.saeed@aspose.com
- [3]: https://blog.containerize.com/2021/05/21/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
- [4]: https://blog.containerize.com/2021/04/19/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20.04/
- [5]: https://blog.containerize.com/2021/06/04/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
- [6]: https://blog.containerize.com/2021/05/28/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
- [7]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [8]: https://blog.containerize.com/2021/05/07/how-to-setup-nginx-with-passenger-on-aws-production-server/
+ [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+
+ [4]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
+
+ [5]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

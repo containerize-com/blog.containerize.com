@@ -5,7 +5,7 @@ description: CiviCRM WordPress integration lets you control the management of da
 date: Tue, 13 Oct 2020 08:23:40 +0000
 author: muhammadmustafa
 summary: In this WordPress plugin tutorial, we will learn how to integrate free CiviCRM with WordPress to gain competitive advantages in terms of contact management.
-url: /blogging/civicrm-wordpress-integration-wordpress-tutorial/
+url: /civicrm-wordpress-integration-wordpress-tutorial/
 
 categories: ['Blogging', 'Marketing Automation']
 
@@ -118,18 +118,26 @@ You may find the following links relevant:
  [11]: https://products.containerize.com/marketing-automation/espocrm/
  [12]: https://href.li/?https://www.containerize.com/
  [13]: https://products.containerize.com/blogging
- [14]: https://blog.containerize.com/2021/01/13/a-beginners-guide-on-vanilla-forum-wordpress-integration/
- [15]: https://blog.containerize.com/2020/12/18/how-to-dockerize-wordpress-with-docker-compose/
- [16]: https://blog.containerize.com/2020/12/02/quick-guide-on-how-to-migrate-from-wordpress-to-jekyll/
- [17]: https://blog.containerize.com/2020/11/25/how-to-build-your-website-with-wordpress-and-gatsby/
- [18]: https://blog.containerize.com/2020/11/18/step-by-step-guide-migrate-to-ghost-from-wordpress/
- [19]: https://blog.containerize.com/2020/12/11/how-to-implement-multi-tenancy-in-mautic/
- [20]: https://blog.containerize.com/2020/12/04/how-to-setup-mautic-facebook-integration/
- [21]: https://blog.containerize.com/2020/11/27/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
- [22]: https://blog.containerize.com/2020/10/14/mautic-and-drupal-integration-to-automate-lead-nurturing/
- [23]: https://blog.containerize.com/2020/10/15/instantly-communicate-with-customers-using-wordpress-and-rocket.chat/
- [24]: https://blog.containerize.com/2020/10/14/how-to-integrate-discourse-forum-with-wordpress/
- [25]: https://blog.containerize.com/2020/10/13/automate-ticketing-system-using-wordpress-and-osticket/
- [26]: https://blog.containerize.com/2020/10/12/marketing-automation-using-mautic-and-wordpress-woocommerce/
+ [14]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+ [15]: https://blog.containerize.com/blogging/how-to-dockerize-wordpress-docker-wordpress/
+ [16]: https://blog.containerize.com/blogging/quick-guide-on-how-to-migrate-from-wordpress-to-jekyll/
+
+ [17]: https://blog.containerize.com/blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
+ [18]:https://blog.containerize.com/blogging/a-guide-to-migrate-from-wordpress-to-ghost-ghost-wordpress/
+ [19]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+ [20]: https://blog.containerize.com/marketing-automation/how-to-setup-mautic-facebook-integration/
+
+ [21]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+
+ [22]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [23]: https://blog.containerize.com/blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
+
+ [24]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
+
+ [25]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+ [26]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+
  [27]: https://blog.containerize.com/2020/10/07/top-5-open-source-blogging-platform-in-2020/
- [28]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [28]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

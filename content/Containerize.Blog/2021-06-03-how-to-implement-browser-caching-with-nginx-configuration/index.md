@@ -5,7 +5,7 @@ description: The faster a website loads, the more likely a visitor is to stay. I
 date: Thu, 03 Jun 2021 11:46:56 +0000
 author: Assad Mahmood
 summary: The faster a website loads, the more likely a visitor is to stay. This article guides you on how to implement Browser Caching with Nginx Configurations.
-url: /uncategorized/how-to-implement-browser-caching-with-nginx-configuration/
+url: /how-to-implement-browser-caching-with-nginx-configuration/
 
 categories: ['Uncategorized', 'Web Server Solution Stack']
 
@@ -158,10 +158,14 @@ The Nginx’s headers module can be used to add any arbitrary headers to the res
   * [How to Install Multiple PHP Versions with Nginx on Ubuntu][3]
   * [How to Setup and Configure Nginx as Reverse Proxy][2]
 
- [1]: https://blog.containerize.com/2021/04/30/how-to-use-nginx-as-load-balancer-for-your-application/
- [2]: https://blog.containerize.com/2021/05/07/how-to-setup-and-configure-nginx-as-reverse-proxy/
- [3]: https://blog.containerize.com/2021/05/21/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
- [4]: https://blog.containerize.com/2021/05/28/how-to-convert-htaccess-rewrite-rules-to-nginx-rewrite-directives/
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+ [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+
+ [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+
+ [4]: https://blog.containerize.com/web-server-solution-stack/how-to-convert-htaccess-rewrite-rules-to-nginx-rewrite-directives/
+
  [5]: #browser-caching
  [6]: #header-module
  [7]: #etag

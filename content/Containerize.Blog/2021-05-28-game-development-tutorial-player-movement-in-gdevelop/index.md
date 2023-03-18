@@ -5,7 +5,7 @@ description: Follow this game development tutorial to learn about the basic game
 date: Fri, 28 May 2021 13:13:45 +0000
 author: muhammadmustafa
 summary: Moving objects on screen is a crucial part of any game. In this game development guide, we will learn how to control and move game objects in GDevelop.
-url: /game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+url: /game-development-tutorial-player-movement-in-gdevelop/
 
 categories: ['Game Development Software']
 
@@ -87,8 +87,8 @@ This is the end of this game development tutorial. Hopefully, this blog post wou
   * [Panda3D][13]
 
  [1]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
- [2]: https://blog.containerize.com/2021/05/07/how-global-gaming-industry-leveraging-open-source-software/
- [3]: https://blog.containerize.com/2021/05/05/gdevelop-tutorial-for-beginners-to-start-game-development/
+ [2]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
+ [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
  [4]: #features
  [5]: #working
  [6]: #Conclusion

@@ -5,7 +5,7 @@ description: Go through this guide to learn about the top 5 open-source AI frame
 date: Fri, 27 Jan 2023 12:24:22 +0000
 author: muhammadmustafa
 summary: The advancement in AI and Machine learning has given a boost to every industry. You can consider the following open-source AI libraries for your business apps.
-url: /artificial-intelligence/top-5-open-source-ai-frameworks/
+url: /top-5-open-source-ai-frameworks/
 
 categories: ['Artificial intelligence']
 
@@ -100,7 +100,8 @@ Yes, it is open-source and comes up with self-hosting capabilities. Please visit
   * [How to use ChatGPT in VSCode | The VSCode Extension Code GPT][34]
   * [What is OpenAI Chatbot GPT-3 | ChatGPT an AI Revolution][35]
 
- [1]: https://blog.containerize.com/2023/01/25/an-introduction-to-artificial-intelligence-what-is-ai/
+ [1]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+
  [2]: #TensorFlow
  [3]: #PyTorch
  [4]: #Keras
@@ -133,5 +134,6 @@ Yes, it is open-source and comes up with self-hosting capabilities. Please visit
  [31]: https://www.linkedin.com/company/containerize/
  [32]: https://twitter.com/containerize_co
  [33]: https://forum.containerize.com/
- [34]: https://blog.containerize.com/2023/01/17/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
- [35]: https://blog.containerize.com/2023/01/10/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [34]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+
+ [35]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/

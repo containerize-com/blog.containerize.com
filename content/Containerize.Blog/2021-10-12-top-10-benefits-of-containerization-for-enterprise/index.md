@@ -5,7 +5,7 @@ description: This blog post enlightens the potential benefits of containerizatio
 date: Tue, 12 Oct 2021 19:11:30 +0000
 author: muhammadmustafa
 summary: "What is containerization? What is a container in Docker? Let's explore the benefits that containerization has brought to the scope of software development."
-url: /software-development/top-10-benefits-of-containerization-for-enterprise/
+url: /top-10-benefits-of-containerization-for-enterprise/
 
 categories: ['Software Development']
 
@@ -99,7 +99,8 @@ You may find the following links relevant:
  [4]: https://kubernetes.io/
  [5]: https://hub.docker.com/
  [6]: https://www.containerize.com/
- [7]: https://blog.containerize.com/2020/08/27/automate-business-operations-using-open-source-software/
+ [7]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
  [8]: https://blog.containerize.com/2021/10/11/top-5-open-source-container-orchestration-tools-for-2021/
  [9]: https://products.containerize.com/content-management/
  [10]: https://products.containerize.com/blogging/

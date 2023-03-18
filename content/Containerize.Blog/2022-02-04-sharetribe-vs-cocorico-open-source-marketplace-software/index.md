@@ -5,7 +5,7 @@ description: 'Go through this article to learn about the comparison of ShareTrib
 date: Fri, 04 Feb 2022 19:19:42 +0000
 author: muhammadmustafa
 summary: "Selection of an open-source marketplace software to power an online marketplace is crucial. Let's compare two free marketplace solutions ShareTribe &amp; Cocorico."
-url: /marketplace/sharetribe-vs-cocorico-open-source-marketplace-software/
+url: /sharetribe-vs-cocorico-open-source-marketplace-software/
 
 categories: ['Marketplace']
 
@@ -84,7 +84,10 @@ You may find the following links relevant:
  [12]: https://web.facebook.com/containerize
  [13]: https://www.linkedin.com/company/containerize/
  [14]: https://twitter.com/containerize_co
- [15]: https://blog.containerize.com/2021/05/07/top-5-open-source-marketplace-software-in-2021/
- [16]: https://blog.containerize.com/2022/02/02/free-open-source-popular-javascript-frameworks/
- [17]: https://blog.containerize.com/2022/01/27/nft-vs-crypto-difference-between-cryptocurrency-nft/
- [18]: https://blog.containerize.com/2021/09/29/things-to-review-before-opting-open-source-software-in-2021/
+ [15]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/
+
+ [16]: https://blog.containerize.com/software-development/free-open-source-popular-javascript-frameworks/
+
+ [17]: https://blog.containerize.com/blockchain-platforms/nft-vs-crypto-difference-between-cryptocurrency-nft/
+
+ [18]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
