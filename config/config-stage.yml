@@ -69,7 +69,7 @@ params:
 
 # Disabled languages
 # disableLanguages: [ja,ko,es,de,ru,fr,zh,it,pt,ar,vi,zh-hant,tr,id,th,fa,pl]
-disableLanguages: [ko,it,ar,vi,zh-hant,fa,pl]
+disableLanguages: [ko,it,ar,vi,zh-hant,fa,pl] # Disabled languages not trasalted
 defaultContentLang: en
 
 languages:
