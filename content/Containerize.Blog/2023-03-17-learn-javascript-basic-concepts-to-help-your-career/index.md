@@ -165,4 +165,5 @@ Please follow this JavaScript beginner's [guide][2] to know JavaScript basic con
  [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
  [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
  [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+ [18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/  
 
