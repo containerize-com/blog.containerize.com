@@ -22,7 +22,7 @@ JavaScript เป็นภาษาสคริปต์ที่ใช้ใน
 ***[ขอบเขตใน JavaScript] [3]**
 ***[การปิด JavaScript] [4]**
 
-## อะไรคือสิ่งที่ยกขึ้นใน JavaScript {#what-is-hoisting-in-javascript}
+## ยกอะไรใน JavaScript {#what-is-hoisting-in-javascript}
 ปรากฏการณ์ของการใช้ฟังก์ชันหรือการประกาศตัวแปรที่ด้านบนของขอบเขตปัจจุบันเรียกว่าการยก นี่เป็นแนวคิดที่สำคัญมากและนักพัฒนา JavaScript ส่วนใหญ่ไม่ได้ตระหนักถึงมัน อย่างไรก็ตามสิ่งสำคัญที่ควรทราบที่นี่คือเฉพาะการประกาศฟังก์ชั่น/ตัวแปรเท่านั้นที่จะถูกนำไปสู่ด้านบนไม่ใช่การเริ่มต้นฟังก์ชั่น/ตัวแปร
 ลองมาตัวอย่างและดูตัวอย่างโค้ดด้านล่าง
 ```
@@ -140,3 +140,4 @@ myFunction()
 [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

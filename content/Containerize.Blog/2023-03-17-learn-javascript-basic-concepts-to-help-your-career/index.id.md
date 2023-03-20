@@ -19,7 +19,7 @@ categories: ['Programming']
 JavaScript adalah bahasa skrip yang digunakan untuk mengembangkan aplikasi berbasis web yang dinamis. Kami menggunakan HTML dan CSS untuk membangun situs web statis sedangkan JavaScript digunakan untuk menambahkan interaktivitas. Dalam posting blog kami sebelumnya, kami membahas [Model Objek Dokumen] [1] dan sekarang kami akan membahas beberapa konsep dasar**JavaScript penting lainnya**. Pengembang web cenderung memilih bahasa skrip ini karena fitur dan kerangka kerja yang kaya. Selain itu, Anda dapat melakukan pengembangan di ujung depan dan belakang dengan mempelajari JavaScript. Namun, Anda tidak hanya tidak hanya mengembangkan aplikasi web tetapi juga aplikasi seluler. Tutorial JavaScript ini akan membantu Anda jika Anda mempersiapkan diri untuk sesi wawancara. Namun demikian, panduan ini layak dibaca untuk menambah lebih banyak ke ember pengetahuan Anda.
 Kami akan membahas poin -poin berikut dalam artikel ini:
 ***[apa yang diangkat dalam javascript] [2]**
-***[SCOPES DI JAVASCRIPT] [3]**
+***[SCOPES IN JAVASCRIPT] [3]**
 ***[Penutupan JavaScript] [4]**
 
 ## Apa yang diangkat dalam JavaScript {#what-is-hoisting-in-javascript}
@@ -81,7 +81,7 @@ function innerFunc(){
 
 ## JavaScript penutupan {#javascript-closures}
 Ini adalah konsep penting lain yang memperkuat pengetahuan JavaScript Anda tentang lingkup dan enkapsulasi data. Dalam bentuk paling sederhana, fungsi di dalam fungsi dikenal sebagai penutupan. Anda dapat menyebut fungsi dalam sebagai penutupan. Fungsi batin ini memiliki tiga jenis ruang lingkup:
- * Memiliki ruang lingkup level blok sendiri.
+ * Ia memiliki ruang lingkup level blok sendiri.
  * Ini memiliki akses ke variabel orang tua.
  * Variabel dalam ruang lingkup global juga dapat diakses di dalam penutupan.
  Mari kita lihat cara membuat penutupan:
@@ -140,3 +140,4 @@ Silakan ikuti [panduan] pemula JavaScript ini [2] untuk mengetahui konsep dasar 
 [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

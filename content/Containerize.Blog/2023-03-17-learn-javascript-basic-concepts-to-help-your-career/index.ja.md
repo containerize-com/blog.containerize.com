@@ -123,8 +123,6 @@ JavaScriptの基本概念を知るために、このJavaScriptの初心者の[�
   * [Openai Chatbot gpt-3 | ai革命をchatgpt] [16]
   * [人工知能の紹介| AIとは？] [17]
   * [JavaScriptでAsyncが待っているのは何ですか？ | JavaScriptガイド] [18]
-
-
 [1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
 [2]: #What-is-hoisting-in-JavaScript
 [3]: #Scopes-in-JavaScript
@@ -142,3 +140,4 @@ JavaScriptの基本概念を知るために、このJavaScriptの初心者の[�
 [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

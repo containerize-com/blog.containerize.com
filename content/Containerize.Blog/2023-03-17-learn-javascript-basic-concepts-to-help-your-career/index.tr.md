@@ -60,7 +60,7 @@ if(true){
 }
 // a is not accessible outside the curly braces.
 ```
-"A" değişkenine kıvırcık parantezlerin dışında {} erişilemez çünkü blok düzeyinde kapsamı vardır.
+"A" değişkenine kıvırcık diş telleri {} dışında erişilemez çünkü blok seviyesi kapsamına sahiptir.
 * * Fonksiyon seviyesi**: JavaScript işlevinin içinde bildirilen değişkenler yerel kapsamı vardır.
 ```
 function innerFunc(){
@@ -69,7 +69,7 @@ function innerFunc(){
     }
 // last_name is not accessible outside the function.
 ```
-Burada dikkat edilmesi gereken önemli bir şey, "let" "const" ve "var" ile ilan edilen değişkenlerin işlev gövdesi içinde işlev kapsamına sahip olmasıdır.
+Burada dikkat edilmesi gereken önemli bir şey, "" const "ve" var "ile ilan edilen değişkenlerin işlev gövdesi içinde işlev kapsamına sahip olmasıdır.
 * * Global-Level**: İşlev dışında ilan edilen değişkenler küresel değişkenler haline gelir. "Let", "const" veya "var" anahtar kelimeleri kullanarak onları ilan etmiş olsanız da. Ayrıca, bir değişken, aşağıdaki kod snippet'inde gösterildiği gibi herhangi bir anahtar kelime kullanmadan bildirilirse global bir değişken haline gelir:
 ```
 function innerFunc(){
@@ -110,7 +110,7 @@ Son olarak, [Containerize.com] [5] çeşitli heyecan verici konularda devam eden
 
 ## SSS
 * * JavaScript'te öğrenilecek önemli kavramlar nelerdir?**
-JavaScript temel kavramlarını bilmek için lütfen bu JavaScript yeni başlayanlar [Guide] [2] izleyin.
+JavaScript temel kavramlarını bilmek için lütfen bu JavaScript Beginner'ın [Guide] [2] 'yi takip edin.
 
 ## Ayrıca bakınız
   * [JavaScript'te DOM nedir? | Belge Nesne Modeli] [1]
@@ -140,3 +140,4 @@ JavaScript temel kavramlarını bilmek için lütfen bu JavaScript yeni başlaya
 [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

@@ -60,7 +60,7 @@ if(true){
 }
 // a is not accessible outside the curly braces.
 ```
-La variable "A" n'est pas accessible à l'extérieur des accolades bouclées {} car il a une portée au niveau du bloc.
+La variable "A" n'est pas accessible en dehors des accolades bouclées {} car il a une portée au niveau du bloc.
 * * au niveau de la fonction**: Les variables déclarées à l'intérieur de la fonction JavaScript ont la portée locale.
 ```
 function innerFunc(){
@@ -140,3 +140,4 @@ Veuillez suivre ce [guide] [2] de ce débutant JavaScript pour connaître les co
 [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

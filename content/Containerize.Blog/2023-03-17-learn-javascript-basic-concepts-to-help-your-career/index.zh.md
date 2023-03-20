@@ -23,7 +23,7 @@ JavaScript是一种脚本语言，用于开发基于Web的动态应用程序。�
 ***[JavaScript关闭] [4]**
 
 ## JavaScript中有什么提升{#in-javaScript what-is-hoisting}
-当前范围之上的功能或可变声明的现象称为提升。这是一个非常关键的概念，大多数JavaScript开发人员都不知道。但是，这里要注意的一个重要的事情是，只有功能/变量声明才能最高，而不是功能/变量初始化。
+当前范围之上的功能或可变声明的现象称为提升。这是一个非常关键的概念，大多数JavaScript开发人员都不知道。但是，这里要注意的一个重要的事情是，只有功能/变量声明才能将其置于顶部，而不是功能/变量初始化。
 让我们举个例子，看看下面的代码段；
 ```
 printResults();
@@ -123,8 +123,6 @@ myFunction()
   * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命] [16]
   * [人工智能简介|什么是AI？] [17]
   * [JavaScript中的异步等待什么？ | JavaScript指南] [18]
-
-  
 [1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
 [2]: #What-is-hoisting-in-JavaScript
 [3]: #Scopes-in-JavaScript
@@ -142,3 +140,4 @@ myFunction()
 [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

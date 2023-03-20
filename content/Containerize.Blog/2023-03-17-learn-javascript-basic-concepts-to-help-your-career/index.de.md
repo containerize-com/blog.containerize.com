@@ -1,5 +1,5 @@
 ---
-title: "Lernen Sie JavaScript -Grundkonzepte, um Ihrer Karriere zu helfen" 
+title: "Lernen Sie JavaScript -grundlegende Konzepte, um Ihrer Karriere zu helfen" 
 seoTitle: "JavaScript -Grundkonzepte" 
 description: "Folgen Sie diesem JavaScript -Tutorial, um JavaScript -Grundkonzepte zu lernen. Scopes, Hebezeuge und Schließungen sind sehr grundlegende, aber obligatorische Konzepte in JavaScript." 
 date: 2023-03-17T00:00:00+00:00
@@ -140,3 +140,4 @@ Bitte folgen Sie diesem JavaScript -Anfänger [Handbuch] [2], um JavaScript -Gru
 [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/
