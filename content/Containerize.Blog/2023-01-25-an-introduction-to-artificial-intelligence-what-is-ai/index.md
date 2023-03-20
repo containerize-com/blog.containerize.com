@@ -93,14 +93,11 @@ Please follow this [link][1] to know about Artificial intelligence. In addition,
  [8]: https://www.facebook.com/
  [9]: https://twitter.com/home
  [10]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
-
  [11]: https://www.containerize.com/
  [12]: https://web.facebook.com/containerize
  [13]: https://www.linkedin.com/company/containerize/
  [14]: https://twitter.com/containerize_co
  [15]: https://forum.containerize.com/
  [16]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
-
- [17]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
-]
+ [17]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/]
  [18]: https://blog.containerize.com/social-network-platforms/how-to-start-with-open-source-social-media-platform-humhub/
