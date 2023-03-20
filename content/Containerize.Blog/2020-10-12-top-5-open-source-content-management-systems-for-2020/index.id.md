@@ -15,11 +15,11 @@ categories: ['Content Management']
 
 Sistem manajemen konten adalah salah satu perangkat lunak paling populer di dunia Internet. Dengan kata lain, hampir semua situs web menggunakan semacam CM untuk mengelola konten mereka. Bisnis cenderung membuat situs web yang menarik dan sederhana untuk menyajikan ide bisnis kepada jumlah maksimum orang. Oleh karena itu, ada sejumlah ** sistem manajemen konten open source ** yang menyediakan fitur tingkat profesional untuk memenuhi kebutuhan situs web bisnis. Selain itu, komunitas open source telah mengembangkan begitu banyak plugin dan tema tingkat perusahaan yang meningkatkan tingkat konversi dan mendorong penjualan. Jadi, pilihan sistem manajemen konten Web ** terbaik ** dapat membuat Anda dalam masalah atau dapat menyelesaikan semua masalah Anda.
 Kesederhanaan sistem manajemen konten telah membuat pembuatan konten terasa seperti mengedit dokumen pengolah kata. Tapi, memilih platform yang tepat sangat penting. Jadi, untuk membantu Anda memilih perangkat lunak CMS open source yang tepat, tim kami telah membuat daftar platform CMS open source ** top **.
-  * [Joomla] [1]
-  * [Drupal] [2]
-  * [Pyro] [3]
-  * [Django] [4]
-  * [Umbarco] [5]
+  * [Joomla][1]
+  * [Drupal][2]
+  * [Pyro][3]
+  * [Django][4]
+  * [Umbarco][5]
 
 ### Joomla {#joomla}
 Joomla adalah salah satu paket perangkat lunak paling populer di dunia. Ini adalah alat pembuatan dan manajemen situs web yang sepenuhnya berfitur lengkap, sepenuhnya dapat disesuaikan. Digunakan oleh jutaan individu, bisnis, dan organisasi di seluruh dunia.
@@ -29,7 +29,7 @@ Berikut adalah beberapa fitur populer Joomla CMS.
   * Fleksibel
   * Multibahasa
   * SEO
-    [Baca lebih lanjut] [6]
+    [Baca lebih lanjut][6]
 
 ### ** Drupal ** {#Drupal}
 Drupal adalah pilihan populer lainnya di antara ** sistem manajemen konten open source ** yang datang pada tahun 2001 untuk mengembangkan situs web yang dinamis dan berbasis konten. Ini adalah open source dan 100% bebas biaya dan, di antara salah satu dari 3 platform CMS teratas. Ini memimpin transformasi digital di seluruh industri.
@@ -39,7 +39,7 @@ Berikut adalah beberapa fitur populer Drupal.
   * Server web dan basis data independen
   * Standar yang sesuai dengan templating dan tema
   * Tampilan khusus perangkat
-    [Baca lebih lanjut] [7]
+    [Baca lebih lanjut][7]
 
 ### ** pyro ** {#pyro}
 Pyro adalah sistem manajemen konten yang luar biasa yang baru -baru ini semakin populer. Dibangun dengan Laravel CMS. Dan, rasanya seperti perpanjangannya. Seperti platform CMS open source ** lainnya **, Pyro hadir dengan fitur unik dan kuat di luar kotak. Ini juga mendukung manajemen file berbasis driver untuk integrasi ideal dengan Laravel.
@@ -51,7 +51,7 @@ Berikut adalah beberapa fitur populer piro.
   * 8 ekstensi
   * 2 plugin
   * 1 API Kickass
-    [Baca lebih lanjut] [8]
+    [Baca lebih lanjut][8]
 
 ### ** Django ** {#django}
 Django CMS adalah kerangka kerja yang ditulis dalam Python yang memungkinkan pengembangan cepat situs web yang aman dan dapat dipelihara. Ini adalah CMS open source. Yang paling penting, ribuan situs web didukung oleh Django. Ini ramah pengguna dengan banyak fitur seperti dukungan multisite, kontrol versi, mekanisme penerbitan yang lebih baik, dan menyediakan dasbor drag and drop yang mempercepat proses pengembangan.
@@ -61,7 +61,7 @@ Berikut adalah beberapa fitur populer Django CMS.
   * Multibahasa
   * Halaman hierarkis
   * Mudah diintegrasikan
-    [Baca lebih lanjut] [9]
+    [Baca lebih lanjut][9]
 
 ## ** Umbraco ** {#umbraco}
 Umbraco adalah CMS open source ** lain untuk situs web ** yang menyediakan cara tercepat untuk mengatur situs web untuk bisnis dengan menawarkan templat desain yang sudah jadi. Dengan Umbraco, Anda mendapatkan sistem manajemen konten yang dikenal dan dicintai karena fleksibilitas dan pengalaman pengeditan yang hebat. Dasbor intuitif ada di tempat untuk membiarkan pengguna membangun, memperbarui, dan mempublikasikan konten secara efisien.
@@ -73,24 +73,26 @@ Berikut adalah beberapa sorotan lain dari platform
   * Aman
   * Templat pra-dibangun
   * Dukungan Microsoft Word
-    [Baca lebih lanjut] [10]
+    [Baca lebih lanjut][10]
 
 ## Kesimpulan
 Dalam posting blog ini, kami telah meninjau CMS open source ** terbaik untuk situs web **. Sangat sulit untuk membuat pilihan di antara platform CMS open source ** top ** tetapi untuk kesederhanaan Anda, jika Anda membutuhkan plugin dan basis dukungan pengembang yang luas maka Drupal, Joomla dapat menjadi pilihan Anda. Namun, jika Anda membutuhkan desain dan nuansa yang lebih modern bersama dengan kontrol. Kemudian, Anda dapat memilih Umbraco, Django, dan Pyro. Faktanya, artikel ini akan sangat membantu Anda membuat pilihan yang tepat jika Anda serius ingin menggunakan sistem manajemen konten web ** ** untuk bisnis Anda. Selain itu, ada banyak sistem manajemen konten open source ** lainnya ** yang disebutkan di bagian Jelajahi di bawah ini yang dapat Anda lihat.
-Selanjutnya, [containerize.com] [11] terus bekerja untuk meningkatkan daftar produk open source. Oleh karena itu, harap tetap berhubungan dengan kategori [[manajemen konten] [12]] [13] untuk pembaruan rutin.
+Selanjutnya, [containerize.com][11] terus bekerja untuk meningkatkan daftar produk open source. Oleh karena itu, harap tetap berhubungan dengan kategori [[manajemen konten][12]][13] untuk pembaruan rutin.
 
 ## Mengeksplorasi
-  * [Joomla] [6]
-  * [Drupal] [7]
-  * [Pyro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Concrete5] [14]
-  * [Panduan Pengembangan Template Joomla untuk Pemula] [15]
-  * [Cara Membuat Tema Joomla dengan Kerangka Gantry] [16]
-  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal] [17]
-  * [Top 5 Top Template Bootstrap Joomla Responsif Gratis tahun 2020] [18]
-  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital] [19]
+  * [Joomla][6]
+  * [Drupal][7]
+  * [Pyro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Concrete5][14]
+  * [Panduan Pengembangan Template Joomla untuk Pemula][15]
+  * [Cara Membuat Tema Joomla dengan Kerangka Gantry][16]
+  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal][17]
+  * [Top 5 Top Template Bootstrap Joomla Responsif Gratis tahun 2020][18]
+  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital][19]
+
+  
 [1]: #joomla
 [2]: #drupal
 [3]: #pyro

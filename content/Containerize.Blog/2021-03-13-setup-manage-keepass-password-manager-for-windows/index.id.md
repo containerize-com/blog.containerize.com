@@ -17,9 +17,9 @@ categories: ['Password Management']
 ## Ikhtisar {#Overview}
 Mengingat semua kombinasi kata sandi yang berbeda untuk situs web dan aplikasi yang berbeda bukanlah tugas yang mudah, dan saat menuliskannya di selembar kertas bisa tampak seperti solusi yang mudah. Tidak ada banyak keamanan dalam metode itu, karena Anda dapat dengan mudah kehilangannya atau dapat jatuh di tangan orang yang salah. ** Keepass Password Manager ** Untuk Windows adalah salah satu solusi untuk masalah ini.
 Manajer kata sandi di sisi lain, memudahkan pengguna untuk menyimpan semua kata sandi mereka di satu tempat dan mengaksesnya kapan pun mereka perlu. Keepass adalah ** Salah satu manajer kata sandi open source terbaik ** di luar sana, yang tidak hanya bebas untuk diunduh, tetapi portabel serta Anda dapat menyimpan file kata sandi di USB atau mengunggahnya ke dropbox Anda, Google Drive atau lainnya opsi penyimpanan cloud. Dengan enkripsi ujung ke ujung, hanya pemilik kata sandi yang dapat mengakses file kata sandi dengan kunci master, yang menjamin keamanan. Sebagai manajer kata sandi sumber terbuka Keepass memungkinkan pengguna dengan pengetahuan teknis juga memeriksa kode sumber sendiri untuk memastikan bahwa tidak ada fitur keamanan yang hilang.
-  * [Pengaturan Keepass di Windows] [1]
-  * [Kelola Kata Sandi Menggunakan Keepass] [2]
-  * [Kesimpulan] [3]
+  * [Pengaturan Keepass di Windows][1]
+  * [Kelola Kata Sandi Menggunakan Keepass][2]
+  * [Kesimpulan][3]
 
 ## Pengaturan Keepass di windows {#setup}
 ** Unduh & Instal **
@@ -63,21 +63,23 @@ Untuk login dengan kata sandi yang disimpan di database:
 
 ** Opsi Manajer Kata Sandi lainnya untuk dipertimbangkan: **
 Ada lusinan manajer kata sandi open source lainnya yang tersedia di pasar. Anda dapat menjaga kredensial akun Anda aman dengan menggunakan manajer kata sandi yang aman, populer, mandiri dan open source untuk menyimpan kata sandi yang unik dan kompleks. Di bawah ini terdaftar beberapa manajer kata sandi teratas:
-  *[** Padloc **] [4] dirancang sebagai manajer kata sandi minimalis yang sederhana dan aman dan manajemen data untuk keluarga dan tim.
-  *[** Passbolt **] [5] adalah manajer kata sandi yang mudah diakses sendiri yang dirancang untuk kebutuhan tim Agile dan DevOps.
-  *[** Kata sandi aman **] [6] adalah program manajer kata sandi open-source dengan antarmuka yang aman, sederhana dan mudah dipahami.
-  *[** Bitwarden **] [7] adalah solusi manajemen kata sandi terintegrasi sumber yang aman, gratis.
-  *[** PSONO **] [8] adalah kredensial dan manajer kata sandi yang diselenggarakan sendiri untuk tim. Ini memberikan enkripsi berlapis -lapis untuk keamanan maksimum.
+  *[** Padloc **][4] dirancang sebagai manajer kata sandi minimalis yang sederhana dan aman dan manajemen data untuk keluarga dan tim.
+  *[** Passbolt **][5] adalah manajer kata sandi yang mudah diakses sendiri yang dirancang untuk kebutuhan tim Agile dan DevOps.
+  *[** Kata sandi aman **][6] adalah program manajer kata sandi open-source dengan antarmuka yang aman, sederhana dan mudah dipahami.
+  *[** Bitwarden **][7] adalah solusi manajemen kata sandi terintegrasi sumber yang aman, gratis.
+  *[** PSONO **][8] adalah kredensial dan manajer kata sandi yang diselenggarakan sendiri untuk tim. Ini memberikan enkripsi berlapis -lapis untuk keamanan maksimum.
 
 ## kesimpulan {#conclusion}
 Keepass adalah cara yang mudah, aman, dan portabel untuk mengelola kata sandi Anda. Ini memungkinkan Anda untuk menyesuaikan kata sandi Anda, menghasilkan kombinasi yang aman, dan menyimpan beberapa entri kata sandi untuk berbagai situs web dengan nama pengguna. Menggunakan Best Password Manager Keepass juga aman karena menggunakan mekanisme enkripsi ujung ke ujung dan bergantung pada fungsi hash SH-256 untuk keamanan maksimum.
-Lebih lanjut, [** containerize.com **] [9] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja. Untuk pembaruan rutin, silakan tetap disini di ** [Manajemen Kata Sandi] [10] ** Kategori untuk artikel yang lebih menarik.
+Lebih lanjut, [** containerize.com **][9] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja. Untuk pembaruan rutin, silakan tetap disini di ** [Manajemen Kata Sandi][10] ** Kategori untuk artikel yang lebih menarik.
 
 ## Mengeksplorasi
 Dalam artikel ini kami telah membahas cara mengatur dan mengelola Keepass Password Manager untuk Windows. Anda dapat menemukan tautan berikut yang relevan:
-  *** [Top 5 Manajer Kata Sandi Sumber Terbuka di 2021] [11] **
-  *** [Perangkat lunak manajemen kata sandi open source terbaik] [12] **
-  *** [Keepass | Manajer Kata Sandi Aman, Portabel & Open Source] [13] **
+  *** [Top 5 Manajer Kata Sandi Sumber Terbuka di 2021][11] **
+  *** [Perangkat lunak manajemen kata sandi open source terbaik][12] **
+  *** [Keepass | Manajer Kata Sandi Aman, Portabel & Open Source][13] **
+
+  
 [1]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#setup
 [2]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#manage
 [3]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#conclusion

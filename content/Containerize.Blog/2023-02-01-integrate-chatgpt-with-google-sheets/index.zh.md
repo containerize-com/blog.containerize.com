@@ -15,21 +15,21 @@ categories: ['Artificial intelligence']
 
 
 ## 概述
-我们感谢一直遵循我们博客文章的读者。我们最近有关[Code GPT] [1]和[CHATGPT] [2]的响应是压倒性的。因此，我们提出了另一篇文章，该文章将演示如何与Google [sheets] [3]集成chatgpt。更多的。另一方面，chatgpt基于[开源] [4] GPT-3，这是[OpenAI] [5]开发的开源NLP模型。
+我们感谢一直遵循我们博客文章的读者。我们最近有关[Code GPT][1]和[CHATGPT][2]的响应是压倒性的。因此，我们提出了另一篇文章，该文章将演示如何与Google [sheets][3]集成chatgpt。更多的。另一方面，chatgpt基于[开源][4] GPT-3，这是[OpenAI][5]开发的开源NLP模型。
 但是，通过安装基于人工智能的聊天机器人来使您的床单响应良好，将带来增强的功能和效率。此外，此企业级**聊天机器人集成**将通过自动执行例程任务来节省您的时间，并可以为您的复杂问题提供解决方案。
 我们将在本文中介绍以下几点：
-* [**如何将Chatgpt与Google表集成？**] [6]
-* [**如何在Google表中使用Chatgpt？**] [7]
+* [**如何将Chatgpt与Google表集成？**][6]
+* [**如何在Google表中使用Chatgpt？**][7]
 
 ## 如何将ChatGpt与Google表集成{#how-to-integrate-chatgpt-with-google-sheets}
-* * chatgpt集成**与任何软件肯定会为企业带来竞争优势。一个可以开始双向对话会话的AI驱动模型，然后将其嵌入软件，该集成的功能能力有多强大？当然很棒。因此，您向聊天机器人询问问题的技术解决方案，然后及时获得响应，这在节省时间和精力方面意味着很多。
+**chatgpt集成**与任何软件肯定会为企业带来竞争优势。一个可以开始双向对话会话的AI驱动模型，然后将其嵌入软件，该集成的功能能力有多强大？当然很棒。因此，您向聊天机器人询问问题的技术解决方案，然后及时获得响应，这在节省时间和精力方面意味着很多。
 让我们开始这个**Google表与Chatgpt集成。**
-首先，打开Goog​​le [Sheets] [3]，然后单击**“ Extensions->添加 - >获取附加组件”**。这样做后，您将在Google Workspace Marketplace上看到一个对话框。现在，在放置在右上角的搜索栏中键入“ chatgpt”，然后选择第一个选项，如下图所示。
+首先，打开Goog​​le [Sheets][3]，然后单击**“ Extensions->添加 - >获取附加组件”**。这样做后，您将在Google Workspace Marketplace上看到一个对话框。现在，在放置在右上角的搜索栏中键入“ chatgpt”，然后选择第一个选项，如下图所示。
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-9.36.21-PM-1-1024x750.png" alt="工作">}}
 
 选择第一个选项并安装此扩展程序。安装后，下一组将启用**chatgpt集成到Google表中。**
-您需要在OpenAI平台上创建一个帐户并获取API密钥。请访问此[链接] [1]以获取OpenAI API密钥。
+您需要在OpenAI平台上创建一个帐户并获取API密钥。请访问此[链接][1]以获取OpenAI API密钥。
 接下来，单击**“ extensions-> gpt for Sheet和docs->设置API密钥”**，然后插入API密钥以启用ChatGPT集成。此外，单击**“伸展 - > gpt for heets and docs->启用gpt函数”**启用GPT功能。
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="chatgpt集成">}}
@@ -52,24 +52,26 @@ categories: ['Artificial intelligence']
 ***gpt_fill**：填充一个不完整的范围，给定示例范围
 ***gpt_convert**：在格式之间转换。
 ***gpt_translate**：要翻译的文本。
-请按照此YouTube [link] [8]查看其作用中的一些功能。
+请按照此YouTube [link][8]查看其作用中的一些功能。
 
 ## 结论
-我们在这里结束本指南，该指南在**Google表集合和ChatGpt Integration**。我们已经完成了如何将Chatgpt与Google表融合在一起的方法。实际上，您已经学会了如何将**chatgpt用于工作**。此外，您可以通过在[Google App Script] [9]中编写功能来进一步利用此**ai驱动的聊天机器人**。此外，您只需安装基于openai gpt-3的ChatGpt扩展名来自动化许多工作流程。**
-最后，[Containerize.com] [10]不断地撰写有关进一步开源产品和主题的博客文章。此外，您可以在我们的社交媒体帐户上关注我们[Facebook] [11]，[LinkedIn] [12]和[Twitter] [13]。
+我们在这里结束本指南，该指南在**Google表集合和ChatGpt Integration**。我们已经完成了如何将Chatgpt与Google表融合在一起的方法。实际上，您已经学会了如何将**chatgpt用于工作**。此外，您可以通过在[Google App Script][9]中编写功能来进一步利用此**ai驱动的聊天机器人**。此外，您只需安装基于openai gpt-3的ChatGpt扩展名来自动化许多工作流程。**
+最后，[Containerize.com][10]不断地撰写有关进一步开源产品和主题的博客文章。此外，您可以在我们的社交媒体帐户上关注我们[Facebook][11]，[LinkedIn][12]和[Twitter][13]。
 
 ## 问一个问题
-您可以在我们的[论坛] [14]上让我们知道您的问题或查询。
+您可以在我们的[论坛][14]上让我们知道您的问题或查询。
 
 ## 常见问题解答
-* *如何在Google表中启用聊天？**
-Chatgpt是AI驱动的，并以对话方式进行交互。您可以通过导航到此[link] [6]将Chatgpt与Google表格集成在一起。
+**如何在Google表中启用聊天？**
+Chatgpt是AI驱动的，并以对话方式进行交互。您可以通过导航到此[link][6]将Chatgpt与Google表格集成在一起。
 
 ## 也可以看看
-  * [人工智能简介|什么是AI？] [15]
-  * [如何在VSCODE中使用chatgpt | VSCODE扩展代码GPT] [1]
-  * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命] [2]
-  * [什么是前5个开源AI框架] [16]
+  * [人工智能简介|什么是AI？][15]
+  * [如何在VSCODE中使用chatgpt | VSCODE扩展代码GPT][1]
+  * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命][2]
+  * [什么是前5个开源AI框架][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: https://www.google.com/sheets/about/

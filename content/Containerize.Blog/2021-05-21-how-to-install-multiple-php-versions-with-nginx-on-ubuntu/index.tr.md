@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 
 ## Nginx ile PHP'nin birden fazla sürümünü kullanmak istiyorsanız, bu makalede Ubuntu'da NGINX ile PHP'nin nasıl yükleneceğine dair adım adım size rehberlik edeceğiz.
 Bu makale, Nginx hakkında öğreticilerle ilgili dizilerimizin devamıdır. Şimdiye kadar Nginx'i yük dengeleyici olarak nasıl kullanacağımızı, Nginx'in ters proxy olarak nasıl kullanılacağını ele aldık. Ve şimdi bu öğretici, “Nginx ile PHP'nin birden fazla sürümünün nasıl kullanılacağı” sorusunu başka bir soruyu kapsıyor. Bu öğreticide, PHP'nin Ubuntu'ya nasıl yükleneceğine, PHP'nin Nginx ile nasıl yapılandırılacağı ve son olarak Nginx ile PHP'nin birden fazla sürümünü nasıl yükleyebileceğiniz konusunda size adım adım rehberlik edeceğiz. Öyleyse başlayalım!
-  * [Nginx'i yükleyin] [1]
-  * [Birden çok PHP sürümünü yükleyin] [2]
-  * [PHP ile birden çok web sitesi oluşturun] [3]
-  * [Nginx'i web siteleri için farklı sürümler çalıştıracak şekilde yapılandırın] [4]
-  * [Sonuç] [5]
+  * [Nginx'i yükleyin][1]
+  * [Birden çok PHP sürümünü yükleyin][2]
+  * [PHP ile birden çok web sitesi oluşturun][3]
+  * [Nginx'i web siteleri için farklı sürümler çalıştıracak şekilde yapılandırın][4]
+  * [Sonuç][5]
 
 ## nginx {#nginx} yükle
 Nginx (“Engine-X” olarak telaffuz edilir), genellikle ters proxy veya HTTP önbellek olarak kullanılan açık kaynaklı bir web sunucusudur. Linux için ücretsiz olarak kullanılabilir.
@@ -172,8 +172,10 @@ systemctl restart php7.2-fpm
 Bu öğreticide Ubuntu'da birden fazla PHP sürümünün nasıl yapılacağını araştırdık. Nginx'in nasıl kurulacağını öğrendik. Sonra Nginx'te iki farklı web sitesinin nasıl kurulacağını araştırdık. Ve son olarak, Nginx ile PHP'nin farklı sürümlerine sahip iki farklı web sitesinin nasıl yapılandırılacağını öğrendik. Umarım öğretici size yardımcı oldu.
 
 ## Keşfetmek
-  * [Nginx'i ters proxy olarak nasıl kurar ve yapılandırır] [6]
-  * [Uygulamanız için Nginx nasıl yük dengeleyici olarak kullanılır] [7]
+  * [Nginx'i ters proxy olarak nasıl kurar ve yapılandırır][6]
+  * [Uygulamanız için Nginx nasıl yük dengeleyici olarak kullanılır][7]
+
+  
 [1]: #nginx
 [2]: #php
 [3]: #web

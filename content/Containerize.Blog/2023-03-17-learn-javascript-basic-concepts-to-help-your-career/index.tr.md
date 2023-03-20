@@ -16,11 +16,11 @@ categories: ['Programming']
 
 
 ## Genel Bakış
-JavaScript, dinamik web tabanlı uygulamalar geliştirmek için kullanılan bir komut dosyası dilidir. Statik web siteleri oluşturmak için HTML ve CSS kullanıyoruz. Önceki blog yazımızda, [Belge Nesne Modeli] [1] 'i ele aldık ve şimdi diğer önemli**JavaScript Temel Kavramları**ele alacağız**. Web geliştiricileri, zengin özellikleri ve çerçeveleri nedeniyle bu komut dosyası dilini tercih etme eğilimindedir. Ayrıca, JavaScript'i öğrenerek ön uç ve arka uçta geliştirme yapabilirsiniz. Ancak, yalnızca web uygulamaları geliştiremezsiniz, aynı zamanda mobil uygulamalar da geliştiremezsiniz. Bu JavaScript öğreticisi, kendinizi bir röportaj oturumuna hazırlıyorsanız size yardımcı olacaktır. Bununla birlikte, bu kılavuz bilgi kovanıza daha fazla eklemek için okumaya değer.
+JavaScript, dinamik web tabanlı uygulamalar geliştirmek için kullanılan bir komut dosyası dilidir. Statik web siteleri oluşturmak için HTML ve CSS kullanıyoruz. Önceki blog yazımızda, [Belge Nesne Modeli][1] 'i ele aldık ve şimdi diğer önemli**JavaScript Temel Kavramları**ele alacağız**. Web geliştiricileri, zengin özellikleri ve çerçeveleri nedeniyle bu komut dosyası dilini tercih etme eğilimindedir. Ayrıca, JavaScript'i öğrenerek ön uç ve arka uçta geliştirme yapabilirsiniz. Ancak, yalnızca web uygulamaları geliştiremezsiniz, aynı zamanda mobil uygulamalar da geliştiremezsiniz. Bu JavaScript öğreticisi, kendinizi bir röportaj oturumuna hazırlıyorsanız size yardımcı olacaktır. Bununla birlikte, bu kılavuz bilgi kovanıza daha fazla eklemek için okumaya değer.
 Bu makalede aşağıdaki noktaları ele alacağız:
-***[JavaScript'te çekilen nedir] [2]**
-***[JavaScript'teki Scopes] [3]**
-***[JavaScript Kapanışları] [4]**
+***[JavaScript'te çekilen nedir][2]**
+***[JavaScript'teki Scopes][3]**
+***[JavaScript Kapanışları][4]**
 
 ## JavaScript {#Javascript}
 Mevcut kapsamın üstünde işlev veya değişken beyan alma olgusu kaldırma olarak bilinir. Bu çok kritik bir kavramdır ve çoğu JavaScript geliştiricisi bunun farkında değildir. Bununla birlikte, burada dikkat edilmesi gereken önemli bir şey, fonksiyon/değişken başlatma değil, sadece işlev/değişken bildirimlerinin üste alınmasıdır.
@@ -53,7 +53,7 @@ Yukarıdaki kod snippet'teki hata oluştu. Bunun nedeni, bu değişkeni kaldır�
 
 ## JavaScript'teki Scopes {#Scopes-In-Javascript}
 Kapsam, bir geliştiricinin bilmesi gereken JavaScript temel kavramlarından biridir. Bununla birlikte, JavaScript Scopes ile çalışmak basit değildir ve biraz farklıdır. Bu nedenle, JavaScript'te üç tür kapsam vardır ve bunlar aşağıdaki gibidir:
-* * Blok seviyesi**: "Let" veya "const" ile bildirilen değişkenler blok seviyesi kapsamını içerir.
+**Blok seviyesi**: "Let" veya "const" ile bildirilen değişkenler blok seviyesi kapsamını içerir.
 ```
 if(true){
   let a = 1;
@@ -61,7 +61,7 @@ if(true){
 // a is not accessible outside the curly braces.
 ```
 "A" değişkenine kıvırcık diş telleri {} dışında erişilemez çünkü blok seviyesi kapsamına sahiptir.
-* * Fonksiyon seviyesi**: JavaScript işlevinin içinde bildirilen değişkenler yerel kapsamı vardır.
+**Fonksiyon seviyesi**: JavaScript işlevinin içinde bildirilen değişkenler yerel kapsamı vardır.
 ```
 function innerFunc(){
         let last_name = "ashraf";
@@ -70,7 +70,7 @@ function innerFunc(){
 // last_name is not accessible outside the function.
 ```
 Burada dikkat edilmesi gereken önemli bir şey, "" const "ve" var "ile ilan edilen değişkenlerin işlev gövdesi içinde işlev kapsamına sahip olmasıdır.
-* * Global-Level**: İşlev dışında ilan edilen değişkenler küresel değişkenler haline gelir. "Let", "const" veya "var" anahtar kelimeleri kullanarak onları ilan etmiş olsanız da. Ayrıca, bir değişken, aşağıdaki kod snippet'inde gösterildiği gibi herhangi bir anahtar kelime kullanmadan bildirilirse global bir değişken haline gelir:
+**Global-Level**: İşlev dışında ilan edilen değişkenler küresel değişkenler haline gelir. "Let", "const" veya "var" anahtar kelimeleri kullanarak onları ilan etmiş olsanız da. Ayrıca, bir değişken, aşağıdaki kod snippet'inde gösterildiği gibi herhangi bir anahtar kelime kullanmadan bildirilirse global bir değişken haline gelir:
 ```
 function innerFunc(){
         last_name = "ashraf";
@@ -103,26 +103,28 @@ First_name değişkenine InnerFunc adlı işlevin içinde erişilebilir, ancak �
 Bu JavaScript kılavuzunu burada bitiriyoruz ve umarız**JavaScript Temel Kavramları**hakkında daha iyi bir anlayışa sahip olursunuz. Dahası,**JavaScript kapanışlarından, JavaScript'teki Scopes**ve kaldırma işleminden de geçtik. Yeni başlayanlar için zorunlu olan birçok önemli kavram vardır. Dolayısıyla, JavaScript konseptlerinizi geliştirmek veya yenilemek için gelişiyorsanız bu makale size yardımcı olacaktır. Ayrıca, "Ayrıca bakınız" bölümünde belirtilen blog yayınlarından geçebilirsiniz.
 
 ## Bizimle iletişime geçin
-Son olarak, [Containerize.com] [5] çeşitli heyecan verici konularda devam eden JavaScript öğreticileri sunmaktadır. [Facebook] [6], [LinkedIn] [7] ve [Twitter] [8] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
+Son olarak, [Containerize.com][5] çeşitli heyecan verici konularda devam eden JavaScript öğreticileri sunmaktadır. [Facebook][6], [LinkedIn][7] ve [Twitter][8] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
 
 ## Bir soru sor
-[Forum] [9] 'da sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][9] 'da sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * JavaScript'te öğrenilecek önemli kavramlar nelerdir?**
-JavaScript temel kavramlarını bilmek için lütfen bu JavaScript Beginner'ın [Guide] [2] 'yi takip edin.
+**JavaScript'te öğrenilecek önemli kavramlar nelerdir?**
+JavaScript temel kavramlarını bilmek için lütfen bu JavaScript Beginner'ın [Guide][2] 'yi takip edin.
 
 ## Ayrıca bakınız
-  * [JavaScript'te DOM nedir? | Belge Nesne Modeli] [1]
-  * [JavaScript'te söz nedir? | JavaScript öğreticisi] [10]
-  * [Sunucusuz bilgi işlem nedir? | Sunucusuz Mimari] [11]
-  * [Multitenancy nedir? | Neden çok kiracı bir yaklaşım?] [12]
-  * [Üretken AI nedir | Üretken yapay zeka] [13]
-  * [JavaScript'te eşzamansız ne bekliyor? | Bir JavaScript Kılavuzu] [14]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [15]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [16]
-  * [Yapay Zekaya Giriş | AI nedir?] [17]
-  * [JavaScript'te eşzamansız ne bekliyor? | Bir JavaScript Kılavuzu] [18]
+  * [JavaScript'te DOM nedir? | Belge Nesne Modeli][1]
+  * [JavaScript'te söz nedir? | JavaScript öğreticisi][10]
+  * [Sunucusuz bilgi işlem nedir? | Sunucusuz Mimari][11]
+  * [Multitenancy nedir? | Neden çok kiracı bir yaklaşım?][12]
+  * [Üretken AI nedir | Üretken yapay zeka][13]
+  * [JavaScript'te eşzamansız ne bekliyor? | Bir JavaScript Kılavuzu][14]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][15]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][16]
+  * [Yapay Zekaya Giriş | AI nedir?][17]
+  * [JavaScript'te eşzamansız ne bekliyor? | Bir JavaScript Kılavuzu][18]
+
+  
 [1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
 [2]: #What-is-hoisting-in-JavaScript
 [3]: #Scopes-in-JavaScript

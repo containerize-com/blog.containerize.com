@@ -15,13 +15,13 @@ categories: ['Game Development Software']
 
 
 ## **Überblick**
-In unserer Tutorial -Serie der Open -Source -Spieleentwicklung haben wir Blog -Beiträge zu einigen beliebten Themen wie [Game Development Tutorial | veröffentlicht Spielerbewegung in GDevelop] [1], [HTML5 -Spielentwicklungs -Tutorial für Videospielprogrammierer] [2], [wie die globale Spielebranche Open -Source -Software nutzt] [3] und [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten] [4 ]. In diesem Tutorial -Artikel geht es darum, mit der Spieleentwicklung mit kostenlosen Open Source [Supermächten] [5] zu beginnen, indem sie die folgenden Punkte abdecken.
-  *** [Arten von Spielanimationen] [6] **
-  *** [Wie erstellt man Sprites?] [7] **
-  *** [Arbeiten mit Szenen] [8] **
-  *** [Starten des Spiels auf Localhost] [9] **
-  *** [Fazit] [10] **
-Es gibt viele Open-Source-Spieleentwicklungssoftware für Anfänger mit Selbsthostfunktionen. [Supermächte] [5] ist jedoch eine plattformübergreifende 2D- und 3D-Spielerstellungssoftware. Es bietet integrierte Bibliotheken und Spiele, die Spieleentwicklungen für Spieleentwickler erleichtern. Diese kostenlose Spieldesign -App ist in TypeScript geschrieben und die gesamte Dokumentation ist unter [Github] [11] in Bezug auf Entwicklung und Bereitstellung verfügbar. In diesem Blog -Beitrag werden wir Superkräfte bezüglich ihrer Verwendung untersuchen.
+In unserer Tutorial -Serie der Open -Source -Spieleentwicklung haben wir Blog -Beiträge zu einigen beliebten Themen wie [Game Development Tutorial | veröffentlicht Spielerbewegung in GDevelop][1], [HTML5 -Spielentwicklungs -Tutorial für Videospielprogrammierer][2], [wie die globale Spielebranche Open -Source -Software nutzt][3] und [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten][4 ]. In diesem Tutorial -Artikel geht es darum, mit der Spieleentwicklung mit kostenlosen Open Source [Supermächten][5] zu beginnen, indem sie die folgenden Punkte abdecken.
+  *** [Arten von Spielanimationen][6] **
+  *** [Wie erstellt man Sprites?][7] **
+  *** [Arbeiten mit Szenen][8] **
+  *** [Starten des Spiels auf Localhost][9] **
+  *** [Fazit][10] **
+Es gibt viele Open-Source-Spieleentwicklungssoftware für Anfänger mit Selbsthostfunktionen. [Supermächte][5] ist jedoch eine plattformübergreifende 2D- und 3D-Spielerstellungssoftware. Es bietet integrierte Bibliotheken und Spiele, die Spieleentwicklungen für Spieleentwickler erleichtern. Diese kostenlose Spieldesign -App ist in TypeScript geschrieben und die gesamte Dokumentation ist unter [Github][11] in Bezug auf Entwicklung und Bereitstellung verfügbar. In diesem Blog -Beitrag werden wir Superkräfte bezüglich ihrer Verwendung untersuchen.
 
 ## Arten von Spielanimationen {#types}
 Animationen sind ein wesentlicher Bestandteil von Videospielen. Charaktere in den Spielen müssen auf die Aktionen des Benutzers reagieren, die Animation sollte reibungslos und abrupt sein. Es geht darum, mehrere Frames und Animatoren zu verwalten, um diese Frames zu verfeinern, um bewegende Effekte zu erzielen. Darüber hinaus gibt es 2D- und 3D-Animationen, bei denen sich Objekte im dreidimensionalen Raum zu bewegen scheinen. Spieleentwickler und Grafikdesigner erstellen 3D -Modelle. Animationen hängen von der Art des Spiels ab und die häufigsten Typen sind wie folgt.
@@ -33,7 +33,7 @@ Animationen sind ein wesentlicher Bestandteil von Videospielen. Charaktere in de
 
 ## Wie erstellt man Sprites? {#sprites}
 In diesem Abschnitt des Leitfadens für das Game Making können Benutzer Projekte erstellen und Sprites für das Spiel erstellen. Sprites sind nicht statische Bilder oder Grafiken, die nicht nur in Spielen, sondern auch Teil des Webdesigns verwendet werden. Diese werden normalerweise über einen Hintergrund gezogen, der ständig aktualisiert wird.
-Stellen Sie vor dem weiteren weiterverkehrsberechtigten Supermächten auf Ihrer Maschine ein. Sie können diesen Link folgen [HTML5 Game Development Tutorial für Videospielprogrammierer] [2], um diese kostenlose Plattform für kostenlose Spielerstellung einzurichten.
+Stellen Sie vor dem weiteren weiterverkehrsberechtigten Supermächten auf Ihrer Maschine ein. Sie können diesen Link folgen [HTML5 Game Development Tutorial für Videospielprogrammierer][2], um diese kostenlose Plattform für kostenlose Spielerstellung einzurichten.
 Öffnen Sie zunächst die Anwendung im Browser und erstellen Sie ein neues leeres Projekt. Wie im Bild unten gezeigt.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-12.32.59-1024x576.png" alt="Erste Schritte mit der Spieleentwicklung">}}
@@ -75,15 +75,17 @@ Klicken Sie nun auf "Player" und wählen Sie unter der Komponente "Sprite Render
 
 
 ## Schlussfolgerung {#Conclusion}
-Dies ist das Ende des Tutorials, in dem wir gelernt haben, wie man für Anfänger ein Spiel für Kratzer macht. Daher wird der Beginn der Spieleentwicklung einfach, wenn eine detaillierte Dokumentation der Spieleentwicklungssoftware verfügbar ist. Schließlich befindet sich [** Containerize.com **] [12] in einem konsistenten Prozess, Artikel zu weiteren Open -Source -Themen und -produkten zu schreiben. Bitte bleiben Sie mit dieser Kategorie [13] -Kategorie in Kontakt mit dieser [Spieleentwicklungssoftware] für regelmäßige Updates.
+Dies ist das Ende des Tutorials, in dem wir gelernt haben, wie man für Anfänger ein Spiel für Kratzer macht. Daher wird der Beginn der Spieleentwicklung einfach, wenn eine detaillierte Dokumentation der Spieleentwicklungssoftware verfügbar ist. Schließlich befindet sich [** Containerize.com **][12] in einem konsistenten Prozess, Artikel zu weiteren Open -Source -Themen und -produkten zu schreiben. Bitte bleiben Sie mit dieser Kategorie [13] -Kategorie in Kontakt mit dieser [Spieleentwicklungssoftware] für regelmäßige Updates.
 
 ## Erkunden
-  * [GDevelop] [14]
-  * [Godot] [15]
-  * [Supermächte] [5]
-  * [Cocos Creator] [16]
-  * [Panda3d] [17]
-  * [Playcanvas] [18]
+  * [GDevelop][14]
+  * [Godot][15]
+  * [Supermächte][5]
+  * [Cocos Creator][16]
+  * [Panda3d][17]
+  * [Playcanvas][18]
+
+  
 [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
 [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/

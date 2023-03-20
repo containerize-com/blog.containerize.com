@@ -15,19 +15,19 @@ categories: ['Marketing Automation']
 
 
 ## Visão geral
-Bem -vindo a outra nova postagem no blog da série de [Software de automação de marketing] [1]. No passado recente, publicamos artigos sobre alguns tópicos interessantes, como [como configurar campanhas mautas usando o Campaign Builder] [2], [Marketing Automation com integração mautica e woocommerce] [3] e muito mais. No entanto, examinaremos o software de automação gratuito mais usado ** [Civicrm] [4] vs [SuperEcrm] [5]. ** Com o passar do tempo, as estratégias de marketing estão evoluindo em um ritmo alto. Tornou -se altamente importante alcançar o mercado no momento mais apropriado para capturar o mercado. Além disso, as pessoas estão tão interessadas em seguir as coisas que estão em tendência.
-Portanto, uma ferramenta de automação de marketing em nível corporativo ** agora é um componente obrigatório das empresas. Existem muitas tarefas repetitivas relacionadas ao marketing que ocorrem diariamente e consomem mão de obra e outros esforços. De fato, existem muitos outros softwares gratuitos disponíveis para ** automação de marketing gratuita ** que você pode encontrar neste [espaço] [6]. Esse software de marketing de código aberto não apenas automatiza as tarefas de marketing, mas também coleta dados de visitantes com base em suas atividades. Além disso, o software de automação gratuito ajuda as empresas em termos de receita, vendas e leads para nutrir. Vamos cobrir os seguintes pontos e passar pelos aspectos críticos de [Civicrm] [4] e [SuperEcrm] [5].
-  * [O que é civicrm?] [7]
-  * [Breve introdução do SuperEcrm] [8]
-  * [Civicrm vs Suveecrm] [9]
-  * [Conclusão] [10]
+Bem -vindo a outra nova postagem no blog da série de [Software de automação de marketing][1]. No passado recente, publicamos artigos sobre alguns tópicos interessantes, como [como configurar campanhas mautas usando o Campaign Builder][2], [Marketing Automation com integração mautica e woocommerce][3] e muito mais. No entanto, examinaremos o software de automação gratuito mais usado ** [Civicrm][4] vs [SuperEcrm][5]. ** Com o passar do tempo, as estratégias de marketing estão evoluindo em um ritmo alto. Tornou -se altamente importante alcançar o mercado no momento mais apropriado para capturar o mercado. Além disso, as pessoas estão tão interessadas em seguir as coisas que estão em tendência.
+Portanto, uma ferramenta de automação de marketing em nível corporativo ** agora é um componente obrigatório das empresas. Existem muitas tarefas repetitivas relacionadas ao marketing que ocorrem diariamente e consomem mão de obra e outros esforços. De fato, existem muitos outros softwares gratuitos disponíveis para ** automação de marketing gratuita ** que você pode encontrar neste [espaço][6]. Esse software de marketing de código aberto não apenas automatiza as tarefas de marketing, mas também coleta dados de visitantes com base em suas atividades. Além disso, o software de automação gratuito ajuda as empresas em termos de receita, vendas e leads para nutrir. Vamos cobrir os seguintes pontos e passar pelos aspectos críticos de [Civicrm][4] e [SuperEcrm][5].
+  * [O que é civicrm?][7]
+  * [Breve introdução do SuperEcrm][8]
+  * [Civicrm vs Suveecrm][9]
+  * [Conclusão][10]
 
 ## O que é civicrm? {#Civi}
-Este [software de gerenciamento de relacionamento constituinte] [4] é de código aberto, gratuito e vem com recursos de auto-hospedagem. O CivicRM é altamente extensível e oferece integração com o software de gerenciamento de conteúdo mais usado, software de blog como [WordPress] [11], [Joomla] [12], [Drupal] [13] e muito mais. Este ** software de automação gratuito ** é rico em recursos e vem com ferramentas de relatório para gerar vários relatórios. Além disso, permite configurar campanhas de defesa, captação de recursos ponto a ponto, gerenciamento de eventos e gerenciamento de casos.
-Esta ** ferramenta de automação de marketing ** é fácil de configurar e requer requisitos simples para configurá -lo em servidores que incluem PHP e MySQL. Acima de tudo, oferece recursos altamente eficientes, como pesquisa rápida, conjuntos de dados personalizados, rastreamento de interação, registro de eventos on -line, aceitar pagamentos, relatórios de eventos e muito mais. Além disso, permite aplicar filtros nos dados, envia presentes a amigos e familiares e oferece provisões para salvar relatórios em diferentes formatos. Além disso, o CIVICRM é escrito em PHP, juntamente com a entrada de outros idiomas, como JavaScript e HTML. Portanto, você pode encontrar arquivos de código -fonte no [Github] [14].
+Este [software de gerenciamento de relacionamento constituinte][4] é de código aberto, gratuito e vem com recursos de auto-hospedagem. O CivicRM é altamente extensível e oferece integração com o software de gerenciamento de conteúdo mais usado, software de blog como [WordPress][11], [Joomla][12], [Drupal][13] e muito mais. Este ** software de automação gratuito ** é rico em recursos e vem com ferramentas de relatório para gerar vários relatórios. Além disso, permite configurar campanhas de defesa, captação de recursos ponto a ponto, gerenciamento de eventos e gerenciamento de casos.
+Esta ** ferramenta de automação de marketing ** é fácil de configurar e requer requisitos simples para configurá -lo em servidores que incluem PHP e MySQL. Acima de tudo, oferece recursos altamente eficientes, como pesquisa rápida, conjuntos de dados personalizados, rastreamento de interação, registro de eventos on -line, aceitar pagamentos, relatórios de eventos e muito mais. Além disso, permite aplicar filtros nos dados, envia presentes a amigos e familiares e oferece provisões para salvar relatórios em diferentes formatos. Além disso, o CIVICRM é escrito em PHP, juntamente com a entrada de outros idiomas, como JavaScript e HTML. Portanto, você pode encontrar arquivos de código -fonte no [Github][14].
 
 ## breve introdução de sudeCRM
-Nesta seção da postagem do blog ** Civicrm vs Suveecrm **, passaremos brevemente por outro Popular Open Sourcermm. Este ** software de automação gratuito ** é alternativo ao Salesforce e vem com recursos de auto-hospedagem. Ele permite que você atinja ** Automação de marketing gratuita ** de maneiras altamente eficientes e rastreáveis. Existem muitos recursos disponíveis, como gerenciamento de finanças, citações de modelos, manutenção de renovações de contratos, suporte de perguntas e respostas, fluxo de trabalho flexível, autoatendimento do cliente e muito mais. É altamente extensível e oferece integrações com aplicativos de terceiros. Além disso, o SuperEcrm também é escrito no PHP e é fácil de configurar em servidores. Portanto, você pode encontrar os arquivos de código -fonte no [Github] [15].
+Nesta seção da postagem do blog ** Civicrm vs Suveecrm **, passaremos brevemente por outro Popular Open Sourcermm. Este ** software de automação gratuito ** é alternativo ao Salesforce e vem com recursos de auto-hospedagem. Ele permite que você atinja ** Automação de marketing gratuita ** de maneiras altamente eficientes e rastreáveis. Existem muitos recursos disponíveis, como gerenciamento de finanças, citações de modelos, manutenção de renovações de contratos, suporte de perguntas e respostas, fluxo de trabalho flexível, autoatendimento do cliente e muito mais. É altamente extensível e oferece integrações com aplicativos de terceiros. Além disso, o SuperEcrm também é escrito no PHP e é fácil de configurar em servidores. Portanto, você pode encontrar os arquivos de código -fonte no [Github][15].
 
 ## civicrm vs sudeecrm {#vs}
 Até agora, passamos pelo que é o Civicm e também analisamos o SuperEcrm. Agora, vamos fazer uma comparação entre esses dois software de automação gratuita **. Então, vamos analisar os seguintes pontos para cobrir este artigo ** civicrm vs superecrm **.
@@ -47,16 +47,18 @@ Da mesma forma, você pode explorar outros aspectos e recursos do Civicrm e do S
 
 ## Conclusão {#conclusion}
 Isso nos leva ao final deste ** Civicrm vs SuperEcrm ** Postagem do blog. Cobrimos alguns tópicos importantes neste artigo, como o que é o Civicrm, uma breve introdução do SuperEcrm e uma comparação de ambas as ** ferramentas de automação de marketing **. Além disso, existem outros ** software de automação gratuito ** e artigos relevantes alistados na seção "Explorar" abaixo que você pode conferir. Além disso, esta postagem do blog certamente o ajudará se você estiver procurando seriamente optar por um software de código aberto para automatizar seu marketing comercial.
-Finalmente, [contenderize.com] [16] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com [plataformas de automação de marketing] [6] categoria para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [17], [LinkedIn] [18] e [Twitter] [19].
+Finalmente, [contenderize.com][16] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com [plataformas de automação de marketing][6] categoria para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][17], [LinkedIn][18] e [Twitter][19].
 
 ## Explore
-  * [Mautic] [20]
-  * [Espocrm] [21]
-  * [Plataformas de automação de marketing] [6]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [22]
-  * [Coisas para revisar antes de optar por software de código aberto em 2021] [23]
-  * [Tutorial Drupal | Automatize o crescimento de chumbo com Drupal e Mautic] [24]
-  * [Civicrm WordPress Integration | Tutorial do WordPress] [25]
+  * [Mautic][20]
+  * [Espocrm][21]
+  * [Plataformas de automação de marketing][6]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][22]
+  * [Coisas para revisar antes de optar por software de código aberto em 2021][23]
+  * [Tutorial Drupal | Automatize o crescimento de chumbo com Drupal e Mautic][24]
+  * [Civicrm WordPress Integration | Tutorial do WordPress][25]
+
+  
 [1]: https://blog.containerize.com/category/marketing-automation/
 [2]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
 [3]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/

@@ -14,13 +14,13 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/deployer-blog-post.png" alt="Herramienta de implementación de PHP">}}
 
 Es un trabajo muy crítico implementar la aplicación en el servidor después del desarrollo. Los equipos a menudo son lanzadas por equipos. Por lo tanto, es preferible que los equipos eliminen el trabajo manual y automatice el proceso ** Implementación de software **. Permitiría que los equipos de software se concentren en tareas más importantes. Hay varias ** herramienta de implementación de código abierto **, pero nos concentraremos en ** PHP Deployer ** en este tutorial. Cubriremos la siguiente sección en esta publicación.
-  *[** ¿Qué es el implementador **] [1]
-  *[** Instalación del implementador **] [2]
-  *[** Implementar la aplicación PHP **] [3]
-  *[** Conclusión **] [4]
+  *[** ¿Qué es el implementador **][1]
+  *[** Instalación del implementador **][2]
+  *[** Implementar la aplicación PHP **][3]
+  *[** Conclusión **][4]
 
 ## ¿Qué es el implementador {#what}
-[** desplegador **] [5] es una herramienta de implementación de PHP gratuita y de código abierto **. Permite equipos de software para automatizar los flujos de trabajo de implementación para aplicaciones basadas en PHP. Es muy simple de instalar y fácil de usar. Cualquier persona, desde principiantes hasta la experiencia de nivel experto, puede usarlo rápidamente para implementar aplicaciones PHP. El implementador viene con recetas/scripts listos para usar para marcos PHP populares, CMS y software de carrito de compras. Además, puede hacer ** la implementación de Laravel ** con esta ** herramienta de implementación de código abierto **. El desarrollador puede usar recetas incorporadas para sus proyectos y usarlas para la implementación. Además, puede crear fácilmente script de instalación/implementación con el implementador ** PHP ** Asistente. Además, esta ** herramienta de implementación gratuita ** ofrece excelentes características como implementaciones de tiempo cero, reversión a la versión anterior, SSH, ejecución paralela y muchas más.
+[** desplegador **][5] es una herramienta de implementación de PHP gratuita y de código abierto **. Permite equipos de software para automatizar los flujos de trabajo de implementación para aplicaciones basadas en PHP. Es muy simple de instalar y fácil de usar. Cualquier persona, desde principiantes hasta la experiencia de nivel experto, puede usarlo rápidamente para implementar aplicaciones PHP. El implementador viene con recetas/scripts listos para usar para marcos PHP populares, CMS y software de carrito de compras. Además, puede hacer ** la implementación de Laravel ** con esta ** herramienta de implementación de código abierto **. El desarrollador puede usar recetas incorporadas para sus proyectos y usarlas para la implementación. Además, puede crear fácilmente script de instalación/implementación con el implementador ** PHP ** Asistente. Además, esta ** herramienta de implementación gratuita ** ofrece excelentes características como implementaciones de tiempo cero, reversión a la versión anterior, SSH, ejecución paralela y muchas más.
 
 ## Instalación del implementador {#Installing}
   * El implementador depende de PHP. Debe asegurarse de que PHP se esté ejecutando en su servidor. Sin embargo, puede usar el siguiente comando para instalar PHP en Ubuntu.
@@ -119,20 +119,22 @@ dep rollback
 
 ## conclusión {#conclusion}
 Hemos discutido sobre el implementador y cómo instalarlo en este tutorial. Además, hemos creado una guía completa para implementar la aplicación basada en PHP del repositorio de GitHub. Con suerte, esta publicación de blog lo ayudará a iniciar ** Implementar la aplicación PHP ** con el implementador. Además, escribiremos más sobre esta herramienta de implementación ** PHP ** en los próximos tutoriales.
-Finalmente, [** Contenerize.com **] [6] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [** Herramientas de implementación **] [7] para las últimas actualizaciones.
+Finalmente, [** Contenerize.com **][6] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [** Herramientas de implementación **][7] para las últimas actualizaciones.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  *[** desplegador **] [8]
-  *[** Jenkins **] [9]
-  *[** Drone **] [10]
-  *[** Capistrano **] [11]
-  *[** Rancher **] [12]
-  *[** Concurse **] [13]
-  *[** Ansible **] [14]
-  *[** GOCD **] [15]
-  *[** Top 5 Herramientas de implementación de código abierto en 2021 **] [16]
-  *[** Integración continua e implementación continua desde el servidor de control de origen **] [17]
+  *[** desplegador **][8]
+  *[** Jenkins **][9]
+  *[** Drone **][10]
+  *[** Capistrano **][11]
+  *[** Rancher **][12]
+  *[** Concurse **][13]
+  *[** Ansible **][14]
+  *[** GOCD **][15]
+  *[** Top 5 Herramientas de implementación de código abierto en 2021 **][16]
+  *[** Integración continua e implementación continua desde el servidor de control de origen **][17]
+
+  
 [1]: #What
 [2]: #Installing
 [3]: #Deploy

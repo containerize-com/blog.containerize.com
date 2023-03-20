@@ -15,12 +15,12 @@ categories: ['Live Chat']
 
 SSS otomasyonu, sık sorulan soruları cevaplamak için chatbots kullanarak müşterinizin çevrimiçi deneyimini geliştirmekten oluşur. Yapay zeka ve makine öğrenimindeki gelişmelerle, yapay zeka tabanlı konuşma sohbet botlarına olan talep çok fazla popülerlik ve talep kazanmıştır. Ve bunun nedeni, çoğunlukla tüm işletmelerin işletme çevrimdışı olsa bile müşteri deneyimlerini geliştirmek istemesidir. Konuşma sohbet botları, işletmelerin müşterilerine istedikleri her zaman mevcut yüksek dokunuş desteğini vermelerini mümkün kıldı. Bu blog gönderisinin amacı, BotPress kullanarak AI tabanlı bir SSS botu oluşturmanıza yardımcı olmaktır.
 Bu makalede, Botpress'in NLU modülü ve doğal dil anlayışının nasıl çalıştığını ve işletmelerin yüksek müşteri memnuniyeti seviyesine ulaşmalarına yardımcı olabileceğini öğreneceğiz. Başlayalım!
-  *** [Doğal dil işleme nedir] [1] **
-  *[** Kullanım durumunuzu belirleyin **] [2]
-  *[** botpress'i yükleyin **] [3]
-  *[** Yeni bir bot oluştur **] [4]
-  *[** Soru -Cevap botunuzu eğitin **] [5]
-  *[** Sonuç **] [6]
+  *** [Doğal dil işleme nedir][1] **
+  *[** Kullanım durumunuzu belirleyin **][2]
+  *[** botpress'i yükleyin **][3]
+  *[** Yeni bir bot oluştur **][4]
+  *[** Soru -Cevap botunuzu eğitin **][5]
+  *[** Sonuç **][6]
 
 ## Doğal dil işleme nedir {#nlu}
 Doğal Dil İşleme (NLP), bilgisayarların insan dilini anlamasına, yorumlamasına ve manipüle etmesine yardımcı olan yapay zekanın bir dalıdır. NLP, bilgisayarların insanlarla kendi dillerinde iletişim kurmasına yardımcı olur. Ve bilgisayarların bir metin okumasını, konuşma duymasını, yorumlamasını, duyguyu ölçmesini mümkün kılar.
@@ -31,7 +31,7 @@ NLU, gelen her mesajı işleyen ve niyet sınıflandırması, dil tanımlama, va
 Bir SSS AI chatbot oluşturmak istiyorsanız, işletmeniz için bir kullanım durumuna sahip olmanız gerekir. Bu öğretici uğruna, kullanıcılarımızın ürünümüzün fiyatlandırması ve iş zamanlamamızla ilgili rastgele herhangi bir soru sormasını istiyoruz.
 
 ## botpress {#install}
-Botpress'i yüklemek için [web sitesi] [7] 'e gidin, "Ücretsiz İndir" i tıklayın ve platformunuzu seçin. Bu öğretici için MAC sürümünü kullanıyorum. İndirme tamamlandıktan sonra Zip dosyasını çıkarabilir ve doğru klasöre girerek terminalinize aşağıdaki komutu çalıştırabilirsiniz.
+Botpress'i yüklemek için [web sitesi][7] 'e gidin, "Ücretsiz İndir" i tıklayın ve platformunuzu seçin. Bu öğretici için MAC sürümünü kullanıyorum. İndirme tamamlandıktan sonra Zip dosyasını çıkarabilir ve doğru klasöre girerek terminalinize aşağıdaki komutu çalıştırabilirsiniz.
 ```
 ./bp
 ```
@@ -63,10 +63,12 @@ Eğitim yapıldıktan sonra SSS botunuzu yerleşik emülatör aracını kullanar
 
 {{< figure align=center src="images/test-faq-bot.gif" alt="SSS botunuzu test edin">}}
 
-Şimdi, SSS botunuza hazır olduğunuzda, [resmi gömme] [8] Botpress kılavuzunu izleyerek bu botu web sitenizde dağıtabilirsiniz.
+Şimdi, SSS botunuza hazır olduğunuzda, [resmi gömme][8] Botpress kılavuzunu izleyerek bu botu web sitenizde dağıtabilirsiniz.
 
 ## Sonuç {#Conclusion}
 Bu blog yazısında doğal dil işlemeyi öğrendik ve anladık. Ayrıca bot oluşturma süreciyle uygulamalı olarak alıyoruz. Müşterilerinizin iş zamanlamalarınızı ve ödeme planlarınızı bilmelerine yardımcı olan basit bir SSS botu eğittik. Eğiticinin amacı, yeni başlayanların Botpress kullanarak AI tabanlı bir SSS botuna hızla başlamasına yardımcı olmaktı.
+
+  
 [1]: #nlu
 [2]: #case
 [3]: #install

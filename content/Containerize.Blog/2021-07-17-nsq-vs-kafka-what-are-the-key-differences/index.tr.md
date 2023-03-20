@@ -25,11 +25,11 @@ Bu blog makalesi, modern mesajlaşma kuyruk platformu NSQ vs Kafka'nın özetlen
   * Çözüm
 
 ## 1. Kafka nedir?
-[Kafka] [1], LinkedIn tarafından geliştirilen Scala dilinde yazılmış açık kaynaklı bir dağıtılmış olay akış platformudur. Mesajlaşma sistemini yayınlamaktır ve yüksek miktarda mesajı ele alma yeteneğine sahiptir. Kafka “dağıtılmış, dayanıklı, hataya toleranslı, yüksek verimli pub-sub mesajlaşma sistemidir” ve Kafka ile hem gerçek zamanlı hem de toplu işlem yapabilirsiniz. Düğümler arasında dağıtılmış, bölümlenmiş, çoğaltılmış bir taahhüt günlük mesajlaşma hizmetidir ve JVM'de çalışır. Kafka En İyi Mesaj Kuyruğu kullanımı kolaydır ve bir mesajlaşma kuyruk sisteminin işlevselliğini sağlar, ancak benzersiz bir tasarıma sahiptir.
+[Kafka][1], LinkedIn tarafından geliştirilen Scala dilinde yazılmış açık kaynaklı bir dağıtılmış olay akış platformudur. Mesajlaşma sistemini yayınlamaktır ve yüksek miktarda mesajı ele alma yeteneğine sahiptir. Kafka “dağıtılmış, dayanıklı, hataya toleranslı, yüksek verimli pub-sub mesajlaşma sistemidir” ve Kafka ile hem gerçek zamanlı hem de toplu işlem yapabilirsiniz. Düğümler arasında dağıtılmış, bölümlenmiş, çoğaltılmış bir taahhüt günlük mesajlaşma hizmetidir ve JVM'de çalışır. Kafka En İyi Mesaj Kuyruğu kullanımı kolaydır ve bir mesajlaşma kuyruk sisteminin işlevselliğini sağlar, ancak benzersiz bir tasarıma sahiptir.
 Dağıtılmış mesaj kuyruğu Kafka sunucuları broker olarak bilinir ve bunlar bir Kafka kümesi oluşturur. Bir Zookeeper, bir kümedeki tüm brokerler arasındaki koordinasyondan sorumludur. Apache Kafka Mesaj Broker, Unicorn Startups, Sağlık ve LinkedIn, FB, Netflix, Bank of America, Chase Bank, Yahoo, Twitter ve diğerleri gibi en iyi finansal kuruluşlar tarafından kullanılıyor. Açık Kaynak Mesaj Kuyruk Yazılımı Kafka Mimarisi Üreticiler, Tüketiciler, Komisyoncular, Zookeeper, Konular, Bölümler, Kayıtlar ve Günlüklerden oluşur.
 
 ## 2. NSQ nedir? {#CE62}
-[NSQ] [2] SimpleQueue'nin halefi olan açık kaynaklı gerçek zamanlı dağıtılmış mesajlaşma platformudur. Geliştirici, NSQ'yu Bitly tarafından oluşturulan “gerçek zamanlı dağıtılmış bir mesajlaşma platformu” olarak tanımlıyor. Açık kaynak mesaj komisyoncusu SoftWarensq, günde milyarlarca mesajı ele alan bir ölçekte tasarlanmış ve çalışıyor. Tek başarısızlık noktaları olmadan merkezi olmayan topolojileri teşvik eden geleneksel tamponlu bir mesajlaşma sistemidir. Güvenilir bir mesaj dağıtım sistemi ile birlikte arıza toleransını ve yüksek kullanılabilirliği sağlar.
+[NSQ][2] SimpleQueue'nin halefi olan açık kaynaklı gerçek zamanlı dağıtılmış mesajlaşma platformudur. Geliştirici, NSQ'yu Bitly tarafından oluşturulan “gerçek zamanlı dağıtılmış bir mesajlaşma platformu” olarak tanımlıyor. Açık kaynak mesaj komisyoncusu SoftWarensq, günde milyarlarca mesajı ele alan bir ölçekte tasarlanmış ve çalışıyor. Tek başarısızlık noktaları olmadan merkezi olmayan topolojileri teşvik eden geleneksel tamponlu bir mesajlaşma sistemidir. Güvenilir bir mesaj dağıtım sistemi ile birlikte arıza toleransını ve yüksek kullanılabilirliği sağlar.
 NSQ, SPOF'yi en aza indiren yüksek kullanılabilirlik topolojisi sunar. NSQD ve NSQLOOKUPD için birden fazla örnek oluşturarak kullanılabilirliği artırır. Ayrıca, mesajın en az bir kez belirli bir kalıcılıkla teslim edildiğini ve yapılandırılması kolay olduğunu garanti eder. En iyi mesaj broker NSQ daha esnektir ve mesaj kalıcılığını destekler. Parlak bir yönetici kontrol paneline sahiptir. NSQ Kuyruk Mesajlaşma Sistemi 19.9K GitHub Yıldızları ve 2.6K Github Çatalları vardır.
 
 ## 3. Karşılaştırma NSQ - KAFKA {#CE62}
@@ -51,15 +51,17 @@ GitHub'da 20K Github Yıldızları ve 2.6K Çatallı NSQ, 19.4K Github Yıldızl
 
 ## Sonuç: {#4A1A}
 Bu makale, popüler mesajlaşma çerçevelerinin - NSQ ve Kafka'nın çalışması hakkında kısa bir karşılaştırma sağlamıştır. Makale özelliği karşılaştırmaları mesaj kuyruğu verimi, kalıcılık, güvenilirlik, gecikme, ölçeklenebilirlik ve kullanılabilirlik etrafında döner. Bu parametreler, gerçek zamanlı bir uygulama için bir çerçevenin uygunluğuna karar vermek için önemlidir. Bu nedenle, doğru çerçeveyi seçmek kapsamlı bir anlayış için iyi bir makale. Mesajlaşma kuyruğu yazılımı, piyasada yüksek işlemeyi gerçekleştirebilecek gelecekteki teknolojinin omurgasıdır. Yaklaşan öğreticilerimizde, açık kaynak mesajlaşma platformlarıyla ilgili daha ilginç konular hakkında tartışacağız.
-_ [Twitter] [3], [LinkedIn] [4] ve [Facebook] [5] sayfamızda bize katılabilirsiniz. Çevrimiçi olarak hangi mesaj kuyruğu platformunu kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin] [6].
+_ [Twitter][3], [LinkedIn][4] ve [Facebook][5] sayfamızda bize katılabilirsiniz. Çevrimiçi olarak hangi mesaj kuyruğu platformunu kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][6].
 
 ## Keşfetmek:
 Ayrıca sunucunuzun günlük yönetimi ile ilgili başka birkaç makalemiz de var.
-  * [Arka plan işleme için Redis destekli kuyruk sistemi] [7]
-  * [En hızlı arka plan iş işleme sistemi] [8]
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [9]
-  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır] [10]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [11]
+  * [Arka plan işleme için Redis destekli kuyruk sistemi][7]
+  * [En hızlı arka plan iş işleme sistemi][8]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][9]
+  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır][10]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][11]
+
+  
 [1]: https://kafka.apache.org/
 [2]: https://nsq.io/
 [3]: https://twitter.com/containerize_co

@@ -16,7 +16,7 @@ categories: ['Web Server Solution Stack']
 
 ## Aperçu:
 Nginx et Apache sont deux serveurs Web open source les plus populaires ** Souvent utilisé avec PHP. Un proxy inversé ou une passerelle agit comme une connexion entre le client et le serveur. Le client et le serveur échangent des informations entre eux pour travailler en continu et efficacement. Les proxys inverses les plus courants sont ** nginx et apache ** et les deux peuvent être configurés sur la même machine virtuelle lors de l'hébergement de plusieurs sites Web. Un proxy inversé protège les serveurs Web des attaques et de la passerelle de connexion apparaît au client comme un serveur Web ordinaire où aucune configuration de Nginx proxy inverse spéciale n'est nécessaire. Le client envoie une demande tandis que le proxy inversé décide où transmettre les informations demandées, puis fournir le résultat de sortie final au client.
-Après beaucoup d'appréciation pour notre série sur les tutoriels Redis, nous avons reçu de nombreuses demandes pour commencer une série sur les tutoriels Nginx. La semaine dernière, nous avons donc commencé avec un tutoriel sur la façon d'utiliser [Nginx Reverse Proxy Load Balancer] [1] pour vos applications. Cet exemple de configuration proxy inverse Nginx simple offre de nombreux avantages de performance proxy de la fiabilité et Nginx. Nginx Simple Reverse Proxy est le serveur Open Source Nginx Open Source le plus utilisé sur Internet. Dans ce tutoriel, nous ** configurerons et explorerons comment utiliser Nginx comme proxy inverse ** et comment le configurer comme proxy inverse sur un seul serveur. Alors, commençons!
+Après beaucoup d'appréciation pour notre série sur les tutoriels Redis, nous avons reçu de nombreuses demandes pour commencer une série sur les tutoriels Nginx. La semaine dernière, nous avons donc commencé avec un tutoriel sur la façon d'utiliser [Nginx Reverse Proxy Load Balancer][1] pour vos applications. Cet exemple de configuration proxy inverse Nginx simple offre de nombreux avantages de performance proxy de la fiabilité et Nginx. Nginx Simple Reverse Proxy est le serveur Open Source Nginx Open Source le plus utilisé sur Internet. Dans ce tutoriel, nous ** configurerons et explorerons comment utiliser Nginx comme proxy inverse ** et comment le configurer comme proxy inverse sur un seul serveur. Alors, commençons!
   * Qu'est-ce qu'un serveur proxy?
   * Forward vs Inverse proxy
   * Configurer le proxy inversé
@@ -60,7 +60,7 @@ location /path/to/location/ {
 }
 ```
 Nginx prend également en charge la mise en mémoire tampon, ce qui aide à améliorer les performances. Avec la mise en mémoire tampon, Nginx stockera la réponse qu'il reçoit du serveur proxyé tant que le client en a besoin pour télécharger.
-Au lieu de proxyer toutes les demandes à un seul serveur, vous pouvez également ** configurer plusieurs serveurs backend ** et laisser le équilibre Nginx se charger entre ces serveurs proxés. Nous avons déjà couvert cela dans notre tutoriel sur [Nginx Load Balancing] [1].
+Au lieu de proxyer toutes les demandes à un seul serveur, vous pouvez également ** configurer plusieurs serveurs backend ** et laisser le équilibre Nginx se charger entre ces serveurs proxés. Nous avons déjà couvert cela dans notre tutoriel sur [Nginx Load Balancing][1].
 
 ## Quels sont les avantages du proxy inverse Nginx?
 Voici les avantages de la configuration du serveur proxy inversé Nginx:
@@ -74,17 +74,19 @@ Voici les avantages de la configuration du serveur proxy inversé Nginx:
 
 ## Conclusion:
 Dans ce didacticiel proxy inversé ** Nginx **, nous avons exploré ce qu'est un serveur proxy Nginx et configurer Nginx Inverse Proxy. Différence entre le serveur proxy inversé VS VS Ninx. Nous avons également appris par exemple comment configurer nginx comme proxy inverse. Maintenant, vous comprenez complet comment installer ** Nginx Inverse Proxy Configuration étape par étape **. Le tutoriel ci-dessus vous aide à commencer avec une configuration proxy inverse. Dans nos prochains tutoriels, nous discuterons de sujets plus intéressants sur Nginx.
-_ Quel est votre serveur Proxy_ _reverse le plus préféré qui est facile, dynamique et complet?. Avez-vous des questions sur le leading_ _Open Source _reverse prox__y, ** Balancer de chargement pour HTTP et TCP ** Applications_?, S'il vous plaît_ [Rendez-vous en contact] [2].
+_ Quel est votre serveur Proxy_ _reverse le plus préféré qui est facile, dynamique et complet?. Avez-vous des questions sur le leading_ _Open Source _reverse prox__y, ** Balancer de chargement pour HTTP et TCP ** Applications_?, S'il vous plaît_ [Rendez-vous en contact][2].
 
 ## Explorer
 Vous pouvez trouver les articles ci-dessous les plus liés
-  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian] [3]
-  * [Secure nginx avec Let's Encrypt sur Ubuntu 20.04] [4]
-  * [Comment utiliser nginx comme équilibreur de charge pour votre application] [1]
-  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu] [5]
-  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian] [6]
-  * [Installez plusieurs versions PHP avec Nginx sur Ubuntu] [7]
-  * [Configuration nginx avec passager sur AWS Production Server] [8]
+  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian][3]
+  * [Secure nginx avec Let's Encrypt sur Ubuntu 20.04][4]
+  * [Comment utiliser nginx comme équilibreur de charge pour votre application][1]
+  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu][5]
+  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian][6]
+  * [Installez plusieurs versions PHP avec Nginx sur Ubuntu][7]
+  * [Configuration nginx avec passager sur AWS Production Server][8]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

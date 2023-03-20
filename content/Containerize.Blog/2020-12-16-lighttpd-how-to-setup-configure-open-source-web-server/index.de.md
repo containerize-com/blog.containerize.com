@@ -13,16 +13,16 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Websites.png" alt="Open Source -Webserver">}}
 
-Willkommen in einem anderen Blog -Beitrag in der Kategorie [Web Server -Lösung] [1]. Wir haben viele Artikel wie [[Setup XAMPP und PhpMyAdmin als Localhost unter Windows] [2]] [3], [Top 5 Open -Source -Webserver -Lösungsstapel in 2021] [4] und einige andere veröffentlicht. Diese Artikel zeigten die Einrichtungsverfahren verschiedener Open -Source -Webserver sowie die detaillierten Handbuchartikel. Tatsächlich wurde ein Webserver in den hinteren 90ern eingeführt und seitdem in der digitalen Welt die größte Popularität gewonnen. Es gibt viele Faktoren, die dem Servieren von Inhalten über das Internet oder Intranet verbunden sind. Ein großer Teil der digitalen Branche ist jedoch den Unternehmen oder Gemeinden beigefügt, die Webserverlösungen pflegen. Daher sind Faktoren wie Robustheit, Sicherheit, Zuverlässigkeit, Speicherung, Datenoptimierung und einige andere Faktoren die Hauptsäulen eines digitalen Systems auf Unternehmensebene.
+Willkommen in einem anderen Blog -Beitrag in der Kategorie [Web Server -Lösung][1]. Wir haben viele Artikel wie [[Setup XAMPP und PhpMyAdmin als Localhost unter Windows][2]][3], [Top 5 Open -Source -Webserver -Lösungsstapel in 2021][4] und einige andere veröffentlicht. Diese Artikel zeigten die Einrichtungsverfahren verschiedener Open -Source -Webserver sowie die detaillierten Handbuchartikel. Tatsächlich wurde ein Webserver in den hinteren 90ern eingeführt und seitdem in der digitalen Welt die größte Popularität gewonnen. Es gibt viele Faktoren, die dem Servieren von Inhalten über das Internet oder Intranet verbunden sind. Ein großer Teil der digitalen Branche ist jedoch den Unternehmen oder Gemeinden beigefügt, die Webserverlösungen pflegen. Daher sind Faktoren wie Robustheit, Sicherheit, Zuverlässigkeit, Speicherung, Datenoptimierung und einige andere Faktoren die Hauptsäulen eines digitalen Systems auf Unternehmensebene.
 Darüber hinaus hat Open Source Community viele Open -Source -Webserver und Web -Proxy -Server entwickelt, mit denen der Unternehmenssektor ihre eigenen Web -Server auf Websites und Software errichten kann. LightTPD Web ist ein kostenloser und Open -Source -Webserver -Lösungsstapel, der speziell für Linux -Maschinen entwickelt wurde. In diesem Blog -Beitrag werden wir die LightTPD durchlaufen, indem wir den folgenden Punkt abdecken.
-  * [Was ist lightTpd?] [5]
-  * [Vorteile von LightTPD] [6]
-  * [Wie konfigurieren Sie LightTPD?] [7]
-  * [Schlussfolgerung] [8]
+  * [Was ist lightTpd?][5]
+  * [Vorteile von LightTPD][6]
+  * [Wie konfigurieren Sie LightTPD?][7]
+  * [Schlussfolgerung][8]
 
 ## Was ist LightTPD? {#Was}
 Im Vergleich zu anderen Webservern wie Apache und Nginx verfügt der LightTPD-Webserver über einen kleinen Speicherpfunddruck, sodass er eine effektive Verwaltung der CPU-Lade bietet. Dieser leichte Webserver bietet erweiterte Funktionssätze, einschließlich FASTCGI, SCGI, AUTH, Ausgangskompression und URL-Wrewriting usw. Ermöglicht die in jeder Programmiersprache geschriebenen Webanwendungen mit dem Server. FastCGI von LightTPD kann so konfiguriert werden, dass sie PHP unterstützen. Abgesehen von PHP unterstützt es auch andere Programmiersprachen, darunter Python, Perl, Ruby und vieles mehr.
-Es gibt viele Open -Source -Webserver und Web -Proxy -Server, aber LightTPD steht ganz oben auf der Liste, die weit verbreitet ist. Diese Webserverlösung ist sehr einfach eingerichtet und erfordert einfache Anforderungen wie Ubuntu 18.04. Darüber hinaus können diejenigen, die diese Open Source -Lösung bereitstellen möchten, die neueste Version von diesem [Link] [9] herunterladen. Vor allem unterstützt es viele andere Sprachen als PHP wie Python, Ruby, Perl und mehr. Darüber hinaus ist die gesamte Dokumentation bezüglich der Entwicklung und Bereitstellung verfügbar. Daher können Entwickler den Quellcode auf [Github] [10] finden.
+Es gibt viele Open -Source -Webserver und Web -Proxy -Server, aber LightTPD steht ganz oben auf der Liste, die weit verbreitet ist. Diese Webserverlösung ist sehr einfach eingerichtet und erfordert einfache Anforderungen wie Ubuntu 18.04. Darüber hinaus können diejenigen, die diese Open Source -Lösung bereitstellen möchten, die neueste Version von diesem [Link][9] herunterladen. Vor allem unterstützt es viele andere Sprachen als PHP wie Python, Ruby, Perl und mehr. Darüber hinaus ist die gesamte Dokumentation bezüglich der Entwicklung und Bereitstellung verfügbar. Daher können Entwickler den Quellcode auf [Github][10] finden.
 
 ## Vorteile von LightPD {#Benefits}
 In diesem Abschnitt werden wir die Vorteile und die Bereitstellung, die dieser Open -Source -Webserver bietet, durchlaufen. Wenn Sie also nach einem schnellen, effizienten und sicheren Webserver suchen, ist der LightTPD -Webserver die beste Wahl für Sie. Es erfordert nicht viel Speicher und CPU -Nutzung. Dies macht es zu einem der besten für jedes Projekt, das Geschwindigkeit und hohe Leistung erfordert. LightTPD kann auf einem einzelnen Server parallel bis zu 10000 Verbindungen verarbeiten. LightTPD ist die perfekte Lösung für jeden Server, der Geschwindigkeits- oder Leistungsprobleme hat. Diese kostenlose Lösung ist kostengünstig und ressourceneffizient.
@@ -69,24 +69,26 @@ Installieren Sie nach einem erfolgreichen Build nun das Paket
 ```
 su make install
 ```
-Überprüfen Sie, ob LightTPD ordnungsgemäß konfiguriert und installiert ist, indem Sie die URL [http: // your-server-ip] [11] besuchen. Sie sollten die folgende Seite sehen
+Überprüfen Sie, ob LightTPD ordnungsgemäß konfiguriert und installiert ist, indem Sie die URL [http: // your-server-ip][11] besuchen. Sie sollten die folgende Seite sehen
 
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="So richten und konfigurieren Sie LightTPD für Hochleistungswebsites">}}
 
 
 ## Schlussfolgerung {#Conclusion}
 Dies bringt uns zum Ende dieses Blog -Beitrags. Wir sind durchgemacht, was ist lightTpd? Wie konfiguriere ich LightTPD? und Einrichten von Verfahren. LightTPD ist ein kostenloser, leistungsstarker und Open-Source-Webserver für Speed-Critical-Umgebungen. Der niedrige Speicherausdruck, die kleine CPU -Last und die Geschwindigkeitsoptimierungen machen es für Server geeignet, die Lastprobleme leiden. Es ist im Vergleich zu anderen Webservern leicht, sicher und schnell, was es zu einer der besten Möglichkeiten für Hochleistungs- und Geschwindigkeits-Kritischen-Websites macht. LightTPD hat eine sehr lebendige und lebendige Gemeinschaft, die Unterstützung für Probleme und Abfragen bietet. Es gibt viele Open -Source -Produkte und relevante Blog -Beiträge, die Sie durchführen können, die im Abschnitt „Explore“ unten erwähnt werden. Daher kann dieser Artikel Ihnen wirklich helfen, wenn Sie sich für einen Open -Source -Webserver für Ihr Unternehmen entscheiden möchten.
-Schließlich hat ** [containerize.com] [12] ** über weitere Open -Source -Produkte geschrieben. Bitte bleiben Sie mit dieser Kategorie [Web Server Solution Stack] [1] in Kontakt. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook] [13], [LinkedIn] [14] und [Twitter] [15] folgen.
+Schließlich hat ** [containerize.com][12] ** über weitere Open -Source -Produkte geschrieben. Bitte bleiben Sie mit dieser Kategorie [Web Server Solution Stack][1] in Kontakt. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][13], [LinkedIn][14] und [Twitter][15] folgen.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Xampp] [16]
-  * [Nginx] [17]
-  * [Caddy] [18]
-  * [LightTpd | Open Source und Lightweight Web Server -Lösung] [19]
-  * [Best Open Source Web Server Solution Stack Optionen] [1]
-  * [Top 5 Open Source Web Server -Lösungsstapel in 2021] [4]
-  * [Setup XAMPP und Phpmyadmin als Lokalhost unter Windows] [2]
+  * [Xampp][16]
+  * [Nginx][17]
+  * [Caddy][18]
+  * [LightTpd | Open Source und Lightweight Web Server -Lösung][19]
+  * [Best Open Source Web Server Solution Stack Optionen][1]
+  * [Top 5 Open Source Web Server -Lösungsstapel in 2021][4]
+  * [Setup XAMPP und Phpmyadmin als Lokalhost unter Windows][2]
+
+  
 [1]: https://products.containerize.com/solution-stack/
 [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 [3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/

@@ -15,14 +15,14 @@ categories: ['Rapid Application Development']
 
 
 ## Aperçu
-Si vous cherchez à accélérer vos processus de développement à l'aide de [Rapid Application Development Software] [1] et que vous vous concentrez sur le chiffre d'affaires, ce billet de blog est pour vous. Dans le passé proche, nous avons publié un article [Top 5 Software de développement d'applications rapides gratuit en 2021] [2]. Il enrôle le logiciel de prototypage rapide open source largement utilisé. Il y a un autre article de blog avec le titre [tutoriel Jhipster pour configurer et créer la première application] [3]. Il s'agit d'un article de blog de tutoriel qui montre une plate-forme RAD populaire nommée [Jhipster] [4].
+Si vous cherchez à accélérer vos processus de développement à l'aide de [Rapid Application Development Software][1] et que vous vous concentrez sur le chiffre d'affaires, ce billet de blog est pour vous. Dans le passé proche, nous avons publié un article [Top 5 Software de développement d'applications rapides gratuit en 2021][2]. Il enrôle le logiciel de prototypage rapide open source largement utilisé. Il y a un autre article de blog avec le titre [tutoriel Jhipster pour configurer et créer la première application][3]. Il s'agit d'un article de blog de tutoriel qui montre une plate-forme RAD populaire nommée [Jhipster][4].
 Dans ce monde à rythme rapide, il devient assez difficile de répondre aux besoins de développement logiciel en constante évolution. Tout d'abord, les équipes de développement de logiciels doivent s'assurer des livraisons fréquentes. Deuxièmement, le prototype de toute application donne une idée complète de l'ensemble du projet, donc le prototypage est un autre facteur. Troisièmement, les équipes envisagent désormais les commentaires des clients la partie la plus importante du cycle de vie du développement. Les développeurs de l'époque ont réalisé les inconvénients de la méthode de la cascade traditionnelle. Cependant, ils ont adopté un constructeur MVP open source qui prend en charge des itérations et des révisions illimitées.
-Pour résoudre ces aspects et d'autres aspects importants, les méthodologies ** RAD ** ont gagné en popularité. Cependant, de nombreux [logiciels RAD] [1] sont disponibles pour répondre à la vitesse des besoins croissants des entreprises et des clients.
+Pour résoudre ces aspects et d'autres aspects importants, les méthodologies ** RAD ** ont gagné en popularité. Cependant, de nombreux [logiciels RAD][1] sont disponibles pour répondre à la vitesse des besoins croissants des entreprises et des clients.
 Dans cet article de blog, nous passerons par les points suivants.
-  * [Que sont le prototypage et le développement rapide des applications ??] [5]
-  * [Qu'est-ce que la méthodologie rad?] [6]
-  * [Avantages du logiciel RAD?] [7]
-  * [Conclusion] [8]
+  * [Que sont le prototypage et le développement rapide des applications ??][5]
+  * [Qu'est-ce que la méthodologie rad?][6]
+  * [Avantages du logiciel RAD?][7]
+  * [Conclusion][8]
 
 ## Que sont le prototypage et le développement rapide des applications? {#rad}
 L'approche rapide de développement des applications est moins axée sur la planification stricte et plus sur le développement. Il est très proche de l'approche de développement logiciel Agile. Contrairement au modèle de cascade, il est flexible et soutient les révisions à tout stade.
@@ -52,17 +52,19 @@ Voyons quels sont les avantages que nous pouvons obtenir en adoptant un logiciel
 
 ## ** Conclusion ** {#conclusion}
 Voici la fin de ce tutoriel. Il existe de nombreux modèles de développement de logiciels tels que le modèle de cascade, le modèle en spirale, le modèle en forme de V, le modèle Agile et d'autres. Ainsi, l'adoption de tout modèle dépend de vos cas d'utilisation et de la nature du logiciel. Par conséquent, ce billet de blog vous aidera vraiment si vous cherchez à adopter le modèle RAD pour votre entreprise. Quelle que soit la plate-forme, il existe plusieurs logiciels de développement d'applications rapides open source qui offrent des capacités multiplateformes avec des outils de développement. Il existe d'autres logiciels de prototypage rapide disponibles dans la section «Explorer» ci-dessous qui suivent les méthodologies RAD. C'est un temps élevé pour adopter cette approche rentable et robuste pour développer des logiciels commerciaux prêts pour la production.
-En fin de compte, [contenerize.com] [9] est dans le processus continu d'introduction open source [logiciel RAD] [1]. Veuillez suivre cette catégorie [développement rapide des applications] [1] pour les mises à jour régulières. De plus, le logiciel répertorié ci-dessous dans la section Explore est open source, libre et auto-hébergé. Tous ces ** générateurs de code source ** sont livrés avec une documentation complète concernant le développement et le déploiement.
+En fin de compte, [contenerize.com][9] est dans le processus continu d'introduction open source [logiciel RAD][1]. Veuillez suivre cette catégorie [développement rapide des applications][1] pour les mises à jour régulières. De plus, le logiciel répertorié ci-dessous dans la section Explore est open source, libre et auto-hébergé. Tous ces ** générateurs de code source ** sont livrés avec une documentation complète concernant le développement et le déploiement.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [Plate-forme Cuba] [10]
-  * [QuickApp] [11]
-  * [Jhipster] [4]
-  * [li3] [12]
-  * [Apache Isis] [13]
-  * [Top 5 des logiciels de développement d'applications rapides gratuits en 2021] [2]
-  * [Tutoriel Jhipster pour configurer et créer la première application] [3]
+  * [Plate-forme Cuba][10]
+  * [QuickApp][11]
+  * [Jhipster][4]
+  * [li3][12]
+  * [Apache Isis][13]
+  * [Top 5 des logiciels de développement d'applications rapides gratuits en 2021][2]
+  * [Tutoriel Jhipster pour configurer et créer la première application][3]
+
+  
 [1]: https://products.containerize.com/rad
 [2]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
 [3]: https://blog.containerize.com/2020/10/28/jhipster-tutorial-to-setup-and-create-the-first-application/

@@ -15,12 +15,12 @@ categories: ['Live Chat']
 
 Die FAQ -Automatisierung besteht darin, die Erfahrung Ihres Kunden online zu verbessern, indem Sie Chatbots verwenden, um häufig gestellte Fragen zu beantworten. Angesichts der Fortschritte in der künstlichen Intelligenz und des maschinellen Lernens hat die Nachfrage nach KI-basierten Konversations-Chatbots viel Popularität und Nachfrage gewonnen. Und dies liegt hauptsächlich daran, dass das gesamte Geschäft sein Kundenerlebnis auch dann verbessern möchte, wenn das Unternehmen offline ist. Konversations-Chatbots haben dies den Unternehmen ermöglicht, ihren Kunden die gewünschten Stillgänge mit hohem Top-Support zu bieten. Der Zweck dieses Blog-Beitrags ist es, Ihnen bei der Einrichtung eines AI-basierten FAQ-Bots mit BotPress bei der Einrichtung eines AI-basierten FAQ-Bots zu helfen.
 In diesem Artikel erfahren wir das NLU -Modul des BotPress und darüber, wie das Verständnis / die Verarbeitung des natürlichen Sprachens funktioniert und Unternehmen helfen kann, ein hohes Kundenzufriedenheit zu erreichen. Lass uns anfangen!
-  *** [Was ist natürliche Sprachverarbeitung] [1] **
-  *[** Ihren Anwendungsfall bestimmen **] [2]
-  *[** BotPress installieren **] [3]
-  *[** Erstellen Sie einen neuen Bot **] [4]
-  *[** trainieren Sie Ihren Q & A Bot **] [5]
-  *[** Schlussfolgerung **] [6]
+  *** [Was ist natürliche Sprachverarbeitung][1] **
+  *[** Ihren Anwendungsfall bestimmen **][2]
+  *[** BotPress installieren **][3]
+  *[** Erstellen Sie einen neuen Bot **][4]
+  *[** trainieren Sie Ihren Q & A Bot **][5]
+  *[** Schlussfolgerung **][6]
 
 ## Was ist natürliche Sprachverarbeitung {#nlu}
 Natürliche Sprachverarbeitung (NLP) ist ein Zweig der künstlichen Intelligenz, der Computern hilft, menschliche Sprache zu verstehen, zu interpretieren und zu manipulieren. NLP hilft Computern, mit Menschen in ihrer eigenen Sprache zu kommunizieren. Und ermöglicht es Computern, einen Text zu lesen, Sprache zu hören, ihn zu interpretieren, das Gefühl zu messen.
@@ -31,7 +31,7 @@ NLU ist das Modul von BotPress, das jede eingehende Nachricht verarbeitet und ei
 Wenn Sie einen FAQ -AI -Chatbot erstellen möchten, müssen Sie einen Anwendungsfall für Ihr Unternehmen haben. Für dieses Tutorial möchten wir, dass unsere Benutzer zufällige Frage in Bezug auf die Preisgestaltung unseres Produkts und unseres Geschäftszeitpunkts stellen.
 
 ## BotPress {#install} installieren
-Um BotPress zu installieren, besuchen Sie ihre [Website] [7], klicken Sie auf "Kostenlos herunterladen" und wählen Sie Ihre Plattform aus. Für dieses Tutorial verwende ich die Mac -Version. Sobald der Download abgeschlossen ist, können Sie die ZIP -Datei extrahieren und den folgenden Befehl in Ihrem Terminal ausführen, indem Sie in den richtigen Ordner gehen.
+Um BotPress zu installieren, besuchen Sie ihre [Website][7], klicken Sie auf "Kostenlos herunterladen" und wählen Sie Ihre Plattform aus. Für dieses Tutorial verwende ich die Mac -Version. Sobald der Download abgeschlossen ist, können Sie die ZIP -Datei extrahieren und den folgenden Befehl in Ihrem Terminal ausführen, indem Sie in den richtigen Ordner gehen.
 ```
 ./bp
 ```
@@ -63,10 +63,12 @@ Nach dem Training können Sie Ihren FAQ-Bot mithilfe des integrierten Emulator-T
 
 {{< figure align=center src="images/test-faq-bot.gif" alt="Testen Sie Ihren FAQ -Bot">}}
 
-Jetzt, da Sie Ihren FAQ -Bot bereit haben, können Sie diesen Bot auf Ihrer Website bereitstellen, indem Sie dem [offiziellen Einbettung] [8] -Reitbuch von BotPress folgen.
+Jetzt, da Sie Ihren FAQ -Bot bereit haben, können Sie diesen Bot auf Ihrer Website bereitstellen, indem Sie dem [offiziellen Einbettung][8] -Reitbuch von BotPress folgen.
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Blog -Beitrag haben wir natürliche Sprachverarbeitung gelernt und verstehen. Wir werden auch mit dem Bot-Erstellungsprozess praktisch. Wir haben einen einfachen FAQ -Bot geschult, der Ihren Kunden über Ihre Geschäftszeiten und Zahlungspläne informiert wird. Der Zweck des Tutorials war es, Anfängern zu helfen, schnell mit einem AI-basierten FAQ-Bot mit BotPress zu beginnen.
+
+  
 [1]: #nlu
 [2]: #case
 [3]: #install

@@ -17,14 +17,14 @@ categories: ['Game Development Software']
 ## Aperçu
 L'industrie des jeux vidéo est en train de prospérer à un rythme élevé. Il y a des milliards de joueurs à travers le monde qui recherchent toujours des jeux vidéo passionnants et divertissants. D'un autre côté, il existe un certain nombre de logiciels de développement de jeux vidéo qui fournissent aux développeurs un environnement complet et des outils de développement de jeux pour développer des jeux avancés et fascinants. Dans le passé, les développeurs de jeux ont été habitués à écrire le code source de jeu ligne par ligne. Ce fut une méthode de développement très du temps et les joueurs ont dû attendre des mois pour une nouvelle version. Par conséquent, la communauté open source a développé gratuitement ** les fabricants de jeux faciles ** pour les développeurs de jeux.
 Ces ** moteurs de jeu gratuits ** viennent non seulement aident à fournir des sorties de jeux rapides, mais sont également livrées avec des fonctionnalités qui améliorent la qualité et la robustesse du jeu. De plus, ces ** concepteurs de jeux 3D ** offrent une interface utilisateur de glisser-déposer et éliminent la nécessité d'avoir des connaissances en programmation pour créer des jeux. Cependant, il s'agit d'un tutoriel ** gdevelop ** dans lequel nous apprendrons ce qu'est GDEVELOPE et comment le configurer localement en couvrant le point suivant.
-  * ** [Qu'est-ce que GDEVELOPE.] [1] **
-  * ** [Comment configurer sur localhost?] [2] **
-  * ** [Conclusion] [3] **
+  * ** [Qu'est-ce que GDEVELOPE.][1] **
+  * ** [Comment configurer sur localhost?][2] **
+  * ** [Conclusion][3] **
 
 ## ** Qu'est-ce que GDELEVELOP. ** {#intro}
 GDELEVELAG est un logiciel gratuit de développement de jeux vidéo open source. Il est auto-hébergé et offre des fonctionnalités riches pour développer des jeux 2D. Cependant, il existe un support disponible pour les objets 3D. Les utilisateurs n'ont pas besoin de compétences en programmation pour développer et publier des jeux pour plusieurs plateformes. Il est très extensible et facile à configurer car il nécessite des exigences faciles pour héberger ce moteur de jeu gratuit. Il existe une interface utilisateur intuitive avec les capacités de glisser-déposer. Cet outil gratuit fournit des animations de haute classe, des effets vidéo / audio, un écran tactile et un multi-touch, un aperçu en direct et bien d'autres. De plus, ce ** Game Designer ** propose des fonctionnalités de prototypage puissantes qui aident les développeurs à développer un produit fin basé sur le prototype.
-De plus, cette Open Source ** Easy Game Maker ** est hautement configurable et prend en charge les intégrations avec des bibliothèques tierces. Surtout, il prend en charge Xbox et PlayStation qui sont des consoles de jeux vidéo populaires. GDEVELOPE est écrit en C ++, JavaScript et TypeScript. Des documents détaillés sont disponibles sur le déploiement et le développement. GDELEVELAG a une communauté de développeurs très dynamique qui répond activement aux bogues et aux requêtes. Par conséquent, tout le code source est disponible chez [GitHub] [4].
-[En savoir plus sur GDELAVELAPS] [5]
+De plus, cette Open Source ** Easy Game Maker ** est hautement configurable et prend en charge les intégrations avec des bibliothèques tierces. Surtout, il prend en charge Xbox et PlayStation qui sont des consoles de jeux vidéo populaires. GDEVELOPE est écrit en C ++, JavaScript et TypeScript. Des documents détaillés sont disponibles sur le déploiement et le développement. GDELEVELAG a une communauté de développeurs très dynamique qui répond activement aux bogues et aux requêtes. Par conséquent, tout le code source est disponible chez [GitHub][4].
+[En savoir plus sur GDELAVELAPS][5]
 
 ## ** comment configurer sur localhost? ** {#setup}
 Dans la section de ce ** tutoriel GDELAVELAP **, nous verrons comment pouvons-nous configurer GDELAVELAG sur notre système local. Avant de passer aux étapes suivantes, assurez-vous d'avoir installé les pré-requis suivants.
@@ -69,21 +69,23 @@ De cette façon, vous pouvez explorer et essayer d'autres fonctionnalités. Ce c
 
 ## ** Conclusion ** {#conclusion}
 Cela met fin à ce didacticiel GDELAPELL. Ce ** moteur de jeu gratuit ** vous permet d'implémenter la logique des jeux à l'aide d'événements visuels. Il a une communauté très favorable qui a fait de nombreux tutoriels et manuels d'utilisateurs utiles. Ce billet de blog vous aidera vraiment si vous êtes nouveau dans le monde du développement de jeux. Il existe de nombreux autres concepteurs de jeux 3D **, des outils de développement de jeux et des articles mentionnés dans la section Explorer ci-dessous. Tous ces moteurs de jeu sont gratuits, open source et proposent des capacités d'auto-hébergement. Par conséquent, l'industrie du développement de jeux s'étend énormément avec l'augmentation du nombre de joueurs. Il y a des jeux vidéo avec des graphiques à haute définition et des effets sonores qui déclenchent l'intérêt et l'attraction des joueurs. Cependant, choisissez un logiciel de développement de jeu bien présumé qui apporte une qualité et une efficacité à votre travail.
-Enfin, Containerize.com est prêt à améliorer sa base de tutoriels avec des tutoriels de développement de jeux plus intéressants. Veuillez rester connecté avec cette catégorie [logiciel de développement de jeu] [6] sur [contenerize.com] [7] pour les mises à jour régulières.
+Enfin, Containerize.com est prêt à améliorer sa base de tutoriels avec des tutoriels de développement de jeux plus intéressants. Veuillez rester connecté avec cette catégorie [logiciel de développement de jeu][6] sur [contenerize.com][7] pour les mises à jour régulières.
 
 ## Explorer
-  * [Gdevelop] [8]
-  * [Godot] [9]
-  * [SuperPowers] [10]
-  * [Cocos Creator] [11]
-  * [Panda3d] [12]
-  * [Choses à revoir avant d'opter les logiciels open source en 2021] [13]
-  * [Comment faire un jeu sur Scratch à l'aide de GDELAVELAPS Open Source] [14]
-  * [Top 5 des logiciels de développement de jeu gratuit en 2021] [15]
-  * [Commencer le développement de jeux à l'aide de superpuissances] [16]
-  * [Tutoriel de développement du jeu | Mouvement des joueurs dans GDELOVELOPS] [17]
-  * [HTML5 Tutoriel de développement du jeu pour les programmeurs de jeux vidéo] [18]
-  * [Comment l'industrie des jeux vidéo tirant parti des logiciels open source] [19]
+  * [Gdevelop][8]
+  * [Godot][9]
+  * [SuperPowers][10]
+  * [Cocos Creator][11]
+  * [Panda3d][12]
+  * [Choses à revoir avant d'opter les logiciels open source en 2021][13]
+  * [Comment faire un jeu sur Scratch à l'aide de GDELAVELAPS Open Source][14]
+  * [Top 5 des logiciels de développement de jeu gratuit en 2021][15]
+  * [Commencer le développement de jeux à l'aide de superpuissances][16]
+  * [Tutoriel de développement du jeu | Mouvement des joueurs dans GDELOVELOPS][17]
+  * [HTML5 Tutoriel de développement du jeu pour les programmeurs de jeux vidéo][18]
+  * [Comment l'industrie des jeux vidéo tirant parti des logiciels open source][19]
+
+  
 [1]: #intro
 [2]: #setup
 [3]: #Conclusion

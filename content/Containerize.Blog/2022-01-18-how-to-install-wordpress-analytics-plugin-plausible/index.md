@@ -57,7 +57,7 @@ Moreover, there is also an option for the site configuration if you self-host th
 
 This brings us to the end of this Plausible WordPress integration tutorial. Hopefully, this blog post helped you in learning about Plausible regarding its features, installation steps, and usage. we have gone through important sub-topics such as what is Plausible, and the installation steps of this WordPress analytics plugin. In this fast-growing age of technology, BI tools have become a must-have component of a successful business. organizations cannot avoid this integral part as such tools always give your business a competitive edge. Further, you can find relevant links in the “Explore” section below where you will find open source business intelligence software. This blog post will surely help you if you are looking to install free and open source business intelligence software for your business website. 
 
-Finally, [containerize.com][11] is continuously writing blog posts on further open source products and topics. Therefore, please stay in touch with the [][12][Business Intelligence Software][13] [][12]category for regular updates. Moreover, you can follow us on our social media accounts [Facebook][14], [LinkedIn][15], and [Twitter][16].
+Finally, [containerize.com][11] is continuously writing blog posts on further open source products and topics. Therefore, please stay in touch with the [][12][Business Intelligence Software][13][][12]category for regular updates. Moreover, you can follow us on our social media accounts [Facebook][14], [LinkedIn][15], and [Twitter][16].
 
 ## Explore
 

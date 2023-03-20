@@ -15,13 +15,13 @@ categories: ['Marketing Automation']
 
 Mautic adalah perangkat lunak otomatisasi pemasaran dan memberikan kendali penuh atas email pemasaran, halaman arahan dan alur kerja untuk kegiatan pemasaran. Kampanye tetes Mautic membantu melibatkan audiens target dan terus memperbarui produk Anda. Integrasi Facebook Mautik menyediakan cara bagi arahan baru untuk ditambahkan ke MAUTIC. Dengan integrasi Mautic - Facebook ini, petunjuk dari kampanye Facebook Anda akan secara otomatis ditambahkan ke MAUTIC.
 Kami akan membahas bagian berikut dalam tutorial ini:
-  * [Konfigurasikan Akun Pengembang Facebook] [1]
-  * [Konfigurasikan Aplikasi Pengembang Facebook] [2]
-  * [Konfigurasi Plugin Mautik] [3]
-  * [Kesimpulan] [4]
+  * [Konfigurasikan Akun Pengembang Facebook][1]
+  * [Konfigurasikan Aplikasi Pengembang Facebook][2]
+  * [Konfigurasi Plugin Mautik][3]
+  * [Kesimpulan][4]
 
 ## Konfigurasikan Akun Pengembang Facebook {#Account}
-  * Pergi ke [Facebook untuk pengembang] [5]
+  * Pergi ke [Facebook untuk pengembang][5]
   * Daftarkan akun Anda jika Anda tidak memilikinya.
   * Untuk mendaftarkan akun baru, buka dan klik "Mulai" dari sudut kanan atas.
   * Setelah itu, pilih akun Facebook Anda dan tekan "Lanjutkan".
@@ -77,11 +77,13 @@ MAUTIC - Integrasi Facebook dapat membantu menyinkronkan prospek Facebook Anda k
 
 ## Mengeksplorasi
 Untuk mempelajari lebih lanjut tentang Mautic dan Facebook, silakan kunjungi:
-  * [Mautic | Platform Teknologi Pemasaran Konten Sumber Terbuka] [6]
-  * [Cara Menyiapkan Kampanye Mautik Menggunakan Pembuat Kampanye] [7]
-  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal] [8]
-  * [Otomasi Pemasaran dengan Integrasi Mautik dan WooCommerce] [9]
-  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital] [10]
+  * [Mautic | Platform Teknologi Pemasaran Konten Sumber Terbuka][6]
+  * [Cara Menyiapkan Kampanye Mautik Menggunakan Pembuat Kampanye][7]
+  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal][8]
+  * [Otomasi Pemasaran dengan Integrasi Mautik dan WooCommerce][9]
+  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital][10]
+
+  
 [1]: #account
 [2]: #app
 [3]: #configuration

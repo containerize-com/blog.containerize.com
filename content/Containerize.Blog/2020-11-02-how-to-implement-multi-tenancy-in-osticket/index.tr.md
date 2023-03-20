@@ -14,14 +14,14 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-osTicket.png" alt="Osticket Özelleştirme - Osticket'te çoklu kiracılık uygulayın">}}
 
 Bu makalede, çok kiracılık uygulamak için Osticket özelleştirmenin nasıl yapılacağını tartışacağız. Bu yazı aşağıdaki konuları kapsayacaktır:
-  * [Osticket'e Genel Bakış] [1]
-  * [Çok Kencilik Genel Bakış] [2]
-  * [Çok kiracılığın faydaları] [3]
-  * [Uygulama] [3]
-  * [Sonuç] [4]
+  * [Osticket'e Genel Bakış][1]
+  * [Çok Kencilik Genel Bakış][2]
+  * [Çok kiracılığın faydaları][3]
+  * [Uygulama][3]
+  * [Sonuç][4]
 
 ## Osticket'e Genel Bakış: {#Osticket}
-[Osticket] [5] açık kaynaklı bir çevrimiçi müşteri desteği web tabanlı yardım masası yazılımıdır. Sezgisel bir kontrol paneli ve gerçek zamanlı bir raporlama bileşeni sağlar. Kullanımı kolay sorular yönetimi modülüne sahiptir. Bu, telefonunuzdan, e-postanızdan ve web tabanlı formlarınızdan sorular oluşturmanıza olanak tanır. Bu, müşteri destek deneyiminin tüm bölümlerini yorumlar ve e -posta bildirimleri gibi uyarlamaya yardımcı olmak için çok sayıda seçenek sunar.
+[Osticket][5] açık kaynaklı bir çevrimiçi müşteri desteği web tabanlı yardım masası yazılımıdır. Sezgisel bir kontrol paneli ve gerçek zamanlı bir raporlama bileşeni sağlar. Kullanımı kolay sorular yönetimi modülüne sahiptir. Bu, telefonunuzdan, e-postanızdan ve web tabanlı formlarınızdan sorular oluşturmanıza olanak tanır. Bu, müşteri destek deneyiminin tüm bölümlerini yorumlar ve e -posta bildirimleri gibi uyarlamaya yardımcı olmak için çok sayıda seçenek sunar.
 
 ## çok kiracılık genel bakış: {#multitenancy}
 Çok kiracılık, bir uygulamanın birden fazla bağımsız örneğinin ortak bir ortamda çalıştığı uygulamayı ifade eder. Örnekler (kiracılar) mantıksal olarak izole edilir, ancak fiziksel olarak entegre edilir. Bir kuruluşun muhtemelen birden fazla departmanı olabilir. Böylece aynı uygulamanın birden fazla kiracı/örnek oluşturabilirler. Örneğin, bizim durumumuzda, aynı kuruluşun farklı alanları için bir yardım masası sistemi yapılandırılabilir. Yüzlerce kiracı olabilir, ancak hepsi aynı dosyaları ve dolayısıyla aynı depolamayı kullanacak. Bu, depolama maliyetlerini ve yükseltmeleri kolaylaştıracaktır. Geliştiricilerin dosyaları her site için ayrı ayrı değişiklik yapmak yerine tek bir yerden güncellemeleri gerekir.
@@ -69,10 +69,12 @@ Osticket, ücretsiz ve açık kaynaklı bir BT yardımcı masa yönetimi yazıl�
 
 ## Keşfetmek:
 Osticket hakkında daha fazla bilgi edinmek için lütfen aşağıdaki sayfayı inceleyin:
-  * [Osticket - Ücretsiz Açık Kaynak Yardım Masası Yazılımı] [5]
-  * [Osticket eklentisini geliştirmek için yeni başlayanlar rehberi] [6]
-  * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur] [7]
-  * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin] [8]
+  * [Osticket - Ücretsiz Açık Kaynak Yardım Masası Yazılımı][5]
+  * [Osticket eklentisini geliştirmek için yeni başlayanlar rehberi][6]
+  * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur][7]
+  * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin][8]
+
+  
 [1]: #osticket
 [2]: #multitenancy
 [3]: #benefits

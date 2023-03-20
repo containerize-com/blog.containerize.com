@@ -25,9 +25,9 @@ Wir können Multi-Messen implementieren, indem wir die folgenden Ansätze verwen
   * Shared Database für alle Mieter.
   * Separate Datenbank für jeden Mieter.
 Wir werden eine separate Datenbank für jeden Mieteransatz verwenden, um Multi-Messen in Phplisten zu implementieren.
-  * [Handlungsanforderungsfluss] [1]
-  * [Setup -Datenbank für Mieter] [2]
-  * [Konfigurieren Sie Nginx für Mieter] [3]
+  * [Handlungsanforderungsfluss][1]
+  * [Setup -Datenbank für Mieter][2]
+  * [Konfigurieren Sie Nginx für Mieter][3]
 
 ## Handlungsanforderung Fluss {#Request}
   * Nehmen Sie eine Sicherung Ihrer Datei config.php und Sie finden sie unter dem Konfigurationsverzeichnis.
@@ -63,11 +63,13 @@ Multi-Tenancy-Software hat einige Vorteile im Vergleich zu einer Einzelmietanwen
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Phplist - Open -Source -Newsletter und E -Mail -Marketing -Software] [4]
-  * [So erstellen und senden Sie den Newsletter mit Phplist] [5]
-  * [So richten und verarbeiten Sie in Phplisten] [6]
-  * [Anfängerleitfaden zur Entwicklung von Phplist -Plugin] [7]
-  * [Setup Advanced Bounce Management und Bounce -Regeln in Phplist] [8]
+  * [Phplist - Open -Source -Newsletter und E -Mail -Marketing -Software][4]
+  * [So erstellen und senden Sie den Newsletter mit Phplist][5]
+  * [So richten und verarbeiten Sie in Phplisten][6]
+  * [Anfängerleitfaden zur Entwicklung von Phplist -Plugin][7]
+  * [Setup Advanced Bounce Management und Bounce -Regeln in Phplist][8]
+
+  
 [1]: #request
 [2]: #database
 [3]: #nginx

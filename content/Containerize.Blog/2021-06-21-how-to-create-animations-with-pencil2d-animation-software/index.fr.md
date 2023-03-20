@@ -13,16 +13,16 @@ categories: ['Animation Software']
 
 
 ## ** crayon2d est un logiciel d'animation open source qui permet aux utilisateurs de créer des animations et des croquis 2D. Cet article explique comment créer une animation avec crayon2d **.
-Lorsqu'il s'agit d'apprendre à de nouveaux logiciels pour créer des animations et des illustrations, nous avons créé un tas de tutoriels et de guides qui peuvent vous aider à maîtriser de nouveaux logiciels et à apprendre des animations. Que vous soyez un débutant ou un utilisateur avancé, nos [messages passés] [1] peuvent vous aider à trouver la bonne application d'animation pour vous. Couvrons des sujets suivants pour apprendre à créer des animations avec un logiciel d'animation crayon2d.
-  * [Qu'est-ce que crayon2d?] [2]
-  * [Comment installer crayon2d?] [3]
-  * [Présentation de l'interface d'application] [4]
-  * [Comment créer des animations avec crayon2d?] [5]
-  * [Conclusion] [6]
+Lorsqu'il s'agit d'apprendre à de nouveaux logiciels pour créer des animations et des illustrations, nous avons créé un tas de tutoriels et de guides qui peuvent vous aider à maîtriser de nouveaux logiciels et à apprendre des animations. Que vous soyez un débutant ou un utilisateur avancé, nos [messages passés][1] peuvent vous aider à trouver la bonne application d'animation pour vous. Couvrons des sujets suivants pour apprendre à créer des animations avec un logiciel d'animation crayon2d.
+  * [Qu'est-ce que crayon2d?][2]
+  * [Comment installer crayon2d?][3]
+  * [Présentation de l'interface d'application][4]
+  * [Comment créer des animations avec crayon2d?][5]
+  * [Conclusion][6]
 
 ## Qu'est-ce que crayon2d? {# what-is-p-crayer2d}
-[Crayon2d] [7] est une application d'animation traditionnelle qui permet aux utilisateurs de créer des croquis 2D de dessins animés et d'animations pour différents projets. Vous pouvez utiliser crayon2d à la fois pour les projets personnels ainsi que pour les efforts commerciaux, car il s'agit d'un logiciel d'animation open source sous licence GNU General Public. L'utilisation de crayon2d est assez simple, comme vous le verrez plus loin dans le post. Il peut également être utilisé par les animateurs débutants ainsi que par les utilisateurs professionnels.
-Avec [crayon2d] [7], vos animations sont stockées dans des dessins bitmap ou vectoriels et utilise un flux de travail raster / vector pour une gestion efficace des animations. Certains des formats de fichiers acceptables lors de l'utilisation de crayon2d sont PNG, JPEG, BMP, TIFF, etc. pour les images et AVI, MP4, GIF et plus, pour les vidéos. Il est également compatible avec Windows, Mac OS, Linux et FreeBSD.
+[Crayon2d][7] est une application d'animation traditionnelle qui permet aux utilisateurs de créer des croquis 2D de dessins animés et d'animations pour différents projets. Vous pouvez utiliser crayon2d à la fois pour les projets personnels ainsi que pour les efforts commerciaux, car il s'agit d'un logiciel d'animation open source sous licence GNU General Public. L'utilisation de crayon2d est assez simple, comme vous le verrez plus loin dans le post. Il peut également être utilisé par les animateurs débutants ainsi que par les utilisateurs professionnels.
+Avec [crayon2d][7], vos animations sont stockées dans des dessins bitmap ou vectoriels et utilise un flux de travail raster / vector pour une gestion efficace des animations. Certains des formats de fichiers acceptables lors de l'utilisation de crayon2d sont PNG, JPEG, BMP, TIFF, etc. pour les images et AVI, MP4, GIF et plus, pour les vidéos. Il est également compatible avec Windows, Mac OS, Linux et FreeBSD.
 
 ## Comment installer crayon2d? {# Install-P-Pacry2d}
 Ouvrez le terminal et mettez à jour l'index de package de votre serveur local en tapant la commande suivante:
@@ -80,13 +80,15 @@ Maintenant, vous pouvez intégrer l'animation dans un site Web, jouer dans un na
 
 ## Conclusion {#conclusion}
 Comme vous pouvez le voir sur le tutoriel ci-dessus, la création d'animations avec Crayer2D est assez facile à comprendre et à exécuter. Le logiciel d'animation a été créé de manière à être adopté par les débutants ainsi que rapidement par des professionnels. Il existe de nombreuses options disponibles dans crayon2d lorsqu'il s'agit de créer des croquis ou des animations 2D, et tout illustrateur peut vraiment créer un portfolio solide avec l'application.
-[Crayon2d] [7] est compatible avec de nombreux systèmes d'exploitation comme nous l'avons mentionné plus tôt, vous pouvez donc simplement brancher et jouer avec le logiciel d'animation dans l'environnement de votre choix. Si vous recherchez plus de tutoriels concernant Crayer2D, vous pouvez simplement consulter leur site Web. Nous avons également créé de nombreux tutoriels et guides pour utiliser d'autres logiciels d'animation que vous pouvez trouver sur notre site Web, alors consultez-les pour plus de clarté.
+[Crayon2d][7] est compatible avec de nombreux systèmes d'exploitation comme nous l'avons mentionné plus tôt, vous pouvez donc simplement brancher et jouer avec le logiciel d'animation dans l'environnement de votre choix. Si vous recherchez plus de tutoriels concernant Crayer2D, vous pouvez simplement consulter leur site Web. Nous avons également créé de nombreux tutoriels et guides pour utiliser d'autres logiciels d'animation que vous pouvez trouver sur notre site Web, alors consultez-les pour plus de clarté.
 
 ## Explorer
 Vous pouvez trouver des liens suivants pertinents:
-  * [Crayon2d | Logiciel d'animation 2D gratuit de la plateforme et open source] [7]
-  * [Guide du débutant pour démarrer l'édition d'image gratuite à l'aide de digikam] [8]
-  * [Meilleur logiciel d'animation open source] [9]
+  * [Crayon2d | Logiciel d'animation 2D gratuit de la plateforme et open source][7]
+  * [Guide du débutant pour démarrer l'édition d'image gratuite à l'aide de digikam][8]
+  * [Meilleur logiciel d'animation open source][9]
+
+  
 [1]: https://blog.containerize.com/
 [2]: #what-is-pencil2d
 [3]: #install-pencil2d

@@ -14,13 +14,13 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/deployer-blog-post.png" alt="Ferramenta de implantação do PHP">}}
 
 É um trabalho muito crítico para implantar aplicativos no servidor após o desenvolvimento. Novos recursos e correções de bugs são frequentemente lançados pelas equipes. Portanto, é preferível que as equipes eliminem o trabalho manual e automatizem o processo ** de implantação de software **. Isso permitiria que as equipes de software se concentrassem em tarefas mais importantes. Existem várias ferramentas de implantação de código aberto ** por aí, mas vamos nos concentrar no ** PHP Impleator ** neste tutorial. Abordaremos a seção a seguir nesta postagem.
-  *[** O que é implantador **] [1]
-  *[** Instalando o implantador **] [2]
-  *[** Implante de aplicativo PHP **] [3]
-  *[** Conclusão **] [4]
+  *[** O que é implantador **][1]
+  *[** Instalando o implantador **][2]
+  *[** Implante de aplicativo PHP **][3]
+  *[** Conclusão **][4]
 
 ## o que é implementador {#what}
-[** Implantador **] [5] é uma ferramenta de implantação de pHP de código aberto ** **. Ele permite equipes de software para automatizar fluxos de trabalho de implantação para aplicativos baseados em PHP. É muito simples de instalar e fácil de usar. Qualquer pessoa, do iniciante a experiência de um especialista, pode usá -lo rapidamente para implantar aplicativos PHP. O implantador vem com receitas/scripts prontos para uso para estruturas populares, CMS e software de carrinho de compras. Além disso, você pode fazer a implantação do Laravel ** com esta ferramenta de implantação de código aberto **. O desenvolvedor pode usar receitas internas para seus projetos e usá-las para implantação. Além disso, você pode criar facilmente o script de instalação/implantação com o assistente ** php implementador **. Além disso, esta ferramenta de implantação gratuita ** oferece excelentes recursos, como implantações de tempo zero, reversão da versão anterior, SSH, execução paralela e muito mais.
+[** Implantador **][5] é uma ferramenta de implantação de pHP de código aberto ** **. Ele permite equipes de software para automatizar fluxos de trabalho de implantação para aplicativos baseados em PHP. É muito simples de instalar e fácil de usar. Qualquer pessoa, do iniciante a experiência de um especialista, pode usá -lo rapidamente para implantar aplicativos PHP. O implantador vem com receitas/scripts prontos para uso para estruturas populares, CMS e software de carrinho de compras. Além disso, você pode fazer a implantação do Laravel ** com esta ferramenta de implantação de código aberto **. O desenvolvedor pode usar receitas internas para seus projetos e usá-las para implantação. Além disso, você pode criar facilmente o script de instalação/implantação com o assistente ** php implementador **. Além disso, esta ferramenta de implantação gratuita ** oferece excelentes recursos, como implantações de tempo zero, reversão da versão anterior, SSH, execução paralela e muito mais.
 
 ## Instalando o implantador {#Installing}
   * Implantador depende do PHP. Você deve garantir que o PHP esteja em execução no seu servidor. No entanto, você pode usar o comando abaixo para instalar o PHP no Ubuntu.
@@ -119,20 +119,22 @@ dep rollback
 
 ## Conclusão {#conclusion}
 Discutimos sobre o implementador e como instalá -lo neste tutorial. Além disso, criamos diretrizes completas para a implantação de aplicativos baseados em PHP no Repositório do GitHub. Felizmente, esta postagem do blog o ajudará a iniciar ** implantar aplicativo PHP ** com o implementador. Além disso, escreveremos mais sobre essa ** Ferramenta de implantação PHP ** nos próximos tutoriais.
-Finalmente, [** containerize.com **] [6] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta [** Ferramentas de implantação **] [7] Categoria para as atualizações mais recentes.
+Finalmente, [** containerize.com **][6] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta [** Ferramentas de implantação **][7] Categoria para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** implantador **] [8]
-  *[** Jenkins **] [9]
-  *[** drone **] [10]
-  *[** Capistrano **] [11]
-  *[** Rancher **] [12]
-  *[** concurso **] [13]
-  *[** Ansible **] [14]
-  *[** gocd **] [15]
-  *[** Top 5 Ferramentas de implantação de código aberto em 2021 **] [16]
-  *[** Integração contínua e implantação contínua do servidor de controle de origem **] [17]
+  *[** implantador **][8]
+  *[** Jenkins **][9]
+  *[** drone **][10]
+  *[** Capistrano **][11]
+  *[** Rancher **][12]
+  *[** concurso **][13]
+  *[** Ansible **][14]
+  *[** gocd **][15]
+  *[** Top 5 Ferramentas de implantação de código aberto em 2021 **][16]
+  *[** Integração contínua e implantação contínua do servidor de controle de origem **][17]
+
+  
 [1]: #What
 [2]: #Installing
 [3]: #Deploy

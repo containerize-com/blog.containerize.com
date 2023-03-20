@@ -15,15 +15,15 @@ categories: ['Healthcare Software']
 
 
 ## Ringkasan
-Di masa lalu, kami menerbitkan beberapa posting blog tentang topik -topik seperti [5 Top Open Source Patient Health Software] [1], [Cara Menginstal EHealth System Hospitalrun di LocalHost] [2], [fitur eksplorasi solusi kesehatan medis medis Openemr] [3], dan beberapa lagi. Dalam beberapa tahun terakhir, teknologi telah mengubah alur kerja di hampir setiap bidang kehidupan termasuk industri medis. Ada banyak bidang yang muncul hanya beberapa tahun yang lalu yang mencakup kecerdasan buatan, komputasi awan, Internet of Things, dan sektor keuangan. Sektor teknologi kesehatan adalah salah satu bidang yang dikembangkan ini yang telah sepenuhnya digital dengan munculnya perangkat lunak layanan kesehatan open-source. Namun, ada hubungan yang kuat antara teknologi dan perawatan kesehatan.
+Di masa lalu, kami menerbitkan beberapa posting blog tentang topik -topik seperti [5 Top Open Source Patient Health Software][1], [Cara Menginstal EHealth System Hospitalrun di LocalHost][2], [fitur eksplorasi solusi kesehatan medis medis Openemr][3], dan beberapa lagi. Dalam beberapa tahun terakhir, teknologi telah mengubah alur kerja di hampir setiap bidang kehidupan termasuk industri medis. Ada banyak bidang yang muncul hanya beberapa tahun yang lalu yang mencakup kecerdasan buatan, komputasi awan, Internet of Things, dan sektor keuangan. Sektor teknologi kesehatan adalah salah satu bidang yang dikembangkan ini yang telah sepenuhnya digital dengan munculnya perangkat lunak layanan kesehatan open-source. Namun, ada hubungan yang kuat antara teknologi dan perawatan kesehatan.
 Departemen perawatan kesehatan bahkan lebih produktif dan efisien daripada sebelumnya karena penggantian tenaga kerja dengan sistem informasi perawatan kesehatan. Ada sejumlah ** perangkat lunak layanan kesehatan online ** yang telah melahirkan peluang dan kemungkinan baru di sektor yang relevan. Dalam posting blog ini, kami akan mengeksplorasi dampak teknologi dan perawatan kesehatan dengan meliput poin -poin berikut.
-  *** [Apa itu Teknologi Kesehatan?] [4] **
-  *** [Apa dampak teknologi perawatan kesehatan?] [5] **
-  *** [Jenis Perangkat Lunak Kesehatan Primer] [6] **
-  *** [Kesimpulan] [7] **
+  *** [Apa itu Teknologi Kesehatan?][4] **
+  *** [Apa dampak teknologi perawatan kesehatan?][5] **
+  *** [Jenis Perangkat Lunak Kesehatan Primer][6] **
+  *** [Kesimpulan][7] **
 
 ## Apa itu Teknologi Kesehatan? {#kesehatan}
-[Healthcare Technologies] [8] Fokus pada membawa peningkatan di semua sektor sistem TI perawatan kesehatan ** **. Ada banyak alat dan perangkat lunak gratis untuk meningkatkan produktivitas dalam mendiagnosis penyakit, pengobatan, dan obat apa pun. Telah ada inovasi yang konsisten yang memberikan wawasan terbaru tentang teknologi kesehatan. Aplikasi open source ini membahas kebutuhan pasien dan manajemen rumah sakit. Sedangkan, laboratorium pihak ketiga dapat diintegrasikan ke dalam proses kerja. Kesehatan sekarang lebih mudah diakses dari sebelumnya karena perkembangan baru -baru ini. Selain itu, Mobile Health telah memfasilitasi sektor ini dengan membawa banyak aplikasi kesehatan untuk pengguna smartphone. Faktanya, aplikasi ini berjalan di smartphone, tablet, dan jam tangan yang memberi tahu pengguna tentang kalori mereka, wawasan olahraga, detak jantung dan dll. Selain itu, pasien dapat menerima peringatan kesehatan dan laporan medis pada perangkat mereka. Lebih lanjut, perangkat lunak yang berjalan pada perangkat memungkinkan pengguna membantu dalam merumuskan siklus hidup tidur yang sehat.
+[Healthcare Technologies][8] Fokus pada membawa peningkatan di semua sektor sistem TI perawatan kesehatan ** **. Ada banyak alat dan perangkat lunak gratis untuk meningkatkan produktivitas dalam mendiagnosis penyakit, pengobatan, dan obat apa pun. Telah ada inovasi yang konsisten yang memberikan wawasan terbaru tentang teknologi kesehatan. Aplikasi open source ini membahas kebutuhan pasien dan manajemen rumah sakit. Sedangkan, laboratorium pihak ketiga dapat diintegrasikan ke dalam proses kerja. Kesehatan sekarang lebih mudah diakses dari sebelumnya karena perkembangan baru -baru ini. Selain itu, Mobile Health telah memfasilitasi sektor ini dengan membawa banyak aplikasi kesehatan untuk pengguna smartphone. Faktanya, aplikasi ini berjalan di smartphone, tablet, dan jam tangan yang memberi tahu pengguna tentang kalori mereka, wawasan olahraga, detak jantung dan dll. Selain itu, pasien dapat menerima peringatan kesehatan dan laporan medis pada perangkat mereka. Lebih lanjut, perangkat lunak yang berjalan pada perangkat memungkinkan pengguna membantu dalam merumuskan siklus hidup tidur yang sehat.
 
 ## Apa dampak dari teknologi perawatan kesehatan? {#dampak}
 Di bagian panduan teknologi dan perawatan kesehatan ini, kami akan melalui hasil menggunakan sistem informasi kesehatan sumber terbuka. Dunia medis telah direvolusi sampai batas tertentu karena perkembangan besar -besaran dalam perawatan kesehatan primer. Selain itu, telah membawa semua pemangku kepentingan pada satu platform bersama dan terintegrasi di mana catatan setiap entitas terpusat. Berikut adalah hal -hal berikut yang perlu dipertimbangkan ketika kita berbicara tentang dampaknya:
@@ -43,21 +43,23 @@ Di bagian artikel teknologi dan perawatan kesehatan ini, kami akan melalui beber
 
 ## kesimpulan {#conclusion}
 Ini datang ke akhir posting blog ini. Artikel ini menjelaskan pentingnya teknologi di bidang medis dan kami telah melalui apa itu teknologi perawatan kesehatan. Ada perkembangan dan inovasi lebih lanjut dalam cara memperkaya sistem TI kesehatan. Posting blog ini telah mencakup banyak aspek teknologi dan perawatan kesehatan. Lebih lanjut, ada perangkat lunak layanan kesehatan open source yang memberikan bantuan jarak jauh kepada para praktisi medis di mana mereka dapat melakukan pemeriksaan medis terhadap pasien yang tidak dapat mengunjungi klinik secara fisik. Selain itu, alat jarak jauh dapat memotong biaya perjalanan bersama dengan banyak pengeluaran lainnya. Posting blog ini benar -benar dapat membantu Anda jika Anda ingin menginstal sistem informasi layanan kesehatan open source untuk bisnis Anda. Anda dapat menemukan daftar perangkat lunak layanan kesehatan open source yang disebutkan di bagian "Jelajahi" di bawah ini.
-Akhirnya, **** [containerize.com] [9] **** akan menerbitkan artikel tentang perangkat lunak layanan kesehatan online open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Teknologi Kesehatan] [8] ini untuk pembaruan rutin.
+Akhirnya, **** [containerize.com][9] **** akan menerbitkan artikel tentang perangkat lunak layanan kesehatan online open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Teknologi Kesehatan][8] ini untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Openemr] [10]
-  * [OpenMrs] [11]
-  * [HospitalRun] [12]
-  * [Rumah Sakit Terbuka] [13]
-  * [Solismed] [14]
-  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021] [15]
-  * [Fitur Eksplorasi Medical Record Manager HospitalRun] [16]
-  * [Perangkat lunak catatan kesehatan pasien open source teratas] [1]
-  * [Fitur Eksplorasi OpenemR Solusi Kesehatan Medis] [3]
-  * [Cara Mengatur Sistem EHealth Hospitalrun di LocalHost] [17]
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [18]
+  * [Openemr][10]
+  * [OpenMrs][11]
+  * [HospitalRun][12]
+  * [Rumah Sakit Terbuka][13]
+  * [Solismed][14]
+  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021][15]
+  * [Fitur Eksplorasi Medical Record Manager HospitalRun][16]
+  * [Perangkat lunak catatan kesehatan pasien open source teratas][1]
+  * [Fitur Eksplorasi OpenemR Solusi Kesehatan Medis][3]
+  * [Cara Mengatur Sistem EHealth Hospitalrun di LocalHost][17]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][18]
+
+  
 [1]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
 [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
 [3]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/

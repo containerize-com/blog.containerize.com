@@ -148,15 +148,17 @@ Ouais! C'est fait. Vous savez maintenant comment installer complètement la sync
 
 ## ** Conclusion: ** {# 4A1A}
 Dans ce tutoriel, vous avez réussi à installer le partage de fichiers sécurisé Open Source des cellules Pydio sur votre système Ubuntu. Vous pouvez utiliser cet article pour créer une infrastructure cloud pour stocker, sécuriser et partager vos fichiers dans le cloud auto-hébergé. Utilisez le partage de documents Collaborative Pydio et la meilleure application de partage de fichiers gratuite pour obtenir plus de contrôle de vos données et assurer une collaboration efficace dans votre organisation d'entreprise. Dans nos prochains tutoriels, nous discuterons des sujets plus intéressants des solutions de stockage cloud open source et des outils de collaboration de partage de fichiers.
-_Pour peut se joindre à nous sur [Twitter] [1], [LinkedIn] [2] et notre page [Facebook] [3]. Quelle plate-forme de partage ouverte de cloud-basé sur le cloud_ utilisez-vous en ligne ?. Si vous avez des questions, veuillez vous contacter] [4].
+_Pour peut se joindre à nous sur [Twitter][1], [LinkedIn][2] et notre page [Facebook][3]. Quelle plate-forme de partage ouverte de cloud-basé sur le cloud_ utilisez-vous en ligne ?. Si vous avez des questions, veuillez vous contacter][4].
 
 ## Explorer:
 Nous avons également plusieurs autres articles relatifs à la gestion quotidienne de votre serveur.
-  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian] [5]
-  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu] [6]
-  * [Secure et crypte nginx avec Let's Encrypt sur Ubuntu 20.04] [7]
-  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian] [8]
-  * [Configuration Nginx avec passager sur AWS Production Server] [9]
+  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian][5]
+  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu][6]
+  * [Secure et crypte nginx avec Let's Encrypt sur Ubuntu 20.04][7]
+  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian][8]
+  * [Configuration Nginx avec passager sur AWS Production Server][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

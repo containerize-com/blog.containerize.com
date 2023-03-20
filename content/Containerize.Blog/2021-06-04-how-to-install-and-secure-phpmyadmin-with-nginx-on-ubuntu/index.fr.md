@@ -76,7 +76,7 @@ Dans Terminal, commencez par connecter à MySQL à l'aide de votre mot de passe 
 ```
 sudo mysql -u root -p
 ```
-Après être connecté à MySQL, ajoutez un nouveau superutilisateur MySQL avec le nom d'utilisateur de votre choix. Dans cet exemple, nous l'appelons Yasiradmin. [Cliquez ici pour générer un mot de passe solide] [2] et remplacer le nouveau \ _password \ _re ci-dessous.
+Après être connecté à MySQL, ajoutez un nouveau superutilisateur MySQL avec le nom d'utilisateur de votre choix. Dans cet exemple, nous l'appelons Yasiradmin. [Cliquez ici pour générer un mot de passe solide][2] et remplacer le nouveau \ _password \ _re ci-dessous.
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ Ensuite, nous voulons configurer l'authentification dans Nginx pour fournir une 
 ```
 sudo apt install apache2-utils
 ```
-Une fois installé, nous pouvons générer le fichier .htpasswd. Changez le nom d'utilisateur de votre choix. [Générez un mot de passe] [3] et gardez-le en sécurité.
+Une fois installé, nous pouvons générer le fichier .htpasswd. Changez le nom d'utilisateur de votre choix. [Générez un mot de passe][3] et gardez-le en sécurité.
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ Si vous avez des questions, n'hésitez pas à me dire ci-dessous dans la section
 
 ## Explorer
 Vous pouvez également aimer les articles plus liés: ci-dessous:
-  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian] [4]
-  * [Comment sécuriser et crypter nginx avec Let's Encrypt sur Ubuntu 20.04] [5]
-  * [Comment configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian] [6]
-  * [Comment configurer Nginx avec Passenger sur AWS Production Server] [7]
-  * [Comment installer et configurer OwnCloud avec Apache sur Ubuntu] [8]
+  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian][4]
+  * [Comment sécuriser et crypter nginx avec Let's Encrypt sur Ubuntu 20.04][5]
+  * [Comment configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian][6]
+  * [Comment configurer Nginx avec Passenger sur AWS Production Server][7]
+  * [Comment installer et configurer OwnCloud avec Apache sur Ubuntu][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

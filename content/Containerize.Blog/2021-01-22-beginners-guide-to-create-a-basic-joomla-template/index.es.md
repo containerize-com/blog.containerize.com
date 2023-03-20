@@ -13,14 +13,14 @@ categories: ['Content Management']
 
 {{< figure align=center src="images/joomla-templates-2.png" alt="Plantilla básica de Joomla">}}
 
-En esta era digital, un sistema de gestión de contenido es una necesidad básica de cualquier negocio para todas sus necesidades de creación de contenido. Y, hay una serie de software de código abierto y CMS pagado disponible en el mercado. También hemos [enumerados] [1] algunos de los mejores software de gestión de contenido de código abierto para empresas. Joomla es uno de los software CMS de código abierto más popular y en este tutorial lo guiaremos paso a paso y explicaremos cómo crear una plantilla de Joomla desde cero. ¡Entonces empecemos!
+En esta era digital, un sistema de gestión de contenido es una necesidad básica de cualquier negocio para todas sus necesidades de creación de contenido. Y, hay una serie de software de código abierto y CMS pagado disponible en el mercado. También hemos [enumerados][1] algunos de los mejores software de gestión de contenido de código abierto para empresas. Joomla es uno de los software CMS de código abierto más popular y en este tutorial lo guiaremos paso a paso y explicaremos cómo crear una plantilla de Joomla desde cero. ¡Entonces empecemos!
 ** Nota: Asumimos que tiene instalada la versión de Joomla 2.5 **
-  *** [Estructura de directorio de configuración] [2] **
-  *** [Crear un archivo básico de platlatedetails.xml] [3] **
-  *** [Crear un archivo básico index.php] [4] **
-  *** [Descubrir e instalar plantilla] [5] **
-  *** [Empaque la plantilla] [6] **
-  *** [Conclusión] [7] **
+  *** [Estructura de directorio de configuración][2] **
+  *** [Crear un archivo básico de platlatedetails.xml][3] **
+  *** [Crear un archivo básico index.php][4] **
+  *** [Descubrir e instalar plantilla][5] **
+  *** [Empaque la plantilla][6] **
+  *** [Conclusión][7] **
 
 ## Configuración de la estructura del directorio {#setup}
 Para crear una plantilla de Joomla muy básica primero, cree una nueva carpeta en la carpeta de plantillas. Nombra la carpeta como quieras llamar tu plantilla, por ejemplo, "** myNewtemplate **".
@@ -106,7 +106,9 @@ En este artículo, aprendimos sobre la plantilla de Joomla. Pasamos paso a paso 
 
 ## Páginas de productos relevantes
 Puede encontrar los siguientes enlaces relevantes:
-  * [Guía de desarrollo de plantillas de Joomla para los principiantes] [8]
+  * [Guía de desarrollo de plantillas de Joomla para los principiantes][8]
+
+  
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

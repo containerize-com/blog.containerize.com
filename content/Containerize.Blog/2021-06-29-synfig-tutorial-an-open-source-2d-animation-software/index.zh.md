@@ -13,11 +13,11 @@ categories: ['Animation Software']
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software.png" alt="Synfig教程开源2D动画软件">}}
 
-  * [什么是Synfig？] [1]
-  * [如何安装Synfig？] [2]
-  * [应用程序接口概述] [3]
-  * [如何使用Synfig创建基本动画？] [4]
-  * [结论] [5]
+  * [什么是Synfig？][1]
+  * [如何安装Synfig？][2]
+  * [应用程序接口概述][3]
+  * [如何使用Synfig创建基本动画？][4]
+  * [结论][5]
 
 ## 什么是Synfig？ {#什么}
 Synfig是为独奏艺术家或小型团队设计的最佳2D动画软件之一，以管理其动画工作流程和项目。作为一种开源动画软件，Synfig采用了一个“无元”动画系统，不仅削减了动画处理所花费的时间，而且还使动画师能够添加绘图框架。
@@ -101,10 +101,12 @@ _您最喜欢的开源动画软件是什么？您对动画软件有任何疑问�
 
 ## 探索
 您可能会发现以下链接相关：
-  * [最佳开源动画软件] [7]
-  * [Synfig |基于免费和开源矢量的2D动画套件] [8]
-  * [如何使用Pencil2D动画软件创建动画] [9]
-  * [初学者指南使用Digikam启动免费图像编辑] [10]
+  * [最佳开源动画软件][7]
+  * [Synfig |基于免费和开源矢量的2D动画套件][8]
+  * [如何使用Pencil2D动画软件创建动画][9]
+  * [初学者指南使用Digikam启动免费图像编辑][10]
+
+  
 [1]: #what
 [2]: #how-to-install
 [3]: #application-interfae

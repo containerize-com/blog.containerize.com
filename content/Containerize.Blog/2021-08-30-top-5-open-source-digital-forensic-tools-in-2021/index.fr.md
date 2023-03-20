@@ -27,7 +27,7 @@ Le billet de blog suivant décrit les meilleurs outils médico-légaux numériqu
   * Dernières pensées
 
 ## 1. boîte à outils de vérification mobile (MVT) - Analyse Android et iOS
-Amnesty International a publié une boîte à outils appelée [Mobile Verification Toolkit ou MVT] [1] pour vous aider à trouver des traces médico-légales pour comprendre si le logiciel espion de Pegasus a ciblé votre téléphone iOS ou Andriod.
+Amnesty International a publié une boîte à outils appelée [Mobile Verification Toolkit ou MVT][1] pour vous aider à trouver des traces médico-légales pour comprendre si le logiciel espion de Pegasus a ciblé votre téléphone iOS ou Andriod.
 **Caractéristiques**:
   * Décrypter les sauvegardes IOS cryptées.
   * Processus et analyse des enregistrements du système iOS.
@@ -41,7 +41,7 @@ Amnesty International a publié une boîte à outils appelée [Mobile Verificati
 **Lien**:
 
 ## 2. Wireshark - Analyse du protocole de réseau {# ce62}
-[Wireshark] [2] est un outil qui analyse un paquet réseau. Il peut être utilisé pour les tests de réseau et le dépannage. Cet outil vous aide à vérifier différents trafics en passant par votre système informatique.
+[Wireshark][2] est un outil qui analyse un paquet réseau. Il peut être utilisé pour les tests de réseau et le dépannage. Cet outil vous aide à vérifier différents trafics en passant par votre système informatique.
 **Caractéristiques**:
   * Il fournit une analyse Rich VoIP (Protocol de voix sur Internet).
   * Capture Les fichiers compressés avec GZIP peuvent être facilement décompressés.
@@ -50,10 +50,10 @@ Amnesty International a publié une boîte à outils appelée [Mobile Verificati
   * Prise en charge du décryptage pour de nombreux protocoles qui incluent IPSEC (Internet Protocol Security), SSL (Secure Sockets Layer) et WEP (Livalet Wired Condual).
   * Vous pouvez appliquer une analyse intuitive, des règles de coloriage au paquet.
   * Vous permet de lire ou d'écrire un fichier dans n'importe quel format.
-** lien **: [https://www.wireshark.org] [2]
+** lien **: [https://www.wireshark.org][2]
 
 ## 3. Le kit Sleuth et l'autopsie - Analyse du disque {# CE62}
-[Sleuth Kit & Autopsy] [3] est un outil utilitaire basé sur Windows qui facilite l'analyse médico-légale des systèmes informatiques. Cet outil vous permet d'examiner votre disque dur et votre smartphone.
+[Sleuth Kit & Autopsy][3] est un outil utilitaire basé sur Windows qui facilite l'analyse médico-légale des systèmes informatiques. Cet outil vous permet d'examiner votre disque dur et votre smartphone.
 **Caractéristiques**:
   * Vous pouvez identifier efficacement l'activité en utilisant une interface graphique.
   * Cette application fournit une analyse des e-mails.
@@ -62,19 +62,19 @@ Amnesty International a publié une boîte à outils appelée [Mobile Verificati
   * Vous pouvez marquer des fichiers avec les noms de balises arbitraires.
   * Le kit Sleuth vous permet d'extraire des données des journaux d'appels, des SMS, des contacts, etc.
   * Il vous aide à signaler les fichiers et les dossiers en fonction du chemin et du nom.
-** lien **: [https://www.sleuthkit.org] [3]
+** lien **: [https://www.sleuthkit.org][3]
 
 ## 4. Framework de volatilité - Mémoire Forensics {# Ce62}
-[Framework de volatilité] [4] est un logiciel pour l'analyse de la mémoire et la criminalistique. C'est l'un des meilleurs outils d'imagerie médico-légale qui vous aide à tester l'état d'exécution d'un système à l'aide des données trouvées dans RAM. Cette application vous permet de collaborer avec vos coéquipiers.
+[Framework de volatilité][4] est un logiciel pour l'analyse de la mémoire et la criminalistique. C'est l'un des meilleurs outils d'imagerie médico-légale qui vous aide à tester l'état d'exécution d'un système à l'aide des données trouvées dans RAM. Cette application vous permet de collaborer avec vos coéquipiers.
 **Caractéristiques**:
   * Il a une API qui vous permet de rechercher rapidement des recherches de PTE (entrée de la table de page).
   * Le cadre de volatilité prend en charge Kaslr (randomisation de mise en page de l'espace d'adresse du noyau).
   * Cet outil fournit de nombreux plugins pour vérifier le fonctionnement du fichier Mac.
   * Il exécute automatiquement la commande de défaillance lorsqu'un service ne parvient pas à démarrer plusieurs fois.
-** lien **: [https://www.volatityfoundation.org] [4]
+** lien **: [https://www.volatityfoundation.org][4]
 
 ## 5. Sans Investigative Forensic Toolkit (SIFT) - SIFT Workstation for Ubuntu {# B49B}
-[SANS SIFT] [5] est une distribution de criminalistique informatique basée sur Ubuntu. Il s'agit de l'un des meilleurs outils médico-légaux informatiques qui fournit un établissement d'examen médico-légal et de réponse aux incidents numérique.
+[SANS SIFT][5] est une distribution de criminalistique informatique basée sur Ubuntu. Il s'agit de l'un des meilleurs outils médico-légaux informatiques qui fournit un établissement d'examen médico-légal et de réponse aux incidents numérique.
 **Caractéristiques**:
   * Il peut fonctionner sur un système d'exploitation 64 bits.
   * Cet outil aide les utilisateurs à mieux utiliser la mémoire.
@@ -89,12 +89,14 @@ La criminalistique numérique peut être utile aux sociétés ainsi qu'aux cabin
 
 ## Réflexions finales: {# 4A1A}
 Nous avons discuté des outils médico-légaux numériques open source les plus populaires couvrant de nombreuses implémentations avec un délai d'exécution plus rapide par rapport aux méthodes traditionnelles. Les outils de médecine légale de données sont largement dirigés par la technologie avec une alternative rapide à l'analyse manuelle. Ce sont quelques-uns des meilleurs outils gratuits que vous pouvez utiliser pour la criminalistique. Nous espérons que vous avez aimé lire la liste. Dans nos prochains articles de blog, nous discuterons de sujets plus intéressants sur les outils médico-légaux numériques open source.
-_Pour peut se joindre à nous sur [Twitter] [7], [LinkedIn] [8] et notre page [Facebook] [9]. Quels outils médico-légaux numériques open source préférez-vous ?. Si vous avez des questions ou des commentaires, veuillez vous contacter] [10].
+_Pour peut se joindre à nous sur [Twitter][7], [LinkedIn][8] et notre page [Facebook][9]. Quels outils médico-légaux numériques open source préférez-vous ?. Si vous avez des questions ou des commentaires, veuillez vous contacter][10].
 
 ## Explorer:
 Nous avons également plusieurs autres articles que vous pourriez aimer.
-  * [Top outils médico-légaux numériques open source] [11]
-  * [Boîte à outils de vérification mobile ou outil MVT pour les logiciels espions israéliens du groupe NSO] [1]
+  * [Top outils médico-légaux numériques open source][11]
+  * [Boîte à outils de vérification mobile ou outil MVT pour les logiciels espions israéliens du groupe NSO][1]
+
+  
 [1]: https://products.containerize.com/digital-forensic-software/mvt/
 [2]: https://www.wireshark.org/
 [3]: https://www.sleuthkit.org/

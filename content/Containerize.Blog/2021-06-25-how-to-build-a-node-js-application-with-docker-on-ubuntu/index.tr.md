@@ -14,12 +14,12 @@ categories: ['Software Development']
 
 ## Bu makale size Docker konteynerizasyonu ile bir Nodejs uygulamasının nasıl oluşturulacağınızı açıklayacaktır. Docker, uygulamaları kaplar olarak paketlemeye ve çalıştırmaya izin verir.
 Bugün yazılım geliştirme araçları hakkında bir dizi öğretici başlıyoruz. Ve bu ilk makale, Docker kullanarak bir Node.js uygulamasının nasıl kapsayıcılarını kapsayacağını kapsar. Docker, geliştiricilerin uygulamaları kaplama olarak paketlemelerine ve çalıştırmasına yardımcı olur. Konteyner izole bir işlem ve sanal makinelere hafif bir alternatif olduğundan. Bu makalede, Docker konteynerizasyonu ile bir Nodejs uygulamasının nasıl oluşturulacağı açıklanmaktadır. Başlayalım!
-  *[** Docker nedir **] [1]
-  *** [Önkoşul] [2] **
-  *[** Kurulum Node.js Uygulaması **] [3]
-  *[** Dockerfile yaz **] [4]
-  *[** Görüntü oluşturun ve Docker Container'ı çalıştırın **] [5]
-  *[** Sonuç **] [6]
+  *[** Docker nedir **][1]
+  *** [Önkoşul][2] **
+  *[** Kurulum Node.js Uygulaması **][3]
+  *[** Dockerfile yaz **][4]
+  *[** Görüntü oluşturun ve Docker Container'ı çalıştırın **][5]
+  *[** Sonuç **][6]
 
 ## Docker nedir {#docker}
 Docker, kapsayıcılar adı verilen paketlerde yazılım sunmak için işletim sistemi düzeyindeki sanallaştırma kullanan bir servis ürünleri olarak bir platform kümesidir. Uygulamalar geliştirmek, nakliye ve çalıştırmak için açık bir platformdur. Docker, yazılımları hızlı bir şekilde sunabilmeniz için uygulamalarınızı altyapınızdan ayırmanızı sağlar.
@@ -130,8 +130,10 @@ Bu, Docker PS komutunu çalıştırarak doğrulayabileceğiniz konteyneri başla
 Docker konteyneri ile geliştirme çok basit ve kolaydır. Docker, geliştiricilerin uygulamaları kaplama olarak paketlemelerine ve çalıştırmasına yardımcı olur. Bu öğreticide Ubuntu'da Docker Container kullanarak bir Node.js uygulamasının nasıl oluşturulacağını öğrendik. Yaklaşan makalelerde Docker'ın daha fazla kullanımı hakkında yazacağız ve ayrıca diğer araçları tartışacağız.
 
 ## Keşfetmek
-  * [Ubuntu'da nginx ile birden fazla PHP sürümü nasıl kurulur] [7]
-  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır] [8]
+  * [Ubuntu'da nginx ile birden fazla PHP sürümü nasıl kurulur][7]
+  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır][8]
+
+  
 [1]: #docker
 [2]: #prereq
 [3]: #setup

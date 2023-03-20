@@ -15,11 +15,11 @@ categories: ['Blogging']
 
 Platform blogging open source sangat penting hari ini untuk pembuatan konten. Oleh karena itu, dari memulai blog pribadi untuk membagikan ide, pembelajaran, prestasi Anda, Anda memerlukan platform blogging. Platform blogging telah berkembang selama bertahun -tahun. Akibatnya, ada sejumlah variasi seperti pembangun situs web, generator situs statis dan layanan blogging yang kaya fitur.
 Ada begitu banyak platform blogging open source yang menyediakan opsi ekstensibilitas dan kustomisasi yang luar biasa. Karena itu, pilihan menjadi sulit karena setiap platform memiliki pro dan kontra sendiri. Tim kami telah melalui sejumlah besar panduan platform blogging open source untuk pembuat konten untuk memilih perangkat lunak blogging yang tepat pada tahun 2021. Jadi, kami telah memfilter daftar 5 platform blogging open source terbaik dan situs blogging teratas yang tersedia.
-  * [WordPress] [1]
-  * [Jekyll] [2]
-  * [Ghost] [3]
-  * [Serendipity] [4]
-  * [Silverstripe] [5]
+  * [WordPress][1]
+  * [Jekyll][2]
+  * [Ghost][3]
+  * [Serendipity][4]
+  * [Silverstripe][5]
 
 ### ** WordPress ** {#WordPress}
 WordPress adalah sistem manajemen konten sumber yang gratis dan terbuka dan platform blogging yang di -host mandiri. Ini didasarkan pada PHP dan MySQL yang merupakan tumpukan teknologi paling populer. Akibatnya, membuat WordPress CMS yang paling banyak digunakan dan perangkat lunak blogging open source di dunia. Pada saat penulisan posting ini, sesuai situs web resmi WordPress.org TI memberi lebih dari 30% dari 10 juta situs web teratas dan pangsa pasar secara keseluruhan adalah 60%.
@@ -31,7 +31,7 @@ Berikut adalah beberapa fitur penting dari platform microblogging terbaik WordPr
   * Plugin gratis untuk WordPress - WordPress menyediakan repositori plugin untuk meningkatkan dan memperluas blog Anda.
   * Dukungan multibahasa - WordPress memberikan dukungan multibahasa langsung di luar kotak.
   * Komunitas pengembang open source besar
-    [Baca lebih lanjut] [6]
+    [Baca lebih lanjut][6]
 
 ### ** jekyll ** {#jekyll}
 Jekyll adalah generator situs statis dan alat blogging gratis untuk pemula. Ini membuat situs web menggunakan file markup Anda. Dibutuhkan konten situs Anda, menerapkannya pada beberapa templat dan menghasilkan file HTML murni statis. Jadi, mereka siap di -host di platform hosting apa pun.
@@ -42,7 +42,7 @@ Berikut adalah highlight teratas dari platform blogging open source terbaik Jeky
   * Halaman yang memuat cepat
   * Tema
   * Open Source
-    [Baca lebih lanjut] [7]
+    [Baca lebih lanjut][7]
 
 ### ** hantu ** {#ghost}
 Ghost adalah nirlaba open source dan alat blogging gratis. Ini dikembangkan menggunakan Node.js yang merupakan salah satu platform pengembangan paling populer. Jadi, ia memiliki semua kekuatan node. Di atas segalanya, ia memiliki antarmuka sederhana dan bersih yang membuatnya mudah digunakan. Ini adalah manajemen konten yang luar biasa dan platform blogging untuk pemula dan lebih fokus pada konten.
@@ -54,7 +54,7 @@ Ghost menyediakan API REST asli, keanggotaan bawaan dan fitur berlangganan bersa
   * Halaman seluler yang dipercepat
   * Cadangan Otomatis
   * Aplikasi asli
-    [Baca lebih lanjut] [8]
+    [Baca lebih lanjut][8]
 
 ### ** Serendipity ** {#serendipity}
 Serendipity adalah open source, mesin weblog berbasis PHP yang dapat digunakan untuk membangun dan memelihara situs web untuk tujuan apa pun. Ini dirancang untuk para blogger kasual. Namun, menawarkan kerangka kerja yang dapat diperluas yang memiliki kekuatan untuk membangun aplikasi profesional.
@@ -66,7 +66,7 @@ Berikut adalah beberapa sorotan teratas dari perangkat lunak blogging Top Serend
   * Sistem plugin yang kuat
   * Tema
   * Open Source
-    [Baca lebih lanjut] [9]
+    [Baca lebih lanjut][9]
 
 ### ** silverstripe ** {#silverstripe}
 Silverstripe adalah CMS dan kerangka kerja open source gratis untuk membuat dan memelihara situs web, blog, dan aplikasi web. Itu dibangun menggunakan PHP bahasa skrip paling populer di dunia. Oleh karena itu, menjadikannya kerangka kerja fleksibel yang dapat digunakan untuk membangun aplikasi tingkat produksi.
@@ -77,19 +77,21 @@ Berikut adalah fitur teratas yang kami temukan di perangkat lunak blog Silverstr
   * Ramah mesin pencari
   * Alur kerja & persetujuan pengguna
   * Manajemen pengguna
-    [Baca lebih lanjut] [10]
+    [Baca lebih lanjut][10]
 
 ### Kesimpulan:
 Dalam artikel ini Anda telah meninjau perangkat lunak blogging open source terbaik yang tersedia untuk pembuat konten. Untuk ekstensibilitas WordPress memiliki keuntungan karena repositori plugin yang besar. Jika Anda membutuhkan kecepatan maka Ghost dan Jekyll bisa menjadi pilihan Anda. Untuk masalah spam, Serendipity telah membangun fitur kontrol spam. Terakhir Silverstripe dapat menjadi pilihan bagi mereka yang ingin mengatur aliran persetujuan yang kompleks.
-Lebih lanjut, [containerize.com] [11] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja_. Anda dapat bergabung dengan kami di [Twitter] [12], [LinkedIn] [13] dan halaman [Facebook] [14] kami. Daftar platform blogging apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi kami] [15].
+Lebih lanjut, [containerize.com][11] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja_. Anda dapat bergabung dengan kami di [Twitter][12], [LinkedIn][13] dan halaman [Facebook][14] kami. Daftar platform blogging apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi kami][15].
 
 ## Mengeksplorasi
 Anda dapat menemukan solusi eCommerce yang relevan berikut untuk bisnis kecil:
-  *[** Hugo - Generator situs statis open source paling populer di dunia **] [16]
-  *[** hexo - generator situs statis cepat dan mudah dan platform blogging **] [17]
-  *[** Gatsby - Bangun situs web cepat dengan Gatsby **] [18]
-  *** [WordPress - Platform Blogging Open Source] [19] **
-  *** [platform blogging terbaik dan open source] [20] **
+  *[** Hugo - Generator situs statis open source paling populer di dunia **][16]
+  *[** hexo - generator situs statis cepat dan mudah dan platform blogging **][17]
+  *[** Gatsby - Bangun situs web cepat dengan Gatsby **][18]
+  *** [WordPress - Platform Blogging Open Source][19] **
+  *** [platform blogging terbaik dan open source][20] **
+
+  
 [1]: #wordpress
 [2]: #jekyll
 [3]: #ghost

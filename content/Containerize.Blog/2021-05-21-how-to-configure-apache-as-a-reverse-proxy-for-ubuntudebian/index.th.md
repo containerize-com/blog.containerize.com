@@ -97,11 +97,13 @@ sudo systemctl รีสตาร์ท apache2.service
 
 ## สำรวจ
 คุณอาจชอบบทความที่เกี่ยวข้องเพิ่มเติมด้านล่าง:
-  * [วิธีการ] [1] [ติดตั้งและรักษาความปลอดภัย phpmyadmin ด้วย nginx บน ubuntu] [2]
-  * [วิธีการตั้งค่า nginx กับผู้โดยสารบนเซิร์ฟเวอร์การผลิต AWS] [3]
-  * [กำหนดค่าการสนับสนุน HTTP/2 ใน Nginx บน Ubuntu/Debian] [4]
-  * [ปลอดภัยและเข้ารหัส nginx ด้วยการเข้ารหัส Let's Encrypt บน Ubuntu 20.04] [5]
-  * [วิธีการติดตั้งและกำหนดค่า owncloud ด้วย apache บน ubuntu] [6]
+  * [วิธีการ][1][ติดตั้งและรักษาความปลอดภัย phpmyadmin ด้วย nginx บน ubuntu][2]
+  * [วิธีการตั้งค่า nginx กับผู้โดยสารบนเซิร์ฟเวอร์การผลิต AWS][3]
+  * [กำหนดค่าการสนับสนุน HTTP/2 ใน Nginx บน Ubuntu/Debian][4]
+  * [ปลอดภัยและเข้ารหัส nginx ด้วยการเข้ารหัส Let's Encrypt บน Ubuntu 20.04][5]
+  * [วิธีการติดตั้งและกำหนดค่า owncloud ด้วย apache บน ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/th/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

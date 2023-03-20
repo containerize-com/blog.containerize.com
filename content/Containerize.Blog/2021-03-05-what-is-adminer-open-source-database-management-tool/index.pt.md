@@ -13,17 +13,17 @@ categories: ['Database Management Software']
 {{_LINE_11_}}
 
 ## Visão geral
-As tarefas relacionadas a dados são muito mais críticas agora do que nunca. A ferramenta de gerenciamento de banco de dados se tornou parte integrante de qualquer negócio. No entanto, existem muitos sistemas de gerenciamento de banco de dados baseados na Web que oferecem soluções para tarefas tão desafiadoras. As empresas estão gerando toneladas de dados diariamente e se tornando difíceis de manter. Além disso, as organizações tendem a simplificar o acesso e o controle de dados. Essas ferramentas gratuitas ajudam a reduzir a redundância de dados, tornam os bancos de dados eficientes e confiáveis. Além disso, publicamos postagens de blog sobre tópicos como [Top Open Open DBMS Software Tools] [1] e alguns mais.
+As tarefas relacionadas a dados são muito mais críticas agora do que nunca. A ferramenta de gerenciamento de banco de dados se tornou parte integrante de qualquer negócio. No entanto, existem muitos sistemas de gerenciamento de banco de dados baseados na Web que oferecem soluções para tarefas tão desafiadoras. As empresas estão gerando toneladas de dados diariamente e se tornando difíceis de manter. Além disso, as organizações tendem a simplificar o acesso e o controle de dados. Essas ferramentas gratuitas ajudam a reduzir a redundância de dados, tornam os bancos de dados eficientes e confiáveis. Além disso, publicamos postagens de blog sobre tópicos como [Top Open Open DBMS Software Tools][1] e alguns mais.
 Portanto, a comunidade de código aberto desenvolveu um administrador, que é uma ferramenta de gerenciamento de banco de dados gratuita em nível corporativo. Neste tutorial de administrador, abordaremos os seguintes pontos.
-  * [O que é administrador?] [2]
-  * [Características importantes do administrador] [3]
-  * [Administrador vs phpmyadmin] [4]
-  * [Gerenciar bancos de dados com administrador] [5]
-  * [Conclusão] [6]
+  * [O que é administrador?][2]
+  * [Características importantes do administrador][3]
+  * [Administrador vs phpmyadmin][4]
+  * [Gerenciar bancos de dados com administrador][5]
+  * [Conclusão][6]
 
 ## O que é administrador? {#o que}
 Quando se trata de ferramenta de gerenciamento de banco de dados MySQL leve e fácil de usar, o AleDer obteve ampla popularidade e oferece muitas melhorias em comparação com o PHPMYADMIN. Inicialmente, essa ferramenta de gerenciamento de banco de dados foi desenvolvida por Jakub Vrana em 2007 como uma alternativa ao PHPMyadmin, de modo que tudo o que você precisa fazer é baixar e instalar um único arquivo PHP leve e leve no banco de dados do seu aplicativo.
-Como uma ferramenta de gerenciamento de banco de dados de código aberto, ela também é gratuita e está escrita no PHP. O que diferencia este sistema de gerenciamento de banco de dados baseado na Web é um bom design de interface de usuário para uma experiência perfeita para o usuário, além de fortes recursos de segurança para manter os dados seguros de qualquer ataque ou tentativas de hackers maliciosas. Essa ferramenta de gerenciamento de banco de dados é fácil de configurar e requer requisitos simples, como o Ubuntu e a LAMP. Os usuários podem encontrar documentação abrangente sobre desenvolvimento e implantação. Portanto, você pode encontrar arquivos de origem deste sistema de gerenciamento de banco de dados baseado na Web no [GitHub] [7].
+Como uma ferramenta de gerenciamento de banco de dados de código aberto, ela também é gratuita e está escrita no PHP. O que diferencia este sistema de gerenciamento de banco de dados baseado na Web é um bom design de interface de usuário para uma experiência perfeita para o usuário, além de fortes recursos de segurança para manter os dados seguros de qualquer ataque ou tentativas de hackers maliciosas. Essa ferramenta de gerenciamento de banco de dados é fácil de configurar e requer requisitos simples, como o Ubuntu e a LAMP. Os usuários podem encontrar documentação abrangente sobre desenvolvimento e implantação. Portanto, você pode encontrar arquivos de origem deste sistema de gerenciamento de banco de dados baseado na Web no [GitHub][7].
 
 ## Recursos importantes do administrador {#IMPORTANT}
 Alguns recursos básicos, mas importantes, desta ferramenta de gerenciamento de banco de dados incluem:
@@ -43,7 +43,7 @@ Para que o Administrador seja executado em seu sistema, é importante que você 
   * PHP versão 5, 7 ou 8
   * Um driver de banco de dados como MySQL, SQLite, PostgreSQL etc
 **Instalação**
-Se você tiver esses dois requisitos de sistema verificados, basta fazer o download do arquivo de [] [8] e iniciar o upload do arquivo php no seu servidor. Para o servidor xampp, renomeie o arquivo baixado como "adminner.php" e coloque esse arquivo na pasta Htdocs.
+Se você tiver esses dois requisitos de sistema verificados, basta fazer o download do arquivo de [][8] e iniciar o upload do arquivo php no seu servidor. Para o servidor xampp, renomeie o arquivo baixado como "adminner.php" e coloque esse arquivo na pasta Htdocs.
 ** Acesso interface do usuário **
 Depois de passar por isso, o que é administrador? Agora acesse este aplicativo a partir de http: your-ip-address/renderner.php, como mostrado:
 {{_LINE_42_}}
@@ -71,14 +71,16 @@ Adicionar novos registros a uma tabela é bem simples. Clique no link do novo it
 
 ## Conclusão {#conclusion}
 Isso nos leva ao final deste tutorial de administrador. Passamos por alguns tópicos importantes, como o que é administrador, administrador versus phpmyadmin e outros aspectos desse sistema de gerenciamento de banco de dados baseado na Web de código aberto. Felizmente, esta postagem do blog o ajudará certamente se você deseja instalar uma ferramenta de gerenciamento de banco de dados de código aberto. É uma interface intuitiva, inteligente e fácil de usar a torna uma ferramenta de gerenciamento de banco de dados muito popular. Além disso, ele suporta muitos bancos de dados, incluindo MYSQL, SQLITE, MONGODB e muito mais, juntamente com medidas de segurança para proteger e evitar eventos de hackers maliciosos. Em suma, essa ferramenta de gerenciamento de banco de dados não é apenas de código aberto, mas também gratuito.
-Finalmente, [contenderize.com] [9] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Gerenciamento de banco de dados] [10] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [11], [LinkedIn] [12] e [Twitter] [13].
+Finalmente, [contenderize.com][9] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Gerenciamento de banco de dados][10] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][11], [LinkedIn][12] e [Twitter][13].
 
 ## Explore
 Para saber mais sobre as ferramentas gratuitas de gerenciamento de banco de dados baseadas na Web, verifique as seguintes páginas:
-  * [Administrador | Sistema de gerenciamento de banco de dados baseado na Web gratuito] [14]
-  * [Topo de código aberto DBMS Software Tools] [1]
-  * [Top 5 Ferramentas de gerenciamento de banco de dados de código aberto em 2021] [15]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [16]
+  * [Administrador | Sistema de gerenciamento de banco de dados baseado na Web gratuito][14]
+  * [Topo de código aberto DBMS Software Tools][1]
+  * [Top 5 Ferramentas de gerenciamento de banco de dados de código aberto em 2021][15]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][16]
+
+  
 [1]: https://products.containerize.com/database-management
 [2]: #what
 [3]: #important

@@ -12,11 +12,11 @@ categories: ['Blogging']
 {{< figure align=center src="images/Beginners-Guide-To-Create-WordPress-Theme-From-Scratch-1024x536.png" alt="Panduan Pemula Untuk Membuat Tema WordPress dari awal">}}
 
 Cara membuat tema WordPress adalah salah satu kueri teratas dalam pencarian Google. Membuat tema WordPress bisa sederhana jika Anda tahu HTML dasar, CSS, dan JavaScript. Namun, jika Anda baru mengenal WordPress maka tutorial ini untuk Anda. Yang harus Anda lakukan adalah mengikuti langkah -langkah yang disebutkan. Jadi, mari kita baca panduan ini dan pelajari cara membuat tema WordPress dari awal.
-  * [Persyaratan] [1]
-  * [Panduan Langkah demi Langkah] [2]
+  * [Persyaratan][1]
+  * [Panduan Langkah demi Langkah][2]
 
 ### Persyaratan {#Requirements}
-Hal pertama dan terpenting yang perlu Anda lakukan adalah, instal WordPress. WordPress terkenal karena kemudahan pemasangannya. Ini adalah proses yang sederhana dan dapat dilakukan dengan mudah sendiri dengan mengikuti [panduan] [3].
+Hal pertama dan terpenting yang perlu Anda lakukan adalah, instal WordPress. WordPress terkenal karena kemudahan pemasangannya. Ini adalah proses yang sederhana dan dapat dilakukan dengan mudah sendiri dengan mengikuti [panduan][3].
 
 ### Cara membuat tema WordPress; Panduan Langkah demi Langkah {#Guide}
 Untuk tema WordPress, semuanya akan dilakukan di direktori ** wp_content ** saja. Buat saja subfolder tema baru di folder ** wp_content → tema. ** Mari kita asumsikan nama Anda ** "CustomTheme" **.
@@ -134,6 +134,8 @@ Setelah mengikuti semua langkah di atas, Anda akan memiliki tema WordPress yang 
 
 ### Kesimpulan
 Dalam tutorial ini kami telah menjelaskan cara membuat tema WordPress dalam langkah -langkah sederhana dan mudah. Setelah membaca dan mengikuti langkah -langkah yang membuat tema WordPress adalah tugas yang lebih sulit sekarang. Tapi, jelas tutorial ini menempel pada pengaturan yang sangat mendasar dan untuk meningkatkan di atasnya, Anda harus mempelajari lebih lanjut tentang HTML, CSS, JS dan PHP.
+
+  
 [1]: #requirements
 [2]: #guide
 [3]: https://products.containerize.com/blogging/wordpress

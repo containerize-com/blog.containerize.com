@@ -15,7 +15,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 
 ## **Ringkasan**
-** [NextCloud] [1] ** adalah solusi penyimpanan cloud yang bebas dan aman ** ** ditulis dalam bahasa pemrograman PHP. Ini menyediakan akses data menggunakan antarmuka web dan secara fungsional mirip dengan Dropbox. Solusi penyimpanan cloud berpemilik seperti Dropbox dan Google Drive nyaman tetapi mereka dapat digunakan untuk mengumpulkan data pribadi karena file Anda disimpan di sistem mereka. Jika Anda membutuhkan sinkronisasi file dan berbagi file yang aman, aman dan sesuai, maka Anda dapat beralih ke server Open Source NextCloud. Pengaturan NextCloud dapat diinstal di server rumah pribadi Anda atau di server pribadi virtual.
+** [NextCloud][1] ** adalah solusi penyimpanan cloud yang bebas dan aman ** ** ditulis dalam bahasa pemrograman PHP. Ini menyediakan akses data menggunakan antarmuka web dan secara fungsional mirip dengan Dropbox. Solusi penyimpanan cloud berpemilik seperti Dropbox dan Google Drive nyaman tetapi mereka dapat digunakan untuk mengumpulkan data pribadi karena file Anda disimpan di sistem mereka. Jika Anda membutuhkan sinkronisasi file dan berbagi file yang aman, aman dan sesuai, maka Anda dapat beralih ke server Open Source NextCloud. Pengaturan NextCloud dapat diinstal di server rumah pribadi Anda atau di server pribadi virtual.
 Sumber terbuka NextCloud menyediakan ** enkripsi end-to-end **, berarti file dapat dienkripsi pada perangkat klien sebelum diunggah ke server. Ini juga dapat diintegrasikan dengan suite kantor online seperti Collobora, OnlyOffice NextCloud sehingga Anda dapat membuat dan mengedit file dokumen, PPT, XLS langsung dari klien NextCloud. Anda dapat berbagi dan menyinkronkan satu atau lebih file dan folder di komputer Anda dengan server NextCloud Anda setelah unduhan klien NextCloud. Download desktop NextCloud dan klien seluler menyediakan opsi untuk disinkronkan dan berbagi semua perangkat di bawah kendali Anda. Tempatkan file data di direktori bersama lokal Anda, dan file -file tersebut segera disinkronkan ke server dan ke perangkat lain menggunakan klien sinkronisasi desktop NextCloud, aplikasi iOS atau perangkat Android.
 Tutorial ini akan membantu Anda menginstal NextCloud di Ubuntu 20.04 LTS Linux System Operasi dengan Apache.
   *** Pasang prasyarat (tumpukan lampu) **
@@ -47,7 +47,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_38_}}
 
 ## Langkah 2: Unduh Arsip NextCloud di Ubuntu
-Pada saat penulisan artikel ini, versi terbaru NextCloud adalah 22.0.0Beta5. Setelah berhasil mengkonfigurasi server lampu di sistem Anda, mari kita unduh NextCloud dari [situs web resmi] [2].
+Pada saat penulisan artikel ini, versi terbaru NextCloud adalah 22.0.0Beta5. Setelah berhasil mengkonfigurasi server lampu di sistem Anda, mari kita unduh NextCloud dari [situs web resmi][2].
 CD /TMP
 wget https://download.nextcloud.com/server/releases/nextcloud-22.0.0beta5.zip
 {{_LINE_43_}}
@@ -97,16 +97,18 @@ Selamat, Anda memiliki solusi cloud on-premise NextCloud yang berfungsi pada sis
 
 ## ** Wrapping Up: ** {#4a1a}
 Selamat! Anda telah berhasil ** dikonfigurasi dan menginstal NextCloud di Ubuntu Server dengan Apache **. Anda telah belajar cara membuat cloud pribadi. NextCloud Ubuntu Server adalah platform kolaborasi Cloud Storage yang luar biasa yang dapat melayani hampir semua kebutuhan penyimpanan cloud pribadi atau hibrida. Sekarang Anda tahu cara menginstal NextCloud di Ubuntu dan data Anda aman dan aman di cloud yang diselenggarakan sendiri. Dalam tutorial mendatang kami, kami akan membahas tentang topik yang lebih menarik terkait dengan tumpukan solusi server web.
-_ Solusi penyimpanan berbasis cloud yang Anda sukai? Jika Anda memiliki pertanyaan, silakan [hubungi Anda] [3] ._
+_ Solusi penyimpanan berbasis cloud yang Anda sukai? Jika Anda memiliki pertanyaan, silakan [hubungi Anda][3] ._
 
 ## Mengeksplorasi:
 Anda mungkin suka mengikuti artikel yang berkaitan dengan manajemen sehari-hari server Anda.
-  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu] [4]
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu atau Debian] [5]
-  * [Instal dan Aman PHPMyAdmin dengan Nginx di Ubuntu] [6]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [7]
-  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [8]
-  * [Pengaturan Nginx dengan penumpang di server produksi AWS] [9]
+  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu][4]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu atau Debian][5]
+  * [Instal dan Aman PHPMyAdmin dengan Nginx di Ubuntu][6]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][7]
+  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][8]
+  * [Pengaturan Nginx dengan penumpang di server produksi AWS][9]
+
+  
 [1]: https://nextcloud.com/
 [2]: https://nextcloud.com/install/
 [3]: mailto:yasir.saeed@aspose.com

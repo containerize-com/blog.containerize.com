@@ -13,11 +13,11 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Mengatur Manajemen Bounce Advanced dan Aturan Bounce di Phplist">}}
 
-Dalam tutorial [sebelumnya] [1] kami, kami sudah membahas ** Phplist Bounce Processing **. Jika Anda tidak terbiasa dengan pemrosesan bouncing, Anda dapat membacanya. Anda dapat mengunduh email yang tidak terkirim ke proyek PhPlist Anda menggunakan pemrosesan bouncing. Bagaimana Anda menangani email yang diunduh? Tidak tahu, mari kita lihat manajemen bouncing di muka yang memungkinkan Anda untuk memilah ** email bouncing **. Setiap pesan email yang dikembalikan memiliki kode kesalahan yang dikembalikan oleh MTA (agen transfer surat). Selanjutnya, Anda dapat meninjau header email pesan yang dikembalikan dan berisi semua informasi di sepanjang kode kesalahan.
-  * [Aktifkan Penanganan Bounce Lanjutan] [2]
-  * [Tambahkan aturan bouncing] [3]
-  * [Daftar aturan bouncing] [4]
-  * [Kesimpulan] [5]
+Dalam tutorial [sebelumnya][1] kami, kami sudah membahas ** Phplist Bounce Processing **. Jika Anda tidak terbiasa dengan pemrosesan bouncing, Anda dapat membacanya. Anda dapat mengunduh email yang tidak terkirim ke proyek PhPlist Anda menggunakan pemrosesan bouncing. Bagaimana Anda menangani email yang diunduh? Tidak tahu, mari kita lihat manajemen bouncing di muka yang memungkinkan Anda untuk memilah ** email bouncing **. Setiap pesan email yang dikembalikan memiliki kode kesalahan yang dikembalikan oleh MTA (agen transfer surat). Selanjutnya, Anda dapat meninjau header email pesan yang dikembalikan dan berisi semua informasi di sepanjang kode kesalahan.
+  * [Aktifkan Penanganan Bounce Lanjutan][2]
+  * [Tambahkan aturan bouncing][3]
+  * [Daftar aturan bouncing][4]
+  * [Kesimpulan][5]
 
 ## Aktifkan Penanganan Bounce Advanced {#Enable}
 Hal pertama pertama, aktifkan penanganan ** bouncing canggih ** dengan menyalin kode di bawah dalam file config.php.
@@ -64,14 +64,16 @@ Setelah membuat sejumlah aturan, aturan ** bouncing ** Anda akan terlihat sepert
 
 ## kesimpulan {#conclusion}
 Dalam tutorial ini, kami belajar tentang manajemen bouncing ** canggih ** dan mengembangkan aturan bouncing yang diperlukan. Akan sangat bagus untuk mengizinkan fitur ini sehingga Anda dapat mengotomatiskan proses membersihkan alamat email yang tidak valid dari daftar Anda. Ini juga akan memungkinkan Anda untuk mempertahankan tingkat minimum email yang dikembalikan. Selain itu, daftar Anda akan memiliki pelanggan yang sah.
-Lebih lanjut, [containerize.com] [6] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja. Untuk pembaruan rutin, silakan nantikan kategori [nawala] [7] untuk artikel yang lebih menarik.
+Lebih lanjut, [containerize.com][6] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja. Untuk pembaruan rutin, silakan nantikan kategori [nawala][7] untuk artikel yang lebih menarik.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [PhPlist - Open Source Newsletter dan Perangkat Lunak Pemasaran Email] [8]
-  * [Cara membuat dan mengirim buletin menggunakan PhPlist] [9]
-  * [Cara Mengatur dan Proses Bouncing di PhPlist] [1]
-  * [Panduan Pemula untuk Mengembangkan Plugin PhPlist] [10]
+  * [PhPlist - Open Source Newsletter dan Perangkat Lunak Pemasaran Email][8]
+  * [Cara membuat dan mengirim buletin menggunakan PhPlist][9]
+  * [Cara Mengatur dan Proses Bouncing di PhPlist][1]
+  * [Panduan Pemula untuk Mengembangkan Plugin PhPlist][10]
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
 [2]: #Enable
 [3]: #Add

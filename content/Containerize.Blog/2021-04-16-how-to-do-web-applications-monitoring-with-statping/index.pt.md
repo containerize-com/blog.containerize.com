@@ -20,10 +20,10 @@ Vamos dar uma olhada nos principais recursos da estatística.
   *** App móvel ** - Use o aplicativo gratuito para dispositivos para iPhone e Android e gerencie tudo em movimento.
   *** OAuth Authenticatio ** N - Suporta a autenticação da OAuth para serviços populares como Github, Google, Slack e Personal OpenId Proves. Use esse recurso e aumente a segurança.
 Abordaremos os seguintes tópicos deste tutorial.
-  * [Instalando no Linux] [1]
-  * [Configurar o Systemd Service] [2]
-  * [Crie serviço para monitoramento] [3]
-  * [Conclusão] [4]
+  * [Instalando no Linux][1]
+  * [Configurar o Systemd Service][2]
+  * [Crie serviço para monitoramento][3]
+  * [Conclusão][4]
 
 ## Instalando no Linux {#installing}
 Execute o comando abaixo para estatar a instalação.
@@ -71,17 +71,19 @@ systemctl start statping
 
 ## Conclusão {#conclusion}
 Aprendemos sobre estatísticas, como instalá -lo no Linux e como criar um serviço Systemd neste tutorial. Além disso, criamos um novo serviço para monitorar e apresentá -lo sobre diferentes recursos. Esperamos que este guia o ajude a começar a usar estatísticas para executar ** Monitoramento de Serviços da Web ** e ** Monitoramento de Aplicativos da Web **.
-Finalmente, [** containerize.com **] [5] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta [** Página de status **] [6] para as atualizações mais recentes.
+Finalmente, [** containerize.com **][5] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta [** Página de status **][6] para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** Software de página de status de código aberto 5 para 2020 **] [7]
-  *[** Statping **] [8]
-  *[** Cachet **] [9]
-  *[** Monitoror **] [10]
-  *[** staytus **] [11]
-  *[** upptime **] [12]
-  *[** statusfy **] [13]
+  *[** Software de página de status de código aberto 5 para 2020 **][7]
+  *[** Statping **][8]
+  *[** Cachet **][9]
+  *[** Monitoror **][10]
+  *[** staytus **][11]
+  *[** upptime **][12]
+  *[** statusfy **][13]
+
+  
 [1]: #Installing
 [2]: #Configure
 [3]: #Create

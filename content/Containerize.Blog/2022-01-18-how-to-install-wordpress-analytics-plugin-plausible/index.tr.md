@@ -15,16 +15,16 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 
 ## Genel Bakış
-Bir işletme web siteniz var mı? Kritik iş bilgilerini izlemek, analiz etmek mi istiyorsunuz? Sadece profesyonel bir açık kaynaklı iş zekası yazılımı hakkında bilgi sahibi olmayacağınız doğru yere indiniz, aynı zamanda WordPress Analytics eklentisini [makul] [1] nasıl kuracağınızı öğreneceksiniz. Bu [Business Intelligence Software] [2] dizisindeki başka bir blog yazısıdır. Yakın geçmişte, [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial] [3], [2021'in Top 5 Açık Kaynak İş Zekası Araçları] [4] ve biraz daha. Bu makaleler size özellikleri ve kullanımları hakkında ayrıntılı bir genel bakış sunar.
-Aslında, internette çalışan milyonlarca web sitesi var ve milyonlarca insan onları farklı şekillerde ziyaret ediyor. Bu nedenle, web sitesi sahiplerinin site trafiğini ayrıntılı olarak bilmesi çok önemlidir. Bu veri anlayışlarını almanın tek yolu [Google Analytics] [5] veya diğer benzer araçlardır. Bununla birlikte, açık kaynaklı topluluk Google Analytics alternatifi olarak kabul edilen bazı BI araçları geliştirmiştir ve bunlardan biridir. Bu blog yazısında, aşağıdaki noktaları kapsayarak makul nasıl kurulacağımızı öğreneceğiz.
-  *** [Makul nedir?] [6] **
-  *** [WordPress Analytics eklentisi nasıl yüklenir?] [7] **
-  *** [Makul Analytics eklenti gösterge paneli] [8] **
-  *** [Sonuç] [9] **
+Bir işletme web siteniz var mı? Kritik iş bilgilerini izlemek, analiz etmek mi istiyorsunuz? Sadece profesyonel bir açık kaynaklı iş zekası yazılımı hakkında bilgi sahibi olmayacağınız doğru yere indiniz, aynı zamanda WordPress Analytics eklentisini [makul][1] nasıl kuracağınızı öğreneceksiniz. Bu [Business Intelligence Software][2] dizisindeki başka bir blog yazısıdır. Yakın geçmişte, [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial][3], [2021'in Top 5 Açık Kaynak İş Zekası Araçları][4] ve biraz daha. Bu makaleler size özellikleri ve kullanımları hakkında ayrıntılı bir genel bakış sunar.
+Aslında, internette çalışan milyonlarca web sitesi var ve milyonlarca insan onları farklı şekillerde ziyaret ediyor. Bu nedenle, web sitesi sahiplerinin site trafiğini ayrıntılı olarak bilmesi çok önemlidir. Bu veri anlayışlarını almanın tek yolu [Google Analytics][5] veya diğer benzer araçlardır. Bununla birlikte, açık kaynaklı topluluk Google Analytics alternatifi olarak kabul edilen bazı BI araçları geliştirmiştir ve bunlardan biridir. Bu blog yazısında, aşağıdaki noktaları kapsayarak makul nasıl kurulacağımızı öğreneceğiz.
+  *** [Makul nedir?][6] **
+  *** [WordPress Analytics eklentisi nasıl yüklenir?][7] **
+  *** [Makul Analytics eklenti gösterge paneli][8] **
+  *** [Sonuç][9] **
 
 ## Makul nedir? {#What-IS-Farklı}
 Bu bölümde, makul analiz yazılımı hakkında bilgi sahibi olacağız. Makul, kendi kendine barınma yetenekleriyle birlikte gelen hafif, ücretsiz ve açık kaynaklı bir iş zekası yazılımıdır. Oldukça yapılandırılabilir, gizlilik odaklı ve uluslararası gizlilik yasalarına tamamen uyuyor. Ayrıca, bu WordPress Analytics eklentisi çerezsizdir ve site sahiplerinin site ziyaretçilerini anlamaları için hükümler sunar. Ayrıca, kişisel veri toplama ve saha çapraz izlemeyi desteklemez. Her şeyden önce, Makle Google Analytics gibi bir kurulum komut dosyası sunar ve bu yükleme komut dosyası Google Analytics’in komut dosyasından 45 kat daha hafiftir. Ayrıca, bu Google Analytics alternatifi, sınırsız web siteleri, kampanya izleme, gizlilik odaklı ve daha fazlasını içeren çok çeşitli özellikler sunar.
-Ancak, bu BI aracı, trendleri, özel etkinlikleri ve 404 sayfayı izlemenizi sağlayan sezgisel bir gösterge tablosu sağlar. Makul kurmak kolaydır ve Docker görüntüsü de sunar. Elixir, JavaScript ile yazılmıştır ve geliştirme ve dağıtım ile ilgili kapsamlı belgeler sunmaktadır. Geliştiriciler kaynak kodunu [GitHub] [10] 'dan kullanabilirler.
+Ancak, bu BI aracı, trendleri, özel etkinlikleri ve 404 sayfayı izlemenizi sağlayan sezgisel bir gösterge tablosu sağlar. Makul kurmak kolaydır ve Docker görüntüsü de sunar. Elixir, JavaScript ile yazılmıştır ve geliştirme ve dağıtım ile ilgili kapsamlı belgeler sunmaktadır. Geliştiriciler kaynak kodunu [GitHub][10] 'dan kullanabilirler.
 
 ## WordPress Analytics eklentisi nasıl yüklenir? {#Düzenlemek}
 Bu makul WordPress entegrasyon öğreticisinin bölümünde, kurulum adımlarından geçeceğiz.
@@ -43,24 +43,26 @@ Ayrıca, makul analiz seçeneğine ulaşırsanız makul yapılandırma sayfasın
 
 {{< figure align=center src="images/Screenshot-2022-01-16-at-22.11.27-1024x554.png" alt="iş zekası yazılımı">}}
 
-Ayrıca, bu açık kaynak [Google Analytics] [5] alternatifine ev sahipliği yaparsanız, site yapılandırması için bir seçenek de vardır. Benzer şekilde, kendiniz daha fazla keşfedebilir ve kullanıcılarına hangi özellikleri sunduğunu görebilirsiniz. Script kurulumu ile bittikten sonra, bu açık kaynaklı iş zekası yazılımı aracılığıyla gelen iş verileri bilgilerini görüntülemeye başlayabilirsiniz.
+Ayrıca, bu açık kaynak [Google Analytics][5] alternatifine ev sahipliği yaparsanız, site yapılandırması için bir seçenek de vardır. Benzer şekilde, kendiniz daha fazla keşfedebilir ve kullanıcılarına hangi özellikleri sunduğunu görebilirsiniz. Script kurulumu ile bittikten sonra, bu açık kaynaklı iş zekası yazılımı aracılığıyla gelen iş verileri bilgilerini görüntülemeye başlayabilirsiniz.
 
 ## Sonuç {#Conclusion}
 Bu bizi bu makul WordPress entegrasyon öğreticisinin sonuna getiriyor. Umarım, bu blog yazısı özellikleri, kurulum adımları ve kullanımı konusunda makul öğrenmenize yardımcı oldu. Makul olan ve bu WordPress Analytics eklentisinin kurulum adımları gibi önemli alt konulardan geçtik. Bu hızla büyüyen teknoloji çağında, BI araçları başarılı bir işin olmazsa olmaz bir bileşeni haline gelmiştir. Kuruluşlar bu ayrılmaz kısımdan kaçınamaz, çünkü bu araçlar her zaman işinize rekabet avantajı sağlar. Ayrıca, açık kaynak iş zekası yazılımı bulacağınız aşağıdaki “Keşfet” bölümünde alakalı bağlantıları bulabilirsiniz. Bu blog yazısı, işletme web siteniz için ücretsiz ve açık kaynaklı iş zekası yazılımı yüklemek istiyorsanız kesinlikle size yardımcı olacaktır.
-Son olarak, [Containerize.com] [11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [] [12] [iş zekası yazılımı] [13] [12] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [14], [LinkedIn] [15] ve [Twitter] [16] 'dan takip edebilirsiniz.
+Son olarak, [Containerize.com][11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [][12][iş zekası yazılımı][13][12] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook][14], [LinkedIn][15] ve [Twitter][16] 'dan takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz.
-  * [Matomo] [17]
-  * [Akla yatkın] [1]
-  * [WordPress] [18]
-  * [Jekyll] [19]
-  * [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial] [3]
-  * [Ücretsiz iş analizi araçları işletmenize nasıl yardımcı olur] [20]
-  * [2021 En İyi 5 Açık Kaynak İş Zekası Araçları] [4]
-  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu] [21]
-  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın] [22]
-  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler] [23]
+  * [Matomo][17]
+  * [Akla yatkın][1]
+  * [WordPress][18]
+  * [Jekyll][19]
+  * [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial][3]
+  * [Ücretsiz iş analizi araçları işletmenize nasıl yardımcı olur][20]
+  * [2021 En İyi 5 Açık Kaynak İş Zekası Araçları][4]
+  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu][21]
+  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın][22]
+  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler][23]
+
+  
 [1]: https://products.containerize.com/business-intelligence/plausible
 [2]: https://blog.containerize.com/category/business-intelligence-software/
 [3]: https://blog.containerize.com/blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/

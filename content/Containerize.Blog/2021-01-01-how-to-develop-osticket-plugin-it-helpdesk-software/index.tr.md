@@ -15,12 +15,12 @@ categories: ['Help Desk']
 
 
 ## Genel Bakış
-[Yardım masası bilet yazılımı] [1] serisindeki başka bir ilginç blog yayınına hoş geldiniz. [Popüler ücretsiz bilet tabanlı yardım masası ve müşteri hizmetleri sistemi] [2], [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştir] [3] ve biraz daha fazlası gibi bazı blog yayınları yayınladık. Bununla birlikte, Osticket, müşterilerin personeli desteklemek için sorgularını ve şikayetlerini bildirmeleri için tasarlanmış açık kaynaklı bir biletleme tabanlı yardım masası sistemidir. Bu ücretsiz destek sistemi, telefon, e-posta ve formlardan gelen soruları web tabanlı biletlere dönüştüren kullanımı kolay Sorgulama Yönetimi modülü sağlar. Destek personelinin müşteriler için inanılmaz bir müşteri destek deneyimi sunmasını sağlayan çok çeşitli özellikler ve seçenekler sunar.
+[Yardım masası bilet yazılımı][1] serisindeki başka bir ilginç blog yayınına hoş geldiniz. [Popüler ücretsiz bilet tabanlı yardım masası ve müşteri hizmetleri sistemi][2], [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştir][3] ve biraz daha fazlası gibi bazı blog yayınları yayınladık. Bununla birlikte, Osticket, müşterilerin personeli desteklemek için sorgularını ve şikayetlerini bildirmeleri için tasarlanmış açık kaynaklı bir biletleme tabanlı yardım masası sistemidir. Bu ücretsiz destek sistemi, telefon, e-posta ve formlardan gelen soruları web tabanlı biletlere dönüştüren kullanımı kolay Sorgulama Yönetimi modülü sağlar. Destek personelinin müşteriler için inanılmaz bir müşteri destek deneyimi sunmasını sağlayan çok çeşitli özellikler ve seçenekler sunar.
 Bu Açık Kaynak Biletleme Sistemi (Osticket), istemci, sayfalara ve bildirimlere gönderilen mesajlar gibi müşteri destek deneyiminin tüm bölümlerini uyarlamaya yardımcı olmak için çok sayıda seçenek sunan tamamen esnek bir destek bilet çerçevesidir. Makalesinde, ihtiyaçlarımıza göre işlevselliği artırmak için Osticket eklenti geliştirme öğreneceğiz. Bunu yapmak için aşağıdaki konuları ele alacağız:
-  * [Eklentileri neden kullanmalı?] [4]
-  * [Gereksinimler] [5]
-  * [Osticket’in eklentisi nasıl geliştirilir?] [6]
-  * [Sonuç] [7]
+  * [Eklentileri neden kullanmalı?][4]
+  * [Gereksinimler][5]
+  * [Osticket’in eklentisi nasıl geliştirilir?][6]
+  * [Sonuç][7]
 
 ## Neden eklentileri kullanabilirim? {#Neden}
 Bu konuda, bu ** Yardım Masası Yazılımı ** (Osticket) temel işlevselliğini genişletmek için basit bir eklentinin nasıl oluşturulacağını öğreneceğiz. Bir eklenti, herhangi bir uygulamanın/yazılımın temel işlevselliğini genişleten bir yazılım parçasıdır. Buna ek olarak, işlevsellikleri genişleten büyük bir eklenti yığınına sahip birçok kurumsal düzey açık kaynak yazılımı vardır. Ayrıca, bu popüler açık kaynak yazılımı WordPress, Joomla ve daha fazlasını içerir. Her şeyden önce, canlı ve canlı topluluklar ihtiyaçlara göre eklentileri destekler ve geliştirir. Ancak, çerçeveler eklentilerin geliştirilmesi ile ilgili kapsamlı belgeler sunar. Uygulamaların eklentileri desteklemesi için bazı nedenler aşağıdadır:
@@ -128,20 +128,22 @@ class DynabicRedminePlugin extends Plugin {
 
 ## Sonuç {#Conclusion}
 Bu bizi bu blog yazısının sonuna getiriyor. Osticket, gereksinimlere göre yeni işlevsellik ekleyebilmeleri için geliştiriciler için eklenti yapısı sunan bir biletleme yönetimi yazılımıdır. Eklentiler, herhangi bir uygulamanın/yazılımın temel işlevselliğini genişleten bileşenlerdir. Makalesinde, geliştiricilerin gereksinimlerine göre özel özellikler ve geliştirmeler eklemelerine yardımcı olan bu ** Müşteri Destek Sistemi ** (Osticket) eklentisi geliştirmeyi tartıştık. Bu nedenle, bu blog yazısı, işiniz için bir ** Help Sıvacı Yazılımı ** dağıtmak istiyorsanız size gerçekten yardımcı olacaktır. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen başka ** yardım masası bilet yazılımı ** ve makaleler de vardır.
-Son olarak, [Containerize.com] [8] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Yardım Masası biletleme yazılımı] [1] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [9], [LinkedIn] [10] ve [Twitter] [11] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][8] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Yardım Masası biletleme yazılımı][1] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][9], [LinkedIn][10] ve [Twitter][11] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Uvdesk] [12]
-  * [Zammad] [13]
-  * [Freesout] [14]
-  * [Yardım] [15]
-  * [En iyi açık kaynak ve ücretsiz BT yardım masası yazılımı] [16]
-  * [Popüler Ücretsiz Bilet Tabanlı Yardım Masası ve Müşteri Hizmetleri Sistemi] [2]
-  * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur] [17]
-  * [Osticket'te çoklu kiracılık nasıl uygulanır] [18]
-  * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin] [3]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [19]
+  * [Uvdesk][12]
+  * [Zammad][13]
+  * [Freesout][14]
+  * [Yardım][15]
+  * [En iyi açık kaynak ve ücretsiz BT yardım masası yazılımı][16]
+  * [Popüler Ücretsiz Bilet Tabanlı Yardım Masası ve Müşteri Hizmetleri Sistemi][2]
+  * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur][17]
+  * [Osticket'te çoklu kiracılık nasıl uygulanır][18]
+  * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin][3]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][19]
+
+  
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

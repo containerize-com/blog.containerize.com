@@ -17,11 +17,11 @@ categories: ['Live Chat']
 ## Descripción general
 Un gran número de usuarios de clientes en sitios web de comercio electrónico abandonan sin visitar debido a la mala experiencia del usuario. Pero si tiene un software de chat en vivo adecuado instalado en el sitio web e interactúa con el usuario antes de perder o abandonar el sitio web, puede guardar ese cliente. Los clientes desean que sus preguntas se respondan al instante, y cualquier confusión durante el proceso de compra puede resultar en perder una venta. Sin embargo, la comunidad de código abierto es muy vibrante y ha desarrollado muchos software de chat de atención al cliente ** **.
 El uso de la solución de software de chat en vivo correcta lo ayuda a responder a las consultas de su cliente al instante y convertirlas en ventas. Esta publicación de blog tiene como objetivo compartir la lista de aplicaciones de chat en vivo gratuitas con calificación mejor que creemos que son las mejores para pequeñas y medianas empresas.
-  * [Rocket.chat] [1]
-  * [Zulip] [2]
-  * [Materia más] [3]
-  * [Vamos a chatear] [4]
-  * [Botpress] [5]
+  * [Rocket.chat][1]
+  * [Zulip][2]
+  * [Materia más][3]
+  * [Vamos a chatear][4]
+  * [Botpress][5]
 
 ## ** Rocket.chat ** {#Rocket-chat}
 Rocket.chat es un software de chat web de código abierto **. ** Es un sistema de chat completamente gratuito y autohospedado. Es una plataforma de comunicación integral que proporciona comunicación del equipo utilizando mensajes directos y mensajes grupales.
@@ -31,7 +31,7 @@ Rocket.chat tiene una gran comunidad de código abierto. Como resultado de esto,
   * Autenticación LDAP
   * Apis de descanso
   * Aplicación nativa de escritorio multiplataforma
-    [Leer más] [6]
+    [Leer más][6]
 
 ## ** Zulip ** {#zulip}
 Zulip es una de las soluciones de chat de código abierto ** más populares ** que sigue al modelo de subproceso basado en la transmisión. En Zulip, se suscribe a las transmisiones en lugar de los canales para que solo se le notifique las transmisiones que le interesan. Esta suscripción de flujo le ayuda a rastrear conversaciones más tarde y mantenerse organizado.
@@ -42,7 +42,7 @@ Esta ** aplicación de chat de código abierto ** es multiplataforma y ofrece AP
   * API: Zulip tiene una API RESTful y Python de forma simple y simple
   * Aplicaciones móviles: admite aplicaciones de iOS y Android de calidad nativa.
   * Aplicaciones de escritorio: admite aplicaciones de escritorio multiplataforma.
-    [Leer más] [7]
+    [Leer más][7]
 
 ## ** Mattermost ** {#mattermost}
 Mattermost es un software de chat web de código abierto ** **, que es altamente seguro y escalable. En primer lugar, se considera como una alternativa a las aplicaciones de chat en vivo patentadas más populares. En segundo lugar, esta ** aplicación de chat de código abierto ** es una mezcla de equipos Slack y Microsoft. En conclusión, lo convierte en un superconjunto de ambas aplicaciones.
@@ -54,7 +54,7 @@ Estas son algunas de las principales características de la materia más
   * Complementos y extensiones
   * Bots y kit de herramientas para desarrolladores
   * Biblioteca de API robusta
-    [Leer más] [8]
+    [Leer más][8]
 
 ## ** Vamos a chatear ** {#Lets-Chat}
 Let's Chat es un software de chat de atención al cliente ** ** ** para equipos pequeños. Este ** software de chat web ** se desarrolla utilizando Node.js y MongoDB y se centra en una implementación fácil y rápida. Puede instalarlo en su servidor con unos pocos clics. Es 100% gratuito y de código abierto con su código fuente disponible en GitHub.
@@ -64,7 +64,7 @@ Lo que hace que el chat sea único de otro software de código abierto son sus c
   * Hubot amigable
   * API de descanso
   * Transcripciones / Historial de chat
-    [Leer más] [9]
+    [Leer más][9]
 
 ## ** botpress ** {#botpress}
 Los chatbots están en aumento en estos días. Ya sea que los use para ventas, marketing o soporte, pueden ser una gran adición a su equipo virtual.
@@ -75,18 +75,20 @@ La inteligencia artificial y el aprendizaje automático han mejorado mucho recie
   * Separación de contenido y flujo
   * Humano en el bucle
   * Diseño modular
-    [Leer más] [10]
+    [Leer más][10]
 
 ## Conclusión
 En este artículo, ha revisado el mejor software de chat de código abierto ** disponible para pequeñas y medianas empresas y equipos. Esta publicación de blog realmente lo ayudará a tomar la decisión correcta al elegir un software de chat de atención al cliente ** de código abierto ** para el sitio web de su negocio. En primer lugar, enumeramos las características de primera línea de Rocket.Chat, Zulip, Mattermost, Let’s Chat y BotPress. En segundo lugar, explicamos cómo estas características las hacen únicas. En conclusión, Rocket.Chat y la materia más importante son opciones adecuadas si desea más complementos e integraciones. Zulip y Let's Chat pueden ser un buen software Livechat si necesita una solución rápida y fácil. Para BOT Building Rocket.Chat ofrece características. Pero Botpress es una opción más popular.
-Finalmente, [** Contenerize.com **] [11] está escribiendo artículos sobre más de código abierto ** Aplicaciones de chat de código abierto. ** Por lo tanto, manténgase en contacto con la categoría [Chat en vivo] [12] para actualizaciones regulares.
+Finalmente, [** Contenerize.com **][11] está escribiendo artículos sobre más de código abierto ** Aplicaciones de chat de código abierto. ** Por lo tanto, manténgase en contacto con la categoría [Chat en vivo][12] para actualizaciones regulares.
 
 ## Explorar
-  * [Cómo crear un bot basado en AI para su negocio usando botpress] [13]
-  * [Cómo configurar el soporte de chat en vivo en su sitio web usando Rocket.chat] [14]
-  * [Mensajes instantáneos de WordPress usando Rocket.Chat] [15]
-  * [Automatice las operaciones comerciales con software gratuito y de código abierto] [16]
-  * [Cómo crear y ejecutar un bot en Rocket.Chat usando botpress] [17]
+  * [Cómo crear un bot basado en AI para su negocio usando botpress][13]
+  * [Cómo configurar el soporte de chat en vivo en su sitio web usando Rocket.chat][14]
+  * [Mensajes instantáneos de WordPress usando Rocket.Chat][15]
+  * [Automatice las operaciones comerciales con software gratuito y de código abierto][16]
+  * [Cómo crear y ejecutar un bot en Rocket.Chat usando botpress][17]
+
+  
 [1]: #rocket-chat
 [2]: #zulip
 [3]: #mattermost

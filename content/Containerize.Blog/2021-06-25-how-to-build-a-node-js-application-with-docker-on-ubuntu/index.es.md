@@ -14,12 +14,12 @@ categories: ['Software Development']
 
 ## Este artículo le explicará cómo construir una aplicación NodeJS con Docker Containerization. Docker permite empaquetar y ejecutar aplicaciones como contenedores.
 Hoy estamos comenzando una serie de tutoriales sobre herramientas de desarrollo de software. Y este primer artículo cubre cómo contenedorizar una aplicación Node.js usando Docker. Docker ayuda a los desarrolladores a empaquetar y ejecutar aplicaciones como contenedores. Dado que el contenedor es un proceso aislado y una alternativa liviana a las máquinas virtuales. Este artículo explica cómo construir una aplicación NodeJS con Docker Containerization. ¡Empecemos!
-  *[** ¿Qué es Docker **] [1]
-  *** [Requisitos previos] [2] **
-  *[** Configurar la aplicación Node.js **] [3]
-  *[** Escribir Dockerfile **] [4]
-  *[** Build Imagen y ejecutar Contenedor de Docker **] [5]
-  *[** Conclusión **] [6]
+  *[** ¿Qué es Docker **][1]
+  *** [Requisitos previos][2] **
+  *[** Configurar la aplicación Node.js **][3]
+  *[** Escribir Dockerfile **][4]
+  *[** Build Imagen y ejecutar Contenedor de Docker **][5]
+  *[** Conclusión **][6]
 
 ## ¿Qué es Docker {#Docker}
 Docker es un conjunto de plataforma como productos de servicio que utilizan la virtualización de nivel del sistema operativo para entregar software en paquetes llamados contenedores. Es una plataforma abierta para desarrollar, enviar y ejecutar aplicaciones. Docker le permite separar sus aplicaciones de su infraestructura para que pueda entregar software rápidamente.
@@ -130,8 +130,10 @@ Esto iniciará el contenedor que puede verificar ejecutando el comando Docker PS
 El desarrollo con el contenedor Docker es muy simple y fácil. Docker ayuda a los desarrolladores a empaquetar y ejecutar aplicaciones como contenedores. En este tutorial aprendimos a construir una aplicación Node.js usando Docker Container en Ubuntu. En los próximos artículos escribiremos sobre más usos de Docker y también discutiremos otras herramientas.
 
 ## Explorar
-  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu] [7]
-  * [Cómo configurar y configurar Nginx como proxy inverso] [8]
+  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu][7]
+  * [Cómo configurar y configurar Nginx como proxy inverso][8]
+
+  
 [1]: #docker
 [2]: #prereq
 [3]: #setup

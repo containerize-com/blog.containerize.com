@@ -16,11 +16,11 @@ categories: ['Programming']
 
 
 ## Visão geral
-Cobrimos [JavaScript Promises] [1] em nossa postagem anterior do blog e você deve visitar se quiser obter uma compreensão clara do conceito por trás das promessas de JavaScript. Nesta série de [tutoriais de JavaScript] [2], estamos aqui com outro guia de JavaScript que demonstrará os recursos modernos do javascript assíncrono/aguardar. Esta postagem do blog é para aqueles que têm conhecimento prévio das promessas de JavaScript. Além disso, tentaremos cobrir**o que é assíncrono/aguardar no JavaScript**e quando precisamos usar o Async/Aguard. Além disso, também abordaremos erros de manuseio com assíncrono/aguardando. Portanto, dê uma leitura completa para este tutorial**javascript assíncrono/aguardo**para marcar esse conceito verificado.
+Cobrimos [JavaScript Promises][1] em nossa postagem anterior do blog e você deve visitar se quiser obter uma compreensão clara do conceito por trás das promessas de JavaScript. Nesta série de [tutoriais de JavaScript][2], estamos aqui com outro guia de JavaScript que demonstrará os recursos modernos do javascript assíncrono/aguardar. Esta postagem do blog é para aqueles que têm conhecimento prévio das promessas de JavaScript. Além disso, tentaremos cobrir**o que é assíncrono/aguardar no JavaScript**e quando precisamos usar o Async/Aguard. Além disso, também abordaremos erros de manuseio com assíncrono/aguardando. Portanto, dê uma leitura completa para este tutorial**javascript assíncrono/aguardo**para marcar esse conceito verificado.
 Passaremos pelas seções a seguir neste Javascript Async Wait Tutorial:
-***[O que é assíncrono/aguardar em javascript | ASYNC Aguarda sintaxe] [3]**
-***[Quando usar async/aguardar?] [4]**
-***[Manuseio de erros com assíncrono/aguardar] [5]**
+***[O que é assíncrono/aguardar em javascript | ASYNC Aguarda sintaxe][3]**
+***[Quando usar async/aguardar?][4]**
+***[Manuseio de erros com assíncrono/aguardar][5]**
 
 ## O que é assíncrono/aguardo em javascript | ASYNC Aguarda Sintaxe {#What-Is-Asyncawait-In-Javascript-Async-Await-Syntax}
 O ECMAScript 2017 lançou novos recursos de JavaScript e Async/Wait é um dos mais amplamente utilizados entre esses recursos. O Async/Wait é construído sobre as promessas e é realmente uma maneira moderna de lidar com promessas de JavaScript.
@@ -51,7 +51,7 @@ O tratamento de erros é uma tarefa crítica quando se trata de desenvolvimento 
 
 {{< figure align=center src="images/async-await.png" alt="tente pegar assíncrono aguardar javascript">}}
 
-* * Experimente a captura assíncrona aguarda javascript**: Nada de novo com esta abordagem de manuseio de erros. No entanto, você pode usar um bloco de tentativa/captura dentro de uma função assíncrona, como mostrado no trecho de código abaixo:
+**Experimente a captura assíncrona aguarda javascript**: Nada de novo com esta abordagem de manuseio de erros. No entanto, você pode usar um bloco de tentativa/captura dentro de uma função assíncrona, como mostrado no trecho de código abaixo:
 ```
 async function getValues() {
   try{
@@ -91,29 +91,31 @@ getValues().catch(err){
 Estamos encerrando este**javascript assíncrono tutorial**. Espero que você entenda melhor**o que é assíncrono aguardando em JavaScript**. Além disso, passamos pelo JavaScript Async Wait Agud Sintaxe que torna o código -fonte menos complexo. Esse recurso JavaScript está sendo amplamente utilizado devido ao seu rico uso e desempenho. Nos próximos dias, escreveremos mais sobre os recursos e conceitos do JavaScript, para que você possa ganhar um forte comando sobre os conceitos JS. Além disso, existem outros artigos interessantes mencionados na seção "Veja também".
 
 ## Conecte-se conosco
-Por fim, [contémize.com] [6] oferece tutoriais em JavaScript em andamento sobre vários tópicos interessantes. Você pode se manter atualizado seguindo -nos em nossas plataformas de mídia social, incluindo [Facebook] [7], [LinkedIn] [8] e [Twitter] [9].
+Por fim, [contémize.com][6] oferece tutoriais em JavaScript em andamento sobre vários tópicos interessantes. Você pode se manter atualizado seguindo -nos em nossas plataformas de mídia social, incluindo [Facebook][7], [LinkedIn][8] e [Twitter][9].
 
 ## Faça uma pergunta
-Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum] [10].
+Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum][10].
 
 ## Perguntas frequentes
-* * O que é assíncrono aguardado em javascript com exemplo?**
-Você pode visitar este [link] [3] para entender o conceito de assíncrono.
-* * O que é assíncrono aguardar vs promessa?**
+**O que é assíncrono aguardado em javascript com exemplo?**
+Você pode visitar este [link][3] para entender o conceito de assíncrono.
+**O que é assíncrono aguardar vs promessa?**
  * Async/Await torna o código -fonte mais claro e legível em comparação com as promessas nas quais o encadeamento da promessa pode tornar o código -fonte uma bagunça.
  * O tratamento de erros é bastante semelhante em ambas as abordagens.
  * A depuração é menos difícil no assíncrono aguardando.
  * As promessas mantêm os estados como pendentes, resolvidos ou rejeitados. Considerando que async/aguardam é resolvido ou rejeitado.
 
 ## Veja também
-  * [O que é promessa em JavaScript? | Javascript Tutorial] [1]
-  * [O que é computação sem servidor? | Arquitetura sem servidor] [11]
-  * [O que é multitenância? | Por que uma abordagem de vários inquilinos?] [12]
-  * [O que é AI generativo | Inteligência artificial generativa] [13]
-  * [Como integrar ChatGPT com o Google Sheets] [14]
-  * [Como usar o ChatGPT no vscode | O código de extensão do VSCODE GPT] [15]
-  * [O que é o Openai Chatbot GPT-3 | Chatgpt Uma revolução da IA] [16]
-  * [Uma introdução à inteligência artificial | O que é ai?] [17]
+  * [O que é promessa em JavaScript? | Javascript Tutorial][1]
+  * [O que é computação sem servidor? | Arquitetura sem servidor][11]
+  * [O que é multitenância? | Por que uma abordagem de vários inquilinos?][12]
+  * [O que é AI generativo | Inteligência artificial generativa][13]
+  * [Como integrar ChatGPT com o Google Sheets][14]
+  * [Como usar o ChatGPT no vscode | O código de extensão do VSCODE GPT][15]
+  * [O que é o Openai Chatbot GPT-3 | Chatgpt Uma revolução da IA][16]
+  * [Uma introdução à inteligência artificial | O que é ai?][17]
+
+  
 [1]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-AsyncAwait-in-JavaScript-Async-Await-Syntax

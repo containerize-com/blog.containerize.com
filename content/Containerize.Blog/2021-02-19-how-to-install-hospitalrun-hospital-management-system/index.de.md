@@ -15,12 +15,12 @@ categories: ['Healthcare Software']
 
 
 ## Überblick
-Wir haben kürzlich einen Blog -Beitrag über [wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht] [1] veröffentlicht, die die Auswirkungen des Open -Source -Krankenhausmanagementsystems auf die Gesundheitsbranche beschreibt. Die globale Branche für die Gesundheitssoftware für Gesundheitswesen gewinnt im Laufe der Zeit wert. Tatsache ist, dass die Technologie jeden Lebensbereich verändert hat. Die Zahl der Patienten und Mitarbeiter ist so hoch, dass es zu einem Problem geworden ist, so große Daten zu verwalten. Auf der anderen Seite gibt es täglich viele zeitaufwändige Aufgaben, und Gesundheitswesen führen diese Aufgaben wiederholt aus. Daher hat die Open-Source-Source-Community Open-Source-medizinische Software entwickelt, die mit vielen hilfreichen Modulen verfügen, um die Anforderungen des Gesundheitswesens zu befriedigen.
+Wir haben kürzlich einen Blog -Beitrag über [wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht][1] veröffentlicht, die die Auswirkungen des Open -Source -Krankenhausmanagementsystems auf die Gesundheitsbranche beschreibt. Die globale Branche für die Gesundheitssoftware für Gesundheitswesen gewinnt im Laufe der Zeit wert. Tatsache ist, dass die Technologie jeden Lebensbereich verändert hat. Die Zahl der Patienten und Mitarbeiter ist so hoch, dass es zu einem Problem geworden ist, so große Daten zu verwalten. Auf der anderen Seite gibt es täglich viele zeitaufwändige Aufgaben, und Gesundheitswesen führen diese Aufgaben wiederholt aus. Daher hat die Open-Source-Source-Community Open-Source-medizinische Software entwickelt, die mit vielen hilfreichen Modulen verfügen, um die Anforderungen des Gesundheitswesens zu befriedigen.
 Open-Source Medical Software wurde entwickelt, um Patientenakten zu ihrer Krankengeschichte sowie für die Bestimmungen für das Krankenhausmanagement zu verwalten. Darüber hinaus nutzen Open Source Healthcare -Software künstliche Intelligenz, um fortgeschrittene Leistungen zu erbringen. Die meisten Krankheitsbehandlungen werden nun von der Software behandelt, die nicht nur die Probleme diagnostiziert, sondern auch Unterstützung bei der Heilung. Es gibt jedoch viele aufstrebende Software für Krankenhäuser. In diesem Blog -Beitrag werden wir die folgenden Punkte behandeln.
-  *[** Was ist HospitalRun? **] [2]
-  *[** Was sind die Merkmale von HospitalRun **] [3]
-  *[** Installationsschritte von HospitalRun? **] [4]
-  *[** Fazit **] [5]
+  *[** Was ist HospitalRun? **][2]
+  *[** Was sind die Merkmale von HospitalRun **][3]
+  *[** Installationsschritte von HospitalRun? **][4]
+  *[** Fazit **][5]
 
 ## Was ist HospitalRun? {#Intro}
 HospitalRun ist ein kostenloses Open-Source Hospital-Informationsmanagementsystem. Diese kostenlose Lösung im Gesundheitswesen ist umweltfreundlich, da Benutzer diese kostenlose Software voll ausnutzen können, auch wenn keine Internetverbindung vorhanden ist. Es bietet viele Funktionen wie Benutzermanagement, Patientenregistrierungen, Termine, Abrechnungssysteme, Patientenentladungssystem und mehr. Die Benutzeroberfläche dieses Open Source EHealth -Systems ist logisch, wo Benutzer einfach durch verschiedene Elemente navigieren können. Darüber hinaus ist es einfach einzurichten und bietet ein Docker -Image, in dem Entwickler es mit einem Docker -Image bereitstellen können.
@@ -40,9 +40,9 @@ In diesem Abschnitt werden wir einige der folgenden wichtigen Merkmale dieses eH
 ## Installationsschritte von HospitalRun? {#Schritte}
 In diesem Abschnitt des Blog -Beitrags werden die Installationsschritte von HospitalRun beschrieben.
 Bevor wir beginnen, installieren Sie zuerst die folgenden Voraussetzungen:
-  * [Docker] [6]
-  * [Docker-Compose] [7]
-Sobald die Voraussetzungen installiert sind, laden Sie den Quellcode von diesem [Link] [8] herunter.
+  * [Docker][6]
+  * [Docker-Compose][7]
+Sobald die Voraussetzungen installiert sind, laden Sie den Quellcode von diesem [Link][8] herunter.
 Öffnen Sie danach das Terminal und führen Sie die folgenden Befehle aus:
 CD generisch
 CD -Server
@@ -60,21 +60,23 @@ Schließlich können Sie auf diese Gesundheitslösung im Browser unter http: // 
 
 ## Schlussfolgerung {#Conclusion}
 Dies ist das Ende dieses Tutorial -Artikels. Dieses Patientenaufzeichnungssystem hilft wirklich, ** Gesundheitsdienste ** zu automatisieren. Das Modern Open Source Hospital Management System verfügt über Datenanalyse -Tools, mit denen die Mitarbeiter im Gesundheitswesen die erforderlichen Maßnahmen für bessere Gesundheitseinrichtungen ergreifen können. Dieser Blog -Beitrag hilft Ihnen wirklich, wenn Sie ernsthaft ein eHealth -System für Ihr Krankenhaus/Ihre Klinik einsetzen möchten. Diese Open-Source-Lösungen sind kostengünstig, da sie in Labors und andere Kliniken integriert sind, und minimieren auch die Unterlagen, indem sie jeden Prozess computerieren. Mit Open Source Healthcare -Lösung können Benutzer alle Vorgänge des Gesundheitswesens wie Medikamente, Entladung, Berichte und Abrechnungsmanagement von Patienten haben. Darüber hinaus können Sie sich auf andere wichtige Aufgaben wie Ressourcenplanung und Risikobewertung konzentrieren. Es gibt jedoch viele andere Software auf Unternehmensebene für Krankenhäuser, die im Abschnitt „Explore“ unten erwähnt werden.
-Am Ende soll **** [containerize.com] [9] **** über weitere Open -Source -Produkte schreiben. Daher bleiben Sie mit dieser Kategorie [Gesundheitstechnologien] [10] in Kontakt für die neuesten Updates.
+Am Ende soll **** [containerize.com][9] **** über weitere Open -Source -Produkte schreiben. Daher bleiben Sie mit dieser Kategorie [Gesundheitstechnologien][10] in Kontakt für die neuesten Updates.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [OpenEMR] [11]
-  * [OpenMRS] [12]
-  * [HospitalRun] [13]
-  * [Offenes Krankenhaus] [14]
-  * [Solismed] [15]
-  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet] [16]
-  * [Feature Exploration of medicle Record Manager HospitalRun] [17]
-  * [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware] [18]
-  * [Features Exploration of Medical Health Solution OpenEMR] [19]
-  * [So richten Sie EHEACE SYSTEMS HospitalRun auf Localhost] [20]
-  * [Wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht] [1]
+  * [OpenEMR][11]
+  * [OpenMRS][12]
+  * [HospitalRun][13]
+  * [Offenes Krankenhaus][14]
+  * [Solismed][15]
+  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet][16]
+  * [Feature Exploration of medicle Record Manager HospitalRun][17]
+  * [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware][18]
+  * [Features Exploration of Medical Health Solution OpenEMR][19]
+  * [So richten Sie EHEACE SYSTEMS HospitalRun auf Localhost][20]
+  * [Wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht][1]
+
+  
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: #intro
 [3]: #features

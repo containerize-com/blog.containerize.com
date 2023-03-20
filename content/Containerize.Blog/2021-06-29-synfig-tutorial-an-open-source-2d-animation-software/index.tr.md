@@ -13,11 +13,11 @@ categories: ['Animation Software']
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software.png" alt="Synfig Tutorial Açık kaynaklı 2D animasyon yazılımı">}}
 
-  * [Synfig nedir?] [1]
-  * [Synfig nasıl kurulur?] [2]
-  * [Uygulama Arabirimine Genel Bakış] [3]
-  * [Synfig ile temel bir animasyon nasıl oluşturulur?] [4]
-  * [Sonuç] [5]
+  * [Synfig nedir?][1]
+  * [Synfig nasıl kurulur?][2]
+  * [Uygulama Arabirimine Genel Bakış][3]
+  * [Synfig ile temel bir animasyon nasıl oluşturulur?][4]
+  * [Sonuç][5]
 
 ## Synfig nedir? {#Ne}
 Synfig, solo sanatçılar veya küçük ekipler için animasyon iş akışlarını ve projelerini yönetmeleri için tasarlanmış en iyi 2D animasyon yazılımlarından biridir. Açık kaynaklı bir animasyon yazılımı olarak, Synfig, yalnızca bir animasyonun işlenmesi için gereken süreyi kesmeyen, aynı zamanda animatörlere çizim çerçevesi akıllıca ekleme olanağı da veren “bir ara” animasyon sistemi kullanır.
@@ -97,14 +97,16 @@ Ve orada Synfig Studio'da bir animasyon oluşturma konusunda temel bir öğretic
 
 ## Sonuç {#Conclusion}
 Çalışmanız için zaten animasyon yazılımı kullanıyorsanız Synfig 2D animasyon yazılımı kullanmak oldukça basit ve kolaydır. Animasyon endüstrisinde yeni olsanız bile, arayüzü anlamak kolay bir iştir. Bu öğreticiyi yararlı bulduğunuzu ve bir portföy oluşturmak için farklı akademik, ticari veya kişisel projeler için 2D animasyonlar oluşturabileceğinizi umuyoruz.
-_ En sevdiğiniz açık kaynak animasyon yazılımı nedir? Animasyon yazılımı hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun] [6].
+_ En sevdiğiniz açık kaynak animasyon yazılımı nedir? Animasyon yazılımı hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][6].
 
 ## Keşfetmek
 İlgili aşağıdaki bağlantıları bulabilirsiniz:
-  * [En İyi Açık Kaynak Animasyon Yazılımı] [7]
-  * [Synfig | Ücretsiz ve açık kaynaklı vektör tabanlı 2D animasyon süiti] [8]
-  * [Pencil2D animasyon yazılımı ile animasyonlar nasıl oluşturulur] [9]
-  * [Digikam kullanarak ücretsiz görüntü düzenlemeye başlamak için yeni başlayan kılavuz] [10]
+  * [En İyi Açık Kaynak Animasyon Yazılımı][7]
+  * [Synfig | Ücretsiz ve açık kaynaklı vektör tabanlı 2D animasyon süiti][8]
+  * [Pencil2D animasyon yazılımı ile animasyonlar nasıl oluşturulur][9]
+  * [Digikam kullanarak ücretsiz görüntü düzenlemeye başlamak için yeni başlayan kılavuz][10]
+
+  
 [1]: #what
 [2]: #how-to-install
 [3]: #application-interfae

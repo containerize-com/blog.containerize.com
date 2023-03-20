@@ -27,7 +27,7 @@ A continuación se muestra una lista del software de piratería más popular que
   * Conclusión
 
 ## 1. Metasploit {#42DB}
-[MetaSploit] [1] Marco es una herramienta de código abierto y se puede descargar de forma gratuita. Metasploit Pro es un producto comercial. La prueba gratuita está disponible por 14 días. Póngase en contacto con la compañía para obtener más información sobre sus detalles de precios.
+[MetaSploit][1] Marco es una herramienta de código abierto y se puede descargar de forma gratuita. Metasploit Pro es un producto comercial. La prueba gratuita está disponible por 14 días. Póngase en contacto con la compañía para obtener más información sobre sus detalles de precios.
 Es el software para pruebas de penetración. Usando el marco de MetaSploit, puede desarrollar y ejecutar el código de exploit en una máquina remota. Admite multiplataforma cruzada. Es el mejor para construir herramientas anti-forenses y de evasión.
 ** Clave ** ** Características: **
   * Es útil para conocer las vulnerabilidades de seguridad.
@@ -36,7 +36,7 @@ Es el software para pruebas de penetración. Usando el marco de MetaSploit, pued
   * Puede crear herramientas de prueba de seguridad.
 
 ## 2. SQLMAP {#66FD}
-[SQLMAP] [2] es una herramienta para automatizar el proceso de detección y explotación de fallas de inyección SQL y hacerse cargo de los servidores de bases de datos. Es una herramienta de código abierto y tiene un potente motor de detección. Admite completamente MySQL, Oracle, Postgresql y muchos más. Admite completamente las seis técnicas de inyección SQL, las consultas ciego, basadas en errores, basadas en errores, basadas en errores, basadas en errores, basadas en errores, apiladas, y fuera de banda basadas en el tiempo, basadas en errores.
+[SQLMAP][2] es una herramienta para automatizar el proceso de detección y explotación de fallas de inyección SQL y hacerse cargo de los servidores de bases de datos. Es una herramienta de código abierto y tiene un potente motor de detección. Admite completamente MySQL, Oracle, Postgresql y muchos más. Admite completamente las seis técnicas de inyección SQL, las consultas ciego, basadas en errores, basadas en errores, basadas en errores, basadas en errores, basadas en errores, apiladas, y fuera de banda basadas en el tiempo, basadas en errores.
 SQLMAP admite ejecutar comandos arbitrarios y recuperar su salida estándar, descargar y cargar cualquier archivo, buscar nombres de bases de datos específicos, etc. Le permitirá conectarse directamente a la base de datos.
 ** Características clave: **
   * Los usuarios, los hash de contraseña, los derechos, los roles, las bases de datos, las tablas y las columnas pueden enumerarse.
@@ -44,7 +44,7 @@ SQLMAP admite ejecutar comandos arbitrarios y recuperar su salida estándar, des
   * Soporte para descargar tablas de base de datos completas, una gama de entradas o seleccionar campos basados ​​en las preferencias del usuario. El usuario también puede seleccionar un subconjunto de caracteres desde la entrada de cada columna para ver.
 
 ## 3. Hashcat {#66FD}
-[Hashcat] [3], aunque el último en nuestra lista, es uno de los programas de agrietamiento y pirateo ético más potentes de contraseña disponibles. Es uno de los mejores programas de hackers disponibles, y puede ayudar a los usuarios a recuperar contraseñas olvidadas, auditar la seguridad de la contraseña o simplemente determinar qué datos se incluyen en un hash. Esta herramienta está disponible de forma gratuita.
+[Hashcat][3], aunque el último en nuestra lista, es uno de los programas de agrietamiento y pirateo ético más potentes de contraseña disponibles. Es uno de los mejores programas de hackers disponibles, y puede ayudar a los usuarios a recuperar contraseñas olvidadas, auditar la seguridad de la contraseña o simplemente determinar qué datos se incluyen en un hash. Esta herramienta está disponible de forma gratuita.
 ** Características clave: **
   * Admite el funcionamiento del cerebro candidato de contraseña.
   * Se admiten redes de agrietamiento distribuidas (usando superposición)
@@ -53,7 +53,7 @@ SQLMAP admite ejecutar comandos arbitrarios y recuperar su salida estándar, des
   * Ayuda en la restauración de
 
 ## 4. nmap {#b3ed}
-[NMAP] [4] es un escáner de seguridad, escáner de puerto, así como una herramienta de exploración de red. Es un software de código abierto y está disponible de forma gratuita. Es mejor para escanear redes, fácil de usar y rápido también. Es significa Network Mapper.
+[NMAP][4] es un escáner de seguridad, escáner de puerto, así como una herramienta de exploración de red. Es un software de código abierto y está disponible de forma gratuita. Es mejor para escanear redes, fácil de usar y rápido también. Es significa Network Mapper.
 Admite multiplataforma cruzada. Se puede utilizar para el inventario de red, administrar los horarios de actualización del servicio y para monitorear el tiempo de actividad del host y el servicio. Puede funcionar para un solo host, así como grandes redes. Proporciona paquetes binarios para Linux, Windows y Mac OS X.
 ** Características clave: **
   * Herramienta de transferencia de datos, redirección y depuración (NCAT),
@@ -67,7 +67,7 @@ Admite multiplataforma cruzada. Se puede utilizar para el inventario de red, adm
   * Y muchas otras características.
 
 ## 5. John the Ripper {#b3ed}
-[John the Ripper] [5] es una herramienta para el agrietamiento de la contraseña. Se puede usar en Windows, DOS y VMS abiertos. Es una herramienta de código abierto. Se crea para detectar contraseñas de Unix débiles. Es mejor para el agrietamiento de contraseña.
+[John the Ripper][5] es una herramienta para el agrietamiento de la contraseña. Se puede usar en Windows, DOS y VMS abiertos. Es una herramienta de código abierto. Se crea para detectar contraseñas de Unix débiles. Es mejor para el agrietamiento de contraseña.
 ** Características clave: **
   * John the Ripper se puede usar para probar varias contraseñas encriptadas.
   * Realiza ataques de diccionario.
@@ -84,15 +84,17 @@ Hay docenas de otra plataforma de piratería ética de código abierto como se e
 
 ## Conclusión: {#4A1A}
 Como se explicó aquí, MetaSploit también es para la seguridad y es bueno para construir herramientas anti-forenses y de evasión. NMAP se utiliza para la seguridad informática y la gestión de la red. Es bueno para escanear la red. Según las revisiones disponibles en línea, las personas recomiendan usar NMAP en lugar del escáner de IP enojado, ya que el escáner de IP enojado viene con aplicaciones no deseadas. John the Ripper es rápido en el agrietamiento de la contraseña. Nikto es una buena herramienta de código abierto para pruebas de penetración.
-_ ¿QUÉ _OPEN SOURCE Herramientas éticas de piratería__ _do que usa? Si tiene alguna pregunta o comentarios, por favor_ [póngase en contacto] [6].
+_ ¿QUÉ _OPEN SOURCE Herramientas éticas de piratería__ _do que usa? Si tiene alguna pregunta o comentarios, por favor_ [póngase en contacto][6].
 
 ## Explorar
 Puede encontrar los artículos más relacionados más relacionados:
-  * [Cómo instalar el software de mercado de pares de pares de Sharetribe] [7]
-  * [Cómo instalar Cocorico Marketplace para vender servicios en línea.] [8]
-  * [Mercado de aprendizaje y enseñanza de clonos de código abierto y enseñanza] [9]
-  * [Las mejores opciones de software del mercado digital] [10]
-  * [Software de almacenamiento en la nube de código abierto Top 5 en 2021] [11]
+  * [Cómo instalar el software de mercado de pares de pares de Sharetribe][7]
+  * [Cómo instalar Cocorico Marketplace para vender servicios en línea.][8]
+  * [Mercado de aprendizaje y enseñanza de clonos de código abierto y enseñanza][9]
+  * [Las mejores opciones de software del mercado digital][10]
+  * [Software de almacenamiento en la nube de código abierto Top 5 en 2021][11]
+
+  
 [1]: https://www.metasploit.com/
 [2]: https://sqlmap.org/
 [3]: https://hashcat.net/hashcat/

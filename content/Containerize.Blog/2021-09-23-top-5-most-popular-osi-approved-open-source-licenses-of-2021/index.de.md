@@ -47,14 +47,16 @@ Die ISC Open Source -Lizenz entspricht der MIT -Lizenz. Der einzige Unterschied 
 
 ## Schlussfolgerung: {#4a1a}
 Wenn Sie so weit gekommen sind, wissen Sie, dass Open -Source -Software -Copyright nicht für schwache Nerven ist. In Anbetracht der Tatsache, dass fast alle Softwareentwickler stark auf die restriktivsten Open -Source -Lizenz- und Top -Lizenzunternehmen angewiesen sind. Es ist wichtig, die Grundlagen der häufigsten Open -Source -Lizenzen und die Hauptunterschiede zwischen den beliebten Open -Source -Lizenzen da draußen zu verstehen. Wir hoffen nur, dass diese Erklärung der proprietären Software -Lizenz und der Open -Source -Software -Lizenz -Beispiel das potenzielle Minenfeld von Lizenzen nur etwas schiffernder gemacht hat.
-Sie können sich uns auf [Twitter] [1], [linkedIn] [2] und unserer [Facebook] [3] -Seite anschließen. Welche Open -Source -Lizenzen bevorzugen Sie? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen] [4].
+Sie können sich uns auf [Twitter][1], [linkedIn][2] und unserer [Facebook][3] -Seite anschließen. Welche Open -Source -Lizenzen bevorzugen Sie? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][4].
 
 ## Erkunden:
 Wir haben auch mehrere andere Artikel, an denen Sie interessiert sein könnten.
-  *** [Top 5 Open Source Container Orchestration Tools für DevOps 2021] [5] **
-  *** [Top 5 Open Source Message Queue (MQ) Software im Jahr 2021] [6] **
-  *** [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software] [7] **
-  *** [beliebteste Open Source Digital Forensic Tools] [8] **
+  *** [Top 5 Open Source Container Orchestration Tools für DevOps 2021][5] **
+  *** [Top 5 Open Source Message Queue (MQ) Software im Jahr 2021][6] **
+  *** [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][7] **
+  *** [beliebteste Open Source Digital Forensic Tools][8] **
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

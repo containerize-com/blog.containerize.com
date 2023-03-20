@@ -13,16 +13,16 @@ categories: ['Animation Software']
 
 
 ## ** Pencil2d ist eine Open -Source -Animationssoftware, mit der Benutzer 2D -Animationen und Skizzen erstellen können. In diesem Artikel geht es darum, wie man Animation mit Pencil2d ** erstellt.
-Wenn es darum geht, neue Software zu lernen, um Animationen und Illustrationen zu erstellen, haben wir eine Reihe von Tutorials und Anleitungen erstellt, mit denen Sie neue Software beherrschen und Animationen lernen können. Unabhängig davon, ob Sie ein Anfänger oder ein erweiterter Benutzer sind, können Sie unsere [früheren Beiträge] [1] helfen, die richtige Animationsanwendung für Sie zu finden. Lassen Sie uns die folgenden Themen behandeln, um zu erfahren, wie Sie Animationen mit Pencil2D -Animationssoftware erstellen.
-  * [Was ist Bleistift2d?] [2]
-  * [Wie installiere ich Pencil2d?] [3]
-  * [Übersicht über die Anwendungsschnittstelle] [4]
-  * [Wie erstelle ich Animationen mit Pencil2d?] [5]
-  * [Schlussfolgerung] [6]
+Wenn es darum geht, neue Software zu lernen, um Animationen und Illustrationen zu erstellen, haben wir eine Reihe von Tutorials und Anleitungen erstellt, mit denen Sie neue Software beherrschen und Animationen lernen können. Unabhängig davon, ob Sie ein Anfänger oder ein erweiterter Benutzer sind, können Sie unsere [früheren Beiträge][1] helfen, die richtige Animationsanwendung für Sie zu finden. Lassen Sie uns die folgenden Themen behandeln, um zu erfahren, wie Sie Animationen mit Pencil2D -Animationssoftware erstellen.
+  * [Was ist Bleistift2d?][2]
+  * [Wie installiere ich Pencil2d?][3]
+  * [Übersicht über die Anwendungsschnittstelle][4]
+  * [Wie erstelle ich Animationen mit Pencil2d?][5]
+  * [Schlussfolgerung][6]
 
 ## Was ist Pencil2d? {#What-is-pencil2d}
-[Pencil2d] [7] ist eine herkömmliche Animationsanwendung, mit der Benutzer 2D -Skizzen von Cartoons und Animationen für verschiedene Projekte erstellen können. Sie können Pencil2D sowohl für persönliche Projekte als auch für kommerzielle Bestrebungen verwenden, da es sich um eine Open -Source -Animationssoftware handelt, die unter der GNU General Public Lizenz lizenziert ist. Die Verwendung von Pencil2D ist ziemlich einfach, wie Sie in der Post weiter sehen werden. Es kann sowohl von Animatoren als auch von professionellen Nutzern verwendet werden.
-Mit [Pencil2d] [7] werden Ihre Animationen in Bitmap- oder Vektorzeichnungen gespeichert und verwenden einen Raster-/Vektor -Workflow für eine effektive Verwaltung von Animationen. Einige der akzeptablen Dateiformate bei der Verwendung von Pencil2D sind PNG, JPEG, BMP, TIFF usw. für Bilder und AVI, MP4, GIF und mehr für Videos. Es ist auch mit Windows, Mac OS, Linux und FreeBSD kompatibel.
+[Pencil2d][7] ist eine herkömmliche Animationsanwendung, mit der Benutzer 2D -Skizzen von Cartoons und Animationen für verschiedene Projekte erstellen können. Sie können Pencil2D sowohl für persönliche Projekte als auch für kommerzielle Bestrebungen verwenden, da es sich um eine Open -Source -Animationssoftware handelt, die unter der GNU General Public Lizenz lizenziert ist. Die Verwendung von Pencil2D ist ziemlich einfach, wie Sie in der Post weiter sehen werden. Es kann sowohl von Animatoren als auch von professionellen Nutzern verwendet werden.
+Mit [Pencil2d][7] werden Ihre Animationen in Bitmap- oder Vektorzeichnungen gespeichert und verwenden einen Raster-/Vektor -Workflow für eine effektive Verwaltung von Animationen. Einige der akzeptablen Dateiformate bei der Verwendung von Pencil2D sind PNG, JPEG, BMP, TIFF usw. für Bilder und AVI, MP4, GIF und mehr für Videos. Es ist auch mit Windows, Mac OS, Linux und FreeBSD kompatibel.
 
 ## Wie installiere ich Pencil2d? {#install-pencil2d}
 Öffnen Sie das Terminal und aktualisieren Sie den Paketindex Ihres lokalen Servers, indem Sie den folgenden Befehl eingeben:
@@ -80,13 +80,15 @@ Jetzt können Sie die Animation in eine Website einbetten, sie in einem Browser 
 
 ## Schlussfolgerung {#Conclusion}
 Wie Sie aus dem obigen Tutorial sehen können, ist das Erstellen von Animationen mit Pencil2D ziemlich leicht zu verstehen und auszuführen. Die Animationssoftware wurde so erstellt, dass sie sowohl von Fachleuten anfängerfreundlich als auch schnell von Fachleuten übernommen werden. In Pencil2D gibt es viele Optionen, wenn es darum geht, 2D -Skizzen oder Animationen zu erstellen, und jeder Illustrator kann mit der Anwendung wirklich ein starkes Portfolio erstellen.
-[Pencil2d] [7] ist mit vielen Betriebssystemen kompatibel, wie wir bereits erwähnt haben, sodass Sie einfach mit der Animationssoftware in der Umgebung Ihrer Auswahl anschließen und spielen können. Wenn Sie nach weiteren Tutorials in Bezug auf Pencil2D suchen, können Sie einfach ihre Website besuchen. Wir haben auch viele Tutorials und Anleitungen erstellt, um andere Animation -Software -Programme zu verwenden, die Sie auf unserer Website finden. Weitere Klarheit finden Sie in der Lage.
+[Pencil2d][7] ist mit vielen Betriebssystemen kompatibel, wie wir bereits erwähnt haben, sodass Sie einfach mit der Animationssoftware in der Umgebung Ihrer Auswahl anschließen und spielen können. Wenn Sie nach weiteren Tutorials in Bezug auf Pencil2D suchen, können Sie einfach ihre Website besuchen. Wir haben auch viele Tutorials und Anleitungen erstellt, um andere Animation -Software -Programme zu verwenden, die Sie auf unserer Website finden. Weitere Klarheit finden Sie in der Lage.
 
 ## Erkunden
 Sie können die folgenden Links relevant finden:
-  * [Pencil2d | Plattform- und open-Source-kostenlose 2D-Animationssoftware] [7]
-  * [Anfängerhandbuch zum kostenlosen Bildbearbeitung mit Digikam] [8]
-  * [Beste Open -Source -Animationssoftware] [9]
+  * [Pencil2d | Plattform- und open-Source-kostenlose 2D-Animationssoftware][7]
+  * [Anfängerhandbuch zum kostenlosen Bildbearbeitung mit Digikam][8]
+  * [Beste Open -Source -Animationssoftware][9]
+
+  
 [1]: https://blog.containerize.com/
 [2]: #what-is-pencil2d
 [3]: #install-pencil2d

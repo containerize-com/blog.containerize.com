@@ -17,13 +17,13 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 ## Visão geral
 Você está aterrissado no lugar certo se estiver se perguntando adotar software para impulsionar seus negócios. Nesse mundo em rápido crescimento da tecnologia e da inovação, existem muitos fatores que podem se tornar rolhos como custo, tempo, habilidades, recursos e muito mais. Por outro lado, é um acordo caro para o software desenvolvido do zero para atender aos requisitos de negócios. Aí vem o ** software de código aberto **. O Software de código aberto (OSS) está disponível publicamente para todos com todo o código -fonte e documentação sob uma licença. Pode ser construído por um único desenvolvedor ou um grupo de desenvolvedores que o tornam público. Uma vez que a visibilidade do software livre é pública, outros desenvolvedores podem contribuir para esse software para aprimoramentos.
 Além disso, a comunidade de código aberto é muito vibrante e solidário, que se desenvolveu junto ** Lista de software de código aberto **. Existem quadros de discussão em que colaboradores e usuários se reúnem para compartilhar soluções e pensamentos. Há uma ampla gama de categorias de OSS que cobrem a maioria dos aspectos comerciais. Obviamente, há algumas coisas a considerar antes de ir para um aplicativo de código aberto que discutiremos nesta postagem do blog cobrindo os seguintes pontos.
-  *** [Comunidade] [1] **
-  *** [Documentação] [2] **
-  *** [Portabilidade] [3] **
-  *** [Git Stats] [4] **
-  *** [licenciamento] [5] **
-  *** [extensibilidade] [6] **
-  *** [Segurança] [7] **
+  *** [Comunidade][1] **
+  *** [Documentação][2] **
+  *** [Portabilidade][3] **
+  *** [Git Stats][4] **
+  *** [licenciamento][5] **
+  *** [extensibilidade][6] **
+  *** [Segurança][7] **
 
 ## Comunidade {#Community}
 Este é o fator mais importante ao optar por uma solução de código aberto (OSS). Torna -se muito difícil gerenciar o software se não houver suporte suficiente disponível. A maioria dos desenvolvedores tende a manter a confiabilidade do software. Portanto, você deve sempre preferir o software de código aberto gratuito (FOSS) ** que possui suporte vibrante da comunidade, para que, se houver algum problema sério que ocorra, isso deve ser resolvido.
@@ -48,21 +48,23 @@ Por último, mas não menos importante, a segurança de qualquer software não p
 
 ## Pensamentos finais
 Isso nos leva ao final deste post do blog. Passamos pelas práticas importantes que devem ser seguidas ao escolher um software de código aberto (OSS) **. Vimos muitos dos gigantes da tecnologia adotando gratuitamente ** Software de código aberto (FOSS) ** para atender às necessidades de negócios. No entanto, essa generalização indica a robustez e a eficiência dos aplicativos de código aberto. Há uma lista de ferramentas de código aberto longo mencionado na seção Explorar abaixo. Além disso, você pode encontrar muitos OSS no contendeRize.com, todos gratuitos, de código aberto e vêm com recursos de auto-hospedagem. Eu recomendaria que você escolha uma solução de código aberto para sua empresa que atenda às suas necessidades de negócios.
-Finalmente, [** containerize.com **] [8] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato para atualizações regulares.
+Finalmente, [** containerize.com **][8] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato para atualizações regulares.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [9]
-  * [Gerenciamento de Conteúdo] [10], [Blogging] [11], [Fórum de Discussão] [12], [Software de Saúde] [13]
-  * [Helpdesk] [14], [Marketing Automation] [15], [Marketplace] [16], [Ferramentas de implantação] [17], [Security] [18]
-  * [CHAT ao vivo] [19], [Form] [20], [Email transacional] [21], [Business Intelligence Software] [22]
-  * [Newsletter] [23], [Página de status] [24], [faturamento] [25], [gerenciamento de senhas] [26], [Software da fila de mensagens] [27]
-  * [Sinalizador único] [28], [Gerenciamento de projetos] [29], [Rapid Application Development] [30], [Software de animação] [31]
-  * [Carrinho de compras] [32], [Controle de versão de código aberto] [33], [Web Server Solution Stack] [34], [Software de edição de fotos] [35]
-  * [Gerenciamento de banco de dados] [36], [videoconferência] [37], [plataformas blockchain] [38], [big data] [39]
-  * [CMDB Software] [40], [Software de Desenvolvimento de Jogos] [41], [Enterprise Resource Planning (ERP)] [42]
-  * [Software de edição de vídeo] [43], [Sistemas de Gerenciamento de Database] [44], [Produtividade do Office] [45]
-  * [Sistema de Gerenciamento de Aprendizagem (LMS)] [46], [Backup e Sync Software] [47], [Software Forense Digital] [48]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][9]
+  * [Gerenciamento de Conteúdo][10], [Blogging][11], [Fórum de Discussão][12], [Software de Saúde][13]
+  * [Helpdesk][14], [Marketing Automation][15], [Marketplace][16], [Ferramentas de implantação][17], [Security][18]
+  * [CHAT ao vivo][19], [Form][20], [Email transacional][21], [Business Intelligence Software][22]
+  * [Newsletter][23], [Página de status][24], [faturamento][25], [gerenciamento de senhas][26], [Software da fila de mensagens][27]
+  * [Sinalizador único][28], [Gerenciamento de projetos][29], [Rapid Application Development][30], [Software de animação][31]
+  * [Carrinho de compras][32], [Controle de versão de código aberto][33], [Web Server Solution Stack][34], [Software de edição de fotos][35]
+  * [Gerenciamento de banco de dados][36], [videoconferência][37], [plataformas blockchain][38], [big data][39]
+  * [CMDB Software][40], [Software de Desenvolvimento de Jogos][41], [Enterprise Resource Planning (ERP)][42]
+  * [Software de edição de vídeo][43], [Sistemas de Gerenciamento de Database][44], [Produtividade do Office][45]
+  * [Sistema de Gerenciamento de Aprendizagem (LMS)][46], [Backup e Sync Software][47], [Software Forense Digital][48]
+
+  
 [1]: #Community
 [2]: #Documentation
 [3]: #Portability

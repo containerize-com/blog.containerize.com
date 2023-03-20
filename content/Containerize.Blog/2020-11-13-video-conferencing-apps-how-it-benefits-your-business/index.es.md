@@ -17,9 +17,9 @@ categories: ['Video Conferencing Software']
 ## Descripción general
 Las estrategias de comunicación organizacional han evolucionado día a día. Muchas empresas han colocado software de reunión de video de código abierto para muchas de sus tareas rutinarias, incluidas colaboraciones con compañeros de equipo y reuniones con los clientes. Sin embargo, este patrón de trabajo domina cada vez más en el mercado debido a varias razones. Una de las principales razones es que la mayoría de la fuerza laboral se está volviendo global y la gente prefiere trabajar de forma remota. Por otro lado, la comunidad de código abierto ha desarrollado varias soluciones de videoconferencia gratuitas al considerar la alta demanda. Estos ** software de reunión de código abierto ** permiten a los usuarios alojar, programar y asistir a conferencias virtuales. Los participantes pueden usar muchas otras características útiles asociadas con ** aplicaciones de videollamadas grupales **. Las organizaciones pueden elegir cualquiera de los software de colaboración de videos de código abierto ** e implementarlo en sus servidores. Hay muchos tipos de reuniones en línea, como reuniones de audio, seminarios web para reuniones de video y algunos más.
 Hay muchas empresas que realizan conferencias web en línea con sus empleados utilizando cualquier aplicación de videoconferencia ** **. Puede encontrar una gran cantidad de personas que participan en sesiones en línea que tienen lugar con respecto al lanzamiento de un nuevo producto o servicio. Afortunadamente, las aplicaciones de reunión de video ** gratuitas ** están diseñadas para cumplir con los requisitos comerciales. En esta publicación de blog, cubriremos los siguientes puntos
-  * [] [1] [beneficios principales de la videoconferencia] [2]
-  * [Software de videoconferencia de código abierto de los 3 principales] [3]
-  * [Conclusión] [4]
+  * [][1][beneficios principales de la videoconferencia][2]
+  * [Software de videoconferencia de código abierto de los 3 principales][3]
+  * [Conclusión][4]
 
 ## beneficios principales de la videoconferencia {#Benefits}
 En los últimos tiempos, las organizaciones tienden a adoptar ** aplicaciones de reuniones de video ** para reuniones virtuales sobre reuniones en el sitio. Sin embargo, veremos algunas ventajas significativas de videoconferencia.
@@ -33,7 +33,7 @@ En los últimos tiempos, las organizaciones tienden a adoptar ** aplicaciones de
 Hay muchos sistemas de conferencia web de código abierto disponibles. Entonces, veamos los más populares:
 
 #### Jitsi Meet
-[Jitsi Meet] [5] es un software de colaboración de video de código abierto con muchas herramientas de colaboración de video. Es muy seguro y viene con capacidades de cifrado. Además, este ** software de reunión de código abierto ** utiliza un puente de video de software basado en WebRTC para videoconferencias de alta definición. Esta herramienta gratuita es fácil de configurar y configurable con aplicaciones de terceros. Además, los participantes pueden chatear entre sí durante la llamada y pueden invitar a otros miembros compartiendo un enlace con ellos. Sin embargo, esta aplicación de videollamadas está escrita en JavaScript y toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar su código fuente en [GitHub] [6]. Tiene las siguientes características clave:
+[Jitsi Meet][5] es un software de colaboración de video de código abierto con muchas herramientas de colaboración de video. Es muy seguro y viene con capacidades de cifrado. Además, este ** software de reunión de código abierto ** utiliza un puente de video de software basado en WebRTC para videoconferencias de alta definición. Esta herramienta gratuita es fácil de configurar y configurable con aplicaciones de terceros. Además, los participantes pueden chatear entre sí durante la llamada y pueden invitar a otros miembros compartiendo un enlace con ellos. Sin embargo, esta aplicación de videollamadas está escrita en JavaScript y toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar su código fuente en [GitHub][6]. Tiene las siguientes características clave:
   * Video conferencia de varios partidos
   * Soporte para Etherpad
   * Invitar a los usuarios
@@ -41,7 +41,7 @@ Hay muchos sistemas de conferencia web de código abierto disponibles. Entonces,
   * Cifrado de video/audio
 
 #### bigbluebutton
-[BigblueButton] [7] es otra aplicación de videoconferencia en tiempo real ** que no solo proporciona soluciones para reuniones de video, sino que también ofrece integraciones con algunos marcos de código abierto populares como [Drupal] [8], RedMine, [WordPress] [9], y algunos más. Al igual que otras aplicaciones de reuniones de video ** **, es segura y viene con capacidades de autohostación. Además, proporciona una interfaz muy lógica que los usuarios pueden navegar fácilmente. Sin embargo, esta aplicación de videollamadas está escrita en JavaScript junto con la entrada de otros idiomas como Java, HTML5, Scala Ruby, Groovy y CSS y toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar su código fuente en [GitHub] [10]. Las siguientes características clave incluyen:
+[BigblueButton][7] es otra aplicación de videoconferencia en tiempo real ** que no solo proporciona soluciones para reuniones de video, sino que también ofrece integraciones con algunos marcos de código abierto populares como [Drupal][8], RedMine, [WordPress][9], y algunos más. Al igual que otras aplicaciones de reuniones de video ** **, es segura y viene con capacidades de autohostación. Además, proporciona una interfaz muy lógica que los usuarios pueden navegar fácilmente. Sin embargo, esta aplicación de videollamadas está escrita en JavaScript junto con la entrada de otros idiomas como Java, HTML5, Scala Ruby, Groovy y CSS y toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar su código fuente en [GitHub][10]. Las siguientes características clave incluyen:
   * Pizarra de usuarios múltiples
   * Chats en tiempo real
   * Soporte de emojis
@@ -50,7 +50,7 @@ Hay muchos sistemas de conferencia web de código abierto disponibles. Entonces,
   * Audio HD
 
 #### OpenVidu
-Del mismo modo, [OpenVidu] [11] es otro software de colaboración de video ** de código abierto ** que proporciona características y herramientas para videoconferencias remotas. Su arquitectura consta de dos capas. El primero es el navegador OpenVidu que es una biblioteca del lado del cliente y la otra es el servidor OpenVidu que es una biblioteca de backend. Es fácil de configurar y proporciona una imagen de Docker para fácilmente implementaciones y desarrollos. Sin embargo, esta aplicación de videollamada grupal ** está escrita en JavaScript y toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar su código fuente en [GitHub] [12]. Algunas características destacadas son:
+Del mismo modo, [OpenVidu][11] es otro software de colaboración de video ** de código abierto ** que proporciona características y herramientas para videoconferencias remotas. Su arquitectura consta de dos capas. El primero es el navegador OpenVidu que es una biblioteca del lado del cliente y la otra es el servidor OpenVidu que es una biblioteca de backend. Es fácil de configurar y proporciona una imagen de Docker para fácilmente implementaciones y desarrollos. Sin embargo, esta aplicación de videollamada grupal ** está escrita en JavaScript y toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar su código fuente en [GitHub][12]. Algunas características destacadas son:
   * Compatible con WEBRTC
   * Compartir pantalla
   * Charlar
@@ -59,18 +59,20 @@ Del mismo modo, [OpenVidu] [11] es otro software de colaboración de video ** de
 
 ## conclusión {#conclusion}
 En conclusión, hemos visto que las reuniones de video se han convertido en la necesidad del tiempo. Además, la instalación de una aplicación de videoconferencia ** gratuita ** puede traer una mejora en los flujos de trabajo para satisfacer las necesidades de comunicación remota. Esta publicación de blog realmente lo ayudará si está interesado en administrar las operaciones comerciales virtualmente. Estos ** software de reunión de código abierto ** son multipropósito y usted también puede usarlos para uso personal, como realizar una videoconferencia con sus amigos y familiares. Este ** software de colaboración de video viene para casi todas las plataformas populares como móvil, escritorio, ** y web. Además, puede ahorrar sus costos, como costos de viaje, costos de papel, costos de oficina, costos de electricidad y costos de alquiler mediante la adopción de ** aplicaciones de videollamadas grupales **.
-Además, [Contenerize.com] [13] está trabajando continuamente para mejorar la lista de aplicaciones de reuniones de video ** en línea **. Por lo tanto, manténgase en contacto con la categoría [videoconferencia] [14] para actualizaciones regulares.
+Además, [Contenerize.com][13] está trabajando continuamente para mejorar la lista de aplicaciones de reuniones de video ** en línea **. Por lo tanto, manténgase en contacto con la categoría [videoconferencia][14] para actualizaciones regulares.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Jitsi Meet] [5]
-  * [BigblueButton] [7]
-  * [OpenVidu] [11]
-  * [Elemento] [15]
-  * [Cable] [16]
-  * [Top 5 Software de videoconferencia de código abierto de 2021] [17]
-  * [Una guía paso a paso para configurar Jitsi de código abierto] [18]
-  * [Automatice las operaciones comerciales utilizando software de código abierto y abierto] [19]
+  * [Jitsi Meet][5]
+  * [BigblueButton][7]
+  * [OpenVidu][11]
+  * [Elemento][15]
+  * [Cable][16]
+  * [Top 5 Software de videoconferencia de código abierto de 2021][17]
+  * [Una guía paso a paso para configurar Jitsi de código abierto][18]
+  * [Automatice las operaciones comerciales utilizando software de código abierto y abierto][19]
+
+  
 [1]: #why
 [2]: #benefits
 [3]: #top

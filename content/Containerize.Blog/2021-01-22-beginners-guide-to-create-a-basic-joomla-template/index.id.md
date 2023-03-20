@@ -13,14 +13,14 @@ categories: ['Content Management']
 
 {{< figure align=center src="images/joomla-templates-2.png" alt="Template Joomla Dasar">}}
 
-Di era digital ini, sistem manajemen konten adalah kebutuhan dasar bisnis apa pun untuk semua kebutuhan pembuatan konten mereka. Dan, ada sejumlah open-source serta perangkat lunak CMS berbayar yang tersedia di pasar. Kami juga telah [terdaftar] [1] Beberapa perangkat lunak manajemen konten open-source teratas untuk bisnis. Joomla adalah salah satu perangkat lunak CMS open-source paling populer dan dalam tutorial ini kami akan memandu Anda melalui langkah demi langkah dan menjelaskan cara membuat template Joomla dari awal. Jadi mari kita mulai!
+Di era digital ini, sistem manajemen konten adalah kebutuhan dasar bisnis apa pun untuk semua kebutuhan pembuatan konten mereka. Dan, ada sejumlah open-source serta perangkat lunak CMS berbayar yang tersedia di pasar. Kami juga telah [terdaftar][1] Beberapa perangkat lunak manajemen konten open-source teratas untuk bisnis. Joomla adalah salah satu perangkat lunak CMS open-source paling populer dan dalam tutorial ini kami akan memandu Anda melalui langkah demi langkah dan menjelaskan cara membuat template Joomla dari awal. Jadi mari kita mulai!
 ** Catatan: Kami berasumsi bahwa Anda memiliki versi joomla 2.5 yang diinstal **
-  *** [Struktur Direktori Pengaturan] [2] **
-  *** [Buat file TemplateDetails.xml dasar] [3] **
-  *** [Buat file index.php dasar] [4] **
-  *** [temukan dan instal template] [5] **
-  *** [paket templat] [6] **
-  *** [Kesimpulan] [7] **
+  *** [Struktur Direktori Pengaturan][2] **
+  *** [Buat file TemplateDetails.xml dasar][3] **
+  *** [Buat file index.php dasar][4] **
+  *** [temukan dan instal template][5] **
+  *** [paket templat][6] **
+  *** [Kesimpulan][7] **
 
 Struktur direktori setup ## {#setup}
 Untuk membuat template Joomla yang sangat mendasar terlebih dahulu, buat folder baru di folder Templates. Sebutkan folder apa pun yang ingin Anda sebut templat Anda, mis. “** MyNewTemplate **“.
@@ -106,7 +106,9 @@ Dalam artikel ini, kami belajar tentang Template Joomla. Kami melewati langkah d
 
 ## halaman produk yang relevan
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Panduan Pengembangan Template Joomla untuk Pemula] [8]
+  * [Panduan Pengembangan Template Joomla untuk Pemula][8]
+
+  
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

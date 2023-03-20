@@ -15,12 +15,12 @@ As empresas precisam de melhores plataformas de suporte ao cliente para resolver
 
 A automação de perguntas frequentes consiste em melhorar a experiência do seu cliente on -line usando os chatbots para responder a perguntas frequentes. Com os avanços em inteligência artificial e aprendizado de máquina, a demanda por chatbots de conversação com sede em IA ganhou muita popularidade e demanda. E isso ocorre principalmente porque toda a empresa deseja aprimorar sua experiência com o cliente, mesmo quando a empresa está offline. Os chatbots de conversação tornaram isso possível para as empresas darem a seus clientes o sempre disponível suporte de alto toque que desejarem. O objetivo desta postagem do blog é ajudá-lo a configurar um bot de FAQ baseado em IA usando o Botpress.
 Neste artigo, aprenderemos sobre o módulo NLU da Botpress e como o entendimento / processamento da linguagem natural funciona e pode ajudar as empresas a alcançar um alto nível de satisfação do cliente. Vamos começar!
-  *** [O que é processamento de linguagem natural] [1] **
-  *[** Determine seu caso de uso **] [2]
-  *[** Instale o botPress **] [3]
-  *[** Crie um novo bot **] [4]
-  *[** Treine suas perguntas e respostas **] [5]
-  *[** Conclusão **] [6]
+  *** [O que é processamento de linguagem natural][1] **
+  *[** Determine seu caso de uso **][2]
+  *[** Instale o botPress **][3]
+  *[** Crie um novo bot **][4]
+  *[** Treine suas perguntas e respostas **][5]
+  *[** Conclusão **][6]
 
 ## O que é processamento de linguagem natural {#nlu}
 O processamento de linguagem natural (PNL) é um ramo da inteligência artificial que ajuda os computadores a entender, interpretar e manipular a linguagem humana. A PNL ajuda os computadores a se comunicarem com os seres humanos em seu próprio idioma. E possibilita que os computadores leiam um texto, ouçam discursos, interpretem, medem o sentimento.
@@ -31,7 +31,7 @@ A NLU é o módulo da Botpress que processa todas as mensagens recebidas e execu
 Se você deseja criar um FAQ AI Chatbot, precisa ter um caso de uso para o seu negócio. Para o bem deste tutorial, queremos que nossos usuários façam qualquer pergunta aleatória relacionada ao preço de nosso produto e nosso tempo de negócios.
 
 ## Instale o BotPress {#Install}
-Para instalar o Botpress, acesse o [site] [7], clique em "Download grátis" e selecione sua plataforma. Para este tutorial, estou usando a versão Mac. Depois que o download estiver concluído, você poderá extrair o arquivo zip e executar o seguinte comando no seu terminal entrando na pasta direita.
+Para instalar o Botpress, acesse o [site][7], clique em "Download grátis" e selecione sua plataforma. Para este tutorial, estou usando a versão Mac. Depois que o download estiver concluído, você poderá extrair o arquivo zip e executar o seguinte comando no seu terminal entrando na pasta direita.
 ```
 ./bp
 ```
@@ -67,6 +67,8 @@ Agora, que você tem seu Bot FAQ pronto, pode implantar este bot em seu site seg
 
 ## Conclusão {#conclusion}
 Nesta postagem do blog, aprendemos e entendemos o processamento de linguagem natural. Também recebemos nossas mãos com o processo de criação de bot. Treinamos um simples bot de FAQ que ajuda seus clientes a conhecer os horários e os planos de pagamento de seus negócios. O objetivo do tutorial era ajudar os iniciantes a começar rapidamente com um bot de AI baseado em AI usando o Botpress.
+
+  
 [1]: #nlu
 [2]: #case
 [3]: #install

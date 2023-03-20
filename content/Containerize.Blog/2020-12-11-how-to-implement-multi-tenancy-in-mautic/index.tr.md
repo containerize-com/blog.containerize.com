@@ -14,16 +14,16 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/Mautic-multitenancy.png" alt="Mautic'te çoklu kiracılık nasıl uygulanır">}}
 
 Mautic, pazarlama e -postalarınız, açılış sayfalarınız, iş akışlarınız ve pazarlama faaliyetleriniz için önlemler üzerinde tam kontrol sağlayan ücretsiz ve açık kaynaklı bir pazarlama otomasyon çözümüdür. Bu öğreticideki aşağıdaki bölümleri ele alacağız:
-  * [Çok kiracılık nedir] [1]
-  * [Mautic nedir] [2]
-  * [Mautic'te çoklu kiracılık uygulayın] [3]
-  * [Sonuç] [4]
+  * [Çok kiracılık nedir][1]
+  * [Mautic nedir][2]
+  * [Mautic'te çoklu kiracılık uygulayın][3]
+  * [Sonuç][4]
 
 ## Multi-kiracılık nedir {#çoklu kiracılık}
 Çok kiracılı yazılım mimarisinde, bir yazılım uygulamasının tek bir örneği birden fazla kiracıya hizmet eder. Her kiracı verisi, aynı başvuru örneğini paylaşan diğer kiracıdan izole edilir. Bu kiracılar mantıksal olarak izole, ancak fiziksel olarak entegre. Bu, tüm kiracılar için veri güvenliği ve gizliliği sağlar. Tek bir uygulama örneğinden birden fazla kiracı oluşturmak çok daha az bellek gerektirir. Kiracılar kaynakları paylaşır ve yazılım bakımı, altyapı ve veri merkezi operasyonları için maliyetleri azaltır. Maliyetler tek kiracı bir altyapıdan daha düşük olma eğilimindedir.
 
 ## Mautic nedir {#Mautic}
-[Mautic] [5] ücretsiz ve açık kaynaklı bir pazarlama yazılımıdır. Mautic kullanarak pazarlama kampanyaları, olası satış üretimi, temas segmentasyonu vb. Gibi tekrarlayan pazarlama görevlerini otomatikleştirin. Kurşun üretimi, kampanya oluşturma, temas segmentasyonu, e -posta oluşturucu, A/B testi, sayfa oluşturucu, kurşun besleme ve daha fazlası gibi şaşırtıcı özelliklere sahiptir. Mautic ayrıca tüm popüler sosyal platformlarla entegrasyonu destekler; Facebook, Twitter, LinkedIn. Tüm bu inanılmaz özellikler, genel müşteri deneyimini artırmanıza ve işletmeniz için pazarlama otomasyonunu geliştirmenize yardımcı olur.
+[Mautic][5] ücretsiz ve açık kaynaklı bir pazarlama yazılımıdır. Mautic kullanarak pazarlama kampanyaları, olası satış üretimi, temas segmentasyonu vb. Gibi tekrarlayan pazarlama görevlerini otomatikleştirin. Kurşun üretimi, kampanya oluşturma, temas segmentasyonu, e -posta oluşturucu, A/B testi, sayfa oluşturucu, kurşun besleme ve daha fazlası gibi şaşırtıcı özelliklere sahiptir. Mautic ayrıca tüm popüler sosyal platformlarla entegrasyonu destekler; Facebook, Twitter, LinkedIn. Tüm bu inanılmaz özellikler, genel müşteri deneyimini artırmanıza ve işletmeniz için pazarlama otomasyonunu geliştirmenize yardımcı olur.
 
 ## mautic {#implement}
   * “Main_db” olarak adlandırılan yeni bir boş veritabanı oluşturun.
@@ -53,11 +53,13 @@ Mautic, ücretsiz, zengin özellikli ve kalite odaklı bir pazarlama otomasyon �
 
 ## Keşfetmek
 Mautic ve Facebook hakkında daha fazla bilgi edinmek için lütfen şu adresi ziyaret edin:
-  * [Mautic | Açık Kaynak İçerik Pazarlama Teknolojisi Platformu] [5]
-  * [Kampanya Oluşturucu Kullanarak Mautic Kampanyalar Nasıl Kurulur] [6]
-  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon] [7]
-  * [Mautic ve WooCommerce Entegrasyonu ile Pazarlama Otomasyonu] [8]
-  * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre] [9]
+  * [Mautic | Açık Kaynak İçerik Pazarlama Teknolojisi Platformu][5]
+  * [Kampanya Oluşturucu Kullanarak Mautic Kampanyalar Nasıl Kurulur][6]
+  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon][7]
+  * [Mautic ve WooCommerce Entegrasyonu ile Pazarlama Otomasyonu][8]
+  * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre][9]
+
+  
 [1]: #multi-tenancy
 [2]: #mautic
 [3]: #implement

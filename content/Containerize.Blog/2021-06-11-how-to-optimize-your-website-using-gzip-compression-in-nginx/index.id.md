@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/enable-gzip-compression-in-nginx.png" alt="Cara mengaktifkan kompresi gzip di nginx">}}
 
 Artikel ini adalah kelanjutan dari serangkaian tutorial kami tentang Nginx. Sejauh ini kami telah membahas cara menggunakan nginx sebagai penyeimbang beban, cara menggunakan Nginx sebagai proxy terbalik. Dan sekarang tutorial ini mencakup pertanyaan lain yang menuntut “Bagaimana Mengoptimalkan Situs Web Anda Menggunakan Kompresi Gzip di Nginx”. Dalam tutorial ini, kami akan memandu Anda langkah demi langkah tentang cara mengaktifkan kompresi GZIP di Nginx. Jadi, mari kita mulai!
-  * [Optimalisasi Situs Web dengan Kompresi] [1]
-  * [Apa itu kompresi gzip?] [2]
-  * [Bagaimana cara kerja kompresi gzip?] [3]
-  * [Aktifkan kompresi GZIP di nginx] [4]
-  * [Verifikasi Kompresi GZIP] [5]
-  * [Kesimpulan] [6]
+  * [Optimalisasi Situs Web dengan Kompresi][1]
+  * [Apa itu kompresi gzip?][2]
+  * [Bagaimana cara kerja kompresi gzip?][3]
+  * [Aktifkan kompresi GZIP di nginx][4]
+  * [Verifikasi Kompresi GZIP][5]
+  * [Kesimpulan][6]
 
 ## Optimalisasi situs web dengan kompresi {#Optimize}
 Kinerja situs web tergantung pada sejumlah faktor. Salah satu faktor yang tergantung pada sebagian adalah ukuran semua file yang harus diunduh oleh browser pengguna dari server Anda. Mengurangi atau mengompresi ukuran file yang ditransmisikan dapat membuat situs web Anda memuat lebih cepat untuk pengguna. Ini juga dapat mengurangi tagihan untuk situs web Anda jika Anda membayar penggunaan bandwidth pada koneksi meteran. Jadi kompresi dapat memainkan peran yang sangat vital dalam optimasi situs web Anda.
@@ -118,11 +118,13 @@ ETag: W/"6222dc8d-500"
 ```
 
 ## kesimpulan {#conclusion}
-Dalam artikel ini kami telah belajar bahwa Anda dapat menggunakan modul Nginx GZIP untuk mempercepat transfer file. Kami menunjukkan kepada Anda langkah demi langkah cara mengaktifkan kompresi GZIP di nginx menggunakan modul GZIP. Dokumentasi resmi untuk [Modul GZIP] [7] mencantumkan arahan konfigurasi lain yang mungkin ingin Anda lihat. Semoga tutorial ini membantu Anda mengoptimalkan kinerja dan kecepatan situs web Anda.
+Dalam artikel ini kami telah belajar bahwa Anda dapat menggunakan modul Nginx GZIP untuk mempercepat transfer file. Kami menunjukkan kepada Anda langkah demi langkah cara mengaktifkan kompresi GZIP di nginx menggunakan modul GZIP. Dokumentasi resmi untuk [Modul GZIP][7] mencantumkan arahan konfigurasi lain yang mungkin ingin Anda lihat. Semoga tutorial ini membantu Anda mengoptimalkan kinerja dan kecepatan situs web Anda.
 
 ## Mengeksplorasi
-  * [Cara menginstal beberapa versi PHP dengan Nginx di Ubuntu] [8]
-  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik] [9]
+  * [Cara menginstal beberapa versi PHP dengan Nginx di Ubuntu][8]
+  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][9]
+
+  
 [1]: #optimize
 [2]: #what-gzip
 [3]: #how-gzip

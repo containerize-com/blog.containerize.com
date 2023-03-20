@@ -27,8 +27,8 @@ Bu blog makalesinde, ** apt yöntemini ** takip eden Ubuntu işletim sistemine w
   * **Çözüm**
 
 ## 1. Nginx ve yolcu nedir? {#Adım-4: -update-edular}
-** [Nginx sunucusu nedir?] [1] ** Nginx, Web için ters proxy, http yük dengeleyici, ortam akışı, http önbellek ve e-posta proxy olarak hizmet veren ücretsiz ve açık kaynaklı bir web sunucusu yazılımıdır. ve SMTP. Maksimum performans ve istikrar için tasarlanmış oldukça ölçeklenebilir. Nginx, aynı anda birden fazla istemci isteğinin işlenmesini sağlayan yüksek performanslı eşzamansız, süresiz ve olay odaklı web sunucusudur. 2-Clause BSD lisansı şartları altında 2004 yılında yayınlanan Igor Sysoev tarafından yazılmıştır. ** Nginx, Apache'den 2,5 kat daha hızlı ** gerçekleştirir ve bir kıyaslama testine göre daha az bellek tüketir.
-** [Yolcu nedir?] [2] ** Mod _Rails ve Mod \ _rack olarak da bilinen phusion yolcusu ücretsiz bir web sunucusu ve açık kaynaklı web uygulama sunucusudur. Apache ve Nginx ile entegre olan hızlı, sağlam, özellik açısından zengin ve hafif olacak şekilde tasarlanmıştır. Ayrıca uygulamalar için güvenlik, güvenilirlik ve ölçeklenebilirliği artırır. Yöneticilerin web uygulama işlemleri, sunucu performansı hakkında bilgi edinmelerini sağlar. Yolcu App Server web uygulamalarınızı kolayca çalıştırır ve otomatik yönetir. Aynı zamanda çoklu kiracılı ve bağımsız olarak birden fazla uygulamaya ** hizmet verebilir. HTTP isteklerini yerine getirebilir, süreçleri ve kaynakları yönetebilir ve yönetim görevlerini, izleme ve sorunları teşhis edebilecek. Phusion Goter, Meteor, Ruby On Rails Nginx Yolcu, JavaScript, Python ve Node.js uygulamalarını dağıtma ve yönetme desteğine sahip ücretsiz bir uygulama sunucusudur.
+** [Nginx sunucusu nedir?][1] ** Nginx, Web için ters proxy, http yük dengeleyici, ortam akışı, http önbellek ve e-posta proxy olarak hizmet veren ücretsiz ve açık kaynaklı bir web sunucusu yazılımıdır. ve SMTP. Maksimum performans ve istikrar için tasarlanmış oldukça ölçeklenebilir. Nginx, aynı anda birden fazla istemci isteğinin işlenmesini sağlayan yüksek performanslı eşzamansız, süresiz ve olay odaklı web sunucusudur. 2-Clause BSD lisansı şartları altında 2004 yılında yayınlanan Igor Sysoev tarafından yazılmıştır. ** Nginx, Apache'den 2,5 kat daha hızlı ** gerçekleştirir ve bir kıyaslama testine göre daha az bellek tüketir.
+** [Yolcu nedir?][2] ** Mod _Rails ve Mod \ _rack olarak da bilinen phusion yolcusu ücretsiz bir web sunucusu ve açık kaynaklı web uygulama sunucusudur. Apache ve Nginx ile entegre olan hızlı, sağlam, özellik açısından zengin ve hafif olacak şekilde tasarlanmıştır. Ayrıca uygulamalar için güvenlik, güvenilirlik ve ölçeklenebilirliği artırır. Yöneticilerin web uygulama işlemleri, sunucu performansı hakkında bilgi edinmelerini sağlar. Yolcu App Server web uygulamalarınızı kolayca çalıştırır ve otomatik yönetir. Aynı zamanda çoklu kiracılı ve bağımsız olarak birden fazla uygulamaya ** hizmet verebilir. HTTP isteklerini yerine getirebilir, süreçleri ve kaynakları yönetebilir ve yönetim görevlerini, izleme ve sorunları teşhis edebilecek. Phusion Goter, Meteor, Ruby On Rails Nginx Yolcu, JavaScript, Python ve Node.js uygulamalarını dağıtma ve yönetme desteğine sahip ücretsiz bir uygulama sunucusudur.
 
 ## 2. NGINX ve Yolcu Paketlerini Yükle: {#Step-1: -Sstall-Passenger-Package}
 Şimdi yolcu ve nginx kurma zamanı. Bu kılavuzu takip eden popüler web sunucularından birini kolayca dağıtabileceksiniz. Aşağıda listelenen komutlar, Phusion’ın APT deposu aracılığıyla yolcu ve nginx'i yükleyecektir. Zaten Nginx yüklü olsaydınız, bu komutlar Nginx'i Phusion’ın sürümüne yükseltir:
@@ -75,7 +75,7 @@ Son olarak, Nginx'in yolcu çekirdek süreçlerini başlatıp başlatmadığın�
 ```
 sudo /usr/sbin/passenger-memory-stats
 ```
-Herhangi bir NGINX işlemi veya yolcu işlemi görmüyorsanız, muhtemelen bir tür kurulum probleminiz veya yapılandırma probleminiz vardır. Lütfen [Sorun Giderme Kılavuzu] [3] 'e bakın.
+Herhangi bir NGINX işlemi veya yolcu işlemi görmüyorsanız, muhtemelen bir tür kurulum probleminiz veya yapılandırma probleminiz vardır. Lütfen [Sorun Giderme Kılavuzu][3] 'e bakın.
 
 ## 5. Sistem ve Yolcu Güncellemeleri: {#Adım-4: -update-Regularly}
 Nginx güncellemeleri, yolcu güncellemeleri ve sistem güncellemeleri ** Apt Paket Yöneticisi ** aracılığıyla düzenli olarak teslim edilir. Bunları güncel tutmak için aşağıdaki komutu düzenli olarak çalıştırmalısınız:
@@ -92,17 +92,19 @@ Web uygulamalarının ve web sitelerinin% 80'inden fazlası açık kaynaklı web
   *** Apache Tomcat Web Sunucusu **
   *** caddy web sunucusu **
 
-## [] [4] Sonuç: {#sonraki adım}
-Tebrikler, Web uygulamanız için ** AWS Üretim Sunucusu ** 'da Yolcu ile Nginx'i başarıyla yüklediniz ve yapılandırdınız. Yolcu Uygulama Sunucusuna tamamen hakim olmak için lütfen [Yolcu Kütüphanesi] [5] 'deki çeşitli kılavuzlara bir göz atın. Özellikle, çok fazla manuel çalışma olmadan gelecekteki uygulama güncellemelerini otomatik olarak nasıl dağıtacağınızı öğreten ** capistrano ** aracılığıyla [otomatik dağıtım] [6] RABY uygulamanızın kılavuzuyla ilgilenebilirsiniz. Artık web uygulamanızı AWS prodüksiyon örneklerine dağıtmaya hazırsınız.
-_ What Free Web Sunucusu ve Açık Kaynak Web Uygulama Sunucusu_ ** Web Geliştirme veya Barındırma ** Needs_?. Ücretsiz web sunucusu ve açık kaynaklı web uygulama sunucusu hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun] [7].
+## [][4] Sonuç: {#sonraki adım}
+Tebrikler, Web uygulamanız için ** AWS Üretim Sunucusu ** 'da Yolcu ile Nginx'i başarıyla yüklediniz ve yapılandırdınız. Yolcu Uygulama Sunucusuna tamamen hakim olmak için lütfen [Yolcu Kütüphanesi][5] 'deki çeşitli kılavuzlara bir göz atın. Özellikle, çok fazla manuel çalışma olmadan gelecekteki uygulama güncellemelerini otomatik olarak nasıl dağıtacağınızı öğreten ** capistrano ** aracılığıyla [otomatik dağıtım][6] RABY uygulamanızın kılavuzuyla ilgilenebilirsiniz. Artık web uygulamanızı AWS prodüksiyon örneklerine dağıtmaya hazırsınız.
+_ What Free Web Sunucusu ve Açık Kaynak Web Uygulama Sunucusu_ ** Web Geliştirme veya Barındırma ** Needs_?. Ücretsiz web sunucusu ve açık kaynaklı web uygulama sunucusu hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][7].
 
 ## Keşfetmek
 Aşağıdaki ilgili blog yayınlarını bulabilirsiniz:
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [8]
-  * [Ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin] [9]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın] [10]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [11]
-  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır] [12]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][8]
+  * [Ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin][9]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][10]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][11]
+  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır][12]
+
+  
 [1]: http://nginx.com/
 [2]: https://www.phusionpassenger.com/
 [3]: https://www.phusionpassenger.com/library/admin/nginx/troubleshooting/

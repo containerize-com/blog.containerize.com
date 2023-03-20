@@ -17,21 +17,21 @@ categories: ['Office Productivity Software']
 ## Genel Bakış
 İş yerinde verimliliği nasıl artıracağınızı mı merak ediyorsunuz? Evet ise, doğru yere indiniz. Dijitalleşme nedeniyle dünya daha kağıtsız gidiyor. Dolayısıyla ofis verimliliği yazılımı talebi de arttı. Microsoft Office bu alan adına çok uzun zamandır hakim. Ancak talep arttıkça ve açık kaynaklı ve ücretsiz ofis yazılımı seçimi de. Günlük olarak gerçekleşen birçok görev vardır ve bu tür tekrarlayan görevleri yerine getirmek için zaman ve maliyet gerektirir. Kuruluşlar ekstra maliyetleri taşımalı ve sonunda genel performansı durdurmalıdır. Buna ek olarak, paydaşların hedefler belirlemelerine, performanslarını izlemelerine ve gelecekteki tahminleri yapmak için çeşitli analizler gerçekleştirmelerine izin verir.
 Ayrıca, yöneticiler ekip arkadaşlarıyla verimli bir şekilde işbirliği yapabilecekleri ortak işyerleri oluşturabilirler. Ayrıca, pandemi zamanında, uzaktan çalışma fırsatı verir. Ancak, bu ücretsiz verimlilik araçları veri depolama özellikleri de ortaya çıkar. Giderek daha fazla insan açık kaynaklı ofis yazılımı arıyor. Bu makalede, en iyi açık kaynaklı ve ücretsiz ofis verimlilik araçlarından bazılarını keşfedeceğiz. Başlayalım
-  * [Apache OpenOffice] [1]
-  * [LibreOffice] [2]
-  * [NeoOffice] [3]
-  * [FreeFice] [4]
-  * [Calligra] [5]
-  * [Sonuç] [6]
+  * [Apache OpenOffice][1]
+  * [LibreOffice][2]
+  * [NeoOffice][3]
+  * [FreeFice][4]
+  * [Calligra][5]
+  * [Sonuç][6]
 
 ## Apache OpenOffice {#openOffice}
 Apache OpenOffice Projesi (AOO), açık standartlara dayalı tam özellikli bir açık kaynak ofis yazılımı sağlar. OpenOffice.org projesinin devamıdır. Bu ücretsiz ofis yazılımı ücretsiz Microsoft Office alternatiflerinden biridir. Aynı zamanda açık kaynaklı dünyadaki en popüler serbest ofis süitlerinden biridir. İster metin belgeleri, elektronik tablolar veya sunumlarla çalışmak isteyin. Microsoft Office'in sağladığı özelliklerin çoğu için bir nakavt. Ve bu% 100 ücretsiz. Ve bu Microsoft Office alternatifi sadece ücretsiz ve açık kaynaklı bir ofis paketi değil, aynı zamanda sadece Windows'ta değil tüm platformlarda (Linux, Mac) çalışır.
-Apache Open Office C ++ programlama dilinde geliştirilmiştir ve geliştirici belgeleri ile birlikte tüm kaynak kodu [GitHub] [7] 'de mevcuttur.
+Apache Open Office C ++ programlama dilinde geliştirilmiştir ve geliştirici belgeleri ile birlikte tüm kaynak kodu [GitHub][7] 'de mevcuttur.
 
 ## libreOffice {#LibreOffice}
 LibreOffice, Copyleft lisanslarına dayanan ve çoğu belge formatı ve standartlarıyla uyumlu entegre bir açık kaynak ve ücretsiz ofis yazılımıdır. Bu, en iyi ücretsiz ofis verimlilik araçları arasındadır.
 Bu açık kaynaklı ofis yazılımı, büyük bir bağımsız işletme, geliştiriciler ve piyasaya en iyi ücretsiz ofis yazılımı getirme amacıyla taşınan diğer gönüllüler topluluğunu temsil eden Belge Vakfı tarafından desteklenmektedir.
-LibreOffice açık kaynaktır ve indirmek, kullanmak ve dağıtmak için ücretsizdir. C ++ programlama dilinde geliştirilmiştir ve kaynak kodunu [GitHub] [8] adresinden inceleyebilirsiniz.
+LibreOffice açık kaynaktır ve indirmek, kullanmak ve dağıtmak için ücretsizdir. C ++ programlama dilinde geliştirilmiştir ve kaynak kodunu [GitHub][8] adresinden inceleyebilirsiniz.
 
 ## NeoOffice {#neoOffice}
 NeoOffice, macOS için% 100 ücretsiz ve açık kaynaklı ve ücretsiz ofis yazılımıdır. Bu harika bir Microsoft Office alternatifi. Microsoft yazılımından geçmeye çalışıyorsanız, ancak bu durumda% 100 ücretsiz olan biraz daha ucuz bir şey varsa, NeoOffice sizin için mükemmel bir seçimdir.
@@ -67,18 +67,20 @@ Calligra'nın en iyi özelliklerinden bazıları
 
 ## Sonuç {#Conclusion}
 Bu bizi bu blog yazısının sonuna getiriyor. Yukarıda listelenen yazılım, mevcut noktadaki en iyi ücretsiz ve açık kaynak ofis yazılımıdır. Ayrıca, bu açık kaynaklı ücretsiz ofis süitleri, işletmenin ofis verimlilik ihtiyaçlarını karşılamasına yardımcı olur. En iyi 5 ofis verimlilik aracından geçtik ve işte verimliliği nasıl artıracağınız konusundaki sorunuzun cevapları bu mu? Umarım, bu blog yazısı, işletmeniz için ücretsiz ofis yazılımı yüklemek istiyorsanız doğru seçimi yapmanıza yardımcı olacaktır. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen daha açık kaynak ofis yazılımı ve ilgili makaleleri bulabilirsiniz.
-Son olarak, [Containerize.com] [9] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Office Verimlilik Yazılımı] [10] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [11], [LinkedIn] [12] ve [Twitter] [13] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][9] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Office Verimlilik Yazılımı][10] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz.
-  * [Apache OpenOffice] [14]
-  * [LibreOffice] [15]
-  * [NeoOffice] [16]
-  * [FreeFice] [17]
-  * [Calligra] [18]
-  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler] [19]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [20]
-  * [NFT nedir? | Fungible belirtilen belirteçler açıklandı] [21]
+  * [Apache OpenOffice][14]
+  * [LibreOffice][15]
+  * [NeoOffice][16]
+  * [FreeFice][17]
+  * [Calligra][18]
+  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler][19]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][20]
+  * [NFT nedir? | Fungible belirtilen belirteçler açıklandı][21]
+
+  
 [1]: #openoffice
 [2]: #libreoffice
 [3]: #neooffice

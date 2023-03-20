@@ -15,13 +15,13 @@ categories: ['Marketing Automation']
 
 Mautic es un software de automatización de marketing y brinda control completo sobre correos electrónicos de marketing, páginas de destino y flujos de trabajo para actividades de marketing. Las campañas de goteo de Mautic ayudan a involucrar al público objetivo y mantenerlos actualizados sobre sus productos. Mautic Facebook Integration proporciona una forma para que se agregarán nuevos clientes potenciales a Mautic. Con esta integración de Mautic - Facebook, los liderazgo de su campaña de Facebook se agregarán automáticamente a Mautic.
 Cubriremos las siguientes secciones en este tutorial:
-  * [Configurar la cuenta de desarrollador de Facebook] [1]
-  * [Configurar la aplicación del desarrollador de Facebook] [2]
-  * [Configuración del complemento mautic] [3]
-  * [Conclusión] [4]
+  * [Configurar la cuenta de desarrollador de Facebook][1]
+  * [Configurar la aplicación del desarrollador de Facebook][2]
+  * [Configuración del complemento mautic][3]
+  * [Conclusión][4]
 
 ## Configurar la cuenta de desarrollador de Facebook {#ACCOUNT}
-  * Vaya a [Facebook para desarrolladores] [5]
+  * Vaya a [Facebook para desarrolladores][5]
   * Registre su cuenta si no tiene una.
   * Para registrar una nueva cuenta, vaya y haga clic en "Comenzar" desde la esquina superior derecha.
   * Después de eso, seleccione su cuenta de Facebook y presione "Continuar".
@@ -77,11 +77,13 @@ Mautic: la integración de Facebook puede ayudar a sincronizar sus clientes pote
 
 ## Explorar
 Para obtener más información sobre Mautic y Facebook, visite:
-  * [Mautic | Plataforma de tecnología de marketing de contenido de código abierto] [6]
-  * [Cómo configurar campañas Mautic usando Campaign Builder] [7]
-  * [Integración de Drupal Mautic para automatizar la crianza de plomo] [8]
-  * [Automatización de marketing con integración de Mautic y WooCommerce] [9]
-  * [Integrar Mautic y Joomla para la automatización de marketing digital] [10]
+  * [Mautic | Plataforma de tecnología de marketing de contenido de código abierto][6]
+  * [Cómo configurar campañas Mautic usando Campaign Builder][7]
+  * [Integración de Drupal Mautic para automatizar la crianza de plomo][8]
+  * [Automatización de marketing con integración de Mautic y WooCommerce][9]
+  * [Integrar Mautic y Joomla para la automatización de marketing digital][10]
+
+  
 [1]: #account
 [2]: #app
 [3]: #configuration

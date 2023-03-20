@@ -108,15 +108,17 @@ sudo certbot renew --dry-run
 
 ## 结论{#conclusion}
 在本文中，我们学会了如何nginx安装letsencrypt SSL证书。我们为您的域下载了SSL证书，并配置了NGINX使用这些证书。此外，您应该启用Certbot自动续订SSL NGINX LETSENCRYPT的证书。在即将到来的教程中，我们将讨论有关如何使用标准安全技术保护Web服务器的更多有趣主题，该技术可以在Web浏览器和Web服务器之间进行加密通信。
-_您可以加入我们的[Twitter] [1]，[LinkedIn] [2]和我们的[Facebook] [3]页面。您使用哪种加密协议在计算机网络上提供通信安全性？如果您有任何疑问，请_ [联系] [4]。
+_您可以加入我们的[Twitter][1]，[LinkedIn][2]和我们的[Facebook][3]页面。您使用哪种加密协议在计算机网络上提供通信安全性？如果您有任何疑问，请_ [联系][4]。
 
 ## 探索
 您可能会找到以下相关链接来监视服务器性能并确保其可靠性和安全性：
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [5]
-  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin] [6]
-  * [在Ubuntu/debian上配置http/2支持nginx] [7]
-  * [在AWS生产服务器上使用乘客的设置Nginx] [8]
-  * [如何在Ubuntu上使用Apache安装和配置OllCloud] [9]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][5]
+  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin][6]
+  * [在Ubuntu/debian上配置http/2支持nginx][7]
+  * [在AWS生产服务器上使用乘客的设置Nginx][8]
+  * [如何在Ubuntu上使用Apache安装和配置OllCloud][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

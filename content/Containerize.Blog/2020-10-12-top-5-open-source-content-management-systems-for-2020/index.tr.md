@@ -15,11 +15,11 @@ categories: ['Content Management']
 
 İçerik yönetim sistemleri, İnternet dünyasındaki en popüler yazılımlar arasındadır. Başka bir deyişle, hemen hemen tüm web siteleri içeriklerini yönetmek için bir tür CMS kullanır. İşletmeler, iş fikrini maksimum insan sayısına sunmak için ilgi çekici ve basit web siteleri oluşturma eğilimindedir. Bu nedenle, işletme web sitesi ihtiyaçlarını karşılamak için profesyonel düzeyde özellikler sağlayan bir dizi açık kaynak içerik yönetim sistemi ** vardır. Buna ek olarak, açık kaynaklı topluluk, dönüşüm oranını artıran ve satışları artıran birçok eklenti ve kurumsal düzeydeki tema geliştirdi. Bu nedenle, en iyi ** web içerik yönetim sistemi ** seçimi sizi belaya sokabilir veya tüm sorunlarınızı çözebilir.
 İçerik yönetim sistemlerinin sadeliği, içerik oluşturmayı bir kelime işlemci belgesini düzenlemek gibi hissettirmiştir. Ancak, doğru platformu seçmek çok önemlidir. Dolayısıyla, doğru açık kaynaklı CMS yazılımını seçmenize yardımcı olmak için ekibimiz en iyi ** açık kaynaklı CMS platformlarının bir listesini oluşturdu **.
-  * [Joomla] [1]
-  * [Drupal] [2]
-  * [Pyro] [3]
-  * [Django] [4]
-  * [Umbarco] [5]
+  * [Joomla][1]
+  * [Drupal][2]
+  * [Pyro][3]
+  * [Django][4]
+  * [Umbarco][5]
 
 ### Joomla {#joomla}
 Joomla, dünyanın en popüler yazılım paketlerinden biridir. Tam özellikli, tamamen özelleştirilebilir bir web sitesi oluşturma ve yönetim aracıdır. Tüm dünyada milyonlarca kişi, işletme ve kuruluş tarafından kullanılır.
@@ -29,7 +29,7 @@ Joomla açık kaynaklı CMS yazılımıdır. Bu nedenle, yüzlerce geliştiricin
   * Esnek
   * Çok dilli
   * SEO
-    [Devamını oku] [6]
+    [Devamını oku][6]
 
 ### ** drupal ** {#drupal}
 Drupal, dinamik, içerik güdümlü web siteleri geliştirmek için 2001 yılında gelen ** Açık Kaynak İçerik Yönetim Sistemleri ** arasında bir başka popüler seçenektir. Açık kaynaklıdır ve% 100 ücretsizdir ve en iyi 3 CMS platformundan biri arasında. Endüstriler genelinde dijital dönüşüme öncülük ediyor.
@@ -39,7 +39,7 @@ Drupal'da, önceden yapılmış şablonlar ve eklentiler, herhangi bir sorun olm
   * Web Sunucusu ve Veritabanı Bağımsız
   * Standartlar uyumlu şablon ve tema
   * Cihaza özgü ekran
-    [Devamını oku] [7]
+    [Devamını oku][7]
 
 ### ** Pyro ** {#pyro}
 Pyro, son zamanlarda popülerlik kazanan harika bir içerik yönetim sistemidir. Laravel CMS ile inşa edilmiştir. Ve bir uzantısı gibi geliyor. Diğer ** açık kaynaklı CMS platformları gibi **, Pyro da kutudan çıkarılan benzersiz ve güçlü özelliklerle birlikte gelir. Ayrıca Laravel ile ideal entegrasyon için sürücü tabanlı dosya yönetimini destekler.
@@ -51,7 +51,7 @@ Pyro'nun çekirdeği akarsu platformudur. Güçlü ve daha hızlı uygulamalar y
   * 8 uzatma
   * 2 eklenti
   * 1 Kickass API
-    [Devamını oku] [8]
+    [Devamını oku][8]
 
 ### ** Django ** {#django}
 Django CMS, Python'da yazılmış güvenli ve bakımlı web sitelerinin hızlı bir şekilde geliştirilmesini sağlayan bir çerçevedir. Açık kaynaklı bir CMS. En önemlisi, binlerce web sitesi Django tarafından desteklenmektedir. Multisite destek, sürüm kontrolü, daha iyi yayıncılık mekanizması gibi birçok özellik ile kullanıcı dostudur ve geliştirme sürecini hızlandıran bir sürükleme ve damla kontrol paneli sağlar.
@@ -61,7 +61,7 @@ Diğer ** açık kaynaklı CMS platformları ** gibi, Django'yu kullanmak web ge
   * Çok dilli
   * Hiyerarşik sayfalar
   * Entegre edilmesi kolay
-    [Devamını oku] [9]
+    [Devamını oku][9]
 
 ## ** Umbraco ** {#umbraco}
 Umbraco, hazır tasarım şablonları sunarak iş için bir web sitesi kurmanın en hızlı yollarını sağlayan web siteleri ** için başka bir açık kaynak CMS'dir. Umbraco ile esnekliği ve harika düzenleme deneyimi ile bilinen ve sevilen bir içerik yönetim sistemi elde edersiniz. Kullanıcıların içerik oluşturmasına, güncellemesine ve yayınlamasına izin vermek için sezgisel bir gösterge tablosu mevcuttur.
@@ -73,24 +73,26 @@ Umbraco CMS, JavaScript, HTML ve TypeScript gibi diğer dillerin girişiyle birl
   * Güvenli
   * Önceden oluşturulmuş şablonlar
   * Microsoft Word Desteği
-    [Devamını oku] [10]
+    [Devamını oku][10]
 
 ## Çözüm
 Bu blog yazısında, web siteleri ** için en iyi ** açık kaynak CMS'yi inceledik **. En iyi ** açık kaynaklı CMS platformları ** arasında bir seçim yapmak çok zordur, ancak sadeliğiniz için, eklentilere ve geniş bir geliştirici destek tabanına ihtiyacınız varsa Drupal, Joomla seçimleriniz olabilir. Ancak, kontrol ile birlikte daha modern bir tasarıma ve hissine ihtiyacınız varsa. Ardından Umbraco, Django ve Pyro'yu seçebilirsiniz. Aslında, işletmeniz için ** Web İçerik Yönetim Sistemi ** dağıtmak istiyorsanız, bu makale gerçekten doğru seçimi yapmanıza yardımcı olacaktır. Ayrıca, aşağıdaki Keşfet bölümünde belirtilen başka birçok açık kaynak içerik yönetim sistemi ** var.
-Ayrıca, [Containerize.com] [11] açık kaynaklı ürünler listesini geliştirmek için sürekli çalışıyor. Bu nedenle, düzenli güncellemeler için lütfen [[içerik yönetimi] [12]] [13] kategorisiyle iletişim halinde olun.
+Ayrıca, [Containerize.com][11] açık kaynaklı ürünler listesini geliştirmek için sürekli çalışıyor. Bu nedenle, düzenli güncellemeler için lütfen [[içerik yönetimi][12]][13] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
-  * [Joomla] [6]
-  * [Drupal] [7]
-  * [Pyro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Beton5] [14]
-  * [Yeni başlayanlar için Joomla Şablon Geliştirme Kılavuzu] [15]
-  * [Gantry Framework ile Joomla teması nasıl oluşturulur] [16]
-  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon] [17]
-  * [2020'nin Top 5 Ücretsiz Duyarlı Joomla Bootstrap Şablonları] [18]
-  * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre] [19]
+  * [Joomla][6]
+  * [Drupal][7]
+  * [Pyro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Beton5][14]
+  * [Yeni başlayanlar için Joomla Şablon Geliştirme Kılavuzu][15]
+  * [Gantry Framework ile Joomla teması nasıl oluşturulur][16]
+  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon][17]
+  * [2020'nin Top 5 Ücretsiz Duyarlı Joomla Bootstrap Şablonları][18]
+  * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre][19]
+
+  
 [1]: #joomla
 [2]: #drupal
 [3]: #pyro

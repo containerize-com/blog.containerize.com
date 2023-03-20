@@ -14,14 +14,14 @@ categories: ['Message Queue Software']
 {{< figure align=center src="images/apache-kafka-open-source.png" alt="Apache Kafka Open Source Tutorial">}}
 
 Kürzlich haben wir einen Artikel über „Kafka vs Redis Pub-Sub“ geschrieben, der die Unterschiede zwischen Kafka und Redis Pub-Sub erklärt. In diesem Artikel haben wir in Kürze über den Kafka Message Broker selbst erklärt. In diesem Artikel gibt es nun mehr Einblick in die Apache Kafka Open Source Distributed Event Streaming -Plattform und gibt Ihnen alle notwendigen Einführungen, um mit der Kafka -Verteilungswarteschlange zu beginnen. Also lasst uns anfangen.
-  * [Einführung in Apache Kafka] [1]
-  * [Was ist ein Messaging -System?] [2]
-  * [Grundlegende Begriffe] [3]
-  * [Installationsschritte] [4]
-  * [Erstellen Sie ein Thema] [5]
-  * [Nachricht in Thema schreiben] [6]
-  * [Nachrichten aus dem Thema lesen] [7]
-  * [Schlussfolgerung] [8]
+  * [Einführung in Apache Kafka][1]
+  * [Was ist ein Messaging -System?][2]
+  * [Grundlegende Begriffe][3]
+  * [Installationsschritte][4]
+  * [Erstellen Sie ein Thema][5]
+  * [Nachricht in Thema schreiben][6]
+  * [Nachrichten aus dem Thema lesen][7]
+  * [Schlussfolgerung][8]
 
 ## Einführung in Apache Kafka {#Intro}
 Apache Kafka Open Source Message Broker wurde bei LinkedIn gestartet und wurde später zu einem Open -Source -Apache -Projekt. Die Kafka Message Broker -Software wird in Scala und Java entwickelt. Apache Kafka Broker ist ein Messaging-System des Publish-Subscribe, mit dem auch Daten zwischen Anwendungen, Servern und Prozessoren ausgetauscht werden können. Es ist schnell, skalierbar und von Design verteilt. Es ist in der Lage, Millionen von Daten oder Nachrichten pro Sekunde zu bearbeiten. Es wirkt als Mediator zwischen dem Quellsystem (Produzenten) und dem Ziel (Verbraucher). Organisationen wie Netflix, Uber und Tausende solcher Unternehmen nutzen Apache Kafka Echtzeit -Streaming. Im Vergleich zu anderen Messaging-Systemen verfügt die Kafka Message Queue Software über einen besseren Durchsatz, eine integrierte Partitionierung, Replikation und inhärente Fehlertoleranz. Dies ist gut geeignet zu großen Nachrichtenverarbeitungsanwendungen.
@@ -129,9 +129,11 @@ _What Open Source Distributed Event Streaming Platform verwenden Sie?. Haben Sie
 
 ## Erkunden
 Sie können die folgenden Links relevant finden:
-  * [Beste Free und Open Source Message Queue (MQ) -Software] [10]
-  * [Kafka vs Redis Pub-Sub, Unterschiede, die Sie wissen sollten] [11]
-  * [Einführung in Redis Pub/Sub und wie funktioniert es?] [12]
+  * [Beste Free und Open Source Message Queue (MQ) -Software][10]
+  * [Kafka vs Redis Pub-Sub, Unterschiede, die Sie wissen sollten][11]
+  * [Einführung in Redis Pub/Sub und wie funktioniert es?][12]
+
+  
 [1]: #intro
 [2]: #messaging
 [3]: #terms

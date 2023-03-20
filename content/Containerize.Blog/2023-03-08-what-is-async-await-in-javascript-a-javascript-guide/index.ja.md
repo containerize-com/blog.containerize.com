@@ -16,11 +16,11 @@ categories: ['Programming']
 
 
 ## 概要
-以前のブログ投稿で[JavaScript Promises] [1]を取り上げました。JavaScriptの約束の背後にある概念を明確に理解したい場合は、訪問する必要があります。このシリーズの[JavaScriptチュートリアル] [2]では、JavaScript Async/待ち望の最新の特徴を示す別のJavaScriptガイドと一緒にいます。このブログ投稿は、JavaScriptの約束の事前知識を持っている人向けです。さらに、JavaScript**でasync/async/async/async/async/async/awaitを使用する必要がある場合をカバーしようとします。さらに、Async/awaitを使用したハンドリングエラーもカバーします。したがって、この概念を確認するには、この**javaScript async/awaitチュートリアル**を徹底的に読んでください。
+以前のブログ投稿で[JavaScript Promises][1]を取り上げました。JavaScriptの約束の背後にある概念を明確に理解したい場合は、訪問する必要があります。このシリーズの[JavaScriptチュートリアル][2]では、JavaScript Async/待ち望の最新の特徴を示す別のJavaScriptガイドと一緒にいます。このブログ投稿は、JavaScriptの約束の事前知識を持っている人向けです。さらに、JavaScript**でasync/async/async/async/async/async/awaitを使用する必要がある場合をカバーしようとします。さらに、Async/awaitを使用したハンドリングエラーもカバーします。したがって、この概念を確認するには、この**javaScript async/awaitチュートリアル**を徹底的に読んでください。
 このJavaScript Asyncを待っているチュートリアルの次のセクションを説明します。
-***[JavaScriptでAsync/待ち望んでいるものAsyncは構文を待っています] [3]**
-***[いつasync/awaitを使用するのか？] [4]**
-***[async/awaitでのエラー処理] [5]**
+***[JavaScriptでAsync/待ち望んでいるものAsyncは構文を待っています][3]**
+***[いつasync/awaitを使用するのか？][4]**
+***[async/awaitでのエラー処理][5]**
 
 ## JavaScriptでAsync/async/awaintとは何ですか| async await syntax {#what-is-asyncawait-in-javascript-async-await-syntax}
 ECMAScript 2017は、JavaScriptの新機能をリリースし、Async/Awaitはこれらの機能の中で最も広く使用されているものの1つです。 Async/awaitは約束の上に構築されており、実際にはJavaScriptの約束を処理するための最新の方法です。
@@ -51,7 +51,7 @@ getValues().then(function(){
 
 {{< figure align=center src="images/async-await.png" alt="async asyncを待ってみてくださいjavascript">}}
 
-* * async asyncを待ってみてくださいjavascript**：このエラー処理アプローチでは新しいものはありません。ただし、以下のコードスニペットに示すように、非同期関数内でトライ/キャッチブロックを使用できます。
+**async asyncを待ってみてくださいjavascript**：このエラー処理アプローチでは新しいものはありません。ただし、以下のコードスニペットに示すように、非同期関数内でトライ/キャッチブロックを使用できます。
 ```
 async function getValues() {
   try{
@@ -91,29 +91,31 @@ getValues().catch(err){
 これを終了しています**JavaScript async async awaintチュートリアル**。 JavaScript**でAsyncが待っていることをよりよく理解できることを願っています**。さらに、Source Codeの複雑さを軽減するJavaScript Asyncを待っています。このJavaScript機能は、その豊富な使用とパフォーマンスのために広く使用されています。今後数日では、JavaScriptの機能と概念についてさらに書き込み、JSの概念よりも強力なコマンドを獲得できるようにします。さらに、「参照」セクションで言及されている他の興味深い記事がいくつかあります。
 
 ## 私達と接続
-最後に、[containerize.com] [6]は、さまざまなエキサイティングなトピックに関する継続的なJavaScriptチュートリアルを提供しています。 [Facebook] [7]、[LinkedIn] [8]、[Twitter] [9]など、ソーシャルメディアプラットフォームでフォローすることで最新情報を入手できます。
+最後に、[containerize.com][6]は、さまざまなエキサイティングなトピックに関する継続的なJavaScriptチュートリアルを提供しています。 [Facebook][7]、[LinkedIn][8]、[Twitter][9]など、ソーシャルメディアプラットフォームでフォローすることで最新情報を入手できます。
 
 ## 質問する
-[フォーラム] [10]での質問や質問についてお知らせください。
+[フォーラム][10]での質問や質問についてお知らせください。
 
 ## FAQ
-* * JavaScriptでasyncが待っているのは例ですか？**
-この[リンク] [3]にアクセスして、Async待ちの概念を理解できます。
-* * Asyncは何を待っているのか約束しますか？**
+**JavaScriptでasyncが待っているのは例ですか？**
+この[リンク][3]にアクセスして、Async待ちの概念を理解できます。
+**Asyncは何を待っているのか約束しますか？**
  * ASYNC/待ち望は、約束がソースコードを混乱させることができる約束と比較して、ソースコードをより明確で読みやすくします。
 * エラー処理は両方のアプローチでかなり似ています。
  * Async待ち行為では、デバッグはそれほど難しくありません。
 * 約束は、保留中、解決、または拒否などの州を維持します。一方、非同期/待ち声は解決または拒否されます。
 
 ## 参照
-  * [JavaScriptの約束とは何ですか？ | JavaScriptチュートリアル] [1]
-  * [サーバーレスコンピューティングとは何ですか？ |サーバーレスアーキテクチャ] [11]
-  * [マルチテナンシーとは何ですか？ |なぜマルチテナントアプローチ？] [12]
-  * [生成AI |とは何ですか生成人工知能] [13]
-  * [ChatGptをGoogleシートと統合する方法] [14]
-  * [vscodeでchatgptの使用方法| VSCODE拡張コードGPT] [15]
-  * [Openai Chatbot gpt-3 | ai革命をchatgpt] [16]
-  * [人工知能の紹介| AIとは？] [17]
+  * [JavaScriptの約束とは何ですか？ | JavaScriptチュートリアル][1]
+  * [サーバーレスコンピューティングとは何ですか？ |サーバーレスアーキテクチャ][11]
+  * [マルチテナンシーとは何ですか？ |なぜマルチテナントアプローチ？][12]
+  * [生成AI |とは何ですか生成人工知能][13]
+  * [ChatGptをGoogleシートと統合する方法][14]
+  * [vscodeでchatgptの使用方法| VSCODE拡張コードGPT][15]
+  * [Openai Chatbot gpt-3 | ai革命をchatgpt][16]
+  * [人工知能の紹介| AIとは？][17]
+
+  
 [1]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-AsyncAwait-in-JavaScript-Async-Await-Syntax

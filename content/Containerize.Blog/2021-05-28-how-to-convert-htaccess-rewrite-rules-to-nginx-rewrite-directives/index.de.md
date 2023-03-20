@@ -13,11 +13,11 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Konvertieren Sie .htaccess -Regeln in Nginx -Richtlinien um">}}
 
-In unserem letzten Tutorial haben wir gelernt [wie man mehrere PHP -Versionen mit Nginx auf Ubuntu installiert] [1]. Apache ist einer der beliebtesten Webserver, aber in letzter Zeit hat sich Nginx als Konkurrent von Apache etabliert. Nginx unterstützt jedoch keine HTAccess -Umschreiben von Regeln. In diesem Artikel werden wir also lernen, wie man HTaccess -Regeln in Nginx -Umschreiben von Richtlinien umwandelt. Lass uns anfangen!
-  *** [Nginx Regeln umschreiben] [2] **
+In unserem letzten Tutorial haben wir gelernt [wie man mehrere PHP -Versionen mit Nginx auf Ubuntu installiert][1]. Apache ist einer der beliebtesten Webserver, aber in letzter Zeit hat sich Nginx als Konkurrent von Apache etabliert. Nginx unterstützt jedoch keine HTAccess -Umschreiben von Regeln. In diesem Artikel werden wir also lernen, wie man HTaccess -Regeln in Nginx -Umschreiben von Richtlinien umwandelt. Lass uns anfangen!
+  *** [Nginx Regeln umschreiben][2] **
   *[**.
-  *[** konvertieren .htaccess -Regeln in Nginx -Schreibanweisungen **] [4]
-  *[** Fazit **] [5]
+  *[** konvertieren .htaccess -Regeln in Nginx -Schreibanweisungen **][4]
+  *[** Fazit **][5]
 
 ## nginx schreibe Regeln {#nginx} neu
 Schreiben Sie Regeln um, ändern Sie einen Teil oder die gesamte URL in einer Kundenanfrage, um Kunden normalerweise darüber zu informieren, dass die Ressource, die sie jetzt verlangt, an einem anderen Ort liegt, oder um den Verarbeitungsfluss innerhalb von NGINX zu steuern. Zum Beispiel, um Anforderungen an einen Anwendungsserver weiterzuleiten, wenn der Inhalt dynamisch generiert werden muss. Die Anweisung try_files wird häufig für diesen Zweck verwendet.
@@ -82,7 +82,7 @@ server {
 }
 ```
 Um die WordPress Htaccess -Regeln in die Nginx Try_files -Anweisung umzuwandeln.
-[WordPress.org verteilt] [6] Ein grundlegender Standard **. Htaccess ** Datei mit Folgendes. Htaccess -Regeln umschreiben Sie die REMALINKS:
+[WordPress.org verteilt][6] Ein grundlegender Standard **. Htaccess ** Datei mit Folgendes. Htaccess -Regeln umschreiben Sie die REMALINKS:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 In diesem Tutorial haben wir Apache's .htaccess -Umschreiben von Regeln und darüber untersucht, wie wir diese .htaccess -Regeln in Nginx -Umschreibungsrichtlinien umwandeln können. Wir haben verschiedene NGINX -Direktiven weiter untersucht, mit denen URLs neu geschrieben werden können. Wir haben auch Beispiele für Nginx und Apache neu geschrieben. Ich hoffe, das Tutorial ist hilfreich für Sie.
 
 ## Erkunden
-  * [So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu] [1]
-  * [So richten und konfigurieren Sie Nginx als Reverse -Proxy] [7]
+  * [So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu][1]
+  * [So richten und konfigurieren Sie Nginx als Reverse -Proxy][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

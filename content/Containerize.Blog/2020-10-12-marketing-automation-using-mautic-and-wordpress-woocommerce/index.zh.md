@@ -18,11 +18,11 @@ categories: ['Blogging', 'Marketing Automation']
 Mautic-WooCommerce集成提供了一种简单的方法，可以在Mautic应用中获取所有联系人。然后使用这些联系人，您可以根据自己的要求创建营销活动。 Mautic是一种很棒的营销工具，可为您提供全面控制营销活动。
 Mautic是一种开源和免费的营销自动化解决方案。它用于创建营销活动，细分市场，表格，报告等。
 WooCommerce是WordPress的开源电子商务插件。目前，它是世界各地最多使用的电子商务解决方案。有数百种可用于WooCommerce的附加组件可根据您的需求使用。
-有一个可用于Mautic和WordPress的插件，可提供营销自动化解决方案。请按照以下步骤使用插件将WooCommerce与Mautic集成[与Mautic for WooCommerce  - 开源营销自动化。] [1]
+有一个可用于Mautic和WordPress的插件，可提供营销自动化解决方案。请按照以下步骤使用插件将WooCommerce与Mautic集成[与Mautic for WooCommerce  - 开源营销自动化。][1]
 该博客将介绍以下各节：
-  * [WordPress插件配置] [2]
-  * [Mautic配置] [3]
-  * [最终想法] [4]
+  * [WordPress插件配置][2]
+  * [Mautic配置][3]
+  * [最终想法][4]
 
 ## WordPress插件配置{#WordPress}
   1.转到插件。
@@ -45,7 +45,7 @@ WooCommerce是WordPress的开源电子商务插件。目前，它是世界各地
   2.转到配置。
   3.从API设置启用API。
   4.转到API凭据。
-  5.单击“ new”，输入您喜欢的任何名称以及WordPress网站的完整URL，即[http://yourwordpresssite.com/wp-admin/admin/admin.php] [5]
+  5.单击“ new”，输入您喜欢的任何名称以及WordPress网站的完整URL，即[http://yourwordpresssite.com/wp-admin/admin/admin.php][5]
   6.点击保存并关闭。
   7.它将创建公共和私钥。
   8.转到您的WordPress网站，找到您之前安装的Mautic插件。
@@ -65,12 +65,14 @@ Mautic-WooCommerce集成可以帮助您实现营销目标。这种集成是电�
 
 ## 探索：
 您可能会发现以下链接相关：
-  * [wodpress] [6]
-  * [Mautic] [7]
-  * [如何设置Mautic  -  Facebook集成] [8]
-  * [Drupal Mautic整合以自动化铅培养] [9]
-  * [使用Mautic和WordPress WooCommerce的营销自动化] [10]
-  * [如何在Mautic中设置营销活动] [11]
+  * [wodpress][6]
+  * [Mautic][7]
+  * [如何设置Mautic  -  Facebook集成][8]
+  * [Drupal Mautic整合以自动化铅培养][9]
+  * [使用Mautic和WordPress WooCommerce的营销自动化][10]
+  * [如何在Mautic中设置营销活动][11]
+
+  
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

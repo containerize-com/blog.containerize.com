@@ -15,20 +15,20 @@ categories: ['Blogging']
 
 
 ## Visão geral
-No passado, publicamos muitos artigos sobre tópicos, como [aumentar seus leads com integração do WordPress gratuita do Civicrm] [1], [como integrar o fórum do discurso com o WordPress] [2] e muito mais. O Ghost é uma plataforma emergente de blog de código aberto. É um CMS Node.js para publicação de conteúdo e vem com uma interface simples e limpa que facilita o uso. É uma plataforma maravilhosa para iniciantes, pois se concentra no Markdown, em vez da edição do Wysiwyg. O poder e a velocidade do node.js tornam o fantasma muito rápido. Devido à simplicidade da plataforma, muitos usuários estão mudando de outras plataformas. Como o WordPress é a plataforma número um para gerenciamento de conteúdo.
+No passado, publicamos muitos artigos sobre tópicos, como [aumentar seus leads com integração do WordPress gratuita do Civicrm][1], [como integrar o fórum do discurso com o WordPress][2] e muito mais. O Ghost é uma plataforma emergente de blog de código aberto. É um CMS Node.js para publicação de conteúdo e vem com uma interface simples e limpa que facilita o uso. É uma plataforma maravilhosa para iniciantes, pois se concentra no Markdown, em vez da edição do Wysiwyg. O poder e a velocidade do node.js tornam o fantasma muito rápido. Devido à simplicidade da plataforma, muitos usuários estão mudando de outras plataformas. Como o WordPress é a plataforma número um para gerenciamento de conteúdo.
 Portanto, mais usuários ** migram do WordPress para o fantasma **. Há muito conteúdo que inclui arquivos de mídia, comentários, postagens e etc. Existem plugins disponíveis que ajudam a migrar o conteúdo do WordPress para o fantasma. O principal benefício de adotar o fantasma é que ele se concentra na otimização de mecanismos de pesquisa. Neste tutorial do WordPress Ghost, passaremos por todas as etapas de migração usando o plug -in oficial de exportação do WordPress.
-  *** [Uma introdução Briedf do WordPress] [3] **
-  *** [O que é fantasma?] [4] **
-  *** [Requisitos] [5] **
-  *** [Exportar conteúdo do wrodpress usando plug -in] [6] **
-  *** [Importar conteúdo para o fantasma] [7] **
-  *** [Conclusão] [8] **
+  *** [Uma introdução Briedf do WordPress][3] **
+  *** [O que é fantasma?][4] **
+  *** [Requisitos][5] **
+  *** [Exportar conteúdo do wrodpress usando plug -in][6] **
+  *** [Importar conteúdo para o fantasma][7] **
+  *** [Conclusão][8] **
 
 ## ** Uma introdução briedf de wordpress ** {#wp}
-[WordPress] [9] é uma plataforma líder de blog de código aberto que alimentou um grande número de sites. Este software de blog gratuito é auto-hospedado, multilíngue e fornece suporte para muitos idiomas. Além disso, a comunidade de desenvolvimento do WordPress é altamente vibrante e desenvolveu um pool gigantesco de plugins úteis que estão disponíveis facilmente. Esses plugins abordam quase todos os casos de uso do seu site de negócios. Além disso, está escrito no PHP e vem com documentação abrangente sobre desenvolvimento e implantação. Todo o código -fonte está disponível no GitHub. Além disso, esta plataforma de blogs é altamente extensível, configurável e fornece integrações com aplicativos de terceiros. Há um painel muito lógico e fácil de entender, onde os usuários podem arrastar e soltar elementos para modificar a aparência de seus sites.
+[WordPress][9] é uma plataforma líder de blog de código aberto que alimentou um grande número de sites. Este software de blog gratuito é auto-hospedado, multilíngue e fornece suporte para muitos idiomas. Além disso, a comunidade de desenvolvimento do WordPress é altamente vibrante e desenvolveu um pool gigantesco de plugins úteis que estão disponíveis facilmente. Esses plugins abordam quase todos os casos de uso do seu site de negócios. Além disso, está escrito no PHP e vem com documentação abrangente sobre desenvolvimento e implantação. Todo o código -fonte está disponível no GitHub. Além disso, esta plataforma de blogs é altamente extensível, configurável e fornece integrações com aplicativos de terceiros. Há um painel muito lógico e fácil de entender, onde os usuários podem arrastar e soltar elementos para modificar a aparência de seus sites.
 
 ## ** O que é fantasma? ** {#ghost}
-[Ghost] [10] é outra plataforma popular de blog de código aberto. Esta é uma das plataformas de publicação de conteúdo mais usadas que são altamente adotadas por desenvolvedores e proprietários de sites. Além disso, o Ghost é muito amigável para SEO e vem com temas, formas, boletins de e-mail e assinaturas embutidas. Este software de blog gratuito está escrito no JavaScript e toda a documentação está disponível em relação ao desenvolvimento e implantação.
+[Ghost][10] é outra plataforma popular de blog de código aberto. Esta é uma das plataformas de publicação de conteúdo mais usadas que são altamente adotadas por desenvolvedores e proprietários de sites. Além disso, o Ghost é muito amigável para SEO e vem com temas, formas, boletins de e-mail e assinaturas embutidas. Este software de blog gratuito está escrito no JavaScript e toda a documentação está disponível em relação ao desenvolvimento e implantação.
 
 ## Requisitos {#ReQuirements}
 Na seção do tutorial do WordPress Ghost, veremos os requisitos necessários para migrar do WordPress para o fantasma. Com o plug -in oficial de exportação do WordPress, você pode migrar facilmente seu conteúdo do WordPress para o Ghost. Neste tutorial, o guiaremos sobre como exportar seu conteúdo do WordPress para um site fantasma. Portanto, você deve ter uma instalação funcional do WordPress e WordPress ** Exportar Plugin ** instalado.
@@ -66,21 +66,23 @@ Neste momento, o Ghost não possui nenhum sistema de comentários incorporado. A
 
 ## Conclusão {#conclusion}
 Isso nos leva ao final deste post do blog. Neste tutorial do WordPress Ghost, aprendemos a preparar seu conteúdo do WordPress pronto para a migração para o fantasma. Utilizamos o plug -in oficial de migração de fantasmas da Fundação Ghost para realizar migrações. Além disso, esta postagem do blog certamente o ajudará se você deseja migrar do WordPress para o Ghost, pois cobrimos todas as etapas necessárias. Além disso, existem muitas plataformas de publicação de conteúdo de código aberto e artigos tutoriais mencionados na seção "Explorar" abaixo. No entanto, essas duas plataformas de blog de código aberto são o principal software líder que oferece recursos de nível corporativo para atender às necessidades de seus sites de negócios.
-Finalmente, [contendeRize.com] [11] está escrevendo novas postagens no software de código aberto. Portanto, mantenha -se conectado com [esta] [12] plataforma para atualizações regulares.
+Finalmente, [contendeRize.com][11] está escrevendo novas postagens no software de código aberto. Portanto, mantenha -se conectado com [esta][12] plataforma para atualizações regulares.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [WordPress] [9]
-  * [Jekyll] [13]
-  * [Discurso] [14]
-  * [Fantasma] [10]
-  * [Como dockerize WordPress com Docker Compose] [15]
-  * [Como ativar a compactação GZIP no WordPress para melhor PagSpeed ​​e SEO] [16]
-  * [Aumente seus leads com a integração do WordPress de Civicrm gratuita] [1]
-  * [Automatize o sistema de ticketing usando o WordPress e Osticket] [17]
-  * [Como integrar o fórum do discurso com o WordPress] [2]
-  * [Aumente o tráfego de pesquisa de sites seguindo os 7 melhores blogs de SEO] [18]
-  * [Como construir seu site com WordPress e Gatsby] [19]
+  * [WordPress][9]
+  * [Jekyll][13]
+  * [Discurso][14]
+  * [Fantasma][10]
+  * [Como dockerize WordPress com Docker Compose][15]
+  * [Como ativar a compactação GZIP no WordPress para melhor PagSpeed ​​e SEO][16]
+  * [Aumente seus leads com a integração do WordPress de Civicrm gratuita][1]
+  * [Automatize o sistema de ticketing usando o WordPress e Osticket][17]
+  * [Como integrar o fórum do discurso com o WordPress][2]
+  * [Aumente o tráfego de pesquisa de sites seguindo os 7 melhores blogs de SEO][18]
+  * [Como construir seu site com WordPress e Gatsby][19]
+
+  
 [1]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
 [2]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
 [3]: #wp

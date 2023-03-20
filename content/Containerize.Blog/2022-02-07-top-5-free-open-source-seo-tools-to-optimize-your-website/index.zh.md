@@ -71,16 +71,18 @@ Yoastseo可帮助用户查看他们的页面在Google搜索引擎上的外观，
 
 ## **最终思考：** {#4a1a}
 上述五个开源SEO平台是灵活的解决方案。在云计算中，您会发现许多开源的私有云存储解决方案，但是找到最可靠的一种是最重要的。是您或您的组织的需求决定了云软件的选择。我希望本文能够帮助您设置安全可靠的个人云服务器，或选择最佳的云服务来存储您的宝贵图像，音乐，电影和文档。
-_您的最爱是什么？如果您有任何疑问，请_ [联系] [1]。
+_您的最爱是什么？如果您有任何疑问，请_ [联系][1]。
 
 ## 探索：
 我们还有其他几篇有关您云日常管理的文章。
-  * [最佳开源云存储和文件共享软件] [2]
-  * [如何在Ubuntu Server上使用Apache安装NextCloud] [3]
-  * [在Ubuntu上使用Apache安装和配置OwnCloud] [4]
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [5]
-  * [安全和加密nginx与让我们在Ubuntu上加密20.04] [6]
-  * [在Ubuntu/debian上配置http/2支持nginx] [7]
+  * [最佳开源云存储和文件共享软件][2]
+  * [如何在Ubuntu Server上使用Apache安装NextCloud][3]
+  * [在Ubuntu上使用Apache安装和配置OwnCloud][4]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][5]
+  * [安全和加密nginx与让我们在Ubuntu上加密20.04][6]
+  * [在Ubuntu/debian上配置http/2支持nginx][7]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/

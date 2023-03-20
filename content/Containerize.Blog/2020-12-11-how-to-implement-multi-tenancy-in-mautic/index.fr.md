@@ -14,16 +14,16 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/Mautic-multitenancy.png" alt="Comment implémenter la multi-location en mautic">}}
 
 Mautic est une solution d'automatisation marketing gratuite et open source qui vous donne un contrôle complet sur vos e-mails marketing, pages de destination, flux de travail et mesures pour vos activités de marketing. Nous couvrirons les sections suivantes dans ce tutoriel:
-  * [Qu'est-ce que la multi-tenue] [1]
-  * [Qu'est-ce que Mautic] [2]
-  * [Implémentez la multi-tension dans Mautic] [3]
-  * [Conclusion] [4]
+  * [Qu'est-ce que la multi-tenue][1]
+  * [Qu'est-ce que Mautic][2]
+  * [Implémentez la multi-tension dans Mautic][3]
+  * [Conclusion][4]
 
 ## Qu'est-ce que la multi-tenue {# multi-tenue}
 Dans l'architecture logicielle multi-locataires, une seule instance d'une application logicielle sert plusieurs locataires. Chaque données de locataire est isolée des autres locataires partageant la même instance d'application. Ces locataires sont logiquement isolés, mais physiquement intégrés. Cela garantit la sécurité des données et la confidentialité pour tous les locataires. La création de plusieurs locataires à partir d'une seule instance d'application nécessite beaucoup moins de mémoire. Les locataires partagent des ressources et diminuent les coûts de maintenance des logiciels, d'infrastructures et de opérations de centre de données. Les coûts ont tendance à être inférieurs à ceux d'une infrastructure unique.
 
 ## Qu'est-ce que Mautic {#moutic}
-[Mautic] [5] est un logiciel de marketing gratuit et open source. Automatiser les tâches de marketing répétitives telles que les campagnes de marketing, la génération de leads, la segmentation des contacts, etc. en utilisant Mautic. Il a des fonctionnalités surprenantes, notamment la génération de leads, la construction de campagnes, la segmentation des contacts, le constructeur de courriels, les tests A / B, le constructeur de pages, le nurturing en plomb et plus encore. Mautic prend également en charge l'intégration avec toutes les plateformes sociales populaires, par exemple Facebook, Twitter, LinkedIn. Toutes ces fonctionnalités incroyables vous aident à stimuler l'expérience client globale et à améliorer l'automatisation du marketing pour votre entreprise.
+[Mautic][5] est un logiciel de marketing gratuit et open source. Automatiser les tâches de marketing répétitives telles que les campagnes de marketing, la génération de leads, la segmentation des contacts, etc. en utilisant Mautic. Il a des fonctionnalités surprenantes, notamment la génération de leads, la construction de campagnes, la segmentation des contacts, le constructeur de courriels, les tests A / B, le constructeur de pages, le nurturing en plomb et plus encore. Mautic prend également en charge l'intégration avec toutes les plateformes sociales populaires, par exemple Facebook, Twitter, LinkedIn. Toutes ces fonctionnalités incroyables vous aident à stimuler l'expérience client globale et à améliorer l'automatisation du marketing pour votre entreprise.
 
 ## Implémentez la multi-tension dans Mautic {#Implement}
   * Créez une nouvelle base de données vide nommée «main_db».
@@ -53,11 +53,13 @@ Mautic est une solution d'automatisation marketing gratuite, riche et axée sur 
 
 ## Explorer
 Pour en savoir plus sur Mautic et Facebook, veuillez visiter:
-  * [Mautic | Plateforme de technologie de marketing de contenu open source] [5]
-  * [Comment configurer des campagnes Mautic à l'aide de Campaign Builder] [6]
-  * [Drupal Mautic Integration pour automatiser le nourrisson de plomb] [7]
-  * [Automatisation du marketing avec l'intégration Mautic et WooCommerce] [8]
-  * [Intégrer Mautic & Joomla pour l'automatisation du marketing numérique] [9]
+  * [Mautic | Plateforme de technologie de marketing de contenu open source][5]
+  * [Comment configurer des campagnes Mautic à l'aide de Campaign Builder][6]
+  * [Drupal Mautic Integration pour automatiser le nourrisson de plomb][7]
+  * [Automatisation du marketing avec l'intégration Mautic et WooCommerce][8]
+  * [Intégrer Mautic & Joomla pour l'automatisation du marketing numérique][9]
+
+  
 [1]: #multi-tenancy
 [2]: #mautic
 [3]: #implement

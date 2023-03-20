@@ -14,14 +14,14 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/ci-cd-post.png" alt="Sürekli entegrasyon ve sürekli dağıtım">}}
 
 Geliştirme ekipleri, FTP gibi yazılım dağıtım için farklı yöntemler kullanır, depodan kod çekme ve daha fazlası kullanır. Tüm bu yöntemler manuel olarak gerçekleştirilir ve çok çaba gerektirir. Daha fazla ekibin yazılım geliştirme için çevik metodolojiyi takip ettiğini görebiliriz. Böylece, sık sık yeni özellikler ve hata düzeltmesi yayınlarlar. Bu nedenle, yazılım dağıtım iş akışlarını otomatikleştirmek, ekiplerin yeni sürümleri hızlı ve hatasız başlatmalarına yardımcı olur. Yazılım dağıtım işlemini otomatikleştirmek için Jenkins ** ve GitHub ile ** CI/CD'nin nasıl kullanılacağını öğreneceğiz. Bu makalede aşağıdaki bölümleri ele alacağız.
-  *[** Jenkins nedir? **] [1]
-  *[** Sürekli Entegrasyon **] [2]
-  *[** Sürekli Dağıtım **] [3]
-  *[** Jenkins'i yapılandırın **] [4]
-  *[** Jenkins işini yarat **] [5]
+  *[** Jenkins nedir? **][1]
+  *[** Sürekli Entegrasyon **][2]
+  *[** Sürekli Dağıtım **][3]
+  *[** Jenkins'i yapılandırın **][4]
+  *[** Jenkins işini yarat **][5]
 
 ## Jenkins nedir? {#Jenkins}
-** Jenkins ** Yazılım dağıtım sürecini otomatikleştirmek için güçlü bir ** ücretsiz dağıtım aracı **. Oluşturma, test ve dağıtım için açık kaynaklı bir otomasyon sunucusudur. Jenkins usta-köle mimarisi kullanıyor. Bu, yazılım ekiplerinin yazılım için aynı anda birden fazla yapı ve test çalıştırmasını sağlar. Buna ek olarak, çok sayıda eklenti var ve ekipler bunları gerektiği gibi kullanabilir. Daha fazla bilgi ve kurulum için [** Jenkins sayfasını **] [6] ziyaret edebilirsiniz. Ayrıca, kaynak kodunu Jenkins [** Github **] [7] deposunda bulabilirsiniz.
+** Jenkins ** Yazılım dağıtım sürecini otomatikleştirmek için güçlü bir ** ücretsiz dağıtım aracı **. Oluşturma, test ve dağıtım için açık kaynaklı bir otomasyon sunucusudur. Jenkins usta-köle mimarisi kullanıyor. Bu, yazılım ekiplerinin yazılım için aynı anda birden fazla yapı ve test çalıştırmasını sağlar. Buna ek olarak, çok sayıda eklenti var ve ekipler bunları gerektiği gibi kullanabilir. Daha fazla bilgi ve kurulum için [** Jenkins sayfasını **][6] ziyaret edebilirsiniz. Ayrıca, kaynak kodunu Jenkins [** Github **][7] deposunda bulabilirsiniz.
 
 ## Sürekli Entegrasyon {#ci}
 ** Sürekli Entegrasyon **, geliştiricilerin kodu sık sık paylaşılan bir depoya entegre etmesini gerektiren bir geliştirme uygulamasıdır. Kodun depoya her entegrasyonu/itme otomatik yapı ve testlerle doğrulanabilir. Ayrıca, geliştiricilerin koddaki sorunları kolayca tanımlamasına olanak tanır.
@@ -69,20 +69,22 @@ Bu adımları Jenkins işi oluşturmak için kullanabilirsiniz.
 
 ## Çözüm
 Bu makalede ** Jenkins sunucusu **, ** sürekli entegrasyon ** ve ** sürekli dağıtım ** tartıştık. Ayrıca ** ücretsiz dağıtım aracının ** nasıl yapılandırılacağını öğrendik ve GitHub'ı kullanarak dağıtım için bir Jenkins işi oluşturduk. Ücretsiz CI/CD aracı, geliştirme ekibinin yazılım dağıtım iş akışlarını otomatikleştirmesini ve önemli işlere odaklanmasını sağlar. Önümüzdeki yayınlarda diğer dağıtım araçlarını ele alacağız.
-Son olarak, [** Containerize.com **] [8] diğer açık kaynak dağıtım araçları hakkında makaleler yayınlayacaktır. Bu nedenle, düzenli güncellemeler için lütfen [** dağıtım araçları **] [9] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][8] diğer açık kaynak dağıtım araçları hakkında makaleler yayınlayacaktır. Bu nedenle, düzenli güncellemeler için lütfen [** dağıtım araçları **][9] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *** [Jenkins] [6] **
-  *[** drone **] [10]
-  *[** Dağıtıcı **] [11]
-  *[** Capistrano **] [12]
-  *[** Rancher **] [13]
-  *[** Concourse **] [14]
-  *[** Ansible **] [15]
-  *[** GOCD **] [16]
-  *[** 2021'de Top 5 Açık Kaynak Dağıtım Aracı **] [17]
-  *[** Dağıtıcı ile PHP Uygulama Dağıtımını Otomatikleştirin **] [18]
+  *** [Jenkins][6] **
+  *[** drone **][10]
+  *[** Dağıtıcı **][11]
+  *[** Capistrano **][12]
+  *[** Rancher **][13]
+  *[** Concourse **][14]
+  *[** Ansible **][15]
+  *[** GOCD **][16]
+  *[** 2021'de Top 5 Açık Kaynak Dağıtım Aracı **][17]
+  *[** Dağıtıcı ile PHP Uygulama Dağıtımını Otomatikleştirin **][18]
+
+  
 [1]: #Jenkins
 [2]: #CI
 [3]: #CD

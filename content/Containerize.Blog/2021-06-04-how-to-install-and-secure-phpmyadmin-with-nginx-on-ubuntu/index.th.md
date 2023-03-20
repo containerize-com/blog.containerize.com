@@ -76,7 +76,7 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 sudo mysql -u root -p
 ```
-หลังจากเข้าสู่ระบบ MySQL ให้เพิ่ม MySQL Superuser ใหม่ด้วยชื่อผู้ใช้ที่คุณเลือก ในตัวอย่างนี้เราเรียกมันว่ายาซีราดมิน [คลิกที่นี่เพื่อสร้างรหัสผ่านที่แข็งแกร่ง] [2] และแทนที่ \ _Password ใหม่ \ _ ที่นี่ด้านล่างด้วย
+หลังจากเข้าสู่ระบบ MySQL ให้เพิ่ม MySQL Superuser ใหม่ด้วยชื่อผู้ใช้ที่คุณเลือก ในตัวอย่างนี้เราเรียกมันว่ายาซีราดมิน [คลิกที่นี่เพื่อสร้างรหัสผ่านที่แข็งแกร่ง][2] และแทนที่ \ _Password ใหม่ \ _ ที่นี่ด้านล่างด้วย
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'yasiradmin'@'localhost';
 ```
 sudo apt install apache2-utils
 ```
-เมื่อติดตั้งแล้วเราสามารถสร้างไฟล์. htpasswd เปลี่ยนชื่อผู้ใช้ที่คุณเลือก [สร้างรหัสผ่าน] [3] และทำให้ปลอดภัย
+เมื่อติดตั้งแล้วเราสามารถสร้างไฟล์. htpasswd เปลี่ยนชื่อผู้ใช้ที่คุณเลือก [สร้างรหัสผ่าน][3] และทำให้ปลอดภัย
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ sudo service nginx reload
 
 ## สำรวจ
 คุณอาจชอบบทความที่เกี่ยวข้องเพิ่มเติมด้านล่าง:
-  * [วิธีกำหนดค่า Apache เป็นพร็อกซีย้อนกลับสำหรับ Ubuntu/Debian] [4]
-  * [วิธีการรักษาความปลอดภัยและเข้ารหัส nginx ด้วยการเข้ารหัสของ Let's en ubuntu 20.04] [5]
-  * [วิธีกำหนดค่าการสนับสนุน HTTP/2 ใน Nginx บน Ubuntu/Debian] [6]
-  * [วิธีการตั้งค่า nginx กับผู้โดยสารบนเซิร์ฟเวอร์การผลิต AWS] [7]
-  * [วิธีการติดตั้งและกำหนดค่า owncloud ด้วย apache บน ubuntu] [8]
+  * [วิธีกำหนดค่า Apache เป็นพร็อกซีย้อนกลับสำหรับ Ubuntu/Debian][4]
+  * [วิธีการรักษาความปลอดภัยและเข้ารหัส nginx ด้วยการเข้ารหัสของ Let's en ubuntu 20.04][5]
+  * [วิธีกำหนดค่าการสนับสนุน HTTP/2 ใน Nginx บน Ubuntu/Debian][6]
+  * [วิธีการตั้งค่า nginx กับผู้โดยสารบนเซิร์ฟเวอร์การผลิต AWS][7]
+  * [วิธีการติดตั้งและกำหนดค่า owncloud ด้วย apache บน ubuntu][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

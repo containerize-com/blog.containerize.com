@@ -15,13 +15,13 @@ categories: ['Marketing Automation']
 
 Mautic是一种营销自动化软件，可以完全控制营销电子邮件，着陆页和营销活动的工作流程。 Mautic的Drip活动有助于吸引目标受众并使他们有关您的产品的最新信息。 Mautic Facebook集成为新线索提供了一种方法。借助这种Mautic  -  Facebook集成，您的Facebook广告系列的潜在客户将自动添加到Mautic中。
 我们将在本教程中介绍以下各节：
-  * [配置Facebook开发人员帐户] [1]
-  * [配置Facebook开发人员的应用] [2]
-  * [Mautic插件配置] [3]
-  * [结论] [4]
+  * [配置Facebook开发人员帐户][1]
+  * [配置Facebook开发人员的应用][2]
+  * [Mautic插件配置][3]
+  * [结论][4]
 
 ## 配置Facebook开发人员帐户{#account}
-  *去[开发人员的Facebook] [5]
+  *去[开发人员的Facebook][5]
   *如果没有一个帐户，请注册您的帐户。
   *要注册一个新帐户，请转到右上角单击“入门”。
   *之后，选择您的Facebook帐户并点击“继续”。
@@ -77,11 +77,13 @@ MAUTIC  -  Facebook集成可以帮助您将Facebook引线同步到MAUTIC系统�
 
 ## 探索
 要了解有关Mautic和Facebook的更多信息，请访问：
-  * [Mautic |开源内容营销技术平台] [6]
-  * [如何使用广告系列制造商设置MAUTIC广告系列] [7]
-  * [Drupal Mautic整合以自动化铅培养] [8]
-  * [与Mautic和WooCommerce集成的营销自动化] [9]
-  * [将Mautic＆Joomla整合进行数字营销自动化] [10]
+  * [Mautic |开源内容营销技术平台][6]
+  * [如何使用广告系列制造商设置MAUTIC广告系列][7]
+  * [Drupal Mautic整合以自动化铅培养][8]
+  * [与Mautic和WooCommerce集成的营销自动化][9]
+  * [将Mautic＆Joomla整合进行数字营销自动化][10]
+
+  
 [1]: #account
 [2]: #app
 [3]: #configuration

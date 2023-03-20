@@ -18,10 +18,10 @@ categories: ['Blogging']
 WordPress adalah platform blogging open source tingkat perusahaan. A ** WordPress Plugin ** adalah set kode mandiri yang meningkatkan dan memperluas fungsionalitas WordPress. Dengan menggunakan kombinasi PHP, HTML, CSS, JavaScript/jQuery. Plugin dapat menambahkan fitur baru ke bagian mana pun dari situs web Anda.
 Fungsionalitas yang dapat Anda tambahkan ke situs web Anda tergantung pada apa yang telah dilakukan oleh setiap plugin tertentu. Plugin WordPress dapat dikembangkan untuk melakukan apa saja. Dari tugas kecil hingga aplikasi penuh yang melakukan sejumlah operasi dan memiliki antarmuka sendiri. Plugin berbeda dari tema Anda dan bekerja secara mandiri, menggunakan kait, filter, kode pendek, widget, dan kode khusus untuk melakukan fungsionalitasnya.
 Dalam tutorial plugin WordPress ini, kami akan belajar cara membuat plugin WordPress pertama kami. Alasan terpenting untuk membuat plugin adalah karena memungkinkan Anda memisahkan kode Anda sendiri dari kode inti WordPress.
-  *** [persyaratan] [1] **
-  *** [Dasar -dasar Pengembangan Plugin] [2] **
-  *** [cara membuat plugin wp?] [3] **
-  *** [Kesimpulan] [4] **
+  *** [persyaratan][1] **
+  *** [Dasar -dasar Pengembangan Plugin][2] **
+  *** [cara membuat plugin wp?][3] **
+  *** [Kesimpulan][4] **
 
 ## Persyaratan {#Requirements}
   * Versi WordPress Terbaru
@@ -32,13 +32,13 @@ Dalam tutorial plugin WordPress ini, kami akan belajar cara membuat plugin WordP
 Mari kita luangkan waktu sejenak untuk membicarakan beberapa aspek kunci dari pengembangan plugin. Pemahaman yang kuat tentang bagaimana konsep-konsep ini bekerja akan membantu Anda membangun fungsionalitas yang mudah digunakan dan dapat dipelihara.
 
 ### Tindakan
-** Hooks Action ** adalah alat yang sangat berguna di ** WordPress ** ** plugin ** dan mereka digunakan untuk melakukan fungsi (** Tindakan **) di tempat -tempat tertentu dari tema atau plugin. WordPress memiliki lusinan tindakan yang ditentukan di seluruh fungsi intinya, setiap tindakan yang terdiri dari nama yang unik. Untuk detail lebih lanjut [baca] [5].
+** Hooks Action ** adalah alat yang sangat berguna di ** WordPress ** ** plugin ** dan mereka digunakan untuk melakukan fungsi (** Tindakan **) di tempat -tempat tertentu dari tema atau plugin. WordPress memiliki lusinan tindakan yang ditentukan di seluruh fungsi intinya, setiap tindakan yang terdiri dari nama yang unik. Untuk detail lebih lanjut [baca][5].
 
 Filter ###
-Filter WordPress adalah kait yang menerima variabel (atau serangkaian variabel) dan mengembalikannya setelah mereka dimodifikasi. Filter ini sering digunakan sehingga Anda memiliki cara untuk memanipulasi informasi default. Untuk detail lebih lanjut [baca] [6].
+Filter WordPress adalah kait yang menerima variabel (atau serangkaian variabel) dan mengembalikannya setelah mereka dimodifikasi. Filter ini sering digunakan sehingga Anda memiliki cara untuk memanipulasi informasi default. Untuk detail lebih lanjut [baca][6].
 
 Kode pendek ###
-Kode pendek adalah makro yang dapat digunakan untuk melakukan interaksi dinamis dengan konten. yaitu membuat galeri dari gambar yang dilampirkan ke pos atau merender video. Akibatnya, mereka adalah cara yang berharga untuk menjaga konten tetap bersih dan semantik sambil memungkinkan pengguna akhir beberapa kemampuan untuk secara terprogram mengubah presentasi konten mereka. Untuk detail lebih lanjut [baca] [7].
+Kode pendek adalah makro yang dapat digunakan untuk melakukan interaksi dinamis dengan konten. yaitu membuat galeri dari gambar yang dilampirkan ke pos atau merender video. Akibatnya, mereka adalah cara yang berharga untuk menjaga konten tetap bersih dan semantik sambil memungkinkan pengguna akhir beberapa kemampuan untuk secara terprogram mengubah presentasi konten mereka. Untuk detail lebih lanjut [baca][7].
 
 Widget ###
 Widget penting karena memberi Anda cara lain untuk melaksanakan kode plugin Anda sambil menyediakan antarmuka yang mudah digunakan. Karena sebagian besar tema akan mendukung satu atau lebih sidebar; Menambahkan widget Anda sendiri akan memberi Anda akses cepat untuk menampilkan informasi Anda di dalam tema.
@@ -102,14 +102,16 @@ echo get_page_views() . “view(s)”
 
 ## kesimpulan {#conclusion}
 Ini adalah akhir dari tutorial plugin WordPress ini. Dengan mengikuti artikel ini dan hanya menggunakan beberapa fungsi, kami telah membuat plugin dasar untuk melacak posting kami yang paling populer. Kami dapat memperbaikinya, tetapi tujuannya adalah hanya untuk membuat Anda nyaman dengan dasar -dasarnya. Selain itu, dengan mempelajari beberapa pola pengembangan WordPress (plugin, kait, dll.), Anda juga mendapatkan keterampilan yang akan melayani Anda di lingkungan non-wordpress juga. Ada banyak posting blog lain yang terkait dengan platform blogging open source dan Open Source CMS. yang dapat Anda temukan di bagian Jelajahi di bawah ini. Posting blog ini benar -benar dapat membantu Anda jika Anda ingin menggunakan platform blogging open source untuk bisnis Anda.
-Akhirnya, [containerize.com] [8] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Blogging] [9] dan [Business Intelligence Software] [10] untuk berita dan pembaruan reguler
+Akhirnya, [containerize.com][8] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Blogging][9] dan [Business Intelligence Software][10] untuk berita dan pembaruan reguler
 
 ## Mengeksplorasi
-  * [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress] [11]
-  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis] [12]
-  * [Cara Menginstal Plugin di WordPress | Forum Vanilla] [13]
-  * [Joomla vs Drupal | Perbandingan CMS pada tahun 2021] [14]
-  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021] [15]
+  * [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress][11]
+  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis][12]
+  * [Cara Menginstal Plugin di WordPress | Forum Vanilla][13]
+  * [Joomla vs Drupal | Perbandingan CMS pada tahun 2021][14]
+  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021][15]
+
+  
 [1]: #requirements
 [2]: #basics
 [3]: #create

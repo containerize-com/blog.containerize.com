@@ -15,20 +15,20 @@ categories: ['Content Management']
 
 
 ## **Ringkasan**
-Selamat datang di posting blog ini. Di masa lalu, kami menerbitkan banyak artikel seperti [Joomla Template Development Guide for the pemula] [1], [mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital] [2], dan beberapa lagi. Drupal dan Joomla adalah perangkat lunak CMS open source yang dilisensikan di bawah GPL. Posting blog ini ** Joomla vs Drupal ** akan memberi Anda gambaran yang jelas tentang fitur. Namun, kehadiran online bisnis Anda adalah aspek terpenting dalam hal pertumbuhan dan jangkauan bisnis. Target pemangku kepentingan bisnis adalah untuk menerbitkan konten yang menarik yang menarik lalu lintas ke situs web bisnis.
-Oleh karena itu, Open Source Community telah mengembangkan banyak perangkat lunak manajemen konten yang menyediakan berbagai fitur untuk pemilik situs dan penerbit konten. [Joomla] [3] dan [Drupal] [4] adalah perangkat lunak CMS open source yang paling populer. Apa itu Drupal? ** Apa itu Joomla **? Ini adalah dua pertanyaan yang akan kami coba jawab dalam posting blog ** perbandingan CMS ** dengan membahas poin -poin berikut.
-  *** [Apa itu Joomla?] [5] **
-  *** [Pengenalan singkat Drupal] [6] **
-  *** [Perbandingan Joomla & Drupal] [7] **
-  *** [Kesimpulan] [8] **
+Selamat datang di posting blog ini. Di masa lalu, kami menerbitkan banyak artikel seperti [Joomla Template Development Guide for the pemula][1], [mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital][2], dan beberapa lagi. Drupal dan Joomla adalah perangkat lunak CMS open source yang dilisensikan di bawah GPL. Posting blog ini ** Joomla vs Drupal ** akan memberi Anda gambaran yang jelas tentang fitur. Namun, kehadiran online bisnis Anda adalah aspek terpenting dalam hal pertumbuhan dan jangkauan bisnis. Target pemangku kepentingan bisnis adalah untuk menerbitkan konten yang menarik yang menarik lalu lintas ke situs web bisnis.
+Oleh karena itu, Open Source Community telah mengembangkan banyak perangkat lunak manajemen konten yang menyediakan berbagai fitur untuk pemilik situs dan penerbit konten. [Joomla][3] dan [Drupal][4] adalah perangkat lunak CMS open source yang paling populer. Apa itu Drupal? ** Apa itu Joomla **? Ini adalah dua pertanyaan yang akan kami coba jawab dalam posting blog ** perbandingan CMS ** dengan membahas poin -poin berikut.
+  *** [Apa itu Joomla?][5] **
+  *** [Pengenalan singkat Drupal][6] **
+  *** [Perbandingan Joomla & Drupal][7] **
+  *** [Kesimpulan][8] **
 
 ## Apa itu Joomla? {#joomla}
-[Joomla] [3] adalah perangkat lunak CMS open source yang dilengkapi dengan kemampuan hosting sendiri. Ini multibahasa dan memberikan dukungan untuk banyak bahasa. Ada basis plugin besar yang digunakan untuk memperluas fungsionalitas CMS open source ini dan memiliki ribuan pengembang yang sangat bersemangat terhadap perkembangan baru dan perbaikan bug. Selain itu, Joomla dapat diperluas dan menawarkan integrasi dengan perpustakaan pihak ketiga. Template yang disediakan CMS sumber terbuka ini dioptimalkan SEO dan mudah diaktifkan. Sejauh menyangkut antarmuka pengguna, ada antarmuka drag & drop untuk pembangunan dan pengeditan situs.
-Selain itu, Joomla mudah diatur di server karena membutuhkan persyaratan sederhana seperti PHP dan MySQL. Lebih lanjut, ada dukungan lintas-browser yang tersedia di CMS gratis ini dengan fitur ramah tata letak yang kaya. Ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, semua kode sumber ini membuka sumber CMS tersedia di [GitHub] [9]. Di bagian selanjutnya dari posting blog ** Joomla vs Drupal ** ini, kami akan melihat ke Drupal.
+[Joomla][3] adalah perangkat lunak CMS open source yang dilengkapi dengan kemampuan hosting sendiri. Ini multibahasa dan memberikan dukungan untuk banyak bahasa. Ada basis plugin besar yang digunakan untuk memperluas fungsionalitas CMS open source ini dan memiliki ribuan pengembang yang sangat bersemangat terhadap perkembangan baru dan perbaikan bug. Selain itu, Joomla dapat diperluas dan menawarkan integrasi dengan perpustakaan pihak ketiga. Template yang disediakan CMS sumber terbuka ini dioptimalkan SEO dan mudah diaktifkan. Sejauh menyangkut antarmuka pengguna, ada antarmuka drag & drop untuk pembangunan dan pengeditan situs.
+Selain itu, Joomla mudah diatur di server karena membutuhkan persyaratan sederhana seperti PHP dan MySQL. Lebih lanjut, ada dukungan lintas-browser yang tersedia di CMS gratis ini dengan fitur ramah tata letak yang kaya. Ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, semua kode sumber ini membuka sumber CMS tersedia di [GitHub][9]. Di bagian selanjutnya dari posting blog ** Joomla vs Drupal ** ini, kami akan melihat ke Drupal.
 
 ## Pengenalan singkat Drupal {#Drupal}
-[Drupal] [4] adalah perangkat lunak manajemen konten open source lainnya dengan fitur dan ketentuan tingkat perusahaan. CMS open source ini memberikan kontrol kepada pengguna bahkan non-teknis juga dapat melakukan operasi tertentu. Ada banyak fitur kuat seperti pencarian global, beberapa jenis konten, dukungan aksesibilitas, optimasi kecepatan, dan banyak lagi. Selain itu, ada kumpulan plugin besar seperti sistem manajemen konten populer lainnya seperti Joomla dan Pyro. Drupal memiliki antarmuka pengguna intuitif yang memberikan rasa elemen yang logis kepada pengguna mengenai mengelola aset media dan penerbitan konten.
-Perangkat lunak CMS open source ini aman, fleksibel, dan menawarkan kemampuan hosting sendiri. Ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, semua kode sumber ini membuka sumber CMS tersedia di [GitHub] [10].
+[Drupal][4] adalah perangkat lunak manajemen konten open source lainnya dengan fitur dan ketentuan tingkat perusahaan. CMS open source ini memberikan kontrol kepada pengguna bahkan non-teknis juga dapat melakukan operasi tertentu. Ada banyak fitur kuat seperti pencarian global, beberapa jenis konten, dukungan aksesibilitas, optimasi kecepatan, dan banyak lagi. Selain itu, ada kumpulan plugin besar seperti sistem manajemen konten populer lainnya seperti Joomla dan Pyro. Drupal memiliki antarmuka pengguna intuitif yang memberikan rasa elemen yang logis kepada pengguna mengenai mengelola aset media dan penerbitan konten.
+Perangkat lunak CMS open source ini aman, fleksibel, dan menawarkan kemampuan hosting sendiri. Ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, semua kode sumber ini membuka sumber CMS tersedia di [GitHub][10].
 
 ## Perbandingan Joomla & Drupal {#Comp}
 Di bagian Artikel ** Joomla vs Drupal ** ini, kami akan membandingkan dua perangkat lunak CMS open source ini dengan melihat ke dalam fitur mereka dan berdiri di komunitas. Berikut adalah poin -poin berikut yang akan kami liput.
@@ -53,19 +53,21 @@ Ini adalah karakteristik yang paling penting dan menentukan saat memilih perangk
 
 ## kesimpulan {#conclusion}
 Ini adalah akhir dari posting blog ** Joomla vs Drupal ** ini. Langkah pertama adalah kejelasan mental sebelum memilih solusi perangkat lunak untuk bisnis Anda. Perbandingan CMS ** ini ** Posting blog akan sangat membantu Anda jika Anda bertanya -tanya tentang apa itu Joomla atau ** Apa itu Drupal **. Ada perangkat lunak CMS open source lainnya dan artikel bermanfaat yang disebutkan dalam ‘Jelajahi; bagian di bawah ini. Oleh karena itu, kami telah menjelaskan hal -hal secara rinci sehingga kami menyerahkan kepada Anda untuk membuat keputusan tentang pemilihan CMS sumber terbuka. Lebih lanjut, selalu pilih perangkat lunak yang dapat diandalkan, fleksibel, dan dapat diskalakan dengan algoritma keamanan yang tidak bisa dipatahkan.
-Akhirnya, ** [containerize.com] [11] ** telah menulis pada produk open source lebih lanjut. Harap tetap berhubungan dengan ini ** [[Manajemen Konten] [12]] [12] ** Kategori untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [13], [LinkedIn] [14], dan [Twitter] [15].
+Akhirnya, ** [containerize.com][11] ** telah menulis pada produk open source lebih lanjut. Harap tetap berhubungan dengan ini ** [[Manajemen Konten][12]][12] ** Kategori untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][13], [LinkedIn][14], dan [Twitter][15].
 
 ## Mengeksplorasi
-  * [Joomla] [3]
-  * [Drupal] [4]
-  * [Pyro] [16]
-  * [Django CMS] [17]
-  * [Umbraco CMS] [18]
-  * [Concrete5] [19]
-  * [Cara Membuat Tema Joomla dengan Kerangka Gantry] [20]
-  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital] [2]
-  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal] [21]
-  * [Top 5 Top Templat Bootstrap Joomla Responsif Gratis dari 2020] [22]
+  * [Joomla][3]
+  * [Drupal][4]
+  * [Pyro][16]
+  * [Django CMS][17]
+  * [Umbraco CMS][18]
+  * [Concrete5][19]
+  * [Cara Membuat Tema Joomla dengan Kerangka Gantry][20]
+  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital][2]
+  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal][21]
+  * [Top 5 Top Templat Bootstrap Joomla Responsif Gratis dari 2020][22]
+
+  
 [1]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
 [2]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
 [3]: https://products.containerize.com/content-management/joomla

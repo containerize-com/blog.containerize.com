@@ -25,11 +25,11 @@ Este artículo de blog describe la plataforma de cola de mensajería moderna NSQ
   * Conclusión
 
 ## 1. ¿Qué es Kafka?
-[Kafka] [1] es una plataforma de transmisión de eventos distribuidos de código abierto, escrita en lenguaje Scala desarrollado por LinkedIn. Se publica suscribir el sistema de mensajería y tiene la capacidad de manejar un alto volumen de mensajes. Kafka es "Sistema de mensajería de pub-sub de alto rendimiento distribuido, duradero, tolerante, de alto rendimiento" y puede realizar un procesamiento de lotes en tiempo real y en tiempo real con Kafka. Es un servicio distribuido, dividido y replicado de mensajes de registro de compromiso en nodos y se ejecuta en JVM. La cola de mensajes de Kafka Best es fácil de usar y proporciona la funcionalidad de un sistema de cola de mensajería pero con un diseño único.
+[Kafka][1] es una plataforma de transmisión de eventos distribuidos de código abierto, escrita en lenguaje Scala desarrollado por LinkedIn. Se publica suscribir el sistema de mensajería y tiene la capacidad de manejar un alto volumen de mensajes. Kafka es "Sistema de mensajería de pub-sub de alto rendimiento distribuido, duradero, tolerante, de alto rendimiento" y puede realizar un procesamiento de lotes en tiempo real y en tiempo real con Kafka. Es un servicio distribuido, dividido y replicado de mensajes de registro de compromiso en nodos y se ejecuta en JVM. La cola de mensajes de Kafka Best es fácil de usar y proporciona la funcionalidad de un sistema de cola de mensajería pero con un diseño único.
 Los servidores de Kafka de cola de mensajes distribuidos se conocen como corredores y estos forman un clúster Kafka. Un Zookeeper es responsable de la coordinación entre todos los corredores en un clúster. Apache Kafka Message Broker es utilizado por las nuevas empresas de Unicornio, la salud y las principales organizaciones financieras como LinkedIn, FB, Netflix, Bank of America, Chase Bank, Yahoo, Twitter y otros. El software de cola de mensajes de código abierto Kafka Architecture consta de productores, consumidores, corredores, Zookeeper, temas, particiones, registros y registros.
 
 ## 2. ¿Qué es NSQ? {#CE62}
-[NSQ] [2] es una plataforma de mensajería distribuida en tiempo real de código abierto que es un sucesor de Simplequeue. El desarrollador describe NSQ como "una plataforma de mensajería distribuida en tiempo real" creada por Bitly. El corredor de mensajes de código abierto SoftWarensq es una plataforma de mensajería increíblemente simple diseñada y opera a una escala, manejando miles de millones de mensajes por día. Es un sistema de mensajería amortiguada tradicional que promueve topologías descentralizadas sin puntos individuales de falla. Permite la tolerancia a las fallas y la alta disponibilidad junto con un sistema de entrega de mensajes confiable.
+[NSQ][2] es una plataforma de mensajería distribuida en tiempo real de código abierto que es un sucesor de Simplequeue. El desarrollador describe NSQ como "una plataforma de mensajería distribuida en tiempo real" creada por Bitly. El corredor de mensajes de código abierto SoftWarensq es una plataforma de mensajería increíblemente simple diseñada y opera a una escala, manejando miles de millones de mensajes por día. Es un sistema de mensajería amortiguada tradicional que promueve topologías descentralizadas sin puntos individuales de falla. Permite la tolerancia a las fallas y la alta disponibilidad junto con un sistema de entrega de mensajes confiable.
 NSQ ofrece una topología de alta disponibilidad que minimiza SPOF. Aumenta la disponibilidad configurando múltiples instancias para NSQD y NSQPOOKUPD. Además, garantiza que el mensaje se entregue al menos una vez con cierto grado de persistencia y sea fácil de configurar. El mejor corredor de mensajes NSQ es más flexible y admite la persistencia de mensajes. Tiene un tablero de administración brillante. El sistema de mensajería de cola NSQ tiene 19.9k estrellas GitHub y 2.6k tenedores GitHub.
 
 ## 3. Comparación NSQ vs Kafka {#CE62}
@@ -51,15 +51,17 @@ NSQ con 20k estrellas GitHub y 2.6k tenedores en Github parece ser más popular 
 
 ## Conclusión: {#4A1A}
 Este artículo proporcionó una breve comparación sobre el funcionamiento de los marcos de mensajería populares: NSQ y Kafka. Las comparaciones de características del artículo giraban en torno al rendimiento de la cola de mensajes, persistencia, confiabilidad, latencia, escalabilidad y disponibilidad. Estos parámetros son importantes para decidir la idoneidad de un marco para una aplicación en tiempo real. Por lo tanto, es un buen artículo para una comprensión profunda elegir el marco correcto. El software de la cola de mensajería es la columna vertebral de la tecnología futura en el mercado que puede manejar un alto procesamiento. En nuestros próximos tutoriales, discutiremos sobre temas más interesantes relacionados con las plataformas de mensajería de código abierto.
-_Un puede unirse a nosotros en [Twitter] [3], [LinkedIn] [4] y nuestra página [Facebook] [5]. ¿Qué plataforma de cola de mensajes usas en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto] [6].
+_Un puede unirse a nosotros en [Twitter][3], [LinkedIn][4] y nuestra página [Facebook][5]. ¿Qué plataforma de cola de mensajes usas en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto][6].
 
 ## Explorar:
 También tenemos varios otros artículos relacionados con la administración diaria de su servidor.
-  * [Sistema de colas respaldado por Redis para el procesamiento de fondo] [7]
-  * [Sistema de procesamiento de trabajo de fondo más rápido] [8]
-  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian] [9]
-  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu] [10]
-  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04] [11]
+  * [Sistema de colas respaldado por Redis para el procesamiento de fondo][7]
+  * [Sistema de procesamiento de trabajo de fondo más rápido][8]
+  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian][9]
+  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu][10]
+  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04][11]
+
+  
 [1]: https://kafka.apache.org/
 [2]: https://nsq.io/
 [3]: https://twitter.com/containerize_co

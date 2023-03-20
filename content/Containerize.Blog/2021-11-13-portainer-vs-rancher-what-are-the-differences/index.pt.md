@@ -24,8 +24,8 @@ Portainer e Rancher podem ser categorizados como ferramentas de gerenciamento de
   *** Conclusão **
 
 ## ** 1. O que é Portainer? **
-[Portainer] [1] é a plataforma de gerenciamento de contêineres mais popular. Os engenheiros do DevOps descrevem o Portainer como uma interface do usuário de gerenciamento simples para o Docker. A Portainer é uma interface do usuário de gerenciamento de contianer leve de código aberto e permite gerenciar facilmente seus ambientes do Docker. Nunca foi tão fácil gerenciar o Docker, mas a Portainer está disponível nos sistemas operacionais Windows, Linux e Mac. As alternativas da Portainer são o Azure Container Registry, Rancher e Docker Swarm. Foi fundada em 2017 na Nova Zelândia e a porta padrão da Web GUI da Portainer é 9000.
-O Portainer é um poderoso conjunto de ferramentas de gerenciamento de código aberto que permite criar, gerenciar e manter facilmente os ambientes de produção do Docker. Foi desenvolvido para ajudar os clientes a adotar a tecnologia de contêineres do Docker e acelerar o tempo até o valor. A Portainer se integra ao Docker Swarm e ao Gerenciamento de Cluster baseado em Kubernetes. Portainer é uma ferramenta de código aberto com 20,1k Github Stars e 1,8k Github Forks. Open Plataforma de contêiner de contêiner de origem ** Repositório de código -fonte Portainer ** está disponível em [Github] [2]. Alguns dos recursos oferecidos pela Portainer para aplicativos de contêiner são:
+[Portainer][1] é a plataforma de gerenciamento de contêineres mais popular. Os engenheiros do DevOps descrevem o Portainer como uma interface do usuário de gerenciamento simples para o Docker. A Portainer é uma interface do usuário de gerenciamento de contianer leve de código aberto e permite gerenciar facilmente seus ambientes do Docker. Nunca foi tão fácil gerenciar o Docker, mas a Portainer está disponível nos sistemas operacionais Windows, Linux e Mac. As alternativas da Portainer são o Azure Container Registry, Rancher e Docker Swarm. Foi fundada em 2017 na Nova Zelândia e a porta padrão da Web GUI da Portainer é 9000.
+O Portainer é um poderoso conjunto de ferramentas de gerenciamento de código aberto que permite criar, gerenciar e manter facilmente os ambientes de produção do Docker. Foi desenvolvido para ajudar os clientes a adotar a tecnologia de contêineres do Docker e acelerar o tempo até o valor. A Portainer se integra ao Docker Swarm e ao Gerenciamento de Cluster baseado em Kubernetes. Portainer é uma ferramenta de código aberto com 20,1k Github Stars e 1,8k Github Forks. Open Plataforma de contêiner de contêiner de origem ** Repositório de código -fonte Portainer ** está disponível em [Github][2]. Alguns dos recursos oferecidos pela Portainer para aplicativos de contêiner são:
   * Containers de fácil implantação e gerenciamento
   * Monitore o desempenho e o comportamento
   * TI governança e segurança
@@ -33,8 +33,8 @@ O Portainer é um poderoso conjunto de ferramentas de gerenciamento de código a
   * Gerenciamento de cluster do docker
 
 ## 2. O que é fazendeiro?
-[Rancher] [3] é uma plataforma de gerenciamento de contêineres de código aberto para Kubernetes. Inclui distribuições completas de Kubernetes, Mesos Apache e Swarm Docker, que simplificam a operação de clusters de contêineres em qualquer plataforma de nuvem ou infraestrutura. O Rancher é descrito como uma plataforma de gerenciamento de código aberto para executar o serviço de contêineres e criar clusters. Ele pode facilmente implantar novos clusters do zero ou até importar clusters Kubernetes existentes. O Rancher foi construído para executar e gerenciar vários gerenciamento de cluster baseado em Kubernetes em todos os lugares. Rancher Web GUI funciona na porta padrão 80/443.
-O Rancher é uma pilha de software completa para equipes que trabalham em contêineres e hospedando o fazendeiro pode ser complicado. Ele facilita com sucesso os desafios operacionais e de segurança de gerenciar vários clusters de Kubernetes, fornecendo equipes de desenvolvimento e operações com ferramentas integradas para a execução de software de contêiner. Ao implantar contêineres em seus ambientes de cluster de produção ou desenvolvimento, você precisará de acesso rápido ao log para analisar erros de contêiner. Portanto, uma boa solução é implantar o fazendeiro em seus clusters DevOps dentro ou fora da nuvem. O Rancher é uma ferramenta de código aberto com estrelas de 18,1k Github e 2,4k Github Forks. ** Repositório de código fonte do rancho ** está disponível em [Github] [4]. Rancher fornece os seguintes recursos principais:
+[Rancher][3] é uma plataforma de gerenciamento de contêineres de código aberto para Kubernetes. Inclui distribuições completas de Kubernetes, Mesos Apache e Swarm Docker, que simplificam a operação de clusters de contêineres em qualquer plataforma de nuvem ou infraestrutura. O Rancher é descrito como uma plataforma de gerenciamento de código aberto para executar o serviço de contêineres e criar clusters. Ele pode facilmente implantar novos clusters do zero ou até importar clusters Kubernetes existentes. O Rancher foi construído para executar e gerenciar vários gerenciamento de cluster baseado em Kubernetes em todos os lugares. Rancher Web GUI funciona na porta padrão 80/443.
+O Rancher é uma pilha de software completa para equipes que trabalham em contêineres e hospedando o fazendeiro pode ser complicado. Ele facilita com sucesso os desafios operacionais e de segurança de gerenciar vários clusters de Kubernetes, fornecendo equipes de desenvolvimento e operações com ferramentas integradas para a execução de software de contêiner. Ao implantar contêineres em seus ambientes de cluster de produção ou desenvolvimento, você precisará de acesso rápido ao log para analisar erros de contêiner. Portanto, uma boa solução é implantar o fazendeiro em seus clusters DevOps dentro ou fora da nuvem. O Rancher é uma ferramenta de código aberto com estrelas de 18,1k Github e 2,4k Github Forks. ** Repositório de código fonte do rancho ** está disponível em [Github][4]. Rancher fornece os seguintes recursos principais:
   * Gerenciamento e implantação de Kubernetes
   * Gerenciamento e colaboração de usuários
   * Orquestração e agendamento de contêineres
@@ -52,15 +52,17 @@ Finalmente, minha consideração pessoal é que Portainer e Rancher são as melh
 
 ## Conclusão: {#4a1a}
 ** Qual é a melhor escolha portainer vs rancher, então? ** A resposta é a óbvia: ambos. O Portainer vs Rancher acima mencionado é o mais popular e as melhores ferramentas de código aberto para desenvolvedores. Eles permitem pensar em serviços e sistemas de uma maneira completamente nova e digital que a infraestrutura mais precisa. O ponto principal é que ambas as ferramentas fornecem uma plataforma bem integrada para automatizar com mais eficácia o gerenciamento de contêineres, a escala e a implantação de contêineres de sistemas.
-_ O que o Open Source Container Management Technolog_Y você prefere_?. Você tem alguma dúvida sobre a diferença entre Portainer e Rancher?, Por favor [entre em contato] [5].
+_ O que o Open Source Container Management Technolog_Y você prefere_?. Você tem alguma dúvida sobre a diferença entre Portainer e Rancher?, Por favor [entre em contato][5].
 
 ## Explore:
 Temos vários outros artigos relacionados para lidar com o gerenciamento de tarefas diárias dos administradores de TI:
-  *** [Top 5 Ferramentas de orquestração de contêineres de código aberto para o DevOps 2021] [6] **
-  *** [Melhor software de armazenamento e compartilhamento de arquivos de código aberto] [7] **
-  *** [Software Top 5 de Mensagem de Código Aberto (MQ) em 2021] [8] **
-  *** [Ferramentas forenses digitais de código aberto mais populares] [9] **
-  *** [Licenças de código aberto mais populares aprovadas pela OSI-aprovada] [10] **
+  *** [Top 5 Ferramentas de orquestração de contêineres de código aberto para o DevOps 2021][6] **
+  *** [Melhor software de armazenamento e compartilhamento de arquivos de código aberto][7] **
+  *** [Software Top 5 de Mensagem de Código Aberto (MQ) em 2021][8] **
+  *** [Ferramentas forenses digitais de código aberto mais populares][9] **
+  *** [Licenças de código aberto mais populares aprovadas pela OSI-aprovada][10] **
+
+  
 [1]: https://www.portainer.io/
 [2]: https://github.com/portainer/portainer
 [3]: https://rancher.com/

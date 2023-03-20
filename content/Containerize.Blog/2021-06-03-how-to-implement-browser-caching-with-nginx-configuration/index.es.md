@@ -13,12 +13,12 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Cómo implementar el almacenamiento en caché de Browsr con la configuración de Nginx">}}
 
-En nuestra serie tutorial de Nginx, hemos cubierto [cómo usar Nginx como equilibrador de carga] [1], [Configurar Nginx como proxy inverso] [2], [Use múltiples versiones PHP con Nginx] [3] y [Convertir reescritura Htaccess Reglas para reescribir las directivas de reescritura] [4]. En el artículo de hoy, estamos cubriendo un tema muy importante que ayuda a las empresas a mejorar la experiencia de sus usuarios al aprovechar el almacenamiento en caché del navegador. En este tutorial, lo guiaremos sobre cómo implementar el almacenamiento en caché del navegador con la configuración de Nginx utilizando el módulo de encabezado de Nginx. ¡Empecemos!
-  *** [Palancamiento del almacenamiento en caché del navegador] [5] **
-  *[** Módulo de encabezado Nginx **] [6]
+En nuestra serie tutorial de Nginx, hemos cubierto [cómo usar Nginx como equilibrador de carga][1], [Configurar Nginx como proxy inverso][2], [Use múltiples versiones PHP con Nginx][3] y [Convertir reescritura Htaccess Reglas para reescribir las directivas de reescritura][4]. En el artículo de hoy, estamos cubriendo un tema muy importante que ayuda a las empresas a mejorar la experiencia de sus usuarios al aprovechar el almacenamiento en caché del navegador. En este tutorial, lo guiaremos sobre cómo implementar el almacenamiento en caché del navegador con la configuración de Nginx utilizando el módulo de encabezado de Nginx. ¡Empecemos!
+  *** [Palancamiento del almacenamiento en caché del navegador][5] **
+  *[** Módulo de encabezado Nginx **][6]
   *)
-  *[** Apalancamiento del almacenamiento en caché del navegador con configuración Nginx **] [8]
-  *[** Conclusión **] [9]
+  *[** Apalancamiento del almacenamiento en caché del navegador con configuración Nginx **][8]
+  *[** Conclusión **][9]
 
 ## Apalancamiento del caché del navegador {#Browser-Caching}
 Cuanto más rápido se carga un sitio web, más probable es que un visitante permanezca en el sitio web. Los sitios web con muchas imágenes y contenido interactivo se cargan en segundo plano, hace que el sitio web abran una tarea compleja. Consiste en solicitar muchos archivos diferentes del servidor uno por uno. Minimizar la cantidad de estas solicitudes es una forma de acelerar su sitio web.
@@ -108,8 +108,10 @@ Del mismo modo, puede colocar la configuración de caché en el bloque _server_ 
 El módulo de encabezados de Nginx se puede usar para agregar cualquier encabezado arbitrario a la respuesta, pero configurar correctamente los encabezados de control de caché es una de sus aplicaciones más útiles. Le ayuda a mejorar el rendimiento del sitio web, especialmente para los usuarios en redes con mayor latencia, como las redes de operadores móviles. En este tutorial, aprendimos a aprovechar el almacenamiento en caché del navegador con la configuración de Nginx. Espero que esto lo ayude a mejorar la experiencia de su usuario en su sitio web.
 
 ## Explorar
-  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu] [3]
-  * [Cómo configurar y configurar Nginx como proxy inverso] [2]
+  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu][3]
+  * [Cómo configurar y configurar Nginx como proxy inverso][2]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

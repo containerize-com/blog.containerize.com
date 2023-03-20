@@ -148,15 +148,17 @@ Evet! Bitti. Artık Dropbox veya Google Drive'a benzer adım adım özel bir bul
 
 ## ** Sonuç: ** {#4A1A}
 Bu öğreticide, Ubuntu sisteminize Pydio hücreleri açık kaynaklı güvenli dosya paylaşımını başarıyla yüklediniz. Bu makaleyi, dosyalarınızı kendi kendine barındıran bulutta depolamak, güvence altına almak ve paylaşmak için bir bulut altyapısı oluşturmak için kullanabilirsiniz. Verilerinizi daha fazla kontrol etmek ve iş organizasyonunuzda verimli işbirliği sağlamak için Pydio İşbirlikçi Belge Paylaşımı ve En İyi Ücretsiz Dosya Paylaşımı uygulamasını kullanın. Yaklaşan öğreticilerimizde, açık kaynaklı bulut depolama çözümleri ve dosya paylaşımı işbirliği araçlarının daha ilginç konularını tartışacağız.
-_ [Twitter] [1], [LinkedIn] [2] ve [Facebook] [3] sayfamızda bize katılabilirsiniz. Çevrimiçi olarak hangi cloud tabanlı_ açık kaynak _file paylaşım platformu kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin] [4].
+_ [Twitter][1], [LinkedIn][2] ve [Facebook][3] sayfamızda bize katılabilirsiniz. Çevrimiçi olarak hangi cloud tabanlı_ açık kaynak _file paylaşım platformu kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][4].
 
 ## Keşfetmek:
 Ayrıca sunucunuzun günlük yönetimi ile ilgili başka birkaç makalemiz de var.
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [5]
-  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır] [6]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [7]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın] [8]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun] [9]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][5]
+  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır][6]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][7]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][8]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

@@ -15,14 +15,14 @@ categories: ['CMDB Software']
 
 
 ## ** Genel Bakış **
-CMDB yazılımının bu blog serisinde, [CMDB çözümü varlık yönetimi hizmetlerini nasıl etkilediği] [1] ve [localhost'ta CMDB çözümü nasıl kurulacak] [2] gibi konular üzerine yazdık [2]. Bu makaleler, BT varlık yönetimi çözümünün işteki rolünü açıklar ve diğeri, Ralph'ın kurulmasına yardımcı olan bir öğretici blog yazısıdır. [Ralph] [3] açık kaynaklıdır ** Kullanıcıların fiziksel ve dijital varlıkları tam kontrol ve güvenlik ile izlemelerini sağlayan BT varlık izleme yazılımı **. Oldukça genişletilebilir ve üçüncü taraf uygulamalar için dinlendirici bir arayüz sağlar. Bu CMDB yazılımı kendi kendine barındırma özellikleri ile birlikte gelir. Kullanıcıların varlıklar üzerindeki dahili/harici eylemler için bir iş akışı tanımlamasına olanak tanır. BT altyapınız hakkında kapsamlı bilgiler görebilirsiniz. Ancak, bu blog yazısında, aşağıdaki noktaları kapsayarak operasyonları hakkında temel bir anlayış geliştirmek için Ralph ile oynayacağız.
-  *** [Ralph pano nedir?] [4] **
-  *[** Arka ofis için destek **] [5]
-  *** [Veri merkezleri için destek] [6] **
-  *[** Sonuç **] [7]
+CMDB yazılımının bu blog serisinde, [CMDB çözümü varlık yönetimi hizmetlerini nasıl etkilediği][1] ve [localhost'ta CMDB çözümü nasıl kurulacak][2] gibi konular üzerine yazdık [2]. Bu makaleler, BT varlık yönetimi çözümünün işteki rolünü açıklar ve diğeri, Ralph'ın kurulmasına yardımcı olan bir öğretici blog yazısıdır. [Ralph][3] açık kaynaklıdır ** Kullanıcıların fiziksel ve dijital varlıkları tam kontrol ve güvenlik ile izlemelerini sağlayan BT varlık izleme yazılımı **. Oldukça genişletilebilir ve üçüncü taraf uygulamalar için dinlendirici bir arayüz sağlar. Bu CMDB yazılımı kendi kendine barındırma özellikleri ile birlikte gelir. Kullanıcıların varlıklar üzerindeki dahili/harici eylemler için bir iş akışı tanımlamasına olanak tanır. BT altyapınız hakkında kapsamlı bilgiler görebilirsiniz. Ancak, bu blog yazısında, aşağıdaki noktaları kapsayarak operasyonları hakkında temel bir anlayış geliştirmek için Ralph ile oynayacağız.
+  *** [Ralph pano nedir?][4] **
+  *[** Arka ofis için destek **][5]
+  *** [Veri merkezleri için destek][6] **
+  *[** Sonuç **][7]
 
 ## Ralph kontrol paneli nedir? {#Gösterge Paneli}
-[Ralph] [3] kolay gezinme ile sezgisel bir gösterge paneli sağlar. Bu ** BT yönetim çözümü ** onunla oynamak için çevrimiçi bir demo sağlar. Kullanıcılar bu ücretsiz ** CMDB çözümünün ** sunduğu her özelliği görebilir ve test edebilir. Ayrıca, kullanıcıların giriş ve çıktıyı kontrol etmek için kukla veri ekleyebilecekleri etkileşimli bir arayüz vardır. Ayrıca, her şey modüller şeklinde izole edilir. Modüller veri merkezi varlıkları, arka ofis varlıkları, lisanslar, destek, alanlar, kullanıcılar ve ekipmanımdır. Her modül üst menü çubuğuna yerleştirilir. Ayrıca günlük yönetimi sunar ve kullanıcılar sağ kenar çubuğundaki son işlemleri görebilir. Ayrıca, yazıcılar, dizüstü bilgisayarlar, masaüstü bilgisayarlar, yazıcılar ve cep telefonlarını içeren veri merkezleri ve arka ofis için tam destek sunar. Verileri gerçek zamanlı olarak gösteren grafikler vardır.
+[Ralph][3] kolay gezinme ile sezgisel bir gösterge paneli sağlar. Bu ** BT yönetim çözümü ** onunla oynamak için çevrimiçi bir demo sağlar. Kullanıcılar bu ücretsiz ** CMDB çözümünün ** sunduğu her özelliği görebilir ve test edebilir. Ayrıca, kullanıcıların giriş ve çıktıyı kontrol etmek için kukla veri ekleyebilecekleri etkileşimli bir arayüz vardır. Ayrıca, her şey modüller şeklinde izole edilir. Modüller veri merkezi varlıkları, arka ofis varlıkları, lisanslar, destek, alanlar, kullanıcılar ve ekipmanımdır. Her modül üst menü çubuğuna yerleştirilir. Ayrıca günlük yönetimi sunar ve kullanıcılar sağ kenar çubuğundaki son işlemleri görebilir. Ayrıca, yazıcılar, dizüstü bilgisayarlar, masaüstü bilgisayarlar, yazıcılar ve cep telefonlarını içeren veri merkezleri ve arka ofis için tam destek sunar. Verileri gerçek zamanlı olarak gösteren grafikler vardır.
 
 {{< figure align=center src="images/Screenshot-2021-07-14-at-15.24.12-1024x576.png" alt="BT varlık yönetimi çözümü">}}
 
@@ -48,17 +48,19 @@ Bir sonraki donanım bölümünde, temel bilgiler, konum bilgisi kullanım bilgi
 
 ## Sonuç {#Conclusion}
 Bu blog yazısının sonu. **** İyi bir ** BT Varlık Yönetimi Çözümü ** Otomasyon ve izleme getirerek BT ​​iş akışlarını geliştirir. Yalnızca her varlığı otomatikleştirmenizi değil, aynı zamanda yapılandırmaları ve değişiklikleri de izleyebilirsiniz. Kullanıcılar fiziksel ve sanal varlıkları ve altyapıyı yönetebilir. Mantıksal kullanıcı arayüzleri sunan birçok açık kaynaklı BT varlık izleme yazılımı vardır. Bu gösterge tabloları verileri görsel formlarda gösterir. Kurumsal sektör bu ücretsiz yapılandırma yönetimi veritabanı yazılımını geniş çapta kullanıyor. Bu nedenle, varlıkları nasıl yöneteceğinizi merak ediyorsanız, burada listelenen ücretsiz ve açık kaynaklı yazılım için gitmelisiniz. Burada listelenen tüm CMDB çözümleri ücretsiz, uygun maliyetli, kendi kendine barındırılmış, kullanıcı dostu gezinme, dağıtılması ve yapılandırılması kolaydır. Bu çözümler üçüncü taraf entegrasyonlar ve sık BT varlık keşfi sağlar.
-Son olarak, [** Containerize.com **] [8] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Yapılandırma Yönetimi Veritabanı Yazılımı (CMDB] [9]) kategorisiyle iletişime geçin.
+Son olarak, [** Containerize.com **][8] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Yapılandırma Yönetimi Veritabanı Yazılımı (CMDB][9]) kategorisiyle iletişime geçin.
 
 ## Keşfetmek
-  *** [CMDB yazılımı] [9] **
-  *** [Ralph] [3] **
-  *[** Snipe-it **] [10]
-  *[** cmdbuild **] [11]
-  *** [Foreman] [12] **
-  *** [ITOP] [13] **
-  *[** Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin **] [14]
-  *** [2021'de bakmak için yazılım geliştirme eğilimleri] [15] **
+  *** [CMDB yazılımı][9] **
+  *** [Ralph][3] **
+  *[** Snipe-it **][10]
+  *[** cmdbuild **][11]
+  *** [Foreman][12] **
+  *** [ITOP][13] **
+  *[** Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin **][14]
+  *** [2021'de bakmak için yazılım geliştirme eğilimleri][15] **
+
+  
 [1]: https://blog.containerize.com/cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
 [2]: https://blog.containerize.com/cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
 [3]: https://products.containerize.com/cmdb-software/ralph/

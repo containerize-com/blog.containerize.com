@@ -67,14 +67,16 @@ A tecnologia Blockchain permite ** transações ponto a ponto ** para que os usu
 
 ## ** Conclusão: ** {#4A1A}
 Chegamos ao final de nossa lista de 10 principais tecnologias emergentes e de tendências atuais ** ** 2022. Essas dez principais tecnologias de código aberto mudaram drasticamente o mundo ao nosso redor. Este mundo seria um lugar muito diferente sem essas plataformas e tecnologias de código aberto. Existem algumas alternativas de código fechado disponíveis para essas tecnologias gratuitas. Os eventos FOSS4G e State of the Map são oportunidades de aprender mais sobre as necessidades de código aberto de software. Quase tudo seria diferente sem a evolução do software de código aberto OSS **. Agradecido pela iniciativa e comunidades de código aberto.
-_O que são sua lista de tecnologias de código aberto favorito?. Você tem alguma dúvida sobre o código aberto _Technologies_?, Por favor [entre em contato] [1].
+_O que são sua lista de tecnologias de código aberto favorito?. Você tem alguma dúvida sobre o código aberto _Technologies_?, Por favor [entre em contato][1].
 
 ## Explore:
 Também temos várias outras informações relacionadas do OSS Watch:
-  * [Melhor software de armazenamento em nuvem e compartilhamento de arquivos de código aberto] [2]
-  * [Software Top 5 de mensagens de código aberto (MQ) em 2021] [3]
-  * [Ferramentas forenses digitais mais populares de código aberto] [4]
-  * [Licenças de código aberto mais populares aprovadas pela OSI] [5]
+  * [Melhor software de armazenamento em nuvem e compartilhamento de arquivos de código aberto][2]
+  * [Software Top 5 de mensagens de código aberto (MQ) em 2021][3]
+  * [Ferramentas forenses digitais mais populares de código aberto][4]
+  * [Licenças de código aberto mais populares aprovadas pela OSI][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

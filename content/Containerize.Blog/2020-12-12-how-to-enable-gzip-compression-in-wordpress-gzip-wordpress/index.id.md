@@ -17,11 +17,11 @@ categories: ['Blogging']
 ## Ringkasan
 Karena Google dan mesin pencari lainnya mempertimbangkan pengalaman pengguna situs web (UX) sebagai faktor penting dalam algoritma peringkat mereka. Menjadi lebih penting untuk meningkatkan dan mengoptimalkan situs web Anda untuk peringkat teratas. Di antara faktor -faktor terpenting yang harus diperhatikan adalah, kecepatan halaman dan waktu pemuatan. Dan, cara tercepat dan termudah untuk meningkatkan kecepatan dan kinerja situs adalah dengan memungkinkan kompresi GZIP di situs web Anda. Ada kemungkinan host web Anda secara otomatis memungkinkan kompresi GZIP untuk Anda. Jika tidak, Anda harus melakukan tugas penting ini sendiri.
 Dalam artikel ini, kami akan menunjukkan kepada Anda bagaimana dengan mudah mengaktifkan kompresi GZIP di WordPress. Mari kita mulai!
-  *[** Apa itu kompresi gzip **?] [1]
-  *[** Bagaimana cara kerja kompresi gzip? **] [2]
-  *** [Bagaimana cara memverifikasi apakah kompresi gzip diaktifkan?] [3] **
-  *** [Aktifkan kompresi GZIP di WordPress] [4] **
-  *** [Kesimpulan] [5] **
+  *[** Apa itu kompresi gzip **?][1]
+  *[** Bagaimana cara kerja kompresi gzip? **][2]
+  *** [Bagaimana cara memverifikasi apakah kompresi gzip diaktifkan?][3] **
+  *** [Aktifkan kompresi GZIP di WordPress][4] **
+  *** [Kesimpulan][5] **
 
 ## Apa itu kompresi gzip? {#Apa}
 GZIP adalah format file ** dan aplikasi perangkat lunak ** digunakan untuk kompresi file dan dekompresi. Server web atau perangkat lunak lain menggunakan kompresi GZIP untuk mengompres file data sebelum dikirim ke browser pengguna. Ini mengurangi waktu unduhan file yang membuat situs web Anda lebih cepat. Semua browser modern mendukung kompresi GZIP.
@@ -41,7 +41,7 @@ Selanjutnya, arahkan ke tab ** jaringan ** dan klik URL utama situs web dari bag
 Di sana, Anda akan melihat apakah kompresi GZIP diaktifkan atau tidak.
 
 ## Mengaktifkan kompresi GZIP di WordPress {#Enable}
-Jika Anda telah menentukan bahwa ** kompresi GZIP WordPress belum diaktifkan **, ada beberapa metode yang dapat Anda gunakan untuk menjalankannya. Cara termudah adalah dengan menggunakan beberapa plugin WordPress seperti [WP Rocket] [6], [WP Super Cache] [7], atau [W3 Total Cache] [8]. Namun, Anda dapat melakukan ini secara manual di level server baik dengan file .htaccess atau dengan memperbarui konfigurasi nginx Anda.
+Jika Anda telah menentukan bahwa ** kompresi GZIP WordPress belum diaktifkan **, ada beberapa metode yang dapat Anda gunakan untuk menjalankannya. Cara termudah adalah dengan menggunakan beberapa plugin WordPress seperti [WP Rocket][6], [WP Super Cache][7], atau [W3 Total Cache][8]. Namun, Anda dapat melakukan ini secara manual di level server baik dengan file .htaccess atau dengan memperbarui konfigurasi nginx Anda.
 
 ### dengan mengedit file .htaccess
 Salah satu cara paling umum untuk mengaktifkan kompresi WordPress GZIP adalah dengan ** mengedit file _.htaccess_ Anda **. Namun, ini melibatkan risiko melanggar sesuatu. Ini adalah file server yang sensitif, dan satu langkah yang salah dapat menyebabkan banyak masalah.
@@ -90,18 +90,20 @@ gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon applic
 
 ## kesimpulan {#conclusion}
 Ini adalah akhir dari tutorial GZIP WordPress ini. Ada banyak cara untuk mengoptimalkan situs web Anda untuk kecepatan dan kinerja. Dalam tutorial GZIP WordPress ini, kami telah melalui apa itu kompresi GZIP, pentingnya kompresi GZIP, dan langkah -langkah pemasangannya. Selain itu, ada banyak tautan relevan yang disebutkan di bagian "Jelajahi" di bawah ini.
-Akhirnya, [containerize.com] [9] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Blogging] [10] untuk berita dan pembaruan reguler.
+Akhirnya, [containerize.com][9] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Blogging][10] untuk berita dan pembaruan reguler.
 
 ## Mengeksplorasi
-  * [Matomo] [11]
-  * [Masuk akal] [12]
-  * [WordPress] [13]
-  * [Jekyll] [14]
-  * [Cara Dockerize WordPress dengan Docker Compose] [15]
-  * [Bagaimana alat analisis bisnis gratis membantu bisnis Anda] [16]
-  * [Top 5 Open Source Business Intelligence Tools of 2021] [17]
-  * [Cara Menginstal Plugin di WordPress | Forum Vanilla] [18]
-  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis] [19]
+  * [Matomo][11]
+  * [Masuk akal][12]
+  * [WordPress][13]
+  * [Jekyll][14]
+  * [Cara Dockerize WordPress dengan Docker Compose][15]
+  * [Bagaimana alat analisis bisnis gratis membantu bisnis Anda][16]
+  * [Top 5 Open Source Business Intelligence Tools of 2021][17]
+  * [Cara Menginstal Plugin di WordPress | Forum Vanilla][18]
+  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis][19]
+
+  
 [1]: #what
 [2]: #work
 [3]: #verify

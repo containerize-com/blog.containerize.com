@@ -15,17 +15,17 @@ categories: ['Learning Management System']
 
 Ficamos aflitos pelo Covid 19 por mais de um ano. Cada parte do mundo foi colocada sob bloqueio. Tem um impacto negativo na vida e nas empresas das pessoas em todo o mundo. Mais importante, tem um grande impacto em nosso sistema educacional. As instituições educacionais precisam fazer a transição para a aprendizagem on -line para que os alunos possam continuar sua educação a partir do conforto de suas próprias casas. Sem uma plataforma de e-learning sólida e segura, o aprendizado on-line é impossível. Neste artigo, examinaremos o projeto ** Moodle Open Source **, que permite que professores e alunos se comuniquem e aprendam em qualquer lugar.
 Abordaremos as seguintes seções deste artigo para ** criar site de e-learning ** usando o Moodle.
-  * [Pré -requisitos] [1]
-  * [O que é Moodle?] [2]
-  * [Recursos do Moodle] [3]
-  * [Instalação do Moodle] [4]
-  * [Conclusão] [5]
+  * [Pré -requisitos][1]
+  * [O que é Moodle?][2]
+  * [Recursos do Moodle][3]
+  * [Instalação do Moodle][4]
+  * [Conclusão][5]
 
 ## Pré -requisitos {#Prereebisites}
 Se você ainda não o fez, deve instalar e configurar o ambiente da lâmpada em seu servidor.
 
 ## O que é Moodle? {#O que}
-[** Moodle **] [6] é uma solução de e-learning gratuita e de código aberto. Moodle significa o ambiente de aprendizado dinâmico orientado a objetos modular. Foi criado para oferecer aos educadores, administradores e alunos uma plataforma de e-learning para criar e fornecer ambientes de aprendizado individualizados. Além disso, o Moodle é um ** lms adequados para escolas **, universidades e cursos de treinamento profissional em empresas. É uma das soluções populares ** de aprendizado à distância ** para criar um site LMS. Além disso, o Moodle oferece aos professores e alunos com ferramentas ricas e ambientes de aprendizado colaborativo. O Moodle possui um aplicativo móvel para telefones e tablets para iPhone, Android e Windows. O aplicativo móvel pode ser usado em qualquer local em todo o mundo. Este ** LMS auto-hospedado ** é escrito em PHP e armazena dados nos bancos de dados MySQL/PostGresql. Ele vem com uma extensa documentação de usuário e desenvolvedor. Todo o código -fonte está disponível em [** github **] [7]. A licença para esta solução de e-learning de código aberto ** é GPLV3+.
+[** Moodle **][6] é uma solução de e-learning gratuita e de código aberto. Moodle significa o ambiente de aprendizado dinâmico orientado a objetos modular. Foi criado para oferecer aos educadores, administradores e alunos uma plataforma de e-learning para criar e fornecer ambientes de aprendizado individualizados. Além disso, o Moodle é um ** lms adequados para escolas **, universidades e cursos de treinamento profissional em empresas. É uma das soluções populares ** de aprendizado à distância ** para criar um site LMS. Além disso, o Moodle oferece aos professores e alunos com ferramentas ricas e ambientes de aprendizado colaborativo. O Moodle possui um aplicativo móvel para telefones e tablets para iPhone, Android e Windows. O aplicativo móvel pode ser usado em qualquer local em todo o mundo. Este ** LMS auto-hospedado ** é escrito em PHP e armazena dados nos bancos de dados MySQL/PostGresql. Ele vem com uma extensa documentação de usuário e desenvolvedor. Todo o código -fonte está disponível em [** github **][7]. A licença para esta solução de e-learning de código aberto ** é GPLV3+.
 
 ## Recursos do Moodle {#Features}
 Moodle vem com muitos recursos. No entanto, neste artigo, analisaremos alguns dos seguintes recursos importantes.
@@ -114,12 +114,14 @@ sudo systemctl restart nginx
 
 ## Conclusão {#conclusion}
 Aprendemos sobre o Moodle e seus principais recursos neste artigo. Também analisamos uma abordagem passo a passo para configurar ** Moodle LMS ** para ** Criar site de e-learning **. Você pode revisar a [** documentação oficial ** do Moodle [8] para se sentir mais confortável com várias funções, como cursos, registro de estudantes, rastreamento de progresso e assim por diante. Espero que você tenha achado este post útil na criação de um site LMS.
-Finalmente, [** containerize.com **] [9] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** Sistema de gerenciamento de aprendizado **] [10] para as atualizações mais recentes.
+Finalmente, [** containerize.com **][9] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** Sistema de gerenciamento de aprendizado **][10] para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** Ferramentas LMS de código aberto **] [11]
-  *[** Moodle-sistema de e-learning **] [12]
+  *[** Ferramentas LMS de código aberto **][11]
+  *[** Moodle-sistema de e-learning **][12]
+
+  
 [1]: #Prerequisites
 [2]: #What
 [3]: #Features

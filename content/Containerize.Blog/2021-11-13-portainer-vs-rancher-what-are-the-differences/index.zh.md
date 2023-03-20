@@ -24,8 +24,8 @@ Portainer和Rancher可以归类为容器管理工具。为了简单起见，本�
   * **结论**
 
 ## ** 1。什么是Portainer？**
-[Portainer] [1]是最受欢迎的容器管理平台。 DevOps工程师将Portainer描述为Docker的简单管理UI。 Portainer是一种开源轻型Contianer Management UI，它使您可以轻松管理Docker环境。它从来没有那么容易管理Docker，但是Portainer可以在Windows，Linux和Mac操作系统上使用。 Portainer替代方案是Azure容器注册表，牧场主和Docker Swarm。它于2017年在新西兰成立，Portainer Web GUI默认端口为9000。
-Portainer是一种功能强大的开源管理工具集，可让您轻松构建，管理和维护Docker生产环境。它的开发是为了帮助客户采用Docker容器技术并加速时间价值。 Portainer与Docker Swarm和基于Kubernetes的集群管理集成在一起。 Portainer是一种开源工具，具有20.1k GitHub星和1.8K GitHub叉。打开源容器化平台** Portainer源代码存储库**可通过[GitHub] [2]获得。 Portainer为容器化应用程序提供的一些功能是：
+[Portainer][1]是最受欢迎的容器管理平台。 DevOps工程师将Portainer描述为Docker的简单管理UI。 Portainer是一种开源轻型Contianer Management UI，它使您可以轻松管理Docker环境。它从来没有那么容易管理Docker，但是Portainer可以在Windows，Linux和Mac操作系统上使用。 Portainer替代方案是Azure容器注册表，牧场主和Docker Swarm。它于2017年在新西兰成立，Portainer Web GUI默认端口为9000。
+Portainer是一种功能强大的开源管理工具集，可让您轻松构建，管理和维护Docker生产环境。它的开发是为了帮助客户采用Docker容器技术并加速时间价值。 Portainer与Docker Swarm和基于Kubernetes的集群管理集成在一起。 Portainer是一种开源工具，具有20.1k GitHub星和1.8K GitHub叉。打开源容器化平台** Portainer源代码存储库**可通过[GitHub][2]获得。 Portainer为容器化应用程序提供的一些功能是：
   *容器易于部署和管理
   *监视性能和行为
   * IT治理和安全
@@ -33,8 +33,8 @@ Portainer是一种功能强大的开源管理工具集，可让您轻松构建�
   * Docker群集管理
 
 ## 2.什么是牧场主？
-[Rancher] [3]是Kubernetes的开源容器管理平台。它包括Kubernetes，Apache Mesos和Docker Swarm的完整分布，使在任何云或基础架构平台上操作容器簇变得易于操作。牧场主被描述为用于运行容器服务和创建集群的开源管理平台。它可以轻松地从头部署新簇，甚至可以导入现有的Kubernetes群集。 Rancher的建造是为了运行和管理多个基于Kubernetes的集群管理。 Rancher Web GUI在默认端口80/443上工作。
-Rancher是用于在容器上工作的团队的完整软件堆栈，托管牧场主可能很复杂。它成功地简化了管理多个Kubernetes群集的操作和安全挑战，同时为开发和操作团队提供了用于运行容器化软件的集成工具。当您将容器部署到生产或开发集群环境中时，您将需要快速访问登录以分析容器错误。因此，一个好的解决方案是在云上或在云上的DevOps群集中部署牧场主。牧场主是一种开源工具，具有18.1k GitHub星和2.4k GitHub叉。 **牧场主源代码存储库**可从[Github] [4]获得。牧场主提供以下关键功能：
+[Rancher][3]是Kubernetes的开源容器管理平台。它包括Kubernetes，Apache Mesos和Docker Swarm的完整分布，使在任何云或基础架构平台上操作容器簇变得易于操作。牧场主被描述为用于运行容器服务和创建集群的开源管理平台。它可以轻松地从头部署新簇，甚至可以导入现有的Kubernetes群集。 Rancher的建造是为了运行和管理多个基于Kubernetes的集群管理。 Rancher Web GUI在默认端口80/443上工作。
+Rancher是用于在容器上工作的团队的完整软件堆栈，托管牧场主可能很复杂。它成功地简化了管理多个Kubernetes群集的操作和安全挑战，同时为开发和操作团队提供了用于运行容器化软件的集成工具。当您将容器部署到生产或开发集群环境中时，您将需要快速访问登录以分析容器错误。因此，一个好的解决方案是在云上或在云上的DevOps群集中部署牧场主。牧场主是一种开源工具，具有18.1k GitHub星和2.4k GitHub叉。 **牧场主源代码存储库**可从[Github][4]获得。牧场主提供以下关键功能：
   * Kubernetes管理和部署
   *用户管理与协作
   *集装箱编排和调度
@@ -56,11 +56,13 @@ _什么开源容器管理Technolog_y您更喜欢_？您对Portainer和Rancher之
 
 ## 探索：
 我们还有其他几篇相关文章来处理IT管理员的日常任务管理：
-  *** [DevOps 2021的前5个开源容器编排工具] [6] **
-  *** [最佳开源云存储和文件共享软件] [7] **
-  *** [2021年的前5个开源消息队列（MQ）软件] [8] **
-  *** [最受欢迎的开源数字法医工具] [9] **
-  *** [最受欢迎的OSI批准的开源许可] [10] **
+  *** [DevOps 2021的前5个开源容器编排工具][6] **
+  *** [最佳开源云存储和文件共享软件][7] **
+  *** [2021年的前5个开源消息队列（MQ）软件][8] **
+  *** [最受欢迎的开源数字法医工具][9] **
+  *** [最受欢迎的OSI批准的开源许可][10] **
+
+  
 [1]: https://www.portainer.io/
 [2]: https://github.com/portainer/portainer
 [3]: https://rancher.com/

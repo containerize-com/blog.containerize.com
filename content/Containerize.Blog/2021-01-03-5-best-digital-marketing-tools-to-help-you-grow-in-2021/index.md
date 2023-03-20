@@ -75,7 +75,7 @@ Hope that this list of tools used in digital marketingwill help you in your digi
 
 We put together a list of digital marketing platforms examples. Make sure that you understand these online marketing tools list well to bring about remarkable improvements in your brand name online. Remember, better and comprehensive tools are equivalent to better marketing. I hope this list is useful, what do you find most useful of the digital marketing tools we have covered in this article.
 
-_What digital marketing_ _tools do you use online?. If you have any questions or thoughts, please_ [get in][12] [touch][13].
+_What digital marketing_ _tools do you use online?. If you have any questions or thoughts, please_ [get in][12][touch][13].
 
 ## Explore:
 

@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 
 ## Si está buscando usar múltiples versiones de PHP con Nginx, entonces en este artículo le guiaremos paso a paso sobre cómo instalar PHP con Nginx en Ubuntu.
 Este artículo continúa de nuestra serie sobre tutoriales sobre Nginx. Hasta ahora hemos cubierto cómo usar Nginx como equilibrador de carga, cómo usar Nginx como proxy inverso. Y ahora este tutorial cubre otra pregunta exigente "Cómo usar múltiples versiones de PHP con Nginx". En este tutorial, le guiaremos paso a paso sobre cómo instalar PHP en Ubuntu, cómo configurar PHP con NGINX y, finalmente, cómo puede instalar múltiples versiones de PHP con NGINX. ¡Entonces empecemos!
-  * [Instalar nginx] [1]
-  * [Instale múltiples versiones de PHP] [2]
-  * [Crear múltiples sitios web con PHP] [3]
-  * [Configure Nginx para ejecutar diferentes versiones para sitios web] [4]
-  * [Conclusión] [5]
+  * [Instalar nginx][1]
+  * [Instale múltiples versiones de PHP][2]
+  * [Crear múltiples sitios web con PHP][3]
+  * [Configure Nginx para ejecutar diferentes versiones para sitios web][4]
+  * [Conclusión][5]
 
 ## instalar nginx {#nginx}
 Nginx (pronunciado como "Engine-X") es un servidor web de código abierto que a menudo se usa como proxy inverso o caché HTTP. Está disponible para Linux gratis.
@@ -172,8 +172,10 @@ systemctl restart php7.2-fpm
 En este tutorial exploramos cómo múltiples versiones de PHP en Ubuntu. Aprendimos a instalar Nginx. Luego exploramos cómo configurar dos sitios web diferentes en Nginx. Y finalmente aprendimos a configurar dos sitios web diferentes con diferentes versiones de PHP con Nginx. Espero que el tutorial te haya ayudado.
 
 ## Explorar
-  * [Cómo configurar y configurar Nginx como proxy inverso] [6]
-  * [Cómo usar Nginx como equilibrador de carga para su aplicación] [7]
+  * [Cómo configurar y configurar Nginx como proxy inverso][6]
+  * [Cómo usar Nginx como equilibrador de carga para su aplicación][7]
+
+  
 [1]: #nginx
 [2]: #php
 [3]: #web

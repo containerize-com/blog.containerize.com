@@ -14,13 +14,13 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/deployer-blog-post.png" alt="PHP -Bereitstellungstool">}}
 
 Nach der Entwicklung ist es ein sehr kritischer Auftrag, Anwendung auf dem Server bereitzustellen. Neue Funktionen und Fehlerbehebungen werden häufig von Teams veröffentlicht. Daher ist es den Teams vorzuziehen, manuelle Arbeiten zu eliminieren und den Prozess der ** Software -Bereitstellung ** zu automatisieren. Es würde es ermöglichen, Software -Teams auf wichtigere Aufgaben zu konzentrieren. Es gibt mehrere ** Open -Source -Bereitstellungs -Tool ** draußen, aber wir werden uns in diesem Tutorial auf ** PHP -Deploymer ** konzentrieren. Wir werden den folgenden Abschnitt in diesem Beitrag abdecken.
-  *[** Was ist ein Bereitsteller **] [1]
-  *[** Installieren des Bereitstellers **] [2]
-  *[** PHP -Anwendung bereitstellen **] [3]
-  *[** Schlussfolgerung **] [4]
+  *[** Was ist ein Bereitsteller **][1]
+  *[** Installieren des Bereitstellers **][2]
+  *[** PHP -Anwendung bereitstellen **][3]
+  *[** Schlussfolgerung **][4]
 
 ## Was ist ein Bereitsteller {#What}
-[** Deployer **] [5] ist ein kostenloses und open-Source ** PHP-Bereitstellungswerkzeug **. Es ermöglicht Software-Teams zur Automatisierung von Bereitstellungsworkflows für PHP-basierte Anwendungen. Es ist sehr einfach zu installieren und einfach zu bedienen. Jeder, von Anfänger bis zu Expertenebene, kann es schnell für die Bereitstellung von PHP -Anwendungen verwenden. Deployer verfügt über außerhalb der Box-Rezepte/-Skripts für beliebte PHP-Frameworks, CMS und Einkaufswagen-Software. Darüber hinaus können Sie mit diesem ** Open -Source -Bereitstellungswerkzeug ** eine Laravel -Bereitstellung ** ausführen. Der Entwickler kann integrierte Rezepte für seine Projekte verwenden und sie zur Bereitstellung verwenden. Darüber hinaus können Sie einfach das Installations-/Bereitstellen -Skript mit dem Assistenten ** PHP Deployer ** erstellen. Darüber hinaus bietet dieses ** kostenlose Bereitstellungstool ** hervorragende Funktionen wie Zero-DownTime-Bereitstellungen, Rollback für die vorherige Version, SSH, parallele Ausführung und viele mehr.
+[** Deployer **][5] ist ein kostenloses und open-Source ** PHP-Bereitstellungswerkzeug **. Es ermöglicht Software-Teams zur Automatisierung von Bereitstellungsworkflows für PHP-basierte Anwendungen. Es ist sehr einfach zu installieren und einfach zu bedienen. Jeder, von Anfänger bis zu Expertenebene, kann es schnell für die Bereitstellung von PHP -Anwendungen verwenden. Deployer verfügt über außerhalb der Box-Rezepte/-Skripts für beliebte PHP-Frameworks, CMS und Einkaufswagen-Software. Darüber hinaus können Sie mit diesem ** Open -Source -Bereitstellungswerkzeug ** eine Laravel -Bereitstellung ** ausführen. Der Entwickler kann integrierte Rezepte für seine Projekte verwenden und sie zur Bereitstellung verwenden. Darüber hinaus können Sie einfach das Installations-/Bereitstellen -Skript mit dem Assistenten ** PHP Deployer ** erstellen. Darüber hinaus bietet dieses ** kostenlose Bereitstellungstool ** hervorragende Funktionen wie Zero-DownTime-Bereitstellungen, Rollback für die vorherige Version, SSH, parallele Ausführung und viele mehr.
 
 ## Installieren des Bereitstellers {#installing}
   * Der Einsatz hängt vom PHP ab. Sie sollten sicherstellen, dass PHP auf Ihrem Server ausgeführt wird. Sie können jedoch den folgenden Befehl verwenden, um PHP auf Ubuntu zu installieren.
@@ -119,20 +119,22 @@ dep rollback
 
 ## Schlussfolgerung {#Conclusion}
 Wir haben über den Einsatz und die Installation in diesem Tutorial besprochen. Darüber hinaus haben wir eine vollständige Richtlinie für die Bereitstellung von PHP -basierten Anwendung aus GitHub Repository erstellt. Hoffentlich hilft Ihnen dieser Blog -Beitrag dabei, ** PHP -Anwendung ** mit Deployer bereitzustellen. Darüber hinaus werden wir mehr über dieses ** PHP -Bereitstellungswerkzeug ** in den kommenden Tutorials schreiben.
-Schließlich befindet sich [** Containerize.com **] [6] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [** Bereitstellungswerkzeuge **] [7] in Kontakt, um die neuesten Updates zu erhalten.
+Schließlich befindet sich [** Containerize.com **][6] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [** Bereitstellungswerkzeuge **][7] in Kontakt, um die neuesten Updates zu erhalten.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  *[** Deploymer **] [8]
-  *[** Jenkins **] [9]
-  *[** Drohne **] [10]
-  *[** Capistrano **] [11]
-  *[** Rancher **] [12]
-  *[** Concourse **] [13]
-  *[** Ansible **] [14]
-  *[** GOCD **] [15]
-  *[** Top 5 Open Source -Bereitstellungswerkzeuge in 2021 **] [16]
-  *[** Kontinuierliche Integration und kontinuierliche Bereitstellung vom Quellungssteuerserver **] [17]
+  *[** Deploymer **][8]
+  *[** Jenkins **][9]
+  *[** Drohne **][10]
+  *[** Capistrano **][11]
+  *[** Rancher **][12]
+  *[** Concourse **][13]
+  *[** Ansible **][14]
+  *[** GOCD **][15]
+  *[** Top 5 Open Source -Bereitstellungswerkzeuge in 2021 **][16]
+  *[** Kontinuierliche Integration und kontinuierliche Bereitstellung vom Quellungssteuerserver **][17]
+
+  
 [1]: #What
 [2]: #Installing
 [3]: #Deploy

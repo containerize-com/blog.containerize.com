@@ -13,19 +13,19 @@ categories: ['Video Editing Software']
 
 {{< figure align=center src="images/blender.png" alt="Blender Video Düzenleme Eğitimi">}}
 
-Yakın geçmişte ** açık kaynaklı video düzenleme yazılımı ** hakkında bazı makaleler yayınladık [Açık Kaynak Video Editör İşletme Video Pazarlamasını Nasıl Artırıyor] [1], [2021 Video Pazarlama için Top 5 Ücretsiz Video Oluşturma Araçları] [ 2] ve bir öğretici makale [OpenShot Video Editor ile video düzenlemeye başlamak için bir öğretici] [3]. Bu ** Blender Video Düzenleme Eğitimi, ** Aşağıdaki noktaları kaplayarak ** Blender Video Editor ** ile nasıl kurulacağını ve başlayacağınızı öğreneceğiz:
-  * [Blender yazılımı nedir] [4]?
-  * [Blender ile Video Düzenlemeye Nasıl Başlanır] [5]
-  * [Özellik Keşfi] [6]
-  * [Sonuç] [7]
+Yakın geçmişte ** açık kaynaklı video düzenleme yazılımı ** hakkında bazı makaleler yayınladık [Açık Kaynak Video Editör İşletme Video Pazarlamasını Nasıl Artırıyor][1], [2021 Video Pazarlama için Top 5 Ücretsiz Video Oluşturma Araçları][ 2] ve bir öğretici makale [OpenShot Video Editor ile video düzenlemeye başlamak için bir öğretici][3]. Bu ** Blender Video Düzenleme Eğitimi, ** Aşağıdaki noktaları kaplayarak ** Blender Video Editor ** ile nasıl kurulacağını ve başlayacağınızı öğreneceğiz:
+  * [Blender yazılımı nedir][4]?
+  * [Blender ile Video Düzenlemeye Nasıl Başlanır][5]
+  * [Özellik Keşfi][6]
+  * [Sonuç][7]
 Mevcut zaman noktasında, her markanın daha iyi pazarlama için bir hikayeye ihtiyacı vardır. Bununla birlikte, videolar marka pazarlamasının en hızlı ve en etkili kaynağı olarak kabul edilir. Etkili video pazarlamasının arkasındaki önemli nedenler, videoların görsellerden, seslerden oluşması ve diğer nedenlerin videoların uzunluğu daha kısa olması ve dolayısıyla pazarlamacıların izleyicilerini kolayca izleyebilmeleridir. Ayrıca, cep telefonu kullanıcıları video pazarlamasına büyük elverişlidir. Şimdi, birçok platform videolarla birlikte gelen iş profillerini sıralıyor çünkü videolar yüksek dönüşüm oranı ve tıklama oranlarına sahip.
 
 ## Blender yazılımı nedir? {#intro}
-[Blender] [8] ** 3D modelleme ** için de kullanılan ücretsiz ** açık kaynaklı video düzenleme yazılımı **'dır. Yüksek kaliteli animasyonlar üreten bir video dizisi düzenleyicisine dayanır. Kullanıcıların sesi video ile senkronize edebilecekleri bir senkronizasyon mekanizması vardır. Bu ücretsiz video düzenleme platformu, ana görünümler, sıralayıcı ve sıralayıcı/önizleme ile üç görünüm türü sunar. Dalga formu görselleştirme, canlı önizleme, hız kontrol geçişlerini filtreler, 3D boru hattı modelleme, birleştirme, simülasyon ve daha fazlası gibi birçok güçlü video düzenleme özelliği sağlar.
-Kullanıcı arayüzü söz konusu olduğunda, bu açık kaynak ** blender video düzenleyicisi ** mantıklı bir kullanıcı arayüzü sunar. Kullanıcı arayüzünün ana modülleri, başlangıçtaki topBar, sıçrama ekranı, durum çubuğu, sekmeler ve panellerdir. Blender C, C ++, Python'da yazılmıştır ve tüm kaynak kodu [GitHub] [9] 'da mevcuttur. MacOS, Windows ve Linux gibi tüm popüler platformlarda dağıtabilirsiniz. Geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur.
+[Blender][8] ** 3D modelleme ** için de kullanılan ücretsiz ** açık kaynaklı video düzenleme yazılımı **'dır. Yüksek kaliteli animasyonlar üreten bir video dizisi düzenleyicisine dayanır. Kullanıcıların sesi video ile senkronize edebilecekleri bir senkronizasyon mekanizması vardır. Bu ücretsiz video düzenleme platformu, ana görünümler, sıralayıcı ve sıralayıcı/önizleme ile üç görünüm türü sunar. Dalga formu görselleştirme, canlı önizleme, hız kontrol geçişlerini filtreler, 3D boru hattı modelleme, birleştirme, simülasyon ve daha fazlası gibi birçok güçlü video düzenleme özelliği sağlar.
+Kullanıcı arayüzü söz konusu olduğunda, bu açık kaynak ** blender video düzenleyicisi ** mantıklı bir kullanıcı arayüzü sunar. Kullanıcı arayüzünün ana modülleri, başlangıçtaki topBar, sıçrama ekranı, durum çubuğu, sekmeler ve panellerdir. Blender C, C ++, Python'da yazılmıştır ve tüm kaynak kodu [GitHub][9] 'da mevcuttur. MacOS, Windows ve Linux gibi tüm popüler platformlarda dağıtabilirsiniz. Geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur.
 
 ## Blender ile video düzenlemeye nasıl başlar {#installation}
-** Blender Video Düzenleme Eğitimi ** 'nin bu bölümünde, açık kaynaklı bir blender video düzenleyicisinin nasıl yükleneceğini öğreneceğiz. Kurulum prosedürü kolay ve düzdür. İlk olarak, bir MacBook kullanıyorum, bu yüzden aşağıdaki gereksinimleri yüklediğinizden emin olun. Ayrıca, diğer platformlar için gereksinimleri kontrol edebilirsiniz [burada] [10].
+** Blender Video Düzenleme Eğitimi ** 'nin bu bölümünde, açık kaynaklı bir blender video düzenleyicisinin nasıl yükleneceğini öğreneceğiz. Kurulum prosedürü kolay ve düzdür. İlk olarak, bir MacBook kullanıyorum, bu yüzden aşağıdaki gereksinimleri yüklediğinizden emin olun. Ayrıca, diğer platformlar için gereksinimleri kontrol edebilirsiniz [burada][10].
   * Git
   * CMake
   * Svn
@@ -67,18 +67,20 @@ Videoda kesme veya bölünmüş işlevler gerçekleştirmenin iki yolu vardır. 
 
 ## Sonuç {#Conclusion}
 Umarım, bu ** Blender Video Düzenleme Eğitimi ** açık kaynak ** Blender Video Editor ** hakkında size rehberlik etmiş olacaktır. Blender yazılımı ve bu video düzenleme platformunun diğer yönlerini yaşadık. Bu ** açık kaynaklı video düzenleme yazılımı ** özellikler ve video düzenleme hizmetleri açısından çok yönlüdür. İşletmeler için videolar, ürün ve hizmetleri anlaşılabilir hale getirmede ve trafiği artırmada güçlü bir rol oynamaktadır. E -posta pazarlaması, sosyal medya pazarlaması, SMS pazarlaması ve arama motoru pazarlaması gibi çeşitli pazarlama türleri vardır. Marka videolarını onlarla yerleştirirseniz tüm bu türler daha etkili hale gelir. Tüm popüler arama motorları video içeriğini daha yüksek sıralar. Bu nedenle, her zaman izleyici üzerinde son özlem etkisi bırakan iş için zorlayıcı, hikaye anlatımı ve ikna edici bir video yapın. Bunu yaparak, insanlar işinize güvenir ve herhangi bir karar verirken rahat hissederler.
-Son olarak, [Containerize.com] [11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video düzenleme yazılımı] [12] kategorisiyle iletişim halinde olun.
+Son olarak, [Containerize.com][11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video düzenleme yazılımı][12] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [OpenShot] [13]
-  * [Shotcut] [14]
-  * [Flowblade] [15]
-  * [Kdenlive] [16]
-  * [Blender] [8]
-  * [2021 video pazarlaması için ilk 5 ücretsiz video oluşturma aracı] [2]
-  * [OpenShot Video Düzenleyicisi ile Video Düzenlemeye Başlamak İçin Bir Öğretici] [3]
-  * [Açık Kaynak Video Editörü İşletme Video Pazarlamasını Nasıl Artırıyor] [1]
+  * [OpenShot][13]
+  * [Shotcut][14]
+  * [Flowblade][15]
+  * [Kdenlive][16]
+  * [Blender][8]
+  * [2021 video pazarlaması için ilk 5 ücretsiz video oluşturma aracı][2]
+  * [OpenShot Video Düzenleyicisi ile Video Düzenlemeye Başlamak İçin Bir Öğretici][3]
+  * [Açık Kaynak Video Editörü İşletme Video Pazarlamasını Nasıl Artırıyor][1]
+
+  
 [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
 [2]: https://blog.containerize.com/video-editing-software/top-5-open-source-video-editor-software-for-video-marketing/
 [3]: https://blog.containerize.com/video-editing-software/openshot-video-editor-tutorial-for-beginners-open-source/

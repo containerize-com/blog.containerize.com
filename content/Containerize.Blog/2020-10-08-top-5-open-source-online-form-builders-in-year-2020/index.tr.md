@@ -18,11 +18,11 @@ categories: ['Form']
 Çevrimiçi formlar çok önemlidir ve bunları kullanmak için birçok farklı neden vardır. Bir işletme ve ürün veya hizmetlerinizi çevrimiçi olarak satıyorsanız, müşterilerinizin ürünleriniz hakkında ne söylediğini bilmek isteyebilirsiniz. Bu nedenle, veri toplamak için formlar oluşturmak için çevrimiçi form oluşturucuya ihtiyacınız var.
 Pazarlama ekipleri her zaman kullanıcıların bilgileri potansiyel müşterilere dönüştürmek için bilgileri toplamak için formlar arıyor. Öğrenci, araştırma projeleri için anket verileri toplamak için formları kullanıyor. Kısacası, formlar birçok alan ve alan için yararlıdır.
 Doğru çevrimiçi form oluşturucu seçmenize yardımcı olmak için ekibimiz en iyi oluşturucu yazılımlarının bir listesini oluşturdu. İşte liste.
-  * [Form.io] [1]
-  * [Orbeon] [2]
-  * [Ohmyform] [3]
-  * [Webiny] [4]
-  * [FormTools] [5]
+  * [Form.io][1]
+  * [Orbeon][2]
+  * [Ohmyform][3]
+  * [Webiny][4]
+  * [FormTools][5]
 
 ### ** form.io ** {#formio}
 Form.io, gelişmiş seviye özelliklerine sahip en popüler form oluşturucu yazılımlarından biridir. Veri yönetimi API platformunun yanı sıra veri girişi web formları ve anketler oluşturmanıza yardımcı olur.
@@ -33,7 +33,7 @@ Form.io Node.js ve MongoDB'ye dayanır. Sunucusuz mimariyi destekler ve bu onu b
   * Oauth sağlayıcıları
   * Kullanıcı Yönetimi ve Auth
   * Sürükle ve Bırak arayüzü
-    [Devamını oku] [6]
+    [Devamını oku][6]
 
 ### ** Orbeon ** {#orbeon}
 Orbeon, herhangi bir teknik uzmanlık olmadan endüstriyel düzeyde karmaşık formlar üretmek için kullanılır. Platformu agnostik ve formları masaüstü, dizüstü bilgisayarlar ve cep telefonları aracılığıyla erişilebilir.
@@ -45,7 +45,7 @@ Orbeon, üçüncü taraf entegrasyonunu destekler, bu nedenle herhangi bir arka 
   * Çok sayfalık formlar.
   * Sunucu yığını.
   * Liferay desteği.
-    [Devamını oku] [7]
+    [Devamını oku][7]
 
 ### ** ohmyform ** {#ohmyform}
 Ohmyform, mobil hazır formlar, anketler ve sorgulamalar oluşturmak için açık kaynaklı bir yazılımdır. Standart web teknolojilerini takip eder ve formlar mobil, masaüstü ve web uygulamaları için kolayca yerleştirilebilir.
@@ -56,7 +56,7 @@ Ohmyform'un en önemli özellikleri burada listelenmiştir
   * Her kullanıcı için özel alt alanlar
   * Gömülebilir formlar
   * Hizmet API'sı olarak oluşur.
-    [Devamını oku] [8]
+    [Devamını oku][8]
 
 ### ** Webiny ** {#webiny}
 Webiny, üretime hazır tam özellikli formlar oluşturmak için açık kaynaklı kendi kendine barındırılmış yazılımdır. Bu sadece bir form oluşturucu değil. Ancak, çevrimiçi iş süreçlerinin çoğunu otomatikleştirmek için eksiksiz bir paket.
@@ -67,7 +67,7 @@ Sunucusuz mimari uygulamayı ölçeklendirilebilir hale getirir ve sizi yük ve 
   * Özel doğrulamalar
   * Üçüncü taraf entegrasyonlar
   * WebHooks
-    [Devamını oku] [9]
+    [Devamını oku][9]
 
 ### ** FormTools ** {#FormTools}
 Form Tools, güçlü, esnek, ücretsiz ve açık kaynaklı bir PHP/MySQL komut dosyasıdır. Formlarınızı ve verilerinizi yönetmek için web sitenize yüklemeniz gerekir. Ayrıca, FormTools, tek sayfa ve çok sayfalık formlar oluşturabileceğiniz bir form oluşturucu arayüzü ile birlikte gelir.
@@ -78,10 +78,12 @@ Kullanıcı yönetimi ve API desteği ile birlikte, FormTools'un sağladığı k
   * Yerleşik e-posta hizmeti
   * Harici formlar için entegrasyon
   * Google Haritalar için Destek
-    [Devamını oku] [10]
+    [Devamını oku][10]
 
 ### Çözüm
 Bu blogda en iyi açık kaynaklı çevrimiçi form oluşturucu yazılımını inceledik. Form.io, Webiny ve Ohmyform, üçüncü taraf entegrasyonlar için iyi bir kutu çözümü ve kapsamlı bir API desteğine sahiptir. Bu nedenle, üçüncü taraf bir arka uçla bağlantı kurmanız veya yerleşik analitiklere ihtiyacınız varsa bunları kullanabilirsiniz. Orbeon ve formtools hızlı bir şekilde ayarlamak istiyorsanız iyi bir seçimdir.
+
+  
 [1]: #formio
 [2]: #orbeon
 [3]: #ohmyform

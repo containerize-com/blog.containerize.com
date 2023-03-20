@@ -13,18 +13,18 @@ categories: ['Blockchain Platforms']
 {{_LINE_11_}}
 
 ## Descripción general
-Hoy en día es muy importante hacer que los procesos comerciales sean transparentes y seguros. A medida que las operaciones comerciales se vuelven complicadas, por lo que existe una gran posibilidad de fraude o tergiversación. En los sistemas tradicionales, los datos están centralizados y, por lo tanto, en riesgo de un corte de energía o pérdida de datos. Por lo tanto, la tecnología de contabilidad distribuida es la mejor solución para que su transacción digital sea segura y confiable. ** La tecnología DLT ** ofrece un sistema compartido para almacenar información de registros donde todos los datos están descentralizados. Todos mantienen el nodo en una cadena de bloques pueden rastrear cualquier transacción digital junto con el historial completo asociado con esa transacción. Además, este enfoque es muy seguro ya que está descentralizado y, por lo tanto, no hay una base de datos/servidor central abierta para los atacantes. Es rentable ya que no es necesario contratar una autoridad central o una persona técnica para cuidar la infraestructura descentralizada ** **. Sin embargo, [la tecnología descentralizada] [1] aparece como una solución a tales desafíos.
+Hoy en día es muy importante hacer que los procesos comerciales sean transparentes y seguros. A medida que las operaciones comerciales se vuelven complicadas, por lo que existe una gran posibilidad de fraude o tergiversación. En los sistemas tradicionales, los datos están centralizados y, por lo tanto, en riesgo de un corte de energía o pérdida de datos. Por lo tanto, la tecnología de contabilidad distribuida es la mejor solución para que su transacción digital sea segura y confiable. ** La tecnología DLT ** ofrece un sistema compartido para almacenar información de registros donde todos los datos están descentralizados. Todos mantienen el nodo en una cadena de bloques pueden rastrear cualquier transacción digital junto con el historial completo asociado con esa transacción. Además, este enfoque es muy seguro ya que está descentralizado y, por lo tanto, no hay una base de datos/servidor central abierta para los atacantes. Es rentable ya que no es necesario contratar una autoridad central o una persona técnica para cuidar la infraestructura descentralizada ** **. Sin embargo, [la tecnología descentralizada][1] aparece como una solución a tales desafíos.
 En este artículo, cubriremos los siguientes puntos.
-  * [¿Qué es la tecnología del libro mayor distribuido?] [2]
-  * [¿Casos de uso de blockchain?] [3]
-  * [Pros y contras de blockchain?] [4]
-  * [Conclusión] [5]
+  * [¿Qué es la tecnología del libro mayor distribuido?][2]
+  * [¿Casos de uso de blockchain?][3]
+  * [Pros y contras de blockchain?][4]
+  * [Conclusión][5]
 
 ## ¿Qué es la tecnología de contabilidad distribuida? {#qué}
 Blockchain es un tipo particular de base de datos descentralizada que almacena datos en forma de bloques. Estos bloques están vinculados entre sí para formar una cadena donde cada bloque contiene la dirección de su bloque anterior. Por lo tanto, el usuario puede rastrear todos los bloques para asegurarse de que los datos sean integridad. La mayoría de las veces, Blockchain se está utilizando como libro mayor digital para grabar ** transacciones digitales **. Por otro lado, se puede usar para almacenar cualquier tipo de datos. Los datos almacenados en los bloques son inmutables y no se pueden alterar.
 Hay un proceso completo que se ejecuta en cada transacción. Cada vez que se realizan transacciones, se suman nuevos bloques a la cadena de bloques con el acuerdo de todos los nodos activos en la red. Además, todos los nodos crean un acuerdo con la ayuda de un algoritmo de consenso. Hay tres tipos de algoritmos de consenso en esta tecnología de contabilidad distribuida ** **.
   *** Prueba de trabajo **: En este algoritmo de consenso, los mineros compiten y resuelven un rompecabezas que requiere una gran potencia computacional. Una vez que encuentran una solución que significa que tienen la prueba en forma de hash, su bloque es varificado por todos los nodos activos en la red y, por lo tanto, blockchain, agrega ese bloque a la cadena.
-  *** Prueba de estaca **: [Ethereum] [6] usa este algoritem de consenso. En este enfoque, en lugar de usar la potencia computacional, los validadores ponen sus monedas en juego para alcanzar un acuerdo.
+  *** Prueba de estaca **: [Ethereum][6] usa este algoritem de consenso. En este enfoque, en lugar de usar la potencia computacional, los validadores ponen sus monedas en juego para alcanzar un acuerdo.
   *** Tolerancia práctica de fallas bizantinas **: Según este algoritem de consenso, los nodos en la red procesan las transacciones y comparten con una otra. Un acuerdo se acumula sobre la base de las decisiones totales de todos los nodos.
 Además, los contratos inteligentes son los fragmentos de código que controlan y rigen todas las transacciones digitales ** **. Cualquiera puede hacer un desarrollo de contratos inteligentes e implementar esta infraestructura descentralizada en la red.
 
@@ -55,20 +55,22 @@ En esta sección, exploraremos los pros y los contras de la tecnología descentr
 
 ## conclusión {#conclusion}
 El advenimiento de blockchain para negocios no es menos que una sorpresa. Este enfoque moderno ha traído un potencial masivo a la industria tecnológica con sus características innovadoras y prometedoras relacionadas con la transparencia y la seguridad de los datos. ** Infraestructura descentralizada ** ha traído muchas oportunidades. Afortunadamente, hay una comunidad muy vibrante que respalda este enfoque revolucionario en el mundo de ** Tecnología descentralizada **. De hecho, los usuarios, los inversores, las empresas y los desarrolladores de software pueden encontrar un montón de documentos de apoyo y material con respecto al desarrollo de contratos inteligentes **, minería y otros aspectos. Por lo tanto, si se toma en serio el cambio de transacciones digitales de su negocio en la cadena de bloques, entonces es hora de elegir una plataforma de código abierto disponible en la sección "Explorar" a continuación.
-Además, ** Tecnología de contabilidad distribuida ** tiene una serie de casos de uso y las organizaciones lo están considerando seriamente al formular estrategias comerciales. Por último, [Contenerize.com] [7] ha estado trabajando para extender la lista de plataformas blockchain de código abierto. Por lo tanto, manténgase conectado con la categoría [plataformas blockchain] [1] para actualizaciones regulares.
+Además, ** Tecnología de contabilidad distribuida ** tiene una serie de casos de uso y las organizaciones lo están considerando seriamente al formular estrategias comerciales. Por último, [Contenerize.com][7] ha estado trabajando para extender la lista de plataformas blockchain de código abierto. Por lo tanto, manténgase conectado con la categoría [plataformas blockchain][1] para actualizaciones regulares.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Ethereum] [6]
-  * [Fabric de Hyperledger] [8]
-  * [OpenChain] [9]
-  * [Ripple] [10]
-  * [Multichain] [11]
-  * [Consensys Quorum] [12]
-  * [Cómo configurar la red de blockchain de quórum consensys localmente] [13]
-  * [Cómo configurar el nodo Ethereum en localhost | Guía para principiantes] [14]
-  * [Top 5 plataformas de blockchain de código abierto en 2020] [15]
-  * [Una guía básica sobre cómo crear un contrato inteligente de Ethereum] [16]
+  * [Ethereum][6]
+  * [Fabric de Hyperledger][8]
+  * [OpenChain][9]
+  * [Ripple][10]
+  * [Multichain][11]
+  * [Consensys Quorum][12]
+  * [Cómo configurar la red de blockchain de quórum consensys localmente][13]
+  * [Cómo configurar el nodo Ethereum en localhost | Guía para principiantes][14]
+  * [Top 5 plataformas de blockchain de código abierto en 2020][15]
+  * [Una guía básica sobre cómo crear un contrato inteligente de Ethereum][16]
+
+  
 [1]: https://products.containerize.com/blockchain-platforms/
 [2]: #what
 [3]: #cases

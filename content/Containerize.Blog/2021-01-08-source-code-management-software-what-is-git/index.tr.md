@@ -17,15 +17,15 @@ categories: ['Version Control Software']
 ## Genel Bakış
 Bir proje üzerinde çalışan bir yazılım geliştiricisi olarak sizi hayal edin. Üzerinde çalışan birden fazla kişiniz var. Ve kaynak kodunu içeren tek bir dosya var. Hepsi kodda değişiklik yaparken, her değişiklik yaptıklarında dosyanın farklı sürümlerine sahip olacaklar. Peki, şimdi aynı dosyanın farklı sürümlerini nasıl yöneteceğiz? Kaynak kodu yönetimi yazılımı devreye girer. Aynı dosyanın farklı sürümlerini yönetmenize ve birleştirmenize yardımcı olur. Ve hatta değişim geçmişini izlemenize izin ver. Ve her zaman dosyadaki değişiklikleri ve bu değişikliklerin neler yaptığından emin olabilirsiniz.
 Bu makalede, GIT sürüm kontrol sistemi hakkında bilgi edineceğiz. Yazılım geliştirme kaynak kod dosyalarınızı veya diğer dosyalarınızı yönetmek için nasıl kullanabilirsiniz. Öyleyse başlayalım.
-  *** [Sürüm Kontrol Sistemi Nedir] [1] **
-  *** [git nedir] [2] **
-  *** [git nasıl çalışır] [3] **
-  *** [Git'i yükle] [4] **
-  *** [bir depo oluşturma] [5] **
-  *** [Depodaki değişiklikleri kaydet] [6] **
-  *** [Deponun durumunu kontrol edin] [7] **
-  *** [değişiklikleri geri al veya geri alma] [8] **
-  *** [Sonuç] [9] **
+  *** [Sürüm Kontrol Sistemi Nedir][1] **
+  *** [git nedir][2] **
+  *** [git nasıl çalışır][3] **
+  *** [Git'i yükle][4] **
+  *** [bir depo oluşturma][5] **
+  *** [Depodaki değişiklikleri kaydet][6] **
+  *** [Deponun durumunu kontrol edin][7] **
+  *** [değişiklikleri geri al veya geri alma][8] **
+  *** [Sonuç][9] **
 
 ## Sürüm Kontrol Sistemi nedir {#Sürüm-Kontrol}
 Sürüm kontrolü, belirli sürümleri daha sonra hatırlayabilmeniz için zaman içinde değişiklikleri veya dosya kümesinde değişiklikleri kaydeden bir sistemdir. Bir yazılım geliştiriciyseniz ve kaynak kodu dosyasının sürümlerini tutmak istiyorsanız, kaynak kodu yönetimi yazılımı sizin için çok yararlı bir şeydir. Seçilen dosyaları önceki bir duruma geri döndürmenize, tüm projeyi önceki bir duruma geri döndürmenize, zaman içinde değişiklikleri karşılaştırmanıza, bir soruna neden olabilecek bir şeyi en son kimin değiştirdiğini, bir sorunu ve ne zaman ve daha fazlasını görmenizi sağlar. Sürüm kontrolünü kullanmak, işinizi kaybetme konusunda asla endişelenmenize gerek yoktur.
@@ -147,10 +147,12 @@ Artık GIT ve GIT'in nasıl çalıştığını tartıştığımız tüm makaleyi
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** GitHub Eylemleri ile Yazılım Geliştirme İş Akışlarını Otomatikleştirin **] [10]
-  *** [GITLAB CI/CD ile Sürekli Dağıtım Boru Hattı Nasıl Kurulur] [11] **
-  *** [dalları anlayın ve öğrenin ve istekleri GIT'de çekin] [12] **
-  *** [2021'de Top 5 Açık Kaynak Sürüm Kontrol Sistemleri] [13] **
+  *[** GitHub Eylemleri ile Yazılım Geliştirme İş Akışlarını Otomatikleştirin **][10]
+  *** [GITLAB CI/CD ile Sürekli Dağıtım Boru Hattı Nasıl Kurulur][11] **
+  *** [dalları anlayın ve öğrenin ve istekleri GIT'de çekin][12] **
+  *** [2021'de Top 5 Açık Kaynak Sürüm Kontrol Sistemleri][13] **
+
+  
 [1]: #version-control
 [2]: #git
 [3]: #how

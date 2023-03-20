@@ -15,17 +15,17 @@ categories: ['Artificial intelligence']
 
 
 ## 概述
-我们感谢我们一直支持我们博客的专门读者。我们最近有关[Code GPT] [1]，[Chatgpt] [2]和[Chatgpt与Google Sheets的集成] [3]的积极反馈是非常巨大的。为此，我们很高兴为您提供另一篇有益的文章，向您展示如何与电子商务网站**使用[PHP] [4]开发并个性化产品推荐功能。
+我们感谢我们一直支持我们博客的专门读者。我们最近有关[Code GPT][1]，[Chatgpt][2]和[Chatgpt与Google Sheets的集成][3]的积极反馈是非常巨大的。为此，我们很高兴为您提供另一篇有益的文章，向您展示如何与电子商务网站**使用[PHP][4]开发并个性化产品推荐功能。
 在当前的时间点，企业正在寻找改善和吸引客户体验的新方法。使用GPT-3模型培训的ChatGpt是一种高级且功能强大的工具，可以根据其**浏览器历史记录**为每个客户提供个性化产品建议的电子商务业务**。在本文中，我们将指导您**如何在基于PHP的应用程序中使用chatgpt**。但是，它将根据其浏览器历史记录和以前的购买来自动化其向客户推荐产品的过程。
 我们将按照下面提到的步骤来介绍CHATGPT集成：
-* [**如何整合chatgpt**] [5]
-* [**存储用户数据**] [6]
-* [**显示产品建议**] [7]
-* [**配置设置**] [8]
-* [**测试和调试**] [9]
+* [**如何整合chatgpt**][5]
+* [**存储用户数据**][6]
+* [**显示产品建议**][7]
+* [**配置设置**][8]
+* [**测试和调试**][9]
 
 ## 步骤1：如何集成chatgpt {#how-to-integrate-chatgpt}
-获得**ChatGpt集成**进入您的电子商务网站，这是个性化产品建议的第一步。为了做到这一点，您必须使用PHP向[OpenAI API] [10]发送请求，其中包含CHATGPT的必要信息以生成响应。上下文可能包括为用户浏览和购买历史记录。
+获得**ChatGpt集成**进入您的电子商务网站，这是个性化产品建议的第一步。为了做到这一点，您必须使用PHP向[OpenAI API][10]发送请求，其中包含CHATGPT的必要信息以生成响应。上下文可能包括为用户浏览和购买历史记录。
 
 ## 步骤2：存储用户数据{#Store-user-data}
 必须存储用户数据，以便Chatgpt生成个性化的产品建议。但是，数据可能包含有关用户浏览历史记录和购买的信息。因此，数据应牢固存储并仅用于生成个性化产品建议。
@@ -43,13 +43,13 @@ categories: ['Artificial intelligence']
 
 ## 结论
 这将我们带到了本**电子商务指南的结尾**。我们可以总结这篇博客文章，其中我们已经通过电子商务网站**实施**ChatGpt集成。此外，我们涵盖了成功**ChatGpt集成**所需的基本步骤**。因此，通过在基于PHP的电子商务网站中添加ChatGpt，您可以通过提供个性化的产品建议来大大增强客户体验。此外，您可以通过遵循本文概述的步骤来利用Chatgpt来提供满足每个客户需求的产品建议。最后，如果您想知道如何使用chatgpt，则可以查看下面的“另见”部分中的文章。
-最后，Containerize.com提供了有关各种开源产品和主题的持续博客文章。您可以通过在我们的社交媒体平台上关注我们，包括[Facebook] [11]，[LinkedIn] [12]和[Twitter] [13]。
+最后，Containerize.com提供了有关各种开源产品和主题的持续博客文章。您可以通过在我们的社交媒体平台上关注我们，包括[Facebook][11]，[LinkedIn][12]和[Twitter][13]。
 
 ## 问一个问题
-您可以在我们的[论坛] [14]上让我们知道您的问题或查询。
+您可以在我们的[论坛][14]上让我们知道您的问题或查询。
 
 ## 常见问题解答
-* *如何为chatgpt生成API键？**
+**如何为chatgpt生成API键？**
 {{_LINE_40_}}
   要为OpenAI的Chatgpt生成API键，您需要登录到OpenAI帐户，然后按以下步骤：
 {{_LINE_42_}}
@@ -79,11 +79,13 @@ categories: ['Artificial intelligence']
 
 ## 也可以看看
 {{_LINE_67_}}
-  * [人工智能简介|什么是AI？] [15]
-  * [如何与Google床单整合Chatgpt] [3]
-  * [如何在VSCODE中使用chatgpt | VSCODE扩展代码GPT] [1]
-  * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命] [2]
+  * [人工智能简介|什么是AI？][15]
+  * [如何与Google床单整合Chatgpt][3]
+  * [如何在VSCODE中使用chatgpt | VSCODE扩展代码GPT][1]
+  * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命][2]
 {{_LINE_72_}}
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/

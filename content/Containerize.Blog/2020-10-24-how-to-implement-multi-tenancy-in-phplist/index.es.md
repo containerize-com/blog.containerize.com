@@ -25,9 +25,9 @@ Podemos implementar múltiples tenientes utilizando los siguientes enfoques.
   * Base de datos compartida para todos los inquilinos.
   * Base de datos separada para cada inquilino.
 Utilizaremos una base de datos separada para cada enfoque de inquilinos para implementar múltiples tenientes en Phplist.
-  * [Flujo de solicitud de manejo] [1]
-  * [Configuración de la base de datos para el inquilino] [2]
-  * [Configurar nginx para el inquilino] [3]
+  * [Flujo de solicitud de manejo][1]
+  * [Configuración de la base de datos para el inquilino][2]
+  * [Configurar nginx para el inquilino][3]
 
 ## Flujo de solicitud de manejo {#request}
   * Tome una copia de seguridad de su archivo config.php y puede encontrarlo en el directorio de configuración.
@@ -63,11 +63,13 @@ El software de múltiples tenientes tiene algunas ventajas en comparación con l
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Phplist - Boletín de código abierto y software de marketing por correo electrónico] [4]
-  * [Cómo crear y enviar un boletín con Phplist] [5]
-  * [Cómo configurar y procesar rebotes en Phplist] [6]
-  * [Guía para principiantes para desarrollar el complemento Phplist] [7]
-  * [Configurar reglas avanzadas de gestión y rebote en Phplist] [8]
+  * [Phplist - Boletín de código abierto y software de marketing por correo electrónico][4]
+  * [Cómo crear y enviar un boletín con Phplist][5]
+  * [Cómo configurar y procesar rebotes en Phplist][6]
+  * [Guía para principiantes para desarrollar el complemento Phplist][7]
+  * [Configurar reglas avanzadas de gestión y rebote en Phplist][8]
+
+  
 [1]: #request
 [2]: #database
 [3]: #nginx

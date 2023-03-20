@@ -15,20 +15,20 @@ categories: ['Animation Software']
 
 
 ## Überblick
-Willkommen zu einem weiteren Blog -Beitrag in der Serie von [Open -Source -Animationssoftware] [1]. In der jüngeren Vergangenheit haben wir einige Artikel zu interessanten Themen wie [Synfig VS Pencil2d | veröffentlicht Animation Software Synfig Review] [2], [Top 5 Open -Source -Animationssoftware in 2021] [3] und mehr. Da sich die Technologie im Laufe der Zeit weiterentwickelt, wirkt sich alle Aspekte des Geschäftstätigkeits sehr aus. Aufgrund der vielseitigen Natur der Publikumstechniken gab es eine immense Veränderung der Marketingstrategien. Online -Präsenzunternehmen sind jetzt unvermeidlich und Sie müssen die neuesten Möglichkeiten einnehmen, um Ihre Zielgruppe abzuzielen.
+Willkommen zu einem weiteren Blog -Beitrag in der Serie von [Open -Source -Animationssoftware][1]. In der jüngeren Vergangenheit haben wir einige Artikel zu interessanten Themen wie [Synfig VS Pencil2d | veröffentlicht Animation Software Synfig Review][2], [Top 5 Open -Source -Animationssoftware in 2021][3] und mehr. Da sich die Technologie im Laufe der Zeit weiterentwickelt, wirkt sich alle Aspekte des Geschäftstätigkeits sehr aus. Aufgrund der vielseitigen Natur der Publikumstechniken gab es eine immense Veränderung der Marketingstrategien. Online -Präsenzunternehmen sind jetzt unvermeidlich und Sie müssen die neuesten Möglichkeiten einnehmen, um Ihre Zielgruppe abzuzielen.
 Daher hat Open Source Community viele Tools auf Unternehmensebene aufgenommen. In der Tat macht das Marketing, das auf auffälligen Animationen basiert, Ihren Inhalt interessanter und erhöht die Besucherrückgabe. Darüber hinaus hilft es, die Benutzerbindung beizubehalten und den Marken -Slogan vereinfacht und schnell zu vermitteln. Wir werden diesen ** Opentoonz gegen Krita ** Blog -Beitrag jedoch vervollständigen, indem wir die folgenden Punkte beachten.
-  * [Was ist Krita?] [4]
-  * [Kurze Einführung von Opentoonz] [5]
-  * [Opentoonz gegen Krita] [6]
-  * [Schlussfolgerung] [7]
+  * [Was ist Krita?][4]
+  * [Kurze Einführung von Opentoonz][5]
+  * [Opentoonz gegen Krita][6]
+  * [Schlussfolgerung][7]
 
 ## Was ist Krita? {#krita}
-[Krita] [8] ist eine Open-Source-Animationssoftware auf Unternehmensebene, in der Künstler hoch interessante Bilder für ihre Unternehmenswebsites und andere Online-Plattformen produzieren können. Dieses Open-Source-Animationstool ist erweiterbar und bietet Selbsthostfunktionen. Krita ist plattformübergreifend und wird auf fast allen beliebten Plattformen wie Linux, Windows, MacOS und Android unterstützt. Darüber hinaus verfügt es über eine Google Chrome -Erweiterung, die Fachleuten 2D -Animationen erstellen kann. Diese ** 2D-Animationssoftware ** erstellt eine benutzerfreundliche Schnittstelle mit allen erforderlichen Tools für die Designer.
-Diese Open-Source-Animationssoftware ist jedoch mit einem gut gestalteten Pinsel mit umfangreichen Steuerelementen ausgestattet. Darüber hinaus gibt es mehrere verschiedene Zeichenassistenten, anpassbare Zwiebelhäuse und können Animationen Text hinzufügen. Krita ist leicht auf Server einzurichten und ist in C ++ geschrieben. Daher enthält es umfassende Dokumentation zu Entwicklung und Bereitstellung. So finden Sie alle Quellcode -Dateien auf [Github] [9].
+[Krita][8] ist eine Open-Source-Animationssoftware auf Unternehmensebene, in der Künstler hoch interessante Bilder für ihre Unternehmenswebsites und andere Online-Plattformen produzieren können. Dieses Open-Source-Animationstool ist erweiterbar und bietet Selbsthostfunktionen. Krita ist plattformübergreifend und wird auf fast allen beliebten Plattformen wie Linux, Windows, MacOS und Android unterstützt. Darüber hinaus verfügt es über eine Google Chrome -Erweiterung, die Fachleuten 2D -Animationen erstellen kann. Diese ** 2D-Animationssoftware ** erstellt eine benutzerfreundliche Schnittstelle mit allen erforderlichen Tools für die Designer.
+Diese Open-Source-Animationssoftware ist jedoch mit einem gut gestalteten Pinsel mit umfangreichen Steuerelementen ausgestattet. Darüber hinaus gibt es mehrere verschiedene Zeichenassistenten, anpassbare Zwiebelhäuse und können Animationen Text hinzufügen. Krita ist leicht auf Server einzurichten und ist in C ++ geschrieben. Daher enthält es umfassende Dokumentation zu Entwicklung und Bereitstellung. So finden Sie alle Quellcode -Dateien auf [Github][9].
 
 ## kurze Einführung von Opentoonz {#toonz}
-In diesem Abschnitt des Blog -Posts von ** Opentoonz gegen Krita ** werden wir eine andere ** Open -Source -Animationssoftware ** [Opentoonz] [10] durchlaufen. Diese ** 2D -Animationssoftware ** erstellt einen Stapel reichhaltiger Plugins, der ansprechende Effekte bietet. Darüber hinaus ist dieses Open-Source-Animationstool einfach eingerichtet und bietet Selbsthostfunktionen. Darüber hinaus ist dieser kostenlose Animationsgenerator auch plattformübergreifend und wird für MacOS und Windows unterstützt. Darüber hinaus können Sie Bilder überlappen, um neue Bilder zu erstellen, und Sie können das einfallende Licht mithilfe des betroffenen einfallenden Lichteffekts ändern.
-Opentoonz ist in C ++ zusammen mit Eingaben aus anderen Sprachen wie C und HTML geschrieben. Daher können Entwickler Dokumentation zu Entwicklung und Bereitstellung finden. Tatsächlich finden Sie die Quellcode -Dateien auf dem GitHub [Repo] [11].
+In diesem Abschnitt des Blog -Posts von ** Opentoonz gegen Krita ** werden wir eine andere ** Open -Source -Animationssoftware ** [Opentoonz][10] durchlaufen. Diese ** 2D -Animationssoftware ** erstellt einen Stapel reichhaltiger Plugins, der ansprechende Effekte bietet. Darüber hinaus ist dieses Open-Source-Animationstool einfach eingerichtet und bietet Selbsthostfunktionen. Darüber hinaus ist dieser kostenlose Animationsgenerator auch plattformübergreifend und wird für MacOS und Windows unterstützt. Darüber hinaus können Sie Bilder überlappen, um neue Bilder zu erstellen, und Sie können das einfallende Licht mithilfe des betroffenen einfallenden Lichteffekts ändern.
+Opentoonz ist in C ++ zusammen mit Eingaben aus anderen Sprachen wie C und HTML geschrieben. Daher können Entwickler Dokumentation zu Entwicklung und Bereitstellung finden. Tatsächlich finden Sie die Quellcode -Dateien auf dem GitHub [Repo][11].
 
 ## Opentoonz gegen Krita {#vs}
 Bisher haben wir das kurze Intro von Opentoonz durchlaufen und wissen, was Krita ist? Darüber hinaus werden wir die folgenden Punkte abdecken, um einen Vergleich zwischen Opentoonz und Krita zu zeichnen.
@@ -50,16 +50,18 @@ Dies ist ein weiterer sehr kritischer Aspekt, wenn es darum geht, sich für Open
 
 ## Schlussfolgerung {#Conclusion}
 Dies bringt uns bis zum Ende dieses ** OpenToonz gegen Krita ** Blog -Beitrag. Hoffentlich hilft es Ihnen dabei, die richtige Wahl zwischen diesen beiden ** Open -Source -Animationssoftware ** zu treffen. Wir haben einige wichtige Themen in diesem Artikel durchgemacht, wie z. B. was ist Krita? und ein kurzes Intro von Opentoonz. Es finden Sie einige andere interessante Open -Source -Animationstools und -artikel, die im Abschnitt „Explore“ eingetragen sind, damit Sie möglicherweise auschecken.
-Schließlich schreibt [Containerize.com] [12] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Animationssoftware] [13] in Kontakt, um regelmäßige Aktualisierungen zu erzielen. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook] [14], [LinkedIn] [15] und [Twitter] [16] folgen.
+Schließlich schreibt [Containerize.com][12] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Animationssoftware][13] in Kontakt, um regelmäßige Aktualisierungen zu erzielen. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][14], [LinkedIn][15] und [Twitter][16] folgen.
 
 ## Erkunden
 Die folgenden Links finden relevant.
-  * [Beste Open -Source -Animationssoftware] [13]
-  * [Synfig -Tutorial | Eine Open -Source -2D -Animationssoftware] [17]
-  * [So erstellen Sie Animationen mit Pencil2D -Animationssoftware] [18]
-  * [Synfig vs Pencil2d | Animation Software Synfig Review] [2]
-  * [Top 5 Open -Source -Animationssoftware in 2021] [3]
-  * [Anfängerleitfaden zur kostenlosen Bildbearbeitung mit Digikam] [19]
+  * [Beste Open -Source -Animationssoftware][13]
+  * [Synfig -Tutorial | Eine Open -Source -2D -Animationssoftware][17]
+  * [So erstellen Sie Animationen mit Pencil2D -Animationssoftware][18]
+  * [Synfig vs Pencil2d | Animation Software Synfig Review][2]
+  * [Top 5 Open -Source -Animationssoftware in 2021][3]
+  * [Anfängerleitfaden zur kostenlosen Bildbearbeitung mit Digikam][19]
+
+  
 [1]: https://blog.containerize.com/category/animation-software/
 [2]: https://blog.containerize.com/animation-software/synfig-vs-pencil2d-animation-software-synfig-review/
 [3]: https://blog.containerize.com/animation-software/top-5-open-source-animation-software-in-2021/

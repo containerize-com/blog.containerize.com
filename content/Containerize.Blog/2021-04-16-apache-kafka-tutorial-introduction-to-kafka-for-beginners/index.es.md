@@ -14,14 +14,14 @@ categories: ['Message Queue Software']
 {{< figure align=center src="images/apache-kafka-open-source.png" alt="Tutorial de código abierto Apache Kafka">}}
 
 Recientemente escribimos un artículo sobre "Kafka vs Redis Pub-sub" que explica sobre las diferencias entre Kafka y Redis Pub-sub. En ese artículo explicamos en breve sobre el propio Broker de mensajes de Kafka. Entonces, ahora este artículo le brinda más información sobre la plataforma de transmisión de eventos distribuidos de código abierto Apache Kafka y le brinda todo lo necesario Introducto para comenzar con la cola de mensajes distribuidos de Kafka. Entonces empecemos.
-  * [Introducción a Apache Kafka] [1]
-  * [¿Qué es un sistema de mensajería?] [2]
-  * [Términos fundamentales] [3]
-  * [Pasos de instalación] [4]
-  * [Crear un tema] [5]
-  * [Escribir mensaje en el tema] [6]
-  * [Lea los mensajes del tema] [7]
-  * [Conclusión] [8]
+  * [Introducción a Apache Kafka][1]
+  * [¿Qué es un sistema de mensajería?][2]
+  * [Términos fundamentales][3]
+  * [Pasos de instalación][4]
+  * [Crear un tema][5]
+  * [Escribir mensaje en el tema][6]
+  * [Lea los mensajes del tema][7]
+  * [Conclusión][8]
 
 ## Introducción a Apache Kafka {#Intro}
 El corredor de mensajes de código abierto de Apache Kafka se inició en LinkedIn y luego se convirtió en un proyecto Apache de código abierto. Kafka Message Broker Software se desarrolla en Scala y Java. Apache Kafka Broker es un sistema de mensajería de suscripción de publicación que también permite el intercambio de datos entre aplicaciones, servidores y procesadores. Es rápido, escalable y distribuido por diseño. Es capaz de manejar millones de datos o mensajes por segundo. Funciona como mediador entre el sistema de origen (productor) y el sistema objetivo (consumidor). Organizaciones como Netflix, Uber y miles de esas empresas hacen uso de la transmisión en tiempo real de Apache Kafka. En comparación con otros sistemas de mensajería, el software de cola de mensajes de Kafka tiene un mejor rendimiento, partición incorporada, replicación y tolerancia a fallas inherentes. Esto lo convierte en una buena opción para aplicaciones de procesamiento de mensajes a gran escala.
@@ -125,13 +125,15 @@ Siéntase libre de experimentar: por ejemplo, vuelva a su terminal de productor 
 
 ## conclusión {#conclusion}
 En este tutorial hemos aprendido sobre los conceptos básicos del uso de Apache Kafka. Instalamos el servicio de cola Kafka y luego lo configuramos. También aprendimos a crear temas en Kafka, enviar mensajes a temas y cómo leer mensajes de los temas. Espero que este artículo haya sido útil para ti. Veamos en el próximo artículo.
-_ ¿Qué plataforma de transmisión de eventos distribuida de código abierto? ¿Tiene alguna pregunta?, Por favor_ [póngase en contacto] [9].
+_ ¿Qué plataforma de transmisión de eventos distribuida de código abierto? ¿Tiene alguna pregunta?, Por favor_ [póngase en contacto][9].
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [El mejor software de cola de mensajes de código abierto y de código abierto (MQ)] [10]
-  * [Kafka vs Redis Pub-sub, diferencias que debes saber] [11]
-  * [Introducción a Redis Pub/Sub y ¿cómo funciona?] [12]
+  * [El mejor software de cola de mensajes de código abierto y de código abierto (MQ)][10]
+  * [Kafka vs Redis Pub-sub, diferencias que debes saber][11]
+  * [Introducción a Redis Pub/Sub y ¿cómo funciona?][12]
+
+  
 [1]: #intro
 [2]: #messaging
 [3]: #terms

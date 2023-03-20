@@ -16,11 +16,11 @@ categories: ['Programming']
 
 
 ## Ringkasan
-JavaScript adalah bahasa skrip yang digunakan untuk mengembangkan aplikasi berbasis web yang dinamis. Kami menggunakan HTML dan CSS untuk membangun situs web statis sedangkan JavaScript digunakan untuk menambahkan interaktivitas. Dalam posting blog kami sebelumnya, kami membahas [Model Objek Dokumen] [1] dan sekarang kami akan membahas beberapa konsep dasar**JavaScript penting lainnya**. Pengembang web cenderung memilih bahasa skrip ini karena fitur dan kerangka kerja yang kaya. Selain itu, Anda dapat melakukan pengembangan di ujung depan dan belakang dengan mempelajari JavaScript. Namun, Anda tidak hanya tidak hanya mengembangkan aplikasi web tetapi juga aplikasi seluler. Tutorial JavaScript ini akan membantu Anda jika Anda mempersiapkan diri untuk sesi wawancara. Namun demikian, panduan ini layak dibaca untuk menambah lebih banyak ke ember pengetahuan Anda.
+JavaScript adalah bahasa skrip yang digunakan untuk mengembangkan aplikasi berbasis web yang dinamis. Kami menggunakan HTML dan CSS untuk membangun situs web statis sedangkan JavaScript digunakan untuk menambahkan interaktivitas. Dalam posting blog kami sebelumnya, kami membahas [Model Objek Dokumen][1] dan sekarang kami akan membahas beberapa konsep dasar**JavaScript penting lainnya**. Pengembang web cenderung memilih bahasa skrip ini karena fitur dan kerangka kerja yang kaya. Selain itu, Anda dapat melakukan pengembangan di ujung depan dan belakang dengan mempelajari JavaScript. Namun, Anda tidak hanya tidak hanya mengembangkan aplikasi web tetapi juga aplikasi seluler. Tutorial JavaScript ini akan membantu Anda jika Anda mempersiapkan diri untuk sesi wawancara. Namun demikian, panduan ini layak dibaca untuk menambah lebih banyak ke ember pengetahuan Anda.
 Kami akan membahas poin -poin berikut dalam artikel ini:
-***[apa yang diangkat dalam javascript] [2]**
-***[SCOPES IN JAVASCRIPT] [3]**
-***[Penutupan JavaScript] [4]**
+***[apa yang diangkat dalam javascript][2]**
+***[SCOPES IN JAVASCRIPT][3]**
+***[Penutupan JavaScript][4]**
 
 ## Apa yang diangkat dalam JavaScript {#what-is-hoisting-in-javascript}
 Fenomena fungsi pengambilan atau deklarasi variabel di atas ruang lingkup saat ini dikenal sebagai pengangkat. Ini adalah konsep yang sangat kritis dan sebagian besar pengembang JavaScript tidak menyadarinya. Namun, hal penting yang perlu diperhatikan di sini adalah bahwa hanya deklarasi fungsi/variabel yang diambil ke atas, bukan inisialisasi fungsi/variabel.
@@ -53,7 +53,7 @@ Kesalahan dalam cuplikan kode di atas terjadi. Alasannya adalah bahwa inisialisa
 
 ## scopes di javascript {#scopes-in-javascript}
 Lingkupnya adalah salah satu konsep dasar JavaScript yang harus diketahui pengembang. Namun, bekerja dengan lingkup JavaScript tidak mudah dan sedikit berbeda. Oleh karena itu, ada tiga jenis lingkup di JavaScript dan ini adalah sebagai berikut:
-* * Block-level**: Variabel dinyatakan dengan "let" atau "const" berisi ruang lingkup level blok.
+**Block-level**: Variabel dinyatakan dengan "let" atau "const" berisi ruang lingkup level blok.
 ```
 if(true){
   let a = 1;
@@ -61,7 +61,7 @@ if(true){
 // a is not accessible outside the curly braces.
 ```
 Variabel "A" tidak dapat diakses di luar kawat gigi keriting {} karena memiliki ruang lingkup level blok.
-* * Level Fungsi**: Variabel yang dinyatakan di dalam fungsi JavaScript memiliki ruang lingkup lokal.
+**Level Fungsi**: Variabel yang dinyatakan di dalam fungsi JavaScript memiliki ruang lingkup lokal.
 ```
 function innerFunc(){
         let last_name = "ashraf";
@@ -70,7 +70,7 @@ function innerFunc(){
 // last_name is not accessible outside the function.
 ```
 Suatu hal yang penting untuk dicatat di sini adalah bahwa variabel yang dinyatakan dengan "let" "const" dan "var" memiliki ruang lingkup fungsi di dalam tubuh fungsi.
-* * Global-level**: Variabel yang dinyatakan di luar fungsi menjadi variabel global. Tidak peduli apakah Anda telah mendeklarasikannya menggunakan "let", "const" atau "var" kata kunci. Selanjutnya, variabel menjadi variabel global jika dideklarasikan tanpa menggunakan kata kunci apa pun seperti yang ditunjukkan pada cuplikan kode di bawah ini:
+**Global-level**: Variabel yang dinyatakan di luar fungsi menjadi variabel global. Tidak peduli apakah Anda telah mendeklarasikannya menggunakan "let", "const" atau "var" kata kunci. Selanjutnya, variabel menjadi variabel global jika dideklarasikan tanpa menggunakan kata kunci apa pun seperti yang ditunjukkan pada cuplikan kode di bawah ini:
 ```
 function innerFunc(){
         last_name = "ashraf";
@@ -103,26 +103,28 @@ Variabel first_name dapat diakses di dalam fungsi bernama InnerFunc tetapi fungs
 Kami mengakhiri panduan JavaScript ini di sini dan berharap Anda memiliki pemahaman yang lebih baik tentang**konsep dasar JavaScript**. Selain itu, kami juga telah melalui**penutupan javascript, lingkup di JavaScript**, dan mengangkat. Ada banyak konsep penting lainnya yang wajib untuk pemula. Jadi, artikel ini akan membantu Anda jika Anda berkembang untuk meningkatkan atau menyegarkan konsep JavaScript Anda. Selain itu, Anda dapat melalui posting blog yang disebutkan di bagian "Lihat juga".
 
 ## Terhubung dengan kami
-Akhirnya, [containerize.com] [5] menawarkan tutorial JavaScript yang sedang berlangsung tentang berbagai topik menarik. Anda dapat tetap berada di loop dengan mengikuti kami di platform media sosial kami, termasuk [Facebook] [6], [LinkedIn] [7], dan [Twitter] [8].
+Akhirnya, [containerize.com][5] menawarkan tutorial JavaScript yang sedang berlangsung tentang berbagai topik menarik. Anda dapat tetap berada di loop dengan mengikuti kami di platform media sosial kami, termasuk [Facebook][6], [LinkedIn][7], dan [Twitter][8].
 
 ## Berikan pertanyaan
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [9].
 
 ## FAQ
-* * Apa konsep penting untuk dipelajari dalam JavaScript?**
+**Apa konsep penting untuk dipelajari dalam JavaScript?**
 Silakan ikuti [panduan] pemula JavaScript ini [2] untuk mengetahui konsep dasar JavaScript.
 
 ## Lihat juga
-  * [Apa itu Dom dalam JavaScript? | Model objek dokumen] [1]
-  * [Apa janji dalam javascript? | Tutorial JavaScript] [10]
-  * [Apa itu komputasi tanpa server? | Arsitektur tanpa server] [11]
-  * [Apa itu multitenancy? | Mengapa pendekatan multi-penyewa?] [12]
-  * [Apa itu AI generatif | Kecerdasan Buatan Generatif] [13]
-  * [Apa itu async menunggu di javascript? | Panduan JavaScript] [14]
-  * [Cara menggunakan chatgpt di vscode | Kode Ekstensi VScode GPT] [15]
-  * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI] [16]
-  * [Pengantar Kecerdasan Buatan | Apa itu ai?] [17]
-  * [Apa itu async menunggu di javascript? | Panduan JavaScript] [18]
+  * [Apa itu Dom dalam JavaScript? | Model objek dokumen][1]
+  * [Apa janji dalam javascript? | Tutorial JavaScript][10]
+  * [Apa itu komputasi tanpa server? | Arsitektur tanpa server][11]
+  * [Apa itu multitenancy? | Mengapa pendekatan multi-penyewa?][12]
+  * [Apa itu AI generatif | Kecerdasan Buatan Generatif][13]
+  * [Apa itu async menunggu di javascript? | Panduan JavaScript][14]
+  * [Cara menggunakan chatgpt di vscode | Kode Ekstensi VScode GPT][15]
+  * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI][16]
+  * [Pengantar Kecerdasan Buatan | Apa itu ai?][17]
+  * [Apa itu async menunggu di javascript? | Panduan JavaScript][18]
+
+  
 [1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
 [2]: #What-is-hoisting-in-JavaScript
 [3]: #Scopes-in-JavaScript

@@ -17,9 +17,9 @@ categories: ['Password Management']
 ## Genel Bakış {#Overview}
 Farklı web siteleri ve uygulamalar için tüm farklı şifre kombinasyonlarını hatırlamak kolay bir iş değildir ve bunları bir kağıda yazarken kolay bir çözüm gibi görünebilir. Bu yöntemde çok fazla güvenlik yoktur, çünkü kolayca kaybedebilirsiniz veya yanlış kişinin eline düşebilir. ** Keepass şifre yöneticisi ** Windows için bu sorunların çözümlerinden biridir.
 Parola yöneticileri ise, kullanıcıların tüm şifrelerini bir yerde depolamalarını ve ihtiyaç duydukları zaman erişmelerini kolaylaştırır. Keepass ** en iyi açık kaynak şifre yöneticilerinden biridir ** Dışarıda, sadece indirmek için ücretsiz değil, aynı zamanda taşınabilir ve şifre dosyasını bir USB'de depolayabilir veya Dropbox, Google Drive veya diğerlerine yükleyebilirsiniz. Bulut depolama seçeneği. Uçtan uca şifreleme ile, yalnızca şifrelerin sahibi, parola dosyasına güvenliği garanti eden ana anahtarla erişebilir. Açık kaynak şifre yöneticisi Keepass, kullanıcının teknik bilgiye sahip, eksik güvenlik özelliğinin olmadığından emin olmak için kaynak kodunu kendileri denetlemesine olanak tanır.
-  * [Windows'ta Keepass'ı Kurulum] [1]
-  * [Keepass kullanarak şifreleri yönetin] [2]
-  * [Sonuç] [3]
+  * [Windows'ta Keepass'ı Kurulum][1]
+  * [Keepass kullanarak şifreleri yönetin][2]
+  * [Sonuç][3]
 
 ## Windows'ta Keepass'ı Kurulum {#setup}
 **Indirin ve yükle**
@@ -63,21 +63,23 @@ Veritabanına kaydedilen şifrelerle giriş yapmak için:
 
 ** Dikkate alınması gereken diğer şifre yöneticisi seçenekleri: **
 Piyasada düzinelerce başka açık kaynak şifre yöneticisi var. Benzersiz ve karmaşık şifreleri depolamak için güvenli, popüler, kendi kendine barındırılan ve açık kaynak şifre yöneticileri kullanarak hesapların kimlik bilgilerinizi güvende tutabilirsiniz. Aşağıda listelenen birkaç şifre yöneticisi:
-  *[** Padloc **] [4] aileler ve ekipler için basit, güvenli minimalist şifre yöneticisi ve veri yönetimi olarak tasarlanmıştır.
-  *[** Passbolt **] [5], Agile ve DevOps ekiplerinin ihtiyaçları için tasarlanmış kendi kendine erişim kolay bir şifre yöneticisidir.
-  *[** Parola Güvenli **] [6] güvenli, basit ve anlaşılması kolay arayüze sahip açık kaynaklı şifre yöneticisi programıdır.
-  *[** Bitwarden **] [7] güvenli, ücretsiz indirmek ve açık kaynaklı entegre şifre yönetimi çözümüdür.
-  *[** PSONO **] [8] kendi kendine barındırılan bir kimlik bilgileri ve ekipler için şifre yöneticisidir. Maksimum güvenlik için çok katmanlı şifreleme sağlar.
+  *[** Padloc **][4] aileler ve ekipler için basit, güvenli minimalist şifre yöneticisi ve veri yönetimi olarak tasarlanmıştır.
+  *[** Passbolt **][5], Agile ve DevOps ekiplerinin ihtiyaçları için tasarlanmış kendi kendine erişim kolay bir şifre yöneticisidir.
+  *[** Parola Güvenli **][6] güvenli, basit ve anlaşılması kolay arayüze sahip açık kaynaklı şifre yöneticisi programıdır.
+  *[** Bitwarden **][7] güvenli, ücretsiz indirmek ve açık kaynaklı entegre şifre yönetimi çözümüdür.
+  *[** PSONO **][8] kendi kendine barındırılan bir kimlik bilgileri ve ekipler için şifre yöneticisidir. Maksimum güvenlik için çok katmanlı şifreleme sağlar.
 
 ## Sonuç {#Conclusion}
 Keepass, şifrelerinizi yönetmenin kolay, güvenli ve taşınabilir bir yoludur. Şifrelerinizi özelleştirmenize, güvenli kombinasyonlar oluşturmanıza ve kullanıcı adıyla farklı web siteleri için birden fazla şifre girişini kaydetmenize olanak tanır. En iyi şifre yöneticisi Keepass'ı kullanmak, uçtan uca şifreleme mekanizması kullandığı ve maksimum güvenlik için SH-256 karma işlevine dayandığı için güvenlidir.
-Ayrıca, [** Containerize.com **] [9] açık kaynaklı ürünlerin birden fazla dil ve çerçevede yığınını geliştirme yolunda. Düzenli güncellemeler için lütfen daha ilginç makaleler için ** [şifre yönetimi] [10] ** kategorisinde bizi izlemeye devam edin.
+Ayrıca, [** Containerize.com **][9] açık kaynaklı ürünlerin birden fazla dil ve çerçevede yığınını geliştirme yolunda. Düzenli güncellemeler için lütfen daha ilginç makaleler için ** [şifre yönetimi][10] ** kategorisinde bizi izlemeye devam edin.
 
 ## Keşfetmek
 Bu makalede Windows için Keepass şifre yöneticisinin nasıl kurulacağını ve yönetileceğini tartıştık. İlgili aşağıdaki bağlantıları bulabilirsiniz:
-  *** [2021'de Top 5 Açık Kaynak Şifre Yöneticisi] [11] **
-  *** [En İyi Açık Kaynak Şifre Yönetim Yazılımı] [12] **
-  *** [Keepass | Güvenli, Taşınabilir ve Açık Kaynak Şifre Yöneticisi] [13] **
+  *** [2021'de Top 5 Açık Kaynak Şifre Yöneticisi][11] **
+  *** [En İyi Açık Kaynak Şifre Yönetim Yazılımı][12] **
+  *** [Keepass | Güvenli, Taşınabilir ve Açık Kaynak Şifre Yöneticisi][13] **
+
+  
 [1]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#setup
 [2]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#manage
 [3]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#conclusion

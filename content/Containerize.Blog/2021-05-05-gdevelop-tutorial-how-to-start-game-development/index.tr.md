@@ -17,14 +17,14 @@ categories: ['Game Development Software']
 ## Genel Bakış
 Video oyun endüstrisi yüksek bir hızda gelişiyor. Dünyanın dört bir yanında her zaman heyecan verici ve eğlenceli video oyunları arayan milyarlarca oyuncu var. Öte yandan, geliştiricilere gelişmiş ve büyüleyici oyunlar geliştirmek için eksiksiz bir ortam ve oyun geliştirme araçları sağlayan bir dizi video oyunu geliştirme yazılımı vardır. Geçmişte, oyun geliştiricileri oyun kaynak kodunu satır satır yazmak için kullanıldı. Bu çok zaman alma yöntemiydi ve oyuncular yeni bir sürüm için aylar beklemek zorunda kaldı. Bu nedenle, açık kaynaklı topluluk oyun geliştiricileri için ücretsiz ** kolay oyun yapımcıları ** geliştirdi.
 Bu ** ücretsiz oyun motorları ** sadece hızlı oyun sürümleri sunmakla kalmaz, aynı zamanda oyunun kalitesini ve sağlamlığını artıran özelliklerle birlikte gelir. Buna ek olarak, bu ** 3D oyun tasarımcıları ** bir sürükleme ve damla kullanıcı arayüzü sunar ve oyun oluşturmak için programlama bilgisine sahip olma ihtiyacını ortadan kaldırır. Bununla birlikte, bu, Gdecop'un ne olduğunu ve aşağıdaki noktayı kaplayarak yerel olarak nasıl ayarlayacağımız bir ** Gdeelop öğretici **'dır.
-  *** [Gdecop Nedir.] [1] **
-  *** [Localhost'ta nasıl kurulur?] [2] **
-  *** [Sonuç] [3] **
+  *** [Gdecop Nedir.][1] **
+  *** [Localhost'ta nasıl kurulur?][2] **
+  *** [Sonuç][3] **
 
 ## ** Gdecop nedir. ** {#intro}
 Gdepel, ücretsiz bir açık kaynaklı video oyunu geliştirme yazılımıdır. Kendi kendine barındırılır ve 2D oyunlar geliştirmek için zengin özellikler sunar. Ancak, 3D nesneler için destek mevcuttur. Kullanıcıların birden fazla platform için oyun geliştirmek ve yayınlamak için herhangi bir programlama becerisine ihtiyaçları yoktur. Bu ücretsiz oyun motoruna ev sahipliği yapmak için kolay gereksinimler gerektirdiği için son derece genişletilebilir ve kurulumu kolaydır. Sürükle ve bırak özelliklerine sahip sezgisel bir kullanıcı arayüzü vardır. Bu ücretsiz araç, üst sınıf animasyonlar, video/ses efektleri, dokunmatik ekran ve çoklu dokunuş, canlı önizleme ve daha fazlasını sağlar. Dahası, bu ** 3D oyun tasarımcısı **, geliştiricilerin prototipe dayalı ince bir ürün geliştirmelerine yardımcı olan güçlü prototipleme özellikleri ortaya çıkar.
-Ayrıca, bu açık kaynak ** Easy Game Maker ** son derece yapılandırılabilir ve üçüncü taraf kütüphanelerle entegrasyonları destekler. Her şeyden önce, popüler video oyun konsolları olan Xbox ve PlayStation için destek sağlar. GDEVANS, C ++, JavaScript ve TypeScript'te yazılmıştır. Dağıtım ve geliştirme ile ilgili ayrıntılı belgeler mevcuttur. Gdecel, hatalara ve sorgulara aktif olarak yanıt veren çok canlı bir geliştiriciler topluluğuna sahiptir. Bu nedenle, tüm kaynak kodu [GitHub] [4] 'de mevcuttur.
-[GDEPLOVE hakkında daha fazla bilgi edinin] [5]
+Ayrıca, bu açık kaynak ** Easy Game Maker ** son derece yapılandırılabilir ve üçüncü taraf kütüphanelerle entegrasyonları destekler. Her şeyden önce, popüler video oyun konsolları olan Xbox ve PlayStation için destek sağlar. GDEVANS, C ++, JavaScript ve TypeScript'te yazılmıştır. Dağıtım ve geliştirme ile ilgili ayrıntılı belgeler mevcuttur. Gdecel, hatalara ve sorgulara aktif olarak yanıt veren çok canlı bir geliştiriciler topluluğuna sahiptir. Bu nedenle, tüm kaynak kodu [GitHub][4] 'de mevcuttur.
+[GDEPLOVE hakkında daha fazla bilgi edinin][5]
 
 ## ** localhost'ta nasıl kurulur? ** {#setup}
 Bu ** GdeelP öğreticisinin ** bölümünde, yerel sistemimize GDEPLOVE'ı nasıl kurabileceğimizi göreceğiz. Sonraki adımlara geçmeden önce, aşağıdaki ön koşulları yüklediğinizden emin olun.
@@ -69,21 +69,23 @@ Bu şekilde, daha fazla özelliği keşfedebilir ve deneyebilirsiniz. Bu ** Easy
 
 ## ** Sonuç ** {#Conclusion}
 Bu, bu Gdeelp öğreticisine bir son veriyor. Bu ** ücretsiz oyun motoru **, görsel etkinlikler kullanarak oyunların mantığını uygulamanızı sağlar. Birçok yararlı öğretici ve kullanıcı kılavuzu yapan çok destekleyici bir topluluğa sahiptir. Oyun geliştirme dünyasında yeniyseniz bu blog yazısı size gerçekten yardımcı olacaktır. Diğer birçok ** 3D oyun tasarımcısı **, oyun geliştirme araçları ve aşağıdaki keşif bölümünde belirtilen makaleler var. Tüm bu oyun motorları ücretsiz, açık kaynak ve kendi kendine barındırma özellikleri bulur. Bu nedenle, oyun geliştirme endüstrisi, oyuncu sayısındaki artışla büyük ölçüde genişliyor. Oyunculara ilgi ve cazibe tetikleyen yüksek tanımlı grafiklere ve ses efektlerine sahip video oyunları var. Bununla birlikte, işinize kalite ve verimlilik getiren iyi bir şekilde geri alınmış bir oyun geliştirme yazılımı seçin.
-Son olarak, Containerize.com daha ilginç oyun geliştirme öğreticileriyle öğretici tabanını geliştirecek. Düzenli güncellemeler için lütfen [Containerize.com] [7] adresindeki bu [Oyun Geliştirme Yazılımı] [6] kategorisiyle bağlantıda kalın.
+Son olarak, Containerize.com daha ilginç oyun geliştirme öğreticileriyle öğretici tabanını geliştirecek. Düzenli güncellemeler için lütfen [Containerize.com][7] adresindeki bu [Oyun Geliştirme Yazılımı][6] kategorisiyle bağlantıda kalın.
 
 ## Keşfetmek
-  * [Gdeelop] [8]
-  * [Godot] [9]
-  * [Süper güçler] [10]
-  * [Cocos Creator] [11]
-  * [Panda3d] [12]
-  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler] [13]
-  * [Açık Kaynak Gdepelop kullanarak sıfırda bir oyun nasıl yapılır] [14]
-  * [2021 yılında ilk 5 ücretsiz oyun geliştirme yazılımı] [15]
-  * [Süper güçler kullanarak oyun geliştirmeye başlamak] [16]
-  * [Oyun Geliştirme Eğitimi | Gdeelp'te oyuncu hareketi] [17]
-  * [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi] [18]
-  * [Video Oyun Endüstrisi Nasıl Açık Kaynak Yazılımlardan yararlanıyor] [19]
+  * [Gdeelop][8]
+  * [Godot][9]
+  * [Süper güçler][10]
+  * [Cocos Creator][11]
+  * [Panda3d][12]
+  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler][13]
+  * [Açık Kaynak Gdepelop kullanarak sıfırda bir oyun nasıl yapılır][14]
+  * [2021 yılında ilk 5 ücretsiz oyun geliştirme yazılımı][15]
+  * [Süper güçler kullanarak oyun geliştirmeye başlamak][16]
+  * [Oyun Geliştirme Eğitimi | Gdeelp'te oyuncu hareketi][17]
+  * [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi][18]
+  * [Video Oyun Endüstrisi Nasıl Açık Kaynak Yazılımlardan yararlanıyor][19]
+
+  
 [1]: #intro
 [2]: #setup
 [3]: #Conclusion

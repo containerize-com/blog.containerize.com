@@ -15,12 +15,12 @@ categories: ['Help Desk']
 
 
 ## Aperçu
-Bienvenue dans un autre article de blog intéressant dans la série de [Helpdesk Ticketing Software] [1]. Nous avons publié des articles de blog sur des sujets tels que [Système populaire de service d'assistance basé sur la billetterie et le système de service client] [2], [Automatiser le système de billetterie à l'aide de WordPress et Osticket] [3], et d'autres. Cependant, OSTICKET est un système d'assistance basé sur la billetterie open source conçu pour que les clients signalent leurs requêtes et plaintes pour soutenir le personnel. Ce système de support gratuit fournit un module de gestion de demandes faciles à utiliser qui convertit les demandes provenant du téléphone, des e-mails et des formulaires en billets en ligne. Il offre une large gamme de fonctionnalités et d'options qui permet au personnel de soutien de fournir une expérience de support client incroyable aux clients.
+Bienvenue dans un autre article de blog intéressant dans la série de [Helpdesk Ticketing Software][1]. Nous avons publié des articles de blog sur des sujets tels que [Système populaire de service d'assistance basé sur la billetterie et le système de service client][2], [Automatiser le système de billetterie à l'aide de WordPress et Osticket][3], et d'autres. Cependant, OSTICKET est un système d'assistance basé sur la billetterie open source conçu pour que les clients signalent leurs requêtes et plaintes pour soutenir le personnel. Ce système de support gratuit fournit un module de gestion de demandes faciles à utiliser qui convertit les demandes provenant du téléphone, des e-mails et des formulaires en billets en ligne. Il offre une large gamme de fonctionnalités et d'options qui permet au personnel de soutien de fournir une expérience de support client incroyable aux clients.
 Ce système de billetterie open source (OSTICKET) est un cadre de billets de support entièrement flexible qui offre de nombreuses options pour aider à adapter toutes les parties de l'expérience du support client comme les messages envoyés aux clients, pages et notifications. Dans son article, nous apprendrons le développement du plugin OSTICKET pour améliorer les fonctionnalités en fonction de nos besoins. Pour ce faire, nous couvrirons les sujets suivants:
-  * [Pourquoi utiliser des plugins?] [4]
-  * [Exigences] [5]
-  * [Comment développer le plugin d'Osticket?] [6]
-  * [Conclusion] [7]
+  * [Pourquoi utiliser des plugins?][4]
+  * [Exigences][5]
+  * [Comment développer le plugin d'Osticket?][6]
+  * [Conclusion][7]
 
 ## Pourquoi utiliser des plugins? {#pourquoi}
 Dans ce sujet, nous apprendrons à créer un plugin simple pour étendre la fonctionnalité principale de ce logiciel ** It Helpdesk ** (OSTICKET). Un plugin est un logiciel, qui étend la fonctionnalité principale de toute application / logiciel. De plus, il existe de nombreux logiciels open source de niveau d'entreprise qui ont une énorme pile de plugins qui étendent les fonctionnalités. De plus, ces logiciels open source populaires incluent WordPress, Joomla et bien d'autres. Surtout, les communautés dynamiques et vivantes soutiennent et développent des plugins selon les besoins. Cependant, les cadres offrent une documentation complète concernant le développement des plugins. Voici quelques raisons pour lesquelles les applications prennent en charge les plugins:
@@ -128,20 +128,22 @@ class DynabicRedminePlugin extends Plugin {
 
 ## Conclusion {#conclusion}
 Cela nous amène à la fin de ce billet de blog. OSTICKET est un logiciel de gestion de billetterie qui offre une structure de plugins pour les développeurs afin qu'ils puissent ajouter de nouvelles fonctionnalités selon les exigences. Les plugins sont les composants qui étendent la fonctionnalité principale de toute application / logiciel. Dans son article, nous avons discuté du développement des plugins de ce ** Système de support client ** (OSTICKET), qui aide les développeurs à ajouter des fonctionnalités et des améliorations personnalisées en fonction de leurs exigences. Par conséquent, ce billet de blog vous aidera vraiment si vous cherchez à déployer un logiciel ** It Helpdesk ** pour votre entreprise. De plus, il existe d'autres ** logiciels de billetterie d'assistance ** et des articles mentionnés dans la section «Explorer» ci-dessous.
-Enfin, [contenerize.com] [8] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [Logiciel de billetterie d'assistance] [1] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook] [9], [LinkedIn] [10] et [Twitter] [11].
+Enfin, [contenerize.com][8] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [Logiciel de billetterie d'assistance][1] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][9], [LinkedIn][10] et [Twitter][11].
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [Uvdesk] [12]
-  * [Zammad] [13]
-  * [Freescout] [14]
-  * [Aider] [15]
-  * [MEILLEUR SOFFICATION Open SOURCE ET GRATUIT IT Help Deker] [16]
-  * [Système populaire de service d'assistance basé sur la billetterie et client] [2]
-  * [Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket] [17]
-  * [Comment mettre en œuvre la multi-tension en osticket] [18]
-  * [Automatiser le système de billetterie à l'aide de WordPress et OSTICKET] [3]
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [19]
+  * [Uvdesk][12]
+  * [Zammad][13]
+  * [Freescout][14]
+  * [Aider][15]
+  * [MEILLEUR SOFFICATION Open SOURCE ET GRATUIT IT Help Deker][16]
+  * [Système populaire de service d'assistance basé sur la billetterie et client][2]
+  * [Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket][17]
+  * [Comment mettre en œuvre la multi-tension en osticket][18]
+  * [Automatiser le système de billetterie à l'aide de WordPress et OSTICKET][3]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][19]
+
+  
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

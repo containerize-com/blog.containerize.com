@@ -16,10 +16,10 @@ categories: ['Web Server Solution Stack']
 
 ## Visão geral {#Prerequisites}
 Neste guia, instalaremos o NGINX, MYSQL e PHP (pilha LEMP) para o desenvolvimento e implantando aplicativos da Web. Também configuraremos um servidor da web para o aplicativo PHP do servidor no Ubuntu Server 18.04. Abordaremos as seguintes seções deste tutorial.
-  *[** Pré -requisitos **] [1]
-  *[** O que é lemp pilha? **] [2]
-  *[** Instalação Lemp **] [3]
-  *[** Conclusão **] [4]
+  *[** Pré -requisitos **][1]
+  *[** O que é lemp pilha? **][2]
+  *[** Instalação Lemp **][3]
+  *[** Conclusão **][4]
 
 ## Pré -requisitos {#Prereebisites}
 Antes de instalar o software, você deve atender aos seguintes requisitos.
@@ -146,17 +146,19 @@ phpinfo();
 
 ## Conclusão {#conclusion}
 Neste tutorial, discutimos sobre como instalar e configurar a pilha ** lemp **. Como você pode ver, a configuração de componentes da pilha de software é realmente fácil. Além disso, você pode começar a criar e servir aplicativos da Web em minutos.
-Finalmente, [** containerize.com **] [5] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** Web Server Solution **] [6] para as atualizações mais recentes.
+Finalmente, [** containerize.com **][5] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** Web Server Solution **][6] para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** Melhor Solução de Solução de Servidor da Web de código aberto **] [7]
-  *** [Ferramentas forenses digitais de código aberto mais populares] [8] **
-  *** [Fila de mensagens de código aberto 5 (MQ) Software em 2021] [9] **
-  *** [Melhor software de armazenamento e compartilhamento de arquivos de código aberto] [10] **
-  *[** Como instalar e proteger o phpmyadmin com nginx no ubuntu **] [11]
-  *[** Como instalar várias versões PHP com nginx no Ubuntu **] [12]
-  *[** Licenses de código aberto mais populares mais populares de código aberto de 2021 **] [13]
+  *[** Melhor Solução de Solução de Servidor da Web de código aberto **][7]
+  *** [Ferramentas forenses digitais de código aberto mais populares][8] **
+  *** [Fila de mensagens de código aberto 5 (MQ) Software em 2021][9] **
+  *** [Melhor software de armazenamento e compartilhamento de arquivos de código aberto][10] **
+  *[** Como instalar e proteger o phpmyadmin com nginx no ubuntu **][11]
+  *[** Como instalar várias versões PHP com nginx no Ubuntu **][12]
+  *[** Licenses de código aberto mais populares mais populares de código aberto de 2021 **][13]
+
+  
 [1]: #Prerequisites
 [2]: #What
 [3]: #Installation

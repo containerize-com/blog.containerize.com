@@ -17,14 +17,14 @@ categories: ['Game Development Software']
 ## Überblick
 Die Videospielbranche blüht in hohem Maße auf. Es gibt Milliarden von Spielern auf der ganzen Welt, die immer nach aufregenden und unterhaltsamen Videospielen suchen. Auf der anderen Seite gibt es eine Reihe von Software zur Entwicklung von Videospielen, die den Entwicklern eine vollständige Tools für die Umgebung und eine Spielentwicklung bieten, um fortschrittliche und faszinierende Spiele zu entwickeln. In der Vergangenheit waren Spieleentwickler es gewohnt, die Spiele -Quellcodezeile nach Zeile zu schreiben. Das war eine sehr Zeit, die Entwicklungsmethode aufzunehmen, und die Spieler mussten Monate auf eine neue Veröffentlichung warten. Daher hat Open Source Community für Spieleentwickler kostenlos ** Easy Game Makers ** entwickelt.
 Diese ** freien Spielmotoren ** helfen nicht nur bei der Durchführung schneller Spielveröffentlichungen, sondern auch mit Funktionen, die die Qualität und Robustheit des Spiels verbessern. Darüber hinaus bieten diese ** 3D -Spieldesigner ** eine Drag & Drop -Benutzeroberfläche und eliminieren die Notwendigkeit, Programmierkenntnisse zum Erstellen von Spielen zu haben. Dies ist jedoch ein ** GDevelop -Tutorial **, in dem wir erfahren, was GDevelop ist und wie Sie es lokal einrichten, indem wir den folgenden Punkt abdecken.
-  *** [Was ist gDevelop.] [1] **
-  *** [Wie man auf Localhost einrichtet?] [2] **
-  *** [Schlussfolgerung] [3] **
+  *** [Was ist gDevelop.][1] **
+  *** [Wie man auf Localhost einrichtet?][2] **
+  *** [Schlussfolgerung][3] **
 
 ## ** Was ist gDevelop. ** {#Intro}
 GDevelop ist eine kostenlose Open -Source -Videospielentwicklungssoftware. Es ist selbst gehostet und bietet umfangreiche Funktionen für die Entwicklung von 2D-Spielen. Es gibt jedoch Unterstützung für 3D -Objekte. Benutzer benötigen keine Programmierfähigkeiten, um Spiele für mehrere Plattformen zu entwickeln und zu veröffentlichen. Es ist sehr erweiterbar und einfach einzurichten, da es einfache Anforderungen erfordert, um diese kostenlose Spiele-Engine selbst zu veranstalten. Es gibt eine intuitive Benutzeroberfläche mit Drag & Drop -Funktionen. Dieses kostenlose Tool bietet hochklassige Animationen, Video-/Audio-Effekte, Touchscreen und Multi-Touch, Live-Vorschau und vieles mehr. Darüber hinaus erstellt dieser ** 3D -Spieldesigner ** leistungsstarke Prototyping -Funktionen, mit denen Entwickler ein feines Produkt basierend auf dem Prototyp basieren.
-Darüber hinaus ist diese Open Source ** Easy Game Maker ** sehr konfigurierbar und unterstützt Integrationen mit Bibliotheken von Drittanbietern. Vor allem unterstützt es Xbox und PlayStation, die beliebte Videospielkonsolen sind. GDevelop ist in C ++, JavaScript und TypeScript geschrieben. In Bezug auf Bereitstellung und Entwicklung sind detaillierte Unterlagen verfügbar. GDevelop hat eine sehr lebendige Entwicklergemeinschaft, die aktiv auf Fehler und Abfragen reagiert. Daher ist der gesamte Quellcode unter [Github] [4] verfügbar.
-[Erfahren Sie mehr über GDevelop] [5]
+Darüber hinaus ist diese Open Source ** Easy Game Maker ** sehr konfigurierbar und unterstützt Integrationen mit Bibliotheken von Drittanbietern. Vor allem unterstützt es Xbox und PlayStation, die beliebte Videospielkonsolen sind. GDevelop ist in C ++, JavaScript und TypeScript geschrieben. In Bezug auf Bereitstellung und Entwicklung sind detaillierte Unterlagen verfügbar. GDevelop hat eine sehr lebendige Entwicklergemeinschaft, die aktiv auf Fehler und Abfragen reagiert. Daher ist der gesamte Quellcode unter [Github][4] verfügbar.
+[Erfahren Sie mehr über GDevelop][5]
 
 ## ** Wie kann ich auf Localhost einrichten? ** {#setup}
 Im Abschnitt dieses Tutorials ** GDevelop ** werden wir sehen, wie wir GDevelop in unserem lokalen System einrichten können. Bevor Sie zu den nächsten Schritten wechseln, müssen Sie die folgenden Voraussetzungen installiert.
@@ -69,21 +69,23 @@ Auf diese Weise können Sie weitere Funktionen erkunden und ausprobieren. Dieser
 
 ## ** Fazit ** {#Conclusion}
 Dies führt zu diesem GDevelop -Tutorial. Mit dieser ** Free Game Engine ** können Sie die Logik der Spiele mit visuellen Ereignissen implementieren. Es hat eine sehr unterstützende Community, die viele hilfreiche Tutorials und Benutzerhandbücher gemacht hat. Dieser Blog -Beitrag hilft Ihnen wirklich, wenn Sie in der Welt der Spielentwicklung neu sind. Es gibt viele andere ** 3D -Spieldesigner **, Spieleentwicklungswerkzeuge und Artikel, die im Abschnitt "Explore unten" erwähnt wurden. Alle diese Spielmotoren sind kostenlos, Open Source und entwickeln Selbsthostfunktionen. Daher wächst die Spielentwicklungsindustrie mit der Zunahme der Anzahl der Spieler immens. Es gibt Videospiele mit hochauflösenden Grafiken und Soundeffekten, die Interesse und Attraktion bei den Spielern auslösen. Wählen Sie jedoch eine gut wiederholte Spieleentwicklungssoftware, die Qualität und Effizienz in Ihre Arbeit verleiht.
-Schließlich wird Containerize.com mit einigen interessanten Tutorials für Spielentwicklungen die Tutorial -Basis verbessern. Bitte bleiben Sie für regelmäßige Updates mit dieser Kategorie [6] in Verbindung mit dieser Kategorie [6] -Kategorie [Containerize.com] [7].
+Schließlich wird Containerize.com mit einigen interessanten Tutorials für Spielentwicklungen die Tutorial -Basis verbessern. Bitte bleiben Sie für regelmäßige Updates mit dieser Kategorie [6] in Verbindung mit dieser Kategorie [6] -Kategorie [Containerize.com][7].
 
 ## Erkunden
-  * [GDevelop] [8]
-  * [Godot] [9]
-  * [Supermächte] [10]
-  * [Cocos Creator] [11]
-  * [Panda3d] [12]
-  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet] [13]
-  * [Wie man mit Open Source GDevelop ein Spiel bei Open -Source -Entwicklungsgruppe erstellt] [14]
-  * [Top 5 Free Game Development Software im Jahr 2021] [15]
-  * [Erste Schritte mit Spielentwicklung mit Supermächten] [16]
-  * [Tutorial für Spielentwicklung | Spielerbewegung in GDevelop] [17]
-  * [HTML5 Game Development Tutorial für Videospielprogrammierer] [18]
-  * [Wie die Videospielbranche mit Open -Source -Software nutzt] [19]
+  * [GDevelop][8]
+  * [Godot][9]
+  * [Supermächte][10]
+  * [Cocos Creator][11]
+  * [Panda3d][12]
+  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet][13]
+  * [Wie man mit Open Source GDevelop ein Spiel bei Open -Source -Entwicklungsgruppe erstellt][14]
+  * [Top 5 Free Game Development Software im Jahr 2021][15]
+  * [Erste Schritte mit Spielentwicklung mit Supermächten][16]
+  * [Tutorial für Spielentwicklung | Spielerbewegung in GDevelop][17]
+  * [HTML5 Game Development Tutorial für Videospielprogrammierer][18]
+  * [Wie die Videospielbranche mit Open -Source -Software nutzt][19]
+
+  
 [1]: #intro
 [2]: #setup
 [3]: #Conclusion

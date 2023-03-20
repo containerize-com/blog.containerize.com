@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 
 ## Jika Anda ingin menggunakan beberapa versi PHP dengan NginX maka dalam artikel ini kami akan memandu Anda langkah demi langkah tentang cara menginstal PHP dengan Nginx di Ubuntu.
 Artikel ini dalam kelanjutan dari seri kami tentang tutorial tentang Nginx. Sejauh ini kami telah membahas cara menggunakan nginx sebagai penyeimbang beban, cara menggunakan Nginx sebagai proxy terbalik. Dan sekarang tutorial ini mencakup pertanyaan lain yang menuntut "Cara menggunakan beberapa versi PHP dengan Nginx". Dalam tutorial ini, kami akan memandu Anda langkah demi langkah tentang cara menginstal PHP di Ubuntu, cara mengkonfigurasi PHP dengan Nginx, dan akhirnya bagaimana Anda dapat menginstal beberapa versi PHP dengan Nginx. Jadi, mari kita mulai!
-  * [Instal nginx] [1]
-  * [Pasang beberapa versi PHP] [2]
-  * [Buat beberapa situs web dengan PHP] [3]
-  * [Konfigurasikan Nginx untuk menjalankan versi yang berbeda untuk situs web] [4]
-  * [Kesimpulan] [5]
+  * [Instal nginx][1]
+  * [Pasang beberapa versi PHP][2]
+  * [Buat beberapa situs web dengan PHP][3]
+  * [Konfigurasikan Nginx untuk menjalankan versi yang berbeda untuk situs web][4]
+  * [Kesimpulan][5]
 
 ## Instal nginx {#nginx}
 Nginx (diucapkan sebagai "engine-x") adalah server web open source yang sering digunakan sebagai proxy terbalik atau cache http. Ini tersedia untuk Linux secara gratis.
@@ -172,8 +172,10 @@ systemctl restart php7.2-fpm
 Dalam tutorial ini kami menjelajahi cara beberapa versi PHP di Ubuntu. Kami belajar cara menginstal nginx. Kemudian kami menjelajahi cara mengatur dua situs web yang berbeda di Nginx. Dan akhirnya kami belajar cara mengkonfigurasi dua situs web yang berbeda dengan versi PHP yang berbeda dengan Nginx. Semoga tutorialnya membantu Anda.
 
 ## Mengeksplorasi
-  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik] [6]
-  * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda] [7]
+  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][6]
+  * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda][7]
+
+  
 [1]: #nginx
 [2]: #php
 [3]: #web

@@ -58,14 +58,16 @@ Kripto para birimi nereden alınır? Kripto para birimini bir kripto değişimin
 
 ## ** Sonuç: ** {#4A1A}
 Umarım, çok şey öğrendiniz ve şimdi kripto para ticareti ve yatırım hakkında başlangıçta olduğundan daha bilgili ve bilgilisınız. Şimdi senin sıran. Rehberi sizinle birlikte araştırmaktan ve yazmaktan keyif aldık. İyi şanlar!
-_ En sevdiğiniz kripto para birimi açık kaynak projeleri nelerdir?. Dijital para biriminin ne olduğu hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun] [1].
+_ En sevdiğiniz kripto para birimi açık kaynak projeleri nelerdir?. Dijital para biriminin ne olduğu hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][1].
 
 ## Keşfetmek:
 Ayrıca OSS Watch'tan başka ilgili bilgilerimiz de var:
-  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [2]
-  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı] [3]
-  * [En popüler açık kaynaklı dijital adli araçlar] [4]
-  * [En popüler OSI onaylı açık kaynak lisansları] [5]
+  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][2]
+  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı][3]
+  * [En popüler açık kaynaklı dijital adli araçlar][4]
+  * [En popüler OSI onaylı açık kaynak lisansları][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

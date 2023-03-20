@@ -71,10 +71,12 @@ _ En sevdiğiniz açık kaynak teknolojileri listesi nedir? Açık kaynak _techn
 
 ## Keşfetmek:
 Ayrıca OSS Watch'tan başka ilgili bilgilerimiz de var:
-  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [2]
-  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı] [3]
-  * [En popüler açık kaynaklı dijital adli araçlar] [4]
-  * [En popüler OSI onaylı açık kaynak lisansları] [5]
+  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][2]
+  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı][3]
+  * [En popüler açık kaynaklı dijital adli araçlar][4]
+  * [En popüler OSI onaylı açık kaynak lisansları][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

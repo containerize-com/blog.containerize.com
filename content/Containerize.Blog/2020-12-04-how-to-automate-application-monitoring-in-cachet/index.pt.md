@@ -14,10 +14,10 @@ A página de status do cache permite que as empresas obtenham notificações ins
 {{< figure align=center src="images/cachet-monitor.png" alt="Monitoramento de aplicativos da web">}}
 
 O monitoramento de aplicativos e serviços é uma parte muito importante dos negócios on -line. Seu site é executado 24x7 e você pode errar a qualquer momento. Você não pode saber que nenhum dos locais está funcionando ou não até visitá -lo. Além disso, os clientes não terão informações sobre o problema. Eles podem entrar em contato com sua equipe de suporte para obter tempo de inatividade de serviço. Além disso, isso pode levar seus clientes decepcionados. No entanto, você pode reduzir o tempo de inatividade do serviço configurando o sistema de página de status. O sistema de página de status monitorará todos os seus serviços o tempo todo e enviará notificações para sua equipe e clientes imediatamente. Isso permitirá que você tome medidas rápidas para corrigir o problema e os clientes se manterão atualizados sobre o progresso. Nesta postagem do blog, você aprenderá como integrar a biblioteca de terceiros com ** cache ** para ** automatizar o monitoramento **.
-  * [Requisitos] [1]
-  * [Plugin de monitoramento de configuração] [2]
-  * [Criando serviço Linux] [3]
-  * [Conclusão] [4]
+  * [Requisitos][1]
+  * [Plugin de monitoramento de configuração][2]
+  * [Criando serviço Linux][3]
+  * [Conclusão][4]
 
 ## requisitos {#ReQuirements}
   * Instale a versão mais recente do cache.
@@ -25,7 +25,7 @@ O monitoramento de aplicativos e serviços é uma parte muito importante dos neg
 
 ## Configuração de plugin de monitoramento {#plugin}
 A seguir, as etapas para instalar e configurar o plug -in para monitorar no Ubuntu.
-  * Faça o download do binário da [página de liberação] [5].
+  * Faça o download do binário da [página de liberação][5].
   * Renomeie o arquivo para Cachet-monitor.
   * Faça o arquivo executável com o comando.
 ```
@@ -112,13 +112,15 @@ sudo systemctl enable cachet-monitor.service
 
 ## Conclusão {#conclusion}
 Cache A é gratuito e ** Página de status de código aberto ** Sistema. No entanto, ele não fornece o recurso de propósito para ** monitoramento de aplicativos da web **. Em vez disso, possui uma poderosa API REST que pode ser usada para executar ações como incidentes, componentes, grupos e muito mais. Neste artigo, usamos o plug-in de terceiros para automatizar o monitoramento de aplicativos no cache. Acima de tudo, você pode desenvolver seu próprio plug -in ou usar qualquer outro plug -in existente para fazer o trabalho.
-Além disso, [contenderize.com] [6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento à categoria [Status] [7] para artigos mais interessantes.
+Além disso, [contenderize.com][6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento à categoria [Status][7] para artigos mais interessantes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Melhores sistemas de página de status de código aberto] [8]
-  * [Cachet - Software de status de código aberto e gratuito] [9]
-  * [Software de página de status de código aberto 5 para 2020] [10]
+  * [Melhores sistemas de página de status de código aberto][8]
+  * [Cachet - Software de status de código aberto e gratuito][9]
+  * [Software de página de status de código aberto 5 para 2020][10]
+
+  
 [1]: #Requirements
 [2]: #Plugin
 [3]: #Service

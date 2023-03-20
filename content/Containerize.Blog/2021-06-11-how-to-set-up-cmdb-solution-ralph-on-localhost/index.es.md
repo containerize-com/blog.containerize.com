@@ -16,15 +16,15 @@ categories: ['CMDB Software']
 
 ## **Descripción general**
 En el momento actual, las organizaciones están prosperando para cumplir con el ritmo de la tecnología empleando una enorme infraestructura de TI. A continuación, no es menos que un desafío administrar entornos tan grandes. Requiere mano de obra y poder tecnológico para lograr tales tareas críticas. A veces, se convierte en una molestia para formular procesos y procedimientos para manejar redes complejas de sistemas que incluyen impresoras, computadoras de escritorio, escáneres, teléfonos y otros accesorios de TI. Del mismo modo, las configuraciones de estos nodos también son importantes ya que hay altas posibilidades de tiempo de inactividad de cualquier máquina en la red. Por lo tanto, debe haber una verificación consistente sobre estas configuraciones.
-Sin embargo, hay muchos de código abierto y software gratuito disponibles para realizar un seguimiento y el registro de los activos. Este software se conoce como software de base de datos de gestión de configuración (CMDB). Recientemente, [Contenerize.com] [1] publicó una solución CMDB [Ralph] [2] que proporciona muchas características para mejores activos y gestión de configuración. En esta publicación de blog, exploraremos a Ralph cubriendo los siguientes puntos.
-  *** [Breve introducción de CMDB Software Asset Management Ralph] [3] **
-  *** [Características de Ralph] [4] **
-  *** [¿Cómo configurar Ralph en localhost?] [5] **
-  *** [Conclusión] [6] **
+Sin embargo, hay muchos de código abierto y software gratuito disponibles para realizar un seguimiento y el registro de los activos. Este software se conoce como software de base de datos de gestión de configuración (CMDB). Recientemente, [Contenerize.com][1] publicó una solución CMDB [Ralph][2] que proporciona muchas características para mejores activos y gestión de configuración. En esta publicación de blog, exploraremos a Ralph cubriendo los siguientes puntos.
+  *** [Breve introducción de CMDB Software Asset Management Ralph][3] **
+  *** [Características de Ralph][4] **
+  *** [¿Cómo configurar Ralph en localhost?][5] **
+  *** [Conclusión][6] **
 
 ## Breve introducción de la gestión de activos de software CMDB Ralph {#Intro}
 Ralph es una solución gratuita de gestión de activos de código abierto. Es multiplataforma y viene con capacidades de autohostación. Hay un ecosistema completo de seguimiento de activos en tiempo real. Por lo tanto, los usuarios pueden realizar un análisis para informar. Permite a los usuarios registrar detalles de los activos sobre su ciclo de vida. Además, este software de gestión de activos digitales de código abierto proporciona espacio para almacenar información sobre los activos de los centros de datos. Por otro lado, esta solución CMDB también proporciona soporte para administrar software, licencia, certificados y otros contratos. Ralph no solo apoya la gestión de activos, sino que también proporciona disposiciones para realizar acciones en esos activos. Sin embargo, las acciones están relacionadas con la implementación de un host, generar facturas, seguimiento de dominios o gestión de inventario.
-Esta solución de gestión de activos de TI presenta una interfaz RESTFUL. Los desarrolladores pueden integrar muchas aplicaciones de terceros utilizando los puntos finales de API expuestos por esta herramienta gratuita de código abierto. Además, Ralph está escrito en Python junto con la entrada de HTML, CSS y JavaScript. Por lo tanto, existe una documentación integral disponible con respecto al desarrollo y la implementación. El código fuente de esta solución de gestión de acciones está disponible en [Github] [7].
+Esta solución de gestión de activos de TI presenta una interfaz RESTFUL. Los desarrolladores pueden integrar muchas aplicaciones de terceros utilizando los puntos finales de API expuestos por esta herramienta gratuita de código abierto. Además, Ralph está escrito en Python junto con la entrada de HTML, CSS y JavaScript. Por lo tanto, existe una documentación integral disponible con respecto al desarrollo y la implementación. El código fuente de esta solución de gestión de acciones está disponible en [Github][7].
 
 ## Características de Ralph {#Feature}
 Ralph ofrece muchas características. Sin embargo, mencionaremos algunas de las siguientes características clave.
@@ -38,8 +38,8 @@ Ralph ofrece muchas características. Sin embargo, mencionaremos algunas de las 
 ## ¿Cómo configurar Ralph en localhost? {#configuración}
 En esta sección, pasaremos por el proceso de instalación del software de gestión de recursos Ralph en la máquina local. Es bastante fácil de configurar y usar.
 Antes de pasar a la siguiente sección, asegúrese de haber instalado los siguientes requisitos previos.
-  * [Docker-Compose] [8]
-  * [Docker] [9]
+  * [Docker-Compose][8]
+  * [Docker][9]
 La mayoría del software de código abierto ofrece imágenes de Docker para las implementaciones en varias plataformas. Da facilidad a los desarrolladores y acelera el proceso de desarrollo y implementación.
 Una vez que se instalen los requisitos previos, active Docker. Ahora, abra el terminal y ejecute el siguiente comando para hacer un directorio vacío:
 ```
@@ -137,13 +137,15 @@ Mostrará la página de inicio de sesión como se muestra en la imagen a continu
 
 
 ## conclusión {#conclusion}
-Después de pasar por esta publicación del blog del Tutorial CMDB, una cosa está clara que la gestión de activos es casi imposible sin una buena solución CMDB. El software de gestión de recursos tiene roles específicos en la gestión y el seguimiento de los activos, las configuraciones y sus relaciones. Hay disposiciones para rastrear aquellos cambios que apenas se realizan en activos digitales o físicos. Estas herramientas gratuitas son fáciles de configurar, usar y vienen con documentación y orientación detalladas. Finalmente, [** Contenerize.com **] [1] está destinado a escribir artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con este [] [10] ** [Software CMDB] [11] ** Categoría para las últimas actualizaciones.
+Después de pasar por esta publicación del blog del Tutorial CMDB, una cosa está clara que la gestión de activos es casi imposible sin una buena solución CMDB. El software de gestión de recursos tiene roles específicos en la gestión y el seguimiento de los activos, las configuraciones y sus relaciones. Hay disposiciones para rastrear aquellos cambios que apenas se realizan en activos digitales o físicos. Estas herramientas gratuitas son fáciles de configurar, usar y vienen con documentación y orientación detalladas. Finalmente, [** Contenerize.com **][1] está destinado a escribir artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con este [][10] ** [Software CMDB][11] ** Categoría para las últimas actualizaciones.
 
 ## Explorar
-  *** [Software CMDB] [11] **
-  *** [Ralph] [2] **
-  *[** Automatizar operaciones comerciales utilizando software de código abierto y de código abierto **] [12]
-  *** [Tendencias de desarrollo de software a tener en cuenta en 2021] [13] **
+  *** [Software CMDB][11] **
+  *** [Ralph][2] **
+  *[** Automatizar operaciones comerciales utilizando software de código abierto y de código abierto **][12]
+  *** [Tendencias de desarrollo de software a tener en cuenta en 2021][13] **
+
+  
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/cmdb-software/ralph/
 [3]: #intro

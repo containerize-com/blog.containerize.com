@@ -16,10 +16,10 @@ categories: ['Blogging', 'Live Chat']
 El equipo Rocket.Chat ofrece un complemento de código abierto gratuito para mensajería instantánea de WordPress y chat en vivo desde WordPress. WordPress y Rocket.Chat Integration permite a sus clientes chatear con usted directa e instantáneamente. Esto facilita la gestión de consultas entrantes, ya sea por usted mismo o asignándolas a sus agentes.
 El complemento de chat en vivo de Rocket.Chat funciona con un servidor de chat de código abierto 100%. Esta es una solución rentable de auto -alojamiento con toda la flexibilidad y el control que puede desear comunicarse instantáneamente con sus clientes. Como resultado, se garantiza el secreto de sus datos de comunicación y no hay necesidad de preocuparse por las tarifas de suscripción mensuales para tener un chat en vivo en su sitio web.
 Cubriremos las siguientes secciones en esta publicación de blog:
-  * [Descripción] [1]
-  * [Características] [2]
-  * [Instalación del complemento] [3]
-  * [Pensamientos finales] [4]
+  * [Descripción][1]
+  * [Características][2]
+  * [Instalación del complemento][3]
+  * [Pensamientos finales][4]
 
 ## Descripción: {#description}
 WordPress y Rocket.Chat Integration le permite colocar el widget de chat en vivo en sitios basados ​​en WordPress. WordPress Live Chat permite a los clientes colaborar con su soporte o agentes de ventas en tiempo real con un solo clic. La comunicación instantánea ayuda a los clientes una resolución rápida de sus consultas y acelera la toma de decisiones. Por lo tanto, esta solución puede ayudarlo a ganar nuevos clientes con un cambio más rápido, así como a mejorar la satisfacción y la lealtad de los clientes existentes.
@@ -37,7 +37,7 @@ WordPress y Rocket.Chat Integration le permite colocar el widget de chat en vivo
 ## Instalación del complemento: {#plugin}
   1. Vaya al tablero de administración de su sitio de WordPress.
   2. Luego muévase a los complementos.
-  3. Luego instale el siguiente complemento: [Rocket.Chat Livechat] [5]
+  3. Luego instale el siguiente complemento: [Rocket.Chat Livechat][5]
   4. Después de eso, active el complemento.
   5. Después de una instalación exitosa, vaya a Configuración.
   6. Busque la sección "Rocket.Chat Livechat".
@@ -52,8 +52,10 @@ Worpress y Rocket.Chat Integration genera confianza y relaciones con sus cliente
 
 ## Explorar:
 Para obtener más información sobre Rocket.Chat y WordPress, consulte estas páginas:
-[El mejor software de chat en vivo de código abierto y de código abierto] [6]
-[WordPress: código abierto gratuito y la herramienta de blogs y CMS más utilizada] [7]
+[El mejor software de chat en vivo de código abierto y de código abierto][6]
+[WordPress: código abierto gratuito y la herramienta de blogs y CMS más utilizada][7]
+
+  
 [1]: #description
 [2]: #features
 [3]: #plugin

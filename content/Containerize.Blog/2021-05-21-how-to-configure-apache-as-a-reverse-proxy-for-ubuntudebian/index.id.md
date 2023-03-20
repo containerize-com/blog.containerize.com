@@ -97,11 +97,13 @@ Dalam tutorial ini, kami mengeksplorasi dan membahas apa itu server proxy dan ko
 
 ## Mengeksplorasi
 Anda mungkin juga menyukai artikel yang lebih terkait di bawah ini:
-  * [Cara] [1] [Instal dan Aman PHPMyAdmin dengan Nginx di Ubuntu] [2]
-  * [Cara Mengatur Nginx Dengan Penumpang di Server Produksi AWS] [3]
-  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [4]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [5]
-  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu] [6]
+  * [Cara][1][Instal dan Aman PHPMyAdmin dengan Nginx di Ubuntu][2]
+  * [Cara Mengatur Nginx Dengan Penumpang di Server Produksi AWS][3]
+  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][4]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][5]
+  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/id/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

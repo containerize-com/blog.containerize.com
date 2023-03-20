@@ -76,7 +76,7 @@ No terminal, inicie o login no MySQL usando a senha do MySQL Root que você pode
 ```
 sudo mysql -u root -p
 ```
-Depois de fazer login no MySQL, adicione um novo superusuário do MySQL com o nome de usuário de sua escolha. Neste exemplo, estamos chamando de Yasiradmin. [Clique aqui para gerar uma senha forte] [2] e substitua o novo \ _password \ _here abaixo por ela.
+Depois de fazer login no MySQL, adicione um novo superusuário do MySQL com o nome de usuário de sua escolha. Neste exemplo, estamos chamando de Yasiradmin. [Clique aqui para gerar uma senha forte][2] e substitua o novo \ _password \ _here abaixo por ela.
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ Em seguida, queremos configurar a autenticação no Nginx para fornecer uma cama
 ```
 sudo apt install apache2-utils
 ```
-Depois de instalado, podemos gerar o arquivo .htpasswd. Mude o nome de usuário de sua escolha. [Gere uma senha] [3] e mantenha -a segura.
+Depois de instalado, podemos gerar o arquivo .htpasswd. Mude o nome de usuário de sua escolha. [Gere uma senha][3] e mantenha -a segura.
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ Se você tiver dúvidas, sinta -se à vontade para me dizer abaixo na seção de
 
 ## Explore
 Você também pode gostar dos artigos mais relacionados abaixo:
-  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian] [4]
-  * [Como proteger e criptografar Nginx com Let's Encrypt no Ubuntu 20.04] [5]
-  * [Como configurar o suporte HTTP/2 no Nginx no Ubuntu/Debian] [6]
-  * [Como configurar o nginx com o passageiro no servidor de produção da AWS] [7]
-  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu] [8]
+  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian][4]
+  * [Como proteger e criptografar Nginx com Let's Encrypt no Ubuntu 20.04][5]
+  * [Como configurar o suporte HTTP/2 no Nginx no Ubuntu/Debian][6]
+  * [Como configurar o nginx com o passageiro no servidor de produção da AWS][7]
+  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

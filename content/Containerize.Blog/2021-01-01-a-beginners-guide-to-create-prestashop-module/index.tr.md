@@ -15,10 +15,10 @@ categories: ['Shopping Cart Software']
 
 ** Prestashop **% 100 ücretsiz ve açık kaynak olan e -ticaret yazılımıdır. Bu, mağaza sahiplerinin çevrimiçi varlıklarını kolayca kurmalarını ve işleri geniş bir ölçekte ölçeklendirmelerini sağlar. Prestashop varsayılan özelliklerle birlikte gelir ve iş gereksinimleriniz için zaman zaman daha fazla işlevselliğe ihtiyacınız olabilir. Prestashop için pazar, mağaza işlevselliğini genişletmek için kullanılabilecek eklenti özellikleri bulmak için harika bir yerdir. Ayrıca, hem ücretsiz hem de ücretli modülleri Marketplace'de bulabilirsiniz. Ancak, sıfırdan da özel modül oluşturabilirsiniz.
 ** Prestashop modülü oluşturma ** için aşağıdaki konuları ayrıntılı olarak tartışacağız.
-  * [Gereksinimler] [1]
-  * [Modül Gelişiminin Temelleri] [2]
-  * [Prestashop modülümüzü oluştur] [3]
-  * [Sonuç] [4]
+  * [Gereksinimler][1]
+  * [Modül Gelişiminin Temelleri][2]
+  * [Prestashop modülümüzü oluştur][3]
+  * [Sonuç][4]
 
 ## Gereksinimler {#req}
   * Prestashop 1.6 veya daha yüksek yükleyin.
@@ -96,12 +96,14 @@ public function hookRightColumn($params)
   *Son olarak, Yönetici bölümünü açın, yükleyin ve ** Prestashop modülünü yükleyin **.
 
 ## Sonuç {#Conclusion}
-Bu öğreticide ** prestashop modülünü ** inşa etmek için temel kavramları tartıştık. Ayrıca, daha fazla ileri modül için başlangıç ​​noktası olarak kullanılabilecek temel modül geliştirdik. [Containerize.com] [5] sürekli olarak yeni öğretici blog yayınları üzerinde çalışıyor. En son güncellemeler için lütfen [alışveriş sepeti yazılımı] [6] kategorisiyle iletişim halinde olun.
+Bu öğreticide ** prestashop modülünü ** inşa etmek için temel kavramları tartıştık. Ayrıca, daha fazla ileri modül için başlangıç ​​noktası olarak kullanılabilecek temel modül geliştirdik. [Containerize.com][5] sürekli olarak yeni öğretici blog yayınları üzerinde çalışıyor. En son güncellemeler için lütfen [alışveriş sepeti yazılımı][6] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları ** Prestashop Modülü Oluşturma Eğitimi ** 'na ek olarak yararlı bulabilirsiniz.
-  * [Prestashop - Ücretsiz Alışveriş Sepeti Yazılımı] [7]
-  * [2020'de Top 5 Açık Kaynak Alışveriş Sepeti Yazılımı] [8]
+  * [Prestashop - Ücretsiz Alışveriş Sepeti Yazılımı][7]
+  * [2020'de Top 5 Açık Kaynak Alışveriş Sepeti Yazılımı][8]
+
+  
 [1]: #Req
 [2]: #Basics
 [3]: #Create

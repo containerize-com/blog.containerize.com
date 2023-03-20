@@ -14,10 +14,10 @@ categories: ['Uncategorized']
 {{< figure align=center src="images/bitwarden.png" alt="Açık Kaynak Şifre Yöneticileri | Bitwarden vs Passbolt|Açık Kaynak Şifre Yöneticileri | Bitwarden vs Passbolt">}}
 
 Yalnızca bireysel kullanım için değil, aynı zamanda ekiplerin ve işletmelerin hassas bilgileri daha iyi yönetmesine ve erişmesine izin veren bir şifre yöneticisi bulma söz konusu olduğunda, doğru şifre yöneticisini bulmak iş akışını hafifletmeye yardımcı olabilir. Bitwarden ve Passbolt, ekipler için özel olarak tasarlanmış ve işletmelerin uygulamaları yerel veya bulutta barındırmasına olanak tanıyan açık kaynak şifre yöneticisi yazılımıdır. Bitwarden vs Passbolt'u karşılaştırmak için bu yazıdaki aşağıdaki konuları ele alacağız:
-  * [Bitwarden nedir?] [1]
-  * [Passbolt nedir?] [2]
-  * [Ana Farklılıklar] [3]
-  * [Sonuç] [4]
+  * [Bitwarden nedir?][1]
+  * [Passbolt nedir?][2]
+  * [Ana Farklılıklar][3]
+  * [Sonuç][4]
 
 ## ** Bitwarden nedir? **
 Bitwarden, komut satırı arayüzü ile birlikte mobil ve web uygulaması da dahil olmak üzere çapraz platform uyumluluğuna sahip umut verici bir açık kaynak şifre yöneticisidir. Windows, MacOS ve Linux ile uyumluluğa sahip olduğu için masaüstünüzde Bitwarden'e de erişebilirsiniz. Açık kaynaklı bir şifre yöneticisi olarak, Bitwarden bireysel kullanım için ve kurumsal düzeyde kullanılabilir. Sadece sunucularınızda Bitwarden'i barındıramazsınız, aynı zamanda bulut barındırma da vardır ve çapraz cihaz uyumluluğu ile ihtiyacınız olduğunda erişilebilir.
@@ -53,9 +53,11 @@ Bu yazıda, Bitwarden vs Passbolt ile karşılaştırma ayrıntılı olarak deva
 
 ## Keşfetmek
 İlgili aşağıdaki bağlantıları bulabilirsiniz:
-[Bitwarden | Açık Kaynak Çapraz Platform Parola Yöneticisi] [5]
-[Passbolt | Ücretsiz, açık kaynaklı ve kendi kendine barındırılan şifre yöneticisi] [6]
-[Windows için Keepass şifre yöneticisini kurulup yönetin] [7]
+[Bitwarden | Açık Kaynak Çapraz Platform Parola Yöneticisi][5]
+[Passbolt | Ücretsiz, açık kaynaklı ve kendi kendine barındırılan şifre yöneticisi][6]
+[Windows için Keepass şifre yöneticisini kurulup yönetin][7]
+
+  
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

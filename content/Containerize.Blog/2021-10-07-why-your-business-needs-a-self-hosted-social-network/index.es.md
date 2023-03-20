@@ -50,14 +50,16 @@ La mejor característica de un software de código abierto es su extensibilidad.
 
 ## Conclusión
 Este es el final de esta publicación de blog. Por lo tanto, la construcción de una red social autogustiada ** para su propio negocio puede impulsar su negocio en términos de eficiencia. Este artículo realmente puede ayudarlo a tomar la decisión correcta si realmente está buscando implementar una red social ** de código abierto ** en sus servidores locales o en la nube. El progreso de los negocios depende del entorno laboral. Sin embargo, tales aplicaciones de redes sociales proporcionan espacios compartidos donde los empleados y los altos directivos pueden compartir sus pensamientos y evaluarlos según sus entendimientos. Los participantes pueden ver visualmente sus ubicaciones en un mapa integrado y pueden establecer llamadas de video o audio con ellos.
-Finalmente, [Contenerize.com] [1] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [plataformas de redes sociales] [2] para actualizaciones regulares.
+Finalmente, [Contenerize.com][1] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [plataformas de redes sociales][2] para actualizaciones regulares.
 
 ## Explore {#Explore}
 Puede encontrar los siguientes enlaces relevantes:
-  *** [Humhub] [3] **
-  *** [Automatizar operaciones comerciales utilizando software de código abierto y de código abierto] [4] **
-  *** [Cosas para revisar antes de optar el software de código abierto en 2021] [5] **
-  *[** Top 5 Software de videoconferencia de código abierto de 2021 **] [6]
+  *** [Humhub][3] **
+  *** [Automatizar operaciones comerciales utilizando software de código abierto y de código abierto][4] **
+  *** [Cosas para revisar antes de optar el software de código abierto en 2021][5] **
+  *[** Top 5 Software de videoconferencia de código abierto de 2021 **][6]
+
+  
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/social-network-platforms/
 [3]: https://products.containerize.com/social-network-platforms/humhub/

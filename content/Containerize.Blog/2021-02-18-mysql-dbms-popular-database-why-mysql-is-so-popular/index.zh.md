@@ -15,12 +15,12 @@ categories: ['Database Management Software']
 
 
 ## 概述
-欢迎来到[开源数据库管理系统]系列中的另一篇令人兴奋的博客文章[1]。在最近的过去，我们发表了有关主题的博客文章，例如[Setup Xampp和PhpMyAdmin作为Windows上的Localhost] [2]，[前5个开源数据库管理系统] [3]等。企业级应用是当前技术时代的关注点。业务需求正在以很高的速度发生变化，并且关于数据安全性，数据访问和数据完整性存在巨大的争论。但是，开源社区始终表现出一些致力于为现代问题提供更好的解决方案的承诺。因此，有许多流行的数据库是开源的，而MySQL DBM是其中之一。在此博客文章中，我们将介绍以下几点。
-  * [什么是mysql？] [4]
-  * [为什么MySQL如此受欢迎？] [5]
-  * [mysql的好处] [6]
-  * [mysql的缺点] [7]
-  * [结论] [8]
+欢迎来到[开源数据库管理系统]系列中的另一篇令人兴奋的博客文章[1]。在最近的过去，我们发表了有关主题的博客文章，例如[Setup Xampp和PhpMyAdmin作为Windows上的Localhost][2]，[前5个开源数据库管理系统][3]等。企业级应用是当前技术时代的关注点。业务需求正在以很高的速度发生变化，并且关于数据安全性，数据访问和数据完整性存在巨大的争论。但是，开源社区始终表现出一些致力于为现代问题提供更好的解决方案的承诺。因此，有许多流行的数据库是开源的，而MySQL DBM是其中之一。在此博客文章中，我们将介绍以下几点。
+  * [什么是mysql？][4]
+  * [为什么MySQL如此受欢迎？][5]
+  * [mysql的好处][6]
+  * [mysql的缺点][7]
+  * [结论][8]
 
 ## 什么是mysql？ {#什么}
 MySQL是最受欢迎的数据库管理系统之一。它是LAMP应用软件的重要支柱。此外，它是跨平台，因此与Windows，Linux，MacOS，Irix等所有操作系统都很好地配合使用。此外，MySQL是用于管理关系数据库的数据库管理系统。 MySQL DBMS归Oracle拥有，但它仍然是开源软件，您可以使用它而无需支付任何费用。此外，您可以根据自己的要求和需求更改其源代码。有有关开发和部署的全面文件。
@@ -34,7 +34,7 @@ MySQL是最受欢迎的数据库管理系统之一。它是LAMP应用软件的�
   *它是可自定义的，因为它是一个开源数据库。开发人员可以根据需要编辑代码。
   *它比大多数其他开源数据库都要快，即使在大型数据集中，运行良好。
   *它与PHP，Perl，C，C ++，Java等许多语言兼容。
-  * [github] [9] repo上有很好的统计数据。
+  * [github][9] repo上有很好的统计数据。
 
 ## mysql {#pros}的好处
 博客文章的这一部分定义了MySQL DBMS为用户提供的一些核心优势。因此，让我们一一仔细研究一下，找出对企业的好处。
@@ -52,13 +52,15 @@ MySQL是最受欢迎的数据库管理系统之一。它是LAMP应用软件的�
 
 ## 结论{#conclusion}
 这使我们进入了此博客文章的结尾。但是，我们经历了MySQL DBM的一些重要方面，例如MySQL，MySQL的好处以及MySQL的缺点。如果您想为您的业务应用程序选择一个开源关系数据库，那么这篇博客文章肯定会为您提供帮助。易于使用，高性能，灵活性，安全性，成熟度和简单的语法使MySQL成为最受欢迎的数据库管理系统之一。它与许多流行语言兼容，包括PHP，Perl，C，C ++，Java等，以及跨平台，可以安装在大多数操作系统上，包括Windows，Linux，MacOS，Irix等。此外，下面的“探索”部分中提到的其他相关文章和产品您可以查看。
-最后，[Containerize.com] [10]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与常规更新的[11]类别保持联系[11]类别。此外，您可以在我们的社交媒体帐户上关注我们[Facebook] [12]，[LinkedIn] [13]和[Twitter] [14]。
+最后，[Containerize.com][10]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与常规更新的[11]类别保持联系[11]类别。此外，您可以在我们的社交媒体帐户上关注我们[Facebook][12]，[LinkedIn][13]和[Twitter][14]。
 
 ## 探索
 您可能会发现以下链接相关：
-  * [2021年的前5个开源数据库管理系统] [3]
-  * [最受欢迎的开源关系数据库管理系统之一] [15]
-  * [设置XAMPP和PHPMYADMIN作为Windows上的Localhost] [2]
+  * [2021年的前5个开源数据库管理系统][3]
+  * [最受欢迎的开源关系数据库管理系统之一][15]
+  * [设置XAMPP和PHPMYADMIN作为Windows上的Localhost][2]
+
+  
 [1]: https://blog.containerize.com/category/database-management-software/
 [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 [3]: https://blog.containerize.com/2021/02/12/top-5-open-source-dbms-software-in-2021-mysql-and-alternatives/

@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Create-you-first-php-project-using-xamppA.png" alt="使用XAMPP开源Web服务器创建您的第一个PHP项目">}}
 
 XAMPP是一家开源Web服务器，在将其部署在实时服务器上之前，它提供了一个本地环境来创建，运行和测试PHP项目。它为开发人员提供了一台本地服务器来测试和构建Web应用程序。我们将在此博客文章中介绍以下各节：
-  * [要求] [2]
-  * [什么是xampp] [3]
-  * [创建PHP脚本] [4]
-  * [运行和测试PHP脚本] [5]
-  * [结论] [6]
+  * [要求][2]
+  * [什么是xampp][3]
+  * [创建PHP脚本][4]
+  * [运行和测试PHP脚本][5]
+  * [结论][6]
 
 ## 要求{#requirements}
   * XAMPP安装
@@ -28,7 +28,7 @@ XAMPP是一家开源Web服务器，在将其部署在实时服务器上之前，
 
 ## 什么是Xampp？ {#XAMPP}
 XAMPP是开源Web服务器解决方案堆栈。它包含Apache，MySQL，Mariadb，PHP和Perl。它非常容易安装和使用。这就是为什么它是最受欢迎的PHP开发环境。 XAMPP服务器为PHP Web应用程序开发提供了一个完整的环境。如果您还没有XAMPP工作安装，请按照本指南安装XAMPP：
-[设置XAMPP和PHPMYADMIN作为Windows上的Localhost] [7]
+[设置XAMPP和PHPMYADMIN作为Windows上的Localhost][7]
 
 ## 创建PHP脚本{#php}
   *假设您已经按照上述教程安装了XAMPP，现在让我们创建一个简单的PHP脚本并在XAMPP上进行测试。
@@ -62,8 +62,10 @@ echo "This is my first PHP project";
 
 ## 探索
 要了解有关XAMPP和PHPMYADMIN的更多信息，请结帐以下指南：
-[设置XAMPP和PHPMYADMIN作为Windows上的Localhost] [7]
-[PHP和PERL开发人员的免费Web服务器解决方案堆栈] [1]
+[设置XAMPP和PHPMYADMIN作为Windows上的Localhost][7]
+[PHP和PERL开发人员的免费Web服务器解决方案堆栈][1]
+
+  
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

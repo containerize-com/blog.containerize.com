@@ -17,9 +17,9 @@ categories: ['Password Management']
 ## Descripción general {#Overview}
 Recordar todas las diferentes combinaciones de contraseñas para diferentes sitios web y aplicaciones no es una tarea fácil, y aunque escribirlas en una hoja de papel puede parecer una solución fácil. No hay mucha seguridad en ese método, ya que puede perderlo fácilmente o puede caer en manos de la persona equivocada. ** Manager de contraseña KeepASS ** para Windows es una de las solución a estos problemas.
 Los administradores de contraseñas, por otro lado, faciliten que los usuarios almacenen todas sus contraseñas en un solo lugar y accedan a ellas cuando lo necesiten. Keepass es ** uno de los mejores administradores de contraseñas de código abierto **, que no solo se descarga, sino que puede almacenar el archivo de contraseña en un USB o cargarlo en su Dropbox, Google Drive u otro Opción de almacenamiento en la nube. Con el cifrado de extremo a extremo, solo el propietario de las contraseñas puede acceder al archivo de contraseña con la clave maestra, lo que garantiza la seguridad. Como Administrador de contraseñas de código abierto, el usuario permite que el usuario con conocimiento técnico también inspeccione el código fuente por sí mismo para garantizar que no hay características de seguridad faltantes.
-  * [Configuración KeepAss en Windows] [1]
-  * [Administrar contraseñas usando Keepass] [2]
-  * [Conclusión] [3]
+  * [Configuración KeepAss en Windows][1]
+  * [Administrar contraseñas usando Keepass][2]
+  * [Conclusión][3]
 
 ## Configurar KeepASS en Windows {#setup}
 ** Descargar e instalar **
@@ -63,21 +63,23 @@ Para iniciar sesión con las contraseñas guardadas en la base de datos:
 
 ** Otras opciones de Administrador de contraseñas a considerar: **
 Hay docenas de otros administradores de contraseñas de código abierto disponibles en el mercado. Puede mantener seguras las credenciales de sus cuentas utilizando administradores de contraseñas seguras, populares, auto alojadas y de código abierto para almacenar contraseñas únicas y complejas. A continuación se enumeran algunos administradores de contraseñas principales:
-  *[** Padloc **] [4] está diseñado como un administrador de contraseñas minimalista simple y seguro y gestión de datos para familias y equipos.
-  *[** Passbolt **] [5] es un administrador de contraseñas fáciles de acceder a autohostado diseñado para las necesidades de los equipos Agile y DevOps.
-  *[** Contraseña segura **] [6] es un programa de Administrador de contraseñas de código abierto con interfaz segura, simple y fácil de entender.
-  *[** Bitwarden **] [7] es una solución segura, gratuita de descarga y de código abierto integrada de administración de contraseñas integrada.
-  *[** Psono **] [8] es un administrador de credenciales y contraseñas autohospedados para equipos. Proporciona cifrado multicapa para la máxima seguridad.
+  *[** Padloc **][4] está diseñado como un administrador de contraseñas minimalista simple y seguro y gestión de datos para familias y equipos.
+  *[** Passbolt **][5] es un administrador de contraseñas fáciles de acceder a autohostado diseñado para las necesidades de los equipos Agile y DevOps.
+  *[** Contraseña segura **][6] es un programa de Administrador de contraseñas de código abierto con interfaz segura, simple y fácil de entender.
+  *[** Bitwarden **][7] es una solución segura, gratuita de descarga y de código abierto integrada de administración de contraseñas integrada.
+  *[** Psono **][8] es un administrador de credenciales y contraseñas autohospedados para equipos. Proporciona cifrado multicapa para la máxima seguridad.
 
 ## conclusión {#conclusion}
 Keepass es una forma fácil, segura y portátil de administrar sus contraseñas. Le permite personalizar sus contraseñas, generar combinaciones seguras y guardar múltiples entradas de contraseña para diferentes sitios web con el nombre de usuario. El uso del mejor administrador de contraseñas también es seguro, ya que utiliza un mecanismo de cifrado de extremo a extremo y se basa en la función hash SH-256 para la máxima seguridad.
-Además, [** Contenerize.com **] [9] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones regulares, estén atentos a ** [Administración de contraseñas] [10] ** Categoría para artículos más interesantes.
+Además, [** Contenerize.com **][9] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones regulares, estén atentos a ** [Administración de contraseñas][10] ** Categoría para artículos más interesantes.
 
 ## Explorar
 En este artículo hemos discutido cómo configurar y administrar Keepass Password Manager para Windows. Puede encontrar los siguientes enlaces relevantes:
-  *** [Top 5 Administradores de contraseñas de código abierto en 2021] [11] **
-  *** [El mejor software de administración de contraseñas de código abierto] [12] **
-  *** [Keepass | Administrador de contraseñas seguras, portátiles y de código abierto] [13] **
+  *** [Top 5 Administradores de contraseñas de código abierto en 2021][11] **
+  *** [El mejor software de administración de contraseñas de código abierto][12] **
+  *** [Keepass | Administrador de contraseñas seguras, portátiles y de código abierto][13] **
+
+  
 [1]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#setup
 [2]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#manage
 [3]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#conclusion

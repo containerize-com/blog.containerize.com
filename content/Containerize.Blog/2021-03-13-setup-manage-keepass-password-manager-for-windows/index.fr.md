@@ -17,9 +17,9 @@ categories: ['Password Management']
 ## Présentation {#Overview}
 Se souvenir de toutes les différentes combinaisons de mots de passe pour différents sites Web et applications n'est pas une tâche facile, et bien que les écrire sur un morceau de papier puisse sembler une solution facile. Il n'y a pas beaucoup de sécurité dans cette méthode, car vous pouvez facilement le perdre ou il peut tomber entre les mains de la mauvaise personne. ** Keepass Password Manager ** Pour Windows est l'une des solutions à ces problèmes.
 Les gestionnaires de mots de passe, d'autre part, facilitent les utilisateurs de stocker tous leurs mots de passe en un seul endroit et d'y accéder quand ils en ont besoin. Keepass est ** l'un des meilleurs gestionnaires de mot de passe open source ** là-bas, qui non seulement est gratuit, mais portable ainsi que vous pouvez stocker le fichier de mot de passe sur un USB ou le télécharger sur votre Dropbox, Google Drive ou autre Option de stockage cloud. Avec le cryptage de bout en bout, seul le propriétaire des mots de passe peut accéder au fichier de mot de passe avec la clé principale, qui garantit la sécurité. En tant que gestionnaire de mot de passe open source, Keepass permet à l'utilisateur de connaissances techniques d'inspecter également le code source par lui-même pour s'assurer qu'il n'y a pas de fonctionnalités de sécurité manquantes.
-  * [Configuration Keepass sur Windows] [1]
-  * [Gérer les mots de passe à l'aide de Keepass] [2]
-  * [Conclusion] [3]
+  * [Configuration Keepass sur Windows][1]
+  * [Gérer les mots de passe à l'aide de Keepass][2]
+  * [Conclusion][3]
 
 ## Configuration Keepass sur Windows {#SetUp}
 ** Télécharger et installer **
@@ -63,21 +63,23 @@ Pour se connecter avec les mots de passe enregistrés sur la base de données:
 
 ** Autres options de gestion de mot de passe à considérer: **
 Il existe des dizaines d'autres gestionnaires de mots de passe open source disponibles sur le marché. Vous pouvez protéger vos informations d'identification de comptes en utilisant des gestionnaires de mot de passe sécurisés, populaires, hébergés et open source pour stocker des mots de passe uniques et complexes. Ci-dessous, il y a quelques meilleurs gestionnaires de mots de passe:
-  * [** Padloc **] [4] est conçu comme un gestionnaire de mot de passe minimaliste simple et sécurisé et la gestion des données pour les familles et les équipes.
-  * [** Passbolt **] [5] est un gestionnaire de mot de passe d'auto-hébergé facile d'accès conçu pour les besoins des équipes Agile et DevOps.
-  * [** Mot de passe Safe **] [6] est un programme de gestion de mot de passe open-source avec une interface sécurisée, simple et facile à comprendre.
-  * [** Bitwarden **] [7] est une solution de gestion de mot de passe intégrée sécurisée, gratuite et gratuite.
-  * [** PSONO **] [8] est un gestionnaire d'identification et un mot de passe auto-hébergé pour les équipes. Il fournit un chiffrement multicouche pour une sécurité maximale.
+  * [** Padloc **][4] est conçu comme un gestionnaire de mot de passe minimaliste simple et sécurisé et la gestion des données pour les familles et les équipes.
+  * [** Passbolt **][5] est un gestionnaire de mot de passe d'auto-hébergé facile d'accès conçu pour les besoins des équipes Agile et DevOps.
+  * [** Mot de passe Safe **][6] est un programme de gestion de mot de passe open-source avec une interface sécurisée, simple et facile à comprendre.
+  * [** Bitwarden **][7] est une solution de gestion de mot de passe intégrée sécurisée, gratuite et gratuite.
+  * [** PSONO **][8] est un gestionnaire d'identification et un mot de passe auto-hébergé pour les équipes. Il fournit un chiffrement multicouche pour une sécurité maximale.
 
 ## Conclusion {#conclusion}
 Keepass est un moyen facile, sécurisé et portable de gérer vos mots de passe. Il vous permet de personnaliser vos mots de passe, de générer des combinaisons sécurisées et d'enregistrer plusieurs entrées de mot de passe pour différents sites Web avec le nom d'utilisateur. L'utilisation de Best Password Manager Keepass est également sécurisée car elle utilise un mécanisme de chiffrement de bout en bout et s'appuie sur la fonction de hachage SH-256 pour une sécurité maximale.
-En outre, [** contenerize.com **] [9] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de ** [Gestion de mot de passe] [10] ** Catégorie pour des articles plus intéressants.
+En outre, [** contenerize.com **][9] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de ** [Gestion de mot de passe][10] ** Catégorie pour des articles plus intéressants.
 
 ## Explorer
 Dans cet article, nous avons discuté de la façon de configurer et de gérer Keepass Password Manager pour Windows. Vous pouvez trouver des liens suivants pertinents:
-  * ** [Top 5 des gestionnaires de mot de passe open source en 2021] [11] **
-  * ** [Meilleur logiciel de gestion de mot de passe open source] [12] **
-  * ** [Keepass | Secure, portable et open source Manager Manager] [13] **
+  * ** [Top 5 des gestionnaires de mot de passe open source en 2021][11] **
+  * ** [Meilleur logiciel de gestion de mot de passe open source][12] **
+  * ** [Keepass | Secure, portable et open source Manager Manager][13] **
+
+  
 [1]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#setup
 [2]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#manage
 [3]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#conclusion

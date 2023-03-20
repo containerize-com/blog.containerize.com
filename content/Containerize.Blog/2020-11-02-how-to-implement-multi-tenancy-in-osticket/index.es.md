@@ -14,14 +14,14 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-osTicket.png" alt="Personalización de Osticket: implementar múltiples tenientes en Osticket">}}
 
 En este artículo discutiremos cómo hacer la personalización de Osticket para implementar la tenencia múltiple. Esta publicación cubrirá los siguientes temas:
-  * [Descripción general de Osticket] [1]
-  * [Descripción general de la tenencia múltiple] [2]
-  * [Beneficios de la tenencia múltiple] [3]
-  * [Implementación] [3]
-  * [Conclusión] [4]
+  * [Descripción general de Osticket][1]
+  * [Descripción general de la tenencia múltiple][2]
+  * [Beneficios de la tenencia múltiple][3]
+  * [Implementación][3]
+  * [Conclusión][4]
 
 ## Descripción general de OsTicket: {#OSTICKET}
-[Osticket] [5] es un software de mesa de ayuda basado en la web de soporte al cliente en línea de código abierto. Proporciona un panel de control intuitivo y un componente de informes en tiempo real. Tiene el módulo de gestión de consultas fáciles de usar. Esto le permite crear consultas desde su teléfono, correo electrónico y formularios basados ​​en la web. Que ofrece numerosas opciones para ayudar a adaptar todas las partes de la experiencia de soporte del cliente, como comentarios y notificaciones por correo electrónico.
+[Osticket][5] es un software de mesa de ayuda basado en la web de soporte al cliente en línea de código abierto. Proporciona un panel de control intuitivo y un componente de informes en tiempo real. Tiene el módulo de gestión de consultas fáciles de usar. Esto le permite crear consultas desde su teléfono, correo electrónico y formularios basados ​​en la web. Que ofrece numerosas opciones para ayudar a adaptar todas las partes de la experiencia de soporte del cliente, como comentarios y notificaciones por correo electrónico.
 
 ## Descripción general de la tenencia múltiple: {#multitenancy}
 Multi-tenencia se refiere a la implementación, donde múltiples instancias independientes de una aplicación operan en un entorno compartido. Las instancias (inquilinos) están lógicamente aisladas, pero físicamente integradas. Una organización posiblemente puede tener múltiples departamentos. Para que puedan crear múltiples inquilinos/instancias de la misma aplicación. Por ejemplo, en nuestro caso, un sistema de servicio de ayuda se puede configurar para diferentes dominios de la misma organización. Podría haber cientos de inquilinos, pero todos usarán los mismos archivos y, por lo tanto, el mismo almacenamiento. Esto reducirá los costos de almacenamiento, así como facilitará las actualizaciones. Los desarrolladores solo necesitan actualizar los archivos de un lugar en lugar de hacer cambios para cada sitio por separado.
@@ -69,10 +69,12 @@ Osticket es un software de gestión de la mesa de ayuda gratuito y de código ab
 
 ## Explorar:
 Vea la página siguiente para obtener más información sobre Osticket:
-  * [Osticket: un software de servicio de ayuda de código abierto gratuito] [5]
-  * [Una guía para principiantes para desarrollar el complemento Osticket] [6]
-  * [Cómo configurar el software de la mesa de ayuda en línea usando Osticket] [7]
-  * [Automatizar el sistema de tickets usando WordPress y Osticket] [8]
+  * [Osticket: un software de servicio de ayuda de código abierto gratuito][5]
+  * [Una guía para principiantes para desarrollar el complemento Osticket][6]
+  * [Cómo configurar el software de la mesa de ayuda en línea usando Osticket][7]
+  * [Automatizar el sistema de tickets usando WordPress y Osticket][8]
+
+  
 [1]: #osticket
 [2]: #multitenancy
 [3]: #benefits

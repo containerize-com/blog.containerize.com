@@ -15,15 +15,15 @@ categories: ['Healthcare Software']
 
 
 ## Aperçu
-Dans le passé proche, nous avons publié quelques articles de blog sur les sujets tels que [Top 5 Open Source Patient Health Record Software] [1], [Comment installer le système de santé hospitalier sur LocalHost] [2], [Fonctionne l'exploration de la solution médicale en matière de santé médicale OpenEMR] [3], et quelques autres. Ces dernières années, la technologie a changé les flux de travail dans presque tous les domaines de la vie, y compris l'industrie médicale. Il y a de nombreux domaines qui ont émergé il y a quelques années qui comprend l'intelligence artificielle, le cloud computing, l'Internet des objets et le secteur financier. Le secteur de la technologie de la santé est l'un de ces domaines développés qui a été complètement numérisé avec l'avènement des logiciels de santé open source. Cependant, il existe une relation solide entre la technologie et les soins de santé.
+Dans le passé proche, nous avons publié quelques articles de blog sur les sujets tels que [Top 5 Open Source Patient Health Record Software][1], [Comment installer le système de santé hospitalier sur LocalHost][2], [Fonctionne l'exploration de la solution médicale en matière de santé médicale OpenEMR][3], et quelques autres. Ces dernières années, la technologie a changé les flux de travail dans presque tous les domaines de la vie, y compris l'industrie médicale. Il y a de nombreux domaines qui ont émergé il y a quelques années qui comprend l'intelligence artificielle, le cloud computing, l'Internet des objets et le secteur financier. Le secteur de la technologie de la santé est l'un de ces domaines développés qui a été complètement numérisé avec l'avènement des logiciels de santé open source. Cependant, il existe une relation solide entre la technologie et les soins de santé.
 Les services de santé sont encore plus productifs et efficaces qu'auparavant en raison du remplacement de la main-d'œuvre par des systèmes d'information sur les soins de santé. Il existe un certain nombre de ** logiciels de santé en ligne ** qui ont donné naissance à de nouvelles opportunités et possibilités dans le secteur pertinent. Dans cet article de blog, nous explorerons l'impact de la technologie et des soins de santé en couvrant les points suivants.
-  * ** [Qu'est-ce que la technologie des soins de santé?] [4] **
-  * ** [Quel est l'impact des technologies de santé?] [5] **
-  * ** [Types de logiciels de santé primaires] [6] **
-  * ** [Conclusion] [7] **
+  * ** [Qu'est-ce que la technologie des soins de santé?][4] **
+  * ** [Quel est l'impact des technologies de santé?][5] **
+  * ** [Types de logiciels de santé primaires][6] **
+  * ** [Conclusion][7] **
 
 ## Qu'est-ce que la technologie des soins de santé? {#santé}
-[Les technologies de santé] [8] se concentrent sur l'amélioration de tous les secteurs des ** Systèmes informatiques de santé **. Il existe de nombreux outils et logiciels libres pour stimuler la productivité dans le diagnostic de toute maladie, traitement et médicament. Il y a eu une innovation cohérente qui donne les derniers informations sur la technologie de la santé. Ces applications open source répondent aux besoins des patients et à la gestion de l'hôpital. Tandis que les laboratoires tiers peuvent être intégrés dans les processus de travail. Les soins de santé sont désormais plus accessibles que jamais en raison du développement récent. De plus, Mobile Health a facilité ce secteur en apportant de nombreuses applications de santé pour les utilisateurs de smartphones. En fait, ces applications se déroulent sur des smartphones, des tablettes et des montres qui informent les utilisateurs de leurs calories, de leurs informations d'exercice, de la fréquence cardiaque, etc. De plus, les logiciels exécutés sur les appareils permettent aux utilisateurs d'aider à formuler un cycle de vie sain du sommeil.
+[Les technologies de santé][8] se concentrent sur l'amélioration de tous les secteurs des ** Systèmes informatiques de santé **. Il existe de nombreux outils et logiciels libres pour stimuler la productivité dans le diagnostic de toute maladie, traitement et médicament. Il y a eu une innovation cohérente qui donne les derniers informations sur la technologie de la santé. Ces applications open source répondent aux besoins des patients et à la gestion de l'hôpital. Tandis que les laboratoires tiers peuvent être intégrés dans les processus de travail. Les soins de santé sont désormais plus accessibles que jamais en raison du développement récent. De plus, Mobile Health a facilité ce secteur en apportant de nombreuses applications de santé pour les utilisateurs de smartphones. En fait, ces applications se déroulent sur des smartphones, des tablettes et des montres qui informent les utilisateurs de leurs calories, de leurs informations d'exercice, de la fréquence cardiaque, etc. De plus, les logiciels exécutés sur les appareils permettent aux utilisateurs d'aider à formuler un cycle de vie sain du sommeil.
 
 ## Quel est l'impact des technologies de santé? {#impacter}
 Dans cette section du Guide de la technologie et des soins de santé, nous passerons par les résultats de l'utilisation de systèmes d'information sur les soins de santé open source. Le monde médical a été révolutionné dans une large mesure en raison du développement massif des soins de santé primaires. De plus, il a amené toutes les parties prenantes sur une seule plate-forme partagée et intégrée où l'enregistrement de chaque entité est centralisée. Voici les choses suivantes à considérer lorsque nous parlons de l'impact:
@@ -43,21 +43,23 @@ Dans cette section de l'article Technology and Healthcare, nous passerons par ce
 
 ## Conclusion {#conclusion}
 Cela vient à la fin de ce billet de blog. Cet article décrit l'importance de la technologie dans le domaine médical et nous avons traversé ce qui est la technologie des soins de santé. Il existe d'autres développements et innovations dans la manière d'enrichir les systèmes informatiques de santé. Ce billet de blog a couvert de nombreux aspects de la technologie et des soins de santé. De plus, il existe un logiciel de santé open source qui fournit une assistance à distance aux médecins où ils peuvent effectuer un examen médical des patients qui ne peuvent pas visiter les cliniques physiquement. De plus, les outils à distance peuvent réduire le coût de déplacement avec de nombreuses autres dépenses. Cet article de blog peut vraiment vous aider si vous cherchez à installer un système d'information sur les soins de santé open source pour votre entreprise. Vous pouvez trouver une liste de logiciels de santé open source mentionnés dans la section «Explorer» ci-dessous.
-Enfin, **** [contenerize.com] [9] **** publiera des articles sur d'autres logiciels de santé en ligne open source. Par conséquent, veuillez rester en contact avec cette catégorie [Healthcare Technologies] [8] pour les mises à jour régulières.
+Enfin, **** [contenerize.com][9] **** publiera des articles sur d'autres logiciels de santé en ligne open source. Par conséquent, veuillez rester en contact avec cette catégorie [Healthcare Technologies][8] pour les mises à jour régulières.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [OpenEMR] [10]
-  * [OpenMRS] [11]
-  * [Hospitalrun] [12]
-  * [Hôpital ouvert] [13]
-  * [Solismemed] [14]
-  * [Choses à revoir avant d'opter les logiciels open source en 2021] [15]
-  * [Fonctionne l'exploration du gestionnaire de dossiers médicaux Hospitalrun] [16]
-  * [Top 5 du logiciel de dossier de santé des patients open source] [1]
-  * [Fonctionne l'exploration de la solution de santé médicale OpenEMR] [3]
-  * [Comment mettre en place un système de santé hospitalier sur localhost] [17]
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [18]
+  * [OpenEMR][10]
+  * [OpenMRS][11]
+  * [Hospitalrun][12]
+  * [Hôpital ouvert][13]
+  * [Solismemed][14]
+  * [Choses à revoir avant d'opter les logiciels open source en 2021][15]
+  * [Fonctionne l'exploration du gestionnaire de dossiers médicaux Hospitalrun][16]
+  * [Top 5 du logiciel de dossier de santé des patients open source][1]
+  * [Fonctionne l'exploration de la solution de santé médicale OpenEMR][3]
+  * [Comment mettre en place un système de santé hospitalier sur localhost][17]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][18]
+
+  
 [1]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
 [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
 [3]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/

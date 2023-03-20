@@ -13,12 +13,12 @@ categories: ['Database Management Software']
 
 {{< figure align=center src="images/redis-pub-sub.png" alt="Redis Pub Sub">}}
 
-Son öğreticimizde “** [REDIS bellek içi veritabanı için yeni başlayanlar rehberi] [1] **” Redis'i bellek içi bir veritabanı olarak öğrendik. Ve bunun NoSQL veritabanlarıyla nasıl rekabet ettiği. Ayrıca Redis'in nerede kullanılacağını ve kullanımının nerede optimal olmadığını öğrendik. Şimdi bu bilgi tabanının üstüne binmek, bu öğreticide Redis Pub/Sub, nasıl işe yarıyor ve Redis Publish/Abone Sisteminin en iyi kullanımı hakkında bilgi edineceğiz. Başlayalım.
-  *** [Publish/Abone Olası Desen nedir?] [2] **
-  *** [Pub/alt nasıl çalışıyor?] [3] **
-  *** [Pub/sub ne zaman kullanmalısınız?] [4] **
-  *** [Redis pub/sub nasıl kullanılır?] [5] **
-  *** [Sonuç] [6] **
+Son öğreticimizde “** [REDIS bellek içi veritabanı için yeni başlayanlar rehberi][1] **” Redis'i bellek içi bir veritabanı olarak öğrendik. Ve bunun NoSQL veritabanlarıyla nasıl rekabet ettiği. Ayrıca Redis'in nerede kullanılacağını ve kullanımının nerede optimal olmadığını öğrendik. Şimdi bu bilgi tabanının üstüne binmek, bu öğreticide Redis Pub/Sub, nasıl işe yarıyor ve Redis Publish/Abone Sisteminin en iyi kullanımı hakkında bilgi edineceğiz. Başlayalım.
+  *** [Publish/Abone Olası Desen nedir?][2] **
+  *** [Pub/alt nasıl çalışıyor?][3] **
+  *** [Pub/sub ne zaman kullanmalısınız?][4] **
+  *** [Redis pub/sub nasıl kullanılır?][5] **
+  *** [Sonuç][6] **
 
 ## Publish/Abone Olma Deseni nedir? {#Ne}
 Yayınlayın/Abone Olma veya Kısa Pub/Sub, mesajların gönderen ve alıcısının bu mesajları doğrudan değiştirmediği bir mesajlaşma modelidir. Aksine, mesajın göndereni bunu bir kanala/konuya yayınlar. Ve bu mesajları almak isteyenler kanala/konuya abone olacaktır. Yani, bu daha çok teknik bir açıklamaydı. Günlük yaşamımızda, YouTube, Twitter, Facebook veya Instagram gibi sosyal medya platformlarını kullanırken bu yayınlama-abonelik modelini oldukça sık kullanıyoruz. İçerik üreticilerinin içeriği ürettiği ve ilgilenenlerin içeriğini takip edeceği / abone olacağı yerlerde. Yani Pub/Alt Desen'in yazılım mimarisinde de yaptığı şey budur.
@@ -69,6 +69,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 ## Sonuç {#Conclusion}
 Bu öğreticide, yayınlama/abone tasarım desenini öğrendik. Ve Redis Pub/Sub'un nasıl çalıştığını araştırdı. Ayrıca Redis Pub/Sub, gerçek zamanlı mesajlaşma en iyi kullanım durumları neler olduğunu araştırdık. Yaklaşan öğreticimde, Redis'i daha fazla keşfedeceğiz ve gerçek zamanlı bir sohbet uygulaması oluşturmak için Redis Pub/Sub Node.js ile nasıl kullanabileceğimizi açıklayacağız.
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: #what
 [3]: #how

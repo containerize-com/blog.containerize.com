@@ -15,20 +15,20 @@ O Jitsi Meet reúne pessoas remotas para realizar reuniões eficazes. Vamos apre
 
 
 ## Visão geral
-Recentemente, publicamos uma [postagem do blog] [1] que fala sobre o impacto do [software de videoconferência] [2] no setor corporativo. No entanto, neste artigo, abordaremos os seguintes pontos.
-  * [Uma breve introdução de Jitsi Meet] [3]
-  * [Como configurar Jitsi Meet?] [4]
-  * [Jitsi atende aos recursos Exploration] [5]
-  * [Conclusão] [6]
+Recentemente, publicamos uma [postagem do blog][1] que fala sobre o impacto do [software de videoconferência][2] no setor corporativo. No entanto, neste artigo, abordaremos os seguintes pontos.
+  * [Uma breve introdução de Jitsi Meet][3]
+  * [Como configurar Jitsi Meet?][4]
+  * [Jitsi atende aos recursos Exploration][5]
+  * [Conclusão][6]
 
 ## Uma breve introdução de jitsi me encontre {#intro}
-[Jitsi Meet] [7] é um software de colaboração de vídeo em código aberto completamente gratuito, seguro e escalável. Ele fornece vários recursos populares, como videoconferência multipartidária com criptografia completa, suporte para Etherpad e gravação de vídeo/áudio. Este software compatível com o WebRTC permite convidar quantos usuários desejar para uma reunião de vídeo.
+[Jitsi Meet][7] é um software de colaboração de vídeo em código aberto completamente gratuito, seguro e escalável. Ele fornece vários recursos populares, como videoconferência multipartidária com criptografia completa, suporte para Etherpad e gravação de vídeo/áudio. Este software compatível com o WebRTC permite convidar quantos usuários desejar para uma reunião de vídeo.
 A ascensão das reuniões virtuais começou nos últimos tempos e as pessoas acreditam que a comunicação por meio de chamadas de vídeo/áudio é mais eficaz e colaborativa. Acima de tudo, essa categoria de software não apenas funciona em laptops/desktops, mas também permite que os participantes participem de reuniões de vídeo seguras de frente para o seu telefone celular.
 
 ## Como configurar Jitsi se encontrar? {#configurar}
 Nesta seção, entraremos no processo de instalação do Jitsi Meet. Primeiro, verifique se você instalou o seguinte pré-requisito.
-  * [Docker] [8]
-Quando o Docker estiver instalado, faça o download do arquivo zip do código -fonte deste [link] [9].
+  * [Docker][8]
+Quando o Docker estiver instalado, faça o download do arquivo zip do código -fonte deste [link][9].
 Abra o terminal e execute o seguinte comando
 `CD Docker-jitsi-meet`
 Depois disso, execute o seguinte comando para criar um `.env`
@@ -65,15 +65,17 @@ Jitsi Meet Offers Chat integrado com emojis.
 
 
 ## Conclusão {#con}
-Neste artigo, passamos por um impressionante software de comunicação remota e seu processo de instalação. Além disso, é hora de optar pelas melhores soluções para sincronizar as necessidades de negócios com as tecnologias em evolução. No final, [containerize.com] [10] está trabalhando para estender a lista de software de videoconferência. Portanto, mantenha -se conectado com a categoria [Software de videoconferência] [2] para atualizações regulares.
+Neste artigo, passamos por um impressionante software de comunicação remota e seu processo de instalação. Além disso, é hora de optar pelas melhores soluções para sincronizar as necessidades de negócios com as tecnologias em evolução. No final, [containerize.com][10] está trabalhando para estender a lista de software de videoconferência. Portanto, mantenha -se conectado com a categoria [Software de videoconferência][2] para atualizações regulares.
 
 Páginas de produto relevantes
 Você pode encontrar os seguintes links relevantes:
-  * [Jitsi Meet] [7]
-  * [Bigbluebutton] [11]
-  * [OpenVidu] [12]
-  * [Elemento] [13]
-  * [Wire] [14]
+  * [Jitsi Meet][7]
+  * [Bigbluebutton][11]
+  * [OpenVidu][12]
+  * [Elemento][13]
+  * [Wire][14]
+
+  
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

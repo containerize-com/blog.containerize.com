@@ -71,7 +71,7 @@ nginx：構成ファイル/etc/nginx/nginx.conf構文は問題ありません
 nginx：構成file /etc/nginx/nginx.confテストが成功しました
 
 ## ステップ4：SSL証明書の追加{#37C0}
-次のステップは、nginx HTTPS構成がSSL証明書を使用できるようにすることです。自己署名された証明書を生成するか、[Let's Encryptから無料の証明書をインストール] [1]。 SSL証明書がない場合は、このチュートリアルに従ってください。次のようなnginx構成ディレクトリ内にSSL証明書を追加する
+次のステップは、nginx HTTPS構成がSSL証明書を使用できるようにすることです。自己署名された証明書を生成するか、[Let's Encryptから無料の証明書をインストール][1]。 SSL証明書がない場合は、このチュートリアルに従ってください。次のようなnginx構成ディレクトリ内にSSL証明書を追加する
 ```
 sudo mkdir /etc/nginx/ssl
 ```
@@ -112,11 +112,13 @@ HTTP2多重プロトコルについて質問がありますか？
 
 ## 探検
 以下の記事も好きかもしれません：
-  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法] [3]
-  * [方法] [3] [ubuntuでnginxを使用してphpmyadminをインストールして保護する] [4]
-  * [AWSプロダクションサーバーの乗客とnginxをセットアップする方法] [5]
-  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します] [1]
-  * [ubuntuでapacheでowncloudをインストールして構成する方法] [6]
+  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法][3]
+  * [方法][3][ubuntuでnginxを使用してphpmyadminをインストールして保護する][4]
+  * [AWSプロダクションサーバーの乗客とnginxをセットアップする方法][5]
+  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します][1]
+  * [ubuntuでapacheでowncloudをインストールして構成する方法][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

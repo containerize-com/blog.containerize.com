@@ -15,36 +15,36 @@ categories: ['Blockchain Platforms']
 
 
 ## Genel Bakış
-Yepyeni blog yazımıza hoş geldiniz. Bu blog yazısı, en çok kullanılan ilk 5 ** açık kaynak kripto cüzdanını ** kapsayacağımız [blockchain kategorisi] [1] 'e aittir. Yakın geçmişte, [Localhost'ta Ethereum Düğümü Nasıl Kurulur] [2] ve daha fazlası gibi birçok makale yayınladık. Ancak, ** açık kaynak dijital cüzdan ** içine atlayarak blockchain ile ilgili makalelerimizin havuzunu genişleteceğiz. Kripto para birimi yavaş yavaş patlıyor ve işletmelerin ve girişimcilerin büyük bir segmenti bu ** dağıtılmış defter teknolojisinde kıvılcım buluyor. Bu nedenle, açık kaynaklı topluluk nabzı haklı olarak gözlemledi ve bazı açık kaynaklı ücretsiz cüzdan yazılımı geliştirdi.
+Yepyeni blog yazımıza hoş geldiniz. Bu blog yazısı, en çok kullanılan ilk 5 ** açık kaynak kripto cüzdanını ** kapsayacağımız [blockchain kategorisi][1] 'e aittir. Yakın geçmişte, [Localhost'ta Ethereum Düğümü Nasıl Kurulur][2] ve daha fazlası gibi birçok makale yayınladık. Ancak, ** açık kaynak dijital cüzdan ** içine atlayarak blockchain ile ilgili makalelerimizin havuzunu genişleteceğiz. Kripto para birimi yavaş yavaş patlıyor ve işletmelerin ve girişimcilerin büyük bir segmenti bu ** dağıtılmış defter teknolojisinde kıvılcım buluyor. Bu nedenle, açık kaynaklı topluluk nabzı haklı olarak gözlemledi ve bazı açık kaynaklı ücretsiz cüzdan yazılımı geliştirdi.
 ** Açık kaynak kripto cüzdanları ** Dijital para birimini depolamak, göndermek ve almak için kullanılır. Her cüzdan benzersiz bir çift kamu ve özel anahtar içerir. Genel anahtar, gönderenin dijital parayı gönderdiği bir adres olarak kullanılır ve bir cüzdanın birden fazla kamu anahtarı olabilir. Bu cüzdan programları güvenlidir ve güvenilir işlemleri sağlamak için şifreli kanallar sağlar. Bu blog yazısında, aşağıdaki noktaları kapsayarak en popüler açık kaynaklı dijital cüzdanlardan geçeceğiz.
-  *** [myetherwallet] [3] **
-  *** [Copay] [4] **
-  *** [Ekmek Wallet] [5] **
-  *** [Blockstream Green] [6] **
-  *** [JAXX] [7] **
+  *** [myetherwallet][3] **
+  *** [Copay][4] **
+  *** [Ekmek Wallet][5] **
+  *** [Blockstream Green][6] **
+  *** [JAXX][7] **
 
 ## myetherwallet {#myetherwallet}
-[** myeterwallet **] [8] [Ethereum] [9] tarafından desteklenen ** ücretsiz bir cüzdan yazılımı **'dır. JavaScript ile yazılmıştır ve Ethereum blockchain ile etkileşime girerek cüzdan oluşturmak için istemci tarafı bir araçtır. Ayrıca, bu ** açık kaynaklı dijital cüzdan ** güvenli, güvenilir ve Ethereum ağına erişmek ve işlem yapmak için sezgisel bir web arayüzü sunar. Buna ek olarak, MyetherWallet, Bitbox, Secalot, KeepKey ve Trezor gibi donanım cüzdanlarıyla entegrasyon için destek sunar. Bu açık kaynak kripto cüzdanıyla ilişkili hizmet ücreti yoktur ve çevrimdışı soğuk işlemler sunar.
+[** myeterwallet **][8][Ethereum][9] tarafından desteklenen ** ücretsiz bir cüzdan yazılımı **'dır. JavaScript ile yazılmıştır ve Ethereum blockchain ile etkileşime girerek cüzdan oluşturmak için istemci tarafı bir araçtır. Ayrıca, bu ** açık kaynaklı dijital cüzdan ** güvenli, güvenilir ve Ethereum ağına erişmek ve işlem yapmak için sezgisel bir web arayüzü sunar. Buna ek olarak, MyetherWallet, Bitbox, Secalot, KeepKey ve Trezor gibi donanım cüzdanlarıyla entegrasyon için destek sunar. Bu açık kaynak kripto cüzdanıyla ilişkili hizmet ücreti yoktur ve çevrimdışı soğuk işlemler sunar.
 Aşağıda öne çıkan özellikler:
   * Kullanıcı dostu
   * Donanım cüzdanlarıyla entegrasyon
   * Kolay Web Arayüzü
   * Ethereum merkezli
   * Kullanımı ücretsiz
-[** Myetherwallet hakkında daha fazla bilgi edinin **] [8]
+[** Myetherwallet hakkında daha fazla bilgi edinin **][8]
 
 ## Copay {#Copay}
-[** Copay **] [10], önemli özelliklere ve hükümlere sahip bir başka açık kaynak dijital cüzdandır. Bu ** ücretsiz cüzdan yazılımı ** yüksek oranda güvenli, çoklu özelliklidir ve şu anda BTC ve BCH'yi desteklemektedir. Ancak, bu ** açık kaynak dijital cüzdan **, iOS, Android, Windows, Mac ve Linux gibi neredeyse tüm popüler platformlar için kullanılabilir. Her şeyden önce, kullanıcılar cüzdan için yedekler oluşturabilir. Ayrıca, kullanıcılara anahtarlar ve işlemler konusunda tam kontrol sağlar. Ayrıca Copay, ağ arayüzü ve akran senkronizasyonu için Bitcoin cüzdan hizmetinden yararlanır. Copay esnektir, güvenlidir ve ** dağıtılmış defter teknolojisine ** güven getirmek için kurumsal düzeyde gizlilik sunar **.
+[** Copay **][10], önemli özelliklere ve hükümlere sahip bir başka açık kaynak dijital cüzdandır. Bu ** ücretsiz cüzdan yazılımı ** yüksek oranda güvenli, çoklu özelliklidir ve şu anda BTC ve BCH'yi desteklemektedir. Ancak, bu ** açık kaynak dijital cüzdan **, iOS, Android, Windows, Mac ve Linux gibi neredeyse tüm popüler platformlar için kullanılabilir. Her şeyden önce, kullanıcılar cüzdan için yedekler oluşturabilir. Ayrıca, kullanıcılara anahtarlar ve işlemler konusunda tam kontrol sağlar. Ayrıca Copay, ağ arayüzü ve akran senkronizasyonu için Bitcoin cüzdan hizmetinden yararlanır. Copay esnektir, güvenlidir ve ** dağıtılmış defter teknolojisine ** güven getirmek için kurumsal düzeyde gizlilik sunar **.
 Copay'ın aşağıdaki önemli özellikleri vardır:
   * Cüzdan yedekleme
   * Birden çok platform için kullanılabilir
   * Çoklu İmza
   * Bip32 hiyerarşik deterministik adres üretimi
   * Çok güvenli
-** [Copay hakkında daha fazla bilgi edinin] [11] **
+** [Copay hakkında daha fazla bilgi edinin][11] **
 
 ## ** breadwallet ** {#breadwallet}
-** [breadwallet] [12] ** en iyi arasında bir başka popüler seçenektir ** Açık kaynak kripto cüzdanları **. Bu açık kaynaklı dijital cüzdan kullanımı kolaydır ve hızlı ve hızlı işlemler için blockchain ağı ile doğrudan bağlantılar sağlar. Buna ek olarak, bu ** ücretsiz cüzdan yazılımı ** ekmek şirketi tarafından geliştirilmiştir ve mobil platformlar için kullanılabilir. Ayrıca, kullanıcıların kolayca gezinebileceği mantıklı ve kolay bir kullanıcı arayüzü sunar. Breadwallet, anonim işlemler, birden fazla dil için destek ve daha fazlası gibi birçok güçlü özellik sunar. Ayrıca, kullanıcıların bu açık kaynak kripto cüzdanını kullanmak için kayıt yaptırmaları gerekmez.
+** [breadwallet][12] ** en iyi arasında bir başka popüler seçenektir ** Açık kaynak kripto cüzdanları **. Bu açık kaynaklı dijital cüzdan kullanımı kolaydır ve hızlı ve hızlı işlemler için blockchain ağı ile doğrudan bağlantılar sağlar. Buna ek olarak, bu ** ücretsiz cüzdan yazılımı ** ekmek şirketi tarafından geliştirilmiştir ve mobil platformlar için kullanılabilir. Ayrıca, kullanıcıların kolayca gezinebileceği mantıklı ve kolay bir kullanıcı arayüzü sunar. Breadwallet, anonim işlemler, birden fazla dil için destek ve daha fazlası gibi birçok güçlü özellik sunar. Ayrıca, kullanıcıların bu açık kaynak kripto cüzdanını kullanmak için kayıt yaptırmaları gerekmez.
 Breadwallet aşağıdaki önemli özellikleri sunar:
   * Özelleştirilebilir widget'lar
   * Regsitrasyon gerekmez
@@ -53,7 +53,7 @@ Breadwallet aşağıdaki önemli özellikleri sunar:
   * 24/7 destek
 
 ## Blockstream Green {#greenAddress}
-[** Blockstream Green **] [13], BTC ve sıvı tabanlı dijital varlıkları göndermek ve almak için tasarlanmış açık kaynaklı olmayan bir cüzdan yazılımıdır. Bu, masaüstü ve mobil cihazlar gibi birden fazla platform için mevcut olan en iyi açık kaynak kripto cüzdanlarından*biridir. Blockstream Green, her işleme karşı 2 faktörlü kimlik doğrulama kullandığı için oldukça esnek ve güvenlidir. Ayrıca, fon göndermek ve almak için bir barkod mekanizması vardır. Ayrıca, kullanımı çok basit ve kurulumu kolaydır. Ayrıca, çok dillidir ve Alman, İtalyan, Japon, Korece, Çince, Hollandaca, İngilizce, Fransızca ve daha fazlası gibi birçok dil için destek sağlar. Ayrıca, yeşim, borç veren ve trezor gibi donanım cüzdanlarıyla entegrasyonu destekler.
+[** Blockstream Green **][13], BTC ve sıvı tabanlı dijital varlıkları göndermek ve almak için tasarlanmış açık kaynaklı olmayan bir cüzdan yazılımıdır. Bu, masaüstü ve mobil cihazlar gibi birden fazla platform için mevcut olan en iyi açık kaynak kripto cüzdanlarından*biridir. Blockstream Green, her işleme karşı 2 faktörlü kimlik doğrulama kullandığı için oldukça esnek ve güvenlidir. Ayrıca, fon göndermek ve almak için bir barkod mekanizması vardır. Ayrıca, kullanımı çok basit ve kurulumu kolaydır. Ayrıca, çok dillidir ve Alman, İtalyan, Japon, Korece, Çince, Hollandaca, İngilizce, Fransızca ve daha fazlası gibi birçok dil için destek sağlar. Ayrıca, yeşim, borç veren ve trezor gibi donanım cüzdanlarıyla entegrasyonu destekler.
 GreenAddress aşağıdaki temel özelliklerle birlikte gelir:
   * Çok dilli
   * 2f-kimlik doğrulama
@@ -72,21 +72,23 @@ Jaxx aşağıdaki önemli noktaları sunar:
 
 ## Çözüm
 Bu bizi bu blog yazısının sonuna getiriyor. Açık Kaynak Topluluğu, blockchain ağı için kurumsal düzeyde yazılım geliştirdi. Buna ek olarak, Ethereum, Ripple ve diğerleri gibi aşağıdaki “Keşfet” bölümünde belirtilen birçok açık kaynak blockchain platformu vardır. Ancak, bu makale size kullanımı ve kurulumu kolay olan en iyi açık kaynak kripto cüzdanları ** hakkında bir fikir verdi. Bunlar ücretsiz, açık kaynak ve kullanıcılar bunları ihtiyaçlara göre değiştirebilir. Bu ** ücretsiz cüzdan yazılımı ** Dijital para birimleri sahiplerinin tam gizlilik ve güvenlik ile fon göndermesini, göndermesini ve almasını sağlar.
-Son olarak, [** Containerize.com **] [14] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [** blockchain platformları **] [1] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][14] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [** blockchain platformları **][1] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Ethereum] [9]
-  * [Hiperledger kumaş] [15]
-  * [Openchain] [16]
-  * [Ripple] [17]
-  * [MultiCain] [18]
-  * [Consensys Quorum] [19]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [20]
-  * [2020'de Top 5 Açık Kaynak Blockchain Platformu] [21]
-  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber] [22]
-  * [Merkezi olmayan teknoloji iş stratejinizi ne kadar yükseltiyor] [23]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [20]
+  * [Ethereum][9]
+  * [Hiperledger kumaş][15]
+  * [Openchain][16]
+  * [Ripple][17]
+  * [MultiCain][18]
+  * [Consensys Quorum][19]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][20]
+  * [2020'de Top 5 Açık Kaynak Blockchain Platformu][21]
+  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber][22]
+  * [Merkezi olmayan teknoloji iş stratejinizi ne kadar yükseltiyor][23]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][20]
+
+  
 [1]: https://products.containerize.com/blockchain-platforms/
 [2]: https://blog.containerize.com/blockchain-platforms/what-is-testnet-how-to-deploy-it-ethereum-testnet/
 [3]: #MyEtherWallet

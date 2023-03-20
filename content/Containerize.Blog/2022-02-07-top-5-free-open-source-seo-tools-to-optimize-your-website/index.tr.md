@@ -71,16 +71,18 @@ YoastSeo, kullanıcıların sayfalarının Google arama motoruna nasıl bakacağ
 
 ## ** Son Düşünce: ** {#4A1A}
 Yukarıda belirtilen beş açık kaynaklı SEO platformu esnek çözümlerdir. Bulut bilişimde çok sayıda açık kaynaklı özel bulut depolama çözümü bulacaksınız, ancak en güvenilir olanı bulmak en önemli. Bulut yazılımının seçimine karar veren siz veya kuruluşunuzun ihtiyacısınız. Umarım bu makale güvenli ve güvenilir bir kişisel bulut sunucusu oluşturmanıza veya değerli resimlerinizi, müziklerinizi, filmlerinizi ve belgelerinizi saklamak için en iyi bulut hizmetini seçmenize yardımcı olur.
-_ Favourite_ _open kaynak SEO araçları ve popüler arama motoru pazarlama araçları nelerdir? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin] [1].
+_ Favourite_ _open kaynak SEO araçları ve popüler arama motoru pazarlama araçları nelerdir? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][1].
 
 ## Keşfetmek:
 Ayrıca, bulutunuzun günlük yönetimi ile ilgili birkaç makalemiz var.
-  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [2]
-  * [Ubuntu sunucusunda apache ile nextcloud nasıl yüklenir] [3]
-  * [Ubuntu'da Apache ile Owncloud'u yükleyin ve yapılandırın] [4]
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [5]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [6]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın] [7]
+  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][2]
+  * [Ubuntu sunucusunda apache ile nextcloud nasıl yüklenir][3]
+  * [Ubuntu'da Apache ile Owncloud'u yükleyin ve yapılandırın][4]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][5]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][6]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][7]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/

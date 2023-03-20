@@ -15,14 +15,14 @@ Solusi ## CMDB menawarkan resolusi insiden, pelacakan aset, dan manajemen peruba
 
 
 ## **Ringkasan**
-Dalam seri blog ini dari perangkat lunak CMDB, kami menulis tentang topik -topik seperti [bagaimana solusi CMDB mempengaruhi layanan manajemen aset TI] [1] dan [cara mengatur solusi CMDB Ralph pada localhost] [2]. Artikel -artikel ini menggambarkan peran solusi manajemen aset TI dalam bisnis, dan yang lainnya adalah posting blog tutorial yang membantu mengatur Ralph. [Ralph] [3] adalah perangkat lunak pelacakan aset open source ** ** yang memungkinkan pengguna melacak aset fisik dan digital dengan kontrol dan keamanan penuh. Ini sangat dapat diperluas dan menyediakan antarmuka yang tenang untuk aplikasi pihak ketiga. Perangkat lunak CMDB ini muncul dengan kemampuan hosting sendiri. Ini memungkinkan pengguna mendefinisikan alur kerja untuk tindakan internal/eksternal pada aset. Anda dapat melihat wawasan komprehensif tentang infrastruktur TI Anda. Namun, dalam posting blog ini, kami akan bermain dengan Ralph untuk mengembangkan pemahaman dasar operasinya dengan meliput poin -poin berikut.
-  *** [Apa itu dasbor Ralph?] [4] **
-  *[** Dukungan untuk Back Office **] [5]
-  *** [Dukungan untuk pusat data] [6] **
-  *[** Kesimpulan **] [7]
+Dalam seri blog ini dari perangkat lunak CMDB, kami menulis tentang topik -topik seperti [bagaimana solusi CMDB mempengaruhi layanan manajemen aset TI][1] dan [cara mengatur solusi CMDB Ralph pada localhost][2]. Artikel -artikel ini menggambarkan peran solusi manajemen aset TI dalam bisnis, dan yang lainnya adalah posting blog tutorial yang membantu mengatur Ralph. [Ralph][3] adalah perangkat lunak pelacakan aset open source ** ** yang memungkinkan pengguna melacak aset fisik dan digital dengan kontrol dan keamanan penuh. Ini sangat dapat diperluas dan menyediakan antarmuka yang tenang untuk aplikasi pihak ketiga. Perangkat lunak CMDB ini muncul dengan kemampuan hosting sendiri. Ini memungkinkan pengguna mendefinisikan alur kerja untuk tindakan internal/eksternal pada aset. Anda dapat melihat wawasan komprehensif tentang infrastruktur TI Anda. Namun, dalam posting blog ini, kami akan bermain dengan Ralph untuk mengembangkan pemahaman dasar operasinya dengan meliput poin -poin berikut.
+  *** [Apa itu dasbor Ralph?][4] **
+  *[** Dukungan untuk Back Office **][5]
+  *** [Dukungan untuk pusat data][6] **
+  *[** Kesimpulan **][7]
 
 ## Apa itu dasbor Ralph? {#dasbor}
-[Ralph] [3] menyediakan dasbor intuitif dengan navigasi yang mudah. Solusi manajemen TI*ini ** menyediakan demo online untuk dimainkan dengannya. Pengguna dapat melihat dan menguji setiap fitur yang ditawarkan solusi ** CMDB gratis ini. Selain itu, ada antarmuka interaktif di mana pengguna dapat memasukkan data dummy untuk memeriksa input dan output. Lebih lanjut, semuanya terisolasi dalam bentuk modul. Modulnya adalah aset pusat data, aset belakang kantor, lisensi, dukungan, domain, pengguna, dan peralatan saya. Setiap modul ditempatkan di bilah menu atas. Ini juga menawarkan manajemen log dan pengguna dapat melihat tindakan terbaru di bilah sisi kanan. Lebih lanjut, ia menawarkan dukungan lengkap untuk pusat data dan back-office yang mencakup printer, laptop, komputer desktop, printer, dan ponsel. Ada grafik yang menunjukkan data secara real-time.
+[Ralph][3] menyediakan dasbor intuitif dengan navigasi yang mudah. Solusi manajemen TI*ini ** menyediakan demo online untuk dimainkan dengannya. Pengguna dapat melihat dan menguji setiap fitur yang ditawarkan solusi ** CMDB gratis ini. Selain itu, ada antarmuka interaktif di mana pengguna dapat memasukkan data dummy untuk memeriksa input dan output. Lebih lanjut, semuanya terisolasi dalam bentuk modul. Modulnya adalah aset pusat data, aset belakang kantor, lisensi, dukungan, domain, pengguna, dan peralatan saya. Setiap modul ditempatkan di bilah menu atas. Ini juga menawarkan manajemen log dan pengguna dapat melihat tindakan terbaru di bilah sisi kanan. Lebih lanjut, ia menawarkan dukungan lengkap untuk pusat data dan back-office yang mencakup printer, laptop, komputer desktop, printer, dan ponsel. Ada grafik yang menunjukkan data secara real-time.
 
 {{< figure align=center src="images/Screenshot-2021-07-14-at-15.24.12-1024x576.png" alt="Solusi manajemen aset">}}
 
@@ -48,17 +48,19 @@ Di bagian perangkat keras berikutnya, Anda dapat menambahkan aset Pusat Data den
 
 ## kesimpulan {#conclusion}
 Ini adalah akhir dari posting blog. **** Solusi manajemen aset ** IT yang baik ** meningkatkan alur kerja TI dengan membawa otomatisasi dan pelacakan. Ini tidak hanya memungkinkan Anda untuk mengotomatisasi setiap aset tetapi juga Anda dapat melacak konfigurasi dan perubahan. Pengguna dapat mengelola aset fisik dan virtual dan infrastruktur. Ada banyak perangkat lunak pelacakan aset IT open source yang menawarkan antarmuka pengguna logis. Dasbor ini menunjukkan data dalam bentuk visual. Sektor perusahaan secara luas memanfaatkan perangkat lunak database manajemen konfigurasi gratis ini. Karena itu, jika Anda bertanya -tanya bagaimana mengelola aset, maka Anda harus pergi secara gratis dan perangkat lunak sumber terbuka yang tercantum di sini. Semua solusi CMDB yang tercantum di sini adalah navigasi gratis, hemat biaya, hosting sendiri, ramah pengguna, mudah digunakan dan dikonfigurasi. Solusi ini memberikan integrasi pihak ketiga dan sering penemuan aset TI.
-Akhirnya, [** containerize.com **] [8] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Configuration Management Database Software (CMDB] [9]) untuk pembaruan rutin.
+Akhirnya, [** containerize.com **][8] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Configuration Management Database Software (CMDB][9]) untuk pembaruan rutin.
 
 ## Mengeksplorasi
-  *** [CMDB Software] [9] **
-  *** [ralph] [3] **
-  *[** snipe-it **] [10]
-  *[** cmdbuild **] [11]
-  *** [Foreman] [12] **
-  *** [ITOP] [13] **
-  *[** Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka **] [14]
-  *** [tren pengembangan perangkat lunak yang harus diwaspadai pada tahun 2021] [15] **
+  *** [CMDB Software][9] **
+  *** [ralph][3] **
+  *[** snipe-it **][10]
+  *[** cmdbuild **][11]
+  *** [Foreman][12] **
+  *** [ITOP][13] **
+  *[** Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka **][14]
+  *** [tren pengembangan perangkat lunak yang harus diwaspadai pada tahun 2021][15] **
+
+  
 [1]: https://blog.containerize.com/cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
 [2]: https://blog.containerize.com/cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
 [3]: https://products.containerize.com/cmdb-software/ralph/

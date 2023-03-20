@@ -13,12 +13,12 @@ categories: ['Version Control Software']
 
 {{< figure align=center src="images/git-branches-pull-requests.png" alt="Git çekme talepleri dalları">}}
 
-[Son makalemiz] [1] 'de GIT ve sürüm kontrol sistemlerinin temellerini öğrendik. Adım adım attık ve bir git deposunun nasıl kurulacağını öğrendik. Ayrıca, bir şubeye nasıl değişiklik ekleyeceğinizi ve değişikliklerinizi geri almak isterseniz bunları geri döndürmeyi öğrendik. Artık sürüm kontrol sistemlerinin temellerini, özellikle de Git'i anladığımıza göre. Bu blog yazısında, GIT dallarının nasıl kullanılacağını ve istekleri nasıl kullanacağınızı tartışacağız. Farklı iş akışlarını öğreneceğiz. Öyleyse başlayalım!
-  *** [git dalları nedir] [2] **
-  *** [Git dallarını oluştur / değiştir] [3] **
-  *** [Çekme isteği nedir] [4] **
-  *** [Popüler Git dallanma modelleri] [5] **
-  *[** Sonuç **] [6]
+[Son makalemiz][1] 'de GIT ve sürüm kontrol sistemlerinin temellerini öğrendik. Adım adım attık ve bir git deposunun nasıl kurulacağını öğrendik. Ayrıca, bir şubeye nasıl değişiklik ekleyeceğinizi ve değişikliklerinizi geri almak isterseniz bunları geri döndürmeyi öğrendik. Artık sürüm kontrol sistemlerinin temellerini, özellikle de Git'i anladığımıza göre. Bu blog yazısında, GIT dallarının nasıl kullanılacağını ve istekleri nasıl kullanacağınızı tartışacağız. Farklı iş akışlarını öğreneceğiz. Öyleyse başlayalım!
+  *** [git dalları nedir][2] **
+  *** [Git dallarını oluştur / değiştir][3] **
+  *** [Çekme isteği nedir][4] **
+  *** [Popüler Git dallanma modelleri][5] **
+  *[** Sonuç **][6]
 
 ## git dalları nedir {#branch}
 
@@ -50,18 +50,18 @@ Bir geliştirici bir çekme isteği açtığında, yaptığı tek şey başka bi
 Dünya çapında geliştirici topluluğu tarafından kullanılan bir sayı o dallanma iş akışları vardır. Ancak, en popüler üç dallanma modelini tek tek tartışacağız
 
 ### git akışı
-GitFlow iş akışı, sürekli yazılım geliştirme ve DevOps uygulamalarının uygulanmasına yardımcı olan bir git iş akışıdır. Git akışı bu listede en bilinen iş akışıdır. [2010 yılında Vincent Driessen] [7] tarafından yaratıldı ve sonsuz ömür boyu olan iki ana dala dayanıyor ve özellikler-\*, hotfixes-\* gibi diğer destekleyici dallarla birlikte, daha sonra bireysel olarak geliştirme dalına birleşiyor öğeler tamamlandı.
+GitFlow iş akışı, sürekli yazılım geliştirme ve DevOps uygulamalarının uygulanmasına yardımcı olan bir git iş akışıdır. Git akışı bu listede en bilinen iş akışıdır. [2010 yılında Vincent Driessen][7] tarafından yaratıldı ve sonsuz ömür boyu olan iki ana dala dayanıyor ve özellikler-\*, hotfixes-\* gibi diğer destekleyici dallarla birlikte, daha sonra bireysel olarak geliştirme dalına birleşiyor öğeler tamamlandı.
   *** Master ** - Bu şube üretim kodu içerir. Tüm geliştirme kodu, üretime itilmeye hazır bir kez ana dalda birleştirilir.
   *** Geliştirme **-Bu dal yapım öncesi kodu içerir. Özellikler bittiğinde, gelişmekle birleştirilirler.
 GitFlow, planlanmış bir sürüm döngüsü olan projeler için idealdir. Yine de, git tarihi okunamaz hale geliyor.
 
 ### Github akışı
-Github akışı hafif bir iş akışıdır. [GitHub] [8] tarafından 2011 yılında oluşturuldu ve esas olarak bir serbest bırakma döngüsünü beklemediğiniz Çevik modeline odaklanıyor. Bunun yerine, özellikler tamamlandıkça değişiklikleri günlük olarak itersiniz.
+Github akışı hafif bir iş akışıdır. [GitHub][8] tarafından 2011 yılında oluşturuldu ve esas olarak bir serbest bırakma döngüsünü beklemediğiniz Çevik modeline odaklanıyor. Bunun yerine, özellikler tamamlandıkça değişiklikleri günlük olarak itersiniz.
 Github akışı aşağıdaki müdürleri takip eder:
   * “Master” şubesindeki herhangi bir şey dağıtılabilir.
   * Yeni bir şey üzerinde çalışmak için, bazı açıklama adlarıyla ayrı bir OFF Master dalı oluşturun, örneğin “görüntü yükleme”
   * Bu şubeyi yerel ve düzenli olarak çalışmanızı sunucudaki aynı adlandırılan şubeye itin.
-  * Geri bildirim veya yardıma ihtiyacınız olduğunda veya şubenin birleşmeye hazır olduğunu düşündüğünüzde, bir [Çekme İsteği] [4]
+  * Geri bildirim veya yardıma ihtiyacınız olduğunda veya şubenin birleşmeye hazır olduğunu düşündüğünüzde, bir [Çekme İsteği][4]
   * Gözden geçirildikten ve özelliği imzaladıktan sonra, bunu ustaca birleştirebilirsiniz
   * Birleştirildikten ve "usta" a itildikten sonra üretime dağıtılabilir.
 
@@ -71,6 +71,8 @@ Geliştiriciler bir ** geliştirme ** dalı oluşturur ve bunu varsayılan hale 
 
 ## Sonuç {#Conclusion}
 Bu makalede, git dallarını ve çekme isteklerini öğrendik. Çekme isteklerinin önemini ve bunların çeşitli git iş akışlarında nasıl kullanılabileceğini inceledik. Ayrıca farklı git dallanma modellerini kısaca araştırdık.
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: #branch
 [3]: #create

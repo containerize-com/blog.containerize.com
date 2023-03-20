@@ -15,13 +15,13 @@ categories: ['Marketing Automation']
 
 Mautic ist eine Marketing -Automatisierungssoftware und gibt vollständige Kontrolle über Marketing -E -Mails, Zielseiten und Workflows für Marketingaktivitäten. Die Tropfkampagnen von MAUTIC tragen dazu bei, Zielgruppen einzubeziehen und sie über Ihre Produkte auf dem Laufenden zu halten. Mautic Facebook Integration bietet eine Möglichkeit, dass neue Leads zu Mautic hinzugefügt werden. Mit dieser Mautic -Facebook -Integration werden die Leads Ihrer Facebook -Kampagne automatisch zu Mautic hinzugefügt.
 Wir werden die folgenden Abschnitte in diesem Tutorial behandeln:
-  * [Facebook -Entwicklerkonto konfigurieren] [1]
-  * [Konfigurieren Sie die App von Facebook Developer] [2]
-  * [MAUTIC -Plugin -Konfiguration] [3]
-  * [Schlussfolgerung] [4]
+  * [Facebook -Entwicklerkonto konfigurieren][1]
+  * [Konfigurieren Sie die App von Facebook Developer][2]
+  * [MAUTIC -Plugin -Konfiguration][3]
+  * [Schlussfolgerung][4]
 
 ## Konfigurieren Sie das Facebook -Entwicklerkonto {#Account}
-  * Gehen Sie zu [Facebook für Entwickler] [5]
+  * Gehen Sie zu [Facebook für Entwickler][5]
   * Registrieren Sie Ihr Konto, wenn Sie keinen haben.
   * Um ein neues Konto zu registrieren, klicken Sie auf "Start" von oben rechts.
   * Wählen Sie anschließend Ihr Facebook -Konto aus und klicken Sie auf "Weiter".
@@ -77,11 +77,13 @@ MAUTIC - Facebook -Integration kann dazu beitragen, Ihre Facebook -Leads ohne Sc
 
 ## Erkunden
 Um mehr über Mautic und Facebook zu erfahren, besuchen Sie bitte:
-  * [Mautic | Open -Source -Content -Marketing -Technologieplattform] [6]
-  * [So richten Sie Mauterkampagnen mit Kampagnenbauer ein] [7]
-  * [Drupal Mautic Integration zur Automatisierung der Bleipflege] [8]
-  * [Marketing -Automatisierung mit Mautic und WooCommerce Integration] [9]
-  * [Mautic & Joomla für die Automatisierung digitaler Marketing] [10]
+  * [Mautic | Open -Source -Content -Marketing -Technologieplattform][6]
+  * [So richten Sie Mauterkampagnen mit Kampagnenbauer ein][7]
+  * [Drupal Mautic Integration zur Automatisierung der Bleipflege][8]
+  * [Marketing -Automatisierung mit Mautic und WooCommerce Integration][9]
+  * [Mautic & Joomla für die Automatisierung digitaler Marketing][10]
+
+  
 [1]: #account
 [2]: #app
 [3]: #configuration

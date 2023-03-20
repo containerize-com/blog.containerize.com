@@ -15,13 +15,13 @@ categories: ['Game Development Software']
 
 
 ## **概述**
-在我们的开源游戏开发的教程系列中，我们发表了有关一些流行主题的博客文章，例如[游戏开发教程| Gdevelop的玩家运动] [1]，[HTML5视频游戏程序员的游戏开发教程] [2]，[2]，[全球游戏行业如何利用开源软件] [3]和[Gdevelop Tutorial for Thinking for Think forne fornek forking tich othins fromister for tonk invine forighting forighters启动游戏开发] [4 ]。这篇教程文章是关于使用免费开源[Superpowers] [5]开始游戏开发的开始，涵盖以下几点。
-  *** [游戏动画的类型] [6] **
-  *** [如何创建精灵？] [7] **
-  *** [使用场景] [8] **
-  *** [在Localhost上启动游戏] [9] **
-  *** [结论] [10] **
-有许多针对初学者的开源游戏开发软件，这些软件具有自托管功能。但是，[Superpowers] [5]是跨平台2D和3D游戏创建软件。它提供内置的库和游戏示例，使游戏开发人员容易游戏开发。这个免费的游戏设计应用程序是用打字稿编写的，所有文档都可以在[Github] [11]上获得有关开发和部署的信息。在这篇博客文章中，我们将探索超级大国的用法。
+在我们的开源游戏开发的教程系列中，我们发表了有关一些流行主题的博客文章，例如[游戏开发教程| Gdevelop的玩家运动][1]，[HTML5视频游戏程序员的游戏开发教程][2]，[2]，[全球游戏行业如何利用开源软件][3]和[Gdevelop Tutorial for Thinking for Think forne fornek forking tich othins fromister for tonk invine forighting forighters启动游戏开发][4 ]。这篇教程文章是关于使用免费开源[Superpowers][5]开始游戏开发的开始，涵盖以下几点。
+  *** [游戏动画的类型][6] **
+  *** [如何创建精灵？][7] **
+  *** [使用场景][8] **
+  *** [在Localhost上启动游戏][9] **
+  *** [结论][10] **
+有许多针对初学者的开源游戏开发软件，这些软件具有自托管功能。但是，[Superpowers][5]是跨平台2D和3D游戏创建软件。它提供内置的库和游戏示例，使游戏开发人员容易游戏开发。这个免费的游戏设计应用程序是用打字稿编写的，所有文档都可以在[Github][11]上获得有关开发和部署的信息。在这篇博客文章中，我们将探索超级大国的用法。
 
 ## 游戏动画类型{#types}
 动画是视频游戏的重要组成部分。游戏中的角色必须响应用户的操作，动画应该平稳且突然。这是关于管理多个帧和动画师完善这些帧以产生移动效果。此外，在2D和3D动画中，对象似乎在三维空间中移动。游戏开发人员和图形设计师创建了3D模型。动画取决于游戏的性质，最常见的类型如下。
@@ -33,7 +33,7 @@ categories: ['Game Development Software']
 
 ## 如何创建精灵？ {#sprites}
 游戏制作指南的这一部分允许用户创建项目并开始为游戏创建精灵。精灵是非静态图像或图形，不仅在游戏中使用，而且是网页设计的一部分。这些通常是在不断刷新的背景中绘制的。
-继续前进之前，请确保您已经在计算机上设置了超级大国。您可以按照此链接[视频游戏程序员的HTML5游戏开发教程] [2]来设置此免费游戏创建平台。
+继续前进之前，请确保您已经在计算机上设置了超级大国。您可以按照此链接[视频游戏程序员的HTML5游戏开发教程][2]来设置此免费游戏创建平台。
 首先，将应用程序打开到浏览器中，让我们创建一个新的空项目。如下图所示。
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-12.32.59-1024x576.png" alt="开始游戏开发">}}
@@ -75,15 +75,17 @@ categories: ['Game Development Software']
 
 
 ## 结论{#conclusion}
-这是本教程的结尾，我们学会了如何为初学者制作游戏。因此，当有可用的游戏开发软件文档详细文档时，开始游戏开发变得容易。最后，[** containerize.com **] [12]正处于撰写有关进一步开源主题和产品的文章的一致过程中。因此，请与此[游戏开发软件] [13]类别保持联系，以进行常规更新。
+这是本教程的结尾，我们学会了如何为初学者制作游戏。因此，当有可用的游戏开发软件文档详细文档时，开始游戏开发变得容易。最后，[** containerize.com **][12]正处于撰写有关进一步开源主题和产品的文章的一致过程中。因此，请与此[游戏开发软件][13]类别保持联系，以进行常规更新。
 
 ## 探索
-  * [gdevelop] [14]
-  * [godot] [15]
-  * [超能力] [5]
-  * [可可创造者] [16]
-  * [panda3d] [17]
-  * [PlayCanvas] [18]
+  * [gdevelop][14]
+  * [godot][15]
+  * [超能力][5]
+  * [可可创造者][16]
+  * [panda3d][17]
+  * [PlayCanvas][18]
+
+  
 [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
 [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/

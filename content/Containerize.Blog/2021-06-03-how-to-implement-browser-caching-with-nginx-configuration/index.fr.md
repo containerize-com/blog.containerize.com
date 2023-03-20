@@ -13,12 +13,12 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Comment implémenter la mise en cache Browsr avec la configuration Nginx">}}
 
-Dans la série de didacticiels de notre Nginx, nous avons couvert [comment utiliser Nginx comme équilibreur de charge] [1], [Configurer Nginx comme proxy inverse] [2], [Utilisez plusieurs versions PHP avec Nginx] [3] et [Convertir la réécriture HTACCESS Règles sur les directives de réécriture de Nginx] [4]. Dans l'article d'aujourd'hui, nous couvrons un sujet très important qui aide les entreprises à améliorer l'expérience de leur utilisateur en tirant parti de la mise en cache du navigateur. Dans ce tutoriel, nous vous guiderons sur la façon d'implémenter la mise en cache du navigateur avec la configuration Nginx à l'aide du module d'en-tête de Nginx. Commençons!
-  * ** [Levier Cache de navigateur] [5] **
-  * [** Module d'en-tête Nginx **] [6]
-  * [** e-tage et if-none-match **] [7]
-  * [** Levier de mise en cache du navigateur avec configuration Nginx **] [8]
-  * [** Conclusion **] [9]
+Dans la série de didacticiels de notre Nginx, nous avons couvert [comment utiliser Nginx comme équilibreur de charge][1], [Configurer Nginx comme proxy inverse][2], [Utilisez plusieurs versions PHP avec Nginx][3] et [Convertir la réécriture HTACCESS Règles sur les directives de réécriture de Nginx][4]. Dans l'article d'aujourd'hui, nous couvrons un sujet très important qui aide les entreprises à améliorer l'expérience de leur utilisateur en tirant parti de la mise en cache du navigateur. Dans ce tutoriel, nous vous guiderons sur la façon d'implémenter la mise en cache du navigateur avec la configuration Nginx à l'aide du module d'en-tête de Nginx. Commençons!
+  * ** [Levier Cache de navigateur][5] **
+  * [** Module d'en-tête Nginx **][6]
+  * [** e-tage et if-none-match **][7]
+  * [** Levier de mise en cache du navigateur avec configuration Nginx **][8]
+  * [** Conclusion **][9]
 
 ## Levier Cache de navigateur {# Browser-caching}
 Plus un site Web se charge rapidement, plus un visiteur est susceptible de rester sur le site Web. Les sites Web avec beaucoup d'images et le contenu interactif sont chargés en arrière-plan font que le site Web ouvre une tâche complexe. Il consiste à demander de nombreux fichiers différents du serveur un par un. La minimisation de la quantité de ces demandes est une façon d'accélérer votre site Web.
@@ -108,8 +108,10 @@ De même, vous pouvez placer la configuration du cache dans le bloc _Server_ ava
 Le module d'en-têtes de Nginx peut être utilisé pour ajouter tous les en-têtes arbitraires à la réponse, mais la définition correcte des en-têtes de contrôle de cache est l'une de ses applications les plus utiles. Il vous aide à améliorer les performances du site Web, en particulier pour les utilisateurs sur des réseaux avec une latence plus élevée, comme les réseaux de transporteurs mobiles. Dans ce tutoriel, nous avons appris à tirer parti de la mise en cache du navigateur avec la configuration Nginx. J'espère que cela vous aidera à améliorer l'expérience de votre utilisateur sur votre site Web.
 
 ## Explorer
-  * [Comment installer plusieurs versions PHP avec Nginx sur Ubuntu] [3]
-  * [Comment configurer et configurer Nginx comme proxy inverse] [2]
+  * [Comment installer plusieurs versions PHP avec Nginx sur Ubuntu][3]
+  * [Comment configurer et configurer Nginx comme proxy inverse][2]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

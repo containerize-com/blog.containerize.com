@@ -14,14 +14,14 @@ categories: ['Message Queue Software']
 {{< figure align=center src="images/apache-kafka-open-source.png" alt="Apache Kafka Open Source Tutorial">}}
 
 Recentemente, escrevemos um artigo sobre "Kafka vs Redis Pub-Sub", que explica sobre as diferenças entre Kafka e Redis Pub-Sub. Nesse artigo, em breve explicamos sobre o próprio corretor de mensagens Kafka. Portanto, agora este artigo fornece mais informações sobre a plataforma de streaming de eventos de código aberto Apache Kafka e fornece a você todas as informações necessárias para começar com a fila de mensagens distribuídas Kafka. Então vamos começar.
-  * [Introdução ao Apache Kafka] [1]
-  * [O que é um sistema de mensagens?] [2]
-  * [Termos Fundamentais] [3]
-  * [Etapas de instalação] [4]
-  * [Crie um tópico] [5]
-  * [Escreva mensagem no tópico] [6]
-  * [Leia mensagens do tópico] [7]
-  * [Conclusão] [8]
+  * [Introdução ao Apache Kafka][1]
+  * [O que é um sistema de mensagens?][2]
+  * [Termos Fundamentais][3]
+  * [Etapas de instalação][4]
+  * [Crie um tópico][5]
+  * [Escreva mensagem no tópico][6]
+  * [Leia mensagens do tópico][7]
+  * [Conclusão][8]
 
 ## Introdução ao apache kafka {#intro}
 O corretor de mensagens de código aberto do Apache Kafka foi iniciado no LinkedIn e depois se tornou um projeto Apache de código aberto. O software Kafka Message Broker é desenvolvido em Scala e Java. O Apache Kafka Broker é um sistema de mensagens de inscrição de publicação que permite que a troca de dados entre aplicativos, servidores e processadores também. É rápido, escalável e distribuído pelo design. É capaz de lidar com milhões de dados ou mensagens por segundo. Funciona como mediador entre o sistema de origem (produtor) e o sistema de destino (consumidor). Organizações como Netflix, Uber e milhares de empresas fazem uso do streaming em tempo real do Apache Kafka. Em comparação com outros sistemas de mensagens, o software da fila de mensagens Kafka possui melhor taxa de transferência, particionamento interno, replicação e tolerância à falha inerente. Isso o torna um bom ajuste para aplicativos de processamento de mensagens em larga escala.
@@ -125,13 +125,15 @@ Sinta -se à vontade para experimentar: por exemplo, volte para o terminal do se
 
 ## Conclusão {#conclusion}
 Neste tutorial, aprendemos sobre o básico do uso do Apache Kafka. Instalamos o serviço de fila Kafka e depois o configuramos. Também aprendemos a criar tópicos em Kafka, enviar mensagens para tópicos e como ler mensagens dos tópicos. Espero que este artigo tenha sido útil para você. Vamos nos encontrar no próximo artigo.
-_O que a plataforma de streaming de eventos distribuída de código aberto você usa?. Você tem alguma dúvida?, Por favor_ [entre em contato] [9].
+_O que a plataforma de streaming de eventos distribuída de código aberto você usa?. Você tem alguma dúvida?, Por favor_ [entre em contato][9].
 
 ## Explore
 Você pode encontrar links a seguir relevantes:
-  * [Melhor Software de Mensagens de código aberto e de código aberto (MQ)] [10]
-  * [Kafka vs Redis Pub-Sub, diferenças que você deve conhecer] [11]
-  * [Introdução ao Redis Pub/Sub e como funciona?] [12]
+  * [Melhor Software de Mensagens de código aberto e de código aberto (MQ)][10]
+  * [Kafka vs Redis Pub-Sub, diferenças que você deve conhecer][11]
+  * [Introdução ao Redis Pub/Sub e como funciona?][12]
+
+  
 [1]: #intro
 [2]: #messaging
 [3]: #terms

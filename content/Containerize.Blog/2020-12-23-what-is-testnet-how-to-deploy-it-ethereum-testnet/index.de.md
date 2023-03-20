@@ -13,20 +13,20 @@ categories: ['Blockchain Platforms']
 
 {{< figure align=center src="images/ether.png" alt="Was ist TestNet">}}
 
-In unseren vorherigen Blog -Beiträgen haben wir über mehrere Themen geschrieben, die [Blockchain -Technologie für Business] [1], [Schreiben eines intelligenten Vertrags] [2] und [beliebte Blockchain -Plattformen] [3] enthalten. Es gibt weitere Themen, über die wir in naher Zukunft schreiben werden, da die dezentrale Ledger -Technologie ** mit dem Lauf der Zeit an Tempo gewinnt. Die Menschen interessieren sich jetzt aufgrund von Sicherheit und Transparenz, um sich für digitale Vermögensverwaltungsplattformen zu interessieren. Darüber hinaus sind digitale Transaktionen nachvollziehbar, unveränderlich und solche Faktoren verleihen den Menschen in Bezug auf die Zuverlässigkeit dieser Technologie. Es gibt drei Arten der Blockchain -Öffentlichkeit, Privat und Erlaubnis. Benutzer können jedoch je nach Anwendungsfall jeden Typ einnehmen.
+In unseren vorherigen Blog -Beiträgen haben wir über mehrere Themen geschrieben, die [Blockchain -Technologie für Business][1], [Schreiben eines intelligenten Vertrags][2] und [beliebte Blockchain -Plattformen][3] enthalten. Es gibt weitere Themen, über die wir in naher Zukunft schreiben werden, da die dezentrale Ledger -Technologie ** mit dem Lauf der Zeit an Tempo gewinnt. Die Menschen interessieren sich jetzt aufgrund von Sicherheit und Transparenz, um sich für digitale Vermögensverwaltungsplattformen zu interessieren. Darüber hinaus sind digitale Transaktionen nachvollziehbar, unveränderlich und solche Faktoren verleihen den Menschen in Bezug auf die Zuverlässigkeit dieser Technologie. Es gibt drei Arten der Blockchain -Öffentlichkeit, Privat und Erlaubnis. Benutzer können jedoch je nach Anwendungsfall jeden Typ einnehmen.
 Das Aufkommen dieser Technologie hat im Bankensektor eine enorme Veränderung geführt, da sie den Weg der Finanztransaktionen verändert hat. In diesem Blog -Beitrag werden wir über Ethereum Blockchain über die Einrichtung von Ethereum -Knoten auf Localhost sprechen und sehen, wie sie mit dem Testnetzwerk interagieren. Wir werden die folgenden Schlüsselpunkte abdecken.
   *** Was ist TestNet? **
-  *** [Wie man Ethereum Blockchain einrichtet?] [4] **
-  *** [Wie kann man mit Ethereum Blockchain interagieren?] [5] **
-  *** [Schlussfolgerung] [6] **
+  *** [Wie man Ethereum Blockchain einrichtet?][4] **
+  *** [Wie kann man mit Ethereum Blockchain interagieren?][5] **
+  *** [Schlussfolgerung][6] **
 
 ## Was ist TestNet? {#tetstnet}
-In diesem Blog -Beitrag werden wir einen Ethereum -Knoten auf Localhost bereitstellen. Ethereum verfügt über mehrere Netzwerke, das Produktionsnetzwerk wird als Mainnet bezeichnet und das für Testzwecke verwendete Netzwerk wird als TestNet bezeichnet. Die meisten dezentralen Anwendungen basieren auf [Ethereum] [7] Blockchain. Smart Contract ist ein integraler Bestandteil dieser verteilten Infrastruktur. Darüber hinaus ist Blockchain ein Netzwerk von Computern, die als "Knoten" bezeichnet werden. Jeder Knoten enthält jedoch eine Kopie der Blockchain und nimmt daher am Netzwerk teil. Ethereum Blockchain hat auch eine eigene Kryptowährung als „Äther“. Alle Transaktionen sind kryptografisch gesichert. Darüber hinaus handelt es sich um eine komplette Hauptbuchentechnologie, die nie heruntergefahren oder beschädigt wird. Sie können intelligente Verträge und dezentrale Anwendungen (DApps) schreiben, die auf Etherum -Blockchain -Knoten ausgeführt werden.
-Dieses Open Source Distributed Blockchain -Netzwerk verwendet einen Konsensalgorithmus, der als Proof of Work (POW) bezeichnet wird. Darüber hinaus umfasst die Architektur von Ethereum fünf Ebenen wie Virtual Machine, Ethereum -Client -APIs, Smart Contracts, Ethereum -Knoten und Endbenutzeranwendungen. Ethereum Virtual Machine bietet die Software und Architektur an, die intelligente Verträge erkennen. Smart Contracts sind die Software, die die Transaktionen regelt. Ethereum Blockchain und Fortune 500 -Unternehmen haben eine starke Unterstützung für die Entwicklung von Fortune -500 -Unternehmen für die Entwicklung in größerem Maßstab mit dieser Technologie. Darüber hinaus ist Ethereum in der GO -Sprache geschrieben und sein Quellcode ist in [Github] [8] verfügbar. Die gesamte Dokumentation ist zur Bereitstellung und Entwicklung verfügbar, da sie eine lebendige Community hat.
+In diesem Blog -Beitrag werden wir einen Ethereum -Knoten auf Localhost bereitstellen. Ethereum verfügt über mehrere Netzwerke, das Produktionsnetzwerk wird als Mainnet bezeichnet und das für Testzwecke verwendete Netzwerk wird als TestNet bezeichnet. Die meisten dezentralen Anwendungen basieren auf [Ethereum][7] Blockchain. Smart Contract ist ein integraler Bestandteil dieser verteilten Infrastruktur. Darüber hinaus ist Blockchain ein Netzwerk von Computern, die als "Knoten" bezeichnet werden. Jeder Knoten enthält jedoch eine Kopie der Blockchain und nimmt daher am Netzwerk teil. Ethereum Blockchain hat auch eine eigene Kryptowährung als „Äther“. Alle Transaktionen sind kryptografisch gesichert. Darüber hinaus handelt es sich um eine komplette Hauptbuchentechnologie, die nie heruntergefahren oder beschädigt wird. Sie können intelligente Verträge und dezentrale Anwendungen (DApps) schreiben, die auf Etherum -Blockchain -Knoten ausgeführt werden.
+Dieses Open Source Distributed Blockchain -Netzwerk verwendet einen Konsensalgorithmus, der als Proof of Work (POW) bezeichnet wird. Darüber hinaus umfasst die Architektur von Ethereum fünf Ebenen wie Virtual Machine, Ethereum -Client -APIs, Smart Contracts, Ethereum -Knoten und Endbenutzeranwendungen. Ethereum Virtual Machine bietet die Software und Architektur an, die intelligente Verträge erkennen. Smart Contracts sind die Software, die die Transaktionen regelt. Ethereum Blockchain und Fortune 500 -Unternehmen haben eine starke Unterstützung für die Entwicklung von Fortune -500 -Unternehmen für die Entwicklung in größerem Maßstab mit dieser Technologie. Darüber hinaus ist Ethereum in der GO -Sprache geschrieben und sein Quellcode ist in [Github][8] verfügbar. Die gesamte Dokumentation ist zur Bereitstellung und Entwicklung verfügbar, da sie eine lebendige Community hat.
 
 ## Wie kann ich Ethereum Blockchain einrichten? {#aufstellen}
 Jetzt sind wir uns bewusst, was TestNet ist. In diesem Abschnitt werden wir den Ethereum -Knoten auf unserer lokalen Maschine einrichten. Bevor Sie weiter gehen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen installiert haben.
-  * [Homebrew] [9] (für macOS)
+  * [Homebrew][9] (für macOS)
 
   * [Go7] (brew install go)
 Sobald die Voraussetzungen vorhanden sind, führen Sie bitte den folgenden Befehl aus, um den Quellcode zu klonen:
@@ -92,20 +92,22 @@ Ebenso gibt es viele Befehle, mit denen Sie mit der Ethereum -Blockchain interag
 
 ## Schlussfolgerung {#Conclusion}
 Hier kommt das Ende dieses Tutorials. Wir haben gelernt ** Was ist testNet ** und den Einrichtungsprozess des Ethereum -Knotens auf der lokalen Maschine. Ethereum Blockchain ist eine verallgemeinerte Lösung für die meisten dezentralen Anwendungen. Die meisten Unternehmen und Regierungsabteilungen neigen dazu, diese Technologie zu übernehmen, um Robustheit, Transparenz, Verfügbarkeit und Rechenschaftspflicht zu erzielen. Darüber hinaus hilft Ihnen dieses ** Blockchain -Tutorial ** wirklich, wenn Sie planen, die Entwicklung von Ethereum Blockchain zu beginnen, da es intelligente Verträge nutzt. Etheruem Blockchain ist stabiler und beliebter, da es Tausende von lebenden Knoten hat. Darüber hinaus können Unternehmen Ethereum Blockchain -Netzwerke problemlos entwickeln und bereitstellen, ohne zusätzliche Zeit zu verbringen. Der andere Faktor für die Zuverlässigkeit von Ethereum besteht darin, dass es die Entwicklung von intelligenten Verträgen auf eine Weise bietet, die andere ** Digital Asset Management -Plattformen ** nicht anbieten.
-Die neuesten Updates im Ethereum-Netzwerk haben das Netzwerk kostengünstiger und effizienter gemacht. Tatsächlich gibt es in der Cloud viel mehr Material verfügbar, das die wichtigen Aspekte von Etheruem in Bezug auf Investitions- und Entwicklungszwecke demonstriert. Für Entwickler bietet es ein Entwickler-freundliches Ökosystem mit vorgefertigten Versorgungsunternehmen. Für Bergleute gibt es eine Prämie in Form eines Äthers, wenn sie einen neuen Block in die Blockchain abbauen. Darüber hinaus hat [Containerize.com] [10] viele technische Blog -Beiträge und Tutorials über beliebte Open -Source -Produkte unter [blog.containerize.com] [11] veröffentlicht. Daher bleiben Sie für regelmäßige Aktualisierungen mit der Kategorie [Blockchain -Plattformen] [12] in Verbindung.
+Die neuesten Updates im Ethereum-Netzwerk haben das Netzwerk kostengünstiger und effizienter gemacht. Tatsächlich gibt es in der Cloud viel mehr Material verfügbar, das die wichtigen Aspekte von Etheruem in Bezug auf Investitions- und Entwicklungszwecke demonstriert. Für Entwickler bietet es ein Entwickler-freundliches Ökosystem mit vorgefertigten Versorgungsunternehmen. Für Bergleute gibt es eine Prämie in Form eines Äthers, wenn sie einen neuen Block in die Blockchain abbauen. Darüber hinaus hat [Containerize.com][10] viele technische Blog -Beiträge und Tutorials über beliebte Open -Source -Produkte unter [blog.containerize.com][11] veröffentlicht. Daher bleiben Sie für regelmäßige Aktualisierungen mit der Kategorie [Blockchain -Plattformen][12] in Verbindung.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Ethereum] [7]
-  * [Hyperledger Fabric] [13]
-  * [OpenChain] [14]
-  * [Ripple] [15]
-  * [Multichain] [16]
-  * [Konsensys Quorum] [17]
-  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein] [18]
-  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020] [3]
-  * [Eine grundlegende Anleitung zum Erstellen von Ethereum Smart Contract] [2]
-  * [Wie dezentrale Technologie Ihre Geschäftsstrategie aktualisiert] [19]
+  * [Ethereum][7]
+  * [Hyperledger Fabric][13]
+  * [OpenChain][14]
+  * [Ripple][15]
+  * [Multichain][16]
+  * [Konsensys Quorum][17]
+  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein][18]
+  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020][3]
+  * [Eine grundlegende Anleitung zum Erstellen von Ethereum Smart Contract][2]
+  * [Wie dezentrale Technologie Ihre Geschäftsstrategie aktualisiert][19]
+
+  
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/

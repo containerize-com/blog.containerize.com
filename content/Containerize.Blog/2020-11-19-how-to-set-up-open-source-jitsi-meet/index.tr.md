@@ -15,20 +15,20 @@ categories: ['Video Conferencing Software']
 
 
 ## Genel Bakış
-Kısa süre önce [video konferans yazılımı] [2] 'in kurumsal sektör üzerindeki etkisinden bahseden bir [blog yazısı] [1] yayınladık. Ancak, bu makalede, aşağıdaki noktaları ele alacağız.
-  * [Jitsi Meet'in kısa bir girişi] [3]
-  * [Jitsi Meet nasıl kurulur?] [4]
-  * [Jitsi Meet Feature Keşif] [5]
-  * [Sonuç] [6]
+Kısa süre önce [video konferans yazılımı][2] 'in kurumsal sektör üzerindeki etkisinden bahseden bir [blog yazısı][1] yayınladık. Ancak, bu makalede, aşağıdaki noktaları ele alacağız.
+  * [Jitsi Meet'in kısa bir girişi][3]
+  * [Jitsi Meet nasıl kurulur?][4]
+  * [Jitsi Meet Feature Keşif][5]
+  * [Sonuç][6]
 
 ## Jitsi'nin kısa bir tanıtımı {#intro}
-[Jitsi Meet] [7] tamamen ücretsiz bir açık kaynak, güvenli ve ölçeklenebilir video işbirliği yazılımıdır. Tam şifreleme, Etherpad için destek ve video/ses kaydı ile çok partili video konferans gibi birkaç popüler özellik sağlar. Bu WebRTC uyumlu yazılım, bir video toplantısına istediğiniz kadar kullanıcıyı davet etmenizi sağlar.
+[Jitsi Meet][7] tamamen ücretsiz bir açık kaynak, güvenli ve ölçeklenebilir video işbirliği yazılımıdır. Tam şifreleme, Etherpad için destek ve video/ses kaydı ile çok partili video konferans gibi birkaç popüler özellik sağlar. Bu WebRTC uyumlu yazılım, bir video toplantısına istediğiniz kadar kullanıcıyı davet etmenizi sağlar.
 Sanal toplantıların yükselişi son zamanlarda başladı ve insanlar video/ses çağrıları yoluyla iletişimin daha etkili ve işbirlikçi olduğuna inanıyorlar. Her şeyden önce, bu yazılım kategorisi sadece dizüstü bilgisayarlarda/masaüstünde çalışmakla kalmaz, aynı zamanda katılımcıların cep telefonları aracılığıyla yüz yüze güvenli video toplantılarına katılmalarını da sağlar.
 
 ## Jitsi Meet nasıl kurulur? {#kurmak}
 Bu bölümde, Jitsi Meet'in kurulum sürecine gireceğiz. İlk olarak, aşağıdaki ön koşulları yüklediğinizden emin olun.
-  * [Docker] [8]
-Docker yüklendikten sonra, bu [link] [9] 'dan kaynak kodunun zip dosyasını indirin.
+  * [Docker][8]
+Docker yüklendikten sonra, bu [link][9] 'dan kaynak kodunun zip dosyasını indirin.
 Terminali açın ve aşağıdaki komutu çalıştırın
 CD Docker-Jitsi-Meet`
 Bundan sonra, bir `.env 'oluşturmak için aşağıdaki komutu çalıştırın
@@ -65,15 +65,17 @@ Jitsi Meet, emojilerle entegre sohbet sunuyor.
 
 
 ## Sonuç {#con}
-Bu makalede, çarpıcı bir uzaktan iletişim yazılımı ve kurulum sürecinden geçtik. Ayrıca, iş ihtiyaçlarını gelişen teknolojilerle senkronize etmek için en iyi çözümleri tercih etmenin zamanı geldi. Sonunda, [Containerize.com] [10] video konferans yazılımı listesini genişletmek için çalışıyor. Bu nedenle, düzenli güncellemeler için lütfen [video konferans yazılımı] [2] kategorisiyle bağlantıda kalın.
+Bu makalede, çarpıcı bir uzaktan iletişim yazılımı ve kurulum sürecinden geçtik. Ayrıca, iş ihtiyaçlarını gelişen teknolojilerle senkronize etmek için en iyi çözümleri tercih etmenin zamanı geldi. Sonunda, [Containerize.com][10] video konferans yazılımı listesini genişletmek için çalışıyor. Bu nedenle, düzenli güncellemeler için lütfen [video konferans yazılımı][2] kategorisiyle bağlantıda kalın.
 
 ## İlgili Ürün Sayfaları
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Jitsi Meet] [7]
-  * [Bigbluebutton] [11]
-  * [OpenVIDU] [12]
-  * [Element] [13]
-  * [Tel] [14]
+  * [Jitsi Meet][7]
+  * [Bigbluebutton][11]
+  * [OpenVIDU][12]
+  * [Element][13]
+  * [Tel][14]
+
+  
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

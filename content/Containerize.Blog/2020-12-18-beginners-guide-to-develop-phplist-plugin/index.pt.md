@@ -19,10 +19,10 @@ Os aplicativos suportam plugins por muitos motivos e alguns deles são:
   * Permitir que os desenvolvedores criem novos recursos.
   * Reduza o tamanho do software.
 Discutiremos os tópicos abaixo em detalhes neste tutorial.
-  *[** Pré -requisitos **] [2]
-  *[** básicos do desenvolvimento de plug -in phplist **] [3]
-  *[** Crie nosso plugin phplist **] [4]
-  *[** Conclusão **] [5]
+  *[** Pré -requisitos **][2]
+  *[** básicos do desenvolvimento de plug -in phplist **][3]
+  *[** Crie nosso plugin phplist **][4]
+  *[** Conclusão **][5]
 
 ## Pré -requisitos {#Req}
   * Versão mais recente do phplist.
@@ -78,18 +78,20 @@ Você pode acessar seu plug -in pelo seguinte URL como http://example.com/admin/
 
 ## Conclusão {#con}
 Aprendemos o básico do desenvolvimento ** phplist plugin ** e criamos um plug -in de amostra. Como ponto de partida, você pode seguir esta diretriz e explorar ainda mais o desenvolvimento de plug -in para aprimorar a funcionalidade.
-Finalmente, [** containerize.com **] [6] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** boletins **] [7] para as atualizações mais recentes.
+Finalmente, [** containerize.com **][6] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** boletins **][7] para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes.
-  *[** phplist **] [8]
-  *[** correio de correio **] [9]
-  *[** listmonk **] [10]
-  *[** Moonmail **] [11]
-  *[** Mailman **] [12]
-  *[** Software de boletim informativo de código aberto em 2021 **] [13]
-  *[** Como configurar o aplicativo multi-inquilino em phplist **] [14]
-  *[** Como criar e enviar boletim usando phplist **] [15]
+  *[** phplist **][8]
+  *[** correio de correio **][9]
+  *[** listmonk **][10]
+  *[** Moonmail **][11]
+  *[** Mailman **][12]
+  *[** Software de boletim informativo de código aberto em 2021 **][13]
+  *[** Como configurar o aplicativo multi-inquilino em phplist **][14]
+  *[** Como criar e enviar boletim usando phplist **][15]
+
+  
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #Req
 [3]: #Basics

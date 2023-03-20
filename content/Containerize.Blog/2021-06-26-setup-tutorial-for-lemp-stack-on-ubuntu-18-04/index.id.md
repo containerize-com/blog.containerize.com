@@ -16,10 +16,10 @@ categories: ['Web Server Solution Stack']
 
 ## Ikhtisar {#perequisites}
 Dalam panduan ini, kami akan menginstal Nginx, MySQL, dan PHP (LEMP Stack) untuk pengembangan dan penyebaran aplikasi web. Kami juga akan mengkonfigurasi server web ke aplikasi PHP server di Ubuntu Server 18.04. Kami akan membahas bagian -bagian berikut dalam tutorial ini.
-  *[** Prasyarat **] [1]
-  *[** Apa itu tumpukan lemp? **] [2]
-  *[** Instalasi LEMP **] [3]
-  *[** Kesimpulan **] [4]
+  *[** Prasyarat **][1]
+  *[** Apa itu tumpukan lemp? **][2]
+  *[** Instalasi LEMP **][3]
+  *[** Kesimpulan **][4]
 
 ## Prasyarat {#perequisites}
 Sebelum menginstal perangkat lunak, Anda harus memenuhi persyaratan berikut.
@@ -146,17 +146,19 @@ phpinfo();
 
 ## kesimpulan {#conclusion}
 Dalam tutorial ini, kami membahas tentang cara menginstal dan mengkonfigurasi tumpukan lemp ** **. Seperti yang Anda lihat, mengkonfigurasi komponen tumpukan perangkat lunak sangat mudah. Selain itu, Anda dapat mulai membuat dan melayani aplikasi web dalam hitungan menit.
-Akhirnya, [** containerize.com **] [5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** Web Server Solution ini **] [6] kategori untuk pembaruan terbaru.
+Akhirnya, [** containerize.com **][5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** Web Server Solution ini **][6] kategori untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Tumpukan solusi server web open source terbaik **] [7]
-  *** [Alat forensik digital open source paling populer] [8] **
-  *** [Top 5 Open Source Message Antrian (MQ) Perangkat Lunak pada 2021] [9] **
-  *** [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File] [10] **
-  *[** Cara menginstal dan mengamankan phpMyadmin dengan nginx di ubuntu **] [11]
-  *[** Cara menginstal beberapa versi PHP dengan nginx di ubuntu **] [12]
-  *[** Top 5 Lisensi Open Source Terbaik yang Disetujui Osi-Osi 2021 **] [13]
+  *[** Tumpukan solusi server web open source terbaik **][7]
+  *** [Alat forensik digital open source paling populer][8] **
+  *** [Top 5 Open Source Message Antrian (MQ) Perangkat Lunak pada 2021][9] **
+  *** [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][10] **
+  *[** Cara menginstal dan mengamankan phpMyadmin dengan nginx di ubuntu **][11]
+  *[** Cara menginstal beberapa versi PHP dengan nginx di ubuntu **][12]
+  *[** Top 5 Lisensi Open Source Terbaik yang Disetujui Osi-Osi 2021 **][13]
+
+  
 [1]: #Prerequisites
 [2]: #What
 [3]: #Installation

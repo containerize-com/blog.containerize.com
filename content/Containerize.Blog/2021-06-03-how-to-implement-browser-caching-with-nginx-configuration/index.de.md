@@ -13,12 +13,12 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="So implementieren Sie Browsr Caching mit Nginx -Konfiguration">}}
 
-In der Tutorial -Serie unserer NGINX -Reihe haben wir [wie man Nginx als Lastbalancer verwendet] [1], [Konfigurieren von Nginx als Reverse Proxy] [2], [verwenden Sie mehrere PHP Regeln für Nginx -Schreibrichtlinien] [4]. In dem heutigen Artikel berichten wir über ein sehr wichtiges Thema, das Unternehmen hilft, die Erfahrung ihres Benutzers zu verbessern, indem ein Browser -Caching eingesetzt wird. In diesem Tutorial werden Sie Sie mithilfe des Browser -Caching mit der NGINX -Konfiguration mit dem Headermodul von NGINX implementieren. Lass uns anfangen!
-  *** [Hebelbrowser -Caching] [5] **
-  *[** nginx Header -Modul **] [6]
-  *[** E-Tage und If-None-Match **] [7]
-  *[** Hebelbrowser -Caching mit Nginx -Konfiguration **] [8]
-  *[** Schlussfolgerung **] [9]
+In der Tutorial -Serie unserer NGINX -Reihe haben wir [wie man Nginx als Lastbalancer verwendet][1], [Konfigurieren von Nginx als Reverse Proxy][2], [verwenden Sie mehrere PHP Regeln für Nginx -Schreibrichtlinien][4]. In dem heutigen Artikel berichten wir über ein sehr wichtiges Thema, das Unternehmen hilft, die Erfahrung ihres Benutzers zu verbessern, indem ein Browser -Caching eingesetzt wird. In diesem Tutorial werden Sie Sie mithilfe des Browser -Caching mit der NGINX -Konfiguration mit dem Headermodul von NGINX implementieren. Lass uns anfangen!
+  *** [Hebelbrowser -Caching][5] **
+  *[** nginx Header -Modul **][6]
+  *[** E-Tage und If-None-Match **][7]
+  *[** Hebelbrowser -Caching mit Nginx -Konfiguration **][8]
+  *[** Schlussfolgerung **][9]
 
 ## Hebelbrowser Caching {#Browser-Caching}
 Je schneller eine Website lädt, desto wahrscheinlicher ist es, dass ein Besucher auf der Website bleibt. Websites mit vielen Bildern und interaktiven Inhalten werden im Hintergrund geladen, und die Website eröffnet eine komplexe Aufgabe. Es besteht darin, viele verschiedene Dateien vom Server einzeln anzufordern. Das Minimieren der Menge dieser Anfragen ist eine Möglichkeit, Ihre Website zu beschleunigen.
@@ -108,8 +108,10 @@ In ähnlicher Weise können Sie die Cache -Konfiguration in _server_ Block vor e
 Mit dem Header-Modul des NGINX kann die Reaktion beliebige Headers hinzufügen. Die richtige Einstellung von Cache-Kontroll-Headern ist jedoch eine der nützlichsten Anwendungen. Es hilft Ihnen, die Leistung der Website zu verbessern, insbesondere für Benutzer in Netzwerken mit höherer Latenz wie mobilen Carrier -Netzwerken. In diesem Tutorial haben wir gelernt, wie man das Browser -Caching mit Nginx -Konfiguration nutzt. Ich hoffe, dies hilft Ihnen dabei, die Erfahrung Ihres Benutzers auf Ihrer Website zu verbessern.
 
 ## Erkunden
-  * [So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu] [3]
-  * [So richten und konfigurieren Sie Nginx als Reverse -Proxy] [2]
+  * [So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu][3]
+  * [So richten und konfigurieren Sie Nginx als Reverse -Proxy][2]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

@@ -13,12 +13,12 @@ categories: ['Version Control Software']
 
 {{< figure align=center src="images/git-branches-pull-requests.png" alt="Git Pull -Anfragen Zweige">}}
 
-In unserem [letzten Artikel] [1] haben wir die Grundlagen von Git- und Versionskontrollsystemen erfahren. Wir haben Schritt für Schritt durchlaufen und gelernt, wie man ein Git -Repository einrichtet. Außerdem haben wir gelernt, wie man einen Zweig zu Änderungen hinzufügt und sie zurückversetzt, falls Sie Ihre Änderungen rückgängig machen möchten. Jetzt, da wir die Grundlagen von Versionskontrollsystemen verstehen, insbesondere Git. In diesem Blog -Beitrag werden wir also über die Verwendung von Git -Zweigen und an Anfragen übergehen. Wir lernen verschiedene Workflows kennen. Also lasst uns anfangen!
-  *** [Was sind Git -Zweige] [2] **
-  *** [Erstellen / Ändern von Git -Zweigen] [3] **
-  *** [Was ist eine Pull -Anfrage] [4] **
-  *** [Populäre Git -Verzweigungsmodelle] [5] **
-  *[** Schlussfolgerung **] [6]
+In unserem [letzten Artikel][1] haben wir die Grundlagen von Git- und Versionskontrollsystemen erfahren. Wir haben Schritt für Schritt durchlaufen und gelernt, wie man ein Git -Repository einrichtet. Außerdem haben wir gelernt, wie man einen Zweig zu Änderungen hinzufügt und sie zurückversetzt, falls Sie Ihre Änderungen rückgängig machen möchten. Jetzt, da wir die Grundlagen von Versionskontrollsystemen verstehen, insbesondere Git. In diesem Blog -Beitrag werden wir also über die Verwendung von Git -Zweigen und an Anfragen übergehen. Wir lernen verschiedene Workflows kennen. Also lasst uns anfangen!
+  *** [Was sind Git -Zweige][2] **
+  *** [Erstellen / Ändern von Git -Zweigen][3] **
+  *** [Was ist eine Pull -Anfrage][4] **
+  *** [Populäre Git -Verzweigungsmodelle][5] **
+  *[** Schlussfolgerung **][6]
 
 ## Was sind Git -Zweige {#branch}
 
@@ -50,18 +50,18 @@ Wenn ein Entwickler eine Pull -Anfrage eröffnet, ist alles, was er an einen and
 Es gibt eine Reihe von Verzweigungsworkflows, die von der Entwicklergemeinschaft weltweit verwendet werden. Wir werden jedoch die drei beliebtesten Verzweigungsmodelle nacheinander diskutieren
 
 ### Git Flow
-GitFlow Workflow ist ein Git -Workflow, der bei der kontinuierlichen Softwareentwicklung und der Implementierung von DevOps -Praktiken hilft. Der Git -Fluss ist der bekannteste Workflow auf dieser Liste. Es wurde von [Vincent Driessen im Jahr 2010] [7] erstellt und basiert auf zwei Hauptzweigen mit einer unendlichen Lebensdauer, zusammen mit anderen unterstützenden Zweigen wie Merkmalen-\*, Hotfixes-\*, die dann als individuell in den Entwicklungszweig in den Entwicklungszweig verschmelzen Artikel werden abgeschlossen.
+GitFlow Workflow ist ein Git -Workflow, der bei der kontinuierlichen Softwareentwicklung und der Implementierung von DevOps -Praktiken hilft. Der Git -Fluss ist der bekannteste Workflow auf dieser Liste. Es wurde von [Vincent Driessen im Jahr 2010][7] erstellt und basiert auf zwei Hauptzweigen mit einer unendlichen Lebensdauer, zusammen mit anderen unterstützenden Zweigen wie Merkmalen-\*, Hotfixes-\*, die dann als individuell in den Entwicklungszweig in den Entwicklungszweig verschmelzen Artikel werden abgeschlossen.
   *** Master ** - Diese Filiale enthält Produktionscode. Der gesamte Entwicklungscode wird in den Master -Zweig zusammengefasst, sobald bereit für die Produktion gedrängt wird.
   *** entwickeln **-Diese Zweigstelle enthält Vorproduktionscode. Wenn die Funktionen fertig sind, werden sie in die Entwicklung verschmolzen.
 Gitflow ist ideal für Projekte geeignet, die einen geplanten Release -Zyklus haben. Die Git -Geschichte wird jedoch unlesbar.
 
 ### Github Flow
-Der Github -Fluss ist ein leichtgewichtiger Workflow. Es wurde 2011 von [Github] [8] erstellt und konzentriert sich hauptsächlich auf das agile Modell, wo Sie nicht auf einen Release -Zyklus warten. Stattdessen drängen Sie täglich Änderungen in die Produktion, wenn die Funktionen abgeschlossen werden.
+Der Github -Fluss ist ein leichtgewichtiger Workflow. Es wurde 2011 von [Github][8] erstellt und konzentriert sich hauptsächlich auf das agile Modell, wo Sie nicht auf einen Release -Zyklus warten. Stattdessen drängen Sie täglich Änderungen in die Produktion, wenn die Funktionen abgeschlossen werden.
 Github Flow folgt den folgenden Prinzipien:
   * Alles in der "Master" -Ast ist bereitgestellt.
   * Um an etwas Neuem zu arbeiten, erstellen Sie einen separaten Zweig von Off Master mit einem Beschreibung Namen, z. B. "Image-Uploading"
   * Verlassen Sie sich vor Ort und regelmäßig auf diese Filiale und bringen Sie Ihre Arbeit regelmäßig in die gleich benannte Filiale auf dem Server.
-  * Wenn Sie Feedback oder Hilfe benötigen oder der Meinung sind, dass der Zweig zur Verschmelzung bereit ist, öffnen Sie eine [Pull -Anfrage] [4]
+  * Wenn Sie Feedback oder Hilfe benötigen oder der Meinung sind, dass der Zweig zur Verschmelzung bereit ist, öffnen Sie eine [Pull -Anfrage][4]
   * Nachdem es überprüft und abgemeldet wurde, können Sie sie in den Master zusammenführen
   * Sobald es zusammengeführt und auf "Master" verschrieben wird, kann es in die Produktion eingesetzt werden.
 
@@ -71,6 +71,8 @@ Entwickler erstellen einen ** entwickeln ** Zweig und machen dies zur Standardei
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Artikel haben wir etwas über die Git -Zweige gelernt und Anfragen gezogen. Wir haben die Bedeutung von Pull -Anfragen untersucht und wie sie in verschiedenen Git -Workflows verwendet werden können. Wir haben auch kurz verschiedene Git -Verzweigungsmodelle untersucht.
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: #branch
 [3]: #create

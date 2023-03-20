@@ -13,7 +13,7 @@ categories: ['Database Management Software']
 
 
 ## Redis und Kafka sind zwei verschiedene Tools, die zufällig ähnliche Jobs auf ihre eigene Weise machen. Kafka gegen Redis -Vergleich gibt Ihnen Einblicke, die Sie kennen sollten.
-In unserer Reihe von Artikeln über „Redis“ haben wir über die [Grundlagen von Redis] [1] gelernt, dann untersuchten wir [wie Redis Pub/Sub funktioniert] [2] und wie dies mit den NOSQL -Datenbanken konkurriert. In unserer heutigen Reihe werden wir Redis mit Kafka vergleichen, einer seiner Konkurrenten in verschiedenen Aufgaben. In diesem Artikel werden Kafka vs Redis Pub-Sub untersuchen, was Kafka ist, wie es sich von Redis unterscheidet und welche Ähnlichkeiten in ihnen sind. Also lasst uns anfangen.
+In unserer Reihe von Artikeln über „Redis“ haben wir über die [Grundlagen von Redis][1] gelernt, dann untersuchten wir [wie Redis Pub/Sub funktioniert][2] und wie dies mit den NOSQL -Datenbanken konkurriert. In unserer heutigen Reihe werden wir Redis mit Kafka vergleichen, einer seiner Konkurrenten in verschiedenen Aufgaben. In diesem Artikel werden Kafka vs Redis Pub-Sub untersuchen, was Kafka ist, wie es sich von Redis unterscheidet und welche Ähnlichkeiten in ihnen sind. Also lasst uns anfangen.
   * Was ist Kafka?
   * Was ist Redis?
   * Was sind die Hauptunterschiede?
@@ -21,7 +21,7 @@ In unserer Reihe von Artikeln über „Redis“ haben wir über die [Grundlagen 
   * Abschluss
 
 ## Was ist Kafka?
-Apache Kafka ist eine Open-Source-Distributed Event-Stream-Plattform. Es wird für Hochleistungsdatenpipelines und Streaming-Analysen verwendet. Kafka fungiert als [veröffentlichtes Messaging-System] [3]. Damit können Sie neue Daten verarbeiten, die mit hohen Geschwindigkeiten generiert werden und zusätzlich auch in einer Datenbank speichern können.
+Apache Kafka ist eine Open-Source-Distributed Event-Stream-Plattform. Es wird für Hochleistungsdatenpipelines und Streaming-Analysen verwendet. Kafka fungiert als [veröffentlichtes Messaging-System][3]. Damit können Sie neue Daten verarbeiten, die mit hohen Geschwindigkeiten generiert werden und zusätzlich auch in einer Datenbank speichern können.
 Kafka ist ein verteiltes System, das aus ** Servern ** und ** Clients ** besteht. Es kann auf Hardware mit nacktem Metall, virtuellen Maschinen und Containern in lokalen und Cloud-Umgebungen bereitgestellt werden.
 
 ## Was ist Redis?
@@ -51,6 +51,8 @@ Andererseits ist ** Kafka ** ein hoher Durchsatz, verteiltes Protokoll, das als 
 
 ## Abschluss
 In diesem Tutorial Kafka vs Redis Pub-Sub haben wir Kafka und Redis untersucht. Was sind ihre Unterschiede und Ähnlichkeiten? Wir haben auch gelernt, wann Sie wieder entlassen werden sollten und wann es gut ist, Kafka zu verwenden. In unseren bevorstehenden Tutorials werden wir mehr über Kafka und eingehende Analyse untersuchen.
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/
 [3]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/

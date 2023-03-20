@@ -17,21 +17,21 @@ categories: ['Office Productivity Software']
 ## Ringkasan
 Apakah Anda bertanya -tanya bagaimana cara meningkatkan efisiensi di tempat kerja? Jika ya, Anda mendarat di tempat yang tepat. Karena digitalisasi, dunia semakin tanpa kertas. Oleh karena itu permintaan untuk perangkat lunak produktivitas kantor telah meningkat juga. Microsoft Office telah mendominasi domain ini untuk waktu yang sangat lama. Tetapi ketika permintaan meningkat dan pilihan perangkat lunak open-source dan gratis juga. Ada banyak tugas yang dilakukan setiap hari dan membutuhkan waktu dan biaya baik untuk melakukan tugas yang berulang. Organisasi harus menanggung biaya tambahan dan menghentikan kinerja keseluruhan pada akhirnya. Selain itu, memungkinkan pemangku kepentingan menetapkan tujuan, melacak kinerja mereka dan melakukan berbagai analitik untuk membuat prediksi di masa depan.
 Selain itu, manajer dapat membangun tempat kerja bersama di mana mereka dapat berkolaborasi dengan rekan satu tim secara efisien. Lebih lanjut, pada masa pandemi, itu memberikan kesempatan untuk bekerja dari jarak jauh. Namun, alat produktivitas gratis ini juga menghasilkan kemampuan penyimpanan data. Semakin banyak orang mencari perangkat lunak kantor sumber terbuka. Dalam artikel ini, kami akan mengeksplorasi beberapa alat produktivitas kantor terbuka dan gratis terbaik. Ayo Memulai
-  * [Apache OpenOffice] [1]
-  * [LibreOffice] [2]
-  * [NeoOffice] [3]
-  * [FreeOffice] [4]
-  * [Calligra] [5]
-  * [Kesimpulan] [6]
+  * [Apache OpenOffice][1]
+  * [LibreOffice][2]
+  * [NeoOffice][3]
+  * [FreeOffice][4]
+  * [Calligra][5]
+  * [Kesimpulan][6]
 
 ## Apache OpenOffice {#openoffice}
 Apache OpenOffice Project (AOO) menyediakan perangkat lunak kantor open source berfitur lengkap berdasarkan standar terbuka. Ini adalah kelanjutan dari proyek OpenOffice.org. Perangkat lunak kantor gratis ini adalah salah satu alternatif Microsoft Office gratis. Ini juga salah satu suite kantor gratis paling populer di dunia open-source. Apakah Anda ingin bekerja dengan dokumen teks, spreadsheet, atau presentasi. Ini adalah KO untuk sebagian besar fitur yang disediakan Microsoft Office. Dan, itu terlalu 100% gratis. Dan alternatif Microsoft Office ini bukan hanya suite kantor yang gratis dan open-source, tetapi juga berjalan di semua platform (Linux, Mac) tidak hanya di Windows.
-Apache Open Office dikembangkan dalam bahasa pemrograman C ++ dan semua kode sumber bersama dengan dokumentasi pengembang tersedia di [GitHub] [7].
+Apache Open Office dikembangkan dalam bahasa pemrograman C ++ dan semua kode sumber bersama dengan dokumentasi pengembang tersedia di [GitHub][7].
 
 ## LibreOffice {#LibreOffice}
 LibreOffice adalah perangkat lunak kantor open-source dan gratis terintegrasi berdasarkan lisensi copyleft dan kompatibel dengan sebagian besar format dan standar dokumen. Ini adalah salah satu alat produktivitas kantor gratis terbaik.
 Perangkat lunak kantor open source ini didukung oleh Document Foundation, yang mewakili komunitas besar perusahaan independen, pengembang, dan sukarelawan lain yang dipindahkan oleh tujuan bersama membawa ke pasar perangkat lunak kantor gratis terbaik.
-LibreOffice adalah open source, dan gratis untuk mengunduh, menggunakan, dan mendistribusikan. Ini dikembangkan dalam bahasa pemrograman C ++ dan Anda dapat meninjau kode sumber di [GitHub] [8].
+LibreOffice adalah open source, dan gratis untuk mengunduh, menggunakan, dan mendistribusikan. Ini dikembangkan dalam bahasa pemrograman C ++ dan Anda dapat meninjau kode sumber di [GitHub][8].
 
 ## NeoOffice {#neoOffice}
 NeoOffice adalah perangkat lunak kantor gratis 100% gratis dan open-source dan gratis untuk macOS. Ini adalah alternatif Microsoft Office yang hebat. Jika Anda mencoba beralih dari perangkat lunak Microsoft tetapi sesuatu yang sedikit lebih murah yang 100% gratis dalam hal ini, NeoOffice adalah pilihan yang tepat untuk Anda.
@@ -67,18 +67,20 @@ Berikut adalah beberapa fitur teratas Calligra
 
 ## kesimpulan {#conclusion}
 Ini membawa kita ke akhir posting blog ini. Perangkat lunak yang tercantum di atas adalah perangkat lunak kantor Source Gratis dan Open Best pada titik waktu saat ini. Selanjutnya, suite kantor bebas open-source ini membantu bisnis memenuhi kebutuhan produktivitas kantor mereka. Kami telah melalui 5 alat produktivitas kantor teratas dan itu adalah jawaban untuk pertanyaan Anda tentang cara meningkatkan efisiensi di tempat kerja? Mudah -mudahan, posting blog ini akan membantu Anda membuat pilihan yang tepat jika Anda ingin menginstal perangkat lunak kantor gratis untuk bisnis Anda. Selain itu, Anda dapat menemukan perangkat lunak kantor open source lebih lanjut dan artikel yang relevan yang disebutkan di bagian "Jelajahi" di bawah ini.
-Akhirnya, [containerize.com] [9] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Perangkat Lunak Produktivitas Kantor] [10] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [11], [LinkedIn] [12], dan [Twitter] [13].
+Akhirnya, [containerize.com][9] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Perangkat Lunak Produktivitas Kantor][10] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][11], [LinkedIn][12], dan [Twitter][13].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan.
-  * [Apache OpenOffice] [14]
-  * [LibreOffice] [15]
-  * [NeoOffice] [16]
-  * [FreeOffice] [17]
-  * [Calligra] [18]
-  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021] [19]
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [20]
-  * [Apa itu NFT? | Token Non Fikible Dijelaskan] [21]
+  * [Apache OpenOffice][14]
+  * [LibreOffice][15]
+  * [NeoOffice][16]
+  * [FreeOffice][17]
+  * [Calligra][18]
+  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021][19]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][20]
+  * [Apa itu NFT? | Token Non Fikible Dijelaskan][21]
+
+  
 [1]: #openoffice
 [2]: #libreoffice
 [3]: #neooffice

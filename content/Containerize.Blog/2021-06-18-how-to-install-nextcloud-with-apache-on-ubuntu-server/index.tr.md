@@ -15,7 +15,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 
 ## ** Genel Bakış **
-** [NextCloud] [1] ** ÜCRETSİZ ve güvenli bir ** Kendi kendine barındırılan bulut depolama çözümü ** PHP programlama dilinde yazılmıştır. Web arabirimini kullanarak veri erişimi sağlar ve Dropbox'a işlevsel olarak benzerdir. Dropbox ve Google Drive gibi tescilli bulut depolama çözümleri uygundur, ancak dosyalarınız sistemlerinde saklandığı için kişisel verileri toplamak için kullanılabilir. Güvenli, güvenli ve uyumlu dosya senkronizasyonu ve paylaşım çözümüne ihtiyacınız varsa, açık kaynak NextCloud sunucusuna geçebilirsiniz. NextCloud kurulumu özel ev sunucularınıza veya sanal bir özel sunucuya yüklenebilir.
+** [NextCloud][1] ** ÜCRETSİZ ve güvenli bir ** Kendi kendine barındırılan bulut depolama çözümü ** PHP programlama dilinde yazılmıştır. Web arabirimini kullanarak veri erişimi sağlar ve Dropbox'a işlevsel olarak benzerdir. Dropbox ve Google Drive gibi tescilli bulut depolama çözümleri uygundur, ancak dosyalarınız sistemlerinde saklandığı için kişisel verileri toplamak için kullanılabilir. Güvenli, güvenli ve uyumlu dosya senkronizasyonu ve paylaşım çözümüne ihtiyacınız varsa, açık kaynak NextCloud sunucusuna geçebilirsiniz. NextCloud kurulumu özel ev sunucularınıza veya sanal bir özel sunucuya yüklenebilir.
 NextCloud Açık Kaynak ** uçtan uca şifreleme ** sağlar, yani dosyaların sunucuya yüklenmeden önce istemci cihazında şifrelenebileceği anlamına gelir. Ayrıca, doğrudan NextCloud istemcisinden DOC, PPT, XLS dosyalarınızı oluşturabileceğiniz ve düzenleyebilmeniz için Collobora, On TOUSFICE NEXTCLOUD gibi bir çevrimiçi ofis paketi ile entegre edilebilir. NextCloud istemcisi indirmesinden sonra NextCloud Client indirdikten sonra NextCloud sunucunuzla bilgisayarınızdaki bir veya daha fazla dosya ve klasörü paylaşabilir ve senkronize edebilirsiniz. NextCloud masaüstü indirme ve mobil istemciler, kontrolünüz altındaki tüm cihazlarda senkronize ve paylaşma seçenekleri sunar. Veri dosyalarını yerel paylaşılan dizinlerinize yerleştirin ve bu dosyalar hemen Sunucuya ve NextCloud Desktop Sync istemcisi, iOS uygulaması veya Android cihazlarını kullanarak diğer cihazlara senkronize edilir.
 Bu öğretici, Apache ile Ubuntu 20.04 LTS Linux işletim sistemine NextCloud'u yüklemenize yardımcı olacaktır.
   *** Önkoşulları (lamba yığını) yükleyin **
@@ -47,7 +47,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_38_}}
 
 ## Adım 2: Ubuntu'da NextCloud Arşivini İndirin
-Bu makaleyi yazarken, NextCloud en son sürümü 22.0.0beta5'tir. LAMP Sunucusunu sisteminizde başarıyla yapılandırdıktan sonra, NextCloud'u [resmi web sitesinden] [2] indirelim.
+Bu makaleyi yazarken, NextCloud en son sürümü 22.0.0beta5'tir. LAMP Sunucusunu sisteminizde başarıyla yapılandırdıktan sonra, NextCloud'u [resmi web sitesinden][2] indirelim.
 CD /TMP
 wget https://download.nextcloud.com/server/releases/nextcloud-22.0.0beta5.zip
 {{_LINE_43_}}
@@ -97,16 +97,18 @@ Tebrikler, Ubuntu LTS sisteminizde çalışan bir sonraki şirket içi bulut ç�
 
 ## ** Sarma: ** {#4A1A}
 Tebrikler! Apache ** ile Ubuntu sunucusunda nextcloud'u başarıyla yapılandırdınız ve yüklediniz. Özel bir bulutun nasıl oluşturulacağını öğrendiniz. NextCloud Ubuntu Server, hemen hemen herkesin özel veya hibrit bulut depolama ihtiyaçlarını sunabilen inanılmaz bir bulut depolama işbirliği platformudur. Artık Ubuntu'ya NextCloud'u nasıl yükleyeceğinizi biliyorsunuz ve verileriniz kendi kendine barındırılan bulutunuzda güvenli ve güvenli. Yaklaşan öğreticilerimizde, web sunucusu çözüm yığınları ile ilgili daha ilginç konular hakkında tartışacağız.
-_ Bulut tabanlı kendi kendine barındırılan depolama çözümünü tercih edersiniz?. Herhangi bir sorunuz varsa, lütfen [iletişime geçin] [3] ._
+_ Bulut tabanlı kendi kendine barındırılan depolama çözümünü tercih edersiniz?. Herhangi bir sorunuz varsa, lütfen [iletişime geçin][3] ._
 
 ## Keşfetmek:
 Sunucunuzun günlük yönetimi ile ilgili makaleleri izleyebilirsiniz.
-  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır] [4]
-  * [Apache'yi Ubuntu veya Debian için ters proxy olarak nasıl yapılandırır] [5]
-  * [Ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin] [6]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [7]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın] [8]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun] [9]
+  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır][4]
+  * [Apache'yi Ubuntu veya Debian için ters proxy olarak nasıl yapılandırır][5]
+  * [Ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin][6]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][7]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][8]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun][9]
+
+  
 [1]: https://nextcloud.com/
 [2]: https://nextcloud.com/install/
 [3]: mailto:yasir.saeed@aspose.com

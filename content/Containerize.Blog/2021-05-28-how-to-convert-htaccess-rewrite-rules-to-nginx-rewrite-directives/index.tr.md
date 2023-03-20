@@ -14,10 +14,10 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Nginx Direktiflerine Yeniden Yazma Kurallarını Dönüştür">}}
 
 Son öğreticimizde [Ubuntu'da NGINX ile birden fazla PHP sürümü nasıl kurulacağını] öğrendik [1]. Apache en popüler web sunucularından biridir, ancak son zamanlarda Nginx kendisini Apache için bir rakip olarak kurmuştur. Ancak Nginx, HTAccess yeniden yazma kurallarını desteklemiyor. Dolayısıyla, bu makalede, HTAccess yeniden yazma kurallarını NGINX yeniden yazma yönergelerine nasıl dönüştüreceğimizi öğreneceğiz. Başlayalım!
-  *** [Nginx Yeniden Yazma Kuralları] [2] **
-  *[**. Htaccess Yeniden Yazma Kuralları **] [3]
+  *** [Nginx Yeniden Yazma Kuralları][2] **
+  *[**. Htaccess Yeniden Yazma Kuralları **][3]
   *[** .htaccess Yeniden Yazma Kurallarını Nginx Yeniden Yazma Direktiflerine Dönüştürme **]
-  *[** Sonuç **] [5]
+  *[** Sonuç **][5]
 
 ## nginx yeniden yazma kuralları {#nginx}
 Yeniden Yazma Kuralları, bir müşteri isteğinde URL'nin bir kısmını veya tamamını değiştirir, genellikle istemcilere istedikleri kaynağın şimdi farklı bir yerde bulunduğunu veya Nginx içindeki işlem akışını kontrol etmek için bildirmek için. Örneğin, içeriğin dinamik olarak oluşturulması gerektiğinde istekleri bir uygulama sunucusuna iletmek. Try_files yönergesi genellikle bu amaç için kullanılır.
@@ -82,7 +82,7 @@ server {
 }
 ```
 Daha fazla netlik uğruna WordPress HTAccess kurallarını Nginx Try_Files Direktifine dönüştürelim.
-[WordPress.org dağıtır] [6] Temel bir varsayılan **. Htaccess ** Dosya aşağıdakilerle. HTAccess, oldukça uygun bağlantıları sağlayan kuralları yeniden yazın:
+[WordPress.org dağıtır][6] Temel bir varsayılan **. Htaccess ** Dosya aşağıdakilerle. HTAccess, oldukça uygun bağlantıları sağlayan kuralları yeniden yazın:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 Bu öğreticide, Apache’nin .htaccess yeniden yazma kurallarını ve bu .htaccess yeniden yazma kurallarını NGINX yeniden yazma yönergelerine nasıl dönüştürebileceğimizi araştırdık. Ayrıca URL'leri yeniden yazmak için kullanılabilecek farklı NGINX yönergelerini araştırdık. Ayrıca hem Nginx hem de Apache için örnek yeniden yazma kuralları verdik. Umarım öğretici sizin için yararlıdır.
 
 ## Keşfetmek
-  * [Ubuntu'da nginx ile birden fazla PHP sürümü nasıl kurulur] [1]
-  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır] [7]
+  * [Ubuntu'da nginx ile birden fazla PHP sürümü nasıl kurulur][1]
+  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

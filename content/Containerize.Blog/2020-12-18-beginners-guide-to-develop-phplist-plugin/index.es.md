@@ -19,10 +19,10 @@ Los complementos de soporte de aplicaciones debido a muchas razones y algunas de
   * Permitir a los desarrolladores crear nuevas características.
   * Reducir el tamaño del software.
 Discutiremos los siguientes temas en detalle en este tutorial.
-  *[** Prerrequisitos **] [2]
-  *[** Conceptos básicos del desarrollo del complemento Phplist **] [3]
-  *[** Crea nuestro complemento Phplist **] [4]
-  *[** Conclusión **] [5]
+  *[** Prerrequisitos **][2]
+  *[** Conceptos básicos del desarrollo del complemento Phplist **][3]
+  *[** Crea nuestro complemento Phplist **][4]
+  *[** Conclusión **][5]
 
 ## Requisitos previos {#req}
   * Última versión de Phplist.
@@ -78,18 +78,20 @@ Puede acceder a su complemento mediante la siguiente URL como http://example.com
 
 ## conclusión {#con}
 Hemos aprendido los conceptos básicos de ** Phplist Plugin ** Desarrollo y creamos un complemento de muestra. Como punto de partida, puede seguir esta guía y explorar más a fondo el desarrollo de complementos para mejorar la funcionalidad.
-Finalmente, [** Contenerize.com **] [6] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [** boletines **] [7] para las últimas actualizaciones.
+Finalmente, [** Contenerize.com **][6] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [** boletines **][7] para las últimas actualizaciones.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes.
-  *[** Phplist **] [8]
-  *[** Mailtrain **] [9]
-  *[** ListMonk **] [10]
-  *[** Moonmail **] [11]
-  *[** Mailman **] [12]
-  *[** Top 5 Software de boletín de código abierto en 2021 **] [13]
-  *[** Cómo configurar la aplicación múltiple en phplist **] [14]
-  *[** Cómo crear y enviar boletín con Phplist **] [15]
+  *[** Phplist **][8]
+  *[** Mailtrain **][9]
+  *[** ListMonk **][10]
+  *[** Moonmail **][11]
+  *[** Mailman **][12]
+  *[** Top 5 Software de boletín de código abierto en 2021 **][13]
+  *[** Cómo configurar la aplicación múltiple en phplist **][14]
+  *[** Cómo crear y enviar boletín con Phplist **][15]
+
+  
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #Req
 [3]: #Basics

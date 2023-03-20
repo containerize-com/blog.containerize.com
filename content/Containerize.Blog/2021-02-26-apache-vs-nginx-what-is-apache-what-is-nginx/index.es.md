@@ -16,12 +16,12 @@ categories: ['Web Server Solution Stack']
 
 ## Descripción general
 Aunque Apache y Nginx comparten muchas cualidades, no deben considerarse completamente intercambiables. Ambos servidores web de código abierto son diferentes entre sí y deben seleccionarse de acuerdo con las necesidades de sus aplicaciones web. En este artículo, discutiremos ** Apache vs Nginx ** Comparación en detalle.
-  * [¿Qué es Apache?] [1]
-  * [¿Qué es Nginx?] [2]
-  * [Comparación Apache vs Nginx] [3]
-  * [Es Nginx mejor que Apache] [4]
-  * [Conclusión] [5]
-  * [Explorar] [6]
+  * [¿Qué es Apache?][1]
+  * [¿Qué es Nginx?][2]
+  * [Comparación Apache vs Nginx][3]
+  * [Es Nginx mejor que Apache][4]
+  * [Conclusión][5]
+  * [Explorar][6]
 
 ## ¿Qué es Apache? {#whatisapache}
 El servidor web Apache es uno de los servidores más populares en Internet y sirve a más del 27% de los sitios web. Apache es principalmente la primera opción de desarrolladores debido a su flexibilidad, energía, así como soporte generalizado y documentación detallada. Admite módulos cargables dinámicamente que permiten a los desarrolladores extender fácilmente su funcionalidad.
@@ -55,15 +55,17 @@ Nginx es más rápido que Apache para servir contenido estático. Entonces, si s
 
 ## conclusión {#conclusion}
 Tanto Apache como Nginx son capaces a su manera. Hemos discutido la comparación Apache vs Nginx, qué es Apache, qué está en detalle Nginx y la diferencia entre Apache y Nginx. Seleccionar uno de estos dos servidores web más populares depende totalmente de los requisitos de sus aplicaciones web. La selección depende de sus expectativas con el rendimiento, la utilización de recursos, la velocidad, la escalabilidad y el soporte de un servidor web. Ambos tienen sus propios beneficios. No existe un servidor web único para todos, así que use la solución que mejor se adapte a sus objetivos y expectativas.
-Finalmente, [Contenerize.com] [7] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Servidores web de código abierto] [8] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [9], [LinkedIn] [10] y [Twitter] [11].
+Finalmente, [Contenerize.com][7] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Servidores web de código abierto][8] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][9], [LinkedIn][10] y [Twitter][11].
 
 ## Explore {#Explore}
 Puede encontrar los siguientes enlaces relevantes:
-  * [Top 5 Pilas de soluciones de servidor web de código web abierto en 2021] [12]
-  * [Configurar XAMPP y PhPMyAdmin como localhost en Windows] [13]
-  * [XAMPP | Pila de solución de servidor web de código web gratuito y de código abierto] [14]
-  * [Nginx | Servidor web ligero y de alto rendimiento] [15]
-  * [Tutorial de configuración para Lemp Stack en Ubuntu 18.04] [16]
+  * [Top 5 Pilas de soluciones de servidor web de código web abierto en 2021][12]
+  * [Configurar XAMPP y PhPMyAdmin como localhost en Windows][13]
+  * [XAMPP | Pila de solución de servidor web de código web gratuito y de código abierto][14]
+  * [Nginx | Servidor web ligero y de alto rendimiento][15]
+  * [Tutorial de configuración para Lemp Stack en Ubuntu 18.04][16]
+
+  
 [1]: #whatisapache
 [2]: #whatisnginx
 [3]: #apachevsnginx

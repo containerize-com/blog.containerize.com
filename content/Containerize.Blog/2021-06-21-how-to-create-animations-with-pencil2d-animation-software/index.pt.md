@@ -13,16 +13,16 @@ categories: ['Animation Software']
 
 
 ## ** lápis2d é um software de animação de código aberto que permite que os usuários criem animações e esboços 2D. Este artigo é sobre como criar animação com lápis2d **.
-Quando se trata de aprender a um novo software para criar animações e ilustrações, criamos vários tutoriais e guias que podem ajudá -lo a dominar novos softwares e aprender animações. Se você é um usuário iniciante ou avançado, nossas [postagens anteriores] [1] podem ajudá -lo a encontrar o aplicativo de animação correto para você. Vamos cobrir os seguintes tópicos para aprender a criar animações com software de animação Pencil2D.
-  * [O que é lápis2d?] [2]
-  * [Como instalar o lápis2d?] [3]
-  * [Visão geral da interface do aplicativo] [4]
-  * [Como criar animações com lápis2d?] [5]
-  * [Conclusão] [6]
+Quando se trata de aprender a um novo software para criar animações e ilustrações, criamos vários tutoriais e guias que podem ajudá -lo a dominar novos softwares e aprender animações. Se você é um usuário iniciante ou avançado, nossas [postagens anteriores][1] podem ajudá -lo a encontrar o aplicativo de animação correto para você. Vamos cobrir os seguintes tópicos para aprender a criar animações com software de animação Pencil2D.
+  * [O que é lápis2d?][2]
+  * [Como instalar o lápis2d?][3]
+  * [Visão geral da interface do aplicativo][4]
+  * [Como criar animações com lápis2d?][5]
+  * [Conclusão][6]
 
 ## O que é lápis2d? {#o que é-lápis2d}
-[Lápis2d] [7] é um aplicativo de animação tradicional que permite aos usuários criar esboços 2D de desenhos animados e animações para diferentes projetos. Você pode usar o Pencil2D, tanto para projetos pessoais quanto para empreendimentos comerciais, pois é um software de animação de código aberto licenciado sob a licença pública geral da GNU. O uso de lápis2D é bem direto, como você verá mais adiante no post. Pode ser usado por animadores iniciantes e também por usuários profissionais.
-Com [lápis2d] [7], suas animações são armazenadas em desenhos de bitmap ou vetorial e utilizam um fluxo de trabalho de raster/vetor para o gerenciamento eficaz de animações. Alguns dos formatos de arquivo aceitáveis ​​durante o uso de lápis são PNG, JPEG, BMP, TIFF etc para imagens e AVI, MP4, GIF e muito mais, para vídeos. É compatível com Windows, Mac OS, Linux e FreeBSD também.
+[Lápis2d][7] é um aplicativo de animação tradicional que permite aos usuários criar esboços 2D de desenhos animados e animações para diferentes projetos. Você pode usar o Pencil2D, tanto para projetos pessoais quanto para empreendimentos comerciais, pois é um software de animação de código aberto licenciado sob a licença pública geral da GNU. O uso de lápis2D é bem direto, como você verá mais adiante no post. Pode ser usado por animadores iniciantes e também por usuários profissionais.
+Com [lápis2d][7], suas animações são armazenadas em desenhos de bitmap ou vetorial e utilizam um fluxo de trabalho de raster/vetor para o gerenciamento eficaz de animações. Alguns dos formatos de arquivo aceitáveis ​​durante o uso de lápis são PNG, JPEG, BMP, TIFF etc para imagens e AVI, MP4, GIF e muito mais, para vídeos. É compatível com Windows, Mac OS, Linux e FreeBSD também.
 
 ## Como instalar o lápis2D? {#Install-PARK2D}
 Abra o terminal e atualize o índice de pacotes do servidor local digitando o seguinte comando:
@@ -80,13 +80,15 @@ Agora você pode incorporar a animação em um site, reproduzi -la em um navegad
 
 ## Conclusão {#conclusion}
 Como você pode ver no tutorial acima, a criação de animações com PEARK2D é bastante fácil de entender e executar. O software de animação foi criado de maneira a ser amigável para iniciantes, além de adotar rapidamente pelos profissionais. Existem muitas opções disponíveis no Pencil2D quando se trata de criar esboços ou animações 2D, e qualquer ilustrador pode realmente criar um portfólio forte com o aplicativo.
-[Lápis2d] [7] é compatível com muitos sistemas operacionais, como mencionamos anteriormente, para que você possa simplesmente conectar e brincar com o software de animação no ambiente de sua escolha. Se você estiver procurando por mais tutoriais em relação a Pencil2D, pode simplesmente ir e conferir o site deles. Também criamos muitos tutoriais e guias para usar outros programas de software de animação que você pode encontrar em nosso site, portanto, consulte -os para obter mais clareza.
+[Lápis2d][7] é compatível com muitos sistemas operacionais, como mencionamos anteriormente, para que você possa simplesmente conectar e brincar com o software de animação no ambiente de sua escolha. Se você estiver procurando por mais tutoriais em relação a Pencil2D, pode simplesmente ir e conferir o site deles. Também criamos muitos tutoriais e guias para usar outros programas de software de animação que você pode encontrar em nosso site, portanto, consulte -os para obter mais clareza.
 
 ## Explore
 Você pode encontrar links a seguir relevantes:
-  * [Lápis2d | Software de animação 2D gratuito de plataforma cruzada e de código aberto] [7]
-  * [Guia para iniciantes para iniciar a edição de imagem gratuita usando Digikam] [8]
-  * [Melhor software de animação de código aberto] [9]
+  * [Lápis2d | Software de animação 2D gratuito de plataforma cruzada e de código aberto][7]
+  * [Guia para iniciantes para iniciar a edição de imagem gratuita usando Digikam][8]
+  * [Melhor software de animação de código aberto][9]
+
+  
 [1]: https://blog.containerize.com/
 [2]: #what-is-pencil2d
 [3]: #install-pencil2d

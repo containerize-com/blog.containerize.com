@@ -13,15 +13,15 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/phplist-2.png" alt="proceso rebota phplist">}}
 
-Hemos escrito artículos para implementar [múltiples tenientes] [1] y [envío de campaña de boletín] [2] en Phplist. En este artículo, cubriremos estos puntos en detalle sobre los rebotes del proceso en Phplist.
-  * [¿Qué es Phplist?] [3]
-  * [¿Qué es el rebote?] [4]
-  * [Configuración de gestión de rebote] [5]
-  * [¿Cómo procesar rebotes?] [6]
-  * [Conclusión] [7]
+Hemos escrito artículos para implementar [múltiples tenientes][1] y [envío de campaña de boletín][2] en Phplist. En este artículo, cubriremos estos puntos en detalle sobre los rebotes del proceso en Phplist.
+  * [¿Qué es Phplist?][3]
+  * [¿Qué es el rebote?][4]
+  * [Configuración de gestión de rebote][5]
+  * [¿Cómo procesar rebotes?][6]
+  * [Conclusión][7]
 
 ## ¿Qué es Phplist? {#phplist}
-Phplist es el software de envío del boletín gratuito y de código abierto más populares. Phplist permite que las empresas envíen correos electrónicos de marketing, actualizaciones de productos y anuncios a los suscriptores. Ayuda a las empresas a administrar el listado, diseñar un boletín hermoso, una campaña de programación y gestión de rebote. [Leer más] [8]
+Phplist es el software de envío del boletín gratuito y de código abierto más populares. Phplist permite que las empresas envíen correos electrónicos de marketing, actualizaciones de productos y anuncios a los suscriptores. Ayuda a las empresas a administrar el listado, diseñar un boletín hermoso, una campaña de programación y gestión de rebote. [Leer más][8]
 
 ## ¿Qué es el rebote? {#rebotar}
 Un rebote es un mensaje de correo electrónico que no se puede entregar debido a la cantidad de razones y volver al remitente. Es posible que tengamos razones como el buzón está llena, la dirección de correo electrónico ya no es una dirección de correo electrónico válida o incorrecta. Debido a esto, debe procesar rebotes para no enviar correos electrónicos a direcciones de correo electrónico no válidas.
@@ -39,10 +39,12 @@ Explicaremos en los siguientes pasos más sobre estas configuraciones.
   *Además de la configuración anterior para el protocolo ** POP3 **, es posible que deba agregar puerto y cifrado.
 
 ## ¿Cómo procesar los rebotes? {#proceso}
-Phplist admite dos métodos para rebotes de procesos: manual y automatizado. Tendrá que crear un trabajo cron para automatizar el procesamiento de rebote. También puede procesar manualmente rebotes visitando ** Sistema> Página de procesos **. Por lo tanto, primero debe cambiar ** manualmente \ _Process \ _BoUnces ** Configuración de acuerdo con sus requisitos. Puede visitar [Phplist Docs] [9] para configurar el trabajo cron para los rebotes de procesos.
+Phplist admite dos métodos para rebotes de procesos: manual y automatizado. Tendrá que crear un trabajo cron para automatizar el procesamiento de rebote. También puede procesar manualmente rebotes visitando ** Sistema> Página de procesos **. Por lo tanto, primero debe cambiar ** manualmente \ _Process \ _BoUnces ** Configuración de acuerdo con sus requisitos. Puede visitar [Phplist Docs][9] para configurar el trabajo cron para los rebotes de procesos.
 
 ## conclusión {#conclusion}
 En esta publicación, hemos aprendido cómo configurar la dirección de correo electrónico de rebote y los rebotes de procesos. Puede procesar fácilmente los rebotes con el método manual, si tiene menos cantidad de suscriptores. Sin embargo, debe usar el proceso de manejo de rebote automatizar para listas grandes. Le ahorrará tiempo y lo ayudará a crear listas de suscriptores limpias y válidas.
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
 [2]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
 [3]: #phplist

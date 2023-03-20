@@ -12,11 +12,11 @@ categories: ['Single Sign-On']
 ## Este artigo explica a autenticação de dois fatores em detalhes e como ele pode ser implementado no .NET 5 usando estruturas de identidade como o IdentityServer4 e um provedor SMS (Twilio).
 {{_LINE_11_}}
 Ele contém as seguintes seções:
-  * [O que é autenticação de dois fatores? ] [1]
-  * [Como funciona o 2FA?] [2]
-  * [2FA e autenticação multifatorial] [3]
-  * [Desvantagens do uso do 2FA] [4]
-  * [Implementando 2FA em .NET5] [5]
+  * [O que é autenticação de dois fatores? ][1]
+  * [Como funciona o 2FA?][2]
+  * [2FA e autenticação multifatorial][3]
+  * [Desvantagens do uso do 2FA][4]
+  * [Implementando 2FA em .NET5][5]
 Primeiro, vamos entender o que é 2FA e por que ele precisa ser parte integrante de todos os aplicativos da web modernos.
 
 ## O que é autenticação de dois fatores? {#2fa}
@@ -187,8 +187,10 @@ O código da etapa 4 é verificado e a autenticação 2FA foi concluída.
 
 
 ### Conclusão:
-Neste artigo, aprendemos sobre o 2FA e sua implementação no .NET5 usando o IdentityServer4 e o Twilio. Você pode baixar o código de exemplo usado neste artigo deste [repo] [6].
-O uso de SMS para 2FA certamente fortalece sua segurança, mas ainda é vulnerável a [SIM Swap Attacks] [7]. Portanto, os pesquisadores de segurança estão incentivando o 2FA a usar outras abordagens, como aplicativos autenticadores e chaves de segurança ([Yubikey] [8]) que não podem ser interceptadas na rede telefônica. Aprenderemos mais sobre isso em um próximo artigo - fique atento!
+Neste artigo, aprendemos sobre o 2FA e sua implementação no .NET5 usando o IdentityServer4 e o Twilio. Você pode baixar o código de exemplo usado neste artigo deste [repo][6].
+O uso de SMS para 2FA certamente fortalece sua segurança, mas ainda é vulnerável a [SIM Swap Attacks][7]. Portanto, os pesquisadores de segurança estão incentivando o 2FA a usar outras abordagens, como aplicativos autenticadores e chaves de segurança ([Yubikey][8]) que não podem ser interceptadas na rede telefônica. Aprenderemos mais sobre isso em um próximo artigo - fique atento!
+
+  
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

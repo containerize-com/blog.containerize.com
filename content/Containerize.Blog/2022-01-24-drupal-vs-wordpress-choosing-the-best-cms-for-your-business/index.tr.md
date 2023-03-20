@@ -23,7 +23,7 @@ Açıkçası, hem Drupal vs WordPress İçerik Yönetim Sistemleri, web sitenizd
   * **Çözüm**
 
 ## ** 1. Drupal nedir? **
-[** Drupal **] [1] başlangıçta 2000 yılında başlatılan en çok yönlü ücretsiz ve açık kaynaklı web içerik yönetim sistemlerinden biridir. Drupal, lamba yığınına dayanan esnek bir CMS'dir.
+[** Drupal **][1] başlangıçta 2000 yılında başlatılan en çok yönlü ücretsiz ve açık kaynaklı web içerik yönetim sistemlerinden biridir. Drupal, lamba yığınına dayanan esnek bir CMS'dir.
 Drupal, dünya çapında ilk 10.000 web sitesinin en az% 14'ü için açık kaynaklı bir arka uç çerçevesi sağlamaya yardımcı oluyor. Kişisel webloglardan kurumsal, siyasi, hükümete, topluluk güdümlü büyük web sitelerine ve büyük, destekleyici bir topluluğa kadar değişmektedir.
 ** Kaç web sitesi kullanıyor ** drupal **?. ** W3Techs'e göre, Drupal tüm web sitelerinin% 2.0'ı tarafından kullanılır ve içerik yönetim sistemi pazarının% 4,6'sına sahiptir. Bu tüm web sitelerinin% 1,3'üdür.
 ** Drupal kullanan popüler web siteleri nelerdir?: **
@@ -38,7 +38,7 @@ Drupal, dünya çapında ilk 10.000 web sitesinin en az% 14'ü için açık kayn
   * NCAA
   * Tesla
   * Keap
-** Drupal avantajları nelerdir? ** [] [2]
+** Drupal avantajları nelerdir? ** [][2]
   *** Erişim Denetimleri **-Drupal Açık Kaynak İçerik Yönetim Sistemi (CMS), bireysel izinlerle yeni kullanıcı rolleri oluşturabileceğiniz yerleşik bir erişim kontrol sistemine sahiptir. .
   *** Genişletilebilirlik ** - Drupal özel içerik türleri ve görünümleri, WordPress özel yazı türlerinden daha esnektir.
   *** Taksonomiler ** - Drupal taksonomi sistemi, WordPress'ten daha esnektir, bu da çok sayıda içerik verisini işlemek için idealdir.
@@ -48,7 +48,7 @@ Drupal, dünya çapında ilk 10.000 web sitesinin en az% 14'ü için açık kayn
 ** Drupal'da kaç tema var? ** Ocak 2022 itibariyle drupal.org, resmi dizininde 2.988 tema sunuyor. Drupal 9, yetmişten fazla çekirdek modül ve dokuz tema ile hazırlanmıştır.
 
 ## 2. WordPress nedir?
-[** WordPress **] [3] dünyanın en popüler ücretsiz ve açık kaynaklı içerik yönetim sistemidir. Başlangıçta 2003 yılında bir blog platformu olarak başlatıldı ve özellikleri bir eklenti mimarisi ve temalar adı verilen bir şablon sistemi içeriyor. WordPress, PHP'de komut dosyası dili olarak yazılan ve MySQL veya MariaDB veritabanını kullanan en popüler blog yazılımıdır.
+[** WordPress **][3] dünyanın en popüler ücretsiz ve açık kaynaklı içerik yönetim sistemidir. Başlangıçta 2003 yılında bir blog platformu olarak başlatıldı ve özellikleri bir eklenti mimarisi ve temalar adı verilen bir şablon sistemi içeriyor. WordPress, PHP'de komut dosyası dili olarak yazılan ve MySQL veya MariaDB veritabanını kullanan en popüler blog yazılımıdır.
 ** Kaç web sitesi WordPress kullanıyor?. ** W3Techs'e göre, WordPress, içerik yönetim sistemi (CMS) veya özel kodlu CMS'li olanlar da dahil olmak üzere Web'deki tüm web sitelerinin% 43.2'sini güçlendirir. Başka bir yol, WordPress internetin üçte birine güç veriyor ve içerik yönetim sistemleri (CMS) pazarı için% 65 pay alıyor.
 ** WordPress kullanan popüler siteler nelerdir?: **
 WordPress kullanan en iyi web sitelerinin ve büyük isim markalarının listesi.
@@ -62,14 +62,14 @@ WordPress kullanan en iyi web sitelerinin ve büyük isim markalarının listesi
   * Mercedes-benz.com
   * Newyorker.com
   * Godaddy.com
-** WordPress Avantajları Nelerdir? ** [] [4]
+** WordPress Avantajları Nelerdir? ** [][4]
 WordPress'in bu kadar popüler olmasının en önemli nedenleri ve neden işletme web siteniz için bir WordPress platformuna geçmeyi düşünmek isteyebilirsiniz. WordPress avantajları:
   *** Kullanım kolaylığı **-WordPress kullanımı çok kolay, daha kullanıcı dostu ve sezgisel bir arayüze sahiptir. Yeni sayfalar, blog makaleleri, resimler vb. Oluşturun düzenli olarak çok basittir ve özellikle geliştiriciler için hızlı bir şekilde yapılabilir.
   *** Genişletilebilirlik ** - WordPress, özel geliştirmeye ihtiyaç duymadan WordPress'i genişletmeyi mümkün kılar. Üçüncü taraf teması ve eklentileri ile bir etkinlik takvimi, video galerisi, Twitter Feed, Facebook kutusu ve daha fazlasını ekleyin.
   *** Ölçeklenebilirlik ** - WordPress siteleri, işletmeniz büyüdükçe çok ölçeklenebilir. Yönetici olarak, web sitenize yüzlerce sayfa veya blog yazısı eklersiniz ve sitenizin performansı tehlikeye girmez.
   *** HTML Düzenleme Yok **-WordPress bağımsız bir platformdur ve HTML düzenleme yazılımı gerektirmez. Herkes ek HTML veya FTP yazılımına ihtiyaç duymadan yeni bir sayfa veya blog yazısı, biçimlendirme metni, resim yükleme, video dosyaları vb. Oluşturabilir.
   *** Daha düşük geliştirme maliyeti ** - WordPress daha fazla tasarım ve düzen çözümü sunar ve geliştiricileri genellikle küçük işletmeler için bile Drupal geliştiricilerden daha uygun fiyatlıdır.
-  *** Destek ** - WordPress Global Community, cevap almak için herhangi bir soruna yardımcı olur ve destek belgelerini görüntüleyin. [] [5]
+  *** Destek ** - WordPress Global Community, cevap almak için herhangi bir soruna yardımcı olur ve destek belgelerini görüntüleyin. [][5]
 ** WordPress'in kaç eklentisi var? ** Aralık 2021'den itibaren WordPress.org 59.756 eklenti mevcuttur. Her biri, kullanıcıların sitelerini özel ihtiyaçlarına göre uyarlamalarını sağlayan özel işlevler ve özellikler sunar.
 ** WordPress'te kaç tema var? ** 9.159 ücretsiz tema ve binlerce daha fazla premium tema var. WYSIWYG tema özelleştirici ve Gutenberg editörü gibi araçlar, sıradan kullanıcıların benzersiz içerik oluşturmasını daha kolay hale getirir.
 
@@ -85,11 +85,13 @@ _ Ne açık kaynaklı içerik yönetimi platformu_ tercih edersiniz? _Wordpress_
 
 ## Keşfetmek:
 BT yöneticileri için başka ilgili makalelerimiz var:
-  *** [DevOps 2021 için Top 5 Açık Kaynak Konteyner Orkestrasyon Aracı] [7] **
-  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [8] **
-  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı] [9] **
-  *** [en popüler açık kaynaklı dijital adli araçlar] [10] **
-  *** [En popüler OSI onaylı açık kaynak lisansları] [11] **
+  *** [DevOps 2021 için Top 5 Açık Kaynak Konteyner Orkestrasyon Aracı][7] **
+  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][8] **
+  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı][9] **
+  *** [en popüler açık kaynaklı dijital adli araçlar][10] **
+  *** [En popüler OSI onaylı açık kaynak lisansları][11] **
+
+  
 [1]: https://www.drupal.org/
 [2]: https://kinsta.com/blog/wordpress-vs-drupal/#drupal-advantages
 [3]: https://wordpress.org/

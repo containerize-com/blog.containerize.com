@@ -16,7 +16,7 @@ categories: ['Web Server Solution Stack']
 
 ## Genel Bakış:
 Nginx ve Apache en popüler iki açık kaynak web sunucuları ** genellikle PHP ile kullanılmaktadır. Ters proxy veya ağ geçidi, istemci ve sunucu arasında bir bağlantı görevi görür. İstemci ve sunucu, sürekli ve verimli bir şekilde çalışmak için birbirleriyle bilgi alışverişinde bulunur. En yaygın ters vekiller ** nginx ve apache **'dır ve her ikisi de birden fazla web sitesini barındırırken aynı sanal makinede yapılandırılabilir. Ters proxy, web sunucularını saldırılardan korur ve bağlantı ağ geçidi, istemciye özel bir ters proxy nginx yapılandırmasının gerekli olmadığı sıradan bir web sunucusu gibi görünür. Ters proxy, istenen bilgileri nereye aktaracağına ve ardından nihai çıktı sonucunu istemciye teslim ederken istemci istek gönderir.
-Redis öğreticileri hakkındaki dizilerimiz için çok takdir ettikten sonra, Nginx öğreticilerinde bir dizi başlatmak için birçok istek aldık. Geçen hafta uygulamalarınız için [NGINX Ters Proxy Yük Dengeleyici] [1] 'in nasıl kullanılacağı hakkında bir öğretici ile başladık. Bu basit Nginx ters proxy yapılandırma örneği birçok güvenilirlik ve Nginx ters proxy performans avantajı sağlar. Nginx Basit Ters Proxy, internette en aktif olarak kullanılan açık kaynak Nginx Proxy sunucusudur. Bu öğreticide, Nginx'in ters proxy ** olarak nasıl kullanılacağını ve tek bir sunucuda ters proxy olarak nasıl ayarlanacağını ** yapacağız. Öyleyse başlayalım!
+Redis öğreticileri hakkındaki dizilerimiz için çok takdir ettikten sonra, Nginx öğreticilerinde bir dizi başlatmak için birçok istek aldık. Geçen hafta uygulamalarınız için [NGINX Ters Proxy Yük Dengeleyici][1] 'in nasıl kullanılacağı hakkında bir öğretici ile başladık. Bu basit Nginx ters proxy yapılandırma örneği birçok güvenilirlik ve Nginx ters proxy performans avantajı sağlar. Nginx Basit Ters Proxy, internette en aktif olarak kullanılan açık kaynak Nginx Proxy sunucusudur. Bu öğreticide, Nginx'in ters proxy ** olarak nasıl kullanılacağını ve tek bir sunucuda ters proxy olarak nasıl ayarlanacağını ** yapacağız. Öyleyse başlayalım!
   * Proxy sunucusu nedir?
   * İleri vs ters proxy
   * Ters proxy'yi yapılandırın
@@ -60,7 +60,7 @@ location /path/to/location/ {
 }
 ```
 Nginx ayrıca performansı artırmaya yardımcı olan arabelleğe alınmayı destekler. Tamponlama etkinleştirilmiş Nginx, istemcinin indirilmesi için ihtiyaç duyduğu sürece proxed sunucudan aldığı yanıtı depolayacaktır.
-Tüm istekleri tek bir sunucuya proxying yapmak yerine, ** birden fazla arka uç sunucusu kurabilir ve bu proxed sunucular arasında nginx denge yüküne izin verebilirsiniz. Bunu [Nginx yük dengeleme] [1] hakkında öğreticimizde zaten ele aldık.
+Tüm istekleri tek bir sunucuya proxying yapmak yerine, ** birden fazla arka uç sunucusu kurabilir ve bu proxed sunucular arasında nginx denge yüküne izin verebilirsiniz. Bunu [Nginx yük dengeleme][1] hakkında öğreticimizde zaten ele aldık.
 
 ## Nginx Ters Proxy'nin avantajları nelerdir?
 Aşağıda Nginx Ters Proxy Sunucusunu kurmanın faydaları şunlardır:
@@ -78,13 +78,15 @@ _ Kolay, dinamik ve tam özellikli en sevdiğiniz _revers proxy_ sunucusu nedir?
 
 ## Keşfetmek
 Aşağıdaki makaleleri daha fazla bulabilirsiniz
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [3]
-  * [Ubuntu 20.04'te Şifreleme ile Nginx Güvenli] [4]
-  * [Uygulamanız için Nginx nasıl yük dengeleyici olarak kullanılır] [1]
-  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır] [5]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][3]
+  * [Ubuntu 20.04'te Şifreleme ile Nginx Güvenli][4]
+  * [Uygulamanız için Nginx nasıl yük dengeleyici olarak kullanılır][1]
+  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır][5]
   * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın [6]
-  * [Ubuntu'da Nginx ile birden fazla PHP sürümü yükleyin] [7]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun] [8]
+  * [Ubuntu'da Nginx ile birden fazla PHP sürümü yükleyin][7]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun][8]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

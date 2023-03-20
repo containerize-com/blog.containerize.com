@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Create-you-first-php-project-using-xamppA.png" alt="Créez votre premier projet PHP avec le serveur Web Open Source XAMPP">}}
 
 XAMPP est un serveur Web open source qui fournit un environnement local pour créer, exécuter et tester un projet PHP avant de le déployer sur des serveurs en direct. Il fournit un serveur local aux développeurs pour tester et créer des applications Web. Nous couvrirons les sections suivantes dans cet article de blog:
-  * [Exigences] [2]
-  * [Qu'est-ce que XAMPP] [3]
-  * [Créer un script php] [4]
-  * [Exécuter et tester le script php] [5]
-  * [Conclusion] [6]
+  * [Exigences][2]
+  * [Qu'est-ce que XAMPP][3]
+  * [Créer un script php][4]
+  * [Exécuter et tester le script php][5]
+  * [Conclusion][6]
 
 ## exigences {#Requirements}
   * Installation XAMPP
@@ -28,7 +28,7 @@ XAMPP est un serveur Web open source qui fournit un environnement local pour cr�
 
 ## Qu'est-ce que XAMPP? {#xampp}
 XAMPP est une pile de solutions de serveur Web open source. Il contient Apache, MySQL, MariaDB, PHP et Perl. Il est extrêmement facile à installer et à utiliser. C’est pourquoi c’est l’environnement de développement PHP le plus populaire. Le serveur XAMPP fournit un environnement complet pour le développement d'applications Web PHP. Si vous n'avez pas déjà l'installation de travail XAMPP, suivez ce guide pour installer XAMPP:
-[Configuration de XAMPP et PhpMyAdmin en tant que localhost sur Windows] [7]
+[Configuration de XAMPP et PhpMyAdmin en tant que localhost sur Windows][7]
 
 ## Créer un script php {#php}
   * En supposant que vous avez déjà installé XAMPP en suivant le didacticiel ci-dessus, créons maintenant un script PHP simple et le testons sur XAMPP.
@@ -62,8 +62,10 @@ Créer un premier projet Web est toujours très excitant pour un débutant. Cela
 
 ## Explorer
 Pour en savoir plus sur XAMPP et PHPMYADMIN, Vérifiez les guides suivants:
-[Configuration de XAMPP et PhpMyAdmin en tant que localhost sur Windows] [7]
-[Pile de solutions de serveur Web gratuit pour les développeurs PHP & Perl] [1]
+[Configuration de XAMPP et PhpMyAdmin en tant que localhost sur Windows][7]
+[Pile de solutions de serveur Web gratuit pour les développeurs PHP & Perl][1]
+
+  
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

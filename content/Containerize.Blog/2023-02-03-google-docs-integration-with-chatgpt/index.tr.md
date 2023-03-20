@@ -15,15 +15,15 @@ categories: ['Artificial intelligence']
 
 
 ## Genel Bakış
-Son zamanlarda başlatılan [chatgpt] [1] teknoloji dünyasında bir terim haline geldi. Bazı insanlar lehinedir ve bu**ai chatbot**verimlilik ve şeffaflık için bir tehdit olarak görürler. Peki, [Containerize.com] [2] bu Openai GPT-3 modelinin kullanımı ve entegrasyonları hakkında yazıyor. Aslında, [Google Dokümanlar] [3] yazma ve veri temsili için harika bir araçtır. Başka bir el, chatgpt'in ortaya çıkışı, doğal dil sorgularına konuşma bir şekilde yanıt veren bir konuşma [AI] [4] aracıdır. Bu AI aracı makine öğrenimine dayanmaktadır ve [Openai] [5] tarafından geliştirilmiştir. Ancak, bu blog yazısı**chatgpt ve google**hakkında, chatgpt**ile**Google Dokümanlar entegrasyonunu nasıl başaracağımızı öğreneceğimizdir. Kuşkusuz, Google Dokümanlarımıza ChatGPT eklentisini yükleyerek**Google Dokümanlar Otomasyonu**getirebiliriz.
+Son zamanlarda başlatılan [chatgpt][1] teknoloji dünyasında bir terim haline geldi. Bazı insanlar lehinedir ve bu**ai chatbot**verimlilik ve şeffaflık için bir tehdit olarak görürler. Peki, [Containerize.com][2] bu Openai GPT-3 modelinin kullanımı ve entegrasyonları hakkında yazıyor. Aslında, [Google Dokümanlar][3] yazma ve veri temsili için harika bir araçtır. Başka bir el, chatgpt'in ortaya çıkışı, doğal dil sorgularına konuşma bir şekilde yanıt veren bir konuşma [AI][4] aracıdır. Bu AI aracı makine öğrenimine dayanmaktadır ve [Openai][5] tarafından geliştirilmiştir. Ancak, bu blog yazısı**chatgpt ve google**hakkında, chatgpt**ile**Google Dokümanlar entegrasyonunu nasıl başaracağımızı öğreneceğimizdir. Kuşkusuz, Google Dokümanlarımıza ChatGPT eklentisini yükleyerek**Google Dokümanlar Otomasyonu**getirebiliriz.
 Bu blog gönderisinde aşağıdaki noktaları gözden geçireceğiz:
-* [**Openai API anahtarını nasıl elde edersiniz?**] [6]
-***[Hadi Google Dokümanlar ile CHATGPT ile entegrasyon] [7]**
-* [**Chatgpt ve Google****Dokümanlar**] [8] kullanmaya başlayın
+* [**Openai API anahtarını nasıl elde edersiniz?**][6]
+***[Hadi Google Dokümanlar ile CHATGPT ile entegrasyon][7]**
+* [**Chatgpt ve Google****Dokümanlar**][8] kullanmaya başlayın
 
 ## Openai API anahtarını nasıl elde ederiz? {#Obtain-the-openai-Api-Key}
 Sadece size küçük bir giriş yapmak için Openai, yapay zeka araçlarının araştırma ve geliştirilmesine odaklanan bir şirkettir. Chatgpt ayrıca Openai tarafından geliştirilir ve başlatılırken, Openai bir dizi GPT modeli geliştirdi.
-İlk olarak, Openai'nin [platformu] [9] 'da bir hesap oluşturmanız ve ardından oturum açmanız gerekir. Giriş yaptıktan sonra, API Keys sayfasına inecek ve “Yeni Sır oluşturun düğmesini tıklayarak bir API anahtarı oluşturabileceğiniz Aşağıda gösterildiği gibi anahtar ”.
+İlk olarak, Openai'nin [platformu][9] 'da bir hesap oluşturmanız ve ardından oturum açmanız gerekir. Giriş yaptıktan sonra, API Keys sayfasına inecek ve “Yeni Sır oluşturun düğmesini tıklayarak bir API anahtarı oluşturabileceğiniz Aşağıda gösterildiği gibi anahtar ”.
 
 {{< figure align=center src="images/openai-api-key-1.gif" alt="Openai API Anahtarı">}}
 
@@ -52,21 +52,23 @@ Yukarıdaki örnekte bir kelime yazdık ve ChatGpt'ten bir slogan, görüntü ve
 
 ## Çözüm
 Sonuç olarak, chatgpt**ile**Google Dokümanlar Entegrasyonunu nasıl elde edeceğinizi güvenle söyleyebiliriz. Ayrıca,**Openai API tuşunun**nasıl oluşturulacağını ve**Openai GPT-3**işlevlerini etkinleştirmek için ayarladık. Bu Google Dokümanlar otomasyonu, işletme görevlerinize ciddi şekilde fayda sağlayabilir. Ayrıca, aşağıdaki “Ayrıca bkz.” Bölümüne katılan bağlantıları ziyaret etmeyi unutmayın.
-Son olarak, [Containerize.com] [2] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi [Facebook] [10], [LinkedIn] [11] ve [Twitter] [12] 'de sosyal medya hesaplarımızda takip edebilirsiniz.
+Son olarak, [Containerize.com][2] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi [Facebook][10], [LinkedIn][11] ve [Twitter][12] 'de sosyal medya hesaplarımızda takip edebilirsiniz.
 
 ## Bir soru sor
-[Forum] [13] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][13] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * Google Dokümanlarında GPT-3 API'sı nasıl kullanılır?**
-ChatGPT ile Google Dokümanlar entegrasyonunun adımlarını öğrenmek için lütfen bu [link] [7] adresini ziyaret edin.
+**Google Dokümanlarında GPT-3 API'sı nasıl kullanılır?**
+ChatGPT ile Google Dokümanlar entegrasyonunun adımlarını öğrenmek için lütfen bu [link][7] adresini ziyaret edin.
 
 ## Ayrıca bakınız
-  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder] [14]
-  * [Yapay Zekaya Giriş | AI nedir?] [4]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [15]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [1]
-  * [En iyi 5 açık kaynaklı AI çerçevesi nedir] [16]
+  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder][14]
+  * [Yapay Zekaya Giriş | AI nedir?][4]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][15]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][1]
+  * [En iyi 5 açık kaynaklı AI çerçevesi nedir][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [2]: https://www.containerize.com/
 [3]: https://docs.google.com/document/u/0/

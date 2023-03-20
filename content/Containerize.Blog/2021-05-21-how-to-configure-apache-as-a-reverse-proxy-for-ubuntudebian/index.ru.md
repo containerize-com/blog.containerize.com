@@ -97,11 +97,13 @@ Sudo SystemCtl перезапустить apache2.service
 
 ## Исследовать
 Вам также может понравиться более приведенные более связанные статьи:
-  * [Как] [1] [Установить и защищать phpmyadmin с nginx на Ubuntu] [2]
-  * [Как настроить Nginx с пассажиром на производственном сервере AWS] [3]
-  * [Настройка поддержки HTTP/2 в Nginx на Ubuntu/Debian] [4]
-  * [Безопасно и шифровать Nginx с Let's Encrypt на Ubuntu 20.04] [5]
-  * [Как установить и настроить OwnCloud с Apache на Ubuntu] [6]
+  * [Как][1][Установить и защищать phpmyadmin с nginx на Ubuntu][2]
+  * [Как настроить Nginx с пассажиром на производственном сервере AWS][3]
+  * [Настройка поддержки HTTP/2 в Nginx на Ubuntu/Debian][4]
+  * [Безопасно и шифровать Nginx с Let's Encrypt на Ubuntu 20.04][5]
+  * [Как установить и настроить OwnCloud с Apache на Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/ru/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

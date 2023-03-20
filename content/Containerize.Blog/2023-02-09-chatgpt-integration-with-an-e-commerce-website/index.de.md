@@ -15,17 +15,17 @@ categories: ['Artificial intelligence']
 
 
 ## Überblick
-Wir sind unseren engagierten Lesern dankbar, die unseren Blog kontinuierlich unterstützt haben. Das positive Feedback zu unseren jüngsten Artikeln zu [Code GPT] [1], [CHATGPT] [2] und [die Integration von ChatGPT in Google Sheets] [3] war enorm. Als Reaktion darauf freuen wir uns, ein weiteres informatives Stück zu präsentieren, das Ihnen zeigt**So erreichen Sie die ChatGPT-Integration in eine E-Commerce-Website**mit [PHP] [4] entwickelt und die Produktempfehlung mit der Produktempfehlung personalisieren.
+Wir sind unseren engagierten Lesern dankbar, die unseren Blog kontinuierlich unterstützt haben. Das positive Feedback zu unseren jüngsten Artikeln zu [Code GPT][1], [CHATGPT][2] und [die Integration von ChatGPT in Google Sheets][3] war enorm. Als Reaktion darauf freuen wir uns, ein weiteres informatives Stück zu präsentieren, das Ihnen zeigt**So erreichen Sie die ChatGPT-Integration in eine E-Commerce-Website**mit [PHP][4] entwickelt und die Produktempfehlung mit der Produktempfehlung personalisieren.
 Zum aktuellen Zeitpunkt suchen Unternehmen nach neuen Möglichkeiten, um Kundenerlebnisse zu verbessern und anzuziehen. Das ChatGPT, das mit dem GPT-3-Modell geschult wird, ist ein fortschrittliches und leistungsstarkes Tool, mit dem E-Commerce-Unternehmen in**personalisierung Produktempfehlungen**für jeden einzelnen Kunden basierend auf seiner**Browser-Geschichte**die Personalisierung von Produktempfehlungen erhalten können. In diesem Artikel werden wir Sie unter**wie Sie Chatgpt**in einer PHP-basierten Anwendung verwenden. Es wird jedoch den Prozess automatisiert, in dem die Kunden auf der Grundlage ihres Browserhistoriums und früheren Einkäufe Produkte empfehlen.
 Wir werden die ChatGPT -Integration abdecken, indem wir den unten genannten Schritten folgen:
-* [**So integrieren Sie Chatgpt**] [5]
-* [**Benutzerdaten speichern**] [6]
-* [**Produktempfehlungen für Produkte**] [7]
-* [**Konfigurieren Sie Einstellungen**] [8]
-* [**Test und Debugug**] [9]
+* [**So integrieren Sie Chatgpt**][5]
+* [**Benutzerdaten speichern**][6]
+* [**Produktempfehlungen für Produkte**][7]
+* [**Konfigurieren Sie Einstellungen**][8]
+* [**Test und Debugug**][9]
 
 ## Schritt 1: So integrieren Sie Chatgpt {#-How-to-Integrate-Chatgpt}
-Erreichen Sie**CHATGPT-Integration**in Ihre E-Commerce-Website und es ist der erste Schritt zu personalisierten Produktempfehlungen. Dazu müssen Sie eine Anfrage an die [OpenAI -API] [10] mit PHP senden, die die erforderlichen Informationen für ChatGPT enthält, um eine Antwort zu generieren. Der Kontext kann das Browser- und Kaufverlauf für den Benutzer umfassen.
+Erreichen Sie**CHATGPT-Integration**in Ihre E-Commerce-Website und es ist der erste Schritt zu personalisierten Produktempfehlungen. Dazu müssen Sie eine Anfrage an die [OpenAI -API][10] mit PHP senden, die die erforderlichen Informationen für ChatGPT enthält, um eine Antwort zu generieren. Der Kontext kann das Browser- und Kaufverlauf für den Benutzer umfassen.
 
 ## Schritt 2: Benutzerdaten {#Store-User-Data} speichern
 Es ist erforderlich, Benutzerdaten zu speichern, damit ChatGPT personalisierte Produktempfehlungen generiert. Die Daten können jedoch Informationen über den Browserverlauf und die Einkäufe des Benutzers enthalten. Daher sollten die Daten sicher gespeichert und nur zur Erstellung personalisierter Produktempfehlungen verwendet werden.
@@ -43,13 +43,13 @@ Vor allem können Sie das folgende Code-Snippet sehen, um die Erzielung von**CHA
 
 ## Abschluss
 Dies bringt uns zum Ende dieses E-Commerce-Handbuchs**. Wir können diesen Blog-Beitrag abschließen, in dem wir die Implementierung der Chatgpt-Integration in eine E-Commerce-Website**durchlaufen haben. Darüber hinaus haben wir die grundlegenden Schritte für eine erfolgreiche**CHATGPT -Integration**in diesem Handbuch behandelt. Wenn Sie also Ihre PHP-basierte E-Commerce-Website Chatgpt hinzufügen, können Sie das Kundenerlebnis erheblich verbessern, indem Sie personalisierte Produktempfehlungen abgeben. Darüber hinaus können Sie ChatGPT nutzen, um Produktvorschläge zu liefern, die auf die Anforderungen jedes Kunden zugeschnitten sind, indem Sie die in diesem Artikel beschriebenen Schritte befolgen. Schließlich können Sie die unten in den Abschnitt "Siehe auch" angegebenen Artikel überprüfen, wenn Sie sich fragen, wie Sie ChatGPT verwenden.
-Zuletzt bietet Containerize.com laufende Blog-Beiträge zu verschiedenen Open-Source-Produkten und -Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook] [11], [LinkedIn] [12] und [Twitter] [13], folgen.
+Zuletzt bietet Containerize.com laufende Blog-Beiträge zu verschiedenen Open-Source-Produkten und -Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook][11], [LinkedIn][12] und [Twitter][13], folgen.
 
 ## Stelle eine Frage
-Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [14] informieren.
+Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][14] informieren.
 
 ## FAQs
-* * Wie generiere ich API -Schlüssel für Chatgpt?**
+**Wie generiere ich API -Schlüssel für Chatgpt?**
 {{_LINE_40_}}
   Um API -Schlüssel für den ChatGPT von OpenAI zu generieren, müssen Sie sich in Ihrem OpenAI -Konto anmelden und dann die folgenden Schritte befolgen:
 {{_LINE_42_}}
@@ -79,11 +79,13 @@ Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [14] informie
 
 ## Siehe auch
 {{_LINE_67_}}
-  * [Eine Einführung in die künstliche Intelligenz | Was ist ai?] [15]
-  * [So integrieren Sie Chatgpt in Google Sheets] [3]
-  * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT] [1]
-  * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution] [2]
+  * [Eine Einführung in die künstliche Intelligenz | Was ist ai?][15]
+  * [So integrieren Sie Chatgpt in Google Sheets][3]
+  * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT][1]
+  * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution][2]
 {{_LINE_72_}}
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/

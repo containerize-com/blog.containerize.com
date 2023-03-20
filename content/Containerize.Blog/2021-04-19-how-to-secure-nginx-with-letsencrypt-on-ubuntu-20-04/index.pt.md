@@ -108,15 +108,17 @@ O trabalho de Cron também deve incluir o atributo –quiet, como no comando aci
 
 ## Conclusão {#conclusion}
 Neste artigo, aprendemos como instalar o NGINX LetSencrypt SSL. Baixamos certificados SSL para seu domínio e configuramos o NGINX para usar esses certificados. Além disso, você deve ter permitido ao CERTBOT renovar os certificados automaticamente para o SSL Nginx LetSencrypt. Em nossos próximos tutoriais, discutiremos sobre tópicos mais interessantes sobre como proteger um servidor da Web com a tecnologia de segurança padrão que permite a comunicação criptografada entre um navegador da Web e um servidor da Web.
-Você pode se juntar a nós no [Twitter] [1], [LinkedIn] [2] e nossa página [Facebook] [3]. Que protocolo criptográfico você usa para fornecer segurança de comunicações em uma rede de computadores?. Se você tiver alguma dúvida, por favor [entre em contato] [4].
+Você pode se juntar a nós no [Twitter][1], [LinkedIn][2] e nossa página [Facebook][3]. Que protocolo criptográfico você usa para fornecer segurança de comunicações em uma rede de computadores?. Se você tiver alguma dúvida, por favor [entre em contato][4].
 
 ## Explore
 Você pode encontrar os seguintes links relevantes para monitorar o desempenho do servidor e garantir sua confiabilidade e segurança:
-  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian] [5]
-  * [Como instalar e proteger o phpmyadmin com nginx no Ubuntu] [6]
-  * [Configure o suporte HTTP/2 no Nginx no Ubuntu/Debian] [7]
-  * [Configure o nginx com o passageiro no servidor de produção da AWS] [8]
-  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu] [9]
+  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian][5]
+  * [Como instalar e proteger o phpmyadmin com nginx no Ubuntu][6]
+  * [Configure o suporte HTTP/2 no Nginx no Ubuntu/Debian][7]
+  * [Configure o nginx com o passageiro no servidor de produção da AWS][8]
+  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

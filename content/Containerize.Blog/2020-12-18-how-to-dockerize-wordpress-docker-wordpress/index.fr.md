@@ -15,13 +15,13 @@ categories: ['Blogging']
 
 
 ## Aperçu
-Bienvenue dans un autre article de blog dans la catégorie [Blogging] [1] de logiciels open source. Nous avons publié quelques articles sur des sujets tels que [Boost Your Leads avec l'intégration gratuite CiviCRM WordPress] [2], [comment construire votre site Web avec WordPress et Gatsby] [3], et d'autres. Cependant, cet article apportera d'autres informations et détails sur les plates-formes de blogs open source et ** les logiciels de conteneurs **. Nous passerons par quelques questions chaudes telles que ce qui est Docker & ** comment installer Docker Compose ** et nous apprendrons à docker WordPress.
+Bienvenue dans un autre article de blog dans la catégorie [Blogging][1] de logiciels open source. Nous avons publié quelques articles sur des sujets tels que [Boost Your Leads avec l'intégration gratuite CiviCRM WordPress][2], [comment construire votre site Web avec WordPress et Gatsby][3], et d'autres. Cependant, cet article apportera d'autres informations et détails sur les plates-formes de blogs open source et ** les logiciels de conteneurs **. Nous passerons par quelques questions chaudes telles que ce qui est Docker & ** comment installer Docker Compose ** et nous apprendrons à docker WordPress.
 La conteneurisation est devenue une tendance majeure dans le développement de logiciels en tant qu'alternative à la virtualisation. Il s'agit d'encapsulation ou de regroupement du code logiciel et de toutes ses dépendances afin qu'il puisse fonctionner de manière cohérente sur n'importe quelle infrastructure. La conteneurisation permet aux développeurs de créer et de déployer des applications plus rapidement et plus solidement. Docker est l'application de contenerisation la plus populaire utilisée dans la communauté des développeurs. Dans ce tutoriel, nous apprendrons à docker WordPress à l'aide de Docker Compose. Alors, commençons par les points suivants.
-  * [** Qu'est-ce que Docker? **] [4]
-  * [** Pourquoi avez-vous besoin de docker WordPress **?] [5]
-  * ** [Comment installer Docker Compose] [6] **
-  * ** [dockrize wordpress] [7] **
-  * ** [Conclusion] [8] **
+  * [** Qu'est-ce que Docker? **][4]
+  * [** Pourquoi avez-vous besoin de docker WordPress **?][5]
+  * ** [Comment installer Docker Compose][6] **
+  * ** [dockrize wordpress][7] **
+  * ** [Conclusion][8] **
 
 ## Qu'est-ce que Docker? {#docker}
 En mots simples, Docker est open-source ** Logiciel de conteneur ** qui rend la virtualisation plus rapide et plus légère. Il est si léger qu'un conteneur Docker peut être lancé en quelques secondes. Et, vous pouvez facilement exécuter des dizaines de conteneurs Docker sur un seul PC. Les développeurs utilisent Docker pour créer, déployer et exécuter des applications en utilisant des conteneurs. Les conteneurs permettent à un développeur d'emballer une application avec toutes les pièces dont elle a besoin, telles que les bibliothèques et autres dépendances, et de le déployer comme un seul package. Ce faisant, le développeur peut être assuré que l'application s'exécutera sur n'importe quelle infrastructure. De plus, il existe un grand développeur et une communauté de soutien qui est toujours en vie pour fournir une aide plus grande dans toute pertinence. Docker est devenu un composant incontournable de toute entreprise de logiciels en raison de ses fonctionnalités et usages puissants.
@@ -35,7 +35,7 @@ Peu importe s'il s'agit d'une machine de développement, d'une scène ou d'un se
 
 ### Conditions préalables
 Vous pouvez utiliser Docker Compose pour exécuter facilement WordPress dans un environnement isolé construit avec des conteneurs Docker. Ce guide montre comment utiliser Compose pour configurer et exécuter WordPress.
-Docker Compose s'appuie sur Docker Engine, alors assurez-vous que Docker Engine est installé. Sur les systèmes de bureau comme Docker Desktop pour Mac et Windows, Docker Compose est inclus dans le cadre de ces installations de bureau. Cependant, sur Linux Systems d'abord, installez le moteur Docker en suivant leur [guide officiel] [9].
+Docker Compose s'appuie sur Docker Engine, alors assurez-vous que Docker Engine est installé. Sur les systèmes de bureau comme Docker Desktop pour Mac et Windows, Docker Compose est inclus dans le cadre de ces installations de bureau. Cependant, sur Linux Systems d'abord, installez le moteur Docker en suivant leur [guide officiel][9].
 
 ### Installer la composition sur Linux
 Exécutez cette commande pour télécharger la version stable actuelle de Docker Compose:
@@ -101,21 +101,23 @@ http://localhost:8000
 
 ## Conclusion {#conclusion}
 Cela nous amène à la fin de ce billet de blog. Dans cet article, nous avons appris ce qu'est Docker, ** comment installer Docker Compose **. Nous avons également appris à docker WordPress à l'aide de Docker-Compose. De plus, nous vous avons présenté le concept derrière Docker et comment vous pouvez définir des applications multi-container simples. Cependant, ce logiciel de conteneur open source ** est une option principale pour toutes les organisations de logiciels. Par conséquent, cet article vous aidera vraiment si vous cherchez à opter pour Docker pour vos applications. Il existe de nombreux autres articles pertinents et logiciels de blogs répertoriés dans la section «Explorer» ci-dessous.
-Enfin, [contenerize.com] [10] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec la catégorie [blogging] [1] pour les nouvelles et les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook] [11], [LinkedIn] [12] et [Twitter] [13].
+Enfin, [contenerize.com][10] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec la catégorie [blogging][1] pour les nouvelles et les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][11], [LinkedIn][12] et [Twitter][13].
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [WordPress] [14]
-  * [Jekyll] [15]
-  * [Discours] [16]
-  * [Fantôme] [17]
-  * [Comment docker WordPress avec Docker Compose] [18]
-  * [Boostez vos prospects avec l'intégration WordPress CiviCRM gratuite] [2]
-  * [Automatiser le système de billetterie à l'aide de WordPress et d'Osticket] [19]
-  * [Comment intégrer le forum du discours avec WordPress] [20]
-  * [Augmenter le trafic de recherche de site Web en suivant les 7 meilleurs blogs de référencement] [21]
-  * [Comment créer votre site Web avec WordPress et Gatsby] [3]
-  * [Comment activer la compression GZIP dans WordPress pour un meilleur PagSpeed ​​et SEO] [22]
+  * [WordPress][14]
+  * [Jekyll][15]
+  * [Discours][16]
+  * [Fantôme][17]
+  * [Comment docker WordPress avec Docker Compose][18]
+  * [Boostez vos prospects avec l'intégration WordPress CiviCRM gratuite][2]
+  * [Automatiser le système de billetterie à l'aide de WordPress et d'Osticket][19]
+  * [Comment intégrer le forum du discours avec WordPress][20]
+  * [Augmenter le trafic de recherche de site Web en suivant les 7 meilleurs blogs de référencement][21]
+  * [Comment créer votre site Web avec WordPress et Gatsby][3]
+  * [Comment activer la compression GZIP dans WordPress pour un meilleur PagSpeed ​​et SEO][22]
+
+  
 [1]: https://products.containerize.com/blogging/
 [2]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
 [3]: https://blog.containerize.com/blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/

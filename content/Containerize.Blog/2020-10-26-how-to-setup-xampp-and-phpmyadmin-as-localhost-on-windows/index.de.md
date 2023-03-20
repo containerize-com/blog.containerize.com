@@ -15,10 +15,10 @@ categories: ['Database Management Software', 'Web Server Solution Stack']
 
 XAMPP und PHPMYADMIN AS LOCALHOST bieten einen lokalen Server für Entwickler, um Web -Apps zu testen und zu erstellen. XAMPP ist ein lokaler Server, der auf PCs/Laptops installiert ist. Es bietet eine lokale Umgebung zum Erstellen, Ausführen und Testen von PHP -Anwendungen, bevor sie auf Live -Servern bereitgestellt werden.
 Wir werden die folgenden Abschnitte in diesem Blog -Beitrag behandeln:
-  * [Beschreibung] [1]
-  * [XAMPP -Installation] [2]
-  * [phpmyadmin Dashboard] [3]
-  * [Letzte Gedanken] [4]
+  * [Beschreibung][1]
+  * [XAMPP -Installation][2]
+  * [phpmyadmin Dashboard][3]
+  * [Letzte Gedanken][4]
 
 ## Beschreibung: {#Description}
 XAMPP ist kostenlos und Open Source Web Server Solution Stack. Es enthält Apache, MySQL, Mariadb, PHP und Perl. XAMPP ist für Windows -Betriebssysteme verfügbar. Es ist extrem einfach zu installieren und zu verwenden. Deshalb ist es die beliebteste PHP -Entwicklungsumgebung. XAMPP und PHPMYADMIN AS LOCALHOST bieten eine vollständige Umgebung für die Entwicklung und das Testen von Web -Apps.
@@ -30,7 +30,7 @@ Alphabete in xampp stehen für:
   *** p ** - Perl
 
 ## XAMPP -Installation {#xampp}
-  * Laden Sie XAMPP von [hier] [5] herunter.
+  * Laden Sie XAMPP von [hier][5] herunter.
 
 {{< figure align=center src="images/xampp1.png" alt="Xampp als Lokalhost">}}
 
@@ -79,8 +79,10 @@ Klicken Sie auf die Schaltfläche „Admin“ neben dem MySQL -Dienst, um auf Ph
 Die XAMPP -Installation ist einfach und direkt. Der Setup XAMPP -Server dauert nicht mehr als 15 Minuten. Sobald es installiert ist, können Entwickler ihre PHP -basierten Web -Apps auch ohne Internetverbindung erstellen und testen. Anstatt Projekte direkt auf einem Live-Webserver zu testen, ist es einfach und zeitsparend, sie lokal zu testen. Es ist eine großartige Plattform für Anfänger, um ihre Fertigkeiten von PHP-, Perl- und Datenbank zu testen, zu testen und zu polieren.
 
 ## Erkunden:
-[Open Source Web Server Solution Stack für PHP- und Perl -Entwickler] [6]
-[Beste Open Source Web Server Solution Stack Optionen] [7]
+[Open Source Web Server Solution Stack für PHP- und Perl -Entwickler][6]
+[Beste Open Source Web Server Solution Stack Optionen][7]
+
+  
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

@@ -13,11 +13,11 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Phplist'te Gelişmiş Giriş Yönetimi ve Buluş Kuralları Kurulum">}}
 
-[Önceki] [1] öğreticimizde, ** Phplist Bounce İşleme ** hitap etmiştik. Sıçrama işlemeye aşina değilseniz, okuyabilirsiniz. Buluş işlemini kullanarak Phplist projenize teslim edilmeyen e -postaları indirebilirsiniz. İndirilen e -postalarla nasıl başa çıkıyorsunuz? Hiçbir fikrim yok, ** Bounce e -postalarını ** çözmenizi sağlayan ileri sıçrama yönetimine bir göz atalım **. Dönen her e -posta mesajı MTA (posta aktarım aracısı) tarafından döndürülen hata kodu vardır. Ayrıca, döndürülen mesaj e -posta başlığını gözden geçirebilirsiniz ve hata kodu boyunca tüm bilgileri içerir.
-  * [Gelişmiş sıçrama kullanımı etkinleştir] [2]
-  * [Sıçrama kuralı ekle] [3]
-  * [Liste Sıçrama Kuralları] [4]
-  * [Sonuç] [5]
+[Önceki][1] öğreticimizde, ** Phplist Bounce İşleme ** hitap etmiştik. Sıçrama işlemeye aşina değilseniz, okuyabilirsiniz. Buluş işlemini kullanarak Phplist projenize teslim edilmeyen e -postaları indirebilirsiniz. İndirilen e -postalarla nasıl başa çıkıyorsunuz? Hiçbir fikrim yok, ** Bounce e -postalarını ** çözmenizi sağlayan ileri sıçrama yönetimine bir göz atalım **. Dönen her e -posta mesajı MTA (posta aktarım aracısı) tarafından döndürülen hata kodu vardır. Ayrıca, döndürülen mesaj e -posta başlığını gözden geçirebilirsiniz ve hata kodu boyunca tüm bilgileri içerir.
+  * [Gelişmiş sıçrama kullanımı etkinleştir][2]
+  * [Sıçrama kuralı ekle][3]
+  * [Liste Sıçrama Kuralları][4]
+  * [Sonuç][5]
 
 ## Gelişmiş sıçrama kullanımı etkinleştir {#enable}
 İlk olarak, Config.php dosyasındaki kodu kopyalayarak gelişmiş ** sıçrama taşımasını ** etkinleştirin.
@@ -64,14 +64,16 @@ Kural sayısını oluşturduktan sonra, ** sıçrama kuralları ** listeniz aşa
 
 ## Sonuç {#Conclusion}
 Bu öğreticide, gelişmiş ** sıçrama yönetimi ** öğrendik ve gerekli sıçrama kurallarını geliştirdik. Listelerinizden geçersiz e -posta adreslerini temizleme işlemini otomatikleştirebilmeniz için bu özelliğe izin vermek harika olurdu. Ayrıca, iade edilen e -postaların minimum seviyesini korumanıza da izin verir. Ayrıca, listelerinizde meşru aboneler olacak.
-Ayrıca, [Containerize.com] [6], birden fazla dil ve çerçevede açık kaynaklı ürün yığınını geliştirme yolunda. Düzenli güncellemeler için, daha ilginç makaleler için lütfen [bültenler] [7] kategorisinde bizi izlemeye devam edin.
+Ayrıca, [Containerize.com][6], birden fazla dil ve çerçevede açık kaynaklı ürün yığınını geliştirme yolunda. Düzenli güncellemeler için, daha ilginç makaleler için lütfen [bültenler][7] kategorisinde bizi izlemeye devam edin.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Phplist - Açık Kaynak Bülten ve E -posta Pazarlama Yazılımı] [8]
-  * [Phplist kullanarak bülten nasıl oluşturulur ve gönderilir] [9]
-  * [Phplist'te sıçrama nasıl kurulur ve işlenir] [1]
-  * [Phplist eklentisini geliştirmek için yeni başlayanlar rehberi] [10]
+  * [Phplist - Açık Kaynak Bülten ve E -posta Pazarlama Yazılımı][8]
+  * [Phplist kullanarak bülten nasıl oluşturulur ve gönderilir][9]
+  * [Phplist'te sıçrama nasıl kurulur ve işlenir][1]
+  * [Phplist eklentisini geliştirmek için yeni başlayanlar rehberi][10]
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
 [2]: #Enable
 [3]: #Add

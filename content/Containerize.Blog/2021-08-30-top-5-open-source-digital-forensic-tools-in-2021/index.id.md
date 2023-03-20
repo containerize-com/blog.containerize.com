@@ -27,7 +27,7 @@ Posting blog berikut menguraikan alat forensik digital open source teratas pada 
   * Pikiran terakhir
 
 ## 1. Toolkit Verifikasi Seluler (MVT) - Analisis Android dan iOS
-Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Seluler atau MVT] [1] untuk membantu Anda menemukan jejak forensik untuk memahami apakah Pegasus Spyware telah menargetkan ponsel iOS atau Andriod Anda.
+Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Seluler atau MVT][1] untuk membantu Anda menemukan jejak forensik untuk memahami apakah Pegasus Spyware telah menargetkan ponsel iOS atau Andriod Anda.
 **Fitur**:
   * Mendekripsi cadangan iOS yang dienkripsi.
   * Proses dan parse catatan dari sistem iOS.
@@ -41,7 +41,7 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
 **Tautan**:
 
 ## 2. Wireshark - Analisis Protokol Jaringan {#Ce62}
-[Wireshark] [2] adalah alat yang menganalisis paket jaringan. Ini dapat digunakan untuk pengujian dan pemecahan masalah jaringan. Alat ini membantu Anda memeriksa berbagai lalu lintas melalui sistem komputer Anda.
+[Wireshark][2] adalah alat yang menganalisis paket jaringan. Ini dapat digunakan untuk pengujian dan pemecahan masalah jaringan. Alat ini membantu Anda memeriksa berbagai lalu lintas melalui sistem komputer Anda.
 **Fitur**:
   * Ini memberikan analisis VoIP (Voice Over Internet Protocol) yang kaya.
   * Tangkap file yang dikompresi dengan GZIP dapat dengan mudah didekompresi.
@@ -50,10 +50,10 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
   * Dukungan dekripsi untuk berbagai protokol yang mencakup IPSEC (Keamanan Protokol Internet), SSL (Secure Sockets Layer), dan WEP (Wired Equivalent Privacy).
   * Anda dapat menerapkan analisis intuitif, aturan pewarnaan pada paket.
   * Memungkinkan Anda membaca atau menulis file dalam format apa pun.
-** Tautan **: [https://www.wireshark.org] [2]
+** Tautan **: [https://www.wireshark.org][2]
 
 ## 3. The Sleuth Kit dan Autopsi - Analisis Disk {#Ce62}
-[SLEUTH KIT & AUTOPSY] [3] adalah alat utilitas berbasis Windows yang membuat analisis forensik sistem komputer lebih mudah. Alat ini memungkinkan Anda untuk memeriksa hard drive dan smartphone Anda.
+[SLEUTH KIT & AUTOPSY][3] adalah alat utilitas berbasis Windows yang membuat analisis forensik sistem komputer lebih mudah. Alat ini memungkinkan Anda untuk memeriksa hard drive dan smartphone Anda.
 **Fitur**:
   * Anda dapat mengidentifikasi aktivitas menggunakan antarmuka grafis secara efektif.
   * Aplikasi ini memberikan analisis untuk email.
@@ -62,19 +62,19 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
   * Anda dapat menandai file dengan nama tag sewenang -wenang.
   * Kit Sleuth memungkinkan Anda untuk mengekstrak data dari log panggilan, SMS, kontak, dll.
   * Ini membantu Anda menandai file dan folder berdasarkan jalur dan nama.
-** Tautan **: [https://www.sleuthkit.org] [3]
+** Tautan **: [https://www.sleuthkit.org][3]
 
 ## 4. Kerangka kerja volatilitas - memori forensik {#ce62}
-[Kerangka Volatilitas] [4] adalah perangkat lunak untuk analisis memori dan forensik. Ini adalah salah satu alat pencitraan forensik terbaik yang membantu Anda menguji keadaan runtime suatu sistem menggunakan data yang ditemukan dalam RAM. Aplikasi ini memungkinkan Anda untuk berkolaborasi dengan rekan satu tim Anda.
+[Kerangka Volatilitas][4] adalah perangkat lunak untuk analisis memori dan forensik. Ini adalah salah satu alat pencitraan forensik terbaik yang membantu Anda menguji keadaan runtime suatu sistem menggunakan data yang ditemukan dalam RAM. Aplikasi ini memungkinkan Anda untuk berkolaborasi dengan rekan satu tim Anda.
 **Fitur**:
   * Ini memiliki API yang memungkinkan Anda untuk mencari bendera PTE (Entri Tabel Halaman) dengan cepat.
   * Kerangka kerja volatilitas mendukung KASLR (pengacakan ruang tata letak ruang kernel).
   * Alat ini menyediakan banyak plugin untuk memeriksa operasi file Mac.
   * Secara otomatis menjalankan perintah kegagalan ketika layanan gagal dimulai beberapa kali.
-** Tautan **: [https://www.volatilityfoundation.org] [4]
+** Tautan **: [https://www.volatilityfoundation.org][4]
 
 ## 5. Sans Investigative Forensik Toolkit (SIFT) - SIFT Workstation untuk Ubuntu {#B49B}
-[Sans sift] [5] adalah distribusi forensik komputer berdasarkan Ubuntu. Ini adalah salah satu alat forensik komputer terbaik yang menyediakan fasilitas pemeriksaan forensik dan respons insiden digital.
+[Sans sift][5] adalah distribusi forensik komputer berdasarkan Ubuntu. Ini adalah salah satu alat forensik komputer terbaik yang menyediakan fasilitas pemeriksaan forensik dan respons insiden digital.
 **Fitur**:
   * Ini dapat bekerja pada sistem operasi 64-bit.
   * Alat ini membantu pengguna untuk menggunakan memori dengan cara yang lebih baik.
@@ -89,12 +89,14 @@ Forensik digital dapat bermanfaat bagi perusahaan serta firma hukum untuk mengid
 
 ## Pikiran Final: {#4A1A}
 Kami telah membahas alat forensik digital open source paling populer yang mencakup banyak implementasi dengan waktu penyelesaian yang lebih cepat dibandingkan dengan metode tradisional. Alat forensik data sebagian besar didorong oleh teknologi dengan alternatif cepat untuk analisis manual. Ini adalah beberapa alat gratis terbaik yang dapat Anda gunakan untuk forensik. Kami harap Anda menikmati membaca daftar. Dalam artikel blog kami yang akan datang, kami akan membahas lebih banyak topik menarik tentang alat forensik digital open source.
-_Your dapat bergabung dengan kami di [Twitter] [7], [LinkedIn] [8] dan halaman [Facebook] [9] kami. Alat forensik digital open source apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi] [10].
+_Your dapat bergabung dengan kami di [Twitter][7], [LinkedIn][8] dan halaman [Facebook][9] kami. Alat forensik digital open source apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi][10].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa artikel lain yang mungkin Anda sukai.
-  * [Alat forensik digital open source top] [11]
-  * [Toolkit Verifikasi Seluler atau Alat MVT untuk NSO Group Pegasus Israel Spyware] [1]
+  * [Alat forensik digital open source top][11]
+  * [Toolkit Verifikasi Seluler atau Alat MVT untuk NSO Group Pegasus Israel Spyware][1]
+
+  
 [1]: https://products.containerize.com/digital-forensic-software/mvt/
 [2]: https://www.wireshark.org/
 [3]: https://www.sleuthkit.org/

@@ -16,11 +16,11 @@ categories: ['Content Management', 'Marketing Automation']
 
 ## Ringkasan:
 Pada titik waktu saat ini, sangat penting untuk memiliki strategi pemasaran yang kuat dan efektif. Lead Anda tetap bertunangan karena waktu yang Anda habiskan untuk analisis perilaku mereka yang mendalam. Untungnya, Open Source Community telah mengembangkan banyak platform otomatisasi pemasaran ** gratis ** Perangkat lunak yang sebagai hasilnya meningkatkan mobilitas dan penerapan alur kerja otomatisasi pemasaran. Solusi open source ini mengotomatiskan tugas berulang seperti mengirim email, pelacakan, dan kampanye. Perangkat lunak otomatisasi pemasaran membantu Anda menempatkan strategi pemasaran yang efektif sehingga pemangku kepentingan bisnis dapat fokus pada operasi penghasil pendapatan lainnya. Lebih lanjut, revolusi dalam kecerdasan buatan dan pembelajaran mesin memiliki dampak besar pada industri otomatisasi. Perusahaan cenderung mengumpulkan data dari berbagai sumber. Kemudian, mereka menganalisis data itu secara kritis dan meluncurkan beberapa proses minat mereka. Setelah semua otomatisasi sudah ada, manajer cenderung bekerja pada kegiatan keterlibatan pelanggan.
-Demikian juga, ada banyak alat open source ** CMS ** untuk mengelola platform web dalam ruang lingkup yang lebih luas. Sebagian besar bisnis menggunakan sistem manajemen konten untuk mengelola konten. Ada banyak plugin untuk solusi manajemen konten ini. Komunitas open source telah mengembangkan sejumlah ekstensi yang meningkatkan fungsionalitas solusi CMS open source ini. Adalah fakta yang terbukti bahwa bisnis membuat penampilan digital mereka menggunakan perangkat lunak manajemen konten gratis ini. Di atas segalanya, mudah bagi mereka yang memiliki sedikit pengetahuan tentang pembangunan situs web. Dalam tutorial Drupal ini, kita akan melalui dampak integrasi [Drupal] [2] [Mautic] [1] dengan menutupi poin -poin berikut:
-  * [Pro integrasi ini untuk bisnis?] [3]
-  * [Bagaimana cara mengatur struktur direktori?] [4]
-  * [Bagaimana cara mengaktifkan dan mengaktifkan mautik di drupal?] [5]
-  * [Kesimpulan] [6]
+Demikian juga, ada banyak alat open source ** CMS ** untuk mengelola platform web dalam ruang lingkup yang lebih luas. Sebagian besar bisnis menggunakan sistem manajemen konten untuk mengelola konten. Ada banyak plugin untuk solusi manajemen konten ini. Komunitas open source telah mengembangkan sejumlah ekstensi yang meningkatkan fungsionalitas solusi CMS open source ini. Adalah fakta yang terbukti bahwa bisnis membuat penampilan digital mereka menggunakan perangkat lunak manajemen konten gratis ini. Di atas segalanya, mudah bagi mereka yang memiliki sedikit pengetahuan tentang pembangunan situs web. Dalam tutorial Drupal ini, kita akan melalui dampak integrasi [Drupal][2][Mautic][1] dengan menutupi poin -poin berikut:
+  * [Pro integrasi ini untuk bisnis?][3]
+  * [Bagaimana cara mengatur struktur direktori?][4]
+  * [Bagaimana cara mengaktifkan dan mengaktifkan mautik di drupal?][5]
+  * [Kesimpulan][6]
 
 ## pro dari integrasi ini untuk bisnis? {#berguna}
 MAUTIC adalah perangkat lunak otomatisasi pemasaran email yang gratis, kaya, dan berorientasi kualitas **. Alat otomatisasi ini menawarkan kontrol penuh atas email pemasaran dan halaman arahan. Integrasi CMS dengan MAUTIC adalah kombinasi yang kuat, andal, dan ramah bisnis. Selain itu, perangkat lunak pemasaran open source ini menyediakan integrasi dengan hampir semua platform media sosial populer seperti Facebook, Twitter, dan LinkedIn. Mudah diatur dan dilengkapi dengan kemampuan tuan rumah sendiri. Alat gratis ini memiliki banyak fitur seperti pembangunan kampanye, segmentasi kontak, pembangun email, pelacakan aktivitas pengguna, retensi pelanggan, dan banyak lagi. Namun, Drupal adalah sistem manajemen konten yang kuat yang menawarkan pemasangan beberapa plugin yang mudah. Ini memungkinkan pengguna membangun situs web yang sederhana hingga kompleks dengan semua fitur yang diperlukan. Selanjutnya, ada keamanan bawaan untuk mencegah sistem dari peretas dan penyerang. Ini hemat biaya dan menghilangkan kebutuhan mempekerjakan pengembang web senior untuk bisnis.
@@ -52,20 +52,22 @@ Terakhir, untuk mengaktifkan Mautic JavaScript, menempatkan URL ke dalam bidang 
 
 ## Kesimpulan {#Final}
 Dengan pendekatan modern dari alur kerja otomatisasi pemasaran **, integrasi mautik Drupal memberikan pengalaman pelanggan yang mulus terhadap sifat digital suatu organisasi. Ini adalah pilihan yang sempurna dalam hal mengonversi arahan segar menjadi prospek pemasaran yang ahli. Kombinasi ini bisa menjadi faktor yang menguntungkan dan hemat waktu untuk bisnis Anda. Mautic cukup dapat diperluas sehingga pengembang dapat menambahkan kode khusus untuk mencapai fungsionalitas yang diinginkan. Data adalah aset paling berharga dari organisasi mana pun. Oleh karena itu, MAUTIC dapat mengekstrak set data untuk memberikan wawasan terperinci di mana manajemen puncak dapat melakukan analitik. Ini memungkinkan Anda untuk melacak kontak situs web dan itu dapat dilakukan dengan cukup mudah dengan menempatkan kode javascript mautik. Selain itu, Anda dapat menemukan banyak templat email yang dipersonalisasi bersama dengan banyak ketentuan lain untuk meningkatkan tingkat konversi.
-Tutorial Drupal ini akan sangat membantu jika Anda ingin menginstal perangkat lunak otomasi pemasaran email pada sistem manajemen konten Anda. Namun, [containerize.com] [8] berkembang untuk meningkatkan integrasi ** CMS ** ember tutorial yang mencakup banyak alat CMS sumber terbuka lainnya dan plugin yang ramah bisnis. Tetap terhubung dengan manajemen konten dan kategori otomatisasi pemasaran untuk pembaruan terbaru.
+Tutorial Drupal ini akan sangat membantu jika Anda ingin menginstal perangkat lunak otomasi pemasaran email pada sistem manajemen konten Anda. Namun, [containerize.com][8] berkembang untuk meningkatkan integrasi ** CMS ** ember tutorial yang mencakup banyak alat CMS sumber terbuka lainnya dan plugin yang ramah bisnis. Tetap terhubung dengan manajemen konten dan kategori otomatisasi pemasaran untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Drupal] [9]
-  * [Mautic] [10]
-  * [Otomasi Pemasaran dengan Integrasi Mautik dan WooCommerce] [11]
-  * [Cara Menyiapkan Kampanye Mautik Menggunakan Pembuat Kampanye] [12]
-  * [Cara Mengatur Mautik - Integrasi Facebook] [13]
-  * [Top 5 Top Templat Bootstrap Joomla Responsif Gratis dari 2020] [14]
-  * [Panduan Pengembangan Template Joomla untuk Pemula] [15]
-  * [Cara Membuat Tema Joomla dengan Kerangka Gantry] [16]
-  * [Top 5 Open Source CMS Software untuk 2020] [17]
-  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis] [18]
+  * [Drupal][9]
+  * [Mautic][10]
+  * [Otomasi Pemasaran dengan Integrasi Mautik dan WooCommerce][11]
+  * [Cara Menyiapkan Kampanye Mautik Menggunakan Pembuat Kampanye][12]
+  * [Cara Mengatur Mautik - Integrasi Facebook][13]
+  * [Top 5 Top Templat Bootstrap Joomla Responsif Gratis dari 2020][14]
+  * [Panduan Pengembangan Template Joomla untuk Pemula][15]
+  * [Cara Membuat Tema Joomla dengan Kerangka Gantry][16]
+  * [Top 5 Open Source CMS Software untuk 2020][17]
+  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis][18]
+
+  
 [1]: https://products.containerize.com/marketing-automation/mautic
 [2]: https://products.containerize.com/content-management/drupal
 [3]: #useful

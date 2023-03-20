@@ -17,11 +17,11 @@ categories: ['Blogging']
 ## 概述
 由于Google和其他搜索引擎正在考虑网站的用户体验（UX）是其排名算法的关键因素。改进和优化您的网站以获得最高评分变得越来越重要。要注意的最重要的因素之一是页面速度和加载时间。而且，提高站点速度和性能的最快，最简单的方法是在您的网站上启用GZIP压缩。您的Web主机有可能自动为您启用GZIP压缩。如果没有，您必须自己执行这项关键任务。
 在本文中，我们将向您展示如何轻松启用WordPress中的GZIP压缩。让我们开始吧！
-  *[**什么是GZIP压缩**？] [1]
-  *[** GZIP压缩如何工作？**] [2]
-  *** [如何验证是否启用GZIP压缩？] [3] **
-  *** [启用WordPress中的GZIP压缩] [4] **
-  *** [结论] [5] **
+  *[**什么是GZIP压缩**？][1]
+  *[** GZIP压缩如何工作？**][2]
+  *** [如何验证是否启用GZIP压缩？][3] **
+  *** [启用WordPress中的GZIP压缩][4] **
+  *** [结论][5] **
 
 ## 什么是GZIP压缩？ {#什么}
 GZIP是**文件格式，并且用于文件压缩和减压的软件应用程序**。 Web服务器或其他软件使用GZIP压缩将数据文件发送到用户浏览器之前。这减少了文件下载时间，这使您的网站更快。所有现代浏览器都支持GZIP压缩。
@@ -41,7 +41,7 @@ GZIP是最流行的压缩方法，由Web服务器和浏览器使用，以通过I
 在那里，您会看到是否启用了GZIP压缩。
 
 ## 在WordPress中启用GZIP压缩{#enable}
-如果您确定** WordPress GZIP压缩尚未启用**，则可以使用多种方法来运行它。最简单的方法是使用一些WordPress插件，例如[WP Rocket] [6]，[WP Super Cache] [7]或[W3 Total Cache] [8]。但是，您可以通过.htaccess文件或更新Nginx配置在服务器级别手动执行此操作。
+如果您确定** WordPress GZIP压缩尚未启用**，则可以使用多种方法来运行它。最简单的方法是使用一些WordPress插件，例如[WP Rocket][6]，[WP Super Cache][7]或[W3 Total Cache][8]。但是，您可以通过.htaccess文件或更新Nginx配置在服务器级别手动执行此操作。
 
 ### 通过编辑.htaccess文件
 启用WordPress GZIP压缩的最常见方法之一是**编辑您的_.htaccess_文件**。但是，这涉及破坏某事的风险。这是一个敏感的服务器文件，一个错误的举动可能会导致很多问题。
@@ -90,18 +90,20 @@ gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon applic
 
 ## 结论{#conclusion}
 这是该GZIP WordPress教程的终点。有很多方法可以优化您的网站以换取速度和性能。在此GZIP WordPress教程中，我们仔细研究了GZIP压缩，GZIP压缩的重要性及其安装步骤。此外，下面的“探索”部分中提到了许多相关链接。
-最后，[Containerize.com] [9]正在撰写有关进一步开源产品的文章。因此，请与[Blogging] [10]类别保持联系以进行常规新闻和更新。
+最后，[Containerize.com][9]正在撰写有关进一步开源产品的文章。因此，请与[Blogging][10]类别保持联系以进行常规新闻和更新。
 
 ## 探索
-  * [MATOMO] [11]
-  * [合理] [12]
-  * [WordPress] [13]
-  * [Jekyll] [14]
-  * [如何用docker构成WordPress] [15]
-  * [免费业务分析工具如何为您的业务提供帮助] [16]
-  * [前5名开源商业智能工具2021] [17]
-  * [如何在WordPress中安装插件|香草论坛] [18]
-  * [通过免费的civicrm wordpress集成增强潜在客户] [19]
+  * [MATOMO][11]
+  * [合理][12]
+  * [WordPress][13]
+  * [Jekyll][14]
+  * [如何用docker构成WordPress][15]
+  * [免费业务分析工具如何为您的业务提供帮助][16]
+  * [前5名开源商业智能工具2021][17]
+  * [如何在WordPress中安装插件|香草论坛][18]
+  * [通过免费的civicrm wordpress集成增强潜在客户][19]
+
+  
 [1]: #what
 [2]: #work
 [3]: #verify

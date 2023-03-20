@@ -17,9 +17,9 @@ categories: ['Password Management']
 ## Übersicht {#Overview}
 Das Erinnern an alle verschiedenen Passwortkombinationen für verschiedene Websites und Anwendungen ist keine leichte Aufgabe. Wenn Sie sie auf ein Stück Papier aufschreiben, kann dies eine einfache Lösung erscheint. Diese Methode hat nicht viel Sicherheit, da Sie sie leicht verlieren können oder sie in die Hände der falschen Person fallen kann. ** Keepass Password Manager ** Für Windows ist eine der Lösung für diese Probleme.
 Kennwortmanager hingegen erleichtern es den Benutzern, alle Passwörter an einem Ort zu speichern und auf sie zuzugreifen, wann immer sie benötigt werden. Keepass ist ** einer der besten Open Source -Kennwort -Manager ** da draußen, die nicht nur kostenlos heruntergeladen, sondern auch tragbar ist, und Sie können die Passwortdatei auf einem USB speichern oder in Ihr Dropbox, Google oder andere hochladen Cloud -Speicheroption. Mit End -to -End -Verschlüsselung kann nur der Eigentümer der Kennwörter mit dem Master -Schlüssel auf die Passwortdatei zugreifen, die die Sicherheit garantiert. Als Open -Source -Passwort -Manager können Benutzer mit technischem Wissen den Quellcode selbst inspizieren, um sicherzustellen, dass keine Sicherheitsfunktionen fehlen.
-  * [Setup Heepass unter Windows] [1]
-  * [Passwörter mit Keepass verwalten] [2]
-  * [Schlussfolgerung] [3]
+  * [Setup Heepass unter Windows][1]
+  * [Passwörter mit Keepass verwalten][2]
+  * [Schlussfolgerung][3]
 
 ## Setup Keepass unter Windows {#Setup}
 ** Download & installieren **
@@ -63,21 +63,23 @@ Um sich mit den in der Datenbank gespeicherten Passwörtern anzumelden:
 
 ** Weitere Optionen für Passwort -Manager zu berücksichtigen: **
 Es gibt Dutzende anderer Open -Source -Passwort -Manager auf dem Markt. Sie können Ihre Konten -Anmeldeinformationen sicher aufbewahren, indem Sie einen sicheren, beliebten, selbstgeführten und Open -Source -Passwort -Manager verwenden, um eindeutige und komplexe Passwörter zu speichern. Nachfolgend sind einige Top -Kennwortmanager aufgeführt:
-  *[** padloc **] [4] ist als einfacher, sicherer minimalistischer Kennwortmanager und Datenmanagement für Familien und Teams konzipiert.
-  *[** PASSBOLT **] [5] ist ein selbst gehosteter Zugriff auf Passwort-Manager, der für die Anforderungen von agilen und devOps-Teams entwickelt wurde.
-  *[** Passwort sicher **] [6] ist ein Open-Source-Kennwort-Manager-Programm mit sicherem, einfachem und leicht verständlichem Schnittstellen.
-  *[** Bitwardern **] [7] ist eine sichere, kostenlose Lösung für integrierte Kennwortverwaltung und integrierte Open -Source -Lösung.
-  *[** psono **] [8] ist ein selbst gehosteter Anmeldeinformationen und Passwortmanager für Teams. Es bietet eine mehrschichtige Verschlüsselung für maximale Sicherheit.
+  *[** padloc **][4] ist als einfacher, sicherer minimalistischer Kennwortmanager und Datenmanagement für Familien und Teams konzipiert.
+  *[** PASSBOLT **][5] ist ein selbst gehosteter Zugriff auf Passwort-Manager, der für die Anforderungen von agilen und devOps-Teams entwickelt wurde.
+  *[** Passwort sicher **][6] ist ein Open-Source-Kennwort-Manager-Programm mit sicherem, einfachem und leicht verständlichem Schnittstellen.
+  *[** Bitwardern **][7] ist eine sichere, kostenlose Lösung für integrierte Kennwortverwaltung und integrierte Open -Source -Lösung.
+  *[** psono **][8] ist ein selbst gehosteter Anmeldeinformationen und Passwortmanager für Teams. Es bietet eine mehrschichtige Verschlüsselung für maximale Sicherheit.
 
 ## Schlussfolgerung {#Conclusion}
 Keepass ist eine einfache, sichere und tragbare Art, Ihre Passwörter zu verwalten. Sie können Ihre Passwörter anpassen, sichere Kombinationen generieren und mehrere Kennworteinträge für verschiedene Websites mit dem Benutzernamen speichern. Die Verwendung von Best Kennwort Manager Keepass ist auch sicher, da ein End-to-End-Verschlüsselungsmechanismus verwendet wird und sich auf die SH-256-Hash-Funktion für maximale Sicherheit stützt.
-Darüber hinaus ist [** containerize.com **] [9] auf dem Weg, den Stapel von Open -Source -Produkten in mehreren Sprachen und Frameworks zu verbessern. Für regelmäßige Updates finden Sie bitte auf ** [Kennwortverwaltung] [10] ** Kategorie für interessantere Artikel.
+Darüber hinaus ist [** containerize.com **][9] auf dem Weg, den Stapel von Open -Source -Produkten in mehreren Sprachen und Frameworks zu verbessern. Für regelmäßige Updates finden Sie bitte auf ** [Kennwortverwaltung][10] ** Kategorie für interessantere Artikel.
 
 ## Erkunden
 In diesem Artikel haben wir besprochen, wie Sie Keepass Passwort Manager für Windows einrichten und verwalten. Sie können die folgenden Links relevant finden:
-  *** [Top 5 Open Source -Passwort -Manager im Jahr 2021] [11] **
-  *** [Beste Open Source -Kennwort -Verwaltungssoftware] [12] **
-  *** [Keepass | Sicher, tragbare und Open -Source -Passwort -Manager] [13] **
+  *** [Top 5 Open Source -Passwort -Manager im Jahr 2021][11] **
+  *** [Beste Open Source -Kennwort -Verwaltungssoftware][12] **
+  *** [Keepass | Sicher, tragbare und Open -Source -Passwort -Manager][13] **
+
+  
 [1]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#setup
 [2]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#manage
 [3]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#conclusion

@@ -14,12 +14,12 @@ categories: ['Software Development']
 
 ## Artikel ini akan menjelaskan kepada Anda cara membangun aplikasi NodeJs dengan Containerisasi Docker. Docker memungkinkan untuk mengemas dan menjalankan aplikasi sebagai wadah.
 Hari ini kami memulai serangkaian tutorial tentang alat pengembangan perangkat lunak. Dan artikel pertama ini mencakup cara memuat aplikasi node.js menggunakan Docker. Docker membantu pengembang untuk mengemas dan menjalankan aplikasi sebagai wadah. Karena wadah adalah proses yang terisolasi dan alternatif ringan untuk mesin virtual. Artikel ini menjelaskan cara membangun aplikasi NodeJS dengan containerisasi Docker. Mari kita mulai!
-  *[** Apa itu Docker **] [1]
-  *** [prasyarat] [2] **
-  *[** Pengaturan Node.js Aplikasi **] [3]
-  *[** Tulis DockerFile **] [4]
-  *[** Bangun gambar dan jalankan wadah Docker **] [5]
-  *[** Kesimpulan **] [6]
+  *[** Apa itu Docker **][1]
+  *** [prasyarat][2] **
+  *[** Pengaturan Node.js Aplikasi **][3]
+  *[** Tulis DockerFile **][4]
+  *[** Bangun gambar dan jalankan wadah Docker **][5]
+  *[** Kesimpulan **][6]
 
 ## Apa itu Docker {#Docker}
 Docker adalah satu set platform sebagai produk layanan yang menggunakan virtualisasi level OS untuk mengirimkan perangkat lunak dalam paket yang disebut wadah. Ini adalah platform terbuka untuk mengembangkan, pengiriman, dan menjalankan aplikasi. Docker memungkinkan Anda untuk memisahkan aplikasi Anda dari infrastruktur Anda sehingga Anda dapat mengirimkan perangkat lunak dengan cepat.
@@ -130,8 +130,10 @@ Ini akan memulai wadah yang dapat Anda verifikasi dengan menjalankan perintah Do
 Pengembangan dengan wadah Docker sangat sederhana dan mudah. Docker membantu pengembang untuk mengemas dan menjalankan aplikasi sebagai wadah. Dalam tutorial ini kami belajar cara membangun aplikasi Node.js menggunakan Docker Container di Ubuntu. Dalam artikel mendatang, kami akan menulis tentang lebih banyak penggunaan Docker dan juga kami akan membahas alat -alat lain.
 
 ## Mengeksplorasi
-  * [Cara menginstal beberapa versi PHP dengan Nginx di Ubuntu] [7]
-  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik] [8]
+  * [Cara menginstal beberapa versi PHP dengan Nginx di Ubuntu][7]
+  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][8]
+
+  
 [1]: #docker
 [2]: #prereq
 [3]: #setup

@@ -15,10 +15,10 @@ categories: ['Programming']
 
 
 ## Descripción general
-Estamos aquí con otra emocionante publicación de blog en la serie de múltiples tenientes. En nuestro [artículo] anterior [1], tocamos el concepto básico detrás de las aplicaciones multiinquiliras, los pros y los contras, y los tipos de arquitectura multiintenente. Dado que es hora de servir a múltiples usuarios/inquilinos, administrar y utilizar recursos de manera eficiente. Por lo tanto, la teniente múltiple es el enfoque principal para construir una infraestructura que maneja a varios clientes/inquilinos simultáneamente. Sin embargo, nuestra [publicación de blog] más reciente [2] demostró arquitectura sin servidor, contenedorización y [Kubernetes] [3]. Por lo tanto, en este artículo, exploraremos la arquitectura múltiple y contenedor basada en contenedores. Además, veremos cómo puede lograr la tenencia múltiple en sus aplicaciones [contenedores] [4].
+Estamos aquí con otra emocionante publicación de blog en la serie de múltiples tenientes. En nuestro [artículo] anterior [1], tocamos el concepto básico detrás de las aplicaciones multiinquiliras, los pros y los contras, y los tipos de arquitectura multiintenente. Dado que es hora de servir a múltiples usuarios/inquilinos, administrar y utilizar recursos de manera eficiente. Por lo tanto, la teniente múltiple es el enfoque principal para construir una infraestructura que maneja a varios clientes/inquilinos simultáneamente. Sin embargo, nuestra [publicación de blog] más reciente [2] demostró arquitectura sin servidor, contenedorización y [Kubernetes][3]. Por lo tanto, en este artículo, exploraremos la arquitectura múltiple y contenedor basada en contenedores. Además, veremos cómo puede lograr la tenencia múltiple en sus aplicaciones [contenedores][4].
 Los siguientes puntos se cubrirán en este artículo:
-***[hosts de contenedores multi-inquilinos] [5]**
-***[Kubernetes multi-tenancia] [6]**
+***[hosts de contenedores multi-inquilinos][5]**
+***[Kubernetes multi-tenancia][6]**
 
 ## Hosts de contenedores múltiples {#Hosts-Container-Container}}
 La implementación de aplicaciones de múltiples inquilinos es una tarea crítica cuando se trata de alojamiento de plataformas. Todos saben que los contenedores son livianos en comparación con las máquinas virtuales. La implementación de la aplicación toma solo unos pocos milisegundos para completar la implementación, mientras que podría ser cuestión de segundos o minutos en el caso de las máquinas virtuales.
@@ -41,25 +41,27 @@ Justo hablando, Kubernetes múltiples tenían una solución rentable a la organi
 Esto nos lleva al final de esta publicación de blog. Hemos pasado por**Kubernetes múltiples tenientes y arquitectura basada en contenedores**para lograr la tenencia múltiple. Además, hay muchas bibliotecas de terceros disponibles para cerrar las aplicaciones de múltiples inquilinos con Kubernetes. Esta publicación de blog lo ayudará a comprender el concepto de**Hosts de contenedores de múltiples inquilinos**. Hay otras publicaciones de blog interesantes que puede encontrar en la sección "Ver también".
 
 ## Conéctate con nosotros
-Por último, [Contenerize.com] [7] ofrece publicaciones de blog en curso sobre varios productos y temas de código abierto. Puede permanecer en el bucle siguiéndonos en nuestras plataformas de redes sociales, incluidas [Facebook] [8], [LinkedIn] [9] y [Twitter] [10].
+Por último, [Contenerize.com][7] ofrece publicaciones de blog en curso sobre varios productos y temas de código abierto. Puede permanecer en el bucle siguiéndonos en nuestras plataformas de redes sociales, incluidas [Facebook][8], [LinkedIn][9] y [Twitter][10].
 
 ## Hacer una pregunta
-Puede informarnos sobre sus preguntas o consultas en nuestro [Foro] [11].
+Puede informarnos sobre sus preguntas o consultas en nuestro [Foro][11].
 
 ## Preguntas frecuentes
-* * ¿Qué es la tenencia múltiple en Kubernetes?**?
-Siga este [enlace] [6] para conocer la múltiplo tenencia de Kubernetes.
-* * ¿Qué es un clúster de inquilino múltiple VS?**
+**¿Qué es la tenencia múltiple en Kubernetes?**?
+Siga este [enlace][6] para conocer la múltiplo tenencia de Kubernetes.
+**¿Qué es un clúster de inquilino múltiple VS?**
 En un clúster de múltiples inquilinos, todos los inquilinos/clientes comparten el clúster de Kubernetes, mientras que, en un clúster de inquilino único, hay un clúster separado que se ejecuta para cada inquilino.
 
 ## Ver también
-  * [¿Qué es la computación sin servidor? | Arquitectura sin servidor] [12]
-  * [¿Qué es la multitenancia? | ¿Por qué un enfoque de múltiples inquilinos?] [13]
-  * [¿Qué es generativo AI? Inteligencia artificial generativa] [14]
-  * [Cómo integrar chatgpt con hojas de Google] [15]
-  * [Cómo usar chatgpt en vscode | El código de extensión VScode GPT] [16]
-  * [¿Qué es OpenAi Chatbot GPT-3 | Chatgpt una revolución ai] [17]
-  * [Una introducción a la inteligencia artificial | ¿Qué es AI?] [18]
+  * [¿Qué es la computación sin servidor? | Arquitectura sin servidor][12]
+  * [¿Qué es la multitenancia? | ¿Por qué un enfoque de múltiples inquilinos?][13]
+  * [¿Qué es generativo AI? Inteligencia artificial generativa][14]
+  * [Cómo integrar chatgpt con hojas de Google][15]
+  * [Cómo usar chatgpt en vscode | El código de extensión VScode GPT][16]
+  * [¿Qué es OpenAi Chatbot GPT-3 | Chatgpt una revolución ai][17]
+  * [Una introducción a la inteligencia artificial | ¿Qué es AI?][18]
+
+  
 [1]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
 [2]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/#Serverless-vs-Containers
 [3]: https://products.containerize.com/devops/kubernetes/

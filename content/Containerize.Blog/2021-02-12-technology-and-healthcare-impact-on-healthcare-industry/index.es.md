@@ -15,15 +15,15 @@ categories: ['Healthcare Software']
 
 
 ## Descripción general
-En el pasado, publicamos algunas publicaciones de blog sobre temas como [Software de registro de salud del paciente de código abierto de los 5 principales de código abierto] [1], [Cómo instalar EHealth System HospitalRun en Localhost] [2], [Características de exploración de la solución de salud médica Openemr] [3], y algunos más. En los últimos años, la tecnología ha cambiado los flujos de trabajo en casi todos los campos de la vida, incluida la industria médica. Hay muchos campos que surgen hace solo unos años que incluyen inteligencia artificial, computación en la nube, Internet de las cosas y el sector financiero. El sector de la tecnología de salud es uno de estos campos desarrollados que se ha digitalizado completamente con el advenimiento del software de salud de código abierto. Sin embargo, existe una fuerte relación entre la tecnología y la atención médica.
+En el pasado, publicamos algunas publicaciones de blog sobre temas como [Software de registro de salud del paciente de código abierto de los 5 principales de código abierto][1], [Cómo instalar EHealth System HospitalRun en Localhost][2], [Características de exploración de la solución de salud médica Openemr][3], y algunos más. En los últimos años, la tecnología ha cambiado los flujos de trabajo en casi todos los campos de la vida, incluida la industria médica. Hay muchos campos que surgen hace solo unos años que incluyen inteligencia artificial, computación en la nube, Internet de las cosas y el sector financiero. El sector de la tecnología de salud es uno de estos campos desarrollados que se ha digitalizado completamente con el advenimiento del software de salud de código abierto. Sin embargo, existe una fuerte relación entre la tecnología y la atención médica.
 Los departamentos de atención médica son aún más productivos y eficientes que antes debido al reemplazo de la mano de obra con los sistemas de información de atención médica. Hay una serie de ** software de salud en línea ** que ha dado a luz nuevas oportunidades y posibilidades en el sector relevante. En esta publicación de blog, exploraremos el impacto de la tecnología y la atención médica cubriendo los siguientes puntos.
-  *** [¿Qué es la tecnología de salud?] [4] **
-  *** [¿Cuál es el impacto de las tecnologías de atención médica?] [5] **
-  *** [Tipos de software de atención médica primaria] [6] **
-  *** [Conclusión] [7] **
+  *** [¿Qué es la tecnología de salud?][4] **
+  *** [¿Cuál es el impacto de las tecnologías de atención médica?][5] **
+  *** [Tipos de software de atención médica primaria][6] **
+  *** [Conclusión][7] **
 
 ## ¿Qué es la tecnología de salud? {#salud}
-[Tecnologías de atención médica] [8] Centrarse en lograr una mejora en todos los sectores de los sistemas de TI ** de atención médica **. Existen muchas herramientas y software gratuito para aumentar la productividad en el diagnóstico de cualquier enfermedad, tratamiento y medicina. Ha habido una innovación consistente que brinda las últimas ideas sobre la tecnología de salud. Estas aplicaciones de código abierto abordan las necesidades de los pacientes y el manejo del hospital. Mientras que los laboratorios de terceros pueden integrarse en los procesos de trabajo. La atención médica ahora es más accesible que nunca debido al desarrollo reciente. Además, Mobile Health ha facilitado este sector al traer muchas aplicaciones de salud para los usuarios de teléfonos inteligentes. De hecho, estas aplicaciones se ejecutan en teléfonos inteligentes, tabletas y relojes que informan a los usuarios sobre sus calorías, ejercen información, frecuencia enrollada, etc. Además, los pacientes pueden recibir alertas de salud e informes médicos sobre sus dispositivos. Además, el software que se ejecuta en los dispositivos permite a los usuarios ayudar a formular un ciclo saludable de vida del sueño.
+[Tecnologías de atención médica][8] Centrarse en lograr una mejora en todos los sectores de los sistemas de TI ** de atención médica **. Existen muchas herramientas y software gratuito para aumentar la productividad en el diagnóstico de cualquier enfermedad, tratamiento y medicina. Ha habido una innovación consistente que brinda las últimas ideas sobre la tecnología de salud. Estas aplicaciones de código abierto abordan las necesidades de los pacientes y el manejo del hospital. Mientras que los laboratorios de terceros pueden integrarse en los procesos de trabajo. La atención médica ahora es más accesible que nunca debido al desarrollo reciente. Además, Mobile Health ha facilitado este sector al traer muchas aplicaciones de salud para los usuarios de teléfonos inteligentes. De hecho, estas aplicaciones se ejecutan en teléfonos inteligentes, tabletas y relojes que informan a los usuarios sobre sus calorías, ejercen información, frecuencia enrollada, etc. Además, los pacientes pueden recibir alertas de salud e informes médicos sobre sus dispositivos. Además, el software que se ejecuta en los dispositivos permite a los usuarios ayudar a formular un ciclo saludable de vida del sueño.
 
 ## ¿Cuál es el impacto de las tecnologías de atención médica? {#impacto}
 En esta sección de la Guía de tecnología y atención médica, pasaremos por el resultado del uso de sistemas de información de salud de código abierto. El mundo médico ha sido revolucionado en gran medida debido al desarrollo masivo en la atención primaria de salud. Además, ha traído a todos los interesados ​​en una sola plataforma compartida e integrada donde el registro de cada entidad está centralizado. Estas son las siguientes cosas a considerar cuando hablamos sobre el impacto:
@@ -43,21 +43,23 @@ En esta sección del artículo de tecnología y atención médica, revisaremos a
 
 ## conclusión {#conclusion}
 Esto llega al final de esta publicación de blog. Este artículo describe la importancia de la tecnología en el campo de la medicina y hemos pasado por lo que es la tecnología de salud. Hay más desarrollos e innovaciones en el camino para enriquecer los sistemas de TI de salud. Esta publicación de blog ha cubierto muchos aspectos de la tecnología y la atención médica. Además, existen un software de salud de código abierto que brindan asistencia remota a los médicos, donde pueden realizar un chequeo médico de aquellos pacientes que no pueden visitar las clínicas físicamente. Además, las herramientas remotas pueden reducir el costo de viaje junto con muchos otros gastos. Esta publicación de blog realmente puede ayudarlo si está buscando instalar un sistema de información de salud de código abierto para su negocio. Puede encontrar una lista de software de salud de código abierto mencionado en la sección "Explorar" a continuación.
-Finalmente, **** [Contenerize.com] [9] **** publicará artículos sobre software de salud en línea de código abierto. Por lo tanto, manténgase en contacto con esta categoría [tecnologías de atención médica] [8] para actualizaciones regulares.
+Finalmente, **** [Contenerize.com][9] **** publicará artículos sobre software de salud en línea de código abierto. Por lo tanto, manténgase en contacto con esta categoría [tecnologías de atención médica][8] para actualizaciones regulares.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [OpenEmr] [10]
-  * [OpenMRS] [11]
-  * [Hospitalrun] [12]
-  * [Hospital abierto] [13]
-  * [Solismado] [14]
-  * [Cosas para revisar antes de optar el software de código abierto en 2021] [15]
-  * [Cuenta con exploración del gerente de registro médico Hospitalrun] [16]
-  * [Software de registro de salud del paciente de código abierto de los 5 principales] [1]
-  * [Cuenta con exploración de la solución de salud médica Openemr] [3]
-  * [Cómo configurar el Hospital del Sistema EHealth en Localhost] [17]
-  * [Automatice las operaciones comerciales utilizando software gratuito y de código abierto] [18]
+  * [OpenEmr][10]
+  * [OpenMRS][11]
+  * [Hospitalrun][12]
+  * [Hospital abierto][13]
+  * [Solismado][14]
+  * [Cosas para revisar antes de optar el software de código abierto en 2021][15]
+  * [Cuenta con exploración del gerente de registro médico Hospitalrun][16]
+  * [Software de registro de salud del paciente de código abierto de los 5 principales][1]
+  * [Cuenta con exploración de la solución de salud médica Openemr][3]
+  * [Cómo configurar el Hospital del Sistema EHealth en Localhost][17]
+  * [Automatice las operaciones comerciales utilizando software gratuito y de código abierto][18]
+
+  
 [1]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
 [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
 [3]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/

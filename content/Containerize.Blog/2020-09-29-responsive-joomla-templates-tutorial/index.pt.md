@@ -24,10 +24,10 @@ Durante a fase de desenvolvimento, a colocação dos elementos de design é muit
   * Legibilidade
 Aí vem os modelos ** joomla **. Este software de código aberto prevê desenvolver ou usar layouts responsivos predefinidos para todas as páginas da web, em vez de escrever código para cada página separadamente.
 Nesta postagem do blog, aprenderemos as seguintes coisas sobre como criar e configurar um ** modelo amigável ** em Joomla.
-  *[** O que são layouts joomla? **] [2]
-  *[** Como criar um modelo responsivo simples em Joomla? **] [3]
-  *[** Como instalar um modelo Joomla? **] [4]
-  *[** Conclusão **] [5]
+  *[** O que são layouts joomla? **][2]
+  *[** Como criar um modelo responsivo simples em Joomla? **][3]
+  *[** Como instalar um modelo Joomla? **][4]
+  *[** Conclusão **][5]
 
 ## O que são layouts joomla? {#o que}
 Joomla fornece modelos para o front -end e para o back -end. Ele vem com muitos modelos prontos e oferece aos desenvolvedores para criar ** temas gratuitos de bootstrap ** de acordo com seus casos de uso. Existem dois tipos de modelos em Joomla.
@@ -239,22 +239,24 @@ Agora, você pode ver seu primeiro modelo Joomla no navegador!
 
 ## Conclusão {#conclusion}
 Um modelo bom e responsivo é a base para a modelagem geral do site. ** Os layouts responsivos ** no Joomla são multifuncionais e podem ser usados ​​para vários projetos. Desde escrever o código até o desenvolvimento do modelo Joomla, torna -se muito simples com a ajuda de um painel de administração intuitivo. A Joomla fornece controle completo sobre o desenvolvimento do modelo para atender aos desejos do usuário.
-Como ** categoria CMS Software ** está sob melhorias consistentes e mais tutoriais sobre outros sistemas de gerenciamento de conteúdo serão adicionados à lista, mantenha contato com a seção [Sistema de Gerenciamento de Conteúdo] [6] para atualizações regulares.
+Como ** categoria CMS Software ** está sob melhorias consistentes e mais tutoriais sobre outros sistemas de gerenciamento de conteúdo serão adicionados à lista, mantenha contato com a seção [Sistema de Gerenciamento de Conteúdo][6] para atualizações regulares.
 
 Páginas de produto relevantes
 Você pode encontrar os seguintes links relevantes:
-  * [Joomla] [1]
-  * [Drupal] [7]
-  * [Piro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Concreto5] [11]
-  * [Gravador] [12]
-  * [Artesanato] [13]
-  * [Contao] [14]
-  * [Garfo] [15]
-  * [Refinaria CMS] [16]
-  * [Locomotivecms] [17]
+  * [Joomla][1]
+  * [Drupal][7]
+  * [Piro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Concreto5][11]
+  * [Gravador][12]
+  * [Artesanato][13]
+  * [Contao][14]
+  * [Garfo][15]
+  * [Refinaria CMS][16]
+  * [Locomotivecms][17]
+
+  
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

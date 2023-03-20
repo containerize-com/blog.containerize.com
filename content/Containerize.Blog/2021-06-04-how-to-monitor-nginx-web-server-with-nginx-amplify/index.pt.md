@@ -17,13 +17,13 @@ categories: ['Web Server Solution Stack']
 ## Visão geral {#Install}
 ** Monitoramento do servidor da web ** é muito importante para sites de alto tráfego. O ** Agente de Monitoramento ** registrará métricas essenciais sobre o servidor da Web regularmente. Essas métricas críticas podem ser usadas para otimizar a configuração do NGINX. Isso o ajudará a melhorar o desempenho do seu servidor e aplicativo da Web.
 Nesta postagem do blog, abordaremos as seguintes seções para o ** Nginx Monitoring ** Ferramenta de código aberto.
-  * [Nginx Web Server] [1]
-  * [Nginx amplify] [2]
-  * [Instale o nginx amplify] [3]
-  * [Monitoramento de métricas] [4]
+  * [Nginx Web Server][1]
+  * [Nginx amplify][2]
+  * [Instale o nginx amplify][3]
+  * [Monitoramento de métricas][4]
 
 ## nginx servidor web {#nginx}
-[Nginx] [5] é um servidor da web de código aberto e gratuito. É simples, leve e fácil de configurar do que o Apache. O NGINX Web Server também funciona como proxy reverso, balanceador de carga, proxy de email e cache http. Funciona para protocolos HTTP, HTTPS, SMTP, POP3 e IMAP. O NGINX é um servidor Web de alta velocidade, confiável e com eficiência de memória que melhora o desempenho de seus aplicativos. Além disso, cresceu em popularidade e agora é considerado o servidor da web mais popular. Além disso, o NGINX é adequado para qualquer tipo de site, incluindo sites e aplicativos de alto tráfego. Ele pode ser instalado e configurado em quase todos os sistemas operacionais.
+[Nginx][5] é um servidor da web de código aberto e gratuito. É simples, leve e fácil de configurar do que o Apache. O NGINX Web Server também funciona como proxy reverso, balanceador de carga, proxy de email e cache http. Funciona para protocolos HTTP, HTTPS, SMTP, POP3 e IMAP. O NGINX é um servidor Web de alta velocidade, confiável e com eficiência de memória que melhora o desempenho de seus aplicativos. Além disso, cresceu em popularidade e agora é considerado o servidor da web mais popular. Além disso, o NGINX é adequado para qualquer tipo de site, incluindo sites e aplicativos de alto tráfego. Ele pode ser instalado e configurado em quase todos os sistemas operacionais.
 
 ### Instale o nginx
   * Execute os comandos abaixo para instalar o NGINX Web Server.
@@ -44,7 +44,7 @@ O nginx Amplify é uma ferramenta de monitoramento gratuita para código aberto 
 
 ## Instale o nginx Amplify {#install}
 Siga abaixo o guia passo a passo para a instalação do nginx amplificar no Ubuntu.
-  * Primeiro, você precisa criar uma conta no nginx [site] [6].
+  * Primeiro, você precisa criar uma conta no nginx [site][6].
   * Após o login, você verá a tela abaixo no site Nginx Amplify. Agora, conecte -se ao seu servidor via SSH e use os comandos fornecidos nas etapas abaixo.
 
 {{< figure align=center src="images/amplify-1.png" alt="Instale o nginx amplifique">}}
@@ -119,12 +119,14 @@ Nginx Amplify Agent coleta os seguintes tipos de dados:
 
 ## Conclusão
 Passamos pelo NGINX Web Server e o NGINX Amplify Advanced Monitoring Agent em detalhes. O nginx Amplify é bastante simples de configurar e configurar. Além disso, analisamos o qual as métricas críticas nginx Amplify podem rastrear para ** monitorar o nginx **. Essas métricas importantes podem ser usadas para melhorar a configuração do seu servidor e aplicativos NGINX.
-Finalmente, [contendeRize.com] [7] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [Web Server Solution Stack] [8] para as atualizações mais recentes.
+Finalmente, [contendeRize.com][7] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [Web Server Solution Stack][8] para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Como usar o Nginx como balanceador de carga para o seu aplicativo] [9]
-  * [Como configurar e configurar o nginx como proxy reverso] [10]
+  * [Como usar o Nginx como balanceador de carga para o seu aplicativo][9]
+  * [Como configurar e configurar o nginx como proxy reverso][10]
+
+  
 [1]: #Nginx
 [2]: #Amplify
 [3]: #Install

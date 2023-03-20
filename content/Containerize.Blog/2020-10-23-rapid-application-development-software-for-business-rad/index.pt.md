@@ -15,14 +15,14 @@ categories: ['Rapid Application Development']
 
 
 ## Visão geral
-Se você deseja acelerar seus processos de desenvolvimento usando [Rapid Application Development Software] [1] e seu foco está no rotatividade, esta postagem do blog é para você. No passado, publicamos um artigo [5 principais softwares de desenvolvimento de aplicativos rápidos gratuitos em 2021] [2]. Ele pede o software de prototipagem rápida de código aberto amplamente utilizado. Há outra postagem no blog com o título [Jhipster Tutorial para configurar e criar o primeiro aplicativo] [3]. Esta é uma postagem de blog tutorial que demonstra uma plataforma RAD popular chamada [Jhipster] [4].
+Se você deseja acelerar seus processos de desenvolvimento usando [Rapid Application Development Software][1] e seu foco está no rotatividade, esta postagem do blog é para você. No passado, publicamos um artigo [5 principais softwares de desenvolvimento de aplicativos rápidos gratuitos em 2021][2]. Ele pede o software de prototipagem rápida de código aberto amplamente utilizado. Há outra postagem no blog com o título [Jhipster Tutorial para configurar e criar o primeiro aplicativo][3]. Esta é uma postagem de blog tutorial que demonstra uma plataforma RAD popular chamada [Jhipster][4].
 Neste mundo rápido, torna-se bastante difícil atender às necessidades em constante mudança de software. Primeiro, as equipes de desenvolvimento de software precisam garantir entregas frequentes. Segundo, o protótipo de qualquer aplicativo fornece uma idéia completa de todo o projeto, portanto, a prototipagem é outro fator. Terceiro, as equipes agora estão considerando o feedback do cliente a parte mais importante do ciclo de vida do desenvolvimento. Os desenvolvedores da época perceberam as desvantagens do método tradicional de cascata. No entanto, eles adotaram o construtor de MVP de código aberto que suporta iterações e revisões ilimitadas.
-Para abordar esses e alguns outros aspectos importantes, as metodologias ** RAD ** ganharam muita popularidade. No entanto, existem muitos [RAD Software] [1] disponíveis para atender à velocidade do crescimento das necessidades de negócios e clientes.
+Para abordar esses e alguns outros aspectos importantes, as metodologias ** RAD ** ganharam muita popularidade. No entanto, existem muitos [RAD Software][1] disponíveis para atender à velocidade do crescimento das necessidades de negócios e clientes.
 Nesta postagem do blog, passaremos pelos seguintes pontos.
-  * [O que são prototipagem e desenvolvimento rápido de aplicativos ??] [5]
-  * [O que é a metodologia RAD?] [6]
-  * [Benefícios do software RAD?] [7]
-  * [Conclusão] [8]
+  * [O que são prototipagem e desenvolvimento rápido de aplicativos ??][5]
+  * [O que é a metodologia RAD?][6]
+  * [Benefícios do software RAD?][7]
+  * [Conclusão][8]
 
 ## O que são prototipagem e desenvolvimento rápido de aplicativos? {#rad}
 A abordagem rápida de desenvolvimento de aplicativos está focada menos no planejamento rigoroso e mais no desenvolvimento. É muito próximo da abordagem de desenvolvimento de software ágil. Ao contrário do modelo de cascata, ele é flexível e suporta revisões em qualquer estágio.
@@ -52,17 +52,19 @@ Vamos ver quais são os benefícios que podemos obter adotando um software de ap
 
 ## ** CONCLUSÃO ** {#conclusion}
 Aí vem o final deste tutorial. Existem muitos modelos de desenvolvimento de software, como modelo em cascata, modelo em espiral, modelo em forma de V, modelo ágil e um pouco mais. Portanto, a adoção de qualquer modelo depende de seus casos de uso e da natureza do software. Portanto, esta postagem do blog realmente o ajudará se você deseja adotar o modelo RAD para o seu negócio. Independentemente da plataforma, existem vários softwares de desenvolvimento de aplicativos rápidos de código aberto que oferecem recursos de plataforma cruzada com ferramentas de desenvolvimento. Existem outros softwares de prototipagem rápida disponíveis na seção "Explorar" abaixo, que seguem as metodologias RAD. É hora de adotar essa abordagem econômica e robusta para desenvolver software de negócios pronto para produção.
-No final, [contémize.com] [9] está no processo contínuo de introdução de código aberto [RAD Software] [1]. Siga esta [Rapid Application Development] [1] Categoria para atualizações regulares. Além disso, o software listado abaixo na seção Explore é de código aberto, gratuito e auto-hospedado. Todos esses ** geradores de código -fonte ** vêm com documentação abrangente sobre desenvolvimento e implantação.
+No final, [contémize.com][9] está no processo contínuo de introdução de código aberto [RAD Software][1]. Siga esta [Rapid Application Development][1] Categoria para atualizações regulares. Além disso, o software listado abaixo na seção Explore é de código aberto, gratuito e auto-hospedado. Todos esses ** geradores de código -fonte ** vêm com documentação abrangente sobre desenvolvimento e implantação.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Plataforma Cuba] [10]
-  * [QuickApp] [11]
-  * [Jhipster] [4]
-  * [Li3] [12]
-  * [Apache ISIS] [13]
-  * [Top 5 Software de desenvolvimento de aplicativos rápido gratuito em 2021] [2]
-  * [Jhipster Tutorial para configurar e criar o primeiro aplicativo] [3]
+  * [Plataforma Cuba][10]
+  * [QuickApp][11]
+  * [Jhipster][4]
+  * [Li3][12]
+  * [Apache ISIS][13]
+  * [Top 5 Software de desenvolvimento de aplicativos rápido gratuito em 2021][2]
+  * [Jhipster Tutorial para configurar e criar o primeiro aplicativo][3]
+
+  
 [1]: https://products.containerize.com/rad
 [2]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
 [3]: https://blog.containerize.com/2020/10/28/jhipster-tutorial-to-setup-and-create-the-first-application/

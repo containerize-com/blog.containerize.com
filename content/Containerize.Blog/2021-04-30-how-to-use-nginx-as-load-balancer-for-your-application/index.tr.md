@@ -15,15 +15,15 @@ categories: ['Web Server Solution Stack']
 
 Modern yüksek trafikli web siteleri yüz binlerce ve bazı durumlarda kullanıcılardan veya müşterilerden milyonlarca eşzamanlı istek sunar ve doğru metni, görüntüleri, videoları veya uygulama verilerini hızlı ve güvenilir bir şekilde iade eder. Bu yüksek hacimlerin ve bilgi işlem gücünün ihtiyaçlarını karşılamak için daha fazla sunucuya ihtiyacınız var. Daha fazla sunucu ile, bu sunucular arasındaki trafiği dengelemenin bir yoluna ihtiyacınız vardır. Bu blog öğreticisinde, yük dengeleyicisinin ne olduğunu ve Nginx'i yük dengeleyici olarak nasıl kullanabileceğimizi keşfedeceğiz.
 Nginx yük dengelemesini bir ön koşul olarak yapılandırmak için, bir web sunucusu yazılımı ile en az iki ana bilgisayara sahip olmanız ve Nginx ile yük dengelemenin avantajlarını görmek için yapılandırılmış olmanız gerekir. Zaten çalışan bir web ana bilgisayarınız varsa, özel bir resim oluşturarak çoğaltın ve yeni bir web sunucusuna dağıtın. Öyleyse, bulut sunucularınız için Nginx Yük Dengeleme Yapılandırması'nı adım adım nasıl ayarlayacağınızı öğrenelim.!
-  *** [Nginx web sunucusu] [1] **
-  *** [yük dengeleyici] [2] **
-  *** [Nginx'i yük dengeleyici olarak ayarlama (yuvarlak robin)] [3] **
-  *** [farklı yukarı akış yönergeleri hakkında] [4] **
-  *** [Sonuç] [5] **
+  *** [Nginx web sunucusu][1] **
+  *** [yük dengeleyici][2] **
+  *** [Nginx'i yük dengeleyici olarak ayarlama (yuvarlak robin)][3] **
+  *** [farklı yukarı akış yönergeleri hakkında][4] **
+  *** [Sonuç][5] **
 
 ## nginx web sunucusu {#webserver}
 Nginx, yüksek performanslı, açık kaynaklı bir web sunucusudur. HTTP sunucu özelliklerine ek olarak, Nginx ayrıca e -posta için bir proxy sunucu (IMAP, POP3 ve SMTP) ve ters proxy olarak işlev görebilir ve HTTP, TCP ve UDP sunucuları için denge Nginx'i yükleyebilir. Uygulamalarınızın performansını, güvenilirliğini ve güvenliğini artırır. Zengin özellik seti, basit konfigürasyon ve düşük kaynak tüketimi için popülerdir.
-Nginx nasıl çalışır? Nginx, birden çok ayrı sunucuda çalışan dağıtılmış bir web uygulamasına tek bir giriş noktası olarak Nginx ters proxy yük dengeleyici olarak yaygın olarak kullanılır. Düşük bellek kullanımı ve yüksek eşzamanlılık sunmak için eşzamansız, olay odaklı bir yaklaşım kullanır. Nginx hakkında daha fazla bilgi edinebilirsiniz [burada] [6].
+Nginx nasıl çalışır? Nginx, birden çok ayrı sunucuda çalışan dağıtılmış bir web uygulamasına tek bir giriş noktası olarak Nginx ters proxy yük dengeleyici olarak yaygın olarak kullanılır. Düşük bellek kullanımı ve yüksek eşzamanlılık sunmak için eşzamansız, olay odaklı bir yaklaşım kullanır. Nginx hakkında daha fazla bilgi edinebilirsiniz [burada][6].
 
 ## yük dengeleyici {#loadbalancer}
 Yük dengeleme, ağ trafiğini birden çok sunucuya dağıtma işlemidir. Ve bu dağıtım işlemini gerçekleştiren “yazılım” veya “donanım” da yük dengeleyici denir. Yük dengeleyici, sunucularınızın önünde duran bir "trafik polisi" ve tüm sunucularda istemci isteklerini yönlendirme gibidir. Sunuculardan biri düşse bile uygulamanızın çalışır durumda kalmasını sağlar.
@@ -108,12 +108,14 @@ upstream backend  {
 
 ## Sonuç: {#Conclusion}
 Bu Nginx yük dengeleme öğreticisinde, trafiğinizi birden çok sunucuya dağıtmak için NGNix, yük dengeleme ve nginx yük dengeleyicisinin nasıl kurulacağını öğrendik. Ayrıca yuvarlak robin, karma ve max başarısızlık gibi farklı yük dengeleme algoritmalarını araştırdık. Yüksek hacimli bir uygulama çalıştırıyorsanız ve yükü farklı sunuculara dağıtmanız gerekiyorsa, Nginx sizin için en iyi seçeneklerden biridir. Ve en önemlisi% 100 ücretsiz ve açık kaynaklı web sunucusu.
-_ [Twitter] [7], [LinkedIn] [8] ve [Facebook] [9] sayfamızda bize katılabilirsiniz. Sunucuların kaynağı kullanılabilirliğini ve verimliliğinizi artırmak için başka hangi güçlü yük dengeleyicisi __ __ __ kullanırsınız? . Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin] [10].
+_ [Twitter][7], [LinkedIn][8] ve [Facebook][9] sayfamızda bize katılabilirsiniz. Sunucuların kaynağı kullanılabilirliğini ve verimliliğinizi artırmak için başka hangi güçlü yük dengeleyicisi __ __ __ kullanırsınız? . Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin][10].
 
 ## Keşfetmek
 Aşağıdaki makaleleri daha fazla bulabilirsiniz
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i nasıl güvence altına alır ve şifrelersiniz] [11]
-  * [Apache vs Nginx - 2021'de ayrıntılı karşılaştırma] [12]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i nasıl güvence altına alır ve şifrelersiniz][11]
+  * [Apache vs Nginx - 2021'de ayrıntılı karşılaştırma][12]
+
+  
 [1]: #webserver
 [2]: #loadbalancer
 [3]: #setup

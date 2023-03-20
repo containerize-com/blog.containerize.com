@@ -131,7 +131,7 @@ In this tutorial, we explored and discussed what is a Proxy Server and apache re
 
 You may also like the below more related articles:
 
-  * [How to][1] [Install and Secure phpMyAdmin with Nginx on Ubuntu][2]
+  * [How to][1][Install and Secure phpMyAdmin with Nginx on Ubuntu][2]
   * [How to Setup Nginx With Passenger on AWS Production Server][3]
   * [Configure HTTP/2 Support in Nginx On Ubuntu/Debian][4]
   * [Secure and Encrypt Nginx with Let’s Encrypt on Ubuntu 20.04][5]

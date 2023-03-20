@@ -15,12 +15,12 @@ categories: ['Database Management Software']
 
 
 ## Descripción general
-Bienvenido a otra emocionante publicación de blog en la serie de [Sistemas de gestión de bases de datos de código abierto] [1]. En el pasado reciente, hemos publicado publicaciones de blog sobre temas como [Configurar XAMPP y PhPMyAdmin como localhost en Windows] [2], [Sistemas de administración de bases de datos de código abierto Top 5 Open] [3] y algunos más. Las aplicaciones de nivel empresarial son un punto de atención en la era actual de la tecnología. Las necesidades comerciales están cambiando a un ritmo alto y hay un gran debate sobre la seguridad de los datos, el acceso a los datos e integridad de los datos. Sin embargo, la comunidad de código abierto siempre ha mostrado cierto compromiso con dar mejores soluciones a los problemas de la era moderna. Por lo tanto, hay muchas bases de datos populares que son de código abierto y MySQL DBMS es una de ellas. En esta publicación de blog, pasaremos por los siguientes puntos.
-  * [¿Qué es mysql?] [4]
-  * [¿Por qué mysql es tan popular?] [5]
-  * [Beneficios de MySQL] [6]
-  * [Contras de mysql] [7]
-  * [Conclusión] [8]
+Bienvenido a otra emocionante publicación de blog en la serie de [Sistemas de gestión de bases de datos de código abierto][1]. En el pasado reciente, hemos publicado publicaciones de blog sobre temas como [Configurar XAMPP y PhPMyAdmin como localhost en Windows][2], [Sistemas de administración de bases de datos de código abierto Top 5 Open][3] y algunos más. Las aplicaciones de nivel empresarial son un punto de atención en la era actual de la tecnología. Las necesidades comerciales están cambiando a un ritmo alto y hay un gran debate sobre la seguridad de los datos, el acceso a los datos e integridad de los datos. Sin embargo, la comunidad de código abierto siempre ha mostrado cierto compromiso con dar mejores soluciones a los problemas de la era moderna. Por lo tanto, hay muchas bases de datos populares que son de código abierto y MySQL DBMS es una de ellas. En esta publicación de blog, pasaremos por los siguientes puntos.
+  * [¿Qué es mysql?][4]
+  * [¿Por qué mysql es tan popular?][5]
+  * [Beneficios de MySQL][6]
+  * [Contras de mysql][7]
+  * [Conclusión][8]
 
 ## ¿Qué es MySQL? {#qué}
 MySQL es uno de los sistemas de gestión de bases de datos más populares. Es un pilar importante del software de aplicación LAMP. Además, es multiplataforma, por lo que funciona bien con todos los sistemas operativos, incluidos Windows, Linux, MacOS, Irix y otros. Además, MySQL es un sistema de gestión de bases de datos utilizado para administrar bases de datos relacionales. MySQL DBMS es propiedad de Oracle, pero aún así, es un software de código abierto y puede usarlo sin pagar nada. Además, puede cambiar su código fuente de acuerdo con sus requisitos y necesidades. Hay documentación integral disponible con respecto al desarrollo y la implementación.
@@ -34,7 +34,7 @@ En esta sección, pasaremos por los factores debido a los cuales MySQL se consid
   * Es personalizable porque es una base de datos de código abierto. Los desarrolladores pueden editar código de acuerdo con sus necesidades.
   * Es más rápido que la mayoría de otras bases de datos de código abierto y funciona bien y rápido incluso con el gran conjunto de datos.
   * Es compatible con muchos idiomas como PHP, Perl, C, C ++, Java, etc.
-  * Hay muy buenas estadísticas en su [Github] [9] Repo.
+  * Hay muy buenas estadísticas en su [Github][9] Repo.
 
 ## Beneficios de MySQL {#Pros}
 Esta sección de la publicación de blog define algunos beneficios centrales que MySQL DBMS ofrece a sus usuarios. Por lo tanto, revisemos uno por uno y descubramos cuáles son esos beneficios para la empresa.
@@ -52,13 +52,15 @@ Esta sección de la publicación de blog define algunos beneficios centrales que
 
 ## conclusión {#conclusion}
 Esto nos lleva al final de esta publicación de blog. Sin embargo, hemos pasado por algunos aspectos importantes de MySQL DBMS, como lo que es MySQL, los beneficios de MySQL y los contras de MySQL. Esta publicación de blog seguramente lo ayudará si está buscando optar por una base de datos relacional de código abierto para sus aplicaciones comerciales. Fácil de usar, alto rendimiento, flexibilidad, seguridad, madurez y sintaxis simple hace que MySQL sea uno de los sistemas de gestión de bases de datos más populares. Es compatible con muchos idiomas populares, incluidos PHP, Perl, C, C ++, Java, etc., así como es multiplataforma y se puede instalar en la mayoría de los sistemas operativos, incluidos Windows, Linux, MacOS, Irix y otros. Además, hay otros artículos y productos relevantes mencionados en la sección "Explorar" a continuación que puede consultar.
-Finalmente, [Contenerize.com] [10] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Sistemas de gestión de bases de datos de código abierto] [11] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [12], [LinkedIn] [13] y [Twitter] [14].
+Finalmente, [Contenerize.com][10] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Sistemas de gestión de bases de datos de código abierto][11] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][12], [LinkedIn][13] y [Twitter][14].
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Top 5 Sistemas de gestión de bases de datos de código abierto en 2021] [3]
-  * [Uno de los sistemas de gestión de bases de datos relacionales de código abierto más popular] [15]
-  * [Configurar XAMPP y PhPMyAdmin como localhost en Windows] [2]
+  * [Top 5 Sistemas de gestión de bases de datos de código abierto en 2021][3]
+  * [Uno de los sistemas de gestión de bases de datos relacionales de código abierto más popular][15]
+  * [Configurar XAMPP y PhPMyAdmin como localhost en Windows][2]
+
+  
 [1]: https://blog.containerize.com/category/database-management-software/
 [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 [3]: https://blog.containerize.com/2021/02/12/top-5-open-source-dbms-software-in-2021-mysql-and-alternatives/

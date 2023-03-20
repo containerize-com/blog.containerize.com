@@ -24,11 +24,11 @@ Jika Anda ingin menikmati manfaat penyimpanan cloud sambil mempertahankan kontro
   * Kesimpulan
 
 ## 1. Apa itu NextCloud?
-[NextCloud] [1] adalah platform penyimpanan cloud open source untuk sistem berbasis Linux. NextCloud berjalan di server untuk melindungi data Anda, memberikan Anda akses dari desktop dan perangkat seluler Anda. NextCloud membantu Anda menyinkronkan, berbagi, dan mengakses data Anda yang ada pada drive FTP di Dropbox atau NAS Cloud Storage. Enterprise File Sync dan berbagi NextCloud memberlakukan kepatuhan data dengan HIPAA dan GDPR. NextCloud dirancang untuk bekerja dengan beberapa sistem manajemen basis data misalnya PostgreSQL, SQLite, MariaDB, MySQL dan Oracle Database.
+[NextCloud][1] adalah platform penyimpanan cloud open source untuk sistem berbasis Linux. NextCloud berjalan di server untuk melindungi data Anda, memberikan Anda akses dari desktop dan perangkat seluler Anda. NextCloud membantu Anda menyinkronkan, berbagi, dan mengakses data Anda yang ada pada drive FTP di Dropbox atau NAS Cloud Storage. Enterprise File Sync dan berbagi NextCloud memberlakukan kepatuhan data dengan HIPAA dan GDPR. NextCloud dirancang untuk bekerja dengan beberapa sistem manajemen basis data misalnya PostgreSQL, SQLite, MariaDB, MySQL dan Oracle Database.
 NextCloud diluncurkan pada 2016 ketika Frank Karlitschek Forked OwnCloud untuk membuat NextCloud. Server NextCloud ditulis menggunakan bahasa PHP dan JavaScript. Sebagian besar kontributor inti dari OwnCloud pergi dengan Frank Karlitschek untuk bergabung dengan kolaborasi berbagi file baru Proyek NextCloud, dikelola oleh perusahaan baru NextCloud GmbH, yang dibentuk pada saat yang sama. Dalam 6 bulan berikutnya NextCloud GmbH menguntungkan dan tetap menguntungkan hari ini dan masih mengelola proyek NextCloud.
 
 ## 2. Apa itu owncloud? {#ce62}
-[OwnCloud] [2] keluar pada Januari 2010 tetapi rilis beta pertama diluncurkan pada Maret 2010. OwnCloud memiliki 50 juta pengguna di seluruh dunia dan pada 2012 OwnCloud dirilis untuk melayani kebutuhan pengguna komunitas OwnCloud dan sekarang ownCloud dikelola oleh OwnCloud GmbH. OwnCloud Cloud memiliki banyak fitur produktif lainnya untuk mengelola berbagi file cloud, mengelola kalender Anda, untuk melakukan daftar, alat pengeditan dokumen, berbagi folder, dan banyak lagi. OwnCloud di -host secara eksklusif di server cloud pribadi Anda sendiri.
+[OwnCloud][2] keluar pada Januari 2010 tetapi rilis beta pertama diluncurkan pada Maret 2010. OwnCloud memiliki 50 juta pengguna di seluruh dunia dan pada 2012 OwnCloud dirilis untuk melayani kebutuhan pengguna komunitas OwnCloud dan sekarang ownCloud dikelola oleh OwnCloud GmbH. OwnCloud Cloud memiliki banyak fitur produktif lainnya untuk mengelola berbagi file cloud, mengelola kalender Anda, untuk melakukan daftar, alat pengeditan dokumen, berbagi folder, dan banyak lagi. OwnCloud di -host secara eksklusif di server cloud pribadi Anda sendiri.
 OwnCloud adalah aplikasi cloud yang sangat stabil dan andal. Ini sangat disarankan terutama untuk aplikasi komersial. OwnCloud digunakan oleh perusahaan yang berurusan dengan data sensitif atau yang perlu memenuhi peraturan keamanan dan kepatuhan khusus. Perusahaan -perusahaan ini termasuk keuangan, perawatan kesehatan, dan banyak lagi.
 
 ## 3. Perbandingan NextCloud vs OwnCloud: {#Ce62}
@@ -53,15 +53,17 @@ Aspek 100% gratis dari NextCloud membuatnya lebih menarik dan populer daripada p
 
 ## kesimpulan: {#4a1a}
 Dalam artikel ini kami telah menjelaskan perbandingan singkat tentang kerja kerangka penyimpanan cloud open source yang paling populer - NextCloud vs OwnCloud. NextCloud dan OwnCloud adalah dua pemimpin pasar di bidang platform penyimpanan cloud open source. Kedua perangkat lunak memiliki fondasi yang kuat yang secara teratur ditopang oleh aplikasi tambahan. Di antara keduanya, NextCloud Cloud Storage tampaknya lebih populer karena fitur dan layanannya. Namun, OwnCloud adalah platform cloud lama dan dibentuk untuk melayani kebutuhan komunitas pengguna Storage OwnCloud. Dalam tutorial mendatang kami, kami akan membahas tentang topik yang lebih menarik terkait dengan platform penyimpanan cloud open source.
-_Your dapat bergabung dengan kami di [Twitter] [3], [LinkedIn] [4] dan halaman [Facebook] [5] kami. Penyimpanan Cloud NextCloud vs owncloud_ _platform apa yang Anda sukai?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda] [6].
+_Your dapat bergabung dengan kami di [Twitter][3], [LinkedIn][4] dan halaman [Facebook][5] kami. Penyimpanan Cloud NextCloud vs owncloud_ _platform apa yang Anda sukai?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda][6].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa artikel lain yang berkaitan dengan manajemen sehari-hari server Anda.
-  * [Cara Menginstal NextCloud dengan Apache di Ubuntu Server] [7]
-  * [Instal dan konfigurasikan owncloud dengan apache di ubuntu] [8]
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [9]
-  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu] [10]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [11]
+  * [Cara Menginstal NextCloud dengan Apache di Ubuntu Server][7]
+  * [Instal dan konfigurasikan owncloud dengan apache di ubuntu][8]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][9]
+  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu][10]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][11]
+
+  
 [1]: https://products.containerize.com/backup-and-sync/nextcloud/
 [2]: https://products.containerize.com/backup-and-sync/owncloud/
 [3]: https://twitter.com/containerize_co

@@ -108,15 +108,17 @@ Le travail cron doit également inclure l'attribut –quiet, comme dans la comma
 
 ## Conclusion {#conclusion}
 Dans cet article, nous avons appris à installer Nginx LetSencrypt SSL Certificate. Nous avons téléchargé des certificats SSL pour votre domaine et configuré Nginx pour utiliser ces certificats. De plus, vous devriez avoir permis à CERTBOT de renouveler automatiquement les certificats pour SSL Nginx LetSencrypt. Dans nos prochains tutoriels, nous discuterons de sujets plus intéressants sur la façon de sécuriser un serveur Web avec une technologie de sécurité standard qui permet une communication cryptée entre un navigateur Web et un serveur Web.
-_Pour peut se joindre à nous sur [Twitter] [1], [LinkedIn] [2] et notre page [Facebook] [3]. Quel protocole cryptographique utilisez-vous pour assurer la sécurité des communications sur un réseau informatique ?. Si vous avez des questions, veuillez vous contacter] [4].
+_Pour peut se joindre à nous sur [Twitter][1], [LinkedIn][2] et notre page [Facebook][3]. Quel protocole cryptographique utilisez-vous pour assurer la sécurité des communications sur un réseau informatique ?. Si vous avez des questions, veuillez vous contacter][4].
 
 ## Explorer
 Vous pouvez trouver les liens pertinents suivants pour surveiller les performances du serveur et assurer sa fiabilité et sa sécurité:
-  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian] [5]
-  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu] [6]
-  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian] [7]
-  * [Configuration nginx avec passager sur AWS Production Server] [8]
-  * [Comment installer et configurer OwnCloud avec Apache sur Ubuntu] [9]
+  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian][5]
+  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu][6]
+  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian][7]
+  * [Configuration nginx avec passager sur AWS Production Server][8]
+  * [Comment installer et configurer OwnCloud avec Apache sur Ubuntu][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

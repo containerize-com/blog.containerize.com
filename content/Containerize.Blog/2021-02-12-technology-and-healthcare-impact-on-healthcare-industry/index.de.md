@@ -15,15 +15,15 @@ categories: ['Healthcare Software']
 
 
 ## Überblick
-In der Vergangenheit haben wir einige Blog -Beiträge zu den Themen wie [Top 5 Open -Source -Patientendatensatz -Software] [1] veröffentlicht, [wie man EHealth System HospitalRun auf Localhost] [2] [Feature Exploration of Medical Health Solution installiert OpenEMR] [3] und einige weitere. In den letzten Jahren hat die Technologie die Arbeitsabläufe in fast jedem Lebensbereich, einschließlich der medizinischen Industrie, verändert. Es gibt viele Bereiche, die erst vor wenigen Jahren entstanden sind, darunter künstliche Intelligenz, Cloud Computing, das Internet der Dinge und den Finanzsektor. Der Health Tech-Sektor ist eines dieser entwickelten Bereiche, die mit dem Aufkommen der Open-Source-Healthcare-Software vollständig digitalisiert wurden. Es besteht jedoch eine starke Beziehung zwischen Technologie und Gesundheitswesen.
+In der Vergangenheit haben wir einige Blog -Beiträge zu den Themen wie [Top 5 Open -Source -Patientendatensatz -Software][1] veröffentlicht, [wie man EHealth System HospitalRun auf Localhost][2][Feature Exploration of Medical Health Solution installiert OpenEMR][3] und einige weitere. In den letzten Jahren hat die Technologie die Arbeitsabläufe in fast jedem Lebensbereich, einschließlich der medizinischen Industrie, verändert. Es gibt viele Bereiche, die erst vor wenigen Jahren entstanden sind, darunter künstliche Intelligenz, Cloud Computing, das Internet der Dinge und den Finanzsektor. Der Health Tech-Sektor ist eines dieser entwickelten Bereiche, die mit dem Aufkommen der Open-Source-Healthcare-Software vollständig digitalisiert wurden. Es besteht jedoch eine starke Beziehung zwischen Technologie und Gesundheitswesen.
 Die Abteilungen im Gesundheitswesen sind aufgrund des Ersatzs von Arbeitskräften durch Informationssysteme im Gesundheitswesen noch produktiver und effizienter als zuvor. Es gibt eine Reihe von Online -Gesundheitssoftware **, die im entsprechenden Sektor neue Möglichkeiten und Möglichkeiten gebeten haben. In diesem Blog -Beitrag werden wir die Auswirkungen von Technologie und Gesundheitswesen untersuchen, indem wir die folgenden Punkte abdecken.
-  *** [Was ist Gesundheitstechnologie?] [4] **
-  *** [Was hat die Auswirkungen von Gesundheitstechnologien?] [5] **
-  *** [Arten der primären Gesundheitssoftware] [6] **
-  *** [Schlussfolgerung] [7] **
+  *** [Was ist Gesundheitstechnologie?][4] **
+  *** [Was hat die Auswirkungen von Gesundheitstechnologien?][5] **
+  *** [Arten der primären Gesundheitssoftware][6] **
+  *** [Schlussfolgerung][7] **
 
 ## Was ist Gesundheitstechnologie? {#Gesundheit}
-[Gesundheitstechnologien] [8] Konzentrieren Sie sich darauf, Verbesserungen in allen Bereichen der IT -Systeme für das Gesundheitswesen zu erzielen. Es gibt viele Tools und kostenlose Software, um die Produktivität bei der Diagnose von Krankheiten, Behandlung und Medikamenten zu steigern. Es gab eine konsequente Innovation, die die neuesten Einblicke in die Gesundheitstechnologie gibt. Diese Open -Source -Anwendungen richten sich an die Bedürfnisse von Patienten und Krankenhausmanagement. Während Labors von Drittanbietern in die Arbeitsprozesse integriert werden können. Das Gesundheitswesen ist aufgrund der jüngsten Entwicklung jetzt besser als je zuvor zugänglich. Darüber hinaus hat Mobile Health diesen Sektor erleichtert, indem er viele Gesundheitsanwendungen für Smartphone -Benutzer einbringt. Tatsächlich werden diese Anwendungen auf Smartphones, Tablets und Uhren durchgeführt, die Benutzer über ihre Kalorien, Ausübung von Erkenntnissen, Herzfrequenzen und usw. informieren, dass Patienten Gesundheitswarnungen und medizinische Berichte über ihre Geräte erhalten können. Darüber hinaus können Benutzer mit Software, die auf den Geräten ausgeführt wird, bei der Formulierung eines gesunden Schlaflebenszyklus helfen.
+[Gesundheitstechnologien][8] Konzentrieren Sie sich darauf, Verbesserungen in allen Bereichen der IT -Systeme für das Gesundheitswesen zu erzielen. Es gibt viele Tools und kostenlose Software, um die Produktivität bei der Diagnose von Krankheiten, Behandlung und Medikamenten zu steigern. Es gab eine konsequente Innovation, die die neuesten Einblicke in die Gesundheitstechnologie gibt. Diese Open -Source -Anwendungen richten sich an die Bedürfnisse von Patienten und Krankenhausmanagement. Während Labors von Drittanbietern in die Arbeitsprozesse integriert werden können. Das Gesundheitswesen ist aufgrund der jüngsten Entwicklung jetzt besser als je zuvor zugänglich. Darüber hinaus hat Mobile Health diesen Sektor erleichtert, indem er viele Gesundheitsanwendungen für Smartphone -Benutzer einbringt. Tatsächlich werden diese Anwendungen auf Smartphones, Tablets und Uhren durchgeführt, die Benutzer über ihre Kalorien, Ausübung von Erkenntnissen, Herzfrequenzen und usw. informieren, dass Patienten Gesundheitswarnungen und medizinische Berichte über ihre Geräte erhalten können. Darüber hinaus können Benutzer mit Software, die auf den Geräten ausgeführt wird, bei der Formulierung eines gesunden Schlaflebenszyklus helfen.
 
 ## Was hat die Auswirkungen von Gesundheitstechnologien? {#Auswirkung}
 In diesem Abschnitt der Technologie- und Gesundheitshandbuch werden wir das Ergebnis der Verwendung von Open Source Healthcare -Informationssystemen durchlaufen. Die medizinische Welt wurde aufgrund der massiven Entwicklung im primären Gesundheitswesen in großem Umfang revolutioniert. Darüber hinaus hat es alle Interessengruppen auf eine einzelne gemeinsame und integrierte Plattform gebracht, auf der die Aufzeichnung jedes Unternehmens zentralisiert ist. Hier sind die folgenden Dinge zu berücksichtigen, wenn wir über die Auswirkungen sprechen:
@@ -43,21 +43,23 @@ In diesem Abschnitt des Artikels für Technologie und Gesundheitswesen werden wi
 
 ## Schlussfolgerung {#Conclusion}
 Dies kommt zum Ende dieses Blog -Beitrags. Dieser Artikel beschreibt die Bedeutung der Technologie im medizinischen Bereich und wir haben die Gesundheitstechnologie durchgemacht. Es gibt weitere Entwicklungen und Innovationen, um die Gesundheits -IT -Systeme zu bereichern. Dieser Blog -Beitrag hat viele Aspekte der Technologie und des Gesundheitswesens behandelt. Darüber hinaus gibt es Open Source Healthcare-Software, die den Ärzten eine entfernte Unterstützung bieten, bei der sie eine medizinische Untersuchung der Patienten durchführen können, die die Kliniken nicht physisch besuchen können. Darüber hinaus können Remote -Tools die Reisekosten zusammen mit vielen anderen Ausgaben senken. Dieser Blog -Beitrag kann Ihnen wirklich helfen, wenn Sie ein Open -Source -Gesundheitsinformationssystem für Ihr Unternehmen installieren möchten. Eine Liste der im Abschnitt „Explore“ erwähnten Open -Source -Gesundheitssoftware finden Sie unten.
-Schließlich wird **** [containerize.com] [9] **** Artikel über weitere Open -Source -Online -Gesundheitssoftware veröffentlichen. Bitte bleiben Sie mit dieser Kategorie [Gesundheitstechnologien] [8] in Kontakt mit dieser Kategorie für regelmäßige Aktualisierungen.
+Schließlich wird **** [containerize.com][9] **** Artikel über weitere Open -Source -Online -Gesundheitssoftware veröffentlichen. Bitte bleiben Sie mit dieser Kategorie [Gesundheitstechnologien][8] in Kontakt mit dieser Kategorie für regelmäßige Aktualisierungen.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [OpenEMR] [10]
-  * [OpenMRS] [11]
-  * [HospitalRun] [12]
-  * [Offenes Krankenhaus] [13]
-  * [Solismed] [14]
-  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet] [15]
-  * [Feature Exploration of medicle Record Manager HospitalRun] [16]
-  * [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware] [1]
-  * [Features Exploration of Medical Health Solution OpenEMR] [3]
-  * [So richten Sie Ehealth System HospitalRun auf Localhost] [17]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [18]
+  * [OpenEMR][10]
+  * [OpenMRS][11]
+  * [HospitalRun][12]
+  * [Offenes Krankenhaus][13]
+  * [Solismed][14]
+  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet][15]
+  * [Feature Exploration of medicle Record Manager HospitalRun][16]
+  * [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware][1]
+  * [Features Exploration of Medical Health Solution OpenEMR][3]
+  * [So richten Sie Ehealth System HospitalRun auf Localhost][17]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][18]
+
+  
 [1]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/
 [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
 [3]: https://blog.containerize.com/healthcare-software/open-source-medical-software-openemr-features/

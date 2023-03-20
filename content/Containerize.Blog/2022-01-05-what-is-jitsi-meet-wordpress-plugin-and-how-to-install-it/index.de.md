@@ -15,18 +15,18 @@ categories: ['Blogging', 'Video Conferencing Software']
 
 
 ## Überblick
-Willkommen zu einem weiteren Blog -Beitrag in der Serie von [Blogging] [1] und [Video Conferencing Software] [2]. Kürzlich haben wir Artikel zu Themen wie [eine Schritt -für -Schritt -Anleitung zum Einrichten von Open Source Jitsi Meet] [3], [So installieren Sie Matomo für WordPress | WordPress -Tutorial] [4] und einige weitere. In diesem Blog -Beitrag werden wir versuchen, WordPress und Jitsi Meet abzudecken, und wir werden sehen, wie wir das ** Jitsi Meet WordPress Plugin ** installieren können. Beide Software sind jedoch Open Source und haben Selbsthostfunktionen. Tatsächlich hat sich die Nachfrage nach dem Fernarbeitsmodell nach der Pandemie in sehr starkem Maße gestiegen. Jeder Lebenssektor wie Bildung, Gesundheit und andere Branchen hat das entfernte Modell übernommen.
+Willkommen zu einem weiteren Blog -Beitrag in der Serie von [Blogging][1] und [Video Conferencing Software][2]. Kürzlich haben wir Artikel zu Themen wie [eine Schritt -für -Schritt -Anleitung zum Einrichten von Open Source Jitsi Meet][3], [So installieren Sie Matomo für WordPress | WordPress -Tutorial][4] und einige weitere. In diesem Blog -Beitrag werden wir versuchen, WordPress und Jitsi Meet abzudecken, und wir werden sehen, wie wir das ** Jitsi Meet WordPress Plugin ** installieren können. Beide Software sind jedoch Open Source und haben Selbsthostfunktionen. Tatsächlich hat sich die Nachfrage nach dem Fernarbeitsmodell nach der Pandemie in sehr starkem Maße gestiegen. Jeder Lebenssektor wie Bildung, Gesundheit und andere Branchen hat das entfernte Modell übernommen.
 Daher erstellt Open Source Meeting -Software all diese Funktionen und Eigenschaften, die ausreichen, um Geschäftsvorgänge aus der Ferne durchzuführen. Jitsi Meet ist eine dieser ** Open -Source -Meeting -Software **, die mit umfassenden Dokumentation zu Entwicklung, Bereitstellung und Nutzung verfügbar ist. Wir werden also die folgenden Punkte abdecken.
-  * [Was trifft Jitsi?] [5]
-  * [Kurze Einführung der Blogging -Software (WordPress)] [6]
-  * [Wie installiere ich Jitsi in WordPress?] [7]
-  * [Schlussfolgerung] [8]
+  * [Was trifft Jitsi?][5]
+  * [Kurze Einführung der Blogging -Software (WordPress)][6]
+  * [Wie installiere ich Jitsi in WordPress?][7]
+  * [Schlussfolgerung][8]
 
 ## Was ist Jitsi Meet? {#Was}
-Jitsi Meet ist eine Open Source ** Video Conferencing Software **, die eine breite Palette von Funktionen bietet. Es ist hochwertig ausgerichtet und bietet Datenverschlüsselung. Diese Videokonferenzsoftware verwendet WEBRTC, um qualitativ hochwertige Videoanrufe bereitzustellen. Darüber hinaus können mehrere Teilnehmer dem Anruf beitreten, bei dem sie mit Emojis chatten und den Bildschirm freigeben können, um ihre Inhalte zu präsentieren. Mitglieder können ihre anderen Kollegen einladen, indem sie eine URL der Konferenz teilen. Darüber hinaus ist es einfach eingerichtet und verfügt über einfache Bereitstellungs- und Installationsschritte. Jitsi Meeting ist hoch erweiterbar und Entwickler können es nach ihren Bedürfnissen erweitern. Diese kostenlose Videokonferenzsoftware ist in JavaScript geschrieben. Daher hat es gute Statistiken zu seinem [Github] [9] Repo, bei dem Benutzer Unterstützung finden können.
+Jitsi Meet ist eine Open Source ** Video Conferencing Software **, die eine breite Palette von Funktionen bietet. Es ist hochwertig ausgerichtet und bietet Datenverschlüsselung. Diese Videokonferenzsoftware verwendet WEBRTC, um qualitativ hochwertige Videoanrufe bereitzustellen. Darüber hinaus können mehrere Teilnehmer dem Anruf beitreten, bei dem sie mit Emojis chatten und den Bildschirm freigeben können, um ihre Inhalte zu präsentieren. Mitglieder können ihre anderen Kollegen einladen, indem sie eine URL der Konferenz teilen. Darüber hinaus ist es einfach eingerichtet und verfügt über einfache Bereitstellungs- und Installationsschritte. Jitsi Meeting ist hoch erweiterbar und Entwickler können es nach ihren Bedürfnissen erweitern. Diese kostenlose Videokonferenzsoftware ist in JavaScript geschrieben. Daher hat es gute Statistiken zu seinem [Github][9] Repo, bei dem Benutzer Unterstützung finden können.
 
 ## kurze Einführung der Blogging -Software (WordPress) {#Intro}
-Im Abschnitt dieses ** WordPress -Plugin -Tutorials ** Blog -Beitrag werden wir die beliebteste und am häufigsten verwendete Open -Source -Blogging -Software durchlaufen. Wir werden jedoch schnell die Top -Blogging -Software [WordPress] [10] durchlaufen. WordPress ist ein komplettes Paket, das als Blogging -Plattform sowie als Content -Management -System übernommen wird. Tatsächlich handelt es sich um Open Source, selbst gehostete, mehrsprachige und bietet Funktionen auf Unternehmensebene, um Geschäftswebsites zu erstellen. Es gibt einen riesigen Plugins -Pool, in dem Entwickler auf jedes Plugin zugreifen und ein Plugin installieren können, das benötigt wird, um die Anforderungen zu erfüllen. Darüber hinaus hat es eine sehr lebendige, lebendige Community, die aktiv auf neue Feature -Anfragen und -Anfragen reagiert. WordPress hat auch sehr gute Statistiken zu seinem [Github] [11] Repo. Daher können Entwickler leicht unterstützendes Material finden.
+Im Abschnitt dieses ** WordPress -Plugin -Tutorials ** Blog -Beitrag werden wir die beliebteste und am häufigsten verwendete Open -Source -Blogging -Software durchlaufen. Wir werden jedoch schnell die Top -Blogging -Software [WordPress][10] durchlaufen. WordPress ist ein komplettes Paket, das als Blogging -Plattform sowie als Content -Management -System übernommen wird. Tatsächlich handelt es sich um Open Source, selbst gehostete, mehrsprachige und bietet Funktionen auf Unternehmensebene, um Geschäftswebsites zu erstellen. Es gibt einen riesigen Plugins -Pool, in dem Entwickler auf jedes Plugin zugreifen und ein Plugin installieren können, das benötigt wird, um die Anforderungen zu erfüllen. Darüber hinaus hat es eine sehr lebendige, lebendige Community, die aktiv auf neue Feature -Anfragen und -Anfragen reagiert. WordPress hat auch sehr gute Statistiken zu seinem [Github][11] Repo. Daher können Entwickler leicht unterstützendes Material finden.
 
 ## Wie installiere ich Jitsi in WordPress? {#Wie}
 Wir haben also das, was Jitsi Meet ist, und eine kurze Einführung von WordPress durchlaufen haben. In diesem Abschnitt werden jedoch die Schritte zur Installation von ** Open Source -Meeting -Software ** Jitsi Meet angezeigt.
@@ -48,17 +48,19 @@ Ebenso können Sie es selbst weiter untersuchen. Dieses ** Jitsi -Treffen mit Wo
 
 ## Schlussfolgerung {#Conclusion}
 Dies bringt uns zum Ende dieses ** WordPress -Plugin -Tutorials ** Blog -Beitrag. Wir hoffen, dieser Artikel hat Ihnen eine gute Demonstration des Themas gegeben. Wir haben durch die Installation der ** Jitsi Meet WordPress Plugin **, was Jitsi Meet ist, und ein kurzes Intro von WordPress durchgesehen. Durch die Anpassung einer Remote -Collaboration -Software verleiht Ihrem Unternehmen immer einen Wettbewerbsvorteil und Sie werden ein positives Ergebnis erzielen. Es gibt andere Open Source -Optionen, die Sie in diesem Bereich finden können. Es finden Sie andere relevante Artikel, die im Abschnitt „Explore“ unten erwähnt werden, den Sie auschecken können.
-Schließlich schreibt [Containerize.com] [12] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie für regelmäßige Aktualisierungen in Kontakt mit der [Video Conferencing Software] [13] und [Blogging -Plattformen] [14] Kategorien. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook] [15], [LinkedIn] [16] und [Twitter] [17] folgen.
+Schließlich schreibt [Containerize.com][12] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie für regelmäßige Aktualisierungen in Kontakt mit der [Video Conferencing Software][13] und [Blogging -Plattformen][14] Kategorien. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][15], [LinkedIn][16] und [Twitter][17] folgen.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Eine Schritt -für -Schritt -Anleitung zum Einrichten von Open Source Jitsi Meet] [3]
-  * [Wie kostenlose Videokonferenzlösungen Ihrem Geschäft zugute kommen] [18]
-  * [Top 5 Open -Source -Videokonferenzsoftware von 2021] [19]
-  * [So installieren Sie Matomo für WordPress | WordPress -Tutorial] [20]
-  * [So installieren Sie Plugin in WordPress | Vanilla Forum] [21]
-  * [Civicrm WordPress Integration | WordPress -Tutorial] [22]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [23]
+  * [Eine Schritt -für -Schritt -Anleitung zum Einrichten von Open Source Jitsi Meet][3]
+  * [Wie kostenlose Videokonferenzlösungen Ihrem Geschäft zugute kommen][18]
+  * [Top 5 Open -Source -Videokonferenzsoftware von 2021][19]
+  * [So installieren Sie Matomo für WordPress | WordPress -Tutorial][20]
+  * [So installieren Sie Plugin in WordPress | Vanilla Forum][21]
+  * [Civicrm WordPress Integration | WordPress -Tutorial][22]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][23]
+
+  
 [1]: https://blog.containerize.com/category/blogging/
 [2]: https://blog.containerize.com/category/video-conferencing-software/
 [3]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/

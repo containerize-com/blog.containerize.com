@@ -13,11 +13,11 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Setup Advanced Bounce Management und Bounce -Regeln in Phplist einrichten">}}
 
-In unserem [vorherigen] [1] Tutorial hatten wir bereits ** Phplist Bounce Processing ** angesprochen. Wenn Sie nicht mit der Bounce -Verarbeitung vertraut sind, können Sie sie lesen. Sie können nicht zugestellte E -Mails mit der Bounce -Verarbeitung in Ihr Phplist -Projekt herunterladen. Wie gehen Sie mit heruntergeladenen E -Mails um? Keine Ahnung, schauen wir uns das Advance Bounce -Management an, mit dem Sie ** Bounce -E -Mails ** aussortieren können. Jede zurückgegebene E -Mail -Nachricht hat einen Fehlercode, der vom MTA (Mail Transfer Agent) zurückgegeben wird. Darüber hinaus können Sie die zurückgegebene Nachrichten -E -Mail -Header überprüfen und alle Informationen entlang der Fehlercode enthält.
-  * [Aktivieren Sie die Handhabung des erweiterten Bounce] [2]
-  * [Fügen Sie die Bounce -Regel hinzu] [3]
-  * [List Bounce -Regeln] [4]
-  * [Schlussfolgerung] [5]
+In unserem [vorherigen][1] Tutorial hatten wir bereits ** Phplist Bounce Processing ** angesprochen. Wenn Sie nicht mit der Bounce -Verarbeitung vertraut sind, können Sie sie lesen. Sie können nicht zugestellte E -Mails mit der Bounce -Verarbeitung in Ihr Phplist -Projekt herunterladen. Wie gehen Sie mit heruntergeladenen E -Mails um? Keine Ahnung, schauen wir uns das Advance Bounce -Management an, mit dem Sie ** Bounce -E -Mails ** aussortieren können. Jede zurückgegebene E -Mail -Nachricht hat einen Fehlercode, der vom MTA (Mail Transfer Agent) zurückgegeben wird. Darüber hinaus können Sie die zurückgegebene Nachrichten -E -Mail -Header überprüfen und alle Informationen entlang der Fehlercode enthält.
+  * [Aktivieren Sie die Handhabung des erweiterten Bounce][2]
+  * [Fügen Sie die Bounce -Regel hinzu][3]
+  * [List Bounce -Regeln][4]
+  * [Schlussfolgerung][5]
 
 ## Aktivieren Sie die erweiterte Bounce -Handhabung {#Enable}
 Erstens zuerst aktivieren Sie die erweiterte ** Bounce -Handhabung **, indem Sie den folgenden Code in config.php -Datei kopieren.
@@ -64,14 +64,16 @@ Nachdem Ihre Anzahl von Regeln erstellt hat, sieht Ihre ** Bounce -Regeln ** wie
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Tutorial haben wir etwas über Advanced ** Bounce Management ** erfuhren und die erforderlichen Absprungregeln entwickelt. Es wäre großartig, diese Funktion so zu ermöglichen, dass Sie den Prozess der Reinigung ungültiger E -Mail -Adressen von Ihren Listen automatisieren können. Sie können auch das Mindestniveau der zurückgegebenen E -Mails beibehalten. Darüber hinaus haben Ihre Listen legitime Abonnenten.
-Darüber hinaus ist [Containerize.com] [6] auf dem Weg, den Stapel von Open -Source -Produkten in mehreren Sprachen und Frameworks zu verbessern. Für regelmäßige Updates finden Sie bitte in der Kategorie [Newsletter] [7] für interessantere Artikel.
+Darüber hinaus ist [Containerize.com][6] auf dem Weg, den Stapel von Open -Source -Produkten in mehreren Sprachen und Frameworks zu verbessern. Für regelmäßige Updates finden Sie bitte in der Kategorie [Newsletter][7] für interessantere Artikel.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Phplist - Open -Source -Newsletter und E -Mail -Marketing -Software] [8]
-  * [So erstellen und senden Sie den Newsletter mit Phplist] [9]
-  * [So richten und verarbeiten Sie in Phplisten] [1]
-  * [Anfängerleitfaden zur Entwicklung von Phplist -Plugin] [10]
+  * [Phplist - Open -Source -Newsletter und E -Mail -Marketing -Software][8]
+  * [So erstellen und senden Sie den Newsletter mit Phplist][9]
+  * [So richten und verarbeiten Sie in Phplisten][1]
+  * [Anfängerleitfaden zur Entwicklung von Phplist -Plugin][10]
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
 [2]: #Enable
 [3]: #Add

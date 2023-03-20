@@ -15,76 +15,78 @@ categories: ['Blockchain Platforms']
 
 
 ## Descripción general
-Recientemente publicamos publicaciones de blog sobre [Blockchain Technology for Business] [1] y un artículo de tutorial sobre la creación de un [contrato inteligente básico] [2]. Sin embargo, hemos compilado una lista de las siguientes plataformas populares de blockchain de 2020.
-  *** [Ethereum] [3] **
-  *** [Fabric de hipeledger] [4] **
-  *** [OpenChain] [5] **
-  *** [Multichain] [6] **
-  *** [Ripple] [7] **
-  *** [Conclusión] [8] **
+Recientemente publicamos publicaciones de blog sobre [Blockchain Technology for Business][1] y un artículo de tutorial sobre la creación de un [contrato inteligente básico][2]. Sin embargo, hemos compilado una lista de las siguientes plataformas populares de blockchain de 2020.
+  *** [Ethereum][3] **
+  *** [Fabric de hipeledger][4] **
+  *** [OpenChain][5] **
+  *** [Multichain][6] **
+  *** [Ripple][7] **
+  *** [Conclusión][8] **
 
 ## Ethereum {#ether}
-[Ethereum] [9] es una plataforma basada en blockchain de código abierto líder. Proporciona un marco completo para administrar activos digitales, escribir contratos inteligentes y crear aplicaciones descentralizadas. Este software utiliza un algoritmo de consenso llamado Prueba de trabajo (POW). Apoya su propia criptomoneda llamada Ether. Además, Ethereum tiene cinco componentes principales de Ethereum Virtual Machine, Smart Contracts, Ethereum Nodes, Ethereum Client API y aplicaciones de usuario final. Está escrito en el lenguaje GO y todo el código fuente está disponible en [GitHub] [10].
+[Ethereum][9] es una plataforma basada en blockchain de código abierto líder. Proporciona un marco completo para administrar activos digitales, escribir contratos inteligentes y crear aplicaciones descentralizadas. Este software utiliza un algoritmo de consenso llamado Prueba de trabajo (POW). Apoya su propia criptomoneda llamada Ether. Además, Ethereum tiene cinco componentes principales de Ethereum Virtual Machine, Smart Contracts, Ethereum Nodes, Ethereum Client API y aplicaciones de usuario final. Está escrito en el lenguaje GO y todo el código fuente está disponible en [GitHub][10].
 Las siguientes son las características destacadas:
   * Seguro con criptografía
   * Contratos inteligentes de Ethereum
   * Validación de blockchain
   * Máquina virtual de Ethereum
   * Arquitectura de múltiples capas
-[Leer más] [11]
+[Leer más][11]
 
 ## Fabric de Hypeledger {#hyper}
-[Hyperledger Fabric] [12] es una cadena de bloques de código abierto con permiso construido sobre una arquitectura modular. Sin embargo, proporciona la provisión a los usuarios para usar cualquier protocolo de consenso dependiendo del caso de uso. Además, este software es escalable, robusto y eficiente. Proporciona integración con software de terceros como LDAP, OpenID Connect y Bibliotecas criptográficas. También está escrito en el idioma GO y su código fuente está disponible en [GitHub] [13].
+[Hyperledger Fabric][12] es una cadena de bloques de código abierto con permiso construido sobre una arquitectura modular. Sin embargo, proporciona la provisión a los usuarios para usar cualquier protocolo de consenso dependiendo del caso de uso. Además, este software es escalable, robusto y eficiente. Proporciona integración con software de terceros como LDAP, OpenID Connect y Bibliotecas criptográficas. También está escrito en el idioma GO y su código fuente está disponible en [GitHub][13].
 La tela Hyperledger tiene las siguientes características clave:
   * Soporte para EVM y solidez
   * Arquitectura basada en componentes
   * Escalable y flexible
   * Soporte de contrato inteligente de varios idiomas
   * Datos de consulta
-[Leer más] [14]
+[Leer más][14]
 
 ## OpenChain {#open}
-[OpenChain] [15] es relativamente una nueva tecnología blockchain y se basa en la arquitectura del servidor de clientes. Además, cualquiera puede configurar una instancia de este software de código abierto y hay un administrador para cada instancia que valida las transacciones. Además, no hay un mecanismo minero admitido en OpenChain. Sobre todo, el algoritmo de consenso partidario se está utilizando en esta plataforma. Está escrito en el idioma C# y su código fuente está disponible en [Github] [16].
+[OpenChain][15] es relativamente una nueva tecnología blockchain y se basa en la arquitectura del servidor de clientes. Además, cualquiera puede configurar una instancia de este software de código abierto y hay un administrador para cada instancia que valida las transacciones. Además, no hay un mecanismo minero admitido en OpenChain. Sobre todo, el algoritmo de consenso partidario se está utilizando en esta plataforma. Está escrito en el idioma C# y su código fuente está disponible en [Github][16].
 OpenChain ofrece las siguientes características importantes:
   * Provisión para definir reglas
   * Validación de nivel instantáneo
   * Sin tarifa minera
   * Extensible y escalable
   * Múltiples niveles de control
-[Leer más] [17]
+[Leer más][17]
 
 ## multichain
-[Multichein] [18] es otro software de código abierto que ofrece un desarrollo rápido de aplicaciones blockchain públicas y privadas. En primer lugar, es altamente personalizable, fácil de usar y flexible. En segundo lugar, proporciona la máxima seguridad a través de claves públicas-privadas y múltiples firmas. En tercer lugar, este software de código abierto proporciona pasos fáciles para desarrollar e implementar aplicaciones de blockchain. Además, está escrito en el lenguaje C ++ y su código fuente está disponible en [Github] [19].
+[Multichein][18] es otro software de código abierto que ofrece un desarrollo rápido de aplicaciones blockchain públicas y privadas. En primer lugar, es altamente personalizable, fácil de usar y flexible. En segundo lugar, proporciona la máxima seguridad a través de claves públicas-privadas y múltiples firmas. En tercer lugar, este software de código abierto proporciona pasos fáciles para desarrollar e implementar aplicaciones de blockchain. Además, está escrito en el lenguaje C ++ y su código fuente está disponible en [Github][19].
 MultiChain presenta las siguientes características clave:
   * Soporte para activos ilimitados
   * Gestión de permisos
   * Asegurar con la clave pública-privada
   * Flexible y robusto
   * Datos en tiempo real alimentados
-[Leer más] [18]
+[Leer más][18]
 
 ## Ripple {#ripple}
-[Ripple] [20] es la plataforma blockchain de código abierto de nivel empresarial con características avanzadas. Por lo tanto, se basa en una infraestructura descentralizada que admite transacciones seguras de activos digitales. Sobre todo, tiene una amplia gama de características que son suficientes para establecer un negocio de pagos. Además, está impulsado por un libro de contabilidad XRP que es un libro de contabilidad descentralizado. Sin embargo, este software de código abierto está escrito en lenguaje C ++ con la entrada de otros idiomas también y su código fuente está disponible en [GitHub] [21].
+[Ripple][20] es la plataforma blockchain de código abierto de nivel empresarial con características avanzadas. Por lo tanto, se basa en una infraestructura descentralizada que admite transacciones seguras de activos digitales. Sobre todo, tiene una amplia gama de características que son suficientes para establecer un negocio de pagos. Además, está impulsado por un libro de contabilidad XRP que es un libro de contabilidad descentralizado. Sin embargo, este software de código abierto está escrito en lenguaje C ++ con la entrada de otros idiomas también y su código fuente está disponible en [GitHub][21].
 Ripple ofrece los siguientes puntos clave:
   * Alimentado por XRP Ledger
   * Ofrece transferencia de activos conveniente
   * Proporciona seguridad digital
   * Favorable a los negocios
   * Multipropósito
-[Leer más] [22]
+[Leer más][22]
 
 ## conclusión {#conclusion}
 En esta publicación de blog, revisamos algunas de las populares plataformas de blockchain de código abierto. Dado que hay muchas otras plataformas populares disponibles, las nuevas plataformas han comenzado a obtener la intención de la comunidad al ofrecer características avanzadas. Por lo tanto, siempre es una buena idea investigar adecuadamente antes de tomar cualquier decisión.
-Finalmente, [Contenerize.com] [23] está ampliando su lista de software de código abierto y publicaciones de blog. Por lo tanto, manténgase en contacto con la categoría [plataformas blockchain] [24] para actualizaciones regulares.
+Finalmente, [Contenerize.com][23] está ampliando su lista de software de código abierto y publicaciones de blog. Por lo tanto, manténgase en contacto con la categoría [plataformas blockchain][24] para actualizaciones regulares.
 
 ## Páginas de productos relevantes
 Puede encontrar los siguientes enlaces relevantes:
-  * [Ethereum] [9]
-  * [Fabric de Hyperledger] [12]
-  * [OpenChain] [15]
-  * [Ripple] [20]
-  * [Multichain] [25]
-  * [Consensys Quorum] [26]
+  * [Ethereum][9]
+  * [Fabric de Hyperledger][12]
+  * [OpenChain][15]
+  * [Ripple][20]
+  * [Multichain][25]
+  * [Consensys Quorum][26]
+
+  
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: #ether

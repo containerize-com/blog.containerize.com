@@ -48,7 +48,7 @@ sudo apt-get安装-y mysql-server php-mysql
 {{_LINE_39_}}
 
 ## 步骤2：在ubuntu上下载owncloud
-在Ubuntu系统上成功配置LAMP服务器后，让我们从其[官方网站] [1]下载最新的OllCloud私有云存储解决方案。
+在Ubuntu系统上成功配置LAMP服务器后，让我们从其[官方网站][1]下载最新的OllCloud私有云存储解决方案。
 CD /TMP
 WGET https://download.owncloud.org/community/owncloud-10.4.0.4.0.tar.bz2
 {{_LINE_44_}}
@@ -107,15 +107,17 @@ http：// localhost/owncloud/
 
 ## **结论：** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
 恭喜！您已经成功安装和配置了OwnCloud，以使用Ubuntu Machine上的Apache构建自己的私有云。现在，您的数据永远不会掌握在第三方手中，并且可以在虚拟的私有云Ollcloud Ubuntu Server存储中私下管理。由于数据隐私的许多问题，许多公司选择使用许多重要信息来创建自己的云服务器。在即将到来的教程中，我们将讨论Web服务器解决方案堆栈的更多有趣主题。
-_您可以在[Twitter] [2]，[LinkedIn] [3]和我们的[Facebook] [4]页面上加入我们。您在线使用哪种基于云的存储解决方案？如果您有任何疑问，请_ [联系] [5]。
+_您可以在[Twitter][2]，[LinkedIn][3]和我们的[Facebook][4]页面上加入我们。您在线使用哪种基于云的存储解决方案？如果您有任何疑问，请_ [联系][5]。
 
 ## 探索：
 我们还有其他几篇与您的服务器日常管理有关的文章。
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [6]
-  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin] [7]
-  * [安全和加密nginx与让我们在Ubuntu上加密20.04] [8]
-  * [在Ubuntu/debian上配置http/2支持nginx] [9]
-  * [在AWS生产服务器上使用乘客的设置Nginx] [10]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][6]
+  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin][7]
+  * [安全和加密nginx与让我们在Ubuntu上加密20.04][8]
+  * [在Ubuntu/debian上配置http/2支持nginx][9]
+  * [在AWS生产服务器上使用乘客的设置Nginx][10]
+
+  
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

@@ -17,11 +17,11 @@ categories: ['Live Chat']
 ## Überblick
 Eine große Anzahl von Kunden von Benutzern auf E -Commerce -Websites geben aufgrund schlechter Benutzererfahrung auf, ohne dies zu überprüfen. Wenn Sie jedoch eine ordnungsgemäße Live -Chat -Software auf der Website installiert haben und sich mit dem Benutzer beschäftigen, bevor sie verloren gehen oder die Website verlassen, können Sie diesen Kunden speichern. Kunden möchten, dass ihre Fragen sofort beantwortet werden, und jede Verwirrung während des Kaufprozesses kann zum Verlust eines Verkaufs führen. Open Source Community ist jedoch sehr lebendig und hat viele Open Source ** Customer Support Chat -Software ** entwickelt.
 Durch die Verwendung der richtigen Live -Chat -Software -Lösung reagieren Sie sofort auf die Abfragen Ihres Kunden und konvertieren sie in den Verkauf. Dieser Blog-Beitrag zielt darauf ab, die Liste der kostenlosen kostenlosen Live-Chat-Anwendungen zu teilen, die wir für kleine und mittlere Unternehmen am besten geeignet sind.
-  * [Rocket.Chat] [1]
-  * [Zulip] [2]
-  * [Matter] [3]
-  * [Lass uns chatten] [4]
-  * [Botpress] [5]
+  * [Rocket.Chat][1]
+  * [Zulip][2]
+  * [Matter][3]
+  * [Lass uns chatten][4]
+  * [Botpress][5]
 
 ## ** Rocket.chat ** {#Rocket-chat}
 Rocket.chat ist eine Open Source ** Web-Chat-Software. ** Es ist ein völlig kostenloses und selbst gehostete Chat-System. Es handelt sich um eine umfassende Kommunikationsplattform, die die Teamkommunikation mit Direktnachrichten und Gruppennachrichten bietet.
@@ -31,7 +31,7 @@ Rocket.chat hat eine riesige Open -Source -Community. Infolgedessen verfügt die
   * LDAP -Authentifizierung
   * Restliche Apis
   * Native plattformübergreifende Desktop-Anwendung
-    [Lesen Sie mehr] [6]
+    [Lesen Sie mehr][6]
 
 ## ** Zulip ** {#Zulip}
 Zulip ist eine der beliebtesten ** Open Source-Chat-Lösungen **, die dem Stream-basierten Threading-Modell folgt. In Zulip abonnieren Sie die Streams anstelle von Kanälen, damit Sie nur über die Streams informiert werden, an denen Sie interessiert sind. Dieses Stream -Abonnement hilft Ihnen, Gespräche später zu verfolgen und organisiert zu bleiben.
@@ -42,7 +42,7 @@ Diese ** Open-Source-Chat-App ** ist plattformübergreifend und bietet APIs zur 
   * API: Zulip hat eine toten, restliche API- und Python-Bindungen
   * Mobile Apps: Unterstützt native iOS- und Android -Apps für native Qualität.
   * Desktop-Apps: Unterstützt Multi-Plattform-Desktop-Apps.
-    [Lesen Sie mehr] [7]
+    [Lesen Sie mehr][7]
 
 ## ** Matter meiste ** {#matter meiste}
 Matter Most ist eine Open Source ** Web -Chat -Software **, die sehr sicher und skalierbar ist. Erstens gilt es als Alternative zu den beliebtesten proprietären Live -Chat -Apps. Zweitens ist diese ** Open -Source -Chat -App ** eine Mischung aus Slack- und Microsoft -Teams. Zusammenfassend macht es zu einem Superet beider Anwendungen.
@@ -54,7 +54,7 @@ Hier sind einige der Top -Merkmale der Materiesten
   * Plugins und Erweiterungen
   * Bots und Entwickler -Toolkit
   * Robuste API -Bibliothek
-    [Lesen Sie mehr] [8]
+    [Lesen Sie mehr][8]
 
 ## ** lass uns chatten ** {#lets-chat}
 Letends Chat ist eine selbst gehostete ** Customer Support Chat-Software ** für kleine Teams. Diese ** Web -Chat -Software ** wurde mit node.js und mongoDB entwickelt und konzentriert sich auf eine einfache und schnelle Bereitstellung. Sie können es auf Ihrem Server mit ein paar Klicks installieren. Es ist 100% kostenlos und Open Source mit seinem auf GitHub verfügbaren Quellcode.
@@ -64,7 +64,7 @@ Was macht uns von anderen Open -Source -Software einzigartig, sind seine Unterne
   * Hubot -freundlich
   * Ruhartige API
   * Transkripte / Chat -Verlauf
-    [Lesen Sie mehr] [9]
+    [Lesen Sie mehr][9]
 
 ## ** botpress ** {#botpress}
 Chatbots sind heutzutage auf dem Vormarsch. Egal, ob Sie sie für Vertrieb, Marketing oder Unterstützung verwenden, sie können eine großartige Ergänzung für Ihr virtuelles Team sein.
@@ -75,18 +75,20 @@ Künstliche Intelligenz und maschinelles Lernen haben sich in letzter Zeit stark
   * Inhalt und Durchflusstrennung
   * Mensch in der Schleife
   * Modulares Design
-    [Lesen Sie mehr] [10]
+    [Lesen Sie mehr][10]
 
 ## Abschluss
 In diesem Artikel haben Sie die beste Open Source ** Web -Chat -Software ** für kleine und mittlere Unternehmen und Teams überprüft. Dieser Blog -Beitrag hilft Ihnen wirklich dabei, die richtige Wahl zu treffen und bei der Auswahl einer Open Source ** Customer Support Chat -Software ** für Ihre Business -Website. Zunächst haben wir die erstklassigen Funktionen von Rocket.Chat, Zulip, Matter Most, Let's Chat und Botpress aufgelistet. Zweitens haben wir erklärt, wie diese Funktionen sie einzigartig machen. Zusammenfassend sind Rocket.chat und Matter meiste eine geeignete Auswahl, wenn Sie mehr Plugins und Integrationen wünschen. Zulip und uns Chat können eine gute Livechat -Software sein, wenn Sie eine schnelle und einfache Lösung benötigen. Für Bot Building Rocket.chat bietet Chat Funktionen. Aber Botpress ist eine beliebtere Wahl.
-Schließlich schreibt [** containerize.com **] [11] Artikel über weitere Open Source ** Open Source -Chat -Apps.
+Schließlich schreibt [** containerize.com **][11] Artikel über weitere Open Source ** Open Source -Chat -Apps.
 
 ## Erkunden
-  * [So erstellen Sie einen AI-basierten FAQ-Bot für Ihr Unternehmen mit BotPress] [13]
-  * [So richten Sie Live -Chat -Support auf Ihrer Website mit Rocket.chat] [14]
-  * [WordPress Instant Messaging mit Rocket.chat] [15]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [16]
-  * [So erstellen und führen Sie einen Bot in Rocket.chat mit BotPress] [17]
+  * [So erstellen Sie einen AI-basierten FAQ-Bot für Ihr Unternehmen mit BotPress][13]
+  * [So richten Sie Live -Chat -Support auf Ihrer Website mit Rocket.chat][14]
+  * [WordPress Instant Messaging mit Rocket.chat][15]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][16]
+  * [So erstellen und führen Sie einen Bot in Rocket.chat mit BotPress][17]
+
+  
 [1]: #rocket-chat
 [2]: #zulip
 [3]: #mattermost

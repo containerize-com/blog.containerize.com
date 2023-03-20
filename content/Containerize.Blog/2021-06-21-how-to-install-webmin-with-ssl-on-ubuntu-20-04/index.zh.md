@@ -14,12 +14,12 @@ categories: ['Web Hosting']
 
 ## WebMin是一种基于Web的系统管理工具，是命令行系统管理的简单替代方法。本文指导如何安装Webmin
 借助本文“如何在Ubuntu 20.04上使用SSL安装Webmin”，我们将在Web托管软件和工具上启动新的一系列教程。使用WebMin，您可以设置用户帐户，启用文件共享，配置Apache和DNS设置，并执行与Web托管有关的更多任务。它允许您管理整个Web托管服务器。它消除了手动编辑Linux配置文件的麻烦。因此，让我们学习如何使用SSL安装Webmin。
-  *** [Webmin简介] [1] **
-  *[**突出显示功能**] [2]
-  *[**支持的操作系统**] [3]
-  *[**在Ubuntu上安装Webmin **] [4]
-  *[**使用webmin安装apache **] [5]
-  *[**结论**] [6]
+  *** [Webmin简介][1] **
+  *[**突出显示功能**][2]
+  *[**支持的操作系统**][3]
+  *[**在Ubuntu上安装Webmin **][4]
+  *[**使用webmin安装apache **][5]
+  *[**结论**][6]
 
 ## Webmin简介{#intro}
 Webmin是用于Linux系统管理的基于Web的接口。它可以帮助您从任何现代的Web浏览器远程管理自己的托管服务器。使用WebMin，您可以配置操作系统内部设备，例如用户帐户，Apache，DNS，文件共享等等。 Webmin还允许通过单个接口来控制许多机器，或在同一子网或LAN上的其他Webmin主机上无缝登录。基于Perl的Webmin作为自己的过程和Web服务器运行。关于Webmin的最好的部分是其100％的免费和开源，并拥有一个非常蓬勃发展的开发人员社区。
@@ -211,8 +211,10 @@ Apache安装完成后，您的服务器将运行默认的Apache服务器。
 本文简要讨论了Webmin可以做的许多事情，Webmin是管理Linux/Unix服务器的最佳工具之一。在本教程中，我们还学习了如何在Ubuntu上安装Webmin，我们还讨论了如何使用WebMin在服务器上安装Apache。
 
 ## 探索
-  * [如何在Ubuntu上使用nginx安装多个PHP版本] [7]
-  * [如何设置和配置为反向代理] [8]
+  * [如何在Ubuntu上使用nginx安装多个PHP版本][7]
+  * [如何设置和配置为反向代理][8]
+
+  
 [1]: #intro
 [2]: #features
 [3]: #support

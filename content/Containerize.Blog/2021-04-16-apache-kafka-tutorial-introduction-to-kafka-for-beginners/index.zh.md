@@ -14,14 +14,14 @@ categories: ['Message Queue Software']
 {{< figure align=center src="images/apache-kafka-open-source.png" alt="Apache Kafka开源教程">}}
 
 最近，我们写了一篇有关“ Kafka vs redis Pub-Sub”的文章，其中解释了Kafka和Redis Pub-Sub之间的差异。在这篇文章中，我们简短地解释了Kafka消息经纪人本身。因此，现在本文使您可以更深入地了解Apache Kafka开源分布式事件流平台，并为您提供所有必要的介绍，以启动Kafka分布式消息队列。因此，让我们开始。
-  * [Apache Kafka简介] [1]
-  * [什么是消息系统？] [2]
-  * [基本术语] [3]
-  * [安装步骤] [4]
-  * [创建一个主题] [5]
-  * [将消息写入主题] [6]
-  * [读取主题的消息] [7]
-  * [结论] [8]
+  * [Apache Kafka简介][1]
+  * [什么是消息系统？][2]
+  * [基本术语][3]
+  * [安装步骤][4]
+  * [创建一个主题][5]
+  * [将消息写入主题][6]
+  * [读取主题的消息][7]
+  * [结论][8]
 
 ## Apache Kafka简介{#intro}
 Apache Kafka开源消息经纪在LinkedIn启动，后来成为一个开源Apache项目。 Kafka消息代理软件是在Scala和Java中开发的。 Apache Kafka经纪人是一个发布订阅消息系统，它也可以在应用程序，服务器和处理器之间交换数据。它是快速，可扩展的，并且按设计分发。它能够每秒处理数百万个数据或消息。它是源（生产者）系统和目标（消费者）系统之间的调解人。 Netflix，Uber和数千家公司等组织使用Apache Kafka实时流媒体。与其他消息系统相比，KAFKA消息队列软件具有更好的吞吐量，内置分区，复制和固有的容错公差。这使其非常适合大规模消息处理应用程序。
@@ -129,9 +129,11 @@ _您使用什么开源分布式事件流平台？您有任何疑问吗？
 
 ## 探索
 您可能会发现以下链接相关：
-  * [最佳免费和开源消息队列（MQ）软件] [10]
-  * [kafka vs redis pub-sub，您应该知道的差异] [11]
-  * [Redis Pub/Sub及其如何工作？] [12]
+  * [最佳免费和开源消息队列（MQ）软件][10]
+  * [kafka vs redis pub-sub，您应该知道的差异][11]
+  * [Redis Pub/Sub及其如何工作？][12]
+
+  
 [1]: #intro
 [2]: #messaging
 [3]: #terms

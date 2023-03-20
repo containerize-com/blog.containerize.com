@@ -12,11 +12,11 @@ categories: ['Blogging']
 {{< figure align=center src="images/Beginners-Guide-To-Create-WordPress-Theme-From-Scratch-1024x536.png" alt="Um guia para iniciantes para criar o tema WordPress a partir do zero">}}
 
 Como criar o tema WordPress está entre as principais consultas na pesquisa do Google. Criar um tema WordPress pode ser simples se você conhece HTML, CSS e JavaScript básicos. No entanto, se você é novo no WordPress, este tutorial é para você. Tudo o que você precisa fazer é seguir as etapas mencionadas. Então, vamos ler este guia e aprender a criar o tema WordPress a partir do zero.
-  * [Requisitos] [1]
-  * [Guia passo a passo] [2]
+  * [Requisitos][1]
+  * [Guia passo a passo][2]
 
 ### Requisitos {#ReQuirements}
-A primeira e mais importante coisa que você precisa fazer é instalar o WordPress. O WordPress é bem conhecido por sua facilidade de instalação. É um processo simples e pode ser feito facilmente sozinho seguindo o [guia] [3].
+A primeira e mais importante coisa que você precisa fazer é instalar o WordPress. O WordPress é bem conhecido por sua facilidade de instalação. É um processo simples e pode ser feito facilmente sozinho seguindo o [guia][3].
 
 ### como criar tema WordPress; Guia passo a passo {#guide}
 Para o tema WordPress, tudo será feito apenas no diretório ** wp_content **. Basta fazer uma nova subpasta tema na pasta ** wp_content → temas.
@@ -134,6 +134,8 @@ Depois de seguir todas as etapas acima, você terá um tema básico de trabalho 
 
 ### Conclusão
 Neste tutorial, explicamos como criar tema WordPress em etapas simples e fáceis. Depois de ler e seguir as etapas, a criação de um tema do WordPress não é uma tarefa mais difícil agora. Mas, obviamente, este tutorial se atenha a uma configuração muito básica e, para melhorar, você precisará aprender mais sobre HTML, CSS, JS e PHP.
+
+  
 [1]: #requirements
 [2]: #guide
 [3]: https://products.containerize.com/blogging/wordpress

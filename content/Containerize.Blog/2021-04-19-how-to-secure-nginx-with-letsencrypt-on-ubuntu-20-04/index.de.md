@@ -108,15 +108,17 @@ Der Cron -Job sollte auch das –quiet -Attribut enthalten, wie im obigen Befehl
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Artikel haben wir gelernt, wie NGINX -Installation von LetSencrypt SSL -Zertifikat installiert wird. Wir haben SSL -Zertifikate für Ihre Domäne heruntergeladen und NGINX so konfiguriert, dass diese Zertifikate verwendet werden. Darüber hinaus sollten Sie CertBot ermöglicht haben, Zertifikate automatisch für SSL Nginx LetSencrypt zu erneuern. In unseren bevorstehenden Tutorials werden wir über interessanere Themen darüber diskutieren, wie Sie einen Webserver mit Standard -Sicherheitstechnologie sichern können, mit dem eine verschlüsselte Kommunikation zwischen einem Webbrowser und einem Webserver ermöglicht werden kann.
-Sie können sich uns auf [Twitter] [1], [linkedIn] [2] und unserer [Facebook] [3] -Seite anschließen. Mit welchem ​​kryptografischen Protokoll können Sie Kommunikationssicherheit über ein Computernetzwerk bereitstellen? Wenn Sie Fragen haben, bitte_ [Kontakt aufnehmen] [4].
+Sie können sich uns auf [Twitter][1], [linkedIn][2] und unserer [Facebook][3] -Seite anschließen. Mit welchem ​​kryptografischen Protokoll können Sie Kommunikationssicherheit über ein Computernetzwerk bereitstellen? Wenn Sie Fragen haben, bitte_ [Kontakt aufnehmen][4].
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden relevanten Links, um die Serverleistung zu überwachen und die Zuverlässigkeit und Sicherheit zu gewährleisten:
-  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu/Debian] [5]
-  * [So installieren und sichern Sie PhpMyAdmin mit Nginx auf Ubuntu] [6]
-  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian] [7]
-  * [Setup Nginx mit Passagier auf AWS Production Server] [8]
-  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu] [9]
+  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu/Debian][5]
+  * [So installieren und sichern Sie PhpMyAdmin mit Nginx auf Ubuntu][6]
+  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian][7]
+  * [Setup Nginx mit Passagier auf AWS Production Server][8]
+  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

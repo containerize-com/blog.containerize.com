@@ -76,7 +76,7 @@ MySQL 5.7以降で実行されているUbuntuサーバーでは、MySQLのデフ
 ```
 sudo mysql -u root -p
 ```
-MySQLにログインした後、選択したユーザー名で新しいMySQLスーパーユーザーを追加します。この例では、Yasiradminと呼んでいます。 [ここをクリックして、強力なパスワードを生成して] [2]、以下の新しい\ _password \ _hhereを置き換えます。
+MySQLにログインした後、選択したユーザー名で新しいMySQLスーパーユーザーを追加します。この例では、Yasiradminと呼んでいます。 [ここをクリックして、強力なパスワードを生成して][2]、以下の新しい\ _password \ _hhereを置き換えます。
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ phpMyAdmin nginxを保護するために、phpMyAdminの追加セキュリティ
 ```
 sudo apt install apache2-utils
 ```
-インストールしたら、.htpasswdファイルを生成できます。選択したユーザー名を変更します。 [パスワードを生成] [3]を安全に保ちます。
+インストールしたら、.htpasswdファイルを生成できます。選択したユーザー名を変更します。 [パスワードを生成][3]を安全に保ちます。
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ Ubuntu ServerのphpmyAdminインストールはすべて完了です。
 
 ## 探検
 また、以下のより関連する記事が好きかもしれません：
-  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法] [4]
-  * [ubuntu 20.04で暗号化してnginxを固定して暗号化する方法] [5]
-  * [ubuntu/debianでnginxでHTTP/2サポートを構成する方法] [6]
-  * [AWSプロダクションサーバーの乗客とNginxをセットアップする方法] [7]
-  * [ubuntuでapacheでowncloudをインストールして構成する方法] [8]
+  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法][4]
+  * [ubuntu 20.04で暗号化してnginxを固定して暗号化する方法][5]
+  * [ubuntu/debianでnginxでHTTP/2サポートを構成する方法][6]
+  * [AWSプロダクションサーバーの乗客とNginxをセットアップする方法][7]
+  * [ubuntuでapacheでowncloudをインストールして構成する方法][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

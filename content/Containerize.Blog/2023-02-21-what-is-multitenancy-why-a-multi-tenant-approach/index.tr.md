@@ -15,12 +15,12 @@ categories: ['Programming']
 
 
 ## Genel Bakış
-[Programlama] [1] kategorisindeki başka bir blog yayınına hoş geldiniz. Çok kiracılı bir uygulama mimarisini tartışacağız. Aslında, [Containerize.com] [2] açık kaynaklı ürün yığınında çok çeşitli çok kiracılı uygulamalara sahiptir. Açık kaynaklı çok kiracılı uygulamalar arasında [Form.io] [3], [Botpress] [4] ve daha fazlası bulunmaktadır. Buna ek olarak, bu açık kaynaklı yazılımların mimarisi, dağıtım, geliştirilmesi ve kullanımı hakkında tam [belgeler] [5] mevcuttur. Bu makaleyi yazmanın ardındaki nedeni, yazılım geliştirmede çok kiracılığın arkasındaki kavramı anlamaktır. Öyleyse,**Çok Mitenancy nedir?**Bulunalım?**Ayrıca çoklu şehir ve çok kiracılı vs tek kiracılı mimarinin artılarını ve eksilerini de gözden geçireceğiz.
+[Programlama][1] kategorisindeki başka bir blog yayınına hoş geldiniz. Çok kiracılı bir uygulama mimarisini tartışacağız. Aslında, [Containerize.com][2] açık kaynaklı ürün yığınında çok çeşitli çok kiracılı uygulamalara sahiptir. Açık kaynaklı çok kiracılı uygulamalar arasında [Form.io][3], [Botpress][4] ve daha fazlası bulunmaktadır. Buna ek olarak, bu açık kaynaklı yazılımların mimarisi, dağıtım, geliştirilmesi ve kullanımı hakkında tam [belgeler][5] mevcuttur. Bu makaleyi yazmanın ardındaki nedeni, yazılım geliştirmede çok kiracılığın arkasındaki kavramı anlamaktır. Öyleyse,**Çok Mitenancy nedir?**Bulunalım?**Ayrıca çoklu şehir ve çok kiracılı vs tek kiracılı mimarinin artılarını ve eksilerini de gözden geçireceğiz.
 Bu yazıda aşağıdaki noktalar tartışılacaktır:
-  * [Multitenancy nedir? Çok kiracılı vs tek kiracı] [6]
-  * [Çok Kireli Uygulama Mimarisi Türleri] [7]
-  * [Çok Kireli Uygulamanın İş Avantajları] [8]
-  * [Çoklu kiracılıkta dezavantajlar] [9]
+  * [Multitenancy nedir? Çok kiracılı vs tek kiracı][6]
+  * [Çok Kireli Uygulama Mimarisi Türleri][7]
+  * [Çok Kireli Uygulamanın İş Avantajları][8]
+  * [Çoklu kiracılıkta dezavantajlar][9]
 
 ## Multi -Miteancy nedir? Çok kiracı vs tek kiracı {#What-IS-Multenancy-Multi-Kenant-VS-Single Tenant}
 Multi-Mensicancy, özellikle bilinen kiracılardan çok sayıda ön uç sağlayan tek bir sunucu örneğini ifade eder. Ne zaman çok kiracılı bir yazılımla karşılaştığınızda, beyninize bu yazılımın paylaşılan bir sunucunun tek bir örneğini çalıştırdığını ve birden fazla kiracı (istemciler) bu örneğe farklı markalarla bağlandığını söyleyin.
@@ -35,42 +35,44 @@ Multi-Mensicancy, özellikle bilinen kiracılardan çok sayıda ön uç sağlaya
 
 ## Çok Kireli Uygulama Mimarisi Türleri {#Multi-Kireli Uygulama Türleri-Mimarlık}
 Şimdiye kadar, çok kiracılık hakkında bir anlayışınız var ve şimdi çeşitli türlerinden geçeceğiz.
-* * Bir veritabanı-bir uygulama örneği**: Bu yaklaşım oldukça popülerdir ve çok kiracı uygulamalar oluşturmak için yaygın olarak kullanılmıştır. Bu yaklaşıma göre, tek bir veritabanıyla çalışan bir uygulama örneği vardır. Buna ek olarak, paylaşılan bir şema vardır ve kiracının verileri benzersiz kimliklerine göre tek bir yerde saklanır.
-* * Birden çok veritabanı-Bir uygulama örneği:**Bu çok kiracılı uygulama mimarisinde, uygulamanın yalnızca bir örneği birden fazla veritabanı ile çalışır. Her kiracının kendi veritabanı şeması vardır, burada tüm bilgilerin her kiracı için ayrı ayrı kaydedildiği.
-* * Çoklu Veritabanı - Birden Çok Uygulama Örneği**: Üçüncü yaklaşım, birden çok sunucu örneği ile birlikte birden fazla veritabanı çalıştırmayı ifade eder. Paylaşılan hiçbir şey yoktur ve her kiracı tam bir izolasyona sahiptir ve kiracılar arasında bağımlılık yoktur.
+**Bir veritabanı-bir uygulama örneği**: Bu yaklaşım oldukça popülerdir ve çok kiracı uygulamalar oluşturmak için yaygın olarak kullanılmıştır. Bu yaklaşıma göre, tek bir veritabanıyla çalışan bir uygulama örneği vardır. Buna ek olarak, paylaşılan bir şema vardır ve kiracının verileri benzersiz kimliklerine göre tek bir yerde saklanır.
+**Birden çok veritabanı-Bir uygulama örneği:**Bu çok kiracılı uygulama mimarisinde, uygulamanın yalnızca bir örneği birden fazla veritabanı ile çalışır. Her kiracının kendi veritabanı şeması vardır, burada tüm bilgilerin her kiracı için ayrı ayrı kaydedildiği.
+**Çoklu Veritabanı - Birden Çok Uygulama Örneği**: Üçüncü yaklaşım, birden çok sunucu örneği ile birlikte birden fazla veritabanı çalıştırmayı ifade eder. Paylaşılan hiçbir şey yoktur ve her kiracı tam bir izolasyona sahiptir ve kiracılar arasında bağımlılık yoktur.
 
 ## Çok kiracı uygulamanın iş avantajları {#Multi-Kenant-App}
 Bu bölümde, multitenancy'yi tercih etmenin bazı önemli faydalarından yararlanacağız. Her ne kadar avantajları tartışarak uzun süre gidebiliriz, ancak aşağıdaki noktaları görelim:
-* * Ölçeklenebilirlik**: Çok kiracı bir mimariyi ölçeklendirmek kolaydır. Seçtiğiniz türden bağımsız veya dikey olarak ölçeklenebilirsiniz.
-* * Maliyet etkin**: Çoklu Miteans'i seçmek operasyonel maliyetlerinizi tasarruf eder. Paylaşılan kaynaklar vardır, bu nedenle kaynakları ölçeklendirmek her zaman uygun maliyetlidir.
-* * Verimlilik ve Esneklik**: Çok kenarlı bir ortamda, geliştirme ve dağıtımda verimlilik elde edersiniz. Örneğin, tüm kiracıları güncellemek için paylaşılan bir veritabanı şemasında bir komut dosyası çalıştırabilirsiniz.
-* * Daha İyi Kaynak Yönetimi**: Kaynakları eklemek ve kaldırmak basittir. Ayrıca, bu mimari gelişmiş ve iyi yönetilen altyapı sunmaktadır. Ayrıca, her kiracı özeldir ve güvenlidir ve paylaşılan/paylaşılmayan bir veritabanına erişebilir.
+**Ölçeklenebilirlik**: Çok kiracı bir mimariyi ölçeklendirmek kolaydır. Seçtiğiniz türden bağımsız veya dikey olarak ölçeklenebilirsiniz.
+**Maliyet etkin**: Çoklu Miteans'i seçmek operasyonel maliyetlerinizi tasarruf eder. Paylaşılan kaynaklar vardır, bu nedenle kaynakları ölçeklendirmek her zaman uygun maliyetlidir.
+**Verimlilik ve Esneklik**: Çok kenarlı bir ortamda, geliştirme ve dağıtımda verimlilik elde edersiniz. Örneğin, tüm kiracıları güncellemek için paylaşılan bir veritabanı şemasında bir komut dosyası çalıştırabilirsiniz.
+**Daha İyi Kaynak Yönetimi**: Kaynakları eklemek ve kaldırmak basittir. Ayrıca, bu mimari gelişmiş ve iyi yönetilen altyapı sunmaktadır. Ayrıca, her kiracı özeldir ve güvenlidir ve paylaşılan/paylaşılmayan bir veritabanına erişebilir.
 
 ## Multi-Tenacy'de Dezavantajlar {#Multi-Tenacy-In-Tenacy}
 Bu blog yazısının amacı,**çok kiracılı mimarlık hakkında adil bir his vermektir.**Bu nedenle, çok kiracılığa bağlı bazı eksileri keşfedelim.
-* * Karmaşık Kimlik Doğrulama Mekanizması**: Multi -Miteanity'de kaynak tahsisinin paylaşılan doğası nedeniyle, veri erişim noktaları için katı protokoller vardır.
-* * Sunucu dökümü:**Çok kiracılı uygulama mimarisini seçerken dikkate alınması gereken önemli bir noktadır. Herhangi bir nedenle sunucu düştüğünde tüm kiracılar işlevsel değildir.
-* * Gizlilik Riski**: Çok kiracılı bir mimaride, yüksek riskli güvenlik ihlali vardır. Aslında, tüm kiracıların verileri paylaşılan bir veritabanında saklanır, böylece herhangi bir üçüncü taraf istilası veri bozulmasına veya hırsızlığına neden olabilir.
+**Karmaşık Kimlik Doğrulama Mekanizması**: Multi -Miteanity'de kaynak tahsisinin paylaşılan doğası nedeniyle, veri erişim noktaları için katı protokoller vardır.
+**Sunucu dökümü:**Çok kiracılı uygulama mimarisini seçerken dikkate alınması gereken önemli bir noktadır. Herhangi bir nedenle sunucu düştüğünde tüm kiracılar işlevsel değildir.
+**Gizlilik Riski**: Çok kiracılı bir mimaride, yüksek riskli güvenlik ihlali vardır. Aslında, tüm kiracıların verileri paylaşılan bir veritabanında saklanır, böylece herhangi bir üçüncü taraf istilası veri bozulmasına veya hırsızlığına neden olabilir.
 
 ## Çözüm
 Bu blog gönderisini burada bitiriyoruz. Bu makalede**Çok Değerlilik Nedir**gibi sorularınıza cevabı var mı? Buna ek olarak,**çok kiracılı vs tek kiracılı**altyapıyı da araştırdık. Ayrıca, bu kılavuz çok kiracı uygulama mimarisi veya tek bir kiracı seçerken size yardımcı olacaktır. Her şeyden önce, bir SaaS inşa ediyorsanız ilk tercih olan çoklu deneme. “Ayrıca See” bölümünde bulabileceğiniz başka ilginç blog yayınları da var, bu da size teknoloji dünyasına en son bilgileri verecek.
-Son olarak, [Containerize.com] [2] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi [Facebook] [10], [LinkedIn] [11] ve [Twitter] [12] 'de sosyal medya hesaplarımızda takip edebilirsiniz.
+Son olarak, [Containerize.com][2] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi [Facebook][10], [LinkedIn][11] ve [Twitter][12] 'de sosyal medya hesaplarımızda takip edebilirsiniz.
 
 ## Bir soru sor
-[Forum] [13] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][13] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * Örneğin çok kiracı nedir?**
-Multitenancy'nin ne olduğunu bilmek için lütfen bu [bağlantı] [6] ziyaret edin. Örneklerle birlikte detaylar var.
-* * Çok kiracılı mimarinin anlamı nedir?**
-A**Çok Kireli Uygulama Mimarisi**, bir sunucunun tek bir örneği birden fazla kiracıya (istemciler) hizmet verir. Daha fazla ayrıntı için lütfen bu [link] [7] 'e gidin.
+**Örneğin çok kiracı nedir?**
+Multitenancy'nin ne olduğunu bilmek için lütfen bu [bağlantı][6] ziyaret edin. Örneklerle birlikte detaylar var.
+**Çok kiracılı mimarinin anlamı nedir?**
+A**Çok Kireli Uygulama Mimarisi**, bir sunucunun tek bir örneği birden fazla kiracıya (istemciler) hizmet verir. Daha fazla ayrıntı için lütfen bu [link][7] 'e gidin.
 
 ## Ayrıca bakınız
-  * [Üretken AI nedir | Üretken yapay zeka] [14]
-  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder] [15]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [16]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [17]
-  * [Yapay Zekaya Giriş | AI nedir?] [18]
+  * [Üretken AI nedir | Üretken yapay zeka][14]
+  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder][15]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][16]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][17]
+  * [Yapay Zekaya Giriş | AI nedir?][18]
+
+  
 [1]: https://blog.containerize.com/category/programming/
 [2]: https://www.containerize.com/
 [3]: https://products.containerize.com/form/formio/

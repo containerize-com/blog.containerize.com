@@ -18,11 +18,11 @@ categories: ['Blogging', 'Marketing Automation']
 Mautic-Woocommerce Entegrasyonu, Mautic APP'deki tüm kişileri almak için kolay bir yol sağlar. Ardından bu kişileri kullanarak, gereksinimlerinize göre pazarlama kampanyaları oluşturabilirsiniz. Mautic, pazarlama kampanyalarınız üzerinde tam kontrol sağlayan harika bir pazarlama aracıdır.
 Mautic açık kaynaklı ve ücretsiz pazarlama otomasyon çözümüdür. Pazarlama kampanyaları, segmentler, formlar, raporlar ve çok daha fazlası oluşturmak için kullanılır.
 WooCommerce, WordPress için açık kaynaklı bir e-ticaret eklentisidir. Bu noktada dünya çapında çoğunlukla kullanılan e-ticaret çözümüdür. WooCommerce için ihtiyaçlarınıza göre kullanılabilecek yüzlerce eklenti var.
-Mautic ve WordPress için pazarlama otomasyon çözümü sağlayan bir eklenti var. WooCommerce'ı Mautic ile entegre etmek için lütfen bu adımları izleyin [WooCommerce için Mautic ile Entegrasyon - Açık Kaynak Pazarlama Otomasyonu.] [1]
+Mautic ve WordPress için pazarlama otomasyon çözümü sağlayan bir eklenti var. WooCommerce'ı Mautic ile entegre etmek için lütfen bu adımları izleyin [WooCommerce için Mautic ile Entegrasyon - Açık Kaynak Pazarlama Otomasyonu.][1]
 Bu blog aşağıdaki bölümleri kapsayacaktır:
-  * [WordPress eklentisi yapılandırması] [2]
-  * [Mautik konfigürasyon] [3]
-  * [Son düşünceler] [4]
+  * [WordPress eklentisi yapılandırması][2]
+  * [Mautik konfigürasyon][3]
+  * [Son düşünceler][4]
 
 ## WordPress eklenti yapılandırması {#wordpress}
   1. Eklentilere gidin.
@@ -65,12 +65,14 @@ Mautic-Woocommerce entegrasyonu birlikte pazarlama hedeflerinize ulaşmanıza ya
 
 ## Keşfetmek:
 İlgili aşağıdaki bağlantıları bulabilirsiniz:
-  * [Wodpress] [6]
-  * [Mautic] [7]
-  * [Mautic nasıl kurulur - Facebook Entegrasyonu] [8]
-  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon] [9]
-  * [Mautic ve WordPress WooCommerce kullanarak pazarlama otomasyonu] [10]
-  * [Mautic'te pazarlama kampanyaları nasıl kurulur] [11]
+  * [Wodpress][6]
+  * [Mautic][7]
+  * [Mautic nasıl kurulur - Facebook Entegrasyonu][8]
+  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon][9]
+  * [Mautic ve WordPress WooCommerce kullanarak pazarlama otomasyonu][10]
+  * [Mautic'te pazarlama kampanyaları nasıl kurulur][11]
+
+  
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

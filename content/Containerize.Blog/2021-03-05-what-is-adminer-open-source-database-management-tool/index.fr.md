@@ -13,17 +13,17 @@ categories: ['Database Management Software']
 {{_LINE_11_}}
 
 ## Aperçu
-Les tâches liées aux données sont beaucoup plus critiques que jamais. L'outil de gestion de la base de données est devenu une partie intégrante de toute entreprise. Cependant, il existe de nombreux systèmes de gestion de base de données basés sur le Web qui offrent des solutions à des tâches aussi difficiles. Les entreprises génèrent quotidiennement des tonnes de données et deviennent difficiles à maintenir. De plus, les organisations ont tendance à simplifier l'accès aux données et le contrôle des données. Ces outils gratuits aident à réduire la redondance des données, à rendre les bases de données efficaces et fiables. De plus, nous avons publié des articles de blog sur des sujets tels que [les meilleurs outils logiciels Open Source DBMS] [1], et quelques autres.
+Les tâches liées aux données sont beaucoup plus critiques que jamais. L'outil de gestion de la base de données est devenu une partie intégrante de toute entreprise. Cependant, il existe de nombreux systèmes de gestion de base de données basés sur le Web qui offrent des solutions à des tâches aussi difficiles. Les entreprises génèrent quotidiennement des tonnes de données et deviennent difficiles à maintenir. De plus, les organisations ont tendance à simplifier l'accès aux données et le contrôle des données. Ces outils gratuits aident à réduire la redondance des données, à rendre les bases de données efficaces et fiables. De plus, nous avons publié des articles de blog sur des sujets tels que [les meilleurs outils logiciels Open Source DBMS][1], et quelques autres.
 Par conséquent, la communauté open source a développé un administrateur qui est un outil de gestion de la base de données gratuit au niveau de l'entreprise. Dans ce tutoriel d'administration, nous couvrirons les points suivants.
-  * [Qu'est-ce que l'administrateur?] [2]
-  * [Caractéristiques importantes de l'administrateur] [3]
-  * [Administrer vs phpmyadmin] [4]
-  * [Gérer les bases de données avec l'administration] [5]
-  * [Conclusion] [6]
+  * [Qu'est-ce que l'administrateur?][2]
+  * [Caractéristiques importantes de l'administrateur][3]
+  * [Administrer vs phpmyadmin][4]
+  * [Gérer les bases de données avec l'administration][5]
+  * [Conclusion][6]
 
 ## Qu'est-ce que l'administrateur? {#quoi}
 En ce qui concerne l'outil de gestion de la base de données MySQL léger, convivial et très performant, l'administrateur a gagné en popularité et apporte de nombreuses améliorations par rapport à la phpmyadmin. Initialement, cet outil de gestion de la base de données a été développé par Jakub Vrana en 2007 en tant qu'alternative à PhpMyAdmin, afin que tout ce que vous avez à faire soit de télécharger et d'installer un fichier PHP léger et léger dans la base de données de votre application.
-En tant qu'outil de gestion de la base de données open source, il est également gratuit et est écrit en PHP. Ce qui distingue ce système de gestion de base de données basé sur le Web, c'est une bonne conception d'interface utilisateur pour une expérience utilisateur transparente, ainsi que de solides fonctionnalités de sécurité pour protéger les données de toute attaque ou tentative de piratage malveillant. Cet outil de gestion de la base de données est facile à configurer et nécessite des exigences simples telles que Ubuntu et Lamp. Les utilisateurs peuvent trouver une documentation complète concernant le développement et le déploiement. Par conséquent, vous pouvez trouver des fichiers source de ce système de gestion de base de données basé sur le Web sur [GitHub] [7].
+En tant qu'outil de gestion de la base de données open source, il est également gratuit et est écrit en PHP. Ce qui distingue ce système de gestion de base de données basé sur le Web, c'est une bonne conception d'interface utilisateur pour une expérience utilisateur transparente, ainsi que de solides fonctionnalités de sécurité pour protéger les données de toute attaque ou tentative de piratage malveillant. Cet outil de gestion de la base de données est facile à configurer et nécessite des exigences simples telles que Ubuntu et Lamp. Les utilisateurs peuvent trouver une documentation complète concernant le développement et le déploiement. Par conséquent, vous pouvez trouver des fichiers source de ce système de gestion de base de données basé sur le Web sur [GitHub][7].
 
 ## Caractéristiques importantes de l'administrateur {#Important}
 Certaines fonctionnalités de base mais importantes de cet outil de gestion de la base de données comprennent:
@@ -43,7 +43,7 @@ Pour que l'administrateur s'exécute sur votre système, il est important que vo
   * PHP version 5, 7 ou 8
   * Un pilote de base de données comme MySQL, SQLite, PostgreSQL, etc.
 **Installation**
-Si vous avez vérifié ces deux exigences système, téléchargez simplement le fichier depuis [] [8] et commencez par télécharger le fichier PHP sur votre serveur. Pour le serveur XAMPP, renommez le fichier téléchargé en tant que «Administror.php» et placez ce fichier dans le dossier HTDOCS.
+Si vous avez vérifié ces deux exigences système, téléchargez simplement le fichier depuis [][8] et commencez par télécharger le fichier PHP sur votre serveur. Pour le serveur XAMPP, renommez le fichier téléchargé en tant que «Administror.php» et placez ce fichier dans le dossier HTDOCS.
 ** Accédez à l'interface utilisateur **
 Après avoir traversé cela, qu'est-ce que l'administrateur? Accédez maintenant à cette application à partir de http: your-ip-address / adminer.php comme indiqué:
 {{_LINE_42_}}
@@ -71,14 +71,16 @@ L'ajout de nouveaux enregistrements à une table est assez simple. Cliquez sur l
 
 ## Conclusion {#conclusion}
 Cela nous amène à la fin de ce tutoriel d'administration. Nous avons parcouru des sujets importants tels que ce qui est l'administrateur, l'administrateur vs phpmyadmin et d'autres aspects de ce système de gestion de la base de données basé sur le Web open source. J'espère que ce billet de blog vous aidera sûrement si vous cherchez à installer un outil de gestion de la base de données open source. Il est intuitif, intelligent et facile à utiliser en fait un outil de gestion de base de données très populaire. En outre, il prend en charge de nombreuses bases de données, notamment MySQL, SQLite, MongoDB et bien plus encore, ainsi que des mesures de sécurité pour protéger et prévenir tout événement de piratage malveillant. Dans l'ensemble, cet outil de gestion de la base de données est non seulement open source, mais aussi gratuit.
-Enfin, [contenerize.com] [9] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [outils de gestion de la base de données] [10] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook] [11], [LinkedIn] [12] et [Twitter] [13].
+Enfin, [contenerize.com][9] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [outils de gestion de la base de données][10] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][11], [LinkedIn][12] et [Twitter][13].
 
 ## Explorer
 Pour en savoir plus sur les outils gratuits de gestion des bases de données sur le Web, veuillez consulter les pages suivantes:
-  * [Administrateur | Système de gestion de la base de données Web gratuit] [14]
-  * [Top outils logiciels Open Source DBMS] [1]
-  * [Top 5 des outils de gestion de la base de données open source en 2021] [15]
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [16]
+  * [Administrateur | Système de gestion de la base de données Web gratuit][14]
+  * [Top outils logiciels Open Source DBMS][1]
+  * [Top 5 des outils de gestion de la base de données open source en 2021][15]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][16]
+
+  
 [1]: https://products.containerize.com/database-management
 [2]: #what
 [3]: #important

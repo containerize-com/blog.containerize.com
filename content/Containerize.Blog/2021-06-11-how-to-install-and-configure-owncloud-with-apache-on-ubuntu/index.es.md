@@ -48,7 +48,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_39_}}
 
 ## Paso 2: Descargar OwnCloud en Ubuntu
-Después de configurar con éxito el servidor de lámparas en su sistema Ubuntu, descargemos la última solución de almacenamiento de nube privada de OwnCloud de su [sitio web oficial] [1].
+Después de configurar con éxito el servidor de lámparas en su sistema Ubuntu, descargemos la última solución de almacenamiento de nube privada de OwnCloud de su [sitio web oficial][1].
 CD /TMP
 wget https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2
 {{_LINE_44_}}
@@ -107,15 +107,17 @@ Los siguientes son las alternativas propias y del software de alojamiento de arc
 
 ## ** Conclusión: ** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
 ¡Felicidades! Ha instalado y configurado con éxito OwnCloud para construir su propia nube privada con Apache en Ubuntu Machine. Ahora sus datos nunca están en manos de terceros y se pueden administrar en privado en el almacenamiento de servidor privado de Ubuntu de Cloud Virtual Cloud. Muchas compañías eligen crear sus propios servidores de Cloud con mucha información vital debido a muchos problemas con la privacidad de los datos. En nuestros próximos tutoriales, discutiremos temas más interesantes de las pilas de soluciones de servidor web.
-_Un puede unirse a nosotros en [Twitter] [2], [LinkedIn] [3] y nuestra página [Facebook] [4]. ¿Qué solución de almacenamiento basada en la nube usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto] [5].
+_Un puede unirse a nosotros en [Twitter][2], [LinkedIn][3] y nuestra página [Facebook][4]. ¿Qué solución de almacenamiento basada en la nube usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto][5].
 
 ## Explorar:
 También tenemos varios otros artículos relacionados con la administración diaria de su servidor.
-  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian] [6]
-  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu] [7]
-  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04] [8]
-  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian] [9]
-  * [Configurar nginx con pasajero en el servidor de producción de AWS] [10]
+  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian][6]
+  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu][7]
+  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04][8]
+  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian][9]
+  * [Configurar nginx con pasajero en el servidor de producción de AWS][10]
+
+  
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

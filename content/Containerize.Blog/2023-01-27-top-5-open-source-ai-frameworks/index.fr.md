@@ -15,68 +15,70 @@ categories: ['Artificial intelligence']
 
 
 ## Aperçu
-Nous avons publié des articles de blog vraiment intéressants et tendances dans la catégorie de l'intelligence artificielle****. Le plus récent [Article] [1] a démontré une introduction à l'IA, les types et les applications de l'intelligence artificielle. Cependant, ce billet de blog est généralement destiné aux développeurs de logiciels qui sont des amateurs d'IA. Il y a une large étendue de développement dans cette branche de l'informatique. En fait, l'ère moderne appartient absolument à l'intelligence artificielle. Juste pour récapituler, l'IA est la simulation de l'intelligence humaine dans les machines artificielles. Ainsi, les organisations de logiciels investissent massivement dans l'IA pour enrichir cette technologie avec des fonctionnalités avancées. Par conséquent, la communauté open source a développé certains cadres et bibliothèques de niveau d'entreprise pour développer et déployer des applications commerciales alimentées par l'IA. Commençons ce guide et explorons le**Top 5 des frameworks AI open source.**
+Nous avons publié des articles de blog vraiment intéressants et tendances dans la catégorie de l'intelligence artificielle****. Le plus récent [Article][1] a démontré une introduction à l'IA, les types et les applications de l'intelligence artificielle. Cependant, ce billet de blog est généralement destiné aux développeurs de logiciels qui sont des amateurs d'IA. Il y a une large étendue de développement dans cette branche de l'informatique. En fait, l'ère moderne appartient absolument à l'intelligence artificielle. Juste pour récapituler, l'IA est la simulation de l'intelligence humaine dans les machines artificielles. Ainsi, les organisations de logiciels investissent massivement dans l'IA pour enrichir cette technologie avec des fonctionnalités avancées. Par conséquent, la communauté open source a développé certains cadres et bibliothèques de niveau d'entreprise pour développer et déployer des applications commerciales alimentées par l'IA. Commençons ce guide et explorons le**Top 5 des frameworks AI open source.**
 Nous couvrirons les bibliothèques AI open source suivantes:**
-  ***[TensorFlow] [2]**
-  ***[pytorch] [3]**
-  ***[keras] [4]**
-  ***[Scikit-learn] [5]**
-  ***[Caffe] [6]**
+  ***[TensorFlow][2]**
+  ***[pytorch][3]**
+  ***[keras][4]**
+  ***[Scikit-learn][5]**
+  ***[Caffe][6]**
 
 ## TENSORFLOW {#tensorflow}
-[TensorFlow] [7] est un cadre open source pour les algorithmes d'apprentissage automatique de construction (ML) pour résoudre des problèmes complexes. C'est l'une des plus grandes bibliothèques d'IA open source**qui simplifie le développement de modèles d'apprentissage automatique. De plus, TensorFlow propose une large gamme d'outils qui aident à préparer des ensembles de données, à construire des modèles ML, puis à déployer et à mettre en œuvre des modèles ML. De plus, ce**Framework d'intelligence artificielle de source ouverte**est multiplateforme et vous pouvez créer des modèles ML pour les ordinateurs de bureau, les mobiles et les plates-formes Web.
+[TensorFlow][7] est un cadre open source pour les algorithmes d'apprentissage automatique de construction (ML) pour résoudre des problèmes complexes. C'est l'une des plus grandes bibliothèques d'IA open source**qui simplifie le développement de modèles d'apprentissage automatique. De plus, TensorFlow propose une large gamme d'outils qui aident à préparer des ensembles de données, à construire des modèles ML, puis à déployer et à mettre en œuvre des modèles ML. De plus, ce**Framework d'intelligence artificielle de source ouverte**est multiplateforme et vous pouvez créer des modèles ML pour les ordinateurs de bureau, les mobiles et les plates-formes Web.
 
 {{< figure align=center src="images/lockup.png" alt="intelligence artificielle open source">}}
 
-De plus, il propose une API pour les intégrations tierces et est livrée avec des capacités d'auto-hébergement. Cette**bibliothèque AI gratuite i**est très populaire et est soutenue par une énorme communauté. Il existe des ressources et des documents disponibles pour les développeurs et les visiteurs. Surtout, il y a 171k étoiles et 87,7k fourches sur son [github] [8].
-[**En savoir plus sur TensorFlow**] [7]
+De plus, il propose une API pour les intégrations tierces et est livrée avec des capacités d'auto-hébergement. Cette**bibliothèque AI gratuite i**est très populaire et est soutenue par une énorme communauté. Il existe des ressources et des documents disponibles pour les développeurs et les visiteurs. Surtout, il y a 171k étoiles et 87,7k fourches sur son [github][8].
+[**En savoir plus sur TensorFlow**][7]
 
 ## pytorch {#pytorch}
-[Pytorch] [9] est un autre framework d'apprentissage automatique de niveau d'entreprise**avec un écosystème robuste. Il propose un frontal convivial, est facile à configurer et vous pouvez l'installer [localement] [10] ou sur le [Cloud] [11]. De plus, il est pris en charge par [Google Cloud Platform] [12], [Amazon Web Services] [13] et [Microsoft Azure] [14]. Il y a une [documentation] complète [15] et des ressources disponibles concernant le développement, les tests et le déploiement.
+[Pytorch][9] est un autre framework d'apprentissage automatique de niveau d'entreprise**avec un écosystème robuste. Il propose un frontal convivial, est facile à configurer et vous pouvez l'installer [localement][10] ou sur le [Cloud][11]. De plus, il est pris en charge par [Google Cloud Platform][12], [Amazon Web Services][13] et [Microsoft Azure][14]. Il y a une [documentation] complète [15] et des ressources disponibles concernant le développement, les tests et le déploiement.
 
 {{< figure align=center src="images/pytorch-logo-dark.png" alt="bibliothèques d'IA open source">}}
 
-De plus, Pytorch propose également un développement de réseaux neuronaux qui fait partie intégrante de l'apprentissage automatique. Ce framework ML**Open-source**est principalement écrit en C ++ et Python et a de très bonnes statistiques sur son [github] [16] avec 62,1k étoiles et 17,3k.
-* * [En savoir plus sur Pytorch] [9]**
+De plus, Pytorch propose également un développement de réseaux neuronaux qui fait partie intégrante de l'apprentissage automatique. Ce framework ML**Open-source**est principalement écrit en C ++ et Python et a de très bonnes statistiques sur son [github][16] avec 62,1k étoiles et 17,3k.
+**[En savoir plus sur Pytorch][9]**
 
 ## keras {#keras}
-[Keras] [17] est une puissante API d'apprentissage en profondeur**à source ouverte qui offre de riches outils d'apprentissage automatique pour faciliter la charge du développeur. Cette plate-forme ML se déroule sur Tensorflow et offre des workflows simples pour une expérimentation rapide. Surtout, il est très utile et est utilisé par [NASA] [18], [YouTube] [19] et d'autres géants populaires. Cette**plate-forme AI open source**propose des solutions d'apprentissage automatique à des problèmes réels plus efficacement et plus rapidement.
+[Keras][17] est une puissante API d'apprentissage en profondeur**à source ouverte qui offre de riches outils d'apprentissage automatique pour faciliter la charge du développeur. Cette plate-forme ML se déroule sur Tensorflow et offre des workflows simples pour une expérimentation rapide. Surtout, il est très utile et est utilisé par [NASA][18], [YouTube][19] et d'autres géants populaires. Cette**plate-forme AI open source**propose des solutions d'apprentissage automatique à des problèmes réels plus efficacement et plus rapidement.
 
 {{< figure align=center src="images/logo-1024x297.png" alt="plate-forme d'apprentissage automatique">}}
 
-De plus, vous pouvez exporter des modèles Keras dans JavaScript et les exécuter sur des plates-formes Web. En fait, vous pouvez générer des fichiers pertinents de modèles pour exécuter sur iOS, Android et des appareils intégrés. De plus, il a une grande communauté de soutien et de développeurs. Il est écrit en Python et sécurise de bonnes statistiques sur [Github] [20] avec 57,2k étoiles et 19,3k fourchettes.
-* * [En savoir plus sur Keras] [21]**
+De plus, vous pouvez exporter des modèles Keras dans JavaScript et les exécuter sur des plates-formes Web. En fait, vous pouvez générer des fichiers pertinents de modèles pour exécuter sur iOS, Android et des appareils intégrés. De plus, il a une grande communauté de soutien et de développeurs. Il est écrit en Python et sécurise de bonnes statistiques sur [Github][20] avec 57,2k étoiles et 19,3k fourchettes.
+**[En savoir plus sur Keras][21]**
 
 ## Scikit-Learn {# Scikit-Learn}
-[Scikit-learn] [22] est un autre de ces**frameworks AI open-source**qui sont écrits en python. Il fournit une analyse prédictive des données et est très évolutif. Ce cadre d'apprentissage automatique a fait partie intégrante des**systèmes AI**de nombreuses grandes entreprises telles que [J.P.Morgan] [23], [Spotify] [24], [Booking.com] [25], et plus encore. Booking.com utilise SQKIKIT-LEARN pour recommander des hôtels et des destinations de voyage aux clients.
+[Scikit-learn][22] est un autre de ces**frameworks AI open-source**qui sont écrits en python. Il fournit une analyse prédictive des données et est très évolutif. Ce cadre d'apprentissage automatique a fait partie intégrante des**systèmes AI**de nombreuses grandes entreprises telles que [J.P.Morgan][23], [Spotify][24], [Booking.com][25], et plus encore. Booking.com utilise SQKIKIT-LEARN pour recommander des hôtels et des destinations de voyage aux clients.
 
 {{< figure align=center src="images/scikit-learn-logo-small.png" alt="bibliothèques d'IA open source,">}}
 
-Ce framework AI**open-source**est également écrit en python et très facile à configurer car il nécessite moins de dépendances telles que Numpy, Scipy, JoBlib et Threadpoolctl. Il propose également des composants réutilisables accessibles à tous. De plus, il y a une énorme communauté et un soutien derrière Scikit-Learns, et a également de bonnes statistiques sur [Github] [26] avec 52,7 km et 23,9k fourchettes.
-* * [En savoir plus sur Scikit-Learn] [22]**
+Ce framework AI**open-source**est également écrit en python et très facile à configurer car il nécessite moins de dépendances telles que Numpy, Scipy, JoBlib et Threadpoolctl. Il propose également des composants réutilisables accessibles à tous. De plus, il y a une énorme communauté et un soutien derrière Scikit-Learns, et a également de bonnes statistiques sur [Github][26] avec 52,7 km et 23,9k fourchettes.
+**[En savoir plus sur Scikit-Learn][22]**
 
 ## Caffe {#Caffe}
-[Caffe] [27] est un autre cadre d'apprentissage en profondeur open source qui se concentre sur la modularité et la vitesse. Il offre une architecture expressive avec des optimisations de haut niveau. Ce**Cadre d'intelligence artificielle (AI)****est extensible et robuste pour le déploiement et les expériences de l'industrie de la recherche. De plus, il existe une communauté dynamique qui a été active dans les contributions du code.
-Le repo [github] [28] du cadre de la CAFE a encouragé les statistiques avec 33k étoiles et 19k fourchettes. De plus, il est principalement écrit en C ++ avec un petit entrée dans d'autres langues telles que Python, et plus encore.
-[**En savoir plus sur Caffe**] [27]
+[Caffe][27] est un autre cadre d'apprentissage en profondeur open source qui se concentre sur la modularité et la vitesse. Il offre une architecture expressive avec des optimisations de haut niveau. Ce**Cadre d'intelligence artificielle (AI)****est extensible et robuste pour le déploiement et les expériences de l'industrie de la recherche. De plus, il existe une communauté dynamique qui a été active dans les contributions du code.
+Le repo [github][28] du cadre de la CAFE a encouragé les statistiques avec 33k étoiles et 19k fourchettes. De plus, il est principalement écrit en C ++ avec un petit entrée dans d'autres langues telles que Python, et plus encore.
+[**En savoir plus sur Caffe**][27]
 
 ## Conclusion
 Cela nous amène à la fin de ce billet de blog. Les principaux plats à retenir de cet article sont le**Top 5 des frameworks AI open source**. De plus, nous avions une vue d'observation de ces frameworks d'intelligence artificielle**à source ouverte**. Ainsi, ce guide vous aidera sûrement si vous cherchez sérieusement à équiper votre logiciel d'entreprise d'une intelligence artificielle. Sans aucun doute,**Machine Learning**et**Natural Language Processing**sont d'énormes succès maintenant et à l'avenir. De plus, il existe des articles très intéressants et pertinents que vous pourriez découvrir dans la section «voir aussi» ci-dessous.
-Enfin, [contenerize.com] [29] écrit continuellement des articles de blog sur d'autres produits et sujets open-source. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook] [30], [LinkedIn] [31] et [Twitter] [32].
+Enfin, [contenerize.com][29] écrit continuellement des articles de blog sur d'autres produits et sujets open-source. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][30], [LinkedIn][31] et [Twitter][32].
 
 ## Poser une question
-Vous pouvez nous informer de vos questions ou questions sur notre [Forum] [33].
+Vous pouvez nous informer de vos questions ou questions sur notre [Forum][33].
 
 ## FAQS
-* * Quel cadre est utilisé pour l'intelligence artificielle?**
-[TensorFlow] [7] est un framework AI open-source très populaire et de niveau d'entreprise**. En outre, il y a d'autres options disponibles telles que [Pytorch] [9], [Scikit-Learn] [22] et plus encore.
-* * Est-ce que TensorFlow est open source?**
-Oui, il est open-source et propose des capacités d'auto-hébergement. Veuillez visiter ce [lien] [2] pour explorer davantage TensorFlow.
+**Quel cadre est utilisé pour l'intelligence artificielle?**
+[TensorFlow][7] est un framework AI open-source très populaire et de niveau d'entreprise**. En outre, il y a d'autres options disponibles telles que [Pytorch][9], [Scikit-Learn][22] et plus encore.
+**Est-ce que TensorFlow est open source?**
+Oui, il est open-source et propose des capacités d'auto-hébergement. Veuillez visiter ce [lien][2] pour explorer davantage TensorFlow.
 
 ## Voir également
-  * [Une introduction à l'intelligence artificielle | Qu'est-ce que AI?] [1]
-  * [Comment utiliser Chatgpt dans vscode | Le code d'extension vscode gpt] [34]
-  * [Qu'est-ce que le chatbot openai gpt-3 | Chatgpt une révolution AI] [35]
+  * [Une introduction à l'intelligence artificielle | Qu'est-ce que AI?][1]
+  * [Comment utiliser Chatgpt dans vscode | Le code d'extension vscode gpt][34]
+  * [Qu'est-ce que le chatbot openai gpt-3 | Chatgpt une révolution AI][35]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
 [2]: #TensorFlow
 [3]: #PyTorch

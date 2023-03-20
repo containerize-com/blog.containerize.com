@@ -15,12 +15,12 @@ categories: ['Software Development']
 
 
 ## Genel Bakış
-Bir moladan sonra geri döndük ve açık kaynaklı yazılım dünyasında ilginç ve trend konular hakkında tutarlı makaleler yazmaktan heyecan duyuyoruz. Buna ek olarak, bu platformun sizi mevcut iş yazılımınıza değer katabilecek her yeni [açık kaynaklı proje] [1] hakkında güncel tutacağını bildirmektir.
+Bir moladan sonra geri döndük ve açık kaynaklı yazılım dünyasında ilginç ve trend konular hakkında tutarlı makaleler yazmaktan heyecan duyuyoruz. Buna ek olarak, bu platformun sizi mevcut iş yazılımınıza değer katabilecek her yeni [açık kaynaklı proje][1] hakkında güncel tutacağını bildirmektir.
 Bu blog yazısında,**Çeviri Yönetim Sistemini**çeşitli perspektiflerden açıklamaya çalışacağız. Küreselleşme ve Yerelleştirme**nasıl çevrimiçi işletme sitenize fayda sağlayabilir. Ayrıca, çeviri yönetimi yazılımı tarafından sunulan otomasyonu da keşfedeceğiz.
 Aşağıdaki noktalar bu makalede ele alınacaktır:
-  * [Çeviri yönetim sistemi nedir?] [2]
-  * [Nasıl çalışır ve ne sunar? ] [3]
-  * [Küreselleşme ve Yerelleştirmenin İş Faydaları] [4]
+  * [Çeviri yönetim sistemi nedir?][2]
+  * [Nasıl çalışır ve ne sunar? ][3]
+  * [Küreselleşme ve Yerelleştirmenin İş Faydaları][4]
 
 ## Çeviri yönetim sistemi nedir? {#Ne-a-translasyon-yönetim sistemi}
 A**Çeviri Yönetim Sistemi (TMS)**, web sitenizin/yazılımınızın veya uygulamanızın çevirilerini yönetir ve otomatikleştirir. Bu yazılım, web sitesi dosyalarınızı giriş olarak alır, bunları farklı dillere çevirir ve web sitesini otomatik olarak günceller. Ayrıca, sadece çevirileri yönetmekle kalmaz, aynı zamanda ortak çalışanların ve editörlerin sorunsuz bir şekilde etkileşime girebileceği entegre bir platform sunar.
@@ -35,7 +35,7 @@ Açık kaynaklı çeviri yönetimi yazılımının en havalı kısmı, ölçekle
 Herhangi bir çeviri yönetim sisteminin (TMZ) temel özellikleri aşağıdadır:
 
 ####**Üçüncü taraf entegrasyonlar için API**
-Bir işletme düzeyinde**tms**her zaman [i18n] [5] gibi diğer uygulamalar ve çeviri modülleriyle entegrasyon için kullanılan bir API sağlar.
+Bir işletme düzeyinde**tms**her zaman [i18n][5] gibi diğer uygulamalar ve çeviri modülleriyle entegrasyon için kullanılan bir API sağlar.
 
 #### Global Arama
 Bir çeviri yönetim sisteminde binlerce çeviri projesi olacak ve eğer birçok çeviri dosyasından belirli bir kaydı aramak için muazzam bir zaman alabilir. Bu nedenle, iyi bir TMS, dize gibi belirli bir kayıt bulmaya yardımcı olan pürüzsüz bir küresel arama özelliği ile donatılmıştır.
@@ -66,10 +66,10 @@ Bu, iş yazılımınızın yerelleştirilmesinin ve küreselleşmesinin en büy�
 
 ## Özetliyor
 Bu bizi bu blog yazısının sonuna götürüyor. Bu makaleyi iyice yaşadığınızı ve bir çeviri yönetim sisteminin eko sistemini anladığınızı umuyoruz. Ayrıca, web sitesi yerelleştirme hizmetleri sunan birçok açık kaynaklı çeviri yönetimi yazılımı vardır. Ancak, iş ihtiyaçlarınızı akılda tutarken seçimi yapmak size kalmıştır. Ayrıca, web sitesi yerelleştirmesi, herhangi bir işletme web sitesi için olması gereken bir bileşendir.
-Son olarak, [**Containerize.com**] [6] daha fazla açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen iletişim halinde olun.
+Son olarak, [**Containerize.com**][6] daha fazla açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen iletişim halinde olun.
 
 ## Bir soru sor {#Ask-a-sorgu}
-[Forum] [7] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][7] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS {#FAQS}
 
@@ -77,13 +77,15 @@ Son olarak, [**Containerize.com**] [6] daha fazla açık kaynaklı ürünler üz
 Evet, statik ve dinamik kaynakları içeren büyük miktarda içerikle uğraşıyorsanız. Böylece, çevirileri otomatikleştirmek ve yönetmek için açık kaynaklı**çeviri yönetimi yazılımı**barındırabilirsiniz.
 
 ####**TMS'nin avantajları nelerdir?**
-Bir çeviri yönetim sisteminin avantajlarını öğrenmek için lütfen bu [link] [4] ziyaret edin.
+Bir çeviri yönetim sisteminin avantajlarını öğrenmek için lütfen bu [link][4] ziyaret edin.
 
 ## Ayrıca bkz. {#See-ALSO}
-  * [Sürüm kontrol yazılımı] [8]
-  * [Pazarlama Otomasyonu] [9]
-  * [Dağıtım araçları] [10]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [11]
+  * [Sürüm kontrol yazılımı][8]
+  * [Pazarlama Otomasyonu][9]
+  * [Dağıtım araçları][10]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][11]
+
+  
 [1]: https://products.containerize.com/
 [2]: #What-is-a-translation-management-system
 [3]: #How-does-it-work-and-what-does-it-offer

@@ -14,13 +14,13 @@ categories: ['Invoicing']
 {{< figure align=center src="images/blog-crater.png" alt="Système de facture open source">}}
 
 Chaque entreprise a besoin d'une sorte de système pour la gestion des factures, des dépenses, des paiements et bien d'autres. Le logiciel de facturation vous aide à le gérer afin que vous puissiez facilement effectuer des tâches de facturation et garder l'accent sur d'autres choses importantes. Dans cet article, nous apprendrons à configurer le cratère et à l'utiliser pour gérer les opérations comptables pour l'entreprise.
-  * [Introduction sur le cratère] [1]
-  * [Procédure d'installation du cratère] [2]
-  * [Exploration des caractéristiques] [3]
-  * [Conclusion] [4]
+  * [Introduction sur le cratère][1]
+  * [Procédure d'installation du cratère][2]
+  * [Exploration des caractéristiques][3]
+  * [Conclusion][4]
 
 ## Introduction sur le cratère {#introduction}
-[CRATER] [5] est une application de facturation gratuite et open source. Il est absolument gratuit et vous pouvez facilement le mettre à jour vers les versions les plus récentes. Il s'agit d'un système comptable gratuit pour les petites entreprises et les pigistes. Il s'agit également d'une solution complète de facturation, vous permettant de suivre les dépenses et les paiements, de calculer les impôts et de produire des estimations et des factures. De plus, il est livré avec les applications mobiles prêtes à l'emploi pour les appareils iPhone et Android. Cela vous permettra de le gérer depuis n'importe quel endroit. Étant donné que Crater est un logiciel de facturation sur le Web, l'application Web est conçue avec Laravel et Vuejs, et les applications mobiles sont conçues avec React Native. Toutes les documents liés au développement et au déploiement sont disponibles. Le code source complet peut être trouvé sur [github] [6].
+[CRATER][5] est une application de facturation gratuite et open source. Il est absolument gratuit et vous pouvez facilement le mettre à jour vers les versions les plus récentes. Il s'agit d'un système comptable gratuit pour les petites entreprises et les pigistes. Il s'agit également d'une solution complète de facturation, vous permettant de suivre les dépenses et les paiements, de calculer les impôts et de produire des estimations et des factures. De plus, il est livré avec les applications mobiles prêtes à l'emploi pour les appareils iPhone et Android. Cela vous permettra de le gérer depuis n'importe quel endroit. Étant donné que Crater est un logiciel de facturation sur le Web, l'application Web est conçue avec Laravel et Vuejs, et les applications mobiles sont conçues avec React Native. Toutes les documents liés au développement et au déploiement sont disponibles. Le code source complet peut être trouvé sur [github][6].
 
 ## Procédure d'installation du cratère {#installation}
 Nous discuterons de la façon d'installer Crater avec la méthode manuelle et d'utiliser Docker dans cette section.
@@ -68,12 +68,14 @@ Dans cette section, nous explorerons les caractéristiques de base de cette appl
 
 ## Conclusion {#conclusion}
 Nous avons appris Crater et comment le configurer manuellement et avec Docker. Nous avons également examiné certaines des fonctionnalités que chaque logiciel de facturation comptabilité devrait fournir. J'espère que ce guide peut vous aider à mettre rapidement en œuvre un système de factures open source pour votre entreprise.
-Enfin, [contenerize.com] [7] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [facturation] [8] pour les mises à jour régulières.
+Enfin, [contenerize.com][7] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [facturation][8] pour les mises à jour régulières.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [Crater - Système comptable gratuit pour les petites entreprises] [5]
-  * [Top 5 du logiciel de comptabilité open source en 2021] [9]
+  * [Crater - Système comptable gratuit pour les petites entreprises][5]
+  * [Top 5 du logiciel de comptabilité open source en 2021][9]
+
+  
 [1]: #Introduction
 [2]: #Installation
 [3]: #Feature

@@ -15,13 +15,13 @@ categories: ['Marketing Automation']
 
 Mautic bir pazarlama otomasyon yazılımıdır ve pazarlama e -postaları, açılış sayfaları ve pazarlama faaliyetleri için iş akışları üzerinde tam kontrol sağlar. Mautic’in damla kampanyaları, hedef kitleye dahil olmaya ve ürünleriniz hakkında güncel tutmaya yardımcı olur. Mautic Facebook entegrasyonu, yeni olası satışların Mautic'e eklenmesi için bir yol sağlar. Bu Mautic - Facebook entegrasyonu ile Facebook kampanyanızdan potansiyel müşteriler otomatik olarak Mautic'e eklenecektir.
 Bu öğreticideki aşağıdaki bölümleri ele alacağız:
-  * [Facebook geliştirici hesabını yapılandır] [1]
-  * [Facebook geliştiricisinin uygulamasını yapılandır] [2]
-  * [Mautic eklenti yapılandırması] [3]
-  * [Sonuç] [4]
+  * [Facebook geliştirici hesabını yapılandır][1]
+  * [Facebook geliştiricisinin uygulamasını yapılandır][2]
+  * [Mautic eklenti yapılandırması][3]
+  * [Sonuç][4]
 
 ## Facebook Geliştirici Hesabını Yapılandır {#Account}
-  * [Geliştiriciler için Facebook] [5]
+  * [Geliştiriciler için Facebook][5]
   * Varsa hesabınızı kaydedin.
   * Yeni bir hesap kaydetmek için, sağ üst köşeden “Başla” yı tıklayın.
   * Bundan sonra Facebook hesabınızı seçin ve “Devam” a basın.
@@ -77,11 +77,13 @@ MAUTIC - Facebook entegrasyonu, Facebook potansiyel müşterilerinizi zorluk çe
 
 ## Keşfetmek
 Mautic ve Facebook hakkında daha fazla bilgi edinmek için lütfen şu adresi ziyaret edin:
-  * [Mautic | Açık Kaynak İçerik Pazarlama Teknolojisi Platformu] [6]
-  * [Kampanya Oluşturucu Kullanarak Mautic Kampanyalar Nasıl Kurulur] [7]
-  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon] [8]
-  * [Mautic ve WooCommerce Entegrasyonu ile Pazarlama Otomasyonu] [9]
-  * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre] [10]
+  * [Mautic | Açık Kaynak İçerik Pazarlama Teknolojisi Platformu][6]
+  * [Kampanya Oluşturucu Kullanarak Mautic Kampanyalar Nasıl Kurulur][7]
+  * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon][8]
+  * [Mautic ve WooCommerce Entegrasyonu ile Pazarlama Otomasyonu][9]
+  * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre][10]
+
+  
 [1]: #account
 [2]: #app
 [3]: #configuration

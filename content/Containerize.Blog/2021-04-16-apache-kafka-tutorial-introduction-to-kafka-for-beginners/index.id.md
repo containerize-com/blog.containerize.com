@@ -14,14 +14,14 @@ categories: ['Message Queue Software']
 {{< figure align=center src="images/apache-kafka-open-source.png" alt="Apache Kafka Tutorial Open Source">}}
 
 Baru-baru ini kami menulis sebuah artikel tentang “Kafka vs Redis Pub-Sub-Sub” yang menjelaskan tentang perbedaan antara Kafka dan Redis pub-sub. Dalam artikel itu kami segera menjelaskan tentang broker pesan Kafka itu sendiri. Jadi, sekarang artikel ini memberi Anda lebih banyak wawasan tentang platform streaming acara Open Source Apache Kafka yang didistribusikan dan memberi Anda semua yang diperlukan untuk memulai dengan antrian pesan terdistribusi Kafka. Jadi, mari kita mulai.
-  * [Pengantar Apache Kafka] [1]
-  * [Apa itu sistem pesan?] [2]
-  * [Istilah fundamental] [3]
-  * [Langkah Instalasi] [4]
-  * [Buat topik] [5]
-  * [Tulis pesan ke topik] [6]
-  * [Baca pesan dari topik] [7]
-  * [Kesimpulan] [8]
+  * [Pengantar Apache Kafka][1]
+  * [Apa itu sistem pesan?][2]
+  * [Istilah fundamental][3]
+  * [Langkah Instalasi][4]
+  * [Buat topik][5]
+  * [Tulis pesan ke topik][6]
+  * [Baca pesan dari topik][7]
+  * [Kesimpulan][8]
 
 ## Pengantar Apache Kafka {#intro}
 Apache Kafka Pesan Pesan Open Source dimulai di LinkedIn dan kemudian menjadi proyek Apache open source. Perangkat lunak broker pesan Kafka dikembangkan di Scala dan Java. Apache Kafka Broker adalah sistem pesan berlangganan yang diterbitkan yang memungkinkan pertukaran data antara aplikasi, server, dan prosesor juga. Ini cepat, dapat diskalakan, dan didistribusikan oleh desain. Ini mampu menangani jutaan data atau pesan per detik. Ini berfungsi sebagai mediator antara sistem sumber (produsen) dan sistem target (konsumen). Organisasi seperti Netflix, Uber, dan ribuan perusahaan tersebut memanfaatkan Apache Kafka streaming waktu nyata. Dibandingkan dengan sistem pesan lainnya, perangkat lunak antrian pesan Kafka memiliki throughput yang lebih baik, partisi bawaan, replikasi, dan toleransi kesalahan yang melekat. Ini membuatnya cocok untuk aplikasi pemrosesan pesan skala besar.
@@ -125,13 +125,15 @@ Jangan ragu untuk bereksperimen: Misalnya, beralih kembali ke terminal produser 
 
 ## kesimpulan {#conclusion}
 Dalam tutorial ini kami telah belajar tentang dasar -dasar penggunaan Apache Kafka. Kami menginstal layanan antrian Kafka dan kemudian mengonfigurasinya. Kami juga belajar cara membuat topik di Kafka, mengirim pesan ke topik dan cara membaca pesan dari topik. Saya harap artikel ini berguna untuk Anda. Mari bertemu di artikel berikutnya.
-_WApa Platform Streaming Acara Terdistribusi Sumber Terbuka yang Anda Gunakan?. Apakah Anda punya pertanyaan?, Tolong_ [hubungi] [9].
+_WApa Platform Streaming Acara Terdistribusi Sumber Terbuka yang Anda Gunakan?. Apakah Anda punya pertanyaan?, Tolong_ [hubungi][9].
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan berikut yang relevan:
-  * [Perangkat Lunak Antrian Pesan Best Gratis dan Open Source (MQ)] [10]
-  * [Kafka vs Redis Pub-Sub-Sub, Perbedaan Yang Harus Anda Ketahui] [11]
-  * [Pengantar redis pub/sub dan bagaimana cara kerjanya?] [12]
+  * [Perangkat Lunak Antrian Pesan Best Gratis dan Open Source (MQ)][10]
+  * [Kafka vs Redis Pub-Sub-Sub, Perbedaan Yang Harus Anda Ketahui][11]
+  * [Pengantar redis pub/sub dan bagaimana cara kerjanya?][12]
+
+  
 [1]: #intro
 [2]: #messaging
 [3]: #terms

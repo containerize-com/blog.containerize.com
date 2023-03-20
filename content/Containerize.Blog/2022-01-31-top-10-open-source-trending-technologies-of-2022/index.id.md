@@ -67,14 +67,16 @@ Teknologi Blockchain memungkinkan ** transaksi peer-to-peer ** sehingga pengguna
 
 ## ** Kesimpulan: ** {#4a1a}
 Kami telah sampai di akhir daftar kami saat ini dan tren ** Top 10 teknologi muncul ** 2022. Sepuluh teknologi open source teratas ini telah secara dramatis mengubah dunia di sekitar kita. Dunia ini akan menjadi tempat yang sangat berbeda tanpa platform dan teknologi sumber terbuka ini. Ada beberapa alternatif sumber tertutup yang tersedia untuk teknologi gratis ini. Foss4g dan status acara peta adalah peluang untuk mempelajari lebih lanjut tentang kebutuhan open source of software. Hampir semuanya akan berbeda tanpa perangkat lunak open source ** OSS **. Bersyukur atas inisiatif dan komunitas open source.
-_Apa daftar teknologi open source favorit Anda?. Apakah Anda memiliki pertanyaan tentang open source _technologies_?, Silakan_ [hubungi Anda] [1].
+_Apa daftar teknologi open source favorit Anda?. Apakah Anda memiliki pertanyaan tentang open source _technologies_?, Silakan_ [hubungi Anda][1].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa informasi terkait lainnya dari OSS Watch:
-  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File] [2]
-  * [Perangkat Lunak Top 5 Open Source Message Queue (MQ) pada tahun 2021] [3]
-  * [Alat forensik digital open source paling populer] [4]
-  * [Lisensi Open Source yang Disetujui OSI Paling Populer] [5]
+  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][2]
+  * [Perangkat Lunak Top 5 Open Source Message Queue (MQ) pada tahun 2021][3]
+  * [Alat forensik digital open source paling populer][4]
+  * [Lisensi Open Source yang Disetujui OSI Paling Populer][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

@@ -14,13 +14,13 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/deployer-blog-post.png" alt="Outil de déploiement PHP">}}
 
 C'est un travail très critique pour déployer une application sur le serveur après le développement. De nouvelles fonctionnalités et correctifs de bogues sont souvent publiés par les équipes. Ainsi, il est préférable pour les équipes d'éliminer les travaux manuels et d'automatiser le processus ** de déploiement du logiciel **. Cela permettrait aux équipes logicielles de se concentrer sur des tâches plus importantes. Il existe plusieurs ** Open Source Deployment Tool ** là-bas, mais nous nous concentrerons sur ** PHP Deployeur ** dans ce tutoriel. Nous couvrirons la section suivante dans cet article.
-  * [** Qu'est-ce que le déploieur **] [1]
-  * [** Installation de déploieur **] [2]
-  * [** Déployer l'application PHP **] [3]
-  * [** Conclusion **] [4]
+  * [** Qu'est-ce que le déploieur **][1]
+  * [** Installation de déploieur **][2]
+  * [** Déployer l'application PHP **][3]
+  * [** Conclusion **][4]
 
 ## Qu'est-ce que le déploieur {#What}
-[** Deployeur **] [5] est un outil de déploiement PHP gratuit et open-source **. Il permet aux équipes logicielles d'automatiser les workflows de déploiement pour les applications basées sur PHP. Il est très simple à installer et facile à utiliser. Quiconque, du débutant au niveau d'experts, peut rapidement l'utiliser pour déployer des applications PHP. Le déploieur est livré avec des recettes / scripts prêts à l'emploi pour les cadres PHP populaires, les CMS et les logiciels de panier. De plus, vous pouvez faire ** Laravel Deployment ** avec cet outil de déploiement open source **. Le développeur peut utiliser des recettes intégrées pour leurs projets et les utiliser pour le déploiement. De plus, vous pouvez facilement créer un script d'installation / déploiement avec l'assistant ** PHP Deployeur **. De plus, cet outil de déploiement gratuit ** offre d'excellentes fonctionnalités telles que les déploiements à zéro-inverse, le retour à la version précédente, SSH, parallèle d'exécution et bien d'autres.
+[** Deployeur **][5] est un outil de déploiement PHP gratuit et open-source **. Il permet aux équipes logicielles d'automatiser les workflows de déploiement pour les applications basées sur PHP. Il est très simple à installer et facile à utiliser. Quiconque, du débutant au niveau d'experts, peut rapidement l'utiliser pour déployer des applications PHP. Le déploieur est livré avec des recettes / scripts prêts à l'emploi pour les cadres PHP populaires, les CMS et les logiciels de panier. De plus, vous pouvez faire ** Laravel Deployment ** avec cet outil de déploiement open source **. Le développeur peut utiliser des recettes intégrées pour leurs projets et les utiliser pour le déploiement. De plus, vous pouvez facilement créer un script d'installation / déploiement avec l'assistant ** PHP Deployeur **. De plus, cet outil de déploiement gratuit ** offre d'excellentes fonctionnalités telles que les déploiements à zéro-inverse, le retour à la version précédente, SSH, parallèle d'exécution et bien d'autres.
 
 ## Installation de déploieur {#installing}
   * Le déploiement dépend de PHP. Vous devez vous assurer que PHP s'exécute sur votre serveur. Cependant, vous pouvez utiliser la commande ci-dessous pour installer PHP sur Ubuntu.
@@ -119,20 +119,22 @@ dep rollback
 
 ## Conclusion {#conclusion}
 Nous avons discuté du déploiement et de la façon de l'installer dans ce tutoriel. De plus, nous avons créé des directives complètes pour le déploiement d'applications basées sur PHP à partir du référentiel GitHub. Espérons que ce billet de blog vous aidera à démarrer ** Déployer l'application PHP ** avec le déploieur. De plus, nous écrivons plus sur cet outil de déploiement PHP ** ** dans les didacticiels à venir.
-Enfin, [** contenerize.com **] [6] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** outils de déploiement **] [7] pour les dernières mises à jour.
+Enfin, [** contenerize.com **][6] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** outils de déploiement **][7] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [** Déploieur **] [8]
-  * [** Jenkins **] [9]
-  * [** Drone **] [10]
-  * [** Capistrano **] [11]
-  * [** Rancher **] [12]
-  * [** hall **] [13]
-  * [** ANSIBLE **] [14]
-  * [** gocd **] [15]
-  * [** Top 5 des outils de déploiement open source en 2021 **] [16]
-  * [** Intégration continue et déploiement continu à partir du serveur de contrôle source **] [17]
+  * [** Déploieur **][8]
+  * [** Jenkins **][9]
+  * [** Drone **][10]
+  * [** Capistrano **][11]
+  * [** Rancher **][12]
+  * [** hall **][13]
+  * [** ANSIBLE **][14]
+  * [** gocd **][15]
+  * [** Top 5 des outils de déploiement open source en 2021 **][16]
+  * [** Intégration continue et déploiement continu à partir du serveur de contrôle source **][17]
+
+  
 [1]: #What
 [2]: #Installing
 [3]: #Deploy

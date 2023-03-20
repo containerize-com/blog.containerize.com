@@ -58,14 +58,16 @@ Onde comprar criptomoeda? Você pode comprar criptomoeda em uma troca de criptog
 
 ## ** Conclusão: ** {#4A1A}
 Felizmente, você aprendeu muito e agora está mais informado e conhecedor sobre o comércio e investimento em criptomoedas do que no começo. Agora é sua vez. Gostamos de pesquisar e escrever o guia com você em mente. Boa sorte!
-_O que são seus projetos de código aberto de criptomoeda favoritos?. Você tem alguma dúvida sobre o que é a moeda digital?, Por favor [[entre em contato] [1].
+_O que são seus projetos de código aberto de criptomoeda favoritos?. Você tem alguma dúvida sobre o que é a moeda digital?, Por favor [[entre em contato][1].
 
 ## Explore:
 Também temos várias outras informações relacionadas do OSS Watch:
-  * [Melhor software de armazenamento em nuvem e compartilhamento de arquivos de código aberto] [2]
-  * [Software Top 5 de mensagens de código aberto (MQ) em 2021] [3]
-  * [Ferramentas forenses digitais mais populares de código aberto] [4]
-  * [Licenças de código aberto mais populares aprovadas pela OSI] [5]
+  * [Melhor software de armazenamento em nuvem e compartilhamento de arquivos de código aberto][2]
+  * [Software Top 5 de mensagens de código aberto (MQ) em 2021][3]
+  * [Ferramentas forenses digitais mais populares de código aberto][4]
+  * [Licenças de código aberto mais populares aprovadas pela OSI][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

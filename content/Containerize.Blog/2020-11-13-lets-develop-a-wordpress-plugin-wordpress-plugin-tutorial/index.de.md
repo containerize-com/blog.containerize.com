@@ -18,10 +18,10 @@ categories: ['Blogging']
 WordPress ist eine Open-Source-Blogging-Plattform auf Unternehmensebene. A ** WordPress -Plugin ** ist ein eigenständiger Codesatz, der die Funktionalität von WordPress verbessert und erweitert. Durch Verwendung einer beliebigen Kombination von PHP, HTML, CSS, JavaScript/JQuery. Ein Plugin kann jedem Teil Ihrer Website neue Funktionen hinzufügen.
 Die Funktionalität, die Sie Ihrer Website hinzufügen können, hängt davon ab, was jedes spezifische Plugin erstellt hat. Ein WordPress -Plugin kann entwickelt werden, um alles zu tun. Von einer kleinen Aufgabe bis zu einer Full-Fleeby-Anwendung, die eine Reihe von Operationen ausführt und über eigene Schnittstellen verfügt. Die Plugins unterscheiden sich von Ihrem Thema und arbeiten unabhängig voneinander, wobei Hooks, Filter, Shortcodes, Widgets und benutzerdefinierte Code verwendet werden, um ihre Funktionalität auszuführen.
 In diesem WordPress -Plugin -Tutorial lernen wir, wie Sie unser erstes WordPress -Plugin erstellen. Der wichtigste Grund für das Erstellen eines Plugins ist, dass Sie Ihren eigenen Code vom WordPress -Kerncode trennen können.
-  *** [Anforderungen] [1] **
-  *** [Grundlagen der Pluginentwicklung] [2] **
-  *** [Wie erstelle ich WP -Plugin?] [3] **
-  *** [Schlussfolgerung] [4] **
+  *** [Anforderungen][1] **
+  *** [Grundlagen der Pluginentwicklung][2] **
+  *** [Wie erstelle ich WP -Plugin?][3] **
+  *** [Schlussfolgerung][4] **
 
 ## Anforderungen {#Requirements}
   * Neueste Version von WordPress
@@ -32,13 +32,13 @@ In diesem WordPress -Plugin -Tutorial lernen wir, wie Sie unser erstes WordPress
 Nehmen wir uns einen Moment Zeit, um über einige wichtige Aspekte der Plugin -Entwicklung zu sprechen. Ein solides Verständnis der Funktionsweise dieser Konzepte hilft Ihnen dabei, einfach zu bedienende und wartbare Funktionen aufzubauen.
 
 ### Aktionen
-** Action Hooks ** sind ein sehr nützliches Werkzeug in ** WordPress ** ** Plugin ** und sie werden verwendet, um Funktionen (** Aktionen **) an bestimmten Stellen eines Themas oder Plugins auszuführen. WordPress hat Dutzende von Aktionen, die während seiner Kernfunktionalität definiert wurden, wobei jede Aktion aus einem eindeutigen Namen besteht. Für weitere Details [lesen] [5].
+** Action Hooks ** sind ein sehr nützliches Werkzeug in ** WordPress ** ** Plugin ** und sie werden verwendet, um Funktionen (** Aktionen **) an bestimmten Stellen eines Themas oder Plugins auszuführen. WordPress hat Dutzende von Aktionen, die während seiner Kernfunktionalität definiert wurden, wobei jede Aktion aus einem eindeutigen Namen besteht. Für weitere Details [lesen][5].
 
 ### Filter
-Ein WordPress -Filter ist ein Haken, der eine Variable (oder eine Reihe von Variablen) akzeptiert und sie nach dem Änderung zurückgibt. Diese Filter werden häufig verwendet, damit Sie eine Möglichkeit haben, Standardinformationen zu manipulieren. Weitere Details [lesen] [6].
+Ein WordPress -Filter ist ein Haken, der eine Variable (oder eine Reihe von Variablen) akzeptiert und sie nach dem Änderung zurückgibt. Diese Filter werden häufig verwendet, damit Sie eine Möglichkeit haben, Standardinformationen zu manipulieren. Weitere Details [lesen][6].
 
 ### Shortcodes
-Shortcodes sind Makros, mit denen dynamische Interaktionen mit dem Inhalt durchgeführt werden können. d.h. Erstellen einer Galerie von Bildern, die an den Beitrag angeschlossen sind oder ein Video rendern. Infolgedessen sind sie eine wertvolle Möglichkeit, Inhalte sauber und semantisch zu halten und gleichzeitig den Endbenutzern eine gewisse Fähigkeit zu ermöglichen, die Darstellung ihrer Inhalte programmatisch zu verändern. Für weitere Details [lesen] [7].
+Shortcodes sind Makros, mit denen dynamische Interaktionen mit dem Inhalt durchgeführt werden können. d.h. Erstellen einer Galerie von Bildern, die an den Beitrag angeschlossen sind oder ein Video rendern. Infolgedessen sind sie eine wertvolle Möglichkeit, Inhalte sauber und semantisch zu halten und gleichzeitig den Endbenutzern eine gewisse Fähigkeit zu ermöglichen, die Darstellung ihrer Inhalte programmatisch zu verändern. Für weitere Details [lesen][7].
 
 ### Widgets
 Widgets sind wichtig, da sie Ihnen ein weiteres Mittel zur Ausführung des Code Ihres Plugins bieten und gleichzeitig eine benutzerfreundliche Oberfläche bereitstellen. Da die meisten Themen eine oder mehrere Seitenleisten unterstützen; Wenn Sie Ihre eigenen Widgets hinzufügen, können Sie schnell zugreifen, um Ihre Informationen im Thema anzuzeigen.
@@ -102,14 +102,16 @@ echo get_page_views() . “view(s)”
 
 ## Schlussfolgerung {#Conclusion}
 Dies ist das Ende dieses WordPress -Plugin -Tutorials. Indem wir diesen Artikel folgen und nur eine Handvoll Funktionen verwenden, haben wir ein grundlegendes Plugin erstellt, um unsere beliebtesten Beiträge zu verfolgen. Wir können es viel verbessern, aber der Zweck war nur, Sie mit den Grundlagen vertraut zu machen. Darüber hinaus erhalten Sie durch das Erlernen einiger Muster der WordPress-Entwicklung (Plugins, Hooks usw.) Fähigkeiten, die Ihnen auch in Nicht-Wort-Umgebungen dienen. Es gibt viele andere Blog -Beiträge zu Open -Source -Blogging -Plattformen und Open -Source -CMS. das Sie im Abschnitt "Explore" finden können. Dieser Blog -Beitrag kann Ihnen wirklich helfen, wenn Sie eine Open -Source -Blogging -Plattform für Ihr Unternehmen bereitstellen möchten.
-Schließlich schreibt [Containerize.com] [8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie in Kontakt mit den Kategorien [Blogging] [9] und [Business Intelligence Software] [10] für regelmäßige Nachrichten und Updates
+Schließlich schreibt [Containerize.com][8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie in Kontakt mit den Kategorien [Blogging][9] und [Business Intelligence Software][10] für regelmäßige Nachrichten und Updates
 
 ## Erkunden
-  * [So installieren Sie Matomo für WordPress | WordPress -Tutorial] [11]
-  * [Steigern Sie Ihre Leads mit kostenloser BürgerwordPress -Integration] [12]
-  * [So installieren Sie Plugin in WordPress | Vanilla Forum] [13]
-  * [Joomla vs Drupal | CMS -Vergleich in 2021] [14]
-  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet] [15]
+  * [So installieren Sie Matomo für WordPress | WordPress -Tutorial][11]
+  * [Steigern Sie Ihre Leads mit kostenloser BürgerwordPress -Integration][12]
+  * [So installieren Sie Plugin in WordPress | Vanilla Forum][13]
+  * [Joomla vs Drupal | CMS -Vergleich in 2021][14]
+  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet][15]
+
+  
 [1]: #requirements
 [2]: #basics
 [3]: #create

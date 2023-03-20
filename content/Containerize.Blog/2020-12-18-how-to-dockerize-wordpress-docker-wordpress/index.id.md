@@ -15,13 +15,13 @@ categories: ['Blogging']
 
 
 ## Ringkasan
-Selamat datang di posting blog lain di [blogging] [1] kategori perangkat lunak open source. Kami telah menerbitkan beberapa artikel tentang topik -topik seperti [meningkatkan petunjuk Anda dengan integrasi CivicRM WordPress gratis] [2], [Cara Membangun Situs Web Anda dengan WordPress dan Gatsby] [3], dan beberapa lagi. Namun, artikel ini akan membawa wawasan dan detail lebih lanjut tentang platform blogging open source dan ** perangkat lunak kontainer **. Kami akan melalui beberapa pertanyaan panas seperti apa itu Docker & ** Cara Menginstal Docker Compose ** dan kami akan belajar cara berlabuh WordPress.
+Selamat datang di posting blog lain di [blogging][1] kategori perangkat lunak open source. Kami telah menerbitkan beberapa artikel tentang topik -topik seperti [meningkatkan petunjuk Anda dengan integrasi CivicRM WordPress gratis][2], [Cara Membangun Situs Web Anda dengan WordPress dan Gatsby][3], dan beberapa lagi. Namun, artikel ini akan membawa wawasan dan detail lebih lanjut tentang platform blogging open source dan ** perangkat lunak kontainer **. Kami akan melalui beberapa pertanyaan panas seperti apa itu Docker & ** Cara Menginstal Docker Compose ** dan kami akan belajar cara berlabuh WordPress.
 Kontainerisasi telah menjadi tren utama dalam pengembangan perangkat lunak sebagai alternatif untuk virtualisasi. Ini melibatkan enkapsulasi atau menggabungkan kode perangkat lunak dan semua ketergantungannya sehingga dapat berjalan pada infrastruktur apa pun secara konsisten. Kontainerisasi memungkinkan pengembang untuk membuat dan menggunakan aplikasi lebih cepat dan lebih aman. Docker adalah aplikasi kontainerisasi paling populer yang digunakan di seluruh komunitas pengembang. Dalam tutorial ini, kita akan belajar cara berlabuh WordPress menggunakan Docker Compose. Jadi, mari kita mulai dengan poin -poin berikut.
-  *[** Apa itu Docker? **] [4]
-  *[** Mengapa Anda perlu berlabuh WordPress **?] [5]
-  *** [Cara Menginstal Docker Compose] [6] **
-  *** [Dockerize WordPress] [7] **
-  *** [Kesimpulan] [8] **
+  *[** Apa itu Docker? **][4]
+  *[** Mengapa Anda perlu berlabuh WordPress **?][5]
+  *** [Cara Menginstal Docker Compose][6] **
+  *** [Dockerize WordPress][7] **
+  *** [Kesimpulan][8] **
 
 ## Apa itu Docker? {#buruh pelabuhan}
 Dengan kata-kata sederhana, Docker adalah open-source ** perangkat lunak wadah ** yang melakukan virtualisasi lebih cepat dan lebih ringan. Sangat ringan sehingga wadah Docker dapat diluncurkan hanya dalam beberapa detik. Dan, Anda dapat dengan mudah menjalankan lusinan wadah Docker pada satu PC. Pengembang menggunakan Docker untuk membuat, menggunakan, dan menjalankan aplikasi dengan menggunakan wadah. Wadah memungkinkan pengembang untuk mengemas aplikasi dengan semua bagian yang dibutuhkan, seperti perpustakaan dan dependensi lainnya, dan menggunakannya sebagai satu paket. Dengan melakukan itu, pengembang dapat yakin bahwa aplikasi akan berjalan pada infrastruktur apa pun. Selain itu, ada pengembang besar dan komunitas pendukung yang selalu hidup untuk memberikan bantuan terbaik dalam relevansi apa pun. Docker telah menjadi komponen yang harus dimiliki dari perusahaan perangkat lunak apa pun karena fitur dan penggunaannya yang kuat.
@@ -101,21 +101,23 @@ http://localhost:8000
 
 ## kesimpulan {#conclusion}
 Ini membawa kita ke akhir posting blog ini. Dalam artikel ini, kami belajar tentang apa itu Docker, ** Cara Menginstal Docker Compose **. Kami juga belajar cara berlabuh WordPress menggunakan Docker-Compose. Selain itu, kami memperkenalkan Anda pada konsep di belakang Docker dan bagaimana Anda dapat mendefinisikan aplikasi multi-kontainer sederhana. Namun, perangkat lunak kontainer ** open source ** ini adalah opsi terkemuka untuk semua organisasi perangkat lunak. Oleh karena itu, artikel ini akan sangat membantu Anda jika Anda ingin memilih Docker untuk aplikasi Anda. Ada banyak artikel lain yang relevan dan perangkat lunak blogging yang tercantum di bagian "Jelajahi" di bawah ini.
-Akhirnya, [containerize.com] [10] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [blogging] [1] untuk berita dan pembaruan reguler. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [11], [LinkedIn] [12], dan [Twitter] [13].
+Akhirnya, [containerize.com][10] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [blogging][1] untuk berita dan pembaruan reguler. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][11], [LinkedIn][12], dan [Twitter][13].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [WordPress] [14]
-  * [Jekyll] [15]
-  * [Wacana] [16]
-  * [Ghost] [17]
-  * [Cara Dockerize WordPress dengan Docker Compose] [18]
-  * [Tingkatkan petunjuk Anda dengan integrasi WordPress civicrm gratis] [2]
-  * [Otomatis Sistem Tiket Menggunakan WordPress dan Osticket] [19]
-  * [Cara mengintegrasikan forum wacana dengan WordPress] [20]
-  * [Tingkatkan Lalu Lintas Pencarian Situs Web Dengan mengikuti 7 blog SEO teratas] [21]
-  * [Cara Membangun Situs Web Anda Dengan WordPress dan Gatsby] [3]
-  * [Cara Mengaktifkan Kompresi GZIP di WordPress untuk Pagpeed dan SEO yang lebih baik] [22]
+  * [WordPress][14]
+  * [Jekyll][15]
+  * [Wacana][16]
+  * [Ghost][17]
+  * [Cara Dockerize WordPress dengan Docker Compose][18]
+  * [Tingkatkan petunjuk Anda dengan integrasi WordPress civicrm gratis][2]
+  * [Otomatis Sistem Tiket Menggunakan WordPress dan Osticket][19]
+  * [Cara mengintegrasikan forum wacana dengan WordPress][20]
+  * [Tingkatkan Lalu Lintas Pencarian Situs Web Dengan mengikuti 7 blog SEO teratas][21]
+  * [Cara Membangun Situs Web Anda Dengan WordPress dan Gatsby][3]
+  * [Cara Mengaktifkan Kompresi GZIP di WordPress untuk Pagpeed dan SEO yang lebih baik][22]
+
+  
 [1]: https://products.containerize.com/blogging/
 [2]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
 [3]: https://blog.containerize.com/blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/

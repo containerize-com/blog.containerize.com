@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Create-you-first-php-project-using-xamppA.png" alt="XAMPPオープンソースWebサーバーで最初のPHPプロジェクトを作成する">}}
 
 XAMPPは、ライブサーバーに展開する前にPHPプロジェクトを作成、実行、テストするためのローカル環境を提供するオープンソースWebサーバーです。開発者がWebアプリをテストおよび構築するためのローカルサーバーを提供します。このブログ投稿の次のセクションについて説明します。
-  * [要件] [2]
-  * [XAMPPとは] [3]
-  * [PHPスクリプトを作成] [4]
-  * [PHPスクリプトを実行およびテスト] [5]
-  * [結論] [6]
+  * [要件][2]
+  * [XAMPPとは][3]
+  * [PHPスクリプトを作成][4]
+  * [PHPスクリプトを実行およびテスト][5]
+  * [結論][6]
 
 ## 要件{#requirements}
   * XAMPPインストール
@@ -28,7 +28,7 @@ XAMPPは、ライブサーバーに展開する前にPHPプロジェクトを作
 
 ## xamppとは何ですか？ {#xampp}
 XAMPPは、オープンソースのWebサーバーソリューションスタックです。 Apache、MySQL、MariadB、PHP、およびPerlが含まれています。インストールと使用は非常に簡単です。そのため、最も人気のあるPHP開発環境です。 XAMPPサーバーは、PHP Webアプリ開発のための完全な環境を提供します。 XAMPPが機能していない場合は、このガイドに従ってXAMPPをインストールしてください。
-[windowsのローカルホストとしてxamppとphpmyadminをセットアップ] [7]
+[windowsのローカルホストとしてxamppとphpmyadminをセットアップ][7]
 
 ## PHPスクリプトを作成{#PHP}
   *上記のチュートリアルをフォローしてXAMPPを既にインストールしていると仮定して、簡単なPHPスクリプトを作成してXAMPPでテストしましょう。
@@ -62,8 +62,10 @@ echo "This is my first PHP project";
 
 ## 探検
 XAMPPとPHPMyAdminの詳細については、次のガイドをチェックアウトしてください。
-[windowsのローカルホストとしてxamppとphpmyadminをセットアップ] [7]
-[PHPおよびPERL開発者向けの無料のWebサーバーソリューションスタック] [1]
+[windowsのローカルホストとしてxamppとphpmyadminをセットアップ][7]
+[PHPおよびPERL開発者向けの無料のWebサーバーソリューションスタック][1]
+
+  
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

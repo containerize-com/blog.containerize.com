@@ -14,14 +14,14 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-osTicket.png" alt="Personalização de Oticket - Implementar multi -redação no Oticket">}}
 
 Neste artigo, discutiremos como fazer a personalização de osticket para implementar a multi-literidade. Esta postagem abordará os seguintes tópicos:
-  * [Visão geral do Osticket] [1]
-  * [Visão geral da multiestância] [2]
-  * [Benefícios da multiestância] [3]
-  * [Implementação] [3]
-  * [Conclusão] [4]
+  * [Visão geral do Osticket][1]
+  * [Visão geral da multiestância][2]
+  * [Benefícios da multiestância][3]
+  * [Implementação][3]
+  * [Conclusão][4]
 
 Visão geral do Osticket: {#osticket}
-[OSTICKET] [5] é um software de suporte técnico de suporte ao cliente on -line de código aberto. Ele fornece um painel de controle intuitivo e um componente de relatório em tempo real. É fácil usar o módulo de gerenciamento de consultas. Isso permite que você crie perguntas a partir do seu telefone, email e formulários baseados na Web. Que oferece inúmeras opções para ajudar a adaptar todas as partes da experiência de suporte ao cliente, como comentários e notificações por email.
+[OSTICKET][5] é um software de suporte técnico de suporte ao cliente on -line de código aberto. Ele fornece um painel de controle intuitivo e um componente de relatório em tempo real. É fácil usar o módulo de gerenciamento de consultas. Isso permite que você crie perguntas a partir do seu telefone, email e formulários baseados na Web. Que oferece inúmeras opções para ajudar a adaptar todas as partes da experiência de suporte ao cliente, como comentários e notificações por email.
 
 Visão geral da multi-tenancidade: {#multiteNancy}
 Multi-ingestão refere-se à implementação, onde várias instâncias independentes de um aplicativo operam em um ambiente compartilhado. As instâncias (inquilinos) são logicamente isoladas, mas fisicamente integradas. Uma organização pode ter vários departamentos. Para que eles possam criar vários inquilinos/instâncias do mesmo aplicativo. Por exemplo, no nosso caso, um sistema helpdesk pode ser configurado para diferentes domínios da mesma organização. Pode haver centenas de inquilinos, mas todos usarão os mesmos arquivos e, portanto, o mesmo armazenamento. Isso reduzirá os custos de armazenamento e também facilitará as atualizações. Os desenvolvedores precisam apenas atualizar os arquivos de um local, em vez de fazer alterações para cada site separadamente.
@@ -69,10 +69,12 @@ OSTICKET é um software de gerenciamento de suporte de suporte de It de código 
 
 ## Explore:
 Confira a página seguinte para saber mais sobre o Oticket:
-  * [OSTICKET - um software Helpdesk de código aberto gratuito] [5]
-  * [Um guia para iniciantes para desenvolver o plugin de osticket] [6]
-  * [Como configurar o software de suporte técnico on -line usando osticket] [7]
-  * [Automatize o sistema de emissão de bilhetes usando o WordPress e Osticket] [8]
+  * [OSTICKET - um software Helpdesk de código aberto gratuito][5]
+  * [Um guia para iniciantes para desenvolver o plugin de osticket][6]
+  * [Como configurar o software de suporte técnico on -line usando osticket][7]
+  * [Automatize o sistema de emissão de bilhetes usando o WordPress e Osticket][8]
+
+  
 [1]: #osticket
 [2]: #multitenancy
 [3]: #benefits

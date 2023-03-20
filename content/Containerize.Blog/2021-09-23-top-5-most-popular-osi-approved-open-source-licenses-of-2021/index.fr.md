@@ -47,14 +47,16 @@ La licence open source ISC est fonctionnelle équivalente à la licence MIT. La 
 
 ## Conclusion: {# 4A1A}
 Si vous êtes allé aussi loin, vous savez que le droit d'auteur du logiciel open source n'est pas destiné à cœur. Cependant, compte tenu du fait que presque tous les développeurs de logiciels comptent fortement sur la plus grande licence open source et les meilleures sociétés de licence. Il est crucial de comprendre les bases des licences open source les plus courantes et les principales différences entre les licences open source populaires. Nous espérons seulement que cette explication de la licence logicielle propriétaire et de l'exemple de licence logicielle open source a rendu le champ de mines potentiel de licences un peu plus navigable.
-_Pour peut se joindre à nous sur [Twitter] [1], [LinkedIn] [2] et notre page [Facebook] [3]. Quelles licences open source préférez-vous ?. Si vous avez des questions ou des commentaires, veuillez vous contacter] [4].
+_Pour peut se joindre à nous sur [Twitter][1], [LinkedIn][2] et notre page [Facebook][3]. Quelles licences open source préférez-vous ?. Si vous avez des questions ou des commentaires, veuillez vous contacter][4].
 
 ## Explorer:
 Nous avons également plusieurs autres articles qui pourraient vous intéresser.
-  * ** [Top 5 des outils d'orchestration de conteneur open source pour DevOps 2021] [5] **
-  * ** [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021] [6] **
-  * ** [Meilleur logiciel de stockage et de partage de fichiers cloud open source] [7] **
-  * ** [Outils médico-légaux numériques les plus populaires] [8] **
+  * ** [Top 5 des outils d'orchestration de conteneur open source pour DevOps 2021][5] **
+  * ** [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021][6] **
+  * ** [Meilleur logiciel de stockage et de partage de fichiers cloud open source][7] **
+  * ** [Outils médico-légaux numériques les plus populaires][8] **
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

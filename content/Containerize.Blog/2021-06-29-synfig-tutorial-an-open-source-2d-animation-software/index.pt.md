@@ -13,11 +13,11 @@ A criação de animações 2D com o Synfig é um processo gratuito, perfeito e r
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software.png" alt="Tutorial do Synfig Um software de animação 2D de código aberto">}}
 
-  * [O que é synfig?] [1]
-  * [Como instalar o synfig?] [2]
-  * [Visão geral da interface do aplicativo] [3]
-  * [Como criar uma animação básica com Synfig?] [4]
-  * [Conclusão] [5]
+  * [O que é synfig?][1]
+  * [Como instalar o synfig?][2]
+  * [Visão geral da interface do aplicativo][3]
+  * [Como criar uma animação básica com Synfig?][4]
+  * [Conclusão][5]
 
 ## O que é synfig? {#o que}
 O Synfig é um dos melhores softwares de animação 2D que foram projetados para artistas solo ou pequenas equipes para gerenciar seus fluxos de trabalho de animação e projetos. Como um software de animação de código aberto, a Synfig emprega um sistema de animação "interpinio" que não apenas reduz o tempo que leva para uma animação processar, mas também oferece aos animadores a capacidade de adicionar o quadro de desenho.
@@ -97,14 +97,16 @@ E aí você tem um tutorial básico sobre como criar uma animação no Synfig St
 
 ## Conclusão {#conclusion}
 O uso do software Synfig 2D Animation é bastante direto e fácil se você já usar o software de animação para o seu trabalho. Mesmo se você é novo no setor de animação, entender a interface é uma tarefa fácil. Esperamos que você tenha achado este tutorial útil e possa criar animações 2D para diferentes projetos acadêmicos, comerciais ou pessoais para criar um portfólio.
-_O que são o seu software de animação de código aberto mais favorito?. Você tem alguma dúvida sobre o software de animação?, Por favor [entre em contato] [6].
+_O que são o seu software de animação de código aberto mais favorito?. Você tem alguma dúvida sobre o software de animação?, Por favor [entre em contato][6].
 
 ## Explore
 Você pode encontrar links a seguir relevantes:
-  * [Melhor software de animação de código aberto] [7]
-  * [Synfig | Suíte de animação 2D com base em vetor de código aberto e de código aberto] [8]
-  * [Como criar animações com software de animação Pencil2D] [9]
-  * [Guia para iniciantes para iniciar a edição de imagem gratuita usando Digikam] [10]
+  * [Melhor software de animação de código aberto][7]
+  * [Synfig | Suíte de animação 2D com base em vetor de código aberto e de código aberto][8]
+  * [Como criar animações com software de animação Pencil2D][9]
+  * [Guia para iniciantes para iniciar a edição de imagem gratuita usando Digikam][10]
+
+  
 [1]: #what
 [2]: #how-to-install
 [3]: #application-interfae

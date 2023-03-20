@@ -14,13 +14,13 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/deployer-blog-post.png" alt="Alat Penyebaran PHP">}}
 
 Ini adalah pekerjaan yang sangat penting untuk menggunakan aplikasi di server setelah pengembangan. Fitur baru dan perbaikan bug sering dirilis oleh tim. Jadi, lebih baik bagi tim untuk menghilangkan pekerjaan manual dan mengotomatiskan proses penyebaran perangkat lunak **. Ini akan memungkinkan tim perangkat lunak untuk berkonsentrasi pada tugas yang lebih penting. Ada beberapa alat penyebaran open source ** di luar sana tetapi kami akan berkonsentrasi pada ** PHP Deployer ** dalam tutorial ini. Kami akan membahas bagian berikut di pos ini.
-  *[** Apa itu Deployer **] [1]
-  *[** Menginstal Deployer **] [2]
-  *[** Menyebarkan aplikasi PHP **] [3]
-  *[** Kesimpulan **] [4]
+  *[** Apa itu Deployer **][1]
+  *[** Menginstal Deployer **][2]
+  *[** Menyebarkan aplikasi PHP **][3]
+  *[** Kesimpulan **][4]
 
 ## Apa itu Deployer {#what}
-[** Deployer **] [5] adalah alat penyebaran php gratis dan open-source ** **. Ini memungkinkan tim perangkat lunak untuk mengotomatisasi alur kerja penyebaran untuk aplikasi berbasis PHP. Sangat sederhana untuk dipasang dan mudah digunakan. Siapa pun dari pengalaman pemula hingga tingkat ahli dapat dengan cepat menggunakannya untuk menggunakan aplikasi PHP. Deployer hadir dengan resep/skrip di luar kotak untuk kerangka kerja PHP populer, CMS, dan perangkat lunak keranjang belanja. Selanjutnya, Anda dapat melakukan ** Laravel Deployment ** dengan ini ** Alat Penyebaran Sumber Terbuka **. Pengembang dapat menggunakan resep bawaan untuk proyek mereka dan menggunakannya untuk penempatan. Selanjutnya, Anda dapat dengan mudah membuat skrip Instal/Instal/Penyebaran dengan PHP Deployer ** Wizard. Selain itu, alat penyebaran gratis ** ini ** menawarkan fitur-fitur yang sangat baik seperti penyebaran zero-downtime, rollback ke versi sebelumnya, SSH, eksekusi paralel, dan banyak lagi.
+[** Deployer **][5] adalah alat penyebaran php gratis dan open-source ** **. Ini memungkinkan tim perangkat lunak untuk mengotomatisasi alur kerja penyebaran untuk aplikasi berbasis PHP. Sangat sederhana untuk dipasang dan mudah digunakan. Siapa pun dari pengalaman pemula hingga tingkat ahli dapat dengan cepat menggunakannya untuk menggunakan aplikasi PHP. Deployer hadir dengan resep/skrip di luar kotak untuk kerangka kerja PHP populer, CMS, dan perangkat lunak keranjang belanja. Selanjutnya, Anda dapat melakukan ** Laravel Deployment ** dengan ini ** Alat Penyebaran Sumber Terbuka **. Pengembang dapat menggunakan resep bawaan untuk proyek mereka dan menggunakannya untuk penempatan. Selanjutnya, Anda dapat dengan mudah membuat skrip Instal/Instal/Penyebaran dengan PHP Deployer ** Wizard. Selain itu, alat penyebaran gratis ** ini ** menawarkan fitur-fitur yang sangat baik seperti penyebaran zero-downtime, rollback ke versi sebelumnya, SSH, eksekusi paralel, dan banyak lagi.
 
 ## Menginstal Deployer {#installing}
   * Deployer tergantung pada PHP. Anda harus memastikan bahwa PHP berjalan di server Anda. Namun, Anda dapat menggunakan perintah di bawah ini untuk menginstal PHP di Ubuntu.
@@ -119,20 +119,22 @@ dep rollback
 
 ## kesimpulan {#conclusion}
 Kami telah membahas tentang Deployer dan cara menginstalnya di tutorial ini. Lebih lanjut, kami telah membuat pedoman lengkap untuk menggunakan aplikasi berbasis PHP dari Github Repository. Mudah -mudahan, posting blog ini akan membantu Anda untuk memulai ** menggunakan aplikasi PHP ** dengan Deployer. Selain itu, kami akan menulis lebih banyak tentang alat penyebaran ** PHP ini ** dalam tutorial mendatang.
-Akhirnya, [** containerize.com **] [6] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** penempatan ini **] [7] kategori untuk pembaruan terbaru.
+Akhirnya, [** containerize.com **][6] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** penempatan ini **][7] kategori untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Deployer **] [8]
-  *[** Jenkins **] [9]
-  *[** drone **] [10]
-  *[** capistrano **] [11]
-  *[** Rancher **] [12]
-  *[** Concourse **] [13]
-  *[** ansible **] [14]
-  *[** gocd **] [15]
-  *[** Top 5 Alat Penyebaran Sumber Terbuka di 2021 **] [16]
-  *[** Integrasi Berkelanjutan dan Penyebaran Berkelanjutan dari Server Kontrol Sumber **] [17]
+  *[** Deployer **][8]
+  *[** Jenkins **][9]
+  *[** drone **][10]
+  *[** capistrano **][11]
+  *[** Rancher **][12]
+  *[** Concourse **][13]
+  *[** ansible **][14]
+  *[** gocd **][15]
+  *[** Top 5 Alat Penyebaran Sumber Terbuka di 2021 **][16]
+  *[** Integrasi Berkelanjutan dan Penyebaran Berkelanjutan dari Server Kontrol Sumber **][17]
+
+  
 [1]: #What
 [2]: #Installing
 [3]: #Deploy

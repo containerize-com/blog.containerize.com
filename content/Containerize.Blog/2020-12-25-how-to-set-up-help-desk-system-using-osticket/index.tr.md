@@ -14,10 +14,10 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket.png" alt="Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur">}}
 
 Osticket açık kaynaklı bir çevrimiçi yardım masası yazılımı çözümüdür. Osticket Yardım Masası, yüksek maliyetli ve karmaşık müşteri destek sistemlerine ücretsiz bir alternatiftir. Basit, hafif, güvenilir, web tabanlı ve kurulumu ve kullanımı kolaydır. En iyi yanı, tamamen ücretsiz. Bu öğreticideki aşağıdaki bölümleri ele alacağız:
-  * [Osticket nedir?] [1]
-  * [Osticket'in artıları ve eksileri] [2]
-  * [Osticket nasıl kurulur?] [3]
-  * [Sonuç] [4]
+  * [Osticket nedir?][1]
+  * [Osticket'in artıları ve eksileri][2]
+  * [Osticket nasıl kurulur?][3]
+  * [Sonuç][4]
 
 ## Osticket nedir? {#Osticket}
 Osticket, kullanıcı dostu bir kontrol paneli ve gerçek zamanlı bir raporlama bileşeni sağlar. Kullanıcılar sadece birkaç kolay adımda giriş yapabilir ve biletleri oluşturabilir. Web siteniz, e -postanız veya telefonunuz aracılığıyla bilet oluşturabilirler. Daha sonra gelen biletler kaydedilecek ve temsilcilere atanacaktır. Temsilciler e -posta bildirimleri alacak ve sorunlarının çözülmesine yardımcı olmak için sorgulara yanıt verecektir. Müşteriler ve temsilciler yorum bölümünde ayrıntıları ve ilerlemeyi tartışabilir. Müşteriler, bu çevrimiçi yardım masası yazılımı tarafından sağlanan yerleşik müşteri portalı aracılığıyla isteklerini ve ilerlemelerini takip edebilirler.
@@ -153,11 +153,13 @@ chmod 0644 include/ost-config.php
 Osticket, düşük bütçeli veya basit bir yardım masası sistemi isteyen şirketler için en uygun olan şirketler için en uygun olanıdır. Basit, hafif, güvenilir, açık kaynak ve tamamen ücretsiz çevrimiçi yardım masası yazılımıdır. Bu da Osticket'i daha yüksek maliyetli müşteri destek sistemlerine harika bir alternatif haline getiriyor. Osticket özellikleri ve kurulum kılavuzu hakkında daha fazla bilgi edinmek için lütfen aşağıdaki öğreticiye göz atın.
 
 ## Keşfetmek
-[En iyi açık kaynak ve ücretsiz BT Yardım masası yazılımı] [5]
-[Popüler Ücretsiz Bilet Tabanlı Yardım Masası ve Müşteri Hizmetleri Sistemi] [6]
-[Osticket’in eklentisini geliştirmek için yeni başlayanlar rehberi] [7]
-[Osticket'te çoklu kiracılık nasıl uygulanır] [8]
-[WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin] [9]
+[En iyi açık kaynak ve ücretsiz BT Yardım masası yazılımı][5]
+[Popüler Ücretsiz Bilet Tabanlı Yardım Masası ve Müşteri Hizmetleri Sistemi][6]
+[Osticket’in eklentisini geliştirmek için yeni başlayanlar rehberi][7]
+[Osticket'te çoklu kiracılık nasıl uygulanır][8]
+[WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin][9]
+
+  
 [1]: #osticket
 [2]: #pros
 [3]: #how

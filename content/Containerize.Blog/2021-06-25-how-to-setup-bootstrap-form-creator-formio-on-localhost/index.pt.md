@@ -16,14 +16,14 @@ categories: ['Form']
 
 ## **Visão geral**
 Nas necessidades de negócios em rápido crescimento, existem muitas operações que pertencem diretamente ao tráfico e engajamento público. Esse engajamento pode ser físico ou virtual. Às vezes, trata -se de fornecer serviços e, às vezes, é a coleta de dados ou feedback. Por outro lado, as organizações corporativas tendem a coletar dados do cliente sobre seus produtos e serviços. Portanto, a quantidade de dados depende do alcance para o público relevante. Em seguida, o gerenciamento de dados é outra tarefa crítica e exige imensa atenção.
-No entanto, os setores corporativos usam formulários on -line para atender às necessidades relacionadas à coleta de dados. Existem muitos sites que podem conter muitos formulários, como formulário de contato, formulário de reclamação, formulário de feedback do cliente, formulário de admissão e muito mais. Agora, torna -se um aborrecimento construir, gerenciar esses formulários e os dados de envio. Aqui vem [form.io] [1]. Form.io é um criador de formulários de bootstrap de código aberto que fornece recursos de formulário e gerenciamento de dados. No passado recente, publicamos um artigo que abrangeu os 5 principais construtores de formulários on -line de código aberto no ano de 2020] [2]. Nesta postagem do blog, exploraremos este criador de formulários de bootstrap, juntamente com seu processo de configuração no localhost, cobrindo os seguintes pontos.
+No entanto, os setores corporativos usam formulários on -line para atender às necessidades relacionadas à coleta de dados. Existem muitos sites que podem conter muitos formulários, como formulário de contato, formulário de reclamação, formulário de feedback do cliente, formulário de admissão e muito mais. Agora, torna -se um aborrecimento construir, gerenciar esses formulários e os dados de envio. Aqui vem [form.io][1]. Form.io é um criador de formulários de bootstrap de código aberto que fornece recursos de formulário e gerenciamento de dados. No passado recente, publicamos um artigo que abrangeu os 5 principais construtores de formulários on -line de código aberto no ano de 2020][2]. Nesta postagem do blog, exploraremos este criador de formulários de bootstrap, juntamente com seu processo de configuração no localhost, cobrindo os seguintes pontos.
   *** [O que é forma.io?
-  *** [Como configurar o form.io no localhost?] [4] **
-  *** [Como o form.io funciona?] [5] **
-  *** [Conclusão] [6] **
+  *** [Como configurar o form.io no localhost?][4] **
+  *** [Como o form.io funciona?][5] **
+  *** [Conclusão][6] **
 
 ## O que é form.io? {#o que}
-Form.io é um construtor de formulários de código aberto gratuito. É software auto-hospedado, multilíngue e multi-inquilinos. Este ** HTML Form Creator ** oferece permissões baseadas em funções para usuários e formulários. O Form.io fornece autenticação OAuth e permite que os usuários efetuem login usando provedores de identidade populares como Google e Facebook. Além disso, esse construtor de formulários HTML é baseado na arquitetura sem servidor, e os usuários podem gerar e incorporar formulários nos outros aplicativos apenas colocando uma única linha de código. No que diz respeito à interface do usuário, ele oferece uma interface de usuário lógica com recursos de arrastar e soltar. Existem vários elementos HTML de um lado que os usuários podem arrastar e soltar para criar o formulário necessário. Os usuários podem injetar JavaScript personalizado para funcionalidade aprimorada. Além disso, os usuários podem modificar a aparência do formulário usando CSS. Existem disposições para controlar o envio e o acesso dos formulários. No entanto, este fabricante de formulário HTML gratuito é escrito em JavaScript e todo o código -fonte está disponível no [Github] [7].
+Form.io é um construtor de formulários de código aberto gratuito. É software auto-hospedado, multilíngue e multi-inquilinos. Este ** HTML Form Creator ** oferece permissões baseadas em funções para usuários e formulários. O Form.io fornece autenticação OAuth e permite que os usuários efetuem login usando provedores de identidade populares como Google e Facebook. Além disso, esse construtor de formulários HTML é baseado na arquitetura sem servidor, e os usuários podem gerar e incorporar formulários nos outros aplicativos apenas colocando uma única linha de código. No que diz respeito à interface do usuário, ele oferece uma interface de usuário lógica com recursos de arrastar e soltar. Existem vários elementos HTML de um lado que os usuários podem arrastar e soltar para criar o formulário necessário. Os usuários podem injetar JavaScript personalizado para funcionalidade aprimorada. Além disso, os usuários podem modificar a aparência do formulário usando CSS. Existem disposições para controlar o envio e o acesso dos formulários. No entanto, este fabricante de formulário HTML gratuito é escrito em JavaScript e todo o código -fonte está disponível no [Github][7].
 Form.io fornece ampla gama de recursos. Os principais recursos estão listados abaixo.
   * Envio de formulário de e -mail
   * Gestão de dados
@@ -67,7 +67,7 @@ Ele abrirá a página de login. Você pode fazer login com as credenciais que vo
 
 
 ## como funciona o form.io? {#trabalhar}
-Este segmento descreve o mecanismo de trabalho de [form.io] [1]. Todo o ecossistema deste designer de formulário é baseado em componentes e adequados para desenvolvedores. É extensível e fornece uma interface RESTful para aplicativos de terceiros. Então, vamos ver como criar formulários neste ** Form Builder **.
+Este segmento descreve o mecanismo de trabalho de [form.io][1]. Todo o ecossistema deste designer de formulário é baseado em componentes e adequados para desenvolvedores. É extensível e fornece uma interface RESTful para aplicativos de terceiros. Então, vamos ver como criar formulários neste ** Form Builder **.
 Após o login, você pousará na página seguinte.
 
 {{< figure align=center src="images/Screenshot-2021-06-25-at-12.57.18-1024x487.png" alt="Arraste e solte o construtor de formulários HTML">}}
@@ -88,18 +88,20 @@ O formulário gerado vem com várias opções nas quais você pode editar o form
 
 ## Conclusão {#conclusion}
 Este é o fim deste tutorial de construtor de formulários. Espero que você tenha aprendido sobre esse criador de formulários de bootstrap sobre seus recursos, implantação e uso. Além disso, existem muitos construtores de formulários de código aberto que fornecem uma ampla gama de recursos. No entanto, é altamente importante escolher o melhor produto que atende às suas necessidades de negócios. Portanto, nesta postagem do blog, observamos que o form.io fornece personalizações sobre funcionalidade, layout e estilo. Ele permite gerar formulários multiuso que você pode hospedar em seus sites ao vivo. De fato, você pode coletar dados de maneira bem organizada em seu próprio banco de dados ou em qualquer outra opção de armazenamento.
-Finalmente, [** containerize.com **] [8] está em um processo consistente de escrever artigos sobre tópicos e produtos de código aberto adicionais. Portanto, mantenha contato com esta categoria [9] [9] para atualizações regulares.
+Finalmente, [** containerize.com **][8] está em um processo consistente de escrever artigos sobre tópicos e produtos de código aberto adicionais. Portanto, mantenha contato com esta categoria [9][9] para atualizações regulares.
 
 ## Explore
-  *** [form.io] [1] **
-  *** [Orbeon] [10] **
-  *** [Ohmyform] [11] **
-  *** [webiny] [12] **
-  *** [FormTools] [13] **
-  *** [formbuilder] [14] **
-  *** [Alpaca Forms] [15] **
-  *[** Automatize operações comerciais usando software de código aberto e gratuito **] [16]
-  *[** Top 5 Builders de formulários on -line de código aberto no ano de 2020 **] [2]
+  *** [form.io][1] **
+  *** [Orbeon][10] **
+  *** [Ohmyform][11] **
+  *** [webiny][12] **
+  *** [FormTools][13] **
+  *** [formbuilder][14] **
+  *** [Alpaca Forms][15] **
+  *[** Automatize operações comerciais usando software de código aberto e gratuito **][16]
+  *[** Top 5 Builders de formulários on -line de código aberto no ano de 2020 **][2]
+
+  
 [1]: https://products.containerize.com/form/formio/
 [2]: https://blog.containerize.com/form/top-5-open-source-online-form-builders-in-year-2020/
 [3]: #what

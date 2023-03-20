@@ -14,14 +14,14 @@ categories: ['Message Queue Software']
 {{< figure align=center src="images/apache-kafka-open-source.png" alt="Tutoriel open source Apache Kafka">}}
 
 Récemment, nous avons écrit un article sur «Kafka vs Redis Pub-Sub» qui explique les différences entre Kafka et Redis Pub-Sub. Dans cet article, nous avons rapidement expliqué le courtier de messages Kafka lui-même. Ainsi, maintenant cet article vous donne plus de compréhension de la plate-forme de streaming d'événements distribuée open source d'Apache Kafka et vous donne toutes les introductions nécessaires pour démarrer avec la file d'attente de messages distribuée de Kafka. Alors, commençons.
-  * [Introduction à Apache Kafka] [1]
-  * [Qu'est-ce qu'un système de messagerie?] [2]
-  * [Termes fondamentaux] [3]
-  * [Étapes d'installation] [4]
-  * [Créer un sujet] [5]
-  * [Écrivez le message dans le sujet] [6]
-  * [Lire les messages du sujet] [7]
-  * [Conclusion] [8]
+  * [Introduction à Apache Kafka][1]
+  * [Qu'est-ce qu'un système de messagerie?][2]
+  * [Termes fondamentaux][3]
+  * [Étapes d'installation][4]
+  * [Créer un sujet][5]
+  * [Écrivez le message dans le sujet][6]
+  * [Lire les messages du sujet][7]
+  * [Conclusion][8]
 
 ## Introduction à Apache Kafka {#intro}
 Le courtier de messages open source d'Apache Kafka a été lancé sur LinkedIn et est devenu plus tard un projet APACHE open source. Le logiciel Kafka Message Broker est développé à Scala et Java. Apache Kafka Broker est un système de messagerie de publication-subscription qui permet également l'échange de données entre les applications, les serveurs et les processeurs. Il est rapide, évolutif et distribué par conception. Il est capable de gérer des millions de données ou de messages par seconde. Il fonctionne comme médiateur entre le système source (producteur) et le système cible (consommateur). Des organisations telles que Netflix, Uber et des milliers de ces entreprises utilisent le streaming en temps réel Apache Kafka. Par rapport à d'autres systèmes de messagerie, le logiciel de file d'attente de messages Kafka a un meilleur débit, un partitionnement intégré, une réplication et une tolérance aux pannes inhérente. Cela en fait un bon ajustement pour les applications de traitement de messages à grande échelle.
@@ -125,13 +125,15 @@ N'hésitez pas à expérimenter: par exemple, revenez à votre terminal de produ
 
 ## Conclusion {#conclusion}
 Dans ce tutoriel, nous avons appris les bases de l'utilisation d'Apache Kafka. Nous avons installé le service de mise en file d'attente de Kafka, puis l'avons configuré. Nous avons également appris à créer des sujets dans Kafka, à envoyer des messages à des sujets et à lire les messages à partir des sujets. J'espère que cet article vous a été utile. Revenons dans l’article suivant.
-_Quelle plate-forme de streaming d'événements distribuée à source open source utilisez-vous ?. Avez-vous des questions ?, s'il vous plaît_ [contacte] [9].
+_Quelle plate-forme de streaming d'événements distribuée à source open source utilisez-vous ?. Avez-vous des questions ?, s'il vous plaît_ [contacte][9].
 
 ## Explorer
 Vous pouvez trouver des liens suivants pertinents:
-  * [Le meilleur logiciel de file d'attente de messages gratuits et open source (MQ)] [10]
-  * [Kafka vs redis pub-sub, différences que vous devez connaître] [11]
-  * [Introduction à Redis Pub / Sub et comment cela fonctionne-t-il?] [12]
+  * [Le meilleur logiciel de file d'attente de messages gratuits et open source (MQ)][10]
+  * [Kafka vs redis pub-sub, différences que vous devez connaître][11]
+  * [Introduction à Redis Pub / Sub et comment cela fonctionne-t-il?][12]
+
+  
 [1]: #intro
 [2]: #messaging
 [3]: #terms

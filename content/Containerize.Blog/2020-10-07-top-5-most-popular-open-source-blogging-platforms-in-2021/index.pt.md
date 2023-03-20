@@ -15,11 +15,11 @@ categories: ['Blogging']
 
 Atualmente, as plataformas de blog de código aberto são essenciais para a criação de conteúdo. Portanto, desde o início de um blog pessoal para compartilhar suas idéias, aprendizados, realizações, você precisa de uma plataforma de blog. A plataforma de blogs evoluiu ao longo dos anos. Como resultado, existem várias variações, como construtores de sites, geradores de sites estáticos e serviço de blog rico em recursos.
 Existem tantas plataformas de blog de código aberto que fornecem incríveis opções de extensão e personalização. Por causa disso, a escolha se torna difícil, pois cada plataforma tem seus próprios prós e contras. Nossa equipe passou por um grande número de plataformas de blog de código aberto guias para os criadores de conteúdo escolherem o software de blog certo em 2021. Portanto, filtramos uma lista das 5 melhores plataformas de blog de código aberto e sites de blogs disponíveis.
-  * [WordPress] [1]
-  * [Jekyll] [2]
-  * [Fantasma] [3]
-  * [Serendipity] [4]
-  * [Silverstripe] [5]
+  * [WordPress][1]
+  * [Jekyll][2]
+  * [Fantasma][3]
+  * [Serendipity][4]
+  * [Silverstripe][5]
 
 ### ** WordPress ** {#wordpress}
 O WordPress é um sistema de gerenciamento de conteúdo gratuito e de código aberto e uma plataforma de blog auto -hospedada. É baseado no PHP e MySQL, que é a pilha de tecnologia mais popular. Consequentemente, torna o WordPress o CMS mais amplamente usado e o software de blog de código aberto do mundo. No momento da redação deste post, conforme sites oficiais WordPress.org, ele alimenta mais de 30% dos 10 milhões de sites e a participação geral de mercado é de 60%.
@@ -31,7 +31,7 @@ Aqui estão alguns dos recursos notáveis ​​da melhor plataforma de microblo
   * Plugins gratuitos para WordPress - WordPress fornece um repositório de plug -in para aprimorar e estender seu blog.
   * Suporte multilíngue - o WordPress fornece suporte multilíngue logo fora da caixa.
   * Enorme comunidade de desenvolvedores de código aberto
-    [Leia mais] [6]
+    [Leia mais][6]
 
 ### ** jekyll ** {#jekyll}
 Jekyll é um gerador de sites estáticos e ferramentas gratuitas de blog para iniciantes. Ele cria um site usando seus arquivos de marcação. Ele leva o conteúdo do seu site, aplica -o a algum modelo e gera arquivos HTML puramente estáticos. Portanto, eles estão prontos para serem hospedados em qualquer plataforma de hospedagem.
@@ -42,7 +42,7 @@ Aqui estão os principais destaques da melhor plataforma de blog de código aber
   * Páginas de carregamento rápido
   * Temas
   * Código aberto
-    [Leia mais] [7]
+    [Leia mais][7]
 
 ### ** fantasma ** {#ghost}
 O Ghost é uma ferramenta de blog sem fins lucrativos e gratuita de código aberto. É desenvolvido usando o Node.js, que é uma das plataformas de desenvolvimento mais populares. Então, ele tem todos os poderes do nó. Acima de tudo, possui uma interface simples e limpa, o que facilita o uso. É uma maravilhosa plataforma de gerenciamento de conteúdo e blog para iniciantes e se concentra mais no conteúdo.
@@ -54,7 +54,7 @@ O Ghost fornece uma API REST nativa, membros de associação e assinatura intern
   * Páginas móveis aceleradas
   * Backups automáticos
   * Aplicativos nativos
-    [Leia mais] [8]
+    [Leia mais][8]
 
 ### ** Serendipity ** {#Serendipity}
 O Serendipity é um mecanismo de webg de código aberto, baseado em PHP, que pode ser usado para criar e manter sites para qualquer finalidade. É projetado para os blogueiros casuais. No entanto, oferece uma estrutura expansível que tem o poder de criar aplicativos profissionais.
@@ -66,7 +66,7 @@ Aqui estão alguns dos principais destaques do software Serendipity Top Blogging
   * Sistema de plug -in robusto
   * Temas
   * Código aberto
-    [Leia mais] [9]
+    [Leia mais][9]
 
 ### ** SilverStripe ** {#SilverStripe}
 O SilverStripe é um CMS de código aberto gratuito e estrutura para criar e manter sites, blogs e aplicativos da Web. Foi construído usando o PHP de linguagem de script mais popular do mundo. Portanto, o torna uma estrutura flexível que pode ser usada para criar aplicações de grau de produção.
@@ -77,19 +77,21 @@ Aqui estão os principais recursos que descobrimos no software de blog SilverStr
   * Search Engine Friendly
   * Fluxos de trabalho e aprovações do usuário
   * Gerenciamento de usuários
-    [Leia mais] [10]
+    [Leia mais][10]
 
 ### Conclusão:
 Neste artigo, você revisou o melhor software de blog de código aberto disponível para criadores de conteúdo. Para extensibilidade, o WordPress tem vantagem devido ao grande repositório de plug -in. Se você precisar de velocidade, Ghost e Jekyll podem ser sua escolha. Para problemas de spam, o Serendipity construiu o recurso de controle de spam. Por fim, o Silverstripe pode ser uma escolha para quem deseja configurar fluxos de aprovação complexos.
-Além disso, o [containerize.com] [11] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas_. Você pode se juntar a nós no [Twitter] [12], [LinkedIn] [13] e nossa página [Facebook] [14]. Que lista de plataformas de blog você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato] [15].
+Além disso, o [containerize.com][11] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas_. Você pode se juntar a nós no [Twitter][12], [LinkedIn][13] e nossa página [Facebook][14]. Que lista de plataformas de blog você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato][15].
 
 ## Explore
 Você pode encontrar as seguintes soluções de comércio eletrônico relevantes para pequenas empresas:
-  *[** Hugo - o gerador de sites estáticos de código aberto mais popular do mundo **] [16]
-  *[** Hexo - gerador de sites estáticos rápido e fácil e plataforma de blog **] [17]
-  *[** Gatsby - construa sites rápidos com Gatsby **] [18]
-  *** [WordPress - plataforma de blog de código aberto] [19] **
-  *** [Melhor plataformas de blog de código aberto e de código aberto] [20] **
+  *[** Hugo - o gerador de sites estáticos de código aberto mais popular do mundo **][16]
+  *[** Hexo - gerador de sites estáticos rápido e fácil e plataforma de blog **][17]
+  *[** Gatsby - construa sites rápidos com Gatsby **][18]
+  *** [WordPress - plataforma de blog de código aberto][19] **
+  *** [Melhor plataformas de blog de código aberto e de código aberto][20] **
+
+  
 [1]: #wordpress
 [2]: #jekyll
 [3]: #ghost

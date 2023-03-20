@@ -15,22 +15,22 @@ categories: ['Blockchain Platforms']
 
 
 ## Ringkasan
-Di masa lalu, kami menerbitkan [posting blog] [1] yang menyoroti dampak dan pentingnya teknologi blockchain. Ada posting blog lain yang menarik [apa itu NFT? | Token Non Fikible menjelaskan] [2]. Teknologi buku besar terdistribusi didasarkan pada beberapa konsep inti seperti kontrak pintar, node, penambangan, algoritma konsensus, transaksi digital, dan jaringan peer-to-peer. Karena itu adalah open source, maka ada jendela besar untuk ekstensi mengenai kasus penggunaan. Faktanya, ada banyak platform manajemen aset digital open source dan gratis yang didistribusikan dan memerlukan beberapa perangkat lunak untuk mengatur transaksi.
+Di masa lalu, kami menerbitkan [posting blog][1] yang menyoroti dampak dan pentingnya teknologi blockchain. Ada posting blog lain yang menarik [apa itu NFT? | Token Non Fikible menjelaskan][2]. Teknologi buku besar terdistribusi didasarkan pada beberapa konsep inti seperti kontrak pintar, node, penambangan, algoritma konsensus, transaksi digital, dan jaringan peer-to-peer. Karena itu adalah open source, maka ada jendela besar untuk ekstensi mengenai kasus penggunaan. Faktanya, ada banyak platform manajemen aset digital open source dan gratis yang didistribusikan dan memerlukan beberapa perangkat lunak untuk mengatur transaksi.
 Dalam tutorial kontrak pintar ini, kami akan belajar cara membangun kontrak pintar Ethereum dengan menutupi poin -poin berikut.
-  *[** Apa itu kontrak pintar? **] [3]
-  *[** Bagaimana cara membangun kontrak pintar dasar? **] [4]
-  *[** Bagaimana cara menjalankan dan menggunakan kontrak pintar? **] [5]
-  *[** Kesimpulan **] [6]
+  *[** Apa itu kontrak pintar? **][3]
+  *[** Bagaimana cara membangun kontrak pintar dasar? **][4]
+  *[** Bagaimana cara menjalankan dan menggunakan kontrak pintar? **][5]
+  *[** Kesimpulan **][6]
 
 ## Apa itu kontrak pintar? {#Apa}
 Kontrak pintar adalah program yang berjalan di blockchain untuk mengatur transaksi digital. Sepotong kode ini berisi aturan dan prosedur yang ditentukan yang memastikan transparansi transaksi. Setiap kontrak pintar berisi alamat dan alamat itu digunakan untuk mengakses fungsi apa pun dari kontrak pintar tertentu. Selain itu, kontrak pintar membawa transparansi, kepercayaan, dan keamanan ke jaringan blockchain. Potongan -potongan kode ini dijalankan secara otomatis setelah kondisi tertentu terpenuhi.
-Namun, setiap pengembang dapat menulis kontrak pintar dan menggunakannya melalui jaringan. Lebih lanjut, kontrak pintar membuat proses cukup kuat karena tidak ada ketergantungan yang terlibat dalam pelaksanaan potongan kode ini. Selain itu, kontrak pintar menyimpan informasi yang diperlukan terkait dengan setiap transaksi yang dapat diambil dan diverifikasi oleh peserta. Banyak industri seperti perawatan kesehatan, perbankan, sangat mengadopsi teknologi buku besar yang didistribusikan ini. Lembaga pemerintah juga ingin menggunakan aplikasi terdesentralisasi (DAPPS) untuk membawa keaslian dan transparansi ke dalam sistem pemilihan. Ada banyak [platform blockchain] [7] seperti [Ethereum] [8], [Ripple] [9], [Corda] [10], dan beberapa lagi, bagaimanapun, dalam panduan ini, kami akan membangun kontrak pintar pertama kami kami di Ethereum.
+Namun, setiap pengembang dapat menulis kontrak pintar dan menggunakannya melalui jaringan. Lebih lanjut, kontrak pintar membuat proses cukup kuat karena tidak ada ketergantungan yang terlibat dalam pelaksanaan potongan kode ini. Selain itu, kontrak pintar menyimpan informasi yang diperlukan terkait dengan setiap transaksi yang dapat diambil dan diverifikasi oleh peserta. Banyak industri seperti perawatan kesehatan, perbankan, sangat mengadopsi teknologi buku besar yang didistribusikan ini. Lembaga pemerintah juga ingin menggunakan aplikasi terdesentralisasi (DAPPS) untuk membawa keaslian dan transparansi ke dalam sistem pemilihan. Ada banyak [platform blockchain][7] seperti [Ethereum][8], [Ripple][9], [Corda][10], dan beberapa lagi, bagaimanapun, dalam panduan ini, kami akan membangun kontrak pintar pertama kami kami di Ethereum.
 
 ## Bagaimana cara membangun kontrak pintar dasar? {#membangun}
 Di bagian tutorial kontrak pintar ini, kami akan melihat langkah -langkah untuk mengatur lingkungan untuk kontrak pintar pertama kami.
-Kontrak pintar dapat ditulis dalam banyak bahasa tetapi, kami akan menggunakan [soliditas] [11] yang merupakan bahasa tingkat tinggi untuk menulis kontrak pintar.
-Kami akan menggunakan [Ethereum Studio] [12] yang merupakan IDE berbasis web. Ini digunakan untuk menulis kontrak pintar serta aplikasi terdesentralisasi untuk berinteraksi dengan kontrak pintar. Ini menyediakan beberapa templat proyek yang sudah dibangun di mana Anda dapat mulai menulis logika Anda segera.
-Jadi, buka IDE [Ethereum Studio] [12] ke dalam browser dan Anda akan melihat antarmuka berikut.
+Kontrak pintar dapat ditulis dalam banyak bahasa tetapi, kami akan menggunakan [soliditas][11] yang merupakan bahasa tingkat tinggi untuk menulis kontrak pintar.
+Kami akan menggunakan [Ethereum Studio][12] yang merupakan IDE berbasis web. Ini digunakan untuk menulis kontrak pintar serta aplikasi terdesentralisasi untuk berinteraksi dengan kontrak pintar. Ini menyediakan beberapa templat proyek yang sudah dibangun di mana Anda dapat mulai menulis logika Anda segera.
+Jadi, buka IDE [Ethereum Studio][12] ke dalam browser dan Anda akan melihat antarmuka berikut.
 
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-5.01.30-PM-1024x554.png" alt="Tutorial Kontrak Cerdas">}}
 
@@ -71,22 +71,24 @@ Selain itu, ada aplikasi front-end yang memungkinkan pengguna untuk berinteraksi
 
 ## kesimpulan {#con}
 Ini membawa kita ke akhir tutorial kontrak pintar ini. Saya harap artikel ini membantu Anda memahami langkah -langkah kunci membangun dan menggunakan kontrak pintar Ethereum. Ketika teknologi blockchain berkembang dengan kecepatan tinggi, sekarang saatnya untuk mendapatkan praktik langsung di atas sistem gema blockchain. Teknologi buku besar terdistribusi ini sangat dapat dikonfigurasi dan dapat diperluas. Posting blog ini akan sangat membantu Anda jika Anda bersedia mempelajari pengembangan kontrak pintar. Selain itu, ada banyak tutorial bermanfaat dan platform manajemen aset digital open source yang disebutkan di bawah bagian "Jelajahi" di bawah ini.
-Pada akhirnya, [containerize.com] [13] sepenuhnya didedikasikan untuk menyusun daftar perangkat lunak sumber terbuka. Ada banyak tutorial dan posting blog tentang perangkat lunak sumber terbuka dan sejumlah posting blog ada di dalam pipa. Oleh karena itu, harap tetap berhubungan dengan kategori [platform blockchain] [7] untuk pembaruan rutin.
+Pada akhirnya, [containerize.com][13] sepenuhnya didedikasikan untuk menyusun daftar perangkat lunak sumber terbuka. Ada banyak tutorial dan posting blog tentang perangkat lunak sumber terbuka dan sejumlah posting blog ada di dalam pipa. Oleh karena itu, harap tetap berhubungan dengan kategori [platform blockchain][7] untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Ethereum] [8]
-  * [Hyperledger Fabric] [14]
-  * [OpenChain] [15]
-  * [Riak] [16]
-  * [Multichain] [17]
-  * [Consensys Quorum] [18]
-  * [Apa itu NFT? | Token Non Fikible Dijelaskan] [2]
-  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local] [19]
-  * [Top 5 Platform Blockchain Open Source di 2020] [20]
-  * [Panduan Dasar tentang Cara Membuat Kontrak Cerdas Ethereum] [21]
-  * [Bagaimana teknologi terdesentralisasi meningkatkan strategi bisnis Anda] [22]
-  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local] [19]
+  * [Ethereum][8]
+  * [Hyperledger Fabric][14]
+  * [OpenChain][15]
+  * [Riak][16]
+  * [Multichain][17]
+  * [Consensys Quorum][18]
+  * [Apa itu NFT? | Token Non Fikible Dijelaskan][2]
+  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local][19]
+  * [Top 5 Platform Blockchain Open Source di 2020][20]
+  * [Panduan Dasar tentang Cara Membuat Kontrak Cerdas Ethereum][21]
+  * [Bagaimana teknologi terdesentralisasi meningkatkan strategi bisnis Anda][22]
+  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local][19]
+
+  
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
 [3]: #what

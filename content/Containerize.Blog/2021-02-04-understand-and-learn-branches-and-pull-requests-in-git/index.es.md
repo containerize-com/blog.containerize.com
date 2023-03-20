@@ -13,12 +13,12 @@ categories: ['Version Control Software']
 
 {{< figure align=center src="images/git-branches-pull-requests.png" alt="Ramas de solicitudes de extracción de git">}}
 
-En nuestro [último artículo] [1], aprendimos sobre los conceptos básicos de GIT y los sistemas de control de versiones. Pasamos paso a paso y aprendimos a configurar un repositorio Git. Además, aprendimos a agregar cambios a una rama y revertirlos en caso de que quiera deshacer sus cambios. Ahora que entendemos los conceptos básicos de los sistemas de control de versiones, específicamente, GIT. Entonces, en esta publicación de blog, pasaremos para discutir cómo usar las ramas Git y las solicitudes de extracción. Aprenderemos sobre diferentes flujos de trabajo. ¡Entonces empecemos!
-  *** [¿Qué son las ramas Git] [2] **
-  *** [Crear / modificar ramas Git] [3] **
-  *** [¿Qué es una solicitud de extracción] [4] **
-  *** [Modelos de ramificación Git Popular] [5] **
-  *[** Conclusión **] [6]
+En nuestro [último artículo][1], aprendimos sobre los conceptos básicos de GIT y los sistemas de control de versiones. Pasamos paso a paso y aprendimos a configurar un repositorio Git. Además, aprendimos a agregar cambios a una rama y revertirlos en caso de que quiera deshacer sus cambios. Ahora que entendemos los conceptos básicos de los sistemas de control de versiones, específicamente, GIT. Entonces, en esta publicación de blog, pasaremos para discutir cómo usar las ramas Git y las solicitudes de extracción. Aprenderemos sobre diferentes flujos de trabajo. ¡Entonces empecemos!
+  *** [¿Qué son las ramas Git][2] **
+  *** [Crear / modificar ramas Git][3] **
+  *** [¿Qué es una solicitud de extracción][4] **
+  *** [Modelos de ramificación Git Popular][5] **
+  *[** Conclusión **][6]
 
 ## ¿Qué son las ramas Git {#Branch}
 
@@ -50,18 +50,18 @@ Cuando un desarrollador abre una solicitud de extracción, todo lo que está hac
 Hay un número de flujos de trabajo de ramificación que están en uso por la comunidad de desarrolladores en todo el mundo. Pero, discutiremos los tres modelos de ramificación más populares uno por uno
 
 ### flujo de git
-GitFlow Workflow es un flujo de trabajo GIT que ayuda con el desarrollo continuo de software e implementando prácticas de DevOps. El flujo Git es el flujo de trabajo más conocido en esta lista. Fue creado por [Vincent Driessen en 2010] [7] y se basa en dos ramas principales con una vida infinita, junto con otras ramas de soporte como las características-\*, HotfiMes-\* que luego se fusionan en la rama de desarrollo como individual Los artículos se completan.
+GitFlow Workflow es un flujo de trabajo GIT que ayuda con el desarrollo continuo de software e implementando prácticas de DevOps. El flujo Git es el flujo de trabajo más conocido en esta lista. Fue creado por [Vincent Driessen en 2010][7] y se basa en dos ramas principales con una vida infinita, junto con otras ramas de soporte como las características-\*, HotfiMes-\* que luego se fusionan en la rama de desarrollo como individual Los artículos se completan.
   *** Master ** - Esta rama contiene código de producción. Todo el código de desarrollo se fusiona en la rama maestra una vez que está listo para ser empujado a la producción.
   *** Desarrollar **-Esta rama contiene código de preproducción. Cuando las características están terminadas, se fusionan en desarrollo.
 Gitflow es ideal para proyectos que tienen un ciclo de lanzamiento programado. Sin embargo, la historia de GIT se vuelve ilegible.
 
 ### flujo de github
-El flujo de GitHub es un flujo de trabajo liviano. Fue creado por [Github] [8] en 2011 y se centra principalmente en el modelo ágil, donde no espera un ciclo de liberación. En cambio, impulsa los cambios a la producción a diario a medida que las características se completan.
+El flujo de GitHub es un flujo de trabajo liviano. Fue creado por [Github][8] en 2011 y se centra principalmente en el modelo ágil, donde no espera un ciclo de liberación. En cambio, impulsa los cambios a la producción a diario a medida que las características se completan.
 El flujo de Github sigue a los siguientes directores:
   * Cualquier cosa en la rama "maestra" es desplegable.
   * Para trabajar en algo nuevo, cree una rama separada de Off Master con algún nombre de descripción, por ejemplo, "suplente de imagen"
   * Comprométase con esa rama a nivel local y regularmente su trabajo a la rama del mismo nombre en el servidor.
-  * Cuando necesite comentarios o ayuda, o cree que la rama está lista para fusionarse, abra una [solicitud de extracción] [4]
+  * Cuando necesite comentarios o ayuda, o cree que la rama está lista para fusionarse, abra una [solicitud de extracción][4]
   * Después de revisar y firmar en la función, puede fusionarlo en el maestro
   * Una vez que se fusiona y empuja a "Master", se puede implementar en producción.
 
@@ -71,6 +71,8 @@ Los desarrolladores crean una rama ** Desarrollar ** y hacen que sea el valor pr
 
 ## conclusión {#conclusion}
 En este artículo, aprendimos sobre las ramas Git y las solicitudes de extracción. Estudiamos la importancia de las solicitudes de extracción y cómo se pueden usar en varios flujos de trabajo GIT. También exploramos brevemente diferentes modelos de ramificación GIT.
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: #branch
 [3]: #create

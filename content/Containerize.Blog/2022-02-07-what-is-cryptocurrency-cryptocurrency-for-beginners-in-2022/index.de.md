@@ -62,10 +62,12 @@ _Was sind Ihre Lieblingsprojekte für Kryptowährung? Haben Sie Fragen darüber,
 
 ## Erkunden:
 Wir haben auch mehrere andere verwandte Informationen von OSS Watch:
-  * [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software] [2]
-  * [Top 5 Open Source Message Queue (MQ) Software in 2021] [3]
-  * [Beliebteste Open Source Digital Forensic Tools] [4]
-  * [Die beliebtesten Open-Source-Lizenzen] [5]
+  * [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][2]
+  * [Top 5 Open Source Message Queue (MQ) Software in 2021][3]
+  * [Beliebteste Open Source Digital Forensic Tools][4]
+  * [Die beliebtesten Open-Source-Lizenzen][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

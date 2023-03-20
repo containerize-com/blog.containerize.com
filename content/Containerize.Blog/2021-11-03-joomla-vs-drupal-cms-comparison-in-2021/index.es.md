@@ -15,20 +15,20 @@ categories: ['Content Management']
 
 
 ## **Descripción general**
-Bienvenido a esta publicación de blog. En el pasado reciente, publicamos muchos artículos como [Guía de desarrollo de plantillas de Joomla para los principiantes] [1], [Integrar Mautic & Joomla para la automatización de marketing digital] [2] y algunos más. Drupal y Joomla son software CMS de código abierto que tienen licencia bajo GPL. Esta publicación de blog ** Joomla vs Drupal ** le dará una imagen clara sobre las características. Sin embargo, la presencia en línea de su negocio es el aspecto más importante cuando se trata del crecimiento y alcance del negocio. El objetivo de los interesados ​​comerciales es publicar contenido atractivo que atraiga el tráfico a los sitios web comerciales.
-Por lo tanto, la comunidad de código abierto ha desarrollado muchos software de gestión de contenido que proporcionan una amplia gama de características para los propietarios de sitios y editores de contenido. [Joomla] [3] y [Drupal] [4] son ​​el software CMS de código abierto más popular. ¿Qué es Drupal? ** ¿Qué es Joomla **? Estas son las dos preguntas que intentaremos responder en la publicación del blog de la comparación ** CMS ** cubriendo los siguientes puntos.
-  *** [¿Qué es Joomla?] [5] **
-  *** [Breve introducción de Drupal] [6] **
-  *** [Comparación de Joomla y Drupal] [7] **
-  *** [Conclusión] [8] **
+Bienvenido a esta publicación de blog. En el pasado reciente, publicamos muchos artículos como [Guía de desarrollo de plantillas de Joomla para los principiantes][1], [Integrar Mautic & Joomla para la automatización de marketing digital][2] y algunos más. Drupal y Joomla son software CMS de código abierto que tienen licencia bajo GPL. Esta publicación de blog ** Joomla vs Drupal ** le dará una imagen clara sobre las características. Sin embargo, la presencia en línea de su negocio es el aspecto más importante cuando se trata del crecimiento y alcance del negocio. El objetivo de los interesados ​​comerciales es publicar contenido atractivo que atraiga el tráfico a los sitios web comerciales.
+Por lo tanto, la comunidad de código abierto ha desarrollado muchos software de gestión de contenido que proporcionan una amplia gama de características para los propietarios de sitios y editores de contenido. [Joomla][3] y [Drupal][4] son ​​el software CMS de código abierto más popular. ¿Qué es Drupal? ** ¿Qué es Joomla **? Estas son las dos preguntas que intentaremos responder en la publicación del blog de la comparación ** CMS ** cubriendo los siguientes puntos.
+  *** [¿Qué es Joomla?][5] **
+  *** [Breve introducción de Drupal][6] **
+  *** [Comparación de Joomla y Drupal][7] **
+  *** [Conclusión][8] **
 
 ## ¿Qué es Joomla? {#joomla}
-[Joomla] [3] es un software CMS de código abierto que viene con capacidades de autohostación. Es multilingüe y proporciona soporte para muchos idiomas. Hay una gran base de complementos que se utilizan para extender la funcionalidad de este CMS de código abierto y tiene miles de desarrolladores que son muy vibrantes hacia los nuevos desarrollos y la fijación de errores. Además, Joomla es extensible y ofrece integración con bibliotecas de terceros. Las plantillas que proporciona este CMS de código abierto están optimizadas por SEO y fáciles de activar. En lo que respecta a la interfaz de usuario, hay una interfaz de arrastrar y soltar para la construcción y edición del sitio.
-Además, Joomla es fácil de configurar en los servidores, ya que requiere requisitos simples como PHP y MySQL. Además, hay soporte de navegador cruzado disponible en este CMS gratuito con características ricas amigables para el diseño. Hay documentación integral disponible con respecto al desarrollo y la implementación. Por lo tanto, todo el código fuente de esto abre CMS de origen está disponible en [GitHub] [9]. En la siguiente sección de esta publicación de blog ** Joomla vs Drupal **, analizaremos Drupal.
+[Joomla][3] es un software CMS de código abierto que viene con capacidades de autohostación. Es multilingüe y proporciona soporte para muchos idiomas. Hay una gran base de complementos que se utilizan para extender la funcionalidad de este CMS de código abierto y tiene miles de desarrolladores que son muy vibrantes hacia los nuevos desarrollos y la fijación de errores. Además, Joomla es extensible y ofrece integración con bibliotecas de terceros. Las plantillas que proporciona este CMS de código abierto están optimizadas por SEO y fáciles de activar. En lo que respecta a la interfaz de usuario, hay una interfaz de arrastrar y soltar para la construcción y edición del sitio.
+Además, Joomla es fácil de configurar en los servidores, ya que requiere requisitos simples como PHP y MySQL. Además, hay soporte de navegador cruzado disponible en este CMS gratuito con características ricas amigables para el diseño. Hay documentación integral disponible con respecto al desarrollo y la implementación. Por lo tanto, todo el código fuente de esto abre CMS de origen está disponible en [GitHub][9]. En la siguiente sección de esta publicación de blog ** Joomla vs Drupal **, analizaremos Drupal.
 
 ## Breve introducción de Drupal {#Drupal}
-[Drupal] [4] es otro software de administración de contenido de código abierto con características y disposiciones de nivel empresarial. Este CMS de código abierto proporciona el control al usuario que incluso los no técnicos también pueden realizar ciertas operaciones. Existen muchas características potentes, como búsqueda global, múltiples tipos de contenido, soporte de accesibilidad, optimización de velocidad y muchas más. Además, hay un gran grupo de complementos al igual que otros sistemas populares de gestión de contenido como Joomla y Pyro. Drupal tiene una interfaz de usuario intuitiva que brinda un sentido lógico de elementos a los usuarios con respecto a la administración de activos de medios y publicación de contenido.
-Este software CMS de código abierto es seguro, flexible y ofrece capacidades de autohostación. Hay documentación integral disponible con respecto al desarrollo y la implementación. Por lo tanto, todo el código fuente de esto abre CMS de origen está disponible en [GitHub] [10].
+[Drupal][4] es otro software de administración de contenido de código abierto con características y disposiciones de nivel empresarial. Este CMS de código abierto proporciona el control al usuario que incluso los no técnicos también pueden realizar ciertas operaciones. Existen muchas características potentes, como búsqueda global, múltiples tipos de contenido, soporte de accesibilidad, optimización de velocidad y muchas más. Además, hay un gran grupo de complementos al igual que otros sistemas populares de gestión de contenido como Joomla y Pyro. Drupal tiene una interfaz de usuario intuitiva que brinda un sentido lógico de elementos a los usuarios con respecto a la administración de activos de medios y publicación de contenido.
+Este software CMS de código abierto es seguro, flexible y ofrece capacidades de autohostación. Hay documentación integral disponible con respecto al desarrollo y la implementación. Por lo tanto, todo el código fuente de esto abre CMS de origen está disponible en [GitHub][10].
 
 ## Comparación de Joomla y Drupal {#comp}
 En esta sección del artículo ** Joomla vs Drupal **, compararemos estos dos software CMS de código abierto buscando sus características y en la comunidad. Aquí están los siguientes puntos que cubriremos.
@@ -53,19 +53,21 @@ Esta es la característica más importante y decisiva mientras opta por cualquie
 
 ## conclusión {#conclusion}
 Este es el final de esta publicación de blog ** Joomla vs Drupal **. El primer paso es la claridad mental antes de elegir una solución de software para su negocio. Esta comparación de ** CMS ** Blog Public realmente lo ayudará si se pregunta qué es Joomla o ** qué es Drupal **. Existen otro software CMS de código abierto y artículos útiles mencionados en ‘Explore; Sección a continuación. Por lo tanto, hemos explicado las cosas en detalle, por lo que le dejamos que tome cualquier decisión con respecto a la selección de CMS de código abierto. Además, elija siempre un software que sea confiable, flexible y escalable con algoritmos de seguridad inquebrantables.
-Finalmente, ** [Contenerize.com] [11] ** ha estado escribiendo en otros productos de código abierto. Manténgase en contacto con esta categoría ** [[Gestión de contenido] [12]] [12] ** para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [13], [LinkedIn] [14] y [Twitter] [15].
+Finalmente, ** [Contenerize.com][11] ** ha estado escribiendo en otros productos de código abierto. Manténgase en contacto con esta categoría ** [[Gestión de contenido][12]][12] ** para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][13], [LinkedIn][14] y [Twitter][15].
 
 ## Explorar
-  * [Joomla] [3]
-  * [Drupal] [4]
-  * [Pyro] [16]
-  * [Django CMS] [17]
-  * [Umbraco CMS] [18]
-  * [Concrete5] [19]
-  * [Cómo crear el tema de Joomla con el marco de pórtico] [20]
-  * [Integrar Mautic y Joomla para la automatización de marketing digital] [2]
-  * [Integración de Drupal Mautic para automatizar la crianza de plomo] [21]
-  * [Top 5 plantillas de bootstrap de Joomla gratuitas de 2020] [22]
+  * [Joomla][3]
+  * [Drupal][4]
+  * [Pyro][16]
+  * [Django CMS][17]
+  * [Umbraco CMS][18]
+  * [Concrete5][19]
+  * [Cómo crear el tema de Joomla con el marco de pórtico][20]
+  * [Integrar Mautic y Joomla para la automatización de marketing digital][2]
+  * [Integración de Drupal Mautic para automatizar la crianza de plomo][21]
+  * [Top 5 plantillas de bootstrap de Joomla gratuitas de 2020][22]
+
+  
 [1]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
 [2]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
 [3]: https://products.containerize.com/content-management/joomla

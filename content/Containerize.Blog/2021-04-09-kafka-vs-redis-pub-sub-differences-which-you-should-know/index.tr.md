@@ -13,7 +13,7 @@ categories: ['Database Management Software']
 
 
 ## Redis ve Kafka, benzer işleri kendi yollarıyla yapan iki farklı araçtır. Kafka vs Redis karşılaştırması size bilmeniz gereken fikir verir.
-“Redis” ile ilgili makalelerimizde [Redis'in temelleri] [1] 'ın temellerini öğrendik, daha sonra [Redis Pub/Sub Works] [2] [2]' i ve bunun NoSQL veritabanlarıyla nasıl rekabet ettiğini araştırdık. Bugünkü dizimizde ilerlerken REDIS'i çeşitli görevlerde rakiplerinden biri olan Kafka ile karşılaştıracağız. Bu makalede Kafka vs Redis Pub-Sub, Kafka'nın Redis'ten nasıl farklı olduğunu ve onların benzerlikleri neler olduğunu keşfedeceğiz. Öyleyse başlayalım.
+“Redis” ile ilgili makalelerimizde [Redis'in temelleri][1] 'ın temellerini öğrendik, daha sonra [Redis Pub/Sub Works][2][2]' i ve bunun NoSQL veritabanlarıyla nasıl rekabet ettiğini araştırdık. Bugünkü dizimizde ilerlerken REDIS'i çeşitli görevlerde rakiplerinden biri olan Kafka ile karşılaştıracağız. Bu makalede Kafka vs Redis Pub-Sub, Kafka'nın Redis'ten nasıl farklı olduğunu ve onların benzerlikleri neler olduğunu keşfedeceğiz. Öyleyse başlayalım.
   * Kafka nedir?
   * Redis nedir?
   * Ana farklılıklar nelerdir?
@@ -21,12 +21,12 @@ categories: ['Database Management Software']
   * Çözüm
 
 ## Kafka nedir?
-Apache Kafka, açık kaynaklı bir dağıtılmış olay akışı platformudur. Yüksek performanslı veri boru hatları ve akış analizleri için kullanılır. Kafka, [yayınlama-abonelik mesajlaşma sistemi yayınlamak] [3] gibi davranır. Bununla, yeni verileri yüksek hızlarda oluşturulduğu gibi işleyebilirsiniz ve ayrıca bazı veritabanlarına da kaydedebilirsiniz.
+Apache Kafka, açık kaynaklı bir dağıtılmış olay akışı platformudur. Yüksek performanslı veri boru hatları ve akış analizleri için kullanılır. Kafka, [yayınlama-abonelik mesajlaşma sistemi yayınlamak][3] gibi davranır. Bununla, yeni verileri yüksek hızlarda oluşturulduğu gibi işleyebilirsiniz ve ayrıca bazı veritabanlarına da kaydedebilirsiniz.
 Kafka, ** sunucuları ** ve ** istemcilerden oluşan dağıtılmış bir sistemdir. Çıplak metal donanım, sanal makineler ve şirket içi ve bulut ortamlarında kaplar üzerine dağıtılabilir.
 
 ## Redis nedir?
 Redis, açık kaynaklı, gelişmiş bir anahtar değeri mağazasıdır. Birkaç veri türünü destekler: dizeler, karmalar, listeler, kümeler ve sıralı kümeler. Bu nedenle genellikle bir veri yapısı sunucusu olarak adlandırılır.
-Redis ayrıca NoSQL veritabanı olarak kabul edilir. He Redis ve nasıl çalıştığı hakkında ayrıntılı bir tartışma için “[REDIS bellek içi veritabanı için yeni başlayanlar rehberi] [1] makalemize başvurabilirsiniz.
+Redis ayrıca NoSQL veritabanı olarak kabul edilir. He Redis ve nasıl çalıştığı hakkında ayrıntılı bir tartışma için “[REDIS bellek içi veritabanı için yeni başlayanlar rehberi][1] makalemize başvurabilirsiniz.
 
 ## Temel farklılıklar nelerdir?
 ** REDIS ** Pub-Sub çoğunlukla ürettiğiniz tüm mesajların bir kerede tüm tüketicilere teslim edileceği ve verilerin hiçbir yerde saklanmadığı bir yangın ve onay sistemi gibidir. REDIS ile ilgili olarak bellekte sınırlamalarınız var. Ayrıca, üretici ve tüketicilerin sayısı REDIS'in performansını etkileyebilir.
@@ -51,6 +51,8 @@ Redis ayrıca NoSQL veritabanı olarak kabul edilir. He Redis ve nasıl çalış
 
 ## Çözüm
 Bu öğretici Kafka vs Redis Pub-Sub'da Kafka ve Redis'i araştırdık. Farklılıkları ve benzerlikleri nelerdir? Ayrıca ne zaman redis yapmanız gerektiğini ve Kafka'yı kullanmanın ne zaman iyi olduğunu öğrendik. Yaklaşan öğreticilerimizde Kafka ve derinlemesine analiz hakkında daha fazla bilgi edineceğiz.
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/
 [3]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/

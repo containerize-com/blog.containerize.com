@@ -18,11 +18,11 @@ categories: ['Blogging', 'Marketing Automation']
 Mautic-Woocommerce Integrationは、Mauticアプリのすべての連絡先を簡単に取得する簡単な方法を提供します。次に、これらの連絡先を使用して、要件に応じてマーケティングキャンペーンを作成できます。 Mauticは、マーケティングキャンペーンを完全に制御できる優れたマーケティングツールです。
 Mauticは、オープンソースと無料のマーケティングオートメーションソリューションです。これは、マーケティングキャンペーン、セグメント、フォーム、レポートなどを作成するために使用されます。
 WooCommerceは、WordPress用のオープンソースのeコマースプラグインです。これは、この時点で世界中で主に使用されているeコマースソリューションです。あなたのニーズに応じて使用できるWooCommerceに利用可能な何百ものアドオンがあります。
-MauticとWordPress用のプラグインがあり、マーケティングオートメーションソリューションを提供しています。これらの手順に従って、WooCommerceをMauticとプラグインを使用して統合してください[WooCommerceのMauticとの統合 - オープンソースマーケティングオートメーション] [1]
+MauticとWordPress用のプラグインがあり、マーケティングオートメーションソリューションを提供しています。これらの手順に従って、WooCommerceをMauticとプラグインを使用して統合してください[WooCommerceのMauticとの統合 - オープンソースマーケティングオートメーション][1]
 このブログでは、次のセクションについて説明します。
-  * [WordPressプラグイン構成] [2]
-  * [Mautic Configuration] [3]
-  * [最終的な考え] [4]
+  * [WordPressプラグイン構成][2]
+  * [Mautic Configuration][3]
+  * [最終的な考え][4]
 
 ## WordPressプラグイン構成{#WordPress}
   1.プラグインに移動します。
@@ -65,12 +65,14 @@ Mautic-Woocommerceの統合を一緒に統合することで、マーケティ�
 
 ## 探検：
 次のリンクが関連する場合があります。
-  * [wodpress] [6]
-  * [Mautic] [7]
-  * [Mauticのセットアップ方法 -  Facebook統合] [8]
-  * [鉛育成を自動化するためのDrupal Mautic統合] [9]
-  * [MauticとWordPress WooCommerceを使用したマーケティングオートメーション] [10]
-  * [Mauticでマーケティングキャンペーンをセットアップする方法] [11]
+  * [wodpress][6]
+  * [Mautic][7]
+  * [Mauticのセットアップ方法 -  Facebook統合][8]
+  * [鉛育成を自動化するためのDrupal Mautic統合][9]
+  * [MauticとWordPress WooCommerceを使用したマーケティングオートメーション][10]
+  * [Mauticでマーケティングキャンペーンをセットアップする方法][11]
+
+  
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

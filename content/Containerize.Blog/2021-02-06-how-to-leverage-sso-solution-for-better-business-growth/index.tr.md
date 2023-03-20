@@ -15,14 +15,14 @@ categories: ['Single Sign-On']
 
 
 ## Genel Bakış
-Kısa süre önce [2021 yılında ilk 5 açık kaynaklı tek oturum açma yazılımı] [1] [1] hakkında bir blog yazısı yayınladık. Bu blog yazısında aşağıdaki noktaları ele alacağız.
-  *[** SSO teknolojisi nedir? **] [2]
-  *** [Ho] [3] ** [** W **] [3] ** [Tek Oturum Açma (SSO) çalışır mı?] [3] **
-  *[** SSO Sisteminin İş Kullanım Örneği **] [4]
-  *[** Sonuç **] [5]
+Kısa süre önce [2021 yılında ilk 5 açık kaynaklı tek oturum açma yazılımı][1][1] hakkında bir blog yazısı yayınladık. Bu blog yazısında aşağıdaki noktaları ele alacağız.
+  *[** SSO teknolojisi nedir? **][2]
+  *** [Ho][3] ** [** W **][3] ** [Tek Oturum Açma (SSO) çalışır mı?][3] **
+  *[** SSO Sisteminin İş Kullanım Örneği **][4]
+  *[** Sonuç **][5]
 
 ## SSO teknolojisi nedir? {#Ne}
-[Tek Oturum Açma] [6], üçüncü taraf siteleri kullanarak giriş yapmanızı sağlayan bir tanımlama ve ** kimlik doğrulama yazılımı **'dır. SSO yazılımı, tek bir kullanıcı adı/şifre setiyle birden fazla siteye giriş yapabilmeniz için bir kimlik sağlayıcısı olarak görev yapar. Ancak, bir kerelik bir giriş mekanizmasıdır ve SSO sistemi kullanıcıların özgünlüğünü sağlar.
+[Tek Oturum Açma][6], üçüncü taraf siteleri kullanarak giriş yapmanızı sağlayan bir tanımlama ve ** kimlik doğrulama yazılımı **'dır. SSO yazılımı, tek bir kullanıcı adı/şifre setiyle birden fazla siteye giriş yapabilmeniz için bir kimlik sağlayıcısı olarak görev yapar. Ancak, bir kerelik bir giriş mekanizmasıdır ve SSO sistemi kullanıcıların özgünlüğünü sağlar.
 Ayrıca, bu sistem kullanıcının kimliklerini birden çok uygulamada yönetmek için küçük ve kurumsal düzeyde yaygın olarak kullanılmaktadır. OpenID OpenId, Saml ve OAuth gibi popüler yetkilendirme protokollerini kullanan birçok açık kaynaklı tek oturum açma yazılımı mevcuttur.
 
 ## ** Tek oturum açma (SSO) nasıl çalışır? ** {#features}
@@ -48,20 +48,22 @@ Bu bölümde, ** tek oturum açma bazı temel iş kullanım durumlarını gözle
 
 ## Sonuç {#Conclusion}
 ** SSO Sistemi **, birçok uygulamada kimlik üzerinde bir kontrol noktası sağladığı için işletmeler için büyük bir rahatlıktır. Dolayısıyla, güçlü özellikler sunan bir dizi açık kaynaklı tek oturum açma yazılımı mevcuttur.
-Son olarak, [** Containerize.com **] [7], diğer açık kaynak konuları ve ürünleri hakkında makale yazma sürecindedir. Bu nedenle, düzenli güncellemeler için lütfen bu [** tek oturum açma **] [6] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][7], diğer açık kaynak konuları ve ürünleri hakkında makale yazma sürecindedir. Bu nedenle, düzenli güncellemeler için lütfen bu [** tek oturum açma **][6] kategorisiyle iletişim halinde olun.
 
 ## İlgili Ürün Sayfaları
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *** [IdentityServer] [8] **
-  *** [KeyCloak] [9] **
-  *** [CAS] [10] **
-  *** [Authelia] [11] **
-  *** [WSO2] [12] **
-  *** [OpenDidentPlatform] [13] **
-  *** [Freeipa] [14] **
-  *** [2021 yılında ilk 5 açık kaynaklı tek oturum açma yazılımı] [1] **
-  *** [Daha iyi iş büyümesi için SSO sistemi nasıl kullanılır] [15] **
-  *** [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [16] **
+  *** [IdentityServer][8] **
+  *** [KeyCloak][9] **
+  *** [CAS][10] **
+  *** [Authelia][11] **
+  *** [WSO2][12] **
+  *** [OpenDidentPlatform][13] **
+  *** [Freeipa][14] **
+  *** [2021 yılında ilk 5 açık kaynaklı tek oturum açma yazılımı][1] **
+  *** [Daha iyi iş büyümesi için SSO sistemi nasıl kullanılır][15] **
+  *** [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][16] **
+
+  
 [1]: https://blog.containerize.com/single-sign-on/top-5-open-source-single-sign-on-software-in-the-year-2021/
 [2]: #what
 [3]: #features

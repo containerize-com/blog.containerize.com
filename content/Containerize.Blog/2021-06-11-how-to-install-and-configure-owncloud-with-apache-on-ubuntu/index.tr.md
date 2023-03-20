@@ -48,7 +48,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_39_}}
 
 ## Adım 2: Ubuntu'dan Owncloud'u indirin
-Ubuntu sisteminizde lamba sunucusunu başarıyla yapılandırdıktan sonra, en son Owncloud özel bulut depolama çözümünü [resmi web sitesi] [1] 'den indirelim.
+Ubuntu sisteminizde lamba sunucusunu başarıyla yapılandırdıktan sonra, en son Owncloud özel bulut depolama çözümünü [resmi web sitesi][1] 'den indirelim.
 CD /TMP
 wget https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2
 {{_LINE_44_}}
@@ -107,15 +107,17 @@ Aşağıda, kendinden barındırılan Owncloud alternatifleri ve rakipler dosya 
 
 ## ** Sonuç: ** {#blok-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
 Tebrikler! Ubuntu makinesinde Apache ile kendi özel bulutunuzu oluşturmak için OwnCloud'u başarıyla yüklediniz ve yapılandırdınız. Artık verileriniz asla üçüncü tarafların elinde değildir ve sanal özel bulut owncloud ubuntu sunucu depolamasında özel olarak yönetilebilir. Birçok şirket, verilerin gizliliği ile ilgili birçok sorun nedeniyle birçok hayati bilgi ile Owncloud sunucularını oluşturmayı seçmektedir. Yaklaşan öğreticilerimizde, web sunucusu çözüm yığınlarının daha ilginç konularını tartışacağız.
-_ [Twitter] [2], [LinkedIn] [3] ve [Facebook] [4] sayfamızda bize katılabilirsiniz. Çevrimiçi bulut tabanlı depolama çözümünü hangi kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin] [5].
+_ [Twitter][2], [LinkedIn][3] ve [Facebook][4] sayfamızda bize katılabilirsiniz. Çevrimiçi bulut tabanlı depolama çözümünü hangi kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][5].
 
 ## Keşfetmek:
 Ayrıca sunucunuzun günlük yönetimi ile ilgili başka birkaç makalemiz de var.
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [6]
-  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır] [7]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i güvenli ve şifreleyin] [8]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın] [9]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun] [10]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][6]
+  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır][7]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i güvenli ve şifreleyin][8]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][9]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun][10]
+
+  
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

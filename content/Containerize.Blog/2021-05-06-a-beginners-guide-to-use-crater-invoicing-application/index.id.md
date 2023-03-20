@@ -14,13 +14,13 @@ categories: ['Invoicing']
 {{< figure align=center src="images/blog-crater.png" alt="Sistem Faktur Sumber Terbuka">}}
 
 Setiap bisnis membutuhkan semacam sistem untuk pengelolaan faktur, pengeluaran, pembayaran, dan banyak lagi. Perangkat lunak faktur membantu Anda mengelolanya sehingga Anda dapat dengan mudah melakukan tugas penagihan dan tetap fokus pada hal -hal penting lainnya. Dalam posting ini, kita akan belajar cara mengatur kawah dan menggunakannya untuk menangani operasi akuntansi untuk bisnis.
-  * [Pendahuluan Tentang Kawah] [1]
-  * [Prosedur Instalasi Kawah] [2]
-  * [Eksplorasi fitur] [3]
-  * [Kesimpulan] [4]
+  * [Pendahuluan Tentang Kawah][1]
+  * [Prosedur Instalasi Kawah][2]
+  * [Eksplorasi fitur][3]
+  * [Kesimpulan][4]
 
 ## PENDAHULUAN TENTANG CRATER {#TrODUCTION}
-[Crater] [5] adalah aplikasi penagihan sumber gratis dan terbuka. Ini benar -benar gratis, dan Anda dapat dengan mudah memperbaruinya ke versi terbaru. Ini adalah sistem akuntansi gratis untuk usaha kecil dan freelancer. Ini juga merupakan solusi faktur lengkap, memungkinkan Anda untuk melacak pengeluaran dan pembayaran, menghitung pajak, dan menghasilkan estimasi dan faktur. Selain itu, ia hadir dengan aplikasi seluler out-of-the-box untuk perangkat iPhone dan Android. Ini akan memungkinkan Anda untuk mengelolanya dari tempat mana pun. Karena Crater adalah perangkat lunak penagihan berbasis web, aplikasi Web dirancang dengan Laravel dan Vuejs, dan aplikasi seluler dibangun dengan React Native. Semua dokumentasi yang terkait dengan pengembangan dan penyebaran tersedia. Kode sumber lengkap dapat ditemukan di [GitHub] [6].
+[Crater][5] adalah aplikasi penagihan sumber gratis dan terbuka. Ini benar -benar gratis, dan Anda dapat dengan mudah memperbaruinya ke versi terbaru. Ini adalah sistem akuntansi gratis untuk usaha kecil dan freelancer. Ini juga merupakan solusi faktur lengkap, memungkinkan Anda untuk melacak pengeluaran dan pembayaran, menghitung pajak, dan menghasilkan estimasi dan faktur. Selain itu, ia hadir dengan aplikasi seluler out-of-the-box untuk perangkat iPhone dan Android. Ini akan memungkinkan Anda untuk mengelolanya dari tempat mana pun. Karena Crater adalah perangkat lunak penagihan berbasis web, aplikasi Web dirancang dengan Laravel dan Vuejs, dan aplikasi seluler dibangun dengan React Native. Semua dokumentasi yang terkait dengan pengembangan dan penyebaran tersedia. Kode sumber lengkap dapat ditemukan di [GitHub][6].
 
 ## Prosedur Instalasi Kawah {#installation}
 Kami akan membahas cara memasang kawah dengan metode manual dan menggunakan Docker di bagian ini.
@@ -68,12 +68,14 @@ Di bagian ini, kami akan mengeksplorasi fitur inti dari aplikasi penagihan sumbe
 
 ## kesimpulan {#conclusion}
 Kami belajar tentang kawah dan cara mengaturnya secara manual dan dengan Docker. Kami juga telah melihat beberapa fitur yang harus disediakan oleh setiap perangkat lunak penagihan akuntansi. Mudah -mudahan, panduan ini dapat membantu Anda dengan cepat menerapkan sistem faktur open source untuk bisnis Anda.
-Akhirnya, [containerize.com] [7] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Faktur] [8] untuk pembaruan rutin.
+Akhirnya, [containerize.com][7] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Faktur][8] untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Kawah - Sistem Akuntansi Gratis untuk Bisnis Kecil] [5]
-  * [Top 5 Perangkat Lunak Akuntansi Sumber Terbuka di Tahun 2021] [9]
+  * [Kawah - Sistem Akuntansi Gratis untuk Bisnis Kecil][5]
+  * [Top 5 Perangkat Lunak Akuntansi Sumber Terbuka di Tahun 2021][9]
+
+  
 [1]: #Introduction
 [2]: #Installation
 [3]: #Feature

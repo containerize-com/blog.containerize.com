@@ -97,11 +97,13 @@ Dans ce didacticiel, nous avons exploré et discuté de ce qui est un serveur pr
 
 ## Explorer
 Vous pouvez également aimer les articles plus liés: ci-dessous:
-  * [Comment] [1] [Installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu] [2]
-  * [Comment configurer Nginx avec Passenger sur AWS Production Server] [3]
-  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian] [4]
-  * [Secure et crypte nginx avec Let's Encrypt sur Ubuntu 20.04] [5]
-  * [Comment installer et configurer OwnCloud avec Apache sur Ubuntu] [6]
+  * [Comment][1][Installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu][2]
+  * [Comment configurer Nginx avec Passenger sur AWS Production Server][3]
+  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian][4]
+  * [Secure et crypte nginx avec Let's Encrypt sur Ubuntu 20.04][5]
+  * [Comment installer et configurer OwnCloud avec Apache sur Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/fr/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

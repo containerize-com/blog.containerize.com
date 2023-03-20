@@ -17,10 +17,10 @@ categories: ['Game Development Software']
 ## Überblick
 Kürzlich haben wir einen Tutorial-Artikel veröffentlicht, in dem ein kurzes Intro- und Installationsverfahren eines beliebten Open-Source-Game-Design-Tools GDevelop ausgeht. Im Laufe der Zeit ist der Technologiestapel mit großer Innovation und Transformation gefüllt. Tatsächlich gibt es eine Reihe von Startups, die mit Open-Source-Videospielen gearbeitet haben, um sich mit den erweiterten Funktionen zu verlängern. Die Riesen der Branche machen ihre Produkte offen für die Community. In der Vergangenheit gab es zwei separate Kategorien: den Global Gaming Market ** und die Web/Desktop -Spielebranche.
 Daher ist es zu einer einzigen Plattform geworden, die beide Plattformen durch einen hybriden Ansatz abzielt. Open Source Community hat viele ** Game Design Tools ** entwickelt, die im Kreis des Entwicklers Platz gewinnen. Diese kostenlosen Open-Source-Game-Engines sind Open Source, sicher und sind mit Selbsthostfunktionen ausgestattet. Die ** Mobilfunkbranche ** bietet eine riesige Plugin -Basis, die die erforderlichen Funktionen bietet und Entwicklern nach weiteren Anforderungen Änderungen vornehmen kann. In diesem Blog-Beitrag werden wir jedoch den Einfluss der Open-Source-Software-Community auf die globale Gaming-Branche ** diskutieren, indem wir die folgenden Punkte abdecken.
-  *** [Wie Open-Source dem globalen Gaming-Markt hilft] [1] **
-  *** [Auswirkungen von Covid-19 auf den Spielentwicklungsmarkt] [2] **
-  *** [die Zukunft der Open -Source -Spieleentwicklung] [3] **
-  *** [Schlussfolgerung] [4] **
+  *** [Wie Open-Source dem globalen Gaming-Markt hilft][1] **
+  *** [Auswirkungen von Covid-19 auf den Spielentwicklungsmarkt][2] **
+  *** [die Zukunft der Open -Source -Spieleentwicklung][3] **
+  *** [Schlussfolgerung][4] **
 
 ## ** Wie Open-Source dem globalen Gaming-Markt hilft ** {#How}
 Es gibt eine enorme Nachfrage nach faszinierenden und qualitativ hochwertigen Videospielen. In der Tat genießen Entwickler aufgrund der auffälligen Grafiken, Sounds und Spieleideen gerne an der Spieleentwicklung. Auf der anderen Seite gibt es Milliarden von Spielern, die ihre Zeit und ihr Geld verbringen, um diese Spiele zu spielen. Wenn Software Open Source die Wahrscheinlichkeit einer verbesserten Qualität und Leistung erhöht. Sehen wir uns die folgenden direkten Möglichkeiten an, auf denen Open Source die Spielentwicklung unterstützt.
@@ -40,25 +40,27 @@ Die Zukunft der Spieleentwicklung ist aufgrund der robusten Open -Source -Akzept
 
 ## ** Fazit ** {#Conclusion}
 Am Ende ist es immer vorteilhaft, dass Menschen aus der ganzen Welt an gemeinsamen Projekten arbeiten. Gammer spielen eine wichtige Rolle beim Wachstum der ** Video -Gaming -Branche **. Daher ist es wirklich wichtig, auf ihr Feedback zu achten. Durch die Einführung von Open -Source -Softwareentwicklungspraktiken können Videospielentwickler ihren Beitrag zum ** Global Gaming Market multiplizieren. ** Die Video -Gaming -Branche erweitert jedoch mit der erhöhten Anzahl von Spieleentwicklern und Open -Source -Gaming -Software. So können Sie Open Source ** Game Design Tools ** und verwandte Blog -Beiträge in den folgenden Abschnitt "Explore" erkunden.
-Schließlich wird **** [containerize.com] [5] **** Artikel zu weiteren Open -Source -Spieleentwicklungssoftware veröffentlichen. Bitte bleiben Sie mit dieser Kategorie [6] [6] in Kontakt mit dieser Kategorie [6].
+Schließlich wird **** [containerize.com][5] **** Artikel zu weiteren Open -Source -Spieleentwicklungssoftware veröffentlichen. Bitte bleiben Sie mit dieser Kategorie [6][6] in Kontakt mit dieser Kategorie [6].
 
 ## Erkunden
-  * [GDevelop] [7]
-  * [Godot] [8]
-  * [Supermächte] [9]
-  * [Cocos Creator] [10]
-  * [Panda3d] [11]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [12]
-  * [Content Management] [13], [Blogging] [14], [Diskussionsforum] [15], [HealthCare Software] [16]
-  * [Helpdesk] [17], [Marketing -Automatisierung] [18], [Marktplatz] [19], [Bereitstellungswerkzeuge] [20], [Sicherheit] [21]
-  * [Live -Chat] [22], [Form] [23], [Transaktions -E -Mail] [24], [Business Intelligence Software] [25]
-  * [Newsletter] [26], [Statusseite] [27], [Rechnungsstellung] [28], [Kennwortverwaltung] [29], [Message Queue Software] [30]
-  * [Single Sign-On] [31], [Projektmanagement] [32], [Rapid Application Development] [33], [Animationssoftware] [34]
-  * [Einkaufswagen] [35], [Open Source -Versionskontrolle] [36], [Web Server Solution Stack] [37], [Fotobearbeitungssoftware] [38]
-  * [Datenbankverwaltung] [39], [Videokonferenzen] [40], [Blockchain -Plattformen] [41], [Big Data] [42]
-  * [CMDB -Software] [43], [Spieleentwicklungssoftware] [6], [Enterprise Resource Planning (ERP)] [44]
-  * [Videobearbeitungssoftware] [45], [Datenbankverwaltungssysteme] [46], [Büroproduktivität] [47]
-  * [Lernmanagementsystem (LMS)] [48], [Backup- und Sync -Software] [49], [Digital Forensic Software] [50]
+  * [GDevelop][7]
+  * [Godot][8]
+  * [Supermächte][9]
+  * [Cocos Creator][10]
+  * [Panda3d][11]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][12]
+  * [Content Management][13], [Blogging][14], [Diskussionsforum][15], [HealthCare Software][16]
+  * [Helpdesk][17], [Marketing -Automatisierung][18], [Marktplatz][19], [Bereitstellungswerkzeuge][20], [Sicherheit][21]
+  * [Live -Chat][22], [Form][23], [Transaktions -E -Mail][24], [Business Intelligence Software][25]
+  * [Newsletter][26], [Statusseite][27], [Rechnungsstellung][28], [Kennwortverwaltung][29], [Message Queue Software][30]
+  * [Single Sign-On][31], [Projektmanagement][32], [Rapid Application Development][33], [Animationssoftware][34]
+  * [Einkaufswagen][35], [Open Source -Versionskontrolle][36], [Web Server Solution Stack][37], [Fotobearbeitungssoftware][38]
+  * [Datenbankverwaltung][39], [Videokonferenzen][40], [Blockchain -Plattformen][41], [Big Data][42]
+  * [CMDB -Software][43], [Spieleentwicklungssoftware][6], [Enterprise Resource Planning (ERP)][44]
+  * [Videobearbeitungssoftware][45], [Datenbankverwaltungssysteme][46], [Büroproduktivität][47]
+  * [Lernmanagementsystem (LMS)][48], [Backup- und Sync -Software][49], [Digital Forensic Software][50]
+
+  
 [1]: #how
 [2]: #covid
 [3]: #future

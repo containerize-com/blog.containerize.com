@@ -15,13 +15,13 @@ categories: ['Version Control Software']
 
 
 ## Genel Bakış
-Bir yazılım projesinde verimliliği artırmanın en iyi yollarından biri, manuel veya tekrarlayan her şeyi otomatikleştirmektir. Ve ** GitHub Eylemleri ** gibi harika bir araç kullandığınızda otomasyonun uygulanması ne kadar kolay olduğuna şaşırabilirsiniz. Son birkaç makaleden bu yana, [GIT] [1], [sürüm kontrolü] [1] ve [yazılım geliştirme iş akışlarının otomasyonu] [2] ve [sürekli entegrasyon ve sürekli teslimat] [3 hakkında yazıyorum ]. Umarım şimdiye kadar, depoların ve bunların nasıl kullanılacağının farkındasınız.
+Bir yazılım projesinde verimliliği artırmanın en iyi yollarından biri, manuel veya tekrarlayan her şeyi otomatikleştirmektir. Ve ** GitHub Eylemleri ** gibi harika bir araç kullandığınızda otomasyonun uygulanması ne kadar kolay olduğuna şaşırabilirsiniz. Son birkaç makaleden bu yana, [GIT][1], [sürüm kontrolü][1] ve [yazılım geliştirme iş akışlarının otomasyonu][2] ve [sürekli entegrasyon ve sürekli teslimat][3 hakkında yazıyorum ]. Umarım şimdiye kadar, depoların ve bunların nasıl kullanılacağının farkındasınız.
 Bugünün ** GitHub Eylemleri Eğitimi ** 'da GitHub eylemlerini ve bunu uygulama otomasyonu, özelleştirme ve yazılım geliştirme iş akışlarınızı deponuzda yürütmek için nasıl kullanabileceğinizi keşfedeceğiz. Öyleyse başlayalım
-  *** [CI/CD iş akışlarını gözden geçirin] [4] **
-  *** [GitHub Eylemleri Nelerdir] [5] **
-  *** [YAML sözdizimini anlamak] [6] **
-  *** [ilk iş akışınızı oluşturma] [7] **
-  *** [Sonuç] [8] **
+  *** [CI/CD iş akışlarını gözden geçirin][4] **
+  *** [GitHub Eylemleri Nelerdir][5] **
+  *** [YAML sözdizimini anlamak][6] **
+  *** [ilk iş akışınızı oluşturma][7] **
+  *** [Sonuç][8] **
 
 ## CI/CD iş akışları {#cicd}
 CI/CD, yazılım geliştirme projelerinizin son kullanıcılara, otomasyon yardımıyla farklı aşamalarda sık sık dağıtımın bir yöntemidir. ** Sürekli Entegrasyon ve Sürekli Dağıtım ** Daha çok bir felsefe ve DevOps ekiplerinin uygulanması, kod değişikliklerini daha sık ve güvenilir bir şekilde sunmak için en iyi uygulamalardan biridir.
@@ -41,7 +41,7 @@ Gördüğünüz gibi iş akışını, iş, adım ve eylem birbirine bağlıdır 
 
 ## bir iş akışı oluştur {#workflow}
 Bir yazılım geliştirme projesinde, geliştirme ekiplerinin karşılaştığı sorunlardan biri kaynak kodunun biçimi ve en iyi uygulamaların uygulanmasıdır. Bu sorun daha büyük takımlar için daha açıktır. Daha fazla geliştirici içerdikleri ve herkesin kendi yazma kodu tarzı vardır. Dolayısıyla Linter paketlerinin kullanımı ekipler arasında çok yaygındır. Ama şimdi ** GitHub Eylemleri ** ile, birisi kodu Github Repo'ya her ittiğinde Linter'ı gerçekten zorlayabilirsiniz.
-Bu GitHub Eylemleri öğreticisinde, [GitHub Super-Linter] [9] eylemini kullanarak birden fazla kodlama dilini ayarlayan bir iş akışı ekleyeceksiniz. İş akışı, deponuza her yeni bir taahhüt itildiğinde kaynak kodunuzu doğrulamak için süper linter kullanır.
+Bu GitHub Eylemleri öğreticisinde, [GitHub Super-Linter][9] eylemini kullanarak birden fazla kodlama dilini ayarlayan bir iş akışı ekleyeceksiniz. İş akışı, deponuza her yeni bir taahhüt itildiğinde kaynak kodunuzu doğrulamak için süper linter kullanır.
 GitHub'daki deponuzdan **. GitHub/Workflows ** dizininde ** SuperLinter.yml ** adlı yeni bir dosya oluşturun ve aşağıdaki içeriği içine kopyalayın
 ```
 name: Super-Linter
@@ -78,18 +78,20 @@ Sol kenar çubuğunda, görmek istediğiniz iş akışını tıklayın.
 
 {{< figure align=center src="images/superlinter-workflow-sidebar-1024x211.png" alt="Github Eylemler İş Akışı">}}
 
-Kodunuzdaki sorunları bulmanıza yardımcı olmak için deposunuza her itildiğinde çalıştırma eklediğiniz süper linter iş akışı. Deponuz, farklı olaylara dayalı farklı işleri tetikleyen birden fazla iş akışına sahip olabilir. GitHub eylemleri, uygulama geliştirme süreçlerinizin neredeyse her yönünü otomatikleştirmenize yardımcı olabilir. Bu sadece GitHub eylemlerine temel bir girişti. Kullanabileceğiniz Github eylemleri hakkında derinlemesine bilgi için tonlarca [kaynak] [10] vardır.
+Kodunuzdaki sorunları bulmanıza yardımcı olmak için deposunuza her itildiğinde çalıştırma eklediğiniz süper linter iş akışı. Deponuz, farklı olaylara dayalı farklı işleri tetikleyen birden fazla iş akışına sahip olabilir. GitHub eylemleri, uygulama geliştirme süreçlerinizin neredeyse her yönünü otomatikleştirmenize yardımcı olabilir. Bu sadece GitHub eylemlerine temel bir girişti. Kullanabileceğiniz Github eylemleri hakkında derinlemesine bilgi için tonlarca [kaynak][10] vardır.
 
 ## Sonuç {#Conclusion}
 Bu ** GitHub Eylemleri Eğitimi **, ** Sürekli Entegrasyon ve Sürekli Dağıtım ** ve ** Github Eylemleri ** hakkında öğrendik. Ayrıca, bir CI/CD iş akışı oluşturmak için ** GitHub Eylemleri ** nasıl kullanabileceğimizi de araştırdık. Kod tabanımızdaki tutarsızlıkları bulmak için GitHub Actions Pazarı'ndan basit bir süper astar iş akışı kullandık. Yaklaşan makalelerde, Github eylemlerini daha derinlemesine keşfedeceğiz. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen ** sürüm kontrol sistemi ** ile ilgili diğer blog yayınlarını bulabilirsiniz.
-Son olarak, [Containerize.com] [11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [sürüm kontrol yazılımı] [12] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [13], [LinkedIn] [14] ve [Twitter] [15] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [sürüm kontrol yazılımı][12] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook][13], [LinkedIn][14] ve [Twitter][15] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [GitLab Sürekli Dağıtım | Nasıl çalışır?] [16]
-  * [GIT'de dalları anlayın ve öğrenin ve talepleri çekin] [2]
-  * [Kaynak Kodu Yönetimi Yazılımı | Git nedir?] [17]
-  * [2021'de Top 5 Açık Kaynak Sürüm Kontrol Sistemleri] [18]
+  * [GitLab Sürekli Dağıtım | Nasıl çalışır?][16]
+  * [GIT'de dalları anlayın ve öğrenin ve talepleri çekin][2]
+  * [Kaynak Kodu Yönetimi Yazılımı | Git nedir?][17]
+  * [2021'de Top 5 Açık Kaynak Sürüm Kontrol Sistemleri][18]
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
 [3]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/

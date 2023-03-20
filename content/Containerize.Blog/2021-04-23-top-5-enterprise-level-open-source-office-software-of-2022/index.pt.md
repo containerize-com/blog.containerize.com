@@ -17,21 +17,21 @@ As ferramentas de produtividade do escritório desempenham um papel vital na aut
 ## Visão geral
 Você está se perguntando como melhorar a eficiência no trabalho? Se sim, você está pousado no lugar certo. Devido à digitalização, o mundo está ficando mais sem papel. Portanto, a demanda por software de produtividade do escritório também aumentou. O Microsoft Office está dominando esse domínio há muito tempo. Mas à medida que a demanda aumenta e a escolha do software de escritório aberto e gratuito também. Existem muitas tarefas que ocorrem diariamente e requer tempo e custo para executar tarefas tão repetitivas. As organizações precisam suportar os custos extras e interromper o desempenho geral eventualmente. Além disso, permite que as partes interessadas estabeleçam metas, acompanhem suas performances e realizem várias análises para fazer previsões futuras.
 Além disso, os gerentes podem criar locais de trabalho compartilhados, onde podem colaborar com os colegas de equipe com eficiência. Além disso, no tempo da pandemia, ele oferece a oportunidade de trabalhar remotamente. No entanto, essas ferramentas gratuitas de produtividade também apresentam recursos de armazenamento de dados. Mais e mais pessoas estão procurando um software de escritório de código aberto. Neste artigo, exploraremos algumas das melhores ferramentas de produtividade de escritório aberto e gratuito. Vamos começar
-  * [Apache OpenOffice] [1]
-  * [LibreOffice] [2]
-  * [Neooffice] [3]
-  * [FreeOffice] [4]
-  * [Calligra] [5]
-  * [Conclusão] [6]
+  * [Apache OpenOffice][1]
+  * [LibreOffice][2]
+  * [Neooffice][3]
+  * [FreeOffice][4]
+  * [Calligra][5]
+  * [Conclusão][6]
 
 ## Apache OpenOffice {#openoffice}
 O Apache OpenOffice Project (AOO) fornece um software de escritório de código aberto completo com base em padrões abertos. É a continuação do projeto OpenOffice.org. Este software gratuito do Office é uma das alternativas gratuitas do Microsoft Office. É também uma das suítes de escritório gratuitas mais populares no mundo de código aberto. Se você deseja trabalhar com documentos de texto, planilhas ou apresentações. É um nocaute para a maioria dos recursos que o Microsoft Office oferece. E isso é 100% livre. E essa alternativa do Microsoft Office não é apenas uma suíte de escritório gratuita e de código aberto, mas também é executado em todas as plataformas (Linux, Mac), não apenas no Windows.
-O Apache Open Office é desenvolvido no idioma de programação C ++ e todo o código -fonte, juntamente com a documentação do desenvolvedor, está disponível no [Github] [7].
+O Apache Open Office é desenvolvido no idioma de programação C ++ e todo o código -fonte, juntamente com a documentação do desenvolvedor, está disponível no [Github][7].
 
 ## LibreOffice {#LibreOffice}
 O LibreOffice é um software de escritório aberto e gratuito integrado com base em licenças de copyleft e compatível com a maioria dos formatos e padrões de documentos. Isso está entre as melhores ferramentas gratuitas de produtividade do escritório.
 Este software de escritório de código aberto é apoiado pela Document Foundation, que representa uma grande comunidade independente de empresas, desenvolvedores e outros voluntários movidos pelo objetivo comum de trazer ao mercado o melhor software de escritório gratuito.
-O LibreOffice é de código aberto e gratuito para baixar, usar e distribuir. Ele é desenvolvido na linguagem de programação C ++ e você pode revisar o código -fonte em [GitHub] [8].
+O LibreOffice é de código aberto e gratuito para baixar, usar e distribuir. Ele é desenvolvido na linguagem de programação C ++ e você pode revisar o código -fonte em [GitHub][8].
 
 ## neooffice {#neooffice}
 O NeoOffice é um software de escritório 100% gratuito e de código aberto e gratuito para MacOS. Esta é uma ótima alternativa do Microsoft Office. Se você está tentando mudar do software Microsoft, mas algo um pouco mais barato, que é 100% livre neste caso, o NeoOffice é uma ótima opção para você.
@@ -67,18 +67,20 @@ Aqui estão alguns dos principais recursos do caligra
 
 ## Conclusão {#conclusion}
 Isso nos leva ao final deste post do blog. O software listado acima é o melhor software de escritório de código aberto e gratuito no momento atual. Além disso, essas suítes de escritório gratuitas de código aberto ajudam a negócios a atender às suas necessidades de produtividade do escritório. Passamos pelas 5 principais ferramentas de produtividade do escritório e que são respostas para sua pergunta sobre como melhorar a eficiência no trabalho? Felizmente, esta postagem do blog o ajudará a fazer a escolha certa, se você deseja instalar o software gratuito do Office para o seu negócio. Além disso, você pode encontrar mais software de escritório de código aberto e artigos relevantes mencionados na seção "Explorar" abaixo.
-Finalmente, [contenderize.com] [9] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Software de produtividade do Office] [10] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [11], [LinkedIn] [12] e [Twitter] [13].
+Finalmente, [contenderize.com][9] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Software de produtividade do Office][10] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][11], [LinkedIn][12] e [Twitter][13].
 
 ## Explore
 Você pode encontrar os seguintes links relevantes.
-  * [Apache OpenOffice] [14]
-  * [LibreOffice] [15]
-  * [Neooffice] [16]
-  * [FreeOffice] [17]
-  * [Calligra] [18]
-  * [Coisas para revisar antes de optar por software de código aberto em 2021] [19]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [20]
-  * [O que é NFT? | Tokens não fungíveis explicados] [21]
+  * [Apache OpenOffice][14]
+  * [LibreOffice][15]
+  * [Neooffice][16]
+  * [FreeOffice][17]
+  * [Calligra][18]
+  * [Coisas para revisar antes de optar por software de código aberto em 2021][19]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][20]
+  * [O que é NFT? | Tokens não fungíveis explicados][21]
+
+  
 [1]: #openoffice
 [2]: #libreoffice
 [3]: #neooffice

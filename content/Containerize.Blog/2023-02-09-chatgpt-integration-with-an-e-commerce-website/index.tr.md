@@ -15,17 +15,17 @@ categories: ['Artificial intelligence']
 
 
 ## Genel Bakış
-Blogumuzu sürekli destekleyen özel okuyucularımıza minnettarız. [Code GPT] [1], [chatgpt] [2] ve [chatgpt'in Google sayfalarıyla entegrasyonu] [3] hakkındaki son makalelerimiz hakkındaki olumlu geri bildirimler muazzam olmuştur. Buna yanıt olarak, [PHP] [4] kullanılarak geliştirilen ve ürün önerisi özelliğini kişiselleştiren bir e-ticaret web sitesi**ile chatgpt entegrasyonunu nasıl elde edeceğinizi gösterecek başka bir bilgilendirici parça sunmaktan heyecan duyuyoruz.
+Blogumuzu sürekli destekleyen özel okuyucularımıza minnettarız. [Code GPT][1], [chatgpt][2] ve [chatgpt'in Google sayfalarıyla entegrasyonu][3] hakkındaki son makalelerimiz hakkındaki olumlu geri bildirimler muazzam olmuştur. Buna yanıt olarak, [PHP][4] kullanılarak geliştirilen ve ürün önerisi özelliğini kişiselleştiren bir e-ticaret web sitesi**ile chatgpt entegrasyonunu nasıl elde edeceğinizi gösterecek başka bir bilgilendirici parça sunmaktan heyecan duyuyoruz.
 Mevcut noktada, işletmeler müşteri deneyimlerini geliştirmek ve çekmek için yeni yollar arıyor. GPT-3 modeli kullanılarak eğitilen chatgpt, e-ticaret işletmelerini**tarayıcı geçmişine göre**kişiselleştirmede**ürün önerilerini**kişiselleştirmede güçlendirebilecek gelişmiş ve güçlü bir araçtır. Bu makalede, PHP tabanlı bir uygulamada chatgpt**nasıl kullanılacağınızı**yönlendireceğiz. Ancak, tarayıcı geçmişine ve önceki satın alımlara göre müşterilere ürün önereceği süreci otomatikleştirecektir.
 Aşağıda belirtilen adımları izleyerek ChatGPT entegrasyonunu ele alacağız:
-* [**chatgpt nasıl entegre edilir**] [5]
-* [**Kullanıcı verilerini saklayın**] [6]
-* [**Ürün önerilerini görüntüle**] [7]
-* [**Ayarları Yapılandırma**] [8]
-* [**test ve hata ayıklama**] [9]
+* [**chatgpt nasıl entegre edilir**][5]
+* [**Kullanıcı verilerini saklayın**][6]
+* [**Ürün önerilerini görüntüle**][7]
+* [**Ayarları Yapılandırma**][8]
+* [**test ve hata ayıklama**][9]
 
 ## Adım 1: chatgpt nasıl entegre edilir {#nasıl entegrate chatgpt}
-E-ticaret web sitenize**chatgpt entegrasyonu**elde edin ve kişiselleştirilmiş ürün önerilerinin ilk adımıdır. Bunu yapmak için, PHP'yi kullanarak [Openai API] [10] 'a bir yanıt oluşturmak için gerekli bilgileri içeren bir istek göndermelisiniz. Bağlam, kullanıcı için tarama ve satın alma geçmişini içerebilir.
+E-ticaret web sitenize**chatgpt entegrasyonu**elde edin ve kişiselleştirilmiş ürün önerilerinin ilk adımıdır. Bunu yapmak için, PHP'yi kullanarak [Openai API][10] 'a bir yanıt oluşturmak için gerekli bilgileri içeren bir istek göndermelisiniz. Bağlam, kullanıcı için tarama ve satın alma geçmişini içerebilir.
 
 ## Adım 2: Kullanıcı Verilerini Mağaza {#Store-User-Data}
 CHATGPT'nin kişiselleştirilmiş ürün önerileri oluşturması için kullanıcı verilerinin depolanması gerekir. Ancak, veriler kullanıcının tarama geçmişi ve satın alma işlemleri hakkında bilgi içerebilir. Bu nedenle, veriler yalnızca kişiselleştirilmiş ürün önerileri oluşturmak için güvenli bir şekilde depolanmalı ve kullanılmalıdır.
@@ -43,13 +43,13 @@ Her şeyden önce, kişiselleştirilmiş ürün önerileri oluşturmak için bir
 
 ## Çözüm
 Bu bizi bu**e-ticaret kılavuzunun sonuna getiriyor**. Bir e-ticaret web sitesi**ile**chatgpt entegrasyonunu nasıl uyguladığımızdan geçtiğimiz bu blog gönderisini sonuçlandırabiliriz**. Ayrıca, bu kılavuz boyunca başarılı**chatgpt entegrasyonu**için gereken temel adımları ele aldık. Bu nedenle, PHP tabanlı e-ticaret web sitenize chatgpt ekleyerek, kişiselleştirilmiş ürün önerileri sağlayarak müşteri deneyimini büyük ölçüde artırabilirsiniz. Ayrıca, bu makalede belirtilen adımları izleyerek her müşterinin ihtiyaçlarına göre uyarlanmış ürün önerileri sunmak için ChatGPT'den yararlanabilirsiniz. Son olarak, ChatGPT'nin nasıl kullanılacağını merak ediyorsanız, aşağıda kayıtlı makaleleri “Ayrıca bkz.” Bölümüne kontrol edebilirsiniz.
-Son olarak, Containerize.com çeşitli açık kaynaklı ürünler ve konularda devam eden blog yayınları sunmaktadır. [Facebook] [11], [LinkedIn] [12] ve [Twitter] [13] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
+Son olarak, Containerize.com çeşitli açık kaynaklı ürünler ve konularda devam eden blog yayınları sunmaktadır. [Facebook][11], [LinkedIn][12] ve [Twitter][13] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
 
 ## Bir soru sor
-[Forum] [14] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][14] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * chatgpt için API anahtarları nasıl oluştururum?**
+**chatgpt için API anahtarları nasıl oluştururum?**
 {{_LINE_40_}}
   Openai’nin chatgpt için API anahtarları oluşturmak için Openai hesabınıza giriş yapmanız ve ardından aşağıdaki adımları izlemeniz gerekir:
 {{_LINE_42_}}
@@ -79,11 +79,13 @@ Son olarak, Containerize.com çeşitli açık kaynaklı ürünler ve konularda d
 
 ## Ayrıca bakınız
 {{_LINE_67_}}
-  * [Yapay Zekaya Giriş | AI nedir?] [15]
-  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder] [3]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [1]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [2]
+  * [Yapay Zekaya Giriş | AI nedir?][15]
+  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder][3]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][1]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][2]
 {{_LINE_72_}}
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/

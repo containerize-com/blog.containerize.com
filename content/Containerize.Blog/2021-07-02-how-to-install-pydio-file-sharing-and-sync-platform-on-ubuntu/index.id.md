@@ -148,15 +148,17 @@ Ya! Selesai. Anda sekarang tahu cara menginstal Sinkronisasi File yang Di -Hoste
 
 ## ** Kesimpulan: ** {#4a1a}
 Dalam tutorial ini, Anda telah berhasil menginstal pembagian file aman Sumber Open Source Pydio pada sistem Ubuntu Anda. Anda dapat menggunakan artikel ini untuk membuat infrastruktur cloud untuk menyimpan, mengamankan, dan berbagi file Anda di cloud yang diselenggarakan sendiri. Gunakan berbagi dokumen kolaboratif PYDIO dan aplikasi berbagi file gratis terbaik untuk mendapatkan lebih banyak kontrol data Anda dan memastikan kolaborasi yang efisien di organisasi bisnis Anda. Dalam tutorial mendatang kami, kami akan membahas topik yang lebih menarik dari solusi penyimpanan cloud open source dan alat kolaborasi berbagi file.
-_Your dapat bergabung dengan kami di [Twitter] [1], [LinkedIn] [2] dan halaman [Facebook] [3] kami. Platform berbagi _file _file _file berbasis cloud apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda] [4].
+_Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Facebook][3] kami. Platform berbagi _file _file _file berbasis cloud apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda][4].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa artikel lain yang berkaitan dengan manajemen sehari-hari server Anda.
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [5]
-  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu] [6]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [7]
-  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [8]
-  * [Pengaturan Nginx dengan penumpang di server produksi AWS] [9]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][5]
+  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu][6]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][7]
+  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][8]
+  * [Pengaturan Nginx dengan penumpang di server produksi AWS][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

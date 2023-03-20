@@ -13,17 +13,17 @@ categories: ['Database Management Software']
 {{_LINE_11_}}
 
 ## Descripción general
-Las tareas relacionadas con los datos son mucho más críticas ahora que nunca. La herramienta de gestión de bases de datos se ha convertido en una parte integral de cualquier negocio. Sin embargo, hay muchos sistemas de gestión de bases de datos basados ​​en la web que ofrecen soluciones a tareas tales desafiantes. Las empresas están generando toneladas de datos diariamente y se vuelven difíciles de mantener. Además, las organizaciones tienden a simplificar el acceso a los datos y el control de datos. Estas herramientas gratuitas ayudan a reducir la redundancia de datos, hacen que las bases de datos fueran eficientes y confiables. Además, hemos publicado publicaciones de blog sobre temas como [herramientas de software DBMS de código abierto de Top Open] [1], y algunas más.
+Las tareas relacionadas con los datos son mucho más críticas ahora que nunca. La herramienta de gestión de bases de datos se ha convertido en una parte integral de cualquier negocio. Sin embargo, hay muchos sistemas de gestión de bases de datos basados ​​en la web que ofrecen soluciones a tareas tales desafiantes. Las empresas están generando toneladas de datos diariamente y se vuelven difíciles de mantener. Además, las organizaciones tienden a simplificar el acceso a los datos y el control de datos. Estas herramientas gratuitas ayudan a reducir la redundancia de datos, hacen que las bases de datos fueran eficientes y confiables. Además, hemos publicado publicaciones de blog sobre temas como [herramientas de software DBMS de código abierto de Top Open][1], y algunas más.
 Por lo tanto, la comunidad de código abierto ha desarrollado Adminer, que es una herramienta de gestión de bases de datos gratuitas de nivel empresarial. En este tutorial de administrador, cubriremos los siguientes puntos.
-  * [¿Qué es administrador?] [2]
-  * [Características importantes del administrador] [3]
-  * [Administrador vs PhpMyadmin] [4]
-  * [Administrar bases de datos con Administrador] [5]
-  * [Conclusión] [6]
+  * [¿Qué es administrador?][2]
+  * [Características importantes del administrador][3]
+  * [Administrador vs PhpMyadmin][4]
+  * [Administrar bases de datos con Administrador][5]
+  * [Conclusión][6]
 
 ## ¿Qué es el administrador? {#qué}
 Cuando se trata de una herramienta de administración de bases de datos MySQL de alto rendimiento livianas, fácil de usar, Adminer ha ganado una amplia popularidad y ofrece muchas mejoras en comparación con PhPMyAdmin. Inicialmente, esta herramienta de gestión de bases de datos fue desarrollada por Jakub Vrana en 2007 como una alternativa a PhPMyAdmin, de modo que todo lo que tiene que hacer es descargar e instalar un archivo PHP único en la base de datos de su aplicación.
-Como herramienta de gestión de bases de datos de código abierto, también es de uso gratuito y está escrito en PHP. Lo que establece este sistema de gestión de bases de datos basado en la web es un buen diseño de interfaz de usuario para una experiencia de usuario perfecta, así como características de seguridad fuertes para mantener los datos a salvo de cualquier ataques o intentos de piratería maliciosa. Esta herramienta de gestión de bases de datos es fácil de configurar y requiere requisitos simples como Ubuntu y Lamp. Los usuarios pueden encontrar documentación integral con respecto al desarrollo y la implementación. Por lo tanto, puede encontrar archivos fuente de este sistema de administración de bases de datos basado en la web en [Github] [7].
+Como herramienta de gestión de bases de datos de código abierto, también es de uso gratuito y está escrito en PHP. Lo que establece este sistema de gestión de bases de datos basado en la web es un buen diseño de interfaz de usuario para una experiencia de usuario perfecta, así como características de seguridad fuertes para mantener los datos a salvo de cualquier ataques o intentos de piratería maliciosa. Esta herramienta de gestión de bases de datos es fácil de configurar y requiere requisitos simples como Ubuntu y Lamp. Los usuarios pueden encontrar documentación integral con respecto al desarrollo y la implementación. Por lo tanto, puede encontrar archivos fuente de este sistema de administración de bases de datos basado en la web en [Github][7].
 
 ## Características importantes del administrador {#important}
 Algunas características básicas pero importantes de esta herramienta de gestión de bases de datos incluyen:
@@ -43,7 +43,7 @@ Para que Adminer se ejecute en su sistema, es importante que tenga los siguiente
   * PHP versión 5, 7 u 8
   * Un controlador de base de datos como MySQL, SQLite, PostgreSQL, etc.
 **Instalación**
-Si tiene estos dos requisitos del sistema, simplemente descargue el archivo de [] [8] y comience cargando el archivo PHP a su servidor. Para el servidor XAMPP, cambie el nombre del archivo descargado como "Adminer.php" y coloque este archivo en la carpeta HTDOCS.
+Si tiene estos dos requisitos del sistema, simplemente descargue el archivo de [][8] y comience cargando el archivo PHP a su servidor. Para el servidor XAMPP, cambie el nombre del archivo descargado como "Adminer.php" y coloque este archivo en la carpeta HTDOCS.
 ** Acceso a la interfaz de usuario **
 Después de pasar por eso, ¿qué es administrador? Ahora acceda a esta aplicación desde http: su-ip-address/adminer.php como se muestra:
 {{_LINE_42_}}
@@ -71,14 +71,16 @@ Agregar nuevos registros a una tabla es bastante simple. Haga clic en el enlace 
 
 ## conclusión {#conclusion}
 Esto nos lleva al final de este tutorial de administrador. Hemos pasado por algunos temas importantes, como lo que es Adminer, Adminer vs PhPMyadmin y otros aspectos de este sistema de gestión de bases de datos basado en la web de código abierto. Con suerte, esta publicación de blog lo ayudará seguramente si está buscando instalar una herramienta de administración de bases de datos de código abierto. Es una interfaz intuitiva, inteligente y fácil de usar, lo convierte en una herramienta de gestión de bases de datos muy popular. Además, admite muchas bases de datos, incluidas MySQL, SQLite, MongoDB y mucho más, junto con medidas de seguridad para proteger y prevenir cualquier evento de piratería maliciosa. En general, esta herramienta de administración de bases de datos no solo es de código abierto, sino que también es gratuita.
-Finalmente, [Contenerize.com] [9] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Herramientas de gestión de bases de datos] [10] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [11], [LinkedIn] [12] y [Twitter] [13].
+Finalmente, [Contenerize.com][9] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Herramientas de gestión de bases de datos][10] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][11], [LinkedIn][12] y [Twitter][13].
 
 ## Explorar
 Para obtener más información sobre las herramientas gratuitas de gestión de bases de datos basadas en la web, consulte las siguientes páginas:
-  * [Administrador | Sistema gratuito de gestión de bases de datos basado en la web] [14]
-  * [Herramientas de software DBMS de código abierto de Top Open] [1]
-  * [Top 5 herramientas de gestión de bases de datos de código abierto en 2021] [15]
-  * [Automatice las operaciones comerciales con software gratuito y de código abierto] [16]
+  * [Administrador | Sistema gratuito de gestión de bases de datos basado en la web][14]
+  * [Herramientas de software DBMS de código abierto de Top Open][1]
+  * [Top 5 herramientas de gestión de bases de datos de código abierto en 2021][15]
+  * [Automatice las operaciones comerciales con software gratuito y de código abierto][16]
+
+  
 [1]: https://products.containerize.com/database-management
 [2]: #what
 [3]: #important

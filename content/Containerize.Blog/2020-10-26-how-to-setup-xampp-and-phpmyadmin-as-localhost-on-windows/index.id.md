@@ -15,10 +15,10 @@ categories: ['Database Management Software', 'Web Server Solution Stack']
 
 XAMPP dan PHPMyAdmin sebagai LocalHost menyediakan server lokal bagi pengembang untuk menguji dan membangun aplikasi web. XAMPP adalah server lokal yang diinstal pada komputer/laptop pribadi. Ini menyediakan lingkungan lokal untuk membuat, menjalankan, dan menguji aplikasi PHP sebelum menggunakannya di server langsung.
 Kami akan membahas bagian berikut dalam posting blog ini:
-  * [Deskripsi] [1]
-  * [Instalasi xampp] [2]
-  * [dasbor phpMyadmin] [3]
-  * [Pikiran Terakhir] [4]
+  * [Deskripsi][1]
+  * [Instalasi xampp][2]
+  * [dasbor phpMyadmin][3]
+  * [Pikiran Terakhir][4]
 
 ## Deskripsi: {#description}
 XAMPP adalah tumpukan solusi server web gratis dan open source. Ini berisi apache, mysql, mariadb, php, dan perl. XAMPP tersedia untuk sistem operasi Windows. Sangat mudah dipasang dan digunakan. Itu sebabnya lingkungan pengembangan PHP paling populer. XAMPP dan PHPMyAdmin sebagai LocalHost menyediakan lingkungan yang lengkap untuk pengembangan dan pengujian aplikasi Web.
@@ -30,7 +30,7 @@ Enfabet di XAMPP adalah singkatan dari:
   *** P ** - Perl
 
 Instalasi ## XAMPP {#XAMPP}
-  * Unduh xampp dari [di sini] [5].
+  * Unduh xampp dari [di sini][5].
 
 {{< figure align=center src="images/xampp1.png" alt="Xampp sebagai localhost">}}
 
@@ -79,8 +79,10 @@ Untuk mengakses Dasbor PHPMyAdmin, klik tombol "Admin" di sebelah Layanan MySQL.
 Instalasi XAMPP sederhana dan lurus ke depan. Dibutuhkan tidak lebih dari 15 menit ke server setup XAMPP. Setelah diinstal, pengembang dapat membangun dan menguji aplikasi web berbasis PHP mereka bahkan tanpa koneksi internet. Alih-alih menguji proyek secara langsung di server web langsung, sederhana dan hemat waktu untuk mengujinya secara lokal. Ini adalah platform yang hebat bagi pemula untuk belajar, menguji, dan memoles keterampilan PHP, Perl, dan database mereka.
 
 ## Mengeksplorasi:
-[Open Source Web Server Solusi Tumpukan untuk PHP & Perl Developers] [6]
-[Opsi tumpukan solusi server web open source terbaik] [7]
+[Open Source Web Server Solusi Tumpukan untuk PHP & Perl Developers][6]
+[Opsi tumpukan solusi server web open source terbaik][7]
+
+  
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

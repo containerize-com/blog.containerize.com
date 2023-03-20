@@ -48,7 +48,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_39_}}
 
 ## ステップ2：ubuntuでowncloudをダウンロードします
-UbuntuシステムでLamp Serverの構成に成功した後、[公式Webサイト] [1]から最新のCloudプライベートクラウドストレージソリューションをダウンロードしましょう。
+UbuntuシステムでLamp Serverの構成に成功した後、[公式Webサイト][1]から最新のCloudプライベートクラウドストレージソリューションをダウンロードしましょう。
 CD /TMP
 wget https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2
 {{_LINE_44_}}
@@ -107,15 +107,17 @@ Open Source OwnCloudログインページが表示されます。新しい管理
 
 ## **結論：** {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
 おめでとう！ UbuntuマシンでApacheを使用して独自のプライベートクラウドを構築するために、owncloudを正常にインストールおよび構成しました。これで、データがサードパーティの手に渡ることはなく、仮想プライベートクラウドOwnCloud Ubuntu Serverストレージで個人的に管理できます。多くの企業は、データのプライバシーに関する多くの問題のために、多くの重要な情報を備えた独自のCloudサーバーを作成することを選択しています。今後のチュートリアルでは、Webサーバーソリューションスタックのより興味深いトピックについて説明します。
-_Yourは[Twitter] [2]、[LinkedIn] [3]、および[Facebook] [4]ページに参​​加できます。オンラインで使用していますか？ご質問がある場合は、[ご連絡ください] [5]をお願いします。
+_Yourは[Twitter][2]、[LinkedIn][3]、および[Facebook][4]ページに参​​加できます。オンラインで使用していますか？ご質問がある場合は、[ご連絡ください][5]をお願いします。
 
 ## 探検：
 また、サーバーの日々の管理に関する他の記事もいくつかあります。
-  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法] [6]
-  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する方法] [7]
-  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します] [8]
-  * [ubuntu/debianでnginxでHTTP/2サポートを構成] [9]
-  * [AWSプロダクションサーバーの乗客を備えたnginxをセットアップ] [10]
+  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法][6]
+  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する方法][7]
+  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します][8]
+  * [ubuntu/debianでnginxでHTTP/2サポートを構成][9]
+  * [AWSプロダクションサーバーの乗客を備えたnginxをセットアップ][10]
+
+  
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

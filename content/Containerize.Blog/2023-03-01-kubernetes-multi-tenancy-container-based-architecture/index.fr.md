@@ -15,10 +15,10 @@ categories: ['Programming']
 
 
 ## Aperçu
-Nous sommes ici avec un autre article de blog passionnant dans la série de tenues multiples. Dans notre précédent [Article] [1], nous avons abordé le concept de base derrière les applications multi-locataires, les avantages et les inconvénients et les types d'architecture multi-locataires. Puisqu'il est grand temps de servir plusieurs utilisateurs / locataires, gérez et utilisez des ressources de manière efficace. Ainsi, la multi-location est la première approche pour construire une infrastructure qui gère simultanément divers clients / locataires. Cependant, notre plus récent [article de blog] [2] a démontré l'architecture sans serveur, la conteneurisation et [Kubernetes] [3]. Par conséquent, dans cet article, nous explorerons l'architecture multi-tenue et basée sur les conteneurs. De plus, nous verrons comment vous pouvez atteindre la multi-location dans vos applications [conteneurisées] [4].
+Nous sommes ici avec un autre article de blog passionnant dans la série de tenues multiples. Dans notre précédent [Article][1], nous avons abordé le concept de base derrière les applications multi-locataires, les avantages et les inconvénients et les types d'architecture multi-locataires. Puisqu'il est grand temps de servir plusieurs utilisateurs / locataires, gérez et utilisez des ressources de manière efficace. Ainsi, la multi-location est la première approche pour construire une infrastructure qui gère simultanément divers clients / locataires. Cependant, notre plus récent [article de blog][2] a démontré l'architecture sans serveur, la conteneurisation et [Kubernetes][3]. Par conséquent, dans cet article, nous explorerons l'architecture multi-tenue et basée sur les conteneurs. De plus, nous verrons comment vous pouvez atteindre la multi-location dans vos applications [conteneurisées][4].
 Les points suivants doivent être couverts dans cet article:
-  ***[Hôtes de conteneurs multi-locataires] [5]**
-  ***[Kubernetes Multi-Renancy] [6]**
+  ***[Hôtes de conteneurs multi-locataires][5]**
+  ***[Kubernetes Multi-Renancy][6]**
 
 ## Hôtes de conteneurs multi-locataires {# multi-tenueur-contrainer-hôtes}
 Le déploiement d'applications multi-locataires est une tâche critique en matière d'hébergement. Vous savez tous que les conteneurs sont légers par rapport aux machines virtuelles. Le déploiement des applications ne prend que quelques millisecondes pour terminer le déploiement alors qu'il pourrait être en quelques secondes à quelques minutes dans le cas des machines virtuelles.
@@ -41,25 +41,27 @@ De façon assez parlant, Kubernetes Multi-Renancy offre une solution rentable à
 Cela nous amène à la fin de ce billet de blog. Nous avons parcouru**Architecture basée sur la multi-location et les conteneurs Kubernetes**pour atteindre la multi-tenue. De plus, il existe de nombreuses bibliothèques tierces disponibles pour combler les applications multi-locataires avec Kubernetes. Ce billet de blog vous aidera à comprendre le concept des**hôtes de conteneurs multi-locataires**. Il existe d'autres articles de blog intéressants que vous pouvez trouver dans la section "Voir aussi".
 
 ## Connecte-toi avec nous
-Enfin, [Containerize.com] [7] propose des articles de blog en cours sur divers produits et sujets open source. Vous pouvez rester dans la boucle en nous suivant sur nos plateformes de médias sociaux, notamment [Facebook] [8], [LinkedIn] [9] et [Twitter] [10].
+Enfin, [Containerize.com][7] propose des articles de blog en cours sur divers produits et sujets open source. Vous pouvez rester dans la boucle en nous suivant sur nos plateformes de médias sociaux, notamment [Facebook][8], [LinkedIn][9] et [Twitter][10].
 
 ## Poser une question
-Vous pouvez nous informer de vos questions ou questions sur notre [Forum] [11].
+Vous pouvez nous informer de vos questions ou questions sur notre [Forum][11].
 
 ## FAQS
-* * Qu'est-ce que la multi-tenue à Kubernetes?**?
-Suivez ce [lien] [6] pour connaître la multi-tenue de Kubernetes.
-* * Qu'est-ce qu'un cluster multi-locataire vs un seul locataire?**
+**Qu'est-ce que la multi-tenue à Kubernetes?**?
+Suivez ce [lien][6] pour connaître la multi-tenue de Kubernetes.
+**Qu'est-ce qu'un cluster multi-locataire vs un seul locataire?**
 Dans un cluster multi-locataire, tous les locataires / clients partagent le cluster Kubernetes alors que, dans un cluster unique, il existe un cluster distinct pour chaque locataire.
 
 ## Voir également
-  * [Qu'est-ce que l'informatique sans serveur? | Architecture sans serveur] [12]
-  * [Qu'est-ce que la multiplication? | Pourquoi une approche multi-locataire?] [13]
-  * [Qu'est-ce que Generative Ai | Intelligence artificielle générative] [14]
-  * [Comment intégrer le chatppt avec Google Sheets] [15]
-  * [Comment utiliser Chatgpt dans vscode | Le code d'extension VScode gpt] [16]
-  * [Qu'est-ce que le chatbot openai gpt-3 | Chatgpt une révolution de l'IA] [17]
-  * [Une introduction à l'intelligence artificielle | Qu'est-ce que l'AI?] [18]
+  * [Qu'est-ce que l'informatique sans serveur? | Architecture sans serveur][12]
+  * [Qu'est-ce que la multiplication? | Pourquoi une approche multi-locataire?][13]
+  * [Qu'est-ce que Generative Ai | Intelligence artificielle générative][14]
+  * [Comment intégrer le chatppt avec Google Sheets][15]
+  * [Comment utiliser Chatgpt dans vscode | Le code d'extension VScode gpt][16]
+  * [Qu'est-ce que le chatbot openai gpt-3 | Chatgpt une révolution de l'IA][17]
+  * [Une introduction à l'intelligence artificielle | Qu'est-ce que l'AI?][18]
+
+  
 [1]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
 [2]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/#Serverless-vs-Containers
 [3]: https://products.containerize.com/devops/kubernetes/

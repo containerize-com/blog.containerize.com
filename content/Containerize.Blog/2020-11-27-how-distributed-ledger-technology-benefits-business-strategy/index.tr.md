@@ -13,18 +13,18 @@ categories: ['Blockchain Platforms']
 {{_LINE_11_}}
 
 ## Genel Bakış
-Günümüzde iş süreçlerini şeffaf ve güvenli hale getirmek çok önemlidir. İş operasyonları zorlaştıkça, sahtekarlık veya yanlış beyan şansı yüksektir. Geleneksel sistemlerde veriler merkezi ve dolayısıyla elektrik kesintisi veya veri kaybı riski altındadır. Bu nedenle, dağıtılmış defter teknolojisi, dijital işleminizi güvenli ve güvenilir hale getirmek için en iyi çözümdür. ** DLT Teknolojisi **, tüm verilerin merkezi olmayan yerlerde kayıt bilgilerini saklamak için paylaşılan bir sistem sunar. Düğümü bir blockchain'de tutan herkes, bu işlemle ilişkili tüm geçmişle birlikte herhangi bir dijital işlemi izleyebilir. Ayrıca, bu yaklaşım merkezi olmayan ve dolayısıyla saldırganlar için açık merkezi bir veritabanı/sunucu yoktur. ** Merkezi olmayan altyapıya ** bakmak için merkezi bir otorite veya teknik kişiyi işe almaya gerek olmadığı için uygun maliyetlidir. Bununla birlikte, [merkezi olmayan teknoloji] [1] bu tür zorluklara bir çözüm olarak ortaya çıkmaktadır.
+Günümüzde iş süreçlerini şeffaf ve güvenli hale getirmek çok önemlidir. İş operasyonları zorlaştıkça, sahtekarlık veya yanlış beyan şansı yüksektir. Geleneksel sistemlerde veriler merkezi ve dolayısıyla elektrik kesintisi veya veri kaybı riski altındadır. Bu nedenle, dağıtılmış defter teknolojisi, dijital işleminizi güvenli ve güvenilir hale getirmek için en iyi çözümdür. ** DLT Teknolojisi **, tüm verilerin merkezi olmayan yerlerde kayıt bilgilerini saklamak için paylaşılan bir sistem sunar. Düğümü bir blockchain'de tutan herkes, bu işlemle ilişkili tüm geçmişle birlikte herhangi bir dijital işlemi izleyebilir. Ayrıca, bu yaklaşım merkezi olmayan ve dolayısıyla saldırganlar için açık merkezi bir veritabanı/sunucu yoktur. ** Merkezi olmayan altyapıya ** bakmak için merkezi bir otorite veya teknik kişiyi işe almaya gerek olmadığı için uygun maliyetlidir. Bununla birlikte, [merkezi olmayan teknoloji][1] bu tür zorluklara bir çözüm olarak ortaya çıkmaktadır.
 Bu makalede, aşağıdaki noktaları ele alacağız.
-  * [Dağıtılmış defter teknolojisi nedir?] [2]
-  * [Blockchain kullanımı?] [3]
-  * [Blockchain'in artıları ve eksileri?] [4]
-  * [Sonuç] [5]
+  * [Dağıtılmış defter teknolojisi nedir?][2]
+  * [Blockchain kullanımı?][3]
+  * [Blockchain'in artıları ve eksileri?][4]
+  * [Sonuç][5]
 
 ## Dağıtılmış defter teknolojisi nedir? {#Ne}
 Blockchain, verileri blok şeklinde depolayan belirli bir merkezi olmayan veritabanıdır. Bu bloklar, her bloğun önceki bloğunun adresini içerdiği bir zincir oluşturmak için birbirleriyle bağlantılıdır. Bu nedenle, kullanıcı verilerin bütünlük olduğundan emin olmak için tüm blokları izleyebilir. Çoğu zaman, blockchain ** dijital işlemleri ** kaydetmek için dijital bir defter olarak kullanılıyor **. Öte yandan, her türlü veriyi saklamak için kullanılabilir. Bloklarda depolanan veriler değişmezdir ve değiştirilemez.
 Her işlem üzerinde çalışan eksiksiz bir süreç vardır. İşlemler ne zaman gerçekleştiğinde, ağda aktif olan tüm düğümlerin anlaşmasıyla blockchain'e yeni bloklar eklenir. Ayrıca, tüm düğümler bir fikir birliği algoritması yardımıyla bir anlaşma oluşturur. Bu ** dağıtılmış defter teknolojisinde üç tip fikir birliği algoritması vardır **.
   *** Çalışma Kanıtı **: Bu fikir birliği algoritmasında madenciler, büyük hesaplama gücü gerektiren bir bulmacayı yarışır ve çözer. Hash şeklinde kanıtları olduğu anlamına gelen bir çözüm bulduktan sonra, blokları ağda aktif olan tüm düğümler tarafından değiştirilir ve dolayısıyla Blockchain bu bloğu zincire ekler.
-  *** Kazık kanıtı **: [Ethereum] [6] bu konsensüs algoritini kullanır. Bu yaklaşımda, hesaplama gücünü kullanmak yerine, doğrulayıcılar bir anlaşmaya varmak için paraları tehlikeye attı.
+  *** Kazık kanıtı **: [Ethereum][6] bu konsensüs algoritini kullanır. Bu yaklaşımda, hesaplama gücünü kullanmak yerine, doğrulayıcılar bir anlaşmaya varmak için paraları tehlikeye attı.
   *** Pratik Bizans fay toleransı **: Bu konsensüs algoritine göre, ağdaki düğümler işlemleri işlemeyi işler ve diğeri ile paylaşır. Tüm düğümlerden toplam kararların tabanında Heppens bir anlaşma.
 Ayrıca, akıllı sözleşmeler tüm ** dijital işlemleri ** kontrol eden ve yöneten kod parçacıklarıdır **. Herkes akıllı sözleşme geliştirme yapabilir ve bu merkezi olmayan altyapıyı ağda kullanabilir.
 
@@ -55,20 +55,22 @@ Bu bölümde, merkezi olmayan teknolojinin artılarını ve eksilerini keşfedec
 
 ## Sonuç {#Conclusion}
 Blockchain'in iş için ortaya çıkması bir sürprizden daha az değil. Bu modern yaklaşım, veri şeffaflığı ve güvenlik ile ilgili yenilikçi ve umut verici özellikleri ile teknoloji endüstrisine büyük bir potansiyel getirmiştir. ** Merkezi olmayan altyapı ** birçok fırsat ortaya çıkardı. Neyse ki, ** ademi merkeziyetçi teknoloji ** dünyasında bu devrimci yaklaşımı destekleyen çok canlı bir topluluk var. Aslında, kullanıcılar, yatırımcılar, işletmeler ve yazılım geliştiricileri ** akıllı sözleşme geliştirme **, madencilik ve diğer yönlerle ilgili bir grup destekleyici belge ve materyal bulabilir. Bu nedenle, iş dijital işlemlerinizi blockchain'e kaydırmak konusunda ciddiyseniz, aşağıdaki “Keşfet” bölümünde bulunan açık kaynaklı bir platform seçmenin zamanı geldi.
-Ayrıca, ** Dağıtılmış Defter Teknolojisi ** bir takım kullanım durumları vardır ve kuruluşlar iş stratejilerini oluştururken ciddi olarak düşünmektedir. Son olarak, [Containerize.com] [7] açık kaynak blockchain platformlarının listesini genişletmek için çalışıyor. Bu nedenle, düzenli güncellemeler için lütfen [blockchain platformları] [1] kategorisiyle bağlantıda kalın.
+Ayrıca, ** Dağıtılmış Defter Teknolojisi ** bir takım kullanım durumları vardır ve kuruluşlar iş stratejilerini oluştururken ciddi olarak düşünmektedir. Son olarak, [Containerize.com][7] açık kaynak blockchain platformlarının listesini genişletmek için çalışıyor. Bu nedenle, düzenli güncellemeler için lütfen [blockchain platformları][1] kategorisiyle bağlantıda kalın.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Ethereum] [6]
-  * [Hiperledger kumaş] [8]
-  * [Openchain] [9]
-  * [Ripple] [10]
-  * [MultiCain] [11]
-  * [Consensys Quorum] [12]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [13]
-  * [Localhost'ta Ethereum düğümü nasıl kurulur | Yeni Başlayanlar Rehberi] [14]
-  * [2020'de Top 5 Açık Kaynak Blockchain Platformu] [15]
-  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber] [16]
+  * [Ethereum][6]
+  * [Hiperledger kumaş][8]
+  * [Openchain][9]
+  * [Ripple][10]
+  * [MultiCain][11]
+  * [Consensys Quorum][12]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][13]
+  * [Localhost'ta Ethereum düğümü nasıl kurulur | Yeni Başlayanlar Rehberi][14]
+  * [2020'de Top 5 Açık Kaynak Blockchain Platformu][15]
+  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber][16]
+
+  
 [1]: https://products.containerize.com/blockchain-platforms/
 [2]: #what
 [3]: #cases

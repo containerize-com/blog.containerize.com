@@ -13,11 +13,11 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt=".htaccessを変換して、ルールをNginxディレクティブに書き換えます">}}
 
-前回のチュートリアルでは、[ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法] [1]を学びました。 Apacheは最も人気のあるWebサーバーの1つですが、最近、NginxはApacheの競争相手としての地位を確立しています。しかし、NginxはHTACCESSの書き換えルールをサポートしていません。したがって、この記事では、htaccessの書き換えルールをNginxの書き換え指令に変換する方法を学びます。始めましょう！
-  *** [nginxの書き換えルール] [2] **
-  *[**。htaccessの書き換えルール**] [3]
-  *[**変換.htaccessルールの書き換え指令を書き換える**] [4]
-  *[**結論**] [5]
+前回のチュートリアルでは、[ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法][1]を学びました。 Apacheは最も人気のあるWebサーバーの1つですが、最近、NginxはApacheの競争相手としての地位を確立しています。しかし、NginxはHTACCESSの書き換えルールをサポートしていません。したがって、この記事では、htaccessの書き換えルールをNginxの書き換え指令に変換する方法を学びます。始めましょう！
+  *** [nginxの書き換えルール][2] **
+  *[**。htaccessの書き換えルール**][3]
+  *[**変換.htaccessルールの書き換え指令を書き換える**][4]
+  *[**結論**][5]
 
 ## nginxはルールを書き直します{#nginx}
 ルールの書き換えクライアントリクエストでルールの一部またはすべてのURLを変更します。通常、クライアントがリクエストしているリソースが別の場所に存在することをクライアントに通知するか、nginx内の処理の流れを制御します。たとえば、コンテンツを動的に生成する必要がある場合に、アプリケーションサーバーにリクエストを転送すること。 TRY_FILESディレクティブは、この目的のためによく使用されます。
@@ -82,7 +82,7 @@ server {
 }
 ```
 より明確にするために、WordPress htaccessルールをnginx try_filesディレクティブに変換しましょう。
-[wordpress.orgは配布されます] [6]基本的なデフォルト**。htaccess **次のファイル。 htaccessは、かなりのパーマリンクを有効にするルールを書き直します。
+[wordpress.orgは配布されます][6]基本的なデフォルト**。htaccess **次のファイル。 htaccessは、かなりのパーマリンクを有効にするルールを書き直します。
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 このチュートリアルでは、apacheの.htaccessの書き換えルールと、それらの.htaccessの書き換えルールをNginxの書き換え指令に変換する方法を調査しました。さらに、URLの書き換えに使用できるさまざまなNginx指令を調査しました。また、NginxとApacheの両方のルールを書き直す例を示しました。チュートリアルが役立つことを願っています。
 
 ## 探検
-  * [ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法] [1]
-  * [nginxをリバースプロキシとしてセットアップして構成する方法] [7]
+  * [ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法][1]
+  * [nginxをリバースプロキシとしてセットアップして構成する方法][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

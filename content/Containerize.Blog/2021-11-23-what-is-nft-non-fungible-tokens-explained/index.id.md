@@ -15,12 +15,12 @@ categories: ['Blockchain Platforms']
 
 
 ## Ringkasan
-Dalam serangkaian open source [platform blockchain] [1], kami telah menerbitkan banyak posting blog yang mencakup artikel pengantar dan tutorial seperti [Top 5 Gratis Dompet Crypto Sumber Terbuka di 2021] [2], [Cara Mengatur Node Ethereum Di localhost | Panduan Pemula] [3], dan beberapa lagi. Dengan meningkatnya teknologi blockchain, banyak perkembangan terbaru didistribusikan berorientasi buku besar. Ini telah menjadi pilihan pertama karena beberapa karakteristik yang kuat seperti keterbukaan, keamanan, transparansi, dan ketahanan. Sekarang, mari kita bicara tentang NFT. ** Apa itu NFT **? NFT adalah token yang tidak dapat dihitung dan disimpan dalam buku besar terdistribusi yang disebut blockchain. Sebagian besar waktu, [Ethereum] [1] blockchain yang mendukung transaksi NFT.
+Dalam serangkaian open source [platform blockchain][1], kami telah menerbitkan banyak posting blog yang mencakup artikel pengantar dan tutorial seperti [Top 5 Gratis Dompet Crypto Sumber Terbuka di 2021][2], [Cara Mengatur Node Ethereum Di localhost | Panduan Pemula][3], dan beberapa lagi. Dengan meningkatnya teknologi blockchain, banyak perkembangan terbaru didistribusikan berorientasi buku besar. Ini telah menjadi pilihan pertama karena beberapa karakteristik yang kuat seperti keterbukaan, keamanan, transparansi, dan ketahanan. Sekarang, mari kita bicara tentang NFT. ** Apa itu NFT **? NFT adalah token yang tidak dapat dihitung dan disimpan dalam buku besar terdistribusi yang disebut blockchain. Sebagian besar waktu, [Ethereum][1] blockchain yang mendukung transaksi NFT.
 Dalam posting blog ini, kami akan melalui token ** yang tidak dapat dihitung ** dengan membahas poin-poin berikut.
-  *** [apa itu nft?] [4] **
-  *** [nft dan ledger terdistribusi (blockchain)] [5] **
-  *** [crypto dan nft] [6] **
-  *** [NFT Marketplace] [7] **
+  *** [apa itu nft?][4] **
+  *** [nft dan ledger terdistribusi (blockchain)][5] **
+  *** [crypto dan nft][6] **
+  *** [NFT Marketplace][7] **
 
 ## Apa itu NFT? {#What-is-nft}
 Token yang tidak dapat dihitung adalah representasi digital dari data dan data dapat dalam format apa pun seperti file video, file audio, tiket film, menggambar, atau komentar atau posting media sosial apa pun. Nama itu sendiri jelas bahwa itu adalah token yang terkait dengan aset apa pun dan berisi hak kepemilikan aset itu. Selain itu, tidak ada yang bisa pertukaran aset digital ini dan tidak dapat dibantah di alam. Mari kita ambil contoh hal-hal yang disaklukkan dan tidak dapat dibekukan. Anda dapat menukar catatan $ 10 Anda dengan dua catatan $ 5 yang berarti uang ($ 10 not) adalah fungible dan hal yang sama halnya dengan BTC atau cryptocurrency lain yang dapat dipertukarkan dan mengandung nilai yang sama. Sedangkan, Anda tidak dapat menukar lukisan, atau seni apa pun karena Anda tidak dapat mendominasi seni. Namun, aset digital ini unik dan hanya memiliki satu pemilik sekaligus.
@@ -35,28 +35,30 @@ NFT adalah istilah yang banyak digunakan dalam beberapa waktu terakhir karena sa
 
 ## NFT Marketplace {#nft-marketplace}
 Di bagian ini, kami akan melalui beberapa pasar NFT populer berikut.
-** [OpenSea] [9] **: Ini adalah pasar NFT terbesar yang menawarkan NFT dari berbagai hal seperti GIF, video, karakter game, dan banyak lagi. Ini memungkinkan Anda mengatur dompet Anda, membuat NFT dan meminta mereka untuk dijual. Volume perdagangan NFT dari pasar ini dicatat lebih dari $ 10 miliar hingga ini. Bulan (yaitu November 2021) sejak diluncurkan.
+** [OpenSea][9] **: Ini adalah pasar NFT terbesar yang menawarkan NFT dari berbagai hal seperti GIF, video, karakter game, dan banyak lagi. Ini memungkinkan Anda mengatur dompet Anda, membuat NFT dan meminta mereka untuk dijual. Volume perdagangan NFT dari pasar ini dicatat lebih dari $ 10 miliar hingga ini. Bulan (yaitu November 2021) sejak diluncurkan.
 [10]: It is another popular **NFT marketplace** where the trade volume of NFTs is in millions of dollars. In addition, the trade volume of this marketplace is more than $3 billion since its launch.
 [11]: Just like other marketplaces, it is one of the big **non-fungible tokens** marketplaces. Interested people can explore this marketplace as the trade volume is more than $1.5 billion.
 Demikian pula, ada beberapa platform lain di mana Anda dapat melakukan perdagangan NFT.
 
 ## Kesimpulan
 Ini membawa kita ke akhir posting blog ini. Mudah-mudahan, artikel ini akan membantu Anda memahami dasar-dasar token ** yang tidak dapat dihitung **. Kami menjawab beberapa pertanyaan seperti apa itu NFT? Hubungan ** Buku Besar Terdistribusi ** dan NFTS. Namun, ada beberapa platform blockchain lain dan panduan tutorial yang disebutkan di bagian "Jelajahi" di bawah ini.
-Akhirnya, [** containerize.com **] [12] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [** blockchain **] [1] untuk pembaruan rutin.
+Akhirnya, [** containerize.com **][12] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [** blockchain **][1] untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Ethereum] [13]
-  * [Hyperledger Fabric] [14]
-  * [OpenChain] [15]
-  * [Riak] [16]
-  * [Multichain] [17]
-  * [Consensys Quorum] [18]
-  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local] [19]
-  * [Top 5 Platform Blockchain Open Source di 2020] [20]
-  * [Panduan Dasar tentang Cara Membuat Kontrak Cerdas Ethereum] [21]
-  * [Bagaimana teknologi terdesentralisasi meningkatkan strategi bisnis Anda] [22]
-  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local] [19]
+  * [Ethereum][13]
+  * [Hyperledger Fabric][14]
+  * [OpenChain][15]
+  * [Riak][16]
+  * [Multichain][17]
+  * [Consensys Quorum][18]
+  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local][19]
+  * [Top 5 Platform Blockchain Open Source di 2020][20]
+  * [Panduan Dasar tentang Cara Membuat Kontrak Cerdas Ethereum][21]
+  * [Bagaimana teknologi terdesentralisasi meningkatkan strategi bisnis Anda][22]
+  * [Cara Mengatur Jaringan Blockchain Quorum Consensys Local][19]
+
+  
 [1]: https://products.containerize.com/blockchain-platforms/
 [2]: https://blog.containerize.com/blockchain-platforms/top-5-free-open-source-crypto-wallets-in-2021/
 [3]: https://blog.containerize.com/blockchain-platforms/what-is-testnet-how-to-deploy-it-ethereum-testnet/

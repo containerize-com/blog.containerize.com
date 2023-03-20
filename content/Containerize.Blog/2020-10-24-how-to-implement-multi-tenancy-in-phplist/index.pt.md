@@ -25,9 +25,9 @@ Podemos implementar a multiestância usando as seguintes abordagens.
   * Banco de dados compartilhado para todos os inquilinos.
   * Separe o banco de dados para cada inquilino.
 Usaremos um banco de dados separado para cada abordagem de inquilino para implementar a multiestação no phplist.
-  * [Manipular o fluxo de solicitação] [1]
-  * [Configurar banco de dados para inquilino] [2]
-  * [Configure o nginx para inquilino] [3]
+  * [Manipular o fluxo de solicitação][1]
+  * [Configurar banco de dados para inquilino][2]
+  * [Configure o nginx para inquilino][3]
 
 ## Handle Solicite Flow {#Request}
   * Faça um backup do seu arquivo config.php e você pode encontrá -lo no diretório de configuração.
@@ -63,11 +63,13 @@ O software multi-literário tem algumas vantagens em comparação com o aplicati
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [PhPlist - Newsletter de código aberto e software de marketing por e -mail] [4]
-  * [Como criar e enviar boletim informativo usando phplist] [5]
-  * [Como configurar e processar saltos no phplist] [6]
-  * [Guia para iniciantes para desenvolver plugin phplist] [7]
-  * [Configurar o gerenciamento avançado de rejeição e as regras de rejeição em phplist] [8]
+  * [PhPlist - Newsletter de código aberto e software de marketing por e -mail][4]
+  * [Como criar e enviar boletim informativo usando phplist][5]
+  * [Como configurar e processar saltos no phplist][6]
+  * [Guia para iniciantes para desenvolver plugin phplist][7]
+  * [Configurar o gerenciamento avançado de rejeição e as regras de rejeição em phplist][8]
+
+  
 [1]: #request
 [2]: #database
 [3]: #nginx

@@ -13,12 +13,12 @@ categories: ['Database Management Software']
 
 {{< figure align=center src="images/redis-pub-sub.png" alt="Redis Pub Sub">}}
 
-在我们的上一个教程中，“ ** [REDIS REDIS内存数据库的初学者指南] [1] **”，我们了解了Redis作为内存数据库。并且，这是如何与NOSQL数据库竞争的。我们还学会了在哪里使用redis以及它的使用在哪里不是最佳的。现在，在本知识库之上，在本教程中，我们将了解Redis Pub/sub，它如何工作以及对REDIS发布/订阅系统的最佳利用。让我们开始吧。
-  *** [什么是发布/订阅模式？] [2] **
-  *** [酒吧/子如何工作？] [3] **
-  *** [什么时候应该使用pub/sub？] [4] **
-  *** [如何使用redis pub/sub？] [5] **
-  *** [结论] [6] **
+在我们的上一个教程中，“ ** [REDIS REDIS内存数据库的初学者指南][1] **”，我们了解了Redis作为内存数据库。并且，这是如何与NOSQL数据库竞争的。我们还学会了在哪里使用redis以及它的使用在哪里不是最佳的。现在，在本知识库之上，在本教程中，我们将了解Redis Pub/sub，它如何工作以及对REDIS发布/订阅系统的最佳利用。让我们开始吧。
+  *** [什么是发布/订阅模式？][2] **
+  *** [酒吧/子如何工作？][3] **
+  *** [什么时候应该使用pub/sub？][4] **
+  *** [如何使用redis pub/sub？][5] **
+  *** [结论][6] **
 
 ## 什么是发布/订阅模式？ {#什么}
 发布/订阅或简短的Pub/sub是一个消息传递模式，消息的发件人和接收器不会直接交换这些消息。相反，消息的发件人将其发布到频道/主题。而且，所有想要接收这些消息的人都将订阅频道/主题。因此，这更多是技术解释。在我们的日常生活中，我们确实经常使用此Publish-Subscribe模型，同时使用YouTube，Twitter，Facebook或Instagram等社交媒体平台。内容生产者生产内容的地方，感兴趣的人将遵循 /订阅内容。因此，这也是Pub/sub模式在软件体系结构中的究竟所做的。
@@ -44,7 +44,7 @@ categories: ['Database Management Software']
   *提高响应能力
 
 ## 如何使用redis pub/sub {#redis-pubsub}
-对于Redis安装，您可以参考我的[最后教程] [1]。此示例说明了发布者和订阅者概念的工作方式。在下面的示例中，一个客户订阅了一个名为“ Redischat”的频道。
+对于Redis安装，您可以参考我的[最后教程][1]。此示例说明了发布者和订阅者概念的工作方式。在下面的示例中，一个客户订阅了一个名为“ Redischat”的频道。
 ```
 redis 127.0.0.1:6379> SUBSCRIBE redisChat  
 Reading messages... (press Ctrl-C to quit) 
@@ -69,6 +69,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 ## 结论{#conclusion}
 在本教程中，我们了解了发布/订阅设计模式。并探讨了Redis Pub/Sub的工作原理。我们还探索了什么是Redis Pub/Sub，实时消息的最佳用例。在我即将举行的教程中，我们将进一步探索Redis，并解释如何将Redis Pub/sub与Node.js一起构建实时聊天应用程序。
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: #what
 [3]: #how

@@ -15,15 +15,15 @@ categories: ['Artificial intelligence']
 
 
 ## 概要
-最近発売された[chatgpt] [1]は、テクノロジーの世界で流行語になりました。一部の人々は、この**aiチャットボット**を生産性と透明性に対する脅威と考えています。さて、[containerize.com] [2]は、このOpenAI GPT-3モデルの使用と統合について書いています。実際、[Google Docs] [3]は、執筆とデータ表現に最適なツールです。別の手であるChatGptの出現は、会話の方法で自然言語の質問に応答する会話[AI] [4]ツールです。このAIツールは機械学習に基づいており、[Openai] [5]によって開発されています。ただし、このブログ投稿は**chatgptとGoogle**についてです。ここでは、**Googleドキュメントの統合を達成する方法を学びます。間違いなく、GoogleドキュメントにChatGPTアドオンをインストールすることにより、**Google Docs Automation**を持参できます。
+最近発売された[chatgpt][1]は、テクノロジーの世界で流行語になりました。一部の人々は、この**aiチャットボット**を生産性と透明性に対する脅威と考えています。さて、[containerize.com][2]は、このOpenAI GPT-3モデルの使用と統合について書いています。実際、[Google Docs][3]は、執筆とデータ表現に最適なツールです。別の手であるChatGptの出現は、会話の方法で自然言語の質問に応答する会話[AI][4]ツールです。このAIツールは機械学習に基づいており、[Openai][5]によって開発されています。ただし、このブログ投稿は**chatgptとGoogle**についてです。ここでは、**Googleドキュメントの統合を達成する方法を学びます。間違いなく、GoogleドキュメントにChatGPTアドオンをインストールすることにより、**Google Docs Automation**を持参できます。
 このブログ投稿では、次のポイントを説明します。
-* [**Openai APIキーを取得する方法？**] [6]
-***[chatgptとの統合をGoogleドキュメントにしましょう] [7]**
-* [**chatgptとgoogleの使用を開始****docs**] [8]
+* [**Openai APIキーを取得する方法？**][6]
+***[chatgptとの統合をGoogleドキュメントにしましょう][7]**
+* [**chatgptとgoogleの使用を開始****docs**][8]
 
 ## Openai APIキーを取得する方法は？ {#How-to-Obtain-the-openai-api-key}
 少し紹介するために、Openaiは人工知能ツールの研究開発に焦点を当てた会社です。 CHATGPTはOpenAIによって開発および発売されますが、OpenAIは一連のGPTモデルを開発しました。
-まず、Openaiの[プラットフォーム] [9]でアカウントを作成してからログインする必要があります。ログインしたら、APIキーページにランディングして、ボタンをクリックしてAPIキーを生成できます。以下に示すように、キー」。
+まず、Openaiの[プラットフォーム][9]でアカウントを作成してからログインする必要があります。ログインしたら、APIキーページにランディングして、ボタンをクリックしてAPIキーを生成できます。以下に示すように、キー」。
 
 {{< figure align=center src="images/openai-api-key-1.gif" alt="Openai APIキー">}}
 
@@ -52,21 +52,23 @@ Google Docsウィンドウに戻ると、メニューバーに新しいメニュ
 
 ## 結論
 結論として、chatgpt**とのGoogleドキュメントの統合を達成する方法を学んだと安全に言うことができます。さらに、**Openai APIキー**を生成し、**Openai GPT-3**関数を有効にするように設定する方法を見てきました。このGoogle Docs Automationは、ビジネスタスクに真剣に利益をもたらす可能性があります。さらに、以下の「参照」セクションに登録されているリンクにアクセスすることを忘れないでください。
-最後に、[containerize.com] [2]は、さらなるオープンソース製品とトピックに関するブログ投稿を継続的に執筆しています。さらに、ソーシャルメディアアカウント[Facebook] [10]、[LinkedIn] [11]、および[Twitter] [12]でフォローできます。
+最後に、[containerize.com][2]は、さらなるオープンソース製品とトピックに関するブログ投稿を継続的に執筆しています。さらに、ソーシャルメディアアカウント[Facebook][10]、[LinkedIn][11]、および[Twitter][12]でフォローできます。
 
 ## 質問する
-[フォーラム] [13]での質問や質問についてお知らせください。
+[フォーラム][13]での質問や質問についてお知らせください。
 
 ## FAQ
-* * GoogleドキュメントでGPT-3 APIの使用方法？**
-Googleドキュメントの統合の手順をCHATGPTと知り合うには、この[リンク] [7]にアクセスしてください。
+**GoogleドキュメントでGPT-3 APIの使用方法？**
+Googleドキュメントの統合の手順をCHATGPTと知り合うには、この[リンク][7]にアクセスしてください。
 
 ## 参照
-  * [ChatGptをGoogleシートと統合する方法] [14]
-  * [人工知能の紹介| aiとは？] [4]
-  * [vscodeでchatgptの使用方法| VSCODE拡張コードGPT] [15]
-  * [Openai Chatbot gpt-3 | ai革命をchatgpt] [1]
-  * [トップ5のオープンソースAIフレームワークは何ですか] [16]
+  * [ChatGptをGoogleシートと統合する方法][14]
+  * [人工知能の紹介| aiとは？][4]
+  * [vscodeでchatgptの使用方法| VSCODE拡張コードGPT][15]
+  * [Openai Chatbot gpt-3 | ai革命をchatgpt][1]
+  * [トップ5のオープンソースAIフレームワークは何ですか][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [2]: https://www.containerize.com/
 [3]: https://docs.google.com/document/u/0/

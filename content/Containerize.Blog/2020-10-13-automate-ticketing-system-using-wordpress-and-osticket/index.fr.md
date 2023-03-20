@@ -15,10 +15,10 @@ categories: ['Blogging', 'Help Desk']
 
 Vos clients peuvent avoir des questions concernant vos produits / services. Ils enverront leurs requêtes via différentes formulaires sur votre site WordPress. L'intégration d'Osticket-WordPress aide à convertir ces requêtes en billets. Il envoie des données via l'API au système d'assistance OSTICKET.
 OSTICKET est un système de billetterie d'assistance open-source et gratuit. Les clients peuvent créer des billets concernant leurs requêtes sur OSTICKET. Ce système d'assistance permet à toute organisation de gérer les requêtes provenant de ses clients. L'administrateur peut créer des départements et des équipes et attribuer des billets à différents agents en fonction de la nature des billets créés. Ce système libre open source suivra les problèmes. Il permet aux clients et aux agents de commenter le billet pour discuter des progrès. Nous couvrirons les sections suivantes dans cet article de blog:
-  * [Processus d'intégration] [1]
-  * [Installation du plugin WordPress] [2]
-  * [Procédure d'authentification] [3]
-  * [Conclusion] [4]
+  * [Processus d'intégration][1]
+  * [Installation du plugin WordPress][2]
+  * [Procédure d'authentification][3]
+  * [Conclusion][4]
 
 ## Processus d'intégration: {#Integration}
 L'intégration OSTICKET et WordPress nécessite un formulaire de contact sur le site WordPress avec les champs suivants
@@ -32,10 +32,10 @@ Le formulaire de contact doit envoyer des e-mails, car ce plugin accroche la fon
 ## Installation du plugin wordpress: {#wordpress}
   1. Accédez au tableau de bord Admin de votre site WordPress.
   2. Ensuite, allez à la section Plugins.
-  3. Installez ensuite ce [plugin] [5].
+  3. Installez ensuite ce [plugin][5].
   4. Après cela, activez le plugin.
   5. et accédez à «Réglage» -> «Connecteur OSTICKET».
-  6. Entrez ensuite l'URL de votre site OSTICKET, c'est-à-dire [http: //your.domain/api/tickets.json] [6]
+  6. Entrez ensuite l'URL de votre site OSTICKET, c'est-à-dire [http: //your.domain/api/tickets.json][6]
   7. Entrez la clé de l'API créée à partir du panneau d'administration OSTICKET (expliqué dans la section suivante).
   8. À la fin, remplissez tous les champs pour cartographier les données de votre formulaire de contact aux champs de billets d'Osticket.
 
@@ -60,9 +60,11 @@ L'intégration OSTICKET-WordPress automatisera le processus de billetterie. Par 
 
 ## Explorer:
 Pour en savoir plus sur OSTICKET et WordPress, veuillez consulter ces pages:
-  * [OSTICKET - Système de billetterie Open Source Helpdesk gratuit] [7]
-  * [WordPress - Open source gratuit et CMS et outil de blogging les plus utilisés] [8]
-  * [Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket] [9]
+  * [OSTICKET - Système de billetterie Open Source Helpdesk gratuit][7]
+  * [WordPress - Open source gratuit et CMS et outil de blogging les plus utilisés][8]
+  * [Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket][9]
+
+  
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

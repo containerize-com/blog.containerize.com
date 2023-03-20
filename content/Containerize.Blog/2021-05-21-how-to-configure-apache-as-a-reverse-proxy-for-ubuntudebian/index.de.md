@@ -97,11 +97,13 @@ In diesem Tutorial haben wir Schritt für Schritt untersucht und diskutiert, was
 
 ## Erkunden
 Möglicherweise mögen Ihnen auch die folgenden verwandten Artikel:
-  * [Wie zu] [1] [Installieren und sicherer phpmyadmin mit nginx auf Ubuntu] [2]
-  * [So richten Sie Nginx mit Passagier auf AWS Production Server] [3]
-  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian] [4]
-  * [Sicher und verschlüsseln Sie Nginx mit lasst uns auf Ubuntu 20.04] [5]
-  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu] [6]
+  * [Wie zu][1][Installieren und sicherer phpmyadmin mit nginx auf Ubuntu][2]
+  * [So richten Sie Nginx mit Passagier auf AWS Production Server][3]
+  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian][4]
+  * [Sicher und verschlüsseln Sie Nginx mit lasst uns auf Ubuntu 20.04][5]
+  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/de/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

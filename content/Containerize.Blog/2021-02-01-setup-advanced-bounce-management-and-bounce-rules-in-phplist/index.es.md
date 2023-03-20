@@ -13,11 +13,11 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Configurar reglas avanzadas de gestión de rebote y rebote en Phplist">}}
 
-En nuestro tutorial [anterior] [1], ya habíamos abordado ** Phplist Bounce Processing **. Si no está familiarizado con el procesamiento de rebote, puede leerlo. Puede descargar correos electrónicos no entregados a su proyecto Phplist utilizando el procesamiento de rebote. ¿Cómo se trata con los correos electrónicos descargados? No tengo idea, echemos un vistazo a la gestión de rebote avanzada que le permite resolver ** los correos electrónicos de rebote **. Cada mensaje de correo electrónico devuelto tiene código de error que devuelve el MTA (agente de transferencia de correo). Además, puede revisar el encabezado de correo electrónico del mensaje devuelto y contiene toda la información en el código de error.
-  * [Habilitar el manejo avanzado de rebote] [2]
-  * [Agregar regla de rebote] [3]
-  * [Reglas de rebote de la lista] [4]
-  * [Conclusión] [5]
+En nuestro tutorial [anterior][1], ya habíamos abordado ** Phplist Bounce Processing **. Si no está familiarizado con el procesamiento de rebote, puede leerlo. Puede descargar correos electrónicos no entregados a su proyecto Phplist utilizando el procesamiento de rebote. ¿Cómo se trata con los correos electrónicos descargados? No tengo idea, echemos un vistazo a la gestión de rebote avanzada que le permite resolver ** los correos electrónicos de rebote **. Cada mensaje de correo electrónico devuelto tiene código de error que devuelve el MTA (agente de transferencia de correo). Además, puede revisar el encabezado de correo electrónico del mensaje devuelto y contiene toda la información en el código de error.
+  * [Habilitar el manejo avanzado de rebote][2]
+  * [Agregar regla de rebote][3]
+  * [Reglas de rebote de la lista][4]
+  * [Conclusión][5]
 
 ## habilite el manejo avanzado de rebote {#enable}
 Lo primero es lo primero, habilite el manejo avanzado ** de rebote ** copiando el siguiente código en el archivo config.php.
@@ -64,14 +64,16 @@ Después de crear un número de reglas, su lista ** Reglas de rebote ** se verá
 
 ## conclusión {#conclusion}
 En este tutorial, aprendimos sobre Advanced ** Bounce Management ** y desarrollamos las reglas de rebote necesarias. Sería genial permitir esta función para que pueda automatizar el proceso de limpieza de direcciones de correo electrónico no válidas de sus listas. También le permitiría mantener el nivel mínimo de correos electrónicos devueltos. Además, sus listas tendrán suscriptores legítimos.
-Además, [Contenerize.com] [6] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones periódicas, estén atentos en la categoría [Newsletters] [7] para obtener artículos más interesantes.
+Además, [Contenerize.com][6] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones periódicas, estén atentos en la categoría [Newsletters][7] para obtener artículos más interesantes.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Phplist - Boletín de código abierto y software de marketing por correo electrónico] [8]
-  * [Cómo crear y enviar boletín de boletín usando Phplist] [9]
-  * [Cómo configurar y procesar rebotes en Phplist] [1]
-  * [Guía para principiantes para desarrollar el complemento Phplist] [10]
+  * [Phplist - Boletín de código abierto y software de marketing por correo electrónico][8]
+  * [Cómo crear y enviar boletín de boletín usando Phplist][9]
+  * [Cómo configurar y procesar rebotes en Phplist][1]
+  * [Guía para principiantes para desarrollar el complemento Phplist][10]
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
 [2]: #Enable
 [3]: #Add

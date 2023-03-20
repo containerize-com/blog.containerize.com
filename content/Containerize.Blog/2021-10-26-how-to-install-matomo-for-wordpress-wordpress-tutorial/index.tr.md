@@ -15,18 +15,18 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 
 ## Genel Bakış
-[WordPress] [1] web siteniz var mı ve çalıştırıyor musunuz? Web sitenizin önemli veri bilgilerini izlemek ve analiz etmek mi istiyorsunuz? Bu, WordPress ** için ** Matomo kuracağımız yere geldiğiniz doğru yer. WordPress tarafından desteklenen milyonlarca bireysel ve iş web sitesi var. WordPress'in verimlilik, sağlamlık, zengin bir eklenti yığını ve çok daha fazlası gibi bazı önemli faktörlerden kaynaklanmaktadır. Öte yandan, web sitesinin genel performansına dikkat etmek en önemli iştir. Bu nedenle, [Google Analytics Tool] [2], Ahrefs.com ve daha fazlası gibi birçok ** Web Analytics yazılımı ** vardır. Bu araçlar, web yöneticilerinin önemli veri parçalarını izlemelerine ve analiz etmesine yardımcı olan çok çeşitli özellikler sunar. Aslında, bu araçların anlaşılması çok kolay değildir ve karmaşık çalışma modelleri ile birlikte gelir.
-Bununla birlikte, açık kaynaklı topluluk, benzer özellikler sunan ancak kolay ve düz davranışlar sunan bazı web analizi yazılımı geliştirmiştir. [Matomo] [3], hayati web sitesi bilgileri sağlayan açık kaynaklı BI çözümlerinden biridir. Bu blog yazısında, aşağıdaki noktaları ele alarak WordPress için Matomo'yu yükleyeceğiz.
-  *** [Matomo nedir?] [4] **
-  *** [WordPress için Matomo'nun kurulum adımları] [5] **
-  *** [Matomo Gösterge Tablosu] [6] **
-  *** [Sonuç] [7] **
+[WordPress][1] web siteniz var mı ve çalıştırıyor musunuz? Web sitenizin önemli veri bilgilerini izlemek ve analiz etmek mi istiyorsunuz? Bu, WordPress ** için ** Matomo kuracağımız yere geldiğiniz doğru yer. WordPress tarafından desteklenen milyonlarca bireysel ve iş web sitesi var. WordPress'in verimlilik, sağlamlık, zengin bir eklenti yığını ve çok daha fazlası gibi bazı önemli faktörlerden kaynaklanmaktadır. Öte yandan, web sitesinin genel performansına dikkat etmek en önemli iştir. Bu nedenle, [Google Analytics Tool][2], Ahrefs.com ve daha fazlası gibi birçok ** Web Analytics yazılımı ** vardır. Bu araçlar, web yöneticilerinin önemli veri parçalarını izlemelerine ve analiz etmesine yardımcı olan çok çeşitli özellikler sunar. Aslında, bu araçların anlaşılması çok kolay değildir ve karmaşık çalışma modelleri ile birlikte gelir.
+Bununla birlikte, açık kaynaklı topluluk, benzer özellikler sunan ancak kolay ve düz davranışlar sunan bazı web analizi yazılımı geliştirmiştir. [Matomo][3], hayati web sitesi bilgileri sağlayan açık kaynaklı BI çözümlerinden biridir. Bu blog yazısında, aşağıdaki noktaları ele alarak WordPress için Matomo'yu yükleyeceğiz.
+  *** [Matomo nedir?][4] **
+  *** [WordPress için Matomo'nun kurulum adımları][5] **
+  *** [Matomo Gösterge Tablosu][6] **
+  *** [Sonuç][7] **
 
 ## Matomo nedir? {#Ne}
-[Matomo] [3] ücretsiz ve açık kaynaklı bir iş zekası yazılımıdır. Oldukça özelleştirilebilir ve kendi kendine barındırma yetenekleri ile birlikte gelir. Ayrıca Matomo, site sahiplerinin sınırsız kullanıcı ve web siteleri eklemelerine ve en üst düzeyde gizlilik, veri bütünlüğü ve kontrol sunmasına izin verir. Ziyaretçiler, konum ve demografi hakkında kapsamlı bilgiler gösteren sezgisel bir gösterge tablasına sahiptir. Bu Web Analytics yazılımı, veri gizliliği, özelleştirilebilir gösterge tablosu içeren ve kullanıcıların Google Analytics'ten veri içe aktarmasına olanak tanıyan birçok güçlü özellik sunar. Ayrıca, bu açık kaynak ** Web Analytics yazılımı ** GDPR ve CNIL ile uyumludur. Ayrıca, bu ücretsiz BI çözümü PHP ve JavaScript'te yazılmıştır. Ayrıca, kullanıcılar geliştirme ve dağıtım ile ilgili tüm belgeleri bulabilirler. Ayrıca, kullanıcılar kaynak kod dosyalarını [GitHub] [8] 'de bulabilirler.
+[Matomo][3] ücretsiz ve açık kaynaklı bir iş zekası yazılımıdır. Oldukça özelleştirilebilir ve kendi kendine barındırma yetenekleri ile birlikte gelir. Ayrıca Matomo, site sahiplerinin sınırsız kullanıcı ve web siteleri eklemelerine ve en üst düzeyde gizlilik, veri bütünlüğü ve kontrol sunmasına izin verir. Ziyaretçiler, konum ve demografi hakkında kapsamlı bilgiler gösteren sezgisel bir gösterge tablasına sahiptir. Bu Web Analytics yazılımı, veri gizliliği, özelleştirilebilir gösterge tablosu içeren ve kullanıcıların Google Analytics'ten veri içe aktarmasına olanak tanıyan birçok güçlü özellik sunar. Ayrıca, bu açık kaynak ** Web Analytics yazılımı ** GDPR ve CNIL ile uyumludur. Ayrıca, bu ücretsiz BI çözümü PHP ve JavaScript'te yazılmıştır. Ayrıca, kullanıcılar geliştirme ve dağıtım ile ilgili tüm belgeleri bulabilirler. Ayrıca, kullanıcılar kaynak kod dosyalarını [GitHub][8] 'de bulabilirler.
 
 ## WordPress {#install} için Matomo'nun kurulum adımları
-Bu bölümde, WordPress için Matomo'nun kurulum adımlarına bakacağız. Aslında, bu açık kaynak bloglama platformu, kullanıcı gereksinimlerini karşılamak için bir dizi güçlü özellik geliştiren çok canlı ve aktif bir geliştirici topluluğuna sahiptir. Böylece, ** Matomo eklentisini ** WordPress'in eklenti havuzuna girerek kolayca bulabilirsiniz. Bu nedenle, WordPress'i kurduysanız yeterince iyi. Aksi takdirde, WordPress'i yüklemek ve kurmak için bu [link] [1] 'de verilen talimatları izleyebilirsiniz. İlk olarak, WordPress kontrol panelinizi açın, eklentilere gidin ve “Yeni Ekle” düğmesine basın.
+Bu bölümde, WordPress için Matomo'nun kurulum adımlarına bakacağız. Aslında, bu açık kaynak bloglama platformu, kullanıcı gereksinimlerini karşılamak için bir dizi güçlü özellik geliştiren çok canlı ve aktif bir geliştirici topluluğuna sahiptir. Böylece, ** Matomo eklentisini ** WordPress'in eklenti havuzuna girerek kolayca bulabilirsiniz. Bu nedenle, WordPress'i kurduysanız yeterince iyi. Aksi takdirde, WordPress'i yüklemek ve kurmak için bu [link][1] 'de verilen talimatları izleyebilirsiniz. İlk olarak, WordPress kontrol panelinizi açın, eklentilere gidin ve “Yeni Ekle” düğmesine basın.
 Şimdi, arama çubuğuna gidin ve “Matomo” arayın ve aşağıdaki resimde gösterildiği gibi Matomo Analytics eklentisini bulacaksınız.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-00.02.00-1024x466.png" alt="WordPress için Matomo">}}
@@ -50,17 +50,19 @@ Tıpkı Google Analytics gibi, çeşitli kaynaklardan ve sosyal platformlardan g
 
 ## Sonuç {#Conclusion}
 Bu bizi bu ** WordPress öğreticisi ** blog yazısının sonuna getiriyor. Bu makalede, en çok kullanılan iki açık kaynaklı yazılım WordPress ve Matomo'dan geçtik. WordPress ** için ** Matomo'nun kurulum sürecini öğrendik ve özelliklere baktık. Bu açık ** Matomo eklentisi **, muazzam zamandan tasarruf eden filtrelerin yardımıyla verileri görsel olarak gösterir. Bu blog yazısı, işletme web siteniz için bir web analizi yazılımı yüklemek istiyorsanız size gerçekten yardımcı olacaktır. Daha fazla seçenek ve bağlantıları aşağıdaki Keşif bölümünde bulabilirsiniz.
-Son olarak, [Containerize.com] [9] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [[bloglama] [10]] [11] ve [iş zekası yazılımı] [12] kategorileri ile iletişime geçin.
+Son olarak, [Containerize.com][9] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [[bloglama][10]][11] ve [iş zekası yazılımı][12] kategorileri ile iletişime geçin.
 
 ## Keşfetmek
-  * [Matomo] [3]
-  * [Akla yatkın] [13]
-  * [WordPress] [1]
-  * [Jekyll] [14]
-  * [Ücretsiz iş analizi araçları işletmenize nasıl yardımcı olur] [15]
-  * [2021 En İyi 5 Açık Kaynak İş Zekası Araçları] [16]
-  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu] [17]
-  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın] [18]
+  * [Matomo][3]
+  * [Akla yatkın][13]
+  * [WordPress][1]
+  * [Jekyll][14]
+  * [Ücretsiz iş analizi araçları işletmenize nasıl yardımcı olur][15]
+  * [2021 En İyi 5 Açık Kaynak İş Zekası Araçları][16]
+  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu][17]
+  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın][18]
+
+  
 [1]: https://products.containerize.com/blogging/wordpress/
 [2]: https://analytics.google.com/analytics/web/
 [3]: https://products.containerize.com/business-intelligence/matomo

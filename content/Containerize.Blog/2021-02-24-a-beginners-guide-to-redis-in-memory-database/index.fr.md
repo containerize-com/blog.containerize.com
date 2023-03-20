@@ -14,12 +14,12 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/redis-in-memory-database.png" alt="Redis de base de données en mémoire">}}
 
 ** redis ** représente en fait «** re ** mote ** di ** ctionary ** s ** erver». Database Redis est une boutique avancée de valeur clé open source. Il prend en charge plusieurs types de données: chaînes, hachages, listes, ensembles et ensembles triés. C’est pourquoi il est souvent appelé serveur de structure de données. Redis est écrit en C. Ce tutoriel Redis fournit une bonne compréhension des concepts de base de données Redis en mémoire.
-  * ** [Qu'est-ce qu'une base de données NoSQL] [1] **
-  * ** [est redis une base de données nosql?] [2] **
-  * ** [Quand utiliser redis?] [3] **
-  * ** [redis vs d'autres magasins de valeurs clés] [4] **
-  * ** [Installer Redis sur Ubuntu] [5] **
-  * ** [Conclusion] [6] **
+  * ** [Qu'est-ce qu'une base de données NoSQL][1] **
+  * ** [est redis une base de données nosql?][2] **
+  * ** [Quand utiliser redis?][3] **
+  * ** [redis vs d'autres magasins de valeurs clés][4] **
+  * ** [Installer Redis sur Ubuntu][5] **
+  * ** [Conclusion][6] **
 
 ## Qu'est-ce qu'une base de données NoSQL {#NOSQL}
 Les bases de données NoSQL sont devenues très populaires. Les grandes entreprises comptent sur elles pour stocker des centaines de pétaoctets de données et exécuter des millions de requêtes par seconde. Mais qu'est-ce qu'une base de données NoSQL? Comment cela fonctionne-t-il, et pourquoi est-il à l'échelle tellement mieux que les bases de données relationnelles traditionnelles? Commençons par expliquer rapidement le problème avec les bases de données relationnelles comme MySQL, MARIADB, SQL Server.
@@ -69,6 +69,8 @@ PONG
 
 ## Conclusion {#conclusion}
 Dans ce didacticiel Redis, nous avons appris la base de données Redis en mémoire. Nous avons exploré la principale différence entre les bases de données relationnelles et non relationnelles (NOSQL). Aussi, appris quand nous devrions utiliser Redis et quels sont les meilleurs cas d'utilisation. Ce tutoriel fait partie d'une série en cours de tutoriels. Dans les prochains articles, nous explorerons davantage les cas d'utilisation spécifiques de Redis.
+
+  
 [1]: #nosql
 [2]: #isnosql
 [3]: #when

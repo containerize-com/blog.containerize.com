@@ -14,12 +14,12 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/redis-in-memory-database.png" alt="Base de datos en memoria redis">}}
 
 ** Redis ** En realidad significa "** Re ** MOTE ** DI ** Cionario ** S ** erver". La base de datos Redis es una tienda de valor de clave avanzada y de código abierto. Admite varios tipos de datos: cadenas, hashes, listas, conjuntos y conjuntos ordenados. Es por eso que a menudo se lo conoce como un servidor de estructura de datos. Redis está escrito en C. Este tutorial de Redis proporciona una buena comprensión de los conceptos de base de datos de Redis In Memory.
-  *** [¿Qué es una base de datos Nosql] [1] **
-  *** [¿Es Redis una base de datos Nosql?] [2] **
-  *** [¿Cuándo usar Redis?] [3] **
-  *** [Redis vs otras tiendas de valores clave] [4] **
-  *** [Instale redis en Ubuntu] [5] **
-  *** [Conclusión] [6] **
+  *** [¿Qué es una base de datos Nosql][1] **
+  *** [¿Es Redis una base de datos Nosql?][2] **
+  *** [¿Cuándo usar Redis?][3] **
+  *** [Redis vs otras tiendas de valores clave][4] **
+  *** [Instale redis en Ubuntu][5] **
+  *** [Conclusión][6] **
 
 ## ¿Qué es una base de datos NoSQL {#nosql}
 Las bases de datos NoSQL se han vuelto muy populares. Las grandes empresas confían en ellas para almacenar cientos de petabytes de datos y administrar millones de consultas por segundo. Pero, ¿qué es una base de datos NoSQL? ¿Cómo funciona y por qué escala mucho mejor que las bases de datos relacionales tradicionales? Comencemos explicando rápidamente el problema con bases de datos relacionales como MySQL, MariadB, SQL Server.
@@ -69,6 +69,8 @@ PONG
 
 ## conclusión {#conclusion}
 En este tutorial de Redis, aprendimos sobre la base de datos de Redis In Memory. Exploramos la principal diferencia entre bases de datos relacionales y no relacionales (nosql). Además, aprendí cuándo deberíamos usar Redis y cuáles son los mejores casos de uso. Este tutorial es parte de una serie en curso de tutoriales. En los próximos artículos, exploraremos más a fondo los casos de uso específicos de Redis.
+
+  
 [1]: #nosql
 [2]: #isnosql
 [3]: #when

@@ -13,15 +13,15 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/phplist-2.png" alt="Proses memantul Phplist">}}
 
-Kami telah menulis artikel untuk menerapkan [multi-tenancy] [1] dan [mengirim kampanye buletin] [2] di Phplist. Dalam artikel ini, kami akan membahas poin -poin ini secara rinci tentang bouncing proses di Phplist.
-  * [Apa itu PhPlist?] [3]
-  * [Apa itu Bounce?] [4]
-  * [Pengaturan Manajemen Bounce] [5]
-  * [Bagaimana memproses bouncing?] [6]
-  * [Kesimpulan] [7]
+Kami telah menulis artikel untuk menerapkan [multi-tenancy][1] dan [mengirim kampanye buletin][2] di Phplist. Dalam artikel ini, kami akan membahas poin -poin ini secara rinci tentang bouncing proses di Phplist.
+  * [Apa itu PhPlist?][3]
+  * [Apa itu Bounce?][4]
+  * [Pengaturan Manajemen Bounce][5]
+  * [Bagaimana memproses bouncing?][6]
+  * [Kesimpulan][7]
 
 ## Apa itu Phplist? {#phplist}
-PhPlist adalah perangkat lunak pengiriman buletin gratis dan open source yang paling populer. PhPlist memungkinkan bisnis untuk mengirim email pemasaran, pembaruan produk, dan pengumuman kepada pelanggan. Ini membantu bisnis untuk mengelola daftar, merancang buletin yang indah, kampanye jadwal, dan manajemen bouncing. [Baca lebih lanjut] [8]
+PhPlist adalah perangkat lunak pengiriman buletin gratis dan open source yang paling populer. PhPlist memungkinkan bisnis untuk mengirim email pemasaran, pembaruan produk, dan pengumuman kepada pelanggan. Ini membantu bisnis untuk mengelola daftar, merancang buletin yang indah, kampanye jadwal, dan manajemen bouncing. [Baca lebih lanjut][8]
 
 ## Apa itu Bounce? {#melambung}
 Bouncing adalah pesan email yang tidak dapat dikirimkan karena sejumlah alasan dan kembali ke pengirim. Kami mungkin memiliki alasan seperti kotak surat penuh, alamat email tidak lagi valid atau alamat email yang salah. Karena itu, Anda harus memproses bouncing sehingga Anda tidak mengirim email ke alamat email yang tidak valid.
@@ -39,10 +39,12 @@ Kami akan menjelaskan dalam langkah -langkah di bawah ini lebih lanjut tentang k
   *Selain pengaturan di atas untuk protokol ** POP3 **, Anda mungkin perlu menambahkan port dan enkripsi.
 
 ## Bagaimana cara memproses bouncing? {#proses}
-Phplist mendukung dua metode untuk bouncing proses: manual dan otomatis. Anda harus membuat pekerjaan cron untuk mengotomatiskan pemrosesan bouncing. Anda juga dapat memproses bouncing secara manual dengan mengunjungi ** sistem> proses bouncing **. Oleh karena itu, pertama -tama Anda perlu mengubah ** secara manual \ _process \ _bounces ** pengaturan sesuai dengan kebutuhan Anda. Anda dapat mengunjungi [PhPlist Docs] [9] untuk mengatur pekerjaan cron untuk proses memantul.
+Phplist mendukung dua metode untuk bouncing proses: manual dan otomatis. Anda harus membuat pekerjaan cron untuk mengotomatiskan pemrosesan bouncing. Anda juga dapat memproses bouncing secara manual dengan mengunjungi ** sistem> proses bouncing **. Oleh karena itu, pertama -tama Anda perlu mengubah ** secara manual \ _process \ _bounces ** pengaturan sesuai dengan kebutuhan Anda. Anda dapat mengunjungi [PhPlist Docs][9] untuk mengatur pekerjaan cron untuk proses memantul.
 
 ## kesimpulan {#conclusion}
 Dalam posting ini, kami telah belajar cara mengkonfigurasi alamat email bouncing dan memproses bouncing. Anda dapat dengan mudah memproses bouncing dengan metode manual, jika Anda memiliki jumlah pelanggan yang lebih sedikit. Namun, Anda harus menggunakan proses penanganan bouncing otomatis untuk daftar besar. Ini akan menghemat waktu Anda dan membantu Anda membuat daftar pelanggan yang bersih dan valid.
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
 [2]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
 [3]: #phplist

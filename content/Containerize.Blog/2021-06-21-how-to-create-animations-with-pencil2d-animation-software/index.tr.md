@@ -13,16 +13,16 @@ categories: ['Animation Software']
 
 
 ## ** PENEM2D, kullanıcıların 2D animasyonlar ve eskizler oluşturmasını sağlayan açık kaynaklı bir animasyon yazılımıdır. Bu makale Pencil2D ** ile nasıl animasyon oluşturulacağı ile ilgilidir.
-Animasyonlar ve çizimler oluşturmak için yeni yazılım öğrenmek söz konusu olduğunda, yeni yazılımlara hakim olmanıza ve animasyonları öğrenmenize yardımcı olabilecek bir grup öğretici ve kılavuz oluşturduk. İster yeni başlayan ister gelişmiş bir kullanıcı olun, [geçmiş yayınlarımız] [1] sizin için doğru animasyon uygulamasını bulmanıza yardımcı olabilir. Pencil2D animasyon yazılımı ile animasyonların nasıl oluşturulacağını öğrenmek için aşağıdaki konuları ele alalım.
-  * [Pencil2D nedir?] [2]
-  * [Pencil2D nasıl kurulur?] [3]
-  * [Uygulama arayüzüne genel bakış] [4]
-  * [Pencil2D ile Animasyonlar Nasıl Oluşturulur?] [5]
-  * [Sonuç] [6]
+Animasyonlar ve çizimler oluşturmak için yeni yazılım öğrenmek söz konusu olduğunda, yeni yazılımlara hakim olmanıza ve animasyonları öğrenmenize yardımcı olabilecek bir grup öğretici ve kılavuz oluşturduk. İster yeni başlayan ister gelişmiş bir kullanıcı olun, [geçmiş yayınlarımız][1] sizin için doğru animasyon uygulamasını bulmanıza yardımcı olabilir. Pencil2D animasyon yazılımı ile animasyonların nasıl oluşturulacağını öğrenmek için aşağıdaki konuları ele alalım.
+  * [Pencil2D nedir?][2]
+  * [Pencil2D nasıl kurulur?][3]
+  * [Uygulama arayüzüne genel bakış][4]
+  * [Pencil2D ile Animasyonlar Nasıl Oluşturulur?][5]
+  * [Sonuç][6]
 
 ## Pencil2D nedir? {#What-Is-Pencil2D}
-[PENEM2D] [7], kullanıcıların farklı projeler için 2D çizgi film ve animasyon eskizleri oluşturmalarını sağlayan geleneksel bir animasyon uygulamasıdır. GNU Genel Kamu Lisansı altında lisanslı açık kaynaklı bir animasyon yazılımı olduğu için Pencil2D'yi hem kişisel projeler hem de ticari çabalar için kullanabilirsiniz. Pencil2D kullanmak, yazıda daha fazla göreceğiniz gibi oldukça basittir. Hem yeni başlayan animatörler hem de profesyonel kullanıcılar tarafından da kullanılabilir.
-[Pencil2d] [7] ile animasyonlarınız bitmap veya vektör çizimlerinde saklanır ve animasyonların etkili yönetimi için bir raster/vektör iş akışı kullanır. Pencil2D kullanırken kabul edilebilir dosya biçimlerinden bazıları PNG, JPEG, BMP, TIFF vb. Görüntüler için ve videolar için AVI, MP4, GIF ve daha fazlasıdır. Windows, Mac OS, Linux ve FreeBSD ile de uyumludur.
+[PENEM2D][7], kullanıcıların farklı projeler için 2D çizgi film ve animasyon eskizleri oluşturmalarını sağlayan geleneksel bir animasyon uygulamasıdır. GNU Genel Kamu Lisansı altında lisanslı açık kaynaklı bir animasyon yazılımı olduğu için Pencil2D'yi hem kişisel projeler hem de ticari çabalar için kullanabilirsiniz. Pencil2D kullanmak, yazıda daha fazla göreceğiniz gibi oldukça basittir. Hem yeni başlayan animatörler hem de profesyonel kullanıcılar tarafından da kullanılabilir.
+[Pencil2d][7] ile animasyonlarınız bitmap veya vektör çizimlerinde saklanır ve animasyonların etkili yönetimi için bir raster/vektör iş akışı kullanır. Pencil2D kullanırken kabul edilebilir dosya biçimlerinden bazıları PNG, JPEG, BMP, TIFF vb. Görüntüler için ve videolar için AVI, MP4, GIF ve daha fazlasıdır. Windows, Mac OS, Linux ve FreeBSD ile de uyumludur.
 
 ## Pencil2D nasıl kurulur? {#yükleme-p-poncen2d}
 Terminali açın ve aşağıdaki komutu yazarak yerel sunucunuzun paket dizinini güncelleyin:
@@ -80,13 +80,15 @@ Bu araçları ustalaşıp anladıktan sonra, animasyon ve eskizler oluşturmaya 
 
 ## Sonuç {#Conclusion}
 Yukarıdaki öğreticiden de görebileceğiniz gibi, Pencil2D ile animasyonlar oluşturmak anlaşılması ve yürütülmesi oldukça kolaydır. Animasyon yazılımı, yeni başlayanlar dostu olacak şekilde ve profesyoneller tarafından da benimsenmede hızlı bir şekilde oluşturulmuştur. 2D eskiz veya animasyon oluşturma söz konusu olduğunda Pencil2D'de birçok seçenek vardır ve herhangi bir illüstratör gerçekten uygulama ile güçlü bir portföy oluşturabilir.
-[Pencil2D] [7] daha önce bahsettiğimiz gibi birçok işletim sistemi ile uyumludur, böylece seçtiğiniz ortamdaki animasyon yazılımını takabilir ve oynayabilirsiniz. Pencil2D ile ilgili daha fazla öğretici arıyorsanız, sadece web sitelerine göz atabilirsiniz. Ayrıca web sitemizde bulabileceğiniz diğer animasyon yazılım programlarını kullanmak için birçok öğretici ve rehber oluşturduk, bu yüzden daha fazla netlik için kontrol edin.
+[Pencil2D][7] daha önce bahsettiğimiz gibi birçok işletim sistemi ile uyumludur, böylece seçtiğiniz ortamdaki animasyon yazılımını takabilir ve oynayabilirsiniz. Pencil2D ile ilgili daha fazla öğretici arıyorsanız, sadece web sitelerine göz atabilirsiniz. Ayrıca web sitemizde bulabileceğiniz diğer animasyon yazılım programlarını kullanmak için birçok öğretici ve rehber oluşturduk, bu yüzden daha fazla netlik için kontrol edin.
 
 ## Keşfetmek
 İlgili aşağıdaki bağlantıları bulabilirsiniz:
-  * [PENEM2D | Çapraz Platform ve Açık Kaynak Ücretsiz 2D Animasyon Yazılımı] [7]
-  * [Digikam kullanarak ücretsiz görüntü düzenlemeye başlamak için yeni başlayan kılavuz] [8]
-  * [En İyi Açık Kaynak Animasyon Yazılımı] [9]
+  * [PENEM2D | Çapraz Platform ve Açık Kaynak Ücretsiz 2D Animasyon Yazılımı][7]
+  * [Digikam kullanarak ücretsiz görüntü düzenlemeye başlamak için yeni başlayan kılavuz][8]
+  * [En İyi Açık Kaynak Animasyon Yazılımı][9]
+
+  
 [1]: https://blog.containerize.com/
 [2]: #what-is-pencil2d
 [3]: #install-pencil2d

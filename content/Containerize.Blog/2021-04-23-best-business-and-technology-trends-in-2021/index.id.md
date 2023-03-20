@@ -47,17 +47,19 @@ Artificial Intelligence (AI) telah meningkatkan operasi untuk banyak perusahaan 
 ## kesimpulan: {#conclusion}
 Tren bisnis dan teknologi terkemuka mungkin baru saja dimulai dan Anda akan melihat perubahan besar pada tahun 2021. Pandemi COVID-19 telah secara permanen mengubah lintasan bisnis kami dan bagaimana kami berpikir tentang keamanan di tempat kerja. Teknologi baru ini dapat memengaruhi Anda untuk lebih baik dan banyak perilaku baru kami akan menjadi bagian dari normal baru pada tahun 2021 pandemi Covid-19 untuk membantu mendorong AI utama dan teknologi pembelajaran mesin dan inovasi bisnis. Pada tahun 2021 Pandemi, sangat penting bahwa bisnis terus berinvestasi dalam teknologi TI tren teratas.
 Tim Containerize kami membantu bisnis memanfaatkan tren teknologi yang muncul untuk memicu pertumbuhan mereka. Tim Produk Kontainerisasi kami memiliki pengalaman menangani proyek -proyek yang mudah untuk kompleks dan jika Anda memiliki tantangan teknologi dan membutuhkan dukungan di ujung jalan, jangan ragu untuk menghubungi kami.
-_Your dapat bergabung dengan kami di [Twitter] [1], [LinkedIn] [2] dan halaman [Facebook] [3] kami. Tren bisnis dan teknologi apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi Anda] [4].
+_Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Facebook][3] kami. Tren bisnis dan teknologi apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi Anda][4].
 
 ## Mengeksplorasi
 Anda mungkin menemukan lebih banyak terkait artikel di bawah ini:
-  * [Tren Pengembangan Perangkat Lunak yang Harus Dicari Pada 2021] [5]
-  * [5 alat pemasaran digital terbaik untuk membantu Anda tumbuh di tahun 2021] [6]
-  * [Praktik Pemasaran Digital Penting untuk Startup pada 2021] [7]
-  * [Top 5 Open Source Marketplace Software pada tahun 2021] [8]
-  * [Top 5 Perangkat Lunak Penyimpanan Cloud Open Source di 2021] [9]
-  * [Perangkat Lunak Antrian Pesan Paling Populer (MQ) pada tahun 2021] [10]
-  * [Top 5 Open Source Digital Forensik Alat di 2021] [11]
+  * [Tren Pengembangan Perangkat Lunak yang Harus Dicari Pada 2021][5]
+  * [5 alat pemasaran digital terbaik untuk membantu Anda tumbuh di tahun 2021][6]
+  * [Praktik Pemasaran Digital Penting untuk Startup pada 2021][7]
+  * [Top 5 Open Source Marketplace Software pada tahun 2021][8]
+  * [Top 5 Perangkat Lunak Penyimpanan Cloud Open Source di 2021][9]
+  * [Perangkat Lunak Antrian Pesan Paling Populer (MQ) pada tahun 2021][10]
+  * [Top 5 Open Source Digital Forensik Alat di 2021][11]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

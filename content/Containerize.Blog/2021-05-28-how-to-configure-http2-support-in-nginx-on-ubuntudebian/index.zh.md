@@ -71,7 +71,7 @@ nginx：配置文件/ETC/NGINX/NGINX.CONF语法是可以的
 nginx：configuration file /etc/nginx/nginx.conf测试成功
 
 ## 步骤4：添加SSL证书{#37C0}
-下一步是启用NGINX HTTPS配置使用您的SSL证书。您可以生成自签名证书或[从Let's Encrypt中安装免费证书] [1]。如果您没有SSL证书，请遵循本教程。在NGINX配置目录中添加您的SSL证书类似：
+下一步是启用NGINX HTTPS配置使用您的SSL证书。您可以生成自签名证书或[从Let's Encrypt中安装免费证书][1]。如果您没有SSL证书，请遵循本教程。在NGINX配置目录中添加您的SSL证书类似：
 ```
 sudo mkdir /etc/nginx/ssl
 ```
@@ -108,15 +108,17 @@ sudo systemctl状态nginx
 
 ## **结论：** {#4a1a}
 恭喜，您已经成功地学习了如何在Ubuntu Server上设置Nginx Config Http2支持。您的NGINX HTTP2设置现在为HTTP/2页提供，并且还清除了HTTP/1和HTTP/2协议之间的差异。如果您仍然遇到任何配置问题，请在评论部分中告诉我们。
-您对HTTP2多路复用协议有任何疑问吗？_，请_ [获得联系] [2]。
+您对HTTP2多路复用协议有任何疑问吗？_，请_ [获得联系][2]。
 
 ## 探索
 您也可能喜欢以下文章：
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [3]
-  * [如何] [3] [在Ubuntu上使用Nginx安装并固定PhpMyAdmin] [4]
-  * [如何在AWS生产服务器上使用乘客设置NGINX] [5]
-  * [安全和加密nginx与让我们在Ubuntu上加密20.04] [1]
-  * [如何在Ubuntu上使用Apache安装和配置OllCloud] [6]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][3]
+  * [如何][3][在Ubuntu上使用Nginx安装并固定PhpMyAdmin][4]
+  * [如何在AWS生产服务器上使用乘客设置NGINX][5]
+  * [安全和加密nginx与让我们在Ubuntu上加密20.04][1]
+  * [如何在Ubuntu上使用Apache安装和配置OllCloud][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

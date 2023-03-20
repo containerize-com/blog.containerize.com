@@ -47,14 +47,16 @@ ISC açık kaynak lisansı, MIT lisansına işlevsel eşdeğerdir. Tek fark lisa
 
 ## Sonuç: {#4A1A}
 Eğer bu kadar ileri gittiyseniz, açık kaynaklı yazılım telif hakkının kalbin zayıflığı için olmadığını biliyorsunuz. Bununla birlikte, neredeyse tüm yazılım geliştiricilerinin en kısıtlayıcı açık kaynak lisansına ve en iyi lisans şirketlerine büyük ölçüde güvendiği gerçeği göz önüne alındığında. En yaygın açık kaynak lisanslarının temellerini ve orada popüler açık kaynak lisansları arasındaki temel farkları anlamak çok önemlidir. Sadece tescilli yazılım lisansı ve açık kaynaklı yazılım lisansı örneğinin bu açıklamasının potansiyel lisans mayın tarlasını biraz daha gezgin hale getirdiğini umuyoruz.
-_ [Twitter] [1], [LinkedIn] [2] ve [Facebook] [3] sayfamızda bize katılabilirsiniz. Hangi açık kaynak lisanslarını tercih edersiniz? Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin] [4].
+_ [Twitter][1], [LinkedIn][2] ve [Facebook][3] sayfamızda bize katılabilirsiniz. Hangi açık kaynak lisanslarını tercih edersiniz? Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin][4].
 
 ## Keşfetmek:
 Ayrıca ilgilendiğiniz birkaç makalemiz de var.
-  *** [DevOps 2021 için Top 5 Açık Kaynak Konteyner Orkestrasyon Araçları] [5] **
-  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı] [6] **
-  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [7] **
-  *** [En popüler açık kaynaklı dijital adli araçlar] [8] **
+  *** [DevOps 2021 için Top 5 Açık Kaynak Konteyner Orkestrasyon Araçları][5] **
+  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı][6] **
+  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][7] **
+  *** [En popüler açık kaynaklı dijital adli araçlar][8] **
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

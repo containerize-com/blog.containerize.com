@@ -148,15 +148,17 @@ PYDIO私有云文件共享和业务文件共享软件现已安装和配置，现
 
 ## **结论：** {#4a1a}
 在本教程中，您已成功地在Ubuntu系统上成功安装了Pydio单元格开源文件共享。您可以使用本文来创建用于存储，保护和共享文件中的云基础架构中的云基础架构。使用PYDIO协作文档共享和最佳免费文件共享应用程序，以获得更多的数据控制，并确保在业务组织中有效协作。在即将到来的教程中，我们将讨论开源云存储解决方案和文件共享协作工具的更多有趣主题。
-_您可以加入我们的[Twitter] [1]，[LinkedIn] [2]和我们的[Facebook] [3]页面。您在线使用哪种基于云的_开源_File共享平台？如果您有任何疑问，请_ [联系] [4]。
+_您可以加入我们的[Twitter][1]，[LinkedIn][2]和我们的[Facebook][3]页面。您在线使用哪种基于云的_开源_File共享平台？如果您有任何疑问，请_ [联系][4]。
 
 ## 探索：
 我们还有其他几篇与您的服务器日常管理有关的文章。
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [5]
-  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin] [6]
-  * [安全和加密nginx与让我们在Ubuntu上加密20.04] [7]
-  * [在Ubuntu/debian上配置http/2支持nginx] [8]
-  * [在AWS生产服务器上设置带有乘客的设置NGINX] [9]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][5]
+  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin][6]
+  * [安全和加密nginx与让我们在Ubuntu上加密20.04][7]
+  * [在Ubuntu/debian上配置http/2支持nginx][8]
+  * [在AWS生产服务器上设置带有乘客的设置NGINX][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

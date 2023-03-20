@@ -15,19 +15,19 @@ categories: ['Game Development Software']
 
 
 ## **Überblick**
-In der nahen Vergangenheit haben wir viele Blog -Beiträge zu Open -Source -Software für kostenlose Spieleentwicklung wie [Top 5 Free Game Development Software im Jahr 2021] [1] [1] [mit der Spieleentwicklung mit Supermächten] [2], [Spiel) veröffentlicht, [Spiel Entwicklungs -Tutorial | Spielerbewegung in GDevelop] [3], [HTML5 -Spielentwicklungs -Tutorial für Videospielprogrammierer] [4], [wie die globale Spielebranche Open -Source -Software nutzt] [5] und [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten] [6 ]. Die jüngsten Fortschritte im Zeitalter des Internets haben neue Trends in der Videospielbranche gebracht. Eine Open -Source -Game -Building -Plattform bietet ein komplettes Ökosystem, um Spiele unabhängig voneinander zu entwickeln, und die Entwickler sind dann diese Plattform nach Bedarf ausgereift. In diesem Blog -Beitrag lernen wir mit [GDevelop] [7], wie man ein Spiel auf Kratzer macht, indem wir die folgenden Punkte abdecken.
-  *** [Warum sollten wir GDevelop verwenden?] [8] **
-  *** [Einrichten des Projekts] [9] **
-  *** [Wie kann man Hintergrund und Objekt vorbereiten?] [10] **
-  *** [Hinzufügen von Behviors zum Objekt] [11] **
-  *** [Laufen das Spiel] [12] **
-  *** [Schlussfolgerung] [13] **
+In der nahen Vergangenheit haben wir viele Blog -Beiträge zu Open -Source -Software für kostenlose Spieleentwicklung wie [Top 5 Free Game Development Software im Jahr 2021][1][1][mit der Spieleentwicklung mit Supermächten][2], [Spiel) veröffentlicht, [Spiel Entwicklungs -Tutorial | Spielerbewegung in GDevelop][3], [HTML5 -Spielentwicklungs -Tutorial für Videospielprogrammierer][4], [wie die globale Spielebranche Open -Source -Software nutzt][5] und [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten][6 ]. Die jüngsten Fortschritte im Zeitalter des Internets haben neue Trends in der Videospielbranche gebracht. Eine Open -Source -Game -Building -Plattform bietet ein komplettes Ökosystem, um Spiele unabhängig voneinander zu entwickeln, und die Entwickler sind dann diese Plattform nach Bedarf ausgereift. In diesem Blog -Beitrag lernen wir mit [GDevelop][7], wie man ein Spiel auf Kratzer macht, indem wir die folgenden Punkte abdecken.
+  *** [Warum sollten wir GDevelop verwenden?][8] **
+  *** [Einrichten des Projekts][9] **
+  *** [Wie kann man Hintergrund und Objekt vorbereiten?][10] **
+  *** [Hinzufügen von Behviors zum Objekt][11] **
+  *** [Laufen das Spiel][12] **
+  *** [Schlussfolgerung][13] **
 
 ## Warum sollten wir GDevelop verwenden? {#Warum}
-[GDevelop] [7] ist eine Open -Source -Gaming -Software. Es kommt mit Selbsthostfunktionen und ist in der Natur plattformübergreifend. Sie können es herunterladen und installieren oder die Online -Version verwenden, um damit zu spielen. Benutzer müssen kein Programmierkenntnis erhalten, um diesen Spielbauer zu nutzen. Vor allem bietet es eine Drag & Drop-Benutzeroberfläche, die vorgefertigtes Spielverhalten, Vorlagen und Objekte entsteht. Diese kostenlose Spieleentwicklungssoftware ist sehr konfigurierbar und bietet Integrationen mit Bibliotheken von Drittanbietern. Für weitere Informationen zu diesem kostenlosen Tool können Sie diesen Link überprüfen, um weitere Informationen zu seinen Funktionen und den Einrichtungsprozess zu erhalten.
+[GDevelop][7] ist eine Open -Source -Gaming -Software. Es kommt mit Selbsthostfunktionen und ist in der Natur plattformübergreifend. Sie können es herunterladen und installieren oder die Online -Version verwenden, um damit zu spielen. Benutzer müssen kein Programmierkenntnis erhalten, um diesen Spielbauer zu nutzen. Vor allem bietet es eine Drag & Drop-Benutzeroberfläche, die vorgefertigtes Spielverhalten, Vorlagen und Objekte entsteht. Diese kostenlose Spieleentwicklungssoftware ist sehr konfigurierbar und bietet Integrationen mit Bibliotheken von Drittanbietern. Für weitere Informationen zu diesem kostenlosen Tool können Sie diesen Link überprüfen, um weitere Informationen zu seinen Funktionen und den Einrichtungsprozess zu erhalten.
 
 ## Einrichten des Projekts {#Setting}
-In diesem Abschnitt werden wir unser Projekt zum Aufbau eines Lkw -Rennspiels mit einigen grundlegenden Funktionen erstellen. Folgen Sie diesem [Link] [6] Wenn Sie auf Ihrem lokalen Computer einrichten möchten oder die Online -Version verwenden können, indem Sie diesen [Link] [14] erhalten.
+In diesem Abschnitt werden wir unser Projekt zum Aufbau eines Lkw -Rennspiels mit einigen grundlegenden Funktionen erstellen. Folgen Sie diesem [Link][6] Wenn Sie auf Ihrem lokalen Computer einrichten möchten oder die Online -Version verwenden können, indem Sie diesen [Link][14] erhalten.
 Sie finden also den folgenden Bildschirm, sobald Sie auf "Ein neues Projekt erstellen" klicken und dann auf "Leeres Spiel" klicken.
 
 {{< figure align=center src="images/Screenshot-2021-08-24-at-23.20.28-1024x578.png" alt="Wie man ein Spiel bei Kratzer macht">}}
@@ -77,21 +77,23 @@ Sobald alle Schritte abgeschlossen sind. Es ist Zeit, das Spiel auszuführen, in
 
 ## Schlussfolgerung {#Conclusion}
 Dies ist das Ende dieses Blog -Beitrags, und Sie haben sicherlich erfahren, wie man ein Spiel auf Grundstücken macht. Es gibt jedoch viele kostenlose ** Spieledesign -Software ** auf dem Markt, da diese Branche an Popularität und Nachfrage gewinnt. Es gibt mehrere Gründe dafür, wie Open-Source-Software skalierbar, konfigurierbar, kostengünstig und leicht zu warten. Darüber hinaus nimmt die Nachfrage nach plattformübergreifenden Spielbauern zu, da Entwickler es angenehm finden, ein Spiel zu erstellen, das auf allen beliebten Plattformen wie Android, iOS, Web und Desktop ausgeführt wird. Andererseits hat das Aufkommen der Pandemie das Leben der Menschen verändert und sie bevorzugen es jetzt, drinnen zu bleiben. Daher spielen die Leute in ihrer Freizeit Videospiele.
-Schließlich ist [Containerize.com] [15] bereit, seine Tutorial -Basis mit einigen interessanteren Tutorials für Spielentwicklungen ** zu verbessern. Bitte bleiben Sie für regelmäßige Updates mit dieser Kategorie [16] -Kategorie in Verbindung.
+Schließlich ist [Containerize.com][15] bereit, seine Tutorial -Basis mit einigen interessanteren Tutorials für Spielentwicklungen ** zu verbessern. Bitte bleiben Sie für regelmäßige Updates mit dieser Kategorie [16] -Kategorie in Verbindung.
 
 ## Erkunden
-  *** [gDevelop] [7] **
-  *** [Godot] [17] **
-  *** [Supermächte] [18] **
-  *** [Cocos Creator] [19] **
-  *** [panda3d] [20] **
-  *** [Playcanvas] [21] **
-  *** [Erste Schritte mit Spielentwicklung mit Supermächten] [2] **
-  *** [Tutorial für Spielentwicklung | Spielerbewegung in GDevelop] [3] **
-  *** [HTML5 Game Development Tutorial für Videospielprogrammierer] [4] **
-  *** [Wie global Gaming -Branche Open -Source -Software nutzt] [5] **
-  *** [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten] [6] **
-  *[** Top 5 Free Game Development Software im Jahr 2021 **] [1]
+  *** [gDevelop][7] **
+  *** [Godot][17] **
+  *** [Supermächte][18] **
+  *** [Cocos Creator][19] **
+  *** [panda3d][20] **
+  *** [Playcanvas][21] **
+  *** [Erste Schritte mit Spielentwicklung mit Supermächten][2] **
+  *** [Tutorial für Spielentwicklung | Spielerbewegung in GDevelop][3] **
+  *** [HTML5 Game Development Tutorial für Videospielprogrammierer][4] **
+  *** [Wie global Gaming -Branche Open -Source -Software nutzt][5] **
+  *** [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten][6] **
+  *[** Top 5 Free Game Development Software im Jahr 2021 **][1]
+
+  
 [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
 [2]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
 [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/

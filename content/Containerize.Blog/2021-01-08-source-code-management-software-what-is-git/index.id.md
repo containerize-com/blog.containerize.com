@@ -17,15 +17,15 @@ categories: ['Version Control Software']
 ## Ringkasan
 Bayangkan Anda sebagai pengembang perangkat lunak yang mengerjakan suatu proyek. Anda memiliki lebih dari satu orang yang mengerjakannya. Dan, ada satu file yang berisi kode sumber. Karena mereka semua membuat perubahan pada kode, mereka akan memiliki versi file yang berbeda setiap kali mereka melakukan perubahan. Jadi, sekarang bagaimana kita mengelola versi yang berbeda dari file yang sama? Di situlah perangkat lunak manajemen kode sumber masuk. Ini membantu Anda mengelola dan menggabungkan versi yang berbeda dari file yang sama. Dan bahkan membiarkan Anda melacak kembali sejarah perubahan. Dan Anda selalu dapat yakin siapa yang membuat perubahan pada file dan apa saja perubahan itu.
 Dalam artikel ini, kita akan belajar tentang sistem kontrol versi git. Bagaimana Anda dapat menggunakannya untuk mengelola file kode sumber pengembangan perangkat lunak Anda atau file lainnya. Jadi mari kita mulai.
-  *** [Apa itu Sistem Kontrol Versi] [1] **
-  *** [apa itu git] [2] **
-  *** [Bagaimana cara kerja git] [3] **
-  *** [instal git] [4] **
-  *** [Menyiapkan repositori] [5] **
-  *** [simpan perubahan ke repositori] [6] **
-  *** [periksa status repositori] [7] **
-  *** [Kembalikan atau Ubah Perubahan] [8] **
-  *** [Kesimpulan] [9] **
+  *** [Apa itu Sistem Kontrol Versi][1] **
+  *** [apa itu git][2] **
+  *** [Bagaimana cara kerja git][3] **
+  *** [instal git][4] **
+  *** [Menyiapkan repositori][5] **
+  *** [simpan perubahan ke repositori][6] **
+  *** [periksa status repositori][7] **
+  *** [Kembalikan atau Ubah Perubahan][8] **
+  *** [Kesimpulan][9] **
 
 ## Apa itu Sistem Kontrol Versi {#Versi-Control}
 Kontrol Versi adalah sistem yang mencatat perubahan pada file atau set file dari waktu ke waktu sehingga Anda dapat mengingat versi tertentu nanti. Jika Anda adalah pengembang perangkat lunak dan ingin menyimpan versi file kode sumber, perangkat lunak manajemen kode sumber adalah hal yang sangat berguna bagi Anda. Ini memungkinkan Anda untuk mengembalikan file yang dipilih kembali ke keadaan sebelumnya, mengembalikan seluruh proyek kembali ke keadaan sebelumnya, membandingkan perubahan dari waktu ke waktu, lihat siapa yang terakhir memodifikasi sesuatu yang mungkin menyebabkan masalah, siapa yang memperkenalkan masalah dan kapan, dan banyak lagi. Menggunakan kontrol versi berarti Anda tidak perlu khawatir kehilangan pekerjaan Anda.
@@ -147,10 +147,12 @@ Sekarang setelah Anda membaca seluruh artikel di mana kami membahas apa itu git 
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Otomatis alur kerja pengembangan perangkat lunak dengan tindakan github **] [10]
-  *** [Cara Mengatur Pipa Penempatan Berkelanjutan dengan Gitlab CI/CD] [11] **
-  *** [Memahami dan mempelajari cabang dan tarik permintaan di git] [12] **
-  *** [Top 5 Sistem Kontrol Versi Sumber Terbuka di 2021] [13] **
+  *[** Otomatis alur kerja pengembangan perangkat lunak dengan tindakan github **][10]
+  *** [Cara Mengatur Pipa Penempatan Berkelanjutan dengan Gitlab CI/CD][11] **
+  *** [Memahami dan mempelajari cabang dan tarik permintaan di git][12] **
+  *** [Top 5 Sistem Kontrol Versi Sumber Terbuka di 2021][13] **
+
+  
 [1]: #version-control
 [2]: #git
 [3]: #how

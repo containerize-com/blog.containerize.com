@@ -23,7 +23,7 @@ Offensichtlich bieten Ihnen sowohl Drupal als WordPress Content Management-Syste
   * **Abschluss**
 
 ## ** 1. Was ist Drupal? **
-[** Drupal **] [1] ist eines der vielseitigsten kostenlosen und open-Source-Web-Content-Management-Systeme, das ursprünglich im Jahr 2000 eingeführt wurde. Es wird in PHP-Sprache geschrieben und unter der GNU General Public Lizenz verteilt. Drupal ist ein flexibles CMS, das auf dem Lampenstapel basiert.
+[** Drupal **][1] ist eines der vielseitigsten kostenlosen und open-Source-Web-Content-Management-Systeme, das ursprünglich im Jahr 2000 eingeführt wurde. Es wird in PHP-Sprache geschrieben und unter der GNU General Public Lizenz verteilt. Drupal ist ein flexibles CMS, das auf dem Lampenstapel basiert.
 Drupal hilft bei der Bereitstellung eines Open-Source-Back-End-Rahmens für mindestens 14% der 10.000 weltweit besten Websites. Es reicht von persönlichen Weblogs über Unternehmen, politische, Regierung bis hin zu großen gemeindenahen Websites und mit einer großen, unterstützenden Gemeinschaft.
 ** Wie viele Websites verwenden ** Drupal **? Dies sind 1,3% aller Websites.
 ** Was sind beliebte Websites mit Drupal ?: **
@@ -38,7 +38,7 @@ Drupal hilft bei der Bereitstellung eines Open-Source-Back-End-Rahmens für mind
   * NCAA
   * Tesla
   * Keap
-** Was sind Drupal -Vorteile? ** [] [2]
+** Was sind Drupal -Vorteile? ** [][2]
   *** Zugriffskontrollen **-Drupal Open-Source Content Management System (CMS) verfügt über ein integriert .
   *** Erweiterbarkeit ** - Drupal benutzerdefinierte Inhaltstypen und -ansichten sind flexibler als WordPress -benutzerdefinierte Post -Typen.
   *** Taxonomien ** - Das Drupal -Taxonomie -System ist flexibler als WordPress, was es ideal für die Behandlung vieler Inhaltsdaten macht.
@@ -48,7 +48,7 @@ Drupal hilft bei der Bereitstellung eines Open-Source-Back-End-Rahmens für mind
 ** Wie viele Themen gibt es auf Drupal? ** Ab Januar 2022 bietet Drupal.org in seinem offiziellen Verzeichnis 2.988 Themen an. Drupal 9 ist mit mehr als siebzig Kernmodulen und neun Themen ausgestattet.
 
 ## 2. Was ist WordPress?
-[** WordPress **] [3] ist das beliebteste kostenlose und Open -Source -Content -Management -System der Welt. Es wurde ursprünglich im Jahr 2003 als Blogging -Plattform gestartet. Zu seinen Funktionen gehören eine Plugin -Architektur und ein Vorlagensystem namens Themes. WordPress ist die beliebteste Blogging -Software auf dem Markt, die in PHP als Scripting -Sprache geschrieben ist und die MySQL- oder MariADB -Datenbank verwendet.
+[** WordPress **][3] ist das beliebteste kostenlose und Open -Source -Content -Management -System der Welt. Es wurde ursprünglich im Jahr 2003 als Blogging -Plattform gestartet. Zu seinen Funktionen gehören eine Plugin -Architektur und ein Vorlagensystem namens Themes. WordPress ist die beliebteste Blogging -Software auf dem Markt, die in PHP als Scripting -Sprache geschrieben ist und die MySQL- oder MariADB -Datenbank verwendet.
 ** Wie viele Websites verwenden WordPress? Eine andere Möglichkeit, WordPress macht über ein Drittel des Internets und verfügt über einen Anteil von 65% für Content Management Systems (CMS).
 ** Was sind beliebte Websites mit WordPress?: **
 Hier ist die Liste der Top-Websites und namhaften Marken mit WordPress.
@@ -62,14 +62,14 @@ Hier ist die Liste der Top-Websites und namhaften Marken mit WordPress.
   * Mercedes-Benz.com
   * Newyorker.com
   * Godaddy.com
-** Was sind WordPress -Vorteile? ** [] [4]
+** Was sind WordPress -Vorteile? ** [][4]
 Hier sind die wichtigsten Gründe, warum WordPress so beliebt ist und warum Sie möglicherweise in Betracht ziehen möchten, auf eine WordPress -Plattform für Ihre Business -Website zu wechseln. WordPress -Vorteile sind:
   *** Benutzerfreundlichkeit **-WordPress ist sehr einfach zu bedienen, benutzerfreundlicher und verfügt über eine intuitive Oberfläche. Erstellen Sie regelmäßig neue Seiten, Blog-Artikel, Bilder usw. sind so einfach und können schnell durchgeführt werden, insbesondere für Nichtentwickler.
   *** Erweiterbarkeit ** - WordPress ermöglicht es, WordPress zu erweitern, ohne dass eine benutzerdefinierte Entwicklung erforderlich ist. Fügen Sie einen Veranstaltungskalender, eine Videogalerie, einen Twitter-Feed, einen Facebook-Box und mehr mit einem Drittanbieter-Thema und Plugins hinzu.
   *** Skalierbarkeit ** - WordPress -Websites sind sehr skalierbar, wenn Ihr Unternehmen wächst. Als Administrator fügen Sie Hunderte von Seiten oder Blog -Posts auf Ihrer Website hinzu und die Leistung Ihrer Website wird nicht beeinträchtigt.
   *** Keine HTML-Bearbeitung **-WordPress ist eine in sich geschlossene Plattform, und es erfordert keine HTML-Bearbeitungssoftware. Jeder kann eine neue Seite oder einen neuen Blog -Beitrag erstellen, Text formatieren, Bilder, Videodateien usw. hochladen, ohne dass zusätzliche HTML- oder FTP -Software erforderlich ist.
   *** niedrigere Entwicklungskosten ** - WordPress bietet mehr Design- und Layout -Lösungen und seine Entwickler sind in der Regel für kleine Unternehmen erschwinglicher als Drupal -Entwickler.
-  *** Support ** - WordPress Global Community hilft und bietet Unterstützung für alle Probleme oder Anzeigen -Support -Dokumentationen, um Antworten zu erhalten. [] [5]
+  *** Support ** - WordPress Global Community hilft und bietet Unterstützung für alle Probleme oder Anzeigen -Support -Dokumentationen, um Antworten zu erhalten. [][5]
 ** Wie viele Plugins hat WordPress? ** Ab Dezember 2021 hat WordPress.org 59.756 Plugins zur Verfügung. Jedes davon bietet benutzerdefinierte Funktionen und Funktionen, mit denen Benutzer ihre Websites auf ihre spezifischen Anforderungen anpassen können.
 ** Wie viele Themen gibt es auf WordPress? ** Es gibt 9.159 kostenlose Themen sowie Tausende von Premium -Themen. Tools wie der Wysiwyg -Themen -Customizer und der Gutenberg -Editor machen es für Gelegenheitsbenutzer einfacher, eindeutige Inhalte zu erstellen.
 
@@ -85,11 +85,13 @@ _What Open Source Content Management Platform_ Haben Sie bevorzugen Sie_? Haben 
 
 ## Erkunden:
 Wir haben mehrere andere verwandte Artikel für IT -Administratoren:
-  *** [Top 5 Open Source Container Orchestration Tools für DevOps 2021] [7] **
-  *** [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software] [8] **
-  *** [Top 5 Open Source Message Queue (MQ) Software in 2021] [9] **
-  *** [beliebteste Open Source Digital Forensic Tools] [10] **
-  *** [beliebteste Open-Source-Lizenzen] [11] **
+  *** [Top 5 Open Source Container Orchestration Tools für DevOps 2021][7] **
+  *** [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][8] **
+  *** [Top 5 Open Source Message Queue (MQ) Software in 2021][9] **
+  *** [beliebteste Open Source Digital Forensic Tools][10] **
+  *** [beliebteste Open-Source-Lizenzen][11] **
+
+  
 [1]: https://www.drupal.org/
 [2]: https://kinsta.com/blog/wordpress-vs-drupal/#drupal-advantages
 [3]: https://wordpress.org/

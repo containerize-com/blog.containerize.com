@@ -12,11 +12,11 @@ categories: ['Blogging']
 {{< figure align=center src="images/Beginners-Guide-To-Create-WordPress-Theme-From-Scratch-1024x536.png" alt="WordPressテーマをゼロから作成するための初心者ガイド">}}
 
 WordPressテーマを作成する方法は、Google検索のトップクエリの1つです。基本的なHTML、CSS、およびJavaScriptを知っている場合、WordPressテーマを作成することは簡単です。ただし、WordPressを初めて使用する場合は、このチュートリアルが最適です。あなたがしなければならないのは、言及された手順に従うことだけです。それでは、このガイドを読んで、WordPressテーマをゼロから作成する方法を学びましょう。
-  * [要件] [1]
-  * [ステップバイステップガイド] [2]
+  * [要件][1]
+  * [ステップバイステップガイド][2]
 
 ### 要件{#requirements}
-最初で最も重要なことは、WordPressをインストールすることです。 WordPressは、インストールのしやすさでよく知られています。これは簡単なプロセスであり、[ガイド] [3]に従うことで簡単に自分で実行できます。
+最初で最も重要なことは、WordPressをインストールすることです。 WordPressは、インストールのしやすさでよく知られています。これは簡単なプロセスであり、[ガイド][3]に従うことで簡単に自分で実行できます。
 
 ### WordPressテーマの作成方法。ステップバイステップガイド{#guide}
 WordPressテーマの場合、すべてが** wp_content **ディレクトリのみで行われます。 ** wp_content→テーマフォルダーに新しいテーマのサブフォルダーを作成するだけです。
@@ -134,6 +134,8 @@ font-weight: bold;
 
 ### 結論
 このチュートリアルでは、シンプルで簡単なステップでWordPressテーマを作成する方法について説明しました。 WordPressのテーマを作成して作成した後、今では難しいタスクではありません。しかし、明らかにこのチュートリアルは非常に基本的なセットアップに固執し、その上に強化するには、HTML、CSS、JS、PHPの詳細を学ぶ必要があります。
+
+  
 [1]: #requirements
 [2]: #guide
 [3]: https://products.containerize.com/blogging/wordpress

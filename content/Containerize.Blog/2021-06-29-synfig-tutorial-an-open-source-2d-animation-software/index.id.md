@@ -13,11 +13,11 @@ categories: ['Animation Software']
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software.png" alt="Tutorial Synfig Perangkat lunak animasi 2D open source">}}
 
-  * [Apa itu Synfig?] [1]
-  * [Cara Menginstal Synfig?] [2]
-  * [Ikhtisar Antarmuka Aplikasi] [3]
-  * [Cara membuat animasi dasar dengan synfig?] [4]
-  * [Kesimpulan] [5]
+  * [Apa itu Synfig?][1]
+  * [Cara Menginstal Synfig?][2]
+  * [Ikhtisar Antarmuka Aplikasi][3]
+  * [Cara membuat animasi dasar dengan synfig?][4]
+  * [Kesimpulan][5]
 
 ## Apa itu Synfig? {#Apa}
 Synfig adalah salah satu perangkat lunak animasi 2D terbaik yang telah dirancang untuk artis solo atau tim kecil untuk mengelola alur kerja dan proyek animasi mereka. Sebagai perangkat lunak animasi open source, Synfig menggunakan sistem animasi "Tweenless" yang tidak hanya memotong waktu yang dibutuhkan animasi untuk diproses, tetapi juga memberi animator kemampuan untuk menambahkan bingkai gambar bijaksana.
@@ -97,14 +97,16 @@ Dan di sana Anda memiliki tutorial dasar tentang cara membuat animasi di Synfig 
 
 ## kesimpulan {#conclusion}
 Menggunakan Synfig 2D Animation Software cukup mudah dan mudah jika Anda sudah menggunakan perangkat lunak animasi untuk pekerjaan Anda. Bahkan jika Anda baru mengenal industri animasi, memahami antarmuka adalah tugas yang mudah. Kami harap Anda menemukan tutorial ini bermanfaat dan dapat membuat animasi 2D untuk berbagai proyek akademik, komersial atau pribadi untuk membuat portofolio.
-_ Apa perangkat lunak animasi open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang perangkat lunak animasi?, Tolong_ [hubungi Anda] [6].
+_ Apa perangkat lunak animasi open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang perangkat lunak animasi?, Tolong_ [hubungi Anda][6].
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan berikut yang relevan:
-  * [Perangkat lunak animasi open source terbaik] [7]
-  * [Synfig | Suite animasi 2D berbasis vektor bebas dan open source] [8]
-  * [Cara Membuat Animasi dengan Perangkat Lunak Animasi Pencil2D] [9]
-  * [Panduan Pemula Untuk Memulai Pengeditan Gambar Gratis Menggunakan Digikam] [10]
+  * [Perangkat lunak animasi open source terbaik][7]
+  * [Synfig | Suite animasi 2D berbasis vektor bebas dan open source][8]
+  * [Cara Membuat Animasi dengan Perangkat Lunak Animasi Pencil2D][9]
+  * [Panduan Pemula Untuk Memulai Pengeditan Gambar Gratis Menggunakan Digikam][10]
+
+  
 [1]: #what
 [2]: #how-to-install
 [3]: #application-interfae

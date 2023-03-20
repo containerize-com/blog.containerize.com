@@ -15,18 +15,18 @@ categories: ['Programming']
 
 
 ## Überblick
-Wir hoffen, dass Sie ein besseres Verständnis von [JavaScript -Datentypen] [1] haben. Dies ist ein weiterer Blog -Beitrag in der Kategorie [Programmierung] [2]. In diesem JavaScript -Tutorial werden wir in JavaScript**das versprechen, und zusammen mit diesem werden wir auch sehen, was asynchrone Operationen sind, die Verwendung von Versprechen und wie man Versprechungen in JavaScript erstellt. Erstens ist ein asynchroner Prozess/Betrieb einer, das in Bezug auf andere Prozesse unabhängig ausgeführt wird und keine Blockade erzeugt. Daher müssen Sie asynchrone Operationen abwickeln, da sonst möglicherweise Abnormalitäten in Ihrem JavaScript -Code erzeugen. Wir werden also untersuchen, wie wir mit asynchronen Operationen mit Versprechungen umgehen können.
+Wir hoffen, dass Sie ein besseres Verständnis von [JavaScript -Datentypen][1] haben. Dies ist ein weiterer Blog -Beitrag in der Kategorie [Programmierung][2]. In diesem JavaScript -Tutorial werden wir in JavaScript**das versprechen, und zusammen mit diesem werden wir auch sehen, was asynchrone Operationen sind, die Verwendung von Versprechen und wie man Versprechungen in JavaScript erstellt. Erstens ist ein asynchroner Prozess/Betrieb einer, das in Bezug auf andere Prozesse unabhängig ausgeführt wird und keine Blockade erzeugt. Daher müssen Sie asynchrone Operationen abwickeln, da sonst möglicherweise Abnormalitäten in Ihrem JavaScript -Code erzeugen. Wir werden also untersuchen, wie wir mit asynchronen Operationen mit Versprechungen umgehen können.
 Wir werden die folgenden Punkte in diesem JavaScript -Tutorial behandeln:
-***[Was ist vielversprechend in JavaScript? Versprechen erklärt] [3]**
-***[Warum verwenden wir Versprechen in JavaScript?] [4]**
-***[Wie vielversprechend funktioniert in JavaScript?] [5]**
-***[Wie kann man ein Versprechen erstellen?] [6]**
+***[Was ist vielversprechend in JavaScript? Versprechen erklärt][3]**
+***[Warum verwenden wir Versprechen in JavaScript?][4]**
+***[Wie vielversprechend funktioniert in JavaScript?][5]**
+***[Wie kann man ein Versprechen erstellen?][6]**
 
 ## Was ist in JavaScript vielversprechend? Versprechen erklärt {#What-is-Promise-in-JavaScript-Versprechen-erläutert}
 Ein Versprechen ist ein Objekt, das einen Wert eines asynchronen Betriebswetters darstellt, das es gelöst, abgelehnt oder im anstehenden Zustand befindet. In einfacheren Worten werden Versprechen verwendet, um einen Wert zurückzugeben, der noch von einem asynchronen Codeblock erzeugt werden muss. Tatsächlich gibt es drei**Versprechenszustände**und es kann in einem der folgenden Zustände sein:
-* * Ausstehend**: Das Versprechen befindet sich in einem ausstehenden Zustand, was bedeutet, dass es sich in der Startphase befindet und derzeit ausgeführt wird.
-* * erfüllt**: Versprechen wird gelöst und der Wert wurde zurückgegeben.
-* * Abgelehnt**: Dies ist der Zustand, der durch einen Fehler verursacht wird, was bedeutet, dass das Versprechen abgelehnt wurde.
+**Ausstehend**: Das Versprechen befindet sich in einem ausstehenden Zustand, was bedeutet, dass es sich in der Startphase befindet und derzeit ausgeführt wird.
+**erfüllt**: Versprechen wird gelöst und der Wert wurde zurückgegeben.
+**Abgelehnt**: Dies ist der Zustand, der durch einen Fehler verursacht wird, was bedeutet, dass das Versprechen abgelehnt wurde.
 Eine wichtige Sache, die hier zu berücksichtigen ist, ist, dass der von dem Versprechen zurückgegebene Wert/Zustand unveränderlich ist und nicht geändert werden kann, was bedeutet, dass Versprechen sicherstellen, dass es kein ungewöhnliches Verhalten gibt.
 
 ## Warum verwenden wir Promise in JavaScript? {#Warum wir haben in JavaScript}}}
@@ -97,21 +97,23 @@ Der Code im Versprechungskörper funktioniert also synchron, sodass die "synchro
 Dies ist das Ende dieses**JavaScript -Tutorials**. Ich hoffe, Sie haben eine gute Vorstellung von JavaScript -Versprechen. Wir haben in JavaScript**, warum wir in JavaScript versprechen, in JavaScript**behandelt, wie vielversprechend in JavaScript**und wie man ein Versprechen erstellt. Darüber hinaus werden wir dieses Thema mehr über seine fortgeschrittenen Nutzung und Bestimmungen behandeln. Gehen Sie daher diesen Artikel durch, falls Sie sich auf eine Interviewsitzung vorbereiten.
 
 ## Verbinde dich mit uns
-Schließlich bietet [Containerize.com] [7] laufende JavaScript -Tutorials zu verschiedenen aufregenden Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook] [8], [LinkedIn] [9] und [Twitter] [10], folgen.
+Schließlich bietet [Containerize.com][7] laufende JavaScript -Tutorials zu verschiedenen aufregenden Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook][8], [LinkedIn][9] und [Twitter][10], folgen.
 
 ## Stelle eine Frage
-Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [11] informieren.
+Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][11] informieren.
 
 ## FAQs
-* * Was sind Versprechen in JavaScript mit Beispiel?**
-Bitte folgen Sie diesem [Link] [3], um zu wissen, was Versprechen in JavaScript sind.
+**Was sind Versprechen in JavaScript mit Beispiel?**
+Bitte folgen Sie diesem [Link][3], um zu wissen, was Versprechen in JavaScript sind.
 
 ## Siehe auch
-  * [Was sind JavaScript -Datentypen? | Ein Anfängerleitfaden] [1]
-  * [Kubernetes Multi-Tenancy & Container-basierte Architektur] [12]
-  * [Was ist serverloses Computer? | Serverlose Architektur] [13]
-  * [Was ist Multitenancy? | Warum ein Multi-Mieter-Ansatz?] [14]
-  * [Was sind JavaScript -Datentypen? | Ein Anfängerleitfaden] [15]
+  * [Was sind JavaScript -Datentypen? | Ein Anfängerleitfaden][1]
+  * [Kubernetes Multi-Tenancy & Container-basierte Architektur][12]
+  * [Was ist serverloses Computer? | Serverlose Architektur][13]
+  * [Was ist Multitenancy? | Warum ein Multi-Mieter-Ansatz?][14]
+  * [Was sind JavaScript -Datentypen? | Ein Anfängerleitfaden][15]
+
+  
 [1]: https://blog.containerize.com/programming/what-are-javascript-data-types-a-beginners-guide/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-promise-in-JavaScript-Promises-Explained

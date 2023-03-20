@@ -15,10 +15,10 @@ categories: ['Blogging', 'Help Desk']
 
 Müşterilerinizin ürünleriniz/hizmetlerinizle ilgili sorguları olabilir. Sorgularını WordPress sitenizdeki farklı formlardan göndereceklerdir. Osticket-Wordpress entegrasyonu, bu sorguların biletlere dönüştürülmesine yardımcı olur. API aracılığıyla Osticket Help Masto sistemine veri gönderir.
 Osticket açık kaynaklı ve ücretsiz bir yardım masası biletleme sistemidir. Müşteriler, Osticket'teki sorularıyla ilgili biletler oluşturabilir. Bu yardım masası sistemi, herhangi bir kuruluşun müşterilerinden gelen sorguları yönetmesini çok kolaylaştırır. Yönetici departmanlar ve ekipler oluşturabilir ve oluşturulan biletlerin doğasına göre farklı temsilcilere bilet atayabilir. Bu ücretsiz açık kaynaklı sistem sorunları takip edecektir. Hem müşterilerin hem de temsilcilerin ilerlemeyi tartışmak için bilet hakkında yorum yapmasını sağlar. Bu blog gönderisindeki aşağıdaki bölümleri ele alacağız:
-  * [Entegrasyon süreci] [1]
-  * [WordPress eklentisi kurulumu] [2]
-  * [Kimlik Doğrulama Prosedürü] [3]
-  * [Sonuç] [4]
+  * [Entegrasyon süreci][1]
+  * [WordPress eklentisi kurulumu][2]
+  * [Kimlik Doğrulama Prosedürü][3]
+  * [Sonuç][4]
 
 ## entegrasyon işlemi: {#integration}
 Osticket ve WordPress entegrasyonu, WordPress sitesinde aşağıdaki alanlarla bir iletişim formu gerektirir
@@ -32,10 +32,10 @@ Osticket ve WordPress entegrasyonu, WordPress sitesinde aşağıdaki alanlarla b
 ## WordPress eklenti yüklemesi: {#wordpress}
   1. WordPress sitenizin Yönetici Gösterge Tablosuna gidin.
   2. Ardından Eklentiler bölümüne gidin.
-  3. Sonra bu [eklenti] [5] takın.
+  3. Sonra bu [eklenti][5] takın.
   4. Bundan sonra eklentiyi etkinleştirin.
   5. ve “ayar” -> “Osticket Konektörü” na gidin.
-  6. Ardından Osticket Sitenizin URL'sini girin, yani [http: //your.domain/api/tickets.json] [6]
+  6. Ardından Osticket Sitenizin URL'sini girin, yani [http: //your.domain/api/tickets.json][6]
   7. Osticket yönetici panelinden oluşturulan API tuşunu girin (bir sonraki bölümde açıklanmıştır).
   8. Sonunda, verileri iletişim formunuzdan Osticket’in bilet alanlarına eşlemek için tüm alanları doldurun.
 
@@ -60,9 +60,11 @@ Osticket-WordPress entegrasyonu biletleme sürecini otomatikleştirecektir. Bu n
 
 ## Keşfetmek:
 Osticket ve WordPress hakkında daha fazla bilgi edinmek için lütfen şu sayfalara göz atın:
-  * [Osticket - Ücretsiz Açık Kaynak Yardım Masası Biletleme Sistemi] [7]
-  * [WordPress - ücretsiz açık kaynak ve en yaygın kullanılan CMS ve bloglama aracı] [8]
-  * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur] [9]
+  * [Osticket - Ücretsiz Açık Kaynak Yardım Masası Biletleme Sistemi][7]
+  * [WordPress - ücretsiz açık kaynak ve en yaygın kullanılan CMS ve bloglama aracı][8]
+  * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur][9]
+
+  
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

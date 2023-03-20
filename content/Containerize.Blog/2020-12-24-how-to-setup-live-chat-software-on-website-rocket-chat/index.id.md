@@ -15,17 +15,17 @@ categories: ['Live Chat']
 
 
 ## Ringkasan
-Kami telah menerbitkan beberapa posting blog yang terkait dengan perangkat lunak obrolan langsung open source seperti [Top 5 Perangkat Lunak Obrolan Dukungan Pelanggan Gratis untuk Situs Web] [1], [Pesan Instan WordPress menggunakan Rocket.chat] [2], dan beberapa lagi. Dalam posting blog ini, kami akan melalui perangkat lunak dukungan pelanggan terkemuka teratas Rocket.chat. Dengan peningkatan besar dalam lalu lintas online, bisnis merasa sulit untuk menghibur sejumlah besar pertanyaan tepat waktu. Pengunjung datang ke situs Anda, cenderung memperoleh beberapa informasi yang terkait dengan produk atau layanan, dan meninggalkan situs Anda jika tidak menerima tanggapan. Oleh karena itu, dukungan obrolan langsung membantu Anda menyapa pelanggan Anda secara proaktif saat mereka melalui situs web Anda. Atau, jika mereka membutuhkan bantuan dan klarifikasi untuk membuat keputusan pembelian mereka.
+Kami telah menerbitkan beberapa posting blog yang terkait dengan perangkat lunak obrolan langsung open source seperti [Top 5 Perangkat Lunak Obrolan Dukungan Pelanggan Gratis untuk Situs Web][1], [Pesan Instan WordPress menggunakan Rocket.chat][2], dan beberapa lagi. Dalam posting blog ini, kami akan melalui perangkat lunak dukungan pelanggan terkemuka teratas Rocket.chat. Dengan peningkatan besar dalam lalu lintas online, bisnis merasa sulit untuk menghibur sejumlah besar pertanyaan tepat waktu. Pengunjung datang ke situs Anda, cenderung memperoleh beberapa informasi yang terkait dengan produk atau layanan, dan meninggalkan situs Anda jika tidak menerima tanggapan. Oleh karena itu, dukungan obrolan langsung membantu Anda menyapa pelanggan Anda secara proaktif saat mereka melalui situs web Anda. Atau, jika mereka membutuhkan bantuan dan klarifikasi untuk membuat keputusan pembelian mereka.
 Dukungan obrolan langsung meningkatkan peluang Anda untuk mengubah pengunjung menjadi pelanggan. Ada banyak open-source ** Langsung Dukungan Obrolan Softwar ** Tersedia. Tapi, Rocket.Chat telah mendapatkan banyak ketertarikan karena fitur -fiturnya. Dan itu diperlakukan sebagai alternatif untuk perangkat lunak obrolan terkemuka di industri seperti Slack, dan Microsoft Team. Di artikel ini, kami akan belajar cara menginstal Rocket.chat di server dan kemudian cara mengonfigurasinya di situs web Anda. Jadi, mari kita mulai dengan menutupi poin -poin berikut.
-  *[** Apa itu rocket.cha ** t?] [3]
+  *[** Apa itu rocket.cha ** t?][3]
   ?
-  *** [Aktifkan fitur obrolan langsung] [5] **
-  *** [Instal Widget Langsung Obrolan di Situs Web Anda] [6] **
-  *** [Kesimpulan] [7] **
+  *** [Aktifkan fitur obrolan langsung][5] **
+  *** [Instal Widget Langsung Obrolan di Situs Web Anda][6] **
+  *** [Kesimpulan][7] **
 
 ## Apa itu rocket.chat {#intro}
-[Rocket.chat] [8] adalah salah satu dari perangkat lunak obrolan langsung ** yang populer **. Ini memiliki versi obrolan langsung gratis sebagai edisi komunitas serta versi obrolan langsung yang di -host untuk perusahaan besar dengan fitur obrolan internal pribadi. Rocket.chat mendukung dukungan pelanggan obrolan langsung bersama dengan fitur obrolan tim. Ini adalah cross-platform dan menawarkan dukungan untuk hampir semua platform populer seperti Windows, Mac, Linux, dan aplikasi seluler juga. Perangkat lunak dukungan pelanggan ** ini ** aman, dapat diperluas, dan menawarkan integrasi dengan aplikasi populer pihak ketiga seperti Trello, Google Drive, dan banyak lagi. Ada banyak fitur kuat yang ditawarkan Rocket.Chat seperti banyak kamar, ruang obrolan pribadi & grup, pemberitahuan, emoji, otentikasi LDAP, dan antarmuka yang tenang. Selain itu, alat gratis ini mudah digunakan dan dilengkapi dengan kemampuan hosting sendiri. Selain itu, ia menawarkan antarmuka yang logis dan ramah pengguna di mana pengguna dapat memodifikasi tema seperti gelap, terang, atau hitam.
-Perangkat lunak dukungan obrolan ** ini ditulis dalam JavaScript, semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, Anda dapat menemukan semua kode sumber di [GitHub] [9]. Untuk detail lebih lanjut, Anda dapat membaca tentang rocket.chat [di sini] [10].
+[Rocket.chat][8] adalah salah satu dari perangkat lunak obrolan langsung ** yang populer **. Ini memiliki versi obrolan langsung gratis sebagai edisi komunitas serta versi obrolan langsung yang di -host untuk perusahaan besar dengan fitur obrolan internal pribadi. Rocket.chat mendukung dukungan pelanggan obrolan langsung bersama dengan fitur obrolan tim. Ini adalah cross-platform dan menawarkan dukungan untuk hampir semua platform populer seperti Windows, Mac, Linux, dan aplikasi seluler juga. Perangkat lunak dukungan pelanggan ** ini ** aman, dapat diperluas, dan menawarkan integrasi dengan aplikasi populer pihak ketiga seperti Trello, Google Drive, dan banyak lagi. Ada banyak fitur kuat yang ditawarkan Rocket.Chat seperti banyak kamar, ruang obrolan pribadi & grup, pemberitahuan, emoji, otentikasi LDAP, dan antarmuka yang tenang. Selain itu, alat gratis ini mudah digunakan dan dilengkapi dengan kemampuan hosting sendiri. Selain itu, ia menawarkan antarmuka yang logis dan ramah pengguna di mana pengguna dapat memodifikasi tema seperti gelap, terang, atau hitam.
+Perangkat lunak dukungan obrolan ** ini ditulis dalam JavaScript, semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, Anda dapat menemukan semua kode sumber di [GitHub][9]. Untuk detail lebih lanjut, Anda dapat membaca tentang rocket.chat [di sini][10].
 
 ## cara menginstal rocket.chat {#install}
 Jadi, kita tahu apa itu rocket.chat dan di bagian ini, kita akan belajar cara menginstal perangkat lunak obrolan langsung ini. Anda dapat menginstal Rocket.Chat dari berbagai pasar, seperti Ubuntu Snaps, Dockerhub, atau menginstalnya di server Anda sendiri. Dalam artikel ini, kami akan fokus pada instalasi Rocket.chat melalui Snaps di Ubuntu. Yang merupakan metode instalasi tercepat.
@@ -74,19 +74,21 @@ Dan, tempel kode ini di atas tag terakhir di situs Anda; Widget obrolan langsung
 
 ## kesimpulan {#conclusion}
 Ini membawa kita ke akhir posting blog ini. Dalam artikel ini, kami telah melalui apa itu rocket.chat, cara menginstal rocket.chat dan kami juga telah menunjukkan kepada Anda cara menginstalnya di server Anda sendiri melalui Ubuntu Snaps. Kami juga belajar cara mengaktifkan fitur obrolan langsung dan menginstal widget di situs web Anda. Selain itu, ** Perangkat Lunak Dukungan Pelanggan ** telah menjadi komponen yang harus dimiliki dari situs web bisnis apa pun karena faktor-faktor tertentu yang kita bahas di atas. Namun, posting blog ini akan sangat membantu Anda jika Anda ingin menggunakan perangkat lunak obrolan langsung open source di situs web bisnis Anda. Selanjutnya, ada banyak perangkat lunak dukungan obrolan ** lainnya ** & artikel yang tersedia di bagian "Jelajahi" di bawah ini yang dapat Anda periksa.
-Akhirnya, [** containerize.com **] [11] Menulis artikel pada sumber terbuka lebih lanjut ** aplikasi obrolan open source. ** Oleh karena itu, tetap berhubungan dengan kategori [Live Chat] [12] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [13], [LinkedIn] [14], dan [Twitter] [15].
+Akhirnya, [** containerize.com **][11] Menulis artikel pada sumber terbuka lebih lanjut ** aplikasi obrolan open source. ** Oleh karena itu, tetap berhubungan dengan kategori [Live Chat][12] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][13], [LinkedIn][14], dan [Twitter][15].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan.
-  * [Zulip] [16]
-  * [Lets-chat] [17]
-  * [Botpress] [18]
-  * [Cara Membuat Bot FAQ Berbasis AI untuk Bisnis Anda Menggunakan Botpress] [19]
-  * [Top 5 Perangkat Lunak Obrolan Dukungan Pelanggan Gratis Untuk Situs Web] [1]
-  * [Pesan Instan WordPress Menggunakan Rocket.chat] [2]
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [20]
-  * [Cara membuat dan menjalankan bot di rocket.chat menggunakan botpress] [21]
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [20]
+  * [Zulip][16]
+  * [Lets-chat][17]
+  * [Botpress][18]
+  * [Cara Membuat Bot FAQ Berbasis AI untuk Bisnis Anda Menggunakan Botpress][19]
+  * [Top 5 Perangkat Lunak Obrolan Dukungan Pelanggan Gratis Untuk Situs Web][1]
+  * [Pesan Instan WordPress Menggunakan Rocket.chat][2]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][20]
+  * [Cara membuat dan menjalankan bot di rocket.chat menggunakan botpress][21]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][20]
+
+  
 [1]: https://blog.containerize.com/live-chat/top-5-free-customer-support-chat-software-for-website/
 [2]: https://blog.containerize.com/blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
 [3]: #intro

@@ -76,7 +76,7 @@ Di Terminal, mulailah dengan masuk ke MySQL menggunakan kata sandi MySQL Root An
 ```
 sudo mysql -u root -p
 ```
-Setelah login ke MySQL, tambahkan superuser MySQL baru dengan nama pengguna pilihan Anda. Dalam contoh ini kita menyebutnya Yasiradmin. [Klik di sini untuk menghasilkan kata sandi yang kuat] [2] dan ganti \ _password baru di bawah ini.
+Setelah login ke MySQL, tambahkan superuser MySQL baru dengan nama pengguna pilihan Anda. Dalam contoh ini kita menyebutnya Yasiradmin. [Klik di sini untuk menghasilkan kata sandi yang kuat][2] dan ganti \ _password baru di bawah ini.
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ Selanjutnya, kami ingin mengatur otentikasi di Nginx untuk memberikan lapisan ke
 ```
 sudo apt install apache2-utils
 ```
-Setelah diinstal, kami dapat menghasilkan file .htpasswd. Ubah nama pengguna pilihan Anda. [Menghasilkan kata sandi] [3] dan tetap aman.
+Setelah diinstal, kami dapat menghasilkan file .htpasswd. Ubah nama pengguna pilihan Anda. [Menghasilkan kata sandi][3] dan tetap aman.
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ Jika Anda memiliki pertanyaan, jangan ragu untuk memberi tahu saya di bawah di b
 
 ## Mengeksplorasi
 Anda mungkin juga menyukai artikel yang lebih terkait di bawah ini:
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [4]
-  * [Cara mengamankan dan mengenkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [5]
-  * [Cara Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [6]
-  * [Cara Mengatur Nginx Dengan Penumpang di Server Produksi AWS] [7]
-  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu] [8]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][4]
+  * [Cara mengamankan dan mengenkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][5]
+  * [Cara Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][6]
+  * [Cara Mengatur Nginx Dengan Penumpang di Server Produksi AWS][7]
+  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

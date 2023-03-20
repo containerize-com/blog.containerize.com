@@ -43,14 +43,16 @@ Pengembangan kode rendah ke aplikasi kode melalui antarmuka pengguna grafis menj
 
 ## ** Kesimpulan **: {#conclusion}
 Selama beberapa tahun terakhir, kemajuan dalam pengembangan perangkat lunak membuatnya perlu bagi perusahaan untuk terus berjalan. Untuk profesional dan pengembang teknologi perangkat lunak, tren pengembangan perangkat lunak cenderung menunjukkan ke mana arah industri ini. Tren baru dalam pengembangan perangkat lunak 2021, metode dan preferensi pelanggan dapat menjadi indikator utama mengenai di mana Anda harus memfokuskan keterampilan pengembangan Anda. Tetap di atas tren teknologi baru dan terbaru adalah cara yang bagus untuk meningkatkan keterampilan pengembangan perangkat lunak Anda.
-_Apakah tren perangkat lunak paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang tren perangkat lunak terbaru?, Tolong_ [hubungi] [1].
+_Apakah tren perangkat lunak paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang tren perangkat lunak terbaru?, Tolong_ [hubungi][1].
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan berikut yang relevan:
-  * [Top 5 Platform Blockchain Open Source di 2020] [2]
-  * [Bagaimana teknologi terdesentralisasi meningkatkan strategi bisnis Anda] [3]
-  * [Bagaimana alat analisis bisnis gratis membantu bisnis Anda] [4]
-  * [Bagaimana RAD Software membantu Anda mengembangkan bisnis ke tingkat berikutnya] [5]
+  * [Top 5 Platform Blockchain Open Source di 2020][2]
+  * [Bagaimana teknologi terdesentralisasi meningkatkan strategi bisnis Anda][3]
+  * [Bagaimana alat analisis bisnis gratis membantu bisnis Anda][4]
+  * [Bagaimana RAD Software membantu Anda mengembangkan bisnis ke tingkat berikutnya][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

@@ -13,11 +13,11 @@ Dependendo do tipo de código de erro de salto que é retornado pelo MTA, o Adva
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Configurar Regras avançadas de gerenciamento de rejeição e rejeição em phplist">}}
 
-No nosso tutorial [anterior] [1], já tínhamos abordado ** Processamento de salto phplist **. Se você não estiver familiarizado com o processamento de rejeição, pode lê -lo. Você pode baixar e -mails não entregues para o seu projeto phplist usando o processamento de rejeição. Como você lida com e -mails baixados? Não faço ideia, vamos dar uma olhada no gerenciamento de rejeição antecipado que permite que você resolva ** e -mails de salto **. Cada mensagem de email retornada possui código de erro que é retornado pelo MTA (agente de transferência de correio). Além disso, você pode revisar o cabeçalho do email de mensagem retornado e ele contém todas as informações ao longo do código de erro.
-  * [Ativar manuseio avançado de salto] [2]
-  * [Adicionar regra de salto] [3]
-  * [Lista de regulamentos de salto] [4]
-  * [Conclusão] [5]
+No nosso tutorial [anterior][1], já tínhamos abordado ** Processamento de salto phplist **. Se você não estiver familiarizado com o processamento de rejeição, pode lê -lo. Você pode baixar e -mails não entregues para o seu projeto phplist usando o processamento de rejeição. Como você lida com e -mails baixados? Não faço ideia, vamos dar uma olhada no gerenciamento de rejeição antecipado que permite que você resolva ** e -mails de salto **. Cada mensagem de email retornada possui código de erro que é retornado pelo MTA (agente de transferência de correio). Além disso, você pode revisar o cabeçalho do email de mensagem retornado e ele contém todas as informações ao longo do código de erro.
+  * [Ativar manuseio avançado de salto][2]
+  * [Adicionar regra de salto][3]
+  * [Lista de regulamentos de salto][4]
+  * [Conclusão][5]
 
 ## Ativar manuseio avançado de salto {#enable}
 Primeira coisa que primeiro, ative o manuseio avançado ** Bounce ** Copiando o código abaixo no arquivo config.php.
@@ -64,14 +64,16 @@ Depois de criar o número de regras, sua lista ** de bounce ** parecerá como na
 
 ## Conclusão {#conclusion}
 Neste tutorial, aprendemos sobre o Advanced ** Bounce Management ** e desenvolvemos as regras de rejeição necessárias. Seria ótimo permitir esse recurso para que você possa automatizar o processo de limpeza de endereços de email inválidos de suas listas. Isso também permitiria que você mantenha o nível mínimo de e -mails retornados. Além disso, suas listas terão assinantes legítimos.
-Além disso, [contenderize.com] [6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento na categoria [Newsletters] [7] para artigos mais interessantes.
+Além disso, [contenderize.com][6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento na categoria [Newsletters][7] para artigos mais interessantes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Phplist - Newsletter de código aberto e software de marketing por e -mail] [8]
-  * [Como criar e enviar boletim informativo usando phplist] [9]
-  * [Como configurar e processar saltos no phplist] [1]
-  * [Guia para iniciantes para desenvolver plugin phplist] [10]
+  * [Phplist - Newsletter de código aberto e software de marketing por e -mail][8]
+  * [Como criar e enviar boletim informativo usando phplist][9]
+  * [Como configurar e processar saltos no phplist][1]
+  * [Guia para iniciantes para desenvolver plugin phplist][10]
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
 [2]: #Enable
 [3]: #Add

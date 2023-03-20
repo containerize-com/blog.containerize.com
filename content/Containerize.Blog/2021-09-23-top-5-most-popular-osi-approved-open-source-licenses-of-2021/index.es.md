@@ -47,14 +47,16 @@ La licencia de código abierto ISC es funcional equivalente a la licencia MIT. L
 
 ## Conclusión: {#4A1A}
 Si ha llegado tan lejos, entonces sabe que los derechos de autor de software de código abierto no son para los débiles de corazón. Sin embargo, teniendo en cuenta el hecho de que casi todos los desarrolladores de software dependen en gran medida de la mayoría de las empresas de licencia de código abierto y las principales empresas de licencias. Es crucial comprender los conceptos básicos de las licencias de código abierto más comunes y las principales diferencias entre las populares licencias de código abierto que existen. Solo esperamos que esta explicación de la licencia de software patentada y el ejemplo de licencia de software de código abierto hayan hecho que el campo minado potencial de las licencias sea un poco más navegable.
-_Un puede unirse a nosotros en [Twitter] [1], [LinkedIn] [2] y nuestra página [Facebook] [3]. ¿Qué licencias de código abierto prefieres? Si tiene alguna pregunta o retroalimentación, por favor_ [póngase en contacto] [4].
+_Un puede unirse a nosotros en [Twitter][1], [LinkedIn][2] y nuestra página [Facebook][3]. ¿Qué licencias de código abierto prefieres? Si tiene alguna pregunta o retroalimentación, por favor_ [póngase en contacto][4].
 
 ## Explorar:
 También tenemos varios otros artículos en los que le interesan.
-  *** [Top 5 Herramientas de orquestación de contenedores de código abierto para DevOps 2021] [5] **
-  *** [Top 5 Software de cola de mensajes de código abierto (MQ) en 2021] [6] **
-  *** [Mejor software de almacenamiento en la nube de código abierto y compartir archivos] [7] **
-  *** [Herramientas forenses digitales de código abierto más popular] [8] **
+  *** [Top 5 Herramientas de orquestación de contenedores de código abierto para DevOps 2021][5] **
+  *** [Top 5 Software de cola de mensajes de código abierto (MQ) en 2021][6] **
+  *** [Mejor software de almacenamiento en la nube de código abierto y compartir archivos][7] **
+  *** [Herramientas forenses digitales de código abierto más popular][8] **
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

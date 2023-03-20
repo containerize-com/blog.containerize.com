@@ -15,12 +15,12 @@ categories: ['Live Chat']
 
 Otomasi FAQ terdiri dari meningkatkan pengalaman klien Anda secara online dengan menggunakan chatbots untuk menjawab pertanyaan yang sering diajukan. Dengan kemajuan dalam kecerdasan buatan dan pembelajaran mesin, permintaan untuk chatbots percakapan berbasis AI telah mendapatkan banyak popularitas dan permintaan. Dan ini sebagian besar karena semua bisnis ingin meningkatkan pengalaman pelanggan mereka bahkan ketika bisnis offline. Chatbots percakapan telah memungkinkan bisnis ini untuk memberi pelanggan mereka dukungan sentuhan tinggi yang selalu tersedia yang mereka inginkan. Tujuan dari posting blog ini adalah untuk membantu Anda mengatur bot FAQ berbasis AI menggunakan Botpress.
 Dalam artikel ini, kami akan belajar tentang modul NLU dari Botpress dan bagaimana pemahaman / pemrosesan bahasa alami bekerja dan dapat membantu bisnis untuk mencapai tingkat kepuasan pelanggan yang tinggi. Mari kita mulai!
-  *** [apa itu pemrosesan bahasa alami] [1] **
-  *[** Tentukan kasus penggunaan Anda **] [2]
-  *[** Instal Botpress **] [3]
-  *[** Buat bot baru **] [4]
-  *[** Latih Bot Tanya Jawab Anda **] [5]
-  *[** Kesimpulan **] [6]
+  *** [apa itu pemrosesan bahasa alami][1] **
+  *[** Tentukan kasus penggunaan Anda **][2]
+  *[** Instal Botpress **][3]
+  *[** Buat bot baru **][4]
+  *[** Latih Bot Tanya Jawab Anda **][5]
+  *[** Kesimpulan **][6]
 
 ## Apa itu pemrosesan bahasa alami {#nlu}
 Natural Language Processing (NLP) adalah cabang kecerdasan buatan yang membantu komputer memahami, menafsirkan, dan memanipulasi bahasa manusia. NLP membantu komputer berkomunikasi dengan manusia dalam bahasa mereka sendiri. Dan, memungkinkan komputer untuk membaca teks, mendengar pidato, menafsirkannya, mengukur sentimen.
@@ -63,10 +63,12 @@ Setelah pelatihan selesai, Anda dapat menguji bot FAQ Anda dengan menggunakan al
 
 {{< figure align=center src="images/test-faq-bot.gif" alt="Uji bot FAQ Anda">}}
 
-Sekarang, bahwa Anda sudah menyiapkan bot FAQ Anda, Anda dapat menggunakan bot ini di situs web Anda dengan mengikuti panduan [8] [8] Botpress.
+Sekarang, bahwa Anda sudah menyiapkan bot FAQ Anda, Anda dapat menggunakan bot ini di situs web Anda dengan mengikuti panduan [8][8] Botpress.
 
 ## kesimpulan {#conclusion}
 Dalam posting blog ini, kami belajar dan memahami pemrosesan bahasa alami. Kami juga mendapatkan langsung dengan proses pembuatan bot. Kami melatih bot FAQ sederhana yang membantu pelanggan Anda mengetahui tentang waktu bisnis dan paket pembayaran Anda. Tujuan tutorial ini adalah untuk membantu pemula dengan cepat memulai dengan bot FAQ berbasis AI menggunakan Botpress.
+
+  
 [1]: #nlu
 [2]: #case
 [3]: #install

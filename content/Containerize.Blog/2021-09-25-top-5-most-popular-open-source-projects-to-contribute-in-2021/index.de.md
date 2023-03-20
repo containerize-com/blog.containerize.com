@@ -31,11 +31,11 @@ Unternehmen verändern sich ständig und suchen nach digitalen Lösungen, um gr�
 {{< figure align=center src="images/Apache-Cassandra-is-an-open-source-NoSQL-distributed-database.png" alt="Open Source Apache Cassandra NoSQL Distributed Database">}}
 
   *** Anzahl der Mitwirkenden: ** 340
-  *** Top-Mitarbeiter: ** Jonathan Ellis, CTO & Mitbegründer bei DataStax | [@spyced] [1]
+  *** Top-Mitarbeiter: ** Jonathan Ellis, CTO & Mitbegründer bei DataStax | [@spyced][1]
   *** Primärsprache: ** Java
   *** Anzahl der Sterne: ** 6.900
   *** Anzahl der Gabeln: ** 2.900
-[Apache Cassandra] [2] ist eine Open Source ** NoSQL ** Distributed und Wide Column Store -Datenbank. Es ist so konzipiert, dass es massive Mengen an strukturierten und unstrukturierten Daten weltweit verwaltet. Cassandra arbeitet mit Peer to Peer Architecture zusammen und unterstützt nur ** JSON -Datenformat **. Es wurde bei Facebook für Posteingangssuchfunktionen entwickelt und im Juli 2008 auf Google Code offen.
+[Apache Cassandra][2] ist eine Open Source ** NoSQL ** Distributed und Wide Column Store -Datenbank. Es ist so konzipiert, dass es massive Mengen an strukturierten und unstrukturierten Daten weltweit verwaltet. Cassandra arbeitet mit Peer to Peer Architecture zusammen und unterstützt nur ** JSON -Datenformat **. Es wurde bei Facebook für Posteingangssuchfunktionen entwickelt und im Juli 2008 auf Google Code offen.
 Eine der wichtigsten Merkmale von Cassandra ist die elastische und lineare Skalierungsleistung, die eine konsequent schnelle Reaktionszeit ermöglicht. Die Daten werden automatisch an mehreren Knoten für Fehlertoleranz und einfache Datenverteilung repliziert. Beste Open -Source -Software Apache Cassandra größte ** Produktionsbereitstellungen ** gehören Huawei, Apple, Netflix und chinesische Suchmaschine Easou.
 ** Top -Unternehmen, die Apache Cassandra verwenden.
 
@@ -44,11 +44,11 @@ Eine der wichtigsten Merkmale von Cassandra ist die elastische und lineare Skali
 {{< figure align=center src="images/TensorFlow-is-a-popular-open-source-machine-learning-framework-for-artificial-intelligence.png" alt="Open Source Tensorflow Artificial Intelligence Library">}}
 
   *** Anzahl der Mitwirkenden: ** 2,993
-  *** Top-Mitwirkender: ** [Tensorblüten-Gardener] [3]
+  *** Top-Mitwirkender: ** [Tensorblüten-Gardener][3]
   *** Primärsprachen: ** C ++ und Python
   *** Anzahl der Sterne: ** 159.000
   *** Anzahl der Gabeln: ** 85.500
-[TensorFlow] [4] ist ein beliebtes Open Source ** -Rahmen für maschinelles Lernen ** für künstliche Intelligenz- und Computer -Vision -Anwendungen, die 2015 vom ** Google Brain Team ** unter einer Apache 2.0 Open -Source -Lizenz erstellt wurden. Die TensorFlow -Python -Bibliothek wird zum schnellen numerischen Computing mit Datenflussdiagramme verwendet. Es ermöglicht Entwicklern, sich auf das Training und die Schlussfolgerung von tiefen neuronalen Netzwerken zu konzentrieren.
+[TensorFlow][4] ist ein beliebtes Open Source ** -Rahmen für maschinelles Lernen ** für künstliche Intelligenz- und Computer -Vision -Anwendungen, die 2015 vom ** Google Brain Team ** unter einer Apache 2.0 Open -Source -Lizenz erstellt wurden. Die TensorFlow -Python -Bibliothek wird zum schnellen numerischen Computing mit Datenflussdiagramme verwendet. Es ermöglicht Entwicklern, sich auf das Training und die Schlussfolgerung von tiefen neuronalen Netzwerken zu konzentrieren.
 TensorFlow Self -Hosted -Software ist eine Open -Source -Bibliothek für Künstliche Intelligenz ** basierend auf Datenflow und differenzierbarer Programmierung. Es verfügt über ein flexibles Ökosystem von Tools, Bibliotheken und einer Community. Mit TensorFlow FOSS -Software können Sie Ihr Modell einfach in einer Sprache oder Plattform auf Servern, Kantengeräten oder Web -Geräten trainieren und bereitstellen.
 ** Zu den Top-Unternehmen, die TensorFlow verwenden ** gehören Qualcomm, Walmart, Nvidia, Onemain Financial, Airbnb, Coca-Cola, GE Healthcare, Google, Twitter und DeepMind.
 
@@ -57,11 +57,11 @@ TensorFlow Self -Hosted -Software ist eine Open -Source -Bibliothek für Künstl
 {{< figure align=center src="images/Kubernetes-open-source-container-orchestration-system-1.png" alt="Open Source Kubernetes Container Orchestration System">}}
 
   *** Anzahl der Mitwirkenden: ** 3,141
-  *** Top -Mitarbeiter: ** Jordan Liggitt, Staff -Software -Ingenieur bei Google | [@liggitt] [5]
+  *** Top -Mitarbeiter: ** Jordan Liggitt, Staff -Software -Ingenieur bei Google | [@liggitt][5]
   *** Primärsprache: ** GO
   *** Anzahl der Sterne: ** 81.300
   *** Anzahl der Gabeln: ** 2,960
-[Kubernetes] [6] ist eine Open -Source -Container -Orchestrierungsplattform und auch als ** k8s oder kube ** bekannt. Kubernetes Ein OG im Containerraum ist Open-Source-System zur Automatisierung von Container-Computeranwendungen, die Erstellung, Bereitstellung, Testen, Skalierungsressourcen und Anwendungen in Echtzeit erstellen. ** K9S ** Kubernetes, die ** Kubernetes cli **, die es einfacher macht, Ihre Kubernetes -Cluster zu navigieren, zu beobachten und zu verwalten.
+[Kubernetes][6] ist eine Open -Source -Container -Orchestrierungsplattform und auch als ** k8s oder kube ** bekannt. Kubernetes Ein OG im Containerraum ist Open-Source-System zur Automatisierung von Container-Computeranwendungen, die Erstellung, Bereitstellung, Testen, Skalierungsressourcen und Anwendungen in Echtzeit erstellen. ** K9S ** Kubernetes, die ** Kubernetes cli **, die es einfacher macht, Ihre Kubernetes -Cluster zu navigieren, zu beobachten und zu verwalten.
 Open Source ** Container -Orchestrierung ** System Kubernetes Hauptaufgabe ist die Vereinfachung der Betriebsanstrengungen technischer Teams, indem viele der Arbeitsbelastung von Anwendungen und Diensten bereitgestellt werden. Es wurde ursprünglich von Google entwickelt, jetzt von der ** Cloud Native Computing Foundation ** (CNCF) geführt und Mitte 2014 als Open Source veröffentlicht.
 ** Zu den Top -Begleitern, die Kubernetes verwenden ** in ihren Tech -Stapeln gehören Google, China Unicom, Udemy, Spotify, Stackshare und AppDirect.
 
@@ -70,12 +70,12 @@ Open Source ** Container -Orchestrierung ** System Kubernetes Hauptaufgabe ist d
 {{< figure align=center src="images/Ansible-open-source-automation-tool.png" alt="Open Source Ansible Automation Tool">}}
 
   *** Anzahl der Mitwirkenden: ** 5,256
-  *** Top -Mitarbeiter: ** Brian Coca, Sr. Software Engineer bei Ansible | [@brian_coca] [7]
+  *** Top -Mitarbeiter: ** Brian Coca, Sr. Software Engineer bei Ansible | [@brian_coca][7]
   *** Primärsprache: ** Python
   *** Anzahl der Sterne: ** 49.900
   *** Anzahl der Gabeln: ** 2,110
-[Ansible] [8] ist ein Open -Source -Community -Projekt und eine beliebte IT -Automatisierungsmotor, die von ** Red Hat ** gesponsert wird. Es handelt sich um Software -Bereitstellungen, Konfigurationsverwaltungen und Anwendungsbereitstellungen, die die Infrastruktur als Code ermöglichen. Darüber hinaus läuft es sowohl auf UNIX-ähnlichen Systemen als auch auf Microsoft Windows-Systemen. Ansible Top Open Source-Software ist die einfachste Möglichkeit, Apps, menschlich-lesbare Sprache, IT-Infrastruktur und kontinuierliche Lieferung zu automatisieren.
-Ansible Open Source ** Automatisierungstool ** und kostenlose Software ist in Python geschrieben und verwaltet Knoten über ** ssh **. Es eliminiert einen Großteil der komplexen redundanten Aufgaben und wurde 2015 von Red Hat übernommen. Ansible Top Open -Source -Projekte in [Github Octoverse] [9] Liste der besten Open -Source -Automatisierungsprojekte von Mitwirkenden seit 2016.
+[Ansible][8] ist ein Open -Source -Community -Projekt und eine beliebte IT -Automatisierungsmotor, die von ** Red Hat ** gesponsert wird. Es handelt sich um Software -Bereitstellungen, Konfigurationsverwaltungen und Anwendungsbereitstellungen, die die Infrastruktur als Code ermöglichen. Darüber hinaus läuft es sowohl auf UNIX-ähnlichen Systemen als auch auf Microsoft Windows-Systemen. Ansible Top Open Source-Software ist die einfachste Möglichkeit, Apps, menschlich-lesbare Sprache, IT-Infrastruktur und kontinuierliche Lieferung zu automatisieren.
+Ansible Open Source ** Automatisierungstool ** und kostenlose Software ist in Python geschrieben und verwaltet Knoten über ** ssh **. Es eliminiert einen Großteil der komplexen redundanten Aufgaben und wurde 2015 von Red Hat übernommen. Ansible Top Open -Source -Projekte in [Github Octoverse][9] Liste der besten Open -Source -Automatisierungsprojekte von Mitwirkenden seit 2016.
 ** Zu den Top -Unternehmen, die Ansible ** in ihren Tech -Stapeln verwenden, gehören Udemy, LaunchDark, Andyet, Atlassian, Care.com und Tokopedia.
 
 ## 5. Django
@@ -83,11 +83,11 @@ Ansible Open Source ** Automatisierungstool ** und kostenlose Software ist in Py
 {{< figure align=center src="images/open-source-web-framework.png" alt="Open Source Django Web Application Framework">}}
 
   *** Anzahl der Mitwirkenden: ** 2,111
-  *** Top -Mitarbeiter: ** Tim Graham | [@timograham] [10]
+  *** Top -Mitarbeiter: ** Tim Graham | [@timograham][10]
   *** Primärsprache: ** Python
   *** Anzahl der Sterne: ** 59.800
   *** Anzahl der Gabeln: ** 2,550
-[Django] [11] ist ein hochrangiges Open-Source-Web-Framework, das in Python geschrieben wurde, das dem architektonischen Muster der Modellvorlage ansieht. Es ist die beliebteste Open -Source -Software und ** Rapid Application Development Framework **, die Python -Entwicklern für die schnelle Webentwicklung helfen sollen. Es hilft Webentwicklern auch, viele häufige Sicherheitsfehler und Fehler wie ** SQL Injection **, Cross-Site-Skript, Clickjacking und mehr zu vermeiden.
+[Django][11] ist ein hochrangiges Open-Source-Web-Framework, das in Python geschrieben wurde, das dem architektonischen Muster der Modellvorlage ansieht. Es ist die beliebteste Open -Source -Software und ** Rapid Application Development Framework **, die Python -Entwicklern für die schnelle Webentwicklung helfen sollen. Es hilft Webentwicklern auch, viele häufige Sicherheitsfehler und Fehler wie ** SQL Injection **, Cross-Site-Skript, Clickjacking und mehr zu vermeiden.
 Python ist objektorientierte Skriptsprache, mit der Anwendungen in wie künstlicher Intelligenz, maschinelles Lernen, Desktop-Apps usw. erstellt werden Software Foundation ** (DSF).
 ** Zu den Top -Unternehmen, die Django verwenden.
 
@@ -97,10 +97,12 @@ _Was sind Ihre favorisierten kostenlosen und Open -Source -Softwareprojekte?. Ha
 
 ## Erkunden:
 Wir haben auch mehrere andere verwandte Informationen von OSS Watch:
-  * [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software] [13]
-  * [Top 5 Open Source Message Queue (MQ) Software im Jahr 2021] [14]
-  * [Beliebteste Open Source Digital Forensic Tools] [15]
-  * [Beliebteste Open-Source-Lizenzen] [16]
+  * [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][13]
+  * [Top 5 Open Source Message Queue (MQ) Software im Jahr 2021][14]
+  * [Beliebteste Open Source Digital Forensic Tools][15]
+  * [Beliebteste Open-Source-Lizenzen][16]
+
+  
 [1]: https://twitter.com/spyced?lang=en
 [2]: https://cassandra.apache.org/
 [3]: https://github.com/tensorflower-gardener

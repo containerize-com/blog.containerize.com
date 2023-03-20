@@ -15,18 +15,18 @@ categories: ['Blogging', 'Video Conferencing Software']
 
 
 ## Genel Bakış
-[Blogging] [1] ve [video konferans yazılımı] [2] serisindeki başka bir blog yayınına hoş geldiniz. Son zamanlarda, [Açık Kaynak Jitsi Meet'i kurmak için adım adım kılavuz] [3], [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial] [4] ve biraz daha. Bu blog yazısında, WordPress ve Jitsi Meet'i kapsamaya çalışacağız ve ** jitsi Meet WordPress eklentisini nasıl yükleyebileceğimizi göreceğiz **. Ancak, her iki yazılım da açık kaynaktır ve kendi kendine barınma yetenekleriyle birlikte gelir. Aslında, uzaktan çalışma modeline olan talep, pandemiden sonra çok fazla artmıştır. Eğitim, sağlık ve diğer endüstriler gibi yaşamın her sektörü uzak modeli benimsemiştir.
+[Blogging][1] ve [video konferans yazılımı][2] serisindeki başka bir blog yayınına hoş geldiniz. Son zamanlarda, [Açık Kaynak Jitsi Meet'i kurmak için adım adım kılavuz][3], [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial][4] ve biraz daha. Bu blog yazısında, WordPress ve Jitsi Meet'i kapsamaya çalışacağız ve ** jitsi Meet WordPress eklentisini nasıl yükleyebileceğimizi göreceğiz **. Ancak, her iki yazılım da açık kaynaktır ve kendi kendine barınma yetenekleriyle birlikte gelir. Aslında, uzaktan çalışma modeline olan talep, pandemiden sonra çok fazla artmıştır. Eğitim, sağlık ve diğer endüstriler gibi yaşamın her sektörü uzak modeli benimsemiştir.
 Bu nedenle, açık kaynak toplantı yazılımı, iş operasyonlarını uzaktan yürütmek için yeterli olan tüm özellikleri ve özellikleri ortaya çıkarır. Jitsi Meet, geliştirme, dağıtım ve kullanım ile ilgili kapsamlı belgelerle mevcut olan ** açık kaynak toplantı yazılımı **'lardan biridir. Yani, aşağıdaki noktaları ele alacağız.
-  * [Jitsi Neler Meet?] [5]
-  * [Blog yazılımının kısa tanıtımı (WordPress)] [6]
-  * [Jitsi Meet'i WordPress'te nasıl kurar?] [7]
-  * [Sonuç] [8]
+  * [Jitsi Neler Meet?][5]
+  * [Blog yazılımının kısa tanıtımı (WordPress)][6]
+  * [Jitsi Meet'i WordPress'te nasıl kurar?][7]
+  * [Sonuç][8]
 
 ## Jitsi ne buluşuyor? {#Ne}
-Jitsi Meet, çok çeşitli özellikler sunan açık kaynaklı bir ** video konferans yazılımı **'dır. Son derece gizlilik odaklıdır ve veri şifrelemesi sunar. Bu video konferans yazılımı, yüksek kaliteli video görüşmeleri sağlamak için WebRTC'yi kullanır. Buna ek olarak, birden fazla katılımcı, emojilerle sohbet edebilecekleri çağrıya katılabilir ve içeriklerini sunmak için ekranı paylaşabilir. Üyeler konferansın bir URL'sini paylaşarak diğer meslektaşlarını davet edebilirler. Ayrıca, kurulumu kolaydır ve basit dağıtım ve kurulum adımları ile birlikte gelir. Jitsi Meet son derece genişletilebilir ve geliştiriciler bunu ihtiyaçlarına göre genişletebilirler. Bu ücretsiz video konferans yazılımı JavaScript'te yazılmıştır. Bu nedenle, kullanıcıların destek bulabileceği [GitHub] [9] repo'sunda iyi istatistikler vardır.
+Jitsi Meet, çok çeşitli özellikler sunan açık kaynaklı bir ** video konferans yazılımı **'dır. Son derece gizlilik odaklıdır ve veri şifrelemesi sunar. Bu video konferans yazılımı, yüksek kaliteli video görüşmeleri sağlamak için WebRTC'yi kullanır. Buna ek olarak, birden fazla katılımcı, emojilerle sohbet edebilecekleri çağrıya katılabilir ve içeriklerini sunmak için ekranı paylaşabilir. Üyeler konferansın bir URL'sini paylaşarak diğer meslektaşlarını davet edebilirler. Ayrıca, kurulumu kolaydır ve basit dağıtım ve kurulum adımları ile birlikte gelir. Jitsi Meet son derece genişletilebilir ve geliştiriciler bunu ihtiyaçlarına göre genişletebilirler. Bu ücretsiz video konferans yazılımı JavaScript'te yazılmıştır. Bu nedenle, kullanıcıların destek bulabileceği [GitHub][9] repo'sunda iyi istatistikler vardır.
 
 ## Bloglama yazılımının kısa tanıtımı (WordPress) {#Intro}
-Bu ** WordPress Eklenti Eğitimi ** blog yazısının bölümünde, en popüler ve yaygın olarak kullanılan açık kaynak blog yazılımından geçeceğiz. Ancak, en iyi blog yazılımından [WordPress] [10] hızla geçeceğiz. WordPress, çok amaçlı ve bir blog platformu olarak ve bir içerik yönetim sistemi olarak kabul edilen eksiksiz bir pakettir. Aslında, açık kaynak, kendi kendine barındırılmış, çok dilli ve iş web siteleri oluşturmak için kurumsal düzeyde özellikler sunuyor. Geliştiricilerin, gereksinimi karşılamak için gereken herhangi bir eklentiyi kolayca erişebilecekleri ve yükleyebilecekleri büyük bir eklenti havuzu vardır. Buna ek olarak, yeni özellik isteklerine ve sorgularına aktif olarak yanıt veren çok canlı, canlı bir topluluğa sahiptir. WordPress ayrıca [GitHub] [11] Repo'da çok iyi istatistiklere sahiptir. Bu nedenle, geliştiriciler destekleyici materyalleri kolayca bulabilirler.
+Bu ** WordPress Eklenti Eğitimi ** blog yazısının bölümünde, en popüler ve yaygın olarak kullanılan açık kaynak blog yazılımından geçeceğiz. Ancak, en iyi blog yazılımından [WordPress][10] hızla geçeceğiz. WordPress, çok amaçlı ve bir blog platformu olarak ve bir içerik yönetim sistemi olarak kabul edilen eksiksiz bir pakettir. Aslında, açık kaynak, kendi kendine barındırılmış, çok dilli ve iş web siteleri oluşturmak için kurumsal düzeyde özellikler sunuyor. Geliştiricilerin, gereksinimi karşılamak için gereken herhangi bir eklentiyi kolayca erişebilecekleri ve yükleyebilecekleri büyük bir eklenti havuzu vardır. Buna ek olarak, yeni özellik isteklerine ve sorgularına aktif olarak yanıt veren çok canlı, canlı bir topluluğa sahiptir. WordPress ayrıca [GitHub][11] Repo'da çok iyi istatistiklere sahiptir. Bu nedenle, geliştiriciler destekleyici materyalleri kolayca bulabilirler.
 
 ## Jitsi Meet'i WordPress'e nasıl yükleyebilirim? {#Nasıl}
 Böylece, Jitsi Meet ve WordPress'in kısa bir tanıtımından geçtik. Ancak, bu bölümde ** açık kaynak toplantı yazılımı ** jitsi buluşma yükleme adımlarını göreceğiz.
@@ -48,17 +48,19 @@ Aynı şekilde, kendiniz daha fazla keşfedebilirsiniz. Bu ** Jitsi Meet WordPre
 
 ## Sonuç {#Conclusion}
 Bu bizi bu ** WordPress Eklenti Eğitimi ** blog yazısının sonuna getiriyor. Bu makalenin size konunun iyi bir gösterisini vermesini umuyoruz. *Jitsi Meet WordPress eklentisi **, Jitsi Meet nedir ve WordPress'in kısa bir girişini nasıl kuracağımızdan geçtik. Uzaktan bir işbirliği yazılımına uyarlamak, işletmenize her zaman rekabet avantajı verir ve sonuçta olumlu bir sonuç elde edersiniz. Bu alanda bulabileceğiniz başka açık kaynak seçenekleri de vardır. Aşağıdaki ‘Keşfet” bölümünde, kontrol edebileceğiniz başka ilgili makaleler de vardır.
-Son olarak, [Containerize.com] [12] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video konferans yazılımı] [13] ve [bloglama platformları] [14] kategorileri ile iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [15], [LinkedIn] [16] ve [Twitter] [17] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][12] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video konferans yazılımı][13] ve [bloglama platformları][14] kategorileri ile iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][15], [LinkedIn][16] ve [Twitter][17] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Açık Kaynak Jitsi Meet'i kurmak için adım adım kılavuz] [3]
-  * [Ücretsiz video konferans çözümleri işletmenize nasıl fayda sağlıyor] [18]
-  * [2021 Top 5 Açık Kaynak Video Konferans Yazılımı] [19]
-  * [WordPress için Matomo Nasıl Kurulur | WordPress öğreticisi] [20]
-  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu] [21]
-  * [Civicrm WordPress Entegrasyonu | WordPress Tutorial] [22]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [23]
+  * [Açık Kaynak Jitsi Meet'i kurmak için adım adım kılavuz][3]
+  * [Ücretsiz video konferans çözümleri işletmenize nasıl fayda sağlıyor][18]
+  * [2021 Top 5 Açık Kaynak Video Konferans Yazılımı][19]
+  * [WordPress için Matomo Nasıl Kurulur | WordPress öğreticisi][20]
+  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu][21]
+  * [Civicrm WordPress Entegrasyonu | WordPress Tutorial][22]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][23]
+
+  
 [1]: https://blog.containerize.com/category/blogging/
 [2]: https://blog.containerize.com/category/video-conferencing-software/
 [3]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/

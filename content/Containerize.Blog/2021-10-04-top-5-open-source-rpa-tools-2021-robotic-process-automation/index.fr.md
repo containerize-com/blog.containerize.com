@@ -29,7 +29,7 @@ Nous y voilà !!!
 
 {{< figure align=center src="images/Open-Source-Blue-Prism.png.jpg" alt="">}}
 
-[Blue Prism] [1] RPA fournit toutes les capacités de base. Il peut fonctionner sur n'importe quelle plate-forme avec n'importe quelle application. Pour utiliser cet outil, vous devriez avoir des compétences en programmation, mais elle est conviviale pour les développeurs. Cet outil est parfait pour les organisations moyennes et grandes.
+[Blue Prism][1] RPA fournit toutes les capacités de base. Il peut fonctionner sur n'importe quelle plate-forme avec n'importe quelle application. Pour utiliser cet outil, vous devriez avoir des compétences en programmation, mais elle est conviviale pour les développeurs. Cet outil est parfait pour les organisations moyennes et grandes.
 **Caractéristiques:**
   * Il prend en charge le modèle de déploiement multi-environnement.
   * Sécurité prévue pour les informations d'identification du réseau et du logiciel.
@@ -49,13 +49,13 @@ Nous y voilà !!!
   * Sciences de la santé et de la vie
   * Secteur de l'éducation
 ** Meilleur pour: ** Automatisation des processus de back-office.
-** [En savoir plus sur le prisme bleu] [1] **
+** [En savoir plus sur le prisme bleu][1] **
 
 ## 2. Automatisation n'importe où
 
 {{< figure align=center src="images/Open-Source-Automation-Anywhere.png" alt="">}}
 
-[Automation Anywhere] [2] fournit toutes les capacités de base. Il fournit des services sur site et cloud. Cet outil convivial est parfait pour les organisations moyennes et grandes.
+[Automation Anywhere][2] fournit toutes les capacités de base. Il fournit des services sur site et cloud. Cet outil convivial est parfait pour les organisations moyennes et grandes.
 **Caractéristiques:**
   * Fournit une sécurité de qualité bancaire.
   * Fournit la sécurité par l'authentification, le chiffrement et les informations d'identification.
@@ -71,13 +71,13 @@ Nous y voilà !!!
   * Plateformes sociales
   * Secteur énergétique
 ** Meilleur pour: ** Facilité d'utilisation.
-** [En savoir plus sur l'automatisation n'importe où] [2] **
+** [En savoir plus sur l'automatisation n'importe où][2] **
 
 ## 3. Uipath
 
 {{< figure align=center src="images/Open-Source-UiPath-1024x356.png" alt="">}}
 
-[UIPATH] [3] fournit toutes les capacités de base. Il prend en charge Citrix. Il est également convivial pour les non-développeurs. Il peut gérer des processus complexes. Et cet outil est parfait pour toute taille d'activité.
+[UIPATH][3] fournit toutes les capacités de base. Il prend en charge Citrix. Il est également convivial pour les non-développeurs. Il peut gérer des processus complexes. Et cet outil est parfait pour toute taille d'activité.
 **Caractéristiques:**
   * Il assure la sécurité en gérant les informations d'identification, en fournissant des contrôles de chiffrement et d'accès en fonction du rôle.
   * Il peut automatiser plus rapidement. Automatisation huit à dix fois plus rapide via Citrix également.
@@ -101,13 +101,13 @@ Pour les petites équipes et les individus, UIPATH fournit l'édition communauta
   * Retail et CPG
   * Secteur public
 ** Meilleur pour: ** Améliorations de la conformité et de la productivité.
-** [En savoir plus sur uipath] [3] **
+** [En savoir plus sur uipath][3] **
 
 ## 4. Pega
 
 {{< figure align=center src="images/Open-Source-Pega.png" alt="">}}
 
-[Pega] [4] est un outil de gestion des processus métier. Il peut être utilisé sur les serveurs de bureau. Il ne fournit que des solutions ou des services basés sur le cloud. Il peut fonctionner sur Windows, Linux et Mac. Cet outil est parfait pour les entreprises moyennes et grandes.
+[Pega][4] est un outil de gestion des processus métier. Il peut être utilisé sur les serveurs de bureau. Il ne fournit que des solutions ou des services basés sur le cloud. Il peut fonctionner sur Windows, Linux et Mac. Cet outil est parfait pour les entreprises moyennes et grandes.
 **Caractéristiques:**
   * Cela vous aidera dans le déploiement de vos solutions aux clients.
   * Il fournit une solution basée sur le cloud.
@@ -128,13 +128,13 @@ Pour les petites équipes et les individus, UIPATH fournit l'édition communauta
   * Détail
   * Médias et divertissement
 ** Meilleur pour: ** Solutions CRM et support de plate-forme.
-** [En savoir plus sur Pega] [4] **
+** [En savoir plus sur Pega][4] **
 
 ## 5. Kofax
 
 {{< figure align=center src="images/Open-Source-Kofax.png" alt="">}}
 
-[Kofax] [5] peut travailler avec n'importe quelle application pratiquement. Les compétences de codage ne sont pas obligatoires pour cet outil. Il peut traiter les données à partir de n'importe quel site Web, application de bureau et portail.
+[Kofax][5] peut travailler avec n'importe quelle application pratiquement. Les compétences de codage ne sont pas obligatoires pour cet outil. Il peut traiter les données à partir de n'importe quel site Web, application de bureau et portail.
 **Caractéristiques:**
   * Il effectue des tâches répétitives efficacement.
   * Outil intelligent pour surveiller et optimiser les processus.
@@ -153,18 +153,20 @@ Pour les petites équipes et les individus, UIPATH fournit l'édition communauta
   * Transport et logistique
   * Industrie transversale
 ** Mieux pour: ** Les entreprises lourdes de l'information qui souhaitent des processus métier accélérés.
-** [En savoir plus sur Kofax] [5] **
+** [En savoir plus sur Kofax][5] **
 
 ## ** Conclusion: ** {# 4A1A}
 Les cinq outils RPA open source mentionnés ci-dessus sont les plus populaires gratuits et les meilleurs outils RPA open source pour les développeurs. Plus pour notre comparaison de chaque outil en détail ici, Blue Prism est le meilleur outil, mais vous devez vous entraîner avant de l'utiliser. Et la formation est également coûteuse. Uipath est facile à utiliser même pour les non-développeurs. Il offre les mêmes fonctionnalités, et même il sert à petites industries à petite échelle. Pour les applications des postes de travail, le contextor est la meilleure option car ils ont une spécialité.
-_Les quels sont vos outils RPA open source les plus préférés ?. Avez-vous des questions sur les outils RPA open source?, S'il vous plaît_ [contacter] [6].
+_Les quels sont vos outils RPA open source les plus préférés ?. Avez-vous des questions sur les outils RPA open source?, S'il vous plaît_ [contacter][6].
 
 ## Explorer:
 Nous avons également plusieurs autres informations connexes:
-  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source] [7]
-  * [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021] [8]
-  * [Outils médico-légaux numériques les plus populaires] [9]
-  * [Licences open source les plus populaires approuvées OSI] [10]
+  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source][7]
+  * [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021][8]
+  * [Outils médico-légaux numériques les plus populaires][9]
+  * [Licences open source les plus populaires approuvées OSI][10]
+
+  
 [1]: https://www.blueprism.com/
 [2]: https://www.automationanywhere.com/
 [3]: https://www.uipath.com/

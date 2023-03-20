@@ -15,21 +15,21 @@ categories: ['Blogging', 'Discussion Forum']
 
 Varios sitios web mantienen un foro para sus problemas de soporte. Además, las comunidades lo utilizan para compartir ideas y experiencias. Las empresas promueven sus foros comunitarios. Porque, les ayuda a construir una comunidad en torno a sus productos donde las personas hablan sobre el producto y comparten soluciones. En este tutorial aprenderemos cómo integrar el foro del discurso con WordPress.
 Es un desafío integrar un foro con sitios web alimentados por WordPress. Aunque, hay una serie de complementos disponibles para configurar el foro de discusión. Como, Bbpress y BuddyPress. Pero, puede ser difícil mantener un gran foro comunitario.
-  * [Discurso] [1]
-  * [WordPress] [2]
-  * [Complemento oficial] [3]
-  * [Instalación] [4]
-  * [Configuración] [5]
+  * [Discurso][1]
+  * [WordPress][2]
+  * [Complemento oficial][3]
+  * [Instalación][4]
+  * [Configuración][5]
 
 ### Discurso {#discourse}
-El discurso es un software 100% gratuito, totalmente abierto, moderno, fácil de usar, rico en funciones, basado en el foro de discusión basado en características. Acompaña a una amplia gama de herramientas para discusiones comunitarias. Por lo tanto, su plataforma confiable y adaptable. [Leer más] [6]
+El discurso es un software 100% gratuito, totalmente abierto, moderno, fácil de usar, rico en funciones, basado en el foro de discusión basado en características. Acompaña a una amplia gama de herramientas para discusiones comunitarias. Por lo tanto, su plataforma confiable y adaptable. [Leer más][6]
 
 ### WordPress {#wordpress}
-WordPress es uno de los software de creación de sitios web y blogs más populares. Su código 100% abierto y tiene una gran comunidad de desarrolladores. Como resultado, esto lo convierte en la opción número uno de desarrolladores, bloggers y constructores de sitios web. Una gran cantidad de sitios web en línea se ejecutan hoy en WordPress. Porque, permite que cualquier persona sin experiencia en desarrollo cree sitios web. [Leer más] [7]
+WordPress es uno de los software de creación de sitios web y blogs más populares. Su código 100% abierto y tiene una gran comunidad de desarrolladores. Como resultado, esto lo convierte en la opción número uno de desarrolladores, bloggers y constructores de sitios web. Una gran cantidad de sitios web en línea se ejecutan hoy en WordPress. Porque, permite que cualquier persona sin experiencia en desarrollo cree sitios web. [Leer más][7]
 
 ### complemento oficial de WordPress para el discurso {#plugin}
 Teniendo en cuenta el volumen de sitios web alimentados por WordPress. Y, una gran demanda de integración con WordPress. Discurso, ha lanzado un complemento oficial de WordPress que hace que la integración sea realmente fácil.
-[Discurso WP] [8] es el discurso oficial del complemento de WordPress es de código abierto al 100%. Y está disponible gratuitamente para descargar desde el repositorio. El código fuente está disponible en [GitHub] [9].
+[Discurso WP][8] es el discurso oficial del complemento de WordPress es de código abierto al 100%. Y está disponible gratuitamente para descargar desde el repositorio. El código fuente está disponible en [GitHub][9].
 Este complemento le permite utilizar el discurso como motor comunitario para su sitio web o blog de WordPress. Tiene muchas características y algunos de los aspectos más destacados del complemento, y lo que se puede lograr es lo siguiente.
   * Crea automáticamente un tema del foro para la discusión cuando se publica una nueva publicación de blog.
   * Asociar cuentas de autor de WP con sus respectivas cuentas del discurso. No requiere SSO.
@@ -66,6 +66,8 @@ La configuración de SSO le permite habilitar el inicio de sesión único entre 
 
 ### Conclusión
 En este tutorial hemos aprendido a integrar el discurso con WordPress. El discurso de WP ha facilitado la fusión de dos productos de primera clase. Como resultado, la integración con WordPress ha resuelto el problema de una gran comunidad que era difícil administrar un foro.
+
+  
 [1]: #discourse
 [2]: #wordpress
 [3]: #plugin

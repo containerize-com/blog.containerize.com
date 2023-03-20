@@ -13,14 +13,14 @@ categories: ['Content Management']
 
 {{< figure align=center src="images/joomla-templates-2.png" alt="Modèle de base Joomla">}}
 
-À cette époque numérique, un système de gestion de contenu est une nécessité fondamentale de toute entreprise pour tous leurs besoins de création de contenu. Et, il existe un certain nombre de logiciels CMS open-source et payants disponibles sur le marché. Nous avons également [répertorié] [1] certains des meilleurs logiciels de gestion de contenu open source pour les entreprises. Joomla est l'un des logiciels CMS open source les plus populaires et dans ce tutoriel, nous vous guiderons étape par étape et expliquer comment créer un modèle Joomla à partir de zéro. Alors, commençons!
+À cette époque numérique, un système de gestion de contenu est une nécessité fondamentale de toute entreprise pour tous leurs besoins de création de contenu. Et, il existe un certain nombre de logiciels CMS open-source et payants disponibles sur le marché. Nous avons également [répertorié][1] certains des meilleurs logiciels de gestion de contenu open source pour les entreprises. Joomla est l'un des logiciels CMS open source les plus populaires et dans ce tutoriel, nous vous guiderons étape par étape et expliquer comment créer un modèle Joomla à partir de zéro. Alors, commençons!
 ** Remarque: nous supposons que la version Joomla 2.5 est installée **
-  * ** [Structure du répertoire de configuration] [2] **
-  * ** [Créez un fichier de base templatedetails.xml] [3] **
-  * ** [Créer un fichier index.php de base] [4] **
-  * ** [Modèle de découverte et d'installation] [5] **
-  * ** [Package le modèle] [6] **
-  * ** [Conclusion] [7] **
+  * ** [Structure du répertoire de configuration][2] **
+  * ** [Créez un fichier de base templatedetails.xml][3] **
+  * ** [Créer un fichier index.php de base][4] **
+  * ** [Modèle de découverte et d'installation][5] **
+  * ** [Package le modèle][6] **
+  * ** [Conclusion][7] **
 
 ## Structure du répertoire de configuration {#SetUp}
 Pour créer d'abord un modèle Joomla très basique, créez un nouveau dossier dans le dossier Modèles. Nommez le dossier comme vous voulez appeler votre modèle, par exemple «** myNewTemplate **».
@@ -106,7 +106,9 @@ Dans cet article, nous avons appris le modèle Joomla. Nous avons parcouru étap
 
 ## Pages de produits pertinents
 Vous pouvez trouver les liens suivants pertinents:
-  * [Guide de développement du modèle Joomla pour les débutants] [8]
+  * [Guide de développement du modèle Joomla pour les débutants][8]
+
+  
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

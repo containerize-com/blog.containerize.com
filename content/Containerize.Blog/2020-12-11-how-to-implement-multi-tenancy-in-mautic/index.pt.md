@@ -14,16 +14,16 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/Mautic-multitenancy.png" alt="Como implementar multi-tenância em mautic">}}
 
 A Mautic é uma solução de automação de marketing gratuita e de código aberto que oferece controle completo sobre seus e -mails de marketing, páginas de destino, fluxos de trabalho e medidas para suas atividades de marketing. Abordaremos as seguintes seções neste tutorial:
-  * [O que é multi-ingestão] [1]
-  * [O que é Mautic] [2]
-  * [Implemente a multiestância em Mautic] [3]
-  * [Conclusão] [4]
+  * [O que é multi-ingestão][1]
+  * [O que é Mautic][2]
+  * [Implemente a multiestância em Mautic][3]
+  * [Conclusão][4]
 
 ## o que é multi-tenancidade {#multi-tenancidade}
 Na arquitetura de software com vários inquilinos, uma única instância de um aplicativo de software serve a vários inquilinos. Cada dados do inquilino são isolados de outro inquilino compartilhando a mesma instância do aplicativo. Esses inquilinos são logicamente isolados, mas fisicamente integrados. Isso garante segurança de dados e privacidade para todos os inquilinos. Criar vários inquilinos a partir de uma única instância de aplicativo requer muito menos memória. Os inquilinos compartilham recursos e diminuem os custos da manutenção de software, infraestrutura e operações de data center. Os custos tendem a ser mais baixos do que os de uma infraestrutura de um inquilino.
 
 ## o que é mautico {#mautic}
-[Mautic] [5] é um software de marketing de código aberto e gratuito. Automatize tarefas de marketing repetitivo, como campanhas de marketing, geração de leads, segmentação de contato, etc. usando a Mautic. Possui recursos surpreendentes, incluindo geração de leads, construção de campanhas, segmentação de contatos, construtor de e -mails, testes A/B, construtor de páginas, nutrição de chumbo e muito mais. A Mautic também suporta integração com todas as plataformas sociais populares, p. Facebook, Twitter, LinkedIn. Todos esses recursos incríveis ajudam você a aumentar a experiência geral do cliente e melhorar a automação de marketing para o seu negócio.
+[Mautic][5] é um software de marketing de código aberto e gratuito. Automatize tarefas de marketing repetitivo, como campanhas de marketing, geração de leads, segmentação de contato, etc. usando a Mautic. Possui recursos surpreendentes, incluindo geração de leads, construção de campanhas, segmentação de contatos, construtor de e -mails, testes A/B, construtor de páginas, nutrição de chumbo e muito mais. A Mautic também suporta integração com todas as plataformas sociais populares, p. Facebook, Twitter, LinkedIn. Todos esses recursos incríveis ajudam você a aumentar a experiência geral do cliente e melhorar a automação de marketing para o seu negócio.
 
 ## Implemente multi-tenancidade em Mautic {#implement}
   * Crie um novo banco de dados vazio nomeado como "main_db".
@@ -53,11 +53,13 @@ A Mautic é uma solução de automação de marketing livre, rica e orientada pa
 
 ## Explore
 Para saber mais sobre Mautic e Facebook, visite:
-  * [Mautic | Plataforma de tecnologia de marketing de conteúdo de código aberto] [5]
-  * [Como configurar campanhas mauticas usando o construtor de campanhas] [6]
-  * [Integração Mautic Drupal para automatizar a nutrição de chumbo] [7]
-  * [Automação de marketing com integração Mautic e WooCommerce] [8]
-  * [Integre Mautic & Joomla para automação de marketing digital] [9]
+  * [Mautic | Plataforma de tecnologia de marketing de conteúdo de código aberto][5]
+  * [Como configurar campanhas mauticas usando o construtor de campanhas][6]
+  * [Integração Mautic Drupal para automatizar a nutrição de chumbo][7]
+  * [Automação de marketing com integração Mautic e WooCommerce][8]
+  * [Integre Mautic & Joomla para automação de marketing digital][9]
+
+  
 [1]: #multi-tenancy
 [2]: #mautic
 [3]: #implement

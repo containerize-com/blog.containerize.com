@@ -16,12 +16,12 @@ categories: ['Web Server Solution Stack']
 
 ## Aperçu
 Bien qu'Apache et Nginx partagent de nombreuses qualités, ils ne doivent pas être considérés comme entièrement interchangeables. Les deux serveurs Web open source sont différents les uns des autres et doivent être sélectionnés en fonction des besoins de vos applications Web. Dans cet article, nous discuterons en détail ** APACHE VS NGINX **.
-  * [Qu'est-ce que Apache?] [1]
-  * [Qu'est-ce que Nginx?] [2]
-  * [Comparaison apache vs nginx] [3]
-  * [Est nginx mieux qu'apache] [4]
-  * [Conclusion] [5]
-  * [Explorer] [6]
+  * [Qu'est-ce que Apache?][1]
+  * [Qu'est-ce que Nginx?][2]
+  * [Comparaison apache vs nginx][3]
+  * [Est nginx mieux qu'apache][4]
+  * [Conclusion][5]
+  * [Explorer][6]
 
 ## Qu'est-ce qu'Apache? {#whatisapache}
 Le serveur Web Apache est l'un des serveurs les plus populaires sur Internet et dessert plus de 27% des sites Web. Apache est principalement le premier choix de développeurs en raison de sa flexibilité, de sa puissance ainsi que d'un support généralisé et de sa documentation détaillée. Il prend en charge les modules à charge dynamiquement qui permettent aux développeurs d'étendre facilement ses fonctionnalités.
@@ -55,15 +55,17 @@ Nginx est plus rapide qu'Apache pour servir le contenu statique. Donc, si votre 
 
 ## Conclusion {#conclusion}
 Apache et Nginx sont capables à leur manière. Nous avons discuté de la comparaison Apache vs Nginx, ce qui est Apache, ce qui est Nginx en détail et la différence entre Apache et Nginx. La sélection d'un à partir de ces deux serveurs Web les plus populaires dépend totalement des exigences de vos applications Web. La sélection dépend de vos attentes avec les performances, l'utilisation des ressources, la vitesse, l'évolutivité et la prise en charge d'un serveur Web. Les deux ont leurs propres avantages. Il n'y a pas de serveur Web unique, alors utilisez la solution qui convient le mieux à vos objectifs et attentes.
-Enfin, [contenerize.com] [7] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [serveurs Web open source] [8] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook] [9], [LinkedIn] [10] et [Twitter] [11].
+Enfin, [contenerize.com][7] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [serveurs Web open source][8] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][9], [LinkedIn][10] et [Twitter][11].
 
 ## Explore {#Explore}
 Vous pouvez trouver les liens suivants pertinents:
-  * [Top 5 des piles de solutions de serveur Web open source en 2021] [12]
-  * [Configuration de XAMPP et PhpMyAdmin en tant que localhost sur Windows] [13]
-  * [XAMPP | Pile de solutions de serveur Web gratuit et open source] [14]
-  * [Nginx | Serveur Web léger et haute performance] [15]
-  * [Configuration du tutoriel pour la pile LEMP sur Ubuntu 18.04] [16]
+  * [Top 5 des piles de solutions de serveur Web open source en 2021][12]
+  * [Configuration de XAMPP et PhpMyAdmin en tant que localhost sur Windows][13]
+  * [XAMPP | Pile de solutions de serveur Web gratuit et open source][14]
+  * [Nginx | Serveur Web léger et haute performance][15]
+  * [Configuration du tutoriel pour la pile LEMP sur Ubuntu 18.04][16]
+
+  
 [1]: #whatisapache
 [2]: #whatisnginx
 [3]: #apachevsnginx

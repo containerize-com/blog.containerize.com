@@ -15,16 +15,16 @@ categories: ['Healthcare Software']
 
 
 ## Descripción general
-Open Source [Software de atención médica] [1] ha ganado una inmensa popularidad en el pasado reciente. En primer lugar, se debe al avance de la tecnología. En segundo lugar, Covid-19 influyó en la industria médica en todos los sentidos y dio a luz una nueva oportunidad para la comunidad de código abierto. Es muy importante proporcionar servicios de salud de alta calidad a los pacientes cuando todo el mundo está pasando por un tiempo crucial. Afortunadamente, hay varias soluciones de gestión de registros de salud de código abierto que proporcionan centralizaciones de datos, transparencia, seguridad, integraciones y muchas otras características poderosas. Estos servicios de salud gratuitos ofrecen un manejo sin problemas de flujos de trabajo, como médicos, pacientes, clínicas y otros miembros del personal. Recientemente, [Contenerize.com] [2] ha publicado algunos artículos sobre sistemas de gestión de información hospitalaria de código abierto que incluyen [Software de registro de salud de pacientes de código abierto de los 5 principales] [3], [Características de la exploración de la solución de salud médica OpenEmr] [4], y [cómo el software de salud en línea permite la industria de la salud] [5].
-En el pasado, escribimos un artículo que describe el procedimiento de configuración de [HospitalRun] [6] en Localhost. En esta publicación de blog, exploraremos [HospitalRun] [6] más al cubrir los siguientes puntos.
-  *** [¿Por qué Hospitalrun?] [7] **
-  *** [pacientes y módulos de programación] [8] **
-  *** [Integración y medicamentos de laboratorio] [9] **
-  *** [Imágenes e incidentes] [10] **
-  *** [Conclusión] [11] **
+Open Source [Software de atención médica][1] ha ganado una inmensa popularidad en el pasado reciente. En primer lugar, se debe al avance de la tecnología. En segundo lugar, Covid-19 influyó en la industria médica en todos los sentidos y dio a luz una nueva oportunidad para la comunidad de código abierto. Es muy importante proporcionar servicios de salud de alta calidad a los pacientes cuando todo el mundo está pasando por un tiempo crucial. Afortunadamente, hay varias soluciones de gestión de registros de salud de código abierto que proporcionan centralizaciones de datos, transparencia, seguridad, integraciones y muchas otras características poderosas. Estos servicios de salud gratuitos ofrecen un manejo sin problemas de flujos de trabajo, como médicos, pacientes, clínicas y otros miembros del personal. Recientemente, [Contenerize.com][2] ha publicado algunos artículos sobre sistemas de gestión de información hospitalaria de código abierto que incluyen [Software de registro de salud de pacientes de código abierto de los 5 principales][3], [Características de la exploración de la solución de salud médica OpenEmr][4], y [cómo el software de salud en línea permite la industria de la salud][5].
+En el pasado, escribimos un artículo que describe el procedimiento de configuración de [HospitalRun][6] en Localhost. En esta publicación de blog, exploraremos [HospitalRun][6] más al cubrir los siguientes puntos.
+  *** [¿Por qué Hospitalrun?][7] **
+  *** [pacientes y módulos de programación][8] **
+  *** [Integración y medicamentos de laboratorio][9] **
+  *** [Imágenes e incidentes][10] **
+  *** [Conclusión][11] **
 
 ## ¿Por qué Hospitalrun? {#por qué}
-Hay muchas razones detrás de la popularidad de este administrador de registros médicos. HospitalRun es un sistema de información de salud y de salud electrónico completo. Admite versiones fuera de línea y en línea. Le permite integrar clínicas y proporciona sincronización de datos. Además, es multilingüe, multiplataforma, y ​​se le ocurre capacidades de autohostación. Este sistema de registros del paciente ofrece gestión de registros del paciente, programación de citas, medicamentos y manejo de recetas. También hay una disposición para generar informes personalizados que contienen detalles de diagnóstico completos. Además, los miembros del personal médico pueden recibir ayuda del módulo de alta del paciente. Sobre todo, este sistema de gestión del hospital ofrece gestión de casos accidentales y de emergencia. Es seguro, confiable y fácil de usar. Sin embargo, este sistema de gestión de registros médicos está completamente escrito en JavaScript y todo el código fuente está disponible en [GitHub] [12] con documentación sobre el desarrollo y la implementación.
+Hay muchas razones detrás de la popularidad de este administrador de registros médicos. HospitalRun es un sistema de información de salud y de salud electrónico completo. Admite versiones fuera de línea y en línea. Le permite integrar clínicas y proporciona sincronización de datos. Además, es multilingüe, multiplataforma, y ​​se le ocurre capacidades de autohostación. Este sistema de registros del paciente ofrece gestión de registros del paciente, programación de citas, medicamentos y manejo de recetas. También hay una disposición para generar informes personalizados que contienen detalles de diagnóstico completos. Además, los miembros del personal médico pueden recibir ayuda del módulo de alta del paciente. Sobre todo, este sistema de gestión del hospital ofrece gestión de casos accidentales y de emergencia. Es seguro, confiable y fácil de usar. Sin embargo, este sistema de gestión de registros médicos está completamente escrito en JavaScript y todo el código fuente está disponible en [GitHub][12] con documentación sobre el desarrollo y la implementación.
 
 ## pacientes y módulos de programación {#modules}
 En esta sección, pasaremos por el tablero de este sistema de gestión de información del hospital. Una vez que inicie sesión, aterrizará en el tablero de HospitalRun como se muestra en la imagen a continuación.
@@ -56,19 +56,21 @@ La imagen se trata de crear una representación visual de algo escaneando con un
 
 ## conclusión {#conclusion}
 Este es el final de esta publicación de blog. De hecho, la mayoría de las instituciones de salud dependen de las operaciones manuales. Podría ser vulnerable con respecto a la seguridad e integridad de los datos. Sin embargo, los sistemas automatizados se aseguran de los aspectos básicos y más críticos de las operaciones de atención médica de rutina. Por lo tanto, la instalación de un buen administrador de registros médicos de código abierto protege sus activos de fuentes no autorizadas y lo ayuda a realizar tareas de rutina con facilidad y confianza. Estos software de código abierto sincronizan múltiples entidades, como médicos, pacientes, clínicas, laboratorios y facilitan el flujo de trabajo. La conclusión es que es hora de adoptar un software de código abierto para que su hospital o clínica se golpee con los últimos desafíos. Puede ahorrar su tiempo y esfuerzos y centrarse en tareas importantes y críticas.
-Finalmente, [Contenerize.com] [2] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [tecnologías de atención médica] [1] para noticias y actualizaciones regulares.
+Finalmente, [Contenerize.com][2] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [tecnologías de atención médica][1] para noticias y actualizaciones regulares.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Openemr] [13]
-  * [OpenMRS] [14]
-  * [Hospitalrun] [15]
-  * [Hospital abierto] [16]
-  * [Solismado] [17]
-  * [Software de registro de salud del paciente de código abierto Top 5] [3]
-  * [Cuenta con exploración de la solución de salud médica Openemr] [4]
-  * [Cómo configurar el Hospital del Sistema EHealth en Localhost] [18]
-  * [Cómo el software de salud en línea permite la industria de la salud] [5]
+  * [Openemr][13]
+  * [OpenMRS][14]
+  * [Hospitalrun][15]
+  * [Hospital abierto][16]
+  * [Solismado][17]
+  * [Software de registro de salud del paciente de código abierto Top 5][3]
+  * [Cuenta con exploración de la solución de salud médica Openemr][4]
+  * [Cómo configurar el Hospital del Sistema EHealth en Localhost][18]
+  * [Cómo el software de salud en línea permite la industria de la salud][5]
+
+  
 [1]: https://products.containerize.com/healthcare-technologies/
 [2]: https://www.containerize.com/
 [3]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/

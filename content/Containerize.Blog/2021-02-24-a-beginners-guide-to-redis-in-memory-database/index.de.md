@@ -14,12 +14,12 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/redis-in-memory-database.png" alt="In-Memory-Datenbank Redis">}}
 
 ** Redis ** steht tatsächlich für "** re ** mote ** di ** ctionary ** s ** erver". Database Redis ist ein Open-Source-Key-Wert-Store. Es unterstützt mehrere Datentypen: Zeichenfolgen, Hashes, Listen, Sets und sortierte Sets. Aus diesem Grund wird es oft als Datenstrukturserver bezeichnet. Redis ist in C geschrieben. Dieses Redis-Tutorial bietet ein gutes Verständnis der Datenbankkonzepte für Redis-In-Memory.
-  *** [Was ist eine NoSQL -Datenbank] [1] **
-  *** [Ist Redis eine NoSQL -Datenbank?] [2] **
-  *** [Wann verwendet Redis?] [3] **
-  *** [Redis gegen andere Schlüsselwertspeicher] [4] **
-  *** [Install Redis auf Ubuntu] [5] **
-  *** [Schlussfolgerung] [6] **
+  *** [Was ist eine NoSQL -Datenbank][1] **
+  *** [Ist Redis eine NoSQL -Datenbank?][2] **
+  *** [Wann verwendet Redis?][3] **
+  *** [Redis gegen andere Schlüsselwertspeicher][4] **
+  *** [Install Redis auf Ubuntu][5] **
+  *** [Schlussfolgerung][6] **
 
 ## Was ist eine NoSQL -Datenbank {#nosql}
 NoSQL -Datenbanken sind sehr beliebt geworden. Große Unternehmen verlassen sich darauf, Hunderte von Petabyte Daten zu speichern und Millionen von Abfragen pro Sekunde zu führen. Aber was ist eine NoSQL -Datenbank? Wie funktioniert es und warum skaliert es so viel besser als herkömmliche relationale Datenbanken? Beginnen wir damit, das Problem mit relationalen Datenbanken wie MySQL, Mariadb, SQL Server schnell zu erklären.
@@ -69,6 +69,8 @@ PONG
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Redis-Tutorial haben wir über die Datenbank für die Redis-In-Memory erfahren. Wir untersuchten den Hauptunterschied zwischen relationalen und nicht-relationalen Datenbanken (NoSQL). Lernte auch, wann wir Redis verwenden sollten und was die besten Anwendungsfälle sind. Dieses Tutorial ist Teil einer laufenden Reihe von Tutorials. In den kommenden Artikeln werden wir die spezifischen Anwendungsfälle von Redis weiter untersuchen.
+
+  
 [1]: #nosql
 [2]: #isnosql
 [3]: #when

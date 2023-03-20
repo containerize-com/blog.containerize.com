@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Create-you-first-php-project-using-xamppA.png" alt="Buat Proyek PHP pertama Anda dengan server web Open Source XAMPP">}}
 
 XAMPP adalah server web open source yang menyediakan lingkungan lokal untuk membuat, menjalankan, dan menguji proyek PHP sebelum menggunakannya di server langsung. Ini menyediakan server lokal bagi pengembang untuk menguji dan membangun aplikasi web. Kami akan membahas bagian berikut dalam posting blog ini:
-  * [Persyaratan] [2]
-  * [Apa itu xampp] [3]
-  * [Buat skrip PHP] [4]
-  * [Jalankan dan uji skrip PHP] [5]
-  * [Kesimpulan] [6]
+  * [Persyaratan][2]
+  * [Apa itu xampp][3]
+  * [Buat skrip PHP][4]
+  * [Jalankan dan uji skrip PHP][5]
+  * [Kesimpulan][6]
 
 ## Persyaratan {#Requirements}
   * Instalasi xampp
@@ -28,7 +28,7 @@ XAMPP adalah server web open source yang menyediakan lingkungan lokal untuk memb
 
 ## Apa itu XAMPP? {#xampp}
 XAMPP adalah tumpukan solusi server web open source. Ini berisi apache, mysql, mariadb, php, dan perl. Sangat mudah dipasang dan digunakan. Itu sebabnya lingkungan pengembangan PHP paling populer. XAMPP Server menyediakan lingkungan yang lengkap untuk pengembangan aplikasi Web PHP. Jika Anda belum memiliki instalasi kerja XAMPP, maka ikuti panduan ini untuk menginstal XAMPP:
-[Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows] [7]
+[Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows][7]
 
 ## Buat skrip php {#php}
   * Dengan asumsi bahwa Anda telah menginstal XAMPP dengan mengikuti tutorial di atas, sekarang mari kita buat skrip PHP sederhana dan mengujinya di XAMPP.
@@ -62,8 +62,10 @@ Membuat proyek web pertama selalu sangat menarik bagi pemula. Rasanya luar biasa
 
 ## Mengeksplorasi
 Untuk mempelajari lebih lanjut tentang XAMPP dan PHPMyAdmin, Panduan Checkout berikut:
-[Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows] [7]
-[Tumpukan solusi server web gratis untuk pengembang php & perl] [1]
+[Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows][7]
+[Tumpukan solusi server web gratis untuk pengembang php & perl][1]
+
+  
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

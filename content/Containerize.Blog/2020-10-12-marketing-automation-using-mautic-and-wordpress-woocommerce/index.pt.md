@@ -18,11 +18,11 @@ categories: ['Blogging', 'Marketing Automation']
 A integração mautic-woocommerce fornece uma maneira fácil de obter todos os contatos no aplicativo Mautic. Em seguida, usando esses contatos, você pode criar campanhas de marketing de acordo com seus requisitos. A Mautic é uma ótima ferramenta de marketing que oferece controle total em suas campanhas de marketing.
 A Mautic é uma solução de automação de marketing de código aberto e gratuito. É usado para criar campanhas de marketing, segmentos, formas, relatórios e muito mais.
 O WooCommerce é um plugin de comércio eletrônico de código aberto para o WordPress. É a solução de comércio eletrônico principalmente usado em todo o mundo neste momento. Existem centenas de complementos disponíveis para o WooCommerce, que podem ser usados ​​de acordo com suas necessidades.
-Existe um plug -in disponível para Mautic e WordPress que fornece solução de automação de marketing. Siga estas etapas para integrar o WooCommerce ao Mautic usando o plug -in [integração com Mautic for WooCommerce - Automation de marketing de código aberto.] [1]
+Existe um plug -in disponível para Mautic e WordPress que fornece solução de automação de marketing. Siga estas etapas para integrar o WooCommerce ao Mautic usando o plug -in [integração com Mautic for WooCommerce - Automation de marketing de código aberto.][1]
 Este blog cobrirá as seguintes seções:
-  * [Configuração do plug -in do WordPress] [2]
-  * [Configuração Mautic] [3]
-  * [Pensamentos finais] [4]
+  * [Configuração do plug -in do WordPress][2]
+  * [Configuração Mautic][3]
+  * [Pensamentos finais][4]
 
 Configuração do plug -in do WordPress {#wordpress}
   1. Vá para plugins.
@@ -65,12 +65,14 @@ A integração mautic-woocommerce juntos pode ajudá-lo a atingir seus objetivos
 
 ## Explore:
 Você pode encontrar links a seguir relevantes:
-  * [Wodpress] [6]
-  * [Mautic] [7]
-  * [Como configurar Mautic - Integração do Facebook] [8]
-  * [Integração mautica do Drupal para automatizar a nutrição de chumbo] [9]
-  * [Automação de marketing usando woocommerce mautic e wordpress] [10]
-  * [Como configurar campanhas de marketing no Mautic] [11]
+  * [Wodpress][6]
+  * [Mautic][7]
+  * [Como configurar Mautic - Integração do Facebook][8]
+  * [Integração mautica do Drupal para automatizar a nutrição de chumbo][9]
+  * [Automação de marketing usando woocommerce mautic e wordpress][10]
+  * [Como configurar campanhas de marketing no Mautic][11]
+
+  
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

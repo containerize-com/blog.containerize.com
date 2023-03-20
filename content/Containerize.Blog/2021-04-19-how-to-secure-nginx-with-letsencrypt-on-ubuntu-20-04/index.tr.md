@@ -108,15 +108,17 @@ CRON işi, yukarıdaki komutta olduğu gibi –Quiet özniteliğini de içermeli
 
 ## Sonuç {#Conclusion}
 Bu makalede, LetsEncrypt SSL sertifikasının nasıl kurulacağını öğrendik. Etki alanınız için SSL sertifikalarını indirdik ve bu sertifikaları kullanacak NGINX'i yapılandırdık. Buna ek olarak, CertBot'un SSL Nginx LetsEncrypt için sertifikaları otomatik olarak yenilemesini sağlamalısınız. Yaklaşan öğreticilerimizde, bir web tarayıcısı ve bir web sunucusu arasında şifreli iletişimi sağlayan standart güvenlik teknolojisine sahip bir web sunucusunun nasıl güvence altına alınacağına dair daha ilginç konular hakkında tartışacağız.
-_ [Twitter] [1], [LinkedIn] [2] ve [Facebook] [3] sayfamızda bize katılabilirsiniz. Bir bilgisayar ağı üzerinden iletişim güvenliği sağlamak için hangi şifreleme protokolünü kullanıyorsunuz?. Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin] [4].
+_ [Twitter][1], [LinkedIn][2] ve [Facebook][3] sayfamızda bize katılabilirsiniz. Bir bilgisayar ağı üzerinden iletişim güvenliği sağlamak için hangi şifreleme protokolünü kullanıyorsunuz?. Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][4].
 
 ## Keşfetmek
 Sunucu performansını izlemek ve güvenilirliğini ve güvenliğini sağlamak için aşağıdaki ilgili bağlantıları bulabilirsiniz:
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [5]
-  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır] [6]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın] [7]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun] [8]
-  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır] [9]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][5]
+  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır][6]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][7]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun][8]
+  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

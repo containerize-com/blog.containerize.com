@@ -20,10 +20,10 @@ Mari kita lihat fitur inti dari statping.
   *** Aplikasi Seluler ** - Gunakan aplikasi gratis untuk perangkat iPhone & Android dan mengelola semuanya saat bepergian.
   *** OAuth Authenticatio ** n - Mendukung otentikasi OAuth untuk layanan populer seperti GitHub, Google, Slack, dan penyedia OpenID khusus. Gunakan fitur ini dan tingkatkan keamanan.
 Kami akan membahas topik -topik berikut dalam tutorial ini.
-  * [Menginstal di Linux] [1]
-  * [Konfigurasikan Layanan SystemD] [2]
-  * [Buat Layanan untuk Pemantauan] [3]
-  * [Kesimpulan] [4]
+  * [Menginstal di Linux][1]
+  * [Konfigurasikan Layanan SystemD][2]
+  * [Buat Layanan untuk Pemantauan][3]
+  * [Kesimpulan][4]
 
 ## Menginstal di Linux {#installing}
 Jalankan perintah di bawah untuk instalasi statping.
@@ -71,17 +71,19 @@ systemctl start statping
 
 ## kesimpulan {#conclusion}
 Kami belajar tentang statping, cara menginstalnya di Linux, dan cara membuat layanan SystemD dalam tutorial ini. Selanjutnya, kami telah membuat layanan baru untuk memantau dan memperkenalkan Anda tentang berbagai fitur. Kami berharap panduan ini akan membantu Anda dalam mulai menggunakan statping untuk melakukan ** pemantauan layanan web ** dan ** pemantauan aplikasi web **.
-Akhirnya, [** containerize.com **] [5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** status ** ini **] [6] untuk pembaruan terbaru.
+Akhirnya, [** containerize.com **][5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** status ** ini **][6] untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Perangkat Lunak Halaman Status Sumber Terbuka Teratas Untuk 2020 **] [7]
-  *[** Statping **] [8]
-  *[** cap **] [9]
-  *[** Monitoror **] [10]
-  *[** Staytus **] [11]
-  *[** UppTime **] [12]
-  *[** StatusFy **] [13]
+  *[** Perangkat Lunak Halaman Status Sumber Terbuka Teratas Untuk 2020 **][7]
+  *[** Statping **][8]
+  *[** cap **][9]
+  *[** Monitoror **][10]
+  *[** Staytus **][11]
+  *[** UppTime **][12]
+  *[** StatusFy **][13]
+
+  
 [1]: #Installing
 [2]: #Configure
 [3]: #Create

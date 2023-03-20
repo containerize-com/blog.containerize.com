@@ -18,11 +18,11 @@ categories: ['Form']
 Les formulaires en ligne sont très importants et il existe de nombreuses raisons différentes de les utiliser. Si vous êtes une entreprise et que vous vendez vos produits ou services en ligne, vous voudrez peut-être savoir ce que vos clients disent de vos produits. Par conséquent, vous avez besoin d'un générateur de formulaires en ligne pour créer des formulaires pour collecter des données.
 Les équipes marketing sont toujours à la recherche de formulaires pour collecter les informations des utilisateurs pour les convertir en prospects. Les étudiants utilisent des formulaires pour collecter des données d'enquête pour leurs projets de recherche. En bref, les formulaires sont utiles pour tant de champs et de zones.
 Pour vous aider à choisir le bon builder en ligne, notre équipe a créé une liste des meilleurs logiciels de générateur de formulaires. Alors, voici la liste.
-  * [Form.io] [1]
-  * [Orbeon] [2]
-  * [Ohmyform] [3]
-  * [Webiny] [4]
-  * [FormTools] [5]
+  * [Form.io][1]
+  * [Orbeon][2]
+  * [Ohmyform][3]
+  * [Webiny][4]
+  * [FormTools][5]
 
 ### ** form.io ** {#formio}
 Form.io est l'un des logiciels de générateur de formulaires les plus populaires avec des fonctionnalités de niveau avancé. Il vous aide à générer des formulaires Web et des enquêtes de saisie de données ainsi que la plate-forme API de gestion des données.
@@ -33,7 +33,7 @@ Voici les meilleurs moments forts du formulaire.io
   * Provideurs OAuth
   * Gestion des utilisateurs et authentification
   * Interface glisser-déposer
-    [Lire la suite] [6]
+    [Lire la suite][6]
 
 ### ** Orbeon ** {#orbeon}
 Orbeon est utilisé pour générer des formes complexes de niveau industriel sans aucune expertise technique. Sa plate-forme agnostique et ses formulaires sont accessibles via le bureau, les ordinateurs portables et les mobiles.
@@ -45,7 +45,7 @@ Voici quelques-unes des principales fonctionnalités d'Orbeon
   * Formulaires multi-pages.
   * Pile de serveur.
   * Support Liveray.
-    [Lire la suite] [7]
+    [Lire la suite][7]
 
 ### ** ohmyform ** {#ohmyform}
 OhMyform est un logiciel open source pour générer des formulaires, des enquêtes et des questionnaires prêts à l'emploi mobile. Il suit les technologies Web standard et les formulaires sont facilement intégrés aux applications mobiles, de bureau et Web.
@@ -56,7 +56,7 @@ Les meilleurs points forts de l'Ohmyform sont répertoriés ici
   * Sous-domaines personnalisés pour chaque utilisateur
   * Formes intégrées
   * Formulaires en tant qu'API de service.
-    [Lire la suite] [8]
+    [Lire la suite][8]
 
 ### ** Webiny ** {#webiny}
 Webiny est un logiciel auto-hébergé open source pour créer des formulaires complets prêts à la production. Ce n'est pas seulement un constructeur de formulaires. Mais, un package complet pour automatiser la plupart des processus commerciaux en ligne.
@@ -67,7 +67,7 @@ L'architecture sans serveur rend l'application évolutive et vous libère des pr
   * Validations personnalisées
   * Intégrations tierces
   * Webhooks
-    [Lire la suite] [9]
+    [Lire la suite][9]
 
 ### ** FormTools ** {#formtools}
 Form Tools est un script PHP / MySQL puissant, flexible, gratuit et open source. Vous devez l'installer sur votre site Web pour gérer vos formulaires et données. De plus, FormTools propose une interface de générateur de formulaires où vous pouvez créer des formulaires de page et de plusieurs pages.
@@ -78,10 +78,12 @@ Parallèlement à la gestion des utilisateurs et à la prise en charge de l'API,
   * Service de messagerie intégré
   * Intégration pour les formes externes
   * Prise en charge de Google Maps
-    [Lire la suite] [10]
+    [Lire la suite][10]
 
 ### Conclusion
 Dans ce blog, nous avons examiné le meilleur logiciel de générateur de formulaires en ligne open source. Form.io, webiny et ohmyform ont une bonne solution hors boîte pour les intégrations tierces ainsi qu'un support API complet. Donc, si vous devez vous connecter avec un backend tiers ou avoir besoin d'analyses intégrées, vous pouvez les utiliser. Si vous voulez simplement configurer rapidement Orbeon et FormTools sont un bon choix.
+
+  
 [1]: #formio
 [2]: #orbeon
 [3]: #ohmyform

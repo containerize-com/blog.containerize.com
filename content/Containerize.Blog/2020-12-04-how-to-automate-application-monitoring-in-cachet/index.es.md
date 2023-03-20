@@ -14,10 +14,10 @@ categories: ['Status Page']
 {{< figure align=center src="images/cachet-monitor.png" alt="Monitoreo de aplicaciones web">}}
 
 El monitoreo de aplicaciones y servicios es una parte muy importante del negocio en línea. Su sitio web ejecuta 24x7 y puede equivocarse en cualquier momento. No puede saber que cualquiera de los sitios funcione o no hasta que lo visite. Además, los clientes no tendrán información sobre el problema. Pueden comunicarse con su equipo de soporte para el tiempo de inactividad del servicio. Además, esto podría llevar a que sus clientes se decepcionen. Sin embargo, puede reducir el tiempo de inactividad del servicio configurando el sistema de página de estado. El sistema de página de estado supervisará todos sus servicios durante todo el reloj y enviará notificaciones a su equipo y clientes de inmediato. Esto le permitirá tomar medidas rápidas para solucionar el problema y los clientes se mantendrán actualizados sobre el progreso. En esta publicación de blog, aprenderá a integrar la biblioteca de terceros con ** caché ** para ** automatizar el monitoreo **.
-  * [Requisitos] [1]
-  * [Complemento de monitoreo de configuración] [2]
-  * [Creación de servicio Linux] [3]
-  * [Conclusión] [4]
+  * [Requisitos][1]
+  * [Complemento de monitoreo de configuración][2]
+  * [Creación de servicio Linux][3]
+  * [Conclusión][4]
 
 ## Requisitos {#Requirements}
   * Instale la última versión del caché.
@@ -25,7 +25,7 @@ El monitoreo de aplicaciones y servicios es una parte muy importante del negocio
 
 ## complemento de monitoreo de configuración {#plugin}
 Los siguientes son pasos para instalar y configurar el complemento para monitorear en Ubuntu.
-  * Descargue binario desde [página de lanzamiento] [5].
+  * Descargue binario desde [página de lanzamiento][5].
   * Cambie el nombre del archivo a monitor de caché.
   * Haga que el archivo sea ejecutable con el comando.
 ```
@@ -112,13 +112,15 @@ sudo systemctl enable cachet-monitor.service
 
 ## conclusión {#conclusion}
 El caché A es gratuito y ** Página de estado de código abierto ** Sistema. Sin embargo, no proporciona la función fuera de la caja para ** Monitoreo de aplicaciones web **. En cambio, tiene una poderosa API REST que puede usarse para realizar acciones como incidentes, componentes, grupos y muchos más. En este artículo, hemos utilizado el complemento de terceros para automatizar el monitoreo de aplicaciones en el caché. Sobre todo, puede desarrollar su propio complemento o usar cualquier otro complemento existente para hacer el trabajo.
-Además, [Contenerize.com] [6] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones regulares, estén atentos a la categoría [7] [7] para obtener artículos más interesantes.
+Además, [Contenerize.com][6] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones regulares, estén atentos a la categoría [7][7] para obtener artículos más interesantes.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Los mejores sistemas de página de estado de código abierto] [8]
-  * [Cachete: software de página de estado de código abierto y de código abierto] [9]
-  * [Software de la página de estado de código abierto Top 5 para 2020] [10]
+  * [Los mejores sistemas de página de estado de código abierto][8]
+  * [Cachete: software de página de estado de código abierto y de código abierto][9]
+  * [Software de la página de estado de código abierto Top 5 para 2020][10]
+
+  
 [1]: #Requirements
 [2]: #Plugin
 [3]: #Service

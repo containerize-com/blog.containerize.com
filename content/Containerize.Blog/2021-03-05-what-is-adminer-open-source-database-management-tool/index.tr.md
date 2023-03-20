@@ -13,17 +13,17 @@ categories: ['Database Management Software']
 {{_LINE_11_}}
 
 ## Genel Bakış
-Veri ile ilgili görevler artık her zamankinden çok daha kritik. Veritabanı yönetim aracı herhangi bir işletmenin ayrılmaz bir parçası haline gelmiştir. Ancak, bu tür zorlu görevlere çözüm sunan birçok web tabanlı veritabanı yönetim sistemi vardır. İşletmeler günlük olarak tonlarca veri üretiyor ve sürdürülmesi zorlaşıyor. Ayrıca, kuruluşlar veri erişimini ve veri kontrolünü basitleştirme eğilimindedir. Bu ücretsiz araçlar, veri artıklığını azaltmaya, veritabanlarını verimli ve güvenilir hale getirmeye yardımcı olur. Ayrıca, [En İyi Açık Kaynak DBMS Yazılım Araçları] [1] ve biraz daha fazlası gibi konularda blog yayınları yayınladık.
+Veri ile ilgili görevler artık her zamankinden çok daha kritik. Veritabanı yönetim aracı herhangi bir işletmenin ayrılmaz bir parçası haline gelmiştir. Ancak, bu tür zorlu görevlere çözüm sunan birçok web tabanlı veritabanı yönetim sistemi vardır. İşletmeler günlük olarak tonlarca veri üretiyor ve sürdürülmesi zorlaşıyor. Ayrıca, kuruluşlar veri erişimini ve veri kontrolünü basitleştirme eğilimindedir. Bu ücretsiz araçlar, veri artıklığını azaltmaya, veritabanlarını verimli ve güvenilir hale getirmeye yardımcı olur. Ayrıca, [En İyi Açık Kaynak DBMS Yazılım Araçları][1] ve biraz daha fazlası gibi konularda blog yayınları yayınladık.
 Bu nedenle, açık kaynaklı topluluk, kurumsal düzeyde ücretsiz bir veritabanı yönetim aracı olan Adminer geliştirmiştir. Bu Yönetim Eğiticisi'nde aşağıdaki noktaları ele alacağız.
-  * [Yönetici nedir?] [2]
-  * [Yöneticinin önemli özellikleri] [3]
-  * [Yönetici vs phpmyadmin] [4]
-  * [Veritabanlarını Yönetici Yönetin] [5]
-  * [Sonuç] [6]
+  * [Yönetici nedir?][2]
+  * [Yöneticinin önemli özellikleri][3]
+  * [Yönetici vs phpmyadmin][4]
+  * [Veritabanlarını Yönetici Yönetin][5]
+  * [Sonuç][6]
 
 ## Adminer nedir? {#Ne}
 Hafif, kullanıcı dostu, yüksek performanslı MySQL veritabanı yönetim aracı söz konusu olduğunda, Adminer geniş popülerlik kazanmış ve phpmyAdmin ile karşılaştırıldığında birçok iyileştirme sunar. Başlangıçta, bu veritabanı yönetim aracı Jakub Vrana tarafından 2007 yılında PhpmyAdmin'e alternatif olarak geliştirilmiştir, böylece tek yapmanız gereken uygulamanızın veritabanına tek, hafif bir PHP dosyasını indirmek ve yüklemektir.
-Açık kaynaklı bir veritabanı yönetim aracı olarak, kullanımı ücretsizdir ve PHP'de yazılmıştır. Bu web tabanlı veritabanı yönetim sistemini birbirinden ayıran şey, kesintisiz bir kullanıcı deneyimi için iyi bir kullanıcı arayüz tasarımı ve verileri herhangi bir saldırıdan veya kötü niyetli hack denemelerinden korumak için güçlü güvenlik özellikleridir. Bu veritabanı yönetim aracının ayarlanması kolaydır ve Ubuntu ve lamba gibi basit gereksinimler gerektirir. Kullanıcılar geliştirme ve dağıtım ile ilgili kapsamlı belgeler bulabilirler. Bu nedenle, bu web tabanlı veritabanı yönetim sisteminin kaynak dosyalarını [GitHub] [7] 'de bulabilirsiniz.
+Açık kaynaklı bir veritabanı yönetim aracı olarak, kullanımı ücretsizdir ve PHP'de yazılmıştır. Bu web tabanlı veritabanı yönetim sistemini birbirinden ayıran şey, kesintisiz bir kullanıcı deneyimi için iyi bir kullanıcı arayüz tasarımı ve verileri herhangi bir saldırıdan veya kötü niyetli hack denemelerinden korumak için güçlü güvenlik özellikleridir. Bu veritabanı yönetim aracının ayarlanması kolaydır ve Ubuntu ve lamba gibi basit gereksinimler gerektirir. Kullanıcılar geliştirme ve dağıtım ile ilgili kapsamlı belgeler bulabilirler. Bu nedenle, bu web tabanlı veritabanı yönetim sisteminin kaynak dosyalarını [GitHub][7] 'de bulabilirsiniz.
 
 ## Yöneticinin Önemli Özellikleri {#Important}
 Bu veritabanı yönetim aracının bazı temel ama önemli özellikleri şunlardır:
@@ -43,7 +43,7 @@ Yöneticinin sisteminizde çalışması için, sunucunuzda zaten ayarlanmış a�
   * PHP sürüm 5, 7 veya 8
   * MySQL, SQLITE, PostgreSQL vb.
 **Kurulum**
-Bu iki sistem gereksinimini kontrol ettirdiyseniz, dosyayı [] [8] 'den indirin ve PHP dosyasını sunucunuza yükleyerek başlayın. XAMPP sunucusu için, indirilen dosyayı “Adminer.php” olarak yeniden adlandırın ve bu dosyayı HTDOCS klasörüne koyun.
+Bu iki sistem gereksinimini kontrol ettirdiyseniz, dosyayı [][8] 'den indirin ve PHP dosyasını sunucunuza yükleyerek başlayın. XAMPP sunucusu için, indirilen dosyayı “Adminer.php” olarak yeniden adlandırın ve bu dosyayı HTDOCS klasörüne koyun.
 ** Kullanıcı arayüzüne erişim **
 Bunu yaptıktan sonra yönetici nedir? Şimdi bu uygulamaya HTTP: IP-Adres/Adminer.php'den gösterildiği gibi erişin:
 {{_LINE_42_}}
@@ -71,14 +71,16 @@ Bir tabloya yeni kayıtlar eklemek oldukça basittir. Sizi ekran ekranına yönl
 
 ## Sonuç {#Conclusion}
 Bu bizi bu Yönetim Eğiticinin sonuna getirir. Bu açık kaynak web tabanlı veritabanı yönetim sisteminin Adminer, Adminer vs PhpmyAdmin ve diğer yönleri gibi bazı önemli konulardan geçtik. Umarım, bu blog yazısı, açık kaynaklı bir veritabanı yönetim aracı kurmak istiyorsanız kesinlikle size yardımcı olacaktır. Sezgisel, akıllı ve kullanımı kolay arayüz, onu çok popüler bir veritabanı yönetim aracı haline getirir. Ayrıca, MySQL, SQLITE, MongoDB ve çok daha fazlası dahil olmak üzere birçok veritabanını ve kötü niyetli hack olaylarını korumak ve önlemek için güvenlik önlemleri destekler. Sonuçta, bu veritabanı yönetim aracı sadece açık kaynak değil, aynı zamanda kullanımı ücretsizdir.
-Son olarak, [Containerize.com] [9] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Veritabanı Yönetimi Araçları] [10] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [11], [LinkedIn] [12] ve [Twitter] [13] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][9] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Veritabanı Yönetimi Araçları][10] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Ücretsiz web tabanlı veritabanı yönetim araçları hakkında daha fazla bilgi edinmek için lütfen aşağıdaki sayfaları kontrol edin:
-  * [Yönetim | Ücretsiz Web Tabanlı Veritabanı Yönetim Sistemi] [14]
-  * [En iyi açık kaynaklı DBMS yazılım araçları] [1]
-  * [2021'de Top 5 Açık Kaynak Veritabanı Yönetim Araçları] [15]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [16]
+  * [Yönetim | Ücretsiz Web Tabanlı Veritabanı Yönetim Sistemi][14]
+  * [En iyi açık kaynaklı DBMS yazılım araçları][1]
+  * [2021'de Top 5 Açık Kaynak Veritabanı Yönetim Araçları][15]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][16]
+
+  
 [1]: https://products.containerize.com/database-management
 [2]: #what
 [3]: #important

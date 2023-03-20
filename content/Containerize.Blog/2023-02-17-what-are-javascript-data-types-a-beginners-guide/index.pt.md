@@ -15,10 +15,10 @@ categories: ['Programming']
 
 
 ## Visão geral
-Não importa se você é um nível medíocre ou um desenvolvedor experiente, você obterá as soluções para seus problemas que chegam durante os trabalhos de desenvolvimento. [CONTERIZE.COM] [1] Começou a escrever postagens no blog do tutorial na categoria de programação e estamos começando com um**Javascript Beginner's Guide**. Como estamos começando, este artigo é sobre tipos de dados JavaScript. Vamos explorar**O que são tipos de dados JavaScript**e ver exemplos de como você pode usá -los no código -fonte com eficiência. Portanto, analise bem o guia para iniciantes para que você possa ter um bom entendimento dos tipos de dados**JavaScript**.
+Não importa se você é um nível medíocre ou um desenvolvedor experiente, você obterá as soluções para seus problemas que chegam durante os trabalhos de desenvolvimento. [CONTERIZE.COM][1] Começou a escrever postagens no blog do tutorial na categoria de programação e estamos começando com um**Javascript Beginner's Guide**. Como estamos começando, este artigo é sobre tipos de dados JavaScript. Vamos explorar**O que são tipos de dados JavaScript**e ver exemplos de como você pode usá -los no código -fonte com eficiência. Portanto, analise bem o guia para iniciantes para que você possa ter um bom entendimento dos tipos de dados**JavaScript**.
 Estamos cobrindo o seguinte ponto:
-  * [O que é um tipo de dados?] [2]
-  * [O que são tipos de dados JavaScript?] [3]
+  * [O que é um tipo de dados?][2]
+  * [O que são tipos de dados JavaScript?][3]
 
 ## Tipos de dados explicados | O que é um tipo de dados? {#O que é um tipo de data}
 Um tipo de dados é dizer ao compilador como interpretar ou compilar os dados. O uso dos tipos de dados é crítico e deve ser usado com sabedoria. Em palavras simples, trata -se do formato dos dados como número, string, booleano e muito mais. No entanto, existem duas categorias de tipos de dados dos tipos de dados primitivos e tipos de dados não primitivos. Existem oito tipos de dados primitivos pelos quais passaremos na próxima seção.
@@ -70,31 +70,33 @@ arr = arr2;
 arr === arr2 // true
 ```
 Agora, vamos passar pelos tipos de dados um por um. Existem 6 tipos de dados primitivos e 1 tipo de dados não primitivo.
-* * Os tipos de dados primitivos incluem:**
+**Os tipos de dados primitivos incluem:**
 ***String**: Esse tipo de dados representa dados textuais que consistem em uma sequência de caracteres cercados por cotações.
 ***Número**: Representa dados decimais/não decimais, particularmente inteiro ou flutuador.
 ***booleano**: Representação de valores lógicos verdadeiros ou falsos.
 ***Símbolo**: O símbolo é usado para manter valores exclusivos.
 ***indefinido**: Uma variável sem qualquer valor ou uma variável não inicializada.
 ***NULL**: A ausência de qualquer valor é considerada nula.
-* * Tipo de dados não primitivo inclui:**
-* * Objeto**: É usado para armazenar a coleta de dados que consistem em pares de valor-chave.
+**Tipo de dados não primitivo inclui:**
+**Objeto**: É usado para armazenar a coleta de dados que consistem em pares de valor-chave.
 
 ## Conclusão
 Este é o fim deste**Javascript Beginner's Guide**. Passamos por**O que são tipos de dados JavaScript**? Além disso, exploramos o que é um tipo de dados em poucas palavras. Você deve ter uma melhor compreensão dos tipos de dados não primitivos e****em JavaScript. Esta postagem do blog realmente o ajudará se você deseja se preparar para uma entrevista de emprego.
-Finalmente, [contendeRize.com] [1] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [4], [LinkedIn] [5] e [Twitter] [6].
+Finalmente, [contendeRize.com][1] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][4], [LinkedIn][5] e [Twitter][6].
 
 ## Faça uma pergunta
-Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum] [7].
+Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum][7].
 
 ## Perguntas frequentes
-* * Quais são os 8 tipos de dados JavaScript?**
-Visite este [link] [3] para conhecer os 8 tipos de dados JavaScript.
+**Quais são os 8 tipos de dados JavaScript?**
+Visite este [link][3] para conhecer os 8 tipos de dados JavaScript.
 
 ## Veja também
-  * [Livre e Open Source Popular JavaScript Frameworks] [8]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [9]
-  * [Top 10 Tecnologias de código aberto para aprender em 2022] [10]
+  * [Livre e Open Source Popular JavaScript Frameworks][8]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][9]
+  * [Top 10 Tecnologias de código aberto para aprender em 2022][10]
+
+  
 [1]: https://www.containerize.com/
 [2]: #What-is-a-data-type
 [3]: #What-are-JavaScript-Data-Types

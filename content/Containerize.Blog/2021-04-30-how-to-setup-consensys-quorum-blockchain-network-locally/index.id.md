@@ -15,21 +15,21 @@ categories: ['Blockchain Platforms']
 
 
 ## Ringkasan
-Di masa lalu, kami menerbitkan posting blog tentang beberapa topik terkait blockchain seperti [Top 5 Open Source Blockchain Platforms pada tahun 2020] [1], [Panduan Dasar tentang Cara Membuat Kontrak Cerdas Ethereum] [2], [bagaimana terdesentralisasi Teknologi meningkatkan strategi bisnis Anda] [3], dan [Panduan Pemula untuk Mengatur Node Ethereum di LocalHost] [4]. Dalam artikel ini, kita akan melihat cara mengatur Jaringan Blockchain Quorum Consensys di LocalHost dengan meliput poin -poin berikut.
-  *** [Pengenalan singkat dari Consensys Quorum] [5] **
-  *** [Apa itu Prosedur Instalasi Prasyarat dan ** **?] [6] **
-  *** [Cara Memulai Jaringan?] [7] **
-  *** [Kesimpulan] [8] **
+Di masa lalu, kami menerbitkan posting blog tentang beberapa topik terkait blockchain seperti [Top 5 Open Source Blockchain Platforms pada tahun 2020][1], [Panduan Dasar tentang Cara Membuat Kontrak Cerdas Ethereum][2], [bagaimana terdesentralisasi Teknologi meningkatkan strategi bisnis Anda][3], dan [Panduan Pemula untuk Mengatur Node Ethereum di LocalHost][4]. Dalam artikel ini, kita akan melihat cara mengatur Jaringan Blockchain Quorum Consensys di LocalHost dengan meliput poin -poin berikut.
+  *** [Pengenalan singkat dari Consensys Quorum][5] **
+  *** [Apa itu Prosedur Instalasi Prasyarat dan ** **?][6] **
+  *** [Cara Memulai Jaringan?][7] **
+  *** [Kesimpulan][8] **
 
 ## ** Pengenalan singkat dari Consensys Quorum ** {#introduction}
-[Consensys Quorum] [9] adalah platform open source berdasarkan ** teknologi buku besar yang terdesentralisasi **. Namun, ini menyediakan lingkungan yang sepenuhnya ramah pengembang untuk membangun aplikasi berbasis blockchain yang menangani transaksi cepat dan throughput tinggi. Ini adalah ** Ethereum ** berbasis, dapat diperluas, dan menawarkan banyak plugin. Selain itu, sistem terdistribusi open source ini hadir dengan standar keamanan dan privasi yang tinggi. Selain itu, ada banyak fitur kuat seperti API dan pemantauan izin. Selanjutnya, platform ** DLT ** ini diselenggarakan sendiri dan memberikan dokumentasi terperinci mengenai pengembangan dan penyebaran. Kode sumber perangkat lunak gratis ini tersedia di [GitHub] [10].
+[Consensys Quorum][9] adalah platform open source berdasarkan ** teknologi buku besar yang terdesentralisasi **. Namun, ini menyediakan lingkungan yang sepenuhnya ramah pengembang untuk membangun aplikasi berbasis blockchain yang menangani transaksi cepat dan throughput tinggi. Ini adalah ** Ethereum ** berbasis, dapat diperluas, dan menawarkan banyak plugin. Selain itu, sistem terdistribusi open source ini hadir dengan standar keamanan dan privasi yang tinggi. Selain itu, ada banyak fitur kuat seperti API dan pemantauan izin. Selanjutnya, platform ** DLT ** ini diselenggarakan sendiri dan memberikan dokumentasi terperinci mengenai pengembangan dan penyebaran. Kode sumber perangkat lunak gratis ini tersedia di [GitHub][10].
 Consensys Quorum menawarkan fitur -fitur penting berikut:
   * Arsitektur pluggable
   * Berbasis Ethereum
   * Aman
   * Self-hosting
   * Jaringan publik/pribadi
-[Pelajari lebih lanjut tentang Consensys Quorum] [11]
+[Pelajari lebih lanjut tentang Consensys Quorum][11]
 
 ## **** Apa itu Prosedur Prasyarat dan Instalasi? **** {#Pra-Persyaratan}
 Di bagian ini, kami akan menginstal dependensi yang diperlukan dan mengatur lingkungan setempat. Sebelum pergi ke langkah berikutnya, pastikan Anda telah menginstal prasyarat berikut:
@@ -74,16 +74,18 @@ Demikian pula, Anda dapat menghentikan seluruh jaringan dengan menjalankan perin
 
 ## kesimpulan {#conclusion}
 Ini adalah akhir dari tutorial ini. Di atas segalanya, quorum Consensys berbasis Ethereum adalah ** teknologi keuangan digital ** dikembangkan khusus untuk kasus penggunaan keuangan. Ini memiliki algoritma konsensus berbasis pemungutan suara. Namun, motif utama dari teknologi desentralisasi ini adalah untuk membangun solusi yang efisien untuk perusahaan.
-Akhirnya, [containerize.com] [12] telah menerbitkan banyak posting blog teknis dan tutorial tentang produk open source populer di [blog.containerize.com] [13]. Oleh karena itu, tetap pada kategori [platform blockchain] [14] untuk pembaruan rutin.
+Akhirnya, [containerize.com][12] telah menerbitkan banyak posting blog teknis dan tutorial tentang produk open source populer di [blog.containerize.com][13]. Oleh karena itu, tetap pada kategori [platform blockchain][14] untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Ethereum] [15]
-  * [Hyperledger Fabric] [16]
-  * [OpenChain] [17]
-  * [Riak] [18]
-  * [Multichain] [19]
-  * [Consensys Quorum] [9]
+  * [Ethereum][15]
+  * [Hyperledger Fabric][16]
+  * [OpenChain][17]
+  * [Riak][18]
+  * [Multichain][19]
+  * [Consensys Quorum][9]
+
+  
 [1]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [2]: https://blog.containerize.com/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

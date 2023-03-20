@@ -16,17 +16,17 @@ categories: ['Content Management', 'Marketing Automation']
 
 ## Bagaimana integrasi ini dapat membantu bisnis Anda:
 Integrasi Mautic dan Joomla akan memungkinkan Anda memasarkan produk/layanan Anda dengan cara yang sangat mudah tetapi efisien. Mautic Solusi pemasaran open-source gratis memberi Anda kendali besar atas kampanye pemasaran dan sangat mudah untuk melanjutkan kampanye tetesan sesuai dengan situasinya. Misalnya: ini memberi Anda informasi bahwa jika pelanggan telah membaca email atau mengunjungi halaman produk Anda. Dengan menggunakan informasi itu, Anda dapat mengatur kampanye untuk memutuskan apakah akan terus mengirimkan email berikutnya untuk pelanggan itu atau tidak. Integrasi ini akan membantu dalam otomatisasi pemasaran digital. Posting blog ini akan memandu Anda dengan bagian berikut:
-  * [Ikhtisar] [1]
-  * [Instalasi Plugin Joomla] [2]
-  * [Konfigurasi Mautik] [3]
-  * [Kesimpulan] [4]
+  * [Ikhtisar][1]
+  * [Instalasi Plugin Joomla][2]
+  * [Konfigurasi Mautik][3]
+  * [Kesimpulan][4]
 
 ## Ikhtisar: {#Overview}
 Mautic adalah sistem otomasi pemasaran sumber terbuka. Ini adalah perangkat lunak pemasaran gratis. Anda dapat menggunakannya untuk membuat kampanye tanpa batas untuk mengirimkan email pemasaran ke pelanggan yang ditargetkan.
 Joomla juga merupakan sistem manajemen konten open-source gratis untuk mengembangkan situs web. Sangat mudah untuk mengatur situs web bisnis Anda di Joomla. Ini memiliki ribuan ekstensi yang dapat digunakan sesuai dengan kebutuhan Anda.
 
 Instalasi plugin ## Joomla: {#plugin}
-  * Unduh [plugin] [5].
+  * Unduh [plugin][5].
   * Kemudian buka ekstensi -> kelola -> instal.
   * Masukkan URL Mautik.
   * Ini akan memasukkan 1 px gif gambar yang dimuat dari instance mautic Anda.
@@ -43,7 +43,7 @@ Setelah instalasi, Anda perlu membuat dan menanamkan formulir di situs Joomla An
   * Untuk menghubungkan Mautic dengan Joomla, Anda harus memiliki sertifikat SSL di situs Anda.
   * Selanjutnya Anda harus pergi ke kredensial API.
   *Jika situs web Anda tidak memiliki SSL (jadi Anda pergi ke ** http **: //yourjoomlasite.com), pilih OAuth1. Jika Anda memiliki SSL di situs Anda (jadi Anda pergi ke ** https **: //yourjoomlasite.com), pilih OAuth2.
-  * Klik baru, berikan nama (bisa apa saja yang Anda inginkan) dan URL lengkap Joomla Anda! Situs ([https://yourjoomlasite.com] [6])
+  * Klik baru, berikan nama (bisa apa saja yang Anda inginkan) dan URL lengkap Joomla Anda! Situs ([https://yourjoomlasite.com][6])
   * Klik Simpan dan Tutup.
   * Di sini Anda bisa mendapatkan kunci publik dan pribadi.
   * Pergi ke situs Joomla Anda dan temukan plugin mautik yang Anda instal sebelumnya.
@@ -59,16 +59,18 @@ Setelah instalasi, Anda perlu membuat dan menanamkan formulir di situs Joomla An
 
 
 ## kesimpulan: {#conclusion}
-Dalam artikel ini kita telah membahas bagaimana Mautic dan Joomla bersama -sama dapat membantu dalam otomatisasi pemasaran digital. Solusi pemasaran gratis open-source ini akan memungkinkan Anda untuk mengelompokkan semua kontak yang berasal dari situs Joomla dan membuat kampanye pemasaran menggunakannya. Mautic memungkinkan Anda untuk membuat segmen, sehingga Anda dapat menjalankan kampanye yang berbeda di segmen yang berbeda sesuai dengan kebutuhan Anda. Silakan periksa [Joomla] [7] dan [MAUTIC] [8] Blog untuk Tinjauan Rinci.
+Dalam artikel ini kita telah membahas bagaimana Mautic dan Joomla bersama -sama dapat membantu dalam otomatisasi pemasaran digital. Solusi pemasaran gratis open-source ini akan memungkinkan Anda untuk mengelompokkan semua kontak yang berasal dari situs Joomla dan membuat kampanye pemasaran menggunakannya. Mautic memungkinkan Anda untuk membuat segmen, sehingga Anda dapat menjalankan kampanye yang berbeda di segmen yang berbeda sesuai dengan kebutuhan Anda. Silakan periksa [Joomla][7] dan [MAUTIC][8] Blog untuk Tinjauan Rinci.
 
 ## Mengeksplorasi:
 Anda dapat menemukan tautan berikut yang relevan:
-  * [Joomla] [7]
-  * [Mautic] [8]
-  * [Cara Mengatur Mautik - Integrasi Facebook] [9]
-  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal] [10]
-  * [Otomasi Pemasaran Menggunakan Mautik dan WordPress WooCommerce] [11]
-  * [Cara Mengatur Kampanye Pemasaran di Mautik] [12]
+  * [Joomla][7]
+  * [Mautic][8]
+  * [Cara Mengatur Mautik - Integrasi Facebook][9]
+  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal][10]
+  * [Otomasi Pemasaran Menggunakan Mautik dan WordPress WooCommerce][11]
+  * [Cara Mengatur Kampanye Pemasaran di Mautik][12]
+
+  
 [1]: #overview
 [2]: #plugin
 [3]: #mautic

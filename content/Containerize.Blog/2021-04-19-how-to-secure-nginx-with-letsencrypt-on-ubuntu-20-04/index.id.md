@@ -108,15 +108,17 @@ Pekerjaan cron juga harus menyertakan atribut –Quiet, seperti pada perintah di
 
 ## kesimpulan {#conclusion}
 Dalam artikel ini, kami belajar cara menginstal Nginx Letsencrypt SSL Certificate. Kami mengunduh sertifikat SSL untuk domain Anda dan mengonfigurasi NGINX untuk menggunakan sertifikat ini. Selain itu, Anda harus mengaktifkan Certbot untuk memperbarui sertifikat secara otomatis untuk SSL Nginx Letsencrypt. Dalam tutorial mendatang kami, kami akan membahas tentang topik yang lebih menarik tentang cara mengamankan server web dengan teknologi keamanan standar yang memungkinkan komunikasi terenkripsi antara browser web dan server web.
-_Your dapat bergabung dengan kami di [Twitter] [1], [LinkedIn] [2] dan halaman [Facebook] [3] kami. Protokol kriptografi apa yang Anda gunakan untuk memberikan keamanan komunikasi melalui jaringan komputer? Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda] [4].
+_Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Facebook][3] kami. Protokol kriptografi apa yang Anda gunakan untuk memberikan keamanan komunikasi melalui jaringan komputer? Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda][4].
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan yang relevan berikut untuk memantau kinerja server dan memastikan keandalan dan keamanannya:
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [5]
-  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu] [6]
-  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [7]
-  * [Pengaturan Nginx dengan penumpang di server produksi AWS] [8]
-  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu] [9]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][5]
+  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu][6]
+  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][7]
+  * [Pengaturan Nginx dengan penumpang di server produksi AWS][8]
+  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

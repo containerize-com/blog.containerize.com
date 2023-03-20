@@ -15,10 +15,10 @@ categories: ['Web Server Solution Stack']
 
 Todo desenvolvedor deve ter o software necessário instalado em seu computador antes de escrever o programa. Nos primeiros dias, os desenvolvedores precisavam instalar todos os softwares separadamente e depois configurá -los para trabalhar juntos. ** WampServer ** e outros softwares de pilha de soluções da Web já estão disponíveis, que agrupa todo o software necessário em um pacote. Você só precisa instalar um pacote para colocar seu ambiente de desenvolvimento em funcionamento.
 Nesta postagem do blog, abordaremos as seguintes seções.
-  *[** O que é WampServer? **] [1]
-  *[** Instalação Wamp **] [2]
-  *[** Configuração do WAMP **] [3]
-  *[** Access PhpMyadmin **] [4]
+  *[** O que é WampServer? **][1]
+  *[** Instalação Wamp **][2]
+  *[** Configuração do WAMP **][3]
+  *[** Access PhpMyadmin **][4]
 
 ## O que é WampServer? {#O que}
 O WampServer é uma pilha de soluções gratuita para configurar o ambiente de desenvolvimento da Web para aplicativos baseados em PHP. Wamp significa (W - Windows, A - Apache, M - MySQL e P - Php). Além disso, ele também vem com phpmyadmin e administrador para o gerenciamento do banco de dados. O WAMP é uma das ferramentas populares e você pode configurá -lo rapidamente. Além disso, você pode configurar o servidor WAMP no painel de controle. Ele fornece um ambiente completo de desenvolvimento da Web para criar e testar aplicativos. O WampServer consiste em vários componentes que você pode selecionar durante a instalação de acordo com suas necessidades. O WampServer vem com várias versões de PHP. Você pode alterar facilmente a versão PHP conforme os requisitos do seu projeto. Além disso, você pode alterar o DBMS (sistema de gerenciamento de banco de dados) do painel de controle do WampServer.
@@ -64,12 +64,14 @@ Você pode acessar ** phpmyadmin ** para o gerenciamento de seus bancos de dados
 
 ## Conclusão
 Discutimos o WampServer e abordamos o guia completo passo a passo para ** instalar o WampServer ** no Windows. Você pode instalar e configurar facilmente ** WampServer ** seguindo este tutorial e comece a codificar imediatamente. Você pode visitar os links em Seção Explorar para obter mais opções no software de pilha de soluções.
-Finalmente, [** containerize.com **] [5] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** Web Server Solution **] [6] para as atualizações mais recentes.
+Finalmente, [** containerize.com **][5] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com esta categoria [** Web Server Solution **][6] para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** Melhores opções de pilha de soluções de servidor de código aberto **] [7]
-  *[** Configuração xamp e phpmyadmin como localhost no Windows **] [8]
+  *[** Melhores opções de pilha de soluções de servidor de código aberto **][7]
+  *[** Configuração xamp e phpmyadmin como localhost no Windows **][8]
+
+  
 [1]: #What
 [2]: #Installation
 [3]: #Configuration

@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/enable-gzip-compression-in-nginx.png" alt="Como ativar a compressão GZIP em nginx">}}
 
 Este artigo está em continuação de nossa série de tutoriais sobre o NGINX. Até agora, abordamos como usar o NGINX como balanceador de carga, como usar o NGINX como proxy reverso. E agora este tutorial abrange outra pergunta exigente "Como otimizar seu site usando a compactação GZIP no Nginx". Neste tutorial, o guiaremos passo a passo sobre como ativar a compactação GZIP no Nginx. Então vamos começar!
-  * [Otimização do site com compactação] [1]
-  * [O que é compressão gzip?] [2]
-  * [Como funciona a compressão GZIP?] [3]
-  * [Ativar compressão GZIP em nginx] [4]
-  * [Verifique a compressão GZIP] [5]
-  * [Conclusão] [6]
+  * [Otimização do site com compactação][1]
+  * [O que é compressão gzip?][2]
+  * [Como funciona a compressão GZIP?][3]
+  * [Ativar compressão GZIP em nginx][4]
+  * [Verifique a compressão GZIP][5]
+  * [Conclusão][6]
 
 Otimização do site com compactação {#Optimize}
 O desempenho de um site depende de vários fatores. Um dos fatores depende parcialmente é o tamanho de todos os arquivos que o navegador de um usuário deve baixar do seu servidor. Reduzir ou comprimir o tamanho desses arquivos transmitidos pode tornar seu site carregar mais rápido para o usuário. Também pode reduzir a conta do seu site, caso você pague pelo uso da largura de banda em conexões medidas. Portanto, a compactação pode desempenhar um papel muito vital na otimização do seu site.
@@ -118,11 +118,13 @@ ETag: W/"6222dc8d-500"
 ```
 
 ## Conclusão {#conclusion}
-Neste artigo, aprendemos que você pode usar o módulo Nginx GZIP para acelerar as transferências de arquivos. Mostramos você passo a passo como ativar a compactação GZIP no NGINX usando o módulo GZIP. A documentação oficial para [GZIP Module] [7] lista outras diretivas de configuração que você pode querer dar uma olhada. Espero que este tutorial o ajude a otimizar o desempenho e a velocidade do seu site.
+Neste artigo, aprendemos que você pode usar o módulo Nginx GZIP para acelerar as transferências de arquivos. Mostramos você passo a passo como ativar a compactação GZIP no NGINX usando o módulo GZIP. A documentação oficial para [GZIP Module][7] lista outras diretivas de configuração que você pode querer dar uma olhada. Espero que este tutorial o ajude a otimizar o desempenho e a velocidade do seu site.
 
 ## Explore
-  * [Como instalar várias versões PHP com Nginx no Ubuntu] [8]
-  * [Como configurar e configurar o nginx como proxy reverso] [9]
+  * [Como instalar várias versões PHP com Nginx no Ubuntu][8]
+  * [Como configurar e configurar o nginx como proxy reverso][9]
+
+  
 [1]: #optimize
 [2]: #what-gzip
 [3]: #how-gzip

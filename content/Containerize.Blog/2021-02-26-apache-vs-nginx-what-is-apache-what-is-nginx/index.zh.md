@@ -16,12 +16,12 @@ categories: ['Web Server Solution Stack']
 
 ## 概述
 尽管Apache和Nginx具有许多素质，但不应将它们视为完全可以互换。这两个开源Web服务器彼此不同，应根据您的Web应用程序的需求选择。在本文中，我们将详细讨论** apache vs nginx **比较。
-  * [什么是Apache？] [1]
-  * [什么是nginx？] [2]
-  * [apache vs nginx比较] [3]
-  * [比Apache好] [4]
-  * [结论] [5]
-  * [探索] [6]
+  * [什么是Apache？][1]
+  * [什么是nginx？][2]
+  * [apache vs nginx比较][3]
+  * [比Apache好][4]
+  * [结论][5]
+  * [探索][6]
 
 ## 什么是Apache？ {#whatisapache}
 Apache Web服务器是Internet上最受欢迎的服务器之一，为27％的网站提供服务。 Apache主要是开发人员的首选，因为其灵活性，功率以及广泛的支持和详细的文档。它支持动态加载的模块，使开发人员可以轻松扩展其功能。
@@ -55,15 +55,17 @@ Apache提供了开发人员使用称为.htaccess的文件在目录级别设置�
 
 ## 结论{#conclusion}
 Apache和Nginx都有自己的方式。我们已经讨论了Apache与Nginx比较，什么是Apache，什么是Nginx以及Apache和Nginx之间的差异。从这两个最受欢迎的Web服务器中选择一个完全取决于您的Web应用程序的要求。选择取决于您对Web服务器的性能，资源利用，速度，可扩展性和支持的期望。两者都有自己的利益。没有一种适合所有Web服务器的尺寸，因此请使用最适合您的目标和期望的解决方案。
-最后，[Containerize.com] [7]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与常规更新的[开源Web服务器] [8]类别保持联系。此外，您可以在我们的社交媒体帐户[Facebook] [9]，[LinkedIn] [10]和[Twitter] [11]上关注我们。
+最后，[Containerize.com][7]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与常规更新的[开源Web服务器][8]类别保持联系。此外，您可以在我们的社交媒体帐户[Facebook][9]，[LinkedIn][10]和[Twitter][11]上关注我们。
 
 ## 探索{#Explore}
 您可能会发现以下链接相关：
-  * [2021年的前5个开源Web服务器解决方案堆栈] [12]
-  * [设置XAMPP和PHPMYADMIN作为Windows上的Localhost] [13]
-  * [XAMPP |免费和开源Web服务器解决方案堆栈] [14]
-  * [nginx |轻量级和高性能网络服务器] [15]
-  * [ubuntu上的LEMP堆栈的设置教程18.04] [16]
+  * [2021年的前5个开源Web服务器解决方案堆栈][12]
+  * [设置XAMPP和PHPMYADMIN作为Windows上的Localhost][13]
+  * [XAMPP |免费和开源Web服务器解决方案堆栈][14]
+  * [nginx |轻量级和高性能网络服务器][15]
+  * [ubuntu上的LEMP堆栈的设置教程18.04][16]
+
+  
 [1]: #whatisapache
 [2]: #whatisnginx
 [3]: #apachevsnginx

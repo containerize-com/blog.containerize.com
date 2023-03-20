@@ -47,14 +47,16 @@ A licença de código aberto do ISC é funcional equivalente à licença do MIT.
 
 ## Conclusão: {#4a1a}
 Se você chegou até aqui, sabe que os direitos autorais de software de código aberto não são para os fracos de coração. No entanto, considerando o fato de que quase todos os desenvolvedores de software dependem muito da licença de código aberto mais restritivo e das principais empresas de licenciamento. É crucial entender o básico das licenças de código aberto mais comuns e as principais diferenças entre as populares licenças de código aberto por aí. Esperamos apenas que essa explicação da licença de software proprietária e do exemplo de licença de software de código aberto tornassem o potencial campo minado de licenças um pouco mais de navegação.
-Você pode se juntar a nós no [Twitter] [1], [LinkedIn] [2] e nossa página [Facebook] [3]. Que licenças de código aberto você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato] [4].
+Você pode se juntar a nós no [Twitter][1], [LinkedIn][2] e nossa página [Facebook][3]. Que licenças de código aberto você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato][4].
 
 ## Explore:
 Também temos vários outros artigos nos quais você pode estar interessado.
-  *** [Top 5 Ferramentas de orquestração de contêineres de código aberto para DevOps 2021] [5] **
-  *** [Fila de mensagens de código aberto 5 (MQ) Software em 2021] [6] **
-  *** [Melhor software de armazenamento e compartilhamento de arquivos de código aberto] [7] **
-  *** [Ferramentas forenses digitais de código aberto mais populares] [8] **
+  *** [Top 5 Ferramentas de orquestração de contêineres de código aberto para DevOps 2021][5] **
+  *** [Fila de mensagens de código aberto 5 (MQ) Software em 2021][6] **
+  *** [Melhor software de armazenamento e compartilhamento de arquivos de código aberto][7] **
+  *** [Ferramentas forenses digitais de código aberto mais populares][8] **
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

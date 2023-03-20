@@ -14,14 +14,14 @@ categories: ['Message Queue Software']
 {{< figure align=center src="images/apache-kafka-open-source.png" alt="Apache Kafka Açık Kaynak Eğitimi">}}
 
 Son zamanlarda Kafka ve Redis Pub-Sub arasındaki farkları açıklayan “Kafka vs Redis Pub-Sub” hakkında bir makale yazdık. Bu makalede kısa süre içinde Kafka mesaj komisyoncunun kendisini açıkladık. Şimdi, bu makale size Apache Kafka Açık Kaynak Dağıtılmış Etkinlik Akış Platformu hakkında daha fazla bilgi veriyor ve Kafka Dağıtılmış Mesaj kuyruğuyla başlamak için gerekli tüm tanıtımları sunuyor. Öyleyse başlayalım.
-  * [Apache Kafka'ya Giriş] [1]
-  * [Mesajlaşma sistemi nedir?] [2]
-  * [Temel terimler] [3]
-  * [Kurulum adımları] [4]
-  * [Bir konu oluştur] [5]
-  * [Konuya mesaj yaz] [6]
-  * [Konudan gelen mesajları okuyun] [7]
-  * [Sonuç] [8]
+  * [Apache Kafka'ya Giriş][1]
+  * [Mesajlaşma sistemi nedir?][2]
+  * [Temel terimler][3]
+  * [Kurulum adımları][4]
+  * [Bir konu oluştur][5]
+  * [Konuya mesaj yaz][6]
+  * [Konudan gelen mesajları okuyun][7]
+  * [Sonuç][8]
 
 ## Apache Kafka'ya Giriş {#Intro}
 Apache Kafka Açık Kaynak Mesaj Aracısı LinkedIn'de başlatıldı ve daha sonra açık kaynaklı Apache projesi oldu. Kafka Mesaj Broker Yazılımı Scala ve Java'da geliştirilmiştir. Apache Kafka Broker, uygulamalar, sunucular ve işlemciler arasında veri alışverişi sağlayan bir yayınlama abone mesajlaşma sistemidir. Hızlı, ölçeklenebilir ve tasarımla dağıtılmıştır. Saniyede milyonlarca veri veya mesajla işleyebilir. Kaynak (üretici) sistemi ile hedef (tüketici) sistemi arasında bir aracı olarak çalışır. Netflix, Uber ve bu tür binlerce firma gibi kuruluşlar Apache Kafka'nın gerçek zamanlı akışını kullanıyor. Diğer mesajlaşma sistemlerine kıyasla, Kafka mesaj kuyruğu yazılımı daha iyi verim, yerleşik bölümleme, çoğaltma ve doğal hata toleransına sahiptir. Bu, büyük ölçekli mesaj işleme uygulamaları için iyi bir uyum sağlar.
@@ -125,13 +125,15 @@ Denemekten çekinmeyin: Örneğin, ek etkinlikler yazmak için üretici terminal
 
 ## Sonuç {#Conclusion}
 Bu öğreticide Apache Kafka kullanımının temellerini öğrendik. Kafka kuyruğu hizmetini yükledik ve daha sonra yapılandırdık. Ayrıca Kafka'da konuların nasıl oluşturulacağını, konulara mesaj göndermeyi ve konulardan mesajların nasıl okunacağını öğrendik. Umarım bu makale sizin için yararlı olmuştur. Bir sonraki makalede buluşalım.
-_ Ne açık kaynaklı dağıtılmış olay akış platformu kullanıyorsunuz?. Herhangi bir sorunuz var mı?, Lütfen_ [iletişim kurun] [9].
+_ Ne açık kaynaklı dağıtılmış olay akış platformu kullanıyorsunuz?. Herhangi bir sorunuz var mı?, Lütfen_ [iletişim kurun][9].
 
 ## Keşfetmek
 İlgili aşağıdaki bağlantıları bulabilirsiniz:
-  * [En iyi ücretsiz ve açık kaynaklı mesaj kuyruğu (MQ) yazılımı] [10]
-  * [Kafka vs Redis Pub-Sub, bilmeniz gereken farklılıklar] [11]
-  * [Redis Pub/Sub'a Giriş ve Nasıl Çalışır?] [12]
+  * [En iyi ücretsiz ve açık kaynaklı mesaj kuyruğu (MQ) yazılımı][10]
+  * [Kafka vs Redis Pub-Sub, bilmeniz gereken farklılıklar][11]
+  * [Redis Pub/Sub'a Giriş ve Nasıl Çalışır?][12]
+
+  
 [1]: #intro
 [2]: #messaging
 [3]: #terms

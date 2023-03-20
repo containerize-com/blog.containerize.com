@@ -15,13 +15,13 @@ A implantação automatizada simplifica seu fluxo de trabalho e processos. Este 
 
 
 ## Visão geral
-Nos últimos artigos, aprendemos sobre o [básico do controle da versão] [1] e, em seguida, aumentamos nosso conhecimento, aprendendo sobre diferentes [modelos ramificados] [2] e fluxos de trabalho. O sistema de controle de versão trouxe eficiência no mundo do desenvolvimento, implantação e integração. Os desenvolvedores acham super fácil comprometer o código -fonte sem se preocupar com as compilações e testes. A indústria de software ganhou confiança e uma vantagem competitiva, pois essa abordagem inicializou as implantações.
+Nos últimos artigos, aprendemos sobre o [básico do controle da versão][1] e, em seguida, aumentamos nosso conhecimento, aprendendo sobre diferentes [modelos ramificados][2] e fluxos de trabalho. O sistema de controle de versão trouxe eficiência no mundo do desenvolvimento, implantação e integração. Os desenvolvedores acham super fácil comprometer o código -fonte sem se preocupar com as compilações e testes. A indústria de software ganhou confiança e uma vantagem competitiva, pois essa abordagem inicializou as implantações.
 ** Implantação contínua do GitLab ** e a integração ajuda a encontrar problemas facilmente. Além disso, os desenvolvedores podem rastrear os bugs e outros lidar com falta em um período mais curto do tempo. Todo esse processo de automação oferece liberdade das tarefas que ocorrem com frequência e reduz a mão de obra e as chances de erros. Hoje, nesta postagem do blog, exploraremos sobre o pipeline de implantação contínua com o Gitlab CI/CD. Então, vamos começar cobrindo os seguintes pontos!
-  *** [O que é CI & CD] [3] **
-  *** [O que é Gitlab Runner] [4] **
+  *** [O que é CI & CD][3] **
+  *** [O que é Gitlab Runner][4] **
   *** [.
-  *** [Crie aplicativo básico de amostra] [6] **
-  *** [Conclusão] [7] **
+  *** [Crie aplicativo básico de amostra][6] **
+  *** [Conclusão][7] **
 
 ## O que é CI & CD {#Cicd}
 A integração contínua (IC) é uma das melhores práticas do DevOps para automatizar a integração de alterações de código de vários colaboradores em um único projeto de software. Isso permite que os desenvolvedores mesclem frequentemente alterações de código em um repositório central, onde as compilações e testes são executados. A implantação contínua (CD) se move um passo adiante, implantando automaticamente o código para o ambiente de destino (produção ou estadiamento) após o compromisso de cada código.
@@ -29,7 +29,7 @@ Antes de começar, verifique se você tem um projeto no GitLab para o qual gosta
 
 ## O que é GitLab Runner {#Runner}
 Depois de entender ** Implantação contínua do GitLab **, o GitLab Runner é um pequeno programa leve escrito em Go que executa trabalhos relacionados à integração contínua (IC) em sua máquina local e envia os resultados ao GitLab para que ele considere as alterações. É um único binário executável que pode ser instalado em qualquer sistema operacional principal.
-Antes de avançarmos com o GitLab CI / CD, você precisa ter certeza de ter os corredores disponíveis para executar suas tarefas. Você pode seguir o guia oficial para [instalar] [8] e [registrar] [9] Gitlab Runner.
+Antes de avançarmos com o GitLab CI / CD, você precisa ter certeza de ter os corredores disponíveis para executar suas tarefas. Você pode seguir o guia oficial para [instalar][8] e [registrar][9] Gitlab Runner.
 
 ## .gitlab-ci.yml arquivo {#yml}
 O **. Ele é colocado na raiz do seu repositório e contém definições de como seu projeto deve ser construído. Toda vez que pressionamos uma instância do GitLab, o GitLab invocava um corredor para construir e testar o projeto, conforme instruído dentro deste arquivo.
@@ -100,15 +100,17 @@ Em seguida, você pode abrir seu projeto no GitLab, ir ao My-Project → Pipelin
 
 ## Conclusão {#conclusion}
 Isso nos leva ao final deste tutorial ** Gitlab **. Neste artigo, aprendemos sobre o básico da integração contínua do Gitlab, ** O que é CI & CD **, ** O que é o GitLab Runner ** e a implantação contínua. Além disso, estudamos qual é o uso de corredores no fluxo de trabalho geral do CI / CD. Também criamos um projeto de amostra que explica como configurar a implantação contínua usando o GitLab. Este tutorial do GitLab realmente o ajudará se você estiver procurando ** Implantação contínua ** GitLab **. No entanto, existem muitos outros recursos mencionados na seção "Explorar" abaixo que você pode conferir. Além disso, os artigos são sobre os sistemas de controle de versão ** ** que são de código aberto, auto-hospedados e extensíveis.
-Finalmente, [contenderize.com] [10] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [] [11] [Software de controle de versão] [12] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [13], [LinkedIn] [14] e [Twitter] [15].
+Finalmente, [contenderize.com][10] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [][11][Software de controle de versão][12] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][13], [LinkedIn][14] e [Twitter][15].
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Automatize os fluxos de trabalho de desenvolvimento de software com ações do GitHub] [16]
-  * [Entenda e aprenda ramos e puxe solicitações no Git] [2]
-  * [Software de gerenciamento de código -fonte | O que é git?] [17]
-  * [Top 5 Sistemas de controle de versão de código aberto em 2021] [18]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [19]
+  * [Automatize os fluxos de trabalho de desenvolvimento de software com ações do GitHub][16]
+  * [Entenda e aprenda ramos e puxe solicitações no Git][2]
+  * [Software de gerenciamento de código -fonte | O que é git?][17]
+  * [Top 5 Sistemas de controle de versão de código aberto em 2021][18]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][19]
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
 [3]: #cicd

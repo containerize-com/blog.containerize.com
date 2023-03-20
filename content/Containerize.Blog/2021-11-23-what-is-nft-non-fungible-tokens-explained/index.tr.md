@@ -15,16 +15,16 @@ categories: ['Blockchain Platforms']
 
 
 ## Genel Bakış
-Açık kaynaklı [blockchain platformları] [1] serisinde, [2021'de Top 5 Ücretsiz Açık Kaynak Kripto Cüzdanları] [2], [Ethereum Düğümü Nasıl Kurulur Localhost'ta | Yeni Başlayanlar Rehberi] [3] ve biraz daha. Blockchain teknolojisindeki artışla birlikte, en son gelişmelerin çoğu defter odaklı dağıtılmaktadır. Açıklık, güvenlik, şeffaflık ve sağlamlık gibi bazı güçlü özellikler nedeniyle ilk tercih olmuştur. Şimdi NFT hakkında konuşalım. ** NFT nedir **? NFT, figürü olmayan bir jetondur ve blockchain adı verilen dağıtılmış bir defterde saklanır. Çoğu zaman, NFT'lerin işlemlerini destekleyen [Ethereum] [1] blok zinciridir.
+Açık kaynaklı [blockchain platformları][1] serisinde, [2021'de Top 5 Ücretsiz Açık Kaynak Kripto Cüzdanları][2], [Ethereum Düğümü Nasıl Kurulur Localhost'ta | Yeni Başlayanlar Rehberi][3] ve biraz daha. Blockchain teknolojisindeki artışla birlikte, en son gelişmelerin çoğu defter odaklı dağıtılmaktadır. Açıklık, güvenlik, şeffaflık ve sağlamlık gibi bazı güçlü özellikler nedeniyle ilk tercih olmuştur. Şimdi NFT hakkında konuşalım. ** NFT nedir **? NFT, figürü olmayan bir jetondur ve blockchain adı verilen dağıtılmış bir defterde saklanır. Çoğu zaman, NFT'lerin işlemlerini destekleyen [Ethereum][1] blok zinciridir.
 Bu blog yazısında, aşağıdaki noktaları ele alarak ** Fungible Jetons ** üzerinden geçeceğiz.
-  *** [NFT nedir?] [4] **
-  *** [nft ve dağıtılmış defter (blockchain)] [5] **
-  *** [kripto ve nft] [6] **
-  *** [NFT Marketplace] [7] **
+  *** [NFT nedir?][4] **
+  *** [nft ve dağıtılmış defter (blockchain)][5] **
+  *** [kripto ve nft][6] **
+  *** [NFT Marketplace][7] **
 
 ## NFT nedir? {#Ne-nft}
 Yenilenmeyen jetonlar verilerin dijital temsilleridir ve verilerin video dosyası, ses dosyası, film bileti, çizim veya herhangi bir sosyal medya yorumu veya yayın gibi herhangi bir formatta olabileceği. Adın kendisi, herhangi bir varlık ile bağlantılı ve bu varlığın sahiplik haklarını içeren bir jeton olduğu açıklayıcıdır. Dahası, hiç kimse bu dijital varlıkları değiştiremez ve doğası gereği yoktur. Fungable ve Fungible olmayan şeyler örneğini ele alalım. 10 $ 'lık notunuzu 5 $' lık notlarla değiştirebilirsiniz, bu da para (10 $ not) mantardırır ve aynı şekilde değiştirilebilir ve aynı değeri içeren diğer kripto para birimleri için geçerlidir. Oysa, bir tabloyu veya herhangi bir sanatı değiştiremezsiniz çünkü sanatı denetleyemezsiniz. Ancak, bu dijital varlıklar benzersizdir ve bir seferde sadece bir sahibi vardır.
-Bu jetonlar, oluşturma sürelerinden son işleme kadar eksiksiz bilgiler içerir. Buna ek olarak, daha çok dijital veya fiziksel varlıkların sahiplik haklarını satın almak veya satmak gibidir. Bir resmin birçok kopyası olabilir, ancak gerçek dosya bir sahibinin mülkiyeti altında bulunacaktır. Bu nedenle, blockchain gibi güvenli kanallar kullanarak bir miktar para için satılabilir veya satın alınabilir. Bu aşamada, ** nft ** ne olduğu hakkında bir fikrimiz var ve doğada açık kaynak olan ** dağıtılmış defter ** ile ** fungible olmayan jetonların ** bağlantısından geçeceğiz. Ancak, bu [uzay] [8] 'de blockchain ve popüler açık kaynak blockchain platformları hakkında daha fazla bilgi edinebilirsiniz.
+Bu jetonlar, oluşturma sürelerinden son işleme kadar eksiksiz bilgiler içerir. Buna ek olarak, daha çok dijital veya fiziksel varlıkların sahiplik haklarını satın almak veya satmak gibidir. Bir resmin birçok kopyası olabilir, ancak gerçek dosya bir sahibinin mülkiyeti altında bulunacaktır. Bu nedenle, blockchain gibi güvenli kanallar kullanarak bir miktar para için satılabilir veya satın alınabilir. Bu aşamada, ** nft ** ne olduğu hakkında bir fikrimiz var ve doğada açık kaynak olan ** dağıtılmış defter ** ile ** fungible olmayan jetonların ** bağlantısından geçeceğiz. Ancak, bu [uzay][8] 'de blockchain ve popüler açık kaynak blockchain platformları hakkında daha fazla bilgi edinebilirsiniz.
 
 ## nft ve dağıtılmış defter (blockchain) {#nft-and-distributed-ledger-bockchain}
 Fungible olmayan jetonlar, kripto para birimleri gibi blockchain teknolojisi tarafından desteklenmektedir. Her NFT, herkes için kamuya açık olan dijital dağıtılmış bir defter üzerinde bulunur. Belirli bir jetonla ilgili bilgiler, jetonun sahibi, oluşturma tarihi ve tüm işlem kayıtları gibi blockchain'de mevcuttur. Dijital defter tüm katılımcılar arasında paylaşıldığından ve sahtecilik ve diğer sahtekarlık şansı olmadığından tüm jetonlar güvenli ve güvenlidir. Fungilable olmayan jetonların ilk zamanlarında, Etheruem blockchain'in NFT işlemlerini ele alması gerekiyordu. Ethereum açık kaynaktır ve birçok işletme düzeyinde hüküm sunar. Her şeyden önce, Ethereum blockchain platformu, geliştiricilerin NFT işlemlerini yönetmek için akıllı sözleşmeler yazmasına da izin verir.
@@ -35,28 +35,30 @@ NFT, kripto teknolojisi ile çok bağlantılı olduğu için son zamanlarda yayg
 
 ## nft Marketplace {#nft-Marketplace}
 Bu bölümde, aşağıdaki popüler NFT pazarlarından bazılarından geçeceğiz.
-** [Opensea] [9] **: Bu, GIF'ler, videolar, oyun karakterleri ve daha fazlası gibi çok çeşitli şeyleri NFT sunan en büyük NFT pazarıdır. Cüzdanınızı kurmanıza, NFT'ler oluşturmanıza ve satışa sunulmanıza olanak tanır. Bu pazarın NFT ticaret hacmi buna kadar 10 milyar dolardan fazla kaydedildi. Ay (yani Kasım 2021) lansmanından bu yana.
+** [Opensea][9] **: Bu, GIF'ler, videolar, oyun karakterleri ve daha fazlası gibi çok çeşitli şeyleri NFT sunan en büyük NFT pazarıdır. Cüzdanınızı kurmanıza, NFT'ler oluşturmanıza ve satışa sunulmanıza olanak tanır. Bu pazarın NFT ticaret hacmi buna kadar 10 milyar dolardan fazla kaydedildi. Ay (yani Kasım 2021) lansmanından bu yana.
 [10]: It is another popular **NFT marketplace** where the trade volume of NFTs is in millions of dollars. In addition, the trade volume of this marketplace is more than $3 billion since its launch.
 [11]: Just like other marketplaces, it is one of the big **non-fungible tokens** marketplaces. Interested people can explore this marketplace as the trade volume is more than $1.5 billion.
 Benzer şekilde, NFT ticareti yapabileceğiniz başka platformlar da vardır.
 
 ## Çözüm
 Bu bizi bu blog yazısının sonuna getiriyor. İnşallah, bu makale ** Fungible Tokenlerin ** temellerini anlamanıza yardımcı olacaktır. NFT nedir gibi bazı soruları ele aldık? ** dağıtılmış defter ** ve nfts ilişkisi. Ancak, aşağıdaki “Keşfet” bölümünde belirtilen başka blockchain platformları ve öğretici kılavuzlar vardır.
-Son olarak, [** Containerize.com **] [12] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [** blockchain platformları **] [1] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][12] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [** blockchain platformları **][1] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Ethereum] [13]
-  * [Hiperledger kumaş] [14]
-  * [Openchain] [15]
-  * [Ripple] [16]
-  * [MultiCain] [17]
-  * [Consensys Quorum] [18]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [19]
-  * [2020'de Top 5 Açık Kaynak Blockchain Platformu] [20]
-  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber] [21]
-  * [Merkezi olmayan teknoloji iş stratejinizi ne kadar yükseltiyor] [22]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [19]
+  * [Ethereum][13]
+  * [Hiperledger kumaş][14]
+  * [Openchain][15]
+  * [Ripple][16]
+  * [MultiCain][17]
+  * [Consensys Quorum][18]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][19]
+  * [2020'de Top 5 Açık Kaynak Blockchain Platformu][20]
+  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber][21]
+  * [Merkezi olmayan teknoloji iş stratejinizi ne kadar yükseltiyor][22]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][19]
+
+  
 [1]: https://products.containerize.com/blockchain-platforms/
 [2]: https://blog.containerize.com/blockchain-platforms/top-5-free-open-source-crypto-wallets-in-2021/
 [3]: https://blog.containerize.com/blockchain-platforms/what-is-testnet-how-to-deploy-it-ethereum-testnet/

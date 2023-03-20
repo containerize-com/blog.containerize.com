@@ -25,11 +25,11 @@ Artikel blog ini menguraikan platform antrian pesan modern NSQ vs Kafka. Artikel
   * Kesimpulan
 
 ## 1. Apa itu kafka?
-[Kafka] [1] adalah platform streaming acara terdistribusi sumber terbuka, yang ditulis dalam bahasa Scala yang dikembangkan oleh LinkedIn. Ini menerbitkan sistem pesan berlangganan dan memiliki kemampuan untuk menangani volume pesan yang tinggi. Kafka “terdistribusi, tahan lama, toleran kesalahan, sistem pesan pub-sub-throughput tinggi” dan Anda dapat melakukan pemrosesan real-time dan batch dengan Kafka. Ini adalah layanan pesan log yang didistribusikan, dipartisi, direplikasi di seluruh node dan berjalan di JVM. Kafka Antrian Pesan Terbaik mudah digunakan dan menyediakan fungsionalitas sistem antrian pesan tetapi dengan desain yang unik.
+[Kafka][1] adalah platform streaming acara terdistribusi sumber terbuka, yang ditulis dalam bahasa Scala yang dikembangkan oleh LinkedIn. Ini menerbitkan sistem pesan berlangganan dan memiliki kemampuan untuk menangani volume pesan yang tinggi. Kafka “terdistribusi, tahan lama, toleran kesalahan, sistem pesan pub-sub-throughput tinggi” dan Anda dapat melakukan pemrosesan real-time dan batch dengan Kafka. Ini adalah layanan pesan log yang didistribusikan, dipartisi, direplikasi di seluruh node dan berjalan di JVM. Kafka Antrian Pesan Terbaik mudah digunakan dan menyediakan fungsionalitas sistem antrian pesan tetapi dengan desain yang unik.
 Server antrian pesan terdistribusi dikenal sebagai broker dan ini membentuk kluster kafka. Seorang Zookeeper bertanggung jawab untuk koordinasi antara semua broker dalam sebuah cluster. Pialang pesan Apache Kafka digunakan oleh startup unicorn, kesehatan dan organisasi keuangan top seperti LinkedIn, FB, Netflix, Bank of America, Chase Bank, Yahoo, Twitter, dan lainnya. Pesan Open Source Perangkat lunak antrian Kafka Arsitektur terdiri dari produsen, konsumen, broker, penjaga kebun binatang, topik, partisi, catatan, dan log.
 
 ## 2. Apa itu NSQ? {#ce62}
-[NSQ] [2] adalah platform pesan terdistribusi realtime open source yang merupakan penerus SimpleQueue. Pengembang menggambarkan NSQ sebagai "platform pesan terdistribusi realtime" yang dibangun oleh Bitly. Pesan Pesan Open Source Softwarensq adalah platform pesan yang sangat sederhana yang dirancang dan beroperasi dalam skala, menangani miliaran pesan per hari. Ini adalah sistem pesan buffered tradisional yang mempromosikan topologi terdesentralisasi tanpa satu titik kegagalan. Ini memungkinkan toleransi kesalahan dan ketersediaan tinggi ditambah dengan sistem pengiriman pesan yang andal.
+[NSQ][2] adalah platform pesan terdistribusi realtime open source yang merupakan penerus SimpleQueue. Pengembang menggambarkan NSQ sebagai "platform pesan terdistribusi realtime" yang dibangun oleh Bitly. Pesan Pesan Open Source Softwarensq adalah platform pesan yang sangat sederhana yang dirancang dan beroperasi dalam skala, menangani miliaran pesan per hari. Ini adalah sistem pesan buffered tradisional yang mempromosikan topologi terdesentralisasi tanpa satu titik kegagalan. Ini memungkinkan toleransi kesalahan dan ketersediaan tinggi ditambah dengan sistem pengiriman pesan yang andal.
 NSQ menawarkan topologi ketersediaan tinggi yang meminimalkan SPOF. Ini meningkatkan ketersediaan dengan menyiapkan beberapa contoh untuk NSQD dan NSQLookUPD. Selain itu, ia menjamin bahwa pesan tersebut dikirim setidaknya sekali dengan tingkat kegigihan tertentu dan mudah dikonfigurasi. Broker pesan terbaik NSQ lebih fleksibel dan mendukung kegigihan pesan. Ini memiliki dasbor admin mengkilap. Sistem Pesan Antrian NSQ memiliki 19,9k GitHub Stars dan 2.6K Github Forks.
 
 ## 3. Perbandingan NSQ vs Kafka {#Ce62}
@@ -51,15 +51,17 @@ NSQ dengan 20K GitHub Stars dan 2.6K Forks di GitHub tampaknya lebih populer dar
 
 ## kesimpulan: {#4a1a}
 Artikel ini memberikan perbandingan singkat tentang kerja kerangka kerja pesan populer - NSQ dan Kafka. Perbandingan fitur artikel berputar di sekitar throughput antrian pesan, kegigihan, keandalan, latensi, skalabilitas dan ketersediaan. Parameter ini penting untuk memutuskan kesesuaian kerangka kerja untuk aplikasi waktu nyata. Oleh karena itu, ini adalah artikel yang bagus untuk pemahaman menyeluruh untuk memilih kerangka kerja yang tepat. Perangkat lunak antrian pesan adalah tulang punggung teknologi masa depan di pasar yang dapat menangani pemrosesan tinggi. Dalam tutorial mendatang kami, kami akan membahas tentang topik yang lebih menarik terkait dengan platform pesan open source.
-_Your dapat bergabung dengan kami di [Twitter] [3], [LinkedIn] [4] dan halaman [Facebook] [5] kami. Platform antrian pesan apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda] [6].
+_Your dapat bergabung dengan kami di [Twitter][3], [LinkedIn][4] dan halaman [Facebook][5] kami. Platform antrian pesan apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda][6].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa artikel lain yang berkaitan dengan manajemen sehari-hari server Anda.
-  * [Sistem antrian yang didukung Redis untuk pemrosesan latar belakang] [7]
-  * [Sistem Pemrosesan Pekerjaan Latar Belakang Tercepat] [8]
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [9]
-  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu] [10]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [11]
+  * [Sistem antrian yang didukung Redis untuk pemrosesan latar belakang][7]
+  * [Sistem Pemrosesan Pekerjaan Latar Belakang Tercepat][8]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][9]
+  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu][10]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][11]
+
+  
 [1]: https://kafka.apache.org/
 [2]: https://nsq.io/
 [3]: https://twitter.com/containerize_co

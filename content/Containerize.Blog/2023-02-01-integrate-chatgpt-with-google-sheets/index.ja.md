@@ -15,21 +15,21 @@ categories: ['Artificial intelligence']
 
 
 ## 概要
-ブログの投稿を一貫してフォローしてきた読者に感謝しています。 [code gpt] [1]および[chatgpt] [2]に関する最近のブログ投稿の応答は圧倒的です。したがって、**ChatGptをGoogle [Sheets] [3]と統合する方法を示す別の記事を思いつきました。もっと。一方、ChatGPTは[OpenAI] [5]によって開発されたオープンソースNLPモデルである[オープンソース] [4] GPT-3に基づいています。
+ブログの投稿を一貫してフォローしてきた読者に感謝しています。 [code gpt][1]および[chatgpt][2]に関する最近のブログ投稿の応答は圧倒的です。したがって、**ChatGptをGoogle [Sheets][3]と統合する方法を示す別の記事を思いつきました。もっと。一方、ChatGPTは[OpenAI][5]によって開発されたオープンソースNLPモデルである[オープンソース][4] GPT-3に基づいています。
 ただし、人工知能ベースのチャットボットをインストールすることにより、シートを応答するものにすると、機能性と効率が強化されます。さらに、このエンタープライズレベル**チャットボット統合**は、ルーチンタスクを自動化することで時間を節約し、複雑な問題に対するソリューションを提供できます。
 この記事では、次のポイントについて説明します。
-* [**ChatGptをGoogleシートと統合する方法？**] [6]
-* [**GoogleシートでChatGptの使用方法？**] [7]
+* [**ChatGptをGoogleシートと統合する方法？**][6]
+* [**GoogleシートでChatGptの使用方法？**][7]
 
 ## ChatGptをGoogleシートと統合する方法
-* * ChatGpt Integration**任意のソフトウェアとの競争力は間違いなくビジネスに競争力を与えます。双方向の会話セッションを開始できるAI駆動のモデルで、その統合がどれほど強力であるかというソフトウェアに埋め込まれましたか？もちろん素晴らしい。したがって、問題の技術的なソリューションをチャットボットに尋ねると、ちょうど間に合うように応答を得ることができます。それは、時間と労力を節約するという点で多くのことを意味します。
+**ChatGpt Integration**任意のソフトウェアとの競争力は間違いなくビジネスに競争力を与えます。双方向の会話セッションを開始できるAI駆動のモデルで、その統合がどれほど強力であるかというソフトウェアに埋め込まれましたか？もちろん素晴らしい。したがって、問題の技術的なソリューションをチャットボットに尋ねると、ちょうど間に合うように応答を得ることができます。それは、時間と労力を節約するという点で多くのことを意味します。
 これを始めましょう**chatgptとのGoogleシートの統合。**
-まず、Google [Sheets] [3]を開き、**「拡張機能 - >アドオン - > get add-ons」**をクリックします。これを行うと、Google Workspace Marketplaceにダイアログボックスが表示されます。次に、右上隅に配置された検索バーに「chatgpt」と入力し、下の画像に示すように最初のオプションを選択します。
+まず、Google [Sheets][3]を開き、**「拡張機能 - >アドオン - > get add-ons」**をクリックします。これを行うと、Google Workspace Marketplaceにダイアログボックスが表示されます。次に、右上隅に配置された検索バーに「chatgpt」と入力し、下の画像に示すように最初のオプションを選択します。
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-9.36.21-PM-1-1024x750.png" alt="仕事のためのChatGpt">}}
 
 最初のオプションを選択し、この拡張子をインストールします。このインストールの後、次のセットは**GoogleシートへのChatGPT統合を有効にすることです。**
-OpenAIプラットフォームでアカウントを作成し、APIキーを取得する必要があります。 Openai APIキーを取得するには、この[リンク] [1]にアクセスしてください。
+OpenAIプラットフォームでアカウントを作成し、APIキーを取得する必要があります。 Openai APIキーを取得するには、この[リンク][1]にアクセスしてください。
 次に、**「拡張機能 - > gpt for sheets and docs-> set api key」**をクリックし、apiキーを挿入して、chatgpt統合を有効にします。さらに、**「拡張機能 - > gpt for sheets and docs-> GPT関数を有効にする」**をクリックして、GPT関数を有効にします。
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="chatgpt統合">}}
@@ -52,24 +52,26 @@ OpenAI APIキーがセットアップされると、この強力な**ChatGPTとG
 ***gpt_fill**：範囲の例を考えると、GPTで不完全な範囲を埋める
 ***gpt_convert**：フォーマット間で変換します。
 ***gpt_translate**：翻訳するテキスト。
-このYouTube [リンク] [8]に従って、その機能の一部を確認してください。
+このYouTube [リンク][8]に従って、その機能の一部を確認してください。
 
 ## 結論
-ここでは、**Google Sheets IntegrationとChatGpt Integration**にあるこのガイドを終了しています。 ChatGptをGoogleシートと統合する方法を経験しました。実際、仕事に**chatgpt**を使用する方法を学びました。さらに、[Google App Script] [9]で機能を作成することにより、この**AIを搭載したチャットボット**をさらに活用できます。さらに、この**Openai GPT-3ベースのChatGPT拡張機能をインストールするだけで、多くのワークフローを自動化できます。**
-最後に、[containerize.com] [10]は、さらなるオープンソース製品とトピックに関するブログ投稿を継続的に執筆しています。さらに、ソーシャルメディアアカウント[Facebook] [11]、[LinkedIn] [12]、および[Twitter] [13]でフォローできます。
+ここでは、**Google Sheets IntegrationとChatGpt Integration**にあるこのガイドを終了しています。 ChatGptをGoogleシートと統合する方法を経験しました。実際、仕事に**chatgpt**を使用する方法を学びました。さらに、[Google App Script][9]で機能を作成することにより、この**AIを搭載したチャットボット**をさらに活用できます。さらに、この**Openai GPT-3ベースのChatGPT拡張機能をインストールするだけで、多くのワークフローを自動化できます。**
+最後に、[containerize.com][10]は、さらなるオープンソース製品とトピックに関するブログ投稿を継続的に執筆しています。さらに、ソーシャルメディアアカウント[Facebook][11]、[LinkedIn][12]、および[Twitter][13]でフォローできます。
 
 ## 質問する
-[フォーラム] [14]での質問や質問についてお知らせください。
+[フォーラム][14]での質問や質問についてお知らせください。
 
 ## FAQ
-* * Googleシートでチャットを有効にするにはどうすればよいですか？**
-ChatGptはAIを搭載しており、会話の方法で対話します。この[リンク] [6]にナビゲートすることにより、ChatGptをGoogleシートと統合できます。
+**Googleシートでチャットを有効にするにはどうすればよいですか？**
+ChatGptはAIを搭載しており、会話の方法で対話します。この[リンク][6]にナビゲートすることにより、ChatGptをGoogleシートと統合できます。
 
 ## 参照
-  * [人工知能の紹介| aiとは？] [15]
-  * [vscodeでchatgptの使用方法| VSCODE拡張コードGPT] [1]
-  * [Openai Chatbot gpt-3 | ai革命をchatgpt] [2]
-  * [トップ5のオープンソースAIフレームワークは何ですか] [16]
+  * [人工知能の紹介| aiとは？][15]
+  * [vscodeでchatgptの使用方法| VSCODE拡張コードGPT][1]
+  * [Openai Chatbot gpt-3 | ai革命をchatgpt][2]
+  * [トップ5のオープンソースAIフレームワークは何ですか][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: https://www.google.com/sheets/about/

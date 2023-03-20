@@ -14,10 +14,10 @@ categories: ['Uncategorized']
 {{< figure align=center src="images/bitwarden.png" alt="Gerentes de senha de código aberto | Bitwarden vs Passtolt|Gerentes de senha de código aberto | Bitwarden vs Passtolt">}}
 
 Quando se trata de encontrar um gerenciador de senhas que não apenas funcione para uso individual, mas permite que equipes e empresas gerenciem e acessem melhor informações confidenciais, encontrar o gerenciador de senhas certo pode ajudar a aliviar o fluxo de trabalho. Bitwarden e Passbolt são softwares de gerenciador de senhas de código aberto, que foram projetados especificamente para equipes e permitem que as empresas hospedem os aplicativos localmente ou na nuvem. Abordaremos os seguintes tópicos neste post para comparar o Bitwarden vs Pass -Bolt:
-  * [O que é Bitwarden?] [1]
-  * [O que é Pass -Bolt?] [2]
-  * [Principais diferenças] [3]
-  * [Conclusão] [4]
+  * [O que é Bitwarden?][1]
+  * [O que é Pass -Bolt?][2]
+  * [Principais diferenças][3]
+  * [Conclusão][4]
 
 ## ** O que é Bitwarden? **
 O Bitwarden é um promissor gerenciador de senhas de código aberto que possui compatibilidade de plataforma cruzada, incluindo um aplicativo móvel e web, além da interface da linha de comando. Você também pode acessar o Bitwarden na sua área de trabalho, pois possui compatibilidade com Windows, MacOS e Linux. Como gerenciador de senhas de código aberto, o Bitwarden pode ser usado para uso individual, bem como no nível corporativo. Você não apenas pode hospedar o Bitwarden em seus servidores, mas também possui hospedagem em nuvem e, com compatibilidade cruzada, ele pode ser acessado sempre que você precisar.
@@ -53,9 +53,11 @@ Neste post, tentamos repassar em detalhes a comparação do Bitwarden vs Pass -B
 
 ## Explore
 Você pode encontrar links a seguir relevantes:
-[Bitwarden | Gerenciador de senhas de plataforma cruzada de código aberto] [5]
-[Passolt | Greer, gerenciador de senhas de código aberto e auto-hospedado] [6]
-[Configurar e gerenciar o Keepass Password Manager para Windows] [7]
+[Bitwarden | Gerenciador de senhas de plataforma cruzada de código aberto][5]
+[Passolt | Greer, gerenciador de senhas de código aberto e auto-hospedado][6]
+[Configurar e gerenciar o Keepass Password Manager para Windows][7]
+
+  
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

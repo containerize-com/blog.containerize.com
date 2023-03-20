@@ -14,10 +14,10 @@ categories: ['Status Page']
 {{< figure align=center src="images/cachet-monitor.png" alt="Surveillance des applications Web">}}
 
 Le suivi des applications et des services est une partie très importante des activités en ligne. Votre site Web s'exécute 24x7 et vous pouvez vous tromper à tout moment. Vous ne pouvez pas savoir que l'un ou l'autre site fonctionne ou non avant de le visiter. De plus, les clients n'auront aucune information sur le problème. Ils peuvent contacter votre équipe d'assistance pour les temps d'arrêt du service. De plus, cela pourrait conduire à vos clients déçus. Cependant, vous pouvez réduire les temps d'arrêt des services en configurant le système de page d'état. Le système de page d'état surveillera tous vos services 24h / 24 et envoie des notifications à votre équipe et à vos clients immédiatement. Cela vous permettra de prendre des mesures rapides pour résoudre le problème et les clients se tiendront à jour sur les progrès. Dans cet article de blog, vous apprendrez à apprendre à intégrer la bibliothèque tierce avec ** cachet ** pour ** Automatiser la surveillance **.
-  * [Exigences] [1]
-  * [Plugin de surveillance de configuration] [2]
-  * [Création du service Linux] [3]
-  * [Conclusion] [4]
+  * [Exigences][1]
+  * [Plugin de surveillance de configuration][2]
+  * [Création du service Linux][3]
+  * [Conclusion][4]
 
 ## exigences {#Requirements}
   * Installez la dernière version du cachet.
@@ -25,7 +25,7 @@ Le suivi des applications et des services est une partie très importante des ac
 
 ## Plugin de surveillance de configuration {#Plugin}
 Voici les étapes à installer et à configurer le plugin pour la surveillance sur Ubuntu.
-  * Télécharger le binaire depuis [page de version] [5].
+  * Télécharger le binaire depuis [page de version][5].
   * Renommez le fichier à Cachet-Monitor.
   * Faites le fichier exécutable avec la commande.
 ```
@@ -112,13 +112,15 @@ sudo systemctl enable cachet-monitor.service
 
 ## Conclusion {#conclusion}
 Le cachet A est gratuit et ** Page d'état open source ** Système. Cependant, il ne fournit pas la fonction hors de la boîte pour ** la surveillance des applications Web **. Au lieu de cela, il a une puissante API REST qui peut être utilisée pour effectuer des actions telles que des incidents, des composants, des groupes et bien d'autres. Dans cet article, nous avons utilisé le plugin tiers pour automatiser la surveillance des applications dans Cachet. Surtout, vous pouvez développer votre propre plugin ou utiliser tout autre plugin existant pour faire le travail.
-De plus, [contenerize.com] [6] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de la catégorie [de statut] [7] pour des articles plus intéressants.
+De plus, [contenerize.com][6] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de la catégorie [de statut][7] pour des articles plus intéressants.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [Meilleurs systèmes de page d'état open source] [8]
-  * [Cachet - Logiciel de page d'état gratuit et open source] [9]
-  * [Top 5 du logiciel d'état open source pour 2020] [10]
+  * [Meilleurs systèmes de page d'état open source][8]
+  * [Cachet - Logiciel de page d'état gratuit et open source][9]
+  * [Top 5 du logiciel d'état open source pour 2020][10]
+
+  
 [1]: #Requirements
 [2]: #Plugin
 [3]: #Service

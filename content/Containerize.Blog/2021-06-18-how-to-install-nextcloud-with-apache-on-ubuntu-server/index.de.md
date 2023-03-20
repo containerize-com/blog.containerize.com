@@ -15,7 +15,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 
 ## **Überblick**
-** [Nextcloud] [1] ** ist eine kostenlose und sichere ** selbst gehostete Cloud-Speicherlösung ** in PHP-Programmiersprache geschrieben. Es bietet Datenzugriff über die Weboberfläche und ähnlich wie bei Dropbox. Proprietäre Cloud -Speicherlösungen wie Dropbox und Google Drive sind praktisch, können jedoch zum Sammeln personenbezogener Daten verwendet werden, da Ihre Dateien auf ihren Systemen gespeichert sind. Wenn Sie sichere, sichere und konforme Datei -Synchronisation und Freigabelösung benötigen, können Sie auf Open Source NextCloud Server wechseln. NextCloud Setup kann auf Ihren privaten Heimservern oder auf einem virtuellen privaten Server installiert werden.
+** [Nextcloud][1] ** ist eine kostenlose und sichere ** selbst gehostete Cloud-Speicherlösung ** in PHP-Programmiersprache geschrieben. Es bietet Datenzugriff über die Weboberfläche und ähnlich wie bei Dropbox. Proprietäre Cloud -Speicherlösungen wie Dropbox und Google Drive sind praktisch, können jedoch zum Sammeln personenbezogener Daten verwendet werden, da Ihre Dateien auf ihren Systemen gespeichert sind. Wenn Sie sichere, sichere und konforme Datei -Synchronisation und Freigabelösung benötigen, können Sie auf Open Source NextCloud Server wechseln. NextCloud Setup kann auf Ihren privaten Heimservern oder auf einem virtuellen privaten Server installiert werden.
 Nextcloud Open Source bietet ** End-to-End-Verschlüsselung **, was bedeutet, dass Dateien auf dem Client-Gerät verschlüsselt werden können, bevor sie auf den Server hochgeladen werden. Es kann auch in eine Online -Office -Suite wie Collobora, nur intelligente, integriert werden, sodass Sie Ihren DOC-, PPT-, XLS -Dateien direkt vom nächsten Client erstellen und bearbeiten können. Sie können nach dem Download von NextCloud -Client eine oder mehrere Dateien und Ordner auf Ihrem Computer mit Ihrem NextCloud -Server freigeben und synchronisieren. NextCloud Desktop -Download und mobile Clients bieten Optionen zur Synchronisierung und Freigabe auf allen Geräten unter Ihrer Kontrolle. Platzieren Sie Datendateien in Ihren lokalen gemeinsam genutzten Verzeichnissen, und diese Dateien werden sofort mit dem NextCloud -Desktop -Sync -Client, iOS -App oder Android -Geräten mit dem Server und anderen Geräten synchronisiert.
 In diesem Tutorial können Sie NextCloud auf Ubuntu 20.04 LTS Linux -Betriebssystem mit Apache installieren.
   *** Voraussetzungen installieren (Lampenstapel) **
@@ -47,7 +47,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_38_}}
 
 ## Schritt 2: Laden Sie das NEXTCLOUD -Archiv auf Ubuntu herunter
-Zum Zeitpunkt des Schreibens dieses Artikels ist die neueste Version von NextCloud 22.0.0beta5. Nachdem Sie den LAMP -Server auf Ihrem System erfolgreich konfiguriert haben, laden wir NextCloud von seiner [offiziellen Website] [2] herunter.
+Zum Zeitpunkt des Schreibens dieses Artikels ist die neueste Version von NextCloud 22.0.0beta5. Nachdem Sie den LAMP -Server auf Ihrem System erfolgreich konfiguriert haben, laden wir NextCloud von seiner [offiziellen Website][2] herunter.
 CD /TMP
 wGet https://download.nextcloud.com/server/releases/nextcloud-22.0.0beta5.zip
 {{_LINE_43_}}
@@ -101,12 +101,14 @@ _What Cloud-basierte selbst gehostete Speicherlösung bevorzugen Sie? Wenn Sie F
 
 ## Erkunden:
 Möglicherweise folgen Sie Artikeln, die sich auf die tägliche Verwaltung Ihres Servers beziehen.
-  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu] [4]
-  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu oder Debian] [5]
-  * [Installieren und sicherer phpmyadmin mit nginx auf Ubuntu] [6]
-  * [Sicher und verschlüsseln Nginx mit lass uns auf Ubuntu 20.04] [7]
-  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian] [8]
-  * [Setup nginx mit Passagier auf AWS Production Server] [9]
+  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu][4]
+  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu oder Debian][5]
+  * [Installieren und sicherer phpmyadmin mit nginx auf Ubuntu][6]
+  * [Sicher und verschlüsseln Nginx mit lass uns auf Ubuntu 20.04][7]
+  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian][8]
+  * [Setup nginx mit Passagier auf AWS Production Server][9]
+
+  
 [1]: https://nextcloud.com/
 [2]: https://nextcloud.com/install/
 [3]: mailto:yasir.saeed@aspose.com

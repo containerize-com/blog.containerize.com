@@ -13,12 +13,12 @@ categories: ['Database Management Software']
 
 {{< figure align=center src="images/redis-pub-sub.png" alt="Redis pub sub">}}
 
-En nuestro último tutorial "** [Una guía para principiantes para Redis In Memory Database] [1] **" Aprendimos sobre Redis como una base de datos en memoria. Y, cómo esto compite con las bases de datos NoSQL. También aprendimos dónde usar Redis y dónde su uso no es óptimo. Ahora, construyendo sobre esa base de conocimiento, en este tutorial aprenderemos sobre Redis Pub/Sub, cómo funciona y de cuál es el mejor uso del sistema Redis Publish/suscripción. Empecemos.
-  *** [¿Qué es el patrón de publicación/suscripción?] [2] **
-  *** [¿Cómo funciona el pub/sub?] [3] **
-  *** [¿Cuándo deberías usar pub/sub?] [4] **
-  *** [¿Cómo usar Redis Pub/Sub?] [5] **
-  *** [Conclusión] [6] **
+En nuestro último tutorial "** [Una guía para principiantes para Redis In Memory Database][1] **" Aprendimos sobre Redis como una base de datos en memoria. Y, cómo esto compite con las bases de datos NoSQL. También aprendimos dónde usar Redis y dónde su uso no es óptimo. Ahora, construyendo sobre esa base de conocimiento, en este tutorial aprenderemos sobre Redis Pub/Sub, cómo funciona y de cuál es el mejor uso del sistema Redis Publish/suscripción. Empecemos.
+  *** [¿Qué es el patrón de publicación/suscripción?][2] **
+  *** [¿Cómo funciona el pub/sub?][3] **
+  *** [¿Cuándo deberías usar pub/sub?][4] **
+  *** [¿Cómo usar Redis Pub/Sub?][5] **
+  *** [Conclusión][6] **
 
 ## ¿Qué es el patrón de publicación/suscripción? {#qué}
 Publicar/suscribirse o en breves pub/sub es un patrón de mensajería donde el remitente y el receptor de los mensajes no intercambian esos mensajes directamente. Más bien, el remitente del mensaje lo publica en un canal/tema. Y, todos aquellos que quieran recibir esos mensajes se suscribirán al canal/tema. Entonces, eso fue más una explicación técnica. En nuestra vida diaria, usamos este modelo de publicación de suscripción con bastante frecuencia mientras usa plataformas de redes sociales como YouTube, Twitter, Facebook o Instagram. Donde los productores de contenido producen el contenido y los interesados ​​seguirán / suscribirán al contenido. Así que esto es exactamente lo que hace el patrón de pub/sub en la arquitectura de software también.
@@ -44,7 +44,7 @@ Discutamos algunas de las ventajas del patrón de pub/sub
   * Mejora la capacidad de respuesta
 
 ## Cómo usar Redis Pub/Sub {#Redis-Pubsub}
-Para la instalación de Redis, puede consultar mi [último tutorial] [1]. Este ejemplo explica cómo funciona el concepto de editor y suscriptor. En el siguiente ejemplo, un cliente se suscribe a un canal llamado "Redischat".
+Para la instalación de Redis, puede consultar mi [último tutorial][1]. Este ejemplo explica cómo funciona el concepto de editor y suscriptor. En el siguiente ejemplo, un cliente se suscribe a un canal llamado "Redischat".
 ```
 redis 127.0.0.1:6379> SUBSCRIBE redisChat  
 Reading messages... (press Ctrl-C to quit) 
@@ -69,6 +69,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 ## conclusión {#conclusion}
 En este tutorial, aprendimos sobre el patrón de diseño de publicación/suscripción. Y exploró cómo funciona el Pub/Sub Redis. También exploramos cuáles son los mejores casos de uso de Redis Pub/Sub, mensajes en tiempo real. En mi próximo tutorial, exploraremos aún más el Redis y explicaremos cómo podemos usar Redis Pub/Sub con Node.js para crear una aplicación de chat en tiempo real.
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: #what
 [3]: #how

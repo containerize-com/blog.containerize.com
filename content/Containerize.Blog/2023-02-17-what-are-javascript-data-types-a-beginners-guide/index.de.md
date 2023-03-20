@@ -15,10 +15,10 @@ categories: ['Programming']
 
 
 ## Überblick
-Unabhängig davon, ob Sie ein mittelmäßiger oder erfahrener Entwickler sind, erhalten Sie die Lösungen für Ihre Probleme, die während der Entwicklungsjobs kommen. [Containerize.com] [1] hat begonnen, Tutorial -Blog -Beiträge in der Programmierkategorie zu schreiben, und wir beginnen mit einem**JavaScript -Anfänger -Leitfaden**. Da wir anfangen, geht es in diesem Artikel um JavaScript -Datentypen. Erforschen wir**Was sind JavaScript -Datentypen**und sehen Sie Beispiele dafür, wie Sie sie im Quellcode effizient verwenden können. Gehen Sie daher diese Anfängerleitfaden gründlich durch, damit Sie ein gutes Verständnis für**JavaScript -Datentypen**haben können.
+Unabhängig davon, ob Sie ein mittelmäßiger oder erfahrener Entwickler sind, erhalten Sie die Lösungen für Ihre Probleme, die während der Entwicklungsjobs kommen. [Containerize.com][1] hat begonnen, Tutorial -Blog -Beiträge in der Programmierkategorie zu schreiben, und wir beginnen mit einem**JavaScript -Anfänger -Leitfaden**. Da wir anfangen, geht es in diesem Artikel um JavaScript -Datentypen. Erforschen wir**Was sind JavaScript -Datentypen**und sehen Sie Beispiele dafür, wie Sie sie im Quellcode effizient verwenden können. Gehen Sie daher diese Anfängerleitfaden gründlich durch, damit Sie ein gutes Verständnis für**JavaScript -Datentypen**haben können.
 Wir decken den folgenden Punkt ab:
-  * [Was ist ein Datentyp?] [2]
-  * [Was sind JavaScript -Datentypen?] [3]
+  * [Was ist ein Datentyp?][2]
+  * [Was sind JavaScript -Datentypen?][3]
 
 ## Datentypen erklärt | Was ist ein Datentyp? {#What-is-a-data-Typ}
 Bei einem Datentyp geht es darum, dem Compiler mitzuteilen, wie die Daten interpretiert oder kompiliert werden sollen. Die Verwendung von Datentypen ist kritisch und muss mit Bedacht verwendet werden. In einfachen Worten geht es um das Format der Daten wie Anzahl, String, Boolescher und mehr. Es gibt jedoch zwei Kategorien von Datentypen primitive Datentypen und nichtprimitive Datentypen. Es gibt acht primitive Datentypen, die wir im nächsten Abschnitt durchlaufen werden.
@@ -70,31 +70,33 @@ arr = arr2;
 arr === arr2 // true
 ```
 Gehen wir nun die Datentypen einzeln durch. Es gibt 6 primitive Datentypen und 1 unprimitiver Datentyp.
-* * Zu den primitiven Datentypen gehören:**
+**Zu den primitiven Datentypen gehören:**
 ***String**: Dieser Datentyp repräsentiert Textdaten, die aus einer Abfolge von Zeichen bestehen, die von Zitaten umgeben sind.
 ***Nummer**: Es repräsentiert Dezimal-/Nicht-Dezimaldaten, insbesondere Ganzzahl oder Float.
 ***boolean**: Darstellung der logischen Werte wahr oder falsch.
 ***Symbol**: Symbol wird verwendet, um eindeutige Werte zu halten.
 ***undefiniert**: Eine Variable ohne Wert oder eine nicht initialisierte Variable.
 ***null**: Das Fehlen eines Werts wird als null betrachtet.
-* * Nicht primitiver Datentyp enthält:**
-* * Objekt**: Es wird verwendet, um die Sammlung von Daten zu speichern, die aus Schlüsselwertpaaren bestehen.
+**Nicht primitiver Datentyp enthält:**
+**Objekt**: Es wird verwendet, um die Sammlung von Daten zu speichern, die aus Schlüsselwertpaaren bestehen.
 
 ## Abschluss
 Dies ist das Ende dieses JavaScript -Anfängerhandbuchs**. Wir haben**Was sind JavaScript -Datentypen**? Darüber hinaus haben wir untersucht, was ein Datentyp auf den Punkt gebracht hat. Sie sollten ein besseres Verständnis für nicht primitive und**primitive Datentypen**in JavaScript haben. Dieser Blog -Beitrag hilft Ihnen wirklich, wenn Sie sich auf ein Vorstellungsgespräch vorbereiten möchten.
-Schließlich schreibt [Containerize.com] [1] kontinuierlich Blog-Beiträge zu weiteren Open-Source-Produkten und -Themen. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook] [4], [LinkedIn] [5] und [Twitter] [6] folgen.
+Schließlich schreibt [Containerize.com][1] kontinuierlich Blog-Beiträge zu weiteren Open-Source-Produkten und -Themen. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][4], [LinkedIn][5] und [Twitter][6] folgen.
 
 ## Stelle eine Frage
-Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [7] informieren.
+Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][7] informieren.
 
 ## FAQs
-* * Was sind die 8 JavaScript -Datentypen?**
-Bitte besuchen Sie diesen [Link] [3], um die 8 JavaScript -Datentypen zu kennen.
+**Was sind die 8 JavaScript -Datentypen?**
+Bitte besuchen Sie diesen [Link][3], um die 8 JavaScript -Datentypen zu kennen.
 
 ## Siehe auch
-  * [Kostenlose und Open Source Populär JavaScript -Frameworks] [8]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [9]
-  * [Top 10 Open Source -Technologien, die im Jahr 2022 lernen können] [10]
+  * [Kostenlose und Open Source Populär JavaScript -Frameworks][8]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][9]
+  * [Top 10 Open Source -Technologien, die im Jahr 2022 lernen können][10]
+
+  
 [1]: https://www.containerize.com/
 [2]: #What-is-a-data-type
 [3]: #What-are-JavaScript-Data-Types

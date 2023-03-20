@@ -20,10 +20,10 @@ Statping'in temel özelliklerine bir göz atalım.
   *** Mobil Uygulama ** - İPhone ve Android cihazlar için ücretsiz uygulamayı kullanın ve hareket halindeki her şeyi yönetin.
   *** OAuth Authenticatio ** N - GitHub, Google, Slack ve Custom OpenID sağlayıcısı gibi popüler hizmetler için OAuth kimlik doğrulamasını destekler. Bu özelliği kullanın ve güvenliği artırın.
 Bu öğreticide aşağıdaki konuları ele alacağız.
-  * [Linux'a yükleme] [1]
-  * [Systemd hizmetini yapılandır] [2]
-  * [İzleme için Hizmet Oluştur] [3]
-  * [Sonuç] [4]
+  * [Linux'a yükleme][1]
+  * [Systemd hizmetini yapılandır][2]
+  * [İzleme için Hizmet Oluştur][3]
+  * [Sonuç][4]
 
 ## Linux üzerine yükleme {#Installing}
 Statping kurulumu için aşağıdaki komutu çalıştırın.
@@ -71,17 +71,19 @@ systemctl start statping
 
 ## Sonuç {#Conclusion}
 Statping, Linux'a nasıl yükleneceğini ve bu öğreticide bir Systemd hizmeti oluşturmayı öğrendik. Ayrıca, farklı özellikler hakkında sizi izlemek ve tanıtmak için yeni bir hizmet oluşturduk. Bu kılavuzun ** Web Hizmeti İzleme ** ve ** Web Uygulamaları İzleme ** gerçekleştirmek için STATPPE kullanmaya başlamanızda size yardımcı olacağını umuyoruz.
-Son olarak, [** Containerize.com **] [5], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** durum sayfası **] [6] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][5], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** durum sayfası **][6] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** 2020 için Top 5 Açık Kaynak Durum Sayfası Yazılımı **] [7]
-  *[** Statping **] [8]
-  *[** Çaket **] [9]
-  *[** Monitör **] [10]
-  *[** Staytus **] [11]
-  *[** Upptime **] [12]
-  *[** Statusfy **] [13]
+  *[** 2020 için Top 5 Açık Kaynak Durum Sayfası Yazılımı **][7]
+  *[** Statping **][8]
+  *[** Çaket **][9]
+  *[** Monitör **][10]
+  *[** Staytus **][11]
+  *[** Upptime **][12]
+  *[** Statusfy **][13]
+
+  
 [1]: #Installing
 [2]: #Configure
 [3]: #Create

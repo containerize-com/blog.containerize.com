@@ -14,12 +14,12 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/redis-in-memory-database.png" alt="Redis database dalam memori">}}
 
 ** redis ** sebenarnya adalah singkatan dari "** re ** mote ** di ** ctionary ** s ** erver". Database Redis adalah toko kunci-kunci open-source, canggih. Ini mendukung beberapa tipe data: string, hash, daftar, set, dan set yang diurutkan. Itu sebabnya sering disebut sebagai server struktur data. Redis ditulis dalam C. Tutorial Redis ini memberikan pemahaman yang baik tentang konsep basis data Redis In-Memory.
-  *** [Apa itu database NoSQL] [1] **
-  *** [Apakah Redis A NoSQL Database?] [2] **
-  *** [Kapan menggunakan redis?] [3] **
-  *** [redis vs toko nilai kunci lainnya] [4] **
-  *** [instal redis di ubuntu] [5] **
-  *** [Kesimpulan] [6] **
+  *** [Apa itu database NoSQL][1] **
+  *** [Apakah Redis A NoSQL Database?][2] **
+  *** [Kapan menggunakan redis?][3] **
+  *** [redis vs toko nilai kunci lainnya][4] **
+  *** [instal redis di ubuntu][5] **
+  *** [Kesimpulan][6] **
 
 ## Apa itu database NoSQL {#NoSQL}
 Database NoSQL menjadi sangat populer. Perusahaan besar mengandalkan mereka untuk menyimpan ratusan data petabyte dan menjalankan jutaan pertanyaan per detik. Tapi apa itu database NoSQL? Bagaimana cara kerjanya, dan mengapa skala jauh lebih baik daripada database relasional tradisional? Mari kita mulai dengan dengan cepat menjelaskan masalah dengan database relasional seperti MySQL, MariaDB, SQL Server.
@@ -69,6 +69,8 @@ PONG
 
 ## kesimpulan {#conclusion}
 Dalam tutorial Redis ini, kami belajar tentang database Redis In-Memory. Kami mengeksplorasi perbedaan utama antara database relasional dan non-relasional (NoSQL). Juga, dipelajari kapan kita harus menggunakan redis dan kasus penggunaan terbaik. Tutorial ini adalah bagian dari serangkaian tutorial yang sedang berlangsung. Dalam artikel yang akan datang, kami akan lebih mengeksplorasi kasus penggunaan khusus Redis.
+
+  
 [1]: #nosql
 [2]: #isnosql
 [3]: #when

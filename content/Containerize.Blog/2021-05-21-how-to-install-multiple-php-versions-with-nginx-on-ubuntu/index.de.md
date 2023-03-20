@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 
 ## Wenn Sie mehrere Versionen von PHP mit Nginx verwenden möchten, führen Sie in diesem Artikel Schritt für Schritt an, wie Sie PHP mit Nginx auf Ubuntu installieren.
 Dieser Artikel befindet sich in Fortsetzung unserer Serie zu Tutorials über Nginx. Bisher haben wir abgedeckt, wie nginx als Lastausgleiche verwendet wird, wie nginx als Reverse -Proxy verwendet wird. Und jetzt deckt dieses Tutorial eine weitere anspruchsvolle Frage „Wie man mehrere Versionen von PHP mit Nginx verwendet“ ab. In diesem Tutorial führen wir Ihnen Schritt für Schritt an, wie Sie PHP auf Ubuntu installieren, wie Sie PHP mit Nginx konfigurieren und schließlich mehrere Versionen von PHP mit Nginx installieren können. Also lasst uns anfangen!
-  * [Nginx installieren] [1]
-  * [Installieren Sie mehrere PHP -Versionen] [2]
-  * [Erstellen Sie mehrere Websites mit PHP] [3]
-  * [Konfigurieren Sie Nginx, um verschiedene Versionen für Websites auszuführen] [4]
-  * [Schlussfolgerung] [5]
+  * [Nginx installieren][1]
+  * [Installieren Sie mehrere PHP -Versionen][2]
+  * [Erstellen Sie mehrere Websites mit PHP][3]
+  * [Konfigurieren Sie Nginx, um verschiedene Versionen für Websites auszuführen][4]
+  * [Schlussfolgerung][5]
 
 ## Installieren Sie Nginx {#nginx}
 Nginx (ausgesprochen als „Engine-X“) ist ein Open-Source-Webserver, der häufig als Reverse-Proxy oder HTTP-Cache verwendet wird. Es ist für Linux kostenlos erhältlich.
@@ -172,8 +172,10 @@ systemctl restart php7.2-fpm
 In diesem Tutorial haben wir untersucht, wie mehrere PHP -Versionen auf Ubuntu sind. Wir haben gelernt, wie man Nginx installiert. Dann haben wir untersucht, wie Sie zwei verschiedene Websites in Nginx einrichten. Und schließlich haben wir gelernt, wie man zwei verschiedene Websites mit verschiedenen Versionen von PHP mit Nginx konfiguriert. Ich hoffe, das Tutorial hat Ihnen geholfen.
 
 ## Erkunden
-  * [So richten und konfigurieren Sie Nginx als Reverse -Proxy] [6]
-  * [So verwenden Sie Nginx als Lastausgleich für Ihre Anwendung] [7]
+  * [So richten und konfigurieren Sie Nginx als Reverse -Proxy][6]
+  * [So verwenden Sie Nginx als Lastausgleich für Ihre Anwendung][7]
+
+  
 [1]: #nginx
 [2]: #php
 [3]: #web

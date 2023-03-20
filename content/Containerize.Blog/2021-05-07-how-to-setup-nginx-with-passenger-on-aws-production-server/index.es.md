@@ -27,8 +27,8 @@ En este artículo de blog, vamos a cubrir algunos de los pasos de configuración
   * **Conclusión**
 
 ## 1. ¿Qué es Nginx y pasajero? {#step-4: -update-regularly}
-** [¿Qué es el servidor Nginx?] [1] ** Nginx es un software de servidor web gratuito y de código abierto para servir como un proxy inverso, equilibrador de carga HTTP, transmisión de medios, caché HTTP y proxy de correo electrónico para IMAP, POP3 y Smtp. Es altamente escalable, diseñado para el máximo rendimiento y estabilidad. Nginx es un servidor web asincrónico, no tumbado y basado en eventos de alto rendimiento que permite el procesamiento de múltiples solicitudes de clientes al mismo tiempo. Fue escrito por Igor Sysoev, publicado en 2004 bajo los términos de la licencia BSD de 2 cláusulas. ** Nginx funciona 2.5 veces más rápido ** que Apache y consumió menos memoria según una prueba de referencia.
-** [¿Qué es el pasajero?] [2] ** Phusion Passenger también conocido como Mod \ _Rails y Mod \ _rack, es un servidor web gratuito y un servidor de aplicaciones web de código abierto. Está diseñado para ser rápido, robusto, rico en funciones y liviano que se integra con Apache y Nginx. También mejora la seguridad, la confiabilidad y la escalabilidad para las aplicaciones. Permite a los administradores obtener información sobre las operaciones de aplicaciones web, el rendimiento del servidor. El servidor de aplicaciones de pasajeros se ejecuta y administra automáticamente sus aplicaciones web fácilmente. También puede ** servir múltiples aplicaciones ** al mismo tiempo ser multi-inquilino y independiente. Puede manejar solicitudes HTTP, administra procesos y recursos, y permite tareas de administración, monitoreo y diagnóstico de problemas. Phusion Passenger es un servidor de aplicaciones gratuito con soporte para implementar y administrar meteoritos, Ruby on Rails Nginx Passenger, JavaScript, Python y Node.js Aplicaciones.
+** [¿Qué es el servidor Nginx?][1] ** Nginx es un software de servidor web gratuito y de código abierto para servir como un proxy inverso, equilibrador de carga HTTP, transmisión de medios, caché HTTP y proxy de correo electrónico para IMAP, POP3 y Smtp. Es altamente escalable, diseñado para el máximo rendimiento y estabilidad. Nginx es un servidor web asincrónico, no tumbado y basado en eventos de alto rendimiento que permite el procesamiento de múltiples solicitudes de clientes al mismo tiempo. Fue escrito por Igor Sysoev, publicado en 2004 bajo los términos de la licencia BSD de 2 cláusulas. ** Nginx funciona 2.5 veces más rápido ** que Apache y consumió menos memoria según una prueba de referencia.
+** [¿Qué es el pasajero?][2] ** Phusion Passenger también conocido como Mod \ _Rails y Mod \ _rack, es un servidor web gratuito y un servidor de aplicaciones web de código abierto. Está diseñado para ser rápido, robusto, rico en funciones y liviano que se integra con Apache y Nginx. También mejora la seguridad, la confiabilidad y la escalabilidad para las aplicaciones. Permite a los administradores obtener información sobre las operaciones de aplicaciones web, el rendimiento del servidor. El servidor de aplicaciones de pasajeros se ejecuta y administra automáticamente sus aplicaciones web fácilmente. También puede ** servir múltiples aplicaciones ** al mismo tiempo ser multi-inquilino y independiente. Puede manejar solicitudes HTTP, administra procesos y recursos, y permite tareas de administración, monitoreo y diagnóstico de problemas. Phusion Passenger es un servidor de aplicaciones gratuito con soporte para implementar y administrar meteoritos, Ruby on Rails Nginx Passenger, JavaScript, Python y Node.js Aplicaciones.
 
 ## 2. Instale paquetes Nginx y pasajeros: {#Paso-1: -install-Passenger-Packages}
 Ahora es el momento de instalar Passenger y Nginx. Podrá implementar fácilmente uno de los servidores web populares que sigue a esta guía. A continuación, los comandos enumerados instalarán Passenger y Nginx a través del repositorio APT de Phusion. Si ya había instalado a Nginx, estos comandos actualizarán Nginx a la versión de Phusion con el pasajero compilado en:
@@ -75,7 +75,7 @@ Finalmente, verifique si NGINX ha iniciado los procesos del núcleo del pasajero
 ```
 sudo /usr/sbin/passenger-memory-stats
 ```
-Si no ve ningún proceso NGINX o procesos de pasajeros, entonces probablemente tenga algún tipo de problema de instalación o problema de configuración. Consulte la [Guía de solución de problemas] [3].
+Si no ve ningún proceso NGINX o procesos de pasajeros, entonces probablemente tenga algún tipo de problema de instalación o problema de configuración. Consulte la [Guía de solución de problemas][3].
 
 ## 5. Actualizaciones del sistema y del pasajero: {#Step-4: -update-regularly}
 Las actualizaciones de Nginx, las actualizaciones de pasajeros y las actualizaciones del sistema se entregan a través del ** Administrador de paquetes APT ** regularmente. Debe ejecutar el siguiente comando regularmente para mantenerlos actualizados:
@@ -92,17 +92,19 @@ Más del 80% de las aplicaciones y sitios web web funcionan con servidores web d
   *** Servidor web Apache Tomcat **
   *** Servidor web Caddy **
 
-## [] [4] Conclusión: {#Next-Step}
-Felicitaciones, ha instalado y configurado con éxito NGINX con Passenger en ** AWS Production Server ** para su aplicación web. Eche un vistazo a las diversas guías en la [Biblioteca de pasajeros] [5] para dominar completamente el servidor de aplicaciones de pasajeros. Puede estar particularmente interesado en la guía [Automatización de implementación] [6] de su aplicación Ruby a través de ** Capistrano **, que le enseña cómo implementar automáticamente actualizaciones de aplicaciones futuras sin tanto trabajo manual. Ahora está listo para implementar su aplicación web en las instancias de producción de AWS.
-_ ¿Qué servidor web gratuito y de código abierto de aplicaciones web servidor_ prefieren ** desarrollo web o alojamiento ** necesidades_?. ¿Tiene alguna pregunta sobre el servidor web gratuito y el servidor de aplicaciones web de código web abierto?, Por favor_ [Póngase en contacto] [7].
+## [][4] Conclusión: {#Next-Step}
+Felicitaciones, ha instalado y configurado con éxito NGINX con Passenger en ** AWS Production Server ** para su aplicación web. Eche un vistazo a las diversas guías en la [Biblioteca de pasajeros][5] para dominar completamente el servidor de aplicaciones de pasajeros. Puede estar particularmente interesado en la guía [Automatización de implementación][6] de su aplicación Ruby a través de ** Capistrano **, que le enseña cómo implementar automáticamente actualizaciones de aplicaciones futuras sin tanto trabajo manual. Ahora está listo para implementar su aplicación web en las instancias de producción de AWS.
+_ ¿Qué servidor web gratuito y de código abierto de aplicaciones web servidor_ prefieren ** desarrollo web o alojamiento ** necesidades_?. ¿Tiene alguna pregunta sobre el servidor web gratuito y el servidor de aplicaciones web de código web abierto?, Por favor_ [Póngase en contacto][7].
 
 ## Explorar
 Puede encontrar las siguientes publicaciones de blog relevantes:
-  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian] [8]
-  * [Instalar y asegurar phpMyadmin con Nginx en Ubuntu] [9]
-  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian] [10]
-  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04] [11]
-  * [Cómo instalar y configurar OwnCloud con Apache en Ubuntu] [12]
+  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian][8]
+  * [Instalar y asegurar phpMyadmin con Nginx en Ubuntu][9]
+  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian][10]
+  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04][11]
+  * [Cómo instalar y configurar OwnCloud con Apache en Ubuntu][12]
+
+  
 [1]: http://nginx.com/
 [2]: https://www.phusionpassenger.com/
 [3]: https://www.phusionpassenger.com/library/admin/nginx/troubleshooting/

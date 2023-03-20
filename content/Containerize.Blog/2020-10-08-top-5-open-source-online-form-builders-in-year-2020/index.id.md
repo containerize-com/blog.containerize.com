@@ -18,11 +18,11 @@ categories: ['Form']
 Formulir online sangat penting dan ada banyak alasan berbeda untuk menggunakannya. Jika Anda seorang bisnis dan menjual produk atau layanan Anda secara online, Anda mungkin ingin tahu apa yang dikatakan pelanggan Anda tentang produk Anda. Oleh karena itu, Anda memerlukan pembangun formulir online untuk membangun formulir untuk mengumpulkan data.
 Tim pemasaran selalu mencari formulir untuk mengumpulkan informasi pengguna untuk mengubahnya menjadi prospek. Siswa menggunakan formulir untuk mengumpulkan data survei untuk proyek penelitian mereka. Singkatnya, formulir berguna untuk begitu banyak bidang dan area.
 Untuk membantu Anda memilih pembangun formulir online yang tepat, tim kami membuat daftar perangkat lunak pembangun bentuk terbaik. Jadi, inilah daftarnya.
-  * [Form.io] [1]
-  * [Orbeon] [2]
-  * [Ohmyform] [3]
-  * [Webiny] [4]
-  * [FormTools] [5]
+  * [Form.io][1]
+  * [Orbeon][2]
+  * [Ohmyform][3]
+  * [Webiny][4]
+  * [FormTools][5]
 
 ### ** form.io ** {#formio}
 Form.io adalah salah satu perangkat lunak pembangun bentuk paling populer dengan fitur tingkat canggih. Ini membantu Anda untuk menghasilkan formulir web entri data dan survei bersama dengan platform API manajemen data.
@@ -33,7 +33,7 @@ Berikut adalah sorotan teratas dari form.io
   * Penyedia OAuth
   * Manajemen Pengguna & Auth
   * Seret & Jatuhkan Antarmuka
-    [Baca lebih lanjut] [6]
+    [Baca lebih lanjut][6]
 
 ### ** orbeon ** {#orbeon}
 Orbeon digunakan untuk menghasilkan bentuk kompleks tingkat industri tanpa keahlian teknis. Platform agnostik dan bentuknya dapat diakses melalui desktop, laptop, dan ponsel.
@@ -45,7 +45,7 @@ Berikut adalah beberapa fitur utama untuk Orbeon
   * Formulir multi halaman.
   * Tumpukan server.
   * Dukungan Liferay.
-    [Baca lebih lanjut] [7]
+    [Baca lebih lanjut][7]
 
 ### ** ohmyform ** {#ohmyform}
 OhmyForm adalah perangkat lunak open source untuk menghasilkan formulir, survei, dan tanya -tanya. Ini mengikuti teknologi dan formulir web standar dengan mudah disematkan ke aplikasi seluler, desktop, dan web.
@@ -56,7 +56,7 @@ Sorotan teratas dari ohmyform tercantum di sini
   * Subdomain khusus untuk setiap pengguna
   * Bentuk yang bisa disematkan
   * Formulir sebagai API Layanan.
-    [Baca lebih lanjut] [8]
+    [Baca lebih lanjut][8]
 
 ### ** webiny ** {#webiny}
 Webiny adalah perangkat lunak open source swadaya untuk membangun produksi yang siap diproduksi. Ini bukan hanya pembangun formulir. Tapi, paket lengkap untuk mengotomatiskan sebagian besar proses bisnis online.
@@ -67,7 +67,7 @@ Arsitektur tanpa server membuat aplikasi dapat diukur dan membebaskan Anda dari 
   * Validasi khusus
   * Integrasi pihak ketiga
   * Webhooks
-    [Baca lebih lanjut] [9]
+    [Baca lebih lanjut][9]
 
 ### ** FormTools ** {#FormTools}
 Form Tools adalah skrip PHP/MySQL open source yang kuat, fleksibel, bebas dan terbuka. Anda harus menginstalnya di situs web Anda untuk mengelola formulir dan data Anda. Selain itu, FormTools muncul dengan antarmuka Form Builder di mana Anda dapat membuat formulir halaman tunggal dan multi-halaman.
@@ -78,10 +78,12 @@ Seiring dengan manajemen pengguna dan dukungan API ada daftar fitur yang kompreh
   * Layanan email bawaan
   * Integrasi untuk bentuk eksternal
   * Dukungan untuk Google Maps
-    [Baca lebih lanjut] [10]
+    [Baca lebih lanjut][10]
 
 ### Kesimpulan
 Di blog ini kami telah meninjau perangkat lunak pembangun formulir open source terbaik. Form.io, Webiny dan OhmyForm memiliki solusi di luar kotak untuk integrasi pihak ketiga serta dukungan API yang komprehensif. Jadi, jika Anda perlu terhubung dengan backend pihak ketiga atau membutuhkan analitik bawaan, Anda dapat menggunakannya. Jika Anda hanya ingin menyiapkan Orbeon dan FormTools dengan cepat adalah pilihan yang baik.
+
+  
 [1]: #formio
 [2]: #orbeon
 [3]: #ohmyform

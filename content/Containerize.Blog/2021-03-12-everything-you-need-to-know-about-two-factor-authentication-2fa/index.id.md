@@ -12,11 +12,11 @@ categories: ['Single Sign-On']
 ## Artikel ini menjelaskan otentikasi dua faktor secara rinci dan bagaimana cara diimplementasikan dalam .NET 5 menggunakan kerangka kerja identitas seperti IdentityServer4 dan penyedia SMS (Twilio).
 {{_LINE_11_}}
 Itu berisi bagian berikut:
-  * [Apa itu otentikasi dua faktor? ] [1]
-  * [Bagaimana cara kerja 2FA?] [2]
-  * [2FA dan otentikasi multi-faktor] [3]
-  * [Kelemahan menggunakan 2FA] [4]
-  * [Menerapkan 2FA di .net5] [5]
+  * [Apa itu otentikasi dua faktor? ][1]
+  * [Bagaimana cara kerja 2FA?][2]
+  * [2FA dan otentikasi multi-faktor][3]
+  * [Kelemahan menggunakan 2FA][4]
+  * [Menerapkan 2FA di .net5][5]
 Pertama, mari kita pahami apa itu 2FA dan mengapa itu perlu menjadi bagian integral dari setiap aplikasi web modern.
 
 ## Apa itu otentikasi dua faktor? {#2fa}
@@ -188,7 +188,9 @@ Kode Langkah-4 diverifikasi dan otentikasi 2FA telah selesai.
 
 ### Kesimpulan:
 Dalam artikel ini, kami telah belajar tentang 2FA dan implementasinya di .net5 menggunakan IdentityServer4 dan Twilio. Anda dapat mengunduh kode sampel yang digunakan dalam artikel ini dari [repo] ini [6].
-Menggunakan SMS untuk 2FA pasti memperkuat keamanan Anda tetapi masih rentan terhadap [serangan swap sim] [7]. Oleh karena itu, peneliti keamanan mendorong 2FA untuk menggunakan pendekatan lain seperti aplikasi authenticator dan kunci keamanan ([yubikey] [8]) yang tidak dapat dicegat di jaringan telepon. Kami akan belajar lebih banyak tentang itu di artikel yang akan datang - tetaplah disini!
+Menggunakan SMS untuk 2FA pasti memperkuat keamanan Anda tetapi masih rentan terhadap [serangan swap sim][7]. Oleh karena itu, peneliti keamanan mendorong 2FA untuk menggunakan pendekatan lain seperti aplikasi authenticator dan kunci keamanan ([yubikey][8]) yang tidak dapat dicegat di jaringan telepon. Kami akan belajar lebih banyak tentang itu di artikel yang akan datang - tetaplah disini!
+
+  
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

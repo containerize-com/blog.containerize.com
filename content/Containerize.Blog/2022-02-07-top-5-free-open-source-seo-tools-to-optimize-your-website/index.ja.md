@@ -71,16 +71,18 @@ Yoastseoは、ユーザーが自分のページがGoogle検索エンジンでど
 
 ## **最終的な考え：** {#4a1a}
 上記の5つのオープンソースSEOプラットフォームは、柔軟なソリューションです。クラウドコンピューティングでは、オープンソースのプライベートクラウドストレージソリューションがたくさんありますが、最も信頼できるものを見つけることが最も重要です。クラウドソフトウェアの選択を決定するのは、あなたまたはあなたの組織のニーズです。この記事が、安全で信頼できる個人クラウドサーバーをセットアップするか、貴重な画像、音楽、映画、ドキュメントを保存するための最適なクラウドサービスを選択するのに役立つことを願っています。
-_あなたのfavourite _ _openソースSEOツールと人気のある検索エンジンマーケティングツールは何ですか？ご質問がある場合は、[ご連絡ください] [1]をお願いします。
+_あなたのfavourite _ _openソースSEOツールと人気のある検索エンジンマーケティングツールは何ですか？ご質問がある場合は、[ご連絡ください][1]をお願いします。
 
 ## 探検：
 また、クラウドの日々の管理に関する他の記事もいくつかあります。
-  * [最高のオープンソースクラウドストレージとファイル共有ソフトウェア] [2]
-  * [UbuntuサーバーにApacheを使用してNextCloudをインストールする方法] [3]
-  * [ubuntuでapacheでowncloudをインストールして構成] [4]
-  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法] [5]
-  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します] [6]
-  * [ubuntu/debianでnginxでHTTP/2サポートを構成] [7]
+  * [最高のオープンソースクラウドストレージとファイル共有ソフトウェア][2]
+  * [UbuntuサーバーにApacheを使用してNextCloudをインストールする方法][3]
+  * [ubuntuでapacheでowncloudをインストールして構成][4]
+  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法][5]
+  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します][6]
+  * [ubuntu/debianでnginxでHTTP/2サポートを構成][7]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/

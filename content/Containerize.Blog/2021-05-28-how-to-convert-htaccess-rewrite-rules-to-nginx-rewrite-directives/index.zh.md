@@ -14,10 +14,10 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="将.htaccess重写规则转换为nginx指令">}}
 
 在上一个教程中，我们了解了[如何在Ubuntu上使用Nginx安装多个PHP版本[1]。 Apache是​​最受欢迎的Web服务器之一，但最近，Nginx已成为Apache的竞争对手。但是NGINX不支持HTACCESS重写规则。因此，在本文中，我们将学习如何将HTACCESS重写规则转换为NGINX重写指令。让我们开始吧！
-  *** [nginx重写规则] [2] **
-  *[**。htaccess重写规则**] [3]
-  *[**将.htaccess重写规则转换为nginx重写指令**] [4]
-  *[**结论**] [5]
+  *** [nginx重写规则][2] **
+  *[**。htaccess重写规则**][3]
+  *[**将.htaccess重写规则转换为nginx重写指令**][4]
+  *[**结论**][5]
 
 ## nginx重写规则{#nginx}
 重写规则在客户端请求中更改部分或所有URL，通常是为了通知客户，他们要求的资源现在位于其他位置，或控制NGINX内的处理流。例如，当需要动态生成内容时，将请求转发到应用程序服务器。 Try_files指令通常用于此目的。
@@ -82,7 +82,7 @@ server {
 }
 ```
 为了更加清晰，让我们将WordPress HTACCESS规则转换为nginx try_files指令。
-[WordPress.org分发] [6]基本默认**。htaccess **文件，带有以下内容。 HTACCESS重写规则可以实现漂亮的永久链接：
+[WordPress.org分发][6]基本默认**。htaccess **文件，带有以下内容。 HTACCESS重写规则可以实现漂亮的永久链接：
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 在本教程中，我们探索了Apache的.htaccess重写规则，以及如何将这些.htaccess重写规则转换为NGINX重写指令。我们进一步探索了可用于重写URL的不同NGINX指令。我们还给出了nginx和apache的示例重写规则。希望该教程对您有帮助。
 
 ## 探索
-  * [如何在Ubuntu上使用nginx安装多个PHP版本] [1]
-  * [如何设置和配置为反向代理] [7]
+  * [如何在Ubuntu上使用nginx安装多个PHP版本][1]
+  * [如何设置和配置为反向代理][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

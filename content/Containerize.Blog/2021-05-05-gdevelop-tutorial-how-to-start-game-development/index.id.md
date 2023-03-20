@@ -17,14 +17,14 @@ categories: ['Game Development Software']
 ## Ringkasan
 Industri permainan video berkembang dengan kecepatan tinggi. Ada miliaran gamer di seluruh dunia yang selalu mencari video game yang menarik dan menghibur. Di sisi lain, ada sejumlah perangkat lunak pengembangan video game yang memberikan pengembang lingkungan yang lengkap dan alat pengembangan game untuk mengembangkan game canggih dan menarik. Di masa lalu, pengembang game digunakan untuk menulis baris kode sumber game. Itu adalah metode pengembangan yang sangat waktu dan gamer harus menunggu berbulan -bulan untuk rilis baru. Oleh karena itu, komunitas open source telah mengembangkan GRATIS ** pembuat game yang mudah ** untuk pengembang game.
 Ini ** mesin permainan gratis ** datang tidak hanya membantu dalam memberikan rilis game cepat tetapi juga datang dengan fitur yang meningkatkan kualitas dan kekokohan permainan. Selain itu, perancang game 3D ** ini ** menawarkan antarmuka pengguna seret & drop dan menghilangkan kebutuhan memiliki pengetahuan pemrograman untuk membangun game. Namun, ini adalah tutorial ** GDevelop ** di mana kita akan belajar apa itu GDevelop dan bagaimana mengaturnya secara lokal dengan menutupi poin berikut.
-  *** [apa itu gdevelop.] [1] **
-  *** [Cara Mengatur pada LocalHost?] [2] **
-  *** [Kesimpulan] [3] **
+  *** [apa itu gdevelop.][1] **
+  *** [Cara Mengatur pada LocalHost?][2] **
+  *** [Kesimpulan][3] **
 
 ## ** Apa itu GDevelop. ** {#intro}
 GDevelop adalah perangkat lunak pengembangan video game open source gratis. Ini diselenggarakan sendiri dan menawarkan fitur-fitur kaya untuk mengembangkan game 2D. Namun, ada dukungan yang tersedia untuk objek 3D. Pengguna tidak memerlukan keterampilan pemrograman apa pun untuk mengembangkan dan menerbitkan game untuk berbagai platform. Ini sangat dapat diperluas dan mudah diatur karena membutuhkan persyaratan mudah untuk menjadi tuan rumah sendiri mesin game gratis ini. Ada antarmuka pengguna yang intuitif dengan kemampuan drag and drop. Alat gratis ini menyediakan animasi kelas tinggi, efek video/audio, layar sentuh dan multi-sentuh, pratinjau langsung, dan banyak lagi. Selain itu, perancang game 3D ** ini ** muncul dengan fitur prototipe yang kuat yang membantu pengembang untuk mengembangkan produk bagus berdasarkan prototipe.
-Selanjutnya, Open Source ** Easy Game Maker ** ini sangat dapat dikonfigurasi dan mendukung integrasi dengan pustaka pihak ketiga. Di atas segalanya, ini memberikan dukungan untuk Xbox dan PlayStation yang merupakan konsol video game populer. GDevelop ditulis dalam C ++, JavaScript, dan TypeScript. Ada dokumentasi terperinci yang tersedia mengenai penyebaran dan pengembangan. GDevelop memiliki komunitas pengembang yang sangat bersemangat yang secara aktif menanggapi bug dan pertanyaan. Oleh karena itu, semua kode sumber tersedia di [GitHub] [4].
-[Pelajari lebih lanjut tentang GDevely] [5]
+Selanjutnya, Open Source ** Easy Game Maker ** ini sangat dapat dikonfigurasi dan mendukung integrasi dengan pustaka pihak ketiga. Di atas segalanya, ini memberikan dukungan untuk Xbox dan PlayStation yang merupakan konsol video game populer. GDevelop ditulis dalam C ++, JavaScript, dan TypeScript. Ada dokumentasi terperinci yang tersedia mengenai penyebaran dan pengembangan. GDevelop memiliki komunitas pengembang yang sangat bersemangat yang secara aktif menanggapi bug dan pertanyaan. Oleh karena itu, semua kode sumber tersedia di [GitHub][4].
+[Pelajari lebih lanjut tentang GDevely][5]
 
 ## ** Cara Mengatur di LocalHost? ** {#setup}
 Di bagian tutorial ** GDevely ** ini, kita akan melihat bagaimana kita bisa mengatur GDevelops di sistem lokal kita. Sebelum pindah ke langkah berikutnya, pastikan Anda telah menginstal prasyarat berikut.
@@ -69,21 +69,23 @@ Dengan cara ini, Anda dapat menjelajahi dan mencoba fitur lebih lanjut. Ini ** p
 
 ## ** Kesimpulan ** {#conclusion}
 Ini mengakhiri tutorial GDevelop ini. Ini ** mesin game gratis ** memungkinkan Anda menerapkan logika game menggunakan acara visual. Ini memiliki komunitas yang sangat mendukung yang telah membuat banyak tutorial dan manual pengguna yang bermanfaat. Posting blog ini akan sangat membantu Anda jika Anda baru di dunia pengembangan game. Ada banyak desainer game 3D ** lainnya **, alat pengembangan game, dan artikel yang disebutkan di bagian Explore di bawah ini. Semua mesin game ini gratis, open source, dan menghasilkan kemampuan tuan rumah mandiri. Oleh karena itu, industri pengembangan game sangat berkembang dengan peningkatan jumlah gamer. Ada video game dengan grafik definisi tinggi dan efek suara yang memicu minat dan ketertarikan pada gamer. Namun, pilih perangkat lunak pengembangan game yang telah diperbaiki dengan baik yang membawa kualitas dan efisiensi untuk pekerjaan Anda.
-Akhirnya, Containerize.com siap untuk meningkatkan basis tutorialnya dengan beberapa tutorial pengembangan game yang lebih menarik. Harap tetap terhubung dengan kategori [Game Development Software] [6] ini di [containerize.com] [7] untuk pembaruan rutin.
+Akhirnya, Containerize.com siap untuk meningkatkan basis tutorialnya dengan beberapa tutorial pengembangan game yang lebih menarik. Harap tetap terhubung dengan kategori [Game Development Software][6] ini di [containerize.com][7] untuk pembaruan rutin.
 
 ## Mengeksplorasi
-  * [GDevelop] [8]
-  * [Godot] [9]
-  * [Superpowers] [10]
-  * [Pencipta Cocos] [11]
-  * [Panda3d] [12]
-  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021] [13]
-  * [Cara membuat game di awal menggunakan Open Source GDevelop] [14]
-  * [Perangkat Lunak Pengembangan Game Top 5 Di Tahun 2021] [15]
-  * [Memulai Pengembangan Game Menggunakan Superpowers] [16]
-  * [Tutorial Pengembangan Game | Gerakan Pemain di GDevelop] [17]
-  * [Tutorial Pengembangan Game HTML5 untuk Pemrogram Video Game] [18]
-  * [Bagaimana Industri Gaming Video Memanfaatkan Perangkat Lunak Sumber Terbuka] [19]
+  * [GDevelop][8]
+  * [Godot][9]
+  * [Superpowers][10]
+  * [Pencipta Cocos][11]
+  * [Panda3d][12]
+  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021][13]
+  * [Cara membuat game di awal menggunakan Open Source GDevelop][14]
+  * [Perangkat Lunak Pengembangan Game Top 5 Di Tahun 2021][15]
+  * [Memulai Pengembangan Game Menggunakan Superpowers][16]
+  * [Tutorial Pengembangan Game | Gerakan Pemain di GDevelop][17]
+  * [Tutorial Pengembangan Game HTML5 untuk Pemrogram Video Game][18]
+  * [Bagaimana Industri Gaming Video Memanfaatkan Perangkat Lunak Sumber Terbuka][19]
+
+  
 [1]: #intro
 [2]: #setup
 [3]: #Conclusion

@@ -15,11 +15,11 @@ categories: ['Blogging']
 
 Les plateformes de blogs open source sont essentielles de nos jours pour la création de contenu. Par conséquent, du démarrage d'un blog personnel pour partager vos idées, apprentissages, réalisations, vous avez besoin d'une plate-forme de blogs. La plate-forme de blogging a évolué au fil des ans. En conséquence, il existe un certain nombre de variations comme les constructeurs de sites Web, les générateurs de sites statiques et le service de blogs riches en fonctionnalités.
 Il y a tellement de plates-formes de blogs open source qui offrent des options d'extension et de personnalisation incroyables. Pour cette raison, le choix devient difficile car chaque plate-forme a ses propres avantages et inconvénients. Notre équipe a parcouru un grand nombre de guides de plateformes de blogs open source pour que les créateurs de contenu choisissent le bon logiciel de blogs en 2021. Nous avons donc filtré une liste des 5 meilleures plates-formes de blogs open source et les meilleurs sites de blogs disponibles.
-  * [WordPress] [1]
-  * [Jekyll] [2]
-  * [Fantôme] [3]
-  * [Serendipity] [4]
-  * [Silverstripe] [5]
+  * [WordPress][1]
+  * [Jekyll][2]
+  * [Fantôme][3]
+  * [Serendipity][4]
+  * [Silverstripe][5]
 
 ### ** WordPress ** {#wordpress}
 WordPress est un système de gestion de contenu gratuit et open source et une plateforme de blogs auto-hébergée. Il est basé sur PHP et MySQL qui est la pile technologique la plus populaire. Par conséquent, rend WordPress le plus largement utilisé CMS et les logiciels de blogs open source au monde. Au moment de la rédaction de cet article, conformément aux sites Web officiels, WordPress.org, il alimente plus de 30% des 10 millions de sites Web et la part de marché globale est de 60%.
@@ -31,7 +31,7 @@ Voici quelques-unes des caractéristiques notables de la meilleure plate-forme d
   * Plugins gratuit pour WordPress - WordPress fournit un référentiel de plugin pour améliorer et étendre votre blog.
   * Support multilingue - WordPress fournit un support multilingue dès la sortie de la boîte.
   * Énorme communauté de développeurs open source
-    [Lire la suite] [6]
+    [Lire la suite][6]
 
 ### ** Jekyll ** {#jekyll}
 Jekyll est un générateur de sites statique et des outils de blogs gratuits pour les débutants. Il crée un site Web à l'aide de vos fichiers de balisage. Il prend le contenu de votre site, l'applique à un modèle et génére des fichiers HTML purement statiques. Ils sont donc prêts à être hébergés sur n'importe quelle plate-forme d'hébergement.
@@ -42,7 +42,7 @@ Voici les meilleurs moments forts de la meilleure plateforme de blogging open so
   * Pages à chargement rapide
   * Thèmes
   * Open source
-    [Lire la suite] [7]
+    [Lire la suite][7]
 
 ### ** Ghost ** {#Ghost}
 Ghost est un outil de blogging Open Source à but non lucratif et gratuit. Il est développé à l'aide de Node.js qui est l'une des plateformes de développement les plus populaires. Donc, il a tous les pouvoirs de nœud. Surtout, il a une interface simple et propre qui le rend facile à utiliser. C'est une merveilleuse plateforme de gestion de contenu et de blogs pour les débutants et se concentre davantage sur le contenu.
@@ -54,7 +54,7 @@ Ghost fournit une API REST native, des fonctionnalités d'adhésion et d'abonnem
   * Pages mobiles accélérées
   * Sauvegardes automatiques
   * Applications natives
-    [Lire la suite] [8]
+    [Lire la suite][8]
 
 ### ** Serendipity ** {#SerendiPity}
 Serendipity est un moteur Weblog open source basé sur PHP qui peut être utilisé pour créer et entretenir des sites Web à quelque fin que ce soit. C'est conçu pour les blogueurs occasionnels. Cependant, propose un cadre extensible qui a le pouvoir de créer des applications professionnelles.
@@ -66,7 +66,7 @@ Voici quelques-uns des meilleurs faits saillants du meilleur logiciel de bloggin
   * Système de plugin robuste
   * Thèmes
   * Open source
-    [Lire la suite] [9]
+    [Lire la suite][9]
 
 ### ** Silverstripe ** {#silverstripe}
 Silverstripe est un CMS et un cadre Open Source gratuit pour créer et maintenir des sites Web, des blogs et des applications Web. Il a été construit en utilisant le langage de script le plus populaire au monde PHP. Par conséquent, en fait un cadre flexible qui peut être utilisé pour créer des applications de qualité de production.
@@ -77,19 +77,21 @@ Voici les principales fonctionnalités que nous avons décrites dans le logiciel
   * Recherche des moteurs convivial
   * Flux de travail et approbations des utilisateurs
   * Gestion des utilisateurs
-    [Lire la suite] [10]
+    [Lire la suite][10]
 
 ### Conclusion:
 Dans cet article, vous avez examiné le meilleur logiciel de blogs open source disponible pour les créateurs de contenu. Pour l'extensibilité, WordPress a un avantage en raison du grand référentiel de plugin. Si vous avez besoin de vitesse, Ghost et Jekyll peuvent être votre choix. Pour les problèmes de spam, Serendipity a intégré la fonction de contrôle du spam. Enfin, Silverstripe peut être un choix pour ceux qui souhaitent configurer des flux d'approbation complexes.
-De plus, [contenerize.com] [11] est en route pour améliorer la pile de produits open source dans plusieurs langues et frameworks_. Vous pouvez nous rejoindre sur [Twitter] [12], [LinkedIn] [13] et notre page [Facebook] [14]. Quelle liste de plates-formes de blogs préférez-vous ?. Si vous avez des questions ou des commentaires, s'il vous plaît_ [contactez] [15].
+De plus, [contenerize.com][11] est en route pour améliorer la pile de produits open source dans plusieurs langues et frameworks_. Vous pouvez nous rejoindre sur [Twitter][12], [LinkedIn][13] et notre page [Facebook][14]. Quelle liste de plates-formes de blogs préférez-vous ?. Si vous avez des questions ou des commentaires, s'il vous plaît_ [contactez][15].
 
 ## Explorer
 Vous pouvez trouver les solutions de commerce électronique pertinentes suivantes pour les petites entreprises:
-  * [** Hugo - Générateur de sites statiques open source le plus populaire au monde **] [16]
-  * [** Hexo - Générateur de sites statiques rapide et facile et plateforme de blogs **] [17]
-  * [** GATSBY - Créez des sites Web rapides avec Gatsby **] [18]
-  * ** [WordPress - plate-forme de blogging open source] [19] **
-  * ** [meilleures plates-formes de blogging gratuites et open source] [20] **
+  * [** Hugo - Générateur de sites statiques open source le plus populaire au monde **][16]
+  * [** Hexo - Générateur de sites statiques rapide et facile et plateforme de blogs **][17]
+  * [** GATSBY - Créez des sites Web rapides avec Gatsby **][18]
+  * ** [WordPress - plate-forme de blogging open source][19] **
+  * ** [meilleures plates-formes de blogging gratuites et open source][20] **
+
+  
 [1]: #wordpress
 [2]: #jekyll
 [3]: #ghost

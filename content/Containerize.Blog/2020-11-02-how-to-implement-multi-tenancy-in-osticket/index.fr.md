@@ -14,14 +14,14 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-osTicket.png" alt="Personnalisation de l'Osticket - Implémentez la multi-tenue en osticket">}}
 
 Dans cet article, nous discuterons de la façon de faire de la personnalisation de l'Osticket pour implémenter la multi-location. Ce message couvrira les sujets suivants:
-  * [Présentation de l'osticket] [1]
-  * [Présentation multi-tension] [2]
-  * [Avantages de la multi-tension] [3]
-  * [Implémentation] [3]
-  * [Conclusion] [4]
+  * [Présentation de l'osticket][1]
+  * [Présentation multi-tension][2]
+  * [Avantages de la multi-tension][3]
+  * [Implémentation][3]
+  * [Conclusion][4]
 
 ## OSTICKET PRÉSIONNEMENT: {#OSTICKET}
-[OSTICKET] [5] est un logiciel d'assistance basé sur le support client en ligne open source. Il fournit un panneau de configuration intuitif et un composant de rapport en temps réel. Il a un module de gestion de demandes faciles à utiliser. Cela vous permet de créer des demandes à partir de vos formulaires de téléphone, de courrier électronique et Web. Qui offre de nombreuses options pour aider à adapter toutes les parties de l'expérience du support client comme les commentaires et les notifications par e-mail.
+[OSTICKET][5] est un logiciel d'assistance basé sur le support client en ligne open source. Il fournit un panneau de configuration intuitif et un composant de rapport en temps réel. Il a un module de gestion de demandes faciles à utiliser. Cela vous permet de créer des demandes à partir de vos formulaires de téléphone, de courrier électronique et Web. Qui offre de nombreuses options pour aider à adapter toutes les parties de l'expérience du support client comme les commentaires et les notifications par e-mail.
 
 ## Présentation multi-tension: {#Multitenancy}
 La multi-location fait référence à la mise en œuvre, où plusieurs instances indépendantes d'une application fonctionnent dans un environnement partagé. Les instances (locataires) sont logiquement isolées, mais physiquement intégrées. Une organisation peut éventuellement avoir plusieurs départements. Ainsi, ils peuvent créer plusieurs locataires / instances de la même application. Par exemple, dans notre cas, un système d'assistance peut être configuré pour différents domaines de la même organisation. Il pourrait y avoir des centaines de locataires, mais ils utiliseront tous les mêmes fichiers et donc le même stockage. Cela réduira les coûts de stockage et facilitera les mises à niveau. Les développeurs n'ont qu'à mettre à jour les fichiers à partir d'un seul endroit au lieu de modifier séparément chaque site.
@@ -69,10 +69,12 @@ OSTICKET est un logiciel gratuit et open source de gestion des services d'assist
 
 ## Explorer:
 Veuillez vérifier la page suivante pour en savoir plus sur OSTICKET:
-  * [OSTICKET - Un logiciel gratuit d'assistance open source] [5]
-  * [Un guide du débutant pour développer un plugin OSTICKET] [6]
-  * [Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket] [7]
-  * [Automatiser le système de billetterie à l'aide de WordPress et OSTICKET] [8]
+  * [OSTICKET - Un logiciel gratuit d'assistance open source][5]
+  * [Un guide du débutant pour développer un plugin OSTICKET][6]
+  * [Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket][7]
+  * [Automatiser le système de billetterie à l'aide de WordPress et OSTICKET][8]
+
+  
 [1]: #osticket
 [2]: #multitenancy
 [3]: #benefits

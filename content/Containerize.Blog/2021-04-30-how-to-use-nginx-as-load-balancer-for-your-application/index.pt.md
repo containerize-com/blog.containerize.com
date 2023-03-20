@@ -15,15 +15,15 @@ categories: ['Web Server Solution Stack']
 
 Os sites modernos de alta tráfego atendem a centenas de milhares e, em alguns casos, milhões de solicitações simultâneas de usuários ou clientes e retornam os dados corretos de texto, imagens, vídeo ou aplicativos, tudo de maneira rápida e confiável. Para atender às necessidades desses altos volumes e potência de computação, você precisa de mais servidores. Com mais servidores, você precisa de uma maneira de carregar o equilíbrio do tráfego entre esses servidores. Neste tutorial do blog, exploraremos o que é um balanceador de carga e como podemos usar o nginx como balanceador de carga.
 Para configurar o balanceamento de carga do Nginx como um pré -requisito, você precisará ter pelo menos dois hosts com um software de servidor web instalado e configurado para ver as vantagens do balanceamento de carga com o NGINX. Se você já possui um host em execução configurado, duplique -o criando uma imagem personalizada e implantá -la em um novo servidor da Web. Então, vamos aprender a configurar a configuração de balanceamento de carga nginx passo a passo para seus servidores em nuvem.!
-  *** [Nginx Web Server] [1] **
-  *** [Balancer de carga] [2] **
-  *** [Configure nginx como balanceador de carga (Round Robin)] [3] **
-  *** [Sobre diferentes diretivas a montantes] [4] **
-  *** [Conclusão] [5] **
+  *** [Nginx Web Server][1] **
+  *** [Balancer de carga][2] **
+  *** [Configure nginx como balanceador de carga (Round Robin)][3] **
+  *** [Sobre diferentes diretivas a montantes][4] **
+  *** [Conclusão][5] **
 
 ## Nginx Web Server {#WebServer}
 O NGINX é um servidor web de alto desempenho e código aberto. Além dos recursos do servidor HTTP, o NGINX também pode funcionar como um servidor proxy para email (IMAP, POP3 e SMTP) e um proxy reverso e para carregar o Balanço NGINX para servidores HTTP, TCP e UDP. Melhora o desempenho, a confiabilidade e a segurança de seus aplicativos. É popular por seu rico conjunto de recursos, configuração simples e baixo consumo de recursos.
-Como funciona o nginx? O NGINX é comumente usado como um balanceador de carga de proxy reverso Nginx como um único ponto de entrada para um aplicativo da Web distribuído trabalhando em vários servidores separados. Ele usa uma abordagem assíncrona e orientada por eventos para oferecer baixo uso de memória e alta simultaneidade. Você pode ler mais sobre o nginx [aqui] [6].
+Como funciona o nginx? O NGINX é comumente usado como um balanceador de carga de proxy reverso Nginx como um único ponto de entrada para um aplicativo da Web distribuído trabalhando em vários servidores separados. Ele usa uma abordagem assíncrona e orientada por eventos para oferecer baixo uso de memória e alta simultaneidade. Você pode ler mais sobre o nginx [aqui][6].
 
 ## Carregar Balancer {#loadBalancer}
 O balanceamento de carga é o processo de distribuição de tráfego de rede em vários servidores. E o "software" ou "hardware" que executa esse processo de distribuição é chamado de balanceador de carga. Um balanceador de carga é como um “policial de trânsito” em pé na frente de seus servidores e roteando solicitações de clientes em todos os servidores. Ele garante que seu aplicativo permaneça operacional, mesmo que um dos servidores diminua.
@@ -108,12 +108,14 @@ upstream backend  {
 
 ## Conclusão: {#conclusion}
 Neste tutorial de balanceamento de carga nginx, aprendemos sobre o NGNIX, o balanceamento de carga e como configurar o Nginx Cargas Balancer para distribuir seu tráfego para vários servidores. Também exploramos diferentes algoritmos de balanceamento de carga, como Round-Robin, Hash e Max, falha. Se você estiver executando um aplicativo com alto volume e precisará distribuir a carga em diferentes servidores, o Nginx é uma das melhores opções para você. E o mais importante é que é 100% de servidor web de código aberto e gratuito.
-Você pode se juntar a nós no [Twitter] [7], [LinkedIn] [8] e nossa página [Facebook] [9]. Que outro balanceador de carga poderoso para melhorar seus servidores Disponibilidade e eficiência de recursos __Do você u__? . Se você tiver alguma dúvida ou feedback, por favor [entre em contato] [10].
+Você pode se juntar a nós no [Twitter][7], [LinkedIn][8] e nossa página [Facebook][9]. Que outro balanceador de carga poderoso para melhorar seus servidores Disponibilidade e eficiência de recursos __Do você u__? . Se você tiver alguma dúvida ou feedback, por favor [entre em contato][10].
 
 ## Explore
 Você pode encontrar os artigos mais relacionados abaixo
-  * [Como proteger e criptografar Nginx com Let's Encrypt no Ubuntu 20.04] [11]
-  * [Apache vs nginx - comparação detalhada em 2021] [12]
+  * [Como proteger e criptografar Nginx com Let's Encrypt no Ubuntu 20.04][11]
+  * [Apache vs nginx - comparação detalhada em 2021][12]
+
+  
 [1]: #webserver
 [2]: #loadbalancer
 [3]: #setup

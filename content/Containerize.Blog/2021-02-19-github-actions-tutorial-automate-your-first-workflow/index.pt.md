@@ -15,13 +15,13 @@ categories: ['Version Control Software']
 
 
 ## Visão geral
-Uma das melhores maneiras de aumentar a produtividade em um projeto de software é automatizar qualquer coisa manual ou repetitiva. E você pode se surpreender com o quão fácil é implementar quando você usa uma ferramenta incrível como ** Github Actions **. Desde os últimos artigos, escrevi sobre [Git] [1], [controle da versão] [1] e [automação de fluxos de trabalho de desenvolvimento de software] [2], e sobre [integração contínua e entrega contínua] [3 ]. Portanto, espero que você esteja bem ciente dos repositórios e como usá -los.
+Uma das melhores maneiras de aumentar a produtividade em um projeto de software é automatizar qualquer coisa manual ou repetitiva. E você pode se surpreender com o quão fácil é implementar quando você usa uma ferramenta incrível como ** Github Actions **. Desde os últimos artigos, escrevi sobre [Git][1], [controle da versão][1] e [automação de fluxos de trabalho de desenvolvimento de software][2], e sobre [integração contínua e entrega contínua][3 ]. Portanto, espero que você esteja bem ciente dos repositórios e como usá -los.
 No tutorial de Ações ** do Github de hoje **, exploraremos as ações do GitHub e como você pode usá -lo para automação de aplicativos, personalização e executar seus fluxos de trabalho de desenvolvimento de software diretamente em seu repositório. Então vamos começar
-  *** [Revise os fluxos de trabalho do IC/CD] [4] **
-  *** [O que são ações do github] [5] **
-  *** [Compreendendo a sintaxe YAML] [6] **
-  *** [Criando seu primeiro fluxo de trabalho] [7] **
-  *** [Conclusão] [8] **
+  *** [Revise os fluxos de trabalho do IC/CD][4] **
+  *** [O que são ações do github][5] **
+  *** [Compreendendo a sintaxe YAML][6] **
+  *** [Criando seu primeiro fluxo de trabalho][7] **
+  *** [Conclusão][8] **
 
 ## CI/CD Flows {#cicd}
 O CI/CD é um método de implantações frequentes de seus projetos de desenvolvimento de software para os usuários finais em diferentes estágios com a ajuda da automação. ** Integração contínua e implantação contínua ** é mais uma filosofia e uma das melhores práticas para as equipes do DevOps implementarem, para fornecer mudanças de código com mais frequência e confiabilidade.
@@ -41,7 +41,7 @@ Como você pode ver, o fluxo de trabalho, o trabalho, a etapa e a ação são in
 
 ## Crie um fluxo de trabalho {#WorkFlow}
 Em um projeto de desenvolvimento de software, uma das equipes de desenvolvimento de problemas enfrentam é o formato do código -fonte e a aplicação das melhores práticas. Esse problema é mais óbvio para as equipes maiores. Pois envolvem mais desenvolvedores e todos têm seu próprio estilo de escrever códigos. Portanto, o uso de pacotes Linter é muito comum nas equipes. Mas agora, com as ações do ** Github **, você pode realmente aplicar o linhador toda vez que alguém empurra o código para o repositório do GitHub.
-Neste tutorial de ações do GitHub, você adicionará um fluxo de trabalho que fia vários idiomas de codificação usando a ação [Github Super-Linter] [9]. O fluxo de trabalho usa o Super-Linter para validar seu código-fonte toda vez que um novo compromisso é empurrado para o seu repositório.
+Neste tutorial de ações do GitHub, você adicionará um fluxo de trabalho que fia vários idiomas de codificação usando a ação [Github Super-Linter][9]. O fluxo de trabalho usa o Super-Linter para validar seu código-fonte toda vez que um novo compromisso é empurrado para o seu repositório.
 No seu repositório no Github, crie um novo arquivo no diretório **.
 ```
 name: Super-Linter
@@ -78,18 +78,20 @@ Na barra lateral esquerda, clique no fluxo de trabalho que você deseja ver.
 
 {{< figure align=center src="images/superlinter-workflow-sidebar-1024x211.png" alt="Ações do GitHub Fluxo de trabalho">}}
 
-O fluxo de trabalho do Super-Linter que você acabou de adicionar execuções sempre que o código é empurrado para o seu repositório para ajudá-lo a encontrar problemas em seu código. Seu repositório pode ter vários fluxos de trabalho que desencadeiam diferentes trabalhos com base em diferentes eventos. As ações do GitHub podem ajudá -lo a automatizar quase todos os aspectos dos processos de desenvolvimento de aplicativos. Esta foi apenas uma introdução básica às ações do GitHub. Existem toneladas de [recursos] [10] disponíveis para um conhecimento profundo das ações do GitHub, que você pode usar.
+O fluxo de trabalho do Super-Linter que você acabou de adicionar execuções sempre que o código é empurrado para o seu repositório para ajudá-lo a encontrar problemas em seu código. Seu repositório pode ter vários fluxos de trabalho que desencadeiam diferentes trabalhos com base em diferentes eventos. As ações do GitHub podem ajudá -lo a automatizar quase todos os aspectos dos processos de desenvolvimento de aplicativos. Esta foi apenas uma introdução básica às ações do GitHub. Existem toneladas de [recursos][10] disponíveis para um conhecimento profundo das ações do GitHub, que você pode usar.
 
 ## Conclusão {#conclusion}
 Neste ** tutorial de ações do github **, aprendemos sobre ** integração contínua e implantação contínua ** e ** O que são ações do github **. E também exploramos como podemos usar as ações ** Github ** para criar um fluxo de trabalho CI/CD. Utilizamos um fluxo de trabalho de super-linter simples no mercado de ações do GitHub, para descobrir quaisquer inconsistências em nossa base de código. Nos próximos artigos, exploraremos as ações do GitHub em mais profundidade. Além disso, você pode encontrar outras postagens do blog relacionadas ao sistema de controle de versão ** mencionado na seção "Explorar" abaixo.
-Finalmente, [contendeRize.com] [11] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Software de controle de versão] [12] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [13], [LinkedIn] [14] e [Twitter] [15].
+Finalmente, [contendeRize.com][11] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Software de controle de versão][12] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][13], [LinkedIn][14] e [Twitter][15].
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Implantação contínua do GitLab | Como funciona?] [16]
-  * [Entenda e aprenda ramos e puxe solicitações no Git] [2]
-  * [Software de gerenciamento de código -fonte | O que é git?] [17]
-  * [Top 5 Sistemas de controle de versão de código aberto em 2021] [18]
+  * [Implantação contínua do GitLab | Como funciona?][16]
+  * [Entenda e aprenda ramos e puxe solicitações no Git][2]
+  * [Software de gerenciamento de código -fonte | O que é git?][17]
+  * [Top 5 Sistemas de controle de versão de código aberto em 2021][18]
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
 [3]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/

@@ -23,7 +23,7 @@ Obviamente, ambos sistemas de gestión de contenido Drupal vs WordPress le propo
   * **Conclusión**
 
 ## ** 1. ¿Qué es Drupal? **
-[** Drupal **] [1] es uno de los sistemas de gestión de contenido web gratuito y de código abierto más versátiles, lanzado originalmente en 2000. Está escrito en lenguaje PHP y se distribuye bajo la Licencia Pública General de GNU. Drupal es un CMS flexible basado en la pila de lámparas.
+[** Drupal **][1] es uno de los sistemas de gestión de contenido web gratuito y de código abierto más versátiles, lanzado originalmente en 2000. Está escrito en lenguaje PHP y se distribuye bajo la Licencia Pública General de GNU. Drupal es un CMS flexible basado en la pila de lámparas.
 Drupal ayuda a proporcionar un marco de back-end de código abierto para al menos el 14% de los 10,000 sitios web principales en todo el mundo. Se extiende desde weblogs personales hasta el gobierno corporativo, político, hasta grandes sitios web impulsados ​​por la comunidad y con una comunidad grande y de apoyo.
 ** ¿Cuántos sitios web usan ** Drupal **?. ** Según W3Techs, Drupal es utilizado por el 2.0% de todos los sitios web y tiene una participación del 4.6% en el mercado del sistema de gestión de contenido. Este es el 1.3% de todos los sitios web.
 ** ¿Qué son los sitios web populares usando Drupal?: **
@@ -38,7 +38,7 @@ Drupal ayuda a proporcionar un marco de back-end de código abierto para al meno
   * NCAA
   * Tesla
   * Keap
-** ¿Qué son las ventajas de Drupal? ** [] [2]
+** ¿Qué son las ventajas de Drupal? ** [][2]
   *** Controles de acceso **-Sistema de gestión de contenido de código abierto (CMS) de Drupal tiene un sistema de control de acceso incorporado donde puede crear nuevos roles de usuario con permisos individuales, mientras que WordPress se envía un solo sitio con 5 roles básicos de usuario y permisos de usuario .
   *** Extensibilidad ** - Los tipos y vistas de contenido personalizado de Drupal son más flexibles que los tipos de publicaciones personalizadas de WordPress.
   *** Taxonomías ** - El sistema de taxonomía Drupal es más flexible que WordPress, lo que lo hace ideal para manejar muchos datos de contenido.
@@ -48,7 +48,7 @@ Drupal ayuda a proporcionar un marco de back-end de código abierto para al meno
 ** ¿Cuántos temas hay en Drupal? ** A partir de enero de 2022, Drupal.org ofrece 2,988 temas en su directorio oficial. Drupal 9 viene con más de setenta módulos centrales y nueve temas.
 
 ## 2. ¿Qué es WordPress?
-[** WordPress **] [3] es el sistema de gestión de contenido gratuito y de código abierto más popular del mundo. Originalmente se lanzó como una plataforma de blogs en 2003 y sus características incluyen una arquitectura de complementos y un sistema de plantilla llamado temas. WordPress es el software de blogs más popular en el mercado que está escrito en PHP como el lenguaje de secuencias de comandos y utiliza la base de datos MySQL o MariadB.
+[** WordPress **][3] es el sistema de gestión de contenido gratuito y de código abierto más popular del mundo. Originalmente se lanzó como una plataforma de blogs en 2003 y sus características incluyen una arquitectura de complementos y un sistema de plantilla llamado temas. WordPress es el software de blogs más popular en el mercado que está escrito en PHP como el lenguaje de secuencias de comandos y utiliza la base de datos MySQL o MariadB.
 ** ¿Cuántos sitios web usan WordPress? Otra forma, WordPress funciona sobre un tercio de Internet y posee una participación del 65% para el mercado de sistemas de gestión de contenido (CMS).
 ** ¿Qué son los sitios populares usando WordPress?: **
 Aquí está la lista de los principales sitios web y marcas de renombre que usan WordPress.
@@ -62,14 +62,14 @@ Aquí está la lista de los principales sitios web y marcas de renombre que usan
   * Mercedes-Benz.com
   * Newyorker.com
   * Godaddy.com
-** ¿Cuáles son las ventajas de WordPress? ** [] [4]
+** ¿Cuáles son las ventajas de WordPress? ** [][4]
 Estas son las principales razones por las cuales WordPress es tan popular y por qué es posible que desee considerar cambiar a una plataforma de WordPress para el sitio web de su negocio. Los beneficios de WordPress son:
   *** Facilidad de uso **-WordPress es muy fácil de usar, más fácil de usar y tiene una interfaz intuitiva. Crear nuevas páginas, artículos de blog, imágenes, etc. de forma regular es muy simple y se puede hacer rápidamente, especialmente para los no desarrolladores.
   *** Extensibilidad ** - WordPress hace posible extender WordPress sin la necesidad de un desarrollo personalizado. Agregue un calendario de eventos, galería de video, feed de Twitter, caja de Facebook y más con tema de terceros y complementos.
   *** Escalabilidad ** - Los sitios de WordPress son muy escalables a medida que su negocio crece. Como administrador, agrega cientos de páginas o publicaciones de blog en su sitio web y el rendimiento de su sitio no se verá comprometido.
   *** Sin edición HTML **-WordPress es una plataforma autónoma y no requiere un software de edición HTML. Cualquiera puede crear una nueva página o publicación de blog, texto de formato, cargar imágenes, archivos de video, etc. sin la necesidad de un software HTML o FTP adicional.
   *** Costo de desarrollo más bajo ** - WordPress ofrece más soluciones de diseño y diseño y sus desarrolladores suelen ser más asequibles que los desarrolladores de Drupal incluso para pequeñas empresas.
-  *** Soporte ** - WordPress Global Community ayuda y brinda apoyo para cualquier problema o ver documentación de soporte para obtener respuestas. [] [5]
+  *** Soporte ** - WordPress Global Community ayuda y brinda apoyo para cualquier problema o ver documentación de soporte para obtener respuestas. [][5]
 ** ¿Cuántos complementos tiene WordPress? ** A diciembre de 2021, WordPress.org tiene 59,756 complementos disponibles. Cada uno de los cuales ofrece funciones y características personalizadas que permiten a los usuarios adaptar sus sitios a sus necesidades específicas.
 ** ¿Cuántos temas hay en WordPress? ** Hay 9,159 temas gratuitos, más miles de temas más premium. Herramientas como el personalizador de temas Wysiwyg y el editor de Gutenberg hacen que sea más simple que los usuarios casuales creen contenido único.
 
@@ -81,15 +81,17 @@ Estas son las principales razones por las cuales WordPress es tan popular y por 
 
 ## Conclusión: {#4A1A}
 ** ¿Cuál es la mejor opción ** Drupal ** versus WordPress? ** Ahora depende de usted: si está buscando una inversión inicial ** a bajo costo **, vaya a WordPress. Si es un principiante y el sitio web será simple ** y funcional, vaya a WordPress. Si está buscando una solución ** robusta y compleja **, vaya a Drupal.
-_ ¿Qué es la plataforma de gestión de contenido de código abierto_? ¿Prefiere_?. ¿Tiene alguna pregunta sobre la diferencia entre _wordpress__ y _drupal?, Por favor_ [Póngase en contacto] [6].
+_ ¿Qué es la plataforma de gestión de contenido de código abierto_? ¿Prefiere_?. ¿Tiene alguna pregunta sobre la diferencia entre _wordpress__ y _drupal?, Por favor_ [Póngase en contacto][6].
 
 ## Explorar:
 Tenemos varios otros artículos relacionados para los administradores de TI:
-  *** [Top 5 Herramientas de orquestación de contenedores de código abierto para DevOps 2021] [7] **
-  *** [Mejor software de almacenamiento en la nube de código abierto y compartir archivos] [8] **
-  *** [Software de cola de mensajes de código abierto (MQ) en 2021] [9] **
-  *** [Herramientas forenses digitales de código abierto más popular] [10] **
-  *** [Licencias de código abierto aprobadas por OSI más populares] [11] **
+  *** [Top 5 Herramientas de orquestación de contenedores de código abierto para DevOps 2021][7] **
+  *** [Mejor software de almacenamiento en la nube de código abierto y compartir archivos][8] **
+  *** [Software de cola de mensajes de código abierto (MQ) en 2021][9] **
+  *** [Herramientas forenses digitales de código abierto más popular][10] **
+  *** [Licencias de código abierto aprobadas por OSI más populares][11] **
+
+  
 [1]: https://www.drupal.org/
 [2]: https://kinsta.com/blog/wordpress-vs-drupal/#drupal-advantages
 [3]: https://wordpress.org/

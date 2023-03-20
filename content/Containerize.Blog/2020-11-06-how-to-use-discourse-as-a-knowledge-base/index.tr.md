@@ -17,18 +17,18 @@ categories: ['Discussion Forum']
 ## Genel Bakış
 Bu hızlı genişleyen dijital dünyada, son kullanıcılarla iki taraflı bir etkileşime sahip olmak son derece önemlidir. Bu nedenle, tüm başarılı işletmeler her zaman hedef kitleyi analiz etmek, teknik destek sağlamak, geri bildirim toplamak, ürünleri geliştirmek ve daha fazlası gibi çeşitli nedenlerle bir tartışma forumu kurmuşlardır. Ancak, herkes bir konu oluşturabilir ve tüm tartışmalar halka açık bir modda açıkça gerçekleşir.
 Bu blog yazısında aşağıdaki noktaları ele alacağız:
-  * [Bir bilgi tabanı olarak söylem nasıl çalışır?] [1]
-  * [Söylemde Bilgi Explorer eklentisini ayarlama] [2]
-  * [Sonuç] [3]
+  * [Bir bilgi tabanı olarak söylem nasıl çalışır?][1]
+  * [Söylemde Bilgi Explorer eklentisini ayarlama][2]
+  * [Sonuç][3]
 
 ## Bilgi tabanı olarak söylem nasıl çalışır? {#usage}
-Bilgi tabanı, belge ve bilgi veritabanı olarak işlev görür. Şirketin ürün ve prosedürleriyle ilgili bilgileri toplamak, yönetmek ve paylaşmak için kullanılır. [Söylem] [4] gibi bir tartışma forumu hakkında konuştuğumuzda, son kullanıcıların ve temsilcilerin bir tartışmaya katıldığı uzun dişli konular var. Bu durumda, müşteriler ilgili bilgileri bulmakta zorlanıyorlar. Bu güçlükleri daraltmak için, söylem topluluğu birkaç bilgi tabanı eklentisi geliştirdi.
-[Söylem] [4] 'te KB eklentisinin yüklenmesi, müşterilerin istenen bilgileri bulması için oldukça hızlı hale gelir. Buna ek olarak, uzun süredir cevapsız kalan birkaç müşteri sorgusu ve soru vardır. Bu nedenle, KB tarzı konularda yaygın olarak kullanılan bilgileri belgelemek zaman kazandırır ve müşteri deneyimini geliştirir.
+Bilgi tabanı, belge ve bilgi veritabanı olarak işlev görür. Şirketin ürün ve prosedürleriyle ilgili bilgileri toplamak, yönetmek ve paylaşmak için kullanılır. [Söylem][4] gibi bir tartışma forumu hakkında konuştuğumuzda, son kullanıcıların ve temsilcilerin bir tartışmaya katıldığı uzun dişli konular var. Bu durumda, müşteriler ilgili bilgileri bulmakta zorlanıyorlar. Bu güçlükleri daraltmak için, söylem topluluğu birkaç bilgi tabanı eklentisi geliştirdi.
+[Söylem][4] 'te KB eklentisinin yüklenmesi, müşterilerin istenen bilgileri bulması için oldukça hızlı hale gelir. Buna ek olarak, uzun süredir cevapsız kalan birkaç müşteri sorgusu ve soru vardır. Bu nedenle, KB tarzı konularda yaygın olarak kullanılan bilgileri belgelemek zaman kazandırır ve müşteri deneyimini geliştirir.
 
 ## Söylemde Bilgi Explorer eklentisini ayarlama {#setup}
-Bu bölümde, [Bilgi Gezgini eklentisi] [5] 'in nasıl etkinleştirileceğini ve ne sunduğunu göreceğiz.
-[Söylem] [4] tamamen açık bir kaynak olduğundan, Bilgi Gezgini eklentisi [GitHub] [5] 'te mevcuttur.
-Söylemde herhangi bir eklenti yüklemek için kolay adımlar vardır. Bu nedenle, bu [Eklenti Kurulum Kılavuzu] [6] 'da belirtilen talimatları izleyin.
+Bu bölümde, [Bilgi Gezgini eklentisi][5] 'in nasıl etkinleştirileceğini ve ne sunduğunu göreceğiz.
+[Söylem][4] tamamen açık bir kaynak olduğundan, Bilgi Gezgini eklentisi [GitHub][5] 'te mevcuttur.
+Söylemde herhangi bir eklenti yüklemek için kolay adımlar vardır. Bu nedenle, bu [Eklenti Kurulum Kılavuzu][6] 'da belirtilen talimatları izleyin.
 Eklentiyi yükledikten sonra, bilgi Explorer etkin ayarını açarak eklentiyi etkinleştirin. Bilgi Explorer etiketleri ayarlarına kategoriler ve etiketler ekleyebilirsiniz.
 Bilgi Explorer eklentisini, aşağıdaki resimde gösterildiği gibi en üst düzey menüden bulabilirsiniz.
 
@@ -49,7 +49,9 @@ Son olarak, belgenin bağlantısını herhangi biriyle açabilir ve paylaşabili
 
 ## Sonuç {#Conclusion}
 Bu makalede, söylemin bir işletme için bilgi tabanı olarak nasıl kullanılabileceğini gördük. Son kullanıcıların ihtiyaçlarını güçlü bir şekilde göze almak gerçekten önemlidir. Forum söz konusu olduğunda, müşterilerin gerekli kaynaklara kolayca ve hızlı bir şekilde yaklaşabilmeleri için KB eklentisiyle donatarak bir sonraki seviyeye taşımalıyız.
-[Containerize.com] [7] [Tartışma Forumu] [8] kategorisinde birçok güçlü forum yazılımı seçti. Düzenli güncellemeler için lütfen [blog.containerize.com] [9] ile bağlantıda kalın.
+[Containerize.com][7][Tartışma Forumu][8] kategorisinde birçok güçlü forum yazılımı seçti. Düzenli güncellemeler için lütfen [blog.containerize.com][9] ile bağlantıda kalın.
+
+  
 [1]: #usage
 [2]: #setup
 [3]: #Conclusion

@@ -12,11 +12,11 @@ categories: ['Single Sign-On']
 ## 本文详细说明了两因素身份验证，以及如何使用IdentityServer4和SMS提供商（Twilio）（Twilio）等身份框架在.NET 5中实现它。
 {{_LINE_11_}}
 它包含以下各节：
-  * [什么是两因素身份验证？ ] [1]
-  * [2FA如何工作？] [2]
-  * [2FA和多因素身份验证] [3]
-  * [使用2FA的缺点] [4]
-  * [实现2FA In .NET5] [5]
+  * [什么是两因素身份验证？ ][1]
+  * [2FA如何工作？][2]
+  * [2FA和多因素身份验证][3]
+  * [使用2FA的缺点][4]
+  * [实现2FA In .NET5][5]
 首先，让我们了解2FA是什么，以及为什么它需要成为每个现代Web应用程序的组成部分。
 
 ## 什么是两因素身份验证？ {#2FA}
@@ -187,8 +187,10 @@ public async Task<IActionResult> Login(LoginInputModel model, string button)
 
 
 ### 结论：
-在本文中，我们使用IdentityServer4和Twilio了解了2FA及其在.NET5中的实现。您可以从此[repo] [6]中下载本文中使用的示例代码。
-使用SMS进行2FA肯定会增强您的安全性，但仍然容易受到[SIM SHAP攻击] [7]的影响。因此，安全研究人员鼓励2FA使用其他方法，例如Authenticator应用程序和安全密钥（[Yubikey] [8]），这些方法无法在电话网络上截获。我们将在即将发表的文章中了解更多信息 - 敬请期待！
+在本文中，我们使用IdentityServer4和Twilio了解了2FA及其在.NET5中的实现。您可以从此[repo][6]中下载本文中使用的示例代码。
+使用SMS进行2FA肯定会增强您的安全性，但仍然容易受到[SIM SHAP攻击][7]的影响。因此，安全研究人员鼓励2FA使用其他方法，例如Authenticator应用程序和安全密钥（[Yubikey][8]），这些方法无法在电话网络上截获。我们将在即将发表的文章中了解更多信息 - 敬请期待！
+
+  
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

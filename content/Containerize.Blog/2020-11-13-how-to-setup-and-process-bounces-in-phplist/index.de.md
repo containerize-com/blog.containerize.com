@@ -13,15 +13,15 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/phplist-2.png" alt="Process hüpft Phplisten">}}
 
-Wir haben Artikel zur Implementierung von [Multi-Messen] [1] und [Senden von Newsletter-Kampagnen] [2] in Phplist geschrieben. In diesem Artikel werden wir diese Punkte im Detail über die Verfahren in Phplisten abdecken.
-  * [Was ist Phplist?] [3]
-  * [Was ist Bounce?] [4]
-  * [Setup Bounce Management] [5]
-  * [Wie man Bounces verarbeitet?] [6]
-  * [Schlussfolgerung] [7]
+Wir haben Artikel zur Implementierung von [Multi-Messen][1] und [Senden von Newsletter-Kampagnen][2] in Phplist geschrieben. In diesem Artikel werden wir diese Punkte im Detail über die Verfahren in Phplisten abdecken.
+  * [Was ist Phplist?][3]
+  * [Was ist Bounce?][4]
+  * [Setup Bounce Management][5]
+  * [Wie man Bounces verarbeitet?][6]
+  * [Schlussfolgerung][7]
 
 ## Was ist Phplist? {#Phplist}
-Phplist ist am beliebtesten kostenlosen und Open -Source -Newsletter -Senden von Software. Phplist ermöglicht Unternehmen, Marketing -E -Mails, Produktaktualisierungen und Ankündigungen an Abonnenten zu senden. Es hilft Unternehmen für die Verwaltung von Auflistung, Entwerfen von Beautiful Newsletter, Zeitplankampagne und Bounce Management. [Lesen Sie mehr] [8]
+Phplist ist am beliebtesten kostenlosen und Open -Source -Newsletter -Senden von Software. Phplist ermöglicht Unternehmen, Marketing -E -Mails, Produktaktualisierungen und Ankündigungen an Abonnenten zu senden. Es hilft Unternehmen für die Verwaltung von Auflistung, Entwerfen von Beautiful Newsletter, Zeitplankampagne und Bounce Management. [Lesen Sie mehr][8]
 
 ## Was ist Bounce? {#prallen}
 Ein Sprungbrett ist eine E -Mail -Nachricht, die aus Anzahl von Gründen nicht zugestellt werden kann und zum Absender zurückkehrt. Wir können Gründe wie Mailbox haben, die E -Mail -Adresse nicht mehr zu gültigem oder falscher E -Mail -Adresse. Aus diesem Grund müssen Sie Bounces verarbeiten, damit Sie keine E -Mails an ungültige E -Mail -Adressen senden.
@@ -39,10 +39,12 @@ Wir werden in den folgenden Schritten mehr über diese Konfigurationen erklären
   *Zusätzlich zu den oben genannten Einstellungen für ** POP3 ** Protokoll müssen Sie möglicherweise Port und Verschlüsselung hinzufügen.
 
 ## Wie man Bounces verarbeitet? {#Verfahren}
-Phplist unterstützt zwei Methoden für Prozesspressen: manuell und automatisiert. Sie müssen Cron Job erstellen, um die Bounce -Verarbeitung zu automatisieren. Sie können auch manuell mit den Spulen verarbeiten, indem Sie ** System> Prozess -Bounces ** Seite besuchen. Daher müssen Sie zuerst die Einstellungen für Ihre Anforderungen \ _process \ _Bounces ** manuell ändern. Sie können [Phplist Docs] [9] besuchen, um Cron -Jobs für Prozesspräparate einzurichten.
+Phplist unterstützt zwei Methoden für Prozesspressen: manuell und automatisiert. Sie müssen Cron Job erstellen, um die Bounce -Verarbeitung zu automatisieren. Sie können auch manuell mit den Spulen verarbeiten, indem Sie ** System> Prozess -Bounces ** Seite besuchen. Daher müssen Sie zuerst die Einstellungen für Ihre Anforderungen \ _process \ _Bounces ** manuell ändern. Sie können [Phplist Docs][9] besuchen, um Cron -Jobs für Prozesspräparate einzurichten.
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Beitrag haben wir gelernt, wie man die Bounce -E -Mail -Adresse und die Verarbeitung von Bounces konfigurieren. Sie können problemlos mit manueller Methode verarbeiten, wenn Sie weniger Abonnenten haben. Sie müssen jedoch einen automatischen Bounce -Handhabungsprozess für große Listen verwenden. Es speichert Ihre Zeit und hilft Ihnen dabei, saubere und gültige Abonnentenlisten zu erstellen.
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
 [2]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
 [3]: #phplist

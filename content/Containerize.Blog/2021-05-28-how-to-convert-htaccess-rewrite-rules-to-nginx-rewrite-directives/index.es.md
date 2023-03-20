@@ -13,11 +13,11 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Convertir .htaccess reescribe reglas a las directivas nginx">}}
 
-En nuestro último tutorial, aprendimos [cómo instalar múltiples versiones de PHP con Nginx en Ubuntu] [1]. Apache es uno de los servidores web más populares, pero últimamente, Nginx se ha establecido como un competidor de Apache. Pero Nginx no es compatible con las reglas de reescritura de htaccess. Entonces, en este artículo, aprenderemos cómo convertir las reglas de reescritura de htaccess para reescribir las directivas de Nginx. ¡Empecemos!
-  *** [Reglas de reescritura de Nginx] [2] **
-  *[**. Htaccess Reescritas Reglas **] [3]
-  *[** Convert .htaccess Reescribir reglas a las directivas de reescritura nginx **] [4]
-  *[** Conclusión **] [5]
+En nuestro último tutorial, aprendimos [cómo instalar múltiples versiones de PHP con Nginx en Ubuntu][1]. Apache es uno de los servidores web más populares, pero últimamente, Nginx se ha establecido como un competidor de Apache. Pero Nginx no es compatible con las reglas de reescritura de htaccess. Entonces, en este artículo, aprenderemos cómo convertir las reglas de reescritura de htaccess para reescribir las directivas de Nginx. ¡Empecemos!
+  *** [Reglas de reescritura de Nginx][2] **
+  *[**. Htaccess Reescritas Reglas **][3]
+  *[** Convert .htaccess Reescribir reglas a las directivas de reescritura nginx **][4]
+  *[** Conclusión **][5]
 
 ## Reglas de reescritura nginx {#nginx}
 Reescribir las reglas cambian parte o la totalidad de la URL en una solicitud de cliente, generalmente para informar a los clientes que el recurso que solicitan ahora reside en una ubicación diferente o para controlar el flujo de procesamiento dentro de Nginx. Por ejemplo, para reenviar solicitudes a un servidor de aplicaciones cuando el contenido debe generarse dinámicamente. La directiva Try_Files a menudo se usa para este propósito.
@@ -82,7 +82,7 @@ server {
 }
 ```
 En aras de más claridad, convierta las reglas de WordPress Htaccess en la directiva Nginx try_files.
-[WordPress.org distribuye] [6] Un archivo básico predeterminado **. Htaccess ** con el siguiente. Reglas de reescritura de htaccess que habilitan enlaces permanentes:
+[WordPress.org distribuye][6] Un archivo básico predeterminado **. Htaccess ** con el siguiente. Reglas de reescritura de htaccess que habilitan enlaces permanentes:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 En este tutorial, exploramos las reglas de reescritura .htaccess de Apache y cómo podemos convertir esas reglas de reescritura. Además, exploramos diferentes directivas NGINX que pueden usarse para reescribir URL. También dimos reglas de reescritura de ejemplo para NGINX y Apache. Espero que el tutorial te sea útil.
 
 ## Explorar
-  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu] [1]
-  * [Cómo configurar y configurar Nginx como proxy inverso] [7]
+  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu][1]
+  * [Cómo configurar y configurar Nginx como proxy inverso][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

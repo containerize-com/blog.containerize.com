@@ -15,21 +15,21 @@ categories: ['Blogging', 'Discussion Forum']
 
 Un certain nombre de sites Web conservent un forum pour leurs problèmes de soutien. De plus, il est utilisé par les communautés pour partager des idées et des expériences. Les entreprises font la promotion de leurs forums communautaires. Parce que, cela les aide à construire une communauté autour de leurs produits où les gens parlent du produit et partagent des solutions. Dans ce tutoriel, nous apprendrons à intégrer le forum du discours avec WordPress.
 Il est difficile d'intégrer un forum avec des sites Web alimentés par WordPress. Cependant, il existe un certain nombre de plugins disponibles pour configurer le forum de discussion. Comme, BBPress et Buddypress. Mais, il peut être difficile de maintenir un grand forum communautaire.
-  * [Discours] [1]
-  * [WordPress] [2]
-  * [Plugin officiel] [3]
-  * [Installation] [4]
-  * [Paramètres] [5]
+  * [Discours][1]
+  * [WordPress][2]
+  * [Plugin officiel][3]
+  * [Installation][4]
+  * [Paramètres][5]
 
 ### Discours {#Discourse}
-Le discours est un logiciel de forum de discussion communautaire riche en fonctionnalités, entièrement open source, moderne, facile à utiliser et riche en fonctionnalités. Il accompagne un large éventail d'outils pour les discussions communautaires. Par conséquent, sa plate-forme fiable et adaptable. [Lire la suite] [6]
+Le discours est un logiciel de forum de discussion communautaire riche en fonctionnalités, entièrement open source, moderne, facile à utiliser et riche en fonctionnalités. Il accompagne un large éventail d'outils pour les discussions communautaires. Par conséquent, sa plate-forme fiable et adaptable. [Lire la suite][6]
 
 ### wordPress {#wordpress}
-WordPress est l'un des logiciels de construction et de blogs les plus populaires. Son 100% open source et ont une énorme communauté de développeurs. En conséquence, cela en fait le choix numéro un des développeurs, des blogueurs et des constructeurs de sites Web. Un grand nombre de sites Web en ligne fonctionnent aujourd'hui sur WordPress. Parce que, cela permet à toute personne sans expérience de développement de créer des sites Web. [Lire la suite] [7]
+WordPress est l'un des logiciels de construction et de blogs les plus populaires. Son 100% open source et ont une énorme communauté de développeurs. En conséquence, cela en fait le choix numéro un des développeurs, des blogueurs et des constructeurs de sites Web. Un grand nombre de sites Web en ligne fonctionnent aujourd'hui sur WordPress. Parce que, cela permet à toute personne sans expérience de développement de créer des sites Web. [Lire la suite][7]
 
 ### Plugin WordPress officiel pour le discours {#Plugin}
 Considérant le volume de sites Web alimentés par WordPress. Et, une énorme demande d'intégration avec WordPress. Discours, a publié un plugin WordPress officiel qui rend l'intégration vraiment facile.
-[WP Discourse] [8] est le plugin officiel du discours WordPress est 100% open source. Et, est disponible gratuitement en téléchargement à partir du référentiel. Le code source est disponible sur [github] [9].
+[WP Discourse][8] est le plugin officiel du discours WordPress est 100% open source. Et, est disponible gratuitement en téléchargement à partir du référentiel. Le code source est disponible sur [github][9].
 Ce plugin vous permet d'utiliser le discours comme moteur communautaire pour votre site Web ou blog WordPress. Il a de nombreuses fonctionnalités et certains des points forts du plugin, et ce qui peut être réalisé est le suivant.
   * Crée automatiquement un sujet de discussion pour le forum lorsqu'un nouveau blog est publié.
   * Associa les comptes des auteurs WP à leurs comptes de discours respectifs. Ne nécessite pas SSO.
@@ -66,6 +66,8 @@ Les paramètres SSO vous permettent d'activer la connexion unique entre votre si
 
 ### Conclusion
 Dans ce tutoriel, nous avons appris à intégrer le discours avec WordPress. WP Discours a facilité la fabrication d'une fusion de deux produits de première classe. En conséquence, l'intégration avec WordPress a résolu le problème d'une énorme communauté qui avait du mal à gérer un forum.
+
+  
 [1]: #discourse
 [2]: #wordpress
 [3]: #plugin

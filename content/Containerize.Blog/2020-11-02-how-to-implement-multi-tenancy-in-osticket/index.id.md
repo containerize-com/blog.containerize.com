@@ -14,14 +14,14 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-osTicket.png" alt="Kustomisasi Osticket - Menerapkan multi -tenancy di osticket">}}
 
 Dalam artikel ini kita akan membahas cara membuat kustomisasi osticket untuk mengimplementasikan multi-tenancy. Posting ini akan mencakup topik berikut:
-  * [Osticket Ikhtisar] [1]
-  * [Tinjauan multi-tenancy] [2]
-  * [Manfaat multi-tenancy] [3]
-  * [Implementasi] [3]
-  * [Kesimpulan] [4]
+  * [Osticket Ikhtisar][1]
+  * [Tinjauan multi-tenancy][2]
+  * [Manfaat multi-tenancy][3]
+  * [Implementasi][3]
+  * [Kesimpulan][4]
 
 ## Osticket Ikhtisar: {#Osticket}
-[OSTICKET] [5] adalah perangkat lunak Bantuan Meja Bantuan Web Dukungan Pelanggan Open Source Open Source. Ini menyediakan panel kontrol intuitif dan komponen pelaporan real-time. Ini memiliki modul manajemen pertanyaan yang mudah digunakan. Ini memungkinkan Anda untuk membuat pertanyaan dari ponsel, email, dan formulir berbasis web Anda. Yang menawarkan banyak opsi untuk membantu menyesuaikan semua bagian dari pengalaman dukungan klien seperti komentar dan pemberitahuan email.
+[OSTICKET][5] adalah perangkat lunak Bantuan Meja Bantuan Web Dukungan Pelanggan Open Source Open Source. Ini menyediakan panel kontrol intuitif dan komponen pelaporan real-time. Ini memiliki modul manajemen pertanyaan yang mudah digunakan. Ini memungkinkan Anda untuk membuat pertanyaan dari ponsel, email, dan formulir berbasis web Anda. Yang menawarkan banyak opsi untuk membantu menyesuaikan semua bagian dari pengalaman dukungan klien seperti komentar dan pemberitahuan email.
 
 ## ikhtisar multi-tenancy: {#multitenancy}
 Multi-tenancy mengacu pada implementasi, di mana beberapa contoh independen dari suatu aplikasi beroperasi di lingkungan bersama. Contoh (penyewa) terisolasi secara logis, tetapi terintegrasi secara fisik. Suatu organisasi mungkin dapat memiliki banyak departemen. Jadi mereka dapat membuat beberapa penyewa/instance dari aplikasi yang sama. Misalnya, dalam kasus kami, sistem HelpDesk dapat dikonfigurasi untuk berbagai domain dari organisasi yang sama. Mungkin ada ratusan penyewa tetapi mereka semua akan menggunakan file yang sama dan karenanya penyimpanan yang sama. Ini akan mengurangi biaya penyimpanan serta akan membuat peningkatan lebih mudah. Pengembang hanya perlu memperbarui file dari satu tempat alih -alih membuat perubahan untuk setiap situs secara terpisah.
@@ -69,10 +69,12 @@ Osticket adalah perangkat lunak Manajemen Bantuan IT Source dan Open Source. Kam
 
 ## Mengeksplorasi:
 Silakan periksa halaman berikut untuk mempelajari lebih lanjut tentang Osticket:
-  * [OSTICKET - Perangkat Lunak Helpdesk Open Source Gratis] [5]
-  * [Panduan Pemula untuk Mengembangkan Plugin Osticket] [6]
-  * [Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket] [7]
-  * [Otomatis Sistem Tiket Menggunakan WordPress dan Osticket] [8]
+  * [OSTICKET - Perangkat Lunak Helpdesk Open Source Gratis][5]
+  * [Panduan Pemula untuk Mengembangkan Plugin Osticket][6]
+  * [Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket][7]
+  * [Otomatis Sistem Tiket Menggunakan WordPress dan Osticket][8]
+
+  
 [1]: #osticket
 [2]: #multitenancy
 [3]: #benefits

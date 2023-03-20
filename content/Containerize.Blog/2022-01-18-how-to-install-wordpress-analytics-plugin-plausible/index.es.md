@@ -15,16 +15,16 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 
 ## Descripción general
-¿Tiene un sitio web comercial? ¿Está buscando rastrear, analizar las ideas comerciales críticas? Aterriza en el lugar correcto donde no solo sabrá sobre un software profesional de inteligencia de negocios de código abierto, sino que también aprenderá cómo instalar el complemento de WordPress Analytics [plausible] [1]. Esta es otra publicación de blog de la serie sobre [Software de inteligencia empresarial] [2]. En el pasado reciente, hemos publicado artículos sobre los temas como [Cómo instalar Matomo para WordPress | Tutorial de WordPress] [3], [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021] [4], y algunas más. Estos artículos le brindan una descripción detallada de sus características y uso.
-De hecho, hay millones de sitios web que se ejecutan en Internet y millones de personas los visitan de diferentes maneras. Por lo tanto, es muy importante que los propietarios de sitios web conozcan el tráfico del sitio en detalle. La única forma de obtener estas ideas de datos es a través de [Google Analytics] [5] o algunas otras herramientas similares. Sin embargo, la comunidad de código abierto ha desarrollado algunas herramientas de BI que se consideran alternativas de Google Analytics, y Plausible es una de ellas. En esta publicación de blog, aprenderemos a instalar plausible cubriendo los siguientes puntos.
-  *** [¿Qué es plausible?] [6] **
-  *** [¿Cómo instalar el complemento de WordPress Analytics plausible?] [7] **
-  *** [Panel de complemento de análisis de análisis plausible] [8] **
-  *** [Conclusión] [9] **
+¿Tiene un sitio web comercial? ¿Está buscando rastrear, analizar las ideas comerciales críticas? Aterriza en el lugar correcto donde no solo sabrá sobre un software profesional de inteligencia de negocios de código abierto, sino que también aprenderá cómo instalar el complemento de WordPress Analytics [plausible][1]. Esta es otra publicación de blog de la serie sobre [Software de inteligencia empresarial][2]. En el pasado reciente, hemos publicado artículos sobre los temas como [Cómo instalar Matomo para WordPress | Tutorial de WordPress][3], [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021][4], y algunas más. Estos artículos le brindan una descripción detallada de sus características y uso.
+De hecho, hay millones de sitios web que se ejecutan en Internet y millones de personas los visitan de diferentes maneras. Por lo tanto, es muy importante que los propietarios de sitios web conozcan el tráfico del sitio en detalle. La única forma de obtener estas ideas de datos es a través de [Google Analytics][5] o algunas otras herramientas similares. Sin embargo, la comunidad de código abierto ha desarrollado algunas herramientas de BI que se consideran alternativas de Google Analytics, y Plausible es una de ellas. En esta publicación de blog, aprenderemos a instalar plausible cubriendo los siguientes puntos.
+  *** [¿Qué es plausible?][6] **
+  *** [¿Cómo instalar el complemento de WordPress Analytics plausible?][7] **
+  *** [Panel de complemento de análisis de análisis plausible][8] **
+  *** [Conclusión][9] **
 
 ## ¿Qué es plausible? {#What-is-Plausible}
 En esta sección, conoceremos el software de análisis plausible. Plausible es un software de inteligencia empresarial ligero, gratuito y de código abierto que viene con capacidades de autohostación. Es altamente configurable, centrado en la privacidad y completamente cumple con las leyes de privacidad internacional. Además, este complemento de WordPress Analytics no tiene cookies y ofrece disposiciones para que los propietarios del sitio comprendan los visitantes del sitio. Además, no admite la recopilación de datos personales y el seguimiento de sitios cruzados. Sobre todo, Plausible ofrece un script de instalación al igual que Google Analytics y este script de instalación es 45 veces más ligero que el script de Google Analytics. Además, esta alternativa de Google Analytics ofrece una amplia gama de características que incluyen sitios web ilimitados, seguimiento de campañas, orientado a la privacidad y muchas más.
-Sin embargo, esta herramienta BI proporciona un tablero intuitivo que le permite rastrear tendencias, eventos personalizados y 404 páginas. Plausible es fácil de configurar y también ofrece una imagen Docker. Está escrito en Elixir, JavaScript, y presenta documentación integral con respecto al desarrollo y la implementación. Los desarrolladores pueden aprovechar su código fuente de [GitHub] [10].
+Sin embargo, esta herramienta BI proporciona un tablero intuitivo que le permite rastrear tendencias, eventos personalizados y 404 páginas. Plausible es fácil de configurar y también ofrece una imagen Docker. Está escrito en Elixir, JavaScript, y presenta documentación integral con respecto al desarrollo y la implementación. Los desarrolladores pueden aprovechar su código fuente de [GitHub][10].
 
 ## ¿Cómo instalar el complemento de WordPress Analytics plausible? {#Instalar}
 En la sección de este tutorial plausible de integración de WordPress, pasaremos por los pasos de instalación.
@@ -43,24 +43,26 @@ Además, verá la página de configuración plausible si presiona la opción Ana
 
 {{< figure align=center src="images/Screenshot-2022-01-16-at-22.11.27-1024x554.png" alt="software de inteligencia empresarial">}}
 
-Además, también hay una opción para la configuración del sitio si se auto-host esta alternativa de código abierto [Google Analytics] [5]. Del mismo modo, puede explorarlo más a fondo y ver qué otras características ofrece a sus usuarios. Una vez que haya terminado con la instalación de script, puede comenzar a ver los conocimientos de datos comerciales que se presentan a través de este software de inteligencia empresarial de código abierto.
+Además, también hay una opción para la configuración del sitio si se auto-host esta alternativa de código abierto [Google Analytics][5]. Del mismo modo, puede explorarlo más a fondo y ver qué otras características ofrece a sus usuarios. Una vez que haya terminado con la instalación de script, puede comenzar a ver los conocimientos de datos comerciales que se presentan a través de este software de inteligencia empresarial de código abierto.
 
 ## conclusión {#conclusion}
 Esto nos lleva al final de este tutorial plausible de integración de WordPress. Con suerte, esta publicación de blog te ayudó a aprender sobre plausible con respecto a sus características, pasos de instalación y uso. Hemos pasado por subtópicos importantes, como lo que es plausible, y los pasos de instalación de este complemento de WordPress Analytics. En esta era de tecnología de rápido crecimiento, las herramientas de BI se han convertido en un componente imprescindible de un negocio exitoso. Las organizaciones no pueden evitar esta parte integral, ya que tales herramientas siempre le dan a su negocio una ventaja competitiva. Además, puede encontrar enlaces relevantes en la sección "Explorar" a continuación, donde encontrará un software de inteligencia empresarial de código abierto. Esta publicación de blog seguramente lo ayudará si está buscando instalar software de inteligencia empresarial gratuito y de código abierto para su sitio web comercial.
-Finalmente, [Contenerize.com] [11] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [] [12] [Software de inteligencia empresarial] [13] [] [12] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [14], [LinkedIn] [15] y [Twitter] [16].
+Finalmente, [Contenerize.com][11] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [][12][Software de inteligencia empresarial][13][][12] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][14], [LinkedIn][15] y [Twitter][16].
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes.
-  * [Matomo] [17]
-  * [Plausible] [1]
-  * [WordPress] [18]
-  * [Jekyll] [19]
-  * [Cómo instalar Matomo para WordPress | Tutorial de WordPress] [3]
-  * [Cómo las herramientas gratuitas de análisis de negocios ayudan a su negocio] [20]
-  * [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021] [4]
-  * [Cómo instalar complemento en WordPress | Foro de vainilla] [21]
-  * [Aumente sus clientes potenciales con la integración gratuita de CivicRM WordPress] [22]
-  * [Cosas para revisar antes de optar el software de código abierto en 2021] [23]
+  * [Matomo][17]
+  * [Plausible][1]
+  * [WordPress][18]
+  * [Jekyll][19]
+  * [Cómo instalar Matomo para WordPress | Tutorial de WordPress][3]
+  * [Cómo las herramientas gratuitas de análisis de negocios ayudan a su negocio][20]
+  * [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021][4]
+  * [Cómo instalar complemento en WordPress | Foro de vainilla][21]
+  * [Aumente sus clientes potenciales con la integración gratuita de CivicRM WordPress][22]
+  * [Cosas para revisar antes de optar el software de código abierto en 2021][23]
+
+  
 [1]: https://products.containerize.com/business-intelligence/plausible
 [2]: https://blog.containerize.com/category/business-intelligence-software/
 [3]: https://blog.containerize.com/blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/

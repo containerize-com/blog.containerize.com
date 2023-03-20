@@ -14,13 +14,13 @@ categories: ['Invoicing']
 {{< figure align=center src="images/blog-crater.png" alt="Sistema de fatura de código aberto">}}
 
 Toda empresa precisa de algum tipo de sistema para o gerenciamento de faturas, despesas, pagamentos e muito mais. O software de faturamento ajuda você a gerenciá -lo para que você possa executar facilmente tarefas de cobrança e manter o foco em outras coisas importantes. Nesta postagem, aprenderemos a configurar a cratera e usá -la para lidar com operações contábeis para os negócios.
-  * [Introdução sobre Crater] [1]
-  * [Procedimento de instalação da cratera] [2]
-  * [Exploração do recurso] [3]
-  * [Conclusão] [4]
+  * [Introdução sobre Crater][1]
+  * [Procedimento de instalação da cratera][2]
+  * [Exploração do recurso][3]
+  * [Conclusão][4]
 
 ## Introdução sobre cratera {#introduction}
-[Crater] [5] é um aplicativo de cobrança gratuito e de código aberto. É absolutamente gratuito e você pode atualizá -lo facilmente para as versões mais recentes. É um sistema de contabilidade gratuito para pequenas empresas e freelancers. É também uma solução completa de faturamento, permitindo acompanhar as despesas e pagamentos, calcular impostos e produzir estimativas e faturas. Além disso, ele vem com os aplicativos móveis prontos para uso para dispositivos para iPhone e Android. Isso permitirá que você o gerencie de qualquer lugar. Como a Crater é um software de cobrança baseado na Web, o aplicativo da Web foi projetado com Laravel e Vuejs, e os aplicativos móveis são construídos com o React Native. Toda a documentação relacionada ao desenvolvimento e implantação está disponível. O código -fonte completo pode ser encontrado em [Github] [6].
+[Crater][5] é um aplicativo de cobrança gratuito e de código aberto. É absolutamente gratuito e você pode atualizá -lo facilmente para as versões mais recentes. É um sistema de contabilidade gratuito para pequenas empresas e freelancers. É também uma solução completa de faturamento, permitindo acompanhar as despesas e pagamentos, calcular impostos e produzir estimativas e faturas. Além disso, ele vem com os aplicativos móveis prontos para uso para dispositivos para iPhone e Android. Isso permitirá que você o gerencie de qualquer lugar. Como a Crater é um software de cobrança baseado na Web, o aplicativo da Web foi projetado com Laravel e Vuejs, e os aplicativos móveis são construídos com o React Native. Toda a documentação relacionada ao desenvolvimento e implantação está disponível. O código -fonte completo pode ser encontrado em [Github][6].
 
 ## Procedimento de instalação da cratera {#installation}
 Discutiremos como instalar a cratera com o método manual e usar o Docker nesta seção.
@@ -68,12 +68,14 @@ Nesta seção, exploraremos os principais recursos deste aplicativo de cobrança
 
 ## Conclusão {#conclusion}
 Aprendemos sobre a cratera e como configurá -la manualmente e com o Docker. Também analisamos alguns dos recursos que todo software de cobrança contábil deve fornecer. Felizmente, este guia pode ajudá -lo a implementar rapidamente um sistema de fatura de código aberto para o seu negócio.
-Finalmente, [contenderize.com] [7] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [faturamento] [8] para atualizações regulares.
+Finalmente, [contenderize.com][7] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [faturamento][8] para atualizações regulares.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Cratera - sistema de contabilidade gratuito para pequenas empresas] [5]
-  * [5 principais softwares de contabilidade de código aberto no ano 2021] [9]
+  * [Cratera - sistema de contabilidade gratuito para pequenas empresas][5]
+  * [5 principais softwares de contabilidade de código aberto no ano 2021][9]
+
+  
 [1]: #Introduction
 [2]: #Installation
 [3]: #Feature

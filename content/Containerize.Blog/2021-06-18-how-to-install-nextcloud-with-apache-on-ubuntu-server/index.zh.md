@@ -15,7 +15,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 
 ## **概述**
-** [nextCloud] [1] **是一种免费的安全**自托管云存储解决方案**用PHP编程语言编写。它使用Web界面提供数据访问，并且在功能上与Dropbox相似。专有云存储解决方案（例如Dropbox和Google Drive）很方便，但可以用于收集个人数据，因为您的文件存储在其系统上。如果您需要安全，安全和兼容的文件同步和共享解决方案，则可以切换到开源NextCloud服务器。 NextCloud设置可以安装在您的私人家庭服务器或虚拟专用服务器上。
+** [nextCloud][1] **是一种免费的安全**自托管云存储解决方案**用PHP编程语言编写。它使用Web界面提供数据访问，并且在功能上与Dropbox相似。专有云存储解决方案（例如Dropbox和Google Drive）很方便，但可以用于收集个人数据，因为您的文件存储在其系统上。如果您需要安全，安全和兼容的文件同步和共享解决方案，则可以切换到开源NextCloud服务器。 NextCloud设置可以安装在您的私人家庭服务器或虚拟专用服务器上。
 NextCloud开源提供**端到端加密**，意味着可以在上传到服务器之前在客户端设备上加密文件。它也可以与Collobora，BeansOffice NextCloud等在线办公室套件集成在一起，因此您可以直接从NextCloud Client创建和编辑DOC，PPT，XLS文件。您可以在下载shexCloud客户端下载后与NextCloud Server在计算机上共享并同步一个或多个文件和文件夹。 NextCloud Desktop下载和移动客户端提供选项，可以在您控制下的所有设备上进行同步和共享。将数据文件放入您的本地共享目录中，这些文件立即使用NextCloud桌面同步客户端，iOS应用程序或Android设备同步到服务器和其他设备。
 本教程将帮助您在带有Apache的Ubuntu 20.04 LTS Linux操作系统上安装NextCloud。
   ***安装先决条件（灯泡）**
@@ -47,7 +47,7 @@ sudo apt-get安装-y mysql-server php-mysql
 {{_LINE_38_}}
 
 ## 步骤2：在Ubuntu上下载NextCloud存档
-在撰写本文时，NextCloud最新版本为22.0.0beta5。成功配置了系统上的LAMP服务器后，让我们从其[官方网站] [2]中下载NextCloud。
+在撰写本文时，NextCloud最新版本为22.0.0beta5。成功配置了系统上的LAMP服务器后，让我们从其[官方网站][2]中下载NextCloud。
 CD /TMP
 WGET https://download.nextcloud.com/server/releases/nextcloud-22.0.0.0beta5.zip
 {{_LINE_43_}}
@@ -97,16 +97,18 @@ http：// localhost/nextcloud/或http：// your_domain_name/nextCloud/
 
 ## **总结：** {#4a1a}
 恭喜！您已经成功地**使用Apache **在Ubuntu Server上配置并安装了NextCloud。您已经学会了如何创建私有云。 NextCloud Ubuntu Server是一个了不起的云存储协作平台，几乎可以满足任何人的私人或混合云存储需求。现在，您知道如何在Ubuntu上安装NextCloud，并且您的数据在自托管云中安全可靠。在即将到来的教程中，我们将讨论与Web服务器解决方案堆栈有关的更多有趣的主题。
-_您喜欢什么基于云的自托管存储解决方案？如果您有任何疑问，请[联系] [3] ._
+_您喜欢什么基于云的自托管存储解决方案？如果您有任何疑问，请[联系][3] ._
 
 ## 探索：
 您可能喜欢遵循与服务器日常管理有关的文章。
-  * [如何在Ubuntu上使用Apache安装和配置OllCloud] [4]
-  * [如何将Apache配置为Ubuntu或Debian的反向代理] [5]
-  * [在Ubuntu上使用Nginx安装并保护PhpMyAdmin] [6]
-  * [安全和加密nginx与让我们在Ubuntu上加密20.04] [7]
-  * [在Ubuntu/debian上配置http/2支持nginx] [8]
-  * [在AWS生产服务器上设置带有乘客的设置NGINX] [9]
+  * [如何在Ubuntu上使用Apache安装和配置OllCloud][4]
+  * [如何将Apache配置为Ubuntu或Debian的反向代理][5]
+  * [在Ubuntu上使用Nginx安装并保护PhpMyAdmin][6]
+  * [安全和加密nginx与让我们在Ubuntu上加密20.04][7]
+  * [在Ubuntu/debian上配置http/2支持nginx][8]
+  * [在AWS生产服务器上设置带有乘客的设置NGINX][9]
+
+  
 [1]: https://nextcloud.com/
 [2]: https://nextcloud.com/install/
 [3]: mailto:yasir.saeed@aspose.com

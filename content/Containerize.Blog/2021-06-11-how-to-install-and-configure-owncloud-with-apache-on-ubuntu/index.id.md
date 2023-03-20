@@ -48,7 +48,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_39_}}
 
 ## Langkah 2: Unduh OwnCloud di Ubuntu
-Setelah berhasil mengkonfigurasi server lampu pada sistem Ubuntu Anda, mari kita unduh solusi penyimpanan cloud pribadi cloud terbaru dari [situs web resmi] [1].
+Setelah berhasil mengkonfigurasi server lampu pada sistem Ubuntu Anda, mari kita unduh solusi penyimpanan cloud pribadi cloud terbaru dari [situs web resmi][1].
 CD /TMP
 wget https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2
 {{_LINE_44_}}
@@ -107,15 +107,17 @@ Berikut ini adalah alternatif sendiri yang di -host sendiri dan perangkat lunak 
 
 ## ** Kesimpulan: ** {#block-dd1258f4-e0c5-4ac9-e18-7dd2a700f09e}
 Selamat! Anda telah berhasil menginstal dan mengkonfigurasi sendiri untuk membangun cloud pribadi Anda sendiri dengan Apache di mesin Ubuntu. Sekarang data Anda tidak pernah ada di tangan pihak ketiga dan dapat dikelola secara pribadi di Virtual Private Cloud Own Cloud Ubuntu Server Storage. Banyak perusahaan memilih untuk membuat server cloud mereka sendiri dengan banyak informasi penting karena banyak masalah dengan privasi data. Dalam tutorial mendatang kami, kami akan membahas topik yang lebih menarik dari tumpukan solusi server web.
-_Your dapat bergabung dengan kami di [Twitter] [2], [LinkedIn] [3] dan halaman [Facebook] [4] kami. Solusi penyimpanan berbasis cloud apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi kami] [5].
+_Your dapat bergabung dengan kami di [Twitter][2], [LinkedIn][3] dan halaman [Facebook][4] kami. Solusi penyimpanan berbasis cloud apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi kami][5].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa artikel lain yang berkaitan dengan manajemen sehari-hari server Anda.
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [6]
-  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu] [7]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [8]
-  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [9]
-  * [Setup Nginx dengan penumpang di server produksi AWS] [10]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][6]
+  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu][7]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][8]
+  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][9]
+  * [Setup Nginx dengan penumpang di server produksi AWS][10]
+
+  
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

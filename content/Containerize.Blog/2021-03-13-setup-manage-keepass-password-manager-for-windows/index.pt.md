@@ -17,9 +17,9 @@ categories: ['Password Management']
 ## Visão geral {#overview}
 Lembrar todas as diferentes combinações de senha para sites e aplicativos diferentes não é uma tarefa fácil e, ao mesmo tempo em que os escrever em um pedaço de papel pode parecer uma solução fácil. Não há muita segurança nesse método, pois você pode perdê -lo facilmente ou pode cair nas mãos da pessoa errada. ** O Keepass Password Manager ** para Windows é uma das solução para esses problemas.
 Os gerentes de senha, por outro lado, facilitam o armazenamento de todas as suas senhas em um só lugar e acessá -las sempre que precisar. Keepass é ** um dos melhores gerentes de senha de código aberto ** por aí, que não é apenas gratuito para download, mas portátil, assim como você pode armazenar o arquivo de senha em um USB ou carregá -lo no seu Dropbox, Google Drive ou outro Opção de armazenamento em nuvem. Com criptografia de ponta a ponta, apenas o proprietário das senhas pode acessar o arquivo de senha com a chave mestre, que garante segurança. Como gerenciador de senhas de código aberto, o Keepass permite que o usuário com conhecimento técnico também inspecione o código -fonte por si mesmo para garantir que não haja recursos de segurança ausentes.
-  * [Setup Keepass no Windows] [1]
-  * [Gerenciar senhas usando o Keepass] [2]
-  * [Conclusão] [3]
+  * [Setup Keepass no Windows][1]
+  * [Gerenciar senhas usando o Keepass][2]
+  * [Conclusão][3]
 
 ## Setup Keepass no Windows {#Setup}
 ** Baixar e instalar **
@@ -63,21 +63,23 @@ Para fazer login com as senhas salvas no banco de dados:
 
 ** Outras opções de gerenciador de senhas a serem consideradas: **
 Existem dezenas de outros gerentes de senha de código aberto disponíveis no mercado. Você pode manter as credenciais de suas contas seguras usando um gerente de senha seguro, popular, auto -hospedado e de código aberto para armazenar senhas exclusivas e complexas. Abaixo listados estão alguns gerentes de senha dos principais:
-  *[** PADloc **] [4] foi projetado como gerente de senhas minimalistas simples e seguro e gerente de dados para famílias e equipes.
-  *[** Pass-Bolt **] [5] é um gerenciador de senhas de fácil acesso de fácil acesso, projetado para as necessidades das equipes Agile e DevOps.
-  *[** Senha Safe **] [6] é um programa de gerenciador de senhas de código aberto com interface segura, simples e fácil de entender.
-  *[** Bitwarden **] [7] é uma solução segura, gratuita para download e de código aberto integrado.
-  *[** Psono **] [8] é um gerenciador de credenciais e senhas auto-hospedado para equipes. Ele fornece criptografia multicamada para máxima segurança.
+  *[** PADloc **][4] foi projetado como gerente de senhas minimalistas simples e seguro e gerente de dados para famílias e equipes.
+  *[** Pass-Bolt **][5] é um gerenciador de senhas de fácil acesso de fácil acesso, projetado para as necessidades das equipes Agile e DevOps.
+  *[** Senha Safe **][6] é um programa de gerenciador de senhas de código aberto com interface segura, simples e fácil de entender.
+  *[** Bitwarden **][7] é uma solução segura, gratuita para download e de código aberto integrado.
+  *[** Psono **][8] é um gerenciador de credenciais e senhas auto-hospedado para equipes. Ele fornece criptografia multicamada para máxima segurança.
 
 ## Conclusão {#conclusion}
 Keepass é uma maneira fácil, segura e portátil de gerenciar suas senhas. Ele permite personalizar suas senhas, gerar combinações seguras e salvar várias entradas de senha para sites diferentes com o nome de usuário. O uso do melhor gerenciador de senhas também é seguro, pois usa um mecanismo de criptografia final a ponta e depende da função de hash sh-256 para máxima segurança.
-Além disso, [** containerize.com **] [9] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento a ** [Gerenciamento de senhas] [10] ** Categoria para artigos mais interessantes.
+Além disso, [** containerize.com **][9] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento a ** [Gerenciamento de senhas][10] ** Categoria para artigos mais interessantes.
 
 ## Explore
 Neste artigo, discutimos como configurar e gerenciar o Keepass Password Manager para o Windows. Você pode encontrar links a seguir relevantes:
-  *** [Top 5 gerentes de senha de código aberto em 2021] [11] **
-  *** [Melhor software de gerenciamento de senhas de código aberto] [12] **
-  *** [Keepass | Gerenciador de senhas seguros, portáteis e de código aberto] [13] **
+  *** [Top 5 gerentes de senha de código aberto em 2021][11] **
+  *** [Melhor software de gerenciamento de senhas de código aberto][12] **
+  *** [Keepass | Gerenciador de senhas seguros, portáteis e de código aberto][13] **
+
+  
 [1]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#setup
 [2]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#manage
 [3]: https://blog.containerize.com/wp-admin/post.php?post=3863&action=edit#conclusion

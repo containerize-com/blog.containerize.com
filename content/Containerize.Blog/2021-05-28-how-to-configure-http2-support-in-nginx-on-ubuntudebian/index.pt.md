@@ -71,7 +71,7 @@ nginx: o arquivo de configuração /etc/nginx/nginx.conf sintaxe está ok
 nginx: arquivo de configuração /etc/nginx/nginx.conf O teste é bem -sucedido
 
 ## Etapa 4: Adicionando os certificados SSL {#37C0}
-A próxima etapa é ativar a configuração do NGINX HTTPS para usar seu certificado SSL. Você pode gerar um certificado auto -assinado ou [instalar um certificado gratuito de Let's Encrypt] [1]. Se você não tiver um certificado SSL, siga este tutorial. Adicione seus certificados SSL dentro do diretório de configuração do NGINX semelhante a:
+A próxima etapa é ativar a configuração do NGINX HTTPS para usar seu certificado SSL. Você pode gerar um certificado auto -assinado ou [instalar um certificado gratuito de Let's Encrypt][1]. Se você não tiver um certificado SSL, siga este tutorial. Adicione seus certificados SSL dentro do diretório de configuração do NGINX semelhante a:
 ```
 sudo mkdir /etc/nginx/ssl
 ```
@@ -108,15 +108,17 @@ SUDO Systemctl Status nginx
 
 ## ** Conclusão: ** {#4A1A}
 Parabéns, você aprendeu com sucesso como configurar o suporte a HTTP2 do Nginx Config no servidor Ubuntu. Suas configurações nginx HTTP2 agora estão servindo páginas HTTP/2 e também limpou a diferença entre os protocolos HTTP/1 e HTTP/2. Se você ainda enfrentar quaisquer problemas de configuração, informe -nos na seção de comentários.
-Você tem alguma dúvida sobre o protocolo multiplexado HTTP2? _, Por favor [entre em contato] [2].
+Você tem alguma dúvida sobre o protocolo multiplexado HTTP2? _, Por favor [entre em contato][2].
 
 ## Explore
 Você também pode gostar dos artigos abaixo:
-  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian] [3]
-  * [Como] [3] [Instale e seguro Phpmyadmin com Nginx no Ubuntu] [4]
-  * [Como configurar o nginx com o passageiro no servidor de produção da AWS] [5]
-  * [Seguro e criptografar nginx com Let's Encrypt no Ubuntu 20.04] [1]
-  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu] [6]
+  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian][3]
+  * [Como][3][Instale e seguro Phpmyadmin com Nginx no Ubuntu][4]
+  * [Como configurar o nginx com o passageiro no servidor de produção da AWS][5]
+  * [Seguro e criptografar nginx com Let's Encrypt no Ubuntu 20.04][1]
+  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

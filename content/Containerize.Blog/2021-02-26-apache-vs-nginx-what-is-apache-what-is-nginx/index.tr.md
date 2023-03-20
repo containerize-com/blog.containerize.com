@@ -16,12 +16,12 @@ categories: ['Web Server Solution Stack']
 
 ## Genel Bakış
 Apache ve Nginx birçok niteliği paylaşsa da, tamamen değiştirilebilir olarak kabul edilmemelidir. Her iki açık kaynak web sunucusu birbirinden farklıdır ve web uygulamalarınızın ihtiyaçlarına göre seçilmelidir. Bu makalede, ** Apache vs Nginx ** karşılaştırmasını ayrıntılı olarak tartışacağız.
-  * [Apache nedir?] [1]
-  * [Nginx nedir?] [2]
-  * [Apache vs Nginx karşılaştırması] [3]
-  * [Nginx apache'den daha mı iyi] [4]
-  * [Sonuç] [5]
-  * [Keşfedin] [6]
+  * [Apache nedir?][1]
+  * [Nginx nedir?][2]
+  * [Apache vs Nginx karşılaştırması][3]
+  * [Nginx apache'den daha mı iyi][4]
+  * [Sonuç][5]
+  * [Keşfedin][6]
 
 ## Apache nedir? {#whatisapache}
 Apache web sunucusu internetteki en popüler sunuculardan biridir ve web sitelerinin% 27'sinden fazlasını sunmaktadır. Apache, esnekliği, gücü ve yaygın destek ve ayrıntılı belgeler nedeniyle çoğunlukla geliştiricilerin ilk tercihidir. Geliştiricilerin işlevselliğini kolayca genişletmesine izin veren dinamik olarak yüklenebilir modülleri destekler.
@@ -55,15 +55,17 @@ Nginx, statik içerik sunmak için Apache'den daha hızlıdır. Web uygulamanız
 
 ## Sonuç {#Conclusion}
 Hem Apache hem de Nginx kendi yollarıyla yeteneklidir. Apache vs Nginx karşılaştırması, Apache nedir, Nginx'i ayrıntılı olarak ve Apache ve Nginx arasındaki farkı tartıştık. Bu en popüler iki web sunucusundan birini seçmek tamamen web uygulamalarınızın gereksinimlerine bağlıdır. Seçim, bir web sunucusunun performans, kaynak kullanımı, hız, ölçeklenebilirlik ve desteği ile beklentilerinize bağlıdır. Her ikisinin de kendi faydaları var. Tüm web sunucusu tek beden yoktur, bu nedenle hedeflerinize ve beklentilerinize en uygun çözümü kullanın.
-Son olarak, [Containerize.com] [7] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [açık kaynak web sunucuları] [8] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [9], [LinkedIn] [10] ve [Twitter] [11] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][7] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [açık kaynak web sunucuları][8] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook][9], [LinkedIn][10] ve [Twitter][11] 'te takip edebilirsiniz.
 
 ## Keşfedin {#Explore}
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [2021'de Top 5 Açık Kaynak Web Sunucusu Çözümü Yığınları] [12]
-  * [Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum] [13]
-  * [XAMPP | Ücretsiz ve açık kaynaklı web sunucusu çözümü yığını] [14]
-  * [Nginx | Hafif ve Yüksek Performanslı Web Sunucusu] [15]
-  * [Ubuntu 18.04'te Lemp Yığın için Kurulum Eğitimi] [16]
+  * [2021'de Top 5 Açık Kaynak Web Sunucusu Çözümü Yığınları][12]
+  * [Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum][13]
+  * [XAMPP | Ücretsiz ve açık kaynaklı web sunucusu çözümü yığını][14]
+  * [Nginx | Hafif ve Yüksek Performanslı Web Sunucusu][15]
+  * [Ubuntu 18.04'te Lemp Yığın için Kurulum Eğitimi][16]
+
+  
 [1]: #whatisapache
 [2]: #whatisnginx
 [3]: #apachevsnginx

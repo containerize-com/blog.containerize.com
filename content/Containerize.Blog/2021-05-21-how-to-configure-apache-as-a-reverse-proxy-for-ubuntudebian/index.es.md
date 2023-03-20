@@ -97,11 +97,13 @@ En este tutorial, exploramos y discutimos lo que es un servidor proxy y apache, 
 
 ## Explorar
 También puede que le gusten los artículos más relacionados:
-  * [Cómo] [1] [Instalar y asegurar phpmyadmin con Nginx en Ubuntu] [2]
-  * [Cómo configurar Nginx con pasajero en el servidor de producción de AWS] [3]
-  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian] [4]
-  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04] [5]
-  * [Cómo instalar y configurar OwnCloud con Apache en Ubuntu] [6]
+  * [Cómo][1][Instalar y asegurar phpmyadmin con Nginx en Ubuntu][2]
+  * [Cómo configurar Nginx con pasajero en el servidor de producción de AWS][3]
+  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian][4]
+  * [Asegurar y cifrar nginx con vamos a cifrar en Ubuntu 20.04][5]
+  * [Cómo instalar y configurar OwnCloud con Apache en Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/es/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

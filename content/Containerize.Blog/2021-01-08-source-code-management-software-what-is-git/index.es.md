@@ -17,15 +17,15 @@ categories: ['Version Control Software']
 ## Descripción general
 Imagínese su desarrollador de software que trabaja en un proyecto. Tienes más de una persona trabajando en ello. Y, hay un solo archivo que contiene el código fuente. A medida que todos realizan cambios en el código, tendrán diferentes versiones del archivo cada vez que realicen un cambio. Entonces, ¿cómo administramos diferentes versiones del mismo archivo? Ahí es donde entra en marcha el software de gestión del código fuente. Le ayuda a administrar y fusionar diferentes versiones del mismo archivo. E incluso dejarte rastrear la historia del cambio. Y siempre puede estar seguro de quién hizo los cambios en el archivo y cuáles son esos cambios.
 En este artículo, aprenderemos sobre el sistema de control de versiones GIT. Cómo puede usarlo para administrar sus archivos de código fuente de desarrollo de software o cualquier otro archivo. Entonces empecemos.
-  *** [¿Qué es el sistema de control de versiones] [1] **
-  *** [qué es git] [2] **
-  *** [Cómo funciona Git] [3] **
-  *** [instalar git] [4] **
-  *** [Configuración de un repositorio] [5] **
-  *** [Guardar cambios en el repositorio] [6] **
-  *** [Verifique el estado del repositorio] [7] **
-  *** [revertir o deshacer cambios] [8] **
-  *** [Conclusión] [9] **
+  *** [¿Qué es el sistema de control de versiones][1] **
+  *** [qué es git][2] **
+  *** [Cómo funciona Git][3] **
+  *** [instalar git][4] **
+  *** [Configuración de un repositorio][5] **
+  *** [Guardar cambios en el repositorio][6] **
+  *** [Verifique el estado del repositorio][7] **
+  *** [revertir o deshacer cambios][8] **
+  *** [Conclusión][9] **
 
 ## ¿Qué es el sistema de control de versiones {#versión-control}
 El control de versiones es un sistema que registra cambios en un archivo o conjunto de archivos a lo largo del tiempo para que pueda recuperar versiones específicas más adelante. Si es un desarrollador de software y desea mantener versiones del archivo del código fuente, el software de administración del código fuente es algo muy útil para usted. Le permite revertir los archivos seleccionados a un estado anterior, revertir todo el proyecto a un estado anterior, comparar los cambios con el tiempo, ver quién modificó por última vez algo que podría estar causando un problema, quién introdujo un problema y cuándo y más. Usar el control de versiones significa que nunca tiene que preocuparse por perder su trabajo.
@@ -147,10 +147,12 @@ Ahora que ha leído todo el artículo donde discutimos lo que es GIT y cómo fun
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  *[** Automatizar flujos de trabajo de desarrollo de software con acciones de GitHub **] [10]
-  *** [Cómo configurar una tubería de implementación continua con Gitlab Ci/CD] [11] **
-  *** [Comprender y aprender ramas y aplicar solicitudes en GIT] [12] **
-  *** [Top 5 Sistemas de control de versiones de código abierto en 2021] [13] **
+  *[** Automatizar flujos de trabajo de desarrollo de software con acciones de GitHub **][10]
+  *** [Cómo configurar una tubería de implementación continua con Gitlab Ci/CD][11] **
+  *** [Comprender y aprender ramas y aplicar solicitudes en GIT][12] **
+  *** [Top 5 Sistemas de control de versiones de código abierto en 2021][13] **
+
+  
 [1]: #version-control
 [2]: #git
 [3]: #how

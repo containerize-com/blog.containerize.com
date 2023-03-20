@@ -17,15 +17,15 @@ categories: ['Version Control Software']
 ## Aperçu
 Imaginez-vous en tant que développeur de logiciels travaillant sur un projet. Vous avez plus d'une personne qui y travaille. Et, il y a un seul fichier contenant le code source. Comme ils apportent tous des modifications au code, ils auront différentes versions du fichier chaque fois qu'ils apporteront une modification. Alors, maintenant, comment gérions-nous différentes versions du même fichier? C'est là que le logiciel de gestion des codes source entre en jeu. Il vous aide à gérer et à fusionner différentes versions du même fichier. Et même vous laisser reprendre l'historique du changement. Et vous pouvez toujours être sûr qui a apporté les modifications au fichier et quelles sont ces modifications.
 Dans cet article, nous découvrirons le système de contrôle de version GIT. Comment vous pouvez l'utiliser pour gérer vos fichiers de code source de développement logiciel ou tout autre fichier. Alors, commençons.
-  * ** [Qu'est-ce que le système de contrôle de version] [1] **
-  * ** [Qu'est-ce que Git] [2] **
-  * ** [Comment Git fonctionne] [3] **
-  * ** [installer git] [4] **
-  * ** [Configuration d'un référentiel] [5] **
-  * ** [Enregistrer les modifications au référentiel] [6] **
-  * ** [Vérifier le statut du référentiel] [7] **
+  * ** [Qu'est-ce que le système de contrôle de version][1] **
+  * ** [Qu'est-ce que Git][2] **
+  * ** [Comment Git fonctionne][3] **
+  * ** [installer git][4] **
+  * ** [Configuration d'un référentiel][5] **
+  * ** [Enregistrer les modifications au référentiel][6] **
+  * ** [Vérifier le statut du référentiel][7] **
   11
-  * ** [Conclusion] [9] **
+  * ** [Conclusion][9] **
 
 ## Qu'est-ce que le système de contrôle de version {# version-contrôle}
 Le contrôle de la version est un système qui enregistre les modifications d'un fichier ou d'un ensemble de fichiers au fil du temps afin que vous puissiez rappeler des versions spécifiques plus tard. Si vous êtes un développeur de logiciels et que vous souhaitez conserver les versions du fichier de code source, le logiciel de gestion des codes source est une chose très utile pour vous. Il vous permet de réintégrer les fichiers sélectionnés à un état précédent, de revenir à l'ensemble du projet à un état précédent, de comparer les modifications au fil du temps, de voir qui a modifié quelque chose qui pourrait causer un problème, qui a introduit un problème et quand, et plus encore. L'utilisation du contrôle de version signifie que vous n'avez jamais à vous soucier de perdre votre travail.
@@ -147,10 +147,12 @@ Maintenant que vous avez lu l'intégralité de l'article où nous avons discuté
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [** Automatiser les workflows de développement de logiciels avec des actions GitHub **] [10]
-  * ** [Comment configurer un pipeline de déploiement continu avec GitLab CI / CD] [11] **
-  * ** [Comprendre et apprendre les branches et tirer les demandes dans Git] [12] **
-  * ** [Top 5 des systèmes de contrôle de version open source en 2021] [13] **
+  * [** Automatiser les workflows de développement de logiciels avec des actions GitHub **][10]
+  * ** [Comment configurer un pipeline de déploiement continu avec GitLab CI / CD][11] **
+  * ** [Comprendre et apprendre les branches et tirer les demandes dans Git][12] **
+  * ** [Top 5 des systèmes de contrôle de version open source en 2021][13] **
+
+  
 [1]: #version-control
 [2]: #git
 [3]: #how

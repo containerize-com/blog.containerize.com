@@ -13,12 +13,12 @@ categories: ['Version Control Software']
 
 {{< figure align=center src="images/git-branches-pull-requests.png" alt="Git Pull Demande les branches">}}
 
-Dans notre [dernier article] [1], nous avons appris les bases des systèmes de contrôle GIT et de version. Nous avons passé par étape par étape et avons appris à configurer un référentiel GIT. De plus, nous avons appris à ajouter des modifications à une branche et à les revenir au cas où vous voudriez annuler vos modifications. Maintenant que nous comprenons les bases des systèmes de contrôle des versions, en particulier Git. Donc, dans cet article de blog, nous allons discuter de la façon d'utiliser les succursales GIT et de tirer les demandes. Nous apprendrons différents flux de travail. Alors, commençons!
-  * ** [Quelles sont les branches git] [2] **
-  * ** [Créer / modifier les branches Git] [3] **
-  * ** [Qu'est-ce qu'une demande de traction] [4] **
-  * ** [Modèles de ramification Git populaires] [5] **
-  * [** Conclusion **] [6]
+Dans notre [dernier article][1], nous avons appris les bases des systèmes de contrôle GIT et de version. Nous avons passé par étape par étape et avons appris à configurer un référentiel GIT. De plus, nous avons appris à ajouter des modifications à une branche et à les revenir au cas où vous voudriez annuler vos modifications. Maintenant que nous comprenons les bases des systèmes de contrôle des versions, en particulier Git. Donc, dans cet article de blog, nous allons discuter de la façon d'utiliser les succursales GIT et de tirer les demandes. Nous apprendrons différents flux de travail. Alors, commençons!
+  * ** [Quelles sont les branches git][2] **
+  * ** [Créer / modifier les branches Git][3] **
+  * ** [Qu'est-ce qu'une demande de traction][4] **
+  * ** [Modèles de ramification Git populaires][5] **
+  * [** Conclusion **][6]
 
 ## Quelles sont les branches git {#branch}
 
@@ -50,18 +50,18 @@ Lorsqu'un développeur ouvre une demande de traction, tout ce qu'il fait est de 
 Il existe un certain nombre de flux de travail de ramification qui sont utilisés par la communauté des développeurs dans le monde entier. Mais nous discuterons des trois modèles de branchement les plus populaires un par un
 
 ### git flow
-Gitflow Workflow est un flux de travail GIT qui aide à développer des logiciels continus et à mettre en œuvre des pratiques DevOps. Le flux GIT est le flux de travail le plus connu de cette liste. Il a été créé par [Vincent Driessen en 2010] [7] et il est basé sur deux branches principales avec une vie infinie, ainsi que d'autres branches de support comme des fonctionnalités - \ *, hotfixes - \ * qui fusionnent ensuite dans la branche de développement en tant qu'individu Les articles sont terminés.
+Gitflow Workflow est un flux de travail GIT qui aide à développer des logiciels continus et à mettre en œuvre des pratiques DevOps. Le flux GIT est le flux de travail le plus connu de cette liste. Il a été créé par [Vincent Driessen en 2010][7] et il est basé sur deux branches principales avec une vie infinie, ainsi que d'autres branches de support comme des fonctionnalités - \ *, hotfixes - \ * qui fusionnent ensuite dans la branche de développement en tant qu'individu Les articles sont terminés.
   * ** Master ** - Cette branche contient du code de production. Tout le code de développement est fusionné dans la branche principale une fois prêt à être poussé à la production.
   * ** Développer ** - Cette branche contient du code de pré-production. Lorsque les fonctionnalités sont terminées, ils sont fusionnés dans le développement.
 Gitflow est parfaitement adapté aux projets qui ont un cycle de libération prévu. Cependant, l'histoire du GIT devient illisible.
 
 ### glithub flow
-Le flux GitHub est un flux de travail léger. Il a été créé par [Github] [8] en 2011 et se concentre principalement sur le modèle Agile, où vous n'attendez pas un cycle de libération. Au lieu de cela, vous poussez les modifications à la production quotidiennement à mesure que les fonctionnalités sont complètes.
+Le flux GitHub est un flux de travail léger. Il a été créé par [Github][8] en 2011 et se concentre principalement sur le modèle Agile, où vous n'attendez pas un cycle de libération. Au lieu de cela, vous poussez les modifications à la production quotidiennement à mesure que les fonctionnalités sont complètes.
 Github Flow suit les directeurs suivants:
   * Tout dans la branche «Master» est déployable.
   * Pour travailler sur quelque chose de nouveau, créez une branche séparée de Off Master avec un nom de description, par exemple le «téléchargement d'image»
   * Engagez-vous dans cette branche localement et poussez régulièrement votre travail vers la branche de même nom sur le serveur.
-  * Lorsque vous avez besoin de commentaires ou d'aide, ou que vous pensez que la branche est prête à fusionner, ouvrez une [demande de traction] [4]
+  * Lorsque vous avez besoin de commentaires ou d'aide, ou que vous pensez que la branche est prête à fusionner, ouvrez une [demande de traction][4]
   * Après son examiné et signé sur la fonctionnalité, vous pouvez le fusionner dans le maître
   * Une fois qu'il est fusionné et poussé vers «Master», il peut être déployé en production.
 
@@ -71,6 +71,8 @@ Les développeurs créent une branche ** de développement ** et font de la déf
 
 ## Conclusion {#conclusion}
 Dans cet article, nous avons appris les succursales GIT et les demandes de traction. Nous avons étudié l'importance des demandes de traction et comment elles peuvent être utilisées dans divers workflows GIT. Nous avons également exploré brièvement différents modèles de ramification GIT.
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: #branch
 [3]: #create

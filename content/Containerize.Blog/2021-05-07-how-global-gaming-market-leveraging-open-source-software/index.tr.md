@@ -17,10 +17,10 @@ categories: ['Game Development Software']
 ## Genel Bakış
 Son zamanlarda, popüler bir açık kaynaklı oyun tasarım aracı Gdeish'in kısa bir giriş ve kurulum prosedürünü detaylandıran bir öğretici makale yayınladık. Zamanla, teknoloji yığını büyük bir yenilik ve dönüşümle doludur. Aslında, gelişmiş özelliklere genişlemek için açık kaynaklı video oyunlarıyla çalışan bir dizi girişim var. Endüstrinin devleri ürünlerini topluluğa açık hale getiriyor. Geçmişte iki ayrı kategori vardı: ** Global Oyun Pazarı ** ve Web/Masaüstü Oyun Endüstrisi.
 Bu nedenle, melez bir yaklaşım sağlayarak her iki platformu da hedefleyen tek bir platform haline geldi. Açık Kaynak Topluluğu, geliştiricinin çemberinde yer alan birçok ** oyun tasarım aracı ** geliştirdi. Bu ücretsiz açık kaynaklı oyun motorları açık kaynak, güvenli ve kendi kendine barındırma özellikleri ile birlikte gelir. ** Mobil Oyun Endüstrisi **, gerekli işlevselliği sağlayan büyük bir eklenti tabanı sunar ve geliştiricilerin daha fazla gereksinimlere göre değişiklik yapmasına izin verir. Ancak, bu blog yazısında, açık kaynaklı yazılım topluluğunun ** Global Oyun Endüstrisi ** üzerindeki etkisini aşağıdaki noktaları ele alarak tartışacağız.
-  *** [Açık kaynak küresel oyun pazarına nasıl yardımcı olur] [1] **
-  *** [Covid-19'un Oyun Geliştirme Pazarı Üzerine Etkisi] [2] **
-  *** [Açık kaynaklı oyun geliştirmenin geleceği] [3] **
-  *** [Sonuç] [4] **
+  *** [Açık kaynak küresel oyun pazarına nasıl yardımcı olur][1] **
+  *** [Covid-19'un Oyun Geliştirme Pazarı Üzerine Etkisi][2] **
+  *** [Açık kaynaklı oyun geliştirmenin geleceği][3] **
+  *** [Sonuç][4] **
 
 ## ** Açık kaynak küresel oyun pazarına nasıl yardımcı olur ** {#How}
 Büyüleyici ve yüksek kaliteli video oyunları için büyük bir talep var. Aslında, geliştiriciler göz alıcı grafikler, sesler ve oyun fikirleri nedeniyle oyun geliştirme üzerinde çalışmaktan zevk alma eğilimindedir. Öte yandan, bu oyunları oynayarak zaman ve para harcayan milyarlarca oyuncu var. Bu nedenle, yazılımın açık kaynak yapmak, kalite ve performans olasılığını artırır. Açık kaynağın oyun geliştirmeye yardımcı olduğu aşağıdaki doğrudan yolları görelim.
@@ -40,25 +40,27 @@ Oyun gelişiminin geleceği, teknoloji şirketleri tarafından sağlam açık ka
 
 ## ** Sonuç ** {#Conclusion}
 Sonunda, dünyanın dört bir yanından insanların ortak projelerde çalışması her zaman faydalıdır. Gammers, ** video oyun endüstrisinin büyümesinde hayati bir rol oynamaktadır **. Bu nedenle, geri bildirimlerine dikkat etmek gerçekten önemlidir. Açık kaynaklı yazılım geliştirme uygulamalarını benimseyerek, video oyunu geliştiricileri ** küresel oyun pazarına katkılarını çoğaltabilir. Böylece, açık kaynak ** oyun tasarım araçlarını ** ve aşağıdaki keşif bölümüne katılan ilgili blog yayınlarını keşfedebilirsiniz.
-Son olarak, **** [Containerize.com] [5] ****, daha fazla açık kaynaklı oyun geliştirme yazılımı hakkında makaleler yayınlayacak. Bu nedenle, düzenli güncellemeler için lütfen bu [oyun geliştirme yazılımı] [6] kategorisiyle iletişim halinde olun.
+Son olarak, **** [Containerize.com][5] ****, daha fazla açık kaynaklı oyun geliştirme yazılımı hakkında makaleler yayınlayacak. Bu nedenle, düzenli güncellemeler için lütfen bu [oyun geliştirme yazılımı][6] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
-  * [Gdeelp] [7]
-  * [Godot] [8]
-  * [Süper güçler] [9]
-  * [Cocos Creator] [10]
-  * [Panda3d] [11]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [12]
-  * [İçerik Yönetimi] [13], [Bloglama] [14], [Tartışma Forumu] [15], [Sağlık Yazılımı] [16]
-  * [Yardım Masası] [17], [Pazarlama Otomasyonu] [18], [Marketplace] [19], [Dağıtım Araçları] [20], [Güvenlik] [21]
-  * [Canlı Sohbet] [22], [Form] [23], [İşlemsel E -posta] [24], [İş Zekası Yazılımı] [25]
-  * [Bülten] [26], [durum sayfası] [27], [faturalandırma] [28], [şifre yönetimi] [29], [mesaj kuyruğu yazılımı] [30]
-  * [Tek Oturum Açma] [31], [Proje Yönetimi] [32], [Hızlı Uygulama Geliştirme] [33], [Animasyon Yazılımı] [34]
-  * [Alışveriş Sepeti] [35], [Açık Kaynak Sürüm Kontrolü] [36], [Web Sunucusu Çözüm Yığını] [37], [Fotoğraf Düzenleme Yazılımı] [38]
-  * [Veritabanı Yönetimi] [39], [Video Konferans] [40], [Blockchain Platformları] [41], [Büyük Veri] [42]
-  * [CMDB yazılımı] [43], [Oyun Geliştirme Yazılımı] [6], [Kurumsal Kaynak Planlaması (ERP)] [44]
-  * [Video Düzenleme Yazılımı] [45], [Veritabanı Yönetim Sistemleri] [46], [Ofis Verimliliği] [47]
-  * [Öğrenme Yönetim Sistemi (LMS)] [48], [Yedekleme ve Senkronizasyon Yazılımı] [49], [Dijital Adli Yazılım] [50]
+  * [Gdeelp][7]
+  * [Godot][8]
+  * [Süper güçler][9]
+  * [Cocos Creator][10]
+  * [Panda3d][11]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][12]
+  * [İçerik Yönetimi][13], [Bloglama][14], [Tartışma Forumu][15], [Sağlık Yazılımı][16]
+  * [Yardım Masası][17], [Pazarlama Otomasyonu][18], [Marketplace][19], [Dağıtım Araçları][20], [Güvenlik][21]
+  * [Canlı Sohbet][22], [Form][23], [İşlemsel E -posta][24], [İş Zekası Yazılımı][25]
+  * [Bülten][26], [durum sayfası][27], [faturalandırma][28], [şifre yönetimi][29], [mesaj kuyruğu yazılımı][30]
+  * [Tek Oturum Açma][31], [Proje Yönetimi][32], [Hızlı Uygulama Geliştirme][33], [Animasyon Yazılımı][34]
+  * [Alışveriş Sepeti][35], [Açık Kaynak Sürüm Kontrolü][36], [Web Sunucusu Çözüm Yığını][37], [Fotoğraf Düzenleme Yazılımı][38]
+  * [Veritabanı Yönetimi][39], [Video Konferans][40], [Blockchain Platformları][41], [Büyük Veri][42]
+  * [CMDB yazılımı][43], [Oyun Geliştirme Yazılımı][6], [Kurumsal Kaynak Planlaması (ERP)][44]
+  * [Video Düzenleme Yazılımı][45], [Veritabanı Yönetim Sistemleri][46], [Ofis Verimliliği][47]
+  * [Öğrenme Yönetim Sistemi (LMS)][48], [Yedekleme ve Senkronizasyon Yazılımı][49], [Dijital Adli Yazılım][50]
+
+  
 [1]: #how
 [2]: #covid
 [3]: #future

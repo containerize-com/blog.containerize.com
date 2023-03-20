@@ -15,7 +15,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 
 ## **概要**
-** [nextcloud] [1] **は無料で安全な**自己ホストのクラウドストレージソリューション** PHPプログラミング言語で記述されています。 Webインターフェイスを使用してデータアクセスを提供し、Dropboxと機能的に類似しています。 DropboxやGoogleドライブなどの独自のクラウドストレージソリューションは便利ですが、ファイルがシステムに保存されているため、個人データを収集するために使用できます。安全で安全で準拠したファイルの同期と共有ソリューションが必要な場合は、オープンソースNextCloudサーバーに切り替えることができます。 NextCloudのセットアップは、プライベートホームサーバーまたは仮想プライベートサーバーにインストールできます。
+** [nextcloud][1] **は無料で安全な**自己ホストのクラウドストレージソリューション** PHPプログラミング言語で記述されています。 Webインターフェイスを使用してデータアクセスを提供し、Dropboxと機能的に類似しています。 DropboxやGoogleドライブなどの独自のクラウドストレージソリューションは便利ですが、ファイルがシステムに保存されているため、個人データを収集するために使用できます。安全で安全で準拠したファイルの同期と共有ソリューションが必要な場合は、オープンソースNextCloudサーバーに切り替えることができます。 NextCloudのセットアップは、プライベートホームサーバーまたは仮想プライベートサーバーにインストールできます。
 NextCloud Open Sourceは、**エンドツーエンドの暗号化**を提供し、サーバーにアップロードする前にファイルをクライアントデバイスで暗号化できることを意味します。また、Collobora、OnlyOffice NextCloudなどのオンラインオフィススイートと統合することもできます。これにより、Doc、PPT、XLSファイルをNextCloudクライアントから直接作成および編集できます。 NextCloudクライアントのダウンロード後、NextCloudサーバーでコンピューターの1つ以上のファイルとフォルダーを共有および同期できます。 NextCloudデスクトップのダウンロードとモバイルクライアントは、制御下のすべてのデバイスで同期および共有するオプションを提供します。ローカル共有ディレクトリにデータファイルを配置すると、これらのファイルはすぐにサーバーと、NextCloud Desktop Syncクライアント、iOSアプリ、またはAndroidデバイスを使用して他のデバイスに同期されます。
 このチュートリアルは、Apacheを備えたUbuntu 20.04 LTS LinuxオペレーティングシステムにNextCloudをインストールするのに役立ちます。
   ***前提条件をインストールする（ランプスタック）**
@@ -47,7 +47,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_38_}}
 
 ## ステップ2：UbuntuでNextCloud Archiveをダウンロードします
-この記事を書いている時点で、NextCloudの最新バージョンは22.0.0.0Beta5です。システムにLamp Serverを正常に構成した後、[公式Webサイト] [2]からNextCloudをダウンロードしましょう。
+この記事を書いている時点で、NextCloudの最新バージョンは22.0.0.0Beta5です。システムにLamp Serverを正常に構成した後、[公式Webサイト][2]からNextCloudをダウンロードしましょう。
 CD /TMP
 wget https://download.nextcloud.com/server/releases/nextcloud-22.0.0beta5.zip
 {{_LINE_43_}}
@@ -97,16 +97,18 @@ http：// localhost/nextcloud/or http：// your_domain_name/nextcloud/
 
 ## **ラッピング：** {#4a1a}
 おめでとう！ Apache **を使用してUbuntuサーバーにNextCloudを構成およびインストールしました**。プライベートクラウドの作成方法を学びました。 NextCloud Ubuntu Serverは、ほぼすべてのプライベートまたはハイブリッドクラウドストレージのニーズに対応できる素晴らしいクラウドストレージコラボレーションプラットフォームです。これで、UbuntuにNextCloudをインストールする方法がわかり、データが安全で安全に保護されています。今後のチュートリアルでは、Webサーバーソリューションスタックに関連するより興味深いトピックについて説明します。
-_クラウドベースのセルフホストストレージソリューションはどんなものですか？ご質問がある場合は、[ご連絡ください] [3] ._
+_クラウドベースのセルフホストストレージソリューションはどんなものですか？ご質問がある場合は、[ご連絡ください][3] ._
 
 ## 探検：
 サーバーの日々の管理に関連する記事をフォローすることができます。
-  * [ubuntuでapacheでowncloudをインストールして構成する方法] [4]
-  * [ubuntuまたはdebianの逆プロキシとしてApacheを構成する方法] [5]
-  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する] [6]
-  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します] [7]
-  * [ubuntu/debianでnginxでHTTP/2サポートを構成] [8]
-  * [AWSプロダクションサーバーの乗客を備えたnginxをセットアップ] [9]
+  * [ubuntuでapacheでowncloudをインストールして構成する方法][4]
+  * [ubuntuまたはdebianの逆プロキシとしてApacheを構成する方法][5]
+  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する][6]
+  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します][7]
+  * [ubuntu/debianでnginxでHTTP/2サポートを構成][8]
+  * [AWSプロダクションサーバーの乗客を備えたnginxをセットアップ][9]
+
+  
 [1]: https://nextcloud.com/
 [2]: https://nextcloud.com/install/
 [3]: mailto:yasir.saeed@aspose.com

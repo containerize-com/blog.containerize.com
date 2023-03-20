@@ -12,11 +12,11 @@ categories: ['Blogging']
 {{< figure align=center src="images/Beginners-Guide-To-Create-WordPress-Theme-From-Scratch-1024x536.png" alt="Ein Anfängerleitfaden zum Erstellen von WordPress -Thema von Grund auf neu">}}
 
 So erstellen Sie das WordPress -Thema unter den Top -Abfragen in der Google -Suche. Das Erstellen eines WordPress -Themas kann einfach sein, wenn Sie grundlegende HTML, CSS und JavaScript kennen. Wenn Sie jedoch neu bei WordPress sind, ist dieses Tutorial genau das Richtige für Sie. Alles, was Sie tun müssen, ist die genannten Schritte zu befolgen. Lassen Sie uns diesen Leitfaden lesen und lernen, wie Sie WordPress -Thema von Grund auf neu erstellen.
-  * [Anforderungen] [1]
-  * [Schritt -für -Schritt -Handbuch] [2]
+  * [Anforderungen][1]
+  * [Schritt -für -Schritt -Handbuch][2]
 
 ### Anforderungen {#Requirements}
-Erstens und wichtigste, was Sie tun müssen, ist, WordPress zu installieren. WordPress ist für die einfache Installation bekannt. Es ist ein einfacher Prozess und kann einfach von sich selbst durch die [Handbuch] [3] durchgeführt werden.
+Erstens und wichtigste, was Sie tun müssen, ist, WordPress zu installieren. WordPress ist für die einfache Installation bekannt. Es ist ein einfacher Prozess und kann einfach von sich selbst durch die [Handbuch][3] durchgeführt werden.
 
 ### So erstellen Sie WordPress -Thema; Schritt -für -Schritt -Handbuch {#guide}
 Für WordPress -Thema wird alles nur im Verzeichnis ** wp_content ** erledigt. Machen Sie einfach einen neuen Themenunterordner im Ordner ** wp_content → Themes.
@@ -134,6 +134,8 @@ Nachdem Sie alle oben genannten Schritte befolgt haben, haben Sie ein grundlegen
 
 ### Abschluss
 In diesem Tutorial haben wir erklärt, wie man WordPress -Thema in einfachen und einfachen Schritten erstellt. Nach dem Lesen und Ausführen der Schritte ist das Erstellen eines WordPress -Themas jetzt keine schwierigere Aufgabe. Offensichtlich bleibt dieses Tutorial bei sehr einfachem Setup und um darüber zu verbessern, dass Sie mehr über HTML, CSS, JS und PHP erfahren müssen.
+
+  
 [1]: #requirements
 [2]: #guide
 [3]: https://products.containerize.com/blogging/wordpress

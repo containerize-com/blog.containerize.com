@@ -15,18 +15,18 @@ categories: ['Blogging', 'Video Conferencing Software']
 
 
 ## Visão geral
-Bem -vindo a outra postagem no blog da série de [blogs] [1] e [Software de videoconferência] [2]. Recentemente, publicamos artigos sobre tópicos como [um guia passo a passo para configurar o jitsi de código aberto] [3], [como instalar o Matomo para o WordPress | Tutorial do WordPress] [4], e um pouco mais. Nesta postagem do blog, tentaremos cobrir o WordPress e o Jitsi e veremos como podemos instalar o plug -in ** jitsi do WordPress **. No entanto, o software é de código aberto e vem com recursos de auto-hospedagem. De fato, a demanda pelo modelo de trabalho remoto aumentou em grande parte após a pandemia. Todo setor de vida, como educação, saúde e outras indústrias, adotou o modelo remoto.
+Bem -vindo a outra postagem no blog da série de [blogs][1] e [Software de videoconferência][2]. Recentemente, publicamos artigos sobre tópicos como [um guia passo a passo para configurar o jitsi de código aberto][3], [como instalar o Matomo para o WordPress | Tutorial do WordPress][4], e um pouco mais. Nesta postagem do blog, tentaremos cobrir o WordPress e o Jitsi e veremos como podemos instalar o plug -in ** jitsi do WordPress **. No entanto, o software é de código aberto e vem com recursos de auto-hospedagem. De fato, a demanda pelo modelo de trabalho remoto aumentou em grande parte após a pandemia. Todo setor de vida, como educação, saúde e outras indústrias, adotou o modelo remoto.
 Portanto, o software de reunião de código aberto apresenta todos esses recursos e características que são suficientes para realizar operações comerciais remotamente. O Jitsi Meet é um desses ** software de reunião de código aberto ** disponível com documentação abrangente sobre desenvolvimento, implantação e uso. Então, abordaremos os seguintes pontos.
-  * [O que Jitsi se encontra?] [5]
-  * [Breve introdução do software de blog (WordPress)] [6]
-  * [Como instalar o Jitsi se encontra no WordPress?] [7]
-  * [Conclusão] [8]
+  * [O que Jitsi se encontra?][5]
+  * [Breve introdução do software de blog (WordPress)][6]
+  * [Como instalar o Jitsi se encontra no WordPress?][7]
+  * [Conclusão][8]
 
 ## O que Jitsi se encontra? {#o que}
-O Jitsi Meet é um software de videoconferência de código aberto ** ** que oferece uma ampla gama de recursos. É altamente orientado a privacidade e oferece criptografia de dados. Este software de videoconferência usa o WebRTC para fornecer chamadas de vídeo de alta qualidade. Além disso, vários participantes podem participar da chamada onde podem conversar com emojis e compartilhar a tela para apresentar seu conteúdo. Os membros podem convidar seus outros colegas compartilhando um URL da conferência. Além disso, é fácil configurar e vem com etapas simples de implantação e instalação. O Jitsi Meet é altamente extensível e os desenvolvedores podem estendê -lo de acordo com suas necessidades. Este software gratuito de videoconferência está escrito em JavaScript. Portanto, possui boas estatísticas em seu repositório [9] [9], onde os usuários podem encontrar suporte.
+O Jitsi Meet é um software de videoconferência de código aberto ** ** que oferece uma ampla gama de recursos. É altamente orientado a privacidade e oferece criptografia de dados. Este software de videoconferência usa o WebRTC para fornecer chamadas de vídeo de alta qualidade. Além disso, vários participantes podem participar da chamada onde podem conversar com emojis e compartilhar a tela para apresentar seu conteúdo. Os membros podem convidar seus outros colegas compartilhando um URL da conferência. Além disso, é fácil configurar e vem com etapas simples de implantação e instalação. O Jitsi Meet é altamente extensível e os desenvolvedores podem estendê -lo de acordo com suas necessidades. Este software gratuito de videoconferência está escrito em JavaScript. Portanto, possui boas estatísticas em seu repositório [9][9], onde os usuários podem encontrar suporte.
 
 ## breve introdução de software de blog (wordpress) {#intro}
-Na seção deste tutorial ** do Plugin ** WordPress **, passaremos pelo software de blog de código aberto mais popular e amplamente usado. No entanto, passaremos rapidamente pelo principal software de blog [WordPress] [10]. O WordPress é um pacote completo que é multiuso e altamente adotado como plataforma de blogs e também um sistema de gerenciamento de conteúdo. De fato, é de código aberto, auto-hospedado, multilíngue e oferece recursos de nível corporativo para criar sites de negócios. Existe um enorme pool de plugins, onde os desenvolvedores podem acessar e instalar facilmente qualquer plug -in necessário para atender ao requisito. Além disso, possui uma comunidade muito vibrante e viva que responde ativamente a novas solicitações e consultas de recursos. O WordPress também possui estatísticas muito boas em seu repo [github] [11]. Portanto, os desenvolvedores podem encontrar material de suporte facilmente.
+Na seção deste tutorial ** do Plugin ** WordPress **, passaremos pelo software de blog de código aberto mais popular e amplamente usado. No entanto, passaremos rapidamente pelo principal software de blog [WordPress][10]. O WordPress é um pacote completo que é multiuso e altamente adotado como plataforma de blogs e também um sistema de gerenciamento de conteúdo. De fato, é de código aberto, auto-hospedado, multilíngue e oferece recursos de nível corporativo para criar sites de negócios. Existe um enorme pool de plugins, onde os desenvolvedores podem acessar e instalar facilmente qualquer plug -in necessário para atender ao requisito. Além disso, possui uma comunidade muito vibrante e viva que responde ativamente a novas solicitações e consultas de recursos. O WordPress também possui estatísticas muito boas em seu repo [github][11]. Portanto, os desenvolvedores podem encontrar material de suporte facilmente.
 
 ## Como instalar Jitsi se encontra no WordPress? {#como}
 Então, passamos pelo que é Jitsi Meet e uma breve introdução do WordPress. No entanto, nesta seção, veremos as etapas para instalar ** Software de reunião de código aberto ** Jitsi se encontrar.
@@ -48,17 +48,19 @@ Da mesma forma, você pode explorá -lo ainda mais. Este plugin ** jitsi Meet Wo
 
 ## Conclusão {#conclusion}
 Isso nos leva ao final deste ** tutorial do Plugin ** WordPress ** Postagem do blog. Esperamos que este artigo tenha dado a você uma boa demonstração do tópico. Passamos como instalar o ** jitsi Meet WordPress Plugin **, o que é Jitsi Meet e uma breve introdução do WordPress. A adaptação de um software de colaboração remota sempre dará à sua empresa uma vantagem competitiva e você acabará com um resultado positivo. Existem outras opções de código aberto que você pode encontrar neste espaço. Existem outros artigos relevantes mencionados na seção "Explore" abaixo que você pode conferir.
-Finalmente, [contenderize.com] [12] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com o [Software de videoconferência] [13] e [plataformas de blog] [14] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [15], [LinkedIn] [16] e [Twitter] [17].
+Finalmente, [contenderize.com][12] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com o [Software de videoconferência][13] e [plataformas de blog][14] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][15], [LinkedIn][16] e [Twitter][17].
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Um guia passo a passo para configurar o jitsi de código aberto] [3]
-  * [Como as soluções gratuitas de videoconferência beneficiam sua empresa] [18]
-  * [Software de videoconferência de videoconferência de código aberto 5 de 2021] [19]
-  * [Como instalar Matomo para WordPress | Tutorial do WordPress] [20]
-  * [Como instalar o plug -in no WordPress | Fórum de Vanilla] [21]
-  * [Civicrm WordPress Integration | Tutorial do WordPress] [22]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [23]
+  * [Um guia passo a passo para configurar o jitsi de código aberto][3]
+  * [Como as soluções gratuitas de videoconferência beneficiam sua empresa][18]
+  * [Software de videoconferência de videoconferência de código aberto 5 de 2021][19]
+  * [Como instalar Matomo para WordPress | Tutorial do WordPress][20]
+  * [Como instalar o plug -in no WordPress | Fórum de Vanilla][21]
+  * [Civicrm WordPress Integration | Tutorial do WordPress][22]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][23]
+
+  
 [1]: https://blog.containerize.com/category/blogging/
 [2]: https://blog.containerize.com/category/video-conferencing-software/
 [3]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/

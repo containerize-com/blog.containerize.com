@@ -16,17 +16,17 @@ categories: ['Live Chat']
 Un chatbot es un programa de computadora diseñado para simular la conversación humana. Probablemente haya encontrado uno en Facebook Messenger, un sitio web minorista. Técnicamente hablando, los bots son programas automatizados diseñados para realizar una tarea específica.
 Rocket.Chat fomenta las integraciones de chatbot y automatización de mensajería. Por lo tanto, tiene una documentación integral para guiarlo a través del proceso de fabricación de BOT.
 En este artículo, lo guiaremos a través de cómo crear un bot usando botpress. Y cómo configurar cohete.chat con botpress.
-  * [Rocket.chat] [1]
-  * [Botpress] [2]
-  * [Crear un usuario de BOT en Rocket.Chat] [3]
-  * [Codifique su bot con botpress] [4]
-  * [Conclusión] [5]
+  * [Rocket.chat][1]
+  * [Botpress][2]
+  * [Crear un usuario de BOT en Rocket.Chat][3]
+  * [Codifique su bot con botpress][4]
+  * [Conclusión][5]
 
 ### Rocket.chat {#Rocketchat}
-Rocket.chat se encuentra entre el popular software de chat en vivo en parte un proyecto de chat en vivo de código abierto. Tiene una versión gratuita de chat en vivo como edición comunitaria. Además, una versión de chat en vivo alojada pagada para grandes empresas con características de chat internas privadas. Esta aplicación de chat en vivo se ejecuta en el navegador, pero también se puede instalar en su propio servidor. [Leer más] [6]
+Rocket.chat se encuentra entre el popular software de chat en vivo en parte un proyecto de chat en vivo de código abierto. Tiene una versión gratuita de chat en vivo como edición comunitaria. Además, una versión de chat en vivo alojada pagada para grandes empresas con características de chat internas privadas. Esta aplicación de chat en vivo se ejecuta en el navegador, pero también se puede instalar en su propio servidor. [Leer más][6]
 
 ### BotPress {#BotPress}
-Los chatbots conversacionales han hecho esto posible para las empresas para dar a sus clientes el soporte táctil siempre disponible que desean. BotPress es una de las herramientas de creación BOT de código abierto más popular con procesamiento de lenguaje natural incorporado. La tecnología NLU de Botpress lo hace un paso por delante de sus competidores en el campo como Botkit, Dialogflow y Microsoft Bot Framework. [Leer más] [7]
+Los chatbots conversacionales han hecho esto posible para las empresas para dar a sus clientes el soporte táctil siempre disponible que desean. BotPress es una de las herramientas de creación BOT de código abierto más popular con procesamiento de lenguaje natural incorporado. La tecnología NLU de Botpress lo hace un paso por delante de sus competidores en el campo como Botkit, Dialogflow y Microsoft Bot Framework. [Leer más][7]
 
 ### Cree un usuario de Bot en Rocket.Chat {#CreateBotuser}
 Para hablar con su chatbot, debe haber una cuenta de usuario preconfigurada en el servidor Rocket.Chat al que el bot puede iniciar sesión.
@@ -44,7 +44,7 @@ Una vez guardado, el BOT se configurará con el nombre de usuario y la contrase�
 
 ### Codifique su bot usando botpress {#codeBot}
 BotPress es un paquete Node.js y funciona con Node y NPM.
-La forma más rápida de comenzar con BotPress es usar el repositorio [BotPress-Kick-Starter] [8] que ya está integrado con Rocket.Chat a través de [Connector BotPress-Channel] [9].
+La forma más rápida de comenzar con BotPress es usar el repositorio [BotPress-Kick-Starter][8] que ya está integrado con Rocket.Chat a través de [Connector BotPress-Channel][9].
 Navegue a la carpeta donde desea trabajar con el bot y continúe con los siguientes pasos:
 ** Instalar paquete botpress **
 ```
@@ -135,6 +135,8 @@ En el servidor, inicie sesión como usuario normal (no como usuario de BOT), vay
 
 ### Conclusión {#Conclusion}
 En este artículo, hemos aprendido a crear un bot en Botpress. Y cómo configurarlo con Rocket.Chat. BotPress hace que sea muy fácil para los usuarios crear flujos de trabajo automatizados innovadores. Y, la integración con Rocket.Chat le permite controlarlos de manera conversacional.
+
+  
 [1]: #rocketchat
 [2]: #botpress
 [3]: #createbotuser

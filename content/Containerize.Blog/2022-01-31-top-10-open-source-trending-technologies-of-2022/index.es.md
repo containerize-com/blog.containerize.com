@@ -67,14 +67,16 @@ La tecnología blockchain permite ** transacciones entre pares ** para que los u
 
 ## ** Conclusión: ** {#4a1a}
 Hemos llegado al final de nuestra lista de tecnologías emergentes actuales y de tendencia ** Top 10 ** 2022. Estas diez principales tecnologías de código abierto han cambiado drásticamente el mundo que nos rodea. Este mundo sería un lugar muy diferente sin estas plataformas y tecnologías de código abierto. Hay algunas alternativas de código cerrado disponibles para estas tecnologías gratuitas. Los eventos de FOSS4G y State of the Map son oportunidades para aprender más sobre las necesidades de código abierto de software. Casi todo sería diferente sin el software de código abierto ** OSS **. Agradecido por la iniciativa de código abierto y las comunidades.
-_ ¿Cuáles son su lista favorita de tecnologías de código abierto? ¿Tiene alguna pregunta sobre el código abierto _technologies_?, Por favor_ [Póngase en contacto] [1].
+_ ¿Cuáles son su lista favorita de tecnologías de código abierto? ¿Tiene alguna pregunta sobre el código abierto _technologies_?, Por favor_ [Póngase en contacto][1].
 
 ## Explorar:
 También tenemos otra información relacionada de OSS Watch:
-  * [El mejor software de almacenamiento en la nube de código abierto y compartir archivos] [2]
-  * [Software de cola de mensajes de código abierto (MQ) Top 5 en 2021] [3]
-  * [Herramientas forenses digitales de código abierto más populares] [4]
-  * [Licencias de código abierto aprobadas por OSI más populares] [5]
+  * [El mejor software de almacenamiento en la nube de código abierto y compartir archivos][2]
+  * [Software de cola de mensajes de código abierto (MQ) Top 5 en 2021][3]
+  * [Herramientas forenses digitales de código abierto más populares][4]
+  * [Licencias de código abierto aprobadas por OSI más populares][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

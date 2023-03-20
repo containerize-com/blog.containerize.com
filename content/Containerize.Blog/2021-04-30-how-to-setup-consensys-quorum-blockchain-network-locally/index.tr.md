@@ -15,21 +15,21 @@ categories: ['Blockchain Platforms']
 
 
 ## Genel Bakış
-Yakın geçmişte, [2020'de Top 5 Açık Kaynak Blockchain Platformları] [1], [Ethereum Akıllı Sözleşmenin Nasıl Oluşturulacağı Üzerine Temel Kılavuz] [2], [Merkezi Oluşturma Nasıl Merkezi Oluşturma Hakkında Blockchain ile ilgili bazı konularda blog yayınları yayınladık. Teknoloji iş stratejinizi yükseltir] [3] ve [Localhost'ta Ethereum Düğümünü Kurmak İçin Yeni Başlayanlar Kılavuzu] [4]. Bu makalede, aşağıdaki noktaları ele alarak Consensys Quorum Blockchain Network'ün Localhost'ta nasıl kurulacağını göreceğiz.
-  *** [Consensys Quorum'un kısa bir tanıtımı] [5] **
-  *** [Önkoşullar ve ** Kurulum Prosedürü Nedir **?] [6] **
-  *** [Ağ nasıl başlatılır?] [7] **
-  *** [Sonuç] [8] **
+Yakın geçmişte, [2020'de Top 5 Açık Kaynak Blockchain Platformları][1], [Ethereum Akıllı Sözleşmenin Nasıl Oluşturulacağı Üzerine Temel Kılavuz][2], [Merkezi Oluşturma Nasıl Merkezi Oluşturma Hakkında Blockchain ile ilgili bazı konularda blog yayınları yayınladık. Teknoloji iş stratejinizi yükseltir][3] ve [Localhost'ta Ethereum Düğümünü Kurmak İçin Yeni Başlayanlar Kılavuzu][4]. Bu makalede, aşağıdaki noktaları ele alarak Consensys Quorum Blockchain Network'ün Localhost'ta nasıl kurulacağını göreceğiz.
+  *** [Consensys Quorum'un kısa bir tanıtımı][5] **
+  *** [Önkoşullar ve ** Kurulum Prosedürü Nedir **?][6] **
+  *** [Ağ nasıl başlatılır?][7] **
+  *** [Sonuç][8] **
 
 ## ** Consensys Quorum ** {#Introduction} 'in kısa bir girişi
-[Consensys Quorum] [9] ** Merkezi olmayan Defter Teknolojisi ** tabanlı açık kaynaklı bir platformdur **. Bununla birlikte, hızlı ve yüksek verimli işlemleri işleyen blockchain tabanlı uygulamalar oluşturmak için tamamen geliştirici dostu bir ortam sağlar. ** Ethereum ** tabanlı, genişletilebilir ve birçok eklenti sunar. Ayrıca, bu açık kaynak dağıtılmış sistem yüksek güvenlik ve gizlilik standartlarıyla birlikte gelir. Buna ek olarak, API'lara izin vermek ve izleme gibi birçok güçlü özellik vardır. Ayrıca, bu ** DLT platformu ** kendi kendine barındırılır ve geliştirme ve dağıtım ile ilgili ayrıntılı belgeler sağlar. Bu ücretsiz yazılımın kaynak kodu [GitHub] [10] 'da mevcuttur.
+[Consensys Quorum][9] ** Merkezi olmayan Defter Teknolojisi ** tabanlı açık kaynaklı bir platformdur **. Bununla birlikte, hızlı ve yüksek verimli işlemleri işleyen blockchain tabanlı uygulamalar oluşturmak için tamamen geliştirici dostu bir ortam sağlar. ** Ethereum ** tabanlı, genişletilebilir ve birçok eklenti sunar. Ayrıca, bu açık kaynak dağıtılmış sistem yüksek güvenlik ve gizlilik standartlarıyla birlikte gelir. Buna ek olarak, API'lara izin vermek ve izleme gibi birçok güçlü özellik vardır. Ayrıca, bu ** DLT platformu ** kendi kendine barındırılır ve geliştirme ve dağıtım ile ilgili ayrıntılı belgeler sağlar. Bu ücretsiz yazılımın kaynak kodu [GitHub][10] 'da mevcuttur.
 ConseSys Quorum aşağıdaki önemli özellikleri sunar:
   * Ploggable mimari
   * Ethereum merkezli
   * Güvenli
   * Kendi kendine barındırıldı
   * Genel/Özel Ağ
-[Consensys Quorum hakkında daha fazla bilgi edinin] [11]
+[Consensys Quorum hakkında daha fazla bilgi edinin][11]
 
 ## **** Ön koşullar ve kurulum prosedürü nelerdir? **** {#ön koşullar}
 Bu bölümde, gerekli bağımlılıkları kuracağız ve yerel ortamı kuracağız. Bir sonraki adıma geçmeden önce aşağıdaki ön koşulları yüklediğinizden emin olun:
@@ -74,16 +74,18 @@ Benzer şekilde, aşağıdaki komutu çalıştırarak tüm ağı durdurabilirsin
 
 ## Sonuç {#Conclusion}
 Bu öğreticinin sonu. Her şeyden önce, Ethereum merkezli Consensys Quorum, finansal kullanım durumları için özel olarak geliştirilmiş bir ** dijital finansal teknolojidir **. Oylama tabanlı bir fikir birliği algoritması vardır. Bununla birlikte, bu merkezi olmayan teknolojinin ana güdüsü, işletmeler için verimli çözümler oluşturmaktır.
-Son olarak, [Containerize.com] [12] [blog.containerize.com] [13] 'te popüler açık kaynak ürünleri hakkında birçok teknik blog yazısı ve öğretici yayınladı. Bu nedenle, düzenli güncellemeler için [blockchain platformları] [14] kategorisine sadık kalın.
+Son olarak, [Containerize.com][12][blog.containerize.com][13] 'te popüler açık kaynak ürünleri hakkında birçok teknik blog yazısı ve öğretici yayınladı. Bu nedenle, düzenli güncellemeler için [blockchain platformları][14] kategorisine sadık kalın.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Ethereum] [15]
-  * [Hiperledger kumaş] [16]
-  * [Openchain] [17]
-  * [Ripple] [18]
-  * [MultiCain] [19]
-  * [Consensys Quorum] [9]
+  * [Ethereum][15]
+  * [Hiperledger kumaş][16]
+  * [Openchain][17]
+  * [Ripple][18]
+  * [MultiCain][19]
+  * [Consensys Quorum][9]
+
+  
 [1]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [2]: https://blog.containerize.com/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

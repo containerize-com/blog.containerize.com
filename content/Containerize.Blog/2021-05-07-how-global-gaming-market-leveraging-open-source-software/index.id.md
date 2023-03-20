@@ -17,10 +17,10 @@ categories: ['Game Development Software']
 ## Ringkasan
 Baru-baru ini, kami menerbitkan artikel tutorial yang menguraikan intro singkat dan prosedur instalasi dari alat desain game open-source yang populer GDevelever. Seiring waktu, tumpukan teknologi sedang dipenuhi dengan inovasi dan transformasi yang sangat besar. Faktanya, ada sejumlah startup yang telah bekerja dengan video game open-source untuk diperluas dengan fitur yang ditingkatkan. Raksasa industri membuat produk mereka terbuka untuk masyarakat. Di masa lalu, ada dua kategori terpisah: ** pasar game global ** dan industri game web/desktop.
 Oleh karena itu, telah menjadi platform tunggal yang menargetkan kedua platform dengan memberikan pendekatan hibrida. Komunitas Open Source telah mengembangkan banyak alat desain game ** ** yang mendapatkan ruang di lingkaran pengembang. Mesin permainan open source gratis ini adalah open source, aman, dan datang dengan kemampuan hosting sendiri. Industri game mobile ** ** menawarkan basis plugin besar yang menyediakan fungsionalitas yang diperlukan dan memungkinkan pengembang membuat perubahan sesuai persyaratan lebih lanjut. Namun, dalam posting blog ini, kami akan membahas pengaruh komunitas perangkat lunak open-source pada ** industri game global ** dengan meliput poin-poin berikut.
-  *** [Bagaimana open-source membantu pasar game global] [1] **
-  *** [Dampak COVID-19 di Pasar Pengembangan Game] [2] **
-  *** [Masa Depan Pengembangan Game Sumber Terbuka] [3] **
-  *** [Kesimpulan] [4] **
+  *** [Bagaimana open-source membantu pasar game global][1] **
+  *** [Dampak COVID-19 di Pasar Pengembangan Game][2] **
+  *** [Masa Depan Pengembangan Game Sumber Terbuka][3] **
+  *** [Kesimpulan][4] **
 
 ## ** Bagaimana open-source membantu pasar game global ** {#how}
 Ada permintaan besar untuk video game yang menarik dan berkualitas tinggi. Faktanya, pengembang cenderung menikmati bekerja pada pengembangan game karena grafik, suara, dan ide game yang menarik. Di sisi lain, ada miliaran gamer yang menghabiskan waktu dan uang mereka bermain game -game itu. Oleh karena itu, membuat perangkat lunak open source meningkatkan probabilitas peningkatan kualitas dan kinerja. Mari kita lihat cara langsung berikut di mana open source membantu pengembangan game.
@@ -40,25 +40,27 @@ Masa depan pengembangan game sangat saling terkait dengan open source karena ado
 
 ## ** Kesimpulan ** {#conclusion}
 Pada akhirnya, selalu bermanfaat memiliki orang -orang dari seluruh dunia yang mengerjakan proyek bersama. Gammers memainkan peran penting dalam pertumbuhan industri game ** video gaming **. Karena itu, sangat penting untuk memperhatikan umpan balik mereka. Dengan mengadopsi praktik pengembangan perangkat lunak open source, pengembang video game dapat melipatgandakan kontribusinya ke pasar gaming global **. ** Namun, industri gaming video berkembang dengan meningkatnya jumlah pengembang game dan perangkat lunak gaming open source. Jadi, Anda dapat mengeksplorasi alat desain open source ** ** ** dan posting blog terkait yang terdaftar di bagian Explore di bawah ini.
-Akhirnya, **** [containerize.com] [5] **** akan menerbitkan artikel tentang perangkat lunak pengembangan game open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [perangkat lunak pengembangan game] [6] ini untuk pembaruan rutin.
+Akhirnya, **** [containerize.com][5] **** akan menerbitkan artikel tentang perangkat lunak pengembangan game open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [perangkat lunak pengembangan game][6] ini untuk pembaruan rutin.
 
 ## Mengeksplorasi
-  * [GDevelop] [7]
-  * [Godot] [8]
-  * [Superpowers] [9]
-  * [Pencipta Cocos] [10]
-  * [Panda3d] [11]
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [12]
-  * [Manajemen Konten] [13], [Blogging] [14], [Forum Diskusi] [15], [Perangkat Lunak Kesehatan] [16]
-  * [Helpdesk] [17], [Otomasi Pemasaran] [18], [Marketplace] [19], [Alat Penyebaran] [20], [Keamanan] [21]
-  * [Live Chat] [22], [Formulir] [23], [Email Transaksional] [24], [Perangkat Lunak Intelijen Bisnis] [25]
-  * [Newsletter] [26], [Halaman Status] [27], [Faktur] [28], [Manajemen Kata Sandi] [29], [Perangkat Lunak Antrian Pesan] [30]
-  * [Single Sign-On] [31], [Manajemen Proyek] [32], [Pengembangan Aplikasi Cepat] [33], [Perangkat Lunak Animasi] [34]
-  * [Belanja Belanja] [35], [Kontrol Versi Sumber Terbuka] [36], [tumpukan solusi server web] [37], [perangkat lunak pengeditan foto] [38]
-  * [Manajemen Database] [39], [Konferensi Video] [40], [platform blockchain] [41], [data besar] [42]
-  * [Perangkat Lunak CMDB] [43], [Perangkat Lunak Pengembangan Game] [6], [Perencanaan Sumber Daya Perusahaan (ERP)] [44]
-  * [Perangkat Lunak Pengeditan Video] [45], [Sistem Manajemen Database] [46], [Produktivitas Kantor] [47]
-  * [Sistem Manajemen Pembelajaran (LMS)] [48], [Perangkat Lunak Cadangan dan Sinkronisasi] [49], [perangkat lunak forensik digital] [50]
+  * [GDevelop][7]
+  * [Godot][8]
+  * [Superpowers][9]
+  * [Pencipta Cocos][10]
+  * [Panda3d][11]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][12]
+  * [Manajemen Konten][13], [Blogging][14], [Forum Diskusi][15], [Perangkat Lunak Kesehatan][16]
+  * [Helpdesk][17], [Otomasi Pemasaran][18], [Marketplace][19], [Alat Penyebaran][20], [Keamanan][21]
+  * [Live Chat][22], [Formulir][23], [Email Transaksional][24], [Perangkat Lunak Intelijen Bisnis][25]
+  * [Newsletter][26], [Halaman Status][27], [Faktur][28], [Manajemen Kata Sandi][29], [Perangkat Lunak Antrian Pesan][30]
+  * [Single Sign-On][31], [Manajemen Proyek][32], [Pengembangan Aplikasi Cepat][33], [Perangkat Lunak Animasi][34]
+  * [Belanja Belanja][35], [Kontrol Versi Sumber Terbuka][36], [tumpukan solusi server web][37], [perangkat lunak pengeditan foto][38]
+  * [Manajemen Database][39], [Konferensi Video][40], [platform blockchain][41], [data besar][42]
+  * [Perangkat Lunak CMDB][43], [Perangkat Lunak Pengembangan Game][6], [Perencanaan Sumber Daya Perusahaan (ERP)][44]
+  * [Perangkat Lunak Pengeditan Video][45], [Sistem Manajemen Database][46], [Produktivitas Kantor][47]
+  * [Sistem Manajemen Pembelajaran (LMS)][48], [Perangkat Lunak Cadangan dan Sinkronisasi][49], [perangkat lunak forensik digital][50]
+
+  
 [1]: #how
 [2]: #covid
 [3]: #future

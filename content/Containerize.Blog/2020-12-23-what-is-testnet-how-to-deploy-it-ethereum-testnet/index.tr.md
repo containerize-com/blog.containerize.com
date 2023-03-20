@@ -13,20 +13,20 @@ categories: ['Blockchain Platforms']
 
 {{< figure align=center src="images/ether.png" alt="TestNet nedir">}}
 
-Önceki blog yayınlarımızda, [Blockchain Business için] [1], [temel bir akıllı sözleşme yazma] [2] ve [popüler blockchain platformları] [3] içeren birden fazla konu hakkında yazdık. Yakın gelecekte yazacağımız diğer konular da ** Merkezi olmayan defter teknolojisi ** zamanın geçişine ayak uyduruyor. İnsanlar artık güvenlik ve şeffaflık nedeniyle dijital varlık yönetimi platformlarına ilgi duymaya başlıyor. Buna ek olarak, dijital işlemler izlenebilir, değişmez ve bu tür faktörler bu teknolojinin güvenilirliği konusunda insanlara güven vermektedir. Üç tür blockchain kamu, özel ve izin alınmıştır. Ancak, kullanıcılar kullanım durumlarına bağlı olarak herhangi bir türü benimseyebilir.
+Önceki blog yayınlarımızda, [Blockchain Business için][1], [temel bir akıllı sözleşme yazma][2] ve [popüler blockchain platformları][3] içeren birden fazla konu hakkında yazdık. Yakın gelecekte yazacağımız diğer konular da ** Merkezi olmayan defter teknolojisi ** zamanın geçişine ayak uyduruyor. İnsanlar artık güvenlik ve şeffaflık nedeniyle dijital varlık yönetimi platformlarına ilgi duymaya başlıyor. Buna ek olarak, dijital işlemler izlenebilir, değişmez ve bu tür faktörler bu teknolojinin güvenilirliği konusunda insanlara güven vermektedir. Üç tür blockchain kamu, özel ve izin alınmıştır. Ancak, kullanıcılar kullanım durumlarına bağlı olarak herhangi bir türü benimseyebilir.
 Bu teknolojinin ortaya çıkması, finansal işlemlerin yolunu değiştirdiği için bankacılık sektöründe büyük bir değişiklik getirdi. Bu blog yazısında, LocalHost'ta Ethereum düğümünü kurma konusunda Ethereum Blockchain hakkında konuşacağız ve test ağıyla nasıl etkileşim kuracağımızı göreceğiz. Aşağıdaki kilit noktaları ele alacağız.
   *** TestNet nedir? **
-  *** [Ethereum blockchain nasıl kurulur?] [4] **
-  *** [Ethereum blockchain ile nasıl etkileşim kurabilirim?] [5] **
-  *** [Sonuç] [6] **
+  *** [Ethereum blockchain nasıl kurulur?][4] **
+  *** [Ethereum blockchain ile nasıl etkileşim kurabilirim?][5] **
+  *** [Sonuç][6] **
 
 ## TestNet nedir? {#Tetstnet}
-Bu blog yazısında, LocalHost'ta bir Ethereum düğümü dağıtacağız. Ethereum'un birden fazla ağı vardır, üretim ağına Mainnet denir ve test amacıyla kullanılan ağa TestNet denir. Merkezi olmayan uygulamaların çoğu [Ethereum] [7] blockchain'e dayanmaktadır. Akıllı sözleşme, bu dağıtılmış altyapının ayrılmaz bir bileşenidir. Ayrıca, blockchain “düğümler” adı verilen bir bilgisayar ağıdır. Ancak, her düğüm blockchain'in bir kopyasını içerir ve böylece ağa katılır. Ethereum Blockchain'in de “eter” adı verilen kendi kripto para birimi vardır. Tüm işlemler kriptografik olarak güvence altına alınmıştır. Buna ek olarak, asla kapanmayan veya bozulmayan tam bir defter teknolojisidir. Etherum blockchain düğümlerinde çalışan akıllı sözleşmeler ve merkezi olmayan uygulamalar (DAPP'ler) yazmanızı sağlar.
-Bu açık kaynaklı dağıtılmış blockchain ağı, İş Kanıtı (POW) adı verilen bir konsensüs algoritması kullanır. Ayrıca, Ethereum mimarisi Ethereum Virtual Machine, Ethereum istemci API'leri, akıllı sözleşmeler, Ethereum düğümleri ve son kullanıcı uygulamaları gibi beş katman içerir. Ethereum Virtual Machine, akıllı sözleşmeleri tanıyan yazılım ve mimariyi sunar. Akıllı sözleşmeler, işlemleri yöneten yazılımdır. Ethereum Blockchain ve Fortune 500 şirketleri için güçlü bir destek var, bu teknolojiyi kullanarak daha büyük ölçekte kalkınma yapmak için büyük ilgi gösterdi. Ayrıca, Ethereum Go dilinde yazılmıştır ve kaynak kodu [GitHub] [8] 'de mevcuttur. Canlı bir topluluğa sahip olduğu için dağıtım ve geliştirme ile ilgili tüm belgeler mevcuttur.
+Bu blog yazısında, LocalHost'ta bir Ethereum düğümü dağıtacağız. Ethereum'un birden fazla ağı vardır, üretim ağına Mainnet denir ve test amacıyla kullanılan ağa TestNet denir. Merkezi olmayan uygulamaların çoğu [Ethereum][7] blockchain'e dayanmaktadır. Akıllı sözleşme, bu dağıtılmış altyapının ayrılmaz bir bileşenidir. Ayrıca, blockchain “düğümler” adı verilen bir bilgisayar ağıdır. Ancak, her düğüm blockchain'in bir kopyasını içerir ve böylece ağa katılır. Ethereum Blockchain'in de “eter” adı verilen kendi kripto para birimi vardır. Tüm işlemler kriptografik olarak güvence altına alınmıştır. Buna ek olarak, asla kapanmayan veya bozulmayan tam bir defter teknolojisidir. Etherum blockchain düğümlerinde çalışan akıllı sözleşmeler ve merkezi olmayan uygulamalar (DAPP'ler) yazmanızı sağlar.
+Bu açık kaynaklı dağıtılmış blockchain ağı, İş Kanıtı (POW) adı verilen bir konsensüs algoritması kullanır. Ayrıca, Ethereum mimarisi Ethereum Virtual Machine, Ethereum istemci API'leri, akıllı sözleşmeler, Ethereum düğümleri ve son kullanıcı uygulamaları gibi beş katman içerir. Ethereum Virtual Machine, akıllı sözleşmeleri tanıyan yazılım ve mimariyi sunar. Akıllı sözleşmeler, işlemleri yöneten yazılımdır. Ethereum Blockchain ve Fortune 500 şirketleri için güçlü bir destek var, bu teknolojiyi kullanarak daha büyük ölçekte kalkınma yapmak için büyük ilgi gösterdi. Ayrıca, Ethereum Go dilinde yazılmıştır ve kaynak kodu [GitHub][8] 'de mevcuttur. Canlı bir topluluğa sahip olduğu için dağıtım ve geliştirme ile ilgili tüm belgeler mevcuttur.
 
 ## Ethereum blockchain nasıl kurulur? {#kurmak}
 Şimdi, TestNet'in ne olduğunun farkındayız. Bu bölümde, yerel makinemizde Ethereum düğümünü kuracağız. Daha ileri gitmeden önce, aşağıdaki ön koşulları yüklediğinizden emin olun.
-  * [Homebrew] [9] (macOS için)
+  * [Homebrew][9] (macOS için)
 
   * [Go7] (brew install go)
 Önkoşullar mevcut olduğunda, lütfen kaynak kodunu klonlamak için aşağıdaki komutu çalıştırın:
@@ -92,20 +92,22 @@ Aynı şekilde, Ethereum blockchain ile etkileşim kurmak için kullanabileceği
 
 ## Sonuç {#Conclusion}
 İşte bu öğreticinin sonu geliyor. TestNet ** ** ve Ethereum düğümünün yerel makinedeki kurulum sürecini öğrendik. Ethereum blockchain, çoğu merkezi olmayan uygulamalar için genelleştirilmiş bir çözümdür. Çoğu işletme ve devlet dairesi, sağlamlık, şeffaflık, kullanılabilirlik ve hesap verebilirlik getirmek için bu teknolojiyi benimseme eğilimindedir. Buna ek olarak, bu ** Blockchain Eğitimi **, akıllı sözleşmelerden yararlandığı için Ethereum blockchain'de geliştirmeye başlamayı planlıyorsanız size gerçekten yardımcı olacaktır. Etheruem blockchain, binlerce canlı düğüme sahip olduğu için daha kararlı ve popülerdir. Ayrıca, işletmeler ekstra zaman harcamadan Ethereum blockchain ağlarını kolayca geliştirebilir ve dağıtabilir. Ethereum'un güvenilirliğinin arkasındaki diğer faktör, akıllı sözleşmelerin geliştirilmesini diğer ** dijital varlık yönetim platformlarının ** sunmayacağı şekilde sunmasıdır.
-Ethereum ağındaki en son güncellemeler, ağı daha uygun maliyetli ve verimli hale getirdi. Aslında, bulutta Etheruem'in yatırım ve kalkınma amaçları konusunda önemli yönlerini gösteren çok daha fazla malzeme var. Geliştiriciler için, önceden yapılmış yardımcı programlar içeren geliştirici dostu bir ekosistem sağlar. Madenciler için, blok zincirine yeni bir blok madencilik yaptığında bir eter şeklinde bir ödül vardır. Ayrıca, [Containerize.com] [10] [blog.containerize.com] [11] adresinden popüler açık kaynak ürünleri hakkında birçok teknik blog yazısı ve öğretici yayınlamıştır. Bu nedenle, düzenli güncellemeler için [blockchain platformları] [12] kategorisiyle bağlantıda kalın.
+Ethereum ağındaki en son güncellemeler, ağı daha uygun maliyetli ve verimli hale getirdi. Aslında, bulutta Etheruem'in yatırım ve kalkınma amaçları konusunda önemli yönlerini gösteren çok daha fazla malzeme var. Geliştiriciler için, önceden yapılmış yardımcı programlar içeren geliştirici dostu bir ekosistem sağlar. Madenciler için, blok zincirine yeni bir blok madencilik yaptığında bir eter şeklinde bir ödül vardır. Ayrıca, [Containerize.com][10][blog.containerize.com][11] adresinden popüler açık kaynak ürünleri hakkında birçok teknik blog yazısı ve öğretici yayınlamıştır. Bu nedenle, düzenli güncellemeler için [blockchain platformları][12] kategorisiyle bağlantıda kalın.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Ethereum] [7]
-  * [Hiperledger kumaş] [13]
-  * [Openchain] [14]
-  * [Ripple] [15]
-  * [MultiCain] [16]
-  * [Consensys Quorum] [17]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [18]
-  * [2020'de Top 5 Açık Kaynak Blockchain Platformu] [3]
-  * [Ethereum Akıllı Sözleşmenin Nasıl Olacağına İlişkin Temel Kılavuz] [2]
-  * [Merkezi olmayan teknoloji iş stratejinizi nasıl yükseltiyor] [19]
+  * [Ethereum][7]
+  * [Hiperledger kumaş][13]
+  * [Openchain][14]
+  * [Ripple][15]
+  * [MultiCain][16]
+  * [Consensys Quorum][17]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][18]
+  * [2020'de Top 5 Açık Kaynak Blockchain Platformu][3]
+  * [Ethereum Akıllı Sözleşmenin Nasıl Olacağına İlişkin Temel Kılavuz][2]
+  * [Merkezi olmayan teknoloji iş stratejinizi nasıl yükseltiyor][19]
+
+  
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/

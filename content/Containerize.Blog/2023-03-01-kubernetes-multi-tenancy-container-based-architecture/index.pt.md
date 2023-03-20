@@ -15,10 +15,10 @@ Os recursos do cluster de Kubernetes Kubernetes são compartilhados entre todos 
 
 
 ## Visão geral
-Estamos aqui com outra postagem emocionante do blog na série de multi-cinemas. Em nosso [Artigo] anterior [1], abordamos o conceito básico por trás dos aplicativos multi-inquilinos, os prós e contras e os tipos de arquitetura de vários inquilinos. Como é hora de atender a vários usuários/inquilinos, gerenciar e utilizar recursos de maneira eficiente. Portanto, a multiestância é a abordagem principal para construir uma infraestrutura que lida com vários clientes/inquilinos simultaneamente. No entanto, nossa mais recente [post do blog] [2] demonstrou arquitetura sem servidor, contêinerização e [Kubernetes] [3]. Portanto, neste artigo, exploraremos a arquitetura baseada em multi-redes e contêineres. Além disso, veremos como você pode obter multi-ingestão em seus aplicativos [contêineres] [4].
+Estamos aqui com outra postagem emocionante do blog na série de multi-cinemas. Em nosso [Artigo] anterior [1], abordamos o conceito básico por trás dos aplicativos multi-inquilinos, os prós e contras e os tipos de arquitetura de vários inquilinos. Como é hora de atender a vários usuários/inquilinos, gerenciar e utilizar recursos de maneira eficiente. Portanto, a multiestância é a abordagem principal para construir uma infraestrutura que lida com vários clientes/inquilinos simultaneamente. No entanto, nossa mais recente [post do blog][2] demonstrou arquitetura sem servidor, contêinerização e [Kubernetes][3]. Portanto, neste artigo, exploraremos a arquitetura baseada em multi-redes e contêineres. Além disso, veremos como você pode obter multi-ingestão em seus aplicativos [contêineres][4].
 Os seguintes pontos devem ser abordados neste artigo:
-***[hosts de contêineres multi-inquilinos] [5]**
-***[Kubernetes Multi-Tenância] [6]**
+***[hosts de contêineres multi-inquilinos][5]**
+***[Kubernetes Multi-Tenância][6]**
 
 ## hosts de contêineres multi-tenant {#multi-tenant-container-hosts}
 A implantação de aplicativos com vários inquilinos é uma tarefa crítica quando se trata de plataformas de hospedagem. Todos vocês sabem que os contêineres são leves em comparação com as máquinas virtuais. A implantação de aplicativos leva apenas alguns milissegundos para concluir a implantação, enquanto que poderia ser uma questão de segundos a minutos no caso de máquinas virtuais.
@@ -41,25 +41,27 @@ FAIXO FALANDO, a Kubernetes Multi-Tenância oferece uma solução econômica par
 Isso nos leva ao final deste post do blog. Passamos por**Kubernetes de multi-redação e arquitetura baseada em contêineres**para alcançar multi-literidade. Além disso, existem muitas bibliotecas de terceiros disponíveis para preencher os aplicativos de vários inquilinos com o Kubernetes. Esta postagem do blog ajudará você a entender o conceito de**hosts de contêineres de vários inquilinos**. Existem outras postagens interessantes do blog que você pode encontrar na seção "Veja também".
 
 ## Conecte-se conosco
-Por fim, [contémize.com] [7] oferece posts em andamento em vários produtos e tópicos de código aberto. Você pode permanecer no loop, seguindo -nos em nossas plataformas de mídia social, incluindo [Facebook] [8], [LinkedIn] [9] e [Twitter] [10].
+Por fim, [contémize.com][7] oferece posts em andamento em vários produtos e tópicos de código aberto. Você pode permanecer no loop, seguindo -nos em nossas plataformas de mídia social, incluindo [Facebook][8], [LinkedIn][9] e [Twitter][10].
 
 ## Faça uma pergunta
-Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum] [11].
+Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum][11].
 
 ## Perguntas frequentes
-* * O que é multi-ingestão em Kubernetes?**?
-Siga este [link] [6] para conhecer o Kubernetes Multi-Tenância.
-* * O que é um cluster multi-inquilino vs single-intant?**
+**O que é multi-ingestão em Kubernetes?**?
+Siga este [link][6] para conhecer o Kubernetes Multi-Tenância.
+**O que é um cluster multi-inquilino vs single-intant?**
 Em um cluster multi-inquilino, todos os inquilinos/clientes compartilham o cluster Kubernetes, enquanto, em um cluster de inquilino único, há um cluster separado em execução para cada inquilino.
 
 ## Veja também
-  * [O que é computação sem servidor? | Arquitetura sem servidor] [12]
-  * [O que é multitenância? | Por que uma abordagem de vários inquilinos?] [13]
-  * [O que é AI generativo | Inteligência artificial generativa] [14]
-  * [Como integrar ChatGPT com o Google Sheets] [15]
-  * [Como usar o ChatGPT no vscode | O Código de Extensão do Vscode GPT] [16]
-  * [O que é o Openai Chatbot GPT-3 | Chatgpt Uma revolução da IA] [17]
-  * [Uma introdução à inteligência artificial | O que é ai?] [18]
+  * [O que é computação sem servidor? | Arquitetura sem servidor][12]
+  * [O que é multitenância? | Por que uma abordagem de vários inquilinos?][13]
+  * [O que é AI generativo | Inteligência artificial generativa][14]
+  * [Como integrar ChatGPT com o Google Sheets][15]
+  * [Como usar o ChatGPT no vscode | O Código de Extensão do Vscode GPT][16]
+  * [O que é o Openai Chatbot GPT-3 | Chatgpt Uma revolução da IA][17]
+  * [Uma introdução à inteligência artificial | O que é ai?][18]
+
+  
 [1]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
 [2]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/#Serverless-vs-Containers
 [3]: https://products.containerize.com/devops/kubernetes/

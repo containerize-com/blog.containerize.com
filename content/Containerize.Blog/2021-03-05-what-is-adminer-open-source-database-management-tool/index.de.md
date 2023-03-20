@@ -13,17 +13,17 @@ categories: ['Database Management Software']
 {{_LINE_11_}}
 
 ## Überblick
-Datenbezogene Aufgaben sind jetzt viel kritischer als je zuvor. Das Datenbankmanagement -Tool ist ein wesentlicher Bestandteil eines Unternehmens geworden. Es gibt jedoch viele webbasierte Datenbankverwaltungssysteme, die Lösungen für solche herausfordernden Aufgaben anbieten. Unternehmen generieren täglich unzählige Daten und sind immer schwer zu warten. Darüber hinaus vereinfacht Organisationen dazu, den Datenzugriff und die Datenkontrolle zu vereinfachen. Diese kostenlosen Tools reduzieren die Redundanz von Daten und machen Datenbanken effizient und zuverlässig. Darüber hinaus haben wir Blog -Beiträge zu Themen wie [Top Open Source DBMS -Softwaretools] [1] und einige weitere veröffentlicht.
+Datenbezogene Aufgaben sind jetzt viel kritischer als je zuvor. Das Datenbankmanagement -Tool ist ein wesentlicher Bestandteil eines Unternehmens geworden. Es gibt jedoch viele webbasierte Datenbankverwaltungssysteme, die Lösungen für solche herausfordernden Aufgaben anbieten. Unternehmen generieren täglich unzählige Daten und sind immer schwer zu warten. Darüber hinaus vereinfacht Organisationen dazu, den Datenzugriff und die Datenkontrolle zu vereinfachen. Diese kostenlosen Tools reduzieren die Redundanz von Daten und machen Datenbanken effizient und zuverlässig. Darüber hinaus haben wir Blog -Beiträge zu Themen wie [Top Open Source DBMS -Softwaretools][1] und einige weitere veröffentlicht.
 Daher hat Open Source Community den Administrator entwickelt, bei dem es sich um ein kostenloses Datenbankmanagement-Tool auf Unternehmensebene handelt. In diesem Verwaltungs -Tutorial werden wir die folgenden Punkte abdecken.
-  * [Was ist Administrator?] [2]
-  * [Wichtige Merkmale des Administrators] [3]
-  * [Adminer gegen phpmyadmin] [4]
-  * [Datenbanken mit Administrator verwalten] [5]
-  * [Schlussfolgerung] [6]
+  * [Was ist Administrator?][2]
+  * [Wichtige Merkmale des Administrators][3]
+  * [Adminer gegen phpmyadmin][4]
+  * [Datenbanken mit Administrator verwalten][5]
+  * [Schlussfolgerung][6]
 
 ## Was ist Administrator? {#Was}
 Wenn es um leichtes, benutzerfreundliches und leistungsstarkes MySQL-Datenbankmanagement-Tool geht, hat Adminer eine große Beliebtheit gewonnen und bietet im Vergleich zu PHPMYADMIN viele Verbesserungen. Anfangs wurde dieses Datenbankverwaltungs -Tool 2007 von Jakub Vrana als Alternative zu PHPMYADMIN entwickelt, sodass Sie eine einzige leichte PHP -Datei in der Datenbank Ihrer Anwendung herunterladen und installieren müssen.
-Als Open -Source -Datenbankverwaltungs -Tool kann es auch kostenlos verwendet werden und in PHP geschrieben. Was dieses webbasierte Datenbankverwaltungssystem auszeichnet, ist ein gutes Design der Benutzeroberfläche für ein nahtloses Benutzererlebnis sowie starke Sicherheitsfunktionen, um Daten vor Angriffen oder böswilligen Hacking-Versuchen sicher zu halten. Dieses Datenbankverwaltungs -Tool ist einfach einzurichten und erfordert einfache Anforderungen wie Ubuntu und Lampe. Benutzer können umfassende Dokumentation zu Entwicklung und Bereitstellung finden. Daher finden Sie Quelldateien dieses webbasierten Datenbankverwaltungssystems auf [GitHub] [7].
+Als Open -Source -Datenbankverwaltungs -Tool kann es auch kostenlos verwendet werden und in PHP geschrieben. Was dieses webbasierte Datenbankverwaltungssystem auszeichnet, ist ein gutes Design der Benutzeroberfläche für ein nahtloses Benutzererlebnis sowie starke Sicherheitsfunktionen, um Daten vor Angriffen oder böswilligen Hacking-Versuchen sicher zu halten. Dieses Datenbankverwaltungs -Tool ist einfach einzurichten und erfordert einfache Anforderungen wie Ubuntu und Lampe. Benutzer können umfassende Dokumentation zu Entwicklung und Bereitstellung finden. Daher finden Sie Quelldateien dieses webbasierten Datenbankverwaltungssystems auf [GitHub][7].
 
 ## Wichtige Merkmale von Adminer {#Important}
 Einige grundlegende, aber wichtige Funktionen dieses Datenbankverwaltungs -Tools sind:
@@ -43,7 +43,7 @@ Damit Adminer auf Ihrem System ausgeführt werden kann, ist es wichtig, dass Sie
   * PHP Version 5, 7 oder 8
   * Ein Datenbanktreiber wie MySQL, SQLite, PostgreSQL usw.
 **Installation**
-Wenn Sie diese beiden Systemanforderungen überprüfen lassen, laden Sie einfach die Datei von [] [8] herunter und beginnen Sie mit dem Hochladen der PHP -Datei auf Ihren Server. Benennen Sie für den XAMPP -Server die heruntergeladene Datei als "adminer.php" um und setzen Sie diese Datei in den HTDOCS -Ordner ein.
+Wenn Sie diese beiden Systemanforderungen überprüfen lassen, laden Sie einfach die Datei von [][8] herunter und beginnen Sie mit dem Hochladen der PHP -Datei auf Ihren Server. Benennen Sie für den XAMPP -Server die heruntergeladene Datei als "adminer.php" um und setzen Sie diese Datei in den HTDOCS -Ordner ein.
 ** Zugriff auf Benutzeroberfläche **
 Was ist Administrator nach dem Durchlaufen? Greifen Sie nun von http auf diese App zu: your-ip-adress/adminer.php wie gezeigt:
 {{_LINE_42_}}
@@ -71,14 +71,16 @@ Das Hinzufügen neuer Datensätze zu einer Tabelle ist ziemlich einfach. Klicken
 
 ## Schlussfolgerung {#Conclusion}
 Dies bringt uns zum Ende dieses Verwaltungs -Tutorials. Wir haben einige wichtige Themen wie das, was Administrator, Adminer gegenüber PhpMyAdmin und andere Aspekte dieses webbasierten Datenbankverwaltungssystems für Open-Source-Datenbasis durchlaufen hat. Hoffentlich hilft Ihnen dieser Blog -Beitrag sicherlich, wenn Sie ein Open -Source -Datenbankverwaltungs -Tool installieren möchten. Es ist eine intuitive, intelligente und benutzerfreundliche Oberfläche, die es zu einem sehr beliebten Datenbankmanagement-Tool macht. Darüber hinaus unterstützt es viele Datenbanken, darunter MySQL, SQLite, MongoDB und vieles mehr sowie Sicherheitsmaßnahmen, um böswillige Hacking -Ereignisse zu schützen und zu verhindern. Alles in allem ist dieses Datenbankverwaltungs -Tool nicht nur Open Source, sondern auch kostenlos zu verwenden.
-Schließlich schreibt [Containerize.com] [9] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie für regelmäßige Aktualisierungen in Kontakt mit den Tools für [Datenbankverwaltung] [10]. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook] [11], [LinkedIn] [12] und [Twitter] [13] folgen.
+Schließlich schreibt [Containerize.com][9] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie für regelmäßige Aktualisierungen in Kontakt mit den Tools für [Datenbankverwaltung][10]. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][11], [LinkedIn][12] und [Twitter][13] folgen.
 
 ## Erkunden
 Weitere Informationen zu kostenlosen webbasierten Datenbankverwaltungs-Tools finden Sie in den folgenden Seiten:
-  * [Adminer | Kostenloses webbasiertes Datenbankverwaltungssystem] [14]
-  * [Top Open Source DBMS -Software -Tools] [1]
-  * [Top 5 Open -Source -Datenbankverwaltungs -Tools in 2021] [15]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [16]
+  * [Adminer | Kostenloses webbasiertes Datenbankverwaltungssystem][14]
+  * [Top Open Source DBMS -Software -Tools][1]
+  * [Top 5 Open -Source -Datenbankverwaltungs -Tools in 2021][15]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][16]
+
+  
 [1]: https://products.containerize.com/database-management
 [2]: #what
 [3]: #important

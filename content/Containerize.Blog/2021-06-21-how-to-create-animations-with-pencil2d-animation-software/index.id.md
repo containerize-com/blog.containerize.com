@@ -13,16 +13,16 @@ categories: ['Animation Software']
 
 
 ## ** Pencil2D adalah perangkat lunak animasi open source yang memungkinkan pengguna membuat animasi dan sketsa 2D. Artikel ini adalah tentang cara membuat animasi dengan pensil2d **.
-Ketika belajar ke perangkat lunak baru untuk membuat animasi dan ilustrasi, kami telah membuat banyak tutorial dan panduan yang dapat membantu Anda menguasai perangkat lunak baru dan mempelajari animasi. Apakah Anda seorang pemula atau pengguna tingkat lanjut, [posting sebelumnya] [1] kami dapat membantu Anda menemukan aplikasi animasi yang tepat untuk Anda. Mari kita bahas topik berikut untuk mempelajari cara membuat animasi dengan perangkat lunak animasi Pencil2D.
-  * [Apa itu pensil2d?] [2]
-  * [Bagaimana cara menginstal pensil2d?] [3]
-  * [Gambaran Umum Antarmuka Aplikasi] [4]
-  * [Cara membuat animasi dengan pensil2d?] [5]
-  * [Kesimpulan] [6]
+Ketika belajar ke perangkat lunak baru untuk membuat animasi dan ilustrasi, kami telah membuat banyak tutorial dan panduan yang dapat membantu Anda menguasai perangkat lunak baru dan mempelajari animasi. Apakah Anda seorang pemula atau pengguna tingkat lanjut, [posting sebelumnya][1] kami dapat membantu Anda menemukan aplikasi animasi yang tepat untuk Anda. Mari kita bahas topik berikut untuk mempelajari cara membuat animasi dengan perangkat lunak animasi Pencil2D.
+  * [Apa itu pensil2d?][2]
+  * [Bagaimana cara menginstal pensil2d?][3]
+  * [Gambaran Umum Antarmuka Aplikasi][4]
+  * [Cara membuat animasi dengan pensil2d?][5]
+  * [Kesimpulan][6]
 
 ## Apa itu pensil2d? {#what-is-pensil2d}
-[Pensil2d] [7] adalah aplikasi animasi tradisional yang memungkinkan pengguna untuk membuat sketsa kartun dan animasi 2D untuk proyek yang berbeda. Anda dapat menggunakan Pencil2D baik untuk proyek pribadi maupun usaha komersial, karena merupakan perangkat lunak animasi open source yang dilisensikan di bawah Lisensi Publik Umum GNU. Menggunakan Pencil2D cukup mudah, seperti yang akan Anda lihat lebih lanjut di pos. Ini dapat digunakan oleh kedua animator pemula maupun pengguna profesional juga.
-Dengan [pensil2d] [7] animasi Anda disimpan dalam gambar bitmap atau vektor dan menggunakan alur kerja raster/vektor untuk manajemen animasi yang efektif. Beberapa format file yang dapat diterima saat menggunakan Pencil2D adalah PNG, JPEG, BMP, TIFF dll untuk gambar dan AVI, MP4, GIF dan banyak lagi, untuk video. Ini kompatibel dengan Windows, Mac OS, Linux, dan Freebsd juga.
+[Pensil2d][7] adalah aplikasi animasi tradisional yang memungkinkan pengguna untuk membuat sketsa kartun dan animasi 2D untuk proyek yang berbeda. Anda dapat menggunakan Pencil2D baik untuk proyek pribadi maupun usaha komersial, karena merupakan perangkat lunak animasi open source yang dilisensikan di bawah Lisensi Publik Umum GNU. Menggunakan Pencil2D cukup mudah, seperti yang akan Anda lihat lebih lanjut di pos. Ini dapat digunakan oleh kedua animator pemula maupun pengguna profesional juga.
+Dengan [pensil2d][7] animasi Anda disimpan dalam gambar bitmap atau vektor dan menggunakan alur kerja raster/vektor untuk manajemen animasi yang efektif. Beberapa format file yang dapat diterima saat menggunakan Pencil2D adalah PNG, JPEG, BMP, TIFF dll untuk gambar dan AVI, MP4, GIF dan banyak lagi, untuk video. Ini kompatibel dengan Windows, Mac OS, Linux, dan Freebsd juga.
 
 ## Bagaimana cara menginstal pensil2d? {#Install-Pencil2D}
 Terminal Buka dan Perbarui Indeks Paket Server Lokal Anda dengan Mengetik Perintah berikut:
@@ -80,13 +80,15 @@ Sekarang Anda dapat menyematkan animasi di situs web, memainkannya di browser at
 
 ## kesimpulan {#conclusion}
 Seperti yang dapat Anda lihat dari tutorial di atas, membuat animasi dengan Pencil2D cukup mudah dipahami dan dieksekusi. Perangkat lunak animasi telah dibuat dengan cara untuk bersahabat pemula dan cepat diadopsi oleh para profesional juga. Ada banyak opsi yang tersedia di Pencil2D ketika datang untuk membuat sketsa atau animasi 2D, dan setiap ilustrator dapat benar -benar membuat portofolio yang kuat dengan aplikasi.
-[Pensil2d] [7] kompatibel dengan banyak sistem operasi seperti yang telah kami sebutkan sebelumnya, sehingga Anda dapat dengan mudah memasang dan bermain dengan perangkat lunak animasi di lingkungan yang Anda pilih. Jika Anda mencari lebih banyak tutorial tentang Pencil2D, Anda bisa pergi dan memeriksa situs web mereka. Kami juga telah membuat banyak tutorial dan panduan untuk menggunakan program perangkat lunak animasi lain yang dapat Anda temukan di situs web kami, jadi periksa untuk kejelasan lebih lanjut.
+[Pensil2d][7] kompatibel dengan banyak sistem operasi seperti yang telah kami sebutkan sebelumnya, sehingga Anda dapat dengan mudah memasang dan bermain dengan perangkat lunak animasi di lingkungan yang Anda pilih. Jika Anda mencari lebih banyak tutorial tentang Pencil2D, Anda bisa pergi dan memeriksa situs web mereka. Kami juga telah membuat banyak tutorial dan panduan untuk menggunakan program perangkat lunak animasi lain yang dapat Anda temukan di situs web kami, jadi periksa untuk kejelasan lebih lanjut.
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan berikut yang relevan:
-  * [Pensil2d | Perangkat Lunak Animasi 2D Cross-Platform & Open Source Gratis] [7]
-  * [Panduan Pemula untuk Memulai Pengeditan Gambar Gratis Menggunakan Digikam] [8]
-  * [Perangkat lunak animasi open source terbaik] [9]
+  * [Pensil2d | Perangkat Lunak Animasi 2D Cross-Platform & Open Source Gratis][7]
+  * [Panduan Pemula untuk Memulai Pengeditan Gambar Gratis Menggunakan Digikam][8]
+  * [Perangkat lunak animasi open source terbaik][9]
+
+  
 [1]: https://blog.containerize.com/
 [2]: #what-is-pencil2d
 [3]: #install-pencil2d

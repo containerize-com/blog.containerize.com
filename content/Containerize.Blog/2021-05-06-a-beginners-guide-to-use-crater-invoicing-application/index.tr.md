@@ -14,13 +14,13 @@ categories: ['Invoicing']
 {{< figure align=center src="images/blog-crater.png" alt="Açık Kaynak Fatura Sistemi">}}
 
 Her işletmenin faturaların, giderlerin, ödemelerin ve daha fazlasının yönetimi için bir tür sisteme ihtiyacı vardır. Faturalandırma yazılımı, faturalandırma görevlerini kolayca gerçekleştirebilmeniz ve diğer önemli şeylere odaklanabilmeniz için yönetmenize yardımcı olur. Bu yazıda, krater kurmayı ve iş için muhasebe operasyonlarını nasıl ele alacağımızı öğreneceğiz.
-  * [Krater hakkında giriş] [1]
-  * [Kraterin kurulum prosedürü] [2]
-  * [Özellik Keşfi] [3]
-  * [Sonuç] [4]
+  * [Krater hakkında giriş][1]
+  * [Kraterin kurulum prosedürü][2]
+  * [Özellik Keşfi][3]
+  * [Sonuç][4]
 
 ## krater hakkında giriş {#Introduction}
-[Crater] [5] ücretsiz ve açık kaynaklı bir faturalandırma uygulamasıdır. Kesinlikle ücretsizdir ve en son sürümlere kolayca güncelleyebilirsiniz. Küçük işletmeler ve serbest çalışanlar için ücretsiz bir muhasebe sistemidir. Ayrıca, masrafları ve ödemeleri takip etmenize, vergileri hesaplamanıza ve tahmin ve faturalar üretmenize olanak tanıyan tam bir faturalandırma çözümüdür. Ayrıca, iPhone ve Android cihazlar için hazır mobil uygulamalarla birlikte gelir. Herhangi bir yerden yönetmenize izin verecektir. Crater web tabanlı bir faturalandırma yazılımı olduğundan, web uygulaması Laravel ve Vuejs ile tasarlanmıştır ve mobil uygulamalar React Native ile oluşturulmuştur. Geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Tam kaynak kodu [GitHub] [6] 'da bulunabilir.
+[Crater][5] ücretsiz ve açık kaynaklı bir faturalandırma uygulamasıdır. Kesinlikle ücretsizdir ve en son sürümlere kolayca güncelleyebilirsiniz. Küçük işletmeler ve serbest çalışanlar için ücretsiz bir muhasebe sistemidir. Ayrıca, masrafları ve ödemeleri takip etmenize, vergileri hesaplamanıza ve tahmin ve faturalar üretmenize olanak tanıyan tam bir faturalandırma çözümüdür. Ayrıca, iPhone ve Android cihazlar için hazır mobil uygulamalarla birlikte gelir. Herhangi bir yerden yönetmenize izin verecektir. Crater web tabanlı bir faturalandırma yazılımı olduğundan, web uygulaması Laravel ve Vuejs ile tasarlanmıştır ve mobil uygulamalar React Native ile oluşturulmuştur. Geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Tam kaynak kodu [GitHub][6] 'da bulunabilir.
 
 ## krater kurulum prosedürü {#installation}
 Bu bölümde kraterin manuel yöntemle nasıl yükleneceğini ve Docker'ı kullanmayı tartışacağız.
@@ -68,12 +68,14 @@ Bu bölümde, bu açık kaynak faturalandırma uygulamasının temel özellikler
 
 ## Sonuç {#Conclusion}
 Krater ve manuel ve Docker ile nasıl ayarlanacağını öğrendik. Ayrıca, her muhasebe faturalandırma yazılımının sağlaması gereken bazı özelliklere de baktık. Umarım, bu kılavuz, işletmeniz için hızlı bir açık kaynak fatura sistemi uygulamanıza yardımcı olabilir.
-Son olarak, [Containerize.com] [7] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [faturalandırma] [8] kategorisiyle iletişime geçin.
+Son olarak, [Containerize.com][7] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [faturalandırma][8] kategorisiyle iletişime geçin.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Krater - Küçük İşletmeler İçin Ücretsiz Muhasebe Sistemi] [5]
-  * [2021 yılında ilk 5 Açık Kaynak Muhasebe Yazılımı] [9]
+  * [Krater - Küçük İşletmeler İçin Ücretsiz Muhasebe Sistemi][5]
+  * [2021 yılında ilk 5 Açık Kaynak Muhasebe Yazılımı][9]
+
+  
 [1]: #Introduction
 [2]: #Installation
 [3]: #Feature

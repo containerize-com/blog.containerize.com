@@ -29,7 +29,7 @@ Ini dia !!!
 
 {{< figure align=center src="images/Open-Source-Blue-Prism.png.jpg" alt="">}}
 
-[Blue Prism] [1] RPA menyediakan semua kemampuan inti. Ini dapat bekerja pada platform apa pun dengan aplikasi apa pun. Untuk menggunakan alat ini, Anda harus memiliki keterampilan pemrograman tetapi ramah pengguna untuk pengembang. Alat ini sangat cocok untuk organisasi menengah dan besar.
+[Blue Prism][1] RPA menyediakan semua kemampuan inti. Ini dapat bekerja pada platform apa pun dengan aplikasi apa pun. Untuk menggunakan alat ini, Anda harus memiliki keterampilan pemrograman tetapi ramah pengguna untuk pengembang. Alat ini sangat cocok untuk organisasi menengah dan besar.
 **Fitur:**
   * Ini mendukung model penyebaran multi-lingkungan.
   * Keamanan disediakan untuk kredensial jaringan dan perangkat lunak.
@@ -49,13 +49,13 @@ Ini dia !!!
   * Ilmu Kesehatan dan Hidup
   * Sektor Pendidikan
 ** Terbaik untuk: ** mengotomatiskan proses back-office.
-** [Pelajari lebih lanjut tentang Blue Prism] [1] **
+** [Pelajari lebih lanjut tentang Blue Prism][1] **
 
 ## 2. Otomasi di mana saja
 
 {{< figure align=center src="images/Open-Source-Automation-Anywhere.png" alt="">}}
 
-[Otomasi Anywhere] [2] menyediakan semua kemampuan inti. Ini menyediakan layanan di tempat dan cloud. Alat ramah pengguna ini sangat cocok untuk organisasi menengah dan besar.
+[Otomasi Anywhere][2] menyediakan semua kemampuan inti. Ini menyediakan layanan di tempat dan cloud. Alat ramah pengguna ini sangat cocok untuk organisasi menengah dan besar.
 **Fitur:**
   * Memberikan keamanan tingkat bank.
   * Memberikan keamanan melalui otentikasi, enkripsi, dan kredensial.
@@ -71,13 +71,13 @@ Ini dia !!!
   * Platform sosial
   * Sektor energi
 ** Terbaik untuk: ** Kemudahan Penggunaan.
-** [Pelajari lebih lanjut tentang otomatisasi di mana saja] [2] **
+** [Pelajari lebih lanjut tentang otomatisasi di mana saja][2] **
 
 ## 3. Uipath
 
 {{< figure align=center src="images/Open-Source-UiPath-1024x356.png" alt="">}}
 
-[UIepath] [3] memberikan semua kemampuan inti. Ini memberikan dukungan untuk Citrix. Ini ramah pengguna untuk non-pengembang juga. Itu dapat menangani proses yang kompleks. Dan alat ini sangat cocok untuk berbagai ukuran bisnis.
+[UIepath][3] memberikan semua kemampuan inti. Ini memberikan dukungan untuk Citrix. Ini ramah pengguna untuk non-pengembang juga. Itu dapat menangani proses yang kompleks. Dan alat ini sangat cocok untuk berbagai ukuran bisnis.
 **Fitur:**
   * Ini memberikan keamanan dengan mengelola kredensial, memberikan kontrol enkripsi dan akses berdasarkan peran.
   * Ini dapat mengotomatiskan lebih cepat. Otomatisasi delapan hingga sepuluh kali lebih cepat melalui Citrix juga.
@@ -101,13 +101,13 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
   * Ritel dan CPG
   * Sektor publik
 ** Terbaik untuk: ** Peningkatan Kepatuhan dan Produktivitas.
-** [Pelajari lebih lanjut tentang UIPath] [3] **
+** [Pelajari lebih lanjut tentang UIPath][3] **
 
 ## 4. PEGA
 
 {{< figure align=center src="images/Open-Source-Pega.png" alt="">}}
 
-[PEGA] [4] adalah alat manajemen proses bisnis. Ini dapat digunakan pada server desktop. Ini hanya menyediakan solusi atau layanan berbasis cloud. Ini dapat bekerja pada Windows, Linux, dan Mac. Alat ini sangat cocok untuk bisnis menengah dan besar.
+[PEGA][4] adalah alat manajemen proses bisnis. Ini dapat digunakan pada server desktop. Ini hanya menyediakan solusi atau layanan berbasis cloud. Ini dapat bekerja pada Windows, Linux, dan Mac. Alat ini sangat cocok untuk bisnis menengah dan besar.
 **Fitur:**
   * Ini akan membantu Anda dalam penyebaran solusi Anda kepada pelanggan.
   * Ini memberikan solusi berbasis cloud.
@@ -128,13 +128,13 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
   * Pengecer
   * Media dan Hiburan
 ** Terbaik untuk: ** Solusi CRM dan Dukungan Platform.
-** [Pelajari lebih lanjut tentang PEGA] [4] **
+** [Pelajari lebih lanjut tentang PEGA][4] **
 
 ## 5. Kofax
 
 {{< figure align=center src="images/Open-Source-Kofax.png" alt="">}}
 
-[Kofax] [5] dapat bekerja dengan aplikasi apa pun secara virtual. Keterampilan pengkodean tidak wajib untuk alat ini. Ini dapat memproses data dari situs web apa pun, aplikasi desktop, dan portal.
+[Kofax][5] dapat bekerja dengan aplikasi apa pun secara virtual. Keterampilan pengkodean tidak wajib untuk alat ini. Ini dapat memproses data dari situs web apa pun, aplikasi desktop, dan portal.
 **Fitur:**
   * Itu memang tugas berulang secara efisien.
   * Alat cerdas untuk memantau dan mengoptimalkan proses.
@@ -153,18 +153,20 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
   * Transportasi dan Logistik
   * Cross-industri
 ** Terbaik untuk: ** Bisnis informasi yang berat yang menginginkan proses bisnis yang dipercepat.
-** [Pelajari lebih lanjut tentang Kofax] [5] **
+** [Pelajari lebih lanjut tentang Kofax][5] **
 
 ## ** Kesimpulan: ** {#4a1a}
 Lima alat RPA open source yang disebutkan di atas adalah alat RPA open source paling populer dan terbaik untuk pengembang. Lebih jauh dengan perbandingan kami dari masing -masing alat secara rinci di sini, Blue Prism adalah alat terbaik tetapi Anda harus dilatih sebelum menggunakannya. Dan pelatihan juga mahal. Uipath mudah digunakan bahkan untuk non-pengembang. Ini menyediakan fitur yang sama, dan bahkan server industri skala kecil. Untuk aplikasi workstation, kontekstor adalah pilihan terbaik karena mereka memiliki spesialisasi di dalamnya.
-_ Apa alat RPA open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang alat RPA open source?, Tolong_ [hubungi Anda] [6].
+_ Apa alat RPA open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang alat RPA open source?, Tolong_ [hubungi Anda][6].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa informasi terkait lainnya:
-  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File] [7]
-  * [Top 5 Open Source Message Queue (MQ) Perangkat lunak pada 2021] [8]
-  * [Alat forensik digital open source paling populer] [9]
-  * [Lisensi Open Source yang Disetujui OSI Paling Populer] [10]
+  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][7]
+  * [Top 5 Open Source Message Queue (MQ) Perangkat lunak pada 2021][8]
+  * [Alat forensik digital open source paling populer][9]
+  * [Lisensi Open Source yang Disetujui OSI Paling Populer][10]
+
+  
 [1]: https://www.blueprism.com/
 [2]: https://www.automationanywhere.com/
 [3]: https://www.uipath.com/

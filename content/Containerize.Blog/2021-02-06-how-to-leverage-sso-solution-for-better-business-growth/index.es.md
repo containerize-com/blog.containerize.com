@@ -15,14 +15,14 @@ categories: ['Single Sign-On']
 
 
 ## Descripción general
-Recientemente publicamos una publicación de blog sobre [Software de inicio de sesión único de código abierto Top 5 en el año 2021] [1] que ofrece una breve introducción del sistema Top ** SSO **. En esta publicación de blog, cubriremos los siguientes puntos.
-  *[** ¿Qué es la tecnología SSO? **] [2]
-  *** [Ho] [3] ** [** W **] [3] ** [SIGUNO SIGURO (SSO) funciona?] [3] **
-  *[** Casos de uso comercial del sistema SSO **] [4]
-  *[** Conclusión **] [5]
+Recientemente publicamos una publicación de blog sobre [Software de inicio de sesión único de código abierto Top 5 en el año 2021][1] que ofrece una breve introducción del sistema Top ** SSO **. En esta publicación de blog, cubriremos los siguientes puntos.
+  *[** ¿Qué es la tecnología SSO? **][2]
+  *** [Ho][3] ** [** W **][3] ** [SIGUNO SIGURO (SSO) funciona?][3] **
+  *[** Casos de uso comercial del sistema SSO **][4]
+  *[** Conclusión **][5]
 
 ## ¿Qué es la tecnología SSO? {#qué}
-[Sign-On] [6] es un software de identificación y autenticación ** que le permite iniciar sesión utilizando sitios de terceros. El software SSO actúa como un proveedor de identidad para que pueda iniciar sesión en varios sitios con un solo conjunto de nombres de usuario/contraseñas. Sin embargo, es un mecanismo de inicio de sesión único y el sistema SSO asegura la autenticidad de los usuarios.
+[Sign-On][6] es un software de identificación y autenticación ** que le permite iniciar sesión utilizando sitios de terceros. El software SSO actúa como un proveedor de identidad para que pueda iniciar sesión en varios sitios con un solo conjunto de nombres de usuario/contraseñas. Sin embargo, es un mecanismo de inicio de sesión único y el sistema SSO asegura la autenticidad de los usuarios.
 Además, este sistema se ha utilizado ampliamente a nivel pequeño y empresarial para administrar las identidades de los usuarios en múltiples aplicaciones. Hay muchos software de inicio de sesión único de código abierto que utilizan protocolos de autorización populares como OpenID OpenID, SAML y OAUTH.
 
 ## ** ¿Cómo funciona el inicio de sesión único (SSO)? ** {#Feature}
@@ -48,20 +48,22 @@ En esta sección, observaremos algunos casos centrales de uso comercial de ** Si
 
 ## conclusión {#conclusion}
 ** El sistema SSO ** es una gran comodidad para las empresas, ya que proporciona un punto de control sobre la identidad en muchas aplicaciones. Por lo tanto, hay una serie de software de inicio de sesión único de código abierto que ofrecen características potentes.
-Finalmente, [** Contenerize.com **] [7] se encuentra en un proceso consistente de escribir artículos sobre temas y productos de código abierto. Por lo tanto, manténgase en contacto con esta categoría de inicio de sesión [** único **] [6] para actualizaciones regulares.
+Finalmente, [** Contenerize.com **][7] se encuentra en un proceso consistente de escribir artículos sobre temas y productos de código abierto. Por lo tanto, manténgase en contacto con esta categoría de inicio de sesión [** único **][6] para actualizaciones regulares.
 
 ## Páginas de productos relevantes
 Puede encontrar los siguientes enlaces relevantes:
-  *** [IdentityServer] [8] **
-  *** [KeyCloak] [9] **
-  *** [CAS] [10] **
-  *** [Autelia] [11] **
-  *** [WSO2] [12] **
-  *** [OpenIdentityPlatform] [13] **
-  *** [FreeIPA] [14] **
-  *** [Top 5 Software de inicio de sesión único de código abierto en el año 2021] [1] **
-  *** [Cómo aprovechar el sistema SSO para un mejor crecimiento comercial] [15] **
-  *** [Automatizar operaciones comerciales utilizando software de código abierto y de código abierto] [16] **
+  *** [IdentityServer][8] **
+  *** [KeyCloak][9] **
+  *** [CAS][10] **
+  *** [Autelia][11] **
+  *** [WSO2][12] **
+  *** [OpenIdentityPlatform][13] **
+  *** [FreeIPA][14] **
+  *** [Top 5 Software de inicio de sesión único de código abierto en el año 2021][1] **
+  *** [Cómo aprovechar el sistema SSO para un mejor crecimiento comercial][15] **
+  *** [Automatizar operaciones comerciales utilizando software de código abierto y de código abierto][16] **
+
+  
 [1]: https://blog.containerize.com/single-sign-on/top-5-open-source-single-sign-on-software-in-the-year-2021/
 [2]: #what
 [3]: #features

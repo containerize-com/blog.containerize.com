@@ -15,10 +15,10 @@ categories: ['Blogging', 'Help Desk']
 
 Seus clientes podem ter perguntas sobre seus produtos/serviços. Eles enviarão suas consultas através de diferentes formas no seu site WordPress. A integração de Osticket-WordPress ajuda a converter essas consultas em ingressos. Ele envia dados via API para o sistema Helpdesk de Oticket.
 OSTICKET é um sistema de ingressos para helpdesk de código aberto e gratuito. Os clientes podem criar ingressos sobre suas consultas no Osticket. Esse sistema helpdesk facilita muito para qualquer organização gerenciar as consultas provenientes de seus clientes. O Admin pode criar departamentos e equipes e atribuir ingressos a diferentes agentes de acordo com a natureza dos ingressos criados. Este sistema de código aberto gratuito acompanhará os problemas. Ele permite que clientes e agentes comentem o ingresso para discutir o progresso. Cobriremos as seguintes seções nesta postagem do blog:
-  * [Processo de integração] [1]
-  * [Instalação do plug -in do WordPress] [2]
-  * [Procedimento de autenticação] [3]
-  * [Conclusão] [4]
+  * [Processo de integração][1]
+  * [Instalação do plug -in do WordPress][2]
+  * [Procedimento de autenticação][3]
+  * [Conclusão][4]
 
 ## Processo de integração: {#Integration}
 A integração de Oticket e WordPress requer um formulário de contato no site WordPress com os seguintes campos
@@ -32,10 +32,10 @@ O formulário de contato deve enviar emails, porque este plug -in conecta a fun�
 ## WordPress Instalação do plug -in: {#wordpress}
   1. Vá para o painel de administração do seu site WordPress.
   2. Em seguida, vá para a seção Plugins.
-  3. Em seguida, instale este [plugin] [5].
+  3. Em seguida, instale este [plugin][5].
   4. Depois disso, ative o plug -in.
   5. E vá para "Configuração" -> "OSTICKET CONECTOR".
-  6. Em seguida, insira o URL do seu site de osticket, ou seja, [http: //your.domain/api/tickets.json] [6]
+  6. Em seguida, insira o URL do seu site de osticket, ou seja, [http: //your.domain/api/tickets.json][6]
   7. Digite a tecla API criada no painel de administração de Osticket (explicado na próxima seção).
   8. No final, preencha todos os campos para mapear os dados do seu formulário de contato para os campos de ingresso do Osticket.
 
@@ -60,9 +60,11 @@ A integração de Osticket-WordPress automatizará o processo de ticketing. Port
 
 ## Explore:
 Para saber mais sobre Osticket e WordPress, consulte estas páginas:
-  * [OSTICKET - Sistema de ingressos para Helpdesk de código aberto gratuito] [7]
-  * [WordPress - código aberto gratuito e CMS e ferramenta de blog mais amplamente usadas] [8]
-  * [Como configurar o software de suporte técnico on -line usando osticket] [9]
+  * [OSTICKET - Sistema de ingressos para Helpdesk de código aberto gratuito][7]
+  * [WordPress - código aberto gratuito e CMS e ferramenta de blog mais amplamente usadas][8]
+  * [Como configurar o software de suporte técnico on -line usando osticket][9]
+
+  
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

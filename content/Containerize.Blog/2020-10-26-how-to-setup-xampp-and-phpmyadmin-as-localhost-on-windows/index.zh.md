@@ -15,10 +15,10 @@ categories: ['Database Management Software', 'Web Server Solution Stack']
 
 XAMPP和PHPMYADMIN作为Localhost提供了本地服务器，供开发人员测试和构建Web应用程序。 XAMPP是安装在个人计算机/笔记本电脑上的本地服务器。它提供了一个本地环境来创建，运行和测试PHP应用程序，然后再将其部署在实时服务器上。
 我们将在此博客文章中介绍以下各节：
-  * [描述] [1]
-  * [XAMPP安装] [2]
-  * [phpmyadmin仪表板] [3]
-  * [最终想法] [4]
+  * [描述][1]
+  * [XAMPP安装][2]
+  * [phpmyadmin仪表板][3]
+  * [最终想法][4]
 
 ## 描述：{#description}
 XAMPP是免费的，开源Web服务器解决方案堆栈。它包含Apache，MySQL，Mariadb，PHP和Perl。 XAMPP可用于Windows操作系统。它非常容易安装和使用。这就是为什么它是最受欢迎的PHP开发环境。 Xampp和PhpMyAdmin作为Localhost为Web应用程序开发和测试提供了一个完整的环境。
@@ -30,7 +30,7 @@ Xampp中的字母代表：
   *** P **  -  Perl
 
 ## XAMPP安装{#XAMPP}
-  *从[此处] [5]下载XAMPP。
+  *从[此处][5]下载XAMPP。
 
 {{< figure align=center src="images/xampp1.png" alt="Xampp为Localhost">}}
 
@@ -79,8 +79,10 @@ Xampp中的字母代表：
 XAMPP安装简单明了。设置XAMPP服务器的设置不超过15分钟。安装后，即使没有Internet连接，开发人员也可以构建和测试基于PHP的Web应用程序。与其直接在实时Web服务器上测试项目，不如在本地测试它们是简单且节省时间的。对于初学者来说，这是一个很好的平台，可以学习，测试和抛光其PHP，PERL和数据库技能。
 
 ## 探索：
-[PHP和PERL开发人员的开源Web服务器解决方案堆栈] [6]
-[最佳开源Web服务器解决方案堆栈选项] [7]
+[PHP和PERL开发人员的开源Web服务器解决方案堆栈][6]
+[最佳开源Web服务器解决方案堆栈选项][7]
+
+  
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

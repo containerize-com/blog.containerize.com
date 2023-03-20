@@ -47,17 +47,19 @@ A inteligência artificial (IA) melhorou as operações para muitas empresas e e
 ## Conclusão: {#conclusion}
 As principais tendências de negócios e tecnologia podem ter acabado de começar e você verá grandes mudanças no ano 2021. A pandemia COVID-19 mudou permanentemente a trajetória de nossos negócios e como pensamos sobre a segurança no local de trabalho. Essas novas tecnologias podem impactá-lo para melhor e muitos de nossos novos comportamentos se tornarão parte do novo normal na pandemia de 2021 Covid-19 para ajudar a impulsionar as principais inovações tecnológicas e de aprendizado de máquina. Em 2021 Pandemia, é fundamental que as empresas continuem investindo nas principais tecnologias de TI.
 Nossas empresas de ajuda da equipe de contêiner a aproveitam as tendências de tecnologia emergentes para alimentar seu crescimento. Nossa equipe de produtos em contêiner tem experiência em lidar com projetos fáceis de complexos e, se você estiver tendo um desafio tecnológico e precisar de algum suporte no caminho, fique à vontade para entrar em contato conosco.
-Você pode se juntar a nós no [Twitter] [1], [LinkedIn] [2] e nossa página [Facebook] [3]. Que tendências de negócios e tecnologia você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato] [4].
+Você pode se juntar a nós no [Twitter][1], [LinkedIn][2] e nossa página [Facebook][3]. Que tendências de negócios e tecnologia você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato][4].
 
 ## Explore
 Você pode encontrar os artigos mais relacionados abaixo:
-  * [Tendências de desenvolvimento de software para procurar em 2021] [5]
-  * [5 melhores ferramentas de marketing digital para ajudá -lo a crescer em 2021] [6]
-  * [Importantes práticas de marketing digital para startups em 2021] [7]
-  * [Software do mercado de código aberto 5 em 2021] [8]
-  * [5 Top 5 Software de armazenamento em nuvem de código aberto em 2021] [9]
-  * [Fila de mensagens mais popular (MQ) Software em 2021] [10]
-  * [Top 5 Ferramentas forenses digitais de código aberto em 2021] [11]
+  * [Tendências de desenvolvimento de software para procurar em 2021][5]
+  * [5 melhores ferramentas de marketing digital para ajudá -lo a crescer em 2021][6]
+  * [Importantes práticas de marketing digital para startups em 2021][7]
+  * [Software do mercado de código aberto 5 em 2021][8]
+  * [5 Top 5 Software de armazenamento em nuvem de código aberto em 2021][9]
+  * [Fila de mensagens mais popular (MQ) Software em 2021][10]
+  * [Top 5 Ferramentas forenses digitais de código aberto em 2021][11]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

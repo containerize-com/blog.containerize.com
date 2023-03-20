@@ -18,10 +18,10 @@ categories: ['Blogging']
 WordPress, kurumsal düzeyde açık kaynaklı bir blog platformudur. A ** WordPress eklentisi **, WordPress'in işlevselliğini geliştiren ve genişleten bağımsız bir kod kümesidir. PHP, HTML, CSS, JavaScript/JQuery kombinasyonunu kullanarak. Bir eklenti, web sitenizin herhangi bir bölümüne yeni özellikler ekleyebilir.
 Web sitenize ekleyebileceğiniz işlevsellik, her bir eklentinin ne yapacağına bağlıdır. Her şeyi yapmak için bir WordPress eklentisi geliştirilebilir. Küçük bir görevden, bir dizi işlem gerçekleştiren ve kendi arayüzlerine sahip tam bir uygulamaya kadar. Eklentiler, işlevlerini yerine getirmek için kancalar, filtreler, kısa kodlar, widget'lar ve özel kod kullanarak temanızdan farklıdır ve bağımsız olarak çalışır.
 Bu WordPress eklenti öğreticisinde, ilk WordPress eklentimizi nasıl oluşturacağımızı öğreneceğiz. Bir eklenti oluşturmanın en önemli nedeni, kendi kodunuzu WordPress Core kodundan ayırmanıza izin vermesidir.
-  *** [Gereksinimler] [1] **
-  *** [eklenti geliştirmenin temelleri] [2] **
-  *** [WP eklentisi nasıl oluşturulur?] [3] **
-  *** [Sonuç] [4] **
+  *** [Gereksinimler][1] **
+  *** [eklenti geliştirmenin temelleri][2] **
+  *** [WP eklentisi nasıl oluşturulur?][3] **
+  *** [Sonuç][4] **
 
 ## Gereksinimler {#Requirements}
   * WordPress'in son sürümü
@@ -32,13 +32,13 @@ Bu WordPress eklenti öğreticisinde, ilk WordPress eklentimizi nasıl oluştura
 Eklenti geliştirmenin bazı önemli yönleri hakkında konuşalım. Bu kavramların nasıl çalıştığına dair sağlam bir anlayış, kullanımı kolay ve sürdürülebilir işlevsellik oluşturmanıza yardımcı olacaktır.
 
 ### Hareketler
-** Action Hooks ** ** WordPress ** ** eklentisinde çok kullanışlı bir araçtır ve bir temanın veya eklentinin belirli yerlerinde işlevleri (** Eylemler **) gerçekleştirmek için kullanılırlar. WordPress, temel işlevselliği boyunca tanımlanan düzinelerce eyleme sahiptir, her bir eylem benzersiz bir isimden oluşur. Daha fazla ayrıntı için [okuyun] [5].
+** Action Hooks ** ** WordPress ** ** eklentisinde çok kullanışlı bir araçtır ve bir temanın veya eklentinin belirli yerlerinde işlevleri (** Eylemler **) gerçekleştirmek için kullanılırlar. WordPress, temel işlevselliği boyunca tanımlanan düzinelerce eyleme sahiptir, her bir eylem benzersiz bir isimden oluşur. Daha fazla ayrıntı için [okuyun][5].
 
 ### Filtreler
-Bir WordPress filtresi, bir değişkeni (veya değişken serisini) kabul eden ve değiştirildikten sonra bunları geri döndüren bir kancadır. Bu filtreler genellikle varsayılan bilgileri manipüle etmek için bir yolunuz olması için kullanılır. Daha fazla ayrıntı için [okuyun] [6].
+Bir WordPress filtresi, bir değişkeni (veya değişken serisini) kabul eden ve değiştirildikten sonra bunları geri döndüren bir kancadır. Bu filtreler genellikle varsayılan bilgileri manipüle etmek için bir yolunuz olması için kullanılır. Daha fazla ayrıntı için [okuyun][6].
 
 ### Kısa kodlar
-Kısa kodlar, içerikle dinamik etkileşimler gerçekleştirmek için kullanılabilen makrolardır. yani gönderiye bağlı resimlerden bir galeri oluşturma veya bir video oluşturma. Sonuç olarak, içeriği temiz ve semantik tutmanın değerli bir yoludur ve son kullanıcılara içeriklerinin sunumunu programlı olarak değiştirme yeteneğine izin verir. Daha fazla ayrıntı için [okuyun] [7].
+Kısa kodlar, içerikle dinamik etkileşimler gerçekleştirmek için kullanılabilen makrolardır. yani gönderiye bağlı resimlerden bir galeri oluşturma veya bir video oluşturma. Sonuç olarak, içeriği temiz ve semantik tutmanın değerli bir yoludur ve son kullanıcılara içeriklerinin sunumunu programlı olarak değiştirme yeteneğine izin verir. Daha fazla ayrıntı için [okuyun][7].
 
 ### widget'lar
 Widget'lar önemlidir, çünkü kullanımı kolay bir arayüz sağlarken eklentinizin kodunu yürütmenin başka bir yolu sunarlar. Çoğu tema bir veya daha fazla kenar çubuğunu destekleyeceğinden; Kendi widget'larınızı eklemek, bilgilerinizi temanın içinde görüntülemenize hızlı erişim sağlayacaktır.
@@ -102,14 +102,16 @@ echo get_page_views() . “view(s)”
 
 ## Sonuç {#Conclusion}
 Bu WordPress eklenti öğreticisinin sonu. Bu makaleyi takip ederek ve yalnızca bir avuç işlev kullanarak, en popüler yayınlarımızı izlemek için temel bir eklenti oluşturduk. Bunu çok geliştirebiliriz, ancak amaç sadece temel bilgileri rahatlatmaktı. Dahası, WordPress geliştirme modellerini (eklentiler, kancalar vb.) Öğrenerek, size WordPress olmayan ortamlarda da hizmet verecek beceriler kazanıyorsunuz. Açık kaynak bloglama platformları ve açık kaynaklı CMS ile ilgili birçok blog yazısı vardır. aşağıdaki keşif bölümünde bulabilirsiniz. Bu blog yazısı, işletmeniz için açık kaynaklı bir bloglama platformu dağıtmak istiyorsanız size gerçekten yardımcı olabilir.
-Son olarak, [Containerize.com] [8] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [bloglama] [9] ve [iş zekası yazılımı] [10] kategorileri ile iletişim halinde olun
+Son olarak, [Containerize.com][8] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [bloglama][9] ve [iş zekası yazılımı][10] kategorileri ile iletişim halinde olun
 
 ## Keşfetmek
-  * [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial] [11]
-  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın] [12]
-  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu] [13]
-  * [Joomla vs Drupal | 2021'de CMS karşılaştırması] [14]
-  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler] [15]
+  * [WordPress için Matomo Nasıl Kurulur | WordPress Tutorial][11]
+  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın][12]
+  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu][13]
+  * [Joomla vs Drupal | 2021'de CMS karşılaştırması][14]
+  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler][15]
+
+  
 [1]: #requirements
 [2]: #basics
 [3]: #create

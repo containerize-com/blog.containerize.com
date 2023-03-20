@@ -12,11 +12,11 @@ categories: ['Single Sign-On']
 ## In diesem Artikel wird die Zwei-Faktor-Authentifizierung im Detail erläutert und wie diese in .NET 5 unter Verwendung von Identitäts-Frameworks wie IdentityServer4 und einem SMS-Anbieter (Twilio) implementiert werden kann.
 {{_LINE_11_}}
 Es enthält die folgenden Abschnitte:
-  * [Was ist die Zwei-Faktor-Authentifizierung? ] [1]
-  * [Wie funktioniert 2FA?] [2]
-  * [2FA- und Multi-Faktor-Authentifizierung] [3]
-  * [Nachteile der Verwendung von 2FA] [4]
-  * [Implementieren von 2FA in .NET5] [5]
+  * [Was ist die Zwei-Faktor-Authentifizierung? ][1]
+  * [Wie funktioniert 2FA?][2]
+  * [2FA- und Multi-Faktor-Authentifizierung][3]
+  * [Nachteile der Verwendung von 2FA][4]
+  * [Implementieren von 2FA in .NET5][5]
 Lassen Sie uns zunächst verstehen, was 2FA ist und warum es ein wesentlicher Bestandteil jeder modernen Webanwendung sein muss.
 
 ## Was ist eine Zwei-Faktor-Authentifizierung? {#2fa}
@@ -187,8 +187,10 @@ Step-4-Code wird verifiziert und die 2FA-Authentifizierung wurde abgeschlossen.
 
 
 ### Abschluss:
-In diesem Artikel haben wir mit IdentityServer4 und Twilio von 2FA und seiner Implementierung in .NET5 erfahren. Sie können den in diesem Artikel verwendeten Beispielcode aus diesem [Repo] [6] herunterladen.
-Die Verwendung von SMS für 2FA stärkt Ihre Sicherheit sicher, ist jedoch immer noch anfällig für [SIM -Swap -Angriffe] [7]. Daher ermutigen Sicherheitsforscher 2FA, andere Ansätze wie Authenticator -Apps und Sicherheitsschlüssel ([Yubikey] [8]) zu verwenden, die nicht in das Telefonnetzwerk abgefangen werden können. In einem kommenden Artikel werden wir mehr darüber erfahren - bleiben Sie dran!
+In diesem Artikel haben wir mit IdentityServer4 und Twilio von 2FA und seiner Implementierung in .NET5 erfahren. Sie können den in diesem Artikel verwendeten Beispielcode aus diesem [Repo][6] herunterladen.
+Die Verwendung von SMS für 2FA stärkt Ihre Sicherheit sicher, ist jedoch immer noch anfällig für [SIM -Swap -Angriffe][7]. Daher ermutigen Sicherheitsforscher 2FA, andere Ansätze wie Authenticator -Apps und Sicherheitsschlüssel ([Yubikey][8]) zu verwenden, die nicht in das Telefonnetzwerk abgefangen werden können. In einem kommenden Artikel werden wir mehr darüber erfahren - bleiben Sie dran!
+
+  
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

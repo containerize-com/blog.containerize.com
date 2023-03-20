@@ -47,14 +47,16 @@ Lisensi Open Source ISC setara dengan lisensi MIT. Satu -satunya perbedaan terle
 
 ## kesimpulan: {#4a1a}
 Jika Anda sudah sejauh ini, maka Anda tahu bahwa hak cipta perangkat lunak open source bukan untuk orang yang lemah hati. Namun, mengingat fakta bahwa hampir semua pengembang perangkat lunak sangat bergantung pada lisensi open source yang paling ketat dan perusahaan lisensi teratas. Sangat penting untuk memahami dasar -dasar lisensi sumber terbuka yang paling umum dan perbedaan utama antara lisensi open source populer di luar sana. Kami hanya berharap bahwa penjelasan lisensi perangkat lunak berpemilik dan contoh lisensi perangkat lunak open source ini telah membuat ladang lisensi potensial dari lisensi sedikit lebih dapat dinavigasi.
-_Your dapat bergabung dengan kami di [Twitter] [1], [LinkedIn] [2] dan halaman [Facebook] [3] kami. Lisensi open source apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi Anda] [4].
+_Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Facebook][3] kami. Lisensi open source apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi Anda][4].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa artikel lain yang mungkin Anda minati.
-  *** [Top 5 Open Source Container Orchestration Tools for DevOps 2021] [5] **
-  *** [5 Top Open Source Message Queue (MQ) Perangkat lunak pada 2021] [6] **
-  *** [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File] [7] **
-  *** [Alat forensik digital open source paling populer] [8] **
+  *** [Top 5 Open Source Container Orchestration Tools for DevOps 2021][5] **
+  *** [5 Top Open Source Message Queue (MQ) Perangkat lunak pada 2021][6] **
+  *** [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][7] **
+  *** [Alat forensik digital open source paling populer][8] **
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

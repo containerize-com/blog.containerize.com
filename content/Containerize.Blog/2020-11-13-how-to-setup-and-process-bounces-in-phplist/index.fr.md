@@ -13,15 +13,15 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/phplist-2.png" alt="Le processus rebondit phplist">}}
 
-Nous avons écrit des articles pour la mise en œuvre de [multi-location] [1] et [la campagne de newsletter] [2] dans PHPList. Dans cet article, nous couvrirons ces points en détail sur les rebonds de processus dans PHPLIST.
-  * [Qu'est-ce que Phplist?] [3]
-  * [Qu'est-ce que le rebond?] [4]
-  * [Configuration de la gestion du rebond] [5]
-  * [Comment traiter les rebonds?] [6]
-  * [Conclusion] [7]
+Nous avons écrit des articles pour la mise en œuvre de [multi-location][1] et [la campagne de newsletter][2] dans PHPList. Dans cet article, nous couvrirons ces points en détail sur les rebonds de processus dans PHPLIST.
+  * [Qu'est-ce que Phplist?][3]
+  * [Qu'est-ce que le rebond?][4]
+  * [Configuration de la gestion du rebond][5]
+  * [Comment traiter les rebonds?][6]
+  * [Conclusion][7]
 
 ## Qu'est-ce que Phplist? {#phplist}
-PHPLIST est un logiciel d'envoi de newsletter gratuit et open source le plus populaire. PHPLIST permet aux entreprises d'envoyer des e-mails marketing, des mises à jour de produits et des annonces aux abonnés. Il aide les entreprises à gérer la liste, à concevoir une belle newsletter, une campagne de planification et une gestion de rebond. [Lire la suite] [8]
+PHPLIST est un logiciel d'envoi de newsletter gratuit et open source le plus populaire. PHPLIST permet aux entreprises d'envoyer des e-mails marketing, des mises à jour de produits et des annonces aux abonnés. Il aide les entreprises à gérer la liste, à concevoir une belle newsletter, une campagne de planification et une gestion de rebond. [Lire la suite][8]
 
 ## Qu'est-ce que le rebond? {#rebondir}
 Un rebond est un e-mail qui ne peut pas être livré pour le nombre de raisons et le retour à l'expéditeur. Nous pouvons avoir des raisons telles que la boîte aux lettres est complète, l'adresse e-mail n'est plus valide ou une adresse e-mail incorrecte. Pour cette raison, vous devez traiter les rebonds afin que vous n'envoyez pas de courriels à des adresses e-mail non valides.
@@ -39,10 +39,12 @@ Nous expliquerons dans les étapes ci-dessous davantage sur ces configurations.
   * En plus des paramètres ci-dessus du protocole ** POP3 **, vous devrez peut-être ajouter le port et le cryptage.
 
 ## Comment traiter les rebonds? {#processus}
-PHPLIST prend en charge deux méthodes pour les rebonds de processus: manuelle et automatisée. Vous devrez créer un travail CRON pour automatiser le traitement de rebond. Vous pouvez également traiter manuellement les rebonds en visitant ** Système> Boucles de processus ** Page. Par conséquent, vous devez d'abord modifier ** manuellement \ _process \ _bouces ** Paramètres en fonction de vos exigences. Vous pouvez visiter [PHPLIST DOCS] [9] pour configurer Cron Job pour les rebonds de processus.
+PHPLIST prend en charge deux méthodes pour les rebonds de processus: manuelle et automatisée. Vous devrez créer un travail CRON pour automatiser le traitement de rebond. Vous pouvez également traiter manuellement les rebonds en visitant ** Système> Boucles de processus ** Page. Par conséquent, vous devez d'abord modifier ** manuellement \ _process \ _bouces ** Paramètres en fonction de vos exigences. Vous pouvez visiter [PHPLIST DOCS][9] pour configurer Cron Job pour les rebonds de processus.
 
 ## Conclusion {#conclusion}
 Dans cet article, nous avons appris à configurer l'adresse e-mail de rebond et les rebonds de processus. Vous pouvez facilement traiter les rebonds avec la méthode manuelle, si vous avez moins de quantité d'abonnés. Cependant, vous devez utiliser le processus de manutention de Bounce pour automatiser pour les grandes listes. Cela gagnera votre temps et vous aidera à créer des listes d'abonnés propres et valides.
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
 [2]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
 [3]: #phplist

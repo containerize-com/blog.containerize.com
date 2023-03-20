@@ -27,7 +27,7 @@ Im Folgenden finden Sie eine Liste der beliebtesten Hacking -Software, die auf d
   * Abschluss
 
 ## 1. Metasploit {#42db}
-[Metasploit] [1] Framework ist ein Open-Source-Tool und kann kostenlos heruntergeladen werden. Metasploit Pro ist ein kommerzielles Produkt. Die kostenlose Testversion ist für 14 Tage verfügbar. Wenden Sie sich an das Unternehmen, um mehr über seine Preisdetails zu erfahren.
+[Metasploit][1] Framework ist ein Open-Source-Tool und kann kostenlos heruntergeladen werden. Metasploit Pro ist ein kommerzielles Produkt. Die kostenlose Testversion ist für 14 Tage verfügbar. Wenden Sie sich an das Unternehmen, um mehr über seine Preisdetails zu erfahren.
 Es ist die Software für Penetrationstests. Mit dem Metasploit -Framework können Sie Exploit -Code mit einem Remote -Computer entwickeln und ausführen. Es unterstützt plattformübergreifende. Es ist am besten zum Aufbau von anti-fendensischen und Ausweichmaschinen.
 **Hauptmerkmale:**
   * Es ist nützlich, um über Sicherheitslücken zu wissen.
@@ -36,7 +36,7 @@ Es ist die Software für Penetrationstests. Mit dem Metasploit -Framework könne
   * Sie können Sicherheitstest -Tools erstellen.
 
 ## 2. SQLMAP {#66FD}
-[SQLMAP] [2] ist ein Tool zur Automatisierung des Erkennung und Ausnutzung von SQL -Injektionsfehler und zur Übernahme von Datenbankservern. Es ist ein Open-Source-Tool und verfügt über eine leistungsstarke Erkennungsmotor. Es unterstützt MySQL, Oracle, Postgresql und viele mehr. Es unterstützt sechs SQL-Injektionstechniken, boolesche blinde, zeitbasierte, fehlerbasierte, gewerkschaftliche Abfragen, gestapelte Abfragen und außerhalb des Bandes.
+[SQLMAP][2] ist ein Tool zur Automatisierung des Erkennung und Ausnutzung von SQL -Injektionsfehler und zur Übernahme von Datenbankservern. Es ist ein Open-Source-Tool und verfügt über eine leistungsstarke Erkennungsmotor. Es unterstützt MySQL, Oracle, Postgresql und viele mehr. Es unterstützt sechs SQL-Injektionstechniken, boolesche blinde, zeitbasierte, fehlerbasierte, gewerkschaftliche Abfragen, gestapelte Abfragen und außerhalb des Bandes.
 SQLMAP unterstützt die Ausführung beliebiger Befehle und das Abrufen der Standardausgabe, das Herunterladen und Hochladen einer Datei, die Suche nach bestimmten Datenbanknamen usw. Mit Auf diese Weise können Sie direkt eine Verbindung zur Datenbank herstellen.
 **Hauptmerkmale:**
   * Benutzer, Kennworthashes, Rechte, Rollen, Datenbanken, Tabellen und Spalten können alle aufgezählt werden.
@@ -44,7 +44,7 @@ SQLMAP unterstützt die Ausführung beliebiger Befehle und das Abrufen der Stand
   * Unterstützung für das Dumpeln ganzer Datenbanktabellen, eine Reihe von Einträgen oder Auswahlfelder basierend auf den Einstellungen des Benutzers. Der Benutzer kann auch eine Teilmenge von Zeichen aus dem Eintrag der einzelnen Spalte zum Entladen auswählen.
 
 ## 3. Hashcat {#66fd}
-[Hashcat] [3], obwohl es zuletzt auf unserer Liste ist, ist eines der leistungsstärksten Passwort -Cracking- und Ethical Hacking -Programme. Es ist eines der besten verfügbaren Hacker -Programme und kann den Benutzern dabei helfen, vergessene Kennwörter wiederherzustellen, die Sicherheitsprüfungssicherheit zu prüfen oder einfach festzustellen, welche Daten in einem Hash enthalten sind. Dieses Tool ist kostenlos verfügbar.
+[Hashcat][3], obwohl es zuletzt auf unserer Liste ist, ist eines der leistungsstärksten Passwort -Cracking- und Ethical Hacking -Programme. Es ist eines der besten verfügbaren Hacker -Programme und kann den Benutzern dabei helfen, vergessene Kennwörter wiederherzustellen, die Sicherheitsprüfungssicherheit zu prüfen oder einfach festzustellen, welche Daten in einem Hash enthalten sind. Dieses Tool ist kostenlos verfügbar.
 **Hauptmerkmale:**
   * Unterstützt den Betrieb des Kennwortkandidaten -Gehirns.
   * Distributed Cracking -Netzwerke werden unterstützt (unter Verwendung von Overlay)
@@ -53,7 +53,7 @@ SQLMAP unterstützt die Ausführung beliebiger Befehle und das Abrufen der Stand
   * Hilft bei der Restaurierung von
 
 ## 4. nmap {#b3ed}
-[NMAP] [4] ist ein Sicherheitsscanner, ein Portscanner sowie ein Netzwerk -Exploration -Tool. Es ist Open-Source-Software und ist kostenlos verfügbar. Es eignet sich am besten zum Scannen von Netzwerken, einfach zu bedienen und schnell. Es steht für Network Mapper.
+[NMAP][4] ist ein Sicherheitsscanner, ein Portscanner sowie ein Netzwerk -Exploration -Tool. Es ist Open-Source-Software und ist kostenlos verfügbar. Es eignet sich am besten zum Scannen von Netzwerken, einfach zu bedienen und schnell. Es steht für Network Mapper.
 Es unterstützt plattformübergreifende. Es kann für das Netzwerkinventar, die Verwaltung von Service -Upgrade -Zeitplänen und für die Überwachung der Host- und Service -Verfügbarkeit verwendet werden. Es kann sowohl für einen einzelnen Host als auch für große Netzwerke funktionieren. Es bietet Binärpakete für Linux, Windows und Mac OS X.
 **Hauptmerkmale:**
   * Datenübertragung, Umleitung und Debugging -Tool (NCAT),
@@ -67,7 +67,7 @@ Es unterstützt plattformübergreifende. Es kann für das Netzwerkinventar, die 
   * Und viele andere Eigenschaften.
 
 ## 5. John the Ripper {#b3ed}
-[John the Ripper] [5] ist ein Werkzeug für das Kennwortriss. Es kann unter Windows, DOS und geöffneten VMs verwendet werden. Es ist ein Open-Source-Tool. Es wird erstellt, um schwache Unix -Passwörter zu erkennen. Es eignet sich am besten zum schnellen Kennwortriss.
+[John the Ripper][5] ist ein Werkzeug für das Kennwortriss. Es kann unter Windows, DOS und geöffneten VMs verwendet werden. Es ist ein Open-Source-Tool. Es wird erstellt, um schwache Unix -Passwörter zu erkennen. Es eignet sich am besten zum schnellen Kennwortriss.
 **Hauptmerkmale:**
   * John the Ripper kann verwendet werden, um verschiedene verschlüsselte Passwörter zu testen.
   * Es führt Wörterbuchangriffe durch.
@@ -84,15 +84,17 @@ Es gibt Dutzende anderer ethischer Hacking -Plattform mit Open -Source -Plattfor
 
 ## Schlussfolgerung: {#4a1a}
 Wie hier erläutert, dient Metasploit auch für die Sicherheit und ist gut für den Aufbau von anti-feinhigen und Ausweichungsinstrumenten. NMAP wird für Computersicherheit und Netzwerkverwaltung verwendet. Es ist gut, um das Netzwerk zu scannen. Gemäß den online verfügbaren Bewertungen empfehlen Personen, NMAP anstelle eines verärgerten IP -Scanners zu verwenden, da der Angry IP -Scanner mit unerwünschten Anwendungen ausgestattet ist. John the Ripper ist schnell im Passwort knackt. Niko ist ein gutes Open-Source-Tool für Penetrationstests.
-_What _open Quelle Ethische Hacking -Tools _Do, die Sie verwenden? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen] [6].
+_What _open Quelle Ethische Hacking -Tools _Do, die Sie verwenden? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][6].
 
 ## Erkunden
 Möglicherweise finden Sie die mehr verwandten Artikel unter den Artikeln:
-  * [So installieren Sie Sharetribe Peer-to-Peer Marketplace-Software] [7]
-  * [So installieren Sie Cocorico Marketplace, um Dienstleistungen online zu verkaufen.] [8]
-  * [Open Source Udemy Klon -Lern- und Lehrmarkt] [9]
-  * [Top Digital Marketplace -Softwareoptionen] [10]
-  * [Top 5 Open Source Cloud Storage -Software in 2021] [11]
+  * [So installieren Sie Sharetribe Peer-to-Peer Marketplace-Software][7]
+  * [So installieren Sie Cocorico Marketplace, um Dienstleistungen online zu verkaufen.][8]
+  * [Open Source Udemy Klon -Lern- und Lehrmarkt][9]
+  * [Top Digital Marketplace -Softwareoptionen][10]
+  * [Top 5 Open Source Cloud Storage -Software in 2021][11]
+
+  
 [1]: https://www.metasploit.com/
 [2]: https://sqlmap.org/
 [3]: https://hashcat.net/hashcat/

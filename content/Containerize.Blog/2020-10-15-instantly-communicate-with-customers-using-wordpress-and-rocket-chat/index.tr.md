@@ -16,10 +16,10 @@ categories: ['Blogging', 'Live Chat']
 Rocket.chat ekibi, WordPress anlık mesajlaşma ve WordPress içinden canlı sohbet için ücretsiz bir açık kaynak eklentisi sunar. WordPress ve Rocket.Chat Entegrasyonu, müşterilerinizin sizinle doğrudan ve anında sohbet etmesini sağlar. Bu, gelen soruları kendiniz veya temsilcilerinize atayarak yönetmenizi kolaylaştırır.
 Rocket.Chat Canlı Sohbet eklentisi% 100 açık kaynaklı sohbet sunucusu ile çalışır. Bu, müşterilerinizle anında iletişim kurmak isteyebileceğiniz tüm esneklik ve kontrol ile kendi kendine barındırılan uygun maliyetli bir çözümdür. Sonuç olarak, iletişim verilerinizin gizliliği sağlanır ve web sitenizde canlı sohbet etmek için aylık abonelik ücretleri konusunda endişelenmenize gerek yoktur.
 Bu blog gönderisindeki aşağıdaki bölümleri ele alacağız:
-  * [Açıklama] [1]
-  * [Özellikler] [2]
-  * [Eklenti kurulumu] [3]
-  * [Son düşünceler] [4]
+  * [Açıklama][1]
+  * [Özellikler][2]
+  * [Eklenti kurulumu][3]
+  * [Son düşünceler][4]
 
 ## açıklama: {#description}
 WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet widget'ı koymanızı sağlar. WordPress Live Chat, müşterilerin destek veya satış aracılarınızla tek bir tıklamayla gerçek zamanlı olarak işbirliği yapmalarını sağlar. Anında iletişim, müşterilerin sorularının hızlı bir şekilde çözülmesine yardımcı olur ve karar vermeyi hızlandırır. Bu nedenle bu çözüm, daha hızlı bir şekilde dönerek yeni müşteriler kazanmanıza ve mevcut müşterilerin memnuniyetini ve sadakatini artırmanıza yardımcı olabilir.
@@ -37,7 +37,7 @@ WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet
 ## eklenti kurulumu: {#plugin}
   1. WordPress sitenizin Yönetici Gösterge Tablosuna gidin.
   2. Ardından eklentilere taşıyın.
-  3. Ardından aşağıdaki eklenti yükleyin: [Rocket.Chat Livechat] [5]
+  3. Ardından aşağıdaki eklenti yükleyin: [Rocket.Chat Livechat][5]
   4. Bundan sonra eklentiyi etkinleştirin.
   5. Başarılı kurulumdan sonra ayarlara gidin.
   6. “Rocket.Chat Livechat” bölümüne bakın.
@@ -52,8 +52,10 @@ Worpress ve Rocket.Chat Entegrasyonu, gerçek zamanlı konuşmalar yoluyla müş
 
 ## Keşfetmek:
 Rocket.chat ve WordPress hakkında daha fazla bilgi edinmek için lütfen şu sayfaları kontrol edin:
-[En iyi ücretsiz ve açık kaynaklı canlı sohbet yazılımı] [6]
-[WordPress - ücretsiz açık kaynak ve en yaygın kullanılan CMS ve bloglama aracı] [7]
+[En iyi ücretsiz ve açık kaynaklı canlı sohbet yazılımı][6]
+[WordPress - ücretsiz açık kaynak ve en yaygın kullanılan CMS ve bloglama aracı][7]
+
+  
 [1]: #description
 [2]: #features
 [3]: #plugin

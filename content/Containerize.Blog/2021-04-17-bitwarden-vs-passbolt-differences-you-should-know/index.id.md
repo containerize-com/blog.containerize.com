@@ -14,10 +14,10 @@ categories: ['Uncategorized']
 {{< figure align=center src="images/bitwarden.png" alt="Manajer Kata Sandi Sumber Terbuka | Bitwarden vs Passbolt|Manajer Kata Sandi Sumber Terbuka | Bitwarden vs Passbolt">}}
 
 Ketika datang untuk menemukan manajer kata sandi yang tidak hanya berfungsi untuk penggunaan individual tetapi juga memungkinkan tim dan perusahaan mengelola dan mengakses informasi yang lebih sensitif, menemukan manajer kata sandi yang tepat dapat membantu meringankan aliran kerja. Bitwarden dan Passbolt keduanya adalah perangkat lunak manajer kata sandi open source, yang telah dirancang khusus untuk tim dan memungkinkan bisnis untuk meng -host aplikasi secara lokal atau di cloud. Kami akan membahas topik -topik berikut dalam posting ini untuk membandingkan Bitwarden vs Passbolt:
-  * [Apa itu bitwarden?] [1]
-  * [Apa itu Passbolt?] [2]
-  * [Perbedaan Utama] [3]
-  * [Kesimpulan] [4]
+  * [Apa itu bitwarden?][1]
+  * [Apa itu Passbolt?][2]
+  * [Perbedaan Utama][3]
+  * [Kesimpulan][4]
 
 ## ** Apa itu bitwarden? **
 Bitwarden adalah manajer kata sandi open source yang menjanjikan yang memiliki kompatibilitas lintas platform termasuk aplikasi seluler dan web bersama dengan antarmuka baris perintah juga. Anda juga dapat mengakses Bitwarden di desktop Anda karena memiliki kompatibilitas dengan Windows, MacOS, dan Linux. Sebagai manajer kata sandi open source, Bitwarden dapat digunakan untuk penggunaan individu serta di tingkat perusahaan. Anda tidak hanya dapat meng -host bitwarden di server Anda tetapi juga memiliki cloud hosting, dan dengan kompatibilitas perangkat silang itu dapat diakses kapan pun Anda butuhkan.
@@ -53,9 +53,11 @@ Dalam posting ini, kami mencoba membahas perbandingan detail dari Bitwarden vs P
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan berikut yang relevan:
-[Bitwarden | Open Source Cross-Platform Password Manager] [5]
-[Passbolt | Manajer Kata Sandi Gratis, Open Source & Self-Hosted] [6]
-[Pengaturan & Kelola Keepass Password Manager untuk Windows] [7]
+[Bitwarden | Open Source Cross-Platform Password Manager][5]
+[Passbolt | Manajer Kata Sandi Gratis, Open Source & Self-Hosted][6]
+[Pengaturan & Kelola Keepass Password Manager untuk Windows][7]
+
+  
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

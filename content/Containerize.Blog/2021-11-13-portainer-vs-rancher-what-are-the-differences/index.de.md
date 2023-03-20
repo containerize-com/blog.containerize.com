@@ -24,8 +24,8 @@ Portainer und Rancher können als Container -Management -Tools eingestuft werden
   * **Abschluss**
 
 ## ** 1. Was ist Portainer? **
-[Portainer] [1] ist die beliebteste Container -Management -Plattform. DevOps Engineers beschreiben Portainer als einfache Verwaltungs -Benutzeroberfläche für Docker. Portainer ist eine UI von Open Source Lightweight Contianer Management und ermöglicht es Ihnen, Ihre Docker -Umgebungen einfach zu verwalten. Es war noch nie so einfach, Docker zu verwalten, aber Portainer ist unter Windows-, Linux- und Mac -Betriebssystemen verfügbar. Portainer -Alternativen sind Azure Container Registry, Rancher und Docker Swarm. Es wurde 2017 in Neuseeland gegründet und die Standard -GUI -Standardport von Portainer ist 9000.
-Portainer ist ein leistungsstarkes Open -Source -Management -Toolset, mit dem Sie Docker -Produktionsumgebungen einfach erstellen, verwalten und verwalten können. Es wurde entwickelt, um Kunden dabei zu helfen, die Docker-Container-Technologie einzusetzen und Zeit-zu-Wert-Wert zu beschleunigen. Portainer integriert sich in Docker Swarm und Kubernetes -basierte Cluster -Management. Portainer ist ein Open -Source -Tool mit 20,1K -Github -Sternen und 1,8K -Github -Gabeln. Öffnet die Quellcontainerisierungsplattform ** Portainer -Quellcode -Repository ** ist unter [Github] [2] verfügbar. Einige der von Portainer für Containeranwendungen angebotenen Funktionen sind:
+[Portainer][1] ist die beliebteste Container -Management -Plattform. DevOps Engineers beschreiben Portainer als einfache Verwaltungs -Benutzeroberfläche für Docker. Portainer ist eine UI von Open Source Lightweight Contianer Management und ermöglicht es Ihnen, Ihre Docker -Umgebungen einfach zu verwalten. Es war noch nie so einfach, Docker zu verwalten, aber Portainer ist unter Windows-, Linux- und Mac -Betriebssystemen verfügbar. Portainer -Alternativen sind Azure Container Registry, Rancher und Docker Swarm. Es wurde 2017 in Neuseeland gegründet und die Standard -GUI -Standardport von Portainer ist 9000.
+Portainer ist ein leistungsstarkes Open -Source -Management -Toolset, mit dem Sie Docker -Produktionsumgebungen einfach erstellen, verwalten und verwalten können. Es wurde entwickelt, um Kunden dabei zu helfen, die Docker-Container-Technologie einzusetzen und Zeit-zu-Wert-Wert zu beschleunigen. Portainer integriert sich in Docker Swarm und Kubernetes -basierte Cluster -Management. Portainer ist ein Open -Source -Tool mit 20,1K -Github -Sternen und 1,8K -Github -Gabeln. Öffnet die Quellcontainerisierungsplattform ** Portainer -Quellcode -Repository ** ist unter [Github][2] verfügbar. Einige der von Portainer für Containeranwendungen angebotenen Funktionen sind:
   * Container Easy Deployment & Management
   * Überwachen Sie die Leistung und das Verhalten
   * IT -Governance und Sicherheit
@@ -33,8 +33,8 @@ Portainer ist ein leistungsstarkes Open -Source -Management -Toolset, mit dem Si
   * Docker Cluster Management
 
 ## 2. Was ist Rancher?
-[Rancher] [3] ist eine Open -Source -Container -Management -Plattform für Kubernetes. Es enthält die vollständigen Verteilungen von Kubernetes, Apache Mesos und Docker Swarm, die es einfach machen, Containercluster auf jeder Cloud- oder Infrastrukturplattform zu betreiben. Rancher wird als Open -Source -Management -Plattform für das Ausführen von Containerservices und zum Erstellen von Clustern beschrieben. Es kann problemlos neue Cluster von Grund auf neu einsetzen oder sogar vorhandene Kubernetes -Cluster importieren. Rancher wurde so konstruiert, dass sie mehrere Kubernetes -basierte Cluster -Management überall ausführen und verwalten. Rancher Web GUI arbeitet an Standardport 80/443.
-Rancher ist ein kompletter Software -Stack für Teams, die an Containern arbeiten, und Hosting Rancher kann kompliziert sein. Es erleichtert erfolgreich die operativen und Sicherheitsherausforderungen bei der Verwaltung mehrerer Kubernetes -Cluster und bietet gleichzeitig Entwicklungs- und Betriebsteams integrierte Tools zum Ausführen von Container -Software. Wenn Sie Container für Ihre Produktions- oder Entwicklungscluster -Umgebungen bereitstellen, benötigen Sie schnellen Zugriff auf die Protokollierung, um Containerfehler zu analysieren. Eine gute Lösung besteht also darin, Rancher in Ihren DevOps -Clustern auf oder außerhalb der Cloud bereitzustellen. Rancher ist ein Open -Source -Tool mit 18,1K -Github -Sternen und 2,4K -Github -Gabeln. ** Rancher Source Code Repository ** ist unter [Github] [4] verfügbar. Der Rancher bietet die folgenden Schlüsselfunktionen:
+[Rancher][3] ist eine Open -Source -Container -Management -Plattform für Kubernetes. Es enthält die vollständigen Verteilungen von Kubernetes, Apache Mesos und Docker Swarm, die es einfach machen, Containercluster auf jeder Cloud- oder Infrastrukturplattform zu betreiben. Rancher wird als Open -Source -Management -Plattform für das Ausführen von Containerservices und zum Erstellen von Clustern beschrieben. Es kann problemlos neue Cluster von Grund auf neu einsetzen oder sogar vorhandene Kubernetes -Cluster importieren. Rancher wurde so konstruiert, dass sie mehrere Kubernetes -basierte Cluster -Management überall ausführen und verwalten. Rancher Web GUI arbeitet an Standardport 80/443.
+Rancher ist ein kompletter Software -Stack für Teams, die an Containern arbeiten, und Hosting Rancher kann kompliziert sein. Es erleichtert erfolgreich die operativen und Sicherheitsherausforderungen bei der Verwaltung mehrerer Kubernetes -Cluster und bietet gleichzeitig Entwicklungs- und Betriebsteams integrierte Tools zum Ausführen von Container -Software. Wenn Sie Container für Ihre Produktions- oder Entwicklungscluster -Umgebungen bereitstellen, benötigen Sie schnellen Zugriff auf die Protokollierung, um Containerfehler zu analysieren. Eine gute Lösung besteht also darin, Rancher in Ihren DevOps -Clustern auf oder außerhalb der Cloud bereitzustellen. Rancher ist ein Open -Source -Tool mit 18,1K -Github -Sternen und 2,4K -Github -Gabeln. ** Rancher Source Code Repository ** ist unter [Github][4] verfügbar. Der Rancher bietet die folgenden Schlüsselfunktionen:
   * Kubernetes Management und Bereitstellung
   * Benutzerverwaltung und Zusammenarbeit
   * Containerorchestrierung und -planung
@@ -56,11 +56,13 @@ _What Open Source Container Management Technolog_y bevorzugen Sie_?. Haben Sie F
 
 ## Erkunden:
 Wir haben mehrere andere verwandte Artikel, um das tägliche Aufgabenmanagement für IT-Administratoren zu bewältigen:
-  *** [Top 5 Open Source Container Orchestration Tools für DevOps 2021] [6] **
-  *** [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software] [7] **
-  *** [Top 5 Open Source Message Queue (MQ) Software im Jahr 2021] [8] **
-  *** [beliebteste Open Source Digital Forensic Tools] [9] **
-  *** [beliebteste Open-Source-Lizenzen] [10] **
+  *** [Top 5 Open Source Container Orchestration Tools für DevOps 2021][6] **
+  *** [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][7] **
+  *** [Top 5 Open Source Message Queue (MQ) Software im Jahr 2021][8] **
+  *** [beliebteste Open Source Digital Forensic Tools][9] **
+  *** [beliebteste Open-Source-Lizenzen][10] **
+
+  
 [1]: https://www.portainer.io/
 [2]: https://github.com/portainer/portainer
 [3]: https://rancher.com/

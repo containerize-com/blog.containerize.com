@@ -13,12 +13,12 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Como implementar o cache do BROWSR com a configuração NGINX">}}
 
-Em nossa série de tutoriais do NGINX, abordamos [como usar o nginx como balanceador de carga] [1], [configurar o nginx como proxy reverso] [2], [use várias versões PHP com nginx] [3] e [convertem htaccess rewrite Regras para as diretivas de reescrita nginx] [4]. No artigo de hoje, estamos cobrindo um tópico muito importante que ajuda as empresas a melhorar a experiência de seu usuário, aproveitando o cache do navegador. Neste tutorial, o guiaremos sobre como implementar cache de navegador com a configuração do NGINX usando o módulo de cabeçalho do NGINX. Vamos começar!
-  *** [Cache do navegador de alavancagem] [5] **
-  *[** módulo de cabeçalho nginx **] [6]
-  *[** E-TAGE E IF-NONE-MATCH **] [7]
-  *[** Cache do navegador de alavancagem com configuração nginx **] [8]
-  *[** Conclusão **] [9]
+Em nossa série de tutoriais do NGINX, abordamos [como usar o nginx como balanceador de carga][1], [configurar o nginx como proxy reverso][2], [use várias versões PHP com nginx][3] e [convertem htaccess rewrite Regras para as diretivas de reescrita nginx][4]. No artigo de hoje, estamos cobrindo um tópico muito importante que ajuda as empresas a melhorar a experiência de seu usuário, aproveitando o cache do navegador. Neste tutorial, o guiaremos sobre como implementar cache de navegador com a configuração do NGINX usando o módulo de cabeçalho do NGINX. Vamos começar!
+  *** [Cache do navegador de alavancagem][5] **
+  *[** módulo de cabeçalho nginx **][6]
+  *[** E-TAGE E IF-NONE-MATCH **][7]
+  *[** Cache do navegador de alavancagem com configuração nginx **][8]
+  *[** Conclusão **][9]
 
 ## Cache de navegador de alavancagem {#Browser-Caching}
 Quanto mais rápido um site carrega, maior a probabilidade de um visitante permanecer no site. Os sites com muitas imagens e conteúdo interativo são carregados em segundo plano, tornam o site abrir uma tarefa complexa. Consiste em solicitar muitos arquivos diferentes do servidor um por um. Minimizar a quantidade dessas solicitações é uma maneira de acelerar seu site.
@@ -108,8 +108,10 @@ Da mesma forma, você pode colocar a configuração do cache no bloco _server_ a
 O módulo de cabeçalhos do NGINX pode ser usado para adicionar cabeçalhos arbitrários à resposta, mas definir adequadamente os cabeçalhos de controle de cache é um de seus aplicativos mais úteis. Ajuda você a melhorar o desempenho do site, especialmente para os usuários em redes com maior latência, como redes de transportadoras móveis. Neste tutorial, aprendemos a aproveitar o armazenamento em cache do navegador com a configuração do NGINX. Espero que isso ajude você a melhorar a experiência do seu usuário em seu site.
 
 ## Explore
-  * [Como instalar várias versões PHP com Nginx no Ubuntu] [3]
-  * [Como configurar e configurar o nginx como proxy reverso] [2]
+  * [Como instalar várias versões PHP com Nginx no Ubuntu][3]
+  * [Como configurar e configurar o nginx como proxy reverso][2]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

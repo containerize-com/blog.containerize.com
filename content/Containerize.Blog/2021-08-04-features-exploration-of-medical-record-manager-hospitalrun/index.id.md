@@ -15,16 +15,16 @@ categories: ['Healthcare Software']
 
 
 ## Ringkasan
-Open Source [Perangkat Lunak Kesehatan] [1] telah mendapatkan popularitas yang sangat besar di masa lalu. Pertama, ini karena kemajuan teknologi. Kedua, Covid-19 memengaruhi industri medis dalam segala hal dan melahirkan kesempatan baru bagi komunitas open source. Sangat penting untuk menyediakan layanan perawatan kesehatan berkualitas tinggi kepada pasien ketika seluruh dunia melewati waktu yang penting. Untungnya, beberapa solusi manajemen catatan kesehatan open source tersedia yang menyediakan sentralisasi data, transparansi, keamanan, integrasi, dan banyak fitur kuat lainnya. Layanan perawatan kesehatan gratis ini menawarkan kelancaran manajemen alur kerja seperti dokter, pasien, klinik, dan anggota staf lainnya. Baru -baru ini, [containerize.com] [2] telah menerbitkan beberapa artikel tentang sistem manajemen informasi rumah sakit open source yang mencakup [5 perangkat lunak catatan kesehatan open source top] [3], [fitur eksplorasi solusi kesehatan medis OpenEMR] [4], dan [Bagaimana Perangkat Lunak Kesehatan Online Memberdayakan Industri Kesehatan] [5].
-Di masa lalu, kami menulis sebuah artikel yang menjelaskan prosedur pengaturan [HospitalRun] [6] di Localhost. Dalam posting blog ini, kami akan mengeksplorasi [HospitalRun] [6] lebih lanjut dengan membahas poin -poin berikut.
-  *** [Mengapa HospitalRun?] [7] **
-  *** [Pasien dan Modul Penjadwalan] [8] **
-  *** [integrasi lab dan obat -obatan] [9] **
-  *** [pencitraan dan insiden] [10] **
-  *** [Kesimpulan] [11] **
+Open Source [Perangkat Lunak Kesehatan][1] telah mendapatkan popularitas yang sangat besar di masa lalu. Pertama, ini karena kemajuan teknologi. Kedua, Covid-19 memengaruhi industri medis dalam segala hal dan melahirkan kesempatan baru bagi komunitas open source. Sangat penting untuk menyediakan layanan perawatan kesehatan berkualitas tinggi kepada pasien ketika seluruh dunia melewati waktu yang penting. Untungnya, beberapa solusi manajemen catatan kesehatan open source tersedia yang menyediakan sentralisasi data, transparansi, keamanan, integrasi, dan banyak fitur kuat lainnya. Layanan perawatan kesehatan gratis ini menawarkan kelancaran manajemen alur kerja seperti dokter, pasien, klinik, dan anggota staf lainnya. Baru -baru ini, [containerize.com][2] telah menerbitkan beberapa artikel tentang sistem manajemen informasi rumah sakit open source yang mencakup [5 perangkat lunak catatan kesehatan open source top][3], [fitur eksplorasi solusi kesehatan medis OpenEMR][4], dan [Bagaimana Perangkat Lunak Kesehatan Online Memberdayakan Industri Kesehatan][5].
+Di masa lalu, kami menulis sebuah artikel yang menjelaskan prosedur pengaturan [HospitalRun][6] di Localhost. Dalam posting blog ini, kami akan mengeksplorasi [HospitalRun][6] lebih lanjut dengan membahas poin -poin berikut.
+  *** [Mengapa HospitalRun?][7] **
+  *** [Pasien dan Modul Penjadwalan][8] **
+  *** [integrasi lab dan obat -obatan][9] **
+  *** [pencitraan dan insiden][10] **
+  *** [Kesimpulan][11] **
 
 ## Mengapa HospitalRun? {#Mengapa}
-Ada banyak alasan di balik popularitas manajer rekaman medis ini. HospitalRun adalah catatan kesehatan elektronik lengkap dan sistem informasi rumah sakit. Ini mendukung versi offline dan online. Ini memungkinkan Anda mengintegrasikan klinik dan memberikan sinkronisasi data. Selain itu, ini multibahasa, lintas platform, dan muncul dengan kemampuan hosting sendiri. Sistem catatan pasien ini menawarkan manajemen catatan pasien, penjadwalan janji temu, obat -obatan, dan manajemen resep. Ada juga ketentuan untuk menghasilkan laporan khusus yang berisi detail diagnostik lengkap. Selain itu, anggota staf medis dapat mengambil bantuan dari modul pelepasan pasien. Di atas segalanya, sistem manajemen rumah sakit ini menawarkan manajemen kasus -kasus darurat dan darurat. Ini aman, andal, dan ramah pengguna. Namun, sistem manajemen rekam medis ini sepenuhnya ditulis dalam JavaScript dan semua kode sumber tersedia di [GitHub] [12] dengan dokumentasi mengenai pengembangan dan penyebaran.
+Ada banyak alasan di balik popularitas manajer rekaman medis ini. HospitalRun adalah catatan kesehatan elektronik lengkap dan sistem informasi rumah sakit. Ini mendukung versi offline dan online. Ini memungkinkan Anda mengintegrasikan klinik dan memberikan sinkronisasi data. Selain itu, ini multibahasa, lintas platform, dan muncul dengan kemampuan hosting sendiri. Sistem catatan pasien ini menawarkan manajemen catatan pasien, penjadwalan janji temu, obat -obatan, dan manajemen resep. Ada juga ketentuan untuk menghasilkan laporan khusus yang berisi detail diagnostik lengkap. Selain itu, anggota staf medis dapat mengambil bantuan dari modul pelepasan pasien. Di atas segalanya, sistem manajemen rumah sakit ini menawarkan manajemen kasus -kasus darurat dan darurat. Ini aman, andal, dan ramah pengguna. Namun, sistem manajemen rekam medis ini sepenuhnya ditulis dalam JavaScript dan semua kode sumber tersedia di [GitHub][12] dengan dokumentasi mengenai pengembangan dan penyebaran.
 
 ## pasien dan modul penjadwalan {#modules}
 Di bagian ini, kami akan melalui dasbor sistem manajemen informasi rumah sakit ini. Setelah Anda masuk, Anda akan mendarat di dasbor HospitalRun seperti yang ditunjukkan pada gambar di bawah ini.
@@ -56,19 +56,21 @@ Pencitraan adalah tentang menciptakan representasi visual dari sesuatu dengan me
 
 ## kesimpulan {#conclusion}
 Ini adalah akhir dari posting blog ini. Bahkan, sebagian besar lembaga kesehatan bergantung pada operasi manual. Ini bisa rentan sehubungan dengan keamanan data dan integritas. Namun, sistem otomatis memastikan aspek dasar dan paling penting dari operasi perawatan kesehatan rutin. Oleh karena itu, pemasangan manajer rekaman medis open-source yang baik melindungi aset Anda dari sumber yang tidak sah dan membantu Anda melakukan tugas rutin dengan mudah dan percaya diri. Perangkat lunak open source ini menyinkronkan beberapa entitas seperti dokter, pasien, klinik, laboratorium dan membuat alur kerja lebih mudah. Intinya adalah, sudah saatnya untuk mengadopsi perangkat lunak open source untuk rumah sakit atau klinik Anda untuk kudeta dengan tantangan terbaru. Anda dapat menghemat waktu dan upaya Anda dan fokus pada tugas -tugas penting yang penting.
-Akhirnya, [containerize.com] [2] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Teknologi Kesehatan] [1] untuk berita dan pembaruan reguler.
+Akhirnya, [containerize.com][2] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Teknologi Kesehatan][1] untuk berita dan pembaruan reguler.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Openemr] [13]
-  * [OpenMrs] [14]
-  * [HospitalRun] [15]
-  * [Rumah Sakit Terbuka] [16]
-  * [Solismed] [17]
-  * [Perangkat Lunak Catatan Kesehatan Pasien Sumber Terbuka Top] [3]
-  * [Fitur Eksplorasi OpenemR Solusi Kesehatan Medis] [4]
-  * [Cara Mengatur Sistem EHealth Hospitalrun di LocalHost] [18]
-  * [Bagaimana Perangkat Lunak Kesehatan Online Memberdayakan Industri Kesehatan] [5]
+  * [Openemr][13]
+  * [OpenMrs][14]
+  * [HospitalRun][15]
+  * [Rumah Sakit Terbuka][16]
+  * [Solismed][17]
+  * [Perangkat Lunak Catatan Kesehatan Pasien Sumber Terbuka Top][3]
+  * [Fitur Eksplorasi OpenemR Solusi Kesehatan Medis][4]
+  * [Cara Mengatur Sistem EHealth Hospitalrun di LocalHost][18]
+  * [Bagaimana Perangkat Lunak Kesehatan Online Memberdayakan Industri Kesehatan][5]
+
+  
 [1]: https://products.containerize.com/healthcare-technologies/
 [2]: https://www.containerize.com/
 [3]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/

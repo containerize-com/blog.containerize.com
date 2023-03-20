@@ -15,14 +15,14 @@ categories: ['Rapid Application Development']
 
 
 ## Ringkasan
-Jika Anda ingin mempercepat proses pengembangan Anda menggunakan [perangkat lunak pengembangan aplikasi cepat] [1] dan fokus Anda adalah pada turnover, maka posting blog ini untuk Anda. Di masa lalu, kami menerbitkan sebuah artikel [5 Perangkat Lunak Pengembangan Aplikasi Cepat Gratis Top pada tahun 2021] [2]. Ini meminta perangkat lunak prototipe cepat open source yang banyak digunakan. Ada posting blog lain dengan judul [tutorial Jhipster untuk mengatur dan membuat aplikasi pertama] [3]. Ini adalah posting blog tutorial yang menunjukkan platform RAD populer bernama [Jhipster] [4].
+Jika Anda ingin mempercepat proses pengembangan Anda menggunakan [perangkat lunak pengembangan aplikasi cepat][1] dan fokus Anda adalah pada turnover, maka posting blog ini untuk Anda. Di masa lalu, kami menerbitkan sebuah artikel [5 Perangkat Lunak Pengembangan Aplikasi Cepat Gratis Top pada tahun 2021][2]. Ini meminta perangkat lunak prototipe cepat open source yang banyak digunakan. Ada posting blog lain dengan judul [tutorial Jhipster untuk mengatur dan membuat aplikasi pertama][3]. Ini adalah posting blog tutorial yang menunjukkan platform RAD populer bernama [Jhipster][4].
 Di dunia yang serba cepat ini, menjadi sangat sulit untuk memenuhi kebutuhan pengembangan perangkat lunak yang selalu berubah. Pertama, tim pengembangan perangkat lunak perlu memastikan pengiriman yang sering. Kedua, prototipe aplikasi apa pun memberikan gambaran lengkap tentang seluruh proyek, karenanya prototyping adalah faktor lain. Ketiga, tim sekarang mempertimbangkan umpan balik pelanggan bagian terpenting dari siklus pengembangan. Pengembang waktu menyadari kelemahan dari metode air terjun tradisional. Namun, mereka mengadopsi pembangun MVP open source yang mendukung iterasi dan revisi tanpa batas.
-Untuk mengatasi ini dan beberapa aspek penting lainnya, metodologi ** rad ** telah mendapatkan banyak popularitas. Namun, ada banyak [RAD Software] [1] yang tersedia untuk memenuhi kecepatan pertumbuhan bisnis dan klien.
+Untuk mengatasi ini dan beberapa aspek penting lainnya, metodologi ** rad ** telah mendapatkan banyak popularitas. Namun, ada banyak [RAD Software][1] yang tersedia untuk memenuhi kecepatan pertumbuhan bisnis dan klien.
 Dalam posting blog ini, kami akan melalui poin -poin berikut.
-  * [Apa itu pembuatan prototipe dan pengembangan aplikasi yang cepat ??] [5]
-  * [Apa itu metodologi RAD?] [6]
-  * [Manfaat Perangkat Lunak RAD?] [7]
-  * [Kesimpulan] [8]
+  * [Apa itu pembuatan prototipe dan pengembangan aplikasi yang cepat ??][5]
+  * [Apa itu metodologi RAD?][6]
+  * [Manfaat Perangkat Lunak RAD?][7]
+  * [Kesimpulan][8]
 
 ## Apa itu pembuatan prototipe dan pengembangan aplikasi yang cepat? {#rad}
 Pendekatan pengembangan aplikasi yang cepat kurang difokuskan pada perencanaan yang ketat dan lebih banyak pada pengembangan. Ini sangat dekat dengan pendekatan pengembangan perangkat lunak yang gesit. Berbeda dengan model air terjun, itu fleksibel dan mendukung revisi pada tahap apa pun.
@@ -52,17 +52,19 @@ Mari kita lihat apa manfaat yang bisa kita dapatkan dengan mengadopsi perangkat 
 
 ## ** Kesimpulan ** {#conclusion}
 Inilah akhir dari tutorial ini. Ada banyak model pengembangan perangkat lunak seperti model air terjun, model spiral, model berbentuk V, model gesit, dan beberapa lagi. Jadi, adopsi model apa pun tergantung pada kasus penggunaan Anda dan sifat perangkat lunak. Oleh karena itu, posting blog ini akan sangat membantu Anda jika Anda ingin mengadopsi model RAD untuk bisnis Anda. Terlepas dari platform, ada beberapa perangkat lunak pengembangan aplikasi cepat open source yang menawarkan kemampuan lintas platform dengan alat pengembangan. Ada perangkat lunak prototyping cepat lainnya yang tersedia di bagian 'Jelajahi' di bawah ini yang mengikuti metodologi RAD. Ini adalah waktu yang tepat untuk mengadopsi pendekatan yang hemat biaya dan kuat ini untuk mengembangkan perangkat lunak bisnis yang siap-produksi.
-Pada akhirnya, [containerize.com] [9] sedang dalam proses berkelanjutan memperkenalkan open source [perangkat lunak RAD] [1]. Ikuti kategori [Pengembangan Aplikasi Cepat] [1] ini untuk pembaruan rutin. Selanjutnya, perangkat lunak yang tercantum di bawah ini di bagian Explore adalah open source, gratis dan diselenggarakan sendiri. Semua ini ** generator kode sumber ** dilengkapi dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran.
+Pada akhirnya, [containerize.com][9] sedang dalam proses berkelanjutan memperkenalkan open source [perangkat lunak RAD][1]. Ikuti kategori [Pengembangan Aplikasi Cepat][1] ini untuk pembaruan rutin. Selanjutnya, perangkat lunak yang tercantum di bawah ini di bagian Explore adalah open source, gratis dan diselenggarakan sendiri. Semua ini ** generator kode sumber ** dilengkapi dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Platform Kuba] [10]
-  * [QuickApp] [11]
-  * [Jhipster] [4]
-  * [li3] [12]
-  * [Apache isis] [13]
-  * [Top 5 Perangkat Lunak Pengembangan Aplikasi Cepat Gratis di 2021] [2]
-  * [Tutorial Jhipster untuk mengatur dan membuat aplikasi pertama] [3]
+  * [Platform Kuba][10]
+  * [QuickApp][11]
+  * [Jhipster][4]
+  * [li3][12]
+  * [Apache isis][13]
+  * [Top 5 Perangkat Lunak Pengembangan Aplikasi Cepat Gratis di 2021][2]
+  * [Tutorial Jhipster untuk mengatur dan membuat aplikasi pertama][3]
+
+  
 [1]: https://products.containerize.com/rad
 [2]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
 [3]: https://blog.containerize.com/2020/10/28/jhipster-tutorial-to-setup-and-create-the-first-application/

@@ -67,14 +67,16 @@ La technologie blockchain permet ** les transactions entre pairs ** afin que les
 
 ## ** Conclusion: ** {# 4A1A}
 Nous sommes arrivés à la fin de notre liste des technologies émergentes des 10 meilleures technologies émergentes ** ** ces dix meilleures technologies open source ont radicalement changé le monde qui nous entoure. Ce monde serait un endroit très différent sans ces plates-formes et technologies open source. Il existe des alternatives à source fermée disponibles pour ces technologies gratuites. FOSS4G et State of the Map Events sont des opportunités d'en savoir plus sur les besoins de l'open source de logiciels. Presque tout serait différent sans l'évolution du logiciel open source ** **. Reconnaissant pour l'initiative et les communautés open source.
-_Les quels sont votre liste de technologies open source préférée?. Avez-vous des questions sur l'Open Source _technologies_?, S'il vous plaît_ [contacter] [1].
+_Les quels sont votre liste de technologies open source préférée?. Avez-vous des questions sur l'Open Source _technologies_?, S'il vous plaît_ [contacter][1].
 
 ## Explorer:
 Nous avons également plusieurs autres informations connexes de la montre OSS:
-  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source] [2]
-  * [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021] [3]
-  * [Outils médico-légaux numériques les plus populaires] [4]
-  * [Licences open source les plus populaires approuvées OSI] [5]
+  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source][2]
+  * [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021][3]
+  * [Outils médico-légaux numériques les plus populaires][4]
+  * [Licences open source les plus populaires approuvées OSI][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

@@ -15,12 +15,12 @@ categories: ['Content Management']
 
 In diesem digitalen Zeitalter ist ein Content -Management -System eine grundlegende Notwendigkeit eines Unternehmens für alle Anforderungen an die Erstellung von Inhalten. Und es gibt eine Reihe von Open-Source-CMS-Software auf dem Markt. Wir haben auch [1] einige der besten Open-Source-Content-Management-Software für Unternehmen. Joomla ist eine der beliebtesten Open-Source-CMS-Software. In diesem Tutorial führen wir Sie Schritt für Schritt durch und erklären Sie, wie Sie eine Joomla-Vorlage von Grund auf neu erstellen. Also lasst uns anfangen!
 ** HINWEIS: Wir gehen davon aus, dass Sie Joomla 2.5 -Version installiert haben **
-  *** [Setup -Verzeichnisstruktur] [2] **
-  *** [Erstellen Sie eine grundlegende Vorlagensetails.xml -Datei] [3] **
-  *** [Erstellen Sie eine grundlegende Index.php -Datei] [4] **
-  *** [Entdecken und installieren Sie Vorlage] [5] **
-  *** [Paket die Vorlage] [6] **
-  *** [Schlussfolgerung] [7] **
+  *** [Setup -Verzeichnisstruktur][2] **
+  *** [Erstellen Sie eine grundlegende Vorlagensetails.xml -Datei][3] **
+  *** [Erstellen Sie eine grundlegende Index.php -Datei][4] **
+  *** [Entdecken und installieren Sie Vorlage][5] **
+  *** [Paket die Vorlage][6] **
+  *** [Schlussfolgerung][7] **
 
 ## Setup -Verzeichnisstruktur {#setup}
 Erstellen Sie zuerst eine sehr einfache Joomla -Vorlage, erstellen Sie einen neuen Ordner im Ordner Vorlagen. Nennen Sie den Ordner, was auch immer Sie Ihre Vorlage nennen möchten, z. B. "** myNewTemplate **".
@@ -106,7 +106,9 @@ In diesem Artikel haben wir etwas über die Joomla -Vorlage erfahren. Wir haben 
 
 ## Relevante Produktseiten
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Joomla Template Development Guide für Anfänger] [8]
+  * [Joomla Template Development Guide für Anfänger][8]
+
+  
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

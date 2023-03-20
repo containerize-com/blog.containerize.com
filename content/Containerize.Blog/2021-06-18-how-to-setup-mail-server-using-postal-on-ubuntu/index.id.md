@@ -14,13 +14,13 @@ categories: ['Transactional Email']
 {{< figure align=center src="images/postal-banner.png" alt="Server surat open source">}}
 
 Mengirim email pada berbagai jenis acara diperlukan untuk aplikasi modern. Setiap bisnis membutuhkan server email ** yang andal ** untuk email keluar. Lebih lanjut, perusahaan memerlukan server surat untuk mengirim email massal untuk kampanye pemasaran, buletin, dan banyak tugas lainnya. Ada beberapa ** server surat open source ** tersedia untuk ini. Namun, kita akan membahas ** server pos ** secara rinci dalam posting ini dan membahas topik -topik berikut.
-  * [Apa itu server surat pos?] [1]
-  * [Fitur Pos] [2]
-  * [Instalasi Pos] [3]
-  * [Kesimpulan] [4]
+  * [Apa itu server surat pos?][1]
+  * [Fitur Pos][2]
+  * [Instalasi Pos][3]
+  * [Kesimpulan][4]
 
 ## Apa itu server surat pos? {#Postal}
-[** Pos **] [5] adalah server surat open source gratis dan **. Ini adalah server email berfitur lengkap untuk situs web dan aplikasi web. Server Pos Mail adalah alternatif untuk server email ** yang ada ** seperti SendGrid, dan MailGun. ** Pos ** adalah platform pengiriman email open source yang kuat, aman, dan terukur. Semua kode sumber dan dokumentasi tersedia di [** github **] [6]. Anda dapat mengunduh, menginstalnya di server pribadi Anda dan tetap mengendalikannya. Anda juga dapat meningkatkan dan meningkatkannya sesuai kebutuhan bisnis. Selain itu, ** server surat pos ** mendukung banyak organisasi.
+[** Pos **][5] adalah server surat open source gratis dan **. Ini adalah server email berfitur lengkap untuk situs web dan aplikasi web. Server Pos Mail adalah alternatif untuk server email ** yang ada ** seperti SendGrid, dan MailGun. ** Pos ** adalah platform pengiriman email open source yang kuat, aman, dan terukur. Semua kode sumber dan dokumentasi tersedia di [** github **][6]. Anda dapat mengunduh, menginstalnya di server pribadi Anda dan tetap mengendalikannya. Anda juga dapat meningkatkan dan meningkatkannya sesuai kebutuhan bisnis. Selain itu, ** server surat pos ** mendukung banyak organisasi.
 Pengguna dapat melihat grafik dan statistik yang menunjukkan volume surat yang masuk & keluar. Selain itu, Anda dapat mengakses antrian pesan keluar & masuk lengkap. Server Pos Mail menyediakan fungsionalitas untuk webhooks. Anda dapat mengatur webhooks untuk menerima informasi langsung tentang informasi pengiriman secara real-time. Ini juga menawarkan retensi pesan yang memungkinkan Anda untuk menyimpan dan memeriksa semua pesan mengirim dan menerima. Pengiriman email sangat penting dalam bisnis untuk memastikan bahwa pengguna mendapatkan email. Namun, terkadang email mengirimkan ke pengguna dan Anda harus menyelidiki masalah ini. Server email yang masuk dan keluar dan keluar ** juga menyediakan penebangan dan alat lengkap untuk melakukan penyelidikan.
 
 ## fitur pos {#features}
@@ -282,13 +282,15 @@ sudo systemctl restart nginx
 
 ## kesimpulan {#conclusion}
 Kami telah membahas pendahuluan dan fitur utama dari server surat pos secara mendalam. Kami juga menyertakan instruksi langkah demi langkah untuk mengatur agen transfer ** email ini **. Selain itu, kami telah memberikan beberapa wawasan tentang pengaturan. Menyiapkan server surat pos adalah proses yang sederhana. Saya harap artikel ini memang bermanfaat dalam mengatur dan mengkonfigurasi server surat pos untuk bisnis Anda.
-Akhirnya, [** containerize.com **] [7] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** email transaksional **] [8] ini untuk pembaruan terbaru.
+Akhirnya, [** containerize.com **][7] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** email transaksional **][8] ini untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Perangkat Lunak Email Transaksional Top **] [9]
-  *[** Potal - Server Source Open Source **] [5]
-  *[** 5 Perangkat Lunak Server Sumber Sumber Terbaik Terbaik Untuk Bisnis di 2020 **] [10]
+  *[** Perangkat Lunak Email Transaksional Top **][9]
+  *[** Potal - Server Source Open Source **][5]
+  *[** 5 Perangkat Lunak Server Sumber Sumber Terbaik Terbaik Untuk Bisnis di 2020 **][10]
+
+  
 [1]: #Postal
 [2]: #Features
 [3]: #Installation

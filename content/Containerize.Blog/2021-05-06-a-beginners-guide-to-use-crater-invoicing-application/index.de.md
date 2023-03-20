@@ -14,13 +14,13 @@ categories: ['Invoicing']
 {{< figure align=center src="images/blog-crater.png" alt="Open Source -Rechnungssystem">}}
 
 Jedes Unternehmen benötigt eine Art System für die Verwaltung von Rechnungen, Ausgaben, Zahlungen und vielem mehr. Durch die Rechnungssoftware können Sie sie verwalten, damit Sie problemlos Abrechnungsaufgaben ausführen und sich auf andere wichtige Dinge konzentrieren können. In diesem Beitrag lernen wir, wie man Krater einrichtet und es zur Behandlung von Buchhaltungsoperationen für das Unternehmen verwendet.
-  * [Einführung über Crater] [1]
-  * [Installationsverfahren des Kraters] [2]
-  * [Feature Exploration] [3]
-  * [Schlussfolgerung] [4]
+  * [Einführung über Crater][1]
+  * [Installationsverfahren des Kraters][2]
+  * [Feature Exploration][3]
+  * [Schlussfolgerung][4]
 
 ## Einführung über Crater {#Inrotuktion}
-[Crater] [5] ist eine kostenlose und Open -Source -Abrechnungsanwendung. Es ist absolut kostenlos und Sie können es problemlos auf die neuesten Versionen aktualisieren. Es ist ein kostenloses Buchhaltungssystem für kleine Unternehmen und Freiberufler. Es handelt sich auch um eine vollständige Rechnungslösung, mit der Sie Ausgaben und Zahlungen im Auge behalten, Steuern berechnen und Schätzungen und Rechnungen erstellen können. Darüber hinaus wird die ausgelösten mobilen Anwendungen für iPhone- und Android-Geräte geliefert. Dadurch können Sie es von jedem Ort aus verwalten. Da Crater eine webbasierte Abrechnungssoftware ist, wurde die Webanwendung mit Laravel und VueJs entwickelt und die mobilen Apps sind mit React Native erstellt. Alle Dokumentationen im Zusammenhang mit Entwicklung und Bereitstellung sind verfügbar. Der vollständige Quellcode finden Sie unter [Github] [6].
+[Crater][5] ist eine kostenlose und Open -Source -Abrechnungsanwendung. Es ist absolut kostenlos und Sie können es problemlos auf die neuesten Versionen aktualisieren. Es ist ein kostenloses Buchhaltungssystem für kleine Unternehmen und Freiberufler. Es handelt sich auch um eine vollständige Rechnungslösung, mit der Sie Ausgaben und Zahlungen im Auge behalten, Steuern berechnen und Schätzungen und Rechnungen erstellen können. Darüber hinaus wird die ausgelösten mobilen Anwendungen für iPhone- und Android-Geräte geliefert. Dadurch können Sie es von jedem Ort aus verwalten. Da Crater eine webbasierte Abrechnungssoftware ist, wurde die Webanwendung mit Laravel und VueJs entwickelt und die mobilen Apps sind mit React Native erstellt. Alle Dokumentationen im Zusammenhang mit Entwicklung und Bereitstellung sind verfügbar. Der vollständige Quellcode finden Sie unter [Github][6].
 
 ## Installationsverfahren von Crater {#installation}
 Wir werden diskutieren, wie das Krater mit der manuellen Methode und Docker in diesem Abschnitt installiert wird.
@@ -68,12 +68,14 @@ In diesem Abschnitt werden wir die Kernfunktionen dieser Open -Source -Abrechnun
 
 ## Schlussfolgerung {#Conclusion}
 Wir haben von Krater und wie man es manuell und mit Docker eingerichtet. Wir haben uns auch einige der Funktionen angesehen, die jede Rechnungslegungs -Abrechnungssoftware bereitstellen sollte. Hoffentlich kann dieser Leitfaden Sie bei der schnellen Implementierung eines Open -Source -Rechnungssystems für Ihr Unternehmen unterstützen.
-Schließlich schreibt [Containerize.com] [7] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Rechnungsstellung] [8] in Kontakt, um regelmäßige Updates zu erhalten.
+Schließlich schreibt [Containerize.com][7] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Rechnungsstellung][8] in Kontakt, um regelmäßige Updates zu erhalten.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Krater - kostenloses Buchhaltungssystem für Kleinunternehmen] [5]
-  * [Top 5 Open -Source -Buchhaltungssoftware im Jahr 2021] [9]
+  * [Krater - kostenloses Buchhaltungssystem für Kleinunternehmen][5]
+  * [Top 5 Open -Source -Buchhaltungssoftware im Jahr 2021][9]
+
+  
 [1]: #Introduction
 [2]: #Installation
 [3]: #Feature

@@ -15,15 +15,15 @@ categories: ['Artificial intelligence']
 
 
 ## 概述
-最近推出的[chatgpt] [1]已成为技术界的流行语。有些人赞成，并考虑这种**ai聊天机器人**对生产力和透明度的威胁。好吧，[Containerize.com] [2]正在撰写有关该OpenAI GPT-3模型的使用和集成。实际上，[Google Docs] [3]是编写和数据表示的好工具。另一只手是Chatgpt的出现是对话[AI] [4]工具，该工具以对话方式响应自然语言查询。该AI工具基于机器学习，由[OpenAI] [5]开发。但是，这篇博客文章是关于**chatgpt和Google**的，我们将学习如何实现**Google文档与ChatGpt**集成。毫无疑问，我们可以通过在Google文档中安装chatgpt附加组件来携带**Google文档自动化**。
+最近推出的 [chatgpt][1] 已成为技术界的流行语。有些人赞成，并考虑这种**ai聊天机器人**对生产力和透明度的威胁。好吧，[Containerize.com][2]正在撰写有关该OpenAI GPT-3模型的使用和集成。实际上，[Google Docs][3]是编写和数据表示的好工具。另一只手是Chatgpt的出现是对话[AI][4]工具，该工具以对话方式响应自然语言查询。该AI工具基于机器学习，由[OpenAI][5]开发。但是，这篇博客文章是关于**chatgpt和Google**的，我们将学习如何实现**Google文档与ChatGpt**集成。毫无疑问，我们可以通过在Google文档中安装chatgpt附加组件来携带**Google文档自动化**。
 我们将在此博客文章中浏览以下几点：
-* [**如何获取OpenAI API密钥？**] [6]
-***[让我们与Chatgpt集成Google Docs] [7]**
-* [**开始使用chatgpt和google****文档**] [8]
+* [**如何获取OpenAI API密钥？**][6]
+***[让我们与Chatgpt集成Google Docs][7]**
+* [**开始使用chatgpt和google****文档**][8]
 
 ## 如何获取OpenAI API密钥？ {#操作效果 -  openai-api-key}
 为了给您一些介绍，OpenAI是一家专注于人工智能工具的研究与开发的公司。 Chatgpt还由OpenAI开发和推出，而OpenAI开发了一系列GPT模型。
-首先，您需要在OpenAI的[Platform] [9]上创建一个帐户，然后登录。登录后，您将降落在API键页面上，可以在其中通过单击“创建新秘密”按钮来生成API键键”如下所示。
+首先，您需要在OpenAI的[Platform][9]上创建一个帐户，然后登录。登录后，您将降落在API键页面上，可以在其中通过单击“创建新秘密”按钮来生成API键键”如下所示。
 
 {{< figure align=center src="images/openai-api-key-1.gif" alt="OpenAI API键">}}
 
@@ -52,21 +52,23 @@ categories: ['Artificial intelligence']
 
 ## 结论
 总而言之，我们可以肯定地说，您已经学会了如何实现与Chatgpt**集成的Google文档。此外，我们已经看到了如何生成**OpenAI API密钥**并将其设置为启用**OpenAi GPT-3**功能。该Google文档自动化可以严重使您的业务任务受益。此外，不要忘记访问下面“参见”部分中的链接。
-最后，[Containerize.com] [2]不断地撰写有关进一步开源产品和主题的博客文章。此外，您可以在我们的社交媒体帐户[Facebook] [10]，[LinkedIn] [11]和[Twitter] [12]上关注我们。
+最后，[Containerize.com][2]不断地撰写有关进一步开源产品和主题的博客文章。此外，您可以在我们的社交媒体帐户[Facebook][10]，[LinkedIn][11]和[Twitter][12]上关注我们。
 
 ## 问一个问题
-您可以在我们的[论坛] [13]上让我们知道您的问题或查询。
+您可以在我们的[论坛][13]上让我们知道您的问题或查询。
 
 ## 常见问题解答
-* *如何在Google文档中使用GPT-3 API？**
-请访问此[链接] [7]，以了解Google文档与Chatgpt集成的步骤。
+**如何在Google文档中使用GPT-3 API？**
+请访问此[链接][7]，以了解Google文档与Chatgpt集成的步骤。
 
 ## 也可以看看
-  * [如何将Chatgpt与Google床单整合] [14]
-  * [人工智能简介|什么是AI？] [4]
-  * [如何在VSCODE中使用chatgpt | VSCODE扩展代码GPT] [15]
-  * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命] [1]
-  * [什么是前5个开源AI框架] [16]
+  * [如何将Chatgpt与Google床单整合][14]
+  * [人工智能简介|什么是AI？][4]
+  * [如何在VSCODE中使用chatgpt | VSCODE扩展代码GPT][15]
+  * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命][1]
+  * [什么是前5个开源AI框架][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [2]: https://www.containerize.com/
 [3]: https://docs.google.com/document/u/0/

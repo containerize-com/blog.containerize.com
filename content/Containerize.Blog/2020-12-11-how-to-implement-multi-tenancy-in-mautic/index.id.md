@@ -14,16 +14,16 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/Mautic-multitenancy.png" alt="Cara mengimplementasikan multi-tenancy di MAUTIC">}}
 
 MAUTIC adalah solusi otomatisasi pemasaran open source gratis dan open yang memberi Anda kendali penuh atas email pemasaran, halaman arahan, alur kerja, dan langkah -langkah untuk kegiatan pemasaran Anda. Kami akan membahas bagian berikut dalam tutorial ini:
-  * [Apa itu multi-tenancy] [1]
-  * [Apa itu Mautik] [2]
-  * [Menerapkan multi-tenancy in mautic] [3]
-  * [Kesimpulan] [4]
+  * [Apa itu multi-tenancy][1]
+  * [Apa itu Mautik][2]
+  * [Menerapkan multi-tenancy in mautic][3]
+  * [Kesimpulan][4]
 
 ## Apa itu multi-tenancy {#multi-tenancy}
 Dalam arsitektur perangkat lunak multi-tenant, satu contoh aplikasi perangkat lunak melayani banyak penyewa. Setiap data penyewa diisolasi dari penyewa lain yang berbagi contoh aplikasi yang sama. Penyewa ini secara logis terisolasi, tetapi terintegrasi secara fisik. Ini memastikan keamanan dan privasi data untuk semua penyewa. Membuat beberapa penyewa dari satu contoh aplikasi membutuhkan lebih sedikit memori. Penyewa berbagi sumber daya dan mengurangi biaya untuk pemeliharaan perangkat lunak, infrastruktur, dan operasi pusat data. Biaya cenderung lebih rendah dari pada infrastruktur penyewa tunggal.
 
 ## Apa itu mautik {#mautic}
-[MAUTIC] [5] adalah perangkat lunak pemasaran open source gratis dan terbuka. Otomatis tugas pemasaran berulang seperti kampanye pemasaran, generasi pemimpin, segmentasi kontak, dll. Menggunakan MAUTIC. Ini memiliki fitur -fitur yang mengejutkan termasuk generasi pemimpin, pembangunan kampanye, segmentasi kontak, pembangun email, pengujian A/B, pembangun halaman, pemeliharaan timah dan banyak lagi. MAUTIC juga mendukung integrasi dengan semua platform sosial populer mis. Facebook, Twitter, LinkedIn. Semua fitur luar biasa ini membantu Anda meningkatkan pengalaman pelanggan secara keseluruhan dan meningkatkan otomatisasi pemasaran untuk bisnis Anda.
+[MAUTIC][5] adalah perangkat lunak pemasaran open source gratis dan terbuka. Otomatis tugas pemasaran berulang seperti kampanye pemasaran, generasi pemimpin, segmentasi kontak, dll. Menggunakan MAUTIC. Ini memiliki fitur -fitur yang mengejutkan termasuk generasi pemimpin, pembangunan kampanye, segmentasi kontak, pembangun email, pengujian A/B, pembangun halaman, pemeliharaan timah dan banyak lagi. MAUTIC juga mendukung integrasi dengan semua platform sosial populer mis. Facebook, Twitter, LinkedIn. Semua fitur luar biasa ini membantu Anda meningkatkan pengalaman pelanggan secara keseluruhan dan meningkatkan otomatisasi pemasaran untuk bisnis Anda.
 
 ## Implement Multi-tenancy di Mautic {#Implement}
   * Buat database kosong baru yang disebut sebagai "Main_DB".
@@ -53,11 +53,13 @@ Mautic adalah solusi otomatisasi pemasaran yang bebas, kaya, dan berorientasi ku
 
 ## Mengeksplorasi
 Untuk mempelajari lebih lanjut tentang Mautic dan Facebook, silakan kunjungi:
-  * [Mautic | Platform Teknologi Pemasaran Konten Sumber Terbuka] [5]
-  * [Cara Menyiapkan Kampanye Mautik Menggunakan Pembuat Kampanye] [6]
-  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal] [7]
-  * [Otomasi Pemasaran dengan Integrasi Mautik dan WooCommerce] [8]
-  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital] [9]
+  * [Mautic | Platform Teknologi Pemasaran Konten Sumber Terbuka][5]
+  * [Cara Menyiapkan Kampanye Mautik Menggunakan Pembuat Kampanye][6]
+  * [Integrasi Mautik Drupal untuk Mengotomatisasi Pemeliharaan Timbal][7]
+  * [Otomasi Pemasaran dengan Integrasi Mautik dan WooCommerce][8]
+  * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital][9]
+
+  
 [1]: #multi-tenancy
 [2]: #mautic
 [3]: #implement

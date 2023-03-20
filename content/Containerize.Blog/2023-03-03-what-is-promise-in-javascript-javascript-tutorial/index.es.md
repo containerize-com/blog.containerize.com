@@ -15,18 +15,18 @@ categories: ['Programming']
 
 
 ## Descripción general
-Esperamos que tenga una mejor comprensión de [tipos de datos JavaScript] [1]. Ahora, esta es otra publicación de blog en la categoría [Programación] [2]. En este tutorial de JavaScript, pasaremos por**lo que es prometedor en JavaScript**, y junto con eso, también veremos cuáles son las operaciones asincrónicas, el uso de promesas y cómo crear promesas en JavaScript. Primero, un proceso/operación asíncrona es uno que se ejecuta independientemente con respecto a otros procesos y no crea ningún bloqueo. Por lo tanto, debe manejar operaciones asíncronas, de lo contrario, puede crear anormalidades en su código JavaScript. Por lo tanto, exploraremos cómo podemos manejar operaciones asíncronas utilizando promesas.
+Esperamos que tenga una mejor comprensión de [tipos de datos JavaScript][1]. Ahora, esta es otra publicación de blog en la categoría [Programación][2]. En este tutorial de JavaScript, pasaremos por**lo que es prometedor en JavaScript**, y junto con eso, también veremos cuáles son las operaciones asincrónicas, el uso de promesas y cómo crear promesas en JavaScript. Primero, un proceso/operación asíncrona es uno que se ejecuta independientemente con respecto a otros procesos y no crea ningún bloqueo. Por lo tanto, debe manejar operaciones asíncronas, de lo contrario, puede crear anormalidades en su código JavaScript. Por lo tanto, exploraremos cómo podemos manejar operaciones asíncronas utilizando promesas.
 Cubriremos los siguientes puntos en este tutorial de JavaScript:
-***[¿Qué es la promesa en JavaScript? Promesas explicadas] [3]**
-***[¿Por qué usamos la promesa en JavaScript?] [4]**
-***[¿Cómo funciona la promesa en JavaScript?] [5]**
-***[¿Cómo crear una promesa?] [6]**
+***[¿Qué es la promesa en JavaScript? Promesas explicadas][3]**
+***[¿Por qué usamos la promesa en JavaScript?][4]**
+***[¿Cómo funciona la promesa en JavaScript?][5]**
+***[¿Cómo crear una promesa?][6]**
 
 ## ¿Qué es la promesa en JavaScript? Las promesas explicaron {#what-is-promise-in
 Una promesa es un objeto que representa un valor de un clima de operación de asíncrono que se resuelve, se rechaza o está en estado pendiente. En palabras más simples, las promesas se utilizan para devolver un valor que aún no se ha producido por un bloque de código asincrónico. De hecho, hay tres**estados de promesa**y puede estar en cualquiera de los siguientes estados:
-* * pendiente**: La promesa está en un estado pendiente, lo que significa que está en fase inicial y actualmente está en ejecución.
-* * Cumplimiento**: La promesa se resuelve y el valor se ha devuelto.
-* * Rechazado**: Este es el estado causado por cualquier error, lo que significa que la promesa ha sido rechazada.
+**pendiente**: La promesa está en un estado pendiente, lo que significa que está en fase inicial y actualmente está en ejecución.
+**Cumplimiento**: La promesa se resuelve y el valor se ha devuelto.
+**Rechazado**: Este es el estado causado por cualquier error, lo que significa que la promesa ha sido rechazada.
 Una cosa importante a tener en cuenta aquí es que el valor/estado devuelto por la promesa es inmutable y no se puede cambiar, lo que significa que las promesas aseguran que no haya un comportamiento inusual.
 
 ## ¿Por qué usamos la promesa en JavaScript? {#Why-We-Use-Promise-In-JavaScript}
@@ -97,21 +97,23 @@ Entonces, el código dentro del cuerpo de la promesa funciona sincrónicamente p
 Este es el final de este**Tutorial JavaScript**. Espero que tengas una buena idea de las promesas de JavaScript. Hemos cubierto**lo que es prometedor en JavaScript**, por qué usamos Promise en JavaScript,**cómo la promesa funciona en JavaScript**y cómo crear una promesa. Además, cubriremos este tema más sobre su uso avanzado y sus disposiciones. Por lo tanto, revise este artículo en caso de que se esté preparando para una sesión de entrevista.
 
 ## Conéctate con nosotros
-Finalmente, [Contenerize.com] [7] ofrece tutoriales de JavaScript en curso sobre varios temas emocionantes. Puede permanecer en el bucle siguiéndonos en nuestras plataformas de redes sociales, incluidas [Facebook] [8], [LinkedIn] [9] y [Twitter] [10].
+Finalmente, [Contenerize.com][7] ofrece tutoriales de JavaScript en curso sobre varios temas emocionantes. Puede permanecer en el bucle siguiéndonos en nuestras plataformas de redes sociales, incluidas [Facebook][8], [LinkedIn][9] y [Twitter][10].
 
 ## Hacer una pregunta
-Puede informarnos sobre sus preguntas o consultas en nuestro [Foro] [11].
+Puede informarnos sobre sus preguntas o consultas en nuestro [Foro][11].
 
 ## Preguntas frecuentes
-* * ¿Cuáles son las promesas en JavaScript con ejemplo?**
-Siga este [enlace] [3] para saber cuáles son las promesas en JavaScript.
+**¿Cuáles son las promesas en JavaScript con ejemplo?**
+Siga este [enlace][3] para saber cuáles son las promesas en JavaScript.
 
 ## Ver también
-  * [¿Qué son los tipos de datos de JavaScript? | Una guía para principiantes] [1]
-  * [Arquitectura basada en contenedores y contenedores de Kubernetes Multi-Tenancy] [12]
-  * [¿Qué es la computación sin servidor? | Arquitectura sin servidor] [13]
-  * [¿Qué es la multitenancia? | ¿Por qué un enfoque de múltiples inquilinos?] [14]
-  * [¿Qué son los tipos de datos de JavaScript? | Una guía para principiantes] [15]
+  * [¿Qué son los tipos de datos de JavaScript? | Una guía para principiantes][1]
+  * [Arquitectura basada en contenedores y contenedores de Kubernetes Multi-Tenancy][12]
+  * [¿Qué es la computación sin servidor? | Arquitectura sin servidor][13]
+  * [¿Qué es la multitenancia? | ¿Por qué un enfoque de múltiples inquilinos?][14]
+  * [¿Qué son los tipos de datos de JavaScript? | Una guía para principiantes][15]
+
+  
 [1]: https://blog.containerize.com/programming/what-are-javascript-data-types-a-beginners-guide/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-promise-in-JavaScript-Promises-Explained

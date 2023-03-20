@@ -31,11 +31,11 @@ As empresas estão constantemente mudando e procurando soluções digitais para 
 {{< figure align=center src="images/Apache-Cassandra-is-an-open-source-NoSQL-distributed-database.png" alt="Open Source Apache Cassandra NoSQL Distribuído Banco de dados">}}
 
   *** Número de colaboradores: ** 340
-  *** Contribuidor principal: ** Jonathan Ellis, CTO & Co-fundador da DataStax | [@spyced] [1]
+  *** Contribuidor principal: ** Jonathan Ellis, CTO & Co-fundador da DataStax | [@spyced][1]
   *** Língua Primária: ** Java
   *** Número de estrelas: ** 6.900
   *** Número de garfos: ** 2.900
-[Apache Cassandra] [2] é um banco de dados de armazenamento de colunas distribuído e amplo de código aberto ** NOSQL **. Ele foi projetado para gerenciar grandes quantidades de dados estruturados e não estruturados em todo o mundo. Cassandra trabalha com arquitetura pares a pares e suporta apenas o formato de dados ** JSON **. Foi desenvolvido no Facebook para a funcionalidade de pesquisa de caixa de entrada e de origem aberta no Google Code em julho de 2008.
+[Apache Cassandra][2] é um banco de dados de armazenamento de colunas distribuído e amplo de código aberto ** NOSQL **. Ele foi projetado para gerenciar grandes quantidades de dados estruturados e não estruturados em todo o mundo. Cassandra trabalha com arquitetura pares a pares e suporta apenas o formato de dados ** JSON **. Foi desenvolvido no Facebook para a funcionalidade de pesquisa de caixa de entrada e de origem aberta no Google Code em julho de 2008.
 Um dos recursos mais essenciais da Cassandra é o desempenho elástico e linear, que permite um tempo de resposta consistentemente rápido. Os dados são replicados automaticamente para vários nós para tolerância a falhas e fácil distribuição de dados. Melhores software de código aberto Apache Cassandra Maiores ** Implantações de produção ** Inclua Huawei, Apple, Netflix e mecanismo de pesquisa chinês EASOU.
 ** As principais empresas que usam Apache Cassandra ** incluem Facebook, Instagram, Contato Constante, CERN, Comcast, eBay, Github e mais de 1.500 empresas.
 
@@ -44,11 +44,11 @@ Um dos recursos mais essenciais da Cassandra é o desempenho elástico e linear,
 {{< figure align=center src="images/TensorFlow-is-a-popular-open-source-machine-learning-framework-for-artificial-intelligence.png" alt="Biblioteca de Inteligência Artificial de Tensorflow de código aberto">}}
 
   *** Número de colaboradores: ** 2.993
-  *** Contribuidor principal: ** [Tensorflower-Gardener] [3]
+  *** Contribuidor principal: ** [Tensorflower-Gardener][3]
   *** Línguas primárias: ** C ++ e Python
   *** Número de estrelas: ** 159.000
   *** Número de garfos: ** 85.500
-[Tensorflow] [4] é uma popular estrutura de aprendizado de máquina ** para aplicativos de inteligência artificial e visão computacional criados pela ** Google Brain Team ** em 2015 sob uma licença de código aberto do Apache 2.0. A biblioteca Python Tensorflow é usada para computação numérica rápida com gráficos de fluxo de dados. Ele permite que os desenvolvedores se concentrem no treinamento e inferência de redes neurais profundas.
+[Tensorflow][4] é uma popular estrutura de aprendizado de máquina ** para aplicativos de inteligência artificial e visão computacional criados pela ** Google Brain Team ** em 2015 sob uma licença de código aberto do Apache 2.0. A biblioteca Python Tensorflow é usada para computação numérica rápida com gráficos de fluxo de dados. Ele permite que os desenvolvedores se concentrem no treinamento e inferência de redes neurais profundas.
 O software TensorFlow Auto -Host é uma biblioteca de inteligência artificial de ponta a ponta ** ** com base no fluxo de dados e programação diferenciável. Possui ecossistema flexível de ferramentas, bibliotecas e uma comunidade. O software TensorFlow Foss permite treinar e implantar seu modelo facilmente em qualquer idioma ou plataforma em servidores, dispositivos de borda ou web.
 ** As principais empresas que usam TensorFlow ** incluem Qualcomm, Walmart, Nvidia, Onemain Financial, Airbnb, Coca-Cola, GE Healthcare, Google, Twitter e DeepMind.
 
@@ -57,11 +57,11 @@ O software TensorFlow Auto -Host é uma biblioteca de inteligência artificial d
 {{< figure align=center src="images/Kubernetes-open-source-container-orchestration-system-1.png" alt="Sistema de orquestração de contêiner de código aberto Kubernetes">}}
 
   *** Número de colaboradores: ** 3.141
-  *** Principal Colaborador: ** Jordan Liggitt, engenheiro de software da equipe no Google | [@Liggitt] [5]
+  *** Principal Colaborador: ** Jordan Liggitt, engenheiro de software da equipe no Google | [@Liggitt][5]
   *** idioma primário: ** vá
   *** Número de estrelas: ** 81.300
   *** Número de garfos: ** 2.960
-[Kubernetes] [6] é uma plataforma de orquestração de contêineres de código aberto e também conhecido como ** k8s ou kube **. Kubernetes Um OG no espaço do contêiner é um sistema de código aberto para automatizar a construção, implantação, teste, teste, recursos e aplicações em tempo real em tempo real. ** K9S ** Kubernetes, o ** Kubernetes cli ** que facilita a navegação, observação e gerenciamento de seus clusters de Kubernetes.
+[Kubernetes][6] é uma plataforma de orquestração de contêineres de código aberto e também conhecido como ** k8s ou kube **. Kubernetes Um OG no espaço do contêiner é um sistema de código aberto para automatizar a construção, implantação, teste, teste, recursos e aplicações em tempo real em tempo real. ** K9S ** Kubernetes, o ** Kubernetes cli ** que facilita a navegação, observação e gerenciamento de seus clusters de Kubernetes.
 Open ** Orquestração de contêineres ** Sistema Kubernetes A tarefa principal é simplificar os esforços operacionais das equipes técnicas, automatizando muitas da carga de trabalho de aplicativos e implantação de serviços. Foi originalmente desenvolvido pelo Google, agora mantido pela ** Cloud Native Computing Foundation ** (CNCF) e lançado como código aberto em meados de 2014.
 ** As principais empresas que usam Kubernetes ** em suas pilhas de tecnologia incluem Google, China Unicom, Udemy, Spotify, StackShare e AppDirect.
 
@@ -70,12 +70,12 @@ Open ** Orquestração de contêineres ** Sistema Kubernetes A tarefa principal 
 {{< figure align=center src="images/Ansible-open-source-automation-tool.png" alt="Ferramenta de automação Ansible de código aberto">}}
 
   *** Número de colaboradores: ** 5.256
-  *** Contribuidor principal: ** Brian Coca, engenheiro de software da Sr. na Ansible | [@brian_coca] [7]
+  *** Contribuidor principal: ** Brian Coca, engenheiro de software da Sr. na Ansible | [@brian_coca][7]
   *** Linguagem primária: ** Python
   *** Número de estrelas: ** 49.900
   *** Número de garfos: ** 2.110
-[Ansible] [8] é um projeto comunitário de código aberto e um mecanismo popular de automação de TI patrocinado pela ** Red Hat **. É o fornecimento de software, o gerenciamento de configurações e a ferramenta de implantação de aplicativos, permitindo a infraestrutura como código. Além disso, ele é executado nos sistemas do tipo UNIX e no Microsoft Windows Systems. O software de código aberto do Ansible é a maneira mais simples de automatizar aplicativos, linguagem legível por humanos, infraestrutura de TI e entrega contínua.
-Ansible Open Source ** Ferramenta de automação ** e o software livre é escrito em Python e gerencia nós sobre ** SSH **. Ele elimina muitas das complexas tarefas redundantes e foi adquirido pela Red Hat em 2015. Ansible Top Open Source Projects apresentados em [Github Octoverse] [9] Lista dos principais projetos de automação de código aberto pelos colaboradores desde 2016.
+[Ansible][8] é um projeto comunitário de código aberto e um mecanismo popular de automação de TI patrocinado pela ** Red Hat **. É o fornecimento de software, o gerenciamento de configurações e a ferramenta de implantação de aplicativos, permitindo a infraestrutura como código. Além disso, ele é executado nos sistemas do tipo UNIX e no Microsoft Windows Systems. O software de código aberto do Ansible é a maneira mais simples de automatizar aplicativos, linguagem legível por humanos, infraestrutura de TI e entrega contínua.
+Ansible Open Source ** Ferramenta de automação ** e o software livre é escrito em Python e gerencia nós sobre ** SSH **. Ele elimina muitas das complexas tarefas redundantes e foi adquirido pela Red Hat em 2015. Ansible Top Open Source Projects apresentados em [Github Octoverse][9] Lista dos principais projetos de automação de código aberto pelos colaboradores desde 2016.
 ** As principais empresas que usam Ansible ** em suas pilhas de tecnologia incluem Udemy, LaunchDarkly, Andyet, Atlassian, Care.com e Tokopedia.
 
 ## 5. Django
@@ -83,24 +83,26 @@ Ansible Open Source ** Ferramenta de automação ** e o software livre é escrit
 {{< figure align=center src="images/open-source-web-framework.png" alt="Estrutura de aplicativos da web de código aberto django">}}
 
   *** Número de colaboradores: ** 2.111
-  *** Contribuidor principal: ** Tim Graham | [@timograham] [10]
+  *** Contribuidor principal: ** Tim Graham | [@timograham][10]
   *** Linguagem primária: ** Python
   *** Número de estrelas: ** 59.800
   *** Número de garfos: ** 2.550
-[Django] [11] é uma estrutura da web de código aberto de alto nível escrito em Python que segue o modelo de modelo visualiza o padrão arquitetônico. É o software de código aberto mais popular e ** Rapid Application Development Framework ** projetado para ajudar os desenvolvedores do Python para o rápido desenvolvimento da Web. Também ajuda os desenvolvedores da Web a evitar muitos erros de segurança e erros comuns como ** injeção de SQL **, scripts cruzados, clickacking e muito mais.
+[Django][11] é uma estrutura da web de código aberto de alto nível escrito em Python que segue o modelo de modelo visualiza o padrão arquitetônico. É o software de código aberto mais popular e ** Rapid Application Development Framework ** projetado para ajudar os desenvolvedores do Python para o rápido desenvolvimento da Web. Também ajuda os desenvolvedores da Web a evitar muitos erros de segurança e erros comuns como ** injeção de SQL **, scripts cruzados, clickacking e muito mais.
 O Python é uma linguagem de script orientada a objetos usada para criar aplicativos em inteligência artificial, aprendizado de máquina, aplicativos de desktop, etc. A linguagem python é mantida por uma organização independente americana estabelecida como uma 501 (c) (3) sem fins lucrativos, o ** django Software Foundation ** (DSF).
 ** As principais empresas que usam Django ** incluem Instagram, Spotify, National Geographic, Pinterest, MacArthur Foundation, Disqu, Bitbucket, Mozilla, Open Stack e muito mais.
 
 ## ** Conclusão: ** {#4A1A}
 Os cinco projetos de software de código aberto mencionados acima são o software de código aberto mais popular e melhor para desenvolvedores. Se você estiver explorando os bons projetos de código aberto para iniciantes pela primeira vez, confira o relatório do estado de Octovesse e fique à vontade para adicionar e contribuir. Lista de software de código aberto desbloqueia as portas para inovadores e desenvolvedores de aplicativos na construção de uma carreira, permitindo que eles trabalhem em algumas das maiores plataformas do mundo. Os melhores exemplos de software de código aberto que listamos acima são apenas uma prova de quão benéficos são aplicativos de código aberto.
-_ Quais são os seus projetos de software de código aberto mais favoritos e de código aberto?. Você tem alguma dúvida sobre projetos de código aberto?, Por favor [[entre em contato] [12].
+_ Quais são os seus projetos de software de código aberto mais favoritos e de código aberto?. Você tem alguma dúvida sobre projetos de código aberto?, Por favor [[entre em contato][12].
 
 ## Explore:
 Também temos várias outras informações relacionadas do OSS Watch:
-  * [Melhor software de armazenamento e compartilhamento de arquivos de código aberto] [13]
-  * [Software Top 5 de Mensagem de Código Aberto (MQ) em 2021] [14]
-  * [Ferramentas forenses digitais de código aberto mais populares] [15]
-  * [Licenças de código aberto mais populares da OSI-aprovada] [16]
+  * [Melhor software de armazenamento e compartilhamento de arquivos de código aberto][13]
+  * [Software Top 5 de Mensagem de Código Aberto (MQ) em 2021][14]
+  * [Ferramentas forenses digitais de código aberto mais populares][15]
+  * [Licenças de código aberto mais populares da OSI-aprovada][16]
+
+  
 [1]: https://twitter.com/spyced?lang=en
 [2]: https://cassandra.apache.org/
 [3]: https://github.com/tensorflower-gardener

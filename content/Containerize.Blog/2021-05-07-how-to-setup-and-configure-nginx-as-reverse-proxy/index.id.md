@@ -16,7 +16,7 @@ categories: ['Web Server Solution Stack']
 
 ## Ringkasan:
 Nginx dan Apache adalah dua server web open source paling populer ** sering digunakan dengan PHP. Proxy atau gateway terbalik bertindak sebagai koneksi antara klien dan server. Informasi pertukaran klien dan server satu sama lain untuk bekerja terus menerus dan efisien. Proksi terbalik yang paling umum adalah ** nginx dan apache ** dan keduanya dapat dikonfigurasi pada mesin virtual yang sama saat hosting banyak situs web. Proxy terbalik melindungi server web dari serangan dan gateway koneksi muncul ke klien sebagai seperti server web biasa di mana tidak ada konfigurasi proxy reverse nginx khusus yang diperlukan. Klien mengirimkan permintaan sementara proxy terbalik memutuskan ke mana harus meneruskan informasi yang diminta dan kemudian mengirimkan hasil output akhir ke klien.
-Setelah banyak penghargaan untuk seri kami tentang tutorial Redis, kami menerima banyak permintaan untuk memulai seri pada tutorial Nginx. Jadi minggu lalu kami mulai dengan tutorial tentang cara menggunakan [Nginx Reverse Proxy Load Balancer] [1] untuk aplikasi Anda. Contoh konfigurasi proxy terbalik Nginx sederhana ini memberikan banyak manfaat kinerja keandalan dan proxy terbalik NGINX. Nginx Simple Reverse Proxy adalah server proxy Nginx open source yang paling aktif digunakan di Internet. Dalam tutorial ini, kami akan ** mengkonfigurasi dan mengeksplorasi cara menggunakan Nginx sebagai proxy terbalik ** dan cara mengaturnya sebagai proxy terbalik pada satu server. Jadi, mari kita mulai!
+Setelah banyak penghargaan untuk seri kami tentang tutorial Redis, kami menerima banyak permintaan untuk memulai seri pada tutorial Nginx. Jadi minggu lalu kami mulai dengan tutorial tentang cara menggunakan [Nginx Reverse Proxy Load Balancer][1] untuk aplikasi Anda. Contoh konfigurasi proxy terbalik Nginx sederhana ini memberikan banyak manfaat kinerja keandalan dan proxy terbalik NGINX. Nginx Simple Reverse Proxy adalah server proxy Nginx open source yang paling aktif digunakan di Internet. Dalam tutorial ini, kami akan ** mengkonfigurasi dan mengeksplorasi cara menggunakan Nginx sebagai proxy terbalik ** dan cara mengaturnya sebagai proxy terbalik pada satu server. Jadi, mari kita mulai!
   * Apa itu server proxy?
   * Maju vs proxy terbalik
   * Mengkonfigurasi proxy terbalik
@@ -60,7 +60,7 @@ location /path/to/location/ {
 }
 ```
 Nginx juga mendukung buffering yang membantu meningkatkan kinerja. Dengan buffering diaktifkan nginx akan menyimpan respons yang diterimanya dari server proksi selama klien membutuhkannya untuk diunduh.
-Alih -alih membuat semua permintaan ke satu server, Anda juga dapat ** mengatur beberapa server backend ** dan membiarkan nginx balance memuat antara server proksi tersebut. Kami sudah membahas ini di tutorial kami tentang [Nginx Load Balancing] [1].
+Alih -alih membuat semua permintaan ke satu server, Anda juga dapat ** mengatur beberapa server backend ** dan membiarkan nginx balance memuat antara server proksi tersebut. Kami sudah membahas ini di tutorial kami tentang [Nginx Load Balancing][1].
 
 ## Apa keuntungan dari proxy terbalik nginx?
 Berikut ini adalah manfaat dari pengaturan server proxy terbalik nginx:
@@ -74,17 +74,19 @@ Berikut ini adalah manfaat dari pengaturan server proxy terbalik nginx:
 
 ## Kesimpulan:
 Dalam tutorial Proxy Reverse Nginx ini **, kami mengeksplorasi apa itu server proxy nginx dan mengatur proxy terbalik nginx. Perbedaan antara Forward vs Reverse Proxy Server Nginx. Kami juga belajar dengan contoh cara mengatur Nginx sebagai proxy terbalik. Sekarang Anda sepenuhnya memahami cara menginstal ** konfigurasi proxy terbalik Nginx langkah demi langkah **. Tutorial di atas membantu Anda memulai dengan pengaturan proxy terbalik. Dalam tutorial mendatang kami, kami akan membahas lebih banyak topik menarik tentang Nginx.
-_Apa server _reverse proxy_ favorit Anda yang mudah, dinamis, dan berfitur lengkap?. Apakah Anda memiliki pertanyaan tentang leading_ _Open Source _Reverse Prox__y, ** memuat penyeimbang untuk http dan TCP ** Aplikasi berbasis_?, Silakan hubungi [2] [2].
+_Apa server _reverse proxy_ favorit Anda yang mudah, dinamis, dan berfitur lengkap?. Apakah Anda memiliki pertanyaan tentang leading_ _Open Source _Reverse Prox__y, ** memuat penyeimbang untuk http dan TCP ** Aplikasi berbasis_?, Silakan hubungi [2][2].
 
 ## Mengeksplorasi
 Anda mungkin menemukan lebih banyak terkait artikel di bawah ini
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [3]
-  * [Aman Nginx dengan Let's Encrypt on Ubuntu 20.04] [4]
-  * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda] [1]
-  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu] [5]
-  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [6]
-  * [Pasang beberapa versi PHP dengan Nginx di Ubuntu] [7]
-  * [Pengaturan Nginx dengan penumpang di server produksi AWS] [8]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][3]
+  * [Aman Nginx dengan Let's Encrypt on Ubuntu 20.04][4]
+  * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda][1]
+  * [Cara Menginstal dan Mengamankan PHPMyAdmin dengan Nginx di Ubuntu][5]
+  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][6]
+  * [Pasang beberapa versi PHP dengan Nginx di Ubuntu][7]
+  * [Pengaturan Nginx dengan penumpang di server produksi AWS][8]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

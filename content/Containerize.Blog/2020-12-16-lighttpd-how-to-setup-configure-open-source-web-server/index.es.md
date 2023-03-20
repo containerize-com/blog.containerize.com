@@ -13,16 +13,16 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Websites.png" alt="servidor web de código abierto">}}
 
-Bienvenido a otra publicación de blog en la categoría [Pila de soluciones del servidor web] [1]. Hemos publicado muchos artículos como [[Configurar XAMPP y PhPMyAdmin como localhost en Windows] [2]] [3], [Top 5 Pilas de soluciones de servidor web de código web Top Open en 2021] [4] y algunas otras. Estos artículos demostraron la configuración de procesos de varios servidores web de código abierto junto con los artículos de guía detallados. De hecho, se introdujo un servidor web en los años 90 y desde entonces ha ganado la máxima popularidad en el mundo digital. Hay muchos factores que se adjuntan a servir contenido a través de Internet o Intranet. Sin embargo, una gran parte de la industria digital se adjunta a las empresas o comunidades que mantienen soluciones de servidores web. Por lo tanto, los factores como la robustez, la seguridad, la confiabilidad, el almacenamiento, la optimización de datos y algunos otros factores son los principales pilares de un sistema digital de nivel empresarial.
+Bienvenido a otra publicación de blog en la categoría [Pila de soluciones del servidor web][1]. Hemos publicado muchos artículos como [[Configurar XAMPP y PhPMyAdmin como localhost en Windows][2]][3], [Top 5 Pilas de soluciones de servidor web de código web Top Open en 2021][4] y algunas otras. Estos artículos demostraron la configuración de procesos de varios servidores web de código abierto junto con los artículos de guía detallados. De hecho, se introdujo un servidor web en los años 90 y desde entonces ha ganado la máxima popularidad en el mundo digital. Hay muchos factores que se adjuntan a servir contenido a través de Internet o Intranet. Sin embargo, una gran parte de la industria digital se adjunta a las empresas o comunidades que mantienen soluciones de servidores web. Por lo tanto, los factores como la robustez, la seguridad, la confiabilidad, el almacenamiento, la optimización de datos y algunos otros factores son los principales pilares de un sistema digital de nivel empresarial.
 Además, Open Source Community ha desarrollado muchos servidores web de código abierto y servidores proxy web para permitir que el sector corporativo establezca sus propios servidores web para alojar sitios web y software de negocios. LightTPD Web es una pila de soluciones de servidor web gratuito y de código abierto, diseñada especialmente para máquinas Linux. En esta publicación de blog, revisaremos el LightTPD cubriendo el siguiente punto.
-  * [¿Qué es LightTpd?] [5]
-  * [Beneficios de LightTpd] [6]
-  * [¿Cómo configurar LightTpd?] [7]
-  * [Conclusión] [8]
+  * [¿Qué es LightTpd?][5]
+  * [Beneficios de LightTpd][6]
+  * [¿Cómo configurar LightTpd?][7]
+  * [Conclusión][8]
 
 ## ¿Qué es LightTPD? {#qué}
 En comparación con otros servidores web como Apache y Nginx, el servidor web de LightTPD tiene una pequeña huella de memoria, por lo que proporciona una administración efectiva de la carga de CPU. Este servidor web liviano proporciona conjuntos de características avanzadas que incluyen FastCGI, SCGI, Auth, Compresión de salida y Reescritura de URL, etc. Permite que las aplicaciones web escritas en cualquier lenguaje de programación se utilicen con el servidor. FastCGI de LightTPD se puede configurar para admitir PHP. Además de PHP, también admite otros lenguajes de programación, incluidos Python, Perl, Ruby y muchos más.
-Hay muchos servidores web de código abierto y servidores proxy web, pero LightTPD está en la parte superior de la lista que se usa ampliamente. Esta solución de servidor web es muy fácil de configurar y requiere requisitos simples como Ubuntu 18.04. Además, aquellos que desean implementar esta solución de código abierto pueden descargar la última versión de este [enlace] [9]. Sobre todo, admite muchos idiomas además de PHP como Python, Ruby, Perl y más. Además, toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar el código fuente en [GitHub] [10].
+Hay muchos servidores web de código abierto y servidores proxy web, pero LightTPD está en la parte superior de la lista que se usa ampliamente. Esta solución de servidor web es muy fácil de configurar y requiere requisitos simples como Ubuntu 18.04. Además, aquellos que desean implementar esta solución de código abierto pueden descargar la última versión de este [enlace][9]. Sobre todo, admite muchos idiomas además de PHP como Python, Ruby, Perl y más. Además, toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar el código fuente en [GitHub][10].
 
 ## Beneficios de LightPD {#Benefits}
 En esta sección, pasaremos por los beneficios y la disposición que ofrece este servidor web de código abierto. Por lo tanto, si está buscando un servidor web rápido, eficiente y seguro, entonces el servidor web de LightTPD es la mejor opción para usted. No requiere mucha memoria y uso de CPU. Lo que lo convierte en uno de los mejores para cualquier proyecto que necesite velocidad y alto rendimiento. LightTPD puede manejar hasta 10000 conexiones en paralelo en un solo servidor. LightTPD es la solución perfecta para cada servidor que sufre problemas de velocidad o rendimiento. Esta solución gratuita es rentable y eficiente en recursos.
@@ -69,24 +69,26 @@ Después de una compilación exitosa, ahora instale el paquete
 ```
 su make install
 ```
-Compruebe si LightTPD se configura e instala correctamente visitando la URL [http: // su servidor-ip] [11]. Deberías ver la siguiente página
+Compruebe si LightTPD se configura e instala correctamente visitando la URL [http: // su servidor-ip][11]. Deberías ver la siguiente página
 
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="Cómo configurar y configurar LightTPD para sitios web de alto rendimiento">}}
 
 
 ## conclusión {#conclusion}
 Esto nos lleva al final de esta publicación de blog. Hemos pasado por qué es LightTpd? ¿Cómo configurar LightTPD? y configuración del procedimiento. LightTPD es un servidor web gratuito, de alto rendimiento y de código abierto diseñado para entornos críticos de velocidad. La baja huella de memoria, la pequeña carga de CPU y las optimizaciones de velocidad lo hacen adecuado para los servidores que sufren problemas de carga. Es liviano, seguro y rápido en comparación con otros servidores web, lo que lo convierte en una de las mejores opciones para sitios web de alto rendimiento y de velocidad crítica. LightTPD tiene una comunidad muy viva y vibrante que brinda apoyo para problemas y consultas. Hay muchos productos de código abierto operativo y publicaciones de blog relevantes que puede pasar que se mencionan en la sección "Explorar" a continuación. Por lo tanto, este artículo realmente puede ayudarlo si está buscando optar por un servidor web de código abierto para su negocio.
-Finalmente, ** [Contenerize.com] [12] ** ha estado escribiendo en otros productos de código abierto. Manténgase en contacto con esta categoría [pila de soluciones del servidor web] [1] S para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [13], [LinkedIn] [14] y [Twitter] [15].
+Finalmente, ** [Contenerize.com][12] ** ha estado escribiendo en otros productos de código abierto. Manténgase en contacto con esta categoría [pila de soluciones del servidor web][1] S para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][13], [LinkedIn][14] y [Twitter][15].
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [XAMPP] [16]
-  * [Nginx] [17]
-  * [Caddy] [18]
-  * [Lighttpd | Open Source y Ligeweight Web Server Solution] [19]
-  * [Las mejores opciones de pila de solución de servidor web de código web de código abierto] [1]
-  * [Top 5 Pilas de soluciones de servidor web de código web abierto en 2021] [4]
-  * [Configurar XAMPP y PhPMyAdmin como localhost en Windows] [2]
+  * [XAMPP][16]
+  * [Nginx][17]
+  * [Caddy][18]
+  * [Lighttpd | Open Source y Ligeweight Web Server Solution][19]
+  * [Las mejores opciones de pila de solución de servidor web de código web de código abierto][1]
+  * [Top 5 Pilas de soluciones de servidor web de código web abierto en 2021][4]
+  * [Configurar XAMPP y PhPMyAdmin como localhost en Windows][2]
+
+  
 [1]: https://products.containerize.com/solution-stack/
 [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 [3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/

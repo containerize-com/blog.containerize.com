@@ -148,15 +148,17 @@ Luego ingrese su nombre de usuario y contraseña para el administrador. Luego ha
 
 ## ** Conclusión: ** {#4a1a}
 En este tutorial, ha instalado con éxito el intercambio de archivos seguros de código abierto de Pydio Cells Open en su sistema Ubuntu. Puede usar este artículo para crear una infraestructura en la nube para almacenar, asegurar y compartir sus archivos en la nube autohostada. Use el intercambio de documentos colaborativos de Pydio y la mejor aplicación gratuita para compartir archivos para obtener más control de sus datos y garantizar una colaboración eficiente en su organización empresarial. En nuestros próximos tutoriales, discutiremos temas más interesantes de soluciones de almacenamiento en la nube de código abierto y herramientas de colaboración para compartir archivos.
-_Un puede unirse a nosotros en [Twitter] [1], [LinkedIn] [2] y nuestra página [Facebook] [3]. ¿Qué plataforma de compartir de código abierto en Cloud Based_ _File usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto] [4].
+_Un puede unirse a nosotros en [Twitter][1], [LinkedIn][2] y nuestra página [Facebook][3]. ¿Qué plataforma de compartir de código abierto en Cloud Based_ _File usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto][4].
 
 ## Explorar:
 También tenemos varios otros artículos relacionados con la administración diaria de su servidor.
-  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian] [5]
-  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu] [6]
-  * [Asegurar y cifrar nginx con vamos en cifrado en Ubuntu 20.04] [7]
-  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian] [8]
-  * [Configurar nginx con pasajero en el servidor de producción de AWS] [9]
+  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian][5]
+  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu][6]
+  * [Asegurar y cifrar nginx con vamos en cifrado en Ubuntu 20.04][7]
+  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian][8]
+  * [Configurar nginx con pasajero en el servidor de producción de AWS][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

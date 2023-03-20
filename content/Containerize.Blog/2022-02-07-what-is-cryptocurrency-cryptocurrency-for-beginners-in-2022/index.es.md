@@ -58,14 +58,16 @@ Después de esto, deberá completar los cheques de seguridad, como proporcionar 
 
 ## ** Conclusión: ** {#4a1a}
 Con suerte, has aprendido mucho y ahora estás más informado y conocedor sobre el comercio e inversión de criptomonedas que al principio. Ahora es tu turno. Disfrutamos investigando y escribiendo la guía en mente. ¡Buena suerte!
-_ ¿Cuáles son tus proyectos de código abierto de criptomonedas favoritos? ¿Tiene alguna pregunta sobre qué es la moneda digital?, Por favor_ [Póngase en contacto] [1].
+_ ¿Cuáles son tus proyectos de código abierto de criptomonedas favoritos? ¿Tiene alguna pregunta sobre qué es la moneda digital?, Por favor_ [Póngase en contacto][1].
 
 ## Explorar:
 También tenemos otra información relacionada de OSS Watch:
-  * [El mejor software de almacenamiento en la nube de código abierto y compartir archivos] [2]
-  * [Software de cola de mensajes de código abierto (MQ) Top 5 en 2021] [3]
-  * [Herramientas forenses digitales de código abierto más populares] [4]
-  * [Licencias de código abierto aprobadas por OSI más populares] [5]
+  * [El mejor software de almacenamiento en la nube de código abierto y compartir archivos][2]
+  * [Software de cola de mensajes de código abierto (MQ) Top 5 en 2021][3]
+  * [Herramientas forenses digitales de código abierto más populares][4]
+  * [Licencias de código abierto aprobadas por OSI más populares][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

@@ -13,11 +13,11 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Konversi .htaccess menulis ulang aturan ke arahan nginx">}}
 
-Dalam tutorial terakhir kami, kami belajar [cara menginstal beberapa versi PHP dengan nginx di ubuntu] [1]. Apache adalah salah satu server web paling populer tetapi akhir -akhir ini, Nginx telah memantapkan dirinya sebagai pesaing untuk Apache. Tetapi Nginx tidak mendukung aturan penulisan ulang HTACCESS. Jadi, dalam artikel ini, kita akan belajar cara mengonversi HtAccess menulis ulang aturan menjadi Nginx ReRite Arahan. Mari kita mulai!
-  *** [Nginx Menulis Ulang Aturan] [2] **
-  *[**. Htaccess menulis ulang aturan **] [3]
-  *[** Konversi .htaccess menulis ulang aturan ke nginx mengutarakan arahan ulang **] [4]
-  *[** Kesimpulan **] [5]
+Dalam tutorial terakhir kami, kami belajar [cara menginstal beberapa versi PHP dengan nginx di ubuntu][1]. Apache adalah salah satu server web paling populer tetapi akhir -akhir ini, Nginx telah memantapkan dirinya sebagai pesaing untuk Apache. Tetapi Nginx tidak mendukung aturan penulisan ulang HTACCESS. Jadi, dalam artikel ini, kita akan belajar cara mengonversi HtAccess menulis ulang aturan menjadi Nginx ReRite Arahan. Mari kita mulai!
+  *** [Nginx Menulis Ulang Aturan][2] **
+  *[**. Htaccess menulis ulang aturan **][3]
+  *[** Konversi .htaccess menulis ulang aturan ke nginx mengutarakan arahan ulang **][4]
+  *[** Kesimpulan **][5]
 
 ## NGINX Menulis ulang aturan {#nginx}
 Menulis ulang aturan mengubah bagian atau semua URL dalam permintaan klien, biasanya untuk memberi tahu klien bahwa sumber daya yang mereka minta sekarang berada di lokasi yang berbeda, atau untuk mengontrol aliran pemrosesan di dalam Nginx. Misalnya untuk meneruskan permintaan ke server aplikasi saat konten perlu dihasilkan secara dinamis. Petunjuk Try_Files sering digunakan untuk tujuan ini.
@@ -82,7 +82,7 @@ server {
 }
 ```
 Demi kejelasan lebih lanjut, mari kita mengubah aturan htaccess WordPress menjadi arahan nginx try_files.
-[WordPress.org Distributes] [6] Default dasar **. HtAccess ** File dengan yang berikut. HtAccess menulis ulang aturan yang memungkinkan Permalinks Pretty:
+[WordPress.org Distributes][6] Default dasar **. HtAccess ** File dengan yang berikut. HtAccess menulis ulang aturan yang memungkinkan Permalinks Pretty:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 Dalam tutorial ini, kami mengeksplorasi aturan penulisan ulang Apache yang ditulis ulang dan bagaimana kami dapat mengubahnya. Htaccess menulis ulang aturan menjadi Nginx Rerite Arahan. Kami selanjutnya mengeksplorasi berbagai arahan nginx yang dapat digunakan untuk menulis ulang URL. Kami juga memberikan contoh aturan penulisan ulang untuk Nginx dan Apache. Semoga tutorialnya bermanfaat untuk Anda.
 
 ## Mengeksplorasi
-  * [Cara menginstal beberapa versi PHP dengan Nginx di Ubuntu] [1]
-  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik] [7]
+  * [Cara menginstal beberapa versi PHP dengan Nginx di Ubuntu][1]
+  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

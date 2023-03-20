@@ -15,13 +15,13 @@ categories: ['Shopping Cart Software']
 
 Sebagian besar dari Anda terbiasa dengan WordPress. WordPress adalah salah satu platform terkemuka untuk membuat situs web, blog dll. Ada banyak plugin yang tersedia di Marketplace yang memungkinkan Anda untuk meningkatkan fungsionalitas. Salah satunya adalah ** WOOCOMMERCE CARL ** Plugin membantu pengguna untuk mengatur toko online. ** WooCommerce ** adalah salah satu plugin eCommerce ** terbaik untuk WordPress **, platform eCommerce yang mudah digunakan, dapat disesuaikan, dan kuat. Selain itu, ini dibangun di atas WordPress dan menggunakan kekuatannya untuk dengan cepat mengubah bisnis Anda menjadi audiens yang besar.
 Kami akan membahas topik -topik berikut dalam tutorial ini.
-  *[** Instal WordPress **] [1]
-  *[** Instal plugin WooCommerce **] [2]
-  *[** Toko Pengaturan dengan WooCommerce **] [3]
-  *[** Kesimpulan **] [4]
+  *[** Instal WordPress **][1]
+  *[** Instal plugin WooCommerce **][2]
+  *[** Toko Pengaturan dengan WooCommerce **][3]
+  *[** Kesimpulan **][4]
 
 ## Instal WordPress {#WordPress}
-Anda dapat melewatkan bagian ini dan pindah ke yang berikutnya jika Anda sudah menginstal WordPress. Jika Anda tidak memiliki pengaturan WordPress, Anda dapat menemukan pedoman langkah demi langkah untuk instalasi di [** containerize.com **] [5].
+Anda dapat melewatkan bagian ini dan pindah ke yang berikutnya jika Anda sudah menginstal WordPress. Jika Anda tidak memiliki pengaturan WordPress, Anda dapat menemukan pedoman langkah demi langkah untuk instalasi di [** containerize.com **][5].
 
 ## Instal plugin WooCommerce {#WooCommerce}
 Untuk mengatur WooCommerce, ikuti langkah -langkah ini:
@@ -51,13 +51,15 @@ Panduan Pengaturan memandu Anda melalui semua langkah yang diperlukan untuk memb
 
 ## kesimpulan {#conclusion}
 Kami telah membahas cara mengatur WordPress dan ** keranjang wooCommerce ** dalam tutorial ini. Kami berharap panduan ini akan membantu Anda membangun toko online Anda. Namun, Anda dapat memeriksa ** etalase wooCommerce ** untuk memilih tema yang tepat untuk toko.
-Lebih lanjut, [** containerize.com **] [6] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja. Untuk pembaruan rutin, silakan tetap disini di [** Perangkat Lunak Keranjang Belanja **] [7] Kategori untuk artikel yang lebih menarik.
+Lebih lanjut, [** containerize.com **][6] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja. Untuk pembaruan rutin, silakan tetap disini di [** Perangkat Lunak Keranjang Belanja **][7] Kategori untuk artikel yang lebih menarik.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** WordPress - Blogging Open Source dan Platform CMS **] [5]
-  *[** WooCommerce - Plugin WordPress Gratis untuk Building Store **] [8]
-  *[** Top 5 Perangkat Lunak Keranjang Belanja Open Source Pada tahun 2020 **] [9]
+  *[** WordPress - Blogging Open Source dan Platform CMS **][5]
+  *[** WooCommerce - Plugin WordPress Gratis untuk Building Store **][8]
+  *[** Top 5 Perangkat Lunak Keranjang Belanja Open Source Pada tahun 2020 **][9]
+
+  
 [1]: #WordPress
 [2]: #WooCommerce
 [3]: #Setup

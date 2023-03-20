@@ -15,10 +15,10 @@ categories: ['Programming']
 
 
 ## Genel Bakış
-Multi-kiracılık serisinde başka bir heyecan verici blog yazısı ile buradayız. Önceki [makalemiz] [1] 'de, çok kiracılı uygulamaların, profesyonellerin ve eksilerin ve çok kiracılı mimarinin türlerinin arkasındaki temel konsepte değindik. Birden fazla kullanıcıya/kiracıya hizmet vermenin zamanı geldiğinden, kaynakları etkili bir şekilde yönetip kullanır. Dolayısıyla, çoklu kiracılık, çeşitli müşterileri/kiracıları eşzamanlı olarak ele alan bir altyapı oluşturmanın en büyük yaklaşımıdır. Bununla birlikte, en son [blog yazısı] [2] sunucusuz mimari, konteynerizasyon ve [Kubernetes] [3] göstermiştir. Bu nedenle, bu makalede, çok kiracılık ve konteyner tabanlı mimariyi keşfedeceğiz. Ayrıca, [kapsayıcı] [4] uygulamalarınızda nasıl çoklu kiracılık elde edebileceğinizi göreceğiz.
+Multi-kiracılık serisinde başka bir heyecan verici blog yazısı ile buradayız. Önceki [makalemiz][1] 'de, çok kiracılı uygulamaların, profesyonellerin ve eksilerin ve çok kiracılı mimarinin türlerinin arkasındaki temel konsepte değindik. Birden fazla kullanıcıya/kiracıya hizmet vermenin zamanı geldiğinden, kaynakları etkili bir şekilde yönetip kullanır. Dolayısıyla, çoklu kiracılık, çeşitli müşterileri/kiracıları eşzamanlı olarak ele alan bir altyapı oluşturmanın en büyük yaklaşımıdır. Bununla birlikte, en son [blog yazısı][2] sunucusuz mimari, konteynerizasyon ve [Kubernetes][3] göstermiştir. Bu nedenle, bu makalede, çok kiracılık ve konteyner tabanlı mimariyi keşfedeceğiz. Ayrıca, [kapsayıcı][4] uygulamalarınızda nasıl çoklu kiracılık elde edebileceğinizi göreceğiz.
 Aşağıdaki noktalar bu makalede ele alınacaktır:
-***[Çok Kireli Konteyner Ana Bilgisayarlar] [5]**
-***[Kubernetes Çok Kencilik] [6]**
+***[Çok Kireli Konteyner Ana Bilgisayarlar][5]**
+***[Kubernetes Çok Kencilik][6]**
 
 ## Çok kiracılı konteyner ana bilgisayarları {#çok kiracılı-container-hosts}
 Çok kiracılı uygulama dağıtım, barındırma platformları söz konusu olduğunda kritik bir görevdir. Hepiniz, kapların sanal makinelere kıyasla hafif olduğunu biliyorsunuz. Uygulama dağıtımının dağıtımını tamamlamak için sadece birkaç milisaniye sürmesi, sanal makinelerde saniyeler ila dakika kalabilir.
@@ -41,25 +41,27 @@ Oldukça konuşursak, Kubernetes Multi Tenacy, kuruluşa birden fazla kullanıc�
 Bu bizi bu blog yazısının sonuna getiriyor. Çok kiracılık elde etmek için**Kubernetes Çok Kencilik ve Konteyner Tabanlı Mimari**geçtik. Buna ek olarak, çok kiracılı uygulamaları Kubernetes ile köprülemek için birçok üçüncü taraf kütüphanesi bulunmaktadır. Bu blog yazısı**çok kiracılı konteyner ana bilgisayarları**kavramını anlamanıza yardımcı olacaktır. "Ayrıca bakınız" bölümünde bulabileceğiniz başka ilginç blog yayınları da var.
 
 ## Bizimle iletişime geçin
-Son olarak, [Containerize.com] [7] çeşitli açık kaynaklı ürünler ve konularda devam eden blog yayınları sunmaktadır. [Facebook] [8], [LinkedIn] [9] ve [Twitter] [10] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
+Son olarak, [Containerize.com][7] çeşitli açık kaynaklı ürünler ve konularda devam eden blog yayınları sunmaktadır. [Facebook][8], [LinkedIn][9] ve [Twitter][10] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
 
 ## Bir soru sor
-[Forum] [11] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][11] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * Kubernetes'te çok kiracılık nedir?**?
-Kubernetes çoklu kiracılığını bilmek için bunu [bağlantı] [6] takip edin.
-* * Çok kiracılı vs tek kiracılı küme nedir?**
+**Kubernetes'te çok kiracılık nedir?**?
+Kubernetes çoklu kiracılığını bilmek için bunu [bağlantı][6] takip edin.
+**Çok kiracılı vs tek kiracılı küme nedir?**
 Çok kiracılı bir kümede, tüm kiracılar/müşteriler Kubernetes kümesini paylaşırken, tek kiracı bir kümede her kiracı için ayrı bir küme çalışır.
 
 ## Ayrıca bakınız
-  * [Sunucusuz bilgi işlem nedir? | Sunucusuz Mimari] [12]
-  * [Multitenancy nedir? | Neden çok kiracı bir yaklaşım?] [13]
-  * [Üretken AI nedir | Üretken yapay zeka] [14]
-  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder] [15]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [16]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [17]
-  * [Yapay Zekaya Giriş | AI nedir?] [18]
+  * [Sunucusuz bilgi işlem nedir? | Sunucusuz Mimari][12]
+  * [Multitenancy nedir? | Neden çok kiracı bir yaklaşım?][13]
+  * [Üretken AI nedir | Üretken yapay zeka][14]
+  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder][15]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][16]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][17]
+  * [Yapay Zekaya Giriş | AI nedir?][18]
+
+  
 [1]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
 [2]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/#Serverless-vs-Containers
 [3]: https://products.containerize.com/devops/kubernetes/

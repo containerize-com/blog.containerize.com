@@ -15,13 +15,13 @@ categories: ['Version Control Software']
 
 
 ## Ringkasan
-Salah satu cara terbaik untuk meningkatkan produktivitas dalam proyek perangkat lunak adalah dengan mengotomatisasi apa pun manual atau berulang. Dan Anda mungkin terkejut dengan betapa mudahnya otomatisasi untuk diimplementasikan saat Anda menggunakan alat yang luar biasa seperti ** Tindakan GitHub **. Sejak beberapa artikel terakhir, saya telah menulis tentang [git] [1], [kontrol versi] [1], dan [otomatisasi alur kerja pengembangan perangkat lunak] [2], dan tentang [integrasi berkelanjutan dan pengiriman berkelanjutan] [3 ]. Jadi semoga sekarang, Anda sangat menyadari repositori dan cara menggunakannya.
+Salah satu cara terbaik untuk meningkatkan produktivitas dalam proyek perangkat lunak adalah dengan mengotomatisasi apa pun manual atau berulang. Dan Anda mungkin terkejut dengan betapa mudahnya otomatisasi untuk diimplementasikan saat Anda menggunakan alat yang luar biasa seperti ** Tindakan GitHub **. Sejak beberapa artikel terakhir, saya telah menulis tentang [git][1], [kontrol versi][1], dan [otomatisasi alur kerja pengembangan perangkat lunak][2], dan tentang [integrasi berkelanjutan dan pengiriman berkelanjutan][3 ]. Jadi semoga sekarang, Anda sangat menyadari repositori dan cara menggunakannya.
 Di Tutorial Tindakan GitHub ** hari ini **, kami akan menjelajahi tindakan GitHub, dan bagaimana Anda dapat menggunakannya untuk otomatisasi aplikasi, kustomisasi, dan untuk menjalankan alur kerja pengembangan perangkat lunak Anda tepat di repositori Anda. Jadi, mari kita mulai
-  *** [Tinjau alur kerja CI/CD] [4] **
-  *** [Tindakan gitub apa] [5] **
-  *** [Memahami sintaks YAML] [6] **
-  *** [Membuat alur kerja pertama Anda] [7] **
-  *** [Kesimpulan] [8] **
+  *** [Tinjau alur kerja CI/CD][4] **
+  *** [Tindakan gitub apa][5] **
+  *** [Memahami sintaks YAML][6] **
+  *** [Membuat alur kerja pertama Anda][7] **
+  *** [Kesimpulan][8] **
 
 ## CI/CD Workflows {#cicd}
 CI/CD adalah metode penyebaran yang sering dari proyek pengembangan perangkat lunak Anda ke pengguna akhir dalam berbagai tahap dengan bantuan otomatisasi. ** Integrasi Berkelanjutan & Penyebaran Berkelanjutan ** lebih merupakan filosofi dan salah satu praktik terbaik untuk diterapkan oleh tim DevOps, untuk memberikan perubahan kode lebih sering dan andal.
@@ -41,7 +41,7 @@ Seperti yang Anda lihat alur kerja, pekerjaan, langkah, dan tindakan saling berg
 
 ## Buat alur kerja {#WorkFlow}
 Dalam proyek pengembangan perangkat lunak, salah satu masalah yang dihadapi tim pengembangan adalah format kode sumber dan penegakan praktik terbaik. Masalah ini lebih jelas untuk tim yang lebih besar. Karena mereka melibatkan lebih banyak pengembang dan semua orang memiliki gaya menulis kode mereka sendiri. Jadi penggunaan paket linter sangat umum di seluruh tim. Tapi sekarang dengan ** tindakan github **, Anda benar -benar dapat menegakkan linter setiap kali seseorang mendorong kode ke repo github.
-Dalam tutorial Tindakan GitHub ini, Anda akan menambahkan alur kerja yang berbaris banyak bahasa pengkodean menggunakan tindakan [Github Super-Linter] [9]. Alur kerja menggunakan Super-Linter untuk memvalidasi kode sumber Anda setiap kali komit baru didorong ke repositori Anda.
+Dalam tutorial Tindakan GitHub ini, Anda akan menambahkan alur kerja yang berbaris banyak bahasa pengkodean menggunakan tindakan [Github Super-Linter][9]. Alur kerja menggunakan Super-Linter untuk memvalidasi kode sumber Anda setiap kali komit baru didorong ke repositori Anda.
 Dari repositori Anda di github, buat file baru di direktori **.
 ```
 name: Super-Linter
@@ -78,18 +78,20 @@ Di bilah sisi kiri, klik alur kerja yang ingin Anda lihat.
 
 {{< figure align=center src="images/superlinter-workflow-sidebar-1024x211.png" alt="Alur kerja tindakan GitHub">}}
 
-Alur kerja super-linter yang baru saja Anda tambahkan setiap kali kode kali didorong ke repositori Anda untuk membantu Anda menemukan masalah dalam kode Anda. Repositori Anda dapat memiliki beberapa alur kerja yang memicu pekerjaan yang berbeda berdasarkan berbagai peristiwa. Tindakan GitHub dapat membantu Anda mengotomatiskan hampir setiap aspek dari proses pengembangan aplikasi Anda. Ini hanya pengantar dasar untuk tindakan GitHub. Ada banyak [sumber daya] [10] yang tersedia untuk pengetahuan mendalam tentang tindakan GitHub, yang dapat Anda gunakan.
+Alur kerja super-linter yang baru saja Anda tambahkan setiap kali kode kali didorong ke repositori Anda untuk membantu Anda menemukan masalah dalam kode Anda. Repositori Anda dapat memiliki beberapa alur kerja yang memicu pekerjaan yang berbeda berdasarkan berbagai peristiwa. Tindakan GitHub dapat membantu Anda mengotomatiskan hampir setiap aspek dari proses pengembangan aplikasi Anda. Ini hanya pengantar dasar untuk tindakan GitHub. Ada banyak [sumber daya][10] yang tersedia untuk pengetahuan mendalam tentang tindakan GitHub, yang dapat Anda gunakan.
 
 ## kesimpulan {#conclusion}
 Dalam tutorial Tindakan GitHub ** ini **, kami telah belajar tentang ** Integrasi Berkelanjutan & Penyebaran Berkelanjutan ** dan ** Apa itu Tindakan GitHub **. Dan, kami juga menjelajahi bagaimana kami dapat menggunakan ** Tindakan GitHub ** untuk membangun alur kerja CI/CD. Kami menggunakan alur kerja super-linter sederhana dari pasar Github Action, untuk mengetahui ketidakkonsistenan dalam basis kode kami. Dalam artikel yang akan datang, kami akan mengeksplorasi tindakan GitHub secara lebih mendalam. Selain itu, Anda dapat menemukan posting blog lain yang terkait dengan sistem kontrol versi ** ** yang disebutkan di bagian "Jelajahi" di bawah ini.
-Akhirnya, [containerize.com] [11] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Software Kontrol Versi] [12] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [13], [LinkedIn] [14], dan [Twitter] [15].
+Akhirnya, [containerize.com][11] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Software Kontrol Versi][12] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][13], [LinkedIn][14], dan [Twitter][15].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Gitlab Continuous Deployment | Bagaimana cara kerjanya?] [16]
-  * [Memahami dan belajar cabang dan tarik permintaan di git] [2]
-  * [Perangkat Lunak Manajemen Kode Sumber | Apa itu git?] [17]
-  * [Top 5 Sistem Kontrol Versi Sumber Terbuka di 2021] [18]
+  * [Gitlab Continuous Deployment | Bagaimana cara kerjanya?][16]
+  * [Memahami dan belajar cabang dan tarik permintaan di git][2]
+  * [Perangkat Lunak Manajemen Kode Sumber | Apa itu git?][17]
+  * [Top 5 Sistem Kontrol Versi Sumber Terbuka di 2021][18]
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
 [3]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/

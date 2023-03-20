@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Create-you-first-php-project-using-xamppA.png" alt="XAMPP Açık Kaynak Web Server ile ilk PHP projenizi oluşturun">}}
 
 XAMPP, canlı sunuculara dağıtmadan önce bir PHP projesi oluşturmak, çalıştırmak ve test etmek için yerel bir ortam sağlayan açık kaynaklı bir web sunucusudur. Geliştiricilerin web uygulamalarını test etmeleri ve oluşturması için yerel bir sunucu sağlar. Bu blog gönderisindeki aşağıdaki bölümleri ele alacağız:
-  * [Gereksinimler] [2]
-  * [XAMPP Nedir] [3]
-  * [PHP komut dosyası oluştur] [4]
-  * [PHP komut dosyasını çalıştırın ve test edin] [5]
-  * [Sonuç] [6]
+  * [Gereksinimler][2]
+  * [XAMPP Nedir][3]
+  * [PHP komut dosyası oluştur][4]
+  * [PHP komut dosyasını çalıştırın ve test edin][5]
+  * [Sonuç][6]
 
 ## Gereksinimler {#Requirements}
   * XAMPP kurulumu
@@ -28,7 +28,7 @@ XAMPP, canlı sunuculara dağıtmadan önce bir PHP projesi oluşturmak, çalı�
 
 ## XAMPP nedir? {#xampp}
 XAMPP, açık kaynaklı bir web sunucusu çözüm yığınıdır. Apache, MySQL, MariaDB, PHP ve Perl içerir. Kurulumu ve kullanımı son derece kolaydır. Bu yüzden en popüler PHP geliştirme ortamı. XAMPP Server, PHP Web Uygulaması Geliştirme için eksiksiz bir ortam sağlar. Henüz XAMPP çalışma kurulumunuz yoksa, XAMPP'yi yüklemek için bu kılavuzu izleyin:
-[Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum] [7]
+[Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum][7]
 
 ## PHP Script Oluştur {#php}
   * Yukarıdaki öğreticiyi takip ederek XAMPP'yi zaten yüklediğinizi varsayarsak, şimdi basit bir PHP komut dosyası oluşturalım ve XAMPP'de test edelim.
@@ -62,8 +62,10 @@ Tebrikler! İlk PHP projenizi yeni oluşturdunuz.
 
 ## Keşfetmek
 XAMPP ve PHPMyAdmin hakkında daha fazla bilgi edinmek için kılavuzları takip edin:
-[Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum] [7]
-[PHP & Perl geliştiricileri için ücretsiz web sunucusu çözümü yığını] [1]
+[Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum][7]
+[PHP & Perl geliştiricileri için ücretsiz web sunucusu çözümü yığını][1]
+
+  
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

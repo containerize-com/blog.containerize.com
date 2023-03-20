@@ -12,11 +12,11 @@ categories: ['Single Sign-On']
 ## Bu makale, iki faktörlü kimlik doğrulamasını ayrıntılı olarak açıklamaktadır ve bunun nasıl uygulanacağı .NET 5'te IdentityServer4 ve bir SMS sağlayıcısı (Twilio) gibi kimlik çerçeveleri kullanılarak.
 {{_LINE_11_}}
 Aşağıdaki bölümleri içerir:
-  * [İki faktörlü kimlik doğrulaması nedir? ] [1]
-  * [2FA nasıl çalışır?] [2]
-  * [2FA ve Çok Faktörlü Kimlik Doğrulama] [3]
-  * [2FA kullanmanın dezavantajları] [4]
-  * [.NET5'te 2FA uygulamak] [5]
+  * [İki faktörlü kimlik doğrulaması nedir? ][1]
+  * [2FA nasıl çalışır?][2]
+  * [2FA ve Çok Faktörlü Kimlik Doğrulama][3]
+  * [2FA kullanmanın dezavantajları][4]
+  * [.NET5'te 2FA uygulamak][5]
 Öncelikle, 2FA'nın ne olduğunu ve neden her modern web uygulamasının ayrılmaz bir parçası olması gerektiğini anlayalım.
 
 ## İki faktörlü kimlik doğrulaması nedir? {#2fa}
@@ -187,8 +187,10 @@ Adım-4 kodu doğrulandı ve 2FA kimlik doğrulaması tamamlandı.
 
 
 ### Çözüm:
-Bu makalede, 2FA'yı ve .NET5'teki uygulamasını kimlikserver4 ve Twilio'yu kullanarak öğrendik. Bu makalede kullanılan örnek kodunu bu [repo] [6] 'dan indirebilirsiniz.
-2FA için SMS kullanmak güvenliğinizi kesinlikle güçlendirir, ancak [SIM takas saldırılarına] karşı savunmasızdır [7]. Bu nedenle, güvenlik araştırmacıları 2FA'yı, telefon ağında ele geçirilemeyen Authenticator uygulamaları ve güvenlik anahtarları ([Yubikey] [8]) gibi diğer yaklaşımları kullanmaya teşvik ediyor. Bu konuda daha fazla bilgi edineceğimiz bir makalede - bizi izlemeye devam edin!
+Bu makalede, 2FA'yı ve .NET5'teki uygulamasını kimlikserver4 ve Twilio'yu kullanarak öğrendik. Bu makalede kullanılan örnek kodunu bu [repo][6] 'dan indirebilirsiniz.
+2FA için SMS kullanmak güvenliğinizi kesinlikle güçlendirir, ancak [SIM takas saldırılarına] karşı savunmasızdır [7]. Bu nedenle, güvenlik araştırmacıları 2FA'yı, telefon ağında ele geçirilemeyen Authenticator uygulamaları ve güvenlik anahtarları ([Yubikey][8]) gibi diğer yaklaşımları kullanmaya teşvik ediyor. Bu konuda daha fazla bilgi edineceğimiz bir makalede - bizi izlemeye devam edin!
+
+  
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

@@ -28,17 +28,17 @@ Bu blog makalesinde, 2022'nin en popüler açık kaynaklı kripto para birimleri
 
 ## 1. Bitcoin
   *** Katkıda bulunan sayısı: ** 851
-  *** En İyi Katılımcı: ** Marcofalke | [@Marcofalke] [1]
+  *** En İyi Katılımcı: ** Marcofalke | [@Marcofalke][1]
   *** Birincil Dil: ** C ++
   *** Yıldız sayısı: ** 61.4k
   *** Çatal sayısı: ** 31.4k
-[** Bitcoin **] [2] en popüler ve değerli kripto para birimidir. Satoshi Nakamoto, Bitcoin'in ilk blok zincirini icat etti ve dijital para için beyaz bir kağıtla dünyaya tanıttı. Bugün piyasada en yaygın olarak işlem gören ve kapsanan kripto para birimi olmaya devam ediyor. Avrupa Birliği ve Japonya’nın Ödeme Hizmetleri Yasası Bitcoin'i yasal mülk olarak tanımlar. “Bitcoin Borsaları” adı verilen dünyanın en büyük çevrimiçi pazarları, insanların farklı para birimleri kullanarak bitcoin almalarına, satmasına, aktarmasına, aktarmasına ve depolamasına izin verir.
+[** Bitcoin **][2] en popüler ve değerli kripto para birimidir. Satoshi Nakamoto, Bitcoin'in ilk blok zincirini icat etti ve dijital para için beyaz bir kağıtla dünyaya tanıttı. Bugün piyasada en yaygın olarak işlem gören ve kapsanan kripto para birimi olmaya devam ediyor. Avrupa Birliği ve Japonya’nın Ödeme Hizmetleri Yasası Bitcoin'i yasal mülk olarak tanımlar. “Bitcoin Borsaları” adı verilen dünyanın en büyük çevrimiçi pazarları, insanların farklı para birimleri kullanarak bitcoin almalarına, satmasına, aktarmasına, aktarmasına ve depolamasına izin verir.
 Bitcoin, Blockchain adlı dağıtılmış bir defterde işlemleri kaydeden merkezi olmayan bir sisteme sahip dijital bir para birimidir. Bitcoin, anında ödemeleri kolaylaştırmak için herhangi bir merkezi otorite veya banka olmadan doğrudan satın almak, satmak ve alışveriş yapmak için eşler arası teknolojiyi kullanır. İşlemleri yönetmek ve bitcoinlerin verilmesi için dünyanın herhangi bir yerinde herkese anında ödemeler sağlar.
 ** İlk kripto para birimi neydi? ** Bitcoin, 2009'da halka açık olan ilk kripto para birimi idi. Blockchain denir. Bitcoin Core, hangi blok zincirinin geçerli işlemler içerdiğine karar veren açık kaynak yazılımının adıdır. Bitcoin Core topluluğa dayalı ücretsiz yazılım projesi MIT lisansı altında yayınlanır.
 
 ## 2. CCXT
   *** Katkıda bulunan sayısı: ** 531
-  *** En İyi Katılımcı: ** Igor Kroitor | [igor.kroitor.com] [3]
+  *** En İyi Katılımcı: ** Igor Kroitor | [igor.kroitor.com][3]
   *** Birincil Diller: ** JavaScript
   *** Yıldız sayısı: ** 23K
   *** Çatal sayısı: ** 5.7k
@@ -52,21 +52,21 @@ CCXT, en popüler açık kaynaklı kripto veri entegrasyon sistemi ve açık kay
   *** Birincil Dil: ** Python
   *** Yıldız sayısı: ** 15.6k
   *** Çatal sayısı: ** 3.3k
-** [Freqtrade] [6] ** Python'da (3.7+) yazılmış ücretsiz ve açık kaynaklı bir kripto ticaret botudur. Ayrıca tüm büyük borsaları desteklemek için tasarlanmıştır. Bir telgraf botu ile kolayca kontrol edilebilir.
+** [Freqtrade][6] ** Python'da (3.7+) yazılmış ücretsiz ve açık kaynaklı bir kripto ticaret botudur. Ayrıca tüm büyük borsaları desteklemek için tasarlanmıştır. Bir telgraf botu ile kolayca kontrol edilebilir.
 Freqtrade kripto-para birimi algoritmik ticaret yazılımı, arka test ve para yönetimi araçlarının yanı sıra makine öğrenimi ile strateji optimizasyonu içerir. Strateji özelleştirmesini destekler ve kendi stratejilerinizi oluşturabilirsiniz. Windows, MacOS, Linux ve Binance, Bittrex, FTX, Kraken vb.
 
 ## 4. Litecoin
   *** Katkıda bulunan sayısı: ** 23
-  *** En İyi Katılımcı: ** Kallewoof | [@kallewoof] [7]
+  *** En İyi Katılımcı: ** Kallewoof | [@kallewoof][7]
   *** Birincil Dil: ** C ++
   *** Yıldız sayısı: ** 4K
   *** Çatal sayısı: ** 31.4k
-** [Litecoin] [8] ** (LTC), Bitcoin'den iki yıl sonra, Charles Charlie Lee adında eski bir Google çalışanı tarafından Bitcoin'den iki yıl sonra kurulan bir kripto para birimidir. Litecoin, eşler arası (P2P) bir kripto para birimidir ve merkezi bir otorite tarafından yönetilmez. Litecoin erken bir bitcoin veya altcoin'dir ve bitcoin kripto ile neredeyse aynıdır. LTC, yerel kripto para birimi blockchain proje kodu bitcoin'den kopyalanır.
+** [Litecoin][8] ** (LTC), Bitcoin'den iki yıl sonra, Charles Charlie Lee adında eski bir Google çalışanı tarafından Bitcoin'den iki yıl sonra kurulan bir kripto para birimidir. Litecoin, eşler arası (P2P) bir kripto para birimidir ve merkezi bir otorite tarafından yönetilmez. Litecoin erken bir bitcoin veya altcoin'dir ve bitcoin kripto ile neredeyse aynıdır. LTC, yerel kripto para birimi blockchain proje kodu bitcoin'den kopyalanır.
 Litecoinler bitcoin'den daha hızlı üretilir, ancak bitcoinler daha değerlidir. Madeni para başına daha fazla değer istiyorsanız Bitcoin daha iyi olabilirken, Litecoin daha az fiyata daha fazla para istiyorsanız daha iyi olabilir. Anında, eksiksiz kripto para işlemleri hızlı bir şekilde, aktarma fonları ve dünyanın dört bir yanındaki insanlar tarafından gerçekleştirilebilecek ucuz bir şekilde sunar. Litecoin eşler arası sanal para birimi açık kaynaklı yazılım projesi MIT/X11 lisansı altında yayınlanır.
 
 ## 5. Monero
   *** Katkıda bulunan sayısı: ** 252
-  *** En İyi Katılımcı: ** Moneromooo-Monero | [@Moneromoon] [9]
+  *** En İyi Katılımcı: ** Moneromooo-Monero | [@Moneromoon][9]
   *** Birincil Dil: ** C ++
   *** Yıldız sayısı: ** 6.6k
   *** Çatal sayısı: ** 3.2k
@@ -81,10 +81,12 @@ _ En sevdiğiniz kripto para birimi açık kaynak projeleri nelerdir?. _ Digital
 
 ## Keşfetmek:
 Ayrıca OSS Watch'tan başka ilgili bilgilerimiz de var:
-  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [12]
-  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı] [13]
-  * [En popüler açık kaynaklı dijital adli araçlar] [14]
-  * [En popüler OSI onaylı açık kaynak lisansları] [15]
+  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][12]
+  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı][13]
+  * [En popüler açık kaynaklı dijital adli araçlar][14]
+  * [En popüler OSI onaylı açık kaynak lisansları][15]
+
+  
 [1]: https://twitter.com/spyced?lang=en
 [2]: https://github.com/bitcoin/bitcoin
 [3]: http://igor.kroitor.com/

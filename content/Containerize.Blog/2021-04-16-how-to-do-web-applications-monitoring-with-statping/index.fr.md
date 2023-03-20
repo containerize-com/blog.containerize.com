@@ -20,10 +20,10 @@ Jetons un coup d'œil sur les caractéristiques de base de Statping.
   * ** Application mobile ** - Utilisez l'application gratuite pour les appareils iPhone et Android et gérez tout en déplacement.
   * ** OAuth Authenticatio ** n - prend en charge l'authentification OAuth pour les services populaires tels que GitHub, Google, Slack et le fournisseur OpenID personnalisé. Utilisez cette fonctionnalité et augmentez la sécurité.
 Nous couvrirons les sujets suivants dans ce tutoriel.
-  * [Installation sur Linux] [1]
-  * [Configurer le service systemd] [2]
-  * [Créer un service pour la surveillance] [3]
-  * [Conclusion] [4]
+  * [Installation sur Linux][1]
+  * [Configurer le service systemd][2]
+  * [Créer un service pour la surveillance][3]
+  * [Conclusion][4]
 
 ## Installation sur Linux {#installing}
 Exécutez la commande ci-dessous pour l'installation de Statping.
@@ -71,17 +71,19 @@ systemctl start statping
 
 ## Conclusion {#conclusion}
 Nous avons appris sur Statping, comment l'installer sur Linux et comment créer un service SystemD dans ce tutoriel. De plus, nous avons créé un nouveau service pour surveiller et vous présenter les différentes fonctionnalités. Nous espérons que ce guide vous aidera à commencer à utiliser STATPING pour effectuer ** la surveillance des services Web ** et ** Suivi des applications Web **.
-Enfin, [** contenerize.com **] [5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** statut **] [6] pour les dernières mises à jour.
+Enfin, [** contenerize.com **][5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** statut **][6] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [** Top 5 du logiciel de page d'état open source pour 2020 **] [7]
-  * [** statping **] [8]
-  * [** cachet **] [9]
-  * [** Moniteur **] [10]
-  * [** Staytus **] [11]
-  * [** Upptime **] [12]
-  * [** statusfy **] [13]
+  * [** Top 5 du logiciel de page d'état open source pour 2020 **][7]
+  * [** statping **][8]
+  * [** cachet **][9]
+  * [** Moniteur **][10]
+  * [** Staytus **][11]
+  * [** Upptime **][12]
+  * [** statusfy **][13]
+
+  
 [1]: #Installing
 [2]: #Configure
 [3]: #Create

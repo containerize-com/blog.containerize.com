@@ -15,10 +15,10 @@ categories: ['Shopping Cart Software']
 
 ** Prestashop ** adalah perangkat lunak eCommerce yang 100% gratis dan open source. Ini memungkinkan pemilik toko untuk dengan mudah mengatur keberadaan online mereka dan meningkatkan bisnis dalam skala luas. Prestashop hadir dengan fitur default dan Anda dapat membutuhkan lebih banyak fungsi untuk kebutuhan bisnis Anda sesekali. Marketplace for Prestashop adalah tempat yang fantastis untuk menemukan fitur tambahan yang dapat digunakan untuk memperluas fungsionalitas toko. Selain itu, Anda dapat menemukan modul gratis dan berbayar di Marketplace. Namun, Anda dapat membuat modul khusus dari awal juga.
 Kami akan membahas topik di bawah ini secara rinci untuk ** Buat Modul Prestashop **.
-  * [Persyaratan] [1]
-  * [Dasar -dasar Pengembangan Modul] [2]
-  * [Buat modul prestashop kami] [3]
-  * [Kesimpulan] [4]
+  * [Persyaratan][1]
+  * [Dasar -dasar Pengembangan Modul][2]
+  * [Buat modul prestashop kami][3]
+  * [Kesimpulan][4]
 
 ## persyaratan {#req}
   * Pasang Prestashop 1.6 atau lebih besar.
@@ -96,12 +96,14 @@ public function hookRightColumn($params)
   *Akhirnya, buka bagian Administrator, Unggah dan ** Instal Modul Prestashop **.
 
 ## kesimpulan {#conclusion}
-Kami telah membahas konsep inti untuk membangun modul ** prestashop ** dalam tutorial ini. Lebih lanjut, kami telah mengembangkan modul dasar yang dapat digunakan sebagai titik awal untuk lebih banyak modul canggih. [containerize.com] [5] secara konsisten bekerja pada posting blog tutorial baru. Untuk pembaruan terbaru, harap tetap berhubungan dengan kategori [Perangkat Lunak Keranjang Belanja] [6].
+Kami telah membahas konsep inti untuk membangun modul ** prestashop ** dalam tutorial ini. Lebih lanjut, kami telah mengembangkan modul dasar yang dapat digunakan sebagai titik awal untuk lebih banyak modul canggih. [containerize.com][5] secara konsisten bekerja pada posting blog tutorial baru. Untuk pembaruan terbaru, harap tetap berhubungan dengan kategori [Perangkat Lunak Keranjang Belanja][6].
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan berikut yang berguna selain tutorial pembuatan Modul Prestashop ** **.
-  * [Prestashop - Perangkat lunak keranjang belanja gratis] [7]
-  * [Top 5 Perangkat Lunak Keranjang Belanja Open Source Pada tahun 2020] [8]
+  * [Prestashop - Perangkat lunak keranjang belanja gratis][7]
+  * [Top 5 Perangkat Lunak Keranjang Belanja Open Source Pada tahun 2020][8]
+
+  
 [1]: #Req
 [2]: #Basics
 [3]: #Create

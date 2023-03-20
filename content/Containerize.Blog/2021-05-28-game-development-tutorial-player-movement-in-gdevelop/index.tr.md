@@ -16,13 +16,13 @@ categories: ['Game Development Software']
 
 ## ** Genel Bakış **
 Açık kaynak topluluk her dakikanın geçişi ile ortaya çıkıyor. Platformlar arası oyunlar, mobil oyunlar ve masaüstü oyunları var. Çeşitli oyun türleri aksiyon oyunları, macera oyunları, rol yapma oyunları, spor oyunları, bulmaca oyunları, simülasyon oyunları ve daha fazlasını içerir. Bu nedenle, tüm bu farklı oyun türleri, tüm yaş gruplarından kullanıcılar bu oyunları oynama eğiliminde olduğu için trafiğe büyük bir destek verdi.
-Dahası, pandemi dünya çapında yaşayan insanların yaşam tarzında büyük bir değişiklik getirdi. İnsanların artık daha fazla zamanı var. Tüm çevrimdışı faaliyetler çevrimiçi hale geldi. Bu nedenle, eğlence durumunda profesyonel görevler ve video oyunları yapmak için çevrimiçi yazılım tercih etme eğilimindedirler. Tüm bu nedenlerden dolayı, bu endüstri sürdürülebilirlik ve kullanıcıların ve geliştiricilerin desteğini kazanmıştır. Yakın geçmişte, [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi] [1], [Global Oyun Endüstrisi Nasıl Açık Kaynak Yazılımdan Kalkış] [2] ve [Yeni Başlayanlar için Oyun Gelişimine Başlamak İçin Gdeelplop öğreticisi] gibi konular üzerine yazdık. [3]. Bu oyun geliştirme öğreticisinde aşağıdaki noktaları ele alacağız.
-  *** [Gdepop'un keşfi özellikleri] [4] **
-  *** [bir oyun üzerinde çalışmak] [5] **
-  *** [Sonuç] [6] **
+Dahası, pandemi dünya çapında yaşayan insanların yaşam tarzında büyük bir değişiklik getirdi. İnsanların artık daha fazla zamanı var. Tüm çevrimdışı faaliyetler çevrimiçi hale geldi. Bu nedenle, eğlence durumunda profesyonel görevler ve video oyunları yapmak için çevrimiçi yazılım tercih etme eğilimindedirler. Tüm bu nedenlerden dolayı, bu endüstri sürdürülebilirlik ve kullanıcıların ve geliştiricilerin desteğini kazanmıştır. Yakın geçmişte, [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi][1], [Global Oyun Endüstrisi Nasıl Açık Kaynak Yazılımdan Kalkış][2] ve [Yeni Başlayanlar için Oyun Gelişimine Başlamak İçin Gdeelplop öğreticisi] gibi konular üzerine yazdık. [3]. Bu oyun geliştirme öğreticisinde aşağıdaki noktaları ele alacağız.
+  *** [Gdepop'un keşfi özellikleri][4] **
+  *** [bir oyun üzerinde çalışmak][5] **
+  *** [Sonuç][6] **
 
 ## Gdecop {#features} 'ın keşfi özellikleri
-[GDEVER] [7] açık kaynaklı bir oyun oluşturma platformudur. Oldukça genişletilebilir ve kullanıcıların kolayca gezinebileceği mantıksal bir arayüz sunar. Bu ücretsiz yazılım C ++, TypeScript ve JavaScript'te yazılmıştır. Ayrıca, geliştirme ve dağıtım konusunda kapsamlı belgeler mevcuttur. Tüm kaynak kodu GitHub'da mevcuttur. Ayrıca, bu oyunu yazılımı öne çıkaran birçok özellik var. Bazı temel özellikleri görelim.
+[GDEVER][7] açık kaynaklı bir oyun oluşturma platformudur. Oldukça genişletilebilir ve kullanıcıların kolayca gezinebileceği mantıksal bir arayüz sunar. Bu ücretsiz yazılım C ++, TypeScript ve JavaScript'te yazılmıştır. Ayrıca, geliştirme ve dağıtım konusunda kapsamlı belgeler mevcuttur. Tüm kaynak kodu GitHub'da mevcuttur. Ayrıca, bu oyunu yazılımı öne çıkaran birçok özellik var. Bazı temel özellikleri görelim.
 ** Çapraz platform **: Bu oyun oluşturma platformu çoklu platformdur ve macOS, Linux ve Windows gibi neredeyse tüm popüler işletim sistemlerine dağıtılabilir.
 ** Dışa Aktarma Seçenekleri **: Gdeelp, kullanıcıların Android, iOS ve Web için tek bir tıklamayla geliştirilen oyunları dışa aktarmasına izin verir. Oyun sahipleri oyunlarında video reklamları görüntüleyebilir ve Admob'un desteğiyle mümkün olabilir.
 ** Zengin Oyun Nesneleri **: Bu açık kaynaklı oyun yapıcı, animasyonlar, yangın patlamaları ve parçacık yayıcılarının yardımıyla diğer efektler gibi çok çeşitli oyun nesneleri sunar. Oyunlara göz alıcı efektler getirmek için biçimlendirilmiş metin, gömülü videolar ve çizme özel şekilleri mevcuttur.
@@ -31,7 +31,7 @@ Dahası, pandemi dünya çapında yaşayan insanların yaşam tarzında büyük 
 
 ## bir oyun üzerinde çalışmak {#working}
 Oyun Geliştirme Eğiticisi'nin bu bölümü, Gdeelp ile temel oyun geliştirmeyi detaylandırmaktadır. Daha ileri gitmeden önce, Makinenize yerel olarak Gdeelp'i yüklediğinizden emin olun.
-Bu oyun editörünü LocalHost'ta kurma bilgisini almak için bu öğreticiyi [yeni başlayanlar için Gdepelop eğitimi] [3] [3] ziyaret edebilirsiniz.
+Bu oyun editörünü LocalHost'ta kurma bilgisini almak için bu öğreticiyi [yeni başlayanlar için Gdepelop eğitimi][3][3] ziyaret edebilirsiniz.
 Şimdi editörü açın ve yeni bir proje oluşturun. Bu öğreticide, Google Drive'da oyun dosyalarını kaydetmek için bir klasör oluşturacağız. Şimdi “Yeni Bir Proje Oluştur” u tıklayın, yeni bir iletişim kutusu açacak, yeni bir oyun oluşturmaya başlamak için “Boş Oyun” seçeneğini seçin.
 
 {{< figure align=center src="images/Screenshot-2021-05-28-at-12.44.34-1024x579.png" alt="Oyun Geliştirme Eğitimi">}}
@@ -63,14 +63,16 @@ Bu nedenle, sol üst köşede görünen işareti nesnenin ortasına sürükleyin
 
 
 ## Sonuç {#Conclusion}
-Bu oyun geliştirme öğreticisinin sonu. Umarım, bu blog yazısı oyun geliştiricileri için yararlı olacaktır. Bu öğretici, oyun nesneleriyle çalışmanızı ve davranışları eklemenizi mümkün kıldı. Gelecekte Containerize.com, diğer açık kaynaklı video oyunu tasarım yazılımı hakkında blog yayınları ve öğretici makaleler yayınlayacak. Bu nedenle, düzenli güncellemeler için lütfen [Containerize.com] [9] adresindeki bu [Oyun Geliştirme Yazılımı] [8] kategorisiyle bağlantıda kalın.
+Bu oyun geliştirme öğreticisinin sonu. Umarım, bu blog yazısı oyun geliştiricileri için yararlı olacaktır. Bu öğretici, oyun nesneleriyle çalışmanızı ve davranışları eklemenizi mümkün kıldı. Gelecekte Containerize.com, diğer açık kaynaklı video oyunu tasarım yazılımı hakkında blog yayınları ve öğretici makaleler yayınlayacak. Bu nedenle, düzenli güncellemeler için lütfen [Containerize.com][9] adresindeki bu [Oyun Geliştirme Yazılımı][8] kategorisiyle bağlantıda kalın.
 
 ## Keşfetmek
-  * [Gdeelp] [7]
-  * [Godot] [10]
-  * [Süper güçler] [11]
-  * [Cocos Creator] [12]
-  * [Panda3d] [13]
+  * [Gdeelp][7]
+  * [Godot][10]
+  * [Süper güçler][11]
+  * [Cocos Creator][12]
+  * [Panda3d][13]
+
+  
 [1]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [2]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
 [3]: https://blog.containerize.com/game-development-software/tr/game-development-tutorial-player-movement-in-gdevelop/

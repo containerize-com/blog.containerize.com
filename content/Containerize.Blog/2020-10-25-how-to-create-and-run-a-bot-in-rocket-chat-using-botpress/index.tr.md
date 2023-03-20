@@ -16,17 +16,17 @@ categories: ['Live Chat']
 Chatbot, insan konuşmasını simüle etmek için tasarlanmış bir bilgisayar programıdır. Muhtemelen bir perakende web sitesi olan Facebook Messenger'da bir tane karşılaştınız. Teknik olarak, botlar belirli bir görevi yerine getirmek için tasarlanmış otomatik programlardır.
 Rocket.chat Chatbot ve mesajlaşma otomasyonu entegrasyonlarını teşvik eder. Bu nedenle, bot yapma sürecinde size rehberlik edecek kapsamlı belgelere sahiptir.
 Bu makalede, botpress kullanarak nasıl bot oluşturacağınız konusunda size rehberlik edeceğiz. Ve botpress ile rocket.chat nasıl yapılandırılır.
-  * [Rocket.chat] [1]
-  * [Botpress] [2]
-  * [Rocket.chat'te bir bot kullanıcısı oluştur] [3]
-  * [Botpress kullanarak botunuzu kodlayın] [4]
-  * [Sonuç] [5]
+  * [Rocket.chat][1]
+  * [Botpress][2]
+  * [Rocket.chat'te bir bot kullanıcısı oluştur][3]
+  * [Botpress kullanarak botunuzu kodlayın][4]
+  * [Sonuç][5]
 
 ### Rocket.chat {#Rockchat}
-Rocket.chat, popüler canlı sohbet yazılımı kısmen açık kaynaklı bir canlı sohbet projesi arasında. Topluluk baskısı olarak ücretsiz canlı sohbet sürümü vardır. Ayrıca, özel dahili sohbet özelliklerine sahip büyük şirketler için ücretli bir canlı sohbet sürümü. Bu canlı sohbet uygulaması tarayıcıda çalışır, ancak kendi sunucunuza da yüklenebilir. [Devamını oku] [6]
+Rocket.chat, popüler canlı sohbet yazılımı kısmen açık kaynaklı bir canlı sohbet projesi arasında. Topluluk baskısı olarak ücretsiz canlı sohbet sürümü vardır. Ayrıca, özel dahili sohbet özelliklerine sahip büyük şirketler için ücretli bir canlı sohbet sürümü. Bu canlı sohbet uygulaması tarayıcıda çalışır, ancak kendi sunucunuza da yüklenebilir. [Devamını oku][6]
 
 ### Botpress {#botpress}
-Konuşma sohbet botları, işletmelerin müşterilerine istedikleri her zaman mevcut yüksek dokunmatik desteği vermelerini mümkün kıldı. Botpress, yerleşik doğal dil işlemeye sahip en popüler açık kaynak bot oluşturma araclarından biridir. Botpress’in NLU teknolojisi, Botkit, Dialogflow ve Microsoft Bot Framework gibi sahadaki rakiplerinden bir adım önde. [Devamını oku] [7]
+Konuşma sohbet botları, işletmelerin müşterilerine istedikleri her zaman mevcut yüksek dokunmatik desteği vermelerini mümkün kıldı. Botpress, yerleşik doğal dil işlemeye sahip en popüler açık kaynak bot oluşturma araclarından biridir. Botpress’in NLU teknolojisi, Botkit, Dialogflow ve Microsoft Bot Framework gibi sahadaki rakiplerinden bir adım önde. [Devamını oku][7]
 
 ### Rocket.chat {#CreateBotuser}
 Chatbot'unuzla konuşmak için botun giriş yapabileceği roket.chat sunucusunda önceden yapılandırılmış bir kullanıcı hesabı olmalıdır.
@@ -44,7 +44,7 @@ Kaydettikten sonra bot, 4. adımda ayarlanan kullanıcı adı ve şifre ile yap�
 
 ### Botpress kullanarak botunuzu kodlayın {#codeBot}
 Botpress bir Node.js paketidir ve düğüm ve NPM ile çalışır.
-Botpress ile başlamanın en hızlı yolu, [botpress-kanal konnektörü] [9] aracılığıyla zaten roketle entegre edilmiş [Botpress-vur-starter] [8] depo kullanmaktır [9].
+Botpress ile başlamanın en hızlı yolu, [botpress-kanal konnektörü][9] aracılığıyla zaten roketle entegre edilmiş [Botpress-vur-starter][8] depo kullanmaktır [9].
 Bot ile çalışmak istediğiniz klasöre gidin ve aşağıdaki adımlara devam edin:
 ** Botpress paketini yükleyin **
 ```
@@ -135,6 +135,8 @@ Sunucuda, normal bir kullanıcı olarak (bot kullanıcısı değil) giriş yapı
 
 ### Sonuç {#Conclusion}
 Bu makalede, Botpress'te bir bot oluşturmayı öğrendik. Ve rocket.chat ile nasıl yapılandırılır. Botpress, kullanıcıların yenilikçi otomatik iş akışları oluşturmasını çok kolaylaştırır. Ve Rocket.Chat ile entegrasyon, bunları konuşma bir şekilde kontrol etmenizi sağlar.
+
+  
 [1]: #rocketchat
 [2]: #botpress
 [3]: #createbotuser

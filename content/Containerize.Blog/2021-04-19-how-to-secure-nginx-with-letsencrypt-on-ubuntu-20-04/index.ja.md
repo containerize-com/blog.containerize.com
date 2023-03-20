@@ -108,15 +108,17 @@ Cronジョブには、上記のコマンドのように、-quiet属性も含め�
 
 ## 結論{#conclusion}
 この記事では、nginxのインストールLetsEncrypt SSL証明書をインストールする方法を学びました。ドメイン用のSSL証明書をダウンロードし、これらの証明書を使用するようにnginxを構成しました。さらに、SSL nginx letsencryptの証明書を自動的に更新できるようにcertbotを有効にする必要があります。今後のチュートリアルでは、WebブラウザーとWebサーバー間の暗号化された通信を可能にする標準的なセキュリティテクノロジーでWebサーバーを保護する方法についてのより興味深いトピックについて説明します。
-_Yourは[Twitter] [1]、[LinkedIn] [2]、および[Facebook] [3]ページに参​​加できます。コンピューターネットワークを介してコミュニケーションセキュリティを提供するために使用する暗号化プロトコルは何ですか？ご質問がある場合は、[ご連絡ください] [4]をお願いします。
+_Yourは[Twitter][1]、[LinkedIn][2]、および[Facebook][3]ページに参​​加できます。コンピューターネットワークを介してコミュニケーションセキュリティを提供するために使用する暗号化プロトコルは何ですか？ご質問がある場合は、[ご連絡ください][4]をお願いします。
 
 ## 探検
 サーバーのパフォーマンスを監視し、その信頼性とセキュリティを確保するための次の関連するリンクを見つけることができます。
-  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法] [5]
-  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する方法] [6]
-  * [ubuntu/debianでnginxでHTTP/2サポートを構成] [7]
-  * [AWSプロダクションサーバーの乗客を備えたnginxをセットアップ] [8]
-  * [ubuntuでapacheでowncloudをインストールして構成する方法] [9]
+  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法][5]
+  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する方法][6]
+  * [ubuntu/debianでnginxでHTTP/2サポートを構成][7]
+  * [AWSプロダクションサーバーの乗客を備えたnginxをセットアップ][8]
+  * [ubuntuでapacheでowncloudをインストールして構成する方法][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

@@ -15,17 +15,17 @@ categories: ['Blogging']
 
 Jeykll est un générateur de sites statiques open source. Il transforme votre texte brut en sites Web et blogs statiques. Il faut du texte écrit dans votre langage de balisage préféré (Markdown, Liquid, HTML / CSS) et utilise des mises en page pour créer un site Web statique. Jekyll est un blog au courant et les permaliens, les catégories, les pages, les publications et les dispositions personnalisées sont tous des citoyens de première classe. L'un des plus grands avantages de Jekyll est que vous pouvez héberger votre site Web statique sur les pages GitHub et exécuter votre site Web ou blog gratuitement. Ainsi, WordPress to Jekyll Migration peut vous aider à améliorer les performances et la vitesse de votre site Web.
 Dans ce billet de blog, nous allons passer par la façon de migrer votre site Web ou votre blog existant de WordPress à Jekyll pour une meilleure vitesse et des performances. Alors, commençons!
-  * ** [Pourquoi migrer?] [1] **
-  * ** [installation] [2] **
-  * ** [Importer des messages et des pages WordPress dans] [3] **
-  * ** [Déploiement avec les pages github] [4] **
-  * ** [Conclusion] [5] **
+  * ** [Pourquoi migrer?][1] **
+  * ** [installation][2] **
+  * ** [Importer des messages et des pages WordPress dans][3] **
+  * ** [Déploiement avec les pages github][4] **
+  * ** [Conclusion][5] **
 
 ## Pourquoi migrer? {#pourquoi}
-Dans Jekyll, vous pouvez obtenir un 100/100 [score du phare] [6] car il n'y a pas d'interactions de base de données. Et, tout le contenu est prétraité et enregistré sous forme de fichiers HTML. Et, Jekyll ne fera qu'une quantité minimale de demandes HTTP. Par conséquent, c'est super rapide.
+Dans Jekyll, vous pouvez obtenir un 100/100 [score du phare][6] car il n'y a pas d'interactions de base de données. Et, tout le contenu est prétraité et enregistré sous forme de fichiers HTML. Et, Jekyll ne fera qu'une quantité minimale de demandes HTTP. Par conséquent, c'est super rapide.
 
 ## Installation et configuration Jekyll {#install}
-Jekyll est écrit en Ruby. Vous devez donc l'installer d'abord sur votre ordinateur. Ce guide suppose que Ruby a déjà installé Ruby sur votre ordinateur. Sinon, vous pouvez suivre le [guide officiel] [7].
+Jekyll est écrit en Ruby. Vous devez donc l'installer d'abord sur votre ordinateur. Ce guide suppose que Ruby a déjà installé Ruby sur votre ordinateur. Sinon, vous pouvez suivre le [guide officiel][7].
 Tout d'abord, nous allons les joyaux «** Jekyl **» et «** bundler **» en utilisant la commande «** gem **» qui sera disponible après avoir installé Ruby. Ouvrez la ligne de commande et exécutez le code suivant.
 ```
 gem install jekyll bundler
@@ -41,7 +41,7 @@ bundle exec jekyll serve
 Le site sera disponible sur http: // localhost: 4000. Il génère également un dossier «** _ Site **» dans votre dossier c'est ce qu'est la sortie finale du site.
 
 ## Importer WordPress Pages and Posts {#import}
-Un plugin non officiel pour le WordPress est également disponible, mais nous suivrons la méthode officielle de ce tutoriel. Si vous souhaitez essayer le plugin d'exportateur Wordpess, vous pouvez [aller ici] [8].
+Un plugin non officiel pour le WordPress est également disponible, mais nous suivrons la méthode officielle de ce tutoriel. Si vous souhaitez essayer le plugin d'exportateur Wordpess, vous pouvez [aller ici][8].
 Pour importer vos messages à partir d'un site Web WordPress auto-hébergé, exécutez la commande suivante sur votre terminal.
 ```
 ruby -r rubygems -e 'require "jekyll-import";
@@ -67,7 +67,7 @@ ruby -r rubygems -e 'require "jekyll-import";
 Cela importe uniquement les données et les données et le contenu de la page. Cet importateur ne convertit que vos messages et crée le front YAML. Il n'importe aucune disposition, style ou fichiers externes (images, CSS, etc.).
 
 ## ** Déploiement avec les pages GitHub ** {#deploy}
-Jusqu'à présent, nous avons créé notre blog Jekyll localement. Maintenant, nous allons le déployer sur github. Tout d'abord, nous devons contrôler notre site à l'aide de [GIT] [9]. Exécutez les commandes suivantes dans le dossier du site.
+Jusqu'à présent, nous avons créé notre blog Jekyll localement. Maintenant, nous allons le déployer sur github. Tout d'abord, nous devons contrôler notre site à l'aide de [GIT][9]. Exécutez les commandes suivantes dans le dossier du site.
 ```
 git init
 git add .
@@ -88,6 +88,8 @@ Fait! Votre site doit désormais être disponible sur yourname.github.io
 
 ## Conclusion {#conclusion}
 Dans cet article, nous avons appris à construire un blog statique avec des sites Jekyll. Ensuite, nous avons appris à exporter vos messages et pages de WordPress à Jekyll. Et enfin, nous avons déployé le site final aux pages GitHub.
+
+  
 [1]: #why
 [2]: #install
 [3]: #import

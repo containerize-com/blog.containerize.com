@@ -47,10 +47,12 @@ _您最喜欢的软件趋势是什么？您对最新软件趋势有任何疑问�
 
 ## 探索
 您可能会发现以下链接相关：
-  * [2020年前5个开源区块链平台] [2]
-  * [分散技术如何升级您的业务策略] [3]
-  * [免费业务分析工具如何为您的业务提供帮助] [4]
-  * [RAD软件如何帮助您将业务发展到下一个水平] [5]
+  * [2020年前5个开源区块链平台][2]
+  * [分散技术如何升级您的业务策略][3]
+  * [免费业务分析工具如何为您的业务提供帮助][4]
+  * [RAD软件如何帮助您将业务发展到下一个水平][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

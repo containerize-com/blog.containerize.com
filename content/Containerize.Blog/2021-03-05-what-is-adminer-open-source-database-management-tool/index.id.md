@@ -13,17 +13,17 @@ categories: ['Database Management Software']
 {{_LINE_11_}}
 
 ## Ringkasan
-Tugas terkait data sekarang jauh lebih penting daripada sebelumnya. Alat manajemen basis data telah menjadi bagian integral dari bisnis apa pun. Namun, ada banyak sistem manajemen basis data berbasis web yang menawarkan solusi untuk tugas-tugas yang menantang seperti itu. Perusahaan menghasilkan banyak data setiap hari dan menjadi sulit dipertahankan. Selain itu, organisasi cenderung menyederhanakan akses data dan kontrol data. Alat gratis ini membantu mengurangi redundansi data, membuat database efisien dan dapat diandalkan. Selanjutnya, kami telah menerbitkan posting blog tentang topik -topik seperti [perangkat perangkat lunak DBMS open source top] [1], dan beberapa lagi.
+Tugas terkait data sekarang jauh lebih penting daripada sebelumnya. Alat manajemen basis data telah menjadi bagian integral dari bisnis apa pun. Namun, ada banyak sistem manajemen basis data berbasis web yang menawarkan solusi untuk tugas-tugas yang menantang seperti itu. Perusahaan menghasilkan banyak data setiap hari dan menjadi sulit dipertahankan. Selain itu, organisasi cenderung menyederhanakan akses data dan kontrol data. Alat gratis ini membantu mengurangi redundansi data, membuat database efisien dan dapat diandalkan. Selanjutnya, kami telah menerbitkan posting blog tentang topik -topik seperti [perangkat perangkat lunak DBMS open source top][1], dan beberapa lagi.
 Oleh karena itu, komunitas open source telah mengembangkan Adminer yang merupakan alat manajemen database gratis tingkat perusahaan. Dalam tutorial Adminer ini, kami akan membahas poin -poin berikut.
-  * [Apa itu Adminer?] [2]
-  * [Fitur penting Adminer] [3]
-  * [Adminer vs PHPMyAdmin] [4]
-  * [Kelola Database dengan Adminer] [5]
-  * [Kesimpulan] [6]
+  * [Apa itu Adminer?][2]
+  * [Fitur penting Adminer][3]
+  * [Adminer vs PHPMyAdmin][4]
+  * [Kelola Database dengan Adminer][5]
+  * [Kesimpulan][6]
 
 ## Apa itu Adminer? {#Apa}
 Ketika datang ke alat manajemen database MySQL yang ringan, ramah pengguna, dan berkinerja tinggi, Adminer telah mendapatkan popularitas yang luas dan memberikan banyak peningkatan dibandingkan dengan phpMyAdmin. Awalnya, alat manajemen basis data ini dikembangkan oleh Jakub Vrana pada tahun 2007 sebagai alternatif untuk phpMyAdmin, sehingga yang harus Anda lakukan adalah mengunduh dan menginstal satu file php ringan di database aplikasi Anda.
-Sebagai alat manajemen basis data open source, itu juga gratis untuk digunakan dan ditulis dalam PHP. Apa yang membuat sistem manajemen basis data berbasis web ini terpisah adalah desain antarmuka pengguna yang baik untuk pengalaman pengguna yang mulus, serta fitur keamanan yang kuat untuk menjaga data tetap aman dari serangan apa pun atau upaya peretasan berbahaya. Alat manajemen basis data ini mudah diatur dan membutuhkan persyaratan sederhana seperti Ubuntu, dan Lampu. Pengguna dapat menemukan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Oleh karena itu, Anda dapat menemukan file sumber dari sistem manajemen basis data berbasis web ini di [GitHub] [7].
+Sebagai alat manajemen basis data open source, itu juga gratis untuk digunakan dan ditulis dalam PHP. Apa yang membuat sistem manajemen basis data berbasis web ini terpisah adalah desain antarmuka pengguna yang baik untuk pengalaman pengguna yang mulus, serta fitur keamanan yang kuat untuk menjaga data tetap aman dari serangan apa pun atau upaya peretasan berbahaya. Alat manajemen basis data ini mudah diatur dan membutuhkan persyaratan sederhana seperti Ubuntu, dan Lampu. Pengguna dapat menemukan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Oleh karena itu, Anda dapat menemukan file sumber dari sistem manajemen basis data berbasis web ini di [GitHub][7].
 
 ## Fitur penting dari admin {#important}
 Beberapa fitur dasar tetapi penting dari alat manajemen basis data ini meliputi:
@@ -43,7 +43,7 @@ Agar adminer dapat berjalan pada sistem Anda, penting bagi Anda untuk memiliki p
   * PHP Versi 5, 7 atau 8
   * Driver database seperti mysql, sqlite, postgresql dll
 **Instalasi**
-Jika Anda telah memeriksakan dua persyaratan sistem ini, maka cukup unduh file dari [] [8], dan mulai dengan mengunggah file PHP ke server Anda. Untuk server XAMPP, ganti nama file yang diunduh sebagai "adminer.php" dan masukkan file ini ke folder htdocs.
+Jika Anda telah memeriksakan dua persyaratan sistem ini, maka cukup unduh file dari [][8], dan mulai dengan mengunggah file PHP ke server Anda. Untuk server XAMPP, ganti nama file yang diunduh sebagai "adminer.php" dan masukkan file ini ke folder htdocs.
 ** Akses Antarmuka Pengguna **
 Setelah melalui itu, apa itu Adminer? Sekarang akses aplikasi ini dari http: Anda-IP-Address/Adminer.php seperti yang ditunjukkan:
 {{_LINE_42_}}
@@ -71,14 +71,16 @@ Menambahkan catatan baru ke tabel cukup sederhana. Klik tautan item baru yang ak
 
 ## kesimpulan {#conclusion}
 Ini membawa kita ke akhir tutorial Adminer ini. Kami telah melalui beberapa topik penting seperti apa yang Adminer, Adminer vs PHPMyAdmin, dan aspek lain dari sistem manajemen basis data berbasis web open source ini. Mudah -mudahan, posting blog ini pasti akan membantu Anda jika Anda ingin menginstal alat manajemen basis data open source. Antarmuka intuitif, cerdas, dan mudah digunakan menjadikannya alat manajemen basis data yang sangat populer. Selain itu, ini mendukung banyak database termasuk MySQL, SQLite, MongoDB, dan banyak lagi, bersama dengan langkah -langkah keamanan untuk melindungi dan mencegah peristiwa peretasan berbahaya. Secara keseluruhan, alat manajemen basis data ini tidak hanya open source tetapi juga gratis untuk digunakan.
-Akhirnya, [containerize.com] [9] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Alat Manajemen Database] [10] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [11], [LinkedIn] [12], dan [Twitter] [13].
+Akhirnya, [containerize.com][9] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Alat Manajemen Database][10] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][11], [LinkedIn][12], dan [Twitter][13].
 
 ## Mengeksplorasi
 Untuk mempelajari lebih lanjut tentang alat manajemen basis data berbasis web gratis, silakan periksa halaman berikut:
-  * [Admin | Sistem Manajemen Database Berbasis Web Gratis] [14]
-  * [Perangkat Perangkat Lunak DBMS Terbuka Top] [1]
-  * [Top 5 Alat Manajemen Database Sumber Terbuka di 2021] [15]
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [16]
+  * [Admin | Sistem Manajemen Database Berbasis Web Gratis][14]
+  * [Perangkat Perangkat Lunak DBMS Terbuka Top][1]
+  * [Top 5 Alat Manajemen Database Sumber Terbuka di 2021][15]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][16]
+
+  
 [1]: https://products.containerize.com/database-management
 [2]: #what
 [3]: #important

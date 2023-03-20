@@ -15,21 +15,21 @@ categories: ['Artificial intelligence']
 
 
 ## Genel Bakış
-Blog yayınlarımızı sürekli olarak takip eden okuyucularımıza minnettarız. [Code GPT] [1] ve [chatgpt] [2] hakkındaki son blog yayınlarımızın yanıtı çok zor. Bu nedenle, CHATGPT'yi Google [Sheets] [3] ile nasıl entegre edeceğinizi gösterecek başka bir makale bulduk. Daha. Diğer tarafta, chatgpt [Openai] [5] tarafından geliştirilen açık kaynaklı bir NLP modeli olan [açık kaynak] [4] GPT-3'e dayanmaktadır.
+Blog yayınlarımızı sürekli olarak takip eden okuyucularımıza minnettarız. [Code GPT][1] ve [chatgpt][2] hakkındaki son blog yayınlarımızın yanıtı çok zor. Bu nedenle, CHATGPT'yi Google [Sheets][3] ile nasıl entegre edeceğinizi gösterecek başka bir makale bulduk. Daha. Diğer tarafta, chatgpt [Openai][5] tarafından geliştirilen açık kaynaklı bir NLP modeli olan [açık kaynak][4] GPT-3'e dayanmaktadır.
 Bununla birlikte, yapay zeka tabanlı bir chatbot yükleyerek sayfalarınızı duyarlı hale getirmek, gelişmiş işlevsellik ve verimlilik getirecektir. Ayrıca, bu kurumsal düzeyde**chatbot entegrasyonu**, rutin görevleri otomatikleştirerek size zaman kazandıracak ve karmaşık sorunlarınıza çözümler sunabilir.
 Bu makalede aşağıdaki noktaları ele alacağız:
-* [**chatgpt'i Google sayfalarıyla nasıl entegre edersiniz?**] [6]
-* [**Google sayfalarında chatgpt nasıl kullanılır?**] [7]
+* [**chatgpt'i Google sayfalarıyla nasıl entegre edersiniz?**][6]
+* [**Google sayfalarında chatgpt nasıl kullanılır?**][7]
 
 ## chatgpt'i Google Sheets ile nasıl entegre edersiniz {#nasıl entegre-entegre-chatgpt-with-google sheets}
-* * Chatgpt Entegrasyonu**Herhangi bir yazılımla kesinlikle işletmeye rekabet avantajı verecektir. İki yönlü konuşma oturumlarına başlayabilen AI destekli bir model ve yazılımınıza bu entegrasyonun ne kadar güçlü olabileceği? Tabii ki inanılmaz. Bu nedenle, bir soruna teknik bir çözüm için bir chatbot istersiniz ve cevabı tam zamanında alırsınız, zaman ve çaba tasarrufu açısından çok şey ifade eder.
+**Chatgpt Entegrasyonu**Herhangi bir yazılımla kesinlikle işletmeye rekabet avantajı verecektir. İki yönlü konuşma oturumlarına başlayabilen AI destekli bir model ve yazılımınıza bu entegrasyonun ne kadar güçlü olabileceği? Tabii ki inanılmaz. Bu nedenle, bir soruna teknik bir çözüm için bir chatbot istersiniz ve cevabı tam zamanında alırsınız, zaman ve çaba tasarrufu açısından çok şey ifade eder.
 Buna başlayalım**Google Sheets entegrasyonu Chatgpt.**
-İlk olarak, Google [Sheets] [3] 'i açın ve**“Uzantılar-> Eklentiler-> Eklentiler Al”**tıklayın. Bunu yaptıktan sonra, Google Workspace Marketplace'de bir diyalog kutusu göreceksiniz. Şimdi, sağ üst köşeye yerleştirilen arama çubuğuna “chatgpt” yazın ve aşağıdaki resimde gösterildiği gibi ilk seçeneği seçin.
+İlk olarak, Google [Sheets][3] 'i açın ve**“Uzantılar-> Eklentiler-> Eklentiler Al”**tıklayın. Bunu yaptıktan sonra, Google Workspace Marketplace'de bir diyalog kutusu göreceksiniz. Şimdi, sağ üst köşeye yerleştirilen arama çubuğuna “chatgpt” yazın ve aşağıdaki resimde gösterildiği gibi ilk seçeneği seçin.
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-9.36.21-PM-1-1024x750.png" alt="İş için chatgpt">}}
 
 İlk seçeneği seçin ve bu uzantıyı yükleyin. Bu kurulumdan sonra bir sonraki set, Google sayfalarına**chatgpt entegrasyonunu etkinleştirmektir.**
-Openai platformunda bir hesap yapmanız ve API anahtarınızı almanız gerekir. Openai API anahtarını almak için lütfen bu [link] [1] adresini ziyaret edin.
+Openai platformunda bir hesap yapmanız ve API anahtarınızı almanız gerekir. Openai API anahtarını almak için lütfen bu [link][1] adresini ziyaret edin.
 Ardından,**“Extensions-> GPT ve Docs-> API tuşunu ayarlayın”**tıklayın ve ChatGPT entegrasyonunu etkinleştirmek için API tuşunu ekleyin. Buna ek olarak, GPT işlevlerini etkinleştirmek için**“extensions-> gpt ve docs-> gpt işlevlerini etkinleştir”**tıklayın.
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="Chatgpt entegrasyonu">}}
@@ -52,24 +52,26 @@ Bu uzantının bazı önemli özellikleri aşağıdadır:
 ***gpt_fill**: Örnek bir aralık verildiğinde GPT ile eksik bir aralığı doldurur
 ***gpt_convert**: Biçimler arasında dönüşüm.
 ***GPT_TRANSLATE**: Çeviri için metin.
-Bazı işlevlerini görmek için lütfen bu YouTube [Link] [8] izleyin.
+Bazı işlevlerini görmek için lütfen bu YouTube [Link][8] izleyin.
 
 ## Çözüm
-Burada**Google Sheets entegrasyonu ve chatgpt entegrasyonu**olan bu kılavuzu bitiriyoruz. CHATGPT'yi Google sayfalarıyla nasıl entegre edeceğimizi yaşadık. Aslında, iş için**chatgpt nasıl kullanabileceğinizi öğrendiniz**. Buna ek olarak, [Google App Script] [9] 'da işlevler yazarak bu**ai ile çalışan chatbot**biraz daha fazla kullanabilirsiniz. Ayrıca, bu**openai GPT-3 tabanlı ChatGPT uzantısını yükleyerek iş akışlarınızın çoğunu otomatikleştirebilirsiniz.**
-Son olarak, [Containerize.com] [10] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [11], [LinkedIn] [12] ve [Twitter] [13] 'te takip edebilirsiniz.
+Burada**Google Sheets entegrasyonu ve chatgpt entegrasyonu**olan bu kılavuzu bitiriyoruz. CHATGPT'yi Google sayfalarıyla nasıl entegre edeceğimizi yaşadık. Aslında, iş için**chatgpt nasıl kullanabileceğinizi öğrendiniz**. Buna ek olarak, [Google App Script][9] 'da işlevler yazarak bu**ai ile çalışan chatbot**biraz daha fazla kullanabilirsiniz. Ayrıca, bu**openai GPT-3 tabanlı ChatGPT uzantısını yükleyerek iş akışlarınızın çoğunu otomatikleştirebilirsiniz.**
+Son olarak, [Containerize.com][10] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 
 ## Bir soru sor
-[Forum] [14] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][14] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * Google sayfalarında sohbeti nasıl etkinleştiririm?**
-Chatgpt AI desteklidir ve konuşma tarzında etkileşime girer. Bu [link] [6] 'a giderek CHATGPT'yi Google sayfalarıyla entegre edebilirsiniz.
+**Google sayfalarında sohbeti nasıl etkinleştiririm?**
+Chatgpt AI desteklidir ve konuşma tarzında etkileşime girer. Bu [link][6] 'a giderek CHATGPT'yi Google sayfalarıyla entegre edebilirsiniz.
 
 ## Ayrıca bakınız
-  * [Yapay Zekaya Giriş | AI nedir?] [15]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [1]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [2]
-  * [En iyi 5 açık kaynaklı AI çerçevesi nedir] [16]
+  * [Yapay Zekaya Giriş | AI nedir?][15]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][1]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][2]
+  * [En iyi 5 açık kaynaklı AI çerçevesi nedir][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: https://www.google.com/sheets/about/

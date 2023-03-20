@@ -16,7 +16,7 @@ categories: ['Web Server Solution Stack']
 
 ## Descripción general:
 Nginx y Apache son dos servidores web de código abierto más populares ** que a menudo se usan con PHP. Un proxy inverso o una puerta de enlace actúa como una conexión entre el cliente y el servidor. El cliente y el servidor intercambian información entre sí para trabajar de manera continua y eficiente. Los proxies inversos más comunes son ** Nginx y Apache ** y ambos pueden configurarse en la misma máquina virtual al alojar múltiples sitios web. Un proxy inverso protege los servidores web de los ataques y la puerta de enlace de conexión aparece al cliente como un servidor web ordinario donde no se necesitan configuraciones especiales de proxy inverso Nginx. El cliente envía una solicitud mientras el proxy inverso decide dónde pasar la información solicitada y luego entregar el resultado de salida final al cliente.
-Después de mucho aprecio por nuestra serie sobre los tutoriales de Redis, recibimos muchas solicitudes para comenzar una serie sobre tutoriales NGINX. Entonces, la semana pasada comenzamos con un tutorial sobre cómo usar [Balancer de carga de proxy inverso de Nginx] [1] para sus aplicaciones. Este simple ejemplo de configuración de proxy de Nginx Reverse proporciona muchos beneficios de rendimiento del proxy inversa de Nginx y Nginx. Nginx Simple Reverse Proxy es el servidor Nginx proxy de código abierto más utilizado en Internet. En este tutorial, ** Configuraremos y exploraremos cómo usar NGINX como proxy inverso ** y cómo configurarlo como proxy inverso en un solo servidor. ¡Entonces empecemos!
+Después de mucho aprecio por nuestra serie sobre los tutoriales de Redis, recibimos muchas solicitudes para comenzar una serie sobre tutoriales NGINX. Entonces, la semana pasada comenzamos con un tutorial sobre cómo usar [Balancer de carga de proxy inverso de Nginx][1] para sus aplicaciones. Este simple ejemplo de configuración de proxy de Nginx Reverse proporciona muchos beneficios de rendimiento del proxy inversa de Nginx y Nginx. Nginx Simple Reverse Proxy es el servidor Nginx proxy de código abierto más utilizado en Internet. En este tutorial, ** Configuraremos y exploraremos cómo usar NGINX como proxy inverso ** y cómo configurarlo como proxy inverso en un solo servidor. ¡Entonces empecemos!
   * ¿Qué es un servidor proxy?
   * ADELANTE VS REVERSE PROXY
   * Configurar proxy inverso
@@ -60,7 +60,7 @@ location /path/to/location/ {
 }
 ```
 Nginx también admite el búfer que ayuda a mejorar el rendimiento. Con Buffering habilitado, NGINX almacenará la respuesta que recibe del servidor proxy siempre que el cliente lo necesite para descargar.
-En lugar de representar todas las solicitudes a un solo servidor, también puede ** configurar múltiples servidores de backend ** y dejar que el equilibrio NGINX se cargue entre esos servidores proxizados. Ya hemos cubierto esto en nuestro tutorial sobre [equilibrio de carga Nginx] [1].
+En lugar de representar todas las solicitudes a un solo servidor, también puede ** configurar múltiples servidores de backend ** y dejar que el equilibrio NGINX se cargue entre esos servidores proxizados. Ya hemos cubierto esto en nuestro tutorial sobre [equilibrio de carga Nginx][1].
 
 ## ¿Cuáles son las ventajas del proxy inverso de Nginx?
 Los siguientes son los beneficios de configurar el servidor proxy reverso NGINX:
@@ -78,13 +78,15 @@ _ ¿Cuál es su servidor de proxy_ reverse más favorito que es fácil, dinámic
 
 ## Explorar
 Es posible que encuentre los artículos más relacionados.
-  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian] [3]
-  * [Asegure Nginx con vamos a cifrar en Ubuntu 20.04] [4]
-  * [Cómo usar Nginx como equilibrador de carga para su aplicación] [1]
-  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu] [5]
-  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian] [6]
-  * [Instale múltiples versiones PHP con Nginx en Ubuntu] [7]
-  * [Configurar nginx con pasajero en el servidor de producción de AWS] [8]
+  * [Cómo configurar Apache como un proxy inverso para Ubuntu/Debian][3]
+  * [Asegure Nginx con vamos a cifrar en Ubuntu 20.04][4]
+  * [Cómo usar Nginx como equilibrador de carga para su aplicación][1]
+  * [Cómo instalar y asegurar phpmyadmin con Nginx en Ubuntu][5]
+  * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian][6]
+  * [Instale múltiples versiones PHP con Nginx en Ubuntu][7]
+  * [Configurar nginx con pasajero en el servidor de producción de AWS][8]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

@@ -17,11 +17,11 @@ categories: ['Live Chat']
 ## Genel Bakış
 E -ticaret web sitelerindeki çok sayıda müşteri kullanıcısı, kullanıcı deneyimi nedeniyle kontrol etmeden terk eder. Ancak, web sitesinde yüklü uygun canlı sohbet yazılımınız varsa ve kaybolmadan veya web sitesinden ayrılmadan önce kullanıcıyla etkileşime geçin, o müşteriyi kaydedebilirsiniz. Müşteriler sorularının anında cevaplanmasını ister ve satın alma işlemi sırasında herhangi bir karışıklık satış kaybetmeye neden olabilir. Ancak, açık kaynaklı topluluk çok canlı ve birçok açık kaynak ** Müşteri Destek Sohbet Yazılımı ** geliştirdi.
 Doğru canlı sohbet yazılımı çözümünü kullanmak, müşterinizin sorgularına anında yanıt vermenize ve bunları satışa dönüştürmenize yardımcı olur. Bu blog yazısı, küçük ve orta ölçekli işletmeler için en iyi olduğunu düşündüğümüz en iyi ücretsiz canlı sohbet uygulamaları listesini paylaşmayı amaçlıyor.
-  * [Rocket.chat] [1]
-  * [Zulip] [2]
-  * [En önemli] [3]
-  * [Sohbet edelim] [4]
-  * [Botpress] [5]
+  * [Rocket.chat][1]
+  * [Zulip][2]
+  * [En önemli][3]
+  * [Sohbet edelim][4]
+  * [Botpress][5]
 
 ## ** Rocket.chat ** {#Rocket-chat}
 Rocket.chat açık kaynaklı bir ** web sohbet yazılımıdır. ** Tamamen ücretsiz ve kendi kendine barındırılan bir sohbet sistemidir. Doğrudan mesajlar ve grup mesajları kullanarak ekip iletişimi sağlayan kapsamlı bir iletişim platformudur.
@@ -31,7 +31,7 @@ Rocket.chat büyük bir açık kaynak topluluğuna sahiptir. Bunun bir sonucu ol
   * LDAP kimlik doğrulaması
   * Dinlenme dolu API'ler
   * Yerel platformlar arası masaüstü uygulaması
-    [Devamını oku] [6]
+    [Devamını oku][6]
 
 ## ** zulip ** {#zulip}
 Zulip, akış tabanlı iş parçacığı modelini takip eden en popüler ** açık kaynaklı sohbet çözümlerinden ** biridir. Zulip'te kanallar yerine akışlara abone olursunuz, böylece yalnızca ilgilendiğiniz akışlardan haberdar olursunuz. Bu akış aboneliği daha sonra konuşmaları izlemenize ve organize olmanıza yardımcı olur.
@@ -42,7 +42,7 @@ Bu ** açık kaynaklı sohbet uygulaması ** çapraz platformdur ve kendi özel 
   * API: Zulip'in ölü-basit bir RESTful API ve Python Bağlamaları var
   * Mobil Uygulamalar: Yerel Kalite iOS ve Android uygulamalarını destekler.
   * Masaüstü Uygulamaları: Çok platformlu masaüstü uygulamalarını destekler.
-    [Devamını oku] [7]
+    [Devamını oku][7]
 
 ## ** Önemli ** {#matter}
 Massess, son derece güvenli ve ölçeklenebilir bir açık kaynaklı ** web sohbet yazılımı **'dır. Birincisi, en popüler tescilli canlı sohbet uygulamalarına alternatif olarak kabul edilir. İkincisi, bu ** açık kaynaklı sohbet uygulaması ** hem Slack hem de Microsoft ekiplerinin bir karışımıdır. Sonuç olarak, onu her iki uygulamanın bir üst seti haline getirir.
@@ -54,7 +54,7 @@ Bu ** Açık Kaynak Sohbet Çözümü **, büyük şirketlerin tüm iletişimler
   * Eklentiler ve uzantılar
   * Botlar ve geliştirici araç seti
   * Sağlam API Kütüphanesi
-    [Devamını oku] [8]
+    [Devamını oku][8]
 
 ## ** Sohbet edelim ** {#lets-chat}
 Hadi Sohbet, küçük ekipler için kendi kendine barındırılan ** Müşteri Destek Sohbet Yazılımı **. Bu ** Web Sohbet Yazılımı ** Node.js ve MongoDB kullanılarak geliştirilir ve kolay ve hızlı dağıtım üzerine odaklanır. Birkaç tıklamayla sunucunuza yükleyebilirsiniz. GitHub'da mevcut kaynak kodu ile% 100 ücretsiz ve açık kaynaktır.
@@ -64,7 +64,7 @@ Let's Chat'i diğer açık kaynaklı yazılımlardan benzersiz kılan, LDAP ve K
   * Hubot dostu
   * Dinlenme benzeri API
   * Transkriptler / sohbet geçmişi
-    [Devamını oku] [9]
+    [Devamını oku][9]
 
 ## ** botpress ** {#botpress}
 Bu günlerde sohbet botları artıyor. Bunları satış, pazarlama veya destek için kullanın, sanal ekibinize harika bir katkı olabilir.
@@ -75,18 +75,20 @@ Yapay zeka ve makine öğrenimi son zamanlarda çok gelişti. Bu nedenle, yapay 
   * İçerik ve Akış Ayrılması
   * Döngüde İnsan
   * Modüler tasarım
-    [Devamını oku] [10]
+    [Devamını oku][10]
 
 ## Çözüm
 Bu makalede, küçük ve orta ölçekli işletmeler ve ekipler için mevcut en iyi açık kaynak ** web sohbet yazılımı ** gözden geçirmişsinizdir. Bu blog yazısı, işletme web siteniz için bir açık kaynak ** Müşteri Destek Sohbet Yazılımı ** seçerken doğru seçimi yapmanıza gerçekten yardımcı olacaktır. İlk olarak, rocket.chat, zulip, en önemli, sohbet ve botpress'in en üst düzey özelliklerini listeledik. İkincisi, bu özelliklerin onları nasıl benzersiz kıldığını açıkladık. Sonuç olarak, daha fazla eklenti ve entegrasyon istiyorsanız rocket.chat ve en önemli seçeneklerdir. Hızlı ve kolay bir çözüme ihtiyacınız varsa Zulip ve sohbet iyi Livechat yazılımı olabilir. Bot Building Rocket.Chat için özellikler sunuyor. Ancak Botpress daha popüler bir seçimdir.
-Son olarak, [** Containerize.com **] [11] diğer açık kaynak ** açık kaynak sohbet uygulamaları üzerine makaleler yazıyor.
+Son olarak, [** Containerize.com **][11] diğer açık kaynak ** açık kaynak sohbet uygulamaları üzerine makaleler yazıyor.
 
 ## Keşfetmek
-  * [Botpress kullanarak işletmeniz için AI tabanlı bir SSS botu nasıl oluşturulur] [13]
-  * [Rocket.chat kullanarak web sitenizde canlı sohbet desteği nasıl kurulur] [14]
-  * [Rocket.chat kullanarak WordPress Anlık Mesajlaşma] [15]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [16]
-  * [Botpress kullanarak rocket.chat'de bot nasıl oluşturulur ve çalıştırılır] [17]
+  * [Botpress kullanarak işletmeniz için AI tabanlı bir SSS botu nasıl oluşturulur][13]
+  * [Rocket.chat kullanarak web sitenizde canlı sohbet desteği nasıl kurulur][14]
+  * [Rocket.chat kullanarak WordPress Anlık Mesajlaşma][15]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][16]
+  * [Botpress kullanarak rocket.chat'de bot nasıl oluşturulur ve çalıştırılır][17]
+
+  
 [1]: #rocket-chat
 [2]: #zulip
 [3]: #mattermost

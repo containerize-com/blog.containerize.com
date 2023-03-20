@@ -15,10 +15,10 @@ categories: ['Web Server Solution Stack']
 
 Setiap pengembang harus menginstal perangkat lunak yang diperlukan di komputernya sebelum menulis program. Pada hari -hari awal, pengembang harus menginstal setiap perangkat lunak secara terpisah dan kemudian mengkonfigurasinya untuk bekerja bersama. ** WampServer ** dan perangkat lunak tumpukan solusi web lainnya sekarang tersedia, yang menggabungkan semua perangkat lunak yang diperlukan menjadi satu paket. Anda hanya perlu menginstal satu paket untuk menjalankan dan menjalankan lingkungan pengembangan Anda.
 Dalam posting blog ini, kami akan membahas bagian -bagian berikut.
-  *[** Apa itu WampServer? **] [1]
-  *[** Instalasi Wamp **] [2]
-  *[** Wamp Configuration **] [3]
-  *[** akses phpMyadmin **] [4]
+  *[** Apa itu WampServer? **][1]
+  *[** Instalasi Wamp **][2]
+  *[** Wamp Configuration **][3]
+  *[** akses phpMyadmin **][4]
 
 ## Apa itu WampServer? {#Apa}
 WampServer adalah tumpukan solusi gratis untuk menyiapkan lingkungan pengembangan web untuk aplikasi berbasis PHP. Wamp adalah singkatan dari (W - Windows, A - Apache, M - MySQL, dan P - PHP). Selain itu, ia juga dilengkapi dengan phpMyadmin dan admin untuk manajemen database. Wamp adalah salah satu alat populer dan Anda dapat dengan cepat mengaturnya. Selanjutnya, Anda dapat mengonfigurasi server Wamp dari panel kontrol. Ini menyediakan lingkungan pengembangan web yang lengkap untuk membuat dan menguji aplikasi. WampServer terdiri dari beberapa komponen yang dapat Anda pilih selama instalasi sesuai dengan kebutuhan Anda. Wampserver hadir dengan beberapa versi PHP. Anda dapat dengan mudah mengubah versi PHP sesuai persyaratan proyek Anda. Juga, Anda dapat mengubah DBMS (Sistem Manajemen Basis Data) dari Panel Kontrol WampServer.
@@ -64,12 +64,14 @@ Anda dapat mengakses ** phpMyAdmin ** untuk pengelolaan database Anda dengan mem
 
 ## Kesimpulan
 Kami telah membahas WampServer dan mencakup panduan langkah demi langkah lengkap untuk ** menginstal WampServer ** di Windows. Anda dapat dengan mudah menginstal dan mengonfigurasi ** wampserver ** dengan mengikuti tutorial ini dan mulai mengkode segera. Anda dapat mengunjungi tautan di bawah bagian Explore untuk lebih banyak opsi pada perangkat lunak Solution Stack.
-Akhirnya, [** containerize.com **] [5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** Web Server Solution ini **] [6] kategori untuk pembaruan terbaru.
+Akhirnya, [** containerize.com **][5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** Web Server Solution ini **][6] kategori untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Opsi tumpukan solusi server web server open terbaik **] [7]
-  *[** Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows **] [8]
+  *[** Opsi tumpukan solusi server web server open terbaik **][7]
+  *[** Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows **][8]
+
+  
 [1]: #What
 [2]: #Installation
 [3]: #Configuration

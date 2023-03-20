@@ -76,7 +76,7 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 sudo mysql -u root -p
 ```
-登录到MySQL后，使用您选择的用户名添加一个新的MySQL Superuser。在此示例中，我们称其为yasiradmin。 [单击此处生成一个强密码] [2]，然后在下面替换新的\ _Password \ _。
+登录到MySQL后，使用您选择的用户名添加一个新的MySQL Superuser。在此示例中，我们称其为yasiradmin。 [单击此处生成一个强密码][2]，然后在下面替换新的\ _Password \ _。
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'yasiradmin'@'localhost';
 ```
 sudo apt install apache2-utils
 ```
-安装后，我们可以生成.htpasswd文件。更改您选择的用户名。 [生成密码] [3]并保持安全。
+安装后，我们可以生成.htpasswd文件。更改您选择的用户名。 [生成密码][3]并保持安全。
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ sudo service nginx reload
 
 ## 探索
 您可能还喜欢以下更多相关文章：
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [4]
-  * [如何使用我们加密在Ubuntu 20.04上保护和加密Nginx] [5]
-  * [如何在Ubuntu/debian上配置nginx中的http/2支持] [6]
-  * [如何在AWS生产服务器上使用乘客设置NGINX] [7]
-  * [如何在Ubuntu上使用Apache安装和配置OllCloud] [8]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][4]
+  * [如何使用我们加密在Ubuntu 20.04上保护和加密Nginx][5]
+  * [如何在Ubuntu/debian上配置nginx中的http/2支持][6]
+  * [如何在AWS生产服务器上使用乘客设置NGINX][7]
+  * [如何在Ubuntu上使用Apache安装和配置OllCloud][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

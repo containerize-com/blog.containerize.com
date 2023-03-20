@@ -14,10 +14,10 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/mautic.png" alt="Cara mengatur kampanye mautik untuk pemasaran digital">}}
 
 Dalam artikel ini, kita akan belajar cara mengatur kampanye di Mautic. Kami akan mencakup bagian berikut:
-  * [Apa itu Mautik?] [1]
-  * [Cara membuat formulir di Mautic?] [2]
-  * [Cara membuat kampanye di Mautic?] [3]
-  * [Kesimpulan] [4]
+  * [Apa itu Mautik?][1]
+  * [Cara membuat formulir di Mautic?][2]
+  * [Cara membuat kampanye di Mautic?][3]
+  * [Kesimpulan][4]
 
 ## APA ITU MAUTIC? {#mautic}
 Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan kontrol penuh atas email pemasaran, halaman arahan, dan alur kerja untuk kegiatan pemasaran. Ini mengotomatiskan cara menuju arahan yang dibuat dari halaman arahan, formulir dan mengubahnya menjadi pelanggan potensial. Semua ini dapat dicapai dengan membuat kampanye Smart Drip, yang akan membuat pelanggan potensial diperbarui mengenai produk/layanan.
@@ -67,13 +67,15 @@ Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan 
 
 ## kesimpulan: {#conclusion}
 Kami telah belajar mengatur kampanye pemasaran tetes mengikuti 3 langkah yang sangat sederhana. Itu termasuk membuat formulir yang diperlukan sebagai sumber kampanye, membuat kampanye dan mengkonfigurasi email. Kami telah membuat kampanye yang sangat mendasar dalam tutorial ini. Namun, Anda dapat membuat kampanye yang kompleks dengan menggunakan pembuat kampanye mautik. Jika Anda baru mengenal MAUTIC, lihat cara menginstalnya menggunakan panduan berikut:
-[Tinjauan dan Instalasi Mautik] [5]
+[Tinjauan dan Instalasi Mautik][5]
 
 ## Mengeksplorasi:
 Artikel-artikel ini bisa sangat membantu jika Anda ingin mengintegrasikan MAUTIC dengan WordPress atau Joomla serta membantu Anda memulai dengan menerapkan multi-tenancy di Mautic.
-[Otomasi Pemasaran Menggunakan Mautik dan WordPress WooCommerce] [6]
-[Mengintegrasikan mautik dengan joomla untuk otomatisasi pemasaran] [7]
-[Cara Menerapkan Multi-tenancy di MAUTIC] [8]
+[Otomasi Pemasaran Menggunakan Mautik dan WordPress WooCommerce][6]
+[Mengintegrasikan mautik dengan joomla untuk otomatisasi pemasaran][7]
+[Cara Menerapkan Multi-tenancy di MAUTIC][8]
+
+  
 [1]: #mautic
 [2]: #forms
 [3]: #campaigns

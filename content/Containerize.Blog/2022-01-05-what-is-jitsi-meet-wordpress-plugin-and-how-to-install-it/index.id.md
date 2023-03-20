@@ -15,18 +15,18 @@ categories: ['Blogging', 'Video Conferencing Software']
 
 
 ## Ringkasan
-Selamat datang di posting blog lain dalam serangkaian [blogging] [1] dan [perangkat lunak konferensi video] [2]. Baru -baru ini, kami telah menerbitkan artikel tentang topik -topik seperti [panduan langkah demi langkah untuk mengatur open source jitsi meet] [3], [cara menginstal matomo untuk wordpress | Tutorial WordPress] [4], dan beberapa lagi. Dalam posting blog ini, kami akan mencoba untuk meliput WordPress dan Jitsi Meet dan kami akan melihat bagaimana kami dapat menginstal plugin ** Jitsi Meet WordPress **. Namun, kedua perangkat lunak ini open source dan datang dengan kemampuan hosting sendiri. Faktanya, permintaan untuk model kerja jarak jauh telah meningkat hingga tingkat yang sangat besar setelah pandemi. Setiap sektor kehidupan seperti pendidikan, kesehatan, dan industri lain telah mengadopsi model jarak jauh.
+Selamat datang di posting blog lain dalam serangkaian [blogging][1] dan [perangkat lunak konferensi video][2]. Baru -baru ini, kami telah menerbitkan artikel tentang topik -topik seperti [panduan langkah demi langkah untuk mengatur open source jitsi meet][3], [cara menginstal matomo untuk wordpress | Tutorial WordPress][4], dan beberapa lagi. Dalam posting blog ini, kami akan mencoba untuk meliput WordPress dan Jitsi Meet dan kami akan melihat bagaimana kami dapat menginstal plugin ** Jitsi Meet WordPress **. Namun, kedua perangkat lunak ini open source dan datang dengan kemampuan hosting sendiri. Faktanya, permintaan untuk model kerja jarak jauh telah meningkat hingga tingkat yang sangat besar setelah pandemi. Setiap sektor kehidupan seperti pendidikan, kesehatan, dan industri lain telah mengadopsi model jarak jauh.
 Oleh karena itu, perangkat lunak pertemuan open source muncul dengan semua fitur dan karakteristik yang cukup untuk melakukan operasi bisnis dari jarak jauh. Jitsi Meet adalah salah satu perangkat lunak pertemuan open source ** yang tersedia dengan dokumentasi komprehensif mengenai pengembangan, penyebaran, dan penggunaan. Jadi, kami akan membahas poin -poin berikut.
-  * [Apa itu Jitsi Meet?] [5]
-  * [Pengenalan Singkat Perangkat Lunak Blogging (WordPress)] [6]
-  * [Bagaimana cara menginstal jitsi bertemu di wordpress?] [7]
-  * [Kesimpulan] [8]
+  * [Apa itu Jitsi Meet?][5]
+  * [Pengenalan Singkat Perangkat Lunak Blogging (WordPress)][6]
+  * [Bagaimana cara menginstal jitsi bertemu di wordpress?][7]
+  * [Kesimpulan][8]
 
 ## Apa jitsi bertemu? {#Apa}
-Jitsi Meet adalah open source ** perangkat lunak konferensi video ** yang menawarkan berbagai fitur. Ini sangat berorientasi pada privasi dan menawarkan enkripsi data. Perangkat lunak konferensi video ini menggunakan WEBRTC untuk memberikan panggilan video berkualitas tinggi. Selain itu, beberapa peserta dapat bergabung dengan panggilan di mana mereka dapat mengobrol dengan emoji dan dapat berbagi layar untuk mempresentasikan konten mereka. Anggota dapat mengundang kolega mereka yang lain dengan berbagi URL konferensi. Selain itu, mudah diatur dan dilengkapi dengan langkah -langkah penyebaran dan instalasi sederhana. Jitsi Meet sangat dapat diperluas dan pengembang dapat memperpanjangnya sesuai kebutuhan mereka. Perangkat lunak konferensi video gratis ini ditulis dalam JavaScript. Oleh karena itu, ia memiliki statistik yang baik pada repo [GitHub] [9] di mana pengguna dapat menemukan dukungan.
+Jitsi Meet adalah open source ** perangkat lunak konferensi video ** yang menawarkan berbagai fitur. Ini sangat berorientasi pada privasi dan menawarkan enkripsi data. Perangkat lunak konferensi video ini menggunakan WEBRTC untuk memberikan panggilan video berkualitas tinggi. Selain itu, beberapa peserta dapat bergabung dengan panggilan di mana mereka dapat mengobrol dengan emoji dan dapat berbagi layar untuk mempresentasikan konten mereka. Anggota dapat mengundang kolega mereka yang lain dengan berbagi URL konferensi. Selain itu, mudah diatur dan dilengkapi dengan langkah -langkah penyebaran dan instalasi sederhana. Jitsi Meet sangat dapat diperluas dan pengembang dapat memperpanjangnya sesuai kebutuhan mereka. Perangkat lunak konferensi video gratis ini ditulis dalam JavaScript. Oleh karena itu, ia memiliki statistik yang baik pada repo [GitHub][9] di mana pengguna dapat menemukan dukungan.
 
 ## Pengenalan singkat perangkat lunak blogging (WordPress) {#intro}
-Di bagian tutorial plugin WordPress ** ini ** posting blog, kami akan melalui perangkat lunak blogging open source yang paling populer dan banyak digunakan. Namun, kami akan segera melalui perangkat lunak blogging teratas [WordPress] [10]. WordPress adalah paket lengkap yang multiguna dan sangat diadopsi sebagai platform blogging serta sistem manajemen konten. Faktanya, ini adalah open source, hosting sendiri, multibahasa, dan menawarkan fitur tingkat perusahaan untuk membangun situs web bisnis. Ada kumpulan plugin besar di mana pengembang dapat dengan mudah mengakses dan memasang plugin apa pun yang diperlukan untuk memenuhi persyaratan. Selain itu, ia memiliki komunitas yang sangat bersemangat dan hidup yang secara aktif menanggapi permintaan dan pertanyaan fitur baru. WordPress juga memiliki statistik yang sangat baik di [GitHub] [11] repo. Oleh karena itu, pengembang dapat menemukan materi yang mendukung dengan mudah.
+Di bagian tutorial plugin WordPress ** ini ** posting blog, kami akan melalui perangkat lunak blogging open source yang paling populer dan banyak digunakan. Namun, kami akan segera melalui perangkat lunak blogging teratas [WordPress][10]. WordPress adalah paket lengkap yang multiguna dan sangat diadopsi sebagai platform blogging serta sistem manajemen konten. Faktanya, ini adalah open source, hosting sendiri, multibahasa, dan menawarkan fitur tingkat perusahaan untuk membangun situs web bisnis. Ada kumpulan plugin besar di mana pengembang dapat dengan mudah mengakses dan memasang plugin apa pun yang diperlukan untuk memenuhi persyaratan. Selain itu, ia memiliki komunitas yang sangat bersemangat dan hidup yang secara aktif menanggapi permintaan dan pertanyaan fitur baru. WordPress juga memiliki statistik yang sangat baik di [GitHub][11] repo. Oleh karena itu, pengembang dapat menemukan materi yang mendukung dengan mudah.
 
 ## Bagaimana cara menginstal jitsi bertemu di WordPress? {#Bagaimana}
 Jadi, kami telah melalui apa yang Jitsi bertemu dan pengenalan singkat WordPress. Namun, di bagian ini, kita akan melihat langkah -langkah untuk menginstal ** perangkat lunak pertemuan open source ** jitsi bertemu.
@@ -48,17 +48,19 @@ Demikian juga, Anda dapat menjelajahinya lebih jauh sendiri. Plugin Jitsi Meet W
 
 ## kesimpulan {#conclusion}
 Ini membawa kita ke akhir tutorial plugin ** WordPress ini ** posting blog. Kami berharap artikel ini memberi Anda demonstrasi yang bagus tentang topik ini. Kami telah melalui cara menginstal plugin ** jitsi bertemu wordpress **, apa jitsi bertemu, dan intro singkat WordPress. Mengadaptasi perangkat lunak kolaborasi jarak jauh akan selalu memberi bisnis Anda keunggulan kompetitif dan Anda akan berakhir dengan hasil yang positif. Ada opsi open source lain yang dapat Anda temukan di ruang ini. Ada artikel lain yang relevan yang disebutkan di bagian ‘Jelajahi” di bawah ini yang dapat Anda periksa.
-Akhirnya, [containerize.com] [12] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan [perangkat lunak konferensi video] [13] dan [platform blogging] [14] kategori untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [15], [LinkedIn] [16], dan [Twitter] [17].
+Akhirnya, [containerize.com][12] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan [perangkat lunak konferensi video][13] dan [platform blogging][14] kategori untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][15], [LinkedIn][16], dan [Twitter][17].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Panduan Langkah demi Langkah untuk Mengatur Open Source Jitsi Meet] [3]
-  * [Bagaimana Solusi Konferensi Video Gratis Menguntungkan Bisnis Anda] [18]
-  * [Top 5 Open Source Video Konferensi Perangkat Lunak 2021] [19]
-  * [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress] [20]
-  * [Cara Menginstal Plugin di WordPress | Forum Vanilla] [21]
-  * [CivicRM WordPress Integration | Tutorial WordPress] [22]
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [23]
+  * [Panduan Langkah demi Langkah untuk Mengatur Open Source Jitsi Meet][3]
+  * [Bagaimana Solusi Konferensi Video Gratis Menguntungkan Bisnis Anda][18]
+  * [Top 5 Open Source Video Konferensi Perangkat Lunak 2021][19]
+  * [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress][20]
+  * [Cara Menginstal Plugin di WordPress | Forum Vanilla][21]
+  * [CivicRM WordPress Integration | Tutorial WordPress][22]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][23]
+
+  
 [1]: https://blog.containerize.com/category/blogging/
 [2]: https://blog.containerize.com/category/video-conferencing-software/
 [3]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/

@@ -16,10 +16,10 @@ categories: ['Web Server Solution Stack']
 
 ## Genel Bakış {#PerRerequisites}
 Bu kılavuzda, Web uygulamalarını geliştirme ve dağıtma için Nginx, MySQL ve PHP (LEMP Yığın) yükleyeceğiz. Ayrıca Ubuntu Server 18.04'te bir web sunucusu sunucuya PHP uygulaması yapılandıracağız. Bu öğreticide aşağıdaki bölümleri ele alacağız.
-  *[** Önkoşul **] [1]
-  *[** Lemp yığını nedir? **] [2]
-  *[** lemp kurulumu **] [3]
-  *[** Sonuç **] [4]
+  *[** Önkoşul **][1]
+  *[** Lemp yığını nedir? **][2]
+  *[** lemp kurulumu **][3]
+  *[** Sonuç **][4]
 
 ## Önkoşullar {#prerequisites}
 Yazılım yüklemeden önce aşağıdaki gereksinimleri karşılamalısınız.
@@ -146,17 +146,19 @@ phpinfo();
 
 ## Sonuç {#Conclusion}
 Bu öğreticide, ** lemp yığınının ** nasıl kurulacağı ve yapılandırılacağını tartıştık. Gördüğünüz gibi, yazılım yığın bileşenlerini yapılandırmak gerçekten kolaydır. Ayrıca, birkaç dakika içinde web uygulamaları oluşturmaya ve sunmaya başlayabilirsiniz.
-Son olarak, [** Containerize.com **] [5], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** Web Server Çözümü Yığın **] [6] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][5], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** Web Server Çözümü Yığın **][6] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** En İyi Açık Kaynak Web Server Çözümü Yığını **] [7]
-  *** [En popüler açık kaynaklı dijital adli araçlar] [8] **
-  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı] [9] **
-  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [10] **
-  *[** ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alır **] [11]
-  *[** Ubuntu'da nginx ile birden fazla PHP sürümü nasıl yüklenir **] [12]
-  *[** En Popüler En Popüler OSI onaylı 2021 Açık Kaynak Lisansları **] [13]
+  *[** En İyi Açık Kaynak Web Server Çözümü Yığını **][7]
+  *** [En popüler açık kaynaklı dijital adli araçlar][8] **
+  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı][9] **
+  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][10] **
+  *[** ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alır **][11]
+  *[** Ubuntu'da nginx ile birden fazla PHP sürümü nasıl yüklenir **][12]
+  *[** En Popüler En Popüler OSI onaylı 2021 Açık Kaynak Lisansları **][13]
+
+  
 [1]: #Prerequisites
 [2]: #What
 [3]: #Installation

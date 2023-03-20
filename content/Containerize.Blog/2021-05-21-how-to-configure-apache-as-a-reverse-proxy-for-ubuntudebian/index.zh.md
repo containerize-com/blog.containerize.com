@@ -97,11 +97,13 @@ sudo systemctl restart apache2.Service
 
 ## 探索
 您可能还喜欢以下更多相关文章：
-  * [如何] [1] [安装并在Ubuntu上使用nginx的phpmyadmin [2]
-  * [如何在AWS生产服务器上使用乘客设置NGINX] [3]
-  * [在Ubuntu/debian上配置http/2支持nginx] [4]
-  * [安全和加密nginx与让我们在Ubuntu上加密20.04] [5]
-  * [如何在Ubuntu上使用Apache安装和配置OllCloud] [6]
+  * [如何][1][安装并在Ubuntu上使用nginx的phpmyadmin [2]
+  * [如何在AWS生产服务器上使用乘客设置NGINX][3]
+  * [在Ubuntu/debian上配置http/2支持nginx][4]
+  * [安全和加密nginx与让我们在Ubuntu上加密20.04][5]
+  * [如何在Ubuntu上使用Apache安装和配置OllCloud][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/zh/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

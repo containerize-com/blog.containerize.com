@@ -15,12 +15,12 @@ categories: ['Help Desk']
 
 
 ## Descripción general
-Bienvenido a otra publicación de blog interesante en la serie de [Software de boletos de HelpDesk] [1]. Hemos publicado algunas publicaciones de blog sobre temas como [Sistema popular de asistencia de boletos gratuitos y atención al cliente] [2], [Automatizar el sistema de boletos con WordPress y Osticket] [3], y algo más. Sin embargo, Osticket es un sistema de servicio de ayuda basado en boletos de código abierto diseñado para que los clientes denuncien sus consultas y quejas para apoyar al personal. Este sistema de soporte gratuito proporciona un módulo de administración de consultas fáciles de usar que convierte las consultas provenientes del teléfono, el correo electrónico y los formularios en boletos basados ​​en la web. Ofrece una amplia gama de características y opciones que permiten al personal de soporte proporcionar una increíble experiencia de soporte al cliente para los clientes.
+Bienvenido a otra publicación de blog interesante en la serie de [Software de boletos de HelpDesk][1]. Hemos publicado algunas publicaciones de blog sobre temas como [Sistema popular de asistencia de boletos gratuitos y atención al cliente][2], [Automatizar el sistema de boletos con WordPress y Osticket][3], y algo más. Sin embargo, Osticket es un sistema de servicio de ayuda basado en boletos de código abierto diseñado para que los clientes denuncien sus consultas y quejas para apoyar al personal. Este sistema de soporte gratuito proporciona un módulo de administración de consultas fáciles de usar que convierte las consultas provenientes del teléfono, el correo electrónico y los formularios en boletos basados ​​en la web. Ofrece una amplia gama de características y opciones que permiten al personal de soporte proporcionar una increíble experiencia de soporte al cliente para los clientes.
 Este sistema de boletos de código abierto (Osticket) es un marco de boletos de soporte completamente flexible que ofrece numerosas opciones para ayudar a adaptar todas las partes de la experiencia de soporte del cliente, como mensajes enviados a clientes, páginas y notificaciones. En su artículo, aprenderemos el desarrollo del complemento Osticket para mejorar la funcionalidad de acuerdo con nuestras necesidades. Para hacer eso, cubriremos los siguientes temas:
-  * [¿Por qué usar complementos?] [4]
-  * [Requisitos] [5]
-  * [¿Cómo desarrollar el complemento de Osticket?] [6]
-  * [Conclusión] [7]
+  * [¿Por qué usar complementos?][4]
+  * [Requisitos][5]
+  * [¿Cómo desarrollar el complemento de Osticket?][6]
+  * [Conclusión][7]
 
 ## ¿Por qué usar complementos? {#por qué}
 En este tema, aprenderemos cómo crear un complemento simple para extender la funcionalidad central de este ** Software de servicio IT ** (Osticket). Un complemento es un software que extiende la funcionalidad central de cualquier aplicación/software. Además, hay muchos software de código abierto de nivel empresarial que tiene una gran pila de complementos que extienden las funcionalidades. Además, este popular software de código abierto incluye WordPress, Joomla y muchos más. Sobre todo, las comunidades vibrantes y vivas apoyan y desarrollan complementos según las necesidades. Sin embargo, los marcos ofrecen documentación integral con respecto al desarrollo de los complementos. Las siguientes son algunas razones para que las aplicaciones admitan complementos:
@@ -128,20 +128,22 @@ class DynabicRedminePlugin extends Plugin {
 
 ## conclusión {#conclusion}
 Esto nos lleva al final de esta publicación de blog. Osticket es un software de administración de ticketing que ofrece una estructura de complementos para los desarrolladores para que puedan agregar una nueva funcionalidad según los requisitos. Los complementos son los componentes que extienden la funcionalidad central de cualquier aplicación/software. En su artículo, hemos discutido el desarrollo de complementos de este sistema de atención al cliente ** ** (Osticket), que ayuda a los desarrolladores a agregar características y mejoras personalizadas de acuerdo con sus requisitos. Por lo tanto, esta publicación de blog realmente lo ayudará si está buscando implementar un software ** IT de servicio de ayuda ** para su negocio. Además, hay otro software de boletos de servicio ** ** y artículos mencionados en la sección "Explorar" a continuación.
-Finalmente, [Contenerize.com] [8] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Software de boletos de HelpDesk] [1] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [9], [LinkedIn] [10] y [Twitter] [11].
+Finalmente, [Contenerize.com][8] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Software de boletos de HelpDesk][1] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][9], [LinkedIn][10] y [Twitter][11].
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [UVDESK] [12]
-  * [Zammad] [13]
-  * [Freescout] [14]
-  * [Helpy] [15]
-  * [El mejor software de mesa de ayuda de código abierto y gratis de TI] [16]
-  * [Sistema popular de asistencia basada en boletos gratuitos y atención al cliente] [2]
-  * [Cómo configurar el software de la mesa de ayuda en línea usando Osticket] [17]
-  * [Cómo implementar la tenencia múltiple en Osticket] [18]
-  * [Automatizar el sistema de tickets usando WordPress y Osticket] [3]
-  * [Automatice las operaciones comerciales utilizando software de código abierto y abierto] [19]
+  * [UVDESK][12]
+  * [Zammad][13]
+  * [Freescout][14]
+  * [Helpy][15]
+  * [El mejor software de mesa de ayuda de código abierto y gratis de TI][16]
+  * [Sistema popular de asistencia basada en boletos gratuitos y atención al cliente][2]
+  * [Cómo configurar el software de la mesa de ayuda en línea usando Osticket][17]
+  * [Cómo implementar la tenencia múltiple en Osticket][18]
+  * [Automatizar el sistema de tickets usando WordPress y Osticket][3]
+  * [Automatice las operaciones comerciales utilizando software de código abierto y abierto][19]
+
+  
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

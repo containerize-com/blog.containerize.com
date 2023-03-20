@@ -13,18 +13,18 @@ categories: ['Animation Software']
 
 {{< figure align=center src="images/Beginners-Guide-To-Start-Free-Image-Editing-Using-Digikam.png" alt="Digikam kullanarak ücretsiz resim düzenlemeye başlamak için acemi kılavuzu">}}
 
-İster sadece akıllı telefonunuzla çekim yapın, ister profesyonel bir fotoğrafçı olun, dijital fotoğraflarınızı düzenlemek ve optimize etmek için görüntü düzenleme yazılımına ihtiyacınız vardır. Fotoğraf iş akışınıza dahil edilecek kullanımı kolay, güçlü ve ücretsiz bir görüntü düzenleme yazılımı arıyorsanız, [Digikam] [1] 'i denemelisiniz. Bu makalede aşağıdaki konuları ele alacağız:
-  * [Digikam nedir?] [2]
-  * [Digikam nasıl kurulur?] [3]
-  * [Digikam nasıl kullanılır?] [4]
-  * [Sonuç] [5]
+İster sadece akıllı telefonunuzla çekim yapın, ister profesyonel bir fotoğrafçı olun, dijital fotoğraflarınızı düzenlemek ve optimize etmek için görüntü düzenleme yazılımına ihtiyacınız vardır. Fotoğraf iş akışınıza dahil edilecek kullanımı kolay, güçlü ve ücretsiz bir görüntü düzenleme yazılımı arıyorsanız, [Digikam][1] 'i denemelisiniz. Bu makalede aşağıdaki konuları ele alacağız:
+  * [Digikam nedir?][2]
+  * [Digikam nasıl kurulur?][3]
+  * [Digikam nasıl kullanılır?][4]
+  * [Sonuç][5]
 
 ## Digikam nedir? {#digikam}
 Fotoğrafçılık iş akışına yardımcı olacak ve sorunsuz hale getirecek bir yazılıma sahip herhangi bir dijital fotoğrafçı için sadece fotoğraflarınızın kalitesi değil, düzenleme sürecinde de büyük bir fark yaratabilir. Digikam, fotoğrafçıların dosyaları yalnızca toplu olarak ayrı ayrı kategorize etmelerini sağlamakla kalmayıp, aynı zamanda birçok düzenleme efektini de uygulamalarına izin veren bir dijital fotoğraf iş akışı yöneticisidir. Ayrıca doğrudan çiğ görüntüler yükleyebilir ve herhangi bir kalite kaybı olmadan DNG'ye dönüştürebilirsiniz ve birçok dijital kamera modelini destekleyebilirsiniz. Açık kaynaklı görüntü düzenleyicisi olarak dosyaları yerel olarak veya uzak bir sunucuda da depolayabilirsiniz. Digikam, SQL, MySQL ve MariaDB dahil olmak üzere birden fazla veritabanı desteği sağlar.
 Digikam, kullanımı kolay bir arayüze sahiptir. Kameranıza veya önizleme resimlerinize bağlanmanızı sağlar. Düzeni çok sezgisel ve anlaşılması kolaydır. Solda fotoğrafları görüntülemek için kontroller var ve sağda efektler ve filtreler için kontroller var. Dgikam bir süredir aslında eksiksiz ve istikrarlı bir uygulamadır, bu yüzden sizin için iyi bir deneyim olacak.
 
 ## Digikam nasıl kurulur? {#düzenlemek}
-[Digikam] [1] Windows, Mac OS ve Linux dahil olmak üzere birden fazla işletim sistemini destekler. Ücretsiz bir görüntü düzenleme yazılımı olarak, Digikam'ın en son sürümü oldukça kararlıdır ve tercih ettiğiniz işletim sistemi için kurulmaya hazırdır.
+[Digikam][1] Windows, Mac OS ve Linux dahil olmak üzere birden fazla işletim sistemini destekler. Ücretsiz bir görüntü düzenleme yazılımı olarak, Digikam'ın en son sürümü oldukça kararlıdır ve tercih ettiğiniz işletim sistemi için kurulmaya hazırdır.
 Linux için burada digikam nasıl kurulur:
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -102,13 +102,15 @@ Digikam'ın ana özelliklerinden biri, herhangi bir kalite kaybı olmadan dijita
 
 
 ## Sonuç {#Conclusion}
-Digikam, yararlı, işlevsel, gezinmesi kolay, basit ve ücretsiz görüntü düzenleme yazılımı ve dijital fotoğrafçılık iş akışı yöneticisidir. Görüntülerinizi düzenlemenize ve bunları düzenlemenize olanak tanır. Bu kılavuzun size yeni veya gelişmiş bir dijital fotoğrafçı olarak Digikam ile neler başarabileceğiniz konusunda temel bir anlayışta yardımcı olduğunu umuyoruz. Fotoğrafçılığınız ve görüntü düzenleme maceralarınız için yararlı yazılım uygulamaları hakkında daha fazla inceleme ve kılavuz okumak için [Containerize.com] [6] 'da yeni konular için gözlerinizi dışarıda tutun.
+Digikam, yararlı, işlevsel, gezinmesi kolay, basit ve ücretsiz görüntü düzenleme yazılımı ve dijital fotoğrafçılık iş akışı yöneticisidir. Görüntülerinizi düzenlemenize ve bunları düzenlemenize olanak tanır. Bu kılavuzun size yeni veya gelişmiş bir dijital fotoğrafçı olarak Digikam ile neler başarabileceğiniz konusunda temel bir anlayışta yardımcı olduğunu umuyoruz. Fotoğrafçılığınız ve görüntü düzenleme maceralarınız için yararlı yazılım uygulamaları hakkında daha fazla inceleme ve kılavuz okumak için [Containerize.com][6] 'da yeni konular için gözlerinizi dışarıda tutun.
 
 ## Keşfetmek
 Diğer ücretsiz resim düzenleme yazılımı uygulamaları hakkında bilgi edinmek için lütfen aşağıdaki bağlantıları kontrol edin:
-  * [En iyi açık kaynaklı fotoğraf düzenleme yazılımı] [7]
-  * [Digikam | Açık Kaynak Dijital Fotoğraf Yönetimi Uygulaması] [1]
-  * [2021'de Top 5 Açık Kaynak Fotoğraf Editör Yazılımı] [8]
+  * [En iyi açık kaynaklı fotoğraf düzenleme yazılımı][7]
+  * [Digikam | Açık Kaynak Dijital Fotoğraf Yönetimi Uygulaması][1]
+  * [2021'de Top 5 Açık Kaynak Fotoğraf Editör Yazılımı][8]
+
+  
 [1]: https://products.containerize.com/photo-editing-software/digikam/
 [2]: #digikam
 [3]: #install

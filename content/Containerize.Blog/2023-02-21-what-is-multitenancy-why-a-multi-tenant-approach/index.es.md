@@ -15,12 +15,12 @@ categories: ['Programming']
 
 
 ## Descripción general
-Bienvenido a otra publicación de blog en la categoría de [programación] [1]. Vamos a discutir una arquitectura de aplicaciones de múltiples inquilinos. De hecho, [Contenerize.com] [2] tiene una amplia gama de aplicaciones de múltiples inquilinos en su pila de productos de código abierto. Las aplicaciones de múltiples inquilinos de código abierto incluyen [Form.io] [3], [Botpress] [4] y más. Además, hay una [documentación] completa [5] disponible con respecto a la arquitectura, la implementación, el desarrollo y el uso de este software de código abierto. La razón detrás de escribir este artículo es dar una comprensión del concepto detrás de la tenencia múltiple en el desarrollo de software. Entonces, descubramos**¿Qué es la multitenancia?**También pasaremos por los pros y los contras de la arquitectura multitenancia y múltiples inquilinos versus un solo inquilino.
+Bienvenido a otra publicación de blog en la categoría de [programación][1]. Vamos a discutir una arquitectura de aplicaciones de múltiples inquilinos. De hecho, [Contenerize.com][2] tiene una amplia gama de aplicaciones de múltiples inquilinos en su pila de productos de código abierto. Las aplicaciones de múltiples inquilinos de código abierto incluyen [Form.io][3], [Botpress][4] y más. Además, hay una [documentación] completa [5] disponible con respecto a la arquitectura, la implementación, el desarrollo y el uso de este software de código abierto. La razón detrás de escribir este artículo es dar una comprensión del concepto detrás de la tenencia múltiple en el desarrollo de software. Entonces, descubramos**¿Qué es la multitenancia?**También pasaremos por los pros y los contras de la arquitectura multitenancia y múltiples inquilinos versus un solo inquilino.
 Los siguientes puntos se discutirán en esta publicación:
-  * [¿Qué es la multitenancia? Multi-inquilino vs inquilino único] [6]
-  * [Tipos de arquitectura de aplicaciones de múltiples inquilinos] [7]
-  * [Beneficios comerciales de la aplicación Multi-Wenant] [8]
-  * [Descartos en la tenencia múltiple] [9]
+  * [¿Qué es la multitenancia? Multi-inquilino vs inquilino único][6]
+  * [Tipos de arquitectura de aplicaciones de múltiples inquilinos][7]
+  * [Beneficios comerciales de la aplicación Multi-Wenant][8]
+  * [Descartos en la tenencia múltiple][9]
 
 ## ¿Qué es la multitenancia? Multi-inquilino vs inquilino único {#what-is-multitenancening-multi -venant-vs-single-invenant}
 La multitenancia se refiere a una instancia de un servidor único que sirve múltiples front-end inquilinos particularmente conocidos. Cada vez que se encuentre con un software de múltiples inquilinos, solo dígale a su cerebro que este software está ejecutando una sola instancia de un servidor compartido y múltiples inquilinos (clientes) están conectados a esta instancia con diferentes marcas.
@@ -35,42 +35,44 @@ Ahora, echemos un vistazo rápido a la arquitectura de un solo inquilino. En la 
 
 ## Tipos de arquitectura de aplicaciones de múltiples inquilinos {#tipos de múltiples-inquilinos-aplicaciones-arquitectura}
 Hasta ahora, comprende la tenencia múltiple y ahora pasaremos por sus diversos tipos.
-* * Una base de datos: una instancia de aplicación**: Este enfoque es bastante popular y se ha utilizado ampliamente para crear aplicaciones multiinquilir. Según este enfoque, hay una instancia de aplicación que se ejecuta con una única base de datos. Además, hay un esquema compartido y los datos del inquilino se almacenan en una sola ubicación contra su identificación única.
-* * Múltiples base de datos: una instancia de la aplicación:**En esta arquitectura de aplicaciones de múltiples inquilinos, solo una instancia de la aplicación se ejecuta con múltiples bases de datos. Cada inquilino tiene su propio esquema de base de datos donde toda la información se guarda por cada inquilino por separado.
-* * Base de datos múltiples: múltiples instancias de aplicaciones**: El tercer enfoque se refiere a ejecutar múltiples instancias del servidor junto con múltiples bases de datos. No hay nada compartido y cada inquilino tiene aislamiento completo y no hay dependencia entre los inquilinos.
+**Una base de datos: una instancia de aplicación**: Este enfoque es bastante popular y se ha utilizado ampliamente para crear aplicaciones multiinquilir. Según este enfoque, hay una instancia de aplicación que se ejecuta con una única base de datos. Además, hay un esquema compartido y los datos del inquilino se almacenan en una sola ubicación contra su identificación única.
+**Múltiples base de datos: una instancia de la aplicación:**En esta arquitectura de aplicaciones de múltiples inquilinos, solo una instancia de la aplicación se ejecuta con múltiples bases de datos. Cada inquilino tiene su propio esquema de base de datos donde toda la información se guarda por cada inquilino por separado.
+**Base de datos múltiples: múltiples instancias de aplicaciones**: El tercer enfoque se refiere a ejecutar múltiples instancias del servidor junto con múltiples bases de datos. No hay nada compartido y cada inquilino tiene aislamiento completo y no hay dependencia entre los inquilinos.
 
 ## Beneficios comerciales de la aplicación Multiinant {#Business-Benefits-of-Multi -venant-App}
 En esta sección, pasaremos por algunos beneficios destacados de optar por la multitenancia. Aunque, podemos pasar mucho tiempo discutiendo las ventajas, pero veamos los siguientes puntos:
-* * Escalabilidad**: Es fácil escalar una arquitectura de múltiples inquilinos. Puede escalar horizontal o verticalmente independientemente del tipo que haya elegido.
-* * Rentolador**: Optar por la múltiples múltiples ahorra sus costos operativos. Hay recursos compartidos, por lo que siempre es rentable ampliar los recursos.
-* * Eficiencia y flexibilidad**: En un entorno multitenante, logra la eficiencia en el desarrollo y la implementación. Por ejemplo, puede ejecutar un script en un esquema de base de datos compartido para actualizar a todos los inquilinos.
-* * Una mejor gestión de recursos**: Agregar y eliminar recursos es sencillo. Además, esta arquitectura ofrece infraestructura mejorada y bien administrada. Además, cada inquilino es privado y seguro y tiene acceso a una base de datos compartida/no compartida.
+**Escalabilidad**: Es fácil escalar una arquitectura de múltiples inquilinos. Puede escalar horizontal o verticalmente independientemente del tipo que haya elegido.
+**Rentolador**: Optar por la múltiples múltiples ahorra sus costos operativos. Hay recursos compartidos, por lo que siempre es rentable ampliar los recursos.
+**Eficiencia y flexibilidad**: En un entorno multitenante, logra la eficiencia en el desarrollo y la implementación. Por ejemplo, puede ejecutar un script en un esquema de base de datos compartido para actualizar a todos los inquilinos.
+**Una mejor gestión de recursos**: Agregar y eliminar recursos es sencillo. Además, esta arquitectura ofrece infraestructura mejorada y bien administrada. Además, cada inquilino es privado y seguro y tiene acceso a una base de datos compartida/no compartida.
 
 ## inconveniente en múltiples tenancías {#inconveniente en multi-tenancy}
 El propósito de esta publicación de blog es dar un sentido justo de**arquitectura multiinquilir.**Por lo tanto, exploremos algunas de las desventajas adjuntas a la tenencia múltiple.
-* * Mecanismo de autenticación compleja**: Debido a la naturaleza compartida de la asignación de recursos en la multitenancia, existen protocolos estrictos para los puntos de acceso de datos.
-* * Desglose del servidor:**Es un punto importante a tener en cuenta al seleccionar la arquitectura de aplicaciones múltiples. Todos los inquilinos se vuelven no funcionales cada vez que el servidor está inactivo debido a cualquier motivo.
-* * Riesgo de privacidad**: En una arquitectura de múltiples inquilinos, hay un alto riesgo de violación de seguridad. De hecho, los datos de todos los inquilinos se almacenan en una base de datos compartida, por lo que cualquier invasión de terceros podría dar lugar a la corrupción o robo de datos.
+**Mecanismo de autenticación compleja**: Debido a la naturaleza compartida de la asignación de recursos en la multitenancia, existen protocolos estrictos para los puntos de acceso de datos.
+**Desglose del servidor:**Es un punto importante a tener en cuenta al seleccionar la arquitectura de aplicaciones múltiples. Todos los inquilinos se vuelven no funcionales cada vez que el servidor está inactivo debido a cualquier motivo.
+**Riesgo de privacidad**: En una arquitectura de múltiples inquilinos, hay un alto riesgo de violación de seguridad. De hecho, los datos de todos los inquilinos se almacenan en una base de datos compartida, por lo que cualquier invasión de terceros podría dar lugar a la corrupción o robo de datos.
 
 ## Conclusión
 Estamos terminando esta publicación de blog aquí. ¿Este artículo tiene la respuesta a sus preguntas, como**, ¿qué es multitenancia?**? Además, también hemos explorado**Infraestructura**de inquilino multiinte frente a un solo inquilino**. Además, esta guía lo ayudará a optar por la arquitectura de aplicaciones de múltiples inquilinos o un solo inquilino. Sobre todo, la multitenancia es la primera opción si está construyendo un SaaS. Hay otras publicaciones de blog interesantes que puede encontrar en la sección "Ver también" que le dará las últimas ideas sobre el mundo tecnológico.
-Finalmente, [Contenerize.com] [2] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [10], [LinkedIn] [11] y [Twitter] [12].
+Finalmente, [Contenerize.com][2] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][10], [LinkedIn][11] y [Twitter][12].
 
 ## Hacer una pregunta
-Puede informarnos sobre sus preguntas o consultas en nuestro [Foro] [13].
+Puede informarnos sobre sus preguntas o consultas en nuestro [Foro][13].
 
 ## Preguntas frecuentes
-* * ¿Qué es multi-inquilino con ejemplo?**
-Visite este [enlace] [6] para saber qué es la multitenancia. Hay detalles junto con ejemplos.
-* * ¿Cuál es el significado de la arquitectura de múltiples inquilinos?**
-A**Arquitectura de aplicaciones de múltiples inquilinos**significa una sola instancia de un servidor atiende a múltiples inquilinos (clientes). Navegue a este [enlace] [7] para obtener más detalles.
+**¿Qué es multi-inquilino con ejemplo?**
+Visite este [enlace][6] para saber qué es la multitenancia. Hay detalles junto con ejemplos.
+**¿Cuál es el significado de la arquitectura de múltiples inquilinos?**
+A**Arquitectura de aplicaciones de múltiples inquilinos**significa una sola instancia de un servidor atiende a múltiples inquilinos (clientes). Navegue a este [enlace][7] para obtener más detalles.
 
 ## Ver también
-  * [¿Qué es generativo AI? Inteligencia artificial generativa] [14]
-  * [Cómo integrar chatgpt con hojas de Google] [15]
-  * [Cómo usar chatgpt en vscode | El código de extensión VScode GPT] [16]
-  * [¿Qué es OpenAi Chatbot GPT-3 | Chatgpt una revolución ai] [17]
-  * [Una introducción a la inteligencia artificial | ¿Qué es AI?] [18]
+  * [¿Qué es generativo AI? Inteligencia artificial generativa][14]
+  * [Cómo integrar chatgpt con hojas de Google][15]
+  * [Cómo usar chatgpt en vscode | El código de extensión VScode GPT][16]
+  * [¿Qué es OpenAi Chatbot GPT-3 | Chatgpt una revolución ai][17]
+  * [Una introducción a la inteligencia artificial | ¿Qué es AI?][18]
+
+  
 [1]: https://blog.containerize.com/category/programming/
 [2]: https://www.containerize.com/
 [3]: https://products.containerize.com/form/formio/

@@ -14,10 +14,10 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket.png" alt="如何使用osticket设置在线帮助台软件">}}
 
 Osticket是开源在线帮助台软件解决方案。 Osticket Helpdesk是高成本和复杂客户支持系统的免费替代品。它是简单，轻巧，可靠，基于网络且易于设置和使用。最好的部分是，它是完全免费的。我们将在本教程中介绍以下各节：
-  * [什么是osticket？] [1]
-  * [osticket的优缺点] [2]
-  * [如何设置Osticket？] [3]
-  * [结论] [4]
+  * [什么是osticket？][1]
+  * [osticket的优缺点][2]
+  * [如何设置Osticket？][3]
+  * [结论][4]
 
 ## 什么是osticket？ {#osticket}
 Osticket提供了用户友好的控制面板和实时报告组件。用户可以只需几个简单的步骤即可登录并创建门票。他们可以通过您的网站，电子邮件或电话创建门票。然后，即将到来的门票将保存并分配给代理商。代理商将收到电子邮件通知，并会响应查询以帮助解决他们的问题。客户和代理商可以讨论评论部分的详细信息和进度。客户可以通过此在线帮助台软件提供的内置客户门户网站跟踪他们的要求和进度。
@@ -153,11 +153,13 @@ chmod 0644 include/ost-config.php
 Osticket最适合预算低的公司或那些想要一个简单的服务台系统而不是复杂的公司。它是简单，轻巧，可靠，开源和完全免费的在线帮助台软件。这使Osticket成为更高成本客户支持系统的绝佳选择。要了解有关Osticket功能和安装指南的更多信息，请在教程之后查看。
 
 ## 探索
-[最佳开源和免费IT帮助台软件] [5]
-[流行的基于免费售票员的服务台和客户服务系统] [6]
-[开发Osticket插件的初学者指南] [7]
-[如何在Osticket中实施多租赁] [8]
-[使用WordPress和Osticket自动票务系统] [9]
+[最佳开源和免费IT帮助台软件][5]
+[流行的基于免费售票员的服务台和客户服务系统][6]
+[开发Osticket插件的初学者指南][7]
+[如何在Osticket中实施多租赁][8]
+[使用WordPress和Osticket自动票务系统][9]
+
+  
 [1]: #osticket
 [2]: #pros
 [3]: #how

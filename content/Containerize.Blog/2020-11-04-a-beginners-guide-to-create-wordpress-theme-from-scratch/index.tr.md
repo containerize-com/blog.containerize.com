@@ -12,11 +12,11 @@ categories: ['Blogging']
 {{< figure align=center src="images/Beginners-Guide-To-Create-WordPress-Theme-From-Scratch-1024x536.png" alt="Sıfırdan WordPress teması oluşturmak için yeni başlayan bir kılavuz">}}
 
 WordPress teması nasıl oluşturulur, Google aramasındaki en iyi sorgular arasındadır. Basic HTML, CSS ve JavaScript'i biliyorsanız, bir WordPress teması oluşturmak basit olabilir. Ancak, WordPress'te yeniyseniz, bu öğretici sizin içindir. Tek yapmanız gereken belirtilen adımları takip etmektir. Öyleyse, bu kılavuzu okuyalım ve WordPress temasını sıfırdan nasıl oluşturacağınızı öğrenelim.
-  * [Gereksinimler] [1]
-  * [Adım adım kılavuz] [2]
+  * [Gereksinimler][1]
+  * [Adım adım kılavuz][2]
 
 ### Gereksinimler {#Requirements}
-Yapmanız gereken ilk ve en önemli şey WordPress'i yüklemektir. WordPress, kurulum kolaylığı ile tanınır. Bu basit bir süreçtir ve [kılavuz] [3] 'i takip ederek kolayca kendiniz yapılabilir.
+Yapmanız gereken ilk ve en önemli şey WordPress'i yüklemektir. WordPress, kurulum kolaylığı ile tanınır. Bu basit bir süreçtir ve [kılavuz][3] 'i takip ederek kolayca kendiniz yapılabilir.
 
 ### WordPress teması nasıl oluşturulur; Adım adım kılavuz {#guide}
 WordPress teması için her şey yalnızca ** wp_content ** dizininde yapılacaktır. Sadece ** wp_content → temalar klasöründe yeni bir tema alt klasörü yapın. ** Varsayalım ki ** “CustomTheme” **.
@@ -134,6 +134,8 @@ Yukarıdaki tüm adımları izledikten sonra, temel bir WordPress temasına sahi
 
 ### Çözüm
 Bu öğreticide WordPress temasının basit ve kolay adımlarla nasıl oluşturulacağını açıkladık. Bir WordPress teması oluşturmak ve şimdi daha zor bir iş değil, adımları okuduktan ve izledikten sonra artık zor bir görev değil. Ancak, bu öğretici çok temel kuruluma ve üstünü geliştirmek için HTML, CSS, JS ve PHP hakkında daha fazla bilgi edinmeniz gerekecek.
+
+  
 [1]: #requirements
 [2]: #guide
 [3]: https://products.containerize.com/blogging/wordpress

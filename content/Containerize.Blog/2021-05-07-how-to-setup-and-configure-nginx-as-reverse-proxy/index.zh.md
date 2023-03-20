@@ -16,7 +16,7 @@ categories: ['Web Server Solution Stack']
 
 ## 概述：
 Nginx和Apache是​​两个流行的开源Web服务器**经常与PHP一起使用。反向代理或网关充当客户端和服务器之间的连接。客户端和服务器交换信息彼此连续有效地工作。最常见的反向代理是** nginx和apache **，并且在托管多个网站时都可以在同一虚拟机上配置。反向代理保护Web服务器免受攻击，并且连接网关出现在客户端，就像普通的Web服务器一样，不需要特殊的反向代理Nginx配置。客户在反向代理决定传递请求的信息，然后将最终输出结果传递给客户端时发送请求。
-在对Redis教程的系列文章表示赞赏之后，我们收到了很多要求在NGINX教程上启动系列的请求。因此，上周我们从如何将[NGINX反向代理负载平衡器] [1]用于应用程序的教程开始。这个简单的NGINX反向代理配置示例提供了许多可靠性和NGINX反向代理性能优势。 NGINX简单反向代理是Internet上使用的最积极使用的开源Nginx代理服务器。在本教程中，我们将**配置和探索如何将NGINX用作反向代理**以及如何将其设置为单个服务器上的反向代理。所以，让我们开始吧！
+在对Redis教程的系列文章表示赞赏之后，我们收到了很多要求在NGINX教程上启动系列的请求。因此，上周我们从如何将[NGINX反向代理负载平衡器][1]用于应用程序的教程开始。这个简单的NGINX反向代理配置示例提供了许多可靠性和NGINX反向代理性能优势。 NGINX简单反向代理是Internet上使用的最积极使用的开源Nginx代理服务器。在本教程中，我们将**配置和探索如何将NGINX用作反向代理**以及如何将其设置为单个服务器上的反向代理。所以，让我们开始吧！
   *什么是代理服务器？
   *向前与反向代理
   *配置反向代理
@@ -60,7 +60,7 @@ location /path/to/location/ {
 }
 ```
 Nginx还支持缓冲，有助于改善性能。使用启用缓冲的情况下，只要客户端需要下载，NGINX就会存储从代理服务器接收的响应。
-您还可以**设置多个后端服务器**，而不是将所有请求代理到单个服务器，而是让NGINX平衡负载之间的负载。我们已经在有关[nginx负载平衡] [1]的教程中介绍了这一点。
+您还可以**设置多个后端服务器**，而不是将所有请求代理到单个服务器，而是让NGINX平衡负载之间的负载。我们已经在有关[nginx负载平衡][1]的教程中介绍了这一点。
 
 ## Nginx反向代理的优点是什么？
 以下是设置NGINX反向代理服务器的好处：
@@ -78,13 +78,15 @@ _您最喜欢的_reverse proxy_服务器是什么，简单，动态且功能齐�
 
 ## 探索
 您可能会发现以下更多的文章
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [3]
-  * [通过在Ubuntu 20.04上加密的安全nginx] [4]
-  * [如何将NGINX用作应用程序的负载平衡器] [1]
-  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin] [5]
-  * [在Ubuntu/debian上配置http/2支持nginx] [6]
-  * [在Ubuntu上使用nginx安装多个PHP版本] [7]
-  * [在AWS生产服务器上使用乘客的设置Nginx] [8]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][3]
+  * [通过在Ubuntu 20.04上加密的安全nginx][4]
+  * [如何将NGINX用作应用程序的负载平衡器][1]
+  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin][5]
+  * [在Ubuntu/debian上配置http/2支持nginx][6]
+  * [在Ubuntu上使用nginx安装多个PHP版本][7]
+  * [在AWS生产服务器上使用乘客的设置Nginx][8]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

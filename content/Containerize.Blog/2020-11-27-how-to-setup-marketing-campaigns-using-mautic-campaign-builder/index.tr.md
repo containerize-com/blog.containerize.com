@@ -14,10 +14,10 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/mautic.png" alt="Dijital pazarlama için mautik kampanyalar nasıl kurulur">}}
 
 Bu makalede, Mautic'te kampanyaların nasıl kurulacağını öğreneceğiz. Aşağıdaki bölümleri ele alacağız:
-  * [Mautik nedir?] [1]
-  * [Mautikte formlar nasıl oluşturulur?] [2]
-  * [Mautic'te kampanya nasıl oluşturulur?] [3]
-  * [Sonuç] [4]
+  * [Mautik nedir?][1]
+  * [Mautikte formlar nasıl oluşturulur?][2]
+  * [Mautic'te kampanya nasıl oluşturulur?][3]
+  * [Sonuç][4]
 
 ## Mautic nedir? {#Mautic}
 Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -postaları, açılış sayfaları ve pazarlama etkinlikleri için iş akışları üzerinde tam kontrol sağlar. İniş sayfalarından, formlardan oluşturulan ve bunları potansiyel müşterilere dönüştürme yollarını otomatikleştirir. Tüm bunlar, potansiyel müşterileri ürünler/hizmetler konusunda güncel tutacak akıllı damlama kampanyaları oluşturarak elde edilebilir.
@@ -67,13 +67,15 @@ Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -p
 
 ## Sonuç: {#Conclusion}
 3 çok basit adımın ardından damla pazarlama kampanyaları oluşturmayı öğrendik. Bu, kampanya kaynağı olarak gerekli bir form oluşturmayı, kampanyayı oluşturmayı ve e -postayı yapılandırmayı içerir. Bu öğreticide çok temel bir kampanya oluşturduk. Ancak, Mautic Campain oluşturucu kullanarak karmaşık kampanyalar oluşturabilirsiniz. Mautic'te yeniyseniz, aşağıdaki kılavuzu kullanarak nasıl kurulacağınızı kontrol edin:
-[Mautik Genel Bakış ve Kurulum] [5]
+[Mautik Genel Bakış ve Kurulum][5]
 
 ## Keşfetmek:
 Mautic'i WordPress veya Joomla ile entegre etmek ve Mautic'te çoklu kiracılık uygulamaya başlamanıza yardımcı olmak için bu makaleler çok yararlı olabilir.
-[Mautic ve WordPress WooCommerce kullanarak pazarlama otomasyonu] [6]
-[Pazarlama otomasyonu için joomla ile entegre et] [7]
-[Mautic'te çoklu kiracılık nasıl uygulanır] [8]
+[Mautic ve WordPress WooCommerce kullanarak pazarlama otomasyonu][6]
+[Pazarlama otomasyonu için joomla ile entegre et][7]
+[Mautic'te çoklu kiracılık nasıl uygulanır][8]
+
+  
 [1]: #mautic
 [2]: #forms
 [3]: #campaigns

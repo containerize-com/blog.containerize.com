@@ -15,19 +15,19 @@ categories: ['Artificial intelligence']
 
 
 ## Genel Bakış
-Yeni başlayan veya deneyimli bir seviye programcı olduğunuzu ve bir geliştirme projesi üzerinde çalıştığınızı düşünün. Peki, ya [yapay zeka destekli] [1]**vscode uzantı kodu gpt**herhangi bir programlama dilinde kaynak kodu yazmanıza yardımcı olursa ne olur? Örneğin, AI'dan bir HTML giriş öğesi için kod yazmasını istiyorsanız ve AI “” döndürür. İnanılmaz?
-Evet, sadece şaşırtıcı değil, aynı zamanda düşündürücü bir şey AI yazılımımızın kaynak kodunu oluşturacak. Bu blog yazısı, [açık kaynak] [4]**gpt-3**ile güçlendirilen [gpt] [3] adlı bir [Openai] [2]**kod oluşturucu**gösterecektir. Bu VSCODE Uzatma Kodu GPT'nin kurulumunu ve işlemlerini ayarlayacağız. Buna ek olarak, geliştiricilere ve topluluğa sunduklarını da keşfedeceğiz. Ancak,**[chatgpt] [5]**üzerindeki son blog yayınımızı atladıysanız, bu**ai chatbot hakkında ayrıntılı bir genel bakış elde etmek için bu [link] [6] 'i ziyaret etmeliyseniz.**
+Yeni başlayan veya deneyimli bir seviye programcı olduğunuzu ve bir geliştirme projesi üzerinde çalıştığınızı düşünün. Peki, ya [yapay zeka destekli][1]**vscode uzantı kodu gpt**herhangi bir programlama dilinde kaynak kodu yazmanıza yardımcı olursa ne olur? Örneğin, AI'dan bir HTML giriş öğesi için kod yazmasını istiyorsanız ve AI “” döndürür. İnanılmaz?
+Evet, sadece şaşırtıcı değil, aynı zamanda düşündürücü bir şey AI yazılımımızın kaynak kodunu oluşturacak. Bu blog yazısı, [açık kaynak][4]**gpt-3**ile güçlendirilen [gpt][3] adlı bir [Openai][2]**kod oluşturucu**gösterecektir. Bu VSCODE Uzatma Kodu GPT'nin kurulumunu ve işlemlerini ayarlayacağız. Buna ek olarak, geliştiricilere ve topluluğa sunduklarını da keşfedeceğiz. Ancak,**[chatgpt][5]**üzerindeki son blog yayınımızı atladıysanız, bu**ai chatbot hakkında ayrıntılı bir genel bakış elde etmek için bu [link][6] 'i ziyaret etmeliyseniz.**
 Aşağıdaki noktaları ele alacağız:
-* [**Kod GPT nedir?**] [7]
-* [**VSCODE Uzatma Kodu GPT nasıl kurulur?**] [8]
-* [**Openai API tuşunu alın ve GPT kodunu yapılandırın**] [9]
-* [**GPT kodunu kullanmaya başlayın-AI ile çalışan bir Openai Kod Jeneratörü**] [10]
+* [**Kod GPT nedir?**][7]
+* [**VSCODE Uzatma Kodu GPT nasıl kurulur?**][8]
+* [**Openai API tuşunu alın ve GPT kodunu yapılandırın**][9]
+* [**GPT kodunu kullanmaya başlayın-AI ile çalışan bir Openai Kod Jeneratörü**][10]
 
 ## Kod GPT nedir? {#What-IS-Codegpt}
-[Kodu GPT] [3], editör içindeki düz metinden kod snippet'leri oluşturmanızı sağlayan bir**Visual Studio Kodu Uzantısıdır. Bu**Openai Kod Jeneratörü**, doğal dilin yanıtlarını işlemek ve oluşturmak için Openai API'sine dayanmaktadır. Bununla birlikte, Kod GPT, önceden eğitilmiş bir model olan GPT-3'ün üstüne inşa edilmiştir, bu nedenle GPT koduna yapılan her istek GPT-3 tarafından işlenir ve bu model birden fazla durumu benimseyecek kadar akıllıdır. Buna ek olarak, bu**VSCODE Uzantısı**, kod oluşturma ile birlikte kod snippet'lerini refrakter ve geliştirmenizi sağlar. Aslında, tüm ortam size Visual Studio kodu düzenleyicisinde [chatgpt] [11] kullandığınızı tam olarak hissi verir.
+[Kodu GPT][3], editör içindeki düz metinden kod snippet'leri oluşturmanızı sağlayan bir**Visual Studio Kodu Uzantısıdır. Bu**Openai Kod Jeneratörü**, doğal dilin yanıtlarını işlemek ve oluşturmak için Openai API'sine dayanmaktadır. Bununla birlikte, Kod GPT, önceden eğitilmiş bir model olan GPT-3'ün üstüne inşa edilmiştir, bu nedenle GPT koduna yapılan her istek GPT-3 tarafından işlenir ve bu model birden fazla durumu benimseyecek kadar akıllıdır. Buna ek olarak, bu**VSCODE Uzantısı**, kod oluşturma ile birlikte kod snippet'lerini refrakter ve geliştirmenizi sağlar. Aslında, tüm ortam size Visual Studio kodu düzenleyicisinde [chatgpt][11] kullandığınızı tam olarak hissi verir.
 
 ## VSCODE Uzatma Kodu GPT nasıl yüklenir? {#VSCODE-Extension-Codegpt}
-Bu bölümde,**VSCODE Uzantı Kodu GPT yükleme adımlarını gözden geçireceğiz.**Bu amaçla, makinenize Visual Studio Kodu yüklediğinizden emin olun. Bu uzantıyı**[VSCode Marketplace] [12]**'den kolayca yükleyebilirsiniz.
+Bu bölümde,**VSCODE Uzantı Kodu GPT yükleme adımlarını gözden geçireceğiz.**Bu amaçla, makinenize Visual Studio Kodu yüklediğinizden emin olun. Bu uzantıyı**[VSCode Marketplace][12]**'den kolayca yükleyebilirsiniz.
 VSCODE düzenleyicisini açın, “Uzantılar” a girin ve GPT kodunu arama çubuğuna yazın. CodeGPT adıyla birçok uzantısı olacak, ancak uzantıyı aşağıdaki resimde gösterildiği gibi yüklemeniz gerekiyor:
 
 {{< figure align=center src="images/codegpt-installation-1024x640.png" alt="Kod GPT kurulumu">}}
@@ -35,7 +35,7 @@ VSCODE düzenleyicisini açın, “Uzantılar” a girin ve GPT kodunu arama çu
 Bir uyumluluk hatası almanız durumunda lütfen VSCODE'yi en son sürüme güncelleyin. Ayrıca, bu VSCODE uzantısı tutarlı bir gelişme altındadır, böylece anormal davranış şansı atlanamaz.
 
 ## Openai API tuşunu ve yapılandırın Kodu GPT {#Retrieve-Openai-Api-Key-Konfigure-Codegpt-}
-Kurulum tamamlandıktan sonra, bir sonraki adım API anahtarını Openai’nin [web sitesi] [13] 'den almaktır.**kodu gpt uzantısının özelliklerini etkinleştirmek için bu API tuşuna ihtiyacınız var**. API'yi elde etmek için bu [link] [13] adresini ziyaret edin ve zaten oluşturulmadıysa bir hesap oluşturun.
+Kurulum tamamlandıktan sonra, bir sonraki adım API anahtarını Openai’nin [web sitesi][13] 'den almaktır.**kodu gpt uzantısının özelliklerini etkinleştirmek için bu API tuşuna ihtiyacınız var**. API'yi elde etmek için bu [link][13] adresini ziyaret edin ve zaten oluşturulmadıysa bir hesap oluşturun.
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="Oepnai API">}}
 
@@ -61,20 +61,22 @@ Temel olarak, bu yanıt**açık kaynaklı GPT-3 modeli**tarafından üretilir ve
 
 ## sarmak
 Sonuç olarak, Visual Studio Kodu düzenleyicimizi**AI ile çalışan bir Openai Kod Jeneratörü ile zenginleştirdik.**Bu VSCODE uzantısı, geliştiricilerin kaynak kodunu çeşitli programlama dillerinde oluşturmasına, refraktörüne ve belgelemelerine yardımcı olur. Ayrıca, kaynak kodunun belirli bir bölümünü açıklamasından**VSCODE uzatma kodu GPT**isteyebilirsiniz. Her şeyden önce, bu VSCODE uzantısı tarafından önerilen iyileştirmeyi getirebilen seçilen bir kod snippet ile ekli sorunlar bulabilirsiniz. Son olarak, “Ayrıca bkz.” Bölümünde listelenen çok alakalı makaleler vardır.
-Son olarak, [Containerize.com] [4] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [14], [LinkedIn] [15] ve [Twitter] [16] 'dan takip edebilirsiniz.
+Son olarak, [Containerize.com][4] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi sosyal medya hesaplarımızda [Facebook][14], [LinkedIn][15] ve [Twitter][16] 'dan takip edebilirsiniz.
 
 ## Bir soru sor
-[Forum] [17] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][17] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * GPT kodu ne için kullanılır?**
-[Kod GPT] [3] yapay zeka tabanlı bir kod oluşturma ve optimizasyon uzantısıdır. Bu, Openai tarafından desteklenen açık kaynaklı GPT-3'ün üzerine inşa edilmiştir. Daha fazla ayrıntı için bu bağlantıyı ziyaret edin.
-* * GPT kodu nasıl entegre edilir?**
-Bu yapay zeka ile çalışan VSCode uzantısını yüklemek için lütfen bu [link] [9] ziyaret edin.
+**GPT kodu ne için kullanılır?**
+[Kod GPT][3] yapay zeka tabanlı bir kod oluşturma ve optimizasyon uzantısıdır. Bu, Openai tarafından desteklenen açık kaynaklı GPT-3'ün üzerine inşa edilmiştir. Daha fazla ayrıntı için bu bağlantıyı ziyaret edin.
+**GPT kodu nasıl entegre edilir?**
+Bu yapay zeka ile çalışan VSCode uzantısını yüklemek için lütfen bu [link][9] ziyaret edin.
 
 ## Ayrıca bakınız
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [6]
-  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [18]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][6]
+  * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][18]
+
+  
 [1]: https://blog.containerize.com/category/artificial-intelligence/
 [2]: https://openai.com/
 [3]: https://marketplace.visualstudio.com/items?itemName=timkmecl.codegpt3

@@ -25,9 +25,9 @@ Aşağıdaki yaklaşımları kullanarak çoklu kiracılık uygulayabiliriz.
   * Tüm kiracılar için paylaşılan veritabanı.
   * Her kiracı için ayrı veritabanı.
 Phplist'te çok kiracılık uygulamak için her kiracı yaklaşımı için ayrı bir veritabanı kullanacağız.
-  * [Teslim Talep Akışı] [1]
-  * [Kiracı için kurulum veritabanı] [2]
-  * [Kiracı için Nginx yapılandırın] [3]
+  * [Teslim Talep Akışı][1]
+  * [Kiracı için kurulum veritabanı][2]
+  * [Kiracı için Nginx yapılandırın][3]
 
 ## TEPLE AKIŞI {#REQUEST}
   * Config.php dosyanızın bir yedeğini alın ve bunu yapılandırma dizininin altında bulabilirsiniz.
@@ -63,11 +63,13 @@ switch ($_SERVER['SERVER_NAME'])
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Phplist - Açık Kaynak Bülten ve E -posta Pazarlama Yazılımı] [4]
-  * [Phplist kullanarak bülten nasıl oluşturulur ve gönderilir] [5]
-  * [Phplist'te sıçramalar nasıl kurulur ve işlenir] [6]
-  * [Phplist eklentisini geliştirmek için yeni başlayanlar rehberi] [7]
-  * [Phplist'te Gelişmiş Buluş Yönetimi ve Sıçrama Kuralları Kurulumu] [8]
+  * [Phplist - Açık Kaynak Bülten ve E -posta Pazarlama Yazılımı][4]
+  * [Phplist kullanarak bülten nasıl oluşturulur ve gönderilir][5]
+  * [Phplist'te sıçramalar nasıl kurulur ve işlenir][6]
+  * [Phplist eklentisini geliştirmek için yeni başlayanlar rehberi][7]
+  * [Phplist'te Gelişmiş Buluş Yönetimi ve Sıçrama Kuralları Kurulumu][8]
+
+  
 [1]: #request
 [2]: #database
 [3]: #nginx

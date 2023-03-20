@@ -24,10 +24,10 @@ Pendant la phase de développement, le placement des éléments de conception es
   * Lisibilité
 Voici les modèles ** joomla **. Ce logiciel open source donne une disposition pour développer ou utiliser des dispositions réactives prédéfinies pour toutes les pages Web plutôt que d'écrire du code pour chaque page séparément.
 Dans cet article de blog, nous apprendrons les choses suivantes sur la façon de créer et de configurer un modèle ** convivial ** dans Joomla.
-  * [** Quelles sont les dispositions de Joomla? **] [2]
-  * [** Comment créer un modèle réactif simple dans Joomla? **] [3]
-  * [** Comment installer un modèle Joomla? **] [4]
-  * [** Conclusion **] [5]
+  * [** Quelles sont les dispositions de Joomla? **][2]
+  * [** Comment créer un modèle réactif simple dans Joomla? **][3]
+  * [** Comment installer un modèle Joomla? **][4]
+  * [** Conclusion **][5]
 
 ## Quelles sont les dispositions de Joomla? {#quoi}
 Joomla fournit des modèles pour l'avant ainsi que pour l'arrière. Il est livré avec de nombreux modèles prêts et il offre aux développeurs de construire ** des thèmes de bootstrap réactifs gratuits ** selon leurs cas d'utilisation. Il existe deux types de modèles à Joomla.
@@ -239,22 +239,24 @@ Maintenant, vous pouvez voir votre premier modèle Joomla dans le navigateur!
 
 ## Conclusion {#conclusion}
 Un modèle bon et réactif est le fondement de la modélisation globale du site. ** Les dispositions réactives ** chez Joomla sont multifonctionnelles et peuvent être utilisées pour divers projets. De l'écriture de code au développement du modèle Joomla devient très simple à l'aide d'un tableau de bord d'administration intuitif. Joomla fournit un contrôle complet sur le développement du modèle pour répondre aux désirs de l'utilisateur.
-Comme la catégorie ** CMS Software ** est sous des améliorations cohérentes et que d'autres tutoriels concernant d'autres systèmes de gestion de contenu seront ajoutés à la liste, veuillez rester en contact avec la section [Système de gestion de contenu] [6] pour les mises à jour régulières.
+Comme la catégorie ** CMS Software ** est sous des améliorations cohérentes et que d'autres tutoriels concernant d'autres systèmes de gestion de contenu seront ajoutés à la liste, veuillez rester en contact avec la section [Système de gestion de contenu][6] pour les mises à jour régulières.
 
 ## Pages de produits pertinents
 Vous pouvez trouver les liens suivants pertinents:
-  * [Joomla] [1]
-  * [Drupal] [7]
-  * [Pyro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Concrete5] [11]
-  * [Grav] [12]
-  * [Artisanat] [13]
-  * [Contao] [14]
-  * [Fork] [15]
-  * [CMS de raffinerie] [16]
-  * [Locomotivecms] [17]
+  * [Joomla][1]
+  * [Drupal][7]
+  * [Pyro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Concrete5][11]
+  * [Grav][12]
+  * [Artisanat][13]
+  * [Contao][14]
+  * [Fork][15]
+  * [CMS de raffinerie][16]
+  * [Locomotivecms][17]
+
+  
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

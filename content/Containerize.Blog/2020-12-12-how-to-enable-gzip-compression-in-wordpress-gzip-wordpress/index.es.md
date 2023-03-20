@@ -17,11 +17,11 @@ categories: ['Blogging']
 ## Descripción general
 Como Google y otros motores de búsqueda están considerando la experiencia de usuario de un sitio web (UX), un factor crítico en sus algoritmos de clasificación. Se ha vuelto más importante mejorar y optimizar su sitio web para las calificaciones superiores. Entre los factores más importantes a los que prestar atención son, la velocidad de la página y los tiempos de carga. Y, la forma más rápida y fácil de mejorar la velocidad y el rendimiento del sitio es permitir la compresión de GZIP en su sitio web. Existe la posibilidad de que su host web permita automáticamente la compresión GZIP para usted. Si no, debes realizar esta tarea crucial tú mismo.
 En este artículo, le mostraremos exactamente cómo habilitar fácilmente la compresión de GZIP en WordPress. ¡Empecemos!
-  *[** ¿Qué es la compresión de Gzip **?] [1]
-  *[** ¿Cómo funciona la compresión GZIP? **] [2]
-  *** [¿Cómo verificar si la compresión GZIP está habilitada?] [3] **
-  *** [Habilitar compresión de GZIP en WordPress] [4] **
-  *** [Conclusión] [5] **
+  *[** ¿Qué es la compresión de Gzip **?][1]
+  *[** ¿Cómo funciona la compresión GZIP? **][2]
+  *** [¿Cómo verificar si la compresión GZIP está habilitada?][3] **
+  *** [Habilitar compresión de GZIP en WordPress][4] **
+  *** [Conclusión][5] **
 
 ## ¿Qué es la compresión de GZIP? {#qué}
 GZIP es un formato de archivo ** y una aplicación de software ** utilizada para compresión y descompresión de archivos. Los servidores web u otro software usan la compresión de GZIP para comprimir archivos de datos antes de que se envíen a los navegadores de los usuarios. Esto reduce el tiempo de descarga del archivo que hace que su sitio web sea más rápido. Todos los navegadores modernos admiten la compresión GZIP.
@@ -41,7 +41,7 @@ Luego, navegue a la pestaña ** Red ** y haga clic en la URL principal del sitio
 Allí, verá si la compresión GZIP está habilitada o no.
 
 ## Habilitar compresión GZIP en WordPress {#Enable}
-Si ha determinado que ** WordPress GZIP Compression aún no está habilitado **, existen múltiples métodos que puede usar para ejecutarlo. La forma más fácil es usar algunos complementos de WordPress como [WP Rocket] [6], [WP Super Cache] [7] o [W3 Cache total] [8]. Sin embargo, puede hacerlo manualmente a nivel del servidor, ya sea mediante el archivo .htaccess o actualizando su configuración Nginx.
+Si ha determinado que ** WordPress GZIP Compression aún no está habilitado **, existen múltiples métodos que puede usar para ejecutarlo. La forma más fácil es usar algunos complementos de WordPress como [WP Rocket][6], [WP Super Cache][7] o [W3 Cache total][8]. Sin embargo, puede hacerlo manualmente a nivel del servidor, ya sea mediante el archivo .htaccess o actualizando su configuración Nginx.
 
 ### editando el archivo .htaccess
 Una de las formas más comunes de habilitar la compresión de WordPress GZIP es ** editar su archivo _.htaccess_ **. Sin embargo, esto implica el riesgo de romper algo. Este es un archivo de servidor sensible, y un movimiento incorrecto podría causar muchos problemas.
@@ -90,18 +90,20 @@ gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon applic
 
 ## conclusión {#conclusion}
 Este es el final de este tutorial GZIP WordPress. Hay muchas formas de optimizar su sitio web para la velocidad y el rendimiento. En este tutorial GZIP WordPress, hemos pasado por lo que es la compresión de GZIP, la importancia de la compresión de GZIP y sus pasos de instalación. Además, hay muchos enlaces relevantes mencionados en la sección "Explorar" a continuación.
-Finalmente, [Contenerize.com] [9] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [Blogging] [10] para noticias y actualizaciones regulares.
+Finalmente, [Contenerize.com][9] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [Blogging][10] para noticias y actualizaciones regulares.
 
 ## Explorar
-  * [Matomo] [11]
-  * [Plausible] [12]
-  * [WordPress] [13]
-  * [Jekyll] [14]
-  * [Cómo dockerizar WordPress con Docker Compose] [15]
-  * [Cómo las herramientas de análisis de negocios gratuitos ayudan a su negocio] [16]
-  * [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021] [17]
-  * [Cómo instalar complemento en WordPress | Foro de vainilla] [18]
-  * [Aumente sus clientes potenciales con integración gratuita de WordPress CivicRM] [19]
+  * [Matomo][11]
+  * [Plausible][12]
+  * [WordPress][13]
+  * [Jekyll][14]
+  * [Cómo dockerizar WordPress con Docker Compose][15]
+  * [Cómo las herramientas de análisis de negocios gratuitos ayudan a su negocio][16]
+  * [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021][17]
+  * [Cómo instalar complemento en WordPress | Foro de vainilla][18]
+  * [Aumente sus clientes potenciales con integración gratuita de WordPress CivicRM][19]
+
+  
 [1]: #what
 [2]: #work
 [3]: #verify

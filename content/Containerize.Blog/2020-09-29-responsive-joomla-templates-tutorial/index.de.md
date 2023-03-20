@@ -24,10 +24,10 @@ Während der Entwicklungsphase ist die Platzierung von Designelementen sehr krit
   * Lesbarkeit
 Hier kommt die ** Joomla -Vorlagen **. Diese Open -Source -Software bietet vor, dass vordefinierte Reaktionslayouts für alle Webseiten entwickelt oder verwendet werden, anstatt für jede Seite Code separat zu schreiben.
 In diesem Blog -Beitrag lernen wir die folgenden Dinge zum Erstellen und Einrichten einer ** benutzerfreundlichen Vorlage ** in Joomla.
-  *[** Was sind Joomla -Layouts? **] [2]
-  *[** Wie erstelle ich eine einfache reaktionsschnelle Vorlage in Joomla? **] [3]
-  *[** Wie installiere ich eine Joomla -Vorlage? **] [4]
-  *[** Fazit **] [5]
+  *[** Was sind Joomla -Layouts? **][2]
+  *[** Wie erstelle ich eine einfache reaktionsschnelle Vorlage in Joomla? **][3]
+  *[** Wie installiere ich eine Joomla -Vorlage? **][4]
+  *[** Fazit **][5]
 
 ## Was sind Joomla -Layouts? {#Was}
 Joomla bietet Vorlagen sowohl für das Frontend als auch für das hintere Ende. Es wird mit vielen bereitgestellten Vorlagen geliefert und bietet Entwicklern, ** kostenlose Reaktionsbootstrap -Themen ** gemäß ihren Anwendungsfällen zu erstellen. In Joomla gibt es zwei Arten von Vorlagen.
@@ -239,22 +239,24 @@ Jetzt können Sie Ihre erste Joomla -Vorlage im Browser anzeigen!
 
 ## Schlussfolgerung {#Conclusion}
 Eine gute und reaktionsschnelle Vorlage ist die Grundlage für die Modellierung des Gesamtstandorts. ** Responsive Layouts ** Bei Joomla sind multifunktional und können für verschiedene Projekte verwendet werden. Mit der Hilfe eines intuitiven Admin -Dashboards wird das Schreiben von Code in die Entwicklung von Joomla -Vorlagen sehr einfach. Joomla bietet die vollständige Kontrolle über die Vorlageentwicklung, um die Wünsche des Benutzers zu erfüllen.
-Da die Kategorie von ** CMS -Software ** konsistent verbessert wird und mehr Tutorials zu anderen Content -Management -Systemen zur Liste hinzugefügt werden, bleiben Sie mit dem Abschnitt [Content Management System] [6] für regelmäßige Aktualisierungen in Kontakt.
+Da die Kategorie von ** CMS -Software ** konsistent verbessert wird und mehr Tutorials zu anderen Content -Management -Systemen zur Liste hinzugefügt werden, bleiben Sie mit dem Abschnitt [Content Management System][6] für regelmäßige Aktualisierungen in Kontakt.
 
 ## Relevante Produktseiten
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Joomla] [1]
-  * [Drupal] [7]
-  * [Pyro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Concrete5] [11]
-  * [Grav] [12]
-  * [Craft] [13]
-  * [Contao] [14]
-  * [Fork] [15]
-  * [Raffinerie -CMS] [16]
-  * [Locomotivecms] [17]
+  * [Joomla][1]
+  * [Drupal][7]
+  * [Pyro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Concrete5][11]
+  * [Grav][12]
+  * [Craft][13]
+  * [Contao][14]
+  * [Fork][15]
+  * [Raffinerie -CMS][16]
+  * [Locomotivecms][17]
+
+  
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

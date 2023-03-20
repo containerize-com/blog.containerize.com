@@ -17,21 +17,21 @@ categories: ['Office Productivity Software']
 ## 概述
 您是否想知道如何提高工作效率？如果是，您将降落在正确的位置。由于数字化，世界变得更加无纸化。因此，对办公生产力软件的需求也增加了。 Microsoft Office很长一段时间以来一直在该领域主导该领域。但是随着需求的增加以及开源和免费办公软件的选择。每天都有许多任务，需要时间和成本才能执行此类重复的任务。组织必须承担额外的成本，并最终停止整体绩效。此外，它使利益相关者设定目标，跟踪其表现并执行各种分析以做出未来的预测。
 此外，管理人员可以建立共享的工作场所，在那里他们可以有效地与队友合作。此外，在大流行时期，它有机会远程工作。但是，这些免费的生产力工具还提出了数据存储功能。越来越多的人正在寻找开源办公软件。在本文中，我们将探讨一些最好的开源和免费办公生产力工具。让我们开始吧
-  * [Apache OpenOffice] [1]
-  * [libreoffice] [2]
-  * [NeoOffice] [3]
-  * [FreeOffice] [4]
-  * [Calligra] [5]
-  * [结论] [6]
+  * [Apache OpenOffice][1]
+  * [libreoffice][2]
+  * [NeoOffice][3]
+  * [FreeOffice][4]
+  * [Calligra][5]
+  * [结论][6]
 
 ## Apache OpenOffice {#openoffice}
 Apache OpenOffice项目（AOO）根据开放标准提供了完整的开源办公室软件。这是OpenOffice.org项目的延续。该免费办公软件是免费的Microsoft Office替代方案之一。它也是开源世界中最受欢迎的免费办公套房之一。无论您是要使用文本文档，电子表格还是演示文稿。这是Microsoft Office提供的大多数功能的淘汰赛。而且，这是100％免费的。而且，这种Microsoft Office替代方案不仅是免费的开源办公室套件，而且它还在所有平台（Linux，Mac）上不仅在Windows上运行。
-Apache Open Office是用C ++编程语言开发的，所有源代码以及开发人员文档都可以在[Github] [7]上获得。
+Apache Open Office是用C ++编程语言开发的，所有源代码以及开发人员文档都可以在[Github][7]上获得。
 
 ## libreoffice {#libreoffice}
 Libreoffice是基于CopyLeft许可证的集成开源和免费办公软件，并且与大多数文档格式和标准兼容。这是最好的免费办公生产力工具之一。
 该开源Office软件得到了文档基金会的支持，该基金会代表了一个大型的企业，开发商和其他志愿者的独立社区，该社区的共同目标是将市场带入市场上最好的免费办公软件。
-Libreoffice是开源的，可以免费下载，使用和分发。它以C ++编程语言开发，您可以在[Github] [8]上查看源代码。
+Libreoffice是开源的，可以免费下载，使用和分发。它以C ++编程语言开发，您可以在[Github][8]上查看源代码。
 
 ## neooffice {#neooffice}
 Neooffice是MacOS的100％免费和开源和免费办公软件。这是Microsoft Office的替代方案。如果您想从Microsoft软件中切换，但是在这种情况下是100％免费的便宜一些，NeoOffice是您的绝佳选择。
@@ -67,18 +67,20 @@ Calligra Suite是KDE开发的开源和开源办公室软件。它是由公共基
 
 ## 结论{#conclusion}
 这使我们进入了此博客文章的结尾。上面列出的软件是当前时间点上最佳的免费和开源办公室软件。此外，这些开源免费办公套房可帮助业务满足其办公室生产力需求。我们已经浏览了前五名的办公生产力工具，这是您有关如何提高工作效率的问题的答案？希望，如果您想为您的业务安装免费的办公软件，这篇博客文章将帮助您做出正确的选择。此外，您可以在下面的“探索”部分中找到进一步的开源办公室软件和相关文章。
-最后，[Containerize.com] [9]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与[Office生产力软件] [10]类别保持联系，以进行常规更新。此外，您可以在我们的社交媒体帐户上关注我们[Facebook] [11]，[LinkedIn] [12]和[Twitter] [13]。
+最后，[Containerize.com][9]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与[Office生产力软件][10]类别保持联系，以进行常规更新。此外，您可以在我们的社交媒体帐户上关注我们[Facebook][11]，[LinkedIn][12]和[Twitter][13]。
 
 ## 探索
 您可能会发现以下链接相关。
-  * [Apache OpenOffice] [14]
-  * [libreoffice] [15]
-  * [NeoOffice] [16]
-  * [FreeOffice] [17]
-  * [Calligra] [18]
-  * [在2021年选择开源软件之前需要审查的内容] [19]
-  * [使用免费和开源软件自动化业务运营] [20]
-  * [什么是NFT？ |解释了非可替代令牌] [21]
+  * [Apache OpenOffice][14]
+  * [libreoffice][15]
+  * [NeoOffice][16]
+  * [FreeOffice][17]
+  * [Calligra][18]
+  * [在2021年选择开源软件之前需要审查的内容][19]
+  * [使用免费和开源软件自动化业务运营][20]
+  * [什么是NFT？ |解释了非可替代令牌][21]
+
+  
 [1]: #openoffice
 [2]: #libreoffice
 [3]: #neooffice

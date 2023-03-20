@@ -13,18 +13,18 @@ categories: ['Blockchain Platforms']
 {{_LINE_11_}}
 
 ## Überblick
-Heutzutage ist es sehr wichtig, Geschäftsprozesse transparent und sicher zu machen. Da die Geschäftstätigkeit schwierig werden, besteht eine hohe Chance auf Betrug oder falsche Darstellung. In herkömmlichen Systemen sind Daten zentralisiert und daher das Risiko eines Stromausfalls oder eines Datenverlusts. Daher ist die verteilte Ledger -Technologie die beste Lösung, um Ihre digitale Transaktion sicher und zuverlässig zu machen. ** DLT Technology ** bietet ein gemeinsames System zum Speichern von Datensätzen, bei denen alle Daten dezentralisiert sind. Jeder, der den Knoten in einer Blockchain aufrechterhält, kann jede digitale Transaktion zusammen mit der vollständigen, die mit dieser Transaktion verbunden sind. Darüber hinaus ist dieser Ansatz sehr sicher, da er dezentralisiert ist und daher keine zentrale Datenbank/Server für Angreifer geöffnet ist. Es ist kostengünstig, da keine zentrale Behörde oder technische Person eingestellt werden muss, um sich um die dezentrale Infrastruktur ** zu kümmern. [Dezentrale Technologie] [1] erscheint jedoch als Lösung für solche Herausforderungen.
+Heutzutage ist es sehr wichtig, Geschäftsprozesse transparent und sicher zu machen. Da die Geschäftstätigkeit schwierig werden, besteht eine hohe Chance auf Betrug oder falsche Darstellung. In herkömmlichen Systemen sind Daten zentralisiert und daher das Risiko eines Stromausfalls oder eines Datenverlusts. Daher ist die verteilte Ledger -Technologie die beste Lösung, um Ihre digitale Transaktion sicher und zuverlässig zu machen. ** DLT Technology ** bietet ein gemeinsames System zum Speichern von Datensätzen, bei denen alle Daten dezentralisiert sind. Jeder, der den Knoten in einer Blockchain aufrechterhält, kann jede digitale Transaktion zusammen mit der vollständigen, die mit dieser Transaktion verbunden sind. Darüber hinaus ist dieser Ansatz sehr sicher, da er dezentralisiert ist und daher keine zentrale Datenbank/Server für Angreifer geöffnet ist. Es ist kostengünstig, da keine zentrale Behörde oder technische Person eingestellt werden muss, um sich um die dezentrale Infrastruktur ** zu kümmern. [Dezentrale Technologie][1] erscheint jedoch als Lösung für solche Herausforderungen.
 In diesem Artikel werden wir die folgenden Punkte behandeln.
-  * [Was ist verteilte Ledger -Technologie?] [2]
-  * [Anwendungsfälle von Blockchain?] [3]
-  * [Vor- und Nachteile von Blockchain?] [4]
-  * [Schlussfolgerung] [5]
+  * [Was ist verteilte Ledger -Technologie?][2]
+  * [Anwendungsfälle von Blockchain?][3]
+  * [Vor- und Nachteile von Blockchain?][4]
+  * [Schlussfolgerung][5]
 
 ## Was ist verteilte Ledger -Technologie? {#Was}
 Blockchain ist eine bestimmte Art dezentraler Datenbank, die Daten in Form von Blöcken speichert. Diese Blöcke sind miteinander verbunden, um eine Kette zu bilden, in der jeder Block die Adresse seines vorherigen Blocks enthält. Daher kann der Benutzer alle Blöcke verfolgen, um sicherzustellen, dass die Daten Integrität sind. Meistens wird Blockchain als digitales Hauptbuch verwendet, um ** digitale Transaktionen ** aufzunehmen. Andererseits kann es verwendet werden, um alle Arten von Daten zu speichern. In den Blöcken gespeicherte Daten sind unveränderlich und können nicht verändert werden.
 Es gibt einen vollständigen Prozess, der auf jeder Transaktion ausgeführt wird. Immer wenn Transaktionen stattfinden, werden neue Blöcke in die Blockchain mit der Übereinstimmung aller im Netzwerk aktiven Knoten eingesetzt. Darüber hinaus bilden alle Knoten eine Vereinbarung mit Hilfe eines Konsensalgorithmus. In dieser ** verteilten Ledger -Technologie ** enthält drei Arten von Konsensalgorithmen **.
   *** Arbeitsweise **: In diesem Konsensalgorithmus konkurrieren Bergleute und lösen Sie ein Puzzle, das enorme Rechenleistung erfordert. Sobald sie eine Lösung gefunden haben, die bedeutet, dass sie den Beweis in Form von Hash haben, wird ihr Block durch alle im Netzwerk aktiven Knoten variiert. Daher fügt Blockchain diesen Block in die Kette hinzu.
-  *** Beweis des Anteils **: [Ethereum] [6] verwendet diesen Konsensalgorith. In diesem Ansatz setzen Validatoren, anstatt Rechenleistung zu verwenden, ihre Münzen auf einen Einsatz, um eine Vereinbarung zu erreichen.
+  *** Beweis des Anteils **: [Ethereum][6] verwendet diesen Konsensalgorith. In diesem Ansatz setzen Validatoren, anstatt Rechenleistung zu verwenden, ihre Münzen auf einen Einsatz, um eine Vereinbarung zu erreichen.
   *** Praktische byzantinische Fehlertoleranz **: Nach diesem Konsensalgorithem verarbeiten Knoten im Netzwerk die Transaktionen und teilen sich mit einem anderen. Eine Vereinbarung hebt auf der Basis der Gesamtentscheidungen aller Knoten.
 Darüber hinaus sind intelligente Verträge die Code -Snippets, die alle ** digitalen Transaktionen ** kontrollieren und regieren. Jeder kann intelligente Vertragsentwicklung durchführen und diese dezentrale Infrastruktur im Netzwerk einsetzen.
 
@@ -55,20 +55,22 @@ In diesem Abschnitt werden wir die Vor- und Nachteile der dezentralen Technologi
 
 ## Schlussfolgerung {#Conclusion}
 Das Aufkommen der Blockchain für das Geschäft ist nicht weniger als eine Überraschung. Dieser moderne Ansatz hat mit seinen innovativen und vielversprechenden Merkmalen im Zusammenhang mit Datentransparenz und Sicherheit ein massives Potenzial in die Tech -Industrie gebracht. ** Dezentrale Infrastruktur ** hat viele Möglichkeiten hervorgebracht. Glücklicherweise gibt es eine sehr lebendige Gemeinschaft, die diesen revolutionären Ansatz in der Welt der dezentralen Technologie ** unterstützt. Tatsächlich finden Benutzer, Investoren, Unternehmen und Softwareentwickler eine Reihe von Unterstützungsdokumenten und -material in Bezug auf ** Smart Contract Development **, Bergbau und andere Aspekte. Wenn Sie es ernst meinen, Ihre digitalen Transaktionen für digitale Unternehmen auf der Blockchain zu verschieben, ist es höchste Zeit, eine Open -Source -Plattform zu wählen, die im Abschnitt „Explore“ verfügbar ist.
-Darüber hinaus hat ** Distributed Ledger Technology ** eine Reihe von Anwendungsfällen und Organisationen berücksichtigen sie ernsthaft bei der Formulierung von Geschäftsstrategien. Zuletzt hat [Containerize.com] [7] daran gearbeitet, die Liste der Open -Source -Blockchain -Plattformen zu erweitern. Bleiben Sie daher bitte mit der Kategorie [Blockchain] [1] in Verbindung mit der Kategorie [Blockchain].
+Darüber hinaus hat ** Distributed Ledger Technology ** eine Reihe von Anwendungsfällen und Organisationen berücksichtigen sie ernsthaft bei der Formulierung von Geschäftsstrategien. Zuletzt hat [Containerize.com][7] daran gearbeitet, die Liste der Open -Source -Blockchain -Plattformen zu erweitern. Bleiben Sie daher bitte mit der Kategorie [Blockchain][1] in Verbindung mit der Kategorie [Blockchain].
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Ethereum] [6]
-  * [Hyperledger Fabric] [8]
-  * [OpenChain] [9]
-  * [Ripple] [10]
-  * [Multichain] [11]
-  * [Konsensys Quorum] [12]
-  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein] [13]
-  * [So richten Sie den Ethereum -Knoten auf Localhost | Anfängerleitfaden] [14]
-  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020] [15]
-  * [Eine grundlegende Anleitung zum Erstellen von Ethereum Smart Contract] [16]
+  * [Ethereum][6]
+  * [Hyperledger Fabric][8]
+  * [OpenChain][9]
+  * [Ripple][10]
+  * [Multichain][11]
+  * [Konsensys Quorum][12]
+  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein][13]
+  * [So richten Sie den Ethereum -Knoten auf Localhost | Anfängerleitfaden][14]
+  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020][15]
+  * [Eine grundlegende Anleitung zum Erstellen von Ethereum Smart Contract][16]
+
+  
 [1]: https://products.containerize.com/blockchain-platforms/
 [2]: #what
 [3]: #cases

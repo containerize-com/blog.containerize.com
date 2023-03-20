@@ -15,12 +15,12 @@ categories: ['Backup Software']
 
 Bir yedekleme sistemi hem işletmeler hem de bireyler için gerçekten önemlidir. Veriler siber saldırı, sistem arızası, kazara çıkarma ve daha fazlası gibi çeşitli nedenlerle kaybolabilir. Verilerinizi hızlı bir şekilde geri yükleyebilmeniz için iyi bir yedekleme stratejisine sahip olmalısınız. Bu kılavuz, Ubuntu sunucunuza ** açık kaynak yedekleme yazılımını ** restic'i nasıl yükleyeceğinizi ve kullanacağınızı gösterecektir.
 Bu öğreticide aşağıdaki bölümleri ele aldık.
-  *[** Önkoşul **] [1]
-  *[** Restic nedir? **] [2]
-  *[** Restic kurulumu **] [3]
-  *[** Restic yapılandırması **] [4]
-  *[** Restic'e alternatifler **] [5]
-  *** [Sonuç] [6] **
+  *[** Önkoşul **][1]
+  *[** Restic nedir? **][2]
+  *[** Restic kurulumu **][3]
+  *[** Restic yapılandırması **][4]
+  *[** Restic'e alternatifler **][5]
+  *** [Sonuç][6] **
 
 ## Önkoşullar {#prerequisites}
 Restic Backup yazılım programı üç ana işletim sistemi Linux, macOS ve Windows'u destekler. ** Restic Backup ** yüklemeden önce aşağıdaki sistem gereksinimlerini karşılamalısınız.
@@ -31,8 +31,8 @@ Restic Backup yazılım programı üç ana işletim sistemi Linux, macOS ve Wind
 Bu bitler elle hareket edelim ve işe başlayalım.
 
 ## Restic nedir? {#Restic}
-[** Restic **] [7] Fantastik ** Açık Kaynak Yedekleme Aracı **. Hızlı, güvenli ve verimli bir ** ücretsiz yedekleme yardımcısı **. Platformlar arası yedekleme programıdır, bu nedenle Linux, BSD, Mac OS X ve Windows'ta çalışır. Restic en iyi açık kaynak yedekleme yazılımının çalıştırılması kolaydır ve bir sunucu veya karmaşık bir yapılandırma gerektirmez. Değiştirilmiş verilerin bir yedeğini oluşturur ve kullanıcıların gerektiğinde geri yüklemelerine izin verir. Ayrıca, kendi kendine barındırılan ve internet depolama da dahil olmak üzere çeşitli depolama seçenekleri sunar. Ayrıca, Restic Açık Kaynak Kendine Barındırılan Bulut Depolama, verilerinizi korumak için sağlam kriptografik teknikler kullanır.
-Restic basit bir dosya kopyalama yardımcı programı değildir. Öncelikle iki kavram üzerine kurulmuştur: anlık görüntüler ve depolar. ** RESTIC ** Açık kaynak yedekleme çözümü, bilgileri bir anlık görüntü olarak kaydeder, bu da daha sonra bir depoya kaydedilir. Go programlama dilinde yazılmıştır. Restic Go tabanlı yedekleme yardımcı programı ve açık kaynak yedekleme uygulaması birçok bulut ve yerel arka uç depolama sistemi ile sorunsuz çalışır. Restic açık kaynak dosya yedekleme yazılımının kaynak kodu [** github **] [8] adresinde mevcuttur. Ancak, kurulum ve kullanım için ayrıntılı [** dokümantasyon **] [9] bulabilirsiniz.
+[** Restic **][7] Fantastik ** Açık Kaynak Yedekleme Aracı **. Hızlı, güvenli ve verimli bir ** ücretsiz yedekleme yardımcısı **. Platformlar arası yedekleme programıdır, bu nedenle Linux, BSD, Mac OS X ve Windows'ta çalışır. Restic en iyi açık kaynak yedekleme yazılımının çalıştırılması kolaydır ve bir sunucu veya karmaşık bir yapılandırma gerektirmez. Değiştirilmiş verilerin bir yedeğini oluşturur ve kullanıcıların gerektiğinde geri yüklemelerine izin verir. Ayrıca, kendi kendine barındırılan ve internet depolama da dahil olmak üzere çeşitli depolama seçenekleri sunar. Ayrıca, Restic Açık Kaynak Kendine Barındırılan Bulut Depolama, verilerinizi korumak için sağlam kriptografik teknikler kullanır.
+Restic basit bir dosya kopyalama yardımcı programı değildir. Öncelikle iki kavram üzerine kurulmuştur: anlık görüntüler ve depolar. ** RESTIC ** Açık kaynak yedekleme çözümü, bilgileri bir anlık görüntü olarak kaydeder, bu da daha sonra bir depoya kaydedilir. Go programlama dilinde yazılmıştır. Restic Go tabanlı yedekleme yardımcı programı ve açık kaynak yedekleme uygulaması birçok bulut ve yerel arka uç depolama sistemi ile sorunsuz çalışır. Restic açık kaynak dosya yedekleme yazılımının kaynak kodu [** github **][8] adresinde mevcuttur. Ancak, kurulum ve kullanım için ayrıntılı [** dokümantasyon **][9] bulabilirsiniz.
 Restic Self Barındırılan Bulut Yedekleme, yedek depolama için arka uçları takip eden kutudan çıkma destekler.
   * Yerel dizin
   * SFTP Sunucusu (SSH aracılığıyla)
@@ -45,7 +45,7 @@ Restic Self Barındırılan Bulut Yedekleme, yedek depolama için arka uçları 
   * Backblaze b2
   * Microsoft Azure Blob Depolama
   * Google Bulut Depolama
-Yukarıda listelenenlere ek olarak çeşitli arka uçlar için [** rclone **] [10] kullanabilirsiniz.
+Yukarıda listelenenlere ek olarak çeşitli arka uçlar için [** rclone **][10] kullanabilirsiniz.
 
 ## restic kurulumu {#installation}
 Ubuntu işletim sisteminize Restic En İyi Kendine Barındırılan Bulut Depolama kurmanın çeşitli yolları vardır. Ubuntu paketi, Docker ve kaynak kodunu kullanarak Restic Selfed Dosya Depolama yüklemesini kapsayacağız.
@@ -63,7 +63,7 @@ $ docker pull restic/restic
 ```
 
 ### Kaynak kullanarak yükleme
-  * İlk olarak, RESTIC'i kaynaktan ayarlamak için GO programlama dilini yüklemeniz gerekir. Talimatları yüklemek için resmi [** Golang web sitesi **] [11] ziyaret edebilirsiniz.
+  * İlk olarak, RESTIC'i kaynaktan ayarlamak için GO programlama dilini yüklemeniz gerekir. Talimatları yüklemek için resmi [** Golang web sitesi **][11] ziyaret edebilirsiniz.
   * Ardından, RESTIC artımlı yedekleme yüklemek için aşağıdaki komutları yürütün.
 ```
 $ git clone https://github.com/restic/restic
@@ -131,18 +131,20 @@ Restic en popüler açık kaynaklı yedekleme yazılımı uygulamasıdır ve ön
 
 ## Çözüm
 Bu makalede, RESTIC ** ÜCRETSİZ Açık Kaynak Yedekleme Yazılımını ** ele aldık. Ayrıca çeşitli kurulum tekniğinin yanı sıra yedeklemenin nasıl oluşturulacağı ve yedeklemenin nasıl geri yükleneceğini de tartıştık. Başka birçok veri yedekleme depolama alanı var ve bu makalede sadece bir tane ele aldık. Kalan arka uç depolama türleri gelecekteki yayınlarda ele alınacaktır. Bu öğreticinin yedeklemeleri almak ve geri yüklemek için RITIC en iyi açık kaynak yedekleme aracını kullanmanız için bir başlangıç ​​noktası olacağını umuyoruz.
-Son olarak, [** Containerize.com **] [12], en son açık kaynaklı ürünlere blog yayınları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** yedekleme yazılımı **] [13] kategorisiyle iletişim halinde olun.
-_ En sevdiğiniz ücretsiz ve açık kaynak yedekleme yazılımı nedir?. Açık kaynak yedekleme yazılımı hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun] [14].
+Son olarak, [** Containerize.com **][12], en son açık kaynaklı ürünlere blog yayınları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** yedekleme yazılımı **][13] kategorisiyle iletişim halinde olun.
+_ En sevdiğiniz ücretsiz ve açık kaynak yedekleme yazılımı nedir?. Açık kaynak yedekleme yazılımı hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][14].
 
 ## Keşfetmek:
 Ayrıca OSS Watch'tan başka ilgili bilgilerimiz de var:
-  * [2021'de Top 5 Açık Kaynak Bulut Depolama Yazılımı] [15]
-  * [Ubuntu sunucusunda apache ile nextcloud nasıl yüklenir] [16]
-  * [Ubuntu'da Apache ile Owncloud'u yükleyin ve yapılandırın] [17]
-  * [Ubuntu'ya Pydio Dosya Paylaşımı ve Senkronizasyon Platformu Nasıl Kurulur] [18]
-  * [NSQ vs Kafka | Temel farklılıklar nelerdir?] [19]
-  * [NextCloud vs Owncloud | Farklılıklar nelerdir?] [20]
-  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [21]
+  * [2021'de Top 5 Açık Kaynak Bulut Depolama Yazılımı][15]
+  * [Ubuntu sunucusunda apache ile nextcloud nasıl yüklenir][16]
+  * [Ubuntu'da Apache ile Owncloud'u yükleyin ve yapılandırın][17]
+  * [Ubuntu'ya Pydio Dosya Paylaşımı ve Senkronizasyon Platformu Nasıl Kurulur][18]
+  * [NSQ vs Kafka | Temel farklılıklar nelerdir?][19]
+  * [NextCloud vs Owncloud | Farklılıklar nelerdir?][20]
+  * [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][21]
+
+  
 [1]: #Prerequisites
 [2]: #Restic
 [3]: #Installation

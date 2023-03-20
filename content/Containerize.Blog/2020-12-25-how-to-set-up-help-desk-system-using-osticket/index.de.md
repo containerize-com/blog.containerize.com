@@ -14,10 +14,10 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket.png" alt="So einrichten Sie Online -Helpdesk -Software mit Osticket">}}
 
 Osticket ist eine Open -Source -Online -Helpdesk -Softwarelösung. Osticket Helpdesk ist eine kostenlose Alternative zu hohen Kosten und komplexen Kundenunterstützungssystemen. Es ist einfach, leicht, zuverlässig, webbasiert und einfach zu erstellen und zu verwenden. Das Beste daran ist, dass es völlig kostenlos ist. Wir werden die folgenden Abschnitte in diesem Tutorial behandeln:
-  * [Was ist Osticket?] [1]
-  * [Vor- und Nachteile von Osticket] [2]
-  * [Wie man Osticket einrichtet?] [3]
-  * [Schlussfolgerung] [4]
+  * [Was ist Osticket?][1]
+  * [Vor- und Nachteile von Osticket][2]
+  * [Wie man Osticket einrichtet?][3]
+  * [Schlussfolgerung][4]
 
 ## Was ist Osticket? {#Osticket}
 Osticket bietet ein benutzerfreundliches Bedienfeld und eine Echtzeit-Berichtskomponente. Benutzer können sich einfach anmelden und die Tickets in wenigen einfachen Schritten erstellen. Sie können Tickets über Ihre Website, Ihre E -Mail oder Ihr Telefon erstellen. Eingehende Tickets werden dann gespeichert und den Agenten zugeordnet. Agenten erhalten E -Mail -Benachrichtigungen und antworten auf die Fragen, um ihre Probleme zu lösen. Kunden und Agenten können Details und Fortschritte im Kommentarbereich diskutieren. Kunden können ihre Anfragen und Fortschritte über ein integriertes Kundenportal durch diese Online-Helpdesk-Software verfolgen.
@@ -153,11 +153,13 @@ chmod 0644 include/ost-config.php
 Osticket eignet sich am besten für Unternehmen mit niedrigem Budget oder für diejenigen, die ein einfaches Helpdesk -System und keine komplexe möchten. Es ist einfach, leicht, zuverlässig, Open Source und völlig kostenlose Online -Helpdesk -Software. Dies macht Osticket zu einer großartigen Alternative zu höher kostengünstigen Kundenunterstützungssystemen. Weitere Informationen zu Osticket -Funktionen und Installationshandbuch finden Sie unter dem folgenden Tutorial.
 
 ## Erkunden
-[Beste Open Source und kostenlose IT -Helpdesk -Software] [5]
-[Beliebtes kostenloses Ticketing -basiertes Helpdesk und Kundenbetreuungssystem] [6]
-[Ein Anfängerleitfaden zur Entwicklung von Ostickets Plugin] [7]
-[So implementieren Sie Multi-Messen in Osticket] [8]
-[Automatisieren Sie das Ticketing -System mit WordPress und Osticket] [9]
+[Beste Open Source und kostenlose IT -Helpdesk -Software][5]
+[Beliebtes kostenloses Ticketing -basiertes Helpdesk und Kundenbetreuungssystem][6]
+[Ein Anfängerleitfaden zur Entwicklung von Ostickets Plugin][7]
+[So implementieren Sie Multi-Messen in Osticket][8]
+[Automatisieren Sie das Ticketing -System mit WordPress und Osticket][9]
+
+  
 [1]: #osticket
 [2]: #pros
 [3]: #how

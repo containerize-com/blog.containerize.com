@@ -25,9 +25,9 @@ Nous pouvons implémenter la multi-location en utilisant les approches suivantes
   * Base de données partagée pour tous les locataires.
   * Base de données séparée pour chaque locataire.
 Nous utiliserons une base de données distincte pour chaque approche de locataire pour implémenter la multi-location dans PHPLIST.
-  * [Gérer le flux de demande] [1]
-  * [Configuration de la base de données pour le locataire] [2]
-  * [Configurer nginx pour le locataire] [3]
+  * [Gérer le flux de demande][1]
+  * [Configuration de la base de données pour le locataire][2]
+  * [Configurer nginx pour le locataire][3]
 
 ## Gire Demande Flow {#Request}
   * Prenez une sauvegarde de votre fichier config.php et vous pouvez le trouver sous le répertoire de configuration.
@@ -63,11 +63,13 @@ Les logiciels multi-tenues présentent certains avantages par rapport aux applic
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [PHPLIST - Newsletter open source et logiciel de marketing par e-mail] [4]
-  * [Comment créer et envoyer une newsletter à l'aide de phplist] [5]
-  * [Comment configurer et traiter les rebonds dans phplist] [6]
-  * [Guide des débutants pour développer un plugin phplist] [7]
-  * [Configuration des règles avancées de gestion et de rebond de rebond dans PHPLIST] [8]
+  * [PHPLIST - Newsletter open source et logiciel de marketing par e-mail][4]
+  * [Comment créer et envoyer une newsletter à l'aide de phplist][5]
+  * [Comment configurer et traiter les rebonds dans phplist][6]
+  * [Guide des débutants pour développer un plugin phplist][7]
+  * [Configuration des règles avancées de gestion et de rebond de rebond dans PHPLIST][8]
+
+  
 [1]: #request
 [2]: #database
 [3]: #nginx

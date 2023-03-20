@@ -15,11 +15,11 @@ categories: ['Artificial intelligence']
 
 
 ## Ringkasan
-Baru -baru ini diluncurkan [ChatGPT] [1] telah menjadi kata kunci di dunia teknologi. Beberapa orang mendukung dan mempertimbangkan ini**ai chatbot**ancaman terhadap produktivitas dan transparansi. Nah, [containerize.com] [2] menulis tentang penggunaan dan integrasi model OpenAI GPT-3 ini. Faktanya, [Google Docs] [3] adalah alat yang hebat untuk menulis dan representasi data. Tangan lain, munculnya chatgpt adalah alat percakapan [AI] [4] yang merespons pertanyaan bahasa alami secara percakapan. Alat AI ini didasarkan pada pembelajaran mesin dan dikembangkan oleh [openai] [5]. Namun, posting blog ini tentang**chatgpt dan google**di mana kami akan belajar cara mencapai**integrasi Google Documents dengan chatgpt**. Tidak diragukan lagi, kami dapat membawa**Google Docs Automation**dengan menginstal add-on chatgpt ke Google Documents kami.
+Baru -baru ini diluncurkan [ChatGPT][1] telah menjadi kata kunci di dunia teknologi. Beberapa orang mendukung dan mempertimbangkan ini**ai chatbot**ancaman terhadap produktivitas dan transparansi. Nah, [containerize.com][2] menulis tentang penggunaan dan integrasi model OpenAI GPT-3 ini. Faktanya, [Google Docs][3] adalah alat yang hebat untuk menulis dan representasi data. Tangan lain, munculnya chatgpt adalah alat percakapan [AI][4] yang merespons pertanyaan bahasa alami secara percakapan. Alat AI ini didasarkan pada pembelajaran mesin dan dikembangkan oleh [openai][5]. Namun, posting blog ini tentang**chatgpt dan google**di mana kami akan belajar cara mencapai**integrasi Google Documents dengan chatgpt**. Tidak diragukan lagi, kami dapat membawa**Google Docs Automation**dengan menginstal add-on chatgpt ke Google Documents kami.
 Kami akan melalui poin -poin berikut dalam posting blog ini:
-* [**Bagaimana cara mendapatkan kunci API openai?**] [6]
-***[Mari kita lakukan integrasi Google Docs dengan chatgpt] [7]**
-* [**Mulai menggunakan chatgpt dan google****docs**] [8]
+* [**Bagaimana cara mendapatkan kunci API openai?**][6]
+***[Mari kita lakukan integrasi Google Docs dengan chatgpt][7]**
+* [**Mulai menggunakan chatgpt dan google****docs**][8]
 
 ## Bagaimana cara mendapatkan kunci API openai? {#How-to-Obtain-the-Openai-Api-Key}
 Hanya untuk memberi Anda sedikit pengantar, Openai adalah perusahaan yang berfokus pada penelitian & pengembangan alat kecerdasan buatan. ChatGPT juga dikembangkan dan diluncurkan oleh Openai sedangkan, OpenAI telah mengembangkan serangkaian model GPT.
@@ -52,21 +52,23 @@ Dalam contoh di atas, kami menulis sebuah kata dan meminta chatgpt untuk menghas
 
 ## Kesimpulan
 Untuk menyimpulkan, kami dapat dengan aman mengatakan bahwa Anda telah belajar bagaimana mencapai**integrasi Google Documents dengan chatgpt**. Lebih lanjut, kita telah melihat cara menghasilkan kunci**OpenAI API**dan mengaturnya untuk mengaktifkan**OpenAI GPT-3**Fungsi. Otomasi Google Docs ini dapat dengan serius menguntungkan tugas bisnis Anda. Selain itu, jangan lupa untuk mengunjungi tautan yang terdaftar di bagian "Lihat juga" di bawah ini.
-Akhirnya, [containerize.com] [2] terus menulis posting blog tentang produk dan topik open-source lebih lanjut. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [10], [LinkedIn] [11], dan [Twitter] [12].
+Akhirnya, [containerize.com][2] terus menulis posting blog tentang produk dan topik open-source lebih lanjut. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][10], [LinkedIn][11], dan [Twitter][12].
 
 ## Berikan pertanyaan
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [13].
 
 ## FAQ
-* * Bagaimana cara menggunakan API GPT-3 di Google Documents?**
-Silakan kunjungi [tautan] [7] ini untuk mengetahui langkah -langkah integrasi Google Docs dengan chatgpt.
+**Bagaimana cara menggunakan API GPT-3 di Google Documents?**
+Silakan kunjungi [tautan][7] ini untuk mengetahui langkah -langkah integrasi Google Docs dengan chatgpt.
 
 ## Lihat juga
-  * [Cara mengintegrasikan chatgpt dengan Google Sheets] [14]
-  * [Pengantar Kecerdasan Buatan | Apa itu ai?] [4]
-  * [Cara menggunakan chatgpt di vscode | Kode Ekstensi VScode GPT] [15]
-  * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI] [1]
-  * [Apa 5 Kerangka AI Open-Source Top] [16]
+  * [Cara mengintegrasikan chatgpt dengan Google Sheets][14]
+  * [Pengantar Kecerdasan Buatan | Apa itu ai?][4]
+  * [Cara menggunakan chatgpt di vscode | Kode Ekstensi VScode GPT][15]
+  * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI][1]
+  * [Apa 5 Kerangka AI Open-Source Top][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [2]: https://www.containerize.com/
 [3]: https://docs.google.com/document/u/0/

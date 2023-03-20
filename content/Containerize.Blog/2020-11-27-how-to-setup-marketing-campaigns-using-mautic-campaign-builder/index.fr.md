@@ -14,10 +14,10 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/mautic.png" alt="Comment configurer des campagnes Mautic pour le marketing numérique">}}
 
 Dans cet article, nous apprendrons à configurer des campagnes dans Mautic. Nous couvrirons les sections suivantes:
-  * [Qu'est-ce que Mautic?] [1]
-  * [Comment créer des formes dans Mautic?] [2]
-  * [Comment créer des campagnes dans Mautic?] [3]
-  * [Conclusion] [4]
+  * [Qu'est-ce que Mautic?][1]
+  * [Comment créer des formes dans Mautic?][2]
+  * [Comment créer des campagnes dans Mautic?][3]
+  * [Conclusion][4]
 
 ## Qu'est-ce que Mautic? {#moutic}
 Mautic est un logiciel d'automatisation du marketing open source. Il donne un contrôle complet sur les e-mails marketing, les pages de destination et les workflows pour les activités marketing. Il automatise la voie vers la création de prospects à partir de pages de destination, de formes et de les convertir en clients potentiels. Tout cela peut être réalisé en créant des campagnes Smart Drip, qui tiendront les clients potentiels à jour concernant les produits / services.
@@ -67,13 +67,15 @@ Mautic est un logiciel d'automatisation du marketing open source. Il donne un co
 
 ## Conclusion: {#conclusion}
 Nous avons appris à configurer des campagnes de marketing goutte à goutte après les 3 étapes très simples. Qui incluent la création d'un formulaire requis comme source de campagne, créant la campagne et configurant l'e-mail. Nous avons créé une campagne très basique dans ce tutoriel. Cependant, vous pouvez créer des campagnes complexes en utilisant Mautic Campaign Builder. Si vous êtes nouveau chez Mautic, consultez comment l'installer en utilisant le guide suivant:
-[Présentation de Mautic et installation] [5]
+[Présentation de Mautic et installation][5]
 
 ## Explorer:
 Ces articles pourraient être très utiles si vous souhaitez intégrer Mautic à WordPress ou Joomla ainsi que pour vous aider à commencer à mettre en œuvre la multi-location dans Mautic.
-[Automatisation marketing à l'aide de Mautic et WordPress WooCommerce] [6]
-[Intégrer Mautic à Joomla pour l'automatisation du marketing] [7]
-[Comment mettre en œuvre la multi-tension dans Mautic] [8]
+[Automatisation marketing à l'aide de Mautic et WordPress WooCommerce][6]
+[Intégrer Mautic à Joomla pour l'automatisation du marketing][7]
+[Comment mettre en œuvre la multi-tension dans Mautic][8]
+
+  
 [1]: #mautic
 [2]: #forms
 [3]: #campaigns

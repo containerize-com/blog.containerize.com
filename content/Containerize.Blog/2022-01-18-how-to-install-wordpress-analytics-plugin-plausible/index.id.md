@@ -15,16 +15,16 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 
 ## Ringkasan
-Apakah Anda memiliki situs web bisnis? Apakah Anda ingin melacak, menganalisis wawasan bisnis yang kritis? Anda mendarat di tempat yang tepat di mana Anda tidak hanya akan tahu tentang perangkat lunak intelijen bisnis open source profesional tetapi juga, akan belajar cara menginstal plugin WordPress Analytics [masuk akal] [1]. Ini adalah posting blog lain dalam seri di [Business Intelligence Software] [2]. Di masa lalu, kami telah menerbitkan artikel tentang topik -topik seperti [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress] [3], [Top 5 Open Source Business Intelligence Tools of 2021] [4], dan beberapa lagi. Artikel -artikel ini memberi Anda gambaran terperinci tentang fitur dan penggunaannya.
-Bahkan, ada jutaan situs web yang berjalan melalui internet dan jutaan orang mengunjunginya dengan cara yang berbeda. Oleh karena itu, sangat penting bagi pemilik situs web untuk mengetahui tentang lalu lintas situs secara rinci. Satu -satunya cara untuk mendapatkan wawasan data ini adalah melalui [Google Analytics] [5] atau beberapa alat serupa lainnya. Namun, komunitas open source telah mengembangkan beberapa alat BI yang dianggap sebagai alternatif Google Analytics, dan masuk akal adalah salah satunya. Dalam posting blog ini, kami akan belajar cara menginstal masuk akal dengan membahas poin -poin berikut.
-  *** [Apa yang masuk akal?] [6] **
-  *** [Cara Menginstal Plugin WordPress Analytics masuk akal?] [7] **
-  *** [dasbor plugin analitik yang masuk akal] [8] **
-  *** [Kesimpulan] [9] **
+Apakah Anda memiliki situs web bisnis? Apakah Anda ingin melacak, menganalisis wawasan bisnis yang kritis? Anda mendarat di tempat yang tepat di mana Anda tidak hanya akan tahu tentang perangkat lunak intelijen bisnis open source profesional tetapi juga, akan belajar cara menginstal plugin WordPress Analytics [masuk akal][1]. Ini adalah posting blog lain dalam seri di [Business Intelligence Software][2]. Di masa lalu, kami telah menerbitkan artikel tentang topik -topik seperti [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress][3], [Top 5 Open Source Business Intelligence Tools of 2021][4], dan beberapa lagi. Artikel -artikel ini memberi Anda gambaran terperinci tentang fitur dan penggunaannya.
+Bahkan, ada jutaan situs web yang berjalan melalui internet dan jutaan orang mengunjunginya dengan cara yang berbeda. Oleh karena itu, sangat penting bagi pemilik situs web untuk mengetahui tentang lalu lintas situs secara rinci. Satu -satunya cara untuk mendapatkan wawasan data ini adalah melalui [Google Analytics][5] atau beberapa alat serupa lainnya. Namun, komunitas open source telah mengembangkan beberapa alat BI yang dianggap sebagai alternatif Google Analytics, dan masuk akal adalah salah satunya. Dalam posting blog ini, kami akan belajar cara menginstal masuk akal dengan membahas poin -poin berikut.
+  *** [Apa yang masuk akal?][6] **
+  *** [Cara Menginstal Plugin WordPress Analytics masuk akal?][7] **
+  *** [dasbor plugin analitik yang masuk akal][8] **
+  *** [Kesimpulan][9] **
 
 ## Apa yang masuk akal? {#What-is-plaSible}
 Di bagian ini, kita akan mengetahui tentang perangkat lunak analitik yang masuk akal. PlaSible adalah perangkat lunak intelijen bisnis open source yang ringan, gratis, dan open source yang hadir dengan kemampuan hosting sendiri. Ini sangat dapat dikonfigurasi, berfokus pada privasi, dan sepenuhnya sesuai dengan undang-undang privasi internasional. Lebih lanjut, plugin WordPress Analytics ini kurang dari cookie dan menawarkan ketentuan bagi pemilik situs untuk memahami pengunjung situs. Selain itu, itu tidak mendukung pengumpulan data pribadi dan pelacakan lintas situs. Di atas segalanya, masuk akal menawarkan skrip instalasi seperti halnya Google Analytics dan skrip instalasi ini 45 kali lebih ringan dari skrip Google Analytics. Selain itu, alternatif Google Analytics ini menawarkan berbagai fitur yang mencakup situs web tidak terbatas, pelacakan kampanye, berorientasi privasi, dan banyak lagi.
-Namun, alat BI ini menyediakan dasbor intuitif yang memungkinkan Anda melacak tren, acara khusus, dan 404 halaman. Masuk akal juga mudah diatur dan menawarkan gambar Docker juga. Ini ditulis dalam Elixir, JavaScript, dan muncul dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Pengembang dapat memanfaatkan kode sumbernya dari [GitHub] [10].
+Namun, alat BI ini menyediakan dasbor intuitif yang memungkinkan Anda melacak tren, acara khusus, dan 404 halaman. Masuk akal juga mudah diatur dan menawarkan gambar Docker juga. Ini ditulis dalam Elixir, JavaScript, dan muncul dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Pengembang dapat memanfaatkan kode sumbernya dari [GitHub][10].
 
 ## Bagaimana cara menginstal plugin WordPress Analytics masuk akal? {#Install}
 Di bagian tutorial integrasi WordPress yang masuk akal ini, kami akan melalui langkah -langkah instalasi.
@@ -43,24 +43,26 @@ Selanjutnya, Anda akan melihat halaman konfigurasi yang masuk akal jika Anda men
 
 {{< figure align=center src="images/Screenshot-2022-01-16-at-22.11.27-1024x554.png" alt="Perangkat Lunak Intelijen Bisnis">}}
 
-Selain itu, ada juga opsi untuk konfigurasi situs jika Anda menjadi tuan rumah sendiri alternatif open source [Google Analytics] [5] ini. Demikian pula, Anda dapat menjelajahinya lebih jauh dan melihat fitur apa yang ditawarkannya kepada penggunanya. Setelah selesai dengan instalasi skrip, Anda dapat mulai melihat wawasan data bisnis yang datang melalui perangkat lunak Intelijen Bisnis Open Source ini.
+Selain itu, ada juga opsi untuk konfigurasi situs jika Anda menjadi tuan rumah sendiri alternatif open source [Google Analytics][5] ini. Demikian pula, Anda dapat menjelajahinya lebih jauh dan melihat fitur apa yang ditawarkannya kepada penggunanya. Setelah selesai dengan instalasi skrip, Anda dapat mulai melihat wawasan data bisnis yang datang melalui perangkat lunak Intelijen Bisnis Open Source ini.
 
 ## kesimpulan {#conclusion}
 Ini membawa kita ke akhir tutorial integrasi WordPress yang masuk akal ini. Mudah -mudahan, posting blog ini membantu Anda belajar tentang masuk akal mengenai fitur -fiturnya, langkah -langkah instalasi, dan penggunaan. Kami telah melalui sub-topik penting seperti apa yang masuk akal, dan langkah-langkah instalasi plugin WordPress Analytics ini. Di era teknologi yang tumbuh cepat ini, alat BI telah menjadi komponen yang harus dimiliki bisnis yang sukses. Organisasi tidak dapat menghindari bagian integral ini karena alat seperti itu selalu memberi bisnis Anda keunggulan kompetitif. Selanjutnya, Anda dapat menemukan tautan yang relevan di bagian "Jelajahi" di bawah ini di mana Anda akan menemukan perangkat lunak Intelijen Bisnis Open Source. Posting blog ini pasti akan membantu Anda jika Anda ingin menginstal perangkat lunak intelijen bisnis gratis dan open source untuk situs web bisnis Anda.
-Akhirnya, [containerize.com] [11] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [] [12] [Business Intelligence] [13] [] [12] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [14], [LinkedIn] [15], dan [Twitter] [16].
+Akhirnya, [containerize.com][11] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [][12][Business Intelligence][13][][12] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][14], [LinkedIn][15], dan [Twitter][16].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan.
-  * [Matomo] [17]
-  * [Masuk akal] [1]
-  * [WordPress] [18]
-  * [Jekyll] [19]
-  * [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress] [3]
-  * [Bagaimana alat analisis bisnis gratis membantu bisnis Anda] [20]
-  * [Top 5 Open Source Business Intelligence Tools of 2021] [4]
-  * [Cara Menginstal Plugin di WordPress | Forum Vanilla] [21]
-  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis] [22]
-  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021] [23]
+  * [Matomo][17]
+  * [Masuk akal][1]
+  * [WordPress][18]
+  * [Jekyll][19]
+  * [Cara Menginstal Matomo untuk WordPress | Tutorial WordPress][3]
+  * [Bagaimana alat analisis bisnis gratis membantu bisnis Anda][20]
+  * [Top 5 Open Source Business Intelligence Tools of 2021][4]
+  * [Cara Menginstal Plugin di WordPress | Forum Vanilla][21]
+  * [Tingkatkan petunjuk Anda dengan integrasi wordpress civicrm gratis][22]
+  * [Hal -hal yang harus ditinjau sebelum memilih perangkat lunak sumber terbuka pada tahun 2021][23]
+
+  
 [1]: https://products.containerize.com/business-intelligence/plausible
 [2]: https://blog.containerize.com/category/business-intelligence-software/
 [3]: https://blog.containerize.com/blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/

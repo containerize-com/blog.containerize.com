@@ -15,10 +15,10 @@ categories: ['Database Management Software', 'Web Server Solution Stack']
 
 XAMPP et PhpMyAdmin en tant que localhost fournit un serveur local pour que les développeurs testent et créent des applications Web. XAMPP est un serveur local installé sur des ordinateurs personnels / ordinateurs portables. Il fournit un environnement local pour créer, exécuter et tester les applications PHP avant de les déployer sur des serveurs en direct.
 Nous couvrirons les sections suivantes dans cet article de blog:
-  * [Description] [1]
-  * [Installation XAMPP] [2]
-  * [tableau de bord phpmyadmin] [3]
-  * [Réflexions finales] [4]
+  * [Description][1]
+  * [Installation XAMPP][2]
+  * [tableau de bord phpmyadmin][3]
+  * [Réflexions finales][4]
 
 ## Description: {#Description}
 XAMPP est une pile de solution de serveur Web gratuite et open source. Il contient Apache, MySQL, MariaDB, PHP et Perl. XAMPP est disponible pour les systèmes d'exploitation Windows. Il est extrêmement facile à installer et à utiliser. C’est pourquoi c’est l’environnement de développement PHP le plus populaire. XAMPP et PhpMyAdmin en tant que localhost fournit un environnement complet pour le développement et les tests d'applications Web.
@@ -30,7 +30,7 @@ Les alphabets dans XAMPP représentent:
   * ** P ** - Perl
 
 ## Installation XAMPP {#XAMPP}
-  * Téléchargez XAMPP depuis [ici] [5].
+  * Téléchargez XAMPP depuis [ici][5].
 
 {{< figure align=center src="images/xampp1.png" alt="XAMPP comme localhost">}}
 
@@ -79,8 +79,10 @@ Pour accéder au tableau de bord PHPMYADMIN, cliquez sur le bouton «Admin» à 
 L'installation de XAMPP est simple et simple. Il ne prend pas plus de 15 minutes au serveur de configuration XAMPP. Une fois installé, les développeurs peuvent créer et tester leurs applications Web basées sur PHP même sans connexion Internet. Au lieu de tester des projets directement sur un serveur Web en direct, il est simple et économe en temps de les tester localement. C'est une excellente plate-forme pour les débutants pour apprendre, tester et polir leurs compétences PHP, Perl et Database.
 
 ## Explorer:
-[Pile de solution de serveur Web Open Source pour les développeurs PHP & Perl] [6]
-[Meilleures options de pile de solutions de serveur Web open source] [7]
+[Pile de solution de serveur Web Open Source pour les développeurs PHP & Perl][6]
+[Meilleures options de pile de solutions de serveur Web open source][7]
+
+  
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

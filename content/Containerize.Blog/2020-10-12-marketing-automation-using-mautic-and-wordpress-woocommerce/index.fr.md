@@ -18,11 +18,11 @@ categories: ['Blogging', 'Marketing Automation']
 L'intégration Mautic-WooCommerce fournit un moyen facile d'obtenir tous les contacts dans l'application Mautic. Ensuite, en utilisant ces contacts, vous pouvez créer des campagnes de marketing en fonction de vos exigences. Mautic est un excellent outil de marketing qui vous donne un contrôle total sur vos campagnes de marketing.
 Mautic est une solution d'automatisation du marketing open-source et gratuite. Il est utilisé pour créer des campagnes de marketing, des segments, des formulaires, des rapports et bien plus encore.
 WooCommerce est un plugin de commerce électronique open-source pour WordPress. Il s'agit de la solution de commerce électronique principalement utilisée dans le monde à ce stade. Il existe des centaines de modules complémentaires disponibles pour WooCommerce qui peuvent être utilisés en fonction de vos besoins.
-Un plugin est disponible pour Mautic et WordPress qui fournit une solution d'automatisation marketing. Veuillez suivre ces étapes pour intégrer WooCommerce à Mautic en utilisant le plugin [Intégration avec Mautic pour WooCommerce - Open Source Marketing Automation.] [1]
+Un plugin est disponible pour Mautic et WordPress qui fournit une solution d'automatisation marketing. Veuillez suivre ces étapes pour intégrer WooCommerce à Mautic en utilisant le plugin [Intégration avec Mautic pour WooCommerce - Open Source Marketing Automation.][1]
 Ce blog couvrira les sections suivantes:
-  * [Configuration du plugin WordPress] [2]
-  * [Configuration Mautic] [3]
-  * [Réflexions finales] [4]
+  * [Configuration du plugin WordPress][2]
+  * [Configuration Mautic][3]
+  * [Réflexions finales][4]
 
 ## Configuration du plugin wordpress {#wordpress}
   1. Accédez aux plugins.
@@ -65,12 +65,14 @@ L'intégration de Mautic-WooCommerce peut vous aider à atteindre vos objectifs 
 
 ## Explorer:
 Vous pouvez trouver des liens suivants pertinents:
-  * [Wodpress] [6]
-  * [Mautic] [7]
-  * [Comment configurer Mautic - Intégration Facebook] [8]
-  * [Drupal Mautic Integration pour automatiser le nourrisson de plomb] [9]
-  * [Automatisation marketing à l'aide de Mautic et WordPress WooCommerce] [10]
-  * [Comment configurer des campagnes de marketing dans Mautic] [11]
+  * [Wodpress][6]
+  * [Mautic][7]
+  * [Comment configurer Mautic - Intégration Facebook][8]
+  * [Drupal Mautic Integration pour automatiser le nourrisson de plomb][9]
+  * [Automatisation marketing à l'aide de Mautic et WordPress WooCommerce][10]
+  * [Comment configurer des campagnes de marketing dans Mautic][11]
+
+  
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

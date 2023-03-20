@@ -15,13 +15,13 @@ categories: ['Version Control Software']
 
 
 ## Aperçu
-Dans les derniers articles, nous avons appris les [bases du contrôle des versions] [1], puis nous avons amélioré nos connaissances en apprenant différents [modèles de branchement] [2] et les flux de travail. Le système de contrôle des versions a apporté son efficacité dans le monde du développement, du déploiement et de l'intégration. Les développeurs trouvent super facile de commettre le code source sans se soucier des versions et des tests. L'industrie du logiciel a gagné en confiance et un avantage concurrentiel car cette approche a démarré les déploiements.
+Dans les derniers articles, nous avons appris les [bases du contrôle des versions][1], puis nous avons amélioré nos connaissances en apprenant différents [modèles de branchement][2] et les flux de travail. Le système de contrôle des versions a apporté son efficacité dans le monde du développement, du déploiement et de l'intégration. Les développeurs trouvent super facile de commettre le code source sans se soucier des versions et des tests. L'industrie du logiciel a gagné en confiance et un avantage concurrentiel car cette approche a démarré les déploiements.
 ** Déploiement continu Gitlab ** et l'intégration aide à trouver facilement les problèmes. De plus, les développeurs peuvent suivre les bogues et autres manuploises MISS dans une période plus courte. Tout ce processus d'automatisation donne l'absence des tâches qui se déroulent fréquemment et réduit la main-d'œuvre et les chances d'erreurs. Aujourd'hui, dans cet article de blog, nous explorerons sur le pipeline de déploiement continu avec GitLab CI / CD. Alors, commençons par couvrir les points suivants!
-  * ** [Qu'est-ce que CI & CD] [3] **
-  * ** [Qu'est-ce que GitLab Runner] [4] **
-  * ** [. Fichier Gitlab-Ci.yml] [5] **
-  * ** [Créer une exemple de base de l'application] [6] **
-  * ** [Conclusion] [7] **
+  * ** [Qu'est-ce que CI & CD][3] **
+  * ** [Qu'est-ce que GitLab Runner][4] **
+  * ** [. Fichier Gitlab-Ci.yml][5] **
+  * ** [Créer une exemple de base de l'application][6] **
+  * ** [Conclusion][7] **
 
 ## Qu'est-ce que CI & CD {#cicd}
 L'intégration continue (CI) est l'une des meilleures pratiques DevOps pour automatiser l'intégration des changements de code de plusieurs contributeurs dans un seul projet logiciel. Cela permet aux développeurs de fusionner fréquemment les changements de code en un référentiel central où les builds et les tests sont ensuite exécutés. Le déploiement continu (CD) va plus loin en déploiant automatiquement du code dans l'environnement cible (production ou mise en scène) après que chaque code s'engage et se construit.
@@ -29,7 +29,7 @@ Avant de commencer, assurez-vous d'avoir un projet à GitLab pour lequel vous so
 
 ## Qu'est-ce que GitLab Runner {#Runner}
 Après avoir compris ** le déploiement continu Gitlab **, GitLab Runner est un petit programme léger écrit en Go qui exécute des travaux liés à l'intégration continue (CI) sur votre machine locale et envoie les résultats à Gitlab pour qu'il examine les modifications. Il s'agit d'un seul binaire exécutable qui peut être installé sur n'importe quel système d'exploitation majeur.
-Avant d'aller de l'avant avec le GitLab CI / CD, vous devez vous assurer que les coureurs sont disponibles pour exécuter vos tâches. Vous pouvez suivre le guide officiel pour [installer] [8] et [Register] [9] GitLab Runner.
+Avant d'aller de l'avant avec le GitLab CI / CD, vous devez vous assurer que les coureurs sont disponibles pour exécuter vos tâches. Vous pouvez suivre le guide officiel pour [installer][8] et [Register][9] GitLab Runner.
 
 ## .gitLab-ci.yml Fichier {#yml}
 Le **. Gitlab-Ci.yml ** est un fichier où vous configurez des instructions spécifiques pour GitLab CI / CD. Il est placé à la racine de votre référentiel et contient des définitions de la façon dont votre projet doit être construit. Chaque fois que nous poussons un engagement sur notre instance GitLab, Gitlab invoquerait un coureur pour construire et tester le projet comme indiqué à l'intérieur de ce fichier.
@@ -100,15 +100,17 @@ Vous pouvez ensuite ouvrir votre projet dans GitLab, accéder à My-Project → 
 
 ## Conclusion {#conclusion}
 Cela nous amène à la fin de ce ** tutoriel Gitlab **. Dans cet article, nous avons appris les bases de l'intégration continue de Gitlab, ** Qu'est-ce que CI & CD **, ** Qu'est-ce que Gitlab Runner ** et le déploiement continu. De plus, nous avons étudié ce qui est l'utilisation des coureurs dans le flux de travail CI / CD global. Nous avons également créé un exemple de projet qui explique comment configurer un déploiement continu à l'aide de GitLab. Ce didacticiel GitLab vous aidera vraiment si vous recherchez ** GitLab Continuous Deployment **. Cependant, il existe de nombreuses autres ressources mentionnées dans la section «Explorer» ci-dessous que vous pouvez consulter. De plus, les articles concernent ** les systèmes de contrôle de version ** qui sont open source, auto-hébergés et extensibles.
-Enfin, [contenerize.com] [10] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [] [] [11] [logiciel de contrôle de version] [12] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook] [13], [LinkedIn] [14] et [Twitter] [15].
+Enfin, [contenerize.com][10] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [][][11][logiciel de contrôle de version][12] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][13], [LinkedIn][14] et [Twitter][15].
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [Automatiser les workflows de développement de logiciels avec des actions GitHub] [16]
-  * [Comprendre et apprendre les branches et tirer les demandes dans GIT] [2]
-  * [Logiciel de gestion des codes source | Qu'est-ce que Git?] [17]
-  * [Top 5 des systèmes de contrôle de version open source en 2021] [18]
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [19]
+  * [Automatiser les workflows de développement de logiciels avec des actions GitHub][16]
+  * [Comprendre et apprendre les branches et tirer les demandes dans GIT][2]
+  * [Logiciel de gestion des codes source | Qu'est-ce que Git?][17]
+  * [Top 5 des systèmes de contrôle de version open source en 2021][18]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][19]
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
 [3]: #cicd

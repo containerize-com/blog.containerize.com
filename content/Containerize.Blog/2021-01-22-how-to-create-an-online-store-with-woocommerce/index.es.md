@@ -15,13 +15,13 @@ categories: ['Shopping Cart Software']
 
 La mayoría de ustedes están familiarizados con WordPress. WordPress es una de las plataformas líderes para crear sitios web, blogs, etc. Hay toneladas de complementos disponibles en Marketplace que le permiten mejorar la funcionalidad. Uno de ellos es ** WooCommerce Cart ** El complemento ayuda a los usuarios a configurar la tienda en línea. ** WooCommerce ** es uno de los mejores complementos de comercio electrónico para WordPress **, plataforma de comercio electrónico personalizable y robusta. Además, se basa en la parte superior de WordPress y usa su poder para convertir rápidamente su negocio en una gran audiencia.
 Cubriremos los siguientes temas en este tutorial.
-  *[** Instale WordPress **] [1]
-  *[** Instale el complemento WooCommerce **] [2]
-  *[** Tienda de configuración con WooCommerce **] [3]
-  *[** Conclusión **] [4]
+  *[** Instale WordPress **][1]
+  *[** Instale el complemento WooCommerce **][2]
+  *[** Tienda de configuración con WooCommerce **][3]
+  *[** Conclusión **][4]
 
 ## Instale WordPress {#WordPress}
-Puede omitir esta sección y moverse a la siguiente si ya tiene WordPress instalado. En caso de que no tenga una configuración de WordPress, puede encontrar la guía paso a paso para la instalación en [** Contenerize.com **] [5].
+Puede omitir esta sección y moverse a la siguiente si ya tiene WordPress instalado. En caso de que no tenga una configuración de WordPress, puede encontrar la guía paso a paso para la instalación en [** Contenerize.com **][5].
 
 ## Instale el complemento de WooCommerce {#WOOCOMMECE}
 Para configurar WooCommerce, siga estos pasos:
@@ -51,13 +51,15 @@ El asistente de configuración lo guía a través de todos los pasos requeridos 
 
 ## conclusión {#conclusion}
 Hemos discutido cómo configurar WordPress y ** WooCommerce Cart ** en este tutorial. Esperamos que esta guía lo ayude a construir su tienda en línea. Sin embargo, puede consultar ** WooCommerce Storefront ** para seleccionar el tema correcto para la tienda.
-Además, [** Contenerize.com **] [6] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones periódicas, estén atentos en [** Software del carrito de compras **] [7] Categoría para artículos más interesantes.
+Además, [** Contenerize.com **][6] está en camino para mejorar la pila de productos de código abierto en múltiples idiomas y marcos. Para actualizaciones periódicas, estén atentos en [** Software del carrito de compras **][7] Categoría para artículos más interesantes.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  *[** WordPress - Blogging de código abierto y plataforma CMS **] [5]
-  *[** WooCommerce - complemento gratuito de WordPress para la tienda de construcción **] [8]
-  *[** Top 5 software de carrito de compras de código abierto en 2020 **] [9]
+  *[** WordPress - Blogging de código abierto y plataforma CMS **][5]
+  *[** WooCommerce - complemento gratuito de WordPress para la tienda de construcción **][8]
+  *[** Top 5 software de carrito de compras de código abierto en 2020 **][9]
+
+  
 [1]: #WordPress
 [2]: #WooCommerce
 [3]: #Setup

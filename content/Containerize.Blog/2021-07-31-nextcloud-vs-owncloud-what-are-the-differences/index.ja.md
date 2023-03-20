@@ -24,11 +24,11 @@ NextCloud vs OwnCloudは議論の最大のポイントの1つであり、自己�
   * 結論
 
 ## 1. NextCloudとは何ですか？
-[NextCloud] [1]は、Linuxベースのシステム用のオープンソースクラウドストレージプラットフォームです。 NextCloudは、データを保護するためにサーバーで実行され、デスクトップおよびモバイルデバイスからアクセスできます。 NextCloudは、DropboxまたはNASクラウドストレージでFTPドライブで既存のデータを同期、共有、およびアクセスするのに役立ちます。エンタープライズファイルの同期と共有NextCloudは、HIPAAおよびGDPRへのデータコンプライアンスについて強制します。 NextCloudは、PostgreSQL、SQLite、MariadB、MySQL、Oracleデータベースなど、複数のデータベース管理システムで動作するように設計されています。
+[NextCloud][1]は、Linuxベースのシステム用のオープンソースクラウドストレージプラットフォームです。 NextCloudは、データを保護するためにサーバーで実行され、デスクトップおよびモバイルデバイスからアクセスできます。 NextCloudは、DropboxまたはNASクラウドストレージでFTPドライブで既存のデータを同期、共有、およびアクセスするのに役立ちます。エンタープライズファイルの同期と共有NextCloudは、HIPAAおよびGDPRへのデータコンプライアンスについて強制します。 NextCloudは、PostgreSQL、SQLite、MariadB、MySQL、Oracleデータベースなど、複数のデータベース管理システムで動作するように設計されています。
 NextCloudは、Frank KarlitschekがOwnCloudをフォークしてNextCloudを作成した2016年に発売されました。 NextCloudサーバーは、PHPおよびJavaScriptスクリプト言語を使用して記述されます。 Frank Karlitschekを残したOwnCloudのコア貢献者のほとんどは、新しいファイル共有Collaboration NextCloudプロジェクトに参加し、同時に結成された新しい会社NextCloud GmbHによって管理されています。次の6か月以内に、NextCloud GmbHは収益性が高く、今日も収益性が高く、NextCloudプロジェクトを管理しています。
 
 ## 2. OwnCloudとは何ですか？ {#ce62}
-[OwnCloud] [2]は2010年1月に発表されましたが、最初のベータリリースは2010年3月に発売されました。OldCloudには世界中に5000万人のユーザーがいます。 owncloud gmbhによって。 OwnCloud Cloudには、クラウドファイル共有、カレンダーの管理、リスト、ドキュメント編集ツール、フォルダー共有などを管理するための他の多くの生産的な機能があります。 OwnCloudは、独自のプライベートクラウドサーバーでのみホストされています。
+[OwnCloud][2]は2010年1月に発表されましたが、最初のベータリリースは2010年3月に発売されました。OldCloudには世界中に5000万人のユーザーがいます。 owncloud gmbhによって。 OwnCloud Cloudには、クラウドファイル共有、カレンダーの管理、リスト、ドキュメント編集ツール、フォルダー共有などを管理するための他の多くの生産的な機能があります。 OwnCloudは、独自のプライベートクラウドサーバーでのみホストされています。
 OwnCloudは非常に安定しており、信頼性の高いクラウドアプリケーションです。特に商用アプリケーションには強くお勧めします。 OwnCloudは、機密データを扱う企業や、特別なセキュリティおよびコンプライアンス規制を満たす必要がある企業で使用されています。これらの企業には、金融、ヘルスケアなどが含まれます。
 
 ## 3.比較NextCloud vs OwnCloud：{#CE62}
@@ -53,15 +53,17 @@ NextCloudの100％の自由な側面により、OwnCloudストレージよりも
 
 ## 結論：{#4a1a}
 この記事では、最も人気のあるオープンソースクラウドストレージフレームワークの動作に関する簡単な比較を説明しました。 NextCloudとOwnCloudは、オープンソースクラウドストレージプラットフォームの分野の2人のマーケットリーダーです。どちらのソフトウェアにも、アドオンアプリケーションによって定期的に支持されている強力な基盤があります。 2つの間では、その機能とサービスにより、NextCloudクラウドストレージはより人気があるようです。ただし、OwnCloudは古いクラウドプラットフォームであり、Cloudストレージのユーザーのコミュニティのニーズを提供するために形成されています。今後のチュートリアルでは、オープンソースクラウドストレージプラットフォームに関連するより興味深いトピックについて説明します。
-_Yourは[Twitter] [3]、[LinkedIn] [4]、および[Facebook] [5]ページに参​​加できます。どのクラウドストレージNextCloud vs OwnCloud_ _Platformが好きですか？ご質問がある場合は、[ご連絡ください] [6]をお願いします。
+_Yourは[Twitter][3]、[LinkedIn][4]、および[Facebook][5]ページに参​​加できます。どのクラウドストレージNextCloud vs OwnCloud_ _Platformが好きですか？ご質問がある場合は、[ご連絡ください][6]をお願いします。
 
 ## 探検：
 また、サーバーの日々の管理に関する他の記事もいくつかあります。
-  * [UbuntuサーバーにApacheを使用してNextCloudをインストールする方法] [7]
-  * [ubuntuでapacheでowncloudをインストールして構成] [8]
-  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法] [9]
-  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する方法] [10]
-  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します] [11]
+  * [UbuntuサーバーにApacheを使用してNextCloudをインストールする方法][7]
+  * [ubuntuでapacheでowncloudをインストールして構成][8]
+  * [ubuntu/debianの逆プロキシとしてApacheを構成する方法][9]
+  * [ubuntuでnginxを使用してphpmyadminをインストールして保護する方法][10]
+  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します][11]
+
+  
 [1]: https://products.containerize.com/backup-and-sync/nextcloud/
 [2]: https://products.containerize.com/backup-and-sync/owncloud/
 [3]: https://twitter.com/containerize_co

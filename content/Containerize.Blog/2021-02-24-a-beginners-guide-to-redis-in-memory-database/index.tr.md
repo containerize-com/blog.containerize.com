@@ -14,12 +14,12 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/redis-in-memory-database.png" alt="Bellek içi veritabanı redis">}}
 
 ** Redis ** aslında “** re ** Mote ** di ** ctionary ** s ** erver” anlamına gelir. Veritabanı Redis, açık kaynaklı, gelişmiş bir anahtar değeri mağazasıdır. Birkaç veri türünü destekler: dizeler, karmalar, listeler, kümeler ve sıralı kümeler. Bu nedenle genellikle bir veri yapısı sunucusu olarak adlandırılır. Redis C'de yazılmıştır. Bu Redis öğreticisi, REDIS bellek içi veritabanı kavramlarının iyi bir şekilde anlaşılmasını sağlar.
-  *** [NoSQL veritabanı nedir] [1] **
-  *** [Redis NoSQL veritabanı mı?] [2] **
-  *** [Redis ne zaman kullanılır?] [3] **
-  *** [Redis ve diğer anahtar değer mağazaları] [4] **
-  *** [Ubuntu'ya Redis'i yükleyin] [5] **
-  *** [Sonuç] [6] **
+  *** [NoSQL veritabanı nedir][1] **
+  *** [Redis NoSQL veritabanı mı?][2] **
+  *** [Redis ne zaman kullanılır?][3] **
+  *** [Redis ve diğer anahtar değer mağazaları][4] **
+  *** [Ubuntu'ya Redis'i yükleyin][5] **
+  *** [Sonuç][6] **
 
 ## NoSQL veritabanı nedir {#nosql}
 NoSQL veritabanları çok popüler hale geldi. Büyük şirketler yüzlerce petabayt veri depolamak ve saniyede milyonlarca sorgu yürütmek için onlara güveniyor. Ancak NoSQL veritabanı nedir? Nasıl işe yarıyor ve neden geleneksel, ilişkisel veritabanlarından çok daha iyi ölçekleniyor? MySQL, MariaDB, SQL Server gibi ilişkisel veritabanlarıyla sorunu hızlı bir şekilde açıklayarak başlayalım.
@@ -69,6 +69,8 @@ PONG
 
 ## Sonuç {#Conclusion}
 Bu Redis öğreticisinde Redis-Commory veritabanını öğrendik. İlişkisel ve ilişkisel olmayan (NoSQL) veritabanları arasındaki temel farkı araştırdık. Ayrıca, Redis'i ne zaman kullanmalıyız ve en iyi kullanım durumlarını ne kullanmalıyız. Bu öğretici, devam eden bir eğitim dizisinin bir parçasıdır. Yaklaşan makalelerde, Redis’in özel kullanım durumlarını daha fazla keşfedeceğiz.
+
+  
 [1]: #nosql
 [2]: #isnosql
 [3]: #when

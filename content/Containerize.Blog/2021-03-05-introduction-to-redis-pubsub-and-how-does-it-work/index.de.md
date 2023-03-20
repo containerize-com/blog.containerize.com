@@ -13,12 +13,12 @@ categories: ['Database Management Software']
 
 {{< figure align=center src="images/redis-pub-sub.png" alt="Redis Pub Sub">}}
 
-In unserem letzten Tutorial "** [Ein Anfängerleitfaden für die Datenbank in Memory] [1] **" haben wir als In-Memory-Datenbank etwas über Redis erfahren. Und wie dies mit den NoSQL -Datenbanken konkurriert. Wir haben auch gelernt, wo Redis verwendet werden und wo seine Verwendung nicht optimal ist. In diesem Tutorial aufbauen wir nun über diese Wissensbasis und erfahren Sie mehr über Redis Pub/Sub. Lass uns anfangen.
-  *** [Was ist das Muster veröffentlichen/abonnieren?] [2] **
-  *** [Wie funktioniert die Kneipe/Sub?] [3] **
-  *** [Wann sollten Sie Pub/Sub verwenden?] [4] **
-  *** [Wie verwendet ich Redis Pub/Sub?] [5] **
-  *** [Schlussfolgerung] [6] **
+In unserem letzten Tutorial "** [Ein Anfängerleitfaden für die Datenbank in Memory][1] **" haben wir als In-Memory-Datenbank etwas über Redis erfahren. Und wie dies mit den NoSQL -Datenbanken konkurriert. Wir haben auch gelernt, wo Redis verwendet werden und wo seine Verwendung nicht optimal ist. In diesem Tutorial aufbauen wir nun über diese Wissensbasis und erfahren Sie mehr über Redis Pub/Sub. Lass uns anfangen.
+  *** [Was ist das Muster veröffentlichen/abonnieren?][2] **
+  *** [Wie funktioniert die Kneipe/Sub?][3] **
+  *** [Wann sollten Sie Pub/Sub verwenden?][4] **
+  *** [Wie verwendet ich Redis Pub/Sub?][5] **
+  *** [Schlussfolgerung][6] **
 
 ## Was ist Veröffentlichung/Abonnement -Muster? {#Was}
 Veröffentlichen/Abonnieren oder in einem kurzen Pub/Sub ist ein Messaging -Muster, bei dem der Absender und der Empfänger der Nachrichten diese Nachrichten nicht direkt austauschen. Der Absender der Nachricht veröffentlicht sie vielmehr an einem Kanal/einem Thema. Und alle, die diese Nachrichten erhalten möchten, abonnieren den Kanal/das Thema. Das war also eher eine technische Erklärung. In unserem täglichen Leben nutzen wir dieses Veröffentlichungs-Subscribe-Modell ziemlich oft, während wir Social-Media-Plattformen wie YouTube, Twitter, Facebook oder Instagram verwenden. Wenn die Inhaltsproduzenten den Inhalt produzieren und diejenigen, die interessiert sind, folgen / abonnieren die Inhalte. Dies ist also genau das, was genau Pub/Sub -Muster in der Softwarearchitektur tut.
@@ -44,7 +44,7 @@ Lassen Sie uns einige der Vorteile des Pub/Sub -Musters diskutieren
   * Verbessert die Reaktionsfähigkeit
 
 ## So verwenden Sie Redis Pub/Sub {#Redis-Pubsub}
-Für die Redis -Installation können Sie sich auf mein [letztes Tutorial] [1] beziehen. In diesem Beispiel wird erläutert, wie das Verleger- und Abonnentenkonzept funktioniert. Im folgenden Beispiel unterschreibt ein Client einen Kanal mit dem Namen "Redischat".
+Für die Redis -Installation können Sie sich auf mein [letztes Tutorial][1] beziehen. In diesem Beispiel wird erläutert, wie das Verleger- und Abonnentenkonzept funktioniert. Im folgenden Beispiel unterschreibt ein Client einen Kanal mit dem Namen "Redischat".
 ```
 redis 127.0.0.1:6379> SUBSCRIBE redisChat  
 Reading messages... (press Ctrl-C to quit) 
@@ -69,6 +69,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Tutorial haben wir das Veröffentlichung/Abonnement -Designmuster erfahren. Und erkundete, wie das Redis Pub/Sub funktioniert. Wir haben auch untersucht, was die besten Anwendungsfälle von Redis Pub/Sub, Echtzeit-Nachrichten sind. In meinem bevorstehenden Tutorial werden wir die Redis weiter untersuchen und erklären, wie wir Redis Pub/Sub mit Node.js verwenden können, um eine Echtzeit-Chat-Anwendung zu erstellen.
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: #what
 [3]: #how

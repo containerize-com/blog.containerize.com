@@ -17,15 +17,15 @@ categories: ['Version Control Software']
 ## Visão geral
 Imagine você como desenvolvedor de software trabalhando em um projeto. Você tem mais de uma pessoa trabalhando nisso. E há um único arquivo que contém o código -fonte. Como todos fazem alterações no código, eles terão versões diferentes do arquivo cada vez que fazem uma alteração. Então, agora como gerenciaríamos versões diferentes do mesmo arquivo? É aí que o software de gerenciamento de código -fonte entra em ação. Ajuda a gerenciar e a mesclar versões diferentes do mesmo arquivo. E até permita que você rastreie o histórico de mudança. E você sempre pode ter certeza de quem fez as alterações no arquivo e quais são essas alterações.
 Neste artigo, aprenderemos sobre o sistema de controle de versão Git. Como você pode usá -lo para gerenciar seus arquivos de código -fonte de desenvolvimento de software ou quaisquer outros arquivos. Então vamos começar.
-  *** [O que é sistema de controle de versão] [1] **
-  *** [O que é git] [2] **
-  *** [Como o git funciona] [3] **
-  *** [Instale Git] [4] **
-  *** [Configurando um repositório] [5] **
-  *** [Salvar alterações no repositório] [6] **
-  *** [Verifique o status do repositório] [7] **
-  *** [reverter ou desfazer mudanças] [8] **
-  *** [Conclusão] [9] **
+  *** [O que é sistema de controle de versão][1] **
+  *** [O que é git][2] **
+  *** [Como o git funciona][3] **
+  *** [Instale Git][4] **
+  *** [Configurando um repositório][5] **
+  *** [Salvar alterações no repositório][6] **
+  *** [Verifique o status do repositório][7] **
+  *** [reverter ou desfazer mudanças][8] **
+  *** [Conclusão][9] **
 
 ## O que é sistema de controle de versão {#versão-control}
 O controle da versão é um sistema que registra alterações em um arquivo ou conjunto de arquivos ao longo do tempo, para que você possa lembrar versões específicas posteriormente. Se você é desenvolvedor de software e deseja manter as versões do arquivo de código -fonte, o software de gerenciamento de código -fonte é uma coisa muito útil para você. Ele permite reverter os arquivos selecionados de volta a um estado anterior, reverter o projeto inteiro de volta a um estado anterior, comparar alterações ao longo do tempo, veja quem modificou algo pela última vez que poderia estar causando um problema, que introduziu um problema e quando e mais. Usar o controle da versão significa que você nunca precisa se preocupar em perder seu trabalho.
@@ -147,10 +147,12 @@ Agora que você leu o artigo inteiro, onde discutimos o que é Git e como funcio
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** Automatize os fluxos de trabalho de desenvolvimento de software com ações do GitHub **] [10]
-  *** [Como configurar um pipeline de implantação contínua com GitLab CI/CD] [11] **
-  *** [Entenda e aprenda ramos e puxe solicitações no git] [12] **
-  *** [Top 5 Sistemas de controle de versão de código aberto em 2021] [13] **
+  *[** Automatize os fluxos de trabalho de desenvolvimento de software com ações do GitHub **][10]
+  *** [Como configurar um pipeline de implantação contínua com GitLab CI/CD][11] **
+  *** [Entenda e aprenda ramos e puxe solicitações no git][12] **
+  *** [Top 5 Sistemas de controle de versão de código aberto em 2021][13] **
+
+  
 [1]: #version-control
 [2]: #git
 [3]: #how

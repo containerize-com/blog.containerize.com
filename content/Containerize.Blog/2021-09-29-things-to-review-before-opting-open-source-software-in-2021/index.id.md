@@ -17,13 +17,13 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 ## Ringkasan
 Anda mendarat di tempat yang tepat jika Anda bertanya -tanya untuk mengadopsi perangkat lunak untuk meningkatkan bisnis Anda. Dalam dunia teknologi dan inovasi yang berkembang pesat ini, ada banyak faktor yang dapat menjadi penghenti seperti biaya, waktu, keterampilan, sumber daya, dan banyak lagi. Di sisi lain, ini adalah kesepakatan yang mahal untuk mengembangkan perangkat lunak dari awal untuk memenuhi persyaratan bisnis. Inilah ** perangkat lunak open source **. Open Source Software (OSS) tersedia secara publik untuk semua orang dengan semua kode sumber dan dokumentasi di bawah lisensi. Itu bisa dibangun oleh pengembang tunggal atau sekelompok pengembang yang kemudian mengumumkannya. Setelah visibilitas perangkat lunak bebas bersifat publik, pengembang lain dapat berkontribusi pada perangkat lunak itu untuk peningkatan.
 Lebih lanjut, komunitas open source sangat bersemangat dan mendukung yang telah mengembangkan ** daftar perangkat lunak open source **. Ada papan diskusi di mana kolaborator dan pengguna berkumpul untuk berbagi solusi dan pemikiran. Ada berbagai kategori OSS yang mencakup sebagian besar aspek bisnis. Tentu saja, ada beberapa hal yang perlu dipertimbangkan sebelum pergi untuk aplikasi open source yang akan kita diskusikan dalam posting blog ini dengan membahas poin -poin berikut.
-  *** [komunitas] [1] **
-  *** [dokumentasi] [2] **
-  *** [portabilitas] [3] **
-  *** [statistik git] [4] **
-  *** [lisensi] [5] **
-  *** [ekstensibilitas] [6] **
-  *** [keamanan] [7] **
+  *** [komunitas][1] **
+  *** [dokumentasi][2] **
+  *** [portabilitas][3] **
+  *** [statistik git][4] **
+  *** [lisensi][5] **
+  *** [ekstensibilitas][6] **
+  *** [keamanan][7] **
 
 ## Komunitas {#Community}
 Ini adalah faktor terpenting saat memilih solusi open source (OSS). Menjadi sangat sulit untuk mengelola perangkat lunak jika tidak ada cukup dukungan yang tersedia. Sebagian besar pengembang cenderung mempertahankan keandalan perangkat lunak. Oleh karena itu, Anda harus selalu lebih suka ** Open Source Software (FOSS) gratis ** yang memiliki dukungan komunitas yang semarak sehingga jika ada masalah serius yang terjadi, yang harus diselesaikan.
@@ -48,21 +48,23 @@ Last but not least, keamanan perangkat lunak apa pun tidak dapat dikompromikan d
 
 ## Pikiran terakhir
 Ini membawa kita ke akhir posting blog ini. Kami telah melalui praktik -praktik penting yang harus diikuti saat memilih ** Open Source Software (OSS) **. Kami telah melihat banyak raksasa teknologi mengadopsi ** Open Source Software (FOSS) gratis ** untuk memenuhi kebutuhan bisnis. Namun, ini meluas menunjukkan kekokohan dan efisiensi aplikasi open source. Ada daftar alat open source panjang yang disebutkan di bagian Explore di bawah ini. Selain itu, Anda dapat menemukan banyak OSS di containerize.com yang semuanya gratis, open source, dan datang dengan kemampuan hosting sendiri. Saya akan merekomendasikan Anda untuk memilih solusi open source untuk bisnis Anda yang memenuhi kebutuhan bisnis Anda.
-Akhirnya, [** containerize.com **] [8] menulis artikel tentang produk open source lebih lanjut. Karena itu, harap tetap berhubungan untuk pembaruan rutin.
+Akhirnya, [** containerize.com **][8] menulis artikel tentang produk open source lebih lanjut. Karena itu, harap tetap berhubungan untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [9]
-  * [Manajemen Konten] [10], [Blogging] [11], [Forum Diskusi] [12], [Perangkat Lunak Kesehatan] [13]
-  * [Helpdesk] [14], [Otomasi Pemasaran] [15], [Marketplace] [16], [Alat Penyebaran] [17], [Keamanan] [18]
-  * [Live Chat] [19], [Formulir] [20], [Email Transaksional] [21], [Perangkat Lunak Intelijen Bisnis] [22]
-  * [Newsletter] [23], [Halaman Status] [24], [Faktur] [25], [Manajemen Kata Sandi] [26], [Perangkat Lunak Antrian Pesan] [27]
-  * [Single Sign-On] [28], [Manajemen Proyek] [29], [Pengembangan Aplikasi Cepat] [30], [Perangkat Lunak Animasi] [31]
-  * [Belanja Belanja] [32], [Kontrol Versi Sumber Terbuka] [33], [tumpukan solusi server web] [34], [perangkat lunak pengeditan foto] [35]
-  * [Manajemen Database] [36], [Konferensi Video] [37], [Platform Blockchain] [38], [Big Data] [39]
-  * [Perangkat Lunak CMDB] [40], [Perangkat Lunak Pengembangan Game] [41], [Perencanaan Sumber Daya Perusahaan (ERP)] [42]
-  * [Perangkat Lunak Pengeditan Video] [43], [Sistem Manajemen Basis Data] [44], [Produktivitas Kantor] [45]
-  * [Sistem Manajemen Pembelajaran (LMS)] [46], [Perangkat Lunak Cadangan dan Sinkronisasi] [47], [perangkat lunak forensik digital] [48]
+  * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][9]
+  * [Manajemen Konten][10], [Blogging][11], [Forum Diskusi][12], [Perangkat Lunak Kesehatan][13]
+  * [Helpdesk][14], [Otomasi Pemasaran][15], [Marketplace][16], [Alat Penyebaran][17], [Keamanan][18]
+  * [Live Chat][19], [Formulir][20], [Email Transaksional][21], [Perangkat Lunak Intelijen Bisnis][22]
+  * [Newsletter][23], [Halaman Status][24], [Faktur][25], [Manajemen Kata Sandi][26], [Perangkat Lunak Antrian Pesan][27]
+  * [Single Sign-On][28], [Manajemen Proyek][29], [Pengembangan Aplikasi Cepat][30], [Perangkat Lunak Animasi][31]
+  * [Belanja Belanja][32], [Kontrol Versi Sumber Terbuka][33], [tumpukan solusi server web][34], [perangkat lunak pengeditan foto][35]
+  * [Manajemen Database][36], [Konferensi Video][37], [Platform Blockchain][38], [Big Data][39]
+  * [Perangkat Lunak CMDB][40], [Perangkat Lunak Pengembangan Game][41], [Perencanaan Sumber Daya Perusahaan (ERP)][42]
+  * [Perangkat Lunak Pengeditan Video][43], [Sistem Manajemen Basis Data][44], [Produktivitas Kantor][45]
+  * [Sistem Manajemen Pembelajaran (LMS)][46], [Perangkat Lunak Cadangan dan Sinkronisasi][47], [perangkat lunak forensik digital][48]
+
+  
 [1]: #Community
 [2]: #Documentation
 [3]: #Portability

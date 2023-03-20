@@ -17,10 +17,10 @@ categories: ['Game Development Software']
 ## Aperçu
 Récemment, nous avons publié un article de tutoriel qui élabore une brève procédure d'intro et d'installation d'un outil de conception de jeu open source populaire gdevelop. Au fil du temps, la pile de technologies est remplie d'innovation et de transformation énormes. En fait, il existe un certain nombre de startups qui ont travaillé avec des jeux vidéo open source pour s'étendre avec les fonctionnalités améliorées. Les géants de l'industrie rendent leurs produits ouverts à la communauté. Dans le passé, il y avait deux catégories distinctes: le ** Global Gaming Market ** et l'industrie du jeu Web / Desktop.
 Par conséquent, il est devenu une seule plate-forme qui cible les deux plates-formes en fournissant une approche hybride. La communauté open source a développé de nombreux ** outils de conception de jeux ** qui gagnent de l'espace dans le cercle du développeur. Ces moteurs de jeu open source gratuits sont open source, sécurisés et sont livrés avec des capacités d'auto-hébergement. L'industrie du jeu mobile ** offre une énorme base de plugin qui offre des fonctionnalités nécessaires et permet aux développeurs d'apporter des modifications en fonction des exigences. Cependant, dans cet article de blog, nous discuterons de l'influence de la communauté des logiciels open source sur l'industrie du jeu ** ** ** en couvrant les points suivants.
-  * ** [Comment Open-source aide le marché mondial des jeux] [1] **
-  * ** [Impact de Covid-19 sur le marché du développement du jeu] [2] **
-  * ** [L'avenir du développement de jeux open source] [3] **
-  * ** [Conclusion] [4] **
+  * ** [Comment Open-source aide le marché mondial des jeux][1] **
+  * ** [Impact de Covid-19 sur le marché du développement du jeu][2] **
+  * ** [L'avenir du développement de jeux open source][3] **
+  * ** [Conclusion][4] **
 
 ## ** Comment Open-source aide le marché mondial des jeux ** {#How}
 Il y a une énorme demande de jeux vidéo fascinants et de haute qualité. En fait, les développeurs ont tendance à apprécier le développement de jeux en raison des graphiques, des sons et des idées de jeu accrocheurs. D'un autre côté, il y a des milliards de joueurs qui passent leur temps et leur argent à jouer à ces jeux. Par conséquent, la création de logiciels open source augmente la probabilité de qualité et de performances améliorées. Voyons les manières directes suivantes où l'open source aide le développement de jeux.
@@ -40,25 +40,27 @@ L'avenir du développement de jeux est fortement lié à l'open source en raison
 
 ## ** Conclusion ** {#conclusion}
 En fin de compte, il est toujours avantageux que des gens du monde entier travaillent sur des projets partagés. Les gammers jouent un rôle essentiel dans la croissance de l'industrie du jeu vidéo **. Par conséquent, il est vraiment important de faire attention à leurs commentaires. En adoptant des pratiques de développement de logiciels open source, les développeurs de jeux vidéo peuvent multiplier leur contribution au marché mondial des jeux. Ainsi, vous pouvez explorer les outils de conception de jeu open source ** et les articles de blog connexes enrôlés dans la section Explorer ci-dessous.
-Enfin, **** [contenerize.com] [5] **** publiera des articles sur d'autres logiciels de développement de jeux open source. Par conséquent, veuillez rester en contact avec cette catégorie [logiciel de développement de jeux] [6] pour les mises à jour régulières.
+Enfin, **** [contenerize.com][5] **** publiera des articles sur d'autres logiciels de développement de jeux open source. Par conséquent, veuillez rester en contact avec cette catégorie [logiciel de développement de jeux][6] pour les mises à jour régulières.
 
 ## Explorer
-  * [Gdevelop] [7]
-  * [Godot] [8]
-  * [SuperPowers] [9]
-  * [Cocos Creator] [10]
-  * [Panda3d] [11]
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [12]
-  * [Gestion du contenu] [13], [Blogging] [14], [Forum de discussion] [15], [Logiciel de santé] [16]
-  * [Helpdesk] [17], [Automation marketing] [18], [Marketplace] [19], [outils de déploiement] [20], [sécurité] [21]
-  * [CHAT en direct] [22], [Form] [23], [Email transactionnel] [24], [Software Business Intelligence] [25]
-  * [Newsletter] [26], [page de statut] [27], [facturation] [28], [Management de mot de passe] [29], [logiciel de file d'attente de messages] [30]
-  * [Connexion unique] [31], [gestion de projet] [32], [développement rapide des applications] [33], [logiciel d'animation] [34]
-  * [Panier] [35], [contrôle de la version open source] [36], [pile de solutions de serveur Web] [37], [logiciel de montage photo] [38]
-  * [Gestion de la base de données] [39], [Conférence vidéo] [40], [plates-formes de blockchain] [41], [Big Data] [42]
-  * [Logiciel CMDB] [43], [logiciel de développement de jeu] [6], [Enterprise Resource Planning (ERP)] [44]
-  * [Logiciel d'édition vidéo] [45], [Systèmes de gestion de la base de données] [46], [Productivité du bureau] [47]
-  * [Système de gestion de l'apprentissage (LMS)] [48], [logiciel de sauvegarde et de synchronisation] [49], [logiciel médico-légal numérique] [50]
+  * [Gdevelop][7]
+  * [Godot][8]
+  * [SuperPowers][9]
+  * [Cocos Creator][10]
+  * [Panda3d][11]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][12]
+  * [Gestion du contenu][13], [Blogging][14], [Forum de discussion][15], [Logiciel de santé][16]
+  * [Helpdesk][17], [Automation marketing][18], [Marketplace][19], [outils de déploiement][20], [sécurité][21]
+  * [CHAT en direct][22], [Form][23], [Email transactionnel][24], [Software Business Intelligence][25]
+  * [Newsletter][26], [page de statut][27], [facturation][28], [Management de mot de passe][29], [logiciel de file d'attente de messages][30]
+  * [Connexion unique][31], [gestion de projet][32], [développement rapide des applications][33], [logiciel d'animation][34]
+  * [Panier][35], [contrôle de la version open source][36], [pile de solutions de serveur Web][37], [logiciel de montage photo][38]
+  * [Gestion de la base de données][39], [Conférence vidéo][40], [plates-formes de blockchain][41], [Big Data][42]
+  * [Logiciel CMDB][43], [logiciel de développement de jeu][6], [Enterprise Resource Planning (ERP)][44]
+  * [Logiciel d'édition vidéo][45], [Systèmes de gestion de la base de données][46], [Productivité du bureau][47]
+  * [Système de gestion de l'apprentissage (LMS)][48], [logiciel de sauvegarde et de synchronisation][49], [logiciel médico-légal numérique][50]
+
+  
 [1]: #how
 [2]: #covid
 [3]: #future

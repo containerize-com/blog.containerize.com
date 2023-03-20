@@ -15,10 +15,10 @@ categories: ['Blogging', 'Help Desk']
 
 Sus clientes pueden tener consultas con respecto a sus productos/servicios. Enviarán sus consultas a través de diferentes formularios en su sitio de WordPress. La integración Osticket-WordPress ayuda a convertir esas consultas en boletos. Envía datos a través de API al sistema Osticket HelpDesk.
 Osticket es un sistema de boletos de servicio abierto y de código abierto. Los clientes pueden crear boletos con respecto a sus consultas en Osticket. Este sistema de servicio de ayuda hace que sea muy fácil para cualquier organización administrar las consultas provenientes de sus clientes. El administrador puede crear departamentos y equipos, y asignar boletos a diferentes agentes de acuerdo con la naturaleza de los boletos creados. Este sistema gratuito de código abierto realizará un seguimiento de los problemas. Permite a los clientes y agentes comentar sobre el boleto para discutir el progreso. Cubriremos las siguientes secciones en esta publicación de blog:
-  * [Proceso de integración] [1]
-  * [Instalación del complemento de WordPress] [2]
-  * [Procedimiento de autenticación] [3]
-  * [Conclusión] [4]
+  * [Proceso de integración][1]
+  * [Instalación del complemento de WordPress][2]
+  * [Procedimiento de autenticación][3]
+  * [Conclusión][4]
 
 ## Proceso de integración: {#integration}
 La integración de Osticket y WordPress requiere un formulario de contacto en el sitio de WordPress con los siguientes campos
@@ -32,10 +32,10 @@ El formulario de contacto debe enviar correos electrónicos, porque este complem
 ## Instalación del complemento de WordPress: {#WordPress}
   1. Vaya al tablero de administración de su sitio de WordPress.
   2. Luego vaya a la sección de complementos.
-  3. Luego instale este [complemento] [5].
+  3. Luego instale este [complemento][5].
   4. Después de eso, active el complemento.
   5. y vaya a "configurar" -> "conector Osticket".
-  6. Luego ingrese la URL de su sitio de Osticket, es decir, [http: //your.domain/api/tickets.json] [6]
+  6. Luego ingrese la URL de su sitio de Osticket, es decir, [http: //your.domain/api/tickets.json][6]
   7. Ingrese la clave API creada desde el panel de administración de Osticket (explicado en la siguiente sección).
   8. Al final, complete todos los campos para mapear los datos de su formulario de contacto a los campos de boletos de Osticket.
 
@@ -60,9 +60,11 @@ La integración Osticket-WordPress automatizará el proceso de venta de tickets.
 
 ## Explorar:
 Para obtener más información sobre Osticket y WordPress, consulte estas páginas:
-  * [Osticket - Sistema gratuito de Ticketing de Ticket de TicketSk de Helpdesk de código abierto] [7]
-  * [WordPress: código abierto gratuito y la herramienta de blogs y Blogging más utilizada] [8]
-  * [Cómo configurar el software de la mesa de ayuda en línea usando Osticket] [9]
+  * [Osticket - Sistema gratuito de Ticketing de Ticket de TicketSk de Helpdesk de código abierto][7]
+  * [WordPress: código abierto gratuito y la herramienta de blogs y Blogging más utilizada][8]
+  * [Cómo configurar el software de la mesa de ayuda en línea usando Osticket][9]
+
+  
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

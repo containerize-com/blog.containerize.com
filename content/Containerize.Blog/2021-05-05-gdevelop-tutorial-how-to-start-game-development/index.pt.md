@@ -17,14 +17,14 @@ categories: ['Game Development Software']
 ## Visão geral
 A indústria de videogames está florescendo em um ritmo alto. Existem bilhões de jogadores em todo o mundo que sempre procuram videogames emocionantes e divertidos. Por outro lado, há vários softwares de desenvolvimento de videogames que fornecem aos desenvolvedores um ambiente completo e ferramentas de desenvolvimento de jogos para desenvolver jogos avançados e fascinantes. No passado, os desenvolvedores de jogos eram usados ​​para escrever o código -fonte do jogo linha por linha. Foi muito tempo em levar o método de desenvolvimento e os jogadores tiveram que esperar meses por um novo lançamento. Portanto, a comunidade de código aberto desenvolveu grátis ** fabricantes de jogos fáceis ** para desenvolvedores de jogos.
 Esses ** mecanismos de jogo gratuitos ** vêm não apenas ajudam a fornecer lançamentos rápidos de jogos, mas também vêm com recursos que aprimoram a qualidade e a robustez do jogo. Além disso, esses designers ** de jogo 3D ** oferecem uma interface de usuário de arrastar e soltar e eliminar a necessidade de ter conhecimento de programação para criar jogos. No entanto, este é um tutorial ** gdevell ** no qual aprenderemos o que é o GDevelop e como configurá -lo localmente, cobrindo o seguinte ponto.
-  *** [O que é gdevelo.] [1] **
-  *** [Como configurar no localhost?] [2] **
-  *** [Conclusão] [3] **
+  *** [O que é gdevelo.][1] **
+  *** [Como configurar no localhost?][2] **
+  *** [Conclusão][3] **
 
 ## ** O que é gdevelo. ** {#Intro}
 O GDevelop é um software de desenvolvimento de videogame de código aberto gratuito. É auto-hospedado e oferece recursos ricos para desenvolver jogos 2D. No entanto, há suporte disponível para objetos 3D. Os usuários não precisam de nenhum tipo de habilidades de programação para desenvolver e publicar jogos para várias plataformas. É altamente extensível e fácil de configurar, pois requer requisitos fáceis para se auto-hospedar esse mecanismo de jogo gratuito. Existe uma interface de usuário intuitiva com recursos de arrastar e soltar. Essa ferramenta gratuita fornece animações de alta classe, efeitos de vídeo/áudio, tela sensível ao toque e multi-touch, visualização ao vivo e muito mais. Além disso, este ** designer de jogos 3D ** apresenta poderosos recursos de prototipagem que ajudam os desenvolvedores a desenvolver um bom produto com base no protótipo.
-Além disso, este fabricante de jogos fácil ** é altamente configurável e suporta integrações com bibliotecas de terceiros. Acima de tudo, ele fornece suporte para Xbox e PlayStation, que são consoles populares de videogame. O GDevelop está escrito em C ++, JavaScript e TypeScript. Há documentação detalhada disponível em relação à implantação e desenvolvimento. O GDevelop possui uma comunidade de desenvolvedores muito vibrantes que responde ativamente a bugs e consultas. Portanto, todo o código -fonte está disponível no [Github] [4].
-[Saiba mais sobre o GDevelop] [5]
+Além disso, este fabricante de jogos fácil ** é altamente configurável e suporta integrações com bibliotecas de terceiros. Acima de tudo, ele fornece suporte para Xbox e PlayStation, que são consoles populares de videogame. O GDevelop está escrito em C ++, JavaScript e TypeScript. Há documentação detalhada disponível em relação à implantação e desenvolvimento. O GDevelop possui uma comunidade de desenvolvedores muito vibrantes que responde ativamente a bugs e consultas. Portanto, todo o código -fonte está disponível no [Github][4].
+[Saiba mais sobre o GDevelop][5]
 
 ## ** Como configurar no localHost? ** {#setup}
 Na seção deste tutorial ** gdevell **, veremos como podemos configurar o GDevelop em nosso sistema local. Antes de seguir para as próximas etapas, verifique se você instalou os seguintes pré-requisitos.
@@ -69,21 +69,23 @@ Dessa forma, você pode explorar e tentar outros recursos. Este ** Easy Game Mak
 
 ## ** CONCLUSÃO ** {#conclusion}
 Isso acaba com este tutorial do GDevelop. Este mecanismo de jogo grátis ** permite implementar a lógica dos jogos usando eventos visuais. Possui uma comunidade muito solidária que fez muitos tutoriais úteis e manuais do usuário. Esta postagem do blog realmente o ajudará se você for novo no mundo do desenvolvimento de jogos. Existem muitos outros designers ** de jogo 3D **, ferramentas de desenvolvimento de jogos e artigos mencionados na seção Explore abaixo. Todos esses mecanismos de jogo são gratuitos, de código aberto e apresentam recursos de auto-hospedagem. Portanto, o setor de desenvolvimento de jogos está se expandindo imensamente com o aumento do número de jogadores. Existem videogames com gráficos de alta definição e efeitos sonoros que desencadeiam interesse e atração nos jogadores. No entanto, escolha um software de desenvolvimento de jogos bem-realizado que traga qualidade e eficiência ao seu trabalho.
-Por fim, o CONTERIZE.COM está pronto para aprimorar sua base de tutoriais com alguns tutoriais de desenvolvimento de jogos mais interessantes. Por favor, mantenha -se conectado com esta categoria [Software de Desenvolvimento de Jogo] [6] em [contémize.com] [7] para atualizações regulares.
+Por fim, o CONTERIZE.COM está pronto para aprimorar sua base de tutoriais com alguns tutoriais de desenvolvimento de jogos mais interessantes. Por favor, mantenha -se conectado com esta categoria [Software de Desenvolvimento de Jogo][6] em [contémize.com][7] para atualizações regulares.
 
 ## Explore
-  * [Gdevelo] [8]
-  * [Godot] [9]
-  * [Superpowers] [10]
-  * [Creator Cocos] [11]
-  * [Panda3d] [12]
-  * [Coisas para revisar antes de optar por software de código aberto em 2021] [13]
-  * [Como fazer um jogo no Scratch usando Gdevelo de código aberto] [14]
-  * [Top 5 Software de desenvolvimento de jogos gratuitos no ano de 2021] [15]
-  * [Introdução ao desenvolvimento de jogos usando superpowers] [16]
-  * [Tutorial de desenvolvimento de jogos | Movimento do jogador em Gdevelo] [17]
-  * [Tutorial de desenvolvimento de jogos html5 para programadores de videogame] [18]
-  * [Como a indústria de videogames alavancando o software de código aberto] [19]
+  * [Gdevelo][8]
+  * [Godot][9]
+  * [Superpowers][10]
+  * [Creator Cocos][11]
+  * [Panda3d][12]
+  * [Coisas para revisar antes de optar por software de código aberto em 2021][13]
+  * [Como fazer um jogo no Scratch usando Gdevelo de código aberto][14]
+  * [Top 5 Software de desenvolvimento de jogos gratuitos no ano de 2021][15]
+  * [Introdução ao desenvolvimento de jogos usando superpowers][16]
+  * [Tutorial de desenvolvimento de jogos | Movimento do jogador em Gdevelo][17]
+  * [Tutorial de desenvolvimento de jogos html5 para programadores de videogame][18]
+  * [Como a indústria de videogames alavancando o software de código aberto][19]
+
+  
 [1]: #intro
 [2]: #setup
 [3]: #Conclusion

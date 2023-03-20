@@ -31,11 +31,11 @@ Açık kaynaklı bir yazılım projesine katkıda bulunmak için bir yazılım g
 {{< figure align=center src="images/Apache-Cassandra-is-an-open-source-NoSQL-distributed-database.png" alt="Açık kaynaklı apache cassandra nosql dağıtılmış veritabanı">}}
 
   *** Katkıda bulunan sayısı: ** 340
-  *** En İyi Katılımcı: ** Jonathan Ellis, CTO & Datastax'ta Kurucu Ortak | [@spyced] [1]
+  *** En İyi Katılımcı: ** Jonathan Ellis, CTO & Datastax'ta Kurucu Ortak | [@spyced][1]
   *** Birincil Dil: ** Java
   *** Yıldız sayısı: ** 6.900
   *** Çatal sayısı: ** 2.900
-[Apache Cassandra] [2] açık kaynaklıdır ** NoSQL ** Dağıtılmış ve Geniş Sütun Mağazası Veritabanı. Dünyada büyük miktarlarda yapılandırılmış ve yapılandırılmamış verileri yönetmek için tasarlanmıştır. Cassandra, akrandan akran mimarisiyle çalışır ve sadece ** json veri formatını destekler **. Akhe kutusu arama işlevselliği için Facebook'ta geliştirildi ve Temmuz 2008'de Google Kodunda açık kaynaklı.
+[Apache Cassandra][2] açık kaynaklıdır ** NoSQL ** Dağıtılmış ve Geniş Sütun Mağazası Veritabanı. Dünyada büyük miktarlarda yapılandırılmış ve yapılandırılmamış verileri yönetmek için tasarlanmıştır. Cassandra, akrandan akran mimarisiyle çalışır ve sadece ** json veri formatını destekler **. Akhe kutusu arama işlevselliği için Facebook'ta geliştirildi ve Temmuz 2008'de Google Kodunda açık kaynaklı.
 Cassandra’nın en önemli özelliklerinden biri, sürekli hızlı bir yanıt süresi sağlayan elastik ve doğrusal ölçek performansıdır. Hata toleransı ve kolay veri dağılımı için veriler otomatik olarak birden çok düğüme çoğaltılır. En iyi açık kaynaklı yazılım Apache Cassandra En Büyük ** Üretim Dağıtımları ** Huawei, Apple, Netflix ve Çinli arama motoru Easou içerir.
 ** Apache Cassandra'yı kullanan en iyi şirketler ** Facebook, Instagram, Constant Contact, Cern, Comcast, eBay, GitHub ve 1.500'den fazla şirketi içerir.
 
@@ -44,11 +44,11 @@ Cassandra’nın en önemli özelliklerinden biri, sürekli hızlı bir yanıt s
 {{< figure align=center src="images/TensorFlow-is-a-popular-open-source-machine-learning-framework-for-artificial-intelligence.png" alt="Açık Kaynak Tensorflow Yapay Zeka Kütüphanesi">}}
 
   *** Katkıda bulunan sayısı: ** 2.993
-  *** En İyi Katılımcı: ** [Tensorflower-Gardene] [3]
+  *** En İyi Katılımcı: ** [Tensorflower-Gardene][3]
   *** Birincil Diller: ** C ++ ve Python
   *** Yıldız sayısı: ** 159.000
   *** Çatal sayısı: ** 85.500
-[Tensorflow] [4], 2015 yılında Apache 2.0 açık kaynak lisansı altında ** Google Brain ekibi ** tarafından oluşturulan yapay zeka ve bilgisayar görme uygulamaları için popüler bir açık kaynak ** makine öğrenme çerçevesi **. Tensorflow Python kütüphanesi, veri akışı grafikleri ile hızlı sayısal hesaplama için kullanılır. Geliştiricilerin derin sinir ağlarının eğitimi ve çıkarımına odaklanmalarını sağlar.
+[Tensorflow][4], 2015 yılında Apache 2.0 açık kaynak lisansı altında ** Google Brain ekibi ** tarafından oluşturulan yapay zeka ve bilgisayar görme uygulamaları için popüler bir açık kaynak ** makine öğrenme çerçevesi **. Tensorflow Python kütüphanesi, veri akışı grafikleri ile hızlı sayısal hesaplama için kullanılır. Geliştiricilerin derin sinir ağlarının eğitimi ve çıkarımına odaklanmalarını sağlar.
 Tensorflow kendi kendine barındırılan yazılım bir uçtan uca açık kaynaktır ** Yapay Zeka Kütüphanesi ** DataFlow ve farklılaştırılabilir programlamaya dayanır. Araç, kütüphaneler ve bir topluluk esnek ekosistemine sahiptir. TensorFlow FOSS yazılımı, modelinizi sunucular, kenar cihazları veya web'deki herhangi bir dil veya platformda kolayca eğitmenize ve dağıtmanıza olanak tanır.
 ** Tensorflow kullanan en iyi şirketler ** Qualcomm, Walmart, Nvidia, OneMain Financial, Airbnb, Coca-Cola, GE Healthcare, Google, Twitter ve DeepMind içerir.
 
@@ -57,11 +57,11 @@ Tensorflow kendi kendine barındırılan yazılım bir uçtan uca açık kaynakt
 {{< figure align=center src="images/Kubernetes-open-source-container-orchestration-system-1.png" alt="Açık Kaynak Kubernetes Container Orkestrasyon Sistemi">}}
 
   *** Katkıda bulunan sayısı: ** 3.141
-  *** En İyi Katılımcı: ** Jordan Liggitt, Google'da Personel Yazılım Mühendisi | [@liggitt] [5]
+  *** En İyi Katılımcı: ** Jordan Liggitt, Google'da Personel Yazılım Mühendisi | [@liggitt][5]
   *** Birincil Dil: ** Git
   *** Yıldız sayısı: ** 81.300
   *** Çatal sayısı: ** 2.960
-[Kubernetes] [6] açık kaynaklı bir konteyner düzenleme platformudur ve ** K8S veya Kube ** olarak da bilinir. Kubernetes Konteyner alanındaki bir OG, kapsayıcı bilgisayar uygulamaları oluşturma, dağıtım, test, ölçeklendirme kaynaklarını ve uygulamaları gerçek zamanlı olarak otomatikleştirmek için açık kaynak sistemdir. ** K9S ** Kubernetes, ** Kubernetes Cli ** Kubernetes kümelerinizi gezmeyi, gözlemlemeyi ve yönetmeyi kolaylaştırır.
+[Kubernetes][6] açık kaynaklı bir konteyner düzenleme platformudur ve ** K8S veya Kube ** olarak da bilinir. Kubernetes Konteyner alanındaki bir OG, kapsayıcı bilgisayar uygulamaları oluşturma, dağıtım, test, ölçeklendirme kaynaklarını ve uygulamaları gerçek zamanlı olarak otomatikleştirmek için açık kaynak sistemdir. ** K9S ** Kubernetes, ** Kubernetes Cli ** Kubernetes kümelerinizi gezmeyi, gözlemlemeyi ve yönetmeyi kolaylaştırır.
 Açık Kaynak ** Konteyner Orkestrasyonu ** Sistem Kubernetes Ana Görev, uygulamaların ve hizmetlerin dağıtımının iş yükünün çoğunu otomatikleştirerek teknik ekiplerin operasyonel çabalarını basitleştirmektir. Başlangıçta Google tarafından geliştirildi, şimdi ** Cloud Native Computing Foundation ** (CNCF) tarafından korundu ve 2014'ün ortalarında açık kaynak olarak yayınlandı.
 ** Kubernetes kullanan en iyi yoldaşlar ** Teknoloji yığınlarında Google, China Unicom, Udemy, Spotify, Stackshare ve AppDirect yer alıyor.
 
@@ -70,12 +70,12 @@ Açık Kaynak ** Konteyner Orkestrasyonu ** Sistem Kubernetes Ana Görev, uygula
 {{< figure align=center src="images/Ansible-open-source-automation-tool.png" alt="Açık Kaynak Ansible Otomasyon Aracı">}}
 
   *** Katkıda bulunan sayısı: ** 5.256
-  *** En İyi Katılımcı: ** Brian Coca, Ansible'da Sr. Yazılım Mühendisi | [@brian_coca] [7]
+  *** En İyi Katılımcı: ** Brian Coca, Ansible'da Sr. Yazılım Mühendisi | [@brian_coca][7]
   *** Birincil Dil: ** Python
   *** Yıldız sayısı: ** 49.900
   *** Çatal sayısı: ** 2.110
-[Ansible] [8] açık kaynaklı bir topluluk projesi ve ** Red Hat ** tarafından desteklenen popüler BT otomasyon motorudur. Altyapıyı kod olarak sağlayan yazılım sağlama, yapılandırma yönetimi ve uygulama dağıtım aracıdır. Ayrıca, hem Unix benzeri sistemlerde hem de Microsoft Windows sistemlerinde çalışır. Ansible Top Açık Kaynak Yazılım, uygulamaları, insan tarafından okunabilen dil, BT altyapısı ve sürekli teslimatın otomatikleştirilmesinin en basit yoludur.
-Ansible Açık Kaynak ** Otomasyon Aracı ** ve ücretsiz yazılım Python'da yazılmıştır ve ** SSH ** üzerinden düğümleri yönetir. Karmaşık gereksiz görevlerin çoğunu ortadan kaldırıyor ve 2015 yılında Red Hat tarafından satın alındı. [Github Octoverse’nin] [9] 2016'dan beri katkıda bulunanlar tarafından en iyi açık kaynak otomasyon projeleri listesinde yer alan Ansible Üst Açık Kaynak Projeler.
+[Ansible][8] açık kaynaklı bir topluluk projesi ve ** Red Hat ** tarafından desteklenen popüler BT otomasyon motorudur. Altyapıyı kod olarak sağlayan yazılım sağlama, yapılandırma yönetimi ve uygulama dağıtım aracıdır. Ayrıca, hem Unix benzeri sistemlerde hem de Microsoft Windows sistemlerinde çalışır. Ansible Top Açık Kaynak Yazılım, uygulamaları, insan tarafından okunabilen dil, BT altyapısı ve sürekli teslimatın otomatikleştirilmesinin en basit yoludur.
+Ansible Açık Kaynak ** Otomasyon Aracı ** ve ücretsiz yazılım Python'da yazılmıştır ve ** SSH ** üzerinden düğümleri yönetir. Karmaşık gereksiz görevlerin çoğunu ortadan kaldırıyor ve 2015 yılında Red Hat tarafından satın alındı. [Github Octoverse’nin][9] 2016'dan beri katkıda bulunanlar tarafından en iyi açık kaynak otomasyon projeleri listesinde yer alan Ansible Üst Açık Kaynak Projeler.
 ** Ansible kullanan en iyi şirketler teknoloji yığınlarında Udemy, LaunchDarkly, Andyet, Atlassian, Care.com ve Tokopedia'yı içerir.
 
 ## 5. Django
@@ -83,24 +83,26 @@ Ansible Açık Kaynak ** Otomasyon Aracı ** ve ücretsiz yazılım Python'da ya
 {{< figure align=center src="images/open-source-web-framework.png" alt="Açık Kaynak Django Web Uygulama Çerçevesi">}}
 
   *** Katkıda bulunan sayısı: ** 2.111
-  *** En İyi Katılımcı: ** Tim Graham | [@Timograham] [10]
+  *** En İyi Katılımcı: ** Tim Graham | [@Timograham][10]
   *** Birincil Dil: ** Python
   *** Yıldız sayısı: ** 59.800
   *** Çatal sayısı: ** 2.550
-[Django] [11], Python'da yazılmış model şablon görünümlerini izleyen yüksek seviyeli bir açık kaynak web çerçevesidir. En popüler açık kaynaklı yazılım ve ** Hızlı Uygulama Geliştirme Çerçevesi ** Python geliştiricilere hızlı web geliştirme için yardımcı olmak için tasarlanmıştır. Ayrıca web geliştiricilerinin ** SQL enjeksiyon **, siteler arası komut dosyası, tıklama ve daha fazlası gibi birçok yaygın güvenlik hatası ve hatadan kaçınmasına yardımcı olur.
+[Django][11], Python'da yazılmış model şablon görünümlerini izleyen yüksek seviyeli bir açık kaynak web çerçevesidir. En popüler açık kaynaklı yazılım ve ** Hızlı Uygulama Geliştirme Çerçevesi ** Python geliştiricilere hızlı web geliştirme için yardımcı olmak için tasarlanmıştır. Ayrıca web geliştiricilerinin ** SQL enjeksiyon **, siteler arası komut dosyası, tıklama ve daha fazlası gibi birçok yaygın güvenlik hatası ve hatadan kaçınmasına yardımcı olur.
 Python, yapay zeka, makine öğrenimi, masaüstü uygulamaları vb. Yazılım Vakfı ** (DSF).
 ** Django kullanan en iyi şirketler ** Instagram, Spotify, National Geographic, Pinterest, MacArthur Vakfı, Disqu, Bitbucket, Mozilla, Açık Yığın ve daha fazlasını içerir.
 
 ## ** Sonuç: ** {#4A1A}
 Yukarıda belirtilen beş açık kaynaklı yazılım projesi, geliştiriciler için en popüler ücretsiz ve en iyi açık kaynak yazılımıdır. Yeni başlayanlar için iyi açık kaynak projelerini ilk kez araştırıyorsanız, OctOverse State raporuna göz atın ve eklemek ve katkıda bulunmaktan çekinmeyin. Açık kaynaklı yazılım listesi, dünyanın en büyük platformlarından bazılarında çalışmalarına izin verirken, kariyer oluşturma konusunda yenilikçilerin ve uygulama geliştiricilerinin kapılarının kilidini açın. Yukarıda listelediğimiz en iyi açık kaynaklı yazılım örnekleri, sadece açık kaynak uygulamalarının ne kadar faydalı olduğunun kanıtıdır.
-_ En sevdiğiniz ücretsiz ve açık kaynaklı yazılım projeleri nelerdir?. Açık kaynaklı projeler hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun] [12].
+_ En sevdiğiniz ücretsiz ve açık kaynaklı yazılım projeleri nelerdir?. Açık kaynaklı projeler hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][12].
 
 ## Keşfetmek:
 Ayrıca OSS Watch'tan başka ilgili bilgilerimiz de var:
-  * [En iyi açık kaynaklı bulut depolama ve dosya paylaşım yazılımı] [13]
-  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı] [14]
-  * [En popüler açık kaynaklı dijital adli araçlar] [15]
-  * [En popüler OSI onaylı açık kaynak lisansları] [16]
+  * [En iyi açık kaynaklı bulut depolama ve dosya paylaşım yazılımı][13]
+  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı][14]
+  * [En popüler açık kaynaklı dijital adli araçlar][15]
+  * [En popüler OSI onaylı açık kaynak lisansları][16]
+
+  
 [1]: https://twitter.com/spyced?lang=en
 [2]: https://cassandra.apache.org/
 [3]: https://github.com/tensorflower-gardener

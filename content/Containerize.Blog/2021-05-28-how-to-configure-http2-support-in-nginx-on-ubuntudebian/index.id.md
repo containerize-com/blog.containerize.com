@@ -71,7 +71,7 @@ Nginx: File konfigurasi /etc/nginx/nginx.conf sintaks ok
 nginx: file konfigurasi /etc/nginx/nginx.conf Tes berhasil
 
 ## Langkah 4: Menambahkan sertifikat SSL {#37C0}
-Langkah selanjutnya adalah mengaktifkan konfigurasi Nginx HTTPS untuk menggunakan sertifikat SSL Anda. Anda dapat menghasilkan sertifikat yang ditandatangani sendiri atau [instal sertifikat gratis dari Let's Encrypt] [1]. Jika Anda tidak memiliki sertifikat SSL maka silakan ikuti tutorial ini. Tambahkan sertifikat SSL Anda di dalam direktori konfigurasi nginx yang mirip dengan:
+Langkah selanjutnya adalah mengaktifkan konfigurasi Nginx HTTPS untuk menggunakan sertifikat SSL Anda. Anda dapat menghasilkan sertifikat yang ditandatangani sendiri atau [instal sertifikat gratis dari Let's Encrypt][1]. Jika Anda tidak memiliki sertifikat SSL maka silakan ikuti tutorial ini. Tambahkan sertifikat SSL Anda di dalam direktori konfigurasi nginx yang mirip dengan:
 ```
 sudo mkdir /etc/nginx/ssl
 ```
@@ -108,15 +108,17 @@ Sudo Systemctl Status nginx
 
 ## ** Kesimpulan: ** {#4a1a}
 Selamat, Anda telah berhasil belajar cara mengatur dukungan Nginx Config HTTP2 di Ubuntu Server. Pengaturan Nginx HTTP2 Anda sekarang melayani HTTP/2 halaman dan juga menghapus perbedaan antara protokol HTTP/1 dan HTTP/2. Jika Anda masih menghadapi masalah konfigurasi, beri tahu kami di bagian komentar.
-Apakah Anda memiliki pertanyaan tentang protokol multiplexed http2? _, Silakan_ [hubungi Anda] [2].
+Apakah Anda memiliki pertanyaan tentang protokol multiplexed http2? _, Silakan_ [hubungi Anda][2].
 
 ## Mengeksplorasi
 Anda mungkin juga suka artikel di bawah ini:
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [3]
-  * [Cara] [3] [menginstal dan mengamankan phpMyadmin dengan nginx di ubuntu] [4]
-  * [Cara Mengatur Nginx Dengan Penumpang di Server Produksi AWS] [5]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [1]
-  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu] [6]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][3]
+  * [Cara][3][menginstal dan mengamankan phpMyadmin dengan nginx di ubuntu][4]
+  * [Cara Mengatur Nginx Dengan Penumpang di Server Produksi AWS][5]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][1]
+  * [Cara Menginstal dan Mengkonfigurasi OwnCloud dengan Apache di Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

@@ -13,14 +13,14 @@ categories: ['Content Management']
 
 {{< figure align=center src="images/joomla-templates-2.png" alt="Temel Joomla Şablonu">}}
 
-Bu dijital çağda, bir içerik yönetim sistemi, tüm içerik oluşturma ihtiyaçları için herhangi bir işletmenin temel bir zorunluluğudur. Ve piyasada bulunan bir dizi açık kaynak ve ücretli CMS yazılımı vardır. Ayrıca, işletmeler için en iyi açık kaynaklı içerik yönetimi yazılımından bazılarını [listeledik] [1]. Joomla en popüler açık kaynaklı CMS yazılımlarından biridir ve bu öğreticide size adım adım ilerleyeceğiz ve sıfırdan bir Joomla şablonunun nasıl oluşturulacağını açıklayacağız. Öyleyse başlayalım!
+Bu dijital çağda, bir içerik yönetim sistemi, tüm içerik oluşturma ihtiyaçları için herhangi bir işletmenin temel bir zorunluluğudur. Ve piyasada bulunan bir dizi açık kaynak ve ücretli CMS yazılımı vardır. Ayrıca, işletmeler için en iyi açık kaynaklı içerik yönetimi yazılımından bazılarını [listeledik][1]. Joomla en popüler açık kaynaklı CMS yazılımlarından biridir ve bu öğreticide size adım adım ilerleyeceğiz ve sıfırdan bir Joomla şablonunun nasıl oluşturulacağını açıklayacağız. Öyleyse başlayalım!
 ** Not: Joomla 2.5 sürümünün yüklü olduğunu varsayıyoruz **
-  *** [Kurulum dizin yapısı] [2] **
-  *** [Temel Templatedetails.xml dosyası oluştur] [3] **
-  *** [Temel bir dizin oluşturun.php dosyası oluştur] [4] **
-  *** [Şablonu keşfedin ve yükleyin] [5] **
-  *** [şablonu paketleyin] [6] **
-  *** [Sonuç] [7] **
+  *** [Kurulum dizin yapısı][2] **
+  *** [Temel Templatedetails.xml dosyası oluştur][3] **
+  *** [Temel bir dizin oluşturun.php dosyası oluştur][4] **
+  *** [Şablonu keşfedin ve yükleyin][5] **
+  *** [şablonu paketleyin][6] **
+  *** [Sonuç][7] **
 
 ## Kurulum dizin yapısı {#setup}
 Önce çok temel bir Joomla şablonu oluşturmak için, şablon klasöründe yeni bir klasör oluşturun. Şablonunuzu demek istediğiniz her şeyi klasörü adlandırın, örneğin “** MyNewtemplate **”.
@@ -106,7 +106,9 @@ Bu makalede Joomla şablonunu öğrendik. Bir Joomla şablonunun nasıl oluştur
 
 ## İlgili Ürün Sayfaları
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Yeni başlayanlar için Joomla Şablon Geliştirme Kılavuzu] [8]
+  * [Yeni başlayanlar için Joomla Şablon Geliştirme Kılavuzu][8]
+
+  
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

@@ -15,12 +15,12 @@ categories: ['Healthcare Software']
 
 
 ## Aperçu
-Nous avons récemment publié un article de blog sur [Comment les logiciels de soins de santé en ligne autorisent l'industrie des soins de santé] [1] qui décrit l'impact du système de gestion hospitalier open source sur l'industrie des soins de santé. L'industrie mondiale des logiciels de santé gagne en valeur avec le temps. En fait, c'est que la technologie a transformé tous les domaines de la vie. Le nombre de patients et de membres du personnel est devenu si haut qu'il est devenu un problème pour gérer de telles données énormes. D'un autre côté, il existe de nombreuses tâches qui prennent du temps qui ont lieu tous les jours et les entités de santé effectuent à plusieurs reprises ces tâches. Par conséquent, la communauté des sources open source a développé des logiciels médicaux open source qui accompagnent de nombreux modules utiles pour répondre aux besoins en soins de santé.
+Nous avons récemment publié un article de blog sur [Comment les logiciels de soins de santé en ligne autorisent l'industrie des soins de santé][1] qui décrit l'impact du système de gestion hospitalier open source sur l'industrie des soins de santé. L'industrie mondiale des logiciels de santé gagne en valeur avec le temps. En fait, c'est que la technologie a transformé tous les domaines de la vie. Le nombre de patients et de membres du personnel est devenu si haut qu'il est devenu un problème pour gérer de telles données énormes. D'un autre côté, il existe de nombreuses tâches qui prennent du temps qui ont lieu tous les jours et les entités de santé effectuent à plusieurs reprises ces tâches. Par conséquent, la communauté des sources open source a développé des logiciels médicaux open source qui accompagnent de nombreux modules utiles pour répondre aux besoins en soins de santé.
 Des logiciels médicaux open source sont développés pour gérer les dossiers des patients concernant leurs antécédents médicaux ainsi que les dispositions de gestion hospitalière. De plus, les logiciels de santé open source tirent parti de l'intelligence artificielle pour fournir des niveaux avancés de services. La plupart des traitements de la maladie sont désormais gérés par le logiciel qui non seulement diagnostique les problèmes mais fournit également une assistance dans la guérison. Cependant, il existe de nombreux logiciels émergents pour les hôpitaux. Dans cet article de blog, nous couvrirons les points suivants.
-  * [** Qu'est-ce que l'hôpital? **] [2]
-  * [** Quelles sont les caractéristiques de Hospitalrun **] [3]
-  * [** Étapes d'installation de Hospitalrun? **] [4]
-  * [** Conclusion **] [5]
+  * [** Qu'est-ce que l'hôpital? **][2]
+  * [** Quelles sont les caractéristiques de Hospitalrun **][3]
+  * [** Étapes d'installation de Hospitalrun? **][4]
+  * [** Conclusion **][5]
 
 ## Qu'est-ce que Hospitalrun? {#intro}
 Hospitalrun est un système gratuit de gestion de l'information hospitalière open source. Cette solution de soins de santé gratuite est respectueuse de l'environnement car les utilisateurs peuvent utiliser pleinement ce logiciel libre même s'il n'y a pas de connectivité Internet. Il fournit de nombreuses fonctionnalités telles que la gestion des utilisateurs, les inscriptions des patients, les rendez-vous, le système de facturation, le système de sortie des patients, etc. L'interface utilisateur de ce système eHealth open source est logique où les utilisateurs peuvent facilement parcourir différents éléments. De plus, il est facile à configurer et propose une image Docker où les développeurs peuvent le déployer à l'aide d'une image Docker.
@@ -40,9 +40,9 @@ Dans cette section, nous passerons par certaines des caractéristiques clés sui
 ## Étapes d'installation de HospitalRun? {#pas}
 Cette section du billet de blog décrit les étapes d'installation de Hospitalrun.
 Avant de commencer, installez d'abord les pré-requis suivants:
-  * [Docker] [6]
-  * [Docker-compose] [7]
-Une fois les pré-réquisites installées, téléchargez le code source à partir de ce [lien] [8].
+  * [Docker][6]
+  * [Docker-compose][7]
+Une fois les pré-réquisites installées, téléchargez le code source à partir de ce [lien][8].
 Après cela, ouvrez le terminal et exécutez les commandes suivantes:
 CD générique
 serveur de CD
@@ -60,21 +60,23 @@ Enfin, vous pouvez accéder à cette solution de soins de santé dans le navigat
 
 ## Conclusion {#conclusion}
 Ceci est la fin de cet article de tutoriel. Ce système de dossier de patients aide vraiment à automatiser ** les services de santé **. Le système de gestion hospitalier open source moderne est livré avec des outils d'analyse de données qui aident les travailleurs de la santé à prendre les mesures nécessaires pour de meilleurs établissements de santé. Ce billet de blog vous aidera vraiment si vous cherchez sérieusement à déployer un système de santé pour votre hôpital / clinique. Ces solutions open source sont rentables car elles sont intégrées aux laboratoires et autres cliniques et minimisent également les documents en informatisant chaque processus. Open Source Healthcare Solution permet aux utilisateurs d'avoir des visuels de toutes les opérations de santé telles que les médicaments, la sortie, les rapports des patients et la gestion de facturation. De plus, vous pouvez vous concentrer sur d'autres tâches importantes telles que la planification des ressources et l'évaluation des risques. Cependant, il existe de nombreux autres logiciels de niveau d'entreprise pour les hôpitaux qui sont mentionnés dans la section «Explorer» ci-dessous.
-En fin de compte, **** [contenerize.com] [9] **** est destiné à écrire sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [Healthcare Technologies] [10] pour les dernières mises à jour.
+En fin de compte, **** [contenerize.com][9] **** est destiné à écrire sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [Healthcare Technologies][10] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [OpenEMR] [11]
-  * [OpenMRS] [12]
-  * [Hospitalrun] [13]
-  * [Hôpital ouvert] [14]
-  * [Solismed] [15]
-  * [Choses à revoir avant d'opposer un logiciel open source en 2021] [16]
-  * [Fonctionne l'exploration du gestionnaire de dossiers médicaux Hospitalrun] [17]
-  * [Top 5 du logiciel de dossier de santé des patients open source] [18]
-  * [Fonctionne l'exploration de la solution de santé médicale OpenEMR] [19]
-  * [Comment mettre en place un système de santé hospitalier sur localhost] [20]
-  * [Comment les logiciels de soins de santé en ligne autorisent l'industrie des soins de santé] [1]
+  * [OpenEMR][11]
+  * [OpenMRS][12]
+  * [Hospitalrun][13]
+  * [Hôpital ouvert][14]
+  * [Solismed][15]
+  * [Choses à revoir avant d'opposer un logiciel open source en 2021][16]
+  * [Fonctionne l'exploration du gestionnaire de dossiers médicaux Hospitalrun][17]
+  * [Top 5 du logiciel de dossier de santé des patients open source][18]
+  * [Fonctionne l'exploration de la solution de santé médicale OpenEMR][19]
+  * [Comment mettre en place un système de santé hospitalier sur localhost][20]
+  * [Comment les logiciels de soins de santé en ligne autorisent l'industrie des soins de santé][1]
+
+  
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: #intro
 [3]: #features

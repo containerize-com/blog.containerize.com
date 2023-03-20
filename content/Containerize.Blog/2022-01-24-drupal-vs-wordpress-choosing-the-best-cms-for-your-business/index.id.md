@@ -23,7 +23,7 @@ Jelas, baik sistem manajemen konten Drupal vs WordPress memberikan Anda solusi y
   * **Kesimpulan**
 
 ## ** 1. Apa itu Drupal? **
-[** Drupal **] [1] adalah salah satu sistem manajemen konten web gratis dan open-source yang paling serbaguna, yang awalnya diluncurkan pada tahun 2000. Ini ditulis dalam bahasa PHP dan didistribusikan di bawah Lisensi Publik Umum GNU. Drupal adalah CMS fleksibel berdasarkan tumpukan lampu.
+[** Drupal **][1] adalah salah satu sistem manajemen konten web gratis dan open-source yang paling serbaguna, yang awalnya diluncurkan pada tahun 2000. Ini ditulis dalam bahasa PHP dan didistribusikan di bawah Lisensi Publik Umum GNU. Drupal adalah CMS fleksibel berdasarkan tumpukan lampu.
 Drupal membantu dalam menyediakan kerangka kerja back-end open-source untuk setidaknya 14% dari 10.000 situs web teratas di seluruh dunia. Ini mulai dari weblog pribadi hingga perusahaan, politik, pemerintah hingga situs web besar yang digerakkan oleh masyarakat dan dengan komunitas besar yang mendukung.
 ** Berapa banyak situs web yang menggunakan ** drupal ** ?. Ini adalah 1,3% dari semua situs web.
 ** Apa saja situs web populer yang menggunakan Drupal ?: **
@@ -38,7 +38,7 @@ Drupal membantu dalam menyediakan kerangka kerja back-end open-source untuk seti
   * NCAA
   * Tesla
   * Keap
-** Apa keuntungan drupal? ** [] [2]
+** Apa keuntungan drupal? ** [][2]
   *** Kontrol Akses **-Sistem Manajemen Konten Open-Source Drupal (CMS) memiliki sistem kontrol akses bawaan di mana Anda dapat membuat peran pengguna baru dengan izin individu sedangkan kapal satu situs WordPress dengan 5 peran pengguna dasar dan izin pengguna dan pengguna dasar .
   *** Extensibility ** - Jenis dan tampilan konten kustom drupal lebih fleksibel daripada tipe posting khusus WordPress.
   *** Taksonomi ** - Sistem taksonomi Drupal lebih fleksibel daripada WordPress, yang membuatnya ideal untuk menangani banyak data konten.
@@ -48,7 +48,7 @@ Drupal membantu dalam menyediakan kerangka kerja back-end open-source untuk seti
 ** Berapa banyak tema yang ada di Drupal? ** Pada Jan 2022, Drupal.org menawarkan 2.988 tema di direktori resminya. Drupal 9 hadir dengan lebih dari tujuh puluh modul inti dan sembilan tema.
 
 ## 2. Apa itu WordPress?
-[** WordPress **] [3] adalah sistem manajemen konten sumber dan open source paling populer di dunia. Awalnya diluncurkan sebagai platform blogging pada tahun 2003 dan fitur -fiturnya termasuk arsitektur plugin dan sistem template yang disebut tema. WordPress adalah perangkat lunak blogging paling populer di pasaran yang ditulis dalam PHP sebagai bahasa skrip dan menggunakan database MySQL atau MariaDB.
+[** WordPress **][3] adalah sistem manajemen konten sumber dan open source paling populer di dunia. Awalnya diluncurkan sebagai platform blogging pada tahun 2003 dan fitur -fiturnya termasuk arsitektur plugin dan sistem template yang disebut tema. WordPress adalah perangkat lunak blogging paling populer di pasaran yang ditulis dalam PHP sebagai bahasa skrip dan menggunakan database MySQL atau MariaDB.
 ** Berapa banyak situs web yang menggunakan WordPress ?. Cara lain, WordPress memberi kekuatan pada sepertiga dari Internet dan memegang 65% pangsa untuk pasar sistem manajemen konten (CMS).
 ** Apa situs populer menggunakan WordPress ?: **
 Inilah daftar situs web teratas dan merek besar menggunakan WordPress.
@@ -62,14 +62,14 @@ Inilah daftar situs web teratas dan merek besar menggunakan WordPress.
   * Mercedes-denz.com
   * Newyorker.com
   * Godaddy.com
-** Apa keuntungan WordPress? ** [] [4]
+** Apa keuntungan WordPress? ** [][4]
 Berikut adalah alasan utama mengapa WordPress sangat populer dan mengapa Anda mungkin ingin mempertimbangkan untuk beralih ke platform WordPress untuk situs web bisnis Anda. Manfaat WordPress adalah:
   *** Kemudahan Penggunaan **-WordPress sangat mudah digunakan, lebih ramah pengguna dan memiliki antarmuka intuitif. Buat halaman baru, artikel blog, gambar, dll. Secara teratur sangat sederhana dan dapat dilakukan dengan cepat, terutama untuk non-pengembang.
   *** Extensibility ** - WordPress memungkinkan untuk memperluas WordPress tanpa perlu pengembangan khusus. Tambahkan kalender acara, galeri video, umpan Twitter, kotak Facebook, dan lainnya dengan tema dan plugin pihak ketiga.
   *** Skalabilitas ** - Situs WordPress sangat terukur seiring dengan tumbuhnya bisnis Anda. Sebagai seorang administrator, Anda menambahkan ratusan halaman atau posting blog di situs web Anda dan kinerja situs Anda tidak akan dikompromikan.
   *** Tidak ada pengeditan HTML **-WordPress adalah platform mandiri dan tidak memerlukan perangkat lunak pengeditan HTML. Siapa pun dapat membuat halaman atau posting blog baru, format teks, mengunggah gambar, file video dll. Tanpa perlu perangkat lunak HTML atau FTP tambahan.
   *** Biaya pengembangan yang lebih rendah ** - WordPress menawarkan lebih banyak solusi desain dan tata letak dan pengembangnya biasanya lebih terjangkau daripada pengembang Drupal bahkan untuk usaha kecil.
-  *** Dukungan ** - Komunitas Global WordPress membantu dan memberikan dukungan untuk masalah apa pun atau melihat dokumentasi dukungan untuk mendapatkan jawaban. [] [5]
+  *** Dukungan ** - Komunitas Global WordPress membantu dan memberikan dukungan untuk masalah apa pun atau melihat dokumentasi dukungan untuk mendapatkan jawaban. [][5]
 ** Berapa banyak plugin yang dimiliki WordPress? ** Pada Desember 2021, WordPress.org memiliki 59.756 plugin yang tersedia. Masing -masing yang menawarkan fungsi dan fitur khusus yang memungkinkan pengguna untuk menyesuaikan situs mereka dengan kebutuhan spesifik mereka.
 ** Berapa banyak tema yang ada di WordPress? ** Ada 9.159 tema gratis, ditambah ribuan tema premium. Alat seperti wysiwyg tema penyesuaikan dan editor Gutenberg membuatnya lebih sederhana bagi pengguna biasa untuk membuat konten unik.
 
@@ -81,15 +81,17 @@ Berikut adalah alasan utama mengapa WordPress sangat populer dan mengapa Anda mu
 
 ## kesimpulan: {#4a1a}
 ** Apa pilihan terbaik ** drupal ** versus WordPress? ** Sekarang terserah Anda: jika Anda mencari investasi awal ** dengan biaya rendah ** kemudian pergi ke WordPress. Jika Anda adalah ** pemula dan situs web akan sederhana ** dan fungsional maka buka WordPress. Jika Anda mencari solusi ** yang kuat dan kompleks ** maka pergi ke Drupal.
-_Apa platform manajemen konten open source_ yang Anda sukai_?. Apakah Anda memiliki pertanyaan tentang perbedaan antara _wordpress__ dan _drupal?, Silakan_ [hubungi Anda] [6].
+_Apa platform manajemen konten open source_ yang Anda sukai_?. Apakah Anda memiliki pertanyaan tentang perbedaan antara _wordpress__ dan _drupal?, Silakan_ [hubungi Anda][6].
 
 ## Mengeksplorasi:
 Kami memiliki beberapa artikel terkait lainnya untuk administrator TI:
-  *** [Top 5 Open Source Container Orchestration Tools for DevOps 2021] [7] **
-  *** [Perangkat Lunak Penyimpanan Cloud dan Berbagi File Terbaik Terbaik] [8] **
-  *** [Top 5 Open Source Message Antrian (MQ) Perangkat Lunak pada 2021] [9] **
-  *** [Alat forensik digital open source paling populer] [10] **
-  *** [lisensi open source yang disetujui OSI yang paling populer] [11] **
+  *** [Top 5 Open Source Container Orchestration Tools for DevOps 2021][7] **
+  *** [Perangkat Lunak Penyimpanan Cloud dan Berbagi File Terbaik Terbaik][8] **
+  *** [Top 5 Open Source Message Antrian (MQ) Perangkat Lunak pada 2021][9] **
+  *** [Alat forensik digital open source paling populer][10] **
+  *** [lisensi open source yang disetujui OSI yang paling populer][11] **
+
+  
 [1]: https://www.drupal.org/
 [2]: https://kinsta.com/blog/wordpress-vs-drupal/#drupal-advantages
 [3]: https://wordpress.org/

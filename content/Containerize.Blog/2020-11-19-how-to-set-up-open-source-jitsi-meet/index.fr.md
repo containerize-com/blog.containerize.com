@@ -15,20 +15,20 @@ categories: ['Video Conferencing Software']
 
 
 ## Aperçu
-Nous avons récemment publié un [article de blog] [1] qui parle de l'impact du [logiciel de vidéoconférence] [2] sur le secteur des entreprises. Cependant, dans cet article, nous couvrirons les points suivants.
-  * [Une brève introduction de Jitssi Meet] [3]
-  * [Comment configurer Jitssi Meet?] [4]
-  * [Jitssi Meet Features Exploration] [5]
-  * [Conclusion] [6]
+Nous avons récemment publié un [article de blog][1] qui parle de l'impact du [logiciel de vidéoconférence][2] sur le secteur des entreprises. Cependant, dans cet article, nous couvrirons les points suivants.
+  * [Une brève introduction de Jitssi Meet][3]
+  * [Comment configurer Jitssi Meet?][4]
+  * [Jitssi Meet Features Exploration][5]
+  * [Conclusion][6]
 
 ## Une brève introduction de Jitssi Meet {#intro}
-[Jitsi Meet] [7] est un logiciel de collaboration vidéo open source, sécurisé et évolutif entièrement gratuit. Il fournit plusieurs fonctionnalités populaires telles que la conférence vidéo multipartite avec un chiffrement complet, une prise en charge de Etherpad et un enregistrement vidéo / audio. Ce logiciel compatible WeBrTC vous permet d'inviter autant d'utilisateurs que vous le souhaitez dans une réunion vidéo.
+[Jitsi Meet][7] est un logiciel de collaboration vidéo open source, sécurisé et évolutif entièrement gratuit. Il fournit plusieurs fonctionnalités populaires telles que la conférence vidéo multipartite avec un chiffrement complet, une prise en charge de Etherpad et un enregistrement vidéo / audio. Ce logiciel compatible WeBrTC vous permet d'inviter autant d'utilisateurs que vous le souhaitez dans une réunion vidéo.
 La montée des réunions virtuelles a commencé ces derniers temps et les gens croient que la communication via des appels vidéo / audio est plus efficace et collaborative. Surtout, cette catégorie de logiciels fonctionne non seulement sur les ordinateurs portables / ordinateurs de bureau, mais permet également aux participants d'assister à des réunions vidéo sécurisées en face à face via leur téléphone mobile.
 
 ## Comment configurer Jitssi Meet? {#installation}
 Dans cette section, nous allons entrer dans le processus d'installation de Jitssi Meet. Tout d'abord, assurez-vous d'avoir installé la pré-requis suivante.
-  * [Docker] [8]
-Une fois Docker installé, téléchargez le fichier zip du code source à partir de ce [lien] [9].
+  * [Docker][8]
+Une fois Docker installé, téléchargez le fichier zip du code source à partir de ce [lien][9].
 Ouvrez le terminal et exécutez la commande suivante
 `cd docker-jitsi-meet`
 Après cela, exécutez la commande suivante pour créer un `.env`
@@ -65,15 +65,17 @@ Jitsi Meet propose un chat intégré avec les emojis.
 
 
 ## Conclusion {#con}
-Dans cet article, nous avons parcouru un superbe logiciel de communication à distance et son processus d'installation. De plus, il est grand temps d'opter pour les meilleures solutions pour synchroniser les besoins de l'entreprise avec l'évolution des technologies. En fin de compte, [contenerize.com] [10] a travaillé pour étendre la liste des logiciels de vidéoconférence. Par conséquent, veuillez rester connecté avec la catégorie [logiciel de conférence vidéo] [2] pour les mises à jour régulières.
+Dans cet article, nous avons parcouru un superbe logiciel de communication à distance et son processus d'installation. De plus, il est grand temps d'opter pour les meilleures solutions pour synchroniser les besoins de l'entreprise avec l'évolution des technologies. En fin de compte, [contenerize.com][10] a travaillé pour étendre la liste des logiciels de vidéoconférence. Par conséquent, veuillez rester connecté avec la catégorie [logiciel de conférence vidéo][2] pour les mises à jour régulières.
 
 ## Pages de produits pertinents
 Vous pouvez trouver les liens suivants pertinents:
-  * [Jitssi se rencontre] [7]
-  * [Bigbluebutton] [11]
-  * [Openvidu] [12]
-  * [Élément] [13]
-  * [Fil] [14]
+  * [Jitssi se rencontre][7]
+  * [Bigbluebutton][11]
+  * [Openvidu][12]
+  * [Élément][13]
+  * [Fil][14]
+
+  
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

@@ -15,13 +15,13 @@ Crie uma loja on -line com plug -in gratuita do WordPress e comece rapidamente a
 
 A maioria de vocês está familiarizada com o WordPress. O WordPress é uma das principais plataformas para criar sites, blogs etc. Existem toneladas de plugins disponíveis no Marketplace que permitem aprimorar a funcionalidade. Um deles é o plug -in ** WooCommerce ** ajuda os usuários a configurar a loja on -line. ** WooCommerce ** é um dos melhores plug-in de comércio eletrônico para o WordPress **, plataforma de comércio eletrônico fácil de usar, personalizável e robusto. Além disso, ele é construído sobre o WordPress e usa seu poder para transformar seus negócios rapidamente para um grande público.
 Abordaremos os seguintes tópicos deste tutorial.
-  *[** Instale o WordPress **] [1]
-  *[** Instale o plugin WooCommerce **] [2]
-  *[** Setup Store with wooCommerce **] [3]
-  *[** Conclusão **] [4]
+  *[** Instale o WordPress **][1]
+  *[** Instale o plugin WooCommerce **][2]
+  *[** Setup Store with wooCommerce **][3]
+  *[** Conclusão **][4]
 
 ## Instale o WordPress {#wordpress}
-Você pode pular esta seção e passar para a próxima se já tiver o WordPress instalado. Caso você não tenha a configuração do WordPress, você pode encontrar diretrizes passo a passo para instalação em [** containerize.com **] [5].
+Você pode pular esta seção e passar para a próxima se já tiver o WordPress instalado. Caso você não tenha a configuração do WordPress, você pode encontrar diretrizes passo a passo para instalação em [** containerize.com **][5].
 
 ## Instale o plug -in WooCommerce {#WooCommerce}
 Para configurar o WooCommerce, siga estas etapas:
@@ -51,13 +51,15 @@ O assistente de instalação o guia por todas as etapas necessárias para criar 
 
 ## Conclusão {#conclusion}
 Discutimos como configurar o WordPress e ** WooCommerce Cart ** neste tutorial. Esperamos que este guia o ajude a construir sua loja on -line. No entanto, você pode conferir ** WooCommerce Storefront ** para selecionar o tema correto para a loja.
-Além disso, [** containerize.com **] [6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento à categoria [** SOFTWARE DE CART **] [7] para artigos mais interessantes.
+Além disso, [** containerize.com **][6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento à categoria [** SOFTWARE DE CART **][7] para artigos mais interessantes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** WordPress - Blogging de código aberto e plataforma CMS **] [5]
-  *[** WooCommerce - plug -in gratuito do WordPress para loja de construção **] [8]
-  *[** Top 5 software de carrinho de compras de código aberto em 2020 **] [9]
+  *[** WordPress - Blogging de código aberto e plataforma CMS **][5]
+  *[** WooCommerce - plug -in gratuito do WordPress para loja de construção **][8]
+  *[** Top 5 software de carrinho de compras de código aberto em 2020 **][9]
+
+  
 [1]: #WordPress
 [2]: #WooCommerce
 [3]: #Setup

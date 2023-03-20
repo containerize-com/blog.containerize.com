@@ -13,11 +13,11 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Converter.">}}
 
-Em nosso último tutorial, aprendemos [como instalar várias versões PHP com Nginx no Ubuntu] [1]. O Apache é um dos servidores da web mais populares, mas ultimamente, o Nginx se estabeleceu como um concorrente da Apache. Mas o NGINX não suporta regras de reescrita htaccess. Portanto, neste artigo, aprenderemos como converter regras de reescrita htaccess em diretivas de reescrita nginx. Vamos começar!
-  *** [Nginx Reescrita Regras] [2] **
-  *[**. HTACCESS Reescrita Regras **] [3]
-  *[** Converter .htaccess reescreva regras para nginx reescrita diretivas **] [4]
-  *[** Conclusão **] [5]
+Em nosso último tutorial, aprendemos [como instalar várias versões PHP com Nginx no Ubuntu][1]. O Apache é um dos servidores da web mais populares, mas ultimamente, o Nginx se estabeleceu como um concorrente da Apache. Mas o NGINX não suporta regras de reescrita htaccess. Portanto, neste artigo, aprenderemos como converter regras de reescrita htaccess em diretivas de reescrita nginx. Vamos começar!
+  *** [Nginx Reescrita Regras][2] **
+  *[**. HTACCESS Reescrita Regras **][3]
+  *[** Converter .htaccess reescreva regras para nginx reescrita diretivas **][4]
+  *[** Conclusão **][5]
 
 ## nginx Reescrita regras {#nginx}
 Reescrever as regras alteram a parte ou toda a URL em uma solicitação de cliente, geralmente para informar os clientes que o recurso que eles estão solicitando agora reside em um local diferente ou para controlar o fluxo de processamento no NGINX. Por exemplo, para encaminhar solicitações para um servidor de aplicativos quando o conteúdo precisa ser gerado dinamicamente. A diretiva Try_Files é frequentemente usada para esse fim.
@@ -82,7 +82,7 @@ server {
 }
 ```
 Por mais de mais clareza, vamos converter regras do WordPress Htaccess na diretiva Nginx Try_Files.
-[WordPress.org distribui] [6] Um arquivo básico **. Htaccess ** com o seguinte. Reescrito de htaccess que permitem links bonitos:
+[WordPress.org distribui][6] Um arquivo básico **. Htaccess ** com o seguinte. Reescrito de htaccess que permitem links bonitos:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 Neste tutorial, exploramos as regras de reescrita .htaccess da Apache e como podemos converter essas regras de reescrita .htaccess em diretivas de reescrita nginx. Além disso, exploramos diferentes diretivas NGINX que podem ser usadas para reescrever URLs. Também damos a reescrever regras de reescrita para o NGINX e o Apache. Espero que o tutorial seja útil para você.
 
 ## Explore
-  * [Como instalar várias versões PHP com nginx no Ubuntu] [1]
-  * [Como configurar e configurar o nginx como proxy reverso] [7]
+  * [Como instalar várias versões PHP com nginx no Ubuntu][1]
+  * [Como configurar e configurar o nginx como proxy reverso][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

@@ -19,10 +19,10 @@ Anwendungen unterstützen Plugins aus vielen Gründen und einige davon sind:
   * Ermöglichen Sie Entwicklern, neue Funktionen zu erstellen.
   * Reduzieren Sie die Größe der Software.
 Wir werden die folgenden Themen in diesem Tutorial ausführlich besprechen.
-  *[** Voraussetzungen **] [2]
-  *[** Grundlagen der Entwicklung von Phplisten -Plugin **] [3]
-  *[** Erstellen Sie unser Phplisten -Plugin **] [4]
-  *[** Fazit **] [5]
+  *[** Voraussetzungen **][2]
+  *[** Grundlagen der Entwicklung von Phplisten -Plugin **][3]
+  *[** Erstellen Sie unser Phplisten -Plugin **][4]
+  *[** Fazit **][5]
 
 ## Voraussetzungen {#Req}
   * Neueste Version von Phplist.
@@ -78,18 +78,20 @@ Sie können auf Ihr Plugin mit der folgenden URL wie http://example.com/admin/?p
 
 ## Fazit {#con}
 Wir haben die Grundlagen von ** Phplist Plugin ** entwickelt und ein Beispiel -Plugin erstellt. Als Ausgangspunkt können Sie diese Richtlinie befolgen und die Plugin -Entwicklung weiter untersuchen, um die Funktionalität zu verbessern.
-Schließlich befindet sich [** Containerize.com **] [6] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [** Newsletter **] [7] in Kontakt, um die neuesten Updates zu erhalten.
+Schließlich befindet sich [** Containerize.com **][6] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [** Newsletter **][7] in Kontakt, um die neuesten Updates zu erhalten.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant.
-  *[** Phplist **] [8]
-  *[** mailTrain **] [9]
-  *[** LISTMONK **] [10]
-  *[** mondmail **] [11]
-  *[** Mailman **] [12]
-  *[** Top 5 Open -Source -Newsletter -Software in 2021 **] [13]
-  *[** So konfigurieren Sie die Multi-Mieter-Anwendung in Phplisten **] [14]
-  *[** So erstellen und senden Sie Newsletter mit Phplist **] [15]
+  *[** Phplist **][8]
+  *[** mailTrain **][9]
+  *[** LISTMONK **][10]
+  *[** mondmail **][11]
+  *[** Mailman **][12]
+  *[** Top 5 Open -Source -Newsletter -Software in 2021 **][13]
+  *[** So konfigurieren Sie die Multi-Mieter-Anwendung in Phplisten **][14]
+  *[** So erstellen und senden Sie Newsletter mit Phplist **][15]
+
+  
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #Req
 [3]: #Basics

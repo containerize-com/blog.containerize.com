@@ -15,16 +15,16 @@ categories: ['Healthcare Software']
 
 
 ## Überblick
-Open Source [Healthcare Software] [1] hat in der jüngeren Vergangenheit eine immense Popularität erlangt. Erstens liegt es auf den Fortschritt der Technologie. Zweitens beeinflusste Covid-19 die medizinische Industrie in jeder Hinsicht und brachte der Open-Source-Community eine neue Chance. Es ist von großer Bedeutung, den Patienten medizinische Gesundheitsdienste zu erbringen, wenn die ganze Welt eine entscheidende Zeit durchläuft. Glücklicherweise stehen mehrere Open -Source -Gesundheitsaktenmanagementlösungen zur Verfügung, die Datenzentralisierungen, Transparenz, Sicherheit, Integrationen und viele andere leistungsstarke Funktionen bereitstellen. Diese kostenlosen Gesundheitsdienste bieten ein reibungsloses Management von Arbeitsabläufen wie Ärzten, Patienten, Kliniken und anderen Mitarbeitern. Kürzlich hat [Containerize.com] [2] einige Artikel zu Open -Source -Krankenhausinformationsmanagementsystemen veröffentlicht, die [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware] [3], [Feature Exploration of Medical Health Solution OpenEMR] [4]. und [wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht] [5].
-In der Vergangenheit haben wir einen Artikel geschrieben, der das Einrichtung von [Krankenhaus] [6] über Localhost beschreibt. In diesem Blog -Beitrag werden wir [HospitalRun] [6] weiter untersuchen, indem wir die folgenden Punkte abdecken.
-  *** [Warum HospitalRun?] [7] **
-  *** [Patienten und Planungsmodule] [8] **
-  *** [Laborintegration und Medikamente] [9] **
-  *** [Bildgebung und Vorfälle] [10] **
-  *** [Schlussfolgerung] [11] **
+Open Source [Healthcare Software][1] hat in der jüngeren Vergangenheit eine immense Popularität erlangt. Erstens liegt es auf den Fortschritt der Technologie. Zweitens beeinflusste Covid-19 die medizinische Industrie in jeder Hinsicht und brachte der Open-Source-Community eine neue Chance. Es ist von großer Bedeutung, den Patienten medizinische Gesundheitsdienste zu erbringen, wenn die ganze Welt eine entscheidende Zeit durchläuft. Glücklicherweise stehen mehrere Open -Source -Gesundheitsaktenmanagementlösungen zur Verfügung, die Datenzentralisierungen, Transparenz, Sicherheit, Integrationen und viele andere leistungsstarke Funktionen bereitstellen. Diese kostenlosen Gesundheitsdienste bieten ein reibungsloses Management von Arbeitsabläufen wie Ärzten, Patienten, Kliniken und anderen Mitarbeitern. Kürzlich hat [Containerize.com][2] einige Artikel zu Open -Source -Krankenhausinformationsmanagementsystemen veröffentlicht, die [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware][3], [Feature Exploration of Medical Health Solution OpenEMR][4]. und [wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht][5].
+In der Vergangenheit haben wir einen Artikel geschrieben, der das Einrichtung von [Krankenhaus][6] über Localhost beschreibt. In diesem Blog -Beitrag werden wir [HospitalRun][6] weiter untersuchen, indem wir die folgenden Punkte abdecken.
+  *** [Warum HospitalRun?][7] **
+  *** [Patienten und Planungsmodule][8] **
+  *** [Laborintegration und Medikamente][9] **
+  *** [Bildgebung und Vorfälle][10] **
+  *** [Schlussfolgerung][11] **
 
 ## Warum HospitalRun? {#Warum}
-Es gibt viele Gründe für die Popularität dieses Managers für Krankenakten. HospitalRun ist ein komplettes elektronisches Gesundheitsakten- und Krankenhausinformationssystem. Es unterstützt sowohl Offline- als auch Online -Versionen. Sie können Kliniken integrieren und Datensynchronisierung bereitstellen. Darüber hinaus ist es mehrsprachig, plattformübergreifend und bietet Selbsthostfunktionen. Dieses Patient -Record -System bietet Patient -Rekordmanagement, Terminplanung, Medikamente und verschreibungspflichtiges Management. Es gibt auch eine Bestimmung, um benutzerdefinierte Berichte zu generieren, die vollständige diagnostische Details enthalten. Darüber hinaus können medizinische Mitarbeiter das Patientenentladungsmodul unterstützen. Vor allem dieses Krankenhausmanagementsystem bietet das Management von versehentlichen und Notfällen. Es ist sicher, zuverlässig und benutzerfreundlich. Dieses System für medizinische Aufzeichnungen ist jedoch vollständig in JavaScript geschrieben, und der gesamte Quellcode ist in [Github] [12] mit Dokumentation zu Entwicklung und Bereitstellung verfügbar.
+Es gibt viele Gründe für die Popularität dieses Managers für Krankenakten. HospitalRun ist ein komplettes elektronisches Gesundheitsakten- und Krankenhausinformationssystem. Es unterstützt sowohl Offline- als auch Online -Versionen. Sie können Kliniken integrieren und Datensynchronisierung bereitstellen. Darüber hinaus ist es mehrsprachig, plattformübergreifend und bietet Selbsthostfunktionen. Dieses Patient -Record -System bietet Patient -Rekordmanagement, Terminplanung, Medikamente und verschreibungspflichtiges Management. Es gibt auch eine Bestimmung, um benutzerdefinierte Berichte zu generieren, die vollständige diagnostische Details enthalten. Darüber hinaus können medizinische Mitarbeiter das Patientenentladungsmodul unterstützen. Vor allem dieses Krankenhausmanagementsystem bietet das Management von versehentlichen und Notfällen. Es ist sicher, zuverlässig und benutzerfreundlich. Dieses System für medizinische Aufzeichnungen ist jedoch vollständig in JavaScript geschrieben, und der gesamte Quellcode ist in [Github][12] mit Dokumentation zu Entwicklung und Bereitstellung verfügbar.
 
 ## Patienten und Planungsmodule {#modules}
 In diesem Abschnitt werden wir das Dashboard dieses Krankenhausinformationsmanagementsystems durchlaufen. Sobald Sie sich angemeldet haben, landen Sie auf dem Armaturenbrett von HospitalRun, wie im Bild unten gezeigt.
@@ -56,19 +56,21 @@ Bei der Bildgebung geht es darum, eine visuelle Darstellung von etwas durch Scan
 
 ## Schlussfolgerung {#Conclusion}
 Dies ist das Ende dieses Blog -Beitrags. Tatsächlich sind die meisten Gesundheitsinstitutionen von manuellen Vorgängen abhängig. Dies könnte in Bezug auf Datensicherheit und Integrität anfällig sein. Automatische Systeme stellen jedoch sicher, dass die grundlegenden und kritischsten Aspekte des routinemäßigen Gesundheitsbetriebs. Daher schützt die Installation eines guten Open-Source-Managers für Krankenakten Ihr Vermögen vor nicht autorisierten Quellen und hilft Ihnen, routinemäßige Aufgaben mit Leichtigkeit und Selbstvertrauen auszuführen. Diese Open -Source -Software synchronisieren mehrere Unternehmen wie Ärzte, Patienten, Kliniken und Labors und erleichtern den Workflow. Das Fazit ist, dass es höchste Zeit ist, eine Open -Source -Software für Ihr Krankenhaus oder Ihre Klinik mit den neuesten Herausforderungen zu erhalten. Sie können Ihre Zeit und Bemühungen sparen und sich auf wichtige, kritische Aufgaben konzentrieren.
-Schließlich schreibt [containerize.com] [2] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Gesundheitstechnologien] [1] in Kontakt, um regelmäßig Nachrichten und Updates zu erhalten.
+Schließlich schreibt [containerize.com][2] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Gesundheitstechnologien][1] in Kontakt, um regelmäßig Nachrichten und Updates zu erhalten.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [OpenEMR] [13]
-  * [OpenMRS] [14]
-  * [HospitalRun] [15]
-  * [Offenes Krankenhaus] [16]
-  * [Solismed] [17]
-  * [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware] [3]
-  * [Features Exploration of Medical Health Solution OpenEMR] [4]
-  * [So richten Sie EHEACE SYSTEMS HospitalRun auf Localhost] [18]
-  * [Wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht] [5]
+  * [OpenEMR][13]
+  * [OpenMRS][14]
+  * [HospitalRun][15]
+  * [Offenes Krankenhaus][16]
+  * [Solismed][17]
+  * [Top 5 Open -Source -Patient -Gesundheitsdatensatzsoftware][3]
+  * [Features Exploration of Medical Health Solution OpenEMR][4]
+  * [So richten Sie EHEACE SYSTEMS HospitalRun auf Localhost][18]
+  * [Wie Online -Gesundheitssoftware die Gesundheitsbranche ermöglicht][5]
+
+  
 [1]: https://products.containerize.com/healthcare-technologies/
 [2]: https://www.containerize.com/
 [3]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/

@@ -29,7 +29,7 @@ Yazılım üzerinde çalışanlar tarafından gerçekleştirilen günlük görev
 
 {{< figure align=center src="images/Open-Source-Blue-Prism.png.jpg" alt="">}}
 
-[Mavi Prism] [1] RPA tüm temel yetenekleri sağlar. Herhangi bir uygulama ile herhangi bir platformda çalışabilir. Bu aracı kullanmak için programlama becerilerine sahip olmalısınız, ancak geliştiriciler için kullanıcı dostudur. Bu araç orta ve büyük kuruluşlar için mükemmeldir.
+[Mavi Prism][1] RPA tüm temel yetenekleri sağlar. Herhangi bir uygulama ile herhangi bir platformda çalışabilir. Bu aracı kullanmak için programlama becerilerine sahip olmalısınız, ancak geliştiriciler için kullanıcı dostudur. Bu araç orta ve büyük kuruluşlar için mükemmeldir.
 **Özellikler:**
   * Çok çevresel dağıtım modelini destekler.
   * Ağ ve yazılım kimlik bilgileri için sağlanan güvenlik.
@@ -49,13 +49,13 @@ Yazılım üzerinde çalışanlar tarafından gerçekleştirilen günlük görev
   * Sağlık ve Yaşam Bilimleri
   * Eğitim Sektörü
 ** En iyisi: ** Arka ofis işlemlerini otomatikleştirme.
-** [Blue Prism hakkında daha fazla bilgi edinin] [1] **
+** [Blue Prism hakkında daha fazla bilgi edinin][1] **
 
 ## 2. Her yerde otomasyon
 
 {{< figure align=center src="images/Open-Source-Automation-Anywhere.png" alt="">}}
 
-[Otomasyon Her Yerde] [2] tüm temel özellikleri sağlar. Şirket içi ve bulut hizmetleri sağlar. Bu kullanıcı dostu araç orta ve büyük kuruluşlar için mükemmeldir.
+[Otomasyon Her Yerde][2] tüm temel özellikleri sağlar. Şirket içi ve bulut hizmetleri sağlar. Bu kullanıcı dostu araç orta ve büyük kuruluşlar için mükemmeldir.
 **Özellikler:**
   * Banka sınıfı güvenlik sağlar.
   * Kimlik doğrulama, şifreleme ve kimlik bilgileri yoluyla güvenlik sağlar.
@@ -71,13 +71,13 @@ Yazılım üzerinde çalışanlar tarafından gerçekleştirilen günlük görev
   * Sosyal platformlar
   * Enerji sektörü
 ** En iyisi: ** Kullanım kolaylığı.
-** [Otomasyon hakkında daha fazla bilgi edinin] [2] **
+** [Otomasyon hakkında daha fazla bilgi edinin][2] **
 
 ## 3. UIPATH
 
 {{< figure align=center src="images/Open-Source-UiPath-1024x356.png" alt="">}}
 
-[UIPATH] [3] tüm temel yetenekleri sağlar. Citrix için destek sağlar. Geliştiriciler için de kullanıcı dostudur. Karmaşık süreçleri işleyebilir. Ve bu araç her büyüklük için mükemmeldir.
+[UIPATH][3] tüm temel yetenekleri sağlar. Citrix için destek sağlar. Geliştiriciler için de kullanıcı dostudur. Karmaşık süreçleri işleyebilir. Ve bu araç her büyüklük için mükemmeldir.
 **Özellikler:**
   * Rolüne dayalı olarak şifreleme ve erişim kontrolleri sağlayarak kimlik bilgilerini yöneterek güvenlik sağlar.
   * Daha hızlı otomatikleştirebilir. Citrix aracılığıyla sekiz ila on kat daha hızlı otomasyon.
@@ -101,13 +101,13 @@ Küçük ekipler ve bireyler için UIPATH, Community Edition'ı sunar. Ücretsiz
   * Perakende ve CPG
   * Kamu sektörü
 ** En iyisi: ** Uyum ve verimlilik iyileştirmeleri.
-** [UIPATH hakkında daha fazla bilgi edinin] [3] **
+** [UIPATH hakkında daha fazla bilgi edinin][3] **
 
 ## 4. PEGA
 
 {{< figure align=center src="images/Open-Source-Pega.png" alt="">}}
 
-[PEGA] [4] bir iş süreci yönetim aracıdır. Masaüstü sunucularında kullanılabilir. Yalnızca bulut tabanlı çözümler veya hizmetler sağlar. Windows, Linux ve Mac'te çalışabilir. Bu araç orta ve büyük işletmeler için mükemmeldir.
+[PEGA][4] bir iş süreci yönetim aracıdır. Masaüstü sunucularında kullanılabilir. Yalnızca bulut tabanlı çözümler veya hizmetler sağlar. Windows, Linux ve Mac'te çalışabilir. Bu araç orta ve büyük işletmeler için mükemmeldir.
 **Özellikler:**
   * Müşterilere çözümlerinizin konuşlandırılmasında size yardımcı olacaktır.
   * Bulut tabanlı bir çözüm sağlar.
@@ -128,13 +128,13 @@ Küçük ekipler ve bireyler için UIPATH, Community Edition'ı sunar. Ücretsiz
   * Perakende
   * Medya ve Eğlence
 ** En iyisi: ** CRM Çözümleri ve Platform Desteği.
-** [PEGA hakkında daha fazla bilgi edinin] [4] **
+** [PEGA hakkında daha fazla bilgi edinin][4] **
 
 ## 5. Kofax
 
 {{< figure align=center src="images/Open-Source-Kofax.png" alt="">}}
 
-[KOFAX] [5] neredeyse herhangi bir uygulama ile çalışabilir. Kodlama becerileri bu araç için zorunlu değildir. Herhangi bir web sitesinden, masaüstü uygulamasından ve portaldan veri işleyebilir.
+[KOFAX][5] neredeyse herhangi bir uygulama ile çalışabilir. Kodlama becerileri bu araç için zorunlu değildir. Herhangi bir web sitesinden, masaüstü uygulamasından ve portaldan veri işleyebilir.
 **Özellikler:**
   * Tekrarlayan görevleri verimli bir şekilde yapar.
   * Süreçleri izlemek ve optimize etmek için akıllı araç.
@@ -153,18 +153,20 @@ Küçük ekipler ve bireyler için UIPATH, Community Edition'ı sunar. Ücretsiz
   * Ulaşım ve Lojistik
   * Çapraz endüstri
 ** En iyisi: ** Hızlandırılmış iş süreçleri isteyen bilgi ağırlığında işletmeler.
-** [Kofax hakkında daha fazla bilgi edinin] [5] **
+** [Kofax hakkında daha fazla bilgi edinin][5] **
 
 ## ** Sonuç: ** {#4A1A}
 Yukarıda belirtilen beş açık kaynaklı RPA aracı, geliştiriciler için en popüler ücretsiz ve en iyi açık kaynaklı RPA araçlarıdır. Her bir aracı burada ayrıntılı olarak karşılaştırmamızın yanı sıra, Blue Prism en iyi araçtır, ancak kullanmadan önce eğitilmelisiniz. Ve eğitim de pahalı. UIPATH, geliştiriciler için bile kullanımı kolaydır. Aynı özellikleri sağlar ve hatta küçük ölçekli endüstrileri sunucular sunar. İş istasyonu uygulamaları için, içinde bir uzmanlık alanı olduğu için bağlamcı en iyi seçenektir.
-_ En sevdiğiniz açık kaynaklı RPA araçları nelerdir? Açık kaynaklı RPA araçları hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun] [6].
+_ En sevdiğiniz açık kaynaklı RPA araçları nelerdir? Açık kaynaklı RPA araçları hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][6].
 
 ## Keşfetmek:
 Ayrıca diğer ilgili bilgi saatimiz de var:
-  * [En iyi açık kaynaklı bulut depolama ve dosya paylaşımı yazılımı] [7]
-  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı] [8]
-  * [En popüler açık kaynaklı dijital adli araçlar] [9]
-  * [En popüler OSI onaylı açık kaynak lisansları] [10]
+  * [En iyi açık kaynaklı bulut depolama ve dosya paylaşımı yazılımı][7]
+  * [2021'de Top 5 Açık Kaynak Mesaj kuyruğu (MQ) yazılımı][8]
+  * [En popüler açık kaynaklı dijital adli araçlar][9]
+  * [En popüler OSI onaylı açık kaynak lisansları][10]
+
+  
 [1]: https://www.blueprism.com/
 [2]: https://www.automationanywhere.com/
 [3]: https://www.uipath.com/

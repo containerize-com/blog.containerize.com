@@ -15,18 +15,18 @@ categories: ['Programming']
 
 
 ## 概述
-我们希望您对[JavaScript数据类型] [1]有更好的了解。现在，这是[编程] [2]类别中的另一篇博客文章。在本JavaScript教程中，我们将通过JavaScript**的承诺进行**，随之而来的是，我们还将看到什么是异步操作，承诺的使用以及如何在JavaScript中创造承诺。首先，异步过程/操作是相对于其他过程独立执行的，并且不会造成任何阻塞。因此，您需要处理异步操作，否则可能会在JavaScript代码中造成异常。因此，我们将探索如何使用承诺处理异步操作。
+我们希望您对[JavaScript数据类型][1]有更好的了解。现在，这是[编程][2]类别中的另一篇博客文章。在本JavaScript教程中，我们将通过JavaScript**的承诺进行**，随之而来的是，我们还将看到什么是异步操作，承诺的使用以及如何在JavaScript中创造承诺。首先，异步过程/操作是相对于其他过程独立执行的，并且不会造成任何阻塞。因此，您需要处理异步操作，否则可能会在JavaScript代码中造成异常。因此，我们将探索如何使用承诺处理异步操作。
 我们将在本JavaScript教程中介绍以下几点：
-***[JavaScript中的承诺是什么？解释的承诺] [3]**
-***[为什么我们在JavaScript中使用Promise？] [4]**
-***[Promise如何在JavaScript中起作用？] [5]**
-***[如何创造诺言？] [6]**
+***[JavaScript中的承诺是什么？解释的承诺][3]**
+***[为什么我们在JavaScript中使用Promise？][4]**
+***[Promise如何在JavaScript中起作用？][5]**
+***[如何创造诺言？][6]**
 
 ## JavaScript中有什么希望？承诺解释了{#in-is-promise in-javascript-promises-supplated}
 承诺是代表异步操作天气值的对象，其解决，拒绝或处于待处理状态。用更简单的话来说，承诺用于返回一个尚未由异步代码块产生的值。实际上，有三种**的诺言状态**，可以在以下任何状态下：
-* *待处理**：承诺处于待处理状态，这意味着它处于起始阶段，并且目前处于执行状态。
-* *满足**：已解决承诺并返回价值。
-* *拒绝**：这是由任何错误引起的状态，这意味着承诺已被拒绝。
+**待处理**：承诺处于待处理状态，这意味着它处于起始阶段，并且目前处于执行状态。
+**满足**：已解决承诺并返回价值。
+**拒绝**：这是由任何错误引起的状态，这意味着承诺已被拒绝。
 这里要考虑的重要一件事是，承诺返回的价值/状态是不可变的，不能改变，这意味着诺言确保没有异常行为。
 
 ## 为什么我们在JavaScript中使用Promise？ {#为什么WE-使用promise-in-javaScript}
@@ -97,21 +97,23 @@ promise is completed
 这是此**JavaScript教程**的结尾。希望您对JavaScript承诺有一个好主意。我们已经介绍了**JavaScript**的承诺，为什么我们在JavaScript中使用Promise，**Promise如何在JavaScript**中起作用，以及如何创造诺言。此外，我们将更多地介绍有关其高级用法和规定的主题。因此，请仔细阅读本文，以防您为面试做准备。
 
 ## 联系我们
-最后，[containerize.com] [7]提供了有关各种令人兴奋的主题的持续JavaScript教程。您可以通过在我们的社交媒体平台上关注我们，包括[Facebook] [8]，[LinkedIn] [9]和[Twitter] [10]。
+最后，[containerize.com][7]提供了有关各种令人兴奋的主题的持续JavaScript教程。您可以通过在我们的社交媒体平台上关注我们，包括[Facebook][8]，[LinkedIn][9]和[Twitter][10]。
 
 ## 问一个问题
-您可以在我们的[论坛] [11]上让我们知道您的问题或查询。
+您可以在我们的[论坛][11]上让我们知道您的问题或查询。
 
 ## 常见问题解答
-* * JavaScript中有什么承诺？**
-请按照此[链接] [3]知道JavaScript中的承诺。
+**JavaScript中有什么承诺？**
+请按照此[链接][3]知道JavaScript中的承诺。
 
 ## 也可以看看
-  * [什么是JavaScript数据类型？ |初学者指南] [1]
-  * [Kubernetes多租赁和基于容器的体系结构] [12]
-  * [什么是无服务器计算？ |无服务器体系结构] [13]
-  * [什么是多差？ |为什么要采用多租户？] [14]
-  * [什么是JavaScript数据类型？ |初学者指南] [15]
+  * [什么是JavaScript数据类型？ |初学者指南][1]
+  * [Kubernetes多租赁和基于容器的体系结构][12]
+  * [什么是无服务器计算？ |无服务器体系结构][13]
+  * [什么是多差？ |为什么要采用多租户？][14]
+  * [什么是JavaScript数据类型？ |初学者指南][15]
+
+  
 [1]: https://blog.containerize.com/programming/what-are-javascript-data-types-a-beginners-guide/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-promise-in-JavaScript-Promises-Explained

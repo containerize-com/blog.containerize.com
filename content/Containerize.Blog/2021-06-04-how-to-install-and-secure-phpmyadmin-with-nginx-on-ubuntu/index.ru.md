@@ -76,7 +76,7 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 sudo mysql -u root -p
 ```
-После входа в MySQL добавьте новый суперпонент MySQL с именем пользователя по вашему выбору. В этом примере мы называем это Yasiradmin. [Нажмите здесь, чтобы сгенерировать сильный пароль] [2] и замените новый \ _Password \ _Here ниже.
+После входа в MySQL добавьте новый суперпонент MySQL с именем пользователя по вашему выбору. В этом примере мы называем это Yasiradmin. [Нажмите здесь, чтобы сгенерировать сильный пароль][2] и замените новый \ _Password \ _Here ниже.
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'yasiradmin'@'localhost';
 ```
 sudo apt install apache2-utils
 ```
-После установки мы можем сгенерировать файл .htpasswd. Измените имя пользователя по вашему выбору. [Создайте пароль] [3] и сохраните его в безопасности.
+После установки мы можем сгенерировать файл .htpasswd. Измените имя пользователя по вашему выбору. [Создайте пароль][3] и сохраните его в безопасности.
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ sudo service nginx reload
 
 ## Исследовать
 Вам также может понравиться более приведенные более связанные статьи:
-  * [Как настроить Apache как обратный прокси для Ubuntu/Debian] [4]
-  * [Как обеспечить и шифровать Nginx с помощью Let's Encrypt на Ubuntu 20.04] [5]
-  * [Как настроить поддержку HTTP/2 в Nginx на Ubuntu/Debian] [6]
-  * [Как настроить nginx с пассажиром на производственном сервере AWS] [7]
-  * [Как установить и настроить OwnCloud с Apache на Ubuntu] [8]
+  * [Как настроить Apache как обратный прокси для Ubuntu/Debian][4]
+  * [Как обеспечить и шифровать Nginx с помощью Let's Encrypt на Ubuntu 20.04][5]
+  * [Как настроить поддержку HTTP/2 в Nginx на Ubuntu/Debian][6]
+  * [Как настроить nginx с пассажиром на производственном сервере AWS][7]
+  * [Как установить и настроить OwnCloud с Apache на Ubuntu][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

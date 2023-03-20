@@ -13,11 +13,11 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Configurer les règles avancées de gestion et de rebond de rebond dans le phplist">}}
 
-Dans notre tutoriel [précédent] [1], nous avions déjà abordé ** phplist Bounce Traitement **. Si vous n'êtes pas familier avec le traitement du rebond, vous pouvez le lire. Vous pouvez télécharger des e-mails non livrés sur votre projet PHPLIST en utilisant le traitement de Bounce. Comment gérez-vous les e-mails téléchargés? Aucune idée, jetons un coup d'œil à la gestion d'avance du rebond qui vous permet de trier ** Bounce e-mails **. Chaque e-mail retourné a un code d'erreur renvoyé par le MTA (agent de transfert de courrier). De plus, vous pouvez consulter l'en-tête de messagerie du message renvoyé et il contient toutes les informations le long du code d'erreur.
-  * [Activer la manipulation avancée du rebond] [2]
-  * [Ajouter une règle de rebond] [3]
-  * [Liste des règles de rebond] [4]
-  * [Conclusion] [5]
+Dans notre tutoriel [précédent][1], nous avions déjà abordé ** phplist Bounce Traitement **. Si vous n'êtes pas familier avec le traitement du rebond, vous pouvez le lire. Vous pouvez télécharger des e-mails non livrés sur votre projet PHPLIST en utilisant le traitement de Bounce. Comment gérez-vous les e-mails téléchargés? Aucune idée, jetons un coup d'œil à la gestion d'avance du rebond qui vous permet de trier ** Bounce e-mails **. Chaque e-mail retourné a un code d'erreur renvoyé par le MTA (agent de transfert de courrier). De plus, vous pouvez consulter l'en-tête de messagerie du message renvoyé et il contient toutes les informations le long du code d'erreur.
+  * [Activer la manipulation avancée du rebond][2]
+  * [Ajouter une règle de rebond][3]
+  * [Liste des règles de rebond][4]
+  * [Conclusion][5]
 
 ## Activer la manipulation avancée du rebond {#Enable}
 Tout d'abord, activez Advanced ** Bounce Handling ** en copie ci-dessous le code dans le fichier config.php.
@@ -64,14 +64,16 @@ Après avoir créé le nombre de règles, vos ** règles de rebond ** Liste ress
 
 ## Conclusion {#conclusion}
 Dans ce didacticiel, nous avons appris la gestion avancée ** Bounce ** et développé les règles de rebond nécessaires. Ce serait formidable de permettre cette fonctionnalité afin que vous puissiez automatiser le processus de nettoyage des adresses e-mail non valides à partir de vos listes. Cela vous permettrait également de maintenir le niveau minimum des e-mails retournés. De plus, vos listes auront des abonnés légitimes.
-De plus, [contenerize.com] [6] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de la catégorie [Newsletters] [7] pour des articles plus intéressants.
+De plus, [contenerize.com][6] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de la catégorie [Newsletters][7] pour des articles plus intéressants.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [PHPLIST - Newsletter open source et logiciel de marketing par e-mail] [8]
-  * [Comment créer et envoyer une newsletter à l'aide de phplist] [9]
-  * [Comment configurer et traiter les rebonds dans phplist] [1]
-  * [Guide des débutants pour développer un plugin phplist] [10]
+  * [PHPLIST - Newsletter open source et logiciel de marketing par e-mail][8]
+  * [Comment créer et envoyer une newsletter à l'aide de phplist][9]
+  * [Comment configurer et traiter les rebonds dans phplist][1]
+  * [Guide des débutants pour développer un plugin phplist][10]
+
+  
 [1]: https://blog.containerize.com/newsletter/how-to-setup-and-process-bounces-in-phplist/
 [2]: #Enable
 [3]: #Add

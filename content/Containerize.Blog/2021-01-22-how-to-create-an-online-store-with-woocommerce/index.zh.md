@@ -15,13 +15,13 @@ categories: ['Shopping Cart Software']
 
 你们大多数人都熟悉WordPress。 WordPress是创建网站，博客等领先的平台之一。市场上有大量的插件可让您增强功能。其中之一是** WooCommerce Cart **插件可帮助用户设置在线商店。 ** WooCommerce **是** WordPress **的最佳电子商务插件之一**，易于使用，可自定义且可靠的电子商务平台。此外，它建立在WordPress之上，并利用其力量将您的业务变成大量受众。
 我们将在本教程中介绍以下主题。
-  *[**安装WordPress **] [1]
-  *[**安装WooCommerce插件**] [2]
-  *[**带有WooCommerce的设置商店**] [3]
-  *[**结论**] [4]
+  *[**安装WordPress **][1]
+  *[**安装WooCommerce插件**][2]
+  *[**带有WooCommerce的设置商店**][3]
+  *[**结论**][4]
 
 ## 安装WordPress {#WordPress}
-如果您已经安装了WordPress，则可以跳过此部分并移至下一个部分。如果您没有WordPress设置，则可以在[** Containerize.com **] [5]上找到安装逐步的指南。
+如果您已经安装了WordPress，则可以跳过此部分并移至下一个部分。如果您没有WordPress设置，则可以在[** Containerize.com **][5]上找到安装逐步的指南。
 
 ## 安装WooCommerce插件{#WooCommerce}
 为了设置WooCommerce，请执行以下步骤：
@@ -51,13 +51,15 @@ categories: ['Shopping Cart Software']
 
 ## 结论{#conclusion}
 我们已经讨论了如何在本教程中设置WordPress和** WooCommerce Cart **。我们希望本指南能帮助您建立在线商店。但是，您可以查看** WooCommerce Storefront **，以选择适合商店的主题。
-此外，[** containerize.com **] [6]正在以多种语言和框架来增强开源产品的堆栈。有关定期更新，请继续关注[**购物车软件**] [7]类别，以获取更多有趣的文章。
+此外，[** containerize.com **][6]正在以多种语言和框架来增强开源产品的堆栈。有关定期更新，请继续关注[**购物车软件**][7]类别，以获取更多有趣的文章。
 
 ## 探索
 您可能会发现以下链接相关：
-  *[** WordPress  - 开源博客和CMS平台**] [5]
-  *[** WooCommerce  - 用于建筑商店的免费WordPress插件**] [8]
-  *[** 2020年前5个开源购物车软件**] [9]
+  *[** WordPress  - 开源博客和CMS平台**][5]
+  *[** WooCommerce  - 用于建筑商店的免费WordPress插件**][8]
+  *[** 2020年前5个开源购物车软件**][9]
+
+  
 [1]: #WordPress
 [2]: #WooCommerce
 [3]: #Setup

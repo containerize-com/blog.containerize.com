@@ -14,14 +14,14 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/ci-cd-post.png" alt="Integración continua y despliegue continuo">}}
 
 Los equipos de desarrollo utilizan diferentes métodos para la implementación de software, como FTP, extraer código del repositorio y muchos más. Todos estos métodos se realizan manualmente y requieren mucho esfuerzo. Podemos ver que más equipos siguen la metodología ágil para el desarrollo de software. Por lo tanto, lanzan nuevas funciones y la fijación de errores con frecuencia. Por lo tanto, la automatización de flujos de trabajo de entrega de software ayuda a los equipos a lanzar nuevas versiones rápidamente y sin errores. Aprenderemos a usar ** CI/CD con Jenkins ** y GitHub para automatizar el proceso de entrega de software. Cubriremos las siguientes secciones de este artículo.
-  *[** ¿Qué es Jenkins? **] [1]
-  *[** Integración continua **] [2]
-  *[** Implementación continua **] [3]
-  *[** Configurar Jenkins **] [4]
-  *[** Crear trabajo de Jenkins **] [5]
+  *[** ¿Qué es Jenkins? **][1]
+  *[** Integración continua **][2]
+  *[** Implementación continua **][3]
+  *[** Configurar Jenkins **][4]
+  *[** Crear trabajo de Jenkins **][5]
 
 ## ¿Qué es Jenkins? {#Jenkins}
-** Jenkins ** es una poderosa herramienta de implementación gratuita ** para automatizar el proceso de entrega de software. Es un servidor de automatización de código abierto para la construcción, las pruebas y la implementación. Jenkins usa la arquitectura maestra-esclavo. Esto permite a los equipos de software ejecutar múltiples compilaciones y pruebas para el software simultáneamente. Además, hay muchos complementos disponibles y los equipos pueden usarlos según sea necesario. Puede visitar la página [** Jenkins **] [6] para obtener más información e instalación. Además, puede encontrar el código fuente en el repositorio Jenkins [** GitHub **] [7].
+** Jenkins ** es una poderosa herramienta de implementación gratuita ** para automatizar el proceso de entrega de software. Es un servidor de automatización de código abierto para la construcción, las pruebas y la implementación. Jenkins usa la arquitectura maestra-esclavo. Esto permite a los equipos de software ejecutar múltiples compilaciones y pruebas para el software simultáneamente. Además, hay muchos complementos disponibles y los equipos pueden usarlos según sea necesario. Puede visitar la página [** Jenkins **][6] para obtener más información e instalación. Además, puede encontrar el código fuente en el repositorio Jenkins [** GitHub **][7].
 
 ## Integración continua {#ci}
 ** La integración continua ** es una práctica de desarrollo que requiere que los desarrolladores integren con frecuencia el código en un repositorio compartido. Cada integración/empuje del código en el repositorio se puede verificar mediante compilación y pruebas automatizadas. También permite a los desarrolladores identificar fácilmente problemas en el código.
@@ -69,20 +69,22 @@ Puede usar estos pasos para crear el trabajo de Jenkins.
 
 ## Conclusión
 Hemos discutido el servidor ** Jenkins **, ** Integración continua ** y ** Implementación continua ** en este artículo. También hemos aprendido cómo configurar la herramienta de implementación gratuita ** ** y creado un trabajo de Jenkins para la implementación utilizando GitHub. La herramienta gratuita de CI/CD permite al equipo de desarrollo automatizar los flujos de trabajo de entrega de software y mantener el enfoque en trabajos importantes. Cubriremos otras herramientas de implementación en las próximas publicaciones.
-Finalmente, [** Contenerize.com **] [8] publicará artículos sobre más herramientas de implementación de código abierto. Por lo tanto, manténgase en contacto con [** Herramientas de implementación **] [9] Categoría para actualizaciones regulares.
+Finalmente, [** Contenerize.com **][8] publicará artículos sobre más herramientas de implementación de código abierto. Por lo tanto, manténgase en contacto con [** Herramientas de implementación **][9] Categoría para actualizaciones regulares.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  *** [Jenkins] [6] **
-  *[** Drone **] [10]
-  *[** desplegador **] [11]
-  *[** Capistrano **] [12]
-  *[** Rancher **] [13]
-  *[** Concurse **] [14]
-  *[** Ansible **] [15]
-  *[** GOCD **] [16]
-  *[** Top 5 Herramientas de implementación de código abierto en 2021 **] [17]
-  *[** Automatizar la implementación de la aplicación PHP con el implementador **] [18]
+  *** [Jenkins][6] **
+  *[** Drone **][10]
+  *[** desplegador **][11]
+  *[** Capistrano **][12]
+  *[** Rancher **][13]
+  *[** Concurse **][14]
+  *[** Ansible **][15]
+  *[** GOCD **][16]
+  *[** Top 5 Herramientas de implementación de código abierto en 2021 **][17]
+  *[** Automatizar la implementación de la aplicación PHP con el implementador **][18]
+
+  
 [1]: #Jenkins
 [2]: #CI
 [3]: #CD

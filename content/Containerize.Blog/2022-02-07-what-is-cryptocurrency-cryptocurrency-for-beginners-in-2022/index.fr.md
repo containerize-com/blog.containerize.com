@@ -58,14 +58,16 @@ Où acheter une crypto-monnaie? Vous pouvez acheter une crypto-monnaie à partir
 
 ## ** Conclusion: ** {# 4A1A}
 J'espère que vous avez beaucoup appris et que vous êtes maintenant plus informé et bien informé du trading et de l'investissement des crypto-monnaies qu'au début. Maintenant c'est ton tour. Nous avons apprécié la recherche et l'écriture du guide en pensant à vous. Bonne chance!
-_ Que sont vos projets open source préférés de crypto-monnaie ?. Avez-vous des questions sur la monnaie numérique?, S'il vous plaît_ [contacter] [1].
+_ Que sont vos projets open source préférés de crypto-monnaie ?. Avez-vous des questions sur la monnaie numérique?, S'il vous plaît_ [contacter][1].
 
 ## Explorer:
 Nous avons également plusieurs autres informations connexes de la montre OSS:
-  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source] [2]
-  * [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021] [3]
-  * [Outils médico-légaux numériques les plus populaires] [4]
-  * [Licences open source les plus populaires approuvées OSI] [5]
+  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source][2]
+  * [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021][3]
+  * [Outils médico-légaux numériques les plus populaires][4]
+  * [Licences open source les plus populaires approuvées OSI][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

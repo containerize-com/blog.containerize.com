@@ -15,13 +15,13 @@ categories: ['Game Development Software']
 
 
 ## **Ringkasan**
-Dalam seri tutorial kami pengembangan game open source, kami telah menerbitkan posting blog tentang beberapa topik populer seperti [Tutorial Pengembangan Game | Gerakan Pemain di GDevely] [1], [HTML5 Tutorial Pengembangan Game untuk Pemrogram Video Game] [2], [Bagaimana Industri Gaming Global Memanfaatkan Perangkat Lunak Sumber Terbuka] [3], dan [Tutorial GDevely untuk Pemula untuk Memulai Pengembangan Game] [4 ]. Artikel tutorial ini adalah tentang memulai pengembangan game menggunakan open source gratis [Superpowers] [5] dengan membahas poin -poin berikut.
-  *** [Jenis Animasi Game] [6] **
-  *** [Cara membuat sprite?] [7] **
-  *** [bekerja dengan adegan] [8] **
-  *** [meluncurkan game di localhost] [9] **
-  *** [Kesimpulan] [10] **
-Ada banyak perangkat lunak pengembangan game open source untuk pemula yang tersedia dengan kemampuan tuan rumah mandiri. Namun, [Superpowers] [5] adalah perangkat lunak pembuatan game 2D & 3D lintas platform. Ini menyediakan perpustakaan dan contoh game bawaan yang membuat pengembangan game mudah bagi pengembang game. Aplikasi desain game gratis ini ditulis dalam TypeScript dan semua dokumentasi tersedia di [GitHub] [11] tentang pengembangan dan penyebaran. Dalam posting blog ini, kami akan menjelajahi kekuatan super tentang penggunaannya.
+Dalam seri tutorial kami pengembangan game open source, kami telah menerbitkan posting blog tentang beberapa topik populer seperti [Tutorial Pengembangan Game | Gerakan Pemain di GDevely][1], [HTML5 Tutorial Pengembangan Game untuk Pemrogram Video Game][2], [Bagaimana Industri Gaming Global Memanfaatkan Perangkat Lunak Sumber Terbuka][3], dan [Tutorial GDevely untuk Pemula untuk Memulai Pengembangan Game][4 ]. Artikel tutorial ini adalah tentang memulai pengembangan game menggunakan open source gratis [Superpowers][5] dengan membahas poin -poin berikut.
+  *** [Jenis Animasi Game][6] **
+  *** [Cara membuat sprite?][7] **
+  *** [bekerja dengan adegan][8] **
+  *** [meluncurkan game di localhost][9] **
+  *** [Kesimpulan][10] **
+Ada banyak perangkat lunak pengembangan game open source untuk pemula yang tersedia dengan kemampuan tuan rumah mandiri. Namun, [Superpowers][5] adalah perangkat lunak pembuatan game 2D & 3D lintas platform. Ini menyediakan perpustakaan dan contoh game bawaan yang membuat pengembangan game mudah bagi pengembang game. Aplikasi desain game gratis ini ditulis dalam TypeScript dan semua dokumentasi tersedia di [GitHub][11] tentang pengembangan dan penyebaran. Dalam posting blog ini, kami akan menjelajahi kekuatan super tentang penggunaannya.
 
 ## Jenis Animasi Game {#Types}
 Animasi adalah bagian penting dari video game. Karakter dalam game harus menanggapi tindakan pengguna, animasi harus lancar dan tiba -tiba. Ini tentang mengelola beberapa frame dan animator memperbaiki bingkai itu untuk menghasilkan efek bergerak. Selain itu, ada animasi 2D & 3D di mana objek tampak bergerak melalui ruang tiga dimensi. Pengembang game dan desainer grafis membuat model 3D. Animasi bergantung pada sifat permainan dan tipe yang paling umum adalah sebagai berikut.
@@ -33,7 +33,7 @@ Animasi adalah bagian penting dari video game. Karakter dalam game harus menangg
 
 ## Bagaimana cara membuat sprite? {#sprites}
 Bagian panduan pembuatan game ini memungkinkan pengguna membuat proyek dan mulai membuat sprite untuk game. Sprite adalah gambar atau grafik non-statis yang tidak hanya digunakan dalam game tetapi juga bagian dari desain web. Ini biasanya ditarik di atas latar belakang yang disegarkan terus -menerus.
-Sebelum pindah, pastikan Anda telah mengatur kekuatan super di mesin Anda. Anda dapat mengikuti tautan ini [tutorial pengembangan game HTML5 untuk pemrogram video game] [2] untuk mengatur platform pembuatan game gratis ini.
+Sebelum pindah, pastikan Anda telah mengatur kekuatan super di mesin Anda. Anda dapat mengikuti tautan ini [tutorial pengembangan game HTML5 untuk pemrogram video game][2] untuk mengatur platform pembuatan game gratis ini.
 Pertama, buka aplikasi ke browser, dan mari kita buat proyek kosong baru. seperti yang ditunjukkan pada gambar di bawah ini.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-12.32.59-1024x576.png" alt="Memulai Pengembangan Game">}}
@@ -75,15 +75,17 @@ Sekarang, klik "Player" dan di bawah komponen "Sprite Renderer", pilih Animasi t
 
 
 ## kesimpulan {#conclusion}
-Ini adalah akhir dari tutorial di mana kami belajar cara membuat permainan di awal untuk pemula. Oleh karena itu, memulai dengan pengembangan game menjadi mudah ketika ada dokumentasi terperinci dari perangkat lunak pengembangan game yang tersedia. Akhirnya, [** containerize.com **] [12] sedang dalam proses penulisan artikel yang konsisten tentang topik dan produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [perangkat lunak pengembangan game] [13] ini untuk pembaruan rutin.
+Ini adalah akhir dari tutorial di mana kami belajar cara membuat permainan di awal untuk pemula. Oleh karena itu, memulai dengan pengembangan game menjadi mudah ketika ada dokumentasi terperinci dari perangkat lunak pengembangan game yang tersedia. Akhirnya, [** containerize.com **][12] sedang dalam proses penulisan artikel yang konsisten tentang topik dan produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [perangkat lunak pengembangan game][13] ini untuk pembaruan rutin.
 
 ## Mengeksplorasi
-  * [GDevelop] [14]
-  * [Godot] [15]
-  * [Superpowers] [5]
-  * [Pencipta Cocos] [16]
-  * [Panda3d] [17]
-  * [Playcanvas] [18]
+  * [GDevelop][14]
+  * [Godot][15]
+  * [Superpowers][5]
+  * [Pencipta Cocos][16]
+  * [Panda3d][17]
+  * [Playcanvas][18]
+
+  
 [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
 [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/

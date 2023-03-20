@@ -19,10 +19,10 @@ Les applications prennent en charge les plugins pour de nombreuses raisons et ce
   * Permettez aux développeurs de créer de nouvelles fonctionnalités.
   * Réduisez la taille du logiciel.
 Nous discuterons des sujets ci-dessous en détail dans ce tutoriel.
-  * [** Prérequis **] [2]
-  * [** Bases du développement du plugin PHPLIST **] [3]
-  * [** Créer notre plugin phplist **] [4]
-  * [** Conclusion **] [5]
+  * [** Prérequis **][2]
+  * [** Bases du développement du plugin PHPLIST **][3]
+  * [** Créer notre plugin phplist **][4]
+  * [** Conclusion **][5]
 
 ## Prérequis {#req}
   * Dernière version de PHPLIST.
@@ -78,18 +78,20 @@ Vous pouvez accéder à votre plugin par l'URL suivante comme http://example.com
 
 ## Conclusion {#con}
 Nous avons appris les bases de ** PHPLIST PLUGIN ** Development et créé un exemple de plugin. En tant que point de départ, vous pouvez suivre cette directive et explorer davantage le développement du plugin pour améliorer la fonctionnalité.
-Enfin, [** contenerize.com **] [6] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** newsletters **] [7] pour les dernières mises à jour.
+Enfin, [** contenerize.com **][6] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** newsletters **][7] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents.
-  * [** phplist **] [8]
-  * [** Mailtrain **] [9]
-  * [** listMonk **] [10]
-  * [** MoonMail **] [11]
-  * [** Mailman **] [12]
-  * [** Top 5 du logiciel de newsletter open source en 2021 **] [13]
-  * [** Comment configurer l'application multi-locataire dans phplist **] [14]
-  * [** Comment créer et envoyer une newsletter à l'aide de phplist **] [15]
+  * [** phplist **][8]
+  * [** Mailtrain **][9]
+  * [** listMonk **][10]
+  * [** MoonMail **][11]
+  * [** Mailman **][12]
+  * [** Top 5 du logiciel de newsletter open source en 2021 **][13]
+  * [** Comment configurer l'application multi-locataire dans phplist **][14]
+  * [** Comment créer et envoyer une newsletter à l'aide de phplist **][15]
+
+  
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #Req
 [3]: #Basics

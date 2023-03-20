@@ -14,10 +14,10 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket.png" alt="Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket">}}
 
 OSTICKET est une solution logicielle en ligne open source en ligne. OSTICKET Helpdesk est une alternative gratuite aux systèmes de support client élevé et complexes. Il est simple, léger, fiable, basé sur le Web et facile à configurer et à utiliser. La meilleure partie est que c'est complètement gratuit. Nous couvrirons les sections suivantes dans ce tutoriel:
-  * [Qu'est-ce que l'osticket?] [1]
-  * [Avantages et inconvénients de l'Osticket] [2]
-  * [Comment configurer OSTICKET?] [3]
-  * [Conclusion] [4]
+  * [Qu'est-ce que l'osticket?][1]
+  * [Avantages et inconvénients de l'Osticket][2]
+  * [Comment configurer OSTICKET?][3]
+  * [Conclusion][4]
 
 ## Qu'est-ce que l'osticket? {#osticket}
 OSTICKET fournit un panneau de configuration convivial et un composant de rapport en temps réel. Les utilisateurs peuvent simplement se connecter et créer les billets en quelques étapes faciles. Ils peuvent créer des billets via votre site Web, votre e-mail ou votre téléphone. Les billets entrants seront alors enregistrés et affectés aux agents. Les agents recevront des notifications par e-mail et répondront aux requêtes pour aider à résoudre leurs problèmes. Les clients et les agents peuvent discuter des détails et des progrès dans la section des commentaires. Les clients peuvent suivre leurs demandes et progresser via le portail client intégré fourni par ce logiciel de bureau en ligne.
@@ -153,11 +153,13 @@ chmod 0644 include/ost-config.php
 OSTICKET est le mieux adapté aux entreprises à petit budget ou à celles qui veulent un système d'assistance simple et non complexe. Il est simple, léger, fiable, open source et un logiciel d'assistance en ligne totalement gratuit. Ce qui fait de l'Osticket une excellente alternative aux systèmes de support client plus coûteux. Pour en savoir plus sur les fonctionnalités d'Osticket et le guide d'installation, veuillez consulter le tutoriel suivant.
 
 ## Explorer
-[MEILLEUR SOFFICATION Open SOURCE ET GRATUIT IT Help Deker] [5]
-[Système populaire de service d'assistance basé sur la billetterie et client] [6]
-[Un guide du débutant pour développer le plugin d'Osticket] [7]
-[Comment mettre en œuvre la multi-tension dans OSTICKET] [8]
-[Automatiser le système de billetterie à l'aide de WordPress et d'Osticket] [9]
+[MEILLEUR SOFFICATION Open SOURCE ET GRATUIT IT Help Deker][5]
+[Système populaire de service d'assistance basé sur la billetterie et client][6]
+[Un guide du débutant pour développer le plugin d'Osticket][7]
+[Comment mettre en œuvre la multi-tension dans OSTICKET][8]
+[Automatiser le système de billetterie à l'aide de WordPress et d'Osticket][9]
+
+  
 [1]: #osticket
 [2]: #pros
 [3]: #how

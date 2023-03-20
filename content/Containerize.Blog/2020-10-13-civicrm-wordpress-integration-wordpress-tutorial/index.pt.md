@@ -16,18 +16,18 @@ categories: ['Blogging', 'Marketing Automation']
 
 ## Visão geral:
 Bem -vindo a este artigo do tutorial que se trata de ** Integração do WordPress ** **. O fato é que estamos vivendo na era da informação e dados. Certas coisas fornecem recursos distintos à sua empresa, como a automação de coletar dados, comunicação consistente, campanhas de marketing e outros fluxos de trabalho de negócios. Nesta era moderna, a quantidade de dados está aumentando dia a dia. As organizações recebem esses dados de várias fontes de dados. Resultado, fica difícil gerenciar e compilar uma quantidade tão grande de dados. No entanto, é altamente importante garantir que a integridade e a autenticidade dos dados sejam a base de uma campanha de marketing eficaz. Além disso, a ocorrência de dados em vários lugares dá à luz com problemas e má administração, e as equipes operacionais acham difícil entrar na mesma página e trabalhar em uma direção unificada.
-Por outro lado, existem vários sistemas de gerenciamento de conteúdo que obtiveram o poderoso suporte das comunidades de usuários e desenvolvedores devido a um gerenciamento robusto de conteúdo e sistemas de eco amigáveis ​​para SEO. Esses sistemas de gerenciamento de conteúdo de código aberto oferecem desenvolvimentos e implantações fáceis e rápidos para atingir metas relacionadas ao conteúdo. Oferece custo-eficiência, funcionalidade extensível e recursos de auto-hospedagem. Este ** tutorial do plug -in do WordPress ** é sobre a integração de [Civicrm] [2] com [WordPress] [3] e abordaremos os seguintes pontos de bala
-  * [Benefícios dessa combinação para negócios?] [4]
-  * [Como configurar uma estrutura de diretório?] [5]
-  * [Como ativar e instalar o Civicrm no WordPress?] [6]
+Por outro lado, existem vários sistemas de gerenciamento de conteúdo que obtiveram o poderoso suporte das comunidades de usuários e desenvolvedores devido a um gerenciamento robusto de conteúdo e sistemas de eco amigáveis ​​para SEO. Esses sistemas de gerenciamento de conteúdo de código aberto oferecem desenvolvimentos e implantações fáceis e rápidos para atingir metas relacionadas ao conteúdo. Oferece custo-eficiência, funcionalidade extensível e recursos de auto-hospedagem. Este ** tutorial do plug -in do WordPress ** é sobre a integração de [Civicrm][2] com [WordPress][3] e abordaremos os seguintes pontos de bala
+  * [Benefícios dessa combinação para negócios?][4]
+  * [Como configurar uma estrutura de diretório?][5]
+  * [Como ativar e instalar o Civicrm no WordPress?][6]
 
 ## benefícios dessa combinação para negócios? {#Benefits}
-Na seção deste tutorial ** WordPress **, examinaremos os principais benefícios da integração ** civicrm wordpress **. A popularidade do [WordPress] [3] está aumentando à medida que a concorrência está crescendo no mercado. A comunidade do WordPress tem desenvolvido novos plugins para aprimorar o balde do plug -in. Portanto, a adição do CIVICRM no pool de WordPress do plug -in ganhou muita atenção das organizações que prosperam para automatizar e centralizar seus fluxos de trabalho de negócios.
-Essa integração é importante devido a certos aspectos. Primeiro, [Civicrm] [2] remove o incômodo de gerenciar as fontes de contato do usuário que residem em diferentes locais. Em segundo lugar, fornece segurança completa, obtendo backups regulares de seus dados. Em terceiro lugar, é baseada na Web e de código aberto, que significa que você pode acessar seus dados de qualquer lugar. Esta ferramenta de automação de marketing de código aberto é desenvolvido para o setor cívico. Ele removeu a necessidade de exportar dados para várias folhas e bancos de dados, fornecendo uma solução única. Esse software de CRM de código aberto armazena todos os dados no banco de dados proveniente de várias fontes, como boletins, sites de gerenciamento de eventos, gerenciamento de contribuição, gerenciamento de casos e etc. Esses softwares de gerenciamento de relacionamento com constituintes de código aberto são fáceis de configurar e fornecer muitos recursos, como como Conjuntos de dados personalizados ilimitados, gerenciamento de tarefas, gerenciamento de usuários, rastrear promessas e associações abertas e muito mais.
+Na seção deste tutorial ** WordPress **, examinaremos os principais benefícios da integração ** civicrm wordpress **. A popularidade do [WordPress][3] está aumentando à medida que a concorrência está crescendo no mercado. A comunidade do WordPress tem desenvolvido novos plugins para aprimorar o balde do plug -in. Portanto, a adição do CIVICRM no pool de WordPress do plug -in ganhou muita atenção das organizações que prosperam para automatizar e centralizar seus fluxos de trabalho de negócios.
+Essa integração é importante devido a certos aspectos. Primeiro, [Civicrm][2] remove o incômodo de gerenciar as fontes de contato do usuário que residem em diferentes locais. Em segundo lugar, fornece segurança completa, obtendo backups regulares de seus dados. Em terceiro lugar, é baseada na Web e de código aberto, que significa que você pode acessar seus dados de qualquer lugar. Esta ferramenta de automação de marketing de código aberto é desenvolvido para o setor cívico. Ele removeu a necessidade de exportar dados para várias folhas e bancos de dados, fornecendo uma solução única. Esse software de CRM de código aberto armazena todos os dados no banco de dados proveniente de várias fontes, como boletins, sites de gerenciamento de eventos, gerenciamento de contribuição, gerenciamento de casos e etc. Esses softwares de gerenciamento de relacionamento com constituintes de código aberto são fáceis de configurar e fornecer muitos recursos, como como Conjuntos de dados personalizados ilimitados, gerenciamento de tarefas, gerenciamento de usuários, rastrear promessas e associações abertas e muito mais.
 
 ## Como configurar uma estrutura de diretório? {#diretório}
-Antes de iniciar este ** tutorial do plug -in do WordPress **, assumimos que você configurou o WordPress e tem um entendimento básico para instalar e ativar plugins. Além disso, você pode encontrar informações [aqui] [7] sobre a configuração do WordPress e seus recursos.
-Primeiro, faça o download do Civicrm deste [site] [8]. Escolha uma opção chamada como "Download civicrmx.x.x para o WordPress".
+Antes de iniciar este ** tutorial do plug -in do WordPress **, assumimos que você configurou o WordPress e tem um entendimento básico para instalar e ativar plugins. Além disso, você pode encontrar informações [aqui][7] sobre a configuração do WordPress e seus recursos.
+Primeiro, faça o download do Civicrm deste [site][8]. Escolha uma opção chamada como "Download civicrmx.x.x para o WordPress".
 Após o download, coloque o arquivo zip nesse local /conteúdo /plugins wp e extraia-o. Verifique se este diretório tem acesso "gravar".
 Você pode usar este comando para fornecer permissão de acesso "gravar". `sudo chmod 777 server_path/wp-content/plugins/civicrm`
 Segundo, crie uma pasta vazia chamada "Civicrm" nesse local /wp-content /uploads e forneça acesso "Write" usando o seguinte comando.
@@ -66,26 +66,28 @@ Finalmente, a guia Menu ** Civicrm WordPress ** aparecerá na parte superior do 
 
 
 ## Conclusão
-A integração ** civicrm wordpress ** é um complemento verdadeiramente útil quando se trata de gerenciar um enorme armazenamento de informações do usuário dispersas. Isso simplifica os fluxos de trabalho complexos, oferecendo um painel intuitivo. A dupla desses dois softwares de código aberto fornece uma interface amigável, juntamente com outros utilitários, onde os usuários podem navegar facilmente. Felizmente, a comunidade de código aberto desenvolveu tantas ferramentas de automação de marketing como [Mautic] [9], [SuperEcrm] [10], [espocrm] [11] e muito mais. Todas essas soluções são gratuitas e fáceis de implantar na nuvem ou no host local. Acima de tudo, essas soluções vêm com documentação abrangente sobre desenvolvimento e implantação. No entanto, este tutorial ** do Plugin ** WordPress ** será muito útil se você deseja integrar o software de automação de marketing ao seu software de gerenciamento de conteúdo.
-Finalmente, [contendeRize.com] [12] está em processo de redação de mais tutoriais sobre a integração de algum outro software de código aberto. Para atualizações regulares, mantenha contato com as categorias [Automação de marketing] [1] e [blogs] [13].
+A integração ** civicrm wordpress ** é um complemento verdadeiramente útil quando se trata de gerenciar um enorme armazenamento de informações do usuário dispersas. Isso simplifica os fluxos de trabalho complexos, oferecendo um painel intuitivo. A dupla desses dois softwares de código aberto fornece uma interface amigável, juntamente com outros utilitários, onde os usuários podem navegar facilmente. Felizmente, a comunidade de código aberto desenvolveu tantas ferramentas de automação de marketing como [Mautic][9], [SuperEcrm][10], [espocrm][11] e muito mais. Todas essas soluções são gratuitas e fáceis de implantar na nuvem ou no host local. Acima de tudo, essas soluções vêm com documentação abrangente sobre desenvolvimento e implantação. No entanto, este tutorial ** do Plugin ** WordPress ** será muito útil se você deseja integrar o software de automação de marketing ao seu software de gerenciamento de conteúdo.
+Finalmente, [contendeRize.com][12] está em processo de redação de mais tutoriais sobre a integração de algum outro software de código aberto. Para atualizações regulares, mantenha contato com as categorias [Automação de marketing][1] e [blogs][13].
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Um guia para iniciantes sobre integração do WordPress do Fórum de Vanilla] [14]
-  * [Como dockerize WordPress com Docker Compose] [15]
-  * [Migração do WordPress para Jekyll] [16]
-  * [Como construir seu site com WordPress e Gatsby] [17]
-  * [Um guia para iniciantes para migrar para o fantasma do WordPress] [18]
-  * [Como implementar a multiestância em Mautic] [19]
-  * [Como configurar Mautic - Integração do Facebook] [20]
-  * [Configurar campanhas mauticas usando o Campaign Builder] [21]
-  * [Drupal Mautic Integration para automatizar a nutrição de chumbo] [22]
-  * [Mensagens instantâneas do WordPress usando Rocket.chat] [23]
-  * [Como integrar o fórum do discurso com o WordPress] [24]
-  * [Automatize o sistema de bilhetes usando o WordPress e o Osticket] [25]
-  * [Automação de marketing com integração Mautic e WooCommerce] [26]
-  * [Plataforma de blog de código aberto 5 em 2020] [27]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [28]
+  * [Um guia para iniciantes sobre integração do WordPress do Fórum de Vanilla][14]
+  * [Como dockerize WordPress com Docker Compose][15]
+  * [Migração do WordPress para Jekyll][16]
+  * [Como construir seu site com WordPress e Gatsby][17]
+  * [Um guia para iniciantes para migrar para o fantasma do WordPress][18]
+  * [Como implementar a multiestância em Mautic][19]
+  * [Como configurar Mautic - Integração do Facebook][20]
+  * [Configurar campanhas mauticas usando o Campaign Builder][21]
+  * [Drupal Mautic Integration para automatizar a nutrição de chumbo][22]
+  * [Mensagens instantâneas do WordPress usando Rocket.chat][23]
+  * [Como integrar o fórum do discurso com o WordPress][24]
+  * [Automatize o sistema de bilhetes usando o WordPress e o Osticket][25]
+  * [Automação de marketing com integração Mautic e WooCommerce][26]
+  * [Plataforma de blog de código aberto 5 em 2020][27]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][28]
+
+  
 [1]: https://products.containerize.com/marketing-automation
 [2]: https://products.containerize.com/marketing-automation/civicrm
 [3]: https://products.containerize.com/blogging/wordpress

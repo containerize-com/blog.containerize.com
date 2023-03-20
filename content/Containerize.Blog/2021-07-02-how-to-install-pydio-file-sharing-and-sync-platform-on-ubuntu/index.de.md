@@ -148,15 +148,17 @@ Ja! Es ist fertig. Sie wissen nun, wie Sie PYDIO Self -Hosted -Datei -Synchronis
 
 ## ** Fazit: ** {#4A1a}
 In diesem Tutorial haben Sie die Open -Source -Dateifreigabe von Pydio Cells in Ihrem Ubuntu -System erfolgreich installiert. Sie können diesen Artikel verwenden, um eine Cloud-Infrastruktur zum Speichern, Sichern und Teilen Ihrer Dateien in der selbst gehosteten Cloud zu erstellen. Verwenden Sie die Pydio Collaborative Document Sharing und die beste kostenlose Dateifreigabe -App, um mehr Kontrolle über Ihre Daten zu erhalten und eine effiziente Zusammenarbeit in Ihrer Unternehmensorganisation zu gewährleisten. In unseren bevorstehenden Tutorials werden wir weitere interessante Themen von Open -Source -Cloud -Speicherlösungen und den Tattyp zur Kollaboration von Dateien zur Kollaboration erörtert.
-Sie können sich uns auf [Twitter] [1], [linkedIn] [2] und unserer [Facebook] [3] -Seite anschließen. Welche Cloud-basierte Open Source _file Share-Plattform verwenden Sie online? Wenn Sie Fragen haben, bitte_ [Kontakt aufnehmen] [4].
+Sie können sich uns auf [Twitter][1], [linkedIn][2] und unserer [Facebook][3] -Seite anschließen. Welche Cloud-basierte Open Source _file Share-Plattform verwenden Sie online? Wenn Sie Fragen haben, bitte_ [Kontakt aufnehmen][4].
 
 ## Erkunden:
 Wir haben auch mehrere andere Artikel, die sich auf die tägliche Verwaltung Ihres Servers beziehen.
-  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu/Debian] [5]
-  * [So installieren und sichern Sie PhpMyAdmin mit Nginx auf Ubuntu] [6]
-  * [Sicher und verschlüsseln Nginx mit lass uns auf Ubuntu 20.04] [7]
-  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian] [8]
-  * [Setup nginx mit Passagier auf AWS Production Server] [9]
+  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu/Debian][5]
+  * [So installieren und sichern Sie PhpMyAdmin mit Nginx auf Ubuntu][6]
+  * [Sicher und verschlüsseln Nginx mit lass uns auf Ubuntu 20.04][7]
+  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian][8]
+  * [Setup nginx mit Passagier auf AWS Production Server][9]
+
+  
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

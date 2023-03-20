@@ -14,10 +14,10 @@ Mit ## Cachet Status -Seite können Unternehmen sofortige Benachrichtigungen üb
 {{< figure align=center src="images/cachet-monitor.png" alt="Webanwendungsüberwachung">}}
 
 Die Überwachung von Anwendungen und Diensten ist ein sehr wichtiger Bestandteil des Online -Geschäfts. Ihre Website läuft 24x7 und Sie können es jederzeit falsch machen. Sie können nicht wissen, dass entweder die Website funktioniert oder nicht, wenn Sie sie besuchen. Darüber hinaus haben Kunden keine Informationen zu diesem Problem. Sie können sich an Ihr Support -Team für Service -Ausfallzeiten wenden. Darüber hinaus könnte dies dazu führen, dass Ihre Kunden enttäuscht werden. Sie können jedoch die Ausfallzeiten für die Dienstleistung reduzieren, indem Sie Status -Seitensysteme konfigurieren. Das Status -Seitensystem überwacht alle Ihre Dienste rund um die Uhr und sendet sofort Benachrichtigungen an Ihr Team und Ihre Kunden. Auf diese Weise können Sie schnelle Schritte unternehmen, um das Problem zu beheben, und die Kunden werden über den Fortschritt auf dem Laufenden bleiben. In diesem Blog-Beitrag erfahren Sie, wie Sie die Bibliothek von Drittanbietern mit ** Cachet ** für ** Automatisierung der Überwachung ** integrieren.
-  * [Anforderungen] [1]
-  * [Setup Monitoring Plugin] [2]
-  * [Linux -Dienst erstellen] [3]
-  * [Schlussfolgerung] [4]
+  * [Anforderungen][1]
+  * [Setup Monitoring Plugin][2]
+  * [Linux -Dienst erstellen][3]
+  * [Schlussfolgerung][4]
 
 ## Anforderungen {#Requirements}
   * Installieren Sie die neueste Version des Cachets.
@@ -25,7 +25,7 @@ Die Überwachung von Anwendungen und Diensten ist ein sehr wichtiger Bestandteil
 
 ## Setup Monitoring Plugin {#Plugin}
 Im Folgenden finden Sie Schritte zur Installation und Konfiguration des Plugins zur Überwachung auf Ubuntu.
-  * Download Binary von [Release -Seite] [5].
+  * Download Binary von [Release -Seite][5].
   * Benennen Sie die Datei in den Cachet-Monitor um.
   * Machen Sie die Datei mit dem Befehl ausführbar.
 ```
@@ -112,13 +112,15 @@ sudo systemctl enable cachet-monitor.service
 
 ## Schlussfolgerung {#Conclusion}
 Das Cachet A ist kostenlos und ** Open Source Status -Seite ** System. Es wird jedoch nicht außerhalb der Box -Funktion für die Überwachung der Webanwendungen ** veröffentlicht. Stattdessen verfügt es über eine leistungsstarke REST -API, mit der Aktionen wie Vorfälle, Komponenten, Gruppen und vieles mehr durchgeführt werden können. In diesem Artikel haben wir das Drittanbieter-Plugin verwendet, um die Anwendungsüberwachung in der Gründung zu automatisieren. Vor allem können Sie Ihr eigenes Plugin entwickeln oder ein anderes vorhandenes Plugin verwenden, um den Job zu erledigen.
-Darüber hinaus ist [Containerize.com] [6] auf dem Weg, den Stapel von Open -Source -Produkten in mehreren Sprachen und Frameworks zu verbessern. Für reguläre Updates finden Sie bitte auf [Status -Seite] [7] Kategorie für interessantere Artikel.
+Darüber hinaus ist [Containerize.com][6] auf dem Weg, den Stapel von Open -Source -Produkten in mehreren Sprachen und Frameworks zu verbessern. Für reguläre Updates finden Sie bitte auf [Status -Seite][7] Kategorie für interessantere Artikel.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Best Open Source Status Page Systems] [8]
-  * [Cachet - kostenlose und Open -Source -Status -Seiten -Software] [9]
-  * [Top 5 Open -Source -Status -Seiten -Software für 2020] [10]
+  * [Best Open Source Status Page Systems][8]
+  * [Cachet - kostenlose und Open -Source -Status -Seiten -Software][9]
+  * [Top 5 Open -Source -Status -Seiten -Software für 2020][10]
+
+  
 [1]: #Requirements
 [2]: #Plugin
 [3]: #Service

@@ -16,13 +16,13 @@ categories: ['Game Development Software']
 
 ## **Ringkasan**
 Komunitas open source muncul dengan perjalanan setiap menit. Ada permainan lintas platform, game mobile, dan game desktop. Berbagai jenis game termasuk game aksi, permainan petualangan, permainan peran, permainan olahraga, game puzzle, game simulasi, dan banyak lagi. Oleh karena itu, semua jenis game yang berbeda ini telah memberikan dorongan besar untuk lalu lintas karena pengguna dari semua kelompok umur cenderung memainkan game ini.
-Selain itu, pandemi telah membawa perubahan besar dalam gaya hidup orang yang tinggal di seluruh dunia. Orang sekarang memiliki lebih banyak waktu. Semua kegiatan offline telah online. Oleh karena itu, mereka cenderung memilih perangkat lunak online untuk melakukan tugas profesional dan video game dalam kasus hiburan. Karena semua alasan ini, industri ini telah memperoleh keberlanjutan dan dukungan dari pengguna dan pengembang. Di masa lalu, kami menulis tentang topik -topik seperti [tutorial pengembangan game HTML5 untuk pemrogram video game] [1], [bagaimana industri game global memanfaatkan perangkat lunak open source] [2], dan [tutorial GDevely untuk pemula untuk memulai pengembangan game] [3]. Dalam tutorial pengembangan game ini, kami akan membahas poin -poin berikut.
-  *** [Fitur Eksplorasi GDevelop] [4] **
-  *** [bekerja pada permainan] [5] **
-  *** [Kesimpulan] [6] **
+Selain itu, pandemi telah membawa perubahan besar dalam gaya hidup orang yang tinggal di seluruh dunia. Orang sekarang memiliki lebih banyak waktu. Semua kegiatan offline telah online. Oleh karena itu, mereka cenderung memilih perangkat lunak online untuk melakukan tugas profesional dan video game dalam kasus hiburan. Karena semua alasan ini, industri ini telah memperoleh keberlanjutan dan dukungan dari pengguna dan pengembang. Di masa lalu, kami menulis tentang topik -topik seperti [tutorial pengembangan game HTML5 untuk pemrogram video game][1], [bagaimana industri game global memanfaatkan perangkat lunak open source][2], dan [tutorial GDevely untuk pemula untuk memulai pengembangan game][3]. Dalam tutorial pengembangan game ini, kami akan membahas poin -poin berikut.
+  *** [Fitur Eksplorasi GDevelop][4] **
+  *** [bekerja pada permainan][5] **
+  *** [Kesimpulan][6] **
 
 ## Fitur Eksplorasi GDevelop {#Features}
-[GDevelop] [7] adalah platform pembangunan game open source. Ini sangat dapat diperluas dan menawarkan antarmuka logis di mana pengguna dapat menavigasi dengan mudah. Perangkat lunak gratis ini ditulis dalam C ++, TypeScript, dan JavaScript. Selain itu, ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Semua kode sumber tersedia di GitHub. Lebih lanjut, ada banyak fitur yang membuat perangkat lunak membuat game ini menonjol. Mari kita lihat beberapa fitur utama.
+[GDevelop][7] adalah platform pembangunan game open source. Ini sangat dapat diperluas dan menawarkan antarmuka logis di mana pengguna dapat menavigasi dengan mudah. Perangkat lunak gratis ini ditulis dalam C ++, TypeScript, dan JavaScript. Selain itu, ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Semua kode sumber tersedia di GitHub. Lebih lanjut, ada banyak fitur yang membuat perangkat lunak membuat game ini menonjol. Mari kita lihat beberapa fitur utama.
 ** Cross-Platform **: Platform pembuatan game ini adalah multiplatform dan dapat digunakan pada hampir semua sistem operasi populer seperti macOS, Linux dan Windows.
 ** Opsi Mengekspor **: GDevelop memungkinkan pengguna mengekspor game yang dikembangkan hanya dengan satu klik untuk Android, iOS, dan Web. Pemilik game dapat menampilkan iklan video di game mereka dan mungkin dimungkinkan dengan dukungan Admob.
 ** Objek Game Kaya **: Pembuat game open source ini menyediakan berbagai objek game seperti sprite dengan animasi, ledakan api, dan efek lainnya dengan bantuan pemancar partikel. Teks yang diformat, video tertanam, dan menggambar bentuk kustom tersedia untuk membawa efek menarik ke dalam permainan.
@@ -31,7 +31,7 @@ Selain itu, pandemi telah membawa perubahan besar dalam gaya hidup orang yang ti
 
 ## Bekerja pada game {#Working}
 Bagian tutorial pengembangan game ini menguraikan pengembangan game dasar dengan GDevelop. Sebelum melangkah lebih jauh, pastikan Anda telah menginstal GDevelyal secara lokal di mesin Anda.
-Anda dapat mengunjungi tutorial ini [tutorial GDevely untuk pemula untuk memulai pengembangan game] [3] untuk mendapatkan pengetahuan menyiapkan editor game ini di LocalHost.
+Anda dapat mengunjungi tutorial ini [tutorial GDevely untuk pemula untuk memulai pengembangan game][3] untuk mendapatkan pengetahuan menyiapkan editor game ini di LocalHost.
 Sekarang, buka editor dan buat proyek baru. Dalam tutorial ini, kami akan membuat folder di Google Drive untuk menyimpan file game. Sekarang klik pada "Buat Proyek Baru", itu akan membuka kotak dialog baru, pilih opsi "Game Kosong" untuk mulai membangun game baru.
 
 {{< figure align=center src="images/Screenshot-2021-05-28-at-12.44.34-1024x579.png" alt="Tutorial Pengembangan Game">}}
@@ -63,14 +63,16 @@ Jadi, seret tanda yang muncul di sudut atas kiri ke tengah objek lalu tutup dan 
 
 
 ## kesimpulan {#conclusion}
-Ini adalah akhir dari tutorial pengembangan game ini. Mudah -mudahan, posting blog ini akan bermanfaat bagi pengembang game. Tutorial ini memungkinkan Anda untuk bekerja dengan objek permainan dan menambah perilaku. Di masa depan, Containerize.com akan mempublikasikan posting blog dan artikel tutorial tentang perangkat lunak desain video game open source lebih lanjut. Oleh karena itu, tetap terhubung dengan kategori [Perangkat Lunak Pengembangan Game] [8] ini di [containerize.com] [9] untuk pembaruan rutin.
+Ini adalah akhir dari tutorial pengembangan game ini. Mudah -mudahan, posting blog ini akan bermanfaat bagi pengembang game. Tutorial ini memungkinkan Anda untuk bekerja dengan objek permainan dan menambah perilaku. Di masa depan, Containerize.com akan mempublikasikan posting blog dan artikel tutorial tentang perangkat lunak desain video game open source lebih lanjut. Oleh karena itu, tetap terhubung dengan kategori [Perangkat Lunak Pengembangan Game][8] ini di [containerize.com][9] untuk pembaruan rutin.
 
 ## Mengeksplorasi
-  * [GDevelop] [7]
-  * [Godot] [10]
-  * [Superpowers] [11]
-  * [Pencipta Cocos] [12]
-  * [Panda3d] [13]
+  * [GDevelop][7]
+  * [Godot][10]
+  * [Superpowers][11]
+  * [Pencipta Cocos][12]
+  * [Panda3d][13]
+
+  
 [1]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [2]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
 [3]: https://blog.containerize.com/game-development-software/id/game-development-tutorial-player-movement-in-gdevelop/

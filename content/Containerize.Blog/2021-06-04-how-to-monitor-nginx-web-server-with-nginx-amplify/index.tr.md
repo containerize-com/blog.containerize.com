@@ -17,13 +17,13 @@ categories: ['Web Server Solution Stack']
 ## Genel Bakış {#install}
 ** Web Sunucusu İzleme ** Yüksek trafikli web siteleri için çok önemlidir. ** İzleme aracısı **, web sunucusu hakkında düzenli olarak temel metrikleri kaydeder. Bu kritik metrikler NGINX yapılandırmasını optimize etmek için kullanılabilir. Web sunucunuzun ve uygulamanızın performansını artırmanıza yardımcı olacaktır.
 Bu blog yazısında, ** nginx izleme ** açık kaynak aracı için aşağıdaki bölümleri ele alacağız.
-  * [Nginx web sunucusu] [1]
-  * [Nginx amplifikasyon] [2]
-  * [Nginx amplify'yi yükleyin] [3]
-  * [Metrikleri İzleme] [4]
+  * [Nginx web sunucusu][1]
+  * [Nginx amplifikasyon][2]
+  * [Nginx amplify'yi yükleyin][3]
+  * [Metrikleri İzleme][4]
 
 ## nginx web sunucusu {#nginx}
-[Nginx] [5] ücretsiz ve açık kaynaklı bir web sunucusudur. Apache'den daha basit, hafif ve yapılandırılması kolaydır. Nginx web sunucusu ayrıca ters proxy, yük dengeleyici, posta proxy ve http önbellek olarak çalışır. HTTP, HTTPS, SMTP, POP3 ve IMAP protokolleri için çalışır. Nginx, uygulamalarınızın performansını artıran yüksek hızlı, güvenilir ve bellek tasarruflu bir web sunucusudur. Ayrıca, popülerlik kazandı ve şimdi en popüler web sunucusu olarak kabul ediliyor. Ayrıca, Nginx yüksek trafikli siteler ve uygulamalar da dahil olmak üzere her türlü web sitesi için uygundur. Neredeyse tüm işletim sistemlerine kurulabilir ve yapılandırılabilir.
+[Nginx][5] ücretsiz ve açık kaynaklı bir web sunucusudur. Apache'den daha basit, hafif ve yapılandırılması kolaydır. Nginx web sunucusu ayrıca ters proxy, yük dengeleyici, posta proxy ve http önbellek olarak çalışır. HTTP, HTTPS, SMTP, POP3 ve IMAP protokolleri için çalışır. Nginx, uygulamalarınızın performansını artıran yüksek hızlı, güvenilir ve bellek tasarruflu bir web sunucusudur. Ayrıca, popülerlik kazandı ve şimdi en popüler web sunucusu olarak kabul ediliyor. Ayrıca, Nginx yüksek trafikli siteler ve uygulamalar da dahil olmak üzere her türlü web sitesi için uygundur. Neredeyse tüm işletim sistemlerine kurulabilir ve yapılandırılabilir.
 
 ### nginx'i yükle
   * Nginx web sunucusunu yüklemek için komutları aşağıda çalıştırın.
@@ -44,7 +44,7 @@ Nginx Amplify, Nginx Açık Kaynak, Nginx Plus ve PHP-FPM için ücretsiz bir iz
 
 ## nginx amplify {#install}
 Ubuntu'ya Nginx Amplify kurulumu için aşağı adım adım kılavuzu izleyin.
-  * İlk olarak, Nginx [web sitesi] [6] 'da bir hesap oluşturmanız gerekir.
+  * İlk olarak, Nginx [web sitesi][6] 'da bir hesap oluşturmanız gerekir.
   * Girişten sonra Nginx Amplify web sitesinde aşağıda ekranı göreceksiniz. Şimdi, SSH üzerinden sunucunuza bağlanın ve aşağıdaki adımlarda verilen komutları kullanın.
 
 {{< figure align=center src="images/amplify-1.png" alt="Nginx Amplify'yi yükle">}}
@@ -119,12 +119,14 @@ Nginx Amplify Agent aşağıdaki veri türlerini toplar:
 
 ## Çözüm
 Nginx web sunucusunu ve NGINX'in gelişmiş izleme aracısını ayrıntılı olarak inceledik. Nginx amplify'nin ayarlanması ve yapılandırılması oldukça basittir. Buna ek olarak, Nginx Amplify'nin ** nginx ** izlemeyi izleyebileceği kritik metriklerin üstesinden geldik. Bu önemli metrikler, Nginx web sunucunuzun ve uygulamalarınızın yapılandırmasını geliştirmek için kullanılabilir.
-Son olarak, [Containerize.com] [7], en son açık kaynaklı ürünler hakkında blog yayınları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [Web Server Çözüm Yığını] [8] kategorisiyle iletişim halinde olun.
+Son olarak, [Containerize.com][7], en son açık kaynaklı ürünler hakkında blog yayınları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [Web Server Çözüm Yığını][8] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Uygulamanız için Nginx nasıl yük dengeleyici olarak kullanılır] [9]
-  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır] [10]
+  * [Uygulamanız için Nginx nasıl yük dengeleyici olarak kullanılır][9]
+  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır][10]
+
+  
 [1]: #Nginx
 [2]: #Amplify
 [3]: #Install

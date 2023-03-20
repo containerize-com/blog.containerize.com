@@ -16,17 +16,17 @@ categories: ['Content Management', 'Marketing Automation']
 
 ## Cómo esta integración puede ayudar a su negocio:
 La integración de Mautic y Joomla le permitirán comercializar sus productos/servicios de una manera muy fácil pero eficiente. Mautic Una solución de marketing gratuita de código abierto le brinda un gran control sobre las campañas de marketing y es muy simple continuar la campaña de goteo de acuerdo con la situación. Por ejemplo: le brinda la información de que si el cliente ha leído el correo electrónico o ha visitado sus páginas de productos. Usando esa información, puede configurar campañas para decidir si continúa enviando los próximos correos electrónicos para ese cliente o no. Esta integración ayudará en la automatización de marketing digital. Esta publicación de blog lo guiará con las siguientes secciones:
-  * [Descripción general] [1]
-  * [Instalación del complemento de Joomla] [2]
-  * [Configuración mautica] [3]
-  * [Conclusión] [4]
+  * [Descripción general][1]
+  * [Instalación del complemento de Joomla][2]
+  * [Configuración mautica][3]
+  * [Conclusión][4]
 
 ## Descripción general: {#Overview}
 Mautic es un sistema de automatización de marketing de código abierto. Es un software de marketing gratuito. Puede usarlo para crear campañas ilimitadas para enviar correos electrónicos de marketing a clientes específicos.
 Joomla también es un sistema gratuito de gestión de contenido de código abierto para desarrollar sitios web. Es muy fácil configurar sus sitios web de negocios en Joomla. Tiene miles de extensiones que se pueden usar de acuerdo con sus requisitos.
 
 ## Instalación del complemento Joomla: {#Plugin}
-  * Descargue el [complemento] [5].
+  * Descargue el [complemento][5].
   * Luego vaya a Extensiones -> Administrar -> Instalar.
   * Ingrese la URL mautic.
   * Insertará una imagen GIF 1 PX cargada desde su instancia mautica.
@@ -43,7 +43,7 @@ Después de la instalación, debe crear e incrustar formularios en su sitio de J
   * Para conectar Mautic con Joomla debe tener un certificado SSL en sus sitios.
   * A continuación debe ir a las credenciales de API.
   *Si su sitio web no tiene un SSL (por lo que va a ** http **: //yourjoomlasite.com), seleccione OAUTH1. Si tiene un SSL en su sitio (para que vaya a ** https **: //yourjoomlasite.com), seleccione OAUTH2.
-  * Haga clic en Nuevo, proporcione un nombre (puede ser lo que desee) y la URL completa de su Joomla. sitio ([https://yourjoomlasite.com] [6])
+  * Haga clic en Nuevo, proporcione un nombre (puede ser lo que desee) y la URL completa de su Joomla. sitio ([https://yourjoomlasite.com][6])
   * Haga clic en Guardar y cerrar.
   * Aquí puede obtener claves públicas y privadas.
   * Vaya a su sitio de Joomla y encuentre el complemento Mautic que instaló anteriormente.
@@ -59,16 +59,18 @@ Después de la instalación, debe crear e incrustar formularios en su sitio de J
 
 
 ## Conclusión: {#Conclusion}
-En este artículo hemos discutido cómo Mautic y Joomla juntos pueden ayudar en la automatización de marketing digital. Esta solución de marketing gratuita de código abierto le permitirá agrupar todos los contactos provenientes del sitio de Joomla y crear campañas de marketing que los usen. Mautic le permite crear segmentos, para que pueda ejecutar diferentes campañas en diferentes segmentos de acuerdo con sus necesidades. Consulte [Joomla] [7] y [Mautic] [8] blogs para obtener una descripción detallada.
+En este artículo hemos discutido cómo Mautic y Joomla juntos pueden ayudar en la automatización de marketing digital. Esta solución de marketing gratuita de código abierto le permitirá agrupar todos los contactos provenientes del sitio de Joomla y crear campañas de marketing que los usen. Mautic le permite crear segmentos, para que pueda ejecutar diferentes campañas en diferentes segmentos de acuerdo con sus necesidades. Consulte [Joomla][7] y [Mautic][8] blogs para obtener una descripción detallada.
 
 ## Explorar:
 Puede encontrar los siguientes enlaces relevantes:
-  * [Joomla] [7]
-  * [Mautic] [8]
-  * [Cómo configurar Mautic - Integración de Facebook] [9]
-  * [Integración de Drupal Mautic para automatizar la crianza de plomo] [10]
-  * [Automatización de marketing utilizando Mautic y WordPress WooCommerce] [11]
-  * [Cómo configurar campañas de marketing en Mautic] [12]
+  * [Joomla][7]
+  * [Mautic][8]
+  * [Cómo configurar Mautic - Integración de Facebook][9]
+  * [Integración de Drupal Mautic para automatizar la crianza de plomo][10]
+  * [Automatización de marketing utilizando Mautic y WordPress WooCommerce][11]
+  * [Cómo configurar campañas de marketing en Mautic][12]
+
+  
 [1]: #overview
 [2]: #plugin
 [3]: #mautic

@@ -12,11 +12,11 @@ categories: ['Single Sign-On']
 ## Este artículo explica la autenticación de dos factores en detalle y cómo se puede implementar en .NET 5 utilizando marcos de identidad como IdentityServer4 y un proveedor de SMS (TWILIO).
 {{_LINE_11_}}
 Contiene las siguientes secciones:
-  * [¿Qué es la autenticación de dos factores? ] [1]
-  * [¿Cómo funciona 2FA?] [2]
-  * [2fa y autenticación multifactor] [3]
-  * [Descartos de usar 2FA] [4]
-  * [Implementación de 2FA en .NET5] [5]
+  * [¿Qué es la autenticación de dos factores? ][1]
+  * [¿Cómo funciona 2FA?][2]
+  * [2fa y autenticación multifactor][3]
+  * [Descartos de usar 2FA][4]
+  * [Implementación de 2FA en .NET5][5]
 En primer lugar, comprendamos qué es 2FA y por qué necesita ser una parte integral de cada aplicación web moderna.
 
 ## ¿Qué es la autenticación de dos factores? {#2fa}
@@ -187,8 +187,10 @@ Se verifica el código del paso 4 y se ha completado la autenticación 2FA.
 
 
 ### Conclusión:
-En este artículo, hemos aprendido sobre 2FA y su implementación en .NET5 utilizando IdentityServer4 y Twilio. Puede descargar el código de muestra utilizado en este artículo de este [Repo] [6].
-El uso de SMS para 2FA seguramente fortalece su seguridad, pero todavía es vulnerable a [ataques de intercambio SIM] [7]. Por lo tanto, los investigadores de seguridad alentan a 2FA a utilizar otros enfoques como aplicaciones de autenticador y claves de seguridad ([yubikey] [8]) que no se pueden interceptar en la red telefónica. Aprenderemos más sobre eso en un próximo artículo: ¡estén atentos!
+En este artículo, hemos aprendido sobre 2FA y su implementación en .NET5 utilizando IdentityServer4 y Twilio. Puede descargar el código de muestra utilizado en este artículo de este [Repo][6].
+El uso de SMS para 2FA seguramente fortalece su seguridad, pero todavía es vulnerable a [ataques de intercambio SIM][7]. Por lo tanto, los investigadores de seguridad alentan a 2FA a utilizar otros enfoques como aplicaciones de autenticador y claves de seguridad ([yubikey][8]) que no se pueden interceptar en la red telefónica. Aprenderemos más sobre eso en un próximo artículo: ¡estén atentos!
+
+  
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

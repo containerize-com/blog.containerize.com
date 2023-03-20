@@ -50,14 +50,16 @@ Das beste Merkmal einer Open -Source -Software ist ihre Erweiterbarkeit. ** Ente
 
 ## Abschluss
 Dies ist das Ende dieses Blog -Beitrags. Daher kann das Erstellen eines selbst gehosteten sozialen Netzwerks ** für Ihr eigenes Unternehmen Ihr Unternehmen in Bezug auf die Effizienz steigern. Dieser Artikel kann Ihnen wirklich helfen, die richtige Wahl zu treffen, wenn Sie wirklich ein ** Open Source Social Network ** auf Ihren lokalen Servern oder in der Cloud bereitstellen möchten. Der Fortschritt des Geschäfts hängt vom Arbeitsumfeld ab. Solche Social -Networking -Apps bieten jedoch gemeinsame Räume, in denen Mitarbeiter und Top -Manager ihre Gedanken teilen und nach ihren Verständnissen bewerten können. Die Teilnehmer können ihre Standorte visuell auf einer eingebetteten Karte sehen und mit ihnen Video- oder Audioanrufe einrichten.
-Schließlich schreibt [Containerize.com] [1] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Social Network] [2] in Kontakt mit der Kategorie [Social Network] [2] für regelmäßige Updates.
+Schließlich schreibt [Containerize.com][1] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Social Network][2] in Kontakt mit der Kategorie [Social Network][2] für regelmäßige Updates.
 
 ## Erkunden {#explore}
 Möglicherweise finden Sie die folgenden Links relevant:
-  *** [Humhub] [3] **
-  *** [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [4] **
-  *** [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet] [5] **
-  *[** Top 5 Open -Source -Videokonferenzsoftware von 2021 **] [6]
+  *** [Humhub][3] **
+  *** [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][4] **
+  *** [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet][5] **
+  *[** Top 5 Open -Source -Videokonferenzsoftware von 2021 **][6]
+
+  
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/social-network-platforms/
 [3]: https://products.containerize.com/social-network-platforms/humhub/

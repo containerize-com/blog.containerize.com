@@ -71,16 +71,18 @@ Yoastseo aide les utilisateurs à voir à quoi leurs pages seront apparentées s
 
 ## ** pensée finale: ** {# 4A1A}
 Les cinq plates-formes de référencement open source mentionnées ci-dessus sont des solutions flexibles. Dans le cloud computing, vous trouverez de nombreuses solutions de stockage en cloud privé open source, mais trouver le plus fiable est le plus important. C’est le besoin de vous ou de votre organisation qui décide de la sélection du logiciel cloud. J'espère que cet article vous aidera à configurer un serveur cloud personnel sécurisé et fiable ou à choisir le meilleur service cloud pour stocker vos précieuses images, musique, films et documents.
-_Les quels sont vos outils de référencement favorables Favourite_ _Open Source et outils de marketing de moteur de recherche populaires? Si vous avez des questions, veuillez vous contacter] [1].
+_Les quels sont vos outils de référencement favorables Favourite_ _Open Source et outils de marketing de moteur de recherche populaires? Si vous avez des questions, veuillez vous contacter][1].
 
 ## Explorer:
 Nous avons également plusieurs autres articles relatifs à la gestion quotidienne de votre cloud.
-  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source] [2]
-  * [Comment installer NextCloud avec Apache sur Ubuntu Server] [3]
-  * [Installer et configurer OwnCloud avec Apache sur Ubuntu] [4]
-  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian] [5]
-  * [Sécuriser et crypter nginx avec Let's Encrypt sur Ubuntu 20.04] [6]
-  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian] [7]
+  * [Meilleur logiciel de stockage cloud et de partage de fichiers open source][2]
+  * [Comment installer NextCloud avec Apache sur Ubuntu Server][3]
+  * [Installer et configurer OwnCloud avec Apache sur Ubuntu][4]
+  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian][5]
+  * [Sécuriser et crypter nginx avec Let's Encrypt sur Ubuntu 20.04][6]
+  * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian][7]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/

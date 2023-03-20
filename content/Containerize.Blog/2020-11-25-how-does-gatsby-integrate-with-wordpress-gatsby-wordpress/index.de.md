@@ -17,16 +17,16 @@ categories: ['Blogging']
 ## Überblick
 Gatsbyjs ist ein kostenloser und open-Source-React-basiertes, von GraphQL betriebener statischer Site-Generator. Es verwendet leistungsstarke Vorkonfiguration, um eine Website zu erstellen, auf der nur statische Dateien für unglaublich schnelle Seite geladen werden. WordPress ist eine großartige Open -Source -Blogging -Plattform. Infolgedessen gibt es viele Leute, die wissen, wie sie herausfinden können, ob eine Website eine WordPress -Site ist, damit sie sie hacken und Informationen stehlen können. Wenn Sie Gatsby WordPress zusammen verwenden, erhalten Sie die gleiche Leistung des WordPress -Inhaltsmanagements und der Geschwindigkeit des Gatsby.
 In diesem Artikel werden wir uns ansehen, was Gatsby ist und warum Sie es mit CMS -Software verwenden müssen. Anschließend werden wir uns mit WordPress und Gatsby zusammen um ein erstaunliches Website -Erlebnis handeln. Lasst uns beginnen!
-  *[** Was ist Gatsby **?] [1]
-  *** [Vor- und Nachteile der Verwendung von WordPress und Gatsby] [2] **
-  *** [So verwenden Sie Gatsby mit WordPress] [3] **
-  *** [Schlussfolgerung] [4] **
+  *[** Was ist Gatsby **?][1]
+  *** [Vor- und Nachteile der Verwendung von WordPress und Gatsby][2] **
+  *** [So verwenden Sie Gatsby mit WordPress][3] **
+  *** [Schlussfolgerung][4] **
 
 ## Was ist Gatsby {#gatsby}
 Gatsby ist ein statischer Site -Generator. Dies bedeutet, dass Gatsby die statischen HTML -Dateien generiert, die auf den Server Ihrer Website hochgeladen werden. Wenn ein Besucher auf Ihrer Website landet, werden diese statischen Dateien seinem Browser zugestellt, anstatt dass der dynamische Inhalt WordPress im Allgemeinen dient. Es handelt sich um ein kostenloses und Open-Source-Framework, das auf React basiert und Entwicklern hilft, wahlförmige Websites und Apps zu erstellen.
 
 ## Vor- und Nachteile der Verwendung von WordPress und Gatsby {#Proscons}
-Gemäß Gatsbys offiziellem [Dokumenten] [5] haben sie einen Tisch zusammengestellt, für den die Kombination von Gatsby WordPress großartig ist und für die es nicht ist. Um die Leichtigkeit zu erleichtern, liste ich diese hier auf.
+Gemäß Gatsbys offiziellem [Dokumenten][5] haben sie einen Tisch zusammengestellt, für den die Kombination von Gatsby WordPress großartig ist und für die es nicht ist. Um die Leichtigkeit zu erleichtern, liste ich diese hier auf.
 {{_LINE_23_}}
 {{_LINE_24_}}
 {{_LINE_25_}}
@@ -106,7 +106,7 @@ Neben diesen offiziellen Punkten möchte ich einige Vor- und Nachteile der gemei
 {{_LINE_99_}}
 
 ## So verwenden Sie Gatsby mit WordPress {#Howto}
-Bevor Sie Gatsby installieren können, müssen Sie [NodeJS] [6] und [NPM] [7] in Ihrer Website -Umgebung installieren.
+Bevor Sie Gatsby installieren können, müssen Sie [NodeJS][6] und [NPM][7] in Ihrer Website -Umgebung installieren.
 
 ### Schritt 1 - Installieren Sie Gatsby
 ```
@@ -198,7 +198,9 @@ Nach dem Aufrufen aller Daten generiert Gatsby für jeden Beitrag eine Seite. Mi
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Gatsby WordPress -Tutorial haben wir von WordPress eine Gatsby -Website generiert. Wir haben gelernt, was die Vor- und Nachteile dieser beiden Open -Source -Software sind. Wir haben auch die Installation und Start mit der Gatsby -Entwicklungsumgebung behandelt.
-Schließlich schreibt [Containerize.com] [8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie "Open Source] [9] Plattform für regelmäßige Nachrichten und Updates in Kontakt.
+Schließlich schreibt [Containerize.com][8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie "Open Source][9] Plattform für regelmäßige Nachrichten und Updates in Kontakt.
+
+  
 [1]: #gatsby
 [2]: #proscons
 [3]: #howto

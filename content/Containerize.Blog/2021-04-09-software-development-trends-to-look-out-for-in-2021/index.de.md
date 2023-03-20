@@ -47,10 +47,12 @@ _Was sind Ihre beliebtesten Software -Trends? Haben Sie Fragen zu den neuesten S
 
 ## Erkunden
 Sie können die folgenden Links relevant finden:
-  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020] [2]
-  * [Wie dezentrale Technologie Ihre Geschäftsstrategie aktualisiert] [3]
-  * [Wie kostenlose Business Analytics -Tools Ihr Geschäft unterstützen] [4]
-  * [Wie die RAD -Software Ihnen hilft, das Geschäft auf das nächste Level zu steigern] [5]
+  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020][2]
+  * [Wie dezentrale Technologie Ihre Geschäftsstrategie aktualisiert][3]
+  * [Wie kostenlose Business Analytics -Tools Ihr Geschäft unterstützen][4]
+  * [Wie die RAD -Software Ihnen hilft, das Geschäft auf das nächste Level zu steigern][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

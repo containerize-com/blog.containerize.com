@@ -16,11 +16,11 @@ categories: ['Programming']
 
 
 ## Genel Bakış
-Önceki blog yazımızda [JavaScript vaatleri] [1] ele aldık ve JavaScript vaatlerinin arkasındaki kavramı net bir şekilde anlamak istiyorsanız ziyaret etmelisiniz. Bu [JavaScript Öğreticileri] [2] serisinde, JavaScript Async/Await'in modern özelliklerini gösterecek başka bir JavaScript kılavuzuyla buradayız. Bu blog yazısı, JavaScript vaatleri hakkında önceden bilgi sahibi olanlar içindir. Ayrıca, JavaScript**'de eşzamanlı/bekleyen ne olduğunu ve async/beklememiz gerektiğinde denemeye çalışacağız. Buna ek olarak, işleme hatalarını eşzamanlı/beklemeyle de karşılayacağız. Bu nedenle, bu konsepti işaretlemek için bu**JavaScript Async/Bekleyin Eğitici**tam olarak okuyun.
+Önceki blog yazımızda [JavaScript vaatleri][1] ele aldık ve JavaScript vaatlerinin arkasındaki kavramı net bir şekilde anlamak istiyorsanız ziyaret etmelisiniz. Bu [JavaScript Öğreticileri][2] serisinde, JavaScript Async/Await'in modern özelliklerini gösterecek başka bir JavaScript kılavuzuyla buradayız. Bu blog yazısı, JavaScript vaatleri hakkında önceden bilgi sahibi olanlar içindir. Ayrıca, JavaScript**'de eşzamanlı/bekleyen ne olduğunu ve async/beklememiz gerektiğinde denemeye çalışacağız. Buna ek olarak, işleme hatalarını eşzamanlı/beklemeyle de karşılayacağız. Bu nedenle, bu konsepti işaretlemek için bu**JavaScript Async/Bekleyin Eğitici**tam olarak okuyun.
 Bu JavaScript Async Bekleyen Eğitici'de aşağıdaki bölümlerden geçeceğiz:
-***[JavaScript'te Donenc/Weak Nedir | Async Sözdizimi Bekliyor] [3]**
-***[Async/Beklenir Ne Zaman Kullanılır?] [4]**
-***[Async/Await ile Hata İşleme] [5]**
+***[JavaScript'te Donenc/Weak Nedir | Async Sözdizimi Bekliyor][3]**
+***[Async/Beklenir Ne Zaman Kullanılır?][4]**
+***[Async/Await ile Hata İşleme][5]**
 
 ## JavaScript'te eşzamanlı/bekle | Async Sözdizimi {#What-Is-asyncawait-in-javascript-async-await-synTax}
 ECMAScript 2017, JavaScript ve Async/Await'in yeni özellikleri, bu özellikler arasında en yaygın olarak kullanılanlardan biridir. Async/Await vaatlerin üzerine inşa edilmiştir ve aslında JavaScript vaatlerini yerine getirmenin modern bir yoludur.
@@ -51,7 +51,7 @@ getValues().then(function(){
 
 {{< figure align=center src="images/async-await.png" alt="Async yakalamayı deneyin JavaScript">}}
 
-* * Async yakalamayı deneyin JavaScript**: Bu hata işleme yaklaşımıyla yeni bir şey yok. Ancak, aşağıdaki kod snippet'inde gösterildiği gibi bir async işlevinin içinde bir deneme/yakalama bloğu kullanabilirsiniz:
+**Async yakalamayı deneyin JavaScript**: Bu hata işleme yaklaşımıyla yeni bir şey yok. Ancak, aşağıdaki kod snippet'inde gösterildiği gibi bir async işlevinin içinde bir deneme/yakalama bloğu kullanabilirsiniz:
 ```
 async function getValues() {
   try{
@@ -91,29 +91,31 @@ getValues().catch(err){
 Bu**JavaScript Async Bekliyor öğretici**sona eriyoruz. Umarım JavaScript'te**neyi bekleyen**hakkında daha iyi bir anlayışa sahip olursunuz**. Ayrıca, kaynak kodunu daha az karmaşık hale getiren JavaScript Async Sözdizimi'nden geçtik. Bu JavaScript özelliği, zengin kullanımı ve performansı nedeniyle yaygın olarak kullanılmaktadır. Önümüzdeki günlerde, JS kavramları üzerinde güçlü bir komut alabilmeniz için JavaScript özellikleri ve kavramları üzerine daha fazla yazacağız. Dahası, "Ayrıca bakınız" bölümünde bahsedilen başka ilginç makaleler de vardır.
 
 ## Bizimle iletişime geçin
-Son olarak, [Containerize.com] [6] çeşitli heyecan verici konularda devam eden JavaScript öğreticileri sunmaktadır. [Facebook] [7], [LinkedIn] [8] ve [Twitter] [9] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek güncel kalabilirsiniz.
+Son olarak, [Containerize.com][6] çeşitli heyecan verici konularda devam eden JavaScript öğreticileri sunmaktadır. [Facebook][7], [LinkedIn][8] ve [Twitter][9] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek güncel kalabilirsiniz.
 
 ## Bir soru sor
-[Forum] [10] 'da sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][10] 'da sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-* * JavaScript'te örnekle eşzamansız ne bekliyor?**
-Async bekliyor kavramını anlamak için bunu [link] [3] ziyaret edebilirsiniz.
-* * Async Nedir Bekliyor vs Söz?**
+**JavaScript'te örnekle eşzamansız ne bekliyor?**
+Async bekliyor kavramını anlamak için bunu [link][3] ziyaret edebilirsiniz.
+**Async Nedir Bekliyor vs Söz?**
  * Async/Await, kaynak kodunu daha net ve okunabilir hale getirir ve vaat zincirinin kaynak kodunu bir karışıklık haline getirebileceği vaatlere kıyasla.
  * Hata işleme her iki yaklaşımda da oldukça benzerdir.
  * Async'de hata ayıklama daha az zordur.
  * Bekleyen, çözülmüş veya reddedilen devletleri korumak. Oysa Async/Weait ya çözülür veya reddedilir.
 
 ## Ayrıca bakınız
-  * [JavaScript'te söz nedir? | JavaScript öğreticisi] [1]
-  * [Sunucusuz bilgi işlem nedir? | Sunucusuz Mimari] [11]
-  * [Multitenancy nedir? | Neden çok kiracı bir yaklaşım?] [12]
-  * [Üretken AI nedir | Üretken yapay zeka] [13]
-  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder] [14]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [15]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [16]
-  * [Yapay Zekaya Giriş | AI nedir?] [17]
+  * [JavaScript'te söz nedir? | JavaScript öğreticisi][1]
+  * [Sunucusuz bilgi işlem nedir? | Sunucusuz Mimari][11]
+  * [Multitenancy nedir? | Neden çok kiracı bir yaklaşım?][12]
+  * [Üretken AI nedir | Üretken yapay zeka][13]
+  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder][14]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][15]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][16]
+  * [Yapay Zekaya Giriş | AI nedir?][17]
+
+  
 [1]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-AsyncAwait-in-JavaScript-Async-Await-Syntax

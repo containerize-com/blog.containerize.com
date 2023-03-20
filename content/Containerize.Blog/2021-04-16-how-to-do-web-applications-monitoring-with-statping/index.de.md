@@ -20,10 +20,10 @@ Schauen wir uns die Kernfunktionen der Stating an.
   *** Mobile App ** - Verwenden Sie kostenlose App für iPhone- und Android -Geräte und verwalten Sie alles unterwegs.
   *** OAuth Authenticatio ** n - unterstützt die OAuth -Authentifizierung für beliebte Dienste wie Github, Google, Slack und Custom OpenID -Anbieter. Verwenden Sie diese Funktion und erhöhen Sie die Sicherheit.
 Wir werden die folgenden Themen in diesem Tutorial behandeln.
-  * [Installation unter Linux] [1]
-  * [Systemd Service konfigurieren] [2]
-  * [Dienst für die Überwachung erstellen] [3]
-  * [Schlussfolgerung] [4]
+  * [Installation unter Linux][1]
+  * [Systemd Service konfigurieren][2]
+  * [Dienst für die Überwachung erstellen][3]
+  * [Schlussfolgerung][4]
 
 ## Installation auf Linux {#installing}
 Ausführen unten für die Stating -Installation.
@@ -71,17 +71,19 @@ systemctl start statping
 
 ## Schlussfolgerung {#Conclusion}
 Wir haben über Stating gelernt, wie man es unter Linux installiert und wie man in diesem Tutorial einen Systemd -Dienst erstellt. Darüber hinaus haben wir einen neuen Service erstellt, um Ihnen verschiedene Funktionen zu überwachen und vorzustellen. Wir hoffen, dass dieser Leitfaden Sie dabei unterstützen wird, die Stating für die Durchführung von ** Webdienstüberwachung zu verwenden ** und ** Webanwendungen Überwachung **.
-Schließlich befindet sich [** containerize.com **] [5] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher finden Sie in Kontakt mit dieser Kategorie [** Status **] [6] für die neuesten Updates.
+Schließlich befindet sich [** containerize.com **][5] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher finden Sie in Kontakt mit dieser Kategorie [** Status **][6] für die neuesten Updates.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  *[** Top 5 Open Source -Status -Seiten -Software für 2020 **] [7]
-  *[** Stating **] [8]
-  *[** Cachet **] [9]
-  *[** Monitoror **] [10]
-  *[** Aufenthalt **] [11]
-  *[** UPPTIME **] [12]
-  *[** Statusfy **] [13]
+  *[** Top 5 Open Source -Status -Seiten -Software für 2020 **][7]
+  *[** Stating **][8]
+  *[** Cachet **][9]
+  *[** Monitoror **][10]
+  *[** Aufenthalt **][11]
+  *[** UPPTIME **][12]
+  *[** Statusfy **][13]
+
+  
 [1]: #Installing
 [2]: #Configure
 [3]: #Create

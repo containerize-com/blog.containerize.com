@@ -25,9 +25,9 @@ Kami dapat menerapkan multi-tenancy dengan menggunakan pendekatan berikut.
   * Database bersama untuk semua penyewa.
   * Database terpisah untuk setiap penyewa.
 Kami akan menggunakan database terpisah untuk setiap pendekatan penyewa untuk mengimplementasikan multi-tenancy di Phplist.
-  * [Menangani aliran permintaan] [1]
-  * [Pengaturan Basis Data untuk Penyewa] [2]
-  * [Konfigurasikan nginx untuk penyewa] [3]
+  * [Menangani aliran permintaan][1]
+  * [Pengaturan Basis Data untuk Penyewa][2]
+  * [Konfigurasikan nginx untuk penyewa][3]
 
 ## menangani aliran permintaan {#Request}
   * Ambil cadangan file config.php Anda dan Anda dapat menemukannya di bawah direktori config.
@@ -63,11 +63,13 @@ Perangkat lunak multi-tenancy memiliki beberapa keunggulan dibandingkan dengan a
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [PhPlist - Open Source Newsletter dan Perangkat Lunak Pemasaran Email] [4]
-  * [Cara membuat dan mengirim buletin menggunakan PhPlist] [5]
-  * [Cara Mengatur dan Memproses Bouncing di PhPlist] [6]
-  * [Panduan Pemula untuk Mengembangkan Plugin PhPlist] [7]
-  * [Pengaturan Advanced Bounce Management dan Bounce Rules in Phplist] [8]
+  * [PhPlist - Open Source Newsletter dan Perangkat Lunak Pemasaran Email][4]
+  * [Cara membuat dan mengirim buletin menggunakan PhPlist][5]
+  * [Cara Mengatur dan Memproses Bouncing di PhPlist][6]
+  * [Panduan Pemula untuk Mengembangkan Plugin PhPlist][7]
+  * [Pengaturan Advanced Bounce Management dan Bounce Rules in Phplist][8]
+
+  
 [1]: #request
 [2]: #database
 [3]: #nginx

@@ -50,14 +50,16 @@ Karakteristik terbaik dari perangkat lunak sumber terbuka adalah ekstensibilitas
 
 ## Kesimpulan
 Ini adalah akhir dari posting blog ini. Oleh karena itu, membangun jejaring sosial self -host ** untuk bisnis Anda sendiri dapat meningkatkan bisnis Anda dalam hal efisiensi. Artikel ini benar -benar dapat membantu Anda dalam membuat pilihan yang tepat jika Anda benar -benar ingin menggunakan jejaring sosial open source ** ** di server lokal Anda atau di cloud. Kemajuan bisnis tergantung pada lingkungan kerja. Namun, aplikasi jejaring sosial semacam itu menyediakan ruang bersama di mana karyawan dan manajer puncak dapat berbagi pemikiran mereka dan mengevaluasinya sesuai pemahaman mereka. Peserta dapat secara visual melihat lokasi mereka di peta tertanam dan dapat membuat panggilan video atau audio dengan mereka.
-Akhirnya, [containerize.com] [1] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [platform jejaring sosial] [2] untuk pembaruan rutin.
+Akhirnya, [containerize.com][1] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [platform jejaring sosial][2] untuk pembaruan rutin.
 
 ## Jelajahi {#Explore}
 Anda mungkin menemukan tautan berikut yang relevan:
-  *** [humhub] [3] **
-  *** [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [4] **
-  *** [hal -hal yang harus ditinjau sebelum memilih perangkat lunak open source pada tahun 2021] [5] **
-  *[** Perangkat Lunak Konferensi Video Open Source Teratas 2021 **] [6]
+  *** [humhub][3] **
+  *** [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][4] **
+  *** [hal -hal yang harus ditinjau sebelum memilih perangkat lunak open source pada tahun 2021][5] **
+  *[** Perangkat Lunak Konferensi Video Open Source Teratas 2021 **][6]
+
+  
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/social-network-platforms/
 [3]: https://products.containerize.com/social-network-platforms/humhub/

@@ -15,18 +15,18 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 
 ## Descripción general
-¿Tiene un sitio web [de WordPress] [1] en ejecución? ¿Está buscando rastrear y analizar información importante de datos de su sitio web? Este es el lugar correcto al que ha llegado a donde vamos a instalar ** Matomo para WordPress **. Hay millones de sitios web individuales y comerciales que están respaldados por WordPress. Se debe a ciertos factores importantes que WordPress ofrece, como eficiencia, robustez, una rica pila de complementos y mucho más. Por otro lado, es el trabajo más importante para vigilar el rendimiento general del sitio web. Por lo tanto, hay muchos ** software de análisis web ** como [Google Analytics Tool] [2], ahrefs.com y muchos más. Estas herramientas proporcionan una amplia gama de características que ayudan a los webmasters a rastrear y analizar fragmentos de datos importantes. De hecho, estas herramientas no son demasiado fáciles de entender y vienen con modelos de trabajo complejos.
-Sin embargo, la comunidad de código abierto ha desarrollado algunos software de análisis web que ofrece características similares pero en un comportamiento fácil y recto. [Matomo] [3] es una de esas soluciones de BI de código abierto que proporciona información vital del sitio web. En esta publicación de blog, instalaremos Matomo para WordPress cubriendo los siguientes puntos.
-  *** [¿Qué es Matomo?] [4] **
-  *** [Pasos de instalación de Matomo para WordPress] [5] **
-  *** [Panel de Matomo] [6] **
-  *** [Conclusión] [7] **
+¿Tiene un sitio web [de WordPress][1] en ejecución? ¿Está buscando rastrear y analizar información importante de datos de su sitio web? Este es el lugar correcto al que ha llegado a donde vamos a instalar ** Matomo para WordPress **. Hay millones de sitios web individuales y comerciales que están respaldados por WordPress. Se debe a ciertos factores importantes que WordPress ofrece, como eficiencia, robustez, una rica pila de complementos y mucho más. Por otro lado, es el trabajo más importante para vigilar el rendimiento general del sitio web. Por lo tanto, hay muchos ** software de análisis web ** como [Google Analytics Tool][2], ahrefs.com y muchos más. Estas herramientas proporcionan una amplia gama de características que ayudan a los webmasters a rastrear y analizar fragmentos de datos importantes. De hecho, estas herramientas no son demasiado fáciles de entender y vienen con modelos de trabajo complejos.
+Sin embargo, la comunidad de código abierto ha desarrollado algunos software de análisis web que ofrece características similares pero en un comportamiento fácil y recto. [Matomo][3] es una de esas soluciones de BI de código abierto que proporciona información vital del sitio web. En esta publicación de blog, instalaremos Matomo para WordPress cubriendo los siguientes puntos.
+  *** [¿Qué es Matomo?][4] **
+  *** [Pasos de instalación de Matomo para WordPress][5] **
+  *** [Panel de Matomo][6] **
+  *** [Conclusión][7] **
 
 ## ¿Qué es Matomo? {#Qué}
-[Matomo] [3] es un software de inteligencia empresarial gratuito y de código abierto. Es altamente personalizable y viene con capacidades de autohosting. Además, Matomo permite a los propietarios de sitios agregar usuarios y sitios web ilimitados y ofrece la máxima privacidad, integridad de datos y control. Tiene un tablero intuitivo que muestra información completa sobre visitantes, ubicación y demografía. Este software de análisis web ofrece muchas características potentes que incluyen privacidad de datos, tablero personalizable y permite a los usuarios importar datos de Google Analytics. Además, este software de análisis de código abierto ** ** cumple con GDPR y CNIL. Además, esta solución gratuita de BI está escrita en PHP y JavaScript. Además, los usuarios pueden encontrar toda la documentación con respecto al desarrollo y la implementación. Además, los usuarios pueden encontrar los archivos del código fuente en [GitHub] [8].
+[Matomo][3] es un software de inteligencia empresarial gratuito y de código abierto. Es altamente personalizable y viene con capacidades de autohosting. Además, Matomo permite a los propietarios de sitios agregar usuarios y sitios web ilimitados y ofrece la máxima privacidad, integridad de datos y control. Tiene un tablero intuitivo que muestra información completa sobre visitantes, ubicación y demografía. Este software de análisis web ofrece muchas características potentes que incluyen privacidad de datos, tablero personalizable y permite a los usuarios importar datos de Google Analytics. Además, este software de análisis de código abierto ** ** cumple con GDPR y CNIL. Además, esta solución gratuita de BI está escrita en PHP y JavaScript. Además, los usuarios pueden encontrar toda la documentación con respecto al desarrollo y la implementación. Además, los usuarios pueden encontrar los archivos del código fuente en [GitHub][8].
 
 ## Pasos de instalación de Matomo para WordPress {#Install}
-En esta sección, analizaremos los pasos de instalación de Matomo para WordPress. De hecho, esta plataforma de blogs de código abierto tiene una comunidad de desarrolladores muy vibrante y activa que ha desarrollado una serie de características poderosas para cumplir con los requisitos del usuario. Por lo tanto, puede encontrar el complemento ** Matomo ** fácilmente entrando en el grupo de complementos de WordPress. Por lo tanto, es lo suficientemente bueno si ha configurado WordPress. De lo contrario, puede seguir las instrucciones dadas en este [enlace] [1] para instalar y configurar WordPress. En primer lugar, abra su tablero de WordPress, vaya a los complementos y presione el botón "Agregar nuevo".
+En esta sección, analizaremos los pasos de instalación de Matomo para WordPress. De hecho, esta plataforma de blogs de código abierto tiene una comunidad de desarrolladores muy vibrante y activa que ha desarrollado una serie de características poderosas para cumplir con los requisitos del usuario. Por lo tanto, puede encontrar el complemento ** Matomo ** fácilmente entrando en el grupo de complementos de WordPress. Por lo tanto, es lo suficientemente bueno si ha configurado WordPress. De lo contrario, puede seguir las instrucciones dadas en este [enlace][1] para instalar y configurar WordPress. En primer lugar, abra su tablero de WordPress, vaya a los complementos y presione el botón "Agregar nuevo".
 Ahora, vaya a la barra de búsqueda y busque "Matomo" y encontrará el complemento Matomo Analytics como se muestra en la imagen a continuación.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-00.02.00-1024x466.png" alt="Matomo para WordPress">}}
@@ -50,17 +50,19 @@ Al igual que Google Analytics, hay una opción de adquisición que ofrece una id
 
 ## conclusión {#conclusion}
 Esto nos lleva al final de este ** Tutorial de WordPress ** Publicación de blog. En este artículo, hemos pasado por los dos software de código abierto más utilizado WordPress y Matomo. Aprendimos el proceso de instalación de ** Matomo para WordPress ** y buscamos las características. Este complemento abierto ** Matomo ** muestra los datos visualmente con la ayuda de filtros que ahorran un tiempo inmenso. Esta publicación de blog realmente lo ayudará si está buscando instalar un software de análisis web para el sitio web de su negocio. Puede encontrar más opciones y enlaces en la sección Explorar a continuación.
-Finalmente, [Contenerize.com] [9] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con [[Blogging] [10]] [11] y [Software de inteligencia empresarial] [12] Categorías para noticias y actualizaciones regulares.
+Finalmente, [Contenerize.com][9] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con [[Blogging][10]][11] y [Software de inteligencia empresarial][12] Categorías para noticias y actualizaciones regulares.
 
 ## Explorar
-  * [Matomo] [3]
-  * [Plausible] [13]
-  * [WordPress] [1]
-  * [Jekyll] [14]
-  * [Cómo las herramientas de análisis de negocios gratuitos ayudan a su negocio] [15]
-  * [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021] [16]
-  * [Cómo instalar complemento en WordPress | Foro de vainilla] [17]
-  * [Aumente sus clientes potenciales con la integración gratuita de WordPress CivicRM] [18]
+  * [Matomo][3]
+  * [Plausible][13]
+  * [WordPress][1]
+  * [Jekyll][14]
+  * [Cómo las herramientas de análisis de negocios gratuitos ayudan a su negocio][15]
+  * [Top 5 Herramientas de inteligencia empresarial de código abierto de 2021][16]
+  * [Cómo instalar complemento en WordPress | Foro de vainilla][17]
+  * [Aumente sus clientes potenciales con la integración gratuita de WordPress CivicRM][18]
+
+  
 [1]: https://products.containerize.com/blogging/wordpress/
 [2]: https://analytics.google.com/analytics/web/
 [3]: https://products.containerize.com/business-intelligence/matomo

@@ -14,10 +14,10 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket.png" alt="Como configurar o software de suporte técnico on -line usando osticket">}}
 
 OSTICKET é uma solução de software de suporte técnico on -line de código aberto. Osticket helpdesk é uma alternativa gratuita a sistemas de suporte ao cliente de alto custo e complexos. É simples, leve, confiável, baseado na Web e fácil de configurar e usar. A melhor parte é que é totalmente gratuito. Abordaremos as seguintes seções neste tutorial:
-  * [O que é osticket?] [1]
-  * [Prós e contras do Osticket] [2]
-  * [Como configurar osticket?] [3]
-  * [Conclusão] [4]
+  * [O que é osticket?][1]
+  * [Prós e contras do Osticket][2]
+  * [Como configurar osticket?][3]
+  * [Conclusão][4]
 
 ## O que é osticket? {#osticket}
 OSTICKET fornece um painel de controle amigável e um componente de relatório em tempo real. Os usuários podem simplesmente fazer login e criar os ingressos em algumas etapas fáceis. Eles podem criar ingressos através do seu site, email ou telefone. Os ingressos recebidos serão salvos e atribuídos aos agentes. Os agentes receberão notificações por e -mail e responderão às consultas para ajudar a resolver seus problemas. Clientes e agentes podem discutir detalhes e progredir na seção de comentários. Os clientes podem acompanhar suas solicitações e progredir através do portal de clientes interno fornecido por este software de suporte técnico on-line.
@@ -153,11 +153,13 @@ chmod 0644 include/ost-config.php
 Osticket é mais adequado para empresas com baixo orçamento ou aquelas que desejam um sistema de suporte simples e não complexo. É simples, leve, leve, confiável, de código aberto e software de suporte on -line totalmente gratuito. O que faz do Osticket uma ótima alternativa aos sistemas de suporte ao cliente de maior custo. Para saber mais sobre os recursos de oticket e o guia de instalação, consulte o seguinte tutorial.
 
 ## Explore
-[Melhor código aberto e software de suporte de TI gratuito] [5]
-[Helpdesk e sistema de atendimento ao cliente gratuito baseado em bilhetes gratuitos] [6]
-[Um guia para iniciantes para desenvolver o plugin de Osticket] [7]
-[Como implementar a multiestância em osticket] [8]
-[Automatize o sistema de ticketing usando o WordPress e o Osticket] [9]
+[Melhor código aberto e software de suporte de TI gratuito][5]
+[Helpdesk e sistema de atendimento ao cliente gratuito baseado em bilhetes gratuitos][6]
+[Um guia para iniciantes para desenvolver o plugin de Osticket][7]
+[Como implementar a multiestância em osticket][8]
+[Automatize o sistema de ticketing usando o WordPress e o Osticket][9]
+
+  
 [1]: #osticket
 [2]: #pros
 [3]: #how

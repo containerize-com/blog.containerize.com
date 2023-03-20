@@ -76,7 +76,7 @@ Terminalde, ilk kez PhpmyAdmin MySQL veritabanını yüklediğinizde bir kök ş
 ```
 sudo mysql -u root -p
 ```
-MySQL'e giriş yaptıktan sonra, seçtiğiniz kullanıcı adı ile yeni bir MySQL süper kullanıcısı ekleyin. Bu örnekte buna Yasiradmin diyoruz. [Güçlü bir şifre oluşturmak için buraya tıklayın] [2] ve aşağıdaki yeni \ _password \ _Here'nin değiştirin.
+MySQL'e giriş yaptıktan sonra, seçtiğiniz kullanıcı adı ile yeni bir MySQL süper kullanıcısı ekleyin. Bu örnekte buna Yasiradmin diyoruz. [Güçlü bir şifre oluşturmak için buraya tıklayın][2] ve aşağıdaki yeni \ _password \ _Here'nin değiştirin.
 ```
 CREATE USER 'yasiradmin'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -95,7 +95,7 @@ Daha sonra, ek bir güvenlik katmanı sağlamak için Nginx'te kimlik doğrulama
 ```
 sudo apt install apache2-utils
 ```
-Yüklendikten sonra .htpasswd dosyasını oluşturabiliriz. Seçtiğiniz kullanıcı adını değiştirin. [Bir şifre oluşturun] [3] ve güvende tutun.
+Yüklendikten sonra .htpasswd dosyasını oluşturabiliriz. Seçtiğiniz kullanıcı adını değiştirin. [Bir şifre oluşturun][3] ve güvende tutun.
 ```
 sudo htpasswd -c /etc/nginx/.htpasswd username
 ```
@@ -136,11 +136,13 @@ Sorularınız varsa, yorum bölümünde bana aşağıda anlatmaktan çekinmeyin.
 
 ## Keşfetmek
 Aşağıdaki daha ilgili makaleleri de beğenebilirsiniz:
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [4]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i nasıl güvence altına alır ve şifrelersiniz] [5]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteği nasıl yapılandırılır] [6]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx Nasıl Kurulur] [7]
-  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır] [8]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][4]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i nasıl güvence altına alır ve şifrelersiniz][5]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteği nasıl yapılandırılır][6]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx Nasıl Kurulur][7]
+  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır][8]
+
+  
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

@@ -17,13 +17,13 @@ O software Business Intelligence Analytics converte os dados brutos em informaç
 ## Visão geral
 No momento atual, os dados são a coisa mais importante em qualquer organização. As empresas corporativas contêm grandes dados que normalmente estão em forma bruta e, portanto, difíceis de analisar. Portanto, o setor de tecnologia sentiu a necessidade de uma solução que deveria converter os dados brutos em uma forma útil e significativa. De fato, existe uma população enorme que se tornou ativa na Internet e alavanca muitos tipos de aplicativos, como aplicativos de jogo, aplicativos de transferência de dados, aplicativos de mídia social e etc. Portanto, não é menos que um desafio reunir, armazenar, armazenar, Compilar e analisar os dados para várias operações comerciais.
 A Comunidade de código aberto desenvolveu vários projetos de inteligência de negócios gratuitos e auto-hospedados que oferecem recursos de nível corporativo para empresas. No entanto, existem muitos sistemas de inteligência de negócios de código aberto ** disponíveis que automatizam os processos de coleta de dados e transformando -os em informações. Nesta postagem do blog, abordaremos os seguintes pontos.
-  *** [O que é inteligência de negócios?] [1] **
-  *** [funcionalidades da inteligência de negócios] [2] **
-  *** [Como o software de inteligência de negócios melhora seus negócios?] [3] **
-  *** [Conclusão] [4] **
+  *** [O que é inteligência de negócios?][1] **
+  *** [funcionalidades da inteligência de negócios][2] **
+  *** [Como o software de inteligência de negócios melhora seus negócios?][3] **
+  *** [Conclusão][4] **
 
 ## O que é inteligência de negócios? {#o que}
-[] [5] [Business Intelligence] [6] é um processo de acordo com o qual as entidades comerciais coletam e organizam dados em formas legíveis e compreensíveis. Existem muitas ferramentas de bi top ** que são usadas para apresentar dados em forma visual, para que as partes interessadas possam ter toda a idéia à primeira vista. Esses softwares gratuitos de BI e análise executam processos integrados em dados brutos e, em seguida, gerenciam e estruturam esses dados usando várias metodologias. Além disso, os projetos de inteligência de negócios ** permitem que os usuários observem e rastreem a mudança em tempo real nos dados. Além disso, ** Business Intelligence Solutions ** fornece integração perfeita com aplicativos de terceiros para aprimorar a experiência e o escopo dessas ferramentas gratuitas.
+[][5][Business Intelligence][6] é um processo de acordo com o qual as entidades comerciais coletam e organizam dados em formas legíveis e compreensíveis. Existem muitas ferramentas de bi top ** que são usadas para apresentar dados em forma visual, para que as partes interessadas possam ter toda a idéia à primeira vista. Esses softwares gratuitos de BI e análise executam processos integrados em dados brutos e, em seguida, gerenciam e estruturam esses dados usando várias metodologias. Além disso, os projetos de inteligência de negócios ** permitem que os usuários observem e rastreem a mudança em tempo real nos dados. Além disso, ** Business Intelligence Solutions ** fornece integração perfeita com aplicativos de terceiros para aprimorar a experiência e o escopo dessas ferramentas gratuitas.
 Essas soluções estão equipadas com recursos abrangentes para fornecer informações detalhadas sobre dados, comportamento do visitante do site, localização do visitante, demografia e, portanto, são consideradas alternativas do Google Analytics. As interfaces do usuário são altamente informativas devido a vários widgets que não apenas mostram dados em números, mas também fazem uso de visuais. Além disso, os usuários podem modificar o tema e a posição de vários widgets conforme suas escolhas. ** Software da Web Analytics ** Use algoritmos para executar análises em dados para prever tendências e direções futuras.
 
 ## funcionalidades da inteligência de negócios {#function}
@@ -44,18 +44,20 @@ Nesta seção, destacaremos alguns dos principais pontos -chave que ajudam um ne
 
 ## Conclusão {#conclusion}
 As ferramentas de inteligência de negócios e análise de negócios se tornaram uma parte importante de qualquer negócio de sucesso. Tais soluções fornecem informações úteis sobre o desempenho passado e presente de uma organização, prevendo o futuro. A demanda por projetos de inteligência de negócios gratuitos e de código aberto está aumentando com o passar do tempo. Há uma enorme base de desenvolvedores que está fazendo ativamente desenvolvimento para melhorar essas ** soluções de inteligência de negócios ** com a ajuda de inteligência artificial e aprendizado de máquina. No entanto, passamos por alguns aspectos importantes do código aberto ** Sistemas de inteligência de negócios ** em relação ao crescimento e progresso dos negócios. Esta postagem do blog o ajudará se você deseja implantar um software de análise da web de código aberto. Existem muitas ferramentas de código aberto ** TOP BI ** Alistado na seção Explorar abaixo.
-Finalmente, [contendeRize.com] [7] está prosperando para aprimorar seu balde de tutoriais que inclui outras soluções de BI de código aberto. Portanto, mantenha -se conectado com a categoria [Business Intelligence Software] [6] para as atualizações mais recentes.
+Finalmente, [contendeRize.com][7] está prosperando para aprimorar seu balde de tutoriais que inclui outras soluções de BI de código aberto. Portanto, mantenha -se conectado com a categoria [Business Intelligence Software][6] para as atualizações mais recentes.
 
 ## Explore
-  * [Matomo] [8]
-  * [Plausível] [9]
-  * [Contábil] [10]
-  * [Hipercable] [11]
-  * [Posthog] [12]
-  * [Como as ferramentas gratuitas de análise de negócios ajudam sua empresa] [13]
-  * [Top 5 Ferramentas de inteligência de negócios de código aberto de 2021] [14]
-  * [Coisas para revisar antes de optar por software de código aberto em 2021] [15]
-  * [Matomo vs plausível | Alternativas do Google Analytics] [16]
+  * [Matomo][8]
+  * [Plausível][9]
+  * [Contábil][10]
+  * [Hipercable][11]
+  * [Posthog][12]
+  * [Como as ferramentas gratuitas de análise de negócios ajudam sua empresa][13]
+  * [Top 5 Ferramentas de inteligência de negócios de código aberto de 2021][14]
+  * [Coisas para revisar antes de optar por software de código aberto em 2021][15]
+  * [Matomo vs plausível | Alternativas do Google Analytics][16]
+
+  
 [1]: #what
 [2]: #function
 [3]: #how

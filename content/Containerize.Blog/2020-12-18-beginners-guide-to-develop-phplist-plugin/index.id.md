@@ -19,10 +19,10 @@ Aplikasi mendukung plugin karena banyak alasan dan beberapa di antaranya adalah:
   * Mengizinkan pengembang untuk membuat fitur baru.
   * Kurangi ukuran perangkat lunak.
 Kami akan membahas topik di bawah ini secara rinci dalam tutorial ini.
-  *[** Prasyarat **] [2]
-  *[** Dasar -dasar pengembangan plugin Phplist **] [3]
-  *[** Buat plugin PhPlist kami **] [4]
-  *[** Kesimpulan **] [5]
+  *[** Prasyarat **][2]
+  *[** Dasar -dasar pengembangan plugin Phplist **][3]
+  *[** Buat plugin PhPlist kami **][4]
+  *[** Kesimpulan **][5]
 
 ## Prasyarat {#req}
   * Versi terbaru dari PhPlist.
@@ -78,18 +78,20 @@ Anda dapat mengakses plugin Anda dengan url berikut seperti http://example.com/a
 
 ## kesimpulan {#con}
 Kami telah mempelajari dasar -dasar ** plugin Phplist ** pengembangan dan membuat plugin sampel. Sebagai titik awal, Anda dapat mengikuti pedoman ini dan mengeksplorasi lebih lanjut pengembangan plugin untuk meningkatkan fungsionalitas.
-Akhirnya, [** containerize.com **] [6] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** buletin **] [7] ini untuk pembaruan terbaru.
+Akhirnya, [** containerize.com **][6] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** buletin **][7] ini untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan.
-  *[** PhPlist **] [8]
-  *[** Mailtrain **] [9]
-  *[** ListMonk **] [10]
-  *[** moonmail **] [11]
-  *[** Mailman **] [12]
-  *[** Perangkat lunak buletin Open Source Top di 2021 **] [13]
-  *[** Cara Mengkonfigurasi Aplikasi Multi-Tenant di PhPlist **] [14]
-  *[** Cara membuat dan mengirim buletin menggunakan PhPlist **] [15]
+  *[** PhPlist **][8]
+  *[** Mailtrain **][9]
+  *[** ListMonk **][10]
+  *[** moonmail **][11]
+  *[** Mailman **][12]
+  *[** Perangkat lunak buletin Open Source Top di 2021 **][13]
+  *[** Cara Mengkonfigurasi Aplikasi Multi-Tenant di PhPlist **][14]
+  *[** Cara membuat dan mengirim buletin menggunakan PhPlist **][15]
+
+  
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #Req
 [3]: #Basics

@@ -43,14 +43,16 @@ O desenvolvimento de baixo código para codificar aplicativos através de interf
 
 ## ** CONCLUSÃO **: {#conclusion}
 Nos últimos anos, o avanço no desenvolvimento de software tornou necessário que as empresas continuassem. Para profissionais e desenvolvedores de tecnologia de software, as tendências de desenvolvimento de software tendem a indicar para onde o setor está indo. Novas tendências no desenvolvimento de software 2021, métodos e preferências do cliente podem ser indicadores -chave sobre onde você deve focar suas habilidades de desenvolvimento. Ficar no topo das novas e mais recentes tendências tecnológicas é uma ótima maneira de melhorar suas habilidades de desenvolvimento de software.
-_O que são suas tendências de software mais favoritas?. Você tem alguma dúvida sobre as mais recentes tendências de software?, Por favor [[entre em contato] [1].
+_O que são suas tendências de software mais favoritas?. Você tem alguma dúvida sobre as mais recentes tendências de software?, Por favor [[entre em contato][1].
 
 ## Explore
 Você pode encontrar links a seguir relevantes:
-  * [5 principais plataformas de blockchain de código aberto em 2020] [2]
-  * [Como a tecnologia descentralizada atualiza sua estratégia de negócios] [3]
-  * [Como as ferramentas gratuitas de análise de negócios ajudam sua empresa] [4]
-  * [Como o software RAD ajuda você a cultivar negócios para o próximo nível] [5]
+  * [5 principais plataformas de blockchain de código aberto em 2020][2]
+  * [Como a tecnologia descentralizada atualiza sua estratégia de negócios][3]
+  * [Como as ferramentas gratuitas de análise de negócios ajudam sua empresa][4]
+  * [Como o software RAD ajuda você a cultivar negócios para o próximo nível][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

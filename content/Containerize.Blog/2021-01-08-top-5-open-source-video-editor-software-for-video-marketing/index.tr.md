@@ -15,27 +15,27 @@ categories: ['Video Editing Software']
 
 
 ## Genel Bakış
-Yakın geçmişte, ücretsiz video oluşturma araçları hakkında bazı blog yayınları yayınladık. İlk blog yazısı [** Video pazarlamasının iş **] [1] üzerindeki etkisi hakkında konuştu ve ikinci blog yazısı popüler bir video editörü openshot **] [2] [** öğretici bir makaleydi.
+Yakın geçmişte, ücretsiz video oluşturma araçları hakkında bazı blog yayınları yayınladık. İlk blog yazısı [** Video pazarlamasının iş **][1] üzerindeki etkisi hakkında konuştu ve ikinci blog yazısı popüler bir video editörü openshot **][2][** öğretici bir makaleydi.
 Bu blog yazısında, aşağıdaki video editörü yazılımının kısa tanıtımını ele alacağız.
-  *** [OpenShot] [3] **
-  *[** Shotcut **] [4]
-  *** [Flowblade] [5] **
-  *** [Kdenlive] [6] **
-  *** [Blender] [7] **
-  *** [Sonuç] [8] **
+  *** [OpenShot][3] **
+  *[** Shotcut **][4]
+  *** [Flowblade][5] **
+  *** [Kdenlive][6] **
+  *** [Blender][7] **
+  *** [Sonuç][8] **
 
 ## openshot {#openshot}
-[OpenShot] [9] açık kaynaklı bir platform ve ödüllü video editörüdür. Kesme, dilimleme, efektler, 2D 3D animasyonlar ve kullanıcı dostu arayüz gibi birçok güçlü özellik sağlar. Ayrıca, dosyalarınızı sürükleyip bırakabileceğiniz REST API ve masaüstü entegrasyonları sağladığı için video yapmak için en iyi platformdur. Bu açık kaynaklı yazılım çok dilli, sağlam ve güvenlidir. Ayrıca, konuşlandırma ve geliştirme ile ilgili kapsamlı belgeler mevcuttur. Openshot Python'da yazılmıştır. Bu nedenle, tüm kaynak kodu [GitHub] [10] 'da mevcuttur.
+[OpenShot][9] açık kaynaklı bir platform ve ödüllü video editörüdür. Kesme, dilimleme, efektler, 2D 3D animasyonlar ve kullanıcı dostu arayüz gibi birçok güçlü özellik sağlar. Ayrıca, dosyalarınızı sürükleyip bırakabileceğiniz REST API ve masaüstü entegrasyonları sağladığı için video yapmak için en iyi platformdur. Bu açık kaynaklı yazılım çok dilli, sağlam ve güvenlidir. Ayrıca, konuşlandırma ve geliştirme ile ilgili kapsamlı belgeler mevcuttur. Openshot Python'da yazılmıştır. Bu nedenle, tüm kaynak kodu [GitHub][10] 'da mevcuttur.
 Aşağıda öne çıkan özellikler:
   * RESTful arayüzü
   * Çoklu video efekt
   * Zaman Çizelgesi Önizlemesi
   * Güvenli
   * Proxy düzenleme
-[Openshot hakkında daha fazla bilgi edinin] [11]
+[Openshot hakkında daha fazla bilgi edinin][11]
 
 ## SHOTCUT {#Shotcut}
-[SHOTCUT] [12] birçok güçlü özelliğe sahip bir başka ücretsiz açık kaynaklı video üreticisidir. Çok platformlu ve özelleştirilebilir. Ayrıca, bu video düzenleme yazılımında yüksek kaliteli 360 ° video filtreleri ve efektleri vardır. Shotcut Video Maker, TIFF, BMP, GIF, TGA, WebP, PNG, JPEG, SVG ve JPEG gibi tüm popüler görüntü formatlarına destek sağlar. Shotcut, harici bir sürücüden taşınabilir bir uygulama olarak çalışabilir. Ancak, bu yazılım C ++, QML ve JavaScript'te yazılmıştır ve tüm kaynak kodu [GitHub] [13] 'te mevcuttur.
+[SHOTCUT][12] birçok güçlü özelliğe sahip bir başka ücretsiz açık kaynaklı video üreticisidir. Çok platformlu ve özelleştirilebilir. Ayrıca, bu video düzenleme yazılımında yüksek kaliteli 360 ° video filtreleri ve efektleri vardır. Shotcut Video Maker, TIFF, BMP, GIF, TGA, WebP, PNG, JPEG, SVG ve JPEG gibi tüm popüler görüntü formatlarına destek sağlar. Shotcut, harici bir sürücüden taşınabilir bir uygulama olarak çalışabilir. Ancak, bu yazılım C ++, QML ve JavaScript'te yazılmıştır ve tüm kaynak kodu [GitHub][13] 'te mevcuttur.
 Shotcut aşağıdaki önemli özelliklere sahiptir:
   * 3 noktalı düzenleme
   * Donanım desteği
@@ -43,49 +43,51 @@ Shotcut aşağıdaki önemli özelliklere sahiptir:
   * Çok dilli
   * Web kamerası yakalama
   * Video kalitesi ölçümü
-[Shotcut hakkında daha fazla bilgi edinin] [14]
+[Shotcut hakkında daha fazla bilgi edinin][14]
 
 ## flowblade {#flowblade}
-[Flowblade] [15] yetkin bir çoklu siteli açık kaynaklı video yaratıcısıdır. Bir sürükleme ve damla kullanıcı arayüzü içeren zengin video düzenleme özellikleri ile birlikte gelir. Ayrıca, bu video düzenleyicisi açık kaynaklı görüntü filtreleme teknolojisi G’Mic kullanır. Zaman çizelgesi ses senkronizasyonu, video kliplerin bölünmesi, birleştirilmiş görüntüler ve tam parça birleştirme modu gibi güçlü kontroller vardır. Flowblade, Python'da HTML, JavaScript CSS gibi diğer dillerden küçük bir girdi ile yazılmıştır. Bu nedenle, kaynak kodu [GitHub] [16] 'da mevcuttur.
+[Flowblade][15] yetkin bir çoklu siteli açık kaynaklı video yaratıcısıdır. Bir sürükleme ve damla kullanıcı arayüzü içeren zengin video düzenleme özellikleri ile birlikte gelir. Ayrıca, bu video düzenleyicisi açık kaynaklı görüntü filtreleme teknolojisi G’Mic kullanır. Zaman çizelgesi ses senkronizasyonu, video kliplerin bölünmesi, birleştirilmiş görüntüler ve tam parça birleştirme modu gibi güçlü kontroller vardır. Flowblade, Python'da HTML, JavaScript CSS gibi diğer dillerden küçük bir girdi ile yazılmıştır. Bu nedenle, kaynak kodu [GitHub][16] 'da mevcuttur.
 Flowblade, aşağıdaki önemli özellikleri sunar:
   * Karışım ve Dönüşüm
   * Zengin medya kontrolleri
   * Renk efektleri
   * Yapılandırılabilir
   * Sürükle ve Bırak UI
-[Flowblade hakkında daha fazla bilgi edinin] [17]
+[Flowblade hakkında daha fazla bilgi edinin][17]
 
 ## Kdenlive {#kdenlive}
-Kdenlive başka bir açık kaynaklı video düzenleme yazılımıdır. Bu yazılım [QT] [18], FFMPEG ve [KDE] [19] kütüphanelerinin üstünde, yaygın olarak kullanılan tüm video/ses formatlarını işleyebileceği üzerine inşa edilmiştir. Her şeyden önce, yapılandırılabilir kullanıcı arayüzü, kullanıcıları profesyonel video düzenleme amacıyla kullanmaya çeker. Ayrıca, efektler, geçişler ve odyometre ve histogram için destek ile ilgili zengin seçenekler vardır. Ayrıca, bu açık kaynaklı yazılımla ilgili en havalı şey, proje dosyalarının sürüm ve otomatik yedeklemesidir. Kdenlive C ++ ile yazılmıştır ve tüm kaynak kodu [GitHub] [20] 'te mevcuttur.
+Kdenlive başka bir açık kaynaklı video düzenleme yazılımıdır. Bu yazılım [QT][18], FFMPEG ve [KDE][19] kütüphanelerinin üstünde, yaygın olarak kullanılan tüm video/ses formatlarını işleyebileceği üzerine inşa edilmiştir. Her şeyden önce, yapılandırılabilir kullanıcı arayüzü, kullanıcıları profesyonel video düzenleme amacıyla kullanmaya çeker. Ayrıca, efektler, geçişler ve odyometre ve histogram için destek ile ilgili zengin seçenekler vardır. Ayrıca, bu açık kaynaklı yazılımla ilgili en havalı şey, proje dosyalarının sürüm ve otomatik yedeklemesidir. Kdenlive C ++ ile yazılmıştır ve tüm kaynak kodu [GitHub][20] 'te mevcuttur.
 Kdenlive aşağıdaki temel özelliklerle birlikte gelir:
   * Yapılandırılabilir arayüz
   * Proxy düzenleme
   * Proje sürümleme
   * Ses/video formatları için destek
   * Çoklu gezi video düzenleme
-[Kdenlive hakkında daha fazla bilgi edinin] [21]
+[Kdenlive hakkında daha fazla bilgi edinin][21]
 
 ## Blender {#blender}
-[Blender] [22] başka bir açık kaynaklı video düzenleyicisi uygulamasıdır. Sadece bir video düzenleyicisi değil, 2D animasyon, simülasyon ve hareket izleme içeren eksiksiz bir 3D oluşturma paketidir. Ayrıca, bu açık kaynaklı video düzenleyicisi tamamen özelleştirilebilir bir kullanıcı arayüzü sağlar. Her türlü komut dosyası ve değişiklik için API da mevcuttur. Her şeyden önce Blender, medya kontrolleriyle video düzenleme için en fazla 32 araç sunuyor. Bu yazılım C, C ++ ve Python'da yazılmıştır. Bu uygulamanın kaynak kodu [GitHub] [23] 'te mevcuttur.
+[Blender][22] başka bir açık kaynaklı video düzenleyicisi uygulamasıdır. Sadece bir video düzenleyicisi değil, 2D animasyon, simülasyon ve hareket izleme içeren eksiksiz bir 3D oluşturma paketidir. Ayrıca, bu açık kaynaklı video düzenleyicisi tamamen özelleştirilebilir bir kullanıcı arayüzü sağlar. Her türlü komut dosyası ve değişiklik için API da mevcuttur. Her şeyden önce Blender, medya kontrolleriyle video düzenleme için en fazla 32 araç sunuyor. Bu yazılım C, C ++ ve Python'da yazılmıştır. Bu uygulamanın kaynak kodu [GitHub][23] 'te mevcuttur.
 Blender aşağıdaki önemli noktaları sunar:
   * Özelleştirilebilir arayüz
   * Oluşturma
   * Animasyonlar
   * Canlı önizleme
   * Histogram görüntüleri
-[Blender hakkında daha fazla bilgi edinin] [22]
+[Blender hakkında daha fazla bilgi edinin][22]
 
 ## Sonuç {#Conclusion}
 Bu blog yayınının bir sonuna getiriyor. Bu makale, popüler ücretsiz video oluşturma araçları arasında seçim yapmanıza yardımcı olabilir. Ancak, doğru seçimi yapın ve zorlayıcı yüksek kaliteli iş videoları oluşturun.
-Son olarak, [Containerize.com] [24] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video düzenleme yazılımı] [25] kategorisiyle iletişim halinde olun.
+Son olarak, [Containerize.com][24] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video düzenleme yazılımı][25] kategorisiyle iletişim halinde olun.
 
 ## İlgili Ürün Sayfaları
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [OpenShot] [9]
-  * [Shotcut] [12]
-  * [Flowblade] [15]
-  * [Kdenlive] [26]
-  * [Blender] [27]
+  * [OpenShot][9]
+  * [Shotcut][12]
+  * [Flowblade][15]
+  * [Kdenlive][26]
+  * [Blender][27]
+
+  
 [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
 [2]: https://blog.containerize.com/2020/12/30/a-beginners-guide-to-start-video-editing-with-free-openshot/
 [3]: #openshot

@@ -24,11 +24,11 @@ Se você deseja aproveitar os benefícios do armazenamento em nuvem, mantendo o 
   * Conclusão
 
 ## 1. O que é o NextCloud?
-[NextCloud] [1] é uma plataforma de armazenamento em nuvem de código aberto para sistemas baseados em Linux. O NextCloud é executado em um servidor para proteger seus dados, fornecendo acesso a partir de sua área de trabalho e dispositivos móveis. O NextCloud ajuda você a sincronizar, compartilhar e acessar seus dados existentes em uma unidade FTP em uma caixa de dropbox ou no armazenamento em nuvem do NAS. O Enterprise File Sync and Share NextCloud impõe a conformidade com os dados com HIPAA e GDPR. O NextCloud foi projetado para funcionar com vários sistemas de gerenciamento de banco de dados, por exemplo, PostGresQL, SQLite, MariaDB, MySQL e Oracle Database.
+[NextCloud][1] é uma plataforma de armazenamento em nuvem de código aberto para sistemas baseados em Linux. O NextCloud é executado em um servidor para proteger seus dados, fornecendo acesso a partir de sua área de trabalho e dispositivos móveis. O NextCloud ajuda você a sincronizar, compartilhar e acessar seus dados existentes em uma unidade FTP em uma caixa de dropbox ou no armazenamento em nuvem do NAS. O Enterprise File Sync and Share NextCloud impõe a conformidade com os dados com HIPAA e GDPR. O NextCloud foi projetado para funcionar com vários sistemas de gerenciamento de banco de dados, por exemplo, PostGresQL, SQLite, MariaDB, MySQL e Oracle Database.
 O NextCloud foi lançado em 2016, quando Frank Karlitschek bifurcou o OwnCloud para criar o NextCloud. O NEXTCLOUD Server é gravado usando linguagens de script PHP e JavaScript. A maioria dos principais colaboradores do OwnCloud deixou com Frank Karlitschek para ingressar no novo projeto de colaboração de compartilhamento de arquivos, é gerenciado pela nova empresa NextCloud GmbH, formada ao mesmo tempo. Nos próximos 6 meses, o NextCloud GmbH era lucrativo e permanece hoje lucrativo e ainda gerencia o projeto NextCloud.
 
 ## 2. O que é o OwnCloud? {#CE62}
-[OwnCloud] [2] foi lançado em janeiro de 2010, mas o primeiro lançamento beta foi lançado em março de 2010. O OwnCloud tem 50 milhões por OwnCloud GmbH. O OwnCloud Cloud possui muitos outros recursos produtivos para gerenciar o compartilhamento de arquivos em nuvem, gerenciar seu calendário, fazer listas, uma ferramenta de edição de documentos, compartilhamento de pastas e muito mais. O OwnCloud está hospedado exclusivamente em seu próprio servidor de nuvem privada.
+[OwnCloud][2] foi lançado em janeiro de 2010, mas o primeiro lançamento beta foi lançado em março de 2010. O OwnCloud tem 50 milhões por OwnCloud GmbH. O OwnCloud Cloud possui muitos outros recursos produtivos para gerenciar o compartilhamento de arquivos em nuvem, gerenciar seu calendário, fazer listas, uma ferramenta de edição de documentos, compartilhamento de pastas e muito mais. O OwnCloud está hospedado exclusivamente em seu próprio servidor de nuvem privada.
 O OwnCloud é um aplicativo em nuvem muito estável e confiável. É altamente recomendado especialmente para aplicações comerciais. O OwnCloud é usado por empresas que lidam com dados confidenciais ou que precisam cumprir os regulamentos especiais de segurança e conformidade. Essas empresas incluem finanças, assistência médica e muito mais.
 
 ## 3. Comparação NextCloud vs OwnCloud: {#CE62}
@@ -53,15 +53,17 @@ O aspecto 100% livre do NextCloud o torna mais atraente e popular do que o armaz
 
 ## Conclusão: {#4a1a}
 Neste artigo, explicamos uma breve comparação sobre o trabalho das estruturas de armazenamento em nuvem de código aberto mais populares - NextCloud vs OwnCloud. NextCloud e OwnCloud são dois líderes de mercado no campo da plataforma de armazenamento em nuvem de código aberto. Ambos os softwares têm uma base forte, que é regularmente apoiada por aplicativos complementares. Entre os dois, o NextCloud Cloud Storage parece ser mais popular devido aos seus recursos e serviços. No entanto, o OwnCloud é uma plataforma de nuvem antiga e formada para atender às necessidades da comunidade de usuários do OwnCloud Storage. Em nossos próximos tutoriais, discutiremos sobre tópicos mais interessantes relacionados às plataformas de armazenamento em nuvem de código aberto.
-Você pode se juntar a nós no [Twitter] [3], [LinkedIn] [4] e nossa página [Facebook] [5]. Qual armazenamento em nuvem NextCloud vs OwnCloud_ _platform você prefere?. Se você tiver alguma dúvida, por favor [entre em contato] [6].
+Você pode se juntar a nós no [Twitter][3], [LinkedIn][4] e nossa página [Facebook][5]. Qual armazenamento em nuvem NextCloud vs OwnCloud_ _platform você prefere?. Se você tiver alguma dúvida, por favor [entre em contato][6].
 
 ## Explore:
 Também temos vários outros artigos relacionados ao gerenciamento diário do seu servidor.
-  * [Como instalar o NextCloud com o Apache no servidor Ubuntu] [7]
-  * [Instale e configure o OwnCloud com o Apache no Ubuntu] [8]
-  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian] [9]
-  * [Como instalar e proteger o phpmyadmin com nginx no Ubuntu] [10]
-  * [Seguro e criptografar Nginx com Let's Encrypt no Ubuntu 20.04] [11]
+  * [Como instalar o NextCloud com o Apache no servidor Ubuntu][7]
+  * [Instale e configure o OwnCloud com o Apache no Ubuntu][8]
+  * [Como configurar o Apache como um proxy reverso para o Ubuntu/Debian][9]
+  * [Como instalar e proteger o phpmyadmin com nginx no Ubuntu][10]
+  * [Seguro e criptografar Nginx com Let's Encrypt no Ubuntu 20.04][11]
+
+  
 [1]: https://products.containerize.com/backup-and-sync/nextcloud/
 [2]: https://products.containerize.com/backup-and-sync/owncloud/
 [3]: https://twitter.com/containerize_co

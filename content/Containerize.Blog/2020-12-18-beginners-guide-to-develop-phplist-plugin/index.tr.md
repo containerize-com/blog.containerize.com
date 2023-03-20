@@ -19,10 +19,10 @@ Uygulamalar birçok nedenden dolayı eklentileri destekleyin ve bazıları:
   * Geliştiricilerin yeni özellikler oluşturmasına izin verin.
   * Yazılımın boyutunu azaltın.
 Aşağıdaki konuları bu öğreticide ayrıntılı olarak tartışacağız.
-  *[** Önkoşul **] [2]
-  *[** Phplist Eklenti Gelişiminin Temelleri **] [3]
-  *[** PHPLIST eklentimizi oluştur **] [4]
-  *[** Sonuç **] [5]
+  *[** Önkoşul **][2]
+  *[** Phplist Eklenti Gelişiminin Temelleri **][3]
+  *[** PHPLIST eklentimizi oluştur **][4]
+  *[** Sonuç **][5]
 
 ## Önkoşullar {#req}
   * Phplist'in son sürümü.
@@ -78,18 +78,20 @@ Eklentinize http://example.com/admin/?page=main&pi=helloworld gibi aşağıdaki 
 
 ## Sonuç {#con}
 ** Phplist eklentisinin temellerini öğrendik ve bir örnek eklentisi oluşturduk. Bir başlangıç ​​noktası olarak, bu kılavuzu izleyebilir ve işlevselliği geliştirmek için eklenti geliştirmeyi daha fazla keşfedebilirsiniz.
-Son olarak, [** Containerize.com **] [6], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** bültenler **] [7] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][6], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** bültenler **][7] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz.
-  *[** Phplist **] [8]
-  *[** Mailtrain **] [9]
-  *[** ListMonk **] [10]
-  *[** Moonmail **] [11]
-  *[** Mailman **] [12]
-  *[** 2021'de Top 5 Açık Kaynak Haber Bülteni Yazılımı **] [13]
-  *[** Phplist'de Çok Kenti Uygulaması Nasıl Yapılandırılır **] [14]
-  *[** Phplist kullanarak bülten nasıl oluşturulur ve gönderilir **] [15]
+  *[** Phplist **][8]
+  *[** Mailtrain **][9]
+  *[** ListMonk **][10]
+  *[** Moonmail **][11]
+  *[** Mailman **][12]
+  *[** 2021'de Top 5 Açık Kaynak Haber Bülteni Yazılımı **][13]
+  *[** Phplist'de Çok Kenti Uygulaması Nasıl Yapılandırılır **][14]
+  *[** Phplist kullanarak bülten nasıl oluşturulur ve gönderilir **][15]
+
+  
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #Req
 [3]: #Basics

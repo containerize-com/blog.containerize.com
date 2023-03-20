@@ -15,14 +15,14 @@ categories: ['Single Sign-On']
 
 
 ## Überblick
-Wir haben kürzlich einen Blog-Beitrag zu [Top 5 Open-Source-Single-Sign-On-Software im Jahr 2021] [1] veröffentlicht, der eine kurze Einführung des Top ** SSO-Systems ** enthält. In diesem Blog -Beitrag werden wir die folgenden Punkte behandeln.
-  *[** Was ist SSO -Technologie? **] [2]
-  *** [ho] [3] ** [** W **] [3] ** [einzelner Sign-On (SSO) funktioniert?] [3] **
-  *[** Wirtschaftswendungsfälle von SSO -System **] [4]
-  *[** Fazit **] [5]
+Wir haben kürzlich einen Blog-Beitrag zu [Top 5 Open-Source-Single-Sign-On-Software im Jahr 2021][1] veröffentlicht, der eine kurze Einführung des Top ** SSO-Systems ** enthält. In diesem Blog -Beitrag werden wir die folgenden Punkte behandeln.
+  *[** Was ist SSO -Technologie? **][2]
+  *** [ho][3] ** [** W **][3] ** [einzelner Sign-On (SSO) funktioniert?][3] **
+  *[** Wirtschaftswendungsfälle von SSO -System **][4]
+  *[** Fazit **][5]
 
 ## Was ist SSO -Technologie? {#Was}
-[Single Sign-On] [6] ist eine Identifikations- und ** Authentifizierungssoftware **, mit der Sie mit Websites von Drittanbietern anmelden können. Die SSO -Software fungiert als Identitätsanbieter, damit Sie sich mit einem einzigen Satz von Benutzernamen/Passwörtern an mehreren Websites anmelden können. Es handelt sich jedoch um einen einmaligen Anmeldemechanismus, und das SSO-System stellt sicher, dass die Echtheit der Benutzer.
+[Single Sign-On][6] ist eine Identifikations- und ** Authentifizierungssoftware **, mit der Sie mit Websites von Drittanbietern anmelden können. Die SSO -Software fungiert als Identitätsanbieter, damit Sie sich mit einem einzigen Satz von Benutzernamen/Passwörtern an mehreren Websites anmelden können. Es handelt sich jedoch um einen einmaligen Anmeldemechanismus, und das SSO-System stellt sicher, dass die Echtheit der Benutzer.
 Darüber hinaus wurde dieses System auf kleinen und Unternehmensebene weit verbreitet, um die Identität des Benutzers über mehrere Anwendungen hinweg zu verwalten. Es gibt viele Open-Source-Single-Sign-On-Software, die beliebte Autorisierungsprotokolle wie OpenID OpenID, SAML und OAuth verwenden.
 
 ## ** Wie einzelne Sign-On (SSO) funktioniert? ** {#Features}
@@ -48,20 +48,22 @@ In diesem Abschnitt werden wir einige zentrale Unternehmensnutzungsfälle von **
 
 ## Schlussfolgerung {#Conclusion}
 ** SSO System ** ist ein großer Komfort für Unternehmen, da es einen Kontrollpunkt über die Identität in vielen Apps bietet. Es gibt also eine Reihe von Open-Source-Single-Sign-On-Software, die leistungsstarke Funktionen bieten.
-Schließlich befindet sich [** Containerize.com **] [7] in einem konsistenten Prozess, Artikel zu weiteren Open -Source -Themen und -produkten zu schreiben. Bitte bleiben Sie mit dieser Kategorie [** Single Sign-On **] [6] in Kontakt, um regelmäßige Aktualisierungen zu erhalten.
+Schließlich befindet sich [** Containerize.com **][7] in einem konsistenten Prozess, Artikel zu weiteren Open -Source -Themen und -produkten zu schreiben. Bitte bleiben Sie mit dieser Kategorie [** Single Sign-On **][6] in Kontakt, um regelmäßige Aktualisierungen zu erhalten.
 
 ## Relevante Produktseiten
 Möglicherweise finden Sie die folgenden Links relevant:
-  *** [IdentityServer] [8] **
-  *** [KeyCloak] [9] **
-  *** [cas] [10] **
-  *** [authelia] [11] **
-  *** [WSO2] [12] **
-  *** [OpenIdentityPlatform] [13] **
-  *** [FreeIpa] [14] **
-  *** [Top 5 Open-Source-Single-Sign-On-Software im Jahr 2021] [1] **
-  *** [Wie man das SSO -System für ein besseres Geschäftswachstum nutzt] [15] **
-  *** [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [16] **
+  *** [IdentityServer][8] **
+  *** [KeyCloak][9] **
+  *** [cas][10] **
+  *** [authelia][11] **
+  *** [WSO2][12] **
+  *** [OpenIdentityPlatform][13] **
+  *** [FreeIpa][14] **
+  *** [Top 5 Open-Source-Single-Sign-On-Software im Jahr 2021][1] **
+  *** [Wie man das SSO -System für ein besseres Geschäftswachstum nutzt][15] **
+  *** [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][16] **
+
+  
 [1]: https://blog.containerize.com/single-sign-on/top-5-open-source-single-sign-on-software-in-the-year-2021/
 [2]: #what
 [3]: #features

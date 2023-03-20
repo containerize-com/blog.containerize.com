@@ -15,13 +15,13 @@ categories: ['Game Development Software']
 
 
 ## **Descripción general**
-En nuestra serie tutorial de desarrollo de juegos de código abierto, hemos publicado publicaciones de blog sobre algunos temas populares como [Tutorial de desarrollo de juegos | Movimiento del jugador en GDEVelovel] [1], [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos] [2], [cómo la industria del juego global aprovechando el software de código abierto] [3] y [tutorial de GDEVelovelop para principiantes para comenzar el desarrollo del juego] [4 ] Este artículo de tutorial trata sobre el desarrollo del juego utilizando código abierto gratuito [superpoderes] [5] cubriendo los siguientes puntos.
-  *** [Tipos de animaciones de juego] [6] **
-  *** [¿Cómo crear sprites?] [7] **
-  *** [trabajando con escenas] [8] **
-  *** [Lanzamiento del juego en localhost] [9] **
-  *** [Conclusión] [10] **
-Hay muchos software de desarrollo de juegos de código abierto para principiantes disponibles que vienen con capacidades de autohostación. Sin embargo, [superpoderes] [5] es un software de creación de juegos 2D y 3D multiplataforma. Proporciona bibliotecas incorporadas y ejemplos de juegos que facilitan el desarrollo de juegos para los desarrolladores de juegos. Esta aplicación de diseño de juego gratuita está escrita en TypeScript y toda la documentación está disponible en [Github] [11] con respecto al desarrollo y la implementación. En esta publicación de blog, exploraremos superpoderes con respecto a su uso.
+En nuestra serie tutorial de desarrollo de juegos de código abierto, hemos publicado publicaciones de blog sobre algunos temas populares como [Tutorial de desarrollo de juegos | Movimiento del jugador en GDEVelovel][1], [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos][2], [cómo la industria del juego global aprovechando el software de código abierto][3] y [tutorial de GDEVelovelop para principiantes para comenzar el desarrollo del juego][4 ] Este artículo de tutorial trata sobre el desarrollo del juego utilizando código abierto gratuito [superpoderes][5] cubriendo los siguientes puntos.
+  *** [Tipos de animaciones de juego][6] **
+  *** [¿Cómo crear sprites?][7] **
+  *** [trabajando con escenas][8] **
+  *** [Lanzamiento del juego en localhost][9] **
+  *** [Conclusión][10] **
+Hay muchos software de desarrollo de juegos de código abierto para principiantes disponibles que vienen con capacidades de autohostación. Sin embargo, [superpoderes][5] es un software de creación de juegos 2D y 3D multiplataforma. Proporciona bibliotecas incorporadas y ejemplos de juegos que facilitan el desarrollo de juegos para los desarrolladores de juegos. Esta aplicación de diseño de juego gratuita está escrita en TypeScript y toda la documentación está disponible en [Github][11] con respecto al desarrollo y la implementación. En esta publicación de blog, exploraremos superpoderes con respecto a su uso.
 
 ## Tipos de animaciones de juego {#Types}
 Las animaciones son una parte vital de los videojuegos. Los personajes en los juegos deben responder a las acciones del usuario, la animación debe ser suave y abrupta. Se trata de administrar múltiples marcos y animadores refine esos cuadros para producir efectos en movimiento. Además, hay animaciones 2D y 3D donde los objetos parecen moverse a través del espacio tridimensional. Los desarrolladores de juegos y los diseñadores gráficos crean modelos 3D. Las animaciones dependen de la naturaleza del juego y los tipos más comunes son las siguientes.
@@ -33,7 +33,7 @@ Las animaciones son una parte vital de los videojuegos. Los personajes en los ju
 
 ## ¿Cómo crear sprites? {#sprites}
 Esta sección de la guía de creación de juegos permite a los usuarios crear proyectos y comenzar a crear sprites para el juego. Los sprites no son imágenes o gráficos no estáticos que no solo se usan en los juegos sino también parte del diseño web. Estos normalmente se dibujan sobre un fondo que se está actualizando constantemente.
-Antes de continuar, asegúrese de haber configurado superpoderes en su máquina. Puedes seguir este enlace [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos] [2] para configurar esta plataforma de creación de juegos gratuito.
+Antes de continuar, asegúrese de haber configurado superpoderes en su máquina. Puedes seguir este enlace [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos][2] para configurar esta plataforma de creación de juegos gratuito.
 Primero, abra la aplicación al navegador y creemos un nuevo proyecto vacío. como se muestra en la imagen a continuación.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-12.32.59-1024x576.png" alt="Comenzando con el desarrollo de juegos">}}
@@ -75,15 +75,17 @@ Ahora, haga clic en "Player" y debajo del componente "Renderizador de Sprite", s
 
 
 ## conclusión {#conclusion}
-Este es el final del tutorial en el que aprendimos a hacer un juego de cero para principiantes. Por lo tanto, comenzar con el desarrollo del juego se vuelve fácil cuando hay documentación detallada del software de desarrollo de juegos disponible. Finalmente, [** Contenerize.com **] [12] está en un proceso consistente de escribir artículos sobre temas y productos de código abierto. Por lo tanto, manténgase en contacto con esta categoría [Software de desarrollo de juegos] [13] para actualizaciones regulares.
+Este es el final del tutorial en el que aprendimos a hacer un juego de cero para principiantes. Por lo tanto, comenzar con el desarrollo del juego se vuelve fácil cuando hay documentación detallada del software de desarrollo de juegos disponible. Finalmente, [** Contenerize.com **][12] está en un proceso consistente de escribir artículos sobre temas y productos de código abierto. Por lo tanto, manténgase en contacto con esta categoría [Software de desarrollo de juegos][13] para actualizaciones regulares.
 
 ## Explorar
-  * [GDEVROVED] [14]
-  * [Godot] [15]
-  * [Superpoderes] [5]
-  * [Cocos Creator] [16]
-  * [Panda3d] [17]
-  * [PlayCanvas] [18]
+  * [GDEVROVED][14]
+  * [Godot][15]
+  * [Superpoderes][5]
+  * [Cocos Creator][16]
+  * [Panda3d][17]
+  * [PlayCanvas][18]
+
+  
 [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
 [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/

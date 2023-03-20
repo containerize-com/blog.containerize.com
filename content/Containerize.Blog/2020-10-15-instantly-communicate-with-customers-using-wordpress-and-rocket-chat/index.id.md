@@ -16,10 +16,10 @@ categories: ['Blogging', 'Live Chat']
 Rocket.Chat Team menawarkan plugin open source gratis untuk pesan instan WordPress dan obrolan langsung dari dalam WordPress. Integrasi WordPress dan Rocket.Chat memungkinkan pelanggan Anda untuk mengobrol dengan Anda secara langsung dan instan. Ini membuatnya mudah untuk mengelola pertanyaan yang masuk baik sendiri atau dengan menugaskannya ke agen Anda.
 Rocket.Chat Live Chat Plugin berfungsi dengan server obrolan open source 100%. Ini adalah solusi hosting mandiri yang hemat biaya dengan semua fleksibilitas dan kontrol yang mungkin Anda inginkan untuk langsung berkomunikasi dengan pelanggan Anda. Akibatnya, kerahasiaan data komunikasi Anda dipastikan dan tidak perlu khawatir tentang biaya berlangganan bulanan untuk melakukan obrolan langsung di situs web Anda.
 Kami akan membahas bagian berikut dalam posting blog ini:
-  * [Deskripsi] [1]
-  * [Fitur] [2]
-  * [Instalasi Plugin] [3]
-  * [Pikiran Terakhir] [4]
+  * [Deskripsi][1]
+  * [Fitur][2]
+  * [Instalasi Plugin][3]
+  * [Pikiran Terakhir][4]
 
 ## Deskripsi: {#description}
 Integrasi WordPress dan Rocket.Chat memungkinkan Anda untuk meletakkan widget obrolan langsung di situs berbasis WordPress. Obrolan langsung WordPress memungkinkan pelanggan untuk berkolaborasi dengan dukungan atau agen penjualan Anda secara real time dengan satu klik. Komunikasi instan membantu pelanggan resolusi cepat dari pertanyaan mereka dan mempercepat pengambilan keputusan. Oleh karena itu solusi ini dapat membantu Anda memenangkan pelanggan baru dengan berbalik lebih cepat serta meningkatkan kepuasan dan loyalitas pelanggan yang sudah ada.
@@ -37,7 +37,7 @@ Fitur ##: {#features}
 Instalasi plugin ##: {#plugin}
   1. Buka dasbor admin dari situs WordPress Anda.
   2. Kemudian pindah ke plugin.
-  3. Kemudian instal plugin berikut: [rocket.chat livechat] [5]
+  3. Kemudian instal plugin berikut: [rocket.chat livechat][5]
   4. Setelah itu aktifkan plugin.
   5. Setelah instalasi yang berhasil, buka pengaturan.
   6. Cari bagian "Rocket.Chat LiveChat".
@@ -52,8 +52,10 @@ Worpress dan Rocket.Chat Integrasi membangun kepercayaan dan hubungan dengan pel
 
 ## Mengeksplorasi:
 Untuk mempelajari lebih lanjut tentang Rocket.Chat dan WordPress, silakan periksa halaman -halaman ini:
-[Perangkat lunak obrolan langsung gratis dan open source terbaik] [6]
-[WordPress - Sumber terbuka gratis dan CMS dan alat blogging yang paling banyak digunakan] [7]
+[Perangkat lunak obrolan langsung gratis dan open source terbaik][6]
+[WordPress - Sumber terbuka gratis dan CMS dan alat blogging yang paling banyak digunakan][7]
+
+  
 [1]: #description
 [2]: #features
 [3]: #plugin

@@ -50,14 +50,16 @@ Açık kaynaklı bir yazılımın en iyi özelliği genişletilebilirliğidir. *
 
 ## Çözüm
 Bu blog yazısının sonu. Bu nedenle, kendi işiniz için ** kendi kendine barındırılan bir sosyal ağ ** oluşturmak, işletmenizi verimlilik açısından artırabilir. Bu makale, yerel sunucularınızda veya buluta ** açık kaynaklı bir sosyal ağ ** dağıtmak istiyorsanız, doğru seçimi yapmanıza gerçekten yardımcı olabilir. İşin ilerlemesi çalışma ortamına bağlıdır. Bununla birlikte, bu tür sosyal ağ uygulamaları, çalışanların ve üst düzey yöneticilerin düşüncelerini paylaşabilecekleri ve anlayışlarına göre değerlendirebilecekleri ortak alanlar sağlar. Katılımcılar yerlerini görsel olarak gömülü bir haritada görebilir ve onlarla video veya ses çağrıları oluşturabilir.
-Son olarak, [Containerize.com] [1] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Sosyal Ağ Platformları] [2] kategorisiyle iletişime geçin.
+Son olarak, [Containerize.com][1] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Sosyal Ağ Platformları][2] kategorisiyle iletişime geçin.
 
 ## Keşfedin {#Explore}
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *** [Humhub] [3] **
-  *** [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin] [4] **
-  *** [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler] [5] **
-  *[** 2021 numaralı ilk 5 açık kaynaklı video konferans yazılımı **] [6]
+  *** [Humhub][3] **
+  *** [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][4] **
+  *** [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler][5] **
+  *[** 2021 numaralı ilk 5 açık kaynaklı video konferans yazılımı **][6]
+
+  
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/social-network-platforms/
 [3]: https://products.containerize.com/social-network-platforms/humhub/

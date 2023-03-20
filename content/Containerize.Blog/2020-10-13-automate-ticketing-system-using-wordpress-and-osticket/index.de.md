@@ -15,10 +15,10 @@ categories: ['Blogging', 'Help Desk']
 
 Ihre Kunden können Fragen zu Ihren Produkten/Dienstleistungen haben. Sie werden ihre Anfragen über verschiedene Formulare auf Ihrer WordPress -Site senden. Die Integration von Osticket-Wordpress hilft, diese Abfragen in Tickets umzuwandeln. Es sendet Daten über API an Osticket -Helpdesk -System.
 Osticket ist ein Open-Source- und kostenloses Helpdesk-Ticket-System. Kunden können Tickets bezüglich ihrer Anfragen zu Osticket erstellen. Dieses Helpdesk -System macht es jeder Organisation sehr einfach, die von ihren Kunden stehenden Fragen zu verwalten. Der Administrator kann Abteilungen und Teams erstellen und Tickets gemäß der Art der erstellten Tickets Tickets zuweisen. Dieses kostenlose Open-Source-System wird die Probleme im Auge behalten. Es ermöglicht sowohl Kunden als auch Agenten, das Ticket zu kommentieren, um den Fortschritt zu besprechen. Wir werden die folgenden Abschnitte in diesem Blog -Beitrag behandeln:
-  * [Integrationsprozess] [1]
-  * [WordPress Plugin Installation] [2]
-  * [Authentifizierungsverfahren] [3]
-  * [Schlussfolgerung] [4]
+  * [Integrationsprozess][1]
+  * [WordPress Plugin Installation][2]
+  * [Authentifizierungsverfahren][3]
+  * [Schlussfolgerung][4]
 
 ## Integrationsprozess: {#integration}
 Die Integration von Osticket und WordPress erfordert ein Kontaktformular auf WordPress -Site mit folgenden Feldern
@@ -32,10 +32,10 @@ Das Kontaktformular muss E -Mails senden, da dieser Plugin die Funktion WP_MAIL 
 ## WordPress Plugin Installation: {#wordpress}
   1. Gehen Sie zu Admin -Dashboard Ihrer WordPress -Site.
   2. Gehen Sie als nächstes zum Abschnitt "Plugins".
-  3. Dann installieren Sie dieses [Plugin] [5].
+  3. Dann installieren Sie dieses [Plugin][5].
   4. Aktivieren Sie danach das Plugin.
   5. und gehen Sie zu "Einstellung" -> "Osticket -Anschluss".
-  6. Geben Sie dann die URL Ihrer Osticket -Site ein, d. H. [http: //your.domain/api/tickets.json] [6]
+  6. Geben Sie dann die URL Ihrer Osticket -Site ein, d. H. [http: //your.domain/api/tickets.json][6]
   7. Geben Sie den API -Schlüssel ein, der aus dem Osticket -Administratorbereich erstellt wurde (erläutert im nächsten Abschnitt).
   8. Füllen Sie am Ende alle Felder aus, um Daten aus Ihrem Kontaktformular in die Ticketfelder von Osticket abzubilden.
 
@@ -60,9 +60,11 @@ Die Integration von Osticket-Wordpress wird den Ticketing-Prozess automatisieren
 
 ## Erkunden:
 Um mehr über Osticket und WordPress zu erfahren, lesen Sie bitte die folgenden Seiten:
-  * [Osticket - kostenloses Open -Source -Helpdesk -Ticket -System] [7]
-  * [WordPress - Kostenlose Open Source und am weitesten verbreitete CMS- und Blogging -Tool] [8]
-  * [So einrichten Sie Online -Helpdesk -Software mit Osticket] [9]
+  * [Osticket - kostenloses Open -Source -Helpdesk -Ticket -System][7]
+  * [WordPress - Kostenlose Open Source und am weitesten verbreitete CMS- und Blogging -Tool][8]
+  * [So einrichten Sie Online -Helpdesk -Software mit Osticket][9]
+
+  
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

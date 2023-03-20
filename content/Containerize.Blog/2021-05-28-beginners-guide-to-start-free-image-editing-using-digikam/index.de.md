@@ -13,18 +13,18 @@ categories: ['Animation Software']
 
 {{< figure align=center src="images/Beginners-Guide-To-Start-Free-Image-Editing-Using-Digikam.png" alt="Anfängerleitfaden zur kostenlosen Bildbearbeitung mit Digikam">}}
 
-Egal, ob Sie nur mit Ihrem Smartphone oder einem professionellen Fotografen fotografieren, Sie benötigen eine Bildbearbeitungssoftware, um Ihre digitalen Fotos zu organisieren und zu optimieren. Wenn Sie nach einer einfach zu bedienenden, leistungsstarken und kostenlosen Bildbearbeitungssoftware suchen, die in Ihren Fotografie -Workflow aufgenommen werden soll, müssen Sie [Digikam] [1] ausprobieren. Wir werden die folgenden Themen in diesem Artikel behandeln:
-  * [Was ist Digikam?] [2]
-  * [Wie installiere ich Digikam?] [3]
-  * [Wie benutze ich Digikam?] [4]
-  * [Schlussfolgerung] [5]
+Egal, ob Sie nur mit Ihrem Smartphone oder einem professionellen Fotografen fotografieren, Sie benötigen eine Bildbearbeitungssoftware, um Ihre digitalen Fotos zu organisieren und zu optimieren. Wenn Sie nach einer einfach zu bedienenden, leistungsstarken und kostenlosen Bildbearbeitungssoftware suchen, die in Ihren Fotografie -Workflow aufgenommen werden soll, müssen Sie [Digikam][1] ausprobieren. Wir werden die folgenden Themen in diesem Artikel behandeln:
+  * [Was ist Digikam?][2]
+  * [Wie installiere ich Digikam?][3]
+  * [Wie benutze ich Digikam?][4]
+  * [Schlussfolgerung][5]
 
 ## Was ist Digikam? {#Digikam}
 Für jeden digitalen Fotografen mit einer Software, die den Fotografie -Workflow unterstützt und sie nahtlos macht, kann dies nicht nur für die Qualität Ihrer Fotos, sondern auch für den Bearbeitungsprozess einen großen Unterschied machen. Digikam ist ein All -in einem digitalen Fotografie -Workflow -Manager, mit dem Fotografen nicht nur Dateien in großen Mengen eingestuft, sondern auch viele Bearbeitungseffekte anwenden können. Sie können RAW -Bilder auch direkt hochladen und sie ohne Qualitätsverlust in DNG konvertieren und viele Digitalkamera -Modelle unterstützen. Als Open -Source -Image -Editor können Sie auch Dateien entweder lokal oder auf einem Remote -Server speichern. Digikam bietet mehrere Datenbankunterstützung, einschließlich SQL, MySQL und Mariadb.
 Digikam hat eine benutzerfreundliche Oberfläche. Es ermöglicht es Ihnen, eine Verbindung zu Ihrer Kamera oder zu Vorschaubigungen herzustellen. Sein Layout ist sehr intuitiv und leicht verständlich. Links gibt es Steuerelemente zum Anzeigen von Fotos und rechts befinden sich Steuerelemente für Effekte und Filter. DGIKAM ist seit einiger Zeit im Wesentlichen eine vollständige und stabile Anwendung, daher wird es für Sie eine gute Erfahrung sein.
 
 ## Wie installiere ich Digikam? {#Installieren}
-[Digikam] [1] unterstützt mehrere Betriebssysteme, einschließlich Windows, Mac OS und Linux. Als kostenlose Bildbearbeitungssoftware ist die neueste Version von Digikam ziemlich stabil und bereit für Ihr bevorzugter Betriebssystem.
+[Digikam][1] unterstützt mehrere Betriebssysteme, einschließlich Windows, Mac OS und Linux. Als kostenlose Bildbearbeitungssoftware ist die neueste Version von Digikam ziemlich stabil und bereit für Ihr bevorzugter Betriebssystem.
 Für Linux wird hier Digikam installiert:
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -102,13 +102,15 @@ Hier sind alle Bildbearbeitung, die Sie durch Digikam durchführen können:
 
 
 ## Schlussfolgerung {#Conclusion}
-Digikam ist eine nützliche, funktionale, einfach zu navigierende, einfache und kostenlose Image -Bearbeitungssoftware und digitale Fotografie -Workflow -Manager. Dadurch können Sie Ihre Bilder organisieren und sie auch bearbeiten. Wir hoffen, dass dieser Leitfaden hilfreich war, um Ihnen ein grundlegendes Verständnis dafür zu vermitteln, was Sie mit Digikam als neuer oder fortschrittlicher digitaler Fotograf erreichen können. Weitere Bewertungen und Anleitungen über nützliche Softwareanwendungen für Ihre Fotografie- und Bildbearbeitungsabenteuer finden Sie auf [Containerize.com] [6].
+Digikam ist eine nützliche, funktionale, einfach zu navigierende, einfache und kostenlose Image -Bearbeitungssoftware und digitale Fotografie -Workflow -Manager. Dadurch können Sie Ihre Bilder organisieren und sie auch bearbeiten. Wir hoffen, dass dieser Leitfaden hilfreich war, um Ihnen ein grundlegendes Verständnis dafür zu vermitteln, was Sie mit Digikam als neuer oder fortschrittlicher digitaler Fotograf erreichen können. Weitere Bewertungen und Anleitungen über nützliche Softwareanwendungen für Ihre Fotografie- und Bildbearbeitungsabenteuer finden Sie auf [Containerize.com][6].
 
 ## Erkunden
 Weitere Informationen zu anderen kostenlosen Image -Bearbeitungssoftwareanwendungen finden Sie in den folgenden Links:
-  * [Beste Open -Source -Fotobearbeitungssoftware] [7]
-  * [Digikam | Eine Open Source Digital Photo Management App] [1]
-  * [Top 5 Open Source Photo Editor -Software in 2021] [8]
+  * [Beste Open -Source -Fotobearbeitungssoftware][7]
+  * [Digikam | Eine Open Source Digital Photo Management App][1]
+  * [Top 5 Open Source Photo Editor -Software in 2021][8]
+
+  
 [1]: https://products.containerize.com/photo-editing-software/digikam/
 [2]: #digikam
 [3]: #install

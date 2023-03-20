@@ -20,10 +20,10 @@ Echemos un vistazo a las características centrales del estadificación.
   *** Aplicación móvil ** - Use la aplicación gratuita para dispositivos iPhone y Android y administre todo sobre la marcha.
   *** OAUTH AUTHENTICATIO ** N - Admite la autenticación OAuth para servicios populares como GitHub, Google, Slack y OpenId Provider. Use esta característica y aumente la seguridad.
 Cubriremos los siguientes temas en este tutorial.
-  * [Instalación en Linux] [1]
-  * [Configurar el servicio Systemd] [2]
-  * [Crear servicio para el monitoreo] [3]
-  * [Conclusión] [4]
+  * [Instalación en Linux][1]
+  * [Configurar el servicio Systemd][2]
+  * [Crear servicio para el monitoreo][3]
+  * [Conclusión][4]
 
 ## Instalación en Linux {#Installing}
 Ejecute el comando a continuación para la instalación de estadificación.
@@ -71,17 +71,19 @@ systemctl start statping
 
 ## conclusión {#conclusion}
 Aprendimos sobre el estadificación, cómo instalarlo en Linux y cómo crear un servicio Systemd en este tutorial. Además, hemos creado un nuevo servicio para monitorear y presentarle sobre diferentes características. Esperamos que esta guía lo ayude a comenzar a usar el estadegamiento para realizar ** monitoreo del servicio web ** y ** Monitoreo de aplicaciones web **.
-Finalmente, [** Contenerize.com **] [5] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [** Página de estado **] [6] para las últimas actualizaciones.
+Finalmente, [** Contenerize.com **][5] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [** Página de estado **][6] para las últimas actualizaciones.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  *[** Top 5 Software de página de estado de código abierto para 2020 **] [7]
-  *[** Estadizamiento **] [8]
-  *[** Cachete **] [9]
-  *[** Monitoror **] [10]
-  *[** Staytus **] [11]
-  *[** Upptime **] [12]
-  *[** statusfy **] [13]
+  *[** Top 5 Software de página de estado de código abierto para 2020 **][7]
+  *[** Estadizamiento **][8]
+  *[** Cachete **][9]
+  *[** Monitoror **][10]
+  *[** Staytus **][11]
+  *[** Upptime **][12]
+  *[** statusfy **][13]
+
+  
 [1]: #Installing
 [2]: #Configure
 [3]: #Create

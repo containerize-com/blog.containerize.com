@@ -97,11 +97,13 @@ Neste tutorial, exploramos e discutimos o que é um servidor proxy e um proxy re
 
 ## Explore
 Você também pode gostar dos artigos mais relacionados abaixo:
-  * [Como] [1] [Instale e seguro Phpmyadmin com Nginx no Ubuntu] [2]
-  * [Como configurar o nginx com o passageiro no servidor de produção da AWS] [3]
-  * [Configure o suporte HTTP/2 no Nginx no Ubuntu/Debian] [4]
-  * [Seguro e criptografar nginx com Let's Encrypt no Ubuntu 20.04] [5]
-  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu] [6]
+  * [Como][1][Instale e seguro Phpmyadmin com Nginx no Ubuntu][2]
+  * [Como configurar o nginx com o passageiro no servidor de produção da AWS][3]
+  * [Configure o suporte HTTP/2 no Nginx no Ubuntu/Debian][4]
+  * [Seguro e criptografar nginx com Let's Encrypt no Ubuntu 20.04][5]
+  * [Como instalar e configurar o OwnCloud com o Apache no Ubuntu][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/pt/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

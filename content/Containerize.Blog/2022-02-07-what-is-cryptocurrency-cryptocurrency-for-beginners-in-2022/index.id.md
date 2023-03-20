@@ -58,14 +58,16 @@ Di mana membeli cryptocurrency? Anda dapat membeli cryptocurrency dari pertukara
 
 ## ** Kesimpulan: ** {#4a1a}
 Mudah -mudahan, Anda telah belajar banyak dan sekarang Anda lebih mendapat informasi dan berpengetahuan tentang perdagangan cryptocurrency dan berinvestasi daripada Anda di awal. Sekarang giliran Anda. Kami menikmati meneliti dan menulis panduan dengan Anda dalam pikiran. Semoga beruntung!
-_Apa proyek open source cryptocurrency favorit Anda?. Apakah Anda memiliki pertanyaan tentang apa itu mata uang digital?, Tolong_ [hubungi] [1].
+_Apa proyek open source cryptocurrency favorit Anda?. Apakah Anda memiliki pertanyaan tentang apa itu mata uang digital?, Tolong_ [hubungi][1].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa informasi terkait lainnya dari OSS Watch:
-  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File] [2]
-  * [Perangkat Lunak Top 5 Open Source Message Queue (MQ) pada tahun 2021] [3]
-  * [Alat forensik digital open source paling populer] [4]
-  * [Lisensi Open Source yang Disetujui OSI Paling Populer] [5]
+  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][2]
+  * [Perangkat Lunak Top 5 Open Source Message Queue (MQ) pada tahun 2021][3]
+  * [Alat forensik digital open source paling populer][4]
+  * [Lisensi Open Source yang Disetujui OSI Paling Populer][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

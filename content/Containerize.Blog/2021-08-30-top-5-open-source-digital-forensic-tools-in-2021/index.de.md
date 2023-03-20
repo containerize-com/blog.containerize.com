@@ -27,7 +27,7 @@ Der folgende Blog -Beitrag beschreibt die Top Open Source Digital Forensic Tools
   * Abschließende Gedanken
 
 ## 1. Mobile Verifizierung Toolkit (MVT) - Android- und iOS -Analyse
-Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder MVT] [1] veröffentlicht, um forensische Spuren zu finden, um zu verstehen, ob die Pegasus -Spyware auf Ihr iOS- oder Andriod -Telefon abzielt.
+Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder MVT][1] veröffentlicht, um forensische Spuren zu finden, um zu verstehen, ob die Pegasus -Spyware auf Ihr iOS- oder Andriod -Telefon abzielt.
 **Merkmale**:
   * Verschlüsselt iOS -Backups verschlüsselt.
   * Verarbeiten und analysieren Sie Aufzeichnungen aus dem iOS -System.
@@ -41,7 +41,7 @@ Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder M
 **Verknüpfung**:
 
 ## 2. Wireshark - Netzwerkprotokollanalyse {#CE62}
-[Wireshark] [2] ist ein Tool, das ein Netzwerkpaket analysiert. Es kann für Netzwerktests und Fehlerbehebung verwendet werden. Dieses Tool hilft Ihnen dabei, verschiedene Datenverkehr durch Ihr Computersystem zu überprüfen.
+[Wireshark][2] ist ein Tool, das ein Netzwerkpaket analysiert. Es kann für Netzwerktests und Fehlerbehebung verwendet werden. Dieses Tool hilft Ihnen dabei, verschiedene Datenverkehr durch Ihr Computersystem zu überprüfen.
 **Merkmale**:
   * Es bietet eine reiche VoIP -Analyse (Voice -Over -Internet -Protokoll).
   * Erfassungsdateien, die mit GZIP komprimiert sind, kann leicht dekomprimiert werden.
@@ -50,10 +50,10 @@ Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder M
   * Entschlüsselungsunterstützung für zahlreiche Protokolle, die IPSec (Internet Protocol Security), SSL (Secure Sockets Layer) und WEP (Wired Equivalent Privacy) umfassen.
   * Sie können intuitive Analysen und Farbregeln auf das Paket anwenden.
   * Ermöglicht Ihnen die Datei in einem beliebigen Format zu lesen oder zu schreiben.
-** Link **: [https://www.wireshark.org] [2]
+** Link **: [https://www.wireshark.org][2]
 
 ## 3. Das Sleuth -Kit und die Autopsie - Festplattenanalyse {#CE62}
-[SLEUTH KIT & AUTOPSY] [3] ist ein Windows -basiertes Dienstprogramm -Tool, das die forensische Analyse von Computersystemen erleichtert. Mit diesem Tool können Sie Ihre Festplatte und Ihr Smartphone untersuchen.
+[SLEUTH KIT & AUTOPSY][3] ist ein Windows -basiertes Dienstprogramm -Tool, das die forensische Analyse von Computersystemen erleichtert. Mit diesem Tool können Sie Ihre Festplatte und Ihr Smartphone untersuchen.
 **Merkmale**:
   * Sie können Aktivität mithilfe einer grafischen Schnittstelle effektiv identifizieren.
   * Diese Anwendung enthält eine Analyse für E -Mails.
@@ -62,19 +62,19 @@ Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder M
   * Sie können Dateien mit den beliebigen Tag -Namen markieren.
   * Mit dem Sleuth -Kit können Sie Daten aus Anrufprotokollen, SMS, Kontakten usw. extrahieren.
   * Es hilft Ihnen, Dateien und Ordner basierend auf Pfad und Namen zu markieren.
-** Link **: [https://www.sleuthkit.org] [3]
+** Link **: [https://www.sleuthkit.org][3]
 
 ## 4. Volatilitätsgerüst - Speicherforensik {#CE62}
-[Volatility Framework] [4] ist Software für Speicheranalyse und Forensik. Es ist eines der besten forensischen Imaging -Tools, mit denen Sie den Laufzeitzustand eines Systems anhand der in RAM gefundenen Daten testen können. Mit dieser App können Sie mit Ihren Teamkollegen zusammenarbeiten.
+[Volatility Framework][4] ist Software für Speicheranalyse und Forensik. Es ist eines der besten forensischen Imaging -Tools, mit denen Sie den Laufzeitzustand eines Systems anhand der in RAM gefundenen Daten testen können. Mit dieser App können Sie mit Ihren Teamkollegen zusammenarbeiten.
 **Merkmale**:
   * Es verfügt über API, mit denen Sie schnell nach PTE -Flags nach PTE -Flaggen suchen können.
   * Das Volatilitätsgerüst unterstützt Kaslr (Kerneladress -Raumlayout -Randomisierung).
   * Dieses Tool bietet zahlreiche Plugins für die Überprüfung des Mac -Dateibetriebs.
   * Es wird automatisch den Fehlerbefehl ausgeführt, wenn ein Dienst nicht mehrmals beginnt.
-** Link **: [https://www.volatilityFoundation.org] [4]
+** Link **: [https://www.volatilityFoundation.org][4]
 
 ## 5. SANS Investigative Forensic Toolkit (SIFT) - SIFT -Workstation für Ubuntu {#B49B}
-[Sans SIFT] [5] ist eine auf Ubuntu basierende Computer -Forensikverteilung. Es ist eines der besten forensischen Computer -Tools, die eine digitale forensische und vorfältige Reaktionsprüfungseinrichtung bieten.
+[Sans SIFT][5] ist eine auf Ubuntu basierende Computer -Forensikverteilung. Es ist eines der besten forensischen Computer -Tools, die eine digitale forensische und vorfältige Reaktionsprüfungseinrichtung bieten.
 **Merkmale**:
   * Es kann an einem 64-Bit-Betriebssystem funktionieren.
   * Dieses Tool hilft Benutzern, Speicher besser zu nutzen.
@@ -89,12 +89,14 @@ Die digitale Forensik kann sowohl für Unternehmen als auch für Anwaltskanzleie
 
 ## Schluss Gedanken: {#4a1a}
 Wir haben die beliebtesten digitalen Open -Source -forensischen Tools erörtert, die viele Implementierungen mit einer schnelleren Turnaround -Zeit im Vergleich zu herkömmlichen Methoden umfassen. Datenforensik-Tools sind weitgehend technisch angetrieben mit einer schnellen Alternative zur manuellen Analyse. Dies sind einige der besten kostenlosen Tools, die Sie für die Forensik verwenden können. Wir hoffen, dass Sie es genossen haben, die Liste durchzulesen. In unseren bevorstehenden Blog -Artikeln werden wir weitere interessante Themen zu Open -Source -Digital Forensic Tools erörtern.
-Sie können sich uns auf [Twitter] [7], [LinkedIn] [8] und unserer [Facebook] [9] -Seite anschließen. Welche digitalen forensischen Open -Source -Tools bevorzugen Sie? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen] [10].
+Sie können sich uns auf [Twitter][7], [LinkedIn][8] und unserer [Facebook][9] -Seite anschließen. Welche digitalen forensischen Open -Source -Tools bevorzugen Sie? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][10].
 
 ## Erkunden:
 Wir haben auch mehrere andere Artikel, die Sie mögen.
-  * [Top Open Source Digital Forensic Tools] [11]
-  * [Mobiles Verifizierungs -Toolkit oder MVT -Tool für die NSO -Gruppe Pegasus Israeli Spyware] [1]
+  * [Top Open Source Digital Forensic Tools][11]
+  * [Mobiles Verifizierungs -Toolkit oder MVT -Tool für die NSO -Gruppe Pegasus Israeli Spyware][1]
+
+  
 [1]: https://products.containerize.com/digital-forensic-software/mvt/
 [2]: https://www.wireshark.org/
 [3]: https://www.sleuthkit.org/

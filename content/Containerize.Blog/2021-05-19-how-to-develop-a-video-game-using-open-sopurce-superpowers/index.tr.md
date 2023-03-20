@@ -15,15 +15,15 @@ categories: ['Game Development Software']
 
 
 ## Genel Bakış
-Yakın geçmişte, [Oyun Geliştirme Yazılımı] [1] kategorisinde, global oyun endüstrisinin açık kaynak yazılımından nasıl yararlanmasını ve yeni başlayanların oyun geliştirmeye başlaması için GDEPLOVE eğitimini içeren bazı makaleler yayınlandı. Video oyunu geliştirme, eğlence oyunlarına olan artan taleple dünyaya çok daha fazla yayılıyor. Bununla birlikte, fikir, tasarım geliştirme, sürekli test, sürümler ve geri bildirimleri içerir. Başka bir deyişle, tasarımcıları, yazılım mimarlarını, programcıları, testçileri ve destek kaynaklarını içerir. Buna ek olarak, aksiyon oyunları, bulmaca oyunları, yarış oyunları, bilişsel oyunlar ve biraz daha fazlası gibi birçok oyun türü vardır.
+Yakın geçmişte, [Oyun Geliştirme Yazılımı][1] kategorisinde, global oyun endüstrisinin açık kaynak yazılımından nasıl yararlanmasını ve yeni başlayanların oyun geliştirmeye başlaması için GDEPLOVE eğitimini içeren bazı makaleler yayınlandı. Video oyunu geliştirme, eğlence oyunlarına olan artan taleple dünyaya çok daha fazla yayılıyor. Bununla birlikte, fikir, tasarım geliştirme, sürekli test, sürümler ve geri bildirimleri içerir. Başka bir deyişle, tasarımcıları, yazılım mimarlarını, programcıları, testçileri ve destek kaynaklarını içerir. Buna ek olarak, aksiyon oyunları, bulmaca oyunları, yarış oyunları, bilişsel oyunlar ve biraz daha fazlası gibi birçok oyun türü vardır.
 Bu nedenle, herhangi bir 3D oyun oluşturucu ile başlamak için iyi bir oyun geliştirme kılavuzu çok gereklidir. Açık kaynaklı topluluk, 3D ve 2D oyunlar geliştirmek için kurumsal düzeyde özellikler ve yardımcı programlar sunan birçok oyun geliştirme yazılımı geliştirdi. Bu HTML5 Oyun Geliştirme Eğitimi, aşağıdaki noktaları kaplayarak ücretsiz video oyunu geliştirme yazılımı ** süper güçler ** kullanarak bir video oyununun nasıl geliştirileceğini araştıracaktır.
-  *** [süper güçler nedir] [2] **
-  *** [Localhost'ta nasıl kurulur?] [3] **
-  *** [Süper Güçler Gösterge Tablosu?] [4] **
-  *** [Sonuç] [5] **
+  *** [süper güçler nedir][2] **
+  *** [Localhost'ta nasıl kurulur?][3] **
+  *** [Süper Güçler Gösterge Tablosu?][4] **
+  *** [Sonuç][5] **
 
 ## Süper güçler nedir {#intro}
-[Süper güçler] [6] video oyunu geliştirme için açık kaynaklı bir yazılımdır. Esnek, sağlam ve genişletilebilir. Bununla birlikte, animasyonlar, 3D modeller ve çok çeşitli oyun örnekleri için destek sunar. Ayrıca, kullanıcıların herhangi bir internet bağlantısı olmadan oyun oluşturabileceği çevrimdışı bir sürümle de gelir. Herhangi bir projeyi yayınlamak inanılmaz derecede kolaydır ve bunlar tek bir tıklamayla gerçekleşir. Kullanıcılar için kullanıcıların çeşitli öğelerden kolayca gidebilecekleri sezgisel bir gösterge tablosu vardır. Her şeyden önce, herhangi bir belirsizlik veya hatadan kaçınmak için geliştiriciye hatayı gösterdiği canlı hata raporlaması olan çok havalı bir şey var. SuperPowers'ın kurulumu kolaydır ve sunucularda daha da barındırmak için kolay gereksinimler gerektirir, bu 3D Game Builder TypeScript'te yazılmıştır ve geliştirme ve dağıtım ile ilgili tüm belgelerle birlikte gelir. Bu nedenle, tüm kaynak kodu [GitHub] [7] 'de mevcuttur.
+[Süper güçler][6] video oyunu geliştirme için açık kaynaklı bir yazılımdır. Esnek, sağlam ve genişletilebilir. Bununla birlikte, animasyonlar, 3D modeller ve çok çeşitli oyun örnekleri için destek sunar. Ayrıca, kullanıcıların herhangi bir internet bağlantısı olmadan oyun oluşturabileceği çevrimdışı bir sürümle de gelir. Herhangi bir projeyi yayınlamak inanılmaz derecede kolaydır ve bunlar tek bir tıklamayla gerçekleşir. Kullanıcılar için kullanıcıların çeşitli öğelerden kolayca gidebilecekleri sezgisel bir gösterge tablosu vardır. Her şeyden önce, herhangi bir belirsizlik veya hatadan kaçınmak için geliştiriciye hatayı gösterdiği canlı hata raporlaması olan çok havalı bir şey var. SuperPowers'ın kurulumu kolaydır ve sunucularda daha da barındırmak için kolay gereksinimler gerektirir, bu 3D Game Builder TypeScript'te yazılmıştır ve geliştirme ve dağıtım ile ilgili tüm belgelerle birlikte gelir. Bu nedenle, tüm kaynak kodu [GitHub][7] 'de mevcuttur.
 Süper güçler aşağıdaki önemli noktaları sunar:
   * Canlı hata raporlaması
   * Çok dilli
@@ -81,22 +81,24 @@ Ayrıca, sol tarafta animasyonları ayarlayabileceğiniz, görüntüyü oluştur
 Aynı şekilde, bu oyun makalesinden geçtikten sonra, daha fazla keşfedebilir ve tüm özellikleri kullanabilirsiniz. Ayrıca, Superpowers Video Game Builder'ı kullanarak nasıl devam edeceğinizi anlayabileceksiniz. Bu oyun geliştirme yazılımı için çevrimiçi destek mevcuttur.
 
 ## ** Sonuç ** {#Conclusion}
-Bu, bu HTML5 oyun geliştirme kılavuzuna bir son verir. Umarım, video oyunu geliştirmeye başlamak istiyorsanız bu blog yazısı size yardımcı olacaktır. Süper güçlerin ne olduğunu, açık kaynaklı bir 3D oyun oluşturucu olan bir video oyunu nasıl geliştirileceğini araştırdık ve ayrıca Localhost'ta kurulum prosedüründen geçtik. Kullanıcıların sıfırdan oyun oluşturmasına izin veren birçok açık kaynak ** video oyunu tasarım uygulamaları ** vardır. Video oyunu programcıları, yüksek kaliteli oyunlar oluşturmak için temel oyun tasarım ilkelerini kullanır. [Blog.containerize.com] [8] adresindeki önümüzdeki makalelerimizde 2D ve 3D oyunlar oluşturma hakkında daha fazla bilgi edineceksiniz. Aşağıdaki “Keşfet” bölümünde belirtilen başka açık kaynak, kendi kendine barındırılan 3D oyun inşaatçıları ve ilgili makaleler vardır.
-Son olarak, Containerize.com sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video oyunu geliştirme] [9] [] [10] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [11], [LinkedIn] [12] ve [Twitter] [13] 'te takip edebilirsiniz.
+Bu, bu HTML5 oyun geliştirme kılavuzuna bir son verir. Umarım, video oyunu geliştirmeye başlamak istiyorsanız bu blog yazısı size yardımcı olacaktır. Süper güçlerin ne olduğunu, açık kaynaklı bir 3D oyun oluşturucu olan bir video oyunu nasıl geliştirileceğini araştırdık ve ayrıca Localhost'ta kurulum prosedüründen geçtik. Kullanıcıların sıfırdan oyun oluşturmasına izin veren birçok açık kaynak ** video oyunu tasarım uygulamaları ** vardır. Video oyunu programcıları, yüksek kaliteli oyunlar oluşturmak için temel oyun tasarım ilkelerini kullanır. [Blog.containerize.com][8] adresindeki önümüzdeki makalelerimizde 2D ve 3D oyunlar oluşturma hakkında daha fazla bilgi edineceksiniz. Aşağıdaki “Keşfet” bölümünde belirtilen başka açık kaynak, kendi kendine barındırılan 3D oyun inşaatçıları ve ilgili makaleler vardır.
+Son olarak, Containerize.com sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video oyunu geliştirme][9][][10] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [] [14] [GDEPLOVE] [14]
-  * [] [14] [Godot] [15]
-  * [] [14] [süper güçler] [6]
-  * [] [14] [COCOS Creator] [16]
-  * [] [14] [PANDA3D] [17]
-  *** [Süper güçleri kullanarak oyun geliştirmeye başlamak] [18] **
-  *** [Oyun Geliştirme Eğitimi | Gdepop'ta oyuncu hareketi] [19] **
-  *[** Açık Kaynak Gdepelop **] Kullanarak Scratch'da Oyun Nasıl Yapılır **] [20]
-  *** [Küresel Oyun Endüstrisi Nasıl Açık Kaynak Yazılımlardan yararlanıyor] [21] **
-  *** [Yeni Başlayanlar için Oyun Gelişimine Başlamak İçin Gdepelop Eğitimi] [22] **
-  *[** 2021 yılında ilk 5 ücretsiz oyun geliştirme yazılımı **] [23]
+  * [][14][GDEPLOVE][14]
+  * [][14][Godot][15]
+  * [][14][süper güçler][6]
+  * [][14][COCOS Creator][16]
+  * [][14][PANDA3D][17]
+  *** [Süper güçleri kullanarak oyun geliştirmeye başlamak][18] **
+  *** [Oyun Geliştirme Eğitimi | Gdepop'ta oyuncu hareketi][19] **
+  *[** Açık Kaynak Gdepelop **] Kullanarak Scratch'da Oyun Nasıl Yapılır **][20]
+  *** [Küresel Oyun Endüstrisi Nasıl Açık Kaynak Yazılımlardan yararlanıyor][21] **
+  *** [Yeni Başlayanlar için Oyun Gelişimine Başlamak İçin Gdepelop Eğitimi][22] **
+  *[** 2021 yılında ilk 5 ücretsiz oyun geliştirme yazılımı **][23]
+
+  
 [1]: https://blog.containerize.com/category/game-development-software/
 [2]: #intro
 [3]: #setup

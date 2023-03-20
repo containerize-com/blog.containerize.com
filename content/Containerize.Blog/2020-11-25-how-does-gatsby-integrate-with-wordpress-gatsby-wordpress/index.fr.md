@@ -17,10 +17,10 @@ categories: ['Blogging']
 ## Aperçu
 GATSBYJS est un générateur de sites statiques à alimentation GraphQL STATIQUE gratuite et open source. Il utilise une préconfiguration puissante pour créer un site Web qui utilise uniquement des fichiers statiques pour des charges de page incroyablement rapides. WordPress est une excellente plate-forme de blogs open source. En conséquence, il y a beaucoup de gens qui savent comment déterminer si un site est un site WordPress afin qu'ils puissent les pirater et voler des informations. L'utilisation de Gatsby WordPress ensemble vous donnera la même puissance de la gestion du contenu WordPress et de la vitesse du GATSBY.
 Dans cet article, nous examinerons ce qu'est Gatsby et pourquoi vous devez l'utiliser avec le logiciel CMS. Ensuite, nous allons entrer en détail sur la façon d'utiliser WordPress et Gatsby ensemble pour créer une expérience de site Web incroyable. Commençons!
-  * [** Qu'est-ce que Gatsby **?] [1]
-  * ** [Avantages et inconvénients de l'utilisation de WordPress et Gatsby] [2] **
-  * ** [Comment utiliser Gatsby avec WordPress] [3] **
-  * ** [Conclusion] [4] **
+  * [** Qu'est-ce que Gatsby **?][1]
+  * ** [Avantages et inconvénients de l'utilisation de WordPress et Gatsby][2] **
+  * ** [Comment utiliser Gatsby avec WordPress][3] **
+  * ** [Conclusion][4] **
 
 ## Qu'est-ce que Gatsby {#gatsby}
 Gatsby est un générateur de sites statique. Cela signifie que Gatsby génère les fichiers HTML statiques qui sont téléchargés sur le serveur de votre site Web. Lorsqu'un visiteur atterrit sur votre site, ces fichiers statiques sont servis à leur navigateur, au lieu du contenu dynamique que WordPress sert généralement. Il s'agit d'un cadre gratuit et open source basé sur React qui aide les développeurs à créer des sites Web et des applications rapides.
@@ -106,7 +106,7 @@ Outre ces points officiels, je voudrais énumérer certains avantages et inconv�
 {{_LINE_99_}}
 
 ## Comment utiliser Gatsby avec WordPress {#Howto}
-Avant de pouvoir installer Gatsby, vous devez installer [NodeJS] [6] et [NPM] [7] dans l'environnement de votre site Web.
+Avant de pouvoir installer Gatsby, vous devez installer [NodeJS][6] et [NPM][7] dans l'environnement de votre site Web.
 
 ### Étape 1 - Installer Gatsby
 ```
@@ -198,7 +198,9 @@ Après avoir appelé toutes les données, Gatsby générera une page pour chaque
 
 ## Conclusion {#conclusion}
 Dans ce didacticiel Gatsby WordPress, nous avons couvert comment générer un site Web Gatsby à partir de WordPress. Nous avons appris quels sont les avantages et les inconvénients de ces deux logiciels open source. Nous avons également couvert comment installer et commencer par l'environnement de développement de Gatsby.
-Enfin, [contenerize.com] [8] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec la catégorie de plate-forme open source [blogging] [9] pour les nouvelles et les mises à jour régulières.
+Enfin, [contenerize.com][8] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec la catégorie de plate-forme open source [blogging][9] pour les nouvelles et les mises à jour régulières.
+
+  
 [1]: #gatsby
 [2]: #proscons
 [3]: #howto

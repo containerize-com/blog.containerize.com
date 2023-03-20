@@ -29,7 +29,7 @@ Aqui vamos nós !!!
 
 {{< figure align=center src="images/Open-Source-Blue-Prism.png.jpg" alt="">}}
 
-[Blue Prism] [1] RPA fornece todos os recursos principais. Pode funcionar em qualquer plataforma com qualquer aplicativo. Para usar esta ferramenta, você deve ter habilidades de programação, mas é fácil de usar para os desenvolvedores. Esta ferramenta é perfeita para organizações médias e grandes.
+[Blue Prism][1] RPA fornece todos os recursos principais. Pode funcionar em qualquer plataforma com qualquer aplicativo. Para usar esta ferramenta, você deve ter habilidades de programação, mas é fácil de usar para os desenvolvedores. Esta ferramenta é perfeita para organizações médias e grandes.
 **Características:**
   * Ele suporta modelo de implantação de vários ambientes.
   * Segurança fornecida para credenciais de rede e software.
@@ -49,13 +49,13 @@ Aqui vamos nós !!!
   * Ciências da Saúde e Vida
   * Setor educacional
 ** Melhor para: ** Automatando processos de back-office.
-** [Saiba mais sobre Prism Azul] [1] **
+** [Saiba mais sobre Prism Azul][1] **
 
 ## 2. Automação em qualquer lugar
 
 {{< figure align=center src="images/Open-Source-Automation-Anywhere.png" alt="">}}
 
-[Automação em qualquer lugar] [2] fornece todos os recursos principais. Ele fornece serviços locais e em nuvem. Essa ferramenta fácil de usar é perfeita para organizações médias e grandes.
+[Automação em qualquer lugar][2] fornece todos os recursos principais. Ele fornece serviços locais e em nuvem. Essa ferramenta fácil de usar é perfeita para organizações médias e grandes.
 **Características:**
   * Fornece segurança de nível bancário.
   * Fornece segurança por meio de autenticação, criptografia e credenciais.
@@ -71,13 +71,13 @@ Aqui vamos nós !!!
   * Plataformas sociais
   * Setor de energia
 ** Melhor para: ** Facilidade de uso.
-** [Saiba mais sobre automação em qualquer lugar] [2] **
+** [Saiba mais sobre automação em qualquer lugar][2] **
 
 ## 3. uipath
 
 {{< figure align=center src="images/Open-Source-UiPath-1024x356.png" alt="">}}
 
-[UIPATH] [3] fornece todos os recursos principais. Ele fornece suporte para Citrix. Também é fácil de usar para não desenvolvedores. Pode lidar com processos complexos. E essa ferramenta é perfeita para qualquer tamanho de negócios.
+[UIPATH][3] fornece todos os recursos principais. Ele fornece suporte para Citrix. Também é fácil de usar para não desenvolvedores. Pode lidar com processos complexos. E essa ferramenta é perfeita para qualquer tamanho de negócios.
 **Características:**
   * Ele fornece segurança gerenciando credenciais, fornecendo controles de criptografia e acesso com base na função.
   * Pode automatizar mais rápido. A automação oito a dez vezes mais rápida também através da Citrix.
@@ -101,13 +101,13 @@ Para pequenas equipes e indivíduos, o UIPATH fornece a edição da comunidade. 
   * Varejo e CPG
   * Setor público
 ** Melhor para: ** Melhorias de conformidade e produtividade.
-** [Saiba mais sobre Uipath] [3] **
+** [Saiba mais sobre Uipath][3] **
 
 ## 4. Pega
 
 {{< figure align=center src="images/Open-Source-Pega.png" alt="">}}
 
-[Pega] [4] é uma ferramenta de gerenciamento de processos de negócios. Pode ser usado em servidores de desktop. Ele fornece apenas soluções ou serviços baseados em nuvem. Pode funcionar no Windows, Linux e Mac. Esta ferramenta é perfeita para empresas médias e grandes.
+[Pega][4] é uma ferramenta de gerenciamento de processos de negócios. Pode ser usado em servidores de desktop. Ele fornece apenas soluções ou serviços baseados em nuvem. Pode funcionar no Windows, Linux e Mac. Esta ferramenta é perfeita para empresas médias e grandes.
 **Características:**
   * Isso o ajudará na implantação de suas soluções para os clientes.
   * Ele fornece uma solução baseada em nuvem.
@@ -128,13 +128,13 @@ Para pequenas equipes e indivíduos, o UIPATH fornece a edição da comunidade. 
   * Varejo
   * Mídia e entretenimento
 ** Melhor para: ** Soluções CRM e suporte da plataforma.
-** [Saiba mais sobre Pega] [4] **
+** [Saiba mais sobre Pega][4] **
 
 ## 5. Kofax
 
 {{< figure align=center src="images/Open-Source-Kofax.png" alt="">}}
 
-[Kofax] [5] pode trabalhar com qualquer aplicativo virtualmente. As habilidades de codificação não são obrigatórias para esta ferramenta. Ele pode processar dados de qualquer site, aplicativo de desktop e portal.
+[Kofax][5] pode trabalhar com qualquer aplicativo virtualmente. As habilidades de codificação não são obrigatórias para esta ferramenta. Ele pode processar dados de qualquer site, aplicativo de desktop e portal.
 **Características:**
   * Faz tarefas repetitivas com eficiência.
   * Ferramenta inteligente para monitorar e otimizar os processos.
@@ -153,18 +153,20 @@ Para pequenas equipes e indivíduos, o UIPATH fornece a edição da comunidade. 
   * Transporte e logística
   * Indústria cruzada
 ** Melhor para: ** Empresas pesadas de informações que desejam processos de negócios acelerados.
-** [Saiba mais sobre Kofax] [5] **
+** [Saiba mais sobre Kofax][5] **
 
 ## ** Conclusão: ** {#4A1A}
 As cinco ferramentas RPA de código aberto acima são as ferramentas RPA de código aberto mais populares e melhores para desenvolvedores. Além da nossa comparação de cada ferramenta em detalhes aqui, o Blue Prism é a melhor ferramenta, mas você deve ser treinado antes de usá -la. E o treinamento também é caro. O UIPATH é fácil de usar, mesmo para não desenvolvedores. Ele fornece os mesmos recursos e até os servidores de pequenos indústrias de escala. Para aplicativos de estação de trabalho, o Contextor é a melhor opção, pois eles têm uma especialidade.
-_ Quais são as suas ferramentas RPA de código aberto mais favorito?. Você tem alguma dúvida sobre as ferramentas RPA de código aberto?, Por favor [[entre em contato] [6].
+_ Quais são as suas ferramentas RPA de código aberto mais favorito?. Você tem alguma dúvida sobre as ferramentas RPA de código aberto?, Por favor [[entre em contato][6].
 
 ## Explore:
 Também temos vários outros relógios de informação relacionados:
-  * [Melhor software de armazenamento em nuvem e compartilhamento de arquivos de código aberto] [7]
-  * [Software Top 5 de Mensagem de Código Aberto (MQ) em 2021] [8]
-  * [Ferramentas forenses digitais mais populares de código aberto] [9]
-  * [Licenças de código aberto mais populares aprovadas pela OSI] [10]
+  * [Melhor software de armazenamento em nuvem e compartilhamento de arquivos de código aberto][7]
+  * [Software Top 5 de Mensagem de Código Aberto (MQ) em 2021][8]
+  * [Ferramentas forenses digitais mais populares de código aberto][9]
+  * [Licenças de código aberto mais populares aprovadas pela OSI][10]
+
+  
 [1]: https://www.blueprism.com/
 [2]: https://www.automationanywhere.com/
 [3]: https://www.uipath.com/

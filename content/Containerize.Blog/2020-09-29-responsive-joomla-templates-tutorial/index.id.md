@@ -24,10 +24,10 @@ Selama fase pengembangan, penempatan elemen desain sangat penting untuk diperole
   * Keterbacaan
 Inilah Template ** Joomla **. Perangkat lunak open source ini memberikan ketentuan untuk mengembangkan atau menggunakan tata letak responsif yang telah ditentukan untuk semua halaman web daripada menulis kode untuk setiap halaman secara terpisah.
 Dalam posting blog ini, kami akan mempelajari hal -hal berikut tentang cara membuat dan mengatur template ramah pengguna ** di Joomla.
-  *[** Apa itu tata letak Joomla? **] [2]
-  *[** Bagaimana cara membuat template responsif sederhana di Joomla? **] [3]
-  *[** Bagaimana cara menginstal template joomla? **] [4]
-  *[** Kesimpulan **] [5]
+  *[** Apa itu tata letak Joomla? **][2]
+  *[** Bagaimana cara membuat template responsif sederhana di Joomla? **][3]
+  *[** Bagaimana cara menginstal template joomla? **][4]
+  *[** Kesimpulan **][5]
 
 ## Apa itu tata letak Joomla? {#Apa}
 Joomla menyediakan templat untuk ujung depan dan juga untuk bagian belakang. Muncul dengan banyak templat yang siap dan menawarkan pengembang untuk membangun ** tema bootstrap responsif gratis ** Menurut kasus penggunaannya. Ada dua jenis templat di Joomla.
@@ -239,22 +239,24 @@ Sekarang, Anda dapat melihat template Joomla pertama Anda ke browser!
 
 ## kesimpulan {#conclusion}
 Template yang baik dan responsif adalah dasar untuk pemodelan situs secara keseluruhan. ** Tata letak responsif ** di Joomla bersifat multifungsi dan dapat digunakan untuk berbagai proyek. Dari menulis kode ke pengembangan Template Joomla menjadi sangat sederhana dengan bantuan dasbor admin intuitif. Joomla memberikan kontrol penuh atas pengembangan template untuk memenuhi keinginan pengguna.
-Sebagai ** perangkat lunak CMS ** Kategori berada di bawah perbaikan yang konsisten dan lebih banyak tutorial tentang sistem manajemen konten lainnya akan ditambahkan ke daftar, harap tetap berhubungan dengan bagian [Sistem Manajemen Konten] [6] untuk pembaruan rutin.
+Sebagai ** perangkat lunak CMS ** Kategori berada di bawah perbaikan yang konsisten dan lebih banyak tutorial tentang sistem manajemen konten lainnya akan ditambahkan ke daftar, harap tetap berhubungan dengan bagian [Sistem Manajemen Konten][6] untuk pembaruan rutin.
 
 ## halaman produk yang relevan
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Joomla] [1]
-  * [Drupal] [7]
-  * [Pyro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Concrete5] [11]
-  * [Grav] [12]
-  * [Craft] [13]
-  * [Conttao] [14]
-  * [Fork] [15]
-  * [Refinery CMS] [16]
-  * [LocomotiveCMS] [17]
+  * [Joomla][1]
+  * [Drupal][7]
+  * [Pyro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Concrete5][11]
+  * [Grav][12]
+  * [Craft][13]
+  * [Conttao][14]
+  * [Fork][15]
+  * [Refinery CMS][16]
+  * [LocomotiveCMS][17]
+
+  
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

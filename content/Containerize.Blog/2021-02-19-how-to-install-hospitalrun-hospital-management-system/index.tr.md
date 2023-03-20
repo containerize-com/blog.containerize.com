@@ -15,12 +15,12 @@ categories: ['Healthcare Software']
 
 
 ## Genel Bakış
-Kısa bir süre önce açık kaynak hastane yönetim sisteminin sağlık endüstrisi üzerindeki etkisini tanımlayan [çevrimiçi sağlık yazılımı nasıl sağlık endüstrisi güçlendiriyor] [1] hakkında bir blog yazısı yayınladık. Küresel sağlık yazılımı endüstrisi zamanın geçişine değer kazanıyor. Aslında, teknoloji yaşamın her alanını dönüştürdü. Hasta ve personelin sayısı o kadar yükseldi ki, bu büyük verileri yönetmek için bir güçlük haline geldi. Öte yandan, her gün gerçekleşen birçok zaman alıcı görev var ve sağlık kuruluşları bu görevleri tekrar tekrar gerçekleştiriyor. Bu nedenle, açık kaynaklı kaynak topluluğu, sağlık ihtiyaçlarını karşılamak için birçok yararlı modülle birlikte gelen açık kaynaklı tıbbi yazılım geliştirmiştir.
+Kısa bir süre önce açık kaynak hastane yönetim sisteminin sağlık endüstrisi üzerindeki etkisini tanımlayan [çevrimiçi sağlık yazılımı nasıl sağlık endüstrisi güçlendiriyor][1] hakkında bir blog yazısı yayınladık. Küresel sağlık yazılımı endüstrisi zamanın geçişine değer kazanıyor. Aslında, teknoloji yaşamın her alanını dönüştürdü. Hasta ve personelin sayısı o kadar yükseldi ki, bu büyük verileri yönetmek için bir güçlük haline geldi. Öte yandan, her gün gerçekleşen birçok zaman alıcı görev var ve sağlık kuruluşları bu görevleri tekrar tekrar gerçekleştiriyor. Bu nedenle, açık kaynaklı kaynak topluluğu, sağlık ihtiyaçlarını karşılamak için birçok yararlı modülle birlikte gelen açık kaynaklı tıbbi yazılım geliştirmiştir.
 Açık kaynaklı tıbbi yazılım, tıbbi geçmişleriyle ilgili hasta kayıtlarını ve hastane yönetimi hükümlerini yönetmek için geliştirilmiştir. Buna ek olarak, açık kaynaklı sağlık yazılımı, ileri düzeyde hizmet sağlamak için yapay zekadan yararlanıyor. Hastalık tedavilerinin çoğu şimdi sadece problemleri teşhis etmekle kalmayıp aynı zamanda tedavide yardım sağlayan yazılım tarafından ele alınmaktadır. Ancak, hastaneler için ortaya çıkan birçok yazılım var. Bu blog yazısında aşağıdaki noktaları ele alacağız.
-  *[** Hastane Nedir? **] [2]
-  *[** Hospitalrun'un özellikleri nelerdir **] [3]
-  *[** Hastanenin kurulum adımları? **] [4]
-  *[** Sonuç **] [5]
+  *[** Hastane Nedir? **][2]
+  *[** Hospitalrun'un özellikleri nelerdir **][3]
+  *[** Hastanenin kurulum adımları? **][4]
+  *[** Sonuç **][5]
 
 ## Hospitalrun nedir? {#intro}
 Hospitalrun ücretsiz açık kaynaklı bir hastane bilgi yönetim sistemidir. Bu ücretsiz sağlık hizmeti çözümü, internet bağlantısı olmasa bile kullanıcılar bu ücretsiz yazılımı tam olarak kullanabileceğinden çevre dostudur. Kullanıcı yönetimi, hasta kayıtları, randevular, faturalandırma sistemi, hasta deşarj sistemi ve daha fazlası gibi birçok özellik sağlar. Bu açık kaynaklı eHealth sisteminin kullanıcı arayüzü, kullanıcıların farklı öğelerden kolayca gidebilecekleri mantıklıdır. Buna ek olarak, kurulumu kolaydır ve geliştiricilerin bir Docker görüntüsü kullanarak dağıtabileceği bir Docker görüntüsü sunar.
@@ -40,9 +40,9 @@ Bu bölümde, bu eHealth sisteminin aşağıdaki temel özelliklerinden bazılar
 ## Hastanenin kurulum adımları? {#steps}
 Blog yazısının bu bölümü Hospitalrun'un kurulum adımlarını açıklamaktadır.
 Başlamadan önce, önce aşağıdaki ön koşulları yükleyin:
-  * [Docker] [6]
-  * [Docker-compose] [7]
-Önkoşullar yüklendikten sonra, bu [bağlantı] [8] 'den kaynak kodunu indirin.
+  * [Docker][6]
+  * [Docker-compose][7]
+Önkoşullar yüklendikten sonra, bu [bağlantı][8] 'den kaynak kodunu indirin.
 Bundan sonra, terminali açın ve aşağıdaki komutları çalıştırın:
 CD jenerik
 CD Sunucusu
@@ -60,21 +60,23 @@ Son olarak, bu sağlık çözümüne http: // localhost/#/giriş adresinden tara
 
 ## Sonuç {#Conclusion}
 Bu öğretici makalenin sonu. Bu hasta kayıt sistemi gerçekten ** sağlık hizmetlerini ** otomatikleştirmeye yardımcı olur **. Modern açık kaynaklı hastane yönetim sistemi, sağlık çalışanlarının daha iyi sağlık tesisleri için gerekli önlemleri almalarına yardımcı olan veri analitik araçlarıyla birlikte gelir. Hastaneniz/kliniğiniz için bir eHealth sistemi dağıtmak istiyorsanız, bu blog yazısı size gerçekten yardımcı olacaktır. Bu açık kaynaklı çözümler, laboratuvarlarla ve diğer kliniklerle entegre oldukları için uygun maliyetlidir ve ayrıca her işlemi bilgisayarlı olarak evrakları en aza indirir. Açık Kaynak Sağlık Hizmetleri Çözümü, kullanıcıların hastaların ilaçları, taburcuları, raporları ve faturalandırma yönetimi gibi tüm sağlık operasyonlarının görsellerine sahip olmalarını sağlar. Ayrıca, kaynak planlaması ve risk değerlendirmesi gibi diğer önemli görevlere odaklanabilirsiniz. Ancak, aşağıdaki “Keşfet” bölümünde belirtilen hastaneler için başka birçok işletme düzeyinde yazılım vardır.
-Sonunda, **** [Containerize.com] [9] **** daha fazla açık kaynaklı ürünlere yazmayı amaçlamaktadır. Bu nedenle, en son güncellemeler için bu [Healthcare Technologies] [10] kategorisiyle iletişim halinde olun.
+Sonunda, **** [Containerize.com][9] **** daha fazla açık kaynaklı ürünlere yazmayı amaçlamaktadır. Bu nedenle, en son güncellemeler için bu [Healthcare Technologies][10] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Openemr] [11]
-  * [OpenMRS] [12]
-  * [Hospitalrun] [13]
-  * [Açık Hastane] [14]
-  * [Solizmli] [15]
-  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler] [16]
-  * [Tıbbi Kayıt Yöneticisi Hospitalrun'un Keşfi Özellikleri] [17]
-  * [Top 5 Açık Kaynak Hasta Sağlığı Kayıt Yazılımı] [18]
-  * [Tıbbi Sağlık Çözümü OpenEmr'ın Keşiflenmesi] [19]
-  * [Localhost'ta EHealth System Hastanesi Nasıl Kurulur] [20]
-  * [Çevrimiçi sağlık yazılımı sağlık sektörünü nasıl güçlendirir] [1]
+  * [Openemr][11]
+  * [OpenMRS][12]
+  * [Hospitalrun][13]
+  * [Açık Hastane][14]
+  * [Solizmli][15]
+  * [2021'de açık kaynaklı yazılım seçmeden önce gözden geçirilecek şeyler][16]
+  * [Tıbbi Kayıt Yöneticisi Hospitalrun'un Keşfi Özellikleri][17]
+  * [Top 5 Açık Kaynak Hasta Sağlığı Kayıt Yazılımı][18]
+  * [Tıbbi Sağlık Çözümü OpenEmr'ın Keşiflenmesi][19]
+  * [Localhost'ta EHealth System Hastanesi Nasıl Kurulur][20]
+  * [Çevrimiçi sağlık yazılımı sağlık sektörünü nasıl güçlendirir][1]
+
+  
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: #intro
 [3]: #features

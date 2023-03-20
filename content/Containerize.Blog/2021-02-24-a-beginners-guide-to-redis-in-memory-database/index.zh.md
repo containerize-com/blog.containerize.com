@@ -14,12 +14,12 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/redis-in-memory-database.png" alt="内存数据库REDIS">}}
 
 ** redis **实际上代表“ ** re ** mote ** di ** ctionary ** s ** erver”。 Database Redis是一家开源的高级钥匙值商店。它支持几种数据类型：字符串，哈希，列表，集合和排序集。这就是为什么通常将其称为数据结构服务器的原因。 REDIS用C编写。此REDIS教程对Redis内存数据库概念有很好的了解。
-  *** [什么是NOSQL数据库] [1] **
-  *** [REDIS是NOSQL数据库吗？] [2] **
-  *** [何时使用redis？] [3] **
-  *** [redis vs其他钥匙值商店] [4] **
-  *** [在Ubuntu上安装Redis] [5] **
-  *** [结论] [6] **
+  *** [什么是NOSQL数据库][1] **
+  *** [REDIS是NOSQL数据库吗？][2] **
+  *** [何时使用redis？][3] **
+  *** [redis vs其他钥匙值商店][4] **
+  *** [在Ubuntu上安装Redis][5] **
+  *** [结论][6] **
 
 ## 什么是NOSQL数据库{#NOSQL}
 NOSQL数据库已经非常流行。大公司依靠它们来存储数百pb的数据，并每秒进行数百万个查询。但是什么是NOSQL数据库？它是如何工作的，为什么比传统的关系数据库更好地扩展？让我们从MySQL，MariadB，SQL Server（SQL Server）等关系数据库快速解释问题开始。
@@ -69,6 +69,8 @@ PONG
 
 ## 结论{#conclusion}
 在此Redis教程中，我们了解了Redis内存数据库。我们探索了关系和非关系（NOSQL）数据库之间的主要区别。另外，学会了何时应该使用redis，什么是最好的用例。本教程是正在进行的一系列教程的一部分。在即将发表的文章中，我们将进一步探讨Redis的特定用例。
+
+  
 [1]: #nosql
 [2]: #isnosql
 [3]: #when

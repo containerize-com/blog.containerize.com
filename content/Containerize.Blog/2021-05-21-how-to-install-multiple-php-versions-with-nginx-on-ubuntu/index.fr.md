@@ -14,11 +14,11 @@ categories: ['Web Server Solution Stack']
 
 ## Si vous cherchez à utiliser plusieurs versions de PHP avec Nginx, alors dans cet article, nous vous guiderons étape par étape sur la façon d'installer PHP avec Nginx sur Ubuntu.
 Cet article est dans la continuation de notre série sur les tutoriels sur Nginx. Jusqu'à présent, nous avons couvert comment utiliser nginx comme équilibreur de charge, comment utiliser Nginx comme proxy inverse. Et maintenant, ce tutoriel couvre une autre question exigeante «Comment utiliser plusieurs versions de PHP avec Nginx». Dans ce tutoriel, nous vous guiderons étape par étape sur la façon d'installer PHP sur Ubuntu, comment configurer PHP avec Nginx, et enfin comment installer plusieurs versions de PHP avec Nginx. Alors, commençons!
-  * [Installer nginx] [1]
-  * [Installez plusieurs versions PHP] [2]
-  * [Créez plusieurs sites Web avec PHP] [3]
-  * [Configurer nginx pour exécuter différentes versions pour les sites Web] [4]
-  * [Conclusion] [5]
+  * [Installer nginx][1]
+  * [Installez plusieurs versions PHP][2]
+  * [Créez plusieurs sites Web avec PHP][3]
+  * [Configurer nginx pour exécuter différentes versions pour les sites Web][4]
+  * [Conclusion][5]
 
 ## installer nginx {#nginx}
 Nginx (prononcé en tant que «Engine-X») est un serveur Web open source qui est souvent utilisé comme proxy inversé ou cache HTTP. Il est disponible gratuitement pour Linux.
@@ -172,8 +172,10 @@ systemctl restart php7.2-fpm
 Dans ce tutoriel, nous avons exploré comment plusieurs versions PHP sur Ubuntu. Nous avons appris à installer nginx. Ensuite, nous avons exploré comment configurer deux sites Web différents dans Nginx. Et enfin, nous avons appris à configurer deux sites Web différents avec différentes versions de PHP avec Nginx. J'espère que le tutoriel vous a aidé.
 
 ## Explorer
-  * [Comment configurer et configurer Nginx comme proxy inverse] [6]
-  * [Comment utiliser Nginx comme équilibreur de charge pour votre application] [7]
+  * [Comment configurer et configurer Nginx comme proxy inverse][6]
+  * [Comment utiliser Nginx comme équilibreur de charge pour votre application][7]
+
+  
 [1]: #nginx
 [2]: #php
 [3]: #web

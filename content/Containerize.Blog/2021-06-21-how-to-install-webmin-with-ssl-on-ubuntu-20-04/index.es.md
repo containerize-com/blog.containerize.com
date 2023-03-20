@@ -14,12 +14,12 @@ categories: ['Web Hosting']
 
 ## Webmin es una herramienta de administración de sistemas basada en la web que es una alternativa simple a la administración del sistema de línea de comandos. Este artículo guía cómo instalar webmins
 Con este artículo "Cómo instalar Webmin con SSL en Ubuntu 20.04", estamos comenzando nuestra nueva serie de tutoriales sobre software y herramientas de alojamiento web. Con Webmin puede configurar cuentas de usuario, habilitar el intercambio de archivos, configurar la configuración de Apache y DNS, y realizar muchas más tareas relacionadas con el alojamiento web. Le permite administrar todo el servidor de alojamiento web. Elimina el problema de editar archivos de configuración de Linux manualmente. Así que aprendamos a instalar Webmin con SSL.
-  *** [Introducción a Webmin] [1] **
-  *[** Características resaltadas **] [2]
-  *[** Sistemas operativos compatibles **] [3]
-  *[** Instale Webmin en Ubuntu **] [4]
-  *[** Instale Apache usando Webmin **] [5]
-  *[** Conclusión **] [6]
+  *** [Introducción a Webmin][1] **
+  *[** Características resaltadas **][2]
+  *[** Sistemas operativos compatibles **][3]
+  *[** Instale Webmin en Ubuntu **][4]
+  *[** Instale Apache usando Webmin **][5]
+  *[** Conclusión **][6]
 
 ## Introducción a Webmin {#Intro}
 Webmin es una interfaz basada en la web para la administración del sistema para Linux. Le ayuda a administrar su propio servidor de alojamiento de forma remota desde cualquier navegador web moderno. Con Webmin, puede configurar las partes internas del sistema operativo, como cuentas de usuario, Apache, DNS, intercambio de archivos y mucho más. Webmin también permite controlar muchas máquinas a través de una sola interfaz, o inicio de sesión sin problemas en otros hosts Webmin en la misma subred o LAN. Webmin, basada en Perl, se ejecuta como su propio proceso y el servidor web. Y la mejor parte de Webmin es su 100% gratuito y de código abierto y tiene una comunidad de desarrolladores muy próspera.
@@ -211,8 +211,10 @@ Después de que se complete la instalación de Apache, su servidor ejecutará el
 Este artículo analiza brevemente numerosas cosas que Webmin puede hacer, Webmin es una de las mejores herramientas para administrar sus servidores Linux/Unix. En este tutorial también aprendimos a instalar Webmin en Ubuntu, y también discutimos cómo instalar Apache en su servidor usando Webmin.
 
 ## Explorar
-  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu] [7]
-  * [Cómo configurar y configurar Nginx como proxy inverso] [8]
+  * [Cómo instalar múltiples versiones de PHP con Nginx en Ubuntu][7]
+  * [Cómo configurar y configurar Nginx como proxy inverso][8]
+
+  
 [1]: #intro
 [2]: #features
 [3]: #support

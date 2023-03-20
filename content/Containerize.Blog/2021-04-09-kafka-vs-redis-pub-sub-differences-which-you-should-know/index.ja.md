@@ -13,7 +13,7 @@ categories: ['Database Management Software']
 
 
 ## RedisとKafkaは、たまたま独自の方法で同様の仕事をしている2つの異なるツールです。 Kafka vs Redisの比較は、あなたが知っておくべき洞察を提供します。
-「Redis」に関する一連の記事で、[Redisの基本] [1]について学び、[Redis Pub/Sub Works] [2]とこれがNOSQLデータベースとどのように競合するかを調査しました。今日のシリーズで前進することで、Redisをさまざまなタスクの競合他社の1つであるKafkaと比較します。この記事では、Kafka vs Redis Pub-Subでは、KafkaがRedisとどのように異なるか、そしてそれらの類似点は何であるかを探ります。それでは、始めましょう。
+「Redis」に関する一連の記事で、[Redisの基本][1]について学び、[Redis Pub/Sub Works][2]とこれがNOSQLデータベースとどのように競合するかを調査しました。今日のシリーズで前進することで、Redisをさまざまなタスクの競合他社の1つであるKafkaと比較します。この記事では、Kafka vs Redis Pub-Subでは、KafkaがRedisとどのように異なるか、そしてそれらの類似点は何であるかを探ります。それでは、始めましょう。
   *カフカとは何ですか？
   *レディスとは何ですか？
   *主な違いは何ですか？
@@ -21,12 +21,12 @@ categories: ['Database Management Software']
   * 結論
 
 ## カフカとは何ですか？
-Apache Kafkaは、オープンソース分散イベントストリームプラットフォームです。高性能データパイプラインとストリーミング分析に使用されます。 Kafkaは[出版されたメッセージメッセージングシステム] [3]として機能します。これにより、新しいデータを高速で生成して処理でき、さらにデータベースにも保存できます。
+Apache Kafkaは、オープンソース分散イベントストリームプラットフォームです。高性能データパイプラインとストリーミング分析に使用されます。 Kafkaは[出版されたメッセージメッセージングシステム][3]として機能します。これにより、新しいデータを高速で生成して処理でき、さらにデータベースにも保存できます。
 Kafkaは、**サーバー**および**クライアント**で構成される分散システムです。裸のメタルハードウェア、仮想マシン、およびコンテナにオンプレミスおよびクラウド環境に展開できます。
 
 ## redisとは何ですか？
 Redisは、オープンソースの高度なキー価値ストアです。文字列、ハッシュ、リスト、セット、ソートセットのいくつかのデータ型をサポートしています。そのため、データ構造サーバーと呼ばれることがよくあります。
-Redisは、NOSQLデータベースとも考慮されます。彼のRedisとそれがどのように機能するかについての詳細な議論については、私たちの記事「[Redis Inmemoryデータベースの初心者ガイド] [1]」を参照できます。
+Redisは、NOSQLデータベースとも考慮されます。彼のRedisとそれがどのように機能するかについての詳細な議論については、私たちの記事「[Redis Inmemoryデータベースの初心者ガイド][1]」を参照できます。
 
 ## 主な違いは何ですか？
 ** Redis ** Pub-Subは、主に生成されたすべてのメッセージが一度にすべての消費者に配信され、データはどこにも保存されないため、火災と焦点システムのようなものです。 Redisに関してメモリに制限があります。また、生産者と消費者の数は、Redisのパフォーマンスに影響を与える可能性があります。
@@ -51,6 +51,8 @@ Redisは、NOSQLデータベースとも考慮されます。彼のRedisとそ�
 
 ## 結論
 このチュートリアルKafka vs Redis Pub-Subで、KafkaとRedisを探索しました。それらの違いと類似点は何ですか？また、いつredisをすべきか、いつKafkaを使用するのが良いかを学びました。今後のチュートリアルでは、Kafkaと詳細な分析について詳しく説明します。
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/
 [3]: https://blog.containerize.com/database-management-software/introduction-to-redis-pubsub-and-how-does-it-work/

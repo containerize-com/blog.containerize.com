@@ -17,15 +17,15 @@ categories: ['Version Control Software']
 ## Überblick
 Stellen Sie sich vor, Sie als Softwareentwickler arbeiten an einem Projekt. Sie haben mehr als eine Person, die daran arbeitet. Und es gibt eine einzige Datei, die den Quellcode enthält. Da sie alle Änderungen am Code vornehmen, haben sie jedes Mal unterschiedliche Versionen der Datei, wenn sie eine Änderung vornehmen. Wie würden wir nun verschiedene Versionen derselben Datei verwalten? Hier beginnt die Software zur Quellcode -Verwaltung. Sie hilft Ihnen, verschiedene Versionen derselben Datei zu verwalten und zusammenzuführen. Und können Sie sogar die Veränderungsgeschichte zurückverfolgen. Und Sie können immer sicher sein, wer die Änderungen an der Datei vorgenommen hat und was diese Änderungen sind.
 In diesem Artikel erfahren wir das Git -Versionskontrollsystem. So können Sie es verwenden, um Ihre Softwareentwicklungsquellcode -Dateien oder andere Dateien zu verwalten. Also lasst uns anfangen.
-  *** [Was ist Versionskontrollsystem] [1] **
-  *** [Was ist git] [2] **
-  *** [Wie Git funktioniert] [3] **
-  *** [Git installieren] [4] **
-  *** [Einrichten eines Repositorys] [5] **
-  *** [Änderungen am Repository] [6] **
-  *** [Überprüfen Sie den Status von Repository] [7] **
-  *** [Änderungen zurückkehren oder rückgängig machen] [8] **
-  *** [Schlussfolgerung] [9] **
+  *** [Was ist Versionskontrollsystem][1] **
+  *** [Was ist git][2] **
+  *** [Wie Git funktioniert][3] **
+  *** [Git installieren][4] **
+  *** [Einrichten eines Repositorys][5] **
+  *** [Änderungen am Repository][6] **
+  *** [Überprüfen Sie den Status von Repository][7] **
+  *** [Änderungen zurückkehren oder rückgängig machen][8] **
+  *** [Schlussfolgerung][9] **
 
 ## Was ist das Versionskontrollsystem {#Versionskontrolle}
 Die Versionskontrolle ist ein System, das Änderungen an einer Datei oder einer Reihe von Dateien im Laufe der Zeit aufzeichnet, sodass Sie sich später an bestimmte Versionen erinnern können. Wenn Sie ein Softwareentwickler sind und Versionen der Quellcode -Datei aufbewahren möchten, ist die Software für die Quellcodeverwaltung eine sehr nützliche Sache für Sie. Sie können ausgewählte Dateien in einen früheren Status zurückversetzen, das gesamte Projekt in einen früheren Status zurückversetzen, Änderungen im Laufe der Zeit vergleichen und sehen, wer zuletzt etwas geändert hat, das möglicherweise ein Problem verursacht, wer ein Problem einführte und wann und mehr. Wenn Sie die Versionskontrolle verwenden, müssen Sie sich nie Sorgen machen, dass Sie Ihre Arbeit verlieren.
@@ -147,10 +147,12 @@ Nachdem Sie den gesamten Artikel gelesen haben, in dem wir besprochen haben, was
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  *[** Automatisieren Sie Softwareentwicklungsworkflows mit GitHub -Aktionen **] [10]
-  *** [So richten Sie eine kontinuierliche Bereitstellungspipeline mit GitLab CI/CD ein] [11] **
-  *** [Verstehen und lernen Sie Zweige und ziehen Sie Anfragen in Git] [12] **
-  *** [Top 5 Open Source -Versionskontrollsysteme in 2021] [13] **
+  *[** Automatisieren Sie Softwareentwicklungsworkflows mit GitHub -Aktionen **][10]
+  *** [So richten Sie eine kontinuierliche Bereitstellungspipeline mit GitLab CI/CD ein][11] **
+  *** [Verstehen und lernen Sie Zweige und ziehen Sie Anfragen in Git][12] **
+  *** [Top 5 Open Source -Versionskontrollsysteme in 2021][13] **
+
+  
 [1]: #version-control
 [2]: #git
 [3]: #how

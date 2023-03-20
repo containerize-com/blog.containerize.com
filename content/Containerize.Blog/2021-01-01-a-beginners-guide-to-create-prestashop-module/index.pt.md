@@ -15,10 +15,10 @@ categories: ['Shopping Cart Software']
 
 ** Prestashop ** é um software de comércio eletrônico 100% livre e de código aberto. Isso permite que os proprietários de lojas configurem facilmente sua presença on -line e ampliem negócios em larga escala. O Prestashop vem com recursos padrão e você pode precisar de mais funcionalidade para os requisitos de negócios ocasionalmente. O Marketplace para Prestashop é um local fantástico para encontrar recursos de complementos que podem ser usados ​​para expandir a funcionalidade da loja. Além disso, você pode encontrar módulos gratuitos e pagos no Marketplace. No entanto, você também pode criar módulo personalizado a partir do zero.
 Discutiremos os tópicos abaixo em detalhes para ** Criar módulo Prestashop **.
-  * [Requisitos] [1]
-  * [Básicos do desenvolvimento do módulo] [2]
-  * [Crie nosso módulo Prestashop] [3]
-  * [Conclusão] [4]
+  * [Requisitos][1]
+  * [Básicos do desenvolvimento do módulo][2]
+  * [Crie nosso módulo Prestashop][3]
+  * [Conclusão][4]
 
 ## requisitos {#req}
   * Instale o PrestaShop 1.6 ou maior.
@@ -96,12 +96,14 @@ public function hookRightColumn($params)
   *Finalmente, abra a seção de administrador, upload e ** Instale o Módulo Prestashop **.
 
 ## Conclusão {#conclusion}
-Discutimos conceitos principais para a construção do ** Módulo de Prestashop ** neste tutorial. Além disso, desenvolvemos módulo básico que pode ser usado como ponto de partida para mais módulos avançados. [CONTERIZE.COM] [5] está trabalhando constantemente em novas postagens do blog do tutorial. Para as atualizações mais recentes, mantenha contato com a categoria [Software de carrinho de compras] [6].
+Discutimos conceitos principais para a construção do ** Módulo de Prestashop ** neste tutorial. Além disso, desenvolvemos módulo básico que pode ser usado como ponto de partida para mais módulos avançados. [CONTERIZE.COM][5] está trabalhando constantemente em novas postagens do blog do tutorial. Para as atualizações mais recentes, mantenha contato com a categoria [Software de carrinho de compras][6].
 
 ## Explore
 Você pode encontrar os seguintes links úteis, além do ** Tutorial de criação do Módulo de Prestashop **.
-  * [Prestashop - Software de carrinho de compras gratuito] [7]
-  * [5 Top 5 Software de carrinho de compras de código aberto em 2020] [8]
+  * [Prestashop - Software de carrinho de compras gratuito][7]
+  * [5 Top 5 Software de carrinho de compras de código aberto em 2020][8]
+
+  
 [1]: #Req
 [2]: #Basics
 [3]: #Create

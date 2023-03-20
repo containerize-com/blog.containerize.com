@@ -16,12 +16,12 @@ categories: ['Software Development']
 
 ## Überblick
 Hallo, Leser! Willkommen in einem anderen brandneuen Blog -Beitrag und in diesem Blog -Beitrag werden wir ein sehr heißes Thema der aktuellen Zeit beleuchten. In den letzten Jahren wurden die Entwicklungs- und Einsatztechniken in hohem Maße revolutioniert. Die Open-Source-Community hat viele Automatisierungssoftware entwickelt, um Prozesse zu automatisieren. Daher wird die Bereitstellung von Anwendungen mit dem Aufkommen von ** Container -Software ** und ** Container Orchestration -Tools ** wie Kubernetes, Docker und einige mehr. Diese Software sind kostenlos, Open-Source und umfassen umfassende Dokumentation. Die Container -Software entfernt die Probleme der Softwareentwicklung und ermöglicht die Bereitstellung von Software -Administratoren die Anwendungen, ohne sich um Plattformen und die anderen Softwareabhängigkeiten zu sorgen. Tatsächlich verpacken Container zusammen Anwendungsabhängigkeiten und den Quellcode. Ebenso gibt es viele ** Vorteile der Containerisierung **, die wir in diesem Artikel durchgehen werden, indem wir die folgenden Punkte abdecken.
-  *** [Was ist ein Container in Docker und was ist Containerisierung?] [1] **
-  *[** Vorteile der Containerisierung **] [2]
-  *** [letzte Bemerkungen] [3] **
+  *** [Was ist ein Container in Docker und was ist Containerisierung?][1] **
+  *[** Vorteile der Containerisierung **][2]
+  *** [letzte Bemerkungen][3] **
 
 ## Was ist ein Container in Docker und was ist Containerisierung? {#Was}
-Docker ist eine Open-Source-Container-Software, mit der die Bereitstellung von Anwendungen mithilfe von Containern erleichtert wird. Daher ermöglichen es Containern den Benutzern, den Software -Quellcode, die Konfigurationsdateien, die Datenbank und alle erforderlichen Abhängigkeiten in ein einzelnes Paket aufzupacken. Entwickler erstellen also eine Dockerfile, in der all diese Anweisungen geschrieben werden, und führen diese Datei aus, um die Docker -Container in jeder Umgebung zu drehen. All dieser Vorgang wird als Containerisierung bezeichnet, bei dem jede Anwendung in ihren isolierten Räumen in einem gemeinsam genutzten Betriebssystem containeriert und in ihren isolierten Räumen ausgeführt wird. Es gibt viele Open-Source ** -Container-Orchestrierungs-Tools **, mit denen die Containerdienste verwaltet werden, und das beliebteste Tool ist [Kubernetes] [4].
+Docker ist eine Open-Source-Container-Software, mit der die Bereitstellung von Anwendungen mithilfe von Containern erleichtert wird. Daher ermöglichen es Containern den Benutzern, den Software -Quellcode, die Konfigurationsdateien, die Datenbank und alle erforderlichen Abhängigkeiten in ein einzelnes Paket aufzupacken. Entwickler erstellen also eine Dockerfile, in der all diese Anweisungen geschrieben werden, und führen diese Datei aus, um die Docker -Container in jeder Umgebung zu drehen. All dieser Vorgang wird als Containerisierung bezeichnet, bei dem jede Anwendung in ihren isolierten Räumen in einem gemeinsam genutzten Betriebssystem containeriert und in ihren isolierten Räumen ausgeführt wird. Es gibt viele Open-Source ** -Container-Orchestrierungs-Tools **, mit denen die Containerdienste verwaltet werden, und das beliebteste Tool ist [Kubernetes][4].
 
 ## Vorteile der Containerisierung {#Benefits}
 In diesem Abschnitt werden wir einige der Top -Vorteile der Containerisierung untersuchen.
@@ -54,26 +54,28 @@ Kostenlose Container -Software bringt eine Menge Produktivität durch Automatisi
 Die Containerisierung erleichtert den Benutzern die Wiederverwendbarkeitsbestimmungen. Entwickler schreiben den Code der Geschäftsanwendung einmal für alle Plattformen. Sie müssen keine verschiedenen Quellcodes für verschiedene Plattformen schreiben.
 
 ### Gemeinschaft
-Dies ist ein weiteres großes Plus der Containerisierung. Die Community gibt enorme Unterstützung und Benutzer können auf jeder Ebene Anleitungen suchen. Vor allem gibt es einen Platz namens [Docker Hub] [5], in dem Benutzer die Container -Anwendungen und -Dienste erstellen, teilen und ziehen können.
+Dies ist ein weiteres großes Plus der Containerisierung. Die Community gibt enorme Unterstützung und Benutzer können auf jeder Ebene Anleitungen suchen. Vor allem gibt es einen Platz namens [Docker Hub][5], in dem Benutzer die Container -Anwendungen und -Dienste erstellen, teilen und ziehen können.
 
 ## Abschlussbemerkungen {#Final}
 Dies bringt uns zum Ende dieses Blog -Beitrags. In diesem Artikel haben wir Containerisierungen und die Vorteile der Containerisierung durchlaufen. Dieser Blog -Beitrag hilft Ihnen wirklich, das Konzept und die Verwendung Ihrer Geschäftsanwendungen zu verstehen. Es gibt viele Container -Software- und Container -Orchestrierungs -Tools, die Bestimmungen zur Verwaltung der Anwendungsbereitstellungen anbieten. Darüber hinaus hat die Containerisierung viele Probleme mit Bereitstellungen, Feature -Releases und Skalierung beseitigt. Übernehmen Sie also diesen Ansatz für Softwareentwicklung und Bereitstellung, um sich an den neuesten Trends und Softwareentwicklungspraktiken anzupassen.
-Schließlich schreibt [containerize.com] [6] Artikel über weitere Open-Source-Produkte. Bitte bleiben Sie in Kontakt mit den Kategorien, die im Abschnitt „Explore“ für regelmäßige Aktualisierungen erwähnt werden.
+Schließlich schreibt [containerize.com][6] Artikel über weitere Open-Source-Produkte. Bitte bleiben Sie in Kontakt mit den Kategorien, die im Abschnitt „Explore“ für regelmäßige Aktualisierungen erwähnt werden.
 
 ## Erkunden {#explore}
 Möglicherweise finden Sie die folgenden Links relevant:
-  *** [] [7] [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [7] **
-  *[** Top 5 Open Source Container Orchestration Tools für 2021 **] [8]
-  *** [] [7] [Inhaltsmanagement] [9], [Blogging] [10], [Diskussionsforum] [11], [HealthCare Software] [12] **
-  *** [] [7] [Helpdesk] [13], [Marketing -Automatisierung] [14], [Marktplatz] [15], [Bereitstellungstools] [16], [Sicherheit] [17] **
-  *** [] [7] [Live -Chat] [18], [Form] [19], [Transaktions -E -Mail] [20], [Business Intelligence Software] [21] **
-  *** [] [7] [Newsletter] [22], [Statusseite] [23], [Rechnungsstellung] [24], [Kennwortverwaltung] [25], [Message Queue Software] [26] **
-  *** [] [7] [Single Sign-On] [27], [Projektmanagement] [28], [Rapid Anwendungsentwicklung] [29], [Animationssoftware] [30] **
-  *** [] [7] [Einkaufswagen] [31], [Open Source -Versionskontrolle] [32], [Webserver -Lösung] [33], [Fotobearbeitungssoftware] [34] **
-  *** [] [7] [Datenbankverwaltung] [35], [Videokonferenzen] [36], [Blockchain -Plattformen] [37], [Big Data] [38] **
-  *** [] [7] [CMDB -Software] [39], [Spieleentwicklungssoftware] [40], [Enterprise Resource Planning (ERP)] [41] **
-  *** [] [7] [Videobearbeitungssoftware] [42], [Datenbankverwaltungssysteme] [43], [Büroproduktivität] [44] **
-  *** [] [7] [Lernmanagementsystem (LMS)] [45], [Backup- und Synchronisierungssoftware] [46], [Digital Forensic Software] [47] **
+  *** [][7][Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][7] **
+  *[** Top 5 Open Source Container Orchestration Tools für 2021 **][8]
+  *** [][7][Inhaltsmanagement][9], [Blogging][10], [Diskussionsforum][11], [HealthCare Software][12] **
+  *** [][7][Helpdesk][13], [Marketing -Automatisierung][14], [Marktplatz][15], [Bereitstellungstools][16], [Sicherheit][17] **
+  *** [][7][Live -Chat][18], [Form][19], [Transaktions -E -Mail][20], [Business Intelligence Software][21] **
+  *** [][7][Newsletter][22], [Statusseite][23], [Rechnungsstellung][24], [Kennwortverwaltung][25], [Message Queue Software][26] **
+  *** [][7][Single Sign-On][27], [Projektmanagement][28], [Rapid Anwendungsentwicklung][29], [Animationssoftware][30] **
+  *** [][7][Einkaufswagen][31], [Open Source -Versionskontrolle][32], [Webserver -Lösung][33], [Fotobearbeitungssoftware][34] **
+  *** [][7][Datenbankverwaltung][35], [Videokonferenzen][36], [Blockchain -Plattformen][37], [Big Data][38] **
+  *** [][7][CMDB -Software][39], [Spieleentwicklungssoftware][40], [Enterprise Resource Planning (ERP)][41] **
+  *** [][7][Videobearbeitungssoftware][42], [Datenbankverwaltungssysteme][43], [Büroproduktivität][44] **
+  *** [][7][Lernmanagementsystem (LMS)][45], [Backup- und Synchronisierungssoftware][46], [Digital Forensic Software][47] **
+
+  
 [1]: #what
 [2]: #benefits
 [3]: #final

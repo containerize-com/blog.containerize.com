@@ -15,19 +15,19 @@ categories: ['Rapid Application Development']
 
 
 ## Überblick:
-Wir haben kürzlich in der aktuellen Zeit einen [Blog -Beitrag] [1] über die Bedeutung von [RAD -Software] [2] veröffentlicht. Die Technologie entwickelt sich in einem sehr hohen Tempo. Die Geschäftsanforderungen und -bedürfnisse ändern sich von Tag zu Tag. Es gibt ein Rennen, um Lösungen in kürzerer Zeitspanne zu entwickeln. Auf der anderen Seite möchte jedes Unternehmen den Markt erfassen, indem er das Produkt so schnell wie möglich auf den Markt bringt. Daher hat Open Source Community viele Software entwickelt, die auf ** agilen Softwareentwicklung ** basieren. Diese kostenlose Software für schnelle Anwendungsentwicklung erleichtert den Benutzern schnelle Prototyping -Entwicklungsfunktionen. Sie können die erste Version Ihres Produkts erstellen und starten. Daher können Sie weitere Freisetzungen mit der Eingabe des Benutzer -Feedbacks entwickeln. Darüber hinaus sind diese Software so konzipiert, dass sie in jeder Phase des Projekts jede Veränderung absorbieren.
-In der Zwischenzeit beschleunigen die Softwareentwicklungsteams ihre Entwicklungsprozesse und sorgen für frühere Lieferungen. Tatsächlich ist es kostengünstig, zeitsparend und bietet Entwicklern und Benutzern zufrieden. Die schnelle Anwendungsentwicklung ist flexibel genug, dass Sie keine geplanten und strengen Fristen benötigen. Sie bauen das auf, was Ihre Endverbraucher brauchen. In diesem JHIPster -Tutorial werden wir uns ansehen, wie [JHIPster] [3] eingerichtet wird und unsere erste Anwendung damit erstellt, indem wir die folgenden Punkte abdecken:
-  * [Was ist Jhipster und wie installiert man es?] [4]
-  * [Wie generiere und führe ich eine grundlegende Anwendung aus?] [5]
-  * [Erforschen Sie das Admin -Dashboard der generierten App] [6]
-  * [Schlussfolgerung] [7]
+Wir haben kürzlich in der aktuellen Zeit einen [Blog -Beitrag][1] über die Bedeutung von [RAD -Software][2] veröffentlicht. Die Technologie entwickelt sich in einem sehr hohen Tempo. Die Geschäftsanforderungen und -bedürfnisse ändern sich von Tag zu Tag. Es gibt ein Rennen, um Lösungen in kürzerer Zeitspanne zu entwickeln. Auf der anderen Seite möchte jedes Unternehmen den Markt erfassen, indem er das Produkt so schnell wie möglich auf den Markt bringt. Daher hat Open Source Community viele Software entwickelt, die auf ** agilen Softwareentwicklung ** basieren. Diese kostenlose Software für schnelle Anwendungsentwicklung erleichtert den Benutzern schnelle Prototyping -Entwicklungsfunktionen. Sie können die erste Version Ihres Produkts erstellen und starten. Daher können Sie weitere Freisetzungen mit der Eingabe des Benutzer -Feedbacks entwickeln. Darüber hinaus sind diese Software so konzipiert, dass sie in jeder Phase des Projekts jede Veränderung absorbieren.
+In der Zwischenzeit beschleunigen die Softwareentwicklungsteams ihre Entwicklungsprozesse und sorgen für frühere Lieferungen. Tatsächlich ist es kostengünstig, zeitsparend und bietet Entwicklern und Benutzern zufrieden. Die schnelle Anwendungsentwicklung ist flexibel genug, dass Sie keine geplanten und strengen Fristen benötigen. Sie bauen das auf, was Ihre Endverbraucher brauchen. In diesem JHIPster -Tutorial werden wir uns ansehen, wie [JHIPster][3] eingerichtet wird und unsere erste Anwendung damit erstellt, indem wir die folgenden Punkte abdecken:
+  * [Was ist Jhipster und wie installiert man es?][4]
+  * [Wie generiere und führe ich eine grundlegende Anwendung aus?][5]
+  * [Erforschen Sie das Admin -Dashboard der generierten App][6]
+  * [Schlussfolgerung][7]
 
 ## Was ist Jhipster und wie installiere ich es? {#Installieren}
-[Jhipster] [3] ist eine Open -Source -RAD -Software, mit der Enterprise -Webanwendungen generiert werden. Dieser Open-Source-Anwendungsbauer bietet ein Java-basierter Spring-Boot-Framework für die serverseitigen und beliebten Front-End-Technologien wie Angular, Vue.js und React.js. Dieser Quellcodegenerator enthält eine robuste Microservice -Architektur mit mehreren Benutzerauthentifizierungsmechanismen wie OAuth.20, JWTS und HTTP -Sitzungsauthentifizierung. Darüber hinaus bietet es eine Online -Version, in der Benutzer alle Funktionen erkunden können. Dieses ** Open -Source -Prototyping -Tool ** ist in JavaScript mit einer kleinen Eingabe von TypeScript geschrieben. Daher ist eine umfassende Dokumentation in Bezug auf Entwicklung und Bereitstellung verfügbar. Entwickler können den Quellcode im [GitHub] [8] Repo finden. Es gibt eine vollständige Unterstützung bei der Ausführung von Tests mit beliebten Test -Frameworks wie Gatling und Prospractor. Darüber hinaus ist es robust, sicher, plattformübergreifend und unterstützt Integrationen von Drittanbietern.
-In diesem ** Jhipster -Tutorial werden wir JHIPster bezüglich des Setups und seiner Verwendung untersuchen. [JHIPSTER] [3] ist kostenlos und basiert auf dem Modell der schnellen Anwendungsentwicklung. Es bietet ein Entwickler-freundliches Ökosystem, das vielversprechend ist und leistungsstarke Tools für die Entwicklung von Rapid-Webanwendungen entwickelt.
+[Jhipster][3] ist eine Open -Source -RAD -Software, mit der Enterprise -Webanwendungen generiert werden. Dieser Open-Source-Anwendungsbauer bietet ein Java-basierter Spring-Boot-Framework für die serverseitigen und beliebten Front-End-Technologien wie Angular, Vue.js und React.js. Dieser Quellcodegenerator enthält eine robuste Microservice -Architektur mit mehreren Benutzerauthentifizierungsmechanismen wie OAuth.20, JWTS und HTTP -Sitzungsauthentifizierung. Darüber hinaus bietet es eine Online -Version, in der Benutzer alle Funktionen erkunden können. Dieses ** Open -Source -Prototyping -Tool ** ist in JavaScript mit einer kleinen Eingabe von TypeScript geschrieben. Daher ist eine umfassende Dokumentation in Bezug auf Entwicklung und Bereitstellung verfügbar. Entwickler können den Quellcode im [GitHub][8] Repo finden. Es gibt eine vollständige Unterstützung bei der Ausführung von Tests mit beliebten Test -Frameworks wie Gatling und Prospractor. Darüber hinaus ist es robust, sicher, plattformübergreifend und unterstützt Integrationen von Drittanbietern.
+In diesem ** Jhipster -Tutorial werden wir JHIPster bezüglich des Setups und seiner Verwendung untersuchen. [JHIPSTER][3] ist kostenlos und basiert auf dem Modell der schnellen Anwendungsentwicklung. Es bietet ein Entwickler-freundliches Ökosystem, das vielversprechend ist und leistungsstarke Tools für die Entwicklung von Rapid-Webanwendungen entwickelt.
 Sehen wir uns an, wie wir diesen Open Source Application Builder installieren können. Zunächst werden wir die folgenden Voraussetzungen installieren.
-  * [Java 11 Jdk] [9]
-  * [Node.js 10.20.1+] [10]
+  * [Java 11 Jdk][9]
+  * [Node.js 10.20.1+][10]
 Öffnen Sie nach Abschluss der Installation das Terminal und führen Sie den folgenden Befehl aus.
 `npm install -g Generator -Jhipster`
 Dieser Befehl kann einige Minuten dauern, und nach erfolgreicher Fertigstellung wird Jhipster auf Ihrem Computer installiert.
@@ -83,19 +83,21 @@ Admin-Dashboard dieses Open Source Application Builders bietet außerdem REST-En
 
 
 ## Fazit {#con}
-Dies ist das Ende dieses Jhipster -Tutorials. Es gibt viele Open -Source -RAD -Plattformen, die ** Instant App -Entwicklung ** bieten. Es gibt eine sehr lebendige Gemeinschaft, die immer lebendig ist, um auf die Probleme und ihre Lösungen zu reagieren. Die RAD -Methodik gewinnt aufgrund vieler Faktoren Ruhm. Erstens ist es nicht erforderlich, die Anforderungen vollständig zu verstehen. Zweitens ist der Endverbraucher während des gesamten Lebenszyklus der Softwareentwicklung beteiligt. Drittens ist der Risikofaktor sehr geringer, da alle Stakeholder an Bord sind. Die RAD-Software ist jedoch anpassungsfähig, Entwicklerfreundlichkeit und flexibel für die Änderungen. Es spart viel Zeit, da die Codegeneratoren eine immense Zeit der Umschreibung der sich wiederholenden Skripte sparen. Dieser ** [Jhipster] [3] Tutorial ** Artikel hat einige wichtige Erkenntnisse hervorgehoben. Es ist leicht und einfach mit ein paar einfachen Shell -Befehlen eingerichtet.
-Sie können diesen Open -Source -Anwendungsbauer noch heute installieren, wenn Sie ernsthaft nach einer Open -Source -Rapid -Anwendungsentwicklungsplattform suchen. Schließlich ist [containerize.com] [11] bereit, seine Tutorialbasis mit einigen interessanteren Tutorials zu verbessern. Bitte bleiben Sie mit dieser Kategorie [Rapid Anwendungsentwicklung] [2] in Verbindung, um regelmäßige Aktualisierungen zu erzielen.
+Dies ist das Ende dieses Jhipster -Tutorials. Es gibt viele Open -Source -RAD -Plattformen, die ** Instant App -Entwicklung ** bieten. Es gibt eine sehr lebendige Gemeinschaft, die immer lebendig ist, um auf die Probleme und ihre Lösungen zu reagieren. Die RAD -Methodik gewinnt aufgrund vieler Faktoren Ruhm. Erstens ist es nicht erforderlich, die Anforderungen vollständig zu verstehen. Zweitens ist der Endverbraucher während des gesamten Lebenszyklus der Softwareentwicklung beteiligt. Drittens ist der Risikofaktor sehr geringer, da alle Stakeholder an Bord sind. Die RAD-Software ist jedoch anpassungsfähig, Entwicklerfreundlichkeit und flexibel für die Änderungen. Es spart viel Zeit, da die Codegeneratoren eine immense Zeit der Umschreibung der sich wiederholenden Skripte sparen. Dieser ** [Jhipster][3] Tutorial ** Artikel hat einige wichtige Erkenntnisse hervorgehoben. Es ist leicht und einfach mit ein paar einfachen Shell -Befehlen eingerichtet.
+Sie können diesen Open -Source -Anwendungsbauer noch heute installieren, wenn Sie ernsthaft nach einer Open -Source -Rapid -Anwendungsentwicklungsplattform suchen. Schließlich ist [containerize.com][11] bereit, seine Tutorialbasis mit einigen interessanteren Tutorials zu verbessern. Bitte bleiben Sie mit dieser Kategorie [Rapid Anwendungsentwicklung][2] in Verbindung, um regelmäßige Aktualisierungen zu erzielen.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Kuba -Plattform] [12]
-  * [QuickApp] [13]
-  * [Jhipster] [3]
-  * [li3] [14]
-  * [Apache ISIS] [15]
-  * [Top 5 Free Rapid Application Development Software im Jahr 2021] [16]
-  * [Rapid Application Development Software für Business | Rad] [17]
-  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet] [18]
+  * [Kuba -Plattform][12]
+  * [QuickApp][13]
+  * [Jhipster][3]
+  * [li3][14]
+  * [Apache ISIS][15]
+  * [Top 5 Free Rapid Application Development Software im Jahr 2021][16]
+  * [Rapid Application Development Software für Business | Rad][17]
+  * [Dinge zu überprüfen, bevor die Open -Source -Software im Jahr 2021 entscheidet][18]
+
+  
 [1]: https://blog.containerize.com/2020/10/23/how-rad-software-can-help-you-to-grow-business-to-next-level/
 [2]: https://products.containerize.com/rad
 [3]: https://products.containerize.com/rad/jhipster

@@ -15,14 +15,14 @@ categories: ['CMDB Software']
 
 
 ## **Überblick**
-In dieser Blog -Serie von CMDB -Software haben wir über Themen wie [wie die CMDB -Lösung die IT -Asset -Management -Dienste beeinflusst] [1] und [wie die CMDB -Lösung Ralph auf Localhost] [2] beeinflusst. Diese Artikel beschreiben die Rolle der IT -Asset -Management -Lösung im Geschäft, und der andere ist ein Tutorial -Blog -Beitrag, der zur Einrichtung von Ralph hilft. [Ralph] [3] ist eine Open Source ** IT Asset Tracking -Software **, mit der Benutzer physische und digitale Assets mit vollständiger Kontrolle und Sicherheit verfolgen können. Es ist hoch erweiterbar und bietet eine erholsame Schnittstelle für Anwendungen von Drittanbietern. Diese CMDB-Software bietet Selbsthostfunktionen. Dadurch definieren Benutzer einen Workflow für interne/externe Aktionen für Vermögenswerte. Sie können umfassende Einblicke in Ihre IT -Infrastruktur sehen. In diesem Blog -Beitrag werden wir jedoch mit Ralph spielen, um ein grundlegendes Verständnis der Operationen zu entwickeln, indem wir die folgenden Punkte abdecken.
-  *** [Was ist Ralph Dashboard?] [4] **
-  *[** Unterstützung für Back Office **] [5]
-  *** [Unterstützung für Rechenzentren] [6] **
-  *[** Fazit **] [7]
+In dieser Blog -Serie von CMDB -Software haben wir über Themen wie [wie die CMDB -Lösung die IT -Asset -Management -Dienste beeinflusst][1] und [wie die CMDB -Lösung Ralph auf Localhost][2] beeinflusst. Diese Artikel beschreiben die Rolle der IT -Asset -Management -Lösung im Geschäft, und der andere ist ein Tutorial -Blog -Beitrag, der zur Einrichtung von Ralph hilft. [Ralph][3] ist eine Open Source ** IT Asset Tracking -Software **, mit der Benutzer physische und digitale Assets mit vollständiger Kontrolle und Sicherheit verfolgen können. Es ist hoch erweiterbar und bietet eine erholsame Schnittstelle für Anwendungen von Drittanbietern. Diese CMDB-Software bietet Selbsthostfunktionen. Dadurch definieren Benutzer einen Workflow für interne/externe Aktionen für Vermögenswerte. Sie können umfassende Einblicke in Ihre IT -Infrastruktur sehen. In diesem Blog -Beitrag werden wir jedoch mit Ralph spielen, um ein grundlegendes Verständnis der Operationen zu entwickeln, indem wir die folgenden Punkte abdecken.
+  *** [Was ist Ralph Dashboard?][4] **
+  *[** Unterstützung für Back Office **][5]
+  *** [Unterstützung für Rechenzentren][6] **
+  *[** Fazit **][7]
 
 ## Was ist Ralph Dashboard? {#Armaturenbrett}
-[Ralph] [3] bietet ein intuitives Dashboard mit einfacher Navigation. Diese ** IT -Management -Lösung ** bietet eine Online -Demo, um damit zu spielen. Benutzer können jede Funktion sehen und testen, die diese kostenlose ** CMDB -Lösung ** bietet. Darüber hinaus gibt es eine interaktive Schnittstelle, in der Benutzer Dummy -Daten einfügen können, um die Eingabe und Ausgabe zu überprüfen. Ferner ist alles in Form von Modulen isoliert. Die Module sind Rechenzentrale, Backoffice -Vermögenswerte, Lizenzen, Support, Domänen, Benutzer und meine Ausrüstung. Jedes Modul befindet sich in der oberen Menüleiste. Es bietet auch eine Protokollverwaltung und Benutzer können die jüngsten Aktionen in der rechten Seitenleiste sehen. Darüber hinaus bietet es eine vollständige Unterstützung für Rechenzentren und Back-Office, die Drucker, Laptops, Desktop-Computer, Drucker und Mobiltelefone umfassen. Es gibt Diagramme, die die Daten in Echtzeit anzeigen.
+[Ralph][3] bietet ein intuitives Dashboard mit einfacher Navigation. Diese ** IT -Management -Lösung ** bietet eine Online -Demo, um damit zu spielen. Benutzer können jede Funktion sehen und testen, die diese kostenlose ** CMDB -Lösung ** bietet. Darüber hinaus gibt es eine interaktive Schnittstelle, in der Benutzer Dummy -Daten einfügen können, um die Eingabe und Ausgabe zu überprüfen. Ferner ist alles in Form von Modulen isoliert. Die Module sind Rechenzentrale, Backoffice -Vermögenswerte, Lizenzen, Support, Domänen, Benutzer und meine Ausrüstung. Jedes Modul befindet sich in der oberen Menüleiste. Es bietet auch eine Protokollverwaltung und Benutzer können die jüngsten Aktionen in der rechten Seitenleiste sehen. Darüber hinaus bietet es eine vollständige Unterstützung für Rechenzentren und Back-Office, die Drucker, Laptops, Desktop-Computer, Drucker und Mobiltelefone umfassen. Es gibt Diagramme, die die Daten in Echtzeit anzeigen.
 
 {{< figure align=center src="images/Screenshot-2021-07-14-at-15.24.12-1024x576.png" alt="IT Asset Management -Lösung">}}
 
@@ -48,17 +48,19 @@ Im Abschnitt Next Hardware können Sie Rechenzentrumsvermögen mit Details wie g
 
 ## Schlussfolgerung {#Conclusion}
 Dies ist das Ende des Blog -Beitrags. **** Eine gute ** IT Asset Management -Lösung ** verbessert die Workflows durch Automatisierung und Verfolgung. Es ermöglicht Ihnen nicht nur, jedes Asset zu automatisieren, sondern Sie können auch Konfigurationen und Änderungen verfolgen. Benutzer können sowohl physische als auch virtuelle Assets und Infrastruktur verwalten. Es gibt viele Open Source IT Asset Tracking -Software, die logische Benutzeroberflächen bietet. Diese Dashboards zeigen Daten in visuellen Formularen. Der Unternehmenssektor nutzt diese Datenbank -Software für kostenlose Konfigurationsverwaltung. Wenn Sie sich daher fragen, wie Sie Vermögenswerte verwalten, müssen Sie hier kostenlose und Open -Source -Software entscheiden, die hier aufgeführt ist. Alle hier aufgeführten CMDB-Lösungen sind kostenlos, kostengünstig, selbst Gastgeber, benutzerfreundliche Navigation, einfach zu bereitstellen und zu konfigurieren. Diese Lösungen bieten Integrationen von Drittanbietern und häufige IT-Asset-Entdeckungen.
-Schließlich schreibt [** Containerize.com **] [8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie für regelmäßige Aktualisierungen in Kontakt mit der [Konfigurationsverwaltungsdatenbanksoftware (CMDB] [9]).
+Schließlich schreibt [** Containerize.com **][8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie für regelmäßige Aktualisierungen in Kontakt mit der [Konfigurationsverwaltungsdatenbanksoftware (CMDB][9]).
 
 ## Erkunden
-  *** [CMDB -Software] [9] **
-  *** [Ralph] [3] **
-  *[** Snipe-it **] [10]
-  *[** cmdbuild **] [11]
-  *** [Foreman] [12] **
-  *** [itop] [13] **
-  *[** Geschäftsabläufe automatisieren mit kostenloser und Open -Source -Software **] [14]
-  *** [Trends für Softwareentwicklung im Jahr 2021] [15] **
+  *** [CMDB -Software][9] **
+  *** [Ralph][3] **
+  *[** Snipe-it **][10]
+  *[** cmdbuild **][11]
+  *** [Foreman][12] **
+  *** [itop][13] **
+  *[** Geschäftsabläufe automatisieren mit kostenloser und Open -Source -Software **][14]
+  *** [Trends für Softwareentwicklung im Jahr 2021][15] **
+
+  
 [1]: https://blog.containerize.com/cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
 [2]: https://blog.containerize.com/cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
 [3]: https://products.containerize.com/cmdb-software/ralph/

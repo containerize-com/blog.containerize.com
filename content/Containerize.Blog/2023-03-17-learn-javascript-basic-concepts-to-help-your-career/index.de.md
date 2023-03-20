@@ -16,11 +16,11 @@ categories: ['Programming']
 
 
 ## Überblick
-JavaScript ist eine Skriptsprache, die zur Entwicklung dynamischer webbasierter Anwendungen verwendet wird. Wir verwenden HTML und CSS, um statische Websites zu erstellen, während JavaScript zum Hinzufügen von Interaktivität verwendet wird. In unserem vorherigen Blog -Beitrag werden wir [Dokumentobjektmodell] [1] behandelt und jetzt werden wir einige andere wichtige**JavaScript -Grundkonzepte**behandeln. Webentwickler entscheiden sich aufgrund ihrer reichhaltigen Funktionen und Frameworks tendenziell für diese Skriptsprache. Darüber hinaus können Sie am vorderen End- und hinteren Ende entwickelt, indem Sie JavaScript lernen. Sie können jedoch nicht nur Web -Apps, sondern auch mobile Apps entwickeln. Dieses JavaScript -Tutorial hilft Ihnen, wenn Sie sich auf eine Interviewsitzung vorbereiten. Trotzdem ist dieser Leitfaden gelesen, um mehr zu Ihrem Wissenseimer hinzuzufügen.
+JavaScript ist eine Skriptsprache, die zur Entwicklung dynamischer webbasierter Anwendungen verwendet wird. Wir verwenden HTML und CSS, um statische Websites zu erstellen, während JavaScript zum Hinzufügen von Interaktivität verwendet wird. In unserem vorherigen Blog -Beitrag werden wir [Dokumentobjektmodell][1] behandelt und jetzt werden wir einige andere wichtige**JavaScript -Grundkonzepte**behandeln. Webentwickler entscheiden sich aufgrund ihrer reichhaltigen Funktionen und Frameworks tendenziell für diese Skriptsprache. Darüber hinaus können Sie am vorderen End- und hinteren Ende entwickelt, indem Sie JavaScript lernen. Sie können jedoch nicht nur Web -Apps, sondern auch mobile Apps entwickeln. Dieses JavaScript -Tutorial hilft Ihnen, wenn Sie sich auf eine Interviewsitzung vorbereiten. Trotzdem ist dieser Leitfaden gelesen, um mehr zu Ihrem Wissenseimer hinzuzufügen.
 Wir werden die folgenden Punkte in diesem Artikel behandeln:
-***[Was hebt in JavaScript] [2]**
-***[Scopes in JavaScript] [3]**
-***[JavaScript -Verschluss] [4]**
+***[Was hebt in JavaScript][2]**
+***[Scopes in JavaScript][3]**
+***[JavaScript -Verschluss][4]**
 
 ## Was hebt sich in JavaScript {#What-is-Hoisting-in-JavaScript}}
 Das Phänomen der Funktion oder variable Deklaration neben dem aktuellen Bereich wird als Hebezeug bezeichnet. Dies ist ein sehr kritisches Konzept und die meisten JavaScript -Entwickler sind sich dessen nicht bewusst. Eine wichtige Sache zu beachten ist jedoch, dass nur Funktions-/Variablendeklarationen nach oben und nicht nach der Funktion/variablen Initialisierung gebracht werden.
@@ -53,7 +53,7 @@ Der Fehler im obigen Code -Snippet trat auf. Der Grund dafür ist, dass die Init
 
 ## Scopes in JavaScript {#Scopes-in-JavaScript}
 Der Umfang ist eines der JavaScript -Grundkonzepte, die ein Entwickler kennen muss. Die Arbeit mit JavaScript -Scopes ist jedoch nicht einfach und etwas anders. Daher gibt es drei Arten von Scopes in JavaScript, und diese sind wie folgt:
-* * Blockebene**: Variablen, die mit "let" oder "const" deklariert sind, enthält den Bereich auf Blockebene.
+**Blockebene**: Variablen, die mit "let" oder "const" deklariert sind, enthält den Bereich auf Blockebene.
 ```
 if(true){
   let a = 1;
@@ -61,7 +61,7 @@ if(true){
 // a is not accessible outside the curly braces.
 ```
 Die Variable "A" ist außerhalb der lockigen Klammern nicht zugänglich {}, da sie auf Blockebene verfügt.
-* * Funktionsebene**: Die in der JavaScript-Funktion deklarierten Variablen haben den lokalen Bereich.
+**Funktionsebene**: Die in der JavaScript-Funktion deklarierten Variablen haben den lokalen Bereich.
 ```
 function innerFunc(){
         let last_name = "ashraf";
@@ -70,7 +70,7 @@ function innerFunc(){
 // last_name is not accessible outside the function.
 ```
 Eine wichtige Sache, die hier zu beachten ist, ist, dass Variablen, die mit "let" "const" und "var" deklariert sind, den Funktionsbereich innerhalb des Funktionskörpers haben.
-* * Globales Level**: Variablen, die außerhalb der Funktion deklariert sind, werden zu globalen Variablen. Egal ob Sie sie mit "let", "const" oder "var" deklariert haben. Darüber hinaus wird eine Variable zu einer globalen Variablen, wenn er ohne ein Schlüsselwort deklariert wird, wie im folgenden Code -Snippet gezeigt:
+**Globales Level**: Variablen, die außerhalb der Funktion deklariert sind, werden zu globalen Variablen. Egal ob Sie sie mit "let", "const" oder "var" deklariert haben. Darüber hinaus wird eine Variable zu einer globalen Variablen, wenn er ohne ein Schlüsselwort deklariert wird, wie im folgenden Code -Snippet gezeigt:
 ```
 function innerFunc(){
         last_name = "ashraf";
@@ -103,26 +103,28 @@ Der Variable First_Name ist in der Funktion Innerfunc zugänglich, aber die übe
 Wir beenden diesen JavaScript -Leitfaden hier und hoffen, dass Sie ein besseres Verständnis für**JavaScript -Grundkonzepte**haben. Darüber hinaus haben wir auch JavaScript -Schließungen, Scopes in JavaScript**und Hebeln durchlaufen. Es gibt viele andere wichtige Konzepte, die für Anfänger obligatorisch sind. Dieser Artikel hilft Ihnen also, wenn Sie Ihre JavaScript -Konzepte verbessern oder aktualisieren. Darüber hinaus können Sie die im Abschnitt "Siehe auch" genannten Blog -Beiträge durchlaufen.
 
 ## Verbinde dich mit uns
-Schließlich bietet [Containerize.com] [5] laufende JavaScript -Tutorials zu verschiedenen aufregenden Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook] [6], [LinkedIn] [7] und [Twitter] [8], folgen.
+Schließlich bietet [Containerize.com][5] laufende JavaScript -Tutorials zu verschiedenen aufregenden Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook][6], [LinkedIn][7] und [Twitter][8], folgen.
 
 ## Stelle eine Frage
-Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [9] informieren.
+Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][9] informieren.
 
 ## FAQs
-* * Was sind die wichtigen Konzepte in JavaScript?**
-Bitte folgen Sie diesem JavaScript -Anfänger [Handbuch] [2], um JavaScript -Grundkonzepte zu kennen.
+**Was sind die wichtigen Konzepte in JavaScript?**
+Bitte folgen Sie diesem JavaScript -Anfänger [Handbuch][2], um JavaScript -Grundkonzepte zu kennen.
 
 ## Siehe auch
-  * [Was ist DOM in JavaScript? | Dokumentobjektmodell] [1]
-  * [Was ist vielversprechend in JavaScript? | JavaScript Tutorial] [10]
-  * [Was ist serverloses Computer? | Serverlose Architektur] [11]
-  * [Was ist Multitenancy? | Warum ein Multi-Mieter-Ansatz?] [12]
-  * [Was ist generative AI | Generative künstliche Intelligenz] [13]
-  * [Was ist Async in JavaScript? | Ein JavaScript -Handbuch] [14]
-  * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT] [15]
-  * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution] [16]
-  * [Eine Einführung in die künstliche Intelligenz | Was ist ai?] [17]
-  * [Was ist Async in JavaScript? | Ein JavaScript -Handbuch] [18]
+  * [Was ist DOM in JavaScript? | Dokumentobjektmodell][1]
+  * [Was ist vielversprechend in JavaScript? | JavaScript Tutorial][10]
+  * [Was ist serverloses Computer? | Serverlose Architektur][11]
+  * [Was ist Multitenancy? | Warum ein Multi-Mieter-Ansatz?][12]
+  * [Was ist generative AI | Generative künstliche Intelligenz][13]
+  * [Was ist Async in JavaScript? | Ein JavaScript -Handbuch][14]
+  * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT][15]
+  * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution][16]
+  * [Eine Einführung in die künstliche Intelligenz | Was ist ai?][17]
+  * [Was ist Async in JavaScript? | Ein JavaScript -Handbuch][18]
+
+  
 [1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
 [2]: #What-is-hoisting-in-JavaScript
 [3]: #Scopes-in-JavaScript

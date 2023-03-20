@@ -13,11 +13,11 @@ categories: ['Animation Software']
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software.png" alt="Synfig Tutorial Eine Open -Source -2D -Animationssoftware">}}
 
-  * [Was ist Synfit?] [1]
-  * [Wie installiere ich Synfig?] [2]
-  * [Übersicht über Anwendungsschnittstellen] [3]
-  * [Wie erstelle ich eine grundlegende Animation mit Synfig?] [4]
-  * [Schlussfolgerung] [5]
+  * [Was ist Synfit?][1]
+  * [Wie installiere ich Synfig?][2]
+  * [Übersicht über Anwendungsschnittstellen][3]
+  * [Wie erstelle ich eine grundlegende Animation mit Synfig?][4]
+  * [Schlussfolgerung][5]
 
 ## Was ist Synfig? {#Was}
 Synfig ist eine der besten 2D -Animationssoftware, die für Solokünstler oder kleine Teams entwickelt wurde, um ihre Animations -Workflows und -projekte zu verwalten. Als Open -Source -Animationssoftware verwendet SynFIG ein "zweiloses" Animationssystem, das nicht nur die Zeit verkürzt, die es braucht, um eine Animation zu verarbeiten, sondern auch Animatoren die Möglichkeit gibt, Zeichnungsrahmen weise hinzuzufügen.
@@ -101,10 +101,12 @@ _Was sind Ihre bevorzugte Open -Source -Animationssoftware?. Haben Sie Fragen zu
 
 ## Erkunden
 Sie können die folgenden Links relevant finden:
-  * [Beste Open -Source -Animationssoftware] [7]
-  * [Synfig | Kostenlose und Open -Source -Vektor -basierte 2D -Animationssuite] [8]
-  * [So erstellen Sie Animationen mit Pencil2D -Animationssoftware] [9]
-  * [Anfängerhandbuch zum kostenlosen Bildbearbeitung mit Digikam] [10]
+  * [Beste Open -Source -Animationssoftware][7]
+  * [Synfig | Kostenlose und Open -Source -Vektor -basierte 2D -Animationssuite][8]
+  * [So erstellen Sie Animationen mit Pencil2D -Animationssoftware][9]
+  * [Anfängerhandbuch zum kostenlosen Bildbearbeitung mit Digikam][10]
+
+  
 [1]: #what
 [2]: #how-to-install
 [3]: #application-interfae

@@ -71,7 +71,7 @@ nginx: yapılandırma dosyası /etc/nginx/nginx.conf sözdizimi tamam
 nginx: yapılandırma dosyası /etc/nginx/nginx.conf testi başarılı
 
 ## Adım 4: SSL sertifikalarını ekleme {#37C0}
-Sonraki adım, NGINX HTTPS yapılandırmasının SSL sertifikanızı kullanmasını etkinleştirmektir. Kendi imzalı bir sertifika oluşturabilir veya [Let's Şifreleme'den Ücretsiz Sertifika kurabilirsiniz] [1]. SSL sertifikanız yoksa lütfen bu öğreticiyi izleyin. SSL sertifikalarınızı Nginx yapılandırma dizininin içine aşağıdakilere benzer şekilde ekleyin:
+Sonraki adım, NGINX HTTPS yapılandırmasının SSL sertifikanızı kullanmasını etkinleştirmektir. Kendi imzalı bir sertifika oluşturabilir veya [Let's Şifreleme'den Ücretsiz Sertifika kurabilirsiniz][1]. SSL sertifikanız yoksa lütfen bu öğreticiyi izleyin. SSL sertifikalarınızı Nginx yapılandırma dizininin içine aşağıdakilere benzer şekilde ekleyin:
 ```
 sudo mkdir /etc/nginx/ssl
 ```
@@ -112,11 +112,13 @@ HTTP2 Multiplexed Protokolü hakkında herhangi bir sorunuz var mı?
 
 ## Keşfetmek
 Aşağıdaki makaleleri de beğenebilirsiniz:
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [3]
-  * [Nasıl yapılır] [3] [ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin] [4]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx Nasıl Kurulur] [5]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [1]
-  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır] [6]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][3]
+  * [Nasıl yapılır][3][ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin][4]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx Nasıl Kurulur][5]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][1]
+  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

@@ -24,11 +24,11 @@ NextCloud vs OwnCloud是辩论的最大要点之一，自托管开源云存储�
   * 结论
 
 ## 1.什么是NextCloud？
-[NextCloud] [1]是用于基于Linux系统的开源云存储平台。 NextCloud在服务器上运行以保护您的数据，并提供从桌面和移动设备访问的服务。 NextCloud可帮助您在Dropbox或NAS Cloud Storage的FTP驱动器上同步，共享和访问现有数据。企业文件同步并共享与HIPAA和GDPR的数据符合性的NextCloud执行。 NextCloud旨在与多个数据库管理系统一起使用，例如Postgresql，Sqlite，MariadB，MySQL和Oracle数据库。
+[NextCloud][1]是用于基于Linux系统的开源云存储平台。 NextCloud在服务器上运行以保护您的数据，并提供从桌面和移动设备访问的服务。 NextCloud可帮助您在Dropbox或NAS Cloud Storage的FTP驱动器上同步，共享和访问现有数据。企业文件同步并共享与HIPAA和GDPR的数据符合性的NextCloud执行。 NextCloud旨在与多个数据库管理系统一起使用，例如Postgresql，Sqlite，MariadB，MySQL和Oracle数据库。
 NextCloud于2016年推出，当时Frank Karlitschek分叉了OwnCloud创建NextCloud。 NextCloud服务器是使用PHP和JavaScript脚本语言编写的。 OwnCloud的大多数核心贡献者都留给了Frank Karlitschek加入新的文件共享协作NextCloud项目，由新公司NextCloud GmbH管理，该公司同时组成。在接下来的6个月内，NextCloud GmbH是有利可图的，今天仍然有利可图，并且仍管理NextCloud项目。
 
 ## 2.什么是OwnCloud？ {#CE62}
-[ownCloud] [2] [2]于2010年1月发布，但第一个Beta版本于2010年3月启动。OndlCloud在全球范围内拥有5000万用户，并于2012年发布了OwnCloud，以满足OwnCloud社区用户的需求，而现在OwnCloud正在管理。由OwnCloud GmbH。 OwnCloud Cloud还有许多其他生产力，用于管理云文件共享，管理日历，进行列表，文档编辑工具，文件夹共享等等。 OwnCloud专门在您自己的私有云服务器上托管。
+[ownCloud][2][2]于2010年1月发布，但第一个Beta版本于2010年3月启动。OndlCloud在全球范围内拥有5000万用户，并于2012年发布了OwnCloud，以满足OwnCloud社区用户的需求，而现在OwnCloud正在管理。由OwnCloud GmbH。 OwnCloud Cloud还有许多其他生产力，用于管理云文件共享，管理日历，进行列表，文档编辑工具，文件夹共享等等。 OwnCloud专门在您自己的私有云服务器上托管。
 OwnCloud是非常稳定且可靠的云应用程序。强烈建议特别适用于商业应用。 OwnCloud由处理敏感数据或需要履行特殊安全和合规法规的公司使用。这些公司包括金融，医疗保健等。
 
 ## 3.比较NextCloud vs ownCloud：{#CE62}
@@ -53,15 +53,17 @@ NextCloud的100％自由方面使其比OwnCloud存储更具吸引力和流行。
 
 ## 结论：{#4a1a}
 在本文中，我们对最流行的开源云存储框架的工作进行了简要比较 -  NextCloud vs OwnCloud。 NextCloud和OwnCloud是开源云存储平台领域的两个市场领导者。这两个软件的基础都有很强的基础，该基础经常受到附加应用的支撑。在两者之间，由于其功能和服务，NextCloud云存储似乎更加流行。但是，OwnCloud是一个旧的云平台，旨在满足OhterCloud存储用户社区的需求。在即将到来的教程中，我们将讨论与开源云存储平台相关的更多有趣的主题。
-_您可以在[Twitter] [3]，[LinkedIn] [4]和我们的[Facebook] [5]页面上加入我们。哪些云存储NextCloud vs ownCloud_ _ platform您更喜欢？如果您有任何疑问，请_ [联系] [6]。
+_您可以在[Twitter][3]，[LinkedIn][4]和我们的[Facebook][5]页面上加入我们。哪些云存储NextCloud vs ownCloud_ _ platform您更喜欢？如果您有任何疑问，请_ [联系][6]。
 
 ## 探索：
 我们还有其他几篇与您的服务器日常管理有关的文章。
-  * [如何在Ubuntu Server上使用Apache安装NextCloud] [7]
-  * [在Ubuntu上使用Apache安装和配置OwnCloud] [8]
-  * [如何将Apache配置为Ubuntu/Debian的反向代理] [9]
-  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin] [10]
-  * [安全和加密NGINX与Let's Encrypt在Ubuntu 20.04] [11]
+  * [如何在Ubuntu Server上使用Apache安装NextCloud][7]
+  * [在Ubuntu上使用Apache安装和配置OwnCloud][8]
+  * [如何将Apache配置为Ubuntu/Debian的反向代理][9]
+  * [如何在Ubuntu上使用nginx安装和保护PhpMyAdmin][10]
+  * [安全和加密NGINX与Let's Encrypt在Ubuntu 20.04][11]
+
+  
 [1]: https://products.containerize.com/backup-and-sync/nextcloud/
 [2]: https://products.containerize.com/backup-and-sync/owncloud/
 [3]: https://twitter.com/containerize_co

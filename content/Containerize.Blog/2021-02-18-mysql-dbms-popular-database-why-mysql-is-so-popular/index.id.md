@@ -15,12 +15,12 @@ categories: ['Database Management Software']
 
 
 ## Ringkasan
-Selamat datang di posting blog lain yang menarik dalam serangkaian [sistem manajemen basis data open source] [1]. Di masa lalu, kami telah menerbitkan posting blog tentang topik -topik seperti [Setup XAMPP dan PHPMyAdmin sebagai LocalHost di Windows] [2], [Top 5 Open Source Database Management Systems] [3], dan beberapa lagi. Aplikasi tingkat perusahaan adalah titik perhatian di usia teknologi saat ini. Kebutuhan bisnis berubah dengan kecepatan tinggi dan ada perdebatan besar tentang keamanan data, akses data, dan integritas data. Namun, komunitas open source selalu menunjukkan komitmen untuk memberikan solusi yang lebih baik untuk masalah era modern. Oleh karena itu, ada banyak database populer yang open source dan MySQL DBMS adalah salah satunya. Dalam posting blog ini, kami akan melalui poin -poin berikut.
-  * [Apa itu mysql?] [4]
-  * [Mengapa mysql begitu populer?] [5]
-  * [Manfaat MySQL] [6]
-  * [Kontra mysql] [7]
-  * [Kesimpulan] [8]
+Selamat datang di posting blog lain yang menarik dalam serangkaian [sistem manajemen basis data open source][1]. Di masa lalu, kami telah menerbitkan posting blog tentang topik -topik seperti [Setup XAMPP dan PHPMyAdmin sebagai LocalHost di Windows][2], [Top 5 Open Source Database Management Systems][3], dan beberapa lagi. Aplikasi tingkat perusahaan adalah titik perhatian di usia teknologi saat ini. Kebutuhan bisnis berubah dengan kecepatan tinggi dan ada perdebatan besar tentang keamanan data, akses data, dan integritas data. Namun, komunitas open source selalu menunjukkan komitmen untuk memberikan solusi yang lebih baik untuk masalah era modern. Oleh karena itu, ada banyak database populer yang open source dan MySQL DBMS adalah salah satunya. Dalam posting blog ini, kami akan melalui poin -poin berikut.
+  * [Apa itu mysql?][4]
+  * [Mengapa mysql begitu populer?][5]
+  * [Manfaat MySQL][6]
+  * [Kontra mysql][7]
+  * [Kesimpulan][8]
 
 ## Apa itu mysql? {#Apa}
 MySQL adalah salah satu sistem manajemen database paling populer. Ini adalah pilar penting perangkat lunak aplikasi lampu. Lebih lanjut, itu adalah cross-platform sehingga bekerja dengan baik dengan semua sistem operasi termasuk Windows, Linux, MacOS, IRIX, dan lainnya. Selain itu, MySQL adalah sistem manajemen basis data yang digunakan untuk mengelola database relasional. MySQL DBMS dimiliki oleh Oracle tetapi tetap saja, ini adalah perangkat lunak open source dan Anda dapat menggunakannya tanpa membayar apa pun. Selain itu, Anda dapat mengubah kode sumbernya sesuai dengan kebutuhan dan kebutuhan Anda. Ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran.
@@ -34,7 +34,7 @@ Di bagian ini, kami akan melalui faktor -faktor yang dianggap sebagai database p
   * Ini dapat disesuaikan karena merupakan database sumber terbuka. Pengembang dapat mengedit kode sesuai dengan kebutuhan mereka.
   * Ini lebih cepat dari sebagian besar database open source lainnya dan bekerja dengan baik dan cepat bahkan dengan set data yang besar.
   * Ini kompatibel dengan banyak bahasa seperti PHP, Perl, C, C ++, Java, dll.
-  * Ada statistik yang sangat bagus di [GitHub] [9] repo.
+  * Ada statistik yang sangat bagus di [GitHub][9] repo.
 
 ## manfaat mysql {#pros}
 Bagian posting blog ini mendefinisikan beberapa manfaat inti yang ditawarkan MySQL DBMS kepada penggunanya. Oleh karena itu, mari kita lalui satu per satu dan cari tahu apa manfaatnya bagi perusahaan.
@@ -52,13 +52,15 @@ Bagian posting blog ini mendefinisikan beberapa manfaat inti yang ditawarkan MyS
 
 ## kesimpulan {#conclusion}
 Ini membawa kita ke akhir posting blog ini. Namun, kami telah melalui beberapa aspek penting dari DBM MySQL seperti apa itu MySQL, manfaat MySQL, dan kontra MySQL. Posting blog ini pasti akan membantu Anda jika Anda ingin memilih database relasional open source untuk aplikasi bisnis Anda. Mudah digunakan, kinerja tinggi, fleksibilitas, keamanan, kedewasaan, dan sintaksis sederhana menjadikan MySQL salah satu sistem manajemen basis data yang paling populer. Ini kompatibel dengan banyak bahasa populer termasuk PHP, Perl, C, C ++, Java, dll. Serta cross-platform dan dapat diinstal pada sebagian besar sistem operasi termasuk Windows, Linux, MacOS, IRIX, dan lainnya. Selain itu, ada artikel dan produk lain yang relevan yang disebutkan di bagian "Jelajahi" di bawah ini yang dapat Anda periksa.
-Akhirnya, [containerize.com] [10] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Sistem Manajemen Basis Data Sumber Terbuka] [11] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [12], [LinkedIn] [13], dan [Twitter] [14].
+Akhirnya, [containerize.com][10] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Sistem Manajemen Basis Data Sumber Terbuka][11] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][12], [LinkedIn][13], dan [Twitter][14].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Top 5 Sistem Manajemen Database Sumber Terbuka di 2021] [3]
-  * [Salah satu sistem manajemen basis data relasional sumber terbuka paling populer] [15]
-  * [Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows] [2]
+  * [Top 5 Sistem Manajemen Database Sumber Terbuka di 2021][3]
+  * [Salah satu sistem manajemen basis data relasional sumber terbuka paling populer][15]
+  * [Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows][2]
+
+  
 [1]: https://blog.containerize.com/category/database-management-software/
 [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 [3]: https://blog.containerize.com/2021/02/12/top-5-open-source-dbms-software-in-2021-mysql-and-alternatives/

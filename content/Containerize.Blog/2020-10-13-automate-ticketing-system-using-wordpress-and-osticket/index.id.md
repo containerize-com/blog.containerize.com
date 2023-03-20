@@ -15,10 +15,10 @@ categories: ['Blogging', 'Help Desk']
 
 Pelanggan Anda dapat memiliki pertanyaan tentang produk/layanan Anda. Mereka akan mengirimkan pertanyaan mereka melalui berbagai bentuk di situs WordPress Anda. Integrasi Osticket-WordPress membantu mengubah pertanyaan itu menjadi tiket. Ini mengirimkan data melalui API ke sistem helpdesk osticket.
 Osticket adalah sistem tiket helpdesk open-source dan gratis. Pelanggan dapat membuat tiket mengenai pertanyaan mereka di Osticket. Sistem Helpdesk ini memudahkan organisasi mana pun untuk mengelola pertanyaan yang berasal dari pelanggan mereka. Admin dapat membuat departemen dan tim, dan menetapkan tiket ke berbagai agen sesuai dengan sifat tiket yang dibuat. Sistem open-source gratis ini akan melacak masalah. Ini memungkinkan pelanggan dan agen untuk mengomentari tiket untuk membahas kemajuan. Kami akan membahas bagian berikut dalam posting blog ini:
-  * [Proses integrasi] [1]
-  * [Instalasi Plugin WordPress] [2]
-  * [Prosedur Otentikasi] [3]
-  * [Kesimpulan] [4]
+  * [Proses integrasi][1]
+  * [Instalasi Plugin WordPress][2]
+  * [Prosedur Otentikasi][3]
+  * [Kesimpulan][4]
 
 Proses integrasi ##: {#integrasi}
 Integrasi Osticket dan WordPress membutuhkan formulir kontak di situs WordPress dengan bidang berikut
@@ -35,7 +35,7 @@ Instalasi plugin ## WordPress: {#WordPress}
   3. Kemudian instal [plugin] ini [5].
   4. Setelah itu aktifkan plugin.
   5. dan pergi ke "Pengaturan" -> "Konektor Osticket".
-  6. Kemudian masukkan URL situs Osticket Anda yaitu [http: //your.domain/api/tickets.json] [6]
+  6. Kemudian masukkan URL situs Osticket Anda yaitu [http: //your.domain/api/tickets.json][6]
   7. Masukkan kunci API yang dibuat dari panel admin Osticket (dijelaskan di bagian berikutnya).
   8. Pada akhirnya isi semua bidang untuk memetakan data dari formulir kontak Anda ke bidang tiket Osticket.
 
@@ -60,9 +60,11 @@ Integrasi Osticket-WordPress akan mengotomatiskan proses tiket. Oleh karena itu 
 
 ## Mengeksplorasi:
 Untuk mempelajari lebih lanjut tentang Osticket dan WordPress, silakan periksa halaman -halaman ini:
-  * [OSTICKET - Sistem tiket helpdesk open source gratis] [7]
-  * [WordPress - Sumber terbuka gratis dan CMS dan alat blogging yang paling banyak digunakan] [8]
-  * [Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket] [9]
+  * [OSTICKET - Sistem tiket helpdesk open source gratis][7]
+  * [WordPress - Sumber terbuka gratis dan CMS dan alat blogging yang paling banyak digunakan][8]
+  * [Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket][9]
+
+  
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

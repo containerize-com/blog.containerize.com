@@ -62,10 +62,12 @@ _您最喜欢的加密货币开源项目是什么？您对什么是数字货币�
 
 ## 探索：
 我们还提供了来自OSS Watch的其他几个相关信息：
-  * [最佳开源云存储和文件共享软件] [2]
-  * [2021年的前5个开源消息队列（MQ）软件] [3]
-  * [最受欢迎的开源数字法医工具] [4]
-  * [最受欢迎的OSI批准的开源许可] [5]
+  * [最佳开源云存储和文件共享软件][2]
+  * [2021年的前5个开源消息队列（MQ）软件][3]
+  * [最受欢迎的开源数字法医工具][4]
+  * [最受欢迎的OSI批准的开源许可][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

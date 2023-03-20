@@ -17,13 +17,13 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 ## Überblick
 Sie werden am richtigen Ort gelandet, wenn Sie sich wundern, Software anzuwenden, um Ihr Geschäft zu stärken. In dieser schnell wachsenden Welt von Technologie und Innovation gibt es viele Faktoren, die zu Stoppern wie Kosten, Zeit, Fähigkeiten, Ressourcen und vielem mehr werden können. Auf der anderen Seite ist es ein teures Angebot für entwickelte Software von Grund auf, um die Geschäftsanforderungen zu erfüllen. Hier kommt die ** Open Source -Software **. Open Source Software (OSS) ist für alle mit dem gesamten Quellcode und der Dokumentation unter einer Lizenz öffentlich verfügbar. Es könnte von einem einzelnen Entwickler oder einer Gruppe von Entwicklern aufgebaut werden, die es dann öffentlich machen. Sobald die Sichtbarkeit der freien Software öffentlich ist, können andere Entwickler zu dieser Software zur Verbesserung beitragen.
 Darüber hinaus ist die Open -Source -Community sehr lebendig und unterstützend, wer hat sich entlang ** Open -Source -Softwareliste ** entwickelt. Es gibt Diskussionsrettbezirke, in denen Mitarbeiter und Benutzer zusammenkommen, um Lösungen und Gedanken auszutauschen. Es gibt eine breite Palette von OSS -Kategorien, die die meisten geschäftlichen Aspekte abdecken. Natürlich gibt es einige Dinge zu berücksichtigen, bevor wir uns für eine Open -Source -Anwendung befassen, die wir in diesem Blog -Beitrag diskutieren werden, indem wir die folgenden Punkte behandeln.
-  *** [Community] [1] **
-  *** [Dokumentation] [2] **
-  *** [Portabilität] [3] **
-  *** [Git -Statistiken] [4] **
-  *** [Lizenzierung] [5] **
-  *** [Erweiterbarkeit] [6] **
-  *** [Sicherheit] [7] **
+  *** [Community][1] **
+  *** [Dokumentation][2] **
+  *** [Portabilität][3] **
+  *** [Git -Statistiken][4] **
+  *** [Lizenzierung][5] **
+  *** [Erweiterbarkeit][6] **
+  *** [Sicherheit][7] **
 
 ## Community {#Community}
 Dies ist der wichtigste Faktor, wenn Sie sich für eine Open Source -Lösung (OSS) entscheiden. Es wird sehr schwierig, die Software zu verwalten, wenn nicht genügend Support verfügbar ist. Die meisten Entwickler tendieren dazu, die Zuverlässigkeit der Software aufrechtzuerhalten. Daher sollten Sie immer freie ** Open -Source -Software (FOSS) ** bevorzugen, die eine lebendige Unterstützung für die Community hat, sodass es gelöst werden sollte, wenn ein ernstes Problem auftritt.
@@ -48,21 +48,23 @@ Last but not least kann die Sicherheit einer Software nicht um jeden Preis beein
 
 ## Abschließende Gedanken
 Dies bringt uns zum Ende dieses Blog -Beitrags. Wir haben die wichtigen Praktiken durchlaufen, die bei der Auswahl einer ** Open -Source -Software (OSS) ** befolgt werden sollten. Wir haben gesehen, dass viele der Tech -Giganten kostenlose ** Open Source -Software (FOSS) ** übernehmen, um die geschäftlichen Anforderungen zu erfüllen. Diese weit verbreitete Robustheit und Effizienz der Open Source -Anwendungen zeigt jedoch weit verbreitet an. Im Abschnitt "Explore" finden Sie eine lange Open -Source -Tools -Liste. Darüber hinaus finden Sie viele OSS bei Containerize.com, die alle kostenlos, Open Source sind und mit Selbsthostfunktionen verfügen. Ich würde Ihnen empfehlen, eine Open -Source -Lösung für Ihr Unternehmen auszuwählen, die Ihren Geschäftsanforderungen entspricht.
-Schließlich schreibt [** Containerize.com **] [8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie für regelmäßige Updates in Kontakt.
+Schließlich schreibt [** Containerize.com **][8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie für regelmäßige Updates in Kontakt.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [9]
-  * [Content Management] [10], [Blogging] [11], [Diskussionsforum] [12], [HealthCare Software] [13]
-  * [Helpdesk] [14], [Marketing -Automatisierung] [15], [Marktplatz] [16], [Bereitstellungswerkzeuge] [17], [Sicherheit] [18]
-  * [Live -Chat] [19], [Form] [20], [Transaktions -E -Mail] [21], [Business Intelligence Software] [22]
-  * [Newsletter] [23], [Statusseite] [24], [Rechnungsstellung] [25], [Kennwortverwaltung] [26], [Message Warteschlangensoftware] [27]
-  * [Single Sign-On] [28], [Projektmanagement] [29], [Rapid Application Development] [30], [Animation Software] [31]
-  * [Einkaufswagen] [32], [Open Source -Versionskontrolle] [33], [Web Server Solution Stack] [34], [Fotobearbeitungssoftware] [35]
-  * [Datenbankverwaltung] [36], [Videokonferenzen] [37], [Blockchain -Plattformen] [38], [Big Data] [39]
-  * [CMDB -Software] [40], [Spieleentwicklungssoftware] [41], [Enterprise Resource Planning (ERP)] [42]
-  * [Videobearbeitungssoftware] [43], [Datenbankverwaltungssysteme] [44], [Büroproduktivität] [45]
-  * [Lernmanagementsystem (LMS)] [46], [Backup- und Sync -Software] [47], [Digital Forensic Software] [48]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][9]
+  * [Content Management][10], [Blogging][11], [Diskussionsforum][12], [HealthCare Software][13]
+  * [Helpdesk][14], [Marketing -Automatisierung][15], [Marktplatz][16], [Bereitstellungswerkzeuge][17], [Sicherheit][18]
+  * [Live -Chat][19], [Form][20], [Transaktions -E -Mail][21], [Business Intelligence Software][22]
+  * [Newsletter][23], [Statusseite][24], [Rechnungsstellung][25], [Kennwortverwaltung][26], [Message Warteschlangensoftware][27]
+  * [Single Sign-On][28], [Projektmanagement][29], [Rapid Application Development][30], [Animation Software][31]
+  * [Einkaufswagen][32], [Open Source -Versionskontrolle][33], [Web Server Solution Stack][34], [Fotobearbeitungssoftware][35]
+  * [Datenbankverwaltung][36], [Videokonferenzen][37], [Blockchain -Plattformen][38], [Big Data][39]
+  * [CMDB -Software][40], [Spieleentwicklungssoftware][41], [Enterprise Resource Planning (ERP)][42]
+  * [Videobearbeitungssoftware][43], [Datenbankverwaltungssysteme][44], [Büroproduktivität][45]
+  * [Lernmanagementsystem (LMS)][46], [Backup- und Sync -Software][47], [Digital Forensic Software][48]
+
+  
 [1]: #Community
 [2]: #Documentation
 [3]: #Portability

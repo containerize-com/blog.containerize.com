@@ -15,14 +15,14 @@ categories: ['Rapid Application Development']
 
 
 ## Genel Bakış
-[Hızlı Uygulama Geliştirme Yazılımı] [1] kullanarak geliştirme süreçlerinizi hızlandırmak istiyorsanız ve odağınız ciro üzerindeyse, bu blog yazısı tam size göre. Yakın geçmişte, [2021'de Top 5 Ücretsiz Hızlı Uygulama Geliştirme Yazılımı] [2] bir makale yayınladık. Yaygın olarak kullanılan açık kaynaklı hızlı prototipleme yazılımını sunar. İlk uygulamayı ayarlamak ve oluşturmak için Jhipster öğreticisi] [3] başlıklı başka bir blog yazısı var [3]. Bu, [Jhipster] [4] adlı popüler bir RAD platformunu gösteren bir öğretici blog yazısıdır.
+[Hızlı Uygulama Geliştirme Yazılımı][1] kullanarak geliştirme süreçlerinizi hızlandırmak istiyorsanız ve odağınız ciro üzerindeyse, bu blog yazısı tam size göre. Yakın geçmişte, [2021'de Top 5 Ücretsiz Hızlı Uygulama Geliştirme Yazılımı][2] bir makale yayınladık. Yaygın olarak kullanılan açık kaynaklı hızlı prototipleme yazılımını sunar. İlk uygulamayı ayarlamak ve oluşturmak için Jhipster öğreticisi][3] başlıklı başka bir blog yazısı var [3]. Bu, [Jhipster][4] adlı popüler bir RAD platformunu gösteren bir öğretici blog yazısıdır.
 Bu hızlı tempolu dünyada, sürekli değişen yazılım geliştirme ihtiyaçlarını karşılamak oldukça zorlaşıyor. İlk olarak, yazılım geliştirme ekiplerinin sık sık teslimatlardan emin olması gerekir. İkincisi, herhangi bir uygulamanın prototipi tüm proje hakkında tam bir fikir verir, bu nedenle prototipleme başka bir faktördür. Üçüncüsü, ekipler artık müşteri geri bildirimlerini geliştirme yaşam döngüsünün en önemli kısmını düşünüyor. Zamanın geliştiricileri geleneksel şelale yönteminin dezavantajlarını fark ettiler. Bununla birlikte, sınırsız yinelemeleri ve revizyonları destekleyen açık kaynaklı MVP üreticisini benimsediler.
-Bunları ve diğer bazı önemli hususları ele almak için ** rad metodolojileri ** çok popülerlik kazanmıştır. Ancak, büyüyen iş ve müşteri ihtiyaçlarının hızını karşılamak için birçok [RAD yazılımı] [1] vardır.
+Bunları ve diğer bazı önemli hususları ele almak için ** rad metodolojileri ** çok popülerlik kazanmıştır. Ancak, büyüyen iş ve müşteri ihtiyaçlarının hızını karşılamak için birçok [RAD yazılımı][1] vardır.
 Bu blog yazısında aşağıdaki noktaları gözden geçireceğiz.
-  * [Prototip ve hızlı uygulama geliştirme nedir ??] [5]
-  * [RAD metodolojisi nedir?] [6]
-  * [RAD yazılımının faydaları?] [7]
-  * [Sonuç] [8]
+  * [Prototip ve hızlı uygulama geliştirme nedir ??][5]
+  * [RAD metodolojisi nedir?][6]
+  * [RAD yazılımının faydaları?][7]
+  * [Sonuç][8]
 
 ## Prototip ve hızlı uygulama geliştirme nedir? {#rad}
 Hızlı uygulama geliştirme yaklaşımı daha az katı planlamaya ve daha çok gelişmeye odaklanmıştır. Çevik yazılım geliştirme yaklaşımına çok yakındır. Şelale modelinin aksine, esnektir ve herhangi bir aşamada revizyonları destekler.
@@ -52,17 +52,19 @@ Hızlı uygulama yazılımını benimseyerek elde edebileceğimiz faydalar neler
 
 ## ** Sonuç ** {#Conclusion}
 İşte bu öğreticinin sonu geliyor. Şelale modeli, spiral modeli, V şeklinde model, çevik model ve biraz daha fazlası gibi birçok yazılım geliştirme modeli vardır. Bu nedenle, herhangi bir modelin benimsenmesi kullanım durumlarınıza ve yazılımın doğasına bağlıdır. Bu nedenle, işletmeniz için RAD modelini benimsemek istiyorsanız, bu blog yazısı size gerçekten yardımcı olacaktır. Platformdan bağımsız olarak, geliştirme araçlarıyla platformlar arası özellikler sunan birkaç açık kaynaklı hızlı uygulama geliştirme yazılımı vardır. Aşağıdaki 'Keşfet' bölümünde RAD metodolojilerini takip eden başka hızlı prototipleme yazılımı da vardır. Bu, üretime hazır iş yazılımı geliştirmek için bu uygun maliyetli ve sağlam yaklaşımı benimsemenin zamanıdır.
-Sonunda, [Containerize.com] [9] açık kaynak [RAD yazılımı] [1] tanıtım sürecindedir. Düzenli güncellemeler için lütfen bu [Hızlı Uygulama Geliştirme] [1] kategorisini takip edin. Ayrıca, aşağıda Explore bölümünde listelenen yazılım açık kaynak, ücretsiz ve kendi kendine barındırılmıştır. Tüm bu ** kaynak kod üreticileri **, geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir.
+Sonunda, [Containerize.com][9] açık kaynak [RAD yazılımı][1] tanıtım sürecindedir. Düzenli güncellemeler için lütfen bu [Hızlı Uygulama Geliştirme][1] kategorisini takip edin. Ayrıca, aşağıda Explore bölümünde listelenen yazılım açık kaynak, ücretsiz ve kendi kendine barındırılmıştır. Tüm bu ** kaynak kod üreticileri **, geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Küba platformu] [10]
-  * [Quickapp] [11]
-  * [Jhipster] [4]
-  * [LI3] [12]
-  * [Apache ISIS] [13]
-  * [2021'de Top 5 Ücretsiz Hızlı Uygulama Geliştirme Yazılımı] [2]
-  * [İlk uygulamayı ayarlamak ve oluşturmak için Jhipster öğreticisi] [3]
+  * [Küba platformu][10]
+  * [Quickapp][11]
+  * [Jhipster][4]
+  * [LI3][12]
+  * [Apache ISIS][13]
+  * [2021'de Top 5 Ücretsiz Hızlı Uygulama Geliştirme Yazılımı][2]
+  * [İlk uygulamayı ayarlamak ve oluşturmak için Jhipster öğreticisi][3]
+
+  
 [1]: https://products.containerize.com/rad
 [2]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
 [3]: https://blog.containerize.com/2020/10/28/jhipster-tutorial-to-setup-and-create-the-first-application/

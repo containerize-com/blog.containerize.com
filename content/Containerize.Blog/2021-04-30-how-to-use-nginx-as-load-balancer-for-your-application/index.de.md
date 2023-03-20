@@ -15,15 +15,15 @@ categories: ['Web Server Solution Stack']
 
 Moderne Websites für hohe Verkehrsdaten bedienen Hunderttausende und in einigen Fällen Millionen von gleichzeitigen Anfragen von Benutzern oder Clients und geben die richtigen Text-, Bilder-, Video- oder Anwendungsdaten schnell und zuverlässig zurück. Um die Bedürfnisse dieser hohen Volumina und der Rechenleistung zu erfüllen, benötigen Sie mehr Server. Mit mehr Servern benötigen Sie eine Möglichkeit, den Verkehr zwischen diesen Servern auszugleichen. In diesem Blog -Tutorial werden wir untersuchen, was ein Lastausgleich ist und wie wir Nginx als Lastbalancer verwenden können.
 Um Nginx Load Balancing als Voraussetzung zu konfigurieren, müssen Sie mindestens zwei Hosts mit einer Webserver -Software installiert und konfiguriert haben, um die Vorteile des Lastausgleichs mit NGINX anzuzeigen. Wenn Sie bereits über einen ausführenden Webhost einrichten, werden Sie es doppelten, indem Sie ein benutzerdefiniertes Bild erstellen und auf einem neuen Webserver bereitstellen. Lernen wir also, wie Sie die Konfiguration des NGINX -Lastausgleichs Schritt für Schritt für Ihre Cloud -Server einrichten.
-  *** [Nginx Web Server] [1] **
-  *** [Lastausgleich] [2] **
-  *** [Setup nginx als Lastausgleich (Round Robin)] [3] **
-  *** [über verschiedene Upstream -Richtlinien] [4] **
-  *** [Schlussfolgerung] [5] **
+  *** [Nginx Web Server][1] **
+  *** [Lastausgleich][2] **
+  *** [Setup nginx als Lastausgleich (Round Robin)][3] **
+  *** [über verschiedene Upstream -Richtlinien][4] **
+  *** [Schlussfolgerung][5] **
 
 ## Nginx Web Server {#Webserver}
 Nginx ist ein Hochleistungs-Webserver, Open-Source-Webserver. Zusätzlich zu den Funktionen des HTTP -Servers kann NGINX auch als Proxy -Server für E -Mail (IMAP, POP3 und SMTP) und als Reverse -Proxy fungieren und das Gleichgewicht NGINX für HTTP-, TCP- und UDP -Server laden. Es verbessert die Leistung, Zuverlässigkeit und Sicherheit Ihrer Anwendungen. Es ist beliebt für seine reichhaltige Feature -Set, einfache Konfiguration und einen geringen Ressourcenverbrauch.
-Wie funktioniert Nginx? Nginx wird üblicherweise als Nginx Reverse Proxy Last Balancer als einzelne Einstiegspunkt für eine verteilte Webanwendung verwendet, die auf mehreren separaten Servern arbeitet. Es verwendet einen asynchronen, ereignisgesteuerten Ansatz, um einen geringen Speicherverbrauch und eine hohe Parallelität zu bieten. Sie können mehr über Nginx [hier] [6] lesen.
+Wie funktioniert Nginx? Nginx wird üblicherweise als Nginx Reverse Proxy Last Balancer als einzelne Einstiegspunkt für eine verteilte Webanwendung verwendet, die auf mehreren separaten Servern arbeitet. Es verwendet einen asynchronen, ereignisgesteuerten Ansatz, um einen geringen Speicherverbrauch und eine hohe Parallelität zu bieten. Sie können mehr über Nginx [hier][6] lesen.
 
 ## laden Balancer {#loadBalancer}
 Lastausgleich ist der Prozess, den Netzwerkverkehr auf mehrere Server verteilen. Und die „Software“ oder „Hardware“, die diesen Verteilungsvorgang ausführt, wird als Last Balancer bezeichnet. Ein Lastausgleich ist wie ein „Traffic Cop“, der vor Ihren Servern steht und Client -Anfragen auf allen Servern routet. Es stellt sicher, dass Ihre Bewerbung auch dann in Betrieb bleibt, auch wenn eines der Server ausfällt.
@@ -108,12 +108,14 @@ upstream backend  {
 
 ## Schlussfolgerung: {#Conclusion}
 In diesem Nginx -Lastausgleichstutorial haben wir etwas über NGNIX, Lastausgleich und die Einrichtung von Nginx -Last -Balancer gelernt, um Ihren Verkehr auf mehrere Server zu verteilen. Wir haben auch verschiedene Lastausgleichsalgorithmen wie Round-Robin, Hash und Max Fails untersucht. Wenn Sie eine Anwendung mit hohem Volumen ausführen und die Last auf verschiedene Server verteilen müssen, ist Nginx eine der besten Optionen für Sie. Und vor allem ist es 100% kostenlos und Open-Source-Webserver.
-Sie können sich uns auf [Twitter] [7], [LinkedIn] [8] und unserer [Facebook] [9] -Seite anschließen. Welcher andere leistungsstarke Lastausgleiche, um die Verfügbarkeit und Effizienz der Server zu verbessern, verwenden Sie? . Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen] [10].
+Sie können sich uns auf [Twitter][7], [LinkedIn][8] und unserer [Facebook][9] -Seite anschließen. Welcher andere leistungsstarke Lastausgleiche, um die Verfügbarkeit und Effizienz der Server zu verbessern, verwenden Sie? . Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][10].
 
 ## Erkunden
 Möglicherweise finden Sie die mehr verwandten unteren Artikel
-  * [So sichern und verschlüsseln Sie Nginx mit uns auf Ubuntu 20.04] [11]
-  * [Apache vs nginx - Detaillierter Vergleich in 2021] [12]
+  * [So sichern und verschlüsseln Sie Nginx mit uns auf Ubuntu 20.04][11]
+  * [Apache vs nginx - Detaillierter Vergleich in 2021][12]
+
+  
 [1]: #webserver
 [2]: #loadbalancer
 [3]: #setup

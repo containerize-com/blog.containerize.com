@@ -16,10 +16,10 @@ categories: ['Web Server Solution Stack']
 
 ## Présentation {#prerequis}
 Dans ce guide, nous installerons Nginx, MySQL et PHP (pile LEMP) pour le développement et le déploiement d'applications Web. Nous configurerons également un serveur Web sur un application PHP sur serveur sur Ubuntu Server 18.04. Nous couvrirons les sections suivantes dans ce tutoriel.
-  * [** Prérequis **] [1]
-  * [** Qu'est-ce que LEMP Stack? **] [2]
-  * [** l'installation de lemp **] [3]
-  * [** Conclusion **] [4]
+  * [** Prérequis **][1]
+  * [** Qu'est-ce que LEMP Stack? **][2]
+  * [** l'installation de lemp **][3]
+  * [** Conclusion **][4]
 
 ## Prérequis {#prerequisites}
 Avant d'installer un logiciel, vous devez répondre aux exigences suivantes.
@@ -146,17 +146,19 @@ phpinfo();
 
 ## Conclusion {#conclusion}
 Dans ce tutoriel, nous avons discuté de la façon d'installer et de configurer la pile ** lemp **. Comme vous pouvez le voir, la configuration des composants de la pile logicielle est vraiment facile. De plus, vous pouvez commencer à créer et à servir des applications Web en quelques minutes.
-Enfin, [** contenerize.com **] [5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** de solution de serveur Web **] [6] pour les dernières mises à jour.
+Enfin, [** contenerize.com **][5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** de solution de serveur Web **][6] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [** Meilleure solution de serveur Web Open Source Solution **] [7]
-  * ** [Outils médico-légaux numériques les plus populaires] [8] **
-  * ** [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021] [9] **
-  * ** [Meilleur logiciel de stockage et de partage de fichiers cloud open source] [10] **
-  * [** Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu **] [11]
-  * [** Comment installer plusieurs versions PHP avec Nginx sur Ubuntu **] [12]
-  * [** Top 5 des licences open source les plus populaires approuvées de 2021 **] [13]
+  * [** Meilleure solution de serveur Web Open Source Solution **][7]
+  * ** [Outils médico-légaux numériques les plus populaires][8] **
+  * ** [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021][9] **
+  * ** [Meilleur logiciel de stockage et de partage de fichiers cloud open source][10] **
+  * [** Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu **][11]
+  * [** Comment installer plusieurs versions PHP avec Nginx sur Ubuntu **][12]
+  * [** Top 5 des licences open source les plus populaires approuvées de 2021 **][13]
+
+  
 [1]: #Prerequisites
 [2]: #What
 [3]: #Installation

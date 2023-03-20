@@ -14,12 +14,12 @@ categories: ['Web Hosting']
 
 ## Webmin, komut satırı sistem yönetimine basit bir alternatif olan Web tabanlı bir sistem yönetimi aracıdır. Bu makale Webmin'in nasıl kurulacağı rehberlik ediyor
 “Ubuntu 20.04'te SSL ile Webmin Nasıl Kurulur” makalesiyle Web Hosting Yazılımı ve Araçları'nda yeni öğretici serimize başlıyoruz. Webmin ile kullanıcı hesaplarını ayarlayabilir, dosya paylaşımını etkinleştirebilir, apache ve DNS ayarlarını yapılandırabilir ve web barındırma ile ilgili daha birçok görev gerçekleştirebilirsiniz. Tüm web barındırma sunucusunu yönetmenizi sağlar. Linux yapılandırma dosyalarını manuel olarak düzenleme sorununu ortadan kaldırır. Öyleyse Webmin'in SSL ile nasıl yükleneceğini öğrenelim.
-  *** [Webmin'e Giriş] [1] **
-  *[** Vurgulanan özellikler **] [2]
-  *[** Desteklenen İşletim Sistemleri **] [3]
-  *[** Ubuntu'ya webmin yükleyin **] [4]
-  *[** Webmin kullanarak Apache'yi yükleyin **] [5]
-  *[** Sonuç **] [6]
+  *** [Webmin'e Giriş][1] **
+  *[** Vurgulanan özellikler **][2]
+  *[** Desteklenen İşletim Sistemleri **][3]
+  *[** Ubuntu'ya webmin yükleyin **][4]
+  *[** Webmin kullanarak Apache'yi yükleyin **][5]
+  *[** Sonuç **][6]
 
 ## Webmin'e Giriş {#Intro}
 Webmin, Linux için sistem yönetimi için web tabanlı bir arayüzdür. Herhangi bir modern web tarayıcısından uzaktan kendi barındırma sunucunuzu yönetmenize yardımcı olur. Webmin ile kullanıcı hesapları, apache, dns, dosya paylaşımı ve çok daha fazlası gibi işletim sistemi iç kısımlarını yapılandırabilirsiniz. Webmin ayrıca, tek bir arayüz aracılığıyla birçok makinenin kontrol edilmesine veya aynı alt ağ veya LAN'daki diğer webmin ana bilgisayarlarında sorunsuz oturum açmasına izin verir. Perl'ye dayanan Webmin, kendi süreci ve web sunucusu olarak çalışır. Ve webmin ile ilgili en iyi yanı% 100 ücretsiz ve açık kaynaktır ve çok gelişen bir geliştirici topluluğuna sahiptir.
@@ -211,8 +211,10 @@ Apache kurulumu tamamlandıktan sonra, sunucunuz varsayılan Apache sunucusunu �
 Bu makalede Webmin'in yapabileceği çok sayıda şey tartışılmaktadır, Webmin, Linux/Unix sunucularınızı yönetmek için en iyi araçlardan biridir. Bu öğreticide ayrıca Ubuntu'ya Webmin'in nasıl yükleneceğini öğrendik, ayrıca Webmin kullanarak sunucunuza Apache'nin nasıl yükleneceğini tartıştık.
 
 ## Keşfetmek
-  * [Ubuntu'da nginx ile birden fazla PHP sürümü nasıl kurulur] [7]
-  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır] [8]
+  * [Ubuntu'da nginx ile birden fazla PHP sürümü nasıl kurulur][7]
+  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır][8]
+
+  
 [1]: #intro
 [2]: #features
 [3]: #support

@@ -13,12 +13,12 @@ categories: ['Database Management Software']
 
 {{< figure align=center src="images/redis-pub-sub.png" alt="Redis Pub Sub">}}
 
-Dans notre dernier tutoriel «** [A débutant’s Guide to Redis en mémoire de données] [1] **», nous avons appris Redis en tant que base de données en mémoire. Et, comment cela rivalise avec les bases de données NOSQL. Nous avons également appris où utiliser Redis et où son utilisation n'est pas optimale. Maintenant, en s'appuyant sur cette base de connaissances, dans ce tutoriel, nous allons apprendre Redis Pub / Sub, comment fonctionne-t-il et quelle est la meilleure utilisation du système Redis Publish / Subscribe. Commençons.
-  * ** [Qu'est-ce que le modèle de publication / d'abonnement?] [2] **
-  * ** [Comment fonctionne le pub / sous-marin?] [3] **
-  * ** [Quand devriez-vous utiliser Pub / Sub?] [4] **
-  * ** [Comment utiliser Redis Pub / Sub?] [5] **
-  * ** [Conclusion] [6] **
+Dans notre dernier tutoriel «** [A débutant’s Guide to Redis en mémoire de données][1] **», nous avons appris Redis en tant que base de données en mémoire. Et, comment cela rivalise avec les bases de données NOSQL. Nous avons également appris où utiliser Redis et où son utilisation n'est pas optimale. Maintenant, en s'appuyant sur cette base de connaissances, dans ce tutoriel, nous allons apprendre Redis Pub / Sub, comment fonctionne-t-il et quelle est la meilleure utilisation du système Redis Publish / Subscribe. Commençons.
+  * ** [Qu'est-ce que le modèle de publication / d'abonnement?][2] **
+  * ** [Comment fonctionne le pub / sous-marin?][3] **
+  * ** [Quand devriez-vous utiliser Pub / Sub?][4] **
+  * ** [Comment utiliser Redis Pub / Sub?][5] **
+  * ** [Conclusion][6] **
 
 ## Qu'est-ce que le modèle de publication / d'abonnement? {#quoi}
 Publier / abonner ou dans un court pub / sub est un modèle de messagerie où l'expéditeur et le récepteur des messages n'échangent pas ces messages directement. L'expéditeur du message le publie plutôt sur un canal / un sujet. Et tous ceux qui souhaitent recevoir ces messages souscrivent à la chaîne / à la rubrique. C'était donc plus une explication technique. Dans notre vie quotidienne, nous utilisons très souvent ce modèle de publication-subscription tout en utilisant des plateformes de médias sociaux comme YouTube, Twitter, Facebook ou Instagram. Où les producteurs de contenu produisent le contenu et ceux qui sont intéressés suivront / abonneront au contenu. C'est donc ce que fait exactement ce que fait Pub / Sub dans l'architecture logicielle.
@@ -44,7 +44,7 @@ Discutons certains des avantages du Pub / Sub Modèle
   * Améliore la réactivité
 
 ## Comment utiliser redis pub / sub {# redis-pubsub}
-Pour l'installation Redis, vous pouvez vous référer à mon [dernier tutoriel] [1]. Cet exemple explique comment fonctionne le concept de l'éditeur et de l'abonné. Dans l'exemple suivant, un client s'abonne à un canal nommé «Redischat».
+Pour l'installation Redis, vous pouvez vous référer à mon [dernier tutoriel][1]. Cet exemple explique comment fonctionne le concept de l'éditeur et de l'abonné. Dans l'exemple suivant, un client s'abonne à un canal nommé «Redischat».
 ```
 redis 127.0.0.1:6379> SUBSCRIBE redisChat  
 Reading messages... (press Ctrl-C to quit) 
@@ -69,6 +69,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 ## Conclusion {#conclusion}
 Dans ce didacticiel, nous avons appris le modèle de conception de publication / d'abonnement. Et exploré comment fonctionne le redis pub / sub. Nous avons également exploré quels sont les meilleurs cas d'utilisation de Redis Pub / Sub, messagerie en temps réel. Dans mon prochain tutoriel, nous explorerons davantage le Redis et expliquerons comment nous pouvons utiliser Redis Pub / Sub avec Node.js pour créer une application de chat en temps réel.
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: #what
 [3]: #how

@@ -15,13 +15,13 @@ categories: ['Marketing Automation']
 
 A Mautic é um software de automação de marketing e fornece controle total sobre e -mails de marketing, páginas de destino e fluxos de trabalho para atividades de marketing. As campanhas de gotejamento da Mautic ajudam a envolver o público -alvo e mantê -las atualizadas sobre seus produtos. A Mautic Facebook Integration fornece uma maneira de novos leads serem adicionados ao Mautic. Com essa integração mautica - o Facebook, os leads da sua campanha no Facebook serão adicionados automaticamente ao Mautic.
 Abordaremos as seguintes seções neste tutorial:
-  * [Configurar conta do desenvolvedor do Facebook] [1]
-  * [Configure o aplicativo do desenvolvedor do Facebook] [2]
-  * [Configuração do plug -in mautic] [3]
-  * [Conclusão] [4]
+  * [Configurar conta do desenvolvedor do Facebook][1]
+  * [Configure o aplicativo do desenvolvedor do Facebook][2]
+  * [Configuração do plug -in mautic][3]
+  * [Conclusão][4]
 
 ## Configurar conta do desenvolvedor do Facebook {#Account}
-  * Vá para [Facebook para desenvolvedores] [5]
+  * Vá para [Facebook para desenvolvedores][5]
   * Registre sua conta se você não tiver uma.
   * Para registrar uma nova conta, vá e clique em "Comece" no canto superior direito.
   * Depois disso, selecione sua conta do Facebook e pressione "Continue".
@@ -77,11 +77,13 @@ Mautic - a integração do Facebook pode ajudar a sincronizar seus líderes no F
 
 ## Explore
 Para saber mais sobre Mautic e Facebook, visite:
-  * [Mautic | Plataforma de tecnologia de marketing de conteúdo de código aberto] [6]
-  * [Como configurar campanhas mauticas usando o construtor de campanhas] [7]
-  * [Integração mautica do Drupal para automatizar a nutrição de chumbo] [8]
-  * [Automação de marketing com integração Mautic e WooCommerce] [9]
-  * [Integre Mautic & Joomla para Automação de Marketing Digital] [10]
+  * [Mautic | Plataforma de tecnologia de marketing de conteúdo de código aberto][6]
+  * [Como configurar campanhas mauticas usando o construtor de campanhas][7]
+  * [Integração mautica do Drupal para automatizar a nutrição de chumbo][8]
+  * [Automação de marketing com integração Mautic e WooCommerce][9]
+  * [Integre Mautic & Joomla para Automação de Marketing Digital][10]
+
+  
 [1]: #account
 [2]: #app
 [3]: #configuration

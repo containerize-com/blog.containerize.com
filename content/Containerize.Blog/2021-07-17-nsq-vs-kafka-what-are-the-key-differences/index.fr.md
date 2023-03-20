@@ -25,11 +25,11 @@ Cet article de blog décrit la plate-forme de file d'attente de messagerie moder
   * Conclusion
 
 ## 1. Qu'est-ce que Kafka?
-[Kafka] [1] est une plate-forme de streaming d'événements distribuée open source, écrite en langage Scala développé par LinkedIn. Il est un système de messagerie souscrit et a la capacité de gérer un volume élevé de messages. Kafka est «Distributed, durable, tolérant aux défauts, système de messagerie de pub à haut débit» et vous pouvez effectuer à la fois le traitement en temps réel et en temps réel avec Kafka. Il s'agit d'un service de messagerie de journal de validation répliqué distribué, répliqué et répliqué à travers les nœuds et s'exécute sur JVM. Kafka Best Message File est simple à utiliser et fournit les fonctionnalités d'un système de file d'attente de messagerie mais avec une conception unique.
+[Kafka][1] est une plate-forme de streaming d'événements distribuée open source, écrite en langage Scala développé par LinkedIn. Il est un système de messagerie souscrit et a la capacité de gérer un volume élevé de messages. Kafka est «Distributed, durable, tolérant aux défauts, système de messagerie de pub à haut débit» et vous pouvez effectuer à la fois le traitement en temps réel et en temps réel avec Kafka. Il s'agit d'un service de messagerie de journal de validation répliqué distribué, répliqué et répliqué à travers les nœuds et s'exécute sur JVM. Kafka Best Message File est simple à utiliser et fournit les fonctionnalités d'un système de file d'attente de messagerie mais avec une conception unique.
 La file d'attente de messages distribuée est connue sous le nom de courtiers et ceux-ci forment un cluster Kafka. Un gardien de zoo est responsable de la coordination entre tous les courtiers d'un cluster. Le courtier de messages Apache Kafka est utilisé par les startups Unicorn, les organisations financières de santé et les meilleures comme LinkedIn, FB, Netflix, Bank of America, Chase Bank, Yahoo, Twitter et autres. Le logiciel de file d'attente de messages open source Kafka Architecture se compose de producteurs, de consommateurs, de courtiers, de gardien de zoo, de sujets, de partitions, d'enregistrements et de journaux.
 
 ## 2. Qu'est-ce que NSQ? {# ce62}
-[NSQ] [2] est une plate-forme de messagerie distribuée en temps open source en temps réel qui est un successeur de SimpleQueue. Le développeur décrit NSQ comme «une plate-forme de messagerie distribuée en temps réel» construite par bitly. Le courtier de messages open source Softwarensq est une plate-forme de messagerie incroyablement simple conçue et fonctionne à une échelle, gérant des milliards de messages par jour. Il s'agit d'un système de messagerie tamponné traditionnel qui favorise des topologies décentralisées sans point de défaillance unique. Il permet la tolérance aux pannes et la haute disponibilité couplées à un système de livraison de messages fiable.
+[NSQ][2] est une plate-forme de messagerie distribuée en temps open source en temps réel qui est un successeur de SimpleQueue. Le développeur décrit NSQ comme «une plate-forme de messagerie distribuée en temps réel» construite par bitly. Le courtier de messages open source Softwarensq est une plate-forme de messagerie incroyablement simple conçue et fonctionne à une échelle, gérant des milliards de messages par jour. Il s'agit d'un système de messagerie tamponné traditionnel qui favorise des topologies décentralisées sans point de défaillance unique. Il permet la tolérance aux pannes et la haute disponibilité couplées à un système de livraison de messages fiable.
 NSQ propose une topologie à haute disponibilité qui minimise le SPOF. Il augmente la disponibilité en configurant plusieurs instances pour NSQD et NSQlookupd. De plus, il garantit que le message est livré au moins une fois avec un certain degré de persistance et est facile à configurer. Le meilleur courtier de messages NSQ est plus flexible et prend en charge la persistance des messages. Il a un tableau de bord administratif brillant. Le système de messagerie de file d'attente NSQ dispose de 19,9k GitHub Stars et 2,6k GitHub Forks.
 
 ## 3. Comparaison NSQ vs Kafka {# ce62}
@@ -51,15 +51,17 @@ NSQ avec 20k Github Stars et 2,6k Forks sur Github semble être plus populaire q
 
 ## Conclusion: {# 4A1A}
 Cet article a fourni une brève comparaison sur le fonctionnement des cadres de messagerie populaires - NSQ et Kafka. Les comparaisons de fonctions d'article tournaient autour du débit de file d'attente de messages, de la persistance, de la fiabilité, de la latence, de l'évolutivité et de la disponibilité. Ces paramètres sont importants pour décider de l'aptitude d'un cadre pour une application en temps réel. Par conséquent, c'est un bon article pour une compréhension approfondie de choisir le bon cadre. Les logiciels de file d'attente de messagerie sont l'épine dorsale de la technologie future sur le marché qui peut gérer un traitement élevé. Dans nos prochains tutoriels, nous discuterons des sujets plus intéressants liés aux plates-formes de messagerie open source.
-_Pour peut se joindre à nous sur [Twitter] [3], [LinkedIn] [4] et notre page [Facebook] [5]. Quelle plate-forme de file d'attente de messages utilisez-vous en ligne ?. Si vous avez des questions, s'il vous plaît_ [contacte] [6].
+_Pour peut se joindre à nous sur [Twitter][3], [LinkedIn][4] et notre page [Facebook][5]. Quelle plate-forme de file d'attente de messages utilisez-vous en ligne ?. Si vous avez des questions, s'il vous plaît_ [contacte][6].
 
 ## Explorer:
 Nous avons également plusieurs autres articles relatifs à la gestion quotidienne de votre serveur.
-  * [Système de file d'attente soutenu par Redis pour le traitement en arrière-plan] [7]
-  * [Système de traitement des travaux de fond le plus rapide] [8]
-  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian] [9]
-  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu] [10]
-  * [Secure et crypte nginx avec Let's Encrypt sur Ubuntu 20.04] [11]
+  * [Système de file d'attente soutenu par Redis pour le traitement en arrière-plan][7]
+  * [Système de traitement des travaux de fond le plus rapide][8]
+  * [Comment configurer Apache en tant que proxy inverse pour Ubuntu / Debian][9]
+  * [Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu][10]
+  * [Secure et crypte nginx avec Let's Encrypt sur Ubuntu 20.04][11]
+
+  
 [1]: https://kafka.apache.org/
 [2]: https://nsq.io/
 [3]: https://twitter.com/containerize_co

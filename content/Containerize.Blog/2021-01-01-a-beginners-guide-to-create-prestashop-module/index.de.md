@@ -15,10 +15,10 @@ categories: ['Shopping Cart Software']
 
 ** Prestashop ** ist E -Commerce -Software, die 100% frei und Open Source ist. Auf diese Weise können Shop -Eigentümer ihre Online -Präsenz einfach einrichten und das Geschäft in einer weiten Ebene skalieren. Prestashop verfügt über Standardfunktionen und Sie benötigen gelegentlich mehr Funktionen für Ihre Geschäftsanforderungen. Der Marktplatz für Prestashop ist ein fantastischer Ort, um Add-On-Funktionen zu finden, mit denen die Speicherfunktionen erweitert werden können. Darüber hinaus finden Sie sowohl kostenlose als auch kostenpflichtige Module auf dem Marktplatz. Sie können jedoch auch benutzerdefiniertes Modul von Grund auf neu erstellen.
 Wir werden die folgenden Themen im Detail diskutieren, um das Prestashop -Modul ** zu erstellen.
-  * [Anforderungen] [1]
-  * [Grundlagen der Modulentwicklung] [2]
-  * [Erstellen Sie unser Prestashop -Modul] [3]
-  * [Schlussfolgerung] [4]
+  * [Anforderungen][1]
+  * [Grundlagen der Modulentwicklung][2]
+  * [Erstellen Sie unser Prestashop -Modul][3]
+  * [Schlussfolgerung][4]
 
 ## Anforderungen {#Req}
   * Installieren Sie Prestashop 1.6 oder mehr.
@@ -96,12 +96,14 @@ public function hookRightColumn($params)
   *Schließlich öffnen Sie den Abschnitt Administrator, hochladen und ** Prestashop -Modul installieren **.
 
 ## Schlussfolgerung {#Conclusion}
-Wir haben Kernkonzepte zum Aufbau des ** Prestashop -Moduls ** in diesem Tutorial erörtert. Darüber hinaus haben wir ein grundlegendes Modul entwickelt, das als Ausgangspunkt für weitere Vorabmodule verwendet werden kann. [Containerize.com] [5] arbeitet konsequent an neuen Tutorial -Blog -Posts. Die neuesten Updates finden Sie in Kontakt mit der Kategorie [6] [6].
+Wir haben Kernkonzepte zum Aufbau des ** Prestashop -Moduls ** in diesem Tutorial erörtert. Darüber hinaus haben wir ein grundlegendes Modul entwickelt, das als Ausgangspunkt für weitere Vorabmodule verwendet werden kann. [Containerize.com][5] arbeitet konsequent an neuen Tutorial -Blog -Posts. Die neuesten Updates finden Sie in Kontakt mit der Kategorie [6][6].
 
 ## Erkunden
 Neben dem Tutorial ** Prestashop Modul Creation ** können Sie die folgenden Links finden.
-  * [Prestashop - kostenlose Einkaufswagen -Software] [7]
-  * [Top 5 Open -Source -Einkaufswagen -Software im Jahr 2020] [8]
+  * [Prestashop - kostenlose Einkaufswagen -Software][7]
+  * [Top 5 Open -Source -Einkaufswagen -Software im Jahr 2020][8]
+
+  
 [1]: #Req
 [2]: #Basics
 [3]: #Create

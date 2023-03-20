@@ -15,12 +15,12 @@ categories: ['Healthcare Software']
 
 
 ## Descripción general
-Recientemente publicamos una publicación de blog sobre [cómo el software de salud en línea empodera a la industria de la salud] [1] que describe el impacto del sistema de gestión de hospitales de código abierto en la industria de la salud. La industria mundial de software de salud está ganando valor con el paso del tiempo. De hecho, es que la tecnología ha transformado todos los campos de la vida. El número de pacientes y miembros del personal se ha ido tan alto que se ha convertido en una molestia para administrar datos tan grandes. Por otro lado, hay muchas tareas que llevan mucho tiempo que tienen lugar todos los días y las entidades de atención médica realizan repetidamente esas tareas. Por lo tanto, la comunidad fuente de código abierto ha desarrollado un software médico de código abierto que viene con muchos módulos útiles para abordar las necesidades de atención médica.
+Recientemente publicamos una publicación de blog sobre [cómo el software de salud en línea empodera a la industria de la salud][1] que describe el impacto del sistema de gestión de hospitales de código abierto en la industria de la salud. La industria mundial de software de salud está ganando valor con el paso del tiempo. De hecho, es que la tecnología ha transformado todos los campos de la vida. El número de pacientes y miembros del personal se ha ido tan alto que se ha convertido en una molestia para administrar datos tan grandes. Por otro lado, hay muchas tareas que llevan mucho tiempo que tienen lugar todos los días y las entidades de atención médica realizan repetidamente esas tareas. Por lo tanto, la comunidad fuente de código abierto ha desarrollado un software médico de código abierto que viene con muchos módulos útiles para abordar las necesidades de atención médica.
 Se desarrollan software médico de código abierto para administrar los registros de los pacientes con respecto a su historial médico, así como con las disposiciones para la gestión del hospital. Además, el software de salud de código abierto está aprovechando la inteligencia artificial para proporcionar niveles avanzados de servicios. La mayoría de los tratamientos de enfermedades ahora están siendo manejados por el software que no solo diagnostica los problemas, sino que también brinda asistencia en la cura. Sin embargo, hay muchos software emergente para hospitales. En esta publicación de blog, cubriremos los siguientes puntos.
-  *[** ¿Qué es Hospitalrun? **] [2]
-  *[** ¿Cuáles son las características de HospitalRun **] [3]
-  *[** Pasos de instalación de HospitalRun? **] [4]
-  *[** Conclusión **] [5]
+  *[** ¿Qué es Hospitalrun? **][2]
+  *[** ¿Cuáles son las características de HospitalRun **][3]
+  *[** Pasos de instalación de HospitalRun? **][4]
+  *[** Conclusión **][5]
 
 ## ¿Qué es Hospitalrun? {#intro}
 HospitalRun es un sistema gratuito de gestión de información hospitalaria de código abierto. Esta solución de atención médica gratuita es amigable con el medio ambiente, ya que los usuarios pueden hacer uso completo de este software gratuito, incluso si no hay conectividad a Internet. Proporciona muchas características, como gestión de usuarios, registros de pacientes, citas, sistema de facturación, sistema de alta del paciente y más. La interfaz de usuario de este sistema eHealth de código abierto es lógico donde los usuarios pueden navegar a través de diferentes elementos fácilmente. Además, es fácil de configurar y ofrece una imagen de Docker donde los desarrolladores pueden implementarla utilizando una imagen Docker.
@@ -40,9 +40,9 @@ En esta sección, pasaremos por algunas de las siguientes características clave
 ## Pasos de instalación de HospitalRun? {#pasos}
 Esta sección de la publicación del blog describe los pasos de instalación de HospitalRun.
 Antes de comenzar, primero instale los siguientes requisitos previos:
-  * [Docker] [6]
-  * [Docker-Compose] [7]
-Una vez que se instalen los requisitos previos, descargue el código fuente de este [enlace] [8].
+  * [Docker][6]
+  * [Docker-Compose][7]
+Una vez que se instalen los requisitos previos, descargue el código fuente de este [enlace][8].
 Después de eso, abra el terminal y ejecute los siguientes comandos:
 CD genérico
 servidor de CD
@@ -60,21 +60,23 @@ Finalmente, puede acceder a esta solución de atención médica en el navegador 
 
 ## conclusión {#conclusion}
 Este es el final de este artículo de tutorial. Este sistema de registro del paciente realmente ayuda a automatizar ** Servicios de atención médica **. El sistema moderno de gestión de hospitales de código abierto viene con herramientas analíticas de datos que ayudan a los trabajadores de la salud a tomar las medidas necesarias para mejores instalaciones de salud. Esta publicación de blog realmente lo ayudará si está buscando seriamente desplegar un sistema eHealth para su hospital/clínica. Estas soluciones de código abierto son rentables, ya que están integradas con laboratorios y otras clínicas y también minimizan el papeleo mediante la computarización de cada proceso. La solución de atención médica de código abierto permite a los usuarios tener imágenes de todas las operaciones de atención médica, como los medicamentos, el alta, el alta, los informes y el manejo de la facturación de los pacientes. Además, puede centrarse en otras tareas importantes, como la planificación de recursos y la evaluación de riesgos. Sin embargo, hay muchos otros software de nivel empresarial para hospitales que se mencionan en la sección "Explorar" a continuación.
-Al final, **** [contenedorize.com] [9] **** está destinado a escribir en otros productos de código abierto. Por lo tanto, manténgase en contacto con esta categoría [tecnologías de atención médica] [10] para las últimas actualizaciones.
+Al final, **** [contenedorize.com][9] **** está destinado a escribir en otros productos de código abierto. Por lo tanto, manténgase en contacto con esta categoría [tecnologías de atención médica][10] para las últimas actualizaciones.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  * [Openemr] [11]
-  * [OpenMRS] [12]
-  * [Hospitalrun] [13]
-  * [Hospital abierto] [14]
-  * [Solismado] [15]
-  * [Cosas para revisar antes de optar el software de código abierto en 2021] [16]
-  * [Cuenta con exploración del gerente de registro médico Hospitalrun] [17]
-  * [Software de registro de salud del paciente de código abierto de los 5 principales] [18]
-  * [Cuenta con exploración de la solución de salud médica Openemr] [19]
-  * [Cómo configurar el Hospital del Sistema EHealth en Localhost] [20]
-  * [Cómo el software de salud en línea permite la industria de la salud] [1]
+  * [Openemr][11]
+  * [OpenMRS][12]
+  * [Hospitalrun][13]
+  * [Hospital abierto][14]
+  * [Solismado][15]
+  * [Cosas para revisar antes de optar el software de código abierto en 2021][16]
+  * [Cuenta con exploración del gerente de registro médico Hospitalrun][17]
+  * [Software de registro de salud del paciente de código abierto de los 5 principales][18]
+  * [Cuenta con exploración de la solución de salud médica Openemr][19]
+  * [Cómo configurar el Hospital del Sistema EHealth en Localhost][20]
+  * [Cómo el software de salud en línea permite la industria de la salud][1]
+
+  
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: #intro
 [3]: #features

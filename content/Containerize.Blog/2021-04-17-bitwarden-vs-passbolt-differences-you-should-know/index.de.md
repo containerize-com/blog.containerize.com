@@ -14,10 +14,10 @@ categories: ['Uncategorized']
 {{< figure align=center src="images/bitwarden.png" alt="Open Source -Passwort -Manager | Bitwarden gegen Passbolt|Open Source -Passwort -Manager | Bitwarden gegen Passbolt">}}
 
 Wenn es darum geht, einen Passwort -Manager zu finden, der nicht nur für den individuellen Gebrauch funktioniert, sondern Teams und Unternehmen besser verwalten und auf vertrauliche Informationen zugreifen kann, kann das Finden des richtigen Kennwortmanagers dazu beitragen, den Arbeitsfluss zu erleichtern. Bitwarden und Passbolt sind beide Open -Source -Passwort -Manager -Software, die speziell für Teams entwickelt wurden und es Unternehmen ermöglicht, die Anwendungen lokal oder in der Cloud zu hosten. Wir werden die folgenden Themen in diesem Beitrag behandeln, um Bitwards vs Passbolt zu vergleichen:
-  * [Was ist Bitwarden?] [1]
-  * [Was ist Passbolt?] [2]
-  * [Hauptunterschiede] [3]
-  * [Schlussfolgerung] [4]
+  * [Was ist Bitwarden?][1]
+  * [Was ist Passbolt?][2]
+  * [Hauptunterschiede][3]
+  * [Schlussfolgerung][4]
 
 ## ** Was ist Bitwarden? **
 Bitwarden ist ein vielversprechender Open -Source -Passwort -Manager, der die Kompatibilität der Plattform umfasst, einschließlich einer mobilen und Webanwendung sowie der Befehlszeilenschnittstelle. Sie können auch auf Bitwarden auf Ihrem Desktop zugreifen, da es mit Windows, MacOS und Linux Kompatibilität verfügt. Als Open -Source -Passwort -Manager kann Bitwarden sowohl für den individuellen Gebrauch als auch für die Ebene von Unternehmen verwendet werden. Sie können nicht nur Bitwarden auf Ihren Servern hosten, sondern auch auf Cloud -Hosting und bei der Kompatibilität für Cross -Geräte kann darauf zugegriffen werden, wann immer Sie benötigen.
@@ -53,9 +53,11 @@ In diesem Beitrag haben wir versucht, im Detailvergleich von Bitwarden vs Passbo
 
 ## Erkunden
 Sie können die folgenden Links relevant finden:
-[Bitward | Open Source Cross-Plattform Password Manager] [5]
-[Passbolt | Kostenloser, Open Source & Self-Hosted-Passwort-Manager] [6]
-[Setup & verwalten Keepass Password Manager für Windows] [7]
+[Bitward | Open Source Cross-Plattform Password Manager][5]
+[Passbolt | Kostenloser, Open Source & Self-Hosted-Passwort-Manager][6]
+[Setup & verwalten Keepass Password Manager für Windows][7]
+
+  
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

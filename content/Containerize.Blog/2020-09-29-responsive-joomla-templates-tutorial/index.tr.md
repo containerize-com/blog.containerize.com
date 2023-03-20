@@ -24,10 +24,10 @@ Geliştirme aşaması sırasında, tasarım öğelerinin yerleştirilmesi çok k
   * Okunabilirlik
 İşte ** Joomla şablonları ** geliyor. Bu açık kaynaklı yazılım, her sayfa için ayrı ayrı kod yazmak yerine tüm web sayfaları için önceden tanımlanmış duyarlı düzenler geliştirme veya kullanma hükümleri sunar.
 Bu blog yazısında, Joomla'da ** Kullanıcı Dostu Şablon ** nasıl oluşturulacağı ve kurulacağı hakkında aşağıdaki şeyleri öğreneceğiz.
-  *[** Joomla düzenleri nelerdir? **] [2]
-  *[** Joomla'da basit bir duyarlı şablon nasıl oluşturulur? **] [3]
-  *[** Joomla şablonu nasıl kurulur? **] [4]
-  *[** Sonuç **] [5]
+  *[** Joomla düzenleri nelerdir? **][2]
+  *[** Joomla'da basit bir duyarlı şablon nasıl oluşturulur? **][3]
+  *[** Joomla şablonu nasıl kurulur? **][4]
+  *[** Sonuç **][5]
 
 ## Joomla düzenleri nelerdir? {#Ne}
 Joomla, ön uç ve arka uç için şablonlar sağlar. Birçok hazır yapılmış şablonla birlikte gelir ve geliştiricilere kullanım durumlarına göre ** ücretsiz duyarlı bootstrap temaları ** oluşturmak için sunar. Joomla'da iki tür şablon vardır.
@@ -239,22 +239,24 @@ Burada yeni geliştirilen Joomla şablonunuzu aşağıdaki resimde gösterildiğ
 
 ## Sonuç {#Conclusion}
 İyi ve duyarlı bir şablon, genel site modellemesinin temelidir. ** Duyarlı Düzenler ** Joomla'daki çok işlevlidir ve çeşitli projeler için kullanılabilir. Kod yazımından Joomla şablon geliştirmeye, sezgisel bir yönetici gösterge paneli yardımıyla çok basit hale gelir. Joomla, kullanıcının arzularını karşılamak için şablon geliştirme üzerinde tam kontrol sağlar.
-** CMS Software ** kategorisi tutarlı iyileştirmeler altında olduğundan ve listeye diğer içerik yönetim sistemleri hakkında daha fazla öğretici ekleneceğinden, lütfen düzenli güncellemeler için [İçerik Yönetim Sistemi] [6] bölümüyle iletişime geçin.
+** CMS Software ** kategorisi tutarlı iyileştirmeler altında olduğundan ve listeye diğer içerik yönetim sistemleri hakkında daha fazla öğretici ekleneceğinden, lütfen düzenli güncellemeler için [İçerik Yönetim Sistemi][6] bölümüyle iletişime geçin.
 
 ## İlgili Ürün Sayfaları
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Joomla] [1]
-  * [Drupal] [7]
-  * [Pyro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Beton5] [11]
-  * [Grav] [12]
-  * [Craft] [13]
-  * [Contao] [14]
-  * [Çatal] [15]
-  * [Rafineri CMS] [16]
-  * [LocomotiveCms] [17]
+  * [Joomla][1]
+  * [Drupal][7]
+  * [Pyro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Beton5][11]
+  * [Grav][12]
+  * [Craft][13]
+  * [Contao][14]
+  * [Çatal][15]
+  * [Rafineri CMS][16]
+  * [LocomotiveCms][17]
+
+  
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

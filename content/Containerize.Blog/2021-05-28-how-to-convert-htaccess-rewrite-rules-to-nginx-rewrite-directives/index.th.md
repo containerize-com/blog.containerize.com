@@ -13,11 +13,11 @@ categories: ['Web Server Solution Stack']
 
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="แปลง. htaccess rewrite กฎเป็นคำสั่ง nginx">}}
 
-ในบทช่วยสอนสุดท้ายของเราเราได้เรียนรู้ [วิธีการติดตั้ง PHP หลายรุ่นด้วย Nginx บน Ubuntu] [1] Apache เป็นหนึ่งใน webservers ที่ได้รับความนิยมมากที่สุด แต่เมื่อเร็ว ๆ นี้ Nginx ได้จัดตั้งตัวเองเป็นคู่แข่งของ Apache แต่ Nginx ไม่รองรับ Htaccess rewrite กฎ ดังนั้นในบทความนี้เราจะเรียนรู้วิธีการแปลง HTaccess rewrite กฎเป็นคำสั่ง Nginx rewrite มาเริ่มกันเลย!
-  *** [กฎการเขียนใหม่ nginx] [2] **
-  *[**. htaccess rewrite กฎ **] [3]
-  *[** แปลง. htaccess rewrite กฎเป็น nginx rewrite directives **] [4]
-  *[** บทสรุป **] [5]
+ในบทช่วยสอนสุดท้ายของเราเราได้เรียนรู้ [วิธีการติดตั้ง PHP หลายรุ่นด้วย Nginx บน Ubuntu][1] Apache เป็นหนึ่งใน webservers ที่ได้รับความนิยมมากที่สุด แต่เมื่อเร็ว ๆ นี้ Nginx ได้จัดตั้งตัวเองเป็นคู่แข่งของ Apache แต่ Nginx ไม่รองรับ Htaccess rewrite กฎ ดังนั้นในบทความนี้เราจะเรียนรู้วิธีการแปลง HTaccess rewrite กฎเป็นคำสั่ง Nginx rewrite มาเริ่มกันเลย!
+  *** [กฎการเขียนใหม่ nginx][2] **
+  *[**. htaccess rewrite กฎ **][3]
+  *[** แปลง. htaccess rewrite กฎเป็น nginx rewrite directives **][4]
+  *[** บทสรุป **][5]
 
 ## nginx rewrite กฎ {#nginx}
 การเขียนกฎใหม่เปลี่ยนส่วนหรือ URL ทั้งหมดในคำขอลูกค้าโดยปกติจะแจ้งให้ลูกค้าทราบว่าทรัพยากรที่พวกเขาร้องขอตอนนี้อยู่ในสถานที่อื่นหรือเพื่อควบคุมการไหลของการประมวลผลภายใน NGINX ตัวอย่างเช่นการส่งต่อคำขอไปยังแอปพลิเคชันเซิร์ฟเวอร์เมื่อต้องสร้างเนื้อหาแบบไดนามิก คำสั่ง try_files มักใช้เพื่อจุดประสงค์นี้
@@ -82,7 +82,7 @@ server {
 }
 ```
 เพื่อประโยชน์ของความชัดเจนมากขึ้นให้แปลงกฎ WordPress HTaccess เป็นคำสั่ง nginx try_files
-[WordPress.org Distributes] [6] ค่าเริ่มต้นพื้นฐาน **. htaccess ** ไฟล์ที่มีต่อไปนี้ Htaccess เขียนกฎใหม่ที่เปิดใช้งาน Pretty Permalinks:
+[WordPress.org Distributes][6] ค่าเริ่มต้นพื้นฐาน **. htaccess ** ไฟล์ที่มีต่อไปนี้ Htaccess เขียนกฎใหม่ที่เปิดใช้งาน Pretty Permalinks:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -104,8 +104,10 @@ location / {
 ในบทช่วยสอนนี้เราสำรวจกฎ. htaccess rewrite ของ Apache และวิธีที่เราสามารถแปลงกฎ. htaccess rewrite เหล่านั้นเป็นคำสั่ง Nginx rewrite เราสำรวจคำสั่ง NGINX ที่แตกต่างกันซึ่งสามารถใช้ในการเขียน URL ใหม่ นอกจากนี้เรายังให้ตัวอย่างกฎการเขียนใหม่สำหรับทั้ง Nginx และ Apache หวังว่าการสอนจะเป็นประโยชน์สำหรับคุณ
 
 ## สำรวจ
-  * [วิธีการติดตั้ง PHP หลายเวอร์ชันด้วย nginx บน Ubuntu] [1]
-  * [วิธีการตั้งค่าและกำหนดค่า nginx เป็น proxy ย้อนกลับ] [7]
+  * [วิธีการติดตั้ง PHP หลายเวอร์ชันด้วย nginx บน Ubuntu][1]
+  * [วิธีการตั้งค่าและกำหนดค่า nginx เป็น proxy ย้อนกลับ][7]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 [2]: #nginx
 [3]: #apache

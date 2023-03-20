@@ -15,10 +15,10 @@ categories: ['Database Management Software', 'Web Server Solution Stack']
 
 Localhost olarak XAMPP ve PHPMyAdmin, geliştiricilerin web uygulamalarını test etmeleri ve oluşturmaları için yerel bir sunucu sağlar. XAMPP, kişisel bilgisayarlarda/dizüstü bilgisayarlara yüklü yerel bir sunucudur. PHP uygulamalarını canlı sunuculara dağıtmadan önce oluşturmak, çalıştırmak ve test etmek için yerel bir ortam sağlar.
 Bu blog gönderisindeki aşağıdaki bölümleri ele alacağız:
-  * [Açıklama] [1]
-  * [XAMPP kurulumu] [2]
-  * [PhpmyAdmin Gösterge Tablosu] [3]
-  * [Son düşünceler] [4]
+  * [Açıklama][1]
+  * [XAMPP kurulumu][2]
+  * [PhpmyAdmin Gösterge Tablosu][3]
+  * [Son düşünceler][4]
 
 ## açıklama: {#description}
 XAMPP ücretsiz ve açık kaynaklı web sunucusu çözüm yığınıdır. Apache, MySQL, MariaDB, PHP ve Perl içerir. XAMPP, Windows işletim sistemleri için kullanılabilir. Kurulumu ve kullanımı son derece kolaydır. Bu yüzden en popüler PHP geliştirme ortamı. Localhost olarak XAMPP ve PHPMyAdmin, web uygulaması geliştirme ve test için eksiksiz bir ortam sağlar.
@@ -30,7 +30,7 @@ XAMPP'deki alfabeler şunları sağlar:
   *** P ** - Perl
 
 ## xampp yüklemesi {#xampp}
-  * XAMPP'yi [buradan] [5] 'den indirin.
+  * XAMPP'yi [buradan][5] 'den indirin.
 
 {{< figure align=center src="images/xampp1.png" alt="Localhost olarak xampp">}}
 
@@ -79,8 +79,10 @@ PHPMyAdmin Gösterge Tablosuna erişmek için MySQL hizmetinin yanındaki “Yö
 XAMPP kurulumu basit ve basittir. Kurulum XAMPP sunucusuna 15 dakikadan fazla sürmez. Yüklendikten sonra, geliştiriciler İnternet bağlantısı olmadan bile PHP tabanlı web uygulamalarını oluşturabilir ve test edebilirler. Projeleri doğrudan canlı bir web sunucusunda test etmek yerine, bunları yerel olarak test etmek basit ve zaman tasarrufu sağlar. Yeni başlayanların PHP, Perl ve veritabanı becerilerini öğrenmeleri, test etmesi ve cilalaması için harika bir platform.
 
 ## Keşfetmek:
-[PHP ve Perl geliştiricileri için açık kaynaklı web sunucusu çözümü yığını] [6]
-[En İyi Açık Kaynak Web Server Çözümü Yığın Seçenekleri] [7]
+[PHP ve Perl geliştiricileri için açık kaynaklı web sunucusu çözümü yığını][6]
+[En İyi Açık Kaynak Web Server Çözümü Yığın Seçenekleri][7]
+
+  
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

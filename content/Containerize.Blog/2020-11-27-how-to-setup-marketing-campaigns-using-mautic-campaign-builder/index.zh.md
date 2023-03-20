@@ -14,10 +14,10 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/mautic.png" alt="如何为数字营销设置卑鄙的活动">}}
 
 在本文中，我们将学习如何在Mautic中设置广告系列。我们将介绍以下各节：
-  * [什么是Mautic？] [1]
-  * [如何在Mautic中创建形式？] [2]
-  * [如何在Mautic中创建广告系列？] [3]
-  * [结论] [4]
+  * [什么是Mautic？][1]
+  * [如何在Mautic中创建形式？][2]
+  * [如何在Mautic中创建广告系列？][3]
+  * [结论][4]
 
 ## 什么是Mautic？ {#mautic}
 Mautic是一种开源营销自动化软件。它可以完全控制营销电子邮件，着陆页和营销活动的工作流程。它自动化了从登陆页面，表单上创建潜在客户并将其转换为潜在客户的方式。所有这些都可以通过创建智能滴灌广告系列来实现，这将使潜在客户有关产品/服务的最新信息。
@@ -67,13 +67,15 @@ Mautic是一种开源营销自动化软件。它可以完全控制营销电子�
 
 ## 结论：{#conclusion}
 我们已经学会了按照三个非常简单的步骤来设置滴灌营销活动。其中包括创建作为广告系列所需的表格，创建广告系列并配置电子邮件。我们在本教程中创建了非常基本的活动。但是，您可以使用Mautic广告系列制造商创建复杂的广告系列。如果您是Mautic的新手，请查看如何使用以下指南来安装它：
-[Mautic概述和安装] [5]
+[Mautic概述和安装][5]
 
 ## 探索：
 如果您想将Mautic与WordPress或Joomla融为一体，并且可以帮助您开始实施Mautic的多租户，那么这些文章可能会非常有帮助。
-[使用Mautic和WordPress WooCommerce的营销自动化] [6]
-[将Mautic与Joomla整合以进行营销自动化] [7]
-[如何在Mautic中实施多租户] [8]
+[使用Mautic和WordPress WooCommerce的营销自动化][6]
+[将Mautic与Joomla整合以进行营销自动化][7]
+[如何在Mautic中实施多租户][8]
+
+  
 [1]: #mautic
 [2]: #forms
 [3]: #campaigns

@@ -97,11 +97,13 @@ Bu öğreticide, bir proxy sunucusu ve Apache ters proxy örnek konfigürasyonun
 
 ## Keşfetmek
 Aşağıdaki daha ilgili makaleleri de beğenebilirsiniz:
-  * [Nasıl yapılır] [1] [ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin] [2]
-  * [AWS Üretim Sunucusunda Yolcu ile Nginx Nasıl Kurulur] [3]
-  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın] [4]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [5]
-  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır] [6]
+  * [Nasıl yapılır][1][ubuntu'da nginx ile phpmyadmin yükleyin ve sabitleyin][2]
+  * [AWS Üretim Sunucusunda Yolcu ile Nginx Nasıl Kurulur][3]
+  * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][4]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][5]
+  * [Ubuntu'da Apache ile OwnCloud'u nasıl kurar ve yapılandırır][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/tr/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

@@ -15,16 +15,16 @@ categories: ['Artificial intelligence']
 
 
 ## Genel Bakış
-Üretici AI, kullanıcının istemini işleyen ve veritabanında sakladığı verilere dayanarak yeni veriler üreten bir yapay zeka kategorisidir. Yapay zeka söz konusu olduğunda, eğitildiği belirli kalıplara dayanarak tahminler yapar. Birkaç gün önce, [yapay zeka] [1] ve ana uygulaması [chatgpt] [2] hakkında bir tanıtım blog yazısı yayınladık. Konunun gerçeği, AI'nın yaygın olması durmuyor ve teknoloji dünyasında sürekli olarak manşetler yapıyor. Doğal dil işleme (NLP) ve makine öğreniminde yapay zekayı herhangi bir yazılım kuruluşunun olmazsa olmaz bir bileşeni haline getiren sürekli yeni gelişmeler olmuştur. Bu blog yazısında,****üretken ai**ve**üretken yapay zeka**nasıl mevcut AI sistemlerinize değer katabilir.
+Üretici AI, kullanıcının istemini işleyen ve veritabanında sakladığı verilere dayanarak yeni veriler üreten bir yapay zeka kategorisidir. Yapay zeka söz konusu olduğunda, eğitildiği belirli kalıplara dayanarak tahminler yapar. Birkaç gün önce, [yapay zeka][1] ve ana uygulaması [chatgpt][2] hakkında bir tanıtım blog yazısı yayınladık. Konunun gerçeği, AI'nın yaygın olması durmuyor ve teknoloji dünyasında sürekli olarak manşetler yapıyor. Doğal dil işleme (NLP) ve makine öğreniminde yapay zekayı herhangi bir yazılım kuruluşunun olmazsa olmaz bir bileşeni haline getiren sürekli yeni gelişmeler olmuştur. Bu blog yazısında,****üretken ai**ve**üretken yapay zeka**nasıl mevcut AI sistemlerinize değer katabilir.
 Bu makalede aşağıdaki noktaları ele alacağız:
-* [**Üretken AI nedir ve nasıl çalışır? Generatif AI açıkladı**] [3]
-* [**Üretken yapay zekanın iş faydaları**] [4]
+* [**Üretken AI nedir ve nasıl çalışır? Generatif AI açıkladı**][3]
+* [**Üretken yapay zekanın iş faydaları**][4]
 
 ## Üretken AI nedir ve nasıl çalışır? Generatif AI {#What-Whaterative-Ai-How-IT-Works-Generative-ai-Au-Au-} açıkladı.
 Yapay zekanın bu dalı, mevcut verilere dayalı görüntüler, metin, ses veya video gibi içerikler üretir. “Üretken” terimi burada doğru kullanılır, çünkü sağlanan veritabanlarına dayalı yeni bir şey üretir.
-* * Üretken yapay zeka**esas olarak aşağıdaki iki modele dayanmaktadır:
-* * Transformer tabanlı modeller:**Bu model kullanıcının girişini alır ve İnternet kaynaklarından toplanan metin verilerini oluşturur. ChatGPT önemli bir örnektir çünkü**GPT-3**(Üretken Önceden Eğitimli Transformatör) İnternet üzerinden birden fazla kaynaktan toplanan ve derlenen metin yanıtlarını oluşturur.
-* * Üretken çekişmeli ağlar (GANS):**GANS, kullanıcının girişine dayalı görüntüler gibi görsel veriler oluşturmak için kullanılır. Sinir ağlarından oluşan derin öğrenmeye dayanır. Buna ek olarak, üretken çekişmeli ağların (GANS) iki alt model vardır ve her ikisi de sinir ağlarıdır.
+**Üretken yapay zeka**esas olarak aşağıdaki iki modele dayanmaktadır:
+**Transformer tabanlı modeller:**Bu model kullanıcının girişini alır ve İnternet kaynaklarından toplanan metin verilerini oluşturur. ChatGPT önemli bir örnektir çünkü**GPT-3**(Üretken Önceden Eğitimli Transformatör) İnternet üzerinden birden fazla kaynaktan toplanan ve derlenen metin yanıtlarını oluşturur.
+**Üretken çekişmeli ağlar (GANS):**GANS, kullanıcının girişine dayalı görüntüler gibi görsel veriler oluşturmak için kullanılır. Sinir ağlarından oluşan derin öğrenmeye dayanır. Buna ek olarak, üretken çekişmeli ağların (GANS) iki alt model vardır ve her ikisi de sinir ağlarıdır.
 
 {{< figure align=center src="images/neural.png" alt="üretken yapay zeka modeli,">}}
 
@@ -33,29 +33,31 @@ Bu, üretken yapay zekanın çalışma mekanizmasına kısa bir genel bakıştı
 
 ## Üretken yapay zekanın iş avantajları {#nesil-nesnel-eklemsel-zeka-zeka}
 Blog yazısının bu bölümü, üretken yapay zekanın iş uygulamalarını gösterecektir. Hayatın hemen hemen her sektörü üretken yapay zeka kullanıyor. Aşağıdaki noktalardan geçerek daha fazla keşfedelim:
-* * Metin İçerik Üretimi:**Aslında,**Üretken AI**, makale yazma ve bir dili diğerine çevirmek gibi metin verileri oluşturmak için kullanılır. Bu uygulamanın en iyi örneği, çeşitli kaynaklardan toplanan metin tabanlı yanıtları üreten**GPT-3**modelidir. Ayrıca, jeneratif AI, chatgpt gibi AI ile çalışan chatbotların oluşturulmasında yoğun bir şekilde kullanılmaktadır. Sadece insanlar gibi yanıt vermekle kalmaz, aynı zamanda kodlama dosyalarındaki programcılara da yardımcı olur. Ayrıca, üretken yapay zeka algoritmalar oluşturabilir ve eklentiler oluşturabilir.
-* * Görüntü Üretimi:**Sistemler, metinsel formda verilen girdilerle bile çeşitli varlıkların görüntülerini oluşturacak kadar güçlüdür. Buna ek olarak, sağlanan eskiz temelli bir insan yüzüne gerçek bir bakış verebilir. Ayrıca, üretken bir AI modeli bir tür görüntüyü diğerine dönüştürebilir. Her şeyden önce, gerçek zamanlı MRI ve diğer görüntülemede kullanılabilir.
-* * Ses/Video Oluşturma:**Bu, sesli videolar oluşturabileceğiniz başka bir üretken AI uygulamasıdır. Üretken çekişmeli ağlar (GANS) video oluşturabilir ve tek bir çerçeve sağlanırsa bir sonraki çerçeveyi tahmin edebilir. Ayrıca, mevcut videoların çözünürlüğünü de artırabilir. Bu nedenle, eğlence endüstrisi, film yapımında, şarkı yazımında, müzik kaydında ve çeşitli sanat galerileri türlerini oluşturan bu uygulamanın ana yararlanıcısıdır.
+**Metin İçerik Üretimi:**Aslında,**Üretken AI**, makale yazma ve bir dili diğerine çevirmek gibi metin verileri oluşturmak için kullanılır. Bu uygulamanın en iyi örneği, çeşitli kaynaklardan toplanan metin tabanlı yanıtları üreten**GPT-3**modelidir. Ayrıca, jeneratif AI, chatgpt gibi AI ile çalışan chatbotların oluşturulmasında yoğun bir şekilde kullanılmaktadır. Sadece insanlar gibi yanıt vermekle kalmaz, aynı zamanda kodlama dosyalarındaki programcılara da yardımcı olur. Ayrıca, üretken yapay zeka algoritmalar oluşturabilir ve eklentiler oluşturabilir.
+**Görüntü Üretimi:**Sistemler, metinsel formda verilen girdilerle bile çeşitli varlıkların görüntülerini oluşturacak kadar güçlüdür. Buna ek olarak, sağlanan eskiz temelli bir insan yüzüne gerçek bir bakış verebilir. Ayrıca, üretken bir AI modeli bir tür görüntüyü diğerine dönüştürebilir. Her şeyden önce, gerçek zamanlı MRI ve diğer görüntülemede kullanılabilir.
+**Ses/Video Oluşturma:**Bu, sesli videolar oluşturabileceğiniz başka bir üretken AI uygulamasıdır. Üretken çekişmeli ağlar (GANS) video oluşturabilir ve tek bir çerçeve sağlanırsa bir sonraki çerçeveyi tahmin edebilir. Ayrıca, mevcut videoların çözünürlüğünü de artırabilir. Bu nedenle, eğlence endüstrisi, film yapımında, şarkı yazımında, müzik kaydında ve çeşitli sanat galerileri türlerini oluşturan bu uygulamanın ana yararlanıcısıdır.
 Aynı şekilde, yapay zekanın bu dalı hakkında keşfedilecek çok daha fazlası var. Otomasyonu çok çeşitli işletme sektörlerine getirdi.
 
 ## Çözüm
 İşte, bu blog gönderisini bitireceğiz. Umut, bu makaleden geçtikten sonra**üretken yapay zeka**hakkında daha iyi bir anlayışa sahipsiniz. Buna ek olarak, çalışma modelleriyle birlikte**üretken AI modellerinden**da geçtik. Öyleyse,**üretken ai**nedir sorusunu cevaplamaya çalıştık? Aslında, yapay zekanın bu dalı yeni yaratıcılık fikirlerini doğuruyor. Dahası, AI, ChatGPT ve ChatGPT entegrasyonları hakkında bazı makaleler yayınladık, bu yüzden onlara bir okumayı vermeyi unutmayın.
-Son olarak, [Containerize.com] [5] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [6], [LinkedIn] [7] ve [Twitter] [8] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][5] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Dahası, bizi sosyal medya hesaplarımızda [Facebook][6], [LinkedIn][7] ve [Twitter][8] 'te takip edebilirsiniz.
 
 ## Bir soru sor
-[Forum] [9] 'da sorularınızı veya sorgularınızı bize bildirebilirsiniz.
+[Forum][9] 'da sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
 Üretken yapay zekanın amacı nedir?
-* * Üretken yapay zekanın**temel amacı, kullanıcı girişleri alan, bunları işleyen ve tuttuğu veritabanlarına göre yeni içerik oluşturmaktır. Daha fazla ayrıntı için lütfen bu [link] [3] ziyaret edin.
+**Üretken yapay zekanın**temel amacı, kullanıcı girişleri alan, bunları işleyen ve tuttuğu veritabanlarına göre yeni içerik oluşturmaktır. Daha fazla ayrıntı için lütfen bu [link][3] ziyaret edin.
 
 ## Ayrıca bakınız
-  * [Yapay Zekaya Giriş | AI nedir?] [1]
-  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder] [10]
-  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT] [11]
-  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi] [2]
-  * [Google Dokümanlar Chatgpt ile Entegrasyon | Openai GPT-3] [12]
-  * [En iyi 5 açık kaynaklı AI çerçevesi nedir] [13]
+  * [Yapay Zekaya Giriş | AI nedir?][1]
+  * [Chatgpt'i Google sayfalarıyla nasıl entegre eder][10]
+  * [Vscode'da chatgpt nasıl kullanılır | VSCODE Uzatma Kodu GPT][11]
+  * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][2]
+  * [Google Dokümanlar Chatgpt ile Entegrasyon | Openai GPT-3][12]
+  * [En iyi 5 açık kaynaklı AI çerçevesi nedir][13]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: #What-is-Generative-AI-how-it-works-Generative-AI-explained

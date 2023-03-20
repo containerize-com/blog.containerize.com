@@ -15,22 +15,22 @@ categories: ['Blockchain Platforms']
 
 
 ## Überblick
-In der jüngeren Vergangenheit haben wir einen [Blog -Beitrag] [1] veröffentlicht, der die Auswirkungen und Bedeutung der Blockchain -Technologie hervorhebt. Es gibt noch einen interessanten Blog -Beitrag [Was ist NFT? | Nicht fungible Token erklärten] [2]. Die verteilte Ledger-Technologie basiert auf einigen Kernkonzepten wie intelligenten Verträgen, Knoten, Bergbau, Konsensalgorithmen, digitalen Transaktionen und Peer-to-Peer-Netzwerken. Da es sich um Open Source handelt, gibt es daher ein großes Fenster für eine Erweiterung in Bezug auf Anwendungsfälle. Tatsächlich gibt es viele Open Source- und Free Digital Asset Management -Plattformen, die verteilt sind und einige Software benötigen, um die Transaktionen zu regeln.
+In der jüngeren Vergangenheit haben wir einen [Blog -Beitrag][1] veröffentlicht, der die Auswirkungen und Bedeutung der Blockchain -Technologie hervorhebt. Es gibt noch einen interessanten Blog -Beitrag [Was ist NFT? | Nicht fungible Token erklärten][2]. Die verteilte Ledger-Technologie basiert auf einigen Kernkonzepten wie intelligenten Verträgen, Knoten, Bergbau, Konsensalgorithmen, digitalen Transaktionen und Peer-to-Peer-Netzwerken. Da es sich um Open Source handelt, gibt es daher ein großes Fenster für eine Erweiterung in Bezug auf Anwendungsfälle. Tatsächlich gibt es viele Open Source- und Free Digital Asset Management -Plattformen, die verteilt sind und einige Software benötigen, um die Transaktionen zu regeln.
 In diesem Smart Contract -Tutorial lernen wir, wie Sie einen Ethereum -Smart -Vertrag erstellen, indem wir die folgenden Aufzählungszeichen abdecken.
-  *[** Was ist ein intelligenter Vertrag? **] [3]
-  *[** Wie erbaut man einen grundlegenden intelligenten Vertrag? **] [4]
-  *[** Wie man Smart Contract ausführt und bereitstellt? **] [5]
-  *[** Schlussfolgerung **] [6]
+  *[** Was ist ein intelligenter Vertrag? **][3]
+  *[** Wie erbaut man einen grundlegenden intelligenten Vertrag? **][4]
+  *[** Wie man Smart Contract ausführt und bereitstellt? **][5]
+  *[** Schlussfolgerung **][6]
 
 ## Was ist ein intelligenter Vertrag? {#Was}
 Ein intelligenter Vertrag ist ein Programm, das auf der Blockchain ausführt, um digitale Transaktionen zu regeln. Dieser Code enthält die definierten Regeln und Verfahren, die sicherstellen, dass die Transparenz einer Transaktion. Jeder Smart -Vertrag enthält eine Adresse und diese Adresse wird verwendet, um auf eine Funktion eines bestimmten Smart -Vertrags zuzugreifen. Darüber hinaus bringen Smart Contracts Transparenz, Vertrauen und Sicherheit in das Blockchain -Netzwerk. Diese Code -Teile werden automatisch ausgeführt, sobald bestimmte Bedingungen erfüllt sind.
-Jeder Entwickler kann jedoch einen intelligenten Vertrag schreiben und ihn über das Netzwerk bereitstellen. Darüber hinaus machen intelligente Verträge die Prozesse ziemlich robust, da die Ausführung dieser Codesteile nicht abhängig ist. Darüber hinaus speichern Smart Contracts die erforderlichen Informationen zu jeder Transaktion, die die Teilnehmer abrufen und überprüfen können. Viele Branchen wie das Gesundheitswesen und das Bankgeschäft übernehmen diese verteilte Hauptbuchentechnologie sehr. Regierungsinstitutionen möchten auch dezentrale Anwendungen (DApps) einsetzen, um Authentizität und Transparenz in das Wahlsystem zu bringen. Es gibt viele [Blockchain -Plattformen] [7] wie [Ethereum] [8], [Ripple] [9], [Corda] [10], und einige weitere in diesem Leitfaden werden wir unseren ersten intelligenten Vertrag aufbauen auf Ethereum.
+Jeder Entwickler kann jedoch einen intelligenten Vertrag schreiben und ihn über das Netzwerk bereitstellen. Darüber hinaus machen intelligente Verträge die Prozesse ziemlich robust, da die Ausführung dieser Codesteile nicht abhängig ist. Darüber hinaus speichern Smart Contracts die erforderlichen Informationen zu jeder Transaktion, die die Teilnehmer abrufen und überprüfen können. Viele Branchen wie das Gesundheitswesen und das Bankgeschäft übernehmen diese verteilte Hauptbuchentechnologie sehr. Regierungsinstitutionen möchten auch dezentrale Anwendungen (DApps) einsetzen, um Authentizität und Transparenz in das Wahlsystem zu bringen. Es gibt viele [Blockchain -Plattformen][7] wie [Ethereum][8], [Ripple][9], [Corda][10], und einige weitere in diesem Leitfaden werden wir unseren ersten intelligenten Vertrag aufbauen auf Ethereum.
 
 ## Wie baue ich einen grundlegenden intelligenten Vertrag auf? {#bauen}
 In diesem Abschnitt des Smart Contract -Tutorials werden wir die Schritte zur Einrichtung der Umgebung für unseren ersten Smart -Vertrag sehen.
-Smart Contracts können in vielen Sprachen geschrieben werden, aber wir werden [Solidität] [11] verwenden, was eine hochrangige Sprache ist, um intelligente Verträge zu schreiben.
-Wir werden [Ethereum Studio] [12] eine webbasierte IDE verwenden. Es wird verwendet, um Smart Contracts sowie dezentrale Apps zu schreiben, um mit intelligenten Verträgen zu interagieren. Es bietet einige vorgefertigte Projektvorlagen, bei denen Sie sofort mit dem Schreiben Ihrer Logik beginnen können.
-Öffnen Sie also das [Ethereum Studio] [12] IDE in den Browser und Sie werden die folgende Schnittstelle sehen.
+Smart Contracts können in vielen Sprachen geschrieben werden, aber wir werden [Solidität][11] verwenden, was eine hochrangige Sprache ist, um intelligente Verträge zu schreiben.
+Wir werden [Ethereum Studio][12] eine webbasierte IDE verwenden. Es wird verwendet, um Smart Contracts sowie dezentrale Apps zu schreiben, um mit intelligenten Verträgen zu interagieren. Es bietet einige vorgefertigte Projektvorlagen, bei denen Sie sofort mit dem Schreiben Ihrer Logik beginnen können.
+Öffnen Sie also das [Ethereum Studio][12] IDE in den Browser und Sie werden die folgende Schnittstelle sehen.
 
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-5.01.30-PM-1024x554.png" alt="Smart Contract Tutorial">}}
 
@@ -71,22 +71,24 @@ Darüber hinaus gibt es eine Front-End-App, mit der Benutzer mit dem Smart-Vertr
 
 ## Fazit {#con}
 Dies bringt uns zum Ende dieses Smart Contract -Tutorials. Ich hoffe, dieser Artikel hat Ihnen geholfen, die wichtigsten Schritte beim Erstellen und Bereitstellen von Ethereum -Smart -Vertrag zu verstehen. Da sich die Blockchain-Technologie in hohem Maße weiterentwickelt, ist es Zeit, über das Echo-Blockchain-System stark praktische Praxis zu erhalten. Diese verteilte Ledger -Technologie ist sehr konfigurierbar und erweiterbar. Dieser Blog -Beitrag hilft Ihnen wirklich, wenn Sie bereit sind, intelligente Vertragsentwicklung zu lernen. Darüber hinaus gibt es viele hilfreiche Tutorials und Open Source Digital Asset Management -Management -Plattformen, die im folgenden Abschnitt „Explore“ erwähnt wurden.
-Am Ende ist [containerize.com] [13] vollständig dafür eingesetzt, die Liste der Open -Source -Software zu erstellen. Es gibt viele Tutorials und Blog -Beiträge zu Open -Source -Software und eine Reihe von Blog -Posts befinden sich in der Pipeline. Bitte bleiben Sie mit der Kategorie [Blockchain] [7] in Kontakt mit der Kategorie [Blockchain].
+Am Ende ist [containerize.com][13] vollständig dafür eingesetzt, die Liste der Open -Source -Software zu erstellen. Es gibt viele Tutorials und Blog -Beiträge zu Open -Source -Software und eine Reihe von Blog -Posts befinden sich in der Pipeline. Bitte bleiben Sie mit der Kategorie [Blockchain][7] in Kontakt mit der Kategorie [Blockchain].
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Ethereum] [8]
-  * [Hyperledger Fabric] [14]
-  * [OpenChain] [15]
-  * [Ripple] [16]
-  * [Multichain] [17]
-  * [Konsensys Quorum] [18]
-  * [Was ist NFT? | Nicht fungible Token erklärt] [2]
-  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein] [19]
-  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020] [20]
-  * [Eine grundlegende Anleitung zum Erstellen von Ethereum Smart Contract] [21]
-  * [Wie dezentrale Technologie Ihre Geschäftsstrategie aktualisiert] [22]
-  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein] [19]
+  * [Ethereum][8]
+  * [Hyperledger Fabric][14]
+  * [OpenChain][15]
+  * [Ripple][16]
+  * [Multichain][17]
+  * [Konsensys Quorum][18]
+  * [Was ist NFT? | Nicht fungible Token erklärt][2]
+  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein][19]
+  * [Top 5 Open -Source -Blockchain -Plattformen im Jahr 2020][20]
+  * [Eine grundlegende Anleitung zum Erstellen von Ethereum Smart Contract][21]
+  * [Wie dezentrale Technologie Ihre Geschäftsstrategie aktualisiert][22]
+  * [So richten Sie Consensys Quorum Blockchain -Netzwerk lokal ein][19]
+
+  
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
 [3]: #what

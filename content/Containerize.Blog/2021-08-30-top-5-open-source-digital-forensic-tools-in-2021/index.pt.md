@@ -27,7 +27,7 @@ A postagem do blog a seguir descreve as principais ferramentas forenses digitais
   * Pensamentos finais
 
 ## 1. Mobile Verification Toolkit (MVT) - Análise Android e iOS
-A Anistia Internacional lançou um kit de ferramentas chamado [Mobile Verification Toolkit ou MVT] [1] para ajudá -lo a encontrar traços forenses para entender se o spyware do Pegasus tem como alvo seu telefone iOS ou Andriod.
+A Anistia Internacional lançou um kit de ferramentas chamado [Mobile Verification Toolkit ou MVT][1] para ajudá -lo a encontrar traços forenses para entender se o spyware do Pegasus tem como alvo seu telefone iOS ou Andriod.
 **Características**:
   * Decriptografando os backups do iOS criptografados.
   * Processar e analisar registros do sistema iOS.
@@ -41,7 +41,7 @@ A Anistia Internacional lançou um kit de ferramentas chamado [Mobile Verificati
 **Link**:
 
 ## 2. Wireshark - Análise de protocolo de rede {#CE62}
-[Wireshark] [2] é uma ferramenta que analisa um pacote de rede. Pode ser usado para testar de rede e solução de problemas. Esta ferramenta ajuda você a verificar o tráfego diferente do seu sistema de computador.
+[Wireshark][2] é uma ferramenta que analisa um pacote de rede. Pode ser usado para testar de rede e solução de problemas. Esta ferramenta ajuda você a verificar o tráfego diferente do seu sistema de computador.
 **Características**:
   * Fornece análises ricas de VoIP (Protocolo de Voz sobre Internet).
   * Os arquivos de captura compactados com GZIP podem ser descomprimidos facilmente.
@@ -50,10 +50,10 @@ A Anistia Internacional lançou um kit de ferramentas chamado [Mobile Verificati
   * Suporte de descriptografia para numerosos protocolos que incluem IPSec (Segurança do Protocolo da Internet), SSL (Secure Sockets Layer) e WEP (privacidade equivalente a fio).
   * Você pode aplicar análise intuitiva, regras para colorir no pacote.
   * Permite que você leia ou grava o arquivo em qualquer formato.
-** Link **: [https://www.wireshark.org] [2]
+** Link **: [https://www.wireshark.org][2]
 
 ## 3. O Kit de Sleuth e Autópsia - Análise de Disco {#CE62}
-[Sleuth Kit & Autópsia] [3] é uma ferramenta utilitária baseada no Windows que facilita a análise forense dos sistemas de computador. Esta ferramenta permite que você examine seu disco rígido e smartphone.
+[Sleuth Kit & Autópsia][3] é uma ferramenta utilitária baseada no Windows que facilita a análise forense dos sistemas de computador. Esta ferramenta permite que você examine seu disco rígido e smartphone.
 **Características**:
   * Você pode identificar a atividade usando uma interface gráfica de maneira eficaz.
   * Este aplicativo fornece análises para e -mails.
@@ -62,19 +62,19 @@ A Anistia Internacional lançou um kit de ferramentas chamado [Mobile Verificati
   * Você pode marcar arquivos com os nomes de tags arbitrários.
   * O kit Sleuth permite extrair dados de logs de chamadas, SMS, contatos, etc.
   * Ajuda você a sinalizar arquivos e pastas com base no caminho e nome.
-** Link **: [https://www.sleuthkit.org] [3]
+** Link **: [https://www.sleuthkit.org][3]
 
 ## 4. Framework de volatilidade - Memória forense {#CE62}
-[Framework de volatilidade] [4] é um software para análise de memória e forense. É uma das melhores ferramentas de imagem forense que ajuda você a testar o estado de tempo de execução de um sistema usando os dados encontrados na RAM. Este aplicativo permite que você colabore com seus colegas de equipe.
+[Framework de volatilidade][4] é um software para análise de memória e forense. É uma das melhores ferramentas de imagem forense que ajuda você a testar o estado de tempo de execução de um sistema usando os dados encontrados na RAM. Este aplicativo permite que você colabore com seus colegas de equipe.
 **Características**:
   * Possui API que permite pesquisas de sinalizadores de PTE (entrada da tabela de página) rapidamente.
   * A estrutura de volatilidade suporta KASLR (randomização do layout do espaço de endereço do kernel).
   * Esta ferramenta fornece inúmeros plugins para verificar a operação do arquivo MAC.
   * Ele executa automaticamente o comando de falha quando um serviço falha ao iniciar várias vezes.
-** Link **: [https://www.volutilityfoundation.org] [4]
+** Link **: [https://www.volutilityfoundation.org][4]
 
 ## 5. sem investigação forense Toolkit (SIFT) - SIFT WorkStation para Ubuntu {#B49b}
-[Sans SIFT] [5] é uma distribuição forense de computador baseada no Ubuntu. É uma das melhores ferramentas forenses de computador que fornece uma instalação de exame forense e de resposta a incidentes digital.
+[Sans SIFT][5] é uma distribuição forense de computador baseada no Ubuntu. É uma das melhores ferramentas forenses de computador que fornece uma instalação de exame forense e de resposta a incidentes digital.
 **Características**:
   * Pode funcionar em um sistema operacional de 64 bits.
   * Esta ferramenta ajuda os usuários a utilizar a memória de uma maneira melhor.
@@ -89,12 +89,14 @@ A forense digital pode ser útil para empresas e escritórios de advocacia para 
 
 ## Pensamentos finais: {#4a1a}
 Discutimos as ferramentas forenses digitais de código aberto mais populares que abrangem muitas implementações com tempo de resposta mais rápido em comparação com os métodos tradicionais. As ferramentas forenses de dados são amplamente orientadas pela tecnologia, com uma alternativa rápida à análise manual. Estas são algumas das principais ferramentas gratuitas que você pode usar para forense. Esperamos que você tenha gostado de ler a lista. Em nossos próximos artigos do blog, discutiremos tópicos mais interessantes sobre ferramentas forenses digitais de código aberto.
-Você pode se juntar a nós no [Twitter] [7], [LinkedIn] [8] e nossa página [Facebook] [9]. Quais ferramentas forenses digitais de código aberto você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato] [10].
+Você pode se juntar a nós no [Twitter][7], [LinkedIn][8] e nossa página [Facebook][9]. Quais ferramentas forenses digitais de código aberto você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato][10].
 
 ## Explore:
 Também temos vários outros artigos que você pode gostar.
-  * [Topo de código digital de código aberto Digital Ferramentas] [11]
-  * [Kit de ferramentas de verificação móvel ou ferramenta MVT para o grupo NSO PEGASUS ISRAELI SPYWARE] [1]
+  * [Topo de código digital de código aberto Digital Ferramentas][11]
+  * [Kit de ferramentas de verificação móvel ou ferramenta MVT para o grupo NSO PEGASUS ISRAELI SPYWARE][1]
+
+  
 [1]: https://products.containerize.com/digital-forensic-software/mvt/
 [2]: https://www.wireshark.org/
 [3]: https://www.sleuthkit.org/

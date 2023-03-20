@@ -13,12 +13,12 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Cara mengimplementasikan caching browsr dengan konfigurasi nginx">}}
 
-Dalam seri tutorial Nginx kami, kami telah membahas [cara menggunakan nginx sebagai penyeimbang beban] [1], [Konfigurasikan nginx sebagai proxy terbalik] [2], [gunakan beberapa versi php dengan nginx] [3], dan [konversi htaccess revited review Aturan untuk Nginx menulis ulang arahan] [4]. Dalam artikel hari ini, kami membahas topik yang sangat penting yang membantu bisnis untuk meningkatkan pengalaman pengguna mereka dengan memanfaatkan caching browser. Dalam tutorial ini, kami akan memandu Anda tentang cara mengimplementasikan caching browser dengan konfigurasi Nginx menggunakan modul header Nginx. Mari kita mulai!
-  *** [leverage browser caching] [5] **
-  *[** modul header nginx **] [6]
-  *[** e-tage dan if-none-match **] [7]
-  *[** Caching Leverage Browser dengan Konfigurasi Nginx **] [8]
-  *[** Kesimpulan **] [9]
+Dalam seri tutorial Nginx kami, kami telah membahas [cara menggunakan nginx sebagai penyeimbang beban][1], [Konfigurasikan nginx sebagai proxy terbalik][2], [gunakan beberapa versi php dengan nginx][3], dan [konversi htaccess revited review Aturan untuk Nginx menulis ulang arahan][4]. Dalam artikel hari ini, kami membahas topik yang sangat penting yang membantu bisnis untuk meningkatkan pengalaman pengguna mereka dengan memanfaatkan caching browser. Dalam tutorial ini, kami akan memandu Anda tentang cara mengimplementasikan caching browser dengan konfigurasi Nginx menggunakan modul header Nginx. Mari kita mulai!
+  *** [leverage browser caching][5] **
+  *[** modul header nginx **][6]
+  *[** e-tage dan if-none-match **][7]
+  *[** Caching Leverage Browser dengan Konfigurasi Nginx **][8]
+  *[** Kesimpulan **][9]
 
 ## leverage browser caching {#browser-caching}
 Semakin cepat situs web, semakin besar kemungkinan pengunjung tetap di situs web. Situs web dengan banyak gambar dan konten interaktif dimuat di latar belakang membuat situs web membuka tugas yang kompleks. Ini terdiri dari meminta banyak file berbeda dari server satu per satu. Meminimalkan jumlah permintaan ini adalah salah satu cara untuk mempercepat situs web Anda.
@@ -108,8 +108,10 @@ Demikian pula, Anda dapat menempatkan konfigurasi cache di blok _server_ sebelum
 Modul header Nginx dapat digunakan untuk menambahkan header sewenang-wenang ke respons, tetapi dengan benar mengatur header kontrol-cache adalah salah satu aplikasi yang paling berguna. Ini membantu Anda meningkatkan kinerja situs web, terutama untuk pengguna di jaringan dengan latensi yang lebih tinggi, seperti jaringan operator seluler. Dalam tutorial ini, kami belajar cara memanfaatkan caching browser dengan konfigurasi nginx. Semoga ini akan membantu Anda meningkatkan pengalaman pengguna di situs web Anda.
 
 ## Mengeksplorasi
-  * [Cara menginstal beberapa versi PHP dengan nginx di ubuntu] [3]
-  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik] [2]
+  * [Cara menginstal beberapa versi PHP dengan nginx di ubuntu][3]
+  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][2]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

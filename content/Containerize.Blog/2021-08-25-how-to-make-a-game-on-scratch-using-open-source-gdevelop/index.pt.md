@@ -15,19 +15,19 @@ categories: ['Game Development Software']
 
 
 ## **Visão geral**
-No passado, publicamos muitas postagens de blog em software de desenvolvimento de jogos gratuitos de código aberto, como [5 principais softwares de desenvolvimento de jogos gratuitos no ano 2021] [1], [começando com o desenvolvimento de jogos usando superpowers] [2], [jogo Tutorial de desenvolvimento | Movimento do jogador em Gdevelo] [3], [Tutorial de Desenvolvimento de Jogo HTML5 para programadores de videogames] [4], [Como a indústria global de jogos que alavancam o software de código aberto] [5] e [o tutorial do GDEV para iniciantes iniciarem o desenvolvimento do jogo] [6 ]. Os últimos avanços na era da Internet trouxeram novas tendências na indústria de videogames. Uma plataforma de construção de jogos de código aberto fornece um ecossistema completo para desenvolver jogos de forma independente e os desenvolvedores amadurecem essa plataforma conforme as necessidades. Nesta postagem do blog, aprenderemos a fazer um jogo no Scratch usando [GDevelo] [7] cobrindo os seguintes pontos.
-  *** [Por que devemos usar o GDevelop?] [8] **
-  *** [Configurando o projeto] [9] **
-  *** [Como preparar o fundo e o objeto?] [10] **
-  *** [Adicionando Behviors ao objeto] [11] **
-  *** [executando o jogo] [12] **
-  *** [Conclusão] [13] **
+No passado, publicamos muitas postagens de blog em software de desenvolvimento de jogos gratuitos de código aberto, como [5 principais softwares de desenvolvimento de jogos gratuitos no ano 2021][1], [começando com o desenvolvimento de jogos usando superpowers][2], [jogo Tutorial de desenvolvimento | Movimento do jogador em Gdevelo][3], [Tutorial de Desenvolvimento de Jogo HTML5 para programadores de videogames][4], [Como a indústria global de jogos que alavancam o software de código aberto][5] e [o tutorial do GDEV para iniciantes iniciarem o desenvolvimento do jogo][6 ]. Os últimos avanços na era da Internet trouxeram novas tendências na indústria de videogames. Uma plataforma de construção de jogos de código aberto fornece um ecossistema completo para desenvolver jogos de forma independente e os desenvolvedores amadurecem essa plataforma conforme as necessidades. Nesta postagem do blog, aprenderemos a fazer um jogo no Scratch usando [GDevelo][7] cobrindo os seguintes pontos.
+  *** [Por que devemos usar o GDevelop?][8] **
+  *** [Configurando o projeto][9] **
+  *** [Como preparar o fundo e o objeto?][10] **
+  *** [Adicionando Behviors ao objeto][11] **
+  *** [executando o jogo][12] **
+  *** [Conclusão][13] **
 
 ## por que devemos usar o GDEVEND? {#por que}
-[Gdevelo] [7] é um software de jogo de código aberto. Ele vem com recursos de auto-hospedagem e é de natureza cruzada de natureza. Você pode baixá -lo e instalá -lo, ou pode usar sua versão online para jogar com ele. Os usuários não precisam obter nenhum conhecimento de programação para usar este construtor de jogos. Acima de tudo, ele oferece uma interface de usuário de arrastar e soltar que apresenta comportamentos, modelos e objetos pré-criados. Este software de desenvolvimento de jogos gratuito é altamente configurável e oferece integrações com bibliotecas de terceiros. Para obter mais informações sobre essa ferramenta gratuita, você pode verificar este link para saber mais sobre seus recursos e o processo de configuração.
+[Gdevelo][7] é um software de jogo de código aberto. Ele vem com recursos de auto-hospedagem e é de natureza cruzada de natureza. Você pode baixá -lo e instalá -lo, ou pode usar sua versão online para jogar com ele. Os usuários não precisam obter nenhum conhecimento de programação para usar este construtor de jogos. Acima de tudo, ele oferece uma interface de usuário de arrastar e soltar que apresenta comportamentos, modelos e objetos pré-criados. Este software de desenvolvimento de jogos gratuito é altamente configurável e oferece integrações com bibliotecas de terceiros. Para obter mais informações sobre essa ferramenta gratuita, você pode verificar este link para saber mais sobre seus recursos e o processo de configuração.
 
 ## Configurando o projeto {#Setting}
-Nesta seção, criaremos nosso projeto para a construção de um jogo de corrida de caminhões com algumas funcionalidades básicas. Siga este [link] [6] se você deseja configurar sua máquina local ou poderá usar a versão online indo para este [link] [14].
+Nesta seção, criaremos nosso projeto para a construção de um jogo de corrida de caminhões com algumas funcionalidades básicas. Siga este [link][6] se você deseja configurar sua máquina local ou poderá usar a versão online indo para este [link][14].
 Portanto, você encontrará a tela a seguir depois de clicar em "Criar um novo projeto" e clique em "Stayp Game".
 
 {{< figure align=center src="images/Screenshot-2021-08-24-at-23.20.28-1024x578.png" alt="Como fazer um jogo no arranhão">}}
@@ -77,21 +77,23 @@ Depois que todas as etapas forem concluídas. É hora de executar o jogo pressio
 
 ## Conclusão {#conclusion}
 Este é o fim desta postagem do blog e você certamente sabe como fazer um jogo no Scratch. No entanto, existem muitos softwares gratuitos de design de jogos ** disponíveis no mercado, pois esse setor está ganhando popularidade e demanda. Existem várias razões por trás disso, como software de código aberto, são escaláveis, configuráveis, econômicas e fáceis de manter. Além disso, a demanda por construtores de jogos de plataforma cruzada está aumentando à medida que os desenvolvedores acham confortável construir um jogo que seja executado em todas as plataformas populares como Android, iOS, Web e Desktop. Por outro lado, o advento da pandemia mudou a vida das pessoas e agora eles preferem ficar dentro de casa. Então, as pessoas tendem a jogar videogames em seu tempo de lazer.
-Finalmente, [contenderize.com] [15] está pronto para aprimorar sua base de tutoriais com alguns tutoriais de desenvolvimento de jogos mais interessantes **. Fique conectado com esta categoria [Software de desenvolvimento de jogos] [16] para atualizações regulares.
+Finalmente, [contenderize.com][15] está pronto para aprimorar sua base de tutoriais com alguns tutoriais de desenvolvimento de jogos mais interessantes **. Fique conectado com esta categoria [Software de desenvolvimento de jogos][16] para atualizações regulares.
 
 ## Explore
-  *** [gdevelo] [7] **
-  *** [GODOT] [17] **
-  *** [superpowers] [18] **
-  *** [Cocos Creator] [19] **
-  *** [panda3d] [20] **
-  *** [PlayCanvas] [21] **
-  *** [Começando com o desenvolvimento de jogos usando superpowers] [2] **
-  *** [Tutorial de desenvolvimento de jogos | Movimento do jogador em Gdevelo] [3] **
-  *** [tutorial de desenvolvimento de jogos html5 para programadores de videogame] [4] **
-  *** [Como a indústria global de jogos que alavancam o software de código aberto] [5] **
-  *** [Tutorial do GDevelop para iniciantes iniciarem o desenvolvimento do jogo] [6] **
-  *[** Top 5 Software de desenvolvimento de jogos gratuitos no ano 2021 **] [1]
+  *** [gdevelo][7] **
+  *** [GODOT][17] **
+  *** [superpowers][18] **
+  *** [Cocos Creator][19] **
+  *** [panda3d][20] **
+  *** [PlayCanvas][21] **
+  *** [Começando com o desenvolvimento de jogos usando superpowers][2] **
+  *** [Tutorial de desenvolvimento de jogos | Movimento do jogador em Gdevelo][3] **
+  *** [tutorial de desenvolvimento de jogos html5 para programadores de videogame][4] **
+  *** [Como a indústria global de jogos que alavancam o software de código aberto][5] **
+  *** [Tutorial do GDevelop para iniciantes iniciarem o desenvolvimento do jogo][6] **
+  *[** Top 5 Software de desenvolvimento de jogos gratuitos no ano 2021 **][1]
+
+  
 [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
 [2]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
 [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/

@@ -15,17 +15,17 @@ categories: ['Learning Management System']
 
 Nous sommes affligés par Covid 19 depuis plus d'un an. Chaque partie du monde a été placée sous location. Cela a un impact négatif sur la vie des gens et les entreprises du monde entier. Plus important encore, cela a un impact majeur sur notre système éducatif. Les établissements d'enseignement doivent faire la transition vers l'apprentissage en ligne afin que les étudiants puissent poursuivre leurs études dans le confort de leur propre maison. Sans une plate-forme d'apprentissage en ligne solide et sûre, l'apprentissage en ligne est impossible. Dans cet article, nous examinerons le projet ** Moodle Open Source **, qui permet aux enseignants et aux élèves de communiquer et d'apprendre de n'importe où.
 Nous couvrirons les sections suivantes de cet article pour ** créer un site Web d'apprentissage en ligne ** en utilisant Moodle.
-  * [Prérequis] [1]
-  * [Qu'est-ce que Moodle?] [2]
-  * [Caractéristiques de Moodle] [3]
-  * [Installation de Moodle] [4]
-  * [Conclusion] [5]
+  * [Prérequis][1]
+  * [Qu'est-ce que Moodle?][2]
+  * [Caractéristiques de Moodle][3]
+  * [Installation de Moodle][4]
+  * [Conclusion][5]
 
 ## Prérequis {#prerequisites}
 Si vous ne l'avez pas déjà fait, vous devez installer et configurer un environnement de lampe sur votre serveur.
 
 ## Qu'est-ce que Moodle? {#Quoi}
-[** Moodle **] [6] est une solution d'e-learning gratuite et open source. Moodle signifie un environnement d'apprentissage dynamique orienté objet modulaire. Il a été créé pour donner aux éducateurs, aux administrateurs et aux apprenants une plate-forme d'apprentissage en ligne pour créer et fournir des environnements d'apprentissage individualisés. De plus, Moodle est un ** LMS approprié pour les écoles **, les universités et les cours de formation professionnelle dans les entreprises. C'est l'une des solutions populaires ** Distance Learning ** pour créer un site Web LMS. De plus, Moodle offre aux enseignants et aux étudiants des outils riches et des environnements d'apprentissage collaboratifs. Moodle a une application mobile pour iPhone, Android et téléphones et tablettes Windows. L'application mobile peut être utilisée à partir de n'importe quel endroit du monde. Ce ** LMS HOSTÉ ** est écrit en PHP et stocke les données dans les bases de données MySQL / Postgresql. Il est livré avec une vaste documentation utilisateur et développeur. Tout le code source est disponible sur [** github **] [7]. La licence pour cette solution d'open source ** en ligne ** est gplv3 +.
+[** Moodle **][6] est une solution d'e-learning gratuite et open source. Moodle signifie un environnement d'apprentissage dynamique orienté objet modulaire. Il a été créé pour donner aux éducateurs, aux administrateurs et aux apprenants une plate-forme d'apprentissage en ligne pour créer et fournir des environnements d'apprentissage individualisés. De plus, Moodle est un ** LMS approprié pour les écoles **, les universités et les cours de formation professionnelle dans les entreprises. C'est l'une des solutions populaires ** Distance Learning ** pour créer un site Web LMS. De plus, Moodle offre aux enseignants et aux étudiants des outils riches et des environnements d'apprentissage collaboratifs. Moodle a une application mobile pour iPhone, Android et téléphones et tablettes Windows. L'application mobile peut être utilisée à partir de n'importe quel endroit du monde. Ce ** LMS HOSTÉ ** est écrit en PHP et stocke les données dans les bases de données MySQL / Postgresql. Il est livré avec une vaste documentation utilisateur et développeur. Tout le code source est disponible sur [** github **][7]. La licence pour cette solution d'open source ** en ligne ** est gplv3 +.
 
 ## Caractéristiques de Moodle {#Features}
 Moodle est livré avec beaucoup de fonctionnalités. Cependant, dans cet article, nous passerons en revue certaines des caractéristiques clés suivantes.
@@ -113,13 +113,15 @@ sudo systemctl restart nginx
   * Complétez l'enregistrement de votre site en fournissant des informations telles que le nom du site, la langue, la région, l'adresse e-mail, etc.
 
 ## Conclusion {#conclusion}
-Nous avons appris Moodle et ses principales caractéristiques de cet article. Nous avons également passé une approche étape par étape pour mettre en place ** Moodle LMS ** pour ** Créer un site Web-Learning **. Vous pouvez revoir Moodle's [** Documentation officielle **] [8] pour devenir plus à l'aise avec diverses fonctions telles que les cours, l'inscription des étudiants, le suivi des progrès, etc. J'espère que vous avez trouvé cet article utile pour créer un site Web LMS.
-Enfin, [** contenerize.com **] [9] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** Learning Management System **] [10] pour les dernières mises à jour.
+Nous avons appris Moodle et ses principales caractéristiques de cet article. Nous avons également passé une approche étape par étape pour mettre en place ** Moodle LMS ** pour ** Créer un site Web-Learning **. Vous pouvez revoir Moodle's [** Documentation officielle **][8] pour devenir plus à l'aise avec diverses fonctions telles que les cours, l'inscription des étudiants, le suivi des progrès, etc. J'espère que vous avez trouvé cet article utile pour créer un site Web LMS.
+Enfin, [** contenerize.com **][9] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** Learning Management System **][10] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [** Outils LMS open source **] [11]
-  * [** Moodle - Système d'apprentissage en ligne **] [12]
+  * [** Outils LMS open source **][11]
+  * [** Moodle - Système d'apprentissage en ligne **][12]
+
+  
 [1]: #Prerequisites
 [2]: #What
 [3]: #Features

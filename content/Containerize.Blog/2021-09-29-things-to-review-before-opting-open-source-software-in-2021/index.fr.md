@@ -17,13 +17,13 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 ## Aperçu
 Vous êtes atterri au bon endroit si vous vous demandez d'adopter des logiciels pour stimuler votre entreprise. Dans ce monde en croissance rapide de la technologie et de l'innovation, il existe de nombreux facteurs qui peuvent devenir des bouchons tels que le coût, le temps, les compétences, les ressources et bien d'autres. D'un autre côté, il s'agit d'une affaire coûteuse pour développer des logiciels à partir de zéro pour répondre aux exigences de l'entreprise. Voici le ** Software Open Source **. Le logiciel open source (OSS) est accessible au public pour tous ceux qui ont tout le code source et la documentation sous une licence. Il pourrait être construit par un seul développeur ou par un groupe de développeurs qui le rendent ensuite public. Une fois que la visibilité du logiciel libre est publique, d'autres développeurs peuvent contribuer à ce logiciel pour les améliorations.
 De plus, la communauté open source est très dynamique et solidaire qui s'est développée le long de ** Liste des logiciels open source **. Il existe des forums de discussion où les collaborateurs et les utilisateurs se réunissent pour partager des solutions et des pensées. Il existe un large éventail de catégories OSS qui couvrent la plupart des aspects commerciaux. Bien sûr, il y a certaines choses à considérer avant d'opter pour une application open source dont nous discuterons dans cet article de blog en couvrant les points suivants.
-  * ** [Communauté] [1] **
-  * ** [documentation] [2] **
-  * ** [portabilité] [3] **
-  * ** [statistiques Git] [4] **
-  * ** [Licence] [5] **
-  * ** [extensibilité] [6] **
-  * ** [sécurité] [7] **
+  * ** [Communauté][1] **
+  * ** [documentation][2] **
+  * ** [portabilité][3] **
+  * ** [statistiques Git][4] **
+  * ** [Licence][5] **
+  * ** [extensibilité][6] **
+  * ** [sécurité][7] **
 
 ## Community {#Community}
 C'est le facteur le plus important tout en optant pour une solution open source (OSS). Il devient très difficile de gérer le logiciel s'il n'y a pas assez de support disponible. La plupart des développeurs ont tendance à maintenir la fiabilité du logiciel. Par conséquent, vous devez toujours préférer le logiciel gratuit ** Open Source (FOSS) ** qui a un support communautaire dynamique afin que s'il y a un problème sérieux qui se produit, qui devrait être résolu.
@@ -48,21 +48,23 @@ Enfin et surtout, la sécurité de tout logiciel ne peut être compromise à tou
 
 ## Dernières pensées
 Cela nous amène à la fin de ce billet de blog. Nous avons suivi les pratiques importantes qui devraient être suivies tout en choisissant un ** logiciel open source (OSS) **. Nous avons vu que de nombreux géants de la technologie adopteraient gratuitement ** les logiciels open source (FOSS) ** pour répondre aux besoins commerciaux. Cependant, ce répandant indique la robustesse et l'efficacité des applications open source. Il y a une longue liste d'outils open source mentionnés dans la section Explorer ci-dessous. De plus, vous pouvez trouver de nombreux OSS sur contenerize.com qui sont tous gratuits, open source et sont livrés avec des capacités d'auto-hébergement. Je vous recommande de choisir une solution open source pour votre entreprise qui répond aux besoins de votre entreprise.
-Enfin, [** contenerize.com **] [8] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact pour des mises à jour régulières.
+Enfin, [** contenerize.com **][8] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact pour des mises à jour régulières.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [9]
-  * [Gestion du contenu] [10], [blogging] [11], [Forum de discussion] [12], [logiciel de santé] [13]
-  * [Helpdesk] [14], [Automation marketing] [15], [Marketplace] [16], [outils de déploiement] [17], [Security] [18]
-  * [CHAT en direct] [19], [Form] [20], [Email transactionnel] [21], [Software Business Intelligence] [22]
-  * [Newsletter] [23], [page de statut] [24], [facturation] [25], [Management de mot de passe] [26], [logiciel de file d'attente de messages] [27]
-  * [Connexion unique] [28], [gestion de projet] [29], [développement rapide des applications] [30], [logiciel d'animation] [31]
-  * [Panier] [32], [contrôle de la version open source] [33], [pile de solutions de serveur Web] [34], [logiciel de montage photo] [35]
-  * [Gestion de la base de données] [36], [vidéoconférence] [37], [plates-formes de blockchain] [38], [Big Data] [39]
-  * [Logiciel CMDB] [40], [logiciel de développement de jeu] [41], [Enterprise Resource Planning (ERP)] [42]
-  * [Logiciel d'édition vidéo] [43], [Systèmes de gestion des bases de données] [44], [Productivité du bureau] [45]
-  * [Système de gestion de l'apprentissage (LMS)] [46], [logiciel de sauvegarde et de synchronisation] [47], [logiciel médico-légal numérique] [48]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][9]
+  * [Gestion du contenu][10], [blogging][11], [Forum de discussion][12], [logiciel de santé][13]
+  * [Helpdesk][14], [Automation marketing][15], [Marketplace][16], [outils de déploiement][17], [Security][18]
+  * [CHAT en direct][19], [Form][20], [Email transactionnel][21], [Software Business Intelligence][22]
+  * [Newsletter][23], [page de statut][24], [facturation][25], [Management de mot de passe][26], [logiciel de file d'attente de messages][27]
+  * [Connexion unique][28], [gestion de projet][29], [développement rapide des applications][30], [logiciel d'animation][31]
+  * [Panier][32], [contrôle de la version open source][33], [pile de solutions de serveur Web][34], [logiciel de montage photo][35]
+  * [Gestion de la base de données][36], [vidéoconférence][37], [plates-formes de blockchain][38], [Big Data][39]
+  * [Logiciel CMDB][40], [logiciel de développement de jeu][41], [Enterprise Resource Planning (ERP)][42]
+  * [Logiciel d'édition vidéo][43], [Systèmes de gestion des bases de données][44], [Productivité du bureau][45]
+  * [Système de gestion de l'apprentissage (LMS)][46], [logiciel de sauvegarde et de synchronisation][47], [logiciel médico-légal numérique][48]
+
+  
 [1]: #Community
 [2]: #Documentation
 [3]: #Portability

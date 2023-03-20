@@ -14,12 +14,12 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/redis-in-memory-database.png" alt="Banco de dados em memória Redis">}}
 
 ** Redis ** Na verdade, significa “** re ** mote ** di ** ccionaly ** s ** erver”. O banco de dados Redis é uma loja de valor-chave avançado e de código aberto. Ele suporta vários tipos de dados: strings, hashes, listas, conjuntos e conjuntos classificados. É por isso que geralmente é chamado de servidor de estrutura de dados. Redis está escrito em C. Este tutorial de Redis fornece um bom entendimento dos conceitos de banco de dados Redis In Memory.
-  *** [O que é um banco de dados NoSQL] [1] **
-  *** [Redis é um banco de dados NoSQL?] [2] **
-  *** [Quando usar Redis?] [3] **
-  *** [Redis vs outras lojas de valor-chave] [4] **
-  *** [Instale Redis no Ubuntu] [5] **
-  *** [Conclusão] [6] **
+  *** [O que é um banco de dados NoSQL][1] **
+  *** [Redis é um banco de dados NoSQL?][2] **
+  *** [Quando usar Redis?][3] **
+  *** [Redis vs outras lojas de valor-chave][4] **
+  *** [Instale Redis no Ubuntu][5] **
+  *** [Conclusão][6] **
 
 ## O que é um banco de dados NoSQL {#nosql}
 Os bancos de dados NoSQL se tornaram muito populares. As grandes empresas confiam nelas para armazenar centenas de petabytes de dados e executar milhões de consultas por segundo. Mas o que é um banco de dados NoSQL? Como funciona e por que é muito melhor do que os bancos de dados relacionais tradicionais? Vamos começar explicando rapidamente o problema com bancos de dados relacionais como MySQL, MariaDB, SQL Server.
@@ -69,6 +69,8 @@ PONG
 
 ## Conclusão {#conclusion}
 Neste tutorial de Redis, aprendemos sobre o Redis In Memory Database. Exploramos a principal diferença entre os bancos de dados relacionais e não relacionais (NOSQL). Além disso, aprendi quando devemos usar o Redis e quais são os casos de melhor uso. Este tutorial faz parte de uma série de tutoriais em andamento. Nos próximos artigos, exploraremos ainda mais os casos de uso específicos da Redis.
+
+  
 [1]: #nosql
 [2]: #isnosql
 [3]: #when

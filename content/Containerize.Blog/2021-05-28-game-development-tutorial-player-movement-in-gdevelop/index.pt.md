@@ -16,13 +16,13 @@ categories: ['Game Development Software']
 
 ## **Visão geral**
 A comunidade de código aberto está surgindo com a passagem de cada minuto. Existem jogos de plataforma cruzada, jogos para celular e jogos de mesa. Vários tipos de jogos incluem jogos de ação, jogos de aventura, jogos de interpretação de papéis, jogos esportivos, jogos de quebra-cabeça, jogos de simulação e muito mais. Portanto, todos esses diferentes tipos de jogos deram um imenso impulso ao tráfego, pois usuários de todas as faixas etárias tendem a jogar esses jogos.
-Além disso, a pandemia trouxe uma grande mudança no estilo de vida de pessoas que vivem ao redor do mundo. As pessoas agora têm mais tempo. Todas as atividades offline ficaram online. Portanto, eles tendem a optar por software on -line para executar tarefas profissionais e videogames em caso de entretenimento. Por todos esses motivos, esse setor ganhou sustentabilidade e o apoio de usuários e desenvolvedores. No passado recente, escrevemos sobre tópicos como o [tutorial de desenvolvimento de jogos HTML5 para programadores de videogames] [1], [como a indústria global de jogos que alavancam o software de código aberto] [2] e [o tutorial do GDEV para iniciantes iniciarem o desenvolvimento do jogo] [3]. Neste tutorial de desenvolvimento de jogos, abordaremos os seguintes pontos.
-  *** [apresenta a exploração do gdevelo] [4] **
-  *** [Trabalhando em um jogo] [5] **
-  *** [Conclusão] [6] **
+Além disso, a pandemia trouxe uma grande mudança no estilo de vida de pessoas que vivem ao redor do mundo. As pessoas agora têm mais tempo. Todas as atividades offline ficaram online. Portanto, eles tendem a optar por software on -line para executar tarefas profissionais e videogames em caso de entretenimento. Por todos esses motivos, esse setor ganhou sustentabilidade e o apoio de usuários e desenvolvedores. No passado recente, escrevemos sobre tópicos como o [tutorial de desenvolvimento de jogos HTML5 para programadores de videogames][1], [como a indústria global de jogos que alavancam o software de código aberto][2] e [o tutorial do GDEV para iniciantes iniciarem o desenvolvimento do jogo][3]. Neste tutorial de desenvolvimento de jogos, abordaremos os seguintes pontos.
+  *** [apresenta a exploração do gdevelo][4] **
+  *** [Trabalhando em um jogo][5] **
+  *** [Conclusão][6] **
 
 ## apresenta exploração de gdevelo {#Features}
-[Gdevelo] [7] é uma plataforma de construção de jogos de código aberto. É altamente extensível e oferece uma interface lógica em que os usuários podem navegar facilmente. Este software livre está escrito em C ++, TypeScript e JavaScript. Além disso, há uma documentação abrangente disponível em relação ao desenvolvimento e implantação. Todo o código -fonte está disponível no GitHub. Além disso, existem muitos recursos que tornam este jogo que torna o software proeminente. Vamos ver alguns dos principais recursos.
+[Gdevelo][7] é uma plataforma de construção de jogos de código aberto. É altamente extensível e oferece uma interface lógica em que os usuários podem navegar facilmente. Este software livre está escrito em C ++, TypeScript e JavaScript. Além disso, há uma documentação abrangente disponível em relação ao desenvolvimento e implantação. Todo o código -fonte está disponível no GitHub. Além disso, existem muitos recursos que tornam este jogo que torna o software proeminente. Vamos ver alguns dos principais recursos.
 ** Plataforma cruzada **: Esta plataforma de criação de jogos é multiplataforma e pode ser implantada em quase todos os sistemas operacionais populares, como MacOS, Linux e Windows.
 ** Opções de exportação **: O GDevelop permite que os usuários exportem jogos desenvolvidos com apenas um clique para Android, iOS e Web. Os proprietários de jogos podem exibir anúncios em vídeo em seus jogos e isso pode ser possível com o apoio do AdMob.
 ** Rich Game Objects **: Este fabricante de jogos de código aberto fornece uma ampla gama de objetos de jogo, como sprites com animações, explosões de incêndio e outros efeitos com a ajuda de emissores de partículas. Texto formatado, vídeos incorporados e formas personalizadas estão disponíveis para trazer efeitos atraentes para os jogos.
@@ -31,7 +31,7 @@ Além disso, a pandemia trouxe uma grande mudança no estilo de vida de pessoas 
 
 ## trabalhando em um jogo {#working}
 Esta seção do tutorial de desenvolvimento de jogos elabora o desenvolvimento básico de jogos com o GDevelop. Antes de ir além, verifique se você instalou o GDevelop localmente em sua máquina.
-Você pode visitar este tutorial [Tutorial do Gdevelo para iniciantes para iniciar o desenvolvimento do jogo] [3] para obter o conhecimento da criação deste editor de jogo no localhost.
+Você pode visitar este tutorial [Tutorial do Gdevelo para iniciantes para iniciar o desenvolvimento do jogo][3] para obter o conhecimento da criação deste editor de jogo no localhost.
 Agora, abra o editor e crie um novo projeto. Neste tutorial, criaremos uma pasta no Google Drive para salvar arquivos de jogos. Agora clique no "Criar um novo projeto", ele abrirá uma nova caixa de diálogo, selecione a opção "jogo vazio" para começar a criar um novo jogo.
 
 {{< figure align=center src="images/Screenshot-2021-05-28-at-12.44.34-1024x579.png" alt="Tutorial de desenvolvimento de jogos">}}
@@ -63,14 +63,16 @@ Portanto, arraste a marca que aparece no canto superior esquerdo para o centro d
 
 
 ## Conclusão {#conclusion}
-Este é o fim deste tutorial de desenvolvimento de jogos. Felizmente, esta postagem do blog seria útil para os desenvolvedores de jogos. Este tutorial tornou possível trabalhar com os objetos do jogo e adicionar comportamentos. No futuro, o CONTERIZE.COM publicará postagens de blog e artigos tutoriais sobre o software de design de videogame de código aberto. Portanto, mantenha -se conectado com esta categoria [software de desenvolvimento de jogos] [8] em [containerize.com] [9] para atualizações regulares.
+Este é o fim deste tutorial de desenvolvimento de jogos. Felizmente, esta postagem do blog seria útil para os desenvolvedores de jogos. Este tutorial tornou possível trabalhar com os objetos do jogo e adicionar comportamentos. No futuro, o CONTERIZE.COM publicará postagens de blog e artigos tutoriais sobre o software de design de videogame de código aberto. Portanto, mantenha -se conectado com esta categoria [software de desenvolvimento de jogos][8] em [containerize.com][9] para atualizações regulares.
 
 ## Explore
-  * [Gdevelo] [7]
-  * [Godot] [10]
-  * [Superpowers] [11]
-  * [Creator Cocos] [12]
-  * [Panda3d] [13]
+  * [Gdevelo][7]
+  * [Godot][10]
+  * [Superpowers][11]
+  * [Creator Cocos][12]
+  * [Panda3d][13]
+
+  
 [1]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [2]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
 [3]: https://blog.containerize.com/game-development-software/pt/game-development-tutorial-player-movement-in-gdevelop/

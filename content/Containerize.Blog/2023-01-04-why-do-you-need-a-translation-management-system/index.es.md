@@ -15,12 +15,12 @@ categories: ['Software Development']
 
 
 ## Descripción general
-Estamos de regreso después de un descanso y estamos entusiasmados de escribir artículos consistentes sobre temas interesantes y de tendencia en el mundo del software de código abierto. Además, es para informarle que esta plataforma lo mantendrá actualizado sobre cada nuevo proyecto [Proyecto de código abierto] [1] que puede agregar valor a su software comercial existente.
+Estamos de regreso después de un descanso y estamos entusiasmados de escribir artículos consistentes sobre temas interesantes y de tendencia en el mundo del software de código abierto. Además, es para informarle que esta plataforma lo mantendrá actualizado sobre cada nuevo proyecto [Proyecto de código abierto][1] que puede agregar valor a su software comercial existente.
 En esta publicación de blog, intentaremos explicar el sistema**de gestión de traducción**desde varias perspectivas. Cómo**Globalización y localización**puede beneficiar a su sitio comercial en línea. Además, también exploraremos la automatización ofrecida por el software de gestión de traducción.
 Los siguientes puntos se cubrirán en este artículo:
-  * [¿Qué es un sistema de gestión de traducción?] [2]
-  * [¿Cómo funciona y qué ofrece? ] [3]
-  * [Beneficios comerciales de la globalización y localización] [4]
+  * [¿Qué es un sistema de gestión de traducción?][2]
+  * [¿Cómo funciona y qué ofrece? ][3]
+  * [Beneficios comerciales de la globalización y localización][4]
 
 ## ¿Qué es un sistema de gestión de traducción? {#What-is-a-tradation-ganagement-system}
 A**Sistema de gestión de traducción (TMS)**administra y automatiza las traducciones de su sitio web/software o aplicación. Este software toma los archivos de su sitio web como entrada, los traduce en diferentes idiomas y actualiza el sitio web automáticamente. Además, no solo gestiona las traducciones, sino que también ofrece una plataforma integrada donde los colaboradores y editores pueden interactuar sin problemas.
@@ -35,7 +35,7 @@ La parte más genial de un software de administración de traducción de código
 Las siguientes son las características centrales de cualquier sistema de gestión de traducción (TMZ):
 
 ####**API para integraciones de terceros**
-Un nivel empresarial**TMS**siempre proporciona una API que se utiliza para la integración con otras aplicaciones y módulos de traducción como [i18n] [5].
+Un nivel empresarial**TMS**siempre proporciona una API que se utiliza para la integración con otras aplicaciones y módulos de traducción como [i18n][5].
 
 #### Búsqueda global
 Habrá miles de proyectos de traducción en un sistema de gestión de traducción y si podría tomar un tiempo inmenso para buscar en un registro particular de tantos archivos de traducción. Por lo tanto, un buen TMS está equipado con una función de búsqueda global suave que ayuda a encontrar un registro específico, como una cadena.
@@ -66,10 +66,10 @@ Este es uno de los principales beneficios de la localización y la globalizació
 
 ## Resumiendo
 Esto nos lleva al final de esta publicación de blog. Esperamos que haya pasado este artículo a fondo y haya entendido el ecosistema de un sistema de gestión de traducción. Además, hay muchos software de gestión de traducción de código abierto que ofrece servicios de localización de sitios web. Sin embargo, depende de usted tomar la decisión mientras mantiene en cuenta las necesidades de su negocio. Además, la localización del sitio web es un componente imprescindible para cualquier sitio web comercial.
-Finalmente, [**Contenerize.com**] [6] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto para actualizaciones regulares.
+Finalmente, [**Contenerize.com**][6] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto para actualizaciones regulares.
 
 ## hacer una pregunta {#ask-a-Question}
-Puede informarnos sobre sus preguntas o consultas en nuestro [Foro] [7].
+Puede informarnos sobre sus preguntas o consultas en nuestro [Foro][7].
 
 ## Preguntas frecuentes {#faqs}
 
@@ -77,13 +77,15 @@ Puede informarnos sobre sus preguntas o consultas en nuestro [Foro] [7].
 Sí, si está tratando con una gran cantidad de contenido que involucra recursos estáticos y dinámicos. Por lo tanto, puede alojar un software de administración de traducción de código abierto****para automatizar y administrar las traducciones.
 
 ####**¿Cuáles son las ventajas de TMS?**
-Visite este [enlace] [4] para conocer las ventajas de un sistema de gestión de traducción.
+Visite este [enlace][4] para conocer las ventajas de un sistema de gestión de traducción.
 
 ## Ver también {#See-also}
-  * [Software de control de versiones] [8]
-  * [Automatización de marketing] [9]
-  * [Herramientas de implementación] [10]
-  * [Automatice las operaciones comerciales utilizando software de código abierto y abierto] [11]
+  * [Software de control de versiones][8]
+  * [Automatización de marketing][9]
+  * [Herramientas de implementación][10]
+  * [Automatice las operaciones comerciales utilizando software de código abierto y abierto][11]
+
+  
 [1]: https://products.containerize.com/
 [2]: #What-is-a-translation-management-system
 [3]: #How-does-it-work-and-what-does-it-offer

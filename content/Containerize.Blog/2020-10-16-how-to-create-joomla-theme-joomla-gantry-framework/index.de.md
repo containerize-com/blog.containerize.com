@@ -15,15 +15,15 @@ categories: ['Content Management']
 
 
 ## **Überblick**
-Wir haben bereits einige Artikel zu Themen wie [Joomla Template Development Guide für Anfänger] [1], [Drupal Mautic Integration zum automatischen Förderung des Leads] [2], [2] veröffentlicht [2], [integrieren Sie Mautic & Joomla für die Automatisierung des digitalen Marketings] [3] und mehr, also werden wir uns darauf konzentrieren, das Thema mit ** Gantry -Framework ** in diesem Leitfaden zu erstellen. Gantry Framework ist ein Open-Source-Template-Builder, mit dem Layouts auf reaktionsschnelle und Unternehmensebene für [Joomla] [4] und [WordPress] [5] erstellt werden. Open Source Community hat eine breite Palette von Content-Management-Systemen entwickelt, die mit reichhaltigen Themenfunktionen ausgestattet sind. Gantry Framework für Joomla ist eines der beliebtesten Themen -Frameworks. Der Aufbau einer auffälligen und ansprechenden Website ist ein wesentlicher Bestandteil jedes Unternehmens. Es ist jedoch eine weitere wichtige Aspekt, solche Websites zu erstellen oder zu ändern.
+Wir haben bereits einige Artikel zu Themen wie [Joomla Template Development Guide für Anfänger][1], [Drupal Mautic Integration zum automatischen Förderung des Leads][2], [2] veröffentlicht [2], [integrieren Sie Mautic & Joomla für die Automatisierung des digitalen Marketings][3] und mehr, also werden wir uns darauf konzentrieren, das Thema mit ** Gantry -Framework ** in diesem Leitfaden zu erstellen. Gantry Framework ist ein Open-Source-Template-Builder, mit dem Layouts auf reaktionsschnelle und Unternehmensebene für [Joomla][4] und [WordPress][5] erstellt werden. Open Source Community hat eine breite Palette von Content-Management-Systemen entwickelt, die mit reichhaltigen Themenfunktionen ausgestattet sind. Gantry Framework für Joomla ist eines der beliebtesten Themen -Frameworks. Der Aufbau einer auffälligen und ansprechenden Website ist ein wesentlicher Bestandteil jedes Unternehmens. Es ist jedoch eine weitere wichtige Aspekt, solche Websites zu erstellen oder zu ändern.
 Daher bietet der Joomla -Gantry -Rahmen Bestimmungen zur Beschleunigung des Layoutentwicklungsprozesses. Vor allem beseitigt es auch den Zwang, mit Codierungs- oder Programmierfähigkeiten ausgestattet zu werden. Andererseits ist der Installationsprozess solcher Frameworks recht einfach und einfach. Sie sind in Form von Plugins für die meisten Content -Management -Systeme wie WordPress und Joomla erhältlich. In diesem Gantry -Rahmen -Tutorial werden wir die folgenden Punkte behandeln:
-  *[** Was ist ein Gantry -Rahmen für Joomla? **] [6]
-  *[** Installation des Gantry -Frameworks **] [7]
-  *[** Installieren von Gantry -Thema **] [8]
-  *[** Thema mit Garnry **] [9]
+  *[** Was ist ein Gantry -Rahmen für Joomla? **][6]
+  *[** Installation des Gantry -Frameworks **][7]
+  *[** Installieren von Gantry -Thema **][8]
+  *[** Thema mit Garnry **][9]
 
 ## Was ist ein Gantry -Rahmen für Joomla? {#Portal}
-[** Gantry **] [10] ist ein freier und Open -Source -Themen -Framework für Joomla. ** Gantry ** ist ein schnelles und flexibles Webthema -Framework. Es basiert auf einer 12 -Spalte, 960 -Gittersystemlayout, die auf Twitter -Bootstrap basiert. Darüber hinaus ist es sowohl für die Entwickler als auch für Endbenutzer einfach zu bedienen. Gantry verfügt über eine Drag & Drop -Funktion, mit der Benutzer das Thema schnell anpassen können, da die GUI -Funktionalität die Website schnell entwerfen kann, anstatt Code zu schreiben. Es basiert auf einer Textdateikonfiguration (YAML), sodass es einfach ist, diese Textdateien zu bearbeiten. Darüber hinaus ist dieser Open -Source -Themenbauer für WordPress und Joomla verfügbar. Joomla Gantry gibt den Benutzern die vollständige Kontrolle über Inhalte und Daten. Es gibt Funktionen, um diesen kostenlosen Themenbauer zu konfigurieren und ihn in Anwendungen von Drittanbietern zu integrieren. Darüber hinaus ist es sehr erweiterbar und Benutzer können ihre Funktionen nach ihren Anforderungen erweitern.
+[** Gantry **][10] ist ein freier und Open -Source -Themen -Framework für Joomla. ** Gantry ** ist ein schnelles und flexibles Webthema -Framework. Es basiert auf einer 12 -Spalte, 960 -Gittersystemlayout, die auf Twitter -Bootstrap basiert. Darüber hinaus ist es sowohl für die Entwickler als auch für Endbenutzer einfach zu bedienen. Gantry verfügt über eine Drag & Drop -Funktion, mit der Benutzer das Thema schnell anpassen können, da die GUI -Funktionalität die Website schnell entwerfen kann, anstatt Code zu schreiben. Es basiert auf einer Textdateikonfiguration (YAML), sodass es einfach ist, diese Textdateien zu bearbeiten. Darüber hinaus ist dieser Open -Source -Themenbauer für WordPress und Joomla verfügbar. Joomla Gantry gibt den Benutzern die vollständige Kontrolle über Inhalte und Daten. Es gibt Funktionen, um diesen kostenlosen Themenbauer zu konfigurieren und ihn in Anwendungen von Drittanbietern zu integrieren. Darüber hinaus ist es sehr erweiterbar und Benutzer können ihre Funktionen nach ihren Anforderungen erweitern.
 In Bezug auf die Optionen für die Themenbildung bietet dieses Themen-Framework eine Reihe von Stilen und Designs in UI-Elementen, die Google-Schriftarten, Umschaltungen, Color-Chooser, Image-Chooser, Präfix-Etiketten, Sliders Textplus mit Suffix und vieles mehr enthalten. Tatsächlich gibt es Unterstützung für das Recht zu links, wie Arabisch, Farsi und einige mehr. Benutzer können die Größe der Blöcke steuern und jedes Layout mit Hilfe eines Netzsystems entwerfen. Gantry ist sehr sicher und lässt AJAX-Antriebsnotizierungen für Ereignisse im Growl-Stil. Darüber hinaus gibt es viele typografische Merkmale, JavaScript -Steuerung, die Fähigkeit, Parameter über URL, Cookie, Sitzung und Voreinstellungen festzulegen.
 
 ## Installieren von Gantry Framework {#installing}
@@ -46,24 +46,26 @@ Eine sehr einfache Möglichkeit, das ** Gantry -Thema ** zu erstellen, das aktue
 
 ## Abschluss
 Dies ist das Ende dieses Gantry -Rahmen -Tutorials. In diesem Blog -Beitrag haben wir die Einführung des Joomla -Gantry -Frameworks, seiner Funktionen und der Installationsschritte für das Joomla Content Management durchlaufen. Dieser Vorlagenbauer ist Open Source, kostenlos und verfügt über eine lebendige Unterstützungsgemeinschaft, die lebendig ist und sehr auf Fehler und Diskussionen reagiert. Darüber hinaus kann dieser Blog -Beitrag Ihnen wirklich helfen, wenn Sie eine Website mit Joomla oder WordPress erstellen. Das Thema ist ein zentraler Bestandteil jeder Website und zieht Besucher mit einer schönen Benutzeroberfläche an. Sie können eine ** Joomla -Vorlage kostenlos ** mit oder ohne Themen -Framework erstellen, aber Sie können eine hoch interaktive und reaktionsschnelle Joomla -Vorlage mit dem Gantry -Framework erstellen. Es würde Ihnen helfen, Entwicklungskosten und Zeit zu sparen.
-Gantry ist eines der besten Joomla -Template -Frameworks, sodass Sie die wahre Kraft davon genießen können, indem Sie Funktionen wie Layout -Manager, visuelles Menü Editor, SCSS/Weniger Support, Theme -Erbe und vieles mehr konsumieren. Darüber hinaus gibt es viele andere Tutorial- und Vergleichs -Blog -Beiträge und Open -Source -Produkte, die Sie erkunden können. Alle aufgelisteten Produkte sind kostenlos und sind mit Selbsthostfunktionen ausgestattet. Schließlich befindet sich [** Containerize.com **] [11] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [** Content Management **] [12] in Kontakt, um die neuesten Updates zu erhalten.
+Gantry ist eines der besten Joomla -Template -Frameworks, sodass Sie die wahre Kraft davon genießen können, indem Sie Funktionen wie Layout -Manager, visuelles Menü Editor, SCSS/Weniger Support, Theme -Erbe und vieles mehr konsumieren. Darüber hinaus gibt es viele andere Tutorial- und Vergleichs -Blog -Beiträge und Open -Source -Produkte, die Sie erkunden können. Alle aufgelisteten Produkte sind kostenlos und sind mit Selbsthostfunktionen ausgestattet. Schließlich befindet sich [** Containerize.com **][11] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [** Content Management **][12] in Kontakt, um die neuesten Updates zu erhalten.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [Joomla - kostenlose CMS -Software] [13]
-  * [Drupal] [14]
-  * [Pyro] [15]
-  * [Django CMS] [16]
-  * [Umbraco CMS] [17]
-  * [Konkret5] [18]
-  * [Mautic & Joomla für die Automatisierung des digitalen Marketings integrieren] [3]
-  * [Drupal Mautic Integration zur Automatisierung der Lead -Pflege] [2]
-  * [Top 5 kostenlose Reaktionsabschnitte Joomla Bootstrap -Vorlagen von 2020] [19]
-  * [Joomla Template Development Guide für Anfänger] [1]
-  * [Top 5 Beste kostenlose Joomla -Vorlagen von 2020] [19]
-  * [Anfängerleitfaden zum Erstellen einer grundlegenden Joomla -Vorlage] [20]
-  * [Joomla vs Drupal | CMS -Vergleich in 2021] [21]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [22]
+  * [Joomla - kostenlose CMS -Software][13]
+  * [Drupal][14]
+  * [Pyro][15]
+  * [Django CMS][16]
+  * [Umbraco CMS][17]
+  * [Konkret5][18]
+  * [Mautic & Joomla für die Automatisierung des digitalen Marketings integrieren][3]
+  * [Drupal Mautic Integration zur Automatisierung der Lead -Pflege][2]
+  * [Top 5 kostenlose Reaktionsabschnitte Joomla Bootstrap -Vorlagen von 2020][19]
+  * [Joomla Template Development Guide für Anfänger][1]
+  * [Top 5 Beste kostenlose Joomla -Vorlagen von 2020][19]
+  * [Anfängerleitfaden zum Erstellen einer grundlegenden Joomla -Vorlage][20]
+  * [Joomla vs Drupal | CMS -Vergleich in 2021][21]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][22]
+
+  
 [1]: https://blog.containerize.com/content-management/responsive-joomla-templates-tutorial/
 [2]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
 [3]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

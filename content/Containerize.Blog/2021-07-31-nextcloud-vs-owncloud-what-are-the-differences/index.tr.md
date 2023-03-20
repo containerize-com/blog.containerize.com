@@ -24,11 +24,11 @@ Tüm verileriniz üzerinde tam kontrolü korurken bulut depolamasının avantajl
   * Çözüm
 
 ## 1. NextCloud nedir?
-[NextCloud] [1] Linux tabanlı sistemler için açık kaynaklı bir bulut depolama platformudur. NextCloud, verilerinizi korumak için bir sunucuda çalışır ve masaüstünüzden ve mobil cihazlarınızdan erişim sağlar. NextCloud, bir Dropbox veya NAS bulut depolama alanındaki bir FTP sürücüsünde mevcut verilerinizi senkronize etmenize, paylaşmanıza ve erişmenize yardımcı olur. Kurumsal Dosya Senkronizasyonu ve Paylaş NextCloud, HIPAA ve GDPR ile veri uyumluluğunu zorlar. NextCloud, PostgreSQL, SQLite, MariaDB, MySQL ve Oracle veritabanı gibi birden fazla veritabanı yönetim sistemi ile çalışmak üzere tasarlanmıştır.
+[NextCloud][1] Linux tabanlı sistemler için açık kaynaklı bir bulut depolama platformudur. NextCloud, verilerinizi korumak için bir sunucuda çalışır ve masaüstünüzden ve mobil cihazlarınızdan erişim sağlar. NextCloud, bir Dropbox veya NAS bulut depolama alanındaki bir FTP sürücüsünde mevcut verilerinizi senkronize etmenize, paylaşmanıza ve erişmenize yardımcı olur. Kurumsal Dosya Senkronizasyonu ve Paylaş NextCloud, HIPAA ve GDPR ile veri uyumluluğunu zorlar. NextCloud, PostgreSQL, SQLite, MariaDB, MySQL ve Oracle veritabanı gibi birden fazla veritabanı yönetim sistemi ile çalışmak üzere tasarlanmıştır.
 NextCloud, Frank Karlitschek'in NextCloud'u oluşturmak için Owncloud'u çatalladığı 2016 yılında piyasaya sürüldü. NextCloud sunucusu PHP ve JavaScript komut dosyası dilleri kullanılarak yazılmıştır. Owncloud'un çekirdek katılımcılarının çoğu Frank Karlitschek ile yeni dosya paylaşımı işbirliği NextCloud projesine katılmak için ayrıldı, aynı zamanda kurulan yeni şirket NextCloud GmbH tarafından yönetiliyor. Önümüzdeki 6 ay içinde gelecek GmbH karlı ve bugün kârlı kalıyor ve hala bir sonrakiCloud projesini yönetiyor.
 
 ## 2. Owncloud nedir? {#CE62}
-[Owncloud] [2] Ocak 2010'da çıktı, ancak ilk beta sürümü Mart 2010'da başlatıldı. Owncloud'un dünya çapında 50 milyon kullanıcısı var ve Owncloud, Owncloud'un topluluk kullanıcılarının ihtiyaçlarına hizmet etmek için yayınlandı ve şimdi Owncloud yönetiliyor Owncloud GmbH tarafından. Owncloud Cloud, bulut dosya paylaşımını yönetmek, takviminizi yönetmek, yapılacak listeleri, bir belge düzenleme aracı, klasör paylaşımı ve çok daha fazlasını yönetmek için birçok üretken özelliğe sahiptir. Owncloud sadece kendi özel bulut sunucunuzda barındırılır.
+[Owncloud][2] Ocak 2010'da çıktı, ancak ilk beta sürümü Mart 2010'da başlatıldı. Owncloud'un dünya çapında 50 milyon kullanıcısı var ve Owncloud, Owncloud'un topluluk kullanıcılarının ihtiyaçlarına hizmet etmek için yayınlandı ve şimdi Owncloud yönetiliyor Owncloud GmbH tarafından. Owncloud Cloud, bulut dosya paylaşımını yönetmek, takviminizi yönetmek, yapılacak listeleri, bir belge düzenleme aracı, klasör paylaşımı ve çok daha fazlasını yönetmek için birçok üretken özelliğe sahiptir. Owncloud sadece kendi özel bulut sunucunuzda barındırılır.
 Owncloud çok kararlı ve güvenilir bulut uygulamasıdır. Özellikle ticari uygulamalar için şiddetle tavsiye edilir. Owncloud, hassas verilerle ilgilenen veya özel güvenlik ve uyumluluk düzenlemelerini yerine getirmesi gereken şirketler tarafından kullanılır. Bu şirketler finans, sağlık hizmetleri ve daha fazlasını içerir.
 
 ## 3. Karşılaştırma NextCloud vs Owncloud: {#CE62}
@@ -53,15 +53,17 @@ NextCloud'un% 100 ücretsiz yönü, onu Owncloud depolamasından daha çekici ve
 
 ## Sonuç: {#4A1A}
 Bu makalede, en popüler açık kaynak bulut depolama çerçevelerinin - NextCloud vs Owncloud'un çalışması hakkında kısa bir karşılaştırma açıkladık. NextCloud ve Owncloud, açık kaynak bulut depolama platformu alanında iki pazar lideri. Her iki yazılım da eklenti uygulamaları tarafından düzenli olarak desteklenen güçlü bir temele sahiptir. İkisi arasında, NextCloud bulut depolama, özellikleri ve hizmetleri nedeniyle daha popüler görünüyor. Bununla birlikte, Owncloud eski bir bulut platformudur ve Owncloud depolama alanlarının kullanıcı topluluğunun ihtiyaçlarını karşılamak için kurulmuştur. Yaklaşan öğreticilerimizde, açık kaynak bulut depolama platformlarıyla ilgili daha ilginç konular hakkında tartışacağız.
-_ [Twitter] [3], [LinkedIn] [4] ve [Facebook] [5] sayfamızda bize katılabilirsiniz. Hangi Bulut Depolama NextCloud vs owncloud_ _platform tercih edersiniz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin] [6].
+_ [Twitter][3], [LinkedIn][4] ve [Facebook][5] sayfamızda bize katılabilirsiniz. Hangi Bulut Depolama NextCloud vs owncloud_ _platform tercih edersiniz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][6].
 
 ## Keşfetmek:
 Ayrıca sunucunuzun günlük yönetimi ile ilgili başka birkaç makalemiz de var.
-  * [Ubuntu sunucusunda apache ile nextcloud nasıl yüklenir] [7]
-  * [Ubuntu'da Apache ile Owncloud'u yükleyin ve yapılandırın] [8]
-  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır] [9]
-  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır] [10]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin] [11]
+  * [Ubuntu sunucusunda apache ile nextcloud nasıl yüklenir][7]
+  * [Ubuntu'da Apache ile Owncloud'u yükleyin ve yapılandırın][8]
+  * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][9]
+  * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır][10]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][11]
+
+  
 [1]: https://products.containerize.com/backup-and-sync/nextcloud/
 [2]: https://products.containerize.com/backup-and-sync/owncloud/
 [3]: https://twitter.com/containerize_co

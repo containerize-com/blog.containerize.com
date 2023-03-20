@@ -15,76 +15,78 @@ categories: ['Blockchain Platforms']
 
 
 ## Ringkasan
-Kami baru -baru ini menerbitkan posting blog tentang [Blockchain Technology for Business] [1] dan artikel tutorial tentang membangun [kontrak pintar dasar] [2]. Namun, kami telah menyusun daftar platform blockchain populer berikut tahun 2020.
-  *** [ethereum] [3] **
-  *** [Hypeledger Fabric] [4] **
-  *** [OpenChain] [5] **
-  *** [multichain] [6] **
-  *** [Ripple] [7] **
-  *** [Kesimpulan] [8] **
+Kami baru -baru ini menerbitkan posting blog tentang [Blockchain Technology for Business][1] dan artikel tutorial tentang membangun [kontrak pintar dasar][2]. Namun, kami telah menyusun daftar platform blockchain populer berikut tahun 2020.
+  *** [ethereum][3] **
+  *** [Hypeledger Fabric][4] **
+  *** [OpenChain][5] **
+  *** [multichain][6] **
+  *** [Ripple][7] **
+  *** [Kesimpulan][8] **
 
 ## ethereum {#ether}
-[Ethereum] [9] adalah platform berbasis blockchain open source terkemuka. Ini memberikan kerangka kerja lengkap untuk mengelola aset digital, menulis kontrak pintar, dan membangun aplikasi terdesentralisasi. Perangkat lunak ini menggunakan algoritma konsensus bernama Proof of Work (POW). Ini mendukung cryptocurrencynya sendiri yang disebut Ether. Selain itu, Ethereum memiliki lima komponen utama mesin virtual Ethereum, kontrak pintar, node Ethereum, API klien Ethereum, dan aplikasi pengguna akhir. Ini ditulis dalam bahasa GO dan semua kode sumber tersedia di [GitHub] [10].
+[Ethereum][9] adalah platform berbasis blockchain open source terkemuka. Ini memberikan kerangka kerja lengkap untuk mengelola aset digital, menulis kontrak pintar, dan membangun aplikasi terdesentralisasi. Perangkat lunak ini menggunakan algoritma konsensus bernama Proof of Work (POW). Ini mendukung cryptocurrencynya sendiri yang disebut Ether. Selain itu, Ethereum memiliki lima komponen utama mesin virtual Ethereum, kontrak pintar, node Ethereum, API klien Ethereum, dan aplikasi pengguna akhir. Ini ditulis dalam bahasa GO dan semua kode sumber tersedia di [GitHub][10].
 Berikut ini adalah fitur yang menonjol:
   * Aman dengan kriptografi
   * Kontrak Cerdas Ethereum
   * Validasi blockchain
   * Mesin virtual ethereum
   * Arsitektur berlapis-lapis
-[Baca lebih lanjut] [11]
+[Baca lebih lanjut][11]
 
 ## Fabric Hypeledger {#hyper}
-[Hyperledger Fabric] [12] adalah blockchain open source yang diizinkan dibangun di atas arsitektur modular. Namun, ini memberikan ketentuan kepada pengguna untuk menggunakan protokol konsensus tergantung pada kasus penggunaan. Selain itu, perangkat lunak ini dapat diskalakan, kuat, dan efisien. Ini memberikan integrasi dengan perangkat lunak pihak ketiga seperti LDAP, OpenID Connect, dan perpustakaan kriptografi. Ini juga ditulis dalam bahasa Go dan kode sumbernya tersedia di [GitHub] [13].
+[Hyperledger Fabric][12] adalah blockchain open source yang diizinkan dibangun di atas arsitektur modular. Namun, ini memberikan ketentuan kepada pengguna untuk menggunakan protokol konsensus tergantung pada kasus penggunaan. Selain itu, perangkat lunak ini dapat diskalakan, kuat, dan efisien. Ini memberikan integrasi dengan perangkat lunak pihak ketiga seperti LDAP, OpenID Connect, dan perpustakaan kriptografi. Ini juga ditulis dalam bahasa Go dan kode sumbernya tersedia di [GitHub][13].
 Hyperledger Fabric memiliki fitur utama berikut:
   * Dukungan untuk EVM dan Soliditas
   * Arsitektur berbasis komponen
   * SCalable dan fleksibel
   * Dukungan kontrak pintar multi-bahasa
   * Data yang dapat ditanyakan
-[Baca lebih lanjut] [14]
+[Baca lebih lanjut][14]
 
 ## OpenChain {#Open}
-[OpenChain] [15] relatif merupakan teknologi blockchain baru dan didasarkan pada arsitektur server klien. Lebih lanjut, siapa pun dapat mengatur contoh perangkat lunak open source ini dan ada administrator untuk setiap contoh yang memvalidasi transaksi. Selain itu, tidak ada mekanisme penambangan yang didukung di OpenChain. Di atas segalanya, algoritma konsensus yang berpisah sedang digunakan dalam platform ini. Ini ditulis dalam bahasa C# dan kode sumbernya tersedia di [GitHub] [16].
+[OpenChain][15] relatif merupakan teknologi blockchain baru dan didasarkan pada arsitektur server klien. Lebih lanjut, siapa pun dapat mengatur contoh perangkat lunak open source ini dan ada administrator untuk setiap contoh yang memvalidasi transaksi. Selain itu, tidak ada mekanisme penambangan yang didukung di OpenChain. Di atas segalanya, algoritma konsensus yang berpisah sedang digunakan dalam platform ini. Ini ditulis dalam bahasa C# dan kode sumbernya tersedia di [GitHub][16].
 OpenChain menawarkan fitur -fitur penting berikut:
   * Ketentuan untuk mendefinisikan aturan
   * Validasi Level Instan
   * Tidak ada biaya penambangan
   * Dapat diperluas dan dapat diukur
   * Berbagai tingkat kontrol
-[Baca lebih lanjut] [17]
+[Baca lebih lanjut][17]
 
 ## multichain
-[Multichain] [18] adalah perangkat lunak open source lain yang menawarkan pengembangan cepat aplikasi blockchain publik dan swasta keduanya. Pertama, ini sangat dapat disesuaikan, ramah pengguna, dan fleksibel. Kedua, ini memberikan keamanan terbaik melalui kunci publik-swasta dan multi-tanda tangan. Ketiga, perangkat lunak open source ini memberikan langkah -langkah mudah untuk dikembangkan dan menggunakan aplikasi blockchain. Selanjutnya, ditulis dalam bahasa C ++ dan kode sumbernya tersedia di [GitHub] [19].
+[Multichain][18] adalah perangkat lunak open source lain yang menawarkan pengembangan cepat aplikasi blockchain publik dan swasta keduanya. Pertama, ini sangat dapat disesuaikan, ramah pengguna, dan fleksibel. Kedua, ini memberikan keamanan terbaik melalui kunci publik-swasta dan multi-tanda tangan. Ketiga, perangkat lunak open source ini memberikan langkah -langkah mudah untuk dikembangkan dan menggunakan aplikasi blockchain. Selanjutnya, ditulis dalam bahasa C ++ dan kode sumbernya tersedia di [GitHub][19].
 Multichain muncul dengan fitur -fitur utama berikut:
   * Dukungan untuk aset tak terbatas
   * Manajemen Izin
   * Aman dengan kunci publik-swasta
   * Fleksibel dan kuat
   * Umpan data waktu nyata
-[Baca lebih lanjut] [18]
+[Baca lebih lanjut][18]
 
 ## Ripple {#ripple}
-[Ripple] [20] adalah platform blockchain open source level perusahaan dengan fitur canggih. Oleh karena itu, ini didasarkan pada infrastruktur terdesentralisasi yang mendukung transaksi yang diamankan dari aset digital. Di atas segalanya, ia memiliki berbagai fitur yang cukup untuk membangun bisnis pembayaran. Selain itu, didukung oleh buku besar XRP yang merupakan buku besar kriptografi yang terdesentralisasi. Namun, perangkat lunak open source ini ditulis dalam bahasa C ++ dengan input bahasa lain juga dan kode sumbernya tersedia di [GitHub] [21].
+[Ripple][20] adalah platform blockchain open source level perusahaan dengan fitur canggih. Oleh karena itu, ini didasarkan pada infrastruktur terdesentralisasi yang mendukung transaksi yang diamankan dari aset digital. Di atas segalanya, ia memiliki berbagai fitur yang cukup untuk membangun bisnis pembayaran. Selain itu, didukung oleh buku besar XRP yang merupakan buku besar kriptografi yang terdesentralisasi. Namun, perangkat lunak open source ini ditulis dalam bahasa C ++ dengan input bahasa lain juga dan kode sumbernya tersedia di [GitHub][21].
 Ripple menawarkan poin -poin penting berikut:
   * Didukung oleh XRP Ledger
   * Menawarkan transfer aset yang nyaman
   * Memberikan keamanan digital
   * Ramah bisnis
   * Multiguna
-[Baca lebih lanjut] [22]
+[Baca lebih lanjut][22]
 
 ## kesimpulan {#conclusion}
 Dalam posting blog ini, kami memeriksa beberapa platform blockchain open source yang populer. Karena ada banyak platform populer lainnya yang tersedia, platform baru telah mulai mendapatkan niat masyarakat dengan menawarkan fitur -fitur canggih. Karena itu, selalu merupakan ide yang baik untuk menyelidiki dengan benar sebelum membuat pilihan.
-Akhirnya, [containerize.com] [23] memperluas daftar perangkat lunak open source dan posting blog. Oleh karena itu, harap tetap berhubungan dengan kategori [platform blockchain] [24] untuk pembaruan rutin.
+Akhirnya, [containerize.com][23] memperluas daftar perangkat lunak open source dan posting blog. Oleh karena itu, harap tetap berhubungan dengan kategori [platform blockchain][24] untuk pembaruan rutin.
 
 ## halaman produk yang relevan
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Ethereum] [9]
-  * [Hyperledger Fabric] [12]
-  * [OpenChain] [15]
-  * [Riak] [20]
-  * [Multichain] [25]
-  * [Consensys Quorum] [26]
+  * [Ethereum][9]
+  * [Hyperledger Fabric][12]
+  * [OpenChain][15]
+  * [Riak][20]
+  * [Multichain][25]
+  * [Consensys Quorum][26]
+
+  
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: #ether

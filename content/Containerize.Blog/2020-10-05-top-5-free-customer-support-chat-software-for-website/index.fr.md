@@ -17,11 +17,11 @@ categories: ['Live Chat']
 ## Aperçu
 Un grand nombre d'utilisateurs des clients sur les sites Web de commerce électronique abandonnent sans vérifier la mauvaise expérience utilisateur. Mais si vous avez un logiciel de chat en direct approprié installé sur le site Web et que vous vous engagez avec l'utilisateur avant qu'ils ne soient perdus ou quittent le site Web, vous pouvez enregistrer ce client. Les clients souhaitent que leurs questions soient répondues instantanément, et toute confusion pendant le processus d'achat peut entraîner la perte d'une vente. Cependant, la communauté open source est très dynamique et a développé de nombreux logiciels de chat de support client open source ** **.
 L'utilisation de la solution logicielle de chat à droite vous aide à répondre instantanément aux requêtes de votre client et à les convertir en ventes. Ce billet de blog vise à partager la liste des applications de chat en direct gratuites les mieux notées qui, selon nous, sont les meilleures pour les petites et moyennes entreprises.
-  * [Rocket.Chat] [1]
-  * [Zulip] [2]
-  * [Matter Most] [3]
-  * [Chatchons] [4]
-  * [Botpress] [5]
+  * [Rocket.Chat][1]
+  * [Zulip][2]
+  * [Matter Most][3]
+  * [Chatchons][4]
+  * [Botpress][5]
 
 ## ** Rocket.Chat ** {# Rocket-chat}
 Rocket.Chat est un logiciel de chat Web open source **. ** C'est un système de chat complètement gratuit et auto-hébergé. Il s'agit d'une plate-forme de communication complète qui fournit une communication d'équipe à l'aide de messages directs et de messages de groupe.
@@ -31,7 +31,7 @@ Rocket.Chat a une énorme communauté open source. En conséquence, cette ** App
   * Authentification LDAP
   * API REST-FULL
   * Application de bureau multiplateforme native
-    [Lire la suite] [6]
+    [Lire la suite][6]
 
 ## ** ZULIP ** {#zulip}
 Zulip est l'une des ** Solutions de chat open source les plus populaires ** qui suit le modèle de threading basé sur le flux. Dans Zulip, vous vous abonnez aux flux au lieu des canaux afin que vous ne soyez informé que les flux qui vous intéressent. Cet abonnement Stream vous aide à suivre les conversations plus tard et à vous organiser.
@@ -42,7 +42,7 @@ Cette ** Application de chat open source ** est multiplateforme et propose des A
   * API: Zulip a une API reposante et des liaisons Python à simple simple
   * Applications mobiles: prend en charge les applications iOS et Android de qualité native.
   * Applications de bureau: prend en charge les applications de bureau multiplateform.
-    [Lire la suite] [7]
+    [Lire la suite][7]
 
 ## ** Matter PLmmul ** {#mattermost}
 Matter Post est un logiciel Open Source ** Web Chat **, qui est hautement sécurisé et évolutif. Premièrement, il est considéré comme une alternative aux applications de chat en direct propriétaires les plus populaires. Deuxièmement, cette ** Open Source Chat App ** est un mélange d'équipes Slack et Microsoft. En conclusion, en fait un superset des deux applications.
@@ -54,7 +54,7 @@ Voici quelques-unes des principales caractéristiques de la plus grande partie
   * Plugins et extensions
   * Boîte à outils de robots et de développeurs
   * Bibliothèque API robuste
-    [Lire la suite] [8]
+    [Lire la suite][8]
 
 ## ** Chat ** {# lets-chat}
 Let's Chat est un logiciel de chat de support client auto-hébergé ** pour les petites équipes. Ce ** logiciel de chat Web ** est développé à l'aide de Node.js et MongoDB et se concentre sur un déploiement facile et rapide. Vous pouvez l'installer sur votre serveur en quelques clics. Il est 100% gratuit et open source avec son code source disponible sur GitHub.
@@ -64,7 +64,7 @@ Ce qui rend Let’s Chat unique des autres logiciels open source, ce sont ses fo
   * Hubot amical
   * API semblable à un repos
   * Transcriptions / historique de chat
-    [Lire la suite] [9]
+    [Lire la suite][9]
 
 ## ** botpress ** {#botpress}
 Les chatbots sont en augmentation ces jours-ci. Que vous les utilisiez pour les ventes, le marketing ou le soutien, ils peuvent être un excellent ajout à votre équipe virtuelle.
@@ -75,18 +75,20 @@ L'intelligence artificielle et l'apprentissage automatique se sont beaucoup amé
   * Contenu et séparation des flux
   * Humain dans la boucle
   * Conception modulaire
-    [Lire la suite] [10]
+    [Lire la suite][10]
 
 ## Conclusion
 Dans cet article, vous avez examiné le meilleur logiciel de chat Web open source ** disponible pour les petites et moyennes entreprises et équipes. Ce billet de blog vous aidera vraiment à faire le bon choix tout en choisissant un logiciel de chat de support client open source ** pour votre site Web d'entreprise. Premièrement, nous avons répertorié les fonctionnalités haut de gamme de Rocket.Chat, Zulip, Matter Most, Let’s Chat et BotPress. Deuxièmement, nous avons expliqué comment ces fonctionnalités les rendent uniques. En conclusion, Rocket.Chat et Matter Most sont des choix appropriés si vous voulez plus de plugins et d'intégations. Zulip et le chat peuvent être un bon logiciel LiveChat si vous avez besoin d'une solution rapide et facile. Pour Bot Building Rocket. Chat offre des fonctionnalités. Mais Botpress est un choix plus populaire.
-Enfin, [** contenerize.com **] [11] écrit des articles sur d'autres applications de chat open source **.
+Enfin, [** contenerize.com **][11] écrit des articles sur d'autres applications de chat open source **.
 
 ## Explorer
-  * [Comment créer un bot FAQ basé sur l'IA pour votre entreprise à l'aide de BotPress] [13]
-  * [Comment configurer le support de chat en direct sur votre site Web à l'aide de Rocket.chat] [14]
-  * [WordPress Messagerie instantanée à l'aide de Rocket.Chat] [15]
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [16]
-  * [Comment créer et exécuter un bot dans Rocket.Chat en utilisant Botpress] [17]
+  * [Comment créer un bot FAQ basé sur l'IA pour votre entreprise à l'aide de BotPress][13]
+  * [Comment configurer le support de chat en direct sur votre site Web à l'aide de Rocket.chat][14]
+  * [WordPress Messagerie instantanée à l'aide de Rocket.Chat][15]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][16]
+  * [Comment créer et exécuter un bot dans Rocket.Chat en utilisant Botpress][17]
+
+  
 [1]: #rocket-chat
 [2]: #zulip
 [3]: #mattermost

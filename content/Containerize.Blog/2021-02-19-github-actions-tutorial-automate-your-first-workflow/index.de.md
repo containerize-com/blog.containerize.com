@@ -15,13 +15,13 @@ categories: ['Version Control Software']
 
 
 ## Überblick
-Eine der besten Möglichkeiten, um die Produktivität in einem Softwareprojekt zu steigern, besteht darin, alles Handbuch oder Wiederholungen zu automatisieren. Und Sie sind vielleicht überrascht, wie einfach die Automatisierung implementiert werden kann, wenn Sie ein fantastisches Tool wie ** Github -Aktionen ** verwenden. Seit den letzten Artikeln habe ich über [Git] [1], [Versionskontrolle] [1] und [Automatisierung der Softwareentwicklungs -Workflows] [2] und über [kontinuierliche Integration und kontinuierliche Lieferung] [3] [3] [3] [3] [3] [3] ]. Hoffentlich sind Sie sich inzwischen bewusst, dass Repositorys und wie Sie sie benutzen können.
+Eine der besten Möglichkeiten, um die Produktivität in einem Softwareprojekt zu steigern, besteht darin, alles Handbuch oder Wiederholungen zu automatisieren. Und Sie sind vielleicht überrascht, wie einfach die Automatisierung implementiert werden kann, wenn Sie ein fantastisches Tool wie ** Github -Aktionen ** verwenden. Seit den letzten Artikeln habe ich über [Git][1], [Versionskontrolle][1] und [Automatisierung der Softwareentwicklungs -Workflows][2] und über [kontinuierliche Integration und kontinuierliche Lieferung][3][3][3][3][3][3] ]. Hoffentlich sind Sie sich inzwischen bewusst, dass Repositorys und wie Sie sie benutzen können.
 In der heutigen ** Github -Aktionen Tutorial ** werden wir GitHub -Aktionen untersuchen und wie Sie es zur Anwendungsautomatisierung, -anpassung und zur Ausführung Ihrer Softwareentwicklungs -Workflows in Ihrem Repository verwenden können. Also lasst uns anfangen
-  *** [Überprüfen Sie CI/CD -Workflows] [4] **
-  *** [Was sind Github -Aktionen] [5] **
-  *** [Verständnis der YAML -Syntax] [6] **
-  *** [Erstellen Sie Ihren ersten Workflow] [7] **
-  *** [Fazit] [8] **
+  *** [Überprüfen Sie CI/CD -Workflows][4] **
+  *** [Was sind Github -Aktionen][5] **
+  *** [Verständnis der YAML -Syntax][6] **
+  *** [Erstellen Sie Ihren ersten Workflow][7] **
+  *** [Fazit][8] **
 
 ## CI/CD -Workflows {#cicd}
 CI/CD ist eine Methode für häufige Bereitstellungen Ihrer Softwareentwicklungsprojekte für die Endbenutzer in verschiedenen Phasen mit Hilfe der Automatisierung. ** Continuous Integration & Continuous Deployment ** ist eher eine Philosophie und eine der Best Practices für DevOps -Teams, um kodische Änderungen häufiger und zuverlässig zu liefern.
@@ -41,7 +41,7 @@ Wie Sie sehen können, sind Workflow, Job, Schritt und Maßnahmen voneinander ab
 
 ## Erstellen Sie einen Workflow {#Workflow}
 In einem Softwareentwicklungsprojekt ist eines der Probleme mit der Entwicklungsteams das Format des Quellcode und der Best Practices -Durchsetzung. Dieses Problem ist für die größeren Teams offensichtlicher. Da sie mehr Entwickler betreffen und jeder seinen eigenen Stil des Schreibens von Codes hat. Die Verwendung von Linterpaketen ist also in den Teams sehr häufig. Aber jetzt können Sie mit ** Github -Aktionen ** den Linter jedes Mal durchsetzen, wenn jemand den Code zum Github -Repo drückt.
-In diesem Tutorial für GitHub-Aktionen fügen Sie einen Workflow hinzu, der mehrere Codierungssprachen unter Verwendung der Aktion [Github Super-Linter] [9] enthält. Der Workflow verwendet Super-Linter, um Ihren Quellcode jedes Mal zu validieren, wenn ein neues Komitee in Ihr Repository weitergegeben wird.
+In diesem Tutorial für GitHub-Aktionen fügen Sie einen Workflow hinzu, der mehrere Codierungssprachen unter Verwendung der Aktion [Github Super-Linter][9] enthält. Der Workflow verwendet Super-Linter, um Ihren Quellcode jedes Mal zu validieren, wenn ein neues Komitee in Ihr Repository weitergegeben wird.
 Erstellen Sie aus Ihrem Repository auf GitHub eine neue Datei im Verzeichnis **. Github/Workflows ** mit dem Namen ** Superlinter.yml ** und kopieren Sie den folgenden Inhalt in sie
 ```
 name: Super-Linter
@@ -78,18 +78,20 @@ Klicken Sie in der linken Seitenleiste auf den Workflow, den Sie sehen möchten.
 
 {{< figure align=center src="images/superlinter-workflow-sidebar-1024x211.png" alt="GitHub Action Workflow">}}
 
-Der Super-L-L-Liege-Workflow, den Sie gerade hinzugefügt haben, werden jedes Mal, wenn Code in Ihr Repository weitergeleitet wird, um Probleme in Ihrem Code zu finden. Ihr Repository kann mehrere Workflows haben, die unterschiedliche Jobs basierend auf verschiedenen Ereignissen auslösen. GitHub -Aktionen können Ihnen helfen, nahezu alle Aspekte Ihrer Anwendungsentwicklungsprozesse zu automatisieren. Dies war nur eine grundlegende Einführung in die Github -Aktionen. Es stehen unzählige [Ressourcen] [10] für eingehende Kenntnisse von Github-Aktionen zur Verfügung, die Sie verwenden können.
+Der Super-L-L-Liege-Workflow, den Sie gerade hinzugefügt haben, werden jedes Mal, wenn Code in Ihr Repository weitergeleitet wird, um Probleme in Ihrem Code zu finden. Ihr Repository kann mehrere Workflows haben, die unterschiedliche Jobs basierend auf verschiedenen Ereignissen auslösen. GitHub -Aktionen können Ihnen helfen, nahezu alle Aspekte Ihrer Anwendungsentwicklungsprozesse zu automatisieren. Dies war nur eine grundlegende Einführung in die Github -Aktionen. Es stehen unzählige [Ressourcen][10] für eingehende Kenntnisse von Github-Aktionen zur Verfügung, die Sie verwenden können.
 
 ## Schlussfolgerung {#Conclusion}
 In diesem Tutorial ** Github Actions ** haben wir über ** kontinuierliche Integration und kontinuierliche Bereitstellung ** und ** Was sind Github -Aktionen ** erfahren. Und wir haben auch untersucht, wie wir ** Github -Aktionen ** verwenden können, um einen CI/CD -Workflow zu erstellen. Wir haben einen einfachen Super-L-Linter-Workflow vom GitHub Action Marketplace verwendet, um Inkonsistenzen in unserer Codebasis herauszufinden. In den kommenden Artikeln werden wir die GitHub -Aktionen ausführlicher untersuchen. Darüber hinaus finden Sie andere Blog -Beiträge, die sich mit dem im Abschnitt "Explore" erwähnten ** Versionskontrollsystem ** im Abschnitt "Explore" beziehen.
-Schließlich schreibt [containerize.com] [11] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Versionskontrollsoftware] [12] in Kontakt, um regelmäßige Updates zu erhalten. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook] [13], [LinkedIn] [14] und [Twitter] [15] folgen.
+Schließlich schreibt [containerize.com][11] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Versionskontrollsoftware][12] in Kontakt, um regelmäßige Updates zu erhalten. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][13], [LinkedIn][14] und [Twitter][15] folgen.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  * [GitLab Continuous Deployment | Wie funktioniert es?] [16]
-  * [Verstehen und lernen Sie Zweige und ziehen Sie Anfragen in Git] [2]
-  * [Software für Quellcodeverwaltung | Was ist Git?] [17]
-  * [Top 5 Open Source -Versionskontrollsysteme in 2021] [18]
+  * [GitLab Continuous Deployment | Wie funktioniert es?][16]
+  * [Verstehen und lernen Sie Zweige und ziehen Sie Anfragen in Git][2]
+  * [Software für Quellcodeverwaltung | Was ist Git?][17]
+  * [Top 5 Open Source -Versionskontrollsysteme in 2021][18]
+
+  
 [1]: https://blog.containerize.com/2021/01/08/guide-to-version-control-and-source-code-management-using-git/
 [2]: https://blog.containerize.com/version-control-software/understand-and-learn-branches-and-pull-requests-in-git/
 [3]: https://blog.containerize.com/version-control-software/gitlab-continuous-deployment-how-it-works/

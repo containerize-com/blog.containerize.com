@@ -13,10 +13,10 @@ categories: ['Single Sign-On']
 {{_LINE_11_}}
 Il contient les sections suivantes:
   * [Qu'est-ce que l'authentification à deux facteurs? ][1]
-  * [Comment fonctionne 2FA?] [2]
-  * [2FA et authentification multi-facteurs] [3]
-  * [Inconvénients de l'utilisation de 2FA] [4]
-  * [Implémentation de 2FA dans .NET5] [5]
+  * [Comment fonctionne 2FA?][2]
+  * [2FA et authentification multi-facteurs][3]
+  * [Inconvénients de l'utilisation de 2FA][4]
+  * [Implémentation de 2FA dans .NET5][5]
 Tout d'abord, comprenons ce qu'est 2FA et pourquoi il doit faire partie intégrante de chaque application Web moderne.
 
 ## Qu'est-ce que l'authentification à deux facteurs? {# 2FA}
@@ -187,8 +187,10 @@ Le code étape-4 est vérifié et l'authentification 2FA est terminée.
 
 
 ### Conclusion:
-Dans cet article, nous avons appris sur 2FA et sa mise en œuvre dans .NET5 en utilisant IdentityServer4 et Twilio. Vous pouvez télécharger l'exemple de code utilisé dans cet article à partir de ce [Repo] [6].
-L'utilisation de SMS pour 2FA renforce sûrement votre sécurité, mais elle est toujours vulnérable aux [attaques d'échange SIM] [7]. Par conséquent, les chercheurs en sécurité encouragent le 2FA à utiliser d'autres approches telles que les applications d'authentification et les clés de sécurité ([Yubikey] [8]) qui ne peuvent pas être interceptées sur le réseau téléphonique. Nous en apprendrons plus à ce sujet dans un prochain article - restez à l'écoute!
+Dans cet article, nous avons appris sur 2FA et sa mise en œuvre dans .NET5 en utilisant IdentityServer4 et Twilio. Vous pouvez télécharger l'exemple de code utilisé dans cet article à partir de ce [Repo][6].
+L'utilisation de SMS pour 2FA renforce sûrement votre sécurité, mais elle est toujours vulnérable aux [attaques d'échange SIM][7]. Par conséquent, les chercheurs en sécurité encouragent le 2FA à utiliser d'autres approches telles que les applications d'authentification et les clés de sécurité ([Yubikey][8]) qui ne peuvent pas être interceptées sur le réseau téléphonique. Nous en apprendrons plus à ce sujet dans un prochain article - restez à l'écoute!
+
+  
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

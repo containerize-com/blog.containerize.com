@@ -15,10 +15,10 @@ categories: ['Database Management Software', 'Web Server Solution Stack']
 
 XAMPP e PHPMYADMIN como localhost fornecem a um servidor local para os desenvolvedores testarem e criar aplicativos da Web. O XAMPP é um servidor local instalado em computadores/laptops pessoais. Ele fornece um ambiente local para criar, executar e testar aplicativos PHP antes de implantá -los em servidores ao vivo.
 Cobriremos as seguintes seções nesta postagem do blog:
-  * [Descrição] [1]
-  * [Instalação Xampp] [2]
-  * [painel de phpmyadmin] [3]
-  * [Pensamentos finais] [4]
+  * [Descrição][1]
+  * [Instalação Xampp][2]
+  * [painel de phpmyadmin][3]
+  * [Pensamentos finais][4]
 
 ## Descrição: {#Description}
 O XAMPP é grátis e a pilha de soluções de servidor da web de código aberto. Ele contém Apache, MySQL, Mariadb, PHP e Perl. O XAMPP está disponível para sistemas operacionais do Windows. É extremamente fácil de instalar e usar. É por isso que é o ambiente de desenvolvimento PHP mais popular. XAMPP e PHPMYADMIN como localhost fornecem um ambiente completo para o desenvolvimento e teste de aplicativos da web.
@@ -30,7 +30,7 @@ Alfabetos em Xampp representam:
   *** p ** - Perl
 
 ## XAMPP Instalação {#xampp}
-  * Faça o download do xampp de [aqui] [5].
+  * Faça o download do xampp de [aqui][5].
 
 {{< figure align=center src="images/xampp1.png" alt="Xamp como localhost">}}
 
@@ -79,8 +79,10 @@ Para acessar o painel PhpMyadmin, clique no botão "Admin" ao lado do serviço M
 A instalação do XAMPP é simples e direta. Não leva mais de 15 minutos para o servidor XAMPP de configuração. Depois de instalado, os desenvolvedores podem criar e testar seus aplicativos da Web baseados em PHP, mesmo sem uma conexão com a Internet. Em vez de testar projetos diretamente em um servidor da Web ao vivo, é simples e economizando tempo para testá-los localmente. É uma ótima plataforma para iniciantes aprender, testar e polir suas habilidades de PHP, Perl e banco de dados.
 
 ## Explore:
-[Pilha de solução de servidor da web de código aberto para desenvolvedores PHP e Perl] [6]
-[Melhores opções de pilha de soluções de servidor da web de código aberto] [7]
+[Pilha de solução de servidor da web de código aberto para desenvolvedores PHP e Perl][6]
+[Melhores opções de pilha de soluções de servidor da web de código aberto][7]
+
+  
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

@@ -16,11 +16,11 @@ categories: ['Programming']
 
 
 ## Descripción general
-Bienvenido a otra emocionante publicación de blog en la serie de [programación de JavaScript] [1]. En este artículo, vamos a tocar un concepto muy básico pero esencial de desarrollo web. Sí, vamos a cubrir el modelo de objeto de documento en JavaScript. En el pasado, hemos publicado tutoriales JavaScript que son obligatorios para comenzar el desarrollo utilizando el lenguaje JavaScript. Por lo tanto, le sugerimos que lea esta publicación de blog a fondo para que no se pierda nada relacionado con este importante concepto. Comencemos esta guía y descubramos**qué es DOM en JavaScript**, DOM Propiedades y cómo puede interactuar con ella mediante programación.
+Bienvenido a otra emocionante publicación de blog en la serie de [programación de JavaScript][1]. En este artículo, vamos a tocar un concepto muy básico pero esencial de desarrollo web. Sí, vamos a cubrir el modelo de objeto de documento en JavaScript. En el pasado, hemos publicado tutoriales JavaScript que son obligatorios para comenzar el desarrollo utilizando el lenguaje JavaScript. Por lo tanto, le sugerimos que lea esta publicación de blog a fondo para que no se pierda nada relacionado con este importante concepto. Comencemos esta guía y descubramos**qué es DOM en JavaScript**, DOM Propiedades y cómo puede interactuar con ella mediante programación.
 Cubriremos los siguientes temas en esta guía de JavaScript:
-***[¿Qué es el modelo de objeto de documento (DOM)?] [2]**
-***[niveles dom] [3]**
-***[¿Qué son las propiedades DOM y cómo acceder a ellas?] [4]**
+***[¿Qué es el modelo de objeto de documento (DOM)?][2]**
+***[niveles dom][3]**
+***[¿Qué son las propiedades DOM y cómo acceder a ellas?][4]**
 
 ## ¿Qué es el modelo de objeto de documento (DOM)? {#What-is-Document-Object-Model}
 Dom representa?**Modelo de objetos de documento (DOM)**es la representación de una página web dentro de un navegador web. Simplemente, la representación jerárquica de los elementos de un documento HTML en un navegador se conoce como modelo de objeto de documento. Se forma en forma de árbol que realmente genera el navegador web. Consiste en varios nodos que están conectados entre sí formando una forma de árbol. Además, los elementos DOM tienen atributos y eventos adjuntos a ellos.
@@ -36,68 +36,70 @@ Bueno, puedes ver los elementos DOM en la imagen de arriba. La ventana y el docu
 ## ¿Cuáles son las propiedades DOM y cómo acceder a ellas? {#What-ar-dom-properties-and-ship-to-access-them}
 Hasta ahora, hemos presentado una respuesta a lo que es DOM en JavaScript y los niveles DOM, y también hemos pasado por los nodos DOM. En esta sección, pasaremos por las propiedades DOM y veremos cómo podemos interactuar con ellas. Cada elemento DOM tiene un valor vinculado a él, como la etiqueta "P" tiene propiedad de texto, la etiqueta IMG tiene la imagen, etc. Los métodos JavaScript se utilizan para acceder a los valores de los nodos. Además, puede agregar/eliminar los oyentes de eventos a los elementos DOM.
 Puede encontrar las siguientes propiedades de DOM**:
-* * Innerhtml**: Esta propiedad se usa para establecer o obtener el contenido HTML de un nodo DOM.
+**Innerhtml**: Esta propiedad se usa para establecer o obtener el contenido HTML de un nodo DOM.
 ```
 let htmlContent = document.getElementById("customID").innerHTML;
 ```
-* * InnteText**: Use esta propiedad DOM para acceder o establecer el contenido textual de un elemento HTML.
+**InnteText**: Use esta propiedad DOM para acceder o establecer el contenido textual de un elemento HTML.
 ```
 let textualContent = document.getElementById("customID").innerText;
 ```
-* * ParentElement**: Puede usar esta propiedad para acceder al nodo principal del elemento.
+**ParentElement**: Puede usar esta propiedad para acceder al nodo principal del elemento.
 ```
 let parentNode = document.getElementById("customID").parentElement.nodeName;
 ```
-* * Estilo**: actualice el atributo de estilo de un elemento.
+**Estilo**: actualice el atributo de estilo de un elemento.
 ```
 let styleAttr = document.getElementById("customID").style.color = "red";
 ```
-* * Título**: Use esta propiedad para actualizar el elemento de título de DOM.
+**Título**: Use esta propiedad para actualizar el elemento de título de DOM.
 ```
 document.getElementById("customID").title= "this is a web page";
 ```
  Los siguientes son algunos de los métodos que podemos usar para interactuar con JavaScript DOM:
-* * AddEventListener ()**: Este método DOM se usa para conectar un controlador de eventos a un elemento.
+**AddEventListener ()**: Este método DOM se usa para conectar un controlador de eventos a un elemento.
 ```
 document.getElementById("customID").addEventListener("click", customFunction);
 ```
-* * getAttribute ()**: Este método DOM se usa para conectar un controlador de eventos a un elemento.
+**getAttribute ()**: Este método DOM se usa para conectar un controlador de eventos a un elemento.
 ```
 document.getElementById("customID").addEventListener("click", customFunction);
 ```
-* * GetElementById ()**: Método para obtener un elemento específico con la "ID" dada.
+**GetElementById ()**: Método para obtener un elemento específico con la "ID" dada.
 ```
 let element = document.getElementById("myID");
 ```
-* * QuerySelector ()**: Use este método para obtener el primer elemento secundario que se coincide con un selector CSS.
+**QuerySelector ()**: Use este método para obtener el primer elemento secundario que se coincide con un selector CSS.
 ```
 document.getElementById("myID").querySelector(".first").innerHTML = "change the value";
 ```
-* * toString ()**: puede usar este método para convertir un elemento en una cadena.
+**toString ()**: puede usar este método para convertir un elemento en una cadena.
 Del mismo modo, hay muchos otros métodos y propiedades que puede explorar.
 
 ## Conclusión
 Estamos terminando este tutorial de Javasxcript aquí con la esperanza de tener una buena comprensión de**Lo que es DOM en JavaScript**. También hemos pasado por**DOM, niveles DOM, HTML DOM Tree y DOM Propiedades**. Esta publicación de blog es muy esencial para los novatos que buscan tener un fuerte control sobre los conceptos de Javascrit. Además, hay otros artículos relevantes que puede encontrar en la sección "Ver también".
 
 ## Conéctate con nosotros
-Finalmente, [Contenerize.com] [5] ofrece tutoriales de JavaScript en curso sobre varios temas emocionantes. Puede permanecer en el bucle siguiéndonos en nuestras plataformas de redes sociales, incluidas [Facebook] [6], [LinkedIn] [7] y [Twitter] [8].
+Finalmente, [Contenerize.com][5] ofrece tutoriales de JavaScript en curso sobre varios temas emocionantes. Puede permanecer en el bucle siguiéndonos en nuestras plataformas de redes sociales, incluidas [Facebook][6], [LinkedIn][7] y [Twitter][8].
 
 ## Hacer una pregunta
-Puede informarnos sobre sus preguntas o consultas en nuestro [Foro] [9].
+Puede informarnos sobre sus preguntas o consultas en nuestro [Foro][9].
 
 ## Preguntas frecuentes
-* * ¿Qué se usa DOM en JavaScript?**
-Puede visitar este [enlace] [2] para obtener una respuesta detallada a esta pregunta.
+**¿Qué se usa DOM en JavaScript?**
+Puede visitar este [enlace][2] para obtener una respuesta detallada a esta pregunta.
 
 ## Ver también
-  * [¿Qué es la promesa en JavaScript? | Tutorial de JavaScript] [10]
-  * [¿Qué es la computación sin servidor? | Arquitectura sin servidor] [11]
-  * [¿Qué es la multitenancia? | ¿Por qué un enfoque de múltiples inquilinos?] [12]
-  * [¿Qué es generativo AI? Inteligencia artificial generativa] [13]
-  * [¿Qué es Async esperando en JavaScript? | Una guía de JavaScript] [14]
-  * [Cómo usar chatgpt en vscode | El código de extensión VScode GPT] [15]
-  * [¿Qué es OpenAi Chatbot GPT-3 | Chatgpt una revolución ai] [16]
-  * [Una introducción a la inteligencia artificial | ¿Qué es AI?] [17]
+  * [¿Qué es la promesa en JavaScript? | Tutorial de JavaScript][10]
+  * [¿Qué es la computación sin servidor? | Arquitectura sin servidor][11]
+  * [¿Qué es la multitenancia? | ¿Por qué un enfoque de múltiples inquilinos?][12]
+  * [¿Qué es generativo AI? Inteligencia artificial generativa][13]
+  * [¿Qué es Async esperando en JavaScript? | Una guía de JavaScript][14]
+  * [Cómo usar chatgpt en vscode | El código de extensión VScode GPT][15]
+  * [¿Qué es OpenAi Chatbot GPT-3 | Chatgpt una revolución ai][16]
+  * [Una introducción a la inteligencia artificial | ¿Qué es AI?][17]
+
+  
 [1]: https://blog.containerize.com/categories/programming/
 [2]: #What-is-Document-Object-Model
 [3]: #DOM-levels

@@ -15,19 +15,19 @@ categories: ['Game Development Software']
 
 
 ## **Descripción general**
-En el pasado, publicamos muchas publicaciones de blog sobre software de desarrollo de juegos gratuito de código abierto como [Top 5 Software de desarrollo de juegos gratuitos en el año 2021] [1], [comenzando con el desarrollo de juegos usando superpoderes] [2], [Juego Tutorial de desarrollo | Movimiento del jugador en GDEVelovel] [3], [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos] [4], [cómo la industria del juego global aprovechando el software de código abierto] [5] y [tutorial de GDEVelovelop para principiantes para comenzar el desarrollo del juego] [6 ] Los últimos avances en la era de Internet han traído nuevas tendencias en la industria de los videojuegos. Una plataforma de construcción de juegos de código abierto proporciona un ecosistema completo para desarrollar juegos de forma independiente y los desarrolladores maduran esa plataforma según las necesidades. En esta publicación de blog, aprenderemos cómo hacer un juego de cero usando [GDEVOLED] [7] cubriendo los siguientes puntos.
-  *** [¿Por qué deberíamos usar GDegelop?] [8] **
-  *** [Configuración del proyecto] [9] **
-  *** [¿Cómo preparar fondo y objeto?] [10] **
-  *** [Agregar behviors al objeto] [11] **
-  *** [ejecutando el juego] [12] **
-  *** [Conclusión] [13] **
+En el pasado, publicamos muchas publicaciones de blog sobre software de desarrollo de juegos gratuito de código abierto como [Top 5 Software de desarrollo de juegos gratuitos en el año 2021][1], [comenzando con el desarrollo de juegos usando superpoderes][2], [Juego Tutorial de desarrollo | Movimiento del jugador en GDEVelovel][3], [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos][4], [cómo la industria del juego global aprovechando el software de código abierto][5] y [tutorial de GDEVelovelop para principiantes para comenzar el desarrollo del juego][6 ] Los últimos avances en la era de Internet han traído nuevas tendencias en la industria de los videojuegos. Una plataforma de construcción de juegos de código abierto proporciona un ecosistema completo para desarrollar juegos de forma independiente y los desarrolladores maduran esa plataforma según las necesidades. En esta publicación de blog, aprenderemos cómo hacer un juego de cero usando [GDEVOLED][7] cubriendo los siguientes puntos.
+  *** [¿Por qué deberíamos usar GDegelop?][8] **
+  *** [Configuración del proyecto][9] **
+  *** [¿Cómo preparar fondo y objeto?][10] **
+  *** [Agregar behviors al objeto][11] **
+  *** [ejecutando el juego][12] **
+  *** [Conclusión][13] **
 
 ## ¿Por qué deberíamos usar GDEVelovelop? {#por qué}
-[GDEVROVED] [7] es un software de juego de código abierto. Viene con capacidades de autohospitalización y es de la naturaleza multiplataforma. Puede descargarlo e instalarlo, o puede usar su versión en línea para jugar con ella. Los usuarios no necesitan obtener ningún conocimiento de programación para usar este constructor de juegos. Sobre todo, ofrece una interfaz de usuario de arrastrar y soltar que se le ocurre comportamientos, plantillas y objetos de juego preconstruidos. Este software de desarrollo de juegos gratuito es altamente configurable y ofrece integraciones con bibliotecas de terceros. Para obtener más información sobre esta herramienta gratuita, puede verificar este enlace para aprender más sobre sus características y el proceso de configuración.
+[GDEVROVED][7] es un software de juego de código abierto. Viene con capacidades de autohospitalización y es de la naturaleza multiplataforma. Puede descargarlo e instalarlo, o puede usar su versión en línea para jugar con ella. Los usuarios no necesitan obtener ningún conocimiento de programación para usar este constructor de juegos. Sobre todo, ofrece una interfaz de usuario de arrastrar y soltar que se le ocurre comportamientos, plantillas y objetos de juego preconstruidos. Este software de desarrollo de juegos gratuito es altamente configurable y ofrece integraciones con bibliotecas de terceros. Para obtener más información sobre esta herramienta gratuita, puede verificar este enlace para aprender más sobre sus características y el proceso de configuración.
 
 ## Configuración del proyecto {#setting}
-En esta sección, crearemos nuestro proyecto para construir un juego de carreras de camiones con algunas funcionalidades básicas. Siga este [enlace] [6] si desea configurar su máquina local o puede usar la versión en línea yendo a este [enlace] [14].
+En esta sección, crearemos nuestro proyecto para construir un juego de carreras de camiones con algunas funcionalidades básicas. Siga este [enlace][6] si desea configurar su máquina local o puede usar la versión en línea yendo a este [enlace][14].
 Por lo tanto, encontrará la siguiente pantalla una vez que haga clic en "Crear un nuevo proyecto" y luego haga clic en "Juego vacío".
 
 {{< figure align=center src="images/Screenshot-2021-08-24-at-23.20.28-1024x578.png" alt="Cómo hacer un juego de cero">}}
@@ -77,21 +77,23 @@ Una vez que se completan todos los pasos. Es hora de ejecutar el juego presionan
 
 ## conclusión {#conclusion}
 Este es el final de esta publicación de blog y seguramente has llegado a saber cómo hacer un juego de cero. Sin embargo, hay muchos software gratuito de diseño de juegos ** disponible en el mercado, ya que esta industria está ganando popularidad y demanda. Hay varias razones detrás de esto, como el software de código abierto, son escalables, configurables, rentables y fáciles de mantener. Además, la demanda de constructores de juegos multiplataforma está aumentando a medida que los desarrolladores les resulta cómodo construir un juego que se ejecute en todas las plataformas populares como Android, iOS, Web y Desktop. Por otro lado, el advenimiento de la pandemia ha cambiado la vida de las personas y ahora prefieren permanecer en el interior. Entonces, la gente tiende a jugar videojuegos en su tiempo libre.
-Finalmente, [Contenerize.com] [15] está listo para mejorar su base tutorial con algunos tutoriales de desarrollo de juegos más interesantes **. Manténgase conectado con esta categoría [Software de desarrollo de juegos] [16] para actualizaciones regulares.
+Finalmente, [Contenerize.com][15] está listo para mejorar su base tutorial con algunos tutoriales de desarrollo de juegos más interesantes **. Manténgase conectado con esta categoría [Software de desarrollo de juegos][16] para actualizaciones regulares.
 
 ## Explorar
-  *** [GDEVROVED] [7] **
-  *** [GODOT] [17] **
-  *** [Superpoderes] [18] **
-  *** [Cocos Creator] [19] **
-  *** [Panda3d] [20] **
-  *** [PlayCanvas] [21] **
-  *** [comenzando con el desarrollo de juegos usando superpoderes] [2] **
-  *** [Tutorial de desarrollo del juego | Movimiento del jugador en GDegelop] [3] **
-  *** [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos] [4] **
-  *** [Cómo la industria del juego global aprovechando el software de código abierto] [5] **
-  *** [Tutorial GDEVROVEL para principiantes para comenzar el desarrollo del juego] [6] **
-  *[** Top 5 Software de desarrollo de juegos gratuitos en el año 2021 **] [1]
+  *** [GDEVROVED][7] **
+  *** [GODOT][17] **
+  *** [Superpoderes][18] **
+  *** [Cocos Creator][19] **
+  *** [Panda3d][20] **
+  *** [PlayCanvas][21] **
+  *** [comenzando con el desarrollo de juegos usando superpoderes][2] **
+  *** [Tutorial de desarrollo del juego | Movimiento del jugador en GDegelop][3] **
+  *** [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos][4] **
+  *** [Cómo la industria del juego global aprovechando el software de código abierto][5] **
+  *** [Tutorial GDEVROVEL para principiantes para comenzar el desarrollo del juego][6] **
+  *[** Top 5 Software de desarrollo de juegos gratuitos en el año 2021 **][1]
+
+  
 [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
 [2]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
 [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/

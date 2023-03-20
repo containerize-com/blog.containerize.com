@@ -17,13 +17,13 @@ categories: ['Web Server Solution Stack']
 ## 概述{#install}
 ** Web服务器监视**对于高流量网站非常重要。 **监视代理**将定期记录有关Web服务器的基本指标。这些关键指标可用于优化NGINX配置。它将帮助您改善Web服务器和应用程序的性能。
 在此博客文章中，我们将介绍** nginx监视**开源工具的以下各节。
-  * [NGINX Web服务器] [1]
-  * [nginx扩增] [2]
-  * [安装nginx扩增] [3]
-  * [监视指标] [4]
+  * [NGINX Web服务器][1]
+  * [nginx扩增][2]
+  * [安装nginx扩增][3]
+  * [监视指标][4]
 
 ## nginx Web服务器{#nginx}
-[NGINX] [5]是一家免费的开源Web服务器。它比Apache简单，轻巧且易于配置。 NGINX Web服务器还可以作为反向代理，加载平衡器，邮件代理和HTTP缓存。它适用于HTTP，HTTP，SMTP，POP3和IMAP协议。 NGINX是一款高速，可靠和内存效率的Web服务器，可改善应用程序的性能。此外，它已经越来越受欢迎，现在被视为最受欢迎的Web服务器。此外，NGINX适用于任何类型的网站，包括高流量网站和应用程序。它可以在几乎所有操作系统上安装和配置。
+[NGINX][5]是一家免费的开源Web服务器。它比Apache简单，轻巧且易于配置。 NGINX Web服务器还可以作为反向代理，加载平衡器，邮件代理和HTTP缓存。它适用于HTTP，HTTP，SMTP，POP3和IMAP协议。 NGINX是一款高速，可靠和内存效率的Web服务器，可改善应用程序的性能。此外，它已经越来越受欢迎，现在被视为最受欢迎的Web服务器。此外，NGINX适用于任何类型的网站，包括高流量网站和应用程序。它可以在几乎所有操作系统上安装和配置。
 
 ### 安装nginx
   *运行以下命令以安装NGINX Web服务器。
@@ -44,7 +44,7 @@ Nginx Amplify是Nginx开源，Nginx Plus和PHP-FPM的免费监视工具。这是
 
 ## 安装nginx amplify {#install}
 请遵循下面的逐步指南，以在Ubuntu上安装NGINX放大。
-  *首先，您需要在nginx [网站] [6]上创建一个帐户。
+  *首先，您需要在nginx [网站][6]上创建一个帐户。
   *登录后，您将在Nginx Amplify网站上看到下面的屏幕。现在，通过SSH连接到服务器，并使用以下步骤中给出的命令。
 
 {{< figure align=center src="images/amplify-1.png" alt="安装nginx放大">}}
@@ -119,12 +119,14 @@ nginx扩增代理收集以下类型的数据：
 
 ## 结论
 我们已经详细介绍了NGINX Web服务器和NGINX Amplify高级监视代理。 Nginx Amplify非常易于设置和配置。此外，我们已经介绍了关键指标NGINX Amplify可以跟踪**监视nginx **。这些重要的指标可用于改善NGINX Web服务器和应用程序的配置。
-最后，[Containerize.com] [7]正处于一个始终如一的过程中，撰写有关更多最新开源产品的博客文章。因此，与此[Web Server解决方案堆栈] [8]类别保持联系以进行最新更新。
+最后，[Containerize.com][7]正处于一个始终如一的过程中，撰写有关更多最新开源产品的博客文章。因此，与此[Web Server解决方案堆栈][8]类别保持联系以进行最新更新。
 
 ## 探索
 您可能会发现以下链接相关：
-  * [如何将nginx用作应用程序的负载平衡器] [9]
-  * [如何设置和配置为反向代理] [10]
+  * [如何将nginx用作应用程序的负载平衡器][9]
+  * [如何设置和配置为反向代理][10]
+
+  
 [1]: #Nginx
 [2]: #Amplify
 [3]: #Install

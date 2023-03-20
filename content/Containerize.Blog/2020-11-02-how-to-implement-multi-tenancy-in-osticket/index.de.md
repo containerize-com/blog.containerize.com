@@ -14,14 +14,14 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-osTicket.png" alt="Osticket -Anpassung - Implementieren Sie Multi -Messen in Osticket">}}
 
 In diesem Artikel werden wir diskutieren, wie die Osticket-Anpassung zur Implementierung von Multi-Messen vorgenommen wird. Dieser Beitrag behandelt folgende Themen:
-  * [Osticketübersicht] [1]
-  * [Übersicht über Multi-Messen] [2]
-  * [Vorteile der Multi-Messen] [3]
-  * [Implementierung] [3]
-  * [Schlussfolgerung] [4]
+  * [Osticketübersicht][1]
+  * [Übersicht über Multi-Messen][2]
+  * [Vorteile der Multi-Messen][3]
+  * [Implementierung][3]
+  * [Schlussfolgerung][4]
 
 ## Osticket -Übersicht: {#Osticket}
-[Osticket] [5] ist eine webbasierte Helpdesk -Software von Open Source -Online -Kundendienst. Es bietet ein intuitives Bedienfeld und eine Echtzeit-Berichtskomponente. Es ist einfach zu verwenden, Anfragemanagementmodul zu verwenden. Auf diese Weise können Sie Anfragen aus Telefon-, E-Mail- und webbasierten Formularen erstellen. Dies bietet zahlreiche Optionen, um alle Teile der Kundenunterstützungserfahrung wie Kommentare und E -Mail -Benachrichtigungen anzupassen.
+[Osticket][5] ist eine webbasierte Helpdesk -Software von Open Source -Online -Kundendienst. Es bietet ein intuitives Bedienfeld und eine Echtzeit-Berichtskomponente. Es ist einfach zu verwenden, Anfragemanagementmodul zu verwenden. Auf diese Weise können Sie Anfragen aus Telefon-, E-Mail- und webbasierten Formularen erstellen. Dies bietet zahlreiche Optionen, um alle Teile der Kundenunterstützungserfahrung wie Kommentare und E -Mail -Benachrichtigungen anzupassen.
 
 ## Multi-Tenancy-Übersicht: {#multiteenancy}
 Multi-Menancy bezieht sich auf die Implementierung, bei der mehrere unabhängige Instanzen einer App in einer gemeinsamen Umgebung arbeiten. Die Instanzen (Mieter) sind logisch isoliert, aber physisch integriert. Eine Organisation kann möglicherweise mehrere Abteilungen haben. So können sie mehrere Mieter/Instanzen derselben App erstellen. In unserem Fall kann beispielsweise ein Helpdesk -System für verschiedene Domänen derselben Organisation konfiguriert werden. Es könnte Hunderte von Mietern geben, aber alle verwenden dieselben Dateien und damit denselben Speicher. Dies senkt die Speicherkosten, und es wird die Upgrades leichter machen. Entwickler müssen die Dateien nur von einem Ort von einem Ort aktualisieren, anstatt Änderungen für jede Website separat vorzunehmen.
@@ -69,10 +69,12 @@ Osticket ist eine kostenlose und Open -Source -IT -Helpdesk -Management -Softwar
 
 ## Erkunden:
 Bitte überprüfen Sie die folgende Seite, um mehr über Osticket zu erfahren:
-  * [Osticket - Eine kostenlose Open -Source -Helpdesk -Software] [5]
-  * [Ein Anfängerleitfaden zur Entwicklung von Osticket -Plugin] [6]
-  * [So einrichten Sie Online -Helpdesk -Software mit Osticket] [7]
-  * [Automatisieren Sie das Ticketing -System mit WordPress und Osticket] [8]
+  * [Osticket - Eine kostenlose Open -Source -Helpdesk -Software][5]
+  * [Ein Anfängerleitfaden zur Entwicklung von Osticket -Plugin][6]
+  * [So einrichten Sie Online -Helpdesk -Software mit Osticket][7]
+  * [Automatisieren Sie das Ticketing -System mit WordPress und Osticket][8]
+
+  
 [1]: #osticket
 [2]: #multitenancy
 [3]: #benefits

@@ -24,10 +24,10 @@ Durante la fase de desarrollo, la colocación de elementos de diseño es muy cr�
   * Leyabilidad
 Aquí vienen las plantillas ** Joomla **. Este software de código abierto proporciona la provisión para desarrollar o usar diseños receptivos predefinidos para todas las páginas web en lugar de escribir código para cada página por separado.
 En esta publicación de blog, aprenderemos las siguientes cosas sobre cómo crear y configurar una plantilla fácil de usar ** en Joomla.
-  *[** ¿Qué son los diseños de Joomla? **] [2]
-  *[** ¿Cómo crear una plantilla de respuesta simple en Joomla? **] [3]
-  *[** ¿Cómo instalar una plantilla de Joomla? **] [4]
-  *[** Conclusión **] [5]
+  *[** ¿Qué son los diseños de Joomla? **][2]
+  *[** ¿Cómo crear una plantilla de respuesta simple en Joomla? **][3]
+  *[** ¿Cómo instalar una plantilla de Joomla? **][4]
+  *[** Conclusión **][5]
 
 ## ¿Cuáles son los diseños de Joomla? {#qué}
 Joomla proporciona plantillas para la parte delantera, así como para la parte trasera. Viene con muchas plantillas preparadas y ofrece a los desarrolladores a construir ** Temas de arranque de recepción gratuitos ** según sus casos de uso. Hay dos tipos de plantillas en Joomla.
@@ -239,22 +239,24 @@ Después de instalar la plantilla, puede acceder y modificar los archivos de pla
 
 ## conclusión {#conclusion}
 Una plantilla buena y receptiva es la base para el modelado general del sitio. ** Los diseños receptivos ** en Joomla son multifuncionales y pueden usarse para varios proyectos. Desde escribir código hasta el desarrollo de la plantilla de Joomla se vuelve muy simple con la ayuda de un tablero de administración intuitivo. Joomla proporciona un control completo sobre el desarrollo de la plantilla para cumplir con los deseos del usuario.
-Como ** El software CMS ** La categoría está en mejoras consistentes y se agregarán más tutoriales sobre otros sistemas de gestión de contenido a la lista, manténgase en contacto con la sección [Sistema de gestión de contenido] [6] para actualizaciones regulares.
+Como ** El software CMS ** La categoría está en mejoras consistentes y se agregarán más tutoriales sobre otros sistemas de gestión de contenido a la lista, manténgase en contacto con la sección [Sistema de gestión de contenido][6] para actualizaciones regulares.
 
 ## Páginas de productos relevantes
 Puede encontrar los siguientes enlaces relevantes:
-  * [Joomla] [1]
-  * [Drupal] [7]
-  * [Pyro] [8]
-  * [Django CMS] [9]
-  * [Umbraco CMS] [10]
-  * [Concrete5] [11]
-  * [Grav] [12]
-  * [Craft] [13]
-  * [Contao] [14]
-  * [Hornilla] [15]
-  * [Refinería CMS] [16]
-  * [Locomotivecms] [17]
+  * [Joomla][1]
+  * [Drupal][7]
+  * [Pyro][8]
+  * [Django CMS][9]
+  * [Umbraco CMS][10]
+  * [Concrete5][11]
+  * [Grav][12]
+  * [Craft][13]
+  * [Contao][14]
+  * [Hornilla][15]
+  * [Refinería CMS][16]
+  * [Locomotivecms][17]
+
+  
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

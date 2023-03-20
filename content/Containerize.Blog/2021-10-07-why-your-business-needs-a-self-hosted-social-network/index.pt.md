@@ -50,14 +50,16 @@ A melhor característica de um software de código aberto é sua extensibilidade
 
 ## Conclusão
 Este é o fim deste post do blog. Portanto, a criação de uma rede social hospedada ** para o seu próprio negócio pode impulsionar seus negócios em termos de eficiência. Este artigo pode realmente ajudá -lo a fazer a escolha certa se você realmente estiver procurando implantar uma rede social de código aberto ** em seus servidores locais ou na nuvem. O progresso dos negócios depende do ambiente de trabalho. No entanto, esses aplicativos de redes sociais fornecem espaços compartilhados, onde funcionários e gerentes principais podem compartilhar seus pensamentos e avaliá -los de acordo com seus entendimentos. Os participantes podem ver visualmente seus locais em um mapa incorporado e podem estabelecer chamadas de vídeo ou áudio com eles.
-Finalmente, [contémize.com] [1] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato com a categoria [Social Network Platform] [2] para atualizações regulares.
+Finalmente, [contémize.com][1] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato com a categoria [Social Network Platform][2] para atualizações regulares.
 
 ## Explore {#Explore}
 Você pode encontrar os seguintes links relevantes:
-  *** [Humhub] [3] **
-  *** [Automatize operações comerciais usando software de código aberto e gratuito] [4] **
-  *** [Coisas para revisar antes de optar por software de código aberto em 2021] [5] **
-  *[** Software de videoconferência de código aberto 5 de código aberto de 2021 **] [6]
+  *** [Humhub][3] **
+  *** [Automatize operações comerciais usando software de código aberto e gratuito][4] **
+  *** [Coisas para revisar antes de optar por software de código aberto em 2021][5] **
+  *[** Software de videoconferência de código aberto 5 de código aberto de 2021 **][6]
+
+  
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/social-network-platforms/
 [3]: https://products.containerize.com/social-network-platforms/humhub/

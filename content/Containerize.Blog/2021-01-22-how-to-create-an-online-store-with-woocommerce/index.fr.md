@@ -15,13 +15,13 @@ categories: ['Shopping Cart Software']
 
 La plupart d'entre vous connaissent WordPress. WordPress est l'une des principales plates-formes pour créer des sites Web, des blogs, etc. Il existe des tonnes de plugins disponibles sur Marketplace qui vous permettent d'améliorer la fonctionnalité. L'un d'eux est ** WooCommerce Cart ** Plugin aide les utilisateurs à configurer la boutique en ligne. ** WooCommerce ** est l'un des ** meilleurs plugin de commerce électronique pour WordPress **, plate-forme de commerce électronique facile à utiliser, personnalisable et robuste. De plus, il est construit sur WordPress et utilise sa puissance pour transformer rapidement votre entreprise en large public.
 Nous couvrirons les sujets suivants dans ce tutoriel.
-  * [** Installer WordPress **] [1]
-  * [** Installer le plugin woocommerce **] [2]
-  * [** Configuration Store avec wooCommerce **] [3]
-  * [** Conclusion **] [4]
+  * [** Installer WordPress **][1]
+  * [** Installer le plugin woocommerce **][2]
+  * [** Configuration Store avec wooCommerce **][3]
+  * [** Conclusion **][4]
 
 ## Installer WordPress {#wordpress}
-Vous pouvez ignorer cette section et passer à la suivante si vous avez déjà installé WordPress. Dans le cas où vous n'avez pas la configuration WordPress, vous pouvez trouver des directives étape par étape pour l'installation sur [** contenerize.com **] [5].
+Vous pouvez ignorer cette section et passer à la suivante si vous avez déjà installé WordPress. Dans le cas où vous n'avez pas la configuration WordPress, vous pouvez trouver des directives étape par étape pour l'installation sur [** contenerize.com **][5].
 
 ## Installer WooCommerce Plugin {#woocommerce}
 Afin de configurer WooCommerce, suivez ces étapes:
@@ -51,13 +51,15 @@ L'assistant de configuration vous guide à travers toutes les étapes requises p
 
 ## Conclusion {#conclusion}
 Nous avons discuté de la configuration de WordPress et ** wooCommerce Cart ** dans ce tutoriel. Nous espérons que ce guide vous aidera à construire votre boutique en ligne. Cependant, vous pouvez consulter ** WooCommerce Storefront ** pour sélectionner le bon thème pour la boutique.
-En outre, [** contenerize.com **] [6] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de [** Logiciel de panier **] [7] Catégorie pour des articles plus intéressants.
+En outre, [** contenerize.com **][6] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de [** Logiciel de panier **][7] Catégorie pour des articles plus intéressants.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [** WordPress - Blogging open source et plateforme CMS **] [5]
-  * [** WooCommerce - Plugin WordPress gratuit pour le magasin de construction **] [8]
-  * [** Top 5 du logiciel de panier d'achat open source en 2020 **] [9]
+  * [** WordPress - Blogging open source et plateforme CMS **][5]
+  * [** WooCommerce - Plugin WordPress gratuit pour le magasin de construction **][8]
+  * [** Top 5 du logiciel de panier d'achat open source en 2020 **][9]
+
+  
 [1]: #WordPress
 [2]: #WooCommerce
 [3]: #Setup

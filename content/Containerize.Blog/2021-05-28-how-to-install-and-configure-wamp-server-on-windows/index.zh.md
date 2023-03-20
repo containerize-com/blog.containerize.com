@@ -15,10 +15,10 @@ categories: ['Web Server Solution Stack']
 
 每个开发人员在编写程序之前必须在计算机上安装所需的软件。在早期，开发人员必须单独安装每个软件，然后将它们配置为一起工作。 ** WampServer **和其他Web解决方案堆栈软件现在可用，将所有必要的软件捆绑到一个软件包中。您只需要安装一个软件包即可启动开发环境。
 在此博客文章中，我们将介绍以下各节。
-  *[**什么是Wampserver？**] [1]
-  *[** WAMP安装**] [2]
-  *[** WAMP配置**] [3]
-  *[**访问phpmyadmin **] [4]
+  *[**什么是Wampserver？**][1]
+  *[** WAMP安装**][2]
+  *[** WAMP配置**][3]
+  *[**访问phpmyadmin **][4]
 
 ## 什么是Wampserver？ {#什么}
 WampServer是一个免费的解决方案堆栈，用于为基于PHP的应用程序设置Web开发环境。 Wamp代表（W  -  Windows，A  -  Apache，M  -  mysql和P  -  PHP）。此外，它还带有PHPMyAdmin和Adminer，用于管理数据库。 Wamp是流行的工具之一，您可以快速设置它。此外，您可以从控制面板配置WAMP服务器。它提供了一个完整的Web开发环境，用于创建和测试应用程序。 WampServer由您可以根据需要在安装过程中选择的几个组件组成。 Wampserver带有多种版本的PHP。您可以根据项目要求轻松更改PHP版本。另外，您可以从Wampserver控制面板更改DBMS（数据库管理系统）。
@@ -64,12 +64,14 @@ WampServer是一个免费的解决方案堆栈，用于为基于PHP的应用程�
 
 ## 结论
 我们已经讨论了Wampserver，并涵盖了完整的分步指南，以**安装Wampserver **在Windows上。您可以通过遵循本教程并立即开始编码来轻松安装和配置** wampserver **。您可以访问Explore部分下的链接，以获取有关解决方案堆栈软件的更多选项。
-最后，[** containerize.com **] [5]正在始终如一地编写有关更多最新开源产品的博客文章。因此，与此[** Web服务器解决方案堆栈**] [6]类别保持联系以进行最新更新。
+最后，[** containerize.com **][5]正在始终如一地编写有关更多最新开源产品的博客文章。因此，与此[** Web服务器解决方案堆栈**][6]类别保持联系以进行最新更新。
 
 ## 探索
 您可能会发现以下链接相关：
-  *[**最佳开源Web服务器解决方案堆栈选项**] [7]
-  *[**设置XAMPP和PHPMYADMIN作为Windows上的Localhost **] [8]
+  *[**最佳开源Web服务器解决方案堆栈选项**][7]
+  *[**设置XAMPP和PHPMYADMIN作为Windows上的Localhost **][8]
+
+  
 [1]: #What
 [2]: #Installation
 [3]: #Configuration

@@ -16,12 +16,12 @@ categories: ['Software Development']
 
 ## Descripción general
 ¡Hola, lectores! Bienvenido a otra nueva publicación de blog y en esta publicación de blog, vamos a poner algo de luz sobre un tema muy candente de la época actual. En los últimos años, las técnicas de desarrollo y despliegue se han revolucionado en gran medida. La comunidad de código abierto ha desarrollado muchos software de automatización para automatizar procesos. Por lo tanto, la implementación de la aplicación se vuelve fácil y rápida con el advenimiento de ** Software de contenedores ** y ** Herramientas de orquestación de contenedores ** como Kubernetes, Docker y algunas más. Estos software son gratuitos, de código abierto y vienen con documentación integral. El software de contenedores elimina las molestias del desarrollo de software y permite que los administradores de software implementen las aplicaciones sin preocuparse por las plataformas y las otras dependencias de software. De hecho, los contenedores empacan las dependencias de aplicaciones y el código fuente. Del mismo modo, hay muchos ** beneficios de la contenedorización ** que pasaremos en este artículo al cubrir los siguientes puntos.
-  *** [¿Qué es un contenedor en Docker y qué es la contenedorización?] [1] **
-  *[** Beneficios de la contenedorización **] [2]
-  *** [Observaciones finales] [3] **
+  *** [¿Qué es un contenedor en Docker y qué es la contenedorización?][1] **
+  *[** Beneficios de la contenedorización **][2]
+  *** [Observaciones finales][3] **
 
 ## ¿Qué es un contenedor en Docker y qué es la contenedorización? {#qué}
-Docker es un software de contenedores de código abierto que se utiliza para facilitar las implementaciones de aplicaciones con la ayuda de contenedores. Por lo tanto, los contenedores permiten a los usuarios agrupar el código fuente del software, los archivos de configuración, la base de datos y todas las dependencias necesarias en un solo paquete. Por lo tanto, los desarrolladores crean un DockerFile donde se escriben todas estas instrucciones y ejecutan este archivo para girar los contenedores Docker en cualquier entorno. Todo este proceso se llama contenedorización donde cada aplicación se contiene y se ejecuta en sus espacios aislados en un compartido utilizando el mismo sistema operativo. Hay muchas herramientas de orquestación de contenedores ** de código abierto ** que se utilizan para administrar los servicios contenedores y la herramienta más popular es [Kubernetes] [4].
+Docker es un software de contenedores de código abierto que se utiliza para facilitar las implementaciones de aplicaciones con la ayuda de contenedores. Por lo tanto, los contenedores permiten a los usuarios agrupar el código fuente del software, los archivos de configuración, la base de datos y todas las dependencias necesarias en un solo paquete. Por lo tanto, los desarrolladores crean un DockerFile donde se escriben todas estas instrucciones y ejecutan este archivo para girar los contenedores Docker en cualquier entorno. Todo este proceso se llama contenedorización donde cada aplicación se contiene y se ejecuta en sus espacios aislados en un compartido utilizando el mismo sistema operativo. Hay muchas herramientas de orquestación de contenedores ** de código abierto ** que se utilizan para administrar los servicios contenedores y la herramienta más popular es [Kubernetes][4].
 
 ## Beneficios de la contenedorización {#Benefits}
 En esta sección, exploraremos algunos de los principales beneficios de la contenedorización.
@@ -54,26 +54,28 @@ El software de contenedor gratuito trae mucha productividad al automatizar los p
 La contenedores facilita a los usuarios con disposiciones de reutilización. Los desarrolladores escriben el código de la aplicación comercial una vez para todas las plataformas. No necesitan escribir diferentes códigos fuente para diferentes plataformas.
 
 ### Comunidad
-Esta es otra gran ventaja de contenedores. Hay un gran apoyo disponible por la comunidad y los usuarios pueden buscar orientación en cualquier nivel. Sobre todo, hay un espacio llamado [Docker Hub] [5] donde los usuarios pueden crear, compartir y extraer las aplicaciones y servicios de contenedores.
+Esta es otra gran ventaja de contenedores. Hay un gran apoyo disponible por la comunidad y los usuarios pueden buscar orientación en cualquier nivel. Sobre todo, hay un espacio llamado [Docker Hub][5] donde los usuarios pueden crear, compartir y extraer las aplicaciones y servicios de contenedores.
 
 ## Observaciones finales {#final}
 Esto nos lleva al final de esta publicación de blog. En este artículo, hemos pasado por contenedores y los beneficios de la contenedorización. Esta publicación de blog realmente lo ayudará a comprender el concepto y los usos de contenedores de sus aplicaciones comerciales. Existen muchas herramientas de orquestación de software y contenedores que ofrecen disposiciones para administrar las implementaciones de la aplicación. Además, la contenedores ha eliminado muchos problemas asociados con implementaciones, lanzamientos de características y escala. Por lo tanto, adopte este enfoque de desarrollo y implementación de software para alinearse con las últimas tendencias y prácticas de desarrollo de software.
-Finalmente, [Contenerize.com] [6] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con las categorías mencionadas en la sección "Explorar" para actualizaciones regulares.
+Finalmente, [Contenerize.com][6] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con las categorías mencionadas en la sección "Explorar" para actualizaciones regulares.
 
 ## Explore {#Explore}
 Puede encontrar los siguientes enlaces relevantes:
-  *** [] [7] [Automatice las operaciones comerciales utilizando software de código abierto y abierto] [7] **
-  *[** Top 5 Herramientas de orquestación de contenedores de código abierto para 2021 **] [8]
-  *** [] [7] [Gestión de contenido] [9], [Blogging] [10], [Foro de discusión] [11], [Software de atención médica] [12] **
-  *** [] [7] [HelpDesk] [13], [Automatización de marketing] [14], [Marketplace] [15], [Herramientas de implementación] [16], [Seguridad] [17] **
-  *** [] [7] [CHAT en vivo] [18], [Forma] [19], [Correo electrónico transaccional] [20], [Software de inteligencia empresarial] [21] **
-  *** [] [7] [Newsletter] [22], [página de estado] [23], [facturación] [24], [administración de contraseñas] [25], [software de cola de mensajes] [26] **
-  *** [] [7] [Signo único] [27], [Gestión de proyectos] [28], [Desarrollo de aplicaciones rápidas] [29], [Software de animación] [30] **
-  *** [] [7] [Cart de compras] [31], [Control de versión de código abierto] [32], [pila de soluciones del servidor web] [33], [Software de edición de fotos] [34] **
-  *** [] [7] [Gestión de la base de datos] [35], [Video Conferencing] [36], [plataformas blockchain] [37], [big data] [38] **
-  *** [] [7] [Software CMDB] [39], [Software de desarrollo de juegos] [40], [Planificación de recursos empresariales (ERP)] [41] **
-  *** [] [7] [Software de edición de video] [42], [Sistemas de gestión de bases de datos] [43], [Productividad de la oficina] [44] **
-  *** [] [7] [Sistema de gestión de aprendizaje (LMS)] [45], [Software de copia de seguridad y sincronización] [46], [Software forense digital] [47] **
+  *** [][7][Automatice las operaciones comerciales utilizando software de código abierto y abierto][7] **
+  *[** Top 5 Herramientas de orquestación de contenedores de código abierto para 2021 **][8]
+  *** [][7][Gestión de contenido][9], [Blogging][10], [Foro de discusión][11], [Software de atención médica][12] **
+  *** [][7][HelpDesk][13], [Automatización de marketing][14], [Marketplace][15], [Herramientas de implementación][16], [Seguridad][17] **
+  *** [][7][CHAT en vivo][18], [Forma][19], [Correo electrónico transaccional][20], [Software de inteligencia empresarial][21] **
+  *** [][7][Newsletter][22], [página de estado][23], [facturación][24], [administración de contraseñas][25], [software de cola de mensajes][26] **
+  *** [][7][Signo único][27], [Gestión de proyectos][28], [Desarrollo de aplicaciones rápidas][29], [Software de animación][30] **
+  *** [][7][Cart de compras][31], [Control de versión de código abierto][32], [pila de soluciones del servidor web][33], [Software de edición de fotos][34] **
+  *** [][7][Gestión de la base de datos][35], [Video Conferencing][36], [plataformas blockchain][37], [big data][38] **
+  *** [][7][Software CMDB][39], [Software de desarrollo de juegos][40], [Planificación de recursos empresariales (ERP)][41] **
+  *** [][7][Software de edición de video][42], [Sistemas de gestión de bases de datos][43], [Productividad de la oficina][44] **
+  *** [][7][Sistema de gestión de aprendizaje (LMS)][45], [Software de copia de seguridad y sincronización][46], [Software forense digital][47] **
+
+  
 [1]: #what
 [2]: #benefits
 [3]: #final

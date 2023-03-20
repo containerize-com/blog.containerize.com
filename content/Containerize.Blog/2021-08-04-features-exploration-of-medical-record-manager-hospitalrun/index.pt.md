@@ -15,16 +15,16 @@ O sistema de gerenciamento hospitalar é uma parte essencial dos estabelecimento
 
 
 ## Visão geral
-Open Source [Healthcare Software] [1] ganhou imensa popularidade no passado recente. Em primeiro lugar, é devido ao avanço da tecnologia. Em segundo lugar, a Covid-19 influenciou a indústria médica de todas as maneiras e deu à luz uma nova oportunidade para a comunidade de código aberto. É altamente importante fornecer serviços de saúde de alta qualidade aos pacientes quando o mundo inteiro está passando por um tempo crucial. Felizmente, estão disponíveis várias soluções de gerenciamento de registros de saúde de código aberto que fornecem centralizações de dados, transparência, segurança, integrações e muitos outros recursos poderosos. Esses serviços gratuitos de saúde oferecem gerenciamento suave de fluxos de trabalho, como médicos, pacientes, clínicas e outros funcionários. Recentemente, o [contenderize.com] [2] publicou alguns artigos sobre sistemas de gerenciamento de informações hospitalares de código aberto que incluem [o 5 Top 5 Software de registro de saúde do paciente de código aberto] [3], [apresenta a exploração da solução de saúde médica OpenEMR] [4], e [como o software de saúde on -line capacita o setor de saúde] [5].
-No passado, escrevemos um artigo que descreve o procedimento de criação de [HospitalRun] [6] no host local. Nesta postagem do blog, exploraremos [Hospitalrun] [6] ainda mais cobrindo os seguintes pontos.
-  *** [Por que Hospitalrun?] [7] **
-  *** [pacientes e módulos de agendamento] [8] **
-  *** [integração e medicamentos do laboratório] [9] **
-  *** [Imagem e incidentes] [10] **
-  *** [Conclusão] [11] **
+Open Source [Healthcare Software][1] ganhou imensa popularidade no passado recente. Em primeiro lugar, é devido ao avanço da tecnologia. Em segundo lugar, a Covid-19 influenciou a indústria médica de todas as maneiras e deu à luz uma nova oportunidade para a comunidade de código aberto. É altamente importante fornecer serviços de saúde de alta qualidade aos pacientes quando o mundo inteiro está passando por um tempo crucial. Felizmente, estão disponíveis várias soluções de gerenciamento de registros de saúde de código aberto que fornecem centralizações de dados, transparência, segurança, integrações e muitos outros recursos poderosos. Esses serviços gratuitos de saúde oferecem gerenciamento suave de fluxos de trabalho, como médicos, pacientes, clínicas e outros funcionários. Recentemente, o [contenderize.com][2] publicou alguns artigos sobre sistemas de gerenciamento de informações hospitalares de código aberto que incluem [o 5 Top 5 Software de registro de saúde do paciente de código aberto][3], [apresenta a exploração da solução de saúde médica OpenEMR][4], e [como o software de saúde on -line capacita o setor de saúde][5].
+No passado, escrevemos um artigo que descreve o procedimento de criação de [HospitalRun][6] no host local. Nesta postagem do blog, exploraremos [Hospitalrun][6] ainda mais cobrindo os seguintes pontos.
+  *** [Por que Hospitalrun?][7] **
+  *** [pacientes e módulos de agendamento][8] **
+  *** [integração e medicamentos do laboratório][9] **
+  *** [Imagem e incidentes][10] **
+  *** [Conclusão][11] **
 
 ## por que hospitalrun? {#por que}
-Existem muitas razões por trás da popularidade desse gerente de prontuário médico. O Hospitalrun é um registro eletrônico completo de saúde e um sistema de informações hospitalares. Ele suporta versões offline e online. Permite integrar clínicas e fornece sincronização de dados. Além disso, é multilíngue, plataforma cruzada e apresenta recursos de auto-hospedagem. Este sistema de registro de pacientes oferece gerenciamento de registros do paciente, agendamento de compromissos, medicamentos e gerenciamento de prescrição. Há também uma disposição para gerar relatórios personalizados que contêm detalhes completos de diagnóstico. Além disso, os membros da equipe médica podem assistir ao módulo de alta do paciente. Acima de tudo, este sistema de gerenciamento hospitalar oferece gerenciamento de casos acidentais e de emergência. É seguro, confiável e fácil de usar. No entanto, este sistema de gerenciamento de prontuário médico está completamente escrito em JavaScript e todo o código -fonte está disponível no [Github] [12] com documentação sobre desenvolvimento e implantação.
+Existem muitas razões por trás da popularidade desse gerente de prontuário médico. O Hospitalrun é um registro eletrônico completo de saúde e um sistema de informações hospitalares. Ele suporta versões offline e online. Permite integrar clínicas e fornece sincronização de dados. Além disso, é multilíngue, plataforma cruzada e apresenta recursos de auto-hospedagem. Este sistema de registro de pacientes oferece gerenciamento de registros do paciente, agendamento de compromissos, medicamentos e gerenciamento de prescrição. Há também uma disposição para gerar relatórios personalizados que contêm detalhes completos de diagnóstico. Além disso, os membros da equipe médica podem assistir ao módulo de alta do paciente. Acima de tudo, este sistema de gerenciamento hospitalar oferece gerenciamento de casos acidentais e de emergência. É seguro, confiável e fácil de usar. No entanto, este sistema de gerenciamento de prontuário médico está completamente escrito em JavaScript e todo o código -fonte está disponível no [Github][12] com documentação sobre desenvolvimento e implantação.
 
 ## pacientes e módulos de agendamento {#modules}
 Nesta seção, passaremos pelo painel deste sistema de gerenciamento de informações hospitalares. Depois de fazer login, você pousará no painel do Hospitalrun, como mostrado na imagem abaixo.
@@ -56,19 +56,21 @@ A imagem é sobre a criação de uma representação visual de algo digitalizand
 
 ## Conclusão {#conclusion}
 Este é o fim deste post do blog. De fato, a maioria das instituições de saúde depende das operações manuais. Pode ser vulnerável em relação à segurança e integridade dos dados. No entanto, os sistemas automatizados garantem que os aspectos básicos e mais críticos das operações de saúde de rotina. Portanto, a instalação de um bom gerente de registro médico de código aberto protege seus ativos de fontes não autorizadas e ajuda a executar tarefas de rotina com facilidade e confiança. Esses software de código aberto sincronizam várias entidades, como médicos, pacientes, clínicas, laboratórios e facilitam o fluxo de trabalho. O ponto principal é que é hora de adotar um software de código aberto para o seu hospital ou clínica contra os desafios mais recentes. Você pode economizar seu tempo e esforços e se concentrar em tarefas importantes e críticas.
-Finalmente, [contendeRize.com] [2] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato com a categoria [Healthcare Technologies] [1] para notícias e atualizações regulares.
+Finalmente, [contendeRize.com][2] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato com a categoria [Healthcare Technologies][1] para notícias e atualizações regulares.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  * [Openemr] [13]
-  * [OpenMrs] [14]
-  * [HospitalRun] [15]
-  * [Hospital aberto] [16]
-  * [Solismed] [17]
-  * [Software de registro de saúde do paciente de código aberto 5] [3]
-  * [Apresenta a exploração da solução de saúde médica OpenEMR] [4]
-  * [Como configurar o Sistema de eHealth Hospitalrun no host local] [18]
-  * [Como o software de saúde on -line capacita a indústria de saúde] [5]
+  * [Openemr][13]
+  * [OpenMrs][14]
+  * [HospitalRun][15]
+  * [Hospital aberto][16]
+  * [Solismed][17]
+  * [Software de registro de saúde do paciente de código aberto 5][3]
+  * [Apresenta a exploração da solução de saúde médica OpenEMR][4]
+  * [Como configurar o Sistema de eHealth Hospitalrun no host local][18]
+  * [Como o software de saúde on -line capacita a indústria de saúde][5]
+
+  
 [1]: https://products.containerize.com/healthcare-technologies/
 [2]: https://www.containerize.com/
 [3]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/

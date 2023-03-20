@@ -14,10 +14,10 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket.png" alt="Cómo configurar el software de mesa de ayuda en línea usando Osticket">}}
 
 Osticket es una solución de software de mesa de ayuda en línea de código abierto. Osticket HelpDesk es una alternativa gratuita a los sistemas de atención al cliente de alto costo y complejos. Es simple, liviano, confiable, basado en la web y fácil de configurar y usar. La mejor parte es que es completamente gratis. Cubriremos las siguientes secciones en este tutorial:
-  * [¿Qué es Osticket?] [1]
-  * [Pros y contras de Osticket] [2]
-  * [¿Cómo configurar Osticket?] [3]
-  * [Conclusión] [4]
+  * [¿Qué es Osticket?][1]
+  * [Pros y contras de Osticket][2]
+  * [¿Cómo configurar Osticket?][3]
+  * [Conclusión][4]
 
 ## ¿Qué es Osticket? {#osticket}
 Osticket proporciona un panel de control fácil de usar y un componente de informes en tiempo real. Los usuarios pueden iniciar sesión y crear los boletos en algunos pasos sencillos. Pueden crear boletos a través de su sitio web, correo electrónico o teléfono. Los boletos entrantes se guardarán y asignarán a los agentes. Los agentes recibirán notificaciones por correo electrónico y responderán a las consultas para ayudar a resolver sus problemas. Los clientes y agentes pueden discutir detalles y progresos en la sección de comentarios. Los clientes pueden realizar un seguimiento de sus solicitudes y progresos a través del portal de clientes incorporado proporcionado por este software de mesa de ayuda en línea.
@@ -153,11 +153,13 @@ chmod 0644 include/ost-config.php
 Osticket es el más adecuado para empresas con bajo presupuesto o aquellas que desean un sistema de mesa de ayuda simple y no complejo. Es simple, liviano, confiable, de código abierto y software de mesa de ayuda en línea totalmente gratuito. Lo que hace de Osticket una gran alternativa a los sistemas de atención al cliente de mayor costo. Para obtener más información sobre las funciones y la guía de instalación de Osticket, consulte el siguiente tutorial.
 
 ## Explorar
-[Software de mesa de ayuda de TI y de código abierto y gratuito] [5]
-[Sistema popular de asistencia basada en boletos gratuitos y atención al cliente] [6]
-[Una guía para principiantes para desarrollar el complemento de Osticket] [7]
-[Cómo implementar la tenencia múltiple en Osticket] [8]
-[Automatizar el sistema de tickets usando WordPress y Osticket] [9]
+[Software de mesa de ayuda de TI y de código abierto y gratuito][5]
+[Sistema popular de asistencia basada en boletos gratuitos y atención al cliente][6]
+[Una guía para principiantes para desarrollar el complemento de Osticket][7]
+[Cómo implementar la tenencia múltiple en Osticket][8]
+[Automatizar el sistema de tickets usando WordPress y Osticket][9]
+
+  
 [1]: #osticket
 [2]: #pros
 [3]: #how

@@ -14,10 +14,10 @@ categories: ['Uncategorized']
 {{< figure align=center src="images/bitwarden.png" alt="Administradores de contraseñas de código abierto | Bitwarden vs Passbolt|Administradores de contraseñas de código abierto | Bitwarden vs Passbolt">}}
 
 Cuando se trata de encontrar un administrador de contraseñas que no solo funcione para uso individual, sino que permite a los equipos y empresas administrar y acceder a la información confidencial, encontrar el administrador de contraseñas adecuado puede ayudar a aliviar el flujo de trabajo. Bitwarden y Passbolt son el software de Administrador de contraseñas de código abierto, que se han diseñado específicamente para equipos y permiten a las empresas alojar las aplicaciones localmente o en la nube. Cubriremos los siguientes temas en esta publicación para comparar BitWarden vs Passbolt:
-  * [¿Qué es BitWarden?] [1]
-  * [¿Qué es Passbolt?] [2]
-  * [Diferencias principales] [3]
-  * [Conclusión] [4]
+  * [¿Qué es BitWarden?][1]
+  * [¿Qué es Passbolt?][2]
+  * [Diferencias principales][3]
+  * [Conclusión][4]
 
 ## ** ¿Qué es Bitwarden? **
 BitWarden es un prometedor Administrador de contraseñas de código abierto que tiene compatibilidad de plataforma cruzada que incluye una aplicación móvil y web junto con la interfaz de línea de comandos también. También puede acceder a BitWarden en su escritorio, ya que tiene compatibilidad con Windows, MacOS y Linux. Como administrador de contraseñas de código abierto, BitWarden se puede utilizar para uso individual, así como a nivel empresarial. No solo puede alojar bitwarden en sus servidores, sino que también tiene alojamiento de nubes, y con la compatibilidad del dispositivo cruzado se puede acceder cuando lo necesite.
@@ -53,9 +53,11 @@ En esta publicación, tratamos de revisar la comparación de detalles de Bitward
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-[Bitwarden | Open Source Manager de contraseña de plataforma cruzada] [5]
-[Passbolt | Administrador de contraseñas de código abierto, abierto y autohostado] [6]
-[Configurar y administrar el Administrador de contraseñas Keepass para Windows] [7]
+[Bitwarden | Open Source Manager de contraseña de plataforma cruzada][5]
+[Passbolt | Administrador de contraseñas de código abierto, abierto y autohostado][6]
+[Configurar y administrar el Administrador de contraseñas Keepass para Windows][7]
+
+  
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

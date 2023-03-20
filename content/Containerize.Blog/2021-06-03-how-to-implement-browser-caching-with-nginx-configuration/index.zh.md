@@ -13,12 +13,12 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="如何使用Nginx配置实现Browsr缓存">}}
 
-在我们的NGINX的教程系列中，我们介绍了[如何将NGINX用作负载平衡器] [1] [1]，[将nginx作为反向代理] [2] [2]，[使用多个PHP版本与Nginx] [3]和[转换HTACCESS重新写入NGINX重写指令的规则] [4]。在今天的文章中，我们介绍了一个非常重要的主题，该主题可以通过利用浏览器缓存来帮助企业改善用户的体验。在本教程中，我们将指导您如何使用NGINX的标头模块实现Nginx配置的浏览器缓存。让我们开始吧！
-  *** [杠杆浏览器缓存] [5] **
-  *[** nginx标头模块**] [6]
-  *[** e-tage and if-none-Match **] [7]
-  *[**使用nginx配置杠杆浏览器缓存**] [8]
-  *[**结论**] [9]
+在我们的NGINX的教程系列中，我们介绍了[如何将NGINX用作负载平衡器][1][1]，[将nginx作为反向代理][2][2]，[使用多个PHP版本与Nginx][3]和[转换HTACCESS重新写入NGINX重写指令的规则][4]。在今天的文章中，我们介绍了一个非常重要的主题，该主题可以通过利用浏览器缓存来帮助企业改善用户的体验。在本教程中，我们将指导您如何使用NGINX的标头模块实现Nginx配置的浏览器缓存。让我们开始吧！
+  *** [杠杆浏览器缓存][5] **
+  *[** nginx标头模块**][6]
+  *[** e-tage and if-none-Match **][7]
+  *[**使用nginx配置杠杆浏览器缓存**][8]
+  *[**结论**][9]
 
 ## 利用浏览器缓存{#浏览器 -  caching}
 网站加载的速度越快，访问者越有可能留在网站上。具有大量图像和交互式内容的网站在后台加载使网站打开一个复杂的任务。它包括从服务器一一请求许多不同的文件。最小化这些请求的数量是加快网站的一种方法。
@@ -108,8 +108,10 @@ location ~* \.(js|jpg|gif|png|css)$ {
 NGINX的标头模块可用于将任何任意标头添加到响应中，但是正确设置高速缓存控制标头是其最有用的应用程序之一。它可以帮助您提高网站的性能，尤其是对于具有较高延迟的网络的用户，例如移动运营商网络。在本教程中，我们学会了如何利用NGINX配置来利用浏览器缓存。希望这将帮助您改善用户在网站上的体验。
 
 ## 探索
-  * [如何在Ubuntu上使用NGINX安装多个PHP版本] [3]
-  * [如何设置和配置为反向代理] [2]
+  * [如何在Ubuntu上使用NGINX安装多个PHP版本][3]
+  * [如何设置和配置为反向代理][2]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

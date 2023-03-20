@@ -13,14 +13,14 @@ O Joomla é um dos sistemas de gerenciamento de conteúdo de código aberto mais
 
 {{< figure align=center src="images/joomla-templates-2.png" alt="modelo de joomla básico">}}
 
-Nesta era digital, um sistema de gerenciamento de conteúdo é uma necessidade básica de qualquer negócio para todas as suas necessidades de criação de conteúdo. E há vários softwares de código aberto e CMS disponíveis no mercado. Também temos [listados] [1] alguns dos principais softwares de gerenciamento de conteúdo de código aberto para empresas. A Joomla é um dos softwares CMS de código aberto mais populares e, neste tutorial, o levaremos a passo a passo e explicaremos como criar um modelo Joomla a partir do zero. Então vamos começar!
+Nesta era digital, um sistema de gerenciamento de conteúdo é uma necessidade básica de qualquer negócio para todas as suas necessidades de criação de conteúdo. E há vários softwares de código aberto e CMS disponíveis no mercado. Também temos [listados][1] alguns dos principais softwares de gerenciamento de conteúdo de código aberto para empresas. A Joomla é um dos softwares CMS de código aberto mais populares e, neste tutorial, o levaremos a passo a passo e explicaremos como criar um modelo Joomla a partir do zero. Então vamos começar!
 ** NOTA: Assumimos que você tem sua versão do Joomla 2.5 instalada **
-  *** [Estrutura do diretório de configuração] [2] **
-  *** [Crie um modelo básico de modificado.xml] [3] **
-  *** [Crie um arquivo básico index.php] [4] **
-  *** [Descubra e instale o modelo] [5] **
-  *** [Pacote o modelo] [6] **
-  *** [Conclusão] [7] **
+  *** [Estrutura do diretório de configuração][2] **
+  *** [Crie um modelo básico de modificado.xml][3] **
+  *** [Crie um arquivo básico index.php][4] **
+  *** [Descubra e instale o modelo][5] **
+  *** [Pacote o modelo][6] **
+  *** [Conclusão][7] **
 
 ## Estrutura do diretório de configuração {#setup}
 Para criar um modelo Joomla muito básico primeiro, crie uma nova pasta na pasta Modelos. Nomeie a pasta, o que você quiser chamar seu modelo, por exemplo, “** myNewTemplate **“.
@@ -106,7 +106,9 @@ Neste artigo, aprendemos sobre o modelo Joomla. Passamos passo a passo sobre com
 
 Páginas de produto relevantes
 Você pode encontrar os seguintes links relevantes:
-  * [Guia de Desenvolvimento de modelo Joomla para os iniciantes] [8]
+  * [Guia de Desenvolvimento de modelo Joomla para os iniciantes][8]
+
+  
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

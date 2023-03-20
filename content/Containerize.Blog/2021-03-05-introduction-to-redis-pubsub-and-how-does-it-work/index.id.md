@@ -13,12 +13,12 @@ categories: ['Database Management Software']
 
 {{< figure align=center src="images/redis-pub-sub.png" alt="Redis Pub Sub">}}
 
-Dalam tutorial terakhir kami “** [Panduan Pemula untuk Redis In-Memory Database] [1] **” Kami belajar tentang Redis sebagai database dalam memori. Dan, bagaimana ini bersaing dengan database NoSQL. Kami juga belajar di mana menggunakan Redis dan di mana penggunaannya tidak optimal. Sekarang membangun di atas basis pengetahuan itu, dalam tutorial ini kita akan belajar tentang Redis Pub/Sub, bagaimana cara kerjanya, dan apa penggunaan terbaik dari sistem Redis Publish/Berlangganan. Mari kita mulai.
-  *** [Apa itu Pola Publik/Berlangganan?] [2] **
-  *** [Bagaimana pub/sub bekerja?] [3] **
-  *** [Kapan Anda harus menggunakan pub/sub?] [4] **
-  *** [Cara menggunakan redis pub/sub?] [5] **
-  *** [Kesimpulan] [6] **
+Dalam tutorial terakhir kami “** [Panduan Pemula untuk Redis In-Memory Database][1] **” Kami belajar tentang Redis sebagai database dalam memori. Dan, bagaimana ini bersaing dengan database NoSQL. Kami juga belajar di mana menggunakan Redis dan di mana penggunaannya tidak optimal. Sekarang membangun di atas basis pengetahuan itu, dalam tutorial ini kita akan belajar tentang Redis Pub/Sub, bagaimana cara kerjanya, dan apa penggunaan terbaik dari sistem Redis Publish/Berlangganan. Mari kita mulai.
+  *** [Apa itu Pola Publik/Berlangganan?][2] **
+  *** [Bagaimana pub/sub bekerja?][3] **
+  *** [Kapan Anda harus menggunakan pub/sub?][4] **
+  *** [Cara menggunakan redis pub/sub?][5] **
+  *** [Kesimpulan][6] **
 
 ## Apa itu pola publikasi/berlangganan? {#Apa}
 Publikasikan/berlangganan atau dalam pub/sub pendek adalah pola pesan di mana pengirim dan penerima pesan tidak menukar pesan tersebut secara langsung. Sebaliknya, pengirim pesan menerbitkannya ke saluran/topik. Dan, semua orang yang ingin menerima pesan -pesan itu akan berlangganan saluran/topik. Jadi, itu lebih merupakan penjelasan teknis. Dalam kehidupan sehari-hari kami, kami menggunakan model yang berlangganan ini cukup sering saat menggunakan platform media sosial seperti YouTube, Twitter, Facebook, atau Instagram. Di mana produsen konten menghasilkan konten dan mereka yang tertarik akan mengikuti / berlangganan konten. Jadi inilah yang sebenarnya dilakukan oleh Pub/Sub Pattern dalam arsitektur perangkat lunak.
@@ -69,6 +69,8 @@ redis 127.0.0.1:6379> PUBLISH redisChat "Learn redis"
 
 ## kesimpulan {#conclusion}
 Dalam tutorial ini, kami belajar tentang pola desain publikasi/berlangganan. Dan mengeksplorasi bagaimana pub/sub Redis bekerja. Kami juga mengeksplorasi kasus penggunaan terbaik dari Redis Pub/Sub, pesan waktu nyata. Dalam tutorial saya yang akan datang, kami akan menjelajahi Redis lebih lanjut dan menjelaskan bagaimana kami dapat menggunakan Redis Pub/Sub dengan Node.js untuk membangun aplikasi obrolan real-time.
+
+  
 [1]: https://blog.containerize.com/database-management-software/a-beginners-guide-to-redis-in-memory-database/
 [2]: #what
 [3]: #how

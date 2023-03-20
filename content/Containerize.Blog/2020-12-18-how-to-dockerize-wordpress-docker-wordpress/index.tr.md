@@ -15,13 +15,13 @@ categories: ['Blogging']
 
 
 ## Genel Bakış
-Açık kaynaklı yazılım kategorisinde [bloglama] [1] kategorisindeki başka bir blog yayınına hoş geldiniz. [Ücretsiz Civicrm WordPress Entegrasyonu ile Potansiyel Kaldırma] [2], [Web sitenizi WordPress ve Gatsby ile nasıl oluşturulur] [3] ve biraz daha fazlası gibi konularda bazı makaleler yayınladık. Ancak, bu makale açık kaynaklı bloglama platformları ve ** konteyner yazılımı ** hakkında daha fazla bilgi ve ayrıntılar getirecektir. Docker & ** Docker Compose ** nasıl yükleneceği gibi bazı sıcak soruları inceleyeceğiz ** ve WordPress'i nasıl dockerize edeceğimizi öğreneceğiz.
+Açık kaynaklı yazılım kategorisinde [bloglama][1] kategorisindeki başka bir blog yayınına hoş geldiniz. [Ücretsiz Civicrm WordPress Entegrasyonu ile Potansiyel Kaldırma][2], [Web sitenizi WordPress ve Gatsby ile nasıl oluşturulur][3] ve biraz daha fazlası gibi konularda bazı makaleler yayınladık. Ancak, bu makale açık kaynaklı bloglama platformları ve ** konteyner yazılımı ** hakkında daha fazla bilgi ve ayrıntılar getirecektir. Docker & ** Docker Compose ** nasıl yükleneceği gibi bazı sıcak soruları inceleyeceğiz ** ve WordPress'i nasıl dockerize edeceğimizi öğreneceğiz.
 Konteynerizasyon, sanallaştırmaya alternatif olarak yazılım geliştirmede önemli bir eğilim haline gelmiştir. Herhangi bir altyapı üzerinde tutarlı bir şekilde çalışabilmesi için yazılım kodunu ve tüm bağımlılıklarını kapsüllemeyi veya bir araya getirmeyi içerir. Konteynerizasyon, geliştiricilerin uygulamalar daha hızlı ve daha güvenli bir şekilde oluşturmasına ve dağıtmasına olanak tanır. Docker, geliştirici topluluğunda kullanılan en popüler kapsayıcı uygulamasıdır. Bu öğreticide, Docker Compose'u kullanarak WordPress'i nasıl dockerize edeceğimizi öğreneceğiz. Öyleyse, aşağıdaki noktalara başlayalım.
-  *[** Docker nedir? **] [4]
-  *[** Neden WordPress **?] [5]
-  *** [Docker Compose nasıl yüklenir] [6] **
-  *** [WordPress Dockerize] [7] **
-  *** [Sonuç] [8] **
+  *[** Docker nedir? **][4]
+  *[** Neden WordPress **?][5]
+  *** [Docker Compose nasıl yüklenir][6] **
+  *** [WordPress Dockerize][7] **
+  *** [Sonuç][8] **
 
 ## Docker nedir? {#liman işçisi}
 Basit bir deyişle, Docker sanallaştırmayı daha hızlı ve daha hafif yapan açık kaynaklı ** konteyner yazılımı **'dır. O kadar hafif ki, bir Docker kabı sadece birkaç saniye içinde başlatılabilir. Ve düzinelerce Docker kapsayıcısını tek bir PC'ye kolayca çalıştırabilirsiniz. Geliştiriciler, kapsayıcılar kullanarak uygulamaları oluşturmak, dağıtmak ve çalıştırmak için Docker'ı kullanır. Konteynerler, bir geliştiricinin, kütüphaneler ve diğer bağımlılıklar gibi ihtiyaç duyduğu tüm parçalarla bir uygulamayı paketlemesine ve tek bir paket olarak dağıtmasına izin verir. Bunu yaparak, geliştirici uygulamanın herhangi bir altyapı üzerinde çalışacağından emin olabilir. Buna ek olarak, herhangi bir alaka düzeyinde en büyük yardım sağlamak için her zaman canlı olan büyük bir geliştirici ve destek topluluğu vardır. Docker, güçlü özellikleri ve kullanımları nedeniyle herhangi bir yazılım kuruluşunun olmazsa olmaz bir bileşeni haline gelmiştir.
@@ -35,7 +35,7 @@ Bir geliştirici makinesi, sahne veya canlı sunucu ve hangi işletim sisteminin
 
 ### Önkoşullar
 WordPress'i Docker kapları ile oluşturulan izole edilmiş bir ortamda kolayca çalıştırmak için Docker Compose'u kullanabilirsiniz. Bu kılavuz, WordPress'i ayarlamak ve çalıştırmak için Compose'un nasıl kullanılacağını gösterir.
-Docker Compose, Docker motoruna dayanır, bu nedenle Docker motoru takıldığınızdan emin olun. Mac ve Windows için Docker Desktop gibi masaüstü sistemlerinde Docker Compose, bu masaüstü yüklerinin bir parçası olarak dahil edilir. Bununla birlikte, önce Linux Systems'a, [resmi rehberleri] [9] izleyerek Docker motorunu takın.
+Docker Compose, Docker motoruna dayanır, bu nedenle Docker motoru takıldığınızdan emin olun. Mac ve Windows için Docker Desktop gibi masaüstü sistemlerinde Docker Compose, bu masaüstü yüklerinin bir parçası olarak dahil edilir. Bununla birlikte, önce Linux Systems'a, [resmi rehberleri][9] izleyerek Docker motorunu takın.
 
 ### Linux'a besteyi yükleyin
 Docker Compose'un mevcut kararlı sürümünü indirmek için bu komutu çalıştırın:
@@ -101,21 +101,23 @@ http://localhost:8000
 
 ## Sonuç {#Conclusion}
 Bu bizi bu blog yazısının sonuna getiriyor. Bu makalede, Docker'ın ne olduğunu öğrendik, ** Docker Compose ** nasıl yükleneceğini öğrendik **. Ayrıca WordPress'i Docker-Compose kullanarak nasıl öğrendiğini öğrendik. Buna ek olarak, sizi Docker'ın arkasındaki konsepte ve basit çoklu kontain uygulamalarını nasıl tanımlayabileceğinizi tanıttık. Ancak, bu açık kaynak ** kapsayıcı yazılımı ** tüm yazılım kuruluşları için önde gelen bir seçenektir. Bu nedenle, uygulamalarınız için Docker'ı tercih etmek istiyorsanız, bu makale gerçekten size yardımcı olacaktır. Aşağıdaki “Keşfet” bölümünde listelenen diğer birçok ilgili makale ve blog yazılımı vardır.
-Son olarak, [Containerize.com] [10] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [bloglama] [1] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook] [11], [LinkedIn] [12] ve [Twitter] [13] 'te takip edebilirsiniz.
+Son olarak, [Containerize.com][10] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [bloglama][1] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [WordPress] [14]
-  * [Jekyll] [15]
-  * [Söylem] [16]
-  * [Hayalet] [17]
-  * [WordPress'i Docker Compose ile DockPress nasıl yapılır] [18]
-  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın] [2]
-  * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin] [19]
-  * [Söylem Forumu WordPress ile nasıl entegre edilir] [20]
-  * [İlk 7 SEO blogunu takip ederek web sitesi arama trafiğini artırın] [21]
-  * [Web sitenizi WordPress ve Gatsby ile nasıl oluşturursunuz] [3]
-  * [Daha İyi Pagspeed ve SEO için WordPress'te GZIP Sıkıştırma Nasıl Etkinleştirilir] [22]
+  * [WordPress][14]
+  * [Jekyll][15]
+  * [Söylem][16]
+  * [Hayalet][17]
+  * [WordPress'i Docker Compose ile DockPress nasıl yapılır][18]
+  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın][2]
+  * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin][19]
+  * [Söylem Forumu WordPress ile nasıl entegre edilir][20]
+  * [İlk 7 SEO blogunu takip ederek web sitesi arama trafiğini artırın][21]
+  * [Web sitenizi WordPress ve Gatsby ile nasıl oluşturursunuz][3]
+  * [Daha İyi Pagspeed ve SEO için WordPress'te GZIP Sıkıştırma Nasıl Etkinleştirilir][22]
+
+  
 [1]: https://products.containerize.com/blogging/
 [2]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
 [3]: https://blog.containerize.com/blogging/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/

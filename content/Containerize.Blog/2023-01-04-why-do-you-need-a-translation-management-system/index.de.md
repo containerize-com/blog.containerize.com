@@ -15,12 +15,12 @@ categories: ['Software Development']
 
 
 ## Überblick
-Wir sind nach einer Pause zurück und freuen uns, konsistente Artikel über interessante und trendige Themen in der Welt der Open-Source-Software zu schreiben. Darüber hinaus müssen Sie wissen, dass diese Plattform Sie über jedes neue kommende [Open-Source-Projekt] [1] auf dem Laufenden halten, das möglicherweise einen Mehrwert für Ihre vorhandene Business-Software verleiht.
+Wir sind nach einer Pause zurück und freuen uns, konsistente Artikel über interessante und trendige Themen in der Welt der Open-Source-Software zu schreiben. Darüber hinaus müssen Sie wissen, dass diese Plattform Sie über jedes neue kommende [Open-Source-Projekt][1] auf dem Laufenden halten, das möglicherweise einen Mehrwert für Ihre vorhandene Business-Software verleiht.
 In diesem Blog -Beitrag werden wir versuchen, das**Übersetzungsmanagementsystem**aus verschiedenen Perspektiven zu erklären. Wie**Globalisierung und Lokalisierung**können Ihrer Online -Business -Site zugute kommen. Darüber hinaus werden wir auch die Automatisierung der Übersetzungsmanagementsoftware untersuchen.
 Die folgenden Punkte werden in diesem Artikel behandelt:
-  * [Was ist ein Übersetzungsmanagementsystem?] [2]
+  * [Was ist ein Übersetzungsmanagementsystem?][2]
   * [Wie funktioniert es und was bietet es? ][3]
-  * [Geschäftsvorteile von Globalisierung und Lokalisierung] [4]
+  * [Geschäftsvorteile von Globalisierung und Lokalisierung][4]
 
 ## Was ist ein Übersetzungsmanagementsystem? {#What-is-a-Translation-Management-System}
 A**Übersetzungsmanagementsystem (TMS)**verwaltet und automatisiert die Übersetzungen Ihrer Website/Software oder Anwendung. Diese Software nimmt Ihre Website -Dateien als Eingabe an, übersetzt sie in verschiedene Sprachen und aktualisiert die Website automatisch. Darüber hinaus verwaltet es nicht nur Übersetzungen, sondern bietet auch eine integrierte Plattform, auf der Mitarbeiter und Redakteure nahtlos interagieren können.
@@ -35,7 +35,7 @@ Der coolste Teil einer Open-Source-Übersetzungsmanagementsoftware ist, dass Sie
 Im Folgenden finden Sie die Kernmerkmale eines jeden Übersetzungsmanagementsystems (TMZ):
 
 ####**API für Integrationen von Drittanbietern**
-Ein TMS**ein Unternehmensebene bietet immer eine API, die zur Integration mit anderen Anwendungen und Translationsmodulen wie [i18n] [5] verwendet wird.
+Ein TMS**ein Unternehmensebene bietet immer eine API, die zur Integration mit anderen Anwendungen und Translationsmodulen wie [i18n][5] verwendet wird.
 
 #### Globale Suche
 In einem Übersetzungsmanagementsystem wird es Tausende von Übersetzungsprojekten geben, und wenn es immense Zeit in Anspruch nehmen könnte, um einen bestimmten Datensatz aus so vielen Übersetzungsdateien zu durchsuchen. Daher ist ein gutes TMS mit einer reibungslosen globalen Suchfunktion ausgestattet, mit der ein bestimmter Datensatz wie eine Zeichenfolge gesucht wird.
@@ -66,10 +66,10 @@ Dies ist einer der Top -Vorteile der Lokalisierung und Globalisierung Ihrer Gesc
 
 ## Zusammenfassen
 Dies führt uns zum Ende dieses Blog -Beitrags. Wir hoffen, dass Sie diesen Artikel gründlich durchgemacht haben und das Ökosystem eines Übersetzungsmanagementsystems verstanden haben. Darüber hinaus gibt es viele Open-Source-Übersetzungsmanagementsoftware, die Website-Lokalisierungsdienste anbietet. Es liegt jedoch an Ihnen, die Wahl zu treffen und gleichzeitig Ihre geschäftlichen Bedürfnisse im Auge zu behalten. Darüber hinaus ist die Lokalisierung der Website eine Muss für jede Geschäftswebsite.
-Schließlich schreibt [**Containerize.com**] [6] Artikel über weitere Open-Source-Produkte. Bitte bleiben Sie für regelmäßige Updates in Kontakt.
+Schließlich schreibt [**Containerize.com**][6] Artikel über weitere Open-Source-Produkte. Bitte bleiben Sie für regelmäßige Updates in Kontakt.
 
 ## stellen Sie eine Frage {#ASCE-A-A-QUESTION}
-Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [7] informieren.
+Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][7] informieren.
 
 ## FAQs {#faqs}
 
@@ -77,13 +77,15 @@ Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [7] informier
 Ja, wenn Sie mit einer großen Menge an Inhalten zu tun haben, die statische und dynamische Ressourcen beinhaltet. Sie können also eine Open-Source-Software für Übersetzungsverwaltung**zur Automatisierung und Verwaltung der Übersetzungen hosten.
 
 ####**Was sind die Vorteile von TMS?**
-Bitte besuchen Sie diesen [Link] [4], um die Vorteile eines Übersetzungsmanagementsystems zu kennen.
+Bitte besuchen Sie diesen [Link][4], um die Vorteile eines Übersetzungsmanagementsystems zu kennen.
 
 ## Siehe auch {#See-Also}
-  * [Versionskontrollsoftware] [8]
-  * [Marketing Automatisierung] [9]
-  * [Bereitstellungswerkzeuge] [10]
-  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software] [11]
+  * [Versionskontrollsoftware][8]
+  * [Marketing Automatisierung][9]
+  * [Bereitstellungswerkzeuge][10]
+  * [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][11]
+
+  
 [1]: https://products.containerize.com/
 [2]: #What-is-a-translation-management-system
 [3]: #How-does-it-work-and-what-does-it-offer

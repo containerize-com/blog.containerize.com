@@ -15,22 +15,22 @@ categories: ['Blockchain Platforms']
 
 
 ## Genel Bakış
-Yakın geçmişte, blockchain teknolojisinin etkisini ve önemini vurgulayan bir [blog yazısı] [1] yayınladık. Başka bir ilginç blog yazısı var [NFT nedir? | Fungible olmayan jetonlar açıklandı] [2]. Dağıtılmış defter teknolojisi, akıllı sözleşmeler, düğümler, madencilik, konsensüs algoritmaları, dijital işlemler ve eşler arası ağlar gibi bazı temel kavramlara dayanmaktadır. Bu nedenle açık kaynak olduğu için, kullanım durumları ile ilgili bir uzantı için büyük bir pencere vardır. Aslında, dağıtılmış ve işlemleri yönetmek için bazı yazılımlar gerektiren birçok açık kaynak ve ücretsiz dijital varlık yönetimi platformu vardır.
+Yakın geçmişte, blockchain teknolojisinin etkisini ve önemini vurgulayan bir [blog yazısı][1] yayınladık. Başka bir ilginç blog yazısı var [NFT nedir? | Fungible olmayan jetonlar açıklandı][2]. Dağıtılmış defter teknolojisi, akıllı sözleşmeler, düğümler, madencilik, konsensüs algoritmaları, dijital işlemler ve eşler arası ağlar gibi bazı temel kavramlara dayanmaktadır. Bu nedenle açık kaynak olduğu için, kullanım durumları ile ilgili bir uzantı için büyük bir pencere vardır. Aslında, dağıtılmış ve işlemleri yönetmek için bazı yazılımlar gerektiren birçok açık kaynak ve ücretsiz dijital varlık yönetimi platformu vardır.
 Bu akıllı sözleşme öğreticisinde, aşağıdaki mermi noktalarını kapsayarak bir Ethereum akıllı sözleşmesinin nasıl kurulacağını öğreneceğiz.
-  *[** Akıllı sözleşme nedir? **] [3]
-  *[** Temel Akıllı Bir Sözleşme Nasıl Oluşturulur? **] [4]
-  *[** Akıllı sözleşme nasıl çalıştırılır ve dağıtılır? **] [5]
-  *[** Sonuç **] [6]
+  *[** Akıllı sözleşme nedir? **][3]
+  *[** Temel Akıllı Bir Sözleşme Nasıl Oluşturulur? **][4]
+  *[** Akıllı sözleşme nasıl çalıştırılır ve dağıtılır? **][5]
+  *[** Sonuç **][6]
 
 ## Akıllı sözleşme nedir? {#Ne}
 Akıllı sözleşme, dijital işlemleri yönetmek için blok zincirinde çalışan bir programdır. Bu kod parçası, bir işlemin şeffaflığını sağlayan tanımlanmış kural ve prosedürleri içerir. Her akıllı sözleşme bir adres içerir ve bu adres belirli bir akıllı sözleşmenin herhangi bir işleve erişmek için kullanılır. Buna ek olarak, akıllı sözleşmeler blockchain ağına şeffaflık, güven ve güvenlik getiriyor. Bu kod parçaları belirli koşullar yerine getirildikten sonra otomatik olarak yürütülür.
-Ancak, herhangi bir geliştirici akıllı bir sözleşme yazabilir ve ağ üzerinden dağıtabilir. Ayrıca, akıllı sözleşmeler, bu kod parçalarının yürütülmesine bağımlılık olmadığı için süreçleri oldukça sağlam hale getirir. Ayrıca, akıllı sözleşmeler, katılımcıların alabileceği ve doğrulayabileceği her işlemle ilgili gerekli bilgileri depolar. Sağlık, bankacılık gibi birçok endüstri, bu dağıtılmış defter teknolojisini büyük ölçüde benimsiyor. Hükümet kurumları ayrıca seçim sistemine özgünlük ve şeffaflık getirmek için merkezi olmayan uygulamalar (DAPP'ler) kullanmaya heveslidir. [Ethereum] [8], [Ripple] [9], [Corda] [10] gibi birçok [blockchain platformu] [7] var ve biraz daha fazlası, bu kılavuzda ilk akıllı sözleşmemizi oluşturacağız Ethereum'da.
+Ancak, herhangi bir geliştirici akıllı bir sözleşme yazabilir ve ağ üzerinden dağıtabilir. Ayrıca, akıllı sözleşmeler, bu kod parçalarının yürütülmesine bağımlılık olmadığı için süreçleri oldukça sağlam hale getirir. Ayrıca, akıllı sözleşmeler, katılımcıların alabileceği ve doğrulayabileceği her işlemle ilgili gerekli bilgileri depolar. Sağlık, bankacılık gibi birçok endüstri, bu dağıtılmış defter teknolojisini büyük ölçüde benimsiyor. Hükümet kurumları ayrıca seçim sistemine özgünlük ve şeffaflık getirmek için merkezi olmayan uygulamalar (DAPP'ler) kullanmaya heveslidir. [Ethereum][8], [Ripple][9], [Corda][10] gibi birçok [blockchain platformu][7] var ve biraz daha fazlası, bu kılavuzda ilk akıllı sözleşmemizi oluşturacağız Ethereum'da.
 
 ## Temel Akıllı Sözleşme Nasıl Oluşturulur? {#inşa etmek}
 Akıllı sözleşme öğreticisinin bu bölümünde, ilk akıllı sözleşmemiz için çevreyi ayarlama adımlarını göreceğiz.
-Akıllı sözleşmeler birçok dilde yazılabilir, ancak akıllı sözleşmeler yazmak için üst düzey bir dil olan [sağlamlık] [11] kullanacağız.
-Web tabanlı bir IDE olan [Ethereum Studio] [12] kullanacağız. Akıllı sözleşmelerin yanı sıra akıllı sözleşmelerle etkileşim kurmak için merkezi olmayan uygulamalar yazmak için kullanılır. Mantığınızı hemen yazmaya başlayabileceğiniz önceden inşa edilmiş bazı proje şablonları sağlar.
-Bu nedenle, [Ethereum Studio] [12] IDE'yi tarayıcıya açın ve aşağıdaki arayüzü göreceksiniz.
+Akıllı sözleşmeler birçok dilde yazılabilir, ancak akıllı sözleşmeler yazmak için üst düzey bir dil olan [sağlamlık][11] kullanacağız.
+Web tabanlı bir IDE olan [Ethereum Studio][12] kullanacağız. Akıllı sözleşmelerin yanı sıra akıllı sözleşmelerle etkileşim kurmak için merkezi olmayan uygulamalar yazmak için kullanılır. Mantığınızı hemen yazmaya başlayabileceğiniz önceden inşa edilmiş bazı proje şablonları sağlar.
+Bu nedenle, [Ethereum Studio][12] IDE'yi tarayıcıya açın ve aşağıdaki arayüzü göreceksiniz.
 
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-5.01.30-PM-1024x554.png" alt="Akıllı sözleşme öğreticisi">}}
 
@@ -71,22 +71,24 @@ Ayrıca, kullanıcıların tarayıcıdan akıllı sözleşme ile etkileşime gir
 
 ## Sonuç {#con}
 Bu bizi bu akıllı sözleşme öğreticisinin sonuna getiriyor. Umarım bu makale Ethereum akıllı sözleşmesinin oluşturulmasının ve konuşlandırılmasının temel adımlarını anlamanıza yardımcı oldu. Blockchain teknolojisi yüksek bir hızda geliştikçe, blockchain'in yankı sistemi üzerinde güçlü uygulamalı uygulama kazanmanın zamanı geldi. Bu dağıtılmış defter teknolojisi son derece yapılandırılabilir ve genişletilebilir. Akıllı sözleşme geliştirme öğrenmek istiyorsanız bu blog yazısı size gerçekten yardımcı olacaktır. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen birçok yararlı öğretici ve açık kaynaklı dijital varlık yönetimi platformları vardır.
-Sonunda, [Containerize.com] [13] açık kaynaklı yazılım listesini derlemeye tamamen adanmıştır. Açık kaynaklı yazılım hakkında birçok öğretici ve blog yazısı vardır ve boru hattında bir dizi blog yazısı vardır. Bu nedenle, düzenli güncellemeler için lütfen [Blockchain Platformları] [7] kategorisiyle iletişime geçin.
+Sonunda, [Containerize.com][13] açık kaynaklı yazılım listesini derlemeye tamamen adanmıştır. Açık kaynaklı yazılım hakkında birçok öğretici ve blog yazısı vardır ve boru hattında bir dizi blog yazısı vardır. Bu nedenle, düzenli güncellemeler için lütfen [Blockchain Platformları][7] kategorisiyle iletişime geçin.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Ethereum] [8]
-  * [Hiperledger kumaş] [14]
-  * [Openchain] [15]
-  * [Ripple] [16]
-  * [MultiCain] [17]
-  * [Consensys Quorum] [18]
-  * [NFT nedir? | Fungible olmayan jetonlar açıklandı] [2]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [19]
-  * [2020'de Top 5 Açık Kaynak Blockchain Platformu] [20]
-  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber] [21]
-  * [Merkezi olmayan teknoloji iş stratejinizi ne kadar yükseltiyor] [22]
-  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur] [19]
+  * [Ethereum][8]
+  * [Hiperledger kumaş][14]
+  * [Openchain][15]
+  * [Ripple][16]
+  * [MultiCain][17]
+  * [Consensys Quorum][18]
+  * [NFT nedir? | Fungible olmayan jetonlar açıklandı][2]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][19]
+  * [2020'de Top 5 Açık Kaynak Blockchain Platformu][20]
+  * [Ethereum akıllı sözleşmenin nasıl oluşturulacağı hakkında temel bir rehber][21]
+  * [Merkezi olmayan teknoloji iş stratejinizi ne kadar yükseltiyor][22]
+  * [Consensys Quorum Blockchain Ağı Yerel Olarak Nasıl Kurulur][19]
+
+  
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
 [3]: #what

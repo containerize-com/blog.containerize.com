@@ -15,10 +15,10 @@ categories: ['Shopping Cart Software']
 
 ** Prestashop ** est un logiciel de commerce électronique 100% gratuit et open source. Cela permet aux propriétaires de magasins de mettre en place facilement leur présence en ligne et de mettre à l'échelle les affaires à grande échelle. Prestashop est livré avec des fonctionnalités par défaut et vous pouvez avoir besoin de plus de fonctionnalités pour les besoins de votre entreprise occasionnellement. Le marché de Prestashop est un endroit fantastique pour trouver des fonctionnalités supplémentaires qui peuvent être utilisées pour étendre les fonctionnalités des magasins. De plus, vous pouvez trouver des modules gratuits et payants sur Marketplace. Cependant, vous pouvez également créer un module personnalisé à partir de zéro.
 Nous discuterons en détail des sujets ci-dessous pour ** créer le module Prestashop **.
-  * [Exigences] [1]
-  * [Bases du développement des modules] [2]
-  * [Créez notre module Prestashop] [3]
-  * [Conclusion] [4]
+  * [Exigences][1]
+  * [Bases du développement des modules][2]
+  * [Créez notre module Prestashop][3]
+  * [Conclusion][4]
 
 ## exigences {#req}
   * Installez Prestashop 1.6 ou plus.
@@ -96,12 +96,14 @@ public function hookRightColumn($params)
   * Enfin, ouvrez la section Administrateur, téléchargez et ** Installer le module Prestashop **.
 
 ## Conclusion {#conclusion}
-Nous avons discuté des concepts de base pour construire le module ** prestashop ** dans ce tutoriel. De plus, nous avons développé un module de base qui peut être utilisé comme point de départ pour plus de modules d'avance. [contenerize.com] [5] travaille toujours sur de nouveaux articles de blog de tutoriel. Pour les dernières mises à jour, veuillez rester en contact avec la catégorie [Logiciel de panier] [6].
+Nous avons discuté des concepts de base pour construire le module ** prestashop ** dans ce tutoriel. De plus, nous avons développé un module de base qui peut être utilisé comme point de départ pour plus de modules d'avance. [contenerize.com][5] travaille toujours sur de nouveaux articles de blog de tutoriel. Pour les dernières mises à jour, veuillez rester en contact avec la catégorie [Logiciel de panier][6].
 
 ## Explorer
 Vous pouvez trouver les liens suivants utiles en plus du ** Tutoriel de création du module PRESTASHOP **.
-  * [Prestashop - Logiciel de panier d'achat gratuit] [7]
-  * [Top 5 du logiciel de panier d'achat open source en 2020] [8]
+  * [Prestashop - Logiciel de panier d'achat gratuit][7]
+  * [Top 5 du logiciel de panier d'achat open source en 2020][8]
+
+  
 [1]: #Req
 [2]: #Basics
 [3]: #Create

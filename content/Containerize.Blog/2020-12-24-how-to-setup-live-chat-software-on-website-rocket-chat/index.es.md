@@ -15,17 +15,17 @@ categories: ['Live Chat']
 
 
 ## Descripción general
-Hemos publicado algunas publicaciones de blog relacionadas con el software de chat en vivo de código abierto como [Top 5 Software gratuito de chat de atención al cliente para el sitio web] [1], [Mensajes instantáneos de WordPress usando Rocket.Chat] [2] y algunos más. En esta publicación de blog, pasaremos por el mejor software líder de soporte al cliente Rocket.chat. Con el gran aumento en el tráfico en línea, a las empresas les resulta difícil entretener a una gran cantidad de consultas a tiempo. Los visitantes vienen a su sitio, tienden a adquirir información relacionada con los productos o servicios, y abandonan su sitio en caso de no recibir respuesta. Por lo tanto, el soporte de chat en vivo lo ayuda a saludar a sus clientes de manera activa mientras pasan por su sitio web. O, en caso de que necesiten ayuda y aclaración para tomar sus decisiones de compra.
+Hemos publicado algunas publicaciones de blog relacionadas con el software de chat en vivo de código abierto como [Top 5 Software gratuito de chat de atención al cliente para el sitio web][1], [Mensajes instantáneos de WordPress usando Rocket.Chat][2] y algunos más. En esta publicación de blog, pasaremos por el mejor software líder de soporte al cliente Rocket.chat. Con el gran aumento en el tráfico en línea, a las empresas les resulta difícil entretener a una gran cantidad de consultas a tiempo. Los visitantes vienen a su sitio, tienden a adquirir información relacionada con los productos o servicios, y abandonan su sitio en caso de no recibir respuesta. Por lo tanto, el soporte de chat en vivo lo ayuda a saludar a sus clientes de manera activa mientras pasan por su sitio web. O, en caso de que necesiten ayuda y aclaración para tomar sus decisiones de compra.
 El soporte de chat en vivo aumenta sus posibilidades de convertir a un visitante en un cliente. Hay muchos de código abierto ** Soporte de chat en vivo Softwar ** e disponible. Pero, Rocket.Chat ha ganado mucha atracción debido a sus características. Y se está tratando como una alternativa al software de chat líder en la industria como Slack y Microsoft Team. En este artículo, aprenderemos cómo instalar Rocket.Chat en un servidor y luego cómo configurarlo en su sitio web. Entonces, comencemos cubriendo los siguientes puntos.
-  *[** ¿Qué es Rocket.cha ** t?] [3]
+  *[** ¿Qué es Rocket.cha ** t?][3]
   *** [Cómo instalar Rocket.Chat?fontefniEmmthmandmonmmmmmmmmmmmmmmro aslememgado
-  *** [Habilitar la función de chat en vivo] [5] **
-  *** [Instale el widget de chat en vivo en su sitio web] [6] **
-  *** [Conclusión] [7] **
+  *** [Habilitar la función de chat en vivo][5] **
+  *** [Instale el widget de chat en vivo en su sitio web][6] **
+  *** [Conclusión][7] **
 
 ## ¿Qué es Rocket.chat {#Intro}
-[Rocket.chat] [8] se encuentra entre el popular software de chat en vivo **. Tiene una versión gratuita de chat en vivo como una edición comunitaria, así como una versión de chat en vivo alojada pagada para grandes empresas con características de chat internas privadas. Rocket.Chat admite la atención al cliente de Live Chat junto con la función de chat del equipo. Es multiplataforma y ofrece soporte para casi todas las plataformas populares como Windows, Mac, Linux y aplicaciones móviles también. Este ** Software de soporte al cliente ** es seguro, extensible y ofrece integración con aplicaciones populares de terceros como Trello, Google Drive y más. Hay muchas características poderosas que ofrecen Rocket.Chat, como múltiples habitaciones, salas de chat privadas, notificaciones, emojis, autenticación LDAP e interfaz RESTful. Además, esta herramienta gratuita es fácil de implementar y viene con capacidades de autohostación. Además, ofrece una interfaz lógica y fácil de usar donde los usuarios pueden modificar los temas como la oscuridad, la luz o el negro.
-Este ** Software de soporte de chat ** está escrito en JavaScript, toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, puede encontrar todo el código fuente en [GitHub] [9]. Para más detalles, puede leer sobre Rocket.Chat [aquí] [10].
+[Rocket.chat][8] se encuentra entre el popular software de chat en vivo **. Tiene una versión gratuita de chat en vivo como una edición comunitaria, así como una versión de chat en vivo alojada pagada para grandes empresas con características de chat internas privadas. Rocket.Chat admite la atención al cliente de Live Chat junto con la función de chat del equipo. Es multiplataforma y ofrece soporte para casi todas las plataformas populares como Windows, Mac, Linux y aplicaciones móviles también. Este ** Software de soporte al cliente ** es seguro, extensible y ofrece integración con aplicaciones populares de terceros como Trello, Google Drive y más. Hay muchas características poderosas que ofrecen Rocket.Chat, como múltiples habitaciones, salas de chat privadas, notificaciones, emojis, autenticación LDAP e interfaz RESTful. Además, esta herramienta gratuita es fácil de implementar y viene con capacidades de autohostación. Además, ofrece una interfaz lógica y fácil de usar donde los usuarios pueden modificar los temas como la oscuridad, la luz o el negro.
+Este ** Software de soporte de chat ** está escrito en JavaScript, toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, puede encontrar todo el código fuente en [GitHub][9]. Para más detalles, puede leer sobre Rocket.Chat [aquí][10].
 
 ## Cómo instalar Rocket.Chat {#Install}
 Entonces, sabemos lo que es Rocket.Chat y en esta sección, aprenderemos cómo instalar este software de chat en vivo. Puede instalar Rocket.Chat desde una variedad de mercados, como Ubuntu Snaps, DockerHub, o instalarlo en su propio servidor. En este artículo, nos centraremos en la instalación de Rocket.Chat a través de Snaps on Ubuntu. Que es el método de instalación más rápido.
@@ -74,19 +74,21 @@ Y, pegue este código por encima de la última etiqueta de su sitio; El widget d
 
 ## conclusión {#conclusion}
 Esto nos lleva al final de esta publicación de blog. En este artículo, hemos pasado por lo que es Rocket.Chat, cómo instalar Rocket.Chat y también le hemos mostrado cómo instalarlo en su propio servidor a través de Snaps Ubuntu. También aprendimos cómo habilitar la función de chat en vivo e instalar el widget en su sitio web. Además, ** Software de atención al cliente ** se ha convertido en un componente imprescindible de cualquier sitio web comercial debido a ciertos factores que discutimos anteriormente. Sin embargo, esta publicación de blog realmente lo ayudará si está buscando implementar un software de chat en vivo de código abierto en el sitio web de su negocio. Además, hay muchos otros ** software de soporte de chat ** y artículos disponibles en la sección "Explorar" a continuación que puede consultar.
-Finalmente, [** Contenerize.com **] [11] está escribiendo artículos sobre Open Open Source ** Aplicaciones de chat de código abierto. ** Por lo tanto, manténgase en contacto con la categoría [Chat en vivo] [12] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook] [13], [LinkedIn] [14] y [Twitter] [15].
+Finalmente, [** Contenerize.com **][11] está escribiendo artículos sobre Open Open Source ** Aplicaciones de chat de código abierto. ** Por lo tanto, manténgase en contacto con la categoría [Chat en vivo][12] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][13], [LinkedIn][14] y [Twitter][15].
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes.
-  * [Zulip] [16]
-  * [Lets-Chat] [17]
-  * [Botpress] [18]
-  * [Cómo crear un bot basado en AI para su negocio usando Botpress] [19]
-  * [Top 5 Software gratuito de chat de atención al cliente para el sitio web] [1]
-  * [Mensajes instantáneos de WordPress usando Rocket.Chat] [2]
-  * [Automatice las operaciones comerciales con software gratuito y de código abierto] [20]
-  * [Cómo crear y ejecutar un bot en Rocket.Chat usando botpress] [21]
-  * [Automatice las operaciones comerciales con software gratuito y de código abierto] [20]
+  * [Zulip][16]
+  * [Lets-Chat][17]
+  * [Botpress][18]
+  * [Cómo crear un bot basado en AI para su negocio usando Botpress][19]
+  * [Top 5 Software gratuito de chat de atención al cliente para el sitio web][1]
+  * [Mensajes instantáneos de WordPress usando Rocket.Chat][2]
+  * [Automatice las operaciones comerciales con software gratuito y de código abierto][20]
+  * [Cómo crear y ejecutar un bot en Rocket.Chat usando botpress][21]
+  * [Automatice las operaciones comerciales con software gratuito y de código abierto][20]
+
+  
 [1]: https://blog.containerize.com/live-chat/top-5-free-customer-support-chat-software-for-website/
 [2]: https://blog.containerize.com/blogging/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
 [3]: #intro

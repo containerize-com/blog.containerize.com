@@ -16,12 +16,12 @@ categories: ['Software Development']
 
 ## Ringkasan
 Halo, pembaca! Selamat datang di posting blog baru lainnya dan di posting blog ini, kami akan memberi tahu topik yang sangat hangat saat ini. Selama beberapa tahun terakhir, teknik pengembangan dan penyebaran telah direvolusi secara luas. Komunitas open-source telah mengembangkan banyak perangkat lunak otomatisasi untuk mengotomatisasi proses. Oleh karena itu, penyebaran aplikasi menjadi mudah dan cepat dengan munculnya perangkat lunak wadah ** ** dan ** alat orkestrasi kontainer ** seperti Kubernetes, Docker, dan beberapa lagi. Perangkat lunak ini gratis, open-source, dan datang dengan dokumentasi komprehensif. Perangkat lunak kontainer menghilangkan kerepotan pengembangan perangkat lunak dan memungkinkan admin perangkat lunak menyebarkan aplikasi tanpa khawatir tentang platform dan dependensi perangkat lunak lainnya. Bahkan, wadah mengemas ketergantungan aplikasi bersama dan kode sumber. Demikian juga, ada banyak manfaat dari kontainerisasi ** yang akan kita lalui dalam artikel ini dengan membahas poin -poin berikut.
-  *** [Apa itu wadah di Docker & Apa itu kontainerisasi?] [1] **
-  *[** Manfaat Kontainerisasi **] [2]
-  *** [komentar akhir] [3] **
+  *** [Apa itu wadah di Docker & Apa itu kontainerisasi?][1] **
+  *[** Manfaat Kontainerisasi **][2]
+  *** [komentar akhir][3] **
 
 ## Apa itu wadah di Docker & Apa itu kontainerisasi? {#Apa}
-Docker adalah perangkat lunak kontainer open-source yang digunakan untuk membuat penyebaran aplikasi lebih mudah dengan bantuan wadah. Oleh karena itu, wadah memungkinkan pengguna untuk menggabungkan kode sumber perangkat lunak, file konfigurasi, database, dan semua dependensi yang diperlukan ke dalam satu paket. Jadi, pengembang membuat DockerFile di mana semua instruksi ini ditulis dan menjalankan file ini untuk memutar wadah Docker di lingkungan apa pun. Semua proses ini disebut kontainerisasi di mana setiap aplikasi dikemudikan dan dijalankan di ruang terisolasi dalam yang dibagikan menggunakan sistem operasi yang sama. Ada banyak alat orkestrasi wadah open-source ** ** yang digunakan untuk mengelola layanan yang dikemas dan alat yang paling populer adalah [Kubernetes] [4].
+Docker adalah perangkat lunak kontainer open-source yang digunakan untuk membuat penyebaran aplikasi lebih mudah dengan bantuan wadah. Oleh karena itu, wadah memungkinkan pengguna untuk menggabungkan kode sumber perangkat lunak, file konfigurasi, database, dan semua dependensi yang diperlukan ke dalam satu paket. Jadi, pengembang membuat DockerFile di mana semua instruksi ini ditulis dan menjalankan file ini untuk memutar wadah Docker di lingkungan apa pun. Semua proses ini disebut kontainerisasi di mana setiap aplikasi dikemudikan dan dijalankan di ruang terisolasi dalam yang dibagikan menggunakan sistem operasi yang sama. Ada banyak alat orkestrasi wadah open-source ** ** yang digunakan untuk mengelola layanan yang dikemas dan alat yang paling populer adalah [Kubernetes][4].
 
 ## Manfaat Kontainerisasi {#Benefits}
 Di bagian ini, kami akan mengeksplorasi beberapa manfaat teratas dari kontainerisasi.
@@ -54,26 +54,28 @@ Perangkat lunak kontainer gratis membawa banyak produktivitas dengan mengotomati
 Kontainerisasi memfasilitasi pengguna dengan ketentuan reusability. Pengembang menulis kode aplikasi bisnis sekali untuk semua platform. Mereka tidak perlu menulis kode sumber yang berbeda untuk platform yang berbeda.
 
 ### Masyarakat
-Ini adalah nilai tambah utama lainnya. Ada dukungan besar yang tersedia oleh masyarakat dan pengguna dapat mencari panduan di tingkat mana pun. Di atas semua itu, ada ruang yang disebut [Docker Hub] [5] di mana pengguna dapat membuat, berbagi, dan menarik aplikasi dan layanan containerize.
+Ini adalah nilai tambah utama lainnya. Ada dukungan besar yang tersedia oleh masyarakat dan pengguna dapat mencari panduan di tingkat mana pun. Di atas semua itu, ada ruang yang disebut [Docker Hub][5] di mana pengguna dapat membuat, berbagi, dan menarik aplikasi dan layanan containerize.
 
 ## Pernyataan terakhir {#Final}
 Ini membawa kita ke akhir posting blog ini. Dalam artikel ini, kami telah melalui kontainerisasi dan manfaat dari kontainerisasi. Posting blog ini akan sangat membantu Anda memahami konsep dan penggunaan containerisasi aplikasi bisnis Anda. Ada banyak perangkat lunak kontainer dan alat orkestrasi kontainer yang menawarkan ketentuan untuk mengelola penyebaran aplikasi. Selanjutnya, kontainerisasi telah menghilangkan banyak masalah yang terkait dengan penyebaran, pelepasan fitur dan penskalaan. Jadi, adopsi pendekatan pengembangan dan penyebaran perangkat lunak ini untuk menyelaraskan dengan tren terbaru dan praktik pengembangan perangkat lunak.
-Akhirnya, [containerize.com] [6] menulis artikel tentang produk open-source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori yang disebutkan di bagian "Jelajahi" untuk pembaruan rutin.
+Akhirnya, [containerize.com][6] menulis artikel tentang produk open-source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori yang disebutkan di bagian "Jelajahi" untuk pembaruan rutin.
 
 ## Jelajahi {#Explore}
 Anda mungkin menemukan tautan berikut yang relevan:
-  *** [] [7] [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka] [7] **
-  *[** Top 5 Alat Orkestrasi Wadah Sumber Terbuka untuk 2021 **] [8]
-  *** [] [7] [Manajemen Konten] [9], [Blogging] [10], [Forum Diskusi] [11], [Perangkat Lunak Kesehatan] [12] **
-  *** [] [7] [helpdesk] [13], [Otomasi Pemasaran] [14], [Marketplace] [15], [Alat Penyebaran] [16], [Keamanan] [17] **
-  *** [] [7] [Live Chat] [18], [Formulir] [19], [Email Transaksional] [20], [Perangkat Lunak Intelijen Bisnis] [21] **
-  *** [] [7] [Newsletter] [22], [Halaman Status] [23], [Invoicing] [24], [Manajemen Kata Sandi] [25], [Perangkat Lunak Antrian Pesan] [26] **
-  *** [] [7] [Sign-on] [27], [Manajemen Proyek] [28], [Pengembangan Aplikasi Cepat] [29], [Perangkat Lunak Animasi] [30] **
+  *** [][7][Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][7] **
+  *[** Top 5 Alat Orkestrasi Wadah Sumber Terbuka untuk 2021 **][8]
+  *** [][7][Manajemen Konten][9], [Blogging][10], [Forum Diskusi][11], [Perangkat Lunak Kesehatan][12] **
+  *** [][7][helpdesk][13], [Otomasi Pemasaran][14], [Marketplace][15], [Alat Penyebaran][16], [Keamanan][17] **
+  *** [][7][Live Chat][18], [Formulir][19], [Email Transaksional][20], [Perangkat Lunak Intelijen Bisnis][21] **
+  *** [][7][Newsletter][22], [Halaman Status][23], [Invoicing][24], [Manajemen Kata Sandi][25], [Perangkat Lunak Antrian Pesan][26] **
+  *** [][7][Sign-on][27], [Manajemen Proyek][28], [Pengembangan Aplikasi Cepat][29], [Perangkat Lunak Animasi][30] **
   ?
-  *** [] [7] [Manajemen Database] [35], [Konferensi Video] [36], [platform blockchain] [37], [Big Data] [38] **
-  *** [] [7] [Perangkat Lunak CMDB] [39], [Perangkat Lunak Pengembangan Game] [40], [Perencanaan Sumber Daya Perusahaan (ERP)] [41] **
-  *** [] [7] [Perangkat Lunak Pengeditan Video] [42], [Sistem Manajemen Database] [43], [Produktivitas Kantor] [44] **
-  *** [] [7] [Sistem Manajemen Pembelajaran (LMS)] [45], [Perangkat Lunak Cadangan dan Sinkronisasi] [46], [perangkat lunak forensik digital] [47] **
+  *** [][7][Manajemen Database][35], [Konferensi Video][36], [platform blockchain][37], [Big Data][38] **
+  *** [][7][Perangkat Lunak CMDB][39], [Perangkat Lunak Pengembangan Game][40], [Perencanaan Sumber Daya Perusahaan (ERP)][41] **
+  *** [][7][Perangkat Lunak Pengeditan Video][42], [Sistem Manajemen Database][43], [Produktivitas Kantor][44] **
+  *** [][7][Sistem Manajemen Pembelajaran (LMS)][45], [Perangkat Lunak Cadangan dan Sinkronisasi][46], [perangkat lunak forensik digital][47] **
+
+  
 [1]: #what
 [2]: #benefits
 [3]: #final

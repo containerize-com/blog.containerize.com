@@ -71,16 +71,18 @@ Yoastseo membantu pengguna melihat bagaimana halaman mereka akan terlihat di mes
 
 ## ** pemikiran terakhir: ** {#4a1a}
 Lima platform SEO open source yang disebutkan di atas adalah solusi yang fleksibel. Dalam komputasi awan, Anda akan menemukan banyak solusi penyimpanan cloud pribadi sumber terbuka tetapi menemukan yang paling andal adalah yang paling penting. Anda atau kebutuhan organisasi Anda yang menentukan pemilihan perangkat lunak cloud. Saya harap artikel ini akan membantu Anda mengatur server cloud pribadi yang aman dan andal atau memilih layanan cloud terbaik untuk menyimpan gambar, musik, film, dan dokumen berharga Anda.
-_Apakah alat SEO Sumber Favourite_ _Open Anda & alat pemasaran mesin pencari populer? Jika Anda memiliki pertanyaan, silakan_ [hubungi kami] [1].
+_Apakah alat SEO Sumber Favourite_ _Open Anda & alat pemasaran mesin pencari populer? Jika Anda memiliki pertanyaan, silakan_ [hubungi kami][1].
 
 ## Mengeksplorasi:
 Kami juga memiliki beberapa artikel lain yang berkaitan dengan manajemen cloud Anda sehari-hari.
-  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File] [2]
-  * [Cara Menginstal NextCloud dengan Apache di Ubuntu Server] [3]
-  * [Instal dan konfigurasikan owncloud dengan apache di ubuntu] [4]
-  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian] [5]
-  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [6]
-  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian] [7]
+  * [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][2]
+  * [Cara Menginstal NextCloud dengan Apache di Ubuntu Server][3]
+  * [Instal dan konfigurasikan owncloud dengan apache di ubuntu][4]
+  * [Cara Mengkonfigurasi Apache Sebagai Proksi Terbalik untuk Ubuntu/Debian][5]
+  * [Aman dan enkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][6]
+  * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][7]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/

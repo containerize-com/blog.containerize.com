@@ -43,14 +43,16 @@ Le développement à faible code vers les applications de code via des interface
 
 ## ** Conclusion **: {#conclusion}
 Au cours des dernières années, les progrès du développement de logiciels ont permis aux entreprises de continuer. Pour les professionnels de la technologie logicielle et les développeurs, les tendances de développement des logiciels ont tendance à indiquer où l'industrie se dirige. Les nouvelles tendances du développement de logiciels 2021, les méthodes et les préférences des clients peuvent être des indicateurs clés concernant l'endroit où vous devez concentrer vos compétences en développement. Rester au courant des nouvelles tendances technologiques nouvelles est un excellent moyen d'améliorer vos compétences en développement logiciel.
-_ Quelles sont vos tendances logicielles les plus préférées ?. Avez-vous des questions sur les dernières tendances logicielles ?, s'il vous plaît_ [contacter] [1].
+_ Quelles sont vos tendances logicielles les plus préférées ?. Avez-vous des questions sur les dernières tendances logicielles ?, s'il vous plaît_ [contacter][1].
 
 ## Explorer
 Vous pouvez trouver des liens suivants pertinents:
-  * [Top 5 des plates-formes de blockchain open source en 2020] [2]
-  * [Comment la technologie décentralisée améliore votre stratégie commerciale] [3]
-  * [Comment les outils d'analyse commerciale gratuits aident votre entreprise] [4]
-  * [Comment le logiciel RAD vous aide à développer les affaires au niveau supérieur] [5]
+  * [Top 5 des plates-formes de blockchain open source en 2020][2]
+  * [Comment la technologie décentralisée améliore votre stratégie commerciale][3]
+  * [Comment les outils d'analyse commerciale gratuits aident votre entreprise][4]
+  * [Comment le logiciel RAD vous aide à développer les affaires au niveau supérieur][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

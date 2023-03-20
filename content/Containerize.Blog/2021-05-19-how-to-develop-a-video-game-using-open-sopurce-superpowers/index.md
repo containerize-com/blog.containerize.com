@@ -117,7 +117,7 @@ Likewise, after going through this gaming article, you can explore it further an
 
 This brings an end to this HTML5 game development guide. Hopefully, this blog post will help you if you are keen to start video game development. We have explored what is superpowers, how to develop a video game, which is an open source 3D game builder and we also have gone through its installation procedure on localhost. There are many open source **video game design apps** that let users build games from scratch. Video game programmers use essential game design principles to build high-quality games. You will learn more about building 2D & 3D games in our coming articles at [blog.containerize.com][8]. There are other open source, self-hosted 3D game builders and relevant articles mentioned in the “Explore” section below. 
 
-Finally, containerize.com is continuously writing blog posts on further open-source products and topics. Therefore, please stay in touch with the [video game development][9] [][10]category for regular updates. Moreover, you can follow us on our social media accounts [Facebook][11], [LinkedIn][12], and [Twitter][13].
+Finally, containerize.com is continuously writing blog posts on further open-source products and topics. Therefore, please stay in touch with the [video game development][9][][10]category for regular updates. Moreover, you can follow us on our social media accounts [Facebook][11], [LinkedIn][12], and [Twitter][13].
 
 ## Explore
 

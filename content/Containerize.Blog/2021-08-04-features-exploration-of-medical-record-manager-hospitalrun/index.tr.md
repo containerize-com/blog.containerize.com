@@ -15,16 +15,16 @@ categories: ['Healthcare Software']
 
 
 ## Genel Bakış
-Açık kaynak [Healthcare Software] [1] yakın geçmişte muazzam bir popülerlik kazanmıştır. İlk olarak, teknolojideki ilerlemeden kaynaklanmaktadır. İkincisi, Covid-19 tıp endüstrisini her şekilde etkiledi ve açık kaynak topluluk için yeni bir fırsat doğurdu. Tüm dünya çok önemli bir zamandan geçerken hastalara en kaliteli sağlık hizmetleri sunmak son derece önemlidir. Neyse ki, veri merkezileşmeleri, şeffaflık, güvenlik, entegrasyonlar ve diğer birçok güçlü özellik sağlayan birkaç açık kaynaklı sağlık kayıt yönetimi çözümleri mevcuttur. Bu ücretsiz sağlık hizmetleri, doktorlar, hastalar, klinikler ve diğer personel gibi iş akışlarının sorunsuz bir şekilde yönetimini sunar. Son zamanlarda, [Containerize.com] [2] açık kaynaklı hastane bilgi yönetim sistemleri hakkında [Top 5 Açık Kaynak Hasta Sağlığı Kayıt Yazılımı] [3], [Tıbbi Sağlık Çözümü OpenEMR'nin Keşfi Etkinlikleri] [4], bazı makaleler yayınladı. ve [çevrimiçi sağlık yazılımı nasıl sağlık sektörünü güçlendirir] [5].
-Geçmişte, [Hospitalrun] [6] 'nın Localhost'ta kurulum prosedürünü açıklayan bir makale yazdık. Bu blog yazısında, [HospitalRun] [6] 'yı aşağıdaki noktaları ele alarak keşfedeceğiz.
-  *** [Neden Hastane?] [7] **
-  *** [Hastalar ve Zamanlama Modülleri] [8] **
-  *** [laboratuvar entegrasyonu ve ilaçlar] [9] **
-  *** [görüntüleme ve olaylar] [10] **
-  *** [Sonuç] [11] **
+Açık kaynak [Healthcare Software][1] yakın geçmişte muazzam bir popülerlik kazanmıştır. İlk olarak, teknolojideki ilerlemeden kaynaklanmaktadır. İkincisi, Covid-19 tıp endüstrisini her şekilde etkiledi ve açık kaynak topluluk için yeni bir fırsat doğurdu. Tüm dünya çok önemli bir zamandan geçerken hastalara en kaliteli sağlık hizmetleri sunmak son derece önemlidir. Neyse ki, veri merkezileşmeleri, şeffaflık, güvenlik, entegrasyonlar ve diğer birçok güçlü özellik sağlayan birkaç açık kaynaklı sağlık kayıt yönetimi çözümleri mevcuttur. Bu ücretsiz sağlık hizmetleri, doktorlar, hastalar, klinikler ve diğer personel gibi iş akışlarının sorunsuz bir şekilde yönetimini sunar. Son zamanlarda, [Containerize.com][2] açık kaynaklı hastane bilgi yönetim sistemleri hakkında [Top 5 Açık Kaynak Hasta Sağlığı Kayıt Yazılımı][3], [Tıbbi Sağlık Çözümü OpenEMR'nin Keşfi Etkinlikleri][4], bazı makaleler yayınladı. ve [çevrimiçi sağlık yazılımı nasıl sağlık sektörünü güçlendirir][5].
+Geçmişte, [Hospitalrun][6] 'nın Localhost'ta kurulum prosedürünü açıklayan bir makale yazdık. Bu blog yazısında, [HospitalRun][6] 'yı aşağıdaki noktaları ele alarak keşfedeceğiz.
+  *** [Neden Hastane?][7] **
+  *** [Hastalar ve Zamanlama Modülleri][8] **
+  *** [laboratuvar entegrasyonu ve ilaçlar][9] **
+  *** [görüntüleme ve olaylar][10] **
+  *** [Sonuç][11] **
 
 ## Neden Hastane? {#Neden}
-Bu tıbbi kayıt yöneticisinin popülaritesinin arkasında birçok neden var. Hospitalrun tam bir elektronik sağlık kaydı ve hastane bilgi sistemidir. Hem çevrimdışı hem de çevrimiçi sürümleri destekler. Klinikleri entegre etmenizi sağlar ve veri senkronizasyonu sağlar. Dahası, çok dilli, çapraz platformdur ve kendi kendine barınma yetenekleri ile gelir. Bu hasta kayıt sistemi hasta kayıt yönetimi, randevu planlama, ilaçlar ve reçeteli yönetimi sunar. Ayrıca, eksiksiz teşhis detayları içeren özel raporlar oluşturma hükümleri de vardır. Ayrıca, sağlık personeli hasta deşarj modülünden yardım alabilir. Her şeyden önce, bu hastane yönetim sistemi kazara ve acil durumların yönetimini sunmaktadır. Güvenli, güvenilir ve kullanıcı dostudur. Bununla birlikte, bu tıbbi kayıt yönetim sistemi tamamen JavaScript'te yazılmıştır ve tüm kaynak kodu geliştirme ve dağıtım ile ilgili belgelerle [GitHub] [12] 'de mevcuttur.
+Bu tıbbi kayıt yöneticisinin popülaritesinin arkasında birçok neden var. Hospitalrun tam bir elektronik sağlık kaydı ve hastane bilgi sistemidir. Hem çevrimdışı hem de çevrimiçi sürümleri destekler. Klinikleri entegre etmenizi sağlar ve veri senkronizasyonu sağlar. Dahası, çok dilli, çapraz platformdur ve kendi kendine barınma yetenekleri ile gelir. Bu hasta kayıt sistemi hasta kayıt yönetimi, randevu planlama, ilaçlar ve reçeteli yönetimi sunar. Ayrıca, eksiksiz teşhis detayları içeren özel raporlar oluşturma hükümleri de vardır. Ayrıca, sağlık personeli hasta deşarj modülünden yardım alabilir. Her şeyden önce, bu hastane yönetim sistemi kazara ve acil durumların yönetimini sunmaktadır. Güvenli, güvenilir ve kullanıcı dostudur. Bununla birlikte, bu tıbbi kayıt yönetim sistemi tamamen JavaScript'te yazılmıştır ve tüm kaynak kodu geliştirme ve dağıtım ile ilgili belgelerle [GitHub][12] 'de mevcuttur.
 
 ## Hastalar ve Zamanlama Modülleri {#Modules}
 Bu bölümde, bu hastane bilgi yönetim sisteminin gösterge tablosundan geçeceğiz. Giriş yaptıktan sonra, aşağıdaki resimde gösterildiği gibi Hospitalrun'un gösterge tablosuna ineceksiniz.
@@ -56,19 +56,21 @@ Görüntüleme, elektromanyetik bir alanla tarayarak bir şeyin görsel bir tems
 
 ## Sonuç {#Conclusion}
 Bu blog yazısının sonu. Aslında, sağlık kurumlarının çoğu manuel operasyonlara bağlıdır. Veri güvenliği ve bütünlüğü açısından savunmasız olabilir. Bununla birlikte, otomatik sistemler rutin sağlık operasyonlarının temel ve en kritik yönlerinden emin olur. Bu nedenle, iyi bir açık kaynaklı tıbbi kayıt yöneticisinin kurulumu, varlıklarınızı yetkisiz kaynaklardan korur ve rutin görevleri kolay ve güvenle gerçekleştirmenize yardımcı olur. Bu açık kaynaklı yazılım, doktorlar, hastalar, klinikler, laboratuvarlar gibi birden fazla varlığı senkronize eder ve iş akışını kolaylaştırır. Sonuç olarak, hastanenizin veya kliniğinizin en son zorluklarla darbesi için açık kaynaklı bir yazılım benimsemenin zamanı geldi. Zamanınızı ve çabalarınızı tasarruf edebilir ve önemli, kritik görevlere odaklanabilirsiniz.
-Son olarak, [Containerize.com] [2] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [Healthcare Technologies] [1] kategorisiyle iletişime geçin.
+Son olarak, [Containerize.com][2] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [Healthcare Technologies][1] kategorisiyle iletişime geçin.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  * [Openemr] [13]
-  * [OpenMRS] [14]
-  * [Hospitalrun] [15]
-  * [Açık Hastane] [16]
-  * [Solizmli] [17]
-  * [Top 5 Açık Kaynak Hasta Sağlığı Kayıt Yazılımı] [3]
-  * [Tıbbi Sağlık Çözümü OpenEmr'ın Keşiflenmesi] [4]
-  * [Localhost'ta EHealth System Hastanesi Nasıl Kurulur] [18]
-  * [Çevrimiçi sağlık yazılımı sağlık sektörünü nasıl güçlendirir] [5]
+  * [Openemr][13]
+  * [OpenMRS][14]
+  * [Hospitalrun][15]
+  * [Açık Hastane][16]
+  * [Solizmli][17]
+  * [Top 5 Açık Kaynak Hasta Sağlığı Kayıt Yazılımı][3]
+  * [Tıbbi Sağlık Çözümü OpenEmr'ın Keşiflenmesi][4]
+  * [Localhost'ta EHealth System Hastanesi Nasıl Kurulur][18]
+  * [Çevrimiçi sağlık yazılımı sağlık sektörünü nasıl güçlendirir][5]
+
+  
 [1]: https://products.containerize.com/healthcare-technologies/
 [2]: https://www.containerize.com/
 [3]: https://blog.containerize.com/2021/03/05/top-5-open-source-patient-record-management-software/

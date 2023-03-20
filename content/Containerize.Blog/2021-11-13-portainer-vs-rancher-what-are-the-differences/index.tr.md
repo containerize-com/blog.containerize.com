@@ -24,8 +24,8 @@ Portainer ve çiftlik sahibi konteyner yönetim araçları olarak kategorize edi
   * **Çözüm**
 
 ## ** 1. Portainer nedir? **
-[Portainer] [1] en popüler konteyner yönetim platformudur. DevOps mühendisleri Portainer'ı Docker için basit bir yönetim kullanıcı arayüzü olarak tanımlar. Portainer, açık kaynaklı hafif bir Contianer yönetimi kullanıcı arayüzüdür ve Docker ortamlarınızı kolayca yönetmenizi sağlar. Docker'ı yönetmek hiç bu kadar kolay olmamıştı, ancak Portainer Windows, Linux ve Mac işletim sistemlerinde mevcut. Portainer alternatifleri Azure Container Sicili, Rancher ve Docker Swarm'dır. 2017 Yeni Zelanda'da kuruldu ve Portainer Web GUI varsayılan bağlantı noktası 9000.
-Portainer, Docker üretim ortamlarını kolayca oluşturmanıza, yönetmenize ve sürdürmenize olanak tanıyan güçlü, açık kaynaklı bir yönetim araç setidir. Müşterilerin Docker Container teknolojisini benimsemelerine ve değere değer vermelerine yardımcı olmak için geliştirilmiştir. Portainer, Docker Swarm ve Kubernetes tabanlı küme yönetimi ile bütünleşir. Portainer, 20.1k Github yıldızları ve 1.8k GitHub çatalları olan açık kaynaklı bir araçtır. Kaynak Konteynerizasyon Platformunu Açar ** Portainer Kaynak Kodu Deposu ** [GitHub] [2] 'de mevcuttur. Portainer tarafından konteyner uygulamaları için sunulan bazı özellikler şunlardır:
+[Portainer][1] en popüler konteyner yönetim platformudur. DevOps mühendisleri Portainer'ı Docker için basit bir yönetim kullanıcı arayüzü olarak tanımlar. Portainer, açık kaynaklı hafif bir Contianer yönetimi kullanıcı arayüzüdür ve Docker ortamlarınızı kolayca yönetmenizi sağlar. Docker'ı yönetmek hiç bu kadar kolay olmamıştı, ancak Portainer Windows, Linux ve Mac işletim sistemlerinde mevcut. Portainer alternatifleri Azure Container Sicili, Rancher ve Docker Swarm'dır. 2017 Yeni Zelanda'da kuruldu ve Portainer Web GUI varsayılan bağlantı noktası 9000.
+Portainer, Docker üretim ortamlarını kolayca oluşturmanıza, yönetmenize ve sürdürmenize olanak tanıyan güçlü, açık kaynaklı bir yönetim araç setidir. Müşterilerin Docker Container teknolojisini benimsemelerine ve değere değer vermelerine yardımcı olmak için geliştirilmiştir. Portainer, Docker Swarm ve Kubernetes tabanlı küme yönetimi ile bütünleşir. Portainer, 20.1k Github yıldızları ve 1.8k GitHub çatalları olan açık kaynaklı bir araçtır. Kaynak Konteynerizasyon Platformunu Açar ** Portainer Kaynak Kodu Deposu ** [GitHub][2] 'de mevcuttur. Portainer tarafından konteyner uygulamaları için sunulan bazı özellikler şunlardır:
   * Konteynerler Kolay Dağıtım ve Yönetim
   * Performansı ve davranışını izleyin
   * BT yönetişim ve güvenlik
@@ -33,8 +33,8 @@ Portainer, Docker üretim ortamlarını kolayca oluşturmanıza, yönetmenize ve
   * Docker küme yönetimi
 
 ## 2. Çiftçi nedir?
-[Rancher] [3], Kubernetes için açık kaynaklı bir konteyner yönetim platformudur. Herhangi bir bulut veya altyapı platformunda konteyner kümelerini kullanmayı kolaylaştıran Kubernetes, Apache Mesos ve Docker sürüsü tam dağılımlarını içerir. Rancher, konteyner hizmetini çalıştırmak ve kümeler oluşturmak için açık kaynak yönetim platformu olarak tanımlanır. Yeni kümeleri sıfırdan kolayca dağıtabilir veya mevcut Kubernetes kümelerini içe aktarabilir. Rancher, her yerde birden fazla Kubernet tabanlı küme yönetimini çalıştırmak ve yönetmek için inşa edilmiştir. Rancher Web GUI varsayılan 80/443 bağlantı noktasında çalışır.
-Rancher, konteynerler üzerinde çalışan ekipler için eksiksiz bir yazılım yığınıdır ve çiftlik sahibine ev sahipliği yapmak karmaşık olabilir. Birden fazla Kubernetes kümesini yönetmenin operasyonel ve güvenlik zorluklarını başarılı bir şekilde kolaylaştırırken, geliştirme ve operasyon ekiplerine kapsayıcı yazılımı çalıştırmak için entegre araçlar sağlar. Konteynerleri üretim veya geliştirme küme ortamlarınıza dağıttığınızda, konteyner hatalarını analiz etmek için günlüğe hızlı erişime ihtiyacınız olacaktır. Bu nedenle, iyi bir çözüm, devOp kümelerinize bulutun üzerinde veya dışında çiftlik sahibi dağıtmaktır. Rancher, 18.1k GitHub yıldızları ve 2.4k GitHub çatalları olan açık kaynaklı bir araçtır. ** Rancher kaynak kodu deposu ** [GitHub] [4] 'te mevcuttur. Rancher aşağıdaki önemli özellikleri sunar:
+[Rancher][3], Kubernetes için açık kaynaklı bir konteyner yönetim platformudur. Herhangi bir bulut veya altyapı platformunda konteyner kümelerini kullanmayı kolaylaştıran Kubernetes, Apache Mesos ve Docker sürüsü tam dağılımlarını içerir. Rancher, konteyner hizmetini çalıştırmak ve kümeler oluşturmak için açık kaynak yönetim platformu olarak tanımlanır. Yeni kümeleri sıfırdan kolayca dağıtabilir veya mevcut Kubernetes kümelerini içe aktarabilir. Rancher, her yerde birden fazla Kubernet tabanlı küme yönetimini çalıştırmak ve yönetmek için inşa edilmiştir. Rancher Web GUI varsayılan 80/443 bağlantı noktasında çalışır.
+Rancher, konteynerler üzerinde çalışan ekipler için eksiksiz bir yazılım yığınıdır ve çiftlik sahibine ev sahipliği yapmak karmaşık olabilir. Birden fazla Kubernetes kümesini yönetmenin operasyonel ve güvenlik zorluklarını başarılı bir şekilde kolaylaştırırken, geliştirme ve operasyon ekiplerine kapsayıcı yazılımı çalıştırmak için entegre araçlar sağlar. Konteynerleri üretim veya geliştirme küme ortamlarınıza dağıttığınızda, konteyner hatalarını analiz etmek için günlüğe hızlı erişime ihtiyacınız olacaktır. Bu nedenle, iyi bir çözüm, devOp kümelerinize bulutun üzerinde veya dışında çiftlik sahibi dağıtmaktır. Rancher, 18.1k GitHub yıldızları ve 2.4k GitHub çatalları olan açık kaynaklı bir araçtır. ** Rancher kaynak kodu deposu ** [GitHub][4] 'te mevcuttur. Rancher aşağıdaki önemli özellikleri sunar:
   * Kubernetes Yönetimi ve Dağıtım
   * Kullanıcı Yönetimi ve İşbirliği
   * Konteyner düzenleme ve zamanlama
@@ -52,15 +52,17 @@ Son olarak, kişisel düşüncem, Portainer ve Rancher'ın konteyner ortamların
 
 ## Sonuç: {#4A1A}
 ** Portainer vs Rancher en iyi seçim nedir? ** Cevap bariz olan: her ikisi de. Yukarıda belirtilen Portainer vs Rancher, geliştiriciler için en popüler ücretsiz ve en iyi açık kaynak araçlarıdır. Hizmetleri ve sistemleri altyapının en çok ihtiyaç duyduğu tamamen yeni ve dijital bir şekilde düşünmeye izin verirler. Sonuç olarak, her iki aracın da konteyner yönetimini, sistem kaplarının ölçeklendirilmesini ve dağıtımını daha etkili bir şekilde otomatikleştirmek için iyi entegre bir platform sağlamasıdır.
-_ Ne açık kaynaklı konteyner yönetimi Technolog_y tercih edersiniz? Portainer ve Rancher arasındaki fark hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun] [5].
+_ Ne açık kaynaklı konteyner yönetimi Technolog_y tercih edersiniz? Portainer ve Rancher arasındaki fark hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][5].
 
 ## Keşfetmek:
 BT yöneticileri için günlük görev yönetimini ele alacak başka ilgili makalelerimiz var:
-  *** [DevOps 2021 için Top 5 Açık Kaynak Konteyner Orkestrasyon Aracı] [6] **
-  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı] [7] **
-  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı] [8] **
-  *** [En popüler açık kaynaklı dijital adli araçlar] [9] **
-  *** [En popüler OSI onaylı açık kaynak lisansları] [10] **
+  *** [DevOps 2021 için Top 5 Açık Kaynak Konteyner Orkestrasyon Aracı][6] **
+  *** [En İyi Açık Kaynak Bulut Depolama ve Dosya Paylaşım Yazılımı][7] **
+  *** [2021'de Top 5 Açık Kaynak Mesaj Kuyruğu (MQ) Yazılımı][8] **
+  *** [En popüler açık kaynaklı dijital adli araçlar][9] **
+  *** [En popüler OSI onaylı açık kaynak lisansları][10] **
+
+  
 [1]: https://www.portainer.io/
 [2]: https://github.com/portainer/portainer
 [3]: https://rancher.com/

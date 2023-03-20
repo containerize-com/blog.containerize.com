@@ -15,10 +15,10 @@ categories: ['Programming']
 
 
 ## Aperçu
-Peu importe que vous soyez un développeur médiocre ou un développeur expérimenté, vous obtiendrez les solutions à vos problèmes à venir pendant les emplois de développement. [contenerize.com] [1] a commencé à écrire des articles de blog de tutoriel dans la catégorie de programmation et nous commençons par un**JavaScript Beginner’s Guide**. Puisque nous commençons, cet article concerne les types de données JavaScript. Explorons**quels sont les types de données JavaScript**et voyons des exemples de la façon de les utiliser dans le code source efficacement. Par conséquent, parcourez soigneusement le guide de ce débutant afin que vous puissiez avoir une bonne compréhension des types de données JavaScript**.
+Peu importe que vous soyez un développeur médiocre ou un développeur expérimenté, vous obtiendrez les solutions à vos problèmes à venir pendant les emplois de développement. [contenerize.com][1] a commencé à écrire des articles de blog de tutoriel dans la catégorie de programmation et nous commençons par un**JavaScript Beginner’s Guide**. Puisque nous commençons, cet article concerne les types de données JavaScript. Explorons**quels sont les types de données JavaScript**et voyons des exemples de la façon de les utiliser dans le code source efficacement. Par conséquent, parcourez soigneusement le guide de ce débutant afin que vous puissiez avoir une bonne compréhension des types de données JavaScript**.
 Nous couvrons le point suivant:
-  * [Qu'est-ce qu'un type de données?] [2]
-  * [Quels sont les types de données JavaScript?] [3]
+  * [Qu'est-ce qu'un type de données?][2]
+  * [Quels sont les types de données JavaScript?][3]
 
 ## Types de données expliqués | Qu'est-ce qu'un type de données? {# What-is-a-data-type}
 Un type de données consiste à dire au compilateur comment interpréter ou compiler les données. L'utilisation des types de données est critique et doit être utilisée judicieusement. En termes simples, il s'agit du format des données telles que le nombre, la chaîne, le booléen et plus encore. Cependant, il existe deux catégories de types de données types de données primitifs et types de données non primitives. Il existe huit types de données primitifs que nous allons passer dans la section suivante.
@@ -70,31 +70,33 @@ arr = arr2;
 arr === arr2 // true
 ```
 Maintenant, passons par les types de données un par un. Il existe 6 types de données primitifs et 1 type de données non primitif.
-* * Les types de données primitifs incluent:**
+**Les types de données primitifs incluent:**
   ***String**: Ce type de données représente des données textuelles qui consistent en une séquence de caractères entourée de citations.
   ***Numéro**: il représente des données décimales / non-décimales, en particulier entier ou flottante.
   ***Boolean**: Représentation des valeurs logiques vraies ou fausses.
   ***Symbole**: le symbole est utilisé pour contenir des valeurs uniques.
   ***Undefined**: une variable sans aucune valeur ou une variable non initialisée.
   ***NULL**: L'absence de toute valeur est considérée comme nul.
-* * Le type de données non primitif comprend:**
-* * Objet**: Il est utilisé pour stocker la collecte de données composées de paires de valeurs clés.
+**Le type de données non primitif comprend:**
+**Objet**: Il est utilisé pour stocker la collecte de données composées de paires de valeurs clés.
 
 ## Conclusion
 Ceci est la fin de ce**Guide du débutant JavaScript**. Nous avons parcouru**Quels sont les types de données JavaScript**? De plus, nous avons exploré ce qui est un type de données en un mot. Vous devriez avoir une meilleure compréhension des types de données non primitifs et**Primitive**en JavaScript. Ce billet de blog vous aidera vraiment si vous cherchez à vous préparer à un entretien d'embauche.
-Enfin, [contenerize.com] [1] écrit continuellement des articles de blog sur d'autres produits et sujets open-source. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook] [4], [LinkedIn] [5] et [Twitter] [6].
+Enfin, [contenerize.com][1] écrit continuellement des articles de blog sur d'autres produits et sujets open-source. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][4], [LinkedIn][5] et [Twitter][6].
 
 ## Poser une question
-Vous pouvez nous informer de vos questions ou de vos questions sur notre [Forum] [7].
+Vous pouvez nous informer de vos questions ou de vos questions sur notre [Forum][7].
 
 ## FAQS
-* * Quels sont les 8 types de données JavaScript?**
-Veuillez visiter ce [lien] [3] pour connaître les 8 types de données JavaScript.
+**Quels sont les 8 types de données JavaScript?**
+Veuillez visiter ce [lien][3] pour connaître les 8 types de données JavaScript.
 
 ## Voir également
-  * [Frameworks JavaScript populaires gratuits et open source] [8]
-  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [9]
-  * [Top 10 des technologies open source à apprendre en 2022] [10]
+  * [Frameworks JavaScript populaires gratuits et open source][8]
+  * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][9]
+  * [Top 10 des technologies open source à apprendre en 2022][10]
+
+  
 [1]: https://www.containerize.com/
 [2]: #What-is-a-data-type
 [3]: #What-are-JavaScript-Data-Types

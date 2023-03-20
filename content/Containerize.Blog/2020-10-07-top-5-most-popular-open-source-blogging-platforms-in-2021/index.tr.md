@@ -15,11 +15,11 @@ categories: ['Blogging']
 
 Açık kaynak bloglama platformları bugünlerde içerik oluşturma için gereklidir. Bu nedenle, fikirlerinizi, öğrenmelerinizi, başarılarınızı paylaşmak için kişisel bir blog başlatmaktan bir blog platformuna ihtiyacınız var. Bloglama platformu yıllar içinde gelişti. Sonuç olarak, web sitesi oluşturucuları, statik site jeneratörleri ve zengin özellikli bloglama hizmeti gibi bir dizi varyasyon vardır.
 İnanılmaz genişletilebilirlik ve özelleştirme seçenekleri sunan çok sayıda blog platformu açık kaynak var. Bu nedenle, her platformun kendi artıları ve eksileri olduğu için seçim zorlaşır. Ekibimiz, içerik oluşturucuların 2021'de doğru blog yazılımını seçmeleri için çok sayıda açık kaynaklı bloglama platformu kılavuzundan geçti. Bu nedenle, mevcut en iyi 5 açık kaynak bloglama platformu ve en iyi bloglama sitelerinin bir listesini filtreledik.
-  * [WordPress] [1]
-  * [Jekyll] [2]
-  * [Hayalet] [3]
-  * [Serendipity] [4]
-  * [Silverstripe] [5]
+  * [WordPress][1]
+  * [Jekyll][2]
+  * [Hayalet][3]
+  * [Serendipity][4]
+  * [Silverstripe][5]
 
 ### ** wordpress ** {#wordpress}
 WordPress, ücretsiz ve açık kaynaklı bir içerik yönetim sistemi ve kendi kendine barındırılan bloglama platformudur. En popüler teknoloji yığını olan PHP ve MySQL'e dayanmaktadır. Sonuç olarak, WordPress'in dünyada en yaygın olarak kullanılan CMS ve açık kaynaklı blog yazılımı yapar. Bu yazıyı yazarken, resmi web sitelerine göre WordPress.org'a göre, en iyi 10 milyon web sitesinin% 30'undan fazlasına güç veriyor ve genel pazar payı% 60.
@@ -31,7 +31,7 @@ WordPress En İyi Mikroblog Platformunun dikkate değer özelliklerinden bazıla
   * WordPress için ücretsiz eklentiler - WordPress, blogunuzu geliştirmek ve genişletmek için bir eklenti deposu sağlar.
   * Çok dilli destek - WordPress, kutu dışında çok dilli destek sağlar.
   * Büyük Açık Kaynak Geliştirici Topluluğu
-    [Devamını oku] [6]
+    [Devamını oku][6]
 
 ### ** Jekyll ** {#jekyll}
 Jekyll, yeni başlayanlar için statik bir site jeneratörü ve ücretsiz bloglama araçlarıdır. İşaretleme dosyalarınızı kullanarak bir web sitesi oluşturur. Site içeriğinizi alır, bazı şablonlara uygular ve tamamen statik HTML dosyaları oluşturur. Bu nedenle, herhangi bir barındırma platformunda barındırılmaya hazırlar.
@@ -42,7 +42,7 @@ WordPress veya başka bir bloglama aracı Jekyll’in ana amacı web sitesinin h
   * Hızlı yükleme sayfaları
   * Temalar
   * Açık kaynak
-    [Devamını oku] [7]
+    [Devamını oku][7]
 
 ### ** Hayalet ** {#ghost}
 Ghost açık kaynaklı kar amacı gütmeyen ve ücretsiz bloglama aracıdır. En popüler geliştirme platformlarından biri olan Node.js kullanılarak geliştirilmiştir. Yani, düğümün tüm güçlerine sahiptir. Her şeyden önce, kullanımı kolaylaştıran basit ve temiz bir arayüze sahiptir. Yeni başlayanlar için harika bir içerik yönetimi ve bloglama platformudur ve daha çok içeriğe odaklanır.
@@ -54,7 +54,7 @@ Ghost, aşağıda listelendiği gibi diğer önemli özelliklerin yanında yerli
   * Hızlandırılmış mobil sayfalar
   * Otomatik Yedeklemeler
   * Yerel uygulamalar
-    [Devamını oku] [8]
+    [Devamını oku][8]
 
 ### ** Serendipity ** {#Serendipity}
 Serendipity, web sitelerini herhangi bir amaç için oluşturmak ve sürdürmek için kullanılabilen açık kaynaklı bir PHP tabanlı weblog motorudur. Sıradan blogcular için tasarlanmıştır. Ancak, profesyonel uygulamalar oluşturma gücüne sahip genişletilebilir bir çerçeve sunar.
@@ -66,7 +66,7 @@ Serendipity, İngilizce, Almanca, Danimarka ve Fransızca gibi birçok dili dest
   * Sağlam eklenti sistemi
   * Temalar
   * Açık kaynak
-    [Devamını oku] [9]
+    [Devamını oku][9]
 
 ### ** Silverstripe ** {#SilverStripe}
 SilverStripe, web siteleri, bloglar ve web uygulamaları oluşturmak ve sürdürmek için ücretsiz açık kaynaklı bir CMS ve çerçevedir. Dünyanın en popüler komut dosyası dili PHP kullanılarak inşa edilmiştir. Bu nedenle, üretim sınıfı uygulamaları oluşturmak için kullanılabilecek esnek bir çerçeve haline getirir.
@@ -77,19 +77,21 @@ Güvenliğe çok odaklanır ve kurumsal düzeyde güvenlik ve destek sağlar. Wo
   * Arama motoru dostu
   * Kullanıcı iş akışları ve onayları
   * Kullanıcı yönetimi
-    [Devamını oku] [10]
+    [Devamını oku][10]
 
 ### Çözüm:
 Bu makalede, içerik oluşturucular için mevcut en iyi açık kaynak blog yazılımını incelediniz. Genişletilebilirlik için WordPress, büyük eklenti deposu nedeniyle avantaja sahiptir. Hıza ihtiyacınız varsa Ghost ve Jekyll seçiminiz olabilir. Spam sorunları için Serendipity, spam kontrol özelliği oluşturmuştur. Son olarak SilverStripe, karmaşık onay akışlarını ayarlamak isteyenler için bir seçim olabilir.
-Ayrıca, [Containerize.com] [11], birden fazla dilde ve çerçevede açık kaynaklı ürün yığınını geliştirme yolunda. [Twitter] [12], [LinkedIn] [13] ve [Facebook] [14] sayfamızda bize katılabilirsiniz. Bloglama platformlarının hangi listesini tercih edersiniz? Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin] [15].
+Ayrıca, [Containerize.com][11], birden fazla dilde ve çerçevede açık kaynaklı ürün yığınını geliştirme yolunda. [Twitter][12], [LinkedIn][13] ve [Facebook][14] sayfamızda bize katılabilirsiniz. Bloglama platformlarının hangi listesini tercih edersiniz? Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin][15].
 
 ## Keşfetmek
 Küçük işletmeler için aşağıdaki ilgili e -ticaret çözümlerini bulabilirsiniz:
-  *[** Hugo - Dünyanın En Popüler Açık Kaynak Statik Site Jeneratörü **] [16]
-  *[** Hexo - Hızlı ve Kolay Statik Site Jeneratörü ve Bloglama Platformu **] [17]
-  *[** Gatsby - Gatsby ile hızlı web siteleri oluşturun **] [18]
-  *** [WordPress - Açık Kaynak Bloglama Platformu] [19] **
-  *** [En iyi ücretsiz ve açık kaynaklı bloglama platformları] [20] **
+  *[** Hugo - Dünyanın En Popüler Açık Kaynak Statik Site Jeneratörü **][16]
+  *[** Hexo - Hızlı ve Kolay Statik Site Jeneratörü ve Bloglama Platformu **][17]
+  *[** Gatsby - Gatsby ile hızlı web siteleri oluşturun **][18]
+  *** [WordPress - Açık Kaynak Bloglama Platformu][19] **
+  *** [En iyi ücretsiz ve açık kaynaklı bloglama platformları][20] **
+
+  
 [1]: #wordpress
 [2]: #jekyll
 [3]: #ghost

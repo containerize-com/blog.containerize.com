@@ -15,10 +15,10 @@ categories: ['Programming']
 
 
 ## Überblick
-Wir sind hier mit einem weiteren aufregenden Blog-Beitrag in der Serie der Multi-Messen. In unserem vorherigen [Artikel] [1] haben wir das grundlegende Konzept hinter Multi-Tenant-Apps, Profis und Nachteilen sowie die Arten der Multi-Mieter-Architektur angesprochen. Da es höchste Zeit ist, mehreren Benutzern/Mietern zu bedienen, verwalten und nutzen Sie Ressourcen effizient. Multi-Mieter ist also der Top-Ansatz zum Aufbau einer Infrastruktur, die gleichzeitig verschiedene Kunden/Mieter behandelt. Unser jüngster [Blog -Beitrag] [2] demonstrierte jedoch serverlose Architektur, Containerisierung und [Kubernetes] [3]. Daher werden wir in diesem Artikel Multi-Tenancy- und Container-basierte Architektur untersuchen. Darüber hinaus werden wir sehen, wie Sie in Ihren [Container] [4] Apps Multi-Messen erreichen können.
+Wir sind hier mit einem weiteren aufregenden Blog-Beitrag in der Serie der Multi-Messen. In unserem vorherigen [Artikel][1] haben wir das grundlegende Konzept hinter Multi-Tenant-Apps, Profis und Nachteilen sowie die Arten der Multi-Mieter-Architektur angesprochen. Da es höchste Zeit ist, mehreren Benutzern/Mietern zu bedienen, verwalten und nutzen Sie Ressourcen effizient. Multi-Mieter ist also der Top-Ansatz zum Aufbau einer Infrastruktur, die gleichzeitig verschiedene Kunden/Mieter behandelt. Unser jüngster [Blog -Beitrag][2] demonstrierte jedoch serverlose Architektur, Containerisierung und [Kubernetes][3]. Daher werden wir in diesem Artikel Multi-Tenancy- und Container-basierte Architektur untersuchen. Darüber hinaus werden wir sehen, wie Sie in Ihren [Container][4] Apps Multi-Messen erreichen können.
 In diesem Artikel werden folgende Punkte behandelt:
-***[Multi-Tenant-Container-Hosts] [5]**
-***[Kubernetes Multi-Menancy] [6]**
+***[Multi-Tenant-Container-Hosts][5]**
+***[Kubernetes Multi-Menancy][6]**
 
 ## Multi-Tenant-Container-Hosts {#Multi-Tenant-Container-Hosts}
 Die Bereitstellung von Multi-Tenant-Anwendungen ist eine kritische Aufgabe, wenn es um Hosting-Plattformen geht. Sie alle wissen, dass Behälter im Vergleich zu virtuellen Maschinen leicht sind. Die Anwendungsbereitstellung benötigt nur wenige Millisekunden, um die Bereitstellung zu vervollständigen, während sie bei virtuellen Maschinen eine Frage von Sekunden bis Minuten bilden kann.
@@ -41,25 +41,27 @@ Kubernetes Multi-Tenancy bietet eine kostengünstige Lösung für die Organisati
 Dies bringt uns zum Ende dieses Blog -Beitrags. Wir haben**Kubernetes Multi-Menancy- und Container-basierte Architektur**für die Erreichung von Multi-Mieterschaft durchlaufen. Darüber hinaus stehen viele Bibliotheken von Drittanbietern zur Verfügung, um die Multi-Mandanten-Apps mit Kubernetes zu überbrücken. Dieser Blog-Beitrag hilft Ihnen beim Verständnis des Konzepts von**Multi-Tenant-Container-Hosts**. Es gibt andere interessante Blog -Beiträge, die Sie im Abschnitt "Siehe auch" finden.
 
 ## Verbinde dich mit uns
-Zuletzt bietet [Containerize.com] [7] laufende Blog-Beiträge zu verschiedenen Open-Source-Produkten und -Themen an. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook] [8], [LinkedIn] [9] und [Twitter] [10], folgen.
+Zuletzt bietet [Containerize.com][7] laufende Blog-Beiträge zu verschiedenen Open-Source-Produkten und -Themen an. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook][8], [LinkedIn][9] und [Twitter][10], folgen.
 
 ## Stelle eine Frage
-Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [11] informieren.
+Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][11] informieren.
 
 ## FAQs
-* * Was ist Multi-Messen in Kubernetes?**?
-Folgen Sie diesem [Link] [6], um Kubernetes-Multi-Messen zu kennen.
-* * Was ist ein Multi-Mieter-gegen-Single-Mieter-Cluster?**
+**Was ist Multi-Messen in Kubernetes?**?
+Folgen Sie diesem [Link][6], um Kubernetes-Multi-Messen zu kennen.
+**Was ist ein Multi-Mieter-gegen-Single-Mieter-Cluster?**
 In einem Mieter-Cluster teilen sich alle Mieter/Clients den Kubernetes-Cluster, während in einem Einzelmieter-Cluster für jeden Mieter einen separaten Cluster ausgeführt wird.
 
 ## Siehe auch
-  * [Was ist serverloses Computer? | Serverlose Architektur] [12]
-  * [Was ist Multitenancy? | Warum ein Multi-Mieter-Ansatz?] [13]
-  * [Was ist generative AI | Generative künstliche Intelligenz] [14]
-  * [So integrieren Sie Chatgpt in Google Sheets] [15]
-  * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT] [16]
-  * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution] [17]
-  * [Eine Einführung in die künstliche Intelligenz | Was ist ai?] [18]
+  * [Was ist serverloses Computer? | Serverlose Architektur][12]
+  * [Was ist Multitenancy? | Warum ein Multi-Mieter-Ansatz?][13]
+  * [Was ist generative AI | Generative künstliche Intelligenz][14]
+  * [So integrieren Sie Chatgpt in Google Sheets][15]
+  * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT][16]
+  * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution][17]
+  * [Eine Einführung in die künstliche Intelligenz | Was ist ai?][18]
+
+  
 [1]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
 [2]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/#Serverless-vs-Containers
 [3]: https://products.containerize.com/devops/kubernetes/

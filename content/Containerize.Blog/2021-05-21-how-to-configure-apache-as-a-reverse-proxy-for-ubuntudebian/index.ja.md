@@ -97,11 +97,13 @@ sudo systemctl restart apache2.service
 
 ## 探検
 また、以下のより関連する記事が好きかもしれません：
-  * [方法] [1] [ubuntuでnginxを使用してphpmyadminをインストールして保護する] [2]
-  * [AWSプロダクションサーバーの乗客とnginxをセットアップする方法] [3]
-  * [ubuntu/debianでnginxでHTTP/2サポートを構成] [4]
-  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します] [5]
-  * [ubuntuでapacheでowncloudをインストールして構成する方法] [6]
+  * [方法][1][ubuntuでnginxを使用してphpmyadminをインストールして保護する][2]
+  * [AWSプロダクションサーバーの乗客とnginxをセットアップする方法][3]
+  * [ubuntu/debianでnginxでHTTP/2サポートを構成][4]
+  * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します][5]
+  * [ubuntuでapacheでowncloudをインストールして構成する方法][6]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/ja/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/

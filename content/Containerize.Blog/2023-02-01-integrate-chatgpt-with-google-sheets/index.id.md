@@ -15,21 +15,21 @@ categories: ['Artificial intelligence']
 
 
 ## Ringkasan
-Kami berterima kasih kepada pembaca kami yang secara konsisten mengikuti posting blog kami. Tanggapan o Posting blog terbaru kami tentang [kode GPT] [1] dan [chatgpt] [2] luar biasa. Oleh karena itu, kami telah membuat artikel lain yang akan menunjukkan**bagaimana mengintegrasikan chatgpt dengan google [lembaran] [3].**Google Sheets juga menyediakan fitur berbasis pembelajaran mesin bersama dengan yang lain seperti pemformatan spreadsheet, visualisasi data, dan lagi. Di sisi lain, chatgpt didasarkan pada [open-source] [4] GPT-3 yang merupakan model NLP open-source yang dikembangkan oleh [OpenAi] [5].
+Kami berterima kasih kepada pembaca kami yang secara konsisten mengikuti posting blog kami. Tanggapan o Posting blog terbaru kami tentang [kode GPT][1] dan [chatgpt][2] luar biasa. Oleh karena itu, kami telah membuat artikel lain yang akan menunjukkan**bagaimana mengintegrasikan chatgpt dengan google [lembaran][3].**Google Sheets juga menyediakan fitur berbasis pembelajaran mesin bersama dengan yang lain seperti pemformatan spreadsheet, visualisasi data, dan lagi. Di sisi lain, chatgpt didasarkan pada [open-source][4] GPT-3 yang merupakan model NLP open-source yang dikembangkan oleh [OpenAi][5].
 Namun, membuat lembaran Anda responsif dengan memasang chatbot berbasis kecerdasan buatan akan membawa fungsionalitas dan efisiensi yang ditingkatkan. Selanjutnya, integrasi chatbot tingkat perusahaan**ini akan menghemat waktu Anda dengan mengotomatiskan tugas rutin dan dapat menawarkan solusi untuk masalah kompleks Anda.
 Kami akan membahas poin -poin berikut dalam artikel ini:
-* [**Bagaimana cara mengintegrasikan chatgpt dengan Google Sheets?**] [6]
-* [**Bagaimana cara menggunakan chatgpt di Google Sheets?**] [7]
+* [**Bagaimana cara mengintegrasikan chatgpt dengan Google Sheets?**][6]
+* [**Bagaimana cara menggunakan chatgpt di Google Sheets?**][7]
 
 ## Cara mengintegrasikan chatgpt dengan Google Sheets {#How-to-Integrate-chatgpt-with-google-sheets}
-* * Integrasi ChatGPT**dengan perangkat lunak apa pun pasti akan memberikan keunggulan kompetitif untuk bisnis. Model bertenaga AI yang dapat memulai sesi percakapan dua arah dan Anda menanamkannya dengan perangkat lunak Anda seberapa kuat integrasi itu? Tentu saja menakjubkan. Jadi, Anda meminta chatbot untuk solusi teknis untuk suatu masalah dan Anda mendapatkan tanggapan tepat waktu, itu sangat berarti dalam hal menghemat waktu & usaha.
+**Integrasi ChatGPT**dengan perangkat lunak apa pun pasti akan memberikan keunggulan kompetitif untuk bisnis. Model bertenaga AI yang dapat memulai sesi percakapan dua arah dan Anda menanamkannya dengan perangkat lunak Anda seberapa kuat integrasi itu? Tentu saja menakjubkan. Jadi, Anda meminta chatbot untuk solusi teknis untuk suatu masalah dan Anda mendapatkan tanggapan tepat waktu, itu sangat berarti dalam hal menghemat waktu & usaha.
 Mari kita mulai ini**Integrasi Google Sheets dengan Chatgpt.**
-Pertama, buka Google [Sheets] [3] dan klik**“Extensions-> Add-On-> Get Add-Ons”**. Setelah Anda melakukan ini, Anda akan melihat kotak dialog di Google Workspace Marketplace. Sekarang, ketik "chatgpt" di bilah pencarian yang ditempatkan di sudut kanan atas dan pilih opsi pertama seperti yang ditunjukkan pada gambar di bawah ini.
+Pertama, buka Google [Sheets][3] dan klik**“Extensions-> Add-On-> Get Add-Ons”**. Setelah Anda melakukan ini, Anda akan melihat kotak dialog di Google Workspace Marketplace. Sekarang, ketik "chatgpt" di bilah pencarian yang ditempatkan di sudut kanan atas dan pilih opsi pertama seperti yang ditunjukkan pada gambar di bawah ini.
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-9.36.21-PM-1-1024x750.png" alt="Chatgpt untuk bekerja">}}
 
 Pilih opsi pertama dan instal ekstensi ini. Setelah instalasi ini, set berikutnya adalah untuk mengaktifkan integrasi chatgpt**ke Google Sheets.**
-Anda perlu membuat akun di platform OpenAI dan mendapatkan kunci API Anda. Silakan kunjungi [tautan] [1] ini untuk mendapatkan kunci API OpenAI.
+Anda perlu membuat akun di platform OpenAI dan mendapatkan kunci API Anda. Silakan kunjungi [tautan][1] ini untuk mendapatkan kunci API OpenAI.
 Selanjutnya, klik**“Extensions-> GPT untuk lembar dan dokumen-> Setel Kunci API”**dan masukkan tombol API untuk mengaktifkan integrasi chatgpt. Selain itu, klik**“Extensions-> GPT untuk lembar dan dokumen-> Mengaktifkan fungsi GPT”**untuk mengaktifkan fungsi GPT.
 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="integrasi chatgpt">}}
@@ -52,24 +52,26 @@ Berikut ini adalah beberapa fitur penting dari ekstensi ini:
 ***GPT_FILL**: Mengisi rentang yang tidak lengkap dengan GPT diberi contoh rentang
 ***GPT_CONVERT**: Konversi di antara format.
 ***GPT_TRANSLATE**: Teks untuk diterjemahkan.
-Harap ikuti YouTube ini [tautan] [8] untuk melihat beberapa fungsinya beraksi.
+Harap ikuti YouTube ini [tautan][8] untuk melihat beberapa fungsinya beraksi.
 
 ## Kesimpulan
-Kami mengakhiri panduan ini di sini yang ada di**integrasi Google Sheets dan integrasi chatgpt**. Kami telah melalui cara mengintegrasikan chatgpt dengan Google Sheets. Bahkan, Anda telah belajar cara menggunakan**chatgpt untuk bekerja**. Selain itu, Anda dapat memanfaatkan chatbot bertenaga AI ini**sedikit lebih jauh dengan menulis fungsi di [Google App Script] [9]. Selain itu, Anda dapat mengotomatiskan banyak alur kerja Anda dengan hanya menginstal ekstensi chatgpt berbasis gpt-3**ini.**
-Akhirnya, [containerize.com] [10] terus menulis posting blog tentang produk dan topik open-source lebih lanjut. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook] [11], [LinkedIn] [12], dan [Twitter] [13].
+Kami mengakhiri panduan ini di sini yang ada di**integrasi Google Sheets dan integrasi chatgpt**. Kami telah melalui cara mengintegrasikan chatgpt dengan Google Sheets. Bahkan, Anda telah belajar cara menggunakan**chatgpt untuk bekerja**. Selain itu, Anda dapat memanfaatkan chatbot bertenaga AI ini**sedikit lebih jauh dengan menulis fungsi di [Google App Script][9]. Selain itu, Anda dapat mengotomatiskan banyak alur kerja Anda dengan hanya menginstal ekstensi chatgpt berbasis gpt-3**ini.**
+Akhirnya, [containerize.com][10] terus menulis posting blog tentang produk dan topik open-source lebih lanjut. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][11], [LinkedIn][12], dan [Twitter][13].
 
 ## Berikan pertanyaan
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [14].
 
 ## FAQ
-* * Bagaimana cara mengaktifkan obrolan di Google Sheets?**
+**Bagaimana cara mengaktifkan obrolan di Google Sheets?**
 ChatGPT bertenaga AI dan berinteraksi dengan cara percakapan. Anda dapat mengintegrasikan chatgpt dengan Google Sheets dengan menavigasi ke [tautan] ini [6].
 
 ## Lihat juga
-  * [Pengantar Kecerdasan Buatan | Apa itu ai?] [15]
-  * [Cara menggunakan chatgpt di vscode | Kode Ekstensi VScode GPT] [1]
-  * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI] [2]
-  * [Apa 5 Kerangka AI Open-Source Top] [16]
+  * [Pengantar Kecerdasan Buatan | Apa itu ai?][15]
+  * [Cara menggunakan chatgpt di vscode | Kode Ekstensi VScode GPT][1]
+  * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI][2]
+  * [Apa 5 Kerangka AI Open-Source Top][16]
+
+  
 [1]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 [2]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [3]: https://www.google.com/sheets/about/

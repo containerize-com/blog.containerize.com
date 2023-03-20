@@ -13,11 +13,11 @@ categories: ['Animation Software']
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software.png" alt="Synfig Tutorial Un logiciel d'animation 2D open source">}}
 
-  * [Qu'est-ce que Synfig?] [1]
-  * [Comment installer Synfig?] [2]
-  * [Présentation de l'interface d'application] [3]
-  * [Comment créer une animation de base avec Synfig?] [4]
-  * [Conclusion] [5]
+  * [Qu'est-ce que Synfig?][1]
+  * [Comment installer Synfig?][2]
+  * [Présentation de l'interface d'application][3]
+  * [Comment créer une animation de base avec Synfig?][4]
+  * [Conclusion][5]
 
 ## Qu'est-ce que Synfig? {#quoi}
 Synfig est l'un des meilleurs logiciels d'animation 2D conçus pour les artistes solo ou les petites équipes pour gérer leurs flux de travail et projets d'animation. En tant que logiciel d'animation open source, Synfig utilise un système d'animation «inutile» qui non seulement réduit le temps qu'il faut à une animation pour traiter, mais il donne également aux animateurs la possibilité d'ajouter un cadre de dessin.
@@ -97,14 +97,16 @@ Et là, vous avez un tutoriel de base sur la façon de créer une animation dans
 
 ## Conclusion {#conclusion}
 L'utilisation du logiciel d'animation Synfig 2D est assez simple et facile si vous utilisez déjà un logiciel d'animation pour votre travail. Même si vous êtes nouveau dans l'industrie de l'animation, la compréhension de l'interface est une tâche facile. Nous espérons que vous avez trouvé ce tutoriel utile et que vous pouvez créer des animations 2D pour différents projets académiques, commerciaux ou personnels pour créer un portfolio.
-_ Quel est votre logiciel d'animation open source le plus préféré ?. Avez-vous des questions sur les logiciels d'animation ?, s'il vous plaît_ [contacter] [6].
+_ Quel est votre logiciel d'animation open source le plus préféré ?. Avez-vous des questions sur les logiciels d'animation ?, s'il vous plaît_ [contacter][6].
 
 ## Explorer
 Vous pouvez trouver des liens suivants pertinents:
-  * [Meilleur logiciel d'animation open source] [7]
-  * [Synfig | Suite d'animation 2D Vector gratuite et open source] [8]
-  * [Comment créer des animations avec un logiciel d'animation crayon2d] [9]
-  * [Guide du débutant pour démarrer l'édition d'image gratuite à l'aide de digikam] [10]
+  * [Meilleur logiciel d'animation open source][7]
+  * [Synfig | Suite d'animation 2D Vector gratuite et open source][8]
+  * [Comment créer des animations avec un logiciel d'animation crayon2d][9]
+  * [Guide du débutant pour démarrer l'édition d'image gratuite à l'aide de digikam][10]
+
+  
 [1]: #what
 [2]: #how-to-install
 [3]: #application-interfae

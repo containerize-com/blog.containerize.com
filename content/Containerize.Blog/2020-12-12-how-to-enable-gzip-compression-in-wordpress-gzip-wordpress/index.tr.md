@@ -17,11 +17,11 @@ categories: ['Blogging']
 ## Genel Bakış
 Google ve diğer arama motorları bir web sitesinin kullanıcı deneyimini (UX) sıralama algoritmalarında kritik bir faktör olarak görüyorlar. En iyi derecelendirmeler için web sitenizi geliştirmek ve optimize etmek daha önemli hale geldi. Dikkat edilmesi gereken en önemli faktörler arasında sayfa hızı ve yükleme süreleri. Ve site hızını ve performansı artırmanın en hızlı ve en kolay yolu, web sitenizde GZIP sıkıştırmasını sağlamaktır. Web ana bilgisayarınızın sizin için otomatik olarak GZIP sıkıştırmasını etkinleştirme şansı vardır. Değilse, bu önemli görevi kendiniz gerçekleştirmeniz gerekir.
 Bu makalede, WordPress'te GZIP sıkıştırmasını tam olarak nasıl etkinleştireceğinizi tam olarak göstereceğiz. Başlayalım!
-  *[** GZIP Sıkıştırma Nedir **?] [1]
-  *[** GZIP sıkıştırma nasıl çalışır? **] [2]
-  *** [GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur?] [3] **
-  *** [WordPress'te GZIP sıkıştırmasını etkinleştir] [4] **
-  *** [Sonuç] [5] **
+  *[** GZIP Sıkıştırma Nedir **?][1]
+  *[** GZIP sıkıştırma nasıl çalışır? **][2]
+  *** [GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur?][3] **
+  *** [WordPress'te GZIP sıkıştırmasını etkinleştir][4] **
+  *** [Sonuç][5] **
 
 ## GZIP Sıkıştırma Nedir? {#Ne}
 GZIP bir ** dosya biçimi ve dosya sıkıştırma ve dekompresyon için kullanılan bir yazılım uygulaması **. Web sunucuları veya diğer yazılımlar, kullanıcıların tarayıcılarına gönderilmeden önce veri dosyalarını sıkıştırmak için GZIP Sıkıştırma kullanır. Bu, web sitenizi daha hızlı hale getiren dosya indirme süresini azaltır. Tüm modern tarayıcılar GZIP sıkıştırmasını destekler.
@@ -41,7 +41,7 @@ Ardından, ** Ağ ** sekmesine gidin ve web sitesinin ana URL'sini “Ad” böl
 Orada, GZIP sıkıştırmasının etkin olup olmadığını göreceksiniz.
 
 ## WordPress'te gzip sıkıştırmasını etkinleştir {#enable}
-** WordPress GZIP sıkıştırmasının henüz etkin olmadığını belirlediyseniz **, çalıştırmak için kullanabileceğiniz birden fazla yöntem vardır. En kolay yol, [WP Rocket] [6], [WP Süper Önbellek] [7] veya [W3 Total Cache] [8] gibi bazı WordPress eklentilerini kullanmaktır. Ancak, bunu .htaccess dosyası veya Nginx yapılandırmanızı güncelleyerek sunucu düzeyinde manuel olarak yapabilirsiniz.
+** WordPress GZIP sıkıştırmasının henüz etkin olmadığını belirlediyseniz **, çalıştırmak için kullanabileceğiniz birden fazla yöntem vardır. En kolay yol, [WP Rocket][6], [WP Süper Önbellek][7] veya [W3 Total Cache][8] gibi bazı WordPress eklentilerini kullanmaktır. Ancak, bunu .htaccess dosyası veya Nginx yapılandırmanızı güncelleyerek sunucu düzeyinde manuel olarak yapabilirsiniz.
 
 ### .htaccess dosyasını düzenleyerek
 WordPress GZIP sıkıştırmasını etkinleştirmenin en yaygın yollarından biri ** _.htaccess_ dosyasını ** düzenlemektir. Ancak bu, bir şeyi kırma riskini içerir. Bu hassas bir sunucu dosyasıdır ve yanlış bir hareket çok fazla soruna neden olabilir.
@@ -90,18 +90,20 @@ gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon applic
 
 ## Sonuç {#Conclusion}
 Bu GZIP WordPress öğreticisinin sonu. Web sitenizi hız ve performans için optimize etmenin birçok yolu vardır. Bu GZIP WordPress öğreticisinde, GZIP sıkıştırma, GZIP sıkıştırmasının önemi ve kurulum adımlarından geçtik. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen birçok ilgili bağlantı vardır.
-Son olarak, [Containerize.com] [9] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [Blogging] [10] kategorisiyle iletişime geçin.
+Son olarak, [Containerize.com][9] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [Blogging][10] kategorisiyle iletişime geçin.
 
 ## Keşfetmek
-  * [Matomo] [11]
-  * [Akla yatkın] [12]
-  * [WordPress] [13]
-  * [Jekyll] [14]
-  * [WordPress'i Docker Compose ile DockPress nasıl yapılır] [15]
-  * [Ücretsiz iş analizi araçları işletmenize nasıl yardımcı olur] [16]
-  * [2021 En İyi 5 Açık Kaynak İş Zekası Araçları] [17]
-  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu] [18]
-  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın] [19]
+  * [Matomo][11]
+  * [Akla yatkın][12]
+  * [WordPress][13]
+  * [Jekyll][14]
+  * [WordPress'i Docker Compose ile DockPress nasıl yapılır][15]
+  * [Ücretsiz iş analizi araçları işletmenize nasıl yardımcı olur][16]
+  * [2021 En İyi 5 Açık Kaynak İş Zekası Araçları][17]
+  * [Eklenti WordPress'e nasıl yüklenir | Vanilya Forumu][18]
+  * [Ücretsiz Civicrm WordPress Entegrasyonu ile Kurşunlarınızı Artırın][19]
+
+  
 [1]: #what
 [2]: #work
 [3]: #verify

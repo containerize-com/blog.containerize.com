@@ -13,12 +13,12 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Nginx yapılandırması ile Browsr önbellekleme nasıl uygulanır">}}
 
-Nginx'in öğretici serimizde [Nginx'i yük dengeleyici olarak nasıl kullanacağımızı] [1], [Nginx'i ters proxy olarak yapılandırın] [2], [Nginx ile birden fazla PHP sürümünü kullanın] [3] ve [HTAccess Rewrite'ı dönüştürdük Nginx yeniden yazma yönergeleri kuralları] [4]. Bugünkü makalede, işletmelerin tarayıcı önbelleğinden yararlanarak kullanıcılarının deneyimlerini geliştirmelerine yardımcı olan çok önemli bir konuyu ele alıyoruz. Bu öğreticide, Nginx’in başlık modülünü kullanarak Nginx yapılandırmasıyla tarayıcı önbelleğini nasıl uygulayacağınız konusunda size rehberlik edeceğiz. Başlayalım!
-  *** [Tarayıcı önbelleğinden yararlanın] [5] **
-  *[** Nginx başlık modülü **] [6]
-  *[** E-TAGE ve IF-NONE-MATCH **] [7]
-  *[** NGINX yapılandırması ile önbelleğe alınma önbelleğe alınma **] [8]
-  *[** Sonuç **] [9]
+Nginx'in öğretici serimizde [Nginx'i yük dengeleyici olarak nasıl kullanacağımızı][1], [Nginx'i ters proxy olarak yapılandırın][2], [Nginx ile birden fazla PHP sürümünü kullanın][3] ve [HTAccess Rewrite'ı dönüştürdük Nginx yeniden yazma yönergeleri kuralları][4]. Bugünkü makalede, işletmelerin tarayıcı önbelleğinden yararlanarak kullanıcılarının deneyimlerini geliştirmelerine yardımcı olan çok önemli bir konuyu ele alıyoruz. Bu öğreticide, Nginx’in başlık modülünü kullanarak Nginx yapılandırmasıyla tarayıcı önbelleğini nasıl uygulayacağınız konusunda size rehberlik edeceğiz. Başlayalım!
+  *** [Tarayıcı önbelleğinden yararlanın][5] **
+  *[** Nginx başlık modülü **][6]
+  *[** E-TAGE ve IF-NONE-MATCH **][7]
+  *[** NGINX yapılandırması ile önbelleğe alınma önbelleğe alınma **][8]
+  *[** Sonuç **][9]
 
 ## KURULU TARAYICI {#Tarayıcı-Caching}
 Bir web sitesi ne kadar hızlı yüklenirse, bir ziyaretçi web sitesinde kalma olasılığı o kadar artar. Çok sayıda görüntü ve etkileşimli içeriğe sahip web siteleri arka planda yüklenir Web sitesinin karmaşık bir görev açmasını sağlar. Sunucudan birçok farklı dosya talep etmekten oluşur. Bu isteklerin miktarını en aza indirmek, web sitenizi hızlandırmanın bir yoludur.
@@ -108,8 +108,10 @@ Benzer şekilde, herhangi bir konum bloğundan önce önbellek yapılandırması
 Nginx’in başlıklar modülü, cevaba keyfi başlıklar eklemek için kullanılabilir, ancak önbellek kontrol başlıklarını düzgün bir şekilde ayarlamak en kullanışlı uygulamalarından biridir. Web sitesinin performansını artırmanıza yardımcı olur, özellikle mobil taşıyıcı ağlar gibi daha yüksek gecikmeli ağlardaki kullanıcılar için. Bu öğreticide, Nginx yapılandırmasıyla tarayıcı önbelleğinden nasıl yararlanacağını öğrendik. Umarım bu, kullanıcınızın web sitenizdeki deneyimini geliştirmenize yardımcı olacaktır.
 
 ## Keşfetmek
-  * [Ubuntu'da Nginx ile birden fazla PHP sürümü nasıl kurulur] [3]
-  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır] [2]
+  * [Ubuntu'da Nginx ile birden fazla PHP sürümü nasıl kurulur][3]
+  * [NGINX'i ters proxy olarak nasıl kurar ve yapılandırır][2]
+
+  
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

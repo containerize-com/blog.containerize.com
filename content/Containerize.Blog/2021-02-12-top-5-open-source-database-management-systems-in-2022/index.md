@@ -37,7 +37,7 @@ Following are the prominent features:
   * Free to download
   * High performance
 
-[Read][7] [More][7]
+[Read][7][More][7]
 
 ## PostgreSQL {#postgre}
 

@@ -180,7 +180,7 @@ Do you have any questions about HTTP2 multiplexed protocol?_, Please_ [get in t
 You may also like below articles:
 
   * [How To Configure Apache as a Reverse Proxy For Ubuntu/Debian][3]
-  * [How to][3] [Install and Secure phpMyAdmin with Nginx on Ubuntu][4]
+  * [How to][3][Install and Secure phpMyAdmin with Nginx on Ubuntu][4]
   * [How to Setup Nginx With Passenger on AWS Production Server][5]
   * [Secure and Encrypt Nginx with Let’s Encrypt on Ubuntu 20.04][1]
   * [How to Install and Configure ownCloud with Apache on Ubuntu][6]

@@ -67,14 +67,16 @@ Die Blockchain-Technologie ermöglicht ** Peer-to-Peer-Transaktionen **, damit B
 
 ## ** Fazit: ** {#4A1a}
 Wir sind am Ende unserer Liste der aktuellen und Trends ** Top 10 aufstrebende Technologien ** 2022 gekommen. Diese Top -Ten -Open -Source -Technologien haben die Welt um uns herum dramatisch verändert. Diese Welt wäre ein ganz anderer Ort ohne diese Open -Source -Plattformen und -Technologien. Für diese kostenlosen Technologien stehen einige Alternativen für geschlossene Quellen zur Verfügung. FOSS4G und der Zustand der Kartenveranstaltungen sind die Möglichkeit, mehr über die Anforderungen von Open Source of Software zu erfahren. Fast alles wäre anders, ohne die sich entwickelnde Open -Source -Software ** zu entwickeln. Dankbar für die Open -Source -Initiative und die Gemeinschaften.
-_Was sind Ihre Lieblingsliste für Open -Source -Technologien?. Haben Sie Fragen zu Open Source _technologies_?, Bitte_ [in Kontakt] [1].
+_Was sind Ihre Lieblingsliste für Open -Source -Technologien?. Haben Sie Fragen zu Open Source _technologies_?, Bitte_ [in Kontakt][1].
 
 ## Erkunden:
 Wir haben auch mehrere andere verwandte Informationen von OSS Watch:
-  * [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software] [2]
-  * [Top 5 Open Source Message Queue (MQ) Software in 2021] [3]
-  * [Beliebteste Open Source Digital Forensic Tools] [4]
-  * [Die beliebtesten Open-Source-Lizenzen] [5]
+  * [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][2]
+  * [Top 5 Open Source Message Queue (MQ) Software in 2021][3]
+  * [Beliebteste Open Source Digital Forensic Tools][4]
+  * [Die beliebtesten Open-Source-Lizenzen][5]
+
+  
 [1]: mailto:yasir.saeed@aspose.com
 [2]: https://products.containerize.com/backup-and-sync/
 [3]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/

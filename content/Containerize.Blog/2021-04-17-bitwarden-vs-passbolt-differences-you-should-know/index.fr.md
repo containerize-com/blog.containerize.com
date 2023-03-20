@@ -14,10 +14,10 @@ categories: ['Uncategorized']
 {{< figure align=center src="images/bitwarden.png" alt="Gestionnaires de mot de passe open source | Bitwarden vs Passbolt|Gestionnaires de mot de passe open source | Bitwarden vs Passbolt">}}
 
 Lorsqu'il s'agit de trouver un gestionnaire de mots de passe qui fonctionne non seulement pour une utilisation individuelle, mais permet aux équipes et aux entreprises de mieux gérer et d'accéder aux informations sensibles, la recherche du bon gestionnaire de mot de passe peut aider à soulager le flux de travail. Bitwarden et Passbolt sont tous deux un logiciel de gestion de mot de passe open source, qui a été spécialement conçu pour les équipes et permet aux entreprises d'héberger les applications localement ou sur le cloud. Nous couvrirons les sujets suivants dans ce post afin de comparer Bitwarden vs Passbolt:
-  * [Qu'est-ce que Bitwarden?] [1]
-  * [Qu'est-ce que Passbolt?] [2]
-  * [Différences principales] [3]
-  * [Conclusion] [4]
+  * [Qu'est-ce que Bitwarden?][1]
+  * [Qu'est-ce que Passbolt?][2]
+  * [Différences principales][3]
+  * [Conclusion][4]
 
 ## ** Qu'est-ce que Bitwarden? **
 Bitwarden est un gestionnaire de mots de passe open source prometteur qui a une compatibilité multiplateforme, y compris une application mobile et Web ainsi que l'interface de ligne de commande. Vous pouvez également accéder à Bitwarden sur votre bureau car il a une compatibilité avec Windows, MacOS et Linux. En tant que gestionnaire de mot de passe open source, Bitwarden peut être utilisé pour une utilisation individuelle ainsi qu'au niveau de l'entreprise. Non seulement vous pouvez héberger Bitwarden sur vos serveurs, mais il a également l'hébergement en cloud, et avec la compatibilité des périphériques croisés, il est accessible chaque fois que vous en avez besoin.
@@ -53,9 +53,11 @@ Dans cet article, nous avons essayé de passer en détail la comparaison de Bitw
 
 ## Explorer
 Vous pouvez trouver des liens suivants pertinents:
-[Bitwarden | Open Source Proplateform Password Manager] [5]
-[Passbolt | GRATUIT, Open Source et Manager de mot de passe auto-hébergé] [6]
-[Configuration et gérer Keepass Password Manager pour Windows] [7]
+[Bitwarden | Open Source Proplateform Password Manager][5]
+[Passbolt | GRATUIT, Open Source et Manager de mot de passe auto-hébergé][6]
+[Configuration et gérer Keepass Password Manager pour Windows][7]
+
+  
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

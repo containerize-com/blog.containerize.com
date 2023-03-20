@@ -15,14 +15,14 @@ categories: ['CMDB Software']
 
 
 ## **Descripción general**
-En esta serie de blogs de software CMDB, escribimos sobre temas como [cómo la solución CMDB influye en los servicios de gestión de activos de TI] [1] y [cómo configurar la solución CMDB Ralph en localhost] [2]. Estos artículos describen el papel de la solución de gestión de activos de TI en el negocio, y el otro es una publicación de blog tutorial que ayuda a configurar Ralph. [Ralph] [3] es un software de seguimiento de activos de código abierto ** que permite a los usuarios rastrear activos físicos y digitales con control y seguridad total. Es altamente extensible y proporciona una interfaz RESTful para aplicaciones de terceros. Este software CMDB presenta capacidades de autohospedación. Permite a los usuarios definir un flujo de trabajo para acciones internas/externas en los activos. Puede ver información integral sobre su infraestructura de TI. Sin embargo, en esta publicación de blog, jugaremos con Ralph para desarrollar una comprensión básica de sus operaciones cubriendo los siguientes puntos.
-  *** [¿Qué es el tablero de Ralph?] [4] **
-  *[** Soporte para Back Office **] [5]
-  *** [Soporte para centros de datos] [6] **
-  *[** Conclusión **] [7]
+En esta serie de blogs de software CMDB, escribimos sobre temas como [cómo la solución CMDB influye en los servicios de gestión de activos de TI][1] y [cómo configurar la solución CMDB Ralph en localhost][2]. Estos artículos describen el papel de la solución de gestión de activos de TI en el negocio, y el otro es una publicación de blog tutorial que ayuda a configurar Ralph. [Ralph][3] es un software de seguimiento de activos de código abierto ** que permite a los usuarios rastrear activos físicos y digitales con control y seguridad total. Es altamente extensible y proporciona una interfaz RESTful para aplicaciones de terceros. Este software CMDB presenta capacidades de autohospedación. Permite a los usuarios definir un flujo de trabajo para acciones internas/externas en los activos. Puede ver información integral sobre su infraestructura de TI. Sin embargo, en esta publicación de blog, jugaremos con Ralph para desarrollar una comprensión básica de sus operaciones cubriendo los siguientes puntos.
+  *** [¿Qué es el tablero de Ralph?][4] **
+  *[** Soporte para Back Office **][5]
+  *** [Soporte para centros de datos][6] **
+  *[** Conclusión **][7]
 
 ## ¿Qué es Ralph Dashboard? {#panel}
-[Ralph] [3] proporciona un tablero intuitivo con una navegación fácil. Esta ** Solución de gestión de TI ** proporciona una demostración en línea para jugar con ella. Los usuarios pueden ver y probar todas las características que ofrece esta solución CMDB gratuita ** **. Además, hay una interfaz interactiva donde los usuarios pueden insertar datos ficticios para verificar la entrada y la salida. Además, todo está aislado en forma de módulos. Los módulos son activos del centro de datos, activos de back office, licencias, soporte, dominios, usuarios y mi equipo. Cada módulo se coloca en la barra de menú superior. También ofrece administración de registros y los usuarios pueden ver las acciones recientes en la barra lateral derecha. Además, ofrece soporte completo para centros de datos y back-office que incluye impresoras, computadoras portátiles, computadoras de escritorio, impresoras y teléfonos móviles. Hay cuadros que muestran los datos en tiempo real.
+[Ralph][3] proporciona un tablero intuitivo con una navegación fácil. Esta ** Solución de gestión de TI ** proporciona una demostración en línea para jugar con ella. Los usuarios pueden ver y probar todas las características que ofrece esta solución CMDB gratuita ** **. Además, hay una interfaz interactiva donde los usuarios pueden insertar datos ficticios para verificar la entrada y la salida. Además, todo está aislado en forma de módulos. Los módulos son activos del centro de datos, activos de back office, licencias, soporte, dominios, usuarios y mi equipo. Cada módulo se coloca en la barra de menú superior. También ofrece administración de registros y los usuarios pueden ver las acciones recientes en la barra lateral derecha. Además, ofrece soporte completo para centros de datos y back-office que incluye impresoras, computadoras portátiles, computadoras de escritorio, impresoras y teléfonos móviles. Hay cuadros que muestran los datos en tiempo real.
 
 {{< figure align=center src="images/Screenshot-2021-07-14-at-15.24.12-1024x576.png" alt="Solución de gestión de activos de TI">}}
 
@@ -48,17 +48,19 @@ En la siguiente sección de hardware, puede agregar activos del centro de datos 
 
 ## conclusión {#conclusion}
 Este es el final de la publicación del blog. **** Una buena solución de gestión de activos de IT ** Mejora los flujos de trabajo de TI trayendo automatización y seguimiento. No solo le permite automatizar cada activo, sino que también puede rastrear configuraciones y cambios. Los usuarios pueden administrar activos e infraestructura físicos y virtuales. Hay muchos software de seguimiento de activos de código abierto que ofrece interfaces lógicas de usuario. Estos paneles muestran datos en formas visuales. El sector corporativo está aprovechando ampliamente este software de base de datos de gestión de configuración gratuita. Por lo tanto, si se pregunta cómo administrar los activos, debe obtener un software de código abierto y de código abierto que figuran aquí. Todas las soluciones CMDB enumeradas aquí son navegación gratuitas, rentables, autohospedadas y fáciles de usar, fácil de implementar y configurar. Estas soluciones proporcionan integraciones de terceros y un descubrimiento de activos de TI frecuente.
-Finalmente, [** Contenerize.com **] [8] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [Software de base de datos de gestión de configuración (CMDB] [9]) para actualizaciones regulares.
+Finalmente, [** Contenerize.com **][8] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [Software de base de datos de gestión de configuración (CMDB][9]) para actualizaciones regulares.
 
 ## Explorar
-  *** [Software CMDB] [9] **
-  *** [Ralph] [3] **
-  *[** Snipe-it **] [10]
-  *[** cmdbuild **] [11]
-  *** [Capataz] [12] **
-  *** [ITOP] [13] **
-  *[** Automatizar operaciones comerciales utilizando software de código abierto y de código abierto **] [14]
-  *** [Tendencias de desarrollo de software a tener en cuenta en 2021] [15] **
+  *** [Software CMDB][9] **
+  *** [Ralph][3] **
+  *[** Snipe-it **][10]
+  *[** cmdbuild **][11]
+  *** [Capataz][12] **
+  *** [ITOP][13] **
+  *[** Automatizar operaciones comerciales utilizando software de código abierto y de código abierto **][14]
+  *** [Tendencias de desarrollo de software a tener en cuenta en 2021][15] **
+
+  
 [1]: https://blog.containerize.com/cmdb-software/how-cmdb-solution-influences-it-asset-management-services/
 [2]: https://blog.containerize.com/cmdb-software/how-to-set-up-cmdb-solution-ralph-on-localhost/
 [3]: https://products.containerize.com/cmdb-software/ralph/

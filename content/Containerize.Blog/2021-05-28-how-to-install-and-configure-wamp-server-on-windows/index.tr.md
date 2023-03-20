@@ -15,10 +15,10 @@ categories: ['Web Server Solution Stack']
 
 Her geliştiricinin programı yazmadan önce bilgisayarına gerekli yazılımı kurulu olması gerekir. İlk günlerde, geliştiriciler her yazılımı ayrı ayrı yüklemek ve daha sonra bunları birlikte çalışacak şekilde yapılandırmak zorunda kaldılar. ** Wampserver ** ve gerekli tüm yazılımları tek bir pakette biriktiren diğer web çözümü yığın yazılımı mevcuttur. Geliştirme ortamınızı çalıştırmak ve çalıştırmak için yalnızca bir paket yüklemeniz gerekir.
 Bu blog yazısında aşağıdaki bölümleri ele alacağız.
-  *[** Wampserver nedir? **] [1]
-  *[** Wamp kurulumu **] [2]
-  *[** Wamp Yapılandırması **] [3]
-  *[** Access PhpmyAdmin **] [4]
+  *[** Wampserver nedir? **][1]
+  *[** Wamp kurulumu **][2]
+  *[** Wamp Yapılandırması **][3]
+  *[** Access PhpmyAdmin **][4]
 
 ## Wampserver nedir? {#Ne}
 Wampserver, PHP tabanlı uygulamalar için web geliştirme ortamını kurmak için ücretsiz bir çözüm yığınıdır. Wamp (W - Windows, A - Apache, M - MySQL ve P - PHP) anlamına gelir. Ayrıca, veritabanının yönetimi için phpmyadmin ve yönetici ile birlikte gelir. Wamp popüler araçlardan biridir ve hızlı bir şekilde ayarlayabilirsiniz. Ayrıca, WAMP sunucusunu kontrol panelinden yapılandırabilirsiniz. Uygulamalar oluşturmak ve test etmek için eksiksiz bir web geliştirme ortamı sağlar. Wampserver, kurulum sırasında ihtiyaçlarınıza göre seçebileceğiniz birkaç bileşenden oluşur. Wampserver, PHP'nin birden fazla versiyonu ile birlikte gelir. PHP sürümünü proje gereksinimlerinize göre kolayca değiştirebilirsiniz. Ayrıca, DBMS'yi (veritabanı yönetim sistemi) Wampserver kontrol panelinden değiştirebilirsiniz.
@@ -64,12 +64,14 @@ Tarayıcınızdaki LocalHost'u açarak veritabanlarınızın yönetimi için ** 
 
 ## Çözüm
 Wampserver'ı tartıştık ve Wampserver ** Windows'a yüklemek için tam adım adım kılavuzu kapladık. Bu öğreticiyi takip ederek ve hemen kodlamaya başlayarak ** wampserver ** kolayca yükleyebilir ve yapılandırabilirsiniz. Çözüm yığın yazılımı hakkında daha fazla seçenek için Explore bölüm altındaki bağlantıları ziyaret edebilirsiniz.
-Son olarak, [** Containerize.com **] [5], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** Web Server Çözümü Yığın **] [6] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][5], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** Web Server Çözümü Yığın **][6] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** En İyi Açık Kaynak Web Server Çözümü Yığın Seçenekleri **] [7]
-  *[** XAMPP ve PHPMyAdmin'i Windows'ta Localhost olarak ayarlayın **] [8]
+  *[** En İyi Açık Kaynak Web Server Çözümü Yığın Seçenekleri **][7]
+  *[** XAMPP ve PHPMyAdmin'i Windows'ta Localhost olarak ayarlayın **][8]
+
+  
 [1]: #What
 [2]: #Installation
 [3]: #Configuration

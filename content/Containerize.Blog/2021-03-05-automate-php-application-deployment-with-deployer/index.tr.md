@@ -14,13 +14,13 @@ categories: ['Deployment Tools']
 {{< figure align=center src="images/deployer-blog-post.png" alt="PHP dağıtım aracı">}}
 
 Geliştirmeden sonra sunucuda uygulamayı dağıtmak için çok kritik bir iş. Yeni özellikler ve hata düzeltmeleri genellikle ekipler tarafından yayınlanır. Bu nedenle, ekiplerin manuel çalışmayı ortadan kaldırması ve ** yazılım dağıtım ** sürecini otomatikleştirmesi tercih edilir. Yazılım ekiplerinin daha önemli görevlere odaklanmasına izin verecektir. Orada birkaç açık kaynak dağıtım aracı ** vardır, ancak bu öğreticide ** php dağıtıcı ** üzerinde yoğunlaşacağız. Bu yazıdaki aşağıdaki bölümü ele alacağız.
-  *[** Dağıtıcı nedir **] [1]
-  *[** Dağıtıcı yükleme **] [2]
-  *[** PHP uygulaması dağıtım **] [3]
-  *[** Sonuç **] [4]
+  *[** Dağıtıcı nedir **][1]
+  *[** Dağıtıcı yükleme **][2]
+  *[** PHP uygulaması dağıtım **][3]
+  *[** Sonuç **][4]
 
 ## Dağıtıcı nedir {#ne}
-[** Dağıtıcı **] [5] ücretsiz ve açık kaynaklı bir ** PHP dağıtım aracı **. PHP tabanlı uygulamalar için dağıtım iş akışlarını otomatikleştirmek için yazılım ekiplerine izin verir. Kurulması çok basit ve kullanımı kolay. Yeni başlayandan uzman seviyesi deneyimine kadar herkes PHP uygulamalarını dağıtmak için hızlı bir şekilde kullanabilir. Dağıtıcı, popüler PHP çerçeveleri, CMS ve alışveriş sepeti yazılımı için kullanıma hazır tarifler/komut dosyaları ile birlikte gelir. Ayrıca, bu açık kaynak dağıtım aracı ** ile ** laravel dağıtım ** yapabilirsiniz. Geliştirici, projeleri için yerleşik tarifleri kullanabilir ve dağıtım için kullanabilir. Ayrıca, ** PHP Dağıtıcı ** sihirbazıyla kolayca yükleme/dağıtım komut dosyası oluşturabilirsiniz. Ayrıca, bu ** Ücretsiz Dağıtım Aracı **, sıfır indirme süresi dağıtımları, önceki sürüme geri dönüş, SSH, paralel yürütme ve daha fazlası gibi mükemmel özellikler sunar.
+[** Dağıtıcı **][5] ücretsiz ve açık kaynaklı bir ** PHP dağıtım aracı **. PHP tabanlı uygulamalar için dağıtım iş akışlarını otomatikleştirmek için yazılım ekiplerine izin verir. Kurulması çok basit ve kullanımı kolay. Yeni başlayandan uzman seviyesi deneyimine kadar herkes PHP uygulamalarını dağıtmak için hızlı bir şekilde kullanabilir. Dağıtıcı, popüler PHP çerçeveleri, CMS ve alışveriş sepeti yazılımı için kullanıma hazır tarifler/komut dosyaları ile birlikte gelir. Ayrıca, bu açık kaynak dağıtım aracı ** ile ** laravel dağıtım ** yapabilirsiniz. Geliştirici, projeleri için yerleşik tarifleri kullanabilir ve dağıtım için kullanabilir. Ayrıca, ** PHP Dağıtıcı ** sihirbazıyla kolayca yükleme/dağıtım komut dosyası oluşturabilirsiniz. Ayrıca, bu ** Ücretsiz Dağıtım Aracı **, sıfır indirme süresi dağıtımları, önceki sürüme geri dönüş, SSH, paralel yürütme ve daha fazlası gibi mükemmel özellikler sunar.
 
 ## Dağıtıcı Yükleme {#Installing}
   * Dağıtıcı PHP'ye bağlıdır. PHP'nin sunucunuzda çalıştığından emin olmalısınız. Ancak, Ubuntu'ya PHP yüklemek için aşağıdaki komutu kullanabilirsiniz.
@@ -119,20 +119,22 @@ dep rollback
 
 ## Sonuç {#Conclusion}
 Dağıtıcı ve bu öğreticiye nasıl yükleneceğimiz hakkında tartıştık. Ayrıca, GitHub deposundan PHP tabanlı uygulamayı dağıtmak için tam bir kılavuz oluşturduk. Umarım, bu blog yazısı ** dağıtıcı ile PHP uygulaması ** dağıtım başlatmanıza yardımcı olacaktır. Dahası, bu ** PHP Dağıtım Aracı ** hakkında daha fazla bilgi yazacağız.
-Son olarak, [** Containerize.com **] [6], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** dağıtım araçları **] [7] kategorisiyle iletişim halinde olun.
+Son olarak, [** Containerize.com **][6], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** dağıtım araçları **][7] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** Dağıtıcı **] [8]
-  *[** Jenkins **] [9]
-  *[** drone **] [10]
-  *[** Capistrano **] [11]
-  *[** Rancher **] [12]
-  *[** Concourse **] [13]
-  *[** Ansible **] [14]
-  *[** GOCD **] [15]
-  *[** 2021'de Top 5 Açık Kaynak Dağıtım Aracı **] [16]
-  *[** Kaynak Kontrol Sunucusundan Sürekli Entegrasyon ve Sürekli Dağıtım **] [17]
+  *[** Dağıtıcı **][8]
+  *[** Jenkins **][9]
+  *[** drone **][10]
+  *[** Capistrano **][11]
+  *[** Rancher **][12]
+  *[** Concourse **][13]
+  *[** Ansible **][14]
+  *[** GOCD **][15]
+  *[** 2021'de Top 5 Açık Kaynak Dağıtım Aracı **][16]
+  *[** Kaynak Kontrol Sunucusundan Sürekli Entegrasyon ve Sürekli Dağıtım **][17]
+
+  
 [1]: #What
 [2]: #Installing
 [3]: #Deploy

@@ -15,19 +15,19 @@ categories: ['Artificial intelligence']
 
 
 ## Visão geral
-Acho que você é um iniciante ou um programador de nível experiente e está trabalhando em um projeto de desenvolvimento. Então, e se [Código de Extensão de Inteligência Artificial] [1]**Código de Extensão do VScode GPT**Ajudar a escrever o código-fonte em qualquer linguagem de programação? Por exemplo, se você solicitar que a IA escreva o código para um elemento de entrada HTML e a IA retornar “”. Incrível?
-Sim, não é apenas incrível, mas uma coisa instigante é a IA que vai gerar o código-fonte do nosso software. Bem, esta postagem do blog demonstrará um [OpenAI] [2]**gerador de código**chamado [Code GPT] [3], que é alimentado por [código aberto] [4]**GPT-3**. Passaremos pela instalação e configuraremos processos deste código de extensão do VSCODE GPT. Além disso, também exploraremos o que ele oferece aos desenvolvedores e à comunidade. No entanto, se você pulou nossa postagem recente no blog sobre**[chatgpt] [5]**, deve visitar este [link] [6] para obter uma visão geral detalhada deste**ai chatbot.**
+Acho que você é um iniciante ou um programador de nível experiente e está trabalhando em um projeto de desenvolvimento. Então, e se [Código de Extensão de Inteligência Artificial][1]**Código de Extensão do VScode GPT**Ajudar a escrever o código-fonte em qualquer linguagem de programação? Por exemplo, se você solicitar que a IA escreva o código para um elemento de entrada HTML e a IA retornar “”. Incrível?
+Sim, não é apenas incrível, mas uma coisa instigante é a IA que vai gerar o código-fonte do nosso software. Bem, esta postagem do blog demonstrará um [OpenAI][2]**gerador de código**chamado [Code GPT][3], que é alimentado por [código aberto][4]**GPT-3**. Passaremos pela instalação e configuraremos processos deste código de extensão do VSCODE GPT. Além disso, também exploraremos o que ele oferece aos desenvolvedores e à comunidade. No entanto, se você pulou nossa postagem recente no blog sobre**[chatgpt][5]**, deve visitar este [link][6] para obter uma visão geral detalhada deste**ai chatbot.**
 Vamos cobrir os seguintes pontos:
-* [**O que é o código GPT?**] [7]
-* [**Como instalar o código de extensão do VSCODE GPT?**] [8]
-* [**Recuperar a chave da API OpenAI e configurar o código GPT**] [9]
-* [**Comece a usar o código GPT-um gerador de código OpenAI movido a IA**] [10]
+* [**O que é o código GPT?**][7]
+* [**Como instalar o código de extensão do VSCODE GPT?**][8]
+* [**Recuperar a chave da API OpenAI e configurar o código GPT**][9]
+* [**Comece a usar o código GPT-um gerador de código OpenAI movido a IA**][10]
 
 ## O que é o código GPT? {#What-Is-CodeGPT}
-[Código GPT] [3] é uma extensão de código do Visual Studio**que permite gerar trechos de código a partir de texto simples dentro do editor. Este**gerador de código OpenAI**é baseado na API OpenAI para processar e gerar respostas da linguagem natural. No entanto, o Code GPT é construído sobre o GPT-3, que é um modelo pré-treinado; portanto, todas as solicitações feitas para o Code GPT são processadas pelo GPT-3 e esse modelo é inteligente o suficiente para adotar várias situações. Além disso, essa**extensão do vscode**permite refracturar e melhora os trechos de código junto com a geração de código. De fato, todo o ambiente fornece a sensação exata de que você está usando [chatgpt] [11] no editor de código do Visual Studio.
+[Código GPT][3] é uma extensão de código do Visual Studio**que permite gerar trechos de código a partir de texto simples dentro do editor. Este**gerador de código OpenAI**é baseado na API OpenAI para processar e gerar respostas da linguagem natural. No entanto, o Code GPT é construído sobre o GPT-3, que é um modelo pré-treinado; portanto, todas as solicitações feitas para o Code GPT são processadas pelo GPT-3 e esse modelo é inteligente o suficiente para adotar várias situações. Além disso, essa**extensão do vscode**permite refracturar e melhora os trechos de código junto com a geração de código. De fato, todo o ambiente fornece a sensação exata de que você está usando [chatgpt][11] no editor de código do Visual Studio.
 
 ## Como instalar o código de extensão do VSCODE GPT? {#Como Instalar-o-Vscode-Extensão-CodeGpt}
-Nesta seção, seguiremos as etapas para instalar**Código de Extensão do VScode GPT.**Para esse fim, verifique se você instalou o código do Visual Studio em sua máquina. Você pode instalar esta extensão no**[vscode Marketplace] [12]**facilmente.
+Nesta seção, seguiremos as etapas para instalar**Código de Extensão do VScode GPT.**Para esse fim, verifique se você instalou o código do Visual Studio em sua máquina. Você pode instalar esta extensão no**[vscode Marketplace][12]**facilmente.
 Abra o editor do VSCODE, entre em "extensões" e digite o código GPT na barra de pesquisa. Haverá muitas extensões com o nome CodeGPT, mas você deve instalar a extensão, conforme mostrado na imagem abaixo:
 
 {{< figure align=center src="images/codegpt-installation-1024x640.png" alt="Código GPT Instalação">}}
@@ -35,7 +35,7 @@ Abra o editor do VSCODE, entre em "extensões" e digite o código GPT na barra d
 Atualize o vscode para a versão mais recente, caso você receba um erro de compatibilidade. Além disso, essa extensão do VSCODE está sob desenvolvimento consistente, portanto a chance de comportamento anormal não pode ser omitido.
 
 ## Recupere a chave da API OpenAI e configure o código GPT {#Retrieve-Openai-api-Key-Configure-CodeGpt-}
-Depois que a instalação é concluída, a próxima etapa é obter a chave da API no [site] do OpenAI [13]. Você precisa dessa chave da API para ativar os recursos da extensão**Código GPT**. Para obter a API, visite este [link] [13] e crie uma conta se não for criada.
+Depois que a instalação é concluída, a próxima etapa é obter a chave da API no [site] do OpenAI [13]. Você precisa dessa chave da API para ativar os recursos da extensão**Código GPT**. Para obter a API, visite este [link][13] e crie uma conta se não for criada.
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="OEPNAI API">}}
 
@@ -61,20 +61,22 @@ Basicamente, essa resposta é gerada e devolvida pelo modelo GPT-3 de código ab
 
 ## Empacotando
 Para concluir, enriquecemos nosso editor de código do Visual Studio com um gerador de código OpenAI****ai. Além disso, você pode perguntar**Código de Extensão do VSCODE GPT**para explicar uma parte específica do código -fonte. Acima de tudo, você pode encontrar problemas anexados a um trecho de código selecionado, que pode trazer melhorias sugeridas por esta extensão do VSCode. Finalmente, existem alguns artigos muito relevantes listados na seção "Veja também".
-Por fim, [contendeRize.com] [4] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook] [14], [LinkedIn] [15] e [Twitter] [16].
+Por fim, [contendeRize.com][4] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][14], [LinkedIn][15] e [Twitter][16].
 
 ## Faça uma pergunta
-Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum] [17].
+Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum][17].
 
 ## Perguntas frequentes
-* * Para que é usado o código GPT?**
-[Code GPT] [3] é uma geração de código baseada em inteligência artificial e extensão de otimização. Isso é construído sobre o GPT-3 de código aberto alimentado pelo Openai. Para mais detalhes, visite este link.
-* * Como integrar o código GPT com o vscode?**
-Visite este [link] [9] para instalar esta extensão VSCode de IA.
+**Para que é usado o código GPT?**
+[Code GPT][3] é uma geração de código baseada em inteligência artificial e extensão de otimização. Isso é construído sobre o GPT-3 de código aberto alimentado pelo Openai. Para mais detalhes, visite este link.
+**Como integrar o código GPT com o vscode?**
+Visite este [link][9] para instalar esta extensão VSCode de IA.
 
 ## Veja também
-  * [O que é o Openai Chatbot GPT-3 | Chatgpt Uma revolução da AI] [6]
-  * [Automatize operações comerciais usando software de código aberto e gratuito] [18]
+  * [O que é o Openai Chatbot GPT-3 | Chatgpt Uma revolução da AI][6]
+  * [Automatize operações comerciais usando software de código aberto e gratuito][18]
+
+  
 [1]: https://blog.containerize.com/category/artificial-intelligence/
 [2]: https://openai.com/
 [3]: https://marketplace.visualstudio.com/items?itemName=timkmecl.codegpt3

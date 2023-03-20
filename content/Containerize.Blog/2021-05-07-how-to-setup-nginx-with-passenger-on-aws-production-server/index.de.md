@@ -27,8 +27,8 @@ In diesem Blog -Artikel werden wir einige der wesentlichen Konfigurationsschritt
   * **Abschluss**
 
 ## 1. Was ist Nginx und Passagier? {#STEP-4: -Update-regulär}
-** [Was ist Nginx Server?] [1] ** nginx ist eine kostenlose und Open-Source-Webserver-Software für Web als Reverse Proxy, HTTP-Lade-Balancer, Media Streaming, HTTP-Cache und E-Mail-Proxy für IMAP, POP3 und SMTP. Es ist sehr skalierbar und für maximale Leistung und Stabilität ausgelegt. Nginx ist eine leistungsstarke asynchrone, nicht-thread-und ereignisgesteuerte Webserver, die die Verarbeitung mehrerer Client-Anforderungen gleichzeitig ermöglicht. Es wurde von Igor Sysoev geschrieben, das 2004 unter den Bestimmungen der 2-Klausel-BSD-Lizenz veröffentlicht wurde. ** Nginx führt 2,5 -mal schneller aus ** als Apache und verbrauchte weniger Speicher gemäß einem Benchmark -Test.
-** [Was ist Passagier?] [2] ** Phusion Passagier auch als Mod \ _Rails und Mod \ _rack bekannt, ist ein kostenloser Webserver und ein Open -Source -Webanwendungsserver. Es ist so konzipiert, dass es schnell, robust, fehlerreich und leicht ist und sich in Apache und Nginx integriert. Es verbessert auch die Sicherheit, Zuverlässigkeit und Skalierbarkeit für Anwendungen. Es ermöglicht Administratoren, Einblicke in Webanwendungsoperationen und Serverleistung zu erhalten. Der Passagier-App-Server wird Ihre Webanwendungen leicht ausgeführt und automatisch verwaltet. Es kann auch mehrere Anwendungen erhalten ** gleichzeitig mit mehreren Mietern und Standalone. Es kann HTTP -Anfragen bewältigen, Prozesse und Ressourcen verwaltet und die Diagnose von Verwaltungsaufgaben, Überwachung und Problemen ermöglicht. Phusion Passagier ist ein kostenloser Anwendungsserver mit Unterstützung für die Bereitstellung und Verwaltung von Meteor-, Ruby -auf -Rails Nginx -Passagier, JavaScript, Python und Node.js -Anwendungen.
+** [Was ist Nginx Server?][1] ** nginx ist eine kostenlose und Open-Source-Webserver-Software für Web als Reverse Proxy, HTTP-Lade-Balancer, Media Streaming, HTTP-Cache und E-Mail-Proxy für IMAP, POP3 und SMTP. Es ist sehr skalierbar und für maximale Leistung und Stabilität ausgelegt. Nginx ist eine leistungsstarke asynchrone, nicht-thread-und ereignisgesteuerte Webserver, die die Verarbeitung mehrerer Client-Anforderungen gleichzeitig ermöglicht. Es wurde von Igor Sysoev geschrieben, das 2004 unter den Bestimmungen der 2-Klausel-BSD-Lizenz veröffentlicht wurde. ** Nginx führt 2,5 -mal schneller aus ** als Apache und verbrauchte weniger Speicher gemäß einem Benchmark -Test.
+** [Was ist Passagier?][2] ** Phusion Passagier auch als Mod \ _Rails und Mod \ _rack bekannt, ist ein kostenloser Webserver und ein Open -Source -Webanwendungsserver. Es ist so konzipiert, dass es schnell, robust, fehlerreich und leicht ist und sich in Apache und Nginx integriert. Es verbessert auch die Sicherheit, Zuverlässigkeit und Skalierbarkeit für Anwendungen. Es ermöglicht Administratoren, Einblicke in Webanwendungsoperationen und Serverleistung zu erhalten. Der Passagier-App-Server wird Ihre Webanwendungen leicht ausgeführt und automatisch verwaltet. Es kann auch mehrere Anwendungen erhalten ** gleichzeitig mit mehreren Mietern und Standalone. Es kann HTTP -Anfragen bewältigen, Prozesse und Ressourcen verwaltet und die Diagnose von Verwaltungsaufgaben, Überwachung und Problemen ermöglicht. Phusion Passagier ist ein kostenloser Anwendungsserver mit Unterstützung für die Bereitstellung und Verwaltung von Meteor-, Ruby -auf -Rails Nginx -Passagier, JavaScript, Python und Node.js -Anwendungen.
 
 ## 2. Installieren Sie Nginx- und Passagierpakete: {#Schritt 1: -Install-Passenger-Packages}
 Jetzt ist es Zeit, Passagier und Nginx zu installieren. Sie können einen der beliebten Webserver, die diesem Handbuch folgen, einfach bereitstellen können. Nach unten aufgeführten Befehlen werden Passagier und Nginx über das passende Repository von PHusion installiert. Wenn Sie bereits Nginx installiert haben, werden diese Befehle Nginx auf die Version von PHUSION mit Passagier zusammengestellt.
@@ -75,7 +75,7 @@ Alle Schecks sollten bestehen. Wenn einer der Schecks nicht bestehen, folgen Sie
 ```
 sudo /usr/sbin/passenger-memory-stats
 ```
-Wenn Sie keine NGINX -Prozesse oder Passagierprozesse sehen, haben Sie wahrscheinlich eine Art Installationsproblem oder Konfigurationsproblem. Weitere Informationen finden Sie in der [Fehlerbehebung] [3].
+Wenn Sie keine NGINX -Prozesse oder Passagierprozesse sehen, haben Sie wahrscheinlich eine Art Installationsproblem oder Konfigurationsproblem. Weitere Informationen finden Sie in der [Fehlerbehebung][3].
 
 ## 5. System- und Passagier-Updates: {#Schritt 4: -Update-regulär}
 NGINX -Updates, Passagier -Updates und Systemaktualisierungen werden regelmäßig über den ** APT -Paketmanager ** geliefert. Sie sollten den folgenden Befehl regelmäßig ausführen, um sie auf dem neuesten Stand zu halten:
@@ -92,17 +92,19 @@ Mehr als 80% der Webanwendungen und Websites werden von Open Source -Webservern 
   *** Apache Tomcat Web Server **
   *** Caddy Web Server **
 
-## [] [4] Schlussfolgerung: {#Nächster Schritt}
-Herzlichen Glückwunsch, Sie haben NGINX erfolgreich installiert und konfiguriert mit Passagier auf ** AWS Production Server ** für Ihre Webanwendung. Bitte werfen Sie einen Blick auf die verschiedenen Leitfäden in der [Passagierbibliothek] [5], um den Passagier -Anwendungsserver vollständig zu beherrschen. Möglicherweise interessieren Sie sich besonders für die [Automatisierung der Bereitstellung] [6] Ihre Ruby -Anwendung über ** Capistrano **, wodurch Sie beigebracht werden, wie Sie zukünftige Anwendungsaktualisierungen automatisch ohne so viel manuelle Arbeit bereitstellen. Jetzt sind Sie bereit, Ihre Webanwendung in den AWS -Produktionsinstanzen bereitzustellen.
+## [][4] Schlussfolgerung: {#Nächster Schritt}
+Herzlichen Glückwunsch, Sie haben NGINX erfolgreich installiert und konfiguriert mit Passagier auf ** AWS Production Server ** für Ihre Webanwendung. Bitte werfen Sie einen Blick auf die verschiedenen Leitfäden in der [Passagierbibliothek][5], um den Passagier -Anwendungsserver vollständig zu beherrschen. Möglicherweise interessieren Sie sich besonders für die [Automatisierung der Bereitstellung][6] Ihre Ruby -Anwendung über ** Capistrano **, wodurch Sie beigebracht werden, wie Sie zukünftige Anwendungsaktualisierungen automatisch ohne so viel manuelle Arbeit bereitstellen. Jetzt sind Sie bereit, Ihre Webanwendung in den AWS -Produktionsinstanzen bereitzustellen.
 _What Free Web Server und Open Source Web Application Server_ Bevorzugen Sie für ** Webentwicklung oder Hosting ** Bedarf_?. Haben Sie Fragen zu kostenlosen Webserver und Open -Source -Webanwendungsserver?
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden relevanten Blog -Beiträge:
-  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu/Debian] [8]
-  * [Installieren und sicherer phpmyadmin mit nginx auf Ubuntu] [9]
-  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian] [10]
-  * [Sicher und verschlüsseln Nginx mit lass uns auf Ubuntu 20.04] [11]
-  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu] [12]
+  * [So konfigurieren Sie Apache als umgekehrter Proxy für Ubuntu/Debian][8]
+  * [Installieren und sicherer phpmyadmin mit nginx auf Ubuntu][9]
+  * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian][10]
+  * [Sicher und verschlüsseln Nginx mit lass uns auf Ubuntu 20.04][11]
+  * [So installieren und konfigurieren Sie OwnCloud mit Apache auf Ubuntu][12]
+
+  
 [1]: http://nginx.com/
 [2]: https://www.phusionpassenger.com/
 [3]: https://www.phusionpassenger.com/library/admin/nginx/troubleshooting/

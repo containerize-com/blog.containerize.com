@@ -14,10 +14,10 @@ categories: ['Help Desk']
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket.png" alt="Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket">}}
 
 Osticket adalah solusi perangkat lunak bantuan help of desk open source. Osticket Helpdesk adalah alternatif gratis untuk sistem dukungan pelanggan yang mahal dan kompleks. Ini sederhana, ringan, andal, berbasis web, dan mudah diatur dan digunakan. Bagian terbaiknya adalah, benar -benar gratis. Kami akan membahas bagian berikut dalam tutorial ini:
-  * [Apa itu osticket?] [1]
-  * [Pro dan kontra Osticket] [2]
-  * [Bagaimana cara mengatur osticket?] [3]
-  * [Kesimpulan] [4]
+  * [Apa itu osticket?][1]
+  * [Pro dan kontra Osticket][2]
+  * [Bagaimana cara mengatur osticket?][3]
+  * [Kesimpulan][4]
 
 ## Apa itu Osticket? {#osticket}
 Osticket menyediakan panel kontrol ramah pengguna dan komponen pelaporan waktu-nyata. Pengguna dapat masuk dan membuat tiket dalam beberapa langkah mudah. Mereka dapat membuat tiket melalui situs web, email, atau telepon Anda. Tiket yang masuk kemudian akan disimpan dan ditugaskan ke agen. Agen akan mendapatkan pemberitahuan email dan akan menanggapi pertanyaan untuk membantu menyelesaikan masalah mereka. Pelanggan dan agen dapat membahas detail dan kemajuan di bagian komentar. Pelanggan dapat melacak permintaan dan kemajuan mereka melalui portal pelanggan bawaan yang disediakan oleh perangkat lunak Help Desk online ini.
@@ -153,11 +153,13 @@ chmod 0644 include/ost-config.php
 Osticket paling cocok untuk perusahaan dengan anggaran rendah atau mereka yang menginginkan sistem meja bantuan sederhana dan bukan yang kompleks. Ini sederhana, ringan, dapat diandalkan, open source, dan benar -benar perangkat lunak meja bantuan online gratis. Yang menjadikan Osticket alternatif yang bagus untuk sistem dukungan pelanggan berbiaya lebih tinggi. Untuk mempelajari lebih lanjut tentang fitur Osticket dan panduan instalasi, silakan lihat tutorial berikut.
 
 ## Mengeksplorasi
-[Open Source Terbaik dan Perangkat Lunak Bantuan IT IT Gratis] [5]
-[Helpdesk dan Sistem Layanan Pelanggan Berbasis Tiket Gratis Populer] [6]
-[Panduan Pemula untuk Mengembangkan Plugin Osticket] [7]
-[Cara menerapkan multi-tenancy in osticket] [8]
-[Otomatis Sistem Tiket Menggunakan WordPress dan Osticket] [9]
+[Open Source Terbaik dan Perangkat Lunak Bantuan IT IT Gratis][5]
+[Helpdesk dan Sistem Layanan Pelanggan Berbasis Tiket Gratis Populer][6]
+[Panduan Pemula untuk Mengembangkan Plugin Osticket][7]
+[Cara menerapkan multi-tenancy in osticket][8]
+[Otomatis Sistem Tiket Menggunakan WordPress dan Osticket][9]
+
+  
 [1]: #osticket
 [2]: #pros
 [3]: #how

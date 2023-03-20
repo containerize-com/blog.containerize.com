@@ -17,13 +17,13 @@ categories: ['Web Server Solution Stack']
 ## Ikhtisar {#install}
 ** Pemantauan server web ** sangat penting untuk situs web lalu lintas tinggi. Agen pemantauan ** ** akan merekam metrik penting tentang server web secara teratur. Metrik kritis tersebut dapat digunakan untuk mengoptimalkan konfigurasi Nginx. Ini akan membantu Anda dalam meningkatkan kinerja server web dan aplikasi Anda.
 Dalam posting blog ini, kami akan membahas bagian berikut untuk pemantauan ** nginx ** Alat Sumber Terbuka.
-  * [Server web nginx] [1]
-  * [Nginx amplify] [2]
-  * [Instal Nginx Amplify] [3]
-  * [Metrik Pemantauan] [4]
+  * [Server web nginx][1]
+  * [Nginx amplify][2]
+  * [Instal Nginx Amplify][3]
+  * [Metrik Pemantauan][4]
 
 ## NGINX Web Server {#nginx}
-[Nginx] [5] adalah server web sumber terbuka dan terbuka. Ini sederhana, ringan, dan mudah dikonfigurasi daripada Apache. Nginx Web Server juga berfungsi sebagai proxy terbalik, load balancer, proxy mail, dan cache http. Ini berfungsi untuk protokol HTTP, HTTPS, SMTP, POP3, dan IMAP. Nginx adalah server web berkecepatan tinggi, andal, dan efisien memori yang meningkatkan kinerja aplikasi Anda. Lebih lanjut, telah semakin populer dan sekarang dianggap sebagai server web yang paling populer. Selain itu, Nginx cocok untuk semua jenis situs web termasuk situs dan aplikasi lalu lintas tinggi. Ini dapat diinstal dan dikonfigurasi pada hampir semua sistem operasi.
+[Nginx][5] adalah server web sumber terbuka dan terbuka. Ini sederhana, ringan, dan mudah dikonfigurasi daripada Apache. Nginx Web Server juga berfungsi sebagai proxy terbalik, load balancer, proxy mail, dan cache http. Ini berfungsi untuk protokol HTTP, HTTPS, SMTP, POP3, dan IMAP. Nginx adalah server web berkecepatan tinggi, andal, dan efisien memori yang meningkatkan kinerja aplikasi Anda. Lebih lanjut, telah semakin populer dan sekarang dianggap sebagai server web yang paling populer. Selain itu, Nginx cocok untuk semua jenis situs web termasuk situs dan aplikasi lalu lintas tinggi. Ini dapat diinstal dan dikonfigurasi pada hampir semua sistem operasi.
 
 ### Instal Nginx
   * Jalankan perintah di bawah ini untuk menginstal Nginx Web Server.
@@ -44,7 +44,7 @@ Nginx Amplify adalah alat pemantauan gratis untuk Nginx Open Source, Nginx Plus,
 
 ## Instal Nginx Amplify {#install}
 Ikuti panduan langkah demi langkah di bawah ini untuk pemasangan Nginx Amplify di Ubuntu.
-  * Pertama, Anda perlu membuat akun di nginx [situs web] [6].
+  * Pertama, Anda perlu membuat akun di nginx [situs web][6].
   * Setelah login, Anda akan melihat layar di bawah ini di situs web Nginx Amplify. Sekarang, sambungkan ke server Anda melalui SSH dan gunakan perintah yang diberikan dalam langkah -langkah di bawah ini.
 
 {{< figure align=center src="images/amplify-1.png" alt="Instal Nginx Amplify">}}
@@ -119,12 +119,14 @@ Nginx Amplify Agent mengumpulkan jenis data berikut:
 
 ## Kesimpulan
 Kami telah melewati Nginx Web Server dan Nginx Amplify Advanced Monitoring Agent dengan sangat rinci. Nginx Amplify cukup sederhana untuk diatur dan dikonfigurasi. Selain itu, kami telah pergi ke metrik kritis Nginx Amplify dapat melacak ke ** Monitor nginx **. Metrik penting ini dapat digunakan untuk meningkatkan konfigurasi server dan aplikasi Nginx Anda.
-Akhirnya, [containerize.com] [7] sedang dalam proses yang konsisten dalam menulis posting blog tentang produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [Solusi Server Web Solution] [8] ini untuk pembaruan terbaru.
+Akhirnya, [containerize.com][7] sedang dalam proses yang konsisten dalam menulis posting blog tentang produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [Solusi Server Web Solution][8] ini untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda] [9]
-  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik] [10]
+  * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda][9]
+  * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][10]
+
+  
 [1]: #Nginx
 [2]: #Amplify
 [3]: #Install

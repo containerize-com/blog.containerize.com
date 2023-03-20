@@ -16,17 +16,17 @@ categories: ['Live Chat']
 Un chatbot est un programme informatique conçu pour simuler la conversation humaine. Vous en avez probablement rencontré un sur Facebook Messenger, un site Web de vente au détail. Techniquement parlant, les robots sont des programmes automatisés conçus pour effectuer une tâche spécifique.
 Rocket.Chat encourage les intégrations d'automatisation du chatbot et de la messagerie. Par conséquent, a une documentation complète pour vous guider à travers le processus de fabrication de bot.
 Dans cet article, nous vous guiderons sur la façon de créer un bot à l'aide de BotPress. Et, comment configurer Rocket.Chat avec botpress.
-  * [Rocket.Chat] [1]
-  * [Botpress] [2]
-  * [Créer un utilisateur de bot dans Rocket.Chat] [3]
-  * [Code votre bot à l'aide de botpress] [4]
-  * [Conclusion] [5]
+  * [Rocket.Chat][1]
+  * [Botpress][2]
+  * [Créer un utilisateur de bot dans Rocket.Chat][3]
+  * [Code votre bot à l'aide de botpress][4]
+  * [Conclusion][5]
 
 ### Rocket.Chat {#RockETCHAT}
-Rocket.chat fait partie du populaire logiciel de chat en direct en partie un projet de chat en direct open source. Il a une version de chat en direct gratuite en tant qu'édition communautaire. Ainsi, une version de chat en direct hébergée payée pour les grandes entreprises avec des fonctionnalités de chat internes privées. Cette application de chat en direct s'exécute dans le navigateur mais peut également être installée sur votre propre serveur. [Lire la suite] [6]
+Rocket.chat fait partie du populaire logiciel de chat en direct en partie un projet de chat en direct open source. Il a une version de chat en direct gratuite en tant qu'édition communautaire. Ainsi, une version de chat en direct hébergée payée pour les grandes entreprises avec des fonctionnalités de chat internes privées. Cette application de chat en direct s'exécute dans le navigateur mais peut également être installée sur votre propre serveur. [Lire la suite][6]
 
 ### botpress {#botpress}
-Les chatbots conversationnels ont permis aux entreprises de donner à leurs clients le support tactile élevé toujours disponible qu'ils souhaitent. BotPress est l'un des outils de création de bot open source les plus populaires avec un traitement du langage naturel intégré. La technologie NLU de BotPress fait une longueur d'avance sur ses concurrents dans le domaine comme Botkit, DialogFlow et Microsoft Bot Framework. [Lire la suite] [7]
+Les chatbots conversationnels ont permis aux entreprises de donner à leurs clients le support tactile élevé toujours disponible qu'ils souhaitent. BotPress est l'un des outils de création de bot open source les plus populaires avec un traitement du langage naturel intégré. La technologie NLU de BotPress fait une longueur d'avance sur ses concurrents dans le domaine comme Botkit, DialogFlow et Microsoft Bot Framework. [Lire la suite][7]
 
 ### Créer un utilisateur de bot dans Rocket.Chat {#createBoSer}
 Afin de parler à votre chatbot, il doit y avoir un compte utilisateur préconfiguré sur le serveur Rocket.Chat auquel le bot peut se connecter.
@@ -44,7 +44,7 @@ Une fois enregistré, le bot sera configuré avec le nom d'utilisateur et le mot
 
 ### code votre bot à l'aide de botpress {#codebot}
 BotPress est un package Node.js et fonctionne avec Node et NPM.
-Le moyen le plus rapide de commencer avec BotPress consiste à utiliser le référentiel [BotPress-Kick-Starter] [8] qui est déjà intégré à Rocket.Chat via [Connecteur BotPress-Channel] [9].
+Le moyen le plus rapide de commencer avec BotPress consiste à utiliser le référentiel [BotPress-Kick-Starter][8] qui est déjà intégré à Rocket.Chat via [Connecteur BotPress-Channel][9].
 Accédez au dossier où vous souhaitez travailler avec le bot et procédez avec les étapes suivantes:
 ** Installez le package BotPress **
 ```
@@ -135,6 +135,8 @@ Sur le serveur, connectez-vous en tant qu'utilisateur ordinaire (pas l'utilisate
 
 ### Conclusion {#conclusion}
 Dans cet article, nous avons appris à créer un bot à Botpress. Et, comment le configurer avec Rocket.Chat. BotPress facilite la création de workflows automatisés innovants. Et, l'intégration avec Rocket.Chat vous permet de les contrôler de manière conversationnelle.
+
+  
 [1]: #rocketchat
 [2]: #botpress
 [3]: #createbotuser

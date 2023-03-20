@@ -50,14 +50,16 @@ La meilleure caractéristique d'un logiciel open source est son extensibilité. 
 
 ## Conclusion
 C'est la fin de ce billet de blog. Par conséquent, la construction d'un réseau social auto-hébergé ** pour votre propre entreprise peut stimuler votre entreprise en termes d'efficacité. Cet article peut vraiment vous aider à faire le bon choix si vous cherchez vraiment à déployer un ** réseau social open source ** sur vos serveurs locaux ou sur le cloud. Les progrès des entreprises dépend de l'environnement de travail. Cependant, ces applications de réseautage social fournissent des espaces partagés où les employés et les cadres supérieurs peuvent partager leurs pensées et les évaluer selon leur compréhension. Les participants peuvent voir visuellement leurs emplacements sur une carte intégrée et peuvent établir des appels vidéo ou audio avec eux.
-Enfin, [contenerize.com] [1] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec la catégorie [plates-formes de réseau social] [2] pour les mises à jour régulières.
+Enfin, [contenerize.com][1] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec la catégorie [plates-formes de réseau social][2] pour les mises à jour régulières.
 
 ## Explore {#Explore}
 Vous pouvez trouver les liens suivants pertinents:
-  * ** [Humhub] [3] **
-  * ** [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source] [4] **
-  * ** [choses à revoir avant d'opter les logiciels open source en 2021] [5] **
-  * [** Top 5 du logiciel de conférence vidéo open source de 2021 **] [6]
+  * ** [Humhub][3] **
+  * ** [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][4] **
+  * ** [choses à revoir avant d'opter les logiciels open source en 2021][5] **
+  * [** Top 5 du logiciel de conférence vidéo open source de 2021 **][6]
+
+  
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/social-network-platforms/
 [3]: https://products.containerize.com/social-network-platforms/humhub/

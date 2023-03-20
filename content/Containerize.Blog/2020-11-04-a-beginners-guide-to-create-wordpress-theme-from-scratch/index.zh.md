@@ -12,11 +12,11 @@ categories: ['Blogging']
 {{< figure align=center src="images/Beginners-Guide-To-Create-WordPress-Theme-From-Scratch-1024x536.png" alt="从头开始创建WordPress主题的初学者指南">}}
 
 如何创建WordPress主题是Google搜索中的最高查询之一。如果您知道基本的HTML，CSS和JavaScript，则创建WordPress主题可能很简单。但是，如果您是WordPress的新手，那么本教程适合您。您要做的就是遵循上述步骤。因此，让我们阅读本指南，并了解如何从头开始创建WordPress主题。
-  * [要求] [1]
-  * [逐步指南] [2]
+  * [要求][1]
+  * [逐步指南][2]
 
 ### 要求{#requirements}
-首先，您需要做的是最重要的事情，是安装WordPress。 WordPress以其易于安装而闻名。这是一个简单的过程，可以按照[指南] [3]轻松完成自己的操作。
+首先，您需要做的是最重要的事情，是安装WordPress。 WordPress以其易于安装而闻名。这是一个简单的过程，可以按照[指南][3]轻松完成自己的操作。
 
 ### 如何创建WordPress主题；逐步指南{#guide}
 对于WordPress主题，一切都将仅在** wp_content **目录中完成。只需在** wp_content→主题文件夹中制作一个新的主题子文件夹即可。
@@ -134,6 +134,8 @@ font-weight: bold;
 
 ### 结论
 在本教程中，我们解释了如何以简单简便的步骤创建WordPress主题。在阅读并遵循创建WordPress主题的步骤之后，现在已经不再是艰巨的任务了。但是，显然，这个教程坚持非常基本的设置，为了增强您的功能，您必须了解有关HTML，CSS，JS和PHP的更多信息。
+
+  
 [1]: #requirements
 [2]: #guide
 [3]: https://products.containerize.com/blogging/wordpress

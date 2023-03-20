@@ -15,15 +15,15 @@ categories: ['Web Server Solution Stack']
 
 Situs web lalu lintas tinggi modern melayani ratusan ribu, dan dalam beberapa kasus jutaan permintaan bersamaan dari pengguna atau klien dan mengembalikan teks, gambar, video, atau data aplikasi yang benar, semuanya dengan cepat dan andal. Untuk memenuhi kebutuhan volume tinggi ini, dan daya komputasi, Anda membutuhkan lebih banyak server. Dengan lebih banyak server, Anda memerlukan cara untuk memuat keseimbangan lalu lintas antara server ini. Dalam tutorial blog ini, kami akan mengeksplorasi apa itu penyeimbang beban dan bagaimana kami dapat menggunakan Nginx sebagai penyeimbang beban.
 Untuk mengonfigurasi nginx load balancing sebagai prasyarat, Anda harus memiliki setidaknya dua host dengan perangkat lunak server web yang diinstal dan dikonfigurasi untuk melihat keunggulan penyeimbangan beban dengan Nginx. Jika Anda sudah memiliki satu host yang berjalan diatur maka duplikatnya dengan membuat gambar khusus dan menggunakannya ke server web baru. Jadi, mari kita pelajari cara mengatur konfigurasi balancing load Nginx langkah demi langkah untuk server cloud Anda.!
-  *** [server web nginx] [1] **
-  *** [Load Balancer] [2] **
-  *** [Pengaturan Nginx sebagai Load Balancer (Round Robin)] [3] **
-  *** [tentang arahan hulu yang berbeda] [4] **
-  *** [Kesimpulan] [5] **
+  *** [server web nginx][1] **
+  *** [Load Balancer][2] **
+  *** [Pengaturan Nginx sebagai Load Balancer (Round Robin)][3] **
+  *** [tentang arahan hulu yang berbeda][4] **
+  *** [Kesimpulan][5] **
 
 ## NGINX Web Server {#WebServer}
 Nginx adalah server web open-source berkinerja tinggi. Selain kemampuan server HTTP -nya, Nginx juga dapat berfungsi sebagai server proxy untuk email (IMAP, POP3, dan SMTP) dan proxy terbalik dan untuk memuat Nginx saldo untuk server HTTP, TCP, dan UDP. Ini meningkatkan kinerja, keandalan, dan keamanan aplikasi Anda. Populer untuk set fitur yang kaya, konfigurasi sederhana, dan konsumsi sumber daya rendah.
-Bagaimana cara kerja nginx? Nginx umumnya digunakan sebagai penyeimbang beban proxy terbalik NGINX sebagai titik masuk tunggal ke aplikasi web terdistribusi yang bekerja pada beberapa server terpisah. Ini menggunakan pendekatan asinkron, yang digerakkan oleh peristiwa untuk menawarkan penggunaan memori rendah dan konkurensi tinggi. Anda dapat membaca lebih lanjut tentang nginx [di sini] [6].
+Bagaimana cara kerja nginx? Nginx umumnya digunakan sebagai penyeimbang beban proxy terbalik NGINX sebagai titik masuk tunggal ke aplikasi web terdistribusi yang bekerja pada beberapa server terpisah. Ini menggunakan pendekatan asinkron, yang digerakkan oleh peristiwa untuk menawarkan penggunaan memori rendah dan konkurensi tinggi. Anda dapat membaca lebih lanjut tentang nginx [di sini][6].
 
 ## Load Balancer {#LoadBalancer}
 Load Balancing adalah proses mendistribusikan lalu lintas jaringan di beberapa server. Dan "perangkat lunak" atau "perangkat keras" yang melakukan proses distribusi ini disebut load balancer. Penyeimbang beban seperti "polisi lalu lintas" yang berdiri di depan server Anda dan merutekan permintaan klien di semua server. Ini memastikan bahwa aplikasi Anda tetap operasional bahkan jika salah satu server turun.
@@ -108,12 +108,14 @@ upstream backend  {
 
 ## kesimpulan: {#conclusion}
 Dalam tutorial penyeimbangan beban Nginx ini, kami belajar tentang NGNIX, menyeimbangkan beban, dan cara mengatur penyeimbang beban nginx untuk mendistribusikan lalu lintas Anda ke beberapa server. Kami juga menjelajahi berbagai algoritma penyeimbangan beban seperti round-robin, hash, dan Max gagal. Jika Anda menjalankan aplikasi dengan volume tinggi dan Anda perlu mendistribusikan beban di berbagai server maka Nginx adalah salah satu pilihan terbaik untuk Anda. Dan yang paling penting itu 100% server web gratis dan open-source.
-_Your dapat bergabung dengan kami di [Twitter] [7], [LinkedIn] [8] dan halaman [Facebook] [9] kami. Penyeimbang beban yang kuat apa lagi untuk meningkatkan ketersediaan dan efisiensi sumber daya server Anda __ apakah Anda__ digunakan? . Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi] [10].
+_Your dapat bergabung dengan kami di [Twitter][7], [LinkedIn][8] dan halaman [Facebook][9] kami. Penyeimbang beban yang kuat apa lagi untuk meningkatkan ketersediaan dan efisiensi sumber daya server Anda __ apakah Anda__ digunakan? . Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi][10].
 
 ## Mengeksplorasi
 Anda mungkin menemukan lebih banyak terkait artikel di bawah ini
-  * [Cara mengamankan dan mengenkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04] [11]
-  * [Apache vs nginx - perbandingan terperinci pada tahun 2021] [12]
+  * [Cara mengamankan dan mengenkripsi Nginx dengan Let's Encrypt on Ubuntu 20.04][11]
+  * [Apache vs nginx - perbandingan terperinci pada tahun 2021][12]
+
+  
 [1]: #webserver
 [2]: #loadbalancer
 [3]: #setup
