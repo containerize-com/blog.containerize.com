@@ -26,7 +26,7 @@ Uno de los protocolos compatibles con NGINX es HTTP/2, que se publicó en mayo d
   * Reiniciar nginx
   * Conclusión
 
-## Paso 1: Actualizar los paquetes e instalar Nginx {#4597}
+## Paso 1: Actualizar los paquetes e instalar Nginx   {#4597}
 El primer paso es actualizar y actualizar los repositorios en el sistema de embalaje APT. El uso de la actualización descargará los últimos paquetes de versión y la actualización instalará la última versión de los paquetes en la lista. Ejecute el siguiente comando APT para actualizar y actualizar los paquetes.
 ```
 sudo apt-get update && apt-get upgrade
@@ -44,7 +44,7 @@ La salida del comando de verificación de la versión anterior debe ser similar 
 nginx version: nginx/1.10.0 (Ubuntu)
 ```
 
-## Paso 2: Habilitar soporte HTTP/2 {#F4D2}
+## Paso 2: Habilitar soporte HTTP/2   {#F4D2}
 Después de instalar el paquete NGINX, necesitamos habilitar HTTP2 Nginx. El usuario tiene que cambiar el puerto de escucha de 80 a 443. Abra el archivo de configuración de Nginx:
 ```
 sudo nano /etc/nginx/sites-available/domain-name.com
@@ -57,7 +57,7 @@ Escuchar 443 SSL http2 default_server;
 escuchar [::]: 443 ssl http2 default_server;
 Observe que además de SSL, también agregamos HTTP2. Nginx ahora puede usar navegadores que admiten el protocolo HTTP/2.
 
-## Paso 3: Agregar el nombre del servidor {#A745}
+## Paso 3: Agregar el nombre del servidor   {#A745}
 El siguiente paso es cambiar el servidor \ _name para que el nombre del servidor esté asociado con el nombre de dominio. El usuario solo necesita cambiar el nombre del servidor en el archivo de configuración. Localice la entrada del servidor \ _name en el archivo de configuración y cambie _ a su dominio real, así:
 ```
 server_name example.com www.example.com;
@@ -70,7 +70,7 @@ Si la sintaxis está libre de errores, verá la siguiente salida:
 nginx: el archivo de configuración /etc/nginx/nginx.conf sintaxis está bien
 nginx: archivo de configuración /etc/nginx/nginx.conf La prueba es exitosa
 
-## Paso 4: Agregar los certificados SSL {#37C0}
+## Paso 4: Agregar los certificados SSL   {#37C0}
 El siguiente paso es habilitar la configuración de NGINX HTTPS para usar su certificado SSL. Puede generar un certificado autoestimado o [instalar un certificado gratuito de Let's Cifre][1]. Si no tiene un certificado SSL, siga este tutorial. Agregue sus certificados SSL dentro del directorio de configuración de NGINX similar a:
 ```
 sudo mkdir /etc/nginx/ssl
@@ -84,16 +84,16 @@ ssl_certificate /etc/nginx/ssl/example.com.crt;
 ssl_certificate_key /etc/nginx/ssl/example.com.key;
 Guarde el archivo del archivo Nginx y salga del editor de texto.
 
-## Paso 5: Eliminar los cifrados {#D291}
+## Paso 5: Eliminar los cifrados   {#D291}
 CIPHER es un algoritmo utilizado en criptografía para cifrado de datos y descifrado. Las suites de cifrado son un montón de algoritmos criptográficos utilizados para asegurar conexiones de red. HTTP/2 tiene una enorme lista negra de cifrados inseguros que deben eliminarse. Aquí utilizaremos un set de cifrado popular, aprobado por Internet Giants Cloudflare.
-Abra el siguiente archivo de configuración de Nginx /etc/nginx/nginx.conf y agregue las líneas a continuación justo después de ** SSL \ _PREFER \ _SERVER_CIPHERS. ** Estas líneas incluyen la lista de los últimos cifras que los navegadores HTTP2 entienden.
+Abra el siguiente archivo de configuración de Nginx /etc/nginx/nginx.conf y agregue las líneas a continuación justo después de **SSL \ _PREFER \ _SERVER_CIPHERS.**  Estas líneas incluyen la lista de los últimos cifras que los navegadores HTTP2 entienden.
 ```
 ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+
 AES256:EECDH+3DES:RSA+3DES:!MD5;
 ```
 Puede configurar GZIP en apagado y agregar proxy \ _max \ _temp \ _file \ _Size 0; Para evitar err \ _http2 \ _protocol_error nginx error.
 
-## Paso 6: redirige todas las solicitudes HTTP a HTTPS {#B387}
+## Paso 6: redirige todas las solicitudes HTTP a HTTPS   {#B387}
 Ahora debemos decirle a Nginx HTTP2 proxy qué debería servir al contenido a través de HTTPS solo si el servidor recibe una solicitud HTTP. Finalmente, ignorando las líneas comentadas, su archivo de configuración de Nginx /etc/nginx/sites-available/domain-name.com debería parecer similar a esto:
 servidor {escuchar 443 ssl http2 default_server; escuchar [::]: 443 ssl http2 default_server; root/var/www/html; index.html index.htm index.nginx-debian.html; server_name ejemplo.com; ubicación/{try_files $ uri $ uri/= 404 ; } ssl_certificate /etc/nginx/ssl/example.com.crt;ssl_certificate_key /etc/nginx/ssl/example.com.key;ssl_dhparam /etc/nginx/ssl/dhparam.pem; {escuchar 80; escuchar [::]: 80; server_name Ejemplo.com; devolver 301 https: // $ server_name $ request_uri;}
 Guarde el archivo /etc/nginx/sites-available/domain-name.com y luego sal. Verifique las configuraciones para obtener errores de sintaxis:
@@ -101,12 +101,12 @@ Guarde el archivo /etc/nginx/sites-available/domain-name.com y luego sal. Verifi
 sudo nginx -t
 ```
 
-## Paso 7: Reiniciar Nginx {#E687}
+## Paso 7: Reiniciar Nginx   {#E687}
 Para aplicar todos los cambios, reinicie el servidor proxy inverso NGINX HTTP2 y verifique el estado de configuración.
 sudo systemctl reiniciar nginx
 SUDO SYSTEMCTL ESTADO NGINX
 
-## ** Conclusión: ** {#4a1a}
+## **Conclusión:**    {#4a1a}
 Felicitaciones, ha aprendido con éxito cómo configurar el soporte de Nginx Config HTTP2 en el servidor Ubuntu. Su configuración de Nginx HTTP2 ahora sirve páginas HTTP/2 y también eliminó la diferencia entre los protocolos HTTP/1 y HTTP/2. Si aún enfrenta algún problema de configuración, háganos saber en la sección de comentarios.
 ¿Tiene alguna pregunta sobre el protocolo multiplexado HTTP2? _, Por favor_ [Póngase en contacto][2].
 

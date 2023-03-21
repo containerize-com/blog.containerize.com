@@ -16,13 +16,13 @@ categories: ['Form']
 
 ## **Überblick**
 Wir haben kürzlich einige Artikel zu Themen wie [wie man Bootstrap Form Creator Form.io auf Localhost][1] und [Top 5 Open -Source -Online -Formularbauer im Jahr 2020][2] einrichten. Der erste Blog -Beitrag ist ein Tutorial -Artikel, in dem der Einrichtungsvorgang und die Funktionen eines Bootstrap -Formbuilders [Form.io][3] demonstriert. Der zweite Artikel spricht über die weit verbreiteten Open -Source -Formbauer. Zum aktuellen Zeitpunkt ist die Zwei-Wege-Interaktion das Wichtigste zwischen Dienstleistern und Serviceverbrauchern. Unternehmen erhalten in der Regel ein konsequentes Feedback zu ihren Dienstleistungen und formulieren dann zukünftige Geschäftsstrategien. Formulare sind jedoch die Sammeln und Speichern von Informationen von den Kunden. Unternehmen erstellen eine Reihe von Formen, um Daten über verschiedene laufende Vorgänge zu sammeln, und es gibt viele Arten von Formen, von denen einige einzelne Seiten und einige von ihnen mehrseitige Formulare sind. Einige Unternehmen haben Formulare in ihrem Online -Portal eingebettet oder einige von ihnen verwenden E -Mails oder andere Arten von Medien, um ihre Formulare für die Datenerfassung aufzudecken.
-Daher sind viele Open -Source -Formulare und Datenverwaltungssoftware mit reichhaltigen Formbuilder -Funktionen verfügbar. In diesem Artikel werden wir den kostenlosen HTML -Formulargenerator ** [Formbuilder][4] ** untersuchen, indem wir die folgenden Punkte abdecken.
-  *** [Was ist FormBuilder?][5] **
-  *[** wie man eingerichtet? **][6]
-  *[** Wie erstelle ich Formulare mit FormBuilder? **][7]
-  *** [Fazit][8] **
+Daher sind viele Open -Source -Formulare und Datenverwaltungssoftware mit reichhaltigen Formbuilder -Funktionen verfügbar. In diesem Artikel werden wir den kostenlosen HTML -Formulargenerator **[Formbuilder][4]**  untersuchen, indem wir die folgenden Punkte abdecken.
+  ***[Was ist FormBuilder?][5]** 
+  *[**wie man eingerichtet?** ][6]
+  *[**Wie erstelle ich Formulare mit FormBuilder?** ][7]
+  ***[Fazit][8]** 
 
-## Was ist Formbuilder? {#Was}
+## Was ist Formbuilder?   {#Was}
 [Formbuilder][4] ist ein Open -Source -Formulardesigner, mit dem Benutzer interaktive Formulare erstellen können. Es ist sicher, erweiterbar und verfügt über Selbsthostfunktionen. Dieser HTML -Formulargenerator ist mehrsprachig und bietet Unterstützung für mehrere Sprachen. Es gibt eine benutzerfreundliche Benutzeroberfläche, in der Benutzer Formularelemente ziehen können, um die erforderliche Formularvorlage zu formulieren. Darüber hinaus bietet es reichhaltige Steuerelemente und konfigurierbare Formvorlagen. Darüber hinaus können Benutzer in der Benutzeroberfläche mehrere Registerkarten erstellen, um Multi -Seiten -Formulare zu erstellen. Vor allem können Benutzer sich um diesen kostenlosen Formular -Builder neigen, indem sie ihre Plugins entwickeln. Es ist alle Dokumentationen zur Entwicklung und Bereitstellung verfügbar. Es ist in node.js geschrieben und der gesamte Quellcode ist in [Github][9] verfügbar.
 Hier sind die oberen Highlights der Form.io.io
   * i18n integriert
@@ -31,7 +31,7 @@ Hier sind die oberen Highlights der Form.io.io
   * Unterstützung für beliebte JavaScript -Front -End -Frameworks
   * Drag & Drop UI
 
-## Wie stellt man das ein? {#aufstellen}
+## Wie stellt man das ein?   {#aufstellen}
 In diesem Abschnitt des Formular Builder -Tutorials wird angezeigt, wie Sie FormBuilder auf der lokalen Maschine einrichten.
 Bevor Sie weiter gehen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen installiert haben.
   * Node.js> = 10.9.0
@@ -54,7 +54,7 @@ Schließlich öffnet der obige Befehl die Anwendung unter der folgenden Adresse 
 http://localhost:8080/
 ```
 
-## Wie erstelle ich Formulare mit Formbuilder? {#Wie}
+## Wie erstelle ich Formulare mit Formbuilder?   {#Wie}
 In diesem Abschnitt werden wir die Funktionen dieses HTML -Formulargenerators untersuchen und lernen, wie wir Formulare erstellen können.
 Die folgende Benutzeroberfläche wird angezeigt, sobald Sie den Server starten.
 
@@ -70,21 +70,21 @@ Als nächstes können wir jedes Formularelement in den abstoßbaren Bereich zieh
 
 Sobald Sie mit dem Formulargebäude fertig sind, können Sie das Formular durch Drücken der Taste „Render“ in der oberen Mitte rendern. Darüber hinaus gibt es verschiedene Formularoptionen, bei denen Benutzer die HTML hinter den Formularen erzeugen können. Es gibt auch andere Optionen, z. B. Benutzerformular laden, Benutzerdaten anzeigen, Benutzerformular rendern und das Benutzerformular löschen. Neben diesen Funktionen gibt es viele Formularaktionen wie „Getfieldtype“, die die registrierten Feldtypen für das Formular zurückgeben. In ähnlicher Weise gibt es viele andere Aktionen wie Daten anzeigen, XML abrufen, Daten festlegen, bearbeiten und einige weitere. Es gibt jedoch viele andere Dinge, die Sie selbst überprüfen können. Da es sich um Open Source handelt, können Sie es gemäß Ihren Anforderungen ändern.
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Dies ist das Ende des Blog -Beitrags. Wir hoffen, dass dieses Tutorial Ihnen wirklich helfen wird, wenn Sie einen Open -Source -HTML -Formulargenerator bereitstellen möchten. Dieser Artikel hat viele Aspekte von Formenbuilder behandelt, sodass Sie unter Berücksichtigung Ihrer geschäftlichen Anforderungen problemlos eine Wahl treffen können. Diese kostenlosen Open-Source-Formbauer sind kostengünstig und zeitsparend. Diese kostenlosen Tools bieten nicht nur Funktionen für Formbuilding, sondern bieten auch Formulare und Datenmanagement. Sie können die Formulare mit Webanwendungen von Drittanbietern konfigurieren. Darüber hinaus wird der Aufwand, verschiedene Formen für verschiedene Geschäftsanwendungen zu erstellen, und Unternehmer können mithilfe dieser Open -Source -Formbauer jede Art von Form erstellen. Darüber hinaus stehen diesen Formeditoren Plugins zur Verfügung, die Entwickler gemäß den Anforderungen ändern können. Daher ist es höchste Zeit, solche sich wiederholenden Aufgaben zu automatisieren, indem ein guter kostenloser HTML -Formulargenerator verwendet wird.
 Schließlich schreibt [containerize.com][10] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Formulare][11] in Kontakt, um regelmäßige Nachrichten und Updates zu erhalten.
 
 ## Erkunden
-  *** [Form.io][3] **
-  *** [Orbeon][12] **
-  *** [ohmyform][13] **
-  *** [Webiny][14] **
-  *** [formtools][15] **
-  *** [FormBuilder][4] **
-  *** [Alpaca Formen][16] **
-  *[** So richten Sie Bootstrap Form Creator Form.io auf Localhost **][1]
-  *[** Geschäftsvorgänge automatisieren mit kostenloser und Open -Source -Software **][17]
-  *[** Top 5 Open Source Online -Formularbauer im Jahr 2020 **][2]
+  ***[Form.io][3]** 
+  ***[Orbeon][12]** 
+  ***[ohmyform][13]** 
+  ***[Webiny][14]** 
+  ***[formtools][15]** 
+  ***[FormBuilder][4]** 
+  ***[Alpaca Formen][16]** 
+  *[**So richten Sie Bootstrap Form Creator Form.io auf Localhost** ][1]
+  *[**Geschäftsvorgänge automatisieren mit kostenloser und Open -Source -Software** ][17]
+  *[**Top 5 Open Source Online -Formularbauer im Jahr 2020** ][2]
 
   
 [1]: https://blog.containerize.com/form/how-to-setup-bootstrap-form-creator-formio-on-localhost/

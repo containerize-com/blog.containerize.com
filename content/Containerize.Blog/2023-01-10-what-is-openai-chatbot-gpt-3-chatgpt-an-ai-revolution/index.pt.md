@@ -19,23 +19,23 @@ categories: ['Artificial intelligence']
 Em novembro de 2022, [Openai1] (an artificial intelligence research & development company) lançou [ChatGpt][2], que permite que os usuários tenham conversas humanas com os bots de AI. Este**Ai Chatbot**é baseado em uma terceira geração de GPT (Transformador pré-treinado generativo) que usa**Técnicas de linguagem de processamento natural**para realizar sessões de perguntas e respostas. Além disso, este**OpenAi chatbot**ganhou imensa atenção em todo o mundo devido à sua precisão e fluxo de dados. Mesmo na primeira semana de seu lançamento, ele registrou 1 milhão de usuários. Isso é incrível!
 Este software de AI de conversação é gratuito e você pode [fazer login][3] para brincar com ele. No entanto, o ChatGPT ainda não é de código aberto, mas, de acordo com a notícia, sua versão de código aberto estará disponível em futuro próximo. Além disso, o ChatGPT é um chatbot bem treinado que pode interagir com os seres humanos de uma maneira muito natural. Muitas perguntas aparecerão na sua cabeça sobre esta**ferramenta de inteligência artificial**. Então, iremos alguns quilômetros à frente neste artigo e tentaremos descobrir respostas para algumas perguntas interessantes.
 Os seguintes pontos serão abordados nesta postagem do blog:
-***[Como o chatgpt funciona?][4]**
-***[ChatGpt é melhor que a pesquisa do Google?][5]**
-***[Limitações do chatgpt][6]**
-***[Integrações de chatgpt][7]**
+* **[Como o chatgpt funciona?][4]**
+* **[ChatGpt é melhor que a pesquisa do Google?][5]**
+* **[Limitações do chatgpt][6]**
+* **[Integrações de chatgpt][7]**
 
-## Como funciona o chatgpt? {#How-Does-chatgpt-work}
+## Como funciona o chatgpt?   {#How-Does-chatgpt-work}
 De fato, o ChatGPT também é um grande modelo de idioma (LLM) treinado em enormes conjuntos de dados, e o fenômeno de prever e concluir a frase acontece do lado do LLM. Esses conjuntos de dados compreendem dados textuais usados ​​para gerar frases de conversação do tipo humano usando processamento natural. Quanto mais o tamanho dos conjuntos de dados, mais os modelos de idiomas serão executados.
 Este**Openai Chatbot “ChatGPT”**é bem treinado usando uma técnica chamada Aprendizagem de Reforço com Feedback Humano, no qual o sistema recebe feedback sobre suas respostas e aplica a gerar essa resposta novamente. O que torna o chatgpt distinto é sua capacidade de entender a intenção dos humanos na conversa. Além disso, é inteligente o suficiente para tomar decisões sobre certos tipos de perguntas, como o que responder e o que descartar. O escopo das conversas não é limitado e este AI Chatbot é treinado para iniciar todos os tipos de conversas.
 
-## ChatGPT é melhor que a pesquisa do Google? {#Chatgpt-é-better-the-Google-search}
+## ChatGPT é melhor que a pesquisa do Google?   {#Chatgpt-é-better-the-Google-search}
 Com o advento do ChatGPT**baseado em**, de alguma forma, foi visto que as respostas de conversação atraem os usuários mais do que os resultados normais da pesquisa. Este**Openai Chatbot**apresenta a pesquisa resulta em uma resposta de conversação do tipo humano, enquanto um mecanismo de pesquisa como [Google][8] faz isso em um texto simples simples. No entanto, ambas as plataformas apresentam abordagens diferentes para servir os resultados.
 
 {{< figure align=center src="images/surprise.png" alt="Ai chatbot chatgpt">}}
 
 No que diz respeito a esse**ai bot**, é novo no mercado e levará tempo para ficar maduro. É altamente fácil de usar, mas a chance de erros nas respostas ainda está lá. Embora o ChatGPT esteja pronto para dar um momento difícil para o Google, em dezembro de 2022, o Google anunciou o desenvolvimento de um novo chatbot chamado "Code Red" e a comunidade está considerando uma reação em resposta ao lançamento do ChatGPT.
 
-## Limitações de chatgpt {#limitações de chatgpt}
+## Limitações de chatgpt   {#limitações de chatgpt}
 Vamos nos aprofundar e ver quais são as limitações anexadas a este**OpenAi chatbot chatgpt.**
 **Será grátis para sempre?**: Chatgpt é gratuito no momento atual. No entanto, de acordo com uma declaração do CEO da OpenAI, é inevitável e muito certo de que esse bot da IA ​​cobrará alguns centavos contra instruções e respostas.
 **O ChatGPT não consegue acessar a Internet:**Este**ai chatbot**não consegue acessar a Internet, em vez de gera as respostas com base nos conjuntos de dados fornecidos a ele.
@@ -43,7 +43,7 @@ Vamos nos aprofundar e ver quais são as limitações anexadas a este**OpenAi ch
 **conjuntos de dados limitados:**ChatGPT processa as informações sobre os dados com os quais são treinados. Portanto, não faz nada além de seu alcance.
 **Resultados tendenciosos:**Este**Ai Bot**é treinado por seres humanos, para que haja uma grande chance de produzir resultados tendenciosos. A seleção de dados e o algoritmo podem produzir resultados da mesma natureza.
 
-## Integrações chatgpt {#chatgpt-integrações-}
+## Integrações chatgpt   {#chatgpt-integrações-}
 A posição de qualquer software está diretamente ligada à sua extensibilidade. O ChatGPT oferece integrações com aplicativos de terceiros, em vez de haver um mecanismo muito simples para instalar este bot da AI em seu site. Primeiro, você pode obter uma chave da API do [OpenAI][1], selecionar a linguagem de programação e instalar as bibliotecas para fazer solicitações HTTPS. Em segundo lugar, faça uma solicitação ao OpenAI, o OpenAI gerará a resposta, buscará essa resposta e enviará para o bot para mostrar em seu site.
 Além disso, [Microsoft][9] planeja enriquecer seu mecanismo de pesquisa [Bing][10] com inteligência artificial. Para esse fim, ele optou pelo OpenAi Chatbot ChatGPT. No entanto, essa integração definitivamente dará uma vantagem competitiva.
 

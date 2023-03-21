@@ -44,7 +44,7 @@ sudo systemctl status apache2.Service
 
 
 ## 步骤2：将Apache2配置为反向代理
-Apache2已成功安装并准备使用。现在，您可以将Apache2配置为Apache2反向代理Ubuntu。 Apache2代理模块的** ProxyPass **和** ProxyPassReverse **功能提供了反向代理。要使用** proxypass **和** ProxypassReverse **，您必须首先知道要在哪里引导网站流量。
+Apache2已成功安装并准备使用。现在，您可以将Apache2配置为Apache2反向代理Ubuntu。 Apache2代理模块的**ProxyPass **和 **ProxyPassReverse ** 功能提供了反向代理。要使用 **proxypass ** 和 **ProxypassReverse**  ，您必须首先知道要在哪里引导网站流量。
 Apache2反向代理服务器将收听默认HTTP端口上的所有流量，该端口是简单设置中的端口80。托管网站内容的后端服务器将在自定义端口上收听，并且很可能是端口8080。
 在此博客文章中，我们将设置Apache2以在端口80上收听，然后将流量直接转到端口服务器，该服务器在端口8080上倾听。在下面命令下运行以创建一个名为apache2proxy.conf的代理virtualHost文件。
 sudo nano /etc/apache2/sites-apache2proxy.conf
@@ -82,17 +82,17 @@ sudo a2ensite apache2proxy.conf
 sudo systemctl restart apache2.Service
 启动您选择的Web浏览器，然后导航到您的服务器主机名（例如example.com）。现在，您将在默认端口（即8080）上代理您的Apache2服务器。
 
-## 步骤4：启用SSL {#Block-07B86D83-DCA0-4924-B991-206719C342EB}
+## 步骤4：启用SSL   {#Block-07B86D83-DCA0-4924-B991-206719C342EB}
 如果要启用Apache反向代理SSL模块，请运行以下命令以启用Apache反向代理https proxy Pass：
 Sudo A2enmod SSL
 这将为HTTPS支持提供安全的Apache反向代理HTTP，以提供后端服务器。
 
-## 步骤5：RESTART APACHE2 {#BLOCK-836BB4FF-17AD-4317-8ECB-153104BD28A7}
+## 步骤5：RESTART APACHE2   {#BLOCK-836BB4FF-17AD-4317-8ECB-153104BD28A7}
 为了实施这些更改，请通过运行以下命令重新启动Apache：
 sudo systemctl restart apache2.Service
 恭喜！您已经在Linux系统上成功安装和配置了Apache2反向代理。
 
-## **结论：** {#4a1a}
+## **结论：**   {#4a1a}
 在本教程中，我们探索并讨论了什么是代理服务器和Apache反向代理示例配置逐步进行。我们还学会了如何在Linux系统上设置和配置Apache2作为反向代理。在即将到来的教程中，我们将讨论有关Apache和其他Web服务器解决方案堆栈的更多有趣主题。
 
 ## 探索

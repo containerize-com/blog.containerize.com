@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software']
 {{< figure align=center src="images/nsq-vs-kafka.png" alt="NSQ vs Kafka | Farklılıklar nedir?|NSQ vs Kafka | Farklılıklar nedir??">}}
 
 
-## ** Genel Bakış **
+## **Genel Bakış** 
 Dağıtılmış mesajlaşma sistemleri, sistem büyüdükçe büyük veri akışı, bulut yerel uygulamaları ve mikro hizmet mimarisinin çekirdeğini oluşturur. Gerçek zamanlı uygulamalar için düşük gecikme ile güvenilir, ölçeklenebilir ve arızaya toleranslı mesajlaşma kuyruk platformunda artan bir ihtiyaç vardır. Mesajlaşma kuyruk platformu, performansı, güvenilirliği ve ölçeklenebilirliği artırırken eşzamansız olarak iletişim kurma ve koordinasyon yolunu sunar.
 Dağıtılmış mesajlaşma sistemleri artık yaygındır ve sürekli gelişmektedir. Kendi artıları ve eksileri ile ortaya çıkan birden fazla modern mesaj kuyruk sistemi vardır. En iyi açık kaynaklı mesaj kuyruk sistemleri, büyük veri akışı, mikro hizmetler ve bulut tabanlı uygulamalar için ara katman yazılımı altyapısını oluşturur. Bu, iş şirketlerinin belirli bir uygulama için hangi mesajlaşma sisteminin en uygun olduğuna karar vermeleri sorunlu hale geldi. Bir mesajlaşma sisteminin hangi özelliklerinin belirli bir uygulamanın ihtiyaçlarını karşıladığına karar vermek için derin bir anlayış gereklidir.
 Bu blog makalesi, modern mesajlaşma kuyruk platformu NSQ vs Kafka'nın özetlenmesi. Makale, dağıtılmış mesajlaşma sistemleri NSQ vs Kafka, kullanıcıların gerçek zamanlı uygulama için bilinçli bir karar vermelerini kolaylaştırmak ve ayrıca gelecekteki araştırma ve geliştirme için yol açmasını sağlamak için özelliklerin karşılaştırılması hakkında bilgi vermektedir.
@@ -28,11 +28,11 @@ Bu blog makalesi, modern mesajlaşma kuyruk platformu NSQ vs Kafka'nın özetlen
 [Kafka][1], LinkedIn tarafından geliştirilen Scala dilinde yazılmış açık kaynaklı bir dağıtılmış olay akış platformudur. Mesajlaşma sistemini yayınlamaktır ve yüksek miktarda mesajı ele alma yeteneğine sahiptir. Kafka “dağıtılmış, dayanıklı, hataya toleranslı, yüksek verimli pub-sub mesajlaşma sistemidir” ve Kafka ile hem gerçek zamanlı hem de toplu işlem yapabilirsiniz. Düğümler arasında dağıtılmış, bölümlenmiş, çoğaltılmış bir taahhüt günlük mesajlaşma hizmetidir ve JVM'de çalışır. Kafka En İyi Mesaj Kuyruğu kullanımı kolaydır ve bir mesajlaşma kuyruk sisteminin işlevselliğini sağlar, ancak benzersiz bir tasarıma sahiptir.
 Dağıtılmış mesaj kuyruğu Kafka sunucuları broker olarak bilinir ve bunlar bir Kafka kümesi oluşturur. Bir Zookeeper, bir kümedeki tüm brokerler arasındaki koordinasyondan sorumludur. Apache Kafka Mesaj Broker, Unicorn Startups, Sağlık ve LinkedIn, FB, Netflix, Bank of America, Chase Bank, Yahoo, Twitter ve diğerleri gibi en iyi finansal kuruluşlar tarafından kullanılıyor. Açık Kaynak Mesaj Kuyruk Yazılımı Kafka Mimarisi Üreticiler, Tüketiciler, Komisyoncular, Zookeeper, Konular, Bölümler, Kayıtlar ve Günlüklerden oluşur.
 
-## 2. NSQ nedir? {#CE62}
+## 2. NSQ nedir?   {#CE62}
 [NSQ][2] SimpleQueue'nin halefi olan açık kaynaklı gerçek zamanlı dağıtılmış mesajlaşma platformudur. Geliştirici, NSQ'yu Bitly tarafından oluşturulan “gerçek zamanlı dağıtılmış bir mesajlaşma platformu” olarak tanımlıyor. Açık kaynak mesaj komisyoncusu SoftWarensq, günde milyarlarca mesajı ele alan bir ölçekte tasarlanmış ve çalışıyor. Tek başarısızlık noktaları olmadan merkezi olmayan topolojileri teşvik eden geleneksel tamponlu bir mesajlaşma sistemidir. Güvenilir bir mesaj dağıtım sistemi ile birlikte arıza toleransını ve yüksek kullanılabilirliği sağlar.
 NSQ, SPOF'yi en aza indiren yüksek kullanılabilirlik topolojisi sunar. NSQD ve NSQLOOKUPD için birden fazla örnek oluşturarak kullanılabilirliği artırır. Ayrıca, mesajın en az bir kez belirli bir kalıcılıkla teslim edildiğini ve yapılandırılması kolay olduğunu garanti eder. En iyi mesaj broker NSQ daha esnektir ve mesaj kalıcılığını destekler. Parlak bir yönetici kontrol paneline sahiptir. NSQ Kuyruk Mesajlaşma Sistemi 19.9K GitHub Yıldızları ve 2.6K Github Çatalları vardır.
 
-## 3. Karşılaştırma NSQ - KAFKA {#CE62}
+## 3. Karşılaştırma NSQ - KAFKA   {#CE62}
 NSQ ve Kafka hem mesajlaşma kuyruğunun mimarilerini ve brokerlerinin nasıl çalıştığını tanımlamanın benzersiz bir yolu vardır, ancak birkaç noktada, hangi platformu tercih etmek istediğinizi düşünebilir:
   * Kullanılabilirlik
 NSQD sunucusu acımasızca çökerse, olası bir veri kaybı olabilir. Kafka, daha yüksek bir kullanılabilirliğe ve daha güvenilirliğe sahip olmasını sağlayan yerleşik çoğaltma ve bölümlemeyi destekler. Çoğaltma faktörü N nedeniyle Kafka, herhangi bir veri kaydı kaybetmeden N-1 sunucu arızalarını tolere edebilir.
@@ -45,11 +45,11 @@ NSQ, mesajların ölü basit arşivlenmesini sağlar, ancak herhangi bir yerel t
   * Mesajın sırası
 NSQD'nin birden fazla örneği birbirleriyle iletişim kurmadığından ve her zaman sıralanmamış bir mesaj olasılığı vardır. Kafka, bölümlerinin her birini yapılandırılmış bir kayıt dizisi ile korur. Kafka her zaman bir bölümdeki mesajların kesin bir sırasını sağlayacaktır.
 
-## 4. Neden Kafka NSQ üzerinden? {#CE62}
+## 4. Neden Kafka NSQ üzerinden?   {#CE62}
 Yüksek verimli, geliştiricilerin Kafka'yı rakipler üzerinde düşünmesinin birincil nedenidir, oysa Golang'da NSQ Mesaj Kuyruğu MQ seçmede kilit faktör olarak belirtilmiştir. NSQ ve Kafka'nın her ikisi de mesaj kuyruğu hizmetidir. Ancak birincil fark, Kafka'nın sıralı bir kütük olarak yapılandırılmış olması, ancak NSQ olmamasıdır. Kafka, veri kaybına ilişkin katı garantileri ve güvenilirliği ile bilinirken, NSQ daha basit ve daha kolay bir mesaj kuyruğudur.
 GitHub'da 20K Github Yıldızları ve 2.6K Çatallı NSQ, 19.4K Github Yıldızları ve 10.3K Github Çatalları ile Kafka'dan daha popüler görünüyor. Stackshare topluluğuna göre Kafka, 509 Şirket Yığınları ve 470 Geliştirici yığınında daha geniş bir onay alıyor; 21 şirket yığınında ve 8 geliştirici yığınında listelenen NSQ ile karşılaştırıldığında.
 
-## Sonuç: {#4A1A}
+## Sonuç:   {#4A1A}
 Bu makale, popüler mesajlaşma çerçevelerinin - NSQ ve Kafka'nın çalışması hakkında kısa bir karşılaştırma sağlamıştır. Makale özelliği karşılaştırmaları mesaj kuyruğu verimi, kalıcılık, güvenilirlik, gecikme, ölçeklenebilirlik ve kullanılabilirlik etrafında döner. Bu parametreler, gerçek zamanlı bir uygulama için bir çerçevenin uygunluğuna karar vermek için önemlidir. Bu nedenle, doğru çerçeveyi seçmek kapsamlı bir anlayış için iyi bir makale. Mesajlaşma kuyruğu yazılımı, piyasada yüksek işlemeyi gerçekleştirebilecek gelecekteki teknolojinin omurgasıdır. Yaklaşan öğreticilerimizde, açık kaynak mesajlaşma platformlarıyla ilgili daha ilginç konular hakkında tartışacağız.
 _ [Twitter][3], [LinkedIn][4] ve [Facebook][5] sayfamızda bize katılabilirsiniz. Çevrimiçi olarak hangi mesaj kuyruğu platformunu kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][6].
 

@@ -29,7 +29,7 @@ categories: ['Newsletters']
   * [テナントのデータベースのセットアップ][2]
   * [テナントのnginxを構成][3]
 
-## リクエストフロー{#request}を処理する
+## リクエストフロー {#request}を処理する
   * config.phpファイルのバックアップを取得すると、configディレクトリの下で見つけることができます。
   *新しいconfig.phpファイルを作成し、サイト/テナントを処理するために次のコードを追加します。
 ```
@@ -45,18 +45,18 @@ switch ($_SERVER['SERVER_NAME'])
 ```
 Example.comをドメイン名に置き換えます。また、すべてのテナントに対して構成ファイルを作成する必要があります。 config.phpのバックアップファイルをコピーし、config.example.com.phpのような新しい名前で保存します。
 
-## テナントのデータベースをセットアップ{#database}
+## テナントのデータベースをセットアップ {#database}
   *既存のPhplistデータベースのバックアップを取ります。それを使用して、新しいテナントのデータベースを作成します。
   * config.example.com.phpファイルを開きます。環境に従って、データベースの資格情報やその他の設定を変更します。
 
-## テナントのnginxを構成{#nginx}
-  *nginxディレクトリに移動します** cd/etc/nginx/sites-abailable **。
+## テナントのnginxを構成 {#nginx}
+  *nginxディレクトリに移動します**cd/etc/nginx/sites-abailable** 。
   *デフォルトconfig.phpファイルをコピーし、example.comのようなサイト名で保存します。
-  *** sudo nano embly.com **を備えたOpen Example.com構成。
+  ***sudo nano embly.com** を備えたOpen Example.com構成。
   *ルートパス、server_name、およびその他の設定を変更します。
   *** sudo nginx -t*でのテスト構成
-  *最後に、** sudo ln -s/etc/nginx/sites-abailable/example.com/etc/nginx/sites-enabled/**を実行してSymlinkを作成します
-  *** sudo systemctl restart nginx **を実行してnginx webサーバーを再起動するため、新しく作成された構成ファイルをロードできます。
+  *最後に、 **sudo ln -s/etc/nginx/sites-abailable/example.com/etc/nginx/sites-enabled/** を実行してSymlinkを作成します
+  ***sudo systemctl restart nginx** を実行してnginx webサーバーを再起動するため、新しく作成された構成ファイルをロードできます。
 
 ## 結論
 マルチテナンシーソフトウェアには、メンテナンスコストの削減、効果的なリソースの使用量、更新の簡単なインストールなど、シングルテナントアプリケーションと比較していくつかの利点があります。 SaaS（Software As a Service）ソフトウェアを構築する場合は、マルチテナンシーアーキテクチャをフォローして、その真の力を楽しむことができます。

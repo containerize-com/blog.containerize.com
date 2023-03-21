@@ -23,10 +23,10 @@ categories: ['Artificial intelligence']
 * [**Openai APIキーを取得し、コードgpt**][9]を設定します
 * [**コードGPTの使用を開始 -  AI搭載のOpenAIコードジェネレーター**][10]
 
-## コードGPTとは何ですか？ {#whatis-codegpt}
+## コードGPTとは何ですか？   {#whatis-codegpt}
 [Code GPT][3]は、編集者内のプレーンテキストからコードスニペットを生成できる**ビジュアルスタジオコード拡張機能**です。この**OpenAIコードジェネレーター**は、自然言語の応答を処理および生成するためのOpenAI APIに基づいています。ただし、コードGPTは事前に訓練されたモデルであるGPT-3の上に構築されているため、コードGPTに行われたすべての要求はGPT-3によって処理され、このモデルは複数の状況を採用するのに十分賢いです。さらに、この**vscode拡張機能**を使用すると、コード生成とともにコードスニペットを屈折させ、改善できます。実際、環境全体が、ビジュアルスタジオコードエディターで[chatgpt][11]を使用しているという正確な感触を提供します。
 
-## VSCODE拡張コードGPTをインストールする方法は？ {#how-to-install-the-vscode-extension-codegpt}
+## VSCODE拡張コードGPTをインストールする方法は？   {#how-to-install-the-vscode-extension-codegpt}
 このセクションでは、**vScode拡張コードgpt。**インストールする手順を実行します。**[vscode Marketplace][12]**からこの拡張機能を簡単にインストールできます。
 VSCODEエディターを開き、「拡張機能」に移動し、検索バーにコードGPTを入力します。 codegptという名前には多くの拡張機能がありますが、以下の画像に示すように拡張機能をインストールする必要があります。
 
@@ -34,7 +34,7 @@ VSCODEエディターを開き、「拡張機能」に移動し、検索バー�
 
 互換性エラーが発生した場合に備えて、VSCODEを最新バージョンに更新してください。さらに、このVSCODE拡張は一貫した開発中であるため、異常な挙動の可能性を省略できません。
 
-## Openai APIキーを取得＆Configure code gpt {#retaine-openai-api-key-configure-codegpt-}
+## Openai APIキーを取得＆Configure code gpt   {#retaine-openai-api-key-configure-codegpt-}
 インストールが完了したら、次のステップは、Openaiの[Webサイト][13]からAPIキーを取得することです。**コードGPT拡張機能**の機能を有効にするには、このAPIキーが必要です。 APIを取得するには、この[リンク][13]にアクセスし、まだ作成されていない場合はアカウントを作成します。
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="oepnai api">}}
@@ -48,7 +48,7 @@ VSCODEエディターを開き、「拡張機能」に移動し、検索バー�
 
 すべてが正常に完了すると、Visual Studioコードに**コードGPT拡張機能**がインストールされます。次のセクションでは、このVSCODE拡張機能によって提供される機能をさらに詳しく調べます。
 
-## Code GPTの使用を開始 -  AI搭載Openaiコードジェネレーター{#Start-Using-Codegpt --- An-Ai-Powenai-Code-Generator}
+## Code GPTの使用を開始 -  AI搭載Openaiコードジェネレーター {#Start-Using-Codegpt --- An-Ai-Powenai-Code-Generator}
 これまでに、Visual StudioコードでコードGPT拡張機能を設定しています。この**vscode拡張コードgpt**を活用するには、「コマンド+シフト+p」を押して、「codegpt」という質問を選択し、「htmlの入力要素のコードを書き込む」などの入力フィールドに質問を書きます。下の画像に示すように、サイドバーでの応答：
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="vscode用のchatgpt">}}

@@ -20,7 +20,7 @@ Kami akan membahas bagian berikut dalam tutorial ini:
   * [Konfigurasi Plugin Mautik][3]
   * [Kesimpulan][4]
 
-## Konfigurasikan Akun Pengembang Facebook {#Account}
+## Konfigurasikan Akun Pengembang Facebook   {#Account}
   * Pergi ke [Facebook untuk pengembang][5]
   * Daftarkan akun Anda jika Anda tidak memilikinya.
   * Untuk mendaftarkan akun baru, buka dan klik "Mulai" dari sudut kanan atas.
@@ -30,7 +30,7 @@ Kami akan membahas bagian berikut dalam tutorial ini:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Integrasi Facebook - Register Account Pengembang">}}
 
 
-## Konfigurasikan aplikasi pengembang facebook {#app}
+## Konfigurasikan aplikasi pengembang facebook   {#app}
   * Klik "Buat Aplikasi Pertama"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Integrasi Facebook - Buat Aplikasi Pertama">}}
@@ -57,7 +57,7 @@ Kami akan membahas bagian berikut dalam tutorial ini:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Integrasi Facebook - Tambahkan Situs Web Sebagai Platform">}}
 
 
-## Konfigurasi Plugin Mautik {#Configuration}
+## Konfigurasi Plugin Mautik   {#Configuration}
   * Pergi ke dasbor mautik.
   * Kemudian pindah ke "Pengaturan" dari sudut kanan atas.
   * Klik "Plugins".
@@ -72,7 +72,7 @@ Kami akan membahas bagian berikut dalam tutorial ini:
   * Di sini Anda dapat memetakan bidang kontak Anda ke bidang Facebook.
   * Akhirnya, publikasikan pengaturan dan Anda siap melakukannya.
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 MAUTIC - Integrasi Facebook dapat membantu menyinkronkan prospek Facebook Anda ke dalam sistem mautik tanpa kesulitan. Dalam aplikasi Mautic, Anda dapat menambahkan semua lead ini ke dalam segmen. Anda dapat menjalankan kampanye pemasaran email pada mereka. Ini benar -benar dapat membantu bisnis Anda untuk tumbuh, memasarkan, dan menjual produk/layanan kepada audiens target yang jauh lebih besar.
 
 ## Mengeksplorasi

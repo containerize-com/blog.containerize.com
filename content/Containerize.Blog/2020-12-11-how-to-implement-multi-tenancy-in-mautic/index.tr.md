@@ -19,13 +19,13 @@ Mautic, pazarlama e -postalarınız, açılış sayfalarınız, iş akışların
   * [Mautic'te çoklu kiracılık uygulayın][3]
   * [Sonuç][4]
 
-## Multi-kiracılık nedir {#çoklu kiracılık}
+## Multi-kiracılık nedir   {#çoklu kiracılık}
 Çok kiracılı yazılım mimarisinde, bir yazılım uygulamasının tek bir örneği birden fazla kiracıya hizmet eder. Her kiracı verisi, aynı başvuru örneğini paylaşan diğer kiracıdan izole edilir. Bu kiracılar mantıksal olarak izole, ancak fiziksel olarak entegre. Bu, tüm kiracılar için veri güvenliği ve gizliliği sağlar. Tek bir uygulama örneğinden birden fazla kiracı oluşturmak çok daha az bellek gerektirir. Kiracılar kaynakları paylaşır ve yazılım bakımı, altyapı ve veri merkezi operasyonları için maliyetleri azaltır. Maliyetler tek kiracı bir altyapıdan daha düşük olma eğilimindedir.
 
-## Mautic nedir {#Mautic}
+## Mautic nedir   {#Mautic}
 [Mautic][5] ücretsiz ve açık kaynaklı bir pazarlama yazılımıdır. Mautic kullanarak pazarlama kampanyaları, olası satış üretimi, temas segmentasyonu vb. Gibi tekrarlayan pazarlama görevlerini otomatikleştirin. Kurşun üretimi, kampanya oluşturma, temas segmentasyonu, e -posta oluşturucu, A/B testi, sayfa oluşturucu, kurşun besleme ve daha fazlası gibi şaşırtıcı özelliklere sahiptir. Mautic ayrıca tüm popüler sosyal platformlarla entegrasyonu destekler; Facebook, Twitter, LinkedIn. Tüm bu inanılmaz özellikler, genel müşteri deneyimini artırmanıza ve işletmeniz için pazarlama otomasyonunu geliştirmenize yardımcı olur.
 
-## mautic {#implement}
+## mautic   {#implement}
   * “Main_db” olarak adlandırılan yeni bir boş veritabanı oluşturun.
   * Ardından, tüm kiracılarla ilgili ayrıntıları taşıyacak “Kiracı” adlı tablo oluşturun.
   * Şekilde gösterildiği gibi site \ _name, url ve db \ _name dahil olmak üzere 3 alanı olacaktır.
@@ -48,7 +48,7 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Bundan sonra, Mautic/App/config/local.php kopyasını oluşturun ve [site_name] .php olarak yeniden adlandırın.
   * Son olarak yeni veritabanına göre veritabanı adını, ana bilgisayarını, şifresini ve kullanıcıyı güncelleyin.
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Mautic, ücretsiz, zengin özellikli ve kalite odaklı bir pazarlama otomasyon çözümüdür. Pazarlama kampanyaları, segmentler, formlar, raporlar ve çok daha fazlası oluşturmanıza olanak tanır. Mautikte çoklu kiracılığın uygulanması maliyetleri azaltır, verimliliği, ölçeklenebilirliği ve güvenliği artırır. Sadece bir kurulumdan yüzlerce kiracı oluşturun.
 
 ## Keşfetmek

@@ -13,18 +13,18 @@ categories: ['Blockchain Platforms']
 
 {{< figure align=center src="images/ether.png" alt="Apa itu testnet">}}
 
-Dalam posting blog kami sebelumnya, kami menulis di beberapa topik yang mencakup [Blockchain Technology for Business][1], [menulis kontrak pintar dasar][2], dan [platform blockchain populer][3]. Ada topik -topik lebih lanjut yang akan kita tulis dalam waktu dekat sebagai ** teknologi buku besar yang terdesentralisasi ** semakin baik dengan berlalunya waktu. Orang -orang sekarang mulai tertarik pada platform manajemen aset digital karena keamanan dan transparansi. Selain itu, transaksi digital dapat dilacak, tidak dapat diubah dan faktor -faktor tersebut memberikan kepercayaan kepada orang -orang mengenai keandalan teknologi ini. Ada tiga jenis blockchain publik, pribadi, dan diizinkan. Namun, pengguna dapat mengadopsi jenis apa pun tergantung pada kasus penggunaannya.
+Dalam posting blog kami sebelumnya, kami menulis di beberapa topik yang mencakup [Blockchain Technology for Business][1], [menulis kontrak pintar dasar][2], dan [platform blockchain populer][3]. Ada topik -topik lebih lanjut yang akan kita tulis dalam waktu dekat sebagai **teknologi buku besar yang terdesentralisasi**  semakin baik dengan berlalunya waktu. Orang -orang sekarang mulai tertarik pada platform manajemen aset digital karena keamanan dan transparansi. Selain itu, transaksi digital dapat dilacak, tidak dapat diubah dan faktor -faktor tersebut memberikan kepercayaan kepada orang -orang mengenai keandalan teknologi ini. Ada tiga jenis blockchain publik, pribadi, dan diizinkan. Namun, pengguna dapat mengadopsi jenis apa pun tergantung pada kasus penggunaannya.
 Munculnya teknologi ini telah membawa perubahan besar di sektor perbankan karena telah mengubah cara transaksi keuangan. Dalam posting blog ini, kita akan berbicara tentang blockchain Ethereum tentang pengaturan Ethereum Node di LocalHost dan kita akan melihat bagaimana berinteraksi dengan jaringan uji. Kami akan membahas poin -poin penting berikut.
-  *** Apa itu testNet? **
-  *** [Cara Mengatur Ethereum Blockchain?][4] **
-  *** [Bagaimana cara berinteraksi dengan blockchain ethereum?][5] **
-  *** [Kesimpulan][6] **
+  ***Apa itu testNet?** 
+  ***[Cara Mengatur Ethereum Blockchain?][4]** 
+  ***[Bagaimana cara berinteraksi dengan blockchain ethereum?][5]** 
+  ***[Kesimpulan][6]** 
 
-## Apa itu TestNet? {#tetstnet}
+## Apa itu TestNet?   {#tetstnet}
 Dalam posting blog ini, kami akan menggunakan simpul Ethereum di LocalHost. Ethereum memiliki beberapa jaringan, jaringan produksi disebut Mainnet dan jaringan yang digunakan untuk tujuan pengujian disebut testNet. Sebagian besar aplikasi terdesentralisasi didasarkan pada blockchain [Ethereum][7]. Kontrak pintar adalah komponen integral dari infrastruktur terdistribusi ini. Selain itu, Blockchain adalah jaringan komputer yang disebut "node". Namun, setiap node berisi salinan blockchain dan dengan demikian berpartisipasi dalam jaringan. Ethereum blockchain juga memiliki cryptocurrency sendiri yang disebut "eter". Semua transaksi diamankan secara kriptografis. Selain itu, ini adalah teknologi buku besar lengkap yang tidak pernah mati atau rusak. Ini memungkinkan Anda menulis kontrak pintar dan aplikasi terdesentralisasi (DAPPS) yang berjalan pada node blockchain eterum.
 Jaringan blockchain terdistribusi open source ini menggunakan algoritma konsensus yang disebut Proof of Work (POW). Lebih lanjut, arsitektur Ethereum terdiri dari lima lapisan seperti mesin virtual Ethereum, API klien Ethereum, kontrak pintar, node Ethereum, dan aplikasi pengguna akhir. Ethereum Virtual Machine menawarkan perangkat lunak dan arsitektur yang mengenali kontrak pintar. Kontrak pintar adalah perangkat lunak yang mengatur transaksi. Ada dukungan kuat untuk Ethereum Blockchain dan perusahaan Fortune 500 telah menunjukkan minat besar untuk melakukan pengembangan pada skala yang lebih besar menggunakan teknologi ini. Selain itu, Ethereum ditulis dalam bahasa GO dan kode sumbernya tersedia di [GitHub][8]. Semua dokumentasi tersedia mengenai penyebaran dan pengembangan karena memiliki komunitas yang bersemangat.
 
-## Bagaimana cara mengatur blockchain ethereum? {#mempersiapkan}
+## Bagaimana cara mengatur blockchain ethereum?   {#mempersiapkan}
 Sekarang, kami menyadari apa itu testnet. Di bagian ini, kami akan mengatur simpul Ethereum di mesin lokal kami. Sebelum melangkah lebih jauh, pastikan Anda telah memasang prasyarat berikut.
   * [Homebrew][9] (untuk macOS)
 
@@ -55,7 +55,7 @@ build/bin/geth
 {{< figure align=center src="images/Screen-Shot-2020-12-22-at-1.19.44-PM-1024x409.png" alt="Node Ethereum">}}
 
 
-## Bagaimana cara berinteraksi dengan blockchain Ethereum? {#interact}
+## Bagaimana cara berinteraksi dengan blockchain Ethereum?   {#interact}
 Bagian ini berbicara tentang interaksi dengan simpul Ethereum yang berjalan yang sepenuhnya disinkronkan dengan blockchain. Kami dapat menggunakan perangkat lunak Geth untuk berinteraksi dan mengirim perintah ke jaringan uji.
 Untuk itu, mari kita sertakan variabel build/bin/geth in $ path dengan menjalankan perintah berikut:
 ```
@@ -90,8 +90,8 @@ eth.accounts
 
 Demikian juga, ada banyak perintah yang dapat Anda gunakan untuk berinteraksi dengan blockchain Ethereum.
 
-## kesimpulan {#conclusion}
-Inilah akhir dari tutorial ini. Kami belajar ** apa itu testnet ** dan proses pengaturan simpul Ethereum pada mesin lokal. Ethereum blockchain adalah solusi umum untuk sebagian besar aplikasi terdesentralisasi. Sebagian besar bisnis dan departemen pemerintah cenderung mengadopsi teknologi ini untuk membawa ketahanan, transparansi, ketersediaan, dan akuntabilitas. Selain itu, tutorial ** blockchain ** ini akan sangat membantu Anda jika Anda berencana untuk memulai pengembangan di Ethereum Blockchain karena memanfaatkan kontrak pintar. Etheruem blockchain lebih stabil dan populer karena memiliki ribuan node hidup. Selain itu, perusahaan dapat dengan mudah mengembangkan dan menggunakan jaringan blockchain Ethereum tanpa menghabiskan waktu tambahan. Faktor lain di balik keandalan Ethereum adalah bahwa ia menawarkan pengembangan kontrak pintar dengan cara yang tidak ditawarkan oleh platform manajemen aset digital ** ** lainnya.
+## kesimpulan   {#conclusion}
+Inilah akhir dari tutorial ini. Kami belajar **apa itu testnet  **dan proses pengaturan simpul Ethereum pada mesin lokal. Ethereum blockchain adalah solusi umum untuk sebagian besar aplikasi terdesentralisasi. Sebagian besar bisnis dan departemen pemerintah cenderung mengadopsi teknologi ini untuk membawa ketahanan, transparansi, ketersediaan, dan akuntabilitas. Selain itu, tutorial **  blockchain  **ini akan sangat membantu Anda jika Anda berencana untuk memulai pengembangan di Ethereum Blockchain karena memanfaatkan kontrak pintar. Etheruem blockchain lebih stabil dan populer karena memiliki ribuan node hidup. Selain itu, perusahaan dapat dengan mudah mengembangkan dan menggunakan jaringan blockchain Ethereum tanpa menghabiskan waktu tambahan. Faktor lain di balik keandalan Ethereum adalah bahwa ia menawarkan pengembangan kontrak pintar dengan cara yang tidak ditawarkan oleh platform manajemen aset digital ** **  lainnya.
 Pembaruan terbaru dalam jaringan Ethereum telah membuat jaringan lebih hemat biaya dan efisien. Faktanya, ada lebih banyak materi yang tersedia di cloud yang menunjukkan aspek -aspek penting dari Etheruem mengenai tujuan investasi dan pengembangan. Untuk pengembang, ia menyediakan ekosistem yang ramah pengembang dengan utilitas yang sudah dibuat sebelumnya. Untuk penambang, ada hadiah dalam bentuk eter setiap kali mereka menambang blok baru ke dalam blockchain. Selanjutnya, [containerize.com][10] telah menerbitkan banyak posting blog teknis dan tutorial tentang produk open source populer di [blog.containerize.com][11]. Oleh karena itu, tetap terhubung dengan kategori [platform blockchain][12] untuk pembaruan rutin.
 
 ## Mengeksplorasi

@@ -20,8 +20,8 @@ Todo negócio on -line funciona 24 × 7 e as coisas podem errar a qualquer momen
   * [Staytus][4]
   * [Statusfy][5]
 
-## Cache {#cachet}
-[Cachet][6] está liderando o sistema de página de status de código aberto e gratuito para serviços. Ajuda as empresas a melhorar o tempo de inatividade e as interrupções do sistema. Além disso, você pode enviar notificações aos assinantes e mantê -los atualizados. ** Cache ** pode ser facilmente integrado a sites de terceiros, como pingômetro, zabbix, nagios e muito mais.
+## Cache   {#cachet}
+[Cachet][6] está liderando o sistema de página de status de código aberto e gratuito para serviços. Ajuda as empresas a melhorar o tempo de inatividade e as interrupções do sistema. Além disso, você pode enviar notificações aos assinantes e mantê -los atualizados. **Cache**  pode ser facilmente integrado a sites de terceiros, como pingômetro, zabbix, nagios e muito mais.
 
 {{< figure align=center src="images/Cachet.png" alt="Cache - Sistema de página de status de código aberto baseado em PHP Laravel">}}
 
@@ -33,8 +33,8 @@ Acima de tudo, algumas das características importantes do cache são:
   * Manutenção do cronograma
 [Saiba mais sobre Cachet][7]
 
-## Statping {#statping}
-[Statping][8] é um excelente sistema moderno ** de monitoramento de código aberto ** para todos os serviços. Possui lista de recursos impressionantes, como gráficos, análises e plugins. ** estatando ** é um software fácil de usar e pode executá -lo em qualquer ambiente. Além disso, ele busca automaticamente os aplicativos para monitoramento e você não precisa configurar o software de terceiros para ele.
+## Statping   {#statping}
+[Statping][8] é um excelente sistema moderno **de monitoramento de código aberto  **para todos os serviços. Possui lista de recursos impressionantes, como gráficos, análises e plugins. **  estatando**  é um software fácil de usar e pode executá -lo em qualquer ambiente. Além disso, ele busca automaticamente os aplicativos para monitoramento e você não precisa configurar o software de terceiros para ele.
 
 {{< figure align=center src="images/Statping.png" alt="Statping - Sistema de página de status de código aberto baseado em PHP">}}
 
@@ -46,8 +46,8 @@ Aqui estão algumas características importantes da estatação:
   * Ganchos da web
 [Saiba mais sobre estatação][9]
 
-## Monitoror {#Monitoror}
-[Monitoror][10] é poderoso e leve software de monitoramento de código aberto para todas as ferramentas em um só lugar. Ele fornece suporte para monitorar serviços como sites, APIs, servidor de ping e até portas específicas. Ele pode ser instalado no seu servidor privado e você pode manter o controle sobre os dados. ** Monitoror ** é desenvolvido no idioma Go e o código -fonte está disponível no [Github][11].
+## Monitoror   {#Monitoror}
+[Monitoror][10] é poderoso e leve software de monitoramento de código aberto para todas as ferramentas em um só lugar. Ele fornece suporte para monitorar serviços como sites, APIs, servidor de ping e até portas específicas. Ele pode ser instalado no seu servidor privado e você pode manter o controle sobre os dados. **Monitoror**  é desenvolvido no idioma Go e o código -fonte está disponível no [Github][11].
 
 {{< figure align=center src="images/Monitoror.png" alt="Monitoror - Sistema de página de status de código aberto">}}
 
@@ -59,8 +59,8 @@ Acima de tudo, aqui estão alguns recursos populares do Monitoror:
   * Monitoramento de portas de servidor de suporte
 [Saiba mais sobre o Monitoror][12]
 
-## Staytus {#StayTus}
-[Staytus][13] é um sistema de página de status bonito e auto-hospedado. Está totalmente cheio de todos os recursos modernos que você esperaria de qualquer sistema. Ele permite que as empresas adicionem sessões de manutenção e também as publiquem no site de status para manter os clientes atualizados. ** Staytus ** também permite atualizar status de aplicativos externos usando a API JSON.
+## Staytus   {#StayTus}
+[Staytus][13] é um sistema de página de status bonito e auto-hospedado. Está totalmente cheio de todos os recursos modernos que você esperaria de qualquer sistema. Ele permite que as empresas adicionem sessões de manutenção e também as publiquem no site de status para manter os clientes atualizados. **Staytus**  também permite atualizar status de aplicativos externos usando a API JSON.
 
 {{< figure align=center src="images/Staytus-1.png" alt="Staytus - Sistema de página de status de código aberto">}}
 
@@ -72,8 +72,8 @@ Por outro lado, algumas características legais do staytus incluem:
   * Atualizar status de aplicativos externos
 [Saiba mais sobre Staytus][14]
 
-## statusfy {#statusfy}
-[Statusfy][15] é um sistema de página de status de código aberto e absolutamente gratuito. É fácil de usar e também permite criar um sistema estático rápido em qualquer idioma. O Progressive Web App (PWA) é o principal recurso que ajuda a acelerar o site sem recarregar de página, mesmo quando offline. Além do acima, ** Statusfy ** pode ser implantado em uma variedade de serviços de hospedagem com o esforço mínimo.
+## statusfy   {#statusfy}
+[Statusfy][15] é um sistema de página de status de código aberto e absolutamente gratuito. É fácil de usar e também permite criar um sistema estático rápido em qualquer idioma. O Progressive Web App (PWA) é o principal recurso que ajuda a acelerar o site sem recarregar de página, mesmo quando offline. Além do acima, **Statusfy**  pode ser implantado em uma variedade de serviços de hospedagem com o esforço mínimo.
 
 {{< figure align=center src="images/Statusfy-1.png" alt="Statusfy - Sistema de página de status de código aberto">}}
 
@@ -86,7 +86,7 @@ Aqui estão alguns recursos importantes do statusfy:
 [Saiba mais sobre Statuusfy][16]
 
 ## Conclusão
-Cobrimos alguns sistemas de status de código aberto ** neste artigo. Geralmente é difícil escolher a ferramenta correta para os negócios. No entanto, se você já está usando o serviço de monitoramento e deseja integrá -lo ao sistema de status ** **, o sistema de cache é a melhor opção. Mas, caso você queira fazer tudo em um só lugar, você pode escolher um do resto da lista.
+Cobrimos alguns sistemas de status de código aberto **neste artigo. Geralmente é difícil escolher a ferramenta correta para os negócios. No entanto, se você já está usando o serviço de monitoramento e deseja integrá -lo ao sistema de status **** , o sistema de cache é a melhor opção. Mas, caso você queira fazer tudo em um só lugar, você pode escolher um do resto da lista.
 Finalmente, [contendeRize.com][17] está em um processo consistente de escrever postagens no blog sobre mais produtos de código aberto mais recentes. Portanto, mantenha contato com esta [página de status][18] para as atualizações mais recentes.
 
 ## Explore

@@ -19,13 +19,13 @@ Estamos aqui com outra postagem no blog na categoria de [software de videoconfer
 Os seguintes pontos serão abordados neste artigo:
 * [**O que é BigBluebutton?**][3]
 * [**Uma breve introdução ao WordPress**][4]
-***[Como instalar o plug -in BigBluebutton no WordPress?][5]**
+* **[Como instalar o plug -in BigBluebutton no WordPress?][5]**
 
-##**O que é BigBluebutton?**{#What-Is-BigBluebutton}
+##**O que é BigBluebutton?** {#What-Is-BigBluebutton}
 [BigBluebutton][6] é um software de colaboração de vídeo gratuito**de código aberto**com uma enorme pilha de recursos de nível corporativo. Este software de código aberto é altamente extensível e oferece integrações com muitos aplicativos populares, como WordPress, [Redmine][7], [Schoology][8], [Drupal][9] e Canvas. Além disso, oferece um quadro branco compartilhado, envia mensagens públicas/privadas, áudio HD, arrecadação eletrônica e ferramentas de apresentação ricas. Além disso,**BigBluebutton**é o HTML5 suportado e funciona bem em todos os navegadores da web populares.
 Além disso, este**Software de Conferência da Web**tem uma comunidade enorme e viva de desenvolvedores. Existem estatísticas muito boas em seu [Github Repo][10] com 7,8 mil estrelas e 5,8 mil garfos. BigBluebutton está escrito em JavaScript, juntamente com a entrada de outros idiomas, como Java e Ruby. De fato, os desenvolvedores podem encontrar documentação abrangente sobre desenvolvimento, implantação e uso. Portanto, você pode configurar esse software auto-hospedado em um servidor local ou em nuvem facilmente.
 
-##**Uma breve introdução ao WordPress**{#a-brief-intro-to-wordpress}
+##**Uma breve introdução ao WordPress** {#a-brief-intro-to-wordpress}
 [WordPress][2] é uma das melhores plataformas de blog de código aberto**na categoria de software de site. Este software de código aberto é fácil de usar, mesmo um desenvolvedor da Web em nível iniciante, pode fazer a construção do site e lançá-lo. Além disso, o WordPress é altamente configurável e você pode personalizá -lo de acordo com os requisitos de negócios. Acima de tudo, possui um imenso [mercado][11], onde você pode encontrar vários plugins.
 Este**software de blog**vem com recursos de auto-hospedagem e há suporte completo para vários idiomas disponíveis. Além disso, existem estatísticas muito boas em seu repositório [12][12] e você pode baixar o código -fonte e configurá -lo facilmente. Além disso, você pode instalar um plug -in para qualquer funcionalidade no seu site WordPress. De fato, você pode encontrar plugins para os sites pertencentes a qualquer categoria. É escrito principalmente no PHP e você pode encontrar instruções completas sobre desenvolvimento, implantação e uso.
 

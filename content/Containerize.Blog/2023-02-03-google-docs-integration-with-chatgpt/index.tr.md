@@ -18,10 +18,10 @@ categories: ['Artificial intelligence']
 Son zamanlarda başlatılan [chatgpt][1] teknoloji dünyasında bir terim haline geldi. Bazı insanlar lehinedir ve bu**ai chatbot**verimlilik ve şeffaflık için bir tehdit olarak görürler. Peki, [Containerize.com][2] bu Openai GPT-3 modelinin kullanımı ve entegrasyonları hakkında yazıyor. Aslında, [Google Dokümanlar][3] yazma ve veri temsili için harika bir araçtır. Başka bir el, chatgpt'in ortaya çıkışı, doğal dil sorgularına konuşma bir şekilde yanıt veren bir konuşma [AI][4] aracıdır. Bu AI aracı makine öğrenimine dayanmaktadır ve [Openai][5] tarafından geliştirilmiştir. Ancak, bu blog yazısı**chatgpt ve google**hakkında, chatgpt**ile**Google Dokümanlar entegrasyonunu nasıl başaracağımızı öğreneceğimizdir. Kuşkusuz, Google Dokümanlarımıza ChatGPT eklentisini yükleyerek**Google Dokümanlar Otomasyonu**getirebiliriz.
 Bu blog gönderisinde aşağıdaki noktaları gözden geçireceğiz:
 * [**Openai API anahtarını nasıl elde edersiniz?**][6]
-***[Hadi Google Dokümanlar ile CHATGPT ile entegrasyon][7]**
+* **[Hadi Google Dokümanlar ile CHATGPT ile entegrasyon][7]**
 * [**Chatgpt ve Google****Dokümanlar**][8] kullanmaya başlayın
 
-## Openai API anahtarını nasıl elde ederiz? {#Obtain-the-openai-Api-Key}
+## Openai API anahtarını nasıl elde ederiz?   {#Obtain-the-openai-Api-Key}
 Sadece size küçük bir giriş yapmak için Openai, yapay zeka araçlarının araştırma ve geliştirilmesine odaklanan bir şirkettir. Chatgpt ayrıca Openai tarafından geliştirilir ve başlatılırken, Openai bir dizi GPT modeli geliştirdi.
 İlk olarak, Openai'nin [platformu][9] 'da bir hesap oluşturmanız ve ardından oturum açmanız gerekir. Giriş yaptıktan sonra, API Keys sayfasına inecek ve “Yeni Sır oluşturun düğmesini tıklayarak bir API anahtarı oluşturabileceğiniz Aşağıda gösterildiği gibi anahtar ”.
 
@@ -29,7 +29,7 @@ Sadece size küçük bir giriş yapmak için Openai, yapay zeka araçlarının a
 
 Yeni Oluşturmai API tuşunu kopyalayın ve Google Dokümanlar Entegrasyonu için kullanabilmeniz için kaydedin.
 
-## chatgpt {#lets-do-google-docs-entegrasyon ile google docs entegrasyonunu chatgpt ile entegre edelim}
+## chatgpt   {#lets-do-google-docs-entegrasyon ile google docs entegrasyonunu chatgpt ile entegre edelim}
 Bu konuşma AI aracının kurulum prosedürü oldukça kolaydır. “Uzantılar-Add-ons-> Eklentiler Al” ı tıklayın ve Google Workspace Marketplace sayfasını göreceksiniz. Şimdi, arama çubuğuna chatgpt yazın, “Sayfalarda ve Dokümanlar'da Chatgpt” seçeneğini seçin ve ilk seçeneği tıklayın ve aşağıdaki resimde görüldüğü gibi yükleyin:
 
 {{< figure align=center src="images/chatgpt-and-google-1.gif" alt="Chatgpt ve Google">}}
@@ -40,7 +40,7 @@ Google hesabınıza erişme izninizi arayacaktır, böylece kurulumu tamamlamak 
 
 Son olarak, Openai GPT-3 Google Dokümanlarınıza yüklendi ve Google Dokümanlar Otomasyonundan yararlanmaya başlayabilirsiniz.
 
-## chatgpt ve google docs kullanmaya başlayın {#start-chatggpt-and-google}
+## chatgpt ve google docs kullanmaya başlayın   {#start-chatggpt-and-google}
 Bu Google Doküman otomasyonunu kullanmaya başlamanın zamanı geldi. Bu amaçla, “Uzantılar-> Uygulama Script” ü tıklayarak yeni bir sekme açılacaktır. Şimdi, aşağıdaki kodu kopyalayıp kod düzenleyicisine yapıştırın.
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 Yukarıdaki çekirdekte, “xxxxxxxxxxxxxxx” i Openai API anahtarınızla değiştirin. Ardından, dosyayı kaydedin ve kod düzenleyicisinin üst merkezine yerleştirilen “Çalıştır” ı tıklayın ve pencereyi kapatın.

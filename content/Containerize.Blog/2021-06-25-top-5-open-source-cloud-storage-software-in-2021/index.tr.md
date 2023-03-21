@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/best-free-cloud-storage.png" alt="2021'de açık kaynak bulut depolama yazılımı">}}
 
 
-## ** Genel Bakış **
+## **Genel Bakış** 
 Bulut depolama, bir bulut depolama hizmetini bir barındırma platformuna bağlayarak çalışır. Belgeleri, sunumları, elektronik tabloları, resimleri, sesleri, videoları vb. Depolamak ve paylaşmak için bir veri depolama modelidir. Google Drive, Amazon Drive, Microsoft OneDrive, vb. Sınırlı depolama ve kullanıcı erişim kontrolü. Bulut depolamasını bazı kişisel ve hassas veriler için kullanıyorsanız, son derece hassas veriler için üçüncü taraf bulut yazılım çözümlerine güvenemezsiniz. Açık kaynak bulut depolama, verilerin yedeklenmesi ve güvence altına alınması açısından verimliliği ve verimliliği artırır.
 Açık kaynaklı bulut depolama verileri, uzak bir konumdan 24 × 7 erişilebilir ve erişilebilir. Birçok kuruluş bulut depolama ve veri gizliliği için kendi çözümlerini kullanıyor. Mobil uygulamaları veya web tabanlı sistemleri kullanarak bulut depolama alanında depolanan verilere erişebilirsiniz. İşletme kuruluşları yerel depolama sürücüsünden kendi kendine barındırılan bulut depolama alanına geçiyor. Bulut depolama, veri paylaşımı ve işbirliğini kolaylaştırdı. Artık birçok kişi dosya paylaşımı amacıyla açık kaynaklı kendi kendine barındırılan bulut depolama araçları kullanıyor. Bulut depolama alanı, veri kaybı veya bilgi kaybı, veri hackleme ve diğer saldırılar gibi potansiyel tehditler nedeniyle aktif geliştirme altındadır.
 Bu makalede, popüler özelliklere sahip harika açık kaynaklı bulut depolama platformlarından bazılarını listeleyeceğiz. Güvenlik ve gizlilik nedenleriyle verilerinize özel olarak erişmek ve senkronize etmek için bu platformları kullanabilirsiniz.
@@ -28,11 +28,11 @@ Bu makalede, popüler özelliklere sahip harika açık kaynaklı bulut depolama 
 
 ## 1. Owncloud - Dropbox Değiştirme
 [OwnCloud][1], bulut tabanlı işbirliği platformları için en iyi ücretsiz bulut depolama ve açık kaynak pazar lideri yazılımdır. Owncloud'un dünya çapında 50 milyon kullanıcısı var. Owncloud veri depolama, bulut dosya paylaşımını yönetmek, takviminizi yönetmek, listeleri, bir belge düzenleme aracı, klasör paylaşımı ve daha fazlasını yapmak için başka üretken özelliklerle birlikte gelir. OwnCloud, yalnızca kendi özel bulutunuzda veya sunucunuzda barındırılır. OwnCloud, gizlilik sağlar ve dosyalarınızı korumak için çalışır. OwnCloud Dosya İşbirliği indirme ve yükleme, verilerinizin kontrolünüz altında olduğundan emin olabilirsiniz.
-Windows, MacOS, Linux, iOS, Android ve [** sunucu yazılımı için Web yükleyicisi kullanılarak yüklenir. **][2]
+Windows, MacOS, Linux, iOS, Android ve [**sunucu yazılımı için Web yükleyicisi kullanılarak yüklenir.** ][2]
 
 ## 2. NextCloud - Özel Bulut Yazılımı
 [NextCloud][3] Linux tabanlı sistemler için açık kaynak ve en iyi bulut depolama çözümüdür. Diğer kişisel bulut sunucu yazılımlarından çok kararlıdır. NextCloud, piyasada dosya paylaşımı için en popüler açık kaynak bulut bilişim platformudur. Dosya, takvimler, e -posta kişileri vb. Paylaşmanıza izin vererek dosyaların işbirliği ve veri senkronizasyonunu çok kolay sağlar. NextCloud Açık Kaynak Bulut Yazılımı bir güvenlik ilk çözümdür ve yalnızca genel bulut gizlilik sorunlarını değil, aynı zamanda özel ve hibrit bulutu da içerir. NextCloud, HIPAA ve GDPR gibi veri uyumluluğunu zorlar.
-Sanal veri odası, endüstrinin en iyi güvenlik, kendi kendine barındırma gibi bazı benzersiz özelliklere sahiptir. Açık Kaynak NextCloud Dosya Senkronizasyonu ve Kullanımı Kolay ve Oldukça Güvenli Olmak İçin Tasarlanan Çözüm. Dosya yükleme için şifre korumalı dosya paylaşımı ve genel bağlantılar sağlar. NextCloud dosyaları, kullanıcıların dosya değişikliklerini, paylaşımların indirilmelerini ve e -posta bildirimleri aracılığıyla yorumlardaki değişiklikleri izlemelerini sağlar. [** Herhangi bir Linux paylaşılan sunucuya veya kendi sunucusuna yükleyebilirsiniz. **][4]
+Sanal veri odası, endüstrinin en iyi güvenlik, kendi kendine barındırma gibi bazı benzersiz özelliklere sahiptir. Açık Kaynak NextCloud Dosya Senkronizasyonu ve Kullanımı Kolay ve Oldukça Güvenli Olmak İçin Tasarlanan Çözüm. Dosya yükleme için şifre korumalı dosya paylaşımı ve genel bağlantılar sağlar. NextCloud dosyaları, kullanıcıların dosya değişikliklerini, paylaşımların indirilmelerini ve e -posta bildirimleri aracılığıyla yorumlardaki değişiklikleri izlemelerini sağlar. [**Herhangi bir Linux paylaşılan sunucuya veya kendi sunucusuna yükleyebilirsiniz.** ][4]
 NextCloud Masaüstü ve Mobil Cihazlar için Mevcut İstemci Desteği.
 
 ## 3. Pydio Hücreleri - Modern Dosya Yönetim Platformu
@@ -49,13 +49,13 @@ Linux, Windows, Android vb.
 Nesne tabanlı, merkezi meta verileri korur, ağ dosya sistemi, yüksek performans, büyük veri depolama, kısmi veya eksiksiz okumalar ve yazmalara izin verir.
 
 ## Dikkate alınması gereken diğer bulut depolama yazılımı seçenekleri:
-  *** YouTransfer ** kendi kendine barındırılan dosya aktarımı ve paylaşım çözümüdür
-  *** senkronizasyon ** sürekli bir dosya senkronizasyon yazılımıdır
-  *** Rahat ** Esnek dosya paylaşımı ve senkronizasyon aracıdır
-  *** Xigmanas ** Açık kaynaklı güçlü ve özelleştirilebilir çözüm
-  *** Bulut Depolama Sunucusu ** Güvenli ve Genişletilebilir Depolama
+  ***YouTransfer**  kendi kendine barındırılan dosya aktarımı ve paylaşım çözümüdür
+  ***senkronizasyon**  sürekli bir dosya senkronizasyon yazılımıdır
+  ***Rahat**  Esnek dosya paylaşımı ve senkronizasyon aracıdır
+  ***Xigmanas**  Açık kaynaklı güçlü ve özelleştirilebilir çözüm
+  ***Bulut Depolama Sunucusu**  Güvenli ve Genişletilebilir Depolama
 
-## **** Son Düşünce **: ** {#4A1A}
+## ****Son Düşünce **:**    {#4A1A}
 Yukarıda belirtilen beş açık kaynak bulut dosya paylaşımı ve senkronizasyon platformları esnek çözümlerdir. Bulut bilişimde çok sayıda açık kaynaklı özel bulut depolama çözümü bulacaksınız, ancak en güvenilir olanı bulmak en önemli. Bulut yazılımının seçimine karar veren siz veya kuruluşunuzun ihtiyacısınız. Umarım bu makale güvenli ve güvenilir bir kişisel bulut sunucusu oluşturmanıza veya değerli resimlerinizi, müziklerinizi, filmlerinizi ve belgelerinizi saklamak için en iyi bulut hizmetini seçmenize yardımcı olur.
 _ En sevdiğiniz ücretsiz ve açık kaynaklı bulut depolama yazılımı çözümü nedir?. Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][8].
 

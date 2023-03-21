@@ -20,7 +20,7 @@ Este artigo está em continuação de nossa série sobre tutoriais sobre o NGINX
   * [Configure o nginx para executar versões diferentes para sites][4]
   * [Conclusão][5]
 
-## install nginx {#nginx}
+## install nginx   {#nginx}
 O nginx (pronunciado como "Engine-X") é um servidor da Web de código aberto que é frequentemente usado como proxy reverso ou cache HTTP. Está disponível para Linux gratuitamente.
 Para instalar o nginx, use o seguinte comando:
 ```
@@ -32,10 +32,10 @@ Depois que a instalação é concluída, você pode abrir "http: // localhost" n
 {{< figure align=center src="images/php-with-nginx-install.png" alt="Instale o PHP com Nginx">}}
 
 
-## Instale várias versões PHP {#php}
-** PHP ** (sigla recursiva para ** PHP: pré-processador de hipertexto **) é uma linguagem de script de uso geral e de código aberto, amplamente utilizado e mais adequado para o desenvolvimento de sites e aplicativos baseados na Web. É uma linguagem de script do lado do servidor que pode ser incorporada no HTML.
-Atualmente, existem três versões suportadas de ** php **, isto é ** php 5.6 **, ** 7.0, ** e ** 8.0 **. Significado ** Php 5.3 **, ** 5.4, ** e ** 5.5 ** Chegaram ao fim da vida; Eles não são mais suportados com atualizações de segurança. Então, vamos primeiro instalar o PHP 7.0 e o PHP 7.2 com o PHP-FPM.
-Na verdade, antes de se movermos com a instalação, permite que o PHP-FPM. ** PHP-FPM ** (um acrônimo de ** Gerenciador de processos FastCGI **) é uma implementação FastCGI de PHP alternativo extremamente popular (processador de hipertexto). O PHP-FPM inclui vários recursos que podem ser benéficos para sites que recebem tráfego em grandes volumes com frequência.
+## Instale várias versões PHP   {#php}
+**PHP  **(sigla recursiva para **  PHP: pré-processador de hipertexto** ) é uma linguagem de script de uso geral e de código aberto, amplamente utilizado e mais adequado para o desenvolvimento de sites e aplicativos baseados na Web. É uma linguagem de script do lado do servidor que pode ser incorporada no HTML.
+Atualmente, existem três versões suportadas de **php **, isto é  **php 5.6 ** ,  **7.0, **  e  **8.0 ** . Significado  **Php 5.3 ** ,  **5.4, **  e  **5.5**   Chegaram ao fim da vida; Eles não são mais suportados com atualizações de segurança. Então, vamos primeiro instalar o PHP 7.0 e o PHP 7.2 com o PHP-FPM.
+Na verdade, antes de se movermos com a instalação, permite que o PHP-FPM. **PHP-FPM  **(um acrônimo de **  Gerenciador de processos FastCGI** ) é uma implementação FastCGI de PHP alternativo extremamente popular (processador de hipertexto). O PHP-FPM inclui vários recursos que podem ser benéficos para sites que recebem tráfego em grandes volumes com frequência.
 Para instalar o PHP 7.0 e 7.2 primeiro, você precisará adicionar repositório PHP ao seu servidor para instalar várias versões do PHP. Você pode adicionar repositório Ondrej PHP com o seguinte comando:
 ```
 sudo apt-get install software-properties-common -y
@@ -52,7 +52,7 @@ systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-## Crie vários sites com php {#web}
+## Crie vários sites com php   {#web}
 A página padrão é colocada em/var/www/html/local. Você pode colocar suas páginas estáticas aqui ou usar host virtual e colocá -lo em outro local
 ```
 mkdir /var/www/html/site1.containerize.com
@@ -104,7 +104,7 @@ chown -R www-data:www-data /var/www/html/site1.containerize.com
 chown -R www-data:www-data /var/www/html/site2.containerize.com
 ```
 
-## Configure nginx {#configure}
+## Configure nginx   {#configure}
 Em seguida, você precisará criar um arquivo de host virtual nginx para o domain site1.containerize.com que usa o PHP 7.0. E outro para site2.containerize.com que usa o PHP 7.2.
 ```
 vi /etc/nginx/sites-available/site1.containerize.com.conf
@@ -168,7 +168,7 @@ systemctl restart php7.0-fpm
 systemctl restart php7.2-fpm
 ```
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Neste tutorial, exploramos como várias versões PHP no Ubuntu. Aprendemos a instalar o nginx. Em seguida, exploramos como configurar dois sites diferentes no NGINX. E, finalmente, aprendemos a configurar dois sites diferentes com versões diferentes do PHP com o NGINX. Espero que o tutorial tenha ajudado você.
 
 ## Explore

@@ -20,17 +20,17 @@ O XAMPP é um servidor da web de código aberto que fornece um ambiente local pa
   * [Run e teste PHP Script][5]
   * [Conclusão][6]
 
-## Requisitos {#ReQuirements}
+## Requisitos   {#ReQuirements}
   * Instalação Xampp
   * Aplicativo do editor de código
   * Conhecimento básico de PHP
   * Conhecimento básico de HTML e JavaScript
 
-## O que é xampp? {#xampp}
+## O que é xampp?   {#xampp}
 O XAMPP é uma pilha de soluções de servidor da web de código aberto. Ele contém Apache, MySQL, Mariadb, PHP e Perl. É extremamente fácil de instalar e usar. É por isso que é o ambiente de desenvolvimento PHP mais popular. O XAMPP Server fornece um ambiente completo para o desenvolvimento de aplicativos da Web PHP. Se você ainda não possui a instalação de trabalho XAMPP, siga este guia para instalar o XAMPP:
 [Configuração xampp e phpmyadmin como localhost no Windows][7]
 
-## Crie script php {#php}
+## Crie script php   {#php}
   * Supondo que você já tenha instalado o XAMPP seguindo o tutorial acima, agora vamos criar um script PHP simples e testá -lo no XAMPP.
   * Primeiro abra seu editor. Se você não possui um editor de programação, basta abrir o bloco de notas.
   * Digite o código seguinte
@@ -48,7 +48,7 @@ echo "This is my first PHP project";
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="Crie seu primeiro projeto PHP com o XAMPP Open Source Web Server">}}
 
 
-## Execute e teste o script php {#test}
+## Execute e teste o script php   {#test}
   * Copie este script PHP para a pasta HTDOCS dentro da instalação do XAMPP. Principalmente a pasta htdocs reside aqui: c: \ xampp \ htdocs
   * Abra seu navegador.
   * Vá para localhost/my \ _first \ _php_project.php
@@ -57,7 +57,7 @@ echo "This is my first PHP project";
 
 Parabéns! Você acabou de criar seu primeiro projeto PHP.
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Criar o primeiro projeto da web é sempre muito emocionante para um iniciante. É ótimo quando você projeta seu primeiro script dinâmico, executa -o e vê -lo funcionando no seu navegador. Espero que este guia simples tenha ajudado a criar e executar seu primeiro projeto PHP com o XAMPP Open Source Web Server.
 
 ## Explore

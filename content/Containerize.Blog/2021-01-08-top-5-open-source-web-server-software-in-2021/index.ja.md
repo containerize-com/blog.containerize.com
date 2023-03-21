@@ -24,7 +24,7 @@ Webサーバーは、オペレーティングシステムにインストール�
   * [キャディ][8]
   * [Tomcat][9]
 
-## xampp {#xampp-stands}
+## xampp   {#xampp-stands}
 XAMPPは、クロスプラットフォーム（X）、Apache（A）、Mariadb（M）、PHP（P）、およびPerl（P）を略します。無料でオープンソースのWebサーバーソフトウェアです。開発者が開発環境でWebアプリやWebサイトをテストするのに役立ちます。 XAMPPには、Apache、Perl、MySQLデータベース、PHPなど、必要なすべてのコンポーネントがあります。 PERLおよびPHPベースのWebアプリケーションに信頼できる開発環境を提供します。さらに、データベース管理にMariaDBとMySQLを提供します。主要な機能のいくつかは次のとおりです。
   * オープンソース
   *複数のインスタンス
@@ -33,7 +33,7 @@ XAMPPは、クロスプラットフォーム（X）、Apache（A）、Mariadb（
   *データベースを備えたWebサーバー
 [続きを読む][10]
 
-## nginx {#nginx}
+## nginx   {#nginx}
 Nginx Webサーバーは、WebSocket、HTTP/2、および複数のビデオ形式のストリーミングを含む、最新のWebのすべてのコンポーネントをサポートしています。それはWebサーバーとして始まりましたが、現在、電子メールの逆プロキシソフトウェア（IMAP、POP3、およびSMTP）としても機能するように開発されています。また、HTTP、TCP、およびUDPサーバーのリバースプロキシおよびロードバランサーとしても機能します。さらに、この逆プロキシソフトウェアは、Webサーバーのパフォーマンスで測定された場合、Apacheやその他のサーバーを一貫して打ち負かします。 Nginxのいくつかの重要な機能には次のものがあります。
   *モジュラーアーキテクチャ
   *バランスと断層の耐性
@@ -42,7 +42,7 @@ Nginx Webサーバーは、WebSocket、HTTP/2、および複数のビデオ形�
   * SSLおよびTLS SNIをサポートします
 [続きを読む][11]
 
-## lighttpd {#lighttpd}
+## lighttpd   {#lighttpd}
 LightTPDは、特にLinuxマシン向けに設計されたオープンソースの軽量Webサーバーソフトウェアです。多くのメモリとCPUの使用は必要ありません。これにより、スピードとハイパフォーマンスが必要なプロジェクトにとって最高の1つになります。 LightTPDは、速度やパフォーマンスの問題に苦しんでいるすべてのサーバーに最適なソリューションです。さらに、Lightweight Webサーバーは、FastCGI、SCGI、AUTH、出力圧縮、URL rewritingなどを含む高度な機能セットを提供します。PHP以外では、Python、Perl、Rubyなどを含む他のプログラミング言語もサポートしています。 LightTPDの一般的な機能は次のとおりです。
   *小さいサイズ、1MBのみ
   * FastCGI、SCGI、CGIインターフェイスのサポート
@@ -51,7 +51,7 @@ LightTPDは、特にLinuxマシン向けに設計されたオープンソース�
   *非常に最適化されたCPUおよびRAMの使用
 [続きを読む][12]
 
-## キャディ{#caddy}
+## キャディ {#caddy}
 Caddy Serverは、構成と使用が非常に簡単です。 TLS証明書の更新、OCSPステープリング、静的ファイルのサービング、逆プロキシおよびKubernetesのイングレスの世話をします。さらに、この静的ファイルサーバーは、クロスプラットフォームのオープンソースWebサーバーであり、MacO、Linux、Windowsなどのすべての主要なオペレーティングシステムで実行できます。 Caddyは、柔軟で効率的な静的ファイルWebサーバーであり、強力でスケーラブルな逆プロキシです。 Webサイトの圧縮、テンプレート評価、マークダウンレンダリングには、Caddy Serverを使用します。 Caddy Webサーバーの重要な機能を次に示します。
   * CaddyFileを使用した簡単な構成
   *アクセス、エラー、およびプロセスログ
@@ -60,7 +60,7 @@ Caddy Serverは、構成と使用が非常に簡単です。 TLS証明書の更�
   *優雅な再起動/リロード
 [続きを読む][13]
 
-## tomcat {#tomcat}
+## tomcat   {#tomcat}
 Apache Tomcatは、Javaサーブレット、Javaserverページ、Java Expression Language、およびJava Websocket Technologiesのオープンソースの実装です。さらに、最も広く使用されているアプリケーションとWebサーバーの1つです。 Tomcatサーバーは使いやすく、アドオンの堅牢なエコシステムがあります。 Apache Tomcatソフトウェアは、独自の内部Webサーバーを備えたスタンドアロン製品として、およびApache、Netscape Enterprise Server、Microsoft Personal Web Server、Microsoft Internet情報サーバーなどの他のWebサーバーとして使用できます。 Apache Tomcatのいくつかの重要な機能を次に示します。
   *軽量
   * オープンソース

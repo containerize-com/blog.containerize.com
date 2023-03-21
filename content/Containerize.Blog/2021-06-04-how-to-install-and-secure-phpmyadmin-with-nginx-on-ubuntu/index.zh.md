@@ -26,14 +26,14 @@ PHPMYADMIN是一种免费的开源数据库管理工具，可通过直觉界面�
   *固定phpmyadmin
   * 结论
 
-## 步骤1：先决条件{#id-prerquisites}
+## 步骤1：先决条件 {#id-prerquisites}
 要遵循本指南，您需要在本地计算机或具有先决条件的远程服务器上运行的Ubuntu 20.04服务器。
   *您应该以具有sudo特权并启用的UFW防火墙的非root用户访问服务器。
   *假定您已经在Ubuntu上安装了Nginx，MySQL和PHP。
   *由于PhpMyAdmin使用MySQL凭据进行身份验证，因此您还应该安装SSL/TLS证书以启用服务器和客户端之间的加密流量。
 这样一来，让我们开始开始安装并保护PhpMyAdmin，以连接到MySQL Server，以通过Web界面访问数据库。
 
-## 步骤2：安装phpmyadmin {#id-1-install-phpmyadmin}
+## 步骤2：安装phpmyadmin   {#id-1-install-phpmyadmin}
 在Ubuntu 20.04上安装PhpMyAdmin之前，请确保您已成功安装了系统上的所有先决条件。首先更新软件包列表：
 ```
 sudo apt update 
@@ -43,12 +43,12 @@ sudo apt update
 sudo apt install phpmyadmin
 
 ```
-当要求继续时，按** y **，然后**输入**。如果提示您选择Web服务器，因为没有选择** nginx **的选项，请按** tab **选择“确定”，然后**输入**在不选择Web服务器的情况下继续**。
+当要求继续时，按 **y ** ，然后**输入**。如果提示您选择Web服务器，因为没有选择 **nginx ** 的选项，请按 **tab ** 选择“确定”，然后**输入**在不选择Web服务器的情况下继续**。
 
 {{< figure align=center src="images/mysql-setup.png" alt="在Ubuntu上安装并确保nginx的phpMyAdmin 20.04">}}
 
 
-## 步骤2：配置数据库{#id-1-install-phpmyadmin}
+## 步骤2：配置数据库 {#id-1-install-phpmyadmin}
 接下来，选择**是**，然后按**输入**安装和设置数据库，并使用dbconfig-common工具：
 
 {{< figure align=center src="images/phpmyadmin-install2.png" alt="如何与phpmyadmin配置mysql">}}
@@ -57,21 +57,21 @@ PhpMyAdmin在内部使用MySQL应用程序密码与MySQL数据库进行通信。
 
 {{< figure align=center src="images/phpmyadmin-install3.png" alt="如何为phpmyadmin配置mysql">}}
 
-将提示您确认密码，输入相同的密码，选择** **，然后按** Enter **。恭喜！ PHPMYADMIN已成功安装在您的系统上。
+将提示您确认密码，输入相同的密码，选择 **** ，然后按 **Enter ** 。恭喜！ PHPMYADMIN已成功安装在您的系统上。
 
-## 步骤4：创建符号链接{#id-2-create-symbolic-link}
+## 步骤4：创建符号链接 {#id-2-create-symbolic-link}
 有几种方法如何配置NGINX来服务PhpMyAdmin文件。如果已经设置了域的服务器块以服务PHP请求，则必须从phpmyadmin nginx安装文件/usr/share/phpmyadmin到您的域文档root目录创建一个符号链接。 ubuntu 20.04/20.10中的nginx文档root的默认位置应为/var/www/html/，并且根据您的INS设置可能有所不同。您的文档根可能位于/var/www/example.com/public_html中。
 接下来，我们将创建一个符号链接，从phpmyadmin目录/usr/share/phpmyadmin到您的文档root。在这里，我们将假设我们的文档root是/var/www/html/，我们只需将phpmyadmin添加到其中即可。这将使我们能够在url example.com/phpmyadmin上访问phpmyadmin
 ```
 sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 
-## 步骤5：访问phpmyadmin {#id-3-test-phpmyadmin}
+## 步骤5：访问phpmyadmin   {#id-3-test-phpmyadmin}
 现在，您应该能够通过访问您喜欢的Web浏览器中的domain.com/phpmyadmin，然后访问服务器的主机/域名或公共IP地址，访问PhpMyAdmin Web界面。例如http://example.com/phpmyadmin或http://192.168.1.10/phpmyadmin
 {{_LINE_48_}}
 在使用MySQL 5.7运行的Ubuntu服务器上，您将无法使用MySQL默认的根帐户登录免费的PhpMyAdmin数据库，并且会遇到一个错误，例如_“访问用户'root'@local'@localhost’” _ _ _ _ _。取而代之的是，您应该为PhpMyAdmin创建一个新的Superuser帐户。接下来，我们将创建MySQL root帐户以登录phpmyadmin。
 
-## 步骤6：创建MySQL超级用户{#
+## 步骤6：创建MySQL超级用户 {#
 在终端中，首先使用您的MySQL root密码登录MySQL，当您第一次安装PhpMyAdmin MySQL数据库时，您可能已经创建了一个root密码。
 ```
 sudo mysql -u root -p
@@ -90,7 +90,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'yasiradmin'@'localhost';
 
 强烈建议您为PhpMyAdmin设置一些额外的安全性，以确保PhpMyAdmin Nginx。您应该能够更改并访问phpmyadmin URL到晦涩的URL之类的东西。
 
-## 步骤7：安全phpmyadmin {#id-6-Secure-PhpMyAdmin-Recordend}
+## 步骤7：安全phpmyadmin   {#id-6-Secure-PhpMyAdmin-Recordend}
 接下来，我们要在NGINX中设置身份验证，以提供额外的安全层。现在，我们将安装Apache2-Utils，该Utils可以生成可与Nginx和Apache2服务器一起使用的.htpasswd文件。
 ```
 sudo apt install apache2-utils
@@ -130,7 +130,7 @@ sudo service nginx reload
 
 您已经完成了Ubuntu Server上的phpmyadmin安装。
 
-## 结论：{#id-what-next}
+## 结论： {#id-what-next}
 恭喜，您已经成功安装了phpmyadmin，for Ubuntu 20.04 / 20.10服务器，现在可以通过phpmyadmin管理mysql。现在，您可以开始创建MySQL数据库，用户，表，执行MySQL查询和其他各种操作。
 如果您有疑问，请随时在评论部分告诉我。
 

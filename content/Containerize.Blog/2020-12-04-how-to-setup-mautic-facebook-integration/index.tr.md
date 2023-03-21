@@ -20,7 +20,7 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
   * [Mautic eklenti yapılandırması][3]
   * [Sonuç][4]
 
-## Facebook Geliştirici Hesabını Yapılandır {#Account}
+## Facebook Geliştirici Hesabını Yapılandır   {#Account}
   * [Geliştiriciler için Facebook][5]
   * Varsa hesabınızı kaydedin.
   * Yeni bir hesap kaydetmek için, sağ üst köşeden “Başla” yı tıklayın.
@@ -30,7 +30,7 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Facebook Entegrasyonu - Kayıt Geliştirici Hesabı">}}
 
 
-## Facebook geliştiricisinin uygulamasını yapılandırın {#App}
+## Facebook geliştiricisinin uygulamasını yapılandırın   {#App}
   * "İlk Uygulama Oluştur" u tıklayın
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Facebook Entegrasyonu - İlk Uygulamayı Oluşturun">}}
@@ -57,7 +57,7 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Facebook Entegrasyonu - Platform olarak web sitesi ekle">}}
 
 
-## Mautic eklenti yapılandırması {#configuration}
+## Mautic eklenti yapılandırması   {#configuration}
   * Mautic panosuna gidin.
   * Ardından sağ üst köşeden “Ayarlar” a geçin.
   * “Eklentiler” i tıklayın.
@@ -72,7 +72,7 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
   * Burada iletişim alanlarınızı Facebook alanlarıyla eşleştirebilirsiniz.
   * Son olarak, ayarları yayınlayın ve gitmekte fayda var.
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 MAUTIC - Facebook entegrasyonu, Facebook potansiyel müşterilerinizi zorluk çekmeden senkronize etmeye yardımcı olabilir. Mautic uygulamasında, tüm bu potansiyel müşterileri bir segmente ekleyebilirsiniz. Onlara e -posta pazarlama kampanyaları çalıştırabilirsiniz. Bu, işletmenizin çok daha büyük bir hedef kitleye ürün/hizmetleri büyütmesine, pazarlamasına ve satmasına gerçekten yardımcı olabilir.
 
 ## Keşfetmek

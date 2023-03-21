@@ -24,7 +24,7 @@ Um servidor da Web é um tipo de software instalado no sistema operacional. Com 
   * [Caddy][8]
   * [Tomcat][9]
 
-## xampp {#xampp-stands}
+## xampp   {#xampp-stands}
 XAMPP significa plataforma cruzada (x), apache (a), mariadb (m), php (p) e perl (p). É um software de servidor Web gratuito e de código aberto. Ajuda os desenvolvedores a testar seus aplicativos ou sites da Web em seu ambiente de desenvolvimento. O XAMPP possui todos os componentes necessários, incluindo Apache, PERL, bem como MySQL Database e PHP. Ele fornece um ambiente de desenvolvimento confiável para aplicativos da Web baseados em PERL e PHP. Além disso, fornece MARIADB e MYSQL para gerenciamento de banco de dados. Aqui estão alguns de seus principais recursos:
   * Código aberto
   * Várias instâncias
@@ -33,7 +33,7 @@ XAMPP significa plataforma cruzada (x), apache (a), mariadb (m), php (p) e perl 
   * Servidor web com banco de dados
 [Leia mais][10]
 
-## nginx {#nginx}
+## nginx   {#nginx}
 O NGINX Web Server suporta todos os componentes da Web moderna, incluindo WebSocket, HTTP/2 e Streaming de vários formatos de vídeo. Começou como um servidor da Web, mas agora, desenvolveu também para funcionar como um software proxy reverso para email (IMAP, POP3 e SMTP). Ele também funciona como proxy reverso e balanceador de carga para servidores HTTP, TCP e UDP. Além disso, esse software de proxy reverso supera constantemente o Apache e outros servidores, se medido no desempenho do servidor da Web. Algumas características importantes do nginx incluem:
   * Arquitetura modular
   * Balanceamento de carga e tolerância a falhas
@@ -42,7 +42,7 @@ O NGINX Web Server suporta todos os componentes da Web moderna, incluindo WebSoc
   * Suporta SSL e TLS SNI
 [Leia mais][11]
 
-## Lighttpd {#lighttpd}
+## Lighttpd   {#lighttpd}
 A LightTPD é um software de servidor Web de código aberto, projetado especialmente para máquinas Linux. Não requer muita memória e uso da CPU. O que o torna um dos melhores para qualquer projeto que precise de velocidade e alto desempenho. A LightTPD é a solução perfeita para todos os servidores que sofrem de problemas ou problemas de desempenho. Além disso, o servidor da Web leve fornece conjuntos de recursos avançados, incluindo FastCGI, SCGI, AUTH, COMPRESSÃO DE SAÍDA e URL-Rewriting, etc. Além do PHP, ele também suporta outras linguagens de programação, incluindo Python, Perl, Ruby e muito mais. Aqui estão alguns recursos populares do LightTPD:
   * Tamanho pequeno, apenas 1 MB
   * Suporte para interfaces FastCGI, SCGI, CGI
@@ -51,7 +51,7 @@ A LightTPD é um software de servidor Web de código aberto, projetado especialm
   * Uso de CPU e RAM muito otimizado
 [Leia mais][12]
 
-## caddy {#caddy}
+## caddy   {#caddy}
 O Caddy Server é extremamente fácil de configurar e usar. Ele cuida de renovações de certificados TLS, grampeamento da OCSP, porção de arquivos estáticos, além de ingressos de proxying reverso e Kubernetes. Além disso, este servidor de arquivos estático é um servidor web de código aberto entre plataformas e pode ser executado em todos os principais sistemas operacionais, incluindo macOS, Linux e Windows. O Caddy é um servidor Web de arquivo estático flexível e eficiente, bem como um proxy reverso poderoso e escalável. Use o servidor Caddy para compactação, avaliação de modelos e renderização de marcas de seus sites. Aqui estão alguns recursos importantes do servidor da Web Caddy:
   * Configuração fácil com o caddyfile
   * Acesso, erro e logs de processo
@@ -60,7 +60,7 @@ O Caddy Server é extremamente fácil de configurar e usar. Ele cuida de renova�
   * Reiniciar/recarregar gracioso
 [Leia mais][13]
 
-## tomcat {#tomcat}
+## tomcat   {#tomcat}
 O Apache Tomcat é uma implementação de código aberto do Java Servlet, JavaServer Pages, Java Expression Language e Java WebSocket Technologies. Além disso, é um dos aplicativos e servidores da Web mais amplamente utilizados. O servidor Tomcat é simples de usar e possui um ecossistema robusto de complementos. O software Apache Tomcat pode ser usado como um produto independente com seu próprio servidor web interno, bem como com outros servidores da Web, como Apache, Netscape Enterprise Server, Microsoft Personal Web Server e Microsoft Internet Information Server. Aqui estão alguns recursos importantes do Apache Tomcat:
   * Leve
   * Código aberto

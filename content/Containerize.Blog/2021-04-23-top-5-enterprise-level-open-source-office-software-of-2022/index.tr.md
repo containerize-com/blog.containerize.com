@@ -24,16 +24,16 @@ Ayrıca, yöneticiler ekip arkadaşlarıyla verimli bir şekilde işbirliği yap
   * [Calligra][5]
   * [Sonuç][6]
 
-## Apache OpenOffice {#openOffice}
+## Apache OpenOffice   {#openOffice}
 Apache OpenOffice Projesi (AOO), açık standartlara dayalı tam özellikli bir açık kaynak ofis yazılımı sağlar. OpenOffice.org projesinin devamıdır. Bu ücretsiz ofis yazılımı ücretsiz Microsoft Office alternatiflerinden biridir. Aynı zamanda açık kaynaklı dünyadaki en popüler serbest ofis süitlerinden biridir. İster metin belgeleri, elektronik tablolar veya sunumlarla çalışmak isteyin. Microsoft Office'in sağladığı özelliklerin çoğu için bir nakavt. Ve bu% 100 ücretsiz. Ve bu Microsoft Office alternatifi sadece ücretsiz ve açık kaynaklı bir ofis paketi değil, aynı zamanda sadece Windows'ta değil tüm platformlarda (Linux, Mac) çalışır.
 Apache Open Office C ++ programlama dilinde geliştirilmiştir ve geliştirici belgeleri ile birlikte tüm kaynak kodu [GitHub][7] 'de mevcuttur.
 
-## libreOffice {#LibreOffice}
+## libreOffice   {#LibreOffice}
 LibreOffice, Copyleft lisanslarına dayanan ve çoğu belge formatı ve standartlarıyla uyumlu entegre bir açık kaynak ve ücretsiz ofis yazılımıdır. Bu, en iyi ücretsiz ofis verimlilik araçları arasındadır.
 Bu açık kaynaklı ofis yazılımı, büyük bir bağımsız işletme, geliştiriciler ve piyasaya en iyi ücretsiz ofis yazılımı getirme amacıyla taşınan diğer gönüllüler topluluğunu temsil eden Belge Vakfı tarafından desteklenmektedir.
 LibreOffice açık kaynaktır ve indirmek, kullanmak ve dağıtmak için ücretsizdir. C ++ programlama dilinde geliştirilmiştir ve kaynak kodunu [GitHub][8] adresinden inceleyebilirsiniz.
 
-## NeoOffice {#neoOffice}
+## NeoOffice   {#neoOffice}
 NeoOffice, macOS için% 100 ücretsiz ve açık kaynaklı ve ücretsiz ofis yazılımıdır. Bu harika bir Microsoft Office alternatifi. Microsoft yazılımından geçmeye çalışıyorsanız, ancak bu durumda% 100 ücretsiz olan biraz daha ucuz bir şey varsa, NeoOffice sizin için mükemmel bir seçimdir.
 NeoOffice, LibreOffice ve OpenOffice'e dayanmaktadır, bu nedenle, verilerinize erişimi sonsuza dek garanti eden tamamen açık ve ISO standartlaştırılmış bir dosya biçimi olan OpenDocument formatını (ODF) kullanır. Mac kullanıcısıysanız ve macOS için ücretsiz bir Microsoft Office alternatifi arıyorsanız. O zaman, NeoOffice sizin için çok iyi bir seçim.
 İşte neoOffice'in bazı özellikleri
@@ -42,7 +42,7 @@ NeoOffice, LibreOffice ve OpenOffice'e dayanmaktadır, bu nedenle, verilerinize 
   * Mac hizmetleri için destek
   * Ağ dosyalarını güvenli bir şekilde düzenlemek için yerel dosya kilitleme
 
-## freeOffice {#freeOffice}
+## freeOffice   {#freeOffice}
 FreeOffice, tam özellikli ücretsiz bir ofis paketi ve Softmaker Office'in ücretsiz versiyonudur. Bu açık kaynaklı ofis yazılımı en iyi ücretsiz ofis verimlilik araçlarından biridir. Bu açık kaynaklı ofis paketi, herhangi bir ofis verimliliği yazılımı için gereken üç ana uygulamayı içerir.
 Textmaker, Microsoft Word'e ücretsiz bir alternatiftir, Planmaker Microsoft Excel'e ücretsiz bir alternatiftir ve sunumlar Microsoft PowerPoint'e ücretsiz bir alternatiftir.
 FreeOffice'in bazı önemli noktaları
@@ -51,7 +51,7 @@ FreeOffice'in bazı önemli noktaları
   * Bu sizin seçiminiz: kurdeleler veya klasik menüler
   * Dokunmatik ekranlar için optimize edilmiş
 
-## calligra {#calligra}
+## calligra   {#calligra}
 Calligra Suite, KDE tarafından geliştirilen açık kaynaklı ve açık kaynaklı bir ofis yazılımıdır. Ortak bir tabanla birbirine bağlı ofis verimliliği yazılımı koleksiyonudur. Bu, tüm ofis uygulamalarının birlikte çalışabileceğini ve aynı zamanda ortak bir görünüm ve hissi paylaşmasını sağlar. Tüm önemli platformlar için mevcut iyi açık kaynaklı ofis alternatiflerinden biridir. Vektör çizimi ve veritabanı uygulamaları ile birlikte gelir.
 Piyasada Apache OpenOffice, LibreOffice gibi birçok açık kaynaklı ofis alternatif yazılımı var, ancak Calligra Suite ek vektör çizim ve görsel veritabanı uygulaması oluşturucu yazılımı ile birlikte geliyor.
 Calligra'nın en iyi özelliklerinden bazıları
@@ -65,7 +65,7 @@ Calligra'nın en iyi özelliklerinden bazıları
   * Hareketli Dockers
   * Microsoft Office Dosyası İçe Aktar
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu bizi bu blog yazısının sonuna getiriyor. Yukarıda listelenen yazılım, mevcut noktadaki en iyi ücretsiz ve açık kaynak ofis yazılımıdır. Ayrıca, bu açık kaynaklı ücretsiz ofis süitleri, işletmenin ofis verimlilik ihtiyaçlarını karşılamasına yardımcı olur. En iyi 5 ofis verimlilik aracından geçtik ve işte verimliliği nasıl artıracağınız konusundaki sorunuzun cevapları bu mu? Umarım, bu blog yazısı, işletmeniz için ücretsiz ofis yazılımı yüklemek istiyorsanız doğru seçimi yapmanıza yardımcı olacaktır. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen daha açık kaynak ofis yazılımı ve ilgili makaleleri bulabilirsiniz.
 Son olarak, [Containerize.com][9] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Office Verimlilik Yazılımı][10] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 

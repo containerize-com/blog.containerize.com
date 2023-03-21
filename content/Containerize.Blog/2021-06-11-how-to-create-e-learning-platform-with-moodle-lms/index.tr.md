@@ -13,29 +13,29 @@ categories: ['Learning Management System']
 
 {{< figure align=center src="images/moodle-banner.png" alt="Moodle LMS">}}
 
-Bir yıldan fazla bir süredir Covid 19 tarafından etkilendik. Dünyanın her kısmı kilitlenmiştir. Tüm dünyadaki insanların yaşamları ve işletmeleri üzerinde olumsuz bir etkisi vardır. Daha da önemlisi, eğitim sistemimiz üzerinde büyük bir etkisi vardır. Eğitim kurumları, öğrencilerin eğitimlerine kendi evlerinin rahatlığında devam edebilmeleri için çevrimiçi öğrenmeye geçiş yapmak zorundadır. Sağlam ve güvenli bir e-öğrenme platformu olmadan, çevrimiçi öğrenme imkansızdır. Bu makalede, öğretmenlerin ve öğrencilerin her yerden iletişim kurmalarını ve öğrenmelerini sağlayan ** Moodle Açık Kaynak ** projesine bakacağız.
-Moodle kullanarak ** e-öğrenme web sitesi ** oluşturmak için bu makaledeki aşağıdaki bölümleri ele alacağız.
+Bir yıldan fazla bir süredir Covid 19 tarafından etkilendik. Dünyanın her kısmı kilitlenmiştir. Tüm dünyadaki insanların yaşamları ve işletmeleri üzerinde olumsuz bir etkisi vardır. Daha da önemlisi, eğitim sistemimiz üzerinde büyük bir etkisi vardır. Eğitim kurumları, öğrencilerin eğitimlerine kendi evlerinin rahatlığında devam edebilmeleri için çevrimiçi öğrenmeye geçiş yapmak zorundadır. Sağlam ve güvenli bir e-öğrenme platformu olmadan, çevrimiçi öğrenme imkansızdır. Bu makalede, öğretmenlerin ve öğrencilerin her yerden iletişim kurmalarını ve öğrenmelerini sağlayan **Moodle Açık Kaynak**  projesine bakacağız.
+Moodle kullanarak **e-öğrenme web sitesi**  oluşturmak için bu makaledeki aşağıdaki bölümleri ele alacağız.
   * [Önkoşul][1]
   * [Moodle nedir?][2]
   * [Moodle'ın özellikleri][3]
   * [Moodle kurulumu][4]
   * [Sonuç][5]
 
-## Önkoşullar {#prerequisites}
+## Önkoşullar   {#prerequisites}
 Henüz yapmadıysanız, sunucunuza lamba ortamını yüklemeniz ve yapılandırmanız gerekir.
 
-## Moodle nedir? {#Ne}
-[** Moodle **][6] ücretsiz ve açık kaynaklı bir e-öğrenme çözümüdür. Moodle, modüler nesne odaklı dinamik öğrenme ortamını temsil eder. Eğitimcilere, yöneticilere ve öğrencilere kişiselleştirilmiş öğrenme ortamları oluşturmak ve sunmak için bir e-öğrenme platformu vermek için oluşturuldu. Ayrıca, Moodle okullar için uygun bir ** lms, üniversiteler ve şirketlerde profesyonel eğitim kurslarıdır. Bir LMS web sitesi oluşturmak için popüler ** uzaktan eğitim ** çözümlerinden biridir. Buna ek olarak, Moodle öğretmenlere ve öğrencilere zengin araçlar ve işbirlikçi öğrenme ortamları sağlar. Moodle, iPhone, Android ve Windows telefonları ve tabletler için bir mobil uygulamaya sahiptir. Mobil uygulama dünyanın herhangi bir yerinden kullanılabilir. Bu ** kendi kendine barındırılan LMS ** PHP'de yazılır ve MySQL/PostgreSQL veritabanlarında verileri depolar. Kapsamlı kullanıcı ve geliştirici belgeleri ile birlikte gelir. Tüm kaynak kodu [** github **][7] adresinde mevcuttur. Bu açık kaynak ** e-öğrenme çözümü ** için lisans GPLV3 +'dır.
+## Moodle nedir?   {#Ne}
+[**Moodle **][6] ücretsiz ve açık kaynaklı bir e-öğrenme çözümüdür. Moodle, modüler nesne odaklı dinamik öğrenme ortamını temsil eder. Eğitimcilere, yöneticilere ve öğrencilere kişiselleştirilmiş öğrenme ortamları oluşturmak ve sunmak için bir e-öğrenme platformu vermek için oluşturuldu. Ayrıca, Moodle okullar için uygun bir  **lms, üniversiteler ve şirketlerde profesyonel eğitim kurslarıdır. Bir LMS web sitesi oluşturmak için popüler **  uzaktan eğitim  **çözümlerinden biridir. Buna ek olarak, Moodle öğretmenlere ve öğrencilere zengin araçlar ve işbirlikçi öğrenme ortamları sağlar. Moodle, iPhone, Android ve Windows telefonları ve tabletler için bir mobil uygulamaya sahiptir. Mobil uygulama dünyanın herhangi bir yerinden kullanılabilir. Bu **  kendi kendine barındırılan LMS  **PHP'de yazılır ve MySQL/PostgreSQL veritabanlarında verileri depolar. Kapsamlı kullanıcı ve geliştirici belgeleri ile birlikte gelir. Tüm kaynak kodu [**  github **][7] adresinde mevcuttur. Bu açık kaynak  **e-öğrenme çözümü**   için lisans GPLV3 +'dır.
 
-## Moodle özellikleri {#features}
+## Moodle özellikleri   {#features}
 Moodle birçok özellik ile geliyor. Ancak, bu makalede, aşağıdaki temel özelliklerden bazılarını gözden geçireceğiz.
-** İşbirlikçi Araçlar ve Etkinlikler **: Forumlar, Wikiler, Sözlükler, Veritabanı etkinlikleri ve diğer araçlar, kullanıcıların birlikte çalışmasına ve birlikte öğrenmelerine olanak tanır. Moodle kursundaki bir grup unsur bir etkinlik olarak adlandırılır. Etkinlik tipik olarak bir öğrencinin yaptığı diğer öğrencilerle ve/veya öğretmenle etkileşime girdiği bir şeydir.
-** İlerleme İlerleme **: Eğitimciler ve öğrenciler, belirli etkinlikleri veya materyalleri izlemek için çeşitli araçlar kullanarak ilerlemelerini ve tamamlanmalarını takip edebilirler. Moodle'da öğrenci ilerlemesini izlemenin notlar, yetkinlikler, etkinlik tamamlama, dersin tamamlanması, rozetler, kurs raporları ve analitik gibi birkaç yolu vardır.
-** Eklentiler Yönetimi **: Eklentiler, yeni özellikler ekleyerek Moodle’ın temel işlevselliğini genişletmenizi sağlar. Kullanıcılar, ek etkinlikler, yeni sınav soru türleri, yeni raporlar, sistem konektörleri ve daha fazlası gibi çeşitli görevler için eklentiler ekleyebilir. Eklentileri yüklemek ve devre dışı bırakmak için bir yönetici arayüzü kullanılabilir.
-** Kurs Yönetimi **: Çeşitli ihtiyaçları karşılayan kurslar oluşturun ve yönetin. Eğitmen liderliğindeki sınıflar, kendi kendine tempolu sınıflar, harmanlanmış sınıflar ve tamamen çevrimiçi sınıflar seçeneklerdir.
-** Akran ve Öz Değerlendirme **: Çalıştaylar ve anketler, öğrencileri grup olarak kendi ve diğer sınıf arkadaşlarının çalışmalarını görüntülemeye, sınıflandırmaya ve gözden geçirmeye teşvik eden yerleşik etkinliklerdir.
+**İşbirlikçi Araçlar ve Etkinlikler** : Forumlar, Wikiler, Sözlükler, Veritabanı etkinlikleri ve diğer araçlar, kullanıcıların birlikte çalışmasına ve birlikte öğrenmelerine olanak tanır. Moodle kursundaki bir grup unsur bir etkinlik olarak adlandırılır. Etkinlik tipik olarak bir öğrencinin yaptığı diğer öğrencilerle ve/veya öğretmenle etkileşime girdiği bir şeydir.
+**İlerleme İlerleme** : Eğitimciler ve öğrenciler, belirli etkinlikleri veya materyalleri izlemek için çeşitli araçlar kullanarak ilerlemelerini ve tamamlanmalarını takip edebilirler. Moodle'da öğrenci ilerlemesini izlemenin notlar, yetkinlikler, etkinlik tamamlama, dersin tamamlanması, rozetler, kurs raporları ve analitik gibi birkaç yolu vardır.
+**Eklentiler Yönetimi** : Eklentiler, yeni özellikler ekleyerek Moodle’ın temel işlevselliğini genişletmenizi sağlar. Kullanıcılar, ek etkinlikler, yeni sınav soru türleri, yeni raporlar, sistem konektörleri ve daha fazlası gibi çeşitli görevler için eklentiler ekleyebilir. Eklentileri yüklemek ve devre dışı bırakmak için bir yönetici arayüzü kullanılabilir.
+**Kurs Yönetimi** : Çeşitli ihtiyaçları karşılayan kurslar oluşturun ve yönetin. Eğitmen liderliğindeki sınıflar, kendi kendine tempolu sınıflar, harmanlanmış sınıflar ve tamamen çevrimiçi sınıflar seçeneklerdir.
+**Akran ve Öz Değerlendirme** : Çalıştaylar ve anketler, öğrencileri grup olarak kendi ve diğer sınıf arkadaşlarının çalışmalarını görüntülemeye, sınıflandırmaya ve gözden geçirmeye teşvik eden yerleşik etkinliklerdir.
 
-## Moodle kurulumu {#moodle}
+## Moodle kurulumu   {#moodle}
 Ubuntu 18.04'e Moodle LMS'yi kurmak için aşağıda adım adım kılavuzu izleyin.
   * İlk olarak, DirectLory indir ve indirmek için aşağıdaki komutları çalıştırın Moodle'ı indirin.
 ```
@@ -112,14 +112,14 @@ sudo systemctl restart nginx
   * Siteniz için tam site adı, site için kısa isim, front-sayfa özeti, varsayılan saat dilimleri ve reply e-posta gibi bilgi verin. "Değişiklikleri Kaydet" düğmesine tıklayın.
   * Site adı, dil, bölge, e -posta adresi vb. Gibi bilgileri sağlayarak site kaydınızı tamamlayın.
 
-## Sonuç {#Conclusion}
-Moodle ve bu makaledeki ana özelliklerini öğrendik. Ayrıca e-öğrenme web sitesi ** oluşturmak için ** Moodle LMS ** kurmak için adım adım bir yaklaşımdan geçtik **. Kurslar, öğrenci kaydı, ilerleme izleme vb. Umarım bu yazıyı bir LMS web sitesi oluşturmada yararlı bulmuşsunuzdur.
-Son olarak, [** Containerize.com **][9], daha sonraki açık kaynaklı ürünlere blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** Öğrenme Yönetim Sistemi **][10] kategorisiyle iletişim halinde olun.
+## Sonuç   {#Conclusion}
+Moodle ve bu makaledeki ana özelliklerini öğrendik. Ayrıca e-öğrenme web sitesi **oluşturmak için  **Moodle LMS **  kurmak için adım adım bir yaklaşımdan geçtik** . Kurslar, öğrenci kaydı, ilerleme izleme vb. Umarım bu yazıyı bir LMS web sitesi oluşturmada yararlı bulmuşsunuzdur.
+Son olarak, [**Containerize.com **][9], daha sonraki açık kaynaklı ürünlere blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [ **Öğrenme Yönetim Sistemi**  ][10] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** Açık kaynaklı LMS araçları **][11]
-  *[** Moodle-E-öğrenme sistemi **][12]
+  *[**Açık kaynaklı LMS araçları** ][11]
+  *[**Moodle-E-öğrenme sistemi** ][12]
 
   
 [1]: #Prerequisites

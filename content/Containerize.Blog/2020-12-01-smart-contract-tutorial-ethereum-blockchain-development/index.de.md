@@ -17,16 +17,16 @@ categories: ['Blockchain Platforms']
 ## Überblick
 In der jüngeren Vergangenheit haben wir einen [Blog -Beitrag][1] veröffentlicht, der die Auswirkungen und Bedeutung der Blockchain -Technologie hervorhebt. Es gibt noch einen interessanten Blog -Beitrag [Was ist NFT? | Nicht fungible Token erklärten][2]. Die verteilte Ledger-Technologie basiert auf einigen Kernkonzepten wie intelligenten Verträgen, Knoten, Bergbau, Konsensalgorithmen, digitalen Transaktionen und Peer-to-Peer-Netzwerken. Da es sich um Open Source handelt, gibt es daher ein großes Fenster für eine Erweiterung in Bezug auf Anwendungsfälle. Tatsächlich gibt es viele Open Source- und Free Digital Asset Management -Plattformen, die verteilt sind und einige Software benötigen, um die Transaktionen zu regeln.
 In diesem Smart Contract -Tutorial lernen wir, wie Sie einen Ethereum -Smart -Vertrag erstellen, indem wir die folgenden Aufzählungszeichen abdecken.
-  *[** Was ist ein intelligenter Vertrag? **][3]
-  *[** Wie erbaut man einen grundlegenden intelligenten Vertrag? **][4]
-  *[** Wie man Smart Contract ausführt und bereitstellt? **][5]
-  *[** Schlussfolgerung **][6]
+  *[**Was ist ein intelligenter Vertrag?** ][3]
+  *[**Wie erbaut man einen grundlegenden intelligenten Vertrag?** ][4]
+  *[**Wie man Smart Contract ausführt und bereitstellt?** ][5]
+  *[**Schlussfolgerung** ][6]
 
-## Was ist ein intelligenter Vertrag? {#Was}
+## Was ist ein intelligenter Vertrag?   {#Was}
 Ein intelligenter Vertrag ist ein Programm, das auf der Blockchain ausführt, um digitale Transaktionen zu regeln. Dieser Code enthält die definierten Regeln und Verfahren, die sicherstellen, dass die Transparenz einer Transaktion. Jeder Smart -Vertrag enthält eine Adresse und diese Adresse wird verwendet, um auf eine Funktion eines bestimmten Smart -Vertrags zuzugreifen. Darüber hinaus bringen Smart Contracts Transparenz, Vertrauen und Sicherheit in das Blockchain -Netzwerk. Diese Code -Teile werden automatisch ausgeführt, sobald bestimmte Bedingungen erfüllt sind.
 Jeder Entwickler kann jedoch einen intelligenten Vertrag schreiben und ihn über das Netzwerk bereitstellen. Darüber hinaus machen intelligente Verträge die Prozesse ziemlich robust, da die Ausführung dieser Codesteile nicht abhängig ist. Darüber hinaus speichern Smart Contracts die erforderlichen Informationen zu jeder Transaktion, die die Teilnehmer abrufen und überprüfen können. Viele Branchen wie das Gesundheitswesen und das Bankgeschäft übernehmen diese verteilte Hauptbuchentechnologie sehr. Regierungsinstitutionen möchten auch dezentrale Anwendungen (DApps) einsetzen, um Authentizität und Transparenz in das Wahlsystem zu bringen. Es gibt viele [Blockchain -Plattformen][7] wie [Ethereum][8], [Ripple][9], [Corda][10], und einige weitere in diesem Leitfaden werden wir unseren ersten intelligenten Vertrag aufbauen auf Ethereum.
 
-## Wie baue ich einen grundlegenden intelligenten Vertrag auf? {#bauen}
+## Wie baue ich einen grundlegenden intelligenten Vertrag auf?   {#bauen}
 In diesem Abschnitt des Smart Contract -Tutorials werden wir die Schritte zur Einrichtung der Umgebung für unseren ersten Smart -Vertrag sehen.
 Smart Contracts können in vielen Sprachen geschrieben werden, aber wir werden [Solidität][11] verwenden, was eine hochrangige Sprache ist, um intelligente Verträge zu schreiben.
 Wir werden [Ethereum Studio][12] eine webbasierte IDE verwenden. Es wird verwendet, um Smart Contracts sowie dezentrale Apps zu schreiben, um mit intelligenten Verträgen zu interagieren. Es bietet einige vorgefertigte Projektvorlagen, bei denen Sie sofort mit dem Schreiben Ihrer Logik beginnen können.
@@ -40,13 +40,13 @@ Wählen wir "Hello World" -Option und erstellen Sie unser erstes Projekt. Sie k�
 
 Es gibt zwei Ordner "App" und "Verträge".
 Der App -Ordner gehört zur Web -App und enthält die folgenden Dateien.
-  *** app.css **: Zum Layout -Styling
-  *** app.html **: Für die Homepage
-  *** app.js **: Enthält die Geschäftslogik, um das Frontend mit dem Smart -Vertrag zu verbinden
+  ***app.css** : Zum Layout -Styling
+  ***app.html** : Für die Homepage
+  ***app.js** : Enthält die Geschäftslogik, um das Frontend mit dem Smart -Vertrag zu verbinden
 In ähnlicher Weise enthält der Ordner Contracts die Quelldatei des Vertrags.
 Öffnen wir nun die Datei helloWorld.sol, die bei Dateien/Verträgen/helloWorld.sol gefunden werden kann. Grundsätzlich ist dies die Hauptdatei, die den Code für den in Solidität geschriebenen Smart -Vertrag enthält. Sie können den Code ändern, wenn Sie möchten, wir werden ihn so lassen, wie er ist.
 
-## Wie reite und bereitet man einen intelligenten Vertrag aus? {#einsetzen}
+## Wie reite und bereitet man einen intelligenten Vertrag aus?   {#einsetzen}
 In diesem Abschnitt des Smart Contract -Tutorials werden wir sehen, wie Sie einen Smart -Vertrag ausführen und bereitstellen. Ethereum Studio erstellt den Soliditätscode in Byte -Code. Speichern Sie daher den Code und setzen Sie unseren ersten intelligenten Vertrag bereit.
 Drücken Sie auf der linken Seitenplatte das Raketensymbol.
 
@@ -69,7 +69,7 @@ Darüber hinaus gibt es eine Front-End-App, mit der Benutzer mit dem Smart-Vertr
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-6.02.38-PM-746x1024.png" alt="Was ist ein intelligenter Vertrag">}}
 
 
-## Fazit {#con}
+## Fazit   {#con}
 Dies bringt uns zum Ende dieses Smart Contract -Tutorials. Ich hoffe, dieser Artikel hat Ihnen geholfen, die wichtigsten Schritte beim Erstellen und Bereitstellen von Ethereum -Smart -Vertrag zu verstehen. Da sich die Blockchain-Technologie in hohem Maße weiterentwickelt, ist es Zeit, über das Echo-Blockchain-System stark praktische Praxis zu erhalten. Diese verteilte Ledger -Technologie ist sehr konfigurierbar und erweiterbar. Dieser Blog -Beitrag hilft Ihnen wirklich, wenn Sie bereit sind, intelligente Vertragsentwicklung zu lernen. Darüber hinaus gibt es viele hilfreiche Tutorials und Open Source Digital Asset Management -Management -Plattformen, die im folgenden Abschnitt „Explore“ erwähnt wurden.
 Am Ende ist [containerize.com][13] vollständig dafür eingesetzt, die Liste der Open -Source -Software zu erstellen. Es gibt viele Tutorials und Blog -Beiträge zu Open -Source -Software und eine Reihe von Blog -Posts befinden sich in der Pipeline. Bitte bleiben Sie mit der Kategorie [Blockchain][7] in Kontakt mit der Kategorie [Blockchain].
 

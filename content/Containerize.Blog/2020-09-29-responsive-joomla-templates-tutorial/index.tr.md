@@ -15,26 +15,26 @@ categories: ['Content Management']
 
 
 ## Genel Bakış
-İyi tasarlanmış bir işletme web sitesi, ziyaretçileri navigasyon kolaylığı sağlayarak getirmek ve elde tutmak için hayati bir rol oynar. ** Tam özellikli Joomla ** Kullanıcılarını bir iş web sitesinin estetiğini kontrol eden bir dizi duyarlı düzen ve Joomla şablonu geliştirme ile kolaylaştırır.
+İyi tasarlanmış bir işletme web sitesi, ziyaretçileri navigasyon kolaylığı sağlayarak getirmek ve elde tutmak için hayati bir rol oynar. **Tam özellikli Joomla**  Kullanıcılarını bir iş web sitesinin estetiğini kontrol eden bir dizi duyarlı düzen ve Joomla şablonu geliştirme ile kolaylaştırır.
 Geliştirme aşaması sırasında, tasarım öğelerinin yerleştirilmesi çok kritiktir:
   * Tutarlılık
   * Kolay Gezinme
   * Basitlik
   * Mobil uyumluluk
   * Okunabilirlik
-İşte ** Joomla şablonları ** geliyor. Bu açık kaynaklı yazılım, her sayfa için ayrı ayrı kod yazmak yerine tüm web sayfaları için önceden tanımlanmış duyarlı düzenler geliştirme veya kullanma hükümleri sunar.
-Bu blog yazısında, Joomla'da ** Kullanıcı Dostu Şablon ** nasıl oluşturulacağı ve kurulacağı hakkında aşağıdaki şeyleri öğreneceğiz.
-  *[** Joomla düzenleri nelerdir? **][2]
-  *[** Joomla'da basit bir duyarlı şablon nasıl oluşturulur? **][3]
-  *[** Joomla şablonu nasıl kurulur? **][4]
-  *[** Sonuç **][5]
+İşte **Joomla şablonları**  geliyor. Bu açık kaynaklı yazılım, her sayfa için ayrı ayrı kod yazmak yerine tüm web sayfaları için önceden tanımlanmış duyarlı düzenler geliştirme veya kullanma hükümleri sunar.
+Bu blog yazısında, Joomla'da **Kullanıcı Dostu Şablon**  nasıl oluşturulacağı ve kurulacağı hakkında aşağıdaki şeyleri öğreneceğiz.
+  *[**Joomla düzenleri nelerdir?** ][2]
+  *[**Joomla'da basit bir duyarlı şablon nasıl oluşturulur?** ][3]
+  *[**Joomla şablonu nasıl kurulur?** ][4]
+  *[**Sonuç** ][5]
 
-## Joomla düzenleri nelerdir? {#Ne}
-Joomla, ön uç ve arka uç için şablonlar sağlar. Birçok hazır yapılmış şablonla birlikte gelir ve geliştiricilere kullanım durumlarına göre ** ücretsiz duyarlı bootstrap temaları ** oluşturmak için sunar. Joomla'da iki tür şablon vardır.
-** Ön uç şablonları: ** Bir işletme web sitesinin bir kısmına bakan kullanıcı ile ilgilidir.
-** Arka uç şablonları: ** Bu şablonlar bir sitenin iş mantığı ile bağlantılıdır.
+## Joomla düzenleri nelerdir?   {#Ne}
+Joomla, ön uç ve arka uç için şablonlar sağlar. Birçok hazır yapılmış şablonla birlikte gelir ve geliştiricilere kullanım durumlarına göre **ücretsiz duyarlı bootstrap temaları**  oluşturmak için sunar. Joomla'da iki tür şablon vardır.
+**Ön uç şablonları:**  Bir işletme web sitesinin bir kısmına bakan kullanıcı ile ilgilidir.
+**Arka uç şablonları:**  Bu şablonlar bir sitenin iş mantığı ile bağlantılıdır.
 
-## Joomla'da basit bir duyarlı şablon nasıl oluşturulur? {#Nasıl}
+## Joomla'da basit bir duyarlı şablon nasıl oluşturulur?   {#Nasıl}
 Bu bölümde, bu Joomla şablon öğreticisinin adımlarını ele alacağız.
 Bu bölüme atlamadan önce, aşağıdakileri anladığınızdan emin olun:
   * Html
@@ -43,16 +43,16 @@ Bu bölüme atlamadan önce, aşağıdakileri anladığınızdan emin olun:
   * PHP
 Bu nedenle, Joomla'da özel şablonlar oluşturmak hiç bu kadar zor ve karmaşık olmamıştı. Ancak, ilk Joomla şablonumuzu oluşturmaya başlayalım.
 
-## ** Kurulum dizin yapısı **
-Her şeyden önce, “** şablonlar **” klasöründe “** mytemplate **” adlı bir klasör oluşturun.
-“** MyTemplate **” klasöründe aşağıdaki dosyaları oluşturun:
-  *** index.php **: Bu, tüm şablon sayfaları için HTML ve PHP kodu içeren temel dosyadır.
-  *** Templatedetails.xml **: Bu dosya şablonun meta verilerini içerir ve Joomla tarafından fark edildiği için zorunludur.
-Şimdi, aşağıdaki adlarla birlikte “** MyTemplate **” klasörü içinde üç klasör oluşturun:
-  *** JS **: Bu klasör, şablon için gereken tüm JavaScript dosyalarını içerecektir.
-  *** CSS **: Stil için tüm CSS dosyaları bu klasöre gelecek
-  *** Resimler **: Şablon tarafından kullanılan resimler bu klasörde bulunacak
-“** css **” klasöründe “** template.css **” adlı bir CSS dosyası oluşturun.
+## **Kurulum dizin yapısı** 
+Her şeyden önce, “**şablonlar **” klasöründe “ **mytemplate**  ” adlı bir klasör oluşturun.
+“**MyTemplate** ” klasöründe aşağıdaki dosyaları oluşturun:
+  ***index.php** : Bu, tüm şablon sayfaları için HTML ve PHP kodu içeren temel dosyadır.
+  ***Templatedetails.xml** : Bu dosya şablonun meta verilerini içerir ve Joomla tarafından fark edildiği için zorunludur.
+Şimdi, aşağıdaki adlarla birlikte “**MyTemplate** ” klasörü içinde üç klasör oluşturun:
+  ***JS** : Bu klasör, şablon için gereken tüm JavaScript dosyalarını içerecektir.
+  ***CSS** : Stil için tüm CSS dosyaları bu klasöre gelecek
+  ***Resimler** : Şablon tarafından kullanılan resimler bu klasörde bulunacak
+“**css **” klasöründe “ **template.css**  ” adlı bir CSS dosyası oluşturun.
 ```
 * mytemplate/
 ** css/
@@ -65,7 +65,7 @@ Her şeyden önce, “** şablonlar **” klasöründe “** mytemplate **” ad
 Sonunda, dizin yapısı böyle görünecektir.
 
 ## biraz kod koyalım
-Bu kodu ** templatedetails.xml ** dosyasına koyun.
+Bu kodu **templatedetails.xml**  dosyasına koyun.
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,7 +101,7 @@ Bu kodu ** templatedetails.xml ** dosyasına koyun.
 ```
 Daha önce de belirtildiği gibi, bu dosya işaretleme etiketleri arasında tanımlanan duyarlı düzenler hakkındaki meta verileri içerir. Ancak, ad, yazar ve açıklama gibi genel bilgileri değiştirebilirsiniz.
 Bu dosya ayrıca şablon tarafından kullanılan diğer dosyalar ve klasörler hakkında bilgi içerir.
-Şimdi, ** index.php ** dosyasını açın ve aşağıdaki kodu koymaya başlayın:
+Şimdi, **index.php**  dosyasını açın ve aşağıdaki kodu koymaya başlayın:
 ```
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 ```
@@ -114,7 +114,7 @@ Bu, tarayıcıya belge türünü bildirmek içindir.
 <html xmlns="http://www.w3.org/1999/xhtml" 
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 ```
-HTML belgeleri bu satırla başlar ve ** xmlns ** özniteliği belge için XML ad alanını anlatır.
+HTML belgeleri bu satırla başlar ve **xmlns**  özniteliği belge için XML ad alanını anlatır.
 ```
 <head>
     <jdoc:include type="head" />
@@ -168,8 +168,8 @@ Vücut bölümü, baş bölümünün kullanıcının görüntülemesi ve gezinme
 ```
 <jdoc:include type="modules" name="position-7" style="well" />
 ```
-Bu ifadeye Joomla'ya “Pozisyon-7” adlı bir modül eklemesini öğretmek için kullanılan JDOC beyanı denir. ** Joomla şablonu geliştirme ** 'de sıklıkla kullanılan birkaç JDOC ifadesi vardır.
-Bu, temel bir Joomla şablonu için gerekli tüm kodlara sahip son tam ** dizin.php ** dosyasıdır.
+Bu ifadeye Joomla'ya “Pozisyon-7” adlı bir modül eklemesini öğretmek için kullanılan JDOC beyanı denir. **Joomla şablonu geliştirme**  'de sıklıkla kullanılan birkaç JDOC ifadesi vardır.
+Bu, temel bir Joomla şablonu için gerekli tüm kodlara sahip son tam **dizin.php**  dosyasıdır.
 ```
 <!DOCTYPE html>
 
@@ -220,7 +220,7 @@ Bu, temel bir Joomla şablonu için gerekli tüm kodlara sahip son tam ** dizin.
 ```
 Çok temel bir şablon için her şey yerinde. Şimdi, Joomla sunucusuna yükleme ve nasıl devam ettiğini görmenin zamanı geldi.
 
-## Joomla şablonu nasıl kurulur? {#düzenlemek}
+## Joomla şablonu nasıl kurulur?   {#düzenlemek}
 Joomla şablon kurulum işlemi oldukça düz ve kolaydır. Yüklenecek aşağıdaki adımlar vardır:
 "Uzantılar -> Yönet -> Yükle
 
@@ -237,9 +237,9 @@ Burada yeni geliştirilen Joomla şablonunuzu aşağıdaki resimde gösterildiğ
 
 Şimdi, ilk Joomla şablonunuzu tarayıcıya görüntüleyebilirsiniz!
 
-## Sonuç {#Conclusion}
-İyi ve duyarlı bir şablon, genel site modellemesinin temelidir. ** Duyarlı Düzenler ** Joomla'daki çok işlevlidir ve çeşitli projeler için kullanılabilir. Kod yazımından Joomla şablon geliştirmeye, sezgisel bir yönetici gösterge paneli yardımıyla çok basit hale gelir. Joomla, kullanıcının arzularını karşılamak için şablon geliştirme üzerinde tam kontrol sağlar.
-** CMS Software ** kategorisi tutarlı iyileştirmeler altında olduğundan ve listeye diğer içerik yönetim sistemleri hakkında daha fazla öğretici ekleneceğinden, lütfen düzenli güncellemeler için [İçerik Yönetim Sistemi][6] bölümüyle iletişime geçin.
+## Sonuç   {#Conclusion}
+İyi ve duyarlı bir şablon, genel site modellemesinin temelidir. **Duyarlı Düzenler**  Joomla'daki çok işlevlidir ve çeşitli projeler için kullanılabilir. Kod yazımından Joomla şablon geliştirmeye, sezgisel bir yönetici gösterge paneli yardımıyla çok basit hale gelir. Joomla, kullanıcının arzularını karşılamak için şablon geliştirme üzerinde tam kontrol sağlar.
+**CMS Software**  kategorisi tutarlı iyileştirmeler altında olduğundan ve listeye diğer içerik yönetim sistemleri hakkında daha fazla öğretici ekleneceğinden, lütfen düzenli güncellemeler için [İçerik Yönetim Sistemi][6] bölümüyle iletişime geçin.
 
 ## İlgili Ürün Sayfaları
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:

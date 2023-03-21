@@ -20,7 +20,7 @@ Bu makalede aşağıdaki noktaları ele alacağız:
 * [**Üretken AI nedir ve nasıl çalışır? Generatif AI açıkladı**][3]
 * [**Üretken yapay zekanın iş faydaları**][4]
 
-## Üretken AI nedir ve nasıl çalışır? Generatif AI {#What-Whaterative-Ai-How-IT-Works-Generative-ai-Au-Au-} açıkladı.
+## Üretken AI nedir ve nasıl çalışır? Generatif AI   {#What-Whaterative-Ai-How-IT-Works-Generative-ai-Au-Au-} açıkladı.
 Yapay zekanın bu dalı, mevcut verilere dayalı görüntüler, metin, ses veya video gibi içerikler üretir. “Üretken” terimi burada doğru kullanılır, çünkü sağlanan veritabanlarına dayalı yeni bir şey üretir.
 **Üretken yapay zeka**esas olarak aşağıdaki iki modele dayanmaktadır:
 **Transformer tabanlı modeller:**Bu model kullanıcının girişini alır ve İnternet kaynaklarından toplanan metin verilerini oluşturur. ChatGPT önemli bir örnektir çünkü**GPT-3**(Üretken Önceden Eğitimli Transformatör) İnternet üzerinden birden fazla kaynaktan toplanan ve derlenen metin yanıtlarını oluşturur.
@@ -31,7 +31,7 @@ Yapay zekanın bu dalı, mevcut verilere dayalı görüntüler, metin, ses veya 
 İlk olarak,**Üretken model**sahte veya gerçek olursa olsun rastgele çıkışlar üretir. Çünkü işi veri örnekleri oluşturmaktır, böylece ağır bir işlemdir ve daha fazla işlem gerektirir. İkincisi,**Ayrımcı Model**,**üretken model**tarafından üretilen çıktıyı girdi olarak alır ve gerçek ve sahte veriler arasında ayrım yapmayı öğrenir. Temel olarak gerçek veri istemlerini tanımak için ayrımcı modellemeyi eğitmektir. Bununla birlikte, jeneratör tutarlı eğitim oturumlarından sonra doğru bir şekilde farklılaşmaya başlar.
 Bu, üretken yapay zekanın çalışma mekanizmasına kısa bir genel bakıştır. Derin öğrenme ve çoklu sinir ağı katılımı nedeniyle, üretken AI sadece tahminler yapmakla kalmaz, aynı zamanda sağlanan veritabanına dayalı yeni içerikler de üretir. Dolayısıyla, tüm bu bileşenler ve algoritmalar sistemleri AI tabanlı çözümler üretme güçlendirir.
 
-## Üretken yapay zekanın iş avantajları {#nesil-nesnel-eklemsel-zeka-zeka}
+## Üretken yapay zekanın iş avantajları   {#nesil-nesnel-eklemsel-zeka-zeka}
 Blog yazısının bu bölümü, üretken yapay zekanın iş uygulamalarını gösterecektir. Hayatın hemen hemen her sektörü üretken yapay zeka kullanıyor. Aşağıdaki noktalardan geçerek daha fazla keşfedelim:
 **Metin İçerik Üretimi:**Aslında,**Üretken AI**, makale yazma ve bir dili diğerine çevirmek gibi metin verileri oluşturmak için kullanılır. Bu uygulamanın en iyi örneği, çeşitli kaynaklardan toplanan metin tabanlı yanıtları üreten**GPT-3**modelidir. Ayrıca, jeneratif AI, chatgpt gibi AI ile çalışan chatbotların oluşturulmasında yoğun bir şekilde kullanılmaktadır. Sadece insanlar gibi yanıt vermekle kalmaz, aynı zamanda kodlama dosyalarındaki programcılara da yardımcı olur. Ayrıca, üretken yapay zeka algoritmalar oluşturabilir ve eklentiler oluşturabilir.
 **Görüntü Üretimi:**Sistemler, metinsel formda verilen girdilerle bile çeşitli varlıkların görüntülerini oluşturacak kadar güçlüdür. Buna ek olarak, sağlanan eskiz temelli bir insan yüzüne gerçek bir bakış verebilir. Ayrıca, üretken bir AI modeli bir tür görüntüyü diğerine dönüştürebilir. Her şeyden önce, gerçek zamanlı MRI ve diğer görüntülemede kullanılabilir.

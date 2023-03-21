@@ -19,28 +19,28 @@ Itu berisi bagian berikut:
   * [Menerapkan 2FA di .net5][5]
 Pertama, mari kita pahami apa itu 2FA dan mengapa itu perlu menjadi bagian integral dari setiap aplikasi web modern.
 
-## Apa itu otentikasi dua faktor? {#2fa}
+## Apa itu otentikasi dua faktor?   {#2fa}
 Faktor dalam konteks ini menyiratkan cara Anda dapat meyakinkan aplikasi atau layanan bahwa Anda adalah pemilik akun. Nama pengguna/kata sandi banyak digunakan sebagai faktor otentikasi yang paling umum. Namun, karena banyak masalah keamanan yang terkait dengannya dan pelanggaran data yang luas baru-baru ini-otentikasi faktor tunggal menjadi kurang aman.
 Otentikasi dua faktor adalah lapisan keamanan tambahan, yang ikut berperan sebelum Anda dapat mengakses akun Anda. In-addition ke proses login standar-ini memperkenalkan langkah tambahan untuk memverifikasi identitas pengguna dengan mengirim kode (ke email Anda atau sebagai pesan teks). Dengan cara ini, identitas Anda terbukti dan baru kemudian akses diberikan.
 
-## Bagaimana cara kerja 2FA? {#2Fawork}
+## Bagaimana cara kerja 2FA?   {#2Fawork}
 Di 2FA, kata sandi masih merupakan faktor otentikasi pertama Anda - jadi ketika Anda masuk ke akun Anda, itu akan mengarahkan Anda ke halaman lain di mana Anda diharuskan memverifikasi kepemilikan akun. Ini dapat dilakukan dengan menggunakan berbagai cara:
   1. Aplikasi mengirimkan kode verifikasi yang sering disebut OTP (kata sandi satu kali) ke alamat email Anda.
   2. Kode dikirimkan sebagai pesan teks di ponsel Anda.
   3. Anda menginstal aplikasi Authenticator di ponsel yang dapat Anda wewenang sebagai permintaan login.
 Catatan: Kode verifikasi ini dihasilkan secara acak dan kedaluwarsa setelah digunakan. Juga, mereka berumur pendek - jadi ada jendela pendek sebelum Anda dapat menggunakan kode (ini mencegah peretas untuk memaksa kode verifikasi).
 
-## Bisakah kita menyebut 2FA sebagai otentikasi multi-faktor? {#Mfa}
+## Bisakah kita menyebut 2FA sebagai otentikasi multi-faktor?   {#Mfa}
 Metode otentikasi tidak terbatas pada dua faktor. Banyak aplikasi dan layanan menggerakkan penggunanya melampaui 2FA dan menggunakan otentikasi multi-faktor.
 2FA dan MFA (otentikasi multi-faktor) sering digunakan secara bergantian. Namun ada perbedaan. Dalam otentikasi multi-faktor, dua faktor atau lebih digunakan.
 Ini dapat memeriksa alamat IP pengguna, geo-lokasi, dan informasi perangkat yang sesuai dengan faktor-faktor lain seperti kata sandi dan OTP untuk memverifikasi identitas pengguna.
 Oleh karena itu, kita dapat mengatakan 2FA adalah subset dari MFA. Di 2FA hanya akan ada dua faktor sedangkan multi-faktor dapat memanfaatkan dua atau lebih faktor. MFA menyulitkan peretas karena menambahkan beberapa lapisan keamanan dalam proses otentikasi tradisional.
 
-## Apakah ada kelemahan menggunakan 2FA? {#mfa-cons}
+## Apakah ada kelemahan menggunakan 2FA?   {#mfa-cons}
 Mirip dengan banyak solusi 'keamanan dan privasi' yang ada di aplikasi modern. Ini juga dilengkapi dengan harga - ketidaknyamanan, karena ada langkah tambahan yang terlibat yang dapat menyebabkan gesekan dalam pengalaman pengguna.
 Namun, itu sedang diadopsi oleh banyak aplikasi dan layanan sehingga pertukaran ini menjadi dapat diterima.
 
-## Bagaimana cara menerapkan otentikasi 2FA? {#impleming2fa}
+## Bagaimana cara menerapkan otentikasi 2FA?   {#impleming2fa}
 Di bagian ini, kita akan belajar cara mengimplementasikan 2FA di .net5 menggunakan IdentityServer4 dan Twilio.
 Jadi mari kita buat akun uji coba di Twilio:
   1. Mendaftar
@@ -93,11 +93,11 @@ Sekarang tambahkan IdentityServer dalam pipa permintaan:
 ```
 app.UseIdentityServer();
 ```
-Jalankan proyek dan navigasikan ke ** _/akun/login _ **
+Jalankan proyek dan navigasikan ke **_/akun/login _** 
 
 {{< figure align=center src="images/2021-03-10-17_48_09-Window-1024x586.png" alt="IdentityServer4 - Login">}}
 
-Masuk dengan kredensial yang ditambahkan dalam ** config.cs **
+Masuk dengan kredensial yang ditambahkan dalam **config.cs** 
 Setelah IdentityServer dikonfigurasi dan dijalankan. Kami kemudian dapat menambahkan dukungan untuk 2FA menggunakan Twilio.
 Mari Tambahkan Kelas Berikut:
 ```

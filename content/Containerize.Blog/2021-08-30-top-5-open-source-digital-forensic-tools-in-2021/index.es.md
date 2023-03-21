@@ -40,7 +40,7 @@ Amnisty International ha lanzado un kit de herramientas llamado [kit de herramie
   * Generar una línea de tiempo todas detectadas trazas maliciosas.
 **Enlace**:
 
-## 2. Wireshark - Análisis de protocolo de red {#CE62}
+## 2. Wireshark - Análisis de protocolo de red   {#CE62}
 [Wireshark][2] es una herramienta que analiza un paquete de red. Se puede usar para las pruebas de red y la resolución de problemas. Esta herramienta le ayuda a verificar diferentes tráficos que atraviesan su sistema informático.
 **Características**:
   * Proporciona análisis de VoIP (de voz sobre el protocolo de Internet) rico.
@@ -50,9 +50,9 @@ Amnisty International ha lanzado un kit de herramientas llamado [kit de herramie
   * Soporte de descifrado para numerosos protocolos que incluyen iPsec (seguridad de protocolo de Internet), SSL (capa de enchufes seguros) y WEP (privacidad equivalente con cable).
   * Puede aplicar análisis intuitivos, reglas de coloración al paquete.
   * Le permite leer o escribir archivos en cualquier formato.
-** Enlace **: [https://www.wireshark.org][2]
+**Enlace** : [https://www.wireshark.org][2]
 
-## 3. El kit de detectives y la autopsia - Análisis de disco {#CE62}
+## 3. El kit de detectives y la autopsia - Análisis de disco   {#CE62}
 [Kit y autopsia de detectives][3] es una herramienta de utilidad basada en Windows que facilita el análisis forense de los sistemas informáticos. Esta herramienta le permite examinar su disco duro y su teléfono inteligente.
 **Características**:
   * Puede identificar la actividad utilizando una interfaz gráfica de manera efectiva.
@@ -62,18 +62,18 @@ Amnisty International ha lanzado un kit de herramientas llamado [kit de herramie
   * Puede etiquetar archivos con los nombres de etiquetas arbitrarios.
   * El kit de detective le permite extraer datos de registros de llamadas, SMS, contactos, etc.
   * Le ayuda a marcar archivos y carpetas según la ruta y el nombre.
-** Enlace **: [https://www.sleuthkit.org][3]
+**Enlace** : [https://www.sleuthkit.org][3]
 
-## 4. Marco de volatilidad - Memory Forensics {#CE62}
+## 4. Marco de volatilidad - Memory Forensics   {#CE62}
 [Marco de volatilidad][4] es un software para el análisis de memoria y los forenses. Es una de las mejores herramientas de imágenes forenses que le ayuda a probar el estado de tiempo de ejecución de un sistema utilizando los datos que se encuentran en la RAM. Esta aplicación le permite colaborar con sus compañeros de equipo.
 **Características**:
   * Tiene una API que le permite buscar las marcas PTE (entrada de la tabla de página) rápidamente.
   * El marco de la volatilidad admite KASLR (aleatorización del diseño del espacio de direcciones del kernel).
   * Esta herramienta proporciona numerosos complementos para verificar la operación del archivo Mac.
   * Se ejecuta automáticamente el comando de falla cuando un servicio no se inicia varias veces.
-** Enlace **: [https://www.volatilityfoundation.org][4]
+**Enlace** : [https://www.volatilityfoundation.org][4]
 
-## 5. Sans Investigative Forensic Toolkit (SIFT) - Sift Workstation para Ubuntu {#B49B}
+## 5. Sans Investigative Forensic Toolkit (SIFT) - Sift Workstation para Ubuntu   {#B49B}
 [Sans Sift][5] es una distribución forense informática basada en Ubuntu. Es una de las mejores herramientas forenses para computadora que proporciona una instalación de examen digital forense y de respuesta a incidentes.
 **Características**:
   * Puede funcionar en un sistema operativo de 64 bits.
@@ -81,13 +81,13 @@ Amnisty International ha lanzado un kit de herramientas llamado [kit de herramie
   * Actualiza automáticamente el paquete DFIR (Forense digital y respuesta a incidentes).
   * Puede instalarlo a través del instalador SIFT-CLI (interfaz de línea de comandos).
   * Esta herramienta contiene numerosas últimas herramientas y técnicas forenses.
-** Enlace **: [https://digital-forensics.sans.org/font>igh6]
+**Enlace** : [https://digital-forensics.sans.org/font>igh6]
 
 ## ¿Por qué necesita un software forense digital?
 Necesita una herramienta forense digital porque juega un papel importante en una infraestructura integral de ciberseguridad. Los forenses digitales y la seguridad cibernética trabajan juntos para proteger su presencia en línea e información de datos privados. El Software Digital Forensics (DFS) se especializa en investigar sistemas de TI, enrutadores o servidores en el contexto de eventos de seguridad.
 Los forenses digitales pueden ser útiles para las corporaciones, así como las firmas de abogados para identificar las amenazas cibernéticas. Su negocio necesita herramientas forenses digitales para aumentar la seguridad cibernética al reducir el riesgo de robo de identidad, fraude y otros delitos digitales. La herramienta forense digital recopila información utilizando herramientas complejas para llevar a una persona a la justicia para explotar o manipular información privada.
 
-## Pensamientos finales: {#4A1A}
+## Pensamientos finales:   {#4A1A}
 Hemos discutido las herramientas forenses digitales de código abierto más populares que abarcan muchas implementaciones con un tiempo de respuesta más rápido en comparación con los métodos tradicionales. Las herramientas forenses de datos están en gran medida impulsadas por la tecnología con una alternativa rápida al análisis manual. Estas son algunas de las mejores herramientas gratuitas que puede usar para forenses. Esperamos que hayas disfrutado leyendo la lista. En nuestros próximos artículos de blog, discutiremos temas más interesantes sobre las herramientas forenses digitales de código abierto.
 _Un puede unirse a nosotros en [Twitter][7], [LinkedIn][8] y nuestra página [Facebook][9]. ¿Qué herramientas forenses digitales de código abierto prefieres? Si tiene alguna pregunta o retroalimentación, por favor_ [póngase en contacto][10].
 

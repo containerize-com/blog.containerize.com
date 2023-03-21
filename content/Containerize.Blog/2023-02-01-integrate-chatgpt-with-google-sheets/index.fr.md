@@ -21,7 +21,7 @@ Nous couvrirons les points suivants de cet article:
   * [**Comment intégrer le chatppt avec Google Sheets?**][6]
   * [**Comment utiliser Chatgpt dans Google Sheets?**][7]
 
-## Comment intégrer ChatGpt avec Google Sheets {# comment intégrer-chatgpt-with-google-sheets}
+## Comment intégrer ChatGpt avec Google Sheets   {# comment intégrer-chatgpt-with-google-sheets}
 **CHATGPT INTERGATION**Avec tout logiciel donnera certainement un avantage concurrentiel à l'entreprise. Un modèle propulsé par l'IA qui peut commencer des séances de conversation bidirectionnelles et vous l'intégrez avec votre logiciel à quel point cette intégration pourrait être puissante? Bien sûr, incroyable. Ainsi, vous demandez à un chatbot une solution technique à un problème et vous obtenez la réponse juste à temps, cela signifie beaucoup en termes d'économie de temps et d'effort.
 Commençons cette**Intégration Google Sheets avec Chatgpt.**
 Tout d'abord, ouvrez Google [Sheets][3] et cliquez sur**"Extensions-> Add-ons-> Get Add-ons"**. Une fois que vous avez fait cela, vous verrez une boîte de dialogue sur Google Workspace Marketplace. Maintenant, tapez «Chatgpt» dans la barre de recherche placée dans le coin supérieur droit et sélectionnez la première option comme indiqué dans l'image ci-dessous.

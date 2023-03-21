@@ -19,10 +19,10 @@ Osticket açık kaynaklı bir çevrimiçi yardım masası yazılımı çözümü
   * [Osticket nasıl kurulur?][3]
   * [Sonuç][4]
 
-## Osticket nedir? {#Osticket}
+## Osticket nedir?   {#Osticket}
 Osticket, kullanıcı dostu bir kontrol paneli ve gerçek zamanlı bir raporlama bileşeni sağlar. Kullanıcılar sadece birkaç kolay adımda giriş yapabilir ve biletleri oluşturabilir. Web siteniz, e -postanız veya telefonunuz aracılığıyla bilet oluşturabilirler. Daha sonra gelen biletler kaydedilecek ve temsilcilere atanacaktır. Temsilciler e -posta bildirimleri alacak ve sorunlarının çözülmesine yardımcı olmak için sorgulara yanıt verecektir. Müşteriler ve temsilciler yorum bölümünde ayrıntıları ve ilerlemeyi tartışabilir. Müşteriler, bu çevrimiçi yardım masası yazılımı tarafından sağlanan yerleşik müşteri portalı aracılığıyla isteklerini ve ilerlemelerini takip edebilirler.
 
-## Osticket'in artıları ve eksileri {#pros}
+## Osticket'in artıları ve eksileri   {#pros}
 
 #### Artılar
   * Osticket hem son kullanıcılar hem de destek aracıları için son derece kullanıcı dostudur.
@@ -35,7 +35,7 @@ Osticket, kullanıcı dostu bir kontrol paneli ve gerçek zamanlı bir raporlama
   * Osticket, diğer ücretli yardım masası sistemleri gibi bilet analizi ve istatistikleri detaylandırmaz.
   * Kullanıcı arayüzü, diğer destek sistemlerine kıyasla çok basit ve temeldir.
 
-## Osticket nasıl kurulur? {#Nasıl}
+## Osticket nasıl kurulur?   {#Nasıl}
 Ubuntu 18.04 LTS'ye Nginx ile Osticket'i kurmak için bu adımları izleyin.
   * Osticket için yeni bir dizin oluşturun.
 ```
@@ -136,7 +136,7 @@ sudo systemctl restart nginx
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-2.png" alt="Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur">}}
 
   * Php.ini'den gerekli uzantıları etkinleştirin ve “Devam” ı tıklayın.
-  *Gerekli tüm bilgileri doldurun ve “** Şimdi Yükle” ** düğmesine tıklayın.
+  *Gerekli tüm bilgileri doldurun ve “**Şimdi Yükle”**  düğmesine tıklayın.
 
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-3.png" alt="Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur">}}
 
@@ -149,7 +149,7 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Osticket, düşük bütçeli veya basit bir yardım masası sistemi isteyen şirketler için en uygun olan şirketler için en uygun olanıdır. Basit, hafif, güvenilir, açık kaynak ve tamamen ücretsiz çevrimiçi yardım masası yazılımıdır. Bu da Osticket'i daha yüksek maliyetli müşteri destek sistemlerine harika bir alternatif haline getiriyor. Osticket özellikleri ve kurulum kılavuzu hakkında daha fazla bilgi edinmek için lütfen aşağıdaki öğreticiye göz atın.
 
 ## Keşfetmek

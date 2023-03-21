@@ -83,7 +83,7 @@ Vous devriez voir la page de connexion Open Source OwnCloud. Entrez le nouveau n
 {{< figure align=center src="images/owncloud-setup-1.png" alt="Installez OwnCloud avec Apache sur Ubuntu">}}
 
 {{_LINE_71_}}
-Maintenant, faites glisser votre page vers le bas. Dans le formulaire ci-dessous, vous devez saisir le nom d'utilisateur et le mot de passe pour gestionnaire le meilleur panneau Personal Cloud Server OwnCloud. Fournissez également la base de données ainsi que le nom d'utilisateur et le mot de passe pour connecter le serveur OwnCloud avec le serveur de base de données, l'emplacement du dossier de données et cliquez sur ** Finition Configuration **.
+Maintenant, faites glisser votre page vers le bas. Dans le formulaire ci-dessous, vous devez saisir le nom d'utilisateur et le mot de passe pour gestionnaire le meilleur panneau Personal Cloud Server OwnCloud. Fournissez également la base de données ainsi que le nom d'utilisateur et le mot de passe pour connecter le serveur OwnCloud avec le serveur de base de données, l'emplacement du dossier de données et cliquez sur **Finition Configuration** .
 {{_LINE_73_}}
 
 {{< figure align=center src="images/owncloud-setup-2.png" alt="Configurer OwnCloud sur Ubuntu">}}
@@ -97,15 +97,15 @@ Après avoir terminé la configuration, vous obtiendrez le tableau de bord admin
 {{_LINE_79_}}
 Ouais! Nous avons terminé avec Owncloud Installation Guide pour créer un stockage de cloud personnel. Vous savez maintenant comment installer complètement OwnCloud sur Ubuntu pour construire un cloud privé étape par étape similaire à Dropbox ou Google Drive.
 
-## ** Quelles sont les meilleures alternatives à Owncloud? ** {# 4A1A}
+## **Quelles sont les meilleures alternatives à Owncloud?**    {# 4A1A}
 Voici les alternatives Owncloud et les concurrents auto-hébergés logiciels d'hébergement de fichiers.
-  * ** SeaFile ** est le système de logiciel d'hébergement de fichiers multiplateforme open source
-  * ** NextCloud ** est une plate-forme de stockage cloud gratuite et open source
-  * ** Resilio Sync ** est une application de synchronisation de pair à pair à pair
-  * ** Les cellules Pydio ** sont des logiciels de partage de fichiers et de synchronisation open source
-  * ** Syncthing ** est une application de synchronisation gratuite et open source de fichier de peer-to-peer
+  * **SeaFile**  est le système de logiciel d'hébergement de fichiers multiplateforme open source
+  * **NextCloud**  est une plate-forme de stockage cloud gratuite et open source
+  * **Resilio Sync**  est une application de synchronisation de pair à pair à pair
+  * **Les cellules Pydio**  sont des logiciels de partage de fichiers et de synchronisation open source
+  * **Syncthing**  est une application de synchronisation gratuite et open source de fichier de peer-to-peer
 
-## ** Conclusion: ** {# Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+## **Conclusion:**    {# Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
 Toutes nos félicitations! Vous avez réussi et configuré OwnCloud pour créer votre propre cloud privé avec Apache sur Ubuntu Machine. Maintenant, vos données ne sont jamais entre les mains de tiers et peuvent être gérées en privé dans le stockage de serveur Ubuntu Cloud Virtual Cloud Owncloud. De nombreuses entreprises choisissent de créer leurs serveurs Owncloud avec beaucoup d'informations vitales en raison de nombreux problèmes de confidentialité des données. Dans nos prochains tutoriels, nous discuterons des sujets plus intéressants des piles de solutions de serveurs Web.
 _Pour peut se joindre à nous sur [Twitter][2], [LinkedIn][3] et notre page [Facebook][4]. Quelle solution de stockage basée sur le cloud utilisez-vous en ligne ?. Si vous avez des questions, veuillez vous contacter][5].
 

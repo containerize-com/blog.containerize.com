@@ -16,13 +16,13 @@ categories: ['Game Development Software']
 
 ## Aperçu
 Dans un autre passé, certains articles ont été publiés sur la catégorie [du logiciel de développement de jeux][1] qui comprend la façon dont l'industrie mondiale du jeu tirant parti des logiciels open source et du tutoriel GDELAVELAGE pour les débutants pour commencer le développement de jeux. Le développement de jeux vidéo est tellement plus répandu à travers le monde avec la demande croissante de jeux divertissants. Cependant, cela implique l'idée, le développement de conception, les tests continus, les versions et la rétroaction. En d'autres termes, il implique des concepteurs, des architectes de logiciels, des programmeurs, des testeurs et des ressources de support. De plus, il existe de nombreux types de jeux tels que des jeux d'action, des jeux de puzzle, des jeux de course, des jeux cognitifs et d'autres autres.
-Par conséquent, un bon guide de développement de jeux est indispensable pour commencer à démarrer avec n'importe quel constructeur de jeux 3D. La communauté open source a développé de nombreux logiciels de développement de jeux qui offrent des fonctionnalités et des services publics au niveau de l'entreprise pour développer des jeux 3D et 2D. Ce didacticiel de développement de jeux HTML5 explorera comment développer un jeu vidéo à l'aide du logiciel de développement de jeux vidéo gratuit ** SuperPowers ** en couvrant les points suivants.
-  * ** [Qu'est-ce que les superpuissances][2] **
-  * ** [Comment configurer sur localhost?][3] **
-  * ** [Tableau de bord des superpuissances?][4] **
-  * ** [Conclusion][5] **
+Par conséquent, un bon guide de développement de jeux est indispensable pour commencer à démarrer avec n'importe quel constructeur de jeux 3D. La communauté open source a développé de nombreux logiciels de développement de jeux qui offrent des fonctionnalités et des services publics au niveau de l'entreprise pour développer des jeux 3D et 2D. Ce didacticiel de développement de jeux HTML5 explorera comment développer un jeu vidéo à l'aide du logiciel de développement de jeux vidéo gratuit **SuperPowers**  en couvrant les points suivants.
+  * **[Qu'est-ce que les superpuissances][2]** 
+  * **[Comment configurer sur localhost?][3]** 
+  * **[Tableau de bord des superpuissances?][4]** 
+  * **[Conclusion][5]** 
 
-## Qu'est-ce que les super-pouvoirs {#intro}
+## Qu'est-ce que les super-pouvoirs   {#intro}
 [SuperPowers][6] est un logiciel open source pour le développement de jeux vidéo. Il est flexible, robuste et extensible. Cependant, il offre une prise en charge des animations, des modèles 3D et un large éventail d'exemples de jeux. De plus, il est également livré avec une version hors ligne où les utilisateurs peuvent créer des jeux sans aucune connectivité Internet. Publier n'importe quel projet est incroyablement facile et tout ce qui se passe en un seul clic. Il existe un tableau de bord intuitif pour les utilisateurs où les utilisateurs peuvent facilement naviguer dans divers éléments. Surtout, il y a un rapport d'erreur en direct très cool où il montre l'erreur au développeur pour éviter toute ambiguïté ou bug. Les super-pouvoirs sont faciles à configurer et nécessitent des exigences faciles pour héberger davantage sur les serveurs, ce constructeur de jeux 3D est écrit en typeScript et est livré avec toutes les documents concernant le développement et le déploiement. Par conséquent, tout le code source est disponible chez [GitHub][7].
 SuperPowers propose les points clés suivants:
   * Rapports d'erreur en direct
@@ -31,8 +31,8 @@ SuperPowers propose les points clés suivants:
   * Police riche et effets sonores
   * Hostomé
 
-## Comment installer sur localhost? {#installation}
-Si vous vous demandez toujours comment développer un jeu vidéo, alors dans cette partie de l'article, nous apprendrons à créer des superpuissances sur localhost. Dans cette section, ce ** Guide de développement du jeu ** va développer le processus de mise en place de l'environnement de développement du jeu.
+## Comment installer sur localhost?   {#installation}
+Si vous vous demandez toujours comment développer un jeu vidéo, alors dans cette partie de l'article, nous apprendrons à créer des superpuissances sur localhost. Dans cette section, ce **Guide de développement du jeu**  va développer le processus de mise en place de l'environnement de développement du jeu.
 Tout d'abord, assurez-vous d'avoir installé les pré-requis suivants avant de commencer le développement de jeux vidéo:
   * Git
   * npm
@@ -65,7 +65,7 @@ Ouvrez maintenant le navigateur et accédez à l'application au lien suivant:
 <a href="http://localhost:4237/">http://localhost:4237/</a>
 ```
 
-## Tableau de bord des superpuissances? {#caractéristiques}
+## Tableau de bord des superpuissances?   {#caractéristiques}
 En frappant l'URL ci-dessus, vous verrez la page d'accueil suivante. Il existe des options pour modifier ou créer un nouveau projet de plateforme vide ou 2D.
 
 {{< figure align=center src="images/Screenshot-2021-05-20-at-21.41.27-1024x577.png" alt="Développement de jeux vidéo">}}
@@ -80,7 +80,7 @@ De plus, il y a une barre de réglage sur le côté gauche où vous pouvez défi
 
 De même, après avoir parcouru cet article de jeu, vous pouvez l'explorer davantage et utiliser toutes les fonctionnalités. De plus, vous pourrez comprendre comment aller de l'avant à l'aide de SuperPowers Video Game Builder. Il existe un support en ligne disponible pour ce logiciel de développement de jeux.
 
-## ** Conclusion ** {#conclusion}
+## **Conclusion**    {#conclusion}
 Cela met fin à ce guide de développement de jeux HTML5. J'espère que ce billet de blog vous aidera si vous souhaitez commencer le développement de jeux vidéo. Nous avons exploré ce qui est des superpuissances, comment développer un jeu vidéo, qui est un constructeur de jeux 3D open source et nous avons également suivi sa procédure d'installation sur LocalHost. Il existe de nombreuses applications de conception de jeux vidéo open source ** qui permettent aux utilisateurs de construire des jeux à partir de zéro. Les programmeurs de jeux vidéo utilisent des principes de conception de jeux essentiels pour construire des jeux de haute qualité. Vous en apprendrez plus sur la construction de jeux 2D et 3D dans nos prochains articles sur [Blog.Containerize.com][8]. Il existe d'autres constructeurs de jeux 3D auto-hébergés et des articles pertinents mentionnés dans la section «Explorer» ci-dessous.
 Enfin, Containerize.com écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [développement de jeux vidéo][9][][10] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][11], [LinkedIn][12] et [Twitter][13].
 
@@ -91,12 +91,12 @@ Vous pouvez trouver les liens suivants pertinents:
   * [][14][SuperPowers][6]
   * [][14][Cocos Creator][16]
   * [][14][panda3d][17]
-  * ** [Début avec le développement de jeux en utilisant des superpuissances][18] **
-  * ** [Tutoriel de développement du jeu | Mouvement des joueurs dans gdevelop][19] **
-  * [** Comment faire un jeu sur Scratch en utilisant Open Source GDevelop **][20]
-  * ** [Comment l'industrie mondiale des jeux en tirant parti des logiciels open source][21] **
+  * **[Début avec le développement de jeux en utilisant des superpuissances][18]** 
+  * **[Tutoriel de développement du jeu | Mouvement des joueurs dans gdevelop][19]** 
+  * [**Comment faire un jeu sur Scratch en utilisant Open Source GDevelop** ][20]
+  * **[Comment l'industrie mondiale des jeux en tirant parti des logiciels open source][21]** 
   11
-  * [** Top 5 logiciels de développement de jeu gratuit en 2021 **][23]
+  * [**Top 5 logiciels de développement de jeu gratuit en 2021** ][23]
 
   
 [1]: https://blog.containerize.com/category/game-development-software/

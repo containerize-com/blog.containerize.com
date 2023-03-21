@@ -13,26 +13,26 @@ categories: ['Transactional Email']
 
 {{< figure align=center src="images/postal-banner.png" alt="Servidor de correo de código abierto">}}
 
-El envío de correos electrónicos a diferentes tipos de eventos es necesario para aplicaciones modernas. Cada negocio necesita un servidor de correo ** confiable ** para correos electrónicos salientes. Además, las empresas necesitan un servidor de correo para enviar correos electrónicos a granel para campañas de marketing, boletines y muchas otras tareas. Hay varios ** Servidor de correo de código abierto ** disponible para esto. Sin embargo, discutiremos el servidor postal ** ** en detalle en esta publicación y cubriremos los siguientes temas.
+El envío de correos electrónicos a diferentes tipos de eventos es necesario para aplicaciones modernas. Cada negocio necesita un servidor de correo **confiable  **para correos electrónicos salientes. Además, las empresas necesitan un servidor de correo para enviar correos electrónicos a granel para campañas de marketing, boletines y muchas otras tareas. Hay varios **  Servidor de correo de código abierto  **disponible para esto. Sin embargo, discutiremos el servidor postal ** **  en detalle en esta publicación y cubriremos los siguientes temas.
   * [¿Qué es el servidor de correo postal?][1]
   * [Características del postal][2]
   * [Instalación postal][3]
   * [Conclusión][4]
 
-## ¿Qué es el servidor de correo postal? {#Postal}
-[** Postal **][5] es un servidor de correo de código abierto gratuito y ** **. Es un servidor de correo completo para sitios web y aplicaciones web. Postal Mail Server es una alternativa al popular servidor de correo popular ** ** como SendGrid y Mailgun. ** Postal ** es una plataforma de entrega de correo electrónico de código abierto robusta, segura y escalable. Todo el código fuente y la documentación están disponibles en [** GitHub **][6]. Puede descargarlo, instalarlo en su servidor privado y mantener el control completo sobre él. También puede mejorar y mejorarlo según las necesidades comerciales. Además, ** Postal Mail Server ** admite múltiples organizaciones.
-Los usuarios pueden ver gráficos y estadísticas que muestran el volumen de correos entrantes y salientes. Además, puede acceder a la cola completa de mensajes salientes e entrantes. Postal Mail Server proporciona funcionalidad para Webhooks. Puede configurar Webhooks para recibir información en vivo sobre la información de entrega en tiempo real. También ofrece retención de mensajes que le permite almacenar y examinar todos los mensajes de envío y recibido. La entrega por correo electrónico es muy importante en el negocio para garantizar que los usuarios reciban el correo electrónico. Sin embargo, a veces el correo electrónico entrega al usuario y debe investigar el problema. El ** servidor de correo entrante y saliente ** también proporciona registro completo y herramientas para realizar la investigación.
+## ¿Qué es el servidor de correo postal?   {#Postal}
+[**Postal **][5] es un servidor de correo de código abierto gratuito y  **** . Es un servidor de correo completo para sitios web y aplicaciones web. Postal Mail Server es una alternativa al popular servidor de correo popular  ****  como SendGrid y Mailgun.  **Postal **  es una plataforma de entrega de correo electrónico de código abierto robusta, segura y escalable. Todo el código fuente y la documentación están disponibles en [ **GitHub ** ][6]. Puede descargarlo, instalarlo en su servidor privado y mantener el control completo sobre él. También puede mejorar y mejorarlo según las necesidades comerciales. Además,  **Postal Mail Server**   admite múltiples organizaciones.
+Los usuarios pueden ver gráficos y estadísticas que muestran el volumen de correos entrantes y salientes. Además, puede acceder a la cola completa de mensajes salientes e entrantes. Postal Mail Server proporciona funcionalidad para Webhooks. Puede configurar Webhooks para recibir información en vivo sobre la información de entrega en tiempo real. También ofrece retención de mensajes que le permite almacenar y examinar todos los mensajes de envío y recibido. La entrega por correo electrónico es muy importante en el negocio para garantizar que los usuarios reciban el correo electrónico. Sin embargo, a veces el correo electrónico entrega al usuario y debe investigar el problema. El **servidor de correo entrante y saliente**  también proporciona registro completo y herramientas para realizar la investigación.
 
-## Características de Postal {#Feature}
+## Características de Postal   {#Feature}
 Postal Mail Server ofrece muchas características. Sin embargo, discutiremos las siguientes características clave en este artículo.
-** Enviar correos electrónicos **: Postal Mail Server proporciona dos técnicas para correos electrónicos salientes, incluidos la API HTTP y SMTP. Puede usar fácilmente la API HTTP para la integración con aplicaciones web. También puede usar un servidor SMTP para la integración con aplicaciones y sistemas existentes.
-** Correos electrónicos entrantes **: ** Correo entrante ** se puede reenviar a HTTP Endpoint, ** servidor SMTP ** y otras direcciones de correo electrónico utilizando el servidor de correo postal.
-** Verificación de spam y virus **: Spamassassin y Clamav se pueden integrar con el postal para escanear automáticamente los mensajes entrantes y salientes a medida que pasan a través de los servidores de correo. Esta característica también se desactiva de forma predeterminada.
-** Haga clic y abra el seguimiento **: Las aberturas de correo electrónico y los clics se pueden rastrear con Postal. Postal escaneará sus mensajes salientes y reemplazará cualquier enlace con un nuevo enlace que viaja a través de su servidor web postal. Cuando el usuario hace clic en el enlace, Postal registra la acción y los redirige instantáneamente a la URL original. Sin embargo, esto no se activa por defecto.
-** Pools IP **: Postal le permite enviar mensajes desde una variedad de direcciones IP. Esto le permite asignar múltiples direcciones IP a diferentes servidores de correo o enviar desde diferentes IP dependiendo del remitente o las direcciones del destinatario.
+**Enviar correos electrónicos** : Postal Mail Server proporciona dos técnicas para correos electrónicos salientes, incluidos la API HTTP y SMTP. Puede usar fácilmente la API HTTP para la integración con aplicaciones web. También puede usar un servidor SMTP para la integración con aplicaciones y sistemas existentes.
+**Correos electrónicos entrantes **:  **Correo entrante **  se puede reenviar a HTTP Endpoint,  **servidor SMTP**   y otras direcciones de correo electrónico utilizando el servidor de correo postal.
+**Verificación de spam y virus** : Spamassassin y Clamav se pueden integrar con el postal para escanear automáticamente los mensajes entrantes y salientes a medida que pasan a través de los servidores de correo. Esta característica también se desactiva de forma predeterminada.
+**Haga clic y abra el seguimiento** : Las aberturas de correo electrónico y los clics se pueden rastrear con Postal. Postal escaneará sus mensajes salientes y reemplazará cualquier enlace con un nuevo enlace que viaja a través de su servidor web postal. Cuando el usuario hace clic en el enlace, Postal registra la acción y los redirige instantáneamente a la URL original. Sin embargo, esto no se activa por defecto.
+**Pools IP** : Postal le permite enviar mensajes desde una variedad de direcciones IP. Esto le permite asignar múltiples direcciones IP a diferentes servidores de correo o enviar desde diferentes IP dependiendo del remitente o las direcciones del destinatario.
 
-## Instalación postal {#Installation}
-Siga la siguiente guía paso a paso para instalar el software de servidor de correo postal ** ** en Ubuntu 18.04.
+## Instalación postal   {#Installation}
+Siga la siguiente guía paso a paso para instalar el software de servidor de correo postal  ****  en Ubuntu 18.04.
   * Primero, debe conectar su servidor VIS SSH. Ejecute el siguiente comando para actualizar el sistema con los últimos paquetes disponibles.
 ```
 sudo apt-get update
@@ -280,15 +280,15 @@ sudo systemctl restart nginx
 ```
   * Finalmente, abra su navegador y escriba la URL https://postal.example.com. Serás redirigido a la página de inicio de sesión.
 
-## conclusión {#conclusion}
-Hemos repasado la introducción y las características principales del servidor de correo postal en gran profundidad. También hemos incluido instrucciones paso a paso para configurar este agente de transferencia de correo ** **. Además, hemos dado una idea de la configuración. Configurar un servidor de correo postal es un proceso simple. Espero que este artículo sea realmente útil para configurar y configurar un servidor de correo postal para su negocio.
-Finalmente, [** Contenerize.com **][7] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [** Correo electrónico transaccional **][8] para las últimas actualizaciones.
+## conclusión   {#conclusion}
+Hemos repasado la introducción y las características principales del servidor de correo postal en gran profundidad. También hemos incluido instrucciones paso a paso para configurar este agente de transferencia de correo  **** . Además, hemos dado una idea de la configuración. Configurar un servidor de correo postal es un proceso simple. Espero que este artículo sea realmente útil para configurar y configurar un servidor de correo postal para su negocio.
+Finalmente, [**Contenerize.com **][7] se encuentra en un proceso consistente de escribir publicaciones de blog sobre otros productos de código abierto más recientes. Por lo tanto, manténgase en contacto con esta categoría [ **Correo electrónico transaccional**  ][8] para las últimas actualizaciones.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
-  *[** Software de correo electrónico transaccional superior **][9]
-  *[** POTAL - Open Source Mail Server **][5]
-  *[** 5 Mejor software de servidor de correo de código abierto para empresas en 2020 **][10]
+  *[**Software de correo electrónico transaccional superior** ][9]
+  *[**POTAL - Open Source Mail Server** ][5]
+  *[**5 Mejor software de servidor de correo de código abierto para empresas en 2020** ][10]
 
   
 [1]: #Postal

@@ -17,10 +17,10 @@ categories: ['Programming']
 ## Genel Bakış
 Multi-kiracılık serisinde başka bir heyecan verici blog yazısı ile buradayız. Önceki [makalemiz][1] 'de, çok kiracılı uygulamaların, profesyonellerin ve eksilerin ve çok kiracılı mimarinin türlerinin arkasındaki temel konsepte değindik. Birden fazla kullanıcıya/kiracıya hizmet vermenin zamanı geldiğinden, kaynakları etkili bir şekilde yönetip kullanır. Dolayısıyla, çoklu kiracılık, çeşitli müşterileri/kiracıları eşzamanlı olarak ele alan bir altyapı oluşturmanın en büyük yaklaşımıdır. Bununla birlikte, en son [blog yazısı][2] sunucusuz mimari, konteynerizasyon ve [Kubernetes][3] göstermiştir. Bu nedenle, bu makalede, çok kiracılık ve konteyner tabanlı mimariyi keşfedeceğiz. Ayrıca, [kapsayıcı][4] uygulamalarınızda nasıl çoklu kiracılık elde edebileceğinizi göreceğiz.
 Aşağıdaki noktalar bu makalede ele alınacaktır:
-***[Çok Kireli Konteyner Ana Bilgisayarlar][5]**
-***[Kubernetes Çok Kencilik][6]**
+* **[Çok Kireli Konteyner Ana Bilgisayarlar][5]**
+* **[Kubernetes Çok Kencilik][6]**
 
-## Çok kiracılı konteyner ana bilgisayarları {#çok kiracılı-container-hosts}
+## Çok kiracılı konteyner ana bilgisayarları   {#çok kiracılı-container-hosts}
 Çok kiracılı uygulama dağıtım, barındırma platformları söz konusu olduğunda kritik bir görevdir. Hepiniz, kapların sanal makinelere kıyasla hafif olduğunu biliyorsunuz. Uygulama dağıtımının dağıtımını tamamlamak için sadece birkaç milisaniye sürmesi, sanal makinelerde saniyeler ila dakika kalabilir.
 Bununla birlikte, konteyner tabanlı bir mimaride çoklu kiracılık elde etmek oldukça basittir. Her kiracı tam izolasyon ve veri gizliliğine sahip ayrı bir kap tarafından barındırılır. Bu, konteyner sayısının kiracı sayısına bağlı olduğu anlamına gelir. Ayrıca, bu yaklaşımı elde etmek için aşağıdaki araçlar kullanılacaktır:
   * Docker ve Docker Compose
@@ -29,7 +29,7 @@ Bununla birlikte, konteyner tabanlı bir mimaride çoklu kiracılık elde etmek 
   * Uygulama sunucusu
 Konteyneri oluşturmak için bir şablon olan görüntüyü oluşturmak için Docker'ı kullanacaksınız. Ayrıca, birden fazla konteyner ana bilgisayarını döndürmek için Docker Compose'u kullanacaksınız. Ayrıca, gelen talepleri uygun kiracıya yönlendirmek için Nginx'i kullanacaksınız. Böylece, her konteyner ana bilgisayarı uygulama ve veritabanı örneklerini içerir. Bu**çok kiracılı konteyner ana bilgisayarları**yöntemi kaynak yoğun değildir ve çeşitli kiracıları yönetmede ve veri izolasyonu ve güvenliğinden emin olmada sağlamlık sunar.
 
-## Kubernetes Multi-Tenacy {#Kubernetes-Multi-Tenancy-}
+## Kubernetes Multi-Tenacy   {#Kubernetes-Multi-Tenancy-}
 Kubernetes, mimarisinde düğümler, küme, kontrol düzlemi ve daha fazlası gibi birçok bileşen içerir. Temel olarak, Kubernetes'te yerleşik bir çoklu kiracılık yoktur, ancak bunu başarabilirsiniz. Bu nedenle, Kubernetes küme ve kontrol düzlemini çalışan ve paylaşan birden fazla uygulama/kiracı vardır. Öte yandan, tek kiracılı uygulamalarda, uygulamanın tek bir örneği tüm Kubernetes kümesini kaplar.
 
 {{< figure align=center src="images/kubernetes.svg" alt="Kubernetes çoklu kiracılık" >}}

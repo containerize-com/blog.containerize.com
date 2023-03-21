@@ -19,16 +19,16 @@ Künstliche Intelligenz ist das erstklassige Thema zum aktuellen Zeitpunkt. Tats
 Die folgenden Themen werden in diesem Blog -Beitrag behandelt:
 * [**Was ist künstliche Intelligenz (AI)?**][1]
 * [**Arten künstlicher Intelligenz**][2]
-***[Anwendungen künstlicher Intelligenz][3]**
+* **[Anwendungen künstlicher Intelligenz][3]**
 
-## Was ist künstliche Intelligenz (KI)? {#What-is-Artificial-Intelligence}
+## Was ist künstliche Intelligenz (KI)?   {#What-is-Artificial-Intelligence}
 Künstliche Intelligenz ist ein Thema Informatik, das auf die Simulation menschlicher Intelligenz in Maschinen hinweist. Es ist ein Schritt, von Menschen hergestellte Maschinen intelligent genug zu machen, um riesige Datensätze zu verarbeiten und komplexe Probleme zu lösen. Gemäß diesem Zweig der Computerstudie sind Computer auf sich selbst gelernt und selbstgetriebene Ergebnisse zeichnen. Maschinelles Lernen und natürliche Sprachverarbeitung (NLP) haben KI dazu gebracht, Dinge wie ein menschliches Gehirn zu denken und zu verarbeiten. Maschinelles Lernen ist ein Prozess, bei dem Maschinen in der Lage sind, mit Hilfe von Daten und Schulungen zu lernen.
 
 {{< figure align=center src="images/artificial-intelligence-1.png" alt="Eine Einführung in künstliche Intelligenz">}}
 
 Maschinelles Lernen verwendet jedoch Deep Learning, eine neuronale Netzwerkmethode, bei der mehrere Verarbeitungselemente in einer geschichteten Struktur miteinander verbunden sind. In AI lernen Verarbeitungsmaschinen Dinge basierend auf Datensätzen und Versuchsmethoden und müssen nicht unbedingt für verschiedene Jobs programmiert werden.
 
-## Arten der künstlichen Intelligenz {#Typen-von-Artificial-Intelligence}
+## Arten der künstlichen Intelligenz   {#Typen-von-Artificial-Intelligence}
 Hauptsächlich gibt es zwei Arten künstlicher Intelligenz. In diesem Abschnitt des Blog -Beitrags wird diese beiden Typen demonstriert.
 
 #### Schwache künstliche Intelligenz
@@ -37,7 +37,7 @@ Gemäß dieser Kategorie von KI sind Systeme so konzipiert, dass sie weniger kom
 #### Starke künstliche Intelligenz
 Starke künstliche Intelligenz bietet die genaue Simulation des menschlichen Gehirns. Künstliche allgemeine Intelligenz und künstliche Superintelligenz werden ebenfalls unter diese Kategorie eingehen. Diese Kategorie entwirft Systeme und Modelle, die die Fähigkeit enthalten, Dinge zu verarbeiten und Entscheidungen ohne menschliche Intervention zu treffen. Interaktive Roboter sind Beispiele für starke KI und selbstfahrende Autos sind auch mit Systemen angereichert, die mit riesigen Datensätzen geschult sind und in der Lage sind, Entscheidungen mit neuronalen Netzwerken zu treffen. Darüber hinaus können solche Systeme Vorhersagen auf der Grundlage ihrer früheren Erfahrungen machen.
 
-##**Anwendungen der künstlichen Intelligenz**{#Anwendungen der künstlichen Intelligenz}
+##**Anwendungen der künstlichen Intelligenz** {#Anwendungen der künstlichen Intelligenz}
 Die folgenden Punkte geben Ihnen eine Vorstellung von einigen prominenten Anwendungen künstlicher Intelligenz:
 **Spracherkennung**: Die Verarbeitung natürlicher Sprache ist der Hauptzweig der KI, der die menschliche Stimme verarbeitet und die Ausgabe in geschriebener oder einer anderen Form verleiht. Diese Funktion ist auf vielen Geräten wie Mobiltelefonen, Autos und vielem mehr verfügbar.
 **Gesichtserkennung**: Nach dieser Anwendung kann AI mehrere Gesichtsvisionen vergleichen und können eine bestimmte Gesichtsstruktur erkennen. Darüber hinaus können Sie künstliche Intelligenz verwenden, um verschiedene Sprachakzente, Handschrift, Rauschen und mehr zu entsprechen.

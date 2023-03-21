@@ -55,7 +55,7 @@ sudo apt-get install -y apache2 libapache2-mod-php
 El sistema de administración de bases de datos relacionales de código abierto MySQL es un componente de la pila de software de aplicaciones web de Lamp y otros. Ahora instalando MySQL en Ubuntu ejecutando a continuación:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Una vez que se completa la instalación, abra ** php.ini ** Archivo de configuración para editar. Use su editor de archivos preferido.
+Una vez que se completa la instalación, abra **php.ini**  Archivo de configuración para editar. Use su editor de archivos preferido.
 Realizar cambios en el archivo php.ini como se muestra a continuación. Abra dos archivos y realice los cambios como se muestra
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -118,27 +118,27 @@ Abra su navegador y escriba URL http: // su servidor -ip / pydio. Serás redirig
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Instalador de Pydio">}}
 
-Confirme todos los controles y haga clic en el botón ** Continuar con la instalación de Pydio **. Debería ver la siguiente página:
+Confirme todos los controles y haga clic en el botón **Continuar con la instalación de Pydio** . Debería ver la siguiente página:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Asistente de configuración de Pydio">}}
 
-Seleccione su idioma y haga clic en ** Iniciar asistente **. Debería ver la siguiente página:
+Seleccione su idioma y haga clic en **Iniciar asistente** . Debería ver la siguiente página:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Inicie la configuración de Pydio">}}
 
-Ingrese el nombre del programa y el mensaje de bienvenida. Luego haga clic en el botón ** Siguiente **. Debería ver la siguiente página:
+Ingrese el nombre del programa y el mensaje de bienvenida. Luego haga clic en el botón **Siguiente** . Debería ver la siguiente página:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Ingrese la aplicación Pydio">}}
 
-A continuación, ingrese su cuenta de administrador y haga clic en el botón ** siguiente **. Debería ver la siguiente página:
+A continuación, ingrese su cuenta de administrador y haga clic en el botón **siguiente** . Debería ver la siguiente página:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Configuración de la base de datos MySQL">}}
 
-Luego ingrese los detalles de su base de datos, como el nombre de la base de datos, el nombre de usuario y la contraseña. Luego haga clic en el botón ** Probar DB Connection **. Debería ver la siguiente página:
+Luego ingrese los detalles de su base de datos, como el nombre de la base de datos, el nombre de usuario y la contraseña. Luego haga clic en el botón **Probar DB Connection** . Debería ver la siguiente página:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Opciones avanzadas de Pydio">}}
 
-A continuación, haga clic en el botón ** Instalar pydio **. Una vez que la instalación se ha completado con éxito. Serás redirigido a la siguiente página:
+A continuación, haga clic en el botón **Instalar pydio** . Una vez que la instalación se ha completado con éxito. Serás redirigido a la siguiente página:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Pydio Iniciar sesión">}}
 
@@ -146,7 +146,7 @@ Luego ingrese su nombre de usuario y contraseña para el administrador. Luego ha
 
 ¡Sí! Está hecho. Ahora sabe cómo instalar completamente la sincronización de archivos auto alojados de Pydio y el software de intercambio de archivos de código abierto en Ubuntu para construir una nube privada paso a paso similar a Dropbox o Google Drive.
 
-## ** Conclusión: ** {#4a1a}
+## **Conclusión:**    {#4a1a}
 En este tutorial, ha instalado con éxito el intercambio de archivos seguros de código abierto de Pydio Cells Open en su sistema Ubuntu. Puede usar este artículo para crear una infraestructura en la nube para almacenar, asegurar y compartir sus archivos en la nube autohostada. Use el intercambio de documentos colaborativos de Pydio y la mejor aplicación gratuita para compartir archivos para obtener más control de sus datos y garantizar una colaboración eficiente en su organización empresarial. En nuestros próximos tutoriales, discutiremos temas más interesantes de soluciones de almacenamiento en la nube de código abierto y herramientas de colaboración para compartir archivos.
 _Un puede unirse a nosotros en [Twitter][1], [LinkedIn][2] y nuestra página [Facebook][3]. ¿Qué plataforma de compartir de código abierto en Cloud Based_ _File usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto][4].
 

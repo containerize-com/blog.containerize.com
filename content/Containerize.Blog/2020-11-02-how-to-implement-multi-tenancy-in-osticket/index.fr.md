@@ -20,21 +20,21 @@ Dans cet article, nous discuterons de la façon de faire de la personnalisation 
   * [Implémentation][3]
   * [Conclusion][4]
 
-## OSTICKET PRÉSIONNEMENT: {#OSTICKET}
+## OSTICKET PRÉSIONNEMENT:   {#OSTICKET}
 [OSTICKET][5] est un logiciel d'assistance basé sur le support client en ligne open source. Il fournit un panneau de configuration intuitif et un composant de rapport en temps réel. Il a un module de gestion de demandes faciles à utiliser. Cela vous permet de créer des demandes à partir de vos formulaires de téléphone, de courrier électronique et Web. Qui offre de nombreuses options pour aider à adapter toutes les parties de l'expérience du support client comme les commentaires et les notifications par e-mail.
 
-## Présentation multi-tension: {#Multitenancy}
+## Présentation multi-tension:   {#Multitenancy}
 La multi-location fait référence à la mise en œuvre, où plusieurs instances indépendantes d'une application fonctionnent dans un environnement partagé. Les instances (locataires) sont logiquement isolées, mais physiquement intégrées. Une organisation peut éventuellement avoir plusieurs départements. Ainsi, ils peuvent créer plusieurs locataires / instances de la même application. Par exemple, dans notre cas, un système d'assistance peut être configuré pour différents domaines de la même organisation. Il pourrait y avoir des centaines de locataires, mais ils utiliseront tous les mêmes fichiers et donc le même stockage. Cela réduira les coûts de stockage et facilitera les mises à niveau. Les développeurs n'ont qu'à mettre à jour les fichiers à partir d'un seul endroit au lieu de modifier séparément chaque site.
 
-## Quels sont les avantages de la multi-location? {#avantages}
+## Quels sont les avantages de la multi-location?   {#avantages}
 Voici quelques avantages cruciaux de la multi-tension
-  * ** Optimisation des ressources: ** Une machine réservée à un locataire n'est pas efficace. Parce qu'un locataire est peu susceptible d'utiliser toute la puissance de calcul de la machine. Les machines de partage maximiseront la disponibilité des ressources.
-  * ** Coûts inférieurs: ** Avec plusieurs locataires partageant les mêmes ressources coûteront beaucoup plus bas que si chaque locataire avait besoin de sa propre infrastructure dédiée.
-  * ** Hébergement efficace: ** Osticket multi-locataire réduira au minimum les coûts d'hébergement dans un environnement partagé.
-  * ** Sécurité: ** Avec moins d'interaction avec le monde extérieur, l'exposition aux logiciels malveillants est réduite.
-  * ** Mise à niveau facile **: Mettre à niveau les fichiers uniquement en un seul endroit au lieu de les mettre à jour séparément. Cela permettra d'économiser beaucoup de temps et d'efforts.
+  * **Optimisation des ressources:**  Une machine réservée à un locataire n'est pas efficace. Parce qu'un locataire est peu susceptible d'utiliser toute la puissance de calcul de la machine. Les machines de partage maximiseront la disponibilité des ressources.
+  * **Coûts inférieurs:**  Avec plusieurs locataires partageant les mêmes ressources coûteront beaucoup plus bas que si chaque locataire avait besoin de sa propre infrastructure dédiée.
+  * **Hébergement efficace:**  Osticket multi-locataire réduira au minimum les coûts d'hébergement dans un environnement partagé.
+  * **Sécurité:**  Avec moins d'interaction avec le monde extérieur, l'exposition aux logiciels malveillants est réduite.
+  * **Mise à niveau facile** : Mettre à niveau les fichiers uniquement en un seul endroit au lieu de les mettre à jour séparément. Cela permettra d'économiser beaucoup de temps et d'efforts.
 
-## Implémentation d'Osticket multi-locataire: {#Implementation}
+## Implémentation d'Osticket multi-locataire:   {#Implementation}
   * Créez un nouveau nom de base de données vide comme «main_db».
   * Ensuite, créez une table nommée «locataire» qui tiendra des détails sur tous les locataires.
   * Il aura des champs suivants:
@@ -64,7 +64,7 @@ if ($url == $row['url']) {
   * Ce code mettra à jour la connectivité de la base de données par défaut. Il obtiendra d'abord l'URL du locataire actuel. Ensuite, il obtiendra le nom de la base de données selon cette URL. C’est ainsi que l’application saura à quelle base de données à se connecter. Chaque locataire aura une base de données distincte. La base de données sera sélectionnée sur la base de l'URL du locataire.
   * Pour créer un nouveau locataire, configurez simplement le nouveau domaine du locataire sur le serveur Nginx. Après cela, copiez simplement la base de données OSTICKET actuelle et renommez-la. Enfin, ajoutez l'entrée dans le tableau «locataire» de la base de données «Main_DB».
 
-## Conclusion: {#conclusion}
+## Conclusion:   {#conclusion}
 OSTICKET est un logiciel gratuit et open source de gestion des services d'assistance. Nous avons appris comment faire en sorte que les personnalisations de l'Osticket implémentent multi-location en Osticket peuvent réduire les coûts, optimiser l'application et réduire les exigences en matière de ressources. Cela facilitera la vie pour les développeurs de créer de nouveaux locataires en quelques étapes simples. Créez donc plusieurs locataires OSTICKET à partir de la même installation.
 
 ## Explorer:

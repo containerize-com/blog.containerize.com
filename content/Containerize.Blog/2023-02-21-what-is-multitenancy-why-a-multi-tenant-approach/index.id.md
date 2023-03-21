@@ -22,7 +22,7 @@ Poin -poin berikut akan dibahas dalam posting ini:
   * [Manfaat Bisnis Aplikasi Multi-Tenant][8]
   * [Kelemahan dalam multi-tenancy][9]
 
-## Apa itu multitenancy? Multi-tenant vs single-tenant {#what-is-multitenancy-multi-tenant-vs-single-tenant}
+## Apa itu multitenancy? Multi-tenant vs single-tenant   {#what-is-multitenancy-multi-tenant-vs-single-tenant}
 Multitenancy mengacu pada instance server tunggal yang melayani beberapa front-end yang sangat dikenal. Setiap kali Anda menemukan perangkat lunak multi-tenant, beri tahu otak Anda bahwa perangkat lunak ini menjalankan satu instance dari server bersama dan beberapa penyewa (klien) terhubung ke contoh ini dengan branding yang berbeda.
 Misalnya, perangkat lunak yang dibangun untuk universitas melayani departemen yang berbeda yang memiliki merek front-end dan data program yang berbeda. Pada dasarnya, ada satu contoh server yang menjalankan dan melayani semua penyewa. Selain itu, ada pemisahan data dan privasi data di antara semua penyewa. Selain itu, setiap penyewa memiliki logika bisnis sendiri dan mengambil dan menyimpan datanya di satu lokasi tunggal tetapi pribadi/terisolasi.
 
@@ -33,20 +33,20 @@ Sekarang, mari kita perhatikan arsitektur penyewa tunggal. Dalam arsitektur peny
 {{< figure align=center src="images/single-tenant-2.png" alt="arsitektur penyewa tunggal">}}
 
 
-## Jenis Arsitektur Aplikasi Multi-Tenant {#Tipe-Of-Multi-Tenant-Application-Architecture}
+## Jenis Arsitektur Aplikasi Multi-Tenant   {#Tipe-Of-Multi-Tenant-Application-Architecture}
 Sejauh ini, Anda memiliki pemahaman tentang multi-tenancy dan sekarang kami akan melalui berbagai jenisnya.
 **Satu database-satu contoh aplikasi**: Pendekatan ini cukup populer dan telah banyak digunakan untuk membangun aplikasi multi-penyewa. Sesuai pendekatan ini, ada satu instance aplikasi yang berjalan dengan satu database. Selain itu, ada skema bersama dan data penyewa disimpan di satu lokasi terhadap ID unik mereka.
 **Beberapa database-satu contoh aplikasi:**Dalam arsitektur aplikasi multi-tenant ini, hanya satu contoh aplikasi yang dijalankan dengan beberapa database. Setiap penyewa memiliki skema basis data sendiri di mana semua informasi disimpan per setiap penyewa secara terpisah.
 **Beberapa database - beberapa instance aplikasi**: Pendekatan ketiga mengacu pada menjalankan beberapa instance server bersama dengan beberapa database. Tidak ada yang dibagikan dan setiap penyewa memiliki isolasi penuh dan tidak ada ketergantungan di antara penyewa.
 
-## Manfaat Bisnis dari Aplikasi Multi-Tenant {#Business-Benefits-of-Multi-tenant-App}
+## Manfaat Bisnis dari Aplikasi Multi-Tenant   {#Business-Benefits-of-Multi-tenant-App}
 Di bagian ini, kami akan melalui beberapa manfaat penting dari memilih untuk multitenancy. Meskipun, kita bisa lama membahas fasilitasnya tetapi mari kita lihat poin -poin berikut:
 **Skalabilitas**: Mudah untuk skala arsitektur multi-tenant. Anda dapat skala secara horizontal atau vertikal terlepas dari jenis yang telah Anda pilih.
 **Hemat biaya**: Memilih multitenancy menghemat biaya operasional Anda. Ada sumber daya bersama sehingga selalu hemat biaya untuk meningkatkan sumber daya.
 **Efisiensi & Fleksibilitas**: Dalam lingkungan multitenant, Anda mencapai efisiensi dalam pengembangan dan penyebaran. Misalnya, Anda dapat menjalankan skrip pada skema basis data bersama untuk memperbarui semua penyewa.
 **Manajemen Sumber Daya yang Lebih Baik**: Menambahkan, dan Menghapus sumber daya sangat mudah. Selanjutnya, arsitektur ini menawarkan infrastruktur yang lebih baik dan dikelola dengan baik. Selain itu, setiap penyewa bersifat pribadi, dan aman dan memiliki akses ke database bersama/tidak dibagikan.
 
-## kelemahan dalam multi-tenancy {#lempeng-in-multi-tenancy}
+## kelemahan dalam multi-tenancy   {#lempeng-in-multi-tenancy}
 Tujuan dari posting blog ini adalah untuk memberikan rasa**arsitektur multi-tenant yang adil.**Oleh karena itu, mari kita jelajahi beberapa kontra yang melekat pada multi-tenancy.
 **Mekanisme Otentikasi Kompleks**: Karena sifat alokasi sumber daya bersama dalam multitenancy, ada protokol ketat untuk titik akses data.
 **Breakdown Server:**Ini adalah poin utama yang perlu dipertimbangkan saat memilih arsitektur aplikasi multi-tenant. Semua penyewa menjadi tidak berfungsi setiap kali server turun karena alasan apa pun.

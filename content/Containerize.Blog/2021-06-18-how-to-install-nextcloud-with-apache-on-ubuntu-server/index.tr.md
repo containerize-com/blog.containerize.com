@@ -14,18 +14,18 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/install-nextcloud-ubuntu.png" alt="Ubuntn'da Apache ile NextCloud nasıl kurulur">}}
 
 
-## ** Genel Bakış **
-** [NextCloud][1] ** ÜCRETSİZ ve güvenli bir ** Kendi kendine barındırılan bulut depolama çözümü ** PHP programlama dilinde yazılmıştır. Web arabirimini kullanarak veri erişimi sağlar ve Dropbox'a işlevsel olarak benzerdir. Dropbox ve Google Drive gibi tescilli bulut depolama çözümleri uygundur, ancak dosyalarınız sistemlerinde saklandığı için kişisel verileri toplamak için kullanılabilir. Güvenli, güvenli ve uyumlu dosya senkronizasyonu ve paylaşım çözümüne ihtiyacınız varsa, açık kaynak NextCloud sunucusuna geçebilirsiniz. NextCloud kurulumu özel ev sunucularınıza veya sanal bir özel sunucuya yüklenebilir.
-NextCloud Açık Kaynak ** uçtan uca şifreleme ** sağlar, yani dosyaların sunucuya yüklenmeden önce istemci cihazında şifrelenebileceği anlamına gelir. Ayrıca, doğrudan NextCloud istemcisinden DOC, PPT, XLS dosyalarınızı oluşturabileceğiniz ve düzenleyebilmeniz için Collobora, On TOUSFICE NEXTCLOUD gibi bir çevrimiçi ofis paketi ile entegre edilebilir. NextCloud istemcisi indirmesinden sonra NextCloud Client indirdikten sonra NextCloud sunucunuzla bilgisayarınızdaki bir veya daha fazla dosya ve klasörü paylaşabilir ve senkronize edebilirsiniz. NextCloud masaüstü indirme ve mobil istemciler, kontrolünüz altındaki tüm cihazlarda senkronize ve paylaşma seçenekleri sunar. Veri dosyalarını yerel paylaşılan dizinlerinize yerleştirin ve bu dosyalar hemen Sunucuya ve NextCloud Desktop Sync istemcisi, iOS uygulaması veya Android cihazlarını kullanarak diğer cihazlara senkronize edilir.
+## **Genel Bakış** 
+**[NextCloud][1]  **ÜCRETSİZ ve güvenli bir **  Kendi kendine barındırılan bulut depolama çözümü**  PHP programlama dilinde yazılmıştır. Web arabirimini kullanarak veri erişimi sağlar ve Dropbox'a işlevsel olarak benzerdir. Dropbox ve Google Drive gibi tescilli bulut depolama çözümleri uygundur, ancak dosyalarınız sistemlerinde saklandığı için kişisel verileri toplamak için kullanılabilir. Güvenli, güvenli ve uyumlu dosya senkronizasyonu ve paylaşım çözümüne ihtiyacınız varsa, açık kaynak NextCloud sunucusuna geçebilirsiniz. NextCloud kurulumu özel ev sunucularınıza veya sanal bir özel sunucuya yüklenebilir.
+NextCloud Açık Kaynak **uçtan uca şifreleme**  sağlar, yani dosyaların sunucuya yüklenmeden önce istemci cihazında şifrelenebileceği anlamına gelir. Ayrıca, doğrudan NextCloud istemcisinden DOC, PPT, XLS dosyalarınızı oluşturabileceğiniz ve düzenleyebilmeniz için Collobora, On TOUSFICE NEXTCLOUD gibi bir çevrimiçi ofis paketi ile entegre edilebilir. NextCloud istemcisi indirmesinden sonra NextCloud Client indirdikten sonra NextCloud sunucunuzla bilgisayarınızdaki bir veya daha fazla dosya ve klasörü paylaşabilir ve senkronize edebilirsiniz. NextCloud masaüstü indirme ve mobil istemciler, kontrolünüz altındaki tüm cihazlarda senkronize ve paylaşma seçenekleri sunar. Veri dosyalarını yerel paylaşılan dizinlerinize yerleştirin ve bu dosyalar hemen Sunucuya ve NextCloud Desktop Sync istemcisi, iOS uygulaması veya Android cihazlarını kullanarak diğer cihazlara senkronize edilir.
 Bu öğretici, Apache ile Ubuntu 20.04 LTS Linux işletim sistemine NextCloud'u yüklemenize yardımcı olacaktır.
-  *** Önkoşulları (lamba yığını) yükleyin **
-  *** Ubuntu'da NextCloud Arşivi İndir **
-  *** MySQL veritabanı oluştur **
-  *** NextCloud Web yükleyicisini çalıştırın **
-  *** Sarma **
+  ***Önkoşulları (lamba yığını) yükleyin** 
+  ***Ubuntu'da NextCloud Arşivi İndir** 
+  ***MySQL veritabanı oluştur** 
+  ***NextCloud Web yükleyicisini çalıştırın** 
+  ***Sarma** 
 
 ## Adım 1: Önkoşul (lamba yığını) yükleyin
-NextCloud'u Ubuntu'ya yüklemek için ilk şey, Ubuntu LTS sisteminizde ** lamba sunucusu ** çalıştırmanız gerektiğidir. Sisteminize giriş yapın ve Terminal penceresine erişin. Zaten çalışan ** lamba yığınınız varsa ** Bu adımı atlayın Aksi takdirde gerekli bağımlılıkları yüklemek için aşağıdaki komutları kullanın.
+NextCloud'u Ubuntu'ya yüklemek için ilk şey, Ubuntu LTS sisteminizde **lamba sunucusu  **çalıştırmanız gerektiğidir. Sisteminize giriş yapın ve Terminal penceresine erişin. Zaten çalışan **  lamba yığınınız varsa**  Bu adımı atlayın Aksi takdirde gerekli bağımlılıkları yüklemek için aşağıdaki komutları kullanın.
 
 ### PHP'yi yükle
 Ubuntu sunucunuzda PHP sürüm 5.6 veya daha yüksek sürümün yüklenmesiyle başlayalım:
@@ -81,7 +81,7 @@ Bir yönetici hesabı oluşturmak ve veri klasörünün konumunu sağlamak için
 {{< figure align=center src="images/install-nextcloud-2.png" alt="Ubuntu Linux Server'da Apache ile NextCloud nasıl yüklenir">}}
 
 {{_LINE_69_}}
-Şimdi sayfanızı aşağı kaydırın ve veritabanı adını, veritabanı kullanıcı adı, şifreyi girin ve ** Bitiş Kurulumu ** düğmesine tıklayın.
+Şimdi sayfanızı aşağı kaydırın ve veritabanı adını, veritabanı kullanıcı adı, şifreyi girin ve **Bitiş Kurulumu**  düğmesine tıklayın.
 {{_LINE_71_}}
 
 {{< figure align=center src="images/nextcloud-server.png" alt="Apache ile NextCloud Ubuntu 20.04 nasıl kurulur">}}
@@ -95,7 +95,7 @@ Kurulum bittikten sonra, sonraki ekranda NextCloud Yönetici Gösterge Tablosunu
 {{_LINE_77_}}
 Tebrikler, Ubuntu LTS sisteminizde çalışan bir sonraki şirket içi bulut çözümünüz var. Artık ihtiyaçlarınızı mükemmel bir şekilde karşılamak için bulut sunucunuzu özelleştirmeye başlayabilirsiniz.
 
-## ** Sarma: ** {#4A1A}
+## **Sarma:**    {#4A1A}
 Tebrikler! Apache ** ile Ubuntu sunucusunda nextcloud'u başarıyla yapılandırdınız ve yüklediniz. Özel bir bulutun nasıl oluşturulacağını öğrendiniz. NextCloud Ubuntu Server, hemen hemen herkesin özel veya hibrit bulut depolama ihtiyaçlarını sunabilen inanılmaz bir bulut depolama işbirliği platformudur. Artık Ubuntu'ya NextCloud'u nasıl yükleyeceğinizi biliyorsunuz ve verileriniz kendi kendine barındırılan bulutunuzda güvenli ve güvenli. Yaklaşan öğreticilerimizde, web sunucusu çözüm yığınları ile ilgili daha ilginç konular hakkında tartışacağız.
 _ Bulut tabanlı kendi kendine barındırılan depolama çözümünü tercih edersiniz?. Herhangi bir sorunuz varsa, lütfen [iletişime geçin][3] ._
 

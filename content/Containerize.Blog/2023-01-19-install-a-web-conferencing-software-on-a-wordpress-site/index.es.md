@@ -19,17 +19,17 @@ Estamos aquí con otra publicación de blog en la categoría de [Software de vid
 Los siguientes puntos se cubrirán en este artículo:
 * [**¿Qué es BigblueButton?**][3]
 * [**Una breve introducción a WordPress**][4]
-***[¿Cómo instalar el complemento BigblueButton en WordPress?][5]**
+* **[¿Cómo instalar el complemento BigblueButton en WordPress?][5]**
 
-##**¿Qué es BigblueButton?**{#What-is-bigblueButton}
+##**¿Qué es BigblueButton?** {#What-is-bigblueButton}
 [BigblueButton][6] es un software de colaboración de video gratuito**de código abierto**con una gran pila de características de nivel empresarial. Este software de código abierto es altamente extensible y ofrece integraciones con muchas aplicaciones populares como WordPress, [RedMine][7], [Schoology][8], [Drupal][9] y Canvas. Además, ofrece una pizarra compartida, envía mensajes públicos/privados, audio HD, ascenso electrónico electrónico, junto con ricas herramientas de presentación. Además,**BigblueButton**es compatible con HTML5 y funciona bien en todos los navegadores web populares.
 Además, este**software de conferencia web**tiene una comunidad de desarrolladores enorme y viva. Hay muy buenas estadísticas en su [repositorio de GitHub][10] con 7.8k estrellas y 5.8k tenedores. BigblueButton está escrito en JavaScript junto con la entrada de otros idiomas como Java y Ruby. De hecho, los desarrolladores pueden encontrar documentación integral sobre el desarrollo, la implementación y el uso. Por lo tanto, puede configurar este software autohospedado en un servidor local o en la nube fácilmente.
 
-##**Una breve introducción a WordPress**{#A-Brief-Intro-to-WordPress}
+##**Una breve introducción a WordPress** {#A-Brief-Intro-to-WordPress}
 [WordPress][2] es una de las mejores plataformas de blogs de código abierto**en la categoría de software del sitio web. Este software de código abierto es fácil de usar, incluso un desarrollador web de nivel para principiantes puede hacer la creación de sitios y lanzarlo. Además, WordPress es altamente configurable y puede personalizarlo según los requisitos de su negocio. Sobre todo, tiene un inmenso [mercado][11] donde puede encontrar una serie de complementos.
 Este**Software de blogs**viene con capacidades de autohostación y hay un soporte completo para múltiples idiomas disponibles. Además, hay muy buenas estadísticas en su repositorio [Github][12] y puede descargar el código fuente y configurarlo fácilmente. Además, puede instalar un complemento para cualquier funcionalidad en su sitio web de WordPress. De hecho, puede encontrar complementos para los sitios que pertenecen a cualquier categoría. Se escribe principalmente en PHP y puede encontrar instrucciones completas sobre el desarrollo, la implementación y el uso.
 
-##**¿Cómo instalar el complemento BigblueButton en WordPress?**{#How-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-toc-bigblueButton-plugin-in-wordpress}
+##**¿Cómo instalar el complemento BigblueButton en WordPress?** {#How-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-to-toc-bigblueButton-plugin-in-wordpress}
 Esta sección demostrará cómo**Instalar software de conferencias web en un sitio de WordPress**. Además, también exploraremos un poco más el complemento BigblueButton. Antes de avanzar, asegúrese de haber instalado WordPress en su máquina y tener un sitio web comercial en funcionamiento.
 Visite este [enlace][2] En caso de que no haya instalado WordPress, puede encontrar instrucciones de instalación completas.
 Comencemos el proceso de instalación del BigblueButton [complemento][13] en WordPress.

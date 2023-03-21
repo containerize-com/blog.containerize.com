@@ -13,14 +13,14 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/Multi-tenancy-phplist.png" alt="Aplicativo multi-inquilino phplist">}}
 
-Neste artigo, abordaremos ** o que é multi-cinema ** e como podemos configurar ** aplicativo multi-inquilino ** no phplist.
+Neste artigo, abordaremos **o que é multi-cinema  **e como podemos configurar **  aplicativo multi-inquilino**  no phplist.
 
 ## O que é phplist?
-Ao decidir a estratégia de marketing, o email marketing é uma parte essencial de todas as empresas digitais on -line. O PHPLIST permite que as empresas atinjam um grande público. O PHPLIST é amplamente utilizado ** Software de Newsletter de código aberto ** para gerenciar listas e enviar boletins informativos. Ajuda as empresas a criar, agendar, enviar e analisar as campanhas de boletim. O PHPLIST suporta recursos como análise, segmentação, processamento de rejeição, plugins, APIs e muito mais.
+Ao decidir a estratégia de marketing, o email marketing é uma parte essencial de todas as empresas digitais on -line. O PHPLIST permite que as empresas atinjam um grande público. O PHPLIST é amplamente utilizado **Software de Newsletter de código aberto**  para gerenciar listas e enviar boletins informativos. Ajuda as empresas a criar, agendar, enviar e analisar as campanhas de boletim. O PHPLIST suporta recursos como análise, segmentação, processamento de rejeição, plugins, APIs e muito mais.
 
 ## O que é multi-tenancidade?
 A multi-ingestão é uma arquitetura na qual muitos clientes/sites são representados por uma única instância de um aplicativo de software. Na multi-ingestão, o site é considerado um inquilino. Cada inquilino possui recursos específicos, como configuração, temas, SMTP.
-Um aspecto importante da computação em nuvem é a multiestância. A arquitetura ** de vários inquilinos ** ajuda as empresas a alcançar um ROI melhor diminuindo os custos de manutenção e as atualizações rápidas de inquilinos. Além disso, os aplicativos projetados na arquitetura de multi-inquilinos podem ser escaláveis ​​facilmente.
+Um aspecto importante da computação em nuvem é a multiestância. A arquitetura **de vários inquilinos**  ajuda as empresas a alcançar um ROI melhor diminuindo os custos de manutenção e as atualizações rápidas de inquilinos. Além disso, os aplicativos projetados na arquitetura de multi-inquilinos podem ser escaláveis ​​facilmente.
 Podemos implementar a multiestância usando as seguintes abordagens.
   * Banco de dados compartilhado para todos os inquilinos.
   * Separe o banco de dados para cada inquilino.
@@ -29,7 +29,7 @@ Usaremos um banco de dados separado para cada abordagem de inquilino para implem
   * [Configurar banco de dados para inquilino][2]
   * [Configure o nginx para inquilino][3]
 
-## Handle Solicite Flow {#Request}
+## Handle Solicite Flow   {#Request}
   * Faça um backup do seu arquivo config.php e você pode encontrá -lo no diretório de configuração.
   * Crie um novo arquivo config.php e adicione o código a seguir para lidar com sites/inquilinos.
 ```
@@ -45,18 +45,18 @@ switch ($_SERVER['SERVER_NAME'])
 ```
 Substitua o exemplo.com pelo seu nome de domínio. Você também precisa criar um arquivo de configuração para cada inquilino. Copie o arquivo de backup do config.php e salve -o com um novo nome como config.example.com.php.
 
-## banco de dados de configuração para inquilino {#database}
+## banco de dados de configuração para inquilino   {#database}
   * Faça um backup do banco de dados phplist existente. Use -o para criar um banco de dados para o novo inquilino.
   * Open config.example.com.php File. Altere as credenciais do banco de dados e quaisquer outras configurações de acordo com o seu ambiente.
 
-## Configure nginx para inquilino {#nginx}
-  *Vá para o diretório nginx ** cd/etc/nginx/sites que estão disponíveis **.
+## Configure nginx para inquilino   {#nginx}
+  *Vá para o diretório nginx **cd/etc/nginx/sites que estão disponíveis** .
   * Copie o arquivo Config.php padrão e salve -o com o nome do seu site, como exemplo.com.
-  *Aberto exemplo.com Configuração com ** sudo nano exemplo.com **.
+  *Aberto exemplo.com Configuração com **sudo nano exemplo.com** .
   * Altere o caminho raiz, o server_name e quaisquer outras configurações.
-  *Teste configurações com ** sudo nginx -t **
-  *Finalmente, crie o Symlink executando ** sudo ln -s /etc/nginx/sites-available/example.com/etc/nginx/sites-enabled/**
-  *Reinicie o servidor da web nginx executando ** sudo systemctl reinicie nginx **, para que ele possa carregar o arquivo de configuração recém -criado.
+  *Teste configurações com **sudo nginx -t** 
+  *Finalmente, crie o Symlink executando  **sudo ln -s /etc/nginx/sites-available/example.com/etc/nginx/sites-enabled/** 
+  *Reinicie o servidor da web nginx executando **sudo systemctl reinicie nginx** , para que ele possa carregar o arquivo de configuração recém -criado.
 
 ## Conclusão
 O software multi-literário tem algumas vantagens em comparação com o aplicativo de redação única, como reduzir custos de manutenção, uso eficaz de recursos e atualizações fáceis de instalar. Se você for construir o software SaaS (software como serviço), poderá seguir a arquitetura multi-literária e aproveitar seu verdadeiro poder.

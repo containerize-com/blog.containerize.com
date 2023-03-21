@@ -19,13 +19,13 @@ MAUTIC adalah solusi otomatisasi pemasaran open source gratis dan open yang memb
   * [Menerapkan multi-tenancy in mautic][3]
   * [Kesimpulan][4]
 
-## Apa itu multi-tenancy {#multi-tenancy}
+## Apa itu multi-tenancy   {#multi-tenancy}
 Dalam arsitektur perangkat lunak multi-tenant, satu contoh aplikasi perangkat lunak melayani banyak penyewa. Setiap data penyewa diisolasi dari penyewa lain yang berbagi contoh aplikasi yang sama. Penyewa ini secara logis terisolasi, tetapi terintegrasi secara fisik. Ini memastikan keamanan dan privasi data untuk semua penyewa. Membuat beberapa penyewa dari satu contoh aplikasi membutuhkan lebih sedikit memori. Penyewa berbagi sumber daya dan mengurangi biaya untuk pemeliharaan perangkat lunak, infrastruktur, dan operasi pusat data. Biaya cenderung lebih rendah dari pada infrastruktur penyewa tunggal.
 
-## Apa itu mautik {#mautic}
+## Apa itu mautik   {#mautic}
 [MAUTIC][5] adalah perangkat lunak pemasaran open source gratis dan terbuka. Otomatis tugas pemasaran berulang seperti kampanye pemasaran, generasi pemimpin, segmentasi kontak, dll. Menggunakan MAUTIC. Ini memiliki fitur -fitur yang mengejutkan termasuk generasi pemimpin, pembangunan kampanye, segmentasi kontak, pembangun email, pengujian A/B, pembangun halaman, pemeliharaan timah dan banyak lagi. MAUTIC juga mendukung integrasi dengan semua platform sosial populer mis. Facebook, Twitter, LinkedIn. Semua fitur luar biasa ini membantu Anda meningkatkan pengalaman pelanggan secara keseluruhan dan meningkatkan otomatisasi pemasaran untuk bisnis Anda.
 
-## Implement Multi-tenancy di Mautic {#Implement}
+## Implement Multi-tenancy di Mautic   {#Implement}
   * Buat database kosong baru yang disebut sebagai "Main_DB".
   * Kemudian buat tabel bernama "Penyewa" yang akan menyimpan detail tentang semua penyewa.
   * Ini akan memiliki 3 bidang termasuk situs \ _name, url dan db \ _name seperti yang ditunjukkan pada gambar
@@ -48,7 +48,7 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Setelah itu, buat salinan mautic/app/config/local.php dan ganti namanya menjadi [situs_name] .php.
   * Akhirnya perbarui nama basis data, host, kata sandi, dan pengguna sesuai dengan database baru.
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Mautic adalah solusi otomatisasi pemasaran yang bebas, kaya, dan berorientasi kualitas. Ini memungkinkan Anda untuk membuat kampanye pemasaran, segmen, formulir, laporan, dan banyak lagi. Menerapkan multi-tenancy di MAUTIC mengurangi biaya, meningkatkan efisiensi, skalabilitas, dan keamanan. Mudah membuat ratusan penyewa hanya dari satu instalasi.
 
 ## Mengeksplorasi

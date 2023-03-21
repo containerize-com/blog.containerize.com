@@ -13,26 +13,26 @@ categories: ['Transactional Email']
 
 {{< figure align=center src="images/postal-banner.png" alt="Açık Kaynak Posta Sunucusu">}}
 
-Modern uygulamalar için farklı olay türlerine e -posta göndermek gereklidir. Giden e -postalar için her işletmenin güvenilir bir ** posta sunucusuna ** ihtiyacı vardır. Ayrıca, şirketler pazarlama kampanyaları, bültenler ve diğer birçok görev için toplu e -postalar göndermek için bir posta sunucusuna ihtiyaç duyar. Bunun için birkaç açık kaynak posta sunucusu ** vardır. Ancak, ** posta sunucusunu ** bu yazıda ayrıntılı olarak tartışacağız ve aşağıdaki konuları ele alacağız.
+Modern uygulamalar için farklı olay türlerine e -posta göndermek gereklidir. Giden e -postalar için her işletmenin güvenilir bir **posta sunucusuna  **ihtiyacı vardır. Ayrıca, şirketler pazarlama kampanyaları, bültenler ve diğer birçok görev için toplu e -postalar göndermek için bir posta sunucusuna ihtiyaç duyar. Bunun için birkaç açık kaynak posta sunucusu **  vardır. Ancak,  **posta sunucusunu**   bu yazıda ayrıntılı olarak tartışacağız ve aşağıdaki konuları ele alacağız.
   * [Posta Posta Sunucusu nedir?][1]
   * [Posta'nın özellikleri][2]
   * [Posta kurulumu][3]
   * [Sonuç][4]
 
-## Posta Posta Sunucusu nedir? {#Posta}
-[** Posta **][5] ücretsiz ve ** açık kaynaklı bir posta sunucusu **. Web siteleri ve web uygulamaları için tam özellikli bir posta sunucusudur. Posta Posta Sunucusu, SendGrid ve MailGun gibi mevcut popüler ** posta sunucusuna ** bir alternatiftir. ** Posta ** sağlam, güvenli ve ölçeklenebilir bir açık kaynak e -posta dağıtım platformudur. Tüm kaynak kodu ve belgeler [** GitHub **][6] 'da mevcuttur. İndirebilir, özel sunucunuza yükleyebilir ve üzerinde tam kontrolü koruyabilirsiniz. Ayrıca, iş ihtiyaçlarına göre geliştirebilir ve geliştirebilirsiniz. Ayrıca, ** Posta Posta Sunucusu ** birden fazla kuruluşu destekler.
-Kullanıcılar, gelen ve giden postaların hacmini gösteren grafikleri ve istatistikleri görüntüleyebilir. Ayrıca, giden ve gelen mesaj kuyruğuna tam olarak erişebilirsiniz. Posta Posta Sunucusu Webhooks için işlevsellik sağlar. Teslimat bilgileri hakkında canlı bilgi almak için WebHooks'u gerçek zamanlı olarak ayarlayabilirsiniz. Ayrıca, tüm gönderme ve alınan mesajları depolamanıza ve incelemenize olanak tanıyan mesaj tutma sunar. Kullanıcıların e -postayı almasını sağlamak için e -posta teslimi işletmede çok önemlidir. Ancak, bazen e -posta kullanıcıya teslim edilir ve sorunu araştırmanız gerekir. ** Gelen ve Giden Posta Sunucusu ** ayrıca soruşturmayı yapmak için eksiksiz bir günlük ve araçlar sağlar.
+## Posta Posta Sunucusu nedir?   {#Posta}
+[**Posta **][5] ücretsiz ve  **açık kaynaklı bir posta sunucusu ** . Web siteleri ve web uygulamaları için tam özellikli bir posta sunucusudur. Posta Posta Sunucusu, SendGrid ve MailGun gibi mevcut popüler  **posta sunucusuna **  bir alternatiftir.  **Posta **  sağlam, güvenli ve ölçeklenebilir bir açık kaynak e -posta dağıtım platformudur. Tüm kaynak kodu ve belgeler [ **GitHub ** ][6] 'da mevcuttur. İndirebilir, özel sunucunuza yükleyebilir ve üzerinde tam kontrolü koruyabilirsiniz. Ayrıca, iş ihtiyaçlarına göre geliştirebilir ve geliştirebilirsiniz. Ayrıca,  **Posta Posta Sunucusu**   birden fazla kuruluşu destekler.
+Kullanıcılar, gelen ve giden postaların hacmini gösteren grafikleri ve istatistikleri görüntüleyebilir. Ayrıca, giden ve gelen mesaj kuyruğuna tam olarak erişebilirsiniz. Posta Posta Sunucusu Webhooks için işlevsellik sağlar. Teslimat bilgileri hakkında canlı bilgi almak için WebHooks'u gerçek zamanlı olarak ayarlayabilirsiniz. Ayrıca, tüm gönderme ve alınan mesajları depolamanıza ve incelemenize olanak tanıyan mesaj tutma sunar. Kullanıcıların e -postayı almasını sağlamak için e -posta teslimi işletmede çok önemlidir. Ancak, bazen e -posta kullanıcıya teslim edilir ve sorunu araştırmanız gerekir. **Gelen ve Giden Posta Sunucusu**  ayrıca soruşturmayı yapmak için eksiksiz bir günlük ve araçlar sağlar.
 
-## Posta'nın özellikleri {#features}
+## Posta'nın özellikleri   {#features}
 Posta Posta Sunucusu birçok özellik sunar. Ancak, bu makalede aşağıdaki temel özellikleri tartışacağız.
-** E -posta Gönderme **: Posta Posta Sunucusu, HTTP API ve SMTP gibi giden e -postalar için iki teknik sağlar. Web uygulamalarıyla entegrasyon için HTTP API'sını kolayca kullanabilirsiniz. Mevcut uygulamalar ve sistemlerle entegrasyon için bir SMTP sunucusu da kullanabilirsiniz.
-** Gelen e -postalar **: ** Gelen posta ** Posta Posta Sunucusunu kullanarak HTTP Bitiş Noktası, ** SMTP Sunucusu ** ve diğer e -posta adreslerine iletilebilir.
-** Spam ve virüs kontrolü **: Spamasssin ve Clamav, posta sunucularından geçerken gelen ve giden mesajları otomatik olarak taramak için posta ile entegre edilebilir. Bu özellik varsayılan olarak da kapalıdır.
-** Tıklayın ve İzlemeyi Aç **: E -posta açılışları ve tıklamalar posta ile izlenebilir. Posta, giden mesajlarınızı tarayacak ve bağlantıları posta web sunucunuzdan geçen yeni bir bağlantı ile değiştirecektir. Kullanıcı bağlantıyı tıkladığında, posta eylemi kaydeder ve bunları anında orijinal URL'ye yönlendirir. Ancak, bu varsayılan olarak etkinleştirilmez.
-** IP Havuzları **: Posta, çeşitli IP adreslerinden mesaj göndermenizi sağlar. Bu, gönderen veya alıcı adreslerine bağlı olarak farklı posta sunucularına birden fazla IP adresi atamanıza veya farklı IP'lerden göndermenize olanak tanır.
+**E -posta Gönderme** : Posta Posta Sunucusu, HTTP API ve SMTP gibi giden e -postalar için iki teknik sağlar. Web uygulamalarıyla entegrasyon için HTTP API'sını kolayca kullanabilirsiniz. Mevcut uygulamalar ve sistemlerle entegrasyon için bir SMTP sunucusu da kullanabilirsiniz.
+**Gelen e -postalar **:  **Gelen posta **  Posta Posta Sunucusunu kullanarak HTTP Bitiş Noktası,  **SMTP Sunucusu**   ve diğer e -posta adreslerine iletilebilir.
+**Spam ve virüs kontrolü** : Spamasssin ve Clamav, posta sunucularından geçerken gelen ve giden mesajları otomatik olarak taramak için posta ile entegre edilebilir. Bu özellik varsayılan olarak da kapalıdır.
+**Tıklayın ve İzlemeyi Aç** : E -posta açılışları ve tıklamalar posta ile izlenebilir. Posta, giden mesajlarınızı tarayacak ve bağlantıları posta web sunucunuzdan geçen yeni bir bağlantı ile değiştirecektir. Kullanıcı bağlantıyı tıkladığında, posta eylemi kaydeder ve bunları anında orijinal URL'ye yönlendirir. Ancak, bu varsayılan olarak etkinleştirilmez.
+**IP Havuzları** : Posta, çeşitli IP adreslerinden mesaj göndermenizi sağlar. Bu, gönderen veya alıcı adreslerine bağlı olarak farklı posta sunucularına birden fazla IP adresi atamanıza veya farklı IP'lerden göndermenize olanak tanır.
 
-## Posta Kurulumu {#installation}
-Ubuntu 18.04'e Posta ** Posta Sunucusu Yazılımı ** yüklemek için aşağıdaki adım adım kılavuzu izleyin.
+## Posta Kurulumu   {#installation}
+Ubuntu 18.04'e Posta **Posta Sunucusu Yazılımı**  yüklemek için aşağıdaki adım adım kılavuzu izleyin.
   * İlk olarak, sunucunuzu Vis SSH bağlamanız gerekir. Sistemi güncellemek için aşağıdaki komutu en son mevcut paketlerle çalıştırın.
 ```
 sudo apt-get update
@@ -280,15 +280,15 @@ sudo systemctl restart nginx
 ```
   * Son olarak, tarayıcınızı açın ve https://postal.example.com URL'sini yazın. Giriş sayfasına yönlendirileceksiniz.
 
-## Sonuç {#Conclusion}
-Posta Posta Sunucusunun tanıtımını ve birincil özelliklerini büyük derinlemesine inceledik. Ayrıca bu ** posta aktarım aracısı ** ayarlamak için adım adım talimatlar ekledik. Dahası, kurulum hakkında bir fikir verdik. Posta posta sunucusu kurmak basit bir işlemdir. Umarım bu makalenin işletmeniz için bir posta sunucusu kurma ve yapılandırmada gerçekten yardımcı olduğunu umuyorum.
-Son olarak, [** Containerize.com **][7], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [** işlem e -posta **][8] kategorisiyle iletişim halinde olun.
+## Sonuç   {#Conclusion}
+Posta Posta Sunucusunun tanıtımını ve birincil özelliklerini büyük derinlemesine inceledik. Ayrıca bu **posta aktarım aracısı**  ayarlamak için adım adım talimatlar ekledik. Dahası, kurulum hakkında bir fikir verdik. Posta posta sunucusu kurmak basit bir işlemdir. Umarım bu makalenin işletmeniz için bir posta sunucusu kurma ve yapılandırmada gerçekten yardımcı olduğunu umuyorum.
+Son olarak, [**Containerize.com **][7], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [ **işlem e -posta**  ][8] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** Üst İşlemsel E -posta Yazılımı **][9]
-  *[** Potal - Açık Kaynak Posta Sunucusu **][5]
-  *[** 2020'de işletmeler için en iyi açık kaynaklı posta sunucusu yazılımı **][10]
+  *[**Üst İşlemsel E -posta Yazılımı** ][9]
+  *[**Potal - Açık Kaynak Posta Sunucusu** ][5]
+  *[**2020'de işletmeler için en iyi açık kaynaklı posta sunucusu yazılımı** ][10]
 
   
 [1]: #Postal

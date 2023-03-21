@@ -17,27 +17,27 @@ categories: ['Healthcare Software']
 ## Visão geral
 Recentemente, publicamos um post no [como o software de saúde on -line capacita a indústria de saúde][1] que descreve o impacto do sistema de gerenciamento hospitalar de código aberto no setor de saúde. A indústria global de software de saúde está ganhando valor com o passar do tempo. De fato é que a tecnologia transformou todos os campos da vida. O número de pacientes e funcionários se tornou tão alto que se tornou um aborrecimento gerenciar dados tão enormes. Por outro lado, existem muitas tarefas demoradas que ocorrem todos os dias e as entidades de saúde executam repetidamente essas tarefas. Portanto, a comunidade de fontes de código aberto desenvolveu software médico de código aberto que acompanha muitos módulos úteis para atender às necessidades de assistência médica.
 Software médico de código aberto é desenvolvido para gerenciar registros de pacientes em relação ao seu histórico médico, bem como às disposições para o gerenciamento hospitalar. Além disso, o software de saúde de código aberto está alavancando a inteligência artificial para fornecer níveis avançados de serviços. A maioria dos tratamentos de doenças está sendo tratada pelo software que não apenas diagnostica os problemas, mas também fornece assistência na cura. No entanto, existem muitos softwares emergentes para hospitais. Nesta postagem do blog, abordaremos os seguintes pontos.
-  *[** O que é Hospitalrun? **][2]
-  *[** Quais são as características do hospital **][3]
-  *[** Etapas de instalação do hospitalrun? **][4]
-  *[** Conclusão **][5]
+  *[**O que é Hospitalrun?** ][2]
+  *[**Quais são as características do hospital** ][3]
+  *[**Etapas de instalação do hospitalrun?** ][4]
+  *[**Conclusão** ][5]
 
-## O que é Hospitalrun? {#Intro}
+## O que é Hospitalrun?   {#Intro}
 O HospitalRun é um sistema de gerenciamento de informações hospitalares gratuitas de código aberto. Essa solução gratuita de assistência médica é amigável ao meio ambiente, pois os usuários podem fazer uso total deste software livre, mesmo que não haja conectividade à Internet. Ele fornece muitos recursos, como gerenciamento de usuários, registros de pacientes, compromissos, sistema de cobrança, sistema de descarga de pacientes e muito mais. A interface do usuário deste sistema de eHealth de código aberto é lógico, onde os usuários podem navegar por diferentes elementos facilmente. Além disso, é fácil configurar e oferece uma imagem do Docker, onde os desenvolvedores podem implantá -la usando uma imagem do Docker.
-Este ** sistema de gerenciamento hospitalar ** oferece provisão para integrar laboratórios para centralizar os registros médicos do paciente. Além disso, ele também permite que os usuários mantenham registros de visitas a pacientes, medicamentos e avaliações. Este sistema de registros de eHealth é seguro, flexível e oferece integrações com aplicativos de terceiros. Há uma comunidade muito vibrante que fornece suporte ao HospitalRun. Além disso, existe um sistema completo de alta do paciente. Este software médico de código aberto está completamente escrito em JavaScript. Além disso, há uma documentação abrangente disponível em relação ao desenvolvimento e implantação. De fato, esse software médico de código aberto fornece diferentes painéis para diferentes departamentos, como o Departamento de Apoio, o Departamento Clínico e o Departamento Administrativo. Todas essas funções vêm com diferentes níveis de permissão e acesso.
+Este **sistema de gerenciamento hospitalar**  oferece provisão para integrar laboratórios para centralizar os registros médicos do paciente. Além disso, ele também permite que os usuários mantenham registros de visitas a pacientes, medicamentos e avaliações. Este sistema de registros de eHealth é seguro, flexível e oferece integrações com aplicativos de terceiros. Há uma comunidade muito vibrante que fornece suporte ao HospitalRun. Além disso, existe um sistema completo de alta do paciente. Este software médico de código aberto está completamente escrito em JavaScript. Além disso, há uma documentação abrangente disponível em relação ao desenvolvimento e implantação. De fato, esse software médico de código aberto fornece diferentes painéis para diferentes departamentos, como o Departamento de Apoio, o Departamento Clínico e o Departamento Administrativo. Todas essas funções vêm com diferentes níveis de permissão e acesso.
 
-## Quais são os recursos do Hospitalrun? {#características}
+## Quais são os recursos do Hospitalrun?   {#características}
 Nesta seção, passaremos por alguns dos seguintes recursos importantes deste sistema de eHealth.
-  *** auto-hospedado **: O HospitalRun vem com recursos de auto-hospedagem e requer menos esforços para implantar nos servidores.
-  *** Agendamento de compromisso **: Este sistema de saúde permite que os usuários agendam compromissos. Há um módulo completo para compromissos disponíveis no painel. Além disso, os usuários podem pesquisar os compromissos com a ajuda de filtros.
-  *** Sistema de alta do paciente **: Este sistema de gerenciamento hospitalar mantém o registro de pacientes que receberam alta.
-  *** Gerenciamento de medicamentos **: Este sistema de registro de eHealth permite que os usuários registrem dados completos da medicação de um paciente em particular.
-  *** Gerenciamento de registros de pacientes **: Existe um módulo completo para o gerenciamento de registros dos pacientes. Os usuários podem registrar os detalhes de novos pacientes, admitidos pacientes contra seu histórico médico completo, como medicina, relatórios e visitas.
-  *** Sistema de cobrança personalizado **: Existe um rico sistema de cobrança disponível neste software de saúde de código aberto. Ele permite que os usuários gerem e gerenciem faturas com detalhes completos, como preços de laboratório, cobranças de enfermaria, preços de imagem e etc.
-  *** Registros médicos eletrônicos **: Este software médico de código aberto fornece todos os módulos necessários para manter registros médicos e administrativos.
-  *** Flexível **: O HospitalRun é flexível e extensível o suficiente para que os desenvolvedores possam estender sua funcionalidade para atender às funcionalidades necessárias.
+  ***auto-hospedado** : O HospitalRun vem com recursos de auto-hospedagem e requer menos esforços para implantar nos servidores.
+  ***Agendamento de compromisso** : Este sistema de saúde permite que os usuários agendam compromissos. Há um módulo completo para compromissos disponíveis no painel. Além disso, os usuários podem pesquisar os compromissos com a ajuda de filtros.
+  ***Sistema de alta do paciente** : Este sistema de gerenciamento hospitalar mantém o registro de pacientes que receberam alta.
+  ***Gerenciamento de medicamentos** : Este sistema de registro de eHealth permite que os usuários registrem dados completos da medicação de um paciente em particular.
+  ***Gerenciamento de registros de pacientes** : Existe um módulo completo para o gerenciamento de registros dos pacientes. Os usuários podem registrar os detalhes de novos pacientes, admitidos pacientes contra seu histórico médico completo, como medicina, relatórios e visitas.
+  ***Sistema de cobrança personalizado** : Existe um rico sistema de cobrança disponível neste software de saúde de código aberto. Ele permite que os usuários gerem e gerenciem faturas com detalhes completos, como preços de laboratório, cobranças de enfermaria, preços de imagem e etc.
+  ***Registros médicos eletrônicos** : Este software médico de código aberto fornece todos os módulos necessários para manter registros médicos e administrativos.
+  ***Flexível** : O HospitalRun é flexível e extensível o suficiente para que os desenvolvedores possam estender sua funcionalidade para atender às funcionalidades necessárias.
 
-## Etapas de instalação do Hospitalrun? {#passos}
+## Etapas de instalação do Hospitalrun?   {#passos}
 Esta seção da postagem do blog descreve as etapas de instalação do HospitalRun.
 Antes de começarmos, primeiro instale os seguintes pré-requisitos:
   * [Docker][6]
@@ -58,9 +58,9 @@ Por fim, você pode acessar esta solução de saúde no navegador em http: // lo
 {{< figure align=center src="images/Screenshot-2021-02-16-at-23.46.35-1024x676.png" alt="Sistema de gerenciamento hospitalar">}}
 
 
-## Conclusão {#conclusion}
-Este é o fim deste artigo do tutorial. Este sistema de registro de pacientes realmente ajuda a automatizar os serviços de saúde ** **. O moderno sistema de gerenciamento hospitalar de código aberto vem com ferramentas analíticas de dados que ajudam os profissionais de saúde a tomar as ações necessárias para melhores instalações de saúde. Esta postagem do blog realmente o ajudará se você estiver seriamente buscando implantar um sistema de eHealth para o seu hospital/clínica. Essas soluções de código aberto são econômicas, pois são integradas aos laboratórios e outras clínicas e também minimizam a papelada, informando todos os processos. A solução de saúde de código aberto permite que os usuários tenham visuais de todas as operações de saúde, como medicamentos, descargas, relatórios e gerenciamento de faturamento dos pacientes. Além disso, você pode se concentrar em outras tarefas importantes, como planejamento de recursos e avaliação de riscos. No entanto, existem muitos outros softwares de nível corporativo para hospitais mencionados na seção "Explorar" abaixo.
-No final, **** [containerize.com][9] **** pretende escrever em produtos de código aberto adicionais. Portanto, mantenha contato com esta categoria [Healthcare Technologies][10] para as atualizações mais recentes.
+## Conclusão   {#conclusion}
+Este é o fim deste artigo do tutorial. Este sistema de registro de pacientes realmente ajuda a automatizar os serviços de saúde  **** . O moderno sistema de gerenciamento hospitalar de código aberto vem com ferramentas analíticas de dados que ajudam os profissionais de saúde a tomar as ações necessárias para melhores instalações de saúde. Esta postagem do blog realmente o ajudará se você estiver seriamente buscando implantar um sistema de eHealth para o seu hospital/clínica. Essas soluções de código aberto são econômicas, pois são integradas aos laboratórios e outras clínicas e também minimizam a papelada, informando todos os processos. A solução de saúde de código aberto permite que os usuários tenham visuais de todas as operações de saúde, como medicamentos, descargas, relatórios e gerenciamento de faturamento dos pacientes. Além disso, você pode se concentrar em outras tarefas importantes, como planejamento de recursos e avaliação de riscos. No entanto, existem muitos outros softwares de nível corporativo para hospitais mencionados na seção "Explorar" abaixo.
+No final, ****[containerize.com][9] ****  pretende escrever em produtos de código aberto adicionais. Portanto, mantenha contato com esta categoria [Healthcare Technologies][10] para as atualizações mais recentes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:

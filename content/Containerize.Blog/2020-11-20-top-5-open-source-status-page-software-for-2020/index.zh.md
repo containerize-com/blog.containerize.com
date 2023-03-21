@@ -20,8 +20,8 @@ categories: ['Status Page']
   * [Staytus][4]
   * [statusfy][5]
 
-## cachet {#cachet}
-[Cachet][6]正在领导服务的免费和开源状态页面系统。它可以帮助企业改善停机时间和系统中断。此外，您可以向订户发送通知并将其更新。 ** cachet **可以轻松地与第三方网站集成，例如pingometer，zabbix，nagios等。
+## cachet   {#cachet}
+[Cachet][6]正在领导服务的免费和开源状态页面系统。它可以帮助企业改善停机时间和系统中断。此外，您可以向订户发送通知并将其更新。 **cachet** 可以轻松地与第三方网站集成，例如pingometer，zabbix，nagios等。
 
 {{< figure align=center src="images/Cachet.png" alt="Cachet-基于PHP Laravel开源状态页面系统">}}
 
@@ -33,8 +33,8 @@ categories: ['Status Page']
   *安排维护
 [了解有关Cachet的更多信息][7]
 
-## Statping {#statping}
-[Statping][8]是一个出色的现代**开源监控系统**用于所有服务。它具有令人印象深刻的功能列表，例如图形，分析和插件。 ** statping **是一种易于使用的软件，可以在任何环境上运行它。此外，它会自动获取用于监视的应用程序，并且您无需为其配置第三方软件。
+## Statping   {#statping}
+[Statping][8]是一个出色的现代**开源监控系统**用于所有服务。它具有令人印象深刻的功能列表，例如图形，分析和插件。 **statping** 是一种易于使用的软件，可以在任何环境上运行它。此外，它会自动获取用于监视的应用程序，并且您无需为其配置第三方软件。
 
 {{< figure align=center src="images/Statping.png" alt="Statping-基于PHP的开源状态页面系统">}}
 
@@ -46,7 +46,7 @@ categories: ['Status Page']
   *网钩
 [了解有关Statping的更多信息][9]
 
-## Monitory {#monitoror}
+## Monitory   {#monitoror}
 [Monitory] ​​[10]是一个功能强大且轻巧的开源监视软件，适用于一个地方的所有工具。它为监视网站，API，PING服务器甚至任何特定端口等服务提供支持。它可以安装在您的专用服务器上，您可以控制数据。 **监视器**以GO语言开发，源代码可通过[Github][11]获得。
 
 {{< figure align=center src="images/Monitoror.png" alt="监视器 - 开源状态页系统">}}
@@ -59,8 +59,8 @@ categories: ['Status Page']
   *支持服务器端口监视
 [了解有关监视器的更多信息][12]
 
-## Staytus {#staytus}
-[Staytus][13]是一个美丽而自我托管的状态页面系统。它充满了您所期望的所有系统的所有现代功能。它使企业能够添加维护会议并将其发布在状态网站上，以使客户更新。 ** Staytus **还允许使用JSON API从外部应用程序中更新状态。
+## Staytus   {#staytus}
+[Staytus][13]是一个美丽而自我托管的状态页面系统。它充满了您所期望的所有系统的所有现代功能。它使企业能够添加维护会议并将其发布在状态网站上，以使客户更新。 **Staytus** 还允许使用JSON API从外部应用程序中更新状态。
 
 {{< figure align=center src="images/Staytus-1.png" alt="Staytus-开源状态页系统">}}
 
@@ -72,7 +72,7 @@ categories: ['Status Page']
   *从外部应用程序更新状态
 [了解有关Staytus的更多信息][14]
 
-## statusfy {#statusfy}
+## statusfy   {#statusfy}
 [statusfy][15]是一个绝对免费的开源状态页面系统。它易于使用，还允许使用任何语言创建快速的静态系统。 Progressive Web应用程序（PWA）是核心功能，即使在离线时，也有助于加快网站无需页面重新加载的速度。除上述内容外，**状态**可以将其部署到各种托管服务中，并以最小的努力。
 
 {{< figure align=center src="images/Statusfy-1.png" alt="Statusfy-开源状态页系统">}}

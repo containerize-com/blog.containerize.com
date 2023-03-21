@@ -24,19 +24,19 @@ categories: ['Artificial intelligence']
 * [**配置设置**][8]
 * [**测试和调试**][9]
 
-## 步骤1：如何集成chatgpt {#how-to-integrate-chatgpt}
+## 步骤1：如何集成chatgpt   {#how-to-integrate-chatgpt}
 获得**ChatGpt集成**进入您的电子商务网站，这是个性化产品建议的第一步。为了做到这一点，您必须使用PHP向[OpenAI API][10]发送请求，其中包含CHATGPT的必要信息以生成响应。上下文可能包括为用户浏览和购买历史记录。
 
-## 步骤2：存储用户数据{#Store-user-data}
+## 步骤2：存储用户数据 {#Store-user-data}
 必须存储用户数据，以便Chatgpt生成个性化的产品建议。但是，数据可能包含有关用户浏览历史记录和购买的信息。因此，数据应牢固存储并仅用于生成个性化产品建议。
 
-## 步骤3：显示建议{#display-recommendations}
+## 步骤3：显示建议 {#display-recommendations}
 之后，下一步是在集成ChatGpt并存储必要的用户数据后，在您的电子商务网站上显示Chatgpt生成的产品建议。因此，您可以在产品页面或网站的单独部分中显示建议。
 
-## 步骤4：配置设置{#configure-settings}
+## 步骤4：配置设置 {#configure-settings}
 为了确保Chatgpt的产品建议准确且相关，需要配置扩展名。此外，您可以指定API端点URL，API键以及要显示的建议数量。
 
-## 步骤5：测试和调试{#test-and-debug}
+## 步骤5：测试和调试 {#test-and-debug}
 为了确保扩展名按预期工作，必须对其进行测试和调试。此外，它可能涉及测试CHATGPT集成，测试用户数据的存储以及测试建议的显示。
 最重要的是，您可以看到以下代码片段，以实现如何与电子商务网站**进行**CHATGPT集成**，以生成个性化的产品建议：
 {{< gist fahadadeel 53a1ae29d023baf8d90ed81ac2a55914 >}}

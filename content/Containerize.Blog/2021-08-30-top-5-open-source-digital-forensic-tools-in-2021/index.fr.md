@@ -40,7 +40,7 @@ Amnesty International a publié une boîte à outils appelée [Mobile Verificati
   * Générez une chronologie toutes des traces malveillantes détectées.
 **Lien**:
 
-## 2. Wireshark - Analyse du protocole de réseau {# ce62}
+## 2. Wireshark - Analyse du protocole de réseau   {# ce62}
 [Wireshark][2] est un outil qui analyse un paquet réseau. Il peut être utilisé pour les tests de réseau et le dépannage. Cet outil vous aide à vérifier différents trafics en passant par votre système informatique.
 **Caractéristiques**:
   * Il fournit une analyse Rich VoIP (Protocol de voix sur Internet).
@@ -50,9 +50,9 @@ Amnesty International a publié une boîte à outils appelée [Mobile Verificati
   * Prise en charge du décryptage pour de nombreux protocoles qui incluent IPSEC (Internet Protocol Security), SSL (Secure Sockets Layer) et WEP (Livalet Wired Condual).
   * Vous pouvez appliquer une analyse intuitive, des règles de coloriage au paquet.
   * Vous permet de lire ou d'écrire un fichier dans n'importe quel format.
-** lien **: [https://www.wireshark.org][2]
+**lien** : [https://www.wireshark.org][2]
 
-## 3. Le kit Sleuth et l'autopsie - Analyse du disque {# CE62}
+## 3. Le kit Sleuth et l'autopsie - Analyse du disque   {# CE62}
 [Sleuth Kit & Autopsy][3] est un outil utilitaire basé sur Windows qui facilite l'analyse médico-légale des systèmes informatiques. Cet outil vous permet d'examiner votre disque dur et votre smartphone.
 **Caractéristiques**:
   * Vous pouvez identifier efficacement l'activité en utilisant une interface graphique.
@@ -62,18 +62,18 @@ Amnesty International a publié une boîte à outils appelée [Mobile Verificati
   * Vous pouvez marquer des fichiers avec les noms de balises arbitraires.
   * Le kit Sleuth vous permet d'extraire des données des journaux d'appels, des SMS, des contacts, etc.
   * Il vous aide à signaler les fichiers et les dossiers en fonction du chemin et du nom.
-** lien **: [https://www.sleuthkit.org][3]
+**lien** : [https://www.sleuthkit.org][3]
 
-## 4. Framework de volatilité - Mémoire Forensics {# Ce62}
+## 4. Framework de volatilité - Mémoire Forensics   {# Ce62}
 [Framework de volatilité][4] est un logiciel pour l'analyse de la mémoire et la criminalistique. C'est l'un des meilleurs outils d'imagerie médico-légale qui vous aide à tester l'état d'exécution d'un système à l'aide des données trouvées dans RAM. Cette application vous permet de collaborer avec vos coéquipiers.
 **Caractéristiques**:
   * Il a une API qui vous permet de rechercher rapidement des recherches de PTE (entrée de la table de page).
   * Le cadre de volatilité prend en charge Kaslr (randomisation de mise en page de l'espace d'adresse du noyau).
   * Cet outil fournit de nombreux plugins pour vérifier le fonctionnement du fichier Mac.
   * Il exécute automatiquement la commande de défaillance lorsqu'un service ne parvient pas à démarrer plusieurs fois.
-** lien **: [https://www.volatityfoundation.org][4]
+**lien** : [https://www.volatityfoundation.org][4]
 
-## 5. Sans Investigative Forensic Toolkit (SIFT) - SIFT Workstation for Ubuntu {# B49B}
+## 5. Sans Investigative Forensic Toolkit (SIFT) - SIFT Workstation for Ubuntu   {# B49B}
 [SANS SIFT][5] est une distribution de criminalistique informatique basée sur Ubuntu. Il s'agit de l'un des meilleurs outils médico-légaux informatiques qui fournit un établissement d'examen médico-légal et de réponse aux incidents numérique.
 **Caractéristiques**:
   * Il peut fonctionner sur un système d'exploitation 64 bits.
@@ -81,13 +81,13 @@ Amnesty International a publié une boîte à outils appelée [Mobile Verificati
   * Il met automatiquement à jour le package DFIR (Frinsics numérique et réponse des incidents).
   * Vous pouvez l'installer via l'installateur SIFT-CLI (interface de ligne de commande).
   * Cet outil contient de nombreux derniers outils et techniques médico-légaux.
-** Lien **: [https://digital-forrensics.sans.org/
+**Lien** : [https://digital-forrensics.sans.org/
 
 ## Pourquoi avez-vous besoin d'un logiciel médico-légal numérique?
 Vous avez besoin d'un outil de criminalistique numérique car il joue un rôle important dans une infrastructure complète de cybersécurité. La criminalistique numérique et la cybersécurité travaillent ensemble pour protéger votre présence en ligne et vos informations de données privées. Digital Forensics Software (DFS) est spécialisé dans l'étude des systèmes, des routeurs ou des serveurs informatiques dans le contexte des événements de sécurité.
 La criminalistique numérique peut être utile aux sociétés ainsi qu'aux cabinets d'avocats pour identifier les cybermenaces. Votre entreprise a besoin d'outils médico-légaux numériques pour augmenter la cybersécurité en réduisant le risque de vol d'identité, de fraude et d'autres délits numériques. L'outil de criminalistique numérique collecte des informations à l'aide d'outils complexes afin de traduire une personne en justice pour l'exploitation ou la falsification d'informations privées.
 
-## Réflexions finales: {# 4A1A}
+## Réflexions finales:   {# 4A1A}
 Nous avons discuté des outils médico-légaux numériques open source les plus populaires couvrant de nombreuses implémentations avec un délai d'exécution plus rapide par rapport aux méthodes traditionnelles. Les outils de médecine légale de données sont largement dirigés par la technologie avec une alternative rapide à l'analyse manuelle. Ce sont quelques-uns des meilleurs outils gratuits que vous pouvez utiliser pour la criminalistique. Nous espérons que vous avez aimé lire la liste. Dans nos prochains articles de blog, nous discuterons de sujets plus intéressants sur les outils médico-légaux numériques open source.
 _Pour peut se joindre à nous sur [Twitter][7], [LinkedIn][8] et notre page [Facebook][9]. Quels outils médico-légaux numériques open source préférez-vous ?. Si vous avez des questions ou des commentaires, veuillez vous contacter][10].
 

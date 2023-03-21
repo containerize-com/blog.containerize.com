@@ -15,17 +15,17 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 
 
 ## **Überblick**
-** [Nextcloud][1] ** ist eine kostenlose und sichere ** selbst gehostete Cloud-Speicherlösung ** in PHP-Programmiersprache geschrieben. Es bietet Datenzugriff über die Weboberfläche und ähnlich wie bei Dropbox. Proprietäre Cloud -Speicherlösungen wie Dropbox und Google Drive sind praktisch, können jedoch zum Sammeln personenbezogener Daten verwendet werden, da Ihre Dateien auf ihren Systemen gespeichert sind. Wenn Sie sichere, sichere und konforme Datei -Synchronisation und Freigabelösung benötigen, können Sie auf Open Source NextCloud Server wechseln. NextCloud Setup kann auf Ihren privaten Heimservern oder auf einem virtuellen privaten Server installiert werden.
-Nextcloud Open Source bietet ** End-to-End-Verschlüsselung **, was bedeutet, dass Dateien auf dem Client-Gerät verschlüsselt werden können, bevor sie auf den Server hochgeladen werden. Es kann auch in eine Online -Office -Suite wie Collobora, nur intelligente, integriert werden, sodass Sie Ihren DOC-, PPT-, XLS -Dateien direkt vom nächsten Client erstellen und bearbeiten können. Sie können nach dem Download von NextCloud -Client eine oder mehrere Dateien und Ordner auf Ihrem Computer mit Ihrem NextCloud -Server freigeben und synchronisieren. NextCloud Desktop -Download und mobile Clients bieten Optionen zur Synchronisierung und Freigabe auf allen Geräten unter Ihrer Kontrolle. Platzieren Sie Datendateien in Ihren lokalen gemeinsam genutzten Verzeichnissen, und diese Dateien werden sofort mit dem NextCloud -Desktop -Sync -Client, iOS -App oder Android -Geräten mit dem Server und anderen Geräten synchronisiert.
+**[Nextcloud][1]  **ist eine kostenlose und sichere **  selbst gehostete Cloud-Speicherlösung**  in PHP-Programmiersprache geschrieben. Es bietet Datenzugriff über die Weboberfläche und ähnlich wie bei Dropbox. Proprietäre Cloud -Speicherlösungen wie Dropbox und Google Drive sind praktisch, können jedoch zum Sammeln personenbezogener Daten verwendet werden, da Ihre Dateien auf ihren Systemen gespeichert sind. Wenn Sie sichere, sichere und konforme Datei -Synchronisation und Freigabelösung benötigen, können Sie auf Open Source NextCloud Server wechseln. NextCloud Setup kann auf Ihren privaten Heimservern oder auf einem virtuellen privaten Server installiert werden.
+Nextcloud Open Source bietet **End-to-End-Verschlüsselung** , was bedeutet, dass Dateien auf dem Client-Gerät verschlüsselt werden können, bevor sie auf den Server hochgeladen werden. Es kann auch in eine Online -Office -Suite wie Collobora, nur intelligente, integriert werden, sodass Sie Ihren DOC-, PPT-, XLS -Dateien direkt vom nächsten Client erstellen und bearbeiten können. Sie können nach dem Download von NextCloud -Client eine oder mehrere Dateien und Ordner auf Ihrem Computer mit Ihrem NextCloud -Server freigeben und synchronisieren. NextCloud Desktop -Download und mobile Clients bieten Optionen zur Synchronisierung und Freigabe auf allen Geräten unter Ihrer Kontrolle. Platzieren Sie Datendateien in Ihren lokalen gemeinsam genutzten Verzeichnissen, und diese Dateien werden sofort mit dem NextCloud -Desktop -Sync -Client, iOS -App oder Android -Geräten mit dem Server und anderen Geräten synchronisiert.
 In diesem Tutorial können Sie NextCloud auf Ubuntu 20.04 LTS Linux -Betriebssystem mit Apache installieren.
-  *** Voraussetzungen installieren (Lampenstapel) **
-  *** Download NextCloud Archive auf Ubuntu **
-  *** MySQL -Datenbank erstellen **
-  *** NEXTCLOUD -Webinstallateur ausführen **
-  *** einpackt **
+  ***Voraussetzungen installieren (Lampenstapel)** 
+  ***Download NextCloud Archive auf Ubuntu** 
+  ***MySQL -Datenbank erstellen** 
+  ***NEXTCLOUD -Webinstallateur ausführen** 
+  ***einpackt** 
 
 ## Schritt 1: Voraussetzungen installieren (Lampenstapel)
-Das erste, um NextCloud auf Ubuntu zu installieren, ist, dass Sie auf Ihrem Ubuntu LTS -System ausgeführt werden müssen. Melden Sie sich in Ihr System an und greifen Sie zu einem Terminalfenster zu. Wenn Sie bereits ausgeführt werden ** Lampenstapel ** Überspringen Sie diesen Schritt an. Verwenden Sie die folgenden Befehle, um die erforderlichen Abhängigkeiten zu installieren.
+Das erste, um NextCloud auf Ubuntu zu installieren, ist, dass Sie auf Ihrem Ubuntu LTS -System ausgeführt werden müssen. Melden Sie sich in Ihr System an und greifen Sie zu einem Terminalfenster zu. Wenn Sie bereits ausgeführt werden **Lampenstapel**  Überspringen Sie diesen Schritt an. Verwenden Sie die folgenden Befehle, um die erforderlichen Abhängigkeiten zu installieren.
 
 ### PHP installieren
 Beginnen wir mit der Installation der PHP -Version 5.6 oder einer höheren Version auf Ihrem Ubuntu -Server:
@@ -81,7 +81,7 @@ Geben Sie neue Admin -Anmeldeinformationen ein, um ein Administratorkonto zu ers
 {{< figure align=center src="images/install-nextcloud-2.png" alt="So installieren Sie NextCloud mit Apache auf Ubuntu Linux Server">}}
 
 {{_LINE_69_}}
-Schieben Sie nun Ihre Seite nach unten und geben Sie den Datenbanknamen, den Datenbank -Benutzernamen und den Kennwort ein und klicken Sie auf ** Setup beenden **.
+Schieben Sie nun Ihre Seite nach unten und geben Sie den Datenbanknamen, den Datenbank -Benutzernamen und den Kennwort ein und klicken Sie auf **Setup beenden** .
 {{_LINE_71_}}
 
 {{< figure align=center src="images/nextcloud-server.png" alt="So installieren Sie NextCloud Ubuntu 20.04 mit Apache">}}
@@ -95,8 +95,8 @@ Sobald die Installation abgeschlossen ist, sollten Sie das NextCloud Admin -Dash
 {{_LINE_77_}}
 Herzlichen Glückwunsch, Sie haben eine arbeitende Cloud-Lösung von Nextcloud in Ihrem Ubuntu-LTS-System. Sie können jetzt Ihren Cloud -Server so anpassen, dass Sie Ihren Anforderungen perfekt entsprechen.
 
-## ** zusammengepackt: ** {#4a1a}
-Glückwunsch! Sie haben erfolgreich ** Konfiguriert und installiert NextCloud auf Ubuntu Server mit Apache **. Sie haben gelernt, wie man eine private Cloud erstellt. NextCloud Ubuntu Server ist eine erstaunliche Plattform für Cloud -Speicher -Kollaboration, die nahezu die privaten oder hybriden Cloud -Speicheranforderungen eines jeden erfüllen kann. Jetzt wissen Sie, wie Sie NextCloud auf Ubuntu installieren, und Ihre Daten sind in Ihrer selbst gehosteten Cloud sicher und sicher. In unseren bevorstehenden Tutorials werden wir über interessante Themen im Zusammenhang mit Webserver -Lösungsstapeln besprechen.
+## **zusammengepackt:**    {#4a1a}
+Glückwunsch! Sie haben erfolgreich **Konfiguriert und installiert NextCloud auf Ubuntu Server mit Apache** . Sie haben gelernt, wie man eine private Cloud erstellt. NextCloud Ubuntu Server ist eine erstaunliche Plattform für Cloud -Speicher -Kollaboration, die nahezu die privaten oder hybriden Cloud -Speicheranforderungen eines jeden erfüllen kann. Jetzt wissen Sie, wie Sie NextCloud auf Ubuntu installieren, und Ihre Daten sind in Ihrer selbst gehosteten Cloud sicher und sicher. In unseren bevorstehenden Tutorials werden wir über interessante Themen im Zusammenhang mit Webserver -Lösungsstapeln besprechen.
 _What Cloud-basierte selbst gehostete Speicherlösung bevorzugen Sie? Wenn Sie Fragen haben, setze dich bitte an [3] ._
 
 ## Erkunden:

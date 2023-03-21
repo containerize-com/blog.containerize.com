@@ -18,14 +18,14 @@ categories: ['Blogging']
 Gatsbyjs是一种基于GraphQl驱动的静态站点生成器的免费开源反应。它使用功能强大的预配置来构建一个网站，该网站仅使用静态文件来实现令人难以置信的快速页面加载。 WordPress是一个很棒的开源博客平台。结果，有很多人知道如何弄清楚网站是否是WordPress网站，以便他们可以黑客入侵并窃取信息。一起使用Gatsby WordPress将为您提供WordPress内容管理和Gatsby速度的相同功能。
 在本文中，我们将研究盖茨比是什么以及为什么需要将其与CMS软件一起使用。然后，我们将详细介绍如何使用WordPress和Gatsby一起建立出色的网站体验。开始吧！
   *[**什么是盖茨比**？][1]
-  *** [使用WordPress和Gatsby的利弊][2] **
-  *** [如何将Gatsby与WordPress一起使用][3] **
-  *** [结论][4] **
+  ***[使用WordPress和Gatsby的利弊][2]** 
+  ***[如何将Gatsby与WordPress一起使用][3]** 
+  ***[结论][4]** 
 
-## 什么是gatsby {#gatsby}
+## 什么是gatsby   {#gatsby}
 盖茨比是静态站点生成器。这意味着Gatsby生成了上传到网站服务器的静态HTML文件。当访问者降落在您的网站上时，这些静态文件就会将其提供给其浏览器，而不是动态内容WordPress通常使用。这是一个基于React的免费开源框架，可帮助开发人员构建炽烈的网站和应用程序。
 
-## 使用WordPress和Gatsby {#proscons}的优点和缺点
+## 使用WordPress和Gatsby   {#proscons}的优点和缺点
 根据盖茨比（Gatsby）的官方[文件][5]，他们已经编译了一张桌子，盖茨比WordPress的组合很棒，而不是谁。为了轻松，我在这里列出这些。
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -105,7 +105,7 @@ Gatsbyjs是一种基于GraphQl驱动的静态站点生成器的免费开源反�
 {{_LINE_98_}}
 {{_LINE_99_}}
 
-## 如何将gatsby与wordpress {#howto}使用
+## 如何将gatsby与wordpress   {#howto}使用
 在安装Gatsby之前，您需要在网站环境中安装[Nodejs][6]和[NPM][7]。
 
 ### 步骤1  - 安装盖茨比
@@ -196,7 +196,7 @@ exports.createPages = async ({ graphql, actions }) => {
 ```
 调用所有数据后，Gatsby将为每个帖子生成一个页面。使用开发命令，您可以使用生成的URL导航到每个新页面。
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 在这个盖茨比WordPress教程中，我们介绍了如何从WordPress生成Gatsby网站。我们了解了这两个开源软件的优缺点。我们还介绍了如何从Gatsby开发环境开始安装和开始。
 最后，[Containerize.com][8]正在撰写有关进一步开源产品的文章。因此，请与开源[Blogging][9]平台类别保持联系，以进行常规新闻和更新。
 

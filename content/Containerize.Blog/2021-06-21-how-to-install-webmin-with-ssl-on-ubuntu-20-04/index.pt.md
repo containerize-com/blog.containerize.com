@@ -14,17 +14,17 @@ categories: ['Web Hosting']
 
 ## O Webmin é uma ferramenta de administração de sistemas baseada na Web que é uma alternativa simples à administração do sistema de linha de comando. Este artigo orienta como instalar webmin
 Com este artigo “Como instalar o webmin com o SSL no Ubuntu 20.04”, estamos iniciando nossa nova série de tutoriais sobre software e ferramentas de hospedagem na web. Com o Webmin, você pode configurar contas de usuário, ativar o compartilhamento de arquivos, definir configurações de Apache e DNS e executar muitas outras tarefas relacionadas à hospedagem da web. Ele permite que você gerencie todo o servidor de hospedagem da web. Ele elimina o problema de editar arquivos de configuração do Linux manualmente. Então, vamos aprender a instalar o webmin com o SSL.
-  *** [Introdução ao webmin][1] **
-  *[** Recursos destacados **][2]
-  *[** Sistemas operacionais suportados **][3]
-  *[** Instale o webmin no Ubuntu **][4]
-  *[** Instale o Apache usando o webmin **][5]
-  *[** Conclusão **][6]
+  ***[Introdução ao webmin][1]** 
+  *[**Recursos destacados** ][2]
+  *[**Sistemas operacionais suportados** ][3]
+  *[**Instale o webmin no Ubuntu** ][4]
+  *[**Instale o Apache usando o webmin** ][5]
+  *[**Conclusão** ][6]
 
-## Introdução ao webmin {#intro}
+## Introdução ao webmin   {#intro}
 O Webmin é uma interface baseada na Web para administração do sistema para Linux. Ajuda você a gerenciar seu próprio servidor de hospedagem remotamente de qualquer navegador da Web moderno. Com o Webmin, você pode configurar os internos do sistema operacional, como contas de usuário, Apache, DNS, compartilhamento de arquivos e muito mais. O webmin também permite controlar muitas máquinas através de uma única interface ou login sem costura em outros hosts webmin na mesma sub -rede ou LAN. Webmin, baseado no Perl, é executado como seu próprio processo e o servidor da web. E a melhor parte do webmin é 100% gratuita e de código aberto e tem uma comunidade de desenvolvedores muito próspera.
 
-## Recursos destacados {#Features}
+## Recursos destacados   {#Features}
   * Permite que você crie e edite domínios, registros DNS, opções de ligação e vistas.
   * Ajuda a configurar um firewall criando e editando regras usando o IPFW.
   * Vamos configurar scripts para ser executado no horário de inicialização em /etc/init.d ou /etc/rc.local
@@ -40,7 +40,7 @@ O Webmin é uma interface baseada na Web para administração do sistema para Li
   * Visualize, edite e altere permissões em arquivos e diretórios em seu sistema com um gerenciador de arquivos do tipo Windows
   * Ajuda na configuração de túneis SSL para criptografar serviços como POP3 e IMAP, usando o Runnel Run do INETD.
 
-## Sistemas operacionais suportados {#support}
+## Sistemas operacionais suportados   {#support}
 Como diferentes sistemas operacionais do tipo UNIX e distribuições Linux usam locais diferentes para seus vários arquivos de configuração, o Webmin pode suportar apenas sistemas para os quais foi configurado. Os seguintes sistemas operacionais são suportados pela versão 1.979 do webmin:
   * Almalinux Linux
   * Alfacore linux
@@ -159,8 +159,8 @@ Como diferentes sistemas operacionais do tipo UNIX e distribuições Linux usam 
   * Yoper Linux
 Os sistemas mais apoiados no momento são Solaris, Linux (Redhat em particular) e FreeBSD.
 
-## Instale o webmin no Ubuntu {#install}
-Para instalar o webmin, você precisará ter acesso a um usuário com ** root ** privilégios. Recomenda-se que você configure um usuário sem raios com o ** sudo ** Acesso.
+## Instale o webmin no Ubuntu   {#install}
+Para instalar o webmin, você precisará ter acesso a um usuário com **root  **privilégios. Recomenda-se que você configure um usuário sem raios com o **  sudo**  Acesso.
 Primeiro ssh em seu servidor usando o seguinte comando
 ```
 ssh user@server_IP_address
@@ -195,19 +195,19 @@ Neste ponto, você verá a tela de login do webmin:
 
 {{< figure align=center src="images/webmin-login-screen.png" alt="Instale o webmin">}}
 
-Quando você faz login pela primeira vez no webmin, você será levado para a página ** do sistema **. Ele fornece uma visão geral dos recursos do seu sistema e outras informações diversas.
+Quando você faz login pela primeira vez no webmin, você será levado para a página **do sistema** . Ele fornece uma visão geral dos recursos do seu sistema e outras informações diversas.
 
 {{< figure align=center src="images/install-webmin-system-info.png" alt="Instale as informações do sistema de webmin">}}
 
 
-## Instale o Apache usando o webmin {#install-apache}
+## Instale o Apache usando o webmin   {#install-apache}
 O webmin vem com uma grande variedade de módulos que gerenciam diferentes pacotes de software. Para instalar o Apache usando o webmin, siga as instruções abaixo
-** Etapa 1 **: No menu de navegação, clique em ** Módulos não utilizados ** para expandir a categoria e clique em ** Apache WebServer **.
+**Etapa 1 **: No menu de navegação, clique em  **Módulos não utilizados **  para expandir a categoria e clique em  **Apache WebServer**  .
 Se você não tiver o Apache instalado no seu servidor, o módulo o notificará e fornecerá uma maneira de instalar o Apache.
-** Etapa 2 **: Use o ** clique aqui ** Link (na última frase) para instalar o Apache via Apt-Get através do Webmin.
+**Etapa 2 **: Use o  **clique aqui**   Link (na última frase) para instalar o Apache via Apt-Get através do Webmin.
 Após a conclusão da instalação do Apache, seu servidor estará executando o servidor Apache padrão.
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Este artigo discute brevemente inúmeras coisas que o webmin pode fazer, o webmin é uma das melhores ferramentas para gerenciar seus servidores Linux/Unix. Neste tutorial, também aprendemos a instalar o webmin no Ubuntu, bem como discutimos como instalar o Apache no seu servidor usando o webmin.
 
 ## Explore

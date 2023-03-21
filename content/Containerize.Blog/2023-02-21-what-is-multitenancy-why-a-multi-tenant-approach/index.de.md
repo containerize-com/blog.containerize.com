@@ -22,7 +22,7 @@ Die folgenden Punkte werden in diesem Beitrag erörtert:
   * [Geschäftsvorteile der Multi-Mieter-App][8]
   * [Nachteile in Multi-Messen][9]
 
-## Was ist Multitenancy? Multi-Tenant gegen Single-Tenant {#What-is-MultiteNancy-Multi-Tenant-VS-Single-Tenant}
+## Was ist Multitenancy? Multi-Tenant gegen Single-Tenant   {#What-is-MultiteNancy-Multi-Tenant-VS-Single-Tenant}
 Multitenancy bezieht sich auf eine einzelne Serverinstanz, die mehrere vor allem bekannte Mieter bedient. Immer wenn Sie auf eine Multi-Mandanten-Software stoßen, teilen Sie Ihrem Gehirn nur mit, dass diese Software eine einzelne Instanz eines gemeinsam genutzten Servers ausführt und mehrere Mieter (Clients) mit verschiedenen Brandings mit dieser Instanz verbunden sind.
 So serviert Software, die für eine Universität erstellt wurde, verschiedene Abteilungen mit unterschiedlichen Front-End-Marken und Programmdaten. Grundsätzlich gibt es eine einzelne Instanz des Servers, das alle Mieter ausgeführt und bedient. Darüber hinaus gibt es bei allen Mietern Datentrennung und Datenschutz. Darüber hinaus hat jeder Mieter seine eigene Geschäftslogik und holt seine Daten an einem einzigen, aber privaten/isolierten Ort ab.
 
@@ -33,20 +33,20 @@ Schauen wir uns nun einen kurzen Blick auf die Single-Mieter-Architektur an. In 
 {{< figure align=center src="images/single-tenant-2.png" alt="Einzelmietarchitektur">}}
 
 
-## Arten von Anwendungsarchitekturen mit mehreren Mietern {#Typen von Multi-Tenant-Application-Architecture}}
+## Arten von Anwendungsarchitekturen mit mehreren Mietern   {#Typen von Multi-Tenant-Application-Architecture}}
 Bisher haben Sie ein Verständnis für Multi-Messen und jetzt werden wir seine verschiedenen Typen durchlaufen.
 **Eine Datenbank-eine App-Instanz**: Dieser Ansatz ist sehr beliebt und wurde häufig zum Erstellen von Multi-Mandanten-Apps verwendet. Gemäß diesem Ansatz wird eine Anwendungsinstanz mit einer einzelnen Datenbank ausgeführt. Darüber hinaus gibt es ein gemeinsames Schema und die Daten des Mieters werden an einem einzigen Ort gegen ihre eindeutige ID gespeichert.
 **Multiple Datenbank-Eine App-Instanz:**In dieser Multi-Mieter-Anwendungsarchitektur wird nur eine Instanz der Anwendung mit mehreren Datenbanken ausgeführt. Jeder Mieter hat ein eigenes Datenbankschema, bei dem alle Informationen pro Mieter separat gespeichert werden.
 **Mehrere Datenbank - Mehrere App -Instanzen**: Der dritte Ansatz bezieht sich auf das Ausführen mehrerer Serverinstanzen zusammen mit mehreren Datenbanken. Es gibt nichts geteilt und jeder Mieter hat eine vollständige Isolation und es gibt keine Abhängigkeit von den Mietern.
 
-## Geschäftsvorteile der Multi-Tenant-App {#Business-Benefits-of-Multi-Tenant-Apps}
+## Geschäftsvorteile der Multi-Tenant-App   {#Business-Benefits-of-Multi-Tenant-Apps}
 In diesem Abschnitt werden wir einige herausragende Vorteile der Entscheidung für Multitenancy erzielen. Obwohl wir lange über die Vorteile diskutieren können, aber sehen wir die folgenden Punkte:
 **Skalierbarkeit**: Es ist einfach, eine Multi-Mieter-Architektur zu skalieren. Sie können horizontal oder vertikal skalieren, unabhängig von dem von Ihnen gewählten Typ.
 **Kosteneffektiv**: Die Entscheidung für Multitenancy spart Ihre Betriebskosten. Es gibt gemeinsame Ressourcen, daher ist es immer kostengünstig, die Ressourcen zu skalieren.
 **Effizienz und Flexibilität**: In einer Vielzahl von Multitenants erreichen Sie Effizienz in der Entwicklung und Bereitstellung. Sie können beispielsweise ein Skript in einem gemeinsam genutzten Datenbankschema ausführen, um alle Mieter zu aktualisieren.
 **Besseres Ressourcenmanagement**: Hinzufügen und Entfernen von Ressourcen ist unkompliziert. Darüber hinaus bietet diese Architektur eine verbesserte und gut verwaltete Infrastruktur. Darüber hinaus ist jeder Mieter privat und sicher und hat Zugriff auf eine gemeinsam genutzte/nicht stammende Datenbank.
 
-## Nachteile in Multi-Tenancy {#Nachteils-in-Multi-Tenancy}
+## Nachteile in Multi-Tenancy   {#Nachteils-in-Multi-Tenancy}
 Der Zweck dieses Blog-Beitrags ist es, ein angemessenes Gefühl für die Architektur von Multi-Mietern zu vermitteln.
 **Komplexer Authentifizierungsmechanismus**: Aufgrund der gemeinsamen Art der Ressourcenzuweisung in Multitenancy gibt es strenge Protokolle für Datenzugriffspunkte.
 **Server-Aufschlüsselung:**Es ist ein wichtiger Punkt zu berücksichtigen, wenn Sie die Multi-Mieter-Anwendungsarchitektur auswählen. Alle Mieter werden nicht funktionsfähig, wenn der Server aus irgendeinem Grund sinkt.

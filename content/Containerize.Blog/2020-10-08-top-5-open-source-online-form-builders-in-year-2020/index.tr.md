@@ -24,7 +24,7 @@ Doğru çevrimiçi form oluşturucu seçmenize yardımcı olmak için ekibimiz e
   * [Webiny][4]
   * [FormTools][5]
 
-### ** form.io ** {#formio}
+### **form.io**    {#formio}
 Form.io, gelişmiş seviye özelliklerine sahip en popüler form oluşturucu yazılımlarından biridir. Veri yönetimi API platformunun yanı sıra veri girişi web formları ve anketler oluşturmanıza yardımcı olur.
 Form.io Node.js ve MongoDB'ye dayanır. Sunucusuz mimariyi destekler ve bu onu basit ve ölçeklenebilir hale getirir. Her şeyden önce, kullanıcı kimlik doğrulamasını destekler ve verilerinizin kendi ortamınızdaki tam kontrolünü sağlar.
 İşte formun en önemli özellikleri.
@@ -35,7 +35,7 @@ Form.io Node.js ve MongoDB'ye dayanır. Sunucusuz mimariyi destekler ve bu onu b
   * Sürükle ve Bırak arayüzü
     [Devamını oku][6]
 
-### ** Orbeon ** {#orbeon}
+### **Orbeon**    {#orbeon}
 Orbeon, herhangi bir teknik uzmanlık olmadan endüstriyel düzeyde karmaşık formlar üretmek için kullanılır. Platformu agnostik ve formları masaüstü, dizüstü bilgisayarlar ve cep telefonları aracılığıyla erişilebilir.
 Web formlarını hızlı bir şekilde oluşturmak için gelişmiş özellikler sağlayan popüler açık kaynak form oluşturucu yazılımlarından biridir. Web standartlarını takip eder, bu da onu çapraz platform haline getirir. Güvenliğe odaklanır ve tüm veriler dinlenir.
 Orbeon, üçüncü taraf entegrasyonunu destekler, bu nedenle herhangi bir arka uçla bağlantı kurmanıza izin verir. Harici hizmetlerin yanıtı döndürmesi için hem JSON hem de XML formatını destekler
@@ -47,7 +47,7 @@ Orbeon, üçüncü taraf entegrasyonunu destekler, bu nedenle herhangi bir arka 
   * Liferay desteği.
     [Devamını oku][7]
 
-### ** ohmyform ** {#ohmyform}
+### **ohmyform**    {#ohmyform}
 Ohmyform, mobil hazır formlar, anketler ve sorgulamalar oluşturmak için açık kaynaklı bir yazılımdır. Standart web teknolojilerini takip eder ve formlar mobil, masaüstü ve web uygulamaları için kolayca yerleştirilebilir.
 Ohmyform, veri analizi için yerleşik araçlarla birlikte gelir. Başka bir deyişle, tüm veri gönderimlerinizi ve anket formu girişlerinizi analiz edebilirsiniz. Aktif olarak geliştiriliyor. En önemlisi, geliştirici topluluğu ürünü geliştirmek için çok çalışıyor.
 Ohmyform'un en önemli özellikleri burada listelenmiştir
@@ -58,7 +58,7 @@ Ohmyform'un en önemli özellikleri burada listelenmiştir
   * Hizmet API'sı olarak oluşur.
     [Devamını oku][8]
 
-### ** Webiny ** {#webiny}
+### **Webiny**    {#webiny}
 Webiny, üretime hazır tam özellikli formlar oluşturmak için açık kaynaklı kendi kendine barındırılmış yazılımdır. Bu sadece bir form oluşturucu değil. Ancak, çevrimiçi iş süreçlerinin çoğunu otomatikleştirmek için eksiksiz bir paket.
 Webiny, Node.js ve GraphQL ve ReactJS'nin üzerine inşa edilmiştir. Bu nedenle, sunucusuz mimariyi tamamen destekler. Buna ek olarak, API, React uygulaması, ürününüz için tam bir yönetim uygulaması, web siteniz veya bir mobil uygulamayı hızlı ve kolay bir şekilde oluşturmanıza yardımcı olabilir.
 Sunucusuz mimari uygulamayı ölçeklendirilebilir hale getirir ve sizi yük ve trafikle ilgili sorunlardan kurtarır. Sadece bu değil, gibi çok daha ileri seviye özelliklerine sahip
@@ -69,7 +69,7 @@ Sunucusuz mimari uygulamayı ölçeklendirilebilir hale getirir ve sizi yük ve 
   * WebHooks
     [Devamını oku][9]
 
-### ** FormTools ** {#FormTools}
+### **FormTools**    {#FormTools}
 Form Tools, güçlü, esnek, ücretsiz ve açık kaynaklı bir PHP/MySQL komut dosyasıdır. Formlarınızı ve verilerinizi yönetmek için web sitenize yüklemeniz gerekir. Ayrıca, FormTools, tek sayfa ve çok sayfalık formlar oluşturabileceğiniz bir form oluşturucu arayüzü ile birlikte gelir.
 FormTools sadece veri toplamanıza izin vermekle kalmaz, aynı zamanda güçlü veri görselleştirme modülünü kullanarak verilerinizi görüntülemenize ve analiz etmenize de izin verir. Ayrıca, verilerinizi diğer üçüncü taraf veri analiz araçları tarafından kullanılacak aktarmanıza da izin verir.
 Kullanıcı yönetimi ve API desteği ile birlikte, FormTools'un sağladığı kapsamlı bir özellik listesi var, işte bu özelliklerden bazıları

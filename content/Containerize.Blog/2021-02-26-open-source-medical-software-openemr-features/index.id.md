@@ -15,18 +15,18 @@ categories: ['Healthcare Software']
 
 
 ## Ringkasan
-Baru -baru ini, kami menerbitkan posting blog tentang [bagaimana perangkat lunak perawatan kesehatan online memberdayakan industri kesehatan][1] dan artikel tutorial [Cara Menyiapkan EHealth System HospitalRun di LocalHost][2]. Dalam artikel ini, kami akan melalui fitur -fitur yang menjanjikan yang ditawarkan oleh ** solusi kesehatan medis ** openemr. Pada titik waktu saat ini, setiap sektor bisnis sedang digital. Mesin dan perangkat lunak besar menggantikan tenaga kerja karena karakteristik tertentu. Oleh karena itu, bidang medis dan perawatan kesehatan sebagian besar direvolusi oleh Internet of Things. Ada sumber daya digital yang kompleks yang terhubung satu sama lain melalui jaringan dan perangkat lunak yang kompleks. Istilah EHealth semakin populer di mana praktisi medis memanfaatkan sepenuhnya perangkat lunak dan komunikasi perawatan kesehatan.
+Baru -baru ini, kami menerbitkan posting blog tentang [bagaimana perangkat lunak perawatan kesehatan online memberdayakan industri kesehatan][1] dan artikel tutorial [Cara Menyiapkan EHealth System HospitalRun di LocalHost][2]. Dalam artikel ini, kami akan melalui fitur -fitur yang menjanjikan yang ditawarkan oleh **solusi kesehatan medis**  openemr. Pada titik waktu saat ini, setiap sektor bisnis sedang digital. Mesin dan perangkat lunak besar menggantikan tenaga kerja karena karakteristik tertentu. Oleh karena itu, bidang medis dan perawatan kesehatan sebagian besar direvolusi oleh Internet of Things. Ada sumber daya digital yang kompleks yang terhubung satu sama lain melalui jaringan dan perangkat lunak yang kompleks. Istilah EHealth semakin populer di mana praktisi medis memanfaatkan sepenuhnya perangkat lunak dan komunikasi perawatan kesehatan.
 Ada banyak perangkat lunak medis open source yang memberikan efisiensi, kualitas yang lebih baik, dan keamanan. Layanan perawatan kesehatan digital telah mengurangi berbagai biaya seperti biaya perjalanan, biaya kertas, dan biaya manusia. Namun, kami akan membahas poin -poin berikut.
-  *[** Apa itu OpenEmr **][3]
-  *[** Fitur OpenemR **][4]
-  *[** Kesimpulan **][5]
+  *[**Apa itu OpenEmr** ][3]
+  *[**Fitur OpenemR** ][4]
+  *[**Kesimpulan** ][5]
 
-## Apa itu OpeneMr {#intro}
+## Apa itu OpeneMr   {#intro}
 [OpenemR][6] adalah solusi perawatan medis open source multibahasa. Menawarkan keamanan data dengan teknik enkripsi. Solusi perawatan kesehatan gratis ini memfasilitasi penggunanya untuk mengelola catatan medis pasien dan stok kedokteran. Lebih lanjut, ada banyak fitur seperti menjadwalkan janji temu pasien, pengingat, dan integrasi laboratorium. Namun, perangkat lunak medis open source ini memiliki modul penagihan terintegrasi yang sangat kuat untuk mengelola transaksi dan faktur keuangan. Openemr bersifat multibahasa dan memberikan dukungan untuk hampir 100 plus bahasa.
 Perangkat lunak penagihan medis berbasis web ini diselenggarakan sendiri dan menyediakan antarmuka yang logis dan ramah pengguna. Selain itu, e-prescribing adalah modul yang sangat kuat dari alat gratis ini. Di atas segalanya, ada kemampuan pencarian yang kaya di mana admin perangkat lunak medis dapat melakukan pencarian dalam modul primer. Ini sangat dapat diperluas dan menawarkan dukungan untuk integrasi aplikasi pihak ketiga. OpenemR ditulis dalam PHP dan sepenuhnya didokumentasikan mengenai pengembangan dan penyebaran. Selain itu, solusi kesehatan medis ini mudah diatur dan membutuhkan persyaratan sederhana seperti Apache, PHP, dan MySQL.
 
-## fitur OpenemR {#features}
-Di bagian ini, kami akan mengeksplorasi beberapa modul utama yang ditawarkan oleh ** perangkat lunak perawatan kesehatan khusus ini **.
+## fitur OpenemR   {#features}
+Di bagian ini, kami akan mengeksplorasi beberapa modul utama yang ditawarkan oleh **perangkat lunak perawatan kesehatan khusus ini** .
 Anda dapat mengalami Openemr sendiri dengan mengikuti [tautan] ini [7]. Setelah Anda membuka tautan ini, Anda akan mendarat di halaman login. Anda dapat menggunakan kredensial berikut untuk masuk sebagai admin.
 Nama Pengguna: Admin
 Kata sandi: lulus
@@ -52,7 +52,7 @@ Pengguna dapat melihat dan mencari laporan pasien dari UI seperti yang ditunjukk
 
 Demikian juga, ada banyak fitur kaya yang tersedia dalam sistem manajemen rumah sakit ini. Lebih lanjut, ada modul untuk mengelola dokumen yang relevan seperti basis pengetahuan dan ada juga ketentuan buku alamat yang digunakan untuk mempertahankan alamat entitas. Selain itu, Anda dapat memiliki ulasan menyeluruh dan kemudian meng -hostnya di server Anda sendiri.
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Pada akhirnya, kita dapat dengan aman mengatakan bahwa solusi kesehatan medis ini benar-benar merupakan solusi perawatan kesehatan tingkat perusahaan untuk mengelola praktik medis sehari-hari. Ada banyak perangkat lunak medis open source yang menawarkan fitur yang menjanjikan untuk memenuhi kebutuhan bisnis dan masyarakat. OpenEmr tampaknya menangani kebutuhan dasar dan inti dari industri perawatan kesehatan dan yang lebih penting, ini adalah open source gratis, dan mudah diperluas. Oleh karena itu, komunitas open source secara aktif bekerja untuk meningkatkan perangkat lunak yang ada untuk menyediakan layanan kesehatan. Posting blog ini akan sangat membantu Anda jika Anda ingin memilih eHealth. Selanjutnya, Anda dapat melihat perangkat lunak medis open source yang terdaftar di bagian Explore di bawah ini. Akhirnya, [containerize.com][8] sedang dalam proses yang konsisten dalam menulis posting blog tentang produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [Teknologi Kesehatan][9] ini untuk pembaruan terbaru.
 
 ## Mengeksplorasi

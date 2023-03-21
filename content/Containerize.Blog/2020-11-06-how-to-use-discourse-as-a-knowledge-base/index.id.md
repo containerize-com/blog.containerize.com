@@ -21,11 +21,11 @@ Di posting blog ini, kami akan membahas poin -poin berikut:
   * [Menyiapkan Plugin Pengetahuan Explorer di Wacana][2]
   * [Kesimpulan][3]
 
-## Bagaimana wacana sebagai basis pengetahuan bekerja? {#penggunaan}
+## Bagaimana wacana sebagai basis pengetahuan bekerja?   {#penggunaan}
 Basis pengetahuan bertindak sebagai database dokumen dan informasi. Ini digunakan untuk mengumpulkan, mengelola, dan membagikan informasi yang relevan dengan produk dan prosedur perusahaan. Ketika kita berbicara tentang forum diskusi seperti [wacana][4], ada topik berulir panjang di mana pengguna akhir dan perwakilan berpartisipasi dalam debat. Dalam hal ini, pelanggan merasa sulit untuk menemukan informasi yang relevan. Untuk mengudungkan kerumitan ini, komunitas wacana telah mengembangkan beberapa plugin basis pengetahuan.
 Memasang plugin KB di [wacana][4] menjadi cukup cepat bagi pelanggan untuk menemukan informasi yang diinginkan. Selain itu, ada beberapa pertanyaan pelanggan dan pertanyaan yang tetap tidak terjawab untuk waktu yang cukup lama. Oleh karena itu, mendokumentasikan informasi yang umum digunakan dalam topik gaya KB menghemat waktu dan meningkatkan pengalaman pelanggan.
 
-## Mengatur Plugin Pengetahuan Explorer di Wacana {#setup}
+## Mengatur Plugin Pengetahuan Explorer di Wacana   {#setup}
 Di bagian ini, kita akan melihat cara mengaktifkan plugin [Pengetahuan Explorer][5] dan apa yang ditawarkannya.
 Karena [wacana][4] adalah sumber yang sepenuhnya terbuka, plugin Pengetahuan Explorer tersedia di [GitHub][5].
 Ada langkah -langkah mudah untuk memasang plugin apa pun di wacana. Oleh karena itu, ikuti instruksi yang disebutkan dalam [Panduan Instalasi Plugin] ini [6].
@@ -47,7 +47,7 @@ Akhirnya, Anda dapat membuka dan membagikan tautan dokumen dengan siapa pun.
 {{< figure align=center src="images/Screenshot-2020-11-04-at-19.11.11-1024x493.png" alt="Wacana sebagai KB">}}
 
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Dalam artikel ini, kita telah melihat bagaimana wacana dapat digunakan sebagai basis pengetahuan untuk bisnis. Sangat penting untuk memiliki mata yang kuat pada kebutuhan pengguna akhir. Sejauh menyangkut forum, kita harus membawanya ke tingkat berikutnya dengan melengkapi dengan plugin KB sehingga pelanggan dapat mendekati sumber daya yang diperlukan dengan mudah dan cepat.
 [containerize.com][7] telah meminta banyak perangkat lunak forum yang kuat di [Forum Diskusi][8] kategori. Untuk pembaruan rutin, tetap terhubung dengan [blog.containerize.com][9].
 

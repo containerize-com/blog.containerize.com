@@ -22,15 +22,15 @@ Açık Kaynak Topluluk birçok işletme düzeyinde tartışma forumu geliştirdi
   * [Flarum vs söylem][7]
   * [Sonuç][8]
 
-## Söylem nedir? {#What-Is-Discource?}
+## Söylem nedir?   {#What-Is-Discource?}
 [Söylem][3], ticari kuruluşların sağlıklı tartışmalar oluşturabileceği zengin özellikli bir portal sağlayan açık kaynaklı bir forum yazılımıdır. Diğer özelliklerin yanı sıra, bu tartışma forumu, tıpkı facebook ve twitter gibi, iş dünyasının iş topluluklarını modern bir şekilde büyütmelerine yardımcı olan sosyal özellikler sunar. Ayrıca, sohbet odalarında insanlardan bahsedebileceğiniz ve medya dosyalarını paylaşabileceğiniz diğer üyelerle sohbet etmek için olanaklar vardır. Ayrıca, Ruby on Rails, Ember.js, Postgresql, Redis ile yazılmıştır ve kendi tesislerinizde kurulumu kolaydır.
 Bu soru-cevap forumu için destek sunan çok canlı bir topluluk var. OAuth 2.0 & OpenID Connect Desteği, SAML kimlik doğrulaması, söylem çevirmen ve daha fazlası gibi büyük bir eklenti ve tema yığını var. Söylem, dinamik bir bildirim sistemi, otomatik olarak genişleyen bağlantıları, [tek oturum açma][9], kapsamlı API ve daha fazlasını içeren birçok özellik sağlar. Her şeyden önce, geliştirme ve dağıtım konusunda kapsamlı belgeler mevcuttur. Bu nedenle, bu açık kaynak forum yazılımının tüm kaynak kodu [GitHub][10] 'da mevcuttur.
 
-## Flarum'un kısa tanıtımı {#flarum}
+## Flarum'un kısa tanıtımı   {#flarum}
 [Flarum][4] ücretsiz, açık kaynaklı ve kendi kendine barınma yetenekleriyle birlikte gelen bir başka popüler tartışma forumudur. Oldukça genişletilebilir ve tabletlerde ve mobil cihazlarda da iyi çalışan duyarlı bir düzen ile birlikte gelir. Bu açık kaynaklı forum yazılımı PHP'de yazılmıştır ve kendi sunucularında kendi kendine ev sahipliği yapmak kolaydır. Buna ek olarak, kullanıcıların elementlerde kolayca gezintiği mantıksal iki bölmeli bir arayüz sağlar.
 Bu soru-cevap forumu hızlı, güvenilir, hafiftir ve bildirim sistemi, sosyal özellikler (örneğin, söz, etiketleme, benzeri) güçlü izinler, ince taneli ayarlar ve daha fazlası gibi birçok çekici özellik sunar. Kullanıcıların daha fazla sohbet kontrolünü görüntülemek için sol ve sağa kaydırabileceği zengin animasyonlar ve temalar vardır. Tıpkı söylem gibi, Flarum da proaktif olan ve hatalar ve yeni özellik istekleri için destek sağlayan bir topluluğa sahiptir. Her şeyden önce, geliştirme ve dağıtım konusunda kapsamlı belgeler mevcuttur. Bu nedenle, bu açık kaynak forum yazılımının tüm kaynak kodu [GitHub][10] 'da mevcuttur.
 
-## Flarum vs söylem {#vs}
+## Flarum vs söylem   {#vs}
 Bu bölümde, bu açık kaynaklı forum yazılımlarının her ikisini de söylem ve flarum'u karşılaştırabileceğimiz bir yere koyacağız.
 
 #### Toplum
@@ -45,7 +45,7 @@ Bu, işletmeniz için herhangi bir yazılım seçimi söz konusu olduğunda en k
 #### Genişletilebilirlik
 Bu, herhangi bir yazılımın bir başka önemli özelliğidir. Neyse ki, bu açık kaynaklı forum yazılımlarının her ikisi de genişletilebilir ve geliştiriciler işlevselliği ihtiyaçlara göre kolayca genişletebilir. Her şeyden önce, Söylem üçüncü taraf entegrasyonlar için AP sunuyor.
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu, bu flarum vs söyleminin sonuna getirir. En iyi önde gelen açık kaynak tartışma forumlarının gözden geçirilmesinden geçtik. Söylem ve flarum yazılımının kısa bir girişinden geçtik. Bu ücretsiz yazılımların her ikisi de yetkilidir ve işletmelerin profesyonel bir tartışma portalı olmasına yardımcı olur. Bu nedenle, hangi tartışma yazılımının iş modelinize uyduğu sonucuna varmak size kalmıştır. İşletmeniz için açık kaynaklı bir forum yazılımı dağıtmak istiyorsanız bu blog yazısı size gerçekten yardımcı olabilir. Ayrıca, çok alakalı olan ve Flarum ve Söylem dışında daha açık kaynaklı forum yazılımı bulabilen başka blog yayınları da vardır.
 Son olarak, [Containerize.com][11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [][12][Tartışma Forumu yazılımı][1] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][13], [LinkedIn][14] ve [Twitter][15] 'te takip edebilirsiniz.
 

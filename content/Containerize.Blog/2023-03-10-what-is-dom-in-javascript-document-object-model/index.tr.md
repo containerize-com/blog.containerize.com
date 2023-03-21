@@ -18,22 +18,22 @@ categories: ['Programming']
 ## Genel Bakış
 [JavaScript programlama][1] serisindeki başka bir heyecan verici blog yayınına hoş geldiniz. Bu makalede, çok temel ama temel bir web geliştirme kavramına değineceğiz. Evet, JavaScript'teki belge nesnesi modelini kapsayacağız. Geçmişte, JavaScript dilini kullanarak geliştirmeye başlamak için zorunlu JavaScript öğreticileri yayınladık. Bu nedenle, bu önemli konseptle ilgili hiçbir şeyi kaçırmamak için bu blog gönderisini iyice okumanızı öneririz. Bu kılavuza başlayalım ve JavaScript'teki DOM'un**, Dom Properties'i ve programla nasıl etkileşime girebileceğinizi öğrenelim.
 Bu JavaScript kılavuzunda aşağıdaki konuları ele alacağız:
-***[Belge nesne modeli nedir (DOM)?][2]**
-***[DOM seviyeleri][3]**
-***[DOM özellikleri nelerdir ve bunlara nasıl erişilir?][4]**
+* **[Belge nesne modeli nedir (DOM)?][2]**
+* **[DOM seviyeleri][3]**
+* **[DOM özellikleri nelerdir ve bunlara nasıl erişilir?][4]**
 
-## Belge Nesne Modeli (DOM) nedir? {#What-is-document-object-model}
+## Belge Nesne Modeli (DOM) nedir?   {#What-is-document-object-model}
 Dom anlamına geliyor?**Belge Nesne Modeli (DOM)**, bir web tarayıcısının içindeki bir web sayfasının temsilidir. Basitçe, bir HTML belgesinin öğelerinin bir tarayıcıda hiyerarşik gösterimi, belge nesne modeli olarak bilinir. Gerçekten web tarayıcısı tarafından oluşturulan bir ağaç şeklinde oluşur. Bir ağaç şekli oluşturan birbirine bağlı çeşitli düğümlerden oluşur. Buna ek olarak, DOM öğelerinin kendilerine eklenmiş özellikleri ve olayları vardır.
 Aslında DOM, bir web sayfasının mantıksal yapısını formüle eden ve sayfa öğelerine erişmenin yolunu belirleyen bir programlama arayüzüdür. Temel olarak, JavaScript başlık, H1 ve vb. Gibi HTML etiketlerini tanımaz. Bu nedenle, bir HTML belgesi bir web tarayıcısına yüklendikten sonra, JavaScript'in belge öğelerini anlamasını mümkün kılan DOM oluşturulur.
 
-## DOM Seviyeleri {#Dom-Levels}
+## DOM Seviyeleri   {#Dom-Levels}
 Bu bölüm çeşitli Dom seviyelerini gösterecektir. İlk olarak, bir tarayıcıda her zaman üstte olan bir pencere nesnesi vardır ve sonra bir belge düğümü vardır. Aşağıdaki resme bakalım:
 
 {{< figure align=center src="images/DOM.png" alt="DOM seviyeleri">}}
 
 Yukarıdaki resimdeki DOM öğelerini görebilirsiniz. Pencere ve belge üst düzey tarayıcı nesneleridir ve daha sonra kök olarak HTML öğesine sahibiz. Devam ederken, baş ve gövde düğümleri var, başlık düğümü kafa düğümüne aittir ve gövde düğümü, web tarayıcısında oluşturulan ve görünür olan tüm düğümleri içerir. Ayrıca, gövde öğeleri, "Href" özniteliği içeren çapa etiketi gibi görüntüde görebileceğimiz özellikler içerir. Benzer şekilde, diğer DOM düğümleri IMG, Meta ve daha fazlası gibi çeşitli özellikler içerir.
 
-## DOM özellikleri nelerdir ve bunlara nasıl erişilir? {#What-Eare-Dom-Properties-ve-How-to-acess-them}
+## DOM özellikleri nelerdir ve bunlara nasıl erişilir?   {#What-Eare-Dom-Properties-ve-How-to-acess-them}
 Şimdiye kadar, JavaScript ve DOM seviyelerinde DOM'un ne olduğuna bir cevap bulduk ve DOM düğümlerinden de geçtik. Bu bölümde DOM özelliklerinden geçeceğiz ve onlarla nasıl etkileşim kurabileceğimizi göreceğiz. Her DOM öğesinin kendisine bağlı bir değeri vardır, "P" etiketi metin özelliği vardır, IMG etiketinin görüntü vardır vb. JavaScript yöntemleri düğümlerin değerlerine erişmek için kullanılır. Ayrıca, DOM öğelerine olay dinleyicilerini ekleyebilir/kaldırabilirsiniz.
 Aşağıdaki**DOM özelliklerini bulabilirsiniz**:
 **Innerhtml**: Bu özellik, bir DOM düğümünün HTML içeriğini ayarlamak veya almak için kullanılır.

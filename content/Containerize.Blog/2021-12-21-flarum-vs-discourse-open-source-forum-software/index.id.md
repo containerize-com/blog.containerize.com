@@ -22,15 +22,15 @@ Komunitas Open Source telah mengembangkan banyak forum diskusi tingkat perusahaa
   * [Wacana flarum vs][7]
   * [Kesimpulan][8]
 
-## Apa itu wacana? {#What-is-discourse?}
+## Apa itu wacana?   {#What-is-discourse?}
 [Wacana][3] adalah perangkat lunak forum open source yang menyediakan portal yang kaya di mana entitas bisnis dapat membuat diskusi yang sehat. Di antara fitur -fitur lainnya, forum diskusi ini menawarkan fitur sosial seperti Facebook dan Twitter yang pada akhirnya membantu bisnis menumbuhkan komunitas bisnis dengan cara modern. Lebih lanjut, ada fasilitas untuk mengobrol dengan anggota lain di ruang obrolan, di mana Anda dapat menyebutkan orang dan berbagi file media. Lebih lanjut, ditulis dalam Ruby on Rails, Ember.js, PostgreSQL, Redis dan mudah diatur di tempat Anda sendiri.
 Ada komunitas yang sangat bersemangat yang menawarkan dukungan untuk forum pertanyaan ini. Ada tumpukan besar plugin dan tema yang tersedia seperti OAuth 2.0 & OpenID Connect Dukungan, otentikasi SAML, penerjemah wacana, dan banyak lagi. Wacana menyediakan banyak fitur yang mencakup sistem pemberitahuan yang dinamis, secara otomatis memperluas tautan, [masuk tunggal][9], API komprehensif, dan banyak lagi. Di atas segalanya, ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, semua kode sumber perangkat lunak forum open source ini tersedia di [GitHub][10].
 
-## Pengenalan singkat flarum {#flarum}
+## Pengenalan singkat flarum   {#flarum}
 [Flarum][4] adalah forum diskusi populer lainnya yang gratis, open source, dan dilengkapi dengan kemampuan hosting sendiri. Ini sangat dapat diperluas dan dilengkapi dengan tata letak responsif yang bekerja dengan baik pada tablet dan perangkat seluler juga. Perangkat lunak forum open source ini ditulis dalam PHP dan mudah untuk menjadi tuan rumah sendiri di servernya sendiri. Selain itu, ia menyediakan antarmuka dua panel yang logis di mana pengguna menavigasi elemen dengan mudah.
 Forum jawaban pertanyaan ini cepat, andal, ringan, dan menawarkan banyak fitur menarik seperti sistem pemberitahuan, fitur sosial (mis. Menyebutkan, menandai, seperti) izin yang kuat, pengaturan berbutir halus, dan banyak lagi. Ada animasi dan tema yang kaya di mana pengguna dapat menggesek kiri & kanan untuk melihat kontrol obrolan lebih lanjut. Sama seperti wacana, Flarum juga memiliki komunitas yang proaktif dan memberikan dukungan untuk bug dan permintaan fitur baru. Di atas segalanya, ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, semua kode sumber perangkat lunak forum open source ini tersedia di [GitHub][10].
 
-## flarum vs wacana {#vs}
+## flarum vs wacana   {#vs}
 Di bagian ini, kami akan menempatkan kedua perangkat lunak forum open source ini di satu tempat di mana kami akan dapat membandingkan wacana dan flarum.
 
 #### Masyarakat
@@ -45,7 +45,7 @@ Ini adalah aspek paling penting dalam hal pemilihan perangkat lunak apa pun untu
 #### ekstensibilitas
 Ini adalah karakteristik penting lain dari perangkat lunak apa pun. Untungnya, kedua perangkat lunak forum open source ini dapat diperluas dan pengembang dapat dengan mudah memperluas fungsionalitas sesuai kebutuhan. Di atas segalanya, wacana menawarkan AP untuk integrasi pihak ketiga.
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Ini membawa ke akhir wacana flarum vs ini. Kami telah melalui ulasan forum diskusi open source terkemuka terkemuka. Kami melewati What's Wacana & intro singkat dari perangkat lunak flarum. Kedua perangkat lunak gratis ini kompeten dan membantu bisnis memiliki portal diskusi profesional. Karena itu, terserah Anda sekarang untuk menyimpulkan perangkat lunak diskusi mana yang sesuai dengan model bisnis Anda. Posting blog ini benar -benar dapat membantu Anda jika Anda ingin menggunakan perangkat lunak forum open source untuk bisnis Anda. Lebih lanjut, ada beberapa posting blog lain yang sangat relevan dan dapat menemukan perangkat lunak forum open source lebih lanjut selain flarum dan wacana.
 Akhirnya, [containerize.com][11] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [][12][Diskusi Forum][1] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][13], [LinkedIn][14], dan [Twitter][15].
 

@@ -44,7 +44,7 @@ apache2のセットアップを確認するには、ブラウザを開き、サ�
 
 
 ## ステップ2：apache2を逆プロキシとして構成します
-APACHE2が正常にインストールされ、使用可能です。 Apache2逆プロキシUbuntuとして動作するようにApache2を構成できるようになりました。 apache2プロキシモジュールの** proxypass ** and ** proxypassReverse **関数は、逆プロキシを提供します。 ** proxypass ** and ** proxypassReverse **を使用するには、まずサイトトラフィックを向けたい場所を知っておく必要があります。
+APACHE2が正常にインストールされ、使用可能です。 Apache2逆プロキシUbuntuとして動作するようにApache2を構成できるようになりました。 apache2プロキシモジュールの**proxypass  **and **  proxypassReverse **関数は、逆プロキシを提供します。  **proxypass **  and  **proxypassReverse**  を使用するには、まずサイトトラフィックを向けたい場所を知っておく必要があります。
 Apache2 Reverse Proxy Serverは、デフォルトのHTTPポートのすべてのトラフィックをリッスンします。これは、簡単なセットアップでポート80です。 Webサイトコンテンツをホストするバックエンドサーバーは、カスタムポートでリッスンし、ポート8080である可能性が最も高いです。
 このブログ記事では、APACHE2をセットアップしてポート80でリッスンし、ポート8080でリッスンするバックエンドサーバーにトラフィックを向けます。
 sudo nano/etc/apache2/sites-abailable/apache2proxy.conf
@@ -82,17 +82,17 @@ sudo a2ensite apache2proxy.conf
 sudo systemctl restart apache2.service
 選択したWebブラウザを起動し、Example.comのようなサーバーホスト名に移動します。これで、デフォルトのポート、つまり8080でapache2サーバーにプロキシになります。
 
-## ステップ4：SSLを有効にします{#block-07b86d83-dca0-4924-b991-206719c342eb}
+## ステップ4：SSLを有効にします {#block-07b86d83-dca0-4924-b991-206719c342eb}
 Apache Reverse Proxy SSLモジュールを有効にする場合は、以下のコマンドを実行してApache Reverse Proxy HTTPS Passを有効にします。
 sudo a2enmod ssl
 これにより、Secure Apache Reverse Proxy HTTPは、ServersにHTTPSサポートに提供されます。
 
-## ステップ5：apache2を再起動{#block-836bb4ff-17ad-4317-8ecb-153104bd28a7}
+## ステップ5：apache2を再起動 {#block-836bb4ff-17ad-4317-8ecb-153104bd28a7}
 これらの変更を有効にするには、以下のコマンドを実行してApacheを再起動します。
 sudo systemctl restart apache2.service
 おめでとう！ Linuxシステムにapache2リバースプロキシを正常にインストールおよび構成しました。
 
-## **結論：** {#4a1a}
+## **結論：**   {#4a1a}
 このチュートリアルでは、プロキシサーバーとApache Reverse Proxyの例の構成を段階的に調査して説明しました。また、Linuxシステムの逆プロキシとしてApache2をセットアップおよび構成する方法も学びました。今後のチュートリアルでは、Apacheやその他のWebサーバーソリューションスタックに関するより興味深いトピックについて説明します。
 
 ## 探検

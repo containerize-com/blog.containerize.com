@@ -14,29 +14,29 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/lemp-banner.png" alt="Installez la pile LEMP sur Ubuntu">}}
 
 
-## Présentation {#prerequis}
+## Présentation   {#prerequis}
 Dans ce guide, nous installerons Nginx, MySQL et PHP (pile LEMP) pour le développement et le déploiement d'applications Web. Nous configurerons également un serveur Web sur un application PHP sur serveur sur Ubuntu Server 18.04. Nous couvrirons les sections suivantes dans ce tutoriel.
-  * [** Prérequis **][1]
-  * [** Qu'est-ce que LEMP Stack? **][2]
-  * [** l'installation de lemp **][3]
-  * [** Conclusion **][4]
+  * [**Prérequis** ][1]
+  * [**Qu'est-ce que LEMP Stack?** ][2]
+  * [**l'installation de lemp** ][3]
+  * [**Conclusion** ][4]
 
-## Prérequis {#prerequisites}
+## Prérequis   {#prerequisites}
 Avant d'installer un logiciel, vous devez répondre aux exigences suivantes.
   * Serveur avec système d'exploitation Ubuntu
-  * Utilisateur non racinaire avec ** sudo ** privilèges
+  * Utilisateur non racinaire avec **sudo**  privilèges
 
-## Qu'est-ce que LEMP Stack? {#Quoi}
-** LEMP Stack ** est une collection de logiciels qui peuvent être utilisés pour exécuter des applications Web basées sur PHP. Lemp signifie Linux, Nginx, MySQL et PHP. La pile LEMP est une variante de la pile de lampe. LAMP et LEMP sont des piles de logiciels populaires pour développer et déployer des applications Web. Il existe une différence entre ces deux piles de logiciels. Lamp utilise le serveur Web Apache, tandis que le serveur LEMP utilise le serveur Web Nginx.
+## Qu'est-ce que LEMP Stack?   {#Quoi}
+**LEMP Stack**  est une collection de logiciels qui peuvent être utilisés pour exécuter des applications Web basées sur PHP. Lemp signifie Linux, Nginx, MySQL et PHP. La pile LEMP est une variante de la pile de lampe. LAMP et LEMP sont des piles de logiciels populaires pour développer et déployer des applications Web. Il existe une différence entre ces deux piles de logiciels. Lamp utilise le serveur Web Apache, tandis que le serveur LEMP utilise le serveur Web Nginx.
 
-## INSTALLATION LEMP {#installation}
+## INSTALLATION LEMP   {#installation}
 Dans cette section, nous nous concentrerons sur la façon d'installer Nginx, MySQL et PHP sur Ubuntu 18.04. Tout d'abord, nous devons mettre à jour les packages de serveurs en exécutant la commande ci-dessous.
 ```
 $ sudo apt update
 ```
 
 ### Installation du serveur Web Nginx
-  * Exécutez la commande ci-dessous pour ** Installez Nginx sur Ubuntu **.
+  * Exécutez la commande ci-dessous pour **Installez Nginx sur Ubuntu** .
 ```
 $ sudo apt install nginx
 ```
@@ -47,7 +47,7 @@ $ sudo apt install nginx
 
 ### Installation de MySQL
 Maintenant, vous devez installer le serveur de base de données MySQL pour la gestion de vos données d'application.
-  * Exécutez la commande ci-dessous pour ** Installez MySQL sur Ubuntu **.
+  * Exécutez la commande ci-dessous pour **Installez MySQL sur Ubuntu** .
 ```
 $ sudo apt install mysql-server
 ```
@@ -55,7 +55,7 @@ $ sudo apt install mysql-server
 ```
 $ sudo mysql_secure_installation
 ```
-  * On vous demandera que vous souhaitez activer ** valider le plugin de mot de passe ** ou non. Il est préférable de ne pas l'activer donc, tapez N et appuyez sur Entrée pour passer à l'étape suivante.
+  * On vous demandera que vous souhaitez activer **valider le plugin de mot de passe**  ou non. Il est préférable de ne pas l'activer donc, tapez N et appuyez sur Entrée pour passer à l'étape suivante.
   * Ensuite, il vous posera quelques questions comme indiqué ci-dessous. Vous devez répondre à toutes les questions.
 ```
 Enter current password for root (enter for none):
@@ -76,7 +76,7 @@ mysql> exit
 
 ### Installation de PHP
 Nous couvrirons l'installation de PHP-FPM pour le traitement de PHP. PHP-FPM signifie FastCGI Process Manager. Nginx Web Server n'a pas de fonctionnalité intégrée pour le traitement de PHP, nous utiliserons donc PHP-FPM pour cela. De plus, nous installerons PHP-MySQL pour communiquer PHP avec le MySQL pour la gestion des données.
-  * Exécutez la commande ci-dessous pour ** Installez PHP sur Ubuntu **.
+  * Exécutez la commande ci-dessous pour **Installez PHP sur Ubuntu** .
 ```
 $ sudo apt install php-fpm php-mysql
 ```
@@ -108,13 +108,13 @@ server {
 }
 ```
   * Jetons un coup d'œil à ces directives et à ces blocs de localisation, afin que vous puissiez avoir des informations de base.
-      * ** Écouter **: Vous pouvez définir le port pour nginx. Utilisez le port 80 pour HTTP et 443 pour les protocoles HTTPS.
-      * ** Root **: Définissez le répertoire racine de votre projet. Nginx l'utilisera pour servir le site Web ou l'application Web.
-      * ** Index **: Définissez l'ordre dans lequel les fichiers doivent être servis. Lorsque le fichier index est appelé, Nginx livrera le fichier index.php.
-      * ** Server_name **: Définir le nom de domaine ou IP publique de votre serveur.
-      * ** Emplacement / **: Ce bloc d'emplacement a ** Try_Block ** Directive et correspond à l'URI demandé. Nginx renvoie l'erreur 404, s'il ne trouve pas le fichier demandé.
-      * ** Emplacement ~ .php $ **: Ce bloc d'emplacement gère le traitement PHP.
-      * ** Emplacement ~ /.ht**: Nginx ne traite pas **. HTACCESS ** Fichier et cet emplacement Les blocs y traitent. Nginx ne sert pas le fichier .htaccess en définissant ** Deny All ** Directive.
+      * **Écouter** : Vous pouvez définir le port pour nginx. Utilisez le port 80 pour HTTP et 443 pour les protocoles HTTPS.
+      * **Root** : Définissez le répertoire racine de votre projet. Nginx l'utilisera pour servir le site Web ou l'application Web.
+      * **Index** : Définissez l'ordre dans lequel les fichiers doivent être servis. Lorsque le fichier index est appelé, Nginx livrera le fichier index.php.
+      * **Server_name** : Définir le nom de domaine ou IP publique de votre serveur.
+      * **Emplacement / **: Ce bloc d'emplacement a  **Try_Block**   Directive et correspond à l'URI demandé. Nginx renvoie l'erreur 404, s'il ne trouve pas le fichier demandé.
+      * **Emplacement ~ .php $** : Ce bloc d'emplacement gère le traitement PHP.
+      * **Emplacement ~ /.ht**: Nginx ne traite pas **. HTACCESS  **Fichier et cet emplacement Les blocs y traitent. Nginx ne sert pas le fichier .htaccess en définissant **  Deny All**  Directive.
   * Créez un lien symbolique pour le fichier Nginx Config nouvellement créé pour l'activer.
 ```
 $ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
@@ -144,19 +144,19 @@ phpinfo();
 {{< figure align=center src="images/info-php.png" alt="Page d'informations PHP">}}
 
 
-## Conclusion {#conclusion}
-Dans ce tutoriel, nous avons discuté de la façon d'installer et de configurer la pile ** lemp **. Comme vous pouvez le voir, la configuration des composants de la pile logicielle est vraiment facile. De plus, vous pouvez commencer à créer et à servir des applications Web en quelques minutes.
-Enfin, [** contenerize.com **][5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** de solution de serveur Web **][6] pour les dernières mises à jour.
+## Conclusion   {#conclusion}
+Dans ce tutoriel, nous avons discuté de la façon d'installer et de configurer la pile **lemp** . Comme vous pouvez le voir, la configuration des composants de la pile logicielle est vraiment facile. De plus, vous pouvez commencer à créer et à servir des applications Web en quelques minutes.
+Enfin, [**contenerize.com **][5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [ **de solution de serveur Web**  ][6] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [** Meilleure solution de serveur Web Open Source Solution **][7]
-  * ** [Outils médico-légaux numériques les plus populaires][8] **
-  * ** [Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021][9] **
-  * ** [Meilleur logiciel de stockage et de partage de fichiers cloud open source][10] **
-  * [** Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu **][11]
-  * [** Comment installer plusieurs versions PHP avec Nginx sur Ubuntu **][12]
-  * [** Top 5 des licences open source les plus populaires approuvées de 2021 **][13]
+  * [**Meilleure solution de serveur Web Open Source Solution** ][7]
+  * **[Outils médico-légaux numériques les plus populaires][8]** 
+  * **[Top 5 du logiciel de file d'attente de messages open source (MQ) en 2021][9]** 
+  * **[Meilleur logiciel de stockage et de partage de fichiers cloud open source][10]** 
+  * [**Comment installer et sécuriser PhpMyAdmin avec Nginx sur Ubuntu** ][11]
+  * [**Comment installer plusieurs versions PHP avec Nginx sur Ubuntu** ][12]
+  * [**Top 5 des licences open source les plus populaires approuvées de 2021** ][13]
 
   
 [1]: #Prerequisites

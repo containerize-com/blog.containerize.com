@@ -21,7 +21,7 @@ Lembrar todas as diferentes combinações de senha para sites e aplicativos dife
   * [Psono][5]
   * [Conclusão][6]
 
-## Keepass {#KeePass}
+## Keepass   {#KeePass}
 Keepass é um dos melhores softwares gratuitos do gerenciador de senhas. Isso facilita o acesso aos usuários, sincronizando -os em vários dispositivos ou compartilhando arquivos no Dropbox, OneDrive ou outros aplicativos de compartilhamento de arquivos. Embora o Keepass seja desenvolvido principalmente como um gerenciador de senhas para o Windows OS, você ainda pode executar o gerenciador de senhas no Max ou no Linux também. Todas as senhas são armazenadas em um banco de dados que é criptografado com uma chave mestre compartilhada com o usuário. Quando se trata de criptografia, o Keepass usa o SHA-256, o dois algoritmos de criptografia popular para garantir a segurança das senhas. Aqui estão alguns profissionais do Keepass:
   * Gerenciador seguro de senhas
   * Código aberto
@@ -30,7 +30,7 @@ Keepass é um dos melhores softwares gratuitos do gerenciador de senhas. Isso fa
   * Portátil
 [Leia mais][7]
 
-## passabolt {#passbolt}
+## passabolt   {#passbolt}
 O Passtolt facilita para os funcionários armazenar senhas para diferentes servidores, aplicativos que usam diariamente e os incentiva a não manter a mesma senha para várias contas. Funciona para aplicativos de navegador, e -mails de aplicativos para desktop e muito mais. Como gerenciador de senhas de código aberto, ele é altamente seguro e usa a criptografia do GNUPG para autenticar usuários e proteger o banco de dados de senha. Aqui estão algumas características proeminentes do Passtolt:
   * Código aberto e de código aberto
   * Criado para equipes
@@ -40,7 +40,7 @@ O Passtolt facilita para os funcionários armazenar senhas para diferentes servi
   * Gerenciador de senhas auto-hospedado
 [Leia mais][8]
 
-## Senha segura {#senha-safe}
+## Senha segura   {#senha-safe}
 O seguro de senha foi desenvolvido apenas para usuários do Windows e Linux. No entanto, você pode encontrar clones do software para outros sistemas e plataformas operacionais também. Como um gerenciador de senha gratuito para baixar, a senha segura foi melhorada para manter suas senhas seguras, incluindo o algoritmo de criptografia duplo e usando funções de hash criptográfico como o SHA-256 para gerar chaves. Aqui estão alguns recursos proeminentes da senha segura:
   * Categorizar facilmente senhas
   * Exportar ou importar senhas
@@ -49,7 +49,7 @@ O seguro de senha foi desenvolvido apenas para usuários do Windows e Linux. No 
   * Gerenciador de senhas seguras e seguras
 [Leia mais][9]
 
-## Bitwarden {#bitwarden}
+## Bitwarden   {#bitwarden}
 O Bitwarden é o gerenciador de senhas de código aberto tudo o que não apenas pode ser usado por indivíduos para armazenar suas informações críticas e importantes, mas também pode ser implantado por empresas em todos os níveis. Como gerenciador de senhas de código aberto, ele vem em duas versões: versão gratuita e paga. Da mesma forma, o Bitwarden pode ser baixado nos telefones celulares iOS e Android e fornece muitas extensões de navegador para preencher as senhas automaticamente. É um dos melhores gerenciadores de senhas de código aberto. A seguir, alguns dos principais recursos que ele fornece:
   * Compatibilidade de plataforma cruzada
   * Relatórios de saúde sobre senhas
@@ -58,7 +58,7 @@ O Bitwarden é o gerenciador de senhas de código aberto tudo o que não apenas 
   * Logs de eventos detalhados
 [Leia mais][10]
 
-## Psono {#psono}
+## Psono   {#psono}
 Com o PSONO, você pode implantar o gerenciador de senhas em seu próprio servidor e permitir que até 10 usuários armazenem suas informações importantes e o acessam também. Como gerenciador de senhas de código aberto, ele também possui vários dispositivos e compatibilidade de plataforma cruzada, como iOS, Android, MacOS, Linux e navegadores como Chrome, Edge, Safari e muito mais. Aqui estão alguns recursos de destaque do Psono:
   * Código aberto
   * Usa uma criptografia multicamada
@@ -66,7 +66,7 @@ Com o PSONO, você pode implantar o gerenciador de senhas em seu próprio servid
   * Credenciais de login de preenchimento automático
 [Leia mais][11]
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Os gerentes de credenciais são uma maneira conveniente de armazenar suas senhas para diferentes contas e sites em um só lugar. Especialmente se você usar combinações de senha complexas que consistem em caracteres alfanuméricos e especiais, pode ser difícil lembrar de todos eles. Discutimos alguns dos principais gerentes de senha de código aberto deste blog. Alguns são melhores para indivíduos, outros são melhores para as equipes, outros são melhores para Windows e outros para navegadores ou aplicativos móveis. Todos eles têm seus próprios prós e contras. Escolher o melhor depende dos requisitos do usuário.
 Você pode se juntar a nós no [Twitter][12], [LinkedIn][13] e nossa página [Facebook][14]. Quais gerentes de senha de código aberto você usa?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato][15].
 

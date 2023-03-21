@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Überblick
 Wir haben [JavaScript Versprechen][1] in unserem vorherigen Blog -Beitrag behandelt und Sie müssen besuchen, wenn Sie ein klares Verständnis des Konzepts hinter JavaScript -Versprechen erhalten möchten. In dieser Reihe von [JavaScript -Tutorials][2] sind wir hier mit einem weiteren JavaScript -Handbuch, der die modernen Merkmale von JavaScript Async/Awit demonstrieren. Dieser Blog -Beitrag richtet sich an diejenigen, die über JavaScript -Versprechen vorhanden sind. Darüber hinaus werden wir versuchen, in JavaScript**zu decken, was asynchronisiert/wartet, und wenn wir Async/Wartee verwenden müssen. Darüber hinaus werden wir auch mit Async/Auseait Handhabungsfehler abdecken. Lesen Sie also diese**JavaScript async/warten Sie ein Tutorial**, um dieses Konzept zu markieren.
 Wir werden die folgenden Abschnitte in diesem JavaScript -Async Aused Tutorial durchlaufen:
-***[Was ist asynchron/wartet in JavaScript | Async wartet Syntax][3]**
-***[Wann verwendet asynchron/wartet?][4]**
-***[Fehlerbehandlung mit Async/Awit][5]**
+* **[Was ist asynchron/wartet in JavaScript | Async wartet Syntax][3]**
+* **[Wann verwendet asynchron/wartet?][4]**
+* **[Fehlerbehandlung mit Async/Awit][5]**
 
-## Was ist asynchron/wartet in JavaScript | Async wartet Syntax {#What-is-asyncawait-in-JavaScript-async-Await-Syntax}
+## Was ist asynchron/wartet in JavaScript | Async wartet Syntax   {#What-is-asyncawait-in-JavaScript-async-Await-Syntax}
 ECMAScript 2017 veröffentlichte neue Funktionen von JavaScript und Async/Awit ist eines der am häufigsten verwendeten unter diesen Funktionen. Async/Auseit basiert auf Versprechen und ist tatsächlich eine moderne Art, JavaScript -Versprechen zu bewältigen.
 Lassen Sie uns sehen, wie Sie Async/Warted -Schlüsselwörter im JavaScript -Code verwenden:
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 Nun, das asynchrische Schlüsselwort zu Beginn der Funktion impliziert, dass diese Funktion ein Versprechen zurückgibt. Warten Sie also, dass das Schlüsselwort immer im Körper der asynchronen Funktion verwendet wird, um die Ausführung der Funktion zu pausieren, bis sich das Versprechen auflöst. Das Wichtigste, was Sie hier beachten sollten, ist, dass Sie nicht das Schlüsselwort im Körper einer regulären Funktion verwenden können. Sie können jedoch nur mit asynchronen Funktionen erwarten, die mit dem asynchronen Schlüsselwort deklariert sind.
 
-## Wann asynchronisiert/wartet? {#Wenn es zu verwenden-asyncawait}
+## Wann asynchronisiert/wartet?   {#Wenn es zu verwenden-asyncawait}
 Bisher haben Sie die Antwort auf**Was ist Async in JavaScript**. Da dies nur ein Wrapper um die traditionellen JavaScript -Versprechen ist, nutzen Sie diese neue Art, Versprechungen auf sauberere und lesbare Weise besser zu erstellen und umzugehen. Darüber hinaus können Sie mehrere Versprechen beseitigen. Anschließend () Anrufe mit Async/Assait, die den Quellcode schließlich verwaltbarer und gewaltbarer machen. Das Keyword ist die Anweisung .then () in eine einzelne Zeile zusammenfasst.
 
-## Fehlerbehandlung mit Async/Warte {#Fehlerhandling mit Asyncawait}}
+## Fehlerbehandlung mit Async/Warte   {#Fehlerhandling mit Asyncawait}}
 Fehlerbehandlung ist eine kritische Aufgabe, wenn es um Softwareentwicklung auf Unternehmensebene geht. Es gibt mehrere Möglichkeiten, Fehler im Async/Warted -Ansatz zu erfassen.
 
 {{< figure align=center src="images/async-await.png" alt="Versuchen Sie, Async zu fangen, der auf JavaScript warten">}}

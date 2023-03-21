@@ -18,11 +18,11 @@ categories: ['Programming']
 ## 概要
 以前のブログ投稿で[JavaScript Promises][1]を取り上げました。JavaScriptの約束の背後にある概念を明確に理解したい場合は、訪問する必要があります。このシリーズの[JavaScriptチュートリアル][2]では、JavaScript Async/待ち望の最新の特徴を示す別のJavaScriptガイドと一緒にいます。このブログ投稿は、JavaScriptの約束の事前知識を持っている人向けです。さらに、JavaScript**でasync/async/async/async/async/async/awaitを使用する必要がある場合をカバーしようとします。さらに、Async/awaitを使用したハンドリングエラーもカバーします。したがって、この概念を確認するには、この**javaScript async/awaitチュートリアル**を徹底的に読んでください。
 このJavaScript Asyncを待っているチュートリアルの次のセクションを説明します。
-***[JavaScriptでAsync/待ち望んでいるものAsyncは構文を待っています][3]**
-***[いつasync/awaitを使用するのか？][4]**
-***[async/awaitでのエラー処理][5]**
+* **[JavaScriptでAsync/待ち望んでいるものAsyncは構文を待っています][3]**
+* **[いつasync/awaitを使用するのか？][4]**
+* **[async/awaitでのエラー処理][5]**
 
-## JavaScriptでAsync/async/awaintとは何ですか| async await syntax {#what-is-asyncawait-in-javascript-async-await-syntax}
+## JavaScriptでAsync/async/awaintとは何ですか| async await syntax   {#what-is-asyncawait-in-javascript-async-await-syntax}
 ECMAScript 2017は、JavaScriptの新機能をリリースし、Async/Awaitはこれらの機能の中で最も広く使用されているものの1つです。 Async/awaitは約束の上に構築されており、実際にはJavaScriptの約束を処理するための最新の方法です。
 JavaScriptコードでAsync/async/awaitキーワードを使用する方法を見てみましょう。
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 さて、関数の開始時のAsyncキーワードは、この関数が約束を返すことを意味します。したがって、待望のキーワードは、Async関数の本体内で常に使用され、約束が解決するまで関数の実行を一時停止します。ここで注意すべき重要なことは、通常の関数のボディ内で待望のキーワードを使用できないことです。ただし、Asyncキーワードで宣言された非同期関数でのみ待ちを使用できます。
 
-## いつasync/awaitを使用するのですか？ {#いつ使用するのかasyncawait}
+## いつasync/awaitを使用するのですか？   {#いつ使用するのかasyncawait}
 これまでのところ、JavaScript**でAsyncが待っているものへの答えがあります。これは伝統的なJavaScriptの約束をめぐるラッパーであるため、この新しい方法を使用して、よりクリーンで読みやすい方法で約束を作成および処理することをお勧めします。さらに、複数のPromise.then（）呼び出しを削除することができます。 awaitキーワードは、.then（）ステートメントを単一行にカプセル化します。
 
-## async/awaitを使用したエラー処理{#エラーハンドリング - アジンコウェイト}
+## async/awaitを使用したエラー処理 {#エラーハンドリング - アジンコウェイト}
 エラー処理は、エンタープライズレベルのソフトウェア開発に関して重要なタスクです。 Async/awaitアプローチでエラーをキャッチするには、複数の方法があります。
 
 {{< figure align=center src="images/async-await.png" alt="async asyncを待ってみてくださいjavascript">}}

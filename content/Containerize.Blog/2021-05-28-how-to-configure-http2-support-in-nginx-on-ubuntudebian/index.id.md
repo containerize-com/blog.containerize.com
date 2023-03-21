@@ -26,7 +26,7 @@ Salah satu protokol yang didukung oleh Nginx adalah HTTP/2 yang diterbitkan pada
   * Restart nginx
   * Kesimpulan
 
-## Langkah 1: Memperbarui paket dan menginstal nginx {#4597}
+## Langkah 1: Memperbarui paket dan menginstal nginx   {#4597}
 Langkah pertama adalah memperbarui dan meningkatkan repositori dalam sistem pengemasan yang tepat. Menggunakan Update akan mengunduh paket versi terbaru dan peningkatan akan menginstal versi terbaru dari paket dalam daftar. Jalankan perintah APT di bawah ini untuk memperbarui dan meningkatkan paket.
 ```
 sudo apt-get update && apt-get upgrade
@@ -44,7 +44,7 @@ Output dari perintah periksa versi di atas harus mirip dengan yang berikut:
 nginx version: nginx/1.10.0 (Ubuntu)
 ```
 
-## Langkah 2: Mengaktifkan Dukungan HTTP/2 {#f4d2}
+## Langkah 2: Mengaktifkan Dukungan HTTP/2   {#f4d2}
 Setelah menginstal paket Nginx, kita perlu mengaktifkan HTTP2 Nginx. Pengguna harus mengubah port mendengarkan dari 80 menjadi 443. Mari kita buka file konfigurasi nginx:
 ```
 sudo nano /etc/nginx/sites-available/domain-name.com
@@ -57,7 +57,7 @@ Dengarkan 443 SSL HTTP2 Default_Server;
 Dengarkan [::]: 443 SSL HTTP2 Default_Server;
 Perhatikan bahwa selain SSL, kami juga menambahkan HTTP2. Nginx sekarang dapat menggunakan browser yang mendukung protokol HTTP/2.
 
-## Langkah 3: Menambahkan Nama Server {#A745}
+## Langkah 3: Menambahkan Nama Server   {#A745}
 Langkah selanjutnya adalah mengubah server \ _name sehingga nama server dikaitkan dengan nama domain. Pengguna hanya perlu mengubah nama server di file konfigurasi. Temukan entri server \ _name di file konfigurasi dan ubah _ ke domain Anda yang sebenarnya, seperti ini:
 ```
 server_name example.com www.example.com;
@@ -70,7 +70,7 @@ Jika sintaksnya bebas kesalahan maka Anda akan melihat output di bawah ini:
 Nginx: File konfigurasi /etc/nginx/nginx.conf sintaks ok
 nginx: file konfigurasi /etc/nginx/nginx.conf Tes berhasil
 
-## Langkah 4: Menambahkan sertifikat SSL {#37C0}
+## Langkah 4: Menambahkan sertifikat SSL   {#37C0}
 Langkah selanjutnya adalah mengaktifkan konfigurasi Nginx HTTPS untuk menggunakan sertifikat SSL Anda. Anda dapat menghasilkan sertifikat yang ditandatangani sendiri atau [instal sertifikat gratis dari Let's Encrypt][1]. Jika Anda tidak memiliki sertifikat SSL maka silakan ikuti tutorial ini. Tambahkan sertifikat SSL Anda di dalam direktori konfigurasi nginx yang mirip dengan:
 ```
 sudo mkdir /etc/nginx/ssl
@@ -84,16 +84,16 @@ ssl_certificate /etc/nginx/ssl/example.com.crt;
 ssl_certificate_key /etc/nginx/ssl/example.com.key;
 Simpan file file Nginx dan keluar dari editor teks.
 
-## Langkah 5: Menghapus ciphers {#d291}
+## Langkah 5: Menghapus ciphers   {#d291}
 Cipher adalah algoritma yang digunakan dalam kriptografi untuk enkripsi dan dekripsi data. Cipher Suites adalah sekelompok algoritma kriptografi yang digunakan untuk mengamankan koneksi jaringan. HTTP/2 memiliki daftar hitam cipher yang tidak aman yang perlu dihapus. Di sini kita akan menggunakan set sandi populer, disetujui oleh raksasa internet Cloudflare.
-Buka file konfigurasi nginx berikut /etc/nginx/nginx.conf dan tambahkan baris di bawah ini tepat setelah ** SSL \ _Prefer \ _Server_Ciphers on. ** Baris -baris ini termasuk daftar cipher terbaru yang dipahami oleh browser HTTP2.
+Buka file konfigurasi nginx berikut /etc/nginx/nginx.conf dan tambahkan baris di bawah ini tepat setelah **SSL \ _Prefer \ _Server_Ciphers on.**  Baris -baris ini termasuk daftar cipher terbaru yang dipahami oleh browser HTTP2.
 ```
 ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+
 AES256:EECDH+3DES:RSA+3DES:!MD5;
 ```
 Anda dapat mengatur gzip untuk mati dan menambahkan proxy \ _max \ _temp \ _file \ _size 0; Untuk menghindari err \ _http2 \ _protocol_error nginx kesalahan.
 
-## Langkah 6: Redirect semua permintaan http ke https {#b387}
+## Langkah 6: Redirect semua permintaan http ke https   {#b387}
 Sekarang kita harus memberi tahu Nginx HTTP2 Proxy apa yang harus melayani konten melalui HTTPS hanya jika server menerima permintaan HTTP. Akhirnya, mengabaikan baris yang dikomentari, file konfigurasi nginx Anda /etc/nginx/sites-available/domain-name.com harus terlihat mirip dengan ini:
 Server {Listen 443 SSL HTTP2 Default_Server; Dengarkan [::]: 443 SSL HTTP2 Default_Server; root/var/www/html; index index.html index.htm index.nginx-debian.html; server_name Contoh.com; Lokasi/{try_files $ URI $ URI/= 404 ; } ssl_certificate /etc/nginx/ssl/example.com.crt;ssl_certificate_key /etc/nginx/ssl/example.com.key;ssl_dhparam /etc/nginx/ssl/dhparam.pem; {listen 80; Dengarkan [::]: 80; server_name example.com; return 301 https: // $ server_name $ request_uri;}
 Simpan file /etc/nginx/sites-available/domain-name.com dan kemudian keluar. Periksa konfigurasi untuk kesalahan sintaks:
@@ -101,12 +101,12 @@ Simpan file /etc/nginx/sites-available/domain-name.com dan kemudian keluar. Peri
 sudo nginx -t
 ```
 
-## Langkah 7: Restart nginx {#e687}
+## Langkah 7: Restart nginx   {#e687}
 Untuk menerapkan semua perubahan, restart server proxy terbalik Nginx HTTP2 dan periksa status konfigurasi.
 Sudo Systemctl restart nginx
 Sudo Systemctl Status nginx
 
-## ** Kesimpulan: ** {#4a1a}
+## **Kesimpulan:**    {#4a1a}
 Selamat, Anda telah berhasil belajar cara mengatur dukungan Nginx Config HTTP2 di Ubuntu Server. Pengaturan Nginx HTTP2 Anda sekarang melayani HTTP/2 halaman dan juga menghapus perbedaan antara protokol HTTP/1 dan HTTP/2. Jika Anda masih menghadapi masalah konfigurasi, beri tahu kami di bagian komentar.
 Apakah Anda memiliki pertanyaan tentang protokol multiplexed http2? _, Silakan_ [hubungi Anda][2].
 

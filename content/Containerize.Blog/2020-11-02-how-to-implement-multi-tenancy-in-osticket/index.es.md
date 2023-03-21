@@ -20,21 +20,21 @@ En este artículo discutiremos cómo hacer la personalización de Osticket para 
   * [Implementación][3]
   * [Conclusión][4]
 
-## Descripción general de OsTicket: {#OSTICKET}
+## Descripción general de OsTicket:   {#OSTICKET}
 [Osticket][5] es un software de mesa de ayuda basado en la web de soporte al cliente en línea de código abierto. Proporciona un panel de control intuitivo y un componente de informes en tiempo real. Tiene el módulo de gestión de consultas fáciles de usar. Esto le permite crear consultas desde su teléfono, correo electrónico y formularios basados ​​en la web. Que ofrece numerosas opciones para ayudar a adaptar todas las partes de la experiencia de soporte del cliente, como comentarios y notificaciones por correo electrónico.
 
-## Descripción general de la tenencia múltiple: {#multitenancy}
+## Descripción general de la tenencia múltiple:   {#multitenancy}
 Multi-tenencia se refiere a la implementación, donde múltiples instancias independientes de una aplicación operan en un entorno compartido. Las instancias (inquilinos) están lógicamente aisladas, pero físicamente integradas. Una organización posiblemente puede tener múltiples departamentos. Para que puedan crear múltiples inquilinos/instancias de la misma aplicación. Por ejemplo, en nuestro caso, un sistema de servicio de ayuda se puede configurar para diferentes dominios de la misma organización. Podría haber cientos de inquilinos, pero todos usarán los mismos archivos y, por lo tanto, el mismo almacenamiento. Esto reducirá los costos de almacenamiento, así como facilitará las actualizaciones. Los desarrolladores solo necesitan actualizar los archivos de un lugar en lugar de hacer cambios para cada sitio por separado.
 
-## ¿Cuáles son los beneficios de la tenencia múltiple? {#beneficios}
+## ¿Cuáles son los beneficios de la tenencia múltiple?   {#beneficios}
 Aquí hay algunos beneficios cruciales de la tenencia múltiple
-  *** Optimización de recursos: ** Una máquina reservada para un inquilino no es eficiente. Porque no es probable que un inquilino use toda la potencia informática de la máquina. Compartir máquinas maximizará la disponibilidad de recursos.
-  *** Costos más bajos: ** con múltiples inquilinos que comparten los mismos recursos costarán mucho más bajos que si cada inquilino requiriera su propia infraestructura dedicada.
-  *** Alojamiento eficiente: ** También Osticket de múltiples inquilinos reducirá los costos de alojamiento al mínimo en un entorno compartido.
-  *** Seguridad: ** Con menos interacción con el mundo exterior, la exposición al software malicioso se reduce.
-  *** Actualización fácil **: Actualizar archivos solo en un lugar en lugar de actualizarlos por separado. Esto ahorrará mucho tiempo y esfuerzo.
+  ***Optimización de recursos:**  Una máquina reservada para un inquilino no es eficiente. Porque no es probable que un inquilino use toda la potencia informática de la máquina. Compartir máquinas maximizará la disponibilidad de recursos.
+  ***Costos más bajos:**  con múltiples inquilinos que comparten los mismos recursos costarán mucho más bajos que si cada inquilino requiriera su propia infraestructura dedicada.
+  ***Alojamiento eficiente:**  También Osticket de múltiples inquilinos reducirá los costos de alojamiento al mínimo en un entorno compartido.
+  ***Seguridad:**  Con menos interacción con el mundo exterior, la exposición al software malicioso se reduce.
+  ***Actualización fácil** : Actualizar archivos solo en un lugar en lugar de actualizarlos por separado. Esto ahorrará mucho tiempo y esfuerzo.
 
-## Implementación de Osticket multiinquilino: {#IMPLEMENTATION}
+## Implementación de Osticket multiinquilino:   {#IMPLEMENTATION}
   * Cree un nuevo nombres de base de datos vacías como "Main_DB".
   * Luego cree una tabla llamada "inquilino" que contendrá detalles sobre todos los inquilinos.
   * Tendrá los siguientes campos:
@@ -64,7 +64,7 @@ if ($url == $row['url']) {
   * Este código actualizará la conectividad de base de datos predeterminada. Primero obtendrá la URL del inquilino actual. Luego obtendrá el nombre de la base de datos de acuerdo con esa URL. Así es como la aplicación sabrá a qué base de datos conectarse. Cada inquilino tendrá una base de datos separada. La base de datos se seleccionará sobre la base de la URL del inquilino.
   * Para crear un nuevo inquilino, simplemente configure el nuevo dominio del inquilino en el servidor NGINX. Después de eso, simplemente copie la base de datos actual de Osticket y cambie el nombre. Finalmente, agregue la entrada a la tabla "Inquilino" de la base de datos "Main_DB".
 
-## Conclusión: {#Conclusion}
+## Conclusión:   {#Conclusion}
 Osticket es un software de gestión de la mesa de ayuda gratuito y de código abierto. Hemos aprendido cómo hacer personalizaciones de Osticket para implementar múltiples tenientes en Osticket para poder ahorrar costos, optimizar la aplicación y menores requisitos de recursos. Hará que la vida sea más fácil para los desarrolladores crear nuevos inquilinos en algunos pasos simples. Por lo tanto, cree múltiples inquilinos de Osticket a partir de la misma instalación.
 
 ## Explorar:

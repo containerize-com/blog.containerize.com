@@ -18,11 +18,11 @@ categories: ['Programming']
 ## 概述
 我们在以前的博客文章中介绍了[JavaScript Probors][1]，如果您想清楚地了解JavaScript承诺背后的概念，则必须访问。在这一系列的[JavaScript教程][2]中，我们在这里提供了另一份JavaScript指南，该指南将展示JavaScript异步/等待的现代特征。这篇博客文章适用于那些对JavaScript承诺的知识的人。此外，我们将尝试介绍JavaScript中的异步/等待的**，以及当我们需要使用异步/等待时。此外，我们还将用异步/等待的方式介绍处理错误。因此，对此**JavaScript异步/等待教程**进行详尽的阅读，以标记已检查的概念。
 我们将在此JavaScript异步中详细介绍以下各节：等待教程：
-***[javaScript中的异步/等待|异步等待语法][3]**
-***[何时使用异步/等待？][4]**
-***[使用异步/等待的错误处理][5]**
+* **[javaScript中的异步/等待|异步等待语法][3]**
+* **[何时使用异步/等待？][4]**
+* **[使用异步/等待的错误处理][5]**
 
-## 什么是异步/等待JavaScript |异步等待语法{#what-is-asyncawait in javascript-async-await-syntax}
+## 什么是异步/等待JavaScript |异步等待语法 {#what-is-asyncawait in javascript-async-await-syntax}
 ECMAScript 2017发布了JavaScript的新功能，Async/等待是这些功能中使用最广泛的功能之一。异步/等待是建立在承诺之上的，实际上是处理JavaScript承诺的现代方式。
 让我们看看如何在JavaScript代码中使用async/等待关键字：
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 好吧，函数开始时的异步关键字意味着此函数将返回承诺。因此，等待关键字始终在异步函数的主体内部使用，以暂停该函数的执行，直到承诺解决。这里要注意的重要一点是，您无法在常规功能的身体内部使用等待关键字。但是，您只能使用与异步关键字声明的异步函数一起使用。
 
-## 何时使用异步/等待？ {#何时使用 -  assyncawait}
+## 何时使用异步/等待？   {#何时使用 -  assyncawait}
 到目前为止，您可以回答**在JavaScript**中等待什么是异步。由于这只是围绕传统JavaScript承诺的包装纸，因此您最好使用这种新的方式来以更清洁，更可读性的方式创建和处理承诺。此外，您可以摆脱多个Promise.then（）使用异步/等待的呼叫，这最终使源代码更易于管理和可维护。等待的关键字将.ly（）语句封装到一行中。
 
-## 使用异步/等待的错误处理{#错误处理与assyncawait}
+## 使用异步/等待的错误处理 {#错误处理与assyncawait}
 在企业级软件开发方面，错误处理是一项关键任务。有多种方法可以在异步/等待方法中捕获错误。
 
 {{< figure align=center src="images/async-await.png" alt="尝试捕获异步等待JavaScript">}}

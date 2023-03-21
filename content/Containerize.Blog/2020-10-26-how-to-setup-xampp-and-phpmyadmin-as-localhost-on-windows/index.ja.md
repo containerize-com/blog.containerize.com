@@ -20,16 +20,16 @@ LocalHostとしてのXAMPPとPHPMyAdminは、開発者がWebアプリをテス�
   * [phpmyadminダッシュボード][3]
   * [最終的な考え][4]
 
-## 説明：{#description}
+## 説明： {#description}
 XAMPPは無料でオープンソースのWebサーバーソリューションスタックです。 Apache、MySQL、MariadB、PHP、およびPerlが含まれています。 XAMPPは、Windowsオペレーティングシステムで利用できます。インストールと使用は非常に簡単です。そのため、最も人気のあるPHP開発環境です。 LocalHostとしてのXAMPPとPHPMyAdminは、Webアプリの開発とテストのための完全な環境を提供します。
 XAMPPのアルファベットは次のとおりです。
-  *** x **  - クロスプラットフォーム（Linux、Windows、Mac OSなどの複数のオペレーティングシステムをサポート）
-  *** a **  -  apache httpサーバー
-  *** M **  -  Mariadb（データベース）
-  *** p **  -  php
-  *** p **  -  perl
+  ***x**   - クロスプラットフォーム（Linux、Windows、Mac OSなどの複数のオペレーティングシステムをサポート）
+  ***a**   -  apache httpサーバー
+  ***M**   -  Mariadb（データベース）
+  ***p**   -  php
+  ***p**   -  perl
 
-## XAMPPインストール{#XAMPP}
+## XAMPPインストール {#XAMPP}
   * [こちら][5]からXAMPPをダウンロードします。
 
 {{< figure align=center src="images/xampp1.png" alt="localhostとしてxampp">}}
@@ -53,7 +53,7 @@ XAMPPのアルファベットは次のとおりです。
 {{< figure align=center src="images/xampp5.png" alt="LocalHost Step 4としてのXAMPP">}}
 
 
-## phpmyadminダッシュボード：{#phpmyadmin}
+## phpmyadminダッシュボード： {#phpmyadmin}
 phpmyAdminダッシュボードにアクセスするには、MySQLサービスの横にある[管理]ボタンをクリックします。また、ブラウザからhttp：// localhost/phpmyadminにアクセスして、phpmyadminにアクセスすることもできます。ここでは、データベースを作成できます。これらの手順に従って、新しいデータベースを作成します。
   *ダッシュボードから、[データベース]タブをクリックします。
 
@@ -75,7 +75,7 @@ phpmyAdminダッシュボードにアクセスするには、MySQLサービス�
 {{< figure align=center src="images/db4-1024x564.png" alt="LocalHostステップ4のphpMyAdmin">}}
 
 
-## 最終的な考え：{#final}
+## 最終的な考え： {#final}
 XAMPPのインストールはシンプルで簡単です。セットアップXAMPPサーバーまで15分以内です。インストールされると、開発者はインターネットに接続しなくても、PHPベースのWebアプリを構築およびテストできます。ライブWebサーバーでプロジェクトを直接テストする代わりに、ローカルでテストするのは簡単で時間が節約されます。初心者がPHP、Perl、およびデータベースのスキルを学び、テストし、磨くのに最適なプラットフォームです。
 
 ## 探検：

@@ -16,14 +16,14 @@ categories: ['Blockchain Platforms']
 
 ## Aperçu
 Nous avons récemment publié des articles de blog sur [Blockchain Technology for Business][1] et un article de tutoriel sur la création d'un [contrat intelligent de base][2]. Cependant, nous avons compilé une liste des plates-formes de blockchain populaires suivantes de 2020.
-  * ** [Ethereum][3] **
-  * ** [tissu hypeledger][4] **
-  * ** [OpenChain][5] **
-  * ** [Multichain][6] **
-  * ** [Ripple][7] **
-  * ** [Conclusion][8] **
+  * **[Ethereum][3]** 
+  * **[tissu hypeledger][4]** 
+  * **[OpenChain][5]** 
+  * **[Multichain][6]** 
+  * **[Ripple][7]** 
+  * **[Conclusion][8]** 
 
-## Ethereum {#ether}
+## Ethereum   {#ether}
 [Ethereum][9] est une plate-forme basée sur la blockchain open source de premier plan. Il fournit un cadre complet pour gérer les actifs numériques, écrire des contrats intelligents et créer des applications décentralisées. Ce logiciel utilise un algorithme de consensus nommé Proof of Work (POW). Il prend en charge sa propre crypto-monnaie appelée éther. De plus, Ethereum possède cinq composants principaux Machine virtuelle Ethereum, Smart Contracts, Ethereum nœuds, les API client Ethereum et les applications utilisateur final. Il est écrit en langue Go et tout le code source est disponible chez [GitHub][10].
 Voici les caractéristiques importantes:
   * Sécurisé avec la cryptographie
@@ -33,7 +33,7 @@ Voici les caractéristiques importantes:
   * Architecture multicouche
 [Lire la suite][11]
 
-## tissu hypeledger {#hyper}
+## tissu hypeledger   {#hyper}
 [Fabric Hyperledger][12] est une blockchain autoritaire open source construite sur une architecture modulaire. Cependant, il donne aux utilisateurs la disposition d'utiliser tout protocole de consensus en fonction du cas d'utilisation. De plus, ce logiciel est évolutif, robuste et efficace. Il fournit l'intégration avec des logiciels tiers tels que LDAP, OpenID Connect et les bibliothèques cryptographiques. Il est également écrit en langue Go et son code source est disponible sur [GitHub][13].
 Le tissu Hyperledger a les caractéristiques clés suivantes:
   * Prise en charge de l'EVM et de la solidité
@@ -43,7 +43,7 @@ Le tissu Hyperledger a les caractéristiques clés suivantes:
   * Données interrogables
 [Lire la suite][14]
 
-## OpenChain {#Open}
+## OpenChain   {#Open}
 [OpenChain][15] est comparativement une nouvelle technologie de blockchain et elle est basée sur l'architecture du serveur client. De plus, n'importe qui peut configurer une instance de ce logiciel open source et il existe un administrateur pour chaque instance qui valide les transactions. De plus, aucun mécanisme minier n'est soutenu dans OpenChain. Surtout, l'algorithme de consensus partitionné est utilisé dans cette plate-forme. Il est écrit en langue C # et son code source est disponible chez [GitHub][16].
 OpenChain propose les caractéristiques importantes suivantes:
   * Provision pour définir les règles
@@ -63,7 +63,7 @@ Multichain propose les caractéristiques clés suivantes:
   * Flux de données en temps réel
 [Lire la suite][18]
 
-## Ripple {#Ripple}
+## Ripple   {#Ripple}
 [Ripple][20] est une plate-forme blockchain open source de niveau d'entreprise avec des fonctionnalités avancées. Par conséquent, il est basé sur une infrastructure décentralisée qui prend en charge les transactions sécurisées des actifs numériques. Surtout, il dispose d'un large éventail de fonctionnalités qui sont suffisantes pour établir une entreprise de paiement. De plus, il est alimenté par un grand livre XRP qui est un grand livre cryptographique décentralisé. Cependant, ce logiciel open source est écrit en langue C ++ avec la saisie d'autres langues et son code source est disponible chez [GitHub][21].
 Ripple propose les points clés suivants:
   * Propulsé par XRP Ledger
@@ -73,7 +73,7 @@ Ripple propose les points clés suivants:
   * Polyvalent
 [Lire la suite][22]
 
-## Conclusion {#conclusion}
+## Conclusion   {#conclusion}
 Dans ce billet de blog, nous avons parcouru certaines des plates-formes de blockchain open source populaires. Puisqu'il existe de nombreuses autres plateformes populaires, de nouvelles plateformes ont commencé à gagner l'intention de la communauté en offrant des fonctionnalités avancées. Par conséquent, c'est toujours une bonne idée d'étudier correctement avant de faire un choix.
 Enfin, [Containerize.com][23] élargit sa liste de logiciels open source et d'articles de blog. Par conséquent, veuillez rester en contact avec la catégorie [plates-formes blockchain][24] pour les mises à jour régulières.
 

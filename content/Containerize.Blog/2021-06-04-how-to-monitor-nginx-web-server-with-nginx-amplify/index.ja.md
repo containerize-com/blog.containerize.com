@@ -14,15 +14,15 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginx-post.png" alt="Nginx Amplifyを使用してNginx Webサーバーを監視します">}}
 
 
-## 概要{#install}
-** Webサーバーの監視**は、交通量の多いWebサイトにとって非常に重要です。 **監視エージェント**は、Webサーバーに関する重要なメトリックを定期的に記録します。これらの重要なメトリックを使用して、NGINX構成を最適化できます。これは、Webサーバーとアプリケーションのパフォーマンスを改善するのに役立ちます。
-このブログ投稿では、** nginx監視**オープンソースツールについては、次のセクションについて説明します。
+## 概要 {#install}
+**Webサーバーの監視**は、交通量の多いWebサイトにとって非常に重要です。 **監視エージェント** は、Webサーバーに関する重要なメトリックを定期的に記録します。これらの重要なメトリックを使用して、NGINX構成を最適化できます。これは、Webサーバーとアプリケーションのパフォーマンスを改善するのに役立ちます。
+このブログ投稿では、 **nginx監視** オープンソースツールについては、次のセクションについて説明します。
   * [nginx webサーバー][1]
   * [nginx amplify][2]
   * [nginx amplifyをインストール][3]
   * [監視指標][4]
 
-## nginx webサーバー{#nginx}
+## nginx webサーバー {#nginx}
 [nginx][5]は、無料でオープンソースのWebサーバーです。 Apacheよりもシンプルで軽量で構成が簡単です。 Nginx Webサーバーは、リバースプロキシ、ロードバランサー、メールプロキシ、およびHTTPキャッシュとしても機能します。 HTTP、HTTPS、SMTP、POP3、およびIMAPプロトコルで機能します。 Nginxは、アプリケーションのパフォーマンスを向上させる高速で信頼性が高く、メモリ効率の高いWebサーバーです。さらに、それは人気が高まっており、現在では最も人気のあるWebサーバーと見なされています。さらに、NGINXは、交通量の多いサイトやアプリケーションを含むあらゆるタイプのWebサイトに適しています。ほぼすべてのオペレーティングシステムにインストールして構成できます。
 
 ### nginxをインストールします
@@ -36,13 +36,13 @@ sudo apt install nginx
 {{< figure align=center src="images/nginx-home.png" alt="Nginxのへようこそ！">}}
 
 
-## nginx amplify {#amplify}
+## nginx amplify   {#amplify}
 Nginx Amplifyは、Nginxオープンソース、Nginx Plus、およびPHP-FPMの無料監視ツールです。 Nginxサーバーの監視とアプリケーション用のSaaSベースのツールです。ユーザーは、インフラストラクチャアセットを簡単に追跡し、パフォーマンスを監視し、構成を調整できます。ユーザーが利用してWebサーバーとアプリケーションの構成を最適化できる包括的な情報を提供します。 NginxおよびPHPアプリケーションをホストするサーバー上のエージェントとして機能します。 Nginx Amplifyは、パフォーマンスを損なうことなく、軽量のプッシュログと監視データを監視してサーバーを増幅します。 Amplifyダッシュボードでメトリックを表示できます。エージェントは、Rhel、Centos、Ubuntu、Debian、Fedora、FreeBSDなどのすべての主要なオペレーティングシステムで利用できます。 Nginx Amplifyには、Nginx Amplify Agent、Nginx Amplify Web UI、Nginx Amplify BackEndなどの3つの主要なコンポーネントがあります。
-  *** nginx Amplify Agent **  - 監視されているシステムで動作します。すべての通信は、SSL/TLSを使用して暗号化されます。
-  *** nginx Amplify web ui **  -  Web UIは、Webサーバー、アプリケーション、およびオペレーティングシステムのメトリックを表示します。
-  *** nginx Amplify BackEnd **  - これは、SaaSとして実装された重要なコンポーネントであり、メトリックの収集、データベースの維持、分析エンジンの実行、コアAPIの提供を担当します。
+  ***nginx Amplify Agent**   - 監視されているシステムで動作します。すべての通信は、SSL/TLSを使用して暗号化されます。
+  ***nginx Amplify web ui**   -  Web UIは、Webサーバー、アプリケーション、およびオペレーティングシステムのメトリックを表示します。
+  ***nginx Amplify BackEnd**   - これは、SaaSとして実装された重要なコンポーネントであり、メトリックの収集、データベースの維持、分析エンジンの実行、コアAPIの提供を担当します。
 
-## インストールnginx amplify {#install}
+## インストールnginx amplify   {#install}
 UbuntuにNginx Amplifyをインストールするためのステップバイステップガイドを参照してください。
   *最初に、Nginx [Webサイト][6]でアカウントを作成する必要があります。
   *ログイン後、NGINX Amplify Webサイトの以下の画面が表示されます。次に、SSHを介してサーバーに接続し、以下の手順で指定されたコマンドを使用します。
@@ -108,13 +108,13 @@ $ sudo service nginx restart
 {{< figure align=center src="images/amplify-overview.png" alt="nginx監視統計">}}
 
 
-## 監視メトリック{#monitoring}
+## 監視メトリック {#monitoring}
 Nginx Amplifyエージェントは、次のタイプのデータを収集します。
-  *** nginxメトリック**  -  stub_status、logsファイル、およびプロセス状態からさまざまなnginx関連メトリックを収集します。
+  * **nginxメトリック**   -  stub_status、logsファイル、およびプロセス状態からさまざまなnginx関連メトリックを収集します。
   ***システムメトリック**  -  nginx Amplifyは、CPU使用、メモリ使用、ネットワークトラフィックなど、さまざまなシステムメトリックを監視しています。
-  *** PHP-FPMメトリック**  - 実行中のPHP-FPMマスタープロセスを識別した場合、PHP-FPMプールステータスからメトリックを取得します。
-  *** MySQLメトリック**  -  MySQLグローバルステータスの変数セットを使用して、メトリックを収集するために使用できます。
-  *** nginxメタデータ**  - エージェントは、パッケージデータ、情報の構築、バイナリパス、構成設定のビルドなど、Nginxインスタンスに関するデータを収集します。
+  * **PHP-FPMメトリック**   - 実行中のPHP-FPMマスタープロセスを識別した場合、PHP-FPMプールステータスからメトリックを取得します。
+  * **MySQLメトリック**   -  MySQLグローバルステータスの変数セットを使用して、メトリックを収集するために使用できます。
+  * **nginxメタデータ**   - エージェントは、パッケージデータ、情報の構築、バイナリパス、構成設定のビルドなど、Nginxインスタンスに関するデータを収集します。
   ***システムメタデータ**  - エージェントは、ホスト名、アップタイム、OSフレーバー、その他の詳細など、オペレーティングシステム上のデータを収集します。
 
 ## 結論

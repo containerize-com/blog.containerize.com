@@ -13,66 +13,66 @@ categories: ['Invoicing']
 
 {{< figure align=center src="images/accounting-software.png" alt="Top 5 du logiciel de comptabilité open source en 2021">}}
 
-Le logiciel comptable est l'une des premières et des plus critiques d'application pour toute entreprise. Le bon système de comptabilité vous aiderait à suivre l’argent de votre entreprise. Nous avons compilé une liste des 5 meilleurs logiciels gratuits et ** Open Source ** et les couvrons dans cet article de blog.
-  * [** Invoiceninja **][1]
-  * [** ASUNATING **][2]
-  * [** Convoiceplane **][3]
-  * [** Kill Bill **][4]
-  * [** cratère **][5]
+Le logiciel comptable est l'une des premières et des plus critiques d'application pour toute entreprise. Le bon système de comptabilité vous aiderait à suivre l’argent de votre entreprise. Nous avons compilé une liste des 5 meilleurs logiciels gratuits et **Open Source**  et les couvrons dans cet article de blog.
+  * [**Invoiceninja** ][1]
+  * [**ASUNATING** ][2]
+  * [**Convoiceplane** ][3]
+  * [**Kill Bill** ][4]
+  * [**cratère** ][5]
 
-## Invoiceninja {#invoiceceninja}
-** [invoiceceninja][6] ** est l'un des logiciels de comptabilité open source populaires et modernes. Il est 100% gratuit et un système de comptabilité auto-hébergée **. Cependant, vous pouvez l'utiliser comme logiciel (SaaS) comme service en choisissant un plan d'abonnement. ** Invoiceninja ** a des fonctionnalités impressionnantes telles que des factures, une gestion des paiements, des vendeurs, des dépenses, des tâches, des projets et bien d'autres. De plus, Invoiceninja fournit de belles applications mobiles pour les appareils iPhone et Android. Ce logiciel de facturation open source est que le code source de Framework PHP Laravel est disponible chez [GitHub][7].
+## Invoiceninja   {#invoiceceninja}
+**[invoiceceninja][6]  **est l'un des logiciels de comptabilité open source populaires et modernes. Il est 100% gratuit et un système de comptabilité auto-hébergée ** . Cependant, vous pouvez l'utiliser comme logiciel (SaaS) comme service en choisissant un plan d'abonnement.  **Invoiceninja**   a des fonctionnalités impressionnantes telles que des factures, une gestion des paiements, des vendeurs, des dépenses, des tâches, des projets et bien d'autres. De plus, Invoiceninja fournit de belles applications mobiles pour les appareils iPhone et Android. Ce logiciel de facturation open source est que le code source de Framework PHP Laravel est disponible chez [GitHub][7].
 Voici une liste de la caractéristique clé de l'invoiceninja:
   * Créez et envoyez un e-mail aux factures / citations en temps réel
   * 40+ Options d'intégration de la passerelle de paiement
   * Support de l'entreprise multiple
   * Créer des clients de facturation récurrente et de facture automatique
   * Outil de création de propositions
-** [En savoir plus sur l'invoiceninja][8] **
+**[En savoir plus sur l'invoiceninja][8]** 
 
-## ASINATING {#AKAUNTING}
-** [ASINATING][9] ** est un autre du ** Top Source Accounting Software ** basé sur le framework PHP Laravel. Il fournit de belles interfaces hors de la boîte pour le bureau, le mobile et la tablette. ** ASINATING ** est livré avec d'excellentes fonctionnalités qui répondent au besoin financier de toute entreprise. De plus, vous pouvez le configurer sur votre serveur privé et garder le contrôle de toutes les données importantes. Son code source est disponible sur [GitHub][10].
+## ASINATING   {#AKAUNTING}
+**[ASINATING][9]  **est un autre du **  Top Source Accounting Software  **basé sur le framework PHP Laravel. Il fournit de belles interfaces hors de la boîte pour le bureau, le mobile et la tablette. **  ASINATING**  est livré avec d'excellentes fonctionnalités qui répondent au besoin financier de toute entreprise. De plus, vous pouvez le configurer sur votre serveur privé et garder le contrôle de toutes les données importantes. Son code source est disponible sur [GitHub][10].
 Voici les principales caractéristiques de l'alimentation:
   * Gestion de la clientèle
   * Belle interface
   * Interface mobile et tablette Ready
   * Propriété de données financières à 100%
   * Mises à jour gratuites à vie
-** [En savoir plus sur l'alimentation][11] **
+**[En savoir plus sur l'alimentation][11]** 
 
-## Convoiceplane {#InvoicePlane}
-** [Convoiceplane][12] ** est un logiciel de comptabilité gratuit et auto-hébergé. Il propose un module CRM (gestion de la relation client) hors de la boîte. La fonction CRM permet à l'entreprise de gérer les informations clés des clients. Vous pouvez facilement créer des tâches telles que des citations, des factures, des reçus et des paiements. ** Convoi du plan facteur ** prend en charge plusieurs méthodes de paiement pour les transactions financières. De plus, il prend en charge multilingue et vous pouvez l'exécuter dans la langue de votre choix. Cependant, le plan de facture est écrit dans PHP CodeIgniter Framework et tout son code source est disponible sur [GitHub][13].
+## Convoiceplane   {#InvoicePlane}
+**[Convoiceplane][12]  **est un logiciel de comptabilité gratuit et auto-hébergé. Il propose un module CRM (gestion de la relation client) hors de la boîte. La fonction CRM permet à l'entreprise de gérer les informations clés des clients. Vous pouvez facilement créer des tâches telles que des citations, des factures, des reçus et des paiements. **  Convoi du plan facteur**  prend en charge plusieurs méthodes de paiement pour les transactions financières. De plus, il prend en charge multilingue et vous pouvez l'exécuter dans la langue de votre choix. Cependant, le plan de facture est écrit dans PHP CodeIgniter Framework et tout son code source est disponible sur [GitHub][13].
 Le plan de facturation offre les points clés suivants:
   * Citations, factures, paiements
   * Factures récurrentes
   * Gérez vos clients
   * Personnalisez facilement
   * Paiements en ligne en un clic
-** [En savoir plus sur le plan de facturation][14] **
+**[En savoir plus sur le plan de facturation][14]** 
 
-## Kill Bill {#KillBill}
-** [Kill Bill][15] ** est l'un des ** meilleurs logiciels de comptabilité open source ** basés sur Java. Il s'agit d'un système de facturation robuste, évolutif et personnalisable. Il a un ensemble de fonctionnalités impressionnant qui peut être utilisé pour gérer toutes les opérations financières. De plus, ** Kill Bill ** prend en charge les plugins, et vous pouvez soit utiliser les plugins disponibles ou créer le vôtre pour améliorer le système. De plus, il propose une API qui permet aux entreprises de faire l'intégration avec des services tiers. Son code source est disponible sur [GitHub][16].
+## Kill Bill   {#KillBill}
+**[Kill Bill][15]  **est l'un des **  meilleurs logiciels de comptabilité open source  **basés sur Java. Il s'agit d'un système de facturation robuste, évolutif et personnalisable. Il a un ensemble de fonctionnalités impressionnant qui peut être utilisé pour gérer toutes les opérations financières. De plus, **  Kill Bill**  prend en charge les plugins, et vous pouvez soit utiliser les plugins disponibles ou créer le vôtre pour améliorer le système. De plus, il propose une API qui permet aux entreprises de faire l'intégration avec des services tiers. Son code source est disponible sur [GitHub][16].
 Kill Bill propose les caractéristiques clés suivantes:
   * Analyse financière
   * Suivi de l'histoire
   * Gestion des factures
   * Analyse en temps réel
   * Notifications en temps réel
-** [En savoir plus sur Kill Bill][17] **
+**[En savoir plus sur Kill Bill][17]** 
 
-## cratère {#crater}
-** [cratère][18] ** est un logiciel de comptabilité open source. Il est 100% gratuit et idéal pour les pigistes et les petites entreprises. ** Crater ** a d'excellentes fonctionnalités telles que la manipulation des factures, les estimations, les dépenses de suivi et les paiements. De plus, Crater propose des applications mobiles hors de la boîte pour les appareils Android et iPhone. Ce ** Système de gestion des factures open source ** est écrit dans le cadre PHP Laravel. De plus, son code source est disponible sur [GitHub][19] avec une feuille de route complète.
+## cratère   {#crater}
+**[cratère][18]  **est un logiciel de comptabilité open source. Il est 100% gratuit et idéal pour les pigistes et les petites entreprises. **  Crater  **a d'excellentes fonctionnalités telles que la manipulation des factures, les estimations, les dépenses de suivi et les paiements. De plus, Crater propose des applications mobiles hors de la boîte pour les appareils Android et iPhone. Ce **  Système de gestion des factures open source**  est écrit dans le cadre PHP Laravel. De plus, son code source est disponible sur [GitHub][19] avec une feuille de route complète.
 Crater prend en charge les caractéristiques importantes suivantes:
   * Gestion des factures
   * Suivi des paiements
   * Rapports approfondis
   * Soutenir la manipulation des impôts
   * Application mobile pour Android et iPhone
-** [En savoir plus sur le cratère][20] **
+**[En savoir plus sur le cratère][20]** 
 
 ## Conclusion
 Nous avons discuté des 5 meilleurs logiciels de comptabilité gratuits et open source dans ce tutoriel. Tous ont un grand nombre de fonctionnalités et sont largement utilisés par de nombreuses entreprises. Vous pouvez consulter ce billet de blog en profondeur et des liens pertinents. Cela vous aiderait également à choisir le bon logiciel comptable pour votre entreprise.
-En outre, [** contenerize.com **][21] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de la catégorie [** Factuation **][22] pour des articles plus intéressants.
+En outre, [**contenerize.com **][21] est en route pour améliorer la pile de produits open source dans plusieurs langues et cadres. Pour les mises à jour régulières, veuillez rester à l'écoute de la catégorie [ **Factuation**  ][22] pour des articles plus intéressants.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents.

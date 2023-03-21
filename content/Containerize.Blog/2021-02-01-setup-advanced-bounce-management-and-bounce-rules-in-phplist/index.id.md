@@ -13,19 +13,19 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Mengatur Manajemen Bounce Advanced dan Aturan Bounce di Phplist">}}
 
-Dalam tutorial [sebelumnya][1] kami, kami sudah membahas ** Phplist Bounce Processing **. Jika Anda tidak terbiasa dengan pemrosesan bouncing, Anda dapat membacanya. Anda dapat mengunduh email yang tidak terkirim ke proyek PhPlist Anda menggunakan pemrosesan bouncing. Bagaimana Anda menangani email yang diunduh? Tidak tahu, mari kita lihat manajemen bouncing di muka yang memungkinkan Anda untuk memilah ** email bouncing **. Setiap pesan email yang dikembalikan memiliki kode kesalahan yang dikembalikan oleh MTA (agen transfer surat). Selanjutnya, Anda dapat meninjau header email pesan yang dikembalikan dan berisi semua informasi di sepanjang kode kesalahan.
+Dalam tutorial [sebelumnya][1] kami, kami sudah membahas **Phplist Bounce Processing **. Jika Anda tidak terbiasa dengan pemrosesan bouncing, Anda dapat membacanya. Anda dapat mengunduh email yang tidak terkirim ke proyek PhPlist Anda menggunakan pemrosesan bouncing. Bagaimana Anda menangani email yang diunduh? Tidak tahu, mari kita lihat manajemen bouncing di muka yang memungkinkan Anda untuk memilah  **email bouncing**  . Setiap pesan email yang dikembalikan memiliki kode kesalahan yang dikembalikan oleh MTA (agen transfer surat). Selanjutnya, Anda dapat meninjau header email pesan yang dikembalikan dan berisi semua informasi di sepanjang kode kesalahan.
   * [Aktifkan Penanganan Bounce Lanjutan][2]
   * [Tambahkan aturan bouncing][3]
   * [Daftar aturan bouncing][4]
   * [Kesimpulan][5]
 
-## Aktifkan Penanganan Bounce Advanced {#Enable}
-Hal pertama pertama, aktifkan penanganan ** bouncing canggih ** dengan menyalin kode di bawah dalam file config.php.
+## Aktifkan Penanganan Bounce Advanced   {#Enable}
+Hal pertama pertama, aktifkan penanganan **bouncing canggih**  dengan menyalin kode di bawah dalam file config.php.
 ```
 define('USE_ADVANCED_BOUNCEHANDLING',1);
 ```
-Setelah itu, navigasikan ke ** System> Kelola Bouncing> Daftar aturan memantul ** untuk membuat aturan bouncing.
-Anda dapat membuat aturan bouncing berdasarkan ekspresi reguler. Anda dapat menemukan alasan mengapa ** email bangkit kembali ** di header dan menggunakannya untuk ekspresi reguler. Selain itu, pilih tindakan yang sesuai berdasarkan kode kesalahan atau ekspresi reguler. Phplist mendukung tindakan berikut. Pernyataan tindakan jelas sendiri sehingga kami tidak perlu secara rinci.
+Setelah itu, navigasikan ke **System> Kelola Bouncing> Daftar aturan memantul**  untuk membuat aturan bouncing.
+Anda dapat membuat aturan bouncing berdasarkan ekspresi reguler. Anda dapat menemukan alasan mengapa **email bangkit kembali**  di header dan menggunakannya untuk ekspresi reguler. Selain itu, pilih tindakan yang sesuai berdasarkan kode kesalahan atau ekspresi reguler. Phplist mendukung tindakan berikut. Pernyataan tindakan jelas sendiri sehingga kami tidak perlu secara rinci.
   * Hapus pelanggan
   * Pelanggan Unconfirm
   * Pelanggan Blacklist
@@ -36,9 +36,9 @@ Anda dapat membuat aturan bouncing berdasarkan ekspresi reguler. Anda dapat mene
   * Tambahkan alamat email ke daftar do-not-end dan hapus bouncing
   * Hapus bouncing
 
-## Tambahkan aturan bouncing {#add}
+## Tambahkan aturan bouncing   {#add}
 Mari kita buat aturan bouncing pertama kami.
-  *Pertama, masukkan ekspresi reguler seperti ** (akun telah ditangguhkan | akun tidak tersedia) **
+  *Pertama, masukkan ekspresi reguler seperti **(akun telah ditangguhkan | akun tidak tersedia)** 
   * Setelah itu, pilih tindakan yang sesuai
   * Akhirnya, tambahkan catatan/memo untuk aturan
 
@@ -54,16 +54,16 @@ Anda dapat menambahkan aturan bouncing karena alasan berikut dan memilih tindaka
   * Pengguna tidak diketahui
   * Tidak ada penerima seperti itu
   * dan seterusnya …
-** Catatan: ** Anda harus membungkus alasan bouncing dalam tanda kurung dan menggunakan simbol pipa ** | ** atau ** atau ** pernyataan, jika Anda ingin menambahkan beberapa alasan dalam satu aturan bouncing.
+**Catatan:  **Anda harus membungkus alasan bouncing dalam tanda kurung dan menggunakan simbol pipa **  |  **atau **  atau**  pernyataan, jika Anda ingin menambahkan beberapa alasan dalam satu aturan bouncing.
 
-## Daftar aturan bouncing {#list}
-Setelah membuat sejumlah aturan, aturan ** bouncing ** Anda akan terlihat seperti pada tangkapan layar di bawah ini. Anda dapat melakukan tindakan lain seperti perubahan pesanan dan menghapus pada halaman ini.
+## Daftar aturan bouncing   {#list}
+Setelah membuat sejumlah aturan, aturan **bouncing**  Anda akan terlihat seperti pada tangkapan layar di bawah ini. Anda dapat melakukan tindakan lain seperti perubahan pesanan dan menghapus pada halaman ini.
 
 {{< figure align=center src="images/bounce-regular-expressions.png" alt="Daftar Aturan Bounce">}}
 
 
-## kesimpulan {#conclusion}
-Dalam tutorial ini, kami belajar tentang manajemen bouncing ** canggih ** dan mengembangkan aturan bouncing yang diperlukan. Akan sangat bagus untuk mengizinkan fitur ini sehingga Anda dapat mengotomatiskan proses membersihkan alamat email yang tidak valid dari daftar Anda. Ini juga akan memungkinkan Anda untuk mempertahankan tingkat minimum email yang dikembalikan. Selain itu, daftar Anda akan memiliki pelanggan yang sah.
+## kesimpulan   {#conclusion}
+Dalam tutorial ini, kami belajar tentang manajemen bouncing **canggih**  dan mengembangkan aturan bouncing yang diperlukan. Akan sangat bagus untuk mengizinkan fitur ini sehingga Anda dapat mengotomatiskan proses membersihkan alamat email yang tidak valid dari daftar Anda. Ini juga akan memungkinkan Anda untuk mempertahankan tingkat minimum email yang dikembalikan. Selain itu, daftar Anda akan memiliki pelanggan yang sah.
 Lebih lanjut, [containerize.com][6] sedang dalam perjalanan untuk meningkatkan tumpukan produk open source dalam berbagai bahasa dan kerangka kerja. Untuk pembaruan rutin, silakan nantikan kategori [nawala][7] untuk artikel yang lebih menarik.
 
 ## Mengeksplorasi

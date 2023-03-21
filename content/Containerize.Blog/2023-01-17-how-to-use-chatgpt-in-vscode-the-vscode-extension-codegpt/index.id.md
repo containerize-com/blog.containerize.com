@@ -23,10 +23,10 @@ Kami akan membahas poin -poin berikut:
 * [**Ambil Kunci API OpenAI & Konfigurasikan Kode GPT**][9]
 * [**Mulai menggunakan kode GPT-generator kode openai bertenaga AI**][10]
 
-## Apa itu kode GPT? {#What-is-codegpt}
+## Apa itu kode GPT?   {#What-is-codegpt}
 [Kode GPT][3] adalah ekstensi kode studio visual**yang memungkinkan Anda menghasilkan cuplikan kode dari teks biasa dalam editor. Ini**generator kode openai**didasarkan pada OpenAI API untuk memproses dan menghasilkan tanggapan bahasa alami. Namun, kode GPT dibangun di atas GPT-3 yang merupakan model pra-terlatih, sehingga setiap permintaan yang dibuat untuk kode GPT diproses oleh GPT-3 dan model ini cukup pintar untuk mengadopsi berbagai situasi. Selain itu, ekstensi vScode**ini**memungkinkan Anda refraktor dan meningkatkan cuplikan kode bersama dengan pembuatan kode. Faktanya, seluruh lingkungan memberi Anda perasaan pasti bahwa Anda menggunakan [chatgpt][11] di editor kode Visual Studio.
 
-## Bagaimana cara menginstal kode ekstensi vScode GPT? {#Cara-install-the-vscode-extension-codegpt}
+## Bagaimana cara menginstal kode ekstensi vScode GPT?   {#Cara-install-the-vscode-extension-codegpt}
 Di bagian ini, kami akan melalui langkah -langkah untuk menginstal**kode ekstensi vScode GPT.**Untuk tujuan ini, pastikan Anda telah menginstal kode Visual Studio di mesin Anda. Anda dapat menginstal ekstensi ini dari**[vscode marketplace][12]**dengan mudah.
 Buka editor vscode, masuk ke "ekstensi" dan ketik kode GPT ke dalam bilah pencarian. Akan ada banyak ekstensi dengan nama codegpt tetapi Anda harus menginstal ekstensi seperti yang ditunjukkan pada gambar di bawah ini:
 
@@ -34,7 +34,7 @@ Buka editor vscode, masuk ke "ekstensi" dan ketik kode GPT ke dalam bilah pencar
 
 Harap perbarui vScode ke versi terbaru jika Anda mendapatkan kesalahan kompatibilitas. Selain itu, ekstensi vScode ini berada di bawah perkembangan yang konsisten sehingga kemungkinan perilaku abnormal tidak dapat dihilangkan.
 
-## Retrieve OpenAI API Key & Configure Code GPT {#retrieve-openai-api-key-configure-codegpt-}
+## Retrieve OpenAI API Key & Configure Code GPT   {#retrieve-openai-api-key-configure-codegpt-}
 Setelah instalasi selesai, langkah selanjutnya adalah mendapatkan kunci API dari [situs web][13]. Anda memerlukan kunci API ini untuk mengaktifkan fitur -fitur ekstensi GPT Kode****. Untuk mendapatkan API, kunjungi [tautan] ini [13], dan buat akun jika belum dibuat.
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="OEPNAI API">}}
@@ -48,7 +48,7 @@ Pada gambar di atas, Anda dapat melihat tombol "Buat Kunci Rahasia Baru". Klik t
 
 Setelah semua berhasil, Anda akan memiliki**kode ekstensi GPT**yang diinstal dalam kode studio visual Anda. Di bagian selanjutnya, kami akan melangkah lebih jauh untuk mengeksplorasi fitur yang ditawarkan oleh ekstensi vScode ini.
 
-## Mulai menggunakan kode GPT-generator kode openai bertenaga AI {#start-using-codegpt --- an-ai-powered-openai-code-generator}
+## Mulai menggunakan kode GPT-generator kode openai bertenaga AI   {#start-using-codegpt --- an-ai-powered-openai-code-generator}
 Sejauh ini, kami telah mengatur kode ekstensi GPT dalam kode studio visual. Untuk memanfaatkan ini**kode ekstensi vScode GPT**, tekan "Command+Shift+P" Pilih "Ask Codegpt" dan tulis pertanyaan Anda di bidang input seperti "Tulis kode untuk elemen input di HTML" dan Anda akan mendapatkan Respons di bilah samping seperti yang ditunjukkan pada gambar di bawah ini:
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="chatgpt untuk vscode">}}

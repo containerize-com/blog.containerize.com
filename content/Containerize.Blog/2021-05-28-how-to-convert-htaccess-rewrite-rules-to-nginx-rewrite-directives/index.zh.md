@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="将.htaccess重写规则转换为nginx指令">}}
 
 在上一个教程中，我们了解了[如何在Ubuntu上使用Nginx安装多个PHP版本[1]。 Apache是​​最受欢迎的Web服务器之一，但最近，Nginx已成为Apache的竞争对手。但是NGINX不支持HTACCESS重写规则。因此，在本文中，我们将学习如何将HTACCESS重写规则转换为NGINX重写指令。让我们开始吧！
-  *** [nginx重写规则][2] **
+  ***[nginx重写规则][2]** 
   *[**。htaccess重写规则**][3]
   *[**将.htaccess重写规则转换为nginx重写指令**][4]
   *[**结论**][5]
 
-## nginx重写规则{#nginx}
+## nginx重写规则 {#nginx}
 重写规则在客户端请求中更改部分或所有URL，通常是为了通知客户，他们要求的资源现在位于其他位置，或控制NGINX内的处理流。例如，当需要动态生成内容时，将请求转发到应用程序服务器。 Try_files指令通常用于此目的。
 通用nginx重写的两个指令是_return_和_rewrite_，_try_files Directive_是一种将请求直接引向应用程序服务器的方便方法。
 返回指令是两个通用指令的简单。您将返回包装在服务器或位置上下文中。
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-## .htaccess重写规则{#apache}
+## .htaccess重写规则 {#apache}
 .htaccess文件控制可以访问，阻止和重定向网站的多种方式。它使用一系列或多个.htaccess重写规则来执行此操作。这些重写由Apache的Mod_rewrite模块执行。
 mod_rewrite提供了一种基于正则表达式规则动态修改传入URL请求的方法。这使您可以以任何喜欢的方式将所有URL映射到您的内部URL结构上。这也用于使您的外部URL清洁，然后将其映射到外观丑陋的内部URL上。
 例如，以下内容.htaccess重写规则将非www url列为www url。
@@ -54,7 +54,7 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## 转换.htaccess重写规则到nginx重写指令{#convert}
+## 转换.htaccess重写规则到nginx重写指令 {#convert}
 正如我们在上面的示例中显示的那样，将非www URL重定向到www url，让我们将相同的.htaccess重写规则转换为nginx重写指令。
 ```
 server {
@@ -100,7 +100,7 @@ location / {
 }
 ```
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 在本教程中，我们探索了Apache的.htaccess重写规则，以及如何将这些.htaccess重写规则转换为NGINX重写指令。我们进一步探索了可用于重写URL的不同NGINX指令。我们还给出了nginx和apache的示例重写规则。希望该教程对您有帮助。
 
 ## 探索

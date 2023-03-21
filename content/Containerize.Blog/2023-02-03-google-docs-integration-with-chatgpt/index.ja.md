@@ -18,10 +18,10 @@ categories: ['Artificial intelligence']
 最近発売された[chatgpt][1]は、テクノロジーの世界で流行語になりました。一部の人々は、この**aiチャットボット**を生産性と透明性に対する脅威と考えています。さて、[containerize.com][2]は、このOpenAI GPT-3モデルの使用と統合について書いています。実際、[Google Docs][3]は、執筆とデータ表現に最適なツールです。別の手であるChatGptの出現は、会話の方法で自然言語の質問に応答する会話[AI][4]ツールです。このAIツールは機械学習に基づいており、[Openai][5]によって開発されています。ただし、このブログ投稿は**chatgptとGoogle**についてです。ここでは、**Googleドキュメントの統合を達成する方法を学びます。間違いなく、GoogleドキュメントにChatGPTアドオンをインストールすることにより、**Google Docs Automation**を持参できます。
 このブログ投稿では、次のポイントを説明します。
 * [**Openai APIキーを取得する方法？**][6]
-***[chatgptとの統合をGoogleドキュメントにしましょう][7]**
+* **[chatgptとの統合をGoogleドキュメントにしましょう][7]**
 * [**chatgptとgoogleの使用を開始****docs**][8]
 
-## Openai APIキーを取得する方法は？ {#How-to-Obtain-the-openai-api-key}
+## Openai APIキーを取得する方法は？   {#How-to-Obtain-the-openai-api-key}
 少し紹介するために、Openaiは人工知能ツールの研究開発に焦点を当てた会社です。 CHATGPTはOpenAIによって開発および発売されますが、OpenAIは一連のGPTモデルを開発しました。
 まず、Openaiの[プラットフォーム][9]でアカウントを作成してからログインする必要があります。ログインしたら、APIキーページにランディングして、ボタンをクリックしてAPIキーを生成できます。以下に示すように、キー」。
 
@@ -29,7 +29,7 @@ categories: ['Artificial intelligence']
 
 Google Docsの統合に使用できるように、新しくOpenai APIキーを生成して保存します。
 
-## Googleドキュメントとchatgptとの統合を行う{#lets-do-google-docs-Integration-with-chatgpt}
+## Googleドキュメントとchatgptとの統合を行う {#lets-do-google-docs-Integration-with-chatgpt}
 この会話型AIツールのインストール手順は非常に簡単です。 [Extensions-Add-Ons-> Add-Onsを取得]をクリックすると、Google Workspace Marketplaceページが表示されます。ここで、検索バーにchatgptを作成し、「シートとドキュメントのchatgpt」というオプションを選択して、最初のオプションをクリックして、以下の画像に表示されるようにインストールします。
 
 {{< figure align=center src="images/chatgpt-and-google-1.gif" alt="ChatGptとGoogle">}}
@@ -40,7 +40,7 @@ Googleアカウントにアクセスする許可を求めているため、こ�
 
 最後に、OpenAI GPT-3がGoogleドキュメントにインストールされており、Google Docs Automationの活用を開始できます。
 
-## ChatGptとGoogle Docsの使用を開始{#start-using-chatgpt-and-google}
+## ChatGptとGoogle Docsの使用を開始 {#start-using-chatgpt-and-google}
 このGoogle Docs Automationの使用を開始する時が来ました。この目的の毛皮では、「拡張機能 - >アプリスクリプト」をクリックすると、新しいタブが開かれます。次に、次のコードをコードエディターにコピーして貼り付けます。
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 上記のコアでは、「xxxxxxxxxxxxxxxxxx」をOpenai APIキーに置き換えます。次に、ファイルを保存し、コードエディターの上部中央に配置された「実行」をクリックし、ウィンドウを閉じます。

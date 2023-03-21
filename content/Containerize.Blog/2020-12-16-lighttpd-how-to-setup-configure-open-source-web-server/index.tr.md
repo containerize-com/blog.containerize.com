@@ -20,11 +20,11 @@ Buna ek olarak, Open Source topluluğu, kurumsal sektörün iş web sitelerine v
   * [LightTPD nasıl yapılandırılır?][7]
   * [Sonuç][8]
 
-## LightTPD nedir? {#Ne}
+## LightTPD nedir?   {#Ne}
 Apache ve Nginx gibi diğer web sunucularıyla karşılaştırıldığında, LightTPD web sunucusu küçük bir bellek ayak izi vardır, bu nedenle CPU yükünün etkili yönetimini sağlar. Bu hafif web sunucusu, FastCGI, SCGI, Auth, Output-Pression ve URL-REWRITY, vb. Dahil gelişmiş özellik kümeleri sağlar. LightTPD’nin FastCGI'si PHP'yi destekleyecek şekilde yapılandırılabilir. PHP dışında Python, Perl, Ruby ve daha fazlası dahil olmak üzere diğer programlama dillerini de destekler.
 Birçok açık kaynaklı web sunucusu ve web proxy sunucuları vardır, ancak LightTPD yaygın olarak kullanılan listenin üstünde. Bu web sunucusu çözümünün ayarlanması çok kolaydır ve Ubuntu 18.04 gibi basit gereksinimler gerektirir. Ayrıca, bu açık kaynak çözümü dağıtmak isteyenler bu [bağlantı][9] 'dan en son sürümü indirebilirler. Her şeyden önce, Python, Ruby, Perl ve daha fazlası gibi PHP dışında birçok dili desteklemektedir. Ayrıca, geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Bu nedenle, geliştiriciler kaynak kodunu [GitHub][10] 'da bulabilirler.
 
-## LightPD'nin faydaları {#benefits}
+## LightPD'nin faydaları   {#benefits}
 Bu bölümde, bu açık kaynaklı web sunucusunun sunduğu faydaları ve hükmü ele alacağız. Bu nedenle, hızlı, verimli ve güvenli bir web sunucusu arıyorsanız, LightTPD web sunucusu sizin için en iyi seçimdir. Çok fazla bellek ve CPU kullanımı gerektirmez. Bu da hız ve yüksek performansa ihtiyaç duyan herhangi bir proje için en iyilerden biri yapar. LightTPD, tek bir sunucuda paralel olarak 10000'e kadar bağlantıyı işleyebilir. LightTPD, hız veya performans sorunları olan her sunucu için mükemmel bir çözümdür. Bu ücretsiz çözüm uygun maliyetli ve kaynak tasarrufludur.
 Ayrıca, bu web sunucusu çözümü Windows, Linux, Solaris ve MacOS gibi neredeyse tüm popüler platformlar için destek sunar. Benzer şekilde, LightTPD gömülü sistemler için çok büyüktür ve sınırlı kaynaklara sahip birden fazla kullanıcıya statik ve dinamik içerik sunma yeteneğine sahiptir. Güvenliği, hızı, uyumluluğu ve esnekliği ile tanınan LightTPD, bir web sunucusunun verimliliğini hızla yeniden tanımlıyor.
 LightTPD aşağıdaki önemli avantajları sağlar:
@@ -34,7 +34,7 @@ LightTPD aşağıdaki önemli avantajları sağlar:
   * Mod_proxy, arka uçlara HTTP/1.1 istekleri yapar (HTTP/1.0'dan değişiklik)
   * Chroot ve Mod_rewrite kullanma desteği
 
-## LightTPD nasıl yapılandırılır? {#yapılandır}
+## LightTPD nasıl yapılandırılır?   {#yapılandır}
 Bu blog yazısının bu bölümünde, LightTPD'yi yapılandırma adımlarını araştırıyoruz. LightTPD'yi Ubuntu'ya kurmak çok basit ve anlaşılır. Sadece aşağıdaki komutu kullanın ve gitmekte fayda var
 ```
 $ sudo apt install lighttpd
@@ -74,9 +74,9 @@ LIGHTTPD'nin URL [http: // yourer-ip][11] 'i ziyaret ederek doğru şekilde yap�
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="Yüksek performanslı web siteleri için LightTPD nasıl kurulur ve yapılandırılır">}}
 
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu bizi bu blog yazısının sonuna getiriyor. Lighttpd nedir? LightTPD nasıl yapılandırılır? ve prosedürü ayarlamak. LightTPD, hız açısından kritik ortamlar için tasarlanmış ücretsiz, yüksek performanslı ve açık kaynaklı bir web sunucusudur. Düşük bellek ayak izi, küçük CPU yükü ve hız optimizasyonları, yük problemleri olan sunucular için uygun hale getirir. Diğer web sunucularına kıyasla hafif, güvenli ve hızlıdır, bu da onu yüksek performanslı ve hız-kritik web siteleri için en iyi seçeneklerden biri haline getirir. LightTPD, sorunlara ve sorgulara destek sağlayan çok canlı ve canlı bir topluluğa sahiptir. Aşağıdaki “Keşfet” bölümünde belirtilen birçok oper açık kaynak ürünü ve ilgili blog yayınları vardır. Bu nedenle, işletmeniz için açık kaynaklı bir web sunucusu tercih etmek istiyorsanız, bu makale size gerçekten yardımcı olabilir.
-Son olarak, ** [Containerize.com][12] ** daha fazla açık kaynaklı ürünler üzerine yazıyor. Düzenli güncellemeler için lütfen bu [Web Server Çözümü Yığını][1] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][13], [LinkedIn][14] ve [Twitter][15] 'te takip edebilirsiniz.
+Son olarak, **[Containerize.com][12]**  daha fazla açık kaynaklı ürünler üzerine yazıyor. Düzenli güncellemeler için lütfen bu [Web Server Çözümü Yığını][1] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][13], [LinkedIn][14] ve [Twitter][15] 'te takip edebilirsiniz.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:

@@ -15,24 +15,24 @@ categories: ['Blogging']
 
 
 ## Descripción general
-WordPress es una plataforma de blogging de código abierto de nivel empresarial. Un complemento ** WordPress ** es un conjunto de código independiente que mejora y extiende la funcionalidad de WordPress. Al usar cualquier combinación de PHP, HTML, CSS, JavaScript/JQuery. Un complemento puede agregar nuevas funciones a cualquier parte de su sitio web.
+WordPress es una plataforma de blogging de código abierto de nivel empresarial. Un complemento **WordPress**  es un conjunto de código independiente que mejora y extiende la funcionalidad de WordPress. Al usar cualquier combinación de PHP, HTML, CSS, JavaScript/JQuery. Un complemento puede agregar nuevas funciones a cualquier parte de su sitio web.
 La funcionalidad que puede agregar a su sitio web depende de lo que se haya creado cada complemento específico para hacer. Se puede desarrollar un complemento de WordPress para hacer cualquier cosa. Desde una pequeña tarea hasta una aplicación completa que realiza una serie de operaciones y tiene sus propias interfaces. Los complementos son diferentes de su tema y trabajan de forma independiente, utilizando ganchos, filtros, códigos cortos, widgets y código personalizado para realizar su funcionalidad.
 En este tutorial de complementos de WordPress, aprenderemos cómo crear nuestro primer complemento de WordPress. La razón más importante para crear un complemento es que le permite separar su propio código del código central de WordPress.
-  *** [requisitos][1] **
-  *** [Conceptos básicos del desarrollo del complemento][2] **
-  *** [¿Cómo crear complemento WP?][3] **
-  *** [Conclusión][4] **
+  ***[requisitos][1]** 
+  ***[Conceptos básicos del desarrollo del complemento][2]** 
+  ***[¿Cómo crear complemento WP?][3]** 
+  ***[Conclusión][4]** 
 
-## Requisitos {#Requirements}
+## Requisitos   {#Requirements}
   * Última versión de WordPress
   * Comprensión de PHP / MySQL
   * Comprensión de HTML / CSS y JavaScript
 
-## conceptos básicos del desarrollo de complementos {#Basics}
+## conceptos básicos del desarrollo de complementos   {#Basics}
 Tomemos un momento para hablar sobre algunos aspectos clave del desarrollo de complementos. Una comprensión sólida de cómo funcionan estos conceptos lo ayudará a desarrollar una funcionalidad fácil de usar y mantenible.
 
 ### Acciones
-** Los ganchos de acción ** son una herramienta muy útil en ** WordPress ** ** complemento ** y se utilizan para realizar funciones (** acciones **) en lugares específicos de un tema o complemento. WordPress tiene docenas de acciones definidas a lo largo de su funcionalidad central, cada acción que consiste en un nombre único. Para más detalles [leer][5].
+**Los ganchos de acción  **son una herramienta muy útil en **  WordPress  ****  complemento  **y se utilizan para realizar funciones (**  acciones** ) en lugares específicos de un tema o complemento. WordPress tiene docenas de acciones definidas a lo largo de su funcionalidad central, cada acción que consiste en un nombre único. Para más detalles [leer][5].
 
 ### Filtros
 Un filtro de WordPress es un gancho que acepta una variable (o una serie de variables) y las devuelve después de haber sido modificado. Estos filtros a menudo se usan para que tenga una forma de manipular la información predeterminada. Para más detalles [leer][6].
@@ -43,8 +43,8 @@ Los códigos cortos son macros que se pueden usar para realizar interacciones di
 ### widgets
 Los widgets son importantes porque le dan otro medio para ejecutar el código de su complemento al tiempo que proporciona una interfaz fácil de usar. Dado que la mayoría de los temas admitirán una o más barras laterales; Agregar sus propios widgets le dará acceso rápido para mostrar su información dentro del tema.
 
-## ** ¿Cómo crear el complemento WP? ** {#Create}
-En esta sección del tutorial de complementos de WordPress, todo lo que necesita hacer es crear una carpeta y luego crear un solo archivo con una línea de contenido. Navegue a la carpeta ** WP-Content/Plugins ** y cree una nueva carpeta llamada ** MyTestPlugin **. Dentro de esta nueva carpeta, cree un archivo llamado ** mytestplugin.php **. Abra el archivo en un editor de texto y pegue la siguiente información en él:
+## **¿Cómo crear el complemento WP?**    {#Create}
+En esta sección del tutorial de complementos de WordPress, todo lo que necesita hacer es crear una carpeta y luego crear un solo archivo con una línea de contenido. Navegue a la carpeta **WP-Content/Plugins  **y cree una nueva carpeta llamada **  MyTestPlugin **. Dentro de esta nueva carpeta, cree un archivo llamado  **mytestplugin.php**  . Abra el archivo en un editor de texto y pegue la siguiente información en él:
 ```
 <?php
    /*
@@ -77,7 +77,7 @@ function add_page_views() {
    }
 }
 ```
-Hasta ahora, todo bien en este tutorial de complementos de WordPress. Pero esta función nunca se llama, por lo que en realidad no se usará. Aquí es donde entran los ganchos. Podrías entrar en los archivos de tu tema y llamar a la función manualmente desde allí. Pero entonces perderías esa funcionalidad si alguna vez cambiaste el tema, derrotando así a todo el propósito. Un gancho, llamado ** wp_head **, que se ejecuta justo antes de que la etiqueta esté presente en la mayoría de los temas, por lo que podemos establecer nuestra función para ejecutar siempre que ** wp_head ** se ejecute, como así:
+Hasta ahora, todo bien en este tutorial de complementos de WordPress. Pero esta función nunca se llama, por lo que en realidad no se usará. Aquí es donde entran los ganchos. Podrías entrar en los archivos de tu tema y llamar a la función manualmente desde allí. Pero entonces perderías esa funcionalidad si alguna vez cambiaste el tema, derrotando así a todo el propósito. Un gancho, llamado **wp_head **, que se ejecuta justo antes de que la etiqueta esté presente en la mayoría de los temas, por lo que podemos establecer nuestra función para ejecutar siempre que  **wp_head**   se ejecute, como así:
 ```
 add_action("wp_head", "add_page_views");
 ```
@@ -100,7 +100,7 @@ Hasta ahora, acabamos de recuperar el recuento de vistas. Ahora, vamos a mostrar
 echo get_page_views() . “view(s)”
 ```
 
-## conclusión {#conclusion}
+## conclusión   {#conclusion}
 Este es el final de este tutorial de complemento de WordPress. Siguiendo este artículo y utilizando solo un puñado de funciones, hemos creado un complemento básico para rastrear nuestras publicaciones más populares. Podemos mejorarlo mucho, pero el propósito era hacerte sentir cómodo con lo básico. Además, al aprender algunos patrones de desarrollo de WordPress (complementos, ganchos, etc.), también está obteniendo habilidades que también le servirán en entornos que no son de WordPress. Hay muchas otras publicaciones de blog relacionadas con plataformas de blogs de código abierto y CMS de código abierto. que puede encontrar en la sección de exploración a continuación. Esta publicación de blog realmente puede ayudarlo si está buscando implementar una plataforma de blogs de código abierto para su negocio.
 Finalmente, [Contenerize.com][8] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con las categorías [Blogging][9] y [Software de inteligencia empresarial][10] para noticias y actualizaciones periódicas
 

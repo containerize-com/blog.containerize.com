@@ -21,10 +21,10 @@ Rocket.Chat实时聊天插件可与100％开源聊天服务器一起使用。这
   * [插件安装][3]
   * [最终想法][4]
 
-## 描述：{#description}
+## 描述： {#description}
 WordPress和Rocket.Chat集成使您可以将实时聊天小部件放在基于WordPress的站点上。 WordPress实时聊天使客户可以单击一次与您的支持或销售代理人合作。即时沟通可以帮助客户快速解决他们的查询并加快决策。因此，该解决方案可以帮助您更快地赢得新客户，并提高现有客户的满意度和忠诚度。
 
-## 功能：{#features}
+## 功能： {#features}
   *免费的音频会议
   *免费视频会议
   *来宾访问
@@ -34,7 +34,7 @@ WordPress和Rocket.Chat集成使您可以将实时聊天小部件放在基于Wor
   *团队聊天
   *实时翻译
 
-## 插件安装：{#plugin}
+## 插件安装： {#plugin}
   1.转到WordPress网站的管理仪表板。
   2.然后移至插件。
   3.然后安装以下插件：[Rocket.Chat LiveChat][5]
@@ -47,7 +47,7 @@ WordPress和Rocket.Chat集成使您可以将实时聊天小部件放在基于Wor
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="WordPress使用Rocket.Chat的即时消息解决方案">}}
 
 
-## 最终想法：{#conclusion}
+## 最终想法： {#conclusion}
 Worpress和Rocket.Chat集成通过实时对话建立与客户的信任和关系。 WordPress即时消息传递可以快速提高您的业务。使用实时聊天功能与客户沟通。另外，您可以使用团队聊天功能与团队伴侣合作。这将通过与实时聊天讨论和分享想法来提高生产率。
 
 ## 探索：

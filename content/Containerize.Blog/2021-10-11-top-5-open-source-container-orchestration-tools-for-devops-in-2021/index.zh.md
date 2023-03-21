@@ -34,9 +34,9 @@ categories: ['DevOps', 'Software Development']
   ***主要语言：**去
   ***星数：** 81,300
   ***叉数：** 2,960
-[Kubernetes][2]开源编排系统是组织之间广泛采用容器，也称为** Kube或K8s **（8代表“ K”和“ S”和“ S”之间的字母数量）。由于Kubernetes体系结构的灵活性，它已成为调度和自动化计算机应用程序以构建，部署，扩展和管理集装箱应用程序的事实上的标准。 K8 Kubernetes用于管理跨私人，公共和混合云环境的Linux容器。 Kube以容器为中心，更多地关注部署和管理服务。
-Kubernetes的起点是集群本身，也是您愿意离开Docker Way的程度。它从Kubernetes群集开始大，几乎将容器用作实现细节。它通过减少Google内部集群管理系统Borg的启发，使与**部署，负载校准和管理**相关的所有内容都可以更轻松。 Kubernetes集装箱编排平台最初是由Google的工程师开发和设计的，Google于2014年中期开源的Kubernetes项目。** K3S **是一个CNCF沙盒项目，可提供完全合规的轻质Kubernetes发行版。 ** K3S **是一种专用的内置容器编排，而** K8S **编排是用于运行Kubernetes的通用容器K8S编排开源工具。
-**最受欢迎的** **与编排Kubernetes集成的工具**是Helm，Rancher，Snyk，Ansible，Docker，Microsoft Azure，Microsoft Azure，Amazon Eks，Google Compecute Engine和Vagrant。
+[Kubernetes][2]开源编排系统是组织之间广泛采用容器，也称为**Kube或K8s** （8代表“ K”和“ S”和“ S”之间的字母数量）。由于Kubernetes体系结构的灵活性，它已成为调度和自动化计算机应用程序以构建，部署，扩展和管理集装箱应用程序的事实上的标准。 K8 Kubernetes用于管理跨私人，公共和混合云环境的Linux容器。 Kube以容器为中心，更多地关注部署和管理服务。
+Kubernetes的起点是集群本身，也是您愿意离开Docker Way的程度。它从Kubernetes群集开始大，几乎将容器用作实现细节。它通过减少Google内部集群管理系统Borg的启发，使与**部署，负载校准和管理**相关的所有内容都可以更轻松。 Kubernetes集装箱编排平台最初是由Google的工程师开发和设计的，Google于2014年中期开源的Kubernetes项目。**K3S **是一个CNCF沙盒项目，可提供完全合规的轻质Kubernetes发行版。  **K3S ** 是一种专用的内置容器编排，而 **K8S**  编排是用于运行Kubernetes的通用容器K8S编排开源工具。
+**最受欢迎的 **** 与编排Kubernetes集成的工具**是Helm，Rancher，Snyk，Ansible，Docker，Microsoft Azure，Microsoft Azure，Amazon Eks，Google Compecute Engine和Vagrant。
 **使用Kubernetes的顶级公司**在其技术堆栈中编排为应用程序构建，管理和部署集装箱环境是Google，Kubermatic，Digitalocean，Shopify，Udemy，Udemy，Slack，Slack，Asana，Asana，Walmart和Prometheus。
 
 ## 2. Docker群
@@ -92,17 +92,17 @@ Docker Swarm容器编排始于容器，并构建出来，提供了一种简单�
 **与Nomad集成的最受欢迎的工具**是Docker，Vault，Hashicorp Sentinel，Consul，Portworx，Humio和Gloo Edge。
 **在其技术堆栈中使用Nomad **的顶级公司是Petal，Trivago，Wealthsimple，Edgelab，Fundamentei，5G Systems，Aislelabs，Botmetric，Botmetric，Taboola和Machete Inc。
 
-## **什么是开源容器管理工具？** {#4a1a}
+## **什么是开源容器管理工具？**   {#4a1a}
 容器编排解决方案比虚拟机（VM）有很多好处。容器共享一个单个操作系统内核，在几秒钟内启动而不是启动虚拟机（VM）所需的分钟。扩展和复制容器非常容易，具有较小的磁盘尺寸，并且很容易共享。 **容器管理平台**是管理多个容器的云应用程序。以下是最广泛使用的最佳容器管理软件和容器编排，以简化容器管理的特定方面。
-  *** [Rancher][12] **是一个开源的最佳容器管理平台，用于管理Kubernetes。
-  *** [Apache Mesos][13] **是下一代开源群集管理器和Apache容器编排服务。
-  *** [Portainer CE][14] **是一个强大的开源Docker和Kubernetes管理工具。
-  *** [Azure Kubernetes服务（AKS）][15] **是一种开源容器编排Kubernetes服务。
-  *** [Amazon弹性容器服务（Amazon ECS）][16] **是AWS ECS编排和容器管理服务，该服务支持Docker容器在Amazon EC2 Instances cluster上运行应用程序。
-  *** [Amazon Elastic Kubernetes服务（Amazon EKS）][17] **是运行Kubernetes应用程序和管理基础架构的容器编排AWS服务。
+  ***[Rancher][12]** 是一个开源的最佳容器管理平台，用于管理Kubernetes。
+  ***[Apache Mesos][13]** 是下一代开源群集管理器和Apache容器编排服务。
+  ***[Portainer CE][14]** 是一个强大的开源Docker和Kubernetes管理工具。
+  ***[Azure Kubernetes服务（AKS）][15]** 是一种开源容器编排Kubernetes服务。
+  ***[Amazon弹性容器服务（Amazon ECS）][16]** 是AWS ECS编排和容器管理服务，该服务支持Docker容器在Amazon EC2 Instances cluster上运行应用程序。
+  ***[Amazon Elastic Kubernetes服务（Amazon EKS）][17]** 是运行Kubernetes应用程序和管理基础架构的容器编排AWS服务。
 
-## **结论：** {#4a1a}
-**容器编排技术如何适用于您的业务和软件应用程序？如果您只需要记住一个关键信息即可帮助您选择** kubernetes vs docker swarm ** vs redhat ** openshift vs copsose ** vs hashicorp nomad，那么每个解决方案都应该具有一些优势和弊端。还有其他编排平台选项可为服务编排提供不同的功能。最终，您采用哪种选项取决于您想要达到的规模以及最喜欢的生态系统。要深入研究集装箱编排，请继续访问[Containerize Blog][18]。
+## **结论：**   {#4a1a}
+**容器编排技术如何适用于您的业务和软件应用程序？如果您只需要记住一个关键信息即可帮助您选择**kubernetes vs docker swarm  **vs redhat **  openshift vs copsose**  vs hashicorp nomad，那么每个解决方案都应该具有一些优势和弊端。还有其他编排平台选项可为服务编排提供不同的功能。最终，您采用哪种选项取决于您想要达到的规模以及最喜欢的生态系统。要深入研究集装箱编排，请继续访问[Containerize Blog][18]。
 _您最喜欢的最佳容器编排工具是什么？您对上面提到的容器编排列表有任何疑问吗？
 
 ## 探索：

@@ -20,16 +20,16 @@ XAMPP和PHPMYADMIN作为Localhost提供了本地服务器，供开发人员测�
   * [phpmyadmin仪表板][3]
   * [最终想法][4]
 
-## 描述：{#description}
+## 描述： {#description}
 XAMPP是免费的，开源Web服务器解决方案堆栈。它包含Apache，MySQL，Mariadb，PHP和Perl。 XAMPP可用于Windows操作系统。它非常容易安装和使用。这就是为什么它是最受欢迎的PHP开发环境。 Xampp和PhpMyAdmin作为Localhost为Web应用程序开发和测试提供了一个完整的环境。
 Xampp中的字母代表：
-  *** X **  - 跨平台（支持Linux，Windows和Mac OS在内的多个操作系统）
-  *** A **  -  Apache HTTP服务器
-  *** m **  -  Mariadb（数据库）
-  *** P **  -  PHP
-  *** P **  -  Perl
+  ***X**   - 跨平台（支持Linux，Windows和Mac OS在内的多个操作系统）
+  ***A**   -  Apache HTTP服务器
+  ***m**   -  Mariadb（数据库）
+  ***P**   -  PHP
+  ***P**   -  Perl
 
-## XAMPP安装{#XAMPP}
+## XAMPP安装 {#XAMPP}
   *从[此处][5]下载XAMPP。
 
 {{< figure align=center src="images/xampp1.png" alt="Xampp为Localhost">}}
@@ -53,7 +53,7 @@ Xampp中的字母代表：
 {{< figure align=center src="images/xampp5.png" alt="XAMPP作为Local主机步骤4">}}
 
 
-## phpmyadmin仪表板：{#phpmyadmin}
+## phpmyadmin仪表板： {#phpmyadmin}
 要访问phpmyadmin仪表板，请单击MySQL服务旁边的“管理”按钮。您也可以通过访问浏览器访问http：// localhost/phpmyadmin来访问phpmyadmin。在这里，您可以创建数据库。请按照以下步骤创建一个新的数据库。
   *从仪表板中，单击“数据库”选项卡。
 
@@ -75,7 +75,7 @@ Xampp中的字母代表：
 {{< figure align=center src="images/db4-1024x564.png" alt="Local主机的PHPMYADMIN步骤4">}}
 
 
-## 最终想法：{#final}
+## 最终想法： {#final}
 XAMPP安装简单明了。设置XAMPP服务器的设置不超过15分钟。安装后，即使没有Internet连接，开发人员也可以构建和测试基于PHP的Web应用程序。与其直接在实时Web服务器上测试项目，不如在本地测试它们是简单且节省时间的。对于初学者来说，这是一个很好的平台，可以学习，测试和抛光其PHP，PERL和数据库技能。
 
 ## 探索：

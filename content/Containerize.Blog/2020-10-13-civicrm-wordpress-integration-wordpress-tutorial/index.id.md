@@ -15,24 +15,24 @@ categories: ['Blogging', 'Marketing Automation']
 
 
 ## Ringkasan:
-Selamat datang di artikel tutorial ini tentang ** Civicrm WordPress Integration **. Faktanya adalah bahwa kita hidup di zaman informasi dan data. Hal -hal tertentu memberikan fitur khas untuk bisnis Anda seperti otomatisasi mengumpulkan data, komunikasi yang konsisten, kampanye pemasaran, dan alur kerja bisnis lainnya. Di zaman modern ini, jumlah data meningkat dari hari ke hari. Organisasi menerima data ini dari berbagai sumber data. Hasilnya, menjadi sulit untuk mengelola dan menyusun sejumlah besar data. Namun, sangat penting untuk memastikan integritas data dan keaslian adalah dasar dari kampanye pemasaran yang efektif. Selain itu, terjadinya data di banyak tempat melahirkan kerumitan dan salah urus, dan tim operasional merasa sulit untuk datang pada halaman yang sama dan bekerja ke arah yang terpadu.
+Selamat datang di artikel tutorial ini tentang **Civicrm WordPress Integration** . Faktanya adalah bahwa kita hidup di zaman informasi dan data. Hal -hal tertentu memberikan fitur khas untuk bisnis Anda seperti otomatisasi mengumpulkan data, komunikasi yang konsisten, kampanye pemasaran, dan alur kerja bisnis lainnya. Di zaman modern ini, jumlah data meningkat dari hari ke hari. Organisasi menerima data ini dari berbagai sumber data. Hasilnya, menjadi sulit untuk mengelola dan menyusun sejumlah besar data. Namun, sangat penting untuk memastikan integritas data dan keaslian adalah dasar dari kampanye pemasaran yang efektif. Selain itu, terjadinya data di banyak tempat melahirkan kerumitan dan salah urus, dan tim operasional merasa sulit untuk datang pada halaman yang sama dan bekerja ke arah yang terpadu.
 Di sisi lain, ada beberapa sistem manajemen konten yang telah mendapatkan dukungan kuat dari komunitas pengguna dan pengembang karena manajemen konten yang kuat dan sistem gema yang ramah SEO. Sistem manajemen konten sumber terbuka ini menawarkan perkembangan dan penyebaran yang mudah dan cepat untuk mencapai target terkait konten. Ini menawarkan efisiensi biaya, fungsionalitas yang dapat diperluas, dan kemampuan hosting mandiri. Tutorial plugin WordPress ** ini adalah tentang integrasi [civicrm][2] dengan [WordPress][3] dan kami akan membahas poin -poin berikut
   * [Manfaat kombinasi ini untuk bisnis?][4]
   * [Bagaimana cara mengatur struktur direktori?][5]
   * [Bagaimana cara mengaktifkan dan menginstal civicrm di WordPress?][6]
 
-## Manfaat dari kombinasi ini untuk bisnis? {#benefits}
-Di bagian ini ** tutorial WordPress **, kita akan melihat manfaat inti dari ** CivicRM WordPress ** Integrasi. Popularitas [WordPress][3] meningkat karena persaingan meningkat di pasar. Komunitas WordPress telah mengembangkan plugin baru untuk meningkatkan ember plugin. Oleh karena itu, penambahan civicrm ke dalam kumpulan WordPress plugin telah mendapatkan perhatian besar dari organisasi yang berkembang untuk mengotomatisasi dan memusatkan alur kerja bisnis mereka.
+## Manfaat dari kombinasi ini untuk bisnis?   {#benefits}
+Di bagian ini **tutorial WordPress **, kita akan melihat manfaat inti dari  **CivicRM WordPress**   Integrasi. Popularitas [WordPress][3] meningkat karena persaingan meningkat di pasar. Komunitas WordPress telah mengembangkan plugin baru untuk meningkatkan ember plugin. Oleh karena itu, penambahan civicrm ke dalam kumpulan WordPress plugin telah mendapatkan perhatian besar dari organisasi yang berkembang untuk mengotomatisasi dan memusatkan alur kerja bisnis mereka.
 Integrasi ini penting karena aspek -aspek tertentu. Pertama, [civicrm][2] menghilangkan kerumitan mengelola sumber kontak pengguna yang berada di berbagai tempat. Kedua, ini memberikan keamanan lengkap dengan mengambil cadangan data Anda secara teratur. Ketiga, ini berbasis web dan open source yang berarti Anda dapat mengakses data Anda dari mana saja. Alat otomatisasi pemasaran open source ini dikembangkan untuk sektor sipil. Ini telah menghapus kebutuhan untuk mengekspor data ke berbagai lembar dan basis data dengan memberikan solusi satu atap. Perangkat lunak CRM open source ini menyimpan semua data ke dalam database yang berasal dari berbagai sumber seperti buletin, situs manajemen acara, manajemen kontribusi, manajemen kasus dan dll. Perangkat lunak manajemen hubungan konstituen open source ini mudah diatur dan menyediakan banyak fitur seperti Kumpulan data khusus yang tidak terbatas, manajemen tugas, manajemen pengguna, melacak janji dan keanggotaan terbuka, dan banyak lagi.
 
-## Bagaimana cara mengatur struktur direktori? {#direktori}
-Sebelum memulai tutorial plugin WordPress ** ini **, kami berasumsi bahwa Anda telah mengatur WordPress dan memiliki pemahaman dasar untuk menginstal dan mengaktifkan plugin. Selanjutnya, Anda dapat menemukan informasi [di sini][7] tentang pengaturan WordPress dan fitur -fiturnya.
+## Bagaimana cara mengatur struktur direktori?   {#direktori}
+Sebelum memulai tutorial plugin WordPress **ini** , kami berasumsi bahwa Anda telah mengatur WordPress dan memiliki pemahaman dasar untuk menginstal dan mengaktifkan plugin. Selanjutnya, Anda dapat menemukan informasi [di sini][7] tentang pengaturan WordPress dan fitur -fiturnya.
 Pertama, unduh civicrm dari [situs] ini [8]. Pilih opsi bernama seperti "Unduh civicrmx.x.x untuk WordPress".
 Setelah mengunduh, tempatkan file zip ke lokasi /wp-content /plugin ini dan ekstrak. Pastikan direktori ini memiliki akses "tulis".
 Anda dapat menggunakan perintah ini untuk memberikan izin akses "tulis". `sudo chmod 777 server_path/wp-content/plugins/civicrm`
 Kedua, buat folder kosong bernama "CivicRM" ke lokasi /wp-content /unggah ini dan berikan akses "tulis" menggunakan perintah berikut.
 `sudo chmod 777 server_path/wp-content/unggah/civicrm`
-** Catatan **: Jangan lupa untuk mengubah direktori ini kembali menjadi default. Anda dapat menjalankan perintah berikut untuk mengembalikan status default direktori ini:
+**Catatan** : Jangan lupa untuk mengubah direktori ini kembali menjadi default. Anda dapat menjalankan perintah berikut untuk mengembalikan status default direktori ini:
 {{_LINE_29_}}
 {{_LINE_30_}}
 {{_LINE_31_}}
@@ -42,16 +42,16 @@ Kedua, buat folder kosong bernama "CivicRM" ke lokasi /wp-content /unggah ini da
 {{_LINE_35_}}
 Bagian integrasi CivicRM WordPress ini selesai. Mari kita pindah ke bagian berikutnya.
 
-## Bagaimana cara mengaktifkan dan menginstal civicrm di WordPress? {#Install}
-Bagian tutorial WordPress ini menunjukkan langkah-langkah instalasi dan aktivasi dari ** alat pemasaran berbasis web ** civicrm. Setelah menyiapkan struktur direktori, buka ** plugin **-> ** Plugin yang diinstal ** dan Anda akan melihat civicrm dalam daftar.
+## Bagaimana cara mengaktifkan dan menginstal civicrm di WordPress?   {#Install}
+Bagian tutorial WordPress ini menunjukkan langkah-langkah instalasi dan aktivasi dari **alat pemasaran berbasis web  **civicrm. Setelah menyiapkan struktur direktori, buka **  plugin **->  **Plugin yang diinstal**   dan Anda akan melihat civicrm dalam daftar.
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.18.07-1024x544.png" alt="CivicRM WordPress">}}
 
-Tekan "** Activate **".
+Tekan "**Activate** ".
 
 {{< figure align=center src="images/civi-1024x581.jpeg" alt="Panduan Otomasi Pemasaran">}}
 
-Setelah mengaktifkan CiviCRM, Anda akan menemukan opsi CivICRM di kanan atas halaman WP-Admin. Cukup tekan opsi itu dan Anda akan mendarat di layar ** instalasi **.
+Setelah mengaktifkan CiviCRM, Anda akan menemukan opsi CivICRM di kanan atas halaman WP-Admin. Cukup tekan opsi itu dan Anda akan mendarat di layar **instalasi** .
 Halaman berikut akan ditampilkan dengan detail persyaratan bersama dengan konfigurasi database.
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.56.14-1024x632.png" alt="Panduan Otomasi Pemasaran">}}
@@ -60,13 +60,13 @@ Tekan tombol "Periksa Persyaratan dan Pasang CiviCRM". CiviCRM akan berhasil dii
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-03.06.05-1024x630.png" alt="Integrasi CivicRM WordPress">}}
 
-Akhirnya, tab ** CivicRM WordPress Integration ** Tab akan muncul di bagian atas dasbor admin.
+Akhirnya, tab **CivicRM WordPress Integration**  Tab akan muncul di bagian atas dasbor admin.
 
 {{< figure align=center src="images/Screenshot-2020-10-09-at-23.22.03-1024x586.png" alt="Tutorial Pengembangan Plugin WordPress">}}
 
 
 ## Kesimpulan
-Integrasi WordPress ** civicrm ** adalah tambahan yang benar-benar bermanfaat dalam hal mengelola penyimpanan besar informasi pengguna yang tersebar. Itu membuat alur kerja yang kompleks menjadi sederhana dengan menawarkan dasbor intuitif. Duo dari dua perangkat lunak open source ini menyediakan antarmuka yang ramah pengguna bersama dengan utilitas lain di mana pengguna dapat menavigasi dengan mudah. Untungnya, komunitas open source telah mengembangkan begitu banyak alat otomatisasi pemasaran seperti [MAUTIC][9], [SuitEcRM][10], [Espocrm][11], dan banyak lagi. Semua solusi ini gratis dan mudah digunakan baik di cloud atau di localhost. Di atas segalanya, solusi ini datang dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Namun, tutorial plugin ** WordPress ** ini akan sangat membantu jika Anda ingin mengintegrasikan perangkat lunak otomatisasi pemasaran dengan perangkat lunak manajemen konten Anda.
+Integrasi WordPress **civicrm  **adalah tambahan yang benar-benar bermanfaat dalam hal mengelola penyimpanan besar informasi pengguna yang tersebar. Itu membuat alur kerja yang kompleks menjadi sederhana dengan menawarkan dasbor intuitif. Duo dari dua perangkat lunak open source ini menyediakan antarmuka yang ramah pengguna bersama dengan utilitas lain di mana pengguna dapat menavigasi dengan mudah. Untungnya, komunitas open source telah mengembangkan begitu banyak alat otomatisasi pemasaran seperti [MAUTIC][9], [SuitEcRM][10], [Espocrm][11], dan banyak lagi. Semua solusi ini gratis dan mudah digunakan baik di cloud atau di localhost. Di atas segalanya, solusi ini datang dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Namun, tutorial plugin **  WordPress**  ini akan sangat membantu jika Anda ingin mengintegrasikan perangkat lunak otomatisasi pemasaran dengan perangkat lunak manajemen konten Anda.
 Akhirnya, [containerize.com][12] sedang dalam proses menulis tutorial lebih lanjut tentang integrasi beberapa perangkat lunak sumber terbuka lainnya. Untuk pembaruan rutin, tetap berhubungan dengan [otomatisasi pemasaran][1] dan [blogging][13] kategori.
 
 ## Mengeksplorasi

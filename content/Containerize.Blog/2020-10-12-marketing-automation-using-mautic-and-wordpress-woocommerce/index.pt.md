@@ -24,10 +24,10 @@ Este blog cobrirá as seguintes seções:
   * [Configuração Mautic][3]
   * [Pensamentos finais][4]
 
-Configuração do plug -in do WordPress {#wordpress}
+Configuração do plug -in do WordPress  {#wordpress}
   1. Vá para plugins.
   2. Clique em "Adicionar novo".
-  3. Pesquise "** Integração com Mautic for wooCommerce **".
+  3. Pesquise "**Integração com Mautic for wooCommerce** ".
   4. Depois de encontrar o plug -in, clique em "Instalar agora".
   5. Após a instalação, clique em "Ativar".
   6. Em seguida, vá para WooCommerce -> MAUTIC -> Guia Connect.
@@ -40,7 +40,7 @@ Configuração do plug -in do WordPress {#wordpress}
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Integração Mautic e WordPress">}}
 
 
-## Configuração Mautic: {#Mautic}
+## Configuração Mautic:   {#Mautic}
   1. No site mautico, vá para configurações.
   2. Vá para as configurações.
   3. Ativar API das configurações da API.
@@ -60,7 +60,7 @@ Configuração do plug -in do WordPress {#wordpress}
 {{< figure align=center src="images/mautic-1024x622.png" alt="Etapas de integração mautic e wordpress">}}
 
 
-## Pensamentos finais: {#Final}
+## Pensamentos finais:   {#Final}
 A integração mautic-woocommerce juntos pode ajudá-lo a atingir seus objetivos de marketing. Essa integração é uma das melhores soluções para a automação de marketing de comércio eletrônico. Com o WordPress, você pode facilmente obter muitos clientes e, com a Mautic, você pode criar campanhas ilimitadas para segmentar esses clientes e mantê -los atualizados sobre seus produtos/serviços, o que definitivamente possuirá as vendas.
 
 ## Explore:

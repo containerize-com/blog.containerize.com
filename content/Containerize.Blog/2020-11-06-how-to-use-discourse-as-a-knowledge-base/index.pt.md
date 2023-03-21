@@ -21,11 +21,11 @@ Nesta postagem do blog, abordaremos os seguintes pontos:
   * [Configurando o plug -in do Conhecimento Explorer no discurso][2]
   * [Conclusão][3]
 
-## Como o discurso como base de conhecimento funciona? {#uso}
+## Como o discurso como base de conhecimento funciona?   {#uso}
 A base de conhecimento atua como um banco de dados de documentos e informações. É usado para coletar, gerenciar e compartilhar as informações relevantes para os produtos e procedimentos da empresa. Quando falamos sobre um fórum de discussão como o [Discurso][4], existem tópicos encadeados longos em que os usuários finais e representantes participam de um debate. Nesse caso, os clientes acham difícil encontrar informações relevantes. Para golpear esse aborrecimento, a comunidade do discurso desenvolveu alguns plugins da base de conhecimento.
 Ter o plug -in KB instalado no [discurso][4] se torna bastante rápido para os clientes encontrarem as informações desejadas. Além disso, existem várias consultas e perguntas do cliente que permanecem sem resposta por um longo tempo. Portanto, a documentação de informações comumente usadas nos tópicos do estilo KB economiza tempo e melhora a experiência do cliente.
 
-## Configurando o plug -in do Conhecimento Explorer no discurso {#setup}
+## Configurando o plug -in do Conhecimento Explorer no discurso   {#setup}
 Nesta seção, veremos como ativar o [Plugin do Conhecimento Explorer][5] e o que ele oferece.
 Como [discurso][4] é um código -fonte completamente aberto, o plug -in do Conhecimento Explorer está disponível no [Github][5].
 Existem etapas fáceis para instalar qualquer plug -in no discurso. Portanto, siga as instruções mencionadas neste [Guia de instalação do plug -in][6].
@@ -47,7 +47,7 @@ Por fim, você pode abrir e compartilhar o link do documento com qualquer pessoa
 {{< figure align=center src="images/Screenshot-2020-11-04-at-19.11.11-1024x493.png" alt="Discurso como KB">}}
 
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Neste artigo, vimos como o discurso pode ser usado como base de conhecimento para uma empresa. É realmente importante ter um olhar forte nas necessidades dos usuários finais. No que diz respeito ao fórum, devemos levá -lo ao próximo nível, equipando -o com o plug -in KB para que os clientes possam abordar os recursos necessários de maneira fácil e rápida.
 [contendeRize.com][7] Alistou muitos softwares poderosos do fórum em [Fórum de Discussão][8] categoria. Para atualizações regulares, mantenha -se conectado com [blog.containerize.com][9].
 

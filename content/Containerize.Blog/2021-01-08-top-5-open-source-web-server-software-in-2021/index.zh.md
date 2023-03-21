@@ -24,7 +24,7 @@ Web服务器是安装在操作系统上的一种软件。在HTTP传输协议的�
   * [CADDY][8]
   * [tomcat][9]
 
-## xampp {#xampp-stands}
+## xampp   {#xampp-stands}
 XAMPP代表跨平台（X），Apache（A），Mariadb（M），PHP（P）和Perl（P）。它是一个免费的开源Web服务器软件。它可以帮助开发人员在开发环境中测试其网络应用程序或网站。 XAMPP具有所有必要的组件，包括Apache，Perl以及MySQL数据库和PHP。它为基于PERL和PHP的Web应用程序提供了可靠的开发环境。此外，它为数据库管理提供了Mariadb和MySQL。以下是其主要特征：
   *开源
   *多个实例
@@ -33,7 +33,7 @@ XAMPP代表跨平台（X），Apache（A），Mariadb（M），PHP（P）和Perl
   *具有数据库的Web服务器
 [阅读更多][10]
 
-## nginx {#nginx}
+## nginx   {#nginx}
 NGINX Web服务器支持现代Web的所有组件，包括WebSocket，HTTP/2，以及多个视频格式的流。它最初是从Web服务器开始，但现在已经开发出来作为电子邮件的反向代理软件（IMAP，POP3和SMTP）。它还可以作为HTTP，TCP和UDP服务器的反向代理和负载平衡器。此外，如果在Web服务器性能上测量，此反向代理软件会始终如一地击败Apache和其他服务器。 Nginx的一些重要特征包括：
   *模块化体系结构
   *负载平衡和容忍度
@@ -42,7 +42,7 @@ NGINX Web服务器支持现代Web的所有组件，包括WebSocket，HTTP/2，�
   *支持SSL和TLS SNI
 [阅读更多][11]
 
-## lighttpd {#lighttpd}
+## lighttpd   {#lighttpd}
 LightTPD是一种开源轻型Web服务器软件，专为Linux机器设计。它不需要大量的内存和CPU使用。对于需要速度和高性能的任何项目来说，这是最好的之一。 LightTPD是每个遭受速度或性能问题的服务器的理想解决方案。此外，轻型Web服务器还提供了高级功能集，包括FastCGI，SCGI，AUTH，输出压缩和URL互动等。除了PHP之外，它还支持其他编程语言，包括Python，Perl，Ruby等。这是LightTPD的一些流行功能：
   *小尺寸，只有1MB
   *支持FastCGI，SCGI，CGI接口
@@ -51,7 +51,7 @@ LightTPD是一种开源轻型Web服务器软件，专为Linux机器设计。它�
   *非常优化的CPU和RAM使用
 [阅读更多][12]
 
-## caddy {#caddy}
+## caddy   {#caddy}
 CADDY服务器非常易于配置和使用。它需要照顾TLS证书续订，OCSP订书机，静态文件服务以及反向代理和Kubernetes Ingress。此外，此静态文件服务器是一个跨平台开源Web服务器，可以在包括MacOS，Linux和Windows在内的所有主要操作系统上运行。 Caddy是一家灵活，有效的静态文件Web服务器，也是功能强大且可扩展的反向代理。使用CADDY服务器进行压缩，模板评估和网站的降级渲染。这是Caddy Web服务器的一些关键功能：
   *与Caddyfile的简单配置
   *访问，错误和过程日志
@@ -60,7 +60,7 @@ CADDY服务器非常易于配置和使用。它需要照顾TLS证书续订，OCS
   *优雅的重新启动/重新加载
 [阅读更多][13]
 
-## tomcat {#tomcat}
+## tomcat   {#tomcat}
 Apache Tomcat是Java Servlet，Javaserver页面，Java Expression语言和Java Websocket Technologies的开源实现。此外，它是使用最广泛的应用程序和Web服务器之一。 Tomcat服务器易于使用，并且具有强大的附加生态系统。 Apache Tomcat软件可以用作独立产品，并带有其自己的内部Web服务器以及其他Web服务器，例如Apache，Netscape Enterprise Server，Microsoft个人Web Server和Microsoft Internet Information Server。这是Apache Tomcat的一些关键功能：
   * 轻的
   *开源

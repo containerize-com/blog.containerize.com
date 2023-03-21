@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt=".htaccessを変換して、ルールをNginxディレクティブに書き換えます">}}
 
 前回のチュートリアルでは、[ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法][1]を学びました。 Apacheは最も人気のあるWebサーバーの1つですが、最近、NginxはApacheの競争相手としての地位を確立しています。しかし、NginxはHTACCESSの書き換えルールをサポートしていません。したがって、この記事では、htaccessの書き換えルールをNginxの書き換え指令に変換する方法を学びます。始めましょう！
-  *** [nginxの書き換えルール][2] **
+  ***[nginxの書き換えルール][2]** 
   *[**。htaccessの書き換えルール**][3]
   *[**変換.htaccessルールの書き換え指令を書き換える**][4]
   *[**結論**][5]
 
-## nginxはルールを書き直します{#nginx}
+## nginxはルールを書き直します {#nginx}
 ルールの書き換えクライアントリクエストでルールの一部またはすべてのURLを変更します。通常、クライアントがリクエストしているリソースが別の場所に存在することをクライアントに通知するか、nginx内の処理の流れを制御します。たとえば、コンテンツを動的に生成する必要がある場合に、アプリケーションサーバーにリクエストを転送すること。 TRY_FILESディレクティブは、この目的のためによく使用されます。
 一般的なnginx rewriteの2つの指令は_return_および_rewrite_であり、_try_files directive_はアプリケーションサーバーにリクエストを向ける便利な方法です。
 リターンディレクティブは、2つの一般的な目的指令のうち、より簡単です。サーバーまたはロケーションコンテキストでリターンを囲みます。
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-## .htaccess rulte rules {#apache}
+## .htaccess rulte rules   {#apache}
 .htaccessファイルは、Webサイトにアクセス、ブロック、およびリダイレクトできる多くの方法を制御します。これは、一連の1つ以上の1つ以上の.htaccessを使用してルールを書き直します。これらの書き換えは、Apacheのmod_rewriteモジュールによって実行されます。
 MOD_REWRITEは、正規表現ルールに基づいて、動的に着信URL要求を変更する方法を提供します。これにより、任意のURLを内部URL構造にマップすることができます。これは、外部URLをきれいにしてから、醜い内部URLにマッピングするためにも使用されます。
 たとえば、.htaccessの書き換えルールは、www URLに非www urlを再現します。
@@ -54,7 +54,7 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## Convert .htaccessルールの書き換えnginxディレクティブ{#convert}
+## Convert .htaccessルールの書き換えnginxディレクティブ {#convert}
 上記の例で、非WWW URLをWWW URLにリダイレクトするために示したように、同じ.htaccessの書き換えルールをNginxの書き換え指令に変換しましょう。
 ```
 server {
@@ -100,7 +100,7 @@ location / {
 }
 ```
 
-## 結論{#conclusion}
+## 結論 {#conclusion}
 このチュートリアルでは、apacheの.htaccessの書き換えルールと、それらの.htaccessの書き換えルールをNginxの書き換え指令に変換する方法を調査しました。さらに、URLの書き換えに使用できるさまざまなNginx指令を調査しました。また、NginxとApacheの両方のルールを書き直す例を示しました。チュートリアルが役立つことを願っています。
 
 ## 探検

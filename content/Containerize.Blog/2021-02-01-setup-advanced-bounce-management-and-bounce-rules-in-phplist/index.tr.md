@@ -13,19 +13,19 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="Phplist'te Gelişmiş Giriş Yönetimi ve Buluş Kuralları Kurulum">}}
 
-[Önceki][1] öğreticimizde, ** Phplist Bounce İşleme ** hitap etmiştik. Sıçrama işlemeye aşina değilseniz, okuyabilirsiniz. Buluş işlemini kullanarak Phplist projenize teslim edilmeyen e -postaları indirebilirsiniz. İndirilen e -postalarla nasıl başa çıkıyorsunuz? Hiçbir fikrim yok, ** Bounce e -postalarını ** çözmenizi sağlayan ileri sıçrama yönetimine bir göz atalım **. Dönen her e -posta mesajı MTA (posta aktarım aracısı) tarafından döndürülen hata kodu vardır. Ayrıca, döndürülen mesaj e -posta başlığını gözden geçirebilirsiniz ve hata kodu boyunca tüm bilgileri içerir.
+[Önceki][1] öğreticimizde, **Phplist Bounce İşleme  **hitap etmiştik. Sıçrama işlemeye aşina değilseniz, okuyabilirsiniz. Buluş işlemini kullanarak Phplist projenize teslim edilmeyen e -postaları indirebilirsiniz. İndirilen e -postalarla nasıl başa çıkıyorsunuz? Hiçbir fikrim yok, **  Bounce e -postalarını  **çözmenizi sağlayan ileri sıçrama yönetimine bir göz atalım**  . Dönen her e -posta mesajı MTA (posta aktarım aracısı) tarafından döndürülen hata kodu vardır. Ayrıca, döndürülen mesaj e -posta başlığını gözden geçirebilirsiniz ve hata kodu boyunca tüm bilgileri içerir.
   * [Gelişmiş sıçrama kullanımı etkinleştir][2]
   * [Sıçrama kuralı ekle][3]
   * [Liste Sıçrama Kuralları][4]
   * [Sonuç][5]
 
-## Gelişmiş sıçrama kullanımı etkinleştir {#enable}
-İlk olarak, Config.php dosyasındaki kodu kopyalayarak gelişmiş ** sıçrama taşımasını ** etkinleştirin.
+## Gelişmiş sıçrama kullanımı etkinleştir   {#enable}
+İlk olarak, Config.php dosyasındaki kodu kopyalayarak gelişmiş **sıçrama taşımasını**  etkinleştirin.
 ```
 define('USE_ADVANCED_BOUNCEHANDLING',1);
 ```
-Bundan sonra, ** Sistem> Yönetin Sarma> Liste Tutma Kuralları Oluşturma Kuralları ** 'a gidin.
-Normal ifadelere dayalı sıçrama kuralları oluşturabilirsiniz. ** e -postanın başçıya geri dönme ** nedenini bulabilir ve normal ifade için kullanabilirsiniz. Ayrıca, hata koduna veya normal ifadeye dayalı uygun eylemleri seçin. Phplist aşağıdaki eylemleri desteklemektedir. Eylem ifadesi kendi açıklayıcıdır, bu nedenle ayrıntılı olarak gitmemize gerek yoktur.
+Bundan sonra, **Sistem> Yönetin Sarma> Liste Tutma Kuralları Oluşturma Kuralları**  'a gidin.
+Normal ifadelere dayalı sıçrama kuralları oluşturabilirsiniz. **e -postanın başçıya geri dönme**  nedenini bulabilir ve normal ifade için kullanabilirsiniz. Ayrıca, hata koduna veya normal ifadeye dayalı uygun eylemleri seçin. Phplist aşağıdaki eylemleri desteklemektedir. Eylem ifadesi kendi açıklayıcıdır, bu nedenle ayrıntılı olarak gitmemize gerek yoktur.
   * Aboneyi sil
   * Abone'yu doğrulama
   * Blacklist abone
@@ -36,9 +36,9 @@ Normal ifadelere dayalı sıçrama kuralları oluşturabilirsiniz. ** e -postan�
   * Yapılmayan listeye e-posta adresi ekleyin ve sıçramayı silin
   * Sıçrama
 
-## sıçrama kuralı ekle {#add}
+## sıçrama kuralı ekle   {#add}
 İlk sıçrama kuralımızı oluşturalım.
-  *İlk olarak, ** (Hesap askıya alındı ​​| Hesap mevcut değil) gibi düzenli ifadeye girin **
+  *İlk olarak, **(Hesap askıya alındı ​​| Hesap mevcut değil) gibi düzenli ifadeye girin** 
   * Bundan sonra uygun eylemi seçin
   * Son olarak, kural için not/not ekleyin
 
@@ -54,16 +54,16 @@ Aşağıdaki nedenlerle sıçrama kuralları ekleyebilir ve sıçramaları işle
   * Bilinmeyen kullanıcı
   * Böyle bir alıcı yok
   * ve benzeri …
-** Not: ** Bir sıçrama kuralına birden fazla neden eklemek istiyorsanız, sıçrama nedenini parantezle sarmalı ve boru sembolü kullanmalısınız ** | ** veya ** veya ** ifadesi.
+**Not:  **Bir sıçrama kuralına birden fazla neden eklemek istiyorsanız, sıçrama nedenini parantezle sarmalı ve boru sembolü kullanmalısınız **  |  **veya **  veya**  ifadesi.
 
-## Liste Sıçrama Kuralları {#List}
-Kural sayısını oluşturduktan sonra, ** sıçrama kuralları ** listeniz aşağıdaki ekran görüntüsünde olduğu gibi görünecektir. Sipariş değişiklikleri ve bu sayfada silme gibi diğer işlemleri yapabilirsiniz.
+## Liste Sıçrama Kuralları   {#List}
+Kural sayısını oluşturduktan sonra, **sıçrama kuralları**  listeniz aşağıdaki ekran görüntüsünde olduğu gibi görünecektir. Sipariş değişiklikleri ve bu sayfada silme gibi diğer işlemleri yapabilirsiniz.
 
 {{< figure align=center src="images/bounce-regular-expressions.png" alt="Sıçrama kurallarının listesi">}}
 
 
-## Sonuç {#Conclusion}
-Bu öğreticide, gelişmiş ** sıçrama yönetimi ** öğrendik ve gerekli sıçrama kurallarını geliştirdik. Listelerinizden geçersiz e -posta adreslerini temizleme işlemini otomatikleştirebilmeniz için bu özelliğe izin vermek harika olurdu. Ayrıca, iade edilen e -postaların minimum seviyesini korumanıza da izin verir. Ayrıca, listelerinizde meşru aboneler olacak.
+## Sonuç   {#Conclusion}
+Bu öğreticide, gelişmiş **sıçrama yönetimi**  öğrendik ve gerekli sıçrama kurallarını geliştirdik. Listelerinizden geçersiz e -posta adreslerini temizleme işlemini otomatikleştirebilmeniz için bu özelliğe izin vermek harika olurdu. Ayrıca, iade edilen e -postaların minimum seviyesini korumanıza da izin verir. Ayrıca, listelerinizde meşru aboneler olacak.
 Ayrıca, [Containerize.com][6], birden fazla dil ve çerçevede açık kaynaklı ürün yığınını geliştirme yolunda. Düzenli güncellemeler için, daha ilginç makaleler için lütfen [bültenler][7] kategorisinde bizi izlemeye devam edin.
 
 ## Keşfetmek

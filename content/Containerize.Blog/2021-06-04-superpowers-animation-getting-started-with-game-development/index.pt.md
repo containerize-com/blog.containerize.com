@@ -16,22 +16,22 @@ categories: ['Game Development Software']
 
 ## **Visão geral**
 Em nossa série de tutoriais de desenvolvimento de jogos de código aberto, publicamos postagens de blog sobre alguns tópicos populares, como [Tutorial de Desenvolvimento de Jogos | Movimento de jogadores em Gdevelo][1], [Tutorial de Desenvolvimento de Jogos HTML5 para programadores de videogames][2], [Como a indústria global de jogos que alavancam o software de código aberto][3] e [o tutorial do GDEV para iniciantes iniciarem o desenvolvimento do jogo][4 ]. Este artigo do tutorial é sobre começar o desenvolvimento de jogos usando o código aberto gratuito [superpowers][5] cobrindo os seguintes pontos.
-  *** [tipos de animações de jogo][6] **
-  *** [Como criar sprites?][7] **
-  *** [Trabalhando com cenas][8] **
-  *** [Lançando o jogo no host local][9] **
-  *** [Conclusão][10] **
+  ***[tipos de animações de jogo][6]** 
+  ***[Como criar sprites?][7]** 
+  ***[Trabalhando com cenas][8]** 
+  ***[Lançando o jogo no host local][9]** 
+  ***[Conclusão][10]** 
 Existem muitos softwares de desenvolvimento de jogos de código aberto para iniciantes disponíveis com recursos de auto-hospedagem. No entanto, [Superpowers][5] é um software de criação de jogo 2D e 3D de plataforma cruzada. Ele fornece bibliotecas e exemplos de jogos embutidos que facilitam o desenvolvimento de jogos para os desenvolvedores de jogos. Este aplicativo gratuito de design de jogos é escrito no TypeScript e toda a documentação está disponível no [GitHub][11] sobre desenvolvimento e implantação. Nesta postagem do blog, exploraremos as superpotências sobre seu uso.
 
-## Tipos de animações de jogo {#Types}
+## Tipos de animações de jogo   {#Types}
 As animações são uma parte vital dos videogames. Os personagens dos jogos devem responder às ações do usuário, a animação deve ser suave e abrupta. Trata -se de gerenciar vários quadros e animadores refinam esses quadros para produzir efeitos móveis. Além disso, existem animações 2D e 3D, onde os objetos parecem passar pelo espaço tridimensional. Desenvolvedores de jogos e designers gráficos criam modelos 3D. As animações dependem da natureza do jogo e dos tipos mais comuns são os seguintes.
-** Animação de caminhada: ** A animação de caminhada é sobre a criação de um processo de caminhada no qual os personagens animam cada etapa e dão ilustrações ambulantes.
-** Animação ociosa: ** Este é um tipo muito importante de animação no qual o personagem não faz nada porque o usuário não pressiona nenhum controlador.
-** Run Animation **: Run Animation faz parte de todos os jogos em que o objeto de jogo executa o ciclo de corrida. Este tipo é do tipo mais comum e requer mais atenção do desenvolvedor.
-** Lighting Animation **: Nos jogos de luta, vários personagens de jogos lutam um com o outro.
-** Animação de Jump **: Esse tipo de animação requer melhores habilidades e conhecimentos. O caractere comprime e libera o corpo para realizar a ilustração do salto.
+**Animação de caminhada:**  A animação de caminhada é sobre a criação de um processo de caminhada no qual os personagens animam cada etapa e dão ilustrações ambulantes.
+**Animação ociosa:**  Este é um tipo muito importante de animação no qual o personagem não faz nada porque o usuário não pressiona nenhum controlador.
+**Run Animation** : Run Animation faz parte de todos os jogos em que o objeto de jogo executa o ciclo de corrida. Este tipo é do tipo mais comum e requer mais atenção do desenvolvedor.
+**Lighting Animation** : Nos jogos de luta, vários personagens de jogos lutam um com o outro.
+**Animação de Jump** : Esse tipo de animação requer melhores habilidades e conhecimentos. O caractere comprime e libera o corpo para realizar a ilustração do salto.
 
-## Como criar sprites? {#sprites}
+## Como criar sprites?   {#sprites}
 Esta seção do guia de fabricação de jogos permite que os usuários criem projetos e comecem a criar sprites para o jogo. Os sprites são imagens não estáticas ou gráficos que não são usados ​​apenas em jogos, mas também fazem parte do web design. Normalmente, estes são desenhados sobre um fundo que está sendo atualizado constantemente.
 Antes de seguir em frente, verifique se você configurou superpotências em sua máquina. Você pode seguir este link [tutorial de desenvolvimento de jogos HTML5 para programadores de videogame][2] para configurar esta plataforma de criação de jogos gratuita.
 Primeiro, abra o aplicativo no navegador e vamos criar um novo projeto vazio. como mostrado na imagem abaixo.
@@ -52,7 +52,7 @@ Depois disso, vamos criar animações. Podemos fazer isso clicando no botão "no
 {{< figure align=center src="images/Screenshot-2021-06-04-at-13.12.21-1024x578.png" alt="software de desenvolvimento de jogos para iniciantes">}}
 
 
-## trabalhando com cenas {#scenes}
+## trabalhando com cenas   {#scenes}
 Nesta seção, adicionaremos uma cena ao nosso jogo. Para isso, abra novamente a caixa de diálogo Ativos e selecione "Cena" e pressione o botão Criar. Agora crie um ator clicando no botão de estrela disponível no canto superior direito, conforme mostrado na imagem abaixo.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-14.07.34-1024x580.png" alt="Como fazer um jogo no arranhão para iniciantes">}}
@@ -64,7 +64,7 @@ Você pode alterar o modo de câmera, então altere -o para o modo "ortográfico
 
 No canto inferior esquerdo, navegue até a opção Configurações e abra -a. Nas seções "sprite" e "mapa de ladrilhos", insira 16 contra "pixel por unidade". Em seguida, no "modo de câmera padrão", selecione 2D na seção "Cena". Além disso, na seção "Mapa de ladrilhos", a largura padrão 36, a altura padrão 28 e o tamanho da grade de ladrilhos 16. Não há necessidade de salvá -lo, mas tudo está no AutoSave.
 
-## lançando o jogo no localhost {#local}
+## lançando o jogo no localhost   {#local}
 Então, estamos perto de lançar a animação das superpotências do nosso primeiro jogo. No entanto, vá para a guia Configurações e arraste a cena do painel lateral esquerdo e solte-o contra a "cena de inicialização", como mostrado na imagem abaixo.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.29.34-1024x578.png" alt="Como fazer um jogo no arranhão para iniciantes">}}
@@ -74,8 +74,8 @@ Agora, clique em "Player" e no componente "renderizador Sprite", selecione anima
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.42.14-1024x576.png" alt="Introdução ao desenvolvimento do jogo">}}
 
 
-## Conclusão {#conclusion}
-Este é o fim do tutorial em que aprendemos a fazer um jogo no Scratch para iniciantes. Portanto, começar o desenvolvimento de jogos se torna fácil quando há documentação detalhada do software de desenvolvimento de jogos disponíveis. Finalmente, [** containerize.com **][12] está em um processo consistente de escrever artigos sobre tópicos e produtos de código aberto adicionais. Portanto, mantenha contato com esta categoria [software de desenvolvimento de jogos][13] para atualizações regulares.
+## Conclusão   {#conclusion}
+Este é o fim do tutorial em que aprendemos a fazer um jogo no Scratch para iniciantes. Portanto, começar o desenvolvimento de jogos se torna fácil quando há documentação detalhada do software de desenvolvimento de jogos disponíveis. Finalmente, [**containerize.com** ][12] está em um processo consistente de escrever artigos sobre tópicos e produtos de código aberto adicionais. Portanto, mantenha contato com esta categoria [software de desenvolvimento de jogos][13] para atualizações regulares.
 
 ## Explore
   * [Gdevelo][14]

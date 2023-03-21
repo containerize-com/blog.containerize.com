@@ -20,10 +20,10 @@ categories: ['Programming']
   * [データ型とは？][2]
   * [JavaScriptデータ型とは？][3]
 
-## データ型説明|データ型とは何ですか？ {#whatis-a-data-type}
+## データ型説明|データ型とは何ですか？   {#whatis-a-data-type}
 データ型は、データを解釈またはコンパイルする方法をコンパイラに伝えることです。データ型の使用は重要であり、賢明に使用する必要があります。簡単に言えば、それは数字、文字列、ブールンなどのデータの形式に関するものです。ただし、データ型のプリミティブデータ型と非適合データ型には2つのカテゴリがあります。次のセクションで説明する8つのプリミティブデータ型があります。
 
-## JavaScriptデータ型とは何ですか？ {#what-are-javascript-data-types}
+## JavaScriptデータ型とは何ですか？   {#what-are-javascript-data-types}
 実際、JavaScriptは緩やかに型付けされた言語であるため、変数タイプを明示的に定義する必要はありません。任意の値を変数に割り当てることができ、その変数はString、BigInt、Booleanなどなどの値を保存します。
 
 {{< figure align=center src="images/web-development.png" alt="JavaScriptの初心者向けガイド">}}

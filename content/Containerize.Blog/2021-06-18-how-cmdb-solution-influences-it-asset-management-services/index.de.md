@@ -16,16 +16,16 @@ categories: ['CMDB Software']
 
 ## **Überblick**
 Wir haben kürzlich eine Content-Serie auf [Konfigurationsverwaltungsdatenbanksoftware (CMDB)][1] gestartet und einige Open Source- und kostenlose Produkte wie [Ralph][2], [Snipe-It][3] und ein Tutorial-Blog veröffentlicht Post [So richten Sie CMDB -Lösung Ralph auf Localhost][4]. Die Kategorie der CMDB -Software gewinnt in Organisationen, die eine enorme IT -Infrastruktur aufrechterhalten. Es besteht ein starker Bedarf an Automatisierung von sich wiederholenden Aufgaben und einer Art Ressourcenverfolgung und -verwaltung. Die meisten verfügbaren Cloud-basierten Softwarelösungen sind jedoch mit bezahlten Versionen ausgestattet, und es sind auch einige Datensicherheitsbedenken beigefügt. Daher hat die Open-Source-Community selbst gehostete und plattformübergreifende Konfigurationsverwaltungsdatenbanksoftware entwickelt, die die gesamte IT-Umgebung mit IT-Vermögensverwaltungsdiensten befähigt.
-Diese Konfigurationsverwaltungssysteme bieten Dienstprogramme, um den Aufzeichnung von Konfigurationselementen aufrechtzuerhalten. Diese Konfigurationselemente (CIS) umfassen Drucker, Server, Software, Scanner, QR -Code -Scanner, Barcode -Leser, Konfigurationen und usw. Daher werden wir in diesem Blog -Beitrag die Auswirkungen von ** CMDB -Software ** auf das IT eines Unternehmens untersuchen Abteilung durch Deckung der folgenden Punkte.
-  *** [Was ist CMDB -Software?][5] **
-  *** [Top 5 Open Source Best CMDB -Software][6] **
-  *[** Auswirkungen der CMDB -Software auf IT Asset Management Services **][7]
-  *** [Fazit][8] **
+Diese Konfigurationsverwaltungssysteme bieten Dienstprogramme, um den Aufzeichnung von Konfigurationselementen aufrechtzuerhalten. Diese Konfigurationselemente (CIS) umfassen Drucker, Server, Software, Scanner, QR -Code -Scanner, Barcode -Leser, Konfigurationen und usw. Daher werden wir in diesem Blog -Beitrag die Auswirkungen von **CMDB -Software**  auf das IT eines Unternehmens untersuchen Abteilung durch Deckung der folgenden Punkte.
+  ***[Was ist CMDB -Software?][5]** 
+  ***[Top 5 Open Source Best CMDB -Software][6]** 
+  *[**Auswirkungen der CMDB -Software auf IT Asset Management Services** ][7]
+  ***[Fazit][8]** 
 
-## ** Was ist CMDB -Software? ** {#What}
+## **Was ist CMDB -Software?**    {#What}
 [Konfigurationsverwaltungsdatenbanksoftware][1] ist eine Datenbank, die Informationen zu Konfigurationselementen und deren Beziehungsdetails speichert. Darüber hinaus gibt es viele Arten von Konfiguration Elements (CIS), die Hardware oder Software sein könnten, und cis sind die integrale Komponente einer CMDB -Software. Einige der Organisationen verwendeten diese Lösung, um Geschäftsstandorte, Dokumente und Geschäftsverträge zu verfolgen. Unternehmensstakeholder schaffen es, die richtigen Entscheidungen zu treffen, indem sie alle Vermögenswerte und ihre Abhängigkeiten voneinander betrachten müssen. Daher können sie die zukünftigen Trends, Potenzial und Bedrohungen vorhersagen, die auftreten können. Diese kostenlosen Lösungen bieten eine klare Demonstration von Daten auf gut angewandte Weise. Es gibt ein benutzerfreundliches und logisches Dashboard, das die Daten aus verschiedenen Quellen in Echtzeit abruft, es verarbeitet und dann die verarbeiteten Daten in verschiedenen Arten von Widgets anzeigt. Darüber hinaus bietet CMDB -Software, die bei Bedarf zusätzliche CIs unterstützt.
 
-## ** Top 5 Open Source Best CMDB -Software ** {#top}
+## **Top 5 Open Source Best CMDB -Software**    {#top}
 In diesem Abschnitt werden wir die hochwertigste Konfigurationsverwaltungsdatenbanksoftware untersuchen.
 
 ### Ralph
@@ -63,24 +63,24 @@ ITOP bietet wichtige Funktionen
   * Änderungsmanagement
   * Datensynchronisation
 
-## Auswirkungen der CMDB -Software auf [][15] IT Asset Management Services {#impact}
-** Bessere Risikobewertung für Änderungen **: Es ist ein sehr kritischer Schritt, Änderungen des vorhandenen Systems vorzunehmen. Administratoren nutzen jedoch eine gute CMDB -Software, um die Elemente und ihre Beziehungen zu analysieren.
-** Transparenz und Sichtbarkeit: ** CMDB -Lösungen behalten die Aufzeichnungen der Konfiguration während ihres gesamten Lebenszyklus bei. Daher gibt es Transparenz, da jede Entität bei jedem Schritt nachvollziehbar ist.
-** Datenzentralisierung: ** Es gibt eine große IT -Infrastruktur in großen Organisationen und jede Komponente ist miteinander verbunden und hat Datenbanken geteilt. Daher ermöglicht es Benutzern, Probleme oder Ausfallzeiten zu verfolgen.
-** Wissensbasis: ** CMDB -Software enthält vollständige Details der ** Konfigurationselemente ** und deren Beziehungen. Vor allem werden diese Informationen verwendet, um eine Straßenkarte zu formulieren, um die Ressourcen effizient zu verwalten.
-** Incident Management **: Organisationen können Konfigurationsverwaltungsdatenbanksoftware nutzen, um das Incident Management zu verfolgen. Darüber hinaus führt die CMDB-Software mit dem Auto-Update-Modus einen Vorfall in der Schleife für eine bessere Problemverwaltung.
-** Verbesserte Sicherheit: ** Mit einer aktualisierten CMDB -Software können Sie in die Sicherheit vertrauen und Sie können Entscheidungen über jegliche Sicherheitsanfälligkeit treffen.
+## Auswirkungen der CMDB -Software auf [][15] IT Asset Management Services   {#impact}
+**Bessere Risikobewertung für Änderungen** : Es ist ein sehr kritischer Schritt, Änderungen des vorhandenen Systems vorzunehmen. Administratoren nutzen jedoch eine gute CMDB -Software, um die Elemente und ihre Beziehungen zu analysieren.
+**Transparenz und Sichtbarkeit:**  CMDB -Lösungen behalten die Aufzeichnungen der Konfiguration während ihres gesamten Lebenszyklus bei. Daher gibt es Transparenz, da jede Entität bei jedem Schritt nachvollziehbar ist.
+**Datenzentralisierung:**  Es gibt eine große IT -Infrastruktur in großen Organisationen und jede Komponente ist miteinander verbunden und hat Datenbanken geteilt. Daher ermöglicht es Benutzern, Probleme oder Ausfallzeiten zu verfolgen.
+**Wissensbasis:  **CMDB -Software enthält vollständige Details der **  Konfigurationselemente**  und deren Beziehungen. Vor allem werden diese Informationen verwendet, um eine Straßenkarte zu formulieren, um die Ressourcen effizient zu verwalten.
+**Incident Management** : Organisationen können Konfigurationsverwaltungsdatenbanksoftware nutzen, um das Incident Management zu verfolgen. Darüber hinaus führt die CMDB-Software mit dem Auto-Update-Modus einen Vorfall in der Schleife für eine bessere Problemverwaltung.
+**Verbesserte Sicherheit:**  Mit einer aktualisierten CMDB -Software können Sie in die Sicherheit vertrauen und Sie können Entscheidungen über jegliche Sicherheitsanfälligkeit treffen.
 
-## ** Fazit ** {#Conclusion}
-Dies ist das Ende dieses Blog -Beitrags. In diesem Artikel haben wir festgestellt, dass ** Konfigurationsmanagementsysteme ** eine entscheidende Rolle bei IT -Vermögensverwaltungsdiensten spielen, indem sie Transparenz, Effizienz und Robustheit bereitstellen. Darüber hinaus zentralisiert es die Daten und für ein besseres Verständnis von Risiken und Chancen. Es ist jedoch höchste Zeit, eine Open Source ** CMDB-Lösung ** für Ihre IT-Abteilung zu wählen und Geschäftsbetriebe zu steigern, die ansonsten zeitaufwändig sind.
-Schließlich schreibt [** Containerize.com **][16] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [17][Konfigurationsverwaltungsdatenbank -Software (CMDB][1]) in Kontakt, um regelmäßige Aktualisierungen zu erzielen.
+## **Fazit**    {#Conclusion}
+Dies ist das Ende dieses Blog -Beitrags. In diesem Artikel haben wir festgestellt, dass **Konfigurationsmanagementsysteme  **eine entscheidende Rolle bei IT -Vermögensverwaltungsdiensten spielen, indem sie Transparenz, Effizienz und Robustheit bereitstellen. Darüber hinaus zentralisiert es die Daten und für ein besseres Verständnis von Risiken und Chancen. Es ist jedoch höchste Zeit, eine Open Source **  CMDB-Lösung**  für Ihre IT-Abteilung zu wählen und Geschäftsbetriebe zu steigern, die ansonsten zeitaufwändig sind.
+Schließlich schreibt [**Containerize.com** ][16] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [17][Konfigurationsverwaltungsdatenbank -Software (CMDB][1]) in Kontakt, um regelmäßige Aktualisierungen zu erzielen.
 
 ## Erkunden
-  *** [CMDB -Software][1] **
-  *** [Ralph][2] **
-  *[** Snipe-it **][3]
-  *[** Geschäftsvorgänge automatisieren mit kostenloser und Open -Source -Software **][18]
-  *** [Trends für Softwareentwicklung im Jahr 2021][19] **
+  ***[CMDB -Software][1]** 
+  ***[Ralph][2]** 
+  *[**Snipe-it** ][3]
+  *[**Geschäftsvorgänge automatisieren mit kostenloser und Open -Source -Software** ][18]
+  ***[Trends für Softwareentwicklung im Jahr 2021][19]** 
 
   
 [1]: https://products.containerize.com/cmdb-software/

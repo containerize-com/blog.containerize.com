@@ -20,12 +20,12 @@ Portainer和Rancher都有很多相似之处，因为这两个软件都是自托�
 Portainer和Rancher可以归类为容器管理工具。为了简单起见，本文仅解释了Portainer和Rancher技术之间的基本差异。让我们熟悉最受欢迎的开源Portainer vs Rancher容器管理工具。
   ***什么是Portainer？**
   ***什么是牧场主？**
-  *** Portainer vs Rancher：您应该采用哪个？**
+  * **Portainer vs Rancher：您应该采用哪个？** 
   * **结论**
 
-## ** 1。什么是Portainer？**
+##  **1。什么是Portainer？** 
 [Portainer][1]是最受欢迎的容器管理平台。 DevOps工程师将Portainer描述为Docker的简单管理UI。 Portainer是一种开源轻型Contianer Management UI，它使您可以轻松管理Docker环境。它从来没有那么容易管理Docker，但是Portainer可以在Windows，Linux和Mac操作系统上使用。 Portainer替代方案是Azure容器注册表，牧场主和Docker Swarm。它于2017年在新西兰成立，Portainer Web GUI默认端口为9000。
-Portainer是一种功能强大的开源管理工具集，可让您轻松构建，管理和维护Docker生产环境。它的开发是为了帮助客户采用Docker容器技术并加速时间价值。 Portainer与Docker Swarm和基于Kubernetes的集群管理集成在一起。 Portainer是一种开源工具，具有20.1k GitHub星和1.8K GitHub叉。打开源容器化平台** Portainer源代码存储库**可通过[GitHub][2]获得。 Portainer为容器化应用程序提供的一些功能是：
+Portainer是一种功能强大的开源管理工具集，可让您轻松构建，管理和维护Docker生产环境。它的开发是为了帮助客户采用Docker容器技术并加速时间价值。 Portainer与Docker Swarm和基于Kubernetes的集群管理集成在一起。 Portainer是一种开源工具，具有20.1k GitHub星和1.8K GitHub叉。打开源容器化平台 **Portainer源代码存储库** 可通过[GitHub][2]获得。 Portainer为容器化应用程序提供的一些功能是：
   *容器易于部署和管理
   *监视性能和行为
   * IT治理和安全
@@ -50,17 +50,17 @@ Rancher是用于在容器上工作的团队的完整软件堆栈，托管牧场�
 Portainer完全匹配了小型应用程序环境的需求，尤其是基于糟糕的硬件时。它可以与Raspberry Pi完美搭配，如果您想管理家庭环境，小型实验室或小型公司，则可能是最佳选择。它还将重点放在具有低成本扩展的大型企业上，以添加新功能，并且可以在牧场主上用作替代的容器管弦乐手工具。 Rancher还拥有一个非常奇妙而轻巧的OS，称为Rancheros，它基于Busybox。如果您想使用此Rancheros，则可以自由从GUI中选择它。牧场主直接专注于具有复杂应用架构的中等至大环境的需求。如果您想为公司开设容器世界并使用Kubernetes编排平台，牧场主可能是最佳选择。
 最后，我个人的考虑是Portainer和Rancher是轻松管理您的容器环境的最佳和有效工具。
 
-## 结论：{#4a1a}
+## 结论： {#4a1a}
 **那么，最佳选择Portainer vs Rancher是什么？**答案是显而易见的：两者。上述Portainer vs Rancher是开发人员最受欢迎的最佳开源工具。他们允许以全新的数字方式考虑基础架构最需要的服务和系统。最重要的是，这两种工具都提供了一个完善的平台，以更有效地自动化容器管理，扩展和部署系统容器。
 _什么开源容器管理Technolog_y您更喜欢_？您对Portainer和Rancher之间的区别有任何疑问吗？
 
 ## 探索：
 我们还有其他几篇相关文章来处理IT管理员的日常任务管理：
-  *** [DevOps 2021的前5个开源容器编排工具][6] **
-  *** [最佳开源云存储和文件共享软件][7] **
-  *** [2021年的前5个开源消息队列（MQ）软件][8] **
-  *** [最受欢迎的开源数字法医工具][9] **
-  *** [最受欢迎的OSI批准的开源许可][10] **
+  ***[DevOps 2021的前5个开源容器编排工具][6]** 
+  ***[最佳开源云存储和文件共享软件][7]** 
+  ***[2021年的前5个开源消息队列（MQ）软件][8]** 
+  ***[最受欢迎的开源数字法医工具][9]** 
+  ***[最受欢迎的OSI批准的开源许可][10]** 
 
   
 [1]: https://www.portainer.io/

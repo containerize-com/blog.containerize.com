@@ -19,10 +19,10 @@ Bu makalede, Mautic'te kampanyaların nasıl kurulacağını öğreneceğiz. Aş
   * [Mautic'te kampanya nasıl oluşturulur?][3]
   * [Sonuç][4]
 
-## Mautic nedir? {#Mautic}
+## Mautic nedir?   {#Mautic}
 Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -postaları, açılış sayfaları ve pazarlama etkinlikleri için iş akışları üzerinde tam kontrol sağlar. İniş sayfalarından, formlardan oluşturulan ve bunları potansiyel müşterilere dönüştürme yollarını otomatikleştirir. Tüm bunlar, potansiyel müşterileri ürünler/hizmetler konusunda güncel tutacak akıllı damlama kampanyaları oluşturarak elde edilebilir.
 
-## Mautic'te formlar nasıl oluşturulur? {#formlar}
+## Mautic'te formlar nasıl oluşturulur?   {#formlar}
   * Mauitc kurulumunuza giriş yapın.
   * “Bileşenler” sekmesine gidin ve “Formlar” a tıklayın.
   * Sağ üst köşeden “Yeni” yi vur.
@@ -41,7 +41,7 @@ Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -p
   * Bundan sonra “Ekle” yi tıklayın ve “Kaydet ve Kapat” a basın.
   * Bu kadar kolay, mautikte formlar oluşturmaktır.
 
-## Mautic'te kampanya nasıl oluşturulur? {#Campaigns}
+## Mautic'te kampanya nasıl oluşturulur?   {#Campaigns}
   * Kampanyalara gidin. Sağ üstten “Yeni” yi tıklayın.
   * Adı girin ve “Yayınlanmış” ı “Evet” olarak ayarlayın.
 
@@ -65,7 +65,7 @@ Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -p
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Dijital pazarlama için mautik kampanyalar nasıl kurulur">}}
 
 
-## Sonuç: {#Conclusion}
+## Sonuç:   {#Conclusion}
 3 çok basit adımın ardından damla pazarlama kampanyaları oluşturmayı öğrendik. Bu, kampanya kaynağı olarak gerekli bir form oluşturmayı, kampanyayı oluşturmayı ve e -postayı yapılandırmayı içerir. Bu öğreticide çok temel bir kampanya oluşturduk. Ancak, Mautic Campain oluşturucu kullanarak karmaşık kampanyalar oluşturabilirsiniz. Mautic'te yeniyseniz, aşağıdaki kılavuzu kullanarak nasıl kurulacağınızı kontrol edin:
 [Mautik Genel Bakış ve Kurulum][5]
 

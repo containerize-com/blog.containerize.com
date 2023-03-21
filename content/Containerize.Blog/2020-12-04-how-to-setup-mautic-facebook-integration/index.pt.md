@@ -20,7 +20,7 @@ Abordaremos as seguintes seções neste tutorial:
   * [Configuração do plug -in mautic][3]
   * [Conclusão][4]
 
-## Configurar conta do desenvolvedor do Facebook {#Account}
+## Configurar conta do desenvolvedor do Facebook   {#Account}
   * Vá para [Facebook para desenvolvedores][5]
   * Registre sua conta se você não tiver uma.
   * Para registrar uma nova conta, vá e clique em "Comece" no canto superior direito.
@@ -30,7 +30,7 @@ Abordaremos as seguintes seções neste tutorial:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Facebook Integration - Register Developer Conta">}}
 
 
-## Configure o aplicativo do desenvolvedor do Facebook {#app}
+## Configure o aplicativo do desenvolvedor do Facebook   {#app}
   * Clique em "Criar primeiro aplicativo"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Integração do Facebook - Crie o primeiro aplicativo">}}
@@ -57,7 +57,7 @@ Abordaremos as seguintes seções neste tutorial:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Integração do Facebook - Adicionar site como plataforma">}}
 
 
-## Configuração do plug -in mautic {#Configuration}
+## Configuração do plug -in mautic   {#Configuration}
   * Vá para o painel mautico.
   * Em seguida, vá para “Configurações” do canto superior direito.
   * Clique em "Plugins".
@@ -72,7 +72,7 @@ Abordaremos as seguintes seções neste tutorial:
   * Aqui você pode mapear seus campos de contato para os campos do Facebook.
   * Finalmente, publique as configurações e você estará pronto.
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Mautic - a integração do Facebook pode ajudar a sincronizar seus líderes no Facebook no sistema mautico sem nenhuma dificuldade. No aplicativo Mautic, você pode adicionar todos esses leads a um segmento. Você pode executar campanhas de marketing por e -mail nelas. Isso pode realmente ajudar sua empresa a crescer, comercializar e vender produtos/serviços para um público -alvo muito maior.
 
 ## Explore

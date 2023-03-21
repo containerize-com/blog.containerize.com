@@ -14,18 +14,18 @@ categories: ['CMDB Software']
 {{< figure align=center src="images/it-asset-management-services.png" alt="BT varlık yönetimi hizmetleri">}}
 
 
-## ** Genel Bakış **
+## **Genel Bakış** 
 Son zamanlarda [Yapılandırma Yönetimi Veritabanı Yazılımı (CMDB)][1] hakkında bir içerik dizisi başlattık ve [Ralph][2], [Snipe-it][3] gibi bazı açık kaynak ve ücretsiz ürünler ve bir öğretici blog yayınladık. Post [Localhost'ta CMDB Çözümü Ralph nasıl kurulur][4]. CMDB yazılım kategorisi, büyük BT altyapısını sürdüren kuruluşlarda popülerlik kazanıyor. Tekrarlayan görevlerin otomasyonuna ve bir çeşit kaynak izleme ve yönetimine güçlü bir ihtiyaç vardır. Ancak, bulut tabanlı yazılım çözümlerinin çoğu ücretli sürümlerle birlikte gelir ve ayrıca bazı veri güvenliği endişeleri eklenir. Bu nedenle, açık kaynaklı topluluk, BT varlık yönetimi hizmetleriyle tüm BT ortamını güçlendiren kendi kendine barındırılan ve platformlar arası yapılandırma yönetimi veritabanı yazılımı geliştirmiştir.
 Bu yapılandırma yönetim sistemleri, yapılandırma öğelerinin kaydını korumak için yardımcı programlar sunar. Bu yapılandırma öğeleri (CIS) yazıcılar, sunucular, yazılım, tarayıcılar, QR kod tarayıcılar, barkod okuyucuları, yapılandırmalar vb. Bölüm aşağıdaki noktaları kapsayarak.
-  *** [CMDB yazılımı nedir?][5] **
-  *** [Top 5 Açık Kaynak En İyi CMDB yazılımı][6] **
-  *[** CMDB yazılımının BT Varlık Yönetimi Hizmetleri Üzerine Etkisi **][7]
-  *** [Sonuç][8] **
+  ***[CMDB yazılımı nedir?][5]** 
+  ***[Top 5 Açık Kaynak En İyi CMDB yazılımı][6]** 
+  *[**CMDB yazılımının BT Varlık Yönetimi Hizmetleri Üzerine Etkisi** ][7]
+  ***[Sonuç][8]** 
 
-## ** CMDB yazılımı nedir? ** {#ne}
+## **CMDB yazılımı nedir?**    {#ne}
 [Yapılandırma Yönetimi Veritabanı Yazılımı][1], yapılandırma öğeleri ve bunların ilişki ayrıntıları hakkında bilgi depolayan bir veritabanıdır. Ayrıca, donanım veya yazılım olabilecek birçok yapılandırma öğesi (CI) vardır ve CIS, herhangi bir CMDB yazılımının ayrılmaz bileşenidir. Bazı kuruluşlar bu çözümü iş yerlerini, belgeleri ve iş sözleşmelerini izlemek için kullandı. İşletme paydaşları, tüm varlıklara ve birbirlerine bağımlılıklarına bakmak zorunda kalarak doğru kararları vermeyi başarırlar. Bu nedenle, gelecekteki eğilimleri, potansiyelleri ve tehditleri tahmin edebilirler. Bu ücretsiz çözümler, verilerin iyi düzenlenmiş bir şekilde net bir şekilde gösterilmesini sağlar. Çeşitli kaynaklardan verileri gerçek zamanlı olarak getiren, işleyen ve daha sonra işlenmiş verileri farklı widget türlerinde gösteren kullanıcı dostu ve mantıksal bir gösterge tablosu vardır. Ayrıca, gerektiğinde ek cis için destek sağlamak üzere tasarlanmış CMDB yazılımı.
 
-## ** Top 5 Açık Kaynak En İyi CMDB Yazılımı ** {#top}
+## **Top 5 Açık Kaynak En İyi CMDB Yazılımı**    {#top}
 Bu bölümde, en iyi yapılandırma yönetimi veritabanı yazılımını keşfedeceğiz.
 
 ### Ralph
@@ -63,24 +63,24 @@ ITOP önemli özellikler sunar
   * Değişim Yönetimi
   * Veri senkronizasyonu
 
-## CMDB yazılımının [][15] BT Varlık Yönetimi Hizmetleri üzerindeki etkisi {#Impact}
-** Değişiklikler için daha iyi risk değerlendirmesi **: Mevcut sistemde herhangi bir değişiklik getirmek için çok kritik bir adımdır. Ancak, yöneticiler öğeleri ve ilişkilerini analiz etmek için iyi CMDB yazılımlarından yararlanır.
-** Şeffaflık ve Görünürlük: ** CMDB Çözümleri Yaşam döngüleri boyunca yapılandırma kayıtlarını korur. Bu nedenle, her bir varlık herhangi bir adımda izlenebilir olduğu için şeffaflık vardır.
-** Veri merkezileştirilmesi: ** Büyük kuruluşlarda büyük bir BT altyapısı vardır ve her bileşen birbirine bağlıdır ve veritabanlarını paylaşır. Bu nedenle, kullanıcıların herhangi bir sorunu veya kesinti süresini izlemelerini sağlar.
-** Bilgi tabanı: ** CMDB yazılımı ** yapılandırma öğelerinin ve ilişkilerinin tam ayrıntılarını içerir. Her şeyden önce, bu bilgiler kaynakları etkili bir şekilde yönetmek için bir yol haritası formüle etmek için kullanılır.
-** Olay Yönetimi **: Kuruluşlar, olay yönetimini izlemek için yapılandırma yönetimi veritabanı yazılımından yararlanabilir. Ayrıca, otomatik güncelleme moduna sahip CMDB yazılımı, daha iyi problem yönetimi için döngüde herhangi bir olayı tutar.
-** Geliştirilmiş Güvenlik: ** Güncellenmiş bir CMDB yazılımına sahip olmak, güvenlik konusunda size güven verebilir ve herhangi bir güvenlik açığı hakkında kararlar alabilirsiniz.
+## CMDB yazılımının [][15] BT Varlık Yönetimi Hizmetleri üzerindeki etkisi   {#Impact}
+**Değişiklikler için daha iyi risk değerlendirmesi** : Mevcut sistemde herhangi bir değişiklik getirmek için çok kritik bir adımdır. Ancak, yöneticiler öğeleri ve ilişkilerini analiz etmek için iyi CMDB yazılımlarından yararlanır.
+**Şeffaflık ve Görünürlük:**  CMDB Çözümleri Yaşam döngüleri boyunca yapılandırma kayıtlarını korur. Bu nedenle, her bir varlık herhangi bir adımda izlenebilir olduğu için şeffaflık vardır.
+**Veri merkezileştirilmesi:**  Büyük kuruluşlarda büyük bir BT altyapısı vardır ve her bileşen birbirine bağlıdır ve veritabanlarını paylaşır. Bu nedenle, kullanıcıların herhangi bir sorunu veya kesinti süresini izlemelerini sağlar.
+**Bilgi tabanı:  **CMDB yazılımı**   yapılandırma öğelerinin ve ilişkilerinin tam ayrıntılarını içerir. Her şeyden önce, bu bilgiler kaynakları etkili bir şekilde yönetmek için bir yol haritası formüle etmek için kullanılır.
+**Olay Yönetimi** : Kuruluşlar, olay yönetimini izlemek için yapılandırma yönetimi veritabanı yazılımından yararlanabilir. Ayrıca, otomatik güncelleme moduna sahip CMDB yazılımı, daha iyi problem yönetimi için döngüde herhangi bir olayı tutar.
+**Geliştirilmiş Güvenlik:**  Güncellenmiş bir CMDB yazılımına sahip olmak, güvenlik konusunda size güven verebilir ve herhangi bir güvenlik açığı hakkında kararlar alabilirsiniz.
 
-## ** Sonuç ** {#Conclusion}
-Bu blog yazısının sonu. Bu makalede, ** yapılandırma yönetim sistemlerinin ** şeffaflık, verimlilik ve sağlamlık sağlayarak BT varlık yönetimi hizmetlerinde belirleyici bir rol oynadığını bulduk. Ayrıca, verileri merkezileştirir ve risk ve fırsatların daha iyi anlaşılması için. Ancak, BT departmanınız için açık kaynaklı bir ** CMDB çözümü ** seçmenin ve aksi takdirde zaman alıcı olan iş operasyonlarını artırmak zamanı gelmiştir.
-Son olarak, [** Containerize.com **][16] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [][17][Yapılandırma Yönetimi Veritabanı Yazılımı (CMDB][1]) kategorisiyle iletişime geçin.
+## **Sonuç**    {#Conclusion}
+Bu blog yazısının sonu. Bu makalede, **yapılandırma yönetim sistemlerinin  **şeffaflık, verimlilik ve sağlamlık sağlayarak BT varlık yönetimi hizmetlerinde belirleyici bir rol oynadığını bulduk. Ayrıca, verileri merkezileştirir ve risk ve fırsatların daha iyi anlaşılması için. Ancak, BT departmanınız için açık kaynaklı bir **  CMDB çözümü**  seçmenin ve aksi takdirde zaman alıcı olan iş operasyonlarını artırmak zamanı gelmiştir.
+Son olarak, [**Containerize.com** ][16] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [][17][Yapılandırma Yönetimi Veritabanı Yazılımı (CMDB][1]) kategorisiyle iletişime geçin.
 
 ## Keşfetmek
-  *** [CMDB yazılımı][1] **
-  *** [Ralph][2] **
-  *[** Snipe-it **][3]
-  *[** Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin **][18]
-  *** [2021'de bakmak için yazılım geliştirme eğilimleri][19] **
+  ***[CMDB yazılımı][1]** 
+  ***[Ralph][2]** 
+  *[**Snipe-it** ][3]
+  *[**Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin** ][18]
+  ***[2021'de bakmak için yazılım geliştirme eğilimleri][19]** 
 
   
 [1]: https://products.containerize.com/cmdb-software/

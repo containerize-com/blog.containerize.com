@@ -22,22 +22,22 @@ Este sistema de bilheteria de código aberto (OSTicket) é uma estrutura de tick
   * [Como desenvolver o plugin de Osticket?][6]
   * [Conclusão][7]
 
-## Por que usar plugins? {#por que}
-Neste tópico, aprenderemos como criar um plug -in simples para estender a funcionalidade principal deste ** Software Helpdesk ** (Osticket). Um plug -in é um software, que estende a funcionalidade principal de qualquer aplicativo/software. Além disso, existem muitos softwares de código aberto de nível corporativo que possuem uma enorme pilha de plugins que estendem as funcionalidades. Além disso, esses softwares populares de código aberto incluem WordPress, Joomla e muito mais. Acima de tudo, as comunidades vibrantes e vivas apóiam e desenvolvem plugins conforme as necessidades. No entanto, as estruturas oferecem documentação abrangente sobre o desenvolvimento dos plug -ins. A seguir, alguns motivos para os aplicativos suportar plugins:
+## Por que usar plugins?   {#por que}
+Neste tópico, aprenderemos como criar um plug -in simples para estender a funcionalidade principal deste **Software Helpdesk**  (Osticket). Um plug -in é um software, que estende a funcionalidade principal de qualquer aplicativo/software. Além disso, existem muitos softwares de código aberto de nível corporativo que possuem uma enorme pilha de plugins que estendem as funcionalidades. Além disso, esses softwares populares de código aberto incluem WordPress, Joomla e muito mais. Acima de tudo, as comunidades vibrantes e vivas apóiam e desenvolvem plugins conforme as necessidades. No entanto, as estruturas oferecem documentação abrangente sobre o desenvolvimento dos plug -ins. A seguir, alguns motivos para os aplicativos suportar plugins:
   * Permite que desenvolvedores de terceiros criem componentes de software que estendem a funcionalidade de um aplicativo.
   * Os plugins permitem integrar facilmente novos recursos.
   * Também não aumenta o tamanho e a complexidade de um aplicativo.
   * Assim como os desenvolvedores podem manter e gerenciar o código dos plugins separadamente do aplicativo principal.
 
-## Requisitos {#ReQuirements}
-Esta seção do ** It HelpDesk Software ** Guia descreve os requisitos necessários para desenvolver o plug -in de osticket.
+## Requisitos   {#ReQuirements}
+Esta seção do **It HelpDesk Software**  Guia descreve os requisitos necessários para desenvolver o plug -in de osticket.
   * PHP versão 5.6 ou acima
   * Instalação de Osticket
   * Conhecimento básico de PHP
 
-## Como desenvolver o plug -in de Osticket? {#como}
+## Como desenvolver o plug -in de Osticket?   {#como}
 Nesta seção, seguiremos as etapas do desenvolvimento do plug -in deste sistema de bilheteria de código aberto (OSTICKET).
-  * Crie o diretório da pasta do plug -in /inclui /plugins. Neste tutorial, criaremos um plug -in de demonstração que integra ** Sistema de Osticket ** com Redmine.
+  * Crie o diretório da pasta do plug -in /inclui /plugins. Neste tutorial, criaremos um plug -in de demonstração que integra **Sistema de Osticket**  com Redmine.
   * Deve ter seguintes arquivos necessários: plugin.php e config.php.
   * O arquivo plugin.php contém descrição geral do plug -in. Use seguinte código de amostra no arquivo plugin.php:
 ```
@@ -126,8 +126,8 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Este código buscou os valores de configuração e você pode usar esses valores em suas funções. Neste arquivo, você pode adicionar a funcionalidade do seu plug -in como seus requisitos.
 
-## Conclusão {#conclusion}
-Isso nos leva ao final deste post do blog. Osticket é um software de gerenciamento de bilhetes que oferece estrutura de plug -ins para desenvolvedores para que eles possam adicionar novas funcionalidades conforme os requisitos. Os plugins são os componentes que estendem a funcionalidade principal de qualquer aplicativo/software. Em seu artigo, discutimos o desenvolvimento de plug -in deste sistema de suporte ao cliente ** (Osticket), que ajuda os desenvolvedores a adicionar recursos e aprimoramentos personalizados de acordo com seus requisitos. Portanto, esta postagem do blog realmente o ajudará se você deseja implantar um software ** de helpdesk ** para o seu negócio. Além disso, existem outros ** Software de ingressos para Helpdesk ** e artigos mencionados na seção "Explorar" abaixo.
+## Conclusão   {#conclusion}
+Isso nos leva ao final deste post do blog. Osticket é um software de gerenciamento de bilhetes que oferece estrutura de plug -ins para desenvolvedores para que eles possam adicionar novas funcionalidades conforme os requisitos. Os plugins são os componentes que estendem a funcionalidade principal de qualquer aplicativo/software. Em seu artigo, discutimos o desenvolvimento de plug -in deste sistema de suporte ao cliente **(Osticket), que ajuda os desenvolvedores a adicionar recursos e aprimoramentos personalizados de acordo com seus requisitos. Portanto, esta postagem do blog realmente o ajudará se você deseja implantar um software  **de helpdesk **  para o seu negócio. Além disso, existem outros  **Software de ingressos para Helpdesk**   e artigos mencionados na seção "Explorar" abaixo.
 Finalmente, [contenderize.com][8] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [HelpDesk Ticketing Software][1] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][9], [LinkedIn][10] e [Twitter][11].
 
 ## Explore

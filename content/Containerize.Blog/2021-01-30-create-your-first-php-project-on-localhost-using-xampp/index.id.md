@@ -20,17 +20,17 @@ XAMPP adalah server web open source yang menyediakan lingkungan lokal untuk memb
   * [Jalankan dan uji skrip PHP][5]
   * [Kesimpulan][6]
 
-## Persyaratan {#Requirements}
+## Persyaratan   {#Requirements}
   * Instalasi xampp
   * Aplikasi Editor Kode
   * Pengetahuan PHP dasar
   * Pengetahuan HTML dan JavaScript dasar
 
-## Apa itu XAMPP? {#xampp}
+## Apa itu XAMPP?   {#xampp}
 XAMPP adalah tumpukan solusi server web open source. Ini berisi apache, mysql, mariadb, php, dan perl. Sangat mudah dipasang dan digunakan. Itu sebabnya lingkungan pengembangan PHP paling populer. XAMPP Server menyediakan lingkungan yang lengkap untuk pengembangan aplikasi Web PHP. Jika Anda belum memiliki instalasi kerja XAMPP, maka ikuti panduan ini untuk menginstal XAMPP:
 [Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows][7]
 
-## Buat skrip php {#php}
+## Buat skrip php   {#php}
   * Dengan asumsi bahwa Anda telah menginstal XAMPP dengan mengikuti tutorial di atas, sekarang mari kita buat skrip PHP sederhana dan mengujinya di XAMPP.
   * Pertama buka editor Anda. Jika Anda tidak memiliki editor pemrograman, cukup buka Notepad.
   * Masukkan kode berikut
@@ -48,7 +48,7 @@ echo "This is my first PHP project";
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="Buat Proyek PHP pertama Anda dengan server web Open Source XAMPP">}}
 
 
-## Jalankan dan uji skrip php {#test}
+## Jalankan dan uji skrip php   {#test}
   * Salin skrip php ini ke folder htdocs di dalam instalasi XAMPP Anda. Sebagian besar folder htdocs berada di sini: c: \ xampp \ htdocs
   * Buka browser Anda.
   * Pergi ke localhost/\ _first \ _php_project.php
@@ -57,7 +57,7 @@ echo "This is my first PHP project";
 
 Selamat! Anda baru saja membuat proyek PHP pertama Anda.
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Membuat proyek web pertama selalu sangat menarik bagi pemula. Rasanya luar biasa saat Anda merancang skrip dinamis pertama Anda, jalankan dan lihat bekerja di browser Anda. Saya harap panduan sederhana ini telah membantu Anda membuat dan menjalankan proyek PHP pertama Anda dengan XAMPP Open Source Web Server.
 
 ## Mengeksplorasi

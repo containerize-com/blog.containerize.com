@@ -13,26 +13,26 @@ categories: ['Backup Software']
 
 {{< figure align=center src="images/restic-post-banner.png" alt="Perangkat Lunak Cadangan Sumber Terbuka">}}
 
-Sistem cadangan sangat penting untuk bisnis dan individu. Data dapat hilang karena berbagai alasan seperti serangan cyber, kegagalan sistem, penghapusan tidak disengaja, dan banyak lagi. Anda harus memiliki strategi cadangan yang baik sehingga Anda dapat mengembalikan data Anda dengan cepat. Panduan ini akan menunjukkan kepada Anda cara menginstal dan memanfaatkan perangkat lunak cadangan open source ** ** restic di server Ubuntu Anda.
+Sistem cadangan sangat penting untuk bisnis dan individu. Data dapat hilang karena berbagai alasan seperti serangan cyber, kegagalan sistem, penghapusan tidak disengaja, dan banyak lagi. Anda harus memiliki strategi cadangan yang baik sehingga Anda dapat mengembalikan data Anda dengan cepat. Panduan ini akan menunjukkan kepada Anda cara menginstal dan memanfaatkan perangkat lunak cadangan open source  ****  restic di server Ubuntu Anda.
 Kami telah membahas bagian -bagian berikut dalam tutorial ini.
-  *[** Prasyarat **][1]
-  *[** Apa itu restic? **][2]
-  *[** Instalasi Restic **][3]
-  *[** konfigurasi restic **][4]
-  *[** Alternatif untuk restic **][5]
-  *** [Kesimpulan][6] **
+  *[ **Prasyarat ** ][1]
+  *[ **Apa itu restic? ** ][2]
+  *[ **Instalasi Restic ** ][3]
+  *[ **konfigurasi restic ** ][4]
+  *[ **Alternatif untuk restic ** ][5]
+  * **[Kesimpulan][6] ** 
 
-## Prasyarat {#perequisites}
-Program Perangkat Lunak Backup Restic mendukung tiga sistem operasi utama Linux, MacOS, dan Windows. Sebelum menginstal ** Restic Backup **, Anda harus memenuhi persyaratan sistem berikut.
+## Prasyarat   {#perequisites}
+Program Perangkat Lunak Backup Restic mendukung tiga sistem operasi utama Linux, MacOS, dan Windows. Sebelum menginstal  **Restic Backup ** , Anda harus memenuhi persyaratan sistem berikut.
   * Mesin atau sistem desktop dengan sistem operasi ubuntu yang menampung data yang akan dicadangkan
   * Contoh server ubuntu terbaru
   * Otentikasi kunci SSH yang dikonfigurasi antara dua klien dan server
   * Pengguna non-root dengan hak istimewa sudo
 Dengan bit -bit ini di tangan, mari kita bergerak dan mulai bekerja.
 
-## Apa itu Restic? {#Restic}
-[** restic **][7] adalah alat cadangan open source ** yang fantastis **. Ini adalah utilitas cadangan gratis ** ** yang cepat, aman, dan efisien. Ini adalah program cross-platform backup, jadi itu akan berjalan di Linux, BSD, Mac OS X, dan Windows. Software cadangan open source terbaik restic mudah dijalankan dan tidak memerlukan server atau konfigurasi yang rumit. Ini membuat cadangan data yang dimodifikasi dan memungkinkan pengguna untuk mengembalikannya bila perlu. Lebih lanjut, ini menyediakan berbagai opsi penyimpanan, termasuk penyimpanan mandiri dan penyimpanan internet. Selain itu, Restic Open Source Open Sore Hosted Cloud Storage menggunakan teknik kriptografi yang kuat untuk melindungi data Anda.
-Restic bukan utilitas penyalinan file sederhana. Ini terutama dibangun di atas dua konsep: snapshot dan repositori. ** Restic ** Solusi cadangan sumber terbuka menyimpan informasi sebagai snapshot, yang kemudian disimpan dalam repositori. Itu ditulis dalam bahasa pemrograman Go. ReStic GO Based Backup Utility dan Aplikasi Cadangan Sumber Terbuka bekerja dengan lancar dengan banyak sistem penyimpanan cloud dan backend lokal. Kode sumber perangkat lunak cadangan file sumber terbuka restic tersedia di [** github **][8]. Namun, Anda dapat menemukan rinci [** dokumentasi **][9] untuk instalasi dan penggunaan.
+## Apa itu Restic?   {#Restic}
+[ **restic ** ][7] adalah alat cadangan open source  **yang fantastis ** . Ini adalah utilitas cadangan gratis  ****  yang cepat, aman, dan efisien. Ini adalah program cross-platform backup, jadi itu akan berjalan di Linux, BSD, Mac OS X, dan Windows. Software cadangan open source terbaik restic mudah dijalankan dan tidak memerlukan server atau konfigurasi yang rumit. Ini membuat cadangan data yang dimodifikasi dan memungkinkan pengguna untuk mengembalikannya bila perlu. Lebih lanjut, ini menyediakan berbagai opsi penyimpanan, termasuk penyimpanan mandiri dan penyimpanan internet. Selain itu, Restic Open Source Open Sore Hosted Cloud Storage menggunakan teknik kriptografi yang kuat untuk melindungi data Anda.
+Restic bukan utilitas penyalinan file sederhana. Ini terutama dibangun di atas dua konsep: snapshot dan repositori.  **Restic **  Solusi cadangan sumber terbuka menyimpan informasi sebagai snapshot, yang kemudian disimpan dalam repositori. Itu ditulis dalam bahasa pemrograman Go. ReStic GO Based Backup Utility dan Aplikasi Cadangan Sumber Terbuka bekerja dengan lancar dengan banyak sistem penyimpanan cloud dan backend lokal. Kode sumber perangkat lunak cadangan file sumber terbuka restic tersedia di [ **github ** ][8]. Namun, Anda dapat menemukan rinci [ **dokumentasi ** ][9] untuk instalasi dan penggunaan.
 Restic Self Hosted Cloud Backup mendukung out-of-the-box mengikuti backend untuk penyimpanan cadangan.
   * Direktori Lokal
   * SFTP Server (via SSH)
@@ -45,9 +45,9 @@ Restic Self Hosted Cloud Backup mendukung out-of-the-box mengikuti backend untuk
   * Backblaze B2
   * Microsoft Azure Blob Storage
   * Google Cloud Storage
-Anda dapat menggunakan [** rClone **][10] untuk berbagai backend selain yang tercantum di atas.
+Anda dapat menggunakan [ **rClone ** ][10] untuk berbagai backend selain yang tercantum di atas.
 
-Instalasi ## Restic {#installation}
+Instalasi ## Restic  {#installation}
 Ada berbagai cara untuk menginstal penyimpanan cloud yang di -host mandiri terbaik pada sistem operasi Ubuntu Anda. Kami akan mencakup pemasangan penyimpanan file restic yang di -host menggunakan paket Ubuntu, Docker, dan kode sumber.
 
 ### Menginstal Paket Menggunakan
@@ -63,7 +63,7 @@ $ docker pull restic/restic
 ```
 
 ### Menginstal Sumber Menggunakan
-  * Pertama, Anda perlu menginstal bahasa pemrograman Go untuk mengatur restic dari sumbernya. Anda dapat mengunjungi situs web resmi [** Golang **][11] untuk instruksi untuk menginstal GO.
+  * Pertama, Anda perlu menginstal bahasa pemrograman Go untuk mengatur restic dari sumbernya. Anda dapat mengunjungi situs web resmi [ **Golang ** ][11] untuk instruksi untuk menginstal GO.
   * Selanjutnya, jalankan perintah di bawah ini untuk menginstal restic cadangan tambahan.
 ```
 $ git clone https://github.com/restic/restic
@@ -77,7 +77,7 @@ $ go run build.go --goos freebsd --goarch 386
 $ go run build.go --goos linux --goarch arm --goarm 6
 ```
 
-## konfigurasi restic {#configuration}
+## konfigurasi restic   {#configuration}
 Seperti yang telah kami sebutkan di atas bahwa sistem cadangan open source restic didasarkan pada snapshot dan repositori untuk cadangan. Mari kita lihat cara mengatur repositori, ambil snapshot, dan kemudian kembalikan cadangan.
 
 ### Buat repositori
@@ -130,8 +130,8 @@ Restic adalah aplikasi perangkat lunak cadangan open source yang paling populer 
   * Kohesitas
 
 ## Kesimpulan
-Dalam artikel ini, kami membahas restic ** perangkat lunak cadangan open source gratis **. Kami juga membahas beberapa teknik instalasi, serta cara membuat cadangan dan cara mengembalikan cadangan. Ada banyak bentuk penyimpanan cadangan data lainnya, dan kami baru saja membahas satu di artikel ini. Jenis penyimpanan backend yang tersisa akan dibahas dalam publikasi mendatang. Kami berharap tutorial ini akan berfungsi sebagai titik awal bagi Anda untuk menggunakan alat cadangan open source terbaik untuk mengambil dan mengembalikan cadangan.
-Akhirnya, [** containerize.com **][12] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** cadangan ini **][13] untuk pembaruan terbaru.
+Dalam artikel ini, kami membahas restic  **perangkat lunak cadangan open source gratis ** . Kami juga membahas beberapa teknik instalasi, serta cara membuat cadangan dan cara mengembalikan cadangan. Ada banyak bentuk penyimpanan cadangan data lainnya, dan kami baru saja membahas satu di artikel ini. Jenis penyimpanan backend yang tersisa akan dibahas dalam publikasi mendatang. Kami berharap tutorial ini akan berfungsi sebagai titik awal bagi Anda untuk menggunakan alat cadangan open source terbaik untuk mengambil dan mengembalikan cadangan.
+Akhirnya, [ **containerize.com ** ][12] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [ **cadangan ini ** ][13] untuk pembaruan terbaru.
 _ Apa perangkat lunak cadangan gratis & open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang perangkat lunak cadangan open source?, Silakan_ [hubungi][14].
 
 ## Mengeksplorasi:

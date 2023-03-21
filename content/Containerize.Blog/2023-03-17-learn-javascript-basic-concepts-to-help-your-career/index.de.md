@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Überblick
 JavaScript ist eine Skriptsprache, die zur Entwicklung dynamischer webbasierter Anwendungen verwendet wird. Wir verwenden HTML und CSS, um statische Websites zu erstellen, während JavaScript zum Hinzufügen von Interaktivität verwendet wird. In unserem vorherigen Blog -Beitrag werden wir [Dokumentobjektmodell][1] behandelt und jetzt werden wir einige andere wichtige**JavaScript -Grundkonzepte**behandeln. Webentwickler entscheiden sich aufgrund ihrer reichhaltigen Funktionen und Frameworks tendenziell für diese Skriptsprache. Darüber hinaus können Sie am vorderen End- und hinteren Ende entwickelt, indem Sie JavaScript lernen. Sie können jedoch nicht nur Web -Apps, sondern auch mobile Apps entwickeln. Dieses JavaScript -Tutorial hilft Ihnen, wenn Sie sich auf eine Interviewsitzung vorbereiten. Trotzdem ist dieser Leitfaden gelesen, um mehr zu Ihrem Wissenseimer hinzuzufügen.
 Wir werden die folgenden Punkte in diesem Artikel behandeln:
-***[Was hebt in JavaScript][2]**
-***[Scopes in JavaScript][3]**
-***[JavaScript -Verschluss][4]**
+* **[Was hebt in JavaScript][2]**
+* **[Scopes in JavaScript][3]**
+* **[JavaScript -Verschluss][4]**
 
-## Was hebt sich in JavaScript {#What-is-Hoisting-in-JavaScript}}
+## Was hebt sich in JavaScript   {#What-is-Hoisting-in-JavaScript}}
 Das Phänomen der Funktion oder variable Deklaration neben dem aktuellen Bereich wird als Hebezeug bezeichnet. Dies ist ein sehr kritisches Konzept und die meisten JavaScript -Entwickler sind sich dessen nicht bewusst. Eine wichtige Sache zu beachten ist jedoch, dass nur Funktions-/Variablendeklarationen nach oben und nicht nach der Funktion/variablen Initialisierung gebracht werden.
 Nehmen wir ein Beispiel und sehen Sie den Code -Snippet unten.
 ```
@@ -51,7 +51,7 @@ let name;
 ```
 Der Fehler im obigen Code -Snippet trat auf. Der Grund dafür ist, dass die Initialisierung nicht durchgeführt wurde, während diese Variable gehoben wurde. Kurz gesagt, alle Erklärungen werden mit "undefiniert" initialisiert, während Variablen, die mit "let" oder "const" deklariert sind, bei Hebezeugen nicht initialisiert werden.
 
-## Scopes in JavaScript {#Scopes-in-JavaScript}
+## Scopes in JavaScript   {#Scopes-in-JavaScript}
 Der Umfang ist eines der JavaScript -Grundkonzepte, die ein Entwickler kennen muss. Die Arbeit mit JavaScript -Scopes ist jedoch nicht einfach und etwas anders. Daher gibt es drei Arten von Scopes in JavaScript, und diese sind wie folgt:
 **Blockebene**: Variablen, die mit "let" oder "const" deklariert sind, enthält den Bereich auf Blockebene.
 ```
@@ -79,7 +79,7 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## JavaScript-Verschlüsse {#JavaScript-Closures}
+## JavaScript-Verschlüsse   {#JavaScript-Closures}
 Dies ist ein weiteres wichtiges Konzept, das Ihr JavaScript -Wissen über Scopes und Datenkapselung stärkt. In der einfachsten Form wird eine Funktion in einer Funktion als Verschluss bezeichnet. Sie können die innere Funktion als Schließung aufrufen. Diese innere Funktion hat drei Arten von Umfang:
  * Es hat einen eigenen Umfang auf Blockebene.
  * Es hat Zugriff auf die Variablen des Elternteils.

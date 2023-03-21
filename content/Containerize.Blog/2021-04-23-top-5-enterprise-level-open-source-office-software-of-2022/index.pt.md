@@ -24,16 +24,16 @@ Além disso, os gerentes podem criar locais de trabalho compartilhados, onde pod
   * [Calligra][5]
   * [Conclusão][6]
 
-## Apache OpenOffice {#openoffice}
+## Apache OpenOffice   {#openoffice}
 O Apache OpenOffice Project (AOO) fornece um software de escritório de código aberto completo com base em padrões abertos. É a continuação do projeto OpenOffice.org. Este software gratuito do Office é uma das alternativas gratuitas do Microsoft Office. É também uma das suítes de escritório gratuitas mais populares no mundo de código aberto. Se você deseja trabalhar com documentos de texto, planilhas ou apresentações. É um nocaute para a maioria dos recursos que o Microsoft Office oferece. E isso é 100% livre. E essa alternativa do Microsoft Office não é apenas uma suíte de escritório gratuita e de código aberto, mas também é executado em todas as plataformas (Linux, Mac), não apenas no Windows.
 O Apache Open Office é desenvolvido no idioma de programação C ++ e todo o código -fonte, juntamente com a documentação do desenvolvedor, está disponível no [Github][7].
 
-## LibreOffice {#LibreOffice}
+## LibreOffice   {#LibreOffice}
 O LibreOffice é um software de escritório aberto e gratuito integrado com base em licenças de copyleft e compatível com a maioria dos formatos e padrões de documentos. Isso está entre as melhores ferramentas gratuitas de produtividade do escritório.
 Este software de escritório de código aberto é apoiado pela Document Foundation, que representa uma grande comunidade independente de empresas, desenvolvedores e outros voluntários movidos pelo objetivo comum de trazer ao mercado o melhor software de escritório gratuito.
 O LibreOffice é de código aberto e gratuito para baixar, usar e distribuir. Ele é desenvolvido na linguagem de programação C ++ e você pode revisar o código -fonte em [GitHub][8].
 
-## neooffice {#neooffice}
+## neooffice   {#neooffice}
 O NeoOffice é um software de escritório 100% gratuito e de código aberto e gratuito para MacOS. Esta é uma ótima alternativa do Microsoft Office. Se você está tentando mudar do software Microsoft, mas algo um pouco mais barato, que é 100% livre neste caso, o NeoOffice é uma ótima opção para você.
 O NeoOffice é baseado no LibreOffice e OpenOffice, portanto, também suporta o uso do Formato Opendocument (ODF), um formato de arquivo padronizado totalmente aberto e ISO que garante acesso aos seus dados para sempre. Se você é um usuário do MAC e procura uma alternativa gratuita do Microsoft Office para MacOS. Então, Neooffice é uma boa escolha para você.
 Aqui estão alguns dos recursos da neooffice
@@ -42,7 +42,7 @@ Aqui estão alguns dos recursos da neooffice
   * Suporte para serviços MAC
   * Bloqueio de arquivos nativos para editar arquivos de rede com segurança
 
-## FreeOffice {#FreeOffice}
+## FreeOffice   {#FreeOffice}
 O FreeOffice é uma suíte de escritório gratuito com recursos completos e uma versão gratuita do Softmaker Office. Este software de escritório de código aberto é uma das melhores ferramentas gratuitas de produtividade do escritório. Este conjunto de escritórios de código aberto inclui os três principais aplicativos necessários para qualquer software de produtividade do escritório.
 O TextMaker é uma alternativa gratuita ao Microsoft Word, o Planmaker é uma alternativa gratuita ao Microsoft Excel e as apresentações são uma alternativa gratuita ao Microsoft PowerPoint.
 Alguns dos destaques do livreoffice
@@ -51,7 +51,7 @@ Alguns dos destaques do livreoffice
   * É sua escolha: fitas ou menus clássicos
   * Otimizado para telas sensíveis ao toque
 
-## Calligra {#Calligra}
+## Calligra   {#Calligra}
 A Calligra Suite é um software de escritório de código aberto e de código aberto desenvolvido pela KDE. É uma coleção de software de produtividade do Office ligado por uma base comum. Isso garante que todos os pedidos de escritório possam funcionar juntos e também compartilhar uma aparência comum. É uma das boas alternativas de escritório de código aberto disponíveis para todas as principais plataformas. Vem com o desenho vetorial e aplicativos de banco de dados.
 Existem muitos softwares alternativos de escritório de código aberto disponíveis no mercado, como o Apache OpenOffice, LibreOffice, mas o Calligra Suite vem com o software de desenho vetorial adicional e um software de criador de aplicativos de banco de dados visual.
 Aqui estão alguns dos principais recursos do caligra
@@ -65,7 +65,7 @@ Aqui estão alguns dos principais recursos do caligra
   * Dockers móveis
   * Importação de arquivos do Microsoft Office
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Isso nos leva ao final deste post do blog. O software listado acima é o melhor software de escritório de código aberto e gratuito no momento atual. Além disso, essas suítes de escritório gratuitas de código aberto ajudam a negócios a atender às suas necessidades de produtividade do escritório. Passamos pelas 5 principais ferramentas de produtividade do escritório e que são respostas para sua pergunta sobre como melhorar a eficiência no trabalho? Felizmente, esta postagem do blog o ajudará a fazer a escolha certa, se você deseja instalar o software gratuito do Office para o seu negócio. Além disso, você pode encontrar mais software de escritório de código aberto e artigos relevantes mencionados na seção "Explorar" abaixo.
 Finalmente, [contenderize.com][9] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Software de produtividade do Office][10] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][11], [LinkedIn][12] e [Twitter][13].
 

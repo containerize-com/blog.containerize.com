@@ -16,13 +16,13 @@ categories: ['Game Development Software']
 
 ## Visão geral
 No passado, alguns artigos foram publicados na categoria [software de desenvolvimento de jogos][1], que inclui como a indústria global de jogos que alavancam o software de código aberto e o tutorial do GDevelop para iniciantes iniciarem o desenvolvimento de jogos. O desenvolvimento de videogames está muito mais espalhado por todo o mundo, com a crescente demanda por jogos divertidos. No entanto, envolve a idéia, desenvolvimento de design, testes contínuos, lançamentos e feedback. Em outras palavras, envolve designers, arquitetos de software, programadores, testadores e recursos de suporte. Além disso, existem muitos tipos de jogos como jogos de ação, jogos de quebra -cabeça, jogos de corrida, jogos cognitivos e um pouco mais.
-Portanto, é necessário um bom guia de desenvolvimento de jogos para começar a começar com qualquer construtor de jogos em 3D. A comunidade de código aberto desenvolveu muitos softwares de desenvolvimento de jogos que oferecem recursos e serviços públicos de nível corporativo para desenvolver jogos 3D e 2D. Este tutorial de desenvolvimento de jogos HTML5 explorará como desenvolver um videogame usando o software gratuito de desenvolvimento de videogames ** superpowers ** cobrindo os seguintes pontos.
-  *** [O que são superpowers][2] **
-  *** [Como configurar no host local?][3] **
-  *** [Painel de superpotências?][4] **
-  *** [Conclusão][5] **
+Portanto, é necessário um bom guia de desenvolvimento de jogos para começar a começar com qualquer construtor de jogos em 3D. A comunidade de código aberto desenvolveu muitos softwares de desenvolvimento de jogos que oferecem recursos e serviços públicos de nível corporativo para desenvolver jogos 3D e 2D. Este tutorial de desenvolvimento de jogos HTML5 explorará como desenvolver um videogame usando o software gratuito de desenvolvimento de videogames **superpowers**  cobrindo os seguintes pontos.
+  ***[O que são superpowers][2]** 
+  ***[Como configurar no host local?][3]** 
+  ***[Painel de superpotências?][4]** 
+  ***[Conclusão][5]** 
 
-## o que são superpowers {#intro}
+## o que são superpowers   {#intro}
 [Superpowers][6] é um software de código aberto para desenvolvimento de videogames. É flexível, robusto e extensível. No entanto, oferece suporte para animações, modelos 3D e uma ampla gama de exemplos de jogos. Além disso, ele também vem com uma versão offline em que os usuários podem criar jogos sem conectividade à Internet. A publicação de qualquer projeto é incrivelmente fácil e tudo o que acontece com um único clique. Há um painel intuitivo para os usuários em que os usuários podem navegar por vários elementos facilmente. Acima de tudo, há um relatório de erro ao vivo muito legal, onde mostra o erro ao desenvolvedor para evitar qualquer ambiguidade ou bug. O SuperPowers é fácil de configurar e requer mais requisitos fáceis de hospedar em servidores, este construtor de jogos em 3D está escrito no TypeScript e vem com toda a documentação sobre desenvolvimento e implantação. Portanto, todo o código -fonte está disponível no [Github][7].
 Superpowers oferece os seguintes pontos -chave:
   * Relatório de erro ao vivo
@@ -31,8 +31,8 @@ Superpowers oferece os seguintes pontos -chave:
   * Fonte rica e efeitos sonoros
   * Auto-hospedado
 
-## Como configurar o localhost? {#configurar}
-Se você ainda está se perguntando como desenvolver um videogame, nesta parte do artigo, aprenderemos a configurar superpotências no local -host. Nesta seção, este ** Guia de Desenvolvimento de Jogos ** elaborará o processo de configuração do ambiente de desenvolvimento de jogos.
+## Como configurar o localhost?   {#configurar}
+Se você ainda está se perguntando como desenvolver um videogame, nesta parte do artigo, aprenderemos a configurar superpotências no local -host. Nesta seção, este **Guia de Desenvolvimento de Jogos**  elaborará o processo de configuração do ambiente de desenvolvimento de jogos.
 Primeiro de tudo, verifique se você instalou os seguintes pré-requisitos antes de iniciar o desenvolvimento de videogames:
   * Git
   * npm
@@ -65,7 +65,7 @@ Agora abra o navegador e acesse o aplicativo no seguinte link:
 <a href="http://localhost:4237/">http://localhost:4237/</a>
 ```
 
-## Painel de superpowers? {#características}
+## Painel de superpowers?   {#características}
 Ao atingir o URL acima, você verá a seguinte página inicial. Existem opções para modificar ou criar um novo projeto de plataforma vazio ou 2D.
 
 {{< figure align=center src="images/Screenshot-2021-05-20-at-21.41.27-1024x577.png" alt="Desenvolvimento de videogames">}}
@@ -80,7 +80,7 @@ Além disso, há uma barra de configuração no lado esquerdo, onde você pode d
 
 Da mesma forma, depois de passar por este artigo de jogo, você pode explorá -lo ainda mais e usar todos os recursos. Além disso, você poderá entender como ir em frente usando o Superpowers Video Game Builder. Há suporte on -line disponível para este software de desenvolvimento de jogos.
 
-## ** CONCLUSÃO ** {#conclusion}
+## **CONCLUSÃO**    {#conclusion}
 Isso termina este guia de desenvolvimento de jogos HTML5. Felizmente, esta postagem do blog o ajudará se você deseja iniciar o desenvolvimento de videogames. Exploramos o que são superpotências, como desenvolver um videogame, que é um construtor de jogos 3D de código aberto e também passamos por seu procedimento de instalação no host local. Existem muitos aplicativos de design de videogame de código aberto ** que permitem que os usuários criem jogos do zero. Os programadores de videogame usam princípios essenciais de design de jogos para criar jogos de alta qualidade. Você aprenderá mais sobre a criação de jogos 2D e 3D em nossos próximos artigos em [blog.containerize.com][8]. Existem outros construtores de jogos em 3D de código aberto e auto-hospedados e artigos relevantes mencionados na seção "Explorar" abaixo.
 Finalmente, o CONTERIZE.COM está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [videogame][9][][10] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][11], [LinkedIn][12] e [Twitter][13].
 
@@ -91,12 +91,12 @@ Você pode encontrar os seguintes links relevantes:
   * [][14][Superpowers][6]
   * [][14][Cocos Creator][16]
   * [][14][panda3d][17]
-  *** [Introdução ao desenvolvimento de jogos usando superpowers][18] **
-  *** [Tutorial de desenvolvimento de jogos | Movimento do jogador em Gdevelo][19] **
-  *[** Como fazer um jogo no Scratch usando Gdevelo de código aberto **][20]
-  *** [Como a indústria global de jogos que alavancam o software de código aberto][21] **
-  *** [Tutorial do GDEVOLV para iniciantes para iniciar o desenvolvimento do jogo][22] **
-  *[** Top 5 Software de desenvolvimento de jogos gratuitos no ano 2021 **][23]
+  ***[Introdução ao desenvolvimento de jogos usando superpowers][18]** 
+  ***[Tutorial de desenvolvimento de jogos | Movimento do jogador em Gdevelo][19]** 
+  *[**Como fazer um jogo no Scratch usando Gdevelo de código aberto** ][20]
+  ***[Como a indústria global de jogos que alavancam o software de código aberto][21]** 
+  ***[Tutorial do GDEVOLV para iniciantes para iniciar o desenvolvimento do jogo][22]** 
+  *[**Top 5 Software de desenvolvimento de jogos gratuitos no ano 2021** ][23]
 
   
 [1]: https://blog.containerize.com/category/game-development-software/

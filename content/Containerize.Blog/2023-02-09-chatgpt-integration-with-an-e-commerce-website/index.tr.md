@@ -24,19 +24,19 @@ Aşağıda belirtilen adımları izleyerek ChatGPT entegrasyonunu ele alacağız
 * [**Ayarları Yapılandırma**][8]
 * [**test ve hata ayıklama**][9]
 
-## Adım 1: chatgpt nasıl entegre edilir {#nasıl entegrate chatgpt}
+## Adım 1: chatgpt nasıl entegre edilir   {#nasıl entegrate chatgpt}
 E-ticaret web sitenize**chatgpt entegrasyonu**elde edin ve kişiselleştirilmiş ürün önerilerinin ilk adımıdır. Bunu yapmak için, PHP'yi kullanarak [Openai API][10] 'a bir yanıt oluşturmak için gerekli bilgileri içeren bir istek göndermelisiniz. Bağlam, kullanıcı için tarama ve satın alma geçmişini içerebilir.
 
-## Adım 2: Kullanıcı Verilerini Mağaza {#Store-User-Data}
+## Adım 2: Kullanıcı Verilerini Mağaza   {#Store-User-Data}
 CHATGPT'nin kişiselleştirilmiş ürün önerileri oluşturması için kullanıcı verilerinin depolanması gerekir. Ancak, veriler kullanıcının tarama geçmişi ve satın alma işlemleri hakkında bilgi içerebilir. Bu nedenle, veriler yalnızca kişiselleştirilmiş ürün önerileri oluşturmak için güvenli bir şekilde depolanmalı ve kullanılmalıdır.
 
-## Adım 3: Ekran Önerileri {#Display-Recommentations}
+## Adım 3: Ekran Önerileri   {#Display-Recommentations}
 Bundan sonra, bir sonraki adım, chatgpt'i entegre ettikten ve gerekli kullanıcı verilerini sakladıktan sonra chatgpt tarafından üretilen ürün önerilerini görüntülemektir. Bu nedenle, ürün sayfasında veya web sitesinin ayrı bir bölümünde önerileri görüntüleyebilirsiniz.
 
-## Adım 4: Ayarları Yapılandır {#Configure-Settings}
+## Adım 4: Ayarları Yapılandır   {#Configure-Settings}
 ChatGPT’nin ürün önerilerinin doğru ve alakalı olduğundan emin olmak için uzantının yapılandırılması gerekir. Ayrıca, API uç nokta URL'lerini, API tuşlarını ve görüntülenecek önerilerin sayısını belirleyebilirsiniz.
 
-## Adım 5: Test ve Hata Ayıkla {#Test-and-Debug}
+## Adım 5: Test ve Hata Ayıkla   {#Test-and-Debug}
 Uzatmanın beklendiği gibi çalıştığından emin olmak için test edilmeli ve hata ayıklanmalıdır. Ayrıca, ChatGPT entegrasyonunun test edilmesini, kullanıcı verilerinin depolanmasını test etmeyi ve önerilerin görüntülemesini test etmeyi içerebilir.
 Her şeyden önce, kişiselleştirilmiş ürün önerileri oluşturmak için bir e-ticaret web sitesi**ile**chatgpt entegrasyonunun nasıl elde edileceğini uygulamak için aşağıdaki kod snippet'ini görebilirsiniz:
 {{< gist fahadadeel 53a1ae29d023baf8d90ed81ac2a55914 >}}

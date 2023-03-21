@@ -18,22 +18,22 @@ categories: ['Programming']
 ## 概述
 欢迎来到[JavaScript编程]系列中的另一篇令人兴奋的博客文章[1]。在本文中，我们将涉及网络开发的非常基本但必不可少的概念。是的，我们将在JavaScript中介绍文档对象模型。过去，我们发布了使用JavaScript语言开始开发的JavaScript教程。因此，我们建议您详细阅读此博客文章，以免您错过与这个重要概念有关的任何内容。让我们开始本指南，找出**JavaScript**，dom属性中的dom是什么，以及如何以编程方式与IT进行交互。
 我们将在本JavaScript指南中介绍以下主题：
-***[什么是文档对象模型（DOM）？][2]**
-***[DOM级别][3]**
-***[什么是域属性以及如何访问它们？][4]**
+* **[什么是文档对象模型（DOM）？][2]**
+* **[DOM级别][3]**
+* **[什么是域属性以及如何访问它们？][4]**
 
-## 什么是文档对象模型（DOM）？ {#什么is-document-Object-Model}
+## 什么是文档对象模型（DOM）？   {#什么is-document-Object-Model}
 DOM代表？**文档对象模型（DOM）**是Web浏览器中网页的表示。简而言之，浏览器中HTML文档元素的分层表示称为文档对象模型。它是由Web浏览器实际生成的树状形成的。它由各种节点组成，它们相互连接，形成树状。此外，DOM元素还附带了属性和事件。
 实际上，DOM是一个编程界面，该界面旨在制定网页的逻辑结构，并决定访问页面元素的方式。基本上，JavaScript无法识别HTML标签，例如标题，H1和等。因此，一旦将HTML文档加载到Web浏览器中，创建了DOM，则可以使JavaScript了解文档元素。
 
-## dom Level {#dom-levels}
+## dom Level   {#dom-levels}
 本节将展示DOM的各个级别。首先，浏览器中的窗口对象总是在顶部，然后有一个文档节点。让我们看一下下图：
 
 {{< figure align=center src="images/DOM.png" alt="DOM级别">}}
 
 好吧，您可以看到上图中的DOM元素。窗口和文档是顶级浏览器对象，然后我们将HTML元素作为根。继续前进，我们有头部和身体节点，标题节点属于头节点，并且身体节点包含在Web浏览器中呈现和可见的所有节点。此外，身体元素包含我们可以在图像中看到的属性，例如包含“ HREF”属性的锚标记。同样，其他DOM节点包含各种属性，例如IMG，META等。
 
-## 什么是dom属性以及如何访问它们？ {#什么 -  dom-properties and-wow-wow-wow-wow-to-access-them}
+## 什么是dom属性以及如何访问它们？   {#什么 -  dom-properties and-wow-wow-wow-wow-to-access-them}
 到目前为止，我们已经对JavaScript和DOM级别中的DOM提出了答案，并且我们也经历了DOM节点。在本节中，我们将浏览DOM属性，并将看到如何与它们进行交互。每个DOM元素都有一个链接到它的值，例如“ P”标签具有文本属性，IMG标签具有图像等。 JavaScript方法用于访问节点的值。此外，您可以将/删除事件侦听器添加到DOM元素中。
 您可以找到以下**dom属性**：
 **innerhtml**：此属性用于设置或获取DOM节点的HTML内容。

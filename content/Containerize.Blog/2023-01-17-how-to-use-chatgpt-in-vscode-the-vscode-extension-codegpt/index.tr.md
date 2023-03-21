@@ -23,10 +23,10 @@ Aşağıdaki noktaları ele alacağız:
 * [**Openai API tuşunu alın ve GPT kodunu yapılandırın**][9]
 * [**GPT kodunu kullanmaya başlayın-AI ile çalışan bir Openai Kod Jeneratörü**][10]
 
-## Kod GPT nedir? {#What-IS-Codegpt}
+## Kod GPT nedir?   {#What-IS-Codegpt}
 [Kodu GPT][3], editör içindeki düz metinden kod snippet'leri oluşturmanızı sağlayan bir**Visual Studio Kodu Uzantısıdır. Bu**Openai Kod Jeneratörü**, doğal dilin yanıtlarını işlemek ve oluşturmak için Openai API'sine dayanmaktadır. Bununla birlikte, Kod GPT, önceden eğitilmiş bir model olan GPT-3'ün üstüne inşa edilmiştir, bu nedenle GPT koduna yapılan her istek GPT-3 tarafından işlenir ve bu model birden fazla durumu benimseyecek kadar akıllıdır. Buna ek olarak, bu**VSCODE Uzantısı**, kod oluşturma ile birlikte kod snippet'lerini refrakter ve geliştirmenizi sağlar. Aslında, tüm ortam size Visual Studio kodu düzenleyicisinde [chatgpt][11] kullandığınızı tam olarak hissi verir.
 
-## VSCODE Uzatma Kodu GPT nasıl yüklenir? {#VSCODE-Extension-Codegpt}
+## VSCODE Uzatma Kodu GPT nasıl yüklenir?   {#VSCODE-Extension-Codegpt}
 Bu bölümde,**VSCODE Uzantı Kodu GPT yükleme adımlarını gözden geçireceğiz.**Bu amaçla, makinenize Visual Studio Kodu yüklediğinizden emin olun. Bu uzantıyı**[VSCode Marketplace][12]**'den kolayca yükleyebilirsiniz.
 VSCODE düzenleyicisini açın, “Uzantılar” a girin ve GPT kodunu arama çubuğuna yazın. CodeGPT adıyla birçok uzantısı olacak, ancak uzantıyı aşağıdaki resimde gösterildiği gibi yüklemeniz gerekiyor:
 
@@ -34,7 +34,7 @@ VSCODE düzenleyicisini açın, “Uzantılar” a girin ve GPT kodunu arama çu
 
 Bir uyumluluk hatası almanız durumunda lütfen VSCODE'yi en son sürüme güncelleyin. Ayrıca, bu VSCODE uzantısı tutarlı bir gelişme altındadır, böylece anormal davranış şansı atlanamaz.
 
-## Openai API tuşunu ve yapılandırın Kodu GPT {#Retrieve-Openai-Api-Key-Konfigure-Codegpt-}
+## Openai API tuşunu ve yapılandırın Kodu GPT   {#Retrieve-Openai-Api-Key-Konfigure-Codegpt-}
 Kurulum tamamlandıktan sonra, bir sonraki adım API anahtarını Openai’nin [web sitesi][13] 'den almaktır.**kodu gpt uzantısının özelliklerini etkinleştirmek için bu API tuşuna ihtiyacınız var**. API'yi elde etmek için bu [link][13] adresini ziyaret edin ve zaten oluşturulmadıysa bir hesap oluşturun.
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="Oepnai API">}}
@@ -48,7 +48,7 @@ Yukarıdaki resimde “Yeni Gizli Anahtar Oluştur” düğmesini görebilirsini
 
 Her şey başarılı bir şekilde yapıldıktan sonra, Visual Studio kodunuza**Kodu GPT Extension**yüklü olacaksınız. Bir sonraki bölümde, bu VSCODE uzantısının sunduğu özellikleri araştırmak için daha da derinleşeceğiz.
 
-## GPT kodunu kullanmaya başlayın-AI ile çalışan bir Openai Kod Jeneratörü {#Start-kullanma-Codegpt --- AI-Ai-Powered-Openai Kodu Generator}
+## GPT kodunu kullanmaya başlayın-AI ile çalışan bir Openai Kod Jeneratörü   {#Start-kullanma-Codegpt --- AI-Ai-Powered-Openai Kodu Generator}
 Şimdiye kadar, Visual Studio kodunda GPT Extension kodunu kurduk. Bu**VSCODE Uzatma Kodu GPT**'dan yararlanmak için “Komut+Shift+P” tuşuna basın. Aşağıdaki resimde gösterildiği gibi kenar çubuğunda yanıt:
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="vscode için chatgpt">}}

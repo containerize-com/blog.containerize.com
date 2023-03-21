@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Ringkasan
 Kami membahas [JavaScript janji][1] Dalam posting blog kami sebelumnya dan Anda harus mengunjungi jika Anda ingin mendapatkan pemahaman yang jelas tentang konsep di balik janji JavaScript. Dalam seri ini [tutorial JavaScript][2], kami di sini dengan panduan JavaScript lain yang akan menunjukkan fitur modern dari JavaScript Async/Await. Posting blog ini untuk mereka yang memiliki pengetahuan sebelumnya tentang janji JavaScript. Lebih lanjut, kami akan mencoba membahas**apa itu async/menunggu di javascript**, dan ketika kami perlu menggunakan async/menunggu. Selain itu, kami juga akan membahas kesalahan penanganan dengan async/menunggu. Jadi, berikan bacaan menyeluruh untuk tutorial**JavaScript Async/Await**untuk menandai konsep ini diperiksa.
 Kami akan melalui bagian berikut dalam tutorial JavaScript Async Await ini:
-***[Apa itu Async/Await di JavaScript | Async menunggu sintaks][3]**
-***[Kapan menggunakan async/menunggu?][4]**
-***[Penanganan kesalahan dengan async/menunggu][5]**
+* **[Apa itu Async/Await di JavaScript | Async menunggu sintaks][3]**
+* **[Kapan menggunakan async/menunggu?][4]**
+* **[Penanganan kesalahan dengan async/menunggu][5]**
 
-## Apa itu async/menunggu di JavaScript | Async menunggu sintaks {#what-is-asyncait-in-javascript-async-aakait-syntax}
+## Apa itu async/menunggu di JavaScript | Async menunggu sintaks   {#what-is-asyncait-in-javascript-async-aakait-syntax}
 ECMascript 2017 merilis fitur baru JavaScript dan Async/Await adalah salah satu yang paling banyak digunakan di antara fitur -fitur ini. Async/Await dibangun di atas janji -janji dan sebenarnya cara modern untuk menangani janji JavaScript.
 Mari kita lihat cara menggunakan kata kunci Async/Await dalam kode JavaScript:
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 Nah, kata kunci async di awal fungsi menyiratkan bahwa fungsi ini akan mengembalikan janji. Jadi, tunggu kata kunci selalu digunakan di dalam tubuh fungsi async untuk menjeda eksekusi fungsi sampai janji diselesaikan. Yang penting untuk dicatat di sini adalah bahwa Anda tidak dapat menggunakan kata kunci menunggu di dalam tubuh fungsi reguler. Namun, Anda dapat menggunakan menunggu hanya dengan fungsi asinkron yang dinyatakan dengan kata kunci async.
 
-## Kapan Menggunakan Async/Await? {#BAPA-GUNAKAN-ASYNCAWAIT}
+## Kapan Menggunakan Async/Await?   {#BAPA-GUNAKAN-ASYNCAWAIT}
 Sejauh ini, Anda memiliki jawaban untuk**apa yang ditunggu async di javascript**. Karena ini hanya pembungkus di sekitar janji JavaScript tradisional sehingga Anda lebih baik menggunakan cara baru ini untuk membuat dan menangani janji dengan cara yang lebih bersih dan mudah dibaca. Selain itu, Anda dapat menyingkirkan beberapa janji. Kata kunci yang menunggu merangkum pernyataan .then () ke dalam satu baris.
 
-## Penanganan kesalahan dengan Async/Await {#error-handling-with-asyncaWait}
+## Penanganan kesalahan dengan Async/Await   {#error-handling-with-asyncaWait}
 Penanganan kesalahan adalah tugas penting dalam hal pengembangan perangkat lunak tingkat perusahaan. Ada beberapa cara untuk menangkap kesalahan dalam pendekatan async/menunggu.
 
 {{< figure align=center src="images/async-await.png" alt="Coba tangkap async menunggu javascript">}}

@@ -21,7 +21,7 @@ Cubriremos las siguientes secciones en esta publicación de blog:
   * [Instalación del complemento][3]
   * [Pensamientos finales][4]
 
-## Descripción: {#description}
+## Descripción:   {#description}
 WordPress y Rocket.Chat Integration le permite colocar el widget de chat en vivo en sitios basados ​​en WordPress. WordPress Live Chat permite a los clientes colaborar con su soporte o agentes de ventas en tiempo real con un solo clic. La comunicación instantánea ayuda a los clientes una resolución rápida de sus consultas y acelera la toma de decisiones. Por lo tanto, esta solución puede ayudarlo a ganar nuevos clientes con un cambio más rápido, así como a mejorar la satisfacción y la lealtad de los clientes existentes.
 
 ## Funciones funciones}
@@ -34,7 +34,7 @@ WordPress y Rocket.Chat Integration le permite colocar el widget de chat en vivo
   * Chat de equipo
   * Traducción en tiempo real
 
-## Instalación del complemento: {#plugin}
+## Instalación del complemento:   {#plugin}
   1. Vaya al tablero de administración de su sitio de WordPress.
   2. Luego muévase a los complementos.
   3. Luego instale el siguiente complemento: [Rocket.Chat Livechat][5]
@@ -47,7 +47,7 @@ WordPress y Rocket.Chat Integration le permite colocar el widget de chat en vivo
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="Solución de mensajería instantánea de WordPress usando Rocket.Chat">}}
 
 
-## Pensamientos finales: {#Conclusion}
+## Pensamientos finales:   {#Conclusion}
 Worpress y Rocket.Chat Integration genera confianza y relaciones con sus clientes a través de conversaciones en tiempo real. WordPress Instant Messaging puede proporcionar un impulso rápido a su negocio. Comuníquese con sus clientes utilizando la función de chat en vivo. También puede colaborar con sus compañeros de equipo utilizando la función de chat de equipo. Esto mejorará la productividad discutiendo y compartiendo ideas con chat en tiempo real.
 
 ## Explorar:

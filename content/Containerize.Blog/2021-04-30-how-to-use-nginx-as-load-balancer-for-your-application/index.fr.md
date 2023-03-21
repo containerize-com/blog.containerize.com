@@ -15,17 +15,17 @@ categories: ['Web Server Solution Stack']
 
 Les sites Web modernes à haut trafic servent des centaines de milliers et, dans certains cas, des millions de demandes simultanées d'utilisateurs ou de clients et renvoient les données de texte, d'images, de vidéo ou d'applications correctes, le tout de manière rapide et fiable. Pour répondre aux besoins de ces volumes élevés et une puissance de calcul, vous avez besoin de plus de serveurs. Avec plus de serveurs, vous avez besoin d'un moyen d'équilibrer le trafic entre ces serveurs. Dans ce didacticiel de blog, nous explorerons ce qu'est un équilibreur de charge et comment nous pouvons utiliser Nginx comme équilibreur de charge.
 Pour configurer l'équilibrage de la charge de Nginx en tant que condition préalable, vous devrez avoir au moins deux hôtes avec un logiciel de serveur Web installé et configuré pour voir les avantages de l'équilibrage de charge avec Nginx. Si vous avez déjà une configuration d'hôte Web en cours d'exécution, dupliquez-la en créant une image personnalisée et en le déploie sur un nouveau serveur Web. Alors, apprenons comment configurer l'étape par étape de la configuration d'équilibrage de la charge de charge Nginx pour vos serveurs cloud.!
-  * ** [Ninx Web Server][1] **
-  * ** [Balancer de charge][2] **
-  * ** [Configuration nginx comme équilibreur de charge (Round Robin)][3] **
-  * ** [sur différentes directives en amont][4] **
-  * ** [Conclusion][5] **
+  * **[Ninx Web Server][1]** 
+  * **[Balancer de charge][2]** 
+  * **[Configuration nginx comme équilibreur de charge (Round Robin)][3]** 
+  * **[sur différentes directives en amont][4]** 
+  * **[Conclusion][5]** 
 
-## Ninx Web Server {#WebServer}
+## Ninx Web Server   {#WebServer}
 Nginx est un serveur Web open-source haute performance. En plus de ses capacités de serveur HTTP, Nginx peut également fonctionner comme un serveur proxy pour l'e-mail (IMAP, POP3 et SMTP) et un proxy inverse et pour équilibrer les charges Nginx pour les serveurs HTTP, TCP et UDP. Il améliore les performances, la fiabilité et la sécurité de vos applications. Il est populaire pour son ensemble de fonctionnalités riches, sa configuration simple et sa faible consommation de ressources.
 Comment fonctionne Nginx? Nginx est couramment utilisé comme un équilibreur de charge proxy inversé NGINX comme point d'entrée unique à une application Web distribuée fonctionnant sur plusieurs serveurs distincts. Il utilise une approche asynchrone et axée sur des événements pour offrir une faible utilisation de la mémoire et une concurrence élevée. Vous pouvez en savoir plus sur Nginx [ici][6].
 
-## Balancer de chargement {#loadBalancer}
+## Balancer de chargement   {#loadBalancer}
 L'équilibrage de charge est le processus de distribution du trafic réseau sur plusieurs serveurs. Et le «logiciel» ou «matériel» qui effectue ce processus de distribution est appelé équilibreur de chargement. Un équilibreur de charge est comme un «flic de la circulation» devant vos serveurs et les demandes du client de routage sur tous les serveurs. Il garantit que votre demande reste opérationnelle même si l'un des serveurs baisse.
 
 {{< figure align=center src="images/223F67DC-2518-4CDD-883A-7DAF3C78A7CC.png" alt="nginx comme équilibreur de charge">}}
@@ -35,7 +35,7 @@ Les fonctions principales d'un équilibreur de charge sont suivantes:
   * Assure la haute disponibilité et la fiabilité en envoyant des demandes uniquement aux serveurs en ligne
   * Offre la flexibilité d'ajouter ou de soustraire les serveurs à mesure que la demande dicte
 
-## Configuration Nginx en tant qu'équilibreur de charge {#SetUp}
+## Configuration Nginx en tant qu'équilibreur de charge   {#SetUp}
 Avant de configurer l'équilibrage de la charge de Rinx Round Robin, vous devez faire installer Nginx sur votre serveur. Vous pouvez l'installer rapidement avec Apt-get:
 ```
 sudo apt-get install nginx
@@ -67,7 +67,7 @@ sudo service nginx restart
 ```
 Tant que vous avez tous les serveurs en place, vous devez maintenant constater que l'équilibreur de charge Open Source Nginx commencera à distribuer les visiteurs aux serveurs également. Cette distribution égale est appelée l'équilibrage de la charge du Round-Robin.
 
-## Directives en amont {#upstream}
+## Directives en amont   {#upstream}
 Dans notre dernier exemple, nous avons utilisé un module simple en amont pour faire l'équilibrage de la charge du Round-Robin pour distribuer le trafic également entre les serveurs. Cependant, il existe de nombreuses raisons pour lesquelles cela n'est peut-être pas le moyen le plus efficace de travailler avec le trafic. Il existe plusieurs directives que nous pouvons utiliser pour diriger plus efficacement les visiteurs du site.
 
 ### Lester
@@ -106,7 +106,7 @@ upstream backend  {
 }
 ```
 
-## Conclusion: {#conclusion}
+## Conclusion:   {#conclusion}
 Dans ce didacticiel d'équilibrage de charge Nginx, nous avons appris NGIX, l'équilibrage de charge et comment configurer Nginx Load Balancer pour distribuer votre trafic à plusieurs serveurs. Nous avons également exploré différents algorithmes d'équilibrage de charge comme la ronde-robin, le hachage et les échecs Max. Si vous exécutez une application avec un volume élevé et que vous devez distribuer la charge sur différents serveurs, Nginx est l'un des meilleurs choix pour vous. Et surtout, il s'agit du serveur Web 100% gratuit et open source.
 _Pour peut se joindre à nous sur [Twitter][7], [LinkedIn][8] et notre page [Facebook][9]. Quel autre équilibreur de charge puissant pour améliorer la disponibilité et l'efficacité des ressources de vos serveurs __ "utilisez-vous? . Si vous avez des questions ou des commentaires, veuillez vous contacter][10].
 

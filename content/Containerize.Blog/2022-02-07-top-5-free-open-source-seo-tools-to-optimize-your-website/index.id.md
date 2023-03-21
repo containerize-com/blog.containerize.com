@@ -69,7 +69,7 @@ Yoastseo membantu pengguna melihat bagaimana halaman mereka akan terlihat di mes
   * Tentukan judul SEO dan deskripsi meta untuk setiap halaman baru yang Anda terbitkan.
   * Yoast SEO secara otomatis menambahkan tag kanonik ke semua konten yang ditandai untuk pengindeksan.
 
-## ** pemikiran terakhir: ** {#4a1a}
+## **pemikiran terakhir:**    {#4a1a}
 Lima platform SEO open source yang disebutkan di atas adalah solusi yang fleksibel. Dalam komputasi awan, Anda akan menemukan banyak solusi penyimpanan cloud pribadi sumber terbuka tetapi menemukan yang paling andal adalah yang paling penting. Anda atau kebutuhan organisasi Anda yang menentukan pemilihan perangkat lunak cloud. Saya harap artikel ini akan membantu Anda mengatur server cloud pribadi yang aman dan andal atau memilih layanan cloud terbaik untuk menyimpan gambar, musik, film, dan dokumen berharga Anda.
 _Apakah alat SEO Sumber Favourite_ _Open Anda & alat pemasaran mesin pencari populer? Jika Anda memiliki pertanyaan, silakan_ [hubungi kami][1].
 

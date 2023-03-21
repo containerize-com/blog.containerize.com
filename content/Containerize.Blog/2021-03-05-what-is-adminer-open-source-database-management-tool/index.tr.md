@@ -21,11 +21,11 @@ Bu nedenle, açık kaynaklı topluluk, kurumsal düzeyde ücretsiz bir veritaban
   * [Veritabanlarını Yönetici Yönetin][5]
   * [Sonuç][6]
 
-## Adminer nedir? {#Ne}
+## Adminer nedir?   {#Ne}
 Hafif, kullanıcı dostu, yüksek performanslı MySQL veritabanı yönetim aracı söz konusu olduğunda, Adminer geniş popülerlik kazanmış ve phpmyAdmin ile karşılaştırıldığında birçok iyileştirme sunar. Başlangıçta, bu veritabanı yönetim aracı Jakub Vrana tarafından 2007 yılında PhpmyAdmin'e alternatif olarak geliştirilmiştir, böylece tek yapmanız gereken uygulamanızın veritabanına tek, hafif bir PHP dosyasını indirmek ve yüklemektir.
 Açık kaynaklı bir veritabanı yönetim aracı olarak, kullanımı ücretsizdir ve PHP'de yazılmıştır. Bu web tabanlı veritabanı yönetim sistemini birbirinden ayıran şey, kesintisiz bir kullanıcı deneyimi için iyi bir kullanıcı arayüz tasarımı ve verileri herhangi bir saldırıdan veya kötü niyetli hack denemelerinden korumak için güçlü güvenlik özellikleridir. Bu veritabanı yönetim aracının ayarlanması kolaydır ve Ubuntu ve lamba gibi basit gereksinimler gerektirir. Kullanıcılar geliştirme ve dağıtım ile ilgili kapsamlı belgeler bulabilirler. Bu nedenle, bu web tabanlı veritabanı yönetim sisteminin kaynak dosyalarını [GitHub][7] 'de bulabilirsiniz.
 
-## Yöneticinin Önemli Özellikleri {#Important}
+## Yöneticinin Önemli Özellikleri   {#Important}
 Bu veritabanı yönetim aracının bazı temel ama önemli özellikleri şunlardır:
   * Seçim veritabanı, tabloları düzenleme, tablolara verileri ekle/düzenleme ve verileri birden çok sütunda sıralama/arama gibi birçok veritabanı işlevine sahiptir.
   * MySQL, PostgreSQL, SQLITE, MS SQL, Oracle ve SimpledB veritabanları ve daha fazlası dahil olmak üzere birden çok veritabanını destekler
@@ -33,10 +33,10 @@ Bu veritabanı yönetim aracının bazı temel ama önemli özellikleri şunlard
   * Görünümler, tetikleyiciler, saklı yordamlar, kullanıcı izinleri ve daha fazlası gibi veritabanı nesnelerini kolayca düzenleyebilirsiniz.
   * Adminer ayrıca SQL enjeksiyonu, oturum çalma, site komut dosyası (XSS) yazılım saldırıları ve diğer saldırılara karşı güvenlik önlemleri de sağlar.
 
-## Yönetici vs phpmyadmin {#adminer}
+## Yönetici vs phpmyadmin   {#adminer}
 Dolayısıyla, admin ne olduğu hakkında konuştuğumuzda, Adminer ile Phpmyadmin arasındaki karşılaştırmayı bilmek ilginç olurdu. Yönetici ve phpmyadmin arasında seçim söz konusu olduğunda, yönetici esnek özellikler ve sağladığı ışık dosya yüklemesi için üstte gelir. Benzer şekilde, PhpmyAdmin ile karşılaştırıldığında, MySQL, SQLITE ve diğerleri dahil olmak üzere birden fazla veritabanını destekler. Benzer şekilde, yöneticinin otomatik olarak yaptığı ek alanlar ekleme veya aynı anda tüm dizinlerle manipülasyon söz konusu olduğunda PhpmyAdmin'den daha sezgisel ve daha akıllıdır.
 
-## Veritabanlarını Yönetici ile Yönetin {#Manage}
+## Veritabanlarını Yönetici ile Yönetin   {#Manage}
 Bu Yönetim Eğiticisi bölümünde, veritabanlarını Yönetici ile nasıl yönetebiliriz.
 **Sistem gereksinimleri**
 Yöneticinin sisteminizde çalışması için, sunucunuzda zaten ayarlanmış aşağıdaki gereksinimlere sahip olmanız önemlidir:
@@ -44,12 +44,12 @@ Yöneticinin sisteminizde çalışması için, sunucunuzda zaten ayarlanmış a�
   * MySQL, SQLITE, PostgreSQL vb.
 **Kurulum**
 Bu iki sistem gereksinimini kontrol ettirdiyseniz, dosyayı [][8] 'den indirin ve PHP dosyasını sunucunuza yükleyerek başlayın. XAMPP sunucusu için, indirilen dosyayı “Adminer.php” olarak yeniden adlandırın ve bu dosyayı HTDOCS klasörüne koyun.
-** Kullanıcı arayüzüne erişim **
+**Kullanıcı arayüzüne erişim** 
 Bunu yaptıktan sonra yönetici nedir? Şimdi bu uygulamaya HTTP: IP-Adres/Adminer.php'den gösterildiği gibi erişin:
 {{_LINE_42_}}
 **Sunucuya bağlan**
 Sunucunuzun kullanıcı adını ve şifresini kullanarak bu ücretsiz veritabanı yönetim aracına giriş yapın. Şimdi yalnızca bir veritabanına erişmek istiyorsanız adını girin. Sunucuda zaten var olan tüm veritabanlarına erişmek için bu alanı boş bırakabilirsiniz.
-** Veritabanlarını Yönet **
+**Veritabanlarını Yönet** 
 Girişten sonra, mevcut tüm veritabanlarınızın bir listesini göreceksiniz. Yönetmek için herhangi bir veritabanına tıklayın.
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-2-1024x449.png" alt="Veritabanlarını Yönetici Veritabanı Yönetim Aracı ile Yönetin">}}
@@ -58,18 +58,18 @@ Bir sonraki ekranda, seçilen tüm veritabanlarının tüm tablolarının listes
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-5-1024x534.png" alt="Veritabanı Yönetim Aracı">}}
 
-** Yeni veritabanı oluştur **
+**Yeni veritabanı oluştur** 
 Yeni bir veritabanı oluşturmak için “Veritabanı Oluştur” u tıklayın, veritabanı adını girin ve “Kaydet” i tıklayın.
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-3-1024x370.png" alt="Veritabanı Yönetim Aracı">}}
 
-** Kayıtları ekleyin/güncelle **
+**Kayıtları ekleyin/güncelle** 
 Bir tabloya yeni kayıtlar eklemek oldukça basittir. Sizi ekran ekranına yönlendirecek yeni öğe bağlantısını tıklayın. Burada, veri türü ile birlikte tablodaki tüm sütunlar için yeni veriler ekleyebileceksiniz, böylece yeni veriler eklemek hızlı bir işlemdir.
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-4-1024x462.png" alt="Yönetici vs phpmyadmin">}}
 
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu bizi bu Yönetim Eğiticinin sonuna getirir. Bu açık kaynak web tabanlı veritabanı yönetim sisteminin Adminer, Adminer vs PhpmyAdmin ve diğer yönleri gibi bazı önemli konulardan geçtik. Umarım, bu blog yazısı, açık kaynaklı bir veritabanı yönetim aracı kurmak istiyorsanız kesinlikle size yardımcı olacaktır. Sezgisel, akıllı ve kullanımı kolay arayüz, onu çok popüler bir veritabanı yönetim aracı haline getirir. Ayrıca, MySQL, SQLITE, MongoDB ve çok daha fazlası dahil olmak üzere birçok veritabanını ve kötü niyetli hack olaylarını korumak ve önlemek için güvenlik önlemleri destekler. Sonuçta, bu veritabanı yönetim aracı sadece açık kaynak değil, aynı zamanda kullanımı ücretsizdir.
 Son olarak, [Containerize.com][9] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Veritabanı Yönetimi Araçları][10] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 

@@ -18,10 +18,10 @@ categories: [ 'Artificial intelligence']
 ## Überblick
 Hallo Leser! Vielen Dank für Ihre überwältigende Antwort auf die Blog -Beiträge, die wir in [CHATGPT][1] Integrationen veröffentlicht haben. Wir sind hier mit einem weiteren nützlichen**CHATGPT -Tutorial**nach Ihrem Interesse. Darüber hinaus werden wir in einer Schleife sein, um Artikel zu veröffentlichen, die für Ihre Akademiker und Ihre Karriere von Vorteil sind. Wir haben jedoch eine [Serie][20] von JavaScript -Tutorials gestartet, daher ist es der beste Zeitpunkt, um einen Leitfaden zu schreiben, der zeigt, wie Chatgpt in JavaScript AQPP**programmatisch integriert wird. Darüber hinaus werden wir den Code-Snippet schreiben, um diese GPT-3-basierte**virale Chatbot**-Funktionalität zu erstellen. Zu diesem Zweck ermöglichen wir die ChatGPT -Funktionalität in einer Node.js -App. Daher ist ein grundlegendes Maß an Vorkenntnis von Node.js ein Plus, wenn Sie diesen Leitfaden durchlaufen.
 Die folgenden Abschnitte werden in diesem ChatGPT -Tutorial behandelt:
-***[Voraussetzungen - Chatgpt JavaScript -Wrapper][2]**
-***[CHATGPT -Integration mit node.js Anwendung][3]**
+* **[Voraussetzungen - Chatgpt JavaScript -Wrapper][2]**
+* **[CHATGPT -Integration mit node.js Anwendung][3]**
 
-## Voraussetzungen-Chatgpt JavaScript-Wrapper {#Voraussetzungen --- Chatgpt-Javascript-Wrapper-}
+## Voraussetzungen-Chatgpt JavaScript-Wrapper   {#Voraussetzungen --- Chatgpt-Javascript-Wrapper-}
 Dieser Abschnitt zeigt die Anforderungen, die erforderlich sind, um die ChatGPT-Integration in eine node.js-basierte Anwendung zu ermöglichen. Die Anforderungen sind unkompliziert und einfach auf Ihrem System zu installieren.
 Im Folgenden finden Sie die Voraussetzungen, um diese Chatgpt-JavaScript-Integration zu üben:
 
@@ -31,7 +31,7 @@ Im Folgenden finden Sie die Voraussetzungen, um diese Chatgpt-JavaScript-Integra
 Sobald die oben genannten Voraussetzungen installiert sind, besteht der nächste Schritt darin, einen OpenAI -API -Schlüssel zu erhalten. Dieser Schlüssel wird verwendet, um API -Anfragen programmgesteuert an das ChatGPT zu stellen. Bitte besuchen Sie diesen [Link][6], um zu erfahren, wie Sie den OpenAI -API -Schlüssel erhalten, falls Sie das Verfahren nicht kennen.
 Bitte halten Sie Ihren API -Schlüssel an einem sicheren Ort und das ist alles für die Anforderungensphase.
 
-## CHATGPT-Integration mit node.js Anwendung {#Chatgpt-Integration-with-node.js-Application}
+## CHATGPT-Integration mit node.js Anwendung   {#Chatgpt-Integration-with-node.js-Application}
 Jetzt sind wir alle auf**in die JavaScript -App integrieren.**Öffnen Sie zuerst den Terminal und führen Sie den folgenden Befehl aus:
 ```
 npm i chatgpt

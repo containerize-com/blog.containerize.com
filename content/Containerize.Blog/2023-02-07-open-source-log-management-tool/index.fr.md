@@ -19,16 +19,16 @@ Ce billet de blog est pour vous, que vous soyez un développeur ou un [DevOps][1
 Les points suivants seront couverts dans cet article:
   * [**Qu'est-ce qu'un système de gestion des journaux?**][3]
   * [**Défis attachés avec la gestion du journal des événements**][4]
-  ***[Comment un outil de gestion des journaux open source peut aider?][5]**
+  * **[Comment un outil de gestion des journaux open source peut aider?][5]**
 
-## Qu'est-ce qu'un système de gestion des journaux? {# What-is-a-log-management-system}
+## Qu'est-ce qu'un système de gestion des journaux?   {# What-is-a-log-management-system}
 En termes simples, un système de gestion de journal**(LMS)**est un logiciel qui collecte les données de journal et effectue diverses opérations sur ces données. De plus, l'outil de surveillance de la connexion****trie les données collectées, effectue des algorithmes d'analyse, puis prend des décisions concernant la rétention des données enregistrées. De plus, un**LMS (Système de gestion des journaux)**génère un rapport complet après avoir examiné les fichiers journaux du serveur qui indiquent les vulnérabilités, les menaces et les lacunes de sécurité. Ainsi, en un mot, des outils d'exploitation et de surveillance automatisent**la gestion du journal des événements**qui donne finalement un avantage concurrentiel au logiciel commercial.
 
 {{< figure align=center src="images/logs.png" alt="Système de gestion des journaux open source">}}
 
 De plus, l'outil de rapport d'un LMS joue un rôle clé dans l'identification des problèmes et la création de fichiers journaux en générant les index. La meilleure partie est que tout ce qui se passe via une interface de configuration fournie par le système de gestion du journal (LMS). Cependant, les administrateurs peuvent ensuite permettre aux workflows automatisés de maintenir la santé du serveur et en cours d'exécution.
 
-## Défis attachés avec la gestion du journal des événements {# défis-attachés avec-en-époux de gestion}}
+## Défis attachés avec la gestion du journal des événements   {# défis-attachés avec-en-époux de gestion}}
 En fait, il est devenu très facile de gérer certains des problèmes communs et conventionnels concernant le stockage, la vitesse et le réseau. Même s'il y a certains domaines où les administrateurs du système sont confrontés à des défis pour résoudre les problèmes suivants:
 **Volume de journaux massif:**C'est l'un des défis auxquels toute organisation peut faire face. Il devient une mission impossible à collecter et à trier d'énormes quantités de données de journal où il y a des centaines et des milliers de serveurs impliqués. Ainsi, un**Système de gestion des journaux (LMS)**propose des dispositions pour gérer les volumes de journaux massifs de manière efficace.
 **Variations du format de données:**Gestion de divers formats de données provenant de plusieurs sources n'est pas un travail facile et peut être un défi pour tout outil de journalisation et de surveillance. Étant donné que les administrateurs du système ne sont pas sûrs du format de données provenant de divers points de terminaison du système.
@@ -36,7 +36,7 @@ En fait, il est devenu très facile de gérer certains des problèmes communs et
 **Accessibilité**: C'est un autre facteur qui peut conduire à des tracas. De plus, l'indexation des journaux et l'ajout de fonctionnalités consultables rendent les fichiers de journal accessibles. L'ajout d'horodatage et la catégorisation des données de journal peuvent permettre aux administrateurs système de demander des données de journal stockées.
 **opérationnel****Coût**: A**Système de gestion de journaux (LMS)**est un composant incontournable de toute infrastructure informatique fonctionnant dans n'importe quelle organisation. Chaque fois qu'il y a une panne d'application, il devrait être facile de dépanner et de prendre la cause profonde. De plus, les environnements basés sur le cloud sont livrés avec des mécanismes de journalisation plus complexes, donc opter pour un outil de journalisation et de surveillance****rendra sûrement le processus efficace.
 
-## Comment un outil de gestion des journaux open source peut aider? {# How-an-open-source-log-management-tool-can-help}
+## Comment un outil de gestion des journaux open source peut aider?   {# How-an-open-source-log-management-tool-can-help}
 Voici la communauté open source qui a énormément contribué au monde de la technologie. Tout comme les autres catégories de logiciels, il existe de nombreux outils de surveillance des journaux open source**qui offrent des fonctionnalités de niveau d'entreprise pour stocker et gérer les fichiers journaux. De plus, un LMS open-source peut rendre vos fichiers journaux plus accessibles et réduire les coûts attachés aux pratiques manuelles.
 En fait, chaque fois qu'il y a un crash logiciel ou une ventilation du système, il s'agit de savoir comment enregistrer les détails opérationnels.**Logiciel de gestion du journal des événements open-source**Offre une interface intuitive et personnalisable. Il existe donc de nombreux autres aspects que nous couvrirons dans le prochain article de blog.
 

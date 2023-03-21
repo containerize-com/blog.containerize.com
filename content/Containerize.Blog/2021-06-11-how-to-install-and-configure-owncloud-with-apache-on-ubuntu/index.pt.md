@@ -83,7 +83,7 @@ Você deve ver a página de login de Open Source OwnCloud. Digite novas credenci
 {{< figure align=center src="images/owncloud-setup-1.png" alt="Instale o OwnCloud com o Apache no Ubuntu">}}
 
 {{_LINE_71_}}
-Agora deslize sua página para baixo. No formulário abaixo, você precisa inserir o nome de usuário e a senha para gerenciar o melhor painel de OwnCloud do servidor de nuvem pessoal. Forneça também o banco de dados, juntamente com o nome de usuário e a senha para conectar o OwnCloud Server com o servidor de banco de dados, o local da pasta de dados e clique em ** Concluir Configuração **.
+Agora deslize sua página para baixo. No formulário abaixo, você precisa inserir o nome de usuário e a senha para gerenciar o melhor painel de OwnCloud do servidor de nuvem pessoal. Forneça também o banco de dados, juntamente com o nome de usuário e a senha para conectar o OwnCloud Server com o servidor de banco de dados, o local da pasta de dados e clique em **Concluir Configuração** .
 {{_LINE_73_}}
 
 {{< figure align=center src="images/owncloud-setup-2.png" alt="Configure o OwnCloud no Ubuntu">}}
@@ -97,15 +97,15 @@ Depois de concluir a configuração, você receberá o painel de administração
 {{_LINE_79_}}
 Sim! Terminamos o Guia de instalação do OwnCloud para criar armazenamento em nuvem pessoal. Agora você sabe como instalar completamente o OwnCloud no Ubuntu para criar uma nuvem privada passo a passo semelhante ao Dropbox ou Google Drive.
 
-## ** Quais são as melhores alternativas para o própriocloud? ** {#4A1A}
+## **Quais são as melhores alternativas para o própriocloud?**    {#4A1A}
 A seguir, as alternativas e os concorrentes do Own -Host
   *** SEAFIL
-  *** NextCloud ** é grátis e a plataforma de armazenamento em nuvem de código aberto
-  *** Resilio Sync ** é o aplicativo de sincronização de arquivos de código -fonte a ponto de código aberto
-  *** células Pydo ** é o software de compartilhamento e sincronização de arquivos de código aberto
-  *** Sincronização ** é APLICAÇÃO DE SINCRONIZAÇÃO DE ARQUIVO DE PEER-PEERA FREE E ABERTA
+  ***NextCloud**  é grátis e a plataforma de armazenamento em nuvem de código aberto
+  ***Resilio Sync**  é o aplicativo de sincronização de arquivos de código -fonte a ponto de código aberto
+  ***células Pydo**  é o software de compartilhamento e sincronização de arquivos de código aberto
+  ***Sincronização**  é APLICAÇÃO DE SINCRONIZAÇÃO DE ARQUIVO DE PEER-PEERA FREE E ABERTA
 
-## ** CONCLUSÃO: ** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+## **CONCLUSÃO:**    {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
 Parabéns! Você instalou e configurou com sucesso o OwnCloud para criar sua própria nuvem privada com o Apache na máquina Ubuntu. Agora, seus dados nunca estão nas mãos de terceiros e podem ser gerenciados em particular no armazenamento virtual do servidor Ubuntu. Muitas empresas estão optando por criar seus servidores do próprio cloud com muitas informações vitais devido a muitos problemas com a privacidade dos dados. Em nossos próximos tutoriais, discutiremos tópicos mais interessantes das pilhas de solução de servidores da web.
 Você pode se juntar a nós no [Twitter][2], [LinkedIn][3] e nossa página [Facebook][4]. Qual solução de armazenamento baseada em nuvem você usa online?. Se você tiver alguma dúvida, por favor [entre em contato][5].
 

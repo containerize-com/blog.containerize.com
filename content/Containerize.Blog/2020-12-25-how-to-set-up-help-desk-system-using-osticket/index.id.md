@@ -19,10 +19,10 @@ Osticket adalah solusi perangkat lunak bantuan help of desk open source. Osticke
   * [Bagaimana cara mengatur osticket?][3]
   * [Kesimpulan][4]
 
-## Apa itu Osticket? {#osticket}
+## Apa itu Osticket?   {#osticket}
 Osticket menyediakan panel kontrol ramah pengguna dan komponen pelaporan waktu-nyata. Pengguna dapat masuk dan membuat tiket dalam beberapa langkah mudah. Mereka dapat membuat tiket melalui situs web, email, atau telepon Anda. Tiket yang masuk kemudian akan disimpan dan ditugaskan ke agen. Agen akan mendapatkan pemberitahuan email dan akan menanggapi pertanyaan untuk membantu menyelesaikan masalah mereka. Pelanggan dan agen dapat membahas detail dan kemajuan di bagian komentar. Pelanggan dapat melacak permintaan dan kemajuan mereka melalui portal pelanggan bawaan yang disediakan oleh perangkat lunak Help Desk online ini.
 
-## pro dan kontra Osticket {#pros}
+## pro dan kontra Osticket   {#pros}
 
 #### Pro
   * Osticket sangat ramah pengguna untuk pengguna akhir dan agen dukungan.
@@ -35,7 +35,7 @@ Osticket menyediakan panel kontrol ramah pengguna dan komponen pelaporan waktu-n
   * Osticket tidak memberikan detail analisis tiket dan statistik seperti sistem meja bantuan berbayar lainnya.
   * Antarmuka pengguna ini sangat sederhana dan mendasar jika dibandingkan dengan sistem pendukung lainnya.
 
-## Bagaimana cara menginstal Osticket? {#Bagaimana}
+## Bagaimana cara menginstal Osticket?   {#Bagaimana}
 Ikuti langkah -langkah ini untuk menginstal Osticket dengan Nginx di Ubuntu 18.04 LTS.
   * Buat direktori baru untuk Osticket.
 ```
@@ -136,7 +136,7 @@ sudo systemctl restart nginx
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-2.png" alt="Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket">}}
 
   * Aktifkan ekstensi yang diperlukan dari Php.ini dan klik "Lanjutkan".
-  *Isi semua informasi yang diperlukan dan klik "** Instal sekarang" ** Tombol.
+  *Isi semua informasi yang diperlukan dan klik "**Instal sekarang"**  Tombol.
 
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-3.png" alt="Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket">}}
 
@@ -149,7 +149,7 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Osticket paling cocok untuk perusahaan dengan anggaran rendah atau mereka yang menginginkan sistem meja bantuan sederhana dan bukan yang kompleks. Ini sederhana, ringan, dapat diandalkan, open source, dan benar -benar perangkat lunak meja bantuan online gratis. Yang menjadikan Osticket alternatif yang bagus untuk sistem dukungan pelanggan berbiaya lebih tinggi. Untuk mempelajari lebih lanjut tentang fitur Osticket dan panduan instalasi, silakan lihat tutorial berikut.
 
 ## Mengeksplorasi

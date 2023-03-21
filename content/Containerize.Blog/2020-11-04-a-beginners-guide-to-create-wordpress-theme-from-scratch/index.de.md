@@ -15,21 +15,21 @@ So erstellen Sie das WordPress -Thema unter den Top -Abfragen in der Google -Suc
   * [Anforderungen][1]
   * [Schritt -für -Schritt -Handbuch][2]
 
-### Anforderungen {#Requirements}
+### Anforderungen   {#Requirements}
 Erstens und wichtigste, was Sie tun müssen, ist, WordPress zu installieren. WordPress ist für die einfache Installation bekannt. Es ist ein einfacher Prozess und kann einfach von sich selbst durch die [Handbuch][3] durchgeführt werden.
 
-### So erstellen Sie WordPress -Thema; Schritt -für -Schritt -Handbuch {#guide}
-Für WordPress -Thema wird alles nur im Verzeichnis ** wp_content ** erledigt. Machen Sie einfach einen neuen Themenunterordner im Ordner ** wp_content → Themes.
-Die zweite Sache ist, das Layout des Themas zu entscheiden. Hier zeigt das Tutorial das grundlegende Layout aus ** Header, Hauptbereich, Fußzeile, Seitenleiste **.
-Grundsätzlich benötigt WordPress nur 2 Dateien, d. H. Style.css und index.php. Für dieses Layout benötigen Sie jedoch wie folgt ** 5 Dateien **;
-  *** Header.php - ** Enthält den Code für den Header -Abschnitt des Themas.
-  *** index.php - ** enthält den Code für den Hauptbereich und gibt an, wo die anderen Dateien enthalten sind. Dies ist die Hauptdatei des Themas.
-  *** Sidebar.php - ** Enthält die Informationen über die Seitenleiste.
-  *** footer.php - ** behandelt den Fußzeilenabschnitt.
-  *** style.css - ** Verantwortlich für das Styling Ihres Themas.
-  *** Bootstrap.css - ** Es ist kein separater CSS -Code erforderlich; sehr reaktionsschnell.
-  *** bootstrap.js - ** stellt seine eigenen JS für die Navigationsleiste oder Registerkarten usw. zur Verfügung.
-** bootstrap.js ** und ** bootstrap.css
+### So erstellen Sie WordPress -Thema; Schritt -für -Schritt -Handbuch   {#guide}
+Für WordPress -Thema wird alles nur im Verzeichnis **wp_content  **erledigt. Machen Sie einfach einen neuen Themenunterordner im Ordner**   wp_content → Themes.
+Die zweite Sache ist, das Layout des Themas zu entscheiden. Hier zeigt das Tutorial das grundlegende Layout aus **Header, Hauptbereich, Fußzeile, Seitenleiste** .
+Grundsätzlich benötigt WordPress nur 2 Dateien, d. H. Style.css und index.php. Für dieses Layout benötigen Sie jedoch wie folgt **5 Dateien** ;
+  ***Header.php -**  Enthält den Code für den Header -Abschnitt des Themas.
+  ***index.php -**  enthält den Code für den Hauptbereich und gibt an, wo die anderen Dateien enthalten sind. Dies ist die Hauptdatei des Themas.
+  ***Sidebar.php -**  Enthält die Informationen über die Seitenleiste.
+  ***footer.php -**  behandelt den Fußzeilenabschnitt.
+  ***style.css -**  Verantwortlich für das Styling Ihres Themas.
+  ***Bootstrap.css -**  Es ist kein separater CSS -Code erforderlich; sehr reaktionsschnell.
+  ***bootstrap.js -**  stellt seine eigenen JS für die Navigationsleiste oder Registerkarten usw. zur Verfügung.
+**bootstrap.js  **und**   bootstrap.css
 Hier sind die Schritte, die zum Einrichten von Thema folgen,
 
 ### Schritt 1: Header.php -Datei

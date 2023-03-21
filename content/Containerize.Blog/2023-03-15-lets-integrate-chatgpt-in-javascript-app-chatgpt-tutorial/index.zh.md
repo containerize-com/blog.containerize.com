@@ -18,10 +18,10 @@ categories: [ 'Artificial intelligence']
 ## 概述
 你好读者！非常感谢您对我们在[chatgpt][1]集成上发表的博客文章的压倒性回应。我们在这里有另一个有用的**chatgpt教程**您的兴趣。此外，我们将循环发表有益于您的学者和职业的文章。但是，我们已经启动了JavaScript教程的[系列][20][20]，因此是编写指南的最佳时机，该指南以编程方式将如何**整合在JavaScript AQPP**中。此外，我们将编写代码段，以使此基于GPT-3的**病毒聊天机器人**功能。为此，我们将在node.js应用中启用chatgpt功能。因此，在浏览本指南时，Node.js的先验知识的基本水平是一个加号。
 以下各节将在本chatgpt教程中介绍：
-***[前提条件-Chatgpt JavaScript包装器][2]**
-***[与node.js应用程序集成][3]**
+* **[前提条件-Chatgpt JavaScript包装器][2]**
+* **[与node.js应用程序集成][3]**
 
-## 前提条件-Chatgpt JavaScript包装器{#Pre-Requisites --- Chatgpt-Javascript-Wrapper-}
+## 前提条件-Chatgpt JavaScript包装器 {#Pre-Requisites --- Chatgpt-Javascript-Wrapper-}
 本节演示了在基于node.js的应用程序中启用chatgpt集成所需的要求。要求很简单且易于在系统上安装。
 以下是练习此Chatgpt JavaScript集成的预要求：
 
@@ -31,7 +31,7 @@ categories: [ 'Artificial intelligence']
 一旦安装了上述先决条件，下一步就是获取OpenAI API键。此键用于以编程方式向ChatGPT提出API请求。因此，请访问此[链接][6]，以了解如何获取OpenAI API密钥，以防您不知道该过程。
 请将您的API密钥保持在安全的位置，这就是需求阶段的全部。
 
-## chatgpt与node.js应用程序集成{#chatgpt-integration-with-node.js-application}
+## chatgpt与node.js应用程序集成 {#chatgpt-integration-with-node.js-application}
 现在，我们都将**整合在JavaScript应用程序中。**首先，打开终端并运行以下命令：
 ```
 npm i chatgpt

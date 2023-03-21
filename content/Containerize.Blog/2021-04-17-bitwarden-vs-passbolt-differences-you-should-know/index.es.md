@@ -19,13 +19,13 @@ Cuando se trata de encontrar un administrador de contraseñas que no solo funcio
   * [Diferencias principales][3]
   * [Conclusión][4]
 
-## ** ¿Qué es Bitwarden? **
+## **¿Qué es Bitwarden?** 
 BitWarden es un prometedor Administrador de contraseñas de código abierto que tiene compatibilidad de plataforma cruzada que incluye una aplicación móvil y web junto con la interfaz de línea de comandos también. También puede acceder a BitWarden en su escritorio, ya que tiene compatibilidad con Windows, MacOS y Linux. Como administrador de contraseñas de código abierto, BitWarden se puede utilizar para uso individual, así como a nivel empresarial. No solo puede alojar bitwarden en sus servidores, sino que también tiene alojamiento de nubes, y con la compatibilidad del dispositivo cruzado se puede acceder cuando lo necesite.
 
-## ** ¿Qué es Passbolt? **
+## **¿Qué es Passbolt?** 
 Passbolt es un administrador de contraseñas de código abierto desarrollado específicamente para empresas. La interfaz se ha diseñado teniendo en cuenta las necesidades y requisitos del equipo pequeño y grande, y permite una gestión fácil y segura de las contraseñas y la información confidencial a la que múltiples empleados deben acceder regularmente. Passbolt solo está disponible para usarse localmente en su servidor y se puede acceder a través de una extensión de navegador web en línea. Como administrador de contraseñas de código abierto, puede instalar directamente el código fuente en su servidor o alojarlo en Ubuntu, Centos 7, Digital Ocean y más.
 
-## ** Diferencias principales **
+## **Diferencias principales** 
 Tanto Bitwarden como Passbolt proporcionan muchas características y funcionalidades como gerentes de código abierto, sin embargo, difieren en su técnica de cifrado y diferentes aplicaciones del lado del cliente que ofrecen. Aquí hay un resumen:
 {{_LINE_23_}}
 {{_LINE_24_}}

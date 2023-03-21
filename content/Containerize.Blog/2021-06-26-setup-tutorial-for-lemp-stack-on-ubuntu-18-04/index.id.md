@@ -14,29 +14,29 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/lemp-banner.png" alt="Instal Lemp Stack di Ubuntu">}}
 
 
-## Ikhtisar {#perequisites}
+## Ikhtisar   {#perequisites}
 Dalam panduan ini, kami akan menginstal Nginx, MySQL, dan PHP (LEMP Stack) untuk pengembangan dan penyebaran aplikasi web. Kami juga akan mengkonfigurasi server web ke aplikasi PHP server di Ubuntu Server 18.04. Kami akan membahas bagian -bagian berikut dalam tutorial ini.
-  *[** Prasyarat **][1]
-  *[** Apa itu tumpukan lemp? **][2]
-  *[** Instalasi LEMP **][3]
-  *[** Kesimpulan **][4]
+  *[**Prasyarat** ][1]
+  *[**Apa itu tumpukan lemp?** ][2]
+  *[**Instalasi LEMP** ][3]
+  *[**Kesimpulan** ][4]
 
-## Prasyarat {#perequisites}
+## Prasyarat   {#perequisites}
 Sebelum menginstal perangkat lunak, Anda harus memenuhi persyaratan berikut.
   * Server dengan sistem operasi Ubuntu
-  *Pengguna non-root dengan ** sudo ** hak istimewa
+  *Pengguna non-root dengan **sudo**  hak istimewa
 
-## Apa itu Lemp Stack? {#Apa}
-** LEMP Stack ** adalah kumpulan perangkat lunak yang dapat digunakan untuk menjalankan aplikasi web berbasis PHP. LEMP adalah singkatan dari Linux, Nginx, MySQL, dan PHP. Tumpukan lemp adalah varian dari tumpukan lampu. Lampu dan LEMP adalah tumpukan perangkat lunak populer untuk mengembangkan dan menggunakan aplikasi web. Ada satu perbedaan antara dua tumpukan perangkat lunak ini. Lampu memanfaatkan server web Apache, sedangkan server LEMP memanfaatkan server web nginx.
+## Apa itu Lemp Stack?   {#Apa}
+**LEMP Stack**  adalah kumpulan perangkat lunak yang dapat digunakan untuk menjalankan aplikasi web berbasis PHP. LEMP adalah singkatan dari Linux, Nginx, MySQL, dan PHP. Tumpukan lemp adalah varian dari tumpukan lampu. Lampu dan LEMP adalah tumpukan perangkat lunak populer untuk mengembangkan dan menggunakan aplikasi web. Ada satu perbedaan antara dua tumpukan perangkat lunak ini. Lampu memanfaatkan server web Apache, sedangkan server LEMP memanfaatkan server web nginx.
 
-Instalasi ## LEMP {#installation}
+Instalasi ## LEMP  {#installation}
 Di bagian ini, kami akan fokus pada cara menginstal Nginx, MySQL, dan PHP pada Ubuntu 18.04. Pertama -tama, kita perlu memperbarui paket server dengan menjalankan perintah di bawah ini.
 ```
 $ sudo apt update
 ```
 
 ### Menginstal server web nginx
-  *Jalankan perintah di bawah ini untuk ** Instal Nginx di Ubuntu **.
+  *Jalankan perintah di bawah ini untuk **Instal Nginx di Ubuntu** .
 ```
 $ sudo apt install nginx
 ```
@@ -47,7 +47,7 @@ $ sudo apt install nginx
 
 ### Menginstal MySQL
 Sekarang, Anda perlu menginstal server database MySQL untuk pengelolaan data aplikasi Anda.
-  *Jalankan perintah di bawah ini untuk ** Instal MySQL di Ubuntu **.
+  *Jalankan perintah di bawah ini untuk **Instal MySQL di Ubuntu** .
 ```
 $ sudo apt install mysql-server
 ```
@@ -55,7 +55,7 @@ $ sudo apt install mysql-server
 ```
 $ sudo mysql_secure_installation
 ```
-  *Anda akan ditanya baik Anda ingin mengaktifkan ** Plugin Kata Sandi ** atau tidak. Lebih baik tidak mengaktifkannya, ketik n dan tekan Enter untuk bergerak pada langkah berikutnya.
+  *Anda akan ditanya baik Anda ingin mengaktifkan **Plugin Kata Sandi**  atau tidak. Lebih baik tidak mengaktifkannya, ketik n dan tekan Enter untuk bergerak pada langkah berikutnya.
   * Selanjutnya, ini akan menanyakan beberapa pertanyaan seperti yang ditunjukkan di bawah ini. Anda perlu menjawab semua pertanyaan.
 ```
 Enter current password for root (enter for none):
@@ -76,7 +76,7 @@ mysql> exit
 
 ### Memasang PHP
 Kami akan mencakup pemasangan PHP-FPM untuk pemrosesan PHP. PHP-FPM adalah singkatan dari FastCGI Process Manager. Nginx Web Server tidak memiliki fungsionalitas builtin untuk pemrosesan PHP jadi, kami akan menggunakan PHP-FPM untuk itu. Selain itu, kami akan menginstal PHP-MYSQL untuk mengkomunikasikan PHP dengan MySQL untuk manajemen data.
-  *Jalankan perintah di bawah ini untuk ** Instal PHP di Ubuntu **.
+  *Jalankan perintah di bawah ini untuk **Instal PHP di Ubuntu** .
 ```
 $ sudo apt install php-fpm php-mysql
 ```
@@ -108,13 +108,13 @@ server {
 }
 ```
   * Mari kita lihat arahan dan blok lokasi ini, sehingga Anda dapat memiliki informasi dasar.
-      *** Dengarkan **: Anda dapat mendefinisikan port untuk nginx. Gunakan Port 80 untuk HTTP dan 443 untuk protokol HTTPS.
-      *** root **: Tentukan direktori root untuk proyek Anda. Nginx akan menggunakannya untuk melayani situs web atau aplikasi web.
-      *** Indeks **: Tentukan urutan file mana yang harus dilayani. Ketika file indeks dipanggil, nginx akan mengirimkan file index.php.
-      *** Server_name **: Tentukan nama domain atau IP publik dari server Anda.
-      *** Lokasi /**: Blok lokasi ini memiliki ** try_block ** Petunjuk dan cocok dengan URI yang diminta. Nginx Mengembalikan 404 Kesalahan, jika tidak menemukan file yang diminta.
-      *** Lokasi ~ .php $ **: Blok lokasi ini menangani pemrosesan PHP.
-      *** Lokasi ~ /.ht**: nginx tidak memproses **. HtAccess ** File dan lokasi ini memblokirnya. Nginx tidak melayani file .htaccess dengan mendefinisikan ** menyangkal semua ** arahan.
+      ***Dengarkan** : Anda dapat mendefinisikan port untuk nginx. Gunakan Port 80 untuk HTTP dan 443 untuk protokol HTTPS.
+      ***root** : Tentukan direktori root untuk proyek Anda. Nginx akan menggunakannya untuk melayani situs web atau aplikasi web.
+      ***Indeks** : Tentukan urutan file mana yang harus dilayani. Ketika file indeks dipanggil, nginx akan mengirimkan file index.php.
+      ***Server_name** : Tentukan nama domain atau IP publik dari server Anda.
+      ***Lokasi /**: Blok lokasi ini memiliki  **try_block**   Petunjuk dan cocok dengan URI yang diminta. Nginx Mengembalikan 404 Kesalahan, jika tidak menemukan file yang diminta.
+      ***Lokasi ~ .php $** : Blok lokasi ini menangani pemrosesan PHP.
+      ***Lokasi ~ /.ht**: nginx tidak memproses **. HtAccess  **File dan lokasi ini memblokirnya. Nginx tidak melayani file .htaccess dengan mendefinisikan **  menyangkal semua**  arahan.
   * Buat symlink untuk file konfigurasi nginx yang baru dibuat untuk mengaktifkannya.
 ```
 $ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
@@ -144,19 +144,19 @@ phpinfo();
 {{< figure align=center src="images/info-php.png" alt="Halaman Info PHP">}}
 
 
-## kesimpulan {#conclusion}
-Dalam tutorial ini, kami membahas tentang cara menginstal dan mengkonfigurasi tumpukan lemp ** **. Seperti yang Anda lihat, mengkonfigurasi komponen tumpukan perangkat lunak sangat mudah. Selain itu, Anda dapat mulai membuat dan melayani aplikasi web dalam hitungan menit.
-Akhirnya, [** containerize.com **][5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** Web Server Solution ini **][6] kategori untuk pembaruan terbaru.
+## kesimpulan   {#conclusion}
+Dalam tutorial ini, kami membahas tentang cara menginstal dan mengkonfigurasi tumpukan lemp  **** . Seperti yang Anda lihat, mengkonfigurasi komponen tumpukan perangkat lunak sangat mudah. Selain itu, Anda dapat mulai membuat dan melayani aplikasi web dalam hitungan menit.
+Akhirnya, [**containerize.com **][5] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [ **Web Server Solution ini**  ][6] kategori untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Tumpukan solusi server web open source terbaik **][7]
-  *** [Alat forensik digital open source paling populer][8] **
-  *** [Top 5 Open Source Message Antrian (MQ) Perangkat Lunak pada 2021][9] **
-  *** [Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][10] **
-  *[** Cara menginstal dan mengamankan phpMyadmin dengan nginx di ubuntu **][11]
-  *[** Cara menginstal beberapa versi PHP dengan nginx di ubuntu **][12]
-  *[** Top 5 Lisensi Open Source Terbaik yang Disetujui Osi-Osi 2021 **][13]
+  *[**Tumpukan solusi server web open source terbaik** ][7]
+  ***[Alat forensik digital open source paling populer][8]** 
+  ***[Top 5 Open Source Message Antrian (MQ) Perangkat Lunak pada 2021][9]** 
+  ***[Perangkat Lunak Penyimpanan Cloud Terbaik dan Berbagi File][10]** 
+  *[**Cara menginstal dan mengamankan phpMyadmin dengan nginx di ubuntu** ][11]
+  *[**Cara menginstal beberapa versi PHP dengan nginx di ubuntu** ][12]
+  *[**Top 5 Lisensi Open Source Terbaik yang Disetujui Osi-Osi 2021** ][13]
 
   
 [1]: #Prerequisites

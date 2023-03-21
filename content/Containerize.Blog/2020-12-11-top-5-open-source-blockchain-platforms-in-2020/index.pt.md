@@ -16,14 +16,14 @@ A tecnologia Blockchain é baseada em um livro distribuído protegido com cripto
 
 ## Visão geral
 Recentemente, publicamos postagens no blog sobre [Blockchain Technology for Business][1] e um artigo do tutorial sobre a construção de um [contrato inteligente básico][2]. No entanto, compilamos uma lista das seguintes plataformas populares de blockchain de 2020.
-  *** [Ethereum][3] **
-  *** [Fabric Hyledger][4] **
-  *** [OpenChain][5] **
-  *** [Multicain][6] **
-  *** [Ripple][7] **
-  *** [Conclusão][8] **
+  ***[Ethereum][3]** 
+  ***[Fabric Hyledger][4]** 
+  ***[OpenChain][5]** 
+  ***[Multicain][6]** 
+  ***[Ripple][7]** 
+  ***[Conclusão][8]** 
 
-## Ethereum {#ether}
+## Ethereum   {#ether}
 [Ethereum][9] é uma plataforma líder em blockchain de código aberto. Ele fornece uma estrutura completa para gerenciar ativos digitais, escrever contratos inteligentes e criar aplicativos descentralizados. Este software usa um algoritmo de consenso chamado Prova de Trabalho (POW). Ele suporta sua própria criptomoeda chamada éter. Além disso, o Ethereum possui cinco principais componentes da máquina virtual Ethereum, contratos inteligentes, nós do Ethereum, APIs do cliente Ethereum e aplicativos de usuário final. Está escrito no idioma Go e todo o código -fonte está disponível no [GitHub][10].
 A seguir estão os recursos proeminentes:
   * Seguro com criptografia
@@ -33,7 +33,7 @@ A seguir estão os recursos proeminentes:
   * Arquitetura de várias camadas
 [Leia mais][11]
 
-## Hyledger Fabric {#Hyper}
+## Hyledger Fabric   {#Hyper}
 [Hyperledger Fabric][12] é um blockchain de código aberto baseado em uma arquitetura modular. No entanto, ele fornece provisão aos usuários usar qualquer protocolo de consenso, dependendo do caso de uso. Além disso, este software é escalável, robusto e eficiente. Ele fornece integração com software de terceiros, como LDAP, OpenID Connect e bibliotecas criptográficas. Também está escrito no idioma Go e seu código -fonte está disponível no [GitHub][13].
 O Hyperledger Fabric possui os seguintes recursos importantes:
   * Suporte para EVM e Solidez
@@ -43,7 +43,7 @@ O Hyperledger Fabric possui os seguintes recursos importantes:
   * Dados consultáveis
 [Leia mais][14]
 
-## OpenChain {#open}
+## OpenChain   {#open}
 [OpenChain][15] é comparativamente uma nova tecnologia blockchain e é baseada na arquitetura do servidor do cliente. Além disso, qualquer pessoa pode configurar uma instância desse software de código aberto e há um administrador para cada instância que valida as transações. Além disso, não há mecanismo de mineração suportado no OpenChain. Acima de tudo, o algoritmo de consenso parcado está sendo usado nesta plataforma. Está escrito no idioma C# e seu código -fonte está disponível no [GitHub][16].
 OpenChain oferece os seguintes recursos importantes:
   * Provisão para definir regras
@@ -63,7 +63,7 @@ Multicain cria os seguintes recursos principais:
   * Feeds de dados em tempo real
 [Leia mais][18]
 
-## Ripple {#Ripple}
+## Ripple   {#Ripple}
 [Ripple][20] é uma plataforma de blockchain de código aberto de nível corporativo com recursos avançados. Portanto, baseia -se em uma infraestrutura descentralizada que suporta transações garantidas de ativos digitais. Acima de tudo, possui uma ampla gama de recursos que são suficientes para estabelecer um negócio de pagamentos. Além disso, é alimentado por um razão de XRP que é um razão criptográfica descentralizada. No entanto, esse software de código aberto também está escrito na linguagem C ++ com a entrada de outros idiomas e seu código -fonte está disponível no [GitHub][21].
 Ripple oferece os seguintes pontos -chave:
   * Alimentado por XRP Ledger
@@ -73,7 +73,7 @@ Ripple oferece os seguintes pontos -chave:
   * Multiuso
 [Leia mais][22]
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Nesta postagem do blog, passamos por algumas das populares plataformas de blockchain de código aberto. Como existem muitas outras plataformas populares disponíveis, novas plataformas começaram a obter a intenção da comunidade, oferecendo recursos avançados. Portanto, é sempre uma boa ideia investigar corretamente antes de fazer qualquer escolha.
 Finalmente, [contenderize.com][23] está expandindo sua lista de software de código aberto e postagens de blog. Portanto, mantenha contato com a categoria [Blockchain Platforms][24] para atualizações regulares.
 

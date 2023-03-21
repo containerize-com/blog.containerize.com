@@ -20,17 +20,17 @@ XAMPP是一家开源Web服务器，在将其部署在实时服务器上之前，
   * [运行和测试PHP脚本][5]
   * [结论][6]
 
-## 要求{#requirements}
+## 要求 {#requirements}
   * XAMPP安装
   *代码编辑器应用程序
   *基本的PHP知识
   *基本的HTML和JavaScript知识
 
-## 什么是Xampp？ {#XAMPP}
+## 什么是Xampp？   {#XAMPP}
 XAMPP是开源Web服务器解决方案堆栈。它包含Apache，MySQL，Mariadb，PHP和Perl。它非常容易安装和使用。这就是为什么它是最受欢迎的PHP开发环境。 XAMPP服务器为PHP Web应用程序开发提供了一个完整的环境。如果您还没有XAMPP工作安装，请按照本指南安装XAMPP：
 [设置XAMPP和PHPMYADMIN作为Windows上的Localhost][7]
 
-## 创建PHP脚本{#php}
+## 创建PHP脚本 {#php}
   *假设您已经按照上述教程安装了XAMPP，现在让我们创建一个简单的PHP脚本并在XAMPP上进行测试。
   *首先打开您的编辑器。如果您没有编程编辑器，只需打开记事本即可。
   *输入以下代码
@@ -48,7 +48,7 @@ echo "This is my first PHP project";
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="使用XAMPP开源Web服务器创建您的第一个PHP项目">}}
 
 
-## 运行并测试PHP脚本{#test}
+## 运行并测试PHP脚本 {#test}
   *将此PHP脚本复制到XAMPP安装内的HTDOCS文件夹。大多数HTDOCS文件夹位于这里：C：\ XAMPP \ htdocs
   *打开浏览器。
   *转到localhost/my \ _first \ _php_project.php
@@ -57,7 +57,7 @@ echo "This is my first PHP project";
 
 恭喜！您刚刚创建了第一个PHP项目。
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 对于初学者来说，创建第一个Web项目总是非常令人兴奋。当您设计第一个动态脚本，运行并查看在浏览器上工作时，感觉很棒。我希望本简单的指南能够通过XAMPP开源Web服务器来帮助您创建和运行第一个PHP项目。
 
 ## 探索

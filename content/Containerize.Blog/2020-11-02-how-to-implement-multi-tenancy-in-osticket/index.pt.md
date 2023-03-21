@@ -20,21 +20,21 @@ Neste artigo, discutiremos como fazer a personalização de osticket para implem
   * [Implementação][3]
   * [Conclusão][4]
 
-Visão geral do Osticket: {#osticket}
+Visão geral do Osticket:  {#osticket}
 [OSTICKET][5] é um software de suporte técnico de suporte ao cliente on -line de código aberto. Ele fornece um painel de controle intuitivo e um componente de relatório em tempo real. É fácil usar o módulo de gerenciamento de consultas. Isso permite que você crie perguntas a partir do seu telefone, email e formulários baseados na Web. Que oferece inúmeras opções para ajudar a adaptar todas as partes da experiência de suporte ao cliente, como comentários e notificações por email.
 
-Visão geral da multi-tenancidade: {#multiteNancy}
+Visão geral da multi-tenancidade:  {#multiteNancy}
 Multi-ingestão refere-se à implementação, onde várias instâncias independentes de um aplicativo operam em um ambiente compartilhado. As instâncias (inquilinos) são logicamente isoladas, mas fisicamente integradas. Uma organização pode ter vários departamentos. Para que eles possam criar vários inquilinos/instâncias do mesmo aplicativo. Por exemplo, no nosso caso, um sistema helpdesk pode ser configurado para diferentes domínios da mesma organização. Pode haver centenas de inquilinos, mas todos usarão os mesmos arquivos e, portanto, o mesmo armazenamento. Isso reduzirá os custos de armazenamento e também facilitará as atualizações. Os desenvolvedores precisam apenas atualizar os arquivos de um local, em vez de fazer alterações para cada site separadamente.
 
-## Quais são os benefícios da multi-ingestão? {#Benefits}
+## Quais são os benefícios da multi-ingestão?   {#Benefits}
 Aqui estão alguns benefícios cruciais da multi-cinema
-  *** Otimização de recursos: ** Uma máquina reservada para um inquilino não é eficiente. Porque um inquilino provavelmente não usará todo o poder de computação da máquina. Máquinas de compartilhamento maximizarão a disponibilidade de recursos.
-  *** Custos mais baixos: ** Com vários inquilinos compartilhando os mesmos recursos custarão muito mais baixo do que se cada inquilino exigisse sua própria infraestrutura dedicada.
-  *** Hospedagem eficiente: ** Também osticket com vários inquilinos reduzirá os custos de hospedagem ao mínimo em um ambiente compartilhado.
-  *** Segurança: ** Com menos interação com o mundo exterior, a exposição a software maliciosa é reduzida.
-  *** Atualização fácil **: Atualizar arquivos apenas em um local em vez de atualizá -los separadamente. Isso economizará muito tempo e esforço.
+  ***Otimização de recursos:**  Uma máquina reservada para um inquilino não é eficiente. Porque um inquilino provavelmente não usará todo o poder de computação da máquina. Máquinas de compartilhamento maximizarão a disponibilidade de recursos.
+  ***Custos mais baixos:**  Com vários inquilinos compartilhando os mesmos recursos custarão muito mais baixo do que se cada inquilino exigisse sua própria infraestrutura dedicada.
+  ***Hospedagem eficiente:**  Também osticket com vários inquilinos reduzirá os custos de hospedagem ao mínimo em um ambiente compartilhado.
+  ***Segurança:**  Com menos interação com o mundo exterior, a exposição a software maliciosa é reduzida.
+  ***Atualização fácil** : Atualizar arquivos apenas em um local em vez de atualizá -los separadamente. Isso economizará muito tempo e esforço.
 
-## implementação de osticket multi-tenant: {#implementation}
+## implementação de osticket multi-tenant:   {#implementation}
   * Crie um novo nome de banco de dados vazio como "main_db".
   * Em seguida, crie a tabela chamada "inquilino", que manterá detalhes sobre todos os inquilinos.
   * Terá campos seguintes:
@@ -64,7 +64,7 @@ if ($url == $row['url']) {
   * Este código atualizará a conectividade padrão do banco de dados. Primeiro receberá o URL do inquilino atual. Em seguida, ele receberá o nome do banco de dados de acordo com esse URL. É assim que o aplicativo saberá a qual banco de dados se conectar. Cada inquilino terá um banco de dados separado. O banco de dados será selecionado com base no URL do inquilino.
   * Para criar um novo inquilino, basta configurar o novo domínio inquilino no Nginx Server. Depois disso, basta copiar o banco de dados de oticket atual e renomeá -lo. Por fim, adicione a entrada na tabela "inquilino" do banco de dados "main_db".
 
-## Conclusão: {#conclusion}
+## Conclusão:   {#conclusion}
 OSTICKET é um software de gerenciamento de suporte de suporte de It de código aberto gratuito e gratuito. Aprendemos como fazer personalizações de osticket para implementar a multiestação no Osticket para economizar custos, otimizar o aplicativo e reduzir os requisitos de recursos. Isso facilitará a vida para os desenvolvedores criarem novos inquilinos em algumas etapas simples. Portanto, crie vários inquilinos de osticket a partir da mesma instalação.
 
 ## Explore:

@@ -16,7 +16,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
 ## **Ringkasan**
 Dalam organisasi bisnis apa pun, ada banyak tugas dan operasi yang berulang, mahal dan memakan waktu. Saat melakukan jenis tugas yang berulang hari ini, selalu ada kemungkinan besar untuk kesalahan manusia karena pekerjaan yang berulang. Oleh karena itu, untuk menghindari kesalahan, untuk menghemat waktu dan upaya manusia, banyak perangkat lunak RPA otomatisasi proses robot tersedia di pasar.
 Tugas harian yang dilakukan pada perangkat lunak oleh karyawan diotomatisasi menggunakan bot perangkat lunak metaforis atau teknologi kecerdasan buatan. Perangkat lunak yang menggunakan bot untuk melakukan otomatisasi ini disebut perangkat lunak RPA atau robot perangkat lunak, tidak bingung dengan perangkat lunak robot. Diberikan di bawah ini adalah daftar alat RPA otomatisasi proses robot paling populer yang tersedia di pasar untuk mengoptimalkan bisnis Anda.
-** Apa rool RPA open source paling populer? ** Dalam artikel ini, kami akan terbiasa dengan contoh alat RPA open source paling populer tahun 2021.
+**Apa rool RPA open source paling populer?**  Dalam artikel ini, kami akan terbiasa dengan contoh alat RPA open source paling populer tahun 2021.
   * Prisma biru
   * Otomasi di mana saja
   * Uipath
@@ -35,21 +35,21 @@ Ini dia !!!
   * Keamanan disediakan untuk kredensial jaringan dan perangkat lunak.
   * Ini dapat digunakan pada platform apa pun.
   * Dapat bekerja untuk aplikasi apa pun.
-** Pro: **
+**Pro:** 
   * Eksekusi berkecepatan tinggi.
   * Kemandirian platform.
-** Cons: **
+**Cons:** 
   * Anda harus memiliki keterampilan pemrograman.
   * Harga tinggi.
-** Apa aplikasi prisma biru? **
+**Apa aplikasi prisma biru?** 
   * Sektor publik
   * Sektor Keuangan
   * Komunikasi dan Media
   * Manufaktur Industri
   * Ilmu Kesehatan dan Hidup
   * Sektor Pendidikan
-** Terbaik untuk: ** mengotomatiskan proses back-office.
-** [Pelajari lebih lanjut tentang Blue Prism][1] **
+**Terbaik untuk:**  mengotomatiskan proses back-office.
+**[Pelajari lebih lanjut tentang Blue Prism][1]** 
 
 ## 2. Otomasi di mana saja
 
@@ -61,17 +61,17 @@ Ini dia !!!
   * Memberikan keamanan melalui otentikasi, enkripsi, dan kredensial.
   * Laporan dan analitik waktu nyata.
   * Memberikan independensi platform.
-** Pro: **
+**Pro:** 
   * Keramahan pengguna.
-** Kontra **
+**Kontra** 
   * IQBOT membutuhkan perbaikan.
-** Aplikasi otomatisasi di mana saja **
+**Aplikasi otomatisasi di mana saja** 
   * Bisnis perjalanan
   * Sektor Keuangan
   * Platform sosial
   * Sektor energi
-** Terbaik untuk: ** Kemudahan Penggunaan.
-** [Pelajari lebih lanjut tentang otomatisasi di mana saja][2] **
+**Terbaik untuk:**  Kemudahan Penggunaan.
+**[Pelajari lebih lanjut tentang otomatisasi di mana saja][2]** 
 
 ## 3. Uipath
 
@@ -83,15 +83,15 @@ Ini dia !!!
   * Ini dapat mengotomatiskan lebih cepat. Otomatisasi delapan hingga sepuluh kali lebih cepat melalui Citrix juga.
   * Ini menyediakan platform terbuka.
   * Ini dapat menangani proses apa pun, dalam jumlah apa pun, terlepas dari kompleksitasnya.
-** Pro: **
+**Pro:** 
   * Tidak diperlukan keterampilan pemrograman.
   * Kemudahan penggunaan melalui fasilitas drag and drop.
   * Ini memberikan fitur yang bagus, gratis.
-** Cons: **
+**Cons:** 
   * Fungsi pengkodean terbatas.
-** Biaya alat atau harga: **
+**Biaya alat atau harga:** 
 Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
-** Aplikasi UIPath **
+**Aplikasi UIPath** 
   * Keuangan dan Perbankan
   * Kesehatan
   * BPO
@@ -100,8 +100,8 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
   * Telekomunikasi
   * Ritel dan CPG
   * Sektor publik
-** Terbaik untuk: ** Peningkatan Kepatuhan dan Produktivitas.
-** [Pelajari lebih lanjut tentang UIPath][3] **
+**Terbaik untuk:**  Peningkatan Kepatuhan dan Produktivitas.
+**[Pelajari lebih lanjut tentang UIPath][3]** 
 
 ## 4. PEGA
 
@@ -113,12 +113,12 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
   * Ini memberikan solusi berbasis cloud.
   * Itu tidak menyimpan data eksekusi apa pun dalam database, melainkan semuanya disimpan dalam memori.
   * Dengan alat ini, Anda dapat mendistribusikan pekerjaan ke desktop, server, dan karyawan juga.
-** Pro: **
+**Pro:** 
   * Karena pendekatan yang digerakkan oleh peristiwa, ia bekerja lebih cepat.
   * Ini adalah alat yang kuat dan andal.
-** Cons: **
+**Cons:** 
   * Tidak ada solusi di tempat.
-** Apa aplikasi PEGA? **
+**Apa aplikasi PEGA?** 
   * Layanan Keuangan
   * Perawatan Kesehatan dan Ilmu Hidup
   * Jasa
@@ -127,8 +127,8 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
   * Otomotif
   * Pengecer
   * Media dan Hiburan
-** Terbaik untuk: ** Solusi CRM dan Dukungan Platform.
-** [Pelajari lebih lanjut tentang PEGA][4] **
+**Terbaik untuk:**  Solusi CRM dan Dukungan Platform.
+**[Pelajari lebih lanjut tentang PEGA][4]** 
 
 ## 5. Kofax
 
@@ -140,22 +140,22 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
   * Alat cerdas untuk memantau dan mengoptimalkan proses.
   * Ini dapat dikelola secara terpusat dari server.
   * Mudah diintegrasikan dengan platform Kapow Katalyst.
-** Pro: **
+**Pro:** 
   * Alat yang efisien.
   * Ini bisa bekerja dengan cepat.
-** Cons: **
+**Cons:** 
   * Perlu meningkatkan video pelatihan.
   * Mungkin agak sulit untuk dipelajari.
-** Aplikasi Kofax **
+**Aplikasi Kofax** 
   * Perbankan
   * Pemerintah
   * Pertanggungan
   * Transportasi dan Logistik
   * Cross-industri
-** Terbaik untuk: ** Bisnis informasi yang berat yang menginginkan proses bisnis yang dipercepat.
-** [Pelajari lebih lanjut tentang Kofax][5] **
+**Terbaik untuk:**  Bisnis informasi yang berat yang menginginkan proses bisnis yang dipercepat.
+**[Pelajari lebih lanjut tentang Kofax][5]** 
 
-## ** Kesimpulan: ** {#4a1a}
+## **Kesimpulan:**    {#4a1a}
 Lima alat RPA open source yang disebutkan di atas adalah alat RPA open source paling populer dan terbaik untuk pengembang. Lebih jauh dengan perbandingan kami dari masing -masing alat secara rinci di sini, Blue Prism adalah alat terbaik tetapi Anda harus dilatih sebelum menggunakannya. Dan pelatihan juga mahal. Uipath mudah digunakan bahkan untuk non-pengembang. Ini menyediakan fitur yang sama, dan bahkan server industri skala kecil. Untuk aplikasi workstation, kontekstor adalah pilihan terbaik karena mereka memiliki spesialisasi di dalamnya.
 _ Apa alat RPA open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang alat RPA open source?, Tolong_ [hubungi Anda][6].
 

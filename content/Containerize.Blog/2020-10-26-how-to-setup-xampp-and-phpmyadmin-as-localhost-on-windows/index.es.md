@@ -20,16 +20,16 @@ Cubriremos las siguientes secciones en esta publicación de blog:
   * [Panel de PhpMyadmin][3]
   * [Pensamientos finales][4]
 
-## Descripción: {#description}
+## Descripción:   {#description}
 XAMPP es la pila de soluciones de servidor web de código web gratuito y de código abierto. Contiene Apache, MySQL, Mariadb, PHP y Perl. XAMPP está disponible para sistemas operativos de Windows. Es extremadamente fácil de instalar y usar. Por eso es el entorno de desarrollo de PHP más popular. XAMPP y PHPMYAdmin como localhost proporciona un entorno completo para el desarrollo y las pruebas de aplicaciones web.
 Los alfabetos en XAMPP representan:
-  *** x **-multiplataforma (admite múltiples sistemas operativos que incluyen Linux, Windows y Mac OS)
-  *** a ** - Apache HTTP Server
-  *** m ** - mariadb (base de datos)
-  *** P ** - PHP
-  *** P ** - Perl
+  ***x** -multiplataforma (admite múltiples sistemas operativos que incluyen Linux, Windows y Mac OS)
+  ***a**  - Apache HTTP Server
+  ***m**  - mariadb (base de datos)
+  ***P**  - PHP
+  ***P**  - Perl
 
-## Instalación de XAMPP {#XAMPP}
+## Instalación de XAMPP   {#XAMPP}
   * Descargue XAMPP de [aquí][5].
 
 {{< figure align=center src="images/xampp1.png" alt="XAMPP como localhost">}}
@@ -53,7 +53,7 @@ Los alfabetos en XAMPP representan:
 {{< figure align=center src="images/xampp5.png" alt="XAMPP como localhost Paso 4">}}
 
 
-## Phpmyadmin Panel: {#phpmyadmin}
+## Phpmyadmin Panel:   {#phpmyadmin}
 Para acceder al tablero PhPMyAdmin, haga clic en el botón "Admin" junto al servicio MySQL. También puede acceder a PhPMyadmin visitando http: // localhost/phpmyadmin desde su navegador. Aquí puede crear bases de datos. Siga estos pasos para crear una nueva base de datos.
   * Desde el panel de control, haga clic en la pestaña "Bases de datos".
 
@@ -75,7 +75,7 @@ Para acceder al tablero PhPMyAdmin, haga clic en el botón "Admin" junto al serv
 {{< figure align=center src="images/db4-1024x564.png" alt="Phpmyadmin en el local Paso 4">}}
 
 
-## Pensamientos finales: {#final}
+## Pensamientos finales:   {#final}
 La instalación de XAMPP es simple y directa. No lleva más de 15 minutos al servidor de configuración XAMPP. Una vez que está instalado, los desarrolladores pueden construir y probar sus aplicaciones web basadas en PHP incluso sin conexión a Internet. En lugar de probar proyectos directamente en un servidor web en vivo, es simple y ahorra tiempo para probarlos localmente. Es una gran plataforma para principiantes aprender, probar y pulir sus habilidades PHP, Perl y base de datos.
 
 ## Explorar:

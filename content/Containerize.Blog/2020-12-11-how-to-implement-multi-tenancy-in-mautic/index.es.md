@@ -22,10 +22,10 @@ Mautic es una solución de automatización de marketing gratuita y de código ab
 ## ¿Qué es múltiple tenancía?
 En la arquitectura de software de múltiples inquilinos, una sola instancia de una aplicación de software sirve a múltiples inquilinos. Cada datos del inquilino se aísla de otros inquilinos que comparten la misma instancia de aplicación. Estos inquilinos están lógicamente aislados, pero físicamente integrados. Esto garantiza la seguridad de los datos y la privacidad para todos los inquilinos. Crear múltiples inquilinos a partir de una sola instancia de aplicación requiere mucha menos memoria. Los inquilinos comparten recursos y disminuyen los costos de mantenimiento de software, infraestructura y operaciones de centros de datos. Los costos tienden a ser más bajos que los de una infraestructura de inquilino único.
 
-## ¿Qué es Mautic {#Mautic}
+## ¿Qué es Mautic   {#Mautic}
 [Mautic][5] es un software de marketing gratuito y de código abierto. Automatice las tareas de marketing repetitivas, como campañas de marketing, generación de leads, segmentación de contacto, etc., utilizando Mautic. Tiene características sorprendentes que incluyen generación de leads, construcción de campañas, segmentación de contacto, creador de correo electrónico, pruebas A/B, constructor de páginas, nutrición de plomo y más. Mautic también admite la integración con todas las plataformas sociales populares, p. Facebook, Twitter, LinkedIn. Todas estas características increíbles lo ayudan a aumentar la experiencia general del cliente y mejorar la automatización de marketing para su negocio.
 
-## Implementar múltiples tenientes en Mautic {#IMPLEMENT}
+## Implementar múltiples tenientes en Mautic   {#IMPLEMENT}
   * Cree una nueva base de datos vacía llamada "Main_DB".
   * Luego cree una tabla llamada "inquilino" que contendrá detalles sobre todos los inquilinos.
   * Tendrá 3 campos, incluido el sitio \ _name, URL y DB \ _name como se muestra en la figura
@@ -48,7 +48,7 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Después de eso, cree una copia de mautic/app/config/local.php y cambie el nombre de [sitio_name] .php.
   * Finalmente, actualice el nombre de la base de datos, el host, la contraseña y el usuario de acuerdo con la nueva base de datos.
 
-## conclusión {#conclusion}
+## conclusión   {#conclusion}
 Mautic es una solución de automatización de marketing gratuita, rica y orientada a la calidad. Le permite crear campañas de marketing, segmentos, formularios, informes y mucho más. La implementación de la tenencia múltiple en mautic reduce los costos, mejora la eficiencia, la escalabilidad y la seguridad. Cree fácilmente cientos de inquilinos a partir de una sola instalación.
 
 ## Explorar

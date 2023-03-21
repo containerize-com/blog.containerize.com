@@ -23,28 +23,28 @@ Recientemente escribimos un artículo sobre "Kafka vs Redis Pub-sub" que explica
   * [Lea los mensajes del tema][7]
   * [Conclusión][8]
 
-## Introducción a Apache Kafka {#Intro}
+## Introducción a Apache Kafka   {#Intro}
 El corredor de mensajes de código abierto de Apache Kafka se inició en LinkedIn y luego se convirtió en un proyecto Apache de código abierto. Kafka Message Broker Software se desarrolla en Scala y Java. Apache Kafka Broker es un sistema de mensajería de suscripción de publicación que también permite el intercambio de datos entre aplicaciones, servidores y procesadores. Es rápido, escalable y distribuido por diseño. Es capaz de manejar millones de datos o mensajes por segundo. Funciona como mediador entre el sistema de origen (productor) y el sistema objetivo (consumidor). Organizaciones como Netflix, Uber y miles de esas empresas hacen uso de la transmisión en tiempo real de Apache Kafka. En comparación con otros sistemas de mensajería, el software de cola de mensajes de Kafka tiene un mejor rendimiento, partición incorporada, replicación y tolerancia a fallas inherentes. Esto lo convierte en una buena opción para aplicaciones de procesamiento de mensajes a gran escala.
 
-## ¿Qué es un sistema de mensajería? {#mensajería}
+## ¿Qué es un sistema de mensajería?   {#mensajería}
 Un sistema de mensajería es un simple intercambio de mensajes entre dos o más personas, dispositivos, etc. Es responsable de la transferencia de datos de una aplicación a otra, por lo que las aplicaciones pueden centrarse en los datos, pero no preocuparse por cómo compartirlo.
 Un tipo de sistema de mensajería es el "sistema de mensajería de puntos a puntos". En este sistema, los mensajes se almacenan en una cola cuando el productor envía. Solo un consumidor puede consumir un mensaje en un momento dado. Y, una vez que se consume el mensaje, se eliminará de la cola. Uno de los ejemplos de este sistema es el sistema de procesamiento de pedidos. Donde solo un proceso puede procesar la orden.
 Otro tipo de sistema de mensajería es el sistema de mensajería de pub-sub que permite que un remitente envíe el mensaje y un receptor para leer ese mensaje. En la mensajería Apache Kafka, un remitente es conocido como productor que publica mensajes, y un receptor es conocido como un consumidor que consume ese mensaje al suscribirse a él. Un ejemplo de este sistema es su televisión por cable que publica muchos canales, y cualquiera puede suscribirse a su elección de canales y obtenerlos cuando sus canales suscritos estén disponibles.
 
-## Términos fundamentales {#terms}
+## Términos fundamentales   {#terms}
 Antes de hablar más sobre la mejor cola de mensajes Apache Kafka, debe comprender algunos de los términos.
-  *** Temas **: Un flujo de mensajes pertenecientes a una categoría particular se llama tema.
-  *** Partition **: Los temas pueden tener muchas particiones, por lo que pueden manejar una cantidad arbitraria de datos.
-  *** Compensación de partición **: Cada mensaje dividido tiene una ID de secuencia única llamada "Offset".
-  *** REPLICAS DE PARTICIÓN **: Las réplicas son copias de seguridad de una partición. Se utilizan para prevenir la pérdida de datos.
-  *** Brokers **: son responsables de mantener los datos publicados.
-  *** Cluster Kafka **: Kafka tiene más de un corredor se llama clúster Kafka.
-  *** Productores **: Son los editores de los mensajes a uno o más temas.
-  *** Consumidores **: Son el lector de los datos de los corredores. Se suscriben a múltiples temas y consumen cuando hay un mensaje en el tema.
-  *** Líder **: El nodo es responsable de todas las lecturas y escritura para cualquier partición dada.
-  *** seguidor **: Nodo que sigue las instrucciones del líder se llaman seguidores.
+  ***Temas** : Un flujo de mensajes pertenecientes a una categoría particular se llama tema.
+  ***Partition** : Los temas pueden tener muchas particiones, por lo que pueden manejar una cantidad arbitraria de datos.
+  ***Compensación de partición** : Cada mensaje dividido tiene una ID de secuencia única llamada "Offset".
+  ***REPLICAS DE PARTICIÓN** : Las réplicas son copias de seguridad de una partición. Se utilizan para prevenir la pérdida de datos.
+  ***Brokers** : son responsables de mantener los datos publicados.
+  ***Cluster Kafka** : Kafka tiene más de un corredor se llama clúster Kafka.
+  ***Productores** : Son los editores de los mensajes a uno o más temas.
+  ***Consumidores** : Son el lector de los datos de los corredores. Se suscriben a múltiples temas y consumen cuando hay un mensaje en el tema.
+  ***Líder** : El nodo es responsable de todas las lecturas y escritura para cualquier partición dada.
+  ***seguidor** : Nodo que sigue las instrucciones del líder se llaman seguidores.
 
-## Pasos de instalación {#steps}
+## Pasos de instalación   {#steps}
 
 ### Paso 1 - Verificación de la instalación de Java
 Esperemos que ya haya instalado Java en su máquina en este momento, por lo que solo lo verifica usando el siguiente comando.
@@ -93,7 +93,7 @@ Abra otra sesión de terminal y ejecute:
 $ bin/kafka-server-start.sh config/server.properties
 ```
 
-## Crear un tema {#Create}
+## Crear un tema   {#Create}
 Para escribir sus mensajes o eventos en temas, primero debe crear un tema. Para crear un tema, abra su terminal y ejecute el siguiente comando:
 ```
 $ bin/kafka-topics.sh --create --topic weather-updates --bootstrap-server localhost:9092
@@ -106,7 +106,7 @@ Topic:weather-updates  PartitionCount:1    ReplicationFactor:1 Configs:
 
 ```
 
-## Escriba el mensaje en el tema {#Write}
+## Escriba el mensaje en el tema   {#Write}
 Ejecute el cliente del productor de consola para escribir algunos eventos en su tema. Por defecto, cada línea que ingrese dará como resultado un evento separado que se escribe en el tema.
 ```
 $ bin/kafka-console-producer.sh --topic weather-updates --bootstrap-server localhost:9092
@@ -114,7 +114,7 @@ Weather for New York is Cloudy
 Weather for Houston is Rainy
 ```
 
-## Leer mensajes del tema {#read}
+## Leer mensajes del tema   {#read}
 Abra otra sesión de terminal y ejecute el cliente de consumidor de consola para leer los eventos que acaba de crear:
 ```
 $ bin/kafka-console-consumer.sh --topic weather-updates --from-beginning --bootstrap-server localhost:9092
@@ -123,7 +123,7 @@ Weather for Houston is Rainy
 ```
 Siéntase libre de experimentar: por ejemplo, vuelva a su terminal de productor (paso anterior) para escribir eventos adicionales y vea cómo aparecen los eventos inmediatamente en su terminal de consumo.
 
-## conclusión {#conclusion}
+## conclusión   {#conclusion}
 En este tutorial hemos aprendido sobre los conceptos básicos del uso de Apache Kafka. Instalamos el servicio de cola Kafka y luego lo configuramos. También aprendimos a crear temas en Kafka, enviar mensajes a temas y cómo leer mensajes de los temas. Espero que este artículo haya sido útil para ti. Veamos en el próximo artículo.
 _ ¿Qué plataforma de transmisión de eventos distribuida de código abierto? ¿Tiene alguna pregunta?, Por favor_ [póngase en contacto][9].
 

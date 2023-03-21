@@ -20,17 +20,17 @@ XAMPP est un serveur Web open source qui fournit un environnement local pour cr�
   * [Exécuter et tester le script php][5]
   * [Conclusion][6]
 
-## exigences {#Requirements}
+## exigences   {#Requirements}
   * Installation XAMPP
   * Application de l'éditeur de code
   * Connaissances PHP de base
   * Connaissances de base HTML et JavaScript
 
-## Qu'est-ce que XAMPP? {#xampp}
+## Qu'est-ce que XAMPP?   {#xampp}
 XAMPP est une pile de solutions de serveur Web open source. Il contient Apache, MySQL, MariaDB, PHP et Perl. Il est extrêmement facile à installer et à utiliser. C’est pourquoi c’est l’environnement de développement PHP le plus populaire. Le serveur XAMPP fournit un environnement complet pour le développement d'applications Web PHP. Si vous n'avez pas déjà l'installation de travail XAMPP, suivez ce guide pour installer XAMPP:
 [Configuration de XAMPP et PhpMyAdmin en tant que localhost sur Windows][7]
 
-## Créer un script php {#php}
+## Créer un script php   {#php}
   * En supposant que vous avez déjà installé XAMPP en suivant le didacticiel ci-dessus, créons maintenant un script PHP simple et le testons sur XAMPP.
   * Ouvrez d'abord votre éditeur. Si vous n'avez pas d'éditeur de programmation, ouvrez simplement le bloc-notes.
   * Entrez le code suivant
@@ -48,7 +48,7 @@ echo "This is my first PHP project";
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="Créez votre premier projet PHP avec le serveur Web Open Source XAMPP">}}
 
 
-## Exécuter et tester le script php {#test}
+## Exécuter et tester le script php   {#test}
   * Copiez ce script PHP dans le dossier HTDOCS dans votre installation XAMPP. Le dossier HTDOCS principalement réside ici: C: \ XAMPP \ HTDOCS
   * Ouvrez votre navigateur.
   * Aller à localhost / mon \ _first \ _php_project.php
@@ -57,7 +57,7 @@ echo "This is my first PHP project";
 
 Toutes nos félicitations! Vous venez de créer votre premier projet PHP.
 
-## Conclusion {#conclusion}
+## Conclusion   {#conclusion}
 Créer un premier projet Web est toujours très excitant pour un débutant. Cela se sent bien lorsque vous concevez votre premier script dynamique, l'exécutez et affichez-le en travaillant sur votre navigateur. J'espère que ce guide simple vous a aidé à créer et à exécuter votre premier projet PHP avec le serveur Web Open Source XAMPP.
 
 ## Explorer

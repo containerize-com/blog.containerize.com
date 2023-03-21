@@ -22,7 +22,7 @@ E -postanın yıllar içinde en hızlı ve güvenilir iletişim ortamı olduğun
   * [Postfix][5]
   * [Exim][6]
 
-### ** Posta ** {#postal}
+### **Posta**    {#postal}
 Posta, Sendgrid ve Mailgun'a öncül alternatifte tam bir özelliktir. Web uygulamalarıyla kolay entegrasyon için basit bir HTTP API ile birlikte gelir. Posta% 100 ücretsiz ve açık kaynaktır, kaynak kodunu gereksinimlerinize göre değiştirebilirsiniz.
 Diğerleri arasında dikkate değer özellikleri aşağıdaki gibidir:
   * İçeride posta sunucuları ve kullanıcıları olan birden fazla kuruluş için destek.
@@ -32,7 +32,7 @@ Diğerleri arasında dikkate değer özellikleri aşağıdaki gibidir:
   * Posta gönderdiğiniz alan adlarının maksimum teslim edilebilirlik için doğru yapılandırıldığından emin olmak için yerleşik DNS kontrol ve izleme.
     [Devamını oku][7]
 
-### ** Mürekkep balığı ** {#cuttlefish}
+### **Mürekkep balığı**    {#cuttlefish}
 Mürekkep balığı kendi kendine barındırılan bir posta dağıtım yazılımıdır ve büyük miktarlarda e -posta kolayca göndermek için yaygın olarak kullanılır. SMTP protokolünü destekler. Sonuç olarak, başvurunuzdan hiçbir çaba harcamadan e -posta göndermenizi sağlar. Mürekkep balığı, en popüler ve güvenilir açık kaynaklı posta aktarım aracısından biri olan e -posta teslimatı için Postfix kullanır. Bu nedenle, postfix'in tüm güvenilirliğine sahiptir.
 İşte dikkate değer özellikler:
   * E -postalarınızın hedeflerine ulaşmasını sağlar.
@@ -42,7 +42,7 @@ Mürekkep balığı kendi kendine barındırılan bir posta dağıtım yazılım
   * Herhangi bir web çerçevesi ve dil ile çalışır
     [Devamını oku][8]
 
-### ** A-Box-In-Box ** {#-in-a-box}
+### **A-Box-In-Box**    {#-in-a-box}
 Post-in-Box, kolay dağıtıma odaklanan yenilikçi bir Linux posta sunucusudur. Otomatik DNS yapılandırmaları ile kullanışlı webmail ve imap/smtp sunucusu sağlar. Teknik uzmanlık olmadan kendi Gmail'inizi kurmanıza yardımcı olur. En iyi özellikleri şunları içerir:
   * Otomatik DNS yapılandırması
   * Spam filtreleme.
@@ -52,7 +52,7 @@ Post-in-Box, kolay dağıtıma odaklanan yenilikçi bir Linux posta sunucusudur.
   * Birden çok kullanıcı ve birden çok etki alanı adı için ana posta.
     [Devamını oku][9]
 
-### ** Postfix ** {#postfix}
+### **Postfix**    {#postfix}
 Postfix, e -postaları yönlendirmek ve teslim etmek için kullanılabilecek güçlü bir açık kaynaklı posta sunucusudur. Ancak, başlangıçta popüler posta transfer aracısı Sendmail'in yerini almak için geliştirilmiştir. Sendmail'i çok takip etmesine rağmen. Ancak, uygulamada oldukça farklı ve benzersizdir. Dahil olmak üzere birçok özellik sunar
   * Önemsiz posta kontrolü
   * Birden çok protokolü destekler
@@ -61,7 +61,7 @@ Postfix, e -postaları yönlendirmek ve teslim etmek için kullanılabilecek gü
   * Manipülasyon desteğini ve daha fazlasını adresle
     [Devamını oku][10]
 
-### ** exim ** {#Exim}
+### **exim**    {#Exim}
 Exim, birçok Unix benzeri işletim sisteminde kullanılan tam özellikli bir posta sunucusudur. Posta sunucuları için iyi bir seçim haline getiren çapraz platform desteği sunar. Exim, e -posta yönlendirme ve teslimat için son derece özelleştirilebilir bir sunucudur. EXIM, karmaşık konfigürasyonları ayarlamak için uygulama dili ile bir çerçeve gibidir. Karmaşık kullanım durumlarını çözmesine yardımcı olan gelişmiş çok adımlı bir posta işleme mantığına sahiptir. Exim'in en iyi özellikleri:
   * RFC 2821 SMTP ve RFC 2033 LMTP E -posta Mesajı Aktarımı gibi protokolleri destekler
   * Yapılandırmalar, erişim kontrol listeleri, içerik taraması, şifreleme, yönlendirme kontrollerini içerir.

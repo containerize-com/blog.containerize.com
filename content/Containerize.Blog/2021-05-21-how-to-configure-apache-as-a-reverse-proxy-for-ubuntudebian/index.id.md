@@ -44,7 +44,7 @@ Untuk memeriksa pengaturan APACHE2, buka browser Anda dan telusuri ke hostname s
 
 
 ## Langkah 2: Konfigurasikan Apache2 sebagai proxy terbalik
-Apache2 berhasil diinstal dan siap digunakan. Anda sekarang dapat mengkonfigurasi APACHE2 untuk bekerja sebagai proxy ubuntu apache2. Apache2 Proxy Module ** ProxyPass ** dan ** Fungsi ProxyPassReverse ** memberikan proxy terbalik. Untuk menggunakan ** proxypass ** dan ** proxypassreverse **, Anda harus terlebih dahulu tahu bahwa di mana Anda ingin mengarahkan lalu lintas situs.
+Apache2 berhasil diinstal dan siap digunakan. Anda sekarang dapat mengkonfigurasi APACHE2 untuk bekerja sebagai proxy ubuntu apache2. Apache2 Proxy Module **ProxyPass  **dan **  Fungsi ProxyPassReverse  **memberikan proxy terbalik. Untuk menggunakan **  proxypass  **dan **  proxypassreverse** , Anda harus terlebih dahulu tahu bahwa di mana Anda ingin mengarahkan lalu lintas situs.
 Server Proxy Reverse APACHE2 akan mendengarkan semua lalu lintas di port http default, yang merupakan port 80 dalam pengaturan sederhana. Server back-end yang meng-host konten situs web akan mendengarkan di port khusus dan kemungkinan besar port 8080.
 Dalam artikel blog ini, kami akan mengatur Apache2 untuk mendengarkan di port 80 dan kemudian mengarahkan lalu lintas ke server back-end yang mendengarkan port 8080. Jalankan perintah di bawah ini untuk membuat file proxy virtualhost yang disebut apache2proxy.conf.
 sudo nano /etc/apache2/sites-available/apache2proxy.conf
@@ -82,17 +82,17 @@ sudo a2ensite apache2proxy.conf
 sudo systemctl restart apache2.service
 Luncurkan browser web pilihan Anda dan navigasikan ke nama host server Anda seperti example.com. Anda sekarang akan diproksi ke server Apache2 Anda di port default yaitu 8080.
 
-## Langkah 4: Aktifkan SSL {#block-07b86d83-dca0-4924-b991-206719c342eb}
+## Langkah 4: Aktifkan SSL   {#block-07b86d83-dca0-4924-b991-206719c342eb}
 Jika Anda ingin mengaktifkan modul SSL proxy reverse apache, maka jalankan perintah di bawah ini untuk mengaktifkan proxy https proxy proxy apache reverse pass:
 Sudo A2Enmod SSL
 Ini akan memberikan dukungan HTTP Reverse HTTP ke HTTPS yang aman ke server backend.
 
-## Langkah 5: Restart Apache2 {#blok-836bb4ff-17ad-4317-8ECB-153104BD28A7}
+## Langkah 5: Restart Apache2   {#blok-836bb4ff-17ad-4317-8ECB-153104BD28A7}
 Untuk membuat perubahan ini berlaku, restart Apache dengan menjalankan perintah di bawah ini:
 sudo systemctl restart apache2.service
 Selamat! Anda telah berhasil menginstal dan mengonfigurasi proxy terbalik APACHE2 pada sistem Linux Anda.
 
-## ** Kesimpulan: ** {#4a1a}
+## **Kesimpulan:**    {#4a1a}
 Dalam tutorial ini, kami mengeksplorasi dan membahas apa itu server proxy dan konfigurasi proxy reverse apache langkah demi langkah. Kami juga belajar cara mengatur dan mengkonfigurasi APACHE2 sebagai proxy terbalik pada sistem Linux. Dalam tutorial mendatang kami, kami akan membahas topik yang lebih menarik tentang Apache dan tumpukan solusi server web lainnya.
 
 ## Mengeksplorasi

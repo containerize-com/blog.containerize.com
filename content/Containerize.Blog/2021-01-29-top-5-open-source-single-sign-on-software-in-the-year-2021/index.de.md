@@ -15,78 +15,78 @@ categories: ['Single Sign-On']
 
 
 ## Überblick
-Benutzer in großen Organisationen greifen nahtlos auf digitale Ressourcen zu, indem sie ** Single Sign-On (SSO) ** -Software verwenden. Identitäts- und Zugriffsmanagement mit ** SSO ** Software ist ein wesentlicher Bestandteil des routinemäßigen Geschäftsbetriebs geworden. In diesem Blog-Beitrag werden wir einige der folgenden Top 5 beliebten Open-Source-Single-Sign-On-Software durchlaufen.
-  *** [IdentityServer][1] **
-  *** [KeyCloak][2] **
-  *** [cas][3] **
-  *** [authelia][4] **
-  *** [Wso2][5] **
-  *** [Schlussfolgerung][6] **
+Benutzer in großen Organisationen greifen nahtlos auf digitale Ressourcen zu, indem sie **Single Sign-On (SSO)  **-Software verwenden. Identitäts- und Zugriffsmanagement mit **  SSO**  Software ist ein wesentlicher Bestandteil des routinemäßigen Geschäftsbetriebs geworden. In diesem Blog-Beitrag werden wir einige der folgenden Top 5 beliebten Open-Source-Single-Sign-On-Software durchlaufen.
+  ***[IdentityServer][1]** 
+  ***[KeyCloak][2]** 
+  ***[cas][3]** 
+  ***[authelia][4]** 
+  ***[Wso2][5]** 
+  ***[Schlussfolgerung][6]** 
 
-## IdentityServer {#IdentityServer}
-[** IdentityServer **][7] ist eine Open-Source-freie Single-Sign-On-Software. Es handelt sich um ein plattformübergreifendes Framework, das auf OpenID Connect und OAuth 2. basiert, diese Open-Source-Software bietet zentrale Authentifizierungs- und Autorisierungsfunktionen für mehrere Anwendungen. Es unterstützt Föderierte Identitäten, mehrere Strömungen und API -Autorisierung. Darüber hinaus ermöglicht diese ** Selbsthosting -Software ** es Benutzern, sich mit einem einzigen Satz von Benutzernamen/Passwörtern in vielen Apps anzumelden. ** IdentityServer ** ist jedoch in C# geschrieben und der gesamte Quellcode ist in [Github][8] sowie die Dokumentation bezüglich Bereitstellung und Entwicklung verfügbar.
+## IdentityServer   {#IdentityServer}
+[**IdentityServer **][7] ist eine Open-Source-freie Single-Sign-On-Software. Es handelt sich um ein plattformübergreifendes Framework, das auf OpenID Connect und OAuth 2. basiert, diese Open-Source-Software bietet zentrale Authentifizierungs- und Autorisierungsfunktionen für mehrere Anwendungen. Es unterstützt Föderierte Identitäten, mehrere Strömungen und API -Autorisierung. Darüber hinaus ermöglicht diese  **Selbsthosting -Software **  es Benutzern, sich mit einem einzigen Satz von Benutzernamen/Passwörtern in vielen Apps anzumelden.  **IdentityServer**   ist jedoch in C# geschrieben und der gesamte Quellcode ist in [Github][8] sowie die Dokumentation bezüglich Bereitstellung und Entwicklung verfügbar.
 Im Folgenden finden Sie die herausragenden Merkmale:
   * Anspruchsbasierte Anbieter
   * Plattformübergreifend
   * UI -Anpassung
   * Zugriffskontrolle für API
   * Single Sign-On /Anmeldung
-[** Erfahren Sie mehr über IdentityServer **][9]
+[**Erfahren Sie mehr über IdentityServer** ][9]
 
-## keycloak {#keycloak}
-[** keycloak **][10] ist eine weitere kostenlose Software, die auf OpenID Connect, OAuth2.0 und SAML2.0 basiert. Es bietet ** SSO ** Funktionen für Webanwendungen und Webdienste. Vor allem diese Open -Source -Software bietet Integrationen mit ** LDAP ** und Active Directory. Es gibt eine logische Benutzeroberfläche, in der Benutzer Rollen, Berechtigungen und Sitzungen verwalten können. Darüber hinaus bietet diese ** kostenlose Lösung ** Clientbibliotheken für viele Sprachen wie Java, JavaScript und C#. ** KeyCloak ** ist hauptsächlich in Java mit wenig Eingaben anderer Sprachen wie JavaScript und HTML geschrieben. Sein Quellcode ist in [Github][11] verfügbar.
+## keycloak   {#keycloak}
+[**keycloak **][10] ist eine weitere kostenlose Software, die auf OpenID Connect, OAuth2.0 und SAML2.0 basiert. Es bietet  **SSO **  Funktionen für Webanwendungen und Webdienste. Vor allem diese Open -Source -Software bietet Integrationen mit  **LDAP **  und Active Directory. Es gibt eine logische Benutzeroberfläche, in der Benutzer Rollen, Berechtigungen und Sitzungen verwalten können. Darüber hinaus bietet diese  **kostenlose Lösung **  Clientbibliotheken für viele Sprachen wie Java, JavaScript und C#.  **KeyCloak**   ist hauptsächlich in Java mit wenig Eingaben anderer Sprachen wie JavaScript und HTML geschrieben. Sein Quellcode ist in [Github][11] verfügbar.
 Keycloak hat die folgenden Schlüsselfunktionen:
   * Bietet Clientadapter
   * Benutzerfreundliche Benutzeroberfläche
   * Authentifizierung als Dienst
   * Integration mit LDAP
   * Integration mit Active Directory
-[** Erfahren Sie mehr über Keycloak **][12]
+[**Erfahren Sie mehr über Keycloak** ][12]
 
-## cas {#cas}
-[** cas **][13] ist Open -Source -SSO -Software mit delegierter Authentifizierung. Darüber hinaus ist es mehrsprachig und bietet zentrale Autorisierungsdienste mit dem Ticket-basierten Protokoll. Diese kostenlose Software basiert auf der Client-Server-Architektur. ** Central Authentication Service (CAS) ** unterstützt viele Protokolle wie OpenID, OAuth, OpenID Connect, Ruhe, WSFederation und SAML. Vor allem gibt es ein umfassendes System zur Integration mit Apps von Drittanbietern. Diese ** Single Sign-On ** Software ist in Java geschrieben. Sein Quellcode ist jedoch in [Github][14] mit allen Dokumentationen zur Entwicklung und Bereitstellung verfügbar.
+## cas   {#cas}
+[**cas **][13] ist Open -Source -SSO -Software mit delegierter Authentifizierung. Darüber hinaus ist es mehrsprachig und bietet zentrale Autorisierungsdienste mit dem Ticket-basierten Protokoll. Diese kostenlose Software basiert auf der Client-Server-Architektur.  **Central Authentication Service (CAS) **  unterstützt viele Protokolle wie OpenID, OAuth, OpenID Connect, Ruhe, WSFederation und SAML. Vor allem gibt es ein umfassendes System zur Integration mit Apps von Drittanbietern. Diese  **Single Sign-On**   Software ist in Java geschrieben. Sein Quellcode ist jedoch in [Github][14] mit allen Dokumentationen zur Entwicklung und Bereitstellung verfügbar.
 CAS bietet die folgenden wichtigen Funktionen:
   * Mehrsprachig
   * Multifaktorauthentifizierung
   * Viele Autorisierungsmechanismen (z. B. ABAC, Uhrzeit/Datum, Ruhe)
   * UI zur Verwaltung von Überwachung und Statistiken
   * Passwortverwaltung
-[** Erfahren Sie mehr über Cas **][15]
+[**Erfahren Sie mehr über Cas** ][15]
 
-## Authelia {#Authelia}
-[** authelia **][16] ist hochgeprägt und skalierbare SSO-Software. Es bietet eine großartige Sicherheit und bietet eine einzelne Anmelde- und Anmeldeberichtungsfähigkeiten. Diese ** Open Source -Software ** bietet auch Unterstützung für LDAP und Active Directory. Darüber hinaus gibt es eine intuitive Benutzeroberfläche, mit der Benutzer einfach navigieren können. Darüber hinaus bietet es eine Zwei-Faktor-Authentifizierung basierend auf ** Google Authenticator ** OTP. Diese ** kostenlose Software ** funktioniert mit einem Reverse -Proxy wie Nginx. Authelia ist jedoch in GO -Sprache geschrieben und alle alle Quellcode sind in [Github][17] verfügbar.
+## Authelia   {#Authelia}
+[**authelia **][16] ist hochgeprägt und skalierbare SSO-Software. Es bietet eine großartige Sicherheit und bietet eine einzelne Anmelde- und Anmeldeberichtungsfähigkeiten. Diese  **Open Source -Software **  bietet auch Unterstützung für LDAP und Active Directory. Darüber hinaus gibt es eine intuitive Benutzeroberfläche, mit der Benutzer einfach navigieren können. Darüber hinaus bietet es eine Zwei-Faktor-Authentifizierung basierend auf  **Google Authenticator **  OTP. Diese  **kostenlose Software**   funktioniert mit einem Reverse -Proxy wie Nginx. Authelia ist jedoch in GO -Sprache geschrieben und alle alle Quellcode sind in [Github][17] verfügbar.
 Authelia erstellt die folgenden Schlüsselfunktionen:
   * 2f Authentifizierung mit Yubikey
   * Identitätsprüfung
   * Block Brute Force -Angriffe
   * Funktioniert mit umgekehrten Proxys
   * Drücken Sie Benachrichtigungen mit Duo
-** [Erfahren Sie mehr über Authelia][18] **
+**[Erfahren Sie mehr über Authelia][18]** 
 
-## WSO2 {#WSO2}
-[** WSO2 **][19] ist ein weiteres weit verbreitetes Open -Source -Identitäts- und Zugriffsmanagementsystem. Es unterstützt fast alle populären Identitätsstandards, um Authentifizierung zu liefern. Es hat API -Endpints für die Integration in andere Anwendungen aufgedeckt. ** WSO2 ** erstellt eine ** benutzerfreundliche Schnittstelle **, die sehr anpassbar ist. Darüber hinaus bietet diese Open-Source-Software auch eine Zwei-Faktor-Authentifizierung. Es ist jedoch hauptsächlich in Java geschrieben und sein All -Quell -Code ist in [Github][20] mit Dokumentation zu Entwicklung und Bereitstellung verfügbar.
+## WSO2   {#WSO2}
+[**WSO2 **][19] ist ein weiteres weit verbreitetes Open -Source -Identitäts- und Zugriffsmanagementsystem. Es unterstützt fast alle populären Identitätsstandards, um Authentifizierung zu liefern. Es hat API -Endpints für die Integration in andere Anwendungen aufgedeckt.  **WSO2 **  erstellt eine  **benutzerfreundliche Schnittstelle**  , die sehr anpassbar ist. Darüber hinaus bietet diese Open-Source-Software auch eine Zwei-Faktor-Authentifizierung. Es ist jedoch hauptsächlich in Java geschrieben und sein All -Quell -Code ist in [Github][20] mit Dokumentation zu Entwicklung und Bereitstellung verfügbar.
 WSO2 bietet die folgenden wichtigen Punkte:
   * Hochleistung
   * Cloud -Integrationen
   * Flexibel
   * Inbound/Outbound -Bereitstellung
   * Identitätsanbieter
-** [Erfahren Sie mehr über WSO2][21] **
+**[Erfahren Sie mehr über WSO2][21]** 
 
-## Schlussfolgerung {#Conclusion}
-Fast die gesamte Open Source ** SSO -Software ** in diesem Blog -Beitrag werden auf Unternehmensebene häufig verwendet. Wenn Sie im Prozess der Auswahl des besten ** Single -Anzeichens für Software ** für Unternehmen auswählen, empfehlen wir Ihnen, diesen Artikel tief durchzugehen.
-Schließlich schreibt [** Containerize.com **][22] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Single Sign-On][23] in Kontakt, um regelmäßige Aktualisierungen zu erzielen.
+## Schlussfolgerung   {#Conclusion}
+Fast die gesamte Open Source **SSO -Software  **in diesem Blog -Beitrag werden auf Unternehmensebene häufig verwendet. Wenn Sie im Prozess der Auswahl des besten **  Single -Anzeichens für Software**  für Unternehmen auswählen, empfehlen wir Ihnen, diesen Artikel tief durchzugehen.
+Schließlich schreibt [**Containerize.com** ][22] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Single Sign-On][23] in Kontakt, um regelmäßige Aktualisierungen zu erzielen.
 
 ## Erkunden
-  *** [IdentityServer][24] **
-  *** [KeyCloak][25] **
-  *** [cas][26] **
-  *[** authelia **][27]
-  *** [Wso2][28] **
-  *** [OpenIdentityPlatform][29] **
-  *** [FreeIpa][30] **
-  *** [Wie man das SSO -System für ein besseres Geschäftswachstum nutzt][31] **
-  *** [Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][32] **
+  ***[IdentityServer][24]** 
+  ***[KeyCloak][25]** 
+  ***[cas][26]** 
+  *[**authelia** ][27]
+  ***[Wso2][28]** 
+  ***[OpenIdentityPlatform][29]** 
+  ***[FreeIpa][30]** 
+  ***[Wie man das SSO -System für ein besseres Geschäftswachstum nutzt][31]** 
+  ***[Automatisieren Sie den Geschäftsbetrieb mit kostenloser und Open -Source -Software][32]** 
 
   
 [1]: #IdentityServer

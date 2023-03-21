@@ -24,10 +24,10 @@ Bu blog aşağıdaki bölümleri kapsayacaktır:
   * [Mautik konfigürasyon][3]
   * [Son düşünceler][4]
 
-## WordPress eklenti yapılandırması {#wordpress}
+## WordPress eklenti yapılandırması   {#wordpress}
   1. Eklentilere gidin.
   2. “Yeni Ekle” ye tıklayın.
-  3. “** Woocommerce için Mautic ile entegrasyon arayın **”.
+  3. “**Woocommerce için Mautic ile entegrasyon arayın** ”.
   4. Eklentiyi bulduktan sonra “Şimdi Yükle” ye tıklayın.
   5. Kurulumdan sonra “Etkinleştir” i tıklayın.
   6. Ardından WooCommerce -> Mautic -> Bağlama sekmesine gidin.
@@ -40,7 +40,7 @@ Bu blog aşağıdaki bölümleri kapsayacaktır:
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Mautic ve WordPress Entegrasyonu">}}
 
 
-## Mautik Yapılandırma: {#Mautic}
+## Mautik Yapılandırma:   {#Mautic}
   1. Mautic sitenizden ayarlara gidin.
   2. Yapılandırmalara gidin.
   3. API ayarlarından API'yi etkinleştirin.
@@ -60,7 +60,7 @@ Bu blog aşağıdaki bölümleri kapsayacaktır:
 {{< figure align=center src="images/mautic-1024x622.png" alt="Mautic ve WordPress entegrasyon adımları">}}
 
 
-## Son Düşünceler: {#Final}
+## Son Düşünceler:   {#Final}
 Mautic-Woocommerce entegrasyonu birlikte pazarlama hedeflerinize ulaşmanıza yardımcı olabilir. Bu entegrasyon, e -ticaret pazarlama otomasyonu için en iyi çözümlerden biridir. WordPress ile kolayca çok fazla müşteri alabilirsiniz ve daha sonra Mautic ile bu müşterileri hedeflemek ve bunları kesinlikle satışlarla övünecek ürünleriniz/hizmetlerinizle ilgili olarak güncel tutmak için sınırsız kampanyalar oluşturabilirsiniz.
 
 ## Keşfetmek:

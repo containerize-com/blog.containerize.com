@@ -17,19 +17,19 @@ categories: ['Game Development Software']
 ## **Überblick**
 Open Source -Community taucht mit dem Durchgang jeder Minute auf. Es gibt plattformübergreifende Spiele, mobile Spiele und Desktop-Spiele. Verschiedene Arten von Spielen umfassen Actionspiele, Abenteuerspiele, Rollenspiele, Sportspiele, Puzzlespiele, Simulationsspiele und viele mehr. Daher haben all diese verschiedenen Spieltypen dem Verkehr einen immensen Schub gegeben, da Benutzer aus allen Altersgruppen dazu neigen, diese Spiele zu spielen.
 Darüber hinaus hat die Pandemie eine massive Veränderung des Lebensstils der Menschen auf der ganzen Welt geführt. Die Leute haben jetzt mehr Zeit. Alle Offline -Aktivitäten sind online geworden. Daher neigen sie dazu, sich für Online -Software zu entscheiden, um professionelle Aufgaben und Videospiele im Falle von Unterhaltung auszuführen. Aus all diesen Gründen hat diese Branche Nachhaltigkeit und die Unterstützung der Benutzer und Entwickler erlangt. In der jüngsten Vergangenheit haben wir über Themen wie [HTML5 -Spielentwicklungs -Tutorial für Videospielprogrammierer][1][1][wie die globale Spielebranche Open -Source -Software eingesetzt][2] und [GDevelop -Tutorial für Anfänger zum Starten der Spielentwicklung] geschrieben. [3]. In diesem Tutorial für Spielentwicklung werden wir die folgenden Punkte behandeln.
-  *** [Features Exploration von GDevelop][4] **
-  *** [an einem Spiel arbeiten][5] **
-  *** [Schlussfolgerung][6] **
+  ***[Features Exploration von GDevelop][4]** 
+  ***[an einem Spiel arbeiten][5]** 
+  ***[Schlussfolgerung][6]** 
 
-## Features Exploration von GDevelop {#Features}
+## Features Exploration von GDevelop   {#Features}
 [GDevelop][7] ist eine Open -Source -Spielerbauplattform. Es ist hoch erweiterbar und bietet eine logische Oberfläche, an der Benutzer problemlos navigieren können. Diese kostenlose Software ist in C ++, TypeScript und JavaScript geschrieben. Darüber hinaus sind umfassende Dokumentationen hinsichtlich Entwicklung und Bereitstellung verfügbar. Der gesamte Quellcode ist bei GitHub verfügbar. Darüber hinaus gibt es viele Funktionen, die dieses Spiel softwarebeihöflich machen. Sehen wir uns einige der wichtigsten Funktionen an.
-** plattformübergreifend **: Diese Plattform für Spielerstellung ist multiplattform und kann auf fast allen beliebten Betriebssystemen wie MacOS, Linux und Windows bereitgestellt werden.
-** Exportoptionen **: Mit GDevelop können Benutzer mit nur einem Klick für Android, iOS und Web entwickelt werden. Spielbesitzer können Videoanzeigen in ihren Spielen anzeigen und dies kann mit der Unterstützung von Admob möglich sein.
-** Reiche Spielobjekte **: Dieser Open -Source -Game -Hersteller bietet eine breite Palette von Spielobjekten wie Sprites mit Animationen, Feuerexplosionen und anderen Effekten mit Hilfe von Partikeln. Formatierter Text, eingebettete Videos und Zeichnen von benutzerdefinierten Formen sind verfügbar, um auffällige Effekte in die Spiele zu bringen.
-** Vielseitige Verhaltensweisen **: In diesem grundlegenden Spielentwicklungsartikel zeigen wir Ihnen, wie wir den Spielobjekten unterschiedliche Verhaltensweisen hinzufügen können. Es stehen mehrere Verhaltensweisen zur Verfügung, die zur Verwendung bereit sind, und Benutzer können sich nach Anforderungen weiterentwickeln. Es geschieht alles in wenigen Mausklicks.
-** Erweiterte Schnittstelle **: In diesem Tutorial für Spieldesign sehen wir die Benutzeroberfläche dieser 3D -Game -Engine. Benutzer können verschiedene Spielelemente und Objekte ziehen und fallen lassen.
+**plattformübergreifend** : Diese Plattform für Spielerstellung ist multiplattform und kann auf fast allen beliebten Betriebssystemen wie MacOS, Linux und Windows bereitgestellt werden.
+**Exportoptionen** : Mit GDevelop können Benutzer mit nur einem Klick für Android, iOS und Web entwickelt werden. Spielbesitzer können Videoanzeigen in ihren Spielen anzeigen und dies kann mit der Unterstützung von Admob möglich sein.
+**Reiche Spielobjekte** : Dieser Open -Source -Game -Hersteller bietet eine breite Palette von Spielobjekten wie Sprites mit Animationen, Feuerexplosionen und anderen Effekten mit Hilfe von Partikeln. Formatierter Text, eingebettete Videos und Zeichnen von benutzerdefinierten Formen sind verfügbar, um auffällige Effekte in die Spiele zu bringen.
+**Vielseitige Verhaltensweisen** : In diesem grundlegenden Spielentwicklungsartikel zeigen wir Ihnen, wie wir den Spielobjekten unterschiedliche Verhaltensweisen hinzufügen können. Es stehen mehrere Verhaltensweisen zur Verfügung, die zur Verwendung bereit sind, und Benutzer können sich nach Anforderungen weiterentwickeln. Es geschieht alles in wenigen Mausklicks.
+**Erweiterte Schnittstelle** : In diesem Tutorial für Spieldesign sehen wir die Benutzeroberfläche dieser 3D -Game -Engine. Benutzer können verschiedene Spielelemente und Objekte ziehen und fallen lassen.
 
-## Arbeiten an einem Spiel {#Working}
+## Arbeiten an einem Spiel   {#Working}
 In diesem Abschnitt des Tutorial für Spielentwicklung wird die grundlegende Spielentwicklung mit GDevelop erhoben. Bevor Sie weiter gehen, stellen Sie sicher, dass Sie GDevelop lokal auf Ihrem Computer installiert haben.
 Sie können dieses Tutorial besuchen [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten][3], um das Wissen über die Einrichtung dieses Spieleditors auf Localhost zu erhalten.
 Öffnen Sie nun den Editor und erstellen Sie ein neues Projekt. In diesem Tutorial erstellen wir einen Ordner auf Google Drive zum Speichern von Spieldateien. Klicken Sie nun auf das "Ein neues Projekt erstellen". Es wird ein neues Dialogfeld geöffnet. Wählen Sie die Option "Leeres Spiel" aus, um ein neues Spiel zu erstellen.
@@ -62,7 +62,7 @@ Ziehen Sie also die Marke, die in der linken oberen Ecke in die Mitte des Objekt
 {{< figure align=center src="images/Screenshot-2021-05-28-at-16.18.02-1024x578.png" alt="Spielentwicklungs -Tutorial">}}
 
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Dies ist das Ende dieses Tutorial für Spielentwicklung. Hoffentlich wäre dieser Blog -Beitrag für die Spieleentwickler hilfreich. Dieses Tutorial ermöglichte es Ihnen, mit den Spielobjekten zu arbeiten und Verhaltensweisen hinzuzufügen. In Zukunft veröffentlichen Contenterize.com Blog -Beiträge und Tutorial -Artikel zu weiteren Software für Open -Source -Videospieldesign. Bitte bleiben Sie für regelmäßige Updates mit dieser Kategorie [8] in Verbindung mit dieser Kategorie [8][8] in Verbindung.
 
 ## Erkunden

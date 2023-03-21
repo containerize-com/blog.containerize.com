@@ -15,34 +15,34 @@ categories: ['Version Control Software']
 
 
 ## Genel Bakış
-Bir yazılım projesinde verimliliği artırmanın en iyi yollarından biri, manuel veya tekrarlayan her şeyi otomatikleştirmektir. Ve ** GitHub Eylemleri ** gibi harika bir araç kullandığınızda otomasyonun uygulanması ne kadar kolay olduğuna şaşırabilirsiniz. Son birkaç makaleden bu yana, [GIT][1], [sürüm kontrolü][1] ve [yazılım geliştirme iş akışlarının otomasyonu][2] ve [sürekli entegrasyon ve sürekli teslimat][3 hakkında yazıyorum ]. Umarım şimdiye kadar, depoların ve bunların nasıl kullanılacağının farkındasınız.
-Bugünün ** GitHub Eylemleri Eğitimi ** 'da GitHub eylemlerini ve bunu uygulama otomasyonu, özelleştirme ve yazılım geliştirme iş akışlarınızı deponuzda yürütmek için nasıl kullanabileceğinizi keşfedeceğiz. Öyleyse başlayalım
-  *** [CI/CD iş akışlarını gözden geçirin][4] **
-  *** [GitHub Eylemleri Nelerdir][5] **
-  *** [YAML sözdizimini anlamak][6] **
-  *** [ilk iş akışınızı oluşturma][7] **
-  *** [Sonuç][8] **
+Bir yazılım projesinde verimliliği artırmanın en iyi yollarından biri, manuel veya tekrarlayan her şeyi otomatikleştirmektir. Ve  **GitHub Eylemleri **  gibi harika bir araç kullandığınızda otomasyonun uygulanması ne kadar kolay olduğuna şaşırabilirsiniz. Son birkaç makaleden bu yana, [GIT][1], [sürüm kontrolü][1] ve [yazılım geliştirme iş akışlarının otomasyonu][2] ve [sürekli entegrasyon ve sürekli teslimat][3 hakkında yazıyorum ]. Umarım şimdiye kadar, depoların ve bunların nasıl kullanılacağının farkındasınız.
+Bugünün  **GitHub Eylemleri Eğitimi **  'da GitHub eylemlerini ve bunu uygulama otomasyonu, özelleştirme ve yazılım geliştirme iş akışlarınızı deponuzda yürütmek için nasıl kullanabileceğinizi keşfedeceğiz. Öyleyse başlayalım
+  * **[CI/CD iş akışlarını gözden geçirin][4] ** 
+  * **[GitHub Eylemleri Nelerdir][5] ** 
+  * **[YAML sözdizimini anlamak][6] ** 
+  * **[ilk iş akışınızı oluşturma][7] ** 
+  * **[Sonuç][8] ** 
 
-## CI/CD iş akışları {#cicd}
-CI/CD, yazılım geliştirme projelerinizin son kullanıcılara, otomasyon yardımıyla farklı aşamalarda sık sık dağıtımın bir yöntemidir. ** Sürekli Entegrasyon ve Sürekli Dağıtım ** Daha çok bir felsefe ve DevOps ekiplerinin uygulanması, kod değişikliklerini daha sık ve güvenilir bir şekilde sunmak için en iyi uygulamalardan biridir.
-** Sürekli Entegrasyon **, geliştirme ekiplerini sürüm kontrol depolarına sık sık kod kontrol etmeye teşvik eden bir dizi uygulamadır. Ve depoya yapılan her itme için, uygulamanızı otomatik olarak oluşturmak ve test etmek için bir dizi komut dosyası oluşturabilirsiniz. Bu komut dosyaları, uygulamanızda hatalar getirme şansını azaltmaya yardımcı olur.
-** Sürekli Dağıtım ** CI/CD iş akışlarınızda bir adım önde. Bir kod değişikliği kod tabanına her itildiğinde yalnızca uygulamanızı oluşturmak ve test etmekle kalmaz, aynı zamanda uygulama da sürekli olarak sunucunuza dağıtılır.
+## CI/CD iş akışları   {#cicd}
+CI/CD, yazılım geliştirme projelerinizin son kullanıcılara, otomasyon yardımıyla farklı aşamalarda sık sık dağıtımın bir yöntemidir.  **Sürekli Entegrasyon ve Sürekli Dağıtım **  Daha çok bir felsefe ve DevOps ekiplerinin uygulanması, kod değişikliklerini daha sık ve güvenilir bir şekilde sunmak için en iyi uygulamalardan biridir.
+ **Sürekli Entegrasyon ** , geliştirme ekiplerini sürüm kontrol depolarına sık sık kod kontrol etmeye teşvik eden bir dizi uygulamadır. Ve depoya yapılan her itme için, uygulamanızı otomatik olarak oluşturmak ve test etmek için bir dizi komut dosyası oluşturabilirsiniz. Bu komut dosyaları, uygulamanızda hatalar getirme şansını azaltmaya yardımcı olur.
+ **Sürekli Dağıtım **  CI/CD iş akışlarınızda bir adım önde. Bir kod değişikliği kod tabanına her itildiğinde yalnızca uygulamanızı oluşturmak ve test etmekle kalmaz, aynı zamanda uygulama da sürekli olarak sunucunuza dağıtılır.
 
-## GitHub Eylemleri Nedir {#Github-Actions}
-Bu GitHub Eylemleri öğreticisinin bölümünde, ** Github Eylemleri ** ne olduğunu öğreneceğiz. Bununla birlikte, GitHub eylemleri GitHub üzerindeki neden ve etki için bir API'dır. Şimdi CI/CD ile tüm yazılım iş akışlarınızı otomatikleştirmenizi kolaylaştırır. Github yürütmeyi yönetirken, herhangi bir etkinliğe göre herhangi bir iş akışını tasarlayabilirsiniz. Ancak, eylemleri kendiniz yazmanız gerekmez. Github, insanların diğer insanlar tarafından oluşturulan eylemleri bulabileceği ve ihtiyaçlarına uygunsa onları yeniden kullanabilecekleri dahili bir pazara sahiptir. GitHub eylemleri Node.js, Python, Java, Ruby, PHP, Go, Rust, .NET ve daha fazlasını destekler. Uygulamaları tercih ettiğiniz dilde oluşturun, test edin ve dağıtın.
+## GitHub Eylemleri Nedir   {#Github-Actions}
+Bu GitHub Eylemleri öğreticisinin bölümünde,  **Github Eylemleri **  ne olduğunu öğreneceğiz. Bununla birlikte, GitHub eylemleri GitHub üzerindeki neden ve etki için bir API'dır. Şimdi CI/CD ile tüm yazılım iş akışlarınızı otomatikleştirmenizi kolaylaştırır. Github yürütmeyi yönetirken, herhangi bir etkinliğe göre herhangi bir iş akışını tasarlayabilirsiniz. Ancak, eylemleri kendiniz yazmanız gerekmez. Github, insanların diğer insanlar tarafından oluşturulan eylemleri bulabileceği ve ihtiyaçlarına uygunsa onları yeniden kullanabilecekleri dahili bir pazara sahiptir. GitHub eylemleri Node.js, Python, Java, Ruby, PHP, Go, Rust, .NET ve daha fazlasını destekler. Uygulamaları tercih ettiğiniz dilde oluşturun, test edin ve dağıtın.
 
-## YAML Sözdizimi {#yaml}
-Önce ** GitHub Eylemlerinin ** sözdizimlerini ve terminolojilerini bilelim.
-  *** İş Akışı: ** GitHub eylemi, uçtan uca ** sürekli entegrasyon ve sürekli dağıtım ** özellikleri oluşturma tesisini sağladığından, bu terim, akış CI aracı tarafından yürütülmeye başladığında bu noktayı ifade eder.
-  *** İş **: Bu terim, tek bir iş akışındaki tüm görevleri ifade eder. Bir iş akışı birden fazla iş içerir ve hepsinin başarısızlığı önlemek için yürütmelerini tamamlamaları gerekir.
-  *** Adım: ** Bir işin yürütülmesini tamamlaması için, içine gömülü tüm adımları tamamlamalıdır.
-  *** Eylem: ** Eylem, adımın birincil alt kümesi ve iş akışının en küçük alt kümesidir. Her adım, başarılı bir şekilde yürütülmesi gereken birden fazla eylemden oluşur.
+## YAML Sözdizimi   {#yaml}
+Önce  **GitHub Eylemlerinin **  sözdizimlerini ve terminolojilerini bilelim.
+  * **İş Akışı: **  GitHub eylemi, uçtan uca  **sürekli entegrasyon ve sürekli dağıtım **  özellikleri oluşturma tesisini sağladığından, bu terim, akış CI aracı tarafından yürütülmeye başladığında bu noktayı ifade eder.
+  * **İş ** : Bu terim, tek bir iş akışındaki tüm görevleri ifade eder. Bir iş akışı birden fazla iş içerir ve hepsinin başarısızlığı önlemek için yürütmelerini tamamlamaları gerekir.
+  * **Adım: **  Bir işin yürütülmesini tamamlaması için, içine gömülü tüm adımları tamamlamalıdır.
+  * **Eylem: **  Eylem, adımın birincil alt kümesi ve iş akışının en küçük alt kümesidir. Her adım, başarılı bir şekilde yürütülmesi gereken birden fazla eylemden oluşur.
 Gördüğünüz gibi iş akışını, iş, adım ve eylem birbirine bağlıdır ve CI/CD boru hattının başarılı bir şekilde tamamlanması için her şeyin başarılı bir şekilde yürütülmesi gereklidir.
 
-## bir iş akışı oluştur {#workflow}
-Bir yazılım geliştirme projesinde, geliştirme ekiplerinin karşılaştığı sorunlardan biri kaynak kodunun biçimi ve en iyi uygulamaların uygulanmasıdır. Bu sorun daha büyük takımlar için daha açıktır. Daha fazla geliştirici içerdikleri ve herkesin kendi yazma kodu tarzı vardır. Dolayısıyla Linter paketlerinin kullanımı ekipler arasında çok yaygındır. Ama şimdi ** GitHub Eylemleri ** ile, birisi kodu Github Repo'ya her ittiğinde Linter'ı gerçekten zorlayabilirsiniz.
+## bir iş akışı oluştur   {#workflow}
+Bir yazılım geliştirme projesinde, geliştirme ekiplerinin karşılaştığı sorunlardan biri kaynak kodunun biçimi ve en iyi uygulamaların uygulanmasıdır. Bu sorun daha büyük takımlar için daha açıktır. Daha fazla geliştirici içerdikleri ve herkesin kendi yazma kodu tarzı vardır. Dolayısıyla Linter paketlerinin kullanımı ekipler arasında çok yaygındır. Ama şimdi  **GitHub Eylemleri **  ile, birisi kodu Github Repo'ya her ittiğinde Linter'ı gerçekten zorlayabilirsiniz.
 Bu GitHub Eylemleri öğreticisinde, [GitHub Super-Linter][9] eylemini kullanarak birden fazla kodlama dilini ayarlayan bir iş akışı ekleyeceksiniz. İş akışı, deponuza her yeni bir taahhüt itildiğinde kaynak kodunuzu doğrulamak için süper linter kullanır.
-GitHub'daki deponuzdan **. GitHub/Workflows ** dizininde ** SuperLinter.yml ** adlı yeni bir dosya oluşturun ve aşağıdaki içeriği içine kopyalayın
+GitHub'daki deponuzdan **. GitHub/Workflows  **dizininde **  SuperLinter.yml ** adlı yeni bir dosya oluşturun ve aşağıdaki içeriği içine kopyalayın
 ```
 name: Super-Linter
 
@@ -80,8 +80,8 @@ Sol kenar çubuğunda, görmek istediğiniz iş akışını tıklayın.
 
 Kodunuzdaki sorunları bulmanıza yardımcı olmak için deposunuza her itildiğinde çalıştırma eklediğiniz süper linter iş akışı. Deponuz, farklı olaylara dayalı farklı işleri tetikleyen birden fazla iş akışına sahip olabilir. GitHub eylemleri, uygulama geliştirme süreçlerinizin neredeyse her yönünü otomatikleştirmenize yardımcı olabilir. Bu sadece GitHub eylemlerine temel bir girişti. Kullanabileceğiniz Github eylemleri hakkında derinlemesine bilgi için tonlarca [kaynak][10] vardır.
 
-## Sonuç {#Conclusion}
-Bu ** GitHub Eylemleri Eğitimi **, ** Sürekli Entegrasyon ve Sürekli Dağıtım ** ve ** Github Eylemleri ** hakkında öğrendik. Ayrıca, bir CI/CD iş akışı oluşturmak için ** GitHub Eylemleri ** nasıl kullanabileceğimizi de araştırdık. Kod tabanımızdaki tutarsızlıkları bulmak için GitHub Actions Pazarı'ndan basit bir süper astar iş akışı kullandık. Yaklaşan makalelerde, Github eylemlerini daha derinlemesine keşfedeceğiz. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen ** sürüm kontrol sistemi ** ile ilgili diğer blog yayınlarını bulabilirsiniz.
+## Sonuç   {#Conclusion}
+Bu  **GitHub Eylemleri Eğitimi ** ,  **Sürekli Entegrasyon ve Sürekli Dağıtım **  ve  **Github Eylemleri **  hakkında öğrendik. Ayrıca, bir CI/CD iş akışı oluşturmak için  **GitHub Eylemleri **  nasıl kullanabileceğimizi de araştırdık. Kod tabanımızdaki tutarsızlıkları bulmak için GitHub Actions Pazarı'ndan basit bir süper astar iş akışı kullandık. Yaklaşan makalelerde, Github eylemlerini daha derinlemesine keşfedeceğiz. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen  **sürüm kontrol sistemi **  ile ilgili diğer blog yayınlarını bulabilirsiniz.
 Son olarak, [Containerize.com][11] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [sürüm kontrol yazılımı][12] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook][13], [LinkedIn][14] ve [Twitter][15] 'te takip edebilirsiniz.
 
 ## Keşfetmek

@@ -13,28 +13,28 @@ categories: ['Shopping Cart Software']
 
 {{< figure align=center src="images/prestashop-module.png" alt="Prestashop -Modul">}}
 
-** Prestashop ** ist E -Commerce -Software, die 100% frei und Open Source ist. Auf diese Weise können Shop -Eigentümer ihre Online -Präsenz einfach einrichten und das Geschäft in einer weiten Ebene skalieren. Prestashop verfügt über Standardfunktionen und Sie benötigen gelegentlich mehr Funktionen für Ihre Geschäftsanforderungen. Der Marktplatz für Prestashop ist ein fantastischer Ort, um Add-On-Funktionen zu finden, mit denen die Speicherfunktionen erweitert werden können. Darüber hinaus finden Sie sowohl kostenlose als auch kostenpflichtige Module auf dem Marktplatz. Sie können jedoch auch benutzerdefiniertes Modul von Grund auf neu erstellen.
+ **Prestashop **  ist E -Commerce -Software, die 100% frei und Open Source ist. Auf diese Weise können Shop -Eigentümer ihre Online -Präsenz einfach einrichten und das Geschäft in einer weiten Ebene skalieren. Prestashop verfügt über Standardfunktionen und Sie benötigen gelegentlich mehr Funktionen für Ihre Geschäftsanforderungen. Der Marktplatz für Prestashop ist ein fantastischer Ort, um Add-On-Funktionen zu finden, mit denen die Speicherfunktionen erweitert werden können. Darüber hinaus finden Sie sowohl kostenlose als auch kostenpflichtige Module auf dem Marktplatz. Sie können jedoch auch benutzerdefiniertes Modul von Grund auf neu erstellen.
 Wir werden die folgenden Themen im Detail diskutieren, um das Prestashop -Modul ** zu erstellen.
   * [Anforderungen][1]
   * [Grundlagen der Modulentwicklung][2]
   * [Erstellen Sie unser Prestashop -Modul][3]
   * [Schlussfolgerung][4]
 
-## Anforderungen {#Req}
+## Anforderungen   {#Req}
   * Installieren Sie Prestashop 1.6 oder mehr.
   * Mit Prestashop vertraut.
   * Verständnis von PHP.
 
-## Grundlagen der Modulentwicklung {#Basics}
+## Grundlagen der Modulentwicklung   {#Basics}
 Bevor Sie mit dem Codieren beginnen, ist es wirklich wichtig, über die Kernkonzepte für die Entwicklung des Prestashop -Moduls ** zu wissen. Dadurch können Sie Ihr Modul schnell erstellen und verwalten.
-** Konfiguration ** - Mit der Konfiguration können Sie Daten in der Shop -Datenbank speichern, ohne eine modulspezifische Tabelle zu benötigen. Die Konfigurationstabelle enthält eine Liste der wichtigsten Wertschöpfungseigenschaften, auf die von überall zugegriffen werden kann.
-** Haken ** - Hooks sind eine Möglichkeit, bestimmte Prestashop -Ereignisse mit Ihrem Code zu verbinden. Sie können Hooks verwenden, um Ihren Code auf Seiten und für bestimmte Aktionen wie das Senden von E -Mails auf einem bestimmten Ereignis zu platzieren.
-** Widgets ** - Modulentwickler verwenden Widgets, um Inhalte bei Bedarf anzuzeigen.
-** Doctrine ** - Doctrine Is ORM ermöglicht es Ihnen, Ihre Datenbankdaten über Objekte zu verwalten. Dies bietet eine abstrakte Ebene, mit der Sie Einfüge-/Aktualisierungsaktionen mit einfachem Anruf ausführen können.
+ **Konfiguration **  - Mit der Konfiguration können Sie Daten in der Shop -Datenbank speichern, ohne eine modulspezifische Tabelle zu benötigen. Die Konfigurationstabelle enthält eine Liste der wichtigsten Wertschöpfungseigenschaften, auf die von überall zugegriffen werden kann.
+ **Haken **  - Hooks sind eine Möglichkeit, bestimmte Prestashop -Ereignisse mit Ihrem Code zu verbinden. Sie können Hooks verwenden, um Ihren Code auf Seiten und für bestimmte Aktionen wie das Senden von E -Mails auf einem bestimmten Ereignis zu platzieren.
+ **Widgets **  - Modulentwickler verwenden Widgets, um Inhalte bei Bedarf anzuzeigen.
+ **Doctrine **  - Doctrine Is ORM ermöglicht es Ihnen, Ihre Datenbankdaten über Objekte zu verwalten. Dies bietet eine abstrakte Ebene, mit der Sie Einfüge-/Aktualisierungsaktionen mit einfachem Anruf ausführen können.
 
-## Erstellen Sie unser Prestashop -Modul {#create}
-  *Erstellen Sie das Modulverzeichnis mit dem Namen ** MyFirstModule ** in ** Modulen ** Verzeichnis Ihrer Prestashop -Installation. Platzieren Sie alle Dateien in Ihrem Modulverzeichnis.
-  *Erstellen Sie die Hauptdatei mit Namen ** MyFirstModule.php ** und kopieren Sie den folgenden Code darin.
+## Erstellen Sie unser Prestashop -Modul   {#create}
+  *Erstellen Sie das Modulverzeichnis mit dem Namen  **MyFirstModule **  in  **Modulen **  Verzeichnis Ihrer Prestashop -Installation. Platzieren Sie alle Dateien in Ihrem Modulverzeichnis.
+  *Erstellen Sie die Hauptdatei mit Namen  **MyFirstModule.php **  und kopieren Sie den folgenden Code darin.
 ```
 <?php
 if (!defined('_PS_VERSION_'))
@@ -64,7 +64,7 @@ class MyFirstModule extends Module
   }
 }
 ```
-  *Erstellen ** install () ** und ** deinstall () ** Methoden. Fügen Sie die folgenden Methoden in ** myfirstmodule.php ** FILE hinzu.
+  *Erstellen  **install () **  und  **deinstall () **  Methoden. Fügen Sie die folgenden Methoden in  **myfirstmodule.php **  FILE hinzu.
 ```
 public function install()
 {
@@ -81,7 +81,7 @@ public function uninstall()
   return true;
 }
 ```
-  * Rufen Sie spezielle Methoden an, um unsere registrierten Hooks zu aktivieren. Wir werden diese Methoden anwenden, um "Hello World!" Anzuzeigen. Text an die Seitenleisten. Fügen Sie den folgenden Code in ** myfirstmodule.php ** Datei hinzu.
+  * Rufen Sie spezielle Methoden an, um unsere registrierten Hooks zu aktivieren. Wir werden diese Methoden anwenden, um "Hello World!" Anzuzeigen. Text an die Seitenleisten. Fügen Sie den folgenden Code in  **myfirstmodule.php **  Datei hinzu.
 ```
 public function hookLeftColumn($params)
 {
@@ -93,13 +93,13 @@ public function hookRightColumn($params)
    return $this->hookLeftColumn($params);
 }
 ```
-  *Schließlich öffnen Sie den Abschnitt Administrator, hochladen und ** Prestashop -Modul installieren **.
+  *Schließlich öffnen Sie den Abschnitt Administrator, hochladen und  **Prestashop -Modul installieren ** .
 
-## Schlussfolgerung {#Conclusion}
-Wir haben Kernkonzepte zum Aufbau des ** Prestashop -Moduls ** in diesem Tutorial erörtert. Darüber hinaus haben wir ein grundlegendes Modul entwickelt, das als Ausgangspunkt für weitere Vorabmodule verwendet werden kann. [Containerize.com][5] arbeitet konsequent an neuen Tutorial -Blog -Posts. Die neuesten Updates finden Sie in Kontakt mit der Kategorie [6][6].
+## Schlussfolgerung   {#Conclusion}
+Wir haben Kernkonzepte zum Aufbau des  **Prestashop -Moduls **  in diesem Tutorial erörtert. Darüber hinaus haben wir ein grundlegendes Modul entwickelt, das als Ausgangspunkt für weitere Vorabmodule verwendet werden kann. [Containerize.com][5] arbeitet konsequent an neuen Tutorial -Blog -Posts. Die neuesten Updates finden Sie in Kontakt mit der Kategorie [6][6].
 
 ## Erkunden
-Neben dem Tutorial ** Prestashop Modul Creation ** können Sie die folgenden Links finden.
+Neben dem Tutorial  **Prestashop Modul Creation **  können Sie die folgenden Links finden.
   * [Prestashop - kostenlose Einkaufswagen -Software][7]
   * [Top 5 Open -Source -Einkaufswagen -Software im Jahr 2020][8]
 

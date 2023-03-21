@@ -16,7 +16,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
 ## **Aperçu**
 Dans toute organisation commerciale, il y a beaucoup de tâches et d'opérations répétitives, coûteuses et longues dans la nature. Tout en effectuant ces types de tâches répétitives quotidiennes, il y a toujours une énorme possibilité d'erreurs humaines en raison d'un travail répétitif. Par conséquent, afin d'éviter les erreurs, pour gagner du temps et des efforts humains, beaucoup de logiciels RPA d'automatisation des processus robotiques sont disponibles sur le marché.
 Les tâches quotidiennes effectuées sur le logiciel par les employés sont automatisées à l'aide des robots logiciels métaphoriques ou de la technologie de l'intelligence artificielle. Le logiciel qui utilise le bot pour effectuer cette automatisation est appelé le logiciel RPA ou le logiciel robotique, non confondu avec le logiciel Robot. Vous trouverez ci-dessous une liste des outils RPA d'automatisation des processus robotiques les plus populaires disponibles sur le marché pour optimiser votre entreprise.
-** Quelles sont les RPA Rools les plus populaires? ** Dans cet article, nous nous familiariserons avec les exemples d'outils RPA open source les plus populaires de 2021.
+**Quelles sont les RPA Rools les plus populaires?**  Dans cet article, nous nous familiariserons avec les exemples d'outils RPA open source les plus populaires de 2021.
   * Prisme bleu
   * Automatisation n'importe où
   * Uipath
@@ -41,15 +41,15 @@ Nous y voilà !!!
 **Les inconvénients:**
   * Vous devriez avoir des compétences en programmation.
   * Prix élevé.
-** Quelles sont les applications de Blue Prism? **
+**Quelles sont les applications de Blue Prism?** 
   * Secteur public
   * Secteur financier
   * Communications et médias
   * Fabrication industrielle
   * Sciences de la santé et de la vie
   * Secteur de l'éducation
-** Meilleur pour: ** Automatisation des processus de back-office.
-** [En savoir plus sur le prisme bleu][1] **
+**Meilleur pour:**  Automatisation des processus de back-office.
+**[En savoir plus sur le prisme bleu][1]** 
 
 ## 2. Automatisation n'importe où
 
@@ -65,13 +65,13 @@ Nous y voilà !!!
   * Convivialité par l'utilisateur.
 **Les inconvénients**
   * IQBOT a besoin d'amélioration.
-** Applications de l'automatisation n'importe où **
+**Applications de l'automatisation n'importe où** 
   * Business de voyage
   * Secteur financier
   * Plateformes sociales
   * Secteur énergétique
-** Meilleur pour: ** Facilité d'utilisation.
-** [En savoir plus sur l'automatisation n'importe où][2] **
+**Meilleur pour:**  Facilité d'utilisation.
+**[En savoir plus sur l'automatisation n'importe où][2]** 
 
 ## 3. Uipath
 
@@ -89,9 +89,9 @@ Nous y voilà !!!
   * Il offre de bonnes fonctionnalités, gratuitement.
 **Les inconvénients:**
   * Fonctionnalité de codage limitée.
-** Coût ou prix de l'outil: **
+**Coût ou prix de l'outil:** 
 Pour les petites équipes et les individus, UIPATH fournit l'édition communautaire. Ce est gratuit.
-** Applications d'Uipath **
+**Applications d'Uipath** 
   * Finance et banque
   * Soins de santé
   * BPO
@@ -100,8 +100,8 @@ Pour les petites équipes et les individus, UIPATH fournit l'édition communauta
   * Télécom
   * Retail et CPG
   * Secteur public
-** Meilleur pour: ** Améliorations de la conformité et de la productivité.
-** [En savoir plus sur uipath][3] **
+**Meilleur pour:**  Améliorations de la conformité et de la productivité.
+**[En savoir plus sur uipath][3]** 
 
 ## 4. Pega
 
@@ -118,7 +118,7 @@ Pour les petites équipes et les individus, UIPATH fournit l'édition communauta
   * Il s'agit d'un outil robuste et fiable.
 **Les inconvénients:**
   * Il n'y a pas de solution sur site.
-** Quelles sont les applications de Pega? **
+**Quelles sont les applications de Pega?** 
   * Services financiers
   * Soins de santé et sciences de la vie
   * Prestations de service
@@ -127,8 +127,8 @@ Pour les petites équipes et les individus, UIPATH fournit l'édition communauta
   * Automobile
   * Détail
   * Médias et divertissement
-** Meilleur pour: ** Solutions CRM et support de plate-forme.
-** [En savoir plus sur Pega][4] **
+**Meilleur pour:**  Solutions CRM et support de plate-forme.
+**[En savoir plus sur Pega][4]** 
 
 ## 5. Kofax
 
@@ -146,16 +146,16 @@ Pour les petites équipes et les individus, UIPATH fournit l'édition communauta
 **Les inconvénients:**
   * Doit améliorer les vidéos de formation.
   * Cela peut être un peu difficile à apprendre.
-** Applications de Kofax **
+**Applications de Kofax** 
   * Banque
   * Gouvernement
   * Assurance
   * Transport et logistique
   * Industrie transversale
-** Mieux pour: ** Les entreprises lourdes de l'information qui souhaitent des processus métier accélérés.
-** [En savoir plus sur Kofax][5] **
+**Mieux pour:**  Les entreprises lourdes de l'information qui souhaitent des processus métier accélérés.
+**[En savoir plus sur Kofax][5]** 
 
-## ** Conclusion: ** {# 4A1A}
+## **Conclusion:**    {# 4A1A}
 Les cinq outils RPA open source mentionnés ci-dessus sont les plus populaires gratuits et les meilleurs outils RPA open source pour les développeurs. Plus pour notre comparaison de chaque outil en détail ici, Blue Prism est le meilleur outil, mais vous devez vous entraîner avant de l'utiliser. Et la formation est également coûteuse. Uipath est facile à utiliser même pour les non-développeurs. Il offre les mêmes fonctionnalités, et même il sert à petites industries à petite échelle. Pour les applications des postes de travail, le contextor est la meilleure option car ils ont une spécialité.
 _Les quels sont vos outils RPA open source les plus préférés ?. Avez-vous des questions sur les outils RPA open source?, S'il vous plaît_ [contacter][6].
 

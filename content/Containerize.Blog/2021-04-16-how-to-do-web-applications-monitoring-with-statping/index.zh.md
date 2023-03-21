@@ -18,20 +18,20 @@ Statping是**开源状态页软件**，也是**最佳网站监视工具之一**�
   ***服务监视**  -  Statping使您可以轻松跟踪所有HTTP，TCP，UDP，GRPC和ICMP服务。
   ***通知**  -  Statping支持接收通知的大多数主要第三方申请。
   ***移动应用程序**  - 用于iPhone和Android设备的免费应用程序，并在旅途中管理所有内容。
-  *** oauth authenticatio ** n  - 支持诸如GitHub，Google，Slack，Slack和Custom OpenID提供商等流行服务的OAuth身份验证。使用此功能并提高安全性。
+  ***oauth authenticatio**  n  - 支持诸如GitHub，Google，Slack，Slack和Custom OpenID提供商等流行服务的OAuth身份验证。使用此功能并提高安全性。
 我们将在本教程中介绍以下主题。
   * [在Linux上安装][1]
   * [配置SystemD服务][2]
   * [创建用于监视的服务][3]
   * [结论][4]
 
-## 在linux上安装{#installing}
+## 在linux上安装 {#installing}
 在下面的命令下运行符号安装。
 ```
 curl -o- -L https://statping.com/install.sh | bash
 ```
 
-## 配置Systemd Service {#configure}
+## 配置Systemd Service   {#configure}
 设置SystemD服务是确保您的Statping服务器可以在必要时自动重新启动的绝佳方法。要创建SystemD服务，请按照以下步骤操作。
   *首先，在命令下运行以创建新文件。
 ```
@@ -61,7 +61,7 @@ systemctl enable statping
 systemctl start statping
 ```
 
-## 创建用于监视{#create}的服务
+## 创建用于监视 {#create}的服务
   *打开浏览器，输入URL以登录到您的Stats安装。
   *单击顶部导航中的服务链接。它将向您显示在一个下方的服务页面。
 
@@ -69,19 +69,19 @@ systemctl start statping
 
   *单击创建按钮以添加新的服务以进行监视。填写所需字段，例如服务名称，服务类型，检查间隔，服务端点（URL）等。
 
-## 结论{#conclusion}
-我们了解了statping，如何在Linux上安装它以及如何在本教程中创建SystemD服务。此外，我们创建了一项新服务，以监视和向您介绍不同的功能。我们希望本指南将帮助您开始使用stating来执行** Web服务监视**和** Web应用程序监视**。
-最后，[** containerize.com **][5]正在始终如一地编写有关更多最新开源产品的博客文章。因此，与此[**状态页面**][6]类别保持联系以获取最新更新。
+## 结论 {#conclusion}
+我们了解了statping，如何在Linux上安装它以及如何在本教程中创建SystemD服务。此外，我们创建了一项新服务，以监视和向您介绍不同的功能。我们希望本指南将帮助您开始使用stating来执行 **Web服务监视** 和 **Web应用程序监视** 。
+最后，[**containerize.com **][5]正在始终如一地编写有关更多最新开源产品的博客文章。因此，与此[** 状态页面**][6]类别保持联系以获取最新更新。
 
 ## 探索
 您可能会发现以下链接相关：
-  *[** 2020年的前5个开源状态页面软件**][7]
-  *[** statping **][8]
-  *[** cachet **][9]
+  *[ **2020年的前5个开源状态页面软件** ][7]
+  *[**statping** ][8]
+  *[**cachet** ][9]
   *[**监视器**][10]
-  *[** Staytus **][11]
-  *[** upptime **][12]
-  *[** statusfy **][13]
+  *[**Staytus** ][11]
+  *[**upptime** ][12]
+  *[**statusfy** ][13]
 
   
 [1]: #Installing

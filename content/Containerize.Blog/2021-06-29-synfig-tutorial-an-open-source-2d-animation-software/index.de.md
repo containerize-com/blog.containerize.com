@@ -19,7 +19,7 @@ categories: ['Animation Software']
   * [Wie erstelle ich eine grundlegende Animation mit Synfig?][4]
   * [Schlussfolgerung][5]
 
-## Was ist Synfig? {#Was}
+## Was ist Synfig?   {#Was}
 Synfig ist eine der besten 2D -Animationssoftware, die für Solokünstler oder kleine Teams entwickelt wurde, um ihre Animations -Workflows und -projekte zu verwalten. Als Open -Source -Animationssoftware verwendet SynFIG ein "zweiloses" Animationssystem, das nicht nur die Zeit verkürzt, die es braucht, um eine Animation zu verarbeiten, sondern auch Animatoren die Möglichkeit gibt, Zeichnungsrahmen weise hinzuzufügen.
 Wenn es um die Verwendung von Synfig geht, handelt es sich wirklich um eine leichte, schnelle Animationssoftware, die eine großartige Ergänzung für die illustrierende Pipeline eines solchen Künstlers oder in einem kleinen Team sein kann. Darüber hinaus ist die Synfig -Community ein aktiver Ort, um nicht nur Tutorials zur Verwendung der Softwareanwendung zu finden, sondern auch Ressourcen, mit denen Sie Lösungen finden können, falls Sie auf eine Straßensperre stoßen.
 Sie können SYNFIG auf mehreren Betriebssystemen wie Windows, Mac OS und Linux problemlos verwenden. Bitte beachten Sie, dass Ihr System während der Verwendung von Synfig:
@@ -27,7 +27,7 @@ Sie können SYNFIG auf mehreren Betriebssystemen wie Windows, Mac OS und Linux p
   * Eine Doppelkern -CPU mit 2 GHz oder mehr
 Synfig wurde verwendet, um eine Menge beliebter Projekte zu animieren, darunter MoreVNA: Demo Project, The Deadline by Morevna, den Polar Detective Prolog von Cyan LOS und viele andere kommerzielle Projekte. Dies zeigt den Umfang von Synyfig, da es auch für kommerzielle und persönliche Projekte verwendet werden kann. Egal, ob Sie neu in der Animationswelt sind oder in Ihrer Karriere fortgeschritten sind, Synfig kann eine schöne Ausgabe für Ihre Fähigkeiten erstellen und Ihnen dabei helfen, ein engeres Verständnis für das Erstellen von erstaunlichen 2D -Animationen zu entwickeln. Wenn Sie mehr über andere Animationssoftwareprogramme erfahren möchten, können Sie sich andere Anleitungen und Tutorials ansehen, die wir für Sie gemacht haben.
 
-## Wie installiere ich Synfig? {#wie installiert man}
+## Wie installiere ich Synfig?   {#wie installiert man}
 Um die Synfig 2D -Animationssoftware auf einem Linux -Gerät zu installieren, können Sie die Installationsprogrammdatei direkt von der Haupt -Homepage von SynFig herunterladen. Sie erhalten die Option zum Herunterladen der 32-Bit- oder 64-Bit-Bilddatei. Wählen Sie nach Ihrem System.
 Öffnen Sie nach dem Herunterladen Ihre Befehlszeile und geben Sie die folgenden Befehle ein:
 ```
@@ -38,18 +38,18 @@ sudo apt-get install synfigstudio
 ```
 Jetzt müssen Sie einfach auf Synfig Studio zugreifen können.
 
-## Anwendungsschnittstellenübersicht {#Anwendungsgröße}
+## Anwendungsschnittstellenübersicht   {#Anwendungsgröße}
 Wie oben erwähnt, ist SynFig Studio eine Open -Source -Animationssoftware, mit der Benutzer nahtlose, schnelle Verarbeitung und tweenlose 2D -Animationen erstellen können. Um die Tools und Funktionen zu verstehen, finden Sie hier einen kurzen Überblick über das Synfig -Studio, wenn Sie es zum ersten Mal verwenden.
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software-1-1024x649.png" alt="Synfig Tutorial Eine Open -Source -2D -Animationssoftware">}}
 
-  *** Canvas: ** Die Leinwand ist das graue karierte Muster in der Mitte, in dem Sie Ihre Animation skizzieren und Effekte, Schichten, Rahmen und Änderungen anwenden können. Hier finden Sie die Leinwand, umgeben von Tasten rechts nach ** Sperren/Entsperren ** Keyframes, wechseln Sie in ** Animationsmodus, ** Ein kleines schwarzes Dreieck in der oberen linken Ecke namens ** Caret ** und die Zeitleiste für den Fall, dass Sie eine Animation ungleich Null definiert haben.
-  *** Tools: ** Die Toolbox ist eine der Hauptkomponenten von Synfig, in der Sie alle Tools finden, die Sie benötigen, um Objekte zu manipulieren. Aus Pinselgrößen, Farben, Anwenden von Gradienten, Löschen von Animationen, Anwenden von Texten und vielem mehr finden Sie alles, was Sie benötigen, um Animationen zu erstellen und im Tools -Feldfeld in der oberen linken Seite zu bearbeiten.
-  *** Zeitspurpanel: ** Beim Erstellen einer Animation ist das Timing der Schlüssel, und mit dem Zeitspurpanel können Sie die Keyframes und alle Wegpunkte anpassen (die grafischen Symbole, die auf dem Time -Track -Panel angezeigt werden, um die Anpassung anzuzeigen von jedem Parameter), der beteiligt ist.
-  *** Parameter Panel: ** Hier finden Sie alle detaillierten Optionen und Einstellungen für aktive Elemente auf Ihrer Animation wie Farbe, Breite, Deckkraft und mehr. Es ist eine der Kernkomponenten von Synfig.
+  ***Canvas:  **Die Leinwand ist das graue karierte Muster in der Mitte, in dem Sie Ihre Animation skizzieren und Effekte, Schichten, Rahmen und Änderungen anwenden können. Hier finden Sie die Leinwand, umgeben von Tasten rechts nach **  Sperren/Entsperren  **Keyframes, wechseln Sie in **  Animationsmodus,  **Ein kleines schwarzes Dreieck in der oberen linken Ecke namens **  Caret**  und die Zeitleiste für den Fall, dass Sie eine Animation ungleich Null definiert haben.
+  ***Tools:**  Die Toolbox ist eine der Hauptkomponenten von Synfig, in der Sie alle Tools finden, die Sie benötigen, um Objekte zu manipulieren. Aus Pinselgrößen, Farben, Anwenden von Gradienten, Löschen von Animationen, Anwenden von Texten und vielem mehr finden Sie alles, was Sie benötigen, um Animationen zu erstellen und im Tools -Feldfeld in der oberen linken Seite zu bearbeiten.
+  ***Zeitspurpanel:**  Beim Erstellen einer Animation ist das Timing der Schlüssel, und mit dem Zeitspurpanel können Sie die Keyframes und alle Wegpunkte anpassen (die grafischen Symbole, die auf dem Time -Track -Panel angezeigt werden, um die Anpassung anzuzeigen von jedem Parameter), der beteiligt ist.
+  ***Parameter Panel:**  Hier finden Sie alle detaillierten Optionen und Einstellungen für aktive Elemente auf Ihrer Animation wie Farbe, Breite, Deckkraft und mehr. Es ist eine der Kernkomponenten von Synfig.
 Lassen Sie uns nun eine Animation mit Synfig Studios erstellen.
 
-## Wie erstelle ich eine grundlegende Animation mit Synfig? {#create-Animation}
+## Wie erstelle ich eine grundlegende Animation mit Synfig?   {#create-Animation}
 In diesem Teil des Beitrags geben wir Ihnen ein Schritt -für -Schritt -Tutorial zum Erstellen einer grundlegenden Animation mit Synfig Studio. Lass uns anfangen.
 {{_LINE_40_}}
 {{_LINE_41_}}
@@ -95,7 +95,7 @@ In diesem Teil des Beitrags geben wir Ihnen ein Schritt -für -Schritt -Tutorial
 {{_LINE_65_}}
 Und dort haben Sie ein grundlegendes Tutorial zum Erstellen einer Animation in Synfig Studio.
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Die Verwendung von Synfig 2D -Animationssoftware ist ziemlich einfach und einfach, wenn Sie bereits Animationssoftware für Ihre Arbeit verwenden. Selbst wenn Sie neu in der Animationsindustrie sind, ist es eine leichte Aufgabe zu verstehen. Wir hoffen, dass Sie dieses Tutorial hilfreich gefunden haben und 2D -Animationen für verschiedene akademische, kommerzielle oder persönliche Projekte erstellen können, um ein Portfolio zu erstellen.
 _Was sind Ihre bevorzugte Open -Source -Animationssoftware?. Haben Sie Fragen zu Animationssoftware?
 

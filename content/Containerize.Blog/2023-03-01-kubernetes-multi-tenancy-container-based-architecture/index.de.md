@@ -17,10 +17,10 @@ categories: ['Programming']
 ## Überblick
 Wir sind hier mit einem weiteren aufregenden Blog-Beitrag in der Serie der Multi-Messen. In unserem vorherigen [Artikel][1] haben wir das grundlegende Konzept hinter Multi-Tenant-Apps, Profis und Nachteilen sowie die Arten der Multi-Mieter-Architektur angesprochen. Da es höchste Zeit ist, mehreren Benutzern/Mietern zu bedienen, verwalten und nutzen Sie Ressourcen effizient. Multi-Mieter ist also der Top-Ansatz zum Aufbau einer Infrastruktur, die gleichzeitig verschiedene Kunden/Mieter behandelt. Unser jüngster [Blog -Beitrag][2] demonstrierte jedoch serverlose Architektur, Containerisierung und [Kubernetes][3]. Daher werden wir in diesem Artikel Multi-Tenancy- und Container-basierte Architektur untersuchen. Darüber hinaus werden wir sehen, wie Sie in Ihren [Container][4] Apps Multi-Messen erreichen können.
 In diesem Artikel werden folgende Punkte behandelt:
-***[Multi-Tenant-Container-Hosts][5]**
-***[Kubernetes Multi-Menancy][6]**
+* **[Multi-Tenant-Container-Hosts][5]**
+* **[Kubernetes Multi-Menancy][6]**
 
-## Multi-Tenant-Container-Hosts {#Multi-Tenant-Container-Hosts}
+## Multi-Tenant-Container-Hosts   {#Multi-Tenant-Container-Hosts}
 Die Bereitstellung von Multi-Tenant-Anwendungen ist eine kritische Aufgabe, wenn es um Hosting-Plattformen geht. Sie alle wissen, dass Behälter im Vergleich zu virtuellen Maschinen leicht sind. Die Anwendungsbereitstellung benötigt nur wenige Millisekunden, um die Bereitstellung zu vervollständigen, während sie bei virtuellen Maschinen eine Frage von Sekunden bis Minuten bilden kann.
 Das Erreichen von Multi-Messen in einer architekturbasierten Container-Architektur ist jedoch recht einfach. Jeder Mieter wird von einem separaten Container mit vollständiger Isolation und Datenschutz gehostet. Das bedeutet, dass die Anzahl der Container von der Anzahl der Mieter abhängt. Darüber hinaus werden die folgenden Tools verwendet, um diesen Ansatz zu erreichen:
   * Docker und Docker komponieren
@@ -29,7 +29,7 @@ Das Erreichen von Multi-Messen in einer architekturbasierten Container-Architekt
   * Anwendungsserver
 Sie werden Docker verwenden, um das Bild zu erstellen, das eine Vorlage zum Erstellen des Containers ist. Darüber hinaus verwenden Sie Docker Compose, um mehrere Container -Hosts zu spinnen. Darüber hinaus verwenden Sie Nginx, um die eingehenden Anforderungen an den richtigen Mieter weiterzuleiten. Jeder Containerhost enthält also die Anwendungs- und Datenbankinstanzen und laufend. Diese**Multi-Mieter-Container-Hosts**Methode ist nicht ressourcenintensiv und bietet Robustheit bei der Verwaltung verschiedener Mieter und der Sicherstellung der Datenisolation und Sicherheit.
 
-## Kubernetes Multi-Tenancy {#Kubernetes-Multi-Tenancy-}
+## Kubernetes Multi-Tenancy   {#Kubernetes-Multi-Tenancy-}
 Kubernetes enthält viele Komponenten in seiner Architektur wie Knoten, Cluster, Steuerebene und mehr. Grundsätzlich gibt es in Kubernetes keine eingebaute Multi-Messen, aber Sie können es erreichen. Es werden also mehrere Anwendungen/Mieter ausgeführt und die Kubernetes -Cluster und die Kontrollebene geteilt. Andererseits nimmt in Single-Tenant-Apps eine einzelne Instanz der Anwendung den gesamten Kubernetes-Cluster ein.
 
 {{< figure align=center src="images/kubernetes.svg" alt="Kubernetes Multi-Messen" >}}

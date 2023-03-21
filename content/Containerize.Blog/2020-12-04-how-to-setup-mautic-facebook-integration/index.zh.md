@@ -20,7 +20,7 @@ Mautic是一种营销自动化软件，可以完全控制营销电子邮件，�
   * [Mautic插件配置][3]
   * [结论][4]
 
-## 配置Facebook开发人员帐户{#account}
+## 配置Facebook开发人员帐户 {#account}
   *去[开发人员的Facebook][5]
   *如果没有一个帐户，请注册您的帐户。
   *要注册一个新帐户，请转到右上角单击“入门”。
@@ -30,7 +30,7 @@ Mautic是一种营销自动化软件，可以完全控制营销电子邮件，�
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic- Facebook集成 - 注册开发人员帐户">}}
 
 
-## 配置Facebook开发人员的应用{#App}
+## 配置Facebook开发人员的应用 {#App}
   *单击“创建第一个应用”
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic  -  Facebook集成 - 创建第一个应用程序">}}
@@ -57,7 +57,7 @@ Mautic是一种营销自动化软件，可以完全控制营销电子邮件，�
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic  -  Facebook集成 - 添加网站作为平台">}}
 
 
-## Mautic插件配置{#configuration}
+## Mautic插件配置 {#configuration}
   *转到Mautic仪表板。
   *然后从右上角移动到“设置”。
   *单击“插件”。
@@ -72,7 +72,7 @@ Mautic是一种营销自动化软件，可以完全控制营销电子邮件，�
   *在这里，您可以将您的联系字段映射到Facebook字段。
   *最后，发布设置，您很高兴。
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 MAUTIC  -  Facebook集成可以帮助您将Facebook引线同步到MAUTIC系统中，毫无困难。在Mautic应用中，您可以将所有这些引线添加到一个细分市场中。您可以在其中运行电子邮件营销活动。这确实可以帮助您的业务发展，营销和销售产品/服务，向更大的目标受众群体。
 
 ## 探索

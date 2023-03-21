@@ -17,13 +17,13 @@ categories: ['Social Network Platforms']
 ## Genel Bakış
 [Sosyal Ağ Yazılımı][1] dizisindeki başka bir blog yayınına hoş geldiniz. Yakın geçmişte bir blog yazısı yayınladık, [işinizin neden kendi kendine barındırılan bir sosyal ağa ihtiyacı var][2]. Ancak, bu blog yazısında, en çok kullanılan 5 açık kaynaklı sosyal ağ platformunu size bildireceğiz. Aslında, açık kaynaklı topluluk o kadar aktif ve canlıdır ki, mevcut tüm belgelerle hayatın herhangi bir mezhebiyle ilgili yazılımlar kolayca bulabilirsiniz. Bu nedenle, iş kullanım durumları hakkında konuştuğumuzda, işletmelerin çoğu ekip iletişimi veya tüketicilerle etkileşim ile ilgili olsun, kendi ağlarını geliştirme eğilimindedir.
 Başarılı işletmeler her zaman her yönü kapsama ve hem çalışma hem de sosyal olan eksiksiz bir ortam sağlama eğilimindedir. Bu nedenle, meslektaşlarının ve müşterilerinin Facebook gibi ünlü sosyal platformlara alternatif gibi işletmenin kendi barındırılan sosyal ağ aracını kullanarak birbirleriyle sosyalleşebildikleri birçok ücretsiz işbirliği platformu vardır. Aşağıdaki açık kaynaklı sosyal ağ platformlarını ele alacağız.
-  *** [Humhub][3] **
-  *** [ELGG][4] **
-  *** [Diaspora][5] **
-  *[** Açık Kaynak Sosyal Ağ **][6]
-  *** [Kabile][7] **
+  ***[Humhub][3]** 
+  ***[ELGG][4]** 
+  ***[Diaspora][5]** 
+  *[**Açık Kaynak Sosyal Ağ** ][6]
+  ***[Kabile][7]** 
 
-## humhub {#humhub}
+## humhub   {#humhub}
 [Humhub][8] açık kaynaklı bir sosyal ağ yazılımıdır. Yaygın olarak kullanılır ve bazıları kendi kendine barınma yeteneklerine sahiptir. Bu ücretsiz işbirlikçi platform oldukça genişletilebilir ve zengin temalar ve modüller sunar. Kullanıcıların belirli bir görev tabanı alanı veya başka herhangi bir kullanım için genel veya özel alanlar oluşturmalarını sağlar. Buna ek olarak, üyeler herhangi bir şeyi yorumlayabilecekleri, takip edebilecekleri veya yayınlayabilecekleri gibi neredeyse tüm sosyal medya eylemlerinden yararlanabilirler. Ayrıca, profillerini yönetebilirler ve küresel bir arama yapabilirler. Ayrıca, bu sosyal ağ aracı, herkesin bu ücretsiz aracı deneyimleyebileceği çevrimiçi bir sürüm sunar. Humhub'ın kullanıcı arayüzü çok mantıklı ve kullanıcılar çeşitli öğelerde kolayca gezinebilir. PHP ile yazılmıştır ve sunucularda kurulumu kolaydır. Humhub'ın kaynak kodunu [GitHub][9] 'da bulabilirsiniz.
 Aşağıda öne çıkan özellikler:
   * Etkinlik akışı
@@ -31,9 +31,9 @@ Aşağıda öne çıkan özellikler:
   * Medya dosyaları için destek
   * Kendi kendine barındırıldı
   * Sosyal Araçlar
-[** Humhub hakkında daha fazla bilgi edinin **][10]
+[**Humhub hakkında daha fazla bilgi edinin** ][10]
 
-## elgg {#elgg}
+## elgg   {#elgg}
 [ELGG][11] bir başka alternatif ödüllü açık kaynaklı sosyal ağ platformudur. Son derece gizlilik odaklıdır ve kriptografik teknikler kullanılarak yapılmaktadır. Buna ek olarak, aynı zamanda çok genişletilebilir ve üçüncü taraf uygulamalarla entegrasyon için bir Uygulama Programlama Arayüzü (API) ortaya çıkarır. Ayrıca, bu sosyal ağ yazılımının kapsamını genişleten birçok eklenti var. Bu ücretsiz işbirlikçi platform, bir bildirim sistemi, statik varlıklar erişim kontrolü, dosya depolama, görünümler ve daha fazlası gibi önbellek sistemi gibi çok çeşitli özellikler sunar. Bu açık kaynaklı sosyal ağ platformunun kullanıcı arayüzü çok sezgiseldir. Ayrıca, PHP'de de yazılmıştır, tüm belgeler geliştirme ve dağıtım konusunda mevcuttur. Bu nedenle, ELGG'nin kaynak kodunu [GitHub][12] 'de bulabilirsiniz.
 Elgg aşağıdaki önemli özelliklere sahiptir:
   * Eklentiler
@@ -41,9 +41,9 @@ Elgg aşağıdaki önemli özelliklere sahiptir:
   * Belgelenmiş API
   * Kendi kendine barındırıldı
   * Kullanıcı doğrulama
-** [ELGG hakkında daha fazla bilgi edinin][13] **
+**[ELGG hakkında daha fazla bilgi edinin][13]** 
 
-## Diaspora {#Diaspora}
+## Diaspora   {#Diaspora}
 [Diaspora][14] aynı zamanda en yaygın kullanılan sosyal ağ yazılımlarından biridir. Merkezi olmayan bir sosyal ağdır ve Facebook'a alternatif olarak hareket eder. Bu ücretsiz işbirlikçi platform, sözler, etiketler, emojiler, tepkiler, ekler, niyet tabanlı gruplar ve daha fazlasını içeren kurumsal düzeyde sosyal özelliklerle birlikte gelir. Buna ek olarak, Diaspora oldukça genişletilebilir ve Twitter ve Tumblr gibi en iyi sıralı sosyal platformlarla entegrasyon sunar. Bu merkezi olmayan sosyal ağ, Ruby, Ruby on Rails ile birlikte JavaScript gibi diğer dillerden bazı girdilerle yazılmıştır. Kullanıcılar geliştirme ve dağıtım konusunda kapsamlı belgelere sahip olabilirler. Bu nedenle, Diaspora'nın kaynak kodunu [GitHub][15] 'de bulabilirsiniz.
 Diaspora aşağıdaki önemli özellikleri sunar:
   * Ademi merkeziyetçilik
@@ -51,9 +51,9 @@ Diaspora aşağıdaki önemli özellikleri sunar:
   * Gizlilik odaklı
   * Sözler, etiketler, emojiler, tepkiler
   * Kendi kendine barındırıldı
-** [Diaspora hakkında daha fazla bilgi edinin][16] **
+**[Diaspora hakkında daha fazla bilgi edinin][16]** 
 
-## Açık Kaynak Sosyal Ağ {#open}
+## Açık Kaynak Sosyal Ağ   {#open}
 [Açık Kaynak Sosyal Ağ][17], kendi kendine barınma ve genişletilebilir yeteneklerle de gelen başka bir sosyal ağ aracıdır. Çok dillidir ve birçok dilde destek sunar. Ayrıca, bu açık kaynaklı sosyal ağ platformu, üçüncü taraf kütüphanelerle veri güvenliği ve entegrasyonu sağlar. Diğer yazılımlar gibi, bu sosyal ağ aracı da söz, etiketler, bildirim sistemi, blok sistemi, poke sistemi, davet eden arkadaşlar ve daha fazlası gibi bazı harika özellikler sunar. Dahası, Captcha için bir haber akışı, emoji ve destek de sunar. Bu sosyal ağ yazılımı PHP'de CSS'den küçük bir girdi ile yazılmıştır. Bu nedenle, kullanıcılar, geliştirme ve dağıtım ile ilgili belgelerle birlikte [GitHub][18] 'deki kaynağı kullanabilirler.
 Açık Kaynak Sosyal Ağ aşağıdaki temel özellikleri ortaya çıkarır:
   * Arkadaşları davet etmek
@@ -61,9 +61,9 @@ Açık Kaynak Sosyal Ağ aşağıdaki temel özellikleri ortaya çıkarır:
   * Kendi kendine barındırıldı
   * Çok dilli
   * Gerçek zamanlı haber akışı
-[** Açık Kaynak Sosyal Ağ hakkında daha fazla bilgi edinin **][19]
+[**Açık Kaynak Sosyal Ağ hakkında daha fazla bilgi edinin** ][19]
 
-## kabile {#tribe}
+## kabile   {#tribe}
 Son fakat en önemlisi, [kabile][20], iş parçacığı tabanlı iletişim ve çok daha fazlası ile birlikte gelen Ource sosyal ağ platformunu açar. Bu sosyal ağ aracı, kullanıcıların verilerini izlemek ve analiz etmek için yerleşik Google Analytics entegrasyonu sunar. Kabile JavaScript'te yazılmıştır ve geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir. Ayrıca, güvenli, gizlilik odaklı, kullanıcı dostudur ve mantıklı bir kullanıcı arayüzü sunar. Bu nedenle, bu ücretsiz sosyal aracın kaynak kodunu [GitHub][21] 'de alabilirsiniz.
 Kabile aşağıdaki önemli noktaları sunar:
   * Etiketler, bildirim
@@ -71,15 +71,15 @@ Kabile aşağıdaki önemli noktaları sunar:
   * Kendi kendine barındırıldı
   * Google Analytics Entegre
   * Boşluklar, içerik kategorizasyonu
-[** Kabile hakkında daha fazla bilgi edinin **][22]
+[**Kabile hakkında daha fazla bilgi edinin** ][22]
 
 ## **Çözüm**
 Bu bizi bu blog yazısının sonuna getiriyor. Yaygın olarak kullanılan sosyal ağ yazılımından geçtik. Bu makale, işletmeniz için açık kaynaklı bir sosyal ağ platformu dağıtmak istiyorsanız doğru seçimi yapmanıza yardımcı olacaktır. Buna ek olarak, aşağıdaki 'Keşfet' bölümünde, kontrol edebileceğiniz başka ilgili makaleler de vardır.
 Son olarak, [Containerize.com][23] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yazıları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [][24][Sosyal Ağ Yazılımı][25] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][26], [LinkedIn][27] ve [Twitter][28] 'te takip edebilirsiniz.
 
 ## Keşfetmek
-  *** [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][29] **
-  *[** İşletmenizin neden kendi kendine barındırılan bir sosyal ağa ihtiyacı var **][17]
+  ***[Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][29]** 
+  *[**İşletmenizin neden kendi kendine barındırılan bir sosyal ağa ihtiyacı var** ][17]
 
   
 [1]: https://blog.containerize.com/category/social-network-platforms/

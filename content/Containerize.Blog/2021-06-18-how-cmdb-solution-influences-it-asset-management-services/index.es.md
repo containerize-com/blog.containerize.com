@@ -16,16 +16,16 @@ categories: ['CMDB Software']
 
 ## **Descripción general**
 Recientemente comenzamos una serie de contenido sobre [Software de base de datos de gestión de configuración (CMDB)][1] y publicamos algunos de código abierto y productos gratuitos como [Ralph][2], [Snipe-It][3] y un blog tutorial Publicar [Cómo configurar la solución CMDB Ralph en localhost][4]. La categoría de software CMDB está ganando popularidad en las organizaciones que mantienen una enorme infraestructura de TI. Existe una fuerte necesidad de automatización de tareas repetitivas y algún tipo de seguimiento y gestión de recursos. Sin embargo, la mayoría de las soluciones de software basadas en la nube disponibles vienen con versiones pagas, y también hay algunas preocupaciones de seguridad de datos adjuntas. Por lo tanto, la comunidad de código abierto ha desarrollado un software de base de datos de gestión de configuración multiplataforma y autohostado que permite todo el entorno de TI con los servicios de gestión de activos de TI.
-Estos sistemas de gestión de configuración ofrecen utilidades para mantener el registro de los elementos de configuración. Estos elementos de configuración (CIS) incluyen impresoras, servidores, software, escáneres, escáneres de código QR, lectores de códigos de barras, configuraciones, etc. Por lo tanto, en esta publicación de blog, exploraremos el impacto de ** Software CMDB ** en cualquier empresa TI de cualquier empresa TI de cualquier empresa Departamento cubriendo los siguientes puntos.
-  *** [¿Qué es el software CMDB?][5] **
-  *** [Top 5 Open Source mejor software CMDB][6] **
-  *[** Impacto del software CMDB en los servicios de gestión de activos de TI **][7]
-  *** [Conclusión][8] **
+Estos sistemas de gestión de configuración ofrecen utilidades para mantener el registro de los elementos de configuración. Estos elementos de configuración (CIS) incluyen impresoras, servidores, software, escáneres, escáneres de código QR, lectores de códigos de barras, configuraciones, etc. Por lo tanto, en esta publicación de blog, exploraremos el impacto de **Software CMDB**  en cualquier empresa TI de cualquier empresa TI de cualquier empresa Departamento cubriendo los siguientes puntos.
+  ***[¿Qué es el software CMDB?][5]** 
+  ***[Top 5 Open Source mejor software CMDB][6]** 
+  *[**Impacto del software CMDB en los servicios de gestión de activos de TI** ][7]
+  ***[Conclusión][8]** 
 
-## ** ¿Qué es el software CMDB? ** {#what}
+## **¿Qué es el software CMDB?**    {#what}
 [Software de base de datos de gestión de configuración][1] es una base de datos que almacena información sobre los elementos de configuración y los detalles de sus relaciones. Además, hay muchos tipos de elementos de configuración (IC) que podrían ser hardware o software y CIS son el componente integral de cualquier software CMDB. Algunas de las organizaciones utilizaron esta solución para rastrear ubicaciones comerciales, documentos y contratos comerciales. Las partes interesadas de los negocios logran tomar las decisiones correctas teniendo que mirar todos los activos y sus dependencias entre sí. Por lo tanto, pueden pronosticar las tendencias futuras, el potencial y las amenazas que pueden ocurrir. Estas soluciones gratuitas proporcionan una clara demostración de datos de una manera bien organizada. Existe un tablero de usuarios y lógico que obtiene los datos de varias fuentes en tiempo real, los procesa y luego muestra los datos procesados ​​en diferentes tipos de widgets. Además, el software CMDB diseñado para proporcionar soporte para CI adicionales si es necesario.
 
-## ** Top 5 Open Source mejor software CMDB ** {#top}
+## **Top 5 Open Source mejor software CMDB**    {#top}
 En esta sección, exploraremos el software de base de datos de administración de configuración mejor calificado.
 
 ### ralph
@@ -63,24 +63,24 @@ ITOP ofrece características clave
   * Gestión del cambio
   * Sincronización de datos
 
-## Impacto del software CMDB en [][15] Servicios de gestión de activos de TI {#impact}
-** Una mejor evaluación de riesgos para los cambios **: Es un paso muy crítico traer cualquier cambio en el sistema existente. Sin embargo, los administradores aprovechan el buen software CMDB para analizar los elementos y sus relaciones.
-** Transparencia y visibilidad: ** Las soluciones CMDB mantienen los registros de configuración a lo largo de su ciclo de vida. Por lo tanto, hay transparencia ya que cada entidad es rastreable en cualquier paso.
-** Centralización de datos: ** Existe una gran infraestructura de TI en grandes organizaciones y cada componente está interconectado y ha compartido bases de datos. Por lo tanto, permite a los usuarios rastrear cualquier problema o tiempo de inactividad.
-** Base de conocimiento: ** El software CMDB contiene detalles completos de los elementos de configuración ** ** y sus relaciones. Sobre todo, esta información se utiliza para formular una hoja de ruta para administrar los recursos de manera eficiente.
-** Gestión de incidentes **: Las organizaciones pueden aprovechar el software de la base de datos de gestión de configuración para rastrear la gestión de incidentes. Además, el software CMDB con modo Auto-Update mantiene cualquier incidente en el ciclo para una mejor gestión de problemas.
-** Seguridad mejorada: ** Tener un software CMDB actualizado puede brindarle confianza con respecto a la seguridad y puede tomar decisiones sobre cualquier vulnerabilidad.
+## Impacto del software CMDB en [][15] Servicios de gestión de activos de TI   {#impact}
+**Una mejor evaluación de riesgos para los cambios** : Es un paso muy crítico traer cualquier cambio en el sistema existente. Sin embargo, los administradores aprovechan el buen software CMDB para analizar los elementos y sus relaciones.
+**Transparencia y visibilidad:**  Las soluciones CMDB mantienen los registros de configuración a lo largo de su ciclo de vida. Por lo tanto, hay transparencia ya que cada entidad es rastreable en cualquier paso.
+**Centralización de datos:**  Existe una gran infraestructura de TI en grandes organizaciones y cada componente está interconectado y ha compartido bases de datos. Por lo tanto, permite a los usuarios rastrear cualquier problema o tiempo de inactividad.
+**Base de conocimiento:  **El software CMDB contiene detalles completos de los elementos de configuración ** **  y sus relaciones. Sobre todo, esta información se utiliza para formular una hoja de ruta para administrar los recursos de manera eficiente.
+**Gestión de incidentes** : Las organizaciones pueden aprovechar el software de la base de datos de gestión de configuración para rastrear la gestión de incidentes. Además, el software CMDB con modo Auto-Update mantiene cualquier incidente en el ciclo para una mejor gestión de problemas.
+**Seguridad mejorada:**  Tener un software CMDB actualizado puede brindarle confianza con respecto a la seguridad y puede tomar decisiones sobre cualquier vulnerabilidad.
 
-## ** Conclusión ** {#Conclusion}
-Este es el final de esta publicación de blog. En este artículo, encontramos que ** Sistemas de gestión de configuración ** juegan un papel decisivo en los servicios de gestión de activos de TI al proporcionar transparencia, eficiencia y robustez. Además, centraliza los datos y para una mejor comprensión de los riesgos y oportunidades. Sin embargo, es hora de elegir una solución de código abierto ** CMDB ** para su departamento de TI y aumentar las operaciones comerciales que de otra manera requieren mucho tiempo.
-Finalmente, [** Contenerize.com **][16] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [][17][Software de la base de datos de administración de configuración (CMDB][1]) para actualizaciones regulares.
+## **Conclusión**    {#Conclusion}
+Este es el final de esta publicación de blog. En este artículo, encontramos que **Sistemas de gestión de configuración  **juegan un papel decisivo en los servicios de gestión de activos de TI al proporcionar transparencia, eficiencia y robustez. Además, centraliza los datos y para una mejor comprensión de los riesgos y oportunidades. Sin embargo, es hora de elegir una solución de código abierto **  CMDB**  para su departamento de TI y aumentar las operaciones comerciales que de otra manera requieren mucho tiempo.
+Finalmente, [**Contenerize.com** ][16] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto con la categoría [][17][Software de la base de datos de administración de configuración (CMDB][1]) para actualizaciones regulares.
 
 ## Explorar
-  *** [Software CMDB][1] **
-  *** [Ralph][2] **
-  *[** Snipe-it **][3]
-  *[** Automatizar operaciones comerciales utilizando software de código abierto y de código abierto **][18]
-  *** [Tendencias de desarrollo de software a tener en cuenta en 2021][19] **
+  ***[Software CMDB][1]** 
+  ***[Ralph][2]** 
+  *[**Snipe-it** ][3]
+  *[**Automatizar operaciones comerciales utilizando software de código abierto y de código abierto** ][18]
+  ***[Tendencias de desarrollo de software a tener en cuenta en 2021][19]** 
 
   
 [1]: https://products.containerize.com/cmdb-software/

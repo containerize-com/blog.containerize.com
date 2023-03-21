@@ -15,24 +15,24 @@ categories: ['Blogging']
 
 
 ## Ringkasan
-WordPress adalah platform blogging open source tingkat perusahaan. A ** WordPress Plugin ** adalah set kode mandiri yang meningkatkan dan memperluas fungsionalitas WordPress. Dengan menggunakan kombinasi PHP, HTML, CSS, JavaScript/jQuery. Plugin dapat menambahkan fitur baru ke bagian mana pun dari situs web Anda.
+WordPress adalah platform blogging open source tingkat perusahaan. A **WordPress Plugin**  adalah set kode mandiri yang meningkatkan dan memperluas fungsionalitas WordPress. Dengan menggunakan kombinasi PHP, HTML, CSS, JavaScript/jQuery. Plugin dapat menambahkan fitur baru ke bagian mana pun dari situs web Anda.
 Fungsionalitas yang dapat Anda tambahkan ke situs web Anda tergantung pada apa yang telah dilakukan oleh setiap plugin tertentu. Plugin WordPress dapat dikembangkan untuk melakukan apa saja. Dari tugas kecil hingga aplikasi penuh yang melakukan sejumlah operasi dan memiliki antarmuka sendiri. Plugin berbeda dari tema Anda dan bekerja secara mandiri, menggunakan kait, filter, kode pendek, widget, dan kode khusus untuk melakukan fungsionalitasnya.
 Dalam tutorial plugin WordPress ini, kami akan belajar cara membuat plugin WordPress pertama kami. Alasan terpenting untuk membuat plugin adalah karena memungkinkan Anda memisahkan kode Anda sendiri dari kode inti WordPress.
-  *** [persyaratan][1] **
-  *** [Dasar -dasar Pengembangan Plugin][2] **
-  *** [cara membuat plugin wp?][3] **
-  *** [Kesimpulan][4] **
+  ***[persyaratan][1]** 
+  ***[Dasar -dasar Pengembangan Plugin][2]** 
+  ***[cara membuat plugin wp?][3]** 
+  ***[Kesimpulan][4]** 
 
-## Persyaratan {#Requirements}
+## Persyaratan   {#Requirements}
   * Versi WordPress Terbaru
   * Pemahaman tentang php / mysql
   * Pemahaman tentang HTML / CSS dan JavaScript
 
-## Dasar -dasar pengembangan plugin {#basics}
+## Dasar -dasar pengembangan plugin   {#basics}
 Mari kita luangkan waktu sejenak untuk membicarakan beberapa aspek kunci dari pengembangan plugin. Pemahaman yang kuat tentang bagaimana konsep-konsep ini bekerja akan membantu Anda membangun fungsionalitas yang mudah digunakan dan dapat dipelihara.
 
 ### Tindakan
-** Hooks Action ** adalah alat yang sangat berguna di ** WordPress ** ** plugin ** dan mereka digunakan untuk melakukan fungsi (** Tindakan **) di tempat -tempat tertentu dari tema atau plugin. WordPress memiliki lusinan tindakan yang ditentukan di seluruh fungsi intinya, setiap tindakan yang terdiri dari nama yang unik. Untuk detail lebih lanjut [baca][5].
+**Hooks Action  **adalah alat yang sangat berguna di **  WordPress  ****  plugin  **dan mereka digunakan untuk melakukan fungsi (**  Tindakan** ) di tempat -tempat tertentu dari tema atau plugin. WordPress memiliki lusinan tindakan yang ditentukan di seluruh fungsi intinya, setiap tindakan yang terdiri dari nama yang unik. Untuk detail lebih lanjut [baca][5].
 
 Filter ###
 Filter WordPress adalah kait yang menerima variabel (atau serangkaian variabel) dan mengembalikannya setelah mereka dimodifikasi. Filter ini sering digunakan sehingga Anda memiliki cara untuk memanipulasi informasi default. Untuk detail lebih lanjut [baca][6].
@@ -43,8 +43,8 @@ Kode pendek adalah makro yang dapat digunakan untuk melakukan interaksi dinamis 
 Widget ###
 Widget penting karena memberi Anda cara lain untuk melaksanakan kode plugin Anda sambil menyediakan antarmuka yang mudah digunakan. Karena sebagian besar tema akan mendukung satu atau lebih sidebar; Menambahkan widget Anda sendiri akan memberi Anda akses cepat untuk menampilkan informasi Anda di dalam tema.
 
-## ** Cara Membuat Plugin WP? ** {#Create}
-Di bagian tutorial plugin WordPress ini, yang perlu Anda lakukan adalah membuat folder dan kemudian membuat satu file dengan satu baris konten. Arahkan ke folder ** wp-content/plugin **, dan buat folder baru bernama ** mytestplugin **. Di dalam folder baru ini, buat file bernama ** mytestplugin.php **. Buka file dalam editor teks, dan tempel informasi berikut di dalamnya:
+## **Cara Membuat Plugin WP?**    {#Create}
+Di bagian tutorial plugin WordPress ini, yang perlu Anda lakukan adalah membuat folder dan kemudian membuat satu file dengan satu baris konten. Arahkan ke folder **wp-content/plugin **, dan buat folder baru bernama  **mytestplugin ** . Di dalam folder baru ini, buat file bernama  **mytestplugin.php**  . Buka file dalam editor teks, dan tempel informasi berikut di dalamnya:
 ```
 <?php
    /*
@@ -77,7 +77,7 @@ function add_page_views() {
    }
 }
 ```
-Sejauh ini, sangat bagus dalam tutorial plugin WordPress ini. Tetapi fungsi ini tidak pernah dipanggil, jadi itu tidak akan benar -benar digunakan. Di sinilah kait masuk. Anda bisa masuk ke file tema Anda dan memanggil fungsi secara manual dari sana. Tetapi kemudian Anda akan kehilangan fungsi itu jika Anda pernah mengubah tema, sehingga mengalahkan seluruh tujuan. Sebuah kait, bernama ** wp_head **, yang berjalan tepat sebelum tag hadir di sebagian besar tema, jadi kami dapat mengatur fungsi kami untuk dijalankan kapan pun ** wp_head ** berjalan, seperti itu:
+Sejauh ini, sangat bagus dalam tutorial plugin WordPress ini. Tetapi fungsi ini tidak pernah dipanggil, jadi itu tidak akan benar -benar digunakan. Di sinilah kait masuk. Anda bisa masuk ke file tema Anda dan memanggil fungsi secara manual dari sana. Tetapi kemudian Anda akan kehilangan fungsi itu jika Anda pernah mengubah tema, sehingga mengalahkan seluruh tujuan. Sebuah kait, bernama **wp_head **, yang berjalan tepat sebelum tag hadir di sebagian besar tema, jadi kami dapat mengatur fungsi kami untuk dijalankan kapan pun  **wp_head**   berjalan, seperti itu:
 ```
 add_action("wp_head", "add_page_views");
 ```
@@ -100,7 +100,7 @@ Sejauh ini, kami baru saja mengambil jumlah tampilan. Sekarang, mari kita tunjuk
 echo get_page_views() . “view(s)”
 ```
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Ini adalah akhir dari tutorial plugin WordPress ini. Dengan mengikuti artikel ini dan hanya menggunakan beberapa fungsi, kami telah membuat plugin dasar untuk melacak posting kami yang paling populer. Kami dapat memperbaikinya, tetapi tujuannya adalah hanya untuk membuat Anda nyaman dengan dasar -dasarnya. Selain itu, dengan mempelajari beberapa pola pengembangan WordPress (plugin, kait, dll.), Anda juga mendapatkan keterampilan yang akan melayani Anda di lingkungan non-wordpress juga. Ada banyak posting blog lain yang terkait dengan platform blogging open source dan Open Source CMS. yang dapat Anda temukan di bagian Jelajahi di bawah ini. Posting blog ini benar -benar dapat membantu Anda jika Anda ingin menggunakan platform blogging open source untuk bisnis Anda.
 Akhirnya, [containerize.com][8] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [Blogging][9] dan [Business Intelligence Software][10] untuk berita dan pembaruan reguler
 

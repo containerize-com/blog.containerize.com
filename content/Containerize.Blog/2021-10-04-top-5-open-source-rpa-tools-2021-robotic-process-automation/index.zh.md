@@ -49,7 +49,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
   *健康与生活科学
   *教育部门
 **最适合：**自动化后台流程。
-** [了解有关蓝色棱镜的更多信息][1] **
+**[了解有关蓝色棱镜的更多信息][1]** 
 
 ## 2.在任何地方自动化
 
@@ -63,7 +63,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
   *提供平台独立性。
 **优点：**
   *用户友好性。
-** cons **
+**cons** 
   * IQBOT需要改进。
 **自动化在任何地方的应用**
   *旅行业务
@@ -71,7 +71,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
   *社交平台
   *能源部门
 **最适合：**易用性。
-** [在任何地方了解有关自动化的更多信息][2] **
+**[在任何地方了解有关自动化的更多信息][2]** 
 
 ## 3. Uipath
 
@@ -91,7 +91,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
   *有限的编码功能。
 **工具成本或定价：**
 对于小型团队和个人，Uipath提供了社区版。这是免费的。
-** uipath的应用**
+ **uipath的应用** 
   *财务和银行业务
   * 卫生保健
   * bpo
@@ -101,7 +101,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
   *零售和CPG
   * 公共部门
 **最适合：**合规性和提高生产率。
-** [了解有关UIPATH的更多信息][3] **
+**[了解有关UIPATH的更多信息][3]** 
 
 ## 4. Pega
 
@@ -118,7 +118,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
   *这是一个强大而可靠的工具。
 **缺点：**
   *没有本地解决方案。
-** PEGA的应用是什么？**
+ **PEGA的应用是什么？** 
   * 金融服务
   *医疗保健和生命科学
   * 服务
@@ -128,7 +128,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
   * 零售
   *媒体和娱乐
 **最适合：** CRM解决方案和平台支持。
-** [了解有关PEGA的更多信息][4] **
+**[了解有关PEGA的更多信息][4]** 
 
 ## 5. Kofax
 
@@ -146,16 +146,16 @@ categories: ['Deployment Tools', 'Marketing Automation']
 **缺点：**
   *需要改善培训视频。
   *可能很难学习。
-** kofax的应用**
+ **kofax的应用** 
   *银行
   * 政府
   * 保险
   *运输和后勤
   *跨行业
 **最适合：**想要加速业务流程的信息丰富的企业。
-** [了解有关Kofax的更多信息][5] **
+**[了解有关Kofax的更多信息][5]** 
 
-## **结论：** {#4a1a}
+## **结论：**   {#4a1a}
 上述五种开源RPA工具是开发人员最受欢迎的最佳开源RPA工具。除了我们在此处详细比较每个工具，蓝色棱镜是最好的工具，但是您应该在使用它之前接受培训。培训也很昂贵。 UIPATH即使对于非发育者也很容易使用。它提供了相同的功能，甚至提供服务器小型行业。对于工作站应用程序，Contextor是最好的选择，因为它们中有专业。
 _您最喜欢的开源RPA工具是什么？您对开源RPA工具有任何疑问吗？
 

@@ -17,23 +17,23 @@ categories: ['Version Control Software']
 ## Visão geral
 Imagine você como desenvolvedor de software trabalhando em um projeto. Você tem mais de uma pessoa trabalhando nisso. E há um único arquivo que contém o código -fonte. Como todos fazem alterações no código, eles terão versões diferentes do arquivo cada vez que fazem uma alteração. Então, agora como gerenciaríamos versões diferentes do mesmo arquivo? É aí que o software de gerenciamento de código -fonte entra em ação. Ajuda a gerenciar e a mesclar versões diferentes do mesmo arquivo. E até permita que você rastreie o histórico de mudança. E você sempre pode ter certeza de quem fez as alterações no arquivo e quais são essas alterações.
 Neste artigo, aprenderemos sobre o sistema de controle de versão Git. Como você pode usá -lo para gerenciar seus arquivos de código -fonte de desenvolvimento de software ou quaisquer outros arquivos. Então vamos começar.
-  *** [O que é sistema de controle de versão][1] **
-  *** [O que é git][2] **
-  *** [Como o git funciona][3] **
-  *** [Instale Git][4] **
-  *** [Configurando um repositório][5] **
-  *** [Salvar alterações no repositório][6] **
-  *** [Verifique o status do repositório][7] **
-  *** [reverter ou desfazer mudanças][8] **
-  *** [Conclusão][9] **
+  ***[O que é sistema de controle de versão][1]** 
+  ***[O que é git][2]** 
+  ***[Como o git funciona][3]** 
+  ***[Instale Git][4]** 
+  ***[Configurando um repositório][5]** 
+  ***[Salvar alterações no repositório][6]** 
+  ***[Verifique o status do repositório][7]** 
+  ***[reverter ou desfazer mudanças][8]** 
+  ***[Conclusão][9]** 
 
-## O que é sistema de controle de versão {#versão-control}
+## O que é sistema de controle de versão   {#versão-control}
 O controle da versão é um sistema que registra alterações em um arquivo ou conjunto de arquivos ao longo do tempo, para que você possa lembrar versões específicas posteriormente. Se você é desenvolvedor de software e deseja manter as versões do arquivo de código -fonte, o software de gerenciamento de código -fonte é uma coisa muito útil para você. Ele permite reverter os arquivos selecionados de volta a um estado anterior, reverter o projeto inteiro de volta a um estado anterior, comparar alterações ao longo do tempo, veja quem modificou algo pela última vez que poderia estar causando um problema, que introduziu um problema e quando e mais. Usar o controle da versão significa que você nunca precisa se preocupar em perder seu trabalho.
 
-## o que é git {#git}
+## o que é git   {#git}
 O Git é um sistema de controle de versão gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes, com velocidade e eficiência. Ao contrário dos sistemas de controle de versão centralizada mais antigos, como SVN e CVS, o controle da versão Git é distribuído. Todo desenvolvedor tem o histórico completo de seu repositório de código localmente. No entanto, isso torna o clone inicial um pouco lento. Mas, depois disso, todos os compromissos e outras operações são muito rápidos. O Git permite que você tenha várias filiais locais que podem ser totalmente independentes uma da outra.
 
-## como o git funciona {#how}
+## como o git funciona   {#how}
 Usando o Git, você pode fazer alterações no seu repositório local e empurrá -lo para uma ferramenta de hospedagem. Ou você pode extrair as alterações de outros da ferramenta de hospedagem para a sua máquina local. Aqui está uma visão geral básica de como funciona o software de gerenciamento de código -fonte (GIT).
   1. Crie um "repositório" com uma ferramenta de hospedagem Git (como Github, Gitlab ou Bitbucket)
   2. Clone o repositório para sua máquina local
@@ -46,7 +46,7 @@ Usando o Git, você pode fazer alterações no seu repositório local e empurrá
   9. Abra uma “solicitação de tração” (proponha alterações no ramo principal)
  10. “Merge” sua filial para o ramo mestre
 
-## install git {#install}
+## install git   {#install}
 Existem diferentes métodos disponíveis para instalar o git no seu computador. Você pode instalá -lo como um pacote ou através de outro instalador ou baixar o código -fonte e compilá -lo você mesmo.
 
 ### Instalando no Linux
@@ -60,27 +60,27 @@ $ sudo apt install git-all
 ```
 
 ### Instalando no macOS
-Existem várias maneiras de instalar o Git em um Mac. O mais fácil é provavelmente instalar as ferramentas de linha de comando Xcode. Em Mavericks (10.9) ou acima, você pode fazer isso simplesmente tentando executar ** git ** do terminal pela primeira vez.
+Existem várias maneiras de instalar o Git em um Mac. O mais fácil é provavelmente instalar as ferramentas de linha de comando Xcode. Em Mavericks (10.9) ou acima, você pode fazer isso simplesmente tentando executar **git**  do terminal pela primeira vez.
 ```
 $ git --version
 ```
 Se você ainda não o tiver instalado, ele solicitará que você o instale.
 
-## Configurando um repositório {#Init}
+## Configurando um repositório   {#Init}
 Um repositório Git é o armazenamento virtual para seus arquivos de código. Ele permite armazenar versões diferentes do seu código, que você pode acessar quando necessário.
-Para criar um novo repositório, você usará o comando ** git init **. O GIT INT é um comando único que você usa durante a configuração inicial de um novo repo. A execução deste comando criará um novo subdiretório .git em seu diretório de trabalho atual. Isso também criará uma nova ramificação ** mestre **.
+Para criar um novo repositório, você usará o comando **git init **. O GIT INT é um comando único que você usa durante a configuração inicial de um novo repo. A execução deste comando criará um novo subdiretório .git em seu diretório de trabalho atual. Isso também criará uma nova ramificação  **mestre**  .
 
 {{< figure align=center src="images/git-init-2.gif" alt="O que é git">}}
 
 
-Salvar alterações no repositório {#Commit}
+Salvar alterações no repositório  {#Commit}
 Agora que você possui um repositório inicializado, pode confirmar alterações na versão de arquivo.
 
 {{< figure align=center src="images/git-add-commit-1.gif" alt="Git Commit">}}
 
 
-## Verifique o status do repositório {#status}
-O comando ** git status ** exibe o estado do diretório de trabalho e a área de estadiamento. Ele permite que você veja quais alterações foram realizadas, que não foram e quais arquivos não estão sendo rastreados pelo software de gerenciamento de código -fonte (GIT). A saída de status não mostra nenhuma informação sobre o histórico de projetos comprometidos. Para isso, você precisa usar o log ** git **.
+## Verifique o status do repositório   {#status}
+O comando **git status  **exibe o estado do diretório de trabalho e a área de estadiamento. Ele permite que você veja quais alterações foram realizadas, que não foram e quais arquivos não estão sendo rastreados pelo software de gerenciamento de código -fonte (GIT). A saída de status não mostra nenhuma informação sobre o histórico de projetos comprometidos. Para isso, você precisa usar o log **  git** .
 
 {{< figure align=center src="images/git-status-2.gif" alt="software de gerenciamento de código fonte">}}
 
@@ -98,7 +98,7 @@ Author: Assad Mahmood <*****@gmail.com>
 Date:   Fri Jan 8 17:55:52 2021 +0500
 ```
 
-## reverta suas alterações {#Revert}
+## reverta suas alterações   {#Revert}
 Você pode usar o comando git revert para desfazer uma alteração que você já cometeu no seu repositório. Primeiro, use o comando "Git Log" para obter a lista de compromissos
 ```
 $ git log
@@ -147,10 +147,10 @@ Agora que você leu o artigo inteiro, onde discutimos o que é Git e como funcio
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[** Automatize os fluxos de trabalho de desenvolvimento de software com ações do GitHub **][10]
-  *** [Como configurar um pipeline de implantação contínua com GitLab CI/CD][11] **
-  *** [Entenda e aprenda ramos e puxe solicitações no git][12] **
-  *** [Top 5 Sistemas de controle de versão de código aberto em 2021][13] **
+  *[**Automatize os fluxos de trabalho de desenvolvimento de software com ações do GitHub** ][10]
+  ***[Como configurar um pipeline de implantação contínua com GitLab CI/CD][11]** 
+  ***[Entenda e aprenda ramos e puxe solicitações no git][12]** 
+  ***[Top 5 Sistemas de controle de versão de código aberto em 2021][13]** 
 
   
 [1]: #version-control

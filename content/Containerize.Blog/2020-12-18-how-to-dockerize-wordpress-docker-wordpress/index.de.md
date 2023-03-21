@@ -15,23 +15,23 @@ categories: ['Blogging']
 
 
 ## Überblick
-Willkommen in einem anderen Blog -Beitrag in der Kategorie [Blogging][1] Open -Source -Software. Wir haben einige Artikel zu Themen wie [Förderung Ihrer Leads mit kostenloser BürgerwordPress -Integration][2] veröffentlicht, [wie Sie Ihre Website mit WordPress und Gatsby erstellen][3] und einige weitere. Dieser Artikel bringt jedoch weitere Erkenntnisse und Details zu Open -Source -Blogging -Plattformen und ** Container -Software ** ein. Wir werden einige heiße Fragen wie Docker & ** wie man Docker komponieren ** durchlaufen, und wir lernen, wie man WordPress dockerisiert.
+Willkommen in einem anderen Blog -Beitrag in der Kategorie [Blogging][1] Open -Source -Software. Wir haben einige Artikel zu Themen wie [Förderung Ihrer Leads mit kostenloser BürgerwordPress -Integration][2] veröffentlicht, [wie Sie Ihre Website mit WordPress und Gatsby erstellen][3] und einige weitere. Dieser Artikel bringt jedoch weitere Erkenntnisse und Details zu Open -Source -Blogging -Plattformen und **Container -Software  **ein. Wir werden einige heiße Fragen wie Docker & **  wie man Docker komponieren**  durchlaufen, und wir lernen, wie man WordPress dockerisiert.
 Die Containerisierung ist zu einem wesentlichen Trend in der Softwareentwicklung als Alternative zur Virtualisierung geworden. Dazu gehört es, Softwarcode und alle ihre Abhängigkeiten einzukapseln oder zu bündeln, damit er auf jeder Infrastruktur konsequent ausgeführt werden kann. Durch die Containerisierung können Entwickler Anwendungen schneller und sicherer erstellen und bereitstellen. Docker ist die beliebteste Containerisierungsanwendung, die in der Entwicklergemeinschaft verwendet wird. In diesem Tutorial lernen wir mithilfe von Docker Compose, wie man WordPress doktiert. Beginnen wir also mit den folgenden Punkten.
-  *[** Was ist Docker? **][4]
-  *[** Warum müssen Sie WordPress docken **?][5]
-  *** [So installieren Sie Docker komponieren][6] **
-  *** [Dockerize WordPress][7] **
-  *** [Fazit][8] **
+  *[**Was ist Docker?** ][4]
+  *[**Warum müssen Sie WordPress docken** ?][5]
+  ***[So installieren Sie Docker komponieren][6]** 
+  ***[Dockerize WordPress][7]** 
+  ***[Fazit][8]** 
 
-## Was ist Docker? {#Docker}
-In einfachen Worten ist Docker Open-Source ** Container-Software **, die die Virtualisierung schneller und leichter macht. Es ist so leicht, dass ein Docker -Container in wenigen Sekunden gestartet werden kann. Und Sie können problemlos Dutzende von Docker -Containern auf einem einzigen PC ausführen. Entwickler verwenden Docker, um Anwendungen mithilfe von Containern zu erstellen, bereitzustellen und auszuführen. Container ermöglichen es einem Entwickler, eine Anwendung mit allen Teilen zu verpacken, die er benötigt, z. B. Bibliotheken und andere Abhängigkeiten, und sie als ein Paket bereitstellen. Auf diese Weise kann der Entwickler sicher sein, dass die Anwendung auf jeder Infrastruktur ausgeführt wird. Darüber hinaus gibt es einen riesigen Entwickler und eine Unterstützungsgemeinschaft, die immer lebendig ist, um bei jeder Relevanz größte Unterstützung zu bieten. Docker ist aufgrund seiner leistungsstarken Funktionen und Verwendungen zu einem Must-Have-Bestandteil eines Software-Unternehmens geworden.
+## Was ist Docker?   {#Docker}
+In einfachen Worten ist Docker Open-Source **Container-Software** , die die Virtualisierung schneller und leichter macht. Es ist so leicht, dass ein Docker -Container in wenigen Sekunden gestartet werden kann. Und Sie können problemlos Dutzende von Docker -Containern auf einem einzigen PC ausführen. Entwickler verwenden Docker, um Anwendungen mithilfe von Containern zu erstellen, bereitzustellen und auszuführen. Container ermöglichen es einem Entwickler, eine Anwendung mit allen Teilen zu verpacken, die er benötigt, z. B. Bibliotheken und andere Abhängigkeiten, und sie als ein Paket bereitstellen. Auf diese Weise kann der Entwickler sicher sein, dass die Anwendung auf jeder Infrastruktur ausgeführt wird. Darüber hinaus gibt es einen riesigen Entwickler und eine Unterstützungsgemeinschaft, die immer lebendig ist, um bei jeder Relevanz größte Unterstützung zu bieten. Docker ist aufgrund seiner leistungsstarken Funktionen und Verwendungen zu einem Must-Have-Bestandteil eines Software-Unternehmens geworden.
 
-## Warum müssen Sie WordPress docken? {#Warum}
+## Warum müssen Sie WordPress docken?   {#Warum}
 In diesem Abschnitt werden wir die Notwendigkeit hinter dem Dockieren von WordPress kennen. WordPress ist eine führende Open -Source -Blogging -Software, die von der Welt der Technologie stark übernommen wird. Um WordPress lokal auszuführen, benötigen Sie Apache/Nginx, MySQL Server, PHP und Tonnen anderer Abhängigkeiten. Der Einsatz in Staging- oder Produktionsumgebung ist ein Albtraum, wenn es darum geht, diese Abhängigkeiten zu verwalten. Manchmal wird es für die Entwickler und die Unterstützung der Ingenieure zu einem Problem, die Einsätze wiederholt zu wiederholen, da sie Zeit und Arbeitskräfte verlangt.
 Containerisierung kann Ihnen damit helfen. Alles, was Sie benötigen, ist Docker - die Installation selbst dauert Sekunden und es ist keine zusätzliche Konfiguration erforderlich
 Egal, ob es sich um eine Entwicklungsmaschine, eine Bühne oder ein Live -Server handelt und wie ein Betriebssystem es ist, Docker arbeitet überall gleich. Dies bedeutet, dass Sie nicht nach Fehler suchen müssen, die beispielsweise in einer Umgebung erscheinen und nicht in einer anderen reproduziert werden können.
 
-## So installieren Sie Docker Compose {#install}
+## So installieren Sie Docker Compose   {#install}
 
 ### Voraussetzungen
 Sie können Docker Compose verwenden, um WordPress in einer isolierten Umgebung mit Docker -Containern problemlos auszuführen. Diese Anleitung zeigt, wie Sie mit Kompose zum Einrichten und Ausführen von WordPress verwendet werden.
@@ -52,7 +52,7 @@ docker-compose --version
 ```
 
 ### Definieren Sie eine Dockerfile für WordPress
-Das erste, was wir tun müssen, ist zu definieren, wie unser Bild in einer ** _ Dockerfile _ ** aussehen wird. Es handelt sich um eine Textdatei, die dem Verzeichnis mit den Quellen Ihrer Anwendung hinzugefügt wird.
+Das erste, was wir tun müssen, ist zu definieren, wie unser Bild in einer **_ Dockerfile _**  aussehen wird. Es handelt sich um eine Textdatei, die dem Verzeichnis mit den Quellen Ihrer Anwendung hinzugefügt wird.
 ```
 FROM wordpress:php7.1-apache
 COPY . /var/www/html/wordpress
@@ -93,14 +93,14 @@ Führen Sie nun den Befehl in Ihrem Projektverzeichnis aus
 ```
 docker-compose up -d
 ```
-Dies läuft ** _ Docker-compose _ ** im abgetrennten Modus, zieht die benötigten Docker-Bilder und startet die WordPress- und Datenbankbehälter.
+Dies läuft **_ Docker-compose _**  im abgetrennten Modus, zieht die benötigten Docker-Bilder und startet die WordPress- und Datenbankbehälter.
 Sobald die Container begonnen haben, können Sie die URL im Webbrowser öffnen und mit Ihrer Anwendung beginnen:
 ```
 http://localhost:8000
 ```
 
-## Schlussfolgerung {#Conclusion}
-Dies bringt uns zum Ende dieses Blog -Beitrags. In diesem Artikel haben wir erfahren, was Docker ist, ** Wie man Docker Compose ** installiert. Wir haben auch gelernt, wie man WordPress mit Docker-Compose dockerisiert. Darüber hinaus haben wir Sie in das Konzept hinter Docker und wie Sie einfache Multi-Container-Anwendungen definieren. Diese Open Source ** Container -Software ** ist jedoch eine führende Option für alle Softwareorganisationen. Daher hilft Ihnen dieser Artikel wirklich, wenn Sie sich für Docker für Ihre Bewerbungen entscheiden möchten. Es gibt viele andere relevante Artikel und Blogging -Software, die im Abschnitt „Explore“ aufgeführt sind.
+## Schlussfolgerung   {#Conclusion}
+Dies bringt uns zum Ende dieses Blog -Beitrags. In diesem Artikel haben wir erfahren, was Docker ist, **Wie man Docker Compose  **installiert. Wir haben auch gelernt, wie man WordPress mit Docker-Compose dockerisiert. Darüber hinaus haben wir Sie in das Konzept hinter Docker und wie Sie einfache Multi-Container-Anwendungen definieren. Diese Open Source **  Container -Software**  ist jedoch eine führende Option für alle Softwareorganisationen. Daher hilft Ihnen dieser Artikel wirklich, wenn Sie sich für Docker für Ihre Bewerbungen entscheiden möchten. Es gibt viele andere relevante Artikel und Blogging -Software, die im Abschnitt „Explore“ aufgeführt sind.
 Schließlich schreibt [containerize.com][10] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie mit der Kategorie [Blogging][1] in Kontakt, um regelmäßige Nachrichten und Updates zu erhalten. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][11], [LinkedIn][12] und [Twitter][13] folgen.
 
 ## Erkunden

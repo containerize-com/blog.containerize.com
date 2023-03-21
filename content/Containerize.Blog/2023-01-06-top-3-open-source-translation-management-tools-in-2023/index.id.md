@@ -20,14 +20,14 @@ Globalisasi dan lokalisasi memainkan peran penting dalam membawa lalu lintas pen
 Alat manajemen terjemahan berikut akan dibahas dalam panduan ini:
 * [**i18n-Tasks**][2]
 * [**Tolgee**][3]
-***[Traduora][4]**
+* **[Traduora][4]**
 
-## i18n-Tasks {#i18n-Tasks}
+## i18n-Tasks   {#i18n-Tasks}
 [i18n-Tasks][5] adalah salah satu alat manajemen terjemahan**gratis yang paling banyak digunakan.**Ini sangat dioptimalkan dan ditulis dalam bahasa pemrograman Ruby. Jadi, TMS open source ini ramah pengembang dan mudah diatur pada mesin lokal. Selain itu, Anda dapat mengintegrasikannya dengan proyek apa pun menggunakan [I18N GEM][6]. Lebih lanjut, tugas I18N memiliki statistik yang baik di GitHub dengan 1,8K TAR dan 231 garpu.
 Jika Anda ingin mencobanya, Anda dapat menemukan kodenya di [GitHub][7] repo dengan semua instruksi instalasi yang disebutkan. Sistem manajemen terjemahan gratis ini memiliki kemampuan untuk mengelola beberapa file terjemahan. Selanjutnya, Anda dapat membangun adaptor khusus dan melakukan banyak penyesuaian lainnya untuk memenuhi kebutuhan bisnis Anda. Pada dasarnya, ia melakukan semua proses dengan analisis statis di mana ia menawarkan konsol interaktif kepada pengguna. Selain itu, TMS open source ini memberikan integrasi dengan terjemahan Deepl dan Google.
 **[Pelajari lebih lanjut tentang tugas i18n][5]**
 
-##**Tolgee**{#Tolgee}
+##**Tolgee** {#Tolgee}
 [Tolgee][8] adalah sistem manajemen terjemahan level perusahaan level perusahaan. TMS ini ditulis dalam Kotlin, dan TypeScript dan menawarkan integrasi dengan hampir semua kerangka kerja JavaScript yang populer seperti Next.js, Angular, Vue, dan banyak lagi. Selain itu, TMS gratis ini memiliki semua kode sumber yang tersedia di [GitHub][9] dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="Sistem Manajemen Terjemahan">}}
@@ -42,7 +42,7 @@ Berikut ini adalah fitur penting dari TMS gratis ini:
 .**Kolaborasi**: Ini adalah ketentuan penting lainnya di mana pemangku kepentingan yang berbeda dapat bekerja secara kolaboratif dan meninjau, pekerjaan yang dilakukan oleh orang lain
 [**Pelajari lebih lanjut tentang Tolgee**][8]
 
-##**traduora**{#traduora}
+##**traduora** {#traduora}
 [Traduora][13] adalah perangkat lunak open source lain untuk mengotomatisasi alur kerja terjemahan. TMS gratis ini juga ditulis dalam naskah bersama dengan masukan dari bahasa lain seperti HTML, JavaScript, CSS, dan lainnya. Selain itu, Anda dapat menjadi tuan rumah sendiri karena ada dokumentasi lengkap yang tersedia di GitHub mengenai pengembangan dan penyebarannya. Lebih lanjut, ada gambar Docker yang tersedia dari perangkat lunak manajemen terjemahan open source ini yang dengannya Anda mengatur perangkat lunak ini dengan memutar wadah Docker.
 Di atas segalanya, Traduora telah mengekspos API REST untuk integrasi dengan aplikasi pihak ketiga. Ada implementasi lengkap otentikasi dalam TMS gratis ini.
 Traduora muncul dengan fitur -fitur utama berikut:
@@ -58,16 +58,16 @@ Demikian juga, ada komunitas yang bersemangat yang sangat aktif dalam menanggapi
 Singkatnya, kami telah melalui 3 alat manajemen terjemahan open source teratas pada tahun 2023. Kami juga menjelajahi statistik dan fitur GitHub mereka. Semua alat manajemen terjemahan yang terdaftar di posting blog ini gratis dan open source. Selanjutnya, ada peningkatan yang konsisten dalam kategori perangkat lunak open source ini. Oleh karena itu, artikel ini akan sangat membantu Anda jika Anda ingin menginstal platform manajemen lokalisasi yang baik untuk mendapatkan layanan lokalisasi situs web untuk perangkat lunak bisnis Anda. Ada artikel lebih lanjut yang terdaftar di bagian "Lihat juga", jadi jangan lupa untuk memeriksanya.
 Akhirnya, [**containerize.com**][14] menulis artikel tentang produk open source lebih lanjut. Karena itu, harap tetap berhubungan untuk pembaruan rutin.
 
-## Ajukan pertanyaan {#ask-a-question}
+## Ajukan pertanyaan   {#ask-a-question}
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [15].
 
-## faqs {#faqs}
+## faqs   {#faqs}
 **Apakah ada alat terjemahan yang lebih baik daripada Google Translate?**
 [Tolgee][8] adalah alat manajemen terjemahan sumber terbuka dengan layanan terjemahan yang ditingkatkan. Selain itu, ini juga mendukung terjemahan Google Translations dan AWS.
 **Apa itu sistem TMS dalam terjemahan?**
 Sistem Manajemen Terjemahan Otomatis berbagai proses terjemahan dan meningkatkan efisiensi terjemahan.
 
-## Lihat juga {#See-also}
+## Lihat juga   {#See-also}
   * [Mengapa Anda membutuhkan sistem manajemen terjemahan?][1]
   * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][16]
 

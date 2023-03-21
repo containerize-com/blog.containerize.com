@@ -21,11 +21,11 @@ categories: ['Database Management Software']
   * [使用Adminer管理数据库][5]
   * [结论][6]
 
-## 什么是管理员？ {#什么}
+## 什么是管理员？   {#什么}
 当涉及轻巧，用户友好，高性能的MySQL数据库管理工具时，Adminer获得了广泛的知名度，并且与PhpMyAdmin相比提供了许多改进。最初，此数据库管理工具是由Jakub Vrana在2007年开发的，可作为PhpMyAdmin的替代方法，因此您要做的就是在应用程序的数据库上下载并安装一个轻巧的PHP文件。
 作为开源数据库管理工具，它也可以免费使用并以PHP编写。设置此基于Web的数据库管理系统的原因是一种良好的用户界面设计，可用于无缝的用户体验，以及强大的安全功能，以防止数据免受任何攻击或恶意黑客尝试的尝试。该数据库管理工具易于设置，需要简单的要求，例如Ubuntu和Lamp。用户可以找到有关开发和部署的全面文档。因此，您可以在[Github][7]上找到此基于Web的数据库管理系统的源文件。
 
-## Adminer {#important}的重要功能
+## Adminer   {#important}的重要功能
 该数据库管理工具的一些基本但重要的功能包括：
   *它具有许多数据库函数
   *支持多个数据库，包括：MySQL，PostgreSQL，SQLITE，MS SQL，ORACLE和SIMPLEDB数据库等等
@@ -33,10 +33,10 @@ categories: ['Database Management Software']
   *您可以轻松编辑数据库对象，例如视图，触发器，存储过程，用户权限等等。
   * Adminer还提供针对SQL注入，会话窃取，跨站点脚本（XSS）软件攻击和其他攻击的安全措施。
 
-## Adminer vs phpMyAdmin {#adminer}
+## Adminer vs phpMyAdmin   {#adminer}
 因此，当我们谈论什么是管理员时，知道管理员与phpmyadmin之间的比较将很有趣。当涉及到Adminer和PhpMyAdmin之间选择时，Adminer在其提供的灵活功能和轻型文件上载最重要的是。同样，与PhpMyAdmin相比，它支持包括MySQL，SQLite等许多数据库。同样，与phpmyadmin相比，它更直观，更聪明。
 
-## 用adminer {#manage}管理数据库
+## 用adminer   {#manage}管理数据库
 在本管理教程的部分中，我们将仔细研究如何使用Adminer管理数据库。
 **系统要求**
 为了使Adminer在系统上运行，重要的是要在服务器上设置以下要求：
@@ -69,7 +69,7 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-4-1024x462.png" alt="管理员与phpmyadmin">}}
 
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 这将我们带到了本管理教程的结尾。我们已经介绍了一些重要主题，例如Adminer，Adminer vs PhpMyAdmin以及此开源基于Web的数据库管理系统的其他方面。希望，如果您想安装开源数据库管理工具，这篇博客文章肯定会为您提供帮助。它是直观，智能且易于使用的界面，使其成为一个非常流行的数据库管理工具。此外，它支持许多数据库，包括MySQL，Sqlite，MongoDB等，以及保护和防止任何恶意黑客事件的安全措施。总而言之，此数据库管理工具不仅是开源的，而且可以免费使用。
 最后，[Containerize.com][9]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与[10]类别保持联系，以进行常规更新。此外，您可以在我们的社交媒体帐户上关注我们[Facebook][11]，[LinkedIn][12]和[Twitter][13]。
 

@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Nginx Direktiflerine Yeniden Yazma Kurallarını Dönüştür">}}
 
 Son öğreticimizde [Ubuntu'da NGINX ile birden fazla PHP sürümü nasıl kurulacağını] öğrendik [1]. Apache en popüler web sunucularından biridir, ancak son zamanlarda Nginx kendisini Apache için bir rakip olarak kurmuştur. Ancak Nginx, HTAccess yeniden yazma kurallarını desteklemiyor. Dolayısıyla, bu makalede, HTAccess yeniden yazma kurallarını NGINX yeniden yazma yönergelerine nasıl dönüştüreceğimizi öğreneceğiz. Başlayalım!
-  *** [Nginx Yeniden Yazma Kuralları][2] **
+  ***[Nginx Yeniden Yazma Kuralları][2]** 
   *[**. Htaccess Yeniden Yazma Kuralları **][3]
-  *[** .htaccess Yeniden Yazma Kurallarını Nginx Yeniden Yazma Direktiflerine Dönüştürme **]
-  *[** Sonuç **][5]
+  *[**.htaccess Yeniden Yazma Kurallarını Nginx Yeniden Yazma Direktiflerine Dönüştürme** ]
+  *[**Sonuç** ][5]
 
-## nginx yeniden yazma kuralları {#nginx}
+## nginx yeniden yazma kuralları   {#nginx}
 Yeniden Yazma Kuralları, bir müşteri isteğinde URL'nin bir kısmını veya tamamını değiştirir, genellikle istemcilere istedikleri kaynağın şimdi farklı bir yerde bulunduğunu veya Nginx içindeki işlem akışını kontrol etmek için bildirmek için. Örneğin, içeriğin dinamik olarak oluşturulması gerektiğinde istekleri bir uygulama sunucusuna iletmek. Try_files yönergesi genellikle bu amaç için kullanılır.
 General Purpose Nginx yeniden yazımı için iki yönerge _return_ ve _rewrite_ ve _try_files direktifi, istekleri uygulama sunucularına yönlendirmenin kullanışlı bir yoludur.
 İade Direktifi, iki genel amaçlı direktifin daha basittir. Dönüşü bir sunucu veya konum içeriğine ekliyorsunuz.
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-## .Htaccess Yeniden Yazma Kuralları {#apache}
+## .Htaccess Yeniden Yazma Kuralları   {#apache}
 .Htaccess dosyası, bir web sitesinin erişilebilmesi, engellenmesi ve yeniden yönlendirilebileceği çeşitli yolları denetler. Bunu bir veya daha fazla .htaccess yeniden yazma kurallarını kullanarak yapar. Bu yeniden yazmalar Apache’nin Mod_rewrite modülü tarafından yürütülür.
 Mod_rewrite, gelen URL isteklerini dinamik olarak düzenli olarak düzenli olarak değiştirmenin bir yolunu sağlar. Bu, URL'leri dahili URL yapınıza istediğiniz şekilde eşlemenize olanak tanır. Bu aynı zamanda harici URL'lerinizi temizlemek ve daha sonra bunları çirkin görünen dahili URL'lerle eşlemek için kullanılır.
 Örneğin.
@@ -100,7 +100,7 @@ location / {
 }
 ```
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu öğreticide, Apache’nin .htaccess yeniden yazma kurallarını ve bu .htaccess yeniden yazma kurallarını NGINX yeniden yazma yönergelerine nasıl dönüştürebileceğimizi araştırdık. Ayrıca URL'leri yeniden yazmak için kullanılabilecek farklı NGINX yönergelerini araştırdık. Ayrıca hem Nginx hem de Apache için örnek yeniden yazma kuralları verdik. Umarım öğretici sizin için yararlıdır.
 
 ## Keşfetmek

@@ -16,26 +16,26 @@ categories: ['Version Control Software']
 
 ## Überblick
 In den letzten Artikeln haben wir die [Grundlagen der Versionskontrolle][1] gelernt und dann unser Wissen verstärkt, indem wir verschiedene [Verzweigungsmodelle][2] und Workflows kennengelernt haben. Das Versionskontrollsystem hat in der Welt der Entwicklung, des Einsatzes und der Integration Effizienz gebracht. Entwickler finden es super einfach, den Quellcode zu begehen, ohne sich über die Builds und Tests zu sorgen. Die Softwareindustrie hat Vertrauen und einen Wettbewerbsvorteil gewonnen, da dieser Ansatz die Bereitstellungen erhöht hat.
-** GitLab Continuous Deployment ** und Integration hilft dabei, Probleme leicht zu finden. Darüber hinaus können Entwickler in kürzerer Zeit die Bugs und andere Miss -Handhabung verfolgen. Dieser gesamte Automatisierungsprozess verleiht den häufig vorkommenden Aufgaben von den Aufgaben und reduziert die Arbeitskräfte und die Chancen von Fehlern. Heute untersuchen wir in diesem Blog -Beitrag mit Gitlab CI/CD über eine kontinuierliche Bereitstellungspipeline. Beginnen wir also mit den folgenden Punkten!
-  *** [Was ist CI & CD][3] **
-  *** [Was ist GitLab Runner][4] **
-  *** [. GitLab-ci.yml-Datei][5] **
-  *** [Erstellen Sie grundlegende Beispiel -App][6] **
-  *** [Schlussfolgerung][7] **
+**GitLab Continuous Deployment**  und Integration hilft dabei, Probleme leicht zu finden. Darüber hinaus können Entwickler in kürzerer Zeit die Bugs und andere Miss -Handhabung verfolgen. Dieser gesamte Automatisierungsprozess verleiht den häufig vorkommenden Aufgaben von den Aufgaben und reduziert die Arbeitskräfte und die Chancen von Fehlern. Heute untersuchen wir in diesem Blog -Beitrag mit Gitlab CI/CD über eine kontinuierliche Bereitstellungspipeline. Beginnen wir also mit den folgenden Punkten!
+  ***[Was ist CI & CD][3]** 
+  ***[Was ist GitLab Runner][4]** 
+  ***[. GitLab-ci.yml-Datei][5]** 
+  ***[Erstellen Sie grundlegende Beispiel -App][6]** 
+  ***[Schlussfolgerung][7]** 
 
-## Was ist CI & CD {#cicd}
+## Was ist CI & CD   {#cicd}
 Continuous Integration (CI) ist eine der besten Verfahren zur Automatisierung der Integration von Codeänderungen von mehreren Mitwirkenden in ein einzelnes Softwareprojekt. Auf diese Weise können Entwickler häufig Codeänderungen in ein zentrales Repository zusammenführen, in dem dann Builds und Tests ausgeführt werden. Continuous Deployment (CD) wird einen Schritt weiter und weiterhin weiterhin Code für die Zielumgebung (Produktion oder Staging) nach jedem Code automatisch bereitstellen.
 Stellen Sie vor Beginn sicher, dass Sie ein Projekt in GitLab haben, für das Sie CI/CD verwenden möchten. Und Sie sollten einen Zugriff auf das Projekt auf dem Projekt auf dem Projekt haben.
 
-## Was ist GitLab Runner {#runner}
-Nach dem Verständnis von ** GitLab Continuous Deployment ** ist GitLab Runner ein kleines, leichtes Programm, das in GO geschrieben wurde, das Jobs mit Continuous Integration (CI) auf Ihrer lokalen Maschine ausführt und die Ergebnisse an GitLab sendet, um die Änderungen zu berücksichtigen. Es ist eine einzelne ausführbare Binärdatei, die auf jedem Hauptbetrieb installiert werden kann.
+## Was ist GitLab Runner   {#runner}
+Nach dem Verständnis von **GitLab Continuous Deployment**  ist GitLab Runner ein kleines, leichtes Programm, das in GO geschrieben wurde, das Jobs mit Continuous Integration (CI) auf Ihrer lokalen Maschine ausführt und die Ergebnisse an GitLab sendet, um die Änderungen zu berücksichtigen. Es ist eine einzelne ausführbare Binärdatei, die auf jedem Hauptbetrieb installiert werden kann.
 Bevor wir mit dem Gitlab CI / CD voranschreiten, müssen Sie sicherstellen, dass die Läufer zur Verfügung stehen, um Ihre Aufgaben auszuführen. Sie können dem offiziellen Leitfaden für [Installation][8] und [Register][9] GitLab Runner folgen.
 
-## .gitlab-ci.yml Datei {#yml}
+## .gitlab-ci.yml Datei   {#yml}
 Das **. GitLab-ci.yml ** ist eine Datei, in der Sie bestimmte Anweisungen für GitLab CI/CD konfigurieren. Es befindet sich in die Wurzel Ihres Repositorys und enthält Definitionen, wie Ihr Projekt erstellt werden soll. Jedes Mal, wenn wir uns für unsere Gitlab -Instanz einsetzen, rief Gitlab einen Läufer auf, um das Projekt wie in dieser Datei angewiesenen zu erstellen und zu testen.
 
-## Erstellen Sie eine Beispiel -App {#Sample}
-Im Abschnitt dieses ** GitLab -Tutorials ** erstellen wir eine Beispiel -App. Unter der Annahme, dass Sie bereits ein GitLab -Repository erstellt haben, erstellen wir eine Beispielanwendung und wir stellen einen CI / CD -Prozess für die Anwendung ein.
+## Erstellen Sie eine Beispiel -App   {#Sample}
+Im Abschnitt dieses **GitLab -Tutorials**  erstellen wir eine Beispiel -App. Unter der Annahme, dass Sie bereits ein GitLab -Repository erstellt haben, erstellen wir eine Beispielanwendung und wir stellen einen CI / CD -Prozess für die Anwendung ein.
 Erstellen Sie zunächst die Datei Package.json am Stamm Ihres Projekts
 ```
 {
@@ -64,7 +64,7 @@ app.get('/', (req, res) => {
 app.listen(8080, 'localhost');
 console.log('Running on http://localhost:8080');
 ```
-Im letzten Schritt von ** GitLab Continuous -Bereitstellung erstellen Sie eine ** Dockerfile ** und fügen Sie den folgenden Inhalt hinzu:
+Im letzten Schritt von **GitLab Continuous -Bereitstellung erstellen Sie eine  **Dockerfile**   und fügen Sie den folgenden Inhalt hinzu:
 ```
 FROM node:10
 
@@ -94,12 +94,12 @@ stage: build
 script:
 - npm install
 ```
-Wir haben nur eine Stufe Build und es hat nur ** npm install ** als Skript. Dies ist ein Befehl, den Sie jedes Mal manuell ausführen müssten, wenn eine Änderung zu Ihrem Projekt kommt. Und hier kommt der Gitlab -Läufer ins Spiel und würde dies jedes Mal automatisch für Sie tun, wenn Sie sich eingehen.
+Wir haben nur eine Stufe Build und es hat nur **npm install**  als Skript. Dies ist ein Befehl, den Sie jedes Mal manuell ausführen müssten, wenn eine Änderung zu Ihrem Projekt kommt. Und hier kommt der Gitlab -Läufer ins Spiel und würde dies jedes Mal automatisch für Sie tun, wenn Sie sich eingehen.
 Angenommen, Sie haben den GitLab -Läufer bereits installiert und ihn auch in Ihrer GitLab -Instanz registriert, können wir den GitLab CI / CD in Aktion testen, indem wir uns einfach für die Anwendung einsetzen und nach GitLab drücken.
 Sie können Ihr Projekt dann in Gitlab öffnen, zu My-Project → Pipeline gehen und sehen, dass neben dem von Ihnen vorgenommenen Commit ein Tag mit der Aufschrift „bestanden“ wird. Nachfolgende Commits haben auch Tags.
 
-## Schlussfolgerung {#Conclusion}
-Dies bringt uns zum Ende dieses ** Gitlab -Tutorials **. In diesem Artikel haben wir die Grundlagen der kontinuierlichen Integration von Gitlab, ** Was ist CI & CD **, ** Was ist GitLab Runner ** und kontinuierliche Bereitstellung erfahren. Darüber hinaus haben wir untersucht, was Läufer im gesamten CI / CD -Workflow verwendet. Wir haben auch ein Beispielprojekt erstellt, in dem erklärt wird, wie die kontinuierliche Bereitstellung mit GitLab eingerichtet wird. Dieses GitLab -Tutorial hilft Ihnen wirklich, wenn Sie nach ** GitLab kontinuierlicher Bereitstellung ** suchen. Es gibt jedoch viele andere Ressourcen, die im Abschnitt „Explore“ unten erwähnt werden, damit Sie möglicherweise auschecken. Darüber hinaus handelt es sich bei den Artikeln um ** Versionskontrollsysteme **, die Open Source, selbst gehostet und erweiterbar sind.
+## Schlussfolgerung   {#Conclusion}
+Dies bringt uns zum Ende dieses **Gitlab -Tutorials **. In diesem Artikel haben wir die Grundlagen der kontinuierlichen Integration von Gitlab,  **Was ist CI & CD ** ,  **Was ist GitLab Runner **  und kontinuierliche Bereitstellung erfahren. Darüber hinaus haben wir untersucht, was Läufer im gesamten CI / CD -Workflow verwendet. Wir haben auch ein Beispielprojekt erstellt, in dem erklärt wird, wie die kontinuierliche Bereitstellung mit GitLab eingerichtet wird. Dieses GitLab -Tutorial hilft Ihnen wirklich, wenn Sie nach  **GitLab kontinuierlicher Bereitstellung **  suchen. Es gibt jedoch viele andere Ressourcen, die im Abschnitt „Explore“ unten erwähnt werden, damit Sie möglicherweise auschecken. Darüber hinaus handelt es sich bei den Artikeln um  **Versionskontrollsysteme**  , die Open Source, selbst gehostet und erweiterbar sind.
 Schließlich schreibt [Containerize.com][10] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [[][11][Versionskontrollsoftware][12] in Kontakt, um regelmäßige Aktualisierungen zu erzielen. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][13], [LinkedIn][14] und [Twitter][15] folgen.
 
 ## Erkunden

@@ -22,7 +22,7 @@ Bu yazıda aşağıdaki noktalar tartışılacaktır:
   * [Çok Kireli Uygulamanın İş Avantajları][8]
   * [Çoklu kiracılıkta dezavantajlar][9]
 
-## Multi -Miteancy nedir? Çok kiracı vs tek kiracı {#What-IS-Multenancy-Multi-Kenant-VS-Single Tenant}
+## Multi -Miteancy nedir? Çok kiracı vs tek kiracı   {#What-IS-Multenancy-Multi-Kenant-VS-Single Tenant}
 Multi-Mensicancy, özellikle bilinen kiracılardan çok sayıda ön uç sağlayan tek bir sunucu örneğini ifade eder. Ne zaman çok kiracılı bir yazılımla karşılaştığınızda, beyninize bu yazılımın paylaşılan bir sunucunun tek bir örneğini çalıştırdığını ve birden fazla kiracı (istemciler) bu örneğe farklı markalarla bağlandığını söyleyin.
 Örneğin, bir üniversite için oluşturulan yazılım, farklı ön uç markalarına ve program verilerine sahip farklı departmanlara hizmet vermektedir. Temel olarak, sunucunun tüm kiracıları çalıştıran ve servis eden tek bir örneği vardır. Ayrıca, tüm kiracılar arasında veri ayırma ve veri gizliliği vardır. Ayrıca, her kiracının kendi iş mantığı vardır ve verilerini tek bir ancak özel/izole bir yerde getirir ve saklar.
 
@@ -33,20 +33,20 @@ Multi-Mensicancy, özellikle bilinen kiracılardan çok sayıda ön uç sağlaya
 {{< figure align=center src="images/single-tenant-2.png" alt="tek kiracı mimarisi">}}
 
 
-## Çok Kireli Uygulama Mimarisi Türleri {#Multi-Kireli Uygulama Türleri-Mimarlık}
+## Çok Kireli Uygulama Mimarisi Türleri   {#Multi-Kireli Uygulama Türleri-Mimarlık}
 Şimdiye kadar, çok kiracılık hakkında bir anlayışınız var ve şimdi çeşitli türlerinden geçeceğiz.
 **Bir veritabanı-bir uygulama örneği**: Bu yaklaşım oldukça popülerdir ve çok kiracı uygulamalar oluşturmak için yaygın olarak kullanılmıştır. Bu yaklaşıma göre, tek bir veritabanıyla çalışan bir uygulama örneği vardır. Buna ek olarak, paylaşılan bir şema vardır ve kiracının verileri benzersiz kimliklerine göre tek bir yerde saklanır.
 **Birden çok veritabanı-Bir uygulama örneği:**Bu çok kiracılı uygulama mimarisinde, uygulamanın yalnızca bir örneği birden fazla veritabanı ile çalışır. Her kiracının kendi veritabanı şeması vardır, burada tüm bilgilerin her kiracı için ayrı ayrı kaydedildiği.
 **Çoklu Veritabanı - Birden Çok Uygulama Örneği**: Üçüncü yaklaşım, birden çok sunucu örneği ile birlikte birden fazla veritabanı çalıştırmayı ifade eder. Paylaşılan hiçbir şey yoktur ve her kiracı tam bir izolasyona sahiptir ve kiracılar arasında bağımlılık yoktur.
 
-## Çok kiracı uygulamanın iş avantajları {#Multi-Kenant-App}
+## Çok kiracı uygulamanın iş avantajları   {#Multi-Kenant-App}
 Bu bölümde, multitenancy'yi tercih etmenin bazı önemli faydalarından yararlanacağız. Her ne kadar avantajları tartışarak uzun süre gidebiliriz, ancak aşağıdaki noktaları görelim:
 **Ölçeklenebilirlik**: Çok kiracı bir mimariyi ölçeklendirmek kolaydır. Seçtiğiniz türden bağımsız veya dikey olarak ölçeklenebilirsiniz.
 **Maliyet etkin**: Çoklu Miteans'i seçmek operasyonel maliyetlerinizi tasarruf eder. Paylaşılan kaynaklar vardır, bu nedenle kaynakları ölçeklendirmek her zaman uygun maliyetlidir.
 **Verimlilik ve Esneklik**: Çok kenarlı bir ortamda, geliştirme ve dağıtımda verimlilik elde edersiniz. Örneğin, tüm kiracıları güncellemek için paylaşılan bir veritabanı şemasında bir komut dosyası çalıştırabilirsiniz.
 **Daha İyi Kaynak Yönetimi**: Kaynakları eklemek ve kaldırmak basittir. Ayrıca, bu mimari gelişmiş ve iyi yönetilen altyapı sunmaktadır. Ayrıca, her kiracı özeldir ve güvenlidir ve paylaşılan/paylaşılmayan bir veritabanına erişebilir.
 
-## Multi-Tenacy'de Dezavantajlar {#Multi-Tenacy-In-Tenacy}
+## Multi-Tenacy'de Dezavantajlar   {#Multi-Tenacy-In-Tenacy}
 Bu blog yazısının amacı,**çok kiracılı mimarlık hakkında adil bir his vermektir.**Bu nedenle, çok kiracılığa bağlı bazı eksileri keşfedelim.
 **Karmaşık Kimlik Doğrulama Mekanizması**: Multi -Miteanity'de kaynak tahsisinin paylaşılan doğası nedeniyle, veri erişim noktaları için katı protokoller vardır.
 **Sunucu dökümü:**Çok kiracılı uygulama mimarisini seçerken dikkate alınması gereken önemli bir noktadır. Herhangi bir nedenle sunucu düştüğünde tüm kiracılar işlevsel değildir.

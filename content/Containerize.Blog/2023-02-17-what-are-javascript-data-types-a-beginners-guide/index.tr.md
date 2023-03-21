@@ -20,10 +20,10 @@ Aşağıdaki noktayı ele alıyoruz:
   * [Veri türü nedir?][2]
   * [JavaScript veri türleri nelerdir?][3]
 
-## Veri Türleri Açıklandı | Veri türü nedir? {#What-a-Data-Type}
+## Veri Türleri Açıklandı | Veri türü nedir?   {#What-a-Data-Type}
 Veri türü, derleyiciye verilerin nasıl yorumlanacağını veya derleneceğini söylemekle ilgilidir. Veri türlerinin kullanımı kritiktir ve akıllıca kullanılmalıdır. Basit bir deyişle, sayı, String, Boolean ve daha fazlası gibi verilerin formatı ile ilgilidir. Bununla birlikte, iki veri türü kategorisi ilkel veri türleri ve maliyetlendirici olmayan veri türleri vardır. Bir sonraki bölümde yaşayacağımız sekiz ilkel veri türü vardır.
 
-## JavaScript veri türleri nelerdir? {#What-ARE-Javascript-Data-Types}
+## JavaScript veri türleri nelerdir?   {#What-ARE-Javascript-Data-Types}
 Aslında, JavaScript gevşek yazılmış bir dildir, yani değişken türünü açıkça tanımlamanız gerekmez. Bir değişkene herhangi bir değer atayabilirsiniz ve bu değişken String, BigInt, Boolean veya daha fazlası gibi bu değeri depolayacaktır.
 
 {{< figure align=center src="images/web-development.png" alt="JavaScript Yeni Başlayan Kılavuzu">}}

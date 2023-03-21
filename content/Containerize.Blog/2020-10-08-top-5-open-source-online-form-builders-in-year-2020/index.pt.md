@@ -24,7 +24,7 @@ Para ajudá -lo a escolher o construtor de formulários on -line correto, nossa 
   * [Webiny][4]
   * [FormTools][5]
 
-### ** form.io ** {#formio}
+### **form.io**    {#formio}
 O Form.io é um dos softwares de construtor de formulários mais populares com recursos de nível avançado. Ajuda você a gerar formulários e pesquisas da Web de entrada de dados, juntamente com a plataforma da API de gerenciamento de dados.
 Form.io é baseado em Node.js e MongoDB. Ele suporta a arquitetura sem servidor e isso o torna simples e escalável. Acima de tudo, ele suporta a autenticação do usuário e fornece controle total de seus dados em seu próprio ambiente.
 Aqui estão os principais destaques do formulário.io
@@ -35,7 +35,7 @@ Aqui estão os principais destaques do formulário.io
   * Interface de arrastar e soltar
     [Leia mais][6]
 
-### ** orbeon ** {#orbeon}
+### **orbeon**    {#orbeon}
 Orbeon é usado para gerar formas complexas de nível industrial sem nenhum conhecimento técnico. Sua plataforma agnóstica e formulários são acessíveis via desktop, laptops e celulares.
 É um dos populares softwares de formulário de formulário de código aberto que fornece recursos avançados para gerar rapidamente formulários da Web. Ele segue os padrões da Web que o fazem cruzar a plataforma. Ele se concentra na segurança e todos os dados são criptografados em repouso.
 Orbeon suporta a integração de terceiros, portanto, permite que você se conecte com qualquer back -end. Ele suporta o formato JSON e XML para serviços externos para retornar a resposta
@@ -47,7 +47,7 @@ Aqui estão alguns dos principais recursos para Orbeon
   * Suporte ao Liferay.
     [Leia mais][7]
 
-### ** ohmyform ** {#ohmyform}
+### **ohmyform**    {#ohmyform}
 O OhmyForm é um software de código aberto para gerar formulários, pesquisas e questionários para celular. Segue as tecnologias e formulários da Web padrão são facilmente incorporados aos aplicativos móveis, de desktop e da web.
 O OhmyForm vem com ferramentas embutidas para análise de dados. Em outras palavras, você pode analisar todos os seus envios de dados e entradas do formulário de pesquisa. Está sendo ativamente desenvolvido. Mais importante ainda, a comunidade de desenvolvedores está trabalhando duro para melhorar o produto.
 Os principais destaques do Ohmyform estão listados aqui
@@ -58,7 +58,7 @@ Os principais destaques do Ohmyform estão listados aqui
   * Formas como uma API de serviço.
     [Leia mais][8]
 
-### ** webiny ** {#webiny}
+### **webiny**    {#webiny}
 O webiny é um software auto-hospedado para criar formulários completos prontos para a produção. Não é apenas um construtor de formulários. Mas, um pacote completo para automatizar a maioria dos processos de negócios on -line.
 O webiny é construído sobre o Node.js e o GraphQL e o ReactJS. Portanto, ele suporta completamente a arquitetura sem servidor. Além disso, pode ajudá -lo a criar API, um aplicativo React, um aplicativo de administração completo para seu produto, site ou aplicativo móvel de maneira rápida e fácil.
 A arquitetura sem servidor torna o aplicativo escalável e o libera de problemas relacionados a carga e tráfego. Não apenas isso tem muito mais recursos de nível antecipado, como
@@ -69,7 +69,7 @@ A arquitetura sem servidor torna o aplicativo escalável e o libera de problemas
   * Webhooks
     [Leia mais][9]
 
-### ** FormTools ** {#FormTools}
+### **FormTools**    {#FormTools}
 O Form Tools é um script PHP/MySQL poderoso, flexível, gratuito e de código aberto. Você precisa instalá -lo no seu site para gerenciar seus formulários e dados. Além disso, o FormTools cria uma interface do formulário de formulários, onde você pode criar formulários de página única e várias páginas.
 O FormTools não apenas permite coletar dados, mas também permite visualizar e analisar seus dados usando o poderoso módulo de visualização de dados. Além disso, ele também permite exportar seus dados para serem usados ​​por outras ferramentas de análise de dados de terceiros.
 Juntamente com o gerenciamento de usuários e o suporte à API, há uma lista abrangente de recursos que o formulário fornece, aqui estão alguns desses recursos

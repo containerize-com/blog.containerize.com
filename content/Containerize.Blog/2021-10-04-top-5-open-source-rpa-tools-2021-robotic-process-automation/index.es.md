@@ -16,7 +16,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
 ## **Descripción general**
 En cualquier organización empresarial, hay muchas tareas y operaciones que son repetitivas, costosas y que requieren mucho tiempo en la naturaleza. Mientras realiza este tipo de tareas repetitivas diarias, siempre existe una gran posibilidad de errores humanos debido al trabajo repetitivo. Por lo tanto, para evitar errores, para ahorrar tiempo y esfuerzos humanos, hay muchos software RPA de automatización de procesos robóticos disponibles en el mercado.
 Las tareas diarias que los empleados realizan el software se automatizan utilizando los bots de software metafóricos o la tecnología de inteligencia artificial. El software que utiliza el bot para realizar esta automatización se llama software RPA o software robótico, no confundido con el software robot. A continuación se muestra una lista de las herramientas RPA de automatización de procesos robóticos más populares disponibles en el mercado para optimizar su negocio.
-** ¿Cuáles son las ROOL RPA de código abierto más populares? ** En este artículo, nos familiarizaremos con los ejemplos de herramientas RPA de código abierto más populares de 2021.
+**¿Cuáles son las ROOL RPA de código abierto más populares?**  En este artículo, nos familiarizaremos con los ejemplos de herramientas RPA de código abierto más populares de 2021.
   * Prisma azul
   * Automatización en cualquier lugar
   * Uipath
@@ -35,21 +35,21 @@ Aquí vamos !!!
   * Seguridad proporcionada para credenciales de red y software.
   * Se puede usar en cualquier plataforma.
   * Puede funcionar para cualquier aplicación.
-** Pros: **
+**Pros:** 
   * Ejecución de alta velocidad.
   * Independencia de la plataforma.
 **Contras:**
   * Deberías tener habilidades de programación.
   * Precio alto.
-** ¿Cuáles son las aplicaciones del prisma azul? **
+**¿Cuáles son las aplicaciones del prisma azul?** 
   * Sector público
   * Sector financiero
   * Comunicaciones y medios de comunicación
   * Manufactura industrial
   * Ciencias de la salud y la vida
   * Sector educativo
-** Lo mejor para: ** Automatizar procesos de back-office.
-** [Aprenda más sobre el prisma azul][1] **
+**Lo mejor para:**  Automatizar procesos de back-office.
+**[Aprenda más sobre el prisma azul][1]** 
 
 ## 2. Automatización en cualquier lugar
 
@@ -61,17 +61,17 @@ Aquí vamos !!!
   * Proporciona seguridad a través de la autenticación, el cifrado y las credenciales.
   * Informes y análisis en tiempo real.
   * Proporciona independencia de la plataforma.
-** Pros: **
+**Pros:** 
   * La facilidad de uso.
 **Contras**
   * IQBOT necesita mejora.
-** Aplicaciones de automatización en cualquier lugar **
+**Aplicaciones de automatización en cualquier lugar** 
   * Viaje de trabajo
   * Sector financiero
   * Plataformas sociales
   * Sector energético
-** Lo mejor para: ** Facilidad de uso.
-** [Aprenda más sobre la automatización en cualquier lugar][2] **
+**Lo mejor para:**  Facilidad de uso.
+**[Aprenda más sobre la automatización en cualquier lugar][2]** 
 
 ## 3. Uipath
 
@@ -83,15 +83,15 @@ Aquí vamos !!!
   * Puede automatizar más rápido. También de ocho a diez veces la automatización más rápida a través de Citrix.
   * Proporciona una plataforma abierta.
   * Puede manejar cualquier proceso, en cualquier número, independientemente de su complejidad.
-** Pros: **
+**Pros:** 
   * No se requieren habilidades de programación.
   * Facilidad de uso a través de la instalación de arrastrar y soltar.
   * Proporciona buenas características, gratis de costo.
 **Contras:**
   * Funcionalidad de codificación limitada.
-** Costo o precio de la herramienta: **
+**Costo o precio de la herramienta:** 
 Para equipos e individuos pequeños, Uipath proporciona la edición comunitaria. Es gratis.
-** Aplicaciones de Uipath **
+**Aplicaciones de Uipath** 
   * Finanzas y banca
   * Cuidado de la salud
   * BPO
@@ -100,8 +100,8 @@ Para equipos e individuos pequeños, Uipath proporciona la edición comunitaria.
   * Telecom
   * Retail y CPG
   * Sector público
-** Lo mejor para: ** Mejoras de cumplimiento y productividad.
-** [Aprenda más sobre Uipath][3] **
+**Lo mejor para:**  Mejoras de cumplimiento y productividad.
+**[Aprenda más sobre Uipath][3]** 
 
 ## 4. Pega
 
@@ -113,12 +113,12 @@ Para equipos e individuos pequeños, Uipath proporciona la edición comunitaria.
   * Proporciona una solución basada en la nube.
   * No almacena ningún datos de ejecución en una base de datos, sino que todo se almacena en la memoria.
   * Con esta herramienta, también puede distribuir el trabajo al escritorio, el servidor y los empleados.
-** Pros: **
+**Pros:** 
   * Debido al enfoque basado en eventos, funciona más rápido.
   * Es una herramienta robusta y confiable.
 **Contras:**
   * No hay una solución local.
-** ¿Cuáles son las aplicaciones de Pega? **
+**¿Cuáles son las aplicaciones de Pega?** 
   * Servicios financieros
   * Atención médica y ciencias de la vida
   * Servicios
@@ -127,8 +127,8 @@ Para equipos e individuos pequeños, Uipath proporciona la edición comunitaria.
   * Automotriz
   * Minorista
   * Medios y entretenimiento
-** Mejor para: ** Soluciones CRM y soporte de plataforma.
-** [Aprenda más sobre Pega][4] **
+**Mejor para:**  Soluciones CRM y soporte de plataforma.
+**[Aprenda más sobre Pega][4]** 
 
 ## 5. Kofax
 
@@ -140,22 +140,22 @@ Para equipos e individuos pequeños, Uipath proporciona la edición comunitaria.
   * Herramienta inteligente para monitorear y optimizar los procesos.
   * Se puede administrar centralmente desde un servidor.
   * Fácil de integrar con la plataforma Kapow Katalyst.
-** Pros: **
+**Pros:** 
   * Herramienta eficiente.
   * Puede funcionar rápido.
 **Contras:**
   * Necesita mejorar los videos de capacitación.
   * Puede ser un poco difícil de aprender.
-** Aplicaciones de Kofax **
+**Aplicaciones de Kofax** 
   * Banca
   * Gobierno
   * Seguro
   * Transporte y logística
   *
-** Lo mejor para: ** empresas con información pesada que desean procesos comerciales acelerados.
-** [Aprenda más sobre Kofax][5] **
+**Lo mejor para:**  empresas con información pesada que desean procesos comerciales acelerados.
+**[Aprenda más sobre Kofax][5]** 
 
-## ** Conclusión: ** {#4a1a}
+## **Conclusión:**    {#4a1a}
 Las cinco herramientas RPA de código abierto mencionadas anteriormente son las herramientas RPA gratuitas y de código abierto más populares para desarrolladores. Además de nuestra comparación de cada herramienta en detalle aquí, Blue Prism es la mejor herramienta, pero debe recibir capacitación antes de usarla. Y la capacitación también es costosa. Uipath es fácil de usar incluso para no desarrolladores. Proporciona las mismas características e incluso las industrias de pequeña escala servidores de TI. Para las aplicaciones de la estación de trabajo, Contextor es la mejor opción, ya que tienen una especialidad.
 _ ¿Cuáles son sus herramientas RPA de código abierto más favoritas? ¿Tiene alguna pregunta sobre las herramientas RPA de código abierto?, Por favor_ [Póngase en contacto][6].
 

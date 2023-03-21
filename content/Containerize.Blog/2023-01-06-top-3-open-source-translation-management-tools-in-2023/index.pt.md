@@ -20,14 +20,14 @@ A globalização e a localização desempenham um papel vital em trazer o tráfe
 As seguintes ferramentas de gerenciamento de tradução serão abordadas neste guia:
 * [**i18n-Tasks**][2]
 * [**tolgee**][3]
-***[Traduora][4]**
+* **[Traduora][4]**
 
-## i18n-Tasks {#i18n-Tasks}
+## i18n-Tasks   {#i18n-Tasks}
 [i18n-Tasks][5] é uma das ferramentas de gerenciamento de tradução gratuitas**mais amplamente usadas.**É altamente otimizado e escrito na linguagem de programação do Ruby. Portanto, esse TMS de código aberto é amigável e fácil de configurar na máquina local. Além disso, você pode integrá -lo a qualquer projeto usando [i18n gem][6]. Além disso, as Tasks I18N têm boas estatísticas no GitHub com 1,8 mil alcatrão e 231 garfos.
 Se você deseja experimentar, pode encontrar seu código no [Github][7] repo com todas as instruções de instalação mencionadas. Este sistema de gerenciamento de tradução gratuito tem a capacidade de gerenciar vários arquivos de tradução. Além disso, você pode criar adaptadores personalizados e fazer muitas outras personalizações para atender às suas necessidades de negócios. Basicamente, ele faz todos os processos por análise estática, onde oferece um console interativo aos usuários. Além disso, este TMS de código aberto fornece integrações com o Deepl e o Google Translations.
 **[Saiba mais sobre as tarefas i18n][5]**
 
-##**tolgee**{#tolgee}
+##**tolgee** {#tolgee}
 [Tolgee][8] é um sistema de gerenciamento de tradução de código aberto de nível corporativo.**Ele vem com recursos de auto-hospedagem com uma rica pilha de recursos. Este TMS está escrito em Kotlin, e o TypeScript e oferece integrações com quase todas as estruturas JavaScript populares como Next.js, Angular, Vue e muito mais. Além disso, este TMS gratuito possui todo o código -fonte disponível no [Github][9] com documentação abrangente sobre desenvolvimento e implantação.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="Sistema de gerenciamento de tradução">}}
@@ -42,7 +42,7 @@ A seguir, são apresentados os recursos proeminentes deste TMS gratuito:
 .**Colaboração**: É outra provisão proeminente na qual diferentes partes interessadas podem trabalhar de forma colaborativa e revisar, o trabalho realizado por outros
 [**Saiba mais sobre tolgee**][8]
 
-##**TRADUORA**{#TRADUORA}
+##**TRADUORA** {#TRADUORA}
 [Traduora][13] é outro software de código aberto para automatizar o fluxo de trabalho de tradução. Este TMS gratuito também é escrito no TypeScript, juntamente com a entrada de outros idiomas, como HTML, JavaScript, CSS e outros. Além disso, você pode auto-hospedar, pois há uma documentação completa disponível no GitHub em relação ao seu desenvolvimento e implantação. Além disso, existe uma imagem do Docker disponível neste software de gerenciamento de tradução de código aberto com o qual você configura este software girando o contêiner do Docker.
 Acima de tudo, a Traduora expôs uma API REST para integração com aplicativos de terceiros. Há uma implementação completa de autenticação neste TMS gratuito.
 Traduora cria os seguintes recursos principais:
@@ -58,16 +58,16 @@ Da mesma forma, existe uma comunidade vibrante que é muito ativa em responder a
 Para resumir, passamos pelas três ferramentas principais de gerenciamento de tradução de código aberto no ano 2023. Também exploramos suas estatísticas e recursos do GitHub. Todas as ferramentas de gerenciamento de tradução alistadas nesta postagem do blog são gratuitas e de código aberto. Além disso, houve melhorias consistentes nesta categoria de software de código aberto. Portanto, este artigo realmente o ajudará se você deseja instalar uma boa plataforma de gerenciamento de localização para obter serviços de localização de sites para o seu software de negócios. Existem outros artigos alistados na seção "Veja também", por isso não se esqueça de conferi -los.
 Finalmente, [**containerize.com**][14] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato para atualizações regulares.
 
-## Faça uma pergunta {#Ask-a-Question}
+## Faça uma pergunta   {#Ask-a-Question}
 Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum][15].
 
-## FAQS {#FAQS}
+## FAQS   {#FAQS}
 **Existe uma ferramenta de tradução melhor do que o Google Translate?**
 [Tolgee][8] é uma ferramenta de gerenciamento de tradução de código aberto com serviços de tradução aprimorados. Além disso, também suporta traduções do Google e traduções da AWS.
 **O que é um sistema TMS na tradução?**
 Um sistema de gerenciamento de tradução automatizou vários processos de tradução e aumenta a eficiência da tradução.
 
-## veja também {#ver-alos}
+## veja também   {#ver-alos}
   * [Por que você precisa de um sistema de gerenciamento de tradução?][1]
   * [Automatize operações comerciais usando software de código aberto e gratuito][16]
 

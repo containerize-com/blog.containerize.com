@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Visão geral
 O JavaScript é uma linguagem de script usada para desenvolver aplicativos dinâmicos baseados na Web. Usamos HTML e CSS para criar sites estáticos, enquanto o JavaScript é usado para adicionar interatividade. Em nossa postagem anterior, abordamos [Modelo de Objeto de Documento][1] e agora abordaremos outros conceitos básicos importantes**JavaScript**. Os desenvolvedores da Web tendem a optar por essa linguagem de script devido a seus ricos recursos e estruturas. Além disso, você pode fazer o desenvolvimento no front -end e no final, aprendendo JavaScript. No entanto, você não pode apenas desenvolver aplicativos da Web, mas também aplicativos móveis. Este tutorial de JavaScript o ajudará se você estiver se preparando para uma sessão de entrevista. No entanto, vale a pena ler este guia para adicionar mais ao seu bucket de conhecimento.
 Abordaremos os seguintes pontos deste artigo:
-***[O que está iça em JavaScript][2]**
-***[escopos em javascript][3]**
-***[fechos de javascript][4]**
+* **[O que está iça em JavaScript][2]**
+* **[escopos em javascript][3]**
+* **[fechos de javascript][4]**
 
-## O que está iça no JavaScript {#o que é-hoisting-in-Javascript}
+## O que está iça no JavaScript   {#o que é-hoisting-in-Javascript}
 O fenômeno de tomar função ou declaração variável no topo do escopo atual é conhecida como elevação. Este é um conceito muito crítico e a maioria dos desenvolvedores de JavaScript não está ciente disso. No entanto, uma coisa importante a ser observada aqui é que apenas declarações de função/variável são levadas para o topo, não a inicialização da função/variável.
 Vamos dar um exemplo e ver o trecho de código abaixo;
 ```
@@ -51,7 +51,7 @@ let name;
 ```
 O erro no snippet de código acima ocorreu. O motivo é que a inicialização não foi feita ao içar essa variável. Para encurtar a história, todas as declarações são inicializadas com "indefinidas", enquanto as variáveis ​​declaradas com "Let" ou "const" não são inicializadas em içar.
 
-## escopos em javascript {#scopes-in-javascript}
+## escopos em javascript   {#scopes-in-javascript}
 O escopo é um dos conceitos básicos de JavaScript que um desenvolvedor deve conhecer. No entanto, trabalhar com escopos de JavaScript não é direto e é um pouco diferente. Portanto, existem três tipos de escopos no JavaScript e são os seguintes:
 **Nível de bloco**: Variáveis ​​declaradas com "Let" ou "const" contém o escopo no nível do bloco.
 ```
@@ -79,7 +79,7 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## fechos de javascript {#javascript-closures}
+## fechos de javascript   {#javascript-closures}
 Esse é outro conceito importante que fortalece seu conhecimento de JavaScript sobre escopos e encapsulamento de dados. Na forma mais simples, uma função dentro de uma função é conhecida como fechamento. Você pode chamar a função interna de fechamento. Esta função interna tem três tipos de escopo:
  * Tem seu próprio escopo em nível de bloco.
  * Tem acesso às variáveis ​​dos pais.

@@ -15,21 +15,21 @@ categories: ['Blogging']
   * [要求][1]
   * [逐步指南][2]
 
-### 要求{#requirements}
+### 要求 {#requirements}
 首先，您需要做的是最重要的事情，是安装WordPress。 WordPress以其易于安装而闻名。这是一个简单的过程，可以按照[指南][3]轻松完成自己的操作。
 
-### 如何创建WordPress主题；逐步指南{#guide}
-对于WordPress主题，一切都将仅在** wp_content **目录中完成。只需在** wp_content→主题文件夹中制作一个新的主题子文件夹即可。
+### 如何创建WordPress主题；逐步指南 {#guide}
+对于WordPress主题，一切都将仅在**wp_content **目录中完成。只需在**  wp_content→主题文件夹中制作一个新的主题子文件夹即可。
 第二件事是决定主题的布局。在这里，教程显示了基本布局，包括**标题，主区域，页脚，侧边栏**。
-基本上，WordPress仅需要2个文件，即style.css and Index.php。但是，对于此布局，您需要** 5个文件**，如下所示；
-  *** header.php  -  **包含主题标题部分的代码。
-  *** index.php  -  **包含主区域的代码，并将指定将包含其他文件的位置。这是主题的主要文件。
-  *** sidebar.php  -  **包含有关侧边栏的信息。
-  *** footer.php  -  **处理页脚部分。
-  *** style.css  -  **负责您主题的样式。
-  *** bootstrap.css  -  **无需单独的CSS代码；反应迅速。
-  *** bootstrap.js  -  **为导航栏或选项卡提供了自己的JS，等等。
-** Bootstrap.js **和** Bootstrap.css **需要从Bootstrap软件包下载并复制到**主题**文件夹中。
+基本上，WordPress仅需要2个文件，即style.css and Index.php。但是，对于此布局，您需要 **5个文件** ，如下所示；
+  ***header.php  - ** 包含主题标题部分的代码。
+  ***index.php  - ** 包含主区域的代码，并将指定将包含其他文件的位置。这是主题的主要文件。
+  ***sidebar.php  - ** 包含有关侧边栏的信息。
+  ***footer.php  - ** 处理页脚部分。
+  ***style.css  - ** 负责您主题的样式。
+  ***bootstrap.css  - ** 无需单独的CSS代码；反应迅速。
+  ***bootstrap.js  - ** 为导航栏或选项卡提供了自己的JS，等等。
+**Bootstrap.js **和 **Bootstrap.css**  需要从Bootstrap软件包下载并复制到**主题**文件夹中。
 这是要遵循设置主题的步骤
 
 ### 步骤1：header.php文件

@@ -24,19 +24,19 @@ Cubriremos la integración de ChatGPT siguiendo los pasos mencionados a continua
 * [**Configurar configuraciones**][8]
 * [**Prueba y depuración**][9]
 
-## Paso 1: Cómo integrar chatgpt {#how-to-integrate-chatgpt}
+## Paso 1: Cómo integrar chatgpt   {#how-to-integrate-chatgpt}
 Lograr**ChatGPT Integration**en su sitio web de comercio electrónico y es el primer paso para las recomendaciones personalizadas de productos. Para hacer esto, debe enviar una solicitud a la [API de OpenAI][10] usando PHP, que contiene la información necesaria para ChatGPT para generar una respuesta. El contexto puede incluir historial de navegación y compra para el usuario.
 
-## Paso 2: almacenar datos de usuario {#store-user-data}
+## Paso 2: almacenar datos de usuario   {#store-user-data}
 Es necesario almacenar los datos del usuario para que ChatGPT genere recomendaciones de productos personalizadas. Sin embargo, los datos pueden contener información sobre el historial y compras de navegación del usuario. Por lo tanto, los datos deben almacenarse y usarse de forma segura solo para generar recomendaciones de productos personalizadas.
 
-## Paso 3: Recomendaciones de visualización {#Display-RECommendations}
+## Paso 3: Recomendaciones de visualización   {#Display-RECommendations}
 Después de eso, el siguiente paso es mostrar las recomendaciones de productos generadas por ChatGPT en su sitio web de comercio electrónico después de integrar ChatGPT y almacenar los datos del usuario necesarios. Por lo tanto, puede mostrar recomendaciones en la página del producto o en una sección separada del sitio web.
 
-## Paso 4: Configurar configuraciones {#Configuración de configuración}
+## Paso 4: Configurar configuraciones   {#Configuración de configuración}
 Para garantizar que las recomendaciones de productos de ChatGPT sean precisas y relevantes, la extensión debe configurarse. Además, puede especificar URL de punto final API, claves API y el número de recomendaciones para mostrar.
 
-## Paso 5: Prueba y depuración {#Test-and-DeBug}
+## Paso 5: Prueba y depuración   {#Test-and-DeBug}
 Para garantizar que la extensión funcione como se esperaba, debe ser probada y depurada. Además, podría implicar probar la integración de ChatGPT, probar el almacenamiento de datos del usuario y probar la visualización de recomendaciones.
 Sobre todo, puede ver el siguiente fragmento de código para implementar cómo lograr**integración de chatgpt con un sitio web de comercio electrónico**para generar recomendaciones de productos personalizadas:
 {{< gist fahadadeel 53a1ae29d023baf8d90ed81ac2a55914 >}}

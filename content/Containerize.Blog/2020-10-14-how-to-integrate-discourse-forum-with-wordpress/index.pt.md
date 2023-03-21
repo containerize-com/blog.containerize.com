@@ -21,13 +21,13 @@ Vários sites mantêm um fórum para seus problemas de apoio. Além disso, é us
   * [Instalação][4]
   * [Configurações][5]
 
-### discurso {#discourse}
+### discurso   {#discourse}
 O discurso é um software de fórum de discussão comunitário de código sólido, totalmente aberto, moderno, fácil de usar, rico em recursos, rico em recursos. Ele acompanha uma ampla gama de ferramentas para discussões da comunidade. Portanto, sua plataforma confiável e adaptável. [Leia mais][6]
 
-### wordpress {#wordpress}
+### wordpress   {#wordpress}
 O WordPress é um dos softwares de construção e blog mais populares. Seu 100% de código aberto e tem uma enorme comunidade de desenvolvedores. Como resultado, isso o torna a escolha número um de desenvolvedores, blogueiros e construtores de sites. Um grande número de sites on -line hoje é executado no WordPress. Porque permite que qualquer pessoa sem experiência em desenvolvimento construa sites. [Leia mais][7]
 
-### Plugin oficial do WordPress para discurso {#plugin}
+### Plugin oficial do WordPress para discurso   {#plugin}
 Considerando o volume de sites alimentados pelo WordPress. E, uma enorme demanda de integração com o WordPress. O discurso lançou um plug -in oficial do WordPress que facilita muito a integração.
 [WP Discourse][8] é o plug -in oficial do WordPress do discurso é 100% de código aberto. E está disponível gratuitamente para download do repositório. O código -fonte está disponível no [Github][9].
 Este plug -in permite usar o discurso como mecanismo comunitário para o seu site ou blog WordPress. Possui muitos recursos e alguns dos destaques do plug -in, e o que pode ser alcançado é o seguinte.
@@ -37,7 +37,7 @@ Este plug -in permite usar o discurso como mecanismo comunitário para o seu sit
   * O plug -in também vem com a funcionalidade SSO opcional, que permite usar seu site WordPress como o único sinal no provedor do seu fórum de discurso.
   * O plug -in permite que você use o discurso como um provedor de autenticação para o seu site WordPress.
 
-### Instalação {#Installation}
+### Instalação   {#Installation}
 Você pode instalar facilmente o plug -in pesquisando "WP Discourse" no seu painel do WordPress.
   * Do painel do WordPress, navegue para plugins> Adicionar novo
   * Pesquise por "WP Discourse"
@@ -46,7 +46,7 @@ Você pode instalar facilmente o plug -in pesquisando "WP Discourse" no seu pain
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="Instale o plug -in WP Discourse no painel do WordPress">}}
 
 
-### Configurações {#Settings}
+### Configurações   {#Settings}
 O discurso do WP fornece controle total com configurações. Ele permite que você estabeleça conexão entre as duas plataformas. A publicação de configurações, permite controlar como deseja publicar conteúdo do WordPress ao discurso.
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="Configurações padrão">}}

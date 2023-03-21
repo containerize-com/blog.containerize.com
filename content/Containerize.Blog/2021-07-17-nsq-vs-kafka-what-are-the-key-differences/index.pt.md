@@ -28,11 +28,11 @@ Este artigo do blog descreve a plataforma moderna da fila de mensagens NSQ vs Ka
 [Kafka][1] é uma plataforma de streaming de eventos distribuída de código aberto, escrito na linguagem Scala desenvolvida pelo LinkedIn. Ele é publicado no sistema de mensagens de inscrição e tem a capacidade de lidar com um alto volume de mensagens. Kafka é “Sistema de Mensagens de Pub-Sub-Sub-Pub distribuído, durável, tolerante a falhas e de alto rendimento” e você pode fazer processamento em tempo real e em lote com Kafka. É um serviço de mensagens de log distribuído, particionado e replicado entre nós e executa na JVM. A melhor fila de mensagens Kafka é simples de usar e fornece a funcionalidade de um sistema de fila de mensagens, mas com um design exclusivo.
 Os servidores Kafka da fila de mensagens distribuídos são conhecidos como corretores e formam um cluster kafka. Um Zookeeper é responsável pela coordenação entre todos os corretores em um cluster. O corretor de mensagens do Apache Kafka é usado por startups de unicórnio, saúde e principais organizações financeiras como LinkedIn, FB, Netflix, Bank of America, Chase Bank, Yahoo, Twitter e outros. O software de fila de mensagens de código aberto arquitetura Kafka consiste em produtores, consumidores, corretores, zoookeeper, tópicos, partições, registros e logs.
 
-## 2. O que é NSQ? {#CE62}
+## 2. O que é NSQ?   {#CE62}
 [NSQ][2] é uma plataforma de mensagens distribuída em tempo real, que é um sucessor da SimpleQueue. O desenvolvedor descreve o NSQ como "uma plataforma de mensagens distribuída em tempo real" construída por bitly. O corretor de mensagens de código aberto Softwarensq é uma plataforma de mensagens incrivelmente simples projetada e opera em uma escala, lidando com bilhões de mensagens por dia. É um sistema de mensagens tamponado tradicional que promove topologias descentralizadas sem pontos únicos de falha. Ele permite tolerância a falhas e alta disponibilidade, juntamente com um sistema de entrega de mensagens confiável.
 O NSQ oferece alta topologia de disponibilidade que minimiza o SPOF. Aumenta a disponibilidade, configurando várias instâncias para NSQD e NSQLookUpd. Além disso, garante que a mensagem seja entregue pelo menos uma vez com certa grau de persistência e é fácil de configurar. O melhor corretor de mensagens NSQ é mais flexível e suporta persistência de mensagens. Possui um painel de administração brilhante. O sistema de mensagens da fila NSQ possui 19,9k Github Stars e 2,6k Github Forks.
 
-## 3. Comparação nsq vs kafka {#ce62}
+## 3. Comparação nsq vs kafka   {#ce62}
 NSQ e Kafka ambos a fila de mensagens têm uma maneira única de definir sua arquitetura e como o corretor funciona, mas em vários pontos, isso pode ser uma consideração em qual plataforma você gostaria de preferir:
   * Disponibilidade
 Se o servidor NSQD travar sem graça, poderá haver uma possível perda de dados. A Kafka suporta a replicação e a partição incorporadas, o que a torna uma maior disponibilidade e mais confiabilidade. Devido ao fator de replicação n, Kafka pode tolerar falhas no servidor N-1 sem perder registros de dados.
@@ -45,11 +45,11 @@ Por outro lado, a Kafka possui o sistema de armazenamento de persistência dos r
   * Ordem da mensagem
 Como várias instâncias de NSQD não se comunicam e há sempre a possibilidade de uma mensagem não ordenada. Enquanto Kafka mantém cada uma de suas partições com uma sequência estruturada de registros. Kafka sempre fornecerá uma ordem exata das mensagens em uma partição.
 
-## 4. Por que Kafka sobre NSQ? {#CE62}
+## 4. Por que Kafka sobre NSQ?   {#CE62}
 O alto rendimento é a principal razão pela qual os desenvolvedores consideram Kafka sobre os concorrentes, enquanto que em Golang foi declarado como o fator-chave na escolha da fila de mensagens NSQ MQ. NSQ e KAFKA são serviços de fila de mensagens. Mas a diferença primária é que Kafka é estruturado como um log ordenado, mas o NSQ não é. A Kafka é conhecida por suas garantias estritas e confiabilidade em relação à perda de dados, enquanto o NSQ é uma fila de mensagens mais simples e fácil de implantar.
 NSQ com 20k Github Stars e 2,6k garfos no Github parecem ser mais populares do que Kafka com 19,4k Github Stars e 10,3k Github Forks. De acordo com a comunidade Stackshare, Kafka tem uma aprovação mais ampla, sendo mencionada em 509 pilhas de empresas e 470 desenvolvedores; Comparado ao NSQ, listado em 21 pilhas de empresas e 8 pilhas de desenvolvedores.
 
-## Conclusão: {#4a1a}
+## Conclusão:   {#4a1a}
 Este artigo forneceu uma breve comparação sobre o trabalho de estruturas de mensagens populares - NSQ e Kafka. Comparações de recursos do artigo girou em torno da taxa de transferência da fila de mensagens, persistência, confiabilidade, latência, escalabilidade e disponibilidade. Esses parâmetros são importantes para decidir a adequação de uma estrutura para um aplicativo em tempo real. Portanto, é um bom artigo para um entendimento completo escolher a estrutura certa. O software da fila de mensagens é a espinha dorsal da futura tecnologia no mercado que pode lidar com alto processamento. Em nossos próximos tutoriais, discutiremos sobre tópicos mais interessantes relacionados às plataformas de mensagens de código aberto.
 Você pode se juntar a nós no [Twitter][3], [LinkedIn][4] e nossa página [Facebook][5]. Qual plataforma de fila de mensagens você usa online?. Se você tiver alguma dúvida, por favor [entre em contato][6].
 

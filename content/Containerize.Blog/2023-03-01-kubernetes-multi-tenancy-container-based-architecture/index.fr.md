@@ -17,10 +17,10 @@ categories: ['Programming']
 ## Aperçu
 Nous sommes ici avec un autre article de blog passionnant dans la série de tenues multiples. Dans notre précédent [Article][1], nous avons abordé le concept de base derrière les applications multi-locataires, les avantages et les inconvénients et les types d'architecture multi-locataires. Puisqu'il est grand temps de servir plusieurs utilisateurs / locataires, gérez et utilisez des ressources de manière efficace. Ainsi, la multi-location est la première approche pour construire une infrastructure qui gère simultanément divers clients / locataires. Cependant, notre plus récent [article de blog][2] a démontré l'architecture sans serveur, la conteneurisation et [Kubernetes][3]. Par conséquent, dans cet article, nous explorerons l'architecture multi-tenue et basée sur les conteneurs. De plus, nous verrons comment vous pouvez atteindre la multi-location dans vos applications [conteneurisées][4].
 Les points suivants doivent être couverts dans cet article:
-  ***[Hôtes de conteneurs multi-locataires][5]**
-  ***[Kubernetes Multi-Renancy][6]**
+  * **[Hôtes de conteneurs multi-locataires][5]**
+  * **[Kubernetes Multi-Renancy][6]**
 
-## Hôtes de conteneurs multi-locataires {# multi-tenueur-contrainer-hôtes}
+## Hôtes de conteneurs multi-locataires   {# multi-tenueur-contrainer-hôtes}
 Le déploiement d'applications multi-locataires est une tâche critique en matière d'hébergement. Vous savez tous que les conteneurs sont légers par rapport aux machines virtuelles. Le déploiement des applications ne prend que quelques millisecondes pour terminer le déploiement alors qu'il pourrait être en quelques secondes à quelques minutes dans le cas des machines virtuelles.
 Cependant, la réalisation de la multi-location dans une architecture basée sur les conteneurs est assez simple. Chaque locataire est hébergé par un conteneur séparé avec une isolation complète et une confidentialité des données. Cela signifie que le nombre de conteneurs dépend du nombre de locataires. De plus, les outils suivants seront utilisés pour réaliser cette approche:
   * Docker et Docker composent
@@ -29,7 +29,7 @@ Cependant, la réalisation de la multi-location dans une architecture basée sur
   * Serveur d'application
 Vous utiliserez Docker pour construire l'image qui est un modèle pour construire le conteneur. De plus, vous utiliserez Docker Compose pour tourner plusieurs hôtes de conteneurs. De plus, vous utiliserez Nginx pour rediriger les demandes entrantes vers le locataire approprié. Ainsi, chaque hôte de conteneur contient l'application et les instances de base de données en hausse et en exécution. Cette méthode**Hosts de conteneurs multi-locataires**n'est pas à forte intensité de ressources et offre une robustesse dans la gestion de divers locataires et la garantie d'isolement et de sécurité des données.
 
-## Kubernetes Multi-Tenancy {# Kubernetes-Multi-Tenancy-}
+## Kubernetes Multi-Tenancy   {# Kubernetes-Multi-Tenancy-}
 Kubernetes contient de nombreux composants dans son architecture tels que les nœuds, le cluster, le plan de contrôle, etc. Fondamentalement, il n'y a pas de tenue multiples intégrée à Kubernetes mais vous pouvez y parvenir. Ainsi, il existe plusieurs applications / locataires en cours d'exécution et partageant le cluster Kubernetes et le plan de contrôle. D'un autre côté, dans des applications unique, une seule instance de l'application occupe l'ensemble du cluster Kubernetes.
 
 {{< figure align=center src="images/kubernetes.svg" alt="Kubernetes multi-tenue" >}}

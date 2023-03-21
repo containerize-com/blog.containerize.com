@@ -44,7 +44,7 @@ Para verificar a configuração do Apache2, abra seu navegador e navegue até o 
 
 
 ## Etapa 2: Configure o Apache2 como proxy reverso
-O Apache2 é instalado com sucesso e pronto para uso. Agora você pode configurar o Apache2 para funcionar como um proxy reverso do Apache2 Ubuntu. A função ** proxyPass ** e ** proxyPassverse ** ** fornece um proxy reverso. Para usar ** proxypass ** e ** proxyPassReverse **, você deve primeiro saber que onde deseja direcionar o tráfego do site.
+O Apache2 é instalado com sucesso e pronto para uso. Agora você pode configurar o Apache2 para funcionar como um proxy reverso do Apache2 Ubuntu. A função **proxyPass  **e **  proxyPassverse  ****  fornece um proxy reverso. Para usar  **proxypass **  e  **proxyPassReverse**  , você deve primeiro saber que onde deseja direcionar o tráfego do site.
 O servidor proxy reverso do Apache2 ouvirá todo o tráfego na porta HTTP padrão, que é a porta 80 em uma configuração simples. O servidor de back-end que hospeda o conteúdo do site ouvirá em uma porta personalizada e provavelmente é a porta 8080.
 Neste artigo do blog, vamos configurar o Apache2 para ouvir na porta 80 e depois direcionar o tráfego para o servidor back-end que ouve na porta 8080. Execute o comando abaixo para criar um arquivo virtualhost proxy chamado apache2proxy.conf.
 sudo nano /etc/apache2/sites-available/apache2proxy.conf
@@ -82,17 +82,17 @@ sudo a2ensite apache2proxy.conf
 sudo systemctl reiniciar apache2.service
 Inicie um navegador da Web de sua escolha e navegue até o nome do host do servidor como exemplo.com. Agora você estará proxado no seu servidor Apache2 na porta padrão, ou seja, 8080.
 
-## Etapa 4: Ativar o SSL {#Block-07B86D83-DCA0-4924-B991-206719C342EB}
+## Etapa 4: Ativar o SSL   {#Block-07B86D83-DCA0-4924-B991-206719C342EB}
 Se você deseja ativar o módulo SSL proxy reverso do Apache reverso, execute o comando abaixo para ativar o proxy reverso do apache https proxy passa:
 sudo a2enmod ssl
 Isso fornecerá suporte seguro de proxy reverso do Apache para Suporte HTTPS para servidores de back -end.
 
-## Etapa 5: reinicie o apache2 {#bloco-836bb4ff-17ad-4317-8ecb-153104bd28a7}
+## Etapa 5: reinicie o apache2   {#bloco-836bb4ff-17ad-4317-8ecb-153104bd28a7}
 Para fazer essas alterações em vigor, reinicie o Apache executando o comando abaixo:
 sudo systemctl reiniciar apache2.service
 Parabéns! Você instalou e configurou com sucesso o proxy reverso do Apache2 no seu sistema Linux.
 
-## ** Conclusão: ** {#4A1A}
+## **Conclusão:**    {#4A1A}
 Neste tutorial, exploramos e discutimos o que é um servidor proxy e um proxy reverso do Apache reverso de configuração passo a passo. Também aprendemos a configurar e configurar o Apache2 como um proxy reverso em um sistema Linux. Em nossos próximos tutoriais, discutiremos tópicos mais interessantes sobre o Apache e outras pilhas de solução de servidores da web.
 
 ## Explore

@@ -28,11 +28,11 @@ In diesem Artikel werden wir einige großartige Open -Source -Cloud -Speicherpla
 
 ## 1. OwnCloud - Dropbox -Austausch
 [Owncloud][1] ist eine beste kostenlose Cloud-Speicher- und Open-Source-Marktleitungssoftware für Cloud-basierte Kollaborationsplattformen. OwnCloud hat 50 Millionen Nutzer weltweit ANS TT hilft dabei, mehr als einen Dropbox -Ersatz zu erstellen, um Ihre Daten abzugeben. Die OwnCloud -Datenspeicherung verfügt über viele andere produktive Funktionen für die Verwaltung der Cloud -Dateifreigabe, zum Verwalten Ihres Kalenders, zum Do -Listen, für ein Dokumentbearbeitungswerkzeug, ein Ordnerfreigabe und vieles mehr. OwnCloud wird ausschließlich auf Ihrer eigenen privaten Cloud oder Ihrem eigenen Server gehostet. OwnCloud bietet Privatsphäre und arbeitet zum Schutz Ihres Dateienspeichers. OwnCloud Herunterladen und Hochladen von Dateien Die Zusammenarbeit ist kennwortgeschützt, sodass Sie sicher sein können, dass Ihre Daten unter Ihrer Kontrolle stehen.
-OwnCloud -Client verfügbar für Windows, MacOS, Linux, iOS, Android und [** Server -Software werden mit dem Webinstallationsprogramm installiert. **][2]
+OwnCloud -Client verfügbar für Windows, MacOS, Linux, iOS, Android und [**Server -Software werden mit dem Webinstallationsprogramm installiert.** ][2]
 
 ## 2. NEXTCLOUD - Private Cloud -Software
 [Nextcloud][3] ist eine Open Source- und beste Cloud -Speicherlösung für Linux -basierte Systeme. Es ist viel stabil als jede andere persönliche Cloud -Server -Software. NextCloud ist die beliebteste Open -Source -Cloud -Computing -Plattform für die Dateifreigabe auf dem Markt. Es ermöglicht die Zusammenarbeit und die Datensynchronisierung von Dateien sehr einfach, indem Sie Dateien, Kalender, E -Mail -Kontakte usw. freigeben können. Nextcloud Open Source Cloud -Software ist eine Sicherheitslösung. Es deckt nicht nur Probleme mit öffentlichen Cloud -Datenschutz, sondern auch die private und hybride Cloud enthalten. NextCloud erzwingt die Datenkonformität wie HIPAA und DSGVO.
-Es verfügt über einige sehr einzigartige Funktionen wie Virtual Data Room, Industry Best Security, Self Hosting. Open Source NextCloud-Datei-Synchronisierung und Freigabelösung, die als benutzerfreundlich und sehr sicher ausgestattet sind. Es bietet eine kennwortgeschützte Dateifreigabe und öffentliche Links für das Hochladen von Dateien. Mit NextCloud -Dateien können Benutzer Dateienänderungen, Downloads von Freigaben und Änderungen an Kommentaren per E -Mail -Benachrichtigung verfolgen. [** Sie können es auf einem beliebigen linux -Shared Server oder einem eigenen Server installieren. **][4]
+Es verfügt über einige sehr einzigartige Funktionen wie Virtual Data Room, Industry Best Security, Self Hosting. Open Source NextCloud-Datei-Synchronisierung und Freigabelösung, die als benutzerfreundlich und sehr sicher ausgestattet sind. Es bietet eine kennwortgeschützte Dateifreigabe und öffentliche Links für das Hochladen von Dateien. Mit NextCloud -Dateien können Benutzer Dateienänderungen, Downloads von Freigaben und Änderungen an Kommentaren per E -Mail -Benachrichtigung verfolgen. [**Sie können es auf einem beliebigen linux -Shared Server oder einem eigenen Server installieren.** ][4]
 NEXTCLOUD -Client -Support für Desktop- und Mobilgeräte.
 
 ## 3. Pydio -Zellen - Moderne Dateimanagementplattform
@@ -49,13 +49,13 @@ Seafile -Kunden für alle wichtigen Betriebssysteme verfügbar, einschließlich 
 Zu den Funktionen gehören wie Objektbasiert, verwaltet zentralisierte Metadaten, Netzwerkdateisysteme, hohe Leistung und große Datenspeicherung, ermöglicht teilweise oder vollständige Lesevorgänge und Schreibvorgänge.
 
 ## Andere Cloud -Speicher -Software -Optionen, die berücksichtigt werden sollen:
-  *** yotransfer ** ist selbst gehostete Dateiübertragungs- und Freigabelösung
-  *** syncthing ** ist eine kontinuierliche Datei -Synchronisierungssoftware
-  *** Cosy ** ist ein flexibles Tool zur Sharing- und Synchronisation von Dateien und Synchronisation
-  *** Xigmanas ** Open-Source-leistungsstarke und anpassbare Lösung
-  *** Cloud Storage Server ** ist sicher und erweiterbarer Speicher
+  ***yotransfer**  ist selbst gehostete Dateiübertragungs- und Freigabelösung
+  ***syncthing**  ist eine kontinuierliche Datei -Synchronisierungssoftware
+  ***Cosy**  ist ein flexibles Tool zur Sharing- und Synchronisation von Dateien und Synchronisation
+  ***Xigmanas**  Open-Source-leistungsstarke und anpassbare Lösung
+  ***Cloud Storage Server**  ist sicher und erweiterbarer Speicher
 
-## **** Final Denk **: ** {#4a1a}}
+## ****Final Denk **:**    {#4a1a}}
 Die oben genannten fünf Open -Source -Cloud -Dateidatei -Plattformen sind flexible Lösungen. Im Cloud Computing würden Sie viele Open Source Private Cloud -Speicherlösungen finden, aber das zuverlässigste ist am wichtigsten. Sie oder das Bedürfnis Ihres Unternehmens entscheiden die Auswahl der Cloud -Software. Ich hoffe, dieser Artikel hilft Ihnen dabei, einen sicheren und zuverlässigen persönlichen Cloud -Server einzurichten oder den besten Cloud -Service für die Speicherung Ihrer wertvollen Bilder, Musik, Filme und Dokumente auszuwählen.
 _Was ist Ihre bevorzugte kostenlose und Open -Source -Cloud -Storage -Softwarelösung?. Wenn Sie Fragen haben, bitte_ [in Kontakt][8].
 

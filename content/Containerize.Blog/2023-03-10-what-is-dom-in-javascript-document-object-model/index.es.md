@@ -18,22 +18,22 @@ categories: ['Programming']
 ## Descripción general
 Bienvenido a otra emocionante publicación de blog en la serie de [programación de JavaScript][1]. En este artículo, vamos a tocar un concepto muy básico pero esencial de desarrollo web. Sí, vamos a cubrir el modelo de objeto de documento en JavaScript. En el pasado, hemos publicado tutoriales JavaScript que son obligatorios para comenzar el desarrollo utilizando el lenguaje JavaScript. Por lo tanto, le sugerimos que lea esta publicación de blog a fondo para que no se pierda nada relacionado con este importante concepto. Comencemos esta guía y descubramos**qué es DOM en JavaScript**, DOM Propiedades y cómo puede interactuar con ella mediante programación.
 Cubriremos los siguientes temas en esta guía de JavaScript:
-***[¿Qué es el modelo de objeto de documento (DOM)?][2]**
-***[niveles dom][3]**
-***[¿Qué son las propiedades DOM y cómo acceder a ellas?][4]**
+* **[¿Qué es el modelo de objeto de documento (DOM)?][2]**
+* **[niveles dom][3]**
+* **[¿Qué son las propiedades DOM y cómo acceder a ellas?][4]**
 
-## ¿Qué es el modelo de objeto de documento (DOM)? {#What-is-Document-Object-Model}
+## ¿Qué es el modelo de objeto de documento (DOM)?   {#What-is-Document-Object-Model}
 Dom representa?**Modelo de objetos de documento (DOM)**es la representación de una página web dentro de un navegador web. Simplemente, la representación jerárquica de los elementos de un documento HTML en un navegador se conoce como modelo de objeto de documento. Se forma en forma de árbol que realmente genera el navegador web. Consiste en varios nodos que están conectados entre sí formando una forma de árbol. Además, los elementos DOM tienen atributos y eventos adjuntos a ellos.
 De hecho, DOM es una interfaz de programación que formula la estructura lógica de una página web y dicta la forma de acceder a los elementos de la página. Básicamente, JavaScript no reconoce las etiquetas HTML como el título, H1 y, etc., por lo tanto, una vez que un documento HTML se carga en un navegador web, se crea DOM, lo que hace que JavaScript comprenda los elementos del documento.
 
-## Dom niveles {#DOM-Levels}
+## Dom niveles   {#DOM-Levels}
 Esta sección demostrará los diversos niveles de DOM. Primero, hay un objeto de ventana en un navegador que siempre está en la parte superior, y luego hay un nodo de documento. Echemos un vistazo a la imagen a continuación:
 
 {{< figure align=center src="images/DOM.png" alt="Niveles de DOM">}}
 
 Bueno, puedes ver los elementos DOM en la imagen de arriba. La ventana y el documento son los objetos de navegador de nivel superior y luego tenemos el elemento HTML como raíz. Continuando, tenemos los nodos de la cabeza y el cuerpo, el nodo del título pertenece al nodo de la cabeza y el nodo del cuerpo contiene todos los nodos que se vuelven y visibles en el navegador web. Además, los elementos corporales contienen atributos que podemos ver en la imagen, como la etiqueta de anclaje que contiene el atributo "HREF". Del mismo modo, otros nodos DOM contienen varios atributos como IMG, Meta y más.
 
-## ¿Cuáles son las propiedades DOM y cómo acceder a ellas? {#What-ar-dom-properties-and-ship-to-access-them}
+## ¿Cuáles son las propiedades DOM y cómo acceder a ellas?   {#What-ar-dom-properties-and-ship-to-access-them}
 Hasta ahora, hemos presentado una respuesta a lo que es DOM en JavaScript y los niveles DOM, y también hemos pasado por los nodos DOM. En esta sección, pasaremos por las propiedades DOM y veremos cómo podemos interactuar con ellas. Cada elemento DOM tiene un valor vinculado a él, como la etiqueta "P" tiene propiedad de texto, la etiqueta IMG tiene la imagen, etc. Los métodos JavaScript se utilizan para acceder a los valores de los nodos. Además, puede agregar/eliminar los oyentes de eventos a los elementos DOM.
 Puede encontrar las siguientes propiedades de DOM**:
 **Innerhtml**: Esta propiedad se usa para establecer o obtener el contenido HTML de un nodo DOM.

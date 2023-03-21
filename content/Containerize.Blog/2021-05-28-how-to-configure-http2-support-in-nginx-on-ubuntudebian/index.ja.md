@@ -26,7 +26,7 @@ NGINXでサポートされているプロトコルの1つは、2015年5月に公
   * nginxを再起動します
   * 結論
 
-## ステップ1：パッケージの更新とnginxのインストール{#4597}
+## ステップ1：パッケージの更新とnginxのインストール {#4597}
 最初のステップは、APTパッケージシステムのリポジトリを更新およびアップグレードすることです。更新を使用すると、最新のバージョンパッケージがダウンロードされ、アップグレードはリストに最新バージョンのパッケージをインストールします。以下のAPTコマンドを実行して、パッケージを更新およびアップグレードします。
 ```
 sudo apt-get update && apt-get upgrade
@@ -44,7 +44,7 @@ sudo nginx -v
 nginx version: nginx/1.10.0 (Ubuntu)
 ```
 
-## ステップ2：http/2サポートを有効にする{#f4d2}
+## ステップ2：http/2サポートを有効にする {#f4d2}
 NGINXパッケージをインストールした後、HTTP2 NGINXを有効にする必要があります。ユーザーはリスニングポートを80から443に変更する必要があります。NGINX構成ファイルを開きましょう。
 ```
 sudo nano /etc/nginx/sites-available/domain-name.com
@@ -57,7 +57,7 @@ nginxのデフォルトの値は、ポート80を聞くように設定されて�
 聞く[::]：443 SSL http2 default_server;
 SSLに加えて、HTTP2も追加したことに注意してください。 Nginxは、HTTP/2プロトコルをサポートするブラウザを使用できるようになりました。
 
-## ステップ3：サーバー名{#a745}の追加
+## ステップ3：サーバー名 {#a745}の追加
 次のステップは、サーバー名がドメイン名に関連付けられるようにサーバー\ _NAMEを変更することです。ユーザーは、構成ファイルのサーバー名を変更するだけです。構成ファイルのサーバー\ _NAMEエントリを見つけて、このように実際のドメインに_を変更します。
 ```
 server_name example.com www.example.com;
@@ -70,7 +70,7 @@ sudo nginx -t
 nginx：構成ファイル/etc/nginx/nginx.conf構文は問題ありません
 nginx：構成file /etc/nginx/nginx.confテストが成功しました
 
-## ステップ4：SSL証明書の追加{#37C0}
+## ステップ4：SSL証明書の追加 {#37C0}
 次のステップは、nginx HTTPS構成がSSL証明書を使用できるようにすることです。自己署名された証明書を生成するか、[Let's Encryptから無料の証明書をインストール][1]。 SSL証明書がない場合は、このチュートリアルに従ってください。次のようなnginx構成ディレクトリ内にSSL証明書を追加する
 ```
 sudo mkdir /etc/nginx/ssl
@@ -84,7 +84,7 @@ ssl_certificate /etc/nginx/ssl/example.com.crt;
 ssl_certificate_key /etc/nginx/ssl/example.com.key;
 ファイルnginxファイルを保存し、テキストエディターを終了します。
 
-## ステップ5：暗号の削除{#d291}
+## ステップ5：暗号の削除 {#d291}
 Cipherは、データ暗号化と復号化のために暗号化で使用されるアルゴリズムです。暗号スイートは、ネットワーク接続を保護するために使用される暗号化アルゴリズムの束です。 HTTP/2には、削除する必要がある不安定な暗号の巨大なブラックリストがあります。ここでは、Internet Giants CloudFlareによって承認された人気のあるCipherセットを使用します。
 次のnginx構成ファイル/etc/nginx/nginx.confを開き、** ssl \ _prefer \ _server_ciphers onの直後に以下の行を追加します。
 ```
@@ -93,7 +93,7 @@ AES256:EECDH+3DES:RSA+3DES:!MD5;
 ```
 gzipをオフに設定して、プロキシ\ _max \ _temp \ _file \ _size 0を追加できます。 err \ _http2 \ _protocol_error nginxエラーを回避するには。
 
-## ステップ6：すべてのhttpリクエストをhttps {#b387}にリダイレクトする
+## ステップ6：すべてのhttpリクエストをhttps   {#b387}にリダイレクトする
 次に、サーバーがHTTP要求を受信した場合にのみ、nginx http2プロキシにHTTPSを介してコンテンツを提供するものを伝える必要があります。最後に、コメントした行を無視すると、nginx構成ファイル/etc/nginx/sites-abailable/domain-name.comがこれに似ているはずです。
 server {聞く443 SSL http2 default_server;聞く[::]：443 SSL http2 default_server; root/var/www/html; index.html index.htm index.nginx-debian.html; server_name example.com; location/{try_files $ uri $ uri/= 404444444444444444444 ; } ssl_certificate /etc/nginx/ssl/example.com.crt;ssl_certificate_key /tc/nginx/ssl/example.com.key;ssl_dhparam /etc/nginx/ssl/dhparam.pem;} server {listen 80;聞く[::]：80; server_name example.com; 301 https：// $ server_name $ request_uri;}を返します
 file /etc/nginx/sites-abailable/domain-name.comを保存してから終了します。構文エラーの構成を確認してください。
@@ -101,12 +101,12 @@ file /etc/nginx/sites-abailable/domain-name.comを保存してから終了しま
 sudo nginx -t
 ```
 
-## ステップ7：nginxを再起動{#e687}
+## ステップ7：nginxを再起動 {#e687}
 すべての変更を適用するには、nginx http2逆プロキシサーバーを再起動し、構成ステータスを確認します。
 sudo systemctl restart nginx
 sudo systemctl status nginx
 
-## **結論：** {#4a1a}
+## **結論：**   {#4a1a}
 おめでとうございます、Ubuntu ServerでNginx config HTTP2サポートをセットアップする方法を成功裏に学びました。 NGINX HTTP2の設定は、HTTP/2ページにサービスを提供しており、HTTP/1とHTTP/2プロトコルの違いもクリアされています。それでも構成の問題に直面している場合は、コメントセクションでお知らせください。
 HTTP2多重プロトコルについて質問がありますか？
 

@@ -23,7 +23,7 @@ Discutiremos las siguientes herramientas DBMS de código abierto en este artícu
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin {#phpmyadmin}
+## phpmyadmin   {#phpmyadmin}
 PhPMyAdmin viene como un componente incorporado con los servidores web XAMPP y WAMPP. En este momento, PhPMyadmin es el software de gestión de bases de datos más utilizado. Los desarrolladores pueden administrar información, tablas, columnas, relaciones, referencias, usuarios y permisos, etc. a través de la interfaz. Además, se utiliza para realizar la mayoría de las tareas de administración, incluida la creación de una base de datos, ejecutar consultas y agregar cuentas de usuario. Este sistema de gestión de bases de datos está escrito en PHP junto con la entrada de otros idiomas como JavaScript y SCSS. Por lo tanto, toda la documentación está disponible con respecto al desarrollo y la implementación. Estas son algunas características destacadas de PhPMyadmin:
   * Interfaz web fácil de usar.
   * Soporte de características múltiples de MySQL.

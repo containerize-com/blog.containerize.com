@@ -19,16 +19,16 @@ Dieser Blog -Beitrag ist für Sie, egal ob Sie Entwickler oder [DevOps][1] Profi
 Die folgenden Punkte werden in diesem Artikel behandelt:
 * [**Was ist ein Protokollverwaltungssystem?**][3]
 * [**Herausforderungen mit dem Ereignisprotokollmanagement**][4]
-***[Wie kann ein Open-Source-Protokoll-Management-Tool helfen?][5]**
+* **[Wie kann ein Open-Source-Protokoll-Management-Tool helfen?][5]**
 
-## Was ist ein Protokollverwaltungssystem? {#What-is-a-Log-Management-System}
+## Was ist ein Protokollverwaltungssystem?   {#What-is-a-Log-Management-System}
 In einfachen Worten ist ein**Protokollverwaltungssystem (LMS)**Software, die Protokolldaten sammelt und verschiedene Vorgänge für diese Daten ausführt. Darüber hinaus sorgt das**Log-Überwachungstool**sortierte Daten, führt Analysealgorithmen durch und trifft dann Entscheidungen über die Aufbewahrung von protokollierten Daten. Darüber hinaus generiert ein**LMS (Protokollverwaltungssystem)**einen umfassenden Bericht nach Überprüfung der Serverprotokolldateien, die die Schwachstellen, Bedrohungen und Sicherheitslücken anzeigen. Kurz gesagt, die Tools für die Protokollierung und Überwachung von Nussschalen**automatisieren**Ereignisprotokollmanagement**, die der Business -Software schließlich einen Wettbewerbsvorteil verleiht.
 
 {{< figure align=center src="images/logs.png" alt="Open-Source-Protokollmanagementsystem">}}
 
 Darüber hinaus spielt das Berichtstool eines LMS eine Schlüsselrolle bei der Identifizierung der Probleme und beim Durchsuchen der Protokolldateien durch Generieren der Indizes. Das Beste daran ist, dass alles, was durch eine vom Log Management System (LMS) bereitgestellte Konfigurationsschnittstelle geschieht. Administratoren können dann die automatisierten Workflows ermöglichen, die Gesundheit des Servers aufrechtzuerhalten.
 
-## Herausforderungen mit dem Ereignisprotokollmanagement {#Challenges-amtiert-with-event-log-Management}
+## Herausforderungen mit dem Ereignisprotokollmanagement   {#Challenges-amtiert-with-event-log-Management}
 Tatsächlich ist es sehr einfach geworden, einige der üblichen und herkömmlichen Probleme zu bewältigen, die sich auf Speicher, Geschwindigkeit und Netzwerk beziehen. Obwohl es bestimmte Bereiche gibt, in denen Systemadministratoren vor Herausforderungen stehen, um die folgenden Probleme anzugehen:
 **Massives Protokollvolumen:**Dies ist eine der Herausforderungen, denen sich jede Organisation gegenübersehen kann. Es wird unmöglich, große Mengen an Protokolldaten zu sammeln und zu sortieren, bei denen Hunderte und Tausende von Servern beteiligt sind. Ein**Protokollverwaltungssystem (LMS)**bietet Bestimmungen an, um massive Protokollvolumina auf effiziente Weise zu verarbeiten.
 **Variationen des Datenformates:**Verwalten verschiedener Datenformate aus mehreren Quellen ist keine einfache Aufgabe und kann eine Herausforderung für jedes Protokollierungs- und Überwachungstool sein. Da Systemadministratoren nicht sicher sind, dass das Datenformat aus verschiedenen Endpunkten des Systems stammt.
@@ -36,7 +36,7 @@ Tatsächlich ist es sehr einfach geworden, einige der üblichen und herkömmlich
 **Barrierefreiheit**: Es ist ein weiterer Faktor, der zu Problemen führen kann. Darüber hinaus wird die Indizierung von Protokollen und das Hinzufügen durchsuchbarer Funktionen auf Protokolldateien zugänglich. Durch das Hinzufügen von Zeitstempeln und Kategorisierung der Protokolldaten können Systemadministratoren gespeicherte Protokolldaten abfragen.
 **Operational****Kosten**: A**Protokollverwaltungssystem (LMS)**ist ein Muss einer IT-Infrastruktur, die in einer Organisation arbeitet. Immer wenn eine Anwendungsaufschlüsselung auftritt, sollte es leicht sein, die Grundursache zu beheben und zu fangen. Darüber hinaus sind Cloud-basierte Umgebungen mit komplexeren Protokollierungsmechanismen ausgestattet, die sich für ein**Protokollierungs- und Überwachungstool**entscheiden.
 
-## Wie ein Open-Source-Protokollmanagement-Tool helfen kann? {#How-An-Open-Source-Log-Management-Tool-Can-Help}
+## Wie ein Open-Source-Protokollmanagement-Tool helfen kann?   {#How-An-Open-Source-Log-Management-Tool-Can-Help}
 Hier kommt die Open-Source-Community, die immens zur technischen Welt beigetragen hat. Genau wie die anderen Softwarekategorien gibt es viele**Open-Source-Protokoll-Überwachungstools**, die Funktionen auf Unternehmensebene zum Speichern und Verwalten von Protokolldateien bieten. Darüber hinaus kann ein Open-Source-LMS Ihre Protokolldateien zugänglich machen und die an manuellen Praktiken verbundenen Kosten reduzieren.
 Tatsächlich geht es bei einem Software -Absturz oder Systemverschluss darum, wie Sie Betriebsdetails protokollieren.**Open-Source Event Log Management Software**bietet eine intuitive und anpassbare Schnittstelle. Es gibt also viele andere Aspekte, die wir im kommenden Blog -Beitrag behandeln werden.
 

@@ -19,10 +19,10 @@ Cada negocio necesita algún tipo de sistema para la gestión de facturas, gasto
   * [Exploración de características][3]
   * [Conclusión][4]
 
-## Introducción sobre Crater {#Introduction}
+## Introducción sobre Crater   {#Introduction}
 [Cráter][5] es una aplicación de facturación gratuita y de código abierto. Es absolutamente gratis, y puede actualizarlo fácilmente a las versiones más recientes. Es un sistema de contabilidad gratuito para pequeñas empresas y freelancers. También es una solución de facturación completa, que le permite realizar un seguimiento de los gastos y pagos, calcular los impuestos y producir estimaciones y facturas. Además, viene con las aplicaciones móviles listos para dispositivos para iPhone y Android. Le permitirá administrarlo desde cualquier lugar. Dado que Crater es un software de facturación basado en la web, la aplicación web está diseñada con Laravel y Vuejs, y las aplicaciones móviles están construidas con React Native. Toda la documentación relacionada con el desarrollo y la implementación está disponible. El código fuente completo se puede encontrar en [GitHub][6].
 
-## Procedimiento de instalación del cráter {#Installation}
+## Procedimiento de instalación del cráter   {#Installation}
 Discutiremos cómo instalar el cráter con el método manual y usar Docker en esta sección.
 
 ### Instalación manual
@@ -48,25 +48,25 @@ $ ./docker-compose/setup.sh
 ```
   * Abra el sitio del cráter en su navegador y siga el asistente de instalación.
 
-## Exploración de características {#Feature}
+## Exploración de características   {#Feature}
 En esta sección, exploraremos las características centrales de esta aplicación de facturación de código abierto. Una vez que haya terminado con la instalación, abra su sitio http://example.com e inicie sesión en la aplicación.
-  *** Panel de control ** - Después de iniciar sesión, lo llevarán al tablero, que muestra la vista completa de la aplicación.
+  ***Panel de control**  - Después de iniciar sesión, lo llevarán al tablero, que muestra la vista completa de la aplicación.
 
 {{< figure align=center src="images/crater-dashboard-1024x479.png" alt="">}}
 
-  *** Configuración **: ahora navegue a la página de configuración y agregue varias configuraciones de aplicaciones web, como configuración de cuenta, información de la empresa, preferencias, personalizaciones, notificaciones, módulos de pago, etc.
+  ***Configuración** : ahora navegue a la página de configuración y agregue varias configuraciones de aplicaciones web, como configuración de cuenta, información de la empresa, preferencias, personalizaciones, notificaciones, módulos de pago, etc.
 
 {{< figure align=center src="images/crater-settings-1024x478.png" alt="">}}
 
-  *** Elementos ** - Se puede acceder a la pestaña Elementos desde el menú de la barra lateral. Desde esta pestaña, puede administrar sus artículos. Puede usar elementos mientras crea estimaciones y facturas.
-  *** Estimaciones **: cree una cotización integral que incluya tarifas, descuentos, inventario y más. Una de las tres plantillas construidas se puede usar para crear una estimación. Se pueden agregar impuestos adicionales a la estimación, y también se pueden agregar como un impuesto compuesto.
-  *** Facturas ** - Haga facturas profesionales y envíelas a sus clientes. Puede usar plantillas disponibles para generar factura. Puede agregar impuestos adicionales a la factura, así como un impuesto compuesto. Además, puede proporcionar un porcentaje o descuento de valor fijo a sus clientes. Además, puede aplicar descuentos a los artículos individuales, así como al monto general de la factura.
-  *** Pagos **: este módulo le ayuda a seguir el seguimiento de los pagos que tiene de sus clientes.
-  *** Gastos **: el módulo de gastos le ayuda a realizar un seguimiento de cuánto gasta en diferentes servicios.
-  *** Impuestos ** - Usando esta función, puede administrar fácilmente sus impuestos. Puede agregar múltiples impuestos sobre el monto total de la factura o en el artículo individual.
-  *** Informes ** - Obtenga información completa sobre todas sus facturas, ya sea para uno o varios clientes. Crater Supports viene con cuatro tipos de informes, como informe de ventas, informe de ganancias y pérdidas, informe de gastos e informe de impuestos.
+  ***Elementos**  - Se puede acceder a la pestaña Elementos desde el menú de la barra lateral. Desde esta pestaña, puede administrar sus artículos. Puede usar elementos mientras crea estimaciones y facturas.
+  ***Estimaciones** : cree una cotización integral que incluya tarifas, descuentos, inventario y más. Una de las tres plantillas construidas se puede usar para crear una estimación. Se pueden agregar impuestos adicionales a la estimación, y también se pueden agregar como un impuesto compuesto.
+  ***Facturas**  - Haga facturas profesionales y envíelas a sus clientes. Puede usar plantillas disponibles para generar factura. Puede agregar impuestos adicionales a la factura, así como un impuesto compuesto. Además, puede proporcionar un porcentaje o descuento de valor fijo a sus clientes. Además, puede aplicar descuentos a los artículos individuales, así como al monto general de la factura.
+  ***Pagos** : este módulo le ayuda a seguir el seguimiento de los pagos que tiene de sus clientes.
+  ***Gastos** : el módulo de gastos le ayuda a realizar un seguimiento de cuánto gasta en diferentes servicios.
+  ***Impuestos**  - Usando esta función, puede administrar fácilmente sus impuestos. Puede agregar múltiples impuestos sobre el monto total de la factura o en el artículo individual.
+  ***Informes**  - Obtenga información completa sobre todas sus facturas, ya sea para uno o varios clientes. Crater Supports viene con cuatro tipos de informes, como informe de ventas, informe de ganancias y pérdidas, informe de gastos e informe de impuestos.
 
-## conclusión {#conclusion}
+## conclusión   {#conclusion}
 Aprendimos sobre Crater y cómo configurarlo manualmente y con Docker. También hemos analizado algunas de las características que cada software de facturación de contabilidad debe proporcionar. Con suerte, esta guía puede ayudarlo a implementar rápidamente un sistema de factura de código abierto para su negocio.
 Finalmente, [Contenerize.com][7] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [facturación][8] para actualizaciones regulares.
 

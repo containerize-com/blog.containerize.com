@@ -21,7 +21,7 @@ Ada begitu banyak platform blogging open source yang menyediakan opsi ekstensibi
   * [Serendipity][4]
   * [Silverstripe][5]
 
-### ** WordPress ** {#WordPress}
+### **WordPress**    {#WordPress}
 WordPress adalah sistem manajemen konten sumber yang gratis dan terbuka dan platform blogging yang di -host mandiri. Ini didasarkan pada PHP dan MySQL yang merupakan tumpukan teknologi paling populer. Akibatnya, membuat WordPress CMS yang paling banyak digunakan dan perangkat lunak blogging open source di dunia. Pada saat penulisan posting ini, sesuai situs web resmi WordPress.org TI memberi lebih dari 30% dari 10 juta situs web teratas dan pangsa pasar secara keseluruhan adalah 60%.
 Apakah Anda ingin membuat blog, situs web atau ingin menjual secara online. Dengan kata lain apa pun yang terkait dengan pembuatan konten, WordPress memberi Anda semua alat dan fitur. Ini memiliki repositori plugin yang luas dengan ribuan plugin yang tersedia. Oleh karena itu, sangat membantu para pengembang untuk meningkatkan pengalaman alat blogging terbaik WordPress.
 Sebagai kesimpulan, popularitas WordPress, menjadikannya pilihan pertama pengembang untuk menulis add-on mereka sendiri untuk memperluas fungsionalitas WordPress. Pengembangan plugin untuk WordPress telah menjadi industri sendiri.
@@ -33,7 +33,7 @@ Berikut adalah beberapa fitur penting dari platform microblogging terbaik WordPr
   * Komunitas pengembang open source besar
     [Baca lebih lanjut][6]
 
-### ** jekyll ** {#jekyll}
+### **jekyll**    {#jekyll}
 Jekyll adalah generator situs statis dan alat blogging gratis untuk pemula. Ini membuat situs web menggunakan file markup Anda. Dibutuhkan konten situs Anda, menerapkannya pada beberapa templat dan menghasilkan file HTML murni statis. Jadi, mereka siap di -host di platform hosting apa pun.
 Tidak seperti WordPress atau alat blogging lainnya, tujuan utama Jekyll adalah kecepatan dan kinerja situs web. Ini adalah generator situs statis dan platform blogging open source gratis. Akibatnya, ia menghilangkan semua pemrosesan konten pada waktu yang dijalankan. Jadi, tidak ada overhead membaca data dari database ketika pengguna mengakses situs web. Banyak situs lalu lintas tinggi dibangun dengan Jekyll, dan diketahui memberikan situs web yang relatif cepat dan aman.
 Berikut adalah highlight teratas dari platform blogging open source terbaik Jekyll.
@@ -44,7 +44,7 @@ Berikut adalah highlight teratas dari platform blogging open source terbaik Jeky
   * Open Source
     [Baca lebih lanjut][7]
 
-### ** hantu ** {#ghost}
+### **hantu**    {#ghost}
 Ghost adalah nirlaba open source dan alat blogging gratis. Ini dikembangkan menggunakan Node.js yang merupakan salah satu platform pengembangan paling populer. Jadi, ia memiliki semua kekuatan node. Di atas segalanya, ia memiliki antarmuka sederhana dan bersih yang membuatnya mudah digunakan. Ini adalah manajemen konten yang luar biasa dan platform blogging untuk pemula dan lebih fokus pada konten.
 Kekuatan dan kecepatan Node.js menjadikan Ghost platform yang cepat dan kuat. Ini lebih fokus pada penurunan harga daripada mengedit wysiwyg. Ghost memiliki dua versi, yang diselenggarakan sendiri dan diselenggarakan. Ini mendukung tema khusus dan memungkinkan Anda untuk mengunggah tema Anda sendiri pada versi yang diselenggarakan sendiri dan di-host.
 Ghost menyediakan API REST asli, keanggotaan bawaan dan fitur berlangganan bersama fitur-fitur terkenal lainnya seperti yang tercantum di bawah ini
@@ -56,7 +56,7 @@ Ghost menyediakan API REST asli, keanggotaan bawaan dan fitur berlangganan bersa
   * Aplikasi asli
     [Baca lebih lanjut][8]
 
-### ** Serendipity ** {#serendipity}
+### **Serendipity**    {#serendipity}
 Serendipity adalah open source, mesin weblog berbasis PHP yang dapat digunakan untuk membangun dan memelihara situs web untuk tujuan apa pun. Ini dirancang untuk para blogger kasual. Namun, menawarkan kerangka kerja yang dapat diperluas yang memiliki kekuatan untuk membangun aplikasi profesional.
 Keandalan, keamanan, ekstensibilitas, dan kemudahan penggunaan adalah persyaratan inti dari setiap platform blogging dan kebetulan untuk ini. Ini memiliki antarmuka yang sederhana namun kuat. Oleh karena itu, izinkan pengeditan dan pengelolaan konten Anda dengan mudah.
 Serendipity mendukung berbagai bahasa seperti bahasa Inggris, Jerman, Denmark dan Prancis. Yang paling penting, ia memiliki dukungan asli untuk migrasi dari platform blogging lainnya seperti WordPress, TextPattern, tipe yang dapat dipindahkan dll. Jadi, ini membuatnya mudah untuk memindahkan blog Anda yang ada dari WordPress ke Serendipity.
@@ -68,7 +68,7 @@ Berikut adalah beberapa sorotan teratas dari perangkat lunak blogging Top Serend
   * Open Source
     [Baca lebih lanjut][9]
 
-### ** silverstripe ** {#silverstripe}
+### **silverstripe**    {#silverstripe}
 Silverstripe adalah CMS dan kerangka kerja open source gratis untuk membuat dan memelihara situs web, blog, dan aplikasi web. Itu dibangun menggunakan PHP bahasa skrip paling populer di dunia. Oleh karena itu, menjadikannya kerangka kerja fleksibel yang dapat digunakan untuk membangun aplikasi tingkat produksi.
 Ini banyak berfokus pada keamanan dan memberikan keamanan dan dukungan tingkat perusahaan. Meskipun tidak memiliki jangkauan seperti WordPress. Tetapi memiliki komunitas open source yang berkembang dan berkembang yang bekerja keras. Akibatnya menjadikannya produk yang luar biasa bagi penggunanya.
 Berikut adalah fitur teratas yang kami temukan di perangkat lunak blog Silverstripe Self Hosted.
@@ -85,11 +85,11 @@ Lebih lanjut, [containerize.com][11] sedang dalam perjalanan untuk meningkatkan 
 
 ## Mengeksplorasi
 Anda dapat menemukan solusi eCommerce yang relevan berikut untuk bisnis kecil:
-  *[** Hugo - Generator situs statis open source paling populer di dunia **][16]
-  *[** hexo - generator situs statis cepat dan mudah dan platform blogging **][17]
-  *[** Gatsby - Bangun situs web cepat dengan Gatsby **][18]
-  *** [WordPress - Platform Blogging Open Source][19] **
-  *** [platform blogging terbaik dan open source][20] **
+  *[**Hugo - Generator situs statis open source paling populer di dunia** ][16]
+  *[**hexo - generator situs statis cepat dan mudah dan platform blogging** ][17]
+  *[**Gatsby - Bangun situs web cepat dengan Gatsby** ][18]
+  ***[WordPress - Platform Blogging Open Source][19]** 
+  ***[platform blogging terbaik dan open source][20]** 
 
   
 [1]: #wordpress

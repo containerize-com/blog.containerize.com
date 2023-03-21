@@ -19,16 +19,16 @@ Bu blog yazısı, ister geliştirici ister [DevOps][1] profesyonel olun. İşlet
 Aşağıdaki noktalar bu makalede ele alınacaktır:
 * [**Günlük yönetim sistemi nedir?**][3]
 * [**Olay Günlüğü Yönetimi ile Eklenen Zorluklar**][4]
-***[Açık kaynaklı bir günlük yönetim aracı nasıl yardımcı olabilir?][5]**
+* **[Açık kaynaklı bir günlük yönetim aracı nasıl yardımcı olabilir?][5]**
 
-## Günlük yönetim sistemi nedir? {#What-a-log-yönetim sistemi}
+## Günlük yönetim sistemi nedir?   {#What-a-log-yönetim sistemi}
 Basit bir deyişle,**Günlük Yönetim Sistemi (LMS)**, günlük verilerini toplayan ve bu veriler üzerinde çeşitli işlemler gerçekleştiren bir yazılımdır. Buna ek olarak,**günlük izleme aracı**toplanan verileri sıralar, analiz algoritmaları gerçekleştirir ve daha sonra günlüğe kaydedilmiş verilerin tutulması hakkında kararlar alır. Ayrıca, bir**LMS (günlük yönetim sistemi)**, güvenlik açıklarını, tehditleri ve güvenlik boşluklarını gösteren sunucu günlük dosyalarını inceledikten sonra kapsamlı bir rapor oluşturur. Bu nedenle, özetle, günlüğe kaydedme ve izleme araçları otomatikleştirin**Etkinlik Günlüğü Yönetimi**Sonunda iş yazılımına rekabet avantajı sağlar.
 
 {{< figure align=center src="images/logs.png" alt="açık kaynaklı günlük yönetim sistemi">}}
 
 Ayrıca, bir LMS'nin raporlama aracı, sorunların tanımlanmasında ve dizinler oluşturarak günlük dosyalarını aranabilir hale getirmede önemli bir rol oynar. En iyi yanı, günlük yönetim sistemi (LMS) tarafından sağlanan bir yapılandırma arayüzü aracılığıyla gerçekleşmesidir. Ancak, yöneticiler daha sonra otomatik iş akışlarının sunucunun sağlığını devam ettirmesini sağlayabilir.
 
-## Olay Günlüğü Yönetimi ile Eklenen Zorluklar {#Zorluklar-EVENT-LOG-MANEGMANGE}
+## Olay Günlüğü Yönetimi ile Eklenen Zorluklar   {#Zorluklar-EVENT-LOG-MANEGMANGE}
 Aslında, depolama, hız ve ağ ile ilgili bazı ortak ve geleneksel sorunların ele alınması çok kolay hale geldi. Sistem yöneticilerinin aşağıdaki sorunları ele almak için zorluklarla karşılaştığı belirli alanlar olmasına rağmen:
 **Masif Günlük Hacmi:**Bu, herhangi bir kuruluşun karşılaşabileceği zorluklardan biridir. Yüzlerce ve binlerce sunucunun dahil olduğu büyük miktarlarda günlük verilerini toplamak ve sıralamak imkansız hale gelir. Bu nedenle, bir**günlük yönetim sistemi (LMS)**, büyük günlük hacimlerini etkili bir şekilde ele almak için hükümler sunar.
 **Veri Biçimi Varyasyonları:**Birden çok kaynaktan gelen çeşitli veri formatlarını yönetmek kolay bir iş değildir ve herhangi bir günlük ve izleme aracı için bir zorluk olabilir. Sistem yöneticileri, sistemin çeşitli uç noktalarından gelen veri formatından emin olmadığından.
@@ -36,7 +36,7 @@ Aslında, depolama, hız ve ağ ile ilgili bazı ortak ve geleneksel sorunların
 **Erişilebilirlik**: Zorluğa yol açabilecek başka bir faktördür. Ayrıca, günlüklerin dizine eklenmesi ve aranabilir özellikler eklenmesi günlük dosyalarını erişilebilir hale getirir. Zaman damgası eklemek ve günlük verilerinin kategorize edilmesi, sistem yöneticilerinin saklanan günlük verilerini sorgulamasına olanak sağlayabilir.
 **Operasyonel****Maliyet**: A**Günlük Yönetim Sistemi (LMS)**, herhangi bir kuruluşta çalışan herhangi bir BT altyapısının olmazsa olmaz bir bileşenidir. Herhangi bir uygulama dökümü meydana geldiğinde, temel nedenini gidermek ve yakalamak kolay olmalıdır. Buna ek olarak, bulut tabanlı ortamlar daha karmaşık günlüğe kaydetme mekanizmaları ile birlikte gelir, bu nedenle**günlük kaydı ve izleme aracı**tercih etmek, işlemi kesinlikle verimli hale getirecektir.
 
-## Açık kaynaklı bir günlük yönetim aracı nasıl yardımcı olabilir? {#Nasıl-open-open-source-log-mangement-tool-help}
+## Açık kaynaklı bir günlük yönetim aracı nasıl yardımcı olabilir?   {#Nasıl-open-open-source-log-mangement-tool-help}
 İşte teknoloji dünyasına son derece katkıda bulunan açık kaynaklı topluluk geliyor. Diğer yazılım kategorileri gibi, günlük dosyalarını depolamak ve yönetmek için kurumsal düzeyde özellikler sunan birçok açık kaynaklı günlük izleme araçları**vardır. Ayrıca, açık kaynaklı bir LMS, günlük dosyalarınızı daha erişilebilir hale getirebilir ve manuel uygulamalara eklenen maliyetleri azaltabilir.
 Aslında, herhangi bir yazılım çökmesi veya sistem dökümü olduğunda, her şey operasyonel ayrıntıları nasıl gündeme getirdiğinizle ilgilidir.**Açık kaynaklı olay günlük yönetimi yazılımı**sezgisel ve özelleştirilebilir bir arayüz sunar. Yani, önümüzdeki blog yazısında ele alacağımız birçok yön var.
 

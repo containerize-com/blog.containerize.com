@@ -19,10 +19,10 @@ En este artículo, aprenderemos cómo configurar campañas en Mautic. Cubriremos
   * [¿Cómo crear campañas en Mautic?][3]
   * [Conclusión][4]
 
-## ¿Qué es Mautic? {#mautic}
+## ¿Qué es Mautic?   {#mautic}
 Mautic es un software de automatización de marketing de código abierto. Ofrece un control completo sobre correos electrónicos de marketing, páginas de destino y flujos de trabajo para actividades de marketing. Automata el camino hacia la obtención de clientes potenciales creados a partir de páginas de destino, formularios y convertirlos en clientes potenciales. Todo esto se puede lograr creando campañas de goteo inteligentes, lo que mantendrá a los clientes potenciales actualizados con respecto a los productos/servicios.
 
-## ¿Cómo crear formularios en Mautic? {#forms}
+## ¿Cómo crear formularios en Mautic?   {#forms}
   * Inicie sesión en su instalación de Mauitc.
   * Vaya a la pestaña "Componentes" y haga clic en "Formularios".
   * Golpee "Nuevo" desde la esquina superior derecha.
@@ -41,7 +41,7 @@ Mautic es un software de automatización de marketing de código abierto. Ofrece
   * Después de eso, haga clic en "Agregar" y presione "Guardar y cerrar".
   * Eso es fácil de crear formularios en Mautic.
 
-## ¿Cómo crear campañas en Mautic? {#campaigns}
+## ¿Cómo crear campañas en Mautic?   {#campaigns}
   * Ir a campañas. Haga clic en "Nuevo" desde la parte superior derecha.
   * Ingrese el nombre y establezca "publicado" en "Sí".
 
@@ -65,7 +65,7 @@ Mautic es un software de automatización de marketing de código abierto. Ofrece
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Cómo configurar campañas mautic para marketing digital">}}
 
 
-## Conclusión: {#Conclusion}
+## Conclusión:   {#Conclusion}
 Hemos aprendido a configurar campañas de marketing de goteo después de los 3 pasos muy simples. Eso incluye crear un formulario requerido como fuente de campaña, crear la campaña y configurar el correo electrónico. Hemos creado una campaña muy básica en este tutorial. Sin embargo, puede crear campañas complejas utilizando Mautic Campaign Builder. Si es nuevo en Mautic, consulte cómo instalarlo usando la siguiente guía:
 [Descripción general e instalación de Mautic][5]
 

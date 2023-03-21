@@ -23,7 +23,7 @@ Bu makalede aşağıdaki açık kaynak DBMS araçlarını tartışacağız:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin {#phpmyadmin}
+## phpmyadmin   {#phpmyadmin}
 PhpmyAdmin, XAMPP ve WAMPP Web sunucuları ile yerleşik bir bileşen olarak gelir. Şu anda PhpmyAdmin en yaygın kullanılan veritabanı yönetim yazılımıdır. Geliştiriciler, arayüz aracılığıyla bilgi, tablolar, sütunlar, ilişkiler, referanslar, kullanıcılar ve izin vb. Ayrıca, bir veritabanı oluşturma, sorgular çalıştırma ve kullanıcı hesapları ekleme gibi çoğu yönetim görevini gerçekleştirmek için kullanılır. Bu veritabanı yönetim sistemi, JavaScript ve SCSS gibi diğer dillerden gelen girdilerle birlikte PHP'de yazılmıştır. Bu nedenle, geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Bunlar PhpmyAdmin'in bazı göze çarpan özellikleri:
   * Kullanımı kolay web arayüzü.
   * Çoklu MySQL özellikleri desteği.

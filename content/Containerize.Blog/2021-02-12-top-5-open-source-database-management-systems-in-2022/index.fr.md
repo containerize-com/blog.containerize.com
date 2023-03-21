@@ -22,7 +22,7 @@ Les systèmes de gestion des bases de données offrent une approche systématiqu
   * [Sqlite][4]
   * [MongoDB][5]
 
-## mysql {#mysql}
+## mysql   {#mysql}
 MySQL est un système de gestion de base de données gratuit et open-source et fournit une prise en charge des plate-formes multiples. En fait, cela permet aux programmeurs de modifier le logiciel MySQL pour s'adapter à leurs environnements et exigences spécifiques. La plupart des développeurs utilisent MySQL DBM avec PHP, qui est le langage de programmation le plus populaire pour les applications Web. Les bons exemples pour les applications Web basés sur PHP & MySQL sont WordPress, Joomla et Drupal. MySQL travaille avec de nombreuses langues, notamment PHP, Perl, C, C ++, Java, etc.
 Voici les caractéristiques importantes:
   * Facile d'utilisation
@@ -33,7 +33,7 @@ Voici les caractéristiques importantes:
   * Haute performance
 [Lire][7][plus][7]
 
-## PostgreSQL {#postgre}
+## PostgreSQL   {#postgre}
 PostgreSQL est le logiciel de SGBD relationnel le plus avancé en raison de son architecture éprouvée, de sa fiabilité, de son intégrité de données, de son ensemble de fonctionnalités robuste ainsi que de l'extensibilité et de sa reprise après sinistre. Tout comme les autres systèmes de gestion de la base de données, il s'agit d'un système de base de données d'objet-relation open source et open source. Il étend le langage SQL et ajoute de nombreuses fonctionnalités supplémentaires. PostgreSQL est très extensible. Vous pouvez définir vos types de données personnalisés, créer des fonctions personnalisées, même écrire du code à partir de différents langages de programmation sans recompiller la base de données. Par conséquent, il est écrit en langue C. Cependant, tout le code source de ce SGBD open source est disponible sur [GitHub][8] avec la documentation concernant le développement et le déploiement.
 PostgreSQL a les caractéristiques clés suivantes:
   * Open source
@@ -44,7 +44,7 @@ PostgreSQL a les caractéristiques clés suivantes:
   * Identifiant universellement unique
 [Lire la suite][9]
 
-## MariaDB {#Maria}
+## MariaDB   {#Maria}
 MariADB peut être utilisé comme alternative MySQL. Il s'agit d'un logiciel de SGBD relationnel qui assure la fiabilité, l'intégrité des données, la concurrence, la cohérence ainsi que la reprise après sinistre et l'extensibilité pour vos applications Web. Il prend en charge les deux petites tâches de traitement des données ainsi que pour les besoins en entreprise. MARIADB prend également en charge les modèles de données relationnels, JSON et hybrides ainsi que des charges de travail transactionnelles, analytiques et hybrides. De plus, MariADB est l'un des logiciels SGBD les plus populaires. Il fait partie de la plupart des offres de cloud et de la valeur par défaut dans la plupart des distributions Linux. Par conséquent, il est écrit en langues C et C ++. Cependant, tout le code source de ce SGBD open source est disponible sur [GitHub][10] avec la documentation concernant le développement et le déploiement.
 Ce SGBD relationnel offre les caractéristiques importantes suivantes:
   * Support JSON
@@ -55,7 +55,7 @@ Ce SGBD relationnel offre les caractéristiques importantes suivantes:
   * Moteur de stockage à colonnes / infinidb
 [Lire la suite][11]
 
-## sqlite {#sqlite}
+## sqlite   {#sqlite}
 SQLite est léger en termes de configuration, d'administration de la base de données et de ressources requises. Il s'agit d'une bibliothèque de langage C qui agit comme un moteur de base de données qui est un petit moteur de base de données, rapide, autonome et très fiable et le plus utilisé au monde. De plus, le moteur SQLite DB peut être lié statiquement ou dynamiquement selon l'exigence de l'application. SQLite est sans serveur car il ne nécessite pas un processus ou un système de serveur distinct pour fonctionner comme les autres RDMB. De plus, SQLite DBMS est disponible pour différentes plates-formes comme Windows (Win32, Wince, WinRT) et également pour UNIX (Linux, Mac OS-X, Android, iOS). Par conséquent, il est écrit en langue C. Cependant, tout le code source de ce logiciel SGBD est disponible sur [GitHub][12] avec la documentation concernant le développement et le déploiement.
 Tout comme les autres systèmes de gestion des bases de données, ce qui suit est les caractéristiques importantes de ce SGBD open source:
   * Moteur de base de données sans serveur
@@ -66,7 +66,7 @@ Tout comme les autres systèmes de gestion des bases de données, ce qui suit es
   * Disponible pour différentes plateformes
 [Lire la suite][13]
 
-## MongoDB {#Mongo}
+## MongoDB   {#Mongo}
 MongoDB est également l'une des meilleures bases de données axées sur le document. Il fournit un accès rapide aux données en raison de sa nature d'implémentation de la mémoire interne pour stocker les données. Ainsi, MongoDB peut gérer des données structurées et non structurées dans divers types d'applications. La base de données MongoDB est une base de données sécurisée et facile à échelle. Par conséquent, il peut être utilisé pour prendre en charge les systèmes de gestion de contenu, les systèmes de commerce électronique, les applications mobiles, la section d'analyse de données, l'archivage ainsi que les applications de jeu en ligne et hors ligne. Il peut être facilement configuré et évolutif. Les données peuvent être mises à jour très rapidement. Cependant, tout le code source de cette base de données axée sur le document est disponible sur [GitHub][14] avec la documentation concernant le développement et le déploiement.
 Cette base de données axée sur le document a les caractéristiques clés suivantes:
   * Évolutivité élastique élevée

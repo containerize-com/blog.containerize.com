@@ -17,15 +17,15 @@ categories: ['Blogging']
 ## Genel Bakış
 GATSBYJS, ücretsiz ve açık kaynaklı reaksiyon tabanlı, GraphQL ile çalışan statik site jeneratörüdür. İnanılmaz derecede hızlı sayfa yükleri için yalnızca statik dosyalar kullanan bir web sitesi oluşturmak için güçlü bir ön oluşturma kullanır. WordPress harika bir açık kaynak bloglama platformudur. Sonuç olarak, bir sitenin bir WordPress sitesi olup olmadığını nasıl anlayacağını bilen birçok insan var, böylece onu hackleyebilir ve bilgi çalabilirler. Gatsby WordPress'i birlikte kullanmak size WordPress içerik yönetiminin ve Gatsby'nin hızının aynı gücünü verecektir.
 Bu makalede, Gatsby'nin ne olduğuna ve neden CMS yazılımı ile kullanmanız gerektiğine bakacağız. Ardından, inanılmaz bir web sitesi deneyimi oluşturmak için WordPress ve Gatsby'yi birlikte nasıl kullanacağınız konusunda ayrıntılara gireceğiz. Hadi başlayalım!
-  *[** Gatsby nedir **?][1]
-  *** [WordPress ve Gatsby kullanmanın artıları ve eksileri][2] **
-  *** [Gatsby ile WordPress ile nasıl kullanılır][3] **
-  *** [Sonuç][4] **
+  *[**Gatsby nedir** ?][1]
+  ***[WordPress ve Gatsby kullanmanın artıları ve eksileri][2]** 
+  ***[Gatsby ile WordPress ile nasıl kullanılır][3]** 
+  ***[Sonuç][4]** 
 
-## Gatsby nedir {#gatsby}
+## Gatsby nedir   {#gatsby}
 Gatsby statik bir site jeneratörüdür. Bu, Gatsby'nin web sitenizin sunucusuna yüklenen statik HTML dosyalarını oluşturduğu anlamına gelir. Bir ziyaretçi sitenize indiğinde, bu statik dosyalar, WordPress'in genel olarak hizmet ettiği dinamik içerik yerine tarayıcılarına sunulur. Geliştiricilerin yanan hızlı web siteleri ve uygulamaları oluşturmasına yardımcı olan React'e dayanan ücretsiz ve açık kaynaklı bir çerçevedir.
 
-## WordPress ve Gatsby kullanmanın artıları ve eksileri {#proscons}
+## WordPress ve Gatsby kullanmanın artıları ve eksileri   {#proscons}
 Gatsby’nin resmi [belgeleri][5] uyarınca, Gatsby WordPress kombinasyonunun harika ve kimin olmadığını bir masa derlediler. Kolaylık uğruna, bunları burada listeliyorum.
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -105,7 +105,7 @@ Bu resmi noktaların yanı sıra, Gatsby WordPress'i birlikte kullanmanın bazı
 {{_LINE_98_}}
 {{_LINE_99_}}
 
-## Gatsby ile wordpress ile nasıl kullanılır {#howto}
+## Gatsby ile wordpress ile nasıl kullanılır   {#howto}
 Gatsby'yi yüklemeden önce, web sitenize [Nodejs][6] ve [NPM][7] yüklemeniz gerekir.
 
 ### Adım 1 - Gatsby'yi yükle
@@ -196,7 +196,7 @@ exports.createPages = async ({ graphql, actions }) => {
 ```
 Tüm verileri aradıktan sonra, Gatsby her yazı için bir sayfa oluşturur. Geliştirme komutunu kullanarak, oluşturulan URL'yi kullanarak her yeni sayfaya gidebilirsiniz.
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu Gatsby WordPress öğreticisinde, WordPress'ten bir Gatsby web sitesi nasıl oluşturulacağını ele aldık. Bu iki açık kaynak yazılımının artıları ve eksileri olduğunu öğrendik. Ayrıca Gatsby geliştirme ortamına nasıl kurulacağını ve başlayacağını da ele aldık.
 Son olarak, [Containerize.com][8] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen açık kaynak [bloglama][9] platform kategorisiyle iletişim halinde olun.
 

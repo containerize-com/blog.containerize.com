@@ -20,11 +20,11 @@ categories: ['Web Server Solution Stack']
   * [如何配置LightTPD？][7]
   * [结论][8]
 
-## 什么是LightTPD？ {#什么}
+## 什么是LightTPD？   {#什么}
 与Apache和Nginx（例如Apache和Nginx）相比，LightTPD Web服务器具有较小的内存足迹，因此它提供了CPU负载的有效管理。这款轻巧的Web服务器提供了高级功能集，包括FastCGI，SCGI，AUTH，输出压缩和URL互动等。它允许使用服务器使用任何编程语言编写的Web应用程序。可以将LightTPD的FASTCGI配置为支持PHP。除PHP外，它还支持其他编程语言，包括Python，Perl，Ruby等。
 有许多开源Web服务器和Web代理服务器，但是LightTPD在列表的顶部被广泛使用。该Web服务器解决方案非常容易设置，需要简单的要求，例如Ubuntu 18.04。此外，那些希望部署此开源解决方案的人可以从此[链接][9]下载最新版本。最重要的是，它支持除PHP以外的许多语言，例如Python，Ruby，Perl等。此外，所有文档都提供有关开发和部署的信息。因此，开发人员可以在[github][10]上找到源代码。
 
-## lightpd {#benefits}的好处
+## lightpd   {#benefits}的好处
 在本节中，我们将介绍该开源Web服务器提供的好处和规定。因此，如果您正在寻找快速，高效且安全的Web服务器，那么LightTPD Web服务器是您的最佳选择。它不需要大量的内存和CPU使用。对于需要速度和高性能的任何项目来说，这是最好的之一。 LightTPD可以在单个服务器上并行处理多达10000个连接。 LightTPD是每个遭受速度或性能问题的服务器的理想解决方案。这种免费解决方案具有成本效益和资源效率。
 此外，该Web服务器解决方案几乎为Windows，Linux，Solaris和MacOS等几乎所有流行的平台提供了支持。同样，LightTPD对于嵌入式系统来说是一件大事，即使资源有限，也可以为多个用户提供静态和动态内容。 LightTPD以其安全性，速度，合规性和灵活性而闻名，正在迅速重新定义Web服务器的效率。
 LightTPD提供了以下突出的好处：
@@ -34,7 +34,7 @@ LightTPD提供了以下突出的好处：
   * mod_proxy向后端提出HTTP/1.1请求（从HTTP/1.0更改）
   *支持使用chroot和mod_rewrite
 
-## 如何配置LightTPD？ {#配置}
+## 如何配置LightTPD？   {#配置}
 在此博客文章的这一部分中，我们探讨了配置LightTPD的步骤。在Ubuntu上安装LightTPD非常简单明了。只需使用以下命令，就可以了
 ```
 $ sudo apt install lighttpd
@@ -74,9 +74,9 @@ su make install
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="如何为高性能网站设置和配置LightTPD">}}
 
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 这使我们进入了此博客文章的结尾。我们经历了什么是LightTPD？如何配置LightTPD？并设置过程。 LightTPD是一款免费，高性能和开源Web服务器，专为速度关键环境而设计。低内存足迹，小的CPU负载和速度优化使其适用于遭受负载问题的服务器。与其他Web服务器相比，它轻巧，安全和快速，这使其成为高性能和速度关键网站的最佳选择之一。 LightTPD拥有一个非常活跃和充满活力的社区，可为问题和查询提供支持。下面的“探索”部分中提到了许多操作开源产品和相关博客文章。因此，如果您想为您的业务选择开源Web服务器，那么本文可以为您提供帮助。
-最后，** [containerize.com][12] **一直在写进一步的开源产品。请与常规更新有关[1]类别[1]类别。此外，您可以在我们的社交媒体帐户上关注我们[Facebook][13]，[LinkedIn][14]和[Twitter][15]。
+最后，**[containerize.com][12]** 一直在写进一步的开源产品。请与常规更新有关[1]类别[1]类别。此外，您可以在我们的社交媒体帐户上关注我们[Facebook][13]，[LinkedIn][14]和[Twitter][15]。
 
 ## 探索
 您可能会发现以下链接相关：

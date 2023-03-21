@@ -23,34 +23,34 @@ In diesem Blog -Beitrag konzentrieren wir uns auf das Entwerfen und Senden von E
   * [Verarbeiten Sie die Warteschlange][6]
   * [Schlussfolgerung][7]
 
-## ** Kampagne/Newsletter erstellen ** {#create}
-  * Melden Sie sich an der Admin -Schnittstelle Ihrer Phplisteninstallation an. Klicken Sie auf ** Start oder Fortsetzung der Kampagne ** Schaltfläche im Dashboard oder senden Sie einen Kampagnenlink unter Kampagne in der linken Navigation.
+## **Kampagne/Newsletter erstellen**    {#create}
+  * Melden Sie sich an der Admin -Schnittstelle Ihrer Phplisteninstallation an. Klicken Sie auf **Start oder Fortsetzung der Kampagne**  Schaltfläche im Dashboard oder senden Sie einen Kampagnenlink unter Kampagne in der linken Navigation.
   * Klicken Sie auf eine neue Kampagnenschaltfläche.
   * Füllen Sie Felder mit den Optionen wie Betreff, von Linie, Inhalt und Fußzeile, wie im folgenden Bild gezeigt.
 
 {{< figure align=center src="images/create-campaign.png" alt="Design -Newsletter in Phplist">}}
 
 
-## ** Planungskampagne ** {#Schedule}
+## **Planungskampagne**    {#Schedule}
   * Mit Planung können Sie Daten auswählen, wenn Sie die Kampagne starten möchten. Die Kampagne wird nicht vor/nach den ausgewählten Daten gesendet.
   * Sie müssen die Daten nicht ändern, wenn Sie die Kampagne sofort senden möchten.
 
 {{< figure align=center src="images/scheduling.png" alt="Planen Sie den Newsletter in Phplist">}}
 
 
-## ** Listen der Kampagne zuweisen ** {#List}
+## **Listen der Kampagne zuweisen**    {#List}
 Alle Listen werden unter Registerkarte Listen angezeigt. Wählen Sie die entsprechende Liste aus. Die Kampagne liefert nur Listen. Sie können jedoch die Liste öffentlich oder privat erstellen, während Sie die Liste erstellen/aktualisieren.
 
 {{< figure align=center src="images/lists.png" alt="Weisen Sie den Newsletter in Phplist Listen zu">}}
 
 
-## ** Kampagne beenden ** {#finish}
-Finish ist der letzte Schritt im Kampagnenerstellungsprozess. Sie können E -Mails für Benachrichtigungen hinzufügen und Google Analytics Tracking -Code hinzufügen. Klicken Sie auf die Schaltfläche ** Kampagne **, um Nachrichten an Abonnenten zu senden. Jetzt haben Sie mit dem Newsletter -Design und dem Kampagnenprozess durchgeführt. Sie müssen jedoch die Warteschlange verarbeiten und können im nächsten Abschnitt mehr darüber lesen.
+## **Kampagne beenden**    {#finish}
+Finish ist der letzte Schritt im Kampagnenerstellungsprozess. Sie können E -Mails für Benachrichtigungen hinzufügen und Google Analytics Tracking -Code hinzufügen. Klicken Sie auf die Schaltfläche **Kampagne** , um Nachrichten an Abonnenten zu senden. Jetzt haben Sie mit dem Newsletter -Design und dem Kampagnenprozess durchgeführt. Sie müssen jedoch die Warteschlange verarbeiten und können im nächsten Abschnitt mehr darüber lesen.
 
-## ** Verarbeiten Sie die Warteschlange ** {#queue}
+## **Verarbeiten Sie die Warteschlange**    {#queue}
 Process Queue ist der Prozess zum Senden der Kampagne. Sie können den Prozess manuell mit dem Befehlszeilen -Skript initiieren oder Cron -Job erstellen. Es ist einfach, die Warteschlange für wenige Hundered -Abonnenten manuell zu verarbeiten. Es ist jedoch gut, Cron Job für die Warteschlange zu verwenden, wenn Sie Tausende/Millionen Abonnenten haben. Sie können Phplist Official [Website][8] besuchen, um Informationen zum Erstellen von Cron -Jobs zu erstellen.
 
-## ** Fazit ** {#Conclusion}
+## **Fazit**    {#Conclusion}
 Phplist ist ein perfektes Tool für Unternehmen, die Open -Source -Newsletter -Software für E -Mail -Marketing verwenden möchten. Wir haben den Prozess ausführlich für das Entwerfen und Senden von Kampagnen beschrieben. Sie können es für Ihren nächsten Newsletter verfolgen und die wahre Kraft des Phplisten genießen.
 Schließlich ist [containerize.com][9] mit einigen faszinierenderen Tutorials die Tutorial -Basis verbessert. Für regelmäßige Updates bleiben Sie bitte mit der Kategorie [Newsletter][10] in Verbindung.
 

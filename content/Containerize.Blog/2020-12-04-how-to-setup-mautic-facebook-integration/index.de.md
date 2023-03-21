@@ -20,7 +20,7 @@ Wir werden die folgenden Abschnitte in diesem Tutorial behandeln:
   * [MAUTIC -Plugin -Konfiguration][3]
   * [Schlussfolgerung][4]
 
-## Konfigurieren Sie das Facebook -Entwicklerkonto {#Account}
+## Konfigurieren Sie das Facebook -Entwicklerkonto   {#Account}
   * Gehen Sie zu [Facebook für Entwickler][5]
   * Registrieren Sie Ihr Konto, wenn Sie keinen haben.
   * Um ein neues Konto zu registrieren, klicken Sie auf "Start" von oben rechts.
@@ -30,7 +30,7 @@ Wir werden die folgenden Abschnitte in diesem Tutorial behandeln:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="MAUTIC - Facebook -Integration - Entwicklerkonto registrieren">}}
 
 
-## Konfigurieren Sie die App von Facebook Developer {#App}
+## Konfigurieren Sie die App von Facebook Developer   {#App}
   * Klicken Sie auf "Erstellen Sie die erste App erstellen"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Facebook -Integration - Erstellen Sie die erste App">}}
@@ -57,7 +57,7 @@ Wir werden die folgenden Abschnitte in diesem Tutorial behandeln:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Facebook -Integration - Fügen Sie die Website als Plattform hinzu">}}
 
 
-## MAUTIC -Plugin -Konfiguration {#Configuration}
+## MAUTIC -Plugin -Konfiguration   {#Configuration}
   * Gehen Sie zum Mautic Dashboard.
   * Gehen Sie dann von der oberen rechten Ecke zu "Einstellungen".
   * Klicken Sie auf "Plugins".
@@ -72,7 +72,7 @@ Wir werden die folgenden Abschnitte in diesem Tutorial behandeln:
   * Hier können Sie Ihre Kontaktfelder auf Facebook -Felder zuordnen.
   * Schließlich veröffentlichen Sie die Einstellungen und Sie können loslegen.
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 MAUTIC - Facebook -Integration kann dazu beitragen, Ihre Facebook -Leads ohne Schwierigkeiten in ein mauisches System zu synchronisieren. In der Mautic App können Sie alle diese Leads in ein Segment hinzufügen. Sie können E -Mail -Marketingkampagnen auf ihnen ausführen. Dies kann Ihrem Unternehmen wirklich helfen, Produkte/Dienstleistungen an eine viel größere Zielgruppe zu wachsen, zu vermarkten und zu verkaufen.
 
 ## Erkunden

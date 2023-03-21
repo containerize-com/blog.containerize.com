@@ -19,13 +19,13 @@ Lorsqu'il s'agit de trouver un gestionnaire de mots de passe qui fonctionne non 
   * [Différences principales][3]
   * [Conclusion][4]
 
-## ** Qu'est-ce que Bitwarden? **
+## **Qu'est-ce que Bitwarden?** 
 Bitwarden est un gestionnaire de mots de passe open source prometteur qui a une compatibilité multiplateforme, y compris une application mobile et Web ainsi que l'interface de ligne de commande. Vous pouvez également accéder à Bitwarden sur votre bureau car il a une compatibilité avec Windows, MacOS et Linux. En tant que gestionnaire de mot de passe open source, Bitwarden peut être utilisé pour une utilisation individuelle ainsi qu'au niveau de l'entreprise. Non seulement vous pouvez héberger Bitwarden sur vos serveurs, mais il a également l'hébergement en cloud, et avec la compatibilité des périphériques croisés, il est accessible chaque fois que vous en avez besoin.
 
-## ** Qu'est-ce que Passbolt? **
+## **Qu'est-ce que Passbolt?** 
 Passbolt est un gestionnaire de mot de passe open source spécialement développé pour les entreprises. L'interface a été conçue en gardant à l'esprit les besoins et les exigences de la petite et grande équipe, et elle permet une gestion facile et sécurisée des mots de passe et des informations sensibles qui doivent être accessibles régulièrement par plusieurs employés. Passbolt est uniquement disponible pour être utilisé localement sur votre serveur et peut être accessible via une extension du navigateur Web en ligne. En tant que gestionnaire de mot de passe open source, vous pouvez installer directement le code source sur votre serveur ou l'héberger sur Ubuntu, Centos 7, Digital Ocean et plus encore.
 
-## ** Différences principales **
+## **Différences principales** 
 Bitwarden et Passbolt offrent de nombreuses fonctionnalités et fonctionnalités en tant que gestionnaires open source, mais ils diffèrent dans leur technique de chiffrement et différentes applications côté client qu'ils proposent. Voici un aperçu:
 {{_LINE_23_}}
 {{_LINE_24_}}

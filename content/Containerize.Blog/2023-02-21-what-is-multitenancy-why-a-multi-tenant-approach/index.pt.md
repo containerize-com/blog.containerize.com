@@ -22,7 +22,7 @@ Os seguintes pontos serão discutidos neste post:
   * [Benefícios comerciais do aplicativo multi-inquilino][8]
   * [Desvantagens na multi-quinância][9]
 
-## O que é multitenância? Multi-inquilino vs único inquilino {#o que é multitenancy-multi-tenant-vs-single-tenant}
+## O que é multitenância? Multi-inquilino vs único inquilino   {#o que é multitenancy-multi-tenant-vs-single-tenant}
 Multitenância refere-se a uma única instância do servidor que atende a vários inquilinos particularmente conhecidos. Sempre que você se depara com um software de vários inquilinos, basta dizer ao seu cérebro que este software está executando uma única instância de um servidor compartilhado e vários inquilinos (clientes) estão conectados a essa instância com diferentes marcas.
 Por exemplo, o software criado para uma universidade atende a diferentes departamentos com diferentes marcas de front-end e dados do programa. Basicamente, há uma única instância do servidor em execução e atendendo a todos os inquilinos. Além disso, há separação de dados e privacidade de dados entre todos os inquilinos. Além disso, todo inquilino tem sua própria lógica de negócios e busca e armazena seus dados em um local único, mas privado/isolado.
 
@@ -33,20 +33,20 @@ Agora, vamos dar uma rápida olhada na arquitetura de inquilino único. Na arqui
 {{< figure align=center src="images/single-tenant-2.png" alt="Arquitetura de inquilino único">}}
 
 
-## Tipos de arquitetura de aplicativos multi-tenant {#Type-of-Multi-Tenant-Aplicação-Arquitetura}
+## Tipos de arquitetura de aplicativos multi-tenant   {#Type-of-Multi-Tenant-Aplicação-Arquitetura}
 Até agora, você tem uma compreensão da multiestância e agora passaremos por seus vários tipos.
 **Um banco de dados-uma instância do aplicativo**: Essa abordagem é bastante popular e tem sido amplamente usada para criar aplicativos com vários inquilinos. De acordo com essa abordagem, existe uma instância de aplicativo em execução com um único banco de dados. Além disso, há um esquema compartilhado e os dados do inquilino são armazenados em um único local contra seu ID exclusivo.
 **Múltiplos bancos de dados-uma instância do aplicativo:**Nesta arquitetura de aplicativos com vários inquilinos, apenas uma instância do aplicativo é executada com vários bancos de dados. Cada inquilino possui seu próprio esquema de banco de dados, onde todas as informações são salvas de acordo com cada inquilino separadamente.
 **Múltiplos bancos de dados - várias instâncias do aplicativo**: A terceira abordagem refere -se à execução de várias instâncias de servidor, juntamente com vários bancos de dados. Não há nada compartilhado e cada inquilino tem isolamento completo e não há dependência entre os inquilinos.
 
-## Benefícios comerciais do aplicativo multi-tenont {#Business-Benefits-of-Multi-Tenant-App}
+## Benefícios comerciais do aplicativo multi-tenont   {#Business-Benefits-of-Multi-Tenant-App}
 Nesta seção, passaremos por alguns benefícios proeminentes de optar por multitenância. Embora possamos discutir há muito tempo as vantagens, mas vamos ver os seguintes pontos:
 **Escalabilidade**: É fácil escalar uma arquitetura de vários inquilinos. Você pode escalar horizontal ou verticalmente, independentemente do tipo que você escolheu.
 **Custo-efetivo**: Optar pela multitenância economiza seus custos operacionais. Existem recursos compartilhados, por isso é sempre econômico ampliar os recursos.
 **Eficiência e flexibilidade**: Em um ambiente multitenant, você alcança eficiência em desenvolvimento e implantação. Por exemplo, você pode executar um script em um esquema de banco de dados compartilhado para atualizar todos os inquilinos.
 **Melhor gerenciamento de recursos**: Adicionar e remover recursos é direto. Além disso, essa arquitetura oferece infraestrutura aprimorada e bem gerenciada. Além disso, todo inquilino é privado e seguro e tem acesso a um banco de dados compartilhado/não compartilhado.
 
-## desvantagens na multi-tenancidade {#Dawrabacks-in-Multi-Tenancy}
+## desvantagens na multi-tenancidade   {#Dawrabacks-in-Multi-Tenancy}
 O objetivo desta postagem do blog é dar uma boa sensação de**arquitetura de vários inquilinos.
 **Mecanismo de autenticação complexo**: Devido à natureza compartilhada da alocação de recursos na multitenância, existem protocolos rigorosos para pontos de acesso a dados.
 **Avaria do servidor:**É um ponto importante a ser considerado ao selecionar a arquitetura de aplicativos com vários inquilinos. Todos os inquilinos se tornam não funcionais sempre que o servidor está baixo devido a qualquer motivo.

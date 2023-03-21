@@ -20,11 +20,11 @@ Além disso, a Comunidade de código aberto desenvolveu muitos servidores da Web
   * [Como configurar o LightTPD?][7]
   * [Conclusão][8]
 
-## O que é LightTPD? {#o que}
+## O que é LightTPD?   {#o que}
 Comparado a outros servidores da Web, como Apache e Nginx, o servidor Web LightTPD possui uma pequena pegada de memória, por isso fornece um gerenciamento eficaz da carga da CPU. Este servidor da Web leve fornece conjuntos de recursos avançados, incluindo FastCGI, SCGI, AUTH, COMPRESSÃO DE SAÍDA e URL-LEVING, etc. Ele permite que os aplicativos da Web escritos em qualquer linguagem de programação sejam usados ​​com o servidor. O FastCGI do LightTPD pode ser configurado para suportar o PHP. Além do PHP, ele também suporta outras linguagens de programação, incluindo Python, Perl, Ruby e muito mais.
 Existem muitos servidores da Web de código aberto e servidores proxy da Web, mas o LightTPD está no topo da lista que está sendo amplamente utilizada. Esta solução de servidor da Web é muito fácil de configurar e requer requisitos simples, como o Ubuntu 18.04. Além disso, aqueles que desejam implantar esta solução de código aberto podem baixar o lançamento mais recente deste [link][9]. Acima de tudo, ele suporta muitos idiomas que não o PHP, como Python, Ruby, Perl e muito mais. Além disso, toda a documentação está disponível em relação ao desenvolvimento e implantação. Portanto, os desenvolvedores podem encontrar o código -fonte no [GitHub][10].
 
-## Benefícios do Lightpd {#Benefits}
+## Benefícios do Lightpd   {#Benefits}
 Nesta seção, examinaremos os benefícios e a disposição que este servidor da web de código aberto oferece. Portanto, se você estiver procurando um servidor web rápido, eficiente e seguro, o LightTPD Web Server é a melhor opção para você. Não requer muita memória e uso da CPU. O que o torna um dos melhores para qualquer projeto que precise de velocidade e alto desempenho. A LightTPD pode lidar com até 10000 conexões em paralelo em um único servidor. A LightTPD é a solução perfeita para todos os servidores que sofrem de problemas ou problemas de desempenho. Esta solução gratuita é econômica e econômica.
 Além disso, esta solução de servidor da web oferece suporte para quase todas as plataformas populares, como Windows, Linux, Solaris e MacOS. Da mesma forma, o LightTPD é um grande negócio para sistemas incorporados e tem a capacidade de servir conteúdo estático e dinâmico a vários usuários, mesmo com recursos limitados. Conhecida por sua segurança, velocidade, conformidade e flexibilidade, a LightTPD está rapidamente redefinindo a eficiência de um servidor da web.
 A LightTPD fornece os seguintes benefícios proeminentes:
@@ -34,7 +34,7 @@ A LightTPD fornece os seguintes benefícios proeminentes:
   * MOD_PROXY faz solicitações http/1.1 para backends (alteração de http/1.0)
   * Suporte para o uso de chroot e mod_rewrite
 
-## Como configurar o LightTPD? {#configure}
+## Como configurar o LightTPD?   {#configure}
 Nesta seção desta postagem do blog, exploramos as etapas para configurar o LightTPD. A instalação do LightTPD no Ubuntu é muito simples e direta. Basta usar o seguinte comando e você está pronto para ir
 ```
 $ sudo apt install lighttpd
@@ -74,9 +74,9 @@ Verifique se o LightTPD está configurado e instalado corretamente visitando o U
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="Como configurar e configurar o LightTPD para sites de alto desempenho">}}
 
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Isso nos leva ao final deste post do blog. Passamos pelo que é LightTPD? Como configurar o LightTPD? e configurando procedimento. A LightTPD é um servidor web de código aberto gratuito, de alto desempenho e de código aberto projetado para ambientes críticos de velocidade. A pegada de baixa memória, a carga pequena da CPU e as otimizações de velocidade o tornam adequado para servidores que sofrem problemas de carga. É leve, seguro e rápido em comparação com outros servidores da Web, o que o torna uma das melhores opções para sites de alto desempenho e crítico de velocidade. A LightTPD possui uma comunidade muito viva e vibrante que fornece suporte a problemas e consultas. Existem muitos produtos de código aberto operacional e postagens relevantes do blog que você pode passar pela seção "Explorar" abaixo. Portanto, este artigo pode realmente ajudá -lo se você deseja optar por um servidor da web de código aberto para o seu negócio.
-Finalmente, ** [containerize.com][12] ** tem escrito em outros produtos de código aberto. Fique em contato com esta categoria [Solução do servidor da web][1] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][13], [LinkedIn][14] e [Twitter][15].
+Finalmente, **[containerize.com][12]**  tem escrito em outros produtos de código aberto. Fique em contato com esta categoria [Solução do servidor da web][1] para atualizações regulares. Além disso, você pode nos seguir em nossas contas de mídia social [Facebook][13], [LinkedIn][14] e [Twitter][15].
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:

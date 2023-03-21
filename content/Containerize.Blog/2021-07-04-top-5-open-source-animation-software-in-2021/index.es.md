@@ -20,7 +20,7 @@ En el mundo de hoy, la animación es extremadamente popular. Hay algunas pelícu
   * [K-3D][4]
   * [Krita][5]
 
-## opentoonz {#OpENtoonz}
+## opentoonz   {#OpENtoonz}
 [Opentoonz][6] es uno de los mejores software de animación gratuito para principiantes. Ayuda a los animadores a crear hermosas animaciones y bocetos en 2D. También proporciona muchos otros complementos para aplicar diferentes efectos, como SDK, que permiten a los animadores alterar completamente las animaciones, el color de ajuste, la distorsión y más. Es de código abierto y gratis para descargar usado para proyectos pequeños y películas comerciales. Opentoonz también es compatible con diferentes sistemas operativos, incluidos Windows y Mac OS, los requisitos del sistema se mencionan a continuación. Las siguientes son algunas características sobresalientes de Opentoonz:
   * Crear animaciones con múltiples efectos
   * Le permite cambiar la luz del incidente en sus animaciones
@@ -28,7 +28,7 @@ En el mundo de hoy, la animación es extremadamente popular. Hay algunas pelícu
   * Le permite crear una nueva función para satisfacer las demandas en el sitio de cualquier proyecto comercial
 [Leer más][7]
 
-## Pencil2d {#Pencil2d}
+## Pencil2d   {#Pencil2d}
 Con un diseño mínimo e interfaz fácil de entender, [Pencil2d][8] es uno de los mejores software de animación para principiantes. Es un software de animación 2D fácil de usar, abierto y gratuito. La comunidad Pencil2D siempre está actualizando el software al lanzar nuevas actualizaciones y solucionar cualquier error o error. Como aplicación gratuita para descargar, se lanza bajo la Licencia Pública General de GNU y tiene muchos tutoriales disponibles en línea, así como recursos y documentos. Al igual que Opentoonz, Pencil2D también es compatible con múltiples sistemas operativos que incluyen Windows, Mac OS, Linux y FreeBSD. Las siguientes son algunas características sobresalientes de Pencil2D:
   * Multiplataforma
   * Código abierto y gratis
@@ -37,7 +37,7 @@ Con un diseño mínimo e interfaz fácil de entender, [Pencil2d][8] es uno de lo
   * Proporciona una representación perfecta y edición para videos
 [Leer más][9]
 
-## Synfig {#synfig}
+## Synfig   {#synfig}
 [Synfig][10] es un software de animación de código abierto que utiliza un sistema de animación "Tweenless" para acelerar el proceso de animación. Proporciona una aplicación combinada de front-end y back-end para diseñar y renderizar animaciones, ya sea en la misma computadora o no. Como software de animación principal, Synfig Studio se basa en menos recursos y complementos para crear animaciones de alta calidad al ofrecer efectos populares como simular sombreado suave utilizando gradientes curvos. Esto no solo ahorra tiempo, sino que reduce el esfuerzo que un animador tiene que hacer al agregar sombreado en cada cuadro. Del mismo modo, como aplicación de código abierto, Synfig proporciona dos compilaciones binarias para animadores que desean más control, estabilidad o las últimas características. Este software de animación 2D gratuito es compatible con Windows, Linux y Mac OS, y requiere al menos 2 GB de RAM o más, así como una CPU de doble núcleo a 2 GHz o más. Las siguientes son algunas características destacadas de Synfig:
   * Proporciona a los animadores el control total del diseño y la interpretación de obras de arte
   * Aplicar efectos en tiempo real en capas o grupos de capas
@@ -46,7 +46,7 @@ Con un diseño mínimo e interfaz fácil de entender, [Pencil2d][8] es uno de lo
   * Tiempo efectivo alternativo a la intermedia manual
 [Leer más][11]
 
-## K-3D {#K3D}
+## K-3D   {#K3D}
 [K-3D][12] es un software de animación intuitivo que tanto los nuevos usuarios como los profesionales encontrarán fácil de navegar y usar. Es completamente gratuito y uno de los mejores software de animación 3D que se lanza bajo la licencia pública de GNU, y se escribe completamente en C ++ teniendo en cuenta que se puede usar en múltiples plataformas. Como aplicación de animación y modelado 3D, K-3D es bastante poderoso al tiempo que proporciona características de animación versátiles y básicas. No solo puede usar este software de modelado 3D gratuito en un sistema operativo Windows, sino que K-3D es compatible con Mac OS, FreeBSD, Linux/GNU y otras plataformas también. K-3D no solo es versátil sino extremadamente flexible, ya que permite a los usuarios crear flujos de trabajo complejos que combinen diferentes modelos de animación, reflejan diferentes lados o aplican cambios a todo el flujo de trabajo y observen mientras todos los cambios se aplican automáticamente. Las siguientes son algunas características destacadas de K-3D:
   * Tiene muchos tutoriales interactivos y macros disponibles
   * Permite la animación de reproducción en cualquier momento durante el modelado
@@ -55,7 +55,7 @@ Con un diseño mínimo e interfaz fácil de entender, [Pencil2d][8] es uno de lo
   * Crear composiciones 2D en lugar de animación 3D
 [Leer más][13]
 
-## krita {#krita}
+## krita   {#krita}
 Tener las herramientas adecuadas para mejorar y mejorar su flujo de trabajo de animación digital puede marcar una gran diferencia en la calidad y cantidad de imágenes que puede crear. Como una aplicación de pintura digital de código abierto, [Krita][14] tiene una interfaz moderna y fácil de usar que proporciona las herramientas, efectos, esquema de gestión del color necesarios para controlar diferentes factores mientras diseña un boceto. Krita es un programa de código abierto y de pintura gratuita que permite a los artistas crear animaciones en 2D, ya sea que recién están comenzando sus carreras o son animadores profesionales. Las siguientes son algunas características destacadas de Krita:
   * Open Source y GRATIS
   * Krita proporciona asistentes de dibujo

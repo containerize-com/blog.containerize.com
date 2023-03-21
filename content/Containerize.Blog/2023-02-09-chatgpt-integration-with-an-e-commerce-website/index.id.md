@@ -24,19 +24,19 @@ Kami akan membahas integrasi chatgpt dengan mengikuti langkah -langkah yang dise
 * [**Mengkonfigurasi Pengaturan**][8]
 * [**tes dan debug**][9]
 
-## Langkah 1: Cara mengintegrasikan chatgpt {#how-to-integrate-chatgpt}
+## Langkah 1: Cara mengintegrasikan chatgpt   {#how-to-integrate-chatgpt}
 Raih**Integrasi ChatGPT**ke situs web e-commerce Anda dan ini adalah langkah pertama untuk rekomendasi produk yang dipersonalisasi. Untuk melakukan ini, Anda harus mengirim permintaan ke [OpenAI API][10] menggunakan PHP, berisi informasi yang diperlukan untuk chatgpt untuk menghasilkan respons. Konteksnya dapat mencakup riwayat penelusuran dan pembelian untuk pengguna.
 
-## Langkah 2: Simpan Data Pengguna {#Store-Pengguna-Data}
+## Langkah 2: Simpan Data Pengguna   {#Store-Pengguna-Data}
 Penting untuk menyimpan data pengguna agar chatgpt dapat menghasilkan rekomendasi produk yang dipersonalisasi. Namun, data mungkin berisi informasi tentang riwayat penelusuran dan pembelian pengguna. Jadi, data harus disimpan dengan aman dan hanya digunakan untuk menghasilkan rekomendasi produk yang dipersonalisasi.
 
-## Langkah 3: Rekomendasi Tampilan {#Display-Recommendations}
+## Langkah 3: Rekomendasi Tampilan   {#Display-Recommendations}
 Setelah itu, langkah selanjutnya adalah menampilkan rekomendasi produk yang dihasilkan oleh ChatGPT di situs web e-commerce Anda setelah mengintegrasikan chatgpt dan menyimpan data pengguna yang diperlukan. Oleh karena itu, Anda dapat menampilkan rekomendasi di halaman produk atau di bagian terpisah dari Situs Web.
 
-## Langkah 4: Konfigurasikan Pengaturan {#Configure-Settings}
+## Langkah 4: Konfigurasikan Pengaturan   {#Configure-Settings}
 Untuk memastikan bahwa rekomendasi produk ChatGPT akurat dan relevan, ekstensi perlu dikonfigurasi. Selain itu, Anda dapat menentukan URL titik akhir API, tombol API, dan jumlah rekomendasi untuk ditampilkan.
 
-## Langkah 5: Tes dan Debug {#test-and-debug}
+## Langkah 5: Tes dan Debug   {#test-and-debug}
 Untuk memastikan bahwa ekstensi berfungsi seperti yang diharapkan, itu harus diuji dan debugged. Lebih lanjut, ini dapat melibatkan pengujian integrasi chatgpt, menguji penyimpanan data pengguna, dan menguji tampilan rekomendasi.
 Di atas segalanya, Anda dapat melihat cuplikan kode berikut untuk mengimplementasikan cara mencapai integrasi chatgpt dengan situs web e-commerce**untuk menghasilkan rekomendasi produk yang dipersonalisasi:
 {{< gist fahadadeel 53a1ae29d023baf8d90ed81ac2a55914 >}}

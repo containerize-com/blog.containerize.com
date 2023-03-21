@@ -19,13 +19,13 @@ A Mautic é uma solução de automação de marketing gratuita e de código aber
   * [Implemente a multiestância em Mautic][3]
   * [Conclusão][4]
 
-## o que é multi-tenancidade {#multi-tenancidade}
+## o que é multi-tenancidade   {#multi-tenancidade}
 Na arquitetura de software com vários inquilinos, uma única instância de um aplicativo de software serve a vários inquilinos. Cada dados do inquilino são isolados de outro inquilino compartilhando a mesma instância do aplicativo. Esses inquilinos são logicamente isolados, mas fisicamente integrados. Isso garante segurança de dados e privacidade para todos os inquilinos. Criar vários inquilinos a partir de uma única instância de aplicativo requer muito menos memória. Os inquilinos compartilham recursos e diminuem os custos da manutenção de software, infraestrutura e operações de data center. Os custos tendem a ser mais baixos do que os de uma infraestrutura de um inquilino.
 
-## o que é mautico {#mautic}
+## o que é mautico   {#mautic}
 [Mautic][5] é um software de marketing de código aberto e gratuito. Automatize tarefas de marketing repetitivo, como campanhas de marketing, geração de leads, segmentação de contato, etc. usando a Mautic. Possui recursos surpreendentes, incluindo geração de leads, construção de campanhas, segmentação de contatos, construtor de e -mails, testes A/B, construtor de páginas, nutrição de chumbo e muito mais. A Mautic também suporta integração com todas as plataformas sociais populares, p. Facebook, Twitter, LinkedIn. Todos esses recursos incríveis ajudam você a aumentar a experiência geral do cliente e melhorar a automação de marketing para o seu negócio.
 
-## Implemente multi-tenancidade em Mautic {#implement}
+## Implemente multi-tenancidade em Mautic   {#implement}
   * Crie um novo banco de dados vazio nomeado como "main_db".
   * Em seguida, crie a tabela chamada "inquilino", que manterá detalhes sobre todos os inquilinos.
   * Terá 3 campos, incluindo o site \ _name, URL e DB \ _Name, como mostrado na figura
@@ -48,7 +48,7 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Depois disso, crie uma cópia de mautic/app/config/local.php e renomeie -a para [site_name] .php.
   * Finalmente, atualize o nome do banco de dados, host, senha e usuário de acordo com o novo banco de dados.
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 A Mautic é uma solução de automação de marketing livre, rica e orientada para a qualidade. Ele permite criar campanhas de marketing, segmentos, formas, relatórios e muito mais. A implementação de multi-ingestão em mautic reduz os custos, melhora a eficiência, a escalabilidade e a segurança. Crie facilmente centenas de inquilinos a partir de apenas uma instalação.
 
 ## Explore

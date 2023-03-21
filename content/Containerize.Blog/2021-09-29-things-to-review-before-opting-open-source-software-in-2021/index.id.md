@@ -15,40 +15,40 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 
 
 ## Ringkasan
-Anda mendarat di tempat yang tepat jika Anda bertanya -tanya untuk mengadopsi perangkat lunak untuk meningkatkan bisnis Anda. Dalam dunia teknologi dan inovasi yang berkembang pesat ini, ada banyak faktor yang dapat menjadi penghenti seperti biaya, waktu, keterampilan, sumber daya, dan banyak lagi. Di sisi lain, ini adalah kesepakatan yang mahal untuk mengembangkan perangkat lunak dari awal untuk memenuhi persyaratan bisnis. Inilah ** perangkat lunak open source **. Open Source Software (OSS) tersedia secara publik untuk semua orang dengan semua kode sumber dan dokumentasi di bawah lisensi. Itu bisa dibangun oleh pengembang tunggal atau sekelompok pengembang yang kemudian mengumumkannya. Setelah visibilitas perangkat lunak bebas bersifat publik, pengembang lain dapat berkontribusi pada perangkat lunak itu untuk peningkatan.
-Lebih lanjut, komunitas open source sangat bersemangat dan mendukung yang telah mengembangkan ** daftar perangkat lunak open source **. Ada papan diskusi di mana kolaborator dan pengguna berkumpul untuk berbagi solusi dan pemikiran. Ada berbagai kategori OSS yang mencakup sebagian besar aspek bisnis. Tentu saja, ada beberapa hal yang perlu dipertimbangkan sebelum pergi untuk aplikasi open source yang akan kita diskusikan dalam posting blog ini dengan membahas poin -poin berikut.
-  *** [komunitas][1] **
-  *** [dokumentasi][2] **
-  *** [portabilitas][3] **
-  *** [statistik git][4] **
-  *** [lisensi][5] **
-  *** [ekstensibilitas][6] **
-  *** [keamanan][7] **
+Anda mendarat di tempat yang tepat jika Anda bertanya -tanya untuk mengadopsi perangkat lunak untuk meningkatkan bisnis Anda. Dalam dunia teknologi dan inovasi yang berkembang pesat ini, ada banyak faktor yang dapat menjadi penghenti seperti biaya, waktu, keterampilan, sumber daya, dan banyak lagi. Di sisi lain, ini adalah kesepakatan yang mahal untuk mengembangkan perangkat lunak dari awal untuk memenuhi persyaratan bisnis. Inilah **perangkat lunak open source** . Open Source Software (OSS) tersedia secara publik untuk semua orang dengan semua kode sumber dan dokumentasi di bawah lisensi. Itu bisa dibangun oleh pengembang tunggal atau sekelompok pengembang yang kemudian mengumumkannya. Setelah visibilitas perangkat lunak bebas bersifat publik, pengembang lain dapat berkontribusi pada perangkat lunak itu untuk peningkatan.
+Lebih lanjut, komunitas open source sangat bersemangat dan mendukung yang telah mengembangkan **daftar perangkat lunak open source** . Ada papan diskusi di mana kolaborator dan pengguna berkumpul untuk berbagi solusi dan pemikiran. Ada berbagai kategori OSS yang mencakup sebagian besar aspek bisnis. Tentu saja, ada beberapa hal yang perlu dipertimbangkan sebelum pergi untuk aplikasi open source yang akan kita diskusikan dalam posting blog ini dengan membahas poin -poin berikut.
+  ***[komunitas][1]** 
+  ***[dokumentasi][2]** 
+  ***[portabilitas][3]** 
+  ***[statistik git][4]** 
+  ***[lisensi][5]** 
+  ***[ekstensibilitas][6]** 
+  ***[keamanan][7]** 
 
-## Komunitas {#Community}
-Ini adalah faktor terpenting saat memilih solusi open source (OSS). Menjadi sangat sulit untuk mengelola perangkat lunak jika tidak ada cukup dukungan yang tersedia. Sebagian besar pengembang cenderung mempertahankan keandalan perangkat lunak. Oleh karena itu, Anda harus selalu lebih suka ** Open Source Software (FOSS) gratis ** yang memiliki dukungan komunitas yang semarak sehingga jika ada masalah serius yang terjadi, yang harus diselesaikan.
+## Komunitas   {#Community}
+Ini adalah faktor terpenting saat memilih solusi open source (OSS). Menjadi sangat sulit untuk mengelola perangkat lunak jika tidak ada cukup dukungan yang tersedia. Sebagian besar pengembang cenderung mempertahankan keandalan perangkat lunak. Oleh karena itu, Anda harus selalu lebih suka **Open Source Software (FOSS) gratis**  yang memiliki dukungan komunitas yang semarak sehingga jika ada masalah serius yang terjadi, yang harus diselesaikan.
 
-## Dokumentasi {#Documentation}
-Aspek kritis berikutnya dalam memilih ** aplikasi sumber terbuka ** adalah dokumentasi. Sebagian besar perangkat lunak open source (OSS) dilengkapi dengan dokumentasi yang terperinci dan komprehensif. Namun, masih belum terjadi pada setiap OSS. Perangkat lunak dengan kurang atau tidak ada dokumen dapat membuat Anda dalam masalah. Terkadang, pengembang menulis manual pengguna ke ruang lain selain dari situs perangkat lunak. Jadi, selalu pastikan bahwa Anda telah memilih OSS dengan dokumentasi lengkap.
+## Dokumentasi   {#Documentation}
+Aspek kritis berikutnya dalam memilih **aplikasi sumber terbuka**  adalah dokumentasi. Sebagian besar perangkat lunak open source (OSS) dilengkapi dengan dokumentasi yang terperinci dan komprehensif. Namun, masih belum terjadi pada setiap OSS. Perangkat lunak dengan kurang atau tidak ada dokumen dapat membuat Anda dalam masalah. Terkadang, pengembang menulis manual pengguna ke ruang lain selain dari situs perangkat lunak. Jadi, selalu pastikan bahwa Anda telah memilih OSS dengan dokumentasi lengkap.
 
-## portabilitas {#portability}
-Karakteristik ini sama pentingnya dengan yang lain seperti dokumentasi, keamanan dan dll. Anda perlu memastikan bahwa ** perangkat lunak open source (OSS) ** portabel dan ramah lingkungan. Ini mudah disetel dan dilengkapi dengan file kode sumber lengkap. Portabilitas tidak ada hubungannya dengan penginstal tetapi file perangkat lunak. ** Perangkat lunak yang diselenggarakan sendiri ** memungkinkan pengembang untuk mendapatkan kendali penuh atas pengembangan, negara produksi, dan keamanan.
+## portabilitas   {#portability}
+Karakteristik ini sama pentingnya dengan yang lain seperti dokumentasi, keamanan dan dll. Anda perlu memastikan bahwa **perangkat lunak open source (OSS)  **portabel dan ramah lingkungan. Ini mudah disetel dan dilengkapi dengan file kode sumber lengkap. Portabilitas tidak ada hubungannya dengan penginstal tetapi file perangkat lunak. **  Perangkat lunak yang diselenggarakan sendiri**  memungkinkan pengembang untuk mendapatkan kendali penuh atas pengembangan, negara produksi, dan keamanan.
 
-## Git Stats {#git-stats}
+## Git Stats   {#git-stats}
 Ini adalah aktivitas yang sangat mendasar namun penting sebelum memilih perangkat lunak gratis. Selalu tinjau repo git dari produk tertentu secara menyeluruh. Ini termasuk jumlah garpu, bintang, dan statistik lain yang menunjukkan popularitas alat open source. Juga, periksa bagian masalah repo git untuk memastikan bahwa tidak ada masalah serius yang dilampirkan dengan aplikasi open source ini.
 
-## Perizinan {#licensing}
+## Perizinan   {#licensing}
 Faktor ini tidak dapat dihindari dalam memilih perangkat lunak open source gratis (FOSS). Saat menjelajahi statistik repo git, periksa lisensi produk mengenai izin. Pergi melalui syarat dan ketentuan yang ditulis tentang penggunaan, pengembangan, dan distribusi OSS. Beberapa lisensi adalah open source tetapi tidak gratis. Karena itu, Anda harus memilih perangkat lunak gratis yang sepenuhnya open source dan gratis.
 
-## ekstensibilitas {#extensibility}
+## ekstensibilitas   {#extensibility}
 Alasan terbesar di balik memilih alat open source adalah sifatnya yang dapat diperluas. Perangkat lunak gratis harus dapat dikonfigurasi, dapat diskalakan, dan mudah diperluas. Komunitas open source memberikan cara terbaik untuk menjaga perangkat lunak tetap fleksibel mengenai setiap aspek sehingga pengguna tidak menjadi panik pada saat revisi atau penambahan fungsionalitas baru. Selain itu, pengguna dapat menemukan sejumlah plugin, API REST yang diekspos oleh sebagian besar alat sumber terbuka yang populer seperti perangkat lunak manajemen konten S, perangkat lunak blogging, pengembangan aplikasi yang cepat, dan banyak lagi.
 
-## Security {#security}
+## Security   {#security}
 Last but not least, keamanan perangkat lunak apa pun tidak dapat dikompromikan dengan biaya berapa pun. Namun, Anda perlu menganalisis arsitektur perangkat lunak secara kritis untuk memastikan tidak ada pelanggaran keamanan. Itu adalah kesalahpahaman di masa lalu bahwa Open Source Software (OSS) rentan terhadap ancaman eksternal. Oleh karena itu, tidak terjadi pada titik waktu saat ini karena kedewasaan dan popularitas meningkat dengan berlalunya waktu.
 
 ## Pikiran terakhir
-Ini membawa kita ke akhir posting blog ini. Kami telah melalui praktik -praktik penting yang harus diikuti saat memilih ** Open Source Software (OSS) **. Kami telah melihat banyak raksasa teknologi mengadopsi ** Open Source Software (FOSS) gratis ** untuk memenuhi kebutuhan bisnis. Namun, ini meluas menunjukkan kekokohan dan efisiensi aplikasi open source. Ada daftar alat open source panjang yang disebutkan di bagian Explore di bawah ini. Selain itu, Anda dapat menemukan banyak OSS di containerize.com yang semuanya gratis, open source, dan datang dengan kemampuan hosting sendiri. Saya akan merekomendasikan Anda untuk memilih solusi open source untuk bisnis Anda yang memenuhi kebutuhan bisnis Anda.
-Akhirnya, [** containerize.com **][8] menulis artikel tentang produk open source lebih lanjut. Karena itu, harap tetap berhubungan untuk pembaruan rutin.
+Ini membawa kita ke akhir posting blog ini. Kami telah melalui praktik -praktik penting yang harus diikuti saat memilih **Open Source Software (OSS) **. Kami telah melihat banyak raksasa teknologi mengadopsi  **Open Source Software (FOSS) gratis**   untuk memenuhi kebutuhan bisnis. Namun, ini meluas menunjukkan kekokohan dan efisiensi aplikasi open source. Ada daftar alat open source panjang yang disebutkan di bagian Explore di bawah ini. Selain itu, Anda dapat menemukan banyak OSS di containerize.com yang semuanya gratis, open source, dan datang dengan kemampuan hosting sendiri. Saya akan merekomendasikan Anda untuk memilih solusi open source untuk bisnis Anda yang memenuhi kebutuhan bisnis Anda.
+Akhirnya, [**containerize.com** ][8] menulis artikel tentang produk open source lebih lanjut. Karena itu, harap tetap berhubungan untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:

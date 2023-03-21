@@ -17,30 +17,30 @@ categories: ['Programming']
 ## Descripción general
 Esperamos que tenga una mejor comprensión de [tipos de datos JavaScript][1]. Ahora, esta es otra publicación de blog en la categoría [Programación][2]. En este tutorial de JavaScript, pasaremos por**lo que es prometedor en JavaScript**, y junto con eso, también veremos cuáles son las operaciones asincrónicas, el uso de promesas y cómo crear promesas en JavaScript. Primero, un proceso/operación asíncrona es uno que se ejecuta independientemente con respecto a otros procesos y no crea ningún bloqueo. Por lo tanto, debe manejar operaciones asíncronas, de lo contrario, puede crear anormalidades en su código JavaScript. Por lo tanto, exploraremos cómo podemos manejar operaciones asíncronas utilizando promesas.
 Cubriremos los siguientes puntos en este tutorial de JavaScript:
-***[¿Qué es la promesa en JavaScript? Promesas explicadas][3]**
-***[¿Por qué usamos la promesa en JavaScript?][4]**
-***[¿Cómo funciona la promesa en JavaScript?][5]**
-***[¿Cómo crear una promesa?][6]**
+* **[¿Qué es la promesa en JavaScript? Promesas explicadas][3]**
+* **[¿Por qué usamos la promesa en JavaScript?][4]**
+* **[¿Cómo funciona la promesa en JavaScript?][5]**
+* **[¿Cómo crear una promesa?][6]**
 
-## ¿Qué es la promesa en JavaScript? Las promesas explicaron {#what-is-promise-in
+## ¿Qué es la promesa en JavaScript? Las promesas explicaron   {#what-is-promise-in
 Una promesa es un objeto que representa un valor de un clima de operación de asíncrono que se resuelve, se rechaza o está en estado pendiente. En palabras más simples, las promesas se utilizan para devolver un valor que aún no se ha producido por un bloque de código asincrónico. De hecho, hay tres**estados de promesa**y puede estar en cualquiera de los siguientes estados:
 **pendiente**: La promesa está en un estado pendiente, lo que significa que está en fase inicial y actualmente está en ejecución.
 **Cumplimiento**: La promesa se resuelve y el valor se ha devuelto.
 **Rechazado**: Este es el estado causado por cualquier error, lo que significa que la promesa ha sido rechazada.
 Una cosa importante a tener en cuenta aquí es que el valor/estado devuelto por la promesa es inmutable y no se puede cambiar, lo que significa que las promesas aseguran que no haya un comportamiento inusual.
 
-## ¿Por qué usamos la promesa en JavaScript? {#Why-We-Use-Promise-In-JavaScript}
+## ¿Por qué usamos la promesa en JavaScript?   {#Why-We-Use-Promise-In-JavaScript}
 Si no está al tanto de**Callback Hell**, déjame compartir qué es. Primero, una devolución de llamada es una función dentro de otra función. Básicamente, una función de devolución de llamada se pasa como un segundo argumento en una función que se ejecuta al recibir resultados. Entonces, en muchos escenarios, debe anidar una función de devolución de llamada y, a medida que aumenta la anidación, se vuelve casi imposible de manejar. Por lo tanto, llamamos a esta larga anidación de funciones de devolución de llamada**Hell de devolución de llamada**.
 Entonces, una promesa es una forma de evitar una situación de infierno de devolución de llamada. El uso de promesas ofrece una mejor legibilidad y un mejor manejo de errores. Además, puede manejar mejor las operaciones asincrónicas recuperando el valor devuelto y pasando ese valor a la siguiente función en la cadena.
 
-## ¿Cómo funciona la promesa en JavaScript? {#How-Promise-Works-in-JavaScript}
+## ¿Cómo funciona la promesa en JavaScript?   {#How-Promise-Works-in-JavaScript}
 Ahora, comprendamos el mecanismo de trabajo detrás de las promesas. Eche un vistazo al diagrama mencionado a continuación.
 
 {{< figure align=center src="images/what-is-a-promise.png" alt="¿Cómo funciona la promesa en JavaScript??" >}}
 
 Según el flujo de trabajo mencionado anteriormente, los detalles de implementación son bastante claros. Promise comienza a la ejecución sobre su creación y está en el estado pendiente esperando la respuesta. Hay dos opciones, o habrá datos o habrá un error al final del procesamiento. Al recibir datos, entra en el bloque .then () y entra en el bloque .catch () en caso de un error.
 
-## ¿Cómo crear una promesa? {#How-To-Create-A-Promise}
+## ¿Cómo crear una promesa?   {#How-To-Create-A-Promise}
 Hasta ahora, hemos cubierto el concepto básico de promesa. Ahora, vamos a explorar cómo podemos crear una promesa en JavaScript. Usemos el siguiente constructor de promesa para crear una promesa.
 ```
 let promise = new Promise(function(resolve, reject) {

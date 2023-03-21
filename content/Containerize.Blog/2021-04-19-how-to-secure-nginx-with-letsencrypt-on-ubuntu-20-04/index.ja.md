@@ -24,7 +24,7 @@ categories: ['Web Server Solution Stack']
   * SSL証明書の取得
   * 結論
 
-## 最初のこと：依存関係と前提条件{#prerequisites}
+## 最初のこと：依存関係と前提条件 {#prerequisites}
 この記事をフォローするには、Letsencrypt ubuntu nginxユーティリティをインストールするには、次の依存関係と前提条件が必要です。
   *ローカル/リモートマシンのsudo対応の非ルートまたはルートユーザー。
   * Ubuntu 20.04またはUbuntu 18.04を実行しているシステム
@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
   *そのドメイン名に設定されたサーバーブロック
   *ファイアウォールは、ポート80および443の接続を受け入れるように構成されています。
 
-## ステップ1  -  certbotのインストール{#ステップ1---インストールcertbot}
+## ステップ1  -  certbotのインストール {#ステップ1---インストールcertbot}
 Nginxを固定し、Let's EncryptでNginxを暗号化するための最初のステップは、NGINX CERTBOTフル機能と使いやすいパッケージをインストールして、サーバーにSSL証明書を暗号化して更新するためにインストールすることです。そうするには、Ubuntuで端末を開き、ローカルリポジトリを更新することから始めます。 yと入力し、プロンプトが表示された場合は入力します。
 ```
 sudo apt update
@@ -44,7 +44,7 @@ sudo apt install certbot python3-certbot-nginx
 ```
 次に、nginxセキュア構成設定の一部を確認しましょう。
 
-## ステップ2  -  Nginxの構成の確認{#ステップ2-—- Nginx-39-s-configurationの確認}
+## ステップ2  -  Nginxの構成の確認 {#ステップ2-—- Nginx-39-s-configurationの確認}
 依存関係と前提条件セクションで説明されているように、登録ドメインが既に登録されており、CERTBOTはそのドメインがSSLを自動的に構成するための正しいNGINXサーバーブロックを見つけることができる必要があります。例として、このブログ投稿では、domain blog.containerize.comとdomainのサーバーブロックを/etc/nginx/sites-abailable/blog.containerize.comを使用して、server_nameディレクティブを正しく設定しています。
 確認するには、Nanoまたはお気に入りのテキストエディターを使用してドメインの構成ファイルを開きます。
 ```
@@ -65,7 +65,7 @@ sudo systemctl reload nginx
 ```
 CERTBOTユーティリティは、NGINXを保護し、自動的に更新するための正しいNGINXサーバーブロックディレクティブを見つけることができます。次のステップでは、HTTPSトラフィックを許可するためにファイアウォールを更新しましょう。
 
-## ステップ3  - ファイアウォールを介してhttpsを許可する{#step-3--- aving https-through-the-firewall}
+## ステップ3  - ファイアウォールを介してhttpsを許可する {#step-3--- aving https-through-the-firewall}
 この記事で推奨されているように、前提条件は、HTTPSトラフィックを許可するために設定を調整する必要があります。ファイアウォールが有効でアクティブであることを確認するには、以下のコマンドを実行します。
 ```
 sudo ufw status
@@ -84,7 +84,7 @@ sudo ufw status
 ```
 次に、証明書を実行して証明書を取得しましょう。
 
-## ステップ4  -  SSL証明書の取得{#step-4-—- gotaining-an-ssl-vertificate}
+## ステップ4  -  SSL証明書の取得 {#step-4-—- gotaining-an-ssl-vertificate}
 Certbot用のNginxのプラグインは、Nginxの再構成に対応し、必要に応じて構成をリロードします。したがって、次のコマンドを実行して、Nginxプラグインで証明書を生成する必要があります。
 ```
 sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
@@ -94,7 +94,7 @@ CERTBOTユーティリティを初めて実行するのが初めての場合、C
 証明書はダウンロード、インストール、およびnginx SSL証明書LetsEncrypt構成でロードされます。 https：//を使用してWebサイトをリロードしてみて、ブラウザのセキュリティインジケーターに注意してください。通常、ロックアイコンを使用して、サイトが適切に固定されていることを示す必要があります。 SSL Labsサーバーテストを使用してサーバーをテストすると、NginxとLetsencryptのAグレードが得られます。
 更新プロセスをテストして終了しましょう。
 
-## ステップ5  -  Certbot Auto-Renewalの検証{#step-5---検証certbot-auto-renewal}
+## ステップ5  -  Certbot Auto-Renewalの検証 {#step-5---検証certbot-auto-renewal}
 Let's Encrypt証明書は90日ごとに期限切れになり、Nginx SSL LetsEncryptがユーザーがセットアップと自動更新クロンジョブを奨励しています。まず、現在のユーザーのCrontab構成ファイルを開きます。
 ```
 sudo crontab -e
@@ -106,7 +106,7 @@ sudo certbot renew --dry-run
 ```
 Cronジョブには、上記のコマンドのように、-quiet属性も含める必要があります。これにより、NGINX Renew SSL証明書は、タスクを実行した後に出力を含めないように指示します。自動証明書の更新を有効にします。 Cronジョブを追加したら、変更を保存し、ファイルを終了します。
 
-## 結論{#conclusion}
+## 結論 {#conclusion}
 この記事では、nginxのインストールLetsEncrypt SSL証明書をインストールする方法を学びました。ドメイン用のSSL証明書をダウンロードし、これらの証明書を使用するようにnginxを構成しました。さらに、SSL nginx letsencryptの証明書を自動的に更新できるようにcertbotを有効にする必要があります。今後のチュートリアルでは、WebブラウザーとWebサーバー間の暗号化された通信を可能にする標準的なセキュリティテクノロジーでWebサーバーを保護する方法についてのより興味深いトピックについて説明します。
 _Yourは[Twitter][1]、[LinkedIn][2]、および[Facebook][3]ページに参​​加できます。コンピューターネットワークを介してコミュニケーションセキュリティを提供するために使用する暗号化プロトコルは何ですか？ご質問がある場合は、[ご連絡ください][4]をお願いします。
 

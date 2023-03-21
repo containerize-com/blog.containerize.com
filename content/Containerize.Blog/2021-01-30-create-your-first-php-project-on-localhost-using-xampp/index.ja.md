@@ -20,17 +20,17 @@ XAMPPは、ライブサーバーに展開する前にPHPプロジェクトを作
   * [PHPスクリプトを実行およびテスト][5]
   * [結論][6]
 
-## 要件{#requirements}
+## 要件 {#requirements}
   * XAMPPインストール
   *コードエディターアプリケーション
   *基本的なPHP知識
   *基本的なHTMLおよびJavaScriptの知識
 
-## xamppとは何ですか？ {#xampp}
+## xamppとは何ですか？   {#xampp}
 XAMPPは、オープンソースのWebサーバーソリューションスタックです。 Apache、MySQL、MariadB、PHP、およびPerlが含まれています。インストールと使用は非常に簡単です。そのため、最も人気のあるPHP開発環境です。 XAMPPサーバーは、PHP Webアプリ開発のための完全な環境を提供します。 XAMPPが機能していない場合は、このガイドに従ってXAMPPをインストールしてください。
 [windowsのローカルホストとしてxamppとphpmyadminをセットアップ][7]
 
-## PHPスクリプトを作成{#PHP}
+## PHPスクリプトを作成 {#PHP}
   *上記のチュートリアルをフォローしてXAMPPを既にインストールしていると仮定して、簡単なPHPスクリプトを作成してXAMPPでテストしましょう。
   *最初に編集者を開きます。プログラミングエディターがない場合は、メモ帳を開くだけです。
   *次のコードを入力します
@@ -48,7 +48,7 @@ echo "This is my first PHP project";
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="XAMPPオープンソースWebサーバーで最初のPHPプロジェクトを作成する">}}
 
 
-## 実行およびテストphpスクリプト{#test}
+## 実行およびテストphpスクリプト {#test}
   *このPHPスクリプトをXAMPPインストール内のHTDOCSフォルダーにコピーします。ほとんどのhtdocsフォルダーはここにあります：c：\ xampp \ htdocs
   *ブラウザを開きます。
   * localhost/my \ _first \ _php_project.phpに移動します
@@ -57,7 +57,7 @@ echo "This is my first PHP project";
 
 おめでとう！最初のPHPプロジェクトを作成しました。
 
-## 結論{#conclusion}
+## 結論 {#conclusion}
 最初のWebプロジェクトを作成することは、初心者にとって常に非常にエキサイティングです。最初のダイナミックスクリプトを設計し、それを実行してブラウザで動作するのを表示すると、気持ちがいいです。このシンプルなガイドが、XAMPPオープンソースWebサーバーを使用して最初のPHPプロジェクトの作成と実行に役立つことを願っています。
 
 ## 探検

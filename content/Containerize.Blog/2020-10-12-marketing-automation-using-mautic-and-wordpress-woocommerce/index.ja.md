@@ -24,10 +24,10 @@ MauticとWordPress用のプラグインがあり、マーケティングオー�
   * [Mautic Configuration][3]
   * [最終的な考え][4]
 
-## WordPressプラグイン構成{#WordPress}
+## WordPressプラグイン構成 {#WordPress}
   1.プラグインに移動します。
   2.「新しい追加」をクリックします。
-  3.「** woocommerceのためにMauticとの統合**」を検索します。
+  3.「 **woocommerceのためにMauticとの統合** 」を検索します。
   4.プラグインを見つけたら、[今すぐインストール]をクリックします。
   5.インストール後、「アクティブ化」をクリックします。
   6.次に、woocommerce-> mautic-> connectタブに移動します。
@@ -40,7 +40,7 @@ MauticとWordPress用のプラグインがあり、マーケティングオー�
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="MauticおよびWordPressの統合">}}
 
 
-## mautic構成：{#mautic}
+## mautic構成： {#mautic}
   1. Mauticサイトから、設定に移動します。
   2.構成に移動します。
   3. API設定からAPIを有効にします。
@@ -60,7 +60,7 @@ MauticとWordPress用のプラグインがあり、マーケティングオー�
 {{< figure align=center src="images/mautic-1024x622.png" alt="MauticおよびWordPressの統合ステップ">}}
 
 
-## 最終的な考え：{#final}
+## 最終的な考え： {#final}
 Mautic-Woocommerceの統合を一緒に統合することで、マーケティング目標を達成するのに役立ちます。この統合は、eコマースマーケティングの自動化に最適なソリューションの1つです。 WordPressを使用すると、多くの顧客を簡単に取得でき、Mauticを使用すると、これらの顧客をターゲットにして、製品/サービスに関して最新情報を維持することができます。
 
 ## 探検：

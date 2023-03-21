@@ -27,11 +27,11 @@ Wenn Sie die Vorteile des Cloud -Speichers genießen möchten, während Sie die 
 [Nextcloud][1] ist eine Open -Source -Cloud -Speicherplattform für Linux -basierte Systeme. NextCloud wird auf einem Server zum Schutz Ihrer Daten ausgeführt und Sie von Ihrem Desktop und Ihren mobilen Geräten zugreifen. NextCloud hilft Ihnen dabei, Ihre vorhandenen Daten auf einem FTP -Laufwerk bei einem Dropbox oder NAS Cloud -Speicher zu synchronisieren, zu teilen und zuzugreifen. Enterprise -Datei Sync und Share NextCloud erzwingt die Einhaltung von HIPAA und GDPR. NextCloud ist so konzipiert, dass sie mit mehreren Datenbankverwaltungssystemen zusammenarbeiten, z.
 NextCloud wurde 2016 ins Leben gerufen, als Frank Karlitschek Owncloud für NextCloud aufgebraucht hat. Der NextCloud -Server wird mit PHP- und JavaScript -Skriptsprachen geschrieben. Die meisten der Kernbeiträge von Owncloud fuhren mit Frank Karlitschek, um sich dem neuen Projekt zur gemeinsamen Sharing Collaboration Nextcloud beizutragen. Innerhalb der nächsten 6 Monate war Nextcloud GmbH profitabel und bleibt heute rentabel und verwaltet das Nextcloud -Projekt immer noch.
 
-## 2. Was ist OwnCloud? {#CE62}
+## 2. Was ist OwnCloud?   {#CE62}
 [Owncloud][2] erschien im Januar 2010, aber die erste Beta -Veröffentlichung wurde im März 2010 gestartet. Owncloud hat weltweit 50 Millionen Benutzer und 2012 wurde Owncloud veröffentlicht, um den Bedürfnissen der Community -Nutzer von Overcloud zu erfüllen, und jetzt wird OwnCloud verwaltet von owncloud gmbH. Die OwnCloud Cloud verfügt über viele andere produktive Funktionen für die Verwaltung von Cloud -Dateifreigabe, die Verwaltung Ihres Kalenders, für DO -Listen, ein Dokumentbearbeitungswerkzeug, Ordnerfreigabe und vieles mehr. OwnCloud wird ausschließlich auf Ihrem eigenen privaten Cloud -Server gehostet.
 OwnCloud ist eine sehr stabile und zuverlässige Cloud -Anwendung. Es wird besonders für kommerzielle Anwendungen sehr empfohlen. OwnCloud wird von Unternehmen verwendet, die sich mit sensiblen Daten befassen oder die speziellen Sicherheits- und Compliance -Vorschriften erfüllen müssen. Zu diesen Unternehmen gehören Finanzen, Gesundheitswesen und vieles mehr.
 
-## 3. Vergleich Nextcloud gegen OwnCloud: {#CE62}
+## 3. Vergleich Nextcloud gegen OwnCloud:   {#CE62}
 
 #### **Preisgestaltung**
 Nextcloud und Owncloud werden beide kostenlos verwendet und verkaufen auch einen Support -Service. Die Downloads und Installationen beider Software sind absolut kostenlos. Der größte Unterschied zwischen den beiden Plattformen ist jedoch, dass der beste kostenlose Online -Cloud -Speicher NextCloud vollständig kostenlos und Open Source ist. Um den vollen Zugriff auf alle Funktionen von OwnCloud zu haben, müssen Sie ihre Enterprise Edition für zusätzliche Funktionen abonnieren.
@@ -39,19 +39,19 @@ Nextcloud und Owncloud werden beide kostenlos verwendet und verkaufen auch einen
 #### **Merkmale**
 Open Source Secure Datei Sharing OwnCloud konzentriert sich hauptsächlich auf die Dateifreigabe und die Synchronisierung von Cloud -Daten. NextCloud hat seine Dienste erheblich erweitert, um andere Funktionen anzubieten, einschließlich der Arbeiten für Audio-Video-Kommunikation und kollaborative Bürodokumente.
 
-#### ** Community ** und Unterstützung
+#### **Community**  und Unterstützung
 Ein weiterer wichtiger Unterschied von Open Source Nextcloud und Owncloud Platorms ist die Gemeinschaft und Unterstützung, die sie umgibt. Seit 2017 hat die Anzahl der Nextcloud -Mitwirkenden eine große Anzahl als die Anzahl der OwnCloud -Mitwirkenden erhöht. Die Support -Seiten von Open Source OwnCloud und NextCloud Cloud Storage bieten Ihnen Links zu Dokumentation, Internet -Chat -Kanälen, Foren usw. Für die Kunden von Enterprise -Kategorien sind sowohl NextCloud als auch OwnCloud auch Premium -Support an.
 Wenn Sie einen Blick auf Help -Foren von Nextcloud werfen, ist das am häufigsten besprochene Thema „Migration von OwnCloud zu Nextcloud“. Dies hat mehr als 95.000 Ansichten erzielt. Das beliebteste Thema im öffentlichen Forum von Owncloud befasst sich mit der Entsperren einer gesperrten Datei mit über 45.000 Aufsichten. Der YouTube -Kanal von Owncloud verfügt über mehr als 70 Videos mit einer Abonnentenbasis von 1,36K. NextCloud verfügt über mehr als 220 Videos mit einer Abonnentenbasis von 9,3.000 auf dem YouTube -Kanal. Darüber hinaus führte eine Google -Keyword -Suche nach beiden zu 4.050.000 Suchergebnissen und 3.460.000 Suchergebnisse für NextCloud bzw. OwnCloud.
 
-#### ** Sicherheit **
+#### **Sicherheit** 
 Die Freigabe von Open Source Cloud -Datei Nextcloud bietet Schutz vor Brute -Force -Angriffen, Flussbeschränkung, Ratenbegrenzung, Kennwortverwaltung, Inhaltssicherheitsrichtlinien und vielen anderen Sicherheitsoptionen. In ähnlicher Weise sind bestimmte Sicherheits -Sicherheits -Scan -Funktionen nur in der Enterprise -Version verfügbar. Es ist möglich, die Enterprise -Version 30 Tage kostenlos zu testen, um zu prüfen, ob diese zusätzlichen Funktionen erforderlich sind, um Sie vor externen Problemen zu schützen.
 Darüber hinaus haben Hacker die Chance, ein Bug Bounty -Programm Angebote als Belohnung für die Entdeckung von Schwachstellen für das Team zu erhalten.
 
-## 4. Warum Nextcloud über OwnCloud? {#CE62}
+## 4. Warum Nextcloud über OwnCloud?   {#CE62}
 Jetzt wissen Sie, was zwischen Nextcloud und OwnCloud anders ist. Es sollte etwas einfacher sein, eine auszuwählen. NextCloud und Owncloud Beide Pakete verfügen über eine solide Basis und eine wachsende Reihe von Addon -Apps, die beide Unterstützung zur Verfügung haben. Nextcloud hat jedoch viel mehr Action, „Buzz“ und Wachstum. OwnCloud scheint überhaupt nicht tot zu sein, aber die Zukunft von Open -Source -Wolken scheint eindeutig bei Nextcloud zu sein.
 Der 100% freie Aspekt von Nextcloud macht es attraktiver und beliebter als Owncloud -Speicher. Darüber hinaus verlängerte Nextcloud seine Dienste kontinuierlich, indem sie im Gegensatz zu OwnCloud neue Funktionen hinzufügen. Darüber hinaus ist die Nextcloud -Community auch aktiver als die von Owncloud, was es ihm ermöglicht, ihre Funktionen zu verbessern. Die Nextcloud konzentriert sich zunehmend darauf, die Sicherheitsfunktionen der Anwendung zu erweitern und einen digitalen Cloud -Speicherarbeitsplatz als die neuesten Funktionen zu ermöglichen. Es scheint fair zu sagen, dass Nextcloud eine starke Führung übernommen hat und für die Zukunft vielversprechender ist als Owncloud.
 
-## Schlussfolgerung: {#4a1a}
+## Schlussfolgerung:   {#4a1a}
 In diesem Artikel haben wir einen kurzen Vergleich über die Arbeit der beliebtesten Open -Source -Cloud -Speicher -Frameworks - NextCloud vs OwnCloud - erläutert. NextCloud und OwnCloud sind zwei Marktführer im Bereich der Open -Source -Cloud -Speicherplattform. Beide Software haben ein starkes Fundament, das durch Add-On-Anwendungen regelmäßig gestützt wird. Zwischen den beiden scheint der Nextcloud -Cloud -Speicher aufgrund seiner Funktionen und Dienste beliebter zu sein. OwnCloud ist jedoch eine alte Cloud -Plattform und geformt, um den Bedürfnissen der Nutzer von OwnCloud -Speicher zu erfüllen. In unseren bevorstehenden Tutorials werden wir über interessante Themen im Zusammenhang mit Open -Source -Cloud -Speicherplattformen besprechen.
 Sie können sich uns auf [Twitter][3], [LinkedIn][4] und unserer [Facebook][5] -Seite anschließen. Welcher Cloud -Speicher NextCloud gegen OwnCloud_ _PLATFORM bevorzugen Sie? Wenn Sie Fragen haben, bitte_ [in Kontakt][6].
 

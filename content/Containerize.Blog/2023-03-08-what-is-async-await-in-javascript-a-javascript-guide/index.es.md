@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Descripción general
 Cubrimos [promesas de JavaScript][1] en nuestra publicación de blog anterior y debe visitar si desea obtener una comprensión clara del concepto detrás de las promesas de JavaScript. En esta serie de [JavaScript Tutorials][2], estamos aquí con otra guía de JavaScript que demostrará las características modernas de JavaScript Async/Weit. Esta publicación de blog es para aquellos que tienen conocimiento previo de las promesas de JavaScript. Además, trataremos de cubrir**qué es async/espera en javascript**, y cuando necesitemos usar async/esperanza. Además, también cubriremos errores de manejo con async/espera. Entonces, lea exhaustivamente a este**Tutorial de async/esperanza javascript**para marcar este concepto verificado.
 Revisaremos las siguientes secciones en este tutorial de espera de JavaScript Async:
-***[¿Qué es async/espera en JavaScript? Async espera sintaxis][3]**
-***[¿Cuándo usar Async/Await?][4]**
-***[Manejo de errores con async/a espera][5]**
+* **[¿Qué es async/espera en JavaScript? Async espera sintaxis][3]**
+* **[¿Cuándo usar Async/Await?][4]**
+* **[Manejo de errores con async/a espera][5]**
 
-## ¿Qué es async/espera en JavaScript? Async espera sintaxis {#what-is-asyncawait-in-javaScript-async-wait-syntax}
+## ¿Qué es async/espera en JavaScript? Async espera sintaxis   {#what-is-asyncawait-in-javaScript-async-wait-syntax}
 ECMAScript 2017 lanzó nuevas características de JavaScript y Async/Await es una de las más utilizadas entre estas características. Async/Agait está construido sobre las promesas y en realidad es una forma moderna de manejar las promesas de JavaScript.
 Veamos cómo usar las palabras clave async/espera en el código JavaScript:
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 Bueno, la palabra clave Async al inicio de la función implica que esta función le devolverá una promesa. Por lo tanto, la palabra clave de espera siempre se usa dentro del cuerpo de la función async para detener la ejecución de la función hasta que la promesa se resuelva. Lo importante a tener en cuenta aquí es que no puede usar la palabra clave esperar dentro del cuerpo de una función regular. Sin embargo, puede usar solo esperar con funciones asincrónicas declaradas con la palabra clave Async.
 
-## ¿Cuándo usar async/espera? {#When-to-Use-Asyncawait}
+## ¿Cuándo usar async/espera?   {#When-to-Use-Asyncawait}
 Hasta ahora, tienes la respuesta a**¿Qué es Async? Dado que esto es solo un envoltorio alrededor de las promesas tradicionales de JavaScript, es mejor usar esta nueva forma de crear y manejar promesas de una manera más limpia y legible. Además, puede deshacerse de múltiples promesas. Then () llamadas usando async/esperanza que eventualmente hace que el código fuente sea más manejable y mantenible. La palabra clave espera encapsula la instrucción .then () en una sola línea.
 
-## Manejo de errores con Async/Agait {#Error-manejar-with-asyncawait}
+## Manejo de errores con Async/Agait   {#Error-manejar-with-asyncawait}
 El manejo de errores es una tarea crítica cuando se trata del desarrollo de software a nivel empresarial. Hay múltiples formas de detectar errores en el enfoque Async/espera.
 
 {{< figure align=center src="images/async-await.png" alt="intente atrapar async espera javascript">}}

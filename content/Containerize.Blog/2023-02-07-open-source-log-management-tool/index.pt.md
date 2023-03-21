@@ -19,16 +19,16 @@ Esta postagem no blog é para você, seja você um desenvolvedor ou um [1][1] pr
 Os seguintes pontos serão abordados neste artigo:
 * [**O que é um sistema de gerenciamento de log?**][3]
 * [**Desafios atribuídos ao gerenciamento de log de eventos**][4]
-***[Como uma ferramenta de gerenciamento de log de código aberto pode ajudar?][5]**
+* **[Como uma ferramenta de gerenciamento de log de código aberto pode ajudar?][5]**
 
-## O que é um sistema de gerenciamento de log? {#O que é-um-log-management-System}
+## O que é um sistema de gerenciamento de log?   {#O que é-um-log-management-System}
 Em palavras simples, um sistema de gerenciamento de log (LMS)**é um software que coleta dados de log e executa várias operações nesses dados. Além disso, a ferramenta**de monitoramento de log**classifica dados coletados, executa algoritmos de análise e toma decisões sobre a retenção de dados registrados. Além disso, um**LMS (sistema de gerenciamento de log)**gera um relatório abrangente depois de revisar os arquivos de log do servidor que indicam as vulnerabilidades, ameaças e brechas de segurança. Portanto, em poucas palavras, as ferramentas de log e monitoramento automatizam o gerenciamento de logs de eventos**que eventualmente oferece uma vantagem competitiva ao software de negócios.
 
 {{< figure align=center src="images/logs.png" alt="Sistema de gerenciamento de log de código aberto">}}
 
 Além disso, a ferramenta de relatório de um LMS desempenha uma função fundamental na identificação dos problemas e na possibilidade de fazer arquivos de log, gerando os índices. A melhor parte é que tudo o que acontece através de uma interface de configuração fornecida pelo Sistema de Gerenciamento de Log (LMS). No entanto, os administradores podem então ativar os fluxos de trabalho automatizados para manter a saúde do servidor em funcionamento.
 
-## Desafios anexados ao gerenciamento de log de eventos {#desafios-tatched-with-Event-Log-management}
+## Desafios anexados ao gerenciamento de log de eventos   {#desafios-tatched-with-Event-Log-management}
 De fato, tornou -se muito fácil lidar com alguns dos problemas comuns e convencionais relacionados ao armazenamento, velocidade e rede. Embora existam certas áreas em que os administradores do sistema enfrentam desafios para abordar os seguintes problemas:
 **Volume massivo de log:**Este é um dos desafios que qualquer organização pode enfrentar. Torna -se uma missão impossível de coletar e classificar grandes quantidades de dados de log, onde existem centenas e milhares de servidores envolvidos. Portanto, um sistema de gerenciamento de log (LMS)**oferece disposições para lidar com grandes volumes de log de maneira eficiente.
 **Variações de formato de dados:**O gerenciamento de vários formatos de dados provenientes de várias fontes não é um trabalho fácil e pode ser um desafio para qualquer ferramenta de registro e monitoramento. Como os administradores do sistema não têm certeza sobre o formato de dados proveniente de vários pontos de extremidade do sistema.
@@ -36,7 +36,7 @@ De fato, tornou -se muito fácil lidar com alguns dos problemas comuns e convenc
 **Acessibilidade**: É outro fator que pode levar a aborrecimentos. Além disso, a indexação de logs e a adição de recursos pesquisáveis ​​tornam acessíveis os arquivos de log. Adicionar registros de data e hora e categorizar os dados do log pode permitir que os administradores do sistema consultem dados de log armazenados.
 **Operacional****Custo**: A**Sistema de Gerenciamento de Log (LMS)**é um componente obrigatório de qualquer infraestrutura de TI que trabalha em qualquer organização. Sempre que ocorrer uma quebra de aplicativo, deve ser fácil solucionar e capturar a causa raiz. Além disso, os ambientes baseados em nuvem vêm com mecanismos de registro mais complexos, portanto, optar por uma ferramenta**de registro e monitoramento**certamente tornará o processo eficiente.
 
-## Como uma ferramenta de gerenciamento de log de fonte aberta pode ajudar? {#How-an-Open-Source-Log-Management-Tool-Can-Help}
+## Como uma ferramenta de gerenciamento de log de fonte aberta pode ajudar?   {#How-an-Open-Source-Log-Management-Tool-Can-Help}
 Aí vem a comunidade de código aberto que tem contribuído imensamente para o mundo da tecnologia. Assim como as outras categorias de software, existem muitas ferramentas de monitoramento de log de código aberto**que oferecem recursos de nível corporativo para armazenar e gerenciar arquivos de log. Além disso, um LMS de código aberto pode tornar seus arquivos de log mais acessíveis e reduzir os custos anexados às práticas manuais.
 De fato, sempre que houver falha de software ou quebra do sistema, é tudo sobre como você registra detalhes operacionais.**Software de gerenciamento de log de eventos de código aberto**oferece uma interface intuitiva e personalizável. Portanto, existem muitos outros aspectos que abordaremos na próxima postagem do blog.
 

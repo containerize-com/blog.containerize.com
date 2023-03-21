@@ -20,7 +20,7 @@ Dans le monde d'aujourd'hui, l'animation est extrêmement populaire. Il y a des 
   * [K-3D][4]
   * [Krita][5]
 
-## OpenToOnz ​​{#opentoonz}
+## OpenToOnz ​​ {#opentoonz}
 [OpenToonz][6] est l'un des meilleurs logiciels d'animation gratuits pour les débutants. Cela aide les animateurs à venir pour créer de belles animations et croquis 2D. Il fournit également de nombreux autres plugins pour appliquer différents effets tels que le SDK qui permettent aux animateurs de modifier complètement les animations, de modifier la couleur, la distorsion et plus encore. Il est open source et gratuit à télécharger utilisé pour les petits projets et les films commerciaux. OpenToonz est également compatible avec différents systèmes d'exploitation, y compris Windows et Mac OS, les exigences du système sont mentionnées ci-dessous. Voici quelques fonctionnalités hors concours d'OpenOnoz:
   * Créer des animations avec plusieurs effets
   * Vous permet de modifier la lumière incidente sur vos animations
@@ -28,7 +28,7 @@ Dans le monde d'aujourd'hui, l'animation est extrêmement populaire. Il y a des 
   * Il vous permet de créer une nouvelle fonction pour répondre aux demandes sur place de tout projet commercial
 [Lire la suite][7]
 
-## crayon2d {# crayon2d}
+## crayon2d   {# crayon2d}
 Avec une conception minimale et une interface facile à comprendre, [crayon2d][8] est l'un des meilleurs logiciels d'animation pour les débutants. Il s'agit d'un logiciel d'animation 2D facile à utiliser, open source et gratuit. La communauté crayon2d met toujours à jour le logiciel en publiant de nouvelles mises à jour et en corrigeant toute erreur ou bogue. En tant qu'application gratuite à télécharger, il est publié sous la licence GNU General Public et dispose de nombreux tutoriels disponibles en ligne ainsi que des ressources et des documentations. Comme OpenToonz, Crayer2D est également compatible avec plusieurs systèmes d'exploitation, notamment Windows, Mac OS, Linux et FreeBSD. Voici quelques fonctionnalités hors concours de crayon2d:
   * Multiplateforme
   * Open source et gratuit
@@ -37,7 +37,7 @@ Avec une conception minimale et une interface facile à comprendre, [crayon2d][8
   * Fournit un rendu sans couture et l'édition pour les vidéos
 [Lire la suite][9]
 
-## Synfig {#Synfig}
+## Synfig   {#Synfig}
 [Synfig][10] est un logiciel d'animation open source qui utilise un système d'animation «inutile» pour accélérer le processus d'animation. Il fournit une application frontale et back-end combinée pour concevoir et rendre des animations, que ce soit sur le même ordinateur ou non. En tant que logiciel d'animation supérieur, Synfig Studio s'appuie sur moins de ressources et de plugins pour créer des animations de haute qualité en offrant des effets populaires tels que la simulation d'ombrage doux à l'aide de gradients incurvés. Cela fait non seulement gagner du temps, mais réduit l'effort qu'un animateur doit faire en ajoutant l'ombrage dans chaque cadre. De même, en tant qu'application open source, Synfig fournit deux versions binaires pour les animateurs qui souhaitent plus de contrôle, de stabilité ou des dernières fonctionnalités. Ce logiciel d'animation 2D gratuit est compatible avec Windows, Linux et Mac OS, et nécessite au moins 2 Go de RAM ou plus, ainsi qu'un CPU double noyau à 2 GHz ou plus. Voici quelques fonctionnalités remarquables de Synfig:
   * Fournit des animateurs le contrôle total de la conception et du rendu des illustrations
   * Appliquer des effets en temps réel dans les couches ou les groupes de couches
@@ -46,7 +46,7 @@ Avec une conception minimale et une interface facile à comprendre, [crayon2d][8
   * Alternative efficace du temps à la tween manuelle
 [Lire la suite][11]
 
-## K-3D {# K3D}
+## K-3D   {# K3D}
 [K-3D][12] est un logiciel d'animation intuitif que les nouveaux utilisateurs et les professionnels trouveront faciles à naviguer et à utiliser. C'est un logiciel d'animation 3D entièrement gratuit et l'un des meilleurs logiciels d'animation 3D qui est publié sous la licence publique GNU, et est entièrement écrit en C ++ en gardant à l'esprit qu'il peut être utilisé sur plusieurs plateformes. En tant qu'application d'animation et de modélisation 3D, K-3D est assez puissant tout en offrant des fonctionnalités d'animation polyvalentes et de base. Non seulement vous pouvez utiliser ce logiciel de modélisation 3D gratuit sur un système d'exploitation Windows, mais K-3D est compatible avec Mac OS, FreeBSD, Linux / GNU et d'autres plates-formes. K-3D n'est pas seulement polyvalent mais extrêmement flexible car il permet aux utilisateurs de créer des workflows complexes combinant différents modèles d'animation, en reflétant différents côtés ou en appliquant des modifications à l'ensemble du flux de travail et en regardant toutes les modifications appliquées automatiquement. Voici quelques fonctionnalités exceptionnelles de K-3D:
   * A de nombreux tutoriels et macros interactifs disponibles
   * Permet l'animation de lecture à tout moment pendant la modélisation
@@ -55,7 +55,7 @@ Avec une conception minimale et une interface facile à comprendre, [crayon2d][8
   * Créer des compositions 2D au lieu de l'animation 3D
 [Lire la suite][13]
 
-## Krita {#krita}
+## Krita   {#krita}
 Avoir les bons outils pour améliorer et améliorer votre flux de travail d'animation numérique peut faire une énorme différence dans la qualité et la quantité de visuels que vous pouvez créer. En tant qu'application de peinture numérique open source, [Krita][14] possède une interface moderne et facile à utiliser qui fournit les outils, les effets nécessaires, le schéma de gestion des couleurs, etc. pour contrôler différents facteurs lors de la conception d'un croquis. Krita est un programme de peinture open source et gratuit qui permet aux artistes de créer des animations 2D, qu'elles commencent simplement leur carrière ou que ce soit des animateurs professionnels. Voici quelques fonctionnalités hors concours de Krita:
   * Open source et gratuit
   * Krita fournit des assistants de dessin

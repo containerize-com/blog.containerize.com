@@ -23,7 +23,7 @@ categories: ['Database Management Software']
   * [CUBRID][7]
   * [Heidisql][8]
 
-## phpmyadmin {#phpmyadmin}
+## phpmyadmin   {#phpmyadmin}
 PhpMyAdmin作为XAMPP和WAMPP Web服务器的内置组件。目前，PHPMYADMIN是使用最广泛的数据库管理软件。开发人员可以通过接口管理信息，表，列，关系，参考，用户和权限等。此外，它用于执行大多数管理任务，包括创建数据库，运行查询和添加用户帐户。该数据库管理系统与其他语言（例如JavaScript和SCSS）一起编写了PHP。因此，所有文档均可用于开发和部署。这些是phpmyadmin的一些出色特征：
   *易于使用的Web界面。
   *多个MySQL功能支持。

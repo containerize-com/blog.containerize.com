@@ -22,31 +22,31 @@ categories: ['Database Management Software']
 
 ## Kafka nedir?
 Apache Kafka, açık kaynaklı bir dağıtılmış olay akışı platformudur. Yüksek performanslı veri boru hatları ve akış analizleri için kullanılır. Kafka, [yayınlama-abonelik mesajlaşma sistemi yayınlamak][3] gibi davranır. Bununla, yeni verileri yüksek hızlarda oluşturulduğu gibi işleyebilirsiniz ve ayrıca bazı veritabanlarına da kaydedebilirsiniz.
-Kafka, ** sunucuları ** ve ** istemcilerden oluşan dağıtılmış bir sistemdir. Çıplak metal donanım, sanal makineler ve şirket içi ve bulut ortamlarında kaplar üzerine dağıtılabilir.
+Kafka, **sunucuları  **ve**   istemcilerden oluşan dağıtılmış bir sistemdir. Çıplak metal donanım, sanal makineler ve şirket içi ve bulut ortamlarında kaplar üzerine dağıtılabilir.
 
 ## Redis nedir?
 Redis, açık kaynaklı, gelişmiş bir anahtar değeri mağazasıdır. Birkaç veri türünü destekler: dizeler, karmalar, listeler, kümeler ve sıralı kümeler. Bu nedenle genellikle bir veri yapısı sunucusu olarak adlandırılır.
 Redis ayrıca NoSQL veritabanı olarak kabul edilir. He Redis ve nasıl çalıştığı hakkında ayrıntılı bir tartışma için “[REDIS bellek içi veritabanı için yeni başlayanlar rehberi][1] makalemize başvurabilirsiniz.
 
 ## Temel farklılıklar nelerdir?
-** REDIS ** Pub-Sub çoğunlukla ürettiğiniz tüm mesajların bir kerede tüm tüketicilere teslim edileceği ve verilerin hiçbir yerde saklanmadığı bir yangın ve onay sistemi gibidir. REDIS ile ilgili olarak bellekte sınırlamalarınız var. Ayrıca, üretici ve tüketicilerin sayısı REDIS'in performansını etkileyebilir.
-Öte yandan, ** Kafka **, kuyruk olarak kullanılabilen yüksek verimli, dağıtılmış bir günlüktir. Ayrıca kuyruktan gönderilen mesajlar için de kalıcılık sağlar.
-** redis ** ** push tabanlı ** mesajların teslimatını destekler. Bu, Redis'e itilen her mesajın otomatik olarak tüm abonelere teslim edileceği anlamına gelir.
-** Kafka ** Ancak, ** Pull-tabanlı ** Mesajların Teslimatını Destekler. Kafka'da yayınlanan mesajlar, abonelere otomatik olarak dağıtılamaz. Bunun yerine, tüketiciler bu mesajları tüketmeye hazır olduklarında mesajları ister.
-** Redis ** mesaj depolamaz, mesajlar bir kerede tüm tüketicilere teslim edilir ve daha sonra kaldırılır. Ancak, ** Kafka ** Bir günlük olarak, her zaman mesajlarınız var. 7 gün ** tutma ** diyelim bir tutma politikası ayarlayarak bunu izleyebilirsiniz.
+**REDIS**  Pub-Sub çoğunlukla ürettiğiniz tüm mesajların bir kerede tüm tüketicilere teslim edileceği ve verilerin hiçbir yerde saklanmadığı bir yangın ve onay sistemi gibidir. REDIS ile ilgili olarak bellekte sınırlamalarınız var. Ayrıca, üretici ve tüketicilerin sayısı REDIS'in performansını etkileyebilir.
+Öte yandan, **Kafka** , kuyruk olarak kullanılabilen yüksek verimli, dağıtılmış bir günlüktir. Ayrıca kuyruktan gönderilen mesajlar için de kalıcılık sağlar.
+**redis  ****  push tabanlı**  mesajların teslimatını destekler. Bu, Redis'e itilen her mesajın otomatik olarak tüm abonelere teslim edileceği anlamına gelir.
+**Kafka  **Ancak, **  Pull-tabanlı**  Mesajların Teslimatını Destekler. Kafka'da yayınlanan mesajlar, abonelere otomatik olarak dağıtılamaz. Bunun yerine, tüketiciler bu mesajları tüketmeye hazır olduklarında mesajları ister.
+**Redis  **mesaj depolamaz, mesajlar bir kerede tüm tüketicilere teslim edilir ve daha sonra kaldırılır. Ancak, **  Kafka  **Bir günlük olarak, her zaman mesajlarınız var. 7 gün **  tutma**  diyelim bir tutma politikası ayarlayarak bunu izleyebilirsiniz.
 
 ## Hangisini ne zaman kullanmalı?
 
 ### Redis
   * Ürettiğiniz tüm mesajların tüketicilere anında teslim edildiği bir yangın ve destek türünü istiyorsanız.
-  *** hız ** en çok ilgileniyorsa.
-  *** depolama ** önemli değilse ve sisteminizin gönderilen mesajı tutmasını istemezsiniz
+  ***hız**  en çok ilgileniyorsa.
+  ***depolama**  önemli değilse ve sisteminizin gönderilen mesajı tutmasını istemezsiniz
   * Ele alınacak veri miktarı çok büyük değil.
 
 ### Kafka
-  *İsterseniz ** Güvenilirlik **.
+  *İsterseniz **Güvenilirlik** .
   * Sisteminizin tüketimden sonra bile gönderilen mesajların bir kopyasını almasını istiyorsanız.
-  *** hız ** büyük bir endişe değilse.
+  ***hız**  büyük bir endişe değilse.
   * Ve veri boyutunuz çok büyük.
 
 ## Çözüm

@@ -20,10 +20,10 @@ Estamos cubriendo el siguiente punto:
   * [¿Qué es un tipo de datos?][2]
   * [¿Qué son los tipos de datos de JavaScript?][3]
 
-## Tipos de datos explicados | ¿Qué es un tipo de datos? {#What-is-a-data-type}
+## Tipos de datos explicados | ¿Qué es un tipo de datos?   {#What-is-a-data-type}
 Un tipo de datos se trata de decirle al compilador cómo interpretar o compilar los datos. El uso de los tipos de datos es crítico y debe usarse sabiamente. En palabras simples, se trata del formato de los datos, como el número, la cadena, el booleano y más. Sin embargo, existen dos categorías de tipos de datos tipos de datos primitivos y tipos de datos no ejercicios. Hay ocho tipos de datos primitivos por los que pasaremos en la siguiente sección.
 
-## ¿Qué son los tipos de datos de JavaScript? {#What-ar-javaScript-data-types}
+## ¿Qué son los tipos de datos de JavaScript?   {#What-ar-javaScript-data-types}
 De hecho, JavaScript es un lenguaje tipado libremente, lo que significa que no tiene que definir el tipo de variable explícitamente. Puede asignar cualquier valor a una variable y esa variable almacenará ese valor como cadena, bigint, boolean o más.
 
 {{< figure align=center src="images/web-development.png" alt="Guía para principiantes de JavaScript">}}

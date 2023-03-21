@@ -19,28 +19,28 @@ Aşağıdaki bölümleri içerir:
   * [.NET5'te 2FA uygulamak][5]
 Öncelikle, 2FA'nın ne olduğunu ve neden her modern web uygulamasının ayrılmaz bir parçası olması gerektiğini anlayalım.
 
-## İki faktörlü kimlik doğrulaması nedir? {#2fa}
+## İki faktörlü kimlik doğrulaması nedir?   {#2fa}
 Bu bağlamdaki bir faktör, bir uygulamayı veya hizmeti hesabın sahibi olduğunuza ikna edebilmenin bir yolunu ima eder. Kullanıcı adı/şifre en yaygın kimlik doğrulama faktörü olarak yaygın olarak kullanılır. Bununla birlikte, BT ile ilişkili birçok güvenlik sorunu ve son yaygın veri ihlalleri nedeniyle-tek faktörlü kimlik doğrulaması daha az güvenli hale gelmiştir.
 İki faktörlü kimlik doğrulama, hesabınıza erişmeden önce devreye giren ek bir güvenlik katmanıdır. Standart Oturum Açma işlemine ek olarak-bir kod göndererek (e-postanıza veya kısa mesaj olarak) kullanıcı kimliğini doğrulamak için ekstra bir adım sunar. Bu şekilde kimliğiniz kanıtlanır ve ancak o zaman erişim verilir.
 
-## 2FA nasıl çalışır? {#2Fawork}
+## 2FA nasıl çalışır?   {#2Fawork}
 2FA'da şifre hala ilk kimlik doğrulama faktörünüzdür - bu nedenle hesabınıza giriş yaptığınızda sizi hesap sahipliğini doğrulamanız gereken başka bir sayfaya yönlendirir. Bu çeşitli yollar kullanılarak yapılabilir:
   1. Uygulama, e-posta adresinize genellikle OTP (bir kerelik şifreler) adı verilen bir doğrulama kodu gönderir.
   2. Kod, telefonunuzda kısa mesaj olarak teslim edilir.
   3. Mobile'a giriş isteklerine izin verebileceğiniz bir kimlik doğrulayıcı uygulaması yüklersiniz.
 Not: Bu doğrulama kodları rastgele oluşturulur ve kullanıldıktan sonra süresi dolur. Ayrıca, kısa ömürlüdürler - bu nedenle kodu kullanmadan önce kısa bir pencere vardır (bu, bilgisayar korsanının doğrulama kodlarını zorlamasını önler).
 
-## 2FA'yı çok faktörlü kimlik doğrulaması olarak arayabilir miyiz? {#Mfa}
+## 2FA'yı çok faktörlü kimlik doğrulaması olarak arayabilir miyiz?   {#Mfa}
 Kimlik doğrulama yöntemleri iki faktörle sınırlı değildir. Birçok uygulama ve hizmet kullanıcılarını 2FA'nın ötesine taşıyor ve çok faktörlü kimlik doğrulama kullanıyor.
 2FA ve MFA (çok faktörlü kimlik doğrulama) genellikle birbirinin yerine kullanılır. Ancak bir fark var. Çok faktörlü kimlik doğrulamada iki veya daha fazla faktör kullanılır.
 Kullanıcının kimliğini doğrulamak için bir kullanıcının IP adresini, coğrafi konum ve cihaz bilgilerini şifre ve OTP gibi diğer faktörlere kontrol edebilir.
 Bu nedenle, 2FA'nın MFA'nın bir alt kümesi olduğunu söyleyebiliriz. 2FA'da sadece iki faktör olacaktır, oysa çok faktör iki veya daha fazla faktör kullanabilir. MFA, geleneksel kimlik doğrulama sürecine birden fazla güvenlik katmanı eklediği için bilgisayar korsanları için zorlaştırır.
 
-## 2FA kullanarak herhangi bir dezavantaj var mı? {#mfa-cons}
+## 2FA kullanarak herhangi bir dezavantaj var mı?   {#mfa-cons}
 Modern uygulamalarda bulunan birçok 'güvenlik ve gizlilik' çözümüne benzer. Ayrıca, kullanıcı deneyiminde sürtünmeye neden olabilecek ek bir adım olduğu için bir fiyat - rahatsızlık ile birlikte gelir.
 Ancak, birçok uygulama ve hizmet tarafından kabul edilmektedir, böylece bu değiş tokuş kabul edilebilir hale gelir.
 
-## 2FA kimlik doğrulamasını nasıl uygulayabilirim? {#uygulama2fa}
+## 2FA kimlik doğrulamasını nasıl uygulayabilirim?   {#uygulama2fa}
 Bu bölümde, kimlikserver4 ve Twilio'yu kullanarak .NET5'te 2FA'nın nasıl uygulanacağını öğreneceğiz.
 Öyleyse Twilio'da bir deneme hesabı oluşturalım:
   1. kaydolun
@@ -93,11 +93,11 @@ Startup.cs'i açın ve ConfigServices Yönteminde Aşağıdaki IdentityServer4 h
 ```
 app.UseIdentityServer();
 ```
-Projeyi çalıştırın ve ** _/hesap/giriş _ **
+Projeyi çalıştırın ve **_/hesap/giriş _** 
 
 {{< figure align=center src="images/2021-03-10-17_48_09-Window-1024x586.png" alt="IdentityServer4 - Giriş">}}
 
-** config.cs ** 'da eklendiği gibi kimlik bilgileriyle giriş yapın
+**config.cs**  'da eklendiği gibi kimlik bilgileriyle giriş yapın
 IdentityServer yapılandırıldıktan ve çalıştırıldıktan sonra. Daha sonra Twilio kullanarak 2FA için destek ekleyebiliriz.
 Aşağıdaki sınıfı ekleyelim:
 ```

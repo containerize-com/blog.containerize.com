@@ -29,7 +29,7 @@ categories: ['Newsletters']
   * [房客的设置数据库][2]
   * [租户配置nginx][3]
 
-## 处理请求流{#request}
+## 处理请求流 {#request}
   *备份您的config.php文件，您可以在配置目录下找到它。
   *创建一个新的config.php文件，并在其处理站点/租户中添加以下代码。
 ```
@@ -45,18 +45,18 @@ switch ($_SERVER['SERVER_NAME'])
 ```
 用您的域名替换example.com。您还需要为每个租户创建一个配置文件。复制config.php的备份文件，并使用诸如config.example.com.php之类的新名称保存。
 
-## 房客的设置数据库{#database}
+## 房客的设置数据库 {#database}
   *备份现有的phplist数据库。使用它为新租户创建数据库。
   *打开config.example.com.php文件。根据您的环境更改数据库凭据和任何其他设置。
 
-## 为房客配置nginx {#nginx}
-  *转到nginx目录** cd/etc/nginx/sites-abailable **。
+## 为房客配置nginx   {#nginx}
+  *转到nginx目录**cd/etc/nginx/sites-abailable** 。
   *复制默认config.php文件，然后将其保存在您的站点名称（例如example.com）中。
-  *用** sudo nano example.com **打开example.com配置。
+  *用**sudo nano example.com** 打开example.com配置。
   *更改根路径，server_name和任何其他设置。
-  *使用** sudo nginx -t **测试配置
-  *最后，通过执行** sudo ln -s/etc/nginx/sites-available/example.com/etc/etc/nginx/stites-enabled/**来创建符号链接。
-  *通过运行** sudo systemctl restart nginx **重新启动nginx Web服务器，因此它可以加载新创建的配置文件。
+  *使用**sudo nginx -t** 测试配置
+  *最后，通过执行 **sudo ln -s/etc/nginx/sites-available/example.com/etc/etc/nginx/stites-enabled/** 来创建符号链接。
+  *通过运行**sudo systemctl restart nginx** 重新启动nginx Web服务器，因此它可以加载新创建的配置文件。
 
 ## 结论
 与单租户应用相比，多租户软件具有一些优势，例如降低维护成本，有效的资源使用和易于安装更新。如果您要构建SaaS（软件作为服务）软件，则可以遵循多租赁体系结构并享受其真正的力量。

@@ -13,23 +13,23 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/ci-cd-post.png" alt="Integrasi berkelanjutan dan penyebaran berkelanjutan">}}
 
-Tim pengembangan menggunakan metode yang berbeda untuk penyebaran perangkat lunak seperti FTP, menarik kode dari repositori, dan banyak lagi. Semua metode ini dilakukan secara manual dan membutuhkan banyak upaya. Kita dapat melihat bahwa lebih banyak tim mengikuti metodologi Agile untuk pengembangan perangkat lunak. Jadi, mereka merilis fitur baru dan perbaikan bug. Oleh karena itu, mengotomatiskan alur kerja pengiriman perangkat lunak membantu tim untuk meluncurkan versi baru dengan cepat dan tanpa kesalahan. Kami akan belajar cara menggunakan ** CI/CD dengan Jenkins ** dan Github untuk mengotomatisasi proses pengiriman perangkat lunak. Kami akan membahas bagian -bagian berikut dalam artikel ini.
-  *[** Apa itu Jenkins? **][1]
-  *[** Integrasi Berkelanjutan **][2]
-  *[** Penempatan kontinu **][3]
-  *[** Konfigurasikan Jenkins **][4]
-  *[** Buat pekerjaan Jenkins **][5]
+Tim pengembangan menggunakan metode yang berbeda untuk penyebaran perangkat lunak seperti FTP, menarik kode dari repositori, dan banyak lagi. Semua metode ini dilakukan secara manual dan membutuhkan banyak upaya. Kita dapat melihat bahwa lebih banyak tim mengikuti metodologi Agile untuk pengembangan perangkat lunak. Jadi, mereka merilis fitur baru dan perbaikan bug. Oleh karena itu, mengotomatiskan alur kerja pengiriman perangkat lunak membantu tim untuk meluncurkan versi baru dengan cepat dan tanpa kesalahan. Kami akan belajar cara menggunakan  **CI/CD dengan Jenkins **  dan Github untuk mengotomatisasi proses pengiriman perangkat lunak. Kami akan membahas bagian -bagian berikut dalam artikel ini.
+  *[ **Apa itu Jenkins? ** ][1]
+  *[ **Integrasi Berkelanjutan ** ][2]
+  *[ **Penempatan kontinu ** ][3]
+  *[ **Konfigurasikan Jenkins ** ][4]
+  *[ **Buat pekerjaan Jenkins ** ][5]
 
-## Apa itu Jenkins? {#Jenkins}
-** Jenkins ** adalah alat penyebaran gratis ** yang kuat ** untuk mengotomatisasi proses pengiriman perangkat lunak. Ini adalah server otomatisasi open source untuk membangun, menguji, dan penyebaran. Jenkins menggunakan arsitektur master-slave. Ini memungkinkan tim perangkat lunak untuk menjalankan beberapa build dan tes untuk perangkat lunak secara bersamaan. Selain itu, ada banyak plugin yang tersedia dan tim dapat menggunakannya sesuai kebutuhan. Anda dapat mengunjungi halaman [** Jenkins **][6] untuk informasi dan instalasi lebih lanjut. Selanjutnya, Anda dapat menemukan kode sumber di Jenkins [** github **][7] Repositori.
+## Apa itu Jenkins?   {#Jenkins}
+ **Jenkins **  adalah alat penyebaran gratis  **yang kuat **  untuk mengotomatisasi proses pengiriman perangkat lunak. Ini adalah server otomatisasi open source untuk membangun, menguji, dan penyebaran. Jenkins menggunakan arsitektur master-slave. Ini memungkinkan tim perangkat lunak untuk menjalankan beberapa build dan tes untuk perangkat lunak secara bersamaan. Selain itu, ada banyak plugin yang tersedia dan tim dapat menggunakannya sesuai kebutuhan. Anda dapat mengunjungi halaman [ **Jenkins ** ][6] untuk informasi dan instalasi lebih lanjut. Selanjutnya, Anda dapat menemukan kode sumber di Jenkins [ **github ** ][7] Repositori.
 
-## Integrasi Berkelanjutan {#CI}
-** Integrasi Berkelanjutan ** adalah praktik pengembangan yang mengharuskan pengembang untuk sering mengintegrasikan kode ke dalam repositori bersama. Setiap integrasi/dorongan kode ke dalam repositori dapat diverifikasi dengan build dan pengujian otomatis. Ini juga memungkinkan pengembang untuk dengan mudah mengidentifikasi masalah dalam kode.
+## Integrasi Berkelanjutan   {#CI}
+ **Integrasi Berkelanjutan **  adalah praktik pengembangan yang mengharuskan pengembang untuk sering mengintegrasikan kode ke dalam repositori bersama. Setiap integrasi/dorongan kode ke dalam repositori dapat diverifikasi dengan build dan pengujian otomatis. Ini juga memungkinkan pengembang untuk dengan mudah mengidentifikasi masalah dalam kode.
 
-## Deployment Continuous {#CD}
-** Penempatan kontinu ** adalah langkah berikutnya setelah integrasi berkelanjutan. Ini akan memungkinkan tim untuk terus menggunakan kode di server. Selain itu, ini membantu pengembang untuk mengurangi tugas yang berulang dan meningkatkan kelincahan.
+## Deployment Continuous   {#CD}
+ **Penempatan kontinu **  adalah langkah berikutnya setelah integrasi berkelanjutan. Ini akan memungkinkan tim untuk terus menggunakan kode di server. Selain itu, ini membantu pengembang untuk mengurangi tugas yang berulang dan meningkatkan kelincahan.
 
-## Konfigurasikan Jenkins {#Configure}
+## Konfigurasikan Jenkins   {#Configure}
 Ikuti pedoman langkah demi langkah di bawah ini untuk konfigurasi di Jenkins.
   * Buka situs dan login Jenkins Anda.
   * Instal plugin "Publik Over SSH". Anda dapat mencarinya dengan menavigasi ke “Kelola Jenkins → Kelola Plugin → Tersedia”.
@@ -57,7 +57,7 @@ $ nano authorized_keys
   * Klik tombol Konfigurasi Tes untuk memastikan bahwa Jenkins dapat terhubung ke server penyebaran.
   * Terakhir, klik tombol simpan untuk menyimpan informasi.
 
-## Buat pekerjaan Jenkins {#Create}
+## Buat pekerjaan Jenkins   {#Create}
 Anda dapat menggunakan langkah -langkah ini untuk membuat pekerjaan Jenkins.
   * Buka dasbor Jenkins dan klik tombol "Item Baru".
   * Masukkan nama proyek dan pilih "pekerjaan gaya bebas".
@@ -68,21 +68,21 @@ Anda dapat menggunakan langkah -langkah ini untuk membuat pekerjaan Jenkins.
   * Sambungkan ke Server Penyebaran dan pastikan kode itu ada di sana.
 
 ## Kesimpulan
-Kami telah membahas ** server Jenkins **, ** Integrasi Berkelanjutan **, dan ** Penyebaran Berkelanjutan ** Dalam artikel ini. Kami juga telah belajar cara mengkonfigurasi alat penempatan ** gratis ** dan membuat pekerjaan Jenkins untuk penempatan menggunakan GitHub. Alat CI/CD gratis memungkinkan tim pengembangan untuk mengotomatisasi alur kerja pengiriman perangkat lunak dan tetap fokus pada pekerjaan penting. Kami akan meliput alat penempatan lain di posting mendatang.
-Akhirnya, [** containerize.com **][8] akan menerbitkan artikel tentang alat penyebaran open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan [** alat penempatan **][9] Kategori untuk pembaruan rutin.
+Kami telah membahas  **server Jenkins ** ,  **Integrasi Berkelanjutan ** , dan  **Penyebaran Berkelanjutan **  Dalam artikel ini. Kami juga telah belajar cara mengkonfigurasi alat penempatan  **gratis **  dan membuat pekerjaan Jenkins untuk penempatan menggunakan GitHub. Alat CI/CD gratis memungkinkan tim pengembangan untuk mengotomatisasi alur kerja pengiriman perangkat lunak dan tetap fokus pada pekerjaan penting. Kami akan meliput alat penempatan lain di posting mendatang.
+Akhirnya, [ **containerize.com ** ][8] akan menerbitkan artikel tentang alat penyebaran open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan [ **alat penempatan ** ][9] Kategori untuk pembaruan rutin.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *** [Jenkins][6] **
-  *[** drone **][10]
-  *[** Deployer **][11]
-  *[** capistrano **][12]
-  *[** Rancher **][13]
-  *[** Concourse **][14]
-  *[** ansible **][15]
-  *[** gocd **][16]
-  *[** Top 5 Alat Penyebaran Sumber Terbuka di 2021 **][17]
-  *[** Otomatis Penerapan Aplikasi PHP dengan Deployer **][18]
+  * **[Jenkins][6] ** 
+  *[ **drone ** ][10]
+  *[ **Deployer ** ][11]
+  *[ **capistrano ** ][12]
+  *[ **Rancher ** ][13]
+  *[ **Concourse ** ][14]
+  *[ **ansible ** ][15]
+  *[ **gocd ** ][16]
+  *[ **Top 5 Alat Penyebaran Sumber Terbuka di 2021 ** ][17]
+  *[ **Otomatis Penerapan Aplikasi PHP dengan Deployer ** ][18]
 
   
 [1]: #Jenkins

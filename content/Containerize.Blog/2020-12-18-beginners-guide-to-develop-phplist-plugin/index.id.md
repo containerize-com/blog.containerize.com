@@ -13,32 +13,32 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/phplist-plugin.png" alt="plugin Phplist">}}
 
-Dukungan plugin adalah bagian penting dari perangkat lunak, terutama untuk sistem sumber terbuka. Ini memungkinkan pengembang untuk membangun plugin baru untuk memperluas fitur. ** Phplist ** mendorong pengembangan plugin sehingga pengembang dapat menggunakannya untuk menambahkan fitur baru sesuai dengan kebutuhan bisnis mereka. Plugin PhPlist adalah koleksi kode mandiri yang berisi kode untuk PHP, HTML, CSS, dan JavaScript.
+Dukungan plugin adalah bagian penting dari perangkat lunak, terutama untuk sistem sumber terbuka. Ini memungkinkan pengembang untuk membangun plugin baru untuk memperluas fitur. **Phplist**  mendorong pengembangan plugin sehingga pengembang dapat menggunakannya untuk menambahkan fitur baru sesuai dengan kebutuhan bisnis mereka. Plugin PhPlist adalah koleksi kode mandiri yang berisi kode untuk PHP, HTML, CSS, dan JavaScript.
 Aplikasi mendukung plugin karena banyak alasan dan beberapa di antaranya adalah:
   * Jangan memodifikasi fungsionalitas inti.
   * Mengizinkan pengembang untuk membuat fitur baru.
   * Kurangi ukuran perangkat lunak.
 Kami akan membahas topik di bawah ini secara rinci dalam tutorial ini.
-  *[** Prasyarat **][2]
-  *[** Dasar -dasar pengembangan plugin Phplist **][3]
-  *[** Buat plugin PhPlist kami **][4]
-  *[** Kesimpulan **][5]
+  *[**Prasyarat** ][2]
+  *[**Dasar -dasar pengembangan plugin Phplist** ][3]
+  *[**Buat plugin PhPlist kami** ][4]
+  *[**Kesimpulan** ][5]
 
-## Prasyarat {#req}
+## Prasyarat   {#req}
   * Versi terbaru dari PhPlist.
   * Akrab dengan PhPlist dan PHP.
   * Pemahaman tentang HTML / CSS dan JavaScript.
 
-## Dasar -dasar pengembangan plugin PhPlist {#basics}
+## Dasar -dasar pengembangan plugin PhPlist   {#basics}
 Metode berikut akan meningkatkan fungsionalitas plugin Phplist.
-  *** Halaman ** - Buat halaman untuk kegiatan seperti pelaporan, statistik, untuk menampilkan informasi, dan banyak lagi.
-  *** Kait ** - Ini memungkinkan Anda untuk memohon fungsionalitas di tempat -tempat tertentu.
+  ***Halaman**  - Buat halaman untuk kegiatan seperti pelaporan, statistik, untuk menampilkan informasi, dan banyak lagi.
+  ***Kait**  - Ini memungkinkan Anda untuk memohon fungsionalitas di tempat -tempat tertentu.
 Ada tiga jenis plugin khusus untuk Phplist. Satu plugin dari masing -masing jenis dapat diaktifkan saja.
-  *** Plugin Editor ** - Mengizinkan editor implementasi untuk mengedit kampanye atau templat.
-  *** Plugin Otentikasi ** - Ini memungkinkan penambahan mekanisme baru untuk otentikasi administrator.
-  *** Plugin Pengirim Email **-Mengizinkan menerapkan metode baru untuk mengirim email alih-alih fungsionalitas bawaan.
+  ***Plugin Editor**  - Mengizinkan editor implementasi untuk mengedit kampanye atau templat.
+  ***Plugin Otentikasi**  - Ini memungkinkan penambahan mekanisme baru untuk otentikasi administrator.
+  ***Plugin Pengirim Email** -Mengizinkan menerapkan metode baru untuk mengirim email alih-alih fungsionalitas bawaan.
 
-## Buat plugin PhPlist kami {#Create}
+## Buat plugin PhPlist kami   {#Create}
 Pertama -tama, Anda perlu memperluas kelas inti PhPlistplugin. Untuk membuat plugin, Anda perlu membuat direktori bernama "HelloWorld" di bawah plugin \ _rootdir dan membuat file bernama HelloWorld.php di root direktori plugin. Anda dapat memeriksa file config.php untuk menemukan nilai variabel plugin \ _rootdir. Salin kode di bawah ini ke file HelloWorld.php.
 ```
 <?php
@@ -76,20 +76,20 @@ $tk = $_REQUEST['tk'];
 Tempatkan file kelas HelloWorld.php dan direktori plugin Anda di plugin rootdir untuk menginstal plugin. Untuk mengaktifkan plugin, klik pada tab Config di bilah menu dan kemudian klik pada Plugin Kelola. Halaman plugin akan menunjukkan kepada Anda daftar plugin yang tersedia dan Anda dapat mengaktifkan/menonaktifkan formulir plugin Anda di sana.
 Anda dapat mengakses plugin Anda dengan url berikut seperti http://example.com/admin/?page=main&pi=Helloworld. Ganti example.com dengan nama domain Anda.
 
-## kesimpulan {#con}
-Kami telah mempelajari dasar -dasar ** plugin Phplist ** pengembangan dan membuat plugin sampel. Sebagai titik awal, Anda dapat mengikuti pedoman ini dan mengeksplorasi lebih lanjut pengembangan plugin untuk meningkatkan fungsionalitas.
-Akhirnya, [** containerize.com **][6] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** buletin **][7] ini untuk pembaruan terbaru.
+## kesimpulan   {#con}
+Kami telah mempelajari dasar -dasar **plugin Phplist**  pengembangan dan membuat plugin sampel. Sebagai titik awal, Anda dapat mengikuti pedoman ini dan mengeksplorasi lebih lanjut pengembangan plugin untuk meningkatkan fungsionalitas.
+Akhirnya, [**containerize.com **][6] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [ **buletin**  ][7] ini untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan.
-  *[** PhPlist **][8]
-  *[** Mailtrain **][9]
-  *[** ListMonk **][10]
-  *[** moonmail **][11]
-  *[** Mailman **][12]
-  *[** Perangkat lunak buletin Open Source Top di 2021 **][13]
-  *[** Cara Mengkonfigurasi Aplikasi Multi-Tenant di PhPlist **][14]
-  *[** Cara membuat dan mengirim buletin menggunakan PhPlist **][15]
+  *[**PhPlist** ][8]
+  *[**Mailtrain** ][9]
+  *[**ListMonk** ][10]
+  *[**moonmail** ][11]
+  *[**Mailman** ][12]
+  *[**Perangkat lunak buletin Open Source Top di 2021** ][13]
+  *[**Cara Mengkonfigurasi Aplikasi Multi-Tenant di PhPlist** ][14]
+  *[**Cara membuat dan mengirim buletin menggunakan PhPlist** ][15]
 
   
 [1]: https://products.containerize.com/newsletter/phplist

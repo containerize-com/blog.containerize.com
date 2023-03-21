@@ -55,7 +55,7 @@ sudo apt-get install -y apache2 libapache2-mod-php
 Le système de gestion de la base de données relationnel de la base de données relationnelle MySQL est un composant de la pile de logiciels d'application Web LAMP et autres. Installez maintenant MySQL sur Ubuntu en fonctionnant ci-dessous:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Une fois l'installation terminée, ouvrez ** Php.ini ** Fichier de configuration à modifier. Utilisez votre éditeur de fichiers préféré.
+Une fois l'installation terminée, ouvrez **Php.ini**  Fichier de configuration à modifier. Utilisez votre éditeur de fichiers préféré.
 Apporter des modifications au fichier php.ini comme ci-dessous. Ouvrez deux fichiers et apportez les modifications comme indiqué
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -118,27 +118,27 @@ Ouvrez votre navigateur et tapez URL http: // votre serveur -ip / pydio. Vous se
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Installateur de Pydio">}}
 
-Confirmez toutes les commandes et cliquez sur le bouton ** Continuez vers PYDIO Installation **. Vous devriez voir la page suivante:
+Confirmez toutes les commandes et cliquez sur le bouton **Continuez vers PYDIO Installation** . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Assistant de configuration de Pydio">}}
 
-Sélectionnez votre langue et cliquez sur ** Démarrer l'assistant **. Vous devriez voir la page suivante:
+Sélectionnez votre langue et cliquez sur **Démarrer l'assistant** . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Démarrer les paramètres de Pydio">}}
 
-Entrez le nom du programme et le message d'accueil. Puis cliquez sur le bouton ** Suivant **. Vous devriez voir la page suivante:
+Entrez le nom du programme et le message d'accueil. Puis cliquez sur le bouton **Suivant** . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Entrez l'application Pydio">}}
 
-Ensuite, entrez votre compte administrateur et cliquez sur le bouton ** Suivant **. Vous devriez voir la page suivante:
+Ensuite, entrez votre compte administrateur et cliquez sur le bouton **Suivant** . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Paramètres de la base de données MySQL">}}
 
-Entrez ensuite les détails de votre base de données, tels que le nom de la base de données, le nom d'utilisateur et le mot de passe. Cliquez ensuite sur le bouton ** Tester DB Connexion **. Vous devriez voir la page suivante:
+Entrez ensuite les détails de votre base de données, tels que le nom de la base de données, le nom d'utilisateur et le mot de passe. Cliquez ensuite sur le bouton **Tester DB Connexion** . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Options avancées de Pydio">}}
 
-Ensuite, cliquez sur le bouton ** Installer Pydio **. Une fois l'installation terminée avec succès. Vous serez redirigé vers la page suivante:
+Ensuite, cliquez sur le bouton **Installer Pydio** . Une fois l'installation terminée avec succès. Vous serez redirigé vers la page suivante:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Pydio Connexion">}}
 
@@ -146,7 +146,7 @@ Entrez ensuite votre nom d'utilisateur et votre mot de passe pour l'administrate
 
 Ouais! C'est fait. Vous savez maintenant comment installer complètement la synchronisation des fichiers auto-hébergés Pydio et le logiciel de partage de fichiers open source sur Ubuntu pour créer un cloud privé étape par étape similaire à Dropbox ou Google Drive.
 
-## ** Conclusion: ** {# 4A1A}
+## **Conclusion:**    {# 4A1A}
 Dans ce tutoriel, vous avez réussi à installer le partage de fichiers sécurisé Open Source des cellules Pydio sur votre système Ubuntu. Vous pouvez utiliser cet article pour créer une infrastructure cloud pour stocker, sécuriser et partager vos fichiers dans le cloud auto-hébergé. Utilisez le partage de documents Collaborative Pydio et la meilleure application de partage de fichiers gratuite pour obtenir plus de contrôle de vos données et assurer une collaboration efficace dans votre organisation d'entreprise. Dans nos prochains tutoriels, nous discuterons des sujets plus intéressants des solutions de stockage cloud open source et des outils de collaboration de partage de fichiers.
 _Pour peut se joindre à nous sur [Twitter][1], [LinkedIn][2] et notre page [Facebook][3]. Quelle plate-forme de partage ouverte de cloud-basé sur le cloud_ utilisez-vous en ligne ?. Si vous avez des questions, veuillez vous contacter][4].
 

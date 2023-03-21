@@ -20,7 +20,7 @@ Abordaremos os seguintes pontos deste artigo:
 * [**O que é AI generativo e como funciona? Ai generativa explicou**][3]
 * [**benefícios comerciais da inteligência artificial generativa**][4]
 
-## O que é IA generativa e como funciona? Ai generativa explicou {#What-Is-Generative-Ai-como-como-Works-Generative-Ai-Explineed}
+## O que é IA generativa e como funciona? Ai generativa explicou   {#What-Is-Generative-Ai-como-como-Works-Generative-Ai-Explineed}
 Esse ramo da inteligência artificial gera conteúdo como imagens, texto, áudio ou vídeo com base nos dados existentes. O termo "generativo" é usado corretamente aqui porque gera algo novo com base nos bancos de dados fornecidos.
 **Inteligência artificial generativa**baseia -se principalmente nos dois modelos a seguir:
 **Modelos baseados em transformadores:**Este modelo pega a entrada do usuário e gera dados textuais coletados de fontes da Internet. O ChatGPT é um exemplo importante porque**GPT-3**(transformador pré-treinado generativo) gera respostas textuais coletadas e compiladas de várias fontes pela Internet.
@@ -31,7 +31,7 @@ Esse ramo da inteligência artificial gera conteúdo como imagens, texto, áudio
 Primeiro,**modelo generativo**gera saídas aleatórias, independentemente de falsas ou reais. Como seu trabalho é gerar amostras de dados, é um processo pesado e requer mais processamento. Em segundo lugar,**modelo discriminativo**recebe a saída gerada pelo modelo**generativo**como entrada e aprende a diferenciar dados reais e falsos. É basicamente treinar a modelagem discriminativa para reconhecer os avisos de dados reais. No entanto, o gerador inicia a diferenciação corretamente após sessões de treinamento consistentes.
 Esta é uma breve visão geral do mecanismo de trabalho da inteligência artificial generativa. Devido ao aprendizado profundo e ao envolvimento de múltiplas redes neurais, a IA generativa não apenas faz previsões, mas também gera novo conteúdo com base no banco de dados fornecido. Portanto, todos esses componentes e algoritmos capacitam os sistemas a gerar soluções baseadas em IA.
 
-## Benefícios comerciais da inteligência artificial generativa {#Business-Benefits-of-Generative-Articial-Intelligência}
+## Benefícios comerciais da inteligência artificial generativa   {#Business-Benefits-of-Generative-Articial-Intelligência}
 Esta seção da postagem do blog demonstrará os aplicativos de negócios da inteligência artificial generativa. Quase todos os setoras da vida estão alavancando a IA generativa. Vamos explorar ainda mais, passando pelos seguintes pontos:
 **Geração de conteúdo textual:**Na verdade,**Ai**generativo é usado para gerar dados textuais, como escrever artigos e traduzir um idioma em outro. O melhor exemplo deste aplicativo é o modelo**GPT-3**que gera respostas baseadas em texto coletadas de vários recursos. Além disso, a IA generativa está sendo fortemente usada na construção de chatbots de IA, como o ChatGPT. Ele não apenas responde como seres humanos, mas também ajuda os programadores em seus arquivos de codificação. Além disso, a inteligência artificial generativa pode criar algoritmos e criar plugins.
 **Geração de imagens:**Os sistemas são poderosos o suficiente para criar imagens de várias entidades, mesmo com a entrada dada no formulário textual. Além disso, pode dar uma aparência real a um rosto humano com base no esboço fornecido. Além disso, um modelo de IA generativo pode transformar um tipo de imagem em outro. Acima de tudo, pode ser usado na geração em tempo real de ressonância magnética e outras imagens.

@@ -21,7 +21,7 @@ Kami akan membahas poin -poin berikut dalam artikel ini:
 * [**Bagaimana cara mengintegrasikan chatgpt dengan Google Sheets?**][6]
 * [**Bagaimana cara menggunakan chatgpt di Google Sheets?**][7]
 
-## Cara mengintegrasikan chatgpt dengan Google Sheets {#How-to-Integrate-chatgpt-with-google-sheets}
+## Cara mengintegrasikan chatgpt dengan Google Sheets   {#How-to-Integrate-chatgpt-with-google-sheets}
 **Integrasi ChatGPT**dengan perangkat lunak apa pun pasti akan memberikan keunggulan kompetitif untuk bisnis. Model bertenaga AI yang dapat memulai sesi percakapan dua arah dan Anda menanamkannya dengan perangkat lunak Anda seberapa kuat integrasi itu? Tentu saja menakjubkan. Jadi, Anda meminta chatbot untuk solusi teknis untuk suatu masalah dan Anda mendapatkan tanggapan tepat waktu, itu sangat berarti dalam hal menghemat waktu & usaha.
 Mari kita mulai ini**Integrasi Google Sheets dengan Chatgpt.**
 Pertama, buka Google [Sheets][3] dan klik**“Extensions-> Add-On-> Get Add-Ons”**. Setelah Anda melakukan ini, Anda akan melihat kotak dialog di Google Workspace Marketplace. Sekarang, ketik "chatgpt" di bilah pencarian yang ditempatkan di sudut kanan atas dan pilih opsi pertama seperti yang ditunjukkan pada gambar di bawah ini.
@@ -35,7 +35,7 @@ Selanjutnya, klik**“Extensions-> GPT untuk lembar dan dokumen-> Setel Kunci AP
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="integrasi chatgpt">}}
 
 
-## Bagaimana cara menggunakan chatgpt di google sheets? {#How-to-Gunakan-Chatgpt-in-google-Sheets}
+## Bagaimana cara menggunakan chatgpt di google sheets?   {#How-to-Gunakan-Chatgpt-in-google-Sheets}
 Setelah kunci API OpenAI diatur, Anda siap untuk memanfaatkan integrasi chatgpt dan Google Sheets yang kuat ini.**Ada tumpukan besar metode yang ditawarkan oleh chatgpt yang dapat Anda hubungi dengan mengetik = gpt ().
 Misalnya, Anda dapat meminta chatbot bertenaga AI ini untuk menulis deskripsi produk dari mobil dengan memanggil fungsi dengan cara berikut:
 ```

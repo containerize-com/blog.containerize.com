@@ -24,7 +24,7 @@ Server web adalah jenis perangkat lunak yang diinstal pada sistem operasi. Denga
   * [Caddy][8]
   * [Tomcat][9]
 
-## xampp {#xampp-stand}
+## xampp   {#xampp-stand}
 XAMPP adalah singkatan dari cross-platform (x), Apache (A), MariADB (M), PHP (P), dan Perl (P). Ini adalah perangkat lunak server web yang gratis dan open-source. Ini membantu pengembang untuk menguji aplikasi web atau situs web mereka di lingkungan pengembangan mereka. XAMPP memiliki semua komponen yang diperlukan termasuk Apache, Perl serta database MySQL, dan PHP. Ini menyediakan lingkungan pengembangan yang andal untuk aplikasi web berbasis Perl dan PHP. Selain itu, ini menyediakan mariadb dan mysql untuk manajemen basis data. Berikut beberapa fitur utamanya:
   * Open Source
   * Beberapa contoh
@@ -33,7 +33,7 @@ XAMPP adalah singkatan dari cross-platform (x), Apache (A), MariADB (M), PHP (P)
   * Server web dengan database
 [Baca lebih lanjut][10]
 
-## nginx {#nginx}
+## nginx   {#nginx}
 Nginx Web Server mendukung semua komponen web modern termasuk WebSocket, HTTP/2, dan streaming beberapa format video. Ini dimulai sebagai server web tetapi sekarang, telah dikembangkan untuk juga berfungsi sebagai perangkat lunak proxy terbalik untuk email (IMAP, POP3, dan SMTP). Ini juga berfungsi sebagai proxy terbalik dan penyeimbang beban untuk server HTTP, TCP, dan UDP. Selain itu, perangkat lunak proxy terbalik ini secara konsisten mengalahkan Apache dan server lain jika diukur pada kinerja server web. Beberapa fitur penting dari nginx meliputi:
   * Arsitektur modular
   * Memuat keseimbangan dan toleransi kesalahan
@@ -42,7 +42,7 @@ Nginx Web Server mendukung semua komponen web modern termasuk WebSocket, HTTP/2,
   * Mendukung SSL dan TLS SNI
 [Baca lebih lanjut][11]
 
-## LIGHTTPD {#LightTpd}
+## LIGHTTPD   {#LightTpd}
 LightTPD adalah perangkat lunak server web ringan sumber terbuka, yang dirancang khusus untuk mesin Linux. Itu tidak membutuhkan banyak memori dan penggunaan CPU. Yang menjadikannya salah satu yang terbaik untuk proyek apa pun yang membutuhkan kecepatan dan kinerja tinggi. LightTPD adalah solusi sempurna untuk setiap server yang menderita kecepatan atau masalah kinerja. Selain itu, server web ringan menyediakan set fitur canggih termasuk FastCGI, SCGI, AUTH, kompresi output dan url-rewriting, dll. Selain PHP, ini juga mendukung bahasa pemrograman lainnya termasuk Python, Perl, Ruby, dan banyak lagi. Berikut adalah beberapa fitur populer LightTpd:
   * Ukuran kecil, hanya 1MB
   * Dukungan untuk antarmuka FastCGI, SCGI, CGI
@@ -51,7 +51,7 @@ LightTPD adalah perangkat lunak server web ringan sumber terbuka, yang dirancang
   * Penggunaan CPU dan RAM yang sangat dioptimalkan
 [Baca lebih lanjut][12]
 
-## caddy {#caddy}
+## caddy   {#caddy}
 Caddy Server sangat mudah dikonfigurasi dan digunakan. Ini menangani pembaruan sertifikat TLS, stapling OCSP, file statis yang melayani serta proxying terbalik dan Kubernetes Ingress. Selain itu, server file statis ini adalah server web lintas platform, open source, dan dapat berjalan di semua sistem operasi utama termasuk macOS, Linux, dan Windows. Caddy adalah server web file statis yang fleksibel dan efisien serta proxy terbalik yang kuat dan terukur. Gunakan server Caddy untuk kompresi, evaluasi templat, dan rendering penurunan harga situs web Anda. Berikut adalah beberapa fitur utama dari server web Caddy:
   * Konfigurasi Mudah dengan CaddyFile
   * Akses, Kesalahan, dan Proses Log
@@ -60,7 +60,7 @@ Caddy Server sangat mudah dikonfigurasi dan digunakan. Ini menangani pembaruan s
   * RESTART/RELOAD yang anggun
 [Baca lebih lanjut][13]
 
-## Tomcat {#tomcat}
+## Tomcat   {#tomcat}
 Apache Tomcat adalah implementasi open-source dari Java Servlet, JavaServer Pages, Java Expression Language, dan Java Websocket Technologies. Selain itu, ini adalah salah satu aplikasi dan server web yang paling banyak digunakan. Tomcat Server mudah digunakan dan memiliki ekosistem add-on yang kuat. Perangkat lunak Apache Tomcat dapat digunakan sebagai produk mandiri dengan server web internal sendiri serta dengan server web lainnya seperti Apache, Netscape Enterprise Server, Microsoft Personal Web Server, dan Microsoft Internet Information Server. Berikut adalah beberapa fitur utama Apache Tomcat:
   * Ringan
   * Open-source

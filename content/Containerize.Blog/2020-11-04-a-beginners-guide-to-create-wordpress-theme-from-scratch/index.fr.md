@@ -15,21 +15,21 @@ Comment créer le thème WordPress fait partie des principales requêtes de Goog
   * [Exigences][1]
   * [Guide étape par étape][2]
 
-### exigences {#Requirements}
+### exigences   {#Requirements}
 La première et la plus importante que vous devez faire est d'installer WordPress. WordPress est bien connu pour sa facilité d'installation. C'est un processus simple et peut être fait facilement par vous-même en suivant le [guide][3].
 
-### Comment créer un thème WordPress; Guide étape par étape {#guide}
-Pour le thème WordPress, tout sera fait dans le répertoire ** wp_content ** uniquement. Faites simplement un nouveau sous-dossier de thème dans le dossier ** wp_content → thèmes. ** Supposons que vous l'appelez ** "CustomTheme" **.
-La deuxième chose est de décider de la mise en page du thème. Ici, le tutoriel montre la disposition de base composée de ** en-tête, zone principale, pied de page, barre latérale **.
-Fondamentalement, WordPress n'a besoin que de 2 fichiers, c'est-à-dire Style.css et index.php. Mais, pour cette mise en page, vous avez besoin de ** 5 fichiers **, comme suit;
-  * ** header.php - ** contient le code de la section d'en-tête du thème.
-  * ** index.php - ** contient le code de la zone principale et spécifiera où les autres fichiers seront inclus. Ceci est le fichier principal du thème.
-  * ** Sidebar.php - ** contient les informations sur la barre latérale.
-  * ** footter.php - ** gère la section de pied de page.
-  * ** style.css - ** Responsable du style de votre thème.
-  * ** bootstrap.css - ** Aucun code CSS séparé n'est requis; Très réactif.
-  * ** bootstrap.js - ** fournit son propre js pour la barre de navigation ou les onglets, etc.
-** bootstrap.js ** et ** bootstrap.css ** doit être téléchargé à partir du package bootstrap et copié dans le dossier ** thème **.
+### Comment créer un thème WordPress; Guide étape par étape   {#guide}
+Pour le thème WordPress, tout sera fait dans le répertoire **wp_content  **uniquement. Faites simplement un nouveau sous-dossier de thème dans le dossier **  wp_content → thèmes.  **Supposons que vous l'appelez **  "CustomTheme"** .
+La deuxième chose est de décider de la mise en page du thème. Ici, le tutoriel montre la disposition de base composée de **en-tête, zone principale, pied de page, barre latérale** .
+Fondamentalement, WordPress n'a besoin que de 2 fichiers, c'est-à-dire Style.css et index.php. Mais, pour cette mise en page, vous avez besoin de **5 fichiers** , comme suit;
+  * **header.php -**  contient le code de la section d'en-tête du thème.
+  * **index.php -**  contient le code de la zone principale et spécifiera où les autres fichiers seront inclus. Ceci est le fichier principal du thème.
+  * **Sidebar.php -**  contient les informations sur la barre latérale.
+  * **footter.php -**  gère la section de pied de page.
+  * **style.css -**  Responsable du style de votre thème.
+  * **bootstrap.css -**  Aucun code CSS séparé n'est requis; Très réactif.
+  * **bootstrap.js -**  fournit son propre js pour la barre de navigation ou les onglets, etc.
+**bootstrap.js  **et **  bootstrap.css  **doit être téléchargé à partir du package bootstrap et copié dans le dossier **  thème** .
 Voici les étapes à suivre pour configurer le thème
 
 ### Étape 1: fichier en tête.php

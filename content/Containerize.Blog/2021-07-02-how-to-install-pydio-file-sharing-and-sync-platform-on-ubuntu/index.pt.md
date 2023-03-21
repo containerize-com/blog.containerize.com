@@ -55,7 +55,7 @@ sudo apt-get install -y apache2 libapache2-mod-php
 O sistema de gerenciamento de banco de dados relacional de código aberto do MySQL é um componente da pilha de software de aplicativos da Web da LAMP e de outros. Agora instalando o MySQL no Ubuntu, executando abaixo:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Depois que a instalação estiver concluída, abra ** php.ini ** arquivo de configuração para editar. Use seu editor de arquivos preferido.
+Depois que a instalação estiver concluída, abra **php.ini**  arquivo de configuração para editar. Use seu editor de arquivos preferido.
 Faça alterações no arquivo php.ini como abaixo. Abra dois arquivos e faça as alterações como mostrado
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -118,27 +118,27 @@ Abra o seu navegador e digite URL http: // your-server -ip / pydo. Você será r
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Instalador Pydo">}}
 
-Confirme todos os controles e clique no botão ** Continue para a instalação do Pydo **. Você deve ver a seguinte página:
+Confirme todos os controles e clique no botão **Continue para a instalação do Pydo** . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Assistente de configuração de Pydo">}}
 
-Selecione seu idioma e clique em ** Iniciar assistente **. Você deve ver a seguinte página:
+Selecione seu idioma e clique em **Iniciar assistente** . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Inicie as configurações do Pydo">}}
 
-Digite o nome do programa e a mensagem de boas -vindas. Em seguida, clique no botão ** Avançar **. Você deve ver a seguinte página:
+Digite o nome do programa e a mensagem de boas -vindas. Em seguida, clique no botão **Avançar** . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Digite o aplicativo Pydo">}}
 
-Em seguida, digite sua conta de administrador e clique no botão ** Avançar **. Você deve ver a seguinte página:
+Em seguida, digite sua conta de administrador e clique no botão **Avançar** . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Configurações do banco de dados MySQL">}}
 
-Em seguida, digite os detalhes do seu banco de dados, como nome do banco de dados, nome de usuário e senha. Em seguida, clique no botão ** de teste de db de teste **. Você deve ver a seguinte página:
+Em seguida, digite os detalhes do seu banco de dados, como nome do banco de dados, nome de usuário e senha. Em seguida, clique no botão **de teste de db de teste** . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Opções avançadas do Pydo">}}
 
-Em seguida, clique no botão ** Instale o PyDio **. Depois que a instalação for concluída com sucesso. Você será redirecionado para a página seguinte:
+Em seguida, clique no botão **Instale o PyDio** . Depois que a instalação for concluída com sucesso. Você será redirecionado para a página seguinte:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Login de Pydo">}}
 
@@ -146,7 +146,7 @@ Em seguida, digite seu nome de usuário e senha para o administrador. Em seguida
 
 Sim! Está feito. Agora você sabe como instalar completamente a sincronização de arquivos Pydo Host Hosted e o software de compartilhamento de arquivos de código aberto no Ubuntu para criar uma nuvem privada passo a passo semelhante ao Dropbox ou Google Drive.
 
-## ** Conclusão: ** {#4A1A}
+## **Conclusão:**    {#4A1A}
 Neste tutorial, você instalou com sucesso o compartilhamento de arquivos seguros de código aberto do Pydo Cells no seu sistema Ubuntu. Você pode usar este artigo para criar uma infraestrutura em nuvem para armazenar, proteger e compartilhar seus arquivos na nuvem auto-hospedada. Use o compartilhamento de documentos colaborativos do Pydo e o melhor aplicativo gratuito de compartilhamento de arquivos para obter mais controle de seus dados e garantir uma colaboração eficiente em sua organização de negócios. Em nossos próximos tutoriais, discutiremos tópicos mais interessantes de soluções de armazenamento em nuvem de código aberto e ferramentas de colaboração de compartilhamento de arquivos.
 Você pode se juntar a nós no [Twitter][1], [LinkedIn][2] e nossa página [Facebook][3]. Qual plataforma de compartilhamento de código Open _File _File você usa on-line?. Se você tiver alguma dúvida, por favor [entre em contato][4].
 

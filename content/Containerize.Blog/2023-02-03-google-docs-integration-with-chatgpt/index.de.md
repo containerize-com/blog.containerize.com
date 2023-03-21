@@ -18,10 +18,10 @@ categories: ['Artificial intelligence']
 Kürzlich gestartet [CHATGPT][1] ist zu einem Schlagwort in der Technologiewelt geworden. Einige Leute sind dafür und betrachten diesen**ai Chatbot**eine Bedrohung für Produktivität und Transparenz. Nun, [containerize.com][2] schreibt über die Verwendung und Integration dieses OpenAI-GPT-3-Modells. Tatsächlich ist [Google DOCS][3] ein großartiges Instrument zum Schreiben und zur Datenrepräsentation. Eine andere Hand, das Aufkommen von ChatGPT, ist ein Gespräch [AI][4] Tool, das auf natürliche Sprachanfragen auf konversatorische Weise reagiert. Dieses KI -Tool basiert auf maschinellem Lernen und wurde von [OpenAI][5] entwickelt. In diesem Blog -Beitrag geht es jedoch um**Chatgpt und Google**, in dem wir lernen, wie man die Integration von Google Docs in Chatgpt**erreicht. Zweifellos können wir**Google Docs Automation**mitbringen, indem wir das Chatgpt-Add-On in unsere Google-Dokumente installieren.
 Wir werden die folgenden Punkte in diesem Blog -Beitrag durchlaufen:
 * [**Wie kann man den OpenAI -API -Schlüssel erhalten?**][6]
-***[Lassen Sie uns die Integration von Google Docs in ChatGPT][7]**machen
+* **[Lassen Sie uns die Integration von Google Docs in ChatGPT][7]**machen
 * [**Beginnen Sie mit ChatGPT und Google****DOCS**][8]
 
-## Wie bekomme ich den OpenAI -API -Schlüssel? {#How-to-obtain-the-Openai-api-Key}
+## Wie bekomme ich den OpenAI -API -Schlüssel?   {#How-to-obtain-the-Openai-api-Key}
 Um Ihnen eine kleine Einführung zu geben, ist OpenAI ein Unternehmen, das sich auf die Forschung und Entwicklung künstlicher Intelligenz -Tools konzentriert. Chatgpt wird auch von OpenAI entwickelt und ins Leben gerufen. OpenAI hat eine Reihe von GPT -Modellen entwickelt.
 Zuerst müssen Sie ein Konto auf OpenAIs [Plattform][9] erstellen und sich dann anmelden. Sobald Sie angemeldet sind, landen Sie auf der Seite der API -Schlüssel, auf der Sie eine API -Taste generieren können, indem Sie auf die Schaltfläche „Neues Geheimnis erstellen Schlüssel “wie unten gezeigt.
 
@@ -29,7 +29,7 @@ Zuerst müssen Sie ein Konto auf OpenAIs [Plattform][9] erstellen und sich dann 
 
 Kopieren Sie den neu generierten OpenAI -API -Schlüssel und speichern Sie sie, damit Sie ihn für die Integration von Google Docs verwenden können.
 
-## Lassen Sie uns die Integration von Google Docs in Chatgpt {#lets-do-Google-docs-integration-with-chatgpt} durchführen
+## Lassen Sie uns die Integration von Google Docs in Chatgpt   {#lets-do-Google-docs-integration-with-chatgpt} durchführen
 Der Installationsverfahren dieses Konversations -KI -Tools ist recht einfach. Klicken Sie auf "Erweiterungen-ADD-Ons-> add-Ons" und Sie sehen die Seite "Google Workspace Marketplace". Schreiben Sie nun Chatgpt in die Suchleiste, wählen Sie die Option „Chatgpt in Blättern und Dokumenten“. Klicken Sie auf die erste Option und installieren Sie sie wie im folgenden Bild angezeigt:
 
 {{< figure align=center src="images/chatgpt-and-google-1.gif" alt="Chatgpt und Google">}}
@@ -40,7 +40,7 @@ Es wird Ihre Erlaubnis einholen, auf Ihr Google -Konto zuzugreifen. Führen Sie 
 
 Schließlich wurde der OpenAI GPT-3 in Ihren Google-Dokumenten installiert und Sie können mit der Nutzung von Google Docs Automation beginnen.
 
-## Verwenden Sie ChatGPT und Google Docs {#starten-use-Chatgpt-and-Google}}
+## Verwenden Sie ChatGPT und Google Docs   {#starten-use-Chatgpt-and-Google}}
 Es ist Zeit, diese Google DOCS -Automatisierung zu verwenden. Auf diesem Zweck wird eine neue Registerkarte geöffnet, indem Sie auf „Extensions-> App-Skript“ klicken. Kopieren Sie nun den folgenden Code in den Code -Editor.
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 Ersetzen Sie im obigen Kern die "xxxxxxxxxxxxxxxxx" durch Ihre OpenAI -API -Taste. Speichern Sie als Nächstes die Datei und klicken Sie in der oberen Mitte des Code -Editors auf "Ausführen" und schließen Sie das Fenster.

@@ -16,26 +16,26 @@ categories: ['Version Control Software']
 
 ## Ringkasan
 Dalam beberapa artikel terakhir, kami belajar tentang [dasar -dasar kontrol versi][1] dan kemudian kami meningkatkan pengetahuan kami dengan belajar tentang berbagai [model percabangan][2] dan alur kerja. Sistem kontrol versi telah membawa efisiensi di dunia pengembangan, penyebaran, dan integrasi. Pengembang merasa sangat mudah untuk melakukan kode sumber tanpa khawatir tentang build dan tes. Industri perangkat lunak telah mendapatkan kepercayaan diri dan keunggulan kompetitif karena pendekatan ini telah mem -boot penyebaran.
-** Gitlab Penyebaran Berkelanjutan ** dan Integrasi membantu dalam menemukan masalah dengan mudah. Selain itu, pengembang dapat melacak bug dan penanganan Miss lainnya dalam rentang waktu yang lebih singkat. Seluruh proses otomatisasi ini memberikan kebebasan dari tugas yang sering terjadi dan mengurangi tenaga kerja dan peluang kesalahan. Hari ini di posting blog ini, kami akan mengeksplorasi tentang pipa penempatan berkelanjutan dengan Gitlab CI/CD. Jadi, mari kita mulai dengan menutupi poin -poin berikut!
-  *** [Apa itu CI & CD][3] **
-  *** [apa itu gitlab runner][4] **
-  *** [. Gitlab-ci.yml file][5] **
-  *** [Buat aplikasi sampel dasar][6] **
-  *** [Kesimpulan][7] **
+**Gitlab Penyebaran Berkelanjutan**  dan Integrasi membantu dalam menemukan masalah dengan mudah. Selain itu, pengembang dapat melacak bug dan penanganan Miss lainnya dalam rentang waktu yang lebih singkat. Seluruh proses otomatisasi ini memberikan kebebasan dari tugas yang sering terjadi dan mengurangi tenaga kerja dan peluang kesalahan. Hari ini di posting blog ini, kami akan mengeksplorasi tentang pipa penempatan berkelanjutan dengan Gitlab CI/CD. Jadi, mari kita mulai dengan menutupi poin -poin berikut!
+  ***[Apa itu CI & CD][3]** 
+  ***[apa itu gitlab runner][4]** 
+  ***[. Gitlab-ci.yml file][5]** 
+  ***[Buat aplikasi sampel dasar][6]** 
+  ***[Kesimpulan][7]** 
 
-## Apa itu CI & CD {#CICD}
+## Apa itu CI & CD   {#CICD}
 Continuous Integration (CI) adalah salah satu praktik terbaik DevOps untuk mengotomatisasi integrasi perubahan kode dari beberapa kontributor ke dalam satu proyek perangkat lunak tunggal. Ini memungkinkan pengembang untuk sering menggabungkan perubahan kode menjadi repositori pusat di mana bangunan dan tes kemudian dijalankan. Penyebaran kontinu (CD) bergerak satu langkah lebih jauh dengan secara otomatis menggunakan kode ke lingkungan target (produksi atau pementasan) setelah setiap kode berkomitmen dan dibangun.
 Sebelum Anda mulai, pastikan Anda memiliki proyek di Gitlab yang ingin Anda gunakan CI/CD. Dan Anda harus memiliki akses tingkat pemelihara atau pemilik ke proyek.
 
-## Apa itu gitlab runner {#runner}
-Setelah pemahaman ** Gitlab Penyebaran Berkelanjutan **, Gitlab Runner adalah program ringan kecil yang ditulis dalam Go yang menjalankan pekerjaan terkait integrasi kontinu (CI) pada mesin lokal Anda dan mengirimkan hasilnya ke GitLab untuk mempertimbangkan perubahan. Ini adalah biner tunggal yang dapat dieksekusi yang dapat diinstal pada OS utama apa pun.
+## Apa itu gitlab runner   {#runner}
+Setelah pemahaman **Gitlab Penyebaran Berkelanjutan** , Gitlab Runner adalah program ringan kecil yang ditulis dalam Go yang menjalankan pekerjaan terkait integrasi kontinu (CI) pada mesin lokal Anda dan mengirimkan hasilnya ke GitLab untuk mempertimbangkan perubahan. Ini adalah biner tunggal yang dapat dieksekusi yang dapat diinstal pada OS utama apa pun.
 Sebelum kami bergerak maju dengan Gitlab CI / CD, Anda perlu memastikan Anda memiliki pelari yang tersedia untuk menjalankan tugas Anda. Anda dapat mengikuti panduan resmi untuk [menginstal][8] dan [register][9] Gitlab Runner.
 
-## .gitlab-ci.yml file {#yml}
+## .gitlab-ci.yml file   {#yml}
 **. Gitlab-ci.yml ** adalah file tempat Anda mengkonfigurasi instruksi khusus untuk Gitlab CI/CD. Itu ditempatkan di akar repositori Anda dan berisi definisi tentang bagaimana proyek Anda harus dibangun. Setiap kali kami mendorong komitmen pada instance GitLab kami, Gitlab akan memohon pelari untuk membangun dan menguji proyek seperti yang diperintahkan di dalam file ini.
 
-## Buat aplikasi sampel {#sample}
-Di bagian tutorial ** gitlab ** ini, kami akan membuat aplikasi sampel. Dengan asumsi bahwa Anda sudah membuat repositori GitLab, mari kita buat aplikasi sampel dan kami akan mengatur proses CI / CD untuk aplikasi.
+## Buat aplikasi sampel   {#sample}
+Di bagian tutorial **gitlab**  ini, kami akan membuat aplikasi sampel. Dengan asumsi bahwa Anda sudah membuat repositori GitLab, mari kita buat aplikasi sampel dan kami akan mengatur proses CI / CD untuk aplikasi.
 Pertama -tama, buat file package.json di root proyek Anda
 ```
 {
@@ -64,7 +64,7 @@ app.get('/', (req, res) => {
 app.listen(8080, 'localhost');
 console.log('Running on http://localhost:8080');
 ```
-Pada langkah terakhir ** gitlab penempatan kontinu, ** Buat ** DockerFile ** dan tambahkan konten berikut ke dalamnya:
+Pada langkah terakhir **gitlab penempatan kontinu,  **Buat **  DockerFile**  dan tambahkan konten berikut ke dalamnya:
 ```
 FROM node:10
 
@@ -94,12 +94,12 @@ stage: build
 script:
 - npm install
 ```
-Kami hanya memiliki satu tahap build dan baru saja ** instalasi npm ** sebagai skrip. Ini adalah perintah yang harus Anda jalankan secara manual setiap kali perubahan datang ke proyek Anda. Dan, di situlah pelari Gitlab masuk dan akan melakukan ini untuk Anda secara otomatis setiap kali Anda membuat komit.
+Kami hanya memiliki satu tahap build dan baru saja **instalasi npm**  sebagai skrip. Ini adalah perintah yang harus Anda jalankan secara manual setiap kali perubahan datang ke proyek Anda. Dan, di situlah pelari Gitlab masuk dan akan melakukan ini untuk Anda secara otomatis setiap kali Anda membuat komit.
 Sekarang dengan asumsi bahwa Anda telah menginstal Runner GitLab dan juga telah mendaftarkannya dengan instance GitLab Anda, kami dapat menguji aksi GitLab CI / CD dengan membuat komitmen sederhana untuk aplikasi dan mendorongnya ke GitLab.
 Anda kemudian dapat membuka proyek Anda di Gitlab, pergi ke proyek saya → Pipeline dan Anda akan melihat tag yang mengatakan "lulus" di sebelah komitmen yang Anda buat. Komitmen berikutnya juga akan memiliki tag.
 
-## kesimpulan {#conclusion}
-Ini membawa kita ke akhir tutorial ** gitlab ini **. Dalam artikel ini, kami belajar tentang dasar -dasar integrasi berkelanjutan Gitlab, ** Apa itu CI & CD **, ** Apa itu pelari gitlab **, dan penyebaran terus menerus. Lebih lanjut, kami mempelajari apa penggunaan pelari dalam keseluruhan alur kerja CI / CD. Kami juga membuat proyek sampel yang menjelaskan cara mengatur penyebaran kontinu menggunakan GitLab. Tutorial GitLab ini akan sangat membantu Anda jika Anda mencari ** penempatan terus menerus gitlab **. Namun, ada banyak sumber daya lain yang disebutkan di bagian "Jelajahi" di bawah ini yang dapat Anda periksa. Selain itu, artikelnya tentang sistem kontrol versi ** ** yang merupakan open source, hosting sendiri, dan dapat diperluas.
+## kesimpulan   {#conclusion}
+Ini membawa kita ke akhir tutorial **gitlab ini **. Dalam artikel ini, kami belajar tentang dasar -dasar integrasi berkelanjutan Gitlab,  **Apa itu CI & CD ** ,  **Apa itu pelari gitlab ** , dan penyebaran terus menerus. Lebih lanjut, kami mempelajari apa penggunaan pelari dalam keseluruhan alur kerja CI / CD. Kami juga membuat proyek sampel yang menjelaskan cara mengatur penyebaran kontinu menggunakan GitLab. Tutorial GitLab ini akan sangat membantu Anda jika Anda mencari  **penempatan terus menerus gitlab ** . Namun, ada banyak sumber daya lain yang disebutkan di bagian "Jelajahi" di bawah ini yang dapat Anda periksa. Selain itu, artikelnya tentang sistem kontrol versi ****  yang merupakan open source, hosting sendiri, dan dapat diperluas.
 Akhirnya, [containerize.com][10] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [][11][versi kontrol versi][12] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][13], [LinkedIn][14], dan [Twitter][15].
 
 ## Mengeksplorasi

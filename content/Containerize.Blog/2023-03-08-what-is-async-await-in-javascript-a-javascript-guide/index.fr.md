@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Aperçu
 Nous avons couvert [JavaScript promises][1] dans notre précédent article de blog et que vous devez visiter si vous souhaitez comprendre clairement le concept derrière les promesses JavaScript. Dans cette série de [tutoriels JavaScript][2], nous sommes ici avec un autre guide JavaScript qui démontrera les fonctionnalités modernes de JavaScript Async / Await. Ce billet de blog est destiné à ceux qui ont une connaissance préalable des promesses JavaScript. De plus, nous essaierons de couvrir**ce qui est async / attendu dans JavaScript**, et lorsque nous devons utiliser Async / Await. De plus, nous couvrirons également les erreurs de manipulation avec async / attendre. Alors, donnez une lecture approfondie à ce**tutoriel Async / Await JavaScript**pour marquer ce concept vérifié.
 Nous passerons par les sections suivantes dans ce tutoriel Async Awaits JavaScript:
-  ***[Qu'est-ce que l'async / attendre en javascript | Async attend syntaxe][3]**
-  ***[Quand utiliser async / attend?][4]**
-  ***[Gestion des erreurs avec Async / Await][5]**
+  * **[Qu'est-ce que l'async / attendre en javascript | Async attend syntaxe][3]**
+  * **[Quand utiliser async / attend?][4]**
+  * **[Gestion des erreurs avec Async / Await][5]**
 
-## Qu'est-ce que l'async / attendre en javascript | Async attend syntaxe {# what-is-asyncawait-in-javascript-async-await-syntax}
+## Qu'est-ce que l'async / attendre en javascript | Async attend syntaxe   {# what-is-asyncawait-in-javascript-async-await-syntax}
 ECMAScript 2017 a publié de nouvelles fonctionnalités de JavaScript et Async / Await est l'une des plus utilisées parmi ces fonctionnalités. Async / Await est construit au-dessus des promesses et est en fait une façon moderne de gérer les promesses JavaScript.
 Voyons comment utiliser les mots clés Async / Await dans le code JavaScript:
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 Eh bien, le mot-clé asynchronisé au début de la fonction implique que cette fonction renvoie une promesse. Ainsi, l'attente du mot clé est toujours utilisée à l'intérieur du corps de la fonction asynchrone pour suspendre l'exécution de la fonction jusqu'à ce que la promesse se résout. La chose importante à noter ici est que vous ne pouvez pas utiliser un mot-clé AWAIT dans le corps d'une fonction régulière. Cependant, vous pouvez utiliser Await uniquement avec des fonctions asynchrones déclarées avec le mot-clé asynchrone.
 
-## Quand utiliser Async / Await? {# Quand user-asyncawait}
+## Quand utiliser Async / Await?   {# Quand user-asyncawait}
 Jusqu'à présent, vous avez la réponse à**ce qui est asynchronisé en javascript**. Comme ce n'est qu'un emballage autour des promesses JavaScript traditionnelles, vous mieux utiliser cette nouvelle façon de créer et de gérer les promesses d'une manière plus propre et plus lisible. De plus, vous pouvez vous débarrasser de multiples promesses. Ensuite, les appels en utilisant Async / Await qui rendent finalement le code source plus gérable et maintenable. Le mot-clé Await résume l'instruction .Then () en une seule ligne.
 
-## Gestion des erreurs avec async / attendre {# Erreur-mangeur avec-asyncawait}
+## Gestion des erreurs avec async / attendre   {# Erreur-mangeur avec-asyncawait}
 La gestion des erreurs est une tâche critique en ce qui concerne le développement de logiciels au niveau de l'entreprise. Il existe plusieurs façons d'attraper des erreurs dans l'approche asynchrone / attendre.
 
 {{< figure align=center src="images/async-await.png" alt="Essayez Catch Async attendre javascript">}}

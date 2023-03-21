@@ -26,7 +26,7 @@ Im Folgenden finden Sie eine Liste der beliebtesten Hacking -Software, die auf d
   * Andere ethische Hacking -Softwareoptionen, die Sie berücksichtigen sollten:
   * Abschluss
 
-## 1. Metasploit {#42db}
+## 1. Metasploit   {#42db}
 [Metasploit][1] Framework ist ein Open-Source-Tool und kann kostenlos heruntergeladen werden. Metasploit Pro ist ein kommerzielles Produkt. Die kostenlose Testversion ist für 14 Tage verfügbar. Wenden Sie sich an das Unternehmen, um mehr über seine Preisdetails zu erfahren.
 Es ist die Software für Penetrationstests. Mit dem Metasploit -Framework können Sie Exploit -Code mit einem Remote -Computer entwickeln und ausführen. Es unterstützt plattformübergreifende. Es ist am besten zum Aufbau von anti-fendensischen und Ausweichmaschinen.
 **Hauptmerkmale:**
@@ -35,7 +35,7 @@ Es ist die Software für Penetrationstests. Mit dem Metasploit -Framework könne
   * Hilft bei der Signaturentwicklung von IDS.
   * Sie können Sicherheitstest -Tools erstellen.
 
-## 2. SQLMAP {#66FD}
+## 2. SQLMAP   {#66FD}
 [SQLMAP][2] ist ein Tool zur Automatisierung des Erkennung und Ausnutzung von SQL -Injektionsfehler und zur Übernahme von Datenbankservern. Es ist ein Open-Source-Tool und verfügt über eine leistungsstarke Erkennungsmotor. Es unterstützt MySQL, Oracle, Postgresql und viele mehr. Es unterstützt sechs SQL-Injektionstechniken, boolesche blinde, zeitbasierte, fehlerbasierte, gewerkschaftliche Abfragen, gestapelte Abfragen und außerhalb des Bandes.
 SQLMAP unterstützt die Ausführung beliebiger Befehle und das Abrufen der Standardausgabe, das Herunterladen und Hochladen einer Datei, die Suche nach bestimmten Datenbanknamen usw. Mit Auf diese Weise können Sie direkt eine Verbindung zur Datenbank herstellen.
 **Hauptmerkmale:**
@@ -43,7 +43,7 @@ SQLMAP unterstützt die Ausführung beliebiger Befehle und das Abrufen der Stand
   * Passwort-Hash-Formate werden automatisch erkannt, und ein wörterbuchbasierter Angriff kann verwendet werden, um sie zu knacken.
   * Unterstützung für das Dumpeln ganzer Datenbanktabellen, eine Reihe von Einträgen oder Auswahlfelder basierend auf den Einstellungen des Benutzers. Der Benutzer kann auch eine Teilmenge von Zeichen aus dem Eintrag der einzelnen Spalte zum Entladen auswählen.
 
-## 3. Hashcat {#66fd}
+## 3. Hashcat   {#66fd}
 [Hashcat][3], obwohl es zuletzt auf unserer Liste ist, ist eines der leistungsstärksten Passwort -Cracking- und Ethical Hacking -Programme. Es ist eines der besten verfügbaren Hacker -Programme und kann den Benutzern dabei helfen, vergessene Kennwörter wiederherzustellen, die Sicherheitsprüfungssicherheit zu prüfen oder einfach festzustellen, welche Daten in einem Hash enthalten sind. Dieses Tool ist kostenlos verfügbar.
 **Hauptmerkmale:**
   * Unterstützt den Betrieb des Kennwortkandidaten -Gehirns.
@@ -52,7 +52,7 @@ SQLMAP unterstützt die Ausführung beliebiger Befehle und das Abrufen der Stand
   * Sitzungen werden unterstützt.
   * Hilft bei der Restaurierung von
 
-## 4. nmap {#b3ed}
+## 4. nmap   {#b3ed}
 [NMAP][4] ist ein Sicherheitsscanner, ein Portscanner sowie ein Netzwerk -Exploration -Tool. Es ist Open-Source-Software und ist kostenlos verfügbar. Es eignet sich am besten zum Scannen von Netzwerken, einfach zu bedienen und schnell. Es steht für Network Mapper.
 Es unterstützt plattformübergreifende. Es kann für das Netzwerkinventar, die Verwaltung von Service -Upgrade -Zeitplänen und für die Überwachung der Host- und Service -Verfügbarkeit verwendet werden. Es kann sowohl für einen einzelnen Host als auch für große Netzwerke funktionieren. Es bietet Binärpakete für Linux, Windows und Mac OS X.
 **Hauptmerkmale:**
@@ -66,7 +66,7 @@ Es unterstützt plattformübergreifende. Es kann für das Netzwerkinventar, die 
   * Paketfilter, die sie verwenden.
   * Und viele andere Eigenschaften.
 
-## 5. John the Ripper {#b3ed}
+## 5. John the Ripper   {#b3ed}
 [John the Ripper][5] ist ein Werkzeug für das Kennwortriss. Es kann unter Windows, DOS und geöffneten VMs verwendet werden. Es ist ein Open-Source-Tool. Es wird erstellt, um schwache Unix -Passwörter zu erkennen. Es eignet sich am besten zum schnellen Kennwortriss.
 **Hauptmerkmale:**
   * John the Ripper kann verwendet werden, um verschiedene verschlüsselte Passwörter zu testen.
@@ -74,15 +74,15 @@ Es unterstützt plattformübergreifende. Es kann für das Netzwerkinventar, die 
   * Es liefert verschiedene Passwort -Cracker in einem Paket.
   * Es bietet einen anpassbaren Cracker.
 
-## Andere Optionen für ethische Hacking -Software zu berücksichtigen: {#42DB}
+## Andere Optionen für ethische Hacking -Software zu berücksichtigen:   {#42DB}
 Es gibt Dutzende anderer ethischer Hacking -Plattform mit Open -Source -Plattform, wie unten aufgeführt:
-  *** wütender IP -Scanner **
-  *** Flugzeug **
-  *** EtterCap **
-  *** nikto **
-  *** Zenmap **
+  ***wütender IP -Scanner** 
+  ***Flugzeug** 
+  ***EtterCap** 
+  ***nikto** 
+  ***Zenmap** 
 
-## Schlussfolgerung: {#4a1a}
+## Schlussfolgerung:   {#4a1a}
 Wie hier erläutert, dient Metasploit auch für die Sicherheit und ist gut für den Aufbau von anti-feinhigen und Ausweichungsinstrumenten. NMAP wird für Computersicherheit und Netzwerkverwaltung verwendet. Es ist gut, um das Netzwerk zu scannen. Gemäß den online verfügbaren Bewertungen empfehlen Personen, NMAP anstelle eines verärgerten IP -Scanners zu verwenden, da der Angry IP -Scanner mit unerwünschten Anwendungen ausgestattet ist. John the Ripper ist schnell im Passwort knackt. Niko ist ein gutes Open-Source-Tool für Penetrationstests.
 _What _open Quelle Ethische Hacking -Tools _Do, die Sie verwenden? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][6].
 

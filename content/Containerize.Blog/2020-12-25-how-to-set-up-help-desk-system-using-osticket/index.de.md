@@ -19,10 +19,10 @@ Osticket ist eine Open -Source -Online -Helpdesk -Softwarelösung. Osticket Help
   * [Wie man Osticket einrichtet?][3]
   * [Schlussfolgerung][4]
 
-## Was ist Osticket? {#Osticket}
+## Was ist Osticket?   {#Osticket}
 Osticket bietet ein benutzerfreundliches Bedienfeld und eine Echtzeit-Berichtskomponente. Benutzer können sich einfach anmelden und die Tickets in wenigen einfachen Schritten erstellen. Sie können Tickets über Ihre Website, Ihre E -Mail oder Ihr Telefon erstellen. Eingehende Tickets werden dann gespeichert und den Agenten zugeordnet. Agenten erhalten E -Mail -Benachrichtigungen und antworten auf die Fragen, um ihre Probleme zu lösen. Kunden und Agenten können Details und Fortschritte im Kommentarbereich diskutieren. Kunden können ihre Anfragen und Fortschritte über ein integriertes Kundenportal durch diese Online-Helpdesk-Software verfolgen.
 
-## Vor- und Nachteile von Osticket {#Pros}
+## Vor- und Nachteile von Osticket   {#Pros}
 
 #### Pros
   * Osticket ist sowohl für Endbenutzer als auch für Support -Agenten äußerst benutzerfreundlich.
@@ -35,7 +35,7 @@ Osticket bietet ein benutzerfreundliches Bedienfeld und eine Echtzeit-Berichtsko
   * Osticket bietet keine Details zur Ticketanalyse und Statistiken wie andere bezahlte Helpdesk -Systeme.
   * Die Benutzeroberfläche ist im Vergleich zu anderen Support -Systemen sehr einfach und grundlegend.
 
-## Wie installiere ich Osticket? {#Wie}
+## Wie installiere ich Osticket?   {#Wie}
 Befolgen Sie diese Schritte, um Osticket mit Nginx auf Ubuntu 18.04 LTS zu installieren.
   * Erstellen Sie ein neues Verzeichnis für Osticket.
 ```
@@ -136,7 +136,7 @@ sudo systemctl restart nginx
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-2.png" alt="So einrichten Sie Online -Helpdesk -Software mit Osticket">}}
 
   * Aktivieren Sie die erforderlichen Erweiterungen von php.ini und klicken Sie auf "Weiter".
-  *Füllen Sie alle erforderlichen Informationen aus und klicken Sie jetzt auf "** Installieren" ** ** Schaltfläche.
+  *Füllen Sie alle erforderlichen Informationen aus und klicken Sie jetzt auf "**Installieren" ****  Schaltfläche.
 
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-3.png" alt="So einrichten Sie Online -Helpdesk -Software mit Osticket">}}
 
@@ -149,7 +149,7 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Osticket eignet sich am besten für Unternehmen mit niedrigem Budget oder für diejenigen, die ein einfaches Helpdesk -System und keine komplexe möchten. Es ist einfach, leicht, zuverlässig, Open Source und völlig kostenlose Online -Helpdesk -Software. Dies macht Osticket zu einer großartigen Alternative zu höher kostengünstigen Kundenunterstützungssystemen. Weitere Informationen zu Osticket -Funktionen und Installationshandbuch finden Sie unter dem folgenden Tutorial.
 
 ## Erkunden

@@ -13,25 +13,25 @@ categories: ['Transactional Email']
 
 {{< figure align=center src="images/postal-banner.png" alt="Open Source Mail -Server">}}
 
-Für moderne Anwendungen ist das Senden von E -Mails zu verschiedenen Arten von Veranstaltungen erforderlich. Jedes Unternehmen benötigt einen zuverlässigen ** Mailserver ** für ausgehende E -Mails. Darüber hinaus benötigen Unternehmen einen Mailserver für das Senden von Massen -E -Mails für Marketingkampagnen, Newsletter und viele andere Aufgaben. Dafür stehen mehrere ** Open Source Mail -Server ** zur Verfügung. Wir werden jedoch den ** Postserver ** in diesem Beitrag ausführlich diskutieren und die folgenden Themen behandeln.
+Für moderne Anwendungen ist das Senden von E -Mails zu verschiedenen Arten von Veranstaltungen erforderlich. Jedes Unternehmen benötigt einen zuverlässigen **Mailserver  **für ausgehende E -Mails. Darüber hinaus benötigen Unternehmen einen Mailserver für das Senden von Massen -E -Mails für Marketingkampagnen, Newsletter und viele andere Aufgaben. Dafür stehen mehrere **  Open Source Mail -Server  **zur Verfügung. Wir werden jedoch den **  Postserver**  in diesem Beitrag ausführlich diskutieren und die folgenden Themen behandeln.
   * [Was ist Post -Mail -Server?][1]
   * [Merkmale der Post][2]
   * [Postinstallation][3]
   * [Schlussfolgerung][4]
 
-## Was ist Post -Mail -Server? {#Post}
-[** Postal **][5] ist ein kostenloser und ** Open Source Mail -Server **. Es handelt sich um einen E-Mail-Server mit vollem Funktionsumfang für Websites und Webanwendungen. Postal Mail Server ist eine Alternative zu dem vorhandenen beliebten ** Mailserver ** wie SendGrid und Mailgun. ** Postal ** ist eine robuste, sichere und skalierbare Open -Source -E -Mail -Zustellungsplattform. Alle Quellcode und Dokumentation sind unter [** Github **][6] verfügbar. Sie können herunterladen, auf Ihrem privaten Server installieren und die volle Kontrolle darüber behalten. Sie können es auch nach geschäftlichen Bedürfnissen verbessern und verbessern. Darüber hinaus unterstützt ** Postal -Mailserver ** mehrere Organisationen.
+## Was ist Post -Mail -Server?   {#Post}
+[**Postal **][5] ist ein kostenloser und  **Open Source Mail -Server ** . Es handelt sich um einen E-Mail-Server mit vollem Funktionsumfang für Websites und Webanwendungen. Postal Mail Server ist eine Alternative zu dem vorhandenen beliebten  **Mailserver **  wie SendGrid und Mailgun.  **Postal **  ist eine robuste, sichere und skalierbare Open -Source -E -Mail -Zustellungsplattform. Alle Quellcode und Dokumentation sind unter [ **Github ** ][6] verfügbar. Sie können herunterladen, auf Ihrem privaten Server installieren und die volle Kontrolle darüber behalten. Sie können es auch nach geschäftlichen Bedürfnissen verbessern und verbessern. Darüber hinaus unterstützt  **Postal -Mailserver**   mehrere Organisationen.
 Benutzer können Diagramme und Statistiken anzeigen, die das Volumen der eingehenden und ausgehenden Mails zeigen. Darüber hinaus können Sie auf die vollständige ausgehende und eingehende Nachrichtenwarteschlange zugreifen. Postal Mail Server bietet Funktionen für Webhooks. Sie können Webhooks einrichten, um Live-Informationen zu Lieferinformationen in Echtzeit zu erhalten. Es bietet auch Nachrichtenaufbewahrung, mit denen Sie alle Sende- und Empfangen -Nachrichten speichern und prüfen können. Die E -Mail -Zustellung ist im Unternehmen sehr wichtig, um sicherzustellen, dass Benutzer die E -Mail erhalten. Manchmal liefert E -Mail an den Benutzer und Sie müssen das Problem untersuchen. Der eingehende und ausgehende Mailserver ** bietet auch eine vollständige Protokollierung und Tools, um die Untersuchung durchzuführen.
 
-## Funktionen von Postal {#Features}
+## Funktionen von Postal   {#Features}
 Postal Mail Server bietet viele Funktionen. Wir werden jedoch die folgenden Schlüsselmerkmale in diesem Artikel diskutieren.
-** Senden von E -Mails **: Postal -Mail -Server bietet zwei Techniken für ausgehende E -Mails, einschließlich HTTP -API und SMTP. Sie können die HTTP -API problemlos zur Integration mit Web -Apps verwenden. Sie können auch einen SMTP -Server zur Integration mit vorhandenen Anwendungen und Systemen verwenden.
-** Eingehende E -Mails **: ** Eingehende Mail ** kann an HTTP -Endpunkt, ** SMTP -Server ** und andere E -Mail -Adressen mit dem Post -Mail -Server weitergeleitet werden.
-** Spam- und Virusprüfung **: Spamassassin und Clamav können in die Post integriert werden, um eingehende und ausgehende Nachrichten automatisch zu scannen, wenn sie Mail -Server übergeben. Diese Funktion wird ebenfalls standardmäßig ausgeschaltet.
-** Klicken und Öffnen von Tracking **: E -Mail -Öffnungen und -klicks können mit Post verfolgt werden. Postal scannt Ihre ausgehenden Nachrichten und ersetzt alle Links durch einen neuen Link, der über Ihren Post -Webserver führt. Wenn der Benutzer auf den Link klickt, zeichnet Postal die Aktion auf und leitet sie sofort in die ursprüngliche URL weiter. Dies wird jedoch standardmäßig nicht aktiviert.
-** IP -Pools **: Mit Post können Sie Nachrichten aus einer Vielzahl von IP -Adressen senden. Auf diese Weise können Sie verschiedenen E -Mail -Servern mehrere IP -Adressen zuweisen oder je nach Absender oder Empfängeradressen von verschiedenen IPs senden.
+**Senden von E -Mails** : Postal -Mail -Server bietet zwei Techniken für ausgehende E -Mails, einschließlich HTTP -API und SMTP. Sie können die HTTP -API problemlos zur Integration mit Web -Apps verwenden. Sie können auch einen SMTP -Server zur Integration mit vorhandenen Anwendungen und Systemen verwenden.
+**Eingehende E -Mails **:  **Eingehende Mail **  kann an HTTP -Endpunkt,  **SMTP -Server**   und andere E -Mail -Adressen mit dem Post -Mail -Server weitergeleitet werden.
+**Spam- und Virusprüfung** : Spamassassin und Clamav können in die Post integriert werden, um eingehende und ausgehende Nachrichten automatisch zu scannen, wenn sie Mail -Server übergeben. Diese Funktion wird ebenfalls standardmäßig ausgeschaltet.
+**Klicken und Öffnen von Tracking** : E -Mail -Öffnungen und -klicks können mit Post verfolgt werden. Postal scannt Ihre ausgehenden Nachrichten und ersetzt alle Links durch einen neuen Link, der über Ihren Post -Webserver führt. Wenn der Benutzer auf den Link klickt, zeichnet Postal die Aktion auf und leitet sie sofort in die ursprüngliche URL weiter. Dies wird jedoch standardmäßig nicht aktiviert.
+**IP -Pools** : Mit Post können Sie Nachrichten aus einer Vielzahl von IP -Adressen senden. Auf diese Weise können Sie verschiedenen E -Mail -Servern mehrere IP -Adressen zuweisen oder je nach Absender oder Empfängeradressen von verschiedenen IPs senden.
 
-## Postalinstallation {#installation}
+## Postalinstallation   {#installation}
 Befolgen Sie die folgende Schritt-für-Schritt-Anleitung, um die Postalserver-Software ** unter Ubuntu 18.04 zu installieren.
   * Zunächst müssen Sie Ihren Server -Vish verbinden. Führen Sie den folgenden Befehl aus, um das System mit den neuesten verfügbaren Paketen zu aktualisieren.
 ```
@@ -280,15 +280,15 @@ sudo systemctl restart nginx
 ```
   * Öffnen Sie schließlich Ihren Browser und geben Sie die URL https://postal.example.com ein. Sie werden auf die Anmeldeseite umgeleitet.
 
-## Schlussfolgerung {#Conclusion}
-Wir haben die Einführung und die primären Funktionen des Post -Mail -Servers in großer Tiefe durchlaufen. Wir haben auch Schritt-für-Schritt-Anweisungen zum Einrichten dieses ** Mail-Transferagenten ** aufgenommen. Darüber hinaus haben wir einen Einblick in das Setup gegeben. Das Einrichten eines Post -Mail -Servers ist ein einfacher Prozess. Ich hoffe, dass dieser Artikel tatsächlich hilfreich ist, um einen Post -Mail -Server für Ihr Unternehmen einzurichten und zu konfigurieren.
-Schließlich befindet sich [** containerize.com **][7] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [** Transaktions -E -Mail **][8] in Kontakt, um die neuesten Updates zu erhalten.
+## Schlussfolgerung   {#Conclusion}
+Wir haben die Einführung und die primären Funktionen des Post -Mail -Servers in großer Tiefe durchlaufen. Wir haben auch Schritt-für-Schritt-Anweisungen zum Einrichten dieses **Mail-Transferagenten**  aufgenommen. Darüber hinaus haben wir einen Einblick in das Setup gegeben. Das Einrichten eines Post -Mail -Servers ist ein einfacher Prozess. Ich hoffe, dass dieser Artikel tatsächlich hilfreich ist, um einen Post -Mail -Server für Ihr Unternehmen einzurichten und zu konfigurieren.
+Schließlich befindet sich [**containerize.com **][7] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [ **Transaktions -E -Mail**  ][8] in Kontakt, um die neuesten Updates zu erhalten.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  *[** Top Transactional E -Mail -Software **][9]
-  *[** Potal - Open Source Mail Server **][5]
-  *[** 5 beste Open -Source -Mail -Server -Software für Unternehmen im Jahr 2020 **][10]
+  *[**Top Transactional E -Mail -Software** ][9]
+  *[**Potal - Open Source Mail Server** ][5]
+  *[**5 beste Open -Source -Mail -Server -Software für Unternehmen im Jahr 2020** ][10]
 
   
 [1]: #Postal

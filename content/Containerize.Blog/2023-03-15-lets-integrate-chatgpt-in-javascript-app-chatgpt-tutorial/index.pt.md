@@ -18,10 +18,10 @@ categories: [ 'Artificial intelligence']
 ## Visão geral
 Olá leitores! Muito obrigado por sua resposta esmagadora às postagens do blog que publicamos nas integrações [chatgpt][1]. Estamos aqui com outro tutorial útil**chatgpt**seguindo seu interesse. Além disso, estaremos em um loop para publicar artigos benéficos para seus acadêmicos e carreira. No entanto, iniciamos uma [série][20] dos tutoriais do JavaScript, por isso é o melhor momento para escrever um guia que demonstra como**integrar o ChatGPT no JavaScript AQPP**programaticamente. Além disso, escreveremos o snippet de código para fazer essa funcionalidade do chatbot**viral baseada no GPT-3. Para esse fim, ativaremos a funcionalidade ChatGPT em um aplicativo Node.js. Portanto, um nível básico de conhecimento prévio do Node.js é uma vantagem ao passar por este guia.
 As seções a seguir serão abordadas neste tutorial do ChatGPT:
-***[Pré -requisitos - Chatgpt JavaScript Wrapper][2]**
-***[Integração ChatGPT com Node.js Application][3]**
+* **[Pré -requisitos - Chatgpt JavaScript Wrapper][2]**
+* **[Integração ChatGPT com Node.js Application][3]**
 
-## pré-requisitos-Chatgpt javaScript wrapper {#pré-requisitos --- chatgpt-javascript-wrapper-}
+## pré-requisitos-Chatgpt javaScript wrapper   {#pré-requisitos --- chatgpt-javascript-wrapper-}
 Esta seção demonstra os requisitos necessários para ativar a integração do ChatGPT em um aplicativo baseado em Node.js. Os requisitos são simples e fáceis de instalar no seu sistema.
 A seguir, estão os pré-requisitos para praticar esta integração do ChatGPT JavaScript:
 
@@ -31,7 +31,7 @@ A seguir, estão os pré-requisitos para praticar esta integração do ChatGPT J
 Depois que os pré -requisitos acima forem instalados, a próxima etapa é obter uma chave de API do OpenAI. Essa chave é usada para fazer solicitações de API para o ChatGPT programaticamente. Portanto, visite este [link][6] para aprender como obter a chave da API do OpenAI, caso não conheça o procedimento.
 Por favor, mantenha sua chave da API em um local seguro e isso é tudo para a fase de requisitos.
 
-## ChatGPT Integration com Node.js Aplicativo {#ChatGPT-Integration-with-node.js-application}
+## ChatGPT Integration com Node.js Aplicativo   {#ChatGPT-Integration-with-node.js-application}
 Agora, estamos todos definidos como**integrar o ChatGPT no aplicativo JavaScript programaticamente.**Primeiro, abra o terminal e execute o seguinte comando:
 ```
 npm i chatgpt

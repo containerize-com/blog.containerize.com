@@ -17,24 +17,24 @@ categories: ['Programming']
 ## Überblick
 Die Vorteile von serverlosen sind real. Nehmen wir an, Ihr Unternehmen [Software][1] wächst in hohem Maße und Sie finden eine Plattform, die die Verantwortung für die Verwaltung, Wartung und Skalierung der Serverressourcen Ihrer Software übernimmt. Es wäre ein großartiges Szenario, in dem Sie sich vom Verwalten des Backends entspannt und sich auf weitere Anwendungsentwicklungen konzentrieren. Die Organisationen, die an [Rapid Application Development (RAD)][2] beteiligt sind, neigen dazu, sich für serverlose Architektur zu entscheiden. Daher finden wir eine Antwort auf**Was ist serverloser Computer**und versuchen auch, die anderen Aspekte zu decken. Am Ende dieses Blog -Beitrags haben Sie ein starkes Verständnis für**Serverless Architecture**, ihre Anwendungsfälle und seine Vorteile.
 Die folgenden Abschnitte werden in diesem Leitfaden erörtert:
-***[Was ist serverloses Computer?][3]**
+* **[Was ist serverloses Computer?][3]**
 * [**Serverless VS Container und Kubernetes**][4]
-***[Serverlose Anwendungsfälle][5]**
-***[geschäftliche Vorteile von serverlosen Computing][6]**
+* **[Serverlose Anwendungsfälle][5]**
+* **[geschäftliche Vorteile von serverlosen Computing][6]**
 
-## Was ist serverloses Computer? {#What-is-serverless komputieren}
+## Was ist serverloses Computer?   {#What-is-serverless komputieren}
 Serverless Computing/Architektur ist eine Methode für Entwickler, um Software auf Unternehmensebene zu erstellen. Bei dieser Methode müssen Entwickler nicht an der Verwaltung und Installation von Backend -Ressourcen beteiligt sein, sondern sich nur darauf konzentrieren, die Geschäftslogik der Anwendung zu bauen. Jeder Cloud -Service -Anbieter führt also Backend Resource Management und -wartung durch. Nach diesem Modell zahlen Sie gegen diese Dienste und die Zahlung hängt von der Verwendung ab. Dieser Ansatz ist leicht anpassungsfähig und gewinnt bei Entwicklern an Popularität.
 
 {{< figure align=center src="images/server.png" alt="Serverlose Architektur">}}
 
 Tatsächlich wurden in Softwareentwicklungswerkzeugen und -techniken schnelle Entwicklungen beobachtet. Sie können die reiche Gerüstoption nutzen, die die Entwicklungsprozesse beschleunigt. Daher haben verschiedene Cloud -Service -Anbieter eine**serverless Architektur**entwickelt, die Entwicklern in Bezug auf die Serververwaltung weiterhin Freiheit verleiht. Darüber hinaus schenken Entwickler das Schreiben der Geschäftslogik der Anwendung und das Schreiben der Backend -Routen, um die Anfragen auf die serverlose Plattform zuzuordnen.
 
-## Serverless VS Container und Kubernetes {#Serverless-VS-Container}}
+## Serverless VS Container und Kubernetes   {#Serverless-VS-Container}}
 Ein Container ist eine Instanz des Docker -Bildes, das die Anwendung ausführt. Die Containerisierung einer Anwendung verringert den OV -Bereitstellungsaufwand. Containerisierte Anwendungen werden jedoch auf eine einheitliche Weise auf einer beliebigen Plattform ausgeführt, und Sie können die Container auf eine andere Plattform bewegen, ohne sich um die zugrunde liegende Infrastruktur zu sorgen.
 **Serverlose Architektur**und Containerisierung bieten den Entwicklern einige ähnliche Bestimmungen. Beide Umgebungen abzüglich des Ärgers der App -Bereitstellung. Darüber hinaus werden diese Ökosysteme als besser angesehen als virtuelle Maschinen (VMs). Darüber hinaus erfolgt die Ressourcenskalierung auf der Grundlage der Nutzung in Serverless, während Sie die Serverressourcen in der Containerisierung manuell skalieren müssen.
 Sprechen wir über [Kubernetes][7], eine Open-Source-Software, die das Containermanagement und die Bereitstellungen automatisiert. In vielen Szenarien führen Container serverlose Anwendungen aus, aber [Kubernetes][7] befasst sich nicht direkt mit den Containern, die serverlose Apps ausführen. Es gibt jedoch Erweiterungen, die [Kubernetes][7] in die Cloud -Diensteanbieter integrieren und Skalierung, Netzwerkrouting und vieles mehr verarbeiten.
 
-## serverlose Anwendungskosten {#serverlose Nutzungs-Cases}
+## serverlose Anwendungskosten   {#serverlose Nutzungs-Cases}
 Es gibt verschiedene Szenarien, in denen die Entscheidung für serverless die Entwicklung und Bereitstellungen erleichtert. Einige prominente Anwendungsfälle sind wie folgt:
 **Entwickeln von APIs**: Serverlose Architektur hat die oberste Priorität von Entwicklern, wenn es darum geht, eine erholsame API für Ihre Business -Software zu erstellen. Entwickler konzentrieren sich nur auf den Aufbau von API -Routen und der Rest gehört dem Dienstleister.
 **Erstellen mehrsprachiger Software:**Die Auswahl der Programmiersprache ist ein kritischer Schritt in der Softwareentwicklung. Serverless Architecture bietet jedoch eine Umgebung, in der Sie sich mit jeder Sprache befassen können, um die Entwicklung zu beginnen.
@@ -42,7 +42,7 @@ Es gibt verschiedene Szenarien, in denen die Entscheidung für serverless die En
 **Cloud-basierte Apps:**Sie müssen mit**Serverless Architecture**Wenn Sie skalierbare Cloud-basierte Web-Apps erstellen. Darüber hinaus machen serverlose Umgebungen die Entwicklung reibungslos, zeitnah und kostengünstig in Bezug auf die Arbeitsstunden und die Bereitstellung.
 **Schwergewichts -Hintergrundprozesse**: Serverlose Infrastruktur ist die beste Option für diesen Anwendungsfall. Die Software, deren Backend für den Umgang mit umfangreichen Aufgaben von CPU verantwortlich ist, ist der richtige Kandidat für diese Architektur. Darüber hinaus kümmern Sie sich nur um die Kernentwicklungsaufgaben und hören auf, sich über die Serverwartung und die Skalierung zu sorgen.
 
-## Geschäftsvorteile von serverlosen Computing {#Business-Benefits-of-Serverless-Computing}}
+## Geschäftsvorteile von serverlosen Computing   {#Business-Benefits-of-Serverless-Computing}}
 In diesem Abschnitt werden wir über die folgenden Kernvorteile sprechen, die diesem**serverlosen Computer beigefügt sind:**
 **problemlosen Bereitstellung:**Software-Bereitstellung ist ein richtiger Job. Daher bietet Serverless Architecture robuste App -Bereitstellungen, die nur Minuten oder Stunden dauern.
 **Entwicklungseffizienz**: Da Backend -Wartung und -verwaltung von den Cloud -Dienstanbieter -Entwicklern durchgeführt werden, nutzen die Entwickler ihre Zeit in der Softwareentwicklung vollständig.

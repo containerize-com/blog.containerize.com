@@ -19,28 +19,28 @@ Ele contém as seguintes seções:
   * [Implementando 2FA em .NET5][5]
 Primeiro, vamos entender o que é 2FA e por que ele precisa ser parte integrante de todos os aplicativos da web modernos.
 
-## O que é autenticação de dois fatores? {#2fa}
+## O que é autenticação de dois fatores?   {#2fa}
 Um fator nesse contexto implica uma maneira de convencer um aplicativo ou serviço de que você é o proprietário da conta. O nome de usuário/senha é amplamente utilizado como o fator de autenticação mais comum. No entanto, devido a muitos problemas de segurança associados a TI e violações de dados generalizadas recentes-a autenticação de fator único se tornou menos seguro.
 A autenticação de dois fatores é uma camada adicional de segurança, que entra em jogo antes que você possa acessar sua conta. A adição no processo de login padrão-ele introduz uma etapa extra para verificar a identidade do usuário enviando um código (para o seu email ou como uma mensagem de texto). Dessa forma, sua identidade é comprovada e só então o acesso é concedido.
 
-## Como funciona o 2FA? {#2Fawork}
+## Como funciona o 2FA?   {#2Fawork}
 No 2FA, a senha ainda é seu primeiro fator de autenticação - então, quando você faz login na sua conta, ela o redirecionará para outra página em que você precisar verificar a propriedade da conta. Isso pode ser feito usando várias maneiras:
   1. O aplicativo envia um código de verificação frequentemente chamado OTP (senhas únicas) para o seu endereço de e-mail.
   2. O código é entregue como uma mensagem de texto no seu telefone.
   3. Você instala um aplicativo autenticador no celular, através do qual pode autorizar solicitações de login.
 NOTA: Esses códigos de verificação são gerados aleatoriamente e expirados uma vez usados. Além disso, eles têm vida curta - então há uma janela curta antes que você possa usar o código (isso impede o hacker para forçar os códigos de verificação).
 
-## podemos chamar 2fa de autenticação multifatorial? {#Mfa}
+## podemos chamar 2fa de autenticação multifatorial?   {#Mfa}
 Os métodos de autenticação não se limitam a dois fatores. Muitos aplicativos e serviços estão movendo seus usuários além do 2FA e usando a autenticação multifatorial.
 2FA e MFA (autenticação multifatorial) são frequentemente usados ​​de forma intercambiável. No entanto, há uma diferença. Na autenticação de vários fatores, dois ou mais fatores são usados.
 Ele pode verificar o endereço IP de um usuário, localização geográfica e informações de dispositivo em relação a outros fatores, como uma senha e OTP, para verificar a identidade do usuário.
 Portanto, podemos dizer que o 2FA é um subconjunto de MFA. No 2FA, haverá apenas dois fatores, enquanto o multi-fator pode utilizar dois ou mais fatores. O MFA torna difícil para hackers, pois adiciona várias camadas de segurança no processo de autenticação tradicional.
 
-## Existem desvantagens usando 2fa? {#MFA-CONS}
+## Existem desvantagens usando 2fa?   {#MFA-CONS}
 Semelhante a muitas soluções de "segurança e privacidade" que existem em aplicativos modernos. Ele também tem um preço - inconveniente, pois há uma etapa adicional envolvida que pode causar atrito na experiência do usuário.
 No entanto, está sendo adotado por muitos aplicativos e serviços, portanto essa compensação está se tornando aceitável.
 
-## Como posso implementar a autenticação 2FA? {#implementando2fa}
+## Como posso implementar a autenticação 2FA?   {#implementando2fa}
 Nesta seção, aprenderemos a implementar o 2FA no .NET5 usando o IdentityServer4 e o Twilio.
 Então, vamos criar uma conta de avaliação no Twilio:
   1. Inscreva -se
@@ -93,11 +93,11 @@ Agora adicione o IdentityServer no Pedido Pipeline:
 ```
 app.UseIdentityServer();
 ```
-Execute o projeto e navegue para ** _/conta/login _ **
+Execute o projeto e navegue para **_/conta/login _** 
 
 {{< figure align=center src="images/2021-03-10-17_48_09-Window-1024x586.png" alt="IdentityServer4 - Login">}}
 
-Faça login com as credenciais, conforme adicionado em ** config.cs **
+Faça login com as credenciais, conforme adicionado em **config.cs** 
 Uma vez que o IdentityServer esteja configurado e em execução. Em seguida, podemos adicionar suporte ao 2FA usando o Twilio.
 Vamos adicionar aula seguinte:
 ```

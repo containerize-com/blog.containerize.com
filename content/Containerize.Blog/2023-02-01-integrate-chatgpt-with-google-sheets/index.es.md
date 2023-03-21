@@ -21,7 +21,7 @@ Cubriremos los siguientes puntos en este artículo:
 * [**¿Cómo integrar chatgpt con hojas de Google?**][6]
 * [**¿Cómo usar chatgpt en hojas de Google?**][7]
 
-## Cómo integrar ChatGpt con Google Hojas {#How-To-Integrate-Chatgpt-With-Google-sheets}
+## Cómo integrar ChatGpt con Google Hojas   {#How-To-Integrate-Chatgpt-With-Google-sheets}
 **La integración del chatgpt**con cualquier software definitivamente dará una ventaja competitiva al negocio. Un modelo de IA que puede comenzar las sesiones de conversación bidireccionales y la incrusta con su software ¿Qué tan poderosa podría ser esa integración? Por supuesto que es increíble. Por lo tanto, le pide a un chatbot una solución técnica a un problema y obtiene la respuesta justo a tiempo, significa mucho en términos de ahorrar tiempo y esfuerzo.
 Comencemos esta integración de las hojas de Google con ChatGpt.**
 Primero, abra Google [hojas][3] y haga clic en**"Extensiones-> Add-ons-> Obtener complementos"**. Una vez que haga esto, verá un cuadro de diálogo en Google Workspace Marketplace. Ahora, escriba "chatgpt" en la barra de búsqueda colocada en la esquina superior derecha y seleccione la primera opción como se muestra en la imagen a continuación.
@@ -35,7 +35,7 @@ A continuación, haga clic en**"Extensiones-> GPT para hojas y documentos-> Esta
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="Integración de chatgpt">}}
 
 
-## ¿Cómo usar chatgpt en las hojas de Google? {#How-to-Use-chatgpt-in-google-sheets}
+## ¿Cómo usar chatgpt en las hojas de Google?   {#How-to-Use-chatgpt-in-google-sheets}
 Una vez que se configura la tecla API de OpenAI, está listo para aprovechar esta poderosa integración de hojas de chatgpt y Google.**Hay una gran pila de métodos ofrecidos por ChatGPT que puede llamar escribiendo = gpt ().
 Por ejemplo, puede pedirle a este chatbot a I AI que escriba una descripción del producto de un automóvil llamando a la función de la siguiente manera:
 ```

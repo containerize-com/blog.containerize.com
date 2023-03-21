@@ -15,40 +15,40 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 
 
 ## Descripción general
-Aterriza en el lugar correcto si se pregunta para adoptar software para impulsar su negocio. En este mundo de tecnología e innovación en rápido crecimiento, hay muchos factores que pueden convertirse en topes como el costo, el tiempo, las habilidades, los recursos y muchos más. Por otro lado, es un trato costoso desarrollar un software desde cero para cumplir con los requisitos comerciales. Aquí viene el ** Software de código abierto **. Open Source Software (OSS) está disponible públicamente para todos con todo el código fuente y la documentación bajo una licencia. Podría ser construido por un solo desarrollador o un grupo de desarrolladores que luego lo hacen público. Una vez que la visibilidad del software libre es pública, otros desarrolladores pueden contribuir a ese software para obtener mejoras.
-Además, la comunidad de código abierto es muy vibrante y de apoyo que se ha desarrollado a lo largo de ** Lista de software de código abierto **. Hay paneles de discusión donde los colaboradores y los usuarios se unen para compartir soluciones y pensamientos. Hay una amplia gama de categorías OSS que cubren la mayoría de los aspectos comerciales. Por supuesto, hay algunas cosas a considerar antes de ir a una aplicación de código abierto que discutiremos en esta publicación de blog cubriendo los siguientes puntos.
-  *** [Comunidad][1] **
-  *** [Documentación][2] **
-  *** [portabilidad][3] **
-  *** [Git Stats][4] **
-  *** [Licencias][5] **
-  *** [Extensibilidad][6] **
-  *** [seguridad][7] **
+Aterriza en el lugar correcto si se pregunta para adoptar software para impulsar su negocio. En este mundo de tecnología e innovación en rápido crecimiento, hay muchos factores que pueden convertirse en topes como el costo, el tiempo, las habilidades, los recursos y muchos más. Por otro lado, es un trato costoso desarrollar un software desde cero para cumplir con los requisitos comerciales. Aquí viene el **Software de código abierto** . Open Source Software (OSS) está disponible públicamente para todos con todo el código fuente y la documentación bajo una licencia. Podría ser construido por un solo desarrollador o un grupo de desarrolladores que luego lo hacen público. Una vez que la visibilidad del software libre es pública, otros desarrolladores pueden contribuir a ese software para obtener mejoras.
+Además, la comunidad de código abierto es muy vibrante y de apoyo que se ha desarrollado a lo largo de **Lista de software de código abierto** . Hay paneles de discusión donde los colaboradores y los usuarios se unen para compartir soluciones y pensamientos. Hay una amplia gama de categorías OSS que cubren la mayoría de los aspectos comerciales. Por supuesto, hay algunas cosas a considerar antes de ir a una aplicación de código abierto que discutiremos en esta publicación de blog cubriendo los siguientes puntos.
+  ***[Comunidad][1]** 
+  ***[Documentación][2]** 
+  ***[portabilidad][3]** 
+  ***[Git Stats][4]** 
+  ***[Licencias][5]** 
+  ***[Extensibilidad][6]** 
+  ***[seguridad][7]** 
 
-## Community {#Community}
-Este es el factor más importante mientras opta por una solución de código abierto (OSS). Se vuelve muy difícil administrar el software si no hay suficiente soporte disponible. La mayoría de los desarrolladores tienden a mantener la confiabilidad del software. Por lo tanto, siempre debe preferir el software gratuito ** de código abierto (FOSS) ** que tenga un soporte comunitario vibrante para que si hay algún problema grave que ocurra, eso debe resolverse.
+## Community   {#Community}
+Este es el factor más importante mientras opta por una solución de código abierto (OSS). Se vuelve muy difícil administrar el software si no hay suficiente soporte disponible. La mayoría de los desarrolladores tienden a mantener la confiabilidad del software. Por lo tanto, siempre debe preferir el software gratuito **de código abierto (FOSS)**  que tenga un soporte comunitario vibrante para que si hay algún problema grave que ocurra, eso debe resolverse.
 
-## Documentación {#Documentation}
-El siguiente aspecto crítico en la elección ** Aplicaciones de código abierto ** es la documentación. La mayoría del software de código abierto (OSS) viene con documentación detallada e integral. Sin embargo, todavía no es el caso con cada OSS. El software con menos o ningún documento puede ponerlo en problemas. A veces, los desarrolladores escriben el manual del usuario en otro espacio que no sea el sitio de software. Por lo tanto, siempre asegúrese de haber optado por un OSS con documentación completa.
+## Documentación   {#Documentation}
+El siguiente aspecto crítico en la elección **Aplicaciones de código abierto**  es la documentación. La mayoría del software de código abierto (OSS) viene con documentación detallada e integral. Sin embargo, todavía no es el caso con cada OSS. El software con menos o ningún documento puede ponerlo en problemas. A veces, los desarrolladores escriben el manual del usuario en otro espacio que no sea el sitio de software. Por lo tanto, siempre asegúrese de haber optado por un OSS con documentación completa.
 
-## Portabilidad {#Portability}
-Esta característica es igualmente importante como las otras, como la documentación, la seguridad, etc., debe asegurarse de que el ** Software de código abierto (OSS) ** sea portátil y amigable con el medio ambiente. Se establece fácilmente y viene con archivos de código fuente completos. La portabilidad no tiene nada que ver con el instalador sino los archivos de software. ** Software autohospedado ** Permite a los desarrolladores obtener un control completo sobre el desarrollo, el estado de producción y la seguridad.
+## Portabilidad   {#Portability}
+Esta característica es igualmente importante como las otras, como la documentación, la seguridad, etc., debe asegurarse de que el **Software de código abierto (OSS)  **sea portátil y amigable con el medio ambiente. Se establece fácilmente y viene con archivos de código fuente completos. La portabilidad no tiene nada que ver con el instalador sino los archivos de software. **  Software autohospedado**  Permite a los desarrolladores obtener un control completo sobre el desarrollo, el estado de producción y la seguridad.
 
-## estadísticas git {#git-stats}
+## estadísticas git   {#git-stats}
 Es una actividad muy básica pero importante antes de elegir el software gratuito. Siempre revise el repositorio de un producto en particular a fondo. Incluye la cantidad de tenedores, estrellas y otras estadísticas que muestran la popularidad de las herramientas de código abierto. Además, verifique la sección Problemas del Repo Git para asegurarse de que no se adjunte ningún problema grave con esta aplicación de código abierto.
 
-## Licencias {#licensing}
+## Licencias   {#licensing}
 Este factor es inevitable cuando se trata de seleccionar software de código abierto gratuito (FOSS). Mientras explora las estadísticas de Repo Git, consulte la licencia del producto con respecto a los permisos. Realice los términos y condiciones escritos sobre el uso, el desarrollo y la distribución del OSS. Algunas de las licencias son de código abierto pero no gratis. Por lo tanto, debe elegir un software gratuito que sea completamente abierto y gratuito.
 
-## Extensibilidad {#Extensibility}
+## Extensibilidad   {#Extensibility}
 La razón más importante detrás de optar por una herramienta de código abierto es su naturaleza extensible. El software libre debe ser configurable, escalable y fácil de expandir. La comunidad de código abierto proporciona las mejores formas de mantener el software flexible con respecto a todos los aspectos para que los usuarios no obtengan pánico en el momento de ninguna revisión o adición de una nueva funcionalidad. Además, los usuarios pueden encontrar una serie de complementos, API REST expuestas por la mayoría de las herramientas populares de código abierto, como el software de gestión de contenido S, el software de blogs, el desarrollo rápido de aplicaciones y muchos más.
 
-## Security {#Security}
+## Security   {#Security}
 Por último, pero no menos importante, la seguridad de cualquier software no puede comprometerse a cualquier costo. Sin embargo, debe analizar críticamente la arquitectura de software para asegurarse de que no haya violación de seguridad. En el pasado, fue una idea errónea que el software de código abierto (OSS) es vulnerable a las amenazas externas. Por lo tanto, no es el caso en el momento actual, ya que la madurez y la popularidad aumentan con el paso del tiempo.
 
 ## Pensamientos finales
-Esto nos lleva al final de esta publicación de blog. Hemos pasado por las prácticas importantes que deben seguirse al elegir un ** Software de código abierto (OSS) **. Hemos visto que muchos de los gigantes tecnológicos están adoptando ** software de código abierto (FOSS) ** ** ** para satisfacer las necesidades comerciales. Sin embargo, esto generalizado indica la robustez y la eficiencia de las aplicaciones de código abierto. Hay una larga lista de herramientas de código abierto mencionada en la sección Explorar a continuación. Además, puede encontrar muchos OSS en Containerize.com que sean todos gratuitos, de código abierto y vengan con capacidades de autohospedación. Le recomendaría que elija una solución de código abierto para su negocio que cumpla con sus requisitos comerciales.
-Finalmente, [** Contenerize.com **][8] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto para actualizaciones regulares.
+Esto nos lleva al final de esta publicación de blog. Hemos pasado por las prácticas importantes que deben seguirse al elegir un **Software de código abierto (OSS) **. Hemos visto que muchos de los gigantes tecnológicos están adoptando  **software de código abierto (FOSS) **  ****  para satisfacer las necesidades comerciales. Sin embargo, esto generalizado indica la robustez y la eficiencia de las aplicaciones de código abierto. Hay una larga lista de herramientas de código abierto mencionada en la sección Explorar a continuación. Además, puede encontrar muchos OSS en Containerize.com que sean todos gratuitos, de código abierto y vengan con capacidades de autohospedación. Le recomendaría que elija una solución de código abierto para su negocio que cumpla con sus requisitos comerciales.
+Finalmente, [**Contenerize.com** ][8] está escribiendo artículos sobre otros productos de código abierto. Por lo tanto, manténgase en contacto para actualizaciones regulares.
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:

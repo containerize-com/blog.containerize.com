@@ -24,7 +24,7 @@ Un servidor web es un tipo de software que está instalado en el sistema operati
   * [Caddy][8]
   * [Tomcat][9]
 
-## xampp {#xampp-stands}
+## xampp   {#xampp-stands}
 XAMPP significa multiplataforma (x), apache (a), mariadb (m), php (p) y perl (p). Es un software de servidor web gratuito y de código abierto. Ayuda a los desarrolladores a probar sus aplicaciones o sitios web web en su entorno de desarrollo. XAMPP tiene todos los componentes necesarios, incluidos Apache, Perl, así como la base de datos MySQL y PHP. Proporciona un entorno de desarrollo confiable para aplicaciones web basadas en PERL y PHP. Además, proporciona MariadB y MySQL para la gestión de bases de datos. Estas son algunas de sus características clave:
   * Fuente abierta
   * Múltiples instancias
@@ -33,7 +33,7 @@ XAMPP significa multiplataforma (x), apache (a), mariadb (m), php (p) y perl (p)
   * Servidor web con base de datos
 [Leer más][10]
 
-## nginx {#nginx}
+## nginx   {#nginx}
 Nginx Web Server admite todos los componentes de la web moderna, incluidos WebSocket, HTTP/2 y la transmisión de múltiples formatos de video. Comenzó como un servidor web, pero ahora se ha desarrollado para funcionar también como un software proxy inverso para el correo electrónico (IMAP, POP3 y SMTP). También funciona como un proxy inverso y un equilibrador de carga para los servidores HTTP, TCP y UDP. Además, este software de proxy inverso supera constantemente a Apache y otros servidores si se mide en el rendimiento del servidor web. Algunas características importantes de Nginx incluyen:
   * Arquitectura modular
   * Equilibrio de carga y tolerancia a fallas
@@ -42,7 +42,7 @@ Nginx Web Server admite todos los componentes de la web moderna, incluidos WebSo
   * Admite SSL y TLS SNI
 [Leer más][11]
 
-## Lighttpd {#lighttpd}
+## Lighttpd   {#lighttpd}
 LightTPD es un software de servidor web ligero de código abierto, diseñado especialmente para máquinas Linux. No requiere mucha memoria y uso de CPU. Lo que lo convierte en uno de los mejores para cualquier proyecto que necesite velocidad y alto rendimiento. LightTPD es la solución perfecta para cada servidor que sufre problemas de velocidad o rendimiento. Además, el servidor web liviano proporciona conjuntos de características avanzadas que incluyen FastCGI, SCGI, Auth, Compresión de salida y reescritura de URL, etc. Aparte de PHP, también admite otros lenguajes de programación, incluidos Python, Perl, Ruby y muchos más. Aquí hay algunas características populares de LightTPD:
   * Tamaño pequeño, solo 1 MB
   * Soporte para interfaces FastCGI, SCGI, CGI
@@ -51,7 +51,7 @@ LightTPD es un software de servidor web ligero de código abierto, diseñado esp
   * Uso muy optimizado de CPU y RAM
 [Leer más][12]
 
-## Caddy {#Caddy}
+## Caddy   {#Caddy}
 Caddy Server es extremadamente fácil de configurar y usar. Se encarga de las renovaciones de certificados TLS, el grapado de OCSP, el archivo estático que sirve, así como la representación inversa y la entrada de Kubernetes. Además, este servidor de archivos estáticos es un servidor web de código abierto y de código abierto y puede ejecutar todos los sistemas operativos principales, incluidos MacOS, Linux y Windows. Caddy es un servidor web de archivo estático flexible y eficiente, así como un poder inverso potente y escalable. Use el servidor Caddy para compresión, evaluación de plantillas y representación de Markdown de sus sitios web. Aquí hay algunas características clave del servidor web Caddy:
   * Configuración fácil con CaddyFile
   * Acceso, error y registros de procesos
@@ -60,7 +60,7 @@ Caddy Server es extremadamente fácil de configurar y usar. Se encarga de las re
   * Reiniciar/recargar elegantes
 [Leer más][13]
 
-## Tomcat {#tomcat}
+## Tomcat   {#tomcat}
 Apache Tomcat es una implementación de código abierto de Java Servlet, Javaserver Pages, Java Expression Language y Java WebSocket Technologies. Además, es una de las aplicaciones y servidores web más utilizados. Tomcat Server es fácil de usar y tiene un ecosistema robusto de complementos. El software Apache Tomcat se puede utilizar como un producto independiente con su propio servidor web interno, así como con otros servidores web como Apache, Netscape Enterprise Server, Microsoft Personal Web Server y Microsoft Information Information Server. Aquí hay algunas características clave de Apache Tomcat:
   * Ligero
   * Fuente abierta

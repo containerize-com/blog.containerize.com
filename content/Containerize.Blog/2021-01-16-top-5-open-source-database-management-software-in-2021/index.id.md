@@ -23,7 +23,7 @@ Kami akan membahas alat DBMS open source berikut dalam artikel ini:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpMyadmin {#phpmyadmin}
+## phpMyadmin   {#phpmyadmin}
 PHPMyAdmin hadir sebagai komponen bawaan dengan server web XAMPP dan WAMPP. Saat ini PhpMyAdmin adalah perangkat lunak manajemen basis data yang paling banyak digunakan. Pengembang dapat mengelola informasi, tabel, kolom, hubungan, referensi, pengguna, dan izin, dll. Melalui antarmuka. Selain itu, digunakan untuk melakukan sebagian besar tugas administrasi termasuk membuat database, menjalankan kueri, dan menambahkan akun pengguna. Sistem manajemen basis data ini ditulis dalam PHP bersama dengan input dari bahasa lain seperti JavaScript dan SCSS. Oleh karena itu, semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Ini adalah beberapa fitur yang menonjol dari phpMyadmin:
   * Antarmuka web yang mudah digunakan.
   * Beberapa dukungan fitur MySQL.

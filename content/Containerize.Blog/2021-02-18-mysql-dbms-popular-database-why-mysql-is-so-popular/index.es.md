@@ -22,10 +22,10 @@ Bienvenido a otra emocionante publicación de blog en la serie de [Sistemas de g
   * [Contras de mysql][7]
   * [Conclusión][8]
 
-## ¿Qué es MySQL? {#qué}
+## ¿Qué es MySQL?   {#qué}
 MySQL es uno de los sistemas de gestión de bases de datos más populares. Es un pilar importante del software de aplicación LAMP. Además, es multiplataforma, por lo que funciona bien con todos los sistemas operativos, incluidos Windows, Linux, MacOS, Irix y otros. Además, MySQL es un sistema de gestión de bases de datos utilizado para administrar bases de datos relacionales. MySQL DBMS es propiedad de Oracle, pero aún así, es un software de código abierto y puede usarlo sin pagar nada. Además, puede cambiar su código fuente de acuerdo con sus requisitos y necesidades. Hay documentación integral disponible con respecto al desarrollo y la implementación.
 
-## ¿Por qué MySQL es tan popular? {#por qué}
+## ¿Por qué MySQL es tan popular?   {#por qué}
 En esta sección, pasaremos por los factores debido a los cuales MySQL se considera una base de datos popular. MySQL es uno de los DBM de código abierto más popular y las siguientes son las razones detrás de esto:
   * Es un sistema de gestión de bases de datos de código abierto completamente gratuito y de código abierto.
   * La base de datos MySQL es muy fácil de usar, se usa principalmente con PHP, el lenguaje más popular para el desarrollo web.
@@ -36,21 +36,21 @@ En esta sección, pasaremos por los factores debido a los cuales MySQL se consid
   * Es compatible con muchos idiomas como PHP, Perl, C, C ++, Java, etc.
   * Hay muy buenas estadísticas en su [Github][9] Repo.
 
-## Beneficios de MySQL {#Pros}
+## Beneficios de MySQL   {#Pros}
 Esta sección de la publicación de blog define algunos beneficios centrales que MySQL DBMS ofrece a sus usuarios. Por lo tanto, revisemos uno por uno y descubramos cuáles son esos beneficios para la empresa.
-  *** Flexible y fácil de usar **: Modifique el código fuente de acuerdo con sus propias necesidades y expectativas. El proceso de instalación es relativamente simple y no lleva mucho tiempo.
-  *** Alto rendimiento **: Incluso si almacena cantidades masivas de grandes datos de comercio electrónico o realizando actividades de inteligencia empresarial pesadas, MySQL puede ayudarlo sin problemas con una velocidad óptima.
-  *** Un DBMS maduro **: Los desarrolladores han estado usando MySQL durante años, lo que significa que hay abundantes recursos para ellos. Ha evolucionado a lo largo de los años y tiene muy poco margen para cualquier tipo de errores.
-  *** Base de datos segura: ** La seguridad de los datos es la necesidad básica de cada aplicación web. Con su sistema de privilegio de acceso y administración de cuentas de usuario, MySQL establece la barra de seguridad alta. También ofrece verificación basada en host como cifrado de contraseña.
-  *** Instalación gratuita: ** La edición comunitaria de MySQL es gratuita para descargar. Hay algunas opciones prepagas, pero si su empresa es demasiado pequeña para pagarlas, el modelo de carga gratuita es el más adecuado para un nuevo comienzo.
-  *** Sintaxis simple **: estructura de MySQL muy simple y simple. Es por eso que los desarrolladores incluso consideran a MySQL una base de datos con un lenguaje humano. MySQL es fácil de usar, la mayoría de las tareas se pueden ejecutar directamente en la línea de comandos, reduciendo los pasos de desarrollo.
+  * **Flexible y fácil de usar ** : Modifique el código fuente de acuerdo con sus propias necesidades y expectativas. El proceso de instalación es relativamente simple y no lleva mucho tiempo.
+  * **Alto rendimiento ** : Incluso si almacena cantidades masivas de grandes datos de comercio electrónico o realizando actividades de inteligencia empresarial pesadas, MySQL puede ayudarlo sin problemas con una velocidad óptima.
+  * **Un DBMS maduro ** : Los desarrolladores han estado usando MySQL durante años, lo que significa que hay abundantes recursos para ellos. Ha evolucionado a lo largo de los años y tiene muy poco margen para cualquier tipo de errores.
+  * **Base de datos segura: **  La seguridad de los datos es la necesidad básica de cada aplicación web. Con su sistema de privilegio de acceso y administración de cuentas de usuario, MySQL establece la barra de seguridad alta. También ofrece verificación basada en host como cifrado de contraseña.
+  * **Instalación gratuita: **  La edición comunitaria de MySQL es gratuita para descargar. Hay algunas opciones prepagas, pero si su empresa es demasiado pequeña para pagarlas, el modelo de carga gratuita es el más adecuado para un nuevo comienzo.
+  * **Sintaxis simple ** : estructura de MySQL muy simple y simple. Es por eso que los desarrolladores incluso consideran a MySQL una base de datos con un lenguaje humano. MySQL es fácil de usar, la mayoría de las tareas se pueden ejecutar directamente en la línea de comandos, reduciendo los pasos de desarrollo.
 
-## contras de mysql {#cons}
-  *** Propiedad de Oracle: ** MySQL solía ser de código abierto, pero ahora no es de código abierto. Ahora está principalmente bajo la licencia de Oracle que limita la comunidad MySQL en términos de mejorar el DBMS.
-  *** Problemas de escalabilidad: ** MySQL no es tan eficientemente escalable como la base de datos NoSQL. Necesitará más esfuerzo de ingeniería para hacerlo escalable. Entonces, si tiene aplicaciones para las cuales su base de datos aumentará sustancialmente, debe elegir otra opción DBMS.
-  *** Soporte limitado para los estándares SQL: ** MySQL no cumple completamente con los estándares SQL. No proporciona soporte para algunas características estándar de SQL, así como tiene algunas extensiones y características que no coinciden con los estándares de lenguaje de consulta estructurado.
+## contras de mysql   {#cons}
+  * **Propiedad de Oracle: **  MySQL solía ser de código abierto, pero ahora no es de código abierto. Ahora está principalmente bajo la licencia de Oracle que limita la comunidad MySQL en términos de mejorar el DBMS.
+  * **Problemas de escalabilidad: **  MySQL no es tan eficientemente escalable como la base de datos NoSQL. Necesitará más esfuerzo de ingeniería para hacerlo escalable. Entonces, si tiene aplicaciones para las cuales su base de datos aumentará sustancialmente, debe elegir otra opción DBMS.
+  * **Soporte limitado para los estándares SQL: **  MySQL no cumple completamente con los estándares SQL. No proporciona soporte para algunas características estándar de SQL, así como tiene algunas extensiones y características que no coinciden con los estándares de lenguaje de consulta estructurado.
 
-## conclusión {#conclusion}
+## conclusión   {#conclusion}
 Esto nos lleva al final de esta publicación de blog. Sin embargo, hemos pasado por algunos aspectos importantes de MySQL DBMS, como lo que es MySQL, los beneficios de MySQL y los contras de MySQL. Esta publicación de blog seguramente lo ayudará si está buscando optar por una base de datos relacional de código abierto para sus aplicaciones comerciales. Fácil de usar, alto rendimiento, flexibilidad, seguridad, madurez y sintaxis simple hace que MySQL sea uno de los sistemas de gestión de bases de datos más populares. Es compatible con muchos idiomas populares, incluidos PHP, Perl, C, C ++, Java, etc., así como es multiplataforma y se puede instalar en la mayoría de los sistemas operativos, incluidos Windows, Linux, MacOS, Irix y otros. Además, hay otros artículos y productos relevantes mencionados en la sección "Explorar" a continuación que puede consultar.
 Finalmente, [Contenerize.com][10] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Sistemas de gestión de bases de datos de código abierto][11] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][12], [LinkedIn][13] y [Twitter][14].
 

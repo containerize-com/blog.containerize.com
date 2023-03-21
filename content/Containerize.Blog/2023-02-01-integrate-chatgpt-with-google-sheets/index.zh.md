@@ -21,7 +21,7 @@ categories: ['Artificial intelligence']
 * [**如何将Chatgpt与Google表集成？**][6]
 * [**如何在Google表中使用Chatgpt？**][7]
 
-## 如何将ChatGpt与Google表集成{#how-to-integrate-chatgpt-with-google-sheets}
+## 如何将ChatGpt与Google表集成 {#how-to-integrate-chatgpt-with-google-sheets}
 **chatgpt集成**与任何软件肯定会为企业带来竞争优势。一个可以开始双向对话会话的AI驱动模型，然后将其嵌入软件，该集成的功能能力有多强大？当然很棒。因此，您向聊天机器人询问问题的技术解决方案，然后及时获得响应，这在节省时间和精力方面意味着很多。
 让我们开始这个**Google表与Chatgpt集成。**
 首先，打开Goog​​le [Sheets][3]，然后单击**“ Extensions->添加 - >获取附加组件”**。这样做后，您将在Google Workspace Marketplace上看到一个对话框。现在，在放置在右上角的搜索栏中键入“ chatgpt”，然后选择第一个选项，如下图所示。
@@ -35,7 +35,7 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="chatgpt集成">}}
 
 
-## 如何在Google表中使用Chatgpt？ {#操作 - 使用chatgpt-in-google-sheets}
+## 如何在Google表中使用Chatgpt？   {#操作 - 使用chatgpt-in-google-sheets}
 设置了OpenAI API键后，您就可以利用此功能强大的**chatgpt和Google表集成。
 例如，您可以要求此AI驱动的聊天机器人通过以下方式调用该功能来编写汽车的产品描述：
 ```

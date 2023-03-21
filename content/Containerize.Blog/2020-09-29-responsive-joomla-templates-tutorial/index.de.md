@@ -15,26 +15,26 @@ categories: ['Content Management']
 
 
 ## Überblick
-Eine gut konzipierte Business-Website spielt eine wichtige Rolle, um Besucher zu bringen und zu halten, indem sie ihnen eine einfache Navigation verleihen. ** Mit Joomla ** erleichtert seine Benutzer eine Reihe von reaktionsschnellen Layouts und Joomla -Vorlagenentwicklung, die die Ästhetik einer Business -Website kontrollieren.
+Eine gut konzipierte Business-Website spielt eine wichtige Rolle, um Besucher zu bringen und zu halten, indem sie ihnen eine einfache Navigation verleihen. **Mit Joomla**  erleichtert seine Benutzer eine Reihe von reaktionsschnellen Layouts und Joomla -Vorlagenentwicklung, die die Ästhetik einer Business -Website kontrollieren.
 Während der Entwicklungsphase ist die Platzierung von Designelementen sehr kritisch für die Erlangung:
   * Konsistenz
   * Einfache Navigation
   * Einfachheit
   * Mobile Kompatibilität
   * Lesbarkeit
-Hier kommt die ** Joomla -Vorlagen **. Diese Open -Source -Software bietet vor, dass vordefinierte Reaktionslayouts für alle Webseiten entwickelt oder verwendet werden, anstatt für jede Seite Code separat zu schreiben.
-In diesem Blog -Beitrag lernen wir die folgenden Dinge zum Erstellen und Einrichten einer ** benutzerfreundlichen Vorlage ** in Joomla.
-  *[** Was sind Joomla -Layouts? **][2]
-  *[** Wie erstelle ich eine einfache reaktionsschnelle Vorlage in Joomla? **][3]
-  *[** Wie installiere ich eine Joomla -Vorlage? **][4]
-  *[** Fazit **][5]
+Hier kommt die **Joomla -Vorlagen** . Diese Open -Source -Software bietet vor, dass vordefinierte Reaktionslayouts für alle Webseiten entwickelt oder verwendet werden, anstatt für jede Seite Code separat zu schreiben.
+In diesem Blog -Beitrag lernen wir die folgenden Dinge zum Erstellen und Einrichten einer **benutzerfreundlichen Vorlage**  in Joomla.
+  *[**Was sind Joomla -Layouts?** ][2]
+  *[**Wie erstelle ich eine einfache reaktionsschnelle Vorlage in Joomla?** ][3]
+  *[**Wie installiere ich eine Joomla -Vorlage?** ][4]
+  *[**Fazit** ][5]
 
-## Was sind Joomla -Layouts? {#Was}
-Joomla bietet Vorlagen sowohl für das Frontend als auch für das hintere Ende. Es wird mit vielen bereitgestellten Vorlagen geliefert und bietet Entwicklern, ** kostenlose Reaktionsbootstrap -Themen ** gemäß ihren Anwendungsfällen zu erstellen. In Joomla gibt es zwei Arten von Vorlagen.
-** Front-End-Vorlagen: ** bezieht sich auf den Benutzer, der einen Teil einer Business-Website gegenübersteht.
-** Back-End-Vorlagen: ** Diese Vorlagen sind mit der Geschäftslogik einer Website verknüpft.
+## Was sind Joomla -Layouts?   {#Was}
+Joomla bietet Vorlagen sowohl für das Frontend als auch für das hintere Ende. Es wird mit vielen bereitgestellten Vorlagen geliefert und bietet Entwicklern, **kostenlose Reaktionsbootstrap -Themen**  gemäß ihren Anwendungsfällen zu erstellen. In Joomla gibt es zwei Arten von Vorlagen.
+**Front-End-Vorlagen:**  bezieht sich auf den Benutzer, der einen Teil einer Business-Website gegenübersteht.
+**Back-End-Vorlagen:**  Diese Vorlagen sind mit der Geschäftslogik einer Website verknüpft.
 
-## Wie erstelle ich eine einfache reaktionsschnelle Vorlage in Joomla? {#Wie}
+## Wie erstelle ich eine einfache reaktionsschnelle Vorlage in Joomla?   {#Wie}
 In diesem Abschnitt werden wir die Schritte dieses Joomla -Template -Tutorials behandeln.
 Stellen Sie vor dem Einstieg in diesen Abschnitt sicher, dass Sie das Folgende verstehen:
   * Html
@@ -43,16 +43,16 @@ Stellen Sie vor dem Einstieg in diesen Abschnitt sicher, dass Sie das Folgende v
   * Php
 Das Erstellen benutzerdefinierter Vorlagen in Joomla war also noch nie so hart und komplex. Lassen Sie uns jedoch anfangen, unsere erste Joomla -Vorlage zu erstellen.
 
-## ** Setup -Verzeichnisstruktur **
-Erstellen Sie zunächst einen Ordner mit dem Namen "** mytemplate **" im Ordner "** templates **".
-Erstellen Sie die folgenden Dateien im Ordner "** mytemplate **":
-  *** index.php **: Dies ist die Kerndatei, die HTML- und PHP -Code für die gesamten Vorlagenseiten enthält.
-  *** templatatetails.xml **: Diese Datei enthält die Meta -Daten der Vorlage und ist obligatorisch, dass sie von Joomla bemerkt werden.
-Erstellen Sie nun drei Ordner im Ordner "** mytemplate **" mit den folgenden Namen:
-  *** JS **: Dieser Ordner enthält alle für die Vorlage benötigten JavaScript -Dateien
-  *** CSS **: Alle CSS -Dateien zum Styling kommen in diesen Ordner ein
-  *** Bilder **: Die von der Vorlage verwendeten Bilder befinden sich in diesem Ordner
-Erstellen Sie eine CSS -Datei mit dem Namen "** template.css **" im Ordner "** CSS **".
+## **Setup -Verzeichnisstruktur** 
+Erstellen Sie zunächst einen Ordner mit dem Namen "**mytemplate **" im Ordner " **templates**  ".
+Erstellen Sie die folgenden Dateien im Ordner "**mytemplate** ":
+  ***index.php** : Dies ist die Kerndatei, die HTML- und PHP -Code für die gesamten Vorlagenseiten enthält.
+  ***templatatetails.xml** : Diese Datei enthält die Meta -Daten der Vorlage und ist obligatorisch, dass sie von Joomla bemerkt werden.
+Erstellen Sie nun drei Ordner im Ordner "**mytemplate** " mit den folgenden Namen:
+  ***JS** : Dieser Ordner enthält alle für die Vorlage benötigten JavaScript -Dateien
+  ***CSS** : Alle CSS -Dateien zum Styling kommen in diesen Ordner ein
+  ***Bilder** : Die von der Vorlage verwendeten Bilder befinden sich in diesem Ordner
+Erstellen Sie eine CSS -Datei mit dem Namen "**template.css **" im Ordner " **CSS**  ".
 ```
 * mytemplate/
 ** css/
@@ -65,7 +65,7 @@ Erstellen Sie eine CSS -Datei mit dem Namen "** template.css **" im Ordner "** C
 Letztendlich wird die Verzeichnisstruktur so aussehen.
 
 ## Lassen Sie uns einen Code eingeben
-Fügen Sie diesen Code in die Datei ** templatetails.xml ** ein.
+Fügen Sie diesen Code in die Datei **templatetails.xml**  ein.
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,7 +101,7 @@ Fügen Sie diesen Code in die Datei ** templatetails.xml ** ein.
 ```
 Wie bereits erwähnt, enthält diese Datei die Metadaten über die reaktionsschnellen Layouts, die zwischen Markup -Tags definiert sind. Sie können jedoch die allgemeinen Informationen wie Name, Autor und Beschreibung ändern.
 Diese Datei enthält auch Informationen zu den anderen Dateien und Ordnern, die von der Vorlage verwendet werden.
-Öffnen Sie nun die Datei ** index.php ** und setzen Sie den folgenden Code ein:
+Öffnen Sie nun die Datei **index.php**  und setzen Sie den folgenden Code ein:
 ```
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 ```
@@ -114,7 +114,7 @@ Dies soll den Browser über den Dokumenttyp informieren.
 <html xmlns="http://www.w3.org/1999/xhtml" 
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 ```
-HTML -Dokumente beginnen mit dieser Zeile und das Attribut ** xmlns ** sagt dem XML -Namespace für das Dokument an.
+HTML -Dokumente beginnen mit dieser Zeile und das Attribut **xmlns**  sagt dem XML -Namespace für das Dokument an.
 ```
 <head>
     <jdoc:include type="head" />
@@ -168,8 +168,8 @@ Der Körperabschnitt beginnt, nachdem der Kopfabschnitt alle Daten enthält, die
 ```
 <jdoc:include type="modules" name="position-7" style="well" />
 ```
-Diese Erklärung heißt JDOC-Anweisung, mit der Joomla ein Modul mit dem Namen „Position-7“ hinzufügt. Es gibt mehrere JDOC -Aussagen, die in ** Joomla -Vorlagenentwicklung ** häufig verwendet werden.
-Dies ist die endgültige vollständige ** index.php ** Datei mit allen für eine grundlegenden Joomla -Vorlage erforderlichen Code.
+Diese Erklärung heißt JDOC-Anweisung, mit der Joomla ein Modul mit dem Namen „Position-7“ hinzufügt. Es gibt mehrere JDOC -Aussagen, die in **Joomla -Vorlagenentwicklung**  häufig verwendet werden.
+Dies ist die endgültige vollständige **index.php**  Datei mit allen für eine grundlegenden Joomla -Vorlage erforderlichen Code.
 ```
 <!DOCTYPE html>
 
@@ -220,7 +220,7 @@ Dies ist die endgültige vollständige ** index.php ** Datei mit allen für eine
 ```
 Für eine sehr einfache Vorlage ist alles vorhanden. Jetzt ist es Zeit, es auf dem Joomla -Server zu installieren und zu sehen, wie es weitergeht.
 
-## Wie installiere ich Joomla -Vorlage? {#Installieren}
+## Wie installiere ich Joomla -Vorlage?   {#Installieren}
 Der Installationsprozess für Joomla -Vorlage ist ziemlich gerade und einfach. Es sind die folgenden Schritte zu installieren:
 Gehen Sie zu „Erweiterungen -> verwalten -> Installieren
 
@@ -237,9 +237,9 @@ Nachdem die Vorlage installiert wurde, können Sie auf die Vorlagendateien im Be
 
 Jetzt können Sie Ihre erste Joomla -Vorlage im Browser anzeigen!
 
-## Schlussfolgerung {#Conclusion}
-Eine gute und reaktionsschnelle Vorlage ist die Grundlage für die Modellierung des Gesamtstandorts. ** Responsive Layouts ** Bei Joomla sind multifunktional und können für verschiedene Projekte verwendet werden. Mit der Hilfe eines intuitiven Admin -Dashboards wird das Schreiben von Code in die Entwicklung von Joomla -Vorlagen sehr einfach. Joomla bietet die vollständige Kontrolle über die Vorlageentwicklung, um die Wünsche des Benutzers zu erfüllen.
-Da die Kategorie von ** CMS -Software ** konsistent verbessert wird und mehr Tutorials zu anderen Content -Management -Systemen zur Liste hinzugefügt werden, bleiben Sie mit dem Abschnitt [Content Management System][6] für regelmäßige Aktualisierungen in Kontakt.
+## Schlussfolgerung   {#Conclusion}
+Eine gute und reaktionsschnelle Vorlage ist die Grundlage für die Modellierung des Gesamtstandorts. **Responsive Layouts**  Bei Joomla sind multifunktional und können für verschiedene Projekte verwendet werden. Mit der Hilfe eines intuitiven Admin -Dashboards wird das Schreiben von Code in die Entwicklung von Joomla -Vorlagen sehr einfach. Joomla bietet die vollständige Kontrolle über die Vorlageentwicklung, um die Wünsche des Benutzers zu erfüllen.
+Da die Kategorie von **CMS -Software**  konsistent verbessert wird und mehr Tutorials zu anderen Content -Management -Systemen zur Liste hinzugefügt werden, bleiben Sie mit dem Abschnitt [Content Management System][6] für regelmäßige Aktualisierungen in Kontakt.
 
 ## Relevante Produktseiten
 Möglicherweise finden Sie die folgenden Links relevant:

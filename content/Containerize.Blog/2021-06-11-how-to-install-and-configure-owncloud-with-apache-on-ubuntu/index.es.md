@@ -83,7 +83,7 @@ Debería ver la página de inicio de sesión de OwnCloud de código abierto. Ing
 {{< figure align=center src="images/owncloud-setup-1.png" alt="Instale OwnCloud con Apache en Ubuntu">}}
 
 {{_LINE_71_}}
-Ahora deslice su página hacia abajo. En el siguiente formulario, debe ingresar el nombre de usuario y la contraseña para administrar el mejor panel de Cloud Server Personal Cloud Server. También proporcione la base de datos junto con el nombre de usuario y la contraseña para conectar el servidor OwnCloud con el servidor de la base de datos, la ubicación de la carpeta de datos y haga clic en ** Finalizar configuración **.
+Ahora deslice su página hacia abajo. En el siguiente formulario, debe ingresar el nombre de usuario y la contraseña para administrar el mejor panel de Cloud Server Personal Cloud Server. También proporcione la base de datos junto con el nombre de usuario y la contraseña para conectar el servidor OwnCloud con el servidor de la base de datos, la ubicación de la carpeta de datos y haga clic en **Finalizar configuración** .
 {{_LINE_73_}}
 
 {{< figure align=center src="images/owncloud-setup-2.png" alt="Configurar OwnCloud en Ubuntu">}}
@@ -97,15 +97,15 @@ Después de completar la configuración, obtendrá el tablero de administración
 {{_LINE_79_}}
 ¡Sí! Hemos terminado con OwnCloud Installation Guide para crear almacenamiento personal en la nube. Ahora sabe cómo instalar completamente OwnCloud en Ubuntu para construir una nube privada paso a paso similar a Dropbox o Google Drive.
 
-## ** ¿Cuáles son las mejores alternativas para OwnCloud? ** {#4A1A}
+## **¿Cuáles son las mejores alternativas para OwnCloud?**    {#4A1A}
 Los siguientes son las alternativas propias y del software de alojamiento de archivos de competidores autopendiados.
-  *** SEAFILE ** ES SISTEMA DE SOFTWARE DE ALTENCIÓN DE ARCHIVO CON CONTRAJE DE CORRECTO DE OPOR
-  *** NextCloud ** es una plataforma de almacenamiento en la nube gratuita y de código abierto
-  *** Resilio Sync ** es una aplicación de sincronización de archivos de código abierto de código abierto
-  *** Celdas Pydio ** es un software de intercambio de archivos y sincronización de código abierto
-  *** Syncthing ** es una aplicación de sincronización de archivos entre pares de código abierto y de código abierto
+  ***SEAFILE**  ES SISTEMA DE SOFTWARE DE ALTENCIÓN DE ARCHIVO CON CONTRAJE DE CORRECTO DE OPOR
+  ***NextCloud**  es una plataforma de almacenamiento en la nube gratuita y de código abierto
+  ***Resilio Sync**  es una aplicación de sincronización de archivos de código abierto de código abierto
+  ***Celdas Pydio**  es un software de intercambio de archivos y sincronización de código abierto
+  ***Syncthing**  es una aplicación de sincronización de archivos entre pares de código abierto y de código abierto
 
-## ** Conclusión: ** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+## **Conclusión:**    {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
 ¡Felicidades! Ha instalado y configurado con éxito OwnCloud para construir su propia nube privada con Apache en Ubuntu Machine. Ahora sus datos nunca están en manos de terceros y se pueden administrar en privado en el almacenamiento de servidor privado de Ubuntu de Cloud Virtual Cloud. Muchas compañías eligen crear sus propios servidores de Cloud con mucha información vital debido a muchos problemas con la privacidad de los datos. En nuestros próximos tutoriales, discutiremos temas más interesantes de las pilas de soluciones de servidor web.
 _Un puede unirse a nosotros en [Twitter][2], [LinkedIn][3] y nuestra página [Facebook][4]. ¿Qué solución de almacenamiento basada en la nube usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto][5].
 

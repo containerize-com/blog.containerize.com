@@ -19,13 +19,13 @@ Wenn es darum geht, einen Passwort -Manager zu finden, der nicht nur für den in
   * [Hauptunterschiede][3]
   * [Schlussfolgerung][4]
 
-## ** Was ist Bitwarden? **
+## **Was ist Bitwarden?** 
 Bitwarden ist ein vielversprechender Open -Source -Passwort -Manager, der die Kompatibilität der Plattform umfasst, einschließlich einer mobilen und Webanwendung sowie der Befehlszeilenschnittstelle. Sie können auch auf Bitwarden auf Ihrem Desktop zugreifen, da es mit Windows, MacOS und Linux Kompatibilität verfügt. Als Open -Source -Passwort -Manager kann Bitwarden sowohl für den individuellen Gebrauch als auch für die Ebene von Unternehmen verwendet werden. Sie können nicht nur Bitwarden auf Ihren Servern hosten, sondern auch auf Cloud -Hosting und bei der Kompatibilität für Cross -Geräte kann darauf zugegriffen werden, wann immer Sie benötigen.
 
-## ** Was ist Passbolt? **
+## **Was ist Passbolt?** 
 Passbolt ist ein Open -Source -Passwort -Manager, der speziell für Unternehmen entwickelt wurde. Die Benutzeroberfläche wurde konzipiert, berücksichtigt die Bedürfnisse und Anforderungen eines kleinen und großen Teams und ermöglicht eine einfache und sichere Verwaltung von Passwörtern und vertraulichen Informationen, auf die regelmäßig von mehreren Mitarbeitern zugegriffen werden muss. Passbolt kann nur lokal auf Ihrem Server verwendet werden und kann über eine Webbrowser -Erweiterung online zugegriffen werden. Als Open -Source -Passwort -Manager können Sie den Quellcode direkt auf Ihrem Server installieren oder auf Ubuntu, Centos 7, Digital Ocean und mehr hosten.
 
-## ** Hauptunterschiede **
+## **Hauptunterschiede** 
 Sowohl Bitwards als auch Passbolt bieten viele Funktionen und Funktionen als Open -Source -Manager. Hier ist ein Überblick:
 {{_LINE_23_}}
 {{_LINE_24_}}

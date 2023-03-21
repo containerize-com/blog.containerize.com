@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-## ** Genel Bakış **
+## **Genel Bakış** 
 OwnCloud, PHP'de yazılmış ve veri senkronizasyonu ve dosya paylaşımı için kullanılan ücretsiz ve popüler sağlam açık kaynaklı kurumsal web uygulamasıdır. Ayrıca veri dosyalarını, kişileri, takvimleri, listeleri yapmak ve daha fazlasını kolayca yönetmenizi sağlar. Google Drive, Dropbox, ICloud ve diğer bulut depolama hizmetleri gibi en popüler bulut platformlarına harika bir alternatiftir. Ancak diğer bulut depolama hizmetlerinden farklı olarak, Owncloud Selfed Barındırılan kendi ana bilgisayar bulutu oluşturmak için ücretsizdir.
 OwnCloud, özel bir bulut oluşturmak için web arayüzünü kullanarak veri erişimi sağlayan açık kaynaklı bir özel bulut yazılımıdır. Dropbox ve Google Drive'a benzer şekilde takvim etkinliklerini, arşivlerini, resimlerini, kayıtlarını, görevlerini, yer işaretleriyle adres defterlerini kolayca görüntüleyebileceğiniz ve senkronize edebileceğiniz kendi dosya paylaşım sunucunuzu oluşturmanızı sağlar. Ayrıca, tüm kontrolünüz altındaki cihazlarda verileri senkronize etme ve paylaşma seçenekleri sağlar. OwnCloud'u yükleyin ve yapılandırın, masaüstü istemcileri ve mobil uygulama cihazları için senkronize edilmiş verilerinizi destekler. Ayrıca, Ubuntu'da OwnCloud kullanarak kullanıcı başına kullanıcı ve grup erişim kısıtlamalarını kolayca uygulayabilirsiniz. Owncloud Açık Kaynak Kişisel Depolama Sunucusu bir çapraz platform uygulamasıdır ve tüm popüler işletim sistemlerine yüklenebilir.
 Bu öğretici, OwnCloud'u kurmanıza ve Ubuntu LTS sistemlerinde OwnCloud'u yapılandırmanıza yardımcı olacaktır.
@@ -83,7 +83,7 @@ Açık kaynak Owncloud giriş sayfasını görmelisiniz. Yönetici hesabı oluş
 {{< figure align=center src="images/owncloud-setup-1.png" alt="Ubuntu'da Apache ile Owncloud'u kurun">}}
 
 {{_LINE_71_}}
-Şimdi sayfanızı aşağı kaydırın. Aşağıdaki formda, yöneticiye en iyi kişisel bulut sunucusu Owncloud paneline kullanıcı adı ve şifre girmeniz gerekir. Ayrıca, OwnCloud sunucusunu veritabanı sunucusuna, veri klasörünün konumu ile bağlamak için veritabanını kullanıcı adı ve şifre ile birlikte sağlayın ve ** Bitiş Kurulumu ** 'a tıklayın.
+Şimdi sayfanızı aşağı kaydırın. Aşağıdaki formda, yöneticiye en iyi kişisel bulut sunucusu Owncloud paneline kullanıcı adı ve şifre girmeniz gerekir. Ayrıca, OwnCloud sunucusunu veritabanı sunucusuna, veri klasörünün konumu ile bağlamak için veritabanını kullanıcı adı ve şifre ile birlikte sağlayın ve **Bitiş Kurulumu**  'a tıklayın.
 {{_LINE_73_}}
 
 {{< figure align=center src="images/owncloud-setup-2.png" alt="Ubuntu'da Owncloud'u yapılandırın">}}
@@ -97,15 +97,15 @@ Kurulumu tamamladıktan sonra Yönetici Gösterge Tablosunu alacaksınız. Nered
 {{_LINE_79_}}
 Evet! Kişisel bulut depolama alanı oluşturmak için Owncloud kurulum kılavuzu ile işimiz bitti. Artık Dropbox veya Google Drive'a benzer adım adım özel bir bulut oluşturmak için Ubuntu'ya Owncloud'u nasıl yükleyeceğinizi biliyorsunuz.
 
-## ** Owncloud için en iyi alternatifler nelerdir? ** {#4A1A}
+## **Owncloud için en iyi alternatifler nelerdir?**    {#4A1A}
 Aşağıda, kendinden barındırılan Owncloud alternatifleri ve rakipler dosya barındırma yazılımı bulunmaktadır.
-  *** SEAFILE ** Açık kaynaklı platformlu dosya barındırma yazılım sistemidir
-  *** NextCloud ** Ücretsiz ve Açık Kaynak Bulut Depolama Platformu
-  *** Resilio Sync ** Açık Kaynak Eşleme Dosyası Senkronizasyon Uygulamasıdır
-  *** Pydio Hücreleri ** Açık kaynaklı dosya paylaşımı ve senkronizasyon yazılımıdır
-  *** senkronizasyon ** ücretsiz ve açık kaynaklı eşler arası dosya senkronizasyon uygulaması
+  ***SEAFILE**  Açık kaynaklı platformlu dosya barındırma yazılım sistemidir
+  ***NextCloud**  Ücretsiz ve Açık Kaynak Bulut Depolama Platformu
+  ***Resilio Sync**  Açık Kaynak Eşleme Dosyası Senkronizasyon Uygulamasıdır
+  ***Pydio Hücreleri**  Açık kaynaklı dosya paylaşımı ve senkronizasyon yazılımıdır
+  ***senkronizasyon**  ücretsiz ve açık kaynaklı eşler arası dosya senkronizasyon uygulaması
 
-## ** Sonuç: ** {#blok-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+## **Sonuç:**    {#blok-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
 Tebrikler! Ubuntu makinesinde Apache ile kendi özel bulutunuzu oluşturmak için OwnCloud'u başarıyla yüklediniz ve yapılandırdınız. Artık verileriniz asla üçüncü tarafların elinde değildir ve sanal özel bulut owncloud ubuntu sunucu depolamasında özel olarak yönetilebilir. Birçok şirket, verilerin gizliliği ile ilgili birçok sorun nedeniyle birçok hayati bilgi ile Owncloud sunucularını oluşturmayı seçmektedir. Yaklaşan öğreticilerimizde, web sunucusu çözüm yığınlarının daha ilginç konularını tartışacağız.
 _ [Twitter][2], [LinkedIn][3] ve [Facebook][4] sayfamızda bize katılabilirsiniz. Çevrimiçi bulut tabanlı depolama çözümünü hangi kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][5].
 

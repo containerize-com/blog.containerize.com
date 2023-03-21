@@ -13,32 +13,32 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/phplist-plugin.png" alt="plugin phplist">}}
 
-La prise en charge du plugin est une partie essentielle du logiciel, en particulier pour les systèmes open source. Cela permet aux développeurs de créer un nouveau plugin pour étendre les fonctionnalités. ** PHPLIST ** Encourage le développement de plugins afin que les développeurs puissent les utiliser pour ajouter de nouvelles fonctionnalités en fonction de leurs besoins commerciaux. Un plugin phplist est une collection de code autonome contenant du code pour PHP, HTML, CSS et JavaScript.
+La prise en charge du plugin est une partie essentielle du logiciel, en particulier pour les systèmes open source. Cela permet aux développeurs de créer un nouveau plugin pour étendre les fonctionnalités. **PHPLIST**  Encourage le développement de plugins afin que les développeurs puissent les utiliser pour ajouter de nouvelles fonctionnalités en fonction de leurs besoins commerciaux. Un plugin phplist est une collection de code autonome contenant du code pour PHP, HTML, CSS et JavaScript.
 Les applications prennent en charge les plugins pour de nombreuses raisons et certaines d'entre elles sont:
   * Ne modifiez pas les fonctionnalités de base.
   * Permettez aux développeurs de créer de nouvelles fonctionnalités.
   * Réduisez la taille du logiciel.
 Nous discuterons des sujets ci-dessous en détail dans ce tutoriel.
-  * [** Prérequis **][2]
-  * [** Bases du développement du plugin PHPLIST **][3]
-  * [** Créer notre plugin phplist **][4]
-  * [** Conclusion **][5]
+  * [**Prérequis** ][2]
+  * [**Bases du développement du plugin PHPLIST** ][3]
+  * [**Créer notre plugin phplist** ][4]
+  * [**Conclusion** ][5]
 
-## Prérequis {#req}
+## Prérequis   {#req}
   * Dernière version de PHPLIST.
   * Familier avec phplist et php.
   * Compréhension de HTML / CSS et JavaScript.
 
-## bases du développement du plugin phplist {#basics}
+## bases du développement du plugin phplist   {#basics}
 Les méthodes suivantes amélioreront les fonctionnalités d'un plugin phplist.
-  * ** Pages ** - Créez des pages pour des activités telles que les rapports, les statistiques, pour afficher des informations et bien d'autres.
-  * ** Hooks ** - Cela vous permet d'invoquer des fonctionnalités dans des endroits spécifiques.
+  * **Pages**  - Créez des pages pour des activités telles que les rapports, les statistiques, pour afficher des informations et bien d'autres.
+  * **Hooks**  - Cela vous permet d'invoquer des fonctionnalités dans des endroits spécifiques.
 Il existe trois types de plugins spéciaux pour phplist. Un plugin de chaque type peut être activé uniquement.
-  * ** Plugin de l'éditeur ** - permet d'implémenter l'éditeur pour l'édition de campagnes ou de modèles.
-  * ** Plugin d'authentification ** - Cela permet d'ajouter un nouveau mécanisme pour l'authentification des administrateurs.
-  * ** Plugin de l'expéditeur par e-mail ** - Permet d'implémenter une nouvelle méthode d'envoi d'e-mails au lieu des fonctionnalités intégrées.
+  * **Plugin de l'éditeur**  - permet d'implémenter l'éditeur pour l'édition de campagnes ou de modèles.
+  * **Plugin d'authentification**  - Cela permet d'ajouter un nouveau mécanisme pour l'authentification des administrateurs.
+  * **Plugin de l'expéditeur par e-mail**  - Permet d'implémenter une nouvelle méthode d'envoi d'e-mails au lieu des fonctionnalités intégrées.
 
-## Créer notre plugin phplist {#create}
+## Créer notre plugin phplist   {#create}
 Tout d'abord, vous devez prolonger la classe Core PhplistPlugin. Pour créer un plugin, vous devez créer un répertoire nommé «Helloworld» sous Plugin \ _rootdir et créer un fichier nommé helloworld.php au répertoire des plugins. Vous pouvez vérifier le fichier config.php pour trouver la valeur de la variable plugin \ _rootdir. Copiez ci-dessous le code dans le fichier helloworld.php.
 ```
 <?php
@@ -76,20 +76,20 @@ $tk = $_REQUEST['tk'];
 Placez le fichier de classe Helloworld.php et votre répertoire de plugin dans le plugin rootdir pour installer le plugin. Pour activer un plugin, cliquez sur l'onglet Configuration dans la barre de menu, puis cliquez sur les plugins Gérer. La page du plugin vous affichera une liste des plugins disponibles et vous pouvez activer / désactiver votre formulaire de plugin là-bas.
 Vous pouvez accéder à votre plugin par l'URL suivante comme http://example.com/admin/?page=main&pi=helowlorld. Remplacez l'exemple.com par votre nom de domaine.
 
-## Conclusion {#con}
-Nous avons appris les bases de ** PHPLIST PLUGIN ** Development et créé un exemple de plugin. En tant que point de départ, vous pouvez suivre cette directive et explorer davantage le développement du plugin pour améliorer la fonctionnalité.
-Enfin, [** contenerize.com **][6] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [** newsletters **][7] pour les dernières mises à jour.
+## Conclusion   {#con}
+Nous avons appris les bases de **PHPLIST PLUGIN**  Development et créé un exemple de plugin. En tant que point de départ, vous pouvez suivre cette directive et explorer davantage le développement du plugin pour améliorer la fonctionnalité.
+Enfin, [**contenerize.com **][6] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [ **newsletters**  ][7] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents.
-  * [** phplist **][8]
-  * [** Mailtrain **][9]
-  * [** listMonk **][10]
-  * [** MoonMail **][11]
-  * [** Mailman **][12]
-  * [** Top 5 du logiciel de newsletter open source en 2021 **][13]
-  * [** Comment configurer l'application multi-locataire dans phplist **][14]
-  * [** Comment créer et envoyer une newsletter à l'aide de phplist **][15]
+  * [**phplist** ][8]
+  * [**Mailtrain** ][9]
+  * [**listMonk** ][10]
+  * [**MoonMail** ][11]
+  * [**Mailman** ][12]
+  * [**Top 5 du logiciel de newsletter open source en 2021** ][13]
+  * [**Comment configurer l'application multi-locataire dans phplist** ][14]
+  * [**Comment créer et envoyer une newsletter à l'aide de phplist** ][15]
 
   
 [1]: https://products.containerize.com/newsletter/phplist

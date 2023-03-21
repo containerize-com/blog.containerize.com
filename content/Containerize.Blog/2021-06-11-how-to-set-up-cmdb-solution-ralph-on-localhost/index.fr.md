@@ -17,25 +17,25 @@ categories: ['CMDB Software']
 ## **Aperçu**
 En ce qui concerne le moment actuel, les organisations prospèrent pour répondre au rythme de la technologie en utilisant une énorme infrastructure informatique. Ensuite, ce n'est pas moins qu'un défi de gérer des environnements aussi énormes. Cela nécessite la main-d'œuvre et la puissance technologique pour accomplir de telles tâches critiques. Parfois, il devient un problème de formuler des processus et des procédures pour gérer des réseaux complexes de systèmes qui incluent des imprimantes, des ordinateurs de bureau, des scanners, des téléphones et d'autres accessoires informatiques. De même, les configurations de ces nœuds sont également importantes car il y a des chances élevées de temps d'arrêt de n'importe quelle machine dans le réseau. Par conséquent, il devrait y avoir une vérification cohérente sur ces configurations.
 Cependant, il existe de nombreux logiciels open source et gratuits pour suivre et enregistrer les actifs. Ce logiciel est connu sous le nom de logiciel de base de données de gestion de la configuration (CMDB). Récemment, [contenerize.com][1] a publié une solution CMDB [Ralph][2] qui fournit de nombreuses fonctionnalités pour de meilleurs actifs et gestion de la configuration. Dans cet article de blog, nous explorerons Ralph en couvrant les points suivants.
-  * ** [Brief Introduction de la gestion des actifs du logiciel CMDB Ralph][3] **
-  * ** [Caractéristiques de Ralph][4] **
-  * ** [Comment configurer Ralph sur localhost?][5] **
-  * ** [Conclusion][6] **
+  * **[Brief Introduction de la gestion des actifs du logiciel CMDB Ralph][3]** 
+  * **[Caractéristiques de Ralph][4]** 
+  * **[Comment configurer Ralph sur localhost?][5]** 
+  * **[Conclusion][6]** 
 
-## Brief Introduction de la gestion des actifs du logiciel CMDB Ralph {#intro}
+## Brief Introduction de la gestion des actifs du logiciel CMDB Ralph   {#intro}
 Ralph est une solution gratuite de gestion des actifs informatiques open source. Il est multiplateforme et est livré avec des capacités d'auto-hébergement. Il existe un écosystème complet de suivi des actifs en temps réel. Par conséquent, les utilisateurs peuvent effectuer une analyse pour les rapports. Il permet aux utilisateurs d'enregistrer les détails des actifs sur leur cycle de vie. De plus, ce logiciel de gestion des actifs numériques open source offre un espace pour stocker des informations sur les actifs du centre de données. D'un autre côté, cette solution CMDB prend également en charge la gestion des logiciels, licence, certificats et autres contrats. Ralph soutient non seulement la gestion des actifs, mais fournit également des dispositions pour effectuer des actions sur ces actifs. Cependant, les actions sont liées au déploiement d'un hôte, à la génération de factures, à un suivi du domaine ou à la gestion des stocks.
 Cette solution de gestion des actifs informatiques propose une interface reposante. Les développeurs peuvent intégrer de nombreuses applications tierces à l'aide des points de terminaison de l'API exposés par cet outil libre open source. De plus, Ralph est écrit en Python avec l'entrée de HTML, CSS et JavaScript. Par conséquent, il existe une documentation complète sur le développement et le déploiement. Le code source de cette solution de gestion des actions est disponible chez [GitHub][7].
 
-## Caractéristiques de Ralph {#Features}
+## Caractéristiques de Ralph   {#Features}
 Ralph propose de nombreuses fonctionnalités. Cependant, nous mentionnerons certaines des caractéristiques clés suivantes.
-** Extensible **: Ce logiciel de gestion des actifs numériques open source est très extensible. Les développeurs peuvent le déployer dans les locaux ou sur le cloud selon leurs besoins.
-** Prise en charge des centres de données: ** Ralph offre également une prise en charge des entrepôts de données, des salles de centres de données, des serveurs et des racks. Les utilisateurs peuvent garder une trace de tous les composants, de leur réseau et des configurations.
-** API REST **: Ce logiciel CMDB gratuit est hautement personnalisable. En fait, il fournit une API REST pour les intégrations tierces. Les développeurs peuvent l'étendre en fonction de leurs exigences.
-** Interface utilisateur intuitive: ** Il existe une interface utilisateur logique disponible dans cette solution CMDB où les utilisateurs peuvent naviguer facilement. De plus, le tableau de bord administratif fournit divers widgets qui montrent des données à venir en temps réel.
-** Interface de ligne de commande **: Ralph propose une interface de ligne de commande qui fournit une installation pour découvrir des adresses MAC pour le déploiement d'hôtes.
-** Prise en charge des actifs non physiques **: Cette solution de gestion de l'équipement fournit non seulement une prise en charge des actifs physiques, mais gère également les ressources non physiques telles que les domaines, les logiciels et les licences.
+**Extensible** : Ce logiciel de gestion des actifs numériques open source est très extensible. Les développeurs peuvent le déployer dans les locaux ou sur le cloud selon leurs besoins.
+**Prise en charge des centres de données:**  Ralph offre également une prise en charge des entrepôts de données, des salles de centres de données, des serveurs et des racks. Les utilisateurs peuvent garder une trace de tous les composants, de leur réseau et des configurations.
+**API REST** : Ce logiciel CMDB gratuit est hautement personnalisable. En fait, il fournit une API REST pour les intégrations tierces. Les développeurs peuvent l'étendre en fonction de leurs exigences.
+**Interface utilisateur intuitive:**  Il existe une interface utilisateur logique disponible dans cette solution CMDB où les utilisateurs peuvent naviguer facilement. De plus, le tableau de bord administratif fournit divers widgets qui montrent des données à venir en temps réel.
+**Interface de ligne de commande** : Ralph propose une interface de ligne de commande qui fournit une installation pour découvrir des adresses MAC pour le déploiement d'hôtes.
+**Prise en charge des actifs non physiques** : Cette solution de gestion de l'équipement fournit non seulement une prise en charge des actifs physiques, mais gère également les ressources non physiques telles que les domaines, les logiciels et les licences.
 
-## Comment configurer Ralph sur localhost? {#installation}
+## Comment configurer Ralph sur localhost?   {#installation}
 Dans cette section, nous passerons par le processus d'installation du logiciel de gestion des ressources Ralph sur la machine locale. Il est assez facile à configurer et à utiliser.
 Avant de passer à la section suivante, assurez-vous d'avoir installé les conditions préalables suivantes.
   * [Docker-compose][8]
@@ -136,14 +136,14 @@ Il affichera la page de connexion comme indiqué dans l'image ci-dessous:
 {{< figure align=center src="images/Screenshot-2021-06-11-at-15.20.58-1024x577.png" alt="Solution CMDB">}}
 
 
-## Conclusion {#conclusion}
-Après avoir parcouru cet article de blog de tutoriel CMDB, une chose est claire que la gestion des actifs est presque impossible sans une bonne solution CMDB. Le logiciel de gestion des ressources a des rôles spécifiques dans la gestion et le suivi des actifs, des configurations et de leurs relations. Il existe des dispositions pour suivre ces modifications qui sont à peine apportées aux actifs numériques ou physiques. Ces outils gratuits sont faciles à configurer, à utiliser et à venir avec une documentation détaillée et des conseils. Enfin, [** contenerize.com **][1] est destiné à rédiger des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec cette catégorie [][][10] ** [logiciel CMDB][11] ** pour les dernières mises à jour.
+## Conclusion   {#conclusion}
+Après avoir parcouru cet article de blog de tutoriel CMDB, une chose est claire que la gestion des actifs est presque impossible sans une bonne solution CMDB. Le logiciel de gestion des ressources a des rôles spécifiques dans la gestion et le suivi des actifs, des configurations et de leurs relations. Il existe des dispositions pour suivre ces modifications qui sont à peine apportées aux actifs numériques ou physiques. Ces outils gratuits sont faciles à configurer, à utiliser et à venir avec une documentation détaillée et des conseils. Enfin, [**contenerize.com **][1] est destiné à rédiger des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec cette catégorie [][][10]  **[logiciel CMDB][11]**   pour les dernières mises à jour.
 
 ## Explorer
-  * ** [logiciel CMDB][11] **
-  * ** [ralph][2] **
-  * [** Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source **][12]
-  * ** [Tendances de développement logiciel à rechercher en 2021][13] **
+  * **[logiciel CMDB][11]** 
+  * **[ralph][2]** 
+  * [**Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source** ][12]
+  * **[Tendances de développement logiciel à rechercher en 2021][13]** 
 
   
 [1]: https://www.containerize.com/

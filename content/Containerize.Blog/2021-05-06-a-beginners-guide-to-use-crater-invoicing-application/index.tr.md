@@ -19,10 +19,10 @@ Her işletmenin faturaların, giderlerin, ödemelerin ve daha fazlasının yöne
   * [Özellik Keşfi][3]
   * [Sonuç][4]
 
-## krater hakkında giriş {#Introduction}
+## krater hakkında giriş   {#Introduction}
 [Crater][5] ücretsiz ve açık kaynaklı bir faturalandırma uygulamasıdır. Kesinlikle ücretsizdir ve en son sürümlere kolayca güncelleyebilirsiniz. Küçük işletmeler ve serbest çalışanlar için ücretsiz bir muhasebe sistemidir. Ayrıca, masrafları ve ödemeleri takip etmenize, vergileri hesaplamanıza ve tahmin ve faturalar üretmenize olanak tanıyan tam bir faturalandırma çözümüdür. Ayrıca, iPhone ve Android cihazlar için hazır mobil uygulamalarla birlikte gelir. Herhangi bir yerden yönetmenize izin verecektir. Crater web tabanlı bir faturalandırma yazılımı olduğundan, web uygulaması Laravel ve Vuejs ile tasarlanmıştır ve mobil uygulamalar React Native ile oluşturulmuştur. Geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Tam kaynak kodu [GitHub][6] 'da bulunabilir.
 
-## krater kurulum prosedürü {#installation}
+## krater kurulum prosedürü   {#installation}
 Bu bölümde kraterin manuel yöntemle nasıl yükleneceğini ve Docker'ı kullanmayı tartışacağız.
 
 ### Manuel Kurulum
@@ -48,25 +48,25 @@ $ ./docker-compose/setup.sh
 ```
   * Tarayıcınızdaki krater sitesini açın ve kurulum sihirbazını takip edin.
 
-## Özellik Keşfi {#Feature}
+## Özellik Keşfi   {#Feature}
 Bu bölümde, bu açık kaynak faturalandırma uygulamasının temel özelliklerini araştıracağız. Kurulumu bitirdikten sonra, sitenizi http://example.com açın ve uygulamaya giriş yapın.
-  *** Dashboard ** - Oturum açtıktan sonra, uygulamanın tüm görünümünü görüntüleyen gösterge tablosuna götürüleceksiniz.
+  ***Dashboard**  - Oturum açtıktan sonra, uygulamanın tüm görünümünü görüntüleyen gösterge tablosuna götürüleceksiniz.
 
 {{< figure align=center src="images/crater-dashboard-1024x479.png" alt="">}}
 
-  *** Ayarlar ** - Şimdi Ayarlar sayfasına gidin ve hesap ayarları, şirket bilgileri, tercihler, özelleştirmeler, bildirimler, ödeme modülleri vb.
+  ***Ayarlar**  - Şimdi Ayarlar sayfasına gidin ve hesap ayarları, şirket bilgileri, tercihler, özelleştirmeler, bildirimler, ödeme modülleri vb.
 
 {{< figure align=center src="images/crater-settings-1024x478.png" alt="">}}
 
-  *** Öğeler ** - Öğeler sekmesine kenar çubuğu menüsünden erişilebilir. Bu sekmeden öğelerinizi yönetebilirsiniz. Tahminler ve faturalar oluştururken öğeleri kullanabilirsiniz.
-  *** Tahminler ** - Oranlar, indirimler, envanter ve daha fazlasını içeren kapsamlı bir teklif oluşturun. Üç yerleşik şablondan biri bir tahmin oluşturmak için kullanılabilir. Tahmine ek vergiler eklenebilir ve bunlar bileşik vergi olarak da eklenebilir.
-  *** Faturalar ** - Profesyonel faturalar yapın ve bunları müşterilerinize gönderin. Fatura oluşturmak için mevcut şablonları kullanabilirsiniz. Faturaya ek vergiler ve bileşik bir vergi ekleyebilirsiniz. Ayrıca, müşterilerinize bir yüzde veya sabit değer indirimi sağlayabilirsiniz. Ayrıca, bireysel ürünlere ve toplam fatura tutarına indirim uygulayabilirsiniz.
-  *** Ödemeler ** - Bu modül, müşterilerinizden aldığınız ödemeleri takip etmenize yardımcı olur.
-  *** Giderler ** - Giderler modülü, farklı hizmetlerde ne kadar harcadığınızı takip etmenize yardımcı olur.
-  *** Vergiler ** - Bu özelliği kullanarak vergilerinizi kolayca yönetebilirsiniz. Toplam fatura tutarına veya bireysel öğeye birden fazla vergi ekleyebilirsiniz.
-  *** Raporlar ** - Bir ister birkaç müşteri için olsun, tüm faturalarınız hakkında kapsamlı bilgi alın. Krater Destekleri Satış Raporu, Kâr ve Zarar Raporu, Gider Raporu ve Vergi Raporu gibi dört tür raporla birlikte gelir.
+  ***Öğeler**  - Öğeler sekmesine kenar çubuğu menüsünden erişilebilir. Bu sekmeden öğelerinizi yönetebilirsiniz. Tahminler ve faturalar oluştururken öğeleri kullanabilirsiniz.
+  ***Tahminler**  - Oranlar, indirimler, envanter ve daha fazlasını içeren kapsamlı bir teklif oluşturun. Üç yerleşik şablondan biri bir tahmin oluşturmak için kullanılabilir. Tahmine ek vergiler eklenebilir ve bunlar bileşik vergi olarak da eklenebilir.
+  ***Faturalar**  - Profesyonel faturalar yapın ve bunları müşterilerinize gönderin. Fatura oluşturmak için mevcut şablonları kullanabilirsiniz. Faturaya ek vergiler ve bileşik bir vergi ekleyebilirsiniz. Ayrıca, müşterilerinize bir yüzde veya sabit değer indirimi sağlayabilirsiniz. Ayrıca, bireysel ürünlere ve toplam fatura tutarına indirim uygulayabilirsiniz.
+  ***Ödemeler**  - Bu modül, müşterilerinizden aldığınız ödemeleri takip etmenize yardımcı olur.
+  ***Giderler**  - Giderler modülü, farklı hizmetlerde ne kadar harcadığınızı takip etmenize yardımcı olur.
+  ***Vergiler**  - Bu özelliği kullanarak vergilerinizi kolayca yönetebilirsiniz. Toplam fatura tutarına veya bireysel öğeye birden fazla vergi ekleyebilirsiniz.
+  ***Raporlar**  - Bir ister birkaç müşteri için olsun, tüm faturalarınız hakkında kapsamlı bilgi alın. Krater Destekleri Satış Raporu, Kâr ve Zarar Raporu, Gider Raporu ve Vergi Raporu gibi dört tür raporla birlikte gelir.
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Krater ve manuel ve Docker ile nasıl ayarlanacağını öğrendik. Ayrıca, her muhasebe faturalandırma yazılımının sağlaması gereken bazı özelliklere de baktık. Umarım, bu kılavuz, işletmeniz için hızlı bir açık kaynak fatura sistemi uygulamanıza yardımcı olabilir.
 Son olarak, [Containerize.com][7] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [faturalandırma][8] kategorisiyle iletişime geçin.
 

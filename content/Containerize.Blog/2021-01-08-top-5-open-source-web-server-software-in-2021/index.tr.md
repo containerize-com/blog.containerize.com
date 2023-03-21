@@ -24,7 +24,7 @@ Web sunucusu, işletim sistemine yüklü bir yazılım türüdür. HTTP aktarım
   * [Caddy][8]
   * [Tomcat][9]
 
-## XAMPP {#XAMPP-STANDS}
+## XAMPP   {#XAMPP-STANDS}
 XAMPP, platformlar arası (x), apache (a), mariadb (m), php (p) ve perl (p) anlamına gelir. Ücretsiz ve açık kaynaklı bir web sunucusu yazılımıdır. Geliştiricilerin web uygulamalarını veya web sitelerini geliştirme ortamlarında test etmelerine yardımcı olur. XAMPP, Apache, Perl ve MySQL veritabanı ve PHP dahil olmak üzere gerekli tüm bileşenlere sahiptir. Perl ve PHP tabanlı web uygulamaları için güvenilir bir geliştirme ortamı sağlar. Ayrıca, veritabanı yönetimi için MariaDB ve MySQL sağlar. İşte bazı temel özellikleri:
   * Açık kaynak
   * Birden fazla örnek
@@ -33,7 +33,7 @@ XAMPP, platformlar arası (x), apache (a), mariadb (m), php (p) ve perl (p) anla
   * Veritabanlı Web Sunucusu
 [Devamını oku][10]
 
-## nginx {#nginx}
+## nginx   {#nginx}
 NGINX Web Server, WebSocket, HTTP/2 dahil olmak üzere modern web'in tüm bileşenlerini destekler ve birden çok video formatının akışı. Bir web sunucusu olarak başladı, ancak şimdi, e -posta (IMAP, POP3 ve SMTP) için ters bir proxy yazılımı olarak da işlev görmesi için geliştirildi. Ayrıca HTTP, TCP ve UDP sunucuları için ters proxy ve yük dengeleyici olarak çalışır. Ayrıca, bu ters proxy yazılımı, web sunucusu performansında ölçülürse Apache ve diğer sunucuları sürekli olarak yener. Nginx'in bazı önemli özellikleri şunları içerir:
   * Modüler Mimari
   * Yük dengeleme ve hata toleransı
@@ -42,7 +42,7 @@ NGINX Web Server, WebSocket, HTTP/2 dahil olmak üzere modern web'in tüm bileş
   * SSL ve TLS SNI'yi destekler
 [Devamını oku][11]
 
-## Lighttpd {#lighttpd}
+## Lighttpd   {#lighttpd}
 LightTPD, özellikle Linux makineleri için tasarlanmış açık kaynaklı bir hafif web sunucusu yazılımıdır. Çok fazla bellek ve CPU kullanımı gerektirmez. Bu da hız ve yüksek performansa ihtiyaç duyan herhangi bir proje için en iyilerden biri yapar. LightTPD, hız veya performans sorunları olan her sunucu için mükemmel bir çözümdür. Ayrıca, hafif web sunucusu FastCGI, SCGI, Auth, Çıktı-Tıkıştırma ve URL-REWRITY, vb. Dahil gelişmiş özellik setleri sağlar. İşte LightTPD'nin bazı popüler özellikleri:
   * Küçük boyut, sadece 1MB
   * FastCGI, SCGI, CGI arayüzleri için destek
@@ -51,7 +51,7 @@ LightTPD, özellikle Linux makineleri için tasarlanmış açık kaynaklı bir h
   * Çok optimize edilmiş CPU ve RAM kullanımı
 [Devamını oku][12]
 
-## caddy {#caddy}
+## caddy   {#caddy}
 Caddy sunucusunun yapılandırılması ve kullanılması son derece kolaydır. TLS sertifikası yenilemeleri, OCSP zımbalama, statik dosya servisinin yanı sıra ters proxying ve Kubernetes girişini de ilgilendirir. Ayrıca, bu statik dosya sunucusu platformlar arası, açık kaynaklı bir web sunucusudur ve macOS, Linux ve Windows gibi tüm önemli işletim sistemlerinde çalışabilir. Caddy, güçlü ve verimli bir statik dosya web sunucusunun yanı sıra güçlü ve ölçeklenebilir bir ters proxy'dir. Web sitelerinizin sıkıştırma, şablon değerlendirmesi ve markdown oluşturma için CADDY sunucusunu kullanın. İşte Caddy Web sunucusunun bazı temel özellikleri:
   * CaddyFile ile kolay yapılandırma
   * Erişim, hata ve işlem günlükleri
@@ -60,7 +60,7 @@ Caddy sunucusunun yapılandırılması ve kullanılması son derece kolaydır. T
   * Zarif yeniden başlatma/yeniden yükleme
 [Devamını oku][13]
 
-## tomcat {#tomcat}
+## tomcat   {#tomcat}
 Apache Tomcat, Java Servlet, JavaServer sayfaları, Java İfade Dili ve Java WebSocket Technologies'in açık kaynaklı bir uygulamasıdır. Ayrıca, en yaygın kullanılan uygulamalardan ve web sunucularından biridir. Tomcat Server'ın kullanımı kolaydır ve sağlam bir eklenti ekosistemine sahiptir. Apache Tomcat yazılımı, kendi dahili web sunucusuyla ve Apache, Netscape Enterprise Server, Microsoft Kişisel Web Server ve Microsoft Internet Information Server gibi diğer web sunucularıyla bağımsız bir ürün olarak kullanılabilir. İşte Apache Tomcat'ın bazı temel özellikleri:
   * Hafif
   * Açık kaynak

@@ -23,10 +23,10 @@ categories: ['Artificial intelligence']
 * [**检索OpenAI API键并配置代码GPT**][9]
 * [**开始使用代码GPT  -  AI驱动的OpenAI Code Generator**][10]
 
-## 什么是代码GPT？ {#什么is-codegpt}
+## 什么是代码GPT？   {#什么is-codegpt}
 [代码GPT][3]是一个**Visual Studio代码扩展**，可让您从编辑器中的纯文本生成代码段。此**OpenAI代码生成器**基于OpenAI API来处理和生成自然语言的响应。但是，Code GPT建立在GPT-3的顶部，该模型是预培训的模型，因此GPT-3对代码GPT的每个请求都进行了处理，并且该模型足够聪明，可以采用多种情况。此外，此**VSCODE扩展**可让您折射和改进代码片段以及代码生成。实际上，整个环境使您确切地感觉到您在Visual Studio代码编辑器中使用[ChatGpt][11]。
 
-## 如何安装VSCODE扩展代码GPT？ {#操作式安装 -  vscode-extension-codgpt}
+## 如何安装VSCODE扩展代码GPT？   {#操作式安装 -  vscode-extension-codgpt}
 在本节中，我们将详细介绍**VSCODE扩展代码GPT。**为此，请确保您已经在计算机上安装了Visual Studio代码。您可以轻松地从**[vscode Marketplace][12]**安装此扩展程序。
 打开VSCODE编辑器，进入“扩展”，然后将代码GPT键入搜索栏。名称Codegpt将有许多扩展程序，但您必须安装扩展名，如下图所示：
 
@@ -34,7 +34,7 @@ categories: ['Artificial intelligence']
 
 如果您遇到兼容性错误，请将VSCODE更新为最新版本。此外，这种VSCODE扩展在一致的发展之下，因此无法省略异常行为的机会。
 
-## 检索OpenAI API键＆配置代码gpt {#retirevie-openai-api-key-key-configure-coddpt-}
+## 检索OpenAI API键＆配置代码gpt   {#retirevie-openai-api-key-key-configure-coddpt-}
 安装完成后，下一步是从OpenAI [网站][13]中获取API密钥。您需要此API键来启用**代码GPT扩展**的功能。要获取API，请访问此[链接][13]，并创建一个帐户，如果未创建。
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="OEPNAI API">}}
@@ -48,7 +48,7 @@ categories: ['Artificial intelligence']
 
 一旦成功完成，您最终将在Visual Studio代码中安装**代码GPT扩展**。在下一部分中，我们将进一步探讨此VSCODE扩展程序提供的功能。
 
-## 开始使用代码GPT  -  AI驱动的OpenAI Code Generator {#start-using-used-codegpt ---- an-ai-Powered-openai-code-enerator}
+## 开始使用代码GPT  -  AI驱动的OpenAI Code Generator   {#start-using-used-codegpt ---- an-ai-Powered-openai-code-enerator}
 到目前为止，我们已经在Visual Studio代码中设置了代码GPT扩展名。要利用此**vscode扩展代码GPT**，请按“命令+shift+p”选择“ ask codegpt”，然后在输入字段中写下您的问题，例如“ html中的输入元素的代码”，您将获得该问题侧栏中的响应如下图所示：
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="vscode的chatgpt">}}

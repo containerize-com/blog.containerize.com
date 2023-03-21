@@ -15,21 +15,21 @@ Cara membuat tema WordPress adalah salah satu kueri teratas dalam pencarian Goog
   * [Persyaratan][1]
   * [Panduan Langkah demi Langkah][2]
 
-### Persyaratan {#Requirements}
+### Persyaratan   {#Requirements}
 Hal pertama dan terpenting yang perlu Anda lakukan adalah, instal WordPress. WordPress terkenal karena kemudahan pemasangannya. Ini adalah proses yang sederhana dan dapat dilakukan dengan mudah sendiri dengan mengikuti [panduan][3].
 
-### Cara membuat tema WordPress; Panduan Langkah demi Langkah {#Guide}
-Untuk tema WordPress, semuanya akan dilakukan di direktori ** wp_content ** saja. Buat saja subfolder tema baru di folder ** wp_content → tema. ** Mari kita asumsikan nama Anda ** "CustomTheme" **.
-Yang kedua adalah memutuskan tata letak tema. Di sini, tutorial ini menunjukkan tata letak dasar yang terdiri dari ** header, area utama, footer, bilah samping **.
-Pada dasarnya, WordPress hanya membutuhkan 2 file yaitu style.css dan index.php. Tapi, untuk tata letak ini, Anda memerlukan ** 5 file **, sebagai berikut;
-  *** header.php - ** berisi kode untuk bagian header tema.
-  *** index.php - ** berisi kode untuk area utama dan akan menentukan di mana file lainnya akan disertakan. Ini adalah file utama tema.
-  *** sidebar.php - ** berisi informasi tentang bilah samping.
-  *** footer.php - ** Menangani bagian footer.
-  *** style.css - ** Bertanggung jawab atas gaya tema Anda.
-  *** bootstrap.css - ** Tidak ada kode CSS terpisah diperlukan; sangat responsif.
-  *** bootstrap.js - ** menyediakan JS sendiri untuk bilah navigasi, atau tab, dll.
-** bootstrap.js ** dan ** bootstrap.css ** perlu diunduh dari paket bootstrap dan disalin ke folder ** tema **.
+### Cara membuat tema WordPress; Panduan Langkah demi Langkah   {#Guide}
+Untuk tema WordPress, semuanya akan dilakukan di direktori **wp_content  **saja. Buat saja subfolder tema baru di folder **  wp_content → tema.  **Mari kita asumsikan nama Anda **  "CustomTheme"** .
+Yang kedua adalah memutuskan tata letak tema. Di sini, tutorial ini menunjukkan tata letak dasar yang terdiri dari **header, area utama, footer, bilah samping** .
+Pada dasarnya, WordPress hanya membutuhkan 2 file yaitu style.css dan index.php. Tapi, untuk tata letak ini, Anda memerlukan **5 file** , sebagai berikut;
+  ***header.php -**  berisi kode untuk bagian header tema.
+  ***index.php -**  berisi kode untuk area utama dan akan menentukan di mana file lainnya akan disertakan. Ini adalah file utama tema.
+  ***sidebar.php -**  berisi informasi tentang bilah samping.
+  ***footer.php -**  Menangani bagian footer.
+  ***style.css -**  Bertanggung jawab atas gaya tema Anda.
+  ***bootstrap.css -**  Tidak ada kode CSS terpisah diperlukan; sangat responsif.
+  ***bootstrap.js -**  menyediakan JS sendiri untuk bilah navigasi, atau tab, dll.
+**bootstrap.js  **dan **  bootstrap.css  **perlu diunduh dari paket bootstrap dan disalin ke folder **  tema** .
 Berikut adalah langkah -langkah yang harus diikuti untuk mengatur tema
 
 ### Langkah 1: File header.php

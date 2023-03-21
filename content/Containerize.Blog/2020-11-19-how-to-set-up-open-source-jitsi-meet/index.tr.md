@@ -21,11 +21,11 @@ Kısa süre önce [video konferans yazılımı][2] 'in kurumsal sektör üzerind
   * [Jitsi Meet Feature Keşif][5]
   * [Sonuç][6]
 
-## Jitsi'nin kısa bir tanıtımı {#intro}
+## Jitsi'nin kısa bir tanıtımı   {#intro}
 [Jitsi Meet][7] tamamen ücretsiz bir açık kaynak, güvenli ve ölçeklenebilir video işbirliği yazılımıdır. Tam şifreleme, Etherpad için destek ve video/ses kaydı ile çok partili video konferans gibi birkaç popüler özellik sağlar. Bu WebRTC uyumlu yazılım, bir video toplantısına istediğiniz kadar kullanıcıyı davet etmenizi sağlar.
 Sanal toplantıların yükselişi son zamanlarda başladı ve insanlar video/ses çağrıları yoluyla iletişimin daha etkili ve işbirlikçi olduğuna inanıyorlar. Her şeyden önce, bu yazılım kategorisi sadece dizüstü bilgisayarlarda/masaüstünde çalışmakla kalmaz, aynı zamanda katılımcıların cep telefonları aracılığıyla yüz yüze güvenli video toplantılarına katılmalarını da sağlar.
 
-## Jitsi Meet nasıl kurulur? {#kurmak}
+## Jitsi Meet nasıl kurulur?   {#kurmak}
 Bu bölümde, Jitsi Meet'in kurulum sürecine gireceğiz. İlk olarak, aşağıdaki ön koşulları yüklediğinizden emin olun.
   * [Docker][8]
 Docker yüklendikten sonra, bu [link][9] 'dan kaynak kodunun zip dosyasını indirin.
@@ -38,7 +38,7 @@ Bundan sonra, bir `.env 'oluşturmak için aşağıdaki komutu çalıştırın
 Son olarak, Docker görüntüsünü döndürmek ve tarayıcıdaki bu URL'deki uygulamaya erişmek için bu komutu çalıştırın.
 `Docker -Compose Up -d`
 
-## Jitsi Meet Feature Exploration {#Features}
+## Jitsi Meet Feature Exploration   {#Features}
 Bu ücretsiz görüntülü sohbet yazılımı birçok zengin özellik sunar. Bu ilk olarak gösterilecek ana sayfadır.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="video konferans">}}
@@ -64,7 +64,7 @@ Jitsi Meet, emojilerle entegre sohbet sunuyor.
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.19.57_.jpg" alt="Video toplantı yazılımı">}}
 
 
-## Sonuç {#con}
+## Sonuç   {#con}
 Bu makalede, çarpıcı bir uzaktan iletişim yazılımı ve kurulum sürecinden geçtik. Ayrıca, iş ihtiyaçlarını gelişen teknolojilerle senkronize etmek için en iyi çözümleri tercih etmenin zamanı geldi. Sonunda, [Containerize.com][10] video konferans yazılımı listesini genişletmek için çalışıyor. Bu nedenle, düzenli güncellemeler için lütfen [video konferans yazılımı][2] kategorisiyle bağlantıda kalın.
 
 ## İlgili Ürün Sayfaları

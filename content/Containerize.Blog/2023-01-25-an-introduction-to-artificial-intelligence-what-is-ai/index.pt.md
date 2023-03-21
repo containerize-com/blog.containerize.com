@@ -19,16 +19,16 @@ A inteligência artificial é o tópico com melhor classificação no momento at
 Os seguintes tópicos serão abordados nesta postagem do blog:
 * [**O que é inteligência artificial (ai)?**][1]
 * [**Tipos de inteligência artificial**][2]
-***[Aplicações de inteligência artificial][3]**
+* **[Aplicações de inteligência artificial][3]**
 
-## O que é inteligência artificial (AI)? {#What-Is-Artificial-Intelligence}
+## O que é inteligência artificial (AI)?   {#What-Is-Artificial-Intelligence}
 A inteligência artificial é objeto de ciência da computação que aponta para a simulação da inteligência humana em máquinas. É um passo para tornar as máquinas fabricadas humanos inteligentes o suficiente para processar grandes conjuntos de dados e resolver problemas complexos. De acordo com esse ramo do estudo de computador, os computadores são programados para auto-aprendizagem e desenham resultados auto-acionados. O aprendizado de máquina e o processamento de linguagem natural (PNL) fizeram a IA pensar e processar coisas como um cérebro humano. O aprendizado de máquina é um processo no qual as máquinas são capazes o suficiente para aprender com a ajuda de dados e treinamento.
 
 {{< figure align=center src="images/artificial-intelligence-1.png" alt="Uma introdução à inteligência artificial">}}
 
 No entanto, o aprendizado de máquina usa aprendizado profundo, que é um método de rede neural no qual vários elementos de processamento são conectados entre si em uma estrutura em camadas. Na IA, as máquinas de processamento aprendem coisas com base em conjuntos de dados e métodos de teste e não precisam necessariamente ser programados repetidamente para diferentes trabalhos.
 
-## Tipos de inteligência artificial {#Type-of-Atrificial-Intelligence}
+## Tipos de inteligência artificial   {#Type-of-Atrificial-Intelligence}
 Principalmente, existem dois tipos de inteligência artificial. Esta seção da postagem do blog demonstrará esses dois tipos.
 
 #### Inteligência artificial fraca
@@ -37,7 +37,7 @@ De acordo com essa categoria de IA, os sistemas são projetados para resolver pr
 #### forte inteligência artificial
 Forte inteligência artificial oferece a simulação exata do cérebro humano. Inteligência geral artificial e superinteligência artificial também estão nessa categoria. Esta categoria projeta sistemas e modelos que contêm a capacidade de processar coisas e tomar decisões sem intervenção humana. Os robôs interativos são exemplos de IA fortes e carros autônomos também são enriquecidos com sistemas treinados com enormes conjuntos de dados e são capazes de tomar decisões usando rede neural. Além disso, esses sistemas podem fazer previsões com base em sua experiência passada.
 
-##**Aplicações de inteligência artificial**{#Applications-of-Articial-Intelligence}
+##**Aplicações de inteligência artificial** {#Applications-of-Articial-Intelligence}
 Os seguintes pontos lhe darão uma idéia de algumas aplicações proeminentes de inteligência artificial:
 **Reconhecimento da fala**: O processamento da linguagem natural é o principal ramo da IA ​​que processa a voz humana e fornece a saída em escrita ou em outra forma. Esse recurso está disponível em muitos dispositivos, como telefones celulares, carros e muito mais.
 **Reconhecimento facial**: De acordo com este aplicativo, a IA pode comparar várias visões faciais e tem a capacidade de detectar uma estrutura de face específica. Além disso, você pode usar a inteligência artificial para combinar e apontar diferentes sotaques de fala, caligrafia, ruído e muito mais.

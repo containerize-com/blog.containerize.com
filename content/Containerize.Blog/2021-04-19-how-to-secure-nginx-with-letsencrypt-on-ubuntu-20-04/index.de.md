@@ -35,7 +35,7 @@ Um diesem Artikel zu folgen, müssen Sie Abhängigkeiten und Voraussetzungen fü
   * Ein Serverblock, der für diesen Domänennamen konfiguriert ist
   * Firewall ist so konfiguriert, dass sie Verbindungen an den Ports 80 und 443 akzeptieren.
 
-## Schritt 1-Installieren von Certbot {#Schritt-1 --- Installationszertifikat}}
+## Schritt 1-Installieren von Certbot   {#Schritt-1 --- Installationszertifikat}}
 Der erste Schritt zur Sicherung von Nginx und zur Verschlüsselung von Nginx mit Let's Encrypt besteht darin, Nginx CertBot vollständig durchzuführen und einfach zu verwenden, um Paket zum Abrufen und Erneuerungs-Let's Encrypt-SSL-Zertifikaten auf Ihrem Server zu verwenden. Beginnen Sie dazu, zunächst ein Terminal für Ubuntu zu öffnen und das lokale Repository zu aktualisieren. Geben Sie y ein und geben Sie ein, wenn Sie aufgefordert werden.
 ```
 sudo apt update
@@ -44,7 +44,7 @@ sudo apt install certbot python3-certbot-nginx
 ```
 Überprüfen wir nun einige der NGINX Secure Configuration -Einstellungen.
 
-## Schritt 2-Bestätigung der Konfiguration von NGINX {#Schritt-2---Bestätigen Nginx-39-S-Configuration}
+## Schritt 2-Bestätigung der Konfiguration von NGINX   {#Schritt-2---Bestätigen Nginx-39-S-Configuration}
 Wie im Abschnitt Abhängigkeiten und Voraussetzungen erläutert, sollten Sie bereits über eine registrierte Domäne verfügen, und Certbot muss in der Lage sein, den richtigen Nginx -Serverblock für diese Domäne zu finden, um SSL automatisch zu konfigurieren. In diesem Blog-Beitrag wird bei diesem Blog den Domain-Blog.Containerize.com und den Serverblock für Ihre Domain unter /etc/nginx/sites-available/blog.containerize.com verwendet.
 Öffnen Sie zur Bestätigung die Konfigurationsdatei für Ihre Domain mit Nano oder Ihrem bevorzugten Texteditor:
 ```
@@ -65,7 +65,7 @@ sudo systemctl reload nginx
 ```
 CertBot Utility finden jetzt die korrekte NGINX -Server -Blockanweisung, um NGINX zu sichern und automatisch zu aktualisieren. Lassen Sie uns im nächsten Schritt die Firewall aktualisieren, um den HTTPS -Verkehr zu ermöglichen.
 
-## Schritt 3-Https durch die Firewall {#STEP-3 ----HTTPPS-THE-THE-ERFIREWALL} zulassen
+## Schritt 3-Https durch die Firewall   {#STEP-3 ----HTTPPS-THE-THE-ERFIREWALL} zulassen
 Wie in diesem Artikel empfohlen, müssen Sie die Einstellungen anpassen, um den HTTPS -Verkehr zu ermöglichen. Um sicherzustellen, dass Ihre Firewall aktiviert und aktiv ist, führen Sie den folgenden Befehl aus:
 ```
 sudo ufw status
@@ -84,7 +84,7 @@ sudo ufw status
 ```
 Lassen Sie uns als nächstes Certbot ausführen und unsere Zertifikate abrufen.
 
-## Schritt 4-Erhalten Sie ein SSL-Zertifikat {#STEP-4 ----AN-SSL-Zertifikat}}
+## Schritt 4-Erhalten Sie ein SSL-Zertifikat   {#STEP-4 ----AN-SSL-Zertifikat}}
 Das NGINX -Plugin für CertBot kümmert sich um die Neukonfiguration von Nginx und lädt seine Konfiguration bei Bedarf neu. Daher müssen Sie nur Zertifikate mit dem Nginx -Plug -in generieren, indem Sie den folgenden Befehl ausführen:
 ```
 sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
@@ -94,7 +94,7 @@ Wenn dies zum ersten Mal mit dem Dienstprogramm für das Certbot -Dienstprogramm
 Ihre Zertifikate werden heruntergeladen, installiert und mit Nginx SSL Certificate LetSencrypt -Konfigurationen geladen. Laden Sie Ihre Website mithilfe von https: // neu und beachten Sie den Sicherheitsindikator Ihres Browsers. Es sollte darauf hinweisen, dass die Site ordnungsgemäß gesichert ist, normalerweise mit einem Schlossymbol. Wenn Sie Ihren Server mit dem SSL Labs Server -Test testen, wird eine A -Note für Nginx und LetSencrypt erhalten.
 Lassen Sie uns mit dem Testen des Erneuerungsprozesses abschließen.
 
-## Schritt 5-Überprüfung von Certbot Auto-Renewal {#STEP-5 -----ceRtbot-auto-renewal}}
+## Schritt 5-Überprüfung von Certbot Auto-Renewal   {#STEP-5 -----ceRtbot-auto-renewal}}
 Da Encrypt -Zertifikate alle neunzig (90) Tage ablaufen und Nginx SSL LetSencrypt Benutzer ermutigt, die Einrichtung und automatische Erneuerung des Cron -Jobs einzurichten. Öffnen Sie zunächst die Crontab -Konfigurationsdatei für den aktuellen Benutzer:
 ```
 sudo crontab -e
@@ -106,7 +106,7 @@ sudo certbot renew --dry-run
 ```
 Der Cron -Job sollte auch das –quiet -Attribut enthalten, wie im obigen Befehl. Dadurch wird das Nginx Renew -SSL -Zertifikat angewiesen, nach der Ausführung der Aufgabe keine Ausgabe einzuschließen. Aktivieren Sie die Erneuerung der automatischen Zertifikat. Sobald Sie den Cron -Job hinzugefügt haben, speichern Sie die Änderungen und beenden Sie die Datei.
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 In diesem Artikel haben wir gelernt, wie NGINX -Installation von LetSencrypt SSL -Zertifikat installiert wird. Wir haben SSL -Zertifikate für Ihre Domäne heruntergeladen und NGINX so konfiguriert, dass diese Zertifikate verwendet werden. Darüber hinaus sollten Sie CertBot ermöglicht haben, Zertifikate automatisch für SSL Nginx LetSencrypt zu erneuern. In unseren bevorstehenden Tutorials werden wir über interessanere Themen darüber diskutieren, wie Sie einen Webserver mit Standard -Sicherheitstechnologie sichern können, mit dem eine verschlüsselte Kommunikation zwischen einem Webbrowser und einem Webserver ermöglicht werden kann.
 Sie können sich uns auf [Twitter][1], [linkedIn][2] und unserer [Facebook][3] -Seite anschließen. Mit welchem ​​kryptografischen Protokoll können Sie Kommunikationssicherheit über ein Computernetzwerk bereitstellen? Wenn Sie Fragen haben, bitte_ [Kontakt aufnehmen][4].
 

@@ -19,16 +19,16 @@ Kecerdasan buatan adalah topik peringkat teratas pada titik waktu saat ini. Fakt
 Topik berikut akan dibahas dalam posting blog ini:
 * [**Apa itu Kecerdasan Buatan (AI)?**][1]
 * [**Jenis Kecerdasan Buatan**][2]
-***[Aplikasi Kecerdasan Buatan][3]**
+* **[Aplikasi Kecerdasan Buatan][3]**
 
-## Apa itu Kecerdasan Buatan (AI)? {#What-is-artificial-inteligence}
+## Apa itu Kecerdasan Buatan (AI)?   {#What-is-artificial-inteligence}
 Kecerdasan buatan adalah subjek ilmu komputer yang menunjuk pada simulasi kecerdasan manusia pada mesin. Ini adalah langkah menuju membuat mesin buatan manusia cukup pintar untuk memproses set data besar dan menyelesaikan masalah yang kompleks. Sesuai dengan cabang studi komputer ini, komputer diprogram untuk belajar mandiri dan menggambar hasil yang didorong sendiri. Pembelajaran mesin dan pemrosesan bahasa alami (NLP) telah membuat AI berpikir dan memproses hal -hal seperti otak manusia. Pembelajaran mesin adalah proses di mana mesin cukup mampu belajar dengan bantuan data, dan pelatihan.
 
 {{< figure align=center src="images/artificial-intelligence-1.png" alt="Pengantar Kecerdasan Buatan">}}
 
 Namun, pembelajaran mesin menggunakan pembelajaran mendalam yang merupakan metode jaringan saraf di mana beberapa elemen pemrosesan terhubung satu sama lain dalam struktur berlapis. Di AI, mesin pemrosesan mempelajari hal -hal berdasarkan set data dan metode uji coba dan tidak perlu diprogram lagi dan lagi untuk pekerjaan yang berbeda.
 
-## Jenis Kecerdasan Buatan {#Tipe-of-Artificial-Intelligence}
+## Jenis Kecerdasan Buatan   {#Tipe-of-Artificial-Intelligence}
 Terutama, ada dua jenis kecerdasan buatan. Bagian posting blog ini akan menunjukkan kedua jenis ini.
 
 #### Kecerdasan buatan yang lemah
@@ -37,7 +37,7 @@ Sesuai kategori AI ini, sistem dirancang untuk memecahkan masalah yang kurang ko
 #### Kecerdasan buatan yang kuat
 Kecerdasan buatan yang kuat menawarkan simulasi yang tepat dari otak manusia. Kecerdasan umum buatan dan pengawasan buatan juga berada di bawah kategori ini. Kategori ini merancang sistem dan model yang berisi kemampuan untuk memproses berbagai hal dan mengambil keputusan tanpa intervensi manusia. Robot interaktif adalah contoh AI yang kuat dan mobil self-driving juga diperkaya dengan sistem yang dilatih dengan set data besar dan mampu mengambil keputusan menggunakan jaringan saraf. Selain itu, sistem tersebut dapat membuat prediksi berdasarkan pengalaman masa lalu mereka.
 
-##**Aplikasi Kecerdasan Buatan**{#Aplikasi-of-Artificial-Intelligence}
+##**Aplikasi Kecerdasan Buatan** {#Aplikasi-of-Artificial-Intelligence}
 Poin -poin berikut akan memberi Anda gambaran tentang beberapa aplikasi terkemuka dari kecerdasan buatan:
 **Pengenalan Pidato**: Pemrosesan bahasa alami adalah cabang utama AI yang memproses suara manusia dan memberikan output dalam bentuk tertulis atau bentuk lain. Fitur ini tersedia di banyak perangkat seperti ponsel, mobil, dan banyak lagi.
 **Pengenalan wajah**: Sesuai aplikasi ini, AI dapat membandingkan beberapa visi wajah dan memiliki kemampuan untuk mendeteksi struktur wajah tertentu. Selain itu, Anda dapat menggunakan kecerdasan buatan untuk mencocokkan dan menunjukkan aksen ucapan yang berbeda, tulisan tangan, kebisingan, dan banyak lagi.

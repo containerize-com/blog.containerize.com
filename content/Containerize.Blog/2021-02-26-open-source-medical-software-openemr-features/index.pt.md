@@ -15,18 +15,18 @@ categories: ['Healthcare Software']
 
 
 ## Visão geral
-Nos últimos tempos, publicamos postagens no blog sobre [como o software de saúde on -line capacita a indústria de saúde][1] e um artigo do tutorial [como configurar o sistema de eHealth System Hospitalrun no localhost][2]. Neste artigo, examinaremos os recursos promissores oferecidos pela ** Solução de Saúde Médica ** OpenEMR. No momento atual, todo setor de negócios está sendo digitalizado. Máquinas e software enormes estão substituindo a mão de obra devido a certas características. Portanto, o campo médico e de saúde é amplamente revolucionado pela Internet das Coisas. Existem recursos digitais complexos que estão conectados entre si por meio de redes e software complexos. O termo eHealth está ficando popular, onde os médicos fazem pleno uso de software e comunicações em saúde.
+Nos últimos tempos, publicamos postagens no blog sobre [como o software de saúde on -line capacita a indústria de saúde][1] e um artigo do tutorial [como configurar o sistema de eHealth System Hospitalrun no localhost][2]. Neste artigo, examinaremos os recursos promissores oferecidos pela **Solução de Saúde Médica**  OpenEMR. No momento atual, todo setor de negócios está sendo digitalizado. Máquinas e software enormes estão substituindo a mão de obra devido a certas características. Portanto, o campo médico e de saúde é amplamente revolucionado pela Internet das Coisas. Existem recursos digitais complexos que estão conectados entre si por meio de redes e software complexos. O termo eHealth está ficando popular, onde os médicos fazem pleno uso de software e comunicações em saúde.
 Existem muitos softwares médicos de código aberto que fornecem eficiência, melhor qualidade e segurança. Os serviços de saúde digital reduziram vários custos, como custos de viagem, custos em papel e custos humanos. No entanto, abordaremos os seguintes pontos.
-  *[** O que é OpenEmr **][3]
-  *[** Recursos OpenEmr **][4]
-  *[** Conclusão **][5]
+  *[**O que é OpenEmr** ][3]
+  *[**Recursos OpenEmr** ][4]
+  *[**Conclusão** ][5]
 
-## o que é openemr {#intro}
+## o que é openemr   {#intro}
 [OpenEMR][6] é uma solução multilíngue de cuidados médicos de código aberto. Oferece segurança de dados com técnicas de criptografia. Essa solução gratuita de assistência médica facilita seus usuários para gerenciar os registros médicos e o estoque de medicamentos dos pacientes. Além disso, existem muitos recursos, como agendar compromissos do paciente, lembretes e integração do laboratório. No entanto, este software médico de código aberto possui um módulo de cobrança integrado muito poderoso para gerenciar transações financeiras e faturas. OpeNemr é multilíngue e fornece suporte para quase 100 idiomas.
 Este software de cobrança médica baseada na Web é auto-hospedada e fornece uma interface lógica e fácil de usar. Além disso, a prescrição eletrônica é um módulo muito poderoso dessa ferramenta gratuita. Acima de tudo, existem recursos de pesquisa ricos em que os administradores de software médico podem executar pesquisas nos módulos primários. É altamente extensível e oferece suporte para a integração de aplicativos de terceiros. O OpenEMR está escrito no PHP e está totalmente documentado sobre o desenvolvimento e a implantação. Além disso, esta solução de saúde médica é fácil de configurar e requer requisitos simples, como Apache, PHP e MySQL.
 
-## Openemr Recursos {#Features}
-Nesta seção, exploraremos alguns dos principais módulos oferecidos por este ** software de saúde personalizado **.
+## Openemr Recursos   {#Features}
+Nesta seção, exploraremos alguns dos principais módulos oferecidos por este **software de saúde personalizado** .
 Você pode experimentar o OpenEMR seguindo este [link][7]. Depois de abrir este link, você pousará em uma página de login. Você pode usar as seguintes credenciais para fazer login como administrador.
 Nome de usuário: admin
 Senha: Passe
@@ -52,7 +52,7 @@ Os usuários podem ver e pesquisar os relatórios de pacientes da interface do u
 
 Da mesma forma, existem muitos recursos ricos disponíveis neste sistema de gerenciamento hospitalar. Além disso, existe um módulo para gerenciar documentos relevantes, como uma base de conhecimento e também há uma disposição do livro de endereços usado para manter os endereços das entidades. Além disso, você pode ter uma revisão completa e hospedá -la em seus próprios servidores.
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 No final, podemos dizer com segurança que essa solução de saúde médica é realmente uma solução de assistência médica no nível da empresa para gerenciar práticas médicas diárias. Existem muitos softwares médicos de código aberto que oferecem recursos promissores para atender às necessidades comerciais e da comunidade. O OpenEMR parece atender às necessidades básicas e centrais do setor de saúde e, mais importante, é de código aberto gratuito e fácil de estender. Portanto, a comunidade de código aberto está trabalhando ativamente para melhorar o software existente para fornecer serviços de saúde. Esta postagem do blog realmente o ajudará se você deseja optar por eHealth. Além disso, você pode ver o software médico de código aberto alistado na seção Explorar abaixo. Finalmente, [contenderize.com][8] está em um processo consistente de escrever postagens no blog sobre mais os mais recentes produtos de código aberto. Portanto, mantenha contato com essa categoria [Healthcare Technologies][9] para as atualizações mais recentes.
 
 ## Explore

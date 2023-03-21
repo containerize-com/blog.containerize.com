@@ -26,36 +26,36 @@ Diberikan di bawah ini adalah daftar perangkat lunak peretasan paling populer ya
   * Opsi perangkat lunak peretasan etis lainnya untuk dipertimbangkan:
   * Kesimpulan
 
-## 1. Metasploit {#42DB}
+## 1. Metasploit   {#42DB}
 [Metasploit][1] Kerangka kerja adalah alat open-source dan dapat diunduh secara gratis. Metasploit Pro adalah produk komersial. Uji coba gratis tersedia selama 14 hari. Hubungi perusahaan untuk mempelajari lebih lanjut tentang detail harga.
 Ini adalah perangkat lunak untuk pengujian penetrasi. Menggunakan Metasploit Framework, Anda dapat mengembangkan dan menjalankan kode eksploitasi terhadap mesin jarak jauh. Ini mendukung lintas platform. Ini adalah **** terbaik untuk membangun alat anti-forensik dan penghindaran.
-** Kunci ** ** Fitur: **
+**Kunci  ****  Fitur:** 
   * Ini berguna untuk mengetahui tentang kerentanan keamanan.
   * Membantu dalam pengujian penetrasi.
   * Membantu dalam pengembangan tanda tangan IDS.
   * Anda dapat membuat alat pengujian keamanan.
 
-## 2. SQLMAP {#66FD}
+## 2. SQLMAP   {#66FD}
 [SQLMAP][2] adalah alat untuk mengotomatisasi proses mendeteksi & mengeksploitasi kelemahan injeksi SQL dan mengambil alih server database. Ini adalah alat open-source dan memiliki mesin deteksi yang kuat. Ini sepenuhnya mendukung MySQL, Oracle, PostgreSQL, dan banyak lagi. Ini sepenuhnya mendukung enam teknik injeksi SQL, buta berbasis boolean, buta berbasis waktu, berbasis kesalahan, query query, kueri bertumpuk, dan out-of-band.
 SQLMAP mendukung menjalankan perintah sewenang -wenang & mengambil output standar mereka, mengunduh & mengunggah file apa pun, mencari nama basis data tertentu, dll. Ini akan memungkinkan Anda terhubung langsung ke database.
-** Fitur Utama: **
+**Fitur Utama:** 
   * Pengguna, hash kata sandi, hak, peran, basis data, tabel, dan kolom semuanya dapat disebutkan.
   * Format hash kata sandi secara otomatis dikenali, dan serangan berbasis kamus dapat digunakan untuk memecahkannya.
   * Dukungan untuk membuang seluruh tabel database, berbagai entri, atau memilih bidang berdasarkan preferensi pengguna. Pengguna juga dapat memilih subset karakter dari entri masing -masing kolom ke dump.
 
-## 3. HashCat {#66FD}
+## 3. HashCat   {#66FD}
 [Hashcat][3], meskipun terakhir dalam daftar kami, adalah salah satu program peretasan dan peretasan etis yang paling kuat yang tersedia. Ini adalah salah satu program peretas terbaik yang tersedia, dan dapat membantu pengguna dalam memulihkan kata sandi yang terlupakan, mengaudit keamanan kata sandi, atau hanya menentukan data apa yang termasuk dalam hash. Alat ini tersedia secara gratis.
-** Fitur Utama: **
+**Fitur Utama:** 
   * Mendukung pengoperasian otak kandidat kata sandi.
   * Jaringan retak terdistribusi didukung (menggunakan overlay)
   * Jeda/resume interaktif didukung.
   * Sesi dibantu.
   * Membantu dalam pemulihan
 
-## 4. nmap {#b3ed}
+## 4. nmap   {#b3ed}
 [NMAP][4] adalah pemindai keamanan, pemindai port, serta alat eksplorasi jaringan. Ini adalah perangkat lunak open-source dan tersedia secara gratis. Yang terbaik adalah jaringan pemindaian, mudah digunakan dan berpuasa juga. Ini adalah singkatan dari Network Mapper.
 Ini mendukung lintas platform. Ini dapat digunakan untuk inventaris jaringan, mengelola jadwal peningkatan layanan, dan untuk memantau host & layanan uptime. Ini dapat bekerja untuk satu host dan juga jaringan besar. Ini menyediakan paket biner untuk Linux, Windows, dan Mac OS X.
-** Fitur Utama: **
+**Fitur Utama:** 
   * Transfer data, pengalihan, dan alat debugging (NCAT),
   * Memindai hasil yang membandingkan utilitas (ndiff),
   * Pembuatan Paket dan Alat Analisis Respons (NPING),
@@ -66,23 +66,23 @@ Ini mendukung lintas platform. Ini dapat digunakan untuk inventaris jaringan, me
   * Filter paket yang mereka gunakan.
   * Dan banyak karakteristik lainnya.
 
-## 5. John the Ripper {#b3ed}
+## 5. John the Ripper   {#b3ed}
 [John the Ripper][5] adalah alat untuk retak kata sandi. Ini dapat digunakan pada Windows, DOS, dan Buka VM. Ini adalah alat open-source. Ini dibuat untuk mendeteksi kata sandi Unix yang lemah. Yang terbaik untuk cracking kata sandi cepat.
-** Fitur Utama: **
+**Fitur Utama:** 
   * John the Ripper dapat digunakan untuk menguji berbagai kata sandi terenkripsi.
   * Ini melakukan serangan kamus.
   * Ini menyediakan berbagai kerupuk kata sandi dalam satu paket.
   * Ini menyediakan cracker yang dapat disesuaikan.
 
-## Opsi perangkat lunak peretasan etis lainnya untuk dipertimbangkan: {#42DB}
+## Opsi perangkat lunak peretasan etis lainnya untuk dipertimbangkan:   {#42DB}
 Ada lusinan platform peretasan etis sumber terbuka lainnya seperti yang tercantum di bawah ini:
-  *** pemindai ip yang marah **
-  *** Aircrack **
-  *** ettercap **
-  *** nikto **
-  *** zenmap **
+  ***pemindai ip yang marah** 
+  ***Aircrack** 
+  ***ettercap** 
+  ***nikto** 
+  ***zenmap** 
 
-## kesimpulan: {#4a1a}
+## kesimpulan:   {#4a1a}
 Seperti yang dijelaskan di sini, Metasploit juga untuk keamanan dan baik untuk membangun alat anti-forensik dan penghindaran. NMAP digunakan untuk keamanan komputer dan manajemen jaringan. Ini bagus untuk memindai jaringan. Sesuai ulasan yang tersedia secara online, orang merekomendasikan menggunakan NMAP alih -alih pemindai IP yang marah karena pemindai IP yang marah hadir dengan aplikasi yang tidak diinginkan. John the Ripper cepat dalam retak kata sandi. Nikto adalah alat sumber terbuka yang baik untuk pengujian penetrasi.
 _Apht _Open Sumber Ethical Hacking Tools__ _Do You Gunakan?. Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi Anda][6].
 

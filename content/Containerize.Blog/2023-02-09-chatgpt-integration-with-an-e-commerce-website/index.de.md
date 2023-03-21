@@ -24,19 +24,19 @@ Wir werden die ChatGPT -Integration abdecken, indem wir den unten genannten Schr
 * [**Konfigurieren Sie Einstellungen**][8]
 * [**Test und Debugug**][9]
 
-## Schritt 1: So integrieren Sie Chatgpt {#-How-to-Integrate-Chatgpt}
+## Schritt 1: So integrieren Sie Chatgpt   {#-How-to-Integrate-Chatgpt}
 Erreichen Sie**CHATGPT-Integration**in Ihre E-Commerce-Website und es ist der erste Schritt zu personalisierten Produktempfehlungen. Dazu müssen Sie eine Anfrage an die [OpenAI -API][10] mit PHP senden, die die erforderlichen Informationen für ChatGPT enthält, um eine Antwort zu generieren. Der Kontext kann das Browser- und Kaufverlauf für den Benutzer umfassen.
 
-## Schritt 2: Benutzerdaten {#Store-User-Data} speichern
+## Schritt 2: Benutzerdaten   {#Store-User-Data} speichern
 Es ist erforderlich, Benutzerdaten zu speichern, damit ChatGPT personalisierte Produktempfehlungen generiert. Die Daten können jedoch Informationen über den Browserverlauf und die Einkäufe des Benutzers enthalten. Daher sollten die Daten sicher gespeichert und nur zur Erstellung personalisierter Produktempfehlungen verwendet werden.
 
-## Schritt 3: Empfehlungen anzeigen {#Anzeige-Recommendations}
+## Schritt 3: Empfehlungen anzeigen   {#Anzeige-Recommendations}
 Danach besteht der nächste Schritt darin, die von ChatGPT auf Ihrer E-Commerce-Website generierten Produktempfehlungen nach Integration von ChatGPT und Speichern der erforderlichen Benutzerdaten anzuzeigen. Daher können Sie Empfehlungen auf der Produktseite oder in einem separaten Abschnitt der Website anzeigen.
 
-## Schritt 4: Konfigurieren Sie Einstellungen {#Konfigurieren Sie Settings}
+## Schritt 4: Konfigurieren Sie Einstellungen   {#Konfigurieren Sie Settings}
 Um sicherzustellen, dass die Produktempfehlungen von ChatGPT korrekt und relevant sind, muss die Erweiterung konfiguriert werden. Darüber hinaus können Sie API -Endpunkt -URLs, API -Schlüssel und die Anzahl der zu angezeigten Empfehlungen angeben.
 
-## Schritt 5: testen und debuggen {#test-and-debug}
+## Schritt 5: testen und debuggen   {#test-and-debug}
 Um sicherzustellen, dass die Erweiterung wie erwartet funktioniert, muss sie getestet und debuggen werden. Darüber hinaus könnte es das Testen der ChatGPT -Integration, das Testen der Speicherung von Benutzerdaten und das Testen der Anzeige von Empfehlungen beinhalten.
 Vor allem können Sie das folgende Code-Snippet sehen, um die Erzielung von**CHATGPT-Integration in eine E-Commerce-Website**zu erhalten, um personalisierte Produktempfehlungen zu generieren:
 {{< gist fahadadeel 53a1ae29d023baf8d90ed81ac2a55914 >}}

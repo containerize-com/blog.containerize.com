@@ -15,16 +15,16 @@ O software de edição de vídeo avançado é parte integrante de qualquer negó
 
 
 ## Visão geral
-No passado recente, publicamos algumas postagens de blog sobre ferramentas gratuitas de criação de vídeo. A primeira postagem do blog falou sobre o [** impacto do marketing de vídeo nos negócios **][1] e a segunda postagem do blog foi um [** artigo do tutorial em um editor de vídeo popular OpenShot **][2].
+No passado recente, publicamos algumas postagens de blog sobre ferramentas gratuitas de criação de vídeo. A primeira postagem do blog falou sobre o [**impacto do marketing de vídeo nos negócios **][1] e a segunda postagem do blog foi um [ **artigo do tutorial em um editor de vídeo popular OpenShot**  ][2].
 Nesta postagem do blog, abordaremos a breve introdução do seguinte software de editor de vídeo.
-  *** [OpenShot][3] **
-  *[** Shotcut **][4]
-  *** [Flowblade][5] **
-  *** [KdenLive][6] **
-  *** [Blender][7] **
-  *** [Conclusão][8] **
+  ***[OpenShot][3]** 
+  *[**Shotcut** ][4]
+  ***[Flowblade][5]** 
+  ***[KdenLive][6]** 
+  ***[Blender][7]** 
+  ***[Conclusão][8]** 
 
-## OpenShot {#openshot}
+## OpenShot   {#openshot}
 [OpenShot][9] é um editor de vídeo de plataforma cruzada de código aberto e premiado. Ele fornece muitos recursos poderosos, como corte, fatiamento, efeitos, animações 3D e interface amigável do usuário. Além disso, é a melhor plataforma para fazer vídeos, pois fornece integrações de API e desktop REST, onde você pode arrastar e soltar seus arquivos. Este software de código aberto é multilíngue, robusto e seguro. Além disso, há uma documentação abrangente disponível em relação à implantação e desenvolvimento. OpenShot está escrito em Python. Portanto, todo o código -fonte está disponível no [Github][10].
 A seguir estão os recursos proeminentes:
   * Interface repouso
@@ -34,7 +34,7 @@ A seguir estão os recursos proeminentes:
   * Edição de proxy
 [Saiba mais sobre o OpenShot][11]
 
-## shopcut {#shotcut}
+## shopcut   {#shotcut}
 [SPINKCUT][12] é outra criadora de vídeos de código aberto gratuito com muitos recursos poderosos. É multi-plataforma e personalizável. Além disso, existem filtros de vídeo de 360 ​​° de alta qualidade e efeitos disponíveis neste software de edição de vídeo. A ShotCut Video Maker fornece suporte para todos os formatos de imagem populares, como TIFF, BMP, GIF, TGA, WEBP, PNG, JPEG, SVG e JPEG. O Shotcut é capaz de executar como um aplicativo portátil a partir de uma unidade externa. No entanto, este software é escrito em C ++, QML e JavaScript e todo o código -fonte está disponível no [Github][13].
 O spircut tem os seguintes recursos importantes:
   * Edição de 3 pontos
@@ -45,7 +45,7 @@ O spircut tem os seguintes recursos importantes:
   * Medição da qualidade do vídeo
 [Saiba mais sobre o spircut][14]
 
-## Flowblade {#flowblade}
+## Flowblade   {#flowblade}
 [Flowblade][15] é um criador de vídeo de código aberto multitrack competente. Ele vem com ricos recursos de edição de vídeo que incluem uma interface de usuário de arrastar e soltar. Além disso, este editor de vídeo usa a tecnologia de filtragem de imagem de código aberto G'MIC. Existem controles poderosos, como sincronização de áudio da linha do tempo, parte dividida dos videoclipes, criando imagens compositadas e modo de composição de faixa completa. O FlowBlade é escrito em Python com um pouco de entrada de outros idiomas, como HTML, JavaScript CSS. Portanto, seu código -fonte está disponível no [Github][16].
 O FlowBlade oferece os seguintes recursos importantes:
   * Mistura e transformação
@@ -55,7 +55,7 @@ O FlowBlade oferece os seguintes recursos importantes:
   * Arrastar e soltar UI
 [Saiba mais sobre o Flowblade][17]
 
-## kdenLive {#kdenLive}
+## kdenLive   {#kdenLive}
 A KdenLive é outro software de edição de vídeo de código aberto. Este software é construído no topo de [Qt][18], FFMPEG e as bibliotecas [KDE][19], devido às quais podem processar todos os formatos de vídeo/áudio amplamente utilizados. Acima de tudo, sua interface de usuário configurável atrai os usuários para usá -lo para fins profissionais de edição de vídeo. Além disso, existem opções ricas em relação aos efeitos, transições e suporte ao audiômetro e histograma. Além disso, a coisa mais legal sobre esse software de código aberto é o backup automático e de versão automática dos arquivos do projeto. O KdenLive está escrito em C ++ e todo o código -fonte está disponível em [GitHub][20].
 KdenLive cria os seguintes recursos -chave:
   * Interface configurável
@@ -65,7 +65,7 @@ KdenLive cria os seguintes recursos -chave:
   * Edição de vídeo de várias faixas
 [Saiba mais sobre KdenLive][21]
 
-## Blender {#Blender}
+## Blender   {#Blender}
 [Blender][22] é outro aplicativo do editor de vídeo de código aberto. Não é apenas um editor de vídeo, mas uma suíte de criação 3D completa que inclui animação 2D, simulação e rastreamento de movimento. Além disso, este editor de vídeo de código aberto fornece uma interface de usuário totalmente personalizável. Também há API disponível para qualquer tipo de script e modificação. Acima de tudo, o Blender oferece até 32 ferramentas para edição de vídeo com controles de mídia. Este software é escrito em C, C ++ e Python. O código -fonte deste aplicativo está disponível no [GitHub][23].
 O Blender oferece os seguintes pontos -chave:
   * Interface personalizável
@@ -75,7 +75,7 @@ O Blender oferece os seguintes pontos -chave:
   * Exibições de histograma
 [Saiba mais sobre o liquidificador][22]
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Isso encerra o fim deste post do blog. Este artigo pode ajudá -lo a fazer uma escolha entre as ferramentas populares de criação de vídeo gratuitas. No entanto, faça a escolha certa e crie vídeos de negócios de alta qualidade atraentes.
 Finalmente, [contenderize.com][24] está escrevendo continuamente postagens de blog sobre produtos e tópicos de código aberto. Portanto, mantenha contato com a categoria [Software de edição de vídeo][25] para atualizações regulares.
 

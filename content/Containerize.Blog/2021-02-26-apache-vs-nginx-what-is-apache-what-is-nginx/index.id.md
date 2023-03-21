@@ -15,7 +15,7 @@ categories: ['Web Server Solution Stack']
 
 
 ## Ringkasan
-Meskipun Apache dan Nginx memiliki banyak kualitas, mereka tidak boleh dianggap sepenuhnya dipertukarkan. Kedua server web open source berbeda satu sama lain dan harus dipilih sesuai dengan kebutuhan aplikasi web Anda. Dalam artikel ini, kita akan membahas ** Apache vs nginx ** Perbandingan secara rinci.
+Meskipun Apache dan Nginx memiliki banyak kualitas, mereka tidak boleh dianggap sepenuhnya dipertukarkan. Kedua server web open source berbeda satu sama lain dan harus dipilih sesuai dengan kebutuhan aplikasi web Anda. Dalam artikel ini, kita akan membahas **Apache vs nginx**  Perbandingan secara rinci.
   * [Apa itu Apache?][1]
   * [Apa itu nginx?][2]
   * [Apache vs Nginx Perbandingan][3]
@@ -23,13 +23,13 @@ Meskipun Apache dan Nginx memiliki banyak kualitas, mereka tidak boleh dianggap 
   * [Kesimpulan][5]
   * [Jelajahi][6]
 
-## Apa itu Apache? {#whatisapache}
+## Apa itu Apache?   {#whatisapache}
 Apache Web Server adalah salah satu server paling populer di internet dan melayani lebih dari 27% situs web. Apache sebagian besar merupakan pilihan pertama pengembang karena fleksibilitas, daya serta dukungan luas, dan dokumentasi terperinci. Ini mendukung modul yang dapat dimuat secara dinamis yang memungkinkan pengembang untuk dengan mudah memperluas fungsinya.
 
-## Apa itu nginx? {#whatisnginx}
+## Apa itu nginx?   {#whatisnginx}
 Artikel ini adalah tentang perbandingan Apache vs nginx. Kedua server Web adalah sumber terbuka, dapat dikonfigurasi, dan menangani lebih dari setengah lalu lintas internet dunia.
 
-## Apache vs Nginx Perbandingan {#apachevsnginx}
+## Apache vs Nginx Perbandingan   {#apachevsnginx}
 Di bagian ini, mari kita bandingkan Apache dan Nginx berdasarkan dukungan, dokumentasi, jenis konten, dan struktur konfigurasi.
 
 #### Arsitektur
@@ -50,14 +50,14 @@ Apache Server memiliki kemampuan untuk menafsirkan permintaan sebagai sumber day
 Konfigurasi ####
 Apache menyediakan kemampuan bagi pengembang untuk mengatur konfigurasi pada tingkat direktori menggunakan file yang disebut .htaccess. Tetapi dalam kasus Nginx, tidak ada mekanisme seperti itu untuk mengatur konfigurasi pada tingkat direktori. Apache memberikan lebih banyak fleksibilitas daripada Nginx dalam hal konfigurasi.
 
-## Apakah nginx lebih baik dari Apache? {#nginx}
+## Apakah nginx lebih baik dari Apache?   {#nginx}
 Nginx lebih cepat dari Apache untuk menyajikan konten statis. Jadi, jika aplikasi web Anda menyajikan banyak konten statis maka ya nginx lebih baik dan lebih cepat daripada Apache. Sejauh menyangkut konten dinamis, kedua server web hampir memberikan kinerja yang sama sehingga tidak ada pemenang yang jelas di sini. Baik Apache dan Nginx berjalan di hampir semua sistem operasi, tetapi kinerja Nginx di Windows tidak sebagus dibandingkan dengan Apache. Jika sistem operasi Anda adalah sistem seperti UNIX dan aplikasi web Anda sangat penting maka ya, Nginx lebih baik daripada Apache.
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Baik Apache dan Nginx mampu dengan cara mereka sendiri. Kami telah membahas perbandingan Apache vs nginx, apa itu Apache, apa itu Nginx secara detail dan perbedaan antara Apache dan Nginx. Memilih satu dari dua server web paling populer ini sepenuhnya tergantung pada persyaratan aplikasi web Anda. Seleksi tergantung pada harapan Anda dengan kinerja, pemanfaatan sumber daya, kecepatan, skalabilitas, dan dukungan server web. Keduanya memiliki manfaat sendiri. Tidak ada server web satu ukuran untuk semua, jadi gunakan solusi yang paling sesuai dengan tujuan dan harapan Anda.
 Akhirnya, [containerize.com][7] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [server web terbuka][8] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][9], [LinkedIn][10], dan [Twitter][11].
 
-## Jelajahi {#Explore}
+## Jelajahi   {#Explore}
 Anda mungkin menemukan tautan berikut yang relevan:
   * [Top 5 Open Source Web Server Solution Stacks di 2021][12]
   * [Pengaturan XAMPP dan PHPMyAdmin sebagai localhost di windows][13]

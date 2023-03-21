@@ -24,7 +24,7 @@ Ein Webserver ist eine Art von Software, die im Betriebssystem installiert ist. 
   * [Caddy][8]
   * [Tomcat][9]
 
-## xampp {#xampp-stands}
+## xampp   {#xampp-stands}
 Xampp steht für plattformübergreifende (x), Apache (A), Mariadb (M), PHP (P) und Perl (P). Es handelt sich um eine kostenlose und Open-Source-Webserver-Software. Es hilft Entwicklern, ihre Web -Apps oder Websites in ihrer Entwicklungsumgebung zu testen. XAMPP verfügt über alle erforderlichen Komponenten, einschließlich Apache, Perl sowie MySQL -Datenbank und PHP. Es bietet eine zuverlässige Entwicklungsumgebung für Perl- und PHP -basierte Webanwendungen. Darüber hinaus bietet es Mariadb und MySQL für die Datenbankverwaltung. Hier sind einige seiner Schlüsselmerkmale:
   * Open Source
   * Mehrere Instanzen
@@ -33,7 +33,7 @@ Xampp steht für plattformübergreifende (x), Apache (A), Mariadb (M), PHP (P) u
   * Webserver mit Datenbank
 [Lesen Sie mehr][10]
 
-## nginx {#nginx}
+## nginx   {#nginx}
 Der NGINX -Webserver unterstützt alle Komponenten des modernen Webs, einschließlich WebSocket, HTTP/2 und Streaming mehrerer Videoformate. Es begann als Webserver, aber jetzt hat es sich entwickelt, um auch als Reverse -Proxy -Software für E -Mail (IMAP, POP3 und SMTP) zu fungieren. Es funktioniert auch als Reverse Proxy und Load Balancer für HTTP-, TCP- und UDP -Server. Darüber hinaus schlägt diese Reverse -Proxy -Software APache und andere Server konsequent, wenn sie auf der Leistung des Webservers gemessen werden. Einige wichtige Merkmale von Nginx sind:
   * Modulare Architektur
   * Lastausgleich und Fehlertoleranz
@@ -42,7 +42,7 @@ Der NGINX -Webserver unterstützt alle Komponenten des modernen Webs, einschlie�
   * Unterstützt SSL und TLS SNI
 [Lesen Sie mehr][11]
 
-## lightTpd {#Lighttpd}
+## lightTpd   {#Lighttpd}
 LightTPD ist eine Open Source Lightweight Web Server -Software, die speziell für Linux -Maschinen entwickelt wurde. Es erfordert nicht viel Speicher und CPU -Nutzung. Dies macht es zu einem der besten für jedes Projekt, das Geschwindigkeit und hohe Leistung erfordert. LightTPD ist die perfekte Lösung für jeden Server, der Geschwindigkeits- oder Leistungsprobleme hat. Darüber hinaus bietet Lightweight Web Server erweiterte Funktionssätze, einschließlich FastCGI, SCGI, Auth, Ausgangskompression und URL-Wrewriting usw. Außerhalb von PHP unterstützt es auch andere Programmiersprachen, einschließlich Python, Perl, Ruby und vieles mehr. Hier sind einige beliebte Merkmale von LightTPD:
   * Kleine Größe, nur 1 MB
   * Unterstützung für Fastcgi, SCGI, CGI -Schnittstellen
@@ -51,7 +51,7 @@ LightTPD ist eine Open Source Lightweight Web Server -Software, die speziell fü
   * Sehr optimierte CPU- und RAM -Nutzung
 [Lesen Sie mehr][12]
 
-## caddy {#caddy}
+## caddy   {#caddy}
 Caddy Server ist extrem einfach zu konfigurieren und zu verwenden. Es kümmert sich um TLS -Zertifikaterneuerungen, OCSP -Stapeln, statische Dateien sowie Reverse -Proxying und Kubernetes -Eingress. Darüber hinaus ist dieser statische Dateiserver ein plattformübergreifender, Open-Source-Webserver und kann alle wichtigen Betriebssysteme wie MacOS, Linux und Windows übertragen. Caddy ist ein flexibler und effizienter Webserver statischer Datei sowie ein leistungsstarker und skalierbarer Reverse -Proxy. Verwenden Sie den CADDY -Server für Komprimierung, Vorlagenbewertung und Markdown -Rendering Ihrer Websites. Hier sind einige wichtige Funktionen des Caddy -Webservers:
   * Einfache Konfiguration mit der CaddyFile
   * Zugriffs-, Fehler- und Prozessprotokolle
@@ -60,7 +60,7 @@ Caddy Server ist extrem einfach zu konfigurieren und zu verwenden. Es kümmert s
   * Anmutig neu starten/neu laden
 [Lesen Sie mehr][13]
 
-## tomcat {#tomcat}
+## tomcat   {#tomcat}
 Apache Tomcat ist eine Open-Source-Implementierung der Java Servlet, Javaserverseiten, Java Expression Language und Java WebSocket Technologies. Darüber hinaus ist es eine der am häufigsten verwendeten Anwendungen und Webserver. Der Tomcat-Server ist einfach zu bedienen und verfügt über ein robustes Ökosystem von Add-Ons. Apache Tomcat -Software kann als eigenständiges Produkt mit einem eigenen internen Webserver sowie anderen Webserver wie Apache, Netscape Enterprise Server, Microsoft Personal Web Server und Microsoft Internet Information Server verwendet werden. Hier sind einige wichtige Funktionen von Apache Tomcat:
   * Leicht
   * Open Source

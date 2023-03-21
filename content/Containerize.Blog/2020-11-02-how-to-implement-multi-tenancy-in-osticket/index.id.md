@@ -20,21 +20,21 @@ Dalam artikel ini kita akan membahas cara membuat kustomisasi osticket untuk men
   * [Implementasi][3]
   * [Kesimpulan][4]
 
-## Osticket Ikhtisar: {#Osticket}
+## Osticket Ikhtisar:   {#Osticket}
 [OSTICKET][5] adalah perangkat lunak Bantuan Meja Bantuan Web Dukungan Pelanggan Open Source Open Source. Ini menyediakan panel kontrol intuitif dan komponen pelaporan real-time. Ini memiliki modul manajemen pertanyaan yang mudah digunakan. Ini memungkinkan Anda untuk membuat pertanyaan dari ponsel, email, dan formulir berbasis web Anda. Yang menawarkan banyak opsi untuk membantu menyesuaikan semua bagian dari pengalaman dukungan klien seperti komentar dan pemberitahuan email.
 
-## ikhtisar multi-tenancy: {#multitenancy}
+## ikhtisar multi-tenancy:   {#multitenancy}
 Multi-tenancy mengacu pada implementasi, di mana beberapa contoh independen dari suatu aplikasi beroperasi di lingkungan bersama. Contoh (penyewa) terisolasi secara logis, tetapi terintegrasi secara fisik. Suatu organisasi mungkin dapat memiliki banyak departemen. Jadi mereka dapat membuat beberapa penyewa/instance dari aplikasi yang sama. Misalnya, dalam kasus kami, sistem HelpDesk dapat dikonfigurasi untuk berbagai domain dari organisasi yang sama. Mungkin ada ratusan penyewa tetapi mereka semua akan menggunakan file yang sama dan karenanya penyimpanan yang sama. Ini akan mengurangi biaya penyimpanan serta akan membuat peningkatan lebih mudah. Pengembang hanya perlu memperbarui file dari satu tempat alih -alih membuat perubahan untuk setiap situs secara terpisah.
 
-## Apa manfaat dari multi-tenancy? {#benefits}
+## Apa manfaat dari multi-tenancy?   {#benefits}
 Berikut adalah beberapa manfaat penting dari multi-tenancy
-  *** Optimalisasi Sumber Daya: ** Satu mesin yang disediakan untuk satu penyewa tidak efisien. Karena satu penyewa tidak mungkin menggunakan semua daya komputasi mesin. Mesin berbagi akan memaksimalkan ketersediaan sumber daya.
-  *** Biaya yang lebih rendah: ** Dengan beberapa penyewa berbagi sumber daya yang sama akan jauh lebih rendah daripada jika setiap penyewa membutuhkan infrastruktur khusus mereka sendiri.
-  *** Hosting yang efisien: ** Juga osticket multi-tenant akan mengurangi biaya hosting seminimal mungkin di lingkungan bersama.
-  *** Keamanan: ** Dengan interaksi yang lebih sedikit dengan dunia luar, paparan perangkat lunak berbahaya berkurang.
-  *** Upgrade Mudah **: Upgrade file hanya di satu tempat alih -alih memperbaruinya secara terpisah. Ini akan menghemat banyak waktu dan usaha.
+  ***Optimalisasi Sumber Daya:**  Satu mesin yang disediakan untuk satu penyewa tidak efisien. Karena satu penyewa tidak mungkin menggunakan semua daya komputasi mesin. Mesin berbagi akan memaksimalkan ketersediaan sumber daya.
+  ***Biaya yang lebih rendah:**  Dengan beberapa penyewa berbagi sumber daya yang sama akan jauh lebih rendah daripada jika setiap penyewa membutuhkan infrastruktur khusus mereka sendiri.
+  ***Hosting yang efisien:**  Juga osticket multi-tenant akan mengurangi biaya hosting seminimal mungkin di lingkungan bersama.
+  ***Keamanan:**  Dengan interaksi yang lebih sedikit dengan dunia luar, paparan perangkat lunak berbahaya berkurang.
+  ***Upgrade Mudah** : Upgrade file hanya di satu tempat alih -alih memperbaruinya secara terpisah. Ini akan menghemat banyak waktu dan usaha.
 
-## Implementasi Osticket Multi-Tenant: {#Implementation}
+## Implementasi Osticket Multi-Tenant:   {#Implementation}
   * Buat nama basis data kosong baru sebagai "Main_DB".
   * Kemudian buat tabel bernama "Penyewa" yang akan menyimpan detail tentang semua penyewa.
   * Ini akan memiliki bidang berikut:
@@ -64,7 +64,7 @@ if ($url == $row['url']) {
   * Kode ini akan memperbarui konektivitas basis data default. Ini pertama -tama akan mendapatkan URL penyewa saat ini. Maka itu akan mendapatkan nama basis data sesuai dengan URL itu. Begitulah cara aplikasi akan mengetahui basis data mana yang akan terhubung. Setiap penyewa akan memiliki database terpisah. Basis data akan dipilih berdasarkan URL penyewa.
   * Untuk membuat penyewa baru, cukup atur domain penyewa baru di server nginx. Setelah itu cukup salin database Osticket saat ini dan ganti namanya. Akhirnya tambahkan entri ke dalam tabel "penyewa" dari database "Main_DB".
 
-## kesimpulan: {#conclusion}
+## kesimpulan:   {#conclusion}
 Osticket adalah perangkat lunak Manajemen Bantuan IT Source dan Open Source. Kami telah belajar bagaimana membuat kustomisasi Osticket untuk mengimplementasikan multi-tenancy di Osticket untuk dapat menghemat biaya, mengoptimalkan aplikasi, dan lebih rendah persyaratan sumber daya. Ini akan membuat hidup lebih mudah bagi pengembang untuk menciptakan penyewa baru dalam beberapa langkah sederhana. Karenanya buat beberapa penyewa osticket dari instalasi yang sama.
 
 ## Mengeksplorasi:

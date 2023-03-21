@@ -26,14 +26,14 @@ En esta guía, vamos a describir los pasos sobre cómo instalar y asegurar phpmy
   * Asegurar phpmyadmin
   * Conclusión
 
-## Paso 1: Requisitos previos {#ID-Prerequisitos}
+## Paso 1: Requisitos previos   {#ID-Prerequisitos}
 Para seguir esta guía, necesitará el servidor Ubuntu 20.04 que se ejecuta en su computadora local o en un servidor remoto con requisitos previos.
   * Debe acceder al servidor como usuario no raíz con privilegios de sudo y habilitado UFW Firewall.
   * Se supone que ya ha instalado Nginx, MySQL y PHP en Ubuntu.
   * Como PhPMyAdmin utiliza credenciales de MySQL para autenticarse, también debe instalar certificados SSL/TLS para habilitar el tráfico cifrado entre el servidor y el cliente.
 Con eso fuera del camino, comencemos a instalar y asegurar phpMyadmin para conectarse al servidor MySQL para acceder a la base de datos a través de la interfaz web.
 
-## Paso 2: Instale PhPMyadmin {#ID-1-Install-PhpMyadmin}
+## Paso 2: Instale PhPMyadmin   {#ID-1-Install-PhpMyadmin}
 Asegúrese de haber instalado con éxito todos los requisitos previos en su sistema antes de instalar phpmyadmin en Ubuntu 20.04. Comience actualizando la lista de paquetes:
 ```
 sudo apt update 
@@ -43,13 +43,13 @@ Ahora, ejecute el siguiente comando para instalar el paquete PhPMyAdmin desde lo
 sudo apt install phpmyadmin
 
 ```
-Presione ** y ** y ** Enter ** Cuando se le pide que continúe. Si se le solicita que elija un servidor web, ya que no hay opción para ** Nginx ** como a continuación, presione ** pestaña ** para seleccionar OK y luego ** Ingrese ** para continuar sin seleccionar un servidor web.
+Presione  **y **  y  **Enter **  Cuando se le pide que continúe. Si se le solicita que elija un servidor web, ya que no hay opción para  **Nginx **  como a continuación, presione  **pestaña **  para seleccionar OK y luego  **Ingrese **  para continuar sin seleccionar un servidor web.
 
 {{< figure align=center src="images/mysql-setup.png" alt="Instale y asegure phpmyadmin para Nginx en Ubuntu 20.04">}}
 
 
-## Paso 2: Configurar la base de datos {#ID-1-Install-PhpMyadmin}
-A continuación, seleccione ** Sí ** y presione ** Ingrese ** para instalar y configurar la base de datos utilizando la herramienta DBConfig-Common:
+## Paso 2: Configurar la base de datos   {#ID-1-Install-PhpMyadmin}
+A continuación, seleccione  **Sí **  y presione  **Ingrese **  para instalar y configurar la base de datos utilizando la herramienta DBConfig-Common:
 
 {{< figure align=center src="images/phpmyadmin-install2.png" alt="Cómo configurar mysql con phpmyadmin">}}
 
@@ -57,21 +57,21 @@ La contraseña de la aplicación MySQL es utilizada internamente por PhPMyAdmin 
 
 {{< figure align=center src="images/phpmyadmin-install3.png" alt="Cómo configurar mysql para phpmyadmin">}}
 
-Se le solicitará que confirme la contraseña, ingrese la misma contraseña, seleccione ** Aceptar ** y presione ** Enter **. ¡Felicidades! PhPMyAdmin se ha instalado con éxito en su sistema.
+Se le solicitará que confirme la contraseña, ingrese la misma contraseña, seleccione  **Aceptar **  y presione  **Enter ** . ¡Felicidades! PhPMyAdmin se ha instalado con éxito en su sistema.
 
-## Paso 4: Crear enlace simbólico {#id-2-create-symbolic-link}
+## Paso 4: Crear enlace simbólico   {#id-2-create-symbolic-link}
 Hay varias formas en cómo configurar el Nginx para servir a los archivos PhPMyAdmin. Si el bloque de servidor de su dominio ya está configurado para atender las solicitudes PHP, debe crear un enlace simbólico desde los archivos de instalación PhPMyadmin Nginx/USR/Share/PHPMyAdmin a su directorio raíz de documento de dominio. La ubicación predeterminada de la raíz del documento NGINX en Ubuntu 20.04/20.10 debe ser/var/www/html/y podría ser diferente dependiendo de su configuración de INS. La raíz de su documento puede ubicarse, por ejemplo, en /var/www/example.com/public_html.
 A continuación, crearemos un enlace simbólico desde el directorio phpmyadmin/usr/share/phpmyadmin a su raíz de documento. Aquí asumiremos que nuestra raíz del documento es/var/www/html/y simplemente agregaremos phpmyadmin al final de esto. Esto nos permitirá acceder a phpmyadmin en url ejemplo.com/phpmyadmin
 ```
 sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 
-## Paso 5: Acceder a phpmyadmin {#id-3-test-phpmyadmin}
+## Paso 5: Acceder a phpmyadmin   {#id-3-test-phpmyadmin}
 Ahora debería poder acceder a la interfaz web PhPMyAdmin visitando el host/nombre de dominio o la dirección IP pública de su servidor seguido de dominio.com/phpmyadmin en su navegador web favorito. Por ejemplo, http://example.com/phpmyadmin o http://192.168.1.10/phpmyadmin
 {{_LINE_48_}}
 En los servidores Ubuntu que se ejecutan con MySQL 5.7 y más tarde, no podrá iniciar sesión en la base de datos PhPMyAdmin gratuita utilizando la cuenta raíz predeterminada de MySQL y obtendrá un error como _ "Acceso denegado por el usuario" root "@’ localhost "". En su lugar, debe crear una nueva cuenta de Superuser solo para PhPMyAdmin. A continuación, crearemos una cuenta root de MySQL para iniciar sesión en phpmyadmin.
 
-## Paso 6: Crea MySQL Superuser {#id-4-create-mysql-superuser}
+## Paso 6: Crea MySQL Superuser   {#id-4-create-mysql-superuser}
 En Terminal, inicie sesión en MySQL usando su contraseña de root MySQL que puede haber creado una contraseña de root cuando instaló la base de datos PhPMyAdmin MySQL por primera vez.
 ```
 sudo mysql -u root -p
@@ -90,7 +90,7 @@ Ahora salga de la sesión MySQL. Ahora debería poder acceder a PhPMyAdmin utili
 
 Se recomienda encarecidamente que configure una seguridad adicional para PhPMyadmin para asegurar phpmyadmin nginx. Debería poder cambiar y acceder a la URL de PhPMyadmin a algo como URL oscuro.
 
-## Paso 7: PhpMyadmin seguro {#ID-6-SECURE-PHPMYADMIN OBDEMANDO}
+## Paso 7: PhpMyadmin seguro   {#ID-6-SECURE-PHPMYADMIN OBDEMANDO}
 A continuación, queremos configurar la autenticación en Nginx para proporcionar una capa adicional de seguridad. Ahora instalaremos Apache2-Utils, que pueden generar el archivo .htpasswd que funciona con los servidores Nginx y Apache2.
 ```
 sudo apt install apache2-utils
@@ -130,7 +130,7 @@ Ahora, al visitar Ej ..com/aspose_hidden, se le debe presentar una ventana de au
 
 Todo ha terminado con las instalaciones de PhPMyAdmin en el servidor Ubuntu.
 
-## Conclusión: {#id-what-next}
+## Conclusión:   {#id-what-next}
 Felicitaciones, ha instalado con éxito PhPMyAdmin con Nginx para el servidor Ubuntu 20.04 / 20.10 y ahora puede administrar MySQL a través de PhPMyAdmin. Ahora, puede comenzar a crear bases de datos MySQL, usuarios, tablas, realizar consultas MySQL y varias otras operaciones.
 Si tiene preguntas, no dude en decirme a continuación en la sección de comentarios.
 

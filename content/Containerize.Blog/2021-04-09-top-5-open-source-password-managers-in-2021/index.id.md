@@ -21,7 +21,7 @@ Mengingat semua kombinasi kata sandi yang berbeda untuk situs web dan aplikasi y
   * [Psono][5]
   * [Kesimpulan][6]
 
-## Keepass {#Keepass}
+## Keepass   {#Keepass}
 Keepass adalah salah satu perangkat lunak manajer kata sandi gratis terbaik. Itu memudahkan pengguna untuk mengakses kata sandi dengan menyinkronkannya pada beberapa perangkat atau berbagi file di Dropbox, OneDrive, atau aplikasi berbagi file lainnya. Sementara Keepass dikembangkan terutama sebagai manajer kata sandi untuk Windows OS, Anda masih dapat menjalankan Manajer Kata Sandi di Max atau Linux juga. Semua kata sandi disimpan dalam satu database yang dienkripsi dengan kunci master yang dibagikan dengan pengguna. Ketika datang ke enkripsi Keepass menggunakan SHA-256, TwoFish, dan algoritma enkripsi populer lainnya untuk memastikan keselamatan dan keamanan kata sandi. Berikut beberapa pro keepass:
   * Manajer Kata Sandi Aman
   * Open Source
@@ -30,7 +30,7 @@ Keepass adalah salah satu perangkat lunak manajer kata sandi gratis terbaik. Itu
   * Portabel
 [Baca lebih lanjut][7]
 
-## passbolt {#passbolt}
+## passbolt   {#passbolt}
 Passbolt memudahkan karyawan untuk menyimpan kata sandi untuk server yang berbeda, aplikasi yang mereka gunakan setiap hari dan mendorong mereka untuk tidak menyimpan kata sandi yang sama untuk beberapa akun. Ini berfungsi untuk aplikasi browser, email aplikasi desktop dan banyak lagi. Sebagai manajer kata sandi open source, ini sangat aman dan menggunakan enkripsi GNUPG untuk mengotentikasi pengguna dan mengamankan database kata sandi. Berikut adalah beberapa fitur yang menonjol dari Passbolt:
   * SUMBER GRATIS DAN OPEN
   * Dibuat untuk tim
@@ -40,7 +40,7 @@ Passbolt memudahkan karyawan untuk menyimpan kata sandi untuk server yang berbed
   * Manajer Kata Sandi Self-Hosting
 [Baca lebih lanjut][8]
 
-## Kata Sandi Aman {#kata sandi-aman}
+## Kata Sandi Aman   {#kata sandi-aman}
 Kata sandi aman semata -mata dikembangkan untuk pengguna Windows dan Linux. Namun, Anda dapat menemukan klon perangkat lunak untuk sistem operasi dan platform lainnya juga. Sebagai Pengunduran Kata Sandi Gratis, Kata Sandi Safe semakin ditingkatkan untuk menjaga keamanan kata sandi Anda dengan memasukkan algoritma enkripsi TwoFish dan menggunakan fungsi hash kriptografi seperti SHA-256 untuk menghasilkan kunci. Berikut adalah beberapa fitur yang menonjol dari kata sandi yang aman:
   * Mudah mengkategorikan kata sandi
   * Ekspor atau Impor Kata Sandi
@@ -49,7 +49,7 @@ Kata sandi aman semata -mata dikembangkan untuk pengguna Windows dan Linux. Namu
   * Manajer Kata Sandi Aman dan Aman
 [Baca lebih lanjut][9]
 
-## bitwarden {#bitwarden}
+## bitwarden   {#bitwarden}
 Bitwarden adalah manajer kata sandi open source bulat yang tidak hanya dapat digunakan oleh individu untuk menyimpan informasi kritis dan penting mereka, tetapi dapat digunakan oleh bisnis di semua tingkatan juga. Sebagai manajer kata sandi open source, ia hadir dalam dua versi: versi gratis dan berbayar. Demikian pula, Bitwarden dapat diunduh di ponsel iOS dan Android, dan menyediakan banyak ekstensi browser untuk kata sandi Autofill juga. Ini adalah salah satu manajer kata sandi open source terbaik. Berikut ini adalah beberapa fitur utama yang disediakannya:
   * Kompatibilitas Lintas Platform
   * Laporan kesehatan tentang kata sandi
@@ -58,7 +58,7 @@ Bitwarden adalah manajer kata sandi open source bulat yang tidak hanya dapat dig
   * Log acara terperinci
 [Baca lebih lanjut][10]
 
-## psono {#psono}
+## psono   {#psono}
 Dengan PSONO, Anda dapat menggunakan kata sandi Manajer di server Anda sendiri dan mengizinkan hingga 10 pengguna untuk menyimpan informasi penting mereka dan mengaksesnya juga. Sebagai manajer kata sandi open source, ia juga memiliki beberapa perangkat dan kompatibilitas lintas platform seperti iOS, android, macOS, linux dan browser seperti chrome, edge, safari dan banyak lagi. Berikut adalah beberapa fitur menonjol dari PSONO:
   * Open Source
   * Menggunakan enkripsi berlapis -lapis
@@ -66,7 +66,7 @@ Dengan PSONO, Anda dapat menggunakan kata sandi Manajer di server Anda sendiri d
   * Autofill Login Kredensial
 [Baca lebih lanjut][11]
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Manajer kredensial adalah cara yang nyaman untuk menyimpan kata sandi Anda untuk berbagai akun dan situs web di satu tempat. Terutama jika Anda menggunakan kombinasi kata sandi yang kompleks yang terdiri dari karakter alfanumerik dan khusus, maka mungkin sulit mengingat semuanya. Kami telah membahas beberapa manajer kata sandi open source teratas di blog ini. Beberapa lebih baik untuk individu, beberapa lebih baik untuk tim, beberapa lebih baik untuk Windows dan yang lain untuk browser atau aplikasi seluler. Mereka semua memiliki pro dan kontra mereka sendiri. Memilih yang terbaik tergantung pada persyaratan pengguna.
 _Your dapat bergabung dengan kami di [Twitter][12], [LinkedIn][13] dan halaman [Facebook][14] kami. Manajer kata sandi sumber terbuka apa yang Anda gunakan? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi kami][15].
 

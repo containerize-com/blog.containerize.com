@@ -15,40 +15,40 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 
 
 ## Aperçu
-Vous êtes atterri au bon endroit si vous vous demandez d'adopter des logiciels pour stimuler votre entreprise. Dans ce monde en croissance rapide de la technologie et de l'innovation, il existe de nombreux facteurs qui peuvent devenir des bouchons tels que le coût, le temps, les compétences, les ressources et bien d'autres. D'un autre côté, il s'agit d'une affaire coûteuse pour développer des logiciels à partir de zéro pour répondre aux exigences de l'entreprise. Voici le ** Software Open Source **. Le logiciel open source (OSS) est accessible au public pour tous ceux qui ont tout le code source et la documentation sous une licence. Il pourrait être construit par un seul développeur ou par un groupe de développeurs qui le rendent ensuite public. Une fois que la visibilité du logiciel libre est publique, d'autres développeurs peuvent contribuer à ce logiciel pour les améliorations.
-De plus, la communauté open source est très dynamique et solidaire qui s'est développée le long de ** Liste des logiciels open source **. Il existe des forums de discussion où les collaborateurs et les utilisateurs se réunissent pour partager des solutions et des pensées. Il existe un large éventail de catégories OSS qui couvrent la plupart des aspects commerciaux. Bien sûr, il y a certaines choses à considérer avant d'opter pour une application open source dont nous discuterons dans cet article de blog en couvrant les points suivants.
-  * ** [Communauté][1] **
-  * ** [documentation][2] **
-  * ** [portabilité][3] **
-  * ** [statistiques Git][4] **
-  * ** [Licence][5] **
-  * ** [extensibilité][6] **
-  * ** [sécurité][7] **
+Vous êtes atterri au bon endroit si vous vous demandez d'adopter des logiciels pour stimuler votre entreprise. Dans ce monde en croissance rapide de la technologie et de l'innovation, il existe de nombreux facteurs qui peuvent devenir des bouchons tels que le coût, le temps, les compétences, les ressources et bien d'autres. D'un autre côté, il s'agit d'une affaire coûteuse pour développer des logiciels à partir de zéro pour répondre aux exigences de l'entreprise. Voici le **Software Open Source** . Le logiciel open source (OSS) est accessible au public pour tous ceux qui ont tout le code source et la documentation sous une licence. Il pourrait être construit par un seul développeur ou par un groupe de développeurs qui le rendent ensuite public. Une fois que la visibilité du logiciel libre est publique, d'autres développeurs peuvent contribuer à ce logiciel pour les améliorations.
+De plus, la communauté open source est très dynamique et solidaire qui s'est développée le long de **Liste des logiciels open source** . Il existe des forums de discussion où les collaborateurs et les utilisateurs se réunissent pour partager des solutions et des pensées. Il existe un large éventail de catégories OSS qui couvrent la plupart des aspects commerciaux. Bien sûr, il y a certaines choses à considérer avant d'opter pour une application open source dont nous discuterons dans cet article de blog en couvrant les points suivants.
+  * **[Communauté][1]** 
+  * **[documentation][2]** 
+  * **[portabilité][3]** 
+  * **[statistiques Git][4]** 
+  * **[Licence][5]** 
+  * **[extensibilité][6]** 
+  * **[sécurité][7]** 
 
-## Community {#Community}
-C'est le facteur le plus important tout en optant pour une solution open source (OSS). Il devient très difficile de gérer le logiciel s'il n'y a pas assez de support disponible. La plupart des développeurs ont tendance à maintenir la fiabilité du logiciel. Par conséquent, vous devez toujours préférer le logiciel gratuit ** Open Source (FOSS) ** qui a un support communautaire dynamique afin que s'il y a un problème sérieux qui se produit, qui devrait être résolu.
+## Community   {#Community}
+C'est le facteur le plus important tout en optant pour une solution open source (OSS). Il devient très difficile de gérer le logiciel s'il n'y a pas assez de support disponible. La plupart des développeurs ont tendance à maintenir la fiabilité du logiciel. Par conséquent, vous devez toujours préférer le logiciel gratuit **Open Source (FOSS)**  qui a un support communautaire dynamique afin que s'il y a un problème sérieux qui se produit, qui devrait être résolu.
 
-## Documentation {#Documentation}
-L'aspect critique suivant dans le choix de ** applications open source ** est la documentation. La plupart des logiciels open source (OSS) sont livrés avec une documentation détaillée et complète. Cependant, ce n'est toujours pas le cas avec chaque OSS. Le logiciel avec moins ou aucun document peut vous mettre des ennuis. Parfois, les développeurs écrivent le manuel d'utilisation dans un autre espace autre que le site du logiciel. Alors, assurez-vous toujours d'avoir opté pour une OSS avec une documentation complète.
+## Documentation   {#Documentation}
+L'aspect critique suivant dans le choix de **applications open source**  est la documentation. La plupart des logiciels open source (OSS) sont livrés avec une documentation détaillée et complète. Cependant, ce n'est toujours pas le cas avec chaque OSS. Le logiciel avec moins ou aucun document peut vous mettre des ennuis. Parfois, les développeurs écrivent le manuel d'utilisation dans un autre espace autre que le site du logiciel. Alors, assurez-vous toujours d'avoir opté pour une OSS avec une documentation complète.
 
-## Portabilité {#Portabilité}
-Cette caractéristique est tout aussi importante que les autres telles que la documentation, la sécurité, etc. Vous devez vous assurer que le logiciel ** open source (OSS) ** est portable et adapté à l'environnement. Il est facilement hébergé et est livré avec des fichiers de code source complet. La portabilité n'a rien à voir avec l'installateur sauf les fichiers logiciels. ** Logiciel auto-hébergé ** Permettre aux développeurs de prendre un contrôle total sur le développement, l'état de production et la sécurité.
+## Portabilité   {#Portabilité}
+Cette caractéristique est tout aussi importante que les autres telles que la documentation, la sécurité, etc. Vous devez vous assurer que le logiciel **open source (OSS)  **est portable et adapté à l'environnement. Il est facilement hébergé et est livré avec des fichiers de code source complet. La portabilité n'a rien à voir avec l'installateur sauf les fichiers logiciels. **  Logiciel auto-hébergé**  Permettre aux développeurs de prendre un contrôle total sur le développement, l'état de production et la sécurité.
 
-## Git Stats {# git-stats}
+## Git Stats   {# git-stats}
 Il s'agit d'une activité très basique mais importante avant d'aller choisir des logiciels gratuits. Passez en revue toujours le dépôt git d'un produit particulier. Il comprend le nombre de fourches, d'étoiles et d'autres statistiques qui montrent la popularité des outils open source. Vérifiez également la section des problèmes du repo GIT pour vous assurer qu'aucun problème sérieux n'est joint avec cette application open source.
 
-## licence {# license}
+## licence   {# license}
 Ce facteur est inévitable lorsqu'il s'agit de sélectionner des logiciels open source gratuits (FOSS). Lors de l'exploration des statistiques GIT Repo, vérifiez la licence du produit concernant les autorisations. Parcourez les termes et conditions écrits sur l'utilisation, le développement et la distribution de l'OSS. Certaines licences sont open source mais pas gratuites. Par conséquent, vous devez choisir un logiciel gratuit complètement open source et gratuit.
 
-## Extensibility {#Extensibility}
+## Extensibility   {#Extensibility}
 La principale raison de l'option d'opter pour un outil open source est sa nature extensible. Le logiciel libre doit être configurable, évolutif et facile à développer. La communauté open source fournit les meilleures façons de maintenir le logiciel flexible concernant tous les aspects afin que les utilisateurs ne soient pas paniqués au moment de toute révision ou ajout de nouvelles fonctionnalités. De plus, les utilisateurs peuvent trouver un certain nombre de plugins, des API REST exposées par la plupart des outils open source populaires tels que le logiciel de gestion de contenu, le logiciel de blog, le développement rapide des applications et bien d'autres.
 
-## Security {#Security}
+## Security   {#Security}
 Enfin et surtout, la sécurité de tout logiciel ne peut être compromise à tout prix. Cependant, vous devez analyser l'architecture logicielle de manière critique pour vous assurer qu'il n'y a pas de violation de sécurité. C'était une idée fausse dans le passé que les logiciels open source (OSS) sont vulnérables aux menaces externes. Par conséquent, ce n'est pas le cas au moment actuel, car la maturité et la popularité augmentent avec le temps.
 
 ## Dernières pensées
-Cela nous amène à la fin de ce billet de blog. Nous avons suivi les pratiques importantes qui devraient être suivies tout en choisissant un ** logiciel open source (OSS) **. Nous avons vu que de nombreux géants de la technologie adopteraient gratuitement ** les logiciels open source (FOSS) ** pour répondre aux besoins commerciaux. Cependant, ce répandant indique la robustesse et l'efficacité des applications open source. Il y a une longue liste d'outils open source mentionnés dans la section Explorer ci-dessous. De plus, vous pouvez trouver de nombreux OSS sur contenerize.com qui sont tous gratuits, open source et sont livrés avec des capacités d'auto-hébergement. Je vous recommande de choisir une solution open source pour votre entreprise qui répond aux besoins de votre entreprise.
-Enfin, [** contenerize.com **][8] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact pour des mises à jour régulières.
+Cela nous amène à la fin de ce billet de blog. Nous avons suivi les pratiques importantes qui devraient être suivies tout en choisissant un **logiciel open source (OSS) **. Nous avons vu que de nombreux géants de la technologie adopteraient gratuitement  **les logiciels open source (FOSS)**   pour répondre aux besoins commerciaux. Cependant, ce répandant indique la robustesse et l'efficacité des applications open source. Il y a une longue liste d'outils open source mentionnés dans la section Explorer ci-dessous. De plus, vous pouvez trouver de nombreux OSS sur contenerize.com qui sont tous gratuits, open source et sont livrés avec des capacités d'auto-hébergement. Je vous recommande de choisir une solution open source pour votre entreprise qui répond aux besoins de votre entreprise.
+Enfin, [**contenerize.com** ][8] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact pour des mises à jour régulières.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:

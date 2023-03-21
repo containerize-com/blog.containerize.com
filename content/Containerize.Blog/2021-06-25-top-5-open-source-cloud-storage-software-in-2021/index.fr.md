@@ -28,11 +28,11 @@ Dans cet article, nous énumérons certaines des plates-formes de stockage cloud
 
 ## 1. Owncloud - Remplacement de Dropbox
 [OwnCloud][1] est le meilleur stockage de stockage cloud gratuit et de leader du marché open source pour les plates-formes de collaboration basées sur le cloud. OwnCloud compte 50 millions d'utilisateurs dans le monde ANS TT contribue à créer plus qu'un remplacement Dropbox pour vider vos données. OwnCloud Data Storage est livré avec de nombreuses autres fonctionnalités productives pour gérer le partage de fichiers cloud, gérer votre calendrier, faire des listes, un outil d'édition de document, le partage de dossiers et bien d'autres. OwnCloud est hébergé exclusivement sur votre propre cloud ou serveur privé. OwnCloud fournit une confidentialité et fonctionne pour protéger le stockage de vos fichiers. Owncloud Téléchargement et le téléchargement de la collaboration des fichiers est protégé par mot de passe afin que vous puissiez être assuré que vos données sont sous votre contrôle.
-Client OwnCloud disponible pour Windows, MacOS, Linux, iOS, Android et [** Server Le logiciel est installé à l'aide d'installateur Web. **][2]
+Client OwnCloud disponible pour Windows, MacOS, Linux, iOS, Android et [**Server Le logiciel est installé à l'aide d'installateur Web.** ][2]
 
 ## 2. NextCloud - logiciel de cloud privé
 [NextCloud][3] est une solution de stockage open source et meilleure cloud pour les systèmes basés sur Linux. Il est beaucoup stable que tout autre logiciel de serveur cloud personnel. NextCloud est la plate-forme de cloud open source la plus populaire pour le partage de fichiers sur le marché. Il permet à la collaboration des fichiers et à la synchronisation des données très facile en vous permettant de partager des fichiers, des calendriers, des contacts par e-mail, etc. NextCloud Open Source Cloud Software est une première solution de sécurité et il couvre non seulement les problèmes de confidentialité du cloud public, mais comprend également le cloud privé et hybride. NextCloud s'applique sur la conformité des données comme HIPAA et RGPD.
-Il a des fonctionnalités très uniques comme la salle de données virtuelle, la meilleure sécurité de l'industrie, l'auto-hébergement. Open Source NextCloud File Sync and Partager Solution conçue pour être facile à utiliser et hautement sécurisée. Il fournit un partage de fichiers protégé par mot de passe et des liens publics pour le téléchargement de fichiers. Les fichiers NextCloud permettent aux utilisateurs de suivre les modifications des fichiers, les téléchargements de partages et les modifications des commentaires via des notifications par e-mail. [** Vous pouvez l'installer sur n'importe quel serveur partagé Linux ou propre serveur. **][4]
+Il a des fonctionnalités très uniques comme la salle de données virtuelle, la meilleure sécurité de l'industrie, l'auto-hébergement. Open Source NextCloud File Sync and Partager Solution conçue pour être facile à utiliser et hautement sécurisée. Il fournit un partage de fichiers protégé par mot de passe et des liens publics pour le téléchargement de fichiers. Les fichiers NextCloud permettent aux utilisateurs de suivre les modifications des fichiers, les téléchargements de partages et les modifications des commentaires via des notifications par e-mail. [**Vous pouvez l'installer sur n'importe quel serveur partagé Linux ou propre serveur.** ][4]
 Prise en charge du client NextCloud disponible pour les appareils de bureau et mobiles.
 
 ## 3. PYDIO cellules - plate-forme de gestion des fichiers moderne
@@ -49,13 +49,13 @@ Les clients de SeaFile sont disponibles pour tous les principaux SG, y compris L
 Ses fonctionnalités incluent comme des objets, maintient les métadonnées centralisées, le système de fichiers réseau, les performances élevées, le stockage de grandes données, permet des lectures et des écritures partielles ou complètes.
 
 ## Autres options de logiciels de stockage cloud à considérer:
-  * ** YouTRANSFER ** est une solution de transfert de fichiers et de partage autoproïque
-  * ** syncthing ** est un logiciel de synchronisation de fichiers continu
-  * ** confortable ** est un outil de partage de fichiers et de synchronisation flexible
-  * ** xigmanas ** Solution puissante et personnalisable open source
-  * ** Cloud Storage Server ** est un stockage sécurisé et extensible
+  * **YouTRANSFER**  est une solution de transfert de fichiers et de partage autoproïque
+  * **syncthing**  est un logiciel de synchronisation de fichiers continu
+  * **confortable**  est un outil de partage de fichiers et de synchronisation flexible
+  * **xigmanas**  Solution puissante et personnalisable open source
+  * **Cloud Storage Server**  est un stockage sécurisé et extensible
 
-## **** pensée finale **: ** {# 4A1A}
+## ****pensée finale **:**    {# 4A1A}
 Les cinq plates-formes de partage et de synchronisation de fichiers cloud open source mentionnées ci-dessus sont des solutions flexibles. Dans le cloud computing, vous trouverez de nombreuses solutions de stockage en cloud privé open source, mais trouver le plus fiable est le plus important. C’est le besoin de vous ou de votre organisation qui décide de la sélection du logiciel cloud. J'espère que cet article vous aidera à configurer un serveur cloud personnel sécurisé et fiable ou à choisir le meilleur service cloud pour stocker vos précieuses images, musique, films et documents.
 _ Quelle est votre solution de logicielle de stockage cloud gratuite et open source préférée ?. Si vous avez des questions, veuillez vous contacter][8].
 

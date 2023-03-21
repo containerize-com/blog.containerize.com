@@ -19,11 +19,11 @@ Que vous tiriez simplement avec votre smartphone ou que vous soyez un photograph
   * [Comment utiliser Digikam?][4]
   * [Conclusion][5]
 
-## Qu'est-ce que Digikam? {#digikam}
+## Qu'est-ce que Digikam?   {#digikam}
 Pour tout photographe numérique ayant un logiciel qui aidera le flux de travail de photographie et le rendra transparent peut faire une énorme différence non seulement pour la qualité de vos photos, mais aussi le processus d'édition. Digikam est un gestionnaire de workflow de photographie numérique All in One qui permet aux photographes non seulement de catégoriser les fichiers séparément en vrac, mais d'appliquer également de nombreux effets d'édition. Vous pouvez également télécharger directement des images brutes et les convertir en DNG sans aucune perte de qualité, et prend en charge de nombreux modèles de caméras numériques. En tant qu'éditeur d'image open source, vous pouvez également stocker des fichiers localement ou sur un serveur distant. Digikam fournit plusieurs supports de base de données, notamment SQL, MySQL et MARIADB.
 Digikam a une interface facile à utiliser. Il vous permet de vous connecter à votre appareil photo ou de prévisualiser des images. Sa disposition est très intuitive et facile à comprendre. À gauche, il y a des contrôles pour afficher les photos et à droite, il y a des contrôles pour les effets et les filtres. Dgikam est essentiellement une application complète et stable depuis un bon moment maintenant, donc ça va être une bonne expérience pour vous.
 
-## Comment installer Digikam? {#installer}
+## Comment installer Digikam?   {#installer}
 [Digikam][1] prend en charge plusieurs systèmes d'exploitation, notamment Windows, Mac OS et Linux. En tant que logiciel d'édition d'image gratuit, la dernière version de Digikam est assez stable et prête à être installée pour votre système d'exploitation préféré.
 Pour Linux, voici comment installer Digikam:
 {{_LINE_23_}}
@@ -48,7 +48,7 @@ sudo apt install digikam
   * Et vous avez terminé, vous pouvez maintenant lancer l'application et configurer le comportement du fichier en fonction de vos besoins.
 Il est important de noter que le premier lancement de Digikam sera lent en termes de performances, car Digikam analysera votre collection de photos et la création d'informations pour elle. Cela peut prendre un certain temps, il vaut donc mieux le laisser fonctionner pendant la nuit si vous avez une grande collection et commencer à utiliser le lendemain. Nous pouvons maintenant passer à l'édition d'images avec ce logiciel de retouche photo open source.
 
-## Comment utiliser Digikam? {#utiliser}
+## Comment utiliser Digikam?   {#utiliser}
 Digikam a une interface assez facile à naviguer et à comprendre qui permet aux photographes et aux éditeurs d'images de commencer leur flux de travail immédiatement. Que vous téléchargez des images directement à partir de votre appareil photo, de votre serveur local ou d'un serveur distant, Digikam rend l'organisation et l'édition d'images numériques assez simples et rapides.
 L'une des principales caractéristiques de Digikam est la table lumineuse qui montre automatiquement des améliorations qui peuvent affiner la qualité de vos photos numériques sans aucune perte de qualité. C'est simplement retoucher et partir. De même, l'éditeur d'image de Digikam fournit de nombreux outils et effets qui rendent l'édition assez facile et simple.
 Voici tous les montages d'image que vous pouvez faire via Digikam:
@@ -101,7 +101,7 @@ Voici tous les montages d'image que vous pouvez faire via Digikam:
 {{< figure align=center src="images/Beginners-Guide-To-Start-Free-Image-Editing-Using-Digikam-6-1024x570.jpeg" alt="Guide du débutant pour démarrer l'édition d'image gratuite à l'aide de digikam">}}
 
 
-## Conclusion {#conclusion}
+## Conclusion   {#conclusion}
 Digikam est un logiciel d'édition d'image utile, fonctionnel, facile à naviguer, un gestionnaire de workflow de photographie numérique simple et gratuit. Il vous permet d'organiser vos images et de les modifier également. Nous espérons que ce guide a été utile pour vous donner une compréhension de base de ce que vous pouvez réaliser avec Digikam en tant que photographe numérique nouveau ou avancé. Pour lire plus de critiques et de guides sur les applications logicielles utiles pour vos aventures de photographie et d'édition d'image, gardez les yeux pour de nouveaux sujets sur [contenerize.com][6].
 
 ## Explorer

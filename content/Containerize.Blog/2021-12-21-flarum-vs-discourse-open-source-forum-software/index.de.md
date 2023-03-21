@@ -22,15 +22,15 @@ Open Source Community hat viele Diskussionsforen auf Unternehmensebene entwickel
   * [Flarum vs Diskurs][7]
   * [Schlussfolgerung][8]
 
-## Was ist Diskurs? {#Was-is-diskourse?}
+## Was ist Diskurs?   {#Was-is-diskourse?}
 [Diskurs][3] ist eine Open-Source-Forum-Software, die ein Portal mit reichhaltigem Gesichtsausfall bietet, in dem Geschäftsstellen gesunde Diskussionen führen können. Dieses Diskussionsforum bietet unter anderem soziale Funktionen wie Facebook und Twitter, die Unternehmen schließlich helfen, Geschäftsgemeinschaften auf moderne Weise zu wachsen. Darüber hinaus gibt es Einrichtungen, um mit anderen Mitgliedern in den Chat -Räumen zu chatten, in denen Sie Personen erwähnen und die Mediendateien teilen können. Darüber hinaus ist es in Ruby on Rails, Ember.js, Postgresql, Redis geschrieben und ist leicht auf Ihren eigenen Räumlichkeiten einzurichten.
 Es gibt eine sehr lebendige Community, die dieses Frage-Antwort-Forum unterstützt. Es gibt einen riesigen Stapel Plugins und Themen wie OAuth 2.0 & OpenID Connect Support, SAML -Authentifizierung, Diskursübersetzer und vieles mehr. Der Diskurs bietet viele Funktionen, die ein dynamisches Benachrichtigungssystem enthalten, automatisch erweiterte Links, [Single Sign-On][9], umfassende API und vieles mehr. Vor allem gibt es umfassende Dokumentationen bezüglich Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode dieser Open -Source -Forum -Software in [Github][10] verfügbar.
 
-## kurze Einführung von Flarum {#flarum}
+## kurze Einführung von Flarum   {#flarum}
 [Flarum][4] ist ein weiteres beliebtes Diskussionsforum, das frei ist, Open Source und mit Selbsthostfunktionen ausgestattet. Es ist hoch erweiterbar und verfügt über ein reaktionsschnelles Layout, das auch auf Tablets und mobilen Geräten gut funktioniert. Diese Open-Source-Forum-Software ist in PHP geschrieben und sich auf ihren eigenen Servern leicht selbst veranstalten. Darüber hinaus bietet es eine logische Zwei-Schleif-Oberfläche, an der Benutzer leicht durch Elemente navigieren.
 Dieses Frage-Antworten-Forum ist schnell, zuverlässig, leicht und bietet viele attraktive Merkmale wie Benachrichtigungssysteme, soziale Merkmale (z. B. Erwähnung, Tagging, wie) leistungsstarke Berechtigungen, feinkörnige Einstellungen und vieles mehr. Es gibt reiche Animationen und Themen, bei denen Benutzer nach links und rechts wischen können, um weitere Chat -Steuerelemente anzuzeigen. Wie der Diskurs hat auch Flarum eine Community, die proaktiv ist und Unterstützung für Fehler und neue Funktionsanforderungen bietet. Vor allem gibt es umfassende Dokumentationen bezüglich Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode dieser Open -Source -Forum -Software in [Github][10] verfügbar.
 
-## flarum vs diskurs {#vs}
+## flarum vs diskurs   {#vs}
 In diesem Abschnitt werden wir diese beiden Open -Source -Forum -Software an einem Ort setzen, an dem wir Diskurs und Flarum vergleichen können.
 
 #### Gemeinschaft
@@ -45,7 +45,7 @@ Dies ist der kritischste Aspekt, wenn es um die Auswahl einer Software für Ihr 
 #### Erweiterbarkeit
 Dies ist ein weiteres wichtiges Merkmal jeder Software. Glücklicherweise sind diese beiden Open -Source -Forum -Software erweiterbar und Entwickler können die Funktionalität nach Bedarf leicht erweitern. Der Diskurs bietet AP für Integrationen von Drittanbietern an.
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Dies bringt bis zum Ende dieses Diskurses Flarum gegen Diskurs. Wir haben die Überprüfung der führenden Open -Source -Diskussionsforen durchgesehen. Wir haben einen Diskurs und ein kurzes Intro der Flarum -Software durchlaufen. Beide kostenlose Software sind kompetent und helfen Unternehmen, ein professionelles Diskussionsportal zu führen. Daher liegt es jetzt an Ihnen zu schließen, welche Diskussionssoftware zu Ihrem Geschäftsmodell passt. Dieser Blog -Beitrag kann Ihnen wirklich helfen, wenn Sie eine Open -Source -Forum -Software für Ihr Unternehmen bereitstellen möchten. Darüber hinaus gibt es einige andere Blog -Posts, die sehr relevant sind und weitere Open -Source -Forum -Software als Flarum und Diskurs finden können.
 Schließlich schreibt [containerize.com][11] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie in Kontakt mit der Kategorie [12][Diskussionsforum][1], um regelmäßig Aktualisierungen zu erhalten. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][13], [LinkedIn][14] und [Twitter][15] folgen.
 

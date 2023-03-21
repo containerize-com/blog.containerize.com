@@ -17,35 +17,35 @@ categories: ['Blogging']
 ## Genel Bakış
 Google ve diğer arama motorları bir web sitesinin kullanıcı deneyimini (UX) sıralama algoritmalarında kritik bir faktör olarak görüyorlar. En iyi derecelendirmeler için web sitenizi geliştirmek ve optimize etmek daha önemli hale geldi. Dikkat edilmesi gereken en önemli faktörler arasında sayfa hızı ve yükleme süreleri. Ve site hızını ve performansı artırmanın en hızlı ve en kolay yolu, web sitenizde GZIP sıkıştırmasını sağlamaktır. Web ana bilgisayarınızın sizin için otomatik olarak GZIP sıkıştırmasını etkinleştirme şansı vardır. Değilse, bu önemli görevi kendiniz gerçekleştirmeniz gerekir.
 Bu makalede, WordPress'te GZIP sıkıştırmasını tam olarak nasıl etkinleştireceğinizi tam olarak göstereceğiz. Başlayalım!
-  *[** GZIP Sıkıştırma Nedir **?][1]
-  *[** GZIP sıkıştırma nasıl çalışır? **][2]
-  *** [GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur?][3] **
-  *** [WordPress'te GZIP sıkıştırmasını etkinleştir][4] **
-  *** [Sonuç][5] **
+  *[**GZIP Sıkıştırma Nedir** ?][1]
+  *[**GZIP sıkıştırma nasıl çalışır?** ][2]
+  ***[GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur?][3]** 
+  ***[WordPress'te GZIP sıkıştırmasını etkinleştir][4]** 
+  ***[Sonuç][5]** 
 
-## GZIP Sıkıştırma Nedir? {#Ne}
-GZIP bir ** dosya biçimi ve dosya sıkıştırma ve dekompresyon için kullanılan bir yazılım uygulaması **. Web sunucuları veya diğer yazılımlar, kullanıcıların tarayıcılarına gönderilmeden önce veri dosyalarını sıkıştırmak için GZIP Sıkıştırma kullanır. Bu, web sitenizi daha hızlı hale getiren dosya indirme süresini azaltır. Tüm modern tarayıcılar GZIP sıkıştırmasını destekler.
+## GZIP Sıkıştırma Nedir?   {#Ne}
+GZIP bir **dosya biçimi ve dosya sıkıştırma ve dekompresyon için kullanılan bir yazılım uygulaması** . Web sunucuları veya diğer yazılımlar, kullanıcıların tarayıcılarına gönderilmeden önce veri dosyalarını sıkıştırmak için GZIP Sıkıştırma kullanır. Bu, web sitenizi daha hızlı hale getiren dosya indirme süresini azaltır. Tüm modern tarayıcılar GZIP sıkıştırmasını destekler.
 Dosya ve klasör sıkıştırmasını etkinleştirebilmeniz için Web sunucunuzda GZIP sıkıştırmanın etkinleştirilmesi gerektiğini de belirtmek önemlidir. Kısacası, web sunucunuzun GZIP etkin olup olmadığını nasıl doğrulayacağını göreceğiz.
 
-## GZIP sıkıştırma nasıl çalışır? {#iş}
+## GZIP sıkıştırma nasıl çalışır?   {#iş}
 En popüler sıkıştırma yöntemi olan GZIP, Web sunucuları ve tarayıcılar tarafından içeriği internet üzerinden iletilirken sıkıştırmak ve doldurmak için kullanılır. Çoğunlukla kod ve metin dosyalarında kullanılır, GZIP JavaScript, CSS ve HTML dosyalarının boyutunu%90'a kadar azaltabilir. Varsayılan olarak, GZIP Sıkıştırma görüntüleri veya videoları sıkıştırmaz. Bunun için, WordPress sitenizdeki web için resimleri optimize etmeniz gerekir. Bu nedenle Google Pagespeed Insights gibi web sitesi hız test araçlarının çoğu GZIP sıkıştırmasını sağlamayı şiddetle tavsiye eder.
 Bir web sunucusu bir web sayfası için bir istek aldığında, web sunucusu tarayıcının GZIP'yi destekleyip desteklemediğini kontrol etmek için isteğin başlığını kontrol eder. Öyleyse, GZIP uygulamadan önce sunucu sayfa için işaretlemeyi oluşturur. GZIP, HTML işaretlemesini daha sonra son kullanıcıya teslim edilen sıkıştırılmış verilere dönüştürür. Son kullanıcı sıkıştırılmış verileri aldığında, tarayıcıları onu açar.
 
-## ** GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur? ** {#Perify}
+## **GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur?**    {#Perify}
 Web ana bilgisayarınız varsayılan olarak WordPress'te sıkıştırmayı etkinleştirebilir. Ancak, bu her zaman böyle değildir. Chrome’un Devtools'u kullanarak zaten GZIP sıkıştırma etkin olup olmadığını görebilirsiniz.
-Sitenizi bir krom tarayıcısında açın, ardından sayfanın herhangi bir yerine sağ tıklayın ve ** ** ** Delin ** Geliştirici Araçlarını ** açmak için seçin **.
-Ardından, ** Ağ ** sekmesine gidin ve web sitesinin ana URL'sini “Ad” bölümünden tıklayın. ** Başlıklar ** sekmesini seçin ve ** yanıt başlıklarını bulmak için aşağı kaydırın ** bölüm:
+Sitenizi bir krom tarayıcısında açın, ardından sayfanın herhangi bir yerine sağ tıklayın ve ** ****  Delin  **Geliştirici Araçlarını **  açmak için seçin** .
+Ardından, **Ağ  **sekmesine gidin ve web sitesinin ana URL'sini “Ad” bölümünden tıklayın. **  Başlıklar  **sekmesini seçin ve **  yanıt başlıklarını bulmak için aşağı kaydırın**  bölüm:
 
 {{< figure align=center src="images/gzip-determine.gif" alt="İçerik kodlamasını doğrulayın">}}
 
 Orada, GZIP sıkıştırmasının etkin olup olmadığını göreceksiniz.
 
-## WordPress'te gzip sıkıştırmasını etkinleştir {#enable}
-** WordPress GZIP sıkıştırmasının henüz etkin olmadığını belirlediyseniz **, çalıştırmak için kullanabileceğiniz birden fazla yöntem vardır. En kolay yol, [WP Rocket][6], [WP Süper Önbellek][7] veya [W3 Total Cache][8] gibi bazı WordPress eklentilerini kullanmaktır. Ancak, bunu .htaccess dosyası veya Nginx yapılandırmanızı güncelleyerek sunucu düzeyinde manuel olarak yapabilirsiniz.
+## WordPress'te gzip sıkıştırmasını etkinleştir   {#enable}
+**WordPress GZIP sıkıştırmasının henüz etkin olmadığını belirlediyseniz** , çalıştırmak için kullanabileceğiniz birden fazla yöntem vardır. En kolay yol, [WP Rocket][6], [WP Süper Önbellek][7] veya [W3 Total Cache][8] gibi bazı WordPress eklentilerini kullanmaktır. Ancak, bunu .htaccess dosyası veya Nginx yapılandırmanızı güncelleyerek sunucu düzeyinde manuel olarak yapabilirsiniz.
 
 ### .htaccess dosyasını düzenleyerek
-WordPress GZIP sıkıştırmasını etkinleştirmenin en yaygın yollarından biri ** _.htaccess_ dosyasını ** düzenlemektir. Ancak bu, bir şeyi kırma riskini içerir. Bu hassas bir sunucu dosyasıdır ve yanlış bir hareket çok fazla soruna neden olabilir.
-Riski azaltmak için, herhangi bir değişiklik yapmadan önce orijinal dosyanın bir kopyasını ** kaydettiğinizden emin olun. _.Htaccess_ dosyası web sitenizin ** kök klasöründe olmalıdır **. _.Htaccess_ açtıktan sonra, `### wordpress 've`## end wordpress' etiketleri ile işaretlenen bölümlerin altına aşağıdaki kodu ekleyin
+WordPress GZIP sıkıştırmasını etkinleştirmenin en yaygın yollarından biri **_.htaccess_ dosyasını**  düzenlemektir. Ancak bu, bir şeyi kırma riskini içerir. Bu hassas bir sunucu dosyasıdır ve yanlış bir hareket çok fazla soruna neden olabilir.
+Riski azaltmak için, herhangi bir değişiklik yapmadan önce orijinal dosyanın bir kopyasını **kaydettiğinizden emin olun. _.Htaccess_ dosyası web sitenizin  **kök klasöründe olmalıdır**  . _.Htaccess_ açtıktan sonra, `### wordpress 've`## end wordpress' etiketleri ile işaretlenen bölümlerin altına aşağıdaki kodu ekleyin
 ```
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
 AddOutputFilterByType DEFLATE application/javascript
@@ -76,11 +76,11 @@ BrowserMatch ^Mozilla/4.0[678] no-gzip
 BrowserMatch bMSIE !no-gzip !gzip-only-text/html
 Header append Vary User-Agent
 ```
-** Dosyayı kaydedin ** ve sitenizin sunucusuna yükleyin. İşiniz bittiğinde, yukarıda açıklandığı gibi Chrome’un Devtools'u kullanarak GZIP'nin etkin olup olmadığını kontrol edin.
+**Dosyayı kaydedin**  ve sitenizin sunucusuna yükleyin. İşiniz bittiğinde, yukarıda açıklandığı gibi Chrome’un Devtools'u kullanarak GZIP'nin etkin olup olmadığını kontrol edin.
 
 ## Nginx'te GZIP sıkıştırmasını etkinleştirin
-** Sıkıştırma ** etkinleştirmek için ON parametresine ** gzip ** yönergesini ekleyin. ** gzip ** açık; Varsayılan olarak, ** nginx ** yanıtları yalnızca MIME tipi metin/html ile sıkıştırır. Yanıtları diğer MIME tipleriyle sıkıştırmak için GZIP_TYPES Direktifini ekleyin ve ek türleri listeleyin.
-** _nginx.conf_ dosya ** açarak ve aşağıdaki kodu ekleyerek WordPress'te GZIP sıkıştırmasını etkinleştirebilirsiniz:
+**Sıkıştırma  **etkinleştirmek için ON parametresine **  gzip  **yönergesini ekleyin. **  gzip  **açık; Varsayılan olarak, **  nginx**  yanıtları yalnızca MIME tipi metin/html ile sıkıştırır. Yanıtları diğer MIME tipleriyle sıkıştırmak için GZIP_TYPES Direktifini ekleyin ve ek türleri listeleyin.
+**_nginx.conf_ dosya**  açarak ve aşağıdaki kodu ekleyerek WordPress'te GZIP sıkıştırmasını etkinleştirebilirsiniz:
 ```
 gzip on;
 gzip_disable "MSIE [1-6].(?!.*SV1)";
@@ -88,7 +88,7 @@ gzip_vary on;
 gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon application/javascript application/x-javascript;
 ```
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu GZIP WordPress öğreticisinin sonu. Web sitenizi hız ve performans için optimize etmenin birçok yolu vardır. Bu GZIP WordPress öğreticisinde, GZIP sıkıştırma, GZIP sıkıştırmasının önemi ve kurulum adımlarından geçtik. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen birçok ilgili bağlantı vardır.
 Son olarak, [Containerize.com][9] diğer açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli haberler ve güncellemeler için lütfen [Blogging][10] kategorisiyle iletişime geçin.
 

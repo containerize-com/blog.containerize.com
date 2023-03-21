@@ -19,13 +19,13 @@ categories: ['Blogging', 'Video Conferencing Software']
 本文将介绍以下几点：
 * [**什么是bigbluebutton？**][3]
 * [**WordPress的简短介绍**][4]
-***[如何在WordPress中安装BigBlueButton插件？][5]**
+* **[如何在WordPress中安装BigBlueButton插件？][5]**
 
-##**什么是bigbluebutton？**{#什么 -  bigbluebutton}
+##**什么是bigbluebutton？** {#什么 -  bigbluebutton}
 [BigBlueButton][6]是一个开源免费**视频协作软件**，具有大量的企业级功能。该开源软件非常可扩展，并与WordPress，[Redmine][7]，[Schoology][8]，[Drupal][9]和Canvas等许多流行应用程序提供集成。此外，它还提供了共享的白板，发送公共/私人消息，高清音频，电子手工升级以及丰富的演示工具。此外，**BigBlueButton**得到了HTML5的支持，并且在所有流行的Web浏览器中都可以很好地工作。
 此外，这个**网络会议软件**拥有一个庞大而活着的开发人员社区。它的[GitHub Repo][10]上有非常好的统计数据，其中有7.8k星和5.8k叉。 BigBluebutton用JavaScript编写，以及Java和Ruby等其他语言的输入。实际上，开发人员可以找到有关开发，部署和使用的全面文件。因此，您可以轻松地在本地或云服务器上设置此自托管软件。
 
-##**WordPress的简短介绍**{#a-brief-intro-intro-intro-wordpress}
+##**WordPress的简短介绍** {#a-brief-intro-intro-intro-wordpress}
 [WordPress][2]是网站软件类别中的顶级**开源博客平台之一。该开源软件即使是初学者级别的Web开发人员也可以进行网站构建并启动它。此外，WordPress是高度可配置的，您可以根据您的业务要求对其进行自定义。最重要的是，它具有巨大的[市场][11]，您可以在其中找到许多插件。
 这个**博客软件**具有自托管功能，并且对可用的多种语言有完全的支持。此外，[GitHub][12] repo上有很好的统计数据，您可以下载源代码并轻松设置它。此外，您可以在WordPress网站中安装任何功能插件。实际上，您可能会找到属于任何类别的站点的插件。它主要是用PHP编写的，您可以找到有关开发，部署和用法的完整说明。
 

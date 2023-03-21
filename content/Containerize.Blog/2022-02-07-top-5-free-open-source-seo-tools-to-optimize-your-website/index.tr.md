@@ -14,7 +14,7 @@ categories: ['Marketing Automation', 'Marketplace']
 {{< figure align=center src="images/Open-Source-SEO-Tools-to-Drive-Traffic-Search-Engine-Marketing-Tools-SEM-Tools-for-Marketers.png" alt="Trafiği sürmek için açık kaynak SEO araçları | Arama Motoru Pazarlama Araçları | Pazarlamacılar için SEM Araçları|Trafiği sürmek için açık kaynak SEO araçları | Arama Motoru Pazarlama Araçları | Pazarlamacılar için SEM Araçları|Trafiği sürmek için açık kaynak SEO araçları | Arama Motoru Pazarlama Araçları | Pazarlamacılar için SEM Araçları">}}
 
 
-## ** Genel Bakış **
+## **Genel Bakış** 
 Arama motoru optimizasyon araçları pahalı olabilir, bu nedenle bunun yerine bazı açık kaynak ve ücretsiz SEO araçları olduğunu bilmek güzeldir. Çalışan 5 açık kaynaklı SEO aracının üzerinden geçelim. Sıralama denetçilerinden dosyalara ve hatta web sitesi tarayıcılarına kadar. Arama motorları için bir web sitesini optimize etmek için gerekli verileri sağlamaya yardımcı olabilecek 5 açık kaynaklı SEO aracından geçeceğiz.
 Sayfa'da SEO faktörlerinin izlenmesi gerekir, özellikle de Cookiejar web sitesinde birçok eliniz varsa. Bazen ticari yazılımlar işletmeler ve SEO'lar için fiyatlandırılmaz, açık kaynak burada yardımcı olur. Siz veya bir arkadaşınız programlama hakkında bir iki şey biliyorsanız, sadece sizin için yeni bir araç seti bile özelleştirebilir ve oluşturabilirsiniz. Şimdi bu açık kaynak araçlarını nasıl ayarlayacağınızı biraz teknik bir bilgi var!
 Bu makalede, popüler özelliklere sahip bazı açık kaynaklı motor optimizasyon platformlarını listeleyeceğiz. Bu SEO platformlarını web sitenize trafik çekmek için kullanabilirsiniz.
@@ -69,7 +69,7 @@ YoastSeo, kullanıcıların sayfalarının Google arama motoruna nasıl bakacağ
   * Yayınladığınız her yeni sayfa için bir SEO başlığı ve bir meta açıklama belirtin.
   * Yoast SEO, indeksleme için işaretlenmiş tüm içeriğe otomatik olarak kanonik etiketler ekler.
 
-## ** Son Düşünce: ** {#4A1A}
+## **Son Düşünce:**    {#4A1A}
 Yukarıda belirtilen beş açık kaynaklı SEO platformu esnek çözümlerdir. Bulut bilişimde çok sayıda açık kaynaklı özel bulut depolama çözümü bulacaksınız, ancak en güvenilir olanı bulmak en önemli. Bulut yazılımının seçimine karar veren siz veya kuruluşunuzun ihtiyacısınız. Umarım bu makale güvenli ve güvenilir bir kişisel bulut sunucusu oluşturmanıza veya değerli resimlerinizi, müziklerinizi, filmlerinizi ve belgelerinizi saklamak için en iyi bulut hizmetini seçmenize yardımcı olur.
 _ Favourite_ _open kaynak SEO araçları ve popüler arama motoru pazarlama araçları nelerdir? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][1].
 

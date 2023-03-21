@@ -19,13 +19,13 @@ Quando se trata de encontrar um gerenciador de senhas que não apenas funcione p
   * [Principais diferenças][3]
   * [Conclusão][4]
 
-## ** O que é Bitwarden? **
+## **O que é Bitwarden?** 
 O Bitwarden é um promissor gerenciador de senhas de código aberto que possui compatibilidade de plataforma cruzada, incluindo um aplicativo móvel e web, além da interface da linha de comando. Você também pode acessar o Bitwarden na sua área de trabalho, pois possui compatibilidade com Windows, MacOS e Linux. Como gerenciador de senhas de código aberto, o Bitwarden pode ser usado para uso individual, bem como no nível corporativo. Você não apenas pode hospedar o Bitwarden em seus servidores, mas também possui hospedagem em nuvem e, com compatibilidade cruzada, ele pode ser acessado sempre que você precisar.
 
-## ** O que é Pass Bolt? **
+## **O que é Pass Bolt?** 
 O Passtolt é um gerenciador de senhas de código aberto desenvolvido especificamente para empresas. A interface foi projetada tendo em mente as necessidades e requisitos de equipe pequena e grande e permite um gerenciamento fácil e seguro de senhas e informações confidenciais que precisam ser acessadas por vários funcionários regularmente. O Passtolt está disponível apenas para ser usado localmente no seu servidor e pode ser acessado através de uma extensão do navegador da Web on -line. Como gerenciador de senhas de código aberto, você pode instalar diretamente o código -fonte no seu servidor ou hospedá -lo no Ubuntu, Centos 7, Oceano Digital e muito mais.
 
-## ** Principais diferenças **
+## **Principais diferenças** 
 Bitwarden e Pass -Bolt fornecem muitos recursos e funcionalidade como gerentes de código aberto, no entanto, diferem em sua técnica de criptografia e em diferentes aplicativos do lado do cliente que eles oferecem. Aqui está um resumo:
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -48,7 +48,7 @@ Bitwarden e Pass -Bolt fornecem muitos recursos e funcionalidade como gerentes d
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## ** Conclusão **
+## **Conclusão** 
 Neste post, tentamos repassar em detalhes a comparação do Bitwarden vs Pass -Bolt. Discutimos as principais diferenças entre os dois gerentes de senha de código aberto e qual fornece mais recursos como um gerenciador de senhas de código aberto gratuito e fácil de usar para equipes.
 
 ## Explore

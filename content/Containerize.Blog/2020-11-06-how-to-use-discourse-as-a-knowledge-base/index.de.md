@@ -21,11 +21,11 @@ In diesem Blog -Beitrag werden wir die folgenden Punkte behandeln:
   * [Einrichten von Knowledge Explorer -Plugin beim Diskurs][2]
   * [Schlussfolgerung][3]
 
-## Wie Diskurs als Wissensbasis funktioniert? {#Verwendungszweck}
+## Wie Diskurs als Wissensbasis funktioniert?   {#Verwendungszweck}
 Wissensbasis dient als Datenbank mit Dokumenten und Informationen. Es wird verwendet, um die für die Produkte und Verfahren des Unternehmens relevanten Informationen zu sammeln, zu verwalten und zu teilen. Wenn wir über ein Diskussionsforum wie [Diskurs][4] sprechen, gibt es lange Themen, bei denen die Endbenutzer und Vertreter an einer Debatte teilnehmen. In diesem Fall fällt es Kunden schwer, relevante Informationen zu finden. Um diesen Ärger zu machen, hat die Diskurs -Community einige Plugins von Wissensbasis entwickelt.
 Das KB -Plugin bei [Diskurs][4] wird für Kunden ziemlich schnell, um die gewünschten Informationen zu finden. Darüber hinaus gibt es mehrere Kundenfragen und Fragen, die noch lange unbeantwortet bleiben. Daher spart die Dokumentation häufig verwendeter Informationen in Themen im KB -Stil Zeit und verbessert das Kundenerlebnis.
 
-## Einrichten von Knowledge Explorer Plugin am Diskurs {#setup}
+## Einrichten von Knowledge Explorer Plugin am Diskurs   {#setup}
 In diesem Abschnitt werden wir sehen, wie das [Knowledge Explorer Plugin][5] und das, was es bietet, aktiviert werden.
 Da [Diskurs][4] eine völlig offene Quelle ist, ist das Knowledge Explorer -Plugin unter [Github][5] erhältlich.
 Es gibt einfache Schritte, um ein Plugin am Diskurs zu installieren. Befolgen Sie daher die in diesem [Plugin -Installationshandbuch][6] genannten Anweisungen.
@@ -47,7 +47,7 @@ Schließlich können Sie den Link des Dokuments mit jedem öffnen und teilen.
 {{< figure align=center src="images/Screenshot-2020-11-04-at-19.11.11-1024x493.png" alt="Diskurs als KB">}}
 
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 In diesem Artikel haben wir gesehen, wie der Diskurs als Wissensbasis für ein Unternehmen verwendet werden kann. Es ist wirklich wichtig, die Bedürfnisse von Endbenutzern stark im Auge zu haben. In Bezug auf das Forum sollten wir es auf die nächste Stufe bringen, indem wir es mit dem KB -Plugin ausstatten, damit die Kunden die erforderlichen Ressourcen einfach und schnell nähern können.
 [Containerize.com][7] hat viele leistungsstarke Forum -Software in [Diskussionsforum][8] Kategorie eingetragen. Für regelmäßige Updates bleiben Sie bitte mit [blog.containerize.com][9] in Verbindung.
 

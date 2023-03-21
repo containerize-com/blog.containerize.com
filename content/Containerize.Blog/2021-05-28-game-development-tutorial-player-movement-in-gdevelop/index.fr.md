@@ -17,19 +17,19 @@ categories: ['Game Development Software']
 ## **Aperçu**
 La communauté open source émerge avec le passage de chaque minute. Il y a des jeux multiplateformes, des jeux mobiles et des jeux de bureau. Divers types de jeux comprennent des jeux d'action, des jeux d'aventure, des jeux de rôle, des jeux de sport, des jeux de puzzle, des jeux de simulation et bien d'autres. Par conséquent, tous ces différents types de jeux ont donné une immense augmentation du trafic car les utilisateurs de tous les groupes d'âge ont tendance à jouer à ces jeux.
 De plus, la pandémie a apporté un changement massif dans le style de vie des personnes vivant dans le monde entier. Les gens ont maintenant plus de temps. Toutes les activités hors ligne sont devenues en ligne. Par conséquent, ils ont tendance à opter pour des logiciels en ligne pour effectuer des tâches professionnelles et des jeux vidéo en cas de divertissement. Pour toutes ces raisons, cette industrie a acquis la durabilité et le soutien des utilisateurs et des développeurs. Dans le passé récent, nous avons écrit sur des sujets tels que [HTML5 Game Development Tutorial pour les programmeurs de jeux vidéo][1], [comment l'industrie mondiale des jeux en tirant parti des logiciels open source][2], et [Tutoriel GDEVELAP pour les débutants pour commencer le développement de jeux][3]. Dans ce didacticiel de développement de jeux, nous couvrirons les points suivants.
-  * ** [présente l'exploration de gdevelop][4] **
-  * ** [Travailler sur un jeu][5] **
-  * ** [Conclusion][6] **
+  * **[présente l'exploration de gdevelop][4]** 
+  * **[Travailler sur un jeu][5]** 
+  * **[Conclusion][6]** 
 
-## présente l'exploration de gdevelop {#Features}
+## présente l'exploration de gdevelop   {#Features}
 [GDELAPELL][7] est une plate-forme de construction de jeux open source. Il est très extensible et offre une interface logique où les utilisateurs peuvent naviguer facilement. Ce logiciel gratuit est écrit en C ++, TypeScript et JavaScript. De plus, il existe une documentation complète sur le développement et le déploiement. Tout le code source est disponible chez GitHub. De plus, il existe de nombreuses fonctionnalités qui rendent ce logiciel de jeu de jeu. Voyons certaines des principales fonctionnalités.
-** Cross-plateform **: Cette plate-forme de création de jeux est multiplateforme et peut être déployée sur presque tous les systèmes d'exploitation populaires tels que MacOS, Linux et Windows.
-** Options d'exportation **: GDEVELOPELL permet aux utilisateurs d'exporter des jeux développés en un seul clic pour Android, iOS et Web. Les propriétaires de jeux peuvent afficher des publicités vidéo sur leurs jeux et cela peut être possible avec le soutien d'Admob.
-** Rich Game Objets **: Ce fabricant de jeux open source fournit une large gamme d'objets de jeu tels que des sprites avec des animations, des explosions de feu et d'autres effets à l'aide d'émetteurs de particules. Le texte formaté, les vidéos intégrées et les formes personnalisées sont disponibles pour apporter des effets accrocheurs dans les jeux.
-** Comportements polyvalents **: Dans cet article de base de développement de jeux, nous vous montrerons comment nous pouvons ajouter différents comportements aux objets de jeu. Il existe plusieurs comportements disponibles qui sont prêts à l'emploi et les utilisateurs peuvent se développer davantage selon les exigences. Tout se passe en quelques clics de souris.
-** Interface avancée **: Dans ce didacticiel de conception de jeu, nous verrons l'interface utilisateur de ce moteur de jeu 3D. Les utilisateurs peuvent faire glisser et supprimer divers éléments et objets de jeu.
+**Cross-plateform** : Cette plate-forme de création de jeux est multiplateforme et peut être déployée sur presque tous les systèmes d'exploitation populaires tels que MacOS, Linux et Windows.
+**Options d'exportation** : GDEVELOPELL permet aux utilisateurs d'exporter des jeux développés en un seul clic pour Android, iOS et Web. Les propriétaires de jeux peuvent afficher des publicités vidéo sur leurs jeux et cela peut être possible avec le soutien d'Admob.
+**Rich Game Objets** : Ce fabricant de jeux open source fournit une large gamme d'objets de jeu tels que des sprites avec des animations, des explosions de feu et d'autres effets à l'aide d'émetteurs de particules. Le texte formaté, les vidéos intégrées et les formes personnalisées sont disponibles pour apporter des effets accrocheurs dans les jeux.
+**Comportements polyvalents** : Dans cet article de base de développement de jeux, nous vous montrerons comment nous pouvons ajouter différents comportements aux objets de jeu. Il existe plusieurs comportements disponibles qui sont prêts à l'emploi et les utilisateurs peuvent se développer davantage selon les exigences. Tout se passe en quelques clics de souris.
+**Interface avancée** : Dans ce didacticiel de conception de jeu, nous verrons l'interface utilisateur de ce moteur de jeu 3D. Les utilisateurs peuvent faire glisser et supprimer divers éléments et objets de jeu.
 
-## travaillant sur un jeu {#working}
+## travaillant sur un jeu   {#working}
 Cette section du didacticiel de développement de jeux élabore le développement de jeu de base avec GDEVEVELOP. Avant d'aller plus loin, assurez-vous que vous avez installé GDELAVELOVELLORALS localement sur votre machine.
 Vous pouvez visiter ce didacticiel [GDELELAPELL TUTORAL pour les débutants pour commencer le développement de jeux][3] pour acquérir la mise en place de cet éditeur de jeu sur LocalHost.
 Maintenant, ouvrez l'éditeur et créez un nouveau projet. Dans ce tutoriel, nous créerons un dossier sur Google Drive pour enregistrer les fichiers de jeu. Cliquez maintenant sur le «Créer un nouveau projet», il ouvrira une nouvelle boîte de dialogue, sélectionnez l'option «jeu vide» pour commencer à construire un nouveau jeu.
@@ -62,7 +62,7 @@ Donc, faites glisser la marque apparaissant dans le coin supérieur gauche jusqu
 {{< figure align=center src="images/Screenshot-2021-05-28-at-16.18.02-1024x578.png" alt="Tutoriel de développement du jeu">}}
 
 
-## Conclusion {#conclusion}
+## Conclusion   {#conclusion}
 C'est la fin de ce tutoriel de développement de jeux. Espérons que ce billet de blog serait utile pour les développeurs de jeux. Ce tutoriel vous a permis de travailler avec les objets de jeu et d'ajouter des comportements. À l'avenir, Containerize.com publiera des articles de blog et des articles de tutoriels sur d'autres logiciels de conception de jeux vidéo open source. Par conséquent, veuillez rester connecté avec cette catégorie [logiciel de développement de jeux][8] sur [contenerize.com][9] pour les mises à jour régulières.
 
 ## Explorer

@@ -15,7 +15,7 @@ categories: ['Web Server Solution Stack']
 
 
 ## 概述
-尽管Apache和Nginx具有许多素质，但不应将它们视为完全可以互换。这两个开源Web服务器彼此不同，应根据您的Web应用程序的需求选择。在本文中，我们将详细讨论** apache vs nginx **比较。
+尽管Apache和Nginx具有许多素质，但不应将它们视为完全可以互换。这两个开源Web服务器彼此不同，应根据您的Web应用程序的需求选择。在本文中，我们将详细讨论**apache vs nginx** 比较。
   * [什么是Apache？][1]
   * [什么是nginx？][2]
   * [apache vs nginx比较][3]
@@ -23,13 +23,13 @@ categories: ['Web Server Solution Stack']
   * [结论][5]
   * [探索][6]
 
-## 什么是Apache？ {#whatisapache}
+## 什么是Apache？   {#whatisapache}
 Apache Web服务器是Internet上最受欢迎的服务器之一，为27％的网站提供服务。 Apache主要是开发人员的首选，因为其灵活性，功率以及广泛的支持和详细的文档。它支持动态加载的模块，使开发人员可以轻松扩展其功能。
 
-## 什么是nginx？ {#whatisnginx}
+## 什么是nginx？   {#whatisnginx}
 本文是关于Apache vs nginx比较的。这两个Web服务器都是开源，可配置的，并且可以处理世界上一半以上的互联网流量。
 
-## apache vs nginx比较{#apachevsnginx}
+## apache vs nginx比较 {#apachevsnginx}
 在本节中，让我们根据支持，文档，内容类型和配置结构比较Apache和Nginx。
 
 #### 建筑学
@@ -50,14 +50,14 @@ Apache Server可以将请求解释为文件系统上的物理资源或URI位置�
 #### 配置
 Apache提供了开发人员使用称为.htaccess的文件在目录级别设置配置的能力。但是对于NGINX，没有这样的机制可以在目录级别设置配置。就配置而言，Apache提供的灵活性比NGINX更具灵活性。
 
-## nginx比Apache好吗？ {#nginx}
+## nginx比Apache好吗？   {#nginx}
 对于服务静态内容而言，NGINX比Apache快。因此，如果您的Web应用程序提供了很多静态内容，那么是的Nginx比Apache更好，更快。就动态内容而言，两个网络服务器几乎都提供相同的性能，因此这里没有明确的赢家。 Apache和Nginx几乎在所有操作系统上都运行，但是与Apache相比，NGINX在Windows上的性能不佳。如果您的操作系统是一个类似于Unix的系统，并且您的Web应用程序至关重要，那么NGINX比Apache更好。
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 Apache和Nginx都有自己的方式。我们已经讨论了Apache与Nginx比较，什么是Apache，什么是Nginx以及Apache和Nginx之间的差异。从这两个最受欢迎的Web服务器中选择一个完全取决于您的Web应用程序的要求。选择取决于您对Web服务器的性能，资源利用，速度，可扩展性和支持的期望。两者都有自己的利益。没有一种适合所有Web服务器的尺寸，因此请使用最适合您的目标和期望的解决方案。
 最后，[Containerize.com][7]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与常规更新的[开源Web服务器][8]类别保持联系。此外，您可以在我们的社交媒体帐户[Facebook][9]，[LinkedIn][10]和[Twitter][11]上关注我们。
 
-## 探索{#Explore}
+## 探索 {#Explore}
 您可能会发现以下链接相关：
   * [2021年的前5个开源Web服务器解决方案堆栈][12]
   * [设置XAMPP和PHPMYADMIN作为Windows上的Localhost][13]

@@ -22,14 +22,14 @@ Poin -poin berikut akan dibahas dalam artikel ini:
   * [Bagaimana cara kerjanya dan apa yang ditawarkannya? ][3]
   * [Manfaat Bisnis Globalisasi & Lokalisasi][4]
 
-## Apa itu sistem manajemen terjemahan? {#What-is-a-translation-management-system}
+## Apa itu sistem manajemen terjemahan?   {#What-is-a-translation-management-system}
 A**Sistem Manajemen Terjemahan (TMS)**Mengelola dan mengotomatiskan terjemahan situs web/perangkat lunak atau aplikasi Anda. Perangkat lunak ini menganggap file situs web Anda sebagai input, menerjemahkannya ke dalam bahasa yang berbeda, dan memperbarui situs web secara otomatis. Selain itu, ia tidak hanya mengelola terjemahan tetapi juga menawarkan platform terintegrasi di mana kolaborator dan editor dapat berinteraksi dengan mulus.
 
 {{< figure align=center src="images/languages.png" alt="Sistem Manajemen Terjemahan Sumber Terbuka">}}
 
 Pekerjaan sepele dari semua perangkat lunak otomatisasi terjemahan****adalah untuk menyediakan layanan lokalisasi situs web dan**open-source TMS**cukup kaya untuk menyediakan banyak fitur dan integrasi yang berguna lainnya. Faktanya, integrasi termasuk perpustakaan pihak ketiga, alat komunikasi & kolaborasi. Lebih lanjut, sistem manajemen terjemahan ini sangat kuat dan mendorong file yang diterjemahkan dengan sangat cepat yang pada akhirnya memberikan keunggulan pada SEO situs web.
 
-## Bagaimana cara kerjanya dan apa yang ditawarkannya? {#How-does-it-work-and-wheat-does-it-fror}
+## Bagaimana cara kerjanya dan apa yang ditawarkannya?   {#How-does-it-work-and-wheat-does-it-fror}
 Sistem manajemen terjemahan mengotomatiskan tugas -tugas berulang dalam mengelola terjemahan situs web bisnis. Ini menawarkan ketentuan untuk mengelola aset yang diterjemahkan dari perangkat lunak bisnis apa pun yang juga memungkinkan pemangku kepentingan yang relevan bekerja secara kolaboratif. Namun, Anda memanfaatkan alat manajemen terjemahan yang menghasilkan antarmuka yang ramah pengguna untuk melacak kemajuan proses terjemahan yang sedang berlangsung.
 Bagian paling keren dari perangkat lunak manajemen terjemahan sumber terbuka adalah Anda dapat memiliki versi cloud yang memecahkan masalah yang terkait dengan skalabilitas. Oleh karena itu, Anda dapat fokus pada mengelola lokalisasi proyek Anda dan meningkatkan jangkauan konten Anda lintas batas.
 Berikut ini adalah fitur inti dari setiap sistem manajemen terjemahan (TMZ):
@@ -49,7 +49,7 @@ Fitur ini sangat luar biasa karena mengurangi waktu & upaya untuk bolak -balik a
 Memori terjemahan ####
 Memori terjemahan menghemat waktu, meningkatkan efisiensi, dan membuat proses terjemahan lebih cepat. Jadi, itu menyimpan catatan semua terjemahan sebelumnya sehingga semua string berulang diterjemahkan tanpa memulai proses baru.
 
-## Manfaat Bisnis Globalisasi & Lokalisasi {#Manfaat-of-Globalization-and-Localization}
+## Manfaat Bisnis Globalisasi & Lokalisasi   {#Manfaat-of-Globalization-and-Localization}
 Bagian ini akan menjelaskan beberapa fasilitas terkemuka yang terkait dengan menambahkan terjemahan ke aplikasi bisnis Anda.
 
 #### Keunggulan kompetitif
@@ -68,10 +68,10 @@ Ini adalah salah satu manfaat utama dari lokalisasi dan globalisasi perangkat lu
 Ini membawa kita ke akhir posting blog ini. Kami berharap Anda telah melalui artikel ini secara menyeluruh dan telah memahami ekosistem sistem manajemen terjemahan. Selanjutnya, ada banyak perangkat lunak manajemen terjemahan sumber terbuka yang menawarkan layanan lokalisasi situs web. Namun, terserah Anda untuk membuat pilihan sambil menjaga kebutuhan bisnis Anda. Selain itu, lokalisasi situs web adalah komponen yang harus dimiliki untuk situs web bisnis mana pun.
 Akhirnya, [**containerize.com**][6] menulis artikel tentang produk open-source lebih lanjut. Karena itu, harap tetap berhubungan untuk pembaruan rutin.
 
-## Ajukan pertanyaan {#ask-a-question}
+## Ajukan pertanyaan   {#ask-a-question}
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [7].
 
-## faqs {#faqs}
+## faqs   {#faqs}
 
 ####**Apakah saya memerlukan sistem manajemen terjemahan?**
 Ya, jika Anda berurusan dengan sejumlah besar konten yang melibatkan sumber daya statis dan dinamis. Jadi, Anda dapat meng-host open-source**perangkat lunak manajemen terjemahan**untuk mengotomatisasi dan mengelola terjemahan.
@@ -79,7 +79,7 @@ Ya, jika Anda berurusan dengan sejumlah besar konten yang melibatkan sumber daya
 ####**Apa keuntungan dari TMS?**
 Silakan kunjungi [tautan][4] ini untuk mengetahui keuntungan dari sistem manajemen terjemahan.
 
-## Lihat juga {#See-also}
+## Lihat juga   {#See-also}
   * [Perangkat Lunak Kontrol Versi][8]
   * [Otomasi Pemasaran][9]
   * [Alat Penyebaran][10]

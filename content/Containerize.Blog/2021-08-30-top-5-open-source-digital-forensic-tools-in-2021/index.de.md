@@ -40,7 +40,7 @@ Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder M
   * Generieren Sie eine Zeitleiste alle erkannten böswilligen Spuren.
 **Verknüpfung**:
 
-## 2. Wireshark - Netzwerkprotokollanalyse {#CE62}
+## 2. Wireshark - Netzwerkprotokollanalyse   {#CE62}
 [Wireshark][2] ist ein Tool, das ein Netzwerkpaket analysiert. Es kann für Netzwerktests und Fehlerbehebung verwendet werden. Dieses Tool hilft Ihnen dabei, verschiedene Datenverkehr durch Ihr Computersystem zu überprüfen.
 **Merkmale**:
   * Es bietet eine reiche VoIP -Analyse (Voice -Over -Internet -Protokoll).
@@ -50,9 +50,9 @@ Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder M
   * Entschlüsselungsunterstützung für zahlreiche Protokolle, die IPSec (Internet Protocol Security), SSL (Secure Sockets Layer) und WEP (Wired Equivalent Privacy) umfassen.
   * Sie können intuitive Analysen und Farbregeln auf das Paket anwenden.
   * Ermöglicht Ihnen die Datei in einem beliebigen Format zu lesen oder zu schreiben.
-** Link **: [https://www.wireshark.org][2]
+**Link** : [https://www.wireshark.org][2]
 
-## 3. Das Sleuth -Kit und die Autopsie - Festplattenanalyse {#CE62}
+## 3. Das Sleuth -Kit und die Autopsie - Festplattenanalyse   {#CE62}
 [SLEUTH KIT & AUTOPSY][3] ist ein Windows -basiertes Dienstprogramm -Tool, das die forensische Analyse von Computersystemen erleichtert. Mit diesem Tool können Sie Ihre Festplatte und Ihr Smartphone untersuchen.
 **Merkmale**:
   * Sie können Aktivität mithilfe einer grafischen Schnittstelle effektiv identifizieren.
@@ -62,18 +62,18 @@ Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder M
   * Sie können Dateien mit den beliebigen Tag -Namen markieren.
   * Mit dem Sleuth -Kit können Sie Daten aus Anrufprotokollen, SMS, Kontakten usw. extrahieren.
   * Es hilft Ihnen, Dateien und Ordner basierend auf Pfad und Namen zu markieren.
-** Link **: [https://www.sleuthkit.org][3]
+**Link** : [https://www.sleuthkit.org][3]
 
-## 4. Volatilitätsgerüst - Speicherforensik {#CE62}
+## 4. Volatilitätsgerüst - Speicherforensik   {#CE62}
 [Volatility Framework][4] ist Software für Speicheranalyse und Forensik. Es ist eines der besten forensischen Imaging -Tools, mit denen Sie den Laufzeitzustand eines Systems anhand der in RAM gefundenen Daten testen können. Mit dieser App können Sie mit Ihren Teamkollegen zusammenarbeiten.
 **Merkmale**:
   * Es verfügt über API, mit denen Sie schnell nach PTE -Flags nach PTE -Flaggen suchen können.
   * Das Volatilitätsgerüst unterstützt Kaslr (Kerneladress -Raumlayout -Randomisierung).
   * Dieses Tool bietet zahlreiche Plugins für die Überprüfung des Mac -Dateibetriebs.
   * Es wird automatisch den Fehlerbefehl ausgeführt, wenn ein Dienst nicht mehrmals beginnt.
-** Link **: [https://www.volatilityFoundation.org][4]
+**Link** : [https://www.volatilityFoundation.org][4]
 
-## 5. SANS Investigative Forensic Toolkit (SIFT) - SIFT -Workstation für Ubuntu {#B49B}
+## 5. SANS Investigative Forensic Toolkit (SIFT) - SIFT -Workstation für Ubuntu   {#B49B}
 [Sans SIFT][5] ist eine auf Ubuntu basierende Computer -Forensikverteilung. Es ist eines der besten forensischen Computer -Tools, die eine digitale forensische und vorfältige Reaktionsprüfungseinrichtung bieten.
 **Merkmale**:
   * Es kann an einem 64-Bit-Betriebssystem funktionieren.
@@ -81,13 +81,13 @@ Amnesty International hat ein Toolkit namens [Mobile Verification Toolkit oder M
   * Es aktualisiert automatisch das Paket DFIR (Digital Forensics and Incident Response).
   * Sie können es über SIFT-CLI-Installationsprogramm (Befehlszeilenschnittstelle) installieren.
   * Dieses Tool enthält zahlreiche neueste forensische Tools und Techniken.
-** Link **: [https://digital-forenssics.sans.org/][6]
+**Link** : [https://digital-forenssics.sans.org/][6]
 
 ## Warum benötigen Sie eine digitale forensische Software?
 Sie benötigen ein digitales Forensik -Tool, da es eine wichtige Rolle in einer umfassenden Cybersecurity -Infrastruktur spielt. Digitale Forensik und Cyber ​​-Sicherheit arbeiten zusammen, um Ihre Online -Präsenz und Ihre privaten Dateninformationen zu schützen. Digital Forensics Software (DFS) ist auf die Untersuchung von IT -Systemen, Routern oder Servern im Kontext von Sicherheitsereignissen spezialisiert.
 Die digitale Forensik kann sowohl für Unternehmen als auch für Anwaltskanzleien nützlich sein, um Cyber ​​-Bedrohungen zu identifizieren. Ihr Unternehmen benötigt digitale forensische Tools, um die Cybersicherheit zu erhöhen, indem das Risiko von Identitätsdiebstahl, Betrug und anderen digitalen Verbrechen verringert wird. Digital Forensics Tool sammeln Informationen mit komplexen Tools, um eine Person vor Gericht zu stellen, um private Informationen zu nutzen oder zu manipulieren.
 
-## Schluss Gedanken: {#4a1a}
+## Schluss Gedanken:   {#4a1a}
 Wir haben die beliebtesten digitalen Open -Source -forensischen Tools erörtert, die viele Implementierungen mit einer schnelleren Turnaround -Zeit im Vergleich zu herkömmlichen Methoden umfassen. Datenforensik-Tools sind weitgehend technisch angetrieben mit einer schnellen Alternative zur manuellen Analyse. Dies sind einige der besten kostenlosen Tools, die Sie für die Forensik verwenden können. Wir hoffen, dass Sie es genossen haben, die Liste durchzulesen. In unseren bevorstehenden Blog -Artikeln werden wir weitere interessante Themen zu Open -Source -Digital Forensic Tools erörtern.
 Sie können sich uns auf [Twitter][7], [LinkedIn][8] und unserer [Facebook][9] -Seite anschließen. Welche digitalen forensischen Open -Source -Tools bevorzugen Sie? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][10].
 

@@ -22,31 +22,31 @@ Dalam serangkaian artikel kami tentang "Redis", kami belajar tentang [Dasar -Das
 
 ## Apa itu Kafka?
 Apache Kafka adalah platform aliran acara terdistribusi sumber terbuka. Digunakan untuk pipa data berkinerja tinggi, dan streaming analitik. Kafka bertindak sebagai [Sistem Pesan Berlangganan Publikasikan][3]. Dengan ini, Anda dapat memproses data baru saat dihasilkan dengan kecepatan tinggi dan juga dapat menyimpannya ke beberapa database juga.
-Kafka adalah sistem terdistribusi yang terdiri dari ** server ** dan ** klien **. Ini dapat digunakan pada perangkat keras telanjang-logam, mesin virtual, dan wadah di lingkungan serta lingkungan cloud.
+Kafka adalah sistem terdistribusi yang terdiri dari **server  **dan **  klien** . Ini dapat digunakan pada perangkat keras telanjang-logam, mesin virtual, dan wadah di lingkungan serta lingkungan cloud.
 
 ## Apa itu Redis?
 Redis adalah toko nilai kunci terkemuka dan lanjutan. Ini mendukung beberapa tipe data: string, hash, daftar, set, dan set yang diurutkan. Itu sebabnya sering disebut sebagai server struktur data.
 Redis juga dianggap sebagai database NoSQL. Untuk diskusi terperinci tentang dia Redis dan cara kerjanya, Anda dapat merujuk pada artikel kami “[Panduan Pemula untuk Redis Database In-Memory][1]“.
 
 ## Apa perbedaan utamanya?
-** REDIS ** Pub-Sub sebagian besar seperti sistem api-dan-laba di mana semua pesan yang Anda hasilkan akan dikirimkan ke semua konsumen sekaligus dan data tidak disimpan di mana pun. Anda memiliki keterbatasan dalam memori sehubungan dengan Redis. Juga, jumlah produsen dan konsumen dapat mempengaruhi kinerja Redis.
-Di sisi lain, ** kafka ** adalah throughput tinggi, log terdistribusi yang dapat digunakan sebagai antrian. Ini juga memberikan kegigihan untuk pesan yang dikirim melalui antrian.
-** Redis ** Mendukung ** Push-Based ** Pengiriman Pesan. Ini berarti setiap pesan yang didorong ke Redis akan dikirimkan secara otomatis ke semua pelanggan.
-** KAFKA **, bagaimanapun, mendukung ** Pengiriman Pesan Berbasis Tarik. Berarti pesan yang diterbitkan untuk Kafka tidak didistribusikan ke pelanggan secara otomatis. Sebaliknya, konsumen meminta pesan ketika mereka siap untuk mengkonsumsi pesan -pesan itu.
-** Redis ** tidak menyimpan pesan sebagai gantinya, pesan dikirim sekaligus ke semua konsumen dan kemudian dihapus. Namun, ** kafka ** menjadi log, Anda selalu memiliki pesan. Anda dapat memantau ini dengan menetapkan kebijakan retensi, katakanlah 7 hari ** retensi **.
+**REDIS**  Pub-Sub sebagian besar seperti sistem api-dan-laba di mana semua pesan yang Anda hasilkan akan dikirimkan ke semua konsumen sekaligus dan data tidak disimpan di mana pun. Anda memiliki keterbatasan dalam memori sehubungan dengan Redis. Juga, jumlah produsen dan konsumen dapat mempengaruhi kinerja Redis.
+Di sisi lain, **kafka**  adalah throughput tinggi, log terdistribusi yang dapat digunakan sebagai antrian. Ini juga memberikan kegigihan untuk pesan yang dikirim melalui antrian.
+**Redis  **Mendukung **  Push-Based**  Pengiriman Pesan. Ini berarti setiap pesan yang didorong ke Redis akan dikirimkan secara otomatis ke semua pelanggan.
+**KAFKA **, bagaimanapun, mendukung**  Pengiriman Pesan Berbasis Tarik. Berarti pesan yang diterbitkan untuk Kafka tidak didistribusikan ke pelanggan secara otomatis. Sebaliknya, konsumen meminta pesan ketika mereka siap untuk mengkonsumsi pesan -pesan itu.
+**Redis  **tidak menyimpan pesan sebagai gantinya, pesan dikirim sekaligus ke semua konsumen dan kemudian dihapus. Namun, **  kafka  **menjadi log, Anda selalu memiliki pesan. Anda dapat memantau ini dengan menetapkan kebijakan retensi, katakanlah 7 hari **  retensi** .
 
 ## Kapan menggunakan yang mana?
 
 ### redis
   * Jika Anda menginginkan jenis sistem pemadam kebakaran, di mana semua pesan yang Anda hasilkan dikirimkan secara instan kepada konsumen.
-  *Jika ** Kecepatan ** paling peduli.
-  *Jika ** penyimpanan ** tidak penting, dan Anda tidak ingin sistem Anda menyimpan pesan yang telah dikirim
+  *Jika **Kecepatan**  paling peduli.
+  *Jika **penyimpanan**  tidak penting, dan Anda tidak ingin sistem Anda menyimpan pesan yang telah dikirim
   * Jumlah data yang akan dibahas tidak besar.
 
 ### kafka
-  *Jika Anda ingin ** keandalan **.
+  *Jika Anda ingin **keandalan** .
   * Jika Anda ingin sistem Anda memiliki salinan pesan yang telah dikirim bahkan setelah konsumsi.
-  *Jika ** Kecepatan ** bukan masalah besar.
+  *Jika **Kecepatan**  bukan masalah besar.
   * Dan ukuran data Anda sangat besar.
 
 ## Kesimpulan

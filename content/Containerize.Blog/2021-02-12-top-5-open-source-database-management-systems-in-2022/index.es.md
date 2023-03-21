@@ -22,7 +22,7 @@ Los sistemas de gestión de bases de datos ofrecen un enfoque sistemático para 
   * [Sqlite][4]
   * [MongoDB][5]
 
-## mysql {#mysql}
+## mysql   {#mysql}
 MySQL es un sistema de gestión de bases de datos gratuitos y de código abierto y proporciona soporte para las plataformas cruzadas. De hecho, permite a los programadores modificar el software MySQL para que se ajuste a sus entornos y requisitos específicos. La mayoría de los desarrolladores usan MySQL DBMS con PHP, que es el lenguaje de programación más popular para aplicaciones web. Los buenos ejemplos para las aplicaciones web basadas en PHP y MySQL son WordPress, Joomla y Drupal. MySQL funciona con muchos idiomas, incluidos PHP, Perl, C, C ++, Java, etc. Sin embargo, todo el código fuente de este DBMS de código abierto está disponible en [GitHub][6] con documentación con respecto al desarrollo y la implementación.
 Las siguientes son las características destacadas:
   * Fácil de uso
@@ -33,7 +33,7 @@ Las siguientes son las características destacadas:
   * Alto rendimiento
 [Leer][7][más][7]
 
-## Postgresql {#PostGre}
+## Postgresql   {#PostGre}
 PostgreSQL es el software DBMS relacional más avanzado debido a su arquitectura probada, confiabilidad, integridad de datos, conjunto de características sólidas, así como extensibilidad y recuperación de desastres. Al igual que otros sistemas de gestión de bases de datos, es un poderoso sistema de base de datos relacionado con objetos de código abierto. Extiende el lenguaje SQL y agrega muchas características adicionales. PostgreSQL es altamente extensible. Puede definir sus tipos de datos personalizados, desarrollar funciones personalizadas, incluso escribir código de diferentes lenguajes de programación sin recompensar la base de datos. Por lo tanto, está escrito en lenguaje C. Sin embargo, todo el código fuente de este DBMS de código abierto está disponible en [Github][8] con documentación sobre el desarrollo y la implementación.
 PostgreSQL tiene las siguientes características clave:
   * Fuente abierta
@@ -44,7 +44,7 @@ PostgreSQL tiene las siguientes características clave:
   * Identificador universalmente único
 [Leer más][9]
 
-## mariadb {#maria}
+## mariadb   {#maria}
 MariaDB se puede usar como una alternativa MySQL. Es un software DBMS relacional que proporciona confiabilidad, integridad de datos, concurrencia, consistencia, así como recuperación de desastres y extensibilidad para sus aplicaciones web. Proporciona soporte tanto para pequeñas tareas de procesamiento de datos como para necesidades empresariales. MariadB también admite modelos de datos relacionales, JSON e híbridos junto con cargas de trabajo transaccionales, analíticas e híbridas. Además, MariadB es uno de los software DBMS más populares. Es parte de la mayoría de las ofertas de nubes y el valor predeterminado en la mayoría de las distribuciones de Linux. Por lo tanto, está escrito en lenguajes C y C ++. Sin embargo, todo el código fuente de este DBMS de código abierto está disponible en [Github][10] con documentación sobre el desarrollo y la implementación.
 Este DBMS relacional ofrece las siguientes características importantes:
   * Soporte JSON
@@ -55,7 +55,7 @@ Este DBMS relacional ofrece las siguientes características importantes:
   * Motor de almacenamiento de columna / infinidb
 [Leer más][11]
 
-## sqlite {#sqlite}
+## sqlite   {#sqlite}
 SQLite es liviano en términos de configuración, administración de bases de datos y recursos requeridos. Es una biblioteca de idioma C que actúa como un motor de base de datos que es un motor de base de datos pequeño, rápido, autónomo y altamente confiable y más utilizado en el mundo. Además, el motor SQLite DB puede vincularse de manera estadítica o dinámica según el requisito de la aplicación. SQLite no tiene servidor, ya que no requiere un proceso o sistema de servidor separado para operar como otros RDMB. Además, SQLite DBMS está disponible para diferentes plataformas como Windows (Win32, Wince, WinRT) y también para UNIX (Linux, Mac OS-X, Android, iOS). Por lo tanto, está escrito en lenguaje C. Sin embargo, todo el código fuente de este software DBMS está disponible en [Github][12] con documentación sobre el desarrollo y la implementación.
 Al igual que otros sistemas de gestión de bases de datos, las siguientes son las características destacadas de este DBMS de código abierto:
   * Motor de base de datos sin servidor
@@ -66,7 +66,7 @@ Al igual que otros sistemas de gestión de bases de datos, las siguientes son la
   * Disponible para diferentes plataformas
 [Leer más][13]
 
-## MongoDB {#Mongo}
+## MongoDB   {#Mongo}
 MongoDB también es una de las bases de datos orientadas a documentos principales. Proporciona un acceso rápido a los datos debido a su naturaleza de implementar la memoria interna para almacenar los datos. Por lo tanto, MongoDB puede manejar datos estructurados y no estructurados dentro de varios tipos de aplicaciones. La base de datos MONGODB es una base de datos segura y fácil de escalar. Por lo tanto, se puede utilizar para admitir sistemas de gestión de contenido, sistemas de comercio electrónico, aplicaciones móviles, sección de análisis de datos, archivo, así como aplicaciones de juegos en línea y fuera de línea. Se puede configurar fácilmente y escalable. Los datos se pueden actualizar muy rápidamente. Sin embargo, todo el código fuente de esta base de datos orientada al documento está disponible en [Github][14] con documentación sobre el desarrollo y la implementación.
 Esta base de datos orientada a documentos tiene las siguientes características clave:
   * Alta escalabilidad elástica

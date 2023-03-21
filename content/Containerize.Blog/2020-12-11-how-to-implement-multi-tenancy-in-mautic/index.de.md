@@ -19,13 +19,13 @@ MAUTIC ist eine kostenlose und Open -Source -Marketing -Automatisierungslösung,
   * [Implementieren Sie Multi-Messen in Mautic][3]
   * [Schlussfolgerung][4]
 
-## Was ist Multi-Tenancy {#Multi-Tenancy}
+## Was ist Multi-Tenancy   {#Multi-Tenancy}
 In einer Softwarearchitektur mit mehreren Mietern dient einer einzigen Instanz einer Softwareanwendung mehrere Mieter. Jede Mieterdaten werden von anderen Mieter isoliert, die dieselbe Anwendungsinstanz teilen. Diese Mieter sind logisch isoliert, aber physisch integriert. Dies gewährleistet die Datensicherheit und Privatsphäre für alle Mieter. Das Erstellen mehrerer Mieter aus einer einzelnen Anwendungsinstanz erfordert viel weniger Speicher. Die Mieter teilen Ressourcen und senken die Kosten für Software -Wartung, Infrastruktur und Rechenzentrumsvorgänge. Die Kosten sind tendenziell niedriger als die einer Einzelvermietungsinfrastruktur.
 
-## Was ist mauic {#meus}
+## Was ist mauic   {#meus}
 [MAUTIC][5] ist eine kostenlose und Open -Source -Marketing -Software. Automatisieren Sie sich wiederholende Marketingaufgaben wie Marketingkampagnen, Lead -Generierung, Kontaktsegmentierung usw. unter Verwendung von MAUTIC. Es verfügt über überraschende Funktionen, darunter Lead -Generierung, Kampagnenaufbau, Kontaktsegmentierung, E -Mail -Builder, A/B -Tests, Page Builder, Lead Nurturing und mehr. Mautic unterstützt auch die Integration mit allen beliebten sozialen Plattformen, z. Facebook, Twitter, LinkedIn. All diese unglaublichen Funktionen helfen Ihnen, das allgemeine Kundenerlebnis zu verbessern und die Marketingautomatisierung für Ihr Unternehmen zu verbessern.
 
-## Implementieren Sie Multi-Menancy in Mautic {#Implement}
+## Implementieren Sie Multi-Menancy in Mautic   {#Implement}
   * Erstellen Sie eine neue leere Datenbank mit dem Namen "main_db".
   * Erstellen Sie dann Tabelle mit dem Namen "Mieter", die Details zu allen Mietern enthält.
   * Es werden 3 Felder enthalten, einschließlich Site \ _name, URL und DB \ _name, wie in Abbildung gezeigt
@@ -48,7 +48,7 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Erstellen Sie anschließend Kopie von Mautic/App/config/local.php und benennen Sie sie in [Site_Name] .Php um.
   * Aktualisieren Sie den Datenbanknamen, den Host, das Kennwort und den Benutzer endlich gemäß der neuen Datenbank.
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Mautic ist eine kostenlose, reichhaltige und qualitativ hochwertige Marketing-Automatisierungslösung. Sie können Marketingkampagnen, Segmente, Formulare, Berichte und vieles mehr erstellen. Durch die Implementierung von Multi-Mieter in Mautic wird die Kosten gesenkt und die Effizienz, Skalierbarkeit und Sicherheit verbessert. Erstellen Sie einfach Hunderte von Mietern aus nur einer Installation.
 
 ## Erkunden

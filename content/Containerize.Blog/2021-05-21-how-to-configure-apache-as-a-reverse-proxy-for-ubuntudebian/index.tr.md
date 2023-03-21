@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-Apache-as-a-Reverse-Proxy-1.png" alt="Apache Ters Proxy'yi yükleyin ve yapılandırın">}}
 
 
-## ** Genel Bakış **
+## **Genel Bakış** 
 Apache Ters Proxy, tüm trafiğin ve bir proxy sunucusunun arkasındaki bir veya daha fazla arka uç sunucusunu veya kapsayıcıları kamuya açıklamadan çalıştırmasına izin verir. Arka uç web sunucusu başka bir Apache2 veya Nginx gibi açık kaynaklı HTTP sunucusu olabilir. Apache2 HTTP sunucusu, bugün kullanılan en popüler açık kaynak web sunucusundan biridir.
 Bir proxy sunucusunu kurmak ve yapılandırmak için birçok neden vardır. Örneğin, ters proxy, saldırıları ve daha fazlasını önlemek için güvenlik eklemenize, yük dengeleme için belirli yerlere erişimi kısıtlamanıza yardımcı olabilir. Bu makalede, Ubuntu/Debian'da HTTPS sunucusu için Apache Ters Proxy Yapılandırması'nın adım adım nasıl kurulacağı ve yapılandırılacağı açıklanmaktadır:
   * Apache2'nin yüklenmesi
@@ -44,7 +44,7 @@ Apache2 kurulumunu kontrol etmek için tarayıcınızı açın ve sunucu ana bil
 
 
 ## Adım 2: Apache2'yi ters proxy olarak yapılandırın
-Apache2 başarıyla kurulur ve kullanıma hazırdır. Artık Apache2'yi Apache2 Ters Proxy Ubuntu olarak çalışacak şekilde yapılandırabilirsiniz. Apache2 Proxy Modülünün ** Proxypass ** ve ** ProxypassReverse ** işlevi ters bir proxy sağlar. ** proxypass ** ve ** proxypassReverse ** kullanmak için önce site trafiğini yönlendirmek istediğinizi bilmelisiniz.
+Apache2 başarıyla kurulur ve kullanıma hazırdır. Artık Apache2'yi Apache2 Ters Proxy Ubuntu olarak çalışacak şekilde yapılandırabilirsiniz. Apache2 Proxy Modülünün **Proxypass  **ve **  ProxypassReverse  **işlevi ters bir proxy sağlar. **  proxypass  **ve **  proxypassReverse**  kullanmak için önce site trafiğini yönlendirmek istediğinizi bilmelisiniz.
 Apache2 Ters Proxy sunucusu, basit bir kurulumda 80 bağlantı noktası olan varsayılan HTTP bağlantı noktasındaki tüm trafiği dinleyecektir. Web sitesi içeriğini barındıran arka uç sunucu özel bir bağlantı noktasını dinleyecek ve büyük olasılıkla 8080 bağlantı noktasıdır.
 Bu blog makalesinde, 80 numaralı bağlantı noktasını dinlemek için Apache2'yi kuruyoruz ve daha sonra 8080 numaralı bağlantı noktasını dinleyen arka uç sunucusuna doğrudan trafiği yönlendiriyoruz. Apache2proxy.conf adlı bir proxy VirtualHost dosyası oluşturmak için aşağıdaki komutu çalıştırın.
 sudo nano /etc/apache2/sites-evailable/apache2proxy.conf
@@ -82,17 +82,17 @@ sudo a2ensite apache2proxy.conf
 sudo systemctl yeniden başlatma apache2.service
 Seçtiğiniz bir Web tarayıcısını başlatın ve Sunucu Hostname Like Expal.com'a gidin. Artık varsayılan bağlantı noktasında Apache2 sunucunuza, yani 8080'e bağlı olacaksınız.
 
-## Adım 4: SSL'yi etkinleştir {#Block-07B86D83-DCA0-4924-B991-206719C342EB}
+## Adım 4: SSL'yi etkinleştir   {#Block-07B86D83-DCA0-4924-B991-206719C342EB}
 Apache Ters Proxy SSL modülünü etkinleştirmek istiyorsanız, Apache Ters Proxy HTTPS Proxy Pass'i etkinleştirmek için aşağıdaki komutu çalıştırın:
 sudo a2enmod ssl
 Bu, arka uç sunucularına HTTPS desteğine Güvenli Apache Ters Proxy HTTP sağlayacaktır.
 
-## Adım 5: Yeniden Başlat Apache2 {#Block-836BB4FF-17AD-4317-8ECB-153104BD28A7}
+## Adım 5: Yeniden Başlat Apache2   {#Block-836BB4FF-17AD-4317-8ECB-153104BD28A7}
 Bu değişiklikleri yürürlüğe koymak için, aşağıdaki komutu çalıştırarak Apache'yi yeniden başlatın:
 sudo systemctl yeniden başlatma apache2.service
 Tebrikler! Linux sisteminize Apache2 Ters Proxy'yi başarıyla yüklediniz ve yapılandırdınız.
 
-## ** Sonuç: ** {#4A1A}
+## **Sonuç:**    {#4A1A}
 Bu öğreticide, bir proxy sunucusu ve Apache ters proxy örnek konfigürasyonunun adım adım ne olduğunu araştırdık ve tartıştık. Ayrıca APACHE2'nin bir Linux sisteminde ters proxy olarak nasıl kurulacağını ve yapılandırılacağını öğrendik. Yaklaşan öğreticilerimizde, Apache ve diğer web sunucusu çözüm yığınları hakkında daha ilginç konuları tartışacağız.
 
 ## Keşfetmek

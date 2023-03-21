@@ -23,7 +23,7 @@ Nous discuterons des outils Open Source suivants dans cet article:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin {#phpmyadmin}
+## phpmyadmin   {#phpmyadmin}
 PHPMYADMIN est un composant intégré avec les serveurs Web XAMPP et WAMPP. À l'heure actuelle, PHPMyAdmin est le logiciel de gestion des bases de données le plus utilisé. Les développeurs peuvent gérer les informations, les tables, les colonnes, les relations, les références, les utilisateurs et les autorisations, etc. via l'interface. De plus, il est utilisé pour effectuer la plupart des tâches d'administration, notamment la création d'une base de données, l'exécution de requêtes et l'ajout de comptes d'utilisateurs. Ce système de gestion de base de données est écrit en PHP ainsi que la saisie d'autres langues telles que JavaScript et SCSS. Par conséquent, toute la documentation est disponible concernant le développement et le déploiement. Ce sont quelques caractéristiques remarquables de phpmyadmin:
   * Interface Web facile à utiliser.
   * Prise en charge des fonctionnalités MySQL multiples.

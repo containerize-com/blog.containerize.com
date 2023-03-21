@@ -21,11 +21,11 @@ Mautic ve Joomla entegrasyonu, ürünlerinizi/hizmetlerinizi çok kolay ama veri
   * [Mautik konfigürasyon][3]
   * [Sonuç][4]
 
-## Genel Bakış: {#Overview}
+## Genel Bakış:   {#Overview}
 Mautic, açık kaynaklı bir pazarlama otomasyon sistemidir. Ücretsiz bir pazarlama yazılımıdır. Hedeflenen müşterilere pazarlama e -postaları göndermek için sınırsız kampanyalar oluşturmak için kullanabilirsiniz.
 Joomla aynı zamanda web siteleri geliştirmek için ücretsiz bir açık kaynaklı içerik yönetim sistemidir. Joomla'da işletme web sitelerinizi kurmak çok kolaydır. Gereksinimlerinize göre kullanılabilecek binlerce uzantıya sahiptir.
 
-## Joomla eklenti kurulumu: {#plugin}
+## Joomla eklenti kurulumu:   {#plugin}
   * [Eklenti][5] 'i indirin.
   * Ardından uzantılara gidin -> yönetin -> yükleyin.
   * Mautik URL'yi girin.
@@ -36,13 +36,13 @@ Joomla aynı zamanda web siteleri geliştirmek için ücretsiz bir açık kaynak
   * slot_name, kampanyanıza bir "İstek Dinamik İçerik" kararı eklerken belirttiğiniz yuvanın tanımlayıcısıdır.
 Kurulumdan sonra Joomla sitenize formlar oluşturmanız ve gömmeniz gerekir. Bu formlar temas bilgilerini Mautic'e gönderecektir. Joomla'da eklenti yapılandırmayı bitirdikten sonra, bir sonraki adım Mautic üzerinde yapılandırmak olacaktır.
 
-## Mautik Yapılandırma: {#Mautic}
+## Mautik Yapılandırma:   {#Mautic}
   * Mautic sitenize gidin, ayarlara geçin.
   * Yapılandırmaya tıklayın.
   * API ayarlarından API'yi etkinleştirin.
   * Mautic'i Joomla ile bağlamak için sitelerinizde SSL sertifikası olmalıdır.
   * Ardından API kimlik bilgilerine gitmeniz gerekir.
-  *Web sitenizde bir SSL yoksa (böylece ** http **: //yourjoomlasite.com adresine gidersiniz), OAuth1'i seçin. Sitenizde bir SSL varsa (böylece ** https **: //yourjoomlasite.com adresine gidersiniz), OAuth2'yi seçin.
+  *Web sitenizde bir SSL yoksa (böylece **http **: //yourjoomlasite.com adresine gidersiniz), OAuth1'i seçin. Sitenizde bir SSL varsa (böylece  **https**  : //yourjoomlasite.com adresine gidersiniz), OAuth2'yi seçin.
   * Yeni tıklayın, bir ad (istediğiniz herhangi bir şey olabilir) ve Joomla'nın tam URL'sini sağlayın! Site ([https://yourjoomlasite.com][6])
   * Kaydet'i tıklayın ve kapatın.
   * Burada kamu ve özel anahtarlar alabilirsiniz.
@@ -58,7 +58,7 @@ Kurulumdan sonra Joomla sitenize formlar oluşturmanız ve gömmeniz gerekir. Bu
 {{< figure align=center src="images/Mautic-and-Joomla-integration-1024x591.png" alt="Mautic ve Joomla entegrasyonu">}}
 
 
-## Sonuç: {#Conclusion}
+## Sonuç:   {#Conclusion}
 Bu yazıda Mautic ve Joomla'nın dijital pazarlama otomasyonuna nasıl yardımcı olabileceğini tartıştık. Bu açık kaynaklı ücretsiz pazarlama çözümü, Joomla sitesinden gelen tüm kişileri gruplandırmanıza ve bunları kullanarak pazarlama kampanyaları oluşturmanıza olanak tanır. Mautic, ihtiyaçlarınıza göre farklı segmentlerde farklı kampanyalar yapabilmeniz için segmentler oluşturmanıza izin verir. Ayrıntılı genel bakış için lütfen [Joomla][7] ve [Mautic][8] bloglarını kontrol edin.
 
 ## Keşfetmek:

@@ -22,14 +22,14 @@ Aşağıdaki noktalar bu makalede ele alınacaktır:
   * [Nasıl çalışır ve ne sunar? ][3]
   * [Küreselleşme ve Yerelleştirmenin İş Faydaları][4]
 
-## Çeviri yönetim sistemi nedir? {#Ne-a-translasyon-yönetim sistemi}
+## Çeviri yönetim sistemi nedir?   {#Ne-a-translasyon-yönetim sistemi}
 A**Çeviri Yönetim Sistemi (TMS)**, web sitenizin/yazılımınızın veya uygulamanızın çevirilerini yönetir ve otomatikleştirir. Bu yazılım, web sitesi dosyalarınızı giriş olarak alır, bunları farklı dillere çevirir ve web sitesini otomatik olarak günceller. Ayrıca, sadece çevirileri yönetmekle kalmaz, aynı zamanda ortak çalışanların ve editörlerin sorunsuz bir şekilde etkileşime girebileceği entegre bir platform sunar.
 
 {{< figure align=center src="images/languages.png" alt="Açık Kaynak Çeviri Yönetim Sistemi">}}
 
 Herhangi bir**çeviri otomasyon yazılımının**önemsiz işi web sitesi yerelleştirme hizmetleri sunmaktır ve**açık kaynaklı TMS**, diğer birçok yararlı özellik ve entegrasyon sağlayacak kadar zengindir. Aslında, entegrasyonlar üçüncü taraf kütüphaneleri, iletişim ve işbirliği araçlarını içerir. Ayrıca, bu çeviri yönetim sistemleri çok sağlamdır ve çevrilmiş dosyaları hızlı bir şekilde iterek Web sitesinin SEO'suna bir avantaj sağlar.
 
-## Nasıl çalışıyor ve ne sunuyor? {#How-does-iş-ve ne-ne-does-it-be-off}
+## Nasıl çalışıyor ve ne sunuyor?   {#How-does-iş-ve ne-ne-does-it-be-off}
 Bir çeviri yönetim sistemi, bir işletme web sitesinin çevirilerini yönetmenin tekrarlayan görevlerini otomatikleştirir. Herhangi bir iş yazılımının çevrilmiş varlıklarını yönetmek için hükümler sunar ve bu da ilgili paydaşların işbirliği içinde çalışmasına izin verir. Bununla birlikte, devam eden çeviri süreçlerinin ilerlemesini izlemek için kullanıcı dostu bir arayüz ile ortaya çıkan çeviri yönetimi araçlarından yararlanırsınız.
 Açık kaynaklı çeviri yönetimi yazılımının en havalı kısmı, ölçeklenebilirlik ile ilgili sorunları çözen bulut sürümüne sahip olmanızdır. Bu nedenle, projelerinizin yerelleştirilmesini yönetmeye ve içeriğinizin sınırlar boyunca erişimini artırmaya odaklanabilirsiniz.
 Herhangi bir çeviri yönetim sisteminin (TMZ) temel özellikleri aşağıdadır:
@@ -49,7 +49,7 @@ Bu özellik, işletme web sitesindeki güncellemeleri çekme ve itme arasında g
 #### Çeviri Bellek
 Çeviri belleği zaman kazandırır, verimliliği artırır ve çeviri işlemini daha hızlı hale getirir. Böylece, tüm tekrarlayan dizelerin herhangi bir yeni süreç başlatmadan tercüme edilmesi için önceki tüm çevirilerin kaydını tutar.
 
-## Küreselleşme ve Yerelleştirmenin İş Faydaları {#Globalizasyon ve Lokalizasyon Avantajları}
+## Küreselleşme ve Yerelleştirmenin İş Faydaları   {#Globalizasyon ve Lokalizasyon Avantajları}
 Bu bölümde, iş başvurunuza çeviriler eklemeye bağlı önde gelen bazı avantajlar açıklanacaktır.
 
 #### Rekabet avantajı
@@ -68,10 +68,10 @@ Bu, iş yazılımınızın yerelleştirilmesinin ve küreselleşmesinin en büy�
 Bu bizi bu blog yazısının sonuna götürüyor. Bu makaleyi iyice yaşadığınızı ve bir çeviri yönetim sisteminin eko sistemini anladığınızı umuyoruz. Ayrıca, web sitesi yerelleştirme hizmetleri sunan birçok açık kaynaklı çeviri yönetimi yazılımı vardır. Ancak, iş ihtiyaçlarınızı akılda tutarken seçimi yapmak size kalmıştır. Ayrıca, web sitesi yerelleştirmesi, herhangi bir işletme web sitesi için olması gereken bir bileşendir.
 Son olarak, [**Containerize.com**][6] daha fazla açık kaynaklı ürünler üzerine makaleler yazıyor. Bu nedenle, düzenli güncellemeler için lütfen iletişim halinde olun.
 
-## Bir soru sor {#Ask-a-sorgu}
+## Bir soru sor   {#Ask-a-sorgu}
 [Forum][7] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
-## SSS {#FAQS}
+## SSS   {#FAQS}
 
 ####**Bir çeviri yönetim sistemine ihtiyacım var mı?**
 Evet, statik ve dinamik kaynakları içeren büyük miktarda içerikle uğraşıyorsanız. Böylece, çevirileri otomatikleştirmek ve yönetmek için açık kaynaklı**çeviri yönetimi yazılımı**barındırabilirsiniz.
@@ -79,7 +79,7 @@ Evet, statik ve dinamik kaynakları içeren büyük miktarda içerikle uğraşı
 ####**TMS'nin avantajları nelerdir?**
 Bir çeviri yönetim sisteminin avantajlarını öğrenmek için lütfen bu [link][4] ziyaret edin.
 
-## Ayrıca bkz. {#See-ALSO}
+## Ayrıca bkz.   {#See-ALSO}
   * [Sürüm kontrol yazılımı][8]
   * [Pazarlama Otomasyonu][9]
   * [Dağıtım araçları][10]

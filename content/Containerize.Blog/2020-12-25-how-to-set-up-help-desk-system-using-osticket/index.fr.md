@@ -19,10 +19,10 @@ OSTICKET est une solution logicielle en ligne open source en ligne. OSTICKET Hel
   * [Comment configurer OSTICKET?][3]
   * [Conclusion][4]
 
-## Qu'est-ce que l'osticket? {#osticket}
+## Qu'est-ce que l'osticket?   {#osticket}
 OSTICKET fournit un panneau de configuration convivial et un composant de rapport en temps réel. Les utilisateurs peuvent simplement se connecter et créer les billets en quelques étapes faciles. Ils peuvent créer des billets via votre site Web, votre e-mail ou votre téléphone. Les billets entrants seront alors enregistrés et affectés aux agents. Les agents recevront des notifications par e-mail et répondront aux requêtes pour aider à résoudre leurs problèmes. Les clients et les agents peuvent discuter des détails et des progrès dans la section des commentaires. Les clients peuvent suivre leurs demandes et progresser via le portail client intégré fourni par ce logiciel de bureau en ligne.
 
-## Avantages et inconvénients d'Osticket {#Pros}
+## Avantages et inconvénients d'Osticket   {#Pros}
 
 #### Avantages
   * OSTICKET est extrêmement convivial pour les utilisateurs finaux et les agents de support.
@@ -35,7 +35,7 @@ OSTICKET fournit un panneau de configuration convivial et un composant de rappor
   * OSTICKET ne fournit pas de détails sur l'analyse des billets et les statistiques comme les autres systèmes d'assistance payants.
   * Son interface utilisateur est très simple et basique par rapport à d'autres systèmes de support.
 
-## Comment installer OSTICKET? {#comment}
+## Comment installer OSTICKET?   {#comment}
 Suivez ces étapes pour installer OSTICKET avec Nginx sur Ubuntu 18.04 LTS.
   * Créez un nouveau répertoire pour OSTICKET.
 ```
@@ -149,7 +149,7 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## Conclusion {#conclusion}
+## Conclusion   {#conclusion}
 OSTICKET est le mieux adapté aux entreprises à petit budget ou à celles qui veulent un système d'assistance simple et non complexe. Il est simple, léger, fiable, open source et un logiciel d'assistance en ligne totalement gratuit. Ce qui fait de l'Osticket une excellente alternative aux systèmes de support client plus coûteux. Pour en savoir plus sur les fonctionnalités d'Osticket et le guide d'installation, veuillez consulter le tutoriel suivant.
 
 ## Explorer

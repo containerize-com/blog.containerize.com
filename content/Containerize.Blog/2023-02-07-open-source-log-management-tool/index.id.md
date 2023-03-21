@@ -19,16 +19,16 @@ Posting blog ini untuk Anda apakah Anda seorang pengembang atau [DevOps][1] prof
 Poin -poin berikut akan dibahas dalam artikel ini:
 * [**Apa itu sistem manajemen log?**][3]
 * [**Tantangan Terlampir dengan Manajemen Log Acara**][4]
-***[Bagaimana alat manajemen log open-source dapat membantu?][5]**
+* **[Bagaimana alat manajemen log open-source dapat membantu?][5]**
 
-## Apa itu sistem manajemen log? {#What-is-a-log-management-system}
+## Apa itu sistem manajemen log?   {#What-is-a-log-management-system}
 Dengan kata -kata sederhana, sistem manajemen log**(LMS)**adalah perangkat lunak yang mengumpulkan data log dan melakukan berbagai operasi pada data itu. Selain itu, alat pemantauan log****mengurutkan data yang dikumpulkan, melakukan algoritma analisis, dan kemudian mengambil keputusan tentang retensi data yang dicatat. Lebih lanjut,**LMS (Sistem Manajemen Log)**menghasilkan laporan yang komprehensif setelah meninjau file log server yang menunjukkan kerentanan, ancaman, dan celah keamanan. Jadi, singkatnya, alat logging dan pemantauan mengotomatiskan**Manajemen Log Acara**yang pada akhirnya memberikan keunggulan kompetitif untuk perangkat lunak bisnis.
 
 {{< figure align=center src="images/logs.png" alt="Sistem Manajemen Log Sumber Terbuka">}}
 
 Selain itu, alat pelaporan LMS melakukan peran kunci dalam mengidentifikasi masalah dan membuat file log dapat dicari dengan menghasilkan indeks. Bagian terbaiknya adalah bahwa semua yang terjadi melalui antarmuka konfigurasi yang disediakan oleh Sistem Manajemen Log (LMS). Namun, administrator kemudian dapat mengaktifkan alur kerja otomatis untuk menjaga kesehatan server tetap berjalan & berjalan.
 
-## Tantangan Terlampir dengan Manajemen Log Acara {#Tantangan-Tertinggir-Dengan-Event-Log-Management}
+## Tantangan Terlampir dengan Manajemen Log Acara   {#Tantangan-Tertinggir-Dengan-Event-Log-Management}
 Bahkan, menjadi sangat mudah untuk menangani beberapa masalah umum & konvensional yang berkaitan dengan penyimpanan, kecepatan, dan jaringan. Meskipun ada bidang -bidang tertentu di mana admin sistem menghadapi tantangan untuk mengatasi masalah -masalah berikut:
 **Volume log besar -besaran:**Ini adalah salah satu tantangan yang dapat dihadapi organisasi mana pun. Menjadi misi yang mustahil untuk mengumpulkan dan mengurutkan sejumlah besar data log di mana ada ratusan dan ribuan server yang terlibat. Jadi, A**Log Management System (LMS)**menawarkan ketentuan untuk menangani volume log besar dengan cara yang efisien.
 **Variasi format data:**Mengelola berbagai format data yang berasal dari berbagai sumber bukanlah pekerjaan yang mudah dan dapat menjadi tantangan bagi alat penebangan dan pemantauan apa pun. Karena admin sistem tidak yakin tentang format data yang berasal dari berbagai titik akhir sistem.
@@ -36,7 +36,7 @@ Bahkan, menjadi sangat mudah untuk menangani beberapa masalah umum & konvensiona
 **Aksesibilitas**: Ini adalah faktor lain yang dapat menyebabkan kerumitan. Selain itu, pengindeksan log dan menambahkan fitur yang dapat dicari membuat file log dapat diakses. Menambahkan cap waktu dan mengkategorikan data log dapat memungkinkan admin sistem untuk meminta data log yang disimpan.
 **Operasional****Biaya**: A**Log Management System (LMS)**adalah komponen yang harus dimiliki dari infrastruktur TI mana pun yang bekerja di organisasi mana pun. Setiap kali ada gangguan aplikasi yang terjadi, harus mudah untuk memecahkan masalah dan menangkap akar penyebabnya. Selain itu, lingkungan berbasis cloud hadir dengan mekanisme penebangan yang lebih kompleks sehingga memilih untuk alat penebangan dan pemantauan****pasti akan membuat prosesnya efisien.
 
-## Bagaimana alat manajemen log open-source dapat membantu? {#How-an-open-source-log-management-tool-can-help}
+## Bagaimana alat manajemen log open-source dapat membantu?   {#How-an-open-source-log-management-tool-can-help}
 Di sinilah komunitas open-source yang sangat berkontribusi pada dunia teknologi. Sama seperti kategori perangkat lunak lainnya, ada banyak alat pemantauan log open-source**yang menawarkan fitur tingkat perusahaan untuk menyimpan dan mengelola file log. Lebih lanjut, LMS open-source dapat membuat file log Anda lebih mudah diakses dan mengurangi biaya yang melekat pada praktik manual.
 Bahkan, setiap kali ada perangkat lunak kerusakan atau kerusakan sistem, itu semua tentang bagaimana Anda mencatat detail operasional.**Perangkat Lunak Manajemen Log Acara Open-Source**menawarkan antarmuka yang intuitif dan dapat disesuaikan. Jadi, ada banyak aspek lain yang akan kami liput di posting blog mendatang.
 

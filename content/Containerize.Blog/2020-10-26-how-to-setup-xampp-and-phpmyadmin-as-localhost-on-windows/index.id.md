@@ -20,16 +20,16 @@ Kami akan membahas bagian berikut dalam posting blog ini:
   * [dasbor phpMyadmin][3]
   * [Pikiran Terakhir][4]
 
-## Deskripsi: {#description}
+## Deskripsi:   {#description}
 XAMPP adalah tumpukan solusi server web gratis dan open source. Ini berisi apache, mysql, mariadb, php, dan perl. XAMPP tersedia untuk sistem operasi Windows. Sangat mudah dipasang dan digunakan. Itu sebabnya lingkungan pengembangan PHP paling populer. XAMPP dan PHPMyAdmin sebagai LocalHost menyediakan lingkungan yang lengkap untuk pengembangan dan pengujian aplikasi Web.
 Enfabet di XAMPP adalah singkatan dari:
-  *** X **-Cross-Platform (mendukung beberapa sistem operasi termasuk Linux, Windows dan Mac OS)
-  *** A ** - Server Apache HTTP
-  *** m ** - mariadb (database)
-  *** P ** - PHP
-  *** P ** - Perl
+  ***X** -Cross-Platform (mendukung beberapa sistem operasi termasuk Linux, Windows dan Mac OS)
+  ***A**  - Server Apache HTTP
+  ***m**  - mariadb (database)
+  ***P**  - PHP
+  ***P**  - Perl
 
-Instalasi ## XAMPP {#XAMPP}
+Instalasi ## XAMPP  {#XAMPP}
   * Unduh xampp dari [di sini][5].
 
 {{< figure align=center src="images/xampp1.png" alt="Xampp sebagai localhost">}}
@@ -53,7 +53,7 @@ Instalasi ## XAMPP {#XAMPP}
 {{< figure align=center src="images/xampp5.png" alt="Xampp sebagai Localhost Langkah 4">}}
 
 
-## PHPMyAdmin Dashboard: {#phpMyAdmin}
+## PHPMyAdmin Dashboard:   {#phpMyAdmin}
 Untuk mengakses Dasbor PHPMyAdmin, klik tombol "Admin" di sebelah Layanan MySQL. Anda juga dapat mengakses phpMyadmin dengan mengunjungi http: // localhost/phpMyadmin dari browser Anda. Di sini Anda dapat membuat database. Ikuti langkah -langkah ini untuk membuat database baru.
   * Dari Dasbor, klik pada tab "Database".
 
@@ -75,7 +75,7 @@ Untuk mengakses Dasbor PHPMyAdmin, klik tombol "Admin" di sebelah Layanan MySQL.
 {{< figure align=center src="images/db4-1024x564.png" alt="PhpMyadmin di LocalHost Langkah 4">}}
 
 
-## Pikiran Final: {#Final}
+## Pikiran Final:   {#Final}
 Instalasi XAMPP sederhana dan lurus ke depan. Dibutuhkan tidak lebih dari 15 menit ke server setup XAMPP. Setelah diinstal, pengembang dapat membangun dan menguji aplikasi web berbasis PHP mereka bahkan tanpa koneksi internet. Alih-alih menguji proyek secara langsung di server web langsung, sederhana dan hemat waktu untuk mengujinya secara lokal. Ini adalah platform yang hebat bagi pemula untuk belajar, menguji, dan memoles keterampilan PHP, Perl, dan database mereka.
 
 ## Mengeksplorasi:

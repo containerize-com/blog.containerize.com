@@ -20,10 +20,10 @@ Wir decken den folgenden Punkt ab:
   * [Was ist ein Datentyp?][2]
   * [Was sind JavaScript -Datentypen?][3]
 
-## Datentypen erklärt | Was ist ein Datentyp? {#What-is-a-data-Typ}
+## Datentypen erklärt | Was ist ein Datentyp?   {#What-is-a-data-Typ}
 Bei einem Datentyp geht es darum, dem Compiler mitzuteilen, wie die Daten interpretiert oder kompiliert werden sollen. Die Verwendung von Datentypen ist kritisch und muss mit Bedacht verwendet werden. In einfachen Worten geht es um das Format der Daten wie Anzahl, String, Boolescher und mehr. Es gibt jedoch zwei Kategorien von Datentypen primitive Datentypen und nichtprimitive Datentypen. Es gibt acht primitive Datentypen, die wir im nächsten Abschnitt durchlaufen werden.
 
-## Was sind JavaScript -Datentypen? {#What-Are-JavaScript-Data-Type}}
+## Was sind JavaScript -Datentypen?   {#What-Are-JavaScript-Data-Type}}
 Tatsächlich ist JavaScript eine locker getippte Sprache, was bedeutet, dass Sie den variablen Typ nicht explizit definieren müssen. Sie können einer Variablen einen beliebigen Wert zuweisen, und diese Variable speichert diesen Wert wie String, Bigint, Boolean oder mehr.
 
 {{< figure align=center src="images/web-development.png" alt="JavaScript Anfängerhandbuch">}}

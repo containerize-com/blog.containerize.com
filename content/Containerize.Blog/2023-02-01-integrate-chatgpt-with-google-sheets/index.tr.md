@@ -21,7 +21,7 @@ Bu makalede aşağıdaki noktaları ele alacağız:
 * [**chatgpt'i Google sayfalarıyla nasıl entegre edersiniz?**][6]
 * [**Google sayfalarında chatgpt nasıl kullanılır?**][7]
 
-## chatgpt'i Google Sheets ile nasıl entegre edersiniz {#nasıl entegre-entegre-chatgpt-with-google sheets}
+## chatgpt'i Google Sheets ile nasıl entegre edersiniz   {#nasıl entegre-entegre-chatgpt-with-google sheets}
 **Chatgpt Entegrasyonu**Herhangi bir yazılımla kesinlikle işletmeye rekabet avantajı verecektir. İki yönlü konuşma oturumlarına başlayabilen AI destekli bir model ve yazılımınıza bu entegrasyonun ne kadar güçlü olabileceği? Tabii ki inanılmaz. Bu nedenle, bir soruna teknik bir çözüm için bir chatbot istersiniz ve cevabı tam zamanında alırsınız, zaman ve çaba tasarrufu açısından çok şey ifade eder.
 Buna başlayalım**Google Sheets entegrasyonu Chatgpt.**
 İlk olarak, Google [Sheets][3] 'i açın ve**“Uzantılar-> Eklentiler-> Eklentiler Al”**tıklayın. Bunu yaptıktan sonra, Google Workspace Marketplace'de bir diyalog kutusu göreceksiniz. Şimdi, sağ üst köşeye yerleştirilen arama çubuğuna “chatgpt” yazın ve aşağıdaki resimde gösterildiği gibi ilk seçeneği seçin.
@@ -35,7 +35,7 @@ Ardından,**“Extensions-> GPT ve Docs-> API tuşunu ayarlayın”**tıklayın 
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="Chatgpt entegrasyonu">}}
 
 
-## Google sayfalarında chatgpt nasıl kullanılır? {#Kullanılacak-Chatgpt-In-Google-Sheets}
+## Google sayfalarında chatgpt nasıl kullanılır?   {#Kullanılacak-Chatgpt-In-Google-Sheets}
 Openai API tuşu kurulduktan sonra, bu güçlü**chatgpt ve Google sayfaları entegrasyonundan yararlanmaya hazırsınız.
 Örneğin, bu yapay zeka ile çalışan chatbot'u, işlevi aşağıdaki şekilde çağırarak bir arabanın ürün açıklamasını yazmasını isteyebilirsiniz:
 ```

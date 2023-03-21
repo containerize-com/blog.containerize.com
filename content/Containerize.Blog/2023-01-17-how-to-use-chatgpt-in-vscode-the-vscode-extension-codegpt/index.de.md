@@ -23,7 +23,7 @@ Wir werden die folgenden Punkte abdecken:
 * [**OpenAI -API -Schlüssel abrufen und Code konfigurieren GPT**][9]
 * [**Verwenden Sie Code GPT-Ein AI-angetanter OpenAI-Codegenerator**][10]
 
-## Was ist Code GPT? {#What-is-Codegpt}
+## Was ist Code GPT?   {#What-is-Codegpt}
 [Code GPT][3] ist eine**Visual Studio -Code -Erweiterung**, mit der Sie Code -Snippets aus einfachem Text innerhalb des Editors generieren können. Dieser**OpenAI -Codegenerator**basiert auf OpenAI -API, um Reaktionen der natürlichen Sprache zu verarbeiten und zu generieren. Code GPT ist jedoch auf GPT-3 aufgebaut, ein vorgebildetes Modell. Daher wird jede Anforderung an Code GPT von GPT-3 verarbeitet und dieses Modell ist klug genug, um mehrere Situationen zu übernehmen. Darüber hinaus können Sie mit dieser**VSCODE -Erweiterung**zusammen mit der Codegenerierung den Code -Snippets verbessert und verbessert. Tatsächlich gibt Ihnen die gesamte Umgebung das genaue Gefühl, dass Sie [CHATGPT][11] im Visual Studio -Code -Editor verwenden.
 
 ## Wie installiere ich den VSCODE -Erweiterungscode GPT? Oder
@@ -48,7 +48,7 @@ Im Bild oben sehen Sie die Schaltfläche „Neue geheime Schlüssel erstellen“
 
 Sobald alles erfolgreich erledigt ist, werden Sie am Ende**Code GPT -Erweiterung**in Ihrem Visual Studio -Code installiert. Im nächsten Abschnitt werden wir weiterentwickeln, um die von dieser VSCODE -Erweiterung angebotenen Funktionen zu erkunden.
 
-## Verwenden Sie mit Code GPT-Ein AI-angetanter OpenAI-Codegenerator {#Start-Use-CodeGPT --- An-AI-Antriebs-OpenAI-Code-Code-Generator}}
+## Verwenden Sie mit Code GPT-Ein AI-angetanter OpenAI-Codegenerator   {#Start-Use-CodeGPT --- An-AI-Antriebs-OpenAI-Code-Code-Generator}}
 Bisher haben wir die Code -GPT -Erweiterung im Visual Studio -Code eingerichtet. Um dies zu nutzen**VSCODE -Erweiterungscode GPT**, drücken Sie "Befehl+Umschalt+P". Wählen Sie "Codegpt agieren" und schreiben Antwort in der Seitenleiste, wie im Bild unten gezeigt:
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="CHATGPT für VSCODE">}}

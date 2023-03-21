@@ -18,10 +18,10 @@ categories: [ 'Artificial intelligence']
 ## Genel Bakış
 Merhaba okuyucular! [Chatgpt][1] entegrasyonlarında yayınladığımız blog yayınlarına ezici yanıtınız için çok teşekkür ederim. İlginizi takip eden başka bir yararlı**Chatgpt öğreticisi**ile buradayız. Ayrıca, akademisyenlerinize ve kariyerinize faydalı makaleler yayınlamak için bir döngüde olacağız. Bununla birlikte, JavaScript öğreticilerinin bir [serisi][20] başlattık, bu nedenle chatgpt'i javascript aqpp**programlı olarak nasıl entegre edeceğini gösteren bir rehber yazmak için en iyi zaman. Ayrıca, bu GPT-3 tabanlı**viral chatbot**işlevselliği yapmak için kod snippet'ini yazacağız. Bu amaçla, bir Node.js uygulamasında chatgpt işlevselliğini etkinleştireceğiz. Bu nedenle, bu kılavuzdan geçerken, node.js hakkında önceden bilgi bilgisi bir artıdır.
 Aşağıdaki bölümler bu ChatGPT öğreticisinde ele alınacaktır:
-***[Önkoşullar - Chatgpt JavaScript Sarma][2]**
-***[Node.js uygulaması ile chatgpt entegrasyonu][3]**
+* **[Önkoşullar - Chatgpt JavaScript Sarma][2]**
+* **[Node.js uygulaması ile chatgpt entegrasyonu][3]**
 
-## Önkoşullar-ChatGpt JavaScript Sarma {#Pre-Hursitites --- Chatgpt-Javascript-Wrapper-}
+## Önkoşullar-ChatGpt JavaScript Sarma   {#Pre-Hursitites --- Chatgpt-Javascript-Wrapper-}
 Bu bölüm, bir Node.js tabanlı uygulamada ChatGPT entegrasyonunu etkinleştirmek için gereken gereksinimleri göstermektedir. Gereksinimler basittir ve sisteminize kurulumu kolaydır.
 Bu ChatGPT JavaScript entegrasyonunu uygulamak için ön talepler aşağıdadır:
 
@@ -31,7 +31,7 @@ Bu ChatGPT JavaScript entegrasyonunu uygulamak için ön talepler aşağıdadır
 Yukarıdaki önkoşullar kurulduktan sonra, bir sonraki adım bir Openai API anahtarı almaktır. Bu anahtar, ChatGPT'ye programlı olarak API istekleri yapmak için kullanılır. Bu nedenle, prosedürü bilmiyorsanız Openai API anahtarını nasıl elde edeceğinizi öğrenmek için lütfen bu [link][6] ziyaret edin.
 Lütfen API anahtarınızı güvenli bir yerde tutun ve bunların hepsi gereksinimler aşaması içindir.
 
-## node.js uygulaması ile chatgpt entegrasyonu {#chatgpt-entegrasyon-with-node.js-application}
+## node.js uygulaması ile chatgpt entegrasyonu   {#chatgpt-entegrasyon-with-node.js-application}
 Şimdi, hepimiz JavaScript uygulamasında chatgpt'i programlı olarak entegre edecek şekilde ayarlıyız.**Önce terminali açın ve aşağıdaki komutu çalıştırın:
 ```
 npm i chatgpt

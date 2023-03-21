@@ -20,7 +20,7 @@ Osticket es un sistema de boletos de servicio abierto y de código abierto. Los 
   * [Procedimiento de autenticación][3]
   * [Conclusión][4]
 
-## Proceso de integración: {#integration}
+## Proceso de integración:   {#integration}
 La integración de Osticket y WordPress requiere un formulario de contacto en el sitio de WordPress con los siguientes campos
   1. Ayuda Tema
   2. Correo electrónico
@@ -29,7 +29,7 @@ La integración de Osticket y WordPress requiere un formulario de contacto en el
   5. Mensaje
 El formulario de contacto debe enviar correos electrónicos, porque este complemento engancha la función wp_mail para obtener los datos de los formularios.
 
-## Instalación del complemento de WordPress: {#WordPress}
+## Instalación del complemento de WordPress:   {#WordPress}
   1. Vaya al tablero de administración de su sitio de WordPress.
   2. Luego vaya a la sección de complementos.
   3. Luego instale este [complemento][5].
@@ -42,7 +42,7 @@ El formulario de contacto debe enviar correos electrónicos, porque este complem
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Integración Osticket-WordPress para automatizar el sistema de entradas">}}
 
 
-## Procedimiento de autenticación: {#auth}
+## Procedimiento de autenticación:   {#auth}
 La autenticación API se realiza a través de teclas API configuradas dentro del panel de administración de Osticket. Las claves API se generan y se vinculan a una dirección IP de origen que se verifica con la IP de origen de las solicitudes de API HTTP. Para crear la tecla API
   1. Vaya al panel de administración de Osticket.
   2. Haga clic en "Administrar".
@@ -55,7 +55,7 @@ La autenticación API se realiza a través de teclas API configuradas dentro del
 {{< figure align=center src="images/osticket-1024x729.png" alt="Integración Osticket-WordPress para automatizar el sistema de entradas">}}
 
 
-## Conclusión: {#Conclusion}
+## Conclusión:   {#Conclusion}
 La integración Osticket-WordPress automatizará el proceso de venta de tickets. Por lo tanto, facilitará la vida del equipo de apoyo. Las consultas en el sitio web de WordPress se convertirán automáticamente en boletos de soporte en Osticket. Para que el equipo de soporte pueda administrar todas las consultas de los clientes de manera más fácil y eficiente. Los agentes de soporte serán notificados por notificaciones por correo electrónico. Por lo tanto, los agentes pueden resolver las consultas de los clientes a tiempo. La sección de comentarios sobre Osticket ayuda tanto a los clientes como a los agentes de apoyo a comunicarse de manera efectiva y oportuna. También facilita a los gerentes realizar un seguimiento del progreso para cada boleto.
 
 ## Explorar:

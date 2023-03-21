@@ -18,10 +18,10 @@ categories: [ 'Artificial intelligence']
 ## 概要
 こんにちは読者！ [chatgpt][1]統合で公開したブログ投稿への圧倒的な応答をありがとうございました。私たちは、あなたの興味に従って、別の便利な**chatgptチュートリアル**とここにいます。さらに、私たちはあなたの学者やキャリアに有益な記事を公開するためにループになります。ただし、JavaScriptチュートリアルの[シリーズ][20]を開始したため、プログラムでJavaScript AQPP**にChatGPTを統合する方法を示すガイドを作成するのに最適な時期です。さらに、このGPT-3ベースの**Viral Chatbot**機能を作成するために、コードスニペットを書き込みます。この目的のために、node.jsアプリでchatgpt機能を有効にします。したがって、node.jsの事前知識の基本レベルは、このガイドを通過しながらプラスです。
 次のセクションについては、このChatGPTチュートリアルで説明します。
-***[前提条件-ChatGptJavaScriptラッパー][2]**
-***[node.jsアプリケーションとのchatgpt統合][3]**
+* **[前提条件-ChatGptJavaScriptラッパー][2]**
+* **[node.jsアプリケーションとのchatgpt統合][3]**
 
-## Pre-Requisites-chatgpt javascript wrapper {#pre-Requisites --- chatgpt-javascript-wrapper-}
+## Pre-Requisites-chatgpt javascript wrapper   {#pre-Requisites --- chatgpt-javascript-wrapper-}
 このセクションでは、node.jsベースのアプリケーションでchatgpt統合を有効にするために必要な要件を示します。要件は簡単で、システムに簡単にインストールできます。
 以下は、このchatgpt javascriptの統合を練習するための事前要求です。
 
@@ -31,7 +31,7 @@ categories: [ 'Artificial intelligence']
 上記の前提条件がインストールされたら、次のステップはOpenAI APIキーを取得することです。このキーは、APIリクエストをプログラムでChatGPTに作成するために使用されます。したがって、この[リンク][6]にアクセスして、手順がわからない場合に備えて、OpenAI APIキーを取得する方法を学習してください。
 APIキーを安全な場所に保管してください。これですべて要件フェーズのためです。
 
-## chatgpt node.jsアプリケーションとの統合{#chatgpt-integration with-node.js-application}
+## chatgpt node.jsアプリケーションとの統合 {#chatgpt-integration with-node.js-application}
 これで、私たちはすべて、javascriptアプリにプログラムママでchatgptを統合するように設定されています。**最初に、端末を開き、次のコマンドを実行します。
 ```
 npm i chatgpt

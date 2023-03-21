@@ -23,7 +23,7 @@ categories: ['Database Management Software']
   * [Cubrid][7]
   * [heidisql][8]
 
-## phpmyadmin {#phpmyadmin}
+## phpmyadmin   {#phpmyadmin}
 PhpMyAdminは、XAMPPおよびWAMPP Webサーバーを備えた組み込みコンポーネントとして提供されます。現在、PHPMyAdminは最も広く使用されているデータベース管理ソフトウェアです。開発者は、インターフェイスを介して情報、テーブル、列、関係、参照、ユーザー、およびアクセス許可などを管理できます。さらに、データベースの作成、クエリの実行、ユーザーアカウントの追加など、ほとんどの管理タスクを実行するために使用されます。このデータベース管理システムは、JavaScriptやSCSSなどの他の言語からの入力とともにPHPで記述されています。したがって、すべてのドキュメントは、開発と展開に関して利用できます。これらは、phpmyadminのいくつかの傑出した機能です。
   *使用しやすいWebインターフェイス。
   *複数のMySQL機能サポート。

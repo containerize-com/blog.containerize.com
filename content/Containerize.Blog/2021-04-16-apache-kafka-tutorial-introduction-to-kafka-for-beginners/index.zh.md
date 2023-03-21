@@ -23,28 +23,28 @@ categories: ['Message Queue Software']
   * [读取主题的消息][7]
   * [结论][8]
 
-## Apache Kafka简介{#intro}
+## Apache Kafka简介 {#intro}
 Apache Kafka开源消息经纪在LinkedIn启动，后来成为一个开源Apache项目。 Kafka消息代理软件是在Scala和Java中开发的。 Apache Kafka经纪人是一个发布订阅消息系统，它也可以在应用程序，服务器和处理器之间交换数据。它是快速，可扩展的，并且按设计分发。它能够每秒处理数百万个数据或消息。它是源（生产者）系统和目标（消费者）系统之间的调解人。 Netflix，Uber和数千家公司等组织使用Apache Kafka实时流媒体。与其他消息系统相比，KAFKA消息队列软件具有更好的吞吐量，内置分区，复制和固有的容错公差。这使其非常适合大规模消息处理应用程序。
 
-## 什么是消息系统？ {#messaging}
+## 什么是消息系统？   {#messaging}
 消息系统是两个或多个人，设备等之间的消息简单交换。它负责从一个应用程序到另一个应用程序的数据传输，因此应用程序可以专注于数据，但不必担心如何共享。
 一种类型的消息传递系统是“点到点消息系统”。在此系统中，生产者发送时将存储在队列中。只有一个消费者可以在任何给定时间消耗消息。而且，一旦消耗消息，它将从队列中删除。该系统的示例之一是订单处理系统。只有一个进程可以收取订单。
 消息系统的另一种类型是Pub-sub消息系统，该系统允许发件人发送消息和接收器来读取该消息。在Apache Kafka消息传递中，发件人被称为发布消息的生产者，并且接收器被称为消费者，通过订阅该消息，可以消费该消息。该系统的一个示例是您的有线电视发布许多频道，任何人都可以订阅他们选择的频道，并在订阅的频道可用时获得。
 
-## 基本术语{#terms}
+## 基本术语 {#terms}
 在我们谈论最佳消息队列Apache Kafka之前，您必须了解一些术语。
   ***主题**：属于特定类别的消息流称为主题。
   ***分区**：主题可能具有许多分区，因此他们可以处理任意数量的数据。
   ***分区偏移**：每个分区消息都有一个唯一的序列ID，称为“偏移”。
   ***分区的复制品**：副本是分区的备份。它们用于防止数据丢失。
   ***经纪人**：负责维护已发布的数据。
-  *** kafka群集**：Kafka拥有多个经纪人被称为Kafka群集。
+  * **kafka群集** ：Kafka拥有多个经纪人被称为Kafka群集。
   ***生产者**：是一个或多个主题的消息的发布者。
   ***消费者**：是经纪人数据的读者。他们订阅多个主题，并在主题中有消息时消费。
   ***领导者**：是负责所有给定分区的所有读取和写入的节点。
   ***追随者**：遵循领导说明的节点称为追随者。
 
-## 安装步骤{#steps}
+## 安装步骤 {#steps}
 
 ### 步骤1  - 验证Java安装
 希望您现在已经在计算机上安装了Java，因此您只需使用以下命令对其进行验证。
@@ -93,7 +93,7 @@ $ bin/zookeeper-server-start.sh config/zookeeper.properties
 $ bin/kafka-server-start.sh config/server.properties
 ```
 
-## 创建一个主题{#create}
+## 创建一个主题 {#create}
 要将您的消息或事件写入主题，您必须首先创建一个主题。创建一个主题打开您的终端并运行以下命令：
 ```
 $ bin/kafka-topics.sh --create --topic weather-updates --bootstrap-server localhost:9092
@@ -106,7 +106,7 @@ Topic:weather-updates  PartitionCount:1    ReplicationFactor:1 Configs:
 
 ```
 
-## 将消息写入主题{#write}
+## 将消息写入主题 {#write}
 运行控制台生产者客户端以将一些事件写入您的主题。默认情况下，您输入的每一行都将导致将单独的事件写入主题。
 ```
 $ bin/kafka-console-producer.sh --topic weather-updates --bootstrap-server localhost:9092
@@ -114,7 +114,7 @@ Weather for New York is Cloudy
 Weather for Houston is Rainy
 ```
 
-## 从主题{#read}读取消息
+## 从主题 {#read}读取消息
 打开另一个终端会话并运行控制台消费者客户端以阅读您刚创建的事件：
 ```
 $ bin/kafka-console-consumer.sh --topic weather-updates --from-beginning --bootstrap-server localhost:9092
@@ -123,7 +123,7 @@ Weather for Houston is Rainy
 ```
 随意进行实验：例如，切换回您的生产者终端（上一步）以编写其他事件，并查看这些事件如何立即显示在您的消费者终端中。
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 在本教程中，我们了解了Apache Kafka使用的基础知识。我们安装了Kafka排队服务，然后配置了它。我们还学习了如何在Kafka中创建主题，将消息发送到主题以及如何读取主题的消息。我希望这篇文章对您有用。让我们在下一篇文章中见面。
 _您使用什么开源分布式事件流平台？您有任何疑问吗？
 

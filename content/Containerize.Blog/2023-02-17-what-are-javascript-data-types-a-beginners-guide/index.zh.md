@@ -20,10 +20,10 @@ categories: ['Programming']
   * [什么是数据类型？][2]
   * [什么是JavaScript数据类型？][3]
 
-## 解释的数据类型|什么是数据类型？ {#什么is-a-data-type}
+## 解释的数据类型|什么是数据类型？   {#什么is-a-data-type}
 数据类型就是要告诉编译器如何解释或编译数据。数据类型的使用至关重要，必须明智地使用。简而言之，它是关于数据的格式，例如数字，字符串，布尔值等。但是，有两类数据类型原始数据类型和非主要数据类型。我们将在下一节中进行八种原始数据类型。
 
-## 什么是JavaScript数据类型？ {#What-are-javascript-data-types}
+## 什么是JavaScript数据类型？   {#What-are-javascript-data-types}
 实际上，JavaScript是一种松散的类型语言，这意味着您不必明确定义变量类型。您可以为变量分配任何值，该变量将存储该值，例如字符串，BigInt，Boolean或更多。
 
 {{< figure align=center src="images/web-development.png" alt="JavaScript初学者指南">}}

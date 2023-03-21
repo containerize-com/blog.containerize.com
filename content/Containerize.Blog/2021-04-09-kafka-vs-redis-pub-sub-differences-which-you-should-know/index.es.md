@@ -22,31 +22,31 @@ En nuestra serie de artículos sobre "Redis" aprendimos sobre los [conceptos bá
 
 ## ¿Qué es Kafka?
 Apache Kafka es una plataforma de transmisión de eventos distribuida de código abierto. Se utiliza para tuberías de datos de alto rendimiento y análisis de transmisión. Kafka actúa como un [sistema de mensajería de publicación de suscripción][3]. Con esto, puede procesar nuevos datos, ya que se genera a altas velocidades y, además, también puede guardarlos en alguna base de datos.
-Kafka es un sistema distribuido que consta de ** servidores ** y ** clientes **. Se puede implementar en hardware de metal desnudo, máquinas virtuales y contenedores en entornos locales y en la nube.
+Kafka es un sistema distribuido que consta de **servidores  **y **  clientes** . Se puede implementar en hardware de metal desnudo, máquinas virtuales y contenedores en entornos locales y en la nube.
 
 ## ¿Qué es Redis?
 Redis es una tienda de valores de clave de código abierto y avanzada. Admite varios tipos de datos: cadenas, hashes, listas, conjuntos y conjuntos ordenados. Es por eso que a menudo se lo conoce como un servidor de estructura de datos.
 Redis también se considera como una base de datos NoSQL. Para una discusión detallada sobre He Redis y cómo funciona, puede consultar nuestro artículo "[Una guía para principiantes para redis en la base de datos en memoria][1]".
 
 ## ¿Cuáles son las principales diferencias?
-** Redis ** Pub-Sub es principalmente como un sistema de incendio y olvido donde todos los mensajes que produjo se entregarán a todos los consumidores a la vez y los datos no se almacenan en ningún lado. Tiene limitaciones en la memoria con respecto a Redis. Además, el número de productores y consumidores puede afectar el rendimiento de Redis.
-Por otro lado, ** Kafka ** es un registro distribuido de alto rendimiento que puede usarse como una cola. También proporciona persistencia para los mensajes enviados a través de la cola.
-** Redis ** Admite ** Push Based ** Entrega de mensajes. Esto significa que cada mensaje presionado a Redis se entregará automáticamente a todos los suscriptores.
-** Kafka **, sin embargo, admite ** entrega de mensajes ** basado en extracción. Significa que los mensajes publicados a Kafka no se distribuyen a los suscriptores automáticamente. En cambio, los consumidores solicitan los mensajes cuando están listos para consumir esos mensajes.
-** Redis ** No almacena mensajes en su lugar, los mensajes se entregan de inmediato a todos los consumidores y luego se eliminan. Sin embargo, ** Kafka ** Al ser un registro, siempre tienes mensajes. Puede monitorear esto estableciendo una política de retención, digamos 7 días **, retención **.
+**Redis**  Pub-Sub es principalmente como un sistema de incendio y olvido donde todos los mensajes que produjo se entregarán a todos los consumidores a la vez y los datos no se almacenan en ningún lado. Tiene limitaciones en la memoria con respecto a Redis. Además, el número de productores y consumidores puede afectar el rendimiento de Redis.
+Por otro lado, **Kafka**  es un registro distribuido de alto rendimiento que puede usarse como una cola. También proporciona persistencia para los mensajes enviados a través de la cola.
+**Redis  **Admite **  Push Based**  Entrega de mensajes. Esto significa que cada mensaje presionado a Redis se entregará automáticamente a todos los suscriptores.
+**Kafka **, sin embargo, admite  **entrega de mensajes**   basado en extracción. Significa que los mensajes publicados a Kafka no se distribuyen a los suscriptores automáticamente. En cambio, los consumidores solicitan los mensajes cuando están listos para consumir esos mensajes.
+**Redis  **No almacena mensajes en su lugar, los mensajes se entregan de inmediato a todos los consumidores y luego se eliminan. Sin embargo, **  Kafka  **Al ser un registro, siempre tienes mensajes. Puede monitorear esto estableciendo una política de retención, digamos 7 días ** , retención** .
 
 ## ¿Cuándo usar cuál?
 
 ### Redis
   * Si desea un tipo de sistema de fuego y olvido, donde todos los mensajes que produce se entregan instantáneamente a los consumidores.
-  *Si ** Speed ​​** está más preocupado.
-  *Si ** Storage ** no es importante, y no desea que su sistema contenga el mensaje que se ha enviado
+  *Si  **Speed ​​**  está más preocupado.
+  *Si **Storage**  no es importante, y no desea que su sistema contenga el mensaje que se ha enviado
   * La cantidad de datos que se tratarán no es enorme.
 
 ### kafka
-  *Si quieres ** confiabilidad **.
+  *Si quieres **confiabilidad** .
   * Si desea que su sistema tenga una copia de los mensajes que se han enviado incluso después del consumo.
-  *Si ** Speed ​​** no es una gran preocupación.
+  *Si  **Speed ​​**  no es una gran preocupación.
   * Y el tamaño de sus datos es enorme.
 
 ## Conclusión

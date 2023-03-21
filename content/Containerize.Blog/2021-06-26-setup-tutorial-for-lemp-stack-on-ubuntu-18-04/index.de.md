@@ -14,22 +14,22 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/lemp-banner.png" alt="Installieren Sie Lemp Stack auf Ubuntu">}}
 
 
-## Übersicht {#Preequisites}
+## Übersicht   {#Preequisites}
 In diesem Handbuch installieren wir Nginx, MySQL und PHP (LEMP Stack) für die Entwicklung und Bereitstellung von Webanwendungen. Wir konfigurieren auch einen Webserver zu Server -PHP -Anwendung auf Ubuntu Server 18.04. Wir werden die folgenden Abschnitte in diesem Tutorial behandeln.
-  *[** Voraussetzungen **][1]
-  *[** Was ist Lemp Stack? **][2]
-  *[** LEMP -Installation **][3]
-  *[** Schlussfolgerung **][4]
+  *[**Voraussetzungen** ][1]
+  *[**Was ist Lemp Stack?** ][2]
+  *[**LEMP -Installation** ][3]
+  *[**Schlussfolgerung** ][4]
 
-## Voraussetzungen {#Voraussetzungen}
+## Voraussetzungen   {#Voraussetzungen}
 Vor der Installation der Software sollten Sie die folgenden Anforderungen erfüllen.
   * Server mit Ubuntu -Betriebssystem
-  *Nicht-Root-Benutzer mit ** sudo ** privileges
+  *Nicht-Root-Benutzer mit **sudo**  privileges
 
-## Was ist Lemp Stack? {#Was}
-** Lemp Stack ** ist eine Sammlung von Software, mit der PHP-basierte Webanwendungen ausgeführt werden können. LEMP steht für Linux, Nginx, MySQL und PHP. Der LEMP -Stack ist eine Variante des Lampenstapels. Sowohl LAMP als auch LEMP sind beliebte Software -Stacks für die Entwicklung und Bereitstellung von Webanwendungen. Es gibt einen Unterschied zwischen diesen beiden Software -Stapeln. LAMP nutzt den Apache -Webserver, während der LEMP -Server den NGINX -Webserver verwendet.
+## Was ist Lemp Stack?   {#Was}
+**Lemp Stack**  ist eine Sammlung von Software, mit der PHP-basierte Webanwendungen ausgeführt werden können. LEMP steht für Linux, Nginx, MySQL und PHP. Der LEMP -Stack ist eine Variante des Lampenstapels. Sowohl LAMP als auch LEMP sind beliebte Software -Stacks für die Entwicklung und Bereitstellung von Webanwendungen. Es gibt einen Unterschied zwischen diesen beiden Software -Stapeln. LAMP nutzt den Apache -Webserver, während der LEMP -Server den NGINX -Webserver verwendet.
 
-## Lemp Installation {#installation}
+## Lemp Installation   {#installation}
 In diesem Abschnitt werden wir uns darauf konzentrieren, wie Nginx, MySQL und PHP auf Ubuntu 18.04 installiert werden. Zunächst müssen wir Serverpakete aktualisieren, indem wir den folgenden Befehl ausführen.
 ```
 $ sudo apt update
@@ -55,7 +55,7 @@ $ sudo apt install mysql-server
 ```
 $ sudo mysql_secure_installation
 ```
-  *Sie werden gebeten, entweder zu aktivieren ** Passwort -Plugin validieren ** oder nicht. Es ist besser, es nicht zu aktivieren, also geben Sie N ein und drücken Sie die Eingabetaste, um den nächsten Schritt aufzubauen.
+  *Sie werden gebeten, entweder zu aktivieren **Passwort -Plugin validieren**  oder nicht. Es ist besser, es nicht zu aktivieren, also geben Sie N ein und drücken Sie die Eingabetaste, um den nächsten Schritt aufzubauen.
   * Als nächstes werden Sie einige Fragen stellen, wie unten gezeigt. Sie müssen alle Fragen beantworten.
 ```
 Enter current password for root (enter for none):
@@ -108,13 +108,13 @@ server {
 }
 ```
   * Schauen wir uns diese Direktiven und den Standortblock kurz an, damit Sie grundlegende Informationen haben können.
-      *** Hören **: Sie können den Port für Nginx definieren. Verwenden Sie Port 80 für HTTP und 443 für HTTPS -Protokolle.
-      *** root **: Definieren Sie das Stammverzeichnis für Ihr Projekt. NGINX verwendet es, um die Website oder Webanwendung zu bedienen.
-      *** INDEX **: Definieren Sie die Reihenfolge, in der Dateien zugestellt werden sollten. Wenn die Indexdatei aufgerufen wird, liefert NginX die Index.php -Datei.
-      *** server_name **: Definieren Sie den Domänennamen oder die öffentliche IP Ihres Servers.
-      *** Standort /**: Dieser Standortblock hat ** try_block ** Anweisung und entspricht dem angeforderten URI. Nginx gibt 404 Fehler zurück, wenn die angeforderte Datei nicht gefunden wird.
-      *** Standort ~ .php $ **: Dieser Standortblock verarbeitet die PHP -Verarbeitung.
-      *** Standort ~ /.ht**: Nginx verarbeitet **. Htaccess ** Datei und dieser Speicherort blockiert sie. Nginx serviert keine .htaccess -Datei, indem er ** alle ** Richtlinie verweigert.
+      ***Hören** : Sie können den Port für Nginx definieren. Verwenden Sie Port 80 für HTTP und 443 für HTTPS -Protokolle.
+      ***root** : Definieren Sie das Stammverzeichnis für Ihr Projekt. NGINX verwendet es, um die Website oder Webanwendung zu bedienen.
+      ***INDEX** : Definieren Sie die Reihenfolge, in der Dateien zugestellt werden sollten. Wenn die Indexdatei aufgerufen wird, liefert NginX die Index.php -Datei.
+      ***server_name** : Definieren Sie den Domänennamen oder die öffentliche IP Ihres Servers.
+      ***Standort /**: Dieser Standortblock hat  **try_block**   Anweisung und entspricht dem angeforderten URI. Nginx gibt 404 Fehler zurück, wenn die angeforderte Datei nicht gefunden wird.
+      ***Standort ~ .php $** : Dieser Standortblock verarbeitet die PHP -Verarbeitung.
+      ***Standort ~ /.ht**: Nginx verarbeitet **. Htaccess  **Datei und dieser Speicherort blockiert sie. Nginx serviert keine .htaccess -Datei, indem er **  alle**  Richtlinie verweigert.
   * Erstellen Sie Symlink für die neu erstellte Nginx -Konfigurationsdatei, um sie zu aktivieren.
 ```
 $ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
@@ -144,19 +144,19 @@ phpinfo();
 {{< figure align=center src="images/info-php.png" alt="PHP -Info -Seite">}}
 
 
-## Schlussfolgerung {#Conclusion}
-In diesem Tutorial haben wir über die Installation und Konfiguration des ** Lemp -Stacks ** besprochen. Wie Sie sehen können, ist das Konfigurieren von Software -Stack -Komponenten sehr einfach. Darüber hinaus können Sie in wenigen Minuten mit dem Erstellen und Servieren von Web -Apps beginnen.
-Schließlich befindet sich [** containerize.com **][5] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher finden Sie in Kontakt mit dieser Kategorie [** Web Server -Lösung **][6], um die neuesten Updates zu erhalten.
+## Schlussfolgerung   {#Conclusion}
+In diesem Tutorial haben wir über die Installation und Konfiguration des **Lemp -Stacks**  besprochen. Wie Sie sehen können, ist das Konfigurieren von Software -Stack -Komponenten sehr einfach. Darüber hinaus können Sie in wenigen Minuten mit dem Erstellen und Servieren von Web -Apps beginnen.
+Schließlich befindet sich [**containerize.com **][5] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher finden Sie in Kontakt mit dieser Kategorie [ **Web Server -Lösung**  ][6], um die neuesten Updates zu erhalten.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  *[** Best Open Source Web Server Solution Stack **][7]
-  *** [beliebteste Open Source Digital Forensic Tools][8] **
-  *** [Top 5 Open Source Message Queue (MQ) Software in 2021][9] **
-  *** [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][10] **
-  *[** So installieren und sichern Sie PhpMyAdmin mit Nginx auf Ubuntu **][11]
-  *[** So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu **][12]
-  *[** Top 5 beliebteste Open-Source-Lizenzen von 2021 **][13]
+  *[**Best Open Source Web Server Solution Stack** ][7]
+  ***[beliebteste Open Source Digital Forensic Tools][8]** 
+  ***[Top 5 Open Source Message Queue (MQ) Software in 2021][9]** 
+  ***[Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][10]** 
+  *[**So installieren und sichern Sie PhpMyAdmin mit Nginx auf Ubuntu** ][11]
+  *[**So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu** ][12]
+  *[**Top 5 beliebteste Open-Source-Lizenzen von 2021** ][13]
 
   
 [1]: #Prerequisites

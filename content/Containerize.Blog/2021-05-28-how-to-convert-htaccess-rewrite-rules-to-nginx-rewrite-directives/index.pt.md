@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Converter.">}}
 
 Em nosso último tutorial, aprendemos [como instalar várias versões PHP com Nginx no Ubuntu][1]. O Apache é um dos servidores da web mais populares, mas ultimamente, o Nginx se estabeleceu como um concorrente da Apache. Mas o NGINX não suporta regras de reescrita htaccess. Portanto, neste artigo, aprenderemos como converter regras de reescrita htaccess em diretivas de reescrita nginx. Vamos começar!
-  *** [Nginx Reescrita Regras][2] **
+  ***[Nginx Reescrita Regras][2]** 
   *[**. HTACCESS Reescrita Regras **][3]
-  *[** Converter .htaccess reescreva regras para nginx reescrita diretivas **][4]
-  *[** Conclusão **][5]
+  *[**Converter .htaccess reescreva regras para nginx reescrita diretivas** ][4]
+  *[**Conclusão** ][5]
 
-## nginx Reescrita regras {#nginx}
+## nginx Reescrita regras   {#nginx}
 Reescrever as regras alteram a parte ou toda a URL em uma solicitação de cliente, geralmente para informar os clientes que o recurso que eles estão solicitando agora reside em um local diferente ou para controlar o fluxo de processamento no NGINX. Por exemplo, para encaminhar solicitações para um servidor de aplicativos quando o conteúdo precisa ser gerado dinamicamente. A diretiva Try_Files é frequentemente usada para esse fim.
 As duas diretivas para o reescrita nginx de propósito geral são _return_ e _rewrite_, e a diretiva _try_files_ é uma maneira útil de direcionar solicitações para servidores de aplicativos.
 A diretiva de retorno é a mais simples das duas diretivas de propósito geral. Você inclui o retorno em um servidor ou contexto de localização.
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-## .htaccess reescrita regras {#apache}
+## .htaccess reescrita regras   {#apache}
 O arquivo .htaccess controla várias maneiras pelas quais um site pode ser acessado, bloqueado e redirecionado. Faz isso usando uma série de uma ou mais regras de reescrita .htaccess. Essas reescritas são executadas pelo módulo Mod_rewrite da Apache.
 Mod_rewrite fornece uma maneira de modificar as solicitações de URL recebidas, dinamicamente, com base nas regras de expressão regular. Isso permite que você mapeie quaisquer URLs na sua estrutura de URL interna da maneira que desejar. Isso também é usado para limpar seus URLs externos e mapeá-los em URLs internos de aparência feia.
 Por exemplo, a regra de reescrita .htaccess reescrita redefine um URL não www para um URL www.
@@ -54,7 +54,7 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## Convert .htaccess reescreva regras para nginx reescrita diretivas {#convert}
+## Convert .htaccess reescreva regras para nginx reescrita diretivas   {#convert}
 Como mostramos em nosso exemplo acima para redirecionar um URL não www para um URL www, vamos converter a mesma regra de reescrita .htaccess na diretiva de reescrita nginx.
 ```
 server {
@@ -100,7 +100,7 @@ location / {
 }
 ```
 
-## Conclusão {#conclusion}
+## Conclusão   {#conclusion}
 Neste tutorial, exploramos as regras de reescrita .htaccess da Apache e como podemos converter essas regras de reescrita .htaccess em diretivas de reescrita nginx. Além disso, exploramos diferentes diretivas NGINX que podem ser usadas para reescrever URLs. Também damos a reescrever regras de reescrita para o NGINX e o Apache. Espero que o tutorial seja útil para você.
 
 ## Explore

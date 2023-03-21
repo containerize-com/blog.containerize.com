@@ -17,23 +17,23 @@ categories: ['Version Control Software']
 ## Genel Bakış
 Bir proje üzerinde çalışan bir yazılım geliştiricisi olarak sizi hayal edin. Üzerinde çalışan birden fazla kişiniz var. Ve kaynak kodunu içeren tek bir dosya var. Hepsi kodda değişiklik yaparken, her değişiklik yaptıklarında dosyanın farklı sürümlerine sahip olacaklar. Peki, şimdi aynı dosyanın farklı sürümlerini nasıl yöneteceğiz? Kaynak kodu yönetimi yazılımı devreye girer. Aynı dosyanın farklı sürümlerini yönetmenize ve birleştirmenize yardımcı olur. Ve hatta değişim geçmişini izlemenize izin ver. Ve her zaman dosyadaki değişiklikleri ve bu değişikliklerin neler yaptığından emin olabilirsiniz.
 Bu makalede, GIT sürüm kontrol sistemi hakkında bilgi edineceğiz. Yazılım geliştirme kaynak kod dosyalarınızı veya diğer dosyalarınızı yönetmek için nasıl kullanabilirsiniz. Öyleyse başlayalım.
-  *** [Sürüm Kontrol Sistemi Nedir][1] **
-  *** [git nedir][2] **
-  *** [git nasıl çalışır][3] **
-  *** [Git'i yükle][4] **
-  *** [bir depo oluşturma][5] **
-  *** [Depodaki değişiklikleri kaydet][6] **
-  *** [Deponun durumunu kontrol edin][7] **
-  *** [değişiklikleri geri al veya geri alma][8] **
-  *** [Sonuç][9] **
+  ***[Sürüm Kontrol Sistemi Nedir][1]** 
+  ***[git nedir][2]** 
+  ***[git nasıl çalışır][3]** 
+  ***[Git'i yükle][4]** 
+  ***[bir depo oluşturma][5]** 
+  ***[Depodaki değişiklikleri kaydet][6]** 
+  ***[Deponun durumunu kontrol edin][7]** 
+  ***[değişiklikleri geri al veya geri alma][8]** 
+  ***[Sonuç][9]** 
 
-## Sürüm Kontrol Sistemi nedir {#Sürüm-Kontrol}
+## Sürüm Kontrol Sistemi nedir   {#Sürüm-Kontrol}
 Sürüm kontrolü, belirli sürümleri daha sonra hatırlayabilmeniz için zaman içinde değişiklikleri veya dosya kümesinde değişiklikleri kaydeden bir sistemdir. Bir yazılım geliştiriciyseniz ve kaynak kodu dosyasının sürümlerini tutmak istiyorsanız, kaynak kodu yönetimi yazılımı sizin için çok yararlı bir şeydir. Seçilen dosyaları önceki bir duruma geri döndürmenize, tüm projeyi önceki bir duruma geri döndürmenize, zaman içinde değişiklikleri karşılaştırmanıza, bir soruna neden olabilecek bir şeyi en son kimin değiştirdiğini, bir sorunu ve ne zaman ve daha fazlasını görmenizi sağlar. Sürüm kontrolünü kullanmak, işinizi kaybetme konusunda asla endişelenmenize gerek yoktur.
 
-## git {#git}
+## git   {#git}
 Git, küçük ve çok büyük projelere hız ve verimlilikle her şeyi işlemek için tasarlanmış ücretsiz ve açık kaynaklı bir sürüm kontrol sistemidir. SVN ve CVS gibi eski merkezi sürüm kontrol sistemlerinin aksine, git sürüm denetimi dağıtılır. Her geliştirici yerel olarak kod deposunun tam geçmişine sahiptir. Yine de, ilk klonu biraz yavaşlatır. Ancak, bundan sonra, tüm taahhütler ve diğer operasyonlar çok hızlı. Git, birbirinden tamamen bağımsız olabilecek birden fazla yerel şubeye sahip olmanızı sağlar.
 
-## git nasıl çalışır {#how}
+## git nasıl çalışır   {#how}
 GIT kullanarak yerel deponuzda değişiklikler yapabilir ve bir barındırma aracına itebilirsiniz. Veya başkalarının değişikliklerini barındırma aracından yerel makinenize çekebilirsiniz. Kaynak kodu yönetimi yazılımının (GIT) nasıl çalıştığına dair temel bir genel bakış.
   1. Herhangi bir barındırma aracıyla bir "depo" oluşturun (GitHub, GitLab veya Bitbucket gibi)
   2. Depoyu yerel makinenize klonlayın
@@ -46,7 +46,7 @@ GIT kullanarak yerel deponuzda değişiklikler yapabilir ve bir barındırma ara
   9. Bir "Çekme İsteği" açın (Ana Şubede Değişiklikler Önerme)
  10. Şubenizi ana dalda “birleştirin”
 
-## Git {#install}
+## Git   {#install}
 Git'i bilgisayarınıza yüklemek için farklı yöntemler vardır. Bir paket olarak veya başka bir yükleyici aracılığıyla yükleyebilir veya kaynak kodunu indirebilir ve kendiniz derleyebilirsiniz.
 
 ### Linux'a yükleme
@@ -60,27 +60,27 @@ $ sudo apt install git-all
 ```
 
 ### MacOS üzerine yükleme
-Git'i Mac'e yüklemenin birkaç yolu vardır. En kolay olanı muhtemelen Xcode komut satırı araçlarını yüklemektir. Mavericks (10.9) ya da daha yüksekte bunu ilk kez terminalden ** git ** çalıştırmaya çalışarak yapabilirsiniz.
+Git'i Mac'e yüklemenin birkaç yolu vardır. En kolay olanı muhtemelen Xcode komut satırı araçlarını yüklemektir. Mavericks (10.9) ya da daha yüksekte bunu ilk kez terminalden **git**  çalıştırmaya çalışarak yapabilirsiniz.
 ```
 $ git --version
 ```
 Zaten yüklü değilseniz, yüklemenizi isteyecektir.
 
-## bir depo oluşturma {#init}
+## bir depo oluşturma   {#init}
 Git deposu, kod dosyalarınız için sanal depolama alanıdır. Kodunuzun gerektiğinde erişebileceğiniz farklı sürümlerini depolamanıza olanak tanır.
-Yeni bir repo oluşturmak için ** git init ** komutunu kullanacaksınız. Git Init, yeni bir repo'nun ilk kurulumu sırasında kullandığınız tek seferlik bir komuttur. Bu komutun yürütülmesi, mevcut çalışma dizininizde yeni bir .git alt dizin oluşturacaktır. Bu aynı zamanda yeni bir ** Master ** şube oluşturacaktır.
+Yeni bir repo oluşturmak için **git init  **komutunu kullanacaksınız. Git Init, yeni bir repo'nun ilk kurulumu sırasında kullandığınız tek seferlik bir komuttur. Bu komutun yürütülmesi, mevcut çalışma dizininizde yeni bir .git alt dizin oluşturacaktır. Bu aynı zamanda yeni bir **  Master**  şube oluşturacaktır.
 
 {{< figure align=center src="images/git-init-2.gif" alt="Git nedir">}}
 
 
-## Deposite değişikliklerini kaydet {#commit}
+## Deposite değişikliklerini kaydet   {#commit}
 Artık bir deponun başlatıldığına göre, dosya sürümü değişiklikleri yapabilirsiniz.
 
 {{< figure align=center src="images/git-add-commit-1.gif" alt="git taahhüdü">}}
 
 
-## Havuzun durumunu kontrol edin {#status}
-** git durumu ** komutu, çalışma dizininin ve evreleme alanının durumunu görüntüler. Hangi değişikliklerin yapıldığını, hangisinin yapmadığını ve hangi dosyaların Kaynak Kod Yönetimi Yazılımı (GIT) tarafından izlenmediğini görmenizi sağlar. Durum çıktısı size taahhüt edilen proje geçmişi hakkında herhangi bir bilgi göstermez. Bunun için ** git günlük ** kullanmanız gerekir.
+## Havuzun durumunu kontrol edin   {#status}
+**git durumu  **komutu, çalışma dizininin ve evreleme alanının durumunu görüntüler. Hangi değişikliklerin yapıldığını, hangisinin yapmadığını ve hangi dosyaların Kaynak Kod Yönetimi Yazılımı (GIT) tarafından izlenmediğini görmenizi sağlar. Durum çıktısı size taahhüt edilen proje geçmişi hakkında herhangi bir bilgi göstermez. Bunun için **  git günlük**  kullanmanız gerekir.
 
 {{< figure align=center src="images/git-status-2.gif" alt="Kaynak Kodu Yönetim Yazılımı">}}
 
@@ -98,7 +98,7 @@ Author: Assad Mahmood <*****@gmail.com>
 Date:   Fri Jan 8 17:55:52 2021 +0500
 ```
 
-## Değişikliklerinizi geri döndür {#Revert}
+## Değişikliklerinizi geri döndür   {#Revert}
 Repo'nuzda zaten taahhüt ettiğiniz bir değişikliği geri almak için GIT REVERT komutunu kullanabilirsiniz. İlk olarak, taahhüt listesini almak için "git günlüğü" komutunu kullanın
 ```
 $ git log
@@ -147,10 +147,10 @@ Artık GIT ve GIT'in nasıl çalıştığını tartıştığımız tüm makaleyi
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
-  *[** GitHub Eylemleri ile Yazılım Geliştirme İş Akışlarını Otomatikleştirin **][10]
-  *** [GITLAB CI/CD ile Sürekli Dağıtım Boru Hattı Nasıl Kurulur][11] **
-  *** [dalları anlayın ve öğrenin ve istekleri GIT'de çekin][12] **
-  *** [2021'de Top 5 Açık Kaynak Sürüm Kontrol Sistemleri][13] **
+  *[**GitHub Eylemleri ile Yazılım Geliştirme İş Akışlarını Otomatikleştirin** ][10]
+  ***[GITLAB CI/CD ile Sürekli Dağıtım Boru Hattı Nasıl Kurulur][11]** 
+  ***[dalları anlayın ve öğrenin ve istekleri GIT'de çekin][12]** 
+  ***[2021'de Top 5 Açık Kaynak Sürüm Kontrol Sistemleri][13]** 
 
   
 [1]: #version-control

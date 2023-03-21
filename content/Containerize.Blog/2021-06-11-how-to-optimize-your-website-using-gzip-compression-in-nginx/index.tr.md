@@ -21,20 +21,20 @@ Bu makale Nginx hakkında öğreticilerimizin devamıdır. Şimdiye kadar Nginx'
   * [GZIP sıkıştırmasını doğrulayın][5]
   * [Sonuç][6]
 
-## Sıkıştırma ile web sitesi optimizasyonu {#optimize}
+## Sıkıştırma ile web sitesi optimizasyonu   {#optimize}
 Bir web sitesinin performansı bir dizi faktöre bağlıdır. Kısmen bağlı olduğu faktörlerden biri, bir kullanıcının tarayıcının sunucunuzdan indirmesi gereken tüm dosyaların boyutudur. Aktarılan bu dosyaların boyutunu azaltmak veya sıkıştırma, web sitenizin kullanıcı için daha hızlı yüklenmesini sağlayabilir. Ayrıca, ölçülü bağlantılarda bant genişliği kullanımı için ödeme yapmanız durumunda web siteniz için faturayı azaltabilir. Böylece sıkıştırma, web sitesi optimizasyonunuzda çok hayati bir rol oynayabilir.
 Google ve diğer arama motorları bir web sitesinin kullanıcı deneyimini (UX) sıralama algoritmalarında kritik bir faktör olarak görüyorlar. En iyi derecelendirmeler için web sitenizi geliştirmek ve optimize etmek daha önemli hale geldi. Dikkat edilmesi gereken en önemli faktörler arasında sayfa hızı ve yükleme süreleri. Ve web sitenizi hız ve performansınızı iyileştirmenin en hızlı ve en kolay yolu, web sitenizde GZIP sıkıştırmasını etkinleştirmektir.
 
-## GZIP Sıkıştırma Nedir? {#What-gzip}
-GZIP, dosya sıkıştırma ve dekompresyon için kullanılan bir ** dosya biçimi ve yazılım uygulaması **'dır. Web sunucuları veya diğer yazılımlar, kullanıcıların tarayıcılarına gönderilmeden önce veri dosyalarını sıkıştırmak için GZIP Sıkıştırma kullanır. Bu, web sitenizi daha hızlı hale getiren dosya indirme süresini azaltır. Tüm modern tarayıcılar GZIP sıkıştırmasını destekler.
+## GZIP Sıkıştırma Nedir?   {#What-gzip}
+GZIP, dosya sıkıştırma ve dekompresyon için kullanılan bir **dosya biçimi ve yazılım uygulaması** 'dır. Web sunucuları veya diğer yazılımlar, kullanıcıların tarayıcılarına gönderilmeden önce veri dosyalarını sıkıştırmak için GZIP Sıkıştırma kullanır. Bu, web sitenizi daha hızlı hale getiren dosya indirme süresini azaltır. Tüm modern tarayıcılar GZIP sıkıştırmasını destekler.
 Dosya ve klasör sıkıştırmasını etkinleştirebilmeniz için Web sunucunuzda GZIP sıkıştırmanın etkinleştirilmesi gerektiğini de belirtmek önemlidir. Kısacası, Nginx'te GZIP sıkıştırmasını nasıl etkinleştireceğinizi göreceğiz.
 
-## GZIP sıkıştırma nasıl çalışır? {#nasıl gzip}
+## GZIP sıkıştırma nasıl çalışır?   {#nasıl gzip}
 En popüler sıkıştırma yöntemi olan GZIP, Web sunucuları ve tarayıcılar tarafından içeriği internet üzerinden iletilirken sıkıştırmak ve doldurmak için kullanılır. Çoğunlukla kod ve metin dosyalarında kullanılır, GZIP JavaScript, CSS ve HTML dosyalarının boyutunu%90'a kadar azaltabilir.
 Varsayılan olarak, GZIP Sıkıştırma görüntüleri veya videoları sıkıştırmaz. Bu nedenle Google Pagespeed Insights gibi web sitesi hız test araçlarının çoğu GZIP sıkıştırmasını sağlamayı şiddetle tavsiye eder.
 Bir web sunucusu bir web sayfası için bir istek aldığında, web sunucusu tarayıcının GZIP'yi destekleyip desteklemediğini kontrol etmek için isteğin başlığını kontrol eder. Öyleyse, GZIP uygulamadan önce sunucu sayfa için işaretlemeyi oluşturur. GZIP, HTML işaretlemesini daha sonra son kullanıcıya teslim edilen sıkıştırılmış bir veriye dönüştürür. Son kullanıcı sıkıştırılmış verileri aldığında, tarayıcıları onu açar.
 
-## Nginx'te GZIP Sıkıştırma'yı Etkinleştir {#ENABLE-GZIP}
+## Nginx'te GZIP Sıkıştırma'yı Etkinleştir   {#ENABLE-GZIP}
 NGINX GZIP yapılandırmasını değiştirmek için, ana Nginx yapılandırma dosyasını “_vi_” veya en sevdiğiniz metin düzenleyicinizle açın:
 ```
 sudo vi /etc/nginx/nginx.conf
@@ -98,7 +98,7 @@ gzip_types
 ```
 Yeni ayarları yürürlüğe koymak için şimdi Nginx'i yeniden başlatın.
 
-## GZIP Sıkıştırma'yı doğrulayın {#Perify}
+## GZIP Sıkıştırma'yı doğrulayın   {#Perify}
 Artık GZIP sıkıştırmasını etkinleştirdiğimize göre, doğrulayalım.
 ```
 curl -H "Accept-Encoding: gzip" -I http://localhost/test.html
@@ -117,7 +117,7 @@ ETag: W/"6222dc8d-500"
 <strong>Content-Encoding: gzip</strong>
 ```
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Bu makalede, dosya transferlerini hızlandırmak için NGINX GZIP modülünü kullanabileceğinizi öğrendik. GZIP modülünü kullanarak Nginx'te GZIP sıkıştırmasını nasıl etkinleştireceğinizi adım adım gösterdik. [GZIP modülü][7] için resmi belgeler, bir göz atmak isteyebileceğiniz diğer yapılandırma yönergelerini listeler. Umarım bu öğretici web sitenizin performansını ve hızını optimize etmenize yardımcı olur.
 
 ## Keşfetmek

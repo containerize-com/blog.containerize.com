@@ -13,62 +13,62 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/deployment-tools-blog-post.png" alt="Outils de déploiement de logiciels gratuits">}}
 
-** Outils de déploiement de logiciels gratuits ** Aide les équipes à automatiser les processus de création, de test et de déploiement des applications. Il aide les développeurs à se concentrer sur les tâches de développement, à augmenter l'efficacité et la productivité. Il existe de nombreux outils de déploiement gratuits disponibles sur le marché. Cependant, nous discuterons des 5 ** meilleurs outils CI / CD open source ** dans cet article.
+**Outils de déploiement de logiciels gratuits  **Aide les équipes à automatiser les processus de création, de test et de déploiement des applications. Il aide les développeurs à se concentrer sur les tâches de développement, à augmenter l'efficacité et la productivité. Il existe de nombreux outils de déploiement gratuits disponibles sur le marché. Cependant, nous discuterons des 5 **  meilleurs outils CI / CD open source**  dans cet article.
   * [Jenkins][1]
   * [Drone][2]
   * [Déploieur][3]
   * [Capistrano][4]
   * [Rancher][5]
 
-## jenkins {#jenkins}
-[** Jenkins **][6] est un serveur d'automatisation open source qui est largement utilisé. Il s'agit d'une plate-forme de déploiement entièrement gratuite qui comprend des fonctionnalités comprenant une intégration continue et un déploiement continu. ** Jenkins ** est un serveur open source qui comprend plusieurs plugins pour la construction, les tests et le déploiement des applications. De plus, il s'agit d'un outil de déploiement fiable, extensible et polyvalent. Jenkins est construit sur une architecture maître-esclave. Cet ** outil de déploiement open source ** est écrit en Java et le code source est disponible chez [github][7].
+## jenkins   {#jenkins}
+[**Jenkins **][6] est un serveur d'automatisation open source qui est largement utilisé. Il s'agit d'une plate-forme de déploiement entièrement gratuite qui comprend des fonctionnalités comprenant une intégration continue et un déploiement continu.  **Jenkins **  est un serveur open source qui comprend plusieurs plugins pour la construction, les tests et le déploiement des applications. De plus, il s'agit d'un outil de déploiement fiable, extensible et polyvalent. Jenkins est construit sur une architecture maître-esclave. Cet  **outil de déploiement open source**   est écrit en Java et le code source est disponible chez [github][7].
 Voici les principales caractéristiques de Jenkins:
   * Intégration continue et livraison continue
   * Interface utilisateur simple et facile à utiliser
   * Installation et configuration faciles
   * Prend en charge les plugins
   * Notifications d'état de construction
-[** En savoir plus sur Jenkins **][8]
+[**En savoir plus sur Jenkins** ][8]
 
-## Drone {#Drone}
-[** Drone **][9] est un outil CI / CD libre et open source moderne. Il fonctionne comme une couche intermédiaire entre Docker et un fournisseur de référentiel. ** Drone ** a besoin des informations sur le compte du référentiel pour bootstrap ses modèles d'authentification, d'utilisateur et d'autorisations. De plus, il est livré avec plusieurs backends de base de données et fournisseurs de référentiels. De plus, il a une prise en charge prête à l'emploi pour la configuration des certificats TLS / SSL. Les développeurs peuvent également créer des plugins dans n'importe quelle langue et les publier sous forme de conteneurs à utiliser dans le drone. Le drone est écrit en langue go et son code source est disponible sur [github][10]. Cet outil d'intégration continue Open Source ** est publié sous la licence Apache.
+## Drone   {#Drone}
+[**Drone **][9] est un outil CI / CD libre et open source moderne. Il fonctionne comme une couche intermédiaire entre Docker et un fournisseur de référentiel.  **Drone **  a besoin des informations sur le compte du référentiel pour bootstrap ses modèles d'authentification, d'utilisateur et d'autorisations. De plus, il est livré avec plusieurs backends de base de données et fournisseurs de référentiels. De plus, il a une prise en charge prête à l'emploi pour la configuration des certificats TLS / SSL. Les développeurs peuvent également créer des plugins dans n'importe quelle langue et les publier sous forme de conteneurs à utiliser dans le drone. Le drone est écrit en langue go et son code source est disponible sur [github][10]. Cet outil d'intégration continue Open Source**  est publié sous la licence Apache.
 Voici une liste de la fonctionnalité clé du drone:
   * Construction isolée
   * Prend en charge les systèmes de gestion des codes source populaires
   * Configurer facilement les pipelines
   * Prend en charge plusieurs systèmes d'exploitation
   * Prend en charge les plugins
-[** En savoir plus sur le drone **][11]
+[**En savoir plus sur le drone** ][11]
 
-## Déploieur {#deployer}
-[** Déploieur **][12] est un outil de déploiement gratuit et ** Open Source **. Il est conçu pour gérer le déploiement d'applications basées sur PHP. Il est facile à utiliser et a une courbe d'apprentissage faible. ** Deployeur ** possède des recettes intégrées pour les frameworks PHP populaires, les systèmes de gestion de contenu et les applications de panier. Il s'agit d'un outil de ligne de commande qui ne nécessite pas l'installation d'un client ou d'un agent. De plus, vous pouvez déployer des applications PHP sans temps d'arrêt. De plus, il permet aux développeurs de revenir rapidement à la version précédente. Son code source est également disponible sur [GitHub][13].
+## Déploieur   {#deployer}
+[**Déploieur **][12] est un outil de déploiement gratuit et  **Open Source ** . Il est conçu pour gérer le déploiement d'applications basées sur PHP. Il est facile à utiliser et a une courbe d'apprentissage faible.  **Deployeur**   possède des recettes intégrées pour les frameworks PHP populaires, les systèmes de gestion de contenu et les applications de panier. Il s'agit d'un outil de ligne de commande qui ne nécessite pas l'installation d'un client ou d'un agent. De plus, vous pouvez déployer des applications PHP sans temps d'arrêt. De plus, il permet aux développeurs de revenir rapidement à la version précédente. Son code source est également disponible sur [GitHub][13].
 Deployeur propose les points clés suivants:
   * Prend en charge les cadres PHP populaires
   * Outil CLI
   * Déploiements de temps d'arrêt zéro
   * Retour rapide vers la version précédente
   * Pas d'agents, utilisez simplement SSH
-[** En savoir plus sur le déploieur **][14]
+[**En savoir plus sur le déploieur** ][14]
 
-## Capistrano {#capistrano}
-[** Capistrano **][15] est un autre des meilleurs outils de déploiement gratuit ** pour le déploiement d'applications Web. Il permet aux équipes de créer des scripts de déploiement automatisés. ** Capistrano ** peut déployer simultanément des applications Web sur plusieurs serveurs. Il aide également les équipes à identifier le déploiement pour plusieurs étapes, telles que le développement, la mise en scène et la production, tout en une fois. Ce logiciel de déploiement gratuit est écrit en Ruby. En outre, Capistrano peut être facilement intégré à toute autre application Ruby. La licence de cet outil de déploiement open source est MIT et le code source est disponible chez [GitHub][16].
+## Capistrano   {#capistrano}
+[**Capistrano **][15] est un autre des meilleurs outils de déploiement gratuit  **pour le déploiement d'applications Web. Il permet aux équipes de créer des scripts de déploiement automatisés. **  Capistrano**  peut déployer simultanément des applications Web sur plusieurs serveurs. Il aide également les équipes à identifier le déploiement pour plusieurs étapes, telles que le développement, la mise en scène et la production, tout en une fois. Ce logiciel de déploiement gratuit est écrit en Ruby. En outre, Capistrano peut être facilement intégré à toute autre application Ruby. La licence de cet outil de déploiement open source est MIT et le code source est disponible chez [GitHub][16].
 Capistrano prend en charge les fonctionnalités importantes suivantes:
   * Plusieurs étapes
   * Conventions fortes
   * Exécution parallèle
   * Rubygems Package Manager
   * Prend en charge les plugins
-[** En savoir plus sur Capistrano **][17]
+[**En savoir plus sur Capistrano** ][17]
 
-## Rancher {#Rancher}
-[** Rancher **][18] est un outil d'auto-hébergement d'auto-hébergement ** **. Les équipes logicielles peuvent facilement l'utiliser pour la gestion des applications conteneurisées. Il fournit un ensemble complet de services pour les conteneurs, le réseautage, le stockage, la gestion de l'hôte et l'équilibrage de charge. ** Rancher ** offre une intégration avec un large éventail de services populaires pour les opérations de conteneurs telles que Aqua, Gitlab, Sysdig, Datadog, Arfactory, Portworx et Calico. Il est écrit dans GO et le code source est disponible chez [GitHub][19]. La licence de cette plate-forme de gestion des conteneurs open source ** est Apache-2.0.
+## Rancher   {#Rancher}
+[**Rancher **][18] est un outil d'auto-hébergement d'auto-hébergement  **** . Les équipes logicielles peuvent facilement l'utiliser pour la gestion des applications conteneurisées. Il fournit un ensemble complet de services pour les conteneurs, le réseautage, le stockage, la gestion de l'hôte et l'équilibrage de charge.  **Rancher **  offre une intégration avec un large éventail de services populaires pour les opérations de conteneurs telles que Aqua, Gitlab, Sysdig, Datadog, Arfactory, Portworx et Calico. Il est écrit dans GO et le code source est disponible chez [GitHub][19]. La licence de cette plate-forme de gestion des conteneurs open source**  est Apache-2.0.
 Rancher propose les caractéristiques clés suivantes:
   * Réseautage de rédacteur
   * Équilibrage de la charge des conteneurs
   * Services de stockage persistants
   * La gestion des ressources
   * Locations multiples
-[** En savoir plus sur Rancher **][20]
+[**En savoir plus sur Rancher** ][20]
 
 ## Conclusion
 Nous avons examiné les 5 meilleurs outils de déploiement de logiciels gratuits dans ce post. Chaque logiciel est couramment utilisé et sauvegardé par une communauté dynamique. Tous ces outils permettent aux équipes de développement de logiciels de simplifier les workflows de déploiement. Vous pouvez choisir un outil de déploiement basé sur une variété de facteurs tels que la pile technologique, la courbe d'apprentissage et les fonctionnalités. Nous espérons que cet article vous aidera à choisir le meilleur outil pour votre entreprise.

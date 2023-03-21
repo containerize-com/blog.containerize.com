@@ -18,22 +18,22 @@ categories: ['Programming']
 ## Überblick
 Willkommen zu einem weiteren aufregenden Blog -Beitrag in der Serie von [JavaScript -Programmierung][1]. In diesem Artikel werden wir ein sehr grundlegendes, aber wesentliches Konzept der Webentwicklung ansprechen. Ja, wir werden das Dokumentobjektmodell in JavaScript abdecken. In der Vergangenheit haben wir JavaScript -Tutorials veröffentlicht, die für die Entwicklung von JavaScript -Sprache obligatorisch sind. Daher empfehlen wir Ihnen, diesen Blog -Beitrag gründlich zu lesen, damit Sie nichts mit diesem wichtigen Konzept verpassen. Beginnen wir diese Anleitung und finden Sie heraus**Was ist DOM in JavaScript**, DOM -Eigenschaften und wie Sie programmatisch damit interagieren können.
 Wir werden die folgenden Themen in diesem JavaScript -Handbuch behandeln:
-***[Was ist Dokumentobjektmodell (DOM)?][2]**
-***[DOM -Ebene][3]**
-***[Was sind DOM -Eigenschaften und wie kann man darauf zugreifen?][4]**
+* **[Was ist Dokumentobjektmodell (DOM)?][2]**
+* **[DOM -Ebene][3]**
+* **[Was sind DOM -Eigenschaften und wie kann man darauf zugreifen?][4]**
 
-## Was ist Dokumentobjektmodell (DOM)? {#What-is-dokument-Object-Model}}
+## Was ist Dokumentobjektmodell (DOM)?   {#What-is-dokument-Object-Model}}
 Dom steht für?**Dokumentobjektmodell (DOM)**ist die Darstellung einer Webseite in einem Webbrowser. Die hierarchische Darstellung der Elemente eines HTML -Dokuments in einem Browser wird einfach als Dokumentobjektmodell bezeichnet. Es wird in einer Baumform gebildet, die tatsächlich vom Webbrowser generiert wird. Es besteht aus verschiedenen Knoten, die miteinander verbunden sind und eine Baumform bilden. Darüber hinaus haben DOM -Elemente Attribute und Ereignisse an sie.
 Tatsächlich ist DOM eine Programmierschnittstelle, die die logische Struktur einer Webseite formuliert und den Weg zum Zugriff auf Seitenelemente diktiert. Grundsätzlich erkennt JavaScript keine HTML -Tags wie Titel, H1 und usw. Daher wird DOM erstellt, sobald ein HTML -Dokument in einen Webbrowser geladen wurde, was es dann ermöglicht, JavaScript die Dokumentelemente zu verstehen.
 
-## DOM Levels {#DOM-Levels}
+## DOM Levels   {#DOM-Levels}
 In diesem Abschnitt wird die verschiedenen DOM -Ebenen demonstriert. Zuerst gibt es ein Fensterobjekt in einem Browser, das immer oben ist, und dann gibt es einen Dokumentknoten. Schauen wir uns das Bild unten an:
 
 {{< figure align=center src="images/DOM.png" alt="DOM -Ebenen">}}
 
 Nun, Sie können die DOM -Elemente im obigen Bild sehen. Fenster und Dokument sind die obersten Browserobjekte und dann haben wir das HTML-Element als Stamm. Wenn wir weitermachen, haben wir die Kopf- und Körperknoten, der Titelknoten gehört zum Kopfknoten und der Körperknoten enthält alle im Webbrowser gerendeten und sichtbaren Knoten. Darüber hinaus enthalten Körperelemente Attribute, die wir im Bild wie das Anker -Tag mit "href" -attribut sehen können. In ähnlicher Weise enthalten andere DOM -Knoten verschiedene Attribute wie IMG, Meta und mehr.
 
-## Was sind DOM -Eigenschaften und wie können Sie darauf zugreifen? {#What-Are-Dom-Properties-and-How-to-Access-tthem}
+## Was sind DOM -Eigenschaften und wie können Sie darauf zugreifen?   {#What-Are-Dom-Properties-and-How-to-Access-tthem}
 Bisher haben wir eine Antwort auf das, was DOM in JavaScript und DOM -Level ist, ausgedacht und auch DOM -Knoten durchlaufen. In diesem Abschnitt werden wir DOM -Eigenschaften durchlaufen und sehen, wie wir mit ihnen interagieren können. Jedes DOM -Element hat einen mit ihm verknüpften Wert wie "P" -Tag hat eine Texteigenschaft, das IMG -Tag hat das Bild und so weiter. JavaScript -Methoden werden verwendet, um auf die Werte von Knoten zuzugreifen. Darüber hinaus können Sie Ereignishörer zu den DOM -Elementen hinzufügen/entfernen.
 Sie finden die folgenden**DOM -Eigenschaften**:
 **Innerhtml**: Diese Eigenschaft wird zum Festlegen oder Abholen des HTML -Inhalts eines DOM -Knotens verwendet.

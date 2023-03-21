@@ -17,13 +17,13 @@ categories: ['Artificial intelligence']
 ## Genel Bakış
 **Yapay Zeka**kategorisinde gerçekten ilginç ve trend blog yayınları yayınlıyoruz. En son [makale][1] yapay zekanın AI, türleri ve uygulamaları için bir giriş göstermiştir. Ancak, bu blog yazısı genellikle AI meraklıları olan yazılım geliştiricileri içindir. Bilgisayar biliminin bu dalında geniş bir gelişme kapsamı vardır. Aslında, modern çağ kesinlikle yapay zekaya aittir. Sadece özetlemek gerekirse, AI insan yapımı makinelerde insan zekasının simülasyonudur. Bu nedenle, yazılım kuruluşları bu teknolojiyi gelişmiş özelliklerle zenginleştirmek için yapay zekaya büyük ölçüde yatırım yapıyorlar. Bu nedenle, açık kaynaklı topluluk, AI destekli iş uygulamaları geliştirmek ve dağıtmak için bazı kurumsal düzeydeki çerçeveler ve kütüphaneler geliştirmiştir. Bu kılavuzu başlatalım ve**Top 5 Açık Kaynak AI çerçevesini keşfedelim.**
 Aşağıdaki**açık kaynaklı AI kütüphanelerini ele alacağız:**
-***[tensorflow][2]**
-***[Pytorch][3]**
-***[Keras][4]**
-***[Scikit-Learn][5]**
-***[Caffe][6]**
+* **[tensorflow][2]**
+* **[Pytorch][3]**
+* **[Keras][4]**
+* **[Scikit-Learn][5]**
+* **[Caffe][6]**
 
-## tensorflow {#tensorflow}
+## tensorflow   {#tensorflow}
 [Tensorflow][7], karmaşık problemleri çözmek için bina makinesi öğrenimi (ML) algoritmaları için açık kaynaklı bir çerçevedir. Makine öğrenimi modellerinin gelişimini basitleştiren en iyi açık kaynaklı AI kütüphanelerinden biridir. Buna ek olarak, TensorFlow, veri kümelerinin hazırlanmasına, ML modellerinin oluşturulmasına ve ardından ML modellerinin dağıtılmasına ve uygulanmasına yardımcı olan çok çeşitli araçlar sunar. Ayrıca, bu**açık kaynaklı yapay zeka çerçevesi**çapraz platformdur ve masaüstü bilgisayarlar, cep telefonları ve web platformları için ML modelleri oluşturabilirsiniz.
 
 {{< figure align=center src="images/lockup.png" alt="açık kaynak yapay zeka">}}
@@ -31,7 +31,7 @@ Aşağıdaki**açık kaynaklı AI kütüphanelerini ele alacağız:**
 Ayrıca, üçüncü taraf entegrasyonlar için bir API sunar ve kendi kendine barınma yetenekleriyle birlikte gelir. Bu**Ücretsiz AI Kütüphanesi i**son derece popülerdir ve büyük bir topluluk tarafından desteklenmektedir. Geliştiriciler ve ziyaretçiler için kaynaklar ve belgeler mevcuttur. Her şeyden önce, [github][8] 'de 171K yıldız ve 87.7k çatal var.
 [**Tensorflow hakkında daha fazla bilgi edinin**][7]
 
-## pytorch {#pytorch}
+## pytorch   {#pytorch}
 [Pytorch][9] sağlam bir ekosistemle başka bir işletme düzeyinde**makine öğrenme çerçevesi**. Kullanıcı dostu bir ön uç ile birlikte gelir, kurulumu kolaydır ve [yerel olarak][10] veya [bulut][11] 'e yükleyebilirsiniz. Buna ek olarak, [Google Cloud Platform][12], [Amazon Web Hizmetleri][13] ve [Microsoft Azure][14] tarafından desteklenmektedir. Geliştirme, test ve dağıtım ile ilgili kapsamlı [belgeler][15] ve kaynaklar mevcuttur.
 
 {{< figure align=center src="images/pytorch-logo-dark.png" alt="Açık Kaynak AI kütüphaneleri">}}
@@ -39,7 +39,7 @@ Ayrıca, üçüncü taraf entegrasyonlar için bir API sunar ve kendi kendine ba
 Ayrıca, Pytorch ayrıca makine öğreniminin ayrılmaz bir bileşeni olan sinir ağı geliştirme de sunmaktadır. Bu**açık kaynaklı ML Framework**esas olarak C ++ ve Python'da yazılmıştır ve 62.1K yıldız ve 17.3k çatallı [GitHub][16] üzerinde çok iyi istatistiklere sahiptir.
 **[Pytorch hakkında daha fazla bilgi edinin][9]**
 
-## Keras {#keras}
+## Keras   {#keras}
 [Keras][17], geliştiricinin yükünü hafifletmek için zengin makine öğrenme araçları sunan güçlü bir**açık kaynaklı derin öğrenme API**'dır. Bu ML platformu TensorFlow'un üstünde çalışır ve hızlı deneyler için basit iş akışları sunar. Her şeyden önce son derece kullanışlıdır ve [NASA][18], [YouTube][19] ve diğer popüler devler tarafından kullanılır. Bu**açık kaynaklı AI platformu**, gerçek dünya sorunlarına daha verimli ve hızlı bir şekilde makine öğrenimi çözümleri sunar.
 
 {{< figure align=center src="images/logo-1024x297.png" alt="Makine Öğrenme Platformu">}}
@@ -47,7 +47,7 @@ Ayrıca, Pytorch ayrıca makine öğreniminin ayrılmaz bir bileşeni olan sinir
 Ayrıca, keras modellerini JavaScript'e dışa aktarabilir ve web platformlarında çalıştırabilirsiniz. Aslında, iOS, Android ve gömülü cihazlarda çalıştırmak için ilgili model dosyaları oluşturabilirsiniz. Dahası, büyük bir destek ve geliştirici topluluğuna sahiptir. Python ile yazılmıştır ve 57.2k yıldız ve 19.3k çatallarla [GitHub][20] üzerinde iyi istatistikler sağlar.
 **[Keras hakkında daha fazla bilgi edinin][21]**
 
-## Scikit-Learn {#Scikit-Learn}
+## Scikit-Learn   {#Scikit-Learn}
 [SCIKIT-LEARN][22] Python'da yazılan**açık kaynaklı AI çerçeveleri**diğeridir. Öngörücü veri analizi sağlar ve oldukça ölçeklenebilir. Bu makine öğrenme çerçevesi, [J.P.Morgan][23], [Spotify][24], [Booking.com][25] ve daha fazlası gibi birçok büyük şirketin**ai sistemlerinin**ayrılmaz bir parçası olmuştur. Booking.com, otelleri tavsiye etmek ve müşterilere seyahat destinasyonları önermek için Sckikit-Learn'ı kullanır.
 
 {{< figure align=center src="images/scikit-learn-logo-small.png" alt="açık kaynaklı AI kütüphaneleri,">}}
@@ -55,7 +55,7 @@ Ayrıca, keras modellerini JavaScript'e dışa aktarabilir ve web platformların
 Bu**açık kaynaklı AI Framework**ayrıca Python'da yazılmıştır ve Numpy, Scipy, Joblib ve Threadpoolctl gibi daha az bağımlılık gerektirdiği için kurulumu çok kolaydır. Ayrıca herkes için erişilebilir yeniden kullanılabilir bileşenler sunar. Ayrıca, Scikit-Learns'ın arkasında büyük bir topluluk ve destek var ve ayrıca 52.7k yıldız ve 23.9k çatallarla [GitHub][26] 'da iyi istatistiklere sahip.
 **[Scikit-Learn hakkında daha fazla bilgi edinin][22]**
 
-## Caffe {#Caffe}
+## Caffe   {#Caffe}
 [Caffe][27], modülerlik ve hıza odaklanan bir başka açık kaynak derin öğrenme çerçevesidir. Yüksek seviyeli optimizasyonlara sahip etkileyici mimari sunar. Bu**açık kaynaklı yapay zeka (AI) çerçevesi**, araştırma endüstrisi konuşlandırma ve deneyler için genişletilebilir ve sağlamdır. Ayrıca, kod katkılarında aktif olan canlı bir topluluk var.
 Caffe çerçevesinin [GitHub][28] repo'sunda 33K yıldız ve 19k çatallarla cesaret verici istatistikler var. Buna ek olarak, esas olarak Python gibi diğer dillerden küçük bir giriş ve daha fazlası ile C ++ ile yazılmıştır.
 [**Caffe hakkında daha fazla bilgi edinin**][27]

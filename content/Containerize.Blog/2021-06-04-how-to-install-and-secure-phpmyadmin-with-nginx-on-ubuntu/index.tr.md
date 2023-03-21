@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/install_phpmyadmin_with_nginx_on_ubuntu.png" alt="Ubuntu'da nginx ile Phpmyadmin nasıl kurulur ve güvence altına alırsınız">}}
 
 
-## ** Genel Bakış **
+##  **Genel Bakış ** 
 PHPMyAdmin, kullanıcılara sezgisel bir arayüz aracılığıyla MySQL veya MariaDB sunucularını yönetmek için bir web arayüzü sunan ücretsiz ve açık kaynaklı bir veritabanı yönetim aracıdır. Bu, popüler barındırma sağlayıcılarının çoğu tarafından Web yöneticilerinin PhpmyAdmin'de veritabanı oluşturmasına ve veritabanlarını yönetmesine, SQL uyarılarını yürütmesine, içe aktarma ve dışa aktarma verilerini kolayca vermeye izin vermek için sunulan yaygın olarak desteklenen yazılımlardan biridir. PHPMyAdmin'deki MySQL veya MariaDB veritabanlarınıza, bir PHP geliştirme ortamının yanında çalışan bir grafik web arayüzü aracılığıyla NGINX ile erişebileceksiniz.
 Bu kılavuzda, PHPMyAdmin'in Ubuntu 20.04'te Nginx ile nasıl kurulacağı ve güvence altına alınacağını açıklayacağız. MySQL veritabanları ve tablolarla kolayca çalışmasına izin vermek için phpmyAdmin'i Ubuntu sunucusuna yüklemeniz ve yapılandırmanız gerekir. Öyleyse, ubuntu 20.04 / 20.10'da nginx ile phpmyadmin nasıl kurulacağını ve güvence altına alacağınızı öğrenelim:
   * Önkoşullar
@@ -26,14 +26,14 @@ Bu kılavuzda, PHPMyAdmin'in Ubuntu 20.04'te Nginx ile nasıl kurulacağı ve g�
   * Güvenli phpmyadmin
   * Çözüm
 
-## Adım 1: Önkoşullar {#ID öngörülü}
+## Adım 1: Önkoşullar   {#ID öngörülü}
 Bu kılavuzu takip etmek için, yerel bilgisayarınızda veya ön koşullu uzak bir sunucuda çalışan Ubuntu 20.04 sunucusuna ihtiyacınız olacaktır.
   * Sudo ayrıcalıkları ve UFW güvenlik duvarını etkinleştiren kök olmayan bir kullanıcı olarak sunucuya erişmelisiniz.
   * Ubuntu'ya zaten Nginx, MySQL ve PHP yüklediğiniz varsayılmaktadır.
   * PHPMyAdmin kimlik doğrulaması için MySQL kimlik bilgilerini kullandığından, sunucu ve istemci arasında şifreli trafiği etkinleştirmek için SSL/TLS sertifikalarını da yüklemelisiniz.
 Bu şekilde, veritabanına web arayüzü aracılığıyla erişmek için MySQL Server'a bağlanmak üzere PhpmyAdmin'i yüklemeye ve güvence altına almaya başlayalım.
 
-## Adım 2: PHPMyAdmin'i Yükle {#Id-1-Install-PhpmyAdmin}
+## Adım 2: PHPMyAdmin'i Yükle   {#Id-1-Install-PhpmyAdmin}
 PhpmyAdmin'i Ubuntu 20.04'e yüklemeden önce tüm ön koşulları sisteminize başarılı bir şekilde yüklediğinizden emin olun. Paketler listesini güncelleyerek başlayın:
 ```
 sudo apt update 
@@ -43,13 +43,13 @@ sudo apt update
 sudo apt install phpmyadmin
 
 ```
-Devam etmesi istendiğinde ** y ** ve ** girin **. Bir web sunucusu seçmeniz isteniyorsa, aşağıdaki gibi ** nginx ** için bir seçenek olmadığı için, Tamam'ı seçmek için ** sekme ** tuşuna basın ve sonra ** bir web sunucusu seçmeden devam etmek için ** girin.
+Devam etmesi istendiğinde  **y **  ve  **girin ** . Bir web sunucusu seçmeniz isteniyorsa, aşağıdaki gibi  **nginx **  için bir seçenek olmadığı için, Tamam'ı seçmek için  **sekme **  tuşuna basın ve sonra  **bir web sunucusu seçmeden devam etmek için **  girin.
 
 {{< figure align=center src="images/mysql-setup.png" alt="Ubuntu 20.04'e Nginx için PhpmyAdmin'i yükleyin ve güvenli hale getirin">}}
 
 
-## Adım 2: Veritabanını Yapılandır {#ID-1-Install-PhpmyAdmin}
-Ardından, DBConfig-Common aracını kullanarak veritabanını yüklemek ve ayarlamak için ** evet ** seçin ve ** girin ** ** girin **:
+## Adım 2: Veritabanını Yapılandır   {#ID-1-Install-PhpmyAdmin}
+Ardından, DBConfig-Common aracını kullanarak veritabanını yüklemek ve ayarlamak için  **evet **  seçin ve  **girin **   **girin ** :
 
 {{< figure align=center src="images/phpmyadmin-install2.png" alt="Phpmyadmin ile mysql nasıl yapılandırılır">}}
 
@@ -57,21 +57,21 @@ MySQL uygulama şifresi, MySQL veritabanı ile iletişim kurmak için PhpmyAdmin
 
 {{< figure align=center src="images/phpmyadmin-install3.png" alt="PhpmyAdmin için MySQL nasıl yapılandırılır">}}
 
-Parolayı onaylamanız, aynı şifreyi girmeniz, ** Tamam ** seçmeniz ve ** Enter ** tuşuna basın. Tebrikler! PhpmyAdmin sisteminize başarıyla kuruldu.
+Parolayı onaylamanız, aynı şifreyi girmeniz,  **Tamam **  seçmeniz ve  **Enter **  tuşuna basın. Tebrikler! PhpmyAdmin sisteminize başarıyla kuruldu.
 
-## Adım 4: Sembolik bağlantı oluştur {#id-2-create-sembolik-link}
+## Adım 4: Sembolik bağlantı oluştur   {#id-2-create-sembolik-link}
 PHPMyAdmin dosyalarını sunacak şekilde Nginx'in nasıl yapılandırılacağı birkaç yol vardır. Etki alanınızın sunucu bloğu zaten PHP isteklerini sunacak şekilde ayarlanmışsa, PHPMyAdmin Nginx yükleme dosyalarından/usr/share/phpmyAdmin'den etki alanı belge kök dizinine sembolik bir bağlantı oluşturmanız gerekir. Ubuntu 20.04/20.10'daki Nginx belge kökünün varsayılan konumu/var/www/html/olmalıdır ve INS kurulumunuza bağlı olarak farklı olabilir. Belge kökü örneğin /var/www/example.com/public_html adresinde bulunabilir.
 Daha sonra, PhpmyAdmin dizininden/usr/share/phpmyAdmin'den belge kökü ile sembolik bir bağlantı oluşturacağız. Burada belge kökümüzün/var/www/html/olduğunu varsayacağız ve bunun sonuna phpmyadmin ekleyeceğiz. Bu, PhpmyAdmin'e url örneğinden erişmemize izin verecek.
 ```
 sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 
-## Adım 5: PhpmyAdmin'e Erişim {#Id-3-Test-PhpmyAdmin}
+## Adım 5: PhpmyAdmin'e Erişim   {#Id-3-Test-PhpmyAdmin}
 Artık sunucunuzun ana bilgisayar/alan adı veya genel IP adresini ziyaret ederek ve ardından en sevdiğiniz web tarayıcısında Domain.com/phpmyAdmin'i ziyaret ederek PHPMyAdmin Web arayüzüne erişebilmeniz gerekir. Örneğin http://example.com/phpmyadmin veya http://192.168.1.10/phpmyadmin
 {{_LINE_48_}}
 MySQL 5.7 ve üstü ile çalışan Ubuntu sunucularında, MySQL varsayılan kök hesabını kullanarak ücretsiz phpmyAdmin veritabanına giriş yapamazsınız ve _ “_@’ localhost ’kullanıcısı için reddedilen erişim) _ gibi bir hata alırsınız. Bunun yerine, sadece PhpmyAdmin için yeni bir süper kullanıcı hesabı oluşturmalısınız. Ardından, PhpmyAdmin'e giriş yapmak için MySQL kök hesabı oluşturacağız.
 
-## Adım 6: MySQL SuperUser'ı Oluştur {#ID-4-CREATE-MYSQL-SUPERUSER}
+## Adım 6: MySQL SuperUser'ı Oluştur   {#ID-4-CREATE-MYSQL-SUPERUSER}
 Terminalde, ilk kez PhpmyAdmin MySQL veritabanını yüklediğinizde bir kök şifre oluşturmuş olabileceğiniz MySQL kök şifrenizi kullanarak MySQL'e kaydolarak başlayın.
 ```
 sudo mysql -u root -p
@@ -90,7 +90,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'yasiradmin'@'localhost';
 
 Phpmyadmin Nginx'i güvence altına almak için PhpmyAdmin için bazı ek güvenlikler oluşturmanız şiddetle tavsiye edilir. PhpmyAdmin URL'sini belirsiz URL gibi bir şeye değiştirebilmelisiniz.
 
-## Adım 7: Güvenli PhpmyAdmin {#Id-6-Secure-PhpmyAdmin önerilen}
+## Adım 7: Güvenli PhpmyAdmin   {#Id-6-Secure-PhpmyAdmin önerilen}
 Daha sonra, ek bir güvenlik katmanı sağlamak için Nginx'te kimlik doğrulama ayarlamak istiyoruz. Şimdi hem Nginx hem de Apache2 sunucularıyla çalışan .htpasswd dosyasını oluşturabilen Apache2-Uutils'i yükleyeceğiz.
 ```
 sudo apt install apache2-utils
@@ -130,7 +130,7 @@ sudo service nginx reload
 
 Hepiniz Ubuntu sunucusundaki PhpmyAdmin kurulumları ile işiniz bitti.
 
-## Sonuç: {#id-ne-next}
+## Sonuç:   {#id-ne-next}
 Tebrikler, PHPMyAdmin'i Ubuntu 20.04 / 20.10 sunucusu için Nginx ile başarıyla yüklediniz ve şimdi MySQL'i PhpmyAdmin üzerinden uygulayabilirsiniz. Şimdi, MySQL veritabanları, kullanıcılar, tablolar, MySQL sorguları ve diğer çeşitli işlemler oluşturmaya başlayabilirsiniz.
 Sorularınız varsa, yorum bölümünde bana aşağıda anlatmaktan çekinmeyin.
 

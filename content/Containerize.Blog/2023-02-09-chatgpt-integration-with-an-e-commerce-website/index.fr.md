@@ -24,19 +24,19 @@ Nous couvrirons l'intégration de Chatgpt en suivant les étapes mentionnées ci
   * [**Configurer les paramètres**][8]
   * [**tester et déboguer**][9]
 
-## Étape 1: comment intégrer le chatppt {# comment intégrer-chatpt}
+## Étape 1: comment intégrer le chatppt   {# comment intégrer-chatpt}
 Atteignez**ChatGpt Integration**dans votre site Web de commerce électronique et c'est la première étape des recommandations de produits personnalisés. Pour ce faire, vous devez envoyer une demande à [API OpenAI][10] à l'aide de PHP, contenant les informations nécessaires pour que ChatGpt génére une réponse. Le contexte peut inclure la navigation et l'historique de l'achat pour l'utilisateur.
 
-## Étape 2: stocker les données utilisateur {# store-user-data}
+## Étape 2: stocker les données utilisateur   {# store-user-data}
 Il est nécessaire de stocker les données des utilisateurs afin que ChatGpt génére des recommandations de produits personnalisés. Cependant, les données peuvent contenir des informations sur l'historique et les achats de la navigation de l'utilisateur. Ainsi, les données doivent être stockées en toute sécurité et utilisées uniquement pour générer des recommandations de produits personnalisées.
 
-## Étape 3: Afficher les recommandations {# Display-recommendations}
+## Étape 3: Afficher les recommandations   {# Display-recommendations}
 Après cela, l'étape suivante consiste à afficher les recommandations de produits générées par ChatGpt sur votre site Web de commerce électronique après avoir intégré ChatGpt et stocké les données utilisateur nécessaires. Par conséquent, vous pouvez afficher des recommandations sur la page du produit ou dans une section distincte du site Web.
 
-## Étape 4: Configurer les paramètres {# Configure-Settings}
+## Étape 4: Configurer les paramètres   {# Configure-Settings}
 Afin de garantir que les recommandations de produits de ChatGPT sont exactes et pertinentes, l'extension doit être configurée. De plus, vous pouvez spécifier les URL de point de terminaison API, les clés API et le nombre de recommandations à afficher.
 
-## Étape 5: Tester et déboguer {# test-and-debug}
+## Étape 5: Tester et déboguer   {# test-and-debug}
 Pour s'assurer que l'extension fonctionne comme prévu, elle doit être testée et débogue. En outre, cela pourrait impliquer de tester l'intégration de Chatgpt, de tester le stockage des données utilisateur et de tester l'affichage des recommandations.
 Par-dessus tout, vous pouvez voir l'extrait de code suivant pour implémenter comment réaliser**l'intégration de ChatGpt avec un site Web de commerce électronique**pour générer des recommandations de produits personnalisés:
 {{< gist fahadadeel 53a1ae29d023baf8d90ed81ac2a55914 >}}

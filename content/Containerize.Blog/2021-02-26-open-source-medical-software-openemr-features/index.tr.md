@@ -15,18 +15,18 @@ categories: ['Healthcare Software']
 
 
 ## Genel Bakış
-Son zamanlarda, [çevrimiçi sağlık yazılımı sağlık endüstrisini nasıl güçlendiriyor][1] ve bir öğretici makale [Localhost'ta Hastane Hastanesi Nasıl Kurulur][2] hakkında blog yayınları yayınladık. Bu makalede, ** Tıbbi Sağlık Çözümü ** OpenEmr tarafından sunulan umut verici özellikleri gözden geçireceğiz. Mevcut zaman noktasında, her iş sektörü dijitalleştirilmektedir. Büyük makineler ve yazılımlar, belirli özellikler nedeniyle insan gücünün yerini alıyor. Bu nedenle, tıbbi ve sağlık alanı büyük ölçüde Nesnelerin İnterneti tarafından devrim olur. Karmaşık ağ ve yazılım yoluyla birbirleriyle bağlantılı karmaşık dijital kaynaklar vardır. ESHealth terimi, tıbbi uygulayıcıların sağlık yazılımı ve iletişimini tam olarak kullandıkları yerlerde popüler hale geliyor.
+Son zamanlarda, [çevrimiçi sağlık yazılımı sağlık endüstrisini nasıl güçlendiriyor][1] ve bir öğretici makale [Localhost'ta Hastane Hastanesi Nasıl Kurulur][2] hakkında blog yayınları yayınladık. Bu makalede, **Tıbbi Sağlık Çözümü**  OpenEmr tarafından sunulan umut verici özellikleri gözden geçireceğiz. Mevcut zaman noktasında, her iş sektörü dijitalleştirilmektedir. Büyük makineler ve yazılımlar, belirli özellikler nedeniyle insan gücünün yerini alıyor. Bu nedenle, tıbbi ve sağlık alanı büyük ölçüde Nesnelerin İnterneti tarafından devrim olur. Karmaşık ağ ve yazılım yoluyla birbirleriyle bağlantılı karmaşık dijital kaynaklar vardır. ESHealth terimi, tıbbi uygulayıcıların sağlık yazılımı ve iletişimini tam olarak kullandıkları yerlerde popüler hale geliyor.
 Verimlilik, daha kaliteli ve güvenlik sağlayan birçok açık kaynaklı tıbbi yazılım vardır. Dijital sağlık hizmetleri, seyahat maliyetleri, kağıt maliyetleri ve insan maliyetleri gibi çeşitli maliyetleri azaltmıştır. Ancak, aşağıdaki noktaları ele alacağız.
-  *[** Openemr nedir **][3]
-  *[** Openemr özellikleri **][4]
-  *[** Sonuç **][5]
+  *[**Openemr nedir** ][3]
+  *[**Openemr özellikleri** ][4]
+  *[**Sonuç** ][5]
 
-## openemr nedir {#intro}
+## openemr nedir   {#intro}
 [OpenEMR][6] çok dilli açık kaynaklı bir tıbbi bakım çözümüdür. Şifreleme teknikleriyle veri güvenliği sunar. Bu ücretsiz sağlık hizmeti çözümü, kullanıcılarını hastaların tıbbi kayıtlarını ve tıp stoklarını yönetmelerini kolaylaştırır. Ayrıca, hasta randevuları, hatırlatıcılar ve laboratuvar entegrasyonu gibi birçok özellik vardır. Bununla birlikte, bu açık kaynaklı tıbbi yazılım, finansal işlemleri ve faturaları yönetmek için çok güçlü bir entegre faturalandırma modülüne sahiptir.Openemr çok dillidir ve neredeyse 100 artı dil için destek sağlar.
 Bu web tabanlı tıbbi faturalandırma yazılımı kendi kendine barındırılır ve mantıklı, kullanıcı dostu bir arayüz sağlar. Ayrıca, e-reçete bu serbest aracın çok güçlü bir modülüdür. Her şeyden önce, tıbbi yazılım yöneticilerinin birincil modüllerde aramalar yapabileceği zengin arama özellikleri vardır. Oldukça genişletilebilir ve üçüncü taraf uygulamaların entegrasyonu için destek sunar. OpenEMR PHP'de yazılmıştır ve geliştirme ve dağıtım konusunda tam olarak belgelenmiştir. Buna ek olarak, bu tıbbi sağlık çözümünün kurulması kolaydır ve Apache, PHP ve MySQL gibi basit gereksinimler gerektirir.
 
-## openemr özellikleri {#features}
-Bu bölümde, bu ** özel sağlık yazılımı ** tarafından sunulan bazı önemli modülleri keşfedeceğiz.
+## openemr özellikleri   {#features}
+Bu bölümde, bu **özel sağlık yazılımı**  tarafından sunulan bazı önemli modülleri keşfedeceğiz.
 Bu [bağlantı][7] 'i takip ederek OpenEMR'yi kendiniz deneyimleyebilirsiniz. Bu bağlantıyı açtıktan sonra, bir oturum açma sayfasına ineceksiniz. Yönetici olarak oturum açmak için aşağıdaki kimlik bilgilerini kullanabilirsiniz.
 Kullanıcı Adı: Yönetici
 Şifre: Geçiş
@@ -52,7 +52,7 @@ Kullanıcılar, aşağıdaki resimde gösterildiği gibi kullanıcı arayüzünd
 
 Aynı şekilde, bu hastane yönetim sisteminde birçok zengin özellik mevcuttur. Ayrıca, bir bilgi tabanı gibi ilgili belgeleri yönetmek için bir modül vardır ve ayrıca varlıkların adreslerini korumak için kullanılan adres defterinin bir hükmü vardır. Ayrıca, kapsamlı bir incelemeye sahip olabilir ve ardından kendi sunucularınızda barındırabilirsiniz.
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Sonunda, bu tıbbi sağlık çözümünün günlük tıbbi uygulamaları yönetmek için gerçekten kurumsal düzeyde bir sağlık çözümü olduğunu güvenle söyleyebiliriz. İş ve topluluk ihtiyaçlarını karşılamak için umut verici özellikler sunan birçok açık kaynaklı tıbbi yazılım vardır. OpenEMR, sağlık endüstrisinin temel ve temel ihtiyaçlarını ele alıyor gibi görünüyor ve daha da önemlisi, ücretsiz açık kaynak ve genişlemesi kolay. Bu nedenle, açık kaynaklı topluluk, sağlık hizmetleri sunmak için mevcut yazılımı geliştirmek için aktif olarak çalışmaktadır. EHealth'i tercih etmek istiyorsanız bu blog yazısı size gerçekten yardımcı olacaktır. Ayrıca, aşağıdaki Explore bölümünde kayıtlı açık kaynaklı tıbbi yazılımları görebilirsiniz. Son olarak, [Containerize.com][8], en son açık kaynaklı ürünler hakkında blog yayınları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [Healthcare Technologies][9] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek

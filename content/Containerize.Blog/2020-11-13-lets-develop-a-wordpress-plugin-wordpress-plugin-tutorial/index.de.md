@@ -15,24 +15,24 @@ categories: ['Blogging']
 
 
 ## Überblick
-WordPress ist eine Open-Source-Blogging-Plattform auf Unternehmensebene. A ** WordPress -Plugin ** ist ein eigenständiger Codesatz, der die Funktionalität von WordPress verbessert und erweitert. Durch Verwendung einer beliebigen Kombination von PHP, HTML, CSS, JavaScript/JQuery. Ein Plugin kann jedem Teil Ihrer Website neue Funktionen hinzufügen.
+WordPress ist eine Open-Source-Blogging-Plattform auf Unternehmensebene. A **WordPress -Plugin**  ist ein eigenständiger Codesatz, der die Funktionalität von WordPress verbessert und erweitert. Durch Verwendung einer beliebigen Kombination von PHP, HTML, CSS, JavaScript/JQuery. Ein Plugin kann jedem Teil Ihrer Website neue Funktionen hinzufügen.
 Die Funktionalität, die Sie Ihrer Website hinzufügen können, hängt davon ab, was jedes spezifische Plugin erstellt hat. Ein WordPress -Plugin kann entwickelt werden, um alles zu tun. Von einer kleinen Aufgabe bis zu einer Full-Fleeby-Anwendung, die eine Reihe von Operationen ausführt und über eigene Schnittstellen verfügt. Die Plugins unterscheiden sich von Ihrem Thema und arbeiten unabhängig voneinander, wobei Hooks, Filter, Shortcodes, Widgets und benutzerdefinierte Code verwendet werden, um ihre Funktionalität auszuführen.
 In diesem WordPress -Plugin -Tutorial lernen wir, wie Sie unser erstes WordPress -Plugin erstellen. Der wichtigste Grund für das Erstellen eines Plugins ist, dass Sie Ihren eigenen Code vom WordPress -Kerncode trennen können.
-  *** [Anforderungen][1] **
-  *** [Grundlagen der Pluginentwicklung][2] **
-  *** [Wie erstelle ich WP -Plugin?][3] **
-  *** [Schlussfolgerung][4] **
+  ***[Anforderungen][1]** 
+  ***[Grundlagen der Pluginentwicklung][2]** 
+  ***[Wie erstelle ich WP -Plugin?][3]** 
+  ***[Schlussfolgerung][4]** 
 
-## Anforderungen {#Requirements}
+## Anforderungen   {#Requirements}
   * Neueste Version von WordPress
   * Verständnis von PHP / MySQL
   * Verständnis von HTML / CSS und JavaScript
 
-## Grundlagen der Plugin -Entwicklung {#Basics}
+## Grundlagen der Plugin -Entwicklung   {#Basics}
 Nehmen wir uns einen Moment Zeit, um über einige wichtige Aspekte der Plugin -Entwicklung zu sprechen. Ein solides Verständnis der Funktionsweise dieser Konzepte hilft Ihnen dabei, einfach zu bedienende und wartbare Funktionen aufzubauen.
 
 ### Aktionen
-** Action Hooks ** sind ein sehr nützliches Werkzeug in ** WordPress ** ** Plugin ** und sie werden verwendet, um Funktionen (** Aktionen **) an bestimmten Stellen eines Themas oder Plugins auszuführen. WordPress hat Dutzende von Aktionen, die während seiner Kernfunktionalität definiert wurden, wobei jede Aktion aus einem eindeutigen Namen besteht. Für weitere Details [lesen][5].
+**Action Hooks  **sind ein sehr nützliches Werkzeug in **  WordPress  ****  Plugin  **und sie werden verwendet, um Funktionen (**  Aktionen** ) an bestimmten Stellen eines Themas oder Plugins auszuführen. WordPress hat Dutzende von Aktionen, die während seiner Kernfunktionalität definiert wurden, wobei jede Aktion aus einem eindeutigen Namen besteht. Für weitere Details [lesen][5].
 
 ### Filter
 Ein WordPress -Filter ist ein Haken, der eine Variable (oder eine Reihe von Variablen) akzeptiert und sie nach dem Änderung zurückgibt. Diese Filter werden häufig verwendet, damit Sie eine Möglichkeit haben, Standardinformationen zu manipulieren. Weitere Details [lesen][6].
@@ -43,8 +43,8 @@ Shortcodes sind Makros, mit denen dynamische Interaktionen mit dem Inhalt durchg
 ### Widgets
 Widgets sind wichtig, da sie Ihnen ein weiteres Mittel zur Ausführung des Code Ihres Plugins bieten und gleichzeitig eine benutzerfreundliche Oberfläche bereitstellen. Da die meisten Themen eine oder mehrere Seitenleisten unterstützen; Wenn Sie Ihre eigenen Widgets hinzufügen, können Sie schnell zugreifen, um Ihre Informationen im Thema anzuzeigen.
 
-## ** Wie erstelle ich WP -Plugin? ** {#create}
-In diesem Abschnitt des WordPress -Plugin -Tutorials müssen Sie lediglich einen Ordner erstellen und dann eine einzige Datei mit einer Inhaltszeile erstellen. Navigieren Sie zum Ordner ** wp-content/plugins ** und erstellen Sie einen neuen Ordner namens ** myTestPlugin **. Erstellen Sie in diesem neuen Ordner eine Datei namens ** myTestPlugin.php **. Öffnen Sie die Datei in einem Texteditor und fügen Sie die folgenden Informationen darin ein:
+## **Wie erstelle ich WP -Plugin?**    {#create}
+In diesem Abschnitt des WordPress -Plugin -Tutorials müssen Sie lediglich einen Ordner erstellen und dann eine einzige Datei mit einer Inhaltszeile erstellen. Navigieren Sie zum Ordner **wp-content/plugins  **und erstellen Sie einen neuen Ordner namens **  myTestPlugin **. Erstellen Sie in diesem neuen Ordner eine Datei namens  **myTestPlugin.php**  . Öffnen Sie die Datei in einem Texteditor und fügen Sie die folgenden Informationen darin ein:
 ```
 <?php
    /*
@@ -77,7 +77,7 @@ function add_page_views() {
    }
 }
 ```
-So weit, so gut in diesem WordPress -Plugin -Tutorial. Diese Funktion wird jedoch nie aufgerufen, daher wird sie nicht wirklich verwendet. Hier kommen Hooks ins Spiel. Sie können in die Dateien Ihres Themas eingehen und die Funktion von dort aus manuell aufrufen. Aber dann würden Sie diese Funktionalität verlieren, wenn Sie jemals das Thema ändern und so den gesamten Zweck besiegen. Ein Haken mit dem Namen ** wp_head **, der kurz bevor das Tag in den meisten Themen vorhanden ist, danach läuft, sodass wir einfach unsere Funktion so einstellen können, wann immer ** wp_head ** läuft, wie SO:
+So weit, so gut in diesem WordPress -Plugin -Tutorial. Diese Funktion wird jedoch nie aufgerufen, daher wird sie nicht wirklich verwendet. Hier kommen Hooks ins Spiel. Sie können in die Dateien Ihres Themas eingehen und die Funktion von dort aus manuell aufrufen. Aber dann würden Sie diese Funktionalität verlieren, wenn Sie jemals das Thema ändern und so den gesamten Zweck besiegen. Ein Haken mit dem Namen **wp_head **, der kurz bevor das Tag in den meisten Themen vorhanden ist, danach läuft, sodass wir einfach unsere Funktion so einstellen können, wann immer  **wp_head**   läuft, wie SO:
 ```
 add_action("wp_head", "add_page_views");
 ```
@@ -100,7 +100,7 @@ Bisher haben wir gerade die Ansichtserscheinung abgeholt. Jetzt zeigen wir es. S
 echo get_page_views() . “view(s)”
 ```
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Dies ist das Ende dieses WordPress -Plugin -Tutorials. Indem wir diesen Artikel folgen und nur eine Handvoll Funktionen verwenden, haben wir ein grundlegendes Plugin erstellt, um unsere beliebtesten Beiträge zu verfolgen. Wir können es viel verbessern, aber der Zweck war nur, Sie mit den Grundlagen vertraut zu machen. Darüber hinaus erhalten Sie durch das Erlernen einiger Muster der WordPress-Entwicklung (Plugins, Hooks usw.) Fähigkeiten, die Ihnen auch in Nicht-Wort-Umgebungen dienen. Es gibt viele andere Blog -Beiträge zu Open -Source -Blogging -Plattformen und Open -Source -CMS. das Sie im Abschnitt "Explore" finden können. Dieser Blog -Beitrag kann Ihnen wirklich helfen, wenn Sie eine Open -Source -Blogging -Plattform für Ihr Unternehmen bereitstellen möchten.
 Schließlich schreibt [Containerize.com][8] Artikel über weitere Open -Source -Produkte. Bitte bleiben Sie in Kontakt mit den Kategorien [Blogging][9] und [Business Intelligence Software][10] für regelmäßige Nachrichten und Updates
 

@@ -18,16 +18,16 @@ categories: ['Social Network Platforms']
 Yakın geçmişte, [açık kaynaklı sosyal medya platformları][1] hakkında bazı ilginç içerikler yayınladık. [İşletmeniz için kendi kendine barındırılan bir sosyal ağa olan ihtiyacı][2] tartıştık ve ayrıca herhangi bir kuruluş için en üst düzey [5 açık kaynaklı sosyal ağ alternatifleri][3] araştırdık. Bu blog yazısında, ekibiniz/kuruluşunuz için dahili/dış**sosyal medya sitesi**kurabileceğiniz [Humhub][4] seçtik. Şu anda, iş ve eğitim kuruluşları uzaktan işbirliği oturumları yürütecek kadar esnektir. Böylece, zaman ve kaynak boşa harcamadan kimseyle iletişim kurabilecekleri paylaşılan bir alan tercih ederler. Ayrıca, zaman ve mekan dikkate almadan iletişim ve işbirliği kurulabilir.
 Bu nedenle, [Humhub][4] 'i gözden geçireceğiz ve bu amaçla, bu**açık kaynaklı sosyal ağ platformunun [çevrimiçi][5] sürümünde gezineceğiz.**Çevrimiçi çalışma örneği tüm Kullanıcıların kapsamlı bir deneyime sahip olabileceği özellikler ve kullanıcı arayüzleri. Öyleyse, bu öğreticiye başlayalım ve [Humhub][4] 'in iş gereksinimlerimizi nasıl yerine getirebileceğini öğrenelim.
 Aşağıdaki noktalar bu makalede ele alınacaktır:
-***[Neden Humhub'ı tercih etmelisiniz?][6]**
-***[Humhub'a başlıyor][7]**
-***[Humhub'daki Sosyal Araçlar-Açık Kaynak Sosyal Medya Platformu][8]**
-***[Humhub Marketplace][9]**
+* **[Neden Humhub'ı tercih etmelisiniz?][6]**
+* **[Humhub'a başlıyor][7]**
+* **[Humhub'daki Sosyal Araçlar-Açık Kaynak Sosyal Medya Platformu][8]**
+* **[Humhub Marketplace][9]**
 
-## Neden Humhub'ı tercih etmelisiniz? {#Humhub için neden-oped-you-opt}
+## Neden Humhub'ı tercih etmelisiniz?   {#Humhub için neden-oped-you-opt}
 Mevcut birçok açık kaynak seçeneği var, ancak Humhub, zengin kullanımı ve özellikleri yığını nedeniyle öne çıkan seçenek. Bu kendi kendine barındırılan sosyal ağın yerel veya bulut sunucularında ayarlanması kolaydır. Apache Webserver 2.4, PHP-FPM ile Nginx ve PHP gibi bu açık kaynak yazılımlarını kurmak için basit gereksinimler gerektirir. Belgeler söz konusu olduğunda, kalkınma, dağıtım ve kullanım ile ilgili kapsamlı belgeler sunmaktadır.
 Bu**açık kaynaklı sosyal ağ platformu**PHP'de yazılmıştır, bu nedenle büyük bir geliştiriciler topluluğu vardır. Humhub ile ilgili en ilginç şey, bu**açık kaynaklı yazılım**ihtiyaçlarınıza göre özelleştirebilmenizdir.
 
-## Humhub'a başlamak {#-humhub-with-with-with-with-humhub}
+## Humhub'a başlamak   {#-humhub-with-with-with-with-humhub}
 Humhub'ın ücretsiz sürümü 5 kullanıcı ve 500MB depolama sunuyor. Ancak, bu [bağlantı][5] 'i takip ederek kendi örneğinizi oluşturmaya başlayabilirsiniz. E -posta adresiniz gibi bazı bilgileri ve aşağıdaki resimde gösterildiği gibi daha fazlasını göndermeniz istenecektir:
 
 {{< figure align=center src="images/Screenshot-2023-01-13-at-8.48.11-PM-1-1024x584.png" alt="Humhub'a başlamak">}}
@@ -37,7 +37,7 @@ Ağ adını ekledikten sonra sihirbaz tamamlanacaktır. Şimdi, ağı yönetici 
 {{< figure align=center src="images/Screenshot-2023-01-13-at-9.04.11-PM-1024x929.png" alt="Sosyal Medya Sitesi">}}
 
 
-## Humhub'daki Sosyal Tools-Açık Kaynak Sosyal Medya Platformu {#Social-Tools-At-Humhub --- Açık kaynaklı-sosyal-medya-platform}
+## Humhub'daki Sosyal Tools-Açık Kaynak Sosyal Medya Platformu   {#Social-Tools-At-Humhub --- Açık kaynaklı-sosyal-medya-platform}
 Bu bölümde, [Humhub][4] tarafından sunulan bazı heyecan verici özelliklerden geçeceğiz. Kuruluşunuz için başka sosyal ağ platformları kullanıyorsanız, bu üretken bir sosyal ağ alternatifi olabilir.
 Ağı ayarladıktan sonra, aşağıdaki resimde gösterildiği gibi sezgisel bir gösterge tablosu görünecektir:
 
@@ -46,7 +46,7 @@ Ağı ayarladıktan sonra, aşağıdaki resimde gösterildiği gibi sezgisel bir
 Gördüğünüz gibi, ekranın sağ üst köşesinde kullanıcı ayarlarını ve yönetim modülünü bulabileceğiniz açılır bir menü var. Buna ek olarak, Humhub örneğinizi özelleştirebileceğiniz ve kendi alan adınızı eşleştirebileceğiniz bulut barındırma da mevcuttur. Üst Navbar'da, kamu/özel alanlar oluşturur ve insanları ağınıza davet etme yöntemini tanımlarsınız. Birleştirme politikasını “yalnızca davetle”, “davet ve istek” ve “herkes girebilir” gibi tanımlayabilirsiniz.
 Dahası, bu**açık kaynaklı sosyal medya platformunun**gösterge tablosu son derece mantıklı ve kullanıcı dostudur. Kullanıcı arayüzünün sağ tarafındaki etkinlik günlüğü panelini gösterir. Her şeyden önce, merkez alanı, eşyaları yayınladığınız yerdir ve insanların yayınları sever veya yorumlar. Aslında, yorum bölümünde, medya dosyalarını da yükleyebilirsiniz. Bir başka harika seçenek de, ağdaki insanları tartışmalara katılmaya davet edebilmenizdir. UI, zengin filtre seçenekleri ve çeşitli veri varlıklarını arayabileceğiniz küresel bir arama özelliği içerir. Ayrıca, gösterge tablosu öğesini özelleştirebilirsiniz.
 
-## Humhub Marketplace {#Humhub-Marketplace}
+## Humhub Marketplace   {#Humhub-Marketplace}
 Bu kendi kendine barındırılan sosyal ağın pazarı, modüller ve temalar bulabileceğiniz için oldukça zengindir. Bazıları ücretsizdir ve bazıları ödenir. Ayrıca, işbirliği, yönetim, entegrasyonlar, iletişim ve daha fazlası gibi çeşitli kategorilere ait modüller bulabilirsiniz. Bu nedenle, Humhub'ın pazarı hakkında daha fazla bilgi edinmek için bu [link][10] ziyaret edebilirsiniz.
 Kullanıcı arayüzü, aşağıdaki resimde görebileceğiniz gibi mevcut tüm eklentilerin ayrıntılarını sağlar.
 

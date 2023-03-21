@@ -15,23 +15,23 @@ categories: ['Blogging']
 
 
 ## Ringkasan
-Selamat datang di posting blog lain di [blogging][1] kategori perangkat lunak open source. Kami telah menerbitkan beberapa artikel tentang topik -topik seperti [meningkatkan petunjuk Anda dengan integrasi CivicRM WordPress gratis][2], [Cara Membangun Situs Web Anda dengan WordPress dan Gatsby][3], dan beberapa lagi. Namun, artikel ini akan membawa wawasan dan detail lebih lanjut tentang platform blogging open source dan ** perangkat lunak kontainer **. Kami akan melalui beberapa pertanyaan panas seperti apa itu Docker & ** Cara Menginstal Docker Compose ** dan kami akan belajar cara berlabuh WordPress.
+Selamat datang di posting blog lain di [blogging][1] kategori perangkat lunak open source. Kami telah menerbitkan beberapa artikel tentang topik -topik seperti [meningkatkan petunjuk Anda dengan integrasi CivicRM WordPress gratis][2], [Cara Membangun Situs Web Anda dengan WordPress dan Gatsby][3], dan beberapa lagi. Namun, artikel ini akan membawa wawasan dan detail lebih lanjut tentang platform blogging open source dan **perangkat lunak kontainer **. Kami akan melalui beberapa pertanyaan panas seperti apa itu Docker &  **Cara Menginstal Docker Compose**   dan kami akan belajar cara berlabuh WordPress.
 Kontainerisasi telah menjadi tren utama dalam pengembangan perangkat lunak sebagai alternatif untuk virtualisasi. Ini melibatkan enkapsulasi atau menggabungkan kode perangkat lunak dan semua ketergantungannya sehingga dapat berjalan pada infrastruktur apa pun secara konsisten. Kontainerisasi memungkinkan pengembang untuk membuat dan menggunakan aplikasi lebih cepat dan lebih aman. Docker adalah aplikasi kontainerisasi paling populer yang digunakan di seluruh komunitas pengembang. Dalam tutorial ini, kita akan belajar cara berlabuh WordPress menggunakan Docker Compose. Jadi, mari kita mulai dengan poin -poin berikut.
-  *[** Apa itu Docker? **][4]
-  *[** Mengapa Anda perlu berlabuh WordPress **?][5]
-  *** [Cara Menginstal Docker Compose][6] **
-  *** [Dockerize WordPress][7] **
-  *** [Kesimpulan][8] **
+  *[**Apa itu Docker?** ][4]
+  *[**Mengapa Anda perlu berlabuh WordPress** ?][5]
+  ***[Cara Menginstal Docker Compose][6]** 
+  ***[Dockerize WordPress][7]** 
+  ***[Kesimpulan][8]** 
 
-## Apa itu Docker? {#buruh pelabuhan}
-Dengan kata-kata sederhana, Docker adalah open-source ** perangkat lunak wadah ** yang melakukan virtualisasi lebih cepat dan lebih ringan. Sangat ringan sehingga wadah Docker dapat diluncurkan hanya dalam beberapa detik. Dan, Anda dapat dengan mudah menjalankan lusinan wadah Docker pada satu PC. Pengembang menggunakan Docker untuk membuat, menggunakan, dan menjalankan aplikasi dengan menggunakan wadah. Wadah memungkinkan pengembang untuk mengemas aplikasi dengan semua bagian yang dibutuhkan, seperti perpustakaan dan dependensi lainnya, dan menggunakannya sebagai satu paket. Dengan melakukan itu, pengembang dapat yakin bahwa aplikasi akan berjalan pada infrastruktur apa pun. Selain itu, ada pengembang besar dan komunitas pendukung yang selalu hidup untuk memberikan bantuan terbaik dalam relevansi apa pun. Docker telah menjadi komponen yang harus dimiliki dari perusahaan perangkat lunak apa pun karena fitur dan penggunaannya yang kuat.
+## Apa itu Docker?   {#buruh pelabuhan}
+Dengan kata-kata sederhana, Docker adalah open-source **perangkat lunak wadah**  yang melakukan virtualisasi lebih cepat dan lebih ringan. Sangat ringan sehingga wadah Docker dapat diluncurkan hanya dalam beberapa detik. Dan, Anda dapat dengan mudah menjalankan lusinan wadah Docker pada satu PC. Pengembang menggunakan Docker untuk membuat, menggunakan, dan menjalankan aplikasi dengan menggunakan wadah. Wadah memungkinkan pengembang untuk mengemas aplikasi dengan semua bagian yang dibutuhkan, seperti perpustakaan dan dependensi lainnya, dan menggunakannya sebagai satu paket. Dengan melakukan itu, pengembang dapat yakin bahwa aplikasi akan berjalan pada infrastruktur apa pun. Selain itu, ada pengembang besar dan komunitas pendukung yang selalu hidup untuk memberikan bantuan terbaik dalam relevansi apa pun. Docker telah menjadi komponen yang harus dimiliki dari perusahaan perangkat lunak apa pun karena fitur dan penggunaannya yang kuat.
 
-## Mengapa Anda perlu berlabuh WordPress? {#Mengapa}
+## Mengapa Anda perlu berlabuh WordPress?   {#Mengapa}
 Di bagian ini, kita akan tahu tentang kebutuhan di balik Dockerisasi WordPress. WordPress adalah perangkat lunak blogging open source terkemuka terkemuka yang sangat diadopsi oleh dunia teknologi. Namun, untuk menjalankan WordPress secara lokal, Anda memerlukan Apache/nginx, server MySQL, PHP, dan banyak dependensi lainnya. Dan penyebaran ke pementasan atau lingkungan produksi adalah mimpi buruk dalam hal mengelola dependensi tersebut. Kadang -kadang, itu menjadi kerumitan bagi pengembang dan mendukung insinyur untuk mengulangi penyebaran berulang kali karena menuntut waktu dan tenaga kerja.
 Jadi, kontainerisasi dapat membantu Anda dengan ini. Yang Anda butuhkan hanyalah Docker - Instalasi itu sendiri membutuhkan waktu beberapa detik dan tidak diperlukan konfigurasi tambahan
 Tidak masalah apakah itu adalah mesin dev, panggung, atau server langsung dan apa itu, Docker bekerja sama di mana -mana. Ini berarti Anda tidak perlu mencari bug yang, katakanlah, muncul di satu lingkungan dan tidak dapat direproduksi di negara lain.
 
-## Cara Menginstal Docker Compose {#install}
+## Cara Menginstal Docker Compose   {#install}
 
 ### Prasyarat
 Anda dapat menggunakan Docker Compose untuk dengan mudah menjalankan WordPress di lingkungan yang terisolasi yang dibangun dengan wadah Docker. Panduan ini menunjukkan cara menggunakan Compose untuk mengatur dan menjalankan WordPress.
@@ -52,7 +52,7 @@ docker-compose --version
 ```
 
 ### Tentukan DockerFile untuk WordPress
-Hal pertama yang perlu kita lakukan adalah mendefinisikan bagaimana gambar kita akan terlihat dalam ** _ Dockerfile _ **. Ini adalah file teks yang ditambahkan ke direktori dengan sumber aplikasi Anda.
+Hal pertama yang perlu kita lakukan adalah mendefinisikan bagaimana gambar kita akan terlihat dalam **_ Dockerfile _** . Ini adalah file teks yang ditambahkan ke direktori dengan sumber aplikasi Anda.
 ```
 FROM wordpress:php7.1-apache
 COPY . /var/www/html/wordpress
@@ -93,14 +93,14 @@ Sekarang, jalankan perintah di direktori proyek Anda
 ```
 docker-compose up -d
 ```
-Ini berjalan ** _ Docker-Compose up _ ** dalam mode terpisah, menarik gambar Docker yang dibutuhkan, dan memulai wadah WordPress dan database.
+Ini berjalan **_ Docker-Compose up _**  dalam mode terpisah, menarik gambar Docker yang dibutuhkan, dan memulai wadah WordPress dan database.
 Setelah wadah dimulai, Anda dapat membuka URL di browser web dan mulai menggunakan aplikasi Anda:
 ```
 http://localhost:8000
 ```
 
-## kesimpulan {#conclusion}
-Ini membawa kita ke akhir posting blog ini. Dalam artikel ini, kami belajar tentang apa itu Docker, ** Cara Menginstal Docker Compose **. Kami juga belajar cara berlabuh WordPress menggunakan Docker-Compose. Selain itu, kami memperkenalkan Anda pada konsep di belakang Docker dan bagaimana Anda dapat mendefinisikan aplikasi multi-kontainer sederhana. Namun, perangkat lunak kontainer ** open source ** ini adalah opsi terkemuka untuk semua organisasi perangkat lunak. Oleh karena itu, artikel ini akan sangat membantu Anda jika Anda ingin memilih Docker untuk aplikasi Anda. Ada banyak artikel lain yang relevan dan perangkat lunak blogging yang tercantum di bagian "Jelajahi" di bawah ini.
+## kesimpulan   {#conclusion}
+Ini membawa kita ke akhir posting blog ini. Dalam artikel ini, kami belajar tentang apa itu Docker, **Cara Menginstal Docker Compose **. Kami juga belajar cara berlabuh WordPress menggunakan Docker-Compose. Selain itu, kami memperkenalkan Anda pada konsep di belakang Docker dan bagaimana Anda dapat mendefinisikan aplikasi multi-kontainer sederhana. Namun, perangkat lunak kontainer  **open source**   ini adalah opsi terkemuka untuk semua organisasi perangkat lunak. Oleh karena itu, artikel ini akan sangat membantu Anda jika Anda ingin memilih Docker untuk aplikasi Anda. Ada banyak artikel lain yang relevan dan perangkat lunak blogging yang tercantum di bagian "Jelajahi" di bawah ini.
 Akhirnya, [containerize.com][10] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [blogging][1] untuk berita dan pembaruan reguler. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][11], [LinkedIn][12], dan [Twitter][13].
 
 ## Mengeksplorasi

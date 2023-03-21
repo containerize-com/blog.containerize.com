@@ -23,7 +23,7 @@ En esta publicación de blog, nos concentraremos en diseñar y enviar una campa�
   * [Procesar la cola][6]
   * [Conclusión][7]
 
-## ** Crear campaña/boletín ** {#create}
+## **Crear campaña/boletín**    {#create}
   * Inicie sesión en la interfaz de administración de su instalación de Phplist. Haga clic en el botón Campaña ** Iniciar o continuar en el tablero o enviar un enlace de campaña en la campaña en la navegación del lado izquierdo.
   * Haga clic en Iniciar un nuevo botón de campaña.
   * Llene los campos con las opciones como el sujeto, desde la línea, el contenido y el pie de página como se muestra en la imagen a continuación.
@@ -31,26 +31,26 @@ En esta publicación de blog, nos concentraremos en diseñar y enviar una campa�
 {{< figure align=center src="images/create-campaign.png" alt="Boletín de diseño en Phplist">}}
 
 
-## ** Campaña de programación ** {#schedule}
+## **Campaña de programación**    {#schedule}
   * La programación le permite seleccionar fechas cuando desee comenzar la campaña. La campaña no se enviará antes/después de las fechas seleccionadas.
   * No necesita cambiar las fechas, si desea enviar la campaña de inmediato.
 
 {{< figure align=center src="images/scheduling.png" alt="Programar boletín en Phplist">}}
 
 
-## ** Asignar listas a la campaña ** {#list}
+## **Asignar listas a la campaña**    {#list}
 Todas las listas se mostrarán en la pestaña Listas, seleccione la lista apropiada. La campaña entregará solo para asignar listas. Sin embargo, puede hacer que la lista sea pública o privada al crear/actualizar la lista.
 
 {{< figure align=center src="images/lists.png" alt="Asignar listas al boletín en Phplist">}}
 
 
-## ** Campaña de finalización ** {#finish}
-El final es el último paso en el proceso de creación de campaña. Puede agregar correos electrónicos para notificaciones, agregar el código de seguimiento de Google Analytics. Haga clic en el botón ** Enviar campaña ** para comenzar a enviar mensajes a los suscriptores. Ahora, lo ha hecho con el diseño del boletín y el proceso de campaña. Pero debe procesar la cola y puede leer más sobre ella en la siguiente sección.
+## **Campaña de finalización**    {#finish}
+El final es el último paso en el proceso de creación de campaña. Puede agregar correos electrónicos para notificaciones, agregar el código de seguimiento de Google Analytics. Haga clic en el botón **Enviar campaña**  para comenzar a enviar mensajes a los suscriptores. Ahora, lo ha hecho con el diseño del boletín y el proceso de campaña. Pero debe procesar la cola y puede leer más sobre ella en la siguiente sección.
 
-## ** Procese la cola ** {#queue}
+## **Procese la cola**    {#queue}
 La cola de procesos es un proceso para comenzar a enviar la campaña. Puede iniciar el proceso manualmente, con el script de línea de comandos o crear un trabajo cron. Es fácil procesar la cola manualmente para unos pocos suscriptores listones. Pero, es bueno usar el trabajo cron para procesar la cola, si tiene miles/millones de suscriptores. Puede visitar Phplist Oficial [Sitio web][8] para obtener información para crear un trabajo cron.
 
-## ** Conclusión ** {#Conclusion}
+## **Conclusión**    {#Conclusion}
 Phplist es una herramienta perfecta para las empresas que desean utilizar el software de boletín de código abierto para el marketing por correo electrónico. Hemos descrito el proceso en detalle para diseñar y enviar campañas. Puede seguirlo para su próximo boletín y disfrutar del verdadero poder de Phplist.
 Finalmente, con algunos tutoriales más fascinantes, [Contenerize.com][9] está listo para mejorar su base de tutorial. Para actualizaciones regulares, manténgase conectado con la categoría [Boletín][10].
 

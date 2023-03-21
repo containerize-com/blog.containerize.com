@@ -13,28 +13,28 @@ categories: ['Shopping Cart Software']
 
 {{< figure align=center src="images/prestashop-module.png" alt="Prestashop模块">}}
 
-** PRESTASHOP **是100％免费和开源的电子商务软件。这使商店所有者可以轻松地建立在线形象并大规模扩大业务。 PrestAshop具有默认功能，您可能需要更多的功能来满足您的业务需求。 Prestashop的市场是找到可用于扩展商店功能的附加功能的绝佳场所。此外，您可以在市场上找到免费和付费模块。但是，您也可以从头开始创建自定义模块。
+ **PRESTASHOP ** 是100％免费和开源的电子商务软件。这使商店所有者可以轻松地建立在线形象并大规模扩大业务。 PrestAshop具有默认功能，您可能需要更多的功能来满足您的业务需求。 Prestashop的市场是找到可用于扩展商店功能的附加功能的绝佳场所。此外，您可以在市场上找到免费和付费模块。但是，您也可以从头开始创建自定义模块。
 我们将详细讨论以下主题，以**创建Prestashop模块**。
   * [要求][1]
   * [模块开发的基础知识][2]
   * [创建我们的Prestashop模块][3]
   * [结论][4]
 
-## 要求{#req}
+## 要求 {#req}
   *安装Prestashop 1.6或更高。
   *熟悉Prestashop。
   *了解PHP。
 
-## 模块开发的基础知识{#basics}
-在开始编码之前，了解** Prestashop模块开发**的核心概念非常重要。它将允许您快速构建和管理模块。
+## 模块开发的基础知识 {#basics}
+在开始编码之前，了解 **Prestashop模块开发** 的核心概念非常重要。它将允许您快速构建和管理模块。
 **配置**  - 配置允许您在商店数据库中保存数据，而无需模块特定表。配置表包含一个可以从任何地方访问的键值属性列表。
 **挂钩**  - 钩子是将任何特定的Prestashop事件与您的代码连接起来的方法。您可以使用挂钩将代码放入页面上，并为特定的操作（例如在某些事件中发送电子邮件）。
 **小部件**  - 模块开发人员使用小部件在需要的地方显示内容。
 **学说**  - 学说是ORM允许您通过对象管理数据库数据。这提供了一个抽象层，可让您使用简单的调用执行插入/更新操作。
 
-## 创建我们的prestashop模块{#create}
-  *创建名为** MyFirstModule **的模块目录**在**模块中** PrestAshop安装的目录。将所有文件放在模块目录中。
-  *使用名称** myfirstmodule.php **创建主文件，然后在其中复制以下代码。
+## 创建我们的prestashop模块 {#create}
+  *创建名为 **MyFirstModule ** 的模块目录**在**模块中** PrestAshop安装的目录。将所有文件放在模块目录中。
+  *使用名称 **myfirstmodule.php ** 创建主文件，然后在其中复制以下代码。
 ```
 <?php
 if (!defined('_PS_VERSION_'))
@@ -64,7 +64,7 @@ class MyFirstModule extends Module
   }
 }
 ```
-  *创建** install（）**和** uninstall（）**方法。在** myfirstmodule.php **文件中添加以下方法。
+  *创建 **install（）** 和 **uninstall（）** 方法。在 **myfirstmodule.php ** 文件中添加以下方法。
 ```
 public function install()
 {
@@ -81,7 +81,7 @@ public function uninstall()
   return true;
 }
 ```
-  *调用特殊方法激活我们的注册钩子。我们将使用这些方法显示“ Hello World！”发短信给侧边栏。在** myfirstmodule.php **文件中添加以下代码。
+  *调用特殊方法激活我们的注册钩子。我们将使用这些方法显示“ Hello World！”发短信给侧边栏。在 **myfirstmodule.php ** 文件中添加以下代码。
 ```
 public function hookLeftColumn($params)
 {
@@ -95,11 +95,11 @@ public function hookRightColumn($params)
 ```
   *最后，打开管理员部分，上传和**安装Prestashop模块**。
 
-## 结论{#conclusion}
-我们已经讨论了本教程中构建** Prestashop模块**的核心概念。此外，我们开发了基本模块，可以用作更多提前模块的起点。 [Containerize.com][5]一直在研究新的教程博客文章。有关最新更新，请与[购物车软件][6]类别保持联系。
+## 结论 {#conclusion}
+我们已经讨论了本教程中构建 **Prestashop模块** 的核心概念。此外，我们开发了基本模块，可以用作更多提前模块的起点。 [Containerize.com][5]一直在研究新的教程博客文章。有关最新更新，请与[购物车软件][6]类别保持联系。
 
 ## 探索
-除了** Prestashop模块创建教程**外，您还可以找到以下链接。
+除了 **Prestashop模块创建教程** 外，您还可以找到以下链接。
   * [PRESTASHOP  - 免费购物车软件][7]
   * [2020年的前5个开源购物车软件][8]
 

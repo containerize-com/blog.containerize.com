@@ -13,7 +13,7 @@ categories: ['Rapid Application Development']
 
 {{< figure align=center src="images/topRad.png" alt="Schnelle Anwendungsentwicklungssoftware">}}
 
-In unseren vorherigen Blog -Beiträgen haben wir darüber geschrieben, wie die RAD -Software Ihnen dabei hilft, das Geschäft auf das nächste Level zu steigern, und einen Tutorial -Artikel Jhipster Tutorial, um die erste Anwendung einzurichten und zu erstellen. Lassen Sie uns jedoch ein wenig über das Aufkommen von Rad sprechen. Die RAD -Methodik entstand aufgrund von Fallstricken in den traditionellen Softwareentwicklungsmodellen wie Wasserfall. Im traditionellen Modell wird es sehr schwierig, sich während des Lebenszyklus für den Lebenszyklus der Softwareentwicklung zu ändern. Daher erlangte der schnelle Anwendungsentwicklungsansatz aufgrund seiner flexiblen Art Beliebtheit. Es handelt sich um eine Art agiler Softwareentwicklungsansatz, bei dem Lösungen durch Zusammenarbeit entwickelt werden. Das RAD -Modell konzentriert sich auf die Qualität und das Ergebnis durch kontinuierliche Entwicklungszyklen. Die Open-Source-Community hat so viele ** RAD-Tools ** entwickelt, die umfangreiche Funktionen bieten. In diesem Artikel werden wir die folgenden beliebtesten ** Rapid Application Development Software ** durchlaufen.
+In unseren vorherigen Blog -Beiträgen haben wir darüber geschrieben, wie die RAD -Software Ihnen dabei hilft, das Geschäft auf das nächste Level zu steigern, und einen Tutorial -Artikel Jhipster Tutorial, um die erste Anwendung einzurichten und zu erstellen. Lassen Sie uns jedoch ein wenig über das Aufkommen von Rad sprechen. Die RAD -Methodik entstand aufgrund von Fallstricken in den traditionellen Softwareentwicklungsmodellen wie Wasserfall. Im traditionellen Modell wird es sehr schwierig, sich während des Lebenszyklus für den Lebenszyklus der Softwareentwicklung zu ändern. Daher erlangte der schnelle Anwendungsentwicklungsansatz aufgrund seiner flexiblen Art Beliebtheit. Es handelt sich um eine Art agiler Softwareentwicklungsansatz, bei dem Lösungen durch Zusammenarbeit entwickelt werden. Das RAD -Modell konzentriert sich auf die Qualität und das Ergebnis durch kontinuierliche Entwicklungszyklen. Die Open-Source-Community hat so viele **RAD-Tools  **entwickelt, die umfangreiche Funktionen bieten. In diesem Artikel werden wir die folgenden beliebtesten **  Rapid Application Development Software**  durchlaufen.
   * [Kuba -Plattform][1]
   * [QuickApp][2]
   * [Jhipster][3]
@@ -21,8 +21,8 @@ In unseren vorherigen Blog -Beiträgen haben wir darüber geschrieben, wie die R
   * [Apache ISIS][5]
   * [Schlussfolgerung][6]
 
-## Cuba Platform {#Cuba-Plattform}
-[Kuba -Plattform][7] ist eine Open -Source -Code -Software. Es basiert auf einer modularen Architektur, die die Entwicklung weiterer Komponenten erleichtert. Darüber hinaus bietet es eine REST -API, die das OAuth2 -Protokoll zur Authentifizierung verwendet. LDAP und SSO unterstützt integriert, um rollenbasierte Benutzerberechtigungen zu definieren. Darüber hinaus verfügt diese RAD -Software mit einem eigenen Entwicklungstool namens Cuba Studio zusammen mit vielen leistungsstarken Funktionen wie Gerüst, Hot -Bereitstellung und vielen anderen. Dieser ** rad -Framework ** ist einfach eingerichtet und erfordert Java 8 und Cuba Gradle Plugin. Darüber hinaus ist die Kuba -Plattform in Java geschrieben und verfügt über alle Dokumentationen zu Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][8] verfügbar.
+## Cuba Platform   {#Cuba-Plattform}
+[Kuba -Plattform][7] ist eine Open -Source -Code -Software. Es basiert auf einer modularen Architektur, die die Entwicklung weiterer Komponenten erleichtert. Darüber hinaus bietet es eine REST -API, die das OAuth2 -Protokoll zur Authentifizierung verwendet. LDAP und SSO unterstützt integriert, um rollenbasierte Benutzerberechtigungen zu definieren. Darüber hinaus verfügt diese RAD -Software mit einem eigenen Entwicklungstool namens Cuba Studio zusammen mit vielen leistungsstarken Funktionen wie Gerüst, Hot -Bereitstellung und vielen anderen. Dieser **rad -Framework**  ist einfach eingerichtet und erfordert Java 8 und Cuba Gradle Plugin. Darüber hinaus ist die Kuba -Plattform in Java geschrieben und verfügt über alle Dokumentationen zu Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][8] verfügbar.
 Die Kuba -Plattform bietet die folgenden wichtigen Punkte:
   * Unterstützung für OAuth2
   * REST -API
@@ -31,8 +31,8 @@ Die Kuba -Plattform bietet die folgenden wichtigen Punkte:
   * Berichterstattung Motor
 [Erfahren Sie mehr über die Kuba -Plattform][9]
 
-## QuickApp {#QuickApp}
-[QuickApp][10] ist ein weiteres Open -Source -Rad -Tool für agile Softwareentwicklung. Es ist selbst gehostet, plattformübergreifend und leicht eingerichtet. Dieses kostenlose Tool bietet auch REST -API, das mit Swagger gut dokumentiert ist. Darüber hinaus bietet es eine tokenbasierte Authentifizierung mithilfe von OpenID Connect. Darüber hinaus bietet diese ** Prototyping -Software ** eine sehr logische und einfache Benutzeroberfläche, in der Benutzer das Themenstyling ändern können. Es unterstützt einen Benachrichtigungsdienst mithilfe von Winkelanimationen. Die Anforderungen an die Einrichtung dieses ** MVP -Builders ** sind NodeJs und ASP.NET. Darüber hinaus ist das vordere Ende dieser RAD -Software in Angular9 geschrieben und das Back End in ASP.NET CORE mit Entity Framework geschrieben. QuickApp ist in TypeScript, C#, geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][8] verfügbar.
+## QuickApp   {#QuickApp}
+[QuickApp][10] ist ein weiteres Open -Source -Rad -Tool für agile Softwareentwicklung. Es ist selbst gehostet, plattformübergreifend und leicht eingerichtet. Dieses kostenlose Tool bietet auch REST -API, das mit Swagger gut dokumentiert ist. Darüber hinaus bietet es eine tokenbasierte Authentifizierung mithilfe von OpenID Connect. Darüber hinaus bietet diese **Prototyping -Software  **eine sehr logische und einfache Benutzeroberfläche, in der Benutzer das Themenstyling ändern können. Es unterstützt einen Benachrichtigungsdienst mithilfe von Winkelanimationen. Die Anforderungen an die Einrichtung dieses **  MVP -Builders**  sind NodeJs und ASP.NET. Darüber hinaus ist das vordere Ende dieser RAD -Software in Angular9 geschrieben und das Back End in ASP.NET CORE mit Entity Framework geschrieben. QuickApp ist in TypeScript, C#, geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][8] verfügbar.
 QuickApp erfolgt die folgenden Schlüsselfunktionen:
   * RESTFORE API
   * Custom Theming
@@ -41,8 +41,8 @@ QuickApp erfolgt die folgenden Schlüsselfunktionen:
   * Einfaches Dashboard
 [Erfahren Sie mehr über QuickApp][11]
 
-## JHIPSTER {#JHIPSTER}
-[Jhipster][12] ist eine kostenlose Open -Source -Software für schnelle Anwendungsentwicklung. Es bietet Funktionen und Integrationen auf Unternehmensebene mit Bibliotheken von Drittanbietern. Vor allem wird Cloud -Anbieter wie AWS, Cloud Foundry, GCP, Heroku, Kubernetes, OpenShift, Azure, Docker voll unterstützt. Diese ** Rapid Application Development Software ** bietet auch umfangreiche Suchfunktionen mit ElasticSearch. Darüber hinaus bietet diese Prototyping -Software Unterstützung für die OAuth 2.0 -basierte Authentifizierung. Die Anforderungen an die Einrichtung dieses RAD -Frameworks sind Java und NodeJs. JHIPster ist in JavaScript geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][13] verfügbar.
+## JHIPSTER   {#JHIPSTER}
+[Jhipster][12] ist eine kostenlose Open -Source -Software für schnelle Anwendungsentwicklung. Es bietet Funktionen und Integrationen auf Unternehmensebene mit Bibliotheken von Drittanbietern. Vor allem wird Cloud -Anbieter wie AWS, Cloud Foundry, GCP, Heroku, Kubernetes, OpenShift, Azure, Docker voll unterstützt. Diese **Rapid Application Development Software**  bietet auch umfangreiche Suchfunktionen mit ElasticSearch. Darüber hinaus bietet diese Prototyping -Software Unterstützung für die OAuth 2.0 -basierte Authentifizierung. Die Anforderungen an die Einrichtung dieses RAD -Frameworks sind Java und NodeJs. JHIPster ist in JavaScript geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][13] verfügbar.
 Jhipster bietet die folgenden wichtigen Funktionen:
   * Microservices Architecture
   * OAuth 2.0
@@ -51,8 +51,8 @@ Jhipster bietet die folgenden wichtigen Funktionen:
   * Unterstützung für NoSQL/SQL -Datenbanken
 [Erfahren Sie mehr über Jhipster][12]
 
-## li3 {#li3}
-[LI3][14] ist PHP RAD -Software mit robuster Architektur. Diese Entwicklung von Web Rapid Application ist sehr anpassungsfähig und leicht. Es erstellt reiche Tech-Stapel wie MongoDB, CouchDB, Elasticsearch, PHP ActiveCord und PSR-4. Es ist mehrsprachig und unterstützt viele Sprachen. Die Anforderungen an die Einrichtung dieses ** MVP -Builders ** sind Php und Komponist. Darüber hinaus bietet es eine sehr lebendige Unterstützung der Community, die Fehler und Probleme sofort auflöst. Dieses kostenlose Tool unterstützt jedoch die Integration von Drittanbietern zusammen mit globalen Suchfunktionen. LI3 ist in PHP geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][15] verfügbar.
+## li3   {#li3}
+[LI3][14] ist PHP RAD -Software mit robuster Architektur. Diese Entwicklung von Web Rapid Application ist sehr anpassungsfähig und leicht. Es erstellt reiche Tech-Stapel wie MongoDB, CouchDB, Elasticsearch, PHP ActiveCord und PSR-4. Es ist mehrsprachig und unterstützt viele Sprachen. Die Anforderungen an die Einrichtung dieses **MVP -Builders**  sind Php und Komponist. Darüber hinaus bietet es eine sehr lebendige Unterstützung der Community, die Fehler und Probleme sofort auflöst. Dieses kostenlose Tool unterstützt jedoch die Integration von Drittanbietern zusammen mit globalen Suchfunktionen. LI3 ist in PHP geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][15] verfügbar.
 LI3 hat die folgenden Schlüsselfunktionen:
   * Mehrfach DB -Unterstützung
   * Im Speicherspeicher
@@ -61,8 +61,8 @@ LI3 hat die folgenden Schlüsselfunktionen:
   * Mehrfach DB -Unterstützung
 [Erfahren Sie mehr über Li3][16]
 
-## Apache ISIS {#Apache-isis}
-[Apache ISIS][17] ist eine weitere freie ** Prototyping-Software **, um domänengesteuerte Anwendungen zu erstellen. Es wird mit einem reaktionsschnellen und intuitiven Dashboard geliefert, mit dem Benutzer Aggregationen für Daten durchführen können. Darüber hinaus unterstützt diese Open-Source-Software für schnelle Anwendungsentwicklung auch Multitenancy. Darüber hinaus verwendet es das Java Security Framework Apache Shiro zur Authentifizierung und Autorisierung. Dieses kostenlose Tool ist einfach mit Anforderungen wie Apache Maven und Java eingerichtet. Dieser ** rad -Framework ** ist einfach mit Easy weiter eingerichtet. Apache ISIS ist im Java -Sprint -Boot geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][18] verfügbar.
+## Apache ISIS   {#Apache-isis}
+[Apache ISIS][17] ist eine weitere freie **Prototyping-Software **, um domänengesteuerte Anwendungen zu erstellen. Es wird mit einem reaktionsschnellen und intuitiven Dashboard geliefert, mit dem Benutzer Aggregationen für Daten durchführen können. Darüber hinaus unterstützt diese Open-Source-Software für schnelle Anwendungsentwicklung auch Multitenancy. Darüber hinaus verwendet es das Java Security Framework Apache Shiro zur Authentifizierung und Autorisierung. Dieses kostenlose Tool ist einfach mit Anforderungen wie Apache Maven und Java eingerichtet. Dieser  **rad -Framework**   ist einfach mit Easy weiter eingerichtet. Apache ISIS ist im Java -Sprint -Boot geschrieben und verfügt über alle Dokumentationen zur Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][18] verfügbar.
 Im Folgenden finden Sie die herausragenden Merkmale:
   * Wicket -Betrachter ooui
   * Unterstützung für das Gurkengerüst
@@ -71,7 +71,7 @@ Im Folgenden finden Sie die herausragenden Merkmale:
   * Ruheschnittstelle
 [Erfahren Sie mehr über Apache ISIS][19]
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Die RAD -Methodik konzentriert sich auf Prototyping und sofortige Entwicklung mit konsistenter Eingabe des Benutzer -Feedbacks. Dieser Blog -Beitrag kann Ihnen helfen, die richtige Wahl zu treffen, während Sie eine gute Software für schnelle Anwendungsentwicklung ** auswählen. Dieser Artikel hilft Ihnen wirklich, wenn Sie sich für ein Open-Source-RAD-Framework für Ihr Unternehmen entscheiden möchten. Darüber hinaus arbeitet [containerize.com][20] kontinuierlich daran, die Liste der Open -Source -Produkte zu verbessern. Bitte bleiben Sie mit der Kategorie [rad][21] in Kontakt, um regelmäßige Aktualisierungen zu erzielen.
 
 ## Erkunden

@@ -22,15 +22,15 @@ La comunidad de código abierto ha desarrollado muchos foros de discusión de ni
   * [Flarum vs discurso][7]
   * [Conclusión][8]
 
-## ¿Qué es el discurso? {#What-is-Discurse?}
+## ¿Qué es el discurso?   {#What-is-Discurse?}
 [Discurso][3] es un software de foro de código abierto que proporciona un portal de funciones ricas donde las entidades comerciales pueden establecer discusiones saludables. Entre otras características, este foro de discusión ofrece características sociales como Facebook y Twitter que eventualmente ayudan a las empresas a hacer crecer las comunidades comerciales de manera moderna. Además, hay instalaciones para chatear con otros miembros en las salas de chat, donde puede mencionar a las personas y compartir los archivos de los medios. Además, está escrito en Ruby on Rails, Ember.js, PostgreSQL, Redis y es fácil de configurar en sus propias instalaciones.
 Hay una comunidad muy vibrante que ofrece apoyo para este foro de preguntas y respuestas. Hay una gran pila de complementos y temas disponibles, como OAuth 2.0 y OpenID Connect Support, Saml Authentication, Discutor Translator y muchos más. El discurso proporciona muchas características que incluyen un sistema de notificaciones dinámicas, expansión automática de enlaces, [inicio de sesión único][9], API integral y más. Sobre todo, hay una documentación integral disponible con respecto al desarrollo y la implementación. Por lo tanto, todo el código fuente de este software de foro de código abierto está disponible en [GitHub][10].
 
-## breve introducción de Flarum {#Flarum}
+## breve introducción de Flarum   {#Flarum}
 [Flarum][4] es otro foro de discusión popular que es gratuito, de código abierto, y viene con capacidades de autohostación. Es altamente extensible y viene con un diseño receptivo que también funciona bien en tabletas y dispositivos móviles. Este software de foro de código abierto está escrito en PHP y es fácil de autohost en sus propios servidores. Además, proporciona una interfaz lógica de dos paneles donde los usuarios navegan a través de elementos fácilmente.
 Este foro de respuesta-respuesta es rápido, confiable, liviano y ofrece muchas características atractivas, como el sistema de notificación, características sociales (por ejemplo, mencionar, etiquetar, similar) permisos poderosos, configuraciones de grano fino y más. Hay animaciones y temas ricos donde los usuarios pueden deslizar a la izquierda y a la derecha para ver más controles de chat. Al igual que el discurso, Flarum también tiene una comunidad proactiva y brinda apoyo para errores y nuevas solicitudes de funciones. Sobre todo, hay una documentación integral disponible con respecto al desarrollo y la implementación. Por lo tanto, todo el código fuente de este software de foro de código abierto está disponible en [GitHub][10].
 
-## Flarum vs Discurso {#VS}
+## Flarum vs Discurso   {#VS}
 En esta sección, pondremos a ambos software de foro de código abierto en un lugar donde podremos comparar el discurso y el parto.
 
 #### Comunidad
@@ -45,7 +45,7 @@ Este es el aspecto más crítico cuando se trata de la selección de cualquier s
 #### Extensibilidad
 Esta es otra característica importante de cualquier software. Afortunadamente, ambos software de foro de código abierto son extensibles y los desarrolladores pueden extender fácilmente la funcionalidad según las necesidades. Sobre todo, el discurso ofrece AP para integraciones de terceros.
 
-## conclusión {#conclusion}
+## conclusión   {#conclusion}
 Esto lleva al final de este Florum vs Discurso. Hemos pasado por la revisión de los principales foros principales de discusión de código abierto. Revisamos lo que es el discurso y una breve introducción del software Flarum. Ambos software libre son competentes y ayudan a las empresas a tener un portal de discusión profesional. Por lo tanto, depende de usted ahora concluir qué software de discusión se ajusta a su modelo de negocio. Esta publicación de blog realmente puede ayudarlo si está buscando implementar un software de foro de código abierto para su negocio. Además, hay algunas otras publicaciones de blog que son muy relevantes y pueden encontrar un software de foro de código abierto que no sea Flarum y Discurso.
 Finalmente, [Contenerize.com][11] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [][12][Software del foro de discusión][1] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][13], [LinkedIn][14] y [Twitter][15].
 

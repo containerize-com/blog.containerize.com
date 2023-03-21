@@ -19,10 +19,10 @@ Osticket es una solución de software de mesa de ayuda en línea de código abie
   * [¿Cómo configurar Osticket?][3]
   * [Conclusión][4]
 
-## ¿Qué es Osticket? {#osticket}
+## ¿Qué es Osticket?   {#osticket}
 Osticket proporciona un panel de control fácil de usar y un componente de informes en tiempo real. Los usuarios pueden iniciar sesión y crear los boletos en algunos pasos sencillos. Pueden crear boletos a través de su sitio web, correo electrónico o teléfono. Los boletos entrantes se guardarán y asignarán a los agentes. Los agentes recibirán notificaciones por correo electrónico y responderán a las consultas para ayudar a resolver sus problemas. Los clientes y agentes pueden discutir detalles y progresos en la sección de comentarios. Los clientes pueden realizar un seguimiento de sus solicitudes y progresos a través del portal de clientes incorporado proporcionado por este software de mesa de ayuda en línea.
 
-## pros y contras de Osticket {#Pros}
+## pros y contras de Osticket   {#Pros}
 
 #### Pros
   * Osticket es extremadamente fácil de usar tanto para los usuarios finales como para los agentes de soporte.
@@ -35,7 +35,7 @@ Osticket proporciona un panel de control fácil de usar y un componente de infor
   * Osticket no proporciona detalles de análisis de boletos y estadísticas como otros sistemas de mesa de ayuda pagas.
   * Su interfaz de usuario es muy simple y básica en comparación con otros sistemas de soporte.
 
-## ¿Cómo instalar Osticket? {#cómo}
+## ¿Cómo instalar Osticket?   {#cómo}
 Siga estos pasos para instalar Osticket con Nginx en Ubuntu 18.04 LTS.
   * Cree un nuevo directorio para Osticket.
 ```
@@ -136,7 +136,7 @@ sudo systemctl restart nginx
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-2.png" alt="Cómo configurar el software de mesa de ayuda en línea usando Osticket">}}
 
   * Habilite las extensiones requeridas de php.ini y haga clic en "Continuar".
-  *Complete toda la información requerida y haga clic en el botón "** Instalar ahora" **.
+  *Complete toda la información requerida y haga clic en el botón "**Instalar ahora"** .
 
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-3.png" alt="Cómo configurar el software de mesa de ayuda en línea usando Osticket">}}
 
@@ -149,7 +149,7 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## conclusión {#conclusion}
+## conclusión   {#conclusion}
 Osticket es el más adecuado para empresas con bajo presupuesto o aquellas que desean un sistema de mesa de ayuda simple y no complejo. Es simple, liviano, confiable, de código abierto y software de mesa de ayuda en línea totalmente gratuito. Lo que hace de Osticket una gran alternativa a los sistemas de atención al cliente de mayor costo. Para obtener más información sobre las funciones y la guía de instalación de Osticket, consulte el siguiente tutorial.
 
 ## Explorar

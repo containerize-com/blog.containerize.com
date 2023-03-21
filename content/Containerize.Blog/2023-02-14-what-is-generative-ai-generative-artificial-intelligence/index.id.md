@@ -20,7 +20,7 @@ Kami akan membahas poin -poin berikut dalam artikel ini:
 * [**Apa itu AI generatif & cara kerjanya? AI generatif dijelaskan**][3]
 * [**Manfaat Bisnis Kecerdasan Buatan Generatif**][4]
 
-## Apa itu AI generatif & cara kerjanya? AI generatif dijelaskan {#what-is-generative-ai-how-it-works-generative-ai-explained}
+## Apa itu AI generatif & cara kerjanya? AI generatif dijelaskan   {#what-is-generative-ai-how-it-works-generative-ai-explained}
 Cabang kecerdasan buatan ini menghasilkan konten seperti gambar, teks, audio, atau video berdasarkan data yang ada. Istilah "generatif" digunakan dengan benar di sini karena menghasilkan sesuatu yang baru berdasarkan database yang disediakan.
 **Kecerdasan Buatan Generatif**terutama didasarkan pada dua model berikut:
 **Model Berbasis Transformer:**Model ini mengambil input pengguna, dan menghasilkan data tekstual yang dikumpulkan dari sumber internet. ChatGPT adalah contoh utama karena**GPT-3**(transformator pra-terlatih generatif) menghasilkan respons tekstual yang dikumpulkan dan dikompilasi dari berbagai sumber melalui Internet.
@@ -31,7 +31,7 @@ Cabang kecerdasan buatan ini menghasilkan konten seperti gambar, teks, audio, at
 Pertama,**model generatif**menghasilkan output acak tidak peduli palsu atau nyata. Karena tugasnya adalah menghasilkan sampel data sehingga merupakan proses kelas berat dan membutuhkan lebih banyak pemrosesan. Kedua,**model diskriminatif**menerima output yang dihasilkan oleh model generatif****sebagai input dan belajar untuk membedakan antara data nyata dan palsu. Ini pada dasarnya melatih pemodelan diskriminatif untuk mengenali petunjuk data nyata. Namun, generator mulai berdiferensiasi dengan benar setelah sesi pelatihan yang konsisten.
 Ini adalah tinjauan singkat tentang mekanisme kerja kecerdasan buatan generatif. Karena pembelajaran yang mendalam dan beberapa keterlibatan jaringan saraf, AI generatif tidak hanya membuat prediksi tetapi juga menghasilkan konten baru berdasarkan database yang disediakan. Jadi, semua komponen dan algoritma ini memberdayakan sistem untuk menghasilkan solusi berbasis AI.
 
-## Manfaat Bisnis dari Kecerdasan Buatan Generatif {#Business-manfaat-of-generatif-buatan-intelijen}
+## Manfaat Bisnis dari Kecerdasan Buatan Generatif   {#Business-manfaat-of-generatif-buatan-intelijen}
 Bagian posting blog ini akan menunjukkan aplikasi bisnis kecerdasan buatan generatif. Hampir setiap sektor kehidupan memanfaatkan AI generatif. Mari kita jelajahi lebih lanjut dengan melalui poin -poin berikut:
 **Pembuatan Konten Tekstual:**Sebenarnya,**AI generatif**digunakan untuk menghasilkan data tekstual seperti menulis artikel, dan menerjemahkan satu bahasa ke dalam yang lain. Contoh terbaik dari aplikasi ini adalah model**GPT-3**yang menghasilkan respons berbasis teks yang dikumpulkan dari berbagai sumber daya. Lebih lanjut, AI generatif banyak digunakan dalam membangun chatbots bertenaga AI seperti chatgpt. Itu tidak hanya merespons seperti manusia tetapi juga membantu pemrogram dalam file pengkodean mereka. Selain itu, kecerdasan buatan generatif dapat membuat algoritma, dan membuat plugin.
 **Pembuatan Gambar:**Sistem cukup kuat untuk membuat gambar berbagai entitas bahkan dengan input yang diberikan dalam bentuk tekstual. Selain itu, itu dapat memberikan tampilan nyata pada wajah manusia berdasarkan sketsa yang disediakan. Selain itu, model AI generatif dapat mengubah satu jenis gambar menjadi yang lain. Di atas segalanya, ini dapat digunakan dalam generasi real-time MRI dan pencitraan lainnya.

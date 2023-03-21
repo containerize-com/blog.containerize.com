@@ -24,7 +24,7 @@ categories: ['Web Server Solution Stack']
   *获得SSL证书
   * 结论
 
-## 首先：依赖项和先决条件{#prerequisites}
+## 首先：依赖项和先决条件 {#prerequisites}
 为了遵循本文，您需要以下依赖项和先决条件来安装letsencrypt ubuntu nginx实用程序：
   *在本地/远程计算机上启用了启用SUDO的非根或根用户。
   *运行Ubuntu 20.04或Ubuntu的系统18.04
@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
   *为该域名配置的服务器块
   *防火墙配置为接受端口80和443上的连接。
 
-## 步骤1  - 安装certbot {#step-1---安装certbot}
+## 步骤1  - 安装certbot   {#step-1---安装certbot}
 确保NGINX和使用Let's Encrypt加密NGINX的第一步是安装nginx certbot完整的且易于使用的软件包，以获取和续订服务器上的加密SSL证书。为此，首先要在Ubuntu上打开终端并更新本地存储库。输入y并输入（如果提示）。
 ```
 sudo apt update
@@ -44,7 +44,7 @@ sudo apt install certbot python3-certbot-nginx
 ```
 现在，让我们验证一些NGINX安全配置设置。
 
-## 步骤2  - 确认Nginx的配置{#step-2 ----确认nginx-39-s-configuration}
+## 步骤2  - 确认Nginx的配置 {#step-2 ----确认nginx-39-s-configuration}
 如依赖项和先决条件部分中所述，您应该已经有一个注册的域，Certbot需要能够找到该域的正确NGINX服务器块以自动配置SSL。例如，此博客文章使用domain blog.containerize.com和服务器块，用于您的域，at /etc/nginx/sites-available/blog.containerize.com，并使用已正确设置的server_name指令。
 要确认，请使用Nano或您喜欢的文本编辑器打开域的配置文件：
 ```
@@ -65,7 +65,7 @@ sudo systemctl reload nginx
 ```
 Certbot实用程序现在可以找到正确的NGINX服务器块指令，以保护NGINX并自动更新它。在下一步中，让我们更新防火墙以允许HTTPS流量。
 
-## 步骤3  - 允许HTTPS通过防火墙{#step-3  -   - 允许https-through-the-firewall}
+## 步骤3  - 允许HTTPS通过防火墙 {#step-3  -   - 允许https-through-the-firewall}
 根据本文的建议，您需要调整设置以允许HTTPS流量。为了确保启用防火墙并活跃，请运行以下命令：
 ```
 sudo ufw status
@@ -84,7 +84,7 @@ sudo ufw status
 ```
 接下来，让我们运行certbot并获取我们的证书。
 
-## 步骤4-获取SSL证书{#step-4 ----获得-AN-SSL-Certificate}
+## 步骤4-获取SSL证书 {#step-4 ----获得-AN-SSL-Certificate}
 NGINX的certbot插件将在必要时重新配置NGINX并重新加载其配置。因此，只有您需要通过执行以下命令来生成使用NGINX插件的证书：
 ```
 sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
@@ -94,7 +94,7 @@ sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
 您的证书已下载，安装和加载Nginx SSL证书LetSencrypt配置。尝试使用https：//重新加载您的网站，并注意浏览器的安全指标。它应该表明该站点通常使用锁图标正确固定。如果您使用SSL Labs服务器测试测试服务器，则它将获得Nginx和Letsencrypt的A等级。
 让我们通过测试续订过程来完成。
 
-## 步骤5  - 验证certbot自动续订{#step-5 ----验证certbot-auto-renewal}
+## 步骤5  - 验证certbot自动续订 {#step-5 ----验证certbot-auto-renewal}
 因为让我们加密证书每90（90）天到期，并且NGINX SSL LETSENCRYPT鼓励用户设置和自动更新Cron Job。首先，为当前用户打开crontab配置文件：
 ```
 sudo crontab -e
@@ -106,7 +106,7 @@ sudo certbot renew --dry-run
 ```
 如上所述，cron作业还应包括–quiet属性。这指示NGINX续订SSL证书在执行任务后不包括任何输出。启用自动证书更新。添加Cron作业后，保存更改并退出文件。
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 在本文中，我们学会了如何nginx安装letsencrypt SSL证书。我们为您的域下载了SSL证书，并配置了NGINX使用这些证书。此外，您应该启用Certbot自动续订SSL NGINX LETSENCRYPT的证书。在即将到来的教程中，我们将讨论有关如何使用标准安全技术保护Web服务器的更多有趣主题，该技术可以在Web浏览器和Web服务器之间进行加密通信。
 _您可以加入我们的[Twitter][1]，[LinkedIn][2]和我们的[Facebook][3]页面。您使用哪种加密协议在计算机网络上提供通信安全性？如果您有任何疑问，请_ [联系][4]。
 

@@ -23,10 +23,10 @@ Nous couvrirons les points suivants:
   * [**Récupérer la touche de l'API Openai et la configuration du code GPT**][9]
   * [**Commencez à utiliser le code GPT - un générateur de code Openai propulsé AI**][10]
 
-## Qu'est-ce que le code GPT? {# What-is-Codegpt}
+## Qu'est-ce que le code GPT?   {# What-is-Codegpt}
 [Code GPT][3] est une**Extension de code Visual Studio**qui vous permet de générer des extraits de code à partir de texte brut au sein de l'éditeur. Ce générateur de code**OpenAI**est basé sur l'API OpenAI pour traiter et générer des réponses du langage naturel. Cependant, le code GPT est construit au-dessus de GPT-3 qui est un modèle pré-formé, donc chaque demande faite de code GPT est traitée par GPT-3 et ce modèle est suffisamment intelligent pour adopter plusieurs situations. De plus, cette**extension VScode**vous permet de réfracter et d'améliorer les extraits de code avec la génération de code. En fait, l'environnement entier vous donne la sensation exacte que vous utilisez [Chatgpt][11] dans l'éditeur de code Visual Studio.
 
-## Comment installer le code d'extension VScode GPT? {# Comment installer-the-vscode-extension-codegpt}
+## Comment installer le code d'extension VScode GPT?   {# Comment installer-the-vscode-extension-codegpt}
 Dans cette section, nous passerons par les étapes pour installer**le code d'extension VScode GPT.**À cet effet, assurez-vous que vous avez installé Visual Studio Code sur votre machine. Vous pouvez installer cette extension à partir du**[VScode Marketplace][12]**facilement.
 Ouvrez l'éditeur VScode, allez dans «Extensions» et tapez le code GPT dans la barre de recherche. Il y aura de nombreuses extensions avec le nom CodeGPT, mais vous devez installer l'extension comme indiqué dans l'image ci-dessous:
 
@@ -34,7 +34,7 @@ Ouvrez l'éditeur VScode, allez dans «Extensions» et tapez le code GPT dans la
 
 Veuillez mettre à jour le VScode vers la dernière version au cas où vous obtenez une erreur de compatibilité. De plus, cette extension VScode est sous un développement cohérent, de sorte que le risque de comportement anormal ne peut pas être omis.
 
-## Récupérer la touche de l'API Openai et le code de configuration gpt {# récupérer-openai-api-key-configure-codegpt-}
+## Récupérer la touche de l'API Openai et le code de configuration gpt   {# récupérer-openai-api-key-configure-codegpt-}
 Une fois l'installation terminée, l'étape suivante consiste à obtenir la clé API à partir du [site Web] d'OpenAI [13]. Vous avez besoin de cette clé API pour activer les fonctionnalités de l'extension**Code GPT**. Pour obtenir l'API, visitez ce [lien][13] et créez un compte s'il n'est pas déjà créé.
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="API Oepnai">}}
@@ -48,7 +48,7 @@ Dans l'image ci-dessus, vous pouvez voir le bouton «Créer une nouvelle clé se
 
 Une fois que tout est terminé avec succès, vous finirez par avoir**Code GPT Extension**installé dans votre code Visual Studio. Dans la section suivante, nous irons profondément plus loin pour explorer les fonctionnalités offertes par cette extension VScode.
 
-## Commencez à utiliser le code GPT - un générateur de code OpenAI propulsé par AI {# start-using-codegpt --- an-a-alimenté-openai-code-générateur}
+## Commencez à utiliser le code GPT - un générateur de code OpenAI propulsé par AI   {# start-using-codegpt --- an-a-alimenté-openai-code-générateur}
 Jusqu'à présent, nous avons configuré le code GPT Extension dans Visual Studio Code. Pour tirer parti de ce code d'extension VScode**GPT**, appuyez sur «Commande + Maj + P», sélectionnez «Ask CodeGPT» et écrivez votre question dans le champ de saisie tel que «Code d'écriture pour un élément d'entrée dans HTML» et vous obtiendrez le Réponse dans la barre latérale comme indiqué dans l'image ci-dessous:
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="chatppt pour vscode">}}

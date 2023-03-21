@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Genel Bakış
 Önceki blog yazımızda [JavaScript vaatleri][1] ele aldık ve JavaScript vaatlerinin arkasındaki kavramı net bir şekilde anlamak istiyorsanız ziyaret etmelisiniz. Bu [JavaScript Öğreticileri][2] serisinde, JavaScript Async/Await'in modern özelliklerini gösterecek başka bir JavaScript kılavuzuyla buradayız. Bu blog yazısı, JavaScript vaatleri hakkında önceden bilgi sahibi olanlar içindir. Ayrıca, JavaScript**'de eşzamanlı/bekleyen ne olduğunu ve async/beklememiz gerektiğinde denemeye çalışacağız. Buna ek olarak, işleme hatalarını eşzamanlı/beklemeyle de karşılayacağız. Bu nedenle, bu konsepti işaretlemek için bu**JavaScript Async/Bekleyin Eğitici**tam olarak okuyun.
 Bu JavaScript Async Bekleyen Eğitici'de aşağıdaki bölümlerden geçeceğiz:
-***[JavaScript'te Donenc/Weak Nedir | Async Sözdizimi Bekliyor][3]**
-***[Async/Beklenir Ne Zaman Kullanılır?][4]**
-***[Async/Await ile Hata İşleme][5]**
+* **[JavaScript'te Donenc/Weak Nedir | Async Sözdizimi Bekliyor][3]**
+* **[Async/Beklenir Ne Zaman Kullanılır?][4]**
+* **[Async/Await ile Hata İşleme][5]**
 
-## JavaScript'te eşzamanlı/bekle | Async Sözdizimi {#What-Is-asyncawait-in-javascript-async-await-synTax}
+## JavaScript'te eşzamanlı/bekle | Async Sözdizimi   {#What-Is-asyncawait-in-javascript-async-await-synTax}
 ECMAScript 2017, JavaScript ve Async/Await'in yeni özellikleri, bu özellikler arasında en yaygın olarak kullanılanlardan biridir. Async/Await vaatlerin üzerine inşa edilmiştir ve aslında JavaScript vaatlerini yerine getirmenin modern bir yoludur.
 JavaScript kodunda Async/Anahtar Kelimeleri Nasıl Kullanacağımızı Bakalım:
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 İşlevin başlangıcındaki Async anahtar kelime, bu işlevin bir söz vereceği anlamına gelir. Bu nedenle, vaat çözünceye kadar işlevin yürütülmesini duraklatmak için her zaman async fonksiyonunun gövdesinde anahtar kelime her zaman kullanılır. Burada dikkat edilmesi gereken önemli şey, düzenli bir işlevin gövdesinde anahtar kelime kullanamayacağınızdır. Ancak, sadece Async anahtar kelimesiyle bildirilen asenkron işlevlerle beklemeyi kullanabilirsiniz.
 
-## Async/Ne zaman kullanılır? {#Kullanımdan ne zaman-asyncawait}
+## Async/Ne zaman kullanılır?   {#Kullanımdan ne zaman-asyncawait}
 Şimdiye kadar, JavaScript**'de eşzamansız ne bekleyen**cevabınız var. Bu sadece geleneksel JavaScript vaatlerinin etrafında bir sargı olduğundan, vaatleri daha temiz ve okunabilir bir şekilde oluşturmak ve işlemek için bu yeni yolu daha iyi kullanırsınız. Buna ek olarak, birden fazla vaatten kurtulabilirsiniz. Bekleyen anahtar kelime,. Then () ifadesini tek bir satıra kapsar.
 
-## Async/Await ile Hata İşleme {##ASYNCAWAIT ile#Hata Handling}
+## Async/Await ile Hata İşleme   {##ASYNCAWAIT ile#Hata Handling}
 İşletme düzeyinde yazılım geliştirme söz konusu olduğunda hata işleme kritik bir görevdir. Async/bekle yaklaşımında hataları yakalamanın birçok yolu vardır.
 
 {{< figure align=center src="images/async-await.png" alt="Async yakalamayı deneyin JavaScript">}}

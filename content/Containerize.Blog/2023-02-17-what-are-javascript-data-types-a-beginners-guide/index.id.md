@@ -20,10 +20,10 @@ Kami meliput poin berikut:
   * [Apa itu tipe data?][2]
   * [Apa itu tipe data JavaScript?][3]
 
-## Jenis data dijelaskan | Apa itu tipe data? {#What-is-a-data-tipe}
+## Jenis data dijelaskan | Apa itu tipe data?   {#What-is-a-data-tipe}
 Tipe data adalah tentang memberi tahu kompiler cara menafsirkan atau mengkompilasi data. Penggunaan tipe data sangat penting dan harus digunakan dengan bijak. Dengan kata -kata sederhana, ini tentang format data seperti angka, string, boolean dan banyak lagi. Namun, ada dua kategori tipe data tipe data primitif dan tipe data non-primitif. Ada delapan tipe data primitif yang akan kita lalui di bagian selanjutnya.
 
-## Apa tipe data JavaScript? {#Whate-javascript-data-types}
+## Apa tipe data JavaScript?   {#Whate-javascript-data-types}
 Faktanya, JavaScript adalah bahasa yang diketik secara longgar yang berarti Anda tidak harus mendefinisikan jenis variabel secara eksplisit. Anda dapat menetapkan nilai apa pun ke variabel dan variabel itu akan menyimpan nilai itu seperti string, bigint, boolean, atau lebih.
 
 {{< figure align=center src="images/web-development.png" alt="Panduan Pemula Javascript">}}

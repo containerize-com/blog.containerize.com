@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Konversi .htaccess menulis ulang aturan ke arahan nginx">}}
 
 Dalam tutorial terakhir kami, kami belajar [cara menginstal beberapa versi PHP dengan nginx di ubuntu][1]. Apache adalah salah satu server web paling populer tetapi akhir -akhir ini, Nginx telah memantapkan dirinya sebagai pesaing untuk Apache. Tetapi Nginx tidak mendukung aturan penulisan ulang HTACCESS. Jadi, dalam artikel ini, kita akan belajar cara mengonversi HtAccess menulis ulang aturan menjadi Nginx ReRite Arahan. Mari kita mulai!
-  *** [Nginx Menulis Ulang Aturan][2] **
+  ***[Nginx Menulis Ulang Aturan][2]** 
   *[**. Htaccess menulis ulang aturan **][3]
-  *[** Konversi .htaccess menulis ulang aturan ke nginx mengutarakan arahan ulang **][4]
-  *[** Kesimpulan **][5]
+  *[**Konversi .htaccess menulis ulang aturan ke nginx mengutarakan arahan ulang** ][4]
+  *[**Kesimpulan** ][5]
 
-## NGINX Menulis ulang aturan {#nginx}
+## NGINX Menulis ulang aturan   {#nginx}
 Menulis ulang aturan mengubah bagian atau semua URL dalam permintaan klien, biasanya untuk memberi tahu klien bahwa sumber daya yang mereka minta sekarang berada di lokasi yang berbeda, atau untuk mengontrol aliran pemrosesan di dalam Nginx. Misalnya untuk meneruskan permintaan ke server aplikasi saat konten perlu dihasilkan secara dinamis. Petunjuk Try_Files sering digunakan untuk tujuan ini.
 Dua arahan untuk penulisan ulang nginx umum adalah _Return_ dan _rewrite_, dan _try_files directive_ adalah cara praktis untuk mengarahkan permintaan ke server aplikasi.
 Petunjuk pengembalian adalah yang lebih sederhana dari dua arahan umum. Anda melampirkan pengembalian dalam konteks server atau lokasi.
@@ -44,7 +44,7 @@ server {
 }
 ```
 
-## .htaccess menulis ulang aturan {#apache}
+## .htaccess menulis ulang aturan   {#apache}
 File .htaccess mengontrol sejumlah cara situs web dapat diakses, diblokir, dan dialihkan. Ini melakukan ini menggunakan serangkaian satu atau lebih. Htaccess menulis ulang aturan. Penulisan ulang ini dieksekusi oleh modul MOD_REWRITE Apache.
 MOD_REWRITE menyediakan cara untuk memodifikasi permintaan URL yang masuk, secara dinamis, berdasarkan aturan ekspresi reguler. Ini memungkinkan Anda untuk memetakan URL apa pun ke struktur URL internal Anda dengan cara apa pun yang Anda suka. Ini juga digunakan untuk membuat URL eksternal Anda bersih dan kemudian memetakannya ke URL internal yang tampak jelek.
 Misalnya, mengikuti. Htaccess menulis ulang aturan redricts non www URL ke URL www.
@@ -54,7 +54,7 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## Convert .htaccess menulis ulang aturan ke Nginx RERITE DANCTIFS {#ConVERT}
+## Convert .htaccess menulis ulang aturan ke Nginx RERITE DANCTIFS   {#ConVERT}
 Seperti yang kami tunjukkan dalam contoh kami di atas untuk mengarahkan URL non-WWW ke URL WWW, mari kita konversi aturan yang sama. HTACCESS TRIFECTE TRIOTE menjadi NGINX RERITE DANRECTIF.
 ```
 server {
@@ -100,7 +100,7 @@ location / {
 }
 ```
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Dalam tutorial ini, kami mengeksplorasi aturan penulisan ulang Apache yang ditulis ulang dan bagaimana kami dapat mengubahnya. Htaccess menulis ulang aturan menjadi Nginx Rerite Arahan. Kami selanjutnya mengeksplorasi berbagai arahan nginx yang dapat digunakan untuk menulis ulang URL. Kami juga memberikan contoh aturan penulisan ulang untuk Nginx dan Apache. Semoga tutorialnya bermanfaat untuk Anda.
 
 ## Mengeksplorasi

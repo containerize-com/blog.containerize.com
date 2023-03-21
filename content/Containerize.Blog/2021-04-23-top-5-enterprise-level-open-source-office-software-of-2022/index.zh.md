@@ -24,16 +24,16 @@ categories: ['Office Productivity Software']
   * [Calligra][5]
   * [结论][6]
 
-## Apache OpenOffice {#openoffice}
+## Apache OpenOffice   {#openoffice}
 Apache OpenOffice项目（AOO）根据开放标准提供了完整的开源办公室软件。这是OpenOffice.org项目的延续。该免费办公软件是免费的Microsoft Office替代方案之一。它也是开源世界中最受欢迎的免费办公套房之一。无论您是要使用文本文档，电子表格还是演示文稿。这是Microsoft Office提供的大多数功能的淘汰赛。而且，这是100％免费的。而且，这种Microsoft Office替代方案不仅是免费的开源办公室套件，而且它还在所有平台（Linux，Mac）上不仅在Windows上运行。
 Apache Open Office是用C ++编程语言开发的，所有源代码以及开发人员文档都可以在[Github][7]上获得。
 
-## libreoffice {#libreoffice}
+## libreoffice   {#libreoffice}
 Libreoffice是基于CopyLeft许可证的集成开源和免费办公软件，并且与大多数文档格式和标准兼容。这是最好的免费办公生产力工具之一。
 该开源Office软件得到了文档基金会的支持，该基金会代表了一个大型的企业，开发商和其他志愿者的独立社区，该社区的共同目标是将市场带入市场上最好的免费办公软件。
 Libreoffice是开源的，可以免费下载，使用和分发。它以C ++编程语言开发，您可以在[Github][8]上查看源代码。
 
-## neooffice {#neooffice}
+## neooffice   {#neooffice}
 Neooffice是MacOS的100％免费和开源和免费办公软件。这是Microsoft Office的替代方案。如果您想从Microsoft软件中切换，但是在这种情况下是100％免费的便宜一些，NeoOffice是您的绝佳选择。
 NeoOffice基于Libreoffice和OpenOffice，因此它还支持使用OpenDocument格式（ODF），这是一种完全打开和ISO标准化的文件格式，可保证永远访问您的数据。如果您是Mac用户，并且正在寻找MacOS的免费Microsoft Office替代方案。然后，Neooffice对您来说是一个很好的选择。
 这是Neooffice的一些功能
@@ -42,7 +42,7 @@ NeoOffice基于Libreoffice和OpenOffice，因此它还支持使用OpenDocument�
   *支持Mac服务
   *本机文件锁定以安全地编辑网络文件
 
-## freeoffice {#freeoffice}
+## freeoffice   {#freeoffice}
 FreeOffice是一个功能齐全的免费办公室套件，也是软件制造商办公室的免费版本。此开源办公室软件是最好的免费办公生产力工具之一。此开源办公室套件包括任何办公生产力软件所需的三个主要应用程序。
 TextMaker是Microsoft Word的免费替代品，Planmaker是Microsoft Excel的免费替代品，演示文稿是Microsoft PowerPoint的免费替代品。
 FreeOffice的一些亮点
@@ -51,7 +51,7 @@ FreeOffice的一些亮点
   *这是您的选择：丝带或经典菜单
   *针对触摸屏进行了优化
 
-## calligra {#calligra}
+## calligra   {#calligra}
 Calligra Suite是KDE开发的开源和开源办公室软件。它是由公共基础链接在一起的办公生产力软件的集合。这确保所有办公应用程序都可以共同努力，也可以共享共同的外观和感觉。这是所有主要平台可用的良好开源办公室替代方案之一。随附矢量图和数据库应用程序。
 市场上有许多开源的办公室替代软件，例如Apache OpenOffice，Libreoffice，但是Calligra Suite附带了其他矢量绘图和Visual Database App创建器软件。
 这是crabigra的一些主要功能
@@ -65,7 +65,7 @@ Calligra Suite是KDE开发的开源和开源办公室软件。它是由公共基
   *可移动的码头工人
   * Microsoft Office文件导入
 
-## 结论{#conclusion}
+## 结论 {#conclusion}
 这使我们进入了此博客文章的结尾。上面列出的软件是当前时间点上最佳的免费和开源办公室软件。此外，这些开源免费办公套房可帮助业务满足其办公室生产力需求。我们已经浏览了前五名的办公生产力工具，这是您有关如何提高工作效率的问题的答案？希望，如果您想为您的业务安装免费的办公软件，这篇博客文章将帮助您做出正确的选择。此外，您可以在下面的“探索”部分中找到进一步的开源办公室软件和相关文章。
 最后，[Containerize.com][9]不断地撰写有关进一步开源产品和主题的博客文章。因此，请与[Office生产力软件][10]类别保持联系，以进行常规更新。此外，您可以在我们的社交媒体帐户上关注我们[Facebook][11]，[LinkedIn][12]和[Twitter][13]。
 

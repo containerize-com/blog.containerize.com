@@ -18,11 +18,11 @@ categories: ['Programming']
 ## 概述
 JavaScript是一种脚本语言，用于开发基于Web的动态应用程序。我们使用HTML和CSS构建静态网站，而JavaScript则用于添加交互性。在我们以前的博客文章中，我们介绍了[文档对象模型][1]，现在我们将介绍其他一些重要的**JavaScript基本概念**。由于其丰富的功能和框架，Web开发人员倾向于选择这种脚本语言。此外，您可以通过学习JavaScript在前端和后端进行开发。但是，您不仅可以开发网络应用程序，还可以开发移动应用程序。如果您准备接受面试会议，本JavaScript教程将为您提供帮助。但是，本指南值得阅读，以增加您的知识库。
 我们将在本文中介绍以下几点：
-***[JavaScript中的升起][2]**
-***[javaScript中的范围][3]**
-***[JavaScript关闭][4]**
+* **[JavaScript中的升起][2]**
+* **[javaScript中的范围][3]**
+* **[JavaScript关闭][4]**
 
-## JavaScript中有什么提升{#in-javaScript what-is-hoisting}
+## JavaScript中有什么提升 {#in-javaScript what-is-hoisting}
 当前范围之上的功能或可变声明的现象称为提升。这是一个非常关键的概念，大多数JavaScript开发人员都不知道。但是，这里要注意的一个重要的事情是，只有功能/变量声明才能将其置于顶部，而不是功能/变量初始化。
 让我们举个例子，看看下面的代码段；
 ```
@@ -51,7 +51,7 @@ let name;
 ```
 上述代码段中的错误发生了。原因是在提起此变量时未完成初始化。长话短说，所有声明都是用“未定义”初始化的，而用“让”或“ const”声明的变量并未在吊装中初始化。
 
-## scopes in JavaScript {#scopes in-javaScript}
+## scopes in JavaScript   {#scopes in-javaScript}
 范围是开发人员必须知道的JavaScript基本概念之一。但是，使用JavaScript范围并不直接，并且有些不同。因此，JavaScript中有三种类型的范围，它们如下：
 **块级别**：用“让”或“ const”声明的变量包含块级范围。
 ```
@@ -79,7 +79,7 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## JavaScript关闭{#JavaScript-Closures}
+## JavaScript关闭 {#JavaScript-Closures}
 这是另一个重要的概念，可以增强您对范围和数据封装的JavaScript知识。以最简单的形式，函数内部的函数称为闭合。您可以将内部函数称为闭合。此内部功能具有三种类型的范围：
 * 它具有自己的块级范围。
 * 它可以访问父母的变量。

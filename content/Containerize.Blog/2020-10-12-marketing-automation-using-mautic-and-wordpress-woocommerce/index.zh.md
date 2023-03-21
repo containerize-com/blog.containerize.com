@@ -24,7 +24,7 @@ WooCommerce是WordPress的开源电子商务插件。目前，它是世界各地
   * [Mautic配置][3]
   * [最终想法][4]
 
-## WordPress插件配置{#WordPress}
+## WordPress插件配置 {#WordPress}
   1.转到插件。
   2.单击“添加新”。
   3.搜索“ **与Mautic集成以进行WooCommerce **”。
@@ -40,7 +40,7 @@ WooCommerce是WordPress的开源电子商务插件。目前，它是世界各地
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Mautic和WordPress集成">}}
 
 
-## Mautic配置：{#mautic}
+## Mautic配置： {#mautic}
   1.在您的卑鄙站点中，转到设置。
   2.转到配置。
   3.从API设置启用API。
@@ -60,7 +60,7 @@ WooCommerce是WordPress的开源电子商务插件。目前，它是世界各地
 {{< figure align=center src="images/mautic-1024x622.png" alt="Mautic和WordPress集成步骤">}}
 
 
-## 最终想法：{#final}
+## 最终想法： {#final}
 Mautic-WooCommerce集成可以帮助您实现营销目标。这种集成是电子商务营销自动化的最佳解决方案之一。使用WordPress，您可以轻松获得很多客户，然后使用Mautic创建无限的广告系列来定位这些客户，并使其有关您的产品/服务的最新信息，这肯定会拥有销售额。
 
 ## 探索：

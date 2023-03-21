@@ -21,7 +21,7 @@ Das Erinnern an alle verschiedenen Passwortkombinationen für verschiedene Websi
   * [Psono][5]
   * [Schlussfolgerung][6]
 
-## Keepass {#keepass}
+## Keepass   {#keepass}
 Keepass ist eine der besten kostenlosen Software für kostenlose Passwort -Manager. Es erleichtert den Benutzern, auf Kennwörter zuzugreifen, indem sie auf mehreren Geräten synchronisieren oder Dateien auf Dropbox, OneDrive oder anderen Dateienfreigabe -Apps freigeben. Während Keepass hauptsächlich als Passwort -Manager für Windows OS entwickelt wird, können Sie auch den Passwort -Manager auch auf Max oder Linux ausführen. Alle Kennwörter werden in einer Datenbank gespeichert, die mit einem Masterschlüssel verschlüsselt ist, der mit dem Benutzer freigegeben wird. Wenn es um Verschlüsselung geht, verwendet Keepass SHA-256, Twofish und andere beliebte Verschlüsselungsalgorithmen, um die Sicherheit von Passwörtern zu gewährleisten. Hier sind einige Profis von Keepass:
   * Secure Password Manager
   * Open Source
@@ -30,7 +30,7 @@ Keepass ist eine der besten kostenlosen Software für kostenlose Passwort -Manag
   * Tragbar
 [Lesen Sie mehr][7]
 
-## Passbolt {#passbolt}
+## Passbolt   {#passbolt}
 Passbolt erleichtert den Mitarbeitern, Passwörter für verschiedene Server zu speichern, Anwendungen, die sie täglich verwenden, und ermutigt sie, für mehrere Konten nicht dasselbe Passwort zu führen. Es funktioniert für Browser -Apps, Desktop -Apps -E -Mails und vieles mehr. Als Open -Source -Passwort -Manager ist es sehr sicher und verwendet die GNUPG -Verschlüsselung, um Benutzer zu authentifizieren und die Kennwortdatenbank zu sichern. Hier sind einige herausragende Merkmale von Passbolt:
   * Frei und Open Source
   * Für Teams erstellt
@@ -40,7 +40,7 @@ Passbolt erleichtert den Mitarbeitern, Passwörter für verschiedene Server zu s
   * Selbst gehosteter Passwortmanager
 [Lesen Sie mehr][8]
 
-## Passwort sicher {#Passwort-safe}
+## Passwort sicher   {#Passwort-safe}
 Passwort sicher wurde ausschließlich für Windows und Linux -Benutzer entwickelt. Sie können jedoch auch Klone der Software für andere Betriebssysteme und Plattformen finden. Als kostenloser Download-Password-Manager wurde das Passwort-Safe weiter verbessert, um Ihre Passwörter durch Einbeziehung von Verschlüsselungsalgorithmus-Twofish und Verwendung von kryptografischen Hash-Funktionen wie SHA-256 zu schützen, um Schlüssel zu generieren. Hier sind einige herausragende Funktionen von Passwort sicher:
   * Kennwörter einfach kategorisieren
   * Passwörter exportieren oder importieren
@@ -49,7 +49,7 @@ Passwort sicher wurde ausschließlich für Windows und Linux -Benutzer entwickel
   * Sicherer und sicherer Passwortmanager
 [Lesen Sie mehr][9]
 
-## Bitwarden {#bitwarden}
+## Bitwarden   {#bitwarden}
 Bitwarden ist alle abgerundeten Open -Source -Passwort -Manager, die nicht nur von Einzelpersonen verwendet werden kann, um ihre kritischen und wichtigen Informationen zu speichern, sondern auch von Unternehmen auf allen Ebenen eingesetzt werden kann. Als Open -Source -Passwort -Manager wird in zwei Versionen erhältlich: kostenlose und bezahlte Version. In ähnlicher Weise kann Bitwarden sowohl auf iOS- als auch auf Android -Mobiltelefonen heruntergeladen werden und bietet auch zahlreiche Browser -Erweiterungen für automatische Kennwörter. Es ist einer der besten Open -Source -Passwort -Manager. Im Folgenden finden Sie einige der wichtigsten Funktionen, die es bietet:
   * Kompatibilität der Plattform
   * Gesundheitsberichte über Passwörter
@@ -58,7 +58,7 @@ Bitwarden ist alle abgerundeten Open -Source -Passwort -Manager, die nicht nur v
   * Detaillierte Ereignisprotokolle
 [Lesen Sie mehr][10]
 
-## psono {#psono}
+## psono   {#psono}
 Mit PSONO können Sie den Passwort -Manager auf Ihrem eigenen Server bereitstellen und bis zu 10 Benutzern ermöglichen, ihre wichtigen Informationen zu speichern und auch darauf zugreifen. Als Open -Source -Passwort -Manager verfügt es auch über mehrere Geräte- und Cross -Plattform -Kompatibilität wie iOS, Android, MacOS, Linux und Browser wie Chrome, Edge, Safari und mehr. Hier sind einige herausragende Funktionen von PSONO:
   * Open Source
   * Verwendet eine mehrschichtige Verschlüsselung
@@ -66,7 +66,7 @@ Mit PSONO können Sie den Passwort -Manager auf Ihrem eigenen Server bereitstell
   * Autofill -Login -Anmeldeinformationen
 [Lesen Sie mehr][11]
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Anmeldeinformationen sind eine bequeme Möglichkeit, Ihre Passwörter für verschiedene Konten und Websites an einem Ort zu speichern. Insbesondere wenn Sie komplexe Passwortkombinationen verwenden, die aus alphanumerischen und Sonderzeichen bestehen, kann es schwierig sein, sich alle zu erinnern. Wir haben einige der besten Open -Source -Passwortmanager in diesem Blog besprochen. Einige sind besser für Einzelpersonen, andere sind besser für Teams, andere für Windows und andere für Browser oder mobile Apps. Alle haben ihre eigenen Vor- und Nachteile. Die Auswahl des besten hängt von den Benutzeranforderungen ab.
 Sie können sich uns auf [Twitter][12], [LinkedIn][13] und unserer [Facebook][14] -Seite anschließen. Welche Open Source -Passwort -Manager verwenden Sie? Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][15].
 

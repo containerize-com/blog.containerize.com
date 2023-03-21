@@ -20,11 +20,11 @@ Darüber hinaus hat Open Source Community viele Open -Source -Webserver und Web 
   * [Wie konfigurieren Sie LightTPD?][7]
   * [Schlussfolgerung][8]
 
-## Was ist LightTPD? {#Was}
+## Was ist LightTPD?   {#Was}
 Im Vergleich zu anderen Webservern wie Apache und Nginx verfügt der LightTPD-Webserver über einen kleinen Speicherpfunddruck, sodass er eine effektive Verwaltung der CPU-Lade bietet. Dieser leichte Webserver bietet erweiterte Funktionssätze, einschließlich FASTCGI, SCGI, AUTH, Ausgangskompression und URL-Wrewriting usw. Ermöglicht die in jeder Programmiersprache geschriebenen Webanwendungen mit dem Server. FastCGI von LightTPD kann so konfiguriert werden, dass sie PHP unterstützen. Abgesehen von PHP unterstützt es auch andere Programmiersprachen, darunter Python, Perl, Ruby und vieles mehr.
 Es gibt viele Open -Source -Webserver und Web -Proxy -Server, aber LightTPD steht ganz oben auf der Liste, die weit verbreitet ist. Diese Webserverlösung ist sehr einfach eingerichtet und erfordert einfache Anforderungen wie Ubuntu 18.04. Darüber hinaus können diejenigen, die diese Open Source -Lösung bereitstellen möchten, die neueste Version von diesem [Link][9] herunterladen. Vor allem unterstützt es viele andere Sprachen als PHP wie Python, Ruby, Perl und mehr. Darüber hinaus ist die gesamte Dokumentation bezüglich der Entwicklung und Bereitstellung verfügbar. Daher können Entwickler den Quellcode auf [Github][10] finden.
 
-## Vorteile von LightPD {#Benefits}
+## Vorteile von LightPD   {#Benefits}
 In diesem Abschnitt werden wir die Vorteile und die Bereitstellung, die dieser Open -Source -Webserver bietet, durchlaufen. Wenn Sie also nach einem schnellen, effizienten und sicheren Webserver suchen, ist der LightTPD -Webserver die beste Wahl für Sie. Es erfordert nicht viel Speicher und CPU -Nutzung. Dies macht es zu einem der besten für jedes Projekt, das Geschwindigkeit und hohe Leistung erfordert. LightTPD kann auf einem einzelnen Server parallel bis zu 10000 Verbindungen verarbeiten. LightTPD ist die perfekte Lösung für jeden Server, der Geschwindigkeits- oder Leistungsprobleme hat. Diese kostenlose Lösung ist kostengünstig und ressourceneffizient.
 Darüber hinaus bietet diese Webserverlösung fast alle beliebten Plattformen wie Windows, Linux, Solaris und MacOS. Ebenso ist LightTPD für eingebettete Systeme sehr viel und kann mehrere Benutzer selbst mit begrenzten Ressourcen statischen und dynamischen Inhalten bedienen. LightTPD ist für die Sicherheit, Geschwindigkeit, Einhaltung und Flexibilität bekannt und definiert die Effizienz eines Webservers schnell neu.
 LightTPD bietet die folgenden herausragenden Vorteile:
@@ -34,7 +34,7 @@ LightTPD bietet die folgenden herausragenden Vorteile:
   * MOD_PROXY stellt HTTP/1.1 -Anforderungen an Backends (Änderung von http/1.0).
   * Unterstützung für die Verwendung von Chroot und mod_rewrite
 
-## Wie konfiguriere ich LightTPD? {#konfigurieren}
+## Wie konfiguriere ich LightTPD?   {#konfigurieren}
 In diesem Abschnitt dieses Blog -Beitrags untersuchen wir die Schritte zum Konfigurieren des LightTPD. Die Installation von LightTPD auf Ubuntu ist sehr einfach und unkompliziert. Verwenden Sie einfach den folgenden Befehl und Sie können loslegen
 ```
 $ sudo apt install lighttpd
@@ -74,9 +74,9 @@ su make install
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="So richten und konfigurieren Sie LightTPD für Hochleistungswebsites">}}
 
 
-## Schlussfolgerung {#Conclusion}
+## Schlussfolgerung   {#Conclusion}
 Dies bringt uns zum Ende dieses Blog -Beitrags. Wir sind durchgemacht, was ist lightTpd? Wie konfiguriere ich LightTPD? und Einrichten von Verfahren. LightTPD ist ein kostenloser, leistungsstarker und Open-Source-Webserver für Speed-Critical-Umgebungen. Der niedrige Speicherausdruck, die kleine CPU -Last und die Geschwindigkeitsoptimierungen machen es für Server geeignet, die Lastprobleme leiden. Es ist im Vergleich zu anderen Webservern leicht, sicher und schnell, was es zu einer der besten Möglichkeiten für Hochleistungs- und Geschwindigkeits-Kritischen-Websites macht. LightTPD hat eine sehr lebendige und lebendige Gemeinschaft, die Unterstützung für Probleme und Abfragen bietet. Es gibt viele Open -Source -Produkte und relevante Blog -Beiträge, die Sie durchführen können, die im Abschnitt „Explore“ unten erwähnt werden. Daher kann dieser Artikel Ihnen wirklich helfen, wenn Sie sich für einen Open -Source -Webserver für Ihr Unternehmen entscheiden möchten.
-Schließlich hat ** [containerize.com][12] ** über weitere Open -Source -Produkte geschrieben. Bitte bleiben Sie mit dieser Kategorie [Web Server Solution Stack][1] in Kontakt. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][13], [LinkedIn][14] und [Twitter][15] folgen.
+Schließlich hat **[containerize.com][12]**  über weitere Open -Source -Produkte geschrieben. Bitte bleiben Sie mit dieser Kategorie [Web Server Solution Stack][1] in Kontakt. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][13], [LinkedIn][14] und [Twitter][15] folgen.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:

@@ -21,7 +21,7 @@ Bu blog gönderisindeki aşağıdaki bölümleri ele alacağız:
   * [Eklenti kurulumu][3]
   * [Son düşünceler][4]
 
-## açıklama: {#description}
+## açıklama:   {#description}
 WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet widget'ı koymanızı sağlar. WordPress Live Chat, müşterilerin destek veya satış aracılarınızla tek bir tıklamayla gerçek zamanlı olarak işbirliği yapmalarını sağlar. Anında iletişim, müşterilerin sorularının hızlı bir şekilde çözülmesine yardımcı olur ve karar vermeyi hızlandırır. Bu nedenle bu çözüm, daha hızlı bir şekilde dönerek yeni müşteriler kazanmanıza ve mevcut müşterilerin memnuniyetini ve sadakatini artırmanıza yardımcı olabilir.
 
 ## Özellikler özellikler}
@@ -34,7 +34,7 @@ WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet
   * Takım sohbeti
   * Gerçek Zamanlı Çeviri
 
-## eklenti kurulumu: {#plugin}
+## eklenti kurulumu:   {#plugin}
   1. WordPress sitenizin Yönetici Gösterge Tablosuna gidin.
   2. Ardından eklentilere taşıyın.
   3. Ardından aşağıdaki eklenti yükleyin: [Rocket.Chat Livechat][5]
@@ -47,7 +47,7 @@ WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="Rocket.chat kullanarak WordPress Anlık Mesajlaşma Çözümü">}}
 
 
-## Son Düşünceler: {#Conclusion}
+## Son Düşünceler:   {#Conclusion}
 Worpress ve Rocket.Chat Entegrasyonu, gerçek zamanlı konuşmalar yoluyla müşterilerinizle güven ve ilişkiler kurar. WordPress anlık mesajlaşma, işletmenize hızlı bir destek sağlayabilir. Canlı sohbet özelliğini kullanarak müşterilerinizle iletişim kurun. Ayrıca takım sohbet özelliğini kullanarak takım arkadaşlarınızla işbirliği yapabilirsiniz. Bu, fikirleri gerçek zamanlı sohbet ile tartışarak ve paylaşarak verimliliği artıracaktır.
 
 ## Keşfetmek:

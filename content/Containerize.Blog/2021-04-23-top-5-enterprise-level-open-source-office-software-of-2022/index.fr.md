@@ -24,16 +24,16 @@ De plus, les gestionnaires peuvent construire des lieux de travail partagés où
   * [Calligra][5]
   * [Conclusion][6]
 
-## Apache OpenOffice {#OpenOffice}
+## Apache OpenOffice   {#OpenOffice}
 Le projet Apache OpenOffice (AOO) fournit un logiciel de bureau open source complet basé sur les normes ouvertes. Il s'agit de la continuation du projet OpenOffice.org. Ce logiciel de bureau gratuit est l'une des alternatives gratuites de Microsoft Office. C'est également l'une des suites de bureau gratuites les plus populaires dans le monde open-source. Que vous souhaitiez travailler avec des documents texte, des feuilles de calcul ou des présentations. C'est un KO pour la plupart des fonctionnalités que Microsoft Office offre. Et c'est trop 100% gratuit. Et cette alternative Microsoft Office n'est pas seulement une suite de bureaux gratuite et open source, mais elle fonctionne également sur toutes les plates-formes (Linux, Mac) non seulement sur Windows.
 Apache Open Office est développé dans le langage de programmation C ++ et tout le code source ainsi que la documentation du développeur sont disponibles sur [GitHub][7].
 
-## libreOffice {#LibreOffice}
+## libreOffice   {#LibreOffice}
 LibreOffice est un logiciel de bureau open-source et gratuit intégré basé sur les licences CopyLeft et compatible avec la plupart des formats et normes de documents. Ceci est parmi les meilleurs outils de productivité de bureau gratuits.
 Ce logiciel Open Source Office est soutenu par la Document Foundation, qui représente une grande communauté indépendante d'entreprises, de développeurs et d'autres bénévoles ému par l'objectif commun de apporter sur le marché le meilleur logiciel de bureau gratuit.
 LibreOffice est open source et gratuit à télécharger, utiliser et distribuer. Il est développé dans le langage de programmation C ++ et vous pouvez consulter le code source de [GitHub][8].
 
-## neooffice {#neooffice}
+## neooffice   {#neooffice}
 NeoOffice est un logiciel de bureau gratuit à 100% et open-source et gratuit pour macOS. Ceci est une excellente alternative Microsoft Office. Si vous essayez de passer du logiciel Microsoft mais quelque chose d'un peu moins cher, ce qui est 100% gratuit dans ce cas, NeoOffice est un excellent choix pour vous.
 Neooffice est basé sur LibreOffice et OpenOffice, il prend également en charge l'utilisation du format OpenDocument (ODF), un format de fichier standardisé entièrement ouvert et ISO qui garantit à jamais l'accès à vos données. Si vous êtes un utilisateur Mac et que vous recherchez une alternative Microsoft Office gratuite pour MacOS. Ensuite, NeoOffice est un très bon choix pour vous.
 Voici quelques-unes des fonctionnalités du néo-office
@@ -42,7 +42,7 @@ Voici quelques-unes des fonctionnalités du néo-office
   * Prise en charge des services Mac
   * Verrouillage des fichiers natifs pour modifier en toute sécurité les fichiers réseau
 
-## FreeOffice {#freeOffice}
+## FreeOffice   {#freeOffice}
 FreeOffice est une suite de bureaux gratuite complète et une version gratuite de Softmaker Office. Ce logiciel Open Source Office est l'un des meilleurs outils de productivité de bureau gratuits. Cette suite de bureaux open source comprend les trois principales applications requises pour tout logiciel de productivité de bureau.
 Textmaker est une alternative gratuite à Microsoft Word, Planmaker est une alternative gratuite à Microsoft Excel, et les présentations sont une alternative gratuite à Microsoft PowerPoint.
 Certains des faits saillants de Freeffice
@@ -51,7 +51,7 @@ Certains des faits saillants de Freeffice
   * C'est votre choix: rubans ou menus classiques
   * Optimisé pour les écrans tactiles
 
-## calligra {#calligra}
+## calligra   {#calligra}
 Calligra Suite est un logiciel de bureau open source et open source développé par KDE. Il s'agit d'une collection de logiciels de productivité de bureau liés par une base commune. Cela garantit que toutes les demandes de bureau peuvent fonctionner ensemble et partager également un aspect commun. C'est l'une des bonnes alternatives de bureau open source disponibles pour toutes les principales plateformes. Livré avec le dessin vectoriel et les applications de base de données.
 Il existe de nombreux logiciels alternatifs OpenSource Office disponibles sur le marché comme Apache OpenOffice, LibreOffice, mais Calligra Suite est livré avec un logiciel de créateur d'applications de base de données visuels et de données visuelles.
 Voici quelques-unes des meilleures fonctionnalités de Calligra
@@ -65,7 +65,7 @@ Voici quelques-unes des meilleures fonctionnalités de Calligra
   * Dockers mobiles
   * Importation du fichier Microsoft Office
 
-## Conclusion {#conclusion}
+## Conclusion   {#conclusion}
 Cela nous amène à la fin de ce billet de blog. Le logiciel énuméré ci-dessus est le meilleur logiciel Office gratuit et open source à l'heure actuelle. De plus, ces suites de bureaux gratuites en open source aident les entreprises à répondre aux besoins de productivité de leur bureau. Nous avons parcouru les 5 meilleurs outils de productivité du bureau et qui sont des réponses à votre question sur la façon d'améliorer l'efficacité au travail? J'espère que ce billet de blog vous aidera à faire le bon choix si vous cherchez à installer des logiciels de bureau gratuits pour votre entreprise. De plus, vous pouvez trouver d'autres logiciels de bureau open source et des articles pertinents mentionnés dans la section «Explorer» ci-dessous.
 Enfin, [contenerize.com][9] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [logiciel de productivité de bureau][10] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][11], [LinkedIn][12] et [Twitter][13].
 

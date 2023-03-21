@@ -19,13 +19,13 @@ Yalnızca bireysel kullanım için değil, aynı zamanda ekiplerin ve işletmele
   * [Ana Farklılıklar][3]
   * [Sonuç][4]
 
-## ** Bitwarden nedir? **
+## **Bitwarden nedir?** 
 Bitwarden, komut satırı arayüzü ile birlikte mobil ve web uygulaması da dahil olmak üzere çapraz platform uyumluluğuna sahip umut verici bir açık kaynak şifre yöneticisidir. Windows, MacOS ve Linux ile uyumluluğa sahip olduğu için masaüstünüzde Bitwarden'e de erişebilirsiniz. Açık kaynaklı bir şifre yöneticisi olarak, Bitwarden bireysel kullanım için ve kurumsal düzeyde kullanılabilir. Sadece sunucularınızda Bitwarden'i barındıramazsınız, aynı zamanda bulut barındırma da vardır ve çapraz cihaz uyumluluğu ile ihtiyacınız olduğunda erişilebilir.
 
-## ** Passbolt nedir? **
+## **Passbolt nedir?** 
 Passbolt, özellikle işletmeler için geliştirilen bir açık kaynak şifre yöneticisidir. Arayüz, küçük ve büyük ekibin ihtiyaçlarını ve gereksinimlerini göz önünde bulundurarak tasarlanmıştır ve düzenli olarak birden fazla çalışan tarafından erişilmesi gereken şifrelerin ve hassas bilgilerin kolay ve güvenli bir şekilde yönetilmesine izin verir. Passbolt yalnızca sunucunuzda yerel olarak kullanılabilir ve çevrimiçi bir web tarayıcı uzantısından erişilebilir. Açık kaynak şifre yöneticisi olarak, kaynak kodunu doğrudan sunucunuza yükleyebilir veya Ubuntu, Centos 7, Dijital Okyanus ve daha fazlasına barındırabilirsiniz.
 
-## ** Ana Farklılıklar **
+## **Ana Farklılıklar** 
 Hem Bitwarden hem de Passbolt, açık kaynak yöneticileri olarak birçok özellik ve işlevsellik sağlar, ancak şifreleme tekniklerinde ve sundukları farklı müşteri tarafı uygulamalarında farklılık gösterirler. İşte bir yıkım:
 {{_LINE_23_}}
 {{_LINE_24_}}

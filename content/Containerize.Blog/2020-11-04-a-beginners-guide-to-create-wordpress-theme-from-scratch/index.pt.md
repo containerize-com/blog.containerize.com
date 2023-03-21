@@ -15,21 +15,21 @@ Como criar o tema WordPress está entre as principais consultas na pesquisa do G
   * [Requisitos][1]
   * [Guia passo a passo][2]
 
-### Requisitos {#ReQuirements}
+### Requisitos   {#ReQuirements}
 A primeira e mais importante coisa que você precisa fazer é instalar o WordPress. O WordPress é bem conhecido por sua facilidade de instalação. É um processo simples e pode ser feito facilmente sozinho seguindo o [guia][3].
 
-### como criar tema WordPress; Guia passo a passo {#guide}
-Para o tema WordPress, tudo será feito apenas no diretório ** wp_content **. Basta fazer uma nova subpasta tema na pasta ** wp_content → temas.
-A segunda coisa é decidir o layout do tema. Aqui, o tutorial está mostrando o layout básico que consiste em ** cabeçalho, área principal, rodapé, barra lateral **.
-Basicamente, o WordPress precisa de apenas 2 arquivos, ou seja, estilo.css e index.php. Mas, para este layout, você precisa ** 5 arquivos **, como segue;
-  *** header.php - ** contém o código para a seção de cabeçalho do tema.
-  *** index.php - ** contém o código da área principal e especificará onde os outros arquivos serão incluídos. Este é o arquivo principal do tema.
-  *** Sidebar.php - ** contém as informações sobre a barra lateral.
-  ** Footer.php - ** lida com a seção de rodapé.
-  *** style.css - ** Responsável pelo estilo do seu tema.
-  *** bootstrap.css - ** Nenhum código CSS separado é necessário; altamente responsivo.
-  *** bootstrap.js - ** fornece seu próprio JS para a barra de navegação, ou guias, etc.
-** bootstrap.js ** e ** bootstrap.css ** precisa ser baixado do pacote Bootstrap e copiado na pasta ** tema **.
+### como criar tema WordPress; Guia passo a passo   {#guide}
+Para o tema WordPress, tudo será feito apenas no diretório **wp_content **. Basta fazer uma nova subpasta tema na pasta**  wp_content → temas.
+A segunda coisa é decidir o layout do tema. Aqui, o tutorial está mostrando o layout básico que consiste em **cabeçalho, área principal, rodapé, barra lateral** .
+Basicamente, o WordPress precisa de apenas 2 arquivos, ou seja, estilo.css e index.php. Mas, para este layout, você precisa **5 arquivos** , como segue;
+  ***header.php -**  contém o código para a seção de cabeçalho do tema.
+  ***index.php -**  contém o código da área principal e especificará onde os outros arquivos serão incluídos. Este é o arquivo principal do tema.
+  ***Sidebar.php -**  contém as informações sobre a barra lateral.
+  **Footer.php -**  lida com a seção de rodapé.
+  ***style.css -**  Responsável pelo estilo do seu tema.
+  ***bootstrap.css -**  Nenhum código CSS separado é necessário; altamente responsivo.
+  ***bootstrap.js -**  fornece seu próprio JS para a barra de navegação, ou guias, etc.
+**bootstrap.js  **e **  bootstrap.css  **precisa ser baixado do pacote Bootstrap e copiado na pasta **  tema** .
 Aqui estão as etapas a seguir para o tema de configuração
 
 ### Etapa 1: Arquivo Header.php

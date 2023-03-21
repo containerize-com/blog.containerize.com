@@ -19,10 +19,10 @@ Dalam artikel ini, kita akan belajar cara mengatur kampanye di Mautic. Kami akan
   * [Cara membuat kampanye di Mautic?][3]
   * [Kesimpulan][4]
 
-## APA ITU MAUTIC? {#mautic}
+## APA ITU MAUTIC?   {#mautic}
 Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan kontrol penuh atas email pemasaran, halaman arahan, dan alur kerja untuk kegiatan pemasaran. Ini mengotomatiskan cara menuju arahan yang dibuat dari halaman arahan, formulir dan mengubahnya menjadi pelanggan potensial. Semua ini dapat dicapai dengan membuat kampanye Smart Drip, yang akan membuat pelanggan potensial diperbarui mengenai produk/layanan.
 
-## Bagaimana cara membuat formulir di Mautic? {#formulir}
+## Bagaimana cara membuat formulir di Mautic?   {#formulir}
   * Masuk ke instalasi Mauitc Anda.
   * Buka tab "Komponen" dan klik "Formulir".
   * Tekan "Baru" dari sudut kanan atas.
@@ -41,7 +41,7 @@ Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan 
   * Setelah itu klik "Tambah" dan tekan "Simpan dan Tutup".
   * Mudah untuk membuat formulir di MAUTIC.
 
-## Cara membuat kampanye di Mautic? {#campaigns}
+## Cara membuat kampanye di Mautic?   {#campaigns}
   * Pergi ke kampanye. Klik "Baru" dari kanan atas.
   * Masukkan nama dan atur "diterbitkan" ke "ya".
 
@@ -65,7 +65,7 @@ Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan 
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Cara mengatur kampanye mautik untuk pemasaran digital">}}
 
 
-## kesimpulan: {#conclusion}
+## kesimpulan:   {#conclusion}
 Kami telah belajar mengatur kampanye pemasaran tetes mengikuti 3 langkah yang sangat sederhana. Itu termasuk membuat formulir yang diperlukan sebagai sumber kampanye, membuat kampanye dan mengkonfigurasi email. Kami telah membuat kampanye yang sangat mendasar dalam tutorial ini. Namun, Anda dapat membuat kampanye yang kompleks dengan menggunakan pembuat kampanye mautik. Jika Anda baru mengenal MAUTIC, lihat cara menginstalnya menggunakan panduan berikut:
 [Tinjauan dan Instalasi Mautik][5]
 

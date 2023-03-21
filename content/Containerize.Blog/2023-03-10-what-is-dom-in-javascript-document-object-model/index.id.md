@@ -18,22 +18,22 @@ categories: ['Programming']
 ## Ringkasan
 Selamat datang di posting blog lain yang menarik dalam serangkaian [pemrograman JavaScript][1]. Dalam artikel ini, kita akan menyentuh konsep pengembangan web yang sangat mendasar namun penting. Ya, kami akan membahas model objek dokumen di JavaScript. Di masa lalu, kami telah menerbitkan tutorial JavaScript yang wajib untuk memulai pengembangan menggunakan bahasa JavaScript. Karena itu, kami sarankan Anda membaca posting blog ini secara menyeluruh sehingga Anda tidak melewatkan apa pun yang terkait dengan konsep penting ini. Mari kita mulai panduan ini dan temukan**apa itu DOM dalam JavaScript**, DOM Properties, dan bagaimana Anda dapat berinteraksi dengannya secara terprogram.
 Kami akan membahas topik -topik berikut dalam panduan JavaScript ini:
-***[Apa itu model objek dokumen (DOM)?][2]**
-***[level DOM][3]**
-***[Apa itu properti dom dan bagaimana mengaksesnya?][4]**
+* **[Apa itu model objek dokumen (DOM)?][2]**
+* **[level DOM][3]**
+* **[Apa itu properti dom dan bagaimana mengaksesnya?][4]**
 
-## Apa itu model objek dokumen (DOM)? {#What-is-document-object-model}
+## Apa itu model objek dokumen (DOM)?   {#What-is-document-object-model}
 Dom berarti?**Model Objek Dokumen (DOM)**adalah representasi halaman web di dalam browser web. Sederhananya, representasi hierarkis dari unsur -unsur dokumen HTML di browser dikenal sebagai model objek dokumen. Itu dibentuk dalam bentuk pohon yang sebenarnya dihasilkan oleh browser web. Ini terdiri dari berbagai node yang terhubung satu sama lain membentuk bentuk pohon. Selain itu, elemen DOM memiliki atribut dan acara yang melekat padanya.
 Faktanya, DOM adalah antarmuka pemrograman yang merumuskan struktur logis halaman web dan menentukan cara untuk mengakses elemen halaman. Pada dasarnya, JavaScript tidak mengenali tag HTML seperti judul, H1 dan dll. Oleh karena itu, setelah dokumen HTML dimuat ke dalam browser web, DOM dibuat yang kemudian memungkinkan JavaScript untuk memahami elemen dokumen.
 
-## Level DOM {#DOM-Levels}
+## Level DOM   {#DOM-Levels}
 Bagian ini akan menunjukkan berbagai tingkat DOM. Pertama, ada objek jendela di browser yang selalu di atas, dan kemudian ada node dokumen. Mari kita lihat gambar di bawah ini:
 
 {{< figure align=center src="images/DOM.png" alt="Level DOM">}}
 
 Nah, Anda dapat melihat elemen DOM pada gambar di atas. Jendela dan dokumen adalah objek browser tingkat atas dan kemudian kami memiliki elemen HTML sebagai root. Pindah, kita memiliki node kepala dan tubuh, judul simpul milik simpul kepala dan simpul tubuh berisi semua node yang diterjemahkan dan terlihat di browser web. Selain itu, elemen tubuh berisi atribut yang dapat kita lihat di gambar seperti tag jangkar yang berisi atribut "href". Demikian pula, node DOM lainnya berisi berbagai atribut seperti IMG, Meta, dan banyak lagi.
 
-## Apa itu properti DOM dan bagaimana mengaksesnya? {#What-are-dom-properties-and-how-to-access-them}
+## Apa itu properti DOM dan bagaimana mengaksesnya?   {#What-are-dom-properties-and-how-to-access-them}
 Sejauh ini, kami telah memberikan jawaban atas apa itu DOM dalam level JavaScript, dan DOM, dan kami juga telah melalui node DOM. Di bagian ini, kita akan melalui properti DOM dan akan melihat bagaimana kita bisa berinteraksi dengan mereka. Setiap elemen DOM memiliki nilai yang terkait dengan itu seperti tag "p" memiliki properti teks, tag IMG memiliki gambar dan sebagainya. Metode JavaScript digunakan untuk mengakses nilai node. Selanjutnya, Anda dapat menambahkan/menghapus pendengar acara ke elemen DOM.
 Anda dapat menemukan properti**dom berikut**:
 **INNERHTML**: Properti ini digunakan untuk mengatur atau mengambil konten html dari sebuah node dom.

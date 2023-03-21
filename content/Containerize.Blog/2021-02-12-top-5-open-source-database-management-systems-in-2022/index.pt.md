@@ -22,7 +22,7 @@ Os sistemas de gerenciamento de banco de dados oferecem uma abordagem sistemáti
   * [SQLITE][4]
   * [MongoDB][5]
 
-## mysql {#mysql}
+## mysql   {#mysql}
 O MySQL é um sistema de gerenciamento de banco de dados gratuito e de código aberto e fornece suporte para plataformas cruzadas. De fato, permite que os programadores modifiquem o software MySQL para ajustar seus ambientes e requisitos específicos. A maioria dos desenvolvedores usa o MySQL DBMS com PHP, que é a linguagem de programação mais popular para aplicativos da Web. Bons exemplos para aplicativos da web baseados em PHP e MySQL são WordPress, Joomla e Drupal. O MySQL funciona com muitos idiomas, incluindo PHP, Perl, C, C ++, Java, etc. No entanto, todo o código -fonte deste DBMS de código aberto está disponível no [Github][6] com documentação sobre desenvolvimento e implantação.
 A seguir estão os recursos proeminentes:
   * Fácil de usar
@@ -33,7 +33,7 @@ A seguir estão os recursos proeminentes:
   * Alta performance
 [Leia][7][mais][7]
 
-## PostGresql {#PostGre}
+## PostGresql   {#PostGre}
 O PostgreSQL é o software Relacional Relacional mais avançado devido à sua arquitetura, confiabilidade, integridade de dados, conjunto de recursos robustos, além de extensibilidade e recuperação de desastres. Assim como outros sistemas de gerenciamento de banco de dados, é um poderoso sistema de banco de dados de objetos de código aberto. Ele estende o idioma SQL e adiciona muitos recursos adicionais. PostgreSQL é altamente extensível. Você pode definir seus tipos de dados personalizados, criar funções personalizadas e até escrever código de diferentes linguagens de programação sem recompilar o banco de dados. Portanto, está escrito na linguagem C. No entanto, todo o código -fonte deste DBMS de código aberto está disponível no [Github][8] com documentação sobre desenvolvimento e implantação.
 PostgreSQL tem os seguintes recursos principais:
   * Código aberto
@@ -44,7 +44,7 @@ PostgreSQL tem os seguintes recursos principais:
   * Identificador universalmente único
 [Leia mais][9]
 
-## mariadb {#maria}
+## mariadb   {#maria}
 O Mariadb pode ser usado como uma alternativa do MySQL. É um software Relacional DBMS que fornece confiabilidade, integridade de dados, simultaneidade, consistência e recuperação de desastres e extensibilidade para seus aplicativos da Web. Ele fornece suporte para pequenas tarefas de processamento de dados e para necessidades corporativas. O MARIADB também suporta modelos de dados relacionais, JSON e híbridos, juntamente com cargas de trabalho transacionais, analíticas e híbridas. Além disso, o Mariadb é um dos softwares DBMS mais populares. Faz parte da maioria das ofertas em nuvem e do padrão na maioria das distribuições Linux. Portanto, está escrito em idiomas C e C ++. No entanto, todo o código -fonte deste DBMS de código aberto está disponível no [Github][10] com documentação sobre desenvolvimento e implantação.
 Este DBMS relacional oferece os seguintes recursos importantes:
   * Suporte JSON
@@ -55,7 +55,7 @@ Este DBMS relacional oferece os seguintes recursos importantes:
   * ColumnStore Storage Engine / InfinIDB
 [Leia mais][11]
 
-## SQLITE {#SQLITE}
+## SQLITE   {#SQLITE}
 O SQLite é leve em termos de configuração, administração de banco de dados e recursos necessários. É uma biblioteca de idiomas C que atua como um mecanismo de banco de dados que é um pequeno, rápido, rápido, independente e altamente confiável e o mais usado mecanismo de banco de dados do mundo. Além disso, o mecanismo sqlite db pode ser vinculado estaticamente ou dinamicamente conforme o requisito do aplicativo. O SQLite não tem servidor, pois não requer um processo ou sistema de servidor separado para operar como outros RDMBs. Além disso, o SQLITE DBMS está disponível para diferentes plataformas como Windows (Win32, Wince, WinRT) e também para o Unix (Linux, Mac OS-X, Android, iOS). Portanto, está escrito na linguagem C. No entanto, todo o código -fonte deste software DBMS está disponível no [Github][12] com documentação sobre desenvolvimento e implantação.
 Assim como outros sistemas de gerenciamento de banco de dados, a seguir são os recursos proeminentes deste DBMS de código aberto:
   * Engine de banco de dados sem servidor
@@ -66,7 +66,7 @@ Assim como outros sistemas de gerenciamento de banco de dados, a seguir são os 
   * Disponível para diferentes plataformas
 [Leia mais][13]
 
-## mongodb {#mongo}
+## mongodb   {#mongo}
 O MongoDB também é um dos principais bancos de dados orientados a documentos. Ele fornece acesso rápido aos dados devido à sua natureza de implementar a memória interna para armazenar os dados. Portanto, o MongoDB pode lidar com dados estruturados e não estruturados em vários tipos de aplicativos. O banco de dados MongoDB é um banco de dados seguro e fácil de escalar. Portanto, pode ser usado no suporte a sistemas de gerenciamento de conteúdo, sistemas de comércio eletrônico, aplicativos móveis, seção de análise de dados, arquivamento e aplicativos de jogos on-line e offline. Pode ser facilmente configurado e escalável. Os dados podem ser atualizados muito rapidamente. No entanto, todo o código-fonte deste banco de dados orientado a documentos está disponível no [GitHub][14] com documentação sobre desenvolvimento e implantação.
 Este banco de dados orientado a documentos possui os seguintes recursos principais:
   * Alta escalabilidade elástica

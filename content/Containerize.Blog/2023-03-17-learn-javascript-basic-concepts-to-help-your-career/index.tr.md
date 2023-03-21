@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Genel Bakış
 JavaScript, dinamik web tabanlı uygulamalar geliştirmek için kullanılan bir komut dosyası dilidir. Statik web siteleri oluşturmak için HTML ve CSS kullanıyoruz. Önceki blog yazımızda, [Belge Nesne Modeli][1] 'i ele aldık ve şimdi diğer önemli**JavaScript Temel Kavramları**ele alacağız**. Web geliştiricileri, zengin özellikleri ve çerçeveleri nedeniyle bu komut dosyası dilini tercih etme eğilimindedir. Ayrıca, JavaScript'i öğrenerek ön uç ve arka uçta geliştirme yapabilirsiniz. Ancak, yalnızca web uygulamaları geliştiremezsiniz, aynı zamanda mobil uygulamalar da geliştiremezsiniz. Bu JavaScript öğreticisi, kendinizi bir röportaj oturumuna hazırlıyorsanız size yardımcı olacaktır. Bununla birlikte, bu kılavuz bilgi kovanıza daha fazla eklemek için okumaya değer.
 Bu makalede aşağıdaki noktaları ele alacağız:
-***[JavaScript'te çekilen nedir][2]**
-***[JavaScript'teki Scopes][3]**
-***[JavaScript Kapanışları][4]**
+* **[JavaScript'te çekilen nedir][2]**
+* **[JavaScript'teki Scopes][3]**
+* **[JavaScript Kapanışları][4]**
 
-## JavaScript {#Javascript}
+## JavaScript   {#Javascript}
 Mevcut kapsamın üstünde işlev veya değişken beyan alma olgusu kaldırma olarak bilinir. Bu çok kritik bir kavramdır ve çoğu JavaScript geliştiricisi bunun farkında değildir. Bununla birlikte, burada dikkat edilmesi gereken önemli bir şey, fonksiyon/değişken başlatma değil, sadece işlev/değişken bildirimlerinin üste alınmasıdır.
 Bir örnek alalım ve aşağıdaki kod snippet'ini görelim;
 ```
@@ -51,7 +51,7 @@ let name;
 ```
 Yukarıdaki kod snippet'teki hata oluştu. Bunun nedeni, bu değişkeni kaldırırken başlatmanın yapılmamasıdır. Uzun lafın kısası, tüm bildirimler "tanımsız" ile başlatılırken, "let" veya "const" ile ilan edilen değişkenler kaldırma sırasında başlatılmamıştır.
 
-## JavaScript'teki Scopes {#Scopes-In-Javascript}
+## JavaScript'teki Scopes   {#Scopes-In-Javascript}
 Kapsam, bir geliştiricinin bilmesi gereken JavaScript temel kavramlarından biridir. Bununla birlikte, JavaScript Scopes ile çalışmak basit değildir ve biraz farklıdır. Bu nedenle, JavaScript'te üç tür kapsam vardır ve bunlar aşağıdaki gibidir:
 **Blok seviyesi**: "Let" veya "const" ile bildirilen değişkenler blok seviyesi kapsamını içerir.
 ```
@@ -79,7 +79,7 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## JavaScript Kapanışları {#JavaScript-Closures}
+## JavaScript Kapanışları   {#JavaScript-Closures}
 Bu, kapsamlar ve veri kapsülleme hakkındaki JavaScript bilginizi güçlendiren bir başka önemli kavramdır. En basit biçimde, bir işlevin içindeki bir işlev kapanma olarak bilinir. İç işlevi kapatma olarak adlandırabilirsiniz. Bu iç işlevin üç tür kapsamı vardır:
  * Kendi blok seviyesi kapsamı vardır.
  * Ebeveynin değişkenlerine erişimi vardır.

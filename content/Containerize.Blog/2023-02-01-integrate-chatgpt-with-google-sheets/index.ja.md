@@ -35,7 +35,7 @@ OpenAIプラットフォームでアカウントを作成し、APIキーを取�
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="chatgpt統合">}}
 
 
-## GoogleシートでChatGptを使用する方法は？ {#ハウツー-Chatgpt-in-Google-sheets}
+## GoogleシートでChatGptを使用する方法は？   {#ハウツー-Chatgpt-in-Google-sheets}
 OpenAI APIキーがセットアップされると、この強力な**ChatGPTとGoogleシートの統合を活用する準備ができています。
 たとえば、このAIを搭載したチャットボットに、次の方法で関数を呼び出すことにより、車の製品説明を書くように依頼することができます。
 ```

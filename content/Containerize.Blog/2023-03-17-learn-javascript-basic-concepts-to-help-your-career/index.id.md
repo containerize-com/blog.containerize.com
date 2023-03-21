@@ -18,11 +18,11 @@ categories: ['Programming']
 ## Ringkasan
 JavaScript adalah bahasa skrip yang digunakan untuk mengembangkan aplikasi berbasis web yang dinamis. Kami menggunakan HTML dan CSS untuk membangun situs web statis sedangkan JavaScript digunakan untuk menambahkan interaktivitas. Dalam posting blog kami sebelumnya, kami membahas [Model Objek Dokumen][1] dan sekarang kami akan membahas beberapa konsep dasar**JavaScript penting lainnya**. Pengembang web cenderung memilih bahasa skrip ini karena fitur dan kerangka kerja yang kaya. Selain itu, Anda dapat melakukan pengembangan di ujung depan dan belakang dengan mempelajari JavaScript. Namun, Anda tidak hanya tidak hanya mengembangkan aplikasi web tetapi juga aplikasi seluler. Tutorial JavaScript ini akan membantu Anda jika Anda mempersiapkan diri untuk sesi wawancara. Namun demikian, panduan ini layak dibaca untuk menambah lebih banyak ke ember pengetahuan Anda.
 Kami akan membahas poin -poin berikut dalam artikel ini:
-***[apa yang diangkat dalam javascript][2]**
-***[SCOPES IN JAVASCRIPT][3]**
-***[Penutupan JavaScript][4]**
+* **[apa yang diangkat dalam javascript][2]**
+* **[SCOPES IN JAVASCRIPT][3]**
+* **[Penutupan JavaScript][4]**
 
-## Apa yang diangkat dalam JavaScript {#what-is-hoisting-in-javascript}
+## Apa yang diangkat dalam JavaScript   {#what-is-hoisting-in-javascript}
 Fenomena fungsi pengambilan atau deklarasi variabel di atas ruang lingkup saat ini dikenal sebagai pengangkat. Ini adalah konsep yang sangat kritis dan sebagian besar pengembang JavaScript tidak menyadarinya. Namun, hal penting yang perlu diperhatikan di sini adalah bahwa hanya deklarasi fungsi/variabel yang diambil ke atas, bukan inisialisasi fungsi/variabel.
 Mari kita ambil contoh dan lihat cuplikan kode di bawah ini;
 ```
@@ -51,7 +51,7 @@ let name;
 ```
 Kesalahan dalam cuplikan kode di atas terjadi. Alasannya adalah bahwa inisialisasi tidak dilakukan saat mengangkat variabel ini. Singkat cerita, semua deklarasi diinisialisasi dengan "tidak terdefinisi" sementara variabel dinyatakan dengan "let" atau "const" tidak diinisialisasi dalam pengangkatan.
 
-## scopes di javascript {#scopes-in-javascript}
+## scopes di javascript   {#scopes-in-javascript}
 Lingkupnya adalah salah satu konsep dasar JavaScript yang harus diketahui pengembang. Namun, bekerja dengan lingkup JavaScript tidak mudah dan sedikit berbeda. Oleh karena itu, ada tiga jenis lingkup di JavaScript dan ini adalah sebagai berikut:
 **Block-level**: Variabel dinyatakan dengan "let" atau "const" berisi ruang lingkup level blok.
 ```
@@ -79,7 +79,7 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## JavaScript penutupan {#javascript-closures}
+## JavaScript penutupan   {#javascript-closures}
 Ini adalah konsep penting lain yang memperkuat pengetahuan JavaScript Anda tentang lingkup dan enkapsulasi data. Dalam bentuk paling sederhana, fungsi di dalam fungsi dikenal sebagai penutupan. Anda dapat menyebut fungsi dalam sebagai penutupan. Fungsi batin ini memiliki tiga jenis ruang lingkup:
  * Ia memiliki ruang lingkup level blok sendiri.
  * Ini memiliki akses ke variabel orang tua.

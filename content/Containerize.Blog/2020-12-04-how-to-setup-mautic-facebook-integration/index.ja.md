@@ -20,7 +20,7 @@ Mauticはマーケティングオートメーションソフトウェアであ�
   * [mauticプラグイン構成][3]
   * [結論][4]
 
-## Facebook開発者アカウントを構成{#Account}
+## Facebook開発者アカウントを構成 {#Account}
   * [開発者のためのFacebook][5]に行く
   *アカウントがない場合は、アカウントを登録します。
   *新しいアカウントを登録するには、右上隅から「開始」をクリックしてクリックします。
@@ -30,7 +30,7 @@ Mauticはマーケティングオートメーションソフトウェアであ�
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="MAUTIC -Facebook統合 - 開発者アカウントを登録します">}}
 
 
-## Facebook開発者のアプリを構成{#App}
+## Facebook開発者のアプリを構成 {#App}
   *「最初のアプリの作成」をクリックします
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic  -  Facebook統合 - 最初のアプリを作成します">}}
@@ -57,7 +57,7 @@ Mauticはマーケティングオートメーションソフトウェアであ�
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic  -  Facebook統合 - プラットフォームとしてWebサイトを追加します">}}
 
 
-## mauticプラグイン構成{#configuration}
+## mauticプラグイン構成 {#configuration}
   * Mautic Dashboardに移動します。
   *次に、右上隅から「設定」に移動します。
   *「プラグイン」をクリックします。
@@ -72,7 +72,7 @@ Mauticはマーケティングオートメーションソフトウェアであ�
   *ここでは、連絡先フィールドをFacebookフィールドにマップできます。
   *最後に、設定を公開すると、行ってもいいです。
 
-## 結論{#conclusion}
+## 結論 {#conclusion}
 Mautic  -  Facebookの統合は、Facebookのリードを困難なくMauticシステムに同期させるのに役立ちます。 Mautic Appでは、これらすべてのリードをセグメントに追加できます。メールマーケティングキャンペーンを実行できます。これは、あなたのビジネスがより大きなターゲットオーディエンスに製品/サービスを成長させ、販売し、販売するのに役立ちます。
 
 ## 探検

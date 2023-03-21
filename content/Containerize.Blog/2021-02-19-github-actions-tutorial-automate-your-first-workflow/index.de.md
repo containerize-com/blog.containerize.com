@@ -15,34 +15,34 @@ categories: ['Version Control Software']
 
 
 ## Überblick
-Eine der besten Möglichkeiten, um die Produktivität in einem Softwareprojekt zu steigern, besteht darin, alles Handbuch oder Wiederholungen zu automatisieren. Und Sie sind vielleicht überrascht, wie einfach die Automatisierung implementiert werden kann, wenn Sie ein fantastisches Tool wie ** Github -Aktionen ** verwenden. Seit den letzten Artikeln habe ich über [Git][1], [Versionskontrolle][1] und [Automatisierung der Softwareentwicklungs -Workflows][2] und über [kontinuierliche Integration und kontinuierliche Lieferung][3][3][3][3][3][3] ]. Hoffentlich sind Sie sich inzwischen bewusst, dass Repositorys und wie Sie sie benutzen können.
-In der heutigen ** Github -Aktionen Tutorial ** werden wir GitHub -Aktionen untersuchen und wie Sie es zur Anwendungsautomatisierung, -anpassung und zur Ausführung Ihrer Softwareentwicklungs -Workflows in Ihrem Repository verwenden können. Also lasst uns anfangen
-  *** [Überprüfen Sie CI/CD -Workflows][4] **
-  *** [Was sind Github -Aktionen][5] **
-  *** [Verständnis der YAML -Syntax][6] **
-  *** [Erstellen Sie Ihren ersten Workflow][7] **
-  *** [Fazit][8] **
+Eine der besten Möglichkeiten, um die Produktivität in einem Softwareprojekt zu steigern, besteht darin, alles Handbuch oder Wiederholungen zu automatisieren. Und Sie sind vielleicht überrascht, wie einfach die Automatisierung implementiert werden kann, wenn Sie ein fantastisches Tool wie  **Github -Aktionen **  verwenden. Seit den letzten Artikeln habe ich über [Git][1], [Versionskontrolle][1] und [Automatisierung der Softwareentwicklungs -Workflows][2] und über [kontinuierliche Integration und kontinuierliche Lieferung][3][3][3][3][3][3] ]. Hoffentlich sind Sie sich inzwischen bewusst, dass Repositorys und wie Sie sie benutzen können.
+In der heutigen  **Github -Aktionen Tutorial **  werden wir GitHub -Aktionen untersuchen und wie Sie es zur Anwendungsautomatisierung, -anpassung und zur Ausführung Ihrer Softwareentwicklungs -Workflows in Ihrem Repository verwenden können. Also lasst uns anfangen
+  * **[Überprüfen Sie CI/CD -Workflows][4] ** 
+  * **[Was sind Github -Aktionen][5] ** 
+  * **[Verständnis der YAML -Syntax][6] ** 
+  * **[Erstellen Sie Ihren ersten Workflow][7] ** 
+  * **[Fazit][8] ** 
 
-## CI/CD -Workflows {#cicd}
-CI/CD ist eine Methode für häufige Bereitstellungen Ihrer Softwareentwicklungsprojekte für die Endbenutzer in verschiedenen Phasen mit Hilfe der Automatisierung. ** Continuous Integration & Continuous Deployment ** ist eher eine Philosophie und eine der Best Practices für DevOps -Teams, um kodische Änderungen häufiger und zuverlässig zu liefern.
-** Continuous Integration ** ist eine Reihe von Praktiken, die Entwicklungsteams dazu ermutigen, häufig Code -to -Versions -Kontroll -Repositorys zu überprüfen. Und für jeden Druck zum Repository können Sie eine Reihe von Skripten erstellen, um Ihre Anwendung automatisch zu erstellen und zu testen. Diese Skripte verringern die Chancen, dass Sie Fehler in Ihrer Anwendung einführen.
-** Continuous Deployment ** ist ein Schritt voraus in Ihren CI/CD -Workflows. Es erstellt und testet Ihre Anwendung nicht nur jedes Mal, wenn eine Codeänderung an die Codebasis gedrückt wird, sondern die Anwendung wird auch kontinuierlich auf Ihrem Server bereitgestellt.
+## CI/CD -Workflows   {#cicd}
+CI/CD ist eine Methode für häufige Bereitstellungen Ihrer Softwareentwicklungsprojekte für die Endbenutzer in verschiedenen Phasen mit Hilfe der Automatisierung.  **Continuous Integration & Continuous Deployment **  ist eher eine Philosophie und eine der Best Practices für DevOps -Teams, um kodische Änderungen häufiger und zuverlässig zu liefern.
+ **Continuous Integration **  ist eine Reihe von Praktiken, die Entwicklungsteams dazu ermutigen, häufig Code -to -Versions -Kontroll -Repositorys zu überprüfen. Und für jeden Druck zum Repository können Sie eine Reihe von Skripten erstellen, um Ihre Anwendung automatisch zu erstellen und zu testen. Diese Skripte verringern die Chancen, dass Sie Fehler in Ihrer Anwendung einführen.
+ **Continuous Deployment **  ist ein Schritt voraus in Ihren CI/CD -Workflows. Es erstellt und testet Ihre Anwendung nicht nur jedes Mal, wenn eine Codeänderung an die Codebasis gedrückt wird, sondern die Anwendung wird auch kontinuierlich auf Ihrem Server bereitgestellt.
 
-## Was sind Github-Aktionen {#Github-Actions}
-Im Abschnitt dieses Github Action -Tutorials werden wir wissen, was ** Github -Aktionen ** sind. GitHub -Aktionen sind jedoch eine API für Ursache und Wirkung auf GitHub. Es macht es einfach, alle Ihre Software -Workflows mit CI/CD zu automatisieren. Sie können einen beliebigen Workflow basierend auf jedem Ereignis entwerfen, z. B. (Drücken Sie zu einer Filiale, Zuganfrage usw.), während Github die Ausführung verwaltet. Sie müssen die Handlungen jedoch nicht selbst schreiben. Github hat einen eingebauten Marktplatz, auf dem Menschen von anderen Menschen geschaffene Aktionen finden können, und sie wiederverwenden, wenn er ihren Bedürfnissen entspricht. Github -Aktionen unterstützt Node.js, Python, Java, Ruby, PHP, Go, Rost, .NET und mehr. Erstellen, testen und bereitstellen Anwendungen in Ihrer Sprache Ihrer Wahl.
+## Was sind Github-Aktionen   {#Github-Actions}
+Im Abschnitt dieses Github Action -Tutorials werden wir wissen, was  **Github -Aktionen **  sind. GitHub -Aktionen sind jedoch eine API für Ursache und Wirkung auf GitHub. Es macht es einfach, alle Ihre Software -Workflows mit CI/CD zu automatisieren. Sie können einen beliebigen Workflow basierend auf jedem Ereignis entwerfen, z. B. (Drücken Sie zu einer Filiale, Zuganfrage usw.), während Github die Ausführung verwaltet. Sie müssen die Handlungen jedoch nicht selbst schreiben. Github hat einen eingebauten Marktplatz, auf dem Menschen von anderen Menschen geschaffene Aktionen finden können, und sie wiederverwenden, wenn er ihren Bedürfnissen entspricht. Github -Aktionen unterstützt Node.js, Python, Java, Ruby, PHP, Go, Rost, .NET und mehr. Erstellen, testen und bereitstellen Anwendungen in Ihrer Sprache Ihrer Wahl.
 
-## yaml syntax {#yaml}
-Lassen Sie uns zunächst mit den Syntaxen und Terminologien der ** Github -Aktionen ** vertraut.
-  *** Workflow: ** Da die GitHub-Aktion die Einrichtung bietet, um End-to-End-Kontinuierintegration und kontinuierliche Bereitstellung zu erstellen.
-  *** Job **: Dieser Begriff bezieht sich auf alle Aufgaben in einem einzigen Workflow. Ein Workflow enthält mehr als einen Job, und es ist erforderlich, dass alle ihre Ausführung abschließen, um ein Fehler zu verhindern.
-  *** Schritt: ** Für einen Job muss er alle darin eingebetteten Schritte ausführen.
-  *** Aktion: ** Aktion ist die primäre Teilmenge des Schritts und die kleinste Teilmenge des Workflows. Jeder Schritt besteht aus mehreren Aktionen, die erfolgreich ausgeführt werden müssen.
+## yaml syntax   {#yaml}
+Lassen Sie uns zunächst mit den Syntaxen und Terminologien der  **Github -Aktionen **  vertraut.
+  * **Workflow: **  Da die GitHub-Aktion die Einrichtung bietet, um End-to-End-Kontinuierintegration und kontinuierliche Bereitstellung zu erstellen.
+  * **Job ** : Dieser Begriff bezieht sich auf alle Aufgaben in einem einzigen Workflow. Ein Workflow enthält mehr als einen Job, und es ist erforderlich, dass alle ihre Ausführung abschließen, um ein Fehler zu verhindern.
+  * **Schritt: **  Für einen Job muss er alle darin eingebetteten Schritte ausführen.
+  * **Aktion: **  Aktion ist die primäre Teilmenge des Schritts und die kleinste Teilmenge des Workflows. Jeder Schritt besteht aus mehreren Aktionen, die erfolgreich ausgeführt werden müssen.
 Wie Sie sehen können, sind Workflow, Job, Schritt und Maßnahmen voneinander abhängig, und eine erfolgreiche Ausführung von allem ist für den erfolgreichen Abschluss der CI/CD -Pipeline erforderlich.
 
-## Erstellen Sie einen Workflow {#Workflow}
-In einem Softwareentwicklungsprojekt ist eines der Probleme mit der Entwicklungsteams das Format des Quellcode und der Best Practices -Durchsetzung. Dieses Problem ist für die größeren Teams offensichtlicher. Da sie mehr Entwickler betreffen und jeder seinen eigenen Stil des Schreibens von Codes hat. Die Verwendung von Linterpaketen ist also in den Teams sehr häufig. Aber jetzt können Sie mit ** Github -Aktionen ** den Linter jedes Mal durchsetzen, wenn jemand den Code zum Github -Repo drückt.
+## Erstellen Sie einen Workflow   {#Workflow}
+In einem Softwareentwicklungsprojekt ist eines der Probleme mit der Entwicklungsteams das Format des Quellcode und der Best Practices -Durchsetzung. Dieses Problem ist für die größeren Teams offensichtlicher. Da sie mehr Entwickler betreffen und jeder seinen eigenen Stil des Schreibens von Codes hat. Die Verwendung von Linterpaketen ist also in den Teams sehr häufig. Aber jetzt können Sie mit  **Github -Aktionen **  den Linter jedes Mal durchsetzen, wenn jemand den Code zum Github -Repo drückt.
 In diesem Tutorial für GitHub-Aktionen fügen Sie einen Workflow hinzu, der mehrere Codierungssprachen unter Verwendung der Aktion [Github Super-Linter][9] enthält. Der Workflow verwendet Super-Linter, um Ihren Quellcode jedes Mal zu validieren, wenn ein neues Komitee in Ihr Repository weitergegeben wird.
-Erstellen Sie aus Ihrem Repository auf GitHub eine neue Datei im Verzeichnis **. Github/Workflows ** mit dem Namen ** Superlinter.yml ** und kopieren Sie den folgenden Inhalt in sie
+Erstellen Sie aus Ihrem Repository auf GitHub eine neue Datei im Verzeichnis **. Github/Workflows  **mit dem Namen **  Superlinter.yml ** und kopieren Sie den folgenden Inhalt in sie
 ```
 name: Super-Linter
 
@@ -80,8 +80,8 @@ Klicken Sie in der linken Seitenleiste auf den Workflow, den Sie sehen möchten.
 
 Der Super-L-L-Liege-Workflow, den Sie gerade hinzugefügt haben, werden jedes Mal, wenn Code in Ihr Repository weitergeleitet wird, um Probleme in Ihrem Code zu finden. Ihr Repository kann mehrere Workflows haben, die unterschiedliche Jobs basierend auf verschiedenen Ereignissen auslösen. GitHub -Aktionen können Ihnen helfen, nahezu alle Aspekte Ihrer Anwendungsentwicklungsprozesse zu automatisieren. Dies war nur eine grundlegende Einführung in die Github -Aktionen. Es stehen unzählige [Ressourcen][10] für eingehende Kenntnisse von Github-Aktionen zur Verfügung, die Sie verwenden können.
 
-## Schlussfolgerung {#Conclusion}
-In diesem Tutorial ** Github Actions ** haben wir über ** kontinuierliche Integration und kontinuierliche Bereitstellung ** und ** Was sind Github -Aktionen ** erfahren. Und wir haben auch untersucht, wie wir ** Github -Aktionen ** verwenden können, um einen CI/CD -Workflow zu erstellen. Wir haben einen einfachen Super-L-Linter-Workflow vom GitHub Action Marketplace verwendet, um Inkonsistenzen in unserer Codebasis herauszufinden. In den kommenden Artikeln werden wir die GitHub -Aktionen ausführlicher untersuchen. Darüber hinaus finden Sie andere Blog -Beiträge, die sich mit dem im Abschnitt "Explore" erwähnten ** Versionskontrollsystem ** im Abschnitt "Explore" beziehen.
+## Schlussfolgerung   {#Conclusion}
+In diesem Tutorial  **Github Actions **  haben wir über  **kontinuierliche Integration und kontinuierliche Bereitstellung **  und  **Was sind Github -Aktionen **  erfahren. Und wir haben auch untersucht, wie wir  **Github -Aktionen **  verwenden können, um einen CI/CD -Workflow zu erstellen. Wir haben einen einfachen Super-L-Linter-Workflow vom GitHub Action Marketplace verwendet, um Inkonsistenzen in unserer Codebasis herauszufinden. In den kommenden Artikeln werden wir die GitHub -Aktionen ausführlicher untersuchen. Darüber hinaus finden Sie andere Blog -Beiträge, die sich mit dem im Abschnitt "Explore" erwähnten  **Versionskontrollsystem **  im Abschnitt "Explore" beziehen.
 Schließlich schreibt [containerize.com][11] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Versionskontrollsoftware][12] in Kontakt, um regelmäßige Updates zu erhalten. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][13], [LinkedIn][14] und [Twitter][15] folgen.
 
 ## Erkunden

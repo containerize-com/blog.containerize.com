@@ -22,7 +22,7 @@ Les points suivants seront couverts dans cet article:
   * [Comment cela fonctionne-t-il et que propose-t-il? ][3]
   * [Avantages commerciaux de la mondialisation et de la localisation][4]
 
-## Qu'est-ce qu'un système de gestion des traductions? {# What-is-a-Translation-Management-System}
+## Qu'est-ce qu'un système de gestion des traductions?   {# What-is-a-Translation-Management-System}
 Un**Système de gestion de la traduction (TMS)**gère et automatise les traductions de votre site Web / logiciel ou application. Ce logiciel prend les fichiers de votre site Web en entrée, les traduit en différentes langues et met à jour le site Web automatiquement. De plus, il ne gère pas seulement les traductions, mais propose également une plate-forme intégrée où les collaborateurs et les éditeurs peuvent interagir de manière transparente.
 
 {{< figure align=center src="images/languages.png" alt="Système de gestion de la traduction open source">}}
@@ -49,7 +49,7 @@ Cette fonctionnalité est super impressionnante car elle réduit le temps et l'e
 #### Mémoire de traduction
 La mémoire de traduction fait gagner du temps, augmente l'efficacité et rend le processus de traduction encore plus rapidement. Ainsi, il conserve un enregistrement de toutes les traductions précédentes afin que toutes les chaînes répétitives soient traduites sans lancer de nouveau processus.
 
-## Avantages commerciaux de la mondialisation et de la localisation {# Avantages-en-mondialisation et localisation}
+## Avantages commerciaux de la mondialisation et de la localisation   {# Avantages-en-mondialisation et localisation}
 Cette section décrira certains des avantages importants liés à l'ajout de traductions à votre application commerciale.
 
 #### Edge concurrentiel
@@ -68,10 +68,10 @@ C'est l'un des principaux avantages de la localisation et de la mondialisation d
 Cela nous amène à la fin de ce billet de blog. Nous espérons que vous avez parcouru cet article et que vous avez bien compris l'écosystème d'un système de gestion des traductions. De plus, il existe de nombreux logiciels de gestion de traduction open source qui propose des services de localisation de sites Web. Cependant, c'est à vous de faire le choix tout en gardant à l'esprit vos besoins en matière d'entreprise. De plus, la localisation du site Web est un composant incontournable pour tout site Web d'entreprise.
 Enfin, [**contenerize.com**][6] écrit des articles sur d'autres produits open-source. Par conséquent, veuillez rester en contact pour des mises à jour régulières.
 
-## poser une question {# ask-a-question}
+## poser une question   {# ask-a-question}
 Vous pouvez nous informer de vos questions ou de vos questions sur notre [Forum][7].
 
-## faqs {#faqs}
+## faqs   {#faqs}
 
 ####**Ai-je besoin d'un système de gestion des traductions?**
 Oui, si vous avez affaire à une grande quantité de contenu impliquant des ressources statiques et dynamiques. Ainsi, vous pouvez héberger un logiciel de gestion de la traduction open source****pour automatiser et gérer les traductions.
@@ -79,7 +79,7 @@ Oui, si vous avez affaire à une grande quantité de contenu impliquant des ress
 ####**Quels sont les avantages de TMS?**
 Veuillez visiter ce [lien][4] pour connaître les avantages d'un système de gestion des traductions.
 
-## Voir aussi {# See-Also}
+## Voir aussi   {# See-Also}
   * [Logiciel de contrôle de version][8]
   * [Automatisation du marketing][9]
   * [Outils de déploiement][10]

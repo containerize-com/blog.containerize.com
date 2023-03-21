@@ -13,29 +13,29 @@ categories: ['Learning Management System']
 
 {{< figure align=center src="images/moodle-banner.png" alt="LMS Moodle">}}
 
-Kami telah menderita Covid 19 selama lebih dari setahun. Setiap bagian dunia telah ditempatkan di bawah penguncian. Ini memiliki dampak negatif pada kehidupan dan perusahaan orang di seluruh dunia. Lebih penting lagi, ini memiliki dampak besar pada sistem pendidikan kita. Lembaga pendidikan harus melakukan transisi ke pembelajaran online sehingga siswa dapat melanjutkan pendidikan mereka dari kenyamanan rumah mereka sendiri. Tanpa platform e-learning yang solid dan aman, pembelajaran online tidak mungkin. Dalam artikel ini, kita akan melihat proyek ** open source ** Moodle, yang memungkinkan guru dan siswa untuk berkomunikasi dan belajar dari mana saja.
-Kami akan membahas bagian-bagian berikut dalam artikel ini untuk ** membuat situs web e-learning ** menggunakan Moodle.
+Kami telah menderita Covid 19 selama lebih dari setahun. Setiap bagian dunia telah ditempatkan di bawah penguncian. Ini memiliki dampak negatif pada kehidupan dan perusahaan orang di seluruh dunia. Lebih penting lagi, ini memiliki dampak besar pada sistem pendidikan kita. Lembaga pendidikan harus melakukan transisi ke pembelajaran online sehingga siswa dapat melanjutkan pendidikan mereka dari kenyamanan rumah mereka sendiri. Tanpa platform e-learning yang solid dan aman, pembelajaran online tidak mungkin. Dalam artikel ini, kita akan melihat proyek **open source**  Moodle, yang memungkinkan guru dan siswa untuk berkomunikasi dan belajar dari mana saja.
+Kami akan membahas bagian-bagian berikut dalam artikel ini untuk **membuat situs web e-learning**  menggunakan Moodle.
   * [Prasyarat][1]
   * [Apa itu Moodle?][2]
   * [Fitur Moodle][3]
   * [Instalasi Moodle][4]
   * [Kesimpulan][5]
 
-## Prasyarat {#perequisites}
+## Prasyarat   {#perequisites}
 Jika Anda belum melakukannya, Anda harus menginstal dan mengkonfigurasi lingkungan lampu di server Anda.
 
-## Apa itu Moodle? {#Apa}
-[** Moodle **][6] adalah solusi e-learning bebas dan open source. Moodle adalah singkatan dari lingkungan pembelajaran dinamis yang berorientasi objek modular. Itu diciptakan untuk memberi para pendidik, administrator, dan pelajar platform e-learning untuk menciptakan dan memberikan lingkungan belajar individual. Lebih lanjut, Moodle adalah ** LMS yang cocok untuk sekolah **, universitas, dan kursus pelatihan profesional di perusahaan. Ini adalah salah satu solusi pembelajaran ** jarak jauh ** untuk membuat situs web LMS. Selain itu, Moodle memberi para guru dan siswa dengan alat yang kaya dan lingkungan belajar kolaboratif. Moodle memiliki aplikasi seluler untuk ponsel dan tablet iPhone, Android, dan Windows. Aplikasi seluler dapat digunakan dari lokasi mana pun di seluruh dunia. LMS ** yang diselenggarakan sendiri ** ini ditulis dalam PHP dan menyimpan data dalam database MySQL/PostgreSQL. Muncul dengan dokumentasi pengguna dan pengembang yang luas. Semua kode sumber tersedia di [** github **][7]. Lisensi untuk solusi open source ** e-learning ini ** adalah gplv3+.
+## Apa itu Moodle?   {#Apa}
+[**Moodle **][6] adalah solusi e-learning bebas dan open source. Moodle adalah singkatan dari lingkungan pembelajaran dinamis yang berorientasi objek modular. Itu diciptakan untuk memberi para pendidik, administrator, dan pelajar platform e-learning untuk menciptakan dan memberikan lingkungan belajar individual. Lebih lanjut, Moodle adalah  **LMS yang cocok untuk sekolah ** , universitas, dan kursus pelatihan profesional di perusahaan. Ini adalah salah satu solusi pembelajaran  **jarak jauh **  untuk membuat situs web LMS. Selain itu, Moodle memberi para guru dan siswa dengan alat yang kaya dan lingkungan belajar kolaboratif. Moodle memiliki aplikasi seluler untuk ponsel dan tablet iPhone, Android, dan Windows. Aplikasi seluler dapat digunakan dari lokasi mana pun di seluruh dunia. LMS  **yang diselenggarakan sendiri **  ini ditulis dalam PHP dan menyimpan data dalam database MySQL/PostgreSQL. Muncul dengan dokumentasi pengguna dan pengembang yang luas. Semua kode sumber tersedia di [ **github ** ][7]. Lisensi untuk solusi open source  **e-learning ini**   adalah gplv3+.
 
-## Fitur Moodle {#Features}
+## Fitur Moodle   {#Features}
 Moodle hadir dengan banyak fitur. Namun, dalam artikel ini, kami akan membahas beberapa fitur utama berikut.
-** Alat dan aktivitas kolaboratif **: Forum, wiki, glosarium, aktivitas basis data, dan alat lain memungkinkan pengguna untuk berkolaborasi dan belajar bersama. Sekelompok elemen dalam kursus Moodle disebut sebagai kegiatan. Suatu kegiatan biasanya adalah sesuatu yang dilakukan siswa di mana ia berinteraksi dengan siswa lain dan/atau guru.
-** Lacak Kemajuan **: Pendidik dan siswa dapat melacak kemajuan dan penyelesaian mereka menggunakan berbagai alat untuk melacak kegiatan atau materi tertentu serta di tingkat kursus. Ada beberapa cara untuk melacak kemajuan siswa di Moodle seperti nilai, kompetensi, penyelesaian aktivitas, penyelesaian kursus, lencana, laporan kursus, dan analitik.
-** Manajemen Plugin **: Plugin memungkinkan Anda untuk memperluas fungsionalitas mendasar Moodle dengan menambahkan fitur baru. Pengguna dapat menambahkan plugin untuk berbagai tugas seperti aktivitas tambahan, jenis pertanyaan kuis baru, laporan baru, konektor sistem, dan banyak lagi. Antarmuka admin dapat digunakan untuk menginstal dan menonaktifkan plugin.
-** Manajemen Kursus **: Buat dan kelola kursus yang memenuhi berbagai kebutuhan. Kelas yang dipimpin instruktur, kelas mandiri, kelas campuran, dan kelas online sepenuhnya adalah semua pilihan.
-** Peer dan penilaian diri **: Lokakarya dan survei adalah kegiatan bawaan yang mendorong siswa untuk melihat, menilai, dan meninjau pekerjaan mereka sendiri dan teman sekelas lainnya sebagai sebuah kelompok.
+**Alat dan aktivitas kolaboratif** : Forum, wiki, glosarium, aktivitas basis data, dan alat lain memungkinkan pengguna untuk berkolaborasi dan belajar bersama. Sekelompok elemen dalam kursus Moodle disebut sebagai kegiatan. Suatu kegiatan biasanya adalah sesuatu yang dilakukan siswa di mana ia berinteraksi dengan siswa lain dan/atau guru.
+**Lacak Kemajuan** : Pendidik dan siswa dapat melacak kemajuan dan penyelesaian mereka menggunakan berbagai alat untuk melacak kegiatan atau materi tertentu serta di tingkat kursus. Ada beberapa cara untuk melacak kemajuan siswa di Moodle seperti nilai, kompetensi, penyelesaian aktivitas, penyelesaian kursus, lencana, laporan kursus, dan analitik.
+**Manajemen Plugin** : Plugin memungkinkan Anda untuk memperluas fungsionalitas mendasar Moodle dengan menambahkan fitur baru. Pengguna dapat menambahkan plugin untuk berbagai tugas seperti aktivitas tambahan, jenis pertanyaan kuis baru, laporan baru, konektor sistem, dan banyak lagi. Antarmuka admin dapat digunakan untuk menginstal dan menonaktifkan plugin.
+**Manajemen Kursus** : Buat dan kelola kursus yang memenuhi berbagai kebutuhan. Kelas yang dipimpin instruktur, kelas mandiri, kelas campuran, dan kelas online sepenuhnya adalah semua pilihan.
+**Peer dan penilaian diri** : Lokakarya dan survei adalah kegiatan bawaan yang mendorong siswa untuk melihat, menilai, dan meninjau pekerjaan mereka sendiri dan teman sekelas lainnya sebagai sebuah kelompok.
 
-Instalasi ## Moodle {#moodle}
+Instalasi ## Moodle  {#moodle}
 Ikuti panduan langkah demi langkah di bawah ini untuk menginstal Moodle LMS di Ubuntu 18.04.
   * Pertama, jalankan perintah di bawah ini untuk mengubah unduhan Directlory dan unduh Moodle.
 ```
@@ -112,14 +112,14 @@ sudo systemctl restart nginx
   * Berikan informasi untuk situs Anda seperti nama situs lengkap, nama pendek untuk situs, ringkasan frontpage, zona waktu default, dan email tanpa-reply. Klik tombol "Simpan Perubahan".
   * Lengkapi pendaftaran situs Anda dengan memberikan informasi seperti nama situs, bahasa, wilayah, alamat email, dll.
 
-## kesimpulan {#conclusion}
-Kami belajar tentang Moodle dan fitur utamanya dalam artikel ini. Kami juga membahas pendekatan langkah demi langkah untuk menyiapkan ** Moodle LMS ** untuk ** membuat situs web e-learning **. Anda dapat meninjau [** dokumentasi resmi Moodle **][8] untuk menjadi lebih nyaman dengan berbagai fungsi seperti kursus, pendaftaran siswa, pelacakan kemajuan, dan sebagainya. Saya harap Anda menemukan posting ini berguna dalam membuat situs web LMS.
-Akhirnya, [** containerize.com **][9] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [** Sistem Manajemen Pembelajaran ini **][10] untuk pembaruan terbaru.
+## kesimpulan   {#conclusion}
+Kami belajar tentang Moodle dan fitur utamanya dalam artikel ini. Kami juga membahas pendekatan langkah demi langkah untuk menyiapkan **Moodle LMS  **untuk **  membuat situs web e-learning **. Anda dapat meninjau [ **dokumentasi resmi Moodle**  ][8] untuk menjadi lebih nyaman dengan berbagai fungsi seperti kursus, pendaftaran siswa, pelacakan kemajuan, dan sebagainya. Saya harap Anda menemukan posting ini berguna dalam membuat situs web LMS.
+Akhirnya, [**containerize.com **][9] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [ **Sistem Manajemen Pembelajaran ini**  ][10] untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[** Alat LMS Open Source **][11]
-  *[** Moodle-Sistem E-Learning **][12]
+  *[**Alat LMS Open Source** ][11]
+  *[**Moodle-Sistem E-Learning** ][12]
 
   
 [1]: #Prerequisites

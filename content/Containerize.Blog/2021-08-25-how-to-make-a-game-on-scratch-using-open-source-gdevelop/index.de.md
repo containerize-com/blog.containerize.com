@@ -16,17 +16,17 @@ categories: ['Game Development Software']
 
 ## **Überblick**
 In der nahen Vergangenheit haben wir viele Blog -Beiträge zu Open -Source -Software für kostenlose Spieleentwicklung wie [Top 5 Free Game Development Software im Jahr 2021][1][1][mit der Spieleentwicklung mit Supermächten][2], [Spiel) veröffentlicht, [Spiel Entwicklungs -Tutorial | Spielerbewegung in GDevelop][3], [HTML5 -Spielentwicklungs -Tutorial für Videospielprogrammierer][4], [wie die globale Spielebranche Open -Source -Software nutzt][5] und [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten][6 ]. Die jüngsten Fortschritte im Zeitalter des Internets haben neue Trends in der Videospielbranche gebracht. Eine Open -Source -Game -Building -Plattform bietet ein komplettes Ökosystem, um Spiele unabhängig voneinander zu entwickeln, und die Entwickler sind dann diese Plattform nach Bedarf ausgereift. In diesem Blog -Beitrag lernen wir mit [GDevelop][7], wie man ein Spiel auf Kratzer macht, indem wir die folgenden Punkte abdecken.
-  *** [Warum sollten wir GDevelop verwenden?][8] **
-  *** [Einrichten des Projekts][9] **
-  *** [Wie kann man Hintergrund und Objekt vorbereiten?][10] **
-  *** [Hinzufügen von Behviors zum Objekt][11] **
-  *** [Laufen das Spiel][12] **
-  *** [Schlussfolgerung][13] **
+  * **[Warum sollten wir GDevelop verwenden?][8] ** 
+  * **[Einrichten des Projekts][9] ** 
+  * **[Wie kann man Hintergrund und Objekt vorbereiten?][10] ** 
+  * **[Hinzufügen von Behviors zum Objekt][11] ** 
+  * **[Laufen das Spiel][12] ** 
+  * **[Schlussfolgerung][13] ** 
 
-## Warum sollten wir GDevelop verwenden? {#Warum}
+## Warum sollten wir GDevelop verwenden?   {#Warum}
 [GDevelop][7] ist eine Open -Source -Gaming -Software. Es kommt mit Selbsthostfunktionen und ist in der Natur plattformübergreifend. Sie können es herunterladen und installieren oder die Online -Version verwenden, um damit zu spielen. Benutzer müssen kein Programmierkenntnis erhalten, um diesen Spielbauer zu nutzen. Vor allem bietet es eine Drag & Drop-Benutzeroberfläche, die vorgefertigtes Spielverhalten, Vorlagen und Objekte entsteht. Diese kostenlose Spieleentwicklungssoftware ist sehr konfigurierbar und bietet Integrationen mit Bibliotheken von Drittanbietern. Für weitere Informationen zu diesem kostenlosen Tool können Sie diesen Link überprüfen, um weitere Informationen zu seinen Funktionen und den Einrichtungsprozess zu erhalten.
 
-## Einrichten des Projekts {#Setting}
+## Einrichten des Projekts   {#Setting}
 In diesem Abschnitt werden wir unser Projekt zum Aufbau eines Lkw -Rennspiels mit einigen grundlegenden Funktionen erstellen. Folgen Sie diesem [Link][6] Wenn Sie auf Ihrem lokalen Computer einrichten möchten oder die Online -Version verwenden können, indem Sie diesen [Link][14] erhalten.
 Sie finden also den folgenden Bildschirm, sobald Sie auf "Ein neues Projekt erstellen" klicken und dann auf "Leeres Spiel" klicken.
 
@@ -37,13 +37,13 @@ Sie können die Menüleiste auf der linken Seite des Fensters sehen. Klicken Sie
 {{< figure align=center src="images/Screenshot-2021-08-24-at-23.46.43-1024x580.png" alt="GDevelop -Tutorial">}}
 
 
-## Wie kann ich Hintergrund und Objekt vorbereiten? {#vorbereiten}
+## Wie kann ich Hintergrund und Objekt vorbereiten?   {#vorbereiten}
 Suchen Sie in der Suchleiste nach dem LKW -Objekt und doppelklicken Sie darauf und drücken Sie auf "Hinzufügen zum Spiel", sobald es in die Ergebnisse geliefert wird. Wiederholen Sie diesen Schritt für die beiden Räder und ein Plattformobjekt. Klicken Sie nun mit der rechten Maustaste auf das Greenfloor-Objekt und bearbeiten.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-00.07.21-1024x580.png" alt="Spielentwicklungs -Tutorial">}}
 
 
-## Hinzufügen von Behviors zum Objekt {#Add}
+## Hinzufügen von Behviors zum Objekt   {#Add}
 Ziehen Sie das Greenfloor als nächstes auf den Spielbildschirm und stellen Sie seine Höhe und Breite entsprechend Ihrem Wunsch ein. Ziehen Sie das LKW -Objekt und lassen Sie es auf den Spielbildschirm und dann auf die Radobjekte fallen. Klicken Sie mit der rechten Maustaste auf die LKW-Karosserie und klicken Sie auf "Object Truckbody bearbeiten", klicken Sie auf Verhaltensweisen, klicken Sie auf "Ein Verhalten zum Objekt hinzufügen" und klicken Sie auf "Physics Engine 2.0". Sie sehen das folgende Fenster.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-02.54.06-1024x579.png" alt="Wie man ein Spiel bei Kratzer macht">}}
@@ -69,29 +69,29 @@ Fügen Sie danach eine neue Bedingung hinzu, suchen Sie nach „Taste gedrückt�
 {{< figure align=center src="images/Screenshot-2021-08-25-at-04.38.34-1024x547.png" alt="Spielentwicklungs -Tutorial">}}
 
 
-## Ausführen des Spiels {#run}
+## Ausführen des Spiels   {#run}
 Sobald alle Schritte abgeschlossen sind. Es ist Zeit, das Spiel auszuführen, indem Sie die Taste in der oberen linken Ecke drücken. Es wird das Spiel in das neue Fenster starten.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-05.15.59-1024x543.png" alt="Wie man ein Spiel bei Kratzer macht">}}
 
 
-## Schlussfolgerung {#Conclusion}
-Dies ist das Ende dieses Blog -Beitrags, und Sie haben sicherlich erfahren, wie man ein Spiel auf Grundstücken macht. Es gibt jedoch viele kostenlose ** Spieledesign -Software ** auf dem Markt, da diese Branche an Popularität und Nachfrage gewinnt. Es gibt mehrere Gründe dafür, wie Open-Source-Software skalierbar, konfigurierbar, kostengünstig und leicht zu warten. Darüber hinaus nimmt die Nachfrage nach plattformübergreifenden Spielbauern zu, da Entwickler es angenehm finden, ein Spiel zu erstellen, das auf allen beliebten Plattformen wie Android, iOS, Web und Desktop ausgeführt wird. Andererseits hat das Aufkommen der Pandemie das Leben der Menschen verändert und sie bevorzugen es jetzt, drinnen zu bleiben. Daher spielen die Leute in ihrer Freizeit Videospiele.
+## Schlussfolgerung   {#Conclusion}
+Dies ist das Ende dieses Blog -Beitrags, und Sie haben sicherlich erfahren, wie man ein Spiel auf Grundstücken macht. Es gibt jedoch viele kostenlose  **Spieledesign -Software **  auf dem Markt, da diese Branche an Popularität und Nachfrage gewinnt. Es gibt mehrere Gründe dafür, wie Open-Source-Software skalierbar, konfigurierbar, kostengünstig und leicht zu warten. Darüber hinaus nimmt die Nachfrage nach plattformübergreifenden Spielbauern zu, da Entwickler es angenehm finden, ein Spiel zu erstellen, das auf allen beliebten Plattformen wie Android, iOS, Web und Desktop ausgeführt wird. Andererseits hat das Aufkommen der Pandemie das Leben der Menschen verändert und sie bevorzugen es jetzt, drinnen zu bleiben. Daher spielen die Leute in ihrer Freizeit Videospiele.
 Schließlich ist [Containerize.com][15] bereit, seine Tutorial -Basis mit einigen interessanteren Tutorials für Spielentwicklungen ** zu verbessern. Bitte bleiben Sie für regelmäßige Updates mit dieser Kategorie [16] -Kategorie in Verbindung.
 
 ## Erkunden
-  *** [gDevelop][7] **
-  *** [Godot][17] **
-  *** [Supermächte][18] **
-  *** [Cocos Creator][19] **
-  *** [panda3d][20] **
-  *** [Playcanvas][21] **
-  *** [Erste Schritte mit Spielentwicklung mit Supermächten][2] **
-  *** [Tutorial für Spielentwicklung | Spielerbewegung in GDevelop][3] **
-  *** [HTML5 Game Development Tutorial für Videospielprogrammierer][4] **
-  *** [Wie global Gaming -Branche Open -Source -Software nutzt][5] **
-  *** [GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten][6] **
-  *[** Top 5 Free Game Development Software im Jahr 2021 **][1]
+  * **[gDevelop][7] ** 
+  * **[Godot][17] ** 
+  * **[Supermächte][18] ** 
+  * **[Cocos Creator][19] ** 
+  * **[panda3d][20] ** 
+  * **[Playcanvas][21] ** 
+  * **[Erste Schritte mit Spielentwicklung mit Supermächten][2] ** 
+  * **[Tutorial für Spielentwicklung | Spielerbewegung in GDevelop][3] ** 
+  * **[HTML5 Game Development Tutorial für Videospielprogrammierer][4] ** 
+  * **[Wie global Gaming -Branche Open -Source -Software nutzt][5] ** 
+  * **[GDevelop -Tutorial für Anfänger, um die Spielentwicklung zu starten][6] ** 
+  *[ **Top 5 Free Game Development Software im Jahr 2021 ** ][1]
 
   
 [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/

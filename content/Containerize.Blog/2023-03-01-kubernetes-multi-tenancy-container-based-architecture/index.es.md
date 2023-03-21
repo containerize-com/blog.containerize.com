@@ -17,10 +17,10 @@ categories: ['Programming']
 ## Descripción general
 Estamos aquí con otra emocionante publicación de blog en la serie de múltiples tenientes. En nuestro [artículo] anterior [1], tocamos el concepto básico detrás de las aplicaciones multiinquiliras, los pros y los contras, y los tipos de arquitectura multiintenente. Dado que es hora de servir a múltiples usuarios/inquilinos, administrar y utilizar recursos de manera eficiente. Por lo tanto, la teniente múltiple es el enfoque principal para construir una infraestructura que maneja a varios clientes/inquilinos simultáneamente. Sin embargo, nuestra [publicación de blog] más reciente [2] demostró arquitectura sin servidor, contenedorización y [Kubernetes][3]. Por lo tanto, en este artículo, exploraremos la arquitectura múltiple y contenedor basada en contenedores. Además, veremos cómo puede lograr la tenencia múltiple en sus aplicaciones [contenedores][4].
 Los siguientes puntos se cubrirán en este artículo:
-***[hosts de contenedores multi-inquilinos][5]**
-***[Kubernetes multi-tenancia][6]**
+* **[hosts de contenedores multi-inquilinos][5]**
+* **[Kubernetes multi-tenancia][6]**
 
-## Hosts de contenedores múltiples {#Hosts-Container-Container}}
+## Hosts de contenedores múltiples   {#Hosts-Container-Container}}
 La implementación de aplicaciones de múltiples inquilinos es una tarea crítica cuando se trata de alojamiento de plataformas. Todos saben que los contenedores son livianos en comparación con las máquinas virtuales. La implementación de la aplicación toma solo unos pocos milisegundos para completar la implementación, mientras que podría ser cuestión de segundos o minutos en el caso de las máquinas virtuales.
 Sin embargo, lograr la tenencia múltiple en una arquitectura basada en contenedores es bastante sencillo. Cada inquilino es alojado por un contenedor separado con completo aislamiento y privacidad de datos. Eso significa que el número de contenedores depende del número de inquilinos. Además, se utilizarán las siguientes herramientas para lograr este enfoque:
   * Docker y Docker componen
@@ -29,7 +29,7 @@ Sin embargo, lograr la tenencia múltiple en una arquitectura basada en contened
   * Servidor de aplicaciones
 Utilizará Docker para construir la imagen, que es una plantilla para construir el contenedor. Además, usará Docker Compose para girar múltiples hosts de contenedores. Además, usará NGINX para redirigir las solicitudes entrantes al inquilino adecuado. Por lo tanto, cada host de contenedor contiene las instancias de la aplicación y la base de datos en ejecución. Este**Método de contenedores de múltiples inquilinos**no tiene intensidad de recursos y ofrece robustez en la gestión de varios inquilinos y asegurarse de que el aislamiento y la seguridad de los datos.
 
-## Kubernetes Multi-Tenancy {#Kubernetes-Multi-Tenancy-}
+## Kubernetes Multi-Tenancy   {#Kubernetes-Multi-Tenancy-}
 Kubernetes contiene muchos componentes en su arquitectura, como nodos, clúster, plano de control y más. Básicamente, no hay múltiples tenientes incorporados en Kubernetes, pero puede lograrlo. Por lo tanto, hay múltiples aplicaciones/inquilinos que se ejecutan y comparten el clúster y el plano de control de Kubernetes. Por otro lado, en aplicaciones de inquilino único, una sola instancia de la aplicación ocupa todo el clúster Kubernetes.
 
 {{< figure align=center src="images/kubernetes.svg" alt="Kubernetes multi-tenancia" >}}

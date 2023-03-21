@@ -19,13 +19,13 @@ Ketika datang untuk menemukan manajer kata sandi yang tidak hanya berfungsi untu
   * [Perbedaan Utama][3]
   * [Kesimpulan][4]
 
-## ** Apa itu bitwarden? **
+## **Apa itu bitwarden?** 
 Bitwarden adalah manajer kata sandi open source yang menjanjikan yang memiliki kompatibilitas lintas platform termasuk aplikasi seluler dan web bersama dengan antarmuka baris perintah juga. Anda juga dapat mengakses Bitwarden di desktop Anda karena memiliki kompatibilitas dengan Windows, MacOS, dan Linux. Sebagai manajer kata sandi open source, Bitwarden dapat digunakan untuk penggunaan individu serta di tingkat perusahaan. Anda tidak hanya dapat meng -host bitwarden di server Anda tetapi juga memiliki cloud hosting, dan dengan kompatibilitas perangkat silang itu dapat diakses kapan pun Anda butuhkan.
 
-## ** Apa itu Passbolt? **
+## **Apa itu Passbolt?** 
 PassBolt adalah manajer kata sandi open source yang secara khusus dikembangkan untuk bisnis. Antarmuka telah dirancang dengan mengingat kebutuhan dan persyaratan tim kecil dan besar, dan memungkinkan manajemen kata sandi yang mudah dan aman dan informasi sensitif yang perlu diakses oleh banyak karyawan secara teratur. Passbolt hanya tersedia untuk digunakan secara lokal di server Anda dan dapat diakses melalui ekstensi browser web secara online. Sebagai manajer kata sandi open source, Anda dapat secara langsung menginstal kode sumber di server Anda, atau meng -hostnya di Ubuntu, Centos 7, Digital Ocean dan banyak lagi.
 
-## ** Perbedaan utama **
+## **Perbedaan utama** 
 Baik Bitwarden dan Passbolt menyediakan banyak fitur dan fungsionalitas sebagai manajer sumber terbuka, namun mereka berbeda dalam teknik enkripsi mereka dan berbagai aplikasi sisi klien yang mereka tawarkan. Ini jadwal:
 {{_LINE_23_}}
 {{_LINE_24_}}

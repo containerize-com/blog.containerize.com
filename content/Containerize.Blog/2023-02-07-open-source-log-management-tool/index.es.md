@@ -19,16 +19,16 @@ Esta publicación de blog es para usted, ya sea un desarrollador o un profesiona
 Los siguientes puntos se cubrirán en este artículo:
 * [**¿Qué es un sistema de gestión de registros?**][3]
 * [**Desafíos adjuntos con la gestión del registro de eventos**][4]
-***[¿Cómo puede ayudar una herramienta de administración de registros de código abierto?][5]**
+* **[¿Cómo puede ayudar una herramienta de administración de registros de código abierto?][5]**
 
-## ¿Qué es un sistema de gestión de registros? {#What-is-a-log-ganagement-system}
+## ¿Qué es un sistema de gestión de registros?   {#What-is-a-log-ganagement-system}
 En palabras simples, un sistema de gestión de registro**(LMS)**es un software que recopila datos de registro y realiza varias operaciones en esos datos. Además, la herramienta**de monitoreo de registro**clasifica los datos recopilados, realiza algoritmos de análisis y luego toma decisiones sobre la retención de datos registrados. Además, un**LMS (sistema de administración de registros)**genera un informe integral después de revisar los archivos de registro del servidor que indican las vulnerabilidades, las amenazas y las lagunas de seguridad. Entonces, en pocas palabras, las herramientas de registro y monitoreo automatizan**Gestión de registros de eventos**que eventualmente ofrece una ventaja competitiva al software comercial.
 
 {{< figure align=center src="images/logs.png" alt="Sistema de gestión de registros de código abierto">}}
 
 Además, la herramienta de informes de un LMS desempeña un papel clave en la identificación de los problemas y la búsqueda de archivos de registro mediante la generación de los índices. La mejor parte es que todo lo que sucede a través de una interfaz de configuración proporcionada por el sistema de administración de registros (LMS). Sin embargo, los administradores pueden habilitar los flujos de trabajo automatizados para mantener la salud y la salud del servidor.
 
-## Desafíos adjuntos con la gestión del registro de eventos {#desafíos-atachado-con-event-log-ganagement}
+## Desafíos adjuntos con la gestión del registro de eventos   {#desafíos-atachado-con-event-log-ganagement}
 De hecho, se ha vuelto muy fácil manejar algunos de los problemas comunes y convencionales relacionados con el almacenamiento, la velocidad y la red. A pesar de que hay ciertas áreas donde los administradores del sistema enfrentan desafíos para abordar los siguientes problemas:
 **Volumen de registro masivo:**Este es uno de los desafíos que cualquier organización puede enfrentar. Se convierte en una misión imposible de recopilar y clasificar grandes cantidades de datos de registro donde hay cientos y miles de servidores involucrados. Entonces, un sistema de gestión de registros**(LMS)**ofrece disposiciones para manejar volúmenes de registro masivos de manera eficiente.
 **Variaciones de formato de datos:**La gestión de varios formatos de datos provenientes de múltiples fuentes no es un trabajo fácil y puede ser un desafío para cualquier herramienta de registro y monitoreo. Dado que los administradores del sistema no están seguros sobre el formato de datos proveniente de varios puntos finales del sistema.
@@ -36,7 +36,7 @@ De hecho, se ha vuelto muy fácil manejar algunos de los problemas comunes y con
 **Accesibilidad**: Es otro factor que puede conducir a la molestia. Además, la indexación de registros y la adición de características de búsqueda hacen que los archivos de registro sean accesibles. Agregar marcas de tiempo y categorizar los datos de registro puede permitir que los administradores del sistema consulten datos de registro almacenados.
 **Operativo****Costo**: A**Sistema de gestión de registros (LMS)**es un componente imprescindible de cualquier infraestructura de TI que funcione en cualquier organización. Cada vez que se produce algún desglose de la aplicación, debería ser fácil solucionar problemas y atrapar la causa raíz. Además, los entornos basados ​​en la nube vienen con mecanismos de registro más complejos, por lo que optar por una herramienta de registro y monitoreo****seguramente hará que el proceso sea eficiente.
 
-## ¿Cómo puede ayudar una herramienta de gestión de registros de código abierto? {#How-An-Open-Source-log-ganagement-tool-can-help}
+## ¿Cómo puede ayudar una herramienta de gestión de registros de código abierto?   {#How-An-Open-Source-log-ganagement-tool-can-help}
 Aquí viene la comunidad de código abierto que ha estado contribuyendo enormemente al mundo tecnológico. Al igual que las otras categorías de software, hay muchas**herramientas de monitoreo de registro de código abierto**que ofrecen funciones de nivel empresarial para almacenar y administrar archivos de registro. Además, un LMS de código abierto puede hacer que sus archivos de registro sean más accesibles y reducir los costos adjuntos a las prácticas manuales.
 De hecho, cada vez que hay algún bloqueo de software o desglose del sistema, se trata de cómo registra los detalles operativos.**Software de administración de registros de eventos de código abierto**ofrece una interfaz intuitiva y personalizable. Entonces, hay muchos otros aspectos que cubriremos en la próxima publicación del blog.
 

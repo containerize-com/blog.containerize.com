@@ -97,15 +97,15 @@ http：// localhost/owncloud/
 {{_LINE_79_}}
 是的！我们使用OwnCloud安装指南来构建个人云存储。现在，您知道如何在Ubuntu上完全安装owncloud，以逐步构建类似于Dropbox或Google Drive的私有云。
 
-## ** owncloud的最佳替代方案是什么？** {#4a1a}
+##  **owncloud的最佳替代方案是什么？**    {#4a1a}
 以下是自托管的ownCloud替代方案和竞争对手文件托管软件。
-  *** Seafile **是开源跨平台文件托管软件系统
-  *** NextCloud **是免费的，开源云存储平台
-  *** resilio Sync **是开源对等文件同步应用程序
-  *** Pydio单元**是开源文件共享和同步软件
+  ***Seafile** 是开源跨平台文件托管软件系统
+  ***NextCloud** 是免费的，开源云存储平台
+  ***resilio Sync** 是开源对等文件同步应用程序
+  * **Pydio单元** 是开源文件共享和同步软件
   ***同步**是免费的，开源对等文件同步应用程序
 
-## **结论：** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+## **结论：**   {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
 恭喜！您已经成功安装和配置了OwnCloud，以使用Ubuntu Machine上的Apache构建自己的私有云。现在，您的数据永远不会掌握在第三方手中，并且可以在虚拟的私有云Ollcloud Ubuntu Server存储中私下管理。由于数据隐私的许多问题，许多公司选择使用许多重要信息来创建自己的云服务器。在即将到来的教程中，我们将讨论Web服务器解决方案堆栈的更多有趣主题。
 _您可以在[Twitter][2]，[LinkedIn][3]和我们的[Facebook][4]页面上加入我们。您在线使用哪种基于云的存储解决方案？如果您有任何疑问，请_ [联系][5]。
 

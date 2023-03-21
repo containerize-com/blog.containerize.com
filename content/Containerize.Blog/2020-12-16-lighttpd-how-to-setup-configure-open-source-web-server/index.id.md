@@ -20,11 +20,11 @@ Selain itu, Open Source Community telah mengembangkan banyak server web open sou
   * [Bagaimana cara mengkonfigurasi lighttpd?][7]
   * [Kesimpulan][8]
 
-## Apa itu LightTpd? {#Apa}
+## Apa itu LightTpd?   {#Apa}
 Dibandingkan dengan server web lain seperti Apache dan Nginx, server web LightTPD memiliki jejak memori kecil, sehingga menyediakan manajemen CPU-Load yang efektif. Server web yang ringan ini menyediakan set fitur canggih termasuk FastCGI, SCGI, AUTH, kompresi output dan-encering, dll. Ini memungkinkan aplikasi web yang ditulis dalam bahasa pemrograman apa pun untuk digunakan dengan server. FastCGI LightTPD dapat dikonfigurasi untuk mendukung PHP. Selain PHP, ia juga mendukung bahasa pemrograman lainnya termasuk Python, Perl, Ruby, dan banyak lagi.
 Ada banyak server web open source dan server proxy web tetapi LightTPD ada di atas daftar yang banyak digunakan. Solusi server web ini sangat mudah diatur dan membutuhkan persyaratan sederhana seperti Ubuntu 18.04. Selain itu, mereka yang ingin menggunakan solusi open source ini dapat mengunduh rilis terbaru dari [tautan] ini [9]. Di atas segalanya, ini mendukung banyak bahasa selain PHP seperti Python, Ruby, Perl, dan banyak lagi. Selain itu, semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, pengembang dapat menemukan kode sumber di [GitHub][10].
 
-## manfaat lightpd {#benefits}
+## manfaat lightpd   {#benefits}
 Di bagian ini, kami akan melalui manfaat dan ketentuan yang ditawarkan server web open source ini. Oleh karena itu, jika Anda mencari server web yang cepat, efisien, dan aman, maka server web LightTPD adalah pilihan terbaik untuk Anda. Itu tidak membutuhkan banyak memori dan penggunaan CPU. Yang menjadikannya salah satu yang terbaik untuk proyek apa pun yang membutuhkan kecepatan dan kinerja tinggi. LightTPD dapat menangani hingga 10000 koneksi secara paralel pada satu server. LightTPD adalah solusi sempurna untuk setiap server yang menderita kecepatan atau masalah kinerja. Solusi gratis ini hemat biaya dan hemat sumber daya.
 Lebih lanjut, solusi server web ini menawarkan dukungan untuk hampir semua platform populer seperti Windows, Linux, Solaris, dan MacOS. Demikian juga, LightTPD adalah banyak hal untuk sistem tertanam dan memiliki kemampuan untuk melayani konten statis dan dinamis kepada banyak pengguna bahkan dengan sumber daya yang terbatas. Dikenal karena keamanan, kecepatan, kepatuhan, dan fleksibilitasnya, LightTPD dengan cepat mendefinisikan kembali efisiensi server web.
 Lighttpd memberikan manfaat penting berikut:
@@ -34,7 +34,7 @@ Lighttpd memberikan manfaat penting berikut:
   * mod_proxy membuat permintaan http/1.1 ke backends (ubah dari http/1.0)
   * Dukungan untuk menggunakan chroot dan mod_rewrite
 
-## Bagaimana cara mengkonfigurasi lighttpd? {#configure}
+## Bagaimana cara mengkonfigurasi lighttpd?   {#configure}
 Di bagian posting blog ini ini, kami mengeksplorasi langkah -langkah untuk mengonfigurasi LightTPD. Menginstal LightTPD di Ubuntu sangat sederhana dan mudah. Cukup gunakan perintah berikut dan Anda baik untuk pergi
 ```
 $ sudo apt install lighttpd
@@ -74,9 +74,9 @@ Periksa apakah lighttpd dikonfigurasi dan diinstal dengan benar dengan mengunjun
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="Cara Mengatur dan Mengkonfigurasi LightTPD Untuk Situs Web Kinerja Tinggi">}}
 
 
-## kesimpulan {#conclusion}
+## kesimpulan   {#conclusion}
 Ini membawa kita ke akhir posting blog ini. Kami telah melalui apa itu Lighttpd? Bagaimana cara mengkonfigurasi lighttpd? dan mengatur prosedur. LightTPD adalah server web gratis, berkinerja tinggi, dan open source yang dirancang untuk lingkungan yang sangat kritis. Jejak memori rendah, beban CPU kecil, dan optimasi kecepatan membuatnya cocok untuk server yang menderita masalah beban. Ini ringan, aman, dan cepat dibandingkan dengan server web lainnya, yang menjadikannya salah satu pilihan terbaik untuk situs web berkinerja tinggi dan kritis kecepatan. Lighttpd memiliki komunitas yang sangat hidup dan bersemangat yang memberikan dukungan untuk masalah dan pertanyaan. Ada banyak produk open source oper dan posting blog yang relevan yang dapat Anda lalui yang disebutkan di bagian "Jelajahi" di bawah ini. Oleh karena itu, artikel ini benar -benar dapat membantu Anda jika Anda ingin memilih server web open source untuk bisnis Anda.
-Akhirnya, ** [containerize.com][12] ** telah menulis pada produk open source lebih lanjut. Harap tetap berhubungan dengan kategori [Solusi Solusi Web] ini [1] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][13], [LinkedIn][14], dan [Twitter][15].
+Akhirnya, **[containerize.com][12]**  telah menulis pada produk open source lebih lanjut. Harap tetap berhubungan dengan kategori [Solusi Solusi Web] ini [1] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][13], [LinkedIn][14], dan [Twitter][15].
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:

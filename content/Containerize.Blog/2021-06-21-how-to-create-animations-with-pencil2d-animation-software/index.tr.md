@@ -12,7 +12,7 @@ categories: ['Animation Software']
 {{< figure align=center src="images/How-To-Create-Animations-With-Pencil2D-Animation-Software.png" alt="Pencil2D animasyon yazılımı ile animasyonlar nasıl oluşturulur">}}
 
 
-## ** PENEM2D, kullanıcıların 2D animasyonlar ve eskizler oluşturmasını sağlayan açık kaynaklı bir animasyon yazılımıdır. Bu makale Pencil2D ** ile nasıl animasyon oluşturulacağı ile ilgilidir.
+## **PENEM2D, kullanıcıların 2D animasyonlar ve eskizler oluşturmasını sağlayan açık kaynaklı bir animasyon yazılımıdır. Bu makale Pencil2D**  ile nasıl animasyon oluşturulacağı ile ilgilidir.
 Animasyonlar ve çizimler oluşturmak için yeni yazılım öğrenmek söz konusu olduğunda, yeni yazılımlara hakim olmanıza ve animasyonları öğrenmenize yardımcı olabilecek bir grup öğretici ve kılavuz oluşturduk. İster yeni başlayan ister gelişmiş bir kullanıcı olun, [geçmiş yayınlarımız][1] sizin için doğru animasyon uygulamasını bulmanıza yardımcı olabilir. Pencil2D animasyon yazılımı ile animasyonların nasıl oluşturulacağını öğrenmek için aşağıdaki konuları ele alalım.
   * [Pencil2D nedir?][2]
   * [Pencil2D nasıl kurulur?][3]
@@ -20,11 +20,11 @@ Animasyonlar ve çizimler oluşturmak için yeni yazılım öğrenmek söz konus
   * [Pencil2D ile Animasyonlar Nasıl Oluşturulur?][5]
   * [Sonuç][6]
 
-## Pencil2D nedir? {#What-Is-Pencil2D}
+## Pencil2D nedir?   {#What-Is-Pencil2D}
 [PENEM2D][7], kullanıcıların farklı projeler için 2D çizgi film ve animasyon eskizleri oluşturmalarını sağlayan geleneksel bir animasyon uygulamasıdır. GNU Genel Kamu Lisansı altında lisanslı açık kaynaklı bir animasyon yazılımı olduğu için Pencil2D'yi hem kişisel projeler hem de ticari çabalar için kullanabilirsiniz. Pencil2D kullanmak, yazıda daha fazla göreceğiniz gibi oldukça basittir. Hem yeni başlayan animatörler hem de profesyonel kullanıcılar tarafından da kullanılabilir.
 [Pencil2d][7] ile animasyonlarınız bitmap veya vektör çizimlerinde saklanır ve animasyonların etkili yönetimi için bir raster/vektör iş akışı kullanır. Pencil2D kullanırken kabul edilebilir dosya biçimlerinden bazıları PNG, JPEG, BMP, TIFF vb. Görüntüler için ve videolar için AVI, MP4, GIF ve daha fazlasıdır. Windows, Mac OS, Linux ve FreeBSD ile de uyumludur.
 
-## Pencil2D nasıl kurulur? {#yükleme-p-poncen2d}
+## Pencil2D nasıl kurulur?   {#yükleme-p-poncen2d}
 Terminali açın ve aşağıdaki komutu yazarak yerel sunucunuzun paket dizinini güncelleyin:
 ```
 sudo apt-get update -y
@@ -36,18 +36,18 @@ sudo apt-get install -y pencil2d
 
 ```
 
-## Uygulama Arabirimine Genel Bakış {#Application Interface}
+## Uygulama Arabirimine Genel Bakış   {#Application Interface}
 Pencil2D ile animasyonların nasıl oluşturulacağına dair gerçek Pencil2D öğreticisi ile başlamadan önce, kullanıcı arayüzüne biraz genel bakış ve araçları ve özellikleri bilmek için bazı iyi.
-  *** Beyaz Tahta: ** Pencil2D'yi ilk kez başlattığınızda, ortada animasyonun ana bölümünü oluşturacağınız kontrol panelleri, araçları ve özellikleriyle çevrili bir ana beyaz tahta göreceksiniz.
-  *** Araçlar: ** Sol tarafta, fırça aracı, kalem, silgi, renk eklemek için kova aracı ve bir çizgi film veya animasyon çizmenize ve tanımlamanıza izin verecek tüm özellikleri içeren araçlar özelliğini bulacaksınız.
-  *** Seçenekler Kutusu: ** Araçlar kutusunun altında, kullandığınız araçların niteliklerini tanımlama seçeneğini elde edeceğiniz seçenek penceresini ekleme veya kaldırma yeteneğine sahipsiniz. Örneğin, bir fırça kullanıyorsanız, fırçanın kalınlığı arasında geçiş yapabilirsiniz, rengin ne kadar hafif veya koyu görüneceği ve benzer özellikler.
-  *** Ekran kutusu: ** Seçeneklerin altında, beyaz tahtaya çizdiğiniz çizimi sağa veya sola çevirme, soğan derisini önceki eskizlere uygulama ve daha fazlası gibi ekran kutusu bulunur.
-  *** Renk paleti: ** Burada çizimlerinize eklenebilecek tüm mevcut renkleri bulacaksınız.
-  *** Renk Kutusu: ** Renk paletinin hemen altında, renk tekerleğinden belirli renk tonlarını seçmenizi sağlayan renk kutusudur.
-  *** Zaman Çizelgesi Paneli: ** Bu, Bitmap katmanı, vektör katmanı ve kamera katmanından başlayarak animasyonunuza katmanlar uygulamanıza izin veren Pencil2D'nin en önemli bölümlerinden biridir. Ayrıca bir video animasyonu oluşturmak, çerçeveleri silmek ve yinelenen çerçeveler ve daha fazlasını oluşturmak için anahtar çerçeveler de ekleyebilirsiniz.
+  ***Beyaz Tahta:**  Pencil2D'yi ilk kez başlattığınızda, ortada animasyonun ana bölümünü oluşturacağınız kontrol panelleri, araçları ve özellikleriyle çevrili bir ana beyaz tahta göreceksiniz.
+  ***Araçlar:**  Sol tarafta, fırça aracı, kalem, silgi, renk eklemek için kova aracı ve bir çizgi film veya animasyon çizmenize ve tanımlamanıza izin verecek tüm özellikleri içeren araçlar özelliğini bulacaksınız.
+  ***Seçenekler Kutusu:**  Araçlar kutusunun altında, kullandığınız araçların niteliklerini tanımlama seçeneğini elde edeceğiniz seçenek penceresini ekleme veya kaldırma yeteneğine sahipsiniz. Örneğin, bir fırça kullanıyorsanız, fırçanın kalınlığı arasında geçiş yapabilirsiniz, rengin ne kadar hafif veya koyu görüneceği ve benzer özellikler.
+  ***Ekran kutusu:**  Seçeneklerin altında, beyaz tahtaya çizdiğiniz çizimi sağa veya sola çevirme, soğan derisini önceki eskizlere uygulama ve daha fazlası gibi ekran kutusu bulunur.
+  ***Renk paleti:**  Burada çizimlerinize eklenebilecek tüm mevcut renkleri bulacaksınız.
+  ***Renk Kutusu:**  Renk paletinin hemen altında, renk tekerleğinden belirli renk tonlarını seçmenizi sağlayan renk kutusudur.
+  ***Zaman Çizelgesi Paneli:**  Bu, Bitmap katmanı, vektör katmanı ve kamera katmanından başlayarak animasyonunuza katmanlar uygulamanıza izin veren Pencil2D'nin en önemli bölümlerinden biridir. Ayrıca bir video animasyonu oluşturmak, çerçeveleri silmek ve yinelenen çerçeveler ve daha fazlasını oluşturmak için anahtar çerçeveler de ekleyebilirsiniz.
 Bu araçları ustalaşıp anladıktan sonra, animasyon ve eskizler oluşturmaya başlayabilir veya gittikçe öğrenmeye çalışabilirsiniz.
 
-## Pencil2D ile animasyonlar nasıl oluşturulur? {#create-animations}
+## Pencil2D ile animasyonlar nasıl oluşturulur?   {#create-animations}
 Şimdi, Pencil2D ile temel bir animasyon oluşturmaya geçebiliriz.
 {{_LINE_38_}}
 {{_LINE_39_}}
@@ -78,7 +78,7 @@ Bu araçları ustalaşıp anladıktan sonra, animasyon ve eskizler oluşturmaya 
 {{_LINE_54_}}
 Şimdi animasyonu bir web sitesine gömebilir, bir tarayıcıya veya masaüstünüze ve daha fazlasını oynatabilirsiniz.
 
-## Sonuç {#Conclusion}
+## Sonuç   {#Conclusion}
 Yukarıdaki öğreticiden de görebileceğiniz gibi, Pencil2D ile animasyonlar oluşturmak anlaşılması ve yürütülmesi oldukça kolaydır. Animasyon yazılımı, yeni başlayanlar dostu olacak şekilde ve profesyoneller tarafından da benimsenmede hızlı bir şekilde oluşturulmuştur. 2D eskiz veya animasyon oluşturma söz konusu olduğunda Pencil2D'de birçok seçenek vardır ve herhangi bir illüstratör gerçekten uygulama ile güçlü bir portföy oluşturabilir.
 [Pencil2D][7] daha önce bahsettiğimiz gibi birçok işletim sistemi ile uyumludur, böylece seçtiğiniz ortamdaki animasyon yazılımını takabilir ve oynayabilirsiniz. Pencil2D ile ilgili daha fazla öğretici arıyorsanız, sadece web sitelerine göz atabilirsiniz. Ayrıca web sitemizde bulabileceğiniz diğer animasyon yazılım programlarını kullanmak için birçok öğretici ve rehber oluşturduk, bu yüzden daha fazla netlik için kontrol edin.
 

@@ -19,16 +19,16 @@ Yapay zeka, şu anki zamanın en yüksek puan alan konusudur. Aslında, gelecek 
 Aşağıdaki konular bu blog gönderisinde ele alınacaktır:
 * [**Yapay zeka nedir (AI)?**][1]
 * [**Yapay Zeka Türleri**][2]
-***[Yapay Zekanın Uygulamaları][3]**
+* **[Yapay Zekanın Uygulamaları][3]**
 
-## Yapay Zeka (AI) nedir? {#What-IS-ETKİ-TAŞIRLIK}
+## Yapay Zeka (AI) nedir?   {#What-IS-ETKİ-TAŞIRLIK}
 Yapay zeka, makinelerde insan zekasının simülasyonuna işaret eden bilgisayar bilimi konusudur. İnsan yapımı makineleri büyük veri setlerini işlemek ve karmaşık sorunları çözmek için yeterince akıllı hale getirmek için bir adımdır. Bilgisayar çalışmasının bu dalına göre, bilgisayarlar kendi kendine öğrenmeye ve kendi kendine yönelik sonuçlar çekmeye programlanmıştır. Makine öğrenimi ve doğal dil işleme (NLP) yapay zekayı bir insan beyni gibi şeyleri düşündürdü ve işledi. Makine öğrenimi, makinelerin veri ve eğitim yardımıyla öğrenebilecek kadar yetenekli bir süreçtir.
 
 {{< figure align=center src="images/artificial-intelligence-1.png" alt="Yapay Zekaya Giriş">}}
 
 Bununla birlikte, makine öğrenimi, çoklu işlem öğelerinin katmanlı bir yapıda birbiriyle bağlantılı olduğu bir sinir ağı yöntemi olan derin öğrenme kullanır. AI'da, işleme makineleri veri kümelerine ve deneme yöntemlerine dayalı şeyler öğrenir ve farklı işler için tekrar tekrar programlanması gerekmez.
 
-## Yapay Zeka Türleri {#Tür-Tür-İstihbarat Türleri}
+## Yapay Zeka Türleri   {#Tür-Tür-İstihbarat Türleri}
 Temel olarak, iki tür yapay zeka vardır. Blog yayınının bu bölümü bu iki türü gösterecektir.
 
 #### Zayıf Yapay Zeka
@@ -37,7 +37,7 @@ Bu AI kategorisine göre, sistemler daha az karmaşık problemleri çözmek içi
 #### Güçlü Yapay Zeka
 Güçlü yapay zeka, insan beyninin tam simülasyonunu sunar. Yapay genel zeka ve yapay süperlık da bu kategoriye giriyor. Bu kategori, insan müdahalesi olmadan işleri işleme ve karar alma yeteneğini içeren sistemler ve modeller tasarlar. Etkileşimli robotlar güçlü AI örnekleridir ve kendi kendine giden otomobiller de büyük veri setleriyle eğitilmiş ve sinir ağı kullanarak karar alabilen sistemlerle zenginleştirilmiştir. Ayrıca, bu tür sistemler geçmiş deneyimlerine dayanarak tahminler yapabilir.
 
-##**Yapay Zekanın Uygulamaları**{#Eş-İstek Uygulamaları}
+##**Yapay Zekanın Uygulamaları** {#Eş-İstek Uygulamaları}
 Aşağıdaki noktalar size yapay zekanın bazı önemli uygulamaları hakkında bir fikir verecektir:
 **Konuşma tanıma**: Doğal dil işleme, AI'nın insan sesini işleyen ve çıktıyı yazılı veya başka bir biçimde veren ana dalıdır. Bu özellik cep telefonları, otomobiller ve daha fazlası gibi birçok cihazda mevcuttur.
 **Yüz tanıma**: Bu uygulamaya göre, AI birden fazla yüz vizyonunu karşılaştırabilir ve belirli bir yüz yapısını tespit etme yeteneğine sahiptir. Buna ek olarak, farklı konuşma aksanlarına, el yazısına, gürültü ve daha fazlasını eşleştirmek ve göstermek için yapay zekayı kullanabilirsiniz.

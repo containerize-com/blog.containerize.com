@@ -21,7 +21,7 @@ categories: ['Artificial intelligence']
 * [**วิธีการรวม CHATGPT กับ Google Sheets?**][6]
 * [**วิธีใช้ CHATGPT ใน Google Sheets?**][7]
 
-## วิธีการรวม chatgpt กับ Google Sheets {#วิธีการรวม chatgpt-with-google-sheets}
+## วิธีการรวม chatgpt กับ Google Sheets   {#วิธีการรวม chatgpt-with-google-sheets}
 **การรวม CHATGPT**ด้วยซอฟต์แวร์ใด ๆ จะให้ความได้เปรียบในการแข่งขันกับธุรกิจ โมเดลที่ขับเคลื่อนด้วย AI ที่สามารถเริ่มการสนทนาสองทางและคุณฝังด้วยซอฟต์แวร์ของคุณว่าการรวมนั้นมีประสิทธิภาพมากแค่ไหน? แน่นอนว่าน่าทึ่งมาก ดังนั้นคุณขอให้แชทบ็อตแก้ปัญหาทางเทคนิคและคุณได้รับการตอบกลับทันเวลานั่นหมายถึงการประหยัดเวลาและความพยายามอย่างมาก
 มาเริ่มกันเถอะ**Google Sheets Integration กับ CHATGPT**
 ก่อนอื่นให้เปิด Google [Sheets][3] และคลิก**“ ส่วนขยาย-> add-ons-> รับ add-on”**เมื่อคุณทำสิ่งนี้คุณจะเห็นกล่องโต้ตอบในตลาด Google Workspace ตอนนี้พิมพ์“ chatgpt” ในแถบค้นหาที่อยู่ที่มุมบนขวาและเลือกตัวเลือกแรกตามที่แสดงในภาพด้านล่าง
@@ -35,7 +35,7 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="การรวม CHATGPT">}}
 
 
-## วิธีใช้ CHATGPT ใน Google Sheets? {#วิธีการใช้งาน-Chatgpt-in-google-sheets}
+## วิธีใช้ CHATGPT ใน Google Sheets?   {#วิธีการใช้งาน-Chatgpt-in-google-sheets}
 เมื่อมีการตั้งค่าคีย์ OpenAI API แล้วคุณพร้อมที่จะใช้ประโยชน์จากการรวม**ChatGPT และ Google Sheets ที่ทรงพลังนี้**มีวิธีการมากมายที่เสนอโดย ChatGPT ที่คุณสามารถโทรได้โดยพิมพ์ = GPT ()
 ตัวอย่างเช่นคุณสามารถขอให้แชทบ็อตที่ขับเคลื่อนด้วย AI นี้เขียนคำอธิบายผลิตภัณฑ์ของรถยนต์โดยเรียกใช้ฟังก์ชั่นด้วยวิธีต่อไปนี้:
 ```
