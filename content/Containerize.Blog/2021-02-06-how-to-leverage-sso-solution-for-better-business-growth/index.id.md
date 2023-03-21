@@ -25,7 +25,7 @@ Kami baru-baru ini menerbitkan posting blog di [5 Top Open Source Single Sign-On
 [Single Sign-On][6] adalah perangkat lunak identifikasi dan **otentikasi**  yang memungkinkan Anda untuk masuk menggunakan situs pihak ketiga. Perangkat lunak SSO bertindak sebagai penyedia identitas sehingga Anda dapat masuk ke beberapa situs dengan satu set nama pengguna/kata sandi. Namun, ini adalah mekanisme login satu kali dan sistem SSO memastikan keaslian pengguna.
 Selain itu, sistem ini telah banyak digunakan pada tingkat kecil dan perusahaan untuk mengelola identitas pengguna di berbagai aplikasi. Ada banyak perangkat lunak masuk tunggal open-source yang tersedia yang menggunakan protokol otorisasi populer seperti OpenID OpenID, SAML, dan OAuth.
 
-## **Bagaimana Single Sign-On (SSO) Bekerja?**    {#Features}
+## **Bagaimana Single Sign-On (SSO) Bekerja?** {#Features}
 Mekanisme kerja **Open Source Single Sign-On**  lurus. Pengguna memasukkan kredensial dalam formulir login, pengguna akan dipindahkan setelah berhasil menyelesaikan otentikasi SSO. Sekarang, setiap kali pengguna mengunjungi situs apa pun yang terintegrasi dengan solusi SSO apa pun, sistem akan memeriksa salah satu pengguna sudah masuk atau tidak. Lebih lanjut, jika pengguna sudah masuk, server akan mengeluarkan pelacak/token dan token/pelacak ini akan digunakan untuk memastikan otentikasi Anda di beberapa aplikasi. Seiring dengan kemampuan SSO, ini juga menyediakan fitur manajemen pengguna dan keamanan seperti yang disebutkan di bawah ini.
   * Mudah digunakan
   * Identitas federasi

@@ -24,10 +24,10 @@ Daher migrieren mehr Benutzer **von WordPress zu Ghost** . Es gibt viele Inhalte
   ***[Inhalt in den Geist importieren][7]** 
   ***[Fazit][8]** 
 
-## **Ein WordPress -Intro**    {#WP}
+## **Ein WordPress -Intro** {#WP}
 [WordPress][9] ist eine führende Open -Source -Blogging -Plattform, die eine große Anzahl von Websites betrieben hat. Diese kostenlose Blogging-Software ist selbst gehostet, mehrsprachig und unterstützt viele Sprachen. Darüber hinaus ist die Entwicklungsgemeinschaft von WordPress sehr lebendig und hat einen gigantischen Pool nützlicher Plugins entwickelt, die leicht verfügbar sind. Diese Plugins adressieren fast jeden Anwendungsfall Ihrer Unternehmenswebsite. Darüber hinaus ist es in PHP geschrieben und verfügt über umfassende Dokumentation zu Entwicklung und Bereitstellung. Der gesamte Quellcode ist auf GitHub verfügbar. Darüber hinaus ist diese Blogging-Plattform hoch erweiterbar, konfigurierbar und bietet Integrationen mit Anwendungen von Drittanbietern. Es gibt ein sehr logisches und leicht verständliches Dashboard, in dem Benutzer Elemente ziehen können, um das Erscheinungsbild ihrer Websites zu ändern.
 
-## **Was ist Ghost?**    {#ghost}
+## **Was ist Ghost?** {#ghost}
 [Ghost][10] ist eine weitere beliebte Open -Source -Blogging -Plattform. Dies ist eine der am häufigsten verwendeten Content -Publishing -Plattformen, die von Entwicklern und Site -Eigentümern stark übernommen werden. Darüber hinaus ist Ghost hochseo-freundlich und verfügt über integrierte Themen, Formulare, E-Mail-Newsletter und Abonnements. Diese kostenlose Blogging -Software ist in JavaScript geschrieben und alle Dokumentationen finden Sie in Bezug auf Entwicklung und Bereitstellung.
 
 ## Anforderungen   {#Requirements}

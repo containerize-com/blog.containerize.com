@@ -80,7 +80,7 @@ Ayrıca, sol tarafta animasyonları ayarlayabileceğiniz, görüntüyü oluştur
 
 Aynı şekilde, bu oyun makalesinden geçtikten sonra, daha fazla keşfedebilir ve tüm özellikleri kullanabilirsiniz. Ayrıca, Superpowers Video Game Builder'ı kullanarak nasıl devam edeceğinizi anlayabileceksiniz. Bu oyun geliştirme yazılımı için çevrimiçi destek mevcuttur.
 
-## **Sonuç**    {#Conclusion}
+## **Sonuç** {#Conclusion}
 Bu, bu HTML5 oyun geliştirme kılavuzuna bir son verir. Umarım, video oyunu geliştirmeye başlamak istiyorsanız bu blog yazısı size yardımcı olacaktır. Süper güçlerin ne olduğunu, açık kaynaklı bir 3D oyun oluşturucu olan bir video oyunu nasıl geliştirileceğini araştırdık ve ayrıca Localhost'ta kurulum prosedüründen geçtik. Kullanıcıların sıfırdan oyun oluşturmasına izin veren birçok açık kaynak **video oyunu tasarım uygulamaları**  vardır. Video oyunu programcıları, yüksek kaliteli oyunlar oluşturmak için temel oyun tasarım ilkelerini kullanır. [Blog.containerize.com][8] adresindeki önümüzdeki makalelerimizde 2D ve 3D oyunlar oluşturma hakkında daha fazla bilgi edineceksiniz. Aşağıdaki “Keşfet” bölümünde belirtilen başka açık kaynak, kendi kendine barındırılan 3D oyun inşaatçıları ve ilgili makaleler vardır.
 Son olarak, Containerize.com sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [video oyunu geliştirme][9][][10] kategorisiyle iletişim halinde olun. Dahası, bizi sosyal medya hesaplarımızda [Facebook][11], [LinkedIn][12] ve [Twitter][13] 'te takip edebilirsiniz.
 

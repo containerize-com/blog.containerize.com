@@ -23,7 +23,7 @@ L'interface utilisateur d'un site Web d'entreprise a toujours été la partie la
   * [Jd Austin][6]
   * [Conclusion][7]
 
-## **Xeon  **- **  Template de Joomla SinglePage GRATUITE**    {#xeon}
+## **Xeon  **- **  Template de Joomla SinglePage GRATUITE** {#xeon}
 [Xeon][8] est un modèle de Joomla à la mode gratuit. Il peut être utilisé à plusieurs fins telles que les sites Web personnels, d'entreprise, d'événements ou d'entreprises. En plus de cela, ce modèle **Joomla One Page**  fournit une navigation basée sur les animations jQuery et CSS. Il semble une option appropriée pour les utilisateurs en raison de ces fonctionnalités utiles.
 Cependant, certaines caractéristiques dominantes du modèle **Xeon**  sont:
   * Disposition réactive
@@ -32,7 +32,7 @@ Cependant, certaines caractéristiques dominantes du modèle **Xeon**  sont:
   * HTML5, CSS3, support SCSS
   * Support des langues du droit à gauche
 
-## **JD Seattle  **- **  Modèle de Joomla multifonctionnel léger**    {#jd}
+## **JD Seattle  **- **  Modèle de Joomla multifonctionnel léger** {#jd}
 [JD Seattle][9] est un modèle Joomla largement utilisé. De plus, il est construit à l'aide d'un framework astroïde. De plus, il est équipé d'un panneau d'administration robuste avec de nombreuses autres fonctionnalités et animations. Il est intégré à JD Builder qui, par conséquent, donne à l'utilisateur la conception et la création de n'importe quelle section par des éléments de glisser-déposer. Il est adapté à la mise en page et s'adapte tout de suite à n'importe quel écran. Il fournit une navigation logique où les utilisateurs peuvent insérer autant d'éléments de menu au besoin. Les propriétaires de sites Web peuvent contacter les visiteurs du site via un formulaire de contact qui est emballé dans ce modèle d'entreprise Joomla. De plus, plus de 800 polices Google sont prises en charge dans JD Seattle.
 Surtout, certaines caractéristiques importantes de **JD Seattle**  sont:
   * Navigation avec des éléments de menu illimités
@@ -41,7 +41,7 @@ Surtout, certaines caractéristiques importantes de **JD Seattle**  sont:
   * Prise en charge des couleurs RVB
   * Bootstrap 4 Prise en charge du cadre
 
-## **dino  **- **  modèle de Joomla personnalisable gratuit**    {#Dino}
+## **dino  **- **  modèle de Joomla personnalisable gratuit** {#Dino}
 [Dino][10] est un modèle très dynamique concernant les améliorations régulières et les nouvelles mises à jour des fonctionnalités. Ce modèle est compatible avec Bootstrap 4. De plus, il peut être facilement personnalisé en fonction des besoins de l'entreprise. Il existe des développements réguliers qui mettent à jour ce modèle Joomla avec de nouvelles fonctionnalités et look.
 **Dino**  est un choix parfait en raison des caractéristiques importantes suivantes:
   * Polices Google gratuites
@@ -50,7 +50,7 @@ Surtout, certaines caractéristiques importantes de **JD Seattle**  sont:
   * Disposition amicale
   * 100+ composants uniques
 
-## **Jollyany  **- **  modèle Joomla avec fonctionnalités infinies**    {#jollyany}
+## **Jollyany  **- **  modèle Joomla avec fonctionnalités infinies** {#jollyany}
 [Jollyany][11] est un modèle Joomla en riches. Surtout, il est pris en charge par le framework Astoid et le framework Bootstrap v4.5. De plus, il propose un frontal modulaire où les utilisateurs peuvent personnaliser l'interface utilisateur selon les exigences. Il y a plus de 60 plugins pris en charge dans ce modèle de Joomla gratuit. Les utilisateurs ont les options pour choisir n'importe quel en-tête à partir de plusieurs options d'en-tête. Si vous êtes destiné à concevoir un site Web personnel, blog, entreprise ou blog, **Jollyany**  est le meilleur choix.
 Il s'agit d'un cadre très utile avec de nombreuses fonctionnalités telles que:
   * Prise en charge du menu Canvas
@@ -59,7 +59,7 @@ Il s'agit d'un cadre très utile avec de nombreuses fonctionnalités telles que:
   * Optimiser HTML, JS, CSS
   * 6 types d'articles
 
-## **JD Austin  **- **  SEO Template de Joomla optimisé**    {#Austin}
+## **JD Austin  **- **  SEO Template de Joomla optimisé** {#Austin}
 **[JD Austin][12]  **est un modèle d'entreprise réactif gratuit **  Joomla** , cependant, il offre des options puissantes pour les sites Web commerciaux et non commerciaux. Son optimisation des moteurs de recherche est effectuée selon les normes définies par Google. Surtout, il est livré avec un générateur de formulaire pré-intégré ChronoForm où les utilisateurs peuvent créer n'importe quel formulaire à l'aide d'une interface de glisser-déposer. De plus, ce modèle maintient des dispositions très réactives avec une typographie et des couleurs riches. Il fournit également des intégrations avec des extensions tierces.
 D'un autre côté, certaines fonctionnalités intéressantes de ce modèle de Joomla gratuit incluent:
   * Disposition du blog entièrement personnalisée

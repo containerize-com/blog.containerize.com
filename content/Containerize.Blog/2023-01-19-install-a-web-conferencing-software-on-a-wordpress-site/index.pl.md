@@ -21,15 +21,15 @@ W tym artykule zostaną omówione następujące punkty:
   *[ **krótkie wprowadzenie do WordPress** ][4]
   * **[Jak zainstalować wtyczkę BigBlueButton w WordPress?][5]**
 
-##  **Co to jest BIGBLUEBUTTON?**    {#co-is-bigBlueButton}
+##  **Co to jest BIGBLUEBUTTON?** {#co-is-bigBlueButton}
 [BigBlueButton][6] to oprogramowanie do współpracy wideo bez open source **z ogromnym stosem funkcji na poziomie przedsiębiorstw. To oprogramowanie typu open source jest wysoce rozszerzalne i oferuje integrację z wieloma popularnymi aplikacjami, takimi jak WordPress, [Redmine][7], [Schoology][8], [Drupal][9] i płótno. Ponadto oferuje współdzieloną tablicę, wysyła wiadomości publiczne/prywatne, dźwięk HD, elektroniczne podnoszenie ręki wraz z bogatymi narzędziami do prezentacji. Ponadto ** BIGBLUEBUTTON**  jest obsługiwany HTML5 i działa dobrze na wszystkich popularnych przeglądarkach internetowych.
 Ponadto to  **oprogramowanie do konferencji internetowych**  ma ogromną i żyjącą społeczność programistów. Istnieją bardzo dobre statystyki na jego [GitHub Repo][10] z 7,8 tys. Gwiazd i widelca 5,8 K. BigBlueButton jest napisany w JavaScript wraz z wkładem innych języków, takich jak Java i Ruby. W rzeczywistości programiści mogą znaleźć kompleksową dokumentację dotyczącą rozwoju, wdrażania i wykorzystania. Możesz więc łatwo skonfigurować to samoobsługiwane oprogramowanie na serwerze lokalnym lub chmurowym.
 
-##  **Krótkie wprowadzenie do WordPress**    {#A-Brief-Intro-to-Wordpress}
+##  **Krótkie wprowadzenie do WordPress** {#A-Brief-Intro-to-Wordpress}
 [WordPress][2] jest jedną z najlepszych  **platform blogowych open source**  w kategorii oprogramowania do strony internetowej. To oprogramowanie typu open source jest przyjazne dla użytkownika, nawet program dla początkujący na poziomie internetowym może wykonać budowanie witryny i uruchomić je. Ponadto WordPress jest bardzo konfigurowalny i możesz go dostosować zgodnie z wymaganiami biznesowymi. Przede wszystkim ma ogromny [rynek][11], w którym można znaleźć wiele wtyczek.
 To  **oprogramowanie do blogowania**  ma możliwości samodzielnego hostowania i istnieje pełna obsługa wielu dostępnych języków. Ponadto istnieją bardzo dobre statystyki na jego repozytorium [github][12] i możesz pobrać kod źródłowy i łatwo go skonfigurować. Ponadto możesz zainstalować wtyczkę dla dowolnej funkcjonalności na swojej stronie WordPress. W rzeczywistości możesz znaleźć wtyczki dla stron należących do dowolnej kategorii. Jest napisany głównie w PHP i można znaleźć pełne instrukcje dotyczące rozwoju, wdrażania i użytkowania.
 
-##  **Jak zainstalować wtyczkę BigBlueButton w WordPress?**    {#How-to-install-BigBlueButton-Plugin-in-WordPress}
+##  **Jak zainstalować wtyczkę BigBlueButton w WordPress?** {#How-to-install-BigBlueButton-Plugin-in-WordPress}
 W tej sekcji pokaże, jak  **zainstalować oprogramowanie do konferencji internetowych na stronie WordPress** . Ponadto będziemy również trochę więcej zbadać wtyczkę BigBlueButton. Przed kontynuowaniem upewnij się, że zainstalowałeś WordPress na swoim komputerze i masz witrynę biznesową.
 Odwiedź ten [link][2] W przypadku, gdy nie zainstalowałeś WordPress, możesz znaleźć pełne instrukcje instalacji.
 Rozpocznijmy proces instalacji BigBlueButton [wtyczka][13] na WordPress.

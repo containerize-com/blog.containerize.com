@@ -26,12 +26,12 @@ categories: ['Message Queue Software']
 ## Apache Kafka簡介 {#intro}
 Apache Kafka開源消息經紀在LinkedIn啟動，後來成為一個開源Apache項目。 Kafka消息代理軟件是在Scala和Java中開發的。 Apache Kafka經紀人是一個發布訂閱消息系統，它也可以在應用程序，服務器和處理器之間交換數據。它是快速，可擴展的，並且按設計分發。它能夠每秒處理數百萬個數據或消息。它是源（生產者）系統和目標（消費者）系統之間的調解人。 Netflix，Uber和數千家公司等組織使用Apache Kafka實時流媒體。與其他消息系統相比，KAFKA消息隊列軟件具有更好的吞吐量，內置分區，複製和固有的容錯公差。這使其非常適合大規模消息處理應用程序。
 
-##什麼是消息系統？   {#messaging}
+## 什麼是消息系統？   {#messaging}
 消息系統是兩個或多個人，設備等之間的消息簡單交換。它負責從一個應用程序到另一個應用程序的數據傳輸，因此應用程序可以專注於數據，但不必擔心如何共享。
 一種類型的消息傳遞系統是“點到點消息系統”。在此系統中，生產者發送時將存儲在隊列中。只有一個消費者可以在任何給定時間消耗消息。而且，一旦消耗消息，它將從隊列中刪除。該系統的示例之一是訂單處理系統。只有一個進程可以收取訂單。
 消息系統的另一種類型是Pub-sub消息系統，該系統允許發件人發送消息和接收器來讀取該消息。在Apache Kafka消息傳遞中，發件人被稱為發布消息的生產者，並且接收器被稱為消費者，通過訂閱該消息，可以消費該消息。該系統的一個示例是您的有線電視發布許多頻道，任何人都可以訂閱他們選擇的頻道，並在訂閱的頻道可用時獲得。
 
-##基本術語 {#terms}
+## 基本術語 {#terms}
 在我們談論最佳消息隊列Apache Kafka之前，您必須了解一些術語。
   ***主題**：屬於特定類別的消息流稱為主題。
   ***分區**：主題可能具有許多分區，因此他們可以處理任意數量的數據。
@@ -44,7 +44,7 @@ Apache Kafka開源消息經紀在LinkedIn啟動，後來成為一個開源Apache
   ***領導者**：是負責所有給定分區的所有讀取和寫入的節點。
   ***追隨者**：遵循領導說明的節點稱為追隨者。
 
-##安裝步驟 {#steps}
+## 安裝步驟 {#steps}
 
 ###步驟1  - 驗證Java安裝
 希望您現在已經在計算機上安裝了Java，因此您只需使用以下命令對其進行驗證。
@@ -93,7 +93,7 @@ $ bin/zookeeper-server-start.sh config/zookeeper.properties
 $ bin/kafka-server-start.sh config/server.properties
 ```
 
-##創建一個主題 {#create}
+## 創建一個主題 {#create}
 要將您的消息或事件寫入主題，您必須首先創建一個主題。創建一個主題打開您的終端並運行以下命令：
 ```
 $ bin/kafka-topics.sh --create --topic weather-updates --bootstrap-server localhost:9092
@@ -106,7 +106,7 @@ Topic:weather-updates  PartitionCount:1    ReplicationFactor:1 Configs:
 
 ```
 
-##將消息寫入主題 {#write}
+## 將消息寫入主題 {#write}
 運行控制台生產者客戶端以將一些事件寫入您的主題。默認情況下，您輸入的每一行都將導致將單獨的事件寫入主題。
 ```
 $ bin/kafka-console-producer.sh --topic weather-updates --bootstrap-server localhost:9092
@@ -114,7 +114,7 @@ Weather for New York is Cloudy
 Weather for Houston is Rainy
 ```
 
-##從主題 {#read}讀取消息
+## 從主題 {#read}讀取消息
 打開另一個終端會話並運行控制台消費者客戶端以閱讀您剛創建的事件：
 ```
 $ bin/kafka-console-consumer.sh --topic weather-updates --from-beginning --bootstrap-server localhost:9092
@@ -123,7 +123,7 @@ Weather for Houston is Rainy
 ```
 隨意進行實驗：例如，切換回您的生產者終端（上一步）以編寫其他事件，並查看這些事件如何立即顯示在您的消費者終端中。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在本教程中，我們了解了Apache Kafka使用的基礎知識。我們安裝了Kafka排隊服務，然後配置了它。我們還學習瞭如何在Kafka中創建主題，將消息發送到主題以及如何讀取主題的消息。我希望這篇文章對您有用。讓我們在下一篇文章中見面。
 _您使用什麼開源分佈式事件流平台？您有任何疑問嗎？
 

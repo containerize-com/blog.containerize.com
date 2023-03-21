@@ -9,7 +9,7 @@ url: /ko/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
 categories: ['Game Development Software']
 ---
 
-##이 게임 개발 자습서는 트럭 경주 게임 구축의 기본 사항을 설명합니다. 그것을 설치하거나 온라인 앱을 사용하여 흥미로운 비디오 게임을 구축 할 수 있습니다.
+## 이 게임 개발 자습서는 트럭 경주 게임 구축의 기본 사항을 설명합니다. 그것을 설치하거나 온라인 앱을 사용하여 흥미로운 비디오 게임을 구축 할 수 있습니다.
 
 {{< figure align=center src="images/gdevelop-game.png" alt="스크래치에서 게임을 만드는 방법">}}
 

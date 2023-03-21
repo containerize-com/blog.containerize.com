@@ -146,7 +146,7 @@ Następnie wprowadź nazwę użytkownika i hasło dla administratora. Następnie
 
 Tak! Zrobione. Teraz wiesz, jak całkowicie zainstalować oprogramowanie do udostępniania plików Pydio Self Hosted i open source w Ubuntu do budowy chmury prywatnej krok po kroku podobnym do Dropbox lub Dysku Google.
 
-##  **Wniosek:**    {#4a1a}
+##  **Wniosek:** {#4a1a}
 W tym samouczku z powodzeniem zainstalowałeś bezpieczne udostępnianie plików Pydio Cells w systemie Ubuntu. Możesz użyć tego artykułu, aby stworzyć infrastrukturę chmurową do przechowywania, zabezpieczania i udostępniania plików w chmurze hostowanej. Użyj wspólnego udostępniania dokumentów Pydio i najlepszej bezpłatnej aplikacji udostępniania plików, aby uzyskać większą kontrolę nad danymi i zapewnić skuteczną współpracę w organizacji biznesowej. W naszych nadchodzących samouczkach omówimy bardziej interesujące tematy rozwiązań pamięci masowej w chmurze open source i narzędzi do współpracy.
 _Your może dołączyć do nas na [Twitter][1], [LinkedIn][2] i naszą stronę [Facebook][3]. Jaką platformę Udostępnianie opartego na chmurze _file używasz online?. Jeśli masz jakieś pytania, proszę [skontaktuj się][4].
 

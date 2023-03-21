@@ -22,10 +22,10 @@ Sistem manajemen konfigurasi ini menawarkan utilitas untuk mempertahankan catata
   *[**Dampak perangkat lunak CMDB pada Layanan Manajemen Aset TI** ][7]
   ***[Kesimpulan][8]** 
 
-## **Apa itu perangkat lunak CMDB?**    {#what}
+## **Apa itu perangkat lunak CMDB?** {#what}
 [Perangkat Lunak Database Manajemen Konfigurasi][1] adalah database yang menyimpan informasi tentang item konfigurasi dan detail hubungannya. Selain itu, ada banyak jenis item konfigurasi (CI) yang bisa berupa perangkat keras atau perangkat lunak dan CIS adalah komponen integral dari perangkat lunak CMDB. Beberapa organisasi menggunakan solusi ini untuk melacak lokasi bisnis, dokumen, dan kontrak bisnis. Pemangku kepentingan bisnis berhasil membuat keputusan yang tepat dengan harus melihat semua aset dan ketergantungan mereka satu sama lain. Oleh karena itu, mereka dapat memperkirakan tren, potensi, dan ancaman di masa depan yang mungkin terjadi. Solusi bebas ini memberikan demonstrasi data yang jelas dengan cara yang diatur dengan baik. Ada dasbor yang ramah pengguna dan logis yang mengambil data dari berbagai sumber secara real-time, memprosesnya, dan kemudian menunjukkan data yang diproses dalam berbagai jenis widget. Selain itu, perangkat lunak CMDB yang dirancang untuk memberikan dukungan untuk CI tambahan jika diperlukan.
 
-## **TOP 5 Open Source Perangkat lunak CMDB Terbaik**    {#top}
+## **TOP 5 Open Source Perangkat lunak CMDB Terbaik** {#top}
 Di bagian ini, kami akan menjelajahi perangkat lunak database manajemen konfigurasi teratas.
 
 ## # Ralph
@@ -71,7 +71,7 @@ ITOP menawarkan fitur utama
 **Manajemen Insiden** : Organisasi dapat memanfaatkan perangkat lunak database manajemen konfigurasi untuk melacak manajemen insiden. Selain itu, perangkat lunak CMDB dengan mode pembaruan otomatis membuat insiden apa pun di loop untuk manajemen masalah yang lebih baik.
 **Peningkatan Keamanan:**  Memiliki perangkat lunak CMDB yang diperbarui dapat memberi Anda kepercayaan diri mengenai keamanan dan Anda dapat mengambil keputusan tentang kerentanan apa pun.
 
-## **Kesimpulan**    {#conclusion}
+## **Kesimpulan** {#conclusion}
 Ini adalah akhir dari posting blog ini. Dalam artikel ini, kami menemukan bahwa **sistem manajemen konfigurasi  **memainkan peran yang menentukan dalam layanan manajemen aset TI dengan memberikan transparansi, efisiensi, dan ketahanan. Lebih lanjut, ini memusatkan data dan untuk pemahaman yang lebih baik tentang risiko dan peluang. Namun, sudah saatnya memilih solusi open source **  CMDB**  untuk departemen TI Anda dan meningkatkan operasi bisnis yang jika tidak memakan waktu.
 Akhirnya, [**containerize.com** ][16] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [][17][Konfigurasi Manajemen Database (CMDB][1]) untuk pembaruan rutin.
 

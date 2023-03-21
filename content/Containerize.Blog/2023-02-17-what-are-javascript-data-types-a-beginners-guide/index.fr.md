@@ -20,10 +20,10 @@ Nous couvrons le point suivant:
   * [Qu'est-ce qu'un type de données?][2]
   * [Quels sont les types de données JavaScript?][3]
 
-## Types de données expliqués | Qu'est-ce qu'un type de données?   {# What-is-a-data-type}
+## Types de données expliqués | Qu'est-ce qu'un type de données?   {#What-is-a-data-type}
 Un type de données consiste à dire au compilateur comment interpréter ou compiler les données. L'utilisation des types de données est critique et doit être utilisée judicieusement. En termes simples, il s'agit du format des données telles que le nombre, la chaîne, le booléen et plus encore. Cependant, il existe deux catégories de types de données types de données primitifs et types de données non primitives. Il existe huit types de données primitifs que nous allons passer dans la section suivante.
 
-## Quels sont les types de données JavaScript?   {# What-are-javascript-data-type}
+## Quels sont les types de données JavaScript?   {#What-are-javascript-data-type}
 En fait, JavaScript est un langage dactylographié vaguement, ce qui signifie que vous n'avez pas à définir explicitement le type de variable. Vous pouvez attribuer n'importe quelle valeur à une variable et cette variable stockera cette valeur telle que String, BigInt, Boolean ou plus.
 
 {{< figure align=center src="images/web-development.png" alt="Guide du débutant JavaScript">}}

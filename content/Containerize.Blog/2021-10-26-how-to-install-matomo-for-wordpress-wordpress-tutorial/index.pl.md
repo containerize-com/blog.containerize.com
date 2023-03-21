@@ -37,7 +37,7 @@ Następnie zainstaluj tę wtyczkę i naciśnij Aktywuj, aby ją aktywować, aby 
 
 Piękno WordPress polega na tym, że bezproblemowo komunikuje się z wtyczką Matomo przez API. To oprogramowanie open source  **Analytics **  zapewnia kod śledzenia, podobnie jak Google Analytics. Dlatego nie musisz ręcznie wstawiać kodu śledzenia, a raczej dzieje się to automatycznie. Wreszcie wtyczka Matomo jest instalowana i konfigurowana w WordPress i możesz zacząć śledzić dane witryny firmy.
 
-## **Matomo Dashboard **    {#Dashboard}
+## **Matomo Dashboard ** {#Dashboard}
 Ten  **WordPress samouczek **  opisał integrację wtyczki open source  **Matomo ** . Teraz zbadajmy jego pulpit nawigacyjny, który zapewnia potężne moduły. W menu Matomo Analytics kliknij opcję „Raportowanie”, która zabierze Cię na deskę rozdzielczą Matomo w Twojej witrynie, jak pokazano na poniższym obrazku.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="Analityka internetowa typu open source">}}

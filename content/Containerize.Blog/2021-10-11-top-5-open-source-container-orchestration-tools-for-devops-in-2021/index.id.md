@@ -92,7 +92,7 @@ Docker Swarm Container Orchestration dimulai pada wadah dan dibangun, memberikan
 **Alat paling populer yang terintegrasi dengan Nomad**  adalah Docker, Vault, Hashicorp Sentinel, Consul, Portworx, HoMio, dan Gloo Edge.
 **Perusahaan teratas yang menggunakan nomad**  dalam tumpukan teknologi mereka adalah kelopak, trivago, wealthsimple, edgelab, fundamentei, sistem 5G, aislelab, botmetrik, taboola dan fachete inc.
 
-## **Apa itu alat manajemen kontainer open source?**    {#4a1a}
+## **Apa itu alat manajemen kontainer open source?** {#4a1a}
 Ada banyak manfaat dari solusi orkestrasi kontainer dibandingkan mesin virtual (VM). Kontainer berbagi kernel sistem operasi tunggal, diluncurkan dalam beberapa detik alih-alih menit yang diperlukan untuk memulai mesin virtual (VM). Meningkatkan dan menggandakan wadah sangat mudah, memiliki ukuran disk yang kecil, dan mudah dibagikan. **Platform manajemen kontainer**  adalah aplikasi cloud yang mengelola banyak kontainer. Berikut ini adalah daftar perangkat lunak manajemen kontainer terbaik yang paling banyak digunakan dan daftar orkestra kontainer untuk merampingkan aspek spesifik manajemen kontainer.
   ***[Rancher][12]**  adalah platform manajemen kontainer terbaik sumber terbuka untuk mengelola kubernet pada skala.
   ***[Apache mesos][13]**  adalah manajer kluster open source generasi berikutnya dan layanan orkestrasi wadah Apache.
@@ -101,7 +101,7 @@ Ada banyak manfaat dari solusi orkestrasi kontainer dibandingkan mesin virtual (
   ?
   ***[Amazon Elastic Kubernetes Service (Amazon EKS)][17]**  adalah layanan orkestrasi AWS kontainer untuk menjalankan aplikasi Kubernetes dan infrastruktur manajemen.
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 **Bagaimana cara kerja teknologi orkestrasi kontainer untuk aplikasi bisnis dan perangkat lunak Anda?  **Lima alat orkestrasi wadah Docker Top Docker yang disebutkan di atas adalah perangkat lunak DevOps open source yang paling populer dan terbaik. Jika Anda harus mengingat hanya satu informasi utama untuk membantu Anda memilih **  Kubernetes vs Docker Swarm  **vs RedHat **  OpenShift vs Compose**  vs Hashicorp Nomad, seharusnya setiap solusi akan memiliki beberapa keuntungan dan kerugian. Ada opsi platform orkestrasi lain yang menawarkan fitur yang berbeda pada orkestrasi layanan. Pada akhirnya, opsi mana yang Anda ambil tergantung pada skala yang ingin Anda capai dan ekosistem mana yang paling Anda sukai. Untuk menyelam lebih dalam ke orkestrasi kontainer, tetap mengunjungi [Containerize Blog][18].
 _ Apa alat orkestrasi wadah terbaik Anda? Apakah Anda memiliki pertanyaan tentang daftar orkestra kontainer yang disebutkan di atas?, Silakan_ [hubungi][19].
 

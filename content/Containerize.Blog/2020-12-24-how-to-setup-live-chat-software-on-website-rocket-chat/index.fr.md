@@ -59,7 +59,7 @@ Puis configurer l'aspect et la sensation du widget de chat en direct
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="widget livechat de fusée.Chat">}}
 
 
-## **Installez le widget de chat en direct sur votre site Web**    {#Widget}
+## **Installez le widget de chat en direct sur votre site Web** {#Widget}
 Dans cette section, nous installerons des widgets de chat en direct sur le site Web de l'entreprise. Maintenant, pour accéder à **Installation livechat**  Paramètres:
 Accédez à **Installation LiveChat**  dans les paramètres du panneau omnicanal, comme indiqué ci-dessous, et copiez le morceau de code donné.
 

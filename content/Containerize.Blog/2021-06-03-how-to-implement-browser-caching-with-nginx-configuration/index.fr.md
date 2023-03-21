@@ -20,11 +20,11 @@ Dans la série de didacticiels de notre Nginx, nous avons couvert [comment utili
   * [**Levier de mise en cache du navigateur avec configuration Nginx** ][8]
   * [**Conclusion** ][9]
 
-## Levier Cache de navigateur   {# Browser-caching}
+## Levier Cache de navigateur   {#Browser-caching}
 Plus un site Web se charge rapidement, plus un visiteur est susceptible de rester sur le site Web. Les sites Web avec beaucoup d'images et le contenu interactif sont chargés en arrière-plan font que le site Web ouvre une tâche complexe. Il consiste à demander de nombreux fichiers différents du serveur un par un. La minimisation de la quantité de ces demandes est une façon d'accélérer votre site Web.
 Une méthode pour améliorer les performances du site Web consiste à rédiger le navigateur Caching_. La mise en cache du navigateur joue un rôle énorme dans le mécanisme de cache pour augmenter la vitesse de la page. Des fichiers statiques comme CSS, JS, JPEG, PNG, etc. qui sont utilisés pour le site Web peuvent être enregistrés sur l'ordinateur du visiteur pour un accès futur. Chaque fois que le visiteur rencontre une nouvelle page sur votre site Web, les fichiers ci-dessus sont accessibles à partir de l'ordinateur du visiteur au lieu de votre serveur fourni, ce qui augmentera considérablement la vitesse de chargement de la page.
 
-## Module d'en-tête de Nginx   {# module d'en-tête}
+## Module d'en-tête de Nginx   {#module d'en-tête}
 Le module _ngx \ _http \ _headers_module_ permet d'ajouter les champs d'en-tête «_expires_» et «_cache-control_» et les champs arbitraires, vers un en-tête de réponse. Nous pouvons utiliser le module d'en-tête pour définir ces en-têtes HTTP. Le module d'en-tête est un module Nginx de base, ce qui signifie qu'il n'a pas besoin d'être installé séparément pour être utilisé.
 Exemple de configuration ressemble à ceci:
 ```
@@ -73,7 +73,7 @@ Connection: keep-alive
 ```
 Cette fois, Nginx répondra avec **304 non modifié** . Il n'enverra plus le fichier sur le réseau; Au lieu de cela, il indiquera au navigateur qu'il peut réutiliser le fichier qu'il a déjà téléchargé localement. Ceci est utile car il réduit le trafic réseau. Mais le navigateur doit toujours passer un appel HTTP pour obtenir une réponse du serveur, ce qui prend toujours un certain temps.
 
-## Levier de mise en cache du navigateur avec configuration nginx   {# nginx-configuration}
+## Levier de mise en cache du navigateur avec configuration nginx   {#nginx-configuration}
 Dans notre exemple précédent, nous avons expliqué comment l'e-Tag et le silence de ne pas vous aider à réduire le trafic réseau. Mais le problème avec «Etag» est que le navigateur envoie toujours une demande au serveur en demandant s'il peut réutiliser son fichier en cache. Et cela prend encore du temps pour faire la demande et recevoir la réponse.
 Maintenant, avec l'aide du module d'en-tête de Nginx, nous ferons le navigateur pour mettre en cache certains fichiers localement sans demander explicitement au serveur.
 Ajoutez les 3 lignes suivantes dans votre fichier de configuration Nginx pour mettre en cache du contenu statique dans Nginx

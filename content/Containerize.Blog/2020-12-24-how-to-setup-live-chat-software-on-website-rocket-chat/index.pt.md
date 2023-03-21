@@ -59,7 +59,7 @@ E depois configure a aparência e a sensação do widget de bate -papo ao vivo
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat LiveChat Widget">}}
 
 
-## **Instale o widget de bate -papo ao vivo no seu site**    {#widget}
+## **Instale o widget de bate -papo ao vivo no seu site** {#widget}
 Nesta seção, instalaremos widgets de bate -papo ao vivo no site de negócios. Agora, para acessar **Instalação do LiveChat**  Configurações:
 Vá para **Instalação do LiveChat**  nas configurações do painel Omnichannel, como mostrado abaixo, e copie a parte do código fornecido.
 

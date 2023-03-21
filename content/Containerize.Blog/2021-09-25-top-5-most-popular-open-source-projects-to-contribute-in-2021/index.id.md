@@ -91,7 +91,7 @@ Ansible Open Source **Alat Otomasi  **dan Perangkat Lunak Gratis ditulis dalam P
 Python adalah bahasa skrip berorientasi objek yang digunakan untuk membangun aplikasi dalam kecerdasan buatan, pembelajaran mesin, aplikasi desktop, dll. Bahasa Python dikelola oleh organisasi independen Amerika yang didirikan sebagai 501 (c) (3) nirlaba, **Django Yayasan Perangkat Lunak**  (DSF).
 **Perusahaan top menggunakan Django**  termasuk Instagram, Spotify, National Geographic, Pinterest, MacArthur Foundation, Disqu, Bitbucket, Mozilla, Open Stack dan banyak lagi.
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 Lima proyek perangkat lunak open source yang disebutkan di atas adalah perangkat lunak open source yang paling populer dan terbaik untuk pengembang. Jika Anda menjelajahi proyek open source yang baik untuk pemula untuk pertama kalinya maka periksa Laporan Negara Octoverse dan jangan ragu untuk menambah dan berkontribusi. Daftar Perangkat Lunak Open Source Membuka pintu untuk inovator dan pengembang aplikasi dalam membangun karier sambil memungkinkan mereka untuk mengerjakan beberapa platform terbesar di seluruh dunia. Contoh perangkat lunak open source terbaik yang kami sebutkan di atas hanyalah bukti seberapa menguntungkan aplikasi open source.
 _Apa proyek perangkat lunak gratis & open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang proyek open source?, Silakan_ [hubungi][12].
 

@@ -29,7 +29,7 @@ Ce **article de blog d'introduction**  est de fournir un aperçu des produits lo
   * [Logiciel de facturation][12]
   * [Signe unique des systèmes][13]
 
-## **Générer et organiser le contenu du site Web de l'entreprise**    {#cms}
+## **Générer et organiser le contenu du site Web de l'entreprise** {#cms}
 Le site Web Home, Products Home et Products Pages Pages sont le principal lieu de marketing pour les produits ou les services qui offrira. Ainsi, vous pouvez le considérer comme une sortie d'une usine d'où les clients peuvent voir, essayer de faire du shopping. Par conséquent, vous avez besoin d'une plate-forme de gestion de contenu appropriée AKA CMS Software. De plus, ces logiciels aident à contrôler la structure, la mise en page et le flux de contenu. Dans la catégorie des logiciels CMS, il existe de nombreuses options de logiciels open source populaires dans différentes langues et plates-formes. À ce stade, Containerize.com couvre les plates-formes CMS populaires suivantes:
   * [Joomla][14] - un logiciel CMS leader avec des milliers d'extensions.
   * [Drupal][15] - Un logiciel PHP CMS flexible facile avec une communauté dynamique
@@ -38,7 +38,7 @@ Le site Web Home, Products Home et Products Pages Pages sont le principal lieu d
   * [Umbraco][18] - Système de gestion de contenu basé sur .NET flexible et convivial
 Nous élaborerons bientôt des informations sur davantage d'options CMS ainsi que des ressources utiles. Par conséquent, veuillez garder un œil sur la section [Gestion du contenu][19] pour d'autres mises à jour.
 
-## **Choisissez une bonne plateforme de blogging**    {#blogging}
+## **Choisissez une bonne plateforme de blogging** {#blogging}
 Les blogs sont un élément essentiel de toute entreprise. Les entreprises utilisent des blogs pour publier des mises à jour et des annonces. Les équipes d'assistance peuvent également utiliser des blogs pour publier des tutoriels utiles sur vos services et produits. De plus, la fonctionnalité des commentaires est un excellent moyen d'interagir avec votre public. En bref, le blog est le moyen de tenir votre public informé et engagé.
 Pour l'instant, les **meilleures plates-formes de blogs suivantes**  sont enrôlées:
   * [WordPress][20] - Meilleure plate-forme de blogging avec des plugins riches et des capacités d'hébergement
@@ -48,7 +48,7 @@ Pour l'instant, les **meilleures plates-formes de blogs suivantes**  sont enrôl
   * [Silverstripe][24] - CMS et plate-forme de blogs basées sur PHP hautement personnalisables
 Des logiciels de blogs plus open source seront ajoutés à la liste. Alors, restez en contact avec la section [logiciel de blogging][25] pour les mises à jour.
 
-## **Forum de discussion pour le bâtiment communautaire**    {#forums}
+## **Forum de discussion pour le bâtiment communautaire** {#forums}
 Le forum de discussion est utilisé pour mener des discussions publiques autour de vos produits, offrandes ou services. De telles discussions publiques encouragent le public à se joindre à des discussions. Par conséquent, vous pouvez développer un aperçu de votre entreprise avec un avantage supplémentaire de la construction communautaire. Surtout, la plupart des ventes tournent autour du bouche à oreille. Ainsi, au cas où vous pouvez construire une bonne communauté, la croissance des ventes est également obtenue. De plus, du point de vue du moteur de recherche, les discussions communautaires continuent de générer un nouveau contenu. Par conséquent, cela ajoute également une valeur de trafic organique. Pour le moment, Containerize.com maintient une pile de Forums de discussion ci-dessous **: **
   * [Discours][26] - Meilleure plate-forme de discussion avec des fonctionnalités de modération intégrées
   * [FLARUM][27] - Plateforme de discussion communautaire légère avec riche expérience utilisateur
@@ -57,7 +57,7 @@ Le forum de discussion est utilisé pour mener des discussions publiques autour 
   * [PHPBB][30] - Logiciel de forum de discussion puissant basé sur PHP à base de PHP
 Ces logiciels open source fournissent un support commercial complet pour une **plate-forme de discussion active** . De plus, un logiciel de forum de discussion open source utile et populaire sera ajouté dans la section [Forums de discussion][31] avec des informations nécessaires et utiles.
 
-## **Système de billetterie d'assistance pour le support client**    {#helpdesk}
+## **Système de billetterie d'assistance pour le support client** {#helpdesk}
 Le service de support client est la partie la plus importante pour la satisfaction des clients. Sans satisfaction des clients, votre survie est à risque, surtout lorsqu'il existe plusieurs alternatives disponibles. Un système d'assistance basé sur la billetterie permet aux clients de créer des billets privés pour les problèmes auxquels ils sont confrontés, tout en aident les propriétaires d'entreprise à maintenir une trace systématique des problèmes des clients afin que le ballon ne soit jamais abandonné.
 Dans cette catégorie, Containerize.com fournit des détails pour les Open source suivants **Systèmes de billetterie:** 
   * [OSTICKET][32] - Système de billetterie Web multi-utilisateurs largement utilisé
@@ -67,7 +67,7 @@ Dans cette catégorie, Containerize.com fournit des détails pour les Open sourc
   * [AIDE][36] - Logiciel multicanalnel Helpdesk intégré à Mailgun
 Ce sont des systèmes de billets de support open source populaires qui permettent aux clients de signaler les problèmes. De plus, ces systèmes permettent à vos équipes d'assistance de résoudre leurs problèmes signalés. Ainsi, les clients et les équipes d'assistance peuvent suivre les problèmes signalés. Veuillez rester informé de la section [Helpdesk Software][37] pour d'autres mises à jour.
 
-## **Automatisation du marketing de contenu numérique**    {#crm}
+## **Automatisation du marketing de contenu numérique** {#crm}
 Les services de marketing et de vente utilisent **Outils d'automatisation du marketing**  pour les campagnes marketing et les activités de vente afin de générer des prospects, d'engager les clients et de maximiser l'efficacité. Pour l'instant, Containerize.com fournit des informations sur les plates-formes d'automatisation du marketing open source:
   * [Mautic][38] - Plateforme d'automatisation du marketing pour livrer des campagnes très performantes
   * [Civicrm][39] - CRM polyvalent pour automatiser les campagnes de marketing avec de nombreuses extensions
@@ -76,7 +76,7 @@ Les services de marketing et de vente utilisent **Outils d'automatisation du mar
   * [ESPOCRM][42] - Technologie de marketing open source intégrée à MailChimp
 Le logiciel CRM open source mentionné vous aide à identifier votre public. De plus, ceux-ci aident à concevoir le bon contenu et à déclencher automatiquement des actions en fonction des horaires et du comportement du client. Des plateformes d'automatisation marketing open source seront ajoutées à la liste, veuillez garder un œil sur [l'automatisation marketing][43] pour les mises à jour.
 
-## **Logiciel de chat en direct pour support instantané**    {# live-chat}
+## **Logiciel de chat en direct pour support instantané** {#live-chat}
 Le support de chat en direct fait inévitable partie d'une entreprise en ligne pour fournir des réponses instantanées en temps réel aux requêtes des clients. Dans cette catégorie, les détails sur le suivi du logiciel de chat en direct open source populaire peuvent être trouvés sur contenerize.com:
   * [Rocket.chat][44] - Solution logicielle de chat d'équipe avec plusieurs fonctionnalités de communication
   * [Zulip][45] - Logiciel de collaborations en temps réel pour les équipes distantes
@@ -86,7 +86,7 @@ Le support de chat en direct fait inévitable partie d'une entreprise en ligne p
   * [Botkit][49] - Un constructeur de bot pour Facebook, Slack et Webchat
 Tout ce qui précède est un logiciel de chat en direct gratuit et open source. Ce sont certainement les meilleurs logiciels de chat en direct et prennent en charge plusieurs chats avec d'autres fonctionnalités modernes. Nous ajouterons plus de plate-forme de chat open source à la liste. Alors, gardez un œil sur la section [Logiciel de chat en direct][50] pour les dernières mises à jour.
 
-## **Créez des formulaires commerciaux à l'aide de Form Builder**    {# Forms-Builder}
+## **Créez des formulaires commerciaux à l'aide de Form Builder** {#Forms-Builder}
 Les entreprises utilisent des formulaires pour collecter des données liées aux commentaires des clients. De plus, vous pouvez utiliser des formulaires pour la segmentation marketing, les enquêtes et toute analyse de recherche. Étant donné que ces formulaires sont basés sur HTML, les appareils sont également indépendants de l'appareil et peuvent être accessibles et remplis à partir du bureau ainsi que des appareils intelligents. Dans cette catégorie, Containerize.com fournit des informations sur l'Open Source suivant **Buildeurs de formulaire:** 
   * [Form.io][51] - Meilleur constructeur de formulaires basé sur le Web avec plate-forme API REST pour un logiciel sans serveur
   * [Orbeon][52] - Un constructeur de formulaires Web pour une accessibilité facile et prend en charge la génération de PDF hors boîte
@@ -96,7 +96,7 @@ Les entreprises utilisent des formulaires pour collecter des données liées aux
   * [FormTools][56] - une solution incroyable de formes et de gestion des données avec une prise en charge intégrée pour le recaptcha et la visualisation des données
 Ces logiciels open source offrent des capacités et des fonctionnalités uniques. Par exemple, glisser et déposer l'interface, les rôles / gestion des utilisateurs, la gestion des données et les formulaires intégrés. Des plates-formes de générateurs HTML plus open source seront ajoutées à la liste. Ainsi, pour les futures mises à jour, veuillez visiter [Form Software][57] Section.
 
-## **Plate-formes de livraison transactionnelles ou en vrac**    {# Transactional-email}
+## **Plate-formes de livraison transactionnelles ou en vrac** {#Transactional-email}
 Certains événements et campagnes à partir des applications Web déclenchent des e-mails transactionnels. Les services de messagerie transactionnels suivants aident à configurer des workflows commerciaux pour ces événements. Vous pouvez trouver plus d'informations à ce sujet sur [ProductS.ContaineRize.com][1]. **Logiciel de messagerie transactionnel:** 
   * [Postal][58] - Sur prémisse Alternative à SendGrid et Mailgun pour envoyer des e-mails à partir de vos applications Web et mobiles.
   * [Slectlefish][59] - Logiciel de livraison de courrier auto-hébergé open source avec fonctionnalités de suivi des e-mails.
@@ -106,7 +106,7 @@ Certains événements et campagnes à partir des applications Web déclenchent d
   * [iredmail][63] - une solution complète de serveur de messagerie en vedette basée sur Postfix.
 En outre **les plates-formes de messagerie**  seront ajoutées à la liste mentionnée ci-dessus. Veuillez garder un œil sur [la section transactionnelle du logiciel de messagerie][64].
 
-## **Newsletter aka Email Marketing Software**    {#newsletter}
+## **Newsletter aka Email Marketing Software** {#newsletter}
 Une newsletter bien conçue est la clé pour l'élargissement de l'exposition. Il aide également à rester connecté avec les clients. Par conséquent, le logiciel de newsletter devient essentiel pour concevoir des newsletters élégants. De plus, Containerize.com fournit des informations sur un logiciel de conception de newsletter Open Source: **
   * [PHPLIST][65] - Logiciel de marketing par e-mail pour envoyer des newsletters à un large public.
   * [Mailtrain][66] - Application de newsletter auto-hébergée conçue pour gérer une énorme liste de diffusion.
@@ -115,14 +115,14 @@ Une newsletter bien conçue est la clé pour l'élargissement de l'exposition. I
   * [MAILMAN][69] - Logiciel gratuit sur site pour gérer les listes de diffusion et envoyer des newsletters.
 ** Un logiciel de marketing par e-mail mentionné BOVE est livré avec une riche pile de fonctionnalités. Tels que la composition des campagnes et des newsletters qui sont autrement difficiles à concevoir et à maintenir en raison du rendu imprévisible des clients du courrier. Dans un avenir proche, un logiciel de marketing par e-mail plus gratuit et open source sera ajouté à la section [logicielle de newsletter][70].
 
-## **Moniteur d'état du serveur aka logiciel StatusPage**    {# Status-Page}
+## **Moniteur d'état du serveur aka logiciel StatusPage** {#Status-Page}
 Les outils de surveillance sont utilisés pour vérifier l'état et les performances des composants logiciels critiques. Dans cette catégorie, les détails sur les produits de surveillance de l'état du serveur suivant sont disponibles sur contenerize.com:
   * [Cachet][71] - Meilleure surveillance des temps d'arrêt abordable avec le système de page d'état du cachet
   * [Statping][72] - Page d'état auto-hébergé pour surveiller les sites Web et les services
   * [Moniteur][73] - Un panneau mural de surveillance léger et fiable open source pour tous vos outils en un seul endroit.
 Les produits mentionnés ci-dessus sont open source et offrent des fonctionnalités riches qui incluent l'intégration avec d'autres services de service  **** . Ces produits offrent également une surveillance et une fiabilité abordables. Veuillez rester informé de l'ajout de produits supplémentaires dans la section [STATURE PAGE SOGICIEUX][74].
 
-## **Logiciel de comptabilité alias le logiciel de facturation**    {#Invoicing}
+## **Logiciel de comptabilité alias le logiciel de facturation** {#Invoicing}
 Si vous vendez des produits ou des services, vous serez vraiment intéressé à avoir un logiciel de facturation dans l'entreprise. Par conséquent, Containerize.com fournit des détails sur un logiciel de facturation open source:
   * [Invoiceninja][75] - Manager des factures pour la facture, la facturation et la gestion des paiements.
   * [ASINATING][76] - Une solution comptable en ligne pour gérer et suivre l'argent.
@@ -131,7 +131,7 @@ Si vous vendez des produits ou des services, vous serez vraiment intéressé à 
   * [Carter][79] - un système de facturation auto-hébergé qui permet aux petites entreprises de générer des factures.
 Ces **solutions financières**  donnent une facturation automobile de temps, des rapports complets des paiements, et bien d'autres. La partie la plus cool est l'option d'auto-hébergement qui vous permet de configurer l'ensemble du système au sein de votre entreprise. Des logiciels de facturation open source seront ajoutés. Veuillez visiter la section [logiciel de facturation][80] pour les mises à jour régulières.
 
-## **Authentification centralisée ou signe unique sur**    {#SSO}
+## **Authentification centralisée ou signe unique sur** {#SSO}
 **La solution unique  **Permet à un utilisateur d'accéder à différents systèmes au sein d'une organisation en utilisant le même ensemble d'identification. Les entreprises ont toujours tendance à améliorer les capacités de sécurité pour faire face aux menaces et risques potentiels. En attendant, maintenez un seul point de gestion des utilisateurs pour toutes les applications Web. Containerize.com met en lumière les solutions open source suivantes **  SSO Solutions:** 
   * [IdentityServer][81] - vous donne une disposition pour configurer votre propre solution de fournisseur d'identité à l'aide du protocole OpenID Connect.
   * [KeyClOak][15] - vous permet de développer un fournisseur d'identité et un système de gestion d'accès à l'aide des protocoles OAuth2.0, OpenID Connect et fonctionne bien avec LDAP et Active Directory.

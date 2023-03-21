@@ -97,7 +97,7 @@ Kurulumu tamamladıktan sonra Yönetici Gösterge Tablosunu alacaksınız. Nered
 {{_LINE_79_}}
 Evet! Kişisel bulut depolama alanı oluşturmak için Owncloud kurulum kılavuzu ile işimiz bitti. Artık Dropbox veya Google Drive'a benzer adım adım özel bir bulut oluşturmak için Ubuntu'ya Owncloud'u nasıl yükleyeceğinizi biliyorsunuz.
 
-## **Owncloud için en iyi alternatifler nelerdir?**    {#4A1A}
+## **Owncloud için en iyi alternatifler nelerdir?** {#4A1A}
 Aşağıda, kendinden barındırılan Owncloud alternatifleri ve rakipler dosya barındırma yazılımı bulunmaktadır.
   ***SEAFILE**  Açık kaynaklı platformlu dosya barındırma yazılım sistemidir
   ***NextCloud**  Ücretsiz ve Açık Kaynak Bulut Depolama Platformu
@@ -105,7 +105,7 @@ Aşağıda, kendinden barındırılan Owncloud alternatifleri ve rakipler dosya 
   ***Pydio Hücreleri**  Açık kaynaklı dosya paylaşımı ve senkronizasyon yazılımıdır
   ***senkronizasyon**  ücretsiz ve açık kaynaklı eşler arası dosya senkronizasyon uygulaması
 
-## **Sonuç:**    {#blok-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+## **Sonuç:** {#blok-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
 Tebrikler! Ubuntu makinesinde Apache ile kendi özel bulutunuzu oluşturmak için OwnCloud'u başarıyla yüklediniz ve yapılandırdınız. Artık verileriniz asla üçüncü tarafların elinde değildir ve sanal özel bulut owncloud ubuntu sunucu depolamasında özel olarak yönetilebilir. Birçok şirket, verilerin gizliliği ile ilgili birçok sorun nedeniyle birçok hayati bilgi ile Owncloud sunucularını oluşturmayı seçmektedir. Yaklaşan öğreticilerimizde, web sunucusu çözüm yığınlarının daha ilginç konularını tartışacağız.
 _ [Twitter][2], [LinkedIn][3] ve [Facebook][4] sayfamızda bize katılabilirsiniz. Çevrimiçi bulut tabanlı depolama çözümünü hangi kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][5].
 

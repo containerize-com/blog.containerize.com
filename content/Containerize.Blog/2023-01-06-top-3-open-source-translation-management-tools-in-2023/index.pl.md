@@ -27,7 +27,7 @@ W tym przewodniku zostaną omówione narzędzia do zarządzania tłumaczeniem:
 Jeśli chcesz spróbować, możesz znaleźć jego kod w repozytorium [Github][7] ze wszystkimi wymienionymi instrukcjami instalacji. Ten bezpłatny system zarządzania tłumaczeniem ma możliwość zarządzania wieloma plikami tłumaczeniowymi. Ponadto możesz budować niestandardowe adaptery i wykonać wiele innych dostosowań, aby zaspokoić Twoje potrzeby biznesowe. Zasadniczo wykonuje wszystkie procesy według analizy statycznej, w których oferuje użytkownikom konsolę interaktywną. Ponadto ten open source TMS zapewnia integrację z tłumaczeniami DeEpl i Google.
 **[Dowiedz się więcej o i18n-odcieniach][5]**
 
-## **tolgee**    {#Tolgee}
+## **tolgee** {#Tolgee}
 [Tolgee][8] to system open source na poziomie przedsiębiorstwa **System zarządzania tłumaczeniem.**  Jest wyposażony w możliwości samodzielne z bogatym stosem funkcji. Ten TMS jest napisany w Kotlin, a TypeScript i oferuje integracje z prawie wszystkimi popularnymi ramami JavaScript, takimi jak Next.js, Angular, Vue i inni. Ponadto ten bezpłatny TMS ma cały kod źródłowy dostępny na [GitHub][9] z kompleksową dokumentacją dotyczącą rozwoju i wdrażania.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="System zarządzania tłumaczeniem">}}
@@ -42,7 +42,7 @@ Poniżej znajdują się widoczne cechy tego bezpłatnego TMS:
 . **Współpraca** : Jest to kolejny znaczący przepis, w którym różne zainteresowane strony mogą współpracować i przeglądać, prace wykonane przez innych
 [**Dowiedz się więcej o Tolgee** ][8]
 
-## **Traduora**    {#Traduora}
+## **Traduora** {#Traduora}
 [Traduora][13] to kolejne oprogramowanie typu open source do automatyzacji przepływu pracy tłumaczenia. Ten bezpłatny TMS jest również napisany w TypeScript wraz z wejściem z innych języków, takich jak HTML, JavaScript, CSS i inne. Ponadto możesz je samodzielnie hostować, ponieważ w GitHub dostępna jest pełna dokumentacja dotycząca jego rozwoju i wdrażania. Ponadto dostępny jest obraz Docker tego oprogramowania do zarządzania tłumaczeniem open source, z którym skonfigurowałeś to oprogramowanie, zawracając kontener Docker.
 Przede wszystkim Traduora ujawniła interfejs API REST w celu integracji z aplikacjami stron trzecich. W tym bezpłatnym TMS występuje pełna implementacja uwierzytelniania.
 Traduora wymyśla następujące kluczowe funkcje:

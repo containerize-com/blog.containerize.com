@@ -91,7 +91,7 @@ Ansible Open Source **Ferramenta de automação  **e o software livre é escrito
 O Python é uma linguagem de script orientada a objetos usada para criar aplicativos em inteligência artificial, aprendizado de máquina, aplicativos de desktop, etc. A linguagem python é mantida por uma organização independente americana estabelecida como uma 501 (c) (3) sem fins lucrativos, o **django Software Foundation**  (DSF).
 **As principais empresas que usam Django**  incluem Instagram, Spotify, National Geographic, Pinterest, MacArthur Foundation, Disqu, Bitbucket, Mozilla, Open Stack e muito mais.
 
-## **Conclusão:**    {#4A1A}
+## **Conclusão:** {#4A1A}
 Os cinco projetos de software de código aberto mencionados acima são o software de código aberto mais popular e melhor para desenvolvedores. Se você estiver explorando os bons projetos de código aberto para iniciantes pela primeira vez, confira o relatório do estado de Octovesse e fique à vontade para adicionar e contribuir. Lista de software de código aberto desbloqueia as portas para inovadores e desenvolvedores de aplicativos na construção de uma carreira, permitindo que eles trabalhem em algumas das maiores plataformas do mundo. Os melhores exemplos de software de código aberto que listamos acima são apenas uma prova de quão benéficos são aplicativos de código aberto.
 _ Quais são os seus projetos de software de código aberto mais favoritos e de código aberto?. Você tem alguma dúvida sobre projetos de código aberto?, Por favor [[entre em contato][12].
 

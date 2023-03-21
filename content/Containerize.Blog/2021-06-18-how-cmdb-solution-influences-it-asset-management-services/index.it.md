@@ -22,10 +22,10 @@ Questi sistemi di gestione della configurazione offrono utilità per mantenere i
   *[ **Impatto del software CMDB sui servizi di gestione patrimoniale IT** ][7]
   * **[Conclusione][8]**
 
-##  **Cos'è il software CMDB?**    {#what}
+##  **Cos'è il software CMDB?** {#what}
 [Software di database di gestione della configurazione][1] è un database che memorizza le informazioni sugli elementi di configurazione e sui loro dettagli sulla relazione. Inoltre, ci sono molti tipi di elementi di configurazione (CIS) che potrebbero essere hardware o software e le cis sono il componente integrale di qualsiasi software CMDB. Alcune organizzazioni hanno utilizzato questa soluzione per tenere traccia delle posizioni commerciali, dei documenti e dei contratti aziendali. Gli stakeholder aziendali riescono a prendere le giuste decisioni dotando di esaminare tutte le attività e le loro dipendenze reciproche. Pertanto, possono prevedere le tendenze future, il potenziale e le minacce che possono verificarsi. Queste soluzioni gratuite forniscono una chiara dimostrazione di dati in modo ben organizzato. Esiste una dashboard intuitiva e logica che recupera i dati da varie fonti in tempo reale, lo elabora e quindi mostra i dati elaborati in diversi tipi di widget. Inoltre, il software CMDB progettato per fornire supporto per ulteriori CI, se necessario.
 
-##  **Top 5 open source miglior software CMDB**    {#top}
+##  **Top 5 open source miglior software CMDB** {#top}
 In questa sezione, esploreremo il software di database di gestione della configurazione più votato.
 
 ## # Ralph
@@ -71,7 +71,7 @@ Itop offre funzionalità chiave
 **Gestione incidenti**: le organizzazioni possono sfruttare il software di database di gestione della configurazione per tenere traccia della gestione degli incidenti. Inoltre, il software CMDB con modalità aggiornata automatica mantiene qualsiasi incidente nel ciclo per una migliore gestione dei problemi.
 **Sicurezza migliorata:** Avere un software CMDB aggiornato può darti fiducia in merito alla sicurezza e puoi prendere decisioni su qualsiasi vulnerabilità.
 
-##  **conclusione**    {#Conclusione}
+##  **conclusione** {#Conclusione}
 Questa è la fine di questo post sul blog. In questo articolo, abbiamo scoperto che **sistemi di gestione della configurazione  **svolgono un ruolo decisivo nei servizi di gestione patrimoniale IT fornendo trasparenza, efficienza e robustezza. Inoltre, centralizza i dati e per una migliore comprensione dei rischi e delle opportunità. Tuttavia, è giunto il momento di scegliere una soluzione open source**   CMDB** per il tuo reparto IT e aumentare le operazioni aziendali che altrimenti richiedono tempo.
 Infine, [ **containerize.com** ][16] sta scrivendo articoli su ulteriori prodotti open source. Pertanto, rimani in contatto con la categoria [][17][Configuration Management Database Software (CMDB][1]) per aggiornamenti regolari.
 

@@ -12,7 +12,7 @@ categories: ['Software Development']
 {{< figure align=center src="images/how-to-build-nodejs-application-with-docker.png" alt="Docker를 사용하여 Nodejs 응용 프로그램을 구축하는 방법">}}
 
 
-##이 기사는 Docker Containerization을 사용하여 Nodejs 응용 프로그램을 구축하는 방법을 설명합니다. Docker는 응용 프로그램을 컨테이너로 패키지 및 실행할 수 있습니다.
+## 이 기사는 Docker Containerization을 사용하여 Nodejs 응용 프로그램을 구축하는 방법을 설명합니다. Docker는 응용 프로그램을 컨테이너로 패키지 및 실행할 수 있습니다.
 오늘 우리는 소프트웨어 개발 도구에 대한 일련의 자습서를 시작하고 있습니다. 이 첫 번째 기사는 Docker를 사용하여 Node.js 응용 프로그램을 컨테이너화하는 방법을 다룹니다. Docker는 개발자가 응용 프로그램을 컨테이너로 패키지 및 실행하도록 도와줍니다. 컨테이너는 고립 된 프로세스이며 가상 머신에 대한 가벼운 대안이기 때문입니다. 이 기사에서는 Docker Containerization을 사용하여 Nodejs 응용 프로그램을 구축하는 방법을 설명합니다. 시작하자!
   *[**Docker 란 무엇입니까** ][1]
   * **[전제 조건][2]**

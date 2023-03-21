@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginx-post.png" alt="使用nginx放大監視Nginx Web服務器">}}
 
 
-##概述 {#install}
+## 概述 {#install}
 **Web服務器監視**對於高流量網站非常重要。 **監視代理**將定期記錄有關Web服務器的基本指標。這些關鍵指標可用於優化NGINX配置。它將幫助您改善Web服務器和應用程序的性能。
 在此博客文章中，我們將介紹 **nginx監視** 開源工具的以下各節。
   * [NGINX Web服務器][1]
@@ -42,7 +42,7 @@ Nginx Amplify是Nginx開源，Nginx Plus和PHP-FPM的免費監視工具。這是
   ***nginx Amplify Web UI**   -  Web UI顯示了Web服務器，應用程序和操作系統的指標。
   * **nginx放大後端**   - 它是一個關鍵組件，可作為SaaS實現，並負責收集指標，維護數據庫，運行分析引擎並提供核心API。
 
-##安裝nginx amplify   {#install}
+## 安裝nginx amplify   {#install}
 請遵循下面的逐步指南，以在Ubuntu上安裝NGINX放大。
   *首先，您需要在nginx [網站][6]上創建一個帳戶。
   *登錄後，您將在Nginx Amplify網站上看到下面的屏幕。現在，通過SSH連接到服務器，並使用以下步驟中給出的命令。
@@ -108,7 +108,7 @@ $ sudo service nginx restart
 {{< figure align=center src="images/amplify-overview.png" alt="NGINX監視統計數據">}}
 
 
-##監視指標 {#monitoring}
+## 監視指標 {#monitoring}
 nginx擴增代理收集以下類型的數據：
   * **NGINX指標**   - 它從ub_status，日誌文件和過程狀態收集各種與Nginx相關的指標。
   ***系統指標**  -  NGINX擴增監視各種系統指標，例如CPU使用，內存使用情況，網絡流量等。

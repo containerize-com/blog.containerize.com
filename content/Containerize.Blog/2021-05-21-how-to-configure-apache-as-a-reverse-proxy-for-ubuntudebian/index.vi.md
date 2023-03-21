@@ -92,7 +92,7 @@ sudo A2enMod SSL
 sudo systemctl khởi động lại apache2.sservice
 Chúc mừng! Bạn đã cài đặt thành công và cấu hình proxy ngược Apache2 trên hệ thống Linux của bạn.
 
-##  **Kết luận:**    {#4A1A}
+##  **Kết luận:** {#4A1A}
 Trong hướng dẫn này, chúng tôi đã khám phá và thảo luận về từng bước của máy chủ proxy và Apache Reverse Proxy. Chúng tôi cũng đã học cách thiết lập và định cấu hình Apache2 như một proxy ngược trên hệ thống Linux. Trong các hướng dẫn sắp tới của chúng tôi, chúng tôi sẽ thảo luận về các chủ đề thú vị hơn về Apache và các ngăn xếp giải pháp máy chủ web khác.
 
 ## Khám phá

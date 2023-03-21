@@ -25,16 +25,16 @@ Cet article est dans la poursuite de notre série de tutoriels sur Nginx. Jusqu'
 Les performances d'un site Web dépend d'un certain nombre de facteurs. L'un des facteurs dont il dépend partiellement est la taille de tous les fichiers que le navigateur d'un utilisateur doit télécharger depuis votre serveur. La réduction ou la compression de la taille de ces fichiers transmis peut rendre votre site Web à charger plus rapidement pour l'utilisateur. Il peut également réduire la facture de votre site Web au cas où vous payez l'utilisation de la bande passante sur les connexions comptables. La compression peut donc jouer un rôle très vital dans l'optimisation de votre site Web.
 Comme Google et d'autres moteurs de recherche envisagent l'expérience utilisateur d'un site Web (UX) un facteur critique dans ses algorithmes de classement. Il est devenu plus important d'améliorer et d'optimiser votre site Web pour les meilleures notes. Parmi les facteurs les plus importants auxquels faire attention figurent, la vitesse de la page et les temps de chargement. Et, le moyen le plus rapide et le plus simple d'améliorer la vitesse et les performances de votre site Web est d'activer la compression GZIP sur votre site Web.
 
-## Qu'est-ce que la compression GZIP?   {# what-gzip}
+## Qu'est-ce que la compression GZIP?   {#what-gzip}
 GZIP est un format de fichier **et une application logicielle**  utilisée pour la compression et la décompression des fichiers. Des serveurs Web ou d'autres logiciels utilisent la compression GZIP pour compresser les fichiers de données avant d'être envoyés aux navigateurs des utilisateurs. Cela réduit le temps de téléchargement des fichiers qui rend votre site Web plus rapidement. Tous les navigateurs modernes prennent en charge la compression GZIP.
 Il est également important de noter que la compression GZIP doit être activée sur votre serveur Web avant de pouvoir activer la compression des fichiers et des dossiers. Peu de temps, nous verrons comment activer la compression GZIP dans Nginx.
 
-## Comment fonctionne la compression GZIP?   {# who-gzip}
+## Comment fonctionne la compression GZIP?   {#who-gzip}
 GZIP, la méthode de compression la plus populaire, est utilisée par les serveurs Web et les navigateurs pour compresser et décompresser le contenu lorsqu'il est transmis sur Internet. Il est utilisé principalement sur le code et les fichiers texte, GZIP peut réduire la taille des fichiers JavaScript, CSS et HTML jusqu'à 90%.
 Par défaut, la compression GZIP ne compresse pas des images ou des vidéos. C'est pourquoi la plupart des outils de test de vitesse de site Web comme Google Pagespeed Insights recommandent fortement d'activer la compression GZIP.
 Lorsqu'un serveur Web reçoit une demande de page Web, le serveur Web vérifie l'en-tête de la demande pour vérifier si le navigateur prend en charge GZIP. Si c'est le cas, le serveur génère le balisage de la page avant d'appliquer GZIP. GZIP convertit le balisage HTML en une données comprimée qui est ensuite livrée à l'utilisateur final. Lorsque l'utilisateur final reçoit les données compressées, leur navigateur le décompte.
 
-## Activer la compression GZIP dans nginx   {# activer-gzip}
+## Activer la compression GZIP dans nginx   {#activer-gzip}
 Pour modifier la configuration Nginx GZIP, ouvrez le fichier de configuration Nginx principal dans «_VI_» ou votre éditeur de texte préféré:
 ```
 sudo vi /etc/nginx/nginx.conf

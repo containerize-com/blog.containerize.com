@@ -44,7 +44,7 @@ sudo apt install certbot python3-certbot-nginx
 ```
 Vérinons maintenant certains des paramètres de configuration Secure Nginx.
 
-## Étape 2 - Confirmation de la configuration de Nginx   {# Step-2 -—- Confirmation-nginx-39-s-configuration}
+## Étape 2 - Confirmation de la configuration de Nginx   {#Step-2 -—- Confirmation-nginx-39-s-configuration}
 Comme expliqué dans la section Dépendances et prérequis, vous devriez déjà avoir un domaine enregistré et CERTBOT doit être en mesure de trouver le bloc de serveur Nginx correct pour ce domaine pour configurer automatiquement SSL. À titre d'exemple, ce billet de blog utilise le domaine blog.conteainerise.com et le bloc Server pour votre domaine sur /etc/nginx/sites-available/blog.contiaterise.com avec la directive Server_name déjà définie correctement.
 Pour confirmer, ouvrez le fichier de configuration de votre domaine à l'aide de Nano ou de votre éditeur de texte préféré:
 ```
@@ -65,7 +65,7 @@ sudo systemctl reload nginx
 ```
 L'utilitaire CERTBOT peut désormais trouver la directive de bloc de serveur NGINX correct pour sécuriser Nginx et la mettre à jour automatiquement. Dans l'étape suivante, mettons à jour le pare-feu pour permettre le trafic HTTPS.
 
-## Étape 3 - Autoriser HTTPS à travers le pare-feu   {# étape-3 -—- Autoriser-https-through-the-firewall}
+## Étape 3 - Autoriser HTTPS à travers le pare-feu   {#étape-3 -—- Autoriser-https-through-the-firewall}
 Comme recommandé dans cet article, vous devrez régler les paramètres pour permettre le trafic HTTPS. Pour vous assurer que votre pare-feu est activé et actif, exécutez la commande ci-dessous:
 ```
 sudo ufw status
@@ -84,7 +84,7 @@ sudo ufw status
 ```
 Ensuite, exécutons CERTBOT et récupérons nos certificats.
 
-## Étape 4 - Obtention d'un certificat SSL   {# étape-4 -—- Obtention-an-ssl-certificate}
+## Étape 4 - Obtention d'un certificat SSL   {#étape-4 -—- Obtention-an-ssl-certificate}
 Le plugin de Nginx pour CERTBOT s'occupera de reconfigurer Nginx et rechargera sa configuration si nécessaire. Par conséquent, vous devez générer des certificats avec le plug-in Nginx en exécutant la commande suivante:
 ```
 sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
@@ -94,7 +94,7 @@ Si c'est la première fois que l'utilitaire CERTBOT est votre première fois, al
 Vos certificats sont téléchargés, installés et chargés de configurations de certificat SSL Nginx. Essayez de recharger votre site Web à l'aide de https: // et remarquez l'indicateur de sécurité de votre navigateur. Il doit indiquer que le site est correctement sécurisé, généralement avec une icône de verrouillage. Si vous testez votre serveur à l'aide du test SSL Labs Server, il obtiendra une note A pour Nginx et LETSENCYPT.
 Termons en testant le processus de renouvellement.
 
-## Étape 5 - Vérification de CERTBOT AUTO-REWEWAL   {# Étape-5 -—- Vérification de cerTBOT-Auto-Renewal}
+## Étape 5 - Vérification de CERTBOT AUTO-REWEWAL   {#Étape-5 -—- Vérification de cerTBOT-Auto-Renewal}
 Étant donné que les certificats de Let’s Encrypt expirent tous les quatre-vingt-dix (90) jours et Nginx SSL LetSencrypt encourage les utilisateurs à configurer et à renouveler automatique le travail CRON. Tout d'abord, ouvrez le fichier de configuration Crontab pour l'utilisateur actuel:
 ```
 sudo crontab -e

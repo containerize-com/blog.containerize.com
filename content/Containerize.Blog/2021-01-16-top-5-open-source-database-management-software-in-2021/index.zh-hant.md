@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-database-management-software-in-2021/
 categories: ['Database Management Software']
 ---
 
-##數據庫管理軟件提供直觀的用戶界面來執行交易。這是對最佳企業級免費DBMS工具的簡明評論。
+## 數據庫管理軟件提供直觀的用戶界面來執行交易。這是對最佳企業級免費DBMS工具的簡明評論。
 
 {{< figure align=center src="images/Top-5-Open-Source-Database-Management-Tools-In-2021-1-1024x537.png" alt="數據庫管理軟件">}}
 
@@ -32,7 +32,7 @@ PhpMyAdmin作為XAMPP和WAMPP Web服務器的內置組件。目前，PHPMYADMIN�
   *為任何SQL語句或批次查詢創建，編輯和標記書籤。
 [閱讀更多][9]
 
-##管理員
+## 管理員
 管理員是一種輕巧的phpmyadmin替代方案。它也是免費的DBMS工具。它使用戶可以輕鬆創建，編輯或刪除表和列。還賦予創建和調用存儲過程和功能的能力。與phpmyadmin相比，管理員由一個單個PHP文件組成。它也可以與XAMPP服務器進行安裝並集成。它具有持久性和多個登錄會話以及簡單的導出功能以及更簡潔的圖形接口。以下是Adminer的一些突出特徵：
   *通過啟用會話支持PHP 5。
   *添加和刪除表和列。

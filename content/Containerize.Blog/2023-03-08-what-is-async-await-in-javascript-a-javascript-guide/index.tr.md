@@ -46,7 +46,7 @@ getValues().then(function(){
 ## Async/Ne zaman kullanılır?   {#Kullanımdan ne zaman-asyncawait}
 Şimdiye kadar, JavaScript**'de eşzamansız ne bekleyen**cevabınız var. Bu sadece geleneksel JavaScript vaatlerinin etrafında bir sargı olduğundan, vaatleri daha temiz ve okunabilir bir şekilde oluşturmak ve işlemek için bu yeni yolu daha iyi kullanırsınız. Buna ek olarak, birden fazla vaatten kurtulabilirsiniz. Bekleyen anahtar kelime,. Then () ifadesini tek bir satıra kapsar.
 
-## Async/Await ile Hata İşleme   {## ASYNCAWAIT ile#Hata Handling}
+## Async/Await ile Hata İşleme   {#ASYNCAWAIT ile#Hata Handling}
 İşletme düzeyinde yazılım geliştirme söz konusu olduğunda hata işleme kritik bir görevdir. Async/bekle yaklaşımında hataları yakalamanın birçok yolu vardır.
 
 {{< figure align=center src="images/async-await.png" alt="Async yakalamayı deneyin JavaScript">}}

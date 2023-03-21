@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-cloud-storage-software-in-2021/
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 ---
 
-##雲存儲通過將數據存儲在遠程位置中，使共享和協作更加容易。本文重點介紹開源雲文件共享平台。
+## 雲存儲通過將數據存儲在遠程位置中，使共享和協作更加容易。本文重點介紹開源雲文件共享平台。
 
 {{< figure align=center src="images/best-free-cloud-storage.png" alt="2021年開源雲存儲軟件">}}
 
@@ -48,7 +48,7 @@ PYDIO客戶端軟件支持可用於Linux，Windows，Android和MacOS。
 [CEPH][7]是帶有分佈式群集的開源雲。 CEPH存儲群集管理群集上的對象存儲。它用C ++和Perl語言編寫。這是可以自由使用的高度可擴展性。它非常適合需要低延遲存儲和快速擴展的組織。 CEPH文件系統提供了可擴展性和文件共享速度。對於需要支持對象和阻止存儲的組織，除文件存儲外，CEPH是首選的。
 它的功能包括基於對象的，維護集中式元數據，網絡文件系統，高性能，大數據存儲，允許部分或完整的讀取和寫入。
 
-##其他雲存儲軟件選項要考慮：
+## 其他雲存儲軟件選項要考慮：
   ***youtransfer** 是自託管的文件傳輸和共享解決方案
   ***Syncthing** 是連續文件同步軟件
   ***舒適**是靈活的文件共享和同步工具

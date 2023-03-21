@@ -9,7 +9,7 @@ url: /ko/how-to-optimize-your-website-using-gzip-compression-in-nginx/
 categories: ['Web Server Solution Stack']
 ---
 
-##이 튜토리얼은 Nginx에서 GZIP 압축을 사용하여 파일 크기를 줄여 웹 사이트 성능을 최적화하고 빠르게 만드는 방법을 안내합니다.
+## 이 튜토리얼은 Nginx에서 GZIP 압축을 사용하여 파일 크기를 줄여 웹 사이트 성능을 최적화하고 빠르게 만드는 방법을 안내합니다.
 
 {{< figure align=center src="images/enable-gzip-compression-in-nginx.png" alt="Nginx에서 GZIP 압축을 활성화하는 방법">}}
 

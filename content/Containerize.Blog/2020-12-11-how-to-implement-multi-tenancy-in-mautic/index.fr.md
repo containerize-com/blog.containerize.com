@@ -19,7 +19,7 @@ Mautic est une solution d'automatisation marketing gratuite et open source qui v
   * [Implémentez la multi-tension dans Mautic][3]
   * [Conclusion][4]
 
-## Qu'est-ce que la multi-tenue   {# multi-tenue}
+## Qu'est-ce que la multi-tenue   {#multi-tenue}
 Dans l'architecture logicielle multi-locataires, une seule instance d'une application logicielle sert plusieurs locataires. Chaque données de locataire est isolée des autres locataires partageant la même instance d'application. Ces locataires sont logiquement isolés, mais physiquement intégrés. Cela garantit la sécurité des données et la confidentialité pour tous les locataires. La création de plusieurs locataires à partir d'une seule instance d'application nécessite beaucoup moins de mémoire. Les locataires partagent des ressources et diminuent les coûts de maintenance des logiciels, d'infrastructures et de opérations de centre de données. Les coûts ont tendance à être inférieurs à ceux d'une infrastructure unique.
 
 ## Qu'est-ce que Mautic   {#moutic}

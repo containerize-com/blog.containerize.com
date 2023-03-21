@@ -22,10 +22,10 @@ Ces systèmes de gestion de configuration offrent des utilitaires pour maintenir
   * [**Impact du logiciel CMDB sur les services de gestion des actifs informatiques** ][7]
   * **[Conclusion][8]** 
 
-## **Qu'est-ce que le logiciel CMDB?**    {#What}
+## **Qu'est-ce que le logiciel CMDB?** {#What}
 [Le logiciel de base de données de gestion de la configuration][1] est une base de données qui stocke des informations sur les éléments de configuration et les détails de leur relation. De plus, il existe de nombreux types d'éléments de configuration (CIS) qui pourraient être du matériel ou des logiciels et les CI sont le composant intégral de tout logiciel CMDB. Certaines organisations ont utilisé cette solution pour suivre les emplacements commerciaux, les documents et les contrats commerciaux. Les parties prenantes de l'entreprise parviennent à prendre les bonnes décisions en ayant à examiner tous les actifs et leurs dépendances les uns envers les autres. Par conséquent, ils peuvent prévoir les tendances futures, le potentiel et les menaces qui peuvent survenir. Ces solutions gratuites fournissent une démonstration claire des données de manière bien arrangée. Il existe un tableau de bord convivial et logique qui récupère les données de diverses sources en temps réel, les traite, puis affiche les données traitées dans différents types de widgets. De plus, le logiciel CMDB conçu pour fournir un support pour des IC supplémentaires si nécessaire.
 
-## **Top 5 Open Source Meilleur logiciel CMDB**    {#top}
+## **Top 5 Open Source Meilleur logiciel CMDB** {#top}
 Dans cette section, nous explorerons le logiciel de base de données de gestion de la configuration le mieux noté.
 
 ## # Ralph
@@ -71,7 +71,7 @@ ITOP propose des fonctionnalités clés
 **Gestion des incidents** : Les organisations peuvent tirer parti du logiciel de base de données de gestion de la configuration pour suivre la gestion des incidents. De plus, le logiciel CMDB avec mode Auto-Update conserve tout incident dans la boucle pour une meilleure gestion des problèmes.
 **Amélioration de la sécurité:**  Avoir un logiciel CMDB mis à jour peut vous donner confiance en la sécurité et vous pouvez prendre des décisions concernant toute vulnérabilité.
 
-## **Conclusion**    {#conclusion}
+## **Conclusion** {#conclusion}
 C'est la fin de ce billet de blog. Dans cet article, nous avons constaté que **les systèmes de gestion de la configuration  **jouent un rôle décisif dans les services de gestion des actifs informatiques en offrant la transparence, l'efficacité et la robustesse. De plus, il centralise les données et pour une meilleure compréhension des risques et des opportunités. Cependant, il est grand temps de choisir une solution open source **  CMDB**  pour votre service informatique et de stimuler les opérations commerciales qui, autrement, prennent du temps.
 Enfin, [**contenerize.com** ][16] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact avec la catégorie [][][17][Configuration Management Database Software (CMDB][1]) pour les mises à jour régulières.
 

@@ -49,7 +49,7 @@ Istnieją dziesiątki innych platform rynkowych B2B open source i najlepszych ry
   * **Reakcja**  ECommerce Multi-Vendor Marketplace platforma.
   * **ramy rynkowe Beyourmarket**  Open Source.
 
-##  **Wniosek:**    {#4a1a}
+##  **Wniosek:** {#4a1a}
 Budowanie platformy rynkowej, aby założyć firmę lub rozwijać istniejącą, może być trudne, szczególnie jeśli chcesz zbudować jedną od zera. Możesz uzyskać ogromne korzyści z wyżej wymienionych najlepszych firm e-commerce z wieloma vendorami. Każdy może łatwo i szybko zbudować własną pożądaną stronę internetową Marketplace. Ta platforma oprogramowania na rynku będzie dobrze zaspokoić Twoje potrzeby. Będziesz miał spersonalizowaną listę rynków internetowych lub sklepu obsługiwanego przez jedną z tych niezawodnych firm e -commerce oprogramowania.
 _Your może dołączyć do nas na [Twitter][6], [LinkedIn][7] i naszej strony [Facebook][8]. Jakiego oprogramowania online Marketplace_ do budowy rynku aplikacji _ Czy używasz?. Jeśli masz jakieś pytania lub opinie, proszę [skontaktuj się][9].
 

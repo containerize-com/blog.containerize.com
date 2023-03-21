@@ -54,7 +54,7 @@ HospitalRun propose les caractéristiques importantes suivantes:
   * Gestion des utilisateurs
 [En savoir plus sur l'hôpital][18]
 
-## Open Hospital   {# Open-Hospital}
+## Open Hospital   {#Open-Hospital}
 [Open Hospital][19] est un système de gestion hospitalier  **gratuit **  avec plusieurs caractéristiques pour automatiser les hospitalisations, les visites aux patients, les données de laboratoire, les antécédents de traitement et d'autres caractéristiques d'intégration en douceur. De plus, il est facile de configurer sur les serveurs locaux / cloud et propose une API REST pour s'intégrer à d'autres applications tierces. De plus, il existe un module qui permet aux utilisateurs de gérer les données de laboratoire dans ce projet de gestion hospitalière. Ce  **logiciel médical open source **  est multilingue et peut être modifié selon les fonctionnalités nécessaires. L'hôpital ouvert permet aux responsables de la santé TP automatiser la soumission des patients et les visites des patients. De plus, l'Open Hospital est rédigé en Java et une documentation complète concernant le développement est disponible. Par conséquent, vous pouvez trouver son code source à [GitHub][20].
 L'hôpital ouvert a les caractéristiques clés suivantes:
   * Multilingue

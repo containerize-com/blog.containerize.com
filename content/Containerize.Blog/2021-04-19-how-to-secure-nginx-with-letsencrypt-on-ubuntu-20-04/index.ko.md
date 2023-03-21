@@ -44,7 +44,7 @@ sudo apt install certbot python3-certbot-nginx
 ```
 이제 Nginx 보안 구성 설정 중 일부를 확인해 봅시다.
 
-## 2 단계-Nginx의 구성 확인   {## step-2 -—- 확인 nginx-39-s-configuration}
+## 2 단계-Nginx의 구성 확인   {#step-2 -—- 확인 nginx-39-s-configuration}
 종속성 및 전제 조건 섹션에 설명 된 바와 같이, 이미 등록 된 도메인이 있어야하며 CERTBOT는 해당 도메인의 올바른 NGINX 서버 블록을 찾아 SSL을 자동으로 구성 할 수 있어야합니다. 예를 들어,이 블로그 게시물은 Domain Blog.containerize.com 및 Domain의 Domain at /etc/nginx/sites-ailable/blog.containerize.com의 서버 블록을 사용하여 Server_name 지시문이 이미 올바르게 설정되어 있습니다.
 확인하려면 Nano 또는 좋아하는 텍스트 편집기를 사용하여 도메인의 구성 파일을 엽니 다.
 ```

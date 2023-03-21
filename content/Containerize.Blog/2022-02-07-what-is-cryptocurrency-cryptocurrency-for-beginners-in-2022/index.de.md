@@ -56,7 +56,7 @@ Die Investition in Kryptowährung ist ziemlich einfach, da die größte Herausfo
 Wie speichern Sie Kryptowährung? Sie können Ihre Kryptowährung online oder offline speichern. Die beliebteste Möglichkeit, Kryptowährung zu speichern, ist online in einem Krypto -Austausch oder einer Brieftasche. Mit Krypto -Börsen und Brieftaschen können Sie Krypto mit Ihrem Computer, Tablet oder Smartphone sicher speichern, senden, empfangen und konvertieren.
 Wo kann man Kryptowährung kaufen? Sie können Kryptowährung von einem Krypto -Austausch kaufen. Im Folgenden haben wir eine Liste der besten Apps und Börsen für den Kauf von Kryptowährung in Großbritannien zusammengestellt. Bitte denken Sie daran, dass Kryptoassets ein sehr volatiles nicht reguliertes Anlageprodukt ohne Schutz in Großbritannien oder EU -Investoren sind. Sie könnten all das Geld verlieren, das Sie in sie einfügen.
 
-## **Fazit:**    {#4A1a}
+## **Fazit:** {#4A1a}
 Hoffentlich haben Sie viel gelernt und sind jetzt fundierter und kenntnisfertig über Kryptowährungshandel und Investieren als am Anfang. Jetzt bist du dran. Wir haben es genossen, Ihnen den Leitfaden zu recherchieren und zu schreiben. Viel Glück!
 _Was sind Ihre Lieblingsprojekte für Kryptowährung? Haben Sie Fragen darüber, was digitale Währung ist?
 

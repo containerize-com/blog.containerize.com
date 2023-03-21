@@ -21,7 +21,7 @@ In der jüngsten Vergangenheit haben wir Blog-Beiträge zu einigen Blockchain-Th
   ***[Wie starten Sie das Netzwerk?][7]** 
   ***[Fazit][8]** 
 
-## **Eine kurze Einführung von Consenssys Quorum**    {#Intertroduction}
+## **Eine kurze Einführung von Consenssys Quorum** {#Intertroduction}
 [Consensys Quorum][9] ist eine Open -Source -Plattform, die auf **dezentralen Ledger -Technologie  **basiert. Es bietet jedoch eine vollständig Entwicklerfreundliche Umgebung, um Blockchain-basierte Anwendungen zu erstellen, die schnelle und hohe Durchsatztransaktionen verarbeiten. Es ist **  Ethereum  **basiert, erweiterbar und bietet viele Plugins. Darüber hinaus verfügt dieses Open -Source -verteilte System mit hohen Sicherheits- und Datenschutzstandards. Darüber hinaus gibt es viele leistungsstarke Merkmale wie APIs und Überwachung. Darüber hinaus ist diese **  DLT-Plattform**  selbst gehostet und bietet detaillierte Dokumentation zu Entwicklung und Bereitstellung. Der Quellcode dieser kostenlosen Software ist unter [Github][10] verfügbar.
 Consensys Quorum bietet die folgenden wichtigen Funktionen:
   * Steckbare Architektur
@@ -31,7 +31,7 @@ Consensys Quorum bietet die folgenden wichtigen Funktionen:
   * Öffentliches/privates Netzwerk
 [Erfahren Sie mehr über Consensys Quorum][11]
 
-## ****Was sind die Voraussetzungen und Installationsverfahren? ****    {#Voraussetzungen}
+## ****Was sind die Voraussetzungen und Installationsverfahren? **** {#Voraussetzungen}
 In diesem Abschnitt werden wir die erforderlichen Abhängigkeiten installieren und die lokale Umgebung einrichten. Bevor Sie zum nächsten Schritt gehen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen installiert haben:
   * Nodejs v10+
   * Docker
@@ -45,7 +45,7 @@ Beantworten Sie jedoch die Fragen, um die Installation wie im folgenden Bild gez
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="Konsensys Quorum">}}
 
 
-## ****Wie starte ich das Netzwerk? ****    {#Start}
+## ****Wie starte ich das Netzwerk? **** {#Start}
 Jetzt haben wir den Quellcode vorhanden. Der nächste Schritt besteht also darin, das Netzwerk live zu gestalten.
 Führen Sie den folgenden Befehl aus, um in das Stammverzeichnis zu gelangen.
 ```

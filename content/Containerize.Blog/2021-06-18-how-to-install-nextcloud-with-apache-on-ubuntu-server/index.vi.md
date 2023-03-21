@@ -95,7 +95,7 @@ Khi cài đặt đã hoàn tất, bạn sẽ thấy bảng điều khiển Quả
 {{_LINE_77_}}
 Xin chúc mừng, bạn có một giải pháp đám mây trên cơ sở NextCloud hoạt động trên hệ thống Ubuntu LTS của bạn. Bây giờ bạn có thể bắt đầu tùy chỉnh máy chủ đám mây của mình để đáp ứng hoàn hảo nhu cầu của bạn.
 
-## **Gói lên:**    {#4A1A}
+## **Gói lên:** {#4A1A}
 Chúc mừng! Bạn đã thành công **được cấu hình và cài đặt NextCloud trên máy chủ Ubuntu với Apache** . Bạn đã học được cách tạo một đám mây riêng. NextCloud Ubuntu Server là một nền tảng cộng tác lưu trữ đám mây tuyệt vời, có thể phục vụ bất kỳ ai có nhu cầu lưu trữ đám mây riêng tư hoặc hybrid. Bây giờ bạn đã biết cách cài đặt NextCloud trên Ubuntu và dữ liệu của bạn an toàn và bảo mật trong đám mây tự lưu trữ của bạn. Trong các hướng dẫn sắp tới của chúng tôi, chúng tôi sẽ thảo luận về các chủ đề thú vị hơn liên quan đến các ngăn xếp giải pháp máy chủ web.
 Bạn thích giải pháp lưu trữ tự lưu trữ dựa trên đám mây nào ?. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng [hãy liên hệ][3] ._
 

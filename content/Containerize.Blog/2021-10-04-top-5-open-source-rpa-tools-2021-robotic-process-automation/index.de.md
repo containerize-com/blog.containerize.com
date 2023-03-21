@@ -155,7 +155,7 @@ Für kleine Teams und Einzelpersonen bietet Uipath die Community -Ausgabe an. Es
 **Am besten für:**  Informationsbekannte Unternehmen, die beschleunigte Geschäftsprozesse wünschen.
 **[Erfahren Sie mehr über Kofax][5]** 
 
-## **Fazit:**    {#4A1a}
+## **Fazit:** {#4A1a}
 Die oben genannten fünf Open -Source -RPA -Tools sind beliebteste kostenlose und beste Open -Source -RPA -Tools für Entwickler. Weiter zu unserem Vergleich jedes Tools im Detail ist Blue Prism das beste Werkzeug, aber Sie sollten vor der Verwendung geschult werden. Und das Training ist auch teuer. Uipath ist auch für Nichtentwickler einfach zu bedienen. Es bietet die gleichen Funktionen und selbst es serviert kleine Industrien. Für Workstation -Anwendungen ist Contextor die beste Option, da sie eine Spezialität haben.
 _Was sind Ihre beliebtesten Open -Source -RPA -Tools?. Haben Sie Fragen zu Open -Source -RPA -Tools?
 

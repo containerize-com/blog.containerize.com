@@ -80,7 +80,7 @@ Además, hay una barra de configuración en el lado izquierdo donde puede establ
 
 Del mismo modo, después de pasar por este artículo de juego, puede explorarlo aún más y utilizar todas las características. Además, podrás entender cómo seguir adelante usando el constructor de videojuegos de superpoderes. Hay soporte en línea disponible para este software de desarrollo de juegos.
 
-## **Conclusión**    {#Conclusion}
+## **Conclusión** {#Conclusion}
 Esto pone fin a esta guía de desarrollo de juegos HTML5. Con suerte, esta publicación de blog te ayudará si estás interesado en comenzar el desarrollo de videojuegos. Hemos explorado lo que es superpoderes, cómo desarrollar un videojuego, que es un constructor de juegos 3D de código abierto y también hemos pasado por su procedimiento de instalación en localhost. Hay muchas aplicaciones de diseño de videojuegos  ****  que permiten a los usuarios construir juegos desde cero. Los programadores de videojuegos utilizan principios esenciales de diseño de juegos para construir juegos de alta calidad. Aprenderá más sobre cómo construir juegos 2D y 3D en nuestros próximos artículos en [Blog.Containerize.com][8]. Hay otros constructores de juegos 3D de código abierto y artículos relevantes mencionados en la sección "Explorar" a continuación.
 Finalmente, Contenerize.com escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Desarrollo de videojuegos][9][][10] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][11], [LinkedIn][12] y [Twitter][13].
 

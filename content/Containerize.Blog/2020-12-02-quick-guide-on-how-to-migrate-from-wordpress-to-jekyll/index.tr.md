@@ -66,7 +66,7 @@ ruby -r rubygems -e 'require "jekyll-import";
 ```
 Bu yalnızca Post & Page Veri ve İçeriğini içe aktarır. Bu ithalatçı yalnızca yayınlarınızı dönüştürür ve YAML önünü oluşturur. Herhangi bir mizanpaj, stil veya harici dosyalar (görüntüler, CSS, vb.) İçe aktarmaz.
 
-## **Github sayfalarıyla dağıtım**    {#deploy}
+## **Github sayfalarıyla dağıtım** {#deploy}
 Şimdiye kadar Jekyll blogumuzu yerel olarak oluşturduk. Şimdi GitHub'a dağıtacağız. Her şeyden önce, [GIT][9] kullanarak sitemizi kontrol etmeliyiz. Sitenin klasöründe aşağıdaki komutları çalıştırın.
 ```
 git init

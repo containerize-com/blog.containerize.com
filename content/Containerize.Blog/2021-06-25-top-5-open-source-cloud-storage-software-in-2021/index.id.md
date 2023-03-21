@@ -55,7 +55,7 @@ Fitur-fiturnya termasuk berbasis objek, memelihara metadata terpusat, sistem fil
   ***xigmanas**  Solusi open-source yang kuat dan dapat disesuaikan
   ***Server Penyimpanan Cloud**  adalah penyimpanan yang aman dan dapat diperpanjang
 
-## ****pemikiran terakhir **:**    {#4a1a}
+## ****pemikiran terakhir **:** {#4a1a}
 Lima platform berbagi file cloud open source yang disebutkan di atas adalah solusi yang fleksibel. Dalam komputasi awan, Anda akan menemukan banyak solusi penyimpanan cloud pribadi sumber terbuka tetapi menemukan yang paling andal adalah yang paling penting. Anda atau kebutuhan organisasi Anda yang menentukan pemilihan perangkat lunak cloud. Saya harap artikel ini akan membantu Anda mengatur server cloud pribadi yang aman dan andal atau memilih layanan cloud terbaik untuk menyimpan gambar, musik, film, dan dokumen berharga Anda.
 _ Apa solusi perangkat lunak penyimpanan cloud gratis & open source favorit Anda?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda][8].
 

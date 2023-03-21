@@ -146,7 +146,7 @@ Geben Sie dann Ihren Benutzernamen und Ihr Passwort für den Administrator ein. 
 
 Ja! Es ist fertig. Sie wissen nun, wie Sie PYDIO Self -Hosted -Datei -Synchronisierungs- und Open -Source -Datei -Sharing -Software auf Ubuntu vollständig installieren, um einen privaten Cloud -Cloud zu erstellen, der bei Dropbox oder Google Drive ähnlich ist.
 
-## **Fazit:**    {#4A1a}
+## **Fazit:** {#4A1a}
 In diesem Tutorial haben Sie die Open -Source -Dateifreigabe von Pydio Cells in Ihrem Ubuntu -System erfolgreich installiert. Sie können diesen Artikel verwenden, um eine Cloud-Infrastruktur zum Speichern, Sichern und Teilen Ihrer Dateien in der selbst gehosteten Cloud zu erstellen. Verwenden Sie die Pydio Collaborative Document Sharing und die beste kostenlose Dateifreigabe -App, um mehr Kontrolle über Ihre Daten zu erhalten und eine effiziente Zusammenarbeit in Ihrer Unternehmensorganisation zu gewährleisten. In unseren bevorstehenden Tutorials werden wir weitere interessante Themen von Open -Source -Cloud -Speicherlösungen und den Tattyp zur Kollaboration von Dateien zur Kollaboration erörtert.
 Sie können sich uns auf [Twitter][1], [linkedIn][2] und unserer [Facebook][3] -Seite anschließen. Welche Cloud-basierte Open Source _file Share-Plattform verwenden Sie online? Wenn Sie Fragen haben, bitte_ [Kontakt aufnehmen][4].
 

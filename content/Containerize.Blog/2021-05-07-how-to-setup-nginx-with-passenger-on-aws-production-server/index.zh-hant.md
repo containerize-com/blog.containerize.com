@@ -9,7 +9,7 @@ url: /zh-hant/how-to-setup-nginx-with-passenger-on-aws-production-server/
 categories: ['Web Server Solution Stack']
 ---
 
-##此博客文章介紹了通過APT方法安裝Nginx，並通過Ubuntu 20.04 LTS操作系統安裝NGINX的步驟。
+## 此博客文章介紹了通過APT方法安裝Nginx，並通過Ubuntu 20.04 LTS操作系統安裝NGINX的步驟。
 
 {{< figure align=center src="images/Nginx-With-Passenger-on-AWS-Production-Server.png" alt="帶有AWS生產服務器上乘客的設置NGINX">}}
 

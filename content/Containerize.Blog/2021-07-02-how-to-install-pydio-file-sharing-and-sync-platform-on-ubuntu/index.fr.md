@@ -146,7 +146,7 @@ Entrez ensuite votre nom d'utilisateur et votre mot de passe pour l'administrate
 
 Ouais! C'est fait. Vous savez maintenant comment installer complètement la synchronisation des fichiers auto-hébergés Pydio et le logiciel de partage de fichiers open source sur Ubuntu pour créer un cloud privé étape par étape similaire à Dropbox ou Google Drive.
 
-## **Conclusion:**    {# 4A1A}
+## **Conclusion:** {#4A1A}
 Dans ce tutoriel, vous avez réussi à installer le partage de fichiers sécurisé Open Source des cellules Pydio sur votre système Ubuntu. Vous pouvez utiliser cet article pour créer une infrastructure cloud pour stocker, sécuriser et partager vos fichiers dans le cloud auto-hébergé. Utilisez le partage de documents Collaborative Pydio et la meilleure application de partage de fichiers gratuite pour obtenir plus de contrôle de vos données et assurer une collaboration efficace dans votre organisation d'entreprise. Dans nos prochains tutoriels, nous discuterons des sujets plus intéressants des solutions de stockage cloud open source et des outils de collaboration de partage de fichiers.
 _Pour peut se joindre à nous sur [Twitter][1], [LinkedIn][2] et notre page [Facebook][3]. Quelle plate-forme de partage ouverte de cloud-basé sur le cloud_ utilisez-vous en ligne ?. Si vous avez des questions, veuillez vous contacter][4].
 

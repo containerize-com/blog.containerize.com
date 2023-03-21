@@ -43,7 +43,7 @@ El copago tiene las siguientes características clave:
   * Muy seguro
 **[Aprenda más sobre el copago][11]** 
 
-## **Breadwallet**    {#BreadWallet}
+## **Breadwallet** {#BreadWallet}
 **[Breadwallet][12]  **es otra opción popular entre las billeteras criptográficas de código abierto **  **. Esta billetera digital de código abierto es fácil de usar y proporciona conexiones directas con la red blockchain para transacciones rápidas y rápidas. Además, este  **software de billetera gratuito**   es desarrollado por Bread Company y está disponible para plataformas móviles. Además, ofrece una interfaz de usuario lógica y fácil donde los usuarios pueden navegar fácilmente. Breadwallet ofrece muchas características potentes, como transacciones anónimas, soporte para múltiples idiomas y muchas más. Además, los usuarios no necesitan registrarse para usar esta billetera criptográfica de código abierto.
 Breadwallet ofrece las siguientes características importantes:
   * Widgets personalizables

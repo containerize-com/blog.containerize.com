@@ -31,7 +31,7 @@ Berikut adalah beberapa fitur populer Joomla CMS.
   * SEO
     [Baca lebih lanjut][6]
 
-### **Drupal**    {#Drupal}
+### **Drupal** {#Drupal}
 Drupal adalah pilihan populer lainnya di antara **sistem manajemen konten open source**  yang datang pada tahun 2001 untuk mengembangkan situs web yang dinamis dan berbasis konten. Ini adalah open source dan 100% bebas biaya dan, di antara salah satu dari 3 platform CMS teratas. Ini memimpin transformasi digital di seluruh industri.
 Di Drupal, templat dan plugin yang sudah dibuat sebelumnya memfasilitasi pengembangan situs web baru tanpa kerumitan. Salah satu nilai jual utama dari sistem manajemen konten web **ini**  adalah kekuatannya untuk membuat dan mengelola berbagai jenis konten. Keamanannya tidak tertandingi dan tidak tergoyahkan.
 Berikut adalah beberapa fitur populer Drupal.
@@ -41,7 +41,7 @@ Berikut adalah beberapa fitur populer Drupal.
   * Tampilan khusus perangkat
     [Baca lebih lanjut][7]
 
-### **pyro**    {#pyro}
+### **pyro** {#pyro}
 Pyro adalah sistem manajemen konten yang luar biasa yang baru -baru ini semakin populer. Dibangun dengan Laravel CMS. Dan, rasanya seperti perpanjangannya. Seperti platform CMS open source **lainnya** , Pyro hadir dengan fitur unik dan kuat di luar kotak. Ini juga mendukung manajemen file berbasis driver untuk integrasi ideal dengan Laravel.
 Pyro juga mendukung manajemen pengguna. Oleh karena itu, ini **perangkat lunak CMS khusus**  memungkinkan kami untuk mengelola pengguna, peran, dan izin dengan mudah. Namun, Anda juga dapat menikmati addons yang tersedia di toko Pyro.
 Inti dari piro adalah platform Streams. Ini adalah set alat lengkap untuk membuat aplikasi yang kuat dan lebih cepat. Juga, ini adalah mesin yang kuat dan platform pengembangan.
@@ -53,7 +53,7 @@ Berikut adalah beberapa fitur populer piro.
   * 1 API Kickass
     [Baca lebih lanjut][8]
 
-### **Django**    {#django}
+### **Django** {#django}
 Django CMS adalah kerangka kerja yang ditulis dalam Python yang memungkinkan pengembangan cepat situs web yang aman dan dapat dipelihara. Ini adalah CMS open source. Yang paling penting, ribuan situs web didukung oleh Django. Ini ramah pengguna dengan banyak fitur seperti dukungan multisite, kontrol versi, mekanisme penerbitan yang lebih baik, dan menyediakan dasbor drag and drop yang mempercepat proses pengembangan.
 Seperti platform CMS open source **lainnya **, menggunakan Django membutuhkan banyak kerumitan pengembangan web. Pertama, sistem manajemen konten Web ini**  menanggapi keamanan dengan serius dan membantu pengembang dengan banyak kesalahan keamanan umum. Kedua, dapat menangani sejumlah besar lalu lintas web dengan sangat mudah. Di atas segalanya, pemerintah, organisasi, dan perusahaan menggunakan Django untuk membangun segala macam hal mulai dari jejaring sosial hingga sistem manajemen hingga komputasi ilmiah.
 Berikut adalah beberapa fitur populer Django CMS.
@@ -63,7 +63,7 @@ Berikut adalah beberapa fitur populer Django CMS.
   * Mudah diintegrasikan
     [Baca lebih lanjut][9]
 
-## **Umbraco**    {#umbraco}
+## **Umbraco** {#umbraco}
 Umbraco adalah CMS open source **lain untuk situs web**  yang menyediakan cara tercepat untuk mengatur situs web untuk bisnis dengan menawarkan templat desain yang sudah jadi. Dengan Umbraco, Anda mendapatkan sistem manajemen konten yang dikenal dan dicintai karena fleksibilitas dan pengalaman pengeditan yang hebat. Dasbor intuitif ada di tempat untuk membiarkan pengguna membangun, memperbarui, dan mempublikasikan konten secara efisien.
 Umbraco dirancang untuk membuat pengembang tetap terlihat. Karena itu, itu fleksibel tanpa batasan. Demikian pula, pemasar dan editor senang bekerja dengan Umbraco. Karena itu membuat pekerjaan sehari-hari lebih sederhana dan lebih menyenangkan.
 Umbraco CMS ditulis dalam ASP.NET bersama dengan input beberapa bahasa lain seperti JavaScript, HTML, dan TypeScript. Yang paling penting, ini mendukung pencarian global di mana pengguna dapat mencari apa pun terlepas dari ruang lingkupnya.

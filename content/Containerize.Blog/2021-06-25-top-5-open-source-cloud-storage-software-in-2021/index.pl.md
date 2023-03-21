@@ -55,7 +55,7 @@ Jego funkcje obejmują takie obiektowe, utrzymuje scentralizowane metadane, syst
   ***Xigmanas**  potężne i konfigurowalne rozwiązanie typu open source
   ***Serwer przechowywania w chmurze**  jest bezpieczny i rozszerzalny pamięć
 
-## ****Final myśl **:**    {#4a1a}
+## ****Final myśl **:** {#4a1a}
 Wyżej wymienione pięć platform udostępniania i synchronizacji plików open source to elastyczne rozwiązania. W przetwarzaniu w chmurze znajdziesz wiele roztworów pamięci masowej w chmurze open source, ale najważniejsze jest znalezienie najbardziej niezawodnego. To Ty lub Twoja organizacja decyduje o wyborze oprogramowania w chmurze. Mam nadzieję, że ten artykuł pomoże Ci skonfigurować bezpieczny i niezawodny osobisty serwer w chmurze lub wybrać najlepszą usługę chmurową do przechowywania cennych zdjęć, muzyki, filmów i dokumentów.
 _ Jakie jest Twoje ulubione oprogramowanie do przechowywania bezpłatnego i open source w chmurze?. Jeśli masz jakieś pytania, proszę [skontaktuj się][8].
 

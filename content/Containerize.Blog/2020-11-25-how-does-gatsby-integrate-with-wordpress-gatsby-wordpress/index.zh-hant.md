@@ -9,7 +9,7 @@ url: /zh-hant/how-does-gatsby-integrate-with-wordpress-gatsby-wordpress/
 categories: ['Blogging']
 ---
 
-##使用WordPress配置開源Gatsby，以帶來更大的用戶體驗和整體性能。讓我們學習如何使用此靜態站點生成器。
+## 使用WordPress配置開源Gatsby，以帶來更大的用戶體驗和整體性能。讓我們學習如何使用此靜態站點生成器。
 
 {{< figure align=center src="images/wordpressGatsby-1024x537.png" alt="蓋茨比WordPress">}}
 
@@ -22,10 +22,10 @@ Gatsbyjs是一種基於GraphQl驅動的靜態站點生成器的免費開源反�
 * **[如何將Gatsby與WordPress一起使用][3]**
 * **[結論][4]**
 
-##什麼是gatsby   {#gatsby}
+## 什麼是gatsby   {#gatsby}
 蓋茨比是靜態站點生成器。這意味著Gatsby生成了上傳到網站服務器的靜態HTML文件。當訪問者降落在您的網站上時，這些靜態文件就會將其提供給其瀏覽器，而不是動態內容WordPress通常使用。這是一個基於React的免費開源框架，可幫助開發人員構建熾烈的網站和應用程序。
 
-##使用WordPress和Gatsby   {#proscons}的優點和缺點
+## 使用WordPress和Gatsby   {#proscons}的優點和缺點
 根據蓋茨比（Gatsby）的官方[文件][5]，他們已經編譯了一張桌子，蓋茨比WordPress的組合很棒，而不是。為了輕鬆，我在這裡列出這些。
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -105,7 +105,7 @@ Gatsbyjs是一種基於GraphQl驅動的靜態站點生成器的免費開源反�
 {{_LINE_98_}}
 {{_LINE_99_}}
 
-##如何將gatsby與wordpress   {#howto}使用
+## 如何將gatsby與wordpress   {#howto}使用
 在安裝Gatsby之前，您需要在網站環境中安裝[Nodejs][6]和[NPM][7]。
 
 ###步驟1  - 安裝蓋茨比
@@ -196,7 +196,7 @@ exports.createPages = async ({ graphql, actions }) => {
 ```
 調用所有數據後，Gatsby將為每個帖子生成一個頁面。使用開發命令，您可以使用生成的URL導航到每個新頁面。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在這個蓋茨比WordPress教程中，我們介紹瞭如何從WordPress生成Gatsby網站。我們了解了這兩個開源軟件的優缺點。我們還介紹瞭如何從Gatsby開發環境開始安裝和開始。
 最後，[Containerize.com][8]正在撰寫有關進一步開源產品的文章。因此，請與開源[Blogging][9]平台類別保持聯繫，以進行常規新聞和更新。
 

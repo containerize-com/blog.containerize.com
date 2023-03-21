@@ -21,7 +21,7 @@ Yakın geçmişte, [2020'de Top 5 Açık Kaynak Blockchain Platformları][1], [E
   ***[Ağ nasıl başlatılır?][7]** 
   ***[Sonuç][8]** 
 
-## **Consensys Quorum**    {#Introduction} 'in kısa bir girişi
+## **Consensys Quorum** {#Introduction} 'in kısa bir girişi
 [Consensys Quorum][9] **Merkezi olmayan Defter Teknolojisi  **tabanlı açık kaynaklı bir platformdur ** . Bununla birlikte, hızlı ve yüksek verimli işlemleri işleyen blockchain tabanlı uygulamalar oluşturmak için tamamen geliştirici dostu bir ortam sağlar.  **Ethereum **  tabanlı, genişletilebilir ve birçok eklenti sunar. Ayrıca, bu açık kaynak dağıtılmış sistem yüksek güvenlik ve gizlilik standartlarıyla birlikte gelir. Buna ek olarak, API'lara izin vermek ve izleme gibi birçok güçlü özellik vardır. Ayrıca, bu  **DLT platformu**   kendi kendine barındırılır ve geliştirme ve dağıtım ile ilgili ayrıntılı belgeler sağlar. Bu ücretsiz yazılımın kaynak kodu [GitHub][10] 'da mevcuttur.
 ConseSys Quorum aşağıdaki önemli özellikleri sunar:
   * Ploggable mimari
@@ -31,7 +31,7 @@ ConseSys Quorum aşağıdaki önemli özellikleri sunar:
   * Genel/Özel Ağ
 [Consensys Quorum hakkında daha fazla bilgi edinin][11]
 
-## ****Ön koşullar ve kurulum prosedürü nelerdir? ****    {#ön koşullar}
+## ****Ön koşullar ve kurulum prosedürü nelerdir? **** {#ön koşullar}
 Bu bölümde, gerekli bağımlılıkları kuracağız ve yerel ortamı kuracağız. Bir sonraki adıma geçmeden önce aşağıdaki ön koşulları yüklediğinizden emin olun:
   * Nodejs v10+
   * Docker
@@ -45,7 +45,7 @@ Ancak, aşağıdaki resimde gösterildiği gibi kurulumu tamamlamak için sorula
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="Konserler Yeter">}}
 
 
-## ****Ağ nasıl başlatılır? ****    {#start}
+## ****Ağ nasıl başlatılır? **** {#start}
 Şimdi, kaynak kodumuz var. Yani, bir sonraki adım ağı canlı hale getirmektir.
 Kök dizinine girmek için aşağıdaki komutu çalıştırın.
 ```

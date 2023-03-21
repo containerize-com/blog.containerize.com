@@ -43,7 +43,7 @@ Os códigos de short são macros que podem ser usados ​​para executar intera
 Widgets ## #
 Os widgets são importantes porque fornecem outro meio de executar o código do seu plug-in enquanto fornece uma interface fácil de usar. Como a maioria dos temas apoiará uma ou mais barras laterais; Adicionar seus próprios widgets fornecerá acesso rápido para exibir suas informações dentro do tema.
 
-## **Como criar plugin WP?**    {#Create}
+## **Como criar plugin WP?** {#Create}
 Nesta seção do tutorial do plug -in do WordPress, tudo o que você precisa fazer é criar uma pasta e, em seguida, criar um único arquivo com uma linha de conteúdo. Navegue até a pasta **wp-content/plugins  **e crie uma nova pasta chamada **  mytestplugin **. Dentro desta nova pasta, crie um arquivo chamado  **mytestplugin.php**  . Abra o arquivo em um editor de texto e cole as seguintes informações nele:
 ```
 <?php

@@ -91,7 +91,7 @@ Ansible Açık Kaynak **Otomasyon Aracı  **ve ücretsiz yazılım Python'da yaz
 Python, yapay zeka, makine öğrenimi, masaüstü uygulamaları vb. Yazılım Vakfı ** (DSF).
 **Django kullanan en iyi şirketler**  Instagram, Spotify, National Geographic, Pinterest, MacArthur Vakfı, Disqu, Bitbucket, Mozilla, Açık Yığın ve daha fazlasını içerir.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Yukarıda belirtilen beş açık kaynaklı yazılım projesi, geliştiriciler için en popüler ücretsiz ve en iyi açık kaynak yazılımıdır. Yeni başlayanlar için iyi açık kaynak projelerini ilk kez araştırıyorsanız, OctOverse State raporuna göz atın ve eklemek ve katkıda bulunmaktan çekinmeyin. Açık kaynaklı yazılım listesi, dünyanın en büyük platformlarından bazılarında çalışmalarına izin verirken, kariyer oluşturma konusunda yenilikçilerin ve uygulama geliştiricilerinin kapılarının kilidini açın. Yukarıda listelediğimiz en iyi açık kaynaklı yazılım örnekleri, sadece açık kaynak uygulamalarının ne kadar faydalı olduğunun kanıtıdır.
 _ En sevdiğiniz ücretsiz ve açık kaynaklı yazılım projeleri nelerdir?. Açık kaynaklı projeler hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][12].
 

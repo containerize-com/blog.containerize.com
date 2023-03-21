@@ -22,7 +22,7 @@ Oleh karena itu, ambil keputusan yang bijak dan adopsi perangkat lunak animasi o
   ***[perbandingan synfig &  **pensil2d ** ][12]** 
   ***[Kesimpulan][13]** 
 
-## **Bagaimana cara menggunakan synfig?**    {#review}
+## **Bagaimana cara menggunakan synfig?** {#review}
 Synfig adalah suite animasi 2D berbasis vektor open source. Ini adalah cross-platform dan memberikan dukungan untuk hampir semua platform populer seperti Windows, Linux, dan MacOS. Selain itu, mudah digunakan dan dilengkapi dengan kemampuan tuan rumah mandiri. Itu tidak hanya memberikan kemampuan animasi 2D tetapi juga memberikan dukungan 3D. Ini menggunakan sistem animasi "Tweenless" untuk membuat proses animasi kuat. Selain itu, hemat biaya, hemat waktu, dan menawarkan kontrol canggih kepada pengguna. Demikian pula, animator dapat membangun karakter canggih dan struktur dinamis. Semua kode sumber dari perangkat lunak animasi 2D sederhana ** ini tersedia di [GitHub][14]. Oleh karena itu, pengguna dapat melalui semua dokumentasi mengenai penyebaran dan pengembangan.
 
 ## Bagaimana cara menggunakan pensil2d?   {#pensil}

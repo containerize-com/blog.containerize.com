@@ -52,7 +52,7 @@ SuperPowers propose les caractéristiques importantes suivantes:
   * Prise en charge du projet partagé
 **[En savoir plus sur les superpuissances][15]** 
 
-## panda3d   {# panda3d}
+## panda3d   {#panda3d}
 **[panda3d][16]  **est une autre open source **  moteur de jeu 3D** . Les développeurs de jeux peuvent construire des jeux 3D en temps réel en utilisant des simulations et des visualisations riches. De plus, il fournit de nombreuses fonctionnalités puissantes telles que les cibles de rendu multiples, le prototypage rapide, l'OpenGL et la manipulation des actifs flexibles. Il est auto-hébergé, multiplateforme, extensible et fournit des outils de ligne de commande pour gérer les actifs. Cependant, Panda3D est écrit en C ++, Python et tout son code source est disponible sur [GitHub][17] ainsi que la documentation concernant le déploiement et le développement.
 Panda3D propose les caractéristiques clés suivantes:
   * Profilage des performances

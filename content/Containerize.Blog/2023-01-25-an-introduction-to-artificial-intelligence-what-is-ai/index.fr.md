@@ -21,14 +21,14 @@ Les sujets suivants seront traités dans cet article de blog:
   * [**Types d'intelligence artificielle**][2]
   * **[Applications de l'intelligence artificielle][3]**
 
-## Qu'est-ce que l'intelligence artificielle (AI)?   {# What-est-ce qui est artificiel-intelligence}
+## Qu'est-ce que l'intelligence artificielle (AI)?   {#What-est-ce qui est artificiel-intelligence}
 L'intelligence artificielle est un sujet d'informatique qui souligne la simulation de l'intelligence humaine dans les machines. Il s'agit d'une étape vers la rendre les machines humaines suffisamment intelligentes pour traiter les ensembles d'énormes ensembles de données et résoudre des problèmes complexes. Selon cette branche de l'étude informatique, les ordinateurs sont programmés à l'auto-apprentissage et tirent des résultats auto-ajustés. L'apprentissage automatique et le traitement du langage naturel (PNL) ont fait réfléchir et traiter les choses comme un cerveau humain. L'apprentissage automatique est un processus dans lequel les machines sont suffisamment capables d'apprendre à l'aide des données et de la formation.
 
 {{< figure align=center src="images/artificial-intelligence-1.png" alt="Une introduction à l'intelligence artificielle">}}
 
 Cependant, l'apprentissage automatique utilise l'apprentissage en profondeur qui est une méthode de réseau neuronal dans lequel plusieurs éléments de traitement sont connectés les uns aux autres dans une structure en couches. Dans l'IA, les machines de traitement apprennent des choses basées sur des ensembles de données et des méthodes d'essai et n'ont pas nécessairement besoin d'être programmées encore et encore pour différents travaux.
 
-## Types d'intelligence artificielle   {# Types d'articles artificiels}
+## Types d'intelligence artificielle   {#Types d'articles artificiels}
 Il existe principalement deux types d'intelligence artificielle. Cette section de l'article de blog démontrera ces deux types.
 
 ## ## Intelligence artificielle faible
@@ -37,7 +37,7 @@ Selon cette catégorie d'IA, les systèmes sont conçus pour résoudre des probl
 ## ## Intelligence artificielle forte
 Une intelligence artificielle forte offre la simulation exacte du cerveau humain. L'intelligence générale artificielle et la superintelligence artificielle relèvent également de cette catégorie. Cette catégorie conçoit des systèmes et des modèles qui contiennent la capacité de traiter les choses et de prendre des décisions sans intervention humaine. Les robots interactifs sont des exemples d'IA solides et les voitures autonomes sont également enrichies de systèmes formés avec d'énormes ensembles de données et sont capables de prendre des décisions à l'aide du réseau neuronal. De plus, ces systèmes peuvent faire des prédictions en fonction de leur expérience passée.
 
-## **Applications de l'intelligence artificielle** {# Applications d'artificiel-intelligence}
+## **Applications de l'intelligence artificielle** {#Applications d'artificiel-intelligence}
 Les points suivants vous donneront une idée de certaines applications importantes de l'intelligence artificielle:
 **Reconnaissance de la parole**: Le traitement du langage naturel est la principale branche de l'IA qui traite la voix humaine et donne la sortie sous forme écrite ou une autre. Cette fonctionnalité est disponible sur de nombreux appareils tels que les téléphones portables, les voitures, etc.
 **Reconnaissance faciale**: Selon cette application, l'IA peut comparer plusieurs visions faciales et a la capacité de détecter une structure de visage spécifique. De plus, vous pouvez utiliser l'intelligence artificielle pour faire correspondre et signaler différents accents de la parole, l'écriture manuscrite, le bruit, etc.

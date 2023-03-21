@@ -22,7 +22,7 @@ Les outils de gestion de la traduction suivants seront couverts dans ce guide:
   * [**Tolgee**][3]
   * **[TradUora][4]**
 
-## i18n-tâches   {# i18n-tâches}
+## i18n-tâches   {#i18n-tâches}
 [i18n-tâches][5] est l'un des outils de gestion des traductions gratuits les plus utilisés les plus largement utilisés.**Il est hautement optimisé et écrit en langage de programmation Ruby. Ainsi, ce TMS open source est convivial et facile à configurer sur la machine locale. De plus, vous pouvez l'intégrer à n'importe quel projet utilisant [i18n gemm][6]. De plus, les tâches I18N ont de bonnes statistiques sur GitHub avec 1,8k TARS et 231 fourches.
 Si vous cherchez à l'essayer, vous pouvez trouver son code sur le repo [github][7] avec toutes les instructions d'installation mentionnées. Ce système de gestion de traduction gratuit a la capacité de gérer plusieurs fichiers de traduction. De plus, vous pouvez créer des adaptateurs personnalisés et faire de nombreuses autres personnalisations pour répondre aux besoins de votre entreprise. Fondamentalement, il fait tous les processus par analyse statique où il offre une console interactive aux utilisateurs. De plus, ce TMS open source fournit des intégrations avec Deepl et Google Traductions.
 **[En savoir plus sur les tâches i18n][5]**
@@ -58,7 +58,7 @@ De même, il existe une communauté dynamique qui est très active pour répondr
 Pour résumer, nous avons parcouru les 3 meilleurs outils de gestion de la traduction open source en l'an 2023. Nous avons également exploré leurs statistiques et fonctionnalités GitHub. Tous les outils de gestion de la traduction enrôlés dans cet article de blog sont gratuits et open source. De plus, il y a eu des améliorations cohérentes dans cette catégorie de logiciels open source. Par conséquent, cet article vous aidera vraiment si vous cherchez à installer une bonne plateforme de gestion de localisation pour obtenir des services de localisation de sites Web pour votre logiciel d'entreprise. Il y a d'autres articles enrôlés dans la section «Voir aussi», alors n'oubliez pas de les vérifier.
 Enfin, [**contenerize.com**][14] écrit des articles sur d'autres produits open source. Par conséquent, veuillez rester en contact pour des mises à jour régulières.
 
-## poser une question   {# ask-a-question}
+## poser une question   {#ask-a-question}
 Vous pouvez nous informer de vos questions ou requêtes sur notre [Forum][15].
 
 ## faqs   {#faqs}
@@ -67,7 +67,7 @@ Vous pouvez nous informer de vos questions ou requêtes sur notre [Forum][15].
 **Qu'est-ce qu'un système TMS en traduction?**
 Un système de gestion de la traduction a automatisé divers processus de traduction et augmenter l'efficacité de la traduction.
 
-## Voir aussi   {# See-Also}
+## Voir aussi   {#See-Also}
   * [Pourquoi avez-vous besoin d'un système de gestion des traductions?][1]
   * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][16]
 

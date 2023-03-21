@@ -25,7 +25,7 @@ Recientemente publicamos una publicación de blog sobre [Software de inicio de s
 [Sign-On][6] es un software de identificación y autenticación ** que le permite iniciar sesión utilizando sitios de terceros. El software SSO actúa como un proveedor de identidad para que pueda iniciar sesión en varios sitios con un solo conjunto de nombres de usuario/contraseñas. Sin embargo, es un mecanismo de inicio de sesión único y el sistema SSO asegura la autenticidad de los usuarios.
 Además, este sistema se ha utilizado ampliamente a nivel pequeño y empresarial para administrar las identidades de los usuarios en múltiples aplicaciones. Hay muchos software de inicio de sesión único de código abierto que utilizan protocolos de autorización populares como OpenID OpenID, SAML y OAUTH.
 
-## **¿Cómo funciona el inicio de sesión único (SSO)?**    {#Feature}
+## **¿Cómo funciona el inicio de sesión único (SSO)?** {#Feature}
 El mecanismo de trabajo de **Sign-On de código abierto**  es recto. El usuario ingresa credenciales en el formulario de inicio de sesión, el usuario se moverá al completar con éxito la autenticación SSO. Ahora, cada vez que un usuario visita cualquier sitio integrado con cualquier solución SSO, el sistema verificará que cualquiera de los usuarios ya haya iniciado sesión o no. Además, si el usuario ya ha iniciado sesión, el servidor emitirá un rastreador/token y este token/rastreador se utilizará para asegurarse de que su autenticación en múltiples aplicaciones. Junto con las capacidades de SSO, también proporciona funciones de gestión y seguridad de los usuarios como se menciona a continuación.
   * Fácil de usar
   * Identidad federada

@@ -26,7 +26,7 @@ NGINX支持的協議之一是2015年5月發布的HTTP/2。HTTP/2的主要優點�
   *重新啟動nginx
   * 結論
 
-##步驟1：更新軟件包並安裝nginx   {#4597}
+## 步驟1：更新軟件包並安裝nginx   {#4597}
 第一步是更新和升級APT包裝系統中的存儲庫。使用更新將下載最新版本軟件包，升級將在列表中安裝最新版本的軟件包。運行下面的APT命令以更新和升級軟件包。
 ```
 sudo apt-get update && apt-get upgrade
@@ -44,7 +44,7 @@ sudo nginx -v
 nginx version: nginx/1.10.0 (Ubuntu)
 ```
 
-##步驟2：啟用http/2支持 {#f4d2}
+## 步驟2：啟用http/2支持 {#f4d2}
 安裝NGINX軟件包後，我們需要啟用HTTP2 NGINX。用戶必須將收聽端口從80更改為443。讓我們打開Nginx配置文件：
 ```
 sudo nano /etc/nginx/sites-available/domain-name.com
@@ -57,7 +57,7 @@ sudo nano /etc/nginx/sites-available/domain-name.com
 聽[::]：443 SSL HTTP2 DEFAULT_SERVER;
 請注意，除SSL外，我們還添加了HTTP2。 NGINX現在能夠使用支持HTTP/2協議的瀏覽器。
 
-##步驟3：添加服務器名稱 {#A745}
+## 步驟3：添加服務器名稱 {#A745}
 下一步是更改服務器\ _名稱，以便服務器名稱與域名關聯。用戶只需要更改配置文件中的服務器名稱即可。在配置文件中找到服務器\ _name條目，然後將_更改為您的實際域，如下：
 ```
 server_name example.com www.example.com;
@@ -70,7 +70,7 @@ sudo nginx -t
 nginx：配置文件/ETC/NGINX/NGINX.CONF語法是可以的
 nginx：configuration file /etc/nginx/nginx.conf測試成功
 
-##步驟4：添加SSL證書 {#37C0}
+## 步驟4：添加SSL證書 {#37C0}
 下一步是啟用NGINX HTTPS配置使用您的SSL證書。您可以生成自簽名證書或[從Let's Encrypt中安裝免費證書][1]。如果您沒有SSL證書，請遵循本教程。在NGINX配置目錄中添加您的SSL證書類似：
 ```
 sudo mkdir /etc/nginx/ssl
@@ -84,7 +84,7 @@ ssl_certificate /etc/nginx/ssl/example.com.crt;
 ssl_certificate_key /etc/nginx/ssl/example.com.key;
 保存文件nginx文件並退出文本編輯器。
 
-##步驟5：刪除密碼 {#D291}
+## 步驟5：刪除密碼 {#D291}
 密碼是一種用於數據加密和解密的加密術中的算法。密碼套件是用於保護網絡連接的一堆密碼算法。 HTTP/2具有巨大的不安全密碼黑名單，需要刪除。在這裡，我們將使用由Internet Giants Cloudflare批准的流行密碼集。
 打開以下nginx配置文件/etc/nginx/nginx.conf，然後在** ssl \ _prefer \ _server_ciphers上添加以下行。
 ```
@@ -93,7 +93,7 @@ AES256:EECDH+3DES:RSA+3DES:!MD5;
 ```
 您可以將GZIP設置為OFF並添加代理\ _max \ _temp \ _file \ _size 0;為了避免err \ _http2 \ _protocol_error nginx錯誤。
 
-##步驟6：將所有http請求重定向到https   {#b387}
+## 步驟6：將所有http請求重定向到https   {#b387}
 現在，我們應該告訴NGINX HTTP2代理，僅當服務器收到HTTP請求時，它應該通過HTTPS提供內容。最後，忽略評論的行，您的nginx配置文件/etc/nginx/sites-available/domain-name.com應該看起來與此相似：
 服務器{收聽443 SSL HTTP2 DEFAULT_SERVER;聽[::]：443 SSL HTTP2 default_server; root/var/var/www/html; index index index.html index.htm index.htm index.nginx-debian.html; server_name example.com; locaty/location/locess/{ ; } ssl_certificate /etc/nginx/ssl/example.com.crt; sssl_certificate_key /etc/nginx/nginx/ssl/ssl/example.com.ykey；聽[::]：80; server_name example.com;返回301 https：// $ server_name $ request_uri;}
 保存文件/etc/nginx/sites-available/domain-name.com，然後退出。檢查語法錯誤的配置：
@@ -101,7 +101,7 @@ AES256:EECDH+3DES:RSA+3DES:!MD5;
 sudo nginx -t
 ```
 
-##步驟7：RESTART NGINX   {#E687}
+## 步驟7：RESTART NGINX   {#E687}
 要應用所有更改，請重新啟動NGINX HTTP2反向代理服務器並檢查配置狀態。
 sudo systemctl restart nginx
 sudo systemctl狀態nginx

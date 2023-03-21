@@ -9,7 +9,7 @@ url: /zh-hant/google-docs-integration-with-chatgpt/
 categories: ['Artificial intelligence']
 ---
 
-##您是否希望將重複的動作現代化？這是AI驅動的OpenAI GPT-3 NLP型號，為Google Docs自動化提供了廣泛的功能。
+## 您是否希望將重複的動作現代化？這是AI驅動的OpenAI GPT-3 NLP型號，為Google Docs自動化提供了廣泛的功能。
 
 {{< figure align=center src="images/Google-Docs-Integration-with-ChatGPT-OpenAI-GPT-3-1.png" alt="Google文檔與Chatgpt集成">}}
 
@@ -21,7 +21,7 @@ categories: ['Artificial intelligence']
   * **[讓我們與Chatgpt集成Google Docs][7]**
   *[**開始使用chatgpt和google  **** 文檔**][8]
 
-##如何獲取OpenAI API密鑰？   {#操作效果 -  openai-api-key}
+## 如何獲取OpenAI API密鑰？   {#操作效果 -  openai-api-key}
 為了給您一些介紹，OpenAI是一家專注於人工智能工具的研究與開發的公司。 Chatgpt還由OpenAI開發和推出，而OpenAI開發了一系列GPT模型。
 首先，您需要在OpenAI的[Platform][9]上創建一個帳戶，然後登錄。登錄後，您將降落在API鍵頁面上，可以在其中通過單擊“創建新秘密”按鈕來生成API鍵鍵”如下所示。
 
@@ -29,7 +29,7 @@ categories: ['Artificial intelligence']
 
 複製新生成的OpenAI API密鑰並保存它，以便您可以將其用於Google Docs集成。
 
-##讓我們與ChatGpt集成Google Docs   {#讓Do-Google-docs-integration-with-chatgpt}
+## 讓我們與ChatGpt集成Google Docs   {#讓Do-Google-docs-integration-with-chatgpt}
 此對話AI工具的安裝過程非常容易。單擊“ Extensions-Add-On->獲取附加組件”，您將看到Google Workspace Marketplace頁面。現在，在搜索欄中編寫Chatgpt，選擇“在紙和文檔中的chatgpt”選項單擊第一個選項，然後按照以下圖表所示安裝它：
 
 {{< figure align=center src="images/chatgpt-and-google-1.gif" alt="Chatgpt和Google">}}
@@ -40,7 +40,7 @@ categories: ['Artificial intelligence']
 
 最後，OpenAI GPT-3已安裝在您的Google文檔中，您可以開始利用Google文檔自動化。
 
-##開始使用chatgpt和Google文檔 {#start-using-using-chatgpt and google}
+## 開始使用chatgpt和Google文檔 {#start-using-using-chatgpt and google}
 現在是時候開始使用此Google Docs自動化了。此目的，通過單擊“擴展 - >應用程序腳本”，將打開一個新的選項卡。現在，將以下代碼複製到代碼編輯器中。
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 在上面的核心中，用OpenAI API鍵替換“ xxxxxxxxxxxxxx”。接下來，保存文件，然後單擊“運行”，放置在代碼編輯器的頂部中心，然後關閉窗口。
@@ -57,7 +57,7 @@ categories: ['Artificial intelligence']
 ## 問一個問題
 您可以在我們的[論壇][13]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **如何在Google文檔中使用GPT-3 API？**
 請訪問此[鏈接][7]，以了解Google文檔與Chatgpt集成的步驟。
 

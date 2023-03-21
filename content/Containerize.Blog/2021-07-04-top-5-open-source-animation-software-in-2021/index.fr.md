@@ -28,7 +28,7 @@ Dans le monde d'aujourd'hui, l'animation est extrêmement populaire. Il y a des 
   * Il vous permet de créer une nouvelle fonction pour répondre aux demandes sur place de tout projet commercial
 [Lire la suite][7]
 
-## crayon2d   {# crayon2d}
+## crayon2d   {#crayon2d}
 Avec une conception minimale et une interface facile à comprendre, [crayon2d][8] est l'un des meilleurs logiciels d'animation pour les débutants. Il s'agit d'un logiciel d'animation 2D facile à utiliser, open source et gratuit. La communauté crayon2d met toujours à jour le logiciel en publiant de nouvelles mises à jour et en corrigeant toute erreur ou bogue. En tant qu'application gratuite à télécharger, il est publié sous la licence GNU General Public et dispose de nombreux tutoriels disponibles en ligne ainsi que des ressources et des documentations. Comme OpenToonz, Crayer2D est également compatible avec plusieurs systèmes d'exploitation, notamment Windows, Mac OS, Linux et FreeBSD. Voici quelques fonctionnalités hors concours de crayon2d:
   * Multiplateforme
   * Open source et gratuit
@@ -46,7 +46,7 @@ Avec une conception minimale et une interface facile à comprendre, [crayon2d][8
   * Alternative efficace du temps à la tween manuelle
 [Lire la suite][11]
 
-## K-3D   {# K3D}
+## K-3D   {#K3D}
 [K-3D][12] est un logiciel d'animation intuitif que les nouveaux utilisateurs et les professionnels trouveront faciles à naviguer et à utiliser. C'est un logiciel d'animation 3D entièrement gratuit et l'un des meilleurs logiciels d'animation 3D qui est publié sous la licence publique GNU, et est entièrement écrit en C ++ en gardant à l'esprit qu'il peut être utilisé sur plusieurs plateformes. En tant qu'application d'animation et de modélisation 3D, K-3D est assez puissant tout en offrant des fonctionnalités d'animation polyvalentes et de base. Non seulement vous pouvez utiliser ce logiciel de modélisation 3D gratuit sur un système d'exploitation Windows, mais K-3D est compatible avec Mac OS, FreeBSD, Linux / GNU et d'autres plates-formes. K-3D n'est pas seulement polyvalent mais extrêmement flexible car il permet aux utilisateurs de créer des workflows complexes combinant différents modèles d'animation, en reflétant différents côtés ou en appliquant des modifications à l'ensemble du flux de travail et en regardant toutes les modifications appliquées automatiquement. Voici quelques fonctionnalités exceptionnelles de K-3D:
   * A de nombreux tutoriels et macros interactifs disponibles
   * Permet l'animation de lecture à tout moment pendant la modélisation

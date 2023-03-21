@@ -22,7 +22,7 @@ Treffen Sie daher eine kluge Entscheidung und übernehmen Sie eine gute Open -So
   ***[Vergleich von Synfig &  **Pencil2d ** ][12]** 
   ***[Schlussfolgerung][13]** 
 
-## **Wie kann ich Synfig verwenden?**    {#Review}
+## **Wie kann ich Synfig verwenden?** {#Review}
 Synfig ist eine Open-Source-Vektor-basierte 2D-Animationssuite. Es ist plattformübergreifend und unterstützt fast alle beliebten Plattformen wie Windows, Linux und MacOS. Darüber hinaus ist es einfach, bereitzustellen und bietet Selbsthostfunktionen. Es bietet nicht nur 2D -Animationsfähigkeiten, sondern auch 3D -Unterstützung. Es verwendet das Animationssystem "Tweenless", um den Animationsprozess robust zu machen. Darüber hinaus ist es kostengünstig, zeitsparend und bietet den Benutzern erweiterte Steuerelemente. In ähnlicher Weise können Animatoren erweiterte Charaktere und dynamische Strukturen erstellen. Der gesamte Quellcode dieses kostenlosen **einfachen 2D -Animationssoftware**  ist auf [Github][14] verfügbar. Daher können Benutzer alle Dokumentationen bezüglich Bereitstellung und Entwicklung durchlaufen.
 
 ## Wie benutze ich Pencil2d?   {#Bleistift}

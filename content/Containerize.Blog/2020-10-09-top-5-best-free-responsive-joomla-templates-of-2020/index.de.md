@@ -23,7 +23,7 @@ Die Benutzeroberfläche einer Business -Website war aufgrund bestimmter Dinge wi
   * [JD Austin][6]
   * [Schlussfolgerung][7]
 
-## **xeon  **- **  Free Single Page Joomla -Vorlage**    {#xeon}
+## **xeon  **- **  Free Single Page Joomla -Vorlage** {#xeon}
 [Xeon][8] ist eine kostenlose modische Joomla -Vorlage. Es kann für mehrere Zwecke wie persönliche, Unternehmens-, Veranstaltungs- oder Geschäftswebsites verwendet werden. Darüber hinaus bietet diese **Joomla One -Page -Vorlage**  Navigation basierend auf JQuery- und CSS -Animationen. Aufgrund solcher nützlichen Funktionen scheint es eine geeignete Option für Benutzer zu sein.
 Einige dominierende Merkmale der **xeon**  Vorlage sind jedoch:
   * Responsive Layout
@@ -32,7 +32,7 @@ Einige dominierende Merkmale der **xeon**  Vorlage sind jedoch:
   * HTML5, CSS3, SCSS -Unterstützung
   * Unterstützung von Recht zu links
 
-## **jd Seattle  **- **  Leichtes multifunktionales Joomla -Vorlage**    {#jd}
+## **jd Seattle  **- **  Leichtes multifunktionales Joomla -Vorlage** {#jd}
 [JD Seattle][9] ist eine weit verbreitete Joomla -Vorlage. Darüber hinaus wird es mit Astroid -Framework erstellt. Darüber hinaus ist es mit einem robusten Administratorfeld mit vielen anderen Funktionen und Animationen ausgestattet. Es ist in JD Builder integriert, das infolgedessen die Benutzerfunktion für den Entwurf und Erstellen eines beliebigen Abschnitts durch Drag & Drop -Elemente bietet. Es ist layout-freundlich und passt sich sofort an jeden Bildschirm an. Es bietet logische Navigation, bei der Benutzer nach Bedarf so viele Menüelemente einfügen können. Website -Eigentümer können sich über ein Kontaktformular in dieser Joomla -Geschäftsvorlage anseiten. Darüber hinaus werden in JD Seattle mehr als 800 Google -Schriftarten unterstützt.
 Vor allem sind einige wichtige Merkmale von **jd Seattle** :
   * Navigation mit unbegrenzten Menüpunkten
@@ -41,7 +41,7 @@ Vor allem sind einige wichtige Merkmale von **jd Seattle** :
   * RGB -Farbunterstützung
   * Bootstrap 4 Framework Support
 
-## **Dino  **- **  kostenlose anpassbare Joomla -Vorlage**    {#dino}
+## **Dino  **- **  kostenlose anpassbare Joomla -Vorlage** {#dino}
 [Dino][10] ist eine sehr lebendige Vorlage für regelmäßige Verbesserungen und neue Funktionsaktualisierungen. Diese Vorlage ist mit Bootstrap 4 kompatibel. Daher bietet die **Joomla -Entwicklungsumgebung**  ein vollständig reaktionsschnelles Layout und unterhält einen sauberen und optimierten Code. Darüber hinaus kann es leicht nach den geschäftlichen Anforderungen angepasst werden. Es gibt regelmäßige Entwicklungen, die diese Joomla -Vorlage mit neuen Funktionen und Aussehen aktualisieren.
 **Dino**  ist aufgrund der folgenden herausragenden Merkmale eine perfekte Wahl:
   * Kostenlose Google -Schriftarten
@@ -50,7 +50,7 @@ Vor allem sind einige wichtige Merkmale von **jd Seattle** :
   * Layout freundlich
   * 100+ eindeutige Komponenten
 
-## **Jollyany  **- **  Joomla -Vorlage mit unendlichen Funktionen**    {#jollyany}
+## **Jollyany  **- **  Joomla -Vorlage mit unendlichen Funktionen** {#jollyany}
 [Jollyany][11] ist eine Joomla-Vorlage mit reichem Gesicht. Vor allem wird es durch das Astroid -Framework und das Bootstrap v4.5 -Framework unterstützt. Darüber hinaus erfolgt ein modulares Frontend, bei dem Benutzer die Benutzeroberfläche gemäß den Anforderungen anpassen können. In dieser kostenlosen Joomla -Vorlage werden mehr als 60 Plugins unterstützt. Benutzer haben die Optionen, um einen beliebigen Header aus mehreren Header -Optionen herauszuwählen. Wenn Sie eine persönliche, Blog-, Firmen- oder Blog -Website entwerfen möchten, ist **Jollyany**  die beste Wahl.
 Es ist ein sehr nützliches Framework mit vielen Funktionen wie:
   * Support für das Leinwandmenü
@@ -59,7 +59,7 @@ Es ist ein sehr nützliches Framework mit vielen Funktionen wie:
   * HTML, JS, CSS optimieren
   * 6 Artikeltypen
 
-## **JD Austin  **- **  SEO optimierte Joomla -Vorlage**    {#austin}
+## **JD Austin  **- **  SEO optimierte Joomla -Vorlage** {#austin}
 **[JD Austin][12]  **ist eine kostenlose Reaktion **  Joomla-Geschäftsvorlage** , es bietet jedoch leistungsstarke Optionen für kommerzielle und nicht kommerzielle Websites. Die Suchmaschinenoptimierung erfolgt gemäß den von Google definierten Standards. Vor allem verfügt es über einen vorintegrierten Formular Builder Chronoform, in dem Benutzer ein beliebiges Formular mit einer Drag & Drop-Schnittstelle erstellen können. Darüber hinaus behält diese Vorlage hoch ansprechende Layouts mit reichen Typografie und Farben bei. Es bietet auch Integrationen mit Erweiterungen von Drittanbietern.
 Auf der anderen Seite gehören einige coole Funktionen dieser kostenlosen Joomla -Vorlage:
   * Voll angepasstes Blog -Layout

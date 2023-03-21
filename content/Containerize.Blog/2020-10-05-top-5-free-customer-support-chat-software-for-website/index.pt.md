@@ -23,7 +23,7 @@ O uso da solução certa de software de bate -papo ao vivo ajuda a responder às
   * [Vamos conversar][4]
   * [Botpress][5]
 
-## **Rocket.Chat**    {#Rocket-Chat}
+## **Rocket.Chat** {#Rocket-Chat}
 Rocket.Chat é um software de bate-papo na web de código aberto **. ** É um sistema de bate-papo completamente gratuito e auto-hospedado. É uma plataforma de comunicação abrangente que fornece comunicação da equipe usando mensagens diretas e mensagens em grupo.
 Rocket.Chat tem uma enorme comunidade de código aberto. Como resultado disso, este aplicativo de bate -papo de código aberto ** tem mais plugins disponíveis para melhorar ainda mais a experiência do produto. Ajuda as equipes a trabalhar remotamente, pois fornecem ferramentas de chat de áudio e vídeo. Pode ser uma alternativa barata para o zoom e a folga. Aqui estão os recursos notáveis ​​desta solução de bate -papo de código aberto.
   * BYOS (traga seu próprio servidor)
@@ -33,7 +33,7 @@ Rocket.Chat tem uma enorme comunidade de código aberto. Como resultado disso, e
   * Aplicativo de desktop nativo de plataforma cruzada
     [Leia mais][6]
 
-## **zulip**    {#zulip}
+## **zulip** {#zulip}
 O Zulip é uma das soluções de bate-papo de código aberto mais populares ** que seguem o modelo de encadeamento baseado em fluxo. No Zulip, você se inscreve nos fluxos em vez de canais, para que você seja notificado apenas dos fluxos em que está interessado. Essa assinatura de fluxo ajuda a rastrear conversas mais tarde e a se manter organizado.
 Este **aplicativo de bate-papo de código aberto  **é uma plataforma cruzada e oferece APIs para desenvolver suas próprias integrações personalizadas. Como outros **  Software de bate -papo na web **, ele suporta emojis, imagens embutidas, vídeo e visualizações de tweet. O Zulip é 100% de software de código aberto e livre. Aqui estão os principais recursos deste  **software de chat de suporte ao cliente**  .
   * Previews de imagem, vídeo e tweet em linha: Zulip gera automaticamente uma prévia dos links que você envia em conversas
@@ -44,7 +44,7 @@ Este **aplicativo de bate-papo de código aberto  **é uma plataforma cruzada e 
   * Aplicativos de mesa: suporta aplicativos de desktop com várias plataformas.
     [Leia mais][7]
 
-## **matéria**    {#Matter Mell}
+## **matéria** {#Matter Mell}
 A matéria é um software de bate -papo na web de código aberto **, que é altamente seguro e escalável. Em primeiro lugar, é considerado uma alternativa aos aplicativos proprietários de bate -papo ao vivo mais populares. Em segundo lugar, este aplicativo de bate -papo de código aberto ** é uma mistura de equipes Slack e Microsoft. Em conclusão, o torna um superconjunto de ambos os aplicativos.
 Esta **Solução de bate -papo de código aberto**  ajuda as grandes empresas a consolidar todas as suas comunicações. Por exemplo, bate -papos de equipe, bate -papos de vídeo e compartilhamento de documentos ao mesmo tempo. Portanto, simplifique pesquisar e descobrir informações.
 Aqui estão algumas das principais características da matéria
@@ -56,7 +56,7 @@ Aqui estão algumas das principais características da matéria
   * Biblioteca API robusta
     [Leia mais][8]
 
-## **Vamos conversar**    {#Lets-Chat}
+## **Vamos conversar** {#Lets-Chat}
 Vamos conversar é um software de chat de suporte ao cliente **auto-hospedado  **para pequenas equipes. Este software de bate -papo da web**   é desenvolvido usando o Node.js e o MongoDB e se concentra na implantação fácil e rápida. Você pode instalá -lo no seu servidor com alguns cliques. É 100% gratuito e de código aberto com seu código fonte disponível no GitHub.
 O que torna o Let's Chat exclusivo de outros softwares de código aberto são seus recursos corporativos como LDAP e autenticação Kerberos. Este **software de bate -papo de suporte ao cliente**  está sendo atualizado constantemente pela equipe de desenvolvimento e mais e mais recursos estão sendo adicionados. Aqui estão os principais recursos disponíveis agora
   * Autenticação LDAP / Kerberos
@@ -66,7 +66,7 @@ O que torna o Let's Chat exclusivo de outros softwares de código aberto são se
   * Transcrições / histórico de bate -papo
     [Leia mais][9]
 
-## **botPress**    {#botpress}
+## **botPress** {#botpress}
 Os chatbots estão aumentando hoje em dia. Se você os usa para vendas, marketing ou suporte, eles podem ser um ótimo complemento para sua equipe virtual.
 Portanto, fazer a Botpress é um dos softwares de bate -papo ao vivo mais populares **para sites** . Possui um construtor de conversas visuais e um emulador para testar suas conversas. Ele usa a IA e o entendimento da linguagem natural (NLU). Portanto, está permitindo que os diferentes especialistas reunam seus conhecimentos na construção de melhores assistentes de conversação. Portanto, melhorando o poder da máquina para entender os seres humanos.
 A inteligência artificial e o aprendizado de máquina melhoraram muito recentemente. Portanto, a demanda por um software de bate-papo de suporte ao cliente **baseado em IA**  ganhou muitos impulsos. Então, aqui estão os recursos notáveis ​​que a Botpress oferece.

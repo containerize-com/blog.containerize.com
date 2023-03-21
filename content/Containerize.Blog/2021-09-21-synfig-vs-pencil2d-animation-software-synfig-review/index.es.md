@@ -22,7 +22,7 @@ Por lo tanto, tome una decisión sabia y adopte un buen software de animación d
   ***[Comparación de Synfig &  **Pencil2d ** ][12]** 
   ***[Conclusión][13]** 
 
-## **¿Cómo usar Synfig?**    {#review}
+## **¿Cómo usar Synfig?** {#review}
 Synfig es una suite de animación 2D de código abierto basada en vectores. Es multiplataforma y proporciona soporte para casi todas las plataformas populares como Windows, Linux y MacOS. Además, es fácil de implementar y viene con capacidades de autohostación. No solo proporciona habilidades de animación 2D, sino que también proporciona soporte 3D. Utiliza un sistema de animación "Tweenless" para que el proceso de animación sea robusto. Además, es rentable, ahorran tiempo y ofrece controles avanzados a los usuarios. Del mismo modo, los animadores pueden construir personajes avanzados y estructuras dinámicas. Todo el código fuente de este software de animación 2D simple **gratuito**  está disponible en [GitHub][14]. Por lo tanto, los usuarios pueden pasar por toda la documentación con respecto a la implementación y el desarrollo.
 
 ## ¿Cómo usar Pencil2D?   {#lápiz}

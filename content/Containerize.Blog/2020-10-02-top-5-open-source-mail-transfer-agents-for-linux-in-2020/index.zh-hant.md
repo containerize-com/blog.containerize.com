@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
 categories: ['Transactional Email']
 ---
 
-##每個企業都需要可靠的電子郵件服務。我們已經為中小型企業的前提開源郵件傳輸代理準備了頂級清單。
+## 每個企業都需要可靠的電子郵件服務。我們已經為中小型企業的前提開源郵件傳輸代理準備了頂級清單。
 
 {{< figure align=center src="images/Top-Open-Source-Mail-Transfer-Agents-For-Linux-1024x536.png" alt="頂部開源郵件傳輸代理商">}}
 

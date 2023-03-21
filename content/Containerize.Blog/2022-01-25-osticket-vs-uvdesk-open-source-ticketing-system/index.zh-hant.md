@@ -9,7 +9,7 @@ url: /zh-hant/osticket-vs-uvdesk-open-source-ticketing-system/
 categories: ['Help Desk']
 ---
 
-##自動化客戶服務任務，管理複雜的支持門票並使用免費的Helpdesk軟件來衡量性能。讓我們通過Osticket＆Uvdesk。
+## 自動化客戶服務任務，管理複雜的支持門票並使用免費的Helpdesk軟件來衡量性能。讓我們通過Osticket＆Uvdesk。
 
 {{< figure align=center src="images/osticket-Case-Conflict.png" alt="Osticket vs Uvdesk">}}
 
@@ -22,7 +22,7 @@ categories: ['Help Desk']
   * [osticket vs uvdesk][6]
   * [結論][7]
 
-##什麼是osticket？   {#osticket}
+## 什麼是osticket？   {#osticket}
 [Osticket][8]是使用最廣泛的**開源服務台軟件**之一。此開源票務系統可高度配置，並具有自託管功能。此外，它使您可以輕鬆地響應支持門票，並通過電子郵件，電話和網絡表格有效，迅速與相關同事進行溝通。有一個易於使用的控制面板附帶的查詢管理模塊，用戶可以在其中使用報告工俱生成自定義的報告。此外，還有一個巨大的插件基礎，可以將客戶支持體驗提升到最大的水平。
 最重要的是，此**開源票務系統**具有許多功能，例如自定義控制面板，票證過濾器，自動回复器，S等。此免費的HelpDesk軟件是用PHP編寫的，其中包含有關開發和部署的全面文檔。因此，您可以從[Github][9]中克隆Osticket的源代碼。
 
@@ -37,7 +37,7 @@ categories: ['Help Desk']
 **可擴展性**：UVDESK和OSTICKET都是可擴展的，並提供與第三方應用程序的集成。而UVDESK正在帶頭，讓我們與一些流行的平台建立連接，例如[Amazon][12]，[eBay][13]，Gmail [，Yahoo Mail][14]等。
 **功能**：當我們談論這些**開源票務系統的功能**時，它們倆都提供專業和企業級功能。 UVDESK提供知識庫，報告工具，形式構建器，自定義，翻譯支持，自動化工作流程等。另一方面，Osticket提出了分配/轉移票，可自定義的客戶支持門戶，自動票，票證過濾器等。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這將我們帶到了這個塊帖子的末尾。希望這將有助於您在探索開源，自託管和**免費的Helpsk Software **時做出正確的選擇。我們已經介紹了一些關鍵主題，例如ostciket，uvdesk的引入，還繪製了有關**osticket vs uvdesk** 的比較。下面的“探索”部分中提到了許多其他相關博客文章。此外，現在是時候為您的企業部署企業級HelpDesk軟件來自動化客戶支持任務和響應。
 最後， **[Containerize.com][15]** 一直在寫更多的開源產品。請與此 **[][16][開源helpdesk Software][17]** 類別保持聯繫。此外，您可以在我們的社交媒體帳戶上關注我們[Facebook][18]，[LinkedIn][19]和[Twitter][20]。
 

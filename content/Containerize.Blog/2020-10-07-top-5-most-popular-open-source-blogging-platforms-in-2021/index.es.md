@@ -21,7 +21,7 @@ Hay tantas plataformas de blogs de código abierto que proporcionan increíbles 
   * [Serendipity][4]
   * [Silverstripe][5]
 
-## # **WordPress**    {#WordPress}
+## # **WordPress** {#WordPress}
 WordPress es un sistema de administración de contenido de código abierto y de código abierto y una plataforma de blogging egoísta. Se basa en PHP y MySQL, que es la pila tecnológica más popular. En consecuencia, hace que WordPress sea más utilizado CMS y software de blogs de código abierto en el mundo. Al momento de escribir esta publicación, según los sitios web oficiales WordPress.org, impulsa más del 30% de los 10 millones de sitios web principales y la participación general de mercado es del 60%.
 Ya sea que desee crear un blog, sitio web o que desee vender en línea. En otras palabras, cualquier cosa relacionada con la creación de contenido, WordPress le brinda todas las herramientas y características. Tiene un extenso repositorio de complementos con miles de complementos disponibles. Por lo tanto, es útil que los desarrolladores mejoren la mejor experiencia de herramientas de blogs de WordPress.
 En conclusión, la popularidad de WordPress hace que sea la primera opción de los desarrolladores escribir sus propios complementos para extender la funcionalidad de WordPress. El desarrollo de complementos para WordPress se ha convertido en una industria en sí misma.
@@ -33,7 +33,7 @@ Estas son algunas de las características notables de la plataforma de microblog
   * Enorme comunidad de desarrolladores de código abierto
     [Leer más][6]
 
-## # **jekyll**    {#Jekyll}
+## # **jekyll** {#Jekyll}
 Jekyll es un generador de sitios estático y herramientas de blogs gratuitas para principiantes. Crea un sitio web usando sus archivos de marcado. Toma el contenido de su sitio, lo aplica a alguna plantilla y genere archivos HTML puramente estáticos. Por lo tanto, están listos para ser alojados en cualquier plataforma de alojamiento.
 A diferencia de WordPress o cualquier otra herramienta de blogs, el objetivo principal de Jekyll es la velocidad y el rendimiento del sitio web. Es un generador de sitios estático y una plataforma de blogs de código abierto gratuita. En consecuencia, elimina todo el procesamiento de contenido en el tiempo de ejecución. Por lo tanto, no hay gastos generales de lectura de datos de una base de datos cuando el usuario accede al sitio web. Muchos sitios de alto tráfico están construidos con Jekyll, y se sabe que ofrece sitios web relativamente rápidos y seguros.
 Estos son los mejores momentos destacados de la plataforma de blogs de Best Open Source de Jekyll.
@@ -44,7 +44,7 @@ Estos son los mejores momentos destacados de la plataforma de blogs de Best Open
   * Fuente abierta
     [Leer más][7]
 
-## # **GHOST**    {#GHOST}
+## # **GHOST** {#GHOST}
 Ghost es una herramienta de blogs gratuitas y de blogs gratuitas de código abierto. Se desarrolla utilizando Node.js, que es una de las plataformas de desarrollo más populares. Entonces, tiene todos los poderes del nodo. Sobre todo, tiene una interfaz simple y limpia que hace que sea fácil de usar. Es una maravillosa plataforma de gestión de contenido y blogs para principiantes y se centra más en el contenido.
 La potencia y la velocidad de Node.js hacen de Ghost una plataforma rápida y robusta. Se centra más en Markdown en lugar de la edición de Wysiwyg. Ghost tiene dos versiones, autohospedadas y alojadas. Admite temas personalizados y le permite cargar sus propios temas en versiones autohospedadas y alojadas.
 Ghost proporciona una API REST nativa, membresía incorporada y funciones de suscripción junto con otras características notables como se enumeran a continuación
@@ -56,7 +56,7 @@ Ghost proporciona una API REST nativa, membresía incorporada y funciones de sus
   * Aplicaciones nativas
     [Leer más][8]
 
-## # **Serendipity**    {#Serendipity}
+## # **Serendipity** {#Serendipity}
 Serendipity es un motor weblog de código abierto basado en PHP que se puede utilizar para construir y mantener sitios web para cualquier propósito. Está diseñado para los bloggers casuales. Sin embargo, ofrece un marco expandible que tiene el poder de crear aplicaciones profesionales.
 La fiabilidad, la seguridad, la extensibilidad y la facilidad de uso son los requisitos centrales de cualquier plataforma de blogs y casualidad representa estos. Tiene una interfaz simple pero potente. Por lo tanto, permite una fácil edición y gestión de sus contenidos.
 Serendipity apoya múltiples idiomas como inglés, alemán, danés y francés. Lo más importante es que tiene soporte nativo para la migración de otras plataformas de blogs como WordPress, Pattern, tipo móvil, etc. Por lo tanto, esto facilita mover sus blogs existentes de WordPress a la casualidad.
@@ -68,7 +68,7 @@ Estos son algunos de los mejores aspectos más destacados del software de blogs 
   * Fuente abierta
     [Leer más][9]
 
-## # **Silverstripe**    {#silverstripe}
+## # **Silverstripe** {#silverstripe}
 Silverstripe es un CMS y marco de código abierto gratuitos para crear y mantener sitios web, blogs y aplicaciones web. Fue construido utilizando el lenguaje de secuencias de comandos más popular del mundo PHP. Por lo tanto, lo convierte en un marco flexible que se puede utilizar para construir aplicaciones de grado de producción.
 Se centra mucho en la seguridad y proporciona seguridad y soporte a nivel empresarial. A pesar de que no tiene alcance como WordPress. Pero tiene una comunidad de código abierto en crecimiento y próspero que está trabajando duro. Como resultado, lo que lo convierte en un producto increíble para sus usuarios.
 Estas son las principales características que descubrimos en el software de blog de Silverstripe alojado.

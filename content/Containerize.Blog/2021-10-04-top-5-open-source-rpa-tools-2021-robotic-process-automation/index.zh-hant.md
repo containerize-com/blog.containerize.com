@@ -8,7 +8,7 @@ url: /zh-hant/top-5-open-source-rpa-tools-2021-robotic-process-automation/
 categories: ['Deployment Tools', 'Marketing Automation']
 ---
 
-##機器人過程自動化通過使業務流程和運營自動化節省時間，成本和人力。讓我們回顧2021年最受歡迎的RPA工具。
+## 機器人過程自動化通過使業務流程和運營自動化節省時間，成本和人力。讓我們回顧2021年最受歡迎的RPA工具。
 
 {{< figure align=center src="images/Top-5-Most-Popular-Open-Source-Robotic-Process-Automation-RPA-Tools.png" alt="前5名最受歡迎的開源機器人過程自動化RPA工具">}}
 

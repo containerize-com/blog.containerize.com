@@ -55,7 +55,7 @@ Nesne tabanlı, merkezi meta verileri korur, ağ dosya sistemi, yüksek performa
   ***Xigmanas**  Açık kaynaklı güçlü ve özelleştirilebilir çözüm
   ***Bulut Depolama Sunucusu**  Güvenli ve Genişletilebilir Depolama
 
-## ****Son Düşünce **:**    {#4A1A}
+## ****Son Düşünce **:** {#4A1A}
 Yukarıda belirtilen beş açık kaynak bulut dosya paylaşımı ve senkronizasyon platformları esnek çözümlerdir. Bulut bilişimde çok sayıda açık kaynaklı özel bulut depolama çözümü bulacaksınız, ancak en güvenilir olanı bulmak en önemli. Bulut yazılımının seçimine karar veren siz veya kuruluşunuzun ihtiyacısınız. Umarım bu makale güvenli ve güvenilir bir kişisel bulut sunucusu oluşturmanıza veya değerli resimlerinizi, müziklerinizi, filmlerinizi ve belgelerinizi saklamak için en iyi bulut hizmetini seçmenize yardımcı olur.
 _ En sevdiğiniz ücretsiz ve açık kaynaklı bulut depolama yazılımı çözümü nedir?. Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][8].
 

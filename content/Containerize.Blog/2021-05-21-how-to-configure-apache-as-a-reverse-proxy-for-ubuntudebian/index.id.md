@@ -92,7 +92,7 @@ Untuk membuat perubahan ini berlaku, restart Apache dengan menjalankan perintah 
 sudo systemctl restart apache2.service
 Selamat! Anda telah berhasil menginstal dan mengonfigurasi proxy terbalik APACHE2 pada sistem Linux Anda.
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 Dalam tutorial ini, kami mengeksplorasi dan membahas apa itu server proxy dan konfigurasi proxy reverse apache langkah demi langkah. Kami juga belajar cara mengatur dan mengkonfigurasi APACHE2 sebagai proxy terbalik pada sistem Linux. Dalam tutorial mendatang kami, kami akan membahas topik yang lebih menarik tentang Apache dan tumpukan solusi server web lainnya.
 
 ## Mengeksplorasi

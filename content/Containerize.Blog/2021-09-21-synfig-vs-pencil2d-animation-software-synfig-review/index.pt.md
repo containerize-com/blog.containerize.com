@@ -22,7 +22,7 @@ Portanto, tome uma decisão sábia e adote um bom software de animação de cód
   ***[Comparação de Synfig &  **lápis2d ** ][12]** 
   ***[Conclusão][13]** 
 
-## **Como usar o synfig?**    {#Review}
+## **Como usar o synfig?** {#Review}
 O Synfig é um suíte de animação 2D baseado em vetor de código aberto. É uma plataforma cruzada e fornece suporte para quase todas as plataformas populares, como Windows, Linux e MacOS. Além disso, é fácil de implantar e vem com recursos de auto-hospedagem. Ele não apenas fornece habilidades de animação 2D, mas também fornece suporte 3D. Ele usa o sistema de animação "Tweenless" para tornar o processo de animação robusto. Além disso, é econômico, economiza tempo e oferece controles avançados para os usuários. Da mesma forma, os animadores podem criar caracteres avançados e estruturas dinâmicas. Todo o código -fonte deste software de animação 2D simples **gratuito**  está disponível no [github][14]. Portanto, os usuários podem passar por toda a documentação sobre implantação e desenvolvimento.
 
 ## Como usar o Pencil2D?   {#lápis}

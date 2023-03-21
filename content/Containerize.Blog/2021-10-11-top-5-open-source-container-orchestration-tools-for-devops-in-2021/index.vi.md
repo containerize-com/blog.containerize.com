@@ -92,7 +92,7 @@ Bộ phối hợp container của Docker bắt đầu tại container và xây d
 **Các công cụ phổ biến nhất tích hợp với Nomad** là Docker, Vault, Hashicorp Sentinel, Consul, Portworx, Humio và Gloo Edge.
 **Các công ty hàng đầu sử dụng Nomad** trong các ngăn xếp công nghệ của họ là Petal, Trivago, WealthSimple, Edgelab, Fonentytei, 5G Systems, Aislelabs, Botmetric, Taboola và Machete Inc.
 
-##  **Công cụ quản lý container nguồn mở là gì?**    {#4A1A}
+##  **Công cụ quản lý container nguồn mở là gì?** {#4A1A}
 Có nhiều lợi ích của các giải pháp điều phối container so với máy ảo (VM). Container chia sẻ một hạt nhân hệ điều hành duy nhất, khởi chạy trong vài giây thay vì cần thiết để khởi động máy ảo (VM). Việc mở rộng và nhân đôi các container rất dễ dàng, có kích thước đĩa nhỏ và đơn giản để chia sẻ.  **Một nền tảng quản lý container**  là một ứng dụng đám mây quản lý nhiều container. Sau đây là các phần mềm quản lý container và bộ điều phối container được sử dụng rộng rãi nhất để hợp lý hóa các khía cạnh cụ thể của quản lý container.
   * **[Rancher][12]** là một nền tảng quản lý container tốt nhất nguồn mở để quản lý Kubernetes theo quy mô.
   * **[Apache Mesos][13]** là Trình quản lý cụm nguồn mở thế hệ tiếp theo và Dịch vụ điều phối container của Apache.
@@ -101,7 +101,7 @@ Có nhiều lợi ích của các giải pháp điều phối container so với
   * **[Dịch vụ container đàn hồi của Amazon (Amazon ECS)][16]** là dịch vụ quản lý container và điều hành AWS ECS hỗ trợ các container docker chạy các ứng dụng trên cụm phiên bản Amazon EC2.
   * **[Dịch vụ Kubernetes của Amazon đàn hồi (Amazon EKS)][17]** là một dịch vụ AWS phối hợp container để chạy các ứng dụng và cơ sở hạ tầng quản lý Kubernetes.
 
-##  **Kết luận:**    {#4A1A}
+##  **Kết luận:** {#4A1A}
 **Làm thế nào để công nghệ điều phối container hoạt động cho các ứng dụng doanh nghiệp và phần mềm của bạn? Nếu bạn phải nhớ chỉ một phần thông tin quan trọng để giúp bạn chọn **Kubernetes vs Docker Swarm  **vs Redhat**   OpenShift vs Compose** vs Hashicorp Nomad, thì mỗi giải pháp sẽ có một số ưu điểm và nhược điểm. Có các tùy chọn nền tảng dàn nhạc khác cung cấp các tính năng khác nhau trên dàn nhạc dịch vụ. Cuối cùng, tùy chọn nào bạn thực hiện phụ thuộc vào thang đo bạn muốn đạt được và hệ sinh thái nào bạn thích thoải mái nhất. Để đi sâu hơn vào việc phối hợp container, hãy tiếp tục truy cập [Blog Containerize][18].
 _ Công cụ điều phối container yêu thích nhất của bạn là gì ?. Bạn có bất kỳ câu hỏi nào về danh sách các nhà điều phối container được đề cập ở trên ?, Please_ [Hãy liên lạc][19].
 

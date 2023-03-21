@@ -74,7 +74,7 @@ Litecoin được tạo ra nhanh hơn bitcoin nhưng bitcoin có giá trị hơn
 {{_LINE_62_}}
 Monero Privacy theo định hướng tiền điện tử sử dụng hệ thống mật mã để cho phép bạn gửi và nhận tiền. Monero là một trong những loại tiền điện tử đầu tiên có mật mã. Monero Digital Monerence tập trung vào quyền riêng tư và các giao dịch của nó trên blockchain có thể được theo dõi hoặc truy tìm. Điều này đảm bảo rằng các giao dịch mua, biên lai và chuyển khoản của bạn vẫn riêng tư theo mặc định.
 
-##  **Kết luận:**    {#4A1A}
+##  **Kết luận:** {#4A1A}
 Năm dự án tiền điện tử được đề cập ở trên là phần mềm nguồn mở miễn phí và tốt nhất phổ biến nhất cho các nhà giao dịch. Nhiều loại tiền điện tử ngày nay có nguồn gốc từ hình thức này hay hình thức khác từ Bitcoin. Mặc dù hàng trăm đối thủ đã phát triển, Bitcoin là tiền điện tử đầu tiên vẫn là chi phối về mặt sử dụng và giá trị kinh tế.
 **Tiền điện tử tốt nhất để mua ngay bây giờ là gì?** Đầu tư vào các dự án nguồn mở tiền điện tử và các dịch vụ tiền xu ban đầu khác rất rủi ro. Hơn nữa, bài viết này không phải là một khuyến nghị của người viết để đầu tư vào tiền điện tử hoặc các dịch vụ tiền xu ban đầu khác (ICO). Bởi vì mỗi tình huống cá nhân là khác nhau và một chuyên gia có trình độ phải luôn được tư vấn trước khi đưa ra bất kỳ quyết định tài chính có lợi nhuận nào. ContainerIZE.com không đưa ra các đại diện hoặc bảo đảm về tính chính xác hoặc tính kịp thời của thông tin trong tài liệu này.
 _ Các dự án nguồn mở tiền điện tử yêu thích của bạn là gì ?. Bạn có bất kỳ câu hỏi nào về _That là tiền kỹ thuật số_ ?, Please_ [Hãy liên lạc][11].

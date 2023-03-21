@@ -43,7 +43,7 @@ Copay ma następujące kluczowe funkcje:
   * Wysoce zabezpieczone
 **[Dowiedz się więcej o Copay][11]**
 
-## **Breadwallelet**    {#breadwallet}
+## **Breadwallelet** {#breadwallet}
 **[BreadWallet][12]**to kolejna popularna opcja wśród najlepszych  **Portfele kryptowalutowe ** . Ten cyfrowy portfel open source jest łatwy w użyciu i zapewnia bezpośrednie połączenia z siecią Blockchain do szybkich i szybkich transakcji. Ponadto to  **bezpłatne oprogramowanie do portfela**   jest opracowywane przez firmę chlebową i jest dostępne dla platform mobilnych. Ponadto oferuje logiczny i łatwy interfejs użytkownika, w którym użytkownicy mogą łatwo nawigować. BreadWallet oferuje wiele potężnych funkcji, takich jak transakcje anonimowe, obsługa wielu języków i wiele innych. Ponadto użytkownicy nie muszą się rejestrować, aby korzystać z tego portfela kryptograficznego typu open source.
 Breadwallelet oferuje następujące ważne funkcje:
   * Konfigurowalne widżety

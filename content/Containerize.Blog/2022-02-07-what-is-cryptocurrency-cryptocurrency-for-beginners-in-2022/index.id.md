@@ -56,7 +56,7 @@ Berinvestasi dalam cryptocurrency cukup mudah, karena tantangan terbesar adalah 
 Bagaimana Anda menyimpan cryptocurrency? Anda dapat menyimpan cryptocurrency Anda secara online atau offline. Cara paling populer untuk menyimpan cryptocurrency adalah online dalam pertukaran crypto atau dompet. Pertukaran dan dompet crypto memungkinkan Anda untuk menyimpan, mengirim, menerima, dan mengonversi crypto dengan aman menggunakan komputer, tablet, atau smartphone Anda.
 Di mana membeli cryptocurrency? Anda dapat membeli cryptocurrency dari pertukaran crypto. Di bawah ini, kami telah menyusun daftar beberapa aplikasi dan pertukaran terbaik untuk membeli cryptocurrency di Inggris. Harap diingat bahwa cryptoasset adalah produk investasi yang tidak stabil yang tidak stabil tanpa perlindungan investor Inggris atau UE. Anda bisa kehilangan semua uang yang Anda masukkan ke dalamnya.
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 Mudah -mudahan, Anda telah belajar banyak dan sekarang Anda lebih mendapat informasi dan berpengetahuan tentang perdagangan cryptocurrency dan berinvestasi daripada Anda di awal. Sekarang giliran Anda. Kami menikmati meneliti dan menulis panduan dengan Anda dalam pikiran. Semoga beruntung!
 _Apa proyek open source cryptocurrency favorit Anda?. Apakah Anda memiliki pertanyaan tentang apa itu mata uang digital?, Tolong_ [hubungi][1].
 

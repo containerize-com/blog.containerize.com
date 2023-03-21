@@ -37,7 +37,7 @@ A continuación, instale este complemento y presione activarlo para activarlo pa
 
 La belleza de WordPress es que se comunica con el complemento Matomo sin problemas a través de API. Este software de análisis web  **Web **  proporciona el código de seguimiento al igual que Google Analytics. Por lo tanto, no necesita insertar el código de seguimiento manualmente, sino que ocurre automáticamente. Finalmente, el complemento Matomo está instalado y configurado en WordPress y puede comenzar a rastrear los datos del sitio web de su negocio.
 
-## **Matomo Dashboard **    {#dashboard}
+## **Matomo Dashboard ** {#dashboard}
 Este  **Tutorial de WordPress **  ha descrito la integración del código abierto  **Matomo Plugin ** . Ahora, exploremos su tablero que proporciona módulos potentes. En el menú Matomo Analytics, haga clic en la opción "Informes" que lo llevará al tablero Matomo de su sitio web como se muestra en la imagen a continuación.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="Análisis web de código abierto">}}

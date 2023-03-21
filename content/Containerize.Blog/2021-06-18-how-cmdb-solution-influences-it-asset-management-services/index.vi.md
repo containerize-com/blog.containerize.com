@@ -22,10 +22,10 @@ Các hệ thống quản lý cấu hình này cung cấp các tiện ích để 
   *[ **Tác động của phần mềm CMDB lên các dịch vụ quản lý tài sản CNTT** ][7]
   * **[Kết luận][8]**
 
-##  **Phần mềm CMDB là gì?**    {#what}
+##  **Phần mềm CMDB là gì?** {#what}
 [Phần mềm cơ sở dữ liệu quản lý cấu hình][1] là cơ sở dữ liệu lưu trữ thông tin về các mục cấu hình và chi tiết mối quan hệ của chúng. Hơn nữa, có nhiều loại mục cấu hình (CIS) có thể là phần cứng hoặc phần mềm và CIS là thành phần tích hợp của bất kỳ phần mềm CMDB nào. Một số tổ chức đã sử dụng giải pháp này để theo dõi các địa điểm kinh doanh, tài liệu và hợp đồng kinh doanh. Các bên liên quan kinh doanh quản lý để đưa ra quyết định đúng đắn bằng cách phải xem xét tất cả các tài sản và sự phụ thuộc của họ vào nhau. Do đó, họ có thể dự báo các xu hướng, tiềm năng và các mối đe dọa trong tương lai có thể xảy ra. Các giải pháp miễn phí này cung cấp một minh chứng rõ ràng về dữ liệu một cách được sắp xếp tốt. Có một bảng điều khiển logic thân thiện và thân thiện với người dùng để lấy dữ liệu từ các nguồn khác nhau trong thời gian thực, xử lý nó và sau đó hiển thị dữ liệu được xử lý trong các loại tiện ích khác nhau. Hơn nữa, phần mềm CMDB được thiết kế để cung cấp hỗ trợ cho các TCTD bổ sung nếu cần.
 
-##  **Top 5 Nguồn mở phần mềm CMDB tốt nhất**    {#top}
+##  **Top 5 Nguồn mở phần mềm CMDB tốt nhất** {#top}
 Trong phần này, chúng tôi sẽ khám phá phần mềm cơ sở dữ liệu quản lý cấu hình được xếp hạng hàng đầu.
 
 ## # Ralph
@@ -71,7 +71,7 @@ ITOP cung cấp các tính năng chính
 **Quản lý sự cố**: Các tổ chức có thể tận dụng phần mềm cơ sở dữ liệu quản lý cấu hình để theo dõi quản lý sự cố. Ngoài ra, phần mềm CMDB có chế độ cập nhật tự động giữ mọi sự cố trong vòng lặp để quản lý vấn đề tốt hơn.
 **Cải thiện bảo mật:** Có phần mềm CMDB được cập nhật có thể giúp bạn tự tin về bảo mật và bạn có thể đưa ra quyết định về bất kỳ lỗ hổng nào.
 
-##  **Kết luận**    {#conclusion}
+##  **Kết luận** {#conclusion}
 Đây là kết thúc của bài viết trên blog này. Trong bài viết này, chúng tôi thấy rằng các hệ thống quản lý cấu hình ** **đóng vai trò quyết định trong các dịch vụ quản lý tài sản CNTT bằng cách cung cấp tính minh bạch, hiệu quả và sự mạnh mẽ. Hơn nữa, nó tập trung dữ liệu và để hiểu rõ hơn về rủi ro và cơ hội. Tuy nhiên, đã đến lúc chọn giải pháp CMDB nguồn mở**  ** cho bộ phận CNTT của bạn và tăng cường hoạt động kinh doanh mà nếu không thì tốn thời gian.
 Cuối cùng, [ **containerize.com** ][16] đang viết các bài viết trên các sản phẩm nguồn mở hơn nữa. Do đó, vui lòng giữ liên lạc với [][][17][Phần mềm cơ sở dữ liệu quản lý cấu hình (CMDB][1]) để cập nhật thường xuyên.
 

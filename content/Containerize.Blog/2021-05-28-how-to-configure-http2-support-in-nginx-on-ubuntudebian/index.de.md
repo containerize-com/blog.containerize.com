@@ -106,7 +106,7 @@ Um alle Änderungen anzuwenden, starten Sie den Nginx HTTP2 Reverse Proxy -Serve
 sudo systemctl starten nginx neu
 sudo systemctl Status nginx
 
-## **Fazit:**    {#4A1a}
+## **Fazit:** {#4A1a}
 Herzlichen Glückwunsch, Sie haben erfolgreich gelernt, wie Sie die NGINX -Konfiguration HTTP2 -Unterstützung auf Ubuntu Server einrichten. Ihre Nginx HTTP2 -Einstellungen serviert jetzt HTTP/2 -Seiten und löscht auch die Differenz zwischen HTTP/1- und HTTP/2 -Protokollen. Wenn Sie noch Konfigurationsprobleme haben, teilen Sie uns im Kommentarbereich mit.
 Haben Sie Fragen zu HTTP2 Multiplexed -Protokoll? _, Bitte_ [in Kontakt][2].
 

@@ -9,7 +9,7 @@ url: /zh-hant/gitlab-continuous-deployment-how-it-works/
 categories: ['Version Control Software']
 ---
 
-##自動部署簡化了您的工作流程和流程。該GitLab教程可幫助您學習使用GitLab CI/CD設置連續部署管道。
+## 自動部署簡化了您的工作流程和流程。該GitLab教程可幫助您學習使用GitLab CI/CD設置連續部署管道。
 
 {{< figure align=center src="images/Continuous-Deployment-Pipeline.png" alt="GitLab連續部署">}}
 
@@ -23,18 +23,18 @@ categories: ['Version Control Software']
   * **[創建基本示例應用][6]**
   * **[結論][7]**
 
-##什麼是ci＆cd   {#cicd}
+## 什麼是ci＆cd   {#cicd}
 連續集成（CI）是DevOps的最佳實踐之一，可以將代碼更改的集成從多個貢獻者變更為單個軟件項目。這使開發人員經常將代碼更改合併到中央存儲庫中，然後運行構建和測試。連續部署（CD）通過在每個代碼提交和構建後自動將代碼移動到目標環境（生產或分階段），從而進一步移動一步。
 在開始之前，請確保在GitLab中有一個項目，您想使用CI/CD。而且，您應該具有維護者或所有者級別的訪問權限。
 
-##什麼是gitlab runner   {#runner}
+## 什麼是gitlab runner   {#runner}
 在理解 **gitlab連續部署** 之後，Gitlab Runner是一個用GO編寫的小型輕量級程序，在您的本地機器上運行連續集成（CI）相關的作業，並將結果發送給Gitlab以考慮更改。它是可以安裝在任何主要操作系統上的單個可執行二進製文件。
 在我們繼續使用GitLab CI / CD之前，您需要確保擁有可以運行任務的跑步者。您可以遵循[install][8]的官方指南和[register][9] Gitlab Runner。
 
 ## .gitlab-ci.yml文件 {#yml}
 **。gitlab-ci.yml **是一個文件，您可以在其中為gitlab ci/cd配置特定說明。它放在存儲庫的根部，並包含有關如何構建項目的定義。每當我們將提交推向GitLab實例時，GitLab都會調用跑步者來按照本文件中的指示來構建和測試該項目。
 
-##創建一個示例應用 {#sample}
+## 創建一個示例應用 {#sample}
 在此 **gitlab教程** 的部分中，我們將創建一個示例應用程序。假設您已經創建了一個GitLab存儲庫，讓我們創建一個示例應用程序，我們將為應用程序設置CI / CD流程。
 首先，創建package.json文件。
 ```
@@ -98,7 +98,7 @@ script:
 現在，假設您已經安裝了GitLab Runner並已將其註冊給您的GitLab實例，則可以通過對應用程序進行簡單提交並將其推向GitLab來測試Gitlab CI / CD。
 然後，您可以在GitLab中打開項目，轉到My-Project→Pipeline，您會看到一個標籤，上面寫著您所做的提交的“通過”。隨後的提交也將具有標籤。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這將我們帶到了這個**gitlab教程的結尾**。在本文中，我們了解了Gitlab連續集成的基礎知識，**什麼是CI＆CD **，**什麼是Gitlab Runner **，並且連續部署。此外，我們研究了整個CI / CD工作流程中跑步者的用途。我們還創建了一個示例項目，該項目解釋瞭如何使用gitlab設置連續部署。如果您正在尋找**  gitlab連續部署**，則本gitlab教程確實會為您提供幫助。但是，下面的“探索”部分中提到了許多其他資源，您可能會查看。此外，這些文章是關於**版本控制系統**的，它們是開源的，自託管的，可擴展的。
 最後，[Containerize.com][10]不斷地撰寫有關進一步開源產品和主題的博客文章。因此，請與[[11][11][版本控制軟件][12]類別保持聯繫，以進行常規更新。此外，您可以在我們的社交媒體帳戶上關注我們[Facebook][13]，[LinkedIn][14]和[Twitter][15]。
 

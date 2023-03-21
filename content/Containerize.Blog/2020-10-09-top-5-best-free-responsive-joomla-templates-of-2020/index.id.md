@@ -23,7 +23,7 @@ Antarmuka pengguna situs web bisnis selalu menjadi bagian yang paling kritis kar
   * [JD Austin][6]
   * [Kesimpulan][7]
 
-## **xeon  **- **  Templat SinglePage Joomla gratis**    {#xeon}
+## **xeon  **- **  Templat SinglePage Joomla gratis** {#xeon}
 [Xeon][8] adalah template Joomla yang modis. Ini dapat digunakan untuk berbagai tujuan seperti situs web pribadi, perusahaan, acara, atau bisnis. Selain itu, ini **Template satu halaman Joomla**  menyediakan navigasi berdasarkan animasi jQuery dan CSS. Tampaknya opsi yang cocok untuk pengguna karena fitur yang berguna tersebut.
 Namun, beberapa fitur dominan dari template **xeon**  adalah:
   * Tata letak responsif
@@ -32,7 +32,7 @@ Namun, beberapa fitur dominan dari template **xeon**  adalah:
   * HTML5, CSS3, Dukungan SCSS
   * Dukungan bahasa kanan-ke-kiri
 
-## **JD Seattle  **- **  Template Joomla multifungsi ringan**    {#jd}
+## **JD Seattle  **- **  Template Joomla multifungsi ringan** {#jd}
 [JD Seattle][9] adalah templat Joomla yang banyak digunakan. Selain itu, dibangun menggunakan kerangka astroid. Selain itu, dilengkapi dengan panel admin yang kuat dengan banyak fitur dan animasi lainnya. Ini terintegrasi dengan JD Builder yang sebagai hasilnya, memberikan ketentuan pengguna untuk merancang dan membangun bagian apa pun dengan elemen drag & drop. Ini ramah tata letak dan beradaptasi dengan layar apa pun secara langsung. Ini menyediakan navigasi logis di mana pengguna dapat memasukkan sebanyak mungkin item menu. Pemilik situs web dapat menghubungi pengunjung situs melalui formulir kontak yang dikemas dalam template bisnis Joomla ini. Lebih lanjut, ada lebih dari 800 font Google yang didukung di JD Seattle.
 Yang terpenting, beberapa fitur penting **JD Seattle**  adalah:
   * Navigasi dengan item menu tanpa batas
@@ -41,7 +41,7 @@ Yang terpenting, beberapa fitur penting **JD Seattle**  adalah:
   * Dukungan Warna RGB
   * Bootstrap 4 Dukungan Kerangka Kerja
 
-## **Dino  **- **  Template Joomla yang dapat disesuaikan gratis**    {#dino}
+## **Dino  **- **  Template Joomla yang dapat disesuaikan gratis** {#dino}
 [Dino][10] adalah templat yang sangat bersemangat mengenai perbaikan rutin dan pembaruan fitur baru. Template ini kompatibel dengan Bootstrap 4 Oleh karena itu, **Lingkungan Pengembangan Joomla**  menawarkan tata letak yang sepenuhnya responsif dan memelihara kode yang bersih dan dioptimalkan. Selain itu, dapat dengan mudah disesuaikan sesuai dengan kebutuhan bisnis. Ada perkembangan reguler yang memperbarui template Joomla ini dengan fungsi dan tampilan baru.
 **Dino**  adalah pilihan yang sempurna karena fitur -fitur terkemuka berikut:
   * GRATIS Google Fonts
@@ -50,7 +50,7 @@ Yang terpenting, beberapa fitur penting **JD Seattle**  adalah:
   * Tata letak ramah
   * 100+ komponen unik
 
-## **Jollyany  **- **  Template Joomla dengan fitur tak terbatas**    {#jollyany}
+## **Jollyany  **- **  Template Joomla dengan fitur tak terbatas** {#jollyany}
 [Jollyany][11] adalah templat Joomla yang kaya. Di atas segalanya, ini didukung oleh kerangka kerja Astroid dan Bootstrap v4.5. Selain itu, ia muncul dengan ujung depan modular di mana pengguna dapat menyesuaikan antarmuka pengguna sesuai persyaratan. Ada lebih dari 60 plugin yang didukung dalam template Joomla gratis ini. Pengguna memiliki opsi untuk memilih header apa pun dari beberapa opsi header. Jika Anda dimaksudkan untuk merancang situs web pribadi, blog, perusahaan, atau blog maka **Jollyany**  adalah pilihan terbaik.
 Ini adalah kerangka kerja yang sangat berguna dengan banyak fitur seperti:
   * Dukungan menu kanvas
@@ -59,7 +59,7 @@ Ini adalah kerangka kerja yang sangat berguna dengan banyak fitur seperti:
   * Mengoptimalkan HTML, JS, CSS
   * 6 Jenis Artikel
 
-## **JD Austin  **- **  SEO Template Joomla yang Dioptimalkan**    {#Austin}
+## **JD Austin  **- **  SEO Template Joomla yang Dioptimalkan** {#Austin}
 **[JD Austin][12]  **adalah responsif gratis **  Template Bisnis Joomla** , namun, ini menyediakan opsi yang kuat untuk situs web komersial dan non-komersial. Optimalisasi mesin pencari sedang dilakukan sesuai dengan standar yang ditentukan oleh Google. Di atas segalanya, ia hadir dengan pembangun formulir pra-terintegrasi Chronoform di mana pengguna dapat membangun bentuk apa pun menggunakan antarmuka drag & drop. Lebih lanjut, template ini mempertahankan tata letak yang sangat responsif dengan tipografi dan warna yang kaya. Ini juga memberikan integrasi dengan ekstensi pihak ketiga.
 Di sisi lain, beberapa fitur keren dari template Joomla gratis ini meliputi:
   * Tata letak blog yang sepenuhnya disesuaikan

@@ -24,7 +24,7 @@ NextCloud開源提供**端到端加密**，意味著可以在上傳到服務器�
   ***運行NextCloud Web安裝程序**
   * **包起來**
 
-##步驟1：安裝先決條件（燈泡）
+## 步驟1：安裝先決條件（燈泡）
 在Ubuntu上安裝NextCloud的第一件事是，您必須在Ubuntu LTS系統上運行**燈服務器**。登錄您的系統並訪問終端窗口。如果您已經運行**燈泡**跳過此步驟，則使用以下命令安裝必要的依賴項。
 
 ###安裝php
@@ -46,7 +46,7 @@ sudo systemctl restart apache2
 sudo apt-get安裝-y mysql-server php-mysql
 {{_LINE_38_}}
 
-##步驟2：在Ubuntu上下載NextCloud存檔
+## 步驟2：在Ubuntu上下載NextCloud存檔
 在撰寫本文時，NextCloud最新版本為22.0.0beta5。成功配置了系統上的LAMP服務器後，讓我們從其[官方網站][2]中下載NextCloud。
 CD /TMP
 WGET https://download.nextcloud.com/server/releases/nextcloud-22.0.0.0beta5.zip
@@ -61,7 +61,7 @@ sudo chmod -r 755 NextCloud
 sudo rm -f /tmp/nextcloud-22.0.0beta5.zip
 {{_LINE_52_}}
 
-##步驟3：創建MySQL數據庫
+## 步驟3：創建MySQL數據庫
 提取源代碼後，讓我們創建一個用於配置NextCloud的NextCloud MySQL數據庫和用戶帳戶。使用以下命令集登錄到MySQL Server，創建NextCloud數據庫，用戶並從MySQL控制台退出。
 mysql -u root -p
 輸入密碼：
@@ -71,7 +71,7 @@ mysql>沖洗特權；
 mysql>退出
 {{_LINE_61_}}
 
-##步驟4：運行NextCloud Web安裝程序
+## 步驟4：運行NextCloud Web安裝程序
 此時，NextCloud已成功安裝Ubuntu 20.04並配置。現在，在下面的Web瀏覽器中打開NextCloud配置目錄，然後輸入URL http://your-domain.com。將本地主機更改為您的服務器IP地址或域名。您將看到以下屏幕：
 http：// localhost/nextcloud/或http：// your_domain_name/nextCloud/
 {{_LINE_65_}}

@@ -25,7 +25,7 @@ Wir haben kürzlich einen Blog-Beitrag zu [Top 5 Open-Source-Single-Sign-On-Soft
 [Single Sign-On][6] ist eine Identifikations- und **Authentifizierungssoftware** , mit der Sie mit Websites von Drittanbietern anmelden können. Die SSO -Software fungiert als Identitätsanbieter, damit Sie sich mit einem einzigen Satz von Benutzernamen/Passwörtern an mehreren Websites anmelden können. Es handelt sich jedoch um einen einmaligen Anmeldemechanismus, und das SSO-System stellt sicher, dass die Echtheit der Benutzer.
 Darüber hinaus wurde dieses System auf kleinen und Unternehmensebene weit verbreitet, um die Identität des Benutzers über mehrere Anwendungen hinweg zu verwalten. Es gibt viele Open-Source-Single-Sign-On-Software, die beliebte Autorisierungsprotokolle wie OpenID OpenID, SAML und OAuth verwenden.
 
-## **Wie einzelne Sign-On (SSO) funktioniert?**    {#Features}
+## **Wie einzelne Sign-On (SSO) funktioniert?** {#Features}
 Der Arbeitsmechanismus von **Open Source Single Sign-On**  ist gerade. Der Benutzer gibt Anmeldeinformationen in das Anmeldesformular ein. Der Benutzer wird nach erfolgreicher Fertigstellung der SSO -Authentifizierung weitergegeben. Wenn ein Benutzer nun eine Site besucht, die in eine SSO -Lösung integriert ist, überprüft das System entweder der Benutzer bereits angemeldet oder nicht. Wenn der Benutzer bereits angemeldet ist, gibt der Server einen Tracker/Token aus, und dieser Token/Tracker wird verwendet, um sicherzustellen, dass Ihre Authentifizierung über mehrere Anwendungen hinweg übereinstimmt. Zusammen mit den SSO -Funktionen bietet es auch Benutzerverwaltungs- und Sicherheitsfunktionen, wie unten erwähnt.
   * Einfach zu verwenden
   * Föderierte Identität

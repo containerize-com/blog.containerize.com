@@ -37,7 +37,7 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 WordPress의 아름다움은 API를 통해 Matomo 플러그인과 완벽하게 의사 소통한다는 것입니다. 이 오픈 소스  **웹 분석 소프트웨어 ** 는 Google Analytics와 같은 추적 코드를 제공합니다. 따라서 추적 코드를 수동으로 삽입 할 필요가 없습니다. 마지막으로 Matomo 플러그인이 설치되어 WordPress에 설정되어 비즈니스 웹 사이트 데이터 추적을 시작할 수 있습니다.
 
-## **Matomo Dashboard **    {#dashboard}
+## **Matomo Dashboard ** {#dashboard}
 이  **WordPress 자습서 ** 는 오픈 소스  **Matomo 플러그인 ** 의 통합에 대해 설명했습니다. 이제 강력한 모듈을 제공하는 대시 보드를 살펴 보겠습니다. Matomo Analytics 메뉴에서 아래 이미지와 같이 웹 사이트의 Matomo 대시 보드로 이동하는 "보고"옵션을 클릭하십시오.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="오픈 소스 웹 분석">}}

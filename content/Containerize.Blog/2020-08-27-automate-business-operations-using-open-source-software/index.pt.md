@@ -29,7 +29,7 @@ Esta **post introdutória no blog**  é fornecer uma visão geral dos produtos d
   * [Software de faturamento][12]
   * [Sinalização única em sistemas][13]
 
-## **Gere e organize o conteúdo do site de negócios**    {#CMS}
+## **Gere e organize o conteúdo do site de negócios** {#CMS}
 As páginas de destino para casa, produtos para casa e produtos são o principal local de marketing para negócios de produtos ou serviços oferecerão. Portanto, você pode considerá -lo como uma saída de uma fábrica de onde os clientes podem visualizar, tentar fazer compras. Portanto, você exigiu uma plataforma de gerenciamento de conteúdo adequada, também conhecida como software CMS. Além disso, esses software ajudam a controlar a estrutura, o layout e o fluxo de conteúdo. Na categoria de software CMS, existem muitas opções populares de software de código aberto em diferentes idiomas e plataformas. Neste ponto, o contendeRize.com abrange as seguintes plataformas CMS populares:
   * [Joomla][14] - Um software CMS líder com milhares de extensões.
   * [Drupal][15] - Um software PHP flexível CMS flexível com comunidade vibrante
@@ -38,7 +38,7 @@ As páginas de destino para casa, produtos para casa e produtos são o principal
   * [Umbraco][18] - Sistema flexível e amigável de gerenciamento de conteúdo.
 Criaremos informações sobre mais opções do CMS em breve, juntamente com recursos úteis. Portanto, fique de olho na seção [Gerenciamento de conteúdo][19] para mais atualizações.
 
-## **Escolha uma boa plataforma de blog**    {#blogging}
+## **Escolha uma boa plataforma de blog** {#blogging}
 Os blogs são uma parte essencial de qualquer negócio. As empresas usam blogs para publicar atualizações e anúncios. As equipes de suporte também podem usar blogs para publicar tutoriais úteis sobre seus serviços e produtos. Além disso, o recurso de comentários é uma ótima maneira de interagir com seu público. Em suma, o blog é o meio para manter seu público informado e engajado.
 Por enquanto, as seguintes **melhores plataformas de blog**  são alistadas:
   * [WordPress][20] - Melhor plataforma de blogs com plugins ricos e recursos de auto -hospedagem
@@ -48,7 +48,7 @@ Por enquanto, as seguintes **melhores plataformas de blog**  são alistadas:
   * [Silverstripe][24] - CMS baseado em PHP altamente personalizável e plataforma de blogs
 Mais software de blog de código aberto será adicionado à lista. Portanto, mantenha contato com a seção [Blogging Software][25] para atualizações.
 
-## **Fórum de discussão para construção da comunidade**    {#Forums}
+## **Fórum de discussão para construção da comunidade** {#Forums}
 O fórum de discussão é usado para realizar discussões públicas em torno de seus produtos, ofertas ou serviços. Tais discussões públicas incentivam o público a participar de discussões. Portanto, você pode desenvolver informações sobre seus negócios com uma vantagem adicional da construção da comunidade. Acima de tudo, a maioria das vendas gira em torno da palavra da boca. Portanto, caso você possa construir uma boa comunidade, o crescimento das vendas também é obtido. Além disso, do ponto de vista do mecanismo de pesquisa, as discussões da comunidade continuam gerando novos conteúdos. Portanto, também agrega valor de tráfego orgânico. No momento, o contenderize.com mantém uma pilha abaixo **Fóruns de discussão:** 
   * [Discurso][26]-Melhor plataforma de discussão com recursos de moderação integrada
   * [Flarum][27] - Plataforma de discussão da comunidade leve com rica experiência do usuário
@@ -57,7 +57,7 @@ O fórum de discussão é usado para realizar discussões públicas em torno de 
   * [PHPBB][30]-Software de fórum de discussão poderoso baseado em estilo plano baseado em PHP
 Esses software de código aberto fornecem suporte comercial completo para uma plataforma de discussão ativa  **** . Além disso, o software fórum de discussão de código aberto útil e popular será adicionado nos [fóruns de discussão][31] seção com informações necessárias e úteis.
 
-## **Sistema de ticketing helpdesk para suporte ao cliente**    {#helpdesk}
+## **Sistema de ticketing helpdesk para suporte ao cliente** {#helpdesk}
 O serviço de suporte ao cliente é a parte mais importante para a satisfação do cliente. Sem satisfação do cliente, sua sobrevivência está em risco, especialmente quando existem várias alternativas disponíveis. Um sistema helpdesk baseado em bilhetes permite que os clientes criem ingressos privados para os problemas que estão enfrentando, enquanto ajuda os empresários a manter uma trilha sistemática de problemas de clientes para que a bola nunca seja descartada.
 Nesta categoria, o contendeRize.com fornece detalhes para os seguintes sistemas de bilheteria de código aberto **: **
   * [OSTICKET][32]-Sistema de ingressos com base na Web de vários usuários amplamente utilizados
@@ -67,7 +67,7 @@ Nesta categoria, o contendeRize.com fornece detalhes para os seguintes sistemas 
   * [Ajuda][36] - software multicanal helpdesk integrado ao Mailgun
 Estes são sistemas populares de ticket de suporte a código aberto que permitem que os clientes relatem questões. Além disso, esses sistemas permitem que suas equipes de suporte resolvam seus problemas relatados. Portanto, clientes e equipes de suporte podem acompanhar os problemas relatados. Por favor, mantenha -se informado sobre a seção [HelpDesk Software][37] para mais atualizações.
 
-## **Automação de marketing de conteúdo digital**    {#CRM}
+## **Automação de marketing de conteúdo digital** {#CRM}
 Os departamentos de marketing e vendas usam **Ferramentas de automação de marketing**  para campanhas de marketing e atividades de vendas para gerar leads, envolver clientes e maximizar a eficiência. Por enquanto, o CONTERIZE.com fornece informações sobre as seguintes plataformas de automação de marketing de código aberto:
   * [Mautic][38] - Plataforma de automação de marketing para fornecer campanhas de alto desempenho
   * [Civicrm][39] - CRM versátil para automatizar campanhas de marketing com muitas extensões
@@ -76,7 +76,7 @@ Os departamentos de marketing e vendas usam **Ferramentas de automação de mark
   * [Espocrm][42] - Tecnologia de marketing de código aberto integrado ao MailChimp
 O software CRM de código aberto acima mencionado ajuda você a identificar seu público. Além disso, eles ajudam a projetar o conteúdo certo e acionarem automaticamente ações com base em horários e comportamento do cliente. Mais plataformas de automação de marketing de código aberto serão adicionadas à lista, fique de olho na seção [Marketing Automation][43] para as atualizações.
 
-## **Software de bate-papo ao vivo para suporte instantâneo**    {#Live-Chat}
+## **Software de bate-papo ao vivo para suporte instantâneo** {#Live-Chat}
 O suporte ao bate -papo ao vivo é uma parte inevitável de um negócio on -line para fornecer respostas instantâneas em tempo real às consultas dos clientes. Nesta categoria, detalhes sobre o seguinte software popular de bate -papo ao vivo de código aberto podem ser encontrados em contenderize.com:
   * [Rocket.chat][44] - Solução de software de bate -papo em equipe com vários recursos de comunicação
   * [Zulip][45]-Software de colaborações em tempo real para equipes remotas
@@ -86,7 +86,7 @@ O suporte ao bate -papo ao vivo é uma parte inevitável de um negócio on -line
   * [Botkit][49] - Um construtor de bot para o Facebook, Slack e Webchat
 Todos os itens acima são de software de bate -papo ao vivo gratuito e de código aberto. Estes são certamente o melhor software de bate -papo ao vivo e suportam vários bate -papos junto com outros recursos modernos. Adicionaremos mais plataforma de bate -papo de código aberto à lista. Portanto, fique de olho na seção [Live Chat Software][50] para as atualizações mais recentes.
 
-## **Construa formulários de negócios usando o formulário de formulário**    {#forms-builder}
+## **Construa formulários de negócios usando o formulário de formulário** {#forms-builder}
 As empresas usam formulários para coletar dados relacionados ao feedback do cliente. Além disso, você pode usar formulários para segmentação de marketing, pesquisas e qualquer análise de pesquisa. Como esses formulários são baseados em HTML, são independentes do dispositivo e podem ser acessados ​​e preenchidos da área de trabalho, bem como de dispositivos inteligentes. Nesta categoria, o contendeRize.com fornece informações sobre o seguinte código aberto **Construtores de formulários:** 
   * [Form.io][51] - Melhor construtor de formulários baseado na Web com Plataforma de API REST para software sem servidor
   * [Orbeon][52] - Um construtor de formulários da web para facilitar a acessibilidade e suporta a geração de PDF fora da caixa
@@ -96,7 +96,7 @@ As empresas usam formulários para coletar dados relacionados ao feedback do cli
   * [FormTools][56] - Uma solução incrível de gerenciamento de dados e gerenciamento de dados com suporte incorporado para a visualização de recaptcha e dados
 Esses software de código aberto fornecem recursos e recursos exclusivos. Por exemplo, interface de arrastar e soltar, funções/gerenciamento de usuários, gerenciamento de dados e formulários incorporados. Mais plataformas de gerador de formulário HTML de código aberto serão adicionadas à lista. Portanto, para atualizações futuras, visite [Form Software][57] Seção.
 
-## **Plataformas de entrega de e-mails transacionais ou em massa**    {#transacional-email}
+## **Plataformas de entrega de e-mails transacionais ou em massa** {#transacional-email}
 Certos eventos e campanhas de aplicativos da Web acionam e -mails transacionais. Após os serviços de email transacionais ajudam a configurar fluxos de trabalho de negócios para esses eventos. Você pode encontrar mais informações sobre elas em [produtos.containerize.com][1]. **Software de email transacional:** 
   * [Postal][58] - Na premissa alternativa ao SendGrid e Mailgun, para enviar e -mails de seus aplicativos da Web e móveis.
   * [Cuttlefish][59] - Software de entrega de correio auto -hospedado em código aberto com recursos de rastreamento de email.
@@ -106,7 +106,7 @@ Certos eventos e campanhas de aplicativos da Web acionam e -mails transacionais.
   * [IREDMAIL][63] - Uma solução completa do servidor de email em destaque com base no postfix.
 Mais **Plataformas de email**  serão adicionadas à lista mencionada acima. Fique de olho na seção [Software de email transacional][64].
 
-## **Newsletter também conhecido como software de marketing por e -mail**    {#NewsLetter}
+## **Newsletter também conhecido como software de marketing por e -mail** {#NewsLetter}
 Um boletim bem projetado é fundamental para expandir a exposição. Também ajuda a permanecer conectado com os clientes. Portanto, o software do boletim informativo se torna essencial para projetar boletins elegantes. Além disso, o containerize.com fornece informações sobre um software de design de boletim de código aberto **: **
   * [Phplist][65] - Software de marketing por email para enviar boletins para um grande público.
   * [MailTrain][66] - Aplicativo de boletim informativo auto -hospedado criado para gerenciar uma enorme lista de discussão.
@@ -115,14 +115,14 @@ Um boletim bem projetado é fundamental para expandir a exposição. Também aju
   * [Mailman][69]-Software gratuito no local para gerenciar listas de discussão e enviar boletins.
 **A**  O software de marketing de email mencionado vem com uma rica pilha de recursos. Como compor campanhas e boletins que são difíceis de projetar e manter devido à entrega imprevisível de clientes de email. Em futuro próximo, mais software de marketing por email de código aberto e de código aberto será adicionado à seção [Software Newsletter][70].
 
-## **Monitor de status do servidor, também conhecido como software de statuspage**    {#status-página}
+## **Monitor de status do servidor, também conhecido como software de statuspage** {#status-página}
 As ferramentas de monitoramento são usadas para verificar o status e o desempenho de componentes críticos de software. Nesta categoria, os detalhes sobre os seguintes produtos de monitoramento de status do servidor estão disponíveis em contenderize.com:
   * [Cachet][71] - Melhor monitoramento de tempo de inatividade acessível com o sistema de página de status do cache
   * [Statping][72]-Página de status auto-hospedada para monitorar sites e serviços
   * [Monitoror][73] - Um Wallboard de monitoramento leve e confiável de código aberto para todas as suas ferramentas em um só lugar.
 Os produtos acima mencionados são de código aberto e oferecem recursos ricos que incluem integração com outros serviços **help desk** . Esses produtos também fornecem monitoramento e confiabilidade de tempo de inatividade acessíveis. Fique informado sobre a adição de outros produtos na seção [Software de página de status][74].
 
-## **Software de contabilidade também conhecido como software de faturamento**    {#Invoicing}
+## **Software de contabilidade também conhecido como software de faturamento** {#Invoicing}
 Se você estiver vendendo produtos ou serviços, estará realmente interessado em ter um software de faturamento no negócio. Portanto, o CONTERIZE.com fornece detalhes sobre um software de faturamento de código aberto:
   * [Invoiceninja][75] - Gerente de fatura para fatura, faturamento e gerenciamento de pagamentos.
   * [Akauning][76] - Uma solução contábil on -line para gerenciar e rastrear dinheiro.
@@ -131,7 +131,7 @@ Se você estiver vendendo produtos ou serviços, estará realmente interessado e
   * [Carter][79]-Um sistema de faturamento auto-hospedado que permite que pequenas empresas gerem faturas.
 Essas **soluções financeiras**  dão faturamento automático de economia de tempo, relatórios abrangentes dos pagamentos e muito mais. A parte mais legal é a opção de auto-hospedagem, que permite configurar todo o sistema dentro do seu negócio. Mais software de faturamento de código aberto será adicionado. Visite [Software de faturamento][80] seção para atualizações regulares.
 
-## **Autenticação centralizada ou sinal único em**    {#SSO}
+## **Autenticação centralizada ou sinal único em** {#SSO}
 **Solução única  **permite que um usuário acesse sistemas diferentes em uma organização usando o mesmo conjunto de credenciais. As empresas corporativas sempre tendem a melhorar os recursos de segurança para lidar com as ameaças e riscos em potencial. Enquanto isso, mantenha um único ponto de gerenciamento de usuários para todos os aplicativos da Web. O containerize.com lança luz sobre as seguintes soluções de código aberto **  SSO:** 
   * [IdentityServer][81] - Provisa para configurar sua própria solução de provedor de identidade usando o protocolo OpenId Connect.
   * [Keycloak][15] - permite desenvolver provedor de identidade e acesso ao gerenciamento de acesso usando o OAuth2.0, protocolos OpenID Connect e funciona bem com o LDAP e o Active Directory.

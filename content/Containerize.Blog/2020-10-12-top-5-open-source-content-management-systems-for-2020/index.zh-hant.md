@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-content-management-systems-for-2020/
 categories: ['Content Management']
 ---
 
-##開源CMS平台提供許多插件和模板，以滿足您的業務網站需求。讓我們探索最廣泛使用的自託管CMS軟件。
+## 開源CMS平台提供許多插件和模板，以滿足您的業務網站需求。讓我們探索最廣泛使用的自託管CMS軟件。
 
 {{< figure align=center src="images/Top-Open-Source-CMS-Software-For-2020-1024x536.png" alt="開源內容管理系統">}}
 

@@ -146,7 +146,7 @@ Sau đó nhập tên người dùng và mật khẩu của bạn cho quản tr�
 
 Vâng! Xong rôi. Bây giờ bạn đã biết cách cài đặt hoàn toàn PYDIO tự lưu trữ tệp đồng bộ hóa và phần mềm chia sẻ tệp nguồn mở trên Ubuntu để xây dựng một đám mây riêng từng bước tương tự như Dropbox hoặc Google Drive.
 
-##  **Kết luận:**    {#4A1A}
+##  **Kết luận:** {#4A1A}
 Trong hướng dẫn này, bạn đã cài đặt thành công các tệp bảo mật nguồn mở của các ô Pydio trên hệ thống Ubuntu của bạn. Bạn có thể sử dụng bài viết này để tạo cơ sở hạ tầng đám mây để lưu trữ, bảo vệ và chia sẻ các tệp của bạn trong đám mây tự lưu trữ. Sử dụng chia sẻ tài liệu hợp tác Pydio và ứng dụng chia sẻ tệp miễn phí tốt nhất để có được quyền kiểm soát dữ liệu của bạn nhiều hơn và đảm bảo sự hợp tác hiệu quả trong tổ chức kinh doanh của bạn. Trong các hướng dẫn sắp tới của chúng tôi, chúng tôi sẽ thảo luận về các chủ đề thú vị hơn về các giải pháp lưu trữ đám mây nguồn mở và các công cụ cộng tác chia sẻ tệp.
 _Your có thể tham gia với chúng tôi trên [Twitter][1], [LinkedIn][2] và trang [Facebook][3] của chúng tôi. Bạn sử dụng nền tảng chia sẻ nguồn mở _file nào trên nền tảng đám mây ?. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ][4].
 

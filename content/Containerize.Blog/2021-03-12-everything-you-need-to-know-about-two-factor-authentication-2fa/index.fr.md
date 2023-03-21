@@ -19,11 +19,11 @@ Il contient les sections suivantes:
   * [Implémentation de 2FA dans .NET5][5]
 Tout d'abord, comprenons ce qu'est 2FA et pourquoi il doit faire partie intégrante de chaque application Web moderne.
 
-## Qu'est-ce que l'authentification à deux facteurs?   {# 2FA}
+## Qu'est-ce que l'authentification à deux facteurs?   {#2FA}
 Un facteur dans ce contexte implique un moyen de convaincre une application ou un service que vous êtes propriétaire du compte. Le nom d'utilisateur / mot de passe est largement utilisé comme facteur d'authentification le plus courant. Cependant, en raison de nombreux problèmes de sécurité qui y sont associés et des violations de données généralisées récentes - l'authentification à facteur unique est devenue moins sécurisée.
 L'authentification à deux facteurs est une couche de sécurité supplémentaire, qui entre en jeu avant de pouvoir accéder à votre compte. En cours au processus de connexion standard - il introduit une étape supplémentaire pour vérifier l'identité de l'utilisateur en envoyant un code (à votre e-mail ou en SMS). De cette façon, votre identité est prouvée et ce n'est qu'à ce que l'accès soit accordé.
 
-## Comment fonctionne 2FA?   {# 2fawork}
+## Comment fonctionne 2FA?   {#2fawork}
 Dans 2FA, le mot de passe est toujours votre premier facteur d'authentification - donc lorsque vous vous connectez à votre compte, il vous redirigera vers une autre page où vous devez vérifier la propriété du compte. Cela peut être fait en utilisant différentes manières:
   1. L'application envoie un code de vérification souvent appelé OTP (mot de passe ponctuel) à votre adresse e-mail.
   2. Le code est livré en SMS sur votre téléphone.
@@ -36,11 +36,11 @@ Les méthodes d'authentification ne sont pas limitées aux deux facteurs. De nom
 Il peut vérifier l'adresse IP d'un utilisateur, la géo-localisation et les informations sur les informations de l'appareil à d'autres facteurs tels qu'un mot de passe et un OTP pour vérifier l'identité de l'utilisateur.
 Par conséquent, nous pouvons dire que le 2FA est un sous-ensemble de MFA. En 2FA, il n'y aura que deux facteurs alors que le multi-facteurs peut utiliser deux ou plusieurs facteurs. Le MFA rend difficile les pirates car il ajoute plusieurs couches de sécurité dans le processus d'authentification traditionnel.
 
-## Y a-t-il des inconvénients utilisant 2FA?   {# MFA-Cons}
+## Y a-t-il des inconvénients utilisant 2FA?   {#MFA-Cons}
 Semblable à de nombreuses solutions de «sécurité et de confidentialité» qui existent dans les applications modernes. Il a également un prix - un inconvénient, car il existe une étape supplémentaire qui peut provoquer une friction dans l'expérience utilisateur.
 Cependant, il est adopté par de nombreuses applications et services, ce compromis devient donc acceptable.
 
-## Comment puis-je implémenter l'authentification 2FA?   {# implémenting2fa}
+## Comment puis-je implémenter l'authentification 2FA?   {#implémenting2fa}
 Dans cette section, nous apprendrons à implémenter 2FA dans .NET5 en utilisant IdentityServer4 et Twilio.
 Créons donc un compte d'essai sur Twilio:
   1. S'inscrire sur

@@ -146,7 +146,7 @@ Quindi immettere il nome utente e la password per l'amministratore. Quindi fare 
 
 Sì! E 'fatto. Ora sai come installare completamente la sincronizzazione dei file di Pydio Self Hosd e il software di condivisione di file open source su Ubuntu per la costruzione di un cloud privato passo per passo simile a Dropbox o Google Drive.
 
-##  **Conclusione:**    {#4a1a}
+##  **Conclusione:** {#4a1a}
 In questo tutorial, hai installato correttamente la condivisione di file sicuri open source Pydio celle sul tuo sistema Ubuntu. Puoi utilizzare questo articolo per creare un'infrastruttura cloud per archiviare, proteggere e condividere i tuoi file nel cloud autonomo. Utilizzare la condivisione di documenti collaborativi PYDIO e la migliore app di condivisione di file gratuita per ottenere un maggiore controllo dei tuoi dati e garantire una collaborazione efficiente nella propria organizzazione aziendale. Nei nostri prossimi tutorial, discuteremo di argomenti più interessanti di soluzioni di archiviazione cloud open source e strumenti di collaborazione della condivisione di file.
 _ Il tuo può unirsi a noi su [Twitter][1], [LinkedIn][2] e la nostra pagina [Facebook][3]. Quale piattaforma di condivisione _file open source_ cloud usi online?. In caso di domande, per favore_ [mettiti in contatto][4].
 

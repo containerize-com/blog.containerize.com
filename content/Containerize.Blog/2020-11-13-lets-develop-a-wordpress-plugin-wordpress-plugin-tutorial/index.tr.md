@@ -43,7 +43,7 @@ Kısa kodlar, içerikle dinamik etkileşimler gerçekleştirmek için kullanıla
 ## # widget'lar
 Widget'lar önemlidir, çünkü kullanımı kolay bir arayüz sağlarken eklentinizin kodunu yürütmenin başka bir yolu sunarlar. Çoğu tema bir veya daha fazla kenar çubuğunu destekleyeceğinden; Kendi widget'larınızı eklemek, bilgilerinizi temanın içinde görüntülemenize hızlı erişim sağlayacaktır.
 
-## **WP eklentisi nasıl oluşturulur?**    {#create}
+## **WP eklentisi nasıl oluşturulur?** {#create}
 WordPress eklenti öğreticisinin bu bölümünde, tek yapmanız gereken bir klasör oluşturmak ve ardından bir içerik satırı ile tek bir dosya oluşturmaktır. **wp-content/eklentileri  **klasörüne gidin ve **  mytestplugin  **adlı yeni bir klasör oluşturun. Bu yeni klasörün içinde **  mytestplugin.php**  adlı bir dosya oluşturun. Dosyayı bir metin düzenleyicisinde açın ve aşağıdaki bilgileri yapıştırın:
 ```
 <?php

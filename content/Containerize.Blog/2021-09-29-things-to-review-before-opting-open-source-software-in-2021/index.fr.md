@@ -34,10 +34,10 @@ L'aspect critique suivant dans le choix de **applications open source**  est la 
 ## Portabilité   {#Portabilité}
 Cette caractéristique est tout aussi importante que les autres telles que la documentation, la sécurité, etc. Vous devez vous assurer que le logiciel **open source (OSS)  **est portable et adapté à l'environnement. Il est facilement hébergé et est livré avec des fichiers de code source complet. La portabilité n'a rien à voir avec l'installateur sauf les fichiers logiciels. **  Logiciel auto-hébergé**  Permettre aux développeurs de prendre un contrôle total sur le développement, l'état de production et la sécurité.
 
-## Git Stats   {# git-stats}
+## Git Stats   {#git-stats}
 Il s'agit d'une activité très basique mais importante avant d'aller choisir des logiciels gratuits. Passez en revue toujours le dépôt git d'un produit particulier. Il comprend le nombre de fourches, d'étoiles et d'autres statistiques qui montrent la popularité des outils open source. Vérifiez également la section des problèmes du repo GIT pour vous assurer qu'aucun problème sérieux n'est joint avec cette application open source.
 
-## licence   {# license}
+## licence   {#license}
 Ce facteur est inévitable lorsqu'il s'agit de sélectionner des logiciels open source gratuits (FOSS). Lors de l'exploration des statistiques GIT Repo, vérifiez la licence du produit concernant les autorisations. Parcourez les termes et conditions écrits sur l'utilisation, le développement et la distribution de l'OSS. Certaines licences sont open source mais pas gratuites. Par conséquent, vous devez choisir un logiciel gratuit complètement open source et gratuit.
 
 ## Extensibility   {#Extensibility}

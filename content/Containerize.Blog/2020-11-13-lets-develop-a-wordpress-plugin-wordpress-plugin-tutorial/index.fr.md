@@ -43,7 +43,7 @@ Les raccourcis sont des macros qui peuvent être utilisées pour effectuer des i
 Widgets ## #
 Les widgets sont importants car ils vous donnent un autre moyen d'exécuter le code de votre plugin tout en fournissant une interface facile à utiliser. Car la plupart des thèmes soutiendront une ou plusieurs barres latérales; L'ajout de vos propres widgets vous donnera un accès rapide pour afficher vos informations dans le thème.
 
-## **Comment créer un plugin WP?**    {#create}
+## **Comment créer un plugin WP?** {#create}
 Dans cette section du tutoriel de plugin WordPress, il vous suffit de créer un dossier, puis de créer un seul fichier avec une ligne de contenu. Accédez au dossier **WP-CONTENT / PLINGINS  **et créez un nouveau dossier nommé **  MyTestPlugin **. À l'intérieur de ce nouveau dossier, créez un fichier nommé  **mytestplugin.php**  . Ouvrez le fichier dans un éditeur de texte et collez les informations suivantes:
 ```
 <?php

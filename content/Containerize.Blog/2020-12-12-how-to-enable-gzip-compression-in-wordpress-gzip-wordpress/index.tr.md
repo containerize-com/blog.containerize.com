@@ -31,7 +31,7 @@ Dosya ve klasör sıkıştırmasını etkinleştirebilmeniz için Web sunucunuzd
 En popüler sıkıştırma yöntemi olan GZIP, Web sunucuları ve tarayıcılar tarafından içeriği internet üzerinden iletilirken sıkıştırmak ve doldurmak için kullanılır. Çoğunlukla kod ve metin dosyalarında kullanılır, GZIP JavaScript, CSS ve HTML dosyalarının boyutunu%90'a kadar azaltabilir. Varsayılan olarak, GZIP Sıkıştırma görüntüleri veya videoları sıkıştırmaz. Bunun için, WordPress sitenizdeki web için resimleri optimize etmeniz gerekir. Bu nedenle Google Pagespeed Insights gibi web sitesi hız test araçlarının çoğu GZIP sıkıştırmasını sağlamayı şiddetle tavsiye eder.
 Bir web sunucusu bir web sayfası için bir istek aldığında, web sunucusu tarayıcının GZIP'yi destekleyip desteklemediğini kontrol etmek için isteğin başlığını kontrol eder. Öyleyse, GZIP uygulamadan önce sunucu sayfa için işaretlemeyi oluşturur. GZIP, HTML işaretlemesini daha sonra son kullanıcıya teslim edilen sıkıştırılmış verilere dönüştürür. Son kullanıcı sıkıştırılmış verileri aldığında, tarayıcıları onu açar.
 
-## **GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur?**    {#Perify}
+## **GZIP Sıkıştırma Etkin Olursa Nasıl Doğrulur?** {#Perify}
 Web ana bilgisayarınız varsayılan olarak WordPress'te sıkıştırmayı etkinleştirebilir. Ancak, bu her zaman böyle değildir. Chrome’un Devtools'u kullanarak zaten GZIP sıkıştırma etkin olup olmadığını görebilirsiniz.
 Sitenizi bir krom tarayıcısında açın, ardından sayfanın herhangi bir yerine sağ tıklayın ve ** ****  Delin  **Geliştirici Araçlarını **  açmak için seçin** .
 Ardından, **Ağ  **sekmesine gidin ve web sitesinin ana URL'sini “Ad” bölümünden tıklayın. **  Başlıklar  **sekmesini seçin ve **  yanıt başlıklarını bulmak için aşağı kaydırın**  bölüm:

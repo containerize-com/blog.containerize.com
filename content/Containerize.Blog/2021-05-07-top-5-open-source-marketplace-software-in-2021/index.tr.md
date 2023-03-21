@@ -25,7 +25,7 @@ Bu makale, sektördeki en popüler beş çoklu satıcı e -ticaret pazarını a�
   * Dikkate alınması gereken diğer pazar yeri yazılım seçenekleri
   * Çözüm
 
-## 1. **SharTribe  **- Açık Kaynak **  Peer to Peer Marketplace**    {#42db}
+## 1. **SharTribe  **- Açık Kaynak **  Peer to Peer Marketplace** {#42db}
 [SharTribe][1], bir çok satıcı çevrimiçi e-ticaret pazar ürünü hızlı bir şekilde oluşturmak ve piyasaya süren en iyi bilinen açık kaynak olmayan SaaS iş modeli platformlarından biridir. Kullanıcılar çevrimiçi olarak mal, boşluk veya hizmet kiralayabilir veya satabilir ve renk temanızdaki değişiklikler ve fotoğraflar anında ayarlanabilir. ShareTribe Peer to Peer Marketplace, pazar ile rehberli bir işe alım sürecine sahiptir. Kullanıcıların ürün veya hizmetleri teknik çabalar olmadan çevrimiçi satmalarına olanak tanır. ShareTribe iki taraflı pazar platformu ve B2B e -Ticaret Marketplace'dir.
 Teknik veya geliştirme becerileri, çevrimiçi pazar yazılımınızı CSS, HTML veya JavaScript aracılığıyla daha da özelleştirmenize izin verir. ShareTribe SaaS platformu, tüm web barındırma ve aldığınız çevrimiçi ödeme veya işlemleri işler. Yeni pazar SaaS ürününüzü kolaylıkla oluşturabilmenizi sağlar.
 
@@ -49,7 +49,7 @@ Aşağıda listelendiği gibi düzinelerce başka açık kaynaklı B2B pazar pla
   ***Reaksiyon**  E-ticaret çok satıcısı pazar platformu.
   ***Beyourmarket**  Açık Kaynak Pazar Yeri Çerçevesi.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Bir iş kurmak veya mevcut bir iş yetiştirmek için bir pazar platformu oluşturmak, özellikle sıfırdan bir tane inşa etmek istiyorsanız zor olabilir. Yukarıda listelenen çok satıcı en iyi e-ticaret şirketlerinden büyük avantajlara sahip olabilirsiniz. Herkes kendi istenen pazar web sitesini kolayca ve hızlı bir şekilde oluşturabilir. Bu pazar yazılım platformu ihtiyaçlarınıza iyi hizmet edecektir. Bu güvenilir yazılım e -ticaret şirketlerinden biri tarafından desteklenen çevrimiçi pazarların veya mağazanın özelleştirilmiş bir listesine sahip olacaksınız.
 _ [Twitter][6], [LinkedIn][7] ve [Facebook][8] sayfamızda bize katılabilirsiniz. Bir uygulama pazarı oluşturmak için hangi çevrimiçi yazılım pazarı_ kullanıyorsunuz? Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin][9].
 

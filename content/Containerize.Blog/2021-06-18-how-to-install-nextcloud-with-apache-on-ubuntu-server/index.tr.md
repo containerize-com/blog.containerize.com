@@ -95,7 +95,7 @@ Kurulum bittikten sonra, sonraki ekranda NextCloud Yönetici Gösterge Tablosunu
 {{_LINE_77_}}
 Tebrikler, Ubuntu LTS sisteminizde çalışan bir sonraki şirket içi bulut çözümünüz var. Artık ihtiyaçlarınızı mükemmel bir şekilde karşılamak için bulut sunucunuzu özelleştirmeye başlayabilirsiniz.
 
-## **Sarma:**    {#4A1A}
+## **Sarma:** {#4A1A}
 Tebrikler! Apache ** ile Ubuntu sunucusunda nextcloud'u başarıyla yapılandırdınız ve yüklediniz. Özel bir bulutun nasıl oluşturulacağını öğrendiniz. NextCloud Ubuntu Server, hemen hemen herkesin özel veya hibrit bulut depolama ihtiyaçlarını sunabilen inanılmaz bir bulut depolama işbirliği platformudur. Artık Ubuntu'ya NextCloud'u nasıl yükleyeceğinizi biliyorsunuz ve verileriniz kendi kendine barındırılan bulutunuzda güvenli ve güvenli. Yaklaşan öğreticilerimizde, web sunucusu çözüm yığınları ile ilgili daha ilginç konular hakkında tartışacağız.
 _ Bulut tabanlı kendi kendine barındırılan depolama çözümünü tercih edersiniz?. Herhangi bir sorunuz varsa, lütfen [iletişime geçin][3] ._
 

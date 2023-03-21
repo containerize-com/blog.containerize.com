@@ -55,7 +55,7 @@ Ses fonctionnalités incluent comme des objets, maintient les métadonnées cent
   * **xigmanas**  Solution puissante et personnalisable open source
   * **Cloud Storage Server**  est un stockage sécurisé et extensible
 
-## ****pensée finale **:**    {# 4A1A}
+## ****pensée finale **:** {#4A1A}
 Les cinq plates-formes de partage et de synchronisation de fichiers cloud open source mentionnées ci-dessus sont des solutions flexibles. Dans le cloud computing, vous trouverez de nombreuses solutions de stockage en cloud privé open source, mais trouver le plus fiable est le plus important. C’est le besoin de vous ou de votre organisation qui décide de la sélection du logiciel cloud. J'espère que cet article vous aidera à configurer un serveur cloud personnel sécurisé et fiable ou à choisir le meilleur service cloud pour stocker vos précieuses images, musique, films et documents.
 _ Quelle est votre solution de logicielle de stockage cloud gratuite et open source préférée ?. Si vous avez des questions, veuillez vous contacter][8].
 

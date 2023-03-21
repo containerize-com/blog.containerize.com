@@ -43,7 +43,7 @@ COPAY hat die folgenden Schlüsselfunktionen:
   * Hochgesichert
 **[Erfahren Sie mehr über Copay][11]** 
 
-## **Breadwallet**    {#breadwallet}
+## **Breadwallet** {#breadwallet}
 **[Breadwallet][12]  **ist eine weitere beliebte Option unter den oberen **  Open Source Crypto Wallets **. Diese Open -Source -digitale Brieftasche ist einfach zu bedienen und bietet direkte Verbindungen zum Blockchain -Netzwerk für schnelle und schnelle Transaktionen. Darüber hinaus wurde diese  **Free Wallet -Software**   vom Bread Company entwickelt und ist für mobile Plattformen erhältlich. Darüber hinaus bietet es eine logische und einfache Benutzeroberfläche, in der Benutzer problemlos navigieren können. Breadwallet bietet viele leistungsstarke Funktionen wie anonyme Transaktionen, Unterstützung für mehrere Sprachen und viele mehr. Darüber hinaus müssen sich Benutzer nicht anmelden, um diese Open -Source -Krypto -Brieftasche zu verwenden.
 Breadwallet bietet die folgenden wichtigen Funktionen:
   * Anpassbare Widgets

@@ -74,7 +74,7 @@ Litecoiny są generowane szybciej niż bitcoiny, ale bitcoiny są warte więcej.
 {{_LINE_62_}}
 Kryptowaluta zorientowana na prywatność Monero wykorzystuje system kryptograficzny, aby umożliwić wysyłanie i odbieranie środków. Monero jest jednym z pierwszych kryptowalut, które zawierają kryptografię. Cyfrowa waluta Monero koncentruje się na prywatności, a jej transakcje na blockchain nie można śledzić ani prześledzić. Zapewnia to, że Twoje zakupy, wpływy i transfery funduszy pozostają domyślnie prywatne.
 
-##  **Wniosek:**    {#4a1a}
+##  **Wniosek:** {#4a1a}
 Wyżej wymienione pięć projektów kryptowalut jest najpopularniejszym bezpłatnym i najlepszym oprogramowaniem open source dla handlowców. Wiele dzisiaj kryptowalut pochodzi z takiej lub innej formy z Bitcoin. Pomimo setek konkurentów, którzy ewoluowali, Bitcoin jest pierwszą kryptowalutą, która pozostaje dominująca pod względem wykorzystania i wartości ekonomicznej.
 **Jakie jest teraz najlepsze krypto?** Inwestowanie w projekty typu open source kryptowaluty, a inne początkowe oferty monet jest bardzo ryzykowne. Ponadto ten artykuł nie jest zaleceniem pisarza o inwestowanie w kryptowaluty lub inne początkowe oferty monet (ICO). Ponieważ sytuacja każdej osoby jest inna i zawsze należy się z nimi konsultować przed podjęciem jakiejkolwiek rentownej decyzji finansowej. Containerize.com nie składa żadnych oświadczeń ani gwarancji co do dokładności lub terminowości zawartych w niniejszych informacje.
 _ Jakie są Twoje ulubione projekty typu open source kryptowaluty?. Czy masz jakieś pytania dotyczące _ Co to jest cyfrowa waluta_?, Proszę [skontaktuj się][11].

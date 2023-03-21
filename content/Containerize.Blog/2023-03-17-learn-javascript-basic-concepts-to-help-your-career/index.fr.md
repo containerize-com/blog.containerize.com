@@ -51,7 +51,7 @@ let name;
 ```
 L'erreur dans l'extrait de code ci-dessus s'est produite. La raison en est que l'initialisation n'a pas été effectuée lors du hissage de cette variable. Pour faire court, toutes les déclarations sont initialisées avec "non définies" tandis que les variables déclarées avec "LET" ou "const" ne sont pas initialisées dans le levé.
 
-## Scopes en javascript   {# Scopes-in-Javascript}
+## Scopes en javascript   {#Scopes-in-Javascript}
 La portée est l'un des concepts de base JavaScript qu'un développeur doit connaître. Cependant, travailler avec JavaScript Scopes n'est pas simple et est un peu différent. Par conséquent, il existe trois types de lunettes en JavaScript et celles-ci sont les suivantes:
 **Block-Level**: Variables déclarées avec "Let" ou "const" contient la portée au niveau du bloc.
 ```
@@ -79,7 +79,7 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## fermetures JavaScript   {# javascript-closures}
+## fermetures JavaScript   {#javascript-closures}
 Il s'agit d'un autre concept important qui renforce vos connaissances en JavaScript sur les lunettes et l'encapsulation des données. Dans la forme la plus simple, une fonction à l'intérieur d'une fonction est connue sous le nom de fermeture. Vous pouvez appeler la fonction intérieure une fermeture. Cette fonction intérieure a trois types de portée:
  * Il a sa propre portée au niveau du bloc.
  * Il a accès aux variables des parents.

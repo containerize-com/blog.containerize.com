@@ -22,7 +22,7 @@ Par conséquent, prenez une sage décision et adoptez un bon logiciel d'animatio
   * **[Comparaison de Synfig &  **crayon2d ** ][12]** 
   * **[Conclusion][13]** 
 
-## **Comment utiliser Synfig?**    {#review}
+## **Comment utiliser Synfig?** {#review}
 Synfig est une suite d'animation 2D open source basée sur des vecteurs. Il est multiplateforme et prend en charge presque toutes les plates-formes populaires telles que Windows, Linux et MacOS. De plus, il est facile à déployer et est livré avec des capacités d'auto-hébergement. Il ne fournit pas seulement des capacités d'animation 2D, mais fournit également un support 3D. Il utilise un système d'animation «Tweenless» pour rendre le processus d'animation robuste. De plus, il est rentable, économe en temps et offre des contrôles avancés aux utilisateurs. De même, les animateurs peuvent construire des caractères avancés et des structures dynamiques. Tout le code source de ce logiciel d'animation 2D simple **simple**  est disponible sur [github][14]. Par conséquent, les utilisateurs peuvent passer par toutes les documents concernant le déploiement et le développement.
 
 ## Comment utiliser crayon2d?   {#crayon}

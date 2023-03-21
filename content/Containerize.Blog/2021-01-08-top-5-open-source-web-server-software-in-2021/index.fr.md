@@ -24,7 +24,7 @@ Un serveur Web est un type de logiciel installé sur le système d'exploitation.
   * [Caddy][8]
   * [Tomcat][9]
 
-## xAMPP   {# xAMPP-stands}
+## xAMPP   {#xAMPP-stands}
 XAMPP représente une plate-forme multiplateuse (X), Apache (A), MariADB (M), PHP (P) et Perl (P). Il s'agit d'un logiciel de serveur Web gratuit et open-source. Il aide les développeurs à tester leurs applications Web ou leurs sites Web dans leur environnement de développement. XAMPP possède tous les composants nécessaires, y compris Apache, Perl ainsi que la base de données MySQL et PHP. Il fournit un environnement de développement fiable pour les applications Web basées sur Perl et PHP. De plus, il fournit MariADB et MySQL pour la gestion des bases de données. Voici quelques-unes de ses principales caractéristiques:
   * Open source
   * Plusieurs instances

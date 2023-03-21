@@ -43,7 +43,7 @@ Copay tem os seguintes recursos importantes:
   * Altamente seguro
 **[Saiba mais sobre copay][11]** 
 
-## **Breadwallet**    {#BreadWallet}
+## **Breadwallet** {#BreadWallet}
 **[Breadwallet][12]  **é outra opção popular entre as carteiras de criptografia de código aberto **  **. Esta carteira digital de código aberto é fácil de usar e fornece conexões diretas com a rede blockchain para transações rápidas e rápidas. Além disso, este software de carteira gratuito**  é desenvolvido pela The Bread Company e está disponível para plataformas móveis. Além disso, oferece uma interface de usuário lógica e fácil, onde os usuários podem navegar facilmente. Breadwallet oferece muitos recursos poderosos, como transações anônimas, suporte para vários idiomas e muito mais. Além disso, os usuários não precisam se inscrever para usar esta carteira criptográfica de código aberto.
 Breadwallet oferece os seguintes recursos importantes:
   * Widgets personalizáveis

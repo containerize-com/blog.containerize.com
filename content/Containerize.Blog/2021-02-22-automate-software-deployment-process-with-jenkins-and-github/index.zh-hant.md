@@ -9,7 +9,7 @@ url: /zh-hant/automate-software-deployment-process-with-jenkins-and-github/
 categories: ['Deployment Tools']
 ---
 
-##使用免費部署工具自動開發工作流程。我們將學習如何使用Jenkins Automation Server和GitHub進行軟件部署設置CI/CD。
+## 使用免費部署工具自動開發工作流程。我們將學習如何使用Jenkins Automation Server和GitHub進行軟件部署設置CI/CD。
 
 {{< figure align=center src="images/ci-cd-post.png" alt="連續集成和連續部署">}}
 
@@ -20,16 +20,16 @@ categories: ['Deployment Tools']
   *[**配置Jenkins **][4]
   *[**創建Jenkins Job **][5]
 
-##什麼是詹金斯？   {#Jenkins}
+## 什麼是詹金斯？   {#Jenkins}
 **Jenkins **是一種功能強大的**免費部署工具**用於自動化軟件交付過程。它是用於構建，測試和部署的開源自動化服務器。詹金斯使用主奴隸體系結構。這使軟件團隊可以同時運行多個構建和測試。此外，還有很多可用的插件，團隊可以根據需要使用它們。您可以訪問[ **Jenkins Page ** ][6]以獲取更多信息和安裝。此外，您可以在jenkins [ **github ** ][7]存儲庫中找到源代碼。
 
-##連續集成 {#ci}
+## 連續集成 {#ci}
 **連續集成**是一種開發實踐，要求開發人員經常將代碼集成到共享的存儲庫中。可以通過自動構建和測試來驗證代碼的每個集成/推動代碼。它還允許開發人員輕鬆識別代碼中的問題。
 
-##連續部署 {#cd}
+## 連續部署 {#cd}
 **連續部署**是連續集成後的下一步。它將允許團隊在服務器上連續部署代碼。此外，它可以幫助開發人員減少重複任務並提高敏捷性。
 
-##配置jenkins   {#configure}
+## 配置jenkins   {#configure}
 遵循詹金斯（Jenkins）配置的逐步指南。
   *打開您的Jenkins網站並登錄。
   *安裝“在SSH上發布”插件。您可以通過導航到“管理Jenkins→管理插件→可用”來搜索它。
@@ -57,7 +57,7 @@ $ nano authorized_keys
   *單擊“測試配置”按鈕，以確保Jenkins可以連接到部署服務器。
   *最後，單擊“保存”按鈕存儲信息。
 
-##創建Jenkins Job   {#Create}
+## 創建Jenkins Job   {#Create}
 您可以使用這些步驟來創建Jenkins作業。
   *打開Jenkins儀表板，然後單擊“新項目”按鈕。
   *輸入項目名稱，然後選擇“自由式工作”。

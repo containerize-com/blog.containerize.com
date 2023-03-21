@@ -56,7 +56,7 @@ Yatırım Yatırım geldiğinde, her zaman çeşitlendirilmiş bir yatırım por
 Kripto para birimini nasıl saklıyorsunuz? Kripto para biriminizi çevrimiçi veya çevrimdışı olarak saklayabilirsiniz. Kripto para birimini depolamanın en popüler yolu bir kripto değişimi veya cüzdanında çevrimiçidir. Kripto borsaları ve cüzdanları, bilgisayarınızı, tabletinizi veya akıllı telefonunuzu kullanarak kriptoyu güvenli bir şekilde saklamanıza, göndermenize, almanıza ve dönüştürmenize olanak tanır.
 Kripto para birimi nereden alınır? Kripto para birimini bir kripto değişiminden satın alabilirsiniz. Aşağıda, İngiltere'de kripto para birimi satın almak için en iyi uygulamaların ve alışverişlerin bir listesini derledik. Cryptoassets'in İngiltere veya AB yatırımcı koruması olmayan son derece değişken düzenlenmemiş bir yatırım ürünü olduğunu lütfen unutmayın. Onlara koyduğunuz tüm parayı kaybedebilirsiniz.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Umarım, çok şey öğrendiniz ve şimdi kripto para ticareti ve yatırım hakkında başlangıçta olduğundan daha bilgili ve bilgilisınız. Şimdi senin sıran. Rehberi sizinle birlikte araştırmaktan ve yazmaktan keyif aldık. İyi şanlar!
 _ En sevdiğiniz kripto para birimi açık kaynak projeleri nelerdir?. Dijital para biriminin ne olduğu hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][1].
 

@@ -40,7 +40,7 @@ Depois que o protótipo for desenvolvido, a próxima fase é apresentar esse pro
 **Desenvolvimento e teste contínuos** 
 Nesta fase, as equipes RAD tendem a realizar ciclos contínuos de desenvolvimento e teste. Essa fase garante que tudo esteja na direção certa e alinhada com as necessidades do cliente. Além disso, os desenvolvedores continuam desenvolvendo novos recursos e versões de liberação do produto com os recursos e documentação mais recentes.
 
-## B **ENefits of Rad Software?**    {#Benefits}
+## B **ENefits of Rad Software?** {#Benefits}
 Vamos ver quais são os benefícios que podemos obter adotando um software de aplicativo rápido.
   ***FLEXIBILIDADE**  - A plataforma rad de código aberto é flexível o suficiente para incorporar qualquer alteração em qualquer estágio.
   ***VELOCIDADE**  - As ferramentas RAD ajudam os desenvolvedores a acelerar os processos de desenvolvimento e implantação para fazer entregas no prazo.
@@ -50,7 +50,7 @@ Vamos ver quais são os benefícios que podemos obter adotando um software de ap
   ***Correção instantânea**  - Na verdade, existem equipes de suporte de produção trabalhando na correção de bugs. No entanto, neste modelo, sempre que houver uma mal -humorada encontrada, os desenvolvedores os correm em um tempo mais rápido.
   ***As mais recentes tecnologias**  - É uma enorme vantagem do modelo RAD que as equipes de desenvolvimento possam adotar e testar as mais recentes ferramentas e tecnologias em qualquer estágio.
 
-## **CONCLUSÃO**    {#conclusion}
+## **CONCLUSÃO** {#conclusion}
 Aí vem o final deste tutorial. Existem muitos modelos de desenvolvimento de software, como modelo em cascata, modelo em espiral, modelo em forma de V, modelo ágil e um pouco mais. Portanto, a adoção de qualquer modelo depende de seus casos de uso e da natureza do software. Portanto, esta postagem do blog realmente o ajudará se você deseja adotar o modelo RAD para o seu negócio. Independentemente da plataforma, existem vários softwares de desenvolvimento de aplicativos rápidos de código aberto que oferecem recursos de plataforma cruzada com ferramentas de desenvolvimento. Existem outros softwares de prototipagem rápida disponíveis na seção "Explorar" abaixo, que seguem as metodologias RAD. É hora de adotar essa abordagem econômica e robusta para desenvolver software de negócios pronto para produção.
 No final, [contémize.com][9] está no processo contínuo de introdução de código aberto [RAD Software][1]. Siga esta [Rapid Application Development][1] Categoria para atualizações regulares. Além disso, o software listado abaixo na seção Explore é de código aberto, gratuito e auto-hospedado. Todos esses **geradores de código -fonte**  vêm com documentação abrangente sobre desenvolvimento e implantação.
 

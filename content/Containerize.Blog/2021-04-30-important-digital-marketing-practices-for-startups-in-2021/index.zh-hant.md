@@ -9,7 +9,7 @@ url: /zh-hant/important-digital-marketing-practices-for-startups-in-2021/
 categories: ['Marketing Automation']
 ---
 
-##由於競爭迅速增長，新的和創新的品牌每天都在推出。這篇文章涵蓋了2021年的最佳商業營銷實踐。
+## 由於競爭迅速增長，新的和創新的品牌每天都在推出。這篇文章涵蓋了2021年的最佳商業營銷實踐。
 
 {{< figure align=center src="images/Digital-Marketing-Best-Practices-For-Startups-In-2021.png" alt="2021年重要的數字營銷實踐和啟動策略">}}
 

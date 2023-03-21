@@ -43,7 +43,7 @@ Kode pendek adalah makro yang dapat digunakan untuk melakukan interaksi dinamis 
 Widget ## #
 Widget penting karena memberi Anda cara lain untuk melaksanakan kode plugin Anda sambil menyediakan antarmuka yang mudah digunakan. Karena sebagian besar tema akan mendukung satu atau lebih sidebar; Menambahkan widget Anda sendiri akan memberi Anda akses cepat untuk menampilkan informasi Anda di dalam tema.
 
-## **Cara Membuat Plugin WP?**    {#Create}
+## **Cara Membuat Plugin WP?** {#Create}
 Di bagian tutorial plugin WordPress ini, yang perlu Anda lakukan adalah membuat folder dan kemudian membuat satu file dengan satu baris konten. Arahkan ke folder **wp-content/plugin **, dan buat folder baru bernama  **mytestplugin ** . Di dalam folder baru ini, buat file bernama  **mytestplugin.php**  . Buka file dalam editor teks, dan tempel informasi berikut di dalamnya:
 ```
 <?php

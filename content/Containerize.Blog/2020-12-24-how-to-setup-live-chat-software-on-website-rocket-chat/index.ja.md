@@ -59,7 +59,7 @@ Rocket.chatソフトウェアがインストールされ、構成されたら、
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat LiveChatウィジェット">}}
 
 
-##  **Webサイトにライブチャットウィジェットをインストール**    {#Widget}
+##  **Webサイトにライブチャットウィジェットをインストール** {#Widget}
 このセクションでは、ビジネスWebサイトにライブチャットウィジェットをインストールします。ここで、 **liveChatインストール** 設定にアクセスするには：
 以下に示すように、Omnichannelパネル設定の **liveChatインストール** に移動し、指定されたコードをコピーします。
 

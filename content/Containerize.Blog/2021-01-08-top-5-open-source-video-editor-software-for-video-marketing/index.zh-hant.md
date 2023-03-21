@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-video-editor-software-for-video-marketing/
 categories: ['Video Editing Software']
 ---
 
-##高級視頻編輯軟件是任何不斷增長的業務不可或缺的一部分，旨在實現高度用戶參與，有效的視頻營銷和購買者動機。
+## 高級視頻編輯軟件是任何不斷增長的業務不可或缺的一部分，旨在實現高度用戶參與，有效的視頻營銷和購買者動機。
 
 {{< figure align=center src="images/topVideo.png" alt="免費視頻創建工具">}}
 
@@ -75,11 +75,11 @@ Blender提供以下要點：
   *直方圖顯示
 [了解有關攪拌機的更多信息][22]
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 它帶來了此博客文章的結尾。本文可能會幫助您在流行的免費視頻創建工具中做出選擇。但是，做出正確的選擇並創建引人注目的高質量業務視頻。
 最後，[Containerize.com][24]不斷地撰寫有關進一步開源產品和主題的博客文章。因此，請與[25]類別保持聯繫，以進行常規更新。
 
-##相關產品頁面
+## 相關產品頁面
 您可能會發現以下鏈接相關：
   * [openshot][9]
   * [shotcut][12]

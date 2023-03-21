@@ -25,7 +25,7 @@ Niedawno opublikowaliśmy post na blogu na [Top 5 Open Source Single Logting Sof
 [Pojedyncze logowanie][6] to oprogramowanie identyfikacyjne i  **Uwierzytelnianie** , które umożliwia logowanie za pomocą witryn innych firm. Oprogramowanie SSO działa jako dostawca tożsamości, dzięki czemu można zalogować się do wielu witryn za pomocą jednego zestawu nazw użytkowników/haseł. Jest to jednak jednorazowy mechanizm logowania, a system SSO zapewnia autentyczność użytkowników.
 Ponadto system ten był szeroko stosowany na poziomie małym i przedsiębiorstw do zarządzania tożsamością użytkownika w wielu aplikacjach. Istnieje wiele dostępnych oprogramowania typu open source, które korzysta z popularnych protokołów autoryzacji, takich jak Openid OpenId, SAML i OAuth.
 
-##  **Jak działa pojedynczy podpis (SSO)?**    {#Features}
+##  **Jak działa pojedynczy podpis (SSO)?** {#Features}
 Mechanizm działający  **Open Source pojedynczy znak**  jest prosty. Użytkownik wprowadza poświadczenia w formularzu logowania, użytkownik zostanie przeniesiony po pomyślnym zakończeniu uwierzytelniania SSO. Teraz, ilekroć użytkownik odwiedza dowolną witrynę zintegrowaną z dowolnym rozwiązaniem SSO, system sprawdzi, aby każdy użytkownik jest już zalogowany lub nie. Ponadto, jeśli użytkownik jest już zalogowany, serwer wyda śledzenie/token, a ten token/śledztwo zostanie użyty, aby upewnić się, że uwierzytelnianie w wielu aplikacjach. Oprócz możliwości SSO zapewnia również funkcje zarządzania użytkownikami i bezpieczeństwa, jak wspomniano poniżej.
   * Łatwy w użyciu
   * Federowana tożsamość

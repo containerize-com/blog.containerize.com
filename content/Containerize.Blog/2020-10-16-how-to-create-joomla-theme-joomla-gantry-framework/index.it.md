@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomla-gantry-framework.png" alt="Joomla Gantry">}}
 
 
-Panoramica ##****
+Panoramica ## ****
 Abbiamo già pubblicato alcuni articoli su argomenti come [la Guida allo sviluppo dei template di Joomla per i principianti][1], [Drupal Mautic Integration per automatizzare la nutrimento dei lead][2], [integrare Mautic & Joomla per l'automazione del marketing digitale][3][3][3][3][3][3][3][3][3] , e altro ancora, quindi ci concentreremo sulla creazione del tema con**Gantry Framework**in questa guida. Gantry Framework è un costruttore di modelli open source che viene utilizzato per costruire layout reattivo e di livello aziendale per [Joomla][4] e [WordPress][5]. La comunità open source ha sviluppato una vasta gamma di sistemi di gestione dei contenuti che offrono funzionalità di costruzione di temi ricchiumi. Il framework Gantry per Joomla è uno dei framework tematici più popolari. Costruire un sito Web accattivante e coinvolgente è una componente vitale di qualsiasi azienda. Tuttavia, il tempo richiesto per creare o modificare tali siti Web è un altro aspetto importante.
 Pertanto, il framework di Joomla Gantry fornisce disposizioni per accelerare il processo di sviluppo del layout. Soprattutto, elimina anche la compulsione di essere equipaggiati con capacità di codifica o programmazione. D'altra parte, il processo di installazione di tali framework è abbastanza semplice e semplice. Sono disponibili sotto forma di plugin per i migliori sistemi di gestione dei contenuti come WordPress e Joomla. In questo tutorial sul quadro Gantry, tratteremo i seguenti punti:
 * [**Cos'è il framework Gantry per Joomla?**][6]

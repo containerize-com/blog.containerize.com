@@ -25,7 +25,7 @@ Di recente abbiamo pubblicato un post sul blog sul [top 5 software open source s
 [Single Sign-On][6] è un software di identificazione e  **autenticazione**  che consente di accedere utilizzando siti di terze parti. Il software SSO funge da fornitore di identità in modo da poter accedere a più siti con un unico set di nomi utente/password. Tuttavia, si tratta di un meccanismo di accesso una tantum e il sistema SSO assicura che l'autenticità degli utenti.
 Inoltre, questo sistema è stato ampiamente utilizzato a livello di piccole e aziendali per gestire le identità dell'utente su più applicazioni. Ci sono molti software di accesso singolo open source disponibili che utilizzano protocolli di autorizzazione popolari come OpenID OpenID, SAML e OAuth.
 
-##  **Come funziona Single Sign-On (SSO)?**    {#Features}
+##  **Come funziona Single Sign-On (SSO)?** {#Features}
 Il meccanismo di funzionamento di  **Open Source Single Sign-On**  è dritto. L'utente inserisce le credenziali nel modulo di accesso, l'utente verrà spostato dopo il completamento con successo dell'autenticazione SSO. Ora, ogni volta che un utente visita qualsiasi sito integrato con qualsiasi soluzione SSO, il sistema controllerà che l'utente è già accessibile o meno. Inoltre, se l'utente ha già effettuato l'accesso, il server emetterà un tracker/token e questo token/tracker verrà utilizzato per assicurarsi che l'autenticazione tra più applicazioni. Insieme alle funzionalità SSO, fornisce anche funzionalità di gestione degli utenti e di sicurezza come indicato di seguito.
   * Facile da usare
   * Identità federata

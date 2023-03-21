@@ -91,7 +91,7 @@ Ansible Open Source **Công cụ tự động hóa  **và phần mềm miễn ph
 Python là ngôn ngữ kịch bản hướng đối tượng được sử dụng để xây dựng các ứng dụng như trí tuệ nhân tạo, học máy, ứng dụng máy tính để bàn, v.v. Quỹ phần mềm ** (DSF).
 **Các công ty hàng đầu sử dụng Django ** bao gồm Instagram, Spotify, National Geographic, Pinterest, MacArthur Foundation, Disqu, Bitbucket, Mozilla, Open Stack và nhiều hơn nữa.
 
-## **Kết luận:**    {#4A1A}
+## **Kết luận:** {#4A1A}
 Năm dự án phần mềm nguồn mở được đề cập ở trên là phần mềm nguồn mở miễn phí và tốt nhất cho các nhà phát triển. Nếu bạn đang khám phá các dự án nguồn mở tốt cho người mới bắt đầu lần đầu tiên thì hãy xem báo cáo của Octoverse State và cảm thấy thoải mái để thêm và đóng góp. Danh sách phần mềm nguồn mở mở khóa các cửa cho các nhà đổi mới và các nhà phát triển ứng dụng trong việc xây dựng sự nghiệp trong khi cho phép họ làm việc trên một số nền tảng lớn nhất trên toàn thế giới. Các ví dụ phần mềm nguồn mở tốt nhất mà chúng tôi đã liệt kê ở trên chỉ là bằng chứng về việc các ứng dụng nguồn mở có lợi như thế nào.
 _ Các dự án phần mềm nguồn mở miễn phí và nguồn mở yêu thích nhất của bạn là gì ?. Bạn có bất kỳ câu hỏi nào về các dự án nguồn mở không ?, Please_ [Hãy liên lạc][12].
 

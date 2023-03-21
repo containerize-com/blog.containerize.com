@@ -14,7 +14,7 @@ categories: ['Shopping Cart Software']
 {{< figure align=center src="images/Top-5-Open-Source-Shopping-Cart-Software.png" alt="Top 5 Açık Kaynak Alışveriş Sepeti Yazılımı">}}
 
 
-## **Genel Bakış**    {#Opencart}
+## **Genel Bakış** {#Opencart}
 **Açık Kaynak Alışveriş Sepeti Yazılımı**  Bir web sunucusunda bir perakendecinin çevrimiçi ürünleri görüntülemesini, çevrimiçi mağazalarını yönetmesini ve müşterilere satmasını sağlayan bir e -ticaret yazılımı çözümüdür. Bu yazılım, çevrimiçi alışveriş müşterilerinin bir e -ticaret mağazasından bir ürün veya hizmet seçmesini, saklamasını ve satın almasını sağlar. Açık kaynak çözümleri istediğiniz gibi yüklemek, indirmek ve özelleştirmek için ücretsizdir. Müşteriler, istedikleri gibi çevrimiçi mağazalardan ürün ürünleri ekleyebilir ve kaldırabilir. E -Ticaret Alışveriş Sepeti Çözümü veya Mağazası, müşteriler tarafından kullanılmak üzere çevrimiçi alışveriş deneyiminin önemli bir parçasıdır.
 2021'deki koronavirüs salgını nedeniyle çevrimiçi alışverişin hızla büyüdüğünü fark ettik. Mağazayı ziyaret etmek yerine, müşterilerin çoğu satın almak için **en iyi e -ticaret çözümleri  **kullandı. Bu nedenle, bir çevrimiçi alışveriş mağazası kurmak artık gerekli hale geldi. Buna ek olarak, perakendecilerin önemli sayıda müşteri çekmesine ve karları artırmasına yardımcı olacaktır. Ürün satmak için e -ticaret alışveriş sepeti yazılımı kullanmanız gerekir. Bu nedenle, doğru **  açık kaynaklı e -ticaret yazılımı**  seçerken, envanter yönetimi, ürün listesi, sepet, ödeme, pazarlama araçları ve müşteri hizmetleri araçları gibi özellikleri sağlamalısınız.
 Toptan çevrimiçi iş için en iyi e -ticaret platformunu çalıştırmak için aşağıdaki **açık kaynaklı alışveriş sepeti**  bu yazıda ele alacağız.

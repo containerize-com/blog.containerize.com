@@ -23,7 +23,7 @@ A interface do usuário de um site de negócios sempre foi a parte mais crítica
   * [JD Austin][6]
   * [Conclusão][7]
 
-## **Xeon  **- **  modelo de joomla grátis de página única**    {#Xeon}
+## **Xeon  **- **  modelo de joomla grátis de página única** {#Xeon}
 [Xeon][8] é um modelo de joomla da moda gratuito. Pode ser usado para vários propósitos, como sites pessoais, corporativos, de eventos ou negócios. Além disso, este modelo **Joomla One Page**  fornece navegação com base nas animações jQuery e CSS. Parece uma opção adequada para os usuários devido a esses recursos úteis.
 No entanto, alguns recursos dominantes do modelo **Xeon**  são:
   * Layout responsivo
@@ -32,7 +32,7 @@ No entanto, alguns recursos dominantes do modelo **Xeon**  são:
   * HTML5, CSS3, suporte SCSS
   * Suporte de idiomas da direita para a esquerda
 
-## **JD Seattle  **- **  Modelo de Joomla multifuncional leve**    {#JD}
+## **JD Seattle  **- **  Modelo de Joomla multifuncional leve** {#JD}
 [JD Seattle][9] é um modelo de Joomla amplamente utilizado. Além disso, ele é construído usando a estrutura astroid. Além disso, está equipado com um painel de administração robusto com muitos outros recursos e animações. Ele é integrado ao JD Builder, que, como resultado, fornece provisão do usuário para projetar e construir qualquer seção por elementos de arrastar e soltar. É amigável ao layout e se adapta a qualquer tela imediatamente. Ele fornece navegação lógica, onde os usuários podem inserir quantos itens de menu forem necessários. Os proprietários do site podem entrar em contato com os visitantes do site através de um formulário de contato que é embalado neste modelo de negócios da Joomla. Além disso, existem mais de 800 fontes do Google suportadas em JD Seattle.
 Acima de tudo, algumas características importantes de **jd Seattle**  são:
   * Navegação com itens de menu ilimitados
@@ -41,7 +41,7 @@ Acima de tudo, algumas características importantes de **jd Seattle**  são:
   * Suporte a cores RGB
   * Suporte da estrutura de Bootstrap 4
 
-## **DINO  **- **  modelo de joomla personalizável grátis**    {#dino}
+## **DINO  **- **  modelo de joomla personalizável grátis** {#dino}
 [DINO][10] é um modelo altamente vibrante sobre melhorias regulares e novas atualizações de recursos. Este modelo é compatível com o Bootstrap 4, portanto, o ambiente de desenvolvimento **Joomla**  oferece um layout totalmente responsivo e mantém um código limpo e otimizado. Além disso, pode ser facilmente personalizado de acordo com as necessidades de negócios. Existem desenvolvimentos regulares que atualizam esse modelo Joomla com novas funcionalidades e aparência.
 **DINO**  é uma escolha perfeita por causa dos seguintes recursos proeminentes:
   * Fontes gratuitas do Google
@@ -50,7 +50,7 @@ Acima de tudo, algumas características importantes de **jd Seattle**  são:
   * Layout amigável
   * 100+ componentes únicos
 
-## **Jollyany  **- **  modelo Joomla com Recursos Infinitos**    {#Jollyany}
+## **Jollyany  **- **  modelo Joomla com Recursos Infinitos** {#Jollyany}
 [Jollyany][11] é um modelo de Joomla rico com rico. Acima de tudo, é suportado pela estrutura Astroid e da estrutura do Bootstrap v4.5. Além disso, ele vem com um front end modular, onde os usuários podem personalizar a interface do usuário conforme os requisitos. Existem mais de 60 plugins suportados neste modelo gratuito do Joomla. Os usuários têm as opções para escolher qualquer cabeçalho de várias opções de cabeçalho. Se você pretende criar um site pessoal, blog, empresa ou blog, **Jollyany**  é a melhor escolha.
 É uma estrutura altamente útil com muitos recursos, como:
   * Suporte de menu de tela
@@ -59,7 +59,7 @@ Acima de tudo, algumas características importantes de **jd Seattle**  são:
   * Otimize HTML, JS, CSS
   * 6 tipos de artigo
 
-## **JD AUSTIN  **- **  SEO Otimizado Joomla modelo**    {#Austin}
+## **JD AUSTIN  **- **  SEO Otimizado Joomla modelo** {#Austin}
 **[JD AUSTIN][12]  **É um modelo de negócios de Joomla grátis**  , no entanto, ele fornece opções poderosas para sites comerciais e não comerciais. Sua otimização do mecanismo de pesquisa está sendo feita de acordo com os padrões definidos pelo Google. Acima de tudo, ele vem com um cronoform de construtor de formulários pré-integrados, onde os usuários podem criar qualquer formulário usando uma interface de arrastar e soltar. Além disso, esse modelo mantém layouts altamente responsivos com ricas tipografia e cores. Ele também fornece integrações com extensões de terceiros.
 Por outro lado, alguns recursos interessantes deste modelo gratuito de joomla incluem:
   * Layout totalmente personalizado do blog

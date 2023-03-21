@@ -22,7 +22,7 @@ La communauté open source a développé de nombreux forums de discussion au niv
   * [Flarum vs discours][7]
   * [Conclusion][8]
 
-## Qu'est-ce que le discours?   {# What-est-il fait?}
+## Qu'est-ce que le discours?   {#What-est-il fait?}
 [Discours][3] est un logiciel de forum open source qui fournit un portail riche en fonctionnalités où les entités commerciales peuvent établir des discussions saines. Entre autres fonctionnalités, ce forum de discussion propose des fonctionnalités sociales, tout comme Facebook et Twitter qui aident éventuellement les entreprises à développer des communautés commerciales de manière moderne. De plus, il y a des installations pour discuter avec d'autres membres dans les salles de chat, où vous pouvez mentionner les gens et partager les fichiers multimédias. De plus, il est écrit en Ruby sur Rails, Ember.js, Postgresql, Redis et est facile à installer dans vos propres locaux.
 Il existe une communauté très dynamique qui offre un soutien à ce forum de questions-réponses. Il existe une énorme pile de plugins et de thèmes disponibles tels que OAuth 2.0 et OpenID Connect Support, SAML Authentication, Discours Traductor et bien d'autres. Le discours fournit de nombreuses fonctionnalités qui incluent un système de notifications dynamiques, des liens en expansion automatiquement, [l'authentification unique][9], une API complète, etc. Surtout, il existe une documentation complète sur le développement et le déploiement. Par conséquent, tout le code source de ce logiciel de forum open source est disponible sur [GitHub][10].
 

@@ -65,7 +65,7 @@ Sonunda **Açık Kaynak Teknoloji Örnekleri**  listesinin sonunda blockchain te
 **Blockchain nedir?**  Blockchain merkezi olmayan, doğal olarak dağıtılmış ve çoğu zaman Bitcoin tarafından kullanılan kamu, dijital defter teknolojisidir (DLT). İşlemleri kaydetmek için kullanılan şifreli bloklar adı verilen sürekli büyüyen kayıt listesinden oluşur. Blockchain blokları, kronolojik bir düzen oluşturmak için bir zaman damgası ve işlem verileri, kriptografi algoritmaları kullanılarak bağlanır ve sabitlenir. Blockchain, Bitcoin gibi dijital para birimlerinin işlemlerini izlemek için açık kaynak işlemsel veritabanı kullanır. Parlak bir geleceğe sahip modern teknolojilerden biridir ve Blockchain geliştiricilerinin kriptografi, veri yapıları ve ağ gibi kavramları bilmesi gerekir.
 Blockchain teknolojisi **eşler arası işlemlere**  sağlar, böylece kullanıcılar doğrudan başka bir kişiye para gönderebilir. Bir blockchain platformu, kullanıcıların ve geliştiricilerin Ethereum gibi bir blockchain altyapısının yeni kullanımını oluşturmalarını sağlar. Canlı blockchain platformlarının sayısı her gün artıyor ve 2022'de blockchain'e dayanan 10.000'den fazla aktif kripto para birimi var.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Mevcut ve trend listemizin sonuna geldik. Bu dünya bu açık kaynak platformları ve teknolojileri olmadan çok farklı bir yer olacaktır. Bu ücretsiz teknolojiler için bazı kapalı kaynak alternatifleri mevcuttur. FOSS4G ve harita etkinlikleri, açık yazılımların ihtiyaçları hakkında daha fazla bilgi edinme fırsatlarıdır. Gelişen **OSS açık kaynaklı yazılım**  olmadan neredeyse her şey farklı olurdu. Açık kaynak girişim ve topluluklar için minnettar.
 _ En sevdiğiniz açık kaynak teknolojileri listesi nedir? Açık kaynak _technologies_?
 

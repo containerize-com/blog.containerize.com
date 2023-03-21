@@ -31,7 +31,7 @@ Penting juga untuk dicatat bahwa kompresi GZIP harus diaktifkan di server web An
 GZIP, metode kompresi paling populer, digunakan oleh server web dan browser untuk memampatkan dan mendekompres konten saat ditransmisikan melalui internet. Ini sebagian besar digunakan pada kode dan file teks, GZIP dapat mengurangi ukuran file JavaScript, CSS, dan HTML hingga 90%. Secara default, kompresi GZIP tidak memampatkan gambar atau video. Untuk itu, Anda harus mengoptimalkan gambar untuk web di situs WordPress Anda. Inilah sebabnya mengapa sebagian besar alat uji kecepatan situs web seperti Google PageSpeed ​​Insights sangat merekomendasikan memungkinkan kompresi GZIP.
 Ketika server web menerima permintaan untuk halaman web, server web memeriksa header permintaan untuk memeriksa apakah browser mendukung GZIP. Jika demikian, server menghasilkan markup untuk halaman sebelum menerapkan GZIP. GZIP mengubah markup HTML menjadi data terkompresi yang kemudian dikirim ke pengguna akhir. Ketika pengguna akhir menerima data terkompresi, browser mereka mendekompresnya.
 
-## **Bagaimana cara memverifikasi apakah kompresi gzip diaktifkan?**    {#verify}
+## **Bagaimana cara memverifikasi apakah kompresi gzip diaktifkan?** {#verify}
 Host web Anda mungkin mengaktifkan kompresi di WordPress secara default. Namun, ini tidak selalu terjadi. Anda dapat menentukan untuk melihat apakah Anda sudah mengaktifkan kompresi GZIP menggunakan Chrome 'DevTools.
 Buka situs Anda di browser chrome, lalu klik kanan di mana saja di halaman dan pilih **Periksa  **untuk **  Buka alat pengembang** .
 Selanjutnya, arahkan ke tab **jaringan  **dan klik URL utama situs web dari bagian "Nama". Pilih tab **  header **, lalu gulir ke bawah untuk menemukan header respons ****  Bagian:

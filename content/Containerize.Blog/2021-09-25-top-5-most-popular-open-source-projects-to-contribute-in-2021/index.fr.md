@@ -91,7 +91,7 @@ ANSIBLE Open Source **Outil d'automatisation  **et le logiciel gratuit est écri
 Python est un langage de script orienté objet utilisé pour créer des applications dans une intelligence artificielle, un apprentissage automatique, des applications de bureau, etc. La langue Python est maintenue par une organisation indépendante américaine établie comme 501 (c) (3) à but non lucratif, le **django Fondation du logiciel**  (DSF).
 **Les meilleures entreprises utilisant Django**  incluent Instagram, Spotify, National Geographic, Pinterest, MacArthur Foundation, Disqu, Bitbucket, Mozilla, Open Stack et plus encore.
 
-## **Conclusion:**    {# 4A1A}
+## **Conclusion:** {#4A1A}
 Les cinq projets logiciels open source mentionnés ci-dessus sont les plus populaires gratuits et les meilleurs logiciels open source pour les développeurs. Si vous explorez les bons projets open source pour les débutants pour la première fois, consultez le rapport d'État OctOverse et n'hésitez pas à ajouter et à contribuer. La liste des logiciels open source déverrouille les portes des innovateurs et des développeurs d'applications dans la création d'une carrière tout en leur permettant de travailler sur certaines des plus grandes plateformes du monde. Les meilleurs exemples de logiciels open source que nous avons énumérés ci-dessus ne sont que la preuve de la bénéfique pour les applications open source.
 _Les quels sont vos projets logiciels gratuits et open source préférés ?. Avez-vous des questions sur les projets open source?, S'il vous plaît_ [contacter][12].
 

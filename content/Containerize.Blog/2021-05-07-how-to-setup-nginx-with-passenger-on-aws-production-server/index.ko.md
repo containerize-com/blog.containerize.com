@@ -9,7 +9,7 @@ url: /ko/how-to-setup-nginx-with-passenger-on-aws-production-server/
 categories: ['Web Server Solution Stack']
 ---
 
-##이 블로그 게시물은 APT 방법에 따라 Ubuntu 20.04 LTS 운영 체제를 통해 승객과 함께 Nginx를 설치하기위한 단계에 대해 설명합니다.
+## 이 블로그 게시물은 APT 방법에 따라 Ubuntu 20.04 LTS 운영 체제를 통해 승객과 함께 Nginx를 설치하기위한 단계에 대해 설명합니다.
 
 {{< figure align=center src="images/Nginx-With-Passenger-on-AWS-Production-Server.png" alt="AWS 프로덕션 서버에서 승객으로 Nginx를 설정합니다">}}
 
@@ -65,7 +65,7 @@ http {
 $ sudo service nginx restart
 ```
 
-## 4. 설치 검증 :   {##Step-3 : -Check Installation}
+## 4. 설치 검증 :   {#Step-3 : -Check Installation}
 설치 후`sudo/usr/bin/confenger-config validate-install`를 실행하여 터미널의 설치를 확인하십시오.
 ```
 sudo /usr/bin/passenger-config validate-install

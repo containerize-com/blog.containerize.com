@@ -92,7 +92,7 @@ Docker Swarm Container Orkiestracja rozpoczyna się od kontenera i buduje się, 
 **Najpopularniejszymi narzędziami, które integrują się z Nomad** to Docker, Vault, Hashicorp Sentinel, Consul, Portworx, Humio i Gloo Edge.
 **Najlepsze firmy korzystające z Nomada** w swoich stosach technologicznych to płatki, Trivago, Wealthsimple, Edgelab, Fundametei, 5G Systems, Aislelabs, Botmetric, Taboola and Machete Inc.
 
-##  **Co to są narzędzia do zarządzania kontenerem typu open source?**    {#4a1a}
+##  **Co to są narzędzia do zarządzania kontenerem typu open source?** {#4a1a}
 Istnieje wiele zalet rozwiązań orkiestracji kontenerów nad maszynami wirtualnymi (VMS). Kontenery mają pojedyncze jądro systemu operacyjnego, uruchomić w ciągu kilku sekund zamiast minut wymaganych do uruchomienia maszyny wirtualnej (VM). Skalowanie i powielanie pojemników jest bardzo łatwe, mają mały rozmiar dysku i jest łatwy do dzielenia się.  **Platforma zarządzania kontenerami**  to aplikacja w chmurze, która zarządza wieloma kontenerami. Poniżej znajdują się najczęściej używane oprogramowanie do zarządzania kontenerami i listy orkiestratorów kontenerów, aby usprawnić określone aspekty zarządzania kontenerami.
   * **[rancher][12]** to platforma zarządzania najlepszym kontenerem typu open source do zarządzania kubernetes na skalę.
   * **[Apache Mesos][13]** jest serwisem klastra klastra open source nowej generacji i usługi orkiestracji kontenerów Apache.
@@ -101,7 +101,7 @@ Istnieje wiele zalet rozwiązań orkiestracji kontenerów nad maszynami wirtualn
   * **[Amazon Elastic Container Service (Amazon ECS)][16]** to usługa orkiestracji i zarządzania kontenerami AWS ECS, która obsługuje kontenery Docker do uruchamiania aplikacji w klastrze instancji Amazon EC2.
   * **[Amazon Elastic Kubernetes Service (Amazon Eks)][17]** to usługa orkiestracji kontenerowej AWS do uruchamiania aplikacji i infrastruktury zarządzania Kubernetes.
 
-##  **Wniosek:**    {#4a1a}
+##  **Wniosek:** {#4a1a}
 **W jaki sposób technologia orkiestracji Container działa dla Twojej firmy i aplikacji? **Wyżej wymienione pięć najlepszych narzędzi orkiestracji kontenerów Docker jest najpopularniejszym bezpłatnym i najlepszym oprogramowaniem DevOps open source. Jeśli musisz pamiętać tylko jedną kluczową informację, która pomoże Ci wybrać  **Kubernetes vs Docker Swarm **  vs Redhat ** OpenShift vs Compose**  vs Hashicorp Nomad, powinno być to, że każde rozwiązanie będzie miało pewne zalety i wady. Istnieją inne opcje platformy orkiestracji, które oferują różne funkcje orkiestracji serwisowej. Ostatecznie, jaka opcja, którą podejmujesz, zależy od skali, którą chcesz osiągnąć, i jaki ekosystem wolisz najbardziej wygodny. Aby uzyskać głębsze zanurzenie się w orkiestracji kontenerowej, odwiedzaj [Blog kontenerowy][18].
 _ Jakie są twoje ulubione najlepsze narzędzia orkiestracyjne? Czy masz jakieś pytania dotyczące listy wspomnianych powyżej orkiestratorów kontenerowych?, Proszę [skontaktuj się][19].
 

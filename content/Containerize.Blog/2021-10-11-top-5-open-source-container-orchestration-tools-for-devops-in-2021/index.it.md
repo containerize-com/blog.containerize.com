@@ -92,7 +92,7 @@ L'orchestrazione del contenitore Docker Swarm inizia dal contenitore e si basa, 
 **Gli strumenti più popolari che si integrano con Nomad** sono Docker, Vault, Hashicorp Sentinel, Console, Portworx, Humio e Gloo Edge.
 **Le migliori società che utilizzano nomadi** nei loro stack tecnologici sono Petal, Trivago, WealthSimple, Edgelab, FundmentEi, 5G Systems, Aislelabs, Botmetric, Taboola e Machete Inc.
 
-##  **Quali sono gli strumenti di gestione del contenitore open source?**    {#4a1a}
+##  **Quali sono gli strumenti di gestione del contenitore open source?** {#4a1a}
 Ci sono molti vantaggi delle soluzioni di orchestrazione del contenitore rispetto alle macchine virtuali (VM). I container condividono un singolo kernel del sistema operativo, avviato in pochi secondi anziché minuti necessari per avviare una macchina virtuale (VM). Il ridimensionamento e i contenitori duplicanti è molto semplice, hanno una dimensione del disco ridotta e sono semplici da condividere.  **Una piattaforma di gestione dei container**  è un'applicazione cloud che gestisce più contenitori. Di seguito sono riportati il ​​miglior software di gestione dei contenitori e gli orchestratori di contenitori più utilizzati per semplificare gli aspetti specifici della gestione dei contenitori.
   * **[Rancher][12]** è una migliore piattaforma di gestione dei container open source per gestire Kubernetes su scala.
   * **[Apache Mesos][13]** è un gestore cluster open source di prossima generazione e un servizio di orchestrazione del contenitore Apache.
@@ -101,7 +101,7 @@ Ci sono molti vantaggi delle soluzioni di orchestrazione del contenitore rispett
   * **[Amazon Elastic Container Service (Amazon ECS)][16]** è l'orchestrazione ECS AWS e il servizio di gestione dei container che supporta i contenitori Docker per eseguire applicazioni sul cluster di istanze Amazon EC2.
   * **[Amazon Elastic Kubernetes Service (Amazon EKS)][17]** è un servizio AWS di orchestrazione del contenitore per eseguire le applicazioni Kubernetes e l'infrastruttura di gestione.
 
-##  **Conclusione:**    {#4a1a}
+##  **Conclusione:** {#4a1a}
 **In che modo la tecnologia di orchestrazione del contenitore funziona per le tue applicazioni aziendali e software? **I cinque migliori strumenti di orchestrazione container Docker sono più popolari che sono più popolari e migliori software DevOps open source. Se devi ricordare solo un pezzo chiave di informazioni per aiutarti a scegliere  **Kubernetes vs Docker Swarm **  vs Redhat ** OpenShift vs compose**  vs Hashicorp Nomad, dovrebbe essere che ogni soluzione avrà alcuni vantaggi e svantaggi. Esistono altre opzioni di piattaforma di orchestrazione che offrono diverse funzionalità sull'orchestrazione del servizio. In definitiva, quale opzione prendi dipende dalla scala che desideri ottenere e in quale ecosistema preferisci più a tuo agio. Per un tuffo più profondo nell'orchestrazione del contenitore, continua a visitare [Blog di containerize][18].
 _ Quali sono i tuoi migliori strumenti di orchestrazione del contenitore preferiti?. Hai domande sull'elenco degli orchestratori di container sopra menzionati?, Per favore_ [mettiti in contatto][19].
 

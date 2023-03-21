@@ -22,11 +22,11 @@ Nous couvrirons les sujets suivants dans ce guide JavaScript:
   * **[niveaux de Dom][3]**
   * **[Quelles sont les propriétés DOM et comment y accéder?][4]**
 
-## Qu'est-ce que le modèle d'objet de document (DOM)?   {# What-is-Document-Object-Model}
+## Qu'est-ce que le modèle d'objet de document (DOM)?   {#What-is-Document-Object-Model}
 Dom représente?**Document Object Model (DOM)**est la représentation d'une page Web dans un navigateur Web. Simplement, la représentation hiérarchique des éléments d'un document HTML dans un navigateur est connue sous le nom de modèle d'objet de document. Il est formé dans une forme d'arbre qui est réellement générée par le navigateur Web. Il se compose de divers nœuds connectés les uns aux autres en formant une forme d'arbre. De plus, les éléments DOM ont des attributs et des événements qui leur sont attachés.
 En fait, DOM est une interface de programmation qui formule la structure logique d'une page Web et explique la voie à accéder aux éléments de la page. Fondamentalement, JavaScript ne reconnaît pas les balises HTML telles que le titre, H1 et etc.
 
-## niveaux DOM   {# DOM-levels}
+## niveaux DOM   {#DOM-levels}
 Cette section démontrera les différents niveaux de DOM. Tout d'abord, il y a un objet de fenêtre dans un navigateur qui est toujours en haut, puis il y a un nœud de document. Jetons un coup d'œil à l'image ci-dessous:
 
 {{< figure align=center src="images/DOM.png" alt="Niveaux DOM">}}

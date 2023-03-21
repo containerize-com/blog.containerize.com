@@ -146,7 +146,7 @@ Em seguida, digite seu nome de usuário e senha para o administrador. Em seguida
 
 Sim! Está feito. Agora você sabe como instalar completamente a sincronização de arquivos Pydo Host Hosted e o software de compartilhamento de arquivos de código aberto no Ubuntu para criar uma nuvem privada passo a passo semelhante ao Dropbox ou Google Drive.
 
-## **Conclusão:**    {#4A1A}
+## **Conclusão:** {#4A1A}
 Neste tutorial, você instalou com sucesso o compartilhamento de arquivos seguros de código aberto do Pydo Cells no seu sistema Ubuntu. Você pode usar este artigo para criar uma infraestrutura em nuvem para armazenar, proteger e compartilhar seus arquivos na nuvem auto-hospedada. Use o compartilhamento de documentos colaborativos do Pydo e o melhor aplicativo gratuito de compartilhamento de arquivos para obter mais controle de seus dados e garantir uma colaboração eficiente em sua organização de negócios. Em nossos próximos tutoriais, discutiremos tópicos mais interessantes de soluções de armazenamento em nuvem de código aberto e ferramentas de colaboração de compartilhamento de arquivos.
 Você pode se juntar a nós no [Twitter][1], [LinkedIn][2] e nossa página [Facebook][3]. Qual plataforma de compartilhamento de código Open _File _File você usa on-line?. Se você tiver alguma dúvida, por favor [entre em contato][4].
 

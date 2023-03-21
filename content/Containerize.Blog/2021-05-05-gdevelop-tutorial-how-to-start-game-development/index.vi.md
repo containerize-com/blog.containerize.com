@@ -21,12 +21,12 @@ Các động cơ trò chơi miễn phí này **không chỉ giúp cung cấp cá
   * **[Cách thiết lập trên localhost?][2]**
   * **[Kết luận][3]**
 
-##  **GDevelop là gì.**    {#Intro}
+##  **GDevelop là gì.** {#Intro}
 GDevelop là một phần mềm phát triển trò chơi video nguồn mở miễn phí. Nó được tự lưu trữ và cung cấp các tính năng phong phú để phát triển các trò chơi 2D. Tuy nhiên, có hỗ trợ có sẵn cho các đối tượng 3D. Người dùng không cần bất kỳ loại kỹ năng lập trình nào để phát triển và xuất bản trò chơi cho nhiều nền tảng. Nó rất có thể mở rộng và dễ dàng để thiết lập vì nó đòi hỏi các yêu cầu dễ dàng để tự lưu trữ công cụ trò chơi miễn phí này. Có một giao diện người dùng trực quan với khả năng kéo và thả. Công cụ miễn phí này cung cấp hình ảnh động cao cấp, hiệu ứng video/âm thanh, màn hình cảm ứng và nhiều cảm ứng, xem trước trực tiếp và nhiều hơn nữa. Hơn nữa, nhà thiết kế trò chơi 3D  **này**  đưa ra các tính năng tạo mẫu mạnh mẽ giúp các nhà phát triển phát triển một sản phẩm tốt dựa trên nguyên mẫu.
 Hơn nữa, Nguồn mở  **Nhà sản xuất trò chơi dễ dàng**  có thể cấu hình cao và hỗ trợ tích hợp với các thư viện của bên thứ ba. Trên hết, nó cung cấp hỗ trợ cho Xbox và PlayStation là máy chơi game video phổ biến. GDevelop được viết bằng C ++, JavaScript và TypeScript. Có tài liệu chi tiết có sẵn liên quan đến triển khai và phát triển. GDevelop có một cộng đồng các nhà phát triển rất sôi động, tích cực trả lời các lỗi và truy vấn. Do đó, tất cả các mã nguồn có sẵn tại [GitHub][4].
 [Tìm hiểu thêm về GDevelop][5]
 
-##  **Cách thiết lập trên localhost?**    {#setup}
+##  **Cách thiết lập trên localhost?** {#setup}
 Trong phần hướng dẫn  **GDevelop này** , chúng ta sẽ xem làm thế nào chúng ta có thể thiết lập GDevelop trên hệ thống địa phương của mình. Trước khi chuyển sang các bước tiếp theo, hãy đảm bảo bạn đã cài đặt các điều kiện tiên quyết sau.
   * Git
   * Node.js 12.x
@@ -67,7 +67,7 @@ Bạn có thể chọn bất kỳ trò chơi nào làm khởi động như trong
 
 Bằng cách này, bạn có thể khám phá và thử các tính năng tiếp theo. Nhà sản xuất trò chơi  **dễ dàng này**  thân thiện với nhà phát triển và cung cấp một bảng điều khiển trực quan. Khi bạn đã hoàn thành việc phát triển trò chơi của mình, bạn có thể xuất nó cho các nền tảng khác nhau như Android, iOS và Web.
 
-##  **Kết luận**    {#conclusion}
+##  **Kết luận** {#conclusion}
 Điều này mang lại một kết thúc cho hướng dẫn GDevelop này. Động cơ trò chơi miễn phí **này cho phép bạn thực hiện logic của các trò chơi bằng các sự kiện trực quan. Nó có một cộng đồng rất hỗ trợ đã thực hiện nhiều hướng dẫn hữu ích và hướng dẫn sử dụng. Bài đăng trên blog này sẽ thực sự giúp bạn nếu bạn là người mới trong thế giới phát triển trò chơi. Có nhiều nhà thiết kế trò chơi ** 3D khác** , các công cụ phát triển trò chơi và các bài viết được đề cập trong phần khám phá dưới đây. Tất cả các công cụ trò chơi này là miễn phí, nguồn mở và đưa ra khả năng tự lưu trữ. Do đó, ngành phát triển trò chơi đang mở rộng vô cùng với sự gia tăng số lượng game thủ. Có những trò chơi video với đồ họa độ phân giải cao và hiệu ứng âm thanh kích hoạt sự quan tâm và thu hút trong các game thủ. Tuy nhiên, hãy chọn một phần mềm phát triển trò chơi được công bố tốt mang lại chất lượng và hiệu quả cho công việc của bạn.
 Cuối cùng, containerize.com đã được thiết lập để tăng cường cơ sở hướng dẫn của mình với một số hướng dẫn phát triển trò chơi thú vị hơn. Vui lòng duy trì kết nối với danh mục [phần mềm phát triển trò chơi][6] này tại [containerize.com][7] để cập nhật thường xuyên.
 

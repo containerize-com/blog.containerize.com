@@ -92,7 +92,7 @@ Bu değişiklikleri yürürlüğe koymak için, aşağıdaki komutu çalıştır
 sudo systemctl yeniden başlatma apache2.service
 Tebrikler! Linux sisteminize Apache2 Ters Proxy'yi başarıyla yüklediniz ve yapılandırdınız.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Bu öğreticide, bir proxy sunucusu ve Apache ters proxy örnek konfigürasyonunun adım adım ne olduğunu araştırdık ve tartıştık. Ayrıca APACHE2'nin bir Linux sisteminde ters proxy olarak nasıl kurulacağını ve yapılandırılacağını öğrendik. Yaklaşan öğreticilerimizde, Apache ve diğer web sunucusu çözüm yığınları hakkında daha ilginç konuları tartışacağız.
 
 ## Keşfetmek

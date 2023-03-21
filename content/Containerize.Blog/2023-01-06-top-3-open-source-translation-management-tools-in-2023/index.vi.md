@@ -27,7 +27,7 @@ Các công cụ quản lý dịch thuật sau đây sẽ được đề cập tr
 Nếu bạn đang muốn thử, bạn có thể tìm thấy mã của nó trên repo [GitHub][7] với tất cả các hướng dẫn cài đặt được đề cập. Hệ thống quản lý dịch miễn phí này có khả năng quản lý nhiều tệp dịch. Hơn nữa, bạn có thể xây dựng các bộ điều hợp tùy chỉnh và thực hiện nhiều tùy chỉnh khác để đáp ứng nhu cầu kinh doanh của bạn. Về cơ bản, nó thực hiện tất cả các quy trình bằng phân tích tĩnh nơi nó cung cấp một bảng điều khiển tương tác cho người dùng. Hơn nữa, TMS nguồn mở này cung cấp các tích hợp với các bản dịch DEEPL và Google.
 **[Tìm hiểu thêm về nhiệm vụ i18n][5]**
 
-## **tolgee**    {#tolgee}
+## **tolgee** {#tolgee}
 [Tolgee][8] là một hệ thống quản lý dịch mã cấp độ doanh nghiệp **. ** Nó đi kèm với các khả năng tự lưu trữ với một loạt các tính năng phong phú. TMS này được viết bằng Kotlin, và TypeScript và cung cấp các tích hợp với hầu hết tất cả các khung JavaScript phổ biến như Next.js, Angular, Vue, v.v. Ngoài ra, TMS miễn phí này có tất cả các mã nguồn có sẵn trên [GitHub][9] với tài liệu toàn diện về phát triển và triển khai.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="Hệ thống quản lý dịch thuật">}}
@@ -42,7 +42,7 @@ Sau đây là các tính năng nổi bật của TMS miễn phí này:
 . **Hợp tác** : Đây là một điều khoản nổi bật khác trong đó các bên liên quan khác nhau có thể hợp tác và xem xét, công việc được thực hiện bởi những người khác
 [**Tìm hiểu thêm về Tolgee** ][8]
 
-## **Traduora**    {#traduora}
+## **Traduora** {#traduora}
 [Traduora][13] là một phần mềm nguồn mở khác để tự động hóa quy trình dịch thuật. TMS miễn phí này cũng được viết bằng TypeScript cùng với đầu vào từ các ngôn ngữ khác như HTML, JavaScript, CSS và các ngôn ngữ khác. Hơn nữa, bạn có thể tự lưu trữ nó vì có đầy đủ tài liệu có sẵn trên GitHub về sự phát triển và triển khai của nó. Hơn nữa, có một hình ảnh docker có sẵn phần mềm quản lý dịch mã nguồn mở này mà bạn thiết lập phần mềm này bằng cách quay bộ container Docker.
 Trên hết, Traduora đã phơi bày API REST để tích hợp với các ứng dụng của bên thứ ba. Có một triển khai hoàn chỉnh về xác thực trong TMS miễn phí này.
 Traduora đưa ra các tính năng chính sau:

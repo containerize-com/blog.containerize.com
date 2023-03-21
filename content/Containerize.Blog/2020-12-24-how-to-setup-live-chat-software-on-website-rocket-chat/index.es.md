@@ -59,7 +59,7 @@ Y luego configure la apariencia del widget de chat en vivo
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="rocket.chat widget livechat">}}
 
 
-## **Instale el widget de chat en vivo en su sitio web**    {#Widget}
+## **Instale el widget de chat en vivo en su sitio web** {#Widget}
 En esta sección, instalaremos widgets de chat en vivo en el sitio web de negocios. Ahora, para acceder a **Instalación de Livechat**  Configuración:
 Vaya a **Instalación de Livechat**  en la configuración del panel omnicanal, como se muestra a continuación, y copie la pieza de código dada.
 

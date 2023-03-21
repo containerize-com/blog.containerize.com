@@ -59,7 +59,7 @@ Ve sonra canlı sohbet widget’ının görünümünü ve hissini yapılandırı
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat Livechat Widget">}}
 
 
-## **Web sitenize canlı sohbet widget'ı yükleyin**    {#widget}
+## **Web sitenize canlı sohbet widget'ı yükleyin** {#widget}
 Bu bölümde, işletme web sitesine canlı sohbet widget'ları yükleyeceğiz. Şimdi, **LiveChat kurulumuna erişmek için**  Ayarlar:
 Aşağıda gösterildiği gibi çok kanallı panel ayarlarında **livechat kurulum**  adresine gidin ve verilen kod parçasını kopyalayın.
 

@@ -40,7 +40,7 @@ Prototip geliştirildikten sonra, bir sonraki aşama bu prototipi istemciye sunm
 **Sürekli Gelişim ve Test** 
 Bu aşamada, RAD ekipleri sürekli geliştirme ve test döngüleri yapma eğilimindedir. Bu aşama, her şeyin doğru yönde olmasını ve müşterinin ihtiyaçlarıyla uyumlu olmasını sağlar. Buna ek olarak, geliştiriciler en son özellikler ve belgelerle ürünün yeni özellikleri ve yayın sürümleri geliştirmeye devam ediyor.
 
-## B **RAD yazılımının enefitleri?**    {#benefits}
+## B **RAD yazılımının enefitleri?** {#benefits}
 Hızlı uygulama yazılımını benimseyerek elde edebileceğimiz faydalar nelerdir.
   ***Esneklik**  - Açık kaynaklı rad platformu, herhangi bir değişikliği herhangi bir aşamaya dahil edecek kadar esnektir.
   ***Hız**  - RAD Tools, geliştiricilerin teslimatları zamanında yapmak için geliştirme ve dağıtım süreçlerini hızlandırmalarına yardımcı olur.
@@ -50,7 +50,7 @@ Hızlı uygulama yazılımını benimseyerek elde edebileceğimiz faydalar neler
   ***Anında Düzeltme**  - Aslında, hata düzeltme üzerinde çalışan prodüksiyon destek ekipleri var. Bununla birlikte, bu modelde, bir Mishandeling bulunduğunda, geliştiriciler bunları daha hızlı bir şekilde düzeltir.
   ***Son Teknolojiler**  - Geliştirme ekiplerinin en son araçları ve teknolojileri herhangi bir aşamada benimseyip test edebileceği RAD modelinin büyük bir avantajıdır.
 
-## **Sonuç**    {#Conclusion}
+## **Sonuç** {#Conclusion}
 İşte bu öğreticinin sonu geliyor. Şelale modeli, spiral modeli, V şeklinde model, çevik model ve biraz daha fazlası gibi birçok yazılım geliştirme modeli vardır. Bu nedenle, herhangi bir modelin benimsenmesi kullanım durumlarınıza ve yazılımın doğasına bağlıdır. Bu nedenle, işletmeniz için RAD modelini benimsemek istiyorsanız, bu blog yazısı size gerçekten yardımcı olacaktır. Platformdan bağımsız olarak, geliştirme araçlarıyla platformlar arası özellikler sunan birkaç açık kaynaklı hızlı uygulama geliştirme yazılımı vardır. Aşağıdaki 'Keşfet' bölümünde RAD metodolojilerini takip eden başka hızlı prototipleme yazılımı da vardır. Bu, üretime hazır iş yazılımı geliştirmek için bu uygun maliyetli ve sağlam yaklaşımı benimsemenin zamanıdır.
 Sonunda, [Containerize.com][9] açık kaynak [RAD yazılımı][1] tanıtım sürecindedir. Düzenli güncellemeler için lütfen bu [Hızlı Uygulama Geliştirme][1] kategorisini takip edin. Ayrıca, aşağıda Explore bölümünde listelenen yazılım açık kaynak, ücretsiz ve kendi kendine barındırılmıştır. Tüm bu **kaynak kod üreticileri** , geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir.
 

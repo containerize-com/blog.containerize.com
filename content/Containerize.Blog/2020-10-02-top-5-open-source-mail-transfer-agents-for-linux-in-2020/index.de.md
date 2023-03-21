@@ -22,7 +22,7 @@ Hier finden Sie eine Liste der Top 5 Open -Source -Mail -Transferagenten, die un
   * [Postfix][5]
   * [Exim][6]
 
-### **Postal**    {#Postal}
+### **Postal** {#Postal}
 Postal ist eine vollständige Alternative zu Sendgrid und Mailgun. Es wird mit einer einfachen HTTP -API für eine einfache Integration in Web -Apps geliefert. Postal ist 100% kostenlos und Open Source. Sie können den Quellcode herunterladen, den Sie gemäß Ihren Anforderungen ändern.
 Es sind bemerkenswerte Merkmale unter anderem wie folgt:
   * Unterstützung für mehrere Organisationen mit Mail -Servern und Benutzern innerhalb.
@@ -32,7 +32,7 @@ Es sind bemerkenswerte Merkmale unter anderem wie folgt:
   * Integrierte DNS-Überprüfung und -überwachung, um sicherzustellen, dass Domänen, von denen Sie die E-Mails senden, für die maximale Lieferbarkeit korrekt konfiguriert sind.
     [Lesen Sie mehr][7]
 
-### **Tintefish**    {#cuttlefish}
+### **Tintefish** {#cuttlefish}
 Tintenfisch ist eine selbst gehostete Mail -Liefersoftware und wird häufig verwendet, um große Mengen von E -Mails problemlos zu senden. Es unterstützt das SMTP -Protokoll. Ermöglichen Sie folglich, dass Sie E -Mails von Ihrer Bewerbung ohne Aufwand senden können. Tintefish verwendet Postfix für die E -Mail -Zustellung, die einer der beliebtesten und zuverlässigsten Open -Source -Mail -Transferagenten ist. Daher hat es die gesamte Zuverlässigkeit von Postfix.
 Hier sind die bemerkenswerten Funktionen:
   * Stellt sicher, dass Ihre E -Mails zu ihren Zielen kommen.
@@ -42,7 +42,7 @@ Hier sind die bemerkenswerten Funktionen:
   * Arbeitet mit jedem Web -Framework und jeder Sprache
     [Lesen Sie mehr][8]
 
-### **Mail-in-a-Box**    {#mail-in-a-Box}
+### **Mail-in-a-Box** {#mail-in-a-Box}
 Mail-in-a-Box ist ein innovativer Linux-Mailserver, der sich auf eine einfache Bereitstellung konzentriert. Es bietet praktische Webmail- und IMAP/SMTP -Server mit automatischen DNS -Konfigurationen. Es hilft Ihnen, Ihr eigenes Google Mail ohne technisches Fachwissen einzurichten. Zu den Top -Funktionen gehören:
   * Automatische DNS -Konfiguration
   * Spamfilterung.
@@ -52,7 +52,7 @@ Mail-in-a-Box ist ein innovativer Linux-Mailserver, der sich auf eine einfache B
   * Host -Mail für mehrere Benutzer und mehrere Domainnamen.
     [Lesen Sie mehr][9]
 
-### **postfix**    {#Postfix}
+### **postfix** {#Postfix}
 Postfix ist ein leistungsstarker Open -Source -Mail -Server, der zum Routing und der Lieferung von E -Mails verwendet werden kann. Es wurde jedoch ursprünglich entwickelt, um den beliebten Postübertragungsagenten Sendmail zu ersetzen. Auch wenn Sendmail viel folgt. In der Implementierung ist es jedoch sehr unterschiedlich und einzigartig. Es bietet viele Funktionen, einschließlich
   * Junk -Mail -Kontrolle
   * Unterstützt mehrere Protokolle
@@ -61,7 +61,7 @@ Postfix ist ein leistungsstarker Open -Source -Mail -Server, der zum Routing und
   * Ansprechen von Manipulationsunterstützung und vielem mehr
     [Lesen Sie mehr][10]
 
-### **exim**    {#exim}
+### **exim** {#exim}
 EXIM ist ein kompletter Mailserver, der auf vielen Unix-ähnlichen Betriebssystemen verwendet wird. Es bietet Cross -Plattform -Support, was es zu einer guten Wahl für Mail -Server macht. EXIM ist ein sehr anpassbarer Server für E -Mail -Routing und -zustellung. EXIM ist wie ein Framework mit seiner Anwendungssprache, um komplexe Konfigurationen einzurichten. Es verfügt über eine erweiterte Multi-Step-E-Mail-Verarbeitungslogik, mit der komplexe Anwendungsfälle gelöst werden können. Hier sind die Top -Funktionen von Exim:
   * Unterstützt Protokolle wie RFC 2821 SMTP und RFC 2033 LMTP -E -Mail -Nachrichtentransport
   * Konfigurationen umfassen Access Control -Listen, Inhalts -Scannen, Verschlüsselung und Routing -Steuerelemente unter anderem

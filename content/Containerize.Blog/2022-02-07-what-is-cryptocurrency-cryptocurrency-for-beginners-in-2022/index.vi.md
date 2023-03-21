@@ -56,7 +56,7 @@ Khi nói đến đầu tư, chúng tôi luôn khuyên bạn nên xây dựng m�
 Làm thế nào để bạn lưu trữ tiền điện tử? Bạn có thể lưu trữ tiền điện tử trực tuyến hoặc ngoại tuyến. Cách phổ biến nhất để lưu trữ tiền điện tử là trực tuyến trong một cuộc trao đổi tiền điện tử hoặc ví. Trao đổi tiền điện tử và ví cho phép bạn lưu trữ an toàn, gửi, nhận và chuyển đổi tiền điện tử bằng máy tính, máy tính bảng hoặc điện thoại thông minh của bạn.
 Mua tiền điện tử ở đâu? Bạn có thể mua tiền điện tử từ một cuộc trao đổi tiền điện tử. Dưới đây, chúng tôi đã tổng hợp một danh sách một số ứng dụng và trao đổi tốt nhất để mua tiền điện tử ở Anh. Xin nhớ rằng các loại tiền điện tử là một sản phẩm đầu tư không biến đổi rất dễ bay hơi mà không có bảo vệ nhà đầu tư của Vương quốc Anh hoặc EU. Bạn có thể mất tất cả số tiền bạn đặt trong đó.
 
-##  **Kết luận:**    {#4A1A}
+##  **Kết luận:** {#4A1A}
 Hy vọng rằng, bạn đã học được rất nhiều và bây giờ bạn có nhiều thông tin và hiểu biết về giao dịch và đầu tư tiền điện tử hơn bạn lúc đầu. Bây giờ đến lượt bạn. Chúng tôi rất thích nghiên cứu và viết hướng dẫn với bạn trong tâm trí. Chúc may mắn!
 _ Các dự án nguồn mở tiền điện tử yêu thích của bạn là gì ?. Bạn có bất kỳ câu hỏi nào về loại tiền kỹ thuật số là gì ?, Please_ [Hãy liên lạc][1].
 

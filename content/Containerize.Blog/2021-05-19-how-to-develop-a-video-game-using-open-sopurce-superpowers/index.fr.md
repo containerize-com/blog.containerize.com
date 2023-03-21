@@ -80,7 +80,7 @@ De plus, il y a une barre de réglage sur le côté gauche où vous pouvez défi
 
 De même, après avoir parcouru cet article de jeu, vous pouvez l'explorer davantage et utiliser toutes les fonctionnalités. De plus, vous pourrez comprendre comment aller de l'avant à l'aide de SuperPowers Video Game Builder. Il existe un support en ligne disponible pour ce logiciel de développement de jeux.
 
-## **Conclusion**    {#conclusion}
+## **Conclusion** {#conclusion}
 Cela met fin à ce guide de développement de jeux HTML5. J'espère que ce billet de blog vous aidera si vous souhaitez commencer le développement de jeux vidéo. Nous avons exploré ce qui est des superpuissances, comment développer un jeu vidéo, qui est un constructeur de jeux 3D open source et nous avons également suivi sa procédure d'installation sur LocalHost. Il existe de nombreuses applications de conception de jeux vidéo open source ** qui permettent aux utilisateurs de construire des jeux à partir de zéro. Les programmeurs de jeux vidéo utilisent des principes de conception de jeux essentiels pour construire des jeux de haute qualité. Vous en apprendrez plus sur la construction de jeux 2D et 3D dans nos prochains articles sur [Blog.Containerize.com][8]. Il existe d'autres constructeurs de jeux 3D auto-hébergés et des articles pertinents mentionnés dans la section «Explorer» ci-dessous.
 Enfin, Containerize.com écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [développement de jeux vidéo][9][][10] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][11], [LinkedIn][12] et [Twitter][13].
 

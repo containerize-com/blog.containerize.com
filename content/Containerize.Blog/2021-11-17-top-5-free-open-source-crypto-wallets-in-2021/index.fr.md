@@ -43,7 +43,7 @@ Copay a les caractéristiques clés suivantes:
   * Très sécurisé
 **[En savoir plus sur Copay][11]** 
 
-## **Breadwallet**    {#Beadwallet}
+## **Breadwallet** {#Beadwallet}
 **[Breadwallet][12]  **est une autre option populaire parmi les portefeuilles crypto open source **  **. Ce portefeuille numérique open source est facile à utiliser et fournit des connexions directes avec le réseau blockchain pour des transactions rapides et rapides. De plus, ce  **logiciel de portefeuille gratuit**   est développé par la Bread Company et est disponible pour les plates-formes mobiles. De plus, il offre une interface utilisateur logique et facile où les utilisateurs peuvent naviguer facilement. Breadwallet offre de nombreuses fonctionnalités puissantes telles que les transactions anonymes, la prise en charge de plusieurs langues et bien d'autres. De plus, les utilisateurs n'ont pas besoin de s'inscrire pour utiliser ce portefeuille de crypto open source.
 Breadwallet offre les caractéristiques importantes suivantes:
   * Widgets personnalisables

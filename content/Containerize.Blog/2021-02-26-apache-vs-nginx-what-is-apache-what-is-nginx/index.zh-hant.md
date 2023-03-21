@@ -23,10 +23,10 @@ categories: ['Web Server Solution Stack']
   * [結論][5]
   * [探索][6]
 
-##什麼是Apache？   {#whatisapache}
+## 什麼是Apache？   {#whatisapache}
 Apache Web服務器是Internet上最受歡迎的服務器之一，為27％的網站提供服務。 Apache主要是開發人員的首選，因為其靈活性，功率以及廣泛的支持和詳細的文檔。它支持動態加載的模塊，使開發人員可以輕鬆擴展其功能。
 
-##什麼是nginx？   {#whatisnginx}
+## 什麼是nginx？   {#whatisnginx}
 本文是關於Apache vs nginx比較的。這兩個Web服務器都是開源，可配置的，並且可以處理世界上一半以上的互聯網流量。
 
 ## apache vs nginx比較 {#apachevsnginx}
@@ -53,11 +53,11 @@ Apache提供了開發人員使用稱為.htaccess的文件在目錄級別設置�
 ## nginx比Apache好嗎？   {#nginx}
 對於服務靜態內容而言，NGINX比Apache快。因此，如果您的Web應用程序提供了很多靜態內容，那麼是的Nginx比Apache更好，更快。就動態內容而言，兩個網絡服務器幾乎都提供相同的性能，因此這裡沒有明確的贏家。 Apache和Nginx幾乎在所有操作系統上都運行，但是與Apache相比，NGINX在Windows上的性能不佳。如果您的操作系統是一個類似於Unix的系統，並且您的Web應用程序至關重要，那麼NGINX比Apache更好。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 Apache和Nginx都有自己的方式。我們已經討論了Apache與Nginx比較，什麼是Apache，什麼是Nginx以及Apache和Nginx之間的差異。從這兩個最受歡迎的Web服務器中選擇一個完全取決於您的Web應用程序的要求。選擇取決於您對Web服務器的性能，資源利用，速度，可擴展性和支持的期望。兩者都有自己的利益。沒有一種適合所有Web服務器的尺寸，因此請使用最適合您的目標和期望的解決方案。
 最後，[Containerize.com][7]不斷地撰寫有關進一步開源產品和主題的博客文章。因此，請與常規更新的[開源Web服務器][8]類別保持聯繫。此外，您可以在我們的社交媒體帳戶[Facebook][9]，[LinkedIn][10]和[Twitter][11]上關注我們。
 
-##探索 {#Explore}
+## 探索 {#Explore}
 您可能會發現以下鏈接相關：
   * [2021年的前5個開源Web服務器解決方案堆棧][12]
   * [設置XAMPP和PHPMYADMIN作為Windows上的Localhost][13]

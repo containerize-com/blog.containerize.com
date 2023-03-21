@@ -21,7 +21,7 @@ Di masa lalu, kami menerbitkan posting blog tentang beberapa topik terkait block
   ***[Cara Memulai Jaringan?][7]** 
   ***[Kesimpulan][8]** 
 
-## **Pengenalan singkat dari Consensys Quorum**    {#introduction}
+## **Pengenalan singkat dari Consensys Quorum** {#introduction}
 [Consensys Quorum][9] adalah platform open source berdasarkan **teknologi buku besar yang terdesentralisasi **. Namun, ini menyediakan lingkungan yang sepenuhnya ramah pengembang untuk membangun aplikasi berbasis blockchain yang menangani transaksi cepat dan throughput tinggi. Ini adalah  **Ethereum **  berbasis, dapat diperluas, dan menawarkan banyak plugin. Selain itu, sistem terdistribusi open source ini hadir dengan standar keamanan dan privasi yang tinggi. Selain itu, ada banyak fitur kuat seperti API dan pemantauan izin. Selanjutnya, platform  **DLT**   ini diselenggarakan sendiri dan memberikan dokumentasi terperinci mengenai pengembangan dan penyebaran. Kode sumber perangkat lunak gratis ini tersedia di [GitHub][10].
 Consensys Quorum menawarkan fitur -fitur penting berikut:
   * Arsitektur pluggable
@@ -31,7 +31,7 @@ Consensys Quorum menawarkan fitur -fitur penting berikut:
   * Jaringan publik/pribadi
 [Pelajari lebih lanjut tentang Consensys Quorum][11]
 
-## ****Apa itu Prosedur Prasyarat dan Instalasi? ****    {#Pra-Persyaratan}
+## ****Apa itu Prosedur Prasyarat dan Instalasi? **** {#Pra-Persyaratan}
 Di bagian ini, kami akan menginstal dependensi yang diperlukan dan mengatur lingkungan setempat. Sebelum pergi ke langkah berikutnya, pastikan Anda telah menginstal prasyarat berikut:
   * NodeJS V10+
   * Docker
@@ -45,7 +45,7 @@ Namun, jawab pertanyaan untuk menyelesaikan instalasi seperti yang ditunjukkan p
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="Consensys Quorum">}}
 
 
-## ****Bagaimana cara memulai jaringan? ****    {#start}
+## ****Bagaimana cara memulai jaringan? **** {#start}
 Sekarang, kami memiliki kode sumber di tempat. Jadi, langkah selanjutnya adalah membuat jaringan langsung.
 Jalankan perintah berikut untuk masuk ke direktori root.
 ```

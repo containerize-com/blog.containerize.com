@@ -22,7 +22,7 @@ Do đó, hãy đưa ra quyết định khôn ngoan và áp dụng phần mềm h
   * **[So sánh Synfig & **Bút chì2D **][12]** 
   * **[Kết luận][13]**
 
-##  **Cách sử dụng Synfig?**    {#Review}
+##  **Cách sử dụng Synfig?** {#Review}
 Synfig là một bộ hoạt hình 2D dựa trên vector nguồn mở. Nó là nền tảng chéo và cung cấp hỗ trợ cho hầu hết các nền tảng phổ biến như Windows, Linux và MacOS. Hơn nữa, thật dễ dàng để triển khai và đi kèm với khả năng tự lưu trữ. Nó không chỉ cung cấp khả năng hoạt hình 2D mà còn cung cấp hỗ trợ 3D. Nó sử dụng hệ thống hoạt hình tween tweenless của Google để làm cho quá trình hoạt hình trở nên mạnh mẽ. Ngoài ra, nó hiệu quả về chi phí, tiết kiệm thời gian và cung cấp các điều khiển nâng cao cho người dùng. Tương tự, các nhà làm phim hoạt hình có thể xây dựng các ký tự nâng cao và cấu trúc động. Tất cả mã nguồn của phần mềm hoạt hình 2D đơn giản miễn phí này** có sẵn trên [GitHub][14]. Do đó, người dùng có thể đi qua tất cả các tài liệu liên quan đến việc triển khai và phát triển.
 
 ## Làm thế nào để sử dụng Pencil2D?   {#bút chì}

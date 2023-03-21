@@ -56,7 +56,7 @@ Inwestowanie w kryptowalutę jest dość proste, ponieważ największym wyzwanie
 Jak przechowujesz kryptowalutę? Możesz przechowywać swoją kryptowalutę online lub offline. Najpopularniejszym sposobem przechowywania kryptowaluty jest online w giełdzie kryptograficznej lub portfelu. Wymiana kryptowalut i portfele umożliwiają bezpieczne przechowywanie, wysyłanie, odbieranie i konwertowanie kryptowalut za pomocą komputera, tabletu lub smartfona.
 Gdzie kupić kryptowalutę? Możesz kupić kryptowalutę od wymiany kryptograficznej. Poniżej opracowaliśmy listę jednych z najlepszych aplikacji i giełd na zakup kryptowaluty w Wielkiej Brytanii. Pamiętaj, że oceny kryptowale są wysoce niestabilnym nieuregulowanym produktem inwestycyjnym bez ochrony inwestorów w Wielkiej Brytanii lub UE. Możesz stracić wszystkie pieniądze, które w nich włożyłeś.
 
-##  **Wniosek:**    {#4a1a}
+##  **Wniosek:** {#4a1a}
 Mamy nadzieję, że wiele się nauczyłeś, a teraz jesteś bardziej poinformowany i wiedzący na temat handlu kryptowalutami i inwestowaniem niż na początku. Teraz twoja kolej. Lubiliśmy badać i pisać na uwadze przewodnik. Powodzenia!
 _ Jakie są Twoje ulubione projekty typu open source kryptowaluty?. Czy masz jakieś pytania dotyczące waluty cyfrowej?, Proszę_ [skontaktuj się][1].
 

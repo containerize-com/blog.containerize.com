@@ -36,7 +36,7 @@ I metodi di autenticazione non sono limitati a due fattori. Molte app e servizi 
 Può controllare l'indirizzo IP di un utente, la geo-locazione e le informazioni sul dispositivo nell'aggiunta di altri fattori come una password e OTP per verificare l'identità dell'utente.
 Pertanto, possiamo dire che il 2FA è un sottoinsieme di MFA. In 2FA ci saranno solo due fattori mentre il multi-fattore può utilizzare due o più fattori. L'MFA rende difficile per gli hacker in quanto aggiunge più livelli di sicurezza nel tradizionale processo di autenticazione.
 
-## Ci sono degli svantaggi usando 2FA?   {## MFA-CONS}
+## Ci sono degli svantaggi usando 2FA?   {#MFA-CONS}
 Simile a molte soluzioni di "sicurezza e privacy" che esistono nelle app moderne. Viene inoltre con un prezzo - inconveniente, in quanto è coinvolto un ulteriore passo che può causare attrito nell'esperienza dell'utente.
 Tuttavia, viene adottato da molte app e servizi, quindi questo compromesso sta diventando accettabile.
 

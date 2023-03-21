@@ -80,7 +80,7 @@ Ponadto po lewej stronie znajduje się pasek ustawienia, w którym można ustawi
 
 Podobnie, po przejściu tego artykułu do gier, możesz go dalej odkrywać i skorzystać ze wszystkich funkcji. Ponadto będziesz w stanie zrozumieć, jak iść naprzód, korzystając z supermocarstwa konstruktora gier wideo. Dostępne jest wsparcie online tego oprogramowania do tworzenia gier.
 
-##  **Wniosek**    {#Conclusion}
+##  **Wniosek** {#Conclusion}
 To kończy ten przewodnik rozwoju gier HTML5. Mamy nadzieję, że ten post na blogu pomoże Ci, jeśli chcesz rozpocząć tworzenie gier wideo. Zbadaliśmy, co jest supermocarstwami, jak opracować grę wideo, która jest open source 3D Builder, a także przeszliśmy procedurę instalacji w LocalHost. Istnieje wiele aplikacji do projektowania gier open source**, które pozwalają użytkownikom budować gry od zera. Programiści gier wideo używają niezbędnych zasad projektowania gier do budowy gier wysokiej jakości. Dowiesz się więcej o budowaniu gier 2D i 3D w naszych nadchodzących artykułach na [blog.containeryze.com][8]. Istnieją inne open source, samowystarczalne budownicze gier 3D i odpowiednie artykuły wymienione w sekcji „Explore” poniżej.
 Wreszcie, Containerize.com ciągle pisze posty na blogu na temat dalszych produktów i tematów typu open source. Dlatego prosimy o kontakt z kategorią [Rozwój gier wideo][9][][10] w celu regularnych aktualizacji. Ponadto możesz śledzić nas na naszych kontach w mediach społecznościowych [Facebook][11], [LinkedIn][12] i [Twitter][13].
 

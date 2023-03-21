@@ -24,10 +24,10 @@ Par conséquent, plus d'utilisateurs **migrent de WordPress vers Ghost** . Il y 
   * **[Importez le contenu dans Ghost][7]** 
   * **[Conclusion][8]** 
 
-## **Une intro de Briedf de WordPress**    {#wp}
+## **Une intro de Briedf de WordPress** {#wp}
 [WordPress][9] est une principale plate-forme de blogs open source qui a alimenté un grand nombre de sites Web. Ce logiciel de blogging gratuit est auto-hébergé, multilingue et prend en charge de nombreuses langues. De plus, la communauté de développement de WordPress est très dynamique et a développé un gigantesque bassin de plugins utiles qui sont facilement disponibles. Ces plugins abordent presque tous les cas d'utilisation de votre site Web d'entreprise. De plus, il est écrit en PHP et est livré avec une documentation complète concernant le développement et le déploiement. Tout le code source est disponible sur GitHub. De plus, cette plate-forme de blogging est très extensible, configurable et fournit des intégrations avec des applications tierces. Il y a un tableau de bord très logique et facile à comprendre où les utilisateurs peuvent faire glisser et déposer des éléments pour modifier l'apparence de leurs sites Web.
 
-## **Qu'est-ce que Ghost?**    {#Ghost}
+## **Qu'est-ce que Ghost?** {#Ghost}
 [Ghost][10] est une autre plate-forme de blogs open source populaire. Il s'agit de l'une des plateformes de publication de contenu les plus utilisées qui sont fortement adoptées par les développeurs et les propriétaires de sites. De plus, Ghost est très adapté à SEO et est livré avec des thèmes, des formulaires, des newsletters et des abonnements intégrés. Ce logiciel de blogging gratuit est écrit en JavaScript et toute la documentation est disponible concernant le développement et le déploiement.
 
 ## exigences   {#Requirements}

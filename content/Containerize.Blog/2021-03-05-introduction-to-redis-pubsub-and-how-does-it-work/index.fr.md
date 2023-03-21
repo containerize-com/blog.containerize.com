@@ -28,7 +28,7 @@ Dans le développement de logiciels, l'accent mis sur la réutilisabilité est t
 Au fur et à mesure que les architectures logicielles ont évolué et plus basées sur des modules, elles sont devenues, plus de communication / messagerie a augmenté entre les modules et les composants. Par exemple, pensez à un module comme une unité de traitement qui prend des entrées et fournit une sortie. Et chaque entrée est en fait un message sur lequel l'unité de traitement traite et génère un autre message en sortie. Qui sera une entrée pour un autre module. Ainsi, cette augmentation de la messagerie nécessitait une attention particulière, afin d'avoir des applications évolutives, il était nécessaire que les modules et les composants puissent fonctionner de manière indépendante sans dépendances. Par conséquent, est venu le modèle de publication / d'abonnement.
 Dans de nombreux systèmes pub / sous, les éditeurs publient des messages à un courtier de messages intermédiaires ou à un bus d'événements, et les abonnés enregistrent des abonnements auprès de ce courtier, permettant au courtier effectuer le filtrage. Le courtier exécute normalement une boutique et une fonction transmise pour acheminer les messages des éditeurs aux abonnés. De plus, le courtier peut hiérarchiser les messages dans une file d'attente avant le routage.
 
-## **Quand devriez-vous utiliser Pub / Sub?**    {#When}
+## **Quand devriez-vous utiliser Pub / Sub?** {#When}
 Les applications de chat sont un cas d'utilisation classique du modèle pub / sous. Dans une application de chat, les participants peuvent s'abonner aux salles de chat qui ont un sujet de pub / sous-subdimenté. Lorsqu'un utilisateur envoie un message à une salle de chat, son instance d'application de chat publie le message sur le sujet de cette salle de chat. Les abonnés du sujet reçoivent le message.
 La file d'attente de messages / la file d'attente de messages ou les applications de traitement par lots peuvent également utiliser le modèle pub / sous. Lorsque tous ceux qui souhaitent une tâche particulière effectueront le message dans une file d'attente et des unités de traitement qui se sont abonnés à cette file d'attente recevront le message pour traiter le travail.
 Discutons certains des avantages du Pub / Sub Modèle
@@ -43,7 +43,7 @@ Discutons certains des avantages du Pub / Sub Modèle
   * La clarté de la logique commerciale
   * Améliore la réactivité
 
-## Comment utiliser redis pub / sub   {# redis-pubsub}
+## Comment utiliser redis pub / sub   {#redis-pubsub}
 Pour l'installation Redis, vous pouvez vous référer à mon [dernier tutoriel][1]. Cet exemple explique comment fonctionne le concept de l'éditeur et de l'abonné. Dans l'exemple suivant, un client s'abonne à un canal nommé «Redischat».
 ```
 redis 127.0.0.1:6379> SUBSCRIBE redisChat  

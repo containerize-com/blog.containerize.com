@@ -92,7 +92,7 @@ A orquestração de contêineres do Docker Swarm começa no contêiner e aumenta
 **As ferramentas mais populares que se integram com Nomad**  são Docker, Vault, Hashicorp Sentinel, Consul, Portworx, Humio e Gloo Edge.
 **As principais empresas que usam o NOMAD**  em suas pilhas de tecnologia são PETAL, Trivago, WealthSimple, Edgelab, Fundamentii, 5G Systems, Aislelabs, Botmétrico, Taboola e MachEte Inc.
 
-## **O que são ferramentas de gerenciamento de contêineres de código aberto?**    {#4A1A}
+## **O que são ferramentas de gerenciamento de contêineres de código aberto?** {#4A1A}
 Existem muitos benefícios das soluções de orquestração de contêineres em máquinas virtuais (VMs). Os contêineres compartilham um único kernel do sistema operacional, inicia em alguns segundos, em vez de minutos necessários para iniciar uma máquina virtual (VM). Escalar e duplicar os contêineres é muito fácil, têm um pequeno tamanho de disco e são simples de compartilhar. **Uma plataforma de gerenciamento de contêineres**  é um aplicativo em nuvem que gerencia vários contêineres. A seguir, estão os melhores software de gerenciamento de contêineres e orquestradores de contêineres mais amplamente utilizados para otimizar aspectos específicos do gerenciamento de contêineres.
   ***[Rancher][12]**  é uma plataforma de melhor gerenciamento de contêineres de código aberto para gerenciar Kubernetes em escala.
   ***[Apache Mesos][13]**  é um gerenciador de cluster de código aberto de próxima geração e serviço de orquestração de contêineres Apache.
@@ -101,7 +101,7 @@ Existem muitos benefícios das soluções de orquestração de contêineres em m
   ***[Serviço de contêiner elásticos da Amazon (Amazon ECS)][16]**  É o serviço de gerenciamento de orquestração e contêiner da AWS ECS que suporta contêineres do Docker para executar aplicativos no cluster de instâncias do Amazon EC2.
   ***[Amazon Elastic Kubernetes Service (Amazon EKS)][17]**  é um serviço AWS de orquestração de contêineres para executar a infraestrutura de aplicativos e gerenciamento da Kubernetes.
 
-## **Conclusão:**    {#4A1A}
+## **Conclusão:** {#4A1A}
 **Como funciona a tecnologia de orquestração de contêineres para seus aplicativos de negócios e software? Se você precisar se lembrar de apenas uma informação importante para ajudá -lo a escolher  **kubernetes vs swarm do Docker **  vs redhat  **openshift vs compuse**   vs hashicorp nomad, deve ser que cada solução tenha algumas vantagens e desvantagens. Existem outras opções de plataforma de orquestração que oferecem diferentes recursos na orquestração de serviços. Por fim, qual opção você tira depende da escala que você deseja alcançar e em qual ecossistema você prefere mais confortável. Para um mergulho mais profundo na orquestração de contêineres, continue visitando [Blog de contêiner][18].
 _O que você é as melhores ferramentas de orquestração de contêineres mais favoritas?. Você tem alguma dúvida sobre a lista de orquestradores de contêineres mencionados acima?, Por favor [entre em contato][19].
 

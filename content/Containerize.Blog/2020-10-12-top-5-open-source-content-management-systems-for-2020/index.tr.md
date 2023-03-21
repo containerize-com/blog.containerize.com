@@ -31,7 +31,7 @@ Joomla açık kaynaklı CMS yazılımıdır. Bu nedenle, yüzlerce geliştiricin
   * SEO
     [Devamını oku][6]
 
-### **drupal**    {#drupal}
+### **drupal** {#drupal}
 Drupal, dinamik, içerik güdümlü web siteleri geliştirmek için 2001 yılında gelen **Açık Kaynak İçerik Yönetim Sistemleri**  arasında bir başka popüler seçenektir. Açık kaynaklıdır ve% 100 ücretsizdir ve en iyi 3 CMS platformundan biri arasında. Endüstriler genelinde dijital dönüşüme öncülük ediyor.
 Drupal'da, önceden yapılmış şablonlar ve eklentiler, herhangi bir sorun olmadan yeni bir web sitesinin geliştirilmesini kolaylaştırır. Bu **Web İçerik Yönetim Sistemi**  'nin en önemli satış noktalarından biri, çok çeşitli içerik türleri oluşturma ve yönetme gücüdür. Güvenliği eşsiz ve sarsılmaz.
 İşte Drupal'ın bazı popüler özellikleri.
@@ -41,7 +41,7 @@ Drupal'da, önceden yapılmış şablonlar ve eklentiler, herhangi bir sorun olm
   * Cihaza özgü ekran
     [Devamını oku][7]
 
-### **Pyro**    {#pyro}
+### **Pyro** {#pyro}
 Pyro, son zamanlarda popülerlik kazanan harika bir içerik yönetim sistemidir. Laravel CMS ile inşa edilmiştir. Ve bir uzantısı gibi geliyor. Diğer **açık kaynaklı CMS platformları gibi** , Pyro da kutudan çıkarılan benzersiz ve güçlü özelliklerle birlikte gelir. Ayrıca Laravel ile ideal entegrasyon için sürücü tabanlı dosya yönetimini destekler.
 Pyro ayrıca kullanıcı yönetimini destekler. Bu nedenle, bu **özel CMS yazılımı** , kullanıcıları, rolleri ve izinleri kolayca yönetmemizi sağlar. Ancak, Pyro mağazasında bulunan eklentilerin tadını çıkarabilirsiniz.
 Pyro'nun çekirdeği akarsu platformudur. Güçlü ve daha hızlı uygulamalar yapmak için tam teşekküllü bir takım setidir. Ayrıca, sağlam bir motor ve geliştirme platformudur.
@@ -53,7 +53,7 @@ Pyro'nun çekirdeği akarsu platformudur. Güçlü ve daha hızlı uygulamalar y
   * 1 Kickass API
     [Devamını oku][8]
 
-### **Django**    {#django}
+### **Django** {#django}
 Django CMS, Python'da yazılmış güvenli ve bakımlı web sitelerinin hızlı bir şekilde geliştirilmesini sağlayan bir çerçevedir. Açık kaynaklı bir CMS. En önemlisi, binlerce web sitesi Django tarafından desteklenmektedir. Multisite destek, sürüm kontrolü, daha iyi yayıncılık mekanizması gibi birçok özellik ile kullanıcı dostudur ve geliştirme sürecini hızlandıran bir sürükleme ve damla kontrol paneli sağlar.
 Diğer **açık kaynaklı CMS platformları  **gibi, Django'yu kullanmak web geliştirmenin güçlüklerinin çoğunu alır. İlk olarak, bu **  Web İçerik Yönetim Sistemi**  Güvenliği ciddiye alır ve geliştiricilere birçok ortak güvenlik hatası ile yardımcı olur. İkincisi, büyük miktarda web trafiğini çok kolay halledebilir. Her şeyden önce, hükümetler, kuruluşlar ve şirketler, sosyal ağlardan yönetim sistemlerine, bilimsel hesaplamaya kadar her türlü şeyi inşa etmek için Django'yu kullanıyor.
 İşte Django CMS'nin bazı popüler özellikleri.
@@ -63,7 +63,7 @@ Diğer **açık kaynaklı CMS platformları  **gibi, Django'yu kullanmak web gel
   * Entegre edilmesi kolay
     [Devamını oku][9]
 
-## **Umbraco**    {#umbraco}
+## **Umbraco** {#umbraco}
 Umbraco, hazır tasarım şablonları sunarak iş için bir web sitesi kurmanın en hızlı yollarını sağlayan web siteleri ** için başka bir açık kaynak CMS'dir. Umbraco ile esnekliği ve harika düzenleme deneyimi ile bilinen ve sevilen bir içerik yönetim sistemi elde edersiniz. Kullanıcıların içerik oluşturmasına, güncellemesine ve yayınlamasına izin vermek için sezgisel bir gösterge tablosu mevcuttur.
 Umbraco, geliştiricileri göz önünde bulundurmak için tasarlanmıştır. Bu nedenle, herhangi bir sınırlama olmadan esnektir. Benzer şekilde, pazarlamacılar ve editörler Umbraco ile çalışmayı sever. Çünkü günlük işleri daha basit ve daha keyifli hale getirir.
 Umbraco CMS, JavaScript, HTML ve TypeScript gibi diğer dillerin girişiyle birlikte ASP.net'te yazılmıştır. En önemlisi, kullanıcıların kapsamdan bağımsız olarak her şeyi arayabileceği küresel aramayı destekler.

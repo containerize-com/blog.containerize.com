@@ -43,7 +43,7 @@ Copay memiliki fitur utama berikut:
   * Sangat aman
 **[Pelajari lebih lanjut tentang copay][11]** 
 
-## **Breadwallet**    {#BreadWallet}
+## **Breadwallet** {#BreadWallet}
 **[Breadwallet][12]  **adalah pilihan populer lainnya di antara dompet kripto open source **  **. Dompet digital open source ini mudah digunakan dan menyediakan koneksi langsung dengan jaringan blockchain untuk transaksi cepat dan cepat. Selain itu, ini  **perangkat lunak dompet gratis**   ini dikembangkan oleh perusahaan roti dan tersedia untuk platform seluler. Selain itu, ia menawarkan antarmuka pengguna yang logis dan mudah di mana pengguna dapat menavigasi dengan mudah. Breadwallet menawarkan banyak fitur kuat seperti transaksi anonim, dukungan untuk berbagai bahasa, dan banyak lagi. Lebih lanjut, pengguna tidak perlu mendaftar untuk menggunakan dompet crypto open source ini.
 Breadwallet menawarkan fitur -fitur penting berikut:
   * Widget yang dapat disesuaikan

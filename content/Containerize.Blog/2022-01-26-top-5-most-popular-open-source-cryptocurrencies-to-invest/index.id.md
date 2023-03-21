@@ -74,7 +74,7 @@ Litecoin dihasilkan lebih cepat daripada bitcoin tetapi bitcoin lebih berharga. 
 {{_LINE_62_}}
 Cryptocurrency yang berorientasi pada privasi Monero menggunakan sistem kriptografi untuk memungkinkan Anda mengirim dan menerima dana. Monero adalah salah satu cryptocurrency pertama yang menampilkan kriptografi. Mata uang digital Monero difokuskan pada privasi dan transaksinya pada blockchain tidak dapat dilacak atau dilacak. Ini memastikan bahwa pembelian, tanda terima, dan transfer dana Anda tetap pribadi secara default.
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 Lima proyek cryptocurrency yang disebutkan di atas adalah perangkat lunak open source gratis dan terbaik untuk pedagang. Banyak cryptocurrency saat ini berasal dalam beberapa bentuk atau lainnya dari Bitcoin. Meskipun ratusan pesaing yang telah berevolusi, Bitcoin adalah cryptocurrency pertama yang tetap dominan dalam hal penggunaan dan nilai ekonomi.
 **Apa crypto terbaik untuk dibeli sekarang?**  Berinvestasi dalam proyek open source cryptocurrency dan penawaran koin awal lainnya sangat berisiko. Selain itu, artikel ini bukan rekomendasi oleh penulis untuk berinvestasi dalam cryptocurrency atau penawaran koin awal lainnya (ICO). Karena situasi masing -masing individu berbeda dan seorang profesional yang memenuhi syarat harus selalu dikonsultasikan sebelum membuat keputusan keuangan yang menguntungkan. containerize.com tidak membuat representasi atau jaminan tentang keakuratan atau ketepatan waktu dari informasi yang terkandung di sini.
 _Apa proyek open source cryptocurrency favorit Anda?. Apakah Anda memiliki pertanyaan tentang _Apa Currency Digital_?, Please_ [hubungi kami][11].

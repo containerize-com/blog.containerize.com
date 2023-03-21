@@ -49,7 +49,7 @@ Có hàng tá nền tảng thị trường B2B nguồn mở khác và các thị
   * **Phản ứng**  Nền tảng thị trường đa nhà cung cấp thương mại điện tử.
   * **Beyourmarket**  Khung thị trường nguồn mở.
 
-##  **Kết luận:**    {#4A1A}
+##  **Kết luận:** {#4A1A}
 Xây dựng một nền tảng thị trường để bắt đầu kinh doanh hoặc phát triển một nền tảng hiện có có thể rất khó khăn nếu bạn muốn xây dựng một công trình từ đầu. Bạn có thể có những lợi ích rất lớn từ các công ty thương mại điện tử hàng đầu được liệt kê ở trên. Bất cứ ai cũng có thể xây dựng trang web thị trường mong muốn của riêng họ một cách dễ dàng và nhanh chóng. Những nền tảng phần mềm thị trường này sẽ phục vụ nhu cầu của bạn tốt. Bạn sẽ có một danh sách tùy chỉnh các thị trường trực tuyến hoặc cửa hàng được hỗ trợ bởi một trong những công ty thương mại điện tử phần mềm đáng tin cậy này.
 _Your có thể tham gia với chúng tôi trên [Twitter][6], [LinkedIn][7] và trang [Facebook][8] của chúng tôi. Thị trường phần mềm trực tuyến nào_ để xây dựng một thị trường ứng dụng _do bạn sử dụng ?. Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, xin vui lòng liên hệ][9].
 

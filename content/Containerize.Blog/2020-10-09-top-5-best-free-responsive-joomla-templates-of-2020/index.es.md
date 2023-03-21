@@ -23,7 +23,7 @@ La interfaz de usuario de un sitio web comercial siempre ha sido la parte más c
   * [JD Austin][6]
   * [Conclusión][7]
 
-## **Xeon  **- **  Plantilla de Joomla de una sola página gratuita**    {#Xeon}
+## **Xeon  **- **  Plantilla de Joomla de una sola página gratuita** {#Xeon}
 [Xeon][8] es una plantilla de Joomla de moda gratuita. Se puede utilizar para múltiples propósitos, como sitios web personales, corporativos, de eventos o comerciales. Además de eso, esta plantilla de una página ** **JOOMLA**   proporciona navegación basada en animaciones JQuery y CSS. Parece una opción adecuada para los usuarios debido a características tan útiles.
 Sin embargo, algunas características dominantes de la plantilla **xeon**  son:
   * Disposición Responsive
@@ -32,7 +32,7 @@ Sin embargo, algunas características dominantes de la plantilla **xeon**  son:
   * HTML5, CSS3, SCSS Support
   * Soporte de idiomas de derecha a izquierda
 
-## **JD Seattle  **- **  Plantilla de Joomla multifuncional ligera**    {#JD}
+## **JD Seattle  **- **  Plantilla de Joomla multifuncional ligera** {#JD}
 [JD Seattle][9] es una plantilla de Joomla ampliamente utilizada. Además, se construye con marco de Atroides. Además, está equipado con un panel de administración robusto con muchas otras características y animaciones. Está integrado con JD Builder, lo que, como resultado, proporciona la provisión del usuario para diseñar y construir cualquier sección mediante elementos de arrastrar y soltar. Es amigable con el diseño y se adapta a cualquier pantalla inmediata. Proporciona navegación lógica donde los usuarios pueden insertar tantos elementos de menú como sea necesario. Los propietarios de sitios web pueden comunicarse con los visitantes del sitio a través de un formulario de contacto que se empaqueta en esta plantilla de negocios de Joomla. Además, hay más de 800 fuentes de Google compatibles en JD Seattle.
 Sobre todo, algunas características importantes de **JD Seattle**  son:
   * Navegación con elementos de menú ilimitados
@@ -41,7 +41,7 @@ Sobre todo, algunas características importantes de **JD Seattle**  son:
   * Soporte de color RGB
   * Soporte de marco Bootstrap 4
 
-## **Dino  **- **  Plantilla de Joomla personalizable gratuita**    {#dino}
+## **Dino  **- **  Plantilla de Joomla personalizable gratuita** {#dino}
 [Dino][10] es una plantilla altamente vibrante con respecto a las mejoras regulares y las nuevas actualizaciones de características. Esta plantilla es compatible con Bootstrap 4, por lo tanto, el entorno de desarrollo **Joomla**  ofrece un diseño totalmente receptivo y mantiene un código limpio y optimizado. Además, se puede personalizar fácilmente de acuerdo con las necesidades comerciales. Hay desarrollos regulares que actualizan esta plantilla de Joomla con nuevas funcionalidades y aspecto.
 **Dino**  es una opción perfecta debido a las siguientes características destacadas:
   * Fuentes de Google gratis
@@ -50,7 +50,7 @@ Sobre todo, algunas características importantes de **JD Seattle**  son:
   * Diseño amigable
   * Más de 100 componentes únicos
 
-## **Jollyany  **- **  Plantilla de Joomla con características infinitas**    {#jollyany}
+## **Jollyany  **- **  Plantilla de Joomla con características infinitas** {#jollyany}
 [Jollyany][11] es una plantilla de Joomla con funciones ricas. Sobre todo, es compatible con el marco de Atroides y el marco Bootstrap V4.5. Además, se le ocurre una parte delantera modular donde los usuarios pueden personalizar la interfaz de usuario según los requisitos. Hay más de 60 complementos compatibles con esta plantilla de Joomla gratuita. Los usuarios tienen las opciones para elegir cualquier encabezado de múltiples opciones de encabezado. Si tiene la intención de diseñar un sitio web personal, de blog, empresa o blog, entonces **Jollyany**  es la mejor opción.
 Es un marco muy útil con muchas características como:
   * Soporte del menú de lienzo
@@ -59,7 +59,7 @@ Es un marco muy útil con muchas características como:
   * Optimizar HTML, JS, CSS
   * 6 tipos de artículos
 
-## **JD Austin  **- **  SEO Plantilla de Joomla optimizada**    {#AUSTIN}
+## **JD Austin  **- **  SEO Plantilla de Joomla optimizada** {#AUSTIN}
 **[JD Austin][12]  **es una plantilla comercial de Joomla **  de respuesta gratuita** , sin embargo, proporciona opciones poderosas para sitios web comerciales y no comerciales. Su optimización de motores de búsqueda se está realizando de acuerdo con los estándares definidos por Google. Sobre todo, viene con un formulario de formulario preintegrado ChronoForm donde los usuarios pueden construir cualquier forma utilizando una interfaz de arrastrar y soltar. Además, esta plantilla mantiene diseños altamente receptivos con ricas tipografía y colores. También proporciona integraciones con extensiones de terceros.
 Por otro lado, algunas características interesantes de esta plantilla gratuita de Joomla incluyen:
   * Diseño de blog totalmente personalizado

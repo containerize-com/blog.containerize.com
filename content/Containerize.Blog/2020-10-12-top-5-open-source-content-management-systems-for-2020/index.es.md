@@ -31,7 +31,7 @@ Aquí hay algunas características populares de Joomla CMS.
   * SEO
     [Leer más][6]
 
-### **Drupal**    {#drupal}
+### **Drupal** {#drupal}
 Drupal es otra opción popular entre **sistemas de gestión de contenido de código abierto**  que llegó en el año 2001 para desarrollar sitios web dinámicos basados ​​en contenido. Es de código abierto y 100% gratuito y, entre una de las 3 plataformas CMS principales. Está liderando la transformación digital en las industrias.
 En Drupal, las plantillas y complementos prefabricados facilitan el desarrollo de un nuevo sitio web sin ninguna molestia. Uno de los principales puntos de venta de este **sistema de gestión de contenido web**  es su poder para crear y administrar una gran variedad de tipos de contenido. Su seguridad es inigualable e inquebrantable.
 Aquí hay algunas características populares de Drupal.
@@ -41,7 +41,7 @@ Aquí hay algunas características populares de Drupal.
   * Visualización específica del dispositivo
     [Leer más][7]
 
-### **Pyro**    {#pyro}
+### **Pyro** {#pyro}
 Pyro es un maravilloso sistema de gestión de contenido que ha estado creciendo recientemente en popularidad. Está construido con el Laravel CMS. Y se siente como una extensión de ello. Al igual que otras plataformas CMS de código abierto **, Pyro viene con características únicas y potentes de casa. También admite la administración de archivos basada en el conductor para la integración ideal con Laravel.
 Pyro también admite la administración de usuarios. Por lo tanto, este **software CMS personalizado**  nos permite administrar usuarios, roles y permisos fácilmente. Sin embargo, también puede disfrutar de los complementos disponibles en la tienda Pyro.
 El núcleo del Pyro es la plataforma Streams. Es un conjunto completo de herramientas para hacer aplicaciones potentes y más rápidas. Además, es un motor y una plataforma de desarrollo robusto.
@@ -53,7 +53,7 @@ Aquí hay algunas características populares de Pyro.
   * 1 API Kickass
     [Leer más][8]
 
-### **django**    {#django}
+### **django** {#django}
 Django CMS es un marco escrito en Python que permite un desarrollo rápido de sitios web seguros y mantenibles. Es un CMS de código abierto. Lo más importante es que miles de sitios web son compatibles con Django. Es fácil de usar con muchas características como soporte multisitio, control de versiones, mejor mecanismo de publicación, y proporciona un tablero de arrastre y caída que acelera el proceso de desarrollo.
 Al igual que otras plataformas CMS de código abierto **, usar Django toma gran parte de la molestia del desarrollo web. En primer lugar, este **Sistema de gestión de contenido web**  toma la seguridad en serio y ayuda a los desarrolladores con muchos errores de seguridad comunes. En segundo lugar, puede manejar una gran cantidad de tráfico web muy fácilmente. Sobre todo, los gobiernos, las organizaciones y las empresas están utilizando Django para construir todo tipo de cosas, desde redes sociales hasta sistemas de gestión y informática científica.
 Aquí hay algunas características populares de Django CMS.
@@ -63,7 +63,7 @@ Aquí hay algunas características populares de Django CMS.
   * Fácil de integrar
     [Leer más][9]
 
-## **UMBRACO**    {#UMBRACO}
+## **UMBRACO** {#UMBRACO}
 Umbraco es otro **CMS de código abierto para sitios web**  que proporciona las formas más rápidas de configurar un sitio web para negocios ofreciendo plantillas de diseño preparadas. Con Umbraco, obtienes un sistema de gestión de contenido conocido y amado por su flexibilidad y excelente experiencia de edición. Existe un tablero intuitivo para permitir a los usuarios construir, actualizar y publicar contenido de manera eficiente.
 Umbraco está diseñado para mantener a los desarrolladores a la vista. Por lo tanto, es flexible sin limitaciones. Del mismo modo, a los vendedores y editores les encanta trabajar con Umbraco. Porque hace que los trabajos diarios sean más simples y encantadores.
 Umbraco CMS está escrito en ASP.NET junto con la entrada de otros idiomas como JavaScript, HTML y TypeScript. Lo más importante, admite la búsqueda global donde los usuarios pueden buscar cualquier cosa, independientemente del alcance.

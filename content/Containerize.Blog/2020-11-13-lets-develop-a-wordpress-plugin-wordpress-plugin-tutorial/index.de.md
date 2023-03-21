@@ -43,7 +43,7 @@ Shortcodes sind Makros, mit denen dynamische Interaktionen mit dem Inhalt durchg
 ## # Widgets
 Widgets sind wichtig, da sie Ihnen ein weiteres Mittel zur Ausführung des Code Ihres Plugins bieten und gleichzeitig eine benutzerfreundliche Oberfläche bereitstellen. Da die meisten Themen eine oder mehrere Seitenleisten unterstützen; Wenn Sie Ihre eigenen Widgets hinzufügen, können Sie schnell zugreifen, um Ihre Informationen im Thema anzuzeigen.
 
-## **Wie erstelle ich WP -Plugin?**    {#create}
+## **Wie erstelle ich WP -Plugin?** {#create}
 In diesem Abschnitt des WordPress -Plugin -Tutorials müssen Sie lediglich einen Ordner erstellen und dann eine einzige Datei mit einer Inhaltszeile erstellen. Navigieren Sie zum Ordner **wp-content/plugins  **und erstellen Sie einen neuen Ordner namens **  myTestPlugin **. Erstellen Sie in diesem neuen Ordner eine Datei namens  **myTestPlugin.php**  . Öffnen Sie die Datei in einem Texteditor und fügen Sie die folgenden Informationen darin ein:
 ```
 <?php

@@ -91,7 +91,7 @@ Ansible Open Source **Herramienta de automatización  **y el software gratuito s
 Python es un lenguaje de secuencia de comandos orientado a objetos que se usa para construir aplicaciones como inteligencia artificial, aprendizaje automático, aplicaciones de escritorio, etc. El lenguaje de Python es mantenido por una organización independiente estadounidense establecida como una organización 501 (c) (3) sin fines de lucro, la **Django Software Foundation**  (DSF).
 **Las principales compañías que usan Django**  incluyen Instagram, Spotify, National Geographic, Pinterest, MacArthur Foundation, DISCLE, BitBucket, Mozilla, Open Stack y más.
 
-## **Conclusión:**    {#4a1a}
+## **Conclusión:** {#4a1a}
 Los cinco proyectos de software de código abierto mencionados anteriormente son el software gratuito y de código abierto más populares para desarrolladores. Si está explorando los buenos proyectos de código abierto para principiantes por primera vez, consulte el informe del estado de Octoverse y no dude en agregar y contribuir. La lista de software de código abierto desbloquea las puertas para innovadores y desarrolladores de aplicaciones en la construcción de una carrera al tiempo que les permite trabajar en algunas de las plataformas más grandes del mundo. Los mejores ejemplos de software de código abierto que hemos enumerado anteriormente son solo una prueba de cuán beneficiosos son aplicaciones de código abierto.
 _ ¿Cuáles son sus proyectos de software gratuitos y de código abierto favoritos? ¿Tiene alguna pregunta sobre proyectos de código abierto?, Por favor_ [Póngase en contacto][12].
 

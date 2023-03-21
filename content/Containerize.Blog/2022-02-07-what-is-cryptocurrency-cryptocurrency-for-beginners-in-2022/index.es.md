@@ -56,7 +56,7 @@ Después de esto, deberá completar los cheques de seguridad, como proporcionar 
 ¿Cómo se almacena la criptomoneda? Puede almacenar su criptomoneda en línea o fuera de línea. La forma más popular de almacenar criptomonedas es en línea en un intercambio o billetera criptográfica. Los intercambios de cifrado y las billeteras le permiten almacenar, enviar, recibir y convertir la criptografía con su computadora, tableta o teléfono inteligente.
 ¿Dónde comprar criptomonedas? Puedes comprar criptomonedas de un intercambio de cifrado. A continuación, hemos compilado una lista de algunas de las mejores aplicaciones e intercambios para comprar criptomonedas en el Reino Unido. Recuerde que los criptoase bases son un producto de inversión no regulado altamente volátil sin protección contra los inversores del Reino Unido o la UE. Podrías perder todo el dinero que pones en ellos.
 
-## **Conclusión:**    {#4a1a}
+## **Conclusión:** {#4a1a}
 Con suerte, has aprendido mucho y ahora estás más informado y conocedor sobre el comercio e inversión de criptomonedas que al principio. Ahora es tu turno. Disfrutamos investigando y escribiendo la guía en mente. ¡Buena suerte!
 _ ¿Cuáles son tus proyectos de código abierto de criptomonedas favoritos? ¿Tiene alguna pregunta sobre qué es la moneda digital?, Por favor_ [Póngase en contacto][1].
 

@@ -146,7 +146,7 @@ Luego ingrese su nombre de usuario y contraseña para el administrador. Luego ha
 
 ¡Sí! Está hecho. Ahora sabe cómo instalar completamente la sincronización de archivos auto alojados de Pydio y el software de intercambio de archivos de código abierto en Ubuntu para construir una nube privada paso a paso similar a Dropbox o Google Drive.
 
-## **Conclusión:**    {#4a1a}
+## **Conclusión:** {#4a1a}
 En este tutorial, ha instalado con éxito el intercambio de archivos seguros de código abierto de Pydio Cells Open en su sistema Ubuntu. Puede usar este artículo para crear una infraestructura en la nube para almacenar, asegurar y compartir sus archivos en la nube autohostada. Use el intercambio de documentos colaborativos de Pydio y la mejor aplicación gratuita para compartir archivos para obtener más control de sus datos y garantizar una colaboración eficiente en su organización empresarial. En nuestros próximos tutoriales, discutiremos temas más interesantes de soluciones de almacenamiento en la nube de código abierto y herramientas de colaboración para compartir archivos.
 _Un puede unirse a nosotros en [Twitter][1], [LinkedIn][2] y nuestra página [Facebook][3]. ¿Qué plataforma de compartir de código abierto en Cloud Based_ _File usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto][4].
 

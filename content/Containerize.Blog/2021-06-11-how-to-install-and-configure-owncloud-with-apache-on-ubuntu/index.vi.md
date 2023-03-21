@@ -97,7 +97,7 @@ Sau khi hoàn thành thiết lập, bạn sẽ nhận được bảng điều kh
 {{_LINE_79_}}
 Vâng! Chúng tôi được thực hiện với Hướng dẫn cài đặt Owncloud để xây dựng lưu trữ đám mây cá nhân. Bây giờ bạn đã biết cách cài đặt hoàn toàn Owncloud trên Ubuntu để xây dựng một đám mây riêng từng bước tương tự như Dropbox hoặc Google Drive.
 
-## **Các lựa chọn thay thế tốt nhất cho Owncloud là gì?**    {#4A1A}
+## **Các lựa chọn thay thế tốt nhất cho Owncloud là gì?** {#4A1A}
 Sau đây là các lựa chọn thay thế sở hữu bản thân và phần mềm lưu trữ tệp đối thủ cạnh tranh.
   ***Seafile**  là hệ thống phần mềm lưu trữ tệp đa nền tảng nguồn mở
   ***NextCloud**  là nền tảng lưu trữ đám mây miễn phí và nguồn mở
@@ -105,7 +105,7 @@ Sau đây là các lựa chọn thay thế sở hữu bản thân và phần m�
   ***Tế bào Pydio**  là phần mềm chia sẻ và đồng bộ hóa tệp nguồn mở
   ***Syncthing**  là ứng dụng đồng bộ hóa tệp ngang hàng miễn phí và nguồn mở
 
-## **Kết luận:**    {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+## **Kết luận:** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
 Chúc mừng! Bạn đã cài đặt thành công và cấu hình owncloud để xây dựng đám mây riêng của riêng bạn với Apache trên máy Ubuntu. Bây giờ dữ liệu của bạn không bao giờ nằm ​​trong tay của các bên thứ ba và có thể được quản lý riêng tư trong bộ lưu trữ máy chủ Ubuntu Ubuntu riêng. Nhiều công ty đang chọn để tạo ra các máy chủ riêng của họ với nhiều thông tin quan trọng do nhiều vấn đề với sự riêng tư của dữ liệu. Trong các hướng dẫn sắp tới của chúng tôi, chúng tôi sẽ thảo luận về các chủ đề thú vị hơn về các ngăn xếp giải pháp máy chủ web.
 _Your có thể tham gia với chúng tôi trên [Twitter][2], [LinkedIn][3] và trang [Facebook][4] của chúng tôi. Bạn sử dụng giải pháp lưu trữ dựa trên đám mây nào trực tuyến ?. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ][5].
 

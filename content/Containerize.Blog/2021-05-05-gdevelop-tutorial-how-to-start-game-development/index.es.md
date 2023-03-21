@@ -21,12 +21,12 @@ Estos **motores de juego gratuitos  **vienen no solo ayudan a ofrecer lanzamient
   ***[¿Cómo configurar en localhost?][2]** 
   ***[Conclusión][3]** 
 
-## **¿Qué es GDEVROVEL?**    {#Intro}
+## **¿Qué es GDEVROVEL?** {#Intro}
 GDEVROVEL es un software gratuito de desarrollo de videojuegos de código abierto. Es autohospedado y ofrece características ricas para desarrollar juegos 2D. Sin embargo, hay soporte disponible para objetos 3D. Los usuarios no necesitan ningún tipo de habilidades de programación para desarrollar y publicar juegos para múltiples plataformas. Es altamente extensible y fácil de configurar, ya que requiere requisitos fáciles para autohartar este motor de juego gratuito. Hay una interfaz de usuario intuitiva con capacidades de arrastrar y soltar. Esta herramienta gratuita proporciona animaciones de clase alta, efectos de video/audio, pantalla táctil y múltiple touch, vista previa en vivo y muchas más. Además, este **diseñador de juegos 3D**  presenta características de prototipos potentes que ayudan a los desarrolladores a desarrollar un buen producto basado en el prototipo.
 Además, este código abierto **Easy Game Maker**  es altamente configurable y admite integraciones con bibliotecas de terceros. Sobre todo, proporciona soporte para Xbox y PlayStation que son consolas populares de videojuegos. GDEVROVEL está escrito en C ++, JavaScript y TypeScript. Hay documentación detallada disponible con respecto a la implementación y el desarrollo. GDEVROVEL tiene una comunidad de desarrolladores muy vibrante que responde activamente a errores y consultas. Por lo tanto, todo el código fuente está disponible en [GitHub][4].
 [Obtenga más información sobre GDEVROVEL][5]
 
-## **¿Cómo configurar en localhost?**    {#setup}
+## **¿Cómo configurar en localhost?** {#setup}
 En la sección de este **Tutorial GDEVROVEL** , veremos cómo podemos configurar GDEVelovelop en nuestro sistema local. Antes de pasar a los siguientes pasos, asegúrese de haber instalado los siguientes requisitos previos.
   * Git
   * Node.js 12.x
@@ -67,7 +67,7 @@ Puede seleccionar cualquier juego como iniciador, ya que en este tutorial puede 
 
 De esta manera, puede explorar e intentar más funciones. Este **Easy Game Maker**  es amigable para el desarrollador y proporciona un tablero intuitivo. Una vez que haya terminado de desarrollar su juego, puede exportarlo para varias plataformas como Android, iOS y Web.
 
-## **Conclusión**    {#Conclusion}
+## **Conclusión** {#Conclusion}
 Esto pone fin a este tutorial GDegelop. Este **motor de juego gratuito  **te permite implementar la lógica de los juegos usando eventos visuales. Tiene una comunidad muy solidaria que ha hecho muchos tutoriales útiles y manuales de usuario. Esta publicación de blog realmente te ayudará si eres nuevo en el mundo del desarrollo del juego. Hay muchos otros **  diseñadores de juegos 3D** , herramientas de desarrollo de juegos y artículos mencionados en la sección Explore a continuación. Todos estos motores de juego son gratuitos, de código abierto, y se les ocurre capacidades de auto-anfitrión. Por lo tanto, la industria del desarrollo de juegos se está expandiendo inmensamente con el aumento en el número de jugadores. Hay videojuegos con gráficos de alta definición y efectos de sonido que provocan interés y atracción en los jugadores. Sin embargo, elija un software de desarrollo de juegos bien reputado que brinde calidad y eficiencia a su trabajo.
 Finalmente, Contenerize.com está listo para mejorar su base de tutorial con algunos tutoriales de desarrollo de juegos más interesantes. Manténgase conectado con esta categoría [Software de desarrollo de juegos][6] en [Contenerize.com][7] para actualizaciones regulares.
 

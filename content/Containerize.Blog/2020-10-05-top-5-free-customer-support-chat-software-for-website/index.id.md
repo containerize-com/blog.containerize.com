@@ -23,7 +23,7 @@ Menggunakan solusi perangkat lunak obrolan langsung yang tepat membantu Anda men
   * [Ayo ngobrol][4]
   * [Botpress][5]
 
-## **rocket.chat**    {#rocket-chat}
+## **rocket.chat** {#rocket-chat}
 Rocket.chat adalah perangkat lunak Open Source **Web Chat.**  Ini adalah sistem obrolan yang sepenuhnya gratis dan diselenggarakan sendiri. Ini adalah platform komunikasi yang komprehensif yang menyediakan komunikasi tim menggunakan pesan langsung dan pesan grup.
 Rocket.chat memiliki komunitas open source yang sangat besar. Sebagai hasilnya, aplikasi obrolan open source ** ini memiliki lebih banyak plugin yang tersedia untuk lebih meningkatkan pengalaman produk. Ini membantu tim untuk bekerja dari jarak jauh karena menyediakan alat obrolan audio dan video. Ini bisa menjadi alternatif murah untuk memperbesar dan mengendur. Berikut adalah fitur penting dari solusi obrolan sumber terbuka ini.
   * Byos (bawa server Anda sendiri)
@@ -33,7 +33,7 @@ Rocket.chat memiliki komunitas open source yang sangat besar. Sebagai hasilnya, 
   * Aplikasi desktop lintas platform asli
     [Baca lebih lanjut][6]
 
-## **Zulip**    {#zulip}
+## **Zulip** {#zulip}
 Zulip adalah salah satu solusi obrolan open source **paling populer**  yang mengikuti model threading berbasis aliran. Di Zulip Anda berlangganan aliran alih -alih saluran sehingga Anda hanya diberitahu tentang aliran yang Anda minati. Langganan aliran ini membantu Anda melacak percakapan nanti dan tetap teratur.
 Ini **aplikasi obrolan open source  **adalah cross-platform dan menawarkan API untuk mengembangkan integrasi khusus Anda sendiri. Seperti **  perangkat lunak obrolan web lainnya **, ini mendukung emoji, gambar inline, video, dan pratinjau tweet. Zulip adalah perangkat lunak 100% gratis dan open source. Berikut adalah fitur teratas dari perangkat lunak obrolan dukungan pelanggan  **ini**  .
   * Gambar inline, video, dan tweet pratinjau: Zulip secara otomatis menghasilkan pratinjau tautan yang Anda kirim dalam percakapan
@@ -44,7 +44,7 @@ Ini **aplikasi obrolan open source  **adalah cross-platform dan menawarkan API u
   * Aplikasi Desktop: Mendukung aplikasi desktop multi-platform.
     [Baca lebih lanjut][7]
 
-## **materi paling**    {#Mattermost}
+## **materi paling** {#Mattermost}
 Mattermost adalah open source **perangkat lunak obrolan web **, yang sangat aman dan dapat diskalakan. Pertama, ini dianggap sebagai alternatif dari aplikasi obrolan langsung paling populer. Kedua, aplikasi obrolan open source**  ini adalah campuran dari tim Slack dan Microsoft. Sebagai kesimpulan, menjadikannya superset dari kedua aplikasi tersebut.
 Solusi obrolan open source **ini**  membantu perusahaan besar untuk mengkonsolidasikan semua komunikasi mereka. Misalnya obrolan tim, obrolan video, dan berbagi dokumen sekaligus. Oleh karena itu, buatlah mudah untuk mencari dan menemukan informasi.
 Berikut adalah beberapa fitur teratas yang paling penting
@@ -56,7 +56,7 @@ Berikut adalah beberapa fitur teratas yang paling penting
   * Perpustakaan API yang kuat
     [Baca lebih lanjut][8]
 
-## **Ayo obrolan**    {#lets-chat}
+## **Ayo obrolan** {#lets-chat}
 Mari kita obrolan adalah perangkat lunak obrolan dukungan pelanggan yang diselenggarakan sendiri **untuk tim kecil. Perangkat lunak obrolan web**  ini dikembangkan menggunakan Node.js dan MongoDB dan berfokus pada penyebaran yang mudah dan cepat. Anda dapat menginstalnya di server Anda dengan beberapa klik. Ini 100% gratis dan open source dengan kode sumbernya tersedia di GitHub.
 Apa yang membuat Let's Chat Unik dari perangkat lunak open source lainnya adalah fitur perusahaannya seperti otentikasi LDAP dan Kerberos. Perangkat lunak obrolan dukungan pelanggan **ini**  terus diperbarui oleh tim pengembangan dan semakin banyak fitur yang ditambahkan. Inilah fitur teratas yang tersedia sekarang
   * Otentikasi LDAP / Kerberos
@@ -66,7 +66,7 @@ Apa yang membuat Let's Chat Unik dari perangkat lunak open source lainnya adalah
   * Transkrip / riwayat obrolan
     [Baca lebih lanjut][9]
 
-## **botpress**    {#botpress}
+## **botpress** {#botpress}
 Chatbots sedang meningkat hari ini. Apakah Anda menggunakannya untuk penjualan, pemasaran, atau dukungan, mereka dapat menjadi tambahan yang bagus untuk tim virtual Anda.
 Oleh karena itu membuat Botpress adalah salah satu perangkat lunak Open Source **Live Chat yang paling populer untuk situs web** . Ini memiliki pembangun percakapan visual dan emulator untuk menguji percakapan Anda. Menggunakan AI dan Natural Language Mahahai (NLU). Oleh karena itu, memungkinkan spesialis yang berbeda untuk menyatukan pengetahuan mereka untuk membangun asisten percakapan yang lebih baik. Karenanya meningkatkan kekuatan mesin untuk memahami manusia.
 Kecerdasan buatan dan pembelajaran mesin telah meningkat pesat baru -baru ini. Oleh karena itu, permintaan untuk percakapan berbasis AI **Perangkat Lunak Obrolan Dukungan Pelanggan**  telah mendapatkan banyak dorongan. Jadi, berikut adalah fitur penting yang ditawarkan Botpress.

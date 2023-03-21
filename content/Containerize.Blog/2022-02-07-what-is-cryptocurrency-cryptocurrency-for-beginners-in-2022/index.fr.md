@@ -56,7 +56,7 @@ Après cela, vous devrez effectuer des chèques de sécurité, comme la fournitu
 Comment stockez-vous la crypto-monnaie? Vous pouvez stocker votre crypto-monnaie en ligne ou hors ligne. La façon la plus populaire de stocker la crypto-monnaie est en ligne dans un échange de crypto ou un portefeuille. Les échanges de crypto et les portefeuilles vous permettent de stocker, d'envoyer, de recevoir et de convertir la crypto en toute sécurité à l'aide de votre ordinateur, tablette ou smartphone.
 Où acheter une crypto-monnaie? Vous pouvez acheter une crypto-monnaie à partir d'un échange de crypto. Ci-dessous, nous avons compilé une liste de certaines des meilleures applications et échanges contre l'achat de crypto-monnaie au Royaume-Uni. N'oubliez pas que les cryptoassets sont un produit d'investissement non réglementé très volatile sans protection des investisseurs britannique ou européenne. Vous pourriez perdre tout l'argent que vous y mettez.
 
-## **Conclusion:**    {# 4A1A}
+## **Conclusion:** {#4A1A}
 J'espère que vous avez beaucoup appris et que vous êtes maintenant plus informé et bien informé du trading et de l'investissement des crypto-monnaies qu'au début. Maintenant c'est ton tour. Nous avons apprécié la recherche et l'écriture du guide en pensant à vous. Bonne chance!
 _ Que sont vos projets open source préférés de crypto-monnaie ?. Avez-vous des questions sur la monnaie numérique?, S'il vous plaît_ [contacter][1].
 

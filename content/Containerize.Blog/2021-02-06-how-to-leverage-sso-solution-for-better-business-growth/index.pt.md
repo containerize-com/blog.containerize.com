@@ -25,7 +25,7 @@ Recentemente, publicamos uma postagem no blog sobre [5 principais softwares de s
 [Somning-on único][6] é um software de identificação e **autenticação**  que permite fazer login usando sites de terceiros. O software SSO atua como um provedor de identidade para que você possa fazer login em vários sites com um único conjunto de nomes de usuário/senhas. No entanto, é um mecanismo de login único e o sistema SSO garante que a autenticidade dos usuários.
 Além disso, esse sistema tem sido amplamente utilizado em nível pequeno e empresarial para gerenciar as identidades do usuário em vários aplicativos. Existem muitos softwares de assinatura única de código aberto disponíveis que usam protocolos de autorização populares, como OpenID OpenID, SAML e OAuth.
 
-## **Como funciona o sinal único (SSO)?**    {#Features}
+## **Como funciona o sinal único (SSO)?** {#Features}
 O mecanismo de trabalho de **de código aberto único**  é reto. O usuário insere credenciais no formulário de login, o usuário será movido após a conclusão bem -sucedida da autenticação SSO. Agora, sempre que um usuário visita qualquer site que seja integrado a qualquer solução SSO, o sistema verificará que qualquer usuário já está conectado ou não. Além disso, se o usuário já estiver conectado, o servidor emitirá um rastreador/token e este token/rastreador será usado para garantir que sua autenticação em vários aplicativos. Juntamente com os recursos de SSO, ele também fornece recursos de gerenciamento e segurança de usuários, conforme mencionado abaixo.
   * Fácil de usar
   * Identidade federada

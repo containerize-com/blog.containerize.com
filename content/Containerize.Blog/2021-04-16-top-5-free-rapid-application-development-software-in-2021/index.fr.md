@@ -21,7 +21,7 @@ Dans nos précédents articles de blog, nous avons écrit sur la façon dont Rad
   * [Apache Isis][5]
   * [Conclusion][6]
 
-## Cuba Platform   {# cuba-plateform}
+## Cuba Platform   {#cuba-plateform}
 [Cuba Platform][7] est un logiciel de génération de code open source. Il est construit sur une architecture modulaire qui facilite le développement de autres composants. De plus, il propose une API REST qui utilise le protocole OAuth2 pour l'authentification. Il existe une prise en charge intégrée pour LDAP et SSO pour définir les autorisations utilisateur basées sur les rôles. De plus, ce logiciel RAD est livré avec son propre outil de développement nommé Cuba Studio ainsi que de nombreuses fonctionnalités puissantes telles que l'échafaudage, le déploiement à chaud et bien d'autres. Ce **RAD Framework**  est facile à configurer et nécessite Java 8 et Cuba Gradle Plugin. De plus, la plate-forme Cuba est écrite en Java et est livrée avec toutes les documents concernant le développement et le déploiement. Par conséquent, tout le code source est disponible sur [GitHub][8].
 Cuba Platform propose les points clés suivants:
   * Prise en charge de OAuth2
@@ -51,7 +51,7 @@ Jhipster propose les caractéristiques importantes suivantes:
   * Prise en charge des bases de données NoSQL / SQL
 [En savoir plus sur Jhipster][12]
 
-## li3   {# li3}
+## li3   {#li3}
 [LI3][14] est un logiciel PHP RAD avec une architecture robuste. Ce développement d'applications rapides Web est très adaptable et léger. Il propose de riches piles technologiques telles que MongoDB, CouchDB, Elasticsearch, PHP ActiveRecord et PSR-4. Il est multilingue et prend en charge de nombreuses langues. Les exigences pour configurer ce **MVP Builder**  sont PHP et compositeur. De plus, il a un soutien communautaire très dynamique qui résout instantanément les bogues et les problèmes. Cependant, cet outil gratuit prend en charge l'intégration tierce ainsi que les capacités de recherche globale. LI3 est écrit en PHP et est livré avec toutes les documents concernant le développement et le déploiement. Par conséquent, tout le code source est disponible chez [GitHub][15].
 LI3 a les caractéristiques clés suivantes:
   * Prise en charge de DB multiple
@@ -61,7 +61,7 @@ LI3 a les caractéristiques clés suivantes:
   * Prise en charge de DB multiple
 [En savoir plus sur Li3][16]
 
-## Apache Isis   {# Apache-Isis}
+## Apache Isis   {#Apache-Isis}
 [Apache Isis][17] est un autre logiciel de prototypage gratuit **pour créer des applications axées sur le domaine. Il est livré avec un tableau de bord réactif et intuitif qui permet aux utilisateurs d'effectuer des agrégations sur les données. De plus, ce logiciel de développement rapide des applications open source prend également en charge le multittenance. De plus, il utilise le framework de sécurité Java Apache Shiro pour l'authentification et l'autorisation. Cet outil gratuit est facile à configurer avec des exigences telles qu'Apache Maven et Java. Ce  **RAD Framework**   est facile à configurer avec Easy plus facile, Apache Isis est écrit dans Java Sprint Boot et est livré avec toutes les documents concernant le développement et le déploiement. Par conséquent, tout le code source est disponible chez [GitHub][18].
 Voici les caractéristiques importantes:
   * Visionneuse de guichet Ooui

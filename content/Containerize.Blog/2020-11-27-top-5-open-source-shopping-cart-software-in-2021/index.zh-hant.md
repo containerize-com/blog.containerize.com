@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-shopping-cart-software-in-2021/
 categories: ['Shopping Cart Software']
 ---
 
-##使用流行的最佳開源電子商務平台建立在線商店。我們彙編了2021年前5個開源購物車軟件的列表。
+## 使用流行的最佳開源電子商務平台建立在線商店。我們彙編了2021年前5個開源購物車軟件的列表。
 
 {{< figure align=center src="images/Top-5-Open-Source-Shopping-Cart-Software.png" alt="前5名開源購物車軟件">}}
 

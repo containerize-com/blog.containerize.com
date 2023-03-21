@@ -155,7 +155,7 @@ Para pequenas equipes e indivíduos, o UIPATH fornece a edição da comunidade. 
 **Melhor para:**  Empresas pesadas de informações que desejam processos de negócios acelerados.
 **[Saiba mais sobre Kofax][5]** 
 
-## **Conclusão:**    {#4A1A}
+## **Conclusão:** {#4A1A}
 As cinco ferramentas RPA de código aberto acima são as ferramentas RPA de código aberto mais populares e melhores para desenvolvedores. Além da nossa comparação de cada ferramenta em detalhes aqui, o Blue Prism é a melhor ferramenta, mas você deve ser treinado antes de usá -la. E o treinamento também é caro. O UIPATH é fácil de usar, mesmo para não desenvolvedores. Ele fornece os mesmos recursos e até os servidores de pequenos indústrias de escala. Para aplicativos de estação de trabalho, o Contextor é a melhor opção, pois eles têm uma especialidade.
 _ Quais são as suas ferramentas RPA de código aberto mais favorito?. Você tem alguma dúvida sobre as ferramentas RPA de código aberto?, Por favor [[entre em contato][6].
 

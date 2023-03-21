@@ -21,12 +21,12 @@ Esses **mecanismos de jogo gratuitos  **vêm não apenas ajudam a fornecer lanç
   ***[Como configurar no localhost?][2]** 
   ***[Conclusão][3]** 
 
-## **O que é gdevelo.**    {#Intro}
+## **O que é gdevelo.** {#Intro}
 O GDevelop é um software de desenvolvimento de videogame de código aberto gratuito. É auto-hospedado e oferece recursos ricos para desenvolver jogos 2D. No entanto, há suporte disponível para objetos 3D. Os usuários não precisam de nenhum tipo de habilidades de programação para desenvolver e publicar jogos para várias plataformas. É altamente extensível e fácil de configurar, pois requer requisitos fáceis para se auto-hospedar esse mecanismo de jogo gratuito. Existe uma interface de usuário intuitiva com recursos de arrastar e soltar. Essa ferramenta gratuita fornece animações de alta classe, efeitos de vídeo/áudio, tela sensível ao toque e multi-touch, visualização ao vivo e muito mais. Além disso, este **designer de jogos 3D**  apresenta poderosos recursos de prototipagem que ajudam os desenvolvedores a desenvolver um bom produto com base no protótipo.
 Além disso, este fabricante de jogos fácil ** é altamente configurável e suporta integrações com bibliotecas de terceiros. Acima de tudo, ele fornece suporte para Xbox e PlayStation, que são consoles populares de videogame. O GDevelop está escrito em C ++, JavaScript e TypeScript. Há documentação detalhada disponível em relação à implantação e desenvolvimento. O GDevelop possui uma comunidade de desenvolvedores muito vibrantes que responde ativamente a bugs e consultas. Portanto, todo o código -fonte está disponível no [Github][4].
 [Saiba mais sobre o GDevelop][5]
 
-## **Como configurar no localHost?**    {#setup}
+## **Como configurar no localHost?** {#setup}
 Na seção deste tutorial **gdevell** , veremos como podemos configurar o GDevelop em nosso sistema local. Antes de seguir para as próximas etapas, verifique se você instalou os seguintes pré-requisitos.
   * Git
   * Node.js 12.x
@@ -67,7 +67,7 @@ Você pode selecionar qualquer jogo como iniciante, como neste tutorial, pode ve
 
 Dessa forma, você pode explorar e tentar outros recursos. Este **Easy Game Maker**  é fácil de desenvolvedor e fornece um painel intuitivo. Depois de terminar o desenvolvimento do seu jogo, você pode exportá -lo para várias plataformas, como Android, iOS e Web.
 
-## **CONCLUSÃO**    {#conclusion}
+## **CONCLUSÃO** {#conclusion}
 Isso acaba com este tutorial do GDevelop. Este mecanismo de jogo grátis **permite implementar a lógica dos jogos usando eventos visuais. Possui uma comunidade muito solidária que fez muitos tutoriais úteis e manuais do usuário. Esta postagem do blog realmente o ajudará se você for novo no mundo do desenvolvimento de jogos. Existem muitos outros designers  **de jogo 3D**  , ferramentas de desenvolvimento de jogos e artigos mencionados na seção Explore abaixo. Todos esses mecanismos de jogo são gratuitos, de código aberto e apresentam recursos de auto-hospedagem. Portanto, o setor de desenvolvimento de jogos está se expandindo imensamente com o aumento do número de jogadores. Existem videogames com gráficos de alta definição e efeitos sonoros que desencadeiam interesse e atração nos jogadores. No entanto, escolha um software de desenvolvimento de jogos bem-realizado que traga qualidade e eficiência ao seu trabalho.
 Por fim, o CONTERIZE.COM está pronto para aprimorar sua base de tutoriais com alguns tutoriais de desenvolvimento de jogos mais interessantes. Por favor, mantenha -se conectado com esta categoria [Software de Desenvolvimento de Jogo][6] em [contémize.com][7] para atualizações regulares.
 

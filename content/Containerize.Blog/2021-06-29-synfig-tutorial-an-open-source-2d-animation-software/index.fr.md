@@ -38,7 +38,7 @@ sudo apt-get install synfigstudio
 ```
 Vous devez maintenant pouvoir accéder facilement à Synfig Studio.
 
-## Présentation de l'interface d'application   {# Application-Interface}
+## Présentation de l'interface d'application   {#Application-Interface}
 Comme nous l'avons mentionné ci-dessus, Synfig Studio est un logiciel d'animation open source qui permet aux utilisateurs de créer des animations 2D de traitement rapide et rapides. Afin de comprendre les outils et les fonctionnalités, voici un aperçu rapide du studio Synfig lorsque vous commencez à l'utiliser.
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software-1-1024x649.png" alt="Synfig Tutorial Un logiciel d'animation 2D open source">}}
@@ -49,7 +49,7 @@ Comme nous l'avons mentionné ci-dessus, Synfig Studio est un logiciel d'animati
   * **Panneau des paramètres:**  Vous trouverez ici toutes les options et paramètres détaillés pour les éléments actifs sur votre animation comme la couleur, la largeur, l'opacité, etc. C'est l'un des composants principaux de Synfig.
 Passons maintenant à la création d'une animation avec Synfig Studios.
 
-## Comment créer une animation de base avec Synfig?   {# create-animation}
+## Comment créer une animation de base avec Synfig?   {#create-animation}
 Dans cette partie de l'article, nous vous donnerons un tutoriel étape par étape sur la façon de créer une animation de base avec Synfig Studio. Commençons.
 {{_LINE_40_}}
 {{_LINE_41_}}

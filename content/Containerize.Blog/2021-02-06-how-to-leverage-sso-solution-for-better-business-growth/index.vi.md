@@ -25,7 +25,7 @@ Gần đây, chúng tôi đã xuất bản một bài đăng trên blog trên [5
 . Phần mềm SSO hoạt động như một nhà cung cấp danh tính để bạn có thể đăng nhập vào nhiều trang web với một bộ tên người dùng/mật khẩu duy nhất. Tuy nhiên, đó là cơ chế đăng nhập một lần và hệ thống SSO đảm bảo tính xác thực của người dùng.
 Hơn nữa, hệ thống này đã được sử dụng rộng rãi trên cấp độ nhỏ và doanh nghiệp để quản lý danh tính của người dùng trên nhiều ứng dụng. Có nhiều phần mềm đăng nhập đơn nguồn mở có sẵn sử dụng các giao thức ủy quyền phổ biến như OpenID OpenID, SAML và OAuth.
 
-##  **Cách đăng nhập đơn (SSO) hoạt động?**    {#Features}
+##  **Cách đăng nhập đơn (SSO) hoạt động?** {#Features}
 Cơ chế làm việc của  **Đăng nhập đơn nguồn mở**  là thẳng. Người dùng nhập thông tin đăng nhập vào mẫu đăng nhập, người dùng sẽ được chuyển khi hoàn thành xác thực SSO thành công. Bây giờ, bất cứ khi nào người dùng truy cập bất kỳ trang web nào được tích hợp với bất kỳ giải pháp SSO nào, hệ thống sẽ kiểm tra hoặc người dùng đã đăng nhập hay không. Hơn nữa, nếu người dùng đã đăng nhập, máy chủ sẽ phát hành trình theo dõi/mã thông báo và mã thông báo/máy theo dõi này sẽ được sử dụng để đảm bảo xác thực của bạn trên nhiều ứng dụng. Cùng với các khả năng của SSO, nó cũng cung cấp các tính năng quản lý và bảo mật người dùng như được đề cập dưới đây.
   * Dễ sử dụng
   * Nhận dạng liên kết

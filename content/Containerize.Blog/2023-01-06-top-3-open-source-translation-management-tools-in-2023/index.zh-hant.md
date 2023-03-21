@@ -9,7 +9,7 @@ url: /zh-hant/top-3-open-source-translation-management-tools-in-2023/
 categories: ['Software Development']
 ---
 
-##選擇適用於企業級業務應用程序的正確本地化管理平台。本文將幫助您做出正確的選擇。
+## 選擇適用於企業級業務應用程序的正確本地化管理平台。本文將幫助您做出正確的選擇。
 
 {{< figure align=center src="images/blog-banners-template-1.png" alt="開源翻譯管理工具">}}
 
@@ -27,7 +27,7 @@ categories: ['Software Development']
 如果您想嘗試一下，則可以在[Github][7]倉庫上找到其代碼，其中包括所有提到的安裝說明。這個免費的翻譯管理系統具有管理多個翻譯文件的能力。此外，您可以構建自定義適配器並執行許多其他自定義以滿足您的業務需求。基本上，它通過靜態分析來完成所有過程，並為用戶提供交互式控制台。此外，此開源TMS提供了與DeepL和Google翻譯的集成。
 **[了解有關I18N任務的更多信息][5]**
 
-## **tolgee**    {#tolgee}
+## **tolgee** {#tolgee}
 [Tolgee][8]是企業級開源**翻譯管理系統。**它具有具有豐富功能的自託管功能。該TMS用Kotlin和TypeScript編寫，並與幾乎所有流行的JavaScript框架（例如Next.js，Angular，Vue等）提供集成。此外，此免費TMS在[Github][9]上提供了所有源代碼，並提供有關開發和部署的全面文檔。
 
 {{< figure align=center src="images/tolgeelogo.png" alt="翻譯管理系統">}}
@@ -42,7 +42,7 @@ categories: ['Software Development']
 。
 [**了解更多有關Tolgee **][8]
 
-## **Traduora**    {#traduora}
+## **Traduora** {#traduora}
 [Traduora][13]是自動化翻譯工作流程的另一個開源軟件。此免費TMS還用打字稿和其他語言的輸入（例如HTML，JavaScript，CSS等）編寫。此外，您可以自我主持，因為Github上有有關其開發和部署的完整文檔。此外，還有一個開源翻譯管理軟件的Docker映像，您可以通過旋轉Docker的容器來設置此軟件。
 最重要的是，Traduora暴露了REST API與第三方應用程序集成。在此免費TMS中有完整的身份驗證實現。
 Traduora提出了以下關鍵功能：
@@ -58,7 +58,7 @@ Traduora提出了以下關鍵功能：
 總而言之，我們在2023年瀏覽了前三名開源翻譯管理工具。我們還探索了他們的GitHub統計數據和功能。此博客文章中入伍的所有翻譯管理工具都是免費和開源的。此外，此類別的開源軟件有一致的改進。因此，如果您希望安裝良好的本地化管理平台以獲取為您的業務軟件獲得網站本地化服務，那麼本文將為您提供幫助。 “另請參見”部分中有其他文章，因此請不要忘記檢查它們。
 最後，[**containerize.com** ][14]正在撰寫有關進一步開源產品的文章。因此，請保持聯繫以進行定期更新。
 
-##問一個問題 {#ask-a-question}
+## 問一個問題 {#ask-a-question}
 您可以在我們的[論壇][15]上讓我們知道您的問題或查詢。
 
 ## FAQS   {#FAQS}
@@ -67,7 +67,7 @@ Traduora提出了以下關鍵功能：
 **翻譯中的TMS系統是什麼？**
 翻譯管理系統使各種翻譯過程自動化並提高了翻譯效率。
 
-##另請參見 {#see-also}
+## 另請參見 {#see-also}
   * [為什麼需要翻譯管理系統？][1]
   * [使用免費和開源軟件自動化業務運營][16]
 

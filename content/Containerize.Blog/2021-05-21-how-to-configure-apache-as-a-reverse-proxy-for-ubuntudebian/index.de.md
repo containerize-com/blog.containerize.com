@@ -92,7 +92,7 @@ Um diese Änderungen in Kraft zu setzen, starten Sie Apache neu, indem Sie den f
 sudo systemctl starten Sie Apache2.service neu
 Glückwunsch! Sie haben Apache2 Reverse -Proxy erfolgreich installiert und konfiguriert auf Ihrem Linux -System.
 
-## **Fazit:**    {#4A1a}
+## **Fazit:** {#4A1a}
 In diesem Tutorial haben wir Schritt für Schritt untersucht und diskutiert, was ein Proxy -Server und ein Apache -Reverse -Proxy -Beispiel für die Konfiguration ist. Wir haben auch gelernt, Apache2 als Reverse -Proxy auf einem Linux -System einzurichten und zu konfigurieren. In unseren bevorstehenden Tutorials werden wir mehr interessante Themen zu Apache und anderen Webserver -Lösungsstapeln besprechen.
 
 ## Erkunden

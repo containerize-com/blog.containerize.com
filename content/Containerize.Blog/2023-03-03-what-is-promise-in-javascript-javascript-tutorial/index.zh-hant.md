@@ -9,7 +9,7 @@ url: /zh-hant/what-is-promise-in-javascript-javascript-tutorial/
 categories: ['Programming']
 ---
 
-##您是否在努力學習JavaScript承諾的概念？本文將解釋如何創造承諾，為什麼我們在JavaScript中使用Promise等等。
+## 您是否在努力學習JavaScript承諾的概念？本文將解釋如何創造承諾，為什麼我們在JavaScript中使用Promise等等。
 
 {{< figure align=center src="images/What-is-Promise-in-JavaScript-Promises-Explained.png" alt="What is Promise in JavaScript? " >}}
 
@@ -29,7 +29,7 @@ categories: ['Programming']
 **拒絕**：這是由任何錯誤引起的狀態，這意味著承諾已被拒絕。
 這裡要考慮的重要一件事是，承諾返回的價值/狀態是不可變的，不能改變，這意味著諾言確保沒有異常行為。
 
-##為什麼我們在JavaScript中使用Promise？   {#為什麼WE-使用promise-in-javaScript}
+## 為什麼我們在JavaScript中使用Promise？   {#為什麼WE-使用promise-in-javaScript}
 如果您不知道**回調地獄**，那麼讓我分享它的本質。首先，回調是另一個功能中的功能。基本上，在接收結果後執行的函數中將回調函數作為第二個參數傳遞。因此，在許多情況下，您需要嵌套回調功能，並且隨著嵌套的增加，它幾乎無法處理。因此，我們稱這是回調功能的長嵌套**回調地獄**。
 因此，諾言是避免回調地獄情況的一種方式。承諾的使用可提供更好的可讀性和改善的錯誤處理。此外，您可以通過檢索返回的值並將該值傳遞給鏈中的下一個功能來更好地處理異步操作。
 
@@ -40,7 +40,7 @@ categories: ['Programming']
 
 根據上述工作流程，實現細節非常明確。承諾在其創建時開始執行，並處於等待響應的等待狀態。有兩個選項要么會有數據，要么在處理結束時會出現錯誤。接收到數據後，它進入.CACT（）塊，並在錯誤時進入.catch（）塊。
 
-##如何創造諾言？   {#操作方法create-a-promise}
+## 如何創造諾言？   {#操作方法create-a-promise}
 到目前為止，我們已經涵蓋了承諾的基本概念。現在，我們將探索如何在JavaScript中創建諾言。讓我們使用以下承諾構造函數來創造諾言。
 ```
 let promise = new Promise(function(resolve, reject) {
@@ -102,7 +102,7 @@ promise is completed
 ## 問一個問題
 您可以在我們的[論壇][11]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **JavaScript中有什麼承諾？**
 請按照此[鏈接][3]知道JavaScript中的承諾。
 

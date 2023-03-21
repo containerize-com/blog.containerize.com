@@ -82,17 +82,17 @@ sudo a2ensite apache2proxy.conf
 sudo systemctl redémarrer apache2.service
 Lancez un navigateur Web de votre choix et accédez à votre nom d'hôte de serveur comme Example.com. Vous serez désormais proxéré sur votre serveur Apache2 sur le port par défaut, c'est-à-dire 8080.
 
-## Étape 4: Activez le SSL   {# Block-07B86D83-DCA0-4924-B991-206719C342EB}
+## Étape 4: Activez le SSL   {#Block-07B86D83-DCA0-4924-B991-206719C342EB}
 Si vous souhaitez activer le module SSL Proxy Reverse Apache Reverse, puis exécutez la commande ci-dessous pour activer Apache Reverse Proxy HTTPS Proxy Pass:
 sudo a2enmod ssl
 Cela fournira un proxy inversé APACHE sécurisé HTTP à la prise en charge HTTPS pour backend serveurs.
 
-## Étape 5: Redémarrez Apache2   {# Block-836BB4FF-17AD-4317-8ECB-153104BD28A7}
+## Étape 5: Redémarrez Apache2   {#Block-836BB4FF-17AD-4317-8ECB-153104BD28A7}
 Pour apporter ces changements en effet, redémarrez Apache en exécutant la commande ci-dessous:
 sudo systemctl redémarrer apache2.service
 Toutes nos félicitations! Vous avez réussi et configuré le proxy inversé APACHE2 sur votre système Linux.
 
-## **Conclusion:**    {# 4A1A}
+## **Conclusion:** {#4A1A}
 Dans ce didacticiel, nous avons exploré et discuté de ce qui est un serveur proxy et une configuration de la configuration proxy inverse Apache étape par étape. Nous avons également appris à configurer et à configurer APACHE2 comme proxy inverse sur un système Linux. Dans nos prochains tutoriels, nous discuterons de sujets plus intéressants sur Apache et d'autres piles de solutions de serveurs Web.
 
 ## Explorer

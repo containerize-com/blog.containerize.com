@@ -9,7 +9,7 @@ url: /zh-hant/how-to-optimize-your-website-using-gzip-compression-in-nginx/
 categories: ['Web Server Solution Stack']
 ---
 
-##該教程指導您如何優化網站性能並通過使用NGINX中的GZIP壓縮減少文件大小來快速地進行。
+## 該教程指導您如何優化網站性能並通過使用NGINX中的GZIP壓縮減少文件大小來快速地進行。
 
 {{< figure align=center src="images/enable-gzip-compression-in-nginx.png" alt="如何在Nginx中啟用GZIP壓縮">}}
 
@@ -21,11 +21,11 @@ categories: ['Web Server Solution Stack']
   * [驗證GZIP壓縮][5]
   * [結論][6]
 
-##網站優化， {#optimize}
+## 網站優化， {#optimize}
 網站的性能取決於許多因素。部分取決於部分的因素之一是用戶瀏覽器必須從服務器下載的所有文件的大小。減少或壓縮這些傳輸文件的大小可以使用戶更快地加載您的網站加載。如果您支付計量連接的帶寬使用費，它還可以減少網站的賬單。因此，壓縮可以在您的網站優化中發揮非常重要的作用。
 由於Google和其他搜索引擎正在考慮網站的用戶體驗（UX）是其排名算法的關鍵因素。改進和優化您的網站以獲得最高評分變得越來越重要。要注意的最重要的因素之一是頁面速度和加載時間。而且，提高網站速度和性能的最快和最簡單方法是在您的網站上啟用GZIP壓縮。
 
-##什麼是GZIP壓縮？   {#什麼gzip}
+## 什麼是GZIP壓縮？   {#什麼gzip}
 GZIP是用於文件壓縮和解壓縮的**文件格式和軟件應用程序**。 Web服務器或其他軟件使用GZIP壓縮將數據文件發送到用戶瀏覽器之前。這減少了文件下載時間，這使您的網站更快。所有現代瀏覽器都支持GZIP壓縮。
 同樣重要的是要注意，必須在Web服務器上啟用GZIP壓縮，然後才能啟用文件和文件夾壓縮。不久，我們將看到如何在NGINX中啟用GZIP壓縮。
 
@@ -34,7 +34,7 @@ GZIP是最流行的壓縮方法，由Web服務器和瀏覽器使用，以通過I
 默認情況下，GZIP壓縮不會壓縮圖像或視頻。這就是為什麼大多數網站速度測試工具（例如Google PagesPeed Insights）強烈建議啟用GZIP壓縮。
 當Web服務器收到網頁請求時，Web服務器會檢查請求的標題，以檢查瀏覽器是否支持GZIP。如果是這樣，服務器在應用GZIP之前會生成頁面的標記。 GZIP將HTML標記轉換為壓縮數據，然後將其傳遞到最終用戶。當最終用戶收到壓縮數據時，他們的瀏覽器將其解壓縮。
 
-##啟用nginx中的gzip壓縮 {#enable-gzip}
+## 啟用nginx中的gzip壓縮 {#enable-gzip}
 要更改Nginx GZIP配置，請在“ _VI_”或您喜歡的文本編輯器中打開主Nginx配置文件：
 ```
 sudo vi /etc/nginx/nginx.conf
@@ -98,7 +98,7 @@ gzip_types
 ```
 現在，重新啟動NGINX以進行新的設置。
 
-##驗證GZIP壓縮 {#verify}
+## 驗證GZIP壓縮 {#verify}
 現在，我們已經啟用了GZIP壓縮，讓我們對其進行驗證。
 ```
 curl -H "Accept-Encoding: gzip" -I http://localhost/test.html
@@ -117,7 +117,7 @@ ETag: W/"6222dc8d-500"
 <strong>Content-Encoding: gzip</strong>
 ```
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在本文中，我們了解到您可以使用Nginx GZIP模塊加快文件傳輸。我們向您展示瞭如何使用GZIP模塊在NGINX中啟用GZIP壓縮的逐步向您展示。 [GZIP模塊][7]的官方文檔列出了您可能想查看的其他配置指令。希望本教程可以幫助您優化網站性能和速度。
 
 ## 探索

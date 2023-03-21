@@ -23,11 +23,11 @@ Les points suivants seront couverts dans cet article:
   * **[Outils sociaux chez Humhub - plate-forme de médias sociaux open source][8]**
   * **[Humhub Marketplace][9]**
 
-## Pourquoi devriez-vous opter pour Humhub?   {# Pourquoi-sailf-you-opt-for-huhub}
+## Pourquoi devriez-vous opter pour Humhub?   {#Pourquoi-sailf-you-opt-for-huhub}
 Eh bien, il existe de nombreuses options open source, mais Humhub est celui qui se démarque en raison de sa riche utilisation et de sa pile de fonctionnalités. Ce réseau social auto-hébergé est facile à mettre en place sur des serveurs locaux ou cloud. Il nécessite des exigences simples pour installer ces logiciels de sources ouvertes telles qu'Apache Webserver 2.4, nginx avec PHP-FPM et PHP. En ce qui concerne la documentation, il offre une documentation complète concernant le développement, le déploiement et l'utilisation.
 Cette**plate-forme de réseau social open source**est écrite en PHP, il existe donc une énorme communauté de développeurs. La chose la plus intéressante à propos de Humhub est que vous pouvez personnaliser ce**logiciel open source**selon vos besoins.
 
-## Pour commencer avec Humhub   {# Get-Started-with-Humhub}
+## Pour commencer avec Humhub   {#Get-Started-with-Humhub}
 La version gratuite de Humhub offre 5 utilisateurs et 500 Mo de stockage. Cependant, vous pouvez commencer à créer votre propre instance en suivant ce [lien][5]. Il vous sera demandé de soumettre des informations telles que votre adresse e-mail et plus comme indiqué dans l'image ci-dessous:
 
 {{< figure align=center src="images/Screenshot-2023-01-13-at-8.48.11-PM-1-1024x584.png" alt="Commencer avec Humhub">}}
@@ -37,7 +37,7 @@ Après avoir inséré le nom du réseau, l'assistant sera terminé. Maintenant, 
 {{< figure align=center src="images/Screenshot-2023-01-13-at-9.04.11-PM-1024x929.png" alt="site de médias sociaux">}}
 
 
-## Outils sociaux chez HUMHUB - Plateforme de médias sociaux open source   {# Social-Tools-at-Humhub --- Open-source-Social-Media-plateform}
+## Outils sociaux chez HUMHUB - Plateforme de médias sociaux open source   {#Social-Tools-at-Humhub --- Open-source-Social-Media-plateform}
 Dans cette section, nous passerons par des fonctionnalités passionnantes offertes par [Humhub][4]. Cela pourrait être une alternative de réseau social prolifique si vous utilisez d'autres plateformes de réseautage social pour votre organisation.
 Une fois que vous avez configuré le réseau, un tableau de bord intuitif apparaîtra comme indiqué dans l'image ci-dessous:
 
@@ -46,7 +46,7 @@ Une fois que vous avez configuré le réseau, un tableau de bord intuitif appara
 Ainsi, comme vous pouvez le voir, il existe un menu déroulant dans le coin supérieur droit de l'écran où vous pouvez trouver les paramètres utilisateur et le module d'administration. De plus, l'hébergement cloud est également disponible lorsque vous pouvez personnaliser votre instance HumHub et peut y mcrir votre propre nom de domaine. Sur la barre de navigation supérieure, vous créez des espaces publics / privés et définissez la méthode pour inviter les gens dans votre réseau. Vous pouvez définir la politique d'adhésion telle que «uniquement par invitation», «inviter et demander» et «tout le monde peut entrer».
 De plus, le tableau de bord de cette**plate-forme de médias sociaux open source**est très logique et conviviale. Il vous montre le panneau de journal d'activité sur le côté droit de l'interface utilisateur. Surtout, l'espace central est l'endroit où vous publiez les trucs, et les gens aiment ou commentent les messages. En fait, dans la section des commentaires, vous pouvez également télécharger des fichiers multimédias. Une autre option intéressante est que vous pouvez inviter des personnes dans le réseau à participer aux discussions. L'interface utilisateur contient de riches options de filtre et une fonction de recherche globale avec laquelle vous pouvez rechercher diverses entités de données. De plus, vous pouvez personnaliser l'élément de tableau de bord.
 
-## Humhub Marketplace   {# Humhub-Marketplace}
+## Humhub Marketplace   {#Humhub-Marketplace}
 Le marché de ce réseau social auto-hébergé est assez riche car vous pouvez trouver des modules et des thèmes. Certains d'entre eux sont gratuits et certains d'entre eux sont payés. De plus, vous pouvez trouver des modules appartenant à diverses catégories telles que la collaboration, l'administration, les intégrations, la communication, etc. Ainsi, vous pouvez visiter ce [lien][10] pour en savoir plus sur le marché de Humhub.
 L'interface utilisateur fournit des détails sur tous les plugins disponibles comme vous pouvez le voir dans l'image ci-dessous.
 

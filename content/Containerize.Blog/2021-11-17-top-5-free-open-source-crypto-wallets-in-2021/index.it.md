@@ -43,7 +43,7 @@ Copay ha le seguenti caratteristiche chiave:
   * Altamente protetto
 **[Scopri di più su Copay][11]**
 
-## **BreadWallet**    {#BreadWallet}
+## **BreadWallet** {#BreadWallet}
 **[Breadwallet][12]**è un'altra opzione popolare tra i top  **Portafogli Crypto open source ** . Questo portafoglio digitale open source è facile da usare e fornisce connessioni dirette con la rete blockchain per transazioni rapide e rapide. Inoltre, questo  **software di portafoglio gratuito**   è sviluppato da The Bread Company ed è disponibile per le piattaforme mobili. Inoltre, offre un'interfaccia utente logica e facile in cui gli utenti possono navigare facilmente. Breadwallet offre molte potenti funzionalità come transazioni anonime, supporto per più lingue e molte altre. Inoltre, gli utenti non devono iscriversi a utilizzare questo portafoglio cripto open source.
 Breadwallet offre le seguenti caratteristiche importanti:
   * Widget personalizzabili

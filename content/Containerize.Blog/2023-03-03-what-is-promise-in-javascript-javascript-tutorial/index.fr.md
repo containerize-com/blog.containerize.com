@@ -22,25 +22,25 @@ Nous couvrirons les points suivants dans ce tutoriel JavaScript:
   * **[Comment la promesse fonctionne dans JavaScript?][5]**
   * **[Comment créer une promesse?][6]**
 
-## Qu'est-ce que la promesse dans JavaScript? Promises expliquées   {# What-Is-Is-Promise-in-Javascript-Promises-expliqué}
+## Qu'est-ce que la promesse dans JavaScript? Promises expliquées   {#What-Is-Is-Promise-in-Javascript-Promises-expliqué}
 Une promesse est un objet qui représente une valeur d'une météo de l'opération asynchrone, il est résolu, rejeté ou est en attente. En mots plus simples, les promesses sont utilisées pour renvoyer une valeur qui n'a pas encore été produite par un bloc de code asynchrone. En fait, il y a trois**états de promesse**et il peut être dans l'un des états suivants:
 **En attente**: la promesse est dans un état en attente, ce qui signifie qu'il est en phase de départ et est actuellement en exécution.
 **FALUPLÉ**: La promesse est résolue et la valeur a été renvoyée.
 **Rejeté**: C'est l'état qui est causé par toute erreur qui signifie que la promesse a été rejetée.
 Une chose importante à considérer ici est que la valeur / l'état renvoyé par la promesse est immuable et ne peut pas être modifié, ce qui signifie que les promesses s'assurent qu'il n'y a pas de comportement inhabituel.
 
-## Pourquoi utilisons-nous la promesse en javascript?   {# Pourquoi-user-promise-in-javascript}
+## Pourquoi utilisons-nous la promesse en javascript?   {#Pourquoi-user-promise-in-javascript}
 Si vous n'êtes pas au courant de**Rappel Hell**, permettez-moi de partager ce que c'est. Tout d'abord, un rappel est une fonction dans une autre fonction. Fondamentalement, une fonction de rappel est passé comme un deuxième argument dans une fonction qui s'exécute lors de la réception des résultats. Ainsi, dans de nombreux scénarios, vous devez nicher une fonction de rappel et à mesure que la nidification augmente, il devient presque impossible à gérer. Par conséquent, nous appelons cette longue nidification des fonctions de rappel**Hellback Hell**.
 Ainsi, une promesse est un moyen d'éviter une situation d'enfer de rappel. L'utilisation des promesses donne une meilleure lisibilité et une amélioration des erreurs. De plus, vous pouvez mieux gérer les opérations asynchrones en récupérant la valeur renvoyée et en passant cette valeur à la fonction suivante de la chaîne.
 
-## Comment la promesse fonctionne dans JavaScript?   {# How-Promise-works-in-javascript}
+## Comment la promesse fonctionne dans JavaScript?   {#How-Promise-works-in-javascript}
 Maintenant, comprenons le mécanisme de travail derrière les promesses. Veuillez consulter le diagramme mentionné ci-dessous.
 
 {{< figure align=center src="images/what-is-a-promise.png" alt="Comment la promesse fonctionne dans JavaScript??" >}}
 
 Selon le flux de travail mentionné ci-dessus, les détails de mise en œuvre sont assez clairs. Promise démarre l'exécution sur sa création et est dans l'état en attente en attente de la réponse. Il y a deux options, soit il y aura des données, soit il y aura une erreur à la fin du traitement. Lors de la réception de données, il va dans le bloc. Ensuite () et il va dans le bloc .catch () en cas d'erreur.
 
-## Comment créer une promesse?   {# Comment promener-une promesse}
+## Comment créer une promesse?   {#Comment promener-une promesse}
 Jusqu'à présent, nous avons couvert le concept de base de la promesse. Maintenant, nous allons explorer comment pouvons-nous créer une promesse en JavaScript. Utilisons le constructeur de promesses suivant pour créer une promesse.
 ```
 let promise = new Promise(function(resolve, reject) {

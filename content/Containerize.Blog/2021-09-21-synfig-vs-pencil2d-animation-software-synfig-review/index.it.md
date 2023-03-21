@@ -22,7 +22,7 @@ Pertanto, prendi una decisione saggia e adotta un buon software di animazione op
   * **[Confronto di synfig & **matincil2d **][12]** 
   * **[Conclusione][13]**
 
-##  **Come usare synfig?**    {#review}
+##  **Come usare synfig?** {#review}
 Synfig è una suite di animazione 2D basata su vettori open source. È multipiattaforma e fornisce supporto per quasi tutte le piattaforme popolari come Windows, Linux e MacOS. Inoltre, è facile da distribuire e viene fornito con capacità di auto-ospite. Non fornisce solo abilità di animazione 2D, ma fornisce anche supporto 3D. Utilizza il sistema di animazione "Tweenless" per rendere robusto il processo di animazione. Inoltre, è conveniente, risparmiando tempo e offre controlli avanzati agli utenti. Allo stesso modo, gli animatori possono costruire caratteri avanzati e strutture dinamiche. Tutto il codice sorgente di questo software di animazione 2D semplice** è disponibile su [github][14]. Pertanto, gli utenti possono passare attraverso tutta la documentazione per quanto riguarda la distribuzione e lo sviluppo.
 
 ## come usare la matil2d?   {#matita}

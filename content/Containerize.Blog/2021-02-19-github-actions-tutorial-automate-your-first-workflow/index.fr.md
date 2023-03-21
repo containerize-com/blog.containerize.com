@@ -28,7 +28,7 @@ CI / CD est une méthode de déploiements fréquents de vos projets de développ
  **L'intégration continue **  est un ensemble de pratiques qui encourage les équipes de développement à vérifier fréquemment le code de contrôle des versions. Et, pour chaque poussée vers le référentiel, vous pouvez créer un ensemble de scripts pour créer et tester automatiquement votre application. Ces scripts aident à réduire les chances d'introduire des erreurs dans votre application.
  **Déploiement continu **  est une longueur d'avance dans vos workflows CI / CD. Il a non seulement construit et teste votre application chaque fois qu'une modification de code est poussée vers la base de code, mais l'application est également déployée en continu sur votre serveur.
 
-## Quelles sont les actions github   {# github-actions}
+## Quelles sont les actions github   {#github-actions}
 Dans la section de ce didacticiel GitHub Actions, nous saurons quelles sont les actions  **GitHub ** . Cependant, GitHub Actions est une API pour la cause et l'effet sur GitHub. Il est facile d'automatiser tous vos flux de travail logiciels, maintenant avec CI / CD. Vous pouvez concevoir n'importe quel flux de travail, basé sur n'importe quel événement, par exemple (push to a Branch, Pull Demande, etc.), tandis que GitHub gère l'exécution. Cependant, vous n'avez pas besoin d'écrire les actions par vous-même. Github a un marché intégré où les gens peuvent trouver des actions créées par d'autres personnes et les réutiliser si cela correspond à leurs besoins. GitHub Actions prend en charge Node.js, Python, Java, Ruby, Php, Go, Rust, .NET, et plus encore. Créer, tester et déployer des applications dans votre langue de choix.
 
 ## Syntaxe YAML   {#YAML}

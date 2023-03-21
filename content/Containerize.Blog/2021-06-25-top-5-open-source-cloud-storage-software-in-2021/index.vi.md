@@ -55,7 +55,7 @@ Các tính năng của nó bao gồm như dựa trên đối tượng, duy trì 
   ***Xigmanas**  Giải pháp mạnh mẽ và tùy chỉnh nguồn mở
   ***Máy chủ lưu trữ đám mây**  lưu trữ an toàn và có thể mở rộng
 
-## ****Suy nghĩ cuối cùng **:**    {#4A1A}
+## ****Suy nghĩ cuối cùng **:** {#4A1A}
 Năm nền tảng chia sẻ và đồng bộ hóa tệp đám mây nguồn mở được đề cập ở trên là các giải pháp linh hoạt. Trong điện toán đám mây, bạn sẽ tìm thấy rất nhiều giải pháp lưu trữ đám mây riêng nguồn nguồn mở nhưng việc tìm ra giải pháp đáng tin cậy nhất là quan trọng nhất. Nó có thể bạn hoặc tổ chức của bạn cần quyết định lựa chọn phần mềm đám mây. Tôi hy vọng bài viết này sẽ giúp bạn thiết lập một máy chủ đám mây cá nhân an toàn và đáng tin cậy hoặc chọn dịch vụ đám mây tốt nhất để lưu trữ hình ảnh, âm nhạc, phim và tài liệu có giá trị của bạn.
 _ Giải pháp phần mềm lưu trữ đám mây miễn phí và nguồn mở yêu thích của bạn là gì ?. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ][8].
 

@@ -25,7 +25,7 @@ Nous avons récemment publié un article de blog sur [Top 5 Open Source Single S
 [Sign-on unique][6] est un logiciel d'identification et **d'authentification**  qui vous permet de vous connecter à l'aide de sites tiers. Le logiciel SSO agit comme un fournisseur d'identité afin que vous puissiez vous connecter à plusieurs sites avec un seul ensemble de noms d'utilisateur / mots de passe. Cependant, il s'agit d'un mécanisme de connexion unique et le système SSO s'assure de l'authenticité des utilisateurs.
 De plus, ce système a été largement utilisé sur le niveau des petits et de l'entreprise pour gérer les identités de l'utilisateur sur plusieurs applications. Il existe de nombreux logiciels de connexion unique open source qui utilisent des protocoles d'autorisation populaires tels qu'OpenID OpenID, SAML et OAuth.
 
-## **Comment fonctionne la connexion unique (SSO)?**    {#Features}
+## **Comment fonctionne la connexion unique (SSO)?** {#Features}
 Le mécanisme de travail de **Open Source Single Sign-On**  est droit. L'utilisateur entre les informations d'identification dans le formulaire de connexion, l'utilisateur sera déplacé à la réussite de l'authentification SSO. Maintenant, chaque fois qu'un utilisateur visite un site intégré à une solution SSO, le système vérifiera que l'utilisateur est déjà connecté ou non. De plus, si l'utilisateur est déjà connecté, le serveur émettra un tracker / jeton et ce jeton / tracker sera utilisé pour vous assurer que votre authentification sur plusieurs applications. Parallèlement aux capacités SSO, il fournit également des fonctionnalités de gestion des utilisateurs et de sécurité comme mentionné ci-dessous.
   * Facile à utiliser
   * Identité fédérée

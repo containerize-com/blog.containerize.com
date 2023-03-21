@@ -22,7 +22,7 @@ Bu nedenle, akıllıca bir karar alın ve iyi açık kaynaklı animasyon yazıl�
   ***[Synfig &  **Pencil2D ** ][12]**  karşılaştırması
   ***[Sonuç][13]** 
 
-## **Synfig nasıl kullanılır?**    {#Review}
+## **Synfig nasıl kullanılır?** {#Review}
 Synfig, açık kaynaklı vektör tabanlı 2D animasyon paketidir. Platformlar arasıdır ve Windows, Linux ve macOS gibi neredeyse tüm popüler platformlar için destek sağlar. Dahası, konuşlandırılması kolaydır ve kendi kendine barınma yetenekleriyle birlikte gelir. Sadece 2D animasyon yetenekleri sağlamakla kalmaz, aynı zamanda 3D desteği de sağlar. Animasyon işlemini sağlam hale getirmek için “Tweenless” animasyon sistemi kullanır. Buna ek olarak, uygun maliyetli, zaman tasarrufu sağlar ve kullanıcılara gelişmiş kontroller sunar. Benzer şekilde, animatörler gelişmiş karakterler ve dinamik yapılar oluşturabilir. Bu ücretsiz **Basit 2D animasyon yazılımı**  tüm kaynak kodu [GitHub][14] 'de mevcuttur. Bu nedenle, kullanıcılar dağıtım ve geliştirme ile ilgili tüm belgeleri gözden geçirebilir.
 
 ## Pencil2D nasıl kullanılır?   {#kalem}

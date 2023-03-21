@@ -21,7 +21,7 @@ No passado recente, publicamos postagens no blog sobre alguns tópicos relaciona
   ***[Como iniciar a rede?][7]** 
   ***[Conclusão][8]** 
 
-## **Uma breve introdução de Consensys Quorum**    {#Introduction}
+## **Uma breve introdução de Consensys Quorum** {#Introduction}
 [Consensys quorum][9] é uma plataforma de código aberto baseado na tecnologia de ledger **descentralizada **. No entanto, ele fornece um ambiente completamente amigável para desenvolvedor para criar aplicativos baseados em blockchain que lidam com transações rápidas e de alto rendimento. É  **Ethereum ** , extensível e oferece muitos plug -ins. Além disso, esse sistema distribuído de código aberto vem com altos padrões de segurança e privacidade. Além disso, existem muitos recursos poderosos, como APIs de permissão e monitoramento. Além disso, esta plataforma  **DLT**   é auto-hospedada e fornece documentação detalhada sobre o desenvolvimento e a implantação. O código -fonte deste software livre está disponível no [Github][10].
 Consensys Quorum oferece os seguintes recursos importantes:
   * Arquitetura fiscal
@@ -31,7 +31,7 @@ Consensys Quorum oferece os seguintes recursos importantes:
   * Rede Pública/Privada
 [Saiba mais sobre Consensys Quorum][11]
 
-## ****Quais são os pré-requisitos e procedimento de instalação? ****    {#pré-requisitos}
+## ****Quais são os pré-requisitos e procedimento de instalação? **** {#pré-requisitos}
 Nesta seção, instalaremos as dependências necessárias e configuraremos o ambiente local. Antes de ir para a próxima etapa, certifique-se de instalar os seguintes pré-requisitos:
   * Nodejs V10+
   * Docker
@@ -45,7 +45,7 @@ No entanto, responda às perguntas para concluir a instalação, conforme mostra
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="Consensys quorum">}}
 
 
-## ****Como iniciar a rede? ****    {#Start}
+## ****Como iniciar a rede? **** {#Start}
 Agora, temos o código -fonte em vigor. Então, o próximo passo é tornar a rede ao vivo.
 Execute o seguinte comando para entrar no diretório raiz.
 ```

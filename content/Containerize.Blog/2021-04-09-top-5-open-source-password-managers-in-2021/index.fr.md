@@ -40,7 +40,7 @@ Passbolt permet aux employés de stocker plus facilement les mots de passe pour 
   * Manager de mot de passe auto-hébergé
 [Lire la suite][8]
 
-## Mot de passe Safe   {# Password-Safe}
+## Mot de passe Safe   {#Password-Safe}
 Le mot de passe sa sécurité a été uniquement développé pour les utilisateurs de Windows et Linux. Cependant, vous pouvez également trouver des clones du logiciel pour d'autres systèmes d'exploitation et plates-formes. En tant que gestionnaire de mots de passe gratuits pour télécharger gratuitement, le mot de passe a été encore amélioré pour garder vos mots de passe sécurisés en incluant l'algorithme de chiffrement Twofish et en utilisant des fonctions de hachage cryptographique comme SHA-256 pour générer des clés. Voici quelques fonctionnalités importantes de la sécurité du mot de passe:
   * Catégoriser facilement les mots de passe
   * Exporter ou importer des mots de passe

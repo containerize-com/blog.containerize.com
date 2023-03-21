@@ -92,7 +92,7 @@ Docker Swarm Container Orchestration beginnt am Container und baut aus, bietet e
 ** Die beliebtesten Tools, die sich in Nomad integrieren
 **Top -Unternehmen, die NOMAD**  in ihren Tech -Stapeln verwenden, sind Petal, Trivago, WealthSimple, Edgelab, Fundamentei, 5G Systeme, Aislelabs, Botmetric, Taboola und Machete Inc.
 
-## **Was sind Tools für Open Source Container -Verwaltung?**    {#4A1A}
+## **Was sind Tools für Open Source Container -Verwaltung?** {#4A1A}
 Es gibt viele Vorteile von Container -Orchestrierungslösungen gegenüber virtuellen Maschinen (VMs). Container teilen sich einen einzelnen Betriebssystemkernel, der in wenigen Sekunden anstelle von Minuten gestartet wird, die zum Start einer virtuellen Maschine (VM) erforderlich sind. Das Skalieren und Duplizieren von Behältern ist sehr einfach, hat eine kleine Scheibengröße und ist einfach zu teilen. **Eine Containerverwaltungsplattform**  ist eine Cloud -Anwendung, die mehrere Container verwaltet. Im Folgenden finden Sie die am häufigsten verwendete Container -Management -Software und Container -Orchestrator -Liste, um bestimmte Aspekte der Containerverwaltung zu optimieren.
   ***[Rancher][12]**  ist eine Open -Source -Plattform für die beste Containerverwaltung, um Kubernetes im Maßstab zu verwalten.
   ***[Apache Mesos][13]**  ist ein Open-Source-Cluster-Manager der nächsten Generation und Apache-Container-Orchestrierungsdienst.
@@ -101,7 +101,7 @@ Es gibt viele Vorteile von Container -Orchestrierungslösungen gegenüber virtue
   ***[Amazon Elastic Container Service (Amazon ECS)][16]**  ist AWS ECS Orchestration und Container -Management -Dienst, der Docker -Container unterstützt, um Anwendungen auf Amazon EC2 -Instanzen auszuführen.
   ***[Amazon Elastic Kubernetes Service (Amazon EKS)][17]**  ist ein AWS -Service für Container -Orchestrierung, um Kubernetes -Anwendungen und Managementinfrastrukturen auszuführen.
 
-## **Fazit:**    {#4A1a}
+## **Fazit:** {#4A1a}
 **Wie funktioniert die Container -Orchestrierungstechnologie für Ihre Unternehmens- und Softwareanwendungen? Wenn Sie sich nur an eine wichtige Informationen erinnern müssen, um Ihnen dabei zu helfen,  **Kubernetes gegen Docker Swarm **  gegen Redhat  **OpenShift gegen Kompose**   gegen Hashicorp Nomad zu wählen, sollte es sein, dass jede Lösung einige Vorteile und Nachteile hat. Es gibt andere Optionen für Orchestrierungsplattformen, die verschiedene Funktionen zur Serviceorchestrierung bieten. Letztendlich hängt die Option, die Sie einnehmen, von der Skala ab, die Sie erreichen möchten und in welchem ​​Ökosystem Sie am wohlsten sich vorziehen. Für einen tieferen Eintauchen in die Container -Orchestrierung finden Sie weiter [Container -Blog][18].
 _Was sind Ihre beliebtesten besten Container -Orchestrierungswerkzeuge? Haben Sie Fragen zur oben erwähnten Liste der oben erwähnten Containerorchestratoren?
 

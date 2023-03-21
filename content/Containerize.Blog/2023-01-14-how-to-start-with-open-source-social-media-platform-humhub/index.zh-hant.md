@@ -9,7 +9,7 @@ url: /zh-hant/how-to-start-with-open-source-social-media-platform-humhub/
 categories: ['Social Network Platforms']
 ---
 
-##通過使用開源社交網絡平台在組織內建立公共/私人社交網絡。讓我們遊覽Humhub，看看它提供了什麼。
+## 通過使用開源社交網絡平台在組織內建立公共/私人社交網絡。讓我們遊覽Humhub，看看它提供了什麼。
 
 {{< figure align=center src="images/How-to-Start-With-Open-Source-Social-Media-Platform-HumHub.png" alt="開源社交媒體平台">}}
 
@@ -23,11 +23,11 @@ categories: ['Social Network Platforms']
   * **[HUMHUB的社交工具 - 開源社交媒體平台][8]**
   * **[Humhub市場][9]**
 
-##為什麼要選擇Humhub？   {#為什麼要求愛 -  for-humhub}
+## 為什麼要選擇Humhub？   {#為什麼要求愛 -  for-humhub}
 好吧，有許多開源選項可用，但是Humhub是由於其豐富的用法和功能堆棧而引人注目的。這個自託管的社交網絡很容易在本地或云服務器上設置。它需要簡單的要求才能安裝此開源軟件，例如Apache Weberver 2.4，帶有PHP-FPM和PHP的NGINX。就文檔而言，它提供了有關開發，部署和使用的全面文件。
 這個**開源社交網絡平台**以PHP為書寫，因此有一個巨大的開發人員社區。 Humhub最有趣的是，您可以根據需要自定義此**開源軟件**。
 
-##開始使用Humhub   {#開始啟動，with-humhub}
+## 開始使用Humhub   {#開始啟動，with-humhub}
 Humhub的免費版本提供了5個用戶和500MB的存儲空間。但是，您可以通過遵循此[鏈接][5]開始創建自己的實例。您將被要求提交一些信息，例如您的電子郵件地址等，如下圖所示：
 
 {{< figure align=center src="images/Screenshot-2023-01-13-at-8.48.11-PM-1-1024x584.png" alt="開始使用Humhub">}}
@@ -61,7 +61,7 @@ Humhub的免費版本提供了5個用戶和500MB的存儲空間。但是，您�
 ## 問一個問題
 您可以在我們的[論壇][16]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **是否有開源社交媒體平台？**
 [Humhub][4]是一個企業級的社交媒體平台，可以為您提供最佳的業務/教育組織公共/私人社交網絡。
 **什麼是開放的社交網絡？**

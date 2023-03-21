@@ -25,7 +25,7 @@ OwnCloud是一種開源的私有云軟件，可使用Web界面提供數據訪問
   * OwnCloud的最佳選擇是什麼？
   * 結論
 
-##步驟1：安裝燈服務器
+## 步驟1：安裝燈服務器
 要設置自己的雲服務器以及如何創建私有云，我們首先需要設置運行燈服務器。如果您已經安裝並運行燈堆棧，請跳過此步驟，請使用以下命令在Ubuntu系統上設置燈。
 
 ###安裝php
@@ -47,7 +47,7 @@ MySQL開源關係數據庫管理系統是LAMP Web應用程序軟件堆棧等的�
 sudo apt-get安裝-y mysql-server php-mysql
 {{_LINE_39_}}
 
-##步驟2：在ubuntu上下載owncloud
+## 步驟2：在ubuntu上下載owncloud
 在Ubuntu系統上成功配置LAMP服務器後，讓我們從其[官方網站][1]下載最新的OllCloud私有云存儲解決方案。
 CD /TMP
 WGET https://download.owncloud.org/community/owncloud-10.4.0.4.0.tar.bz2
@@ -62,7 +62,7 @@ sudo chmod -r 755 owncloud
 sudo rm -f /tmp/owncloud-10.4.0.tar.bz2
 sudo systemctl restart apache2
 
-##步驟3：創建OwnCloud數據庫和用戶
+## 步驟3：創建OwnCloud數據庫和用戶
 提取代碼後，現在創建一個MySQL數據庫和用戶帳戶，以配置OwnCloud個人云存儲服務器。使用以下命令集登錄到MySQL Server來創建OwnCloud數據庫和用戶。
 mysql -u root -p
 輸入密碼：
@@ -73,7 +73,7 @@ mysql>退出
 {{_LINE_62_}}
 接下來，我們需要從Web界面上安裝Ubuntu上的OllCloud來創建一個私有云。
 
-##步驟4：在ubuntu上安裝owncloud
+## 步驟4：在ubuntu上安裝owncloud
 現在，訪問Web瀏覽器上的最佳個人Cloud Server Web面板目錄。將本地主機更改為您的服務器IP地址或域名。
 http：// localhost/owncloud/
 {{_LINE_67_}}
@@ -97,7 +97,7 @@ http：// localhost/owncloud/
 {{_LINE_79_}}
 是的！我們使用OwnCloud安裝指南來構建個人云存儲。現在，您知道如何在Ubuntu上完全安裝owncloud，以逐步構建類似於Dropbox或Google Drive的私有云。
 
-## **owncloud的最佳替代方案是什麼？**    {#4a1a}
+## **owncloud的最佳替代方案是什麼？** {#4a1a}
 以下是自託管的ownCloud替代方案和競爭對手文件託管軟件。
   ***Seafile** 是開源跨平台文件託管軟件系統
   ***NextCloud** 是免費的，開源雲存儲平台

@@ -49,7 +49,7 @@ Ci sono dozzine di altre piattaforme di mercato B2B open source e migliori merca
   * **Reazione**  Piattaforma di mercato multi-vendor e-commerce.
   * **Beyourmarket**  Framework di mercato open source.
 
-##  **Conclusione:**    {#4a1a}
+##  **Conclusione:** {#4a1a}
 Costruire una piattaforma di mercato per avviare un'attività o crescere una esistente può essere complicato soprattutto se si desidera costruirne una da zero. Puoi avere enormi vantaggi delle migliori società di eCommerce multi-vettore elencate sopra elencate. Chiunque può costruire il proprio sito Web di mercato desiderato facilmente e rapidamente. Questa piattaforma software di mercato soddisferà bene le tue esigenze. Avrai un elenco personalizzato di mercati online o un negozio supportato da una di queste società di eCommerce di software affidabili.
 _ Il tuo può unirsi a noi su [Twitter][6], [LinkedIn][7] e la nostra pagina [Facebook][8]. Quale mercato software online_ per la costruzione di un mercato delle app _ che usi?. In caso di domande o feedback, per favore [mettiti in contatto][9].
 

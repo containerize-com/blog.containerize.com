@@ -146,7 +146,7 @@ Ardından yönetici için kullanıcı adınızı ve şifrenizi girin. Ardından 
 
 Evet! Bitti. Artık Dropbox veya Google Drive'a benzer adım adım özel bir bulut adım oluşturmak için Ubuntu'da Pydio Selfole Dosya Senkronizasyonu ve Açık Kaynak Dosya Paylaşım Yazılımı nasıl tamamen yükleneceğini biliyorsunuz.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Bu öğreticide, Ubuntu sisteminize Pydio hücreleri açık kaynaklı güvenli dosya paylaşımını başarıyla yüklediniz. Bu makaleyi, dosyalarınızı kendi kendine barındıran bulutta depolamak, güvence altına almak ve paylaşmak için bir bulut altyapısı oluşturmak için kullanabilirsiniz. Verilerinizi daha fazla kontrol etmek ve iş organizasyonunuzda verimli işbirliği sağlamak için Pydio İşbirlikçi Belge Paylaşımı ve En İyi Ücretsiz Dosya Paylaşımı uygulamasını kullanın. Yaklaşan öğreticilerimizde, açık kaynaklı bulut depolama çözümleri ve dosya paylaşımı işbirliği araçlarının daha ilginç konularını tartışacağız.
 _ [Twitter][1], [LinkedIn][2] ve [Facebook][3] sayfamızda bize katılabilirsiniz. Çevrimiçi olarak hangi cloud tabanlı_ açık kaynak _file paylaşım platformu kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][4].
 

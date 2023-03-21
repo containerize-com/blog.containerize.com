@@ -22,7 +22,7 @@ Les points suivants seront discutés dans cet article:
   * [Avantages commerciaux de l'application multi-locataire][8]
   * [Inconvénients en multi-tension][9]
 
-## Qu'est-ce que la multittenance? Multi-locataire vs unique   {# what-est-est-multiditenancy-multi-tenant-vs-single-tenant}
+## Qu'est-ce que la multittenance? Multi-locataire vs unique   {#what-est-est-multiditenancy-multi-tenant-vs-single-tenant}
 La multitension fait référence à une instance de serveur unique desservant plusieurs locataires frontaux en particulier connus. Chaque fois que vous rencontrez un logiciel multi-locataire, dites simplement à votre cerveau que ce logiciel exécute une seule instance d'un serveur partagé et plusieurs locataires (clients) sont connectés à cette instance avec différentes marques.
 Par exemple, des logiciels construits pour une université sert différents départements ayant différentes marques frontales et données de programme. Fondamentalement, il y a une seule instance du serveur exécutant et servant tous les locataires. De plus, il y a la séparation des données et la confidentialité des données parmi tous les locataires. De plus, chaque locataire a sa propre logique commerciale et récupère et stocke ses données dans un emplacement unique mais privé / isolé.
 
@@ -33,13 +33,13 @@ Maintenant, jetons un coup d'œil à l'architecture unique. Dans l'architecture 
 {{< figure align=center src="images/single-tenant-2.png" alt="architecture unique">}}
 
 
-## Types d'architecture d'applications multi-locataires   {# Types de Multi-Tenant-Application-Architecture}
+## Types d'architecture d'applications multi-locataires   {#Types de Multi-Tenant-Application-Architecture}
 Jusqu'à présent, vous comprenez la multi-tension et maintenant nous passerons par ses différents types.
 **Base de données - une instance d'une application**: Cette approche est très populaire et a été largement utilisée pour créer des applications multi-locataires. Selon cette approche, il existe une instance d'application en cours d'exécution avec une seule base de données. De plus, il existe un schéma partagé et les données du locataire sont stockées dans un seul endroit contre leur identifiant unique.
 **Base de données multiples - Une instance d'application:**Dans cette architecture d'application multi-locataire, une seule instance de l'application s'exécute avec plusieurs bases de données. Chaque locataire a son propre schéma de base de données où toutes les informations sont enregistrées par chaque locataire séparément.
 **Base de données multiples - plusieurs instances d'applications**: La troisième approche fait référence à l'exécution de plusieurs instances de serveur ainsi que de plusieurs bases de données. Il n'y a rien de partagé et chaque locataire a une isolation complète et il n'y a pas de dépendance parmi les locataires.
 
-## Avantages commerciaux de l'application multi-locataire   {# Business-Benefits-of-Multi-Tenant-App}
+## Avantages commerciaux de l'application multi-locataire   {#Business-Benefits-of-Multi-Tenant-App}
 Dans cette section, nous allons passer par des avantages importants pour opter pour le multittenance. Bien que nous puissions aller longtemps en discutant des avantages, mais voyons les points suivants:
 **Évolutivité**: Il est facile de mettre à l'échelle une architecture multi-locataire. Vous pouvez évoluer horizontalement ou verticalement quel que soit le type que vous avez choisi.
 **rentable**: Opter pour le multitenancier permet d'économiser vos coûts opérationnels. Il existe des ressources partagées, il est donc toujours rentable d'élargir les ressources.

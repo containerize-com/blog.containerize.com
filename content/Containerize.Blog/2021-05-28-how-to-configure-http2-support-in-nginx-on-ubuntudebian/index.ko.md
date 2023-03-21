@@ -106,7 +106,7 @@ sudo nginx -t
 sudo systemctl nginx를 다시 시작합니다
 sudo systemctl 상태 nginx
 
-## **결론 :**    {#4a1a}
+## **결론 :** {#4a1a}
 축하합니다. Ubuntu 서버에서 nginx config http2 지원을 설정하는 방법을 성공적으로 배웠습니다. NGINX HTTP2 설정은 이제 HTTP/2 페이지를 제공하고 있으며 HTTP/1과 HTTP/2 프로토콜의 차이를 제거했습니다. 여전히 구성 문제에 직면해도 의견 섹션에 알려주십시오.
 HTTP2 Multiplexed Protocol에 대한 질문이 있습니까? _, Please_ [연락을 취합니다][2].
 

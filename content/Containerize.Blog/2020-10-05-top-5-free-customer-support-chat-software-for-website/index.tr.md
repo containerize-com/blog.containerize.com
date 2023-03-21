@@ -23,7 +23,7 @@ Doğru canlı sohbet yazılımı çözümünü kullanmak, müşterinizin sorgula
   * [Sohbet edelim][4]
   * [Botpress][5]
 
-## **Rocket.chat**    {#Rocket-chat}
+## **Rocket.chat** {#Rocket-chat}
 Rocket.chat açık kaynaklı bir **web sohbet yazılımıdır.**  Tamamen ücretsiz ve kendi kendine barındırılan bir sohbet sistemidir. Doğrudan mesajlar ve grup mesajları kullanarak ekip iletişimi sağlayan kapsamlı bir iletişim platformudur.
 Rocket.chat büyük bir açık kaynak topluluğuna sahiptir. Bunun bir sonucu olarak, bu **açık kaynaklı sohbet uygulaması** , ürünün deneyimini daha da geliştirmek için daha fazla eklenti mevcuttur. Ses ve görüntülü sohbet araçları sağladığı için ekiplerin uzaktan çalışmasına yardımcı olur. Zoom ve gevşeklik için ucuz bir alternatif olabilir. İşte bu açık kaynak sohbet çözümünün dikkate değer özellikleri.
   * Byos (kendi sunucunuzu getirin)
@@ -33,7 +33,7 @@ Rocket.chat büyük bir açık kaynak topluluğuna sahiptir. Bunun bir sonucu ol
   * Yerel platformlar arası masaüstü uygulaması
     [Devamını oku][6]
 
-## **zulip**    {#zulip}
+## **zulip** {#zulip}
 Zulip, akış tabanlı iş parçacığı modelini takip eden en popüler **açık kaynaklı sohbet çözümlerinden**  biridir. Zulip'te kanallar yerine akışlara abone olursunuz, böylece yalnızca ilgilendiğiniz akışlardan haberdar olursunuz. Bu akış aboneliği daha sonra konuşmaları izlemenize ve organize olmanıza yardımcı olur.
 Bu **açık kaynaklı sohbet uygulaması  **çapraz platformdur ve kendi özel entegrasyonlarınızı geliştirmek için API'ler sunar. Diğer **  web sohbet yazılımı  **gibi, emoji, satır içi resimler, video ve tweet önizlemelerini destekler. Zulip% 100 ücretsiz ve açık kaynaklı bir yazılımdır. İşte bu **  Müşteri Destek Sohbet Yazılımının En İyi Özellikleri** .
   * Satır içi resim, video ve tweet önizlemeleri: Zulip, konuşmalarda gönderdiğiniz bağlantıların önizlemesini otomatik olarak oluşturun
@@ -44,7 +44,7 @@ Bu **açık kaynaklı sohbet uygulaması  **çapraz platformdur ve kendi özel e
   * Masaüstü Uygulamaları: Çok platformlu masaüstü uygulamalarını destekler.
     [Devamını oku][7]
 
-## **Önemli**    {#matter}
+## **Önemli** {#matter}
 Massess, son derece güvenli ve ölçeklenebilir bir açık kaynaklı **web sohbet yazılımı **'dır. Birincisi, en popüler tescilli canlı sohbet uygulamalarına alternatif olarak kabul edilir. İkincisi, bu  **açık kaynaklı sohbet uygulaması**   hem Slack hem de Microsoft ekiplerinin bir karışımıdır. Sonuç olarak, onu her iki uygulamanın bir üst seti haline getirir.
 Bu **Açık Kaynak Sohbet Çözümü** , büyük şirketlerin tüm iletişimlerini pekiştirmelerine yardımcı olur. Örneğin, takım sohbetleri, görüntülü sohbetler ve belge paylaşımı aynı anda. Bu nedenle, bilgi arama ve keşfetmeyi kolaylaştırın.
 İşte en önemli özelliklerden bazıları
@@ -56,7 +56,7 @@ Bu **Açık Kaynak Sohbet Çözümü** , büyük şirketlerin tüm iletişimleri
   * Sağlam API Kütüphanesi
     [Devamını oku][8]
 
-## **Sohbet edelim**    {#lets-chat}
+## **Sohbet edelim** {#lets-chat}
 Hadi Sohbet, küçük ekipler için kendi kendine barındırılan **Müşteri Destek Sohbet Yazılımı **. Bu  **Web Sohbet Yazılımı**   Node.js ve MongoDB kullanılarak geliştirilir ve kolay ve hızlı dağıtım üzerine odaklanır. Birkaç tıklamayla sunucunuza yükleyebilirsiniz. GitHub'da mevcut kaynak kodu ile% 100 ücretsiz ve açık kaynaktır.
 Let's Chat'i diğer açık kaynaklı yazılımlardan benzersiz kılan, LDAP ve Kerberos kimlik doğrulaması gibi kurumsal özellikleridir. Bu **Müşteri Destek Sohbet Yazılımı**  geliştirme ekibi tarafından sürekli olarak güncelleniyor ve giderek daha fazla özellik ekleniyor. İşte şu anda mevcut olan en iyi özellikler
   * LDAP / KERBEROS kimlik doğrulaması
@@ -66,7 +66,7 @@ Let's Chat'i diğer açık kaynaklı yazılımlardan benzersiz kılan, LDAP ve K
   * Transkriptler / sohbet geçmişi
     [Devamını oku][9]
 
-## **botpress**    {#botpress}
+## **botpress** {#botpress}
 Bu günlerde sohbet botları artıyor. Bunları satış, pazarlama veya destek için kullanın, sanal ekibinize harika bir katkı olabilir.
 Bu nedenle Botpress yapmak, web siteleri için en popüler açık kaynak **canlı sohbet yazılımlarından biridir** . Görsel bir konuşma oluşturucu ve konuşmalarınızı test etmek için bir emülatör var. Yapay zeka ve doğal dil anlayışını (NLU) kullanır. Bu nedenle, farklı uzmanların bilgilerini daha iyi konuşma asistanları inşa etmek için bir araya getirmelerine izin veriyor. Böylece makinenin insanları anlama gücünü geliştirmek.
 Yapay zeka ve makine öğrenimi son zamanlarda çok gelişti. Bu nedenle, yapay zeka tabanlı konuşma talebi **Müşteri Destek Sohbet Yazılımı**  çok fazla destek kazanmıştır. İşte Botpress'in sunduğu dikkate değer özellikler.

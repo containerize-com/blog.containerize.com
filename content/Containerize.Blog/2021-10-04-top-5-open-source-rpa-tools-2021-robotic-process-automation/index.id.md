@@ -155,7 +155,7 @@ Untuk tim dan individu kecil, UIPath menyediakan edisi komunitas. Ini gratis.
 **Terbaik untuk:**  Bisnis informasi yang berat yang menginginkan proses bisnis yang dipercepat.
 **[Pelajari lebih lanjut tentang Kofax][5]** 
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 Lima alat RPA open source yang disebutkan di atas adalah alat RPA open source paling populer dan terbaik untuk pengembang. Lebih jauh dengan perbandingan kami dari masing -masing alat secara rinci di sini, Blue Prism adalah alat terbaik tetapi Anda harus dilatih sebelum menggunakannya. Dan pelatihan juga mahal. Uipath mudah digunakan bahkan untuk non-pengembang. Ini menyediakan fitur yang sama, dan bahkan server industri skala kecil. Untuk aplikasi workstation, kontekstor adalah pilihan terbaik karena mereka memiliki spesialisasi di dalamnya.
 _ Apa alat RPA open source paling favorit Anda?. Apakah Anda memiliki pertanyaan tentang alat RPA open source?, Tolong_ [hubungi Anda][6].
 

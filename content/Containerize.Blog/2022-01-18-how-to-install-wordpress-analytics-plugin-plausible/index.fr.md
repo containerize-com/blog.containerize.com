@@ -22,7 +22,7 @@ En fait, il y a des millions de sites Web sur Internet et des millions de person
   * **[tableau de bord du plugin d'analyse plausible][8]** 
   * **[Conclusion][9]** 
 
-## Qu'est-ce qui est plausible?   {# What-est-il possible}
+## Qu'est-ce qui est plausible?   {#What-est-il possible}
 Dans cette section, nous allons connaître le logiciel d'analyse plausible. Plausible est un logiciel d'intelligence d'affaires légers, gratuit et open source fourni avec des capacités d'auto-hébergement. Il est hautement configurable, axé sur la confidentialité et entièrement conforme aux lois internationales de confidentialité. De plus, ce plugin d'analyse WordPress est sans cookie et propose des dispositions aux propriétaires du site pour comprendre les visiteurs du site. De plus, il ne prend pas en charge la collecte de données personnels et le suivi entre le site transversal. Par-dessus tout, Plausible propose un script d'installation tout comme Google Analytics et ce script d'installation est 45 fois plus léger que le script de Google Analytics. De plus, cette alternative Google Analytics offre une large gamme de fonctionnalités qui comprennent des sites Web illimitées, le suivi des campagnes, axé sur la confidentialité et bien d'autres.
 Cependant, cet outil BI fournit un tableau de bord intuitif qui vous permet de suivre les tendances, les événements personnalisés et 404 pages. Plausible est facile à configurer et propose également Docker Image. Il est écrit dans Elixir, JavaScript, et propose une documentation complète concernant le développement et le déploiement. Les développeurs peuvent bénéficier de son code source de [GitHub][10].
 

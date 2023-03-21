@@ -69,7 +69,7 @@ Yoastseo pomaga użytkownikom zobaczyć, jak ich strony będą wyglądać w wysz
   * Podaj tytuł SEO i opis meta, który publikujesz.
   * Yoast SEO automatycznie dodaje kanoniczne znaczniki do wszystkich treści oznaczonych do indeksowania.
 
-##  **Ostateczna myśl:**    {#4a1a}
+##  **Ostateczna myśl:** {#4a1a}
 Wyżej wymienione pięć platform SEO open source to elastyczne rozwiązania. W przetwarzaniu w chmurze znajdziesz wiele roztworów pamięci masowej w chmurze open source, ale najważniejsze jest znalezienie najbardziej niezawodnego. To Ty lub Twoja organizacja decyduje o wyborze oprogramowania w chmurze. Mam nadzieję, że ten artykuł pomoże Ci skonfigurować bezpieczny i niezawodny osobisty serwer w chmurze lub wybrać najlepszą usługę chmurową do przechowywania cennych zdjęć, muzyki, filmów i dokumentów.
 _ Jakie są Twoje Favourite_ _ Open SEO Tools i popularne narzędzia marketingowe w wyszukiwarkach? Jeśli masz jakieś pytania, proszę [skontaktuj się][1].
 

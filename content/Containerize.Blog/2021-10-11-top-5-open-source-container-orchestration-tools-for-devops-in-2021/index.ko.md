@@ -92,7 +92,7 @@ Docker Swarm Container Orchestration은 컨테이너에서 시작하여 기존 D
 **Nomad와 통합되는 가장 인기있는 도구는 Docker, Vault, Hashicorp Sentinel, Consul, Portworx, Humio 및 Gloo Edge입니다.
 **기술 스택에 NONDER를 사용하는 최고의 회사는 꽃잎, Trivago, Wealthsimple, Edgelab, Fundamentei, 5G Systems, Aislelabs, Botmetric, Taboola 및 Machete Inc입니다.
 
-##  **오픈 소스 컨테이너 관리 도구는 무엇입니까?**    {#4a1a}
+##  **오픈 소스 컨테이너 관리 도구는 무엇입니까?** {#4a1a}
 가상 머신 (VMS)에 대한 컨테이너 오케스트레이션 솔루션에는 많은 이점이 있습니다. 컨테이너는 단일 운영 체제 커널을 공유하며 VM (Virtual Machine)을 시작하는 데 몇 분이 대신 몇 초 안에 시작됩니다. 컨테이너를 확장하고 복제하는 것은 매우 쉽고 디스크 크기가 작고 공유하기가 간단합니다.  **컨테이너 관리 플랫폼** 는 여러 컨테이너를 관리하는 클라우드 애플리케이션입니다. 다음은 컨테이너 관리의 특정 측면을 간소화하기 위해 가장 널리 사용되는 최고의 컨테이너 관리 소프트웨어 및 컨테이너 오케스트레이터 목록입니다.
   * **[Rancher][12]**는 Kubernetes를 규모로 관리하는 오픈 소스 최고의 컨테이너 관리 플랫폼입니다.
   * **[Apache Mesos][13]**는 차세대 오픈 소스 클러스터 관리자이자 Apache 컨테이너 오케스트레이션 서비스입니다.
@@ -101,7 +101,7 @@ Docker Swarm Container Orchestration은 컨테이너에서 시작하여 기존 D
   * **[Amazon Elastic Container Service (Amazon ECS)][16]** AWS ECS 오케스트레이션 및 컨테이너 관리 서비스는 Docker 컨테이너를 지원하여 Amazon EC2 인스턴스 클러스터에서 응용 프로그램을 실행할 수 있습니다.
   * **[Amazon Elastic Kubernetes Service (Amazon EKS)][17]**는 Kubernetes 응용 프로그램 및 관리 인프라를 실행하기위한 컨테이너 오케스트레이션 AWS 서비스입니다.
 
-##  **결론 :**    {#4a1a}
+##  **결론 :** {#4a1a}
 **컨테이너 오케스트레이션 기술은 비즈니스 및 소프트웨어 애플리케이션에 어떻게 작동합니까? **위에서 언급 한 5 개의 최고 Docker 컨테이너 오케스트레이션 도구는 가장 인기있는 무료 및 최고의 오픈 소스 DevOps 소프트웨어입니다.  **kubernetes vs docker swarm **  vs redhat ** compose**  vs hashicorp nomad를 선택하는 데 도움이되는 하나의 주요 정보를 기억해야한다면 각 솔루션에 몇 가지 장단점이 있어야합니다. 서비스 오케스트레이션에서 다양한 기능을 제공하는 다른 오케스트레이션 플랫폼 옵션이 있습니다. 궁극적으로, 당신이 취하는 옵션은 당신이 달성하려는 규모와 가장 편안한 생태계에 따라 달라집니다. 컨테이너 오케스트레이션에 대한 더 깊은 다이빙을 위해 [Containerize Blog][18]를 방문하십시오.
 _ 가장 좋아하는 최고의 컨테이너 오케스트레이션 도구는 무엇입니까?. 위에서 언급 한 컨테이너 오케스트레이터 목록에 대해 궁금한 점이 있습니까?
 

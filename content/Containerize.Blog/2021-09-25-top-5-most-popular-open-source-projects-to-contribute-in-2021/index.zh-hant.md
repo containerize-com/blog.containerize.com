@@ -9,7 +9,7 @@ url: /zh-hant/top-5-most-popular-open-source-projects-to-contribute-in-2021/
 categories: ['Business Intelligence Software', 'CMDB Software', 'Database Management Software', 'Deployment Tools', 'Learning Management System', 'Rapid Application Development', 'Software Development']
 ---
 
-##開源軟件是通過合作在團隊項目上協作來改善和提高批判性思維和解決問題技能的有效方法。
+## 開源軟件是通過合作在團隊項目上協作來改善和提高批判性思維和解決問題技能的有效方法。
 
 {{< figure align=center src="images/Top-5-Most-Popular-Open-Source-Projects-To-Contribute-1.png" alt="貢獻的前5個最受歡迎的開源項目">}}
 

@@ -92,7 +92,7 @@ Docker Swarm Konteyner düzenleme konteynerde başlar ve biriktirir, mevcut Dock
 ** Göçebe ile entegre olan en popüler araçlar Docker, Vault, Hashicorp Sentinel, Consul, Portworx, Humio ve Gloo Edge'dir.
 **Nomad kullanan en iyi şirketler**  Teknoloji yığınlarında Petal, Trivago, WealthSimple, Edgelab, Fundamentei, 5G Sistemleri, Aislelabs, Botmetric, Taboola ve Maka Inc.
 
-## **Açık kaynaklı konteyner yönetim araçları nedir?**    {#4A1A}
+## **Açık kaynaklı konteyner yönetim araçları nedir?** {#4A1A}
 Sanal makinelerde (VMS) konteyner düzenleme çözümlerinin birçok faydası vardır. Kapsayıcılar tek bir işletim sistemi çekirdeğini paylaşır, bir sanal makine (VM) başlatmak için gereken dakikalar yerine birkaç saniye içinde fırlatır. Kapları ölçeklendirmek ve çoğaltmak çok kolaydır, küçük bir disk boyutuna sahiptir ve paylaşımı kolaydır. **Bir Konteyner Yönetim Platformu**  Birden fazla kap yöneten bir bulut uygulamasıdır. Konteyner yönetiminin belirli yönlerini kolaylaştırmak için en çok kullanılan en iyi konteyner yönetimi yazılımı ve konteyner orkestratörleri listesi aşağıdadır.
   ***[Rancher][12]** , Kubernetes'i ölçekte yönetmek için açık kaynaklı bir en iyi konteyner yönetim platformudur.
   ***[Apache Mesos][13]**  yeni nesil açık kaynak küme yöneticisi ve Apache konteyner düzenleme hizmetidir.
@@ -101,7 +101,7 @@ Sanal makinelerde (VMS) konteyner düzenleme çözümlerinin birçok faydası va
   ***[Amazon Elastik Konteyner Servisi (Amazon ECS)][16]**  AWS ECS orkestrasyonu ve Docker kapsayıcılarını Amazon EC2 örnekleri kümesinde uygulamaları çalıştırmak için destekleyen konteyner yönetimi hizmetidir.
   ***[Amazon Elastik Kubernetes Service (Amazon EKS)][17]**  Kubernetes uygulamalarını ve yönetim altyapısını çalıştırmak için bir konteyner düzenleme AWS hizmetidir.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 **Konteyner düzenleme teknolojisi iş ve yazılım uygulamalarınız için nasıl çalışır?  **Yukarıda belirtilen beş en iyi Docker konteyneri düzenleme aracı en popüler ücretsiz ve en iyi açık kaynaklı devOps yazılımıdır. **  Kubernetes vs Docker Swarm  **vs RedHat **  OpenShift vs Compose**  vs Hashicorp Nomad'ı seçmenize yardımcı olacak tek bir önemli bilgi hatırlamanız gerekiyorsa, her çözümün bazı avantajları ve dezavantajları olacaktır. Hizmet düzenlemesinde farklı özellikler sunan başka düzenleme platformu seçenekleri de vardır. Nihayetinde, hangi seçeneğe ulaşmak istediğiniz ölçeğe ve hangi ekosistemi en rahat tercih ettiğinize bağlıdır. Konteyner orkestrasyonuna daha derin bir dalış için [Containerize blog][18].
 _ En sevdiğiniz en iyi konteyner düzenleme araçları nedir? Yukarıda belirtilen konteyner orkestratörleri listesi hakkında herhangi bir sorunuz var mı?
 

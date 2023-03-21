@@ -56,7 +56,7 @@ Após isso, você precisará concluir as verificações de segurança, como forn
 Como você armazena a criptomoeda? Você pode armazenar sua criptomoeda online ou offline. A maneira mais popular de armazenar criptomoeda é online em uma troca de criptografia ou carteira. As trocas e carteiras de criptografia permitem armazenar, enviar, receber e converter criptografia com segurança usando seu computador, tablet ou smartphone.
 Onde comprar criptomoeda? Você pode comprar criptomoeda em uma troca de criptografia. Abaixo, compilamos uma lista de alguns dos melhores aplicativos e trocas para comprar criptomoeda no Reino Unido. Lembre -se de que as criptografia são um produto de investimento não regulamentado altamente volátil, sem proteção de investidores do Reino Unido ou da UE. Você pode perder todo o dinheiro que você coloca neles.
 
-## **Conclusão:**    {#4A1A}
+## **Conclusão:** {#4A1A}
 Felizmente, você aprendeu muito e agora está mais informado e conhecedor sobre o comércio e investimento em criptomoedas do que no começo. Agora é sua vez. Gostamos de pesquisar e escrever o guia com você em mente. Boa sorte!
 _O que são seus projetos de código aberto de criptomoeda favoritos?. Você tem alguma dúvida sobre o que é a moeda digital?, Por favor [[entre em contato][1].
 

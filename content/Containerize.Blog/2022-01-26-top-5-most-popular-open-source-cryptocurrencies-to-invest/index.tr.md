@@ -74,7 +74,7 @@ Litecoinler bitcoin'den daha hızlı üretilir, ancak bitcoinler daha değerlidi
 {{_LINE_62_}}
 Monero Gizlilik Odaklı Kripto para birimi, fon göndermenize ve almanıza izin vermek için bir şifreleme sistemini kullanır. Monero, kriptografiye sahip ilk kripto para birimleri arasında. Monero dijital para birimi gizliliğe odaklanmıştır ve blockchain'deki işlemleri izlenemez veya izlenemez. Bu, alımlarınızın, makbuzlarınızın ve fon transferlerinizin varsayılan olarak özel kalmasını sağlar.
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Yukarıda belirtilen beş kripto para birimi projesi, tüccarlar için en popüler ücretsiz ve en iyi açık kaynak yazılımıdır. Bugün birçok kripto para birimi Bitcoin'den bir şekilde veya başka bir şekilde türetilmiştir. Evrimleşen yüzlerce yarışmacıya rağmen, Bitcoin kullanım ve ekonomik değer açısından baskın kalan ilk kripto para birimidir.
 **Şu ​​anda satın almak için en iyi kripto nedir?**  Kripto para birimi açık kaynak projelerine ve diğer ilk madeni para tekliflerine yatırım yapmak oldukça risklidir. Ayrıca, bu makale yazar tarafından kripto para birimlerine veya diğer ilk madeni para tekliflerine (ICO'lar) yatırım yapma önerisi değildir. Çünkü her bireyin durumu farklıdır ve herhangi bir karlı finansal karar vermeden önce nitelikli bir uzmana her zaman danışılmalıdır. Containerize.com, burada yer alan bilgilerin doğruluğu veya zamanında olması konusunda hiçbir beyanda bulunmaz veya garanti vermez.
 _ En sevdiğiniz kripto para birimi açık kaynak projeleri nelerdir?. _ Digital Currency_?

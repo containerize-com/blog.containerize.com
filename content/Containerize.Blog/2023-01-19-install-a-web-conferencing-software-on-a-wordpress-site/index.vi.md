@@ -21,11 +21,11 @@ Các điểm sau sẽ được đề cập trong bài viết này:
   *[ **Một phần giới thiệu ngắn gọn về WordPress** ][4]
   * **[Cách cài đặt Plugin BigBluebutton trong WordPress?][5]**
 
-##  **BigBluebutton là gì?**    {#what-is-bigbluebutton}
+##  **BigBluebutton là gì?** {#what-is-bigbluebutton}
 [BigBluebutton][6] là một phần mềm cộng tác video miễn phí nguồn mở ** **với một loạt các tính năng cấp doanh nghiệp. Phần mềm nguồn mở này rất có thể mở rộng và cung cấp tích hợp với nhiều ứng dụng phổ biến như WordPress, [Redmine][7], [Schoology][8], [Drupal][9] và Canvas. Ngoài ra, nó cung cấp một bảng trắng được chia sẻ, gửi tin nhắn công cộng/riêng tư, âm thanh HD, giơ tay điện tử, cùng với các công cụ trình bày phong phú. Hơn nữa,**   BigBluebutton** được hỗ trợ HTML5 và hoạt động tốt trên tất cả các trình duyệt web phổ biến.
 Hơn nữa, phần mềm hội nghị web** này có một cộng đồng nhà phát triển rất lớn và sống động. Có các số liệu thống kê rất tốt trên [GitHub repo][10] với 7,8k sao và dĩa 5,8k. BigBluebutton được viết bằng JavaScript cùng với đầu vào từ các ngôn ngữ khác như Java và Ruby. Trên thực tế, các nhà phát triển có thể tìm thấy tài liệu toàn diện về phát triển, triển khai và sử dụng. Vì vậy, bạn có thể thiết lập phần mềm tự lưu trữ này trên một máy chủ cục bộ hoặc đám mây một cách dễ dàng.
 
-##  **Một phần giới thiệu ngắn gọn về WordPress**    {#a-Brief-intro-to-wordpress}
+##  **Một phần giới thiệu ngắn gọn về WordPress** {#a-Brief-intro-to-wordpress}
 [WordPress][2] là một trong những nền tảng blog nguồn mở  **hàng đầu**  trong danh mục phần mềm trang web. Phần mềm nguồn mở này thân thiện với người dùng ngay cả một nhà phát triển web cấp độ mới bắt đầu có thể thực hiện việc xây dựng trang web và khởi chạy nó. Ngoài ra, WordPress có thể cấu hình cao và bạn có thể tùy chỉnh nó theo yêu cầu kinh doanh của bạn. Trên hết, nó có một [Marketplace][11] lớn, nơi bạn có thể tìm thấy một số plugin.
 Phần mềm blog  **này**  đi kèm với các khả năng tự lưu trữ và có sẵn hỗ trợ hoàn toàn cho nhiều ngôn ngữ. Hơn nữa, có các số liệu thống kê rất tốt trên [GitHub][12] của nó và bạn có thể tải xuống mã nguồn và thiết lập nó dễ dàng. Hơn nữa, bạn có thể cài đặt một plugin cho bất kỳ chức năng nào trong trang web WordPress của bạn. Trong thực tế, bạn có thể tìm thấy các plugin cho các trang web thuộc bất kỳ danh mục nào. Nó chủ yếu được viết bằng PHP và bạn có thể tìm thấy các hướng dẫn đầy đủ về phát triển, triển khai và sử dụng.
 

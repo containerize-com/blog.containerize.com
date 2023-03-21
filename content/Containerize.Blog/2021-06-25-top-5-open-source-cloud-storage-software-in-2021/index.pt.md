@@ -55,7 +55,7 @@ Seus recursos incluem, como baseado em objetos, mantém metadados centralizados,
   ***XigManas**  Solução poderosa e personalizável
   ***Cloud Storage Server**  é seguro e armazenamento extensível
 
-## ****Pensamento final **:**    {#4A1A}
+## ****Pensamento final **:** {#4A1A}
 As cinco plataformas de compartilhamento e sincronização de arquivos de nuvem de código aberto acima são soluções flexíveis. Na computação em nuvem, você encontrará muitas soluções de armazenamento em nuvem privada de código aberto, mas encontrar o mais confiável é mais importante. É você ou a necessidade da sua organização que decide a seleção do software em nuvem. Espero que este artigo ajude você a configurar um servidor de nuvem pessoal seguro e confiável ou a escolher o melhor serviço em nuvem para armazenar suas valiosas imagens, músicas, filmes e documentos.
 _ Qual é a sua solução favorita de software de armazenamento de armazenamento em nuvem gratuita e de código aberto?. Se você tiver alguma dúvida, por favor [entre em contato][8].
 

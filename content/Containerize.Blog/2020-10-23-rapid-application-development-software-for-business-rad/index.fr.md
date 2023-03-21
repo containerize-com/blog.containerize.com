@@ -40,7 +40,7 @@ Une fois le prototype développé, la phase suivante consiste à présenter ce p
 **Développement et test continu** 
 Dans cette phase, les équipes RAD ont tendance à effectuer des cycles continus de développement et de tests. Cette phase garantit que tout est dans la bonne direction et aligné avec les besoins du client. De plus, les développeurs continuent de développer de nouvelles fonctionnalités et de publier des versions du produit avec les dernières fonctionnalités et documents.
 
-## b **enefits du logiciel rad?**    {#Benefits}
+## b **enefits du logiciel rad?** {#Benefits}
 Voyons quels sont les avantages que nous pouvons obtenir en adoptant un logiciel d'application rapide.
   * **Flexibilité**  - La plate-forme RAD open source est suffisamment flexible pour incorporer tout changement à tout stade.
   *  **Speed ​​**  - Rad Tools aide les développeurs à accélérer les processus de développement et de déploiement pour effectuer des livraisons à temps.
@@ -50,7 +50,7 @@ Voyons quels sont les avantages que nous pouvons obtenir en adoptant un logiciel
   * **Correction instantanée**  - En fait, il existe des équipes d'assistance de production travaillant sur la fixation des bogues. Cependant, dans ce modèle, chaque fois qu'il y a une mésaventure trouvée, les développeurs les réparent dans une période plus rapide.
   * **Dernières technologies**  - C'est un énorme avantage du modèle RAD que les équipes de développement peuvent adopter et tester les derniers outils et technologies à tout stade.
 
-## **Conclusion**    {#conclusion}
+## **Conclusion** {#conclusion}
 Voici la fin de ce tutoriel. Il existe de nombreux modèles de développement de logiciels tels que le modèle de cascade, le modèle en spirale, le modèle en forme de V, le modèle Agile et d'autres. Ainsi, l'adoption de tout modèle dépend de vos cas d'utilisation et de la nature du logiciel. Par conséquent, ce billet de blog vous aidera vraiment si vous cherchez à adopter le modèle RAD pour votre entreprise. Quelle que soit la plate-forme, il existe plusieurs logiciels de développement d'applications rapides open source qui offrent des capacités multiplateformes avec des outils de développement. Il existe d'autres logiciels de prototypage rapide disponibles dans la section «Explorer» ci-dessous qui suivent les méthodologies RAD. C'est un temps élevé pour adopter cette approche rentable et robuste pour développer des logiciels commerciaux prêts pour la production.
 En fin de compte, [contenerize.com][9] est dans le processus continu d'introduction open source [logiciel RAD][1]. Veuillez suivre cette catégorie [développement rapide des applications][1] pour les mises à jour régulières. De plus, le logiciel répertorié ci-dessous dans la section Explore est open source, libre et auto-hébergé. Tous ces **générateurs de code source**  sont livrés avec une documentation complète concernant le développement et le déploiement.
 

@@ -9,7 +9,7 @@ url: /zh-hant/top-5-free-customer-support-chat-software-for-website/
 categories: ['Live Chat']
 ---
 
-##開源聊天應用程序可幫助團隊實時合作。這些可用於潛在客戶產生，客戶支持和團隊溝通。
+## 開源聊天應用程序可幫助團隊實時合作。這些可用於潛在客戶產生，客戶支持和團隊溝通。
 
 {{< figure align=center src="images/Top-5-Open-Source-Live-Chat-Software-For-2020-1024x536.png" alt="客戶支持聊天軟件">}}
 

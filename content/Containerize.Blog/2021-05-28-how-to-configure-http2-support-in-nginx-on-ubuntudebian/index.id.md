@@ -106,7 +106,7 @@ Untuk menerapkan semua perubahan, restart server proxy terbalik Nginx HTTP2 dan 
 Sudo Systemctl restart nginx
 Sudo Systemctl Status nginx
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 Selamat, Anda telah berhasil belajar cara mengatur dukungan Nginx Config HTTP2 di Ubuntu Server. Pengaturan Nginx HTTP2 Anda sekarang melayani HTTP/2 halaman dan juga menghapus perbedaan antara protokol HTTP/1 dan HTTP/2. Jika Anda masih menghadapi masalah konfigurasi, beri tahu kami di bagian komentar.
 Apakah Anda memiliki pertanyaan tentang protokol multiplexed http2? _, Silakan_ [hubungi Anda][2].
 

@@ -9,7 +9,7 @@ url: /zh-hant/chatgpt-integration-with-an-e-commerce-website/
 categories: ['Artificial intelligence']
 ---
 
-##讓我們學習如何將CHATGPT與基於PHP的電子商務網站集成。以編程方式自動化產品建議的個性化過程。
+## 讓我們學習如何將CHATGPT與基於PHP的電子商務網站集成。以編程方式自動化產品建議的個性化過程。
 
 {{< figure align=center src="images/chatGPTinPHPApplicationNew.png" alt="與電子商務網站的CHATGPT集成">}}
 
@@ -24,19 +24,19 @@ categories: ['Artificial intelligence']
   *[**配置設置**][8]
   *[**測試和調試**][9]
 
-##步驟1：如何集成chatgpt   {#how-to-integrate-chatgpt}
+## 步驟1：如何集成chatgpt   {#how-to-integrate-chatgpt}
 獲得 **ChatGpt集成** 進入您的電子商務網站，這是個性化產品建議的第一步。為了做到這一點，您必須使用PHP向[OpenAI API][10]發送請求，其中包含必要的Chatgpt信息以生成響應。上下文可能包括為用戶瀏覽和購買歷史記錄。
 
-##步驟2：存儲用戶數據 {#Store-user-data}
+## 步驟2：存儲用戶數據 {#Store-user-data}
 必須存儲用戶數據，以便Chatgpt生成個性化的產品建議。但是，數據可能包含有關用戶瀏覽歷史記錄和購買的信息。因此，數據應牢固存儲並僅用於生成個性化產品建議。
 
-##步驟3：顯示建議 {#display-recommendations}
+## 步驟3：顯示建議 {#display-recommendations}
 之後，下一步是在集成ChatGpt並存儲必要的用戶數據後，在您的電子商務網站上顯示Chatgpt生成的產品建議。因此，您可以在產品頁面或網站的單獨部分中顯示建議。
 
-##步驟4：配置設置 {#configure-settings}
+## 步驟4：配置設置 {#configure-settings}
 為了確保Chatgpt的產品建議準確且相關，需要配置擴展名。此外，您可以指定API端點URL，API鍵以及要顯示的建議數量。
 
-##步驟5：測試和調試 {#test-and-debug}
+## 步驟5：測試和調試 {#test-and-debug}
 為了確保擴展名按預期工作，必須對其進行測試和調試。此外，它可能涉及測試CHATGPT集成，測試用戶數據的存儲以及測試建議的顯示。
 最重要的是，您可以看到以下代碼片段，以實現如何與電子商務網站**進行 **CHATGPT集成** ，以生成個性化的產品建議：
 {{< gist fahadadeel 53a1ae29d023baf8d90ed81ac2a55914 >}}
@@ -48,7 +48,7 @@ categories: ['Artificial intelligence']
 ## 問一個問題
 您可以在我們的[論壇][14]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **如何為chatgpt生成API鍵？**
 {{_LINE_40_}}
   要為OpenAI的Chatgpt生成API鍵，您需要登錄到OpenAI帳戶，然後按以下步驟：

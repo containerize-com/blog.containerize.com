@@ -23,7 +23,7 @@ L'utilisation de la solution logicielle de chat à droite vous aide à répondre
   * [Chatchons][4]
   * [Botpress][5]
 
-## **Rocket.Chat**    {# Rocket-chat}
+## **Rocket.Chat** {#Rocket-chat}
 Rocket.Chat est un logiciel de chat Web open source **. ** C'est un système de chat complètement gratuit et auto-hébergé. Il s'agit d'une plate-forme de communication complète qui fournit une communication d'équipe à l'aide de messages directs et de messages de groupe.
 Rocket.Chat a une énorme communauté open source. En conséquence, cette **Application de chat open source**  dispose de plus de plugins pour améliorer encore l'expérience du produit. Il aide les équipes à travailler à distance car il fournit des outils de chat audio et vidéo. Cela peut être une alternative bon marché au zoom et au mou. Voici les fonctionnalités notables de cette solution de chat open source.
   * BYOS (apportez votre propre serveur)
@@ -33,7 +33,7 @@ Rocket.Chat a une énorme communauté open source. En conséquence, cette **Appl
   * Application de bureau multiplateforme native
     [Lire la suite][6]
 
-## **ZULIP**    {#zulip}
+## **ZULIP** {#zulip}
 Zulip est l'une des **Solutions de chat open source les plus populaires**  qui suit le modèle de threading basé sur le flux. Dans Zulip, vous vous abonnez aux flux au lieu des canaux afin que vous ne soyez informé que les flux qui vous intéressent. Cet abonnement Stream vous aide à suivre les conversations plus tard et à vous organiser.
 Cette **Application de chat open source  **est multiplateforme et propose des API pour développer vos propres intégrations personnalisées. Comme d'autres **  logiciels de chat Web **, il prend en charge les emojis, les images en ligne, les vidéos et les aperçus de tweet. Zulip est un logiciel 100% gratuit et open source. Voici les principales fonctionnalités de ce  **Logiciel de chat de support client**  .
   * Image en ligne, vidéo et aperçus de tweet: Zulip génère automatiquement un aperçu des liens que vous envoyez des conversations
@@ -44,7 +44,7 @@ Cette **Application de chat open source  **est multiplateforme et propose des AP
   * Applications de bureau: prend en charge les applications de bureau multiplateform.
     [Lire la suite][7]
 
-## **Matter PLmmul**    {#mattermost}
+## **Matter PLmmul** {#mattermost}
 Matter Post est un logiciel Open Source **Web Chat **, qui est hautement sécurisé et évolutif. Premièrement, il est considéré comme une alternative aux applications de chat en direct propriétaires les plus populaires. Deuxièmement, cette  **Open Source Chat App**   est un mélange d'équipes Slack et Microsoft. En conclusion, en fait un superset des deux applications.
 Cette **Solution de chat open source**  aide les grandes entreprises à consolider toutes leurs communications. Par exemple, les chats d'équipe, les chats vidéo et le partage de documents à la fois. Par conséquent, facilitez la recherche et découvre des informations.
 Voici quelques-unes des principales caractéristiques de la plus grande partie
@@ -56,7 +56,7 @@ Voici quelques-unes des principales caractéristiques de la plus grande partie
   * Bibliothèque API robuste
     [Lire la suite][8]
 
-## **Chat**    {# lets-chat}
+## **Chat** {#lets-chat}
 Let's Chat est un logiciel de chat de support client auto-hébergé **pour les petites équipes. Ce  **logiciel de chat Web**   est développé à l'aide de Node.js et MongoDB et se concentre sur un déploiement facile et rapide. Vous pouvez l'installer sur votre serveur en quelques clics. Il est 100% gratuit et open source avec son code source disponible sur GitHub.
 Ce qui rend Let’s Chat unique des autres logiciels open source, ce sont ses fonctionnalités d'entreprise comme l'authentification LDAP et Kerberos. Ce **logiciel de chat de support client**  est constamment mis à jour par l'équipe de développement et de plus en plus de fonctionnalités sont ajoutées. Voici les principales fonctionnalités disponibles maintenant
   * Authentification LDAP / KERBEROS
@@ -66,7 +66,7 @@ Ce qui rend Let’s Chat unique des autres logiciels open source, ce sont ses fo
   * Transcriptions / historique de chat
     [Lire la suite][9]
 
-## **botpress**    {#botpress}
+## **botpress** {#botpress}
 Les chatbots sont en augmentation ces jours-ci. Que vous les utilisiez pour les ventes, le marketing ou le soutien, ils peuvent être un excellent ajout à votre équipe virtuelle.
 La fabrication de BotPress est donc l'un des logiciels de chat en direct open source les plus populaires pour les sites Web **. Il a un constructeur de conversation visuelle et un émulateur pour tester vos conversations. Il utilise l'IA et la compréhension du langage naturel (NLU). Par conséquent, permet aux différents spécialistes de rassembler leurs connaissances dans la construction de meilleurs assistants conversationnels. Par conséquent, l'amélioration du pouvoir de la machine pour comprendre les humains.
 L'intelligence artificielle et l'apprentissage automatique se sont beaucoup améliorés récemment. Par conséquent, la demande de Conversational **Customer Support Software du logiciel de chat**  a gagné beaucoup de boosts. Voici donc les fonctionnalités notables que Botpress offre.

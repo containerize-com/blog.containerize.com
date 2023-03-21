@@ -91,7 +91,7 @@ Ansible Open Source **Narzędzie automatyzacji  **i bezpłatne oprogramowanie je
 Python jest obiektowym językiem skryptowym używanym do budowania aplikacji w takich inteligencji, uczenia maszynowego, aplikacji komputerowych itp. Python Język jest utrzymywany przez amerykańską niezależną organizację ustanowioną jako 501 (c) (3) non-profit, **django Fundacja oprogramowania**  (DSF).
 **Najlepsze firmy korzystające z Django ** obejmują Instagram, Spotify, National Geographic, Pinterest, MacArthur Foundation, Disqu, Bitbucket, Mozilla, Open Stack i wiele innych.
 
-## **Wniosek:**    {#4a1a}
+## **Wniosek:** {#4a1a}
 Wyżej wymienione pięć projektów oprogramowania typu open source jest najpopularniejszym bezpłatnym i najlepszym oprogramowaniem open source dla programistów. Jeśli po raz pierwszy badasz dobre projekty typu open source dla początkujących, sprawdź raport stanu Octoverse i możesz dodać i przyczynić się. Lista oprogramowania typu open source odblokowuje drzwi innowatorom i programistom aplikacji w budowaniu kariery, jednocześnie umożliwiając im pracę na niektórych z największych platform na całym świecie. Najlepsze przykłady oprogramowania typu open source, które wymieniliśmy powyżej, są tylko dowodem na to, jak korzystne są aplikacje typu open source.
 _ Jakie są Twoje ulubione projekty oprogramowania bezpłatnego i open source?. Czy masz jakieś pytania dotyczące projektów open source?, Proszę [skontaktuj się][12].
 

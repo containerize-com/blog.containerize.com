@@ -146,7 +146,7 @@ Kemudian masukkan nama pengguna dan kata sandi Anda untuk administrator. Kemudia
 
 Ya! Selesai. Anda sekarang tahu cara menginstal Sinkronisasi File yang Di -Hosted Pydio dan Perangkat Lunak Berbagi File Open Source di Ubuntu untuk membangun cloud privat langkah demi langkah mirip dengan Dropbox atau Google Drive.
 
-## **Kesimpulan:**    {#4a1a}
+## **Kesimpulan:** {#4a1a}
 Dalam tutorial ini, Anda telah berhasil menginstal pembagian file aman Sumber Open Source Pydio pada sistem Ubuntu Anda. Anda dapat menggunakan artikel ini untuk membuat infrastruktur cloud untuk menyimpan, mengamankan, dan berbagi file Anda di cloud yang diselenggarakan sendiri. Gunakan berbagi dokumen kolaboratif PYDIO dan aplikasi berbagi file gratis terbaik untuk mendapatkan lebih banyak kontrol data Anda dan memastikan kolaborasi yang efisien di organisasi bisnis Anda. Dalam tutorial mendatang kami, kami akan membahas topik yang lebih menarik dari solusi penyimpanan cloud open source dan alat kolaborasi berbagi file.
 _Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Facebook][3] kami. Platform berbagi _file _file _file berbasis cloud apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda][4].
 

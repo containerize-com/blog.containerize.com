@@ -31,7 +31,7 @@ Aqui estão alguns recursos populares do Joomla CMS.
   * SEO
     [Leia mais][6]
 
-### **drupal**    {#Drupal}
+### **drupal** {#Drupal}
 O Drupal é outra opção popular entre os sistemas **de gerenciamento de conteúdo de código aberto**  que ocorreu no ano de 2001 para o desenvolvimento de sites dinâmicos e orientados a conteúdo. É de código aberto e 100% livre de custo e, entre uma das 3 principais plataformas CMS. Está liderando a transformação digital entre as indústrias.
 Em Drupal, modelos e plugins pré-fabricados facilitam o desenvolvimento de um novo site sem nenhum incômodo. Um dos principais pontos de venda deste **Sistema de Gerenciamento de Conteúdo da Web**  é seu poder de criar e gerenciar uma enorme variedade de tipos de conteúdo. Sua segurança é incomparável e inabalável.
 Aqui estão alguns recursos populares do Drupal.
@@ -41,7 +41,7 @@ Aqui estão alguns recursos populares do Drupal.
   * Exibição específica do dispositivo
     [Leia mais][7]
 
-### **pyro**    {#pyro}
+### **pyro** {#pyro}
 A Pyro é um maravilhoso sistema de gerenciamento de conteúdo que tem crescido recentemente em popularidade. É construído com o Laravel CMS. E parece uma extensão disso. Como outras plataformas CMS **de código aberto** , o Pyro vem com recursos exclusivos e poderosos. Ele também suporta gerenciamento de arquivos baseado no motorista para integração ideal com o Laravel.
 O Pyro também suporta gerenciamento de usuários. Portanto, este software CMS personalizado ** nos permite gerenciar usuários, funções e permissões facilmente. No entanto, você também pode aproveitar os complementos disponíveis na loja Pyro.
 O núcleo do pyro é a plataforma de fluxos. É um conjunto completo de ferramentas para fazer aplicativos poderosos e mais rápidos. Além disso, é um motor robusto e uma plataforma de desenvolvimento.
@@ -53,7 +53,7 @@ Aqui estão alguns recursos populares do piro.
   * 1 API de kickass
     [Leia mais][8]
 
-### **django**    {#django}
+### **django** {#django}
 O Django CMS é uma estrutura escrita em Python que permite um rápido desenvolvimento de sites seguros e sustentáveis. É um CMS de código aberto. Mais importante ainda, milhares de sites são suportados pelo Django. É fácil de usar com muitos recursos, como suporte multisite, controle de versão, melhor mecanismo de publicação e fornece um painel de arrastar e soltar que acelera o processo de desenvolvimento.
 Como outras plataformas CMS **de código aberto **, o uso do Django faz muito do incômodo do desenvolvimento da web. Em primeiro lugar, este sistema de gerenciamento de conteúdo da Web**  leva a segurança a sério e ajuda os desenvolvedores com muitos erros de segurança comuns. Em segundo lugar, pode lidar com uma enorme quantidade de tráfego na web com muita facilidade. Acima de tudo, governos, organizações e empresas estão usando o Django para criar todos os tipos de coisas, desde redes sociais até sistemas de gerenciamento e computação científica.
 Aqui estão alguns recursos populares do Django CMS.
@@ -63,7 +63,7 @@ Aqui estão alguns recursos populares do Django CMS.
   * Fácil de integrar
     [Leia mais][9]
 
-## **Umbraco**    {#mbraco}
+## **Umbraco** {#mbraco}
 Umbraco é outro **CMS de código aberto para sites**  que fornece as maneiras mais rápidas de configurar um site para negócios, oferecendo modelos de design prontos. Com o Umbraco, você obtém um sistema de gerenciamento de conteúdo conhecido e amado por sua flexibilidade e excelente experiência de edição. Um painel intuitivo está em vigor para permitir que os usuários criem, atualizem e publiquem conteúdo com eficiência.
 Umbraco foi projetado para manter os desenvolvedores em vista. Portanto, é flexível sem limitações. Da mesma forma, profissionais de marketing e editores adoram trabalhar com Umbraco. Porque torna os trabalhos do dia-a-dia mais simples e deliciosos.
 O Umbraco CMS está escrito no ASP.NET, juntamente com a entrada de alguns outros idiomas como JavaScript, HTML e TypeScript. Mais importante, ele suporta a pesquisa global, onde os usuários podem pesquisar qualquer coisa, independentemente do escopo.

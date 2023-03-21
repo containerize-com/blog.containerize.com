@@ -9,7 +9,7 @@ url: /zh-hant/how-to-do-web-applications-monitoring-with-statping/
 categories: ['Status Page']
 ---
 
-##自動監視您的網站，Web應用程序，帶有免費監視工具的API，並使用開源狀態頁面系統顯示正常運行時間。
+## 自動監視您的網站，Web應用程序，帶有免費監視工具的API，並使用開源狀態頁面系統顯示正常運行時間。
 
 {{< figure align=center src="images/How-to-monitor-websites-with-statping.png" alt="Web應用程序監視">}}
 
@@ -25,13 +25,13 @@ Statping是**開源狀態頁軟件**，也是**最佳網站監視工具之一**�
   * [創建用於監視的服務][3]
   * [結論][4]
 
-##在Linux上安裝 {#installing}
+## 在Linux上安裝 {#installing}
 在下面的命令下運行符號安裝。
 ```
 curl -o- -L https://statping.com/install.sh | bash
 ```
 
-##配置Systemd Service   {#configure}
+## 配置Systemd Service   {#configure}
 設置SystemD服務是確保您的Statping服務器可以在必要時自動重新啟動的絕佳方法。要創建SystemD服務，請按照以下步驟操作。
   *首先，在命令下運行以創建新文件。
 ```
@@ -61,7 +61,7 @@ systemctl enable statping
 systemctl start statping
 ```
 
-##創建用於監視 {#create}的服務
+## 創建用於監視 {#create}的服務
   *打開瀏覽器，輸入URL以登錄到您的Stats安裝。
   *單擊頂部導航中的服務鏈接。它將向您顯示在一個下方的服務頁面。
 
@@ -69,7 +69,7 @@ systemctl start statping
 
   *單擊創建按鈕以添加新的服務以進行監視。填寫所需字段，例如服務名稱，服務類型，檢查間隔，服務端點（URL）等。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 我們了解了statping，如何在Linux上安裝它以及如何在本教程中創建SystemD服務。此外，我們創建了一項新服務，以監視和向您介紹不同的功能。我們希望本指南將幫助您開始使用stating來執行 **Web服務監視** 和 **Web應用程序監視** 。
 最後，[**containerize.com **][5]正在始終如一地編寫有關更多最新開源產品的博客文章。因此，與此[** 狀態頁面**][6]類別保持聯繫以獲取最新更新。
 

@@ -69,7 +69,7 @@ YoastSeo, kullanıcıların sayfalarının Google arama motoruna nasıl bakacağ
   * Yayınladığınız her yeni sayfa için bir SEO başlığı ve bir meta açıklama belirtin.
   * Yoast SEO, indeksleme için işaretlenmiş tüm içeriğe otomatik olarak kanonik etiketler ekler.
 
-## **Son Düşünce:**    {#4A1A}
+## **Son Düşünce:** {#4A1A}
 Yukarıda belirtilen beş açık kaynaklı SEO platformu esnek çözümlerdir. Bulut bilişimde çok sayıda açık kaynaklı özel bulut depolama çözümü bulacaksınız, ancak en güvenilir olanı bulmak en önemli. Bulut yazılımının seçimine karar veren siz veya kuruluşunuzun ihtiyacısınız. Umarım bu makale güvenli ve güvenilir bir kişisel bulut sunucusu oluşturmanıza veya değerli resimlerinizi, müziklerinizi, filmlerinizi ve belgelerinizi saklamak için en iyi bulut hizmetini seçmenize yardımcı olur.
 _ Favourite_ _open kaynak SEO araçları ve popüler arama motoru pazarlama araçları nelerdir? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][1].
 

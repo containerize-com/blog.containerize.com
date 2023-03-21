@@ -42,7 +42,7 @@ Culttlefish는 자체 호스팅 메일 배송 소프트웨어이며 많은 양�
   * 모든 웹 프레임 워크 및 언어로 작동합니다
     [더 읽기][8]
 
-### **mail-in-a-box** {##mail-in-a-box}
+### **mail-in-a-box** {#mail-in-a-box}
 Mail-in-A-Box는 쉬운 배포에 중점을 둔 혁신적인 Linux 메일 서버입니다. 자동 DNS 구성이있는 편리한 웹 메일 및 IMAP/SMTP 서버를 제공합니다. 기술 전문 지식없이 자신의 Gmail을 설정하는 데 도움이됩니다. 최고의 기능은 다음과 같습니다.
   * 자동 DNS 구성
   * 스팸 필터링.

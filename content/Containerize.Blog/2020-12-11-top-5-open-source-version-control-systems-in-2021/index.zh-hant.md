@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-version-control-systems-in-2021/
 categories: ['Version Control Software']
 ---
 
-##版本控制軟件可幫助團隊保持跟踪和控制代碼的版本。這是對前5個開源版本控制系統的簡明評論。
+## 版本控制軟件可幫助團隊保持跟踪和控制代碼的版本。這是對前5個開源版本控制系統的簡明評論。
 
 {{< figure align=center src="images/version_control.png" alt="版本控制系統">}}
 

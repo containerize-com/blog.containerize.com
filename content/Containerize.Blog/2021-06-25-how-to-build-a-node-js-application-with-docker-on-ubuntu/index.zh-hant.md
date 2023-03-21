@@ -12,7 +12,7 @@ categories: ['Software Development']
 {{< figure align=center src="images/how-to-build-nodejs-application-with-docker.png" alt="如何使用Docker構建Nodejs應用程序">}}
 
 
-##本文將向您解釋如何使用Docker容器化構建NodeJS應用程序。 Docker允許將應用程序作為容器包裝並運行。
+## 本文將向您解釋如何使用Docker容器化構建NodeJS應用程序。 Docker允許將應用程序作為容器包裝並運行。
 今天，我們正在啟動有關軟件開發工具的一系列教程。第一篇文章涵蓋瞭如何使用Docker容器化node.js應用程序。 Docker可幫助開發人員打包和運行應用程序作為容器。由於容器是一個孤立的過程，也是虛擬機的輕量級替代品。本文說明瞭如何使用Docker容器化構建NodeJS應用程序。讓我們開始吧！
   *[**什麼是Docker **][1]
   * **[先決條件][2]**
@@ -21,14 +21,14 @@ categories: ['Software Development']
   *[**構建圖像並運行Docker容器**][5]
   *[**結論**][6]
 
-##什麼是docker   {#docker}
+## 什麼是docker   {#docker}
 Docker是一組平台作為使用OS級虛擬化在稱為容器的軟件包中交付軟件的服務產品。它是開發，運輸和運行應用程序的開放平台。 Docker使您可以將應用程序與基礎架構分開，以便您可以快速提供軟件。
 Docker使用客戶端服務器體系結構。 Docker Client與Docker Daemon進行了交談，該守護程序會繁重地建築物，運行和分發您的Docker容器。 Docker Client和Daemon使用REST API，UNIX插座或網絡接口進行通信。這是Docker架構的圖。
 
 {{< figure align=center src="images/docker-architecture-1024x540.png" alt="Docker架構">}}
 
 
-##先決條件 {#prereq}
+## 先決條件 {#prereq}
   * Ubuntu服務器
   * Docker安裝在服務器上
   * node.js npm已安裝
@@ -59,7 +59,7 @@ node app.js
 將瀏覽器導航到http：// \ _server \ _ip：3000。您將看到以下著陸頁。
 現在，您已經啟動並運行了一個應用程序。現在，我們可以繼續創建Dockerfile，這將使我們能夠重新創建和擴展此應用程序。
 
-##寫dockerfile   {#dockerfile}
+## 寫dockerfile   {#dockerfile}
 使用DockerFile，您可以在執行程序和容器環境時指定應用程序容器中包含的內容。
 首先，創建dockerfile，並在項目的根部使用以下命令。
 ```
@@ -115,7 +115,7 @@ EXPOSE 3000
 CMD [ "node", "app.js" ]
 ```
 
-##構建圖像並運行容器 {#build}
+## 構建圖像並運行容器 {#build}
 運行以下命令來生成您的Docker映像
 ```
 docker build -t <<image_name>> .
@@ -126,7 +126,7 @@ docker run — name <<container_name>> -p 3000:3000 -d <<image_name>>
 ```
 這將啟動可以通過運行Docker PS命令​​來驗證的容器。現在在瀏覽器中，如果訪問http：// localhost：3000，您會看到Node.js應用程序正在運行。但是，這次現在從您的Docker容器中運行。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 使用Docker容器開發非常簡單。 Docker可幫助開發人員打包和運行應用程序作為容器。在本教程中，我們學會瞭如何使用Ubuntu上的Docker容器構建Node.js應用程序。在即將發表的文章中，我們將撰寫有關Docker的更多用途，還將討論其他工具。
 
 ## 探索

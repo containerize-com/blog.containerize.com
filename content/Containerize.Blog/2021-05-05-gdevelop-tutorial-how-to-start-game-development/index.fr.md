@@ -21,12 +21,12 @@ Ces **moteurs de jeu gratuits  **viennent non seulement aident à fournir des so
   * **[Comment configurer sur localhost?][2]** 
   * **[Conclusion][3]** 
 
-## **Qu'est-ce que GDELEVELOP.**    {#intro}
+## **Qu'est-ce que GDELEVELOP.** {#intro}
 GDELEVELAG est un logiciel gratuit de développement de jeux vidéo open source. Il est auto-hébergé et offre des fonctionnalités riches pour développer des jeux 2D. Cependant, il existe un support disponible pour les objets 3D. Les utilisateurs n'ont pas besoin de compétences en programmation pour développer et publier des jeux pour plusieurs plateformes. Il est très extensible et facile à configurer car il nécessite des exigences faciles pour héberger ce moteur de jeu gratuit. Il existe une interface utilisateur intuitive avec les capacités de glisser-déposer. Cet outil gratuit fournit des animations de haute classe, des effets vidéo / audio, un écran tactile et un multi-touch, un aperçu en direct et bien d'autres. De plus, ce **Game Designer**  propose des fonctionnalités de prototypage puissantes qui aident les développeurs à développer un produit fin basé sur le prototype.
 De plus, cette Open Source **Easy Game Maker**  est hautement configurable et prend en charge les intégrations avec des bibliothèques tierces. Surtout, il prend en charge Xbox et PlayStation qui sont des consoles de jeux vidéo populaires. GDEVELOPE est écrit en C ++, JavaScript et TypeScript. Des documents détaillés sont disponibles sur le déploiement et le développement. GDELEVELAG a une communauté de développeurs très dynamique qui répond activement aux bogues et aux requêtes. Par conséquent, tout le code source est disponible chez [GitHub][4].
 [En savoir plus sur GDELAVELAPS][5]
 
-## **comment configurer sur localhost?**    {#setup}
+## **comment configurer sur localhost?** {#setup}
 Dans la section de ce **tutoriel GDELAVELAP** , nous verrons comment pouvons-nous configurer GDELAVELAG sur notre système local. Avant de passer aux étapes suivantes, assurez-vous d'avoir installé les pré-requis suivants.
   * Git
   * Node.js 12.x
@@ -67,7 +67,7 @@ Vous pouvez sélectionner n'importe quel jeu en tant que démarreur comme dans c
 
 De cette façon, vous pouvez explorer et essayer d'autres fonctionnalités. Ce créateur de jeux **Easy**  est convivial pour les développeurs et fournit un tableau de bord intuitif. Une fois que vous avez terminé avec le développement de votre jeu, vous pouvez l'exporter pour diverses plates-formes telles que Android, iOS et Web.
 
-## **Conclusion**    {#conclusion}
+## **Conclusion** {#conclusion}
 Cela met fin à ce didacticiel GDELAPELL. Ce **moteur de jeu gratuit  **vous permet d'implémenter la logique des jeux à l'aide d'événements visuels. Il a une communauté très favorable qui a fait de nombreux tutoriels et manuels d'utilisateurs utiles. Ce billet de blog vous aidera vraiment si vous êtes nouveau dans le monde du développement de jeux. Il existe de nombreux autres concepteurs de jeux 3D**  , des outils de développement de jeux et des articles mentionnés dans la section Explorer ci-dessous. Tous ces moteurs de jeu sont gratuits, open source et proposent des capacités d'auto-hébergement. Par conséquent, l'industrie du développement de jeux s'étend énormément avec l'augmentation du nombre de joueurs. Il y a des jeux vidéo avec des graphiques à haute définition et des effets sonores qui déclenchent l'intérêt et l'attraction des joueurs. Cependant, choisissez un logiciel de développement de jeu bien présumé qui apporte une qualité et une efficacité à votre travail.
 Enfin, Containerize.com est prêt à améliorer sa base de tutoriels avec des tutoriels de développement de jeux plus intéressants. Veuillez rester connecté avec cette catégorie [logiciel de développement de jeu][6] sur [contenerize.com][7] pour les mises à jour régulières.
 

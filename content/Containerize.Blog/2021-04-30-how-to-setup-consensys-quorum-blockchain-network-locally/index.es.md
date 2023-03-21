@@ -21,7 +21,7 @@ En el pasado reciente, publicamos publicaciones de blog sobre algunos temas rela
   ***[¿Cómo iniciar la red?][7]** 
   ***[Conclusión][8]** 
 
-## **Una breve introducción de consensys quórum**    {#Introduction}
+## **Una breve introducción de consensys quórum** {#Introduction}
 [Consensys Quorum][9] es una plataforma de código abierto basada en **Tecnología del libro mayor descentralizado **. Sin embargo, proporciona un entorno completamente amigable para el desarrollador para construir aplicaciones basadas en blockchain que manejen transacciones rápidas y de alto rendimiento. Es  **Ethereum **  basado, extensible y ofrece muchos complementos. Además, este sistema distribuido de código abierto viene con altos estándares de seguridad y privacidad. Además, hay muchas características potentes, como API de permiso y monitoreo. Además, esta  **Plataforma DLT**   está autohospedada y proporciona documentación detallada con respecto al desarrollo y la implementación. El código fuente de este software gratuito está disponible en [Github][10].
 Consensys Quorum ofrece las siguientes características importantes:
   * Arquitectura conectable
@@ -31,7 +31,7 @@ Consensys Quorum ofrece las siguientes características importantes:
   * Red pública/privada
 [Obtenga más información sobre el quórum consensible][11]
 
-## ****¿Cuáles son los requisitos previos y el procedimiento de instalación? ****    {#pre-requisitos}
+## ****¿Cuáles son los requisitos previos y el procedimiento de instalación? **** {#pre-requisitos}
 En esta sección, instalaremos las dependencias requeridas y configuraremos el entorno local. Antes de ir al siguiente paso, asegúrese de haber instalado los siguientes requisitos previos:
   * NodeJS V10+
   * Docker
@@ -45,7 +45,7 @@ Sin embargo, responda las preguntas para completar la instalación como se muest
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="Quórum consensado">}}
 
 
-## ****¿Cómo iniciar la red? ****    {#start}
+## ****¿Cómo iniciar la red? **** {#start}
 Ahora, tenemos el código fuente en su lugar. Entonces, el siguiente paso es hacer que la red viva.
 Ejecute el siguiente comando para ingresar al directorio raíz.
 ```

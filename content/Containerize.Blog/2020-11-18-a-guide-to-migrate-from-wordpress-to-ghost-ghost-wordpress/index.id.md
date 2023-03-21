@@ -24,10 +24,10 @@ Oleh karena itu, lebih banyak pengguna **bermigrasi dari WordPress ke Ghost** . 
   ***[Impor konten ke hantu][7]** 
   ***[Kesimpulan][8]** 
 
-## **Intro Briedf WordPress**    {#WP}
+## **Intro Briedf WordPress** {#WP}
 [WordPress][9] adalah platform blogging open source terkemuka yang telah memberi daya pada sejumlah besar situs web. Perangkat lunak blogging gratis ini diselenggarakan sendiri, multibahasa, dan memberikan dukungan untuk banyak bahasa. Selain itu, komunitas pengembangan WordPress sangat bersemangat dan telah mengembangkan kumpulan raksasa plugin berguna yang tersedia dengan mudah. Plugin ini membahas hampir setiap kasus penggunaan situs web bisnis Anda. Selain itu, ditulis dalam PHP dan dilengkapi dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Semua kode sumber tersedia di GitHub. Lebih lanjut, platform blog ini sangat dapat diperluas, dapat dikonfigurasi, dan memberikan integrasi dengan aplikasi pihak ketiga. Ada dasbor yang sangat logis dan mudah dipahami di mana pengguna dapat menyeret & menjatuhkan elemen untuk memodifikasi tampilan dan nuansa situs web mereka.
 
-## **Apa itu Ghost?**    {#ghost}
+## **Apa itu Ghost?** {#ghost}
 [Ghost][10] adalah platform blogging open source populer lainnya. Ini adalah salah satu platform penerbitan konten yang paling banyak digunakan yang sangat diadopsi oleh pengembang dan pemilik situs. Selain itu, Ghost sangat ramah SEO dan dilengkapi dengan tema, formulir, buletin email, dan langganan email. Perangkat lunak blogging gratis ini ditulis dalam JavaScript dan semua dokumentasi tersedia mengenai pengembangan dan penyebaran.
 
 ## Persyaratan   {#Requirements}

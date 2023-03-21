@@ -43,7 +43,7 @@ Los códigos cortos son macros que se pueden usar para realizar interacciones di
 ## # widgets
 Los widgets son importantes porque le dan otro medio para ejecutar el código de su complemento al tiempo que proporciona una interfaz fácil de usar. Dado que la mayoría de los temas admitirán una o más barras laterales; Agregar sus propios widgets le dará acceso rápido para mostrar su información dentro del tema.
 
-## **¿Cómo crear el complemento WP?**    {#Create}
+## **¿Cómo crear el complemento WP?** {#Create}
 En esta sección del tutorial de complementos de WordPress, todo lo que necesita hacer es crear una carpeta y luego crear un solo archivo con una línea de contenido. Navegue a la carpeta **WP-Content/Plugins  **y cree una nueva carpeta llamada **  MyTestPlugin **. Dentro de esta nueva carpeta, cree un archivo llamado  **mytestplugin.php**  . Abra el archivo en un editor de texto y pegue la siguiente información en él:
 ```
 <?php

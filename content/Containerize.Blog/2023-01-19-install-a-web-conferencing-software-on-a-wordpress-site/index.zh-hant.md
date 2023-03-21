@@ -25,7 +25,7 @@ categories: ['Blogging', 'Video Conferencing Software']
 [BigBlueButton][6]是一個開源免費**視頻協作軟件**，具有大量的企業級功能。該開源軟件非常可擴展，並與WordPress，[Redmine][7]，[Schoology][8]，[Drupal][9]和Canvas等許多流行應用程序提供集成。此外，它還提供了共享的白板，發送公共/私人消息，高清音頻，電子手工升級以及豐富的演示工具。此外， **BigBlueButton** 得到了HTML5的支持，並且在所有流行的Web瀏覽器中都可以很好地工作。
 此外，這個**網絡會議軟件**擁有一個龐大而活著的開發人員社區。它的[GitHub Repo][10]上有非常好的統計數據，其中有7.8k星和5.8k叉。 BigBluebutton用JavaScript編寫，以及Java和Ruby等其他語言的輸入。實際上，開發人員可以找到有關開發，部署和使用的全面文件。因此，您可以輕鬆地在本地或云服務器上設置此自託管軟件。
 
-## **WordPress的簡短介紹**    {#a-brief-intro-intro-intro-wordpress}
+## **WordPress的簡短介紹** {#a-brief-intro-intro-intro-wordpress}
 [WordPress][2]是網站軟件類別中的頂級**開源博客平台之一。該開源軟件即使是初學者級別的Web開發人員也可以進行網站構建並啟動它。此外，WordPress是高度可配置的，您可以根據您的業務要求對其進行自定義。最重要的是，它具有巨大的[市場][11]，您可以在其中找到許多插件。
 這個**博客軟件**具有自託管功能，並且對可用的多種語言有完全的支持。此外，[GitHub][12] repo上有很好的統計數據，您可以下載源代碼並輕鬆設置它。此外，您可以在WordPress網站中安裝任何功能插件。實際上，您可能會找到屬於任何類別的站點的插件。它主要是用PHP編寫的，您可以找到有關開發，部署和用法的完整說明。
 

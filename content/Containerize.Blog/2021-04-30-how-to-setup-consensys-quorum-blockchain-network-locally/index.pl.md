@@ -21,7 +21,7 @@ W niedawnej przeszłości opublikowaliśmy posty na blogu na niektóre tematy zw
   * **[Jak założyć sieć?][7]**
   * **[wniosek][8]**
 
-##  **Krótkie wprowadzenie Consensys Quorum**    {#Introduction}
+##  **Krótkie wprowadzenie Consensys Quorum** {#Introduction}
 [Consensys Quorum][9] to platforma typu open source oparta na **decentralizowanej technologii księgi **. Zapewnia jednak całkowicie przyjazne dla programistów środowisko do budowania aplikacji opartych na blockchain, które obsługują szybkie i wysokie przejście transakcji. Jest to  **Ethereum **  oparte na rozszerzonym i oferuje wiele wtyczek. Ponadto ten rozproszony system open source ma wysokie standardy bezpieczeństwa i prywatności. Ponadto istnieje wiele potężnych funkcji, takich jak pozwolenie na interfejsy API i monitorowanie. Ponadto ta ** platforma DLT**  jest samodzielna i zawiera szczegółową dokumentację dotyczącą rozwoju i wdrażania. Kod źródłowy tego bezpłatnego oprogramowania jest dostępny na [GitHub][10].
 Consensys Quorum oferuje następujące ważne funkcje:
   * Architektura wtyczki

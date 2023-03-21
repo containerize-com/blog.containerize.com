@@ -9,7 +9,7 @@ url: /it/how-to-use-discourse-as-a-knowledge-base/
 categories: ['Discussion Forum']
 ---
 
-Archivio ##, organizzare e condividere le informazioni installando il plug -in Knowledge Explorer al discorso. Il discorso come KB è utile e offre ricche opzioni di ricerca.
+Archivio ## , organizzare e condividere le informazioni installando il plug -in Knowledge Explorer al discorso. Il discorso come KB è utile e offre ricche opzioni di ricerca.
 
 {{< figure align=center src="images/discourse-1.png" alt="Discorso">}}
 

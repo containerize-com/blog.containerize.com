@@ -43,7 +43,7 @@ Copay'ın aşağıdaki önemli özellikleri vardır:
   * Çok güvenli
 **[Copay hakkında daha fazla bilgi edinin][11]** 
 
-## **breadwallet**    {#breadwallet}
+## **breadwallet** {#breadwallet}
 **[breadwallet][12]  **en iyi arasında bir başka popüler seçenektir **  Açık kaynak kripto cüzdanları **. Bu açık kaynaklı dijital cüzdan kullanımı kolaydır ve hızlı ve hızlı işlemler için blockchain ağı ile doğrudan bağlantılar sağlar. Buna ek olarak, bu  **ücretsiz cüzdan yazılımı**   ekmek şirketi tarafından geliştirilmiştir ve mobil platformlar için kullanılabilir. Ayrıca, kullanıcıların kolayca gezinebileceği mantıklı ve kolay bir kullanıcı arayüzü sunar. Breadwallet, anonim işlemler, birden fazla dil için destek ve daha fazlası gibi birçok güçlü özellik sunar. Ayrıca, kullanıcıların bu açık kaynak kripto cüzdanını kullanmak için kayıt yaptırmaları gerekmez.
 Breadwallet aşağıdaki önemli özellikleri sunar:
   * Özelleştirilebilir widget'lar

@@ -69,7 +69,7 @@ Yoastseo ajuda os usuários a ver como suas páginas parecerão no mecanismo de 
   * Especifique um título de SEO e uma meta descrição para cada nova página publicada.
   * O Yoast SEO adiciona automaticamente tags canônicas a todo o conteúdo marcado para indexação.
 
-## **Pensamento final:**    {#4a1a}
+## **Pensamento final:** {#4a1a}
 As cinco plataformas de SEO de código aberto acima são soluções flexíveis. Na computação em nuvem, você encontrará muitas soluções de armazenamento em nuvem privada de código aberto, mas encontrar o mais confiável é mais importante. É você ou a necessidade da sua organização que decide a seleção do software em nuvem. Espero que este artigo ajude você a configurar um servidor de nuvem pessoal seguro e confiável ou a escolher o melhor serviço em nuvem para armazenar suas valiosas imagens, músicas, filmes e documentos.
 _ O que são suas ferramentas de SEO de origem favorita e ferramentas de marketing de mecanismo de pesquisa populares? Se você tiver alguma dúvida, por favor [entre em contato][1].
 

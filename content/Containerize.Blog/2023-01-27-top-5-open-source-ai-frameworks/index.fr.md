@@ -47,7 +47,7 @@ De plus, Pytorch propose également un développement de réseaux neuronaux qui 
 De plus, vous pouvez exporter des modèles Keras dans JavaScript et les exécuter sur des plates-formes Web. En fait, vous pouvez générer des fichiers pertinents de modèles pour exécuter sur iOS, Android et des appareils intégrés. De plus, il a une grande communauté de soutien et de développeurs. Il est écrit en Python et sécurise de bonnes statistiques sur [Github][20] avec 57,2k étoiles et 19,3k fourchettes.
 **[En savoir plus sur Keras][21]**
 
-## Scikit-Learn   {# Scikit-Learn}
+## Scikit-Learn   {#Scikit-Learn}
 [Scikit-learn][22] est un autre de ces**frameworks AI open-source**qui sont écrits en python. Il fournit une analyse prédictive des données et est très évolutif. Ce cadre d'apprentissage automatique a fait partie intégrante des**systèmes AI**de nombreuses grandes entreprises telles que [J.P.Morgan][23], [Spotify][24], [Booking.com][25], et plus encore. Booking.com utilise SQKIKIT-LEARN pour recommander des hôtels et des destinations de voyage aux clients.
 
 {{< figure align=center src="images/scikit-learn-logo-small.png" alt="bibliothèques d'IA open source,">}}

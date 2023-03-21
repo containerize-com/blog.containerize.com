@@ -20,11 +20,11 @@ Lorsqu'il s'agit d'apprendre à de nouveaux logiciels pour créer des animations
   * [Comment créer des animations avec crayon2d?][5]
   * [Conclusion][6]
 
-## Qu'est-ce que crayon2d?   {# what-is-p-crayer2d}
+## Qu'est-ce que crayon2d?   {#what-is-p-crayer2d}
 [Crayon2d][7] est une application d'animation traditionnelle qui permet aux utilisateurs de créer des croquis 2D de dessins animés et d'animations pour différents projets. Vous pouvez utiliser crayon2d à la fois pour les projets personnels ainsi que pour les efforts commerciaux, car il s'agit d'un logiciel d'animation open source sous licence GNU General Public. L'utilisation de crayon2d est assez simple, comme vous le verrez plus loin dans le post. Il peut également être utilisé par les animateurs débutants ainsi que par les utilisateurs professionnels.
 Avec [crayon2d][7], vos animations sont stockées dans des dessins bitmap ou vectoriels et utilise un flux de travail raster / vector pour une gestion efficace des animations. Certains des formats de fichiers acceptables lors de l'utilisation de crayon2d sont PNG, JPEG, BMP, TIFF, etc. pour les images et AVI, MP4, GIF et plus, pour les vidéos. Il est également compatible avec Windows, Mac OS, Linux et FreeBSD.
 
-## Comment installer crayon2d?   {# Install-P-Pacry2d}
+## Comment installer crayon2d?   {#Install-P-Pacry2d}
 Ouvrez le terminal et mettez à jour l'index de package de votre serveur local en tapant la commande suivante:
 ```
 sudo apt-get update -y
@@ -36,7 +36,7 @@ sudo apt-get install -y pencil2d
 
 ```
 
-## Présentation de l'interface d'application   {# Application-Interface}
+## Présentation de l'interface d'application   {#Application-Interface}
 Avant de commencer par le tutoriel réel crayon2d sur la façon de créer des animations avec crayon2d, voici un peu d'ensemble de l'interface utilisateur, et quelques outils et fonctionnalités bons à connaître:
   * **Blanc Board:**  Lorsque vous lancez crayon 2D pour la première fois, vous verrez une carte blanche principale au milieu, entourée de panneaux de commandes, d'outils et de fonctionnalités où vous allez créer la partie principale de l'animation
   * **Outils:**  Sur le côté gauche, vous trouverez la fonction d'outils qui comprend l'outil de pinceau, le crayon, l'effacer, l'outil de seau pour ajouter de la couleur et toutes les fonctionnalités qui vous permettront d'esquisser un dessin animé ou une animation et de le définir.
@@ -47,7 +47,7 @@ Avant de commencer par le tutoriel réel crayon2d sur la façon de créer des an
   * **Panneau de chronologie:**  C'est l'une des parties les plus importantes du crayon2d qui vous permet d'appliquer des calques à votre animation en commençant par la couche bitmap, la couche vectorielle et la couche de caméra. Vous pouvez également ajouter des cadres clés pour créer une animation vidéo, supprimer et dupliquer les trames, etc.
 Une fois que vous avez maîtrisé et compris ces outils, vous pouvez commencer à créer des animations et des croquis immédiatement, ou essayer d'apprendre au fur et à mesure.
 
-## Comment créer des animations avec crayon2d?   {# Create-Animations}
+## Comment créer des animations avec crayon2d?   {#Create-Animations}
 Maintenant, nous pouvons passer à la création d'une animation de base avec crayon2d.
 {{_LINE_38_}}
 {{_LINE_39_}}

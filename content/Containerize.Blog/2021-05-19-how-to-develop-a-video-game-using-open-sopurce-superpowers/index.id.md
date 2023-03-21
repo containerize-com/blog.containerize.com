@@ -80,7 +80,7 @@ Lebih lanjut, ada bilah pengaturan di sisi kiri tempat Anda dapat mengatur anima
 
 Demikian juga, setelah melalui artikel game ini, Anda dapat menjelajahinya lebih jauh dan memanfaatkan semua fitur. Lebih lanjut, Anda akan dapat memahami cara terus menggunakan Video Game Builder. Ada dukungan online yang tersedia untuk perangkat lunak pengembangan game ini.
 
-## **Kesimpulan**    {#conclusion}
+## **Kesimpulan** {#conclusion}
 Ini mengakhiri panduan pengembangan game HTML5 ini. Semoga posting blog ini akan membantu Anda jika Anda ingin memulai pengembangan video game. Kami telah menjelajahi apa itu kekuatan super, cara mengembangkan video game, yang merupakan pembangun game 3D open source dan kami juga telah melalui prosedur pemasangannya di LocalHost. Ada banyak aplikasi open source **aplikasi desain video game**  yang memungkinkan pengguna membangun game dari awal. Pemrogram video game menggunakan prinsip-prinsip desain game yang penting untuk membangun game berkualitas tinggi. Anda akan mempelajari lebih lanjut tentang membangun game 2D & 3D di artikel kami yang akan datang di [blog.containerize.com][8]. Ada open source lain, pembangun game 3D yang diselenggarakan sendiri dan artikel relevan yang disebutkan di bagian "Jelajahi" di bawah ini.
 Akhirnya, Containerize.com terus menulis posting blog tentang produk dan topik open-source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [pengembangan video game][9][][10] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][11], [LinkedIn][12], dan [Twitter][13].
 

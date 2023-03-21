@@ -9,7 +9,7 @@ url: /zh-hant/how-to-create-joomla-theme-joomla-gantry-framework/
 categories: ['Content Management']
 ---
 
-##設計功能強大，交互式和易於使用的Joomla主題，具有開源模板構建器。龍門框架提高了頁面響應時間和性能。
+## 設計功能強大，交互式和易於使用的Joomla主題，具有開源模板構建器。龍門框架提高了頁面響應時間和性能。
 
 {{< figure align=center src="images/joomla-gantry-framework.png" alt="Joomla Gantry">}}
 
@@ -26,17 +26,17 @@ categories: ['Content Management']
 [**Gantry**][10]是Joomla的免費開源主題框架。**Gantry**是一個快速靈活的Web主題框架。它建立在基於Twitter Bootstrap的12列，960網格系統佈局上。此外，對於開發人員和最終用戶，它都很容易使用。 Gantry具有拖放功能，可幫助用戶快速自定義主題，因為GUI功能可以幫助您快速設計網站而不是編寫代碼。它基於文本文件配置（YAML），因此很容易編輯這些文本文件。此外，此開源主題構建器可用於WordPress和Joomla。 Joomla Gantry就內容和數據提供了完全控制的用戶。有一些功能可以配置此免費主題構建器並將其與第三方應用程序集成在一起。此外，它是高度可擴展的，用戶可以根據要求擴展其功能。
 就主題構建選項而言，此主題框架在UI元素中提供了許多樣式和設計，其中包括Google字體，切換，顏色選擇器，圖像選擇器，前綴標籤，帶有後綴的TextPlus等等。實際上，有支持左右語言的支持，例如阿拉伯語，波爾西等。用戶可以控制塊的大小，並可以在網格系統的幫助下設計任何佈局。 Gantry非常安全，並讓Ajax驅動的非侵入性咆哮式通知通知。此外，有許多印刷功能，JavaScript控制，能夠通過URL，Cookie，Session和Preset設置參數。
 
-##安裝龍門框架 {#installing}
+## 安裝龍門框架 {#installing}
 * 從
 * 導航到**擴展 - >擴展管理器 - >安裝**，然後選擇“選擇文件”按鈕。找到下載的zip，然後單擊上傳並安裝。
 * 您可以在Extensions Manager下看到龍門龍的擴展。確保啟用了所有龍門群的擴展。
 
-##安裝龍門主題 {#installtheme}
+## 安裝龍門主題 {#installtheme}
 在Gantry Framework教程的這一部分中，我們將安裝此主題框架（Gantry）。
 * 轉到**擴展名 - >擴展管理器 - >安裝**。選擇“選擇文件”按鈕，找到下載的zip，然後單擊上傳並安裝按鈕。龍門模板將出現在模板管理器中。
 * 轉到**擴展名 - >模板管理器**，選擇“龍門”複選框，並為您的網站提供默認模板。
 
-##用龍門 {#createTheme}創建主題
+## 用龍門 {#createTheme}創建主題
 建立**龍門主題**的一種非常簡單的方法，以當前的主題為主題，並將其用作創建新主題的模板。
 * 下載，解壓縮並打開氫主題。
 * 更改文件和目錄的名稱。

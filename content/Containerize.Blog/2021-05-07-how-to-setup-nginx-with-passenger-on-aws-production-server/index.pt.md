@@ -92,7 +92,7 @@ Mais de 80% dos aplicativos e sites da Web são alimentados por servidores da We
   ***Apache Tomcat Web Server** 
   ***Caddy Web Server** 
 
-## [][4] Conclusão:   {##a próxima etapa}
+## [][4] Conclusão:   {#a próxima etapa}
 Parabéns, você instalou e configurou com sucesso o NGINX com o passageiro no **AWS Production Server  **para o seu aplicativo da web. Dê uma olhada nos vários guias na [Biblioteca de Passageiros][5] para dominar totalmente o servidor de aplicativos de passageiros. Você pode estar particularmente interessado no guia [Automatando a implantação][6] do seu aplicativo Ruby através do **  Capistrano** , que ensina como implantar automaticamente atualizações futuras de aplicativos sem tanto trabalho manual. Agora você está pronto para implantar seu aplicativo da Web nas instâncias de produção da AWS.
 _Que servidor web gratuito e servidor de aplicativos da web de código aberto, você prefere **Desenvolvimento da Web ou Hospedagem**  Necessidades_?. Você tem alguma dúvida sobre o servidor da web gratuito e o servidor de aplicativos da web de código aberto?, Por favor [entre em contato][7].
 

@@ -9,7 +9,7 @@ url: /zh-hant/top-10-open-source-trending-technologies-of-2022/
 categories: ['Backup and Sync Software', 'Blockchain Platforms', 'Business Intelligence Software', 'DevOps', 'Software Development']
 ---
 
-##技術行業正在通過數字化轉型重塑，企業正在尋找數字解決方案。本文涵蓋了頂級開源技術。
+## 技術行業正在通過數字化轉型重塑，企業正在尋找數字解決方案。本文涵蓋了頂級開源技術。
 
 {{< figure align=center src="images/Top-10-Open-Source-Technologies.png" alt="2022年趨勢的十大開源技術">}}
 

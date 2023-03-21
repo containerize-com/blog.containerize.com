@@ -92,7 +92,7 @@ La orquestación de contenedores de Swarm de Docker comienza en el contenedor y 
 **Las herramientas más populares que se integran con Nomad**  son Docker, Vault, Hashicorp Sentinel, Cónsul, Portworx, Humio y Gloo Edge.
 **Las principales compañías que usan Nomad**  en sus pilas tecnológicas son Petal, Trivago, Wealthsimple, Edgelab, Fundametei, 5G Systems, Aislelabs, Botmetric, Taboola y Machete Inc.
 
-## **¿Qué son las herramientas de gestión de contenedores de código abierto?**    {#4A1A}
+## **¿Qué son las herramientas de gestión de contenedores de código abierto?** {#4A1A}
 Hay muchos beneficios de las soluciones de orquestación de contenedores sobre máquinas virtuales (máquinas virtuales). Los contenedores comparten un solo núcleo del sistema operativo, se inician en unos segundos en lugar de los minutos necesarios para iniciar una máquina virtual (VM). Escalar y duplicar contenedores es muy fácil, tener un pequeño tamaño de disco y son fáciles de compartir. **Una plataforma de gestión de contenedores**  es una aplicación en la nube que administra múltiples contenedores. Los siguientes son los mejores software de gestión de contenedores más utilizado y la lista de orquestadores de contenedores para agilizar aspectos específicos de la gestión de contenedores.
   ***[Rancher][12]**  es una plataforma de gestión de contenedores de código abierto para administrar Kubernetes a escala.
   ***[Apache Mesos][13]**  es un administrador de clúster de código abierto de próxima generación y un servicio de orquestación de contenedores Apache.
@@ -101,7 +101,7 @@ Hay muchos beneficios de las soluciones de orquestación de contenedores sobre m
   ***[Servicio de contenedores elásticos de Amazon (Amazon ECS)][16]**  es AWS ECS Orchestration and Container Management Service que admite contenedores Docker para ejecutar aplicaciones en el clúster de instancias de Amazon EC2.
   ***[Servicio de Kubernetes de Amazon Elastic (Amazon EKS)][17]**  es un servicio de orquestación de contenedores AWS para ejecutar aplicaciones Kubernetes e infraestructura de administración.
 
-## **Conclusión:**    {#4a1a}
+## **Conclusión:** {#4a1a}
 **¿Cómo funciona la tecnología de orquestación de contenedores para sus aplicaciones comerciales y de software?  **Las cinco herramientas de orquestación de contenedores de Docker mencionadas anteriormente son el software DevOps de código abierto más popular y el mejor de código abierto. Si tiene que recordar solo una información clave para ayudarlo a elegir **  Kubernetes vs Docker Swarm  **vs Redhat **  OpenShift vs Compose**  vs Hashicorp Nomad, debe ser que cada solución tendrá algunas ventajas y desventajas. Existen otras opciones de plataforma de orquestación que ofrecen diferentes características en la orquestación de servicio. En última instancia, qué opción toma depende de la escala que desee lograr y en qué ecosistema prefiera más cómodo. Para una inmersión más profunda en la orquestación de contenedores, siga visitando [Blog de contenedores][18].
 _ ¿Cuáles son tus mejores herramientas favoritas de orquestación de contenedores? ¿Tiene alguna pregunta sobre la lista de orquestadores de contenedores mencionados anteriormente?, Por favor_ [Póngase en contacto][19].
 

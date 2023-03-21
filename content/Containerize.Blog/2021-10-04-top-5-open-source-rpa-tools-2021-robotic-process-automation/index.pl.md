@@ -155,7 +155,7 @@ Dla małych zespołów i osób UIPath zapewnia edycję społeczności. To jest d
 **Najlepsze dla: ** Firmy ciężkie informacyjne, które chcą przyspieszonych procesów biznesowych.
 **[Dowiedz się więcej o Kofax][5]**
 
-## **Wniosek:**    {#4a1a}
+## **Wniosek:** {#4a1a}
 Wyżej wymienione pięć narzędzi RPA open source jest najpopularniejszymi bezpłatnymi i najlepszymi narzędziami RPA open source dla programistów. Dalej szczegółowo naszego porównania każdego narzędzia, Blue Prism jest najlepszym narzędziem, ale należy się wyszkolić przed jego użyciem. A szkolenie jest również kosztowne. UIPath jest łatwy w użyciu nawet dla osób niebędących nie-programistom. Zapewnia te same funkcje, a nawet serwery IT małe branże. W przypadku aplikacji stacji roboczej kontekst jest najlepszą opcją, ponieważ mają one specjalność.
 _ Jakie są Twoje ulubione narzędzia RPA open source?. Czy masz jakieś pytania dotyczące narzędzi RPA open source?, Proszę_ [skontaktuj się][6].
 

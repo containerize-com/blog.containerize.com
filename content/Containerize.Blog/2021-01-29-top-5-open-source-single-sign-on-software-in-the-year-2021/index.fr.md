@@ -63,7 +63,7 @@ Authelia propose les caractéristiques clés suivantes:
   * Notifications push avec duo
 **[En savoir plus sur Authellia][18]** 
 
-## wso2   {# wso2}
+## wso2   {#wso2}
 [**WSO2 **][19] est un autre système d'identité open source et d'accès largement utilisé. Il prend en charge presque toutes les normes d'identité populaires pour fournir l'authentification. Il a exposé des pintes API à la fin de l'intégration avec d'autres applications.  **WSO2 **  propose une  **interface conviviale ** **  hautement personnalisable. De plus, ce logiciel open source offre également une authentification à deux facteurs. Cependant, il est principalement écrit en Java et son code source est disponible sur [GitHub][20] avec la documentation concernant le développement et le déploiement.
 WSO2 propose les points clés suivants:
   * Haute performance

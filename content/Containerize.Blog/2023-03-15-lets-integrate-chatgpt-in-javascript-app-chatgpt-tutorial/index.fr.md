@@ -21,7 +21,7 @@ Les sections suivantes seront couvertes dans ce tutoriel Chatgpt:
   * **[Pre-Requisites - CHATGPT JavaScript Wrapper][2]**
   * **[CHATGPT Intégration avec l'application Node.js][3]**
 
-## Pre-Requisites - ChatGpt Javascript Wrapper   {# Pre-Requisites --- ChatGpt-Javascript-Wrapper-}
+## Pre-Requisites - ChatGpt Javascript Wrapper   {#Pre-Requisites --- ChatGpt-Javascript-Wrapper-}
 Cette section démontre les exigences nécessaires pour permettre l'intégration de ChatGpt dans une application basée sur Node.js. Les exigences sont simples et faciles à installer sur votre système.
 Voici les pré-requises pour pratiquer cette intégration JavaScript Chatgpt:
 
@@ -31,7 +31,7 @@ Voici les pré-requises pour pratiquer cette intégration JavaScript Chatgpt:
 Une fois les conditions préalables ci-dessus installées, l'étape suivante consiste à obtenir une clé API OpenAI. Cette clé est utilisée pour faire des demandes d'API au chatppt par programme. Par conséquent, veuillez visiter ce [lien][6] pour apprendre à obtenir la clé API OpenAI au cas où vous ne connaissez pas la procédure.
 Veuillez garder votre clé API dans un endroit sûr et c'est tout pour la phase des exigences.
 
-## Intégration ChatGpt avec l'application Node.js   {# ChatGpt-intégration-with-node.js-application}
+## Intégration ChatGpt avec l'application Node.js   {#ChatGpt-intégration-with-node.js-application}
 Maintenant, nous sommes tous définis pour**intégrer le chatppt dans l'application JavaScript par programme.**Tout d'abord, ouvrez le terminal et exécutez la commande suivante:
 ```
 npm i chatgpt

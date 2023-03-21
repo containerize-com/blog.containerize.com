@@ -9,12 +9,12 @@ url: /fr/how-to-a-install-plugin-in-wordpress-vanilla-forum/
 categories: ['Blogging', 'Discussion Forum']
 ---
 
-## Intégrez un logiciel de forum gratuit avec WordPress pour améliorer le support, réduire le coût du service et augmenter les ventes. Apprenons à intégrer WordPress et Vanilla.   {# Block-0F759F03-5C3E-4792-941E-2C79FEAADD00}
+## Intégrez un logiciel de forum gratuit avec WordPress pour améliorer le support, réduire le coût du service et augmenter les ventes. Apprenons à intégrer WordPress et Vanilla.   {#Block-0F759F03-5C3E-4792-941E-2C79FEAADD00}
 
 {{< figure align=center src="images/vanilla.png" alt="Comment installer un plugin dans WordPress">}}
 
 
-## Présentation   {# Block-424D5C81-AF0C-48A8-9956-FC7F10CE341B}
+## Présentation   {#Block-424D5C81-AF0C-48A8-9956-FC7F10CE341B}
 Au cours des dernières années, l'interaction des entreprises avec leurs clients a changé. Il existe de nombreux forums open source [**Discussion** ][1] qui fournissent un espace partagé où les clients expriment et discutent de leurs expériences concernant les services et les produits de l'entreprise. Il existe de nombreux articles que nous avons publiés dans le passé récent sur les forums de discussion open source et les plateformes de blogs. Au cours des dernières années, les entreprises en ligne ont gagné une immense croissance en fournissant des installations en ligne aux consommateurs. Tout n'est qu'à quelques clics et vous pouvez profiter de n'importe quel service à votre porte. Par conséquent, il existe une énorme concurrence pour saisir le marché en premier, et par conséquent, les entreprises prospèrent pour gagner du trafic des utilisateurs de plus en plus en pratiquant certains facteurs importants.
 Les facteurs comprennent la rédaction de contenu pertinent et informatif pour présenter l'image exacte de votre produit. Après cela, l'engagement avec vos clients est très important. Il existe de nombreux outils qui fournissent un espace où les entreprises commencent une communication bidirectionnelle avec leurs utilisateurs finaux tels que [Discours][2], [Flarum][3], [Vanilla][4], et quelques autres. Ces forums de discussion open source fournissent une plate-forme partagée pour mener des discussions communautaires. Dans ce didacticiel d'intégration WordPress, nous apprendrons à installer un plugin dans WordPress et passerons par l'intégration [Vanilla Forum][5][WordPress][6] en couvrant les points suivants.
   * **[Brief Introduction du forum vanille][7]** 

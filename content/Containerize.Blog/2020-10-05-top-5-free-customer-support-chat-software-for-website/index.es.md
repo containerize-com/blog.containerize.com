@@ -23,7 +23,7 @@ El uso de la solución de software de chat en vivo correcta lo ayuda a responder
   * [Vamos a chatear][4]
   * [Botpress][5]
 
-## **Rocket.chat**    {#Rocket-chat}
+## **Rocket.chat** {#Rocket-chat}
 Rocket.chat es un software de chat web de código abierto **. ** Es un sistema de chat completamente gratuito y autohospedado. Es una plataforma de comunicación integral que proporciona comunicación del equipo utilizando mensajes directos y mensajes grupales.
 Rocket.chat tiene una gran comunidad de código abierto. Como resultado de esto, esta aplicación de chat de código abierto ** tiene más complementos disponibles para mejorar aún más la experiencia del producto. Ayuda a los equipos a trabajar de forma remota, ya que proporciona herramientas de audio y chat de video. Puede ser una alternativa barata a Zoom y Slack. Aquí están las características notables de esta solución de chat de código abierto.
   * BYOS (traiga su propio servidor)
@@ -33,7 +33,7 @@ Rocket.chat tiene una gran comunidad de código abierto. Como resultado de esto,
   * Aplicación nativa de escritorio multiplataforma
     [Leer más][6]
 
-## **Zulip**    {#zulip}
+## **Zulip** {#zulip}
 Zulip es una de las soluciones de chat de código abierto **más populares**  que sigue al modelo de subproceso basado en la transmisión. En Zulip, se suscribe a las transmisiones en lugar de los canales para que solo se le notifique las transmisiones que le interesan. Esta suscripción de flujo le ayuda a rastrear conversaciones más tarde y mantenerse organizado.
 Esta **aplicación de chat de código abierto  **es multiplataforma y ofrece API para desarrollar sus propias integraciones personalizadas. Al igual que otro **  software de chat web **, admite emojis, imágenes en línea, video y vistas previas de tweets. Zulip es 100% gratuito y software de código abierto. Estas son las principales características de este  **software de chat de soporte al cliente**  .
   * Vistas previas de imagen, video y tweets en línea: Zulip genera automáticamente una vista previa de los enlaces que envía en conversaciones
@@ -44,7 +44,7 @@ Esta **aplicación de chat de código abierto  **es multiplataforma y ofrece API
   * Aplicaciones de escritorio: admite aplicaciones de escritorio multiplataforma.
     [Leer más][7]
 
-## **Mattermost**    {#mattermost}
+## **Mattermost** {#mattermost}
 Mattermost es un software de chat web de código abierto ****, que es altamente seguro y escalable. En primer lugar, se considera como una alternativa a las aplicaciones de chat en vivo patentadas más populares. En segundo lugar, esta  **aplicación de chat de código abierto**   es una mezcla de equipos Slack y Microsoft. En conclusión, lo convierte en un superconjunto de ambas aplicaciones.
 Esta **solución de chat de código abierto**  ayuda a las grandes empresas a consolidar todas sus comunicaciones. Por ejemplo, chats de equipo, chats de video y compartir documentos de inmediato. Por lo tanto, haga que sea simple buscar y descubrir información.
 Estas son algunas de las principales características de la materia más
@@ -56,7 +56,7 @@ Estas son algunas de las principales características de la materia más
   * Biblioteca de API robusta
     [Leer más][8]
 
-## **Vamos a chatear**    {#Lets-Chat}
+## **Vamos a chatear** {#Lets-Chat}
 Let's Chat es un software de chat de atención al cliente ** ****  para equipos pequeños. Este  **software de chat web**   se desarrolla utilizando Node.js y MongoDB y se centra en una implementación fácil y rápida. Puede instalarlo en su servidor con unos pocos clics. Es 100% gratuito y de código abierto con su código fuente disponible en GitHub.
 Lo que hace que el chat sea único de otro software de código abierto son sus características empresariales como la autenticación LDAP y Kerberos. Este **Software de chat de atención al cliente**  está siendo actualizado constantemente por el equipo de desarrollo y se agregan cada vez más características. Aquí están las características principales disponibles ahora
   * Autenticación LDAP / Kerberos
@@ -66,7 +66,7 @@ Lo que hace que el chat sea único de otro software de código abierto son sus c
   * Transcripciones / Historial de chat
     [Leer más][9]
 
-## **botpress**    {#botpress}
+## **botpress** {#botpress}
 Los chatbots están en aumento en estos días. Ya sea que los use para ventas, marketing o soporte, pueden ser una gran adición a su equipo virtual.
 Por lo tanto, hacer botpress es uno de los software de chat en vivo más popular **para sitios web** . Tiene un constructor de conversaciones visual y un emulador para probar sus conversaciones. Utiliza la IA y la comprensión del lenguaje natural (NLU). Por lo tanto, está permitiendo a los diferentes especialistas reunir su conocimiento en la construcción de mejores asistentes de conversación. Por lo tanto, mejora el poder de la máquina para comprender a los humanos.
 La inteligencia artificial y el aprendizaje automático han mejorado mucho recientemente. Por lo tanto, la demanda de software de chat de atención al cliente de conversación basado en IA ** ha ganado muchos impulso. Entonces, aquí están las características notables que ofrece Botpress.

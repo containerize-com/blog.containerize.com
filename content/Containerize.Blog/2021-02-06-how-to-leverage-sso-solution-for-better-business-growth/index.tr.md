@@ -25,7 +25,7 @@ Kısa süre önce [2021 yılında ilk 5 açık kaynaklı tek oturum açma yazıl
 [Tek Oturum Açma][6], üçüncü taraf siteleri kullanarak giriş yapmanızı sağlayan bir tanımlama ve **kimlik doğrulama yazılımı** 'dır. SSO yazılımı, tek bir kullanıcı adı/şifre setiyle birden fazla siteye giriş yapabilmeniz için bir kimlik sağlayıcısı olarak görev yapar. Ancak, bir kerelik bir giriş mekanizmasıdır ve SSO sistemi kullanıcıların özgünlüğünü sağlar.
 Ayrıca, bu sistem kullanıcının kimliklerini birden çok uygulamada yönetmek için küçük ve kurumsal düzeyde yaygın olarak kullanılmaktadır. OpenID OpenId, Saml ve OAuth gibi popüler yetkilendirme protokollerini kullanan birçok açık kaynaklı tek oturum açma yazılımı mevcuttur.
 
-## **Tek oturum açma (SSO) nasıl çalışır?**    {#features}
+## **Tek oturum açma (SSO) nasıl çalışır?** {#features}
 **açık kaynaklı tek oturum açma**  çalışma mekanizması düzdür. Kullanıcı kimlik bilgilerini oturum açma formunda girer, kullanıcı SSO kimlik doğrulamasının başarılı bir şekilde tamamlanması üzerine taşınır. Şimdi, bir kullanıcı herhangi bir SSO çözümüyle entegre olan herhangi bir siteyi ziyaret ettiğinde, sistemin her iki kullanıcının zaten giriş yapılıp içeri girmediğini kontrol edecektir. Ayrıca, kullanıcı zaten oturum açmışsa, sunucu bir izleyici/jeton yayınlayacak ve bu jeton/izleyici, kimlik doğrulamanızı birden çok uygulamada emin olmak için kullanılacaktır. SSO özelliklerinin yanı sıra, aşağıda belirtildiği gibi kullanıcı yönetimi ve güvenlik özellikleri de sağlar.
   * Kullanımı kolay
   * Federasyonlu kimlik

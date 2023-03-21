@@ -23,7 +23,7 @@ Bir işletme web sitesinin kullanıcı arayüzü, tasarımda **tekdüzelik **,  
   * [JD Austin][6]
   * [Sonuç][7]
 
-## **xeon  **- **  Ücretsiz tek sayfa joomla şablonu**    {#xeon}
+## **xeon  **- **  Ücretsiz tek sayfa joomla şablonu** {#xeon}
 [Xeon][8] ücretsiz moda bir Joomla şablonudur. Kişisel, kurumsal, etkinlik veya işletme web siteleri gibi birçok amaç için kullanılabilir. Buna ek olarak, bu **Joomla Tek Sayfa Şablonu** , JQuery ve CSS animasyonlarına dayalı navigasyon sağlar. Bu tür yararlı özellikler nedeniyle kullanıcılar için uygun bir seçenek gibi görünüyor.
 Ancak, **Xeon**  şablonunun bazı baskın özellikleri:
   * Duyarlı düzen
@@ -32,7 +32,7 @@ Ancak, **Xeon**  şablonunun bazı baskın özellikleri:
   * HTML5, CSS3, SCSS desteği
   * Sağdan sola dil desteği
 
-## **JD Seattle  **- **  Hafif Çok Fonksiyonlu Joomla Şablonu**    {#jd}
+## **JD Seattle  **- **  Hafif Çok Fonksiyonlu Joomla Şablonu** {#jd}
 [JD Seattle][9] yaygın olarak kullanılan bir Joomla şablonudur. Ayrıca, astoid çerçevesi kullanılarak inşa edilmiştir. Ayrıca, diğer birçok özellik ve animasyona sahip sağlam bir yönetici paneli ile donatılmıştır. Sonuç olarak, sürükleme ve damla öğeleri ile herhangi bir bölümü tasarlamak ve oluşturmak için kullanıcı sağlayan JD Builder ile entegre edilmiştir. Düzen dostudur ve hemen herhangi bir ekrana uyum sağlar. Kullanıcıların gerektiği kadar çok menü öğesi ekleyebilecekleri mantıksal gezinme sağlar. Web sitesi sahipleri, bu Joomla iş şablonunda paketlenmiş bir iletişim formu aracılığıyla site ziyaretçileriyle iletişime geçebilir. Ayrıca, JD Seattle'da desteklenen 800'den fazla Google yazı tipi var.
 Her şeyden önce, **JD Seattle**  'nın bazı önemli özellikleri:
   * Sınırsız menü öğeleriyle gezinme
@@ -41,7 +41,7 @@ Her şeyden önce, **JD Seattle**  'nın bazı önemli özellikleri:
   * RGB renk desteği
   * Bootstrap 4 Çerçeve Desteği
 
-## **Dino  **- **  Ücretsiz Özelleştirilebilir Joomla Şablonu**    {#Dino}
+## **Dino  **- **  Ücretsiz Özelleştirilebilir Joomla Şablonu** {#Dino}
 [Dino][10] düzenli iyileştirmeler ve yeni özellik güncellemeleri konusunda oldukça canlı bir şablondur. Bu şablon Bootstrap 4 ile uyumludur, bu nedenle **Joomla Geliştirme Ortamı**  tamamen duyarlı bir düzen sunar ve temiz ve optimize edilmiş bir kod tutar. Ayrıca, iş ihtiyaçlarına göre kolayca özelleştirilebilir. Bu Joomla şablonunu yeni işlevsellik ve görünümle güncelleyen düzenli gelişmeler var.
 **Dino**  aşağıdaki önemli özellikler nedeniyle mükemmel bir seçimdir:
   * Ücretsiz Google Yazı Tipleri
@@ -50,7 +50,7 @@ Her şeyden önce, **JD Seattle**  'nın bazı önemli özellikleri:
   * Düzen dostu
   * 100'den fazla benzersiz bileşen
 
-## **Jollyany  **- **  Sonsuz özelliklere sahip Joomla şablonu**    {#jollyany}
+## **Jollyany  **- **  Sonsuz özelliklere sahip Joomla şablonu** {#jollyany}
 [Jollyany][11] zengin özellikli bir Joomla şablonudur. Her şeyden önce, Astroid Framework ve Bootstrap V4.5 çerçevesi ile desteklenmektedir. Ayrıca, kullanıcıların kullanıcı arayüzünü gereksinimlere göre özelleştirebileceği modüler bir ön uçla birlikte gelir. Bu ücretsiz Joomla şablonunda desteklenen 60'tan fazla eklenti var. Kullanıcılar, birden çok başlık seçeneğinden herhangi bir başlık seçme seçeneklerine sahiptir. Kişisel, blog, şirket veya blog web sitesi tasarlamayı amaçlıyorsanız **Jollyany**  en iyi seçimdir.
 Aşağıdakiler gibi birçok özelliğe sahip son derece kullanışlı bir çerçevedir:
   * Tuval menü desteği
@@ -59,7 +59,7 @@ Aşağıdakiler gibi birçok özelliğe sahip son derece kullanışlı bir çer�
   * HTML, JS, CSS'yi optimize edin
   * 6 makale türü
 
-## **JD Austin  **- **  SEO Optimize edilmiş Joomla Şablonu**    {#Austin}
+## **JD Austin  **- **  SEO Optimize edilmiş Joomla Şablonu** {#Austin}
 **[JD Austin][12]  **Ücretsiz Duyarlı **  Joomla Business Şablonu** , ancak ticari ve ticari olmayan web siteleri için güçlü seçenekler sunar. Arama motoru optimizasyonu Google tarafından tanımlanan standartlara göre yapılmaktadır. Her şeyden önce, kullanıcıların bir sürükleme ve damla arayüzü kullanarak herhangi bir form oluşturabileceği önceden entegre edilmiş bir form oluşturucu kronoform ile birlikte gelir. Ayrıca, bu şablon zengin tipografi ve renklerle oldukça duyarlı düzenler korur. Ayrıca üçüncü taraf uzantılarla entegrasyonlar sağlar.
 Öte yandan, bu ücretsiz Joomla şablonunun bazı harika özellikleri şunları içerir:
   * Tamamen özelleştirilmiş blog düzeni

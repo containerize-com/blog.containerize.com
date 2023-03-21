@@ -106,7 +106,7 @@ Tüm değişiklikleri uygulamak için NGINX HTTP2 Ters Proxy sunucusunu yeniden 
 sudo systemctl nginx yeniden başlat
 sudo systemctl durumu nginx
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Tebrikler, Ubuntu sunucusunda Nginx Config HTTP2 desteğinin nasıl kurulacağını başarıyla öğrendiniz. Nginx HTTP2 ayarlarınız artık HTTP/2 sayfa sunuyor ve ayrıca HTTP/1 ve HTTP/2 protokolleri arasındaki farkı temizledi. Hala herhangi bir yapılandırma sorunuyla karşılaşırsanız, yorum bölümünde bize bildirin.
 HTTP2 Multiplexed Protokolü hakkında herhangi bir sorunuz var mı?
 

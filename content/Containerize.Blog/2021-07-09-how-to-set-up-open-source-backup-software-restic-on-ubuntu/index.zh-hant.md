@@ -9,7 +9,7 @@ url: /zh-hant/how-to-set-up-open-source-backup-software-restic-on-ubuntu/
 categories: ['Backup Software']
 ---
 
-##使用開源備份軟件進行備份，然後將其存儲在本地或外部後端。 Restic是跨平台，並支持多種存儲類型。
+## 使用開源備份軟件進行備份，然後將其存儲在本地或外部後端。 Restic是跨平台，並支持多種存儲類型。
 
 {{< figure align=center src="images/restic-post-banner.png" alt="開源備份軟件">}}
 
@@ -22,7 +22,7 @@ categories: ['Backup Software']
   *[ **restic ** 替代品][5]
   * **[結論][6]**
 
-##先決條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 Restic備份軟件程序支持三個主要操作系統Linux，MACOS和Windows。在安裝 **RESTIC備份** 之前，您應該滿足以下系統要求。
   *帶有ubuntu操作系統的機器或台式系統，該操作系統容納要備份的數據
   *最新的Ubuntu服務器實例
@@ -30,7 +30,7 @@ Restic備份軟件程序支持三個主要操作系統Linux，MACOS和Windows。
   *具有sudo特權的非根本用戶
 掌握這些位，讓我們開始工作。
 
-##什麼是restic？   {#restic}
+## 什麼是restic？   {#restic}
 [ **Restic ** ][7]是一個很棒的**開源備份工具**。快速，安全且高效的免費備份實用程序**。它是跨平台備份程序，因此它將在Linux，BSD，Mac OS X和Windows上運行。 Restic最佳開源備份軟件易於運行，並且不需要服務器或複雜的配置。它創建了修改後的數據的備份，並允許用戶在必要時對其進行還原。此外，它提供了各種存儲選項，包括自託管和互聯網存儲。此外，Restic開源自託管雲存儲使用強大的加密技術來保護您的數據。
 Restic不是一個簡單的文件複製實用程序。它主要基於兩個概念：快照和存儲庫。  **Restic ** 開源備份解決方案將信息保存為快照，然後將其保存在存儲庫中。它用GO編程語言編寫。基於RESTIC GO的備份實用程序和開源備份應用程序與許多雲和本地後端存儲系統平穩地工作。 RESTIC開源文件備份軟件的源代碼可在[ **github ** ][8]上獲得。但是，您可以找到用於安裝和用法的詳細[**文檔**][9]。
 RESTIC自託管的雲備份支持備用後端以備份存儲。

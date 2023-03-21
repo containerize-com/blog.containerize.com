@@ -21,7 +21,7 @@ Nel recente passato, abbiamo pubblicato post sul blog su alcuni argomenti relati
   * **[Come avviare la rete?][7]**
   * **[Conclusione][8]**
 
-##  **Una breve introduzione di Consensys Quorum**    {#Introduction}
+##  **Una breve introduzione di Consensys Quorum** {#Introduction}
 [Consensys Quorum][9] è una piattaforma open source basata sulla tecnologia di contabilità **decentralizzata **. Tuttavia, fornisce un ambiente completamente adatto agli sviluppatori per creare applicazioni basate su blockchain che gestiscono transazioni rapide e ad alto rendimento. È  **Ethereum **  basato, estensibile e offre molti plugin. Inoltre, questo sistema distribuito open source è dotato di elevati standard di sicurezza e privacy. Inoltre, ci sono molte potenti caratteristiche come le API di autorizzazione e il monitoraggio. Inoltre, questa piattaforma ** DLT**  è ospitata da soli e fornisce una documentazione dettagliata per quanto riguarda lo sviluppo e la distribuzione. Il codice sorgente di questo software gratuito è disponibile su [GitHub][10].
 Consensys Quorum offre le seguenti caratteristiche importanti:
   * Architettura collegabile

@@ -66,7 +66,7 @@ ruby -r rubygems -e 'require "jekyll-import";
 ```
 Ini hanya mengimpor data & konten posting & halaman. Importir ini hanya mengonversi posting Anda dan membuat materi depan YAML. Itu tidak mengimpor tata letak, gaya, atau file eksternal (gambar, CSS, dll.).
 
-## **Penerapan dengan halaman github**    {#deploy}
+## **Penerapan dengan halaman github** {#deploy}
 Sejauh ini, kami membuat blog Jekyll kami secara lokal. Sekarang kita akan menggunakannya di GitHub. Pertama -tama, kami harus mengontrol versi situs kami menggunakan [git][9]. Jalankan perintah berikut di folder situs.
 ```
 git init

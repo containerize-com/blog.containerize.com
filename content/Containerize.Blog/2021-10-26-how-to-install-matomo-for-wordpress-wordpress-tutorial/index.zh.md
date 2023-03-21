@@ -37,7 +37,7 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 WordPress的优点在于，它通过API无缝地与MATOMO插件通信。此开源 **Web Analytics软件** 像Google Analytics（分析）一样提供跟踪代码。因此，您无需手动插入跟踪代码而不是自动发生。最后，安装了MATOMO插件并在WordPress上设置，您可以开始跟踪业务网站数据。
 
-## **matomo仪表板**    {#dashboard}
+## **matomo仪表板** {#dashboard}
 这个 **WordPress教程** 已经描述了开源 **MATOMO插件** 的集成。现在，让我们探索其提供强大模块的仪表板。在MATOMO Analytics菜单下，单击“报告”选项，该选项将带您到网站的MATOMO仪表板，如下图所示。
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="开源网络分析">}}

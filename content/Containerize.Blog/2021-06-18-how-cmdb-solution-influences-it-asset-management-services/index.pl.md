@@ -22,10 +22,10 @@ Te systemy zarządzania konfiguracją oferują narzędzia do utrzymania zapisu e
   *[ **Wpływ oprogramowania CMDB na usługi zarządzania aktywami IT** ][7]
   * **[wniosek][8]**
 
-##  **Co to jest oprogramowanie CMDB?**    {#co}
+##  **Co to jest oprogramowanie CMDB?** {#co}
 [Oprogramowanie do bazy danych zarządzania konfiguracją][1] to baza danych, która przechowuje informacje o elementach konfiguracji i ich szczegółach relacji. Ponadto istnieje wiele rodzajów elementów konfiguracyjnych (CIS), które mogą być sprzętem lub oprogramowaniem, a CIS są integralnym elementem dowolnego oprogramowania CMDB. Niektóre organizacje wykorzystali to rozwiązanie do śledzenia lokalizacji biznesowych, dokumentów i umów biznesowych. Interesariusze biznesowe udaje się podejmować właściwe decyzje, konieczne patrzenie na wszystkie zasoby i ich zależności od siebie nawzajem. Dlatego mogą prognozować przyszłe trendy, potencjał i zagrożenia, które mogą wystąpić. Te bezpłatne rozwiązania zapewniają wyraźną demonstrację danych w dobrze udany sposób. Istnieje przyjazny dla użytkownika i logiczny pulpit nawigacyjny, który pobiera dane z różnych źródeł w czasie rzeczywistym, przetwarza je, a następnie pokazuje przetworzone dane w różnych typach widżetów. Ponadto oprogramowanie CMDB zaprojektowane w razie potrzeby w celu zapewnienia wsparcia dla dodatkowego CIS.
 
-##  **Najlepsze oprogramowanie CMDB Top 5 Top 5 Open Source**    {#top}
+##  **Najlepsze oprogramowanie CMDB Top 5 Top 5 Open Source** {#top}
 W tej sekcji zbadamy najwyżej oceniane oprogramowanie do bazy danych zarządzania konfiguracją.
 
 ## # Ralph
@@ -71,7 +71,7 @@ ITOP oferuje kluczowe funkcje
 **Zarządzanie incydentami**: Organizacje mogą wykorzystać oprogramowanie do zarządzania konfiguracją w celu śledzenia zarządzania incydentami. Ponadto oprogramowanie CMDB z trybem automatycznego aktualizacji utrzymuje wszelkie incydenty w pętli w celu lepszego zarządzania problemami.
 **Ulepszone bezpieczeństwo:** Posiadanie zaktualizowanego oprogramowania CMDB może zapewnić pewność dotyczące bezpieczeństwa i możesz podejmować decyzje dotyczące każdej podatności.
 
-##  **Wniosek**    {#Conclusion}
+##  **Wniosek** {#Conclusion}
 To jest koniec tego postu na blogu. W tym artykule stwierdziliśmy, że **Systemy zarządzania konfiguracją  **odgrywają decydującą rolę w usługach zarządzania aktywami IT, zapewniając przejrzystość, wydajność i solidność. Ponadto scentralizuje dane i dla lepszego zrozumienia ryzyka i możliwości. Jednak najwyższy czas wybrać rozwiązanie open source**   CMDB** dla działu IT i zwiększenie operacji biznesowych, które w przeciwnym razie są czasochłonne.
 Wreszcie [ **Containerize.com** ][16] pisze artykuły na temat dalszych produktów open source. Dlatego prosimy o kontakt z oprogramowaniem [][17][Konfiguracja zarządzania bazą danych (CMDB][1]) do regularnych aktualizacji.
 

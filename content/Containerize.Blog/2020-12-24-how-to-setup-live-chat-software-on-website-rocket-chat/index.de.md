@@ -59,7 +59,7 @@ Und dann konfigurieren Sie das Aussehen und Gefühl von Live -Chat -Widgets von 
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat Livechat Widget">}}
 
 
-## **Live -Chat -Widget auf Ihrer Website installieren**    {#Widget}
+## **Live -Chat -Widget auf Ihrer Website installieren** {#Widget}
 In diesem Abschnitt werden wir Live -Chat -Widgets auf der Business -Website installieren. Nun zugreifen **Livechat Installation**  Einstellungen:
 Gehen Sie zu **Livechat Installation**  in den Einstellungen von Omnichannel -Panel, wie unten gezeigt, und kopieren Sie das angegebene Code.
 

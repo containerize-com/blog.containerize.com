@@ -40,7 +40,7 @@ Setelah prototipe dikembangkan, fase berikutnya adalah menyajikan prototipe ini 
 **Pengembangan dan Pengujian Berkelanjutan** 
 Dalam fase ini, tim RAD cenderung melakukan siklus pengembangan dan pengujian yang berkelanjutan. Fase ini memastikan bahwa semuanya berada di arah yang benar dan selaras dengan kebutuhan klien. Selain itu, pengembang terus mengembangkan fitur baru dan versi rilis produk dengan fitur dan dokumentasi terbaru.
 
-## B **Perangkat lunak RAD?**    {#benefits}
+## B **Perangkat lunak RAD?** {#benefits}
 Mari kita lihat apa manfaat yang bisa kita dapatkan dengan mengadopsi perangkat lunak aplikasi yang cepat.
   ***Fleksibilitas**  - Platform RAD open source cukup fleksibel untuk menggabungkan perubahan apa pun pada tahap apa pun.
   ***Kecepatan**  - Alat RAD membantu pengembang untuk mempercepat proses pengembangan dan penyebaran untuk melakukan pengiriman tepat waktu.
@@ -50,7 +50,7 @@ Mari kita lihat apa manfaat yang bisa kita dapatkan dengan mengadopsi perangkat 
   ***Perbaikan Instan**  - Faktanya, ada tim pendukung produksi yang bekerja pada perbaikan bug. Namun, dalam model ini, setiap kali ada mishandeling ditemukan, pengembang memperbaikinya dalam waktu yang lebih cepat.
   ***Teknologi terbaru**  - Ini adalah keuntungan besar dari model RAD yang dapat diadopsi oleh tim pengembangan dan menguji alat dan teknologi terbaru di setiap tahap.
 
-## **Kesimpulan**    {#conclusion}
+## **Kesimpulan** {#conclusion}
 Inilah akhir dari tutorial ini. Ada banyak model pengembangan perangkat lunak seperti model air terjun, model spiral, model berbentuk V, model gesit, dan beberapa lagi. Jadi, adopsi model apa pun tergantung pada kasus penggunaan Anda dan sifat perangkat lunak. Oleh karena itu, posting blog ini akan sangat membantu Anda jika Anda ingin mengadopsi model RAD untuk bisnis Anda. Terlepas dari platform, ada beberapa perangkat lunak pengembangan aplikasi cepat open source yang menawarkan kemampuan lintas platform dengan alat pengembangan. Ada perangkat lunak prototyping cepat lainnya yang tersedia di bagian 'Jelajahi' di bawah ini yang mengikuti metodologi RAD. Ini adalah waktu yang tepat untuk mengadopsi pendekatan yang hemat biaya dan kuat ini untuk mengembangkan perangkat lunak bisnis yang siap-produksi.
 Pada akhirnya, [containerize.com][9] sedang dalam proses berkelanjutan memperkenalkan open source [perangkat lunak RAD][1]. Ikuti kategori [Pengembangan Aplikasi Cepat][1] ini untuk pembaruan rutin. Selanjutnya, perangkat lunak yang tercantum di bawah ini di bagian Explore adalah open source, gratis dan diselenggarakan sendiri. Semua ini **generator kode sumber**  dilengkapi dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran.
 

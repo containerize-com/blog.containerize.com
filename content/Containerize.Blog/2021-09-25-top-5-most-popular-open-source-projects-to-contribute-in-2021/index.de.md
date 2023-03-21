@@ -91,7 +91,7 @@ Ansible Open Source **Automatisierungstool  **und kostenlose Software ist in Pyt
 Python ist objektorientierte Skriptsprache, mit der Anwendungen in wie künstlicher Intelligenz, maschinelles Lernen, Desktop-Apps usw. erstellt werden Software Foundation ** (DSF).
 ** Zu den Top -Unternehmen, die Django verwenden.
 
-## **Fazit:**    {#4A1a}
+## **Fazit:** {#4A1a}
 Die oben genannten fünf Open -Source -Softwareprojekte sind für Entwickler am beliebtesten kostenlosen und besten Open -Source -Software. Wenn Sie zum ersten Mal die guten Open -Source -Projekte für Anfänger erkunden, schauen Sie sich den Octoverse State Report an und fügen Sie hinzu und leisten Sie dazu bei. Die Open -Source -Softwareliste entsperren die Türen für Innovatoren und Anwendungsentwickler beim Aufbau einer Karriere und ermöglicht es ihnen, an einigen der größten Plattformen der Welt zu arbeiten. Die besten Beispiele für Open -Source -Software, die wir oben aufgeführt haben, sind nur ein Beweis dafür, wie vorteilhaft Open -Source -Anwendungen sind.
 _Was sind Ihre favorisierten kostenlosen und Open -Source -Softwareprojekte?. Haben Sie Fragen zu Open -Source -Projekten?
 

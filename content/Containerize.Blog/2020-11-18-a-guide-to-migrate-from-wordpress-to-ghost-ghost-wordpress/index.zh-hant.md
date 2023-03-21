@@ -30,10 +30,10 @@ categories: ['Blogging']
 ## **什麼是鬼？** {#ghost}
 [Ghost][10]是另一個流行的開源博客平台。這是開發人員和網站所有者高度採用的最廣泛使用的內容髮布平台之一。此外，Ghost非常友好，並帶有內置主題，表格，電子郵件新聞通訊和訂閱。這個免費的博客軟件是用JavaScript編寫的，所有文檔都可以使用有關開發和部署的信息。
 
-##要求 {#requirements}
+## 要求 {#requirements}
 在WordPress Ghost教程的部分中，我們將看到從WordPress遷移到Ghost所需的要求。使用官方的WordPress導出插件，您可以輕鬆地將內容從WordPress遷移到Ghost。在本教程中，我們將指導您如何將內容從WordPress導出到幽靈站點。因此，您必須安裝WordPress和WordPress**導出插件**的工作安裝。
 
-##從WordPress   {#Export}導出內容
+## 從WordPress   {#Export}導出內容
 首先，您必須安裝插件。按照以下步驟安裝插件
 * 單擊**插件**從側欄菜單中
 * 單擊**添加新**並使用右上角的搜索字段搜索**ghost Export**
@@ -57,14 +57,14 @@ categories: ['Blogging']
 * 導航到**在“側欄”菜單中**工具**內的ghost**。
 * 單擊**下載Ghost File**按鈕。您將下載一個包含所有內容的zip文件。
 
-##導入內容到ghost   {#import}
+## 導入內容到ghost   {#import}
 在WordPress Ghost教程的這一部分中，我們將實施將內容導入Ghost的步驟。
 * 登錄Ghost Admin並導航到**實驗室**視圖。
 * 單擊**選擇文件**import content**選項中的文件**按鈕，然後選擇導出的zip文件
 * 單擊**導入**。然後，您的所有內容將被導入您的幽靈網站。
 目前，Ghost沒有任何內置的評論系統。最受歡迎的選擇是Disqus。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這使我們進入了此博客文章的結尾。在這個WordPress Ghost教程中，我們學會瞭如何準備您的WordPress內容，準備遷移到幽靈。我們使用Ghost Foundation的官方幽靈遷移插件來執行遷移。此外，如果您希望從WordPress遷移到Ghost，那麼本博客文章肯定會為您提供幫助，因為我們涵蓋了所需的所有步驟。此外，下面的“探索”部分中提到的許多開源內容髮布平台和教程文章。但是，這兩個開源博客平台都是提供企業級功能以滿足您業務網站需求的最佳領先軟件。
 最後，[containerize.com][11]一直在撰寫有關進一步開源軟件的新博客文章。因此，請與[this][12]平台保持聯繫以進行常規更新。
 

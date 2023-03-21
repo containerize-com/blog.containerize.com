@@ -106,7 +106,7 @@ sudo nginx -t
 sudo systemctl khởi động lại nginx
 sudo systemctl status nginx
 
-## **Kết luận:**    {#4A1A}
+## **Kết luận:** {#4A1A}
 Xin chúc mừng, bạn đã học được thành công cách thiết lập hỗ trợ HTTP2 HTTP2 trên máy chủ Ubuntu. Cài đặt nginx http2 của bạn hiện đang phục vụ các trang HTTP/2 và nó cũng xóa sự khác biệt giữa các giao thức HTTP/1 và HTTP/2. Nếu bạn vẫn phải đối mặt với bất kỳ vấn đề cấu hình nào, hãy cho chúng tôi biết trong phần bình luận.
 Bạn có bất kỳ câu hỏi nào về giao thức ghép kênh HTTP2 không? _, PLEL_ [liên hệ][2].
 

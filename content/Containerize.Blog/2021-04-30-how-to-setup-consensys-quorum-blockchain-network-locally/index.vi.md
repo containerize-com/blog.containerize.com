@@ -21,7 +21,7 @@ Trong quá khứ gần đây, chúng tôi đã xuất bản các bài đăng tr�
   * **[Làm thế nào để khởi động mạng?][7]**
   * **[Kết luận][8]**
 
-##  **Giới thiệu ngắn gọn về Quorum của Consensys**    {#Introduction}
+##  **Giới thiệu ngắn gọn về Quorum của Consensys** {#Introduction}
 [Quorum của Consensys][9] là một nền tảng nguồn mở dựa trên **Công nghệ sổ cái phi tập trung **. Tuy nhiên, nó cung cấp một môi trường hoàn toàn thân thiện với nhà phát triển để xây dựng các ứng dụng dựa trên blockchain để xử lý các giao dịch nhanh và thông lượng cao. Đó là  **Ethereum **  dựa trên, mở rộng và cung cấp nhiều plugin. Hơn nữa, hệ thống phân phối nguồn mở này đi kèm với các tiêu chuẩn bảo mật và quyền riêng tư cao. Ngoài ra, có nhiều tính năng mạnh mẽ như API cho phép và giám sát. Hơn nữa, nền tảng ** DLT này**  tự lưu trữ và cung cấp tài liệu chi tiết về phát triển và triển khai. Mã nguồn của phần mềm miễn phí này có sẵn tại [GitHub][10].
 Consensys Quorum cung cấp các tính năng quan trọng sau:
   * Kiến trúc có thể cắm được

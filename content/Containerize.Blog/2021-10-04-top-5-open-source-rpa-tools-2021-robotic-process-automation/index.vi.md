@@ -155,7 +155,7 @@ Chúng ta đi đây !!!
 **Tốt nhất cho: ** Các doanh nghiệp nặng thông tin muốn các quy trình kinh doanh tăng tốc.
 **[Tìm hiểu thêm về Kofax][5]**
 
-## **Kết luận:**    {#4A1A}
+## **Kết luận:** {#4A1A}
 Năm công cụ RPA nguồn mở được đề cập ở trên là các công cụ RPA nguồn mở miễn phí và tốt nhất cho các nhà phát triển. Hơn nữa để so sánh chi tiết của từng công cụ ở đây, Blue Prism là công cụ tốt nhất nhưng bạn nên được đào tạo trước khi sử dụng nó. Và đào tạo là tốn kém là tốt. Uipath dễ sử dụng ngay cả đối với những người không phát triển. Nó cung cấp các tính năng tương tự, và thậm chí nó máy chủ các ngành công nghiệp quy mô nhỏ. Đối với các ứng dụng máy trạm, bối cảnh là lựa chọn tốt nhất vì chúng có một đặc sản trong đó.
 _ Công cụ RPA nguồn mở yêu thích nhất của bạn là gì ?. Bạn có bất kỳ câu hỏi nào về các công cụ RPA nguồn mở không ?, Please_ [Hãy liên lạc][6].
 

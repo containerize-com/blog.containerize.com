@@ -25,7 +25,7 @@ Este artículo explica y destaca el mercado de comercio electrónico múltiple m
   * Otras opciones de software del mercado a considerar
   * Conclusión
 
-## 1. **Sharetribe  **- Open Source **  Mercado de pares a pares**    {#42DB}
+## 1. **Sharetribe  **- Open Source **  Mercado de pares a pares** {#42DB}
 [Sharetribe][1] es una de las plataformas de modelo de negocio SaaS de código abierto más conocida para construir y lanzar rápidamente un producto de mercado de comercio electrónico en línea de múltiples proveedores. Los usuarios pueden alquilar o vender productos, espacios o servicios en línea y los cambios en su tema de color y las fotos se pueden ajustar instantáneamente. Sharetribe Peer to Peer Marketplace tiene un proceso de incorporación guiado con el mercado. Permite a los usuarios vender los productos o servicios en línea sin ningún esfuerzo técnico. Sharetribe es la plataforma de mercado de dos lados y el mercado de comercio electrónico B2B.
 Aunque las habilidades técnicas o de desarrollo le permiten personalizar aún más su software de mercado en línea a través de CSS, HTML o JavaScript. La plataforma Sharetribe SaaS maneja todo el alojamiento web y cualquier pago o transacción en línea que reciba. Se asegura de que pueda crear su nuevo producto SaaS de mercado con facilidad.
 
@@ -49,7 +49,7 @@ Hay docenas de otra plataforma B2B Marketplace de código abierto y los principa
   ***REACCIÓN**  Plataforma de mercado multivendora de comercio electrónico.
   ***Beyourmarket**  Marco de mercado de código abierto.
 
-## **Conclusión:**    {#4a1a}
+## **Conclusión:** {#4a1a}
 Construir una plataforma de mercado para iniciar un negocio o hacer crecer uno existente puede ser complicado, especialmente si desea construir una desde cero. Puede tener enormes beneficios de las principales compañías de comercio electrónico de proveedores múltiples mencionadas anteriormente. Cualquiera puede construir su propio sitio web de mercado deseado de manera fácil y rápida. Esta plataforma de software del mercado satisfará bien sus necesidades. Tendrá una lista personalizada de mercados o tiendas en línea compatibles con una de estas compañías de comercio electrónico de software confiables.
 _Un puede unirse a nosotros en [Twitter][6], [LinkedIn][7] y nuestra página [Facebook][8]. ¿Qué software en línea Marketplace_ para construir un mercado de aplicaciones _do que usa? Si tiene alguna pregunta o comentarios, por favor_ [póngase en contacto][9].
 

@@ -59,7 +59,7 @@ Dan kemudian konfigurasikan tampilan dan nuansa widget obrolan langsung
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Widget Livechat Rocket.Chat">}}
 
 
-## **Instal Widget Obrolan Langsung di Situs Web Anda**    {#Widget}
+## **Instal Widget Obrolan Langsung di Situs Web Anda** {#Widget}
 Di bagian ini, kami akan menginstal widget obrolan langsung di situs web bisnis. Sekarang, untuk mengakses **instalasi livechat**  Pengaturan:
 Pergi ke **instalasi livechat**  dalam pengaturan panel omnichannel, seperti yang ditunjukkan di bawah ini, dan salin sepotong kode yang diberikan.
 

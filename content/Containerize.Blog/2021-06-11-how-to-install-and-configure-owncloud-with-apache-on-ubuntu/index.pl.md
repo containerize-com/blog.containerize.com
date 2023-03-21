@@ -97,7 +97,7 @@ Po zakończeniu konfiguracji otrzymasz deskę rozdzielczą administratora. Gdzie
 {{_LINE_79_}}
 Tak! Skończyliśmy z podręcznikiem instalacji własnej, aby budować osobistą pamięć w chmurze. Teraz wiesz, jak całkowicie zainstalować OwnCloud na Ubuntu do budowy chmury prywatnej krok po kroku podobnie jak Dropbox lub Drive Google.
 
-## **Jakie są najlepsze alternatywy dla OwnCloud?**    {#4a1a}
+## **Jakie są najlepsze alternatywy dla OwnCloud?** {#4a1a}
 Poniżej przedstawiono własne oprogramowanie do hostingu plików własnych i konkurentów.
   ***Seafile**  to system oprogramowania hostingowego plików typu open source
   ***NextCloud**  jest bezpłatny i platforma pamięci masowej w chmurze typu open source
@@ -105,7 +105,7 @@ Poniżej przedstawiono własne oprogramowanie do hostingu plików własnych i ko
   ***Komórki Pydio**  to oprogramowanie do udostępniania i synchronizacji plików typu open source
   ***Syncing**  jest bezpłatny i aplikacja synchronizacji plików peer-to-peer typu open source
 
-## **Wniosek:**    {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+## **Wniosek:** {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
 Gratulacje! Z powodzeniem zainstalowałeś i skonfigurowałeś OwnCloud, aby budować własną prywatną chmurę z Apache na komputerze Ubuntu. Teraz Twoje dane nigdy nie są w rękach stron trzecich i mogą być zarządzane prywatnie w wirtualnej prywatnej chmurze własnej pamięci serwera Ubuntu Ubuntu. Wiele firm decyduje się na tworzenie własnych serwerów z dużą ilością istotnych informacji ze względu na wiele problemów z prywatnością danych. W naszych nadchodzących samouczkach omówimy bardziej interesujące tematy stosów rozwiązań serwera WWW.
 _Your może dołączyć do nas na [Twitter][2], [LinkedIn][3] i naszą stronę [Facebook][4]. Jakiego rozwiązania do przechowywania w chmurze używasz online? Jeśli masz jakieś pytania, proszę [skontaktuj się][5].
 

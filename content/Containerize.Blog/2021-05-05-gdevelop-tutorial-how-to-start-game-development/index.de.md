@@ -21,12 +21,12 @@ Diese **freien Spielmotoren  **helfen nicht nur bei der Durchführung schneller 
   ***[Wie man auf Localhost einrichtet?][2]** 
   ***[Schlussfolgerung][3]** 
 
-## **Was ist gDevelop.**    {#Intro}
+## **Was ist gDevelop.** {#Intro}
 GDevelop ist eine kostenlose Open -Source -Videospielentwicklungssoftware. Es ist selbst gehostet und bietet umfangreiche Funktionen für die Entwicklung von 2D-Spielen. Es gibt jedoch Unterstützung für 3D -Objekte. Benutzer benötigen keine Programmierfähigkeiten, um Spiele für mehrere Plattformen zu entwickeln und zu veröffentlichen. Es ist sehr erweiterbar und einfach einzurichten, da es einfache Anforderungen erfordert, um diese kostenlose Spiele-Engine selbst zu veranstalten. Es gibt eine intuitive Benutzeroberfläche mit Drag & Drop -Funktionen. Dieses kostenlose Tool bietet hochklassige Animationen, Video-/Audio-Effekte, Touchscreen und Multi-Touch, Live-Vorschau und vieles mehr. Darüber hinaus erstellt dieser **3D -Spieldesigner**  leistungsstarke Prototyping -Funktionen, mit denen Entwickler ein feines Produkt basierend auf dem Prototyp basieren.
 Darüber hinaus ist diese Open Source **Easy Game Maker**  sehr konfigurierbar und unterstützt Integrationen mit Bibliotheken von Drittanbietern. Vor allem unterstützt es Xbox und PlayStation, die beliebte Videospielkonsolen sind. GDevelop ist in C ++, JavaScript und TypeScript geschrieben. In Bezug auf Bereitstellung und Entwicklung sind detaillierte Unterlagen verfügbar. GDevelop hat eine sehr lebendige Entwicklergemeinschaft, die aktiv auf Fehler und Abfragen reagiert. Daher ist der gesamte Quellcode unter [Github][4] verfügbar.
 [Erfahren Sie mehr über GDevelop][5]
 
-## **Wie kann ich auf Localhost einrichten?**    {#setup}
+## **Wie kann ich auf Localhost einrichten?** {#setup}
 Im Abschnitt dieses Tutorials **GDevelop**  werden wir sehen, wie wir GDevelop in unserem lokalen System einrichten können. Bevor Sie zu den nächsten Schritten wechseln, müssen Sie die folgenden Voraussetzungen installiert.
   * Git
   * Node.js 12.x
@@ -67,7 +67,7 @@ Sie können jedes Spiel als Starter wie in diesem Tutorial auswählen. Nach der 
 
 Auf diese Weise können Sie weitere Funktionen erkunden und ausprobieren. Dieser **Easy Game Maker**  ist Entwicklerfreundlichkeit und bietet ein intuitives Dashboard. Sobald Sie mit der Entwicklung Ihres Spiels fertig sind, können Sie es für verschiedene Plattformen wie Android, iOS und Web exportieren.
 
-## **Fazit**    {#Conclusion}
+## **Fazit** {#Conclusion}
 Dies führt zu diesem GDevelop -Tutorial. Mit dieser **Free Game Engine  **können Sie die Logik der Spiele mit visuellen Ereignissen implementieren. Es hat eine sehr unterstützende Community, die viele hilfreiche Tutorials und Benutzerhandbücher gemacht hat. Dieser Blog -Beitrag hilft Ihnen wirklich, wenn Sie in der Welt der Spielentwicklung neu sind. Es gibt viele andere **  3D -Spieldesigner** , Spieleentwicklungswerkzeuge und Artikel, die im Abschnitt "Explore unten" erwähnt wurden. Alle diese Spielmotoren sind kostenlos, Open Source und entwickeln Selbsthostfunktionen. Daher wächst die Spielentwicklungsindustrie mit der Zunahme der Anzahl der Spieler immens. Es gibt Videospiele mit hochauflösenden Grafiken und Soundeffekten, die Interesse und Attraktion bei den Spielern auslösen. Wählen Sie jedoch eine gut wiederholte Spieleentwicklungssoftware, die Qualität und Effizienz in Ihre Arbeit verleiht.
 Schließlich wird Containerize.com mit einigen interessanten Tutorials für Spielentwicklungen die Tutorial -Basis verbessern. Bitte bleiben Sie für regelmäßige Updates mit dieser Kategorie [6] in Verbindung mit dieser Kategorie [6] -Kategorie [Containerize.com][7].
 

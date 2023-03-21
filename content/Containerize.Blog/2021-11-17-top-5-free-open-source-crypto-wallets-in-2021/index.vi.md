@@ -43,7 +43,7 @@ Copay có các tính năng chính sau:
   * Được bảo đảm cao
 **[Tìm hiểu thêm về đồng thanh toán][11]**
 
-## **Breadwallet**    {#BreadWallet}
+## **Breadwallet** {#BreadWallet}
 **[Breadwallet][12]**là một lựa chọn phổ biến khác trong số các ví tiền điện tử nguồn mở  **** . Ví kỹ thuật số nguồn mở này rất dễ sử dụng và cung cấp các kết nối trực tiếp với mạng blockchain cho các giao dịch nhanh chóng và nhanh chóng. Ngoài ra, phần mềm ví miễn phí**  này được phát triển bởi công ty bánh mì và có sẵn cho các nền tảng di động. Hơn nữa, nó cung cấp một giao diện người dùng hợp lý và dễ dàng, nơi người dùng có thể điều hướng dễ dàng. Breadwallet cung cấp nhiều tính năng mạnh mẽ như giao dịch ẩn danh, hỗ trợ cho nhiều ngôn ngữ và nhiều tính năng khác. Hơn nữa, người dùng không cần phải đăng ký để sử dụng ví tiền điện tử nguồn mở này.
 Breadwallet cung cấp các tính năng quan trọng sau:
   * Các tiện ích có thể tùy chỉnh

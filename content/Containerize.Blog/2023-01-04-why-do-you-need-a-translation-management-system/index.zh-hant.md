@@ -9,7 +9,7 @@ url: /zh-hant/why-do-you-need-a-translation-management-system/
 categories: ['Software Development']
 ---
 
-##擺脫老式翻譯實踐，並安裝開源翻譯管理系統，以在您的業務應用程序中添加本地化。
+## 擺脫老式翻譯實踐，並安裝開源翻譯管理系統，以在您的業務應用程序中添加本地化。
 
 {{< figure align=center src="images/Why-Do-You-Need-a-Translation-Management-System.png" alt="翻譯管理系統">}}
 
@@ -22,14 +22,14 @@ categories: ['Software Development']
   * [它是如何工作的？它提供了什麼？ ][3]
   * [全球化與本地化的業務益處][4]
 
-##什麼是翻譯管理系統？   {#WHAT-IS-A-A-Translation-Management-System}
+## 什麼是翻譯管理系統？   {#WHAT-IS-A-A-Translation-Management-System}
 **翻譯管理系統（TMS）**管理和自動化網站/軟件或應用程序的翻譯。該軟件將您的網站文件作為輸入，將其轉換為不同的語言，並自動更新網站。此外，它不僅管理翻譯，還提供了一個集成的平台，合作者和編輯可以在其中無縫交互。
 
 {{< figure align=center src="images/languages.png" alt="開源翻譯管理系統">}}
 
 任何**翻譯自動化軟件的瑣碎工作**是提供網站本地化服務，而**開源TMS **足夠豐富，可以提供許多其他有用的功能和集成。實際上，集成包括第三方庫，通信和協作工具。此外，這些翻譯管理系統非常強大，並迅速推動翻譯文件，最終使網站的SEO優勢。
 
-##它是如何工作的，它提供了什麼？   {#如何做 -  it-it-work-what-does-it-itfer}
+## 它是如何工作的，它提供了什麼？   {#如何做 -  it-it-work-what-does-it-itfer}
 翻譯管理系統可自動化管理業務網站翻譯的重複任務。它提供了管理任何業務軟件的翻譯資產的規定，這些資產也使相關利益相關者合作地工作。但是，您會利用翻譯管理工具，這些工具提供了一個用戶友好的接口來跟踪正在進行的翻譯過程的進度。
 開源翻譯管理軟件中最酷的部分是您可以擁有其云版本，該版本可以解決與可擴展性相關的問題。因此，您可以專注於管理項目的本地化，並在各個邊界上增加內容的影響力。
 以下是任何翻譯管理系統（TMZ）的核心功能：
@@ -49,7 +49,7 @@ categories: ['Software Development']
 ####翻譯內存
 翻譯內存節省了時間，提高效率，並使翻譯過程更快。因此，它保留了所有以前的翻譯的記錄，以便將所有重複的字符串翻譯而不啟動任何新過程。
 
-##全球化和本地化的業務益處 {#globalization and-localization}
+## 全球化和本地化的業務益處 {#globalization and-localization}
 本節將描述一些與將翻譯添加到您的業務應用程序相關的突出特權。
 
 #### 競爭優勢
@@ -68,7 +68,7 @@ categories: ['Software Development']
 這使我們進入了此博客文章的結尾。我們希望您已經徹底瀏覽了這篇文章，並了解了翻譯管理系統的生態系統。此外，還有許多提供網站本地化服務的開源翻譯管理軟件。但是，您必須在牢記業務需求的同時做出選擇。此外，網站本地化是任何業務網站的必備部分。
 最後，[**Containerize.com** ][6]正在撰寫有關進一步開源產品的文章。因此，請保持聯繫以進行定期更新。
 
-##問一個問題 {#ask-a-question}
+## 問一個問題 {#ask-a-question}
 您可以在我們的[論壇][7]上讓我們知道您的問題或查詢。
 
 ## FAQS   {#FAQS}
@@ -79,7 +79,7 @@ categories: ['Software Development']
 #### **TMS的優點是什麼？** 
 請訪問此[鏈接][4]以了解翻譯管理系統的優勢。
 
-##另請參見 {#see-also}
+## 另請參見 {#see-also}
   * [版本控制軟件][8]
   * [營銷自動化][9]
   * [部署工具][10]

@@ -22,10 +22,10 @@ Esses sistemas de gerenciamento de configuração oferecem utilitários para man
   *[**Impacto do software CMDB nos serviços de gerenciamento de ativos** ][7]
   ***[Conclusão][8]** 
 
-## **O que é software CMDB?**    {#WHAT}
+## **O que é software CMDB?** {#WHAT}
 [Software de banco de dados de gerenciamento de configuração][1] é um banco de dados que armazena informações sobre itens de configuração e seus detalhes de relacionamento. Além disso, existem muitos tipos de itens de configuração (ICs) que podem ser hardware ou software e o CIS é o componente integral de qualquer software CMDB. Algumas das organizações usaram essa solução para rastrear locais de negócios, documentos e contratos de negócios. As partes interessadas dos negócios conseguem tomar as decisões certas, tendo que examinar todos os ativos e suas dependências um do outro. Portanto, eles podem prever as tendências futuras, potencial e ameaças que podem ocorrer. Essas soluções gratuitas fornecem uma demonstração clara de dados de uma maneira bem marcada. Existe um painel amigável e lógico que busca os dados de várias fontes em tempo real, o processa e mostra os dados processados ​​em diferentes tipos de widgets. Além disso, o software CMDB projetado para fornecer suporte para CIs adicionais, se necessário.
 
-## **5 Top 5 de código aberto Melhor software CMDB**    {#TOP}
+## **5 Top 5 de código aberto Melhor software CMDB** {#TOP}
 Nesta seção, exploraremos o software de banco de dados de gerenciamento de configuração com melhor classificação.
 
 ## # Ralph
@@ -71,7 +71,7 @@ O ITOP oferece recursos importantes
 **Gerenciamento de incidentes** : As organizações podem aproveitar o software de banco de dados de gerenciamento de configurações para rastrear o gerenciamento de incidentes. Além disso, o software CMDB com o modo de atualização automática mantém qualquer incidente no loop para melhor gerenciamento de problemas.
 **Segurança aprimorada:**  Ter um software CMDB atualizado pode lhe dar confiança em relação à segurança e você pode tomar decisões sobre qualquer vulnerabilidade.
 
-## **CONCLUSÃO**    {#conclusion}
+## **CONCLUSÃO** {#conclusion}
 Este é o fim deste post do blog. Neste artigo, descobrimos que **Sistemas de Gerenciamento de Configuração  **desempenham um papel decisivo nos serviços de gerenciamento de ativos de TI, fornecendo transparência, eficiência e robustez. Além disso, centraliza os dados e para uma melhor compreensão dos riscos e oportunidades. No entanto, é hora de escolher uma solução de código aberto **  CMDB**  para o seu departamento de TI e aumentar as operações comerciais que, de outra forma, consomem tempo.
 Finalmente, [**containerize.com** ][16] está escrevendo artigos sobre produtos de código aberto adicionais. Portanto, mantenha contato com a categoria [][17][Software de banco de dados de gerenciamento de configuração (CMDB][1]) para atualizações regulares.
 

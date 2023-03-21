@@ -24,10 +24,10 @@ Bu nedenle, daha fazla kullanıcı **WordPress'ten Ghost**  'a geçer. Medya dos
   ***[İçeriği Hayalet'e İçe Aktar][7]** 
   ***[Sonuç][8]** 
 
-## **WordPress**    {#wp} 'in bir briedf girişi
+## **WordPress** {#wp} 'in bir briedf girişi
 [WordPress][9], çok sayıda web sitesini güçlendiren önde gelen bir açık kaynak bloglama platformudur. Bu ücretsiz blog yazılımı kendi kendine barındırılmış, çok dillidir ve birçok dil için destek sağlar. Ayrıca, WordPress'in geliştirme topluluğu oldukça canlıdır ve kolayca mevcut olan devasa bir yararlı eklenti havuzu geliştirmiştir. Bu eklentiler, işletme web sitenizin hemen hemen her kullanım durumunu ele alır. Buna ek olarak, PHP'de yazılmıştır ve geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir. Tüm kaynak kodu GitHub'da mevcuttur. Ayrıca, bu blog platformu son derece genişletilebilir, yapılandırılabilir ve üçüncü taraf uygulamalarla entegrasyonlar sağlar. Kullanıcıların web sitelerinin görünümünü ve hissini değiştirmek için öğeleri sürükleyip bırakabileceği çok mantıklı ve anlaşılması kolay bir kontrol paneli vardır.
 
-## **Hayalet nedir?**    {#ghost}
+## **Hayalet nedir?** {#ghost}
 [Hayalet][10] bir başka popüler açık kaynak bloglama platformudur. Bu, geliştiriciler ve site sahipleri tarafından yüksek oranda benimsenen en yaygın kullanılan içerik yayınlama platformlarından biridir. Buna ek olarak, Ghost son derece SEO dostudur ve yerleşik temalar, formlar, e-posta bültenleri ve aboneliklerle birlikte gelir. Bu ücretsiz blog yazılımı JavaScript'te yazılmıştır ve tüm belgeler geliştirme ve dağıtım konusunda mevcuttur.
 
 ## Gereksinimler   {#Requirements}

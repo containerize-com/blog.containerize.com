@@ -27,7 +27,7 @@ Dans cet article, nous découvrirons le système de contrôle de version GIT. Co
   11
   * **[Conclusion][9]** 
 
-## Qu'est-ce que le système de contrôle de version   {# version-contrôle}
+## Qu'est-ce que le système de contrôle de version   {#version-contrôle}
 Le contrôle de la version est un système qui enregistre les modifications d'un fichier ou d'un ensemble de fichiers au fil du temps afin que vous puissiez rappeler des versions spécifiques plus tard. Si vous êtes un développeur de logiciels et que vous souhaitez conserver les versions du fichier de code source, le logiciel de gestion des codes source est une chose très utile pour vous. Il vous permet de réintégrer les fichiers sélectionnés à un état précédent, de revenir à l'ensemble du projet à un état précédent, de comparer les modifications au fil du temps, de voir qui a modifié quelque chose qui pourrait causer un problème, qui a introduit un problème et quand, et plus encore. L'utilisation du contrôle de version signifie que vous n'avez jamais à vous soucier de perdre votre travail.
 
 ## Qu'est-ce que Git   {#git}

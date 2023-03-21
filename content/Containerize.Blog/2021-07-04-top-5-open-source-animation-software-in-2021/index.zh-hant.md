@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-animation-software-in-2021/
 categories: ['Animation Software']
 ---
 
-##使用開源動畫軟件創建移動圖形。動畫2D或3D生成的圖形具有添加音樂和其他效果的選項。
+## 使用開源動畫軟件創建移動圖形。動畫2D或3D生成的圖形具有添加音樂和其他效果的選項。
 
 {{< figure align=center src="images/Top-5-Open-Source-Animation-Software-In-2021.png" alt="2021年的前5個開源動畫軟件">}}
 
@@ -28,7 +28,7 @@ categories: ['Animation Software']
   *它允許您創建新功能以滿足任何商業項目的現場需求
 [閱讀更多][7]
 
-##鉛筆2D   {#pencil2d}
+## 鉛筆2D   {#pencil2d}
 憑藉最少的設計和易​​於理解的界面，[Pencil2D][8]是初學者的最佳動畫軟件之一。這是一個易於使用的，開源和免費的2D動畫軟件。 Pencil2D社區始終通過發布新更新並修復任何錯誤或錯誤來更新軟件。作為免費下載應用程序，它是根據GNU通用公共許可證發布的，並且在線提供了許多教程以及資源和文檔。像Opentoonz一樣，Pencil2D也與Windows，Mac OS，Linux和FreeBSD在內的多個操作系統兼容。以下是鉛筆2D的一些出色功能：
   *跨平台
   *開源和免費

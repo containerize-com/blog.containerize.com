@@ -200,7 +200,7 @@ Lorsque vous vous connectez pour la première fois à WebMin, vous serez emmené
 {{< figure align=center src="images/install-webmin-system-info.png" alt="Installez les informations du système Webmin">}}
 
 
-## Installer Apache à l'aide de webmin   {# install-apache}
+## Installer Apache à l'aide de webmin   {#install-apache}
 Webmin est livré avec une grande variété de modules qui gèrent différents packages de logiciels. Pour installer Apache à l'aide de Webmin, suivez les instructions ci-dessous
 **Étape 1 **: Dans le menu de navigation, cliquez sur  **Modules non utilisés **  Pour développer la catégorie, puis cliquez sur  **Apache Webserver**  .
 Si vous n'avez pas installé Apache sur votre serveur, le module vous informera et vous fournira un moyen d'installer Apache.

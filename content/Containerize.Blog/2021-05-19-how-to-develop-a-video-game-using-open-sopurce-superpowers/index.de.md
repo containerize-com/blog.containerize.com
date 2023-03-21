@@ -80,7 +80,7 @@ Darüber hinaus befindet sich auf der linken Seite eine Einstellleiste, in der S
 
 Ebenso können Sie nach diesem Spielartikel ihn weiter untersuchen und alle Funktionen nutzen. Darüber hinaus können Sie verstehen, wie Sie Superpowers -Videospielbauer fortsetzen können. Für diese Spieleentwicklungssoftware steht Online -Support zur Verfügung.
 
-## **Fazit**    {#Conclusion}
+## **Fazit** {#Conclusion}
 Dies führt zu diesem HTML5 -Game Development Guide. Hoffentlich hilft Ihnen dieser Blog -Beitrag, wenn Sie gerne mit der Entwicklung der Videospiele beginnen möchten. Wir haben untersucht, was Supermächte sind, wie man ein Videospiel entwickelt, bei dem es sich um einen Open -Source -3D -Spielbauer handelt, und wir haben auch seinen Installationsverfahren auf Localhost durchlaufen. Es gibt viele Open Source **Videospieldesign -Apps** , mit denen Benutzer Spiele von Grund auf neu erstellen können. Videospielprogrammierer verwenden wichtige Prinzipien für Spieldesign, um hochwertige Spiele aufzubauen. Weitere Informationen zum Erstellen von 2D- und 3D -Spielen finden Sie in unseren kommenden Artikeln unter [blog.containerize.com][8]. Es gibt andere Open Source, selbst gehostete 3D-Spielerbauer und relevante Artikel, die im Abschnitt „Explore“ unten erwähnt wurden.
 Schließlich schreibt Containerize.com ständig Blog-Beiträge zu weiteren Open-Source-Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Videospiele][9][][10] in Kontakt, um regelmäßig Updates zu erhalten. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][11], [LinkedIn][12] und [Twitter][13] folgen.
 

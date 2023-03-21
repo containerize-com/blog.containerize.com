@@ -95,7 +95,7 @@ Po zakończeniu instalacji powinieneś zobaczyć pulpit nawigacyjny NextCloud na
 {{_LINE_77_}}
 Gratulacje, masz działające rozwiązanie w chmurze NextCloud w systemie Ubuntu LTS. Możesz teraz zacząć dostosowywać swój serwer w chmurze, aby idealnie zaspokoić Twoje potrzeby.
 
-## **Owinięcie:**    {#4a1a}
+## **Owinięcie:** {#4a1a}
 Gratulacje! Z powodzeniem **skonfigurowałeś i zainstalowałeś NextCloud na serwerze Ubuntu z Apache** . Nauczyłeś się tworzyć prywatną chmurę. NextCloud Ubuntu Server to niesamowita platforma współpracy w chmurze, która może zaspokoić praktycznie prywatne lub hybrydowe potrzeby przechowywania chmury. Teraz wiesz, jak zainstalować NextCloud na Ubuntu, a Twoje dane są bezpieczne w chmurze hostowanej. W naszych nadchodzących samouczkach omówimy bardziej interesujące tematy związane ze stosami rozwiązań serwera WWW.
 _ Wolisz oparte na chmurze rozwiązanie pamięci masowej?. Jeśli masz jakieś pytania, skontaktuj się [3] ._
 

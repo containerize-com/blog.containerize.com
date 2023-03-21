@@ -31,7 +31,7 @@ Voici quelques fonctionnalités populaires de Joomla CMS.
   * SEO
     [Lire la suite][6]
 
-### **drupal**    {#drupal}
+### **drupal** {#drupal}
 Drupal est une autre option populaire parmi les **Systèmes de gestion de contenu open source**  qui sont venus en 2001 pour développer des sites Web dynamiques et axés sur le contenu. Il est open source et 100% gratuit et, parmi l'une des 3 principales plates-formes CMS. Cela mène la transformation numérique dans les industries.
 À Drupal, les modèles et les plugins pré-faits facilitent le développement d'un nouveau site Web sans tracas. L'un des principaux arguments de vente de ce **Système de gestion de contenu Web**  est son pouvoir de créer et de gérer une grande variété de types de contenu. Sa sécurité est incomparable et inébranlable.
 Voici quelques fonctionnalités populaires de Drupal.
@@ -41,7 +41,7 @@ Voici quelques fonctionnalités populaires de Drupal.
   * Affichage spécifique à l'appareil
     [Lire la suite][7]
 
-### **pyro**    {#pyro}
+### **pyro** {#pyro}
 Pyro est un merveilleux système de gestion de contenu qui a récemment gagné en popularité. Il est construit avec le Laravel CMS. Et, cela ressemble à une extension de celui-ci. Comme d'autres **plates-formes CMS open source** , Pyro est livré avec des fonctionnalités uniques et puissantes hors de la boîte. Il prend également en charge la gestion des fichiers basée sur le pilote pour une intégration idéale avec Laravel.
 Pyro prend également en charge la gestion des utilisateurs. Par conséquent, ce **logiciel CMS personnalisé**  nous permet de gérer facilement les utilisateurs, les rôles et les autorisations. Cependant, vous pouvez également profiter des addons disponibles dans le magasin Pyro.
 Le noyau du pyro est la plate-forme Streams. Il s'agit d'un ensemble d'outillage à part entière pour faire des applications puissantes et plus rapides. Il s'agit également d'une plate-forme robuste de moteur et de développement.
@@ -53,7 +53,7 @@ Voici quelques fonctionnalités populaires de Pyro.
   * 1 API Kickass
     [Lire la suite][8]
 
-### **django**    {#django}
+### **django** {#django}
 Django CMS est un cadre écrit en Python qui permet un développement rapide de sites Web sécurisés et maintenables. C'est un CMS open source. Plus important encore, des milliers de sites Web sont pris en charge par Django. Il est convivial avec de nombreuses fonctionnalités telles que la prise en charge multisite, le contrôle des versions, le meilleur mécanisme de publication et fournit un tableau de bord de glisser-déposer qui accélère le processus de développement.
 Comme d'autres **plates-formes CMS open source **, l'utilisation de Django prend beaucoup de tracas du développement Web. Premièrement, ce  **Système de gestion de contenu Web**   prend la sécurité au sérieux et aide les développeurs à de nombreuses erreurs de sécurité courantes. Deuxièmement, il peut gérer très facilement une énorme quantité de trafic Web. Surtout, les gouvernements, les organisations et les entreprises utilisent Django pour construire toutes sortes de choses, des réseaux sociaux aux systèmes de gestion en passant par l'informatique scientifique.
 Voici quelques fonctionnalités populaires de Django CMS.
@@ -63,7 +63,7 @@ Voici quelques fonctionnalités populaires de Django CMS.
   * Facile à intégrer
     [Lire la suite][9]
 
-## **Umbraco**    {#umbraco}
+## **Umbraco** {#umbraco}
 Umbraco est une autre **CMS open source pour les sites Web**  qui fournit les moyens les plus rapides de configurer un site Web pour les entreprises en proposant des modèles de conception prêts à l'emploi. Avec Umbraco, vous obtenez un système de gestion de contenu connu et aimé pour sa flexibilité et sa grande expérience d'édition. Un tableau de bord intuitif est en place pour permettre aux utilisateurs de construire, de mettre à jour et de publier efficacement le contenu.
 Umbraco est conçu pour garder les développeurs en vue. Par conséquent, il est flexible sans limites. De même, les spécialistes du marketing et les éditeurs aiment travailler avec Umbraco. Parce que cela rend les travaux quotidiens plus simples et plus délicieux.
 Umbraco CMS est écrit dans ASP.NET ainsi que l'entrée d'autres langages comme JavaScript, HTML et TypeScript. Plus important encore, il prend en charge la recherche globale où les utilisateurs peuvent rechercher n'importe quoi quelle que soit la portée.

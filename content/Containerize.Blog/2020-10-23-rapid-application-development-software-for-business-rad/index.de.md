@@ -40,7 +40,7 @@ Sobald der Prototyp entwickelt wurde, besteht die nächste Phase darin, diesen P
 **kontinuierliche Entwicklung und Tests** 
 In dieser Phase neigen RAD -Teams dazu, kontinuierliche Entwicklungs- und Testzyklen durchzuführen. Diese Phase stellt sicher, dass alles in die richtige Richtung ist und auf die Bedürfnisse des Kunden ausgerichtet ist. Darüber hinaus entwickeln Entwickler immer wieder neue Funktionen und Release -Versionen des Produkts mit den neuesten Funktionen und Dokumentation.
 
-## B **Enefits der RAD -Software?**    {#Benefits}
+## B **Enefits der RAD -Software?** {#Benefits}
 Lassen Sie uns sehen, welche Vorteile wir mit einer schnellen Anwendungssoftware erhalten können.
   ***Flexibilität**  - Open Source RAD -Plattform ist flexibel genug, um eine Änderung in jeder Phase einzubeziehen.
   ***Geschwindigkeit**  - RAD -Tools helfen Entwicklern, die Entwicklungs- und Bereitstellungsprozesse zu beschleunigen, um die Lieferungen rechtzeitig zu erstellen.
@@ -50,7 +50,7 @@ Lassen Sie uns sehen, welche Vorteile wir mit einer schnellen Anwendungssoftware
   ***Instant Fix**  - Tatsächlich arbeiten Produktionsunterstützungsteams an der Fehlerbehebung. In diesem Modell reparieren Entwickler sie jedoch in einer schnelleren Zeit, wenn es eine Misshandelung gibt.
   ***Neueste Technologien**  - Es ist ein großer Vorteil des RAD -Modells, das Entwicklungsteams in jeder Phase die neuesten Tools und Technologien übernehmen und testen können.
 
-## **Fazit**    {#Conclusion}
+## **Fazit** {#Conclusion}
 Hier kommt das Ende dieses Tutorials. Es gibt viele Softwareentwicklungsmodelle wie das Wasserfallmodell, das Spiralmodell, das V-förmige Modell, das agile Modell und einige mehr. Die Einführung eines Modells hängt also von Ihren Anwendungsfällen und der Art der Software ab. Daher hilft Ihnen dieser Blog -Beitrag wirklich, wenn Sie das RAD -Modell für Ihr Unternehmen übernehmen möchten. Unabhängig von der Plattform gibt es mehrere Open-Source-Software zur Entwicklung von Anwendungen, die plattformübergreifende Funktionen mit Entwicklungstools bieten. Im Abschnitt „Explore“ gibt es eine andere schnelle Prototyping -Software, die unten den RAD -Methoden folgen. Dies ist höchste Zeit, um diesen kostengünstigen und robusten Ansatz zur Entwicklung produktionsbereiteter Geschäftssoftware zu verfolgen.
 Am Ende befindet sich [Containerize.com][9] im kontinuierlichen Prozess der Einführung von Open Source [RAD -Software][1]. Bitte folgen Sie dieser Kategorie [Rapid Application Development][1] für regelmäßige Aktualisierungen. Darüber hinaus ist die unten aufgeführte Software im Abschnitt "Explore" Open Source, kostenlos und selbst gehostet. All diese **Quellcodegeneratoren**  sind umfassende Dokumentationen zur Entwicklung und Bereitstellung.
 

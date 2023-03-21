@@ -155,7 +155,7 @@ Küçük ekipler ve bireyler için UIPATH, Community Edition'ı sunar. Ücretsiz
 **En iyisi:**  Hızlandırılmış iş süreçleri isteyen bilgi ağırlığında işletmeler.
 **[Kofax hakkında daha fazla bilgi edinin][5]** 
 
-## **Sonuç:**    {#4A1A}
+## **Sonuç:** {#4A1A}
 Yukarıda belirtilen beş açık kaynaklı RPA aracı, geliştiriciler için en popüler ücretsiz ve en iyi açık kaynaklı RPA araçlarıdır. Her bir aracı burada ayrıntılı olarak karşılaştırmamızın yanı sıra, Blue Prism en iyi araçtır, ancak kullanmadan önce eğitilmelisiniz. Ve eğitim de pahalı. UIPATH, geliştiriciler için bile kullanımı kolaydır. Aynı özellikleri sağlar ve hatta küçük ölçekli endüstrileri sunucular sunar. İş istasyonu uygulamaları için, içinde bir uzmanlık alanı olduğu için bağlamcı en iyi seçenektir.
 _ En sevdiğiniz açık kaynaklı RPA araçları nelerdir? Açık kaynaklı RPA araçları hakkında herhangi bir sorunuz var mı? Lütfen_ [İletişim kurun][6].
 

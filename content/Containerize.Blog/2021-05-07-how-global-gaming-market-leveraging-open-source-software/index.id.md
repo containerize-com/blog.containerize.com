@@ -22,7 +22,7 @@ Oleh karena itu, telah menjadi platform tunggal yang menargetkan kedua platform 
   ***[Masa Depan Pengembangan Game Sumber Terbuka][3]** 
   ***[Kesimpulan][4]** 
 
-## **Bagaimana open-source membantu pasar game global**    {#how}
+## **Bagaimana open-source membantu pasar game global** {#how}
 Ada permintaan besar untuk video game yang menarik dan berkualitas tinggi. Faktanya, pengembang cenderung menikmati bekerja pada pengembangan game karena grafik, suara, dan ide game yang menarik. Di sisi lain, ada miliaran gamer yang menghabiskan waktu dan uang mereka bermain game -game itu. Oleh karena itu, membuat perangkat lunak open source meningkatkan probabilitas peningkatan kualitas dan kinerja. Mari kita lihat cara langsung berikut di mana open source membantu pengembangan game.
 **Alat** : Menggunakan alat pengembangan game yang lengkap dapat mengurangi biaya pengembangan. Untungnya, komunitas open source telah mengembangkan banyak alat desain game yang menyediakan lingkungan lengkap untuk pengembangan game.
 **Biaya hemat** : Ada sejumlah mesin game open source yang tersedia untuk fungsionalitas yang diperlukan. Oleh karena itu, menggunakan perpustakaan yang sudah dibangun dalam proyek yang sedang berlangsung dapat mengurangi biaya dan waktu tambahan.
@@ -30,15 +30,15 @@ Ada permintaan besar untuk video game yang menarik dan berkualitas tinggi. Fakta
 **Stabilitas **: Komunitas open source sedang berkembang dari hari ke hari. Dalam industri game  **** ** , ada banyak dev yang tetap pada satu proyek dan mereka cenderung mengatur di tempat mereka untuk mengonfigurasi dan menguji. Kegiatan ini memastikan stabilitas proyek saat masalah diselesaikan dalam waktu singkat karena pemeriksaan dan pengujian yang konsisten.
 **Berbagi Pengetahuan **: Sumber terbuka proyek menghasilkan peluang untuk berbagi informasi di seluruh dunia. Ada berbagai forum diskusi di mana pengembang datang dan berbagi masalah yang mereka hadapi dan karenanya, mereka datang ke solusi yang selalu tersedia untuk sisa pasar game global **** .
 
-## **Dampak COVID-19 pada komunitas pengembangan game**    {#covid}
+## **Dampak COVID-19 pada komunitas pengembangan game** {#covid}
 Gaming video adalah pasar paling baru dari saat ini. COVID-19 telah mempercepat jumlah pengguna game. Karena penguncian dan pembatasan, generasi muda menghabiskan sebagian besar waktu mereka untuk smartphone dan PC dan selalu melihat game untuk lulus waktu yang berkualitas. Selain itu, dunia game bukan hanya tentang bermain game. Ada liga dan turnamen online yang diadakan di tingkat internasional.
 Pandemi ini mengambil **industri game mobile  **ke tingkat berikutnya dalam hal keterlibatan pengguna, pendapatan, dan penjualan. Industri game global ** **  membuat video game yang menarik dengan grafik dan cerita yang menarik. Karena semua ini dan beberapa faktor lainnya, selalu ada keinginan seseorang untuk menangkap pasar sebanyak mungkin dan tampaknya sangat bisa dilakukan dengan bantuan komunitas open source.
 
-## **Masa depan pengembangan game open source**    {#future}
+## **Masa depan pengembangan game open source** {#future}
 Tanpa open source, sangat sulit bagi pengembang untuk berkontribusi dengan cara yang efektif dan progresif. Menurut tren terbaru, seperti kategori perangkat lunak lainnya, sama pentingnya untuk membuat pengembangan game open source. Raksasa teknologi sekarang ingin membuat basis kode mereka terbuka untuk pengembang karena berbagai faktor seperti keamanan, stabilitas, dan interoperabilitas.
 Masa depan pengembangan game sangat saling terkait dengan open source karena adopsi open source yang kuat oleh perusahaan teknologi. Ini membawa perkembangan terbaru dan karenanya, editor game cepat rilis dengan fitur dan antarmuka baru. Padahal, startup menganggapnya sebagai bantuan yang bagus di mana mereka dapat memanfaatkan proyek open source yang sudah dibangun sebelumnya. Namun, ada banyak mesin game open source untuk pemula yang tersedia yang menawarkan peluang dalam hal pembelajaran dan pengembangan menuju rilis produksi.
 
-## **Kesimpulan**    {#conclusion}
+## **Kesimpulan** {#conclusion}
 Pada akhirnya, selalu bermanfaat memiliki orang -orang dari seluruh dunia yang mengerjakan proyek bersama. Gammers memainkan peran penting dalam pertumbuhan industri game **video gaming **. Karena itu, sangat penting untuk memperhatikan umpan balik mereka. Dengan mengadopsi praktik pengembangan perangkat lunak open source, pengembang video game dapat melipatgandakan kontribusinya ke pasar gaming global **.  **Namun, industri gaming video berkembang dengan meningkatnya jumlah pengembang game dan perangkat lunak gaming open source. Jadi, Anda dapat mengeksplorasi alat desain open source **  ****  dan posting blog terkait yang terdaftar di bagian Explore di bawah ini.
 Akhirnya, ****[containerize.com][5] ****  akan menerbitkan artikel tentang perangkat lunak pengembangan game open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [perangkat lunak pengembangan game][6] ini untuk pembaruan rutin.
 

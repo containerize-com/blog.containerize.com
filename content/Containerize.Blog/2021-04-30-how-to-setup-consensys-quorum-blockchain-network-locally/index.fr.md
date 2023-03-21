@@ -21,7 +21,7 @@ Dans le passé récent, nous avons publié des articles de blog sur certains suj
   * **[Comment démarrer le réseau?][7]** 
   * **[Conclusion][8]** 
 
-## **Une brève introduction de consensys quorum**    {#introduction}
+## **Une brève introduction de consensys quorum** {#introduction}
 [CONSENSYS Quorum][9] est une plate-forme open source basée sur **Decentralized Ledger Technology **. Cependant, il fournit un environnement complet adapté aux développeurs pour construire des applications basées sur la blockchain qui gèrent les transactions rapides et à haut débit. Il est basé sur  **Ethereum ** , extensible et propose de nombreux plugins. De plus, ce système distribué open source est livré avec des normes de haute sécurité et de confidentialité. De plus, il existe de nombreuses fonctionnalités puissantes telles que les API d'autorisation et la surveillance. De plus, cette  **plate-forme DLT**   est auto-hébergée et fournit une documentation détaillée concernant le développement et le déploiement. Le code source de ce logiciel libre est disponible chez [GitHub][10].
 Ansensys Quorum offre les caractéristiques importantes suivantes:
   * Architecture enfichable
@@ -31,7 +31,7 @@ Ansensys Quorum offre les caractéristiques importantes suivantes:
   * Réseau public / privé
 [En savoir plus sur le consensys quorum][11]
 
-## ****Quelles sont les pré-requis et la procédure d'installation? ****    {# Pre-Requisites}
+## ****Quelles sont les pré-requis et la procédure d'installation? **** {#Pre-Requisites}
 Dans cette section, nous installerons les dépendances requises et configurerons l'environnement local. Avant d'aller à l'étape suivante, assurez-vous que vous avez installé les pré-requis suivants:
   * Nodejs v10 +
   * Docker
@@ -45,7 +45,7 @@ Cependant, répondez aux questions pour compléter l'installation comme indiqué
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="CONSENSYS Quorum">}}
 
 
-## ****Comment démarrer le réseau? ****    {#Start}
+## ****Comment démarrer le réseau? **** {#Start}
 Maintenant, nous avons le code source en place. Ainsi, la prochaine étape consiste à rendre le réseau en direct.
 Exécutez la commande suivante pour accéder au répertoire racine.
 ```

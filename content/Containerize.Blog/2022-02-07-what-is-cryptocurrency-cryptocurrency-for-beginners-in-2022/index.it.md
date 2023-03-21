@@ -56,7 +56,7 @@ In seguito, dovrai completare controlli di sicurezza, come fornire un numero di 
 Come memorizzi la criptovaluta? Puoi archiviare la tua criptovaluta online o offline. Il modo più popolare per conservare la criptovaluta è online in uno scambio di criptovalute o un portafoglio. Gli scambi di criptovalute e i portafogli ti consentono di archiviare, inviare, ricevere e convertire in modo sicuro il cripto utilizzando il tuo computer, tablet o smartphone.
 Dove acquistare la criptovaluta? Puoi acquistare criptovaluta da uno scambio di criptovalute. Di seguito, abbiamo compilato un elenco di alcune delle migliori app e scambi per l'acquisto di criptovaluta nel Regno Unito. Ricorda che i criptoasset sono un prodotto di investimento altamente volatile senza protezione degli investitori nel Regno Unito o nell'UE. Potresti perdere tutti i soldi che ci metti.
 
-##  **Conclusione:**    {#4a1a}
+##  **Conclusione:** {#4a1a}
 Spero che tu abbia imparato molto e ora sei più informato e ben informato sul trading e sull'investimento delle criptovalute di quanto non fossi all'inizio. Ora è il tuo turno. Ci è piaciuto ricercare e scrivere la guida con te. Buona fortuna!
 _ Quali sono i tuoi progetti open source di criptovaluta preferiti?. Hai qualche domanda su cosa sia la valuta digitale?, Per favore_ [mettiti in contatto][1].
 

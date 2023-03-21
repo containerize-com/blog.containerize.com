@@ -106,7 +106,7 @@ Para aplicar todas as alterações, reinicie o servidor proxy reverso do NGINX H
 sudo systemctl reiniciar nginx
 SUDO Systemctl Status nginx
 
-## **Conclusão:**    {#4A1A}
+## **Conclusão:** {#4A1A}
 Parabéns, você aprendeu com sucesso como configurar o suporte a HTTP2 do Nginx Config no servidor Ubuntu. Suas configurações nginx HTTP2 agora estão servindo páginas HTTP/2 e também limpou a diferença entre os protocolos HTTP/1 e HTTP/2. Se você ainda enfrentar quaisquer problemas de configuração, informe -nos na seção de comentários.
 Você tem alguma dúvida sobre o protocolo multiplexado HTTP2? _, Por favor [entre em contato][2].
 

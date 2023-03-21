@@ -55,7 +55,7 @@ Sus características incluyen como objetos basados ​​en objetos, mantiene me
   ***Xigmanas**  Solución poderosa y personalizable de código abierto
   ***Servidor de almacenamiento en la nube**  es un almacenamiento seguro y extensible
 
-## ****pensamiento final **:**    {#4a1a}
+## ****pensamiento final **:** {#4a1a}
 Las cinco plataformas de intercambio y sincronización de archivos en la nube de código abierto mencionados anteriormente son soluciones flexibles. En la computación en la nube, encontrará muchas soluciones de almacenamiento de nube privada de código abierto, pero encontrar la más confiable es más importante. Es la necesidad de usted o su organización lo que decide la selección del software en la nube. Espero que este artículo lo ayude a configurar un servidor de nube personal seguro y confiable o elegir el mejor servicio en la nube para almacenar sus valiosas imágenes, música, películas y documentos.
 _ ¿Cuál es su solución favorita de software de almacenamiento en la nube gratuito y de código abierto? Si tiene alguna pregunta, por favor_ [póngase en contacto][8].
 
