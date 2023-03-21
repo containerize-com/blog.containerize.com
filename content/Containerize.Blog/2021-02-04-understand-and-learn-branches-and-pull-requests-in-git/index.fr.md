@@ -49,13 +49,13 @@ Lorsqu'un développeur ouvre une demande de traction, tout ce qu'il fait est de 
 ## Modèles de branchement populaires   {#Model}
 Il existe un certain nombre de flux de travail de ramification qui sont utilisés par la communauté des développeurs dans le monde entier. Mais nous discuterons des trois modèles de branchement les plus populaires un par un
 
-### git flow
+## # git flow
 Gitflow Workflow est un flux de travail GIT qui aide à développer des logiciels continus et à mettre en œuvre des pratiques DevOps. Le flux GIT est le flux de travail le plus connu de cette liste. Il a été créé par [Vincent Driessen en 2010][7] et il est basé sur deux branches principales avec une vie infinie, ainsi que d'autres branches de support comme des fonctionnalités - \ *, hotfixes - \ * qui fusionnent ensuite dans la branche de développement en tant qu'individu Les articles sont terminés.
   * **Master**  - Cette branche contient du code de production. Tout le code de développement est fusionné dans la branche principale une fois prêt à être poussé à la production.
   * **Développer**  - Cette branche contient du code de pré-production. Lorsque les fonctionnalités sont terminées, ils sont fusionnés dans le développement.
 Gitflow est parfaitement adapté aux projets qui ont un cycle de libération prévu. Cependant, l'histoire du GIT devient illisible.
 
-### glithub flow
+## # glithub flow
 Le flux GitHub est un flux de travail léger. Il a été créé par [Github][8] en 2011 et se concentre principalement sur le modèle Agile, où vous n'attendez pas un cycle de libération. Au lieu de cela, vous poussez les modifications à la production quotidiennement à mesure que les fonctionnalités sont complètes.
 Github Flow suit les directeurs suivants:
   * Tout dans la branche «Master» est déployable.
@@ -65,7 +65,7 @@ Github Flow suit les directeurs suivants:
   * Après son examiné et signé sur la fonctionnalité, vous pouvez le fusionner dans le maître
   * Une fois qu'il est fusionné et poussé vers «Master», il peut être déployé en production.
 
-### Flow Gitlab
+## # Flow Gitlab
 Le Gitlab Flow est un workflow créé par Gitlab en 2014. Gitlab Flow est une alternative plus simple à Gitflow et combine le développement basé sur les fonctionnalités et les branches de fonctionnalités avec le suivi des problèmes. La principale différence entre l'écoulement Gitlab et le flux de github est l'utilisation de branches environnementales.
 Les développeurs créent une branche **de développement**  et font de la défaut, tandis que GitLab Flow fonctionne immédiatement avec la branche «principale». Gitlab Flow intègre plusieurs branches de pré-production. Et ceux-ci peuvent être utilisés pour tester les trucs à différents niveaux. Par exemple, de la branche de test à l'acceptation, puis de l'acceptation à la production.
 

@@ -39,19 +39,19 @@ sudo reboot
 ## Etapa 2: Instale o servidor de lâmpadas
 Para configurar o servidor de compartilhamento de arquivos Enterprise Pydo Secure Enterprise e como criar uma nuvem privada de código aberto, primeiro precisamos configurar um servidor de lâmpada em execução. Se você já instalou e executando a pilha de lâmpadas, pule esta etapa use os comandos de seguidores para configurar a lâmpada no seu sistema Ubuntu.
 
-### Instale o php
+## # Instale o php
 Você pode instalar o PHP no seu sistema Ubuntu ou Debian, executando comandos:
 SUDO APT-GET Instale Python-Software-Properties
 sudo add-aprop-repository ppa: ondrej/php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### Instale o Apache2
+## # Instale o Apache2
 O Apache é o software de servidor Web de código aberto mais amplamente usado. Em seguida, instale o servidor da Web Apache no Ubuntu executando:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Instale o MySQL
+## # Instale o MySQL
 O sistema de gerenciamento de banco de dados relacional de código aberto do MySQL é um componente da pilha de software de aplicativos da Web da LAMP e de outros. Agora instalando o MySQL no Ubuntu, executando abaixo:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

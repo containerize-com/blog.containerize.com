@@ -49,13 +49,13 @@ Khi một nhà phát triển mở một yêu cầu kéo, tất cả những gì 
 ## Mô hình phân nhánh phổ biến   {#Model}
 Có một số quy trình công việc phân nhánh O đang được sử dụng bởi cộng đồng nhà phát triển trên toàn thế giới. Nhưng, chúng tôi sẽ thảo luận về ba mô hình phân nhánh phổ biến nhất từng người một
 
-### Dòng chảy Git
+## # Dòng chảy Git
 Gitflow Workflow là một quy trình công việc GIT giúp phát triển phần mềm liên tục và thực hiện các thực tiễn DevOps. Dòng chảy Git là quy trình công việc được biết đến nhiều nhất trong danh sách này. Nó được tạo ra bởi [Vincent Driessen vào năm 2010][7] và nó dựa trên hai nhánh chính có tuổi thọ vô hạn, cùng với các nhánh hỗ trợ khác như các tính năng-\*, hotfixes-\* sau đó hợp nhất vào nhánh phát triển như cá nhân Các mặt hàng được hoàn thành.
   * **Master**  - Chi nhánh này chứa mã sản xuất. Tất cả các mã phát triển được hợp nhất vào nhánh chính khi sẵn sàng để được thúc đẩy để sản xuất.
   * **Phát triển** -Chi nhánh này chứa mã tiền sản xuất. Khi các tính năng kết thúc thì chúng được hợp nhất thành phát triển.
 Gitflow phù hợp lý tưởng cho các dự án có chu kỳ phát hành theo lịch trình. Mặc dù, lịch sử Git trở nên không thể đọc được.
 
-### Dòng chảy GitHub
+## # Dòng chảy GitHub
 Dòng chảy GitHub là một quy trình làm việc nhẹ. Nó được tạo ra bởi [GitHub][8] vào năm 2011 và chủ yếu tập trung vào mô hình Agile, nơi bạn không chờ đợi một chu kỳ phát hành. Thay vào đó, bạn thúc đẩy các thay đổi để sản xuất hàng ngày khi các tính năng hoàn thành.
 Dòng chảy GitHub theo sau các hiệu trưởng:
   * Bất cứ điều gì trong chi nhánh Master Master có thể triển khai.
@@ -65,7 +65,7 @@ Dòng chảy GitHub theo sau các hiệu trưởng:
   * Sau khi được xem xét và đăng nhập vào tính năng này, bạn có thể hợp nhất nó vào Master
   * Một khi nó được hợp nhất và được đẩy sang ‘Master, nó có thể được triển khai để sản xuất.
 
-### Dòng chảy Gitlab
+## # Dòng chảy Gitlab
 Dòng chảy Gitlab là một quy trình công việc do Gitlab tạo ra vào năm 2014. Dòng chảy Gitlab là một giải pháp thay thế đơn giản hơn cho GitFlow và kết hợp phát triển tính năng phát triển và các nhánh tính năng theo dõi vấn đề. Sự khác biệt chính giữa dòng gitlab và dòng github là việc sử dụng các nhánh môi trường.
 Các nhà phát triển tạo ra một nhánh  **phát triển**  và biến điều đó thành mặc định, trong khi luồng gitlab hoạt động với nhánh chính ngay lập tức. Dòng gitlab kết hợp nhiều nhánh tiền sản xuất. Và, chúng có thể được sử dụng để kiểm tra các công cụ ở các cấp độ khác nhau. ví dụ: từ chi nhánh thử nghiệm đến chấp nhận và sau đó từ chấp nhận đến sản xuất.
 

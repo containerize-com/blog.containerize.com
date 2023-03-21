@@ -14,7 +14,7 @@ categories: ['Form']
 {{< figure align=center src="images/formbuilder.png" alt="Generatore di moduli HTML">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 Di recente abbiamo pubblicato alcuni articoli su argomenti come [come configurare il creatore di moduli bootstrap form.io su localhost][1] e [i 5 costruttori di moduli online open source nell'anno 2020][2]. Il primo post sul blog è un articolo di tutorial che dimostra il processo di configurazione e le caratteristiche di un builder Bootstrap Form [Form.io][3]. Il secondo articolo parla dei costruttori di moduli open source ampiamente utilizzati. Nel momento attuale, l'interazione a due vie è la cosa più importante tra i fornitori di servizi e i consumatori di servizi. Le organizzazioni tendono a ricevere feedback coerenti sui loro servizi e quindi formulano strategie aziendali future. Tuttavia, i moduli sono per raccogliere e archiviare informazioni dai clienti. Le aziende producono una serie di forme per raccogliere dati su varie operazioni in corso e ci sono molti tipi di forme che alcune di esse sono pagine singole e alcune di esse sono forme di più pagine. Alcune aziende hanno forme incorporate sul loro portale online o alcune di esse utilizzano e -mail o altri tipi di medium per esporre i loro moduli per la raccolta dei dati.
 Pertanto, ci sono molti moduli open source e software di gestione dei dati disponibili con funzionalità ricche del costruttore. In questo articolo, esploreremo il generatore di moduli HTML gratuito  **[FormBuilder][4]**  coprendo i seguenti punti.
   * **[Cos'è FormBuilder?][5]**

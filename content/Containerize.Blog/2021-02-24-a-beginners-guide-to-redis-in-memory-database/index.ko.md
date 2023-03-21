@@ -9,7 +9,7 @@ url: /ko/a-beginners-guide-to-redis-in-memory-database/
 categories: ['Database Management Software']
 ---
 
-##이 튜토리얼은 Redis In-Memory 데이터베이스에 대해 배우는 데 도움이됩니다. 오픈 소스이며 키 가치 저장소라고도하며, 이는 비교가 아닌 데이터베이스 유형입니다.
+## 이 튜토리얼은 Redis In-Memory 데이터베이스에 대해 배우는 데 도움이됩니다. 오픈 소스이며 키 가치 저장소라고도하며, 이는 비교가 아닌 데이터베이스 유형입니다.
 
 {{< figure align=center src="images/redis-in-memory-database.png" alt="메모리 내 데이터베이스 REDIS">}}
 

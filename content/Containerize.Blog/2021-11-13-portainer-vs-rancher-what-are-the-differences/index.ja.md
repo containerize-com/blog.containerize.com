@@ -23,7 +23,7 @@ Portainerと牧場主は、コンテナ管理ツールに分類できます。�
   * **Portainer vs Rancher：どちらを採用すべきですか？** 
   * **結論**
 
-##  **1。 Portainerとは？** 
+## **1。 Portainerとは？** 
 [Portainer][1]は、最も人気のあるコンテナ管理プラットフォームです。 DevOpsエンジニアは、PortainerをDockerのシンプルな管理UIと説明しています。 Portainerは、オープンソースの軽量コンティナー管理UIであり、Docker環境を簡単に管理できます。 Dockerを管理するのはこれほど簡単ではありませんでしたが、PortainerはWindows、Linux、Macオペレーティングシステムで利用できます。 Portainerの代替品は、Azure Container Registry、Rancher、Docker Swarmです。ニュージーランドで2017年に設立され、Portainer Web GUIのデフォルトポートは9000です。
 Portainerは、Dockerの生産環境を簡単に構築、管理、維持できる強力でオープンソース管理ツールセットです。顧客がDockerコンテナテクノロジーを採用し、時間の時間を加速するのを支援するために開発されました。 Portainerは、Docker SwarmおよびKubernetesベースのクラスター管理と統合します。 Portainerは、20.1K Github Starsと1.8K Github Forksを備えたオープンソースツールです。ソースコンテナ化プラットフォームを開く **Portainerソースコードリポジトリ** は[Github][2]で入手できます。コンテナ化されたアプリケーションのためにPortainerが提供する機能のいくつかは次のとおりです。
   *コンテナ簡単な展開と管理

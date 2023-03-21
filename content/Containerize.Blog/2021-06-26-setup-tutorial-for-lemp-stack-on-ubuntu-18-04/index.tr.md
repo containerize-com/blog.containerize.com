@@ -35,7 +35,7 @@ Bu bölümde, Ubuntu 18.04'e Nginx, MySQL ve PHP'nin nasıl kurulacağına odakl
 $ sudo apt update
 ```
 
-### nginx web sunucusunu yükleme
+## # nginx web sunucusunu yükleme
   *Ubuntu ** üzerine nginx yüklemek için aşağıdaki komutu çalıştırın.
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Nginx Web Sunucusu Varsayılan Sayfası">}}
 
 
-### MySQL yükleme
+## # MySQL yükleme
 Şimdi, uygulama verilerinizin yönetimi için MySQL veritabanı sunucusunu yüklemeniz gerekir.
   *MySQL'i Ubuntu ** üzerine yüklemek için aşağıdaki komutu çalıştırın.
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### PHP yükleniyor
+## # PHP yükleniyor
 PHP'nin işlenmesi için PHP-FPM kurulumunu kapsayacağız. PHP-FPM FastCGI Process Manager'ı temsil eder. Nginx web sunucusunun PHP'nin işlenmesi için herhangi bir yerleşik işlevselliği yoktur, bu nedenle PHP-FPM kullanacağız. Ayrıca, Veri Yönetimi için MySQL ile PHP'yi iletmek için PHP-MYSQL'i yükleyeceğiz.
   *Ubuntu ** üzerine PHP yüklemek için aşağıdaki komutu çalıştırın.
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### PHP'yi test edin
+## # PHP'yi test edin
   * NGINX'in PHP sayfalarına doğru bir şekilde hizmet verdiğinden emin olmak için yapılandırmaları test etmek için PHP dosyası oluşturacağız.
   * Aşağıdaki komutu çalıştırarak Nginx web sunucusunun kök dizininde info.php dosyası oluşturun.
 ```

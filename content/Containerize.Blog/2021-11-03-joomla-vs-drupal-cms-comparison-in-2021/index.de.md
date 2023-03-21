@@ -33,22 +33,22 @@ Diese Open-Source-CMS-Software ist sicher, flexibel und bietet Selbsthostfunktio
 ## Vergleich von Joomla & Drupal   {#Comp}
 In diesem Abschnitt des Artikels **Joomla vs Drupal**  vergleichen wir diese beiden Open -Source -CMS -Software, indem wir uns mit ihren Funktionen befassen und in der Community stehen. Hier sind die folgenden Punkte, die wir abdecken werden.
 
-#### Gemeinschaft
+## ## Gemeinschaft
 Eine Community, die unterstützt, definiert den Erfolg und die Reichweite einer Open -Source -Software. Glücklicherweise haben diese beiden Open -Source -CMS lebendige und aktive Gemeinschaften, die sich immer auf Probleme oder Feature -Veröffentlichungen entwickeln. Joomla hat 3,9.000 Sterne mit 3,3 K -Gabeln auf GitHub, während Drupal 3,6.000 Sterne mit 1,8 K -Gabeln sichert. Darüber hinaus finden Sie eine vollständige Dokumentation zur Entwicklung und Bereitstellung dieser beiden Open -Source -CMS -Lösungen.
 
-#### Skalierbarkeit
+## ## Skalierbarkeit
 Skalierbarkeit ist ein weiteres wichtiges Merkmal jeder Open -Source -Software. Drupal ist skalierbarer und stabiler als Joomla. Drupal ist mit einer geraden und einfachen Architektur ausgestattet, die Entwickler im Vergleich zu Joomla mit weniger Aufwand erweitern können.
 
-#### Komplexität
+## ## Komplexität
 Diese charakteristische Sache ist sehr wichtig, wenn es um Popularität bei Entwicklern geht. Gemäß der allgemeinen Sichtweise scheint Drupal im Vergleich zu Joomla etwas komplex zu sein. Joomla ist vergleichsweise einfacher zu lernen, und Entwickler finden es in diesem Open -Source -Content -Management -System angenehm, weiterentwickelt zu werden.
 
-#### Plugins
+## ## Plugins
 In Bezug auf die Module und Erweiterungen bieten beide Open -Source -CMS eine Reihe von Modulen. Benutzer können diese Plugins nach ihren Anforderungen auswählen und anpassen. Drupal hat jedoch einen Wettbewerbsvorteil gegenüber Joomla, da die Anzahl der von diesem Content -Management -System angebotenen Plugins höher ist als Joomla.
 
-#### Tech Stack
+## ## Tech Stack
 Beide Open -Source -CMs sind in PHP geschrieben. Es ist jedoch eine Win-Win-Situation für den PHP-Entwickler, sich der gleichen Entwicklungsumgebung zu stellen.
 
-#### Sicherheit
+## ## Sicherheit
 Dies ist das wichtigste und entscheidendste Merkmal, während sie sich für eine Software entscheiden. Beide Open-Source-CMs sind sicher, aber Drupal sticht mit integrierten Sicherheitsmethoden auf. Darüber hinaus bietet Drupal Sicherheitsanweisungen für die Codierer, die dieses Open -Source -Content -Management -System erweitern möchten.
 
 ## Schlussfolgerung   {#Conclusion}

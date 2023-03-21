@@ -38,7 +38,7 @@ Ikuti panduan langkah demi langkah di bawah ini untuk menginstal perangkat lunak
 sudo apt-get update
 ```
 
-### Instal Mariadb Database Server
+## # Instal Mariadb Database Server
   * Jalankan perintah untuk menginstal mariadb.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### Instal Ruby
+## # Instal Ruby
   * Pertama, tambahkan PPA pihak ketiga untuk menginstal Ruby. Jalankan perintah berikut.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### Instal RabbitMQ
+## # Instal RabbitMQ
   * Erlang diharuskan menginstal RabbitMQ jadi, Anda perlu menginstalnya juga. Tambahkan kunci repositori Erlang ke Ubuntu dengan perintah di bawah ini.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### Instal NodeJs
+## # Instal NodeJs
   * Tambahkan repositori nodejs dengan perintah berikut.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### Instal Server Surat Pos
+## # Instal Server Surat Pos
   * Pertama, Anda perlu membuat pengguna untuk server email pos. Buat dengan perintah berikut.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### Instal Nginx
+## # Instal Nginx
   * Jalankan perintah di bawah ini untuk menginstal server web nginx.
 ```
 sudo apt install nginx

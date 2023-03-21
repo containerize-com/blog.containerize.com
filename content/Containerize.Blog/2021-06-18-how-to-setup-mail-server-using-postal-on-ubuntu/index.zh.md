@@ -38,7 +38,7 @@ categories: ['Transactional Email']
 sudo apt-get update
 ```
 
-### 安装MariaDB数据库服务器
+## # 安装MariaDB数据库服务器
   *运行命令以安装MariadB。
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### 安装Ruby
+## # 安装Ruby
   *首先，添加第三方PPA以安装Ruby。运行以下命令。
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### 安装兔子
+## # 安装兔子
   * Erlang必须安装RabbitMQ，因此您也需要安装它。使用以下命令将Erlang存储库密钥添加到Ubuntu。
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### 安装nodejs
+## # 安装nodejs
   *使用以下命令添加nodejs存储库。
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### 安装邮政邮件服务器
+## # 安装邮政邮件服务器
   *首先，您需要为邮政邮件服务器创建用户。使用以下命令创建它。
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### 安装nginx
+## # 安装nginx
   *运行下面的命令以安装NGINX Web服务器。
 ```
 sudo apt install nginx

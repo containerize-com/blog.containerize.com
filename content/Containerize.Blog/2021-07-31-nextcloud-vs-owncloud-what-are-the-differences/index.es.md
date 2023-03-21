@@ -33,17 +33,17 @@ OwnCloud es una aplicación en la nube muy estable y confiable. Es muy recomenda
 
 ## 3. Comparación NextCloud vs OwnCloud:   {#CE62}
 
-#### **Precios** 
+## ## **Precios** 
 NextCloud y OwnCloud se utilizarán de forma gratuita y también venden un servicio de soporte. Las descargas e instalaciones de ambos software son absolutamente gratuitas. Pero la mayor diferencia entre las dos plataformas es que el mejor almacenamiento en la nube en línea gratuito NextCloud es completamente gratuito y de código abierto. Mientras que para tener acceso completo a todas las características de OwnCloud, deberá suscribirse a su edición empresarial para obtener funciones adicionales.
 
-#### **Características**
+## ## **Características**
 Open Source Seguro Sharing SharingCloud se centra principalmente en el intercambio de archivos y la sincronización de datos en la nube. NextCloud ha aumentado enormemente su gama de servicios para ofrecer otras características, incluidas las comunicaciones de audio-video y los documentos de la oficina colaborativa.
 
-#### **Comunidad**  y apoyo
+## ## **Comunidad**  y apoyo
 Otra diferencia importante de las placas de código abierto de NextCloud y OwnCloud es la comunidad y el apoyo que los rodea. Desde 2017, el número de contribuyentes de NextCloud ha aumentado en gran número que el número de contribuyentes de OwnCloud. Las páginas de soporte de Open Source OwnCloud y NextCloud Cloud Storage le proporcionan enlaces a la documentación, canales de chat de Internet, foros, etc. para los clientes de la categoría empresarial, tanto NextCloud como OwnCloud también ofrecen soporte premium.
 Si observa los foros de ayuda de NextCloud, el tema más ampliamente discutido aparece es el servidor "Migrar de OwnCloud a NextCloud". Esto ha obtenido más de 95,000 vistas. El tema más popular en el foro público de OwnCloud se ocupa del desbloqueo de un archivo bloqueado que tiene más de 45,000 visitas. El canal de YouTube de OwnCloud tiene más de 70 videos con una base de suscriptores de 1.36k. NextCloud presenta más de 220 videos con una base de suscriptores de 9.3k en su canal de YouTube. Además, una búsqueda de palabras clave de Google para ambos condujo a 4,050,000 resultados de búsqueda y 3,460,000 resultados de búsqueda para NextCloud y OwnCloud, respectivamente.
 
-#### **Seguridad**
+## ## **Seguridad**
 El intercambio de archivos en la nube de código abierto NextCloud ofrece protección contra ataques de fuerza bruta, restricción de flujo, limitación de tarifas, gestión de contraseñas, política de seguridad de contenido y muchas otras opciones de seguridad. De manera similar, OwnCloud, ciertas características de escaneo de seguridad de seguridad solo están disponibles en la versión empresarial. Es posible probar la versión empresarial de forma gratuita durante 30 días para verificar si estas características adicionales son necesarias para mantenerlo a salvo de problemas externos.
 Además, los piratas informáticos tienen la oportunidad de obtener una oferta del programa de recompensas de errores como recompensa por el descubrimiento de vulnerabilidades para que el equipo arregle.
 

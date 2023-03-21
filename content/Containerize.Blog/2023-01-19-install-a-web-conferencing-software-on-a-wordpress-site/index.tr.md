@@ -21,15 +21,15 @@ Aşağıdaki noktalar bu makalede ele alınacaktır:
 * [**WordPress'e kısa bir giriş**][4]
 * **[WordPress'e Bigbluebutton eklentisi nasıl kurulur?][5]**
 
-##**Bigbluebutton nedir?** {#What-Is-bigbluebutton}
+## **Bigbluebutton nedir?** {#What-Is-bigbluebutton}
 [BigBlueButton][6], büyük bir kurumsal düzeydeki özellik yığını ile açık kaynaklı bir ücretsiz**video işbirliği yazılımı**. Bu açık kaynaklı yazılım oldukça genişletilebilir ve WordPress, [Redmine][7], [Schoology][8], [Drupal][9] ve tuval gibi birçok popüler uygulamayla entegrasyonlar sunar. Buna ek olarak, zengin sunum araçlarıyla birlikte ortak bir beyaz tahta, genel/özel mesajlar, HD ses, elektronik el yetiştirme gönderir. Ayrıca,**BigBluebutton**HTML5 desteklenir ve tüm popüler web tarayıcılarında iyi çalışır.
 Ayrıca, bu**web konferans yazılımı**büyük ve canlı bir geliştirici topluluğuna sahiptir. 7.8k yıldız ve 5.8k çatallı [GitHub Repo][10] üzerinde çok iyi istatistikler var. BigBluebutton, Java ve Ruby gibi diğer dillerden gelen girdilerle birlikte JavaScript'te yazılmıştır. Aslında, geliştiriciler geliştirme, dağıtım ve kullanım ile ilgili kapsamlı belgeler bulabilirler. Böylece, bu kendi kendine barındırılan yazılımı yerel veya bulut sunucusunda kolayca ayarlayabilirsiniz.
 
-##**WordPress'e kısa bir giriş** {#a-brief-intro-to-wordpress}
+## **WordPress'e kısa bir giriş** {#a-brief-intro-to-wordpress}
 [WordPress][2] web sitesi yazılımı kategorisinde en iyi**açık kaynaklı bloglama platformlarından biridir. Bu açık kaynaklı yazılım, yeni başlayan bir web geliştiricisi bile site binasını yapabilir ve başlatabilir. Buna ek olarak, WordPress oldukça yapılandırılabilir ve iş gereksinimlerinize göre özelleştirebilirsiniz. Her şeyden önce, bir dizi eklenti bulabileceğiniz muazzam bir [Marketplace][11] var.
 Bu**blog yazılımı**kendi kendine barındırma yetenekleriyle birlikte gelir ve birden fazla dil için tam destek vardır. Ayrıca, [GitHub][12] repo'sunda çok iyi istatistikler vardır ve kaynak kodunu indirebilir ve kolayca ayarlayabilirsiniz. Ayrıca, WordPress web sitenizdeki herhangi bir işlev için bir eklenti yükleyebilirsiniz. Aslında, herhangi bir kategoriye ait siteler için eklentiler bulabilirsiniz. Esas olarak PHP'de yazılmıştır ve geliştirme, dağıtım ve kullanım ile ilgili eksiksiz talimatlar bulabilirsiniz.
 
-##**WordPress'e BigblueButton eklentisi nasıl yüklenir?
+## **WordPress'e BigblueButton eklentisi nasıl yüklenir?
 Bu bölüm, bir WordPress sitesine**web konferans yazılımını nasıl kuracağınızı gösterecektir**. Ayrıca, Bigbluebutton eklentisini biraz daha keşfedeceğiz. Daha fazla hareket etmeden önce, makinenize WordPress'i yüklediğinizden ve bir işletme web sitesine sahip olduğunuzdan emin olun.
 WordPress'i yüklememeniz durumunda lütfen bu [link][2] adresini ziyaret edin, tam kurulum talimatlarını bulabilirsiniz.
 WordPress'te Bigbluebutton [eklenti][13] 'in kurulum işlemine başlayalım.

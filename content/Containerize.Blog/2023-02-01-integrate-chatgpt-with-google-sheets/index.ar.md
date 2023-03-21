@@ -21,7 +21,7 @@ categories: ['Artificial intelligence']
   *[ **كيفية دمج chatgpt مع أوراق Google؟** ][6]
   *[ **كيفية استخدام chatgpt في أوراق Google؟** ][7]
 
-## كيفية دمج chatgpt مع Google Sheets   {#to-in-integrate-chatgpt-with-google-sheets}}
+## كيفية دمج chatgpt مع Google Sheets   {#to-in-integrate-chatgpt-with-google-sheets}
 **تكامل ChatGPT** مع أي برنامج سيعطي بالتأكيد ميزة تنافسية للعمل. نموذج يعمل من الذكاء الاصطناعى يمكن أن يبدأ جلسات محادثة في اتجاهين وقمت بتضمينه ببرنامجك مدى قوة هذا التكامل؟ بالطبع مذهلة. لذا ، فأنت تطلب من chatbot حلاً تقنيًا لمشكلة ما وستحصل على الاستجابة في الوقت المناسب تمامًا ، فهذا يعني الكثير من حيث توفير الوقت والجهد.
 لنبدأ هذا التكامل  **Google Sheets مع chatgpt.** 
 أولاً ، افتح google [sheets][3] وانقر فوق  **"extensions-> الوظائف الإضافية-> الحصول على الوظائف الإضافية"** . بمجرد القيام بذلك ، سترى مربع حوار في Marketplace Google Workspace. الآن ، اكتب "chatgpt" في شريط البحث الموضوعة في الزاوية اليمنى العليا وحدد الخيار الأول كما هو موضح في الصورة أدناه.
@@ -35,7 +35,7 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="تكامل chatgpt">}}
 
 
-## كيفية استخدام chatgpt في أوراق Google؟   {#-for-chatgpt-in-google-sheets}}
+## كيفية استخدام chatgpt في أوراق Google؟   {#-for-chatgpt-in-google-sheets}
 بمجرد إعداد مفتاح Openai API ، فأنت مستعد للاستفادة من هذا التكامل القوي  **ChatGPT و Google Sheets.**  هناك مجموعة كبيرة من الأساليب التي تقدمها ChatGPT التي يمكنك الاتصال بها عن طريق typing = gpt ().
 على سبيل المثال ، يمكنك أن تطلب من chatbot التي تعمل بالطاقة AI كتابة وصف منتج للسيارة عن طريق استدعاء الوظيفة بالطريقة التالية:
 ```

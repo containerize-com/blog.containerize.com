@@ -9,7 +9,7 @@ url: /zh-hant/how-to-install-and-configure-wamp-server-on-windows/
 categories: ['Web Server Solution Stack']
 ---
 
-##設置用於使用Apache2，PHP和MySQL創建Web應用程序的Web開發環境。本文可幫助您在Windows上安裝WAMP服務器。
+## 設置用於使用Apache2，PHP和MySQL創建Web應用程序的Web開發環境。本文可幫助您在Windows上安裝WAMP服務器。
 
 {{< figure align=center src="images/wamp-server-blog-post-banner.png" alt="WAMP服務器">}}
 
@@ -20,7 +20,7 @@ categories: ['Web Server Solution Stack']
   *[ **WAMP配置** ][3]
   *[**訪問phpmyadmin**][4]
 
-##什麼是Wampserver？   {#什麼}
+## 什麼是Wampserver？   {#什麼}
 WampServer是一個免費的解決方案堆棧，用於為基於PHP的應用程序設置Web開發環境。 Wamp代表（W  -  Windows，A  -  Apache，M  -  mysql和P  -  PHP）。此外，它還帶有PHPMyAdmin和Adminer，用於管理數據庫。 Wamp是流行的工具之一，您可以快速設置它。此外，您可以從控制面板配置WAMP服務器。它提供了一個完整的Web開發環境，用於創建和測試應用程序。 WampServer由您可以根據需要在安裝過程中選擇的幾個組件組成。 Wampserver帶有多種版本的PHP。您可以根據項目要求輕鬆更改PHP版本。另外，您可以從Wampserver控制面板更改DBMS（數據庫管理系統）。
 
 ## Wamp安裝 {#installation}
@@ -59,7 +59,7 @@ WampServer是一個免費的解決方案堆棧，用於為基於PHP的應用程�
  ***空日誌**  -  Wamserver提供了從控制面板清除日誌的功能。您可以空白日誌，例如PHP錯誤日誌，Apache錯誤日誌，Apache Access Log，MySQL日誌和MariaDB日誌。即使您也可以一次清除所有日誌。右鍵單擊WAMP圖標以打開“工具”對話框。選擇工具並選擇“空日誌”，您將找到刪除日誌的所有選項。
  ***更改語言**  - 您可以為Wampserver控制面板進行語言。右鍵單擊WAMP圖標以打開“工具”對話框。選擇語言，然後單擊所需的語言。您將在新選擇的語言中看到控制面板。
 
-##訪問phpmyadmin   {#phpmyadmin}
+## 訪問phpmyadmin   {#phpmyadmin}
 您可以通過在瀏覽器中打開Localhost，然後單擊Wampserver歡迎頁面上的PhpMyAdmin鏈接來訪問 **phpMyAdmin** 來管理數據庫。另外，您可以訪問http：// localhost/phpmyadmin URL訪問它。
 
 ## 結論

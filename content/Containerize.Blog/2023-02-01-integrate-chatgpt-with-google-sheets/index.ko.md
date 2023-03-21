@@ -35,7 +35,7 @@ OpenAI 플랫폼에서 계정을 만들고 API 키를 가져와야합니다. Ope
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="chatgpt 통합">}}
 
 
-## Google 시트에서 chatgpt를 사용하는 방법은 무엇입니까?   {##사용 방법 chatgpt-in-google-sheets}
+## Google 시트에서 chatgpt를 사용하는 방법은 무엇입니까?   {## 사용 방법 chatgpt-in-google-sheets}
 OpenAI API 키가 설정되면이 강력한  **chatgpt 및 Google 시트 통합을 활용할 준비가되었습니다.**  chatgpt가 제공하는 엄청난 스택은 = gpt ()를 입력하여 호출 할 수 있습니다.
 예를 들어,이 기능을 다음과 같은 방식으로 호출하여 자동차에 대한 제품 설명을 작성하도록이 AI 기반 챗봇을 요청할 수 있습니다.
 ```

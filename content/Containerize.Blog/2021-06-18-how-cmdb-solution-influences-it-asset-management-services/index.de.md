@@ -28,35 +28,35 @@ Diese Konfigurationsverwaltungssysteme bieten Dienstprogramme, um den Aufzeichnu
 ## **Top 5 Open Source Best CMDB -Software**    {#top}
 In diesem Abschnitt werden wir die hochwertigste Konfigurationsverwaltungsdatenbanksoftware untersuchen.
 
-### Ralph
+## # Ralph
 [Ralph][2] ist eine Open -Source -Software für freie Ressourcenverwaltung. Es ist plattformübergreifend und bietet Selbsthostfunktionen. Es ist hoch erweiterbar und bietet REST-API für Integrationen von Drittanbietern. Anschließend wird die Rechenzentren und die IT -Infrastruktur der Büro -IT vollständig unterstützt. Diese Echtzeit-Tracking-Software in Echtzeit ist jedoch in Python geschrieben und verfügt über umfassende Dokumentation zu Entwicklung und Bereitstellung. Daher ist der gesamte Quellcode unter [Github][9] verfügbar.
 Ralph liefert die folgenden Schlüsselfunktionen
   * Integrierte Gleichstromvisualisierung
   * Nachverfolgung von Gütern
   * Leicht
 
-### Snipe-it
+## # Snipe-it
 [Snipe-it][3] ist eine weitere Open-Source-Software, die Asset- und Konfigurationsverfolgung bietet. Diese Ressourcenmanagementplattform wird von AWS unterstützt. Es ist sehr gesichert und bietet Anmeldoptionen mithilfe der Zwei-Faktor-Authentifizierung und SAML-Unterstützung. Es ist auch selbst gehostet und leicht eingerichtet. Diese CMDB -Lösung ist in PHP geschrieben und der gesamte Quellcode ist unter [GitHub][10] verfügbar.
 Im Folgenden finden Sie die Kernmerkmale von Snipe-it
   * RESTful -Schnittstelle
   * Integration mit Slack und LDAP
   * Optionen importieren/exportieren
 
-### Vorarbeiter
+## # Vorarbeiter
 [Foreman][11] ist ein weiteres Open -Source -Tool, um physische und virtuelle Server zu verwalten. Es ist sehr anpassbar und bietet eine REST -API, um die erforderlichen Funktionen aufzubauen. Darüber hinaus wird die Verwaltung von Konfigurationen, App -Bereitstellungen, Änderungen der Konfigurationen und Systemadministern vollständig unterstützt, um detaillierte Berichte zu ändern. Es ist selbst gehostet und der gesamte Quellcode ist unter [Github][12] verfügbar.
 Forman bietet die folgenden Hauptmerkmale an
   * Einfach einrichten
   * Berichterstattung und Überwachung
   * Plugin -Architektur
 
-### Racktables
+## # Racktables
 [Racktables][13] ist ein Open Source Asset Management -System für Rechenzentren, Serverräume. Es bietet auch Unterstützung für die Verwaltung von Netzwerkadressen, Netzwerkkonfigurationen, Ladeausgleichskonfigurationen und anderen Hardware -Geräten. Darüber hinaus können Benutzer Berechtigungen, Benutzer -Tagging und Dokumentation von Firewalls erstellen.
 Racktables bietet die folgenden herausragenden Funktionen
   * Dokumentenverwaltung
   * Selbst veranstaltet
   * Management des physischen Ports
 
-### Itop
+## # Itop
 [IT-Betriebsportal][14] ist eine kostenlose selbst gehostete Lösung, die eine CMDB-Lösung, ein Helpdesk-System und ein Dokumentverwaltungs-Tool bietet. Es bietet einen reichhaltigen Import- und Exportoptionen.
 ITOP bietet wichtige Funktionen
   * Automatische Auswirkungsanalyse

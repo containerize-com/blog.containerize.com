@@ -33,16 +33,16 @@ To forum pytań-odpowiedzi jest szybkie, niezawodne, lekkie i oferuje wiele atra
 ## flarum vs Discourse   {#vs}
 W tej sekcji umieścimy oba te oprogramowanie do forum typu open source w jednym miejscu, w którym będziemy mogli porównać dyskurs i flarum.
 
-#### Wspólnota
+## ## Wspólnota
 Cóż, oba te bezpłatne forów pytań-odpowiedzi mają silne społeczności, które aktywnie reagują na zapytania użytkowników/programistów. Jeśli mówimy o statystykach GitHub, Flarum ma 12 000 gwiazdek i 1K widelce na swoim repozytorium Github. Z drugiej strony Discourse ma 34K Plus gwiazd i 7K plus widelce na swoim repozytorium Github.
 
-#### Tech Stack
+## ## Tech Stack
 Jeśli chodzi o stos techniczny tego oprogramowania do forum typu open source, dyskurs jest napisany w Ruby na szynach i JavaScript. Natomiast flarum jest napisane w PHP z połączeniem i MySQL / Mariadb.
 
-####**Cechy**
+## ## **Cechy**
 Jest to najważniejszy aspekt, jeśli chodzi o wybór każdego oprogramowania dla Twojej firmy. Dlatego oba to oprogramowanie do forum dyskusyjnego zapewnia funkcje na poziomie przedsiębiorstwa. Falrum i dyskurs oferują cechy społeczne i bogate systemy powiadomień. Ponadto dyskurs ma ogromną bazę wtyczek, w której można znaleźć prawie wszystkie rodzaje wtyczek. Ponadto użytkownicy mogą modyfikować wygląd i wyczucie dyskursu. Oferuje również funkcje pojedynczego logowania, w których użytkownicy mogą zalogować się za pomocą loginów społecznościowych innych firm.
 
-#### rozszerzalność
+## ## rozszerzalność
 Jest to kolejna ważna cecha każdego oprogramowania. Na szczęście oba te oprogramowanie do forum typu open source można rozszerzyć, a programiści mogą łatwo rozszerzyć funkcjonalność zgodnie z potrzebami. Przede wszystkim Dyskurs oferuje AP dla integracji stron trzecich.
 
 ## Wniosek   {#Conclusion}

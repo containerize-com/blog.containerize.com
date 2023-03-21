@@ -24,7 +24,7 @@ Mevcut kalmak için sadece mevcut teknolojinin durumunu dikkate almanız gerekme
   * Düşük kodlu gelişme
   * Çözüm
 
-#### **Trend 1: Yapay Zeka (AI)** 
+## ## **Trend 1: Yapay Zeka (AI)** 
 Modern teknoloji AI yazılım çözümleri yapacak kadar güçlüdür. Yapay zeka, bir kişi gibi geniş anlamda akıllıca düşünen bir yazılımdır. Çünkü yazılım geliştirmenin geleceği ve teknolojinin geleceği algoritmalar, makine öğrenimi, sinir ağı ve yapay zeka araçları içinde yeni ve büyüleyici sonuçlar çıkarmak için yatmaktadır. AI yazılım çözümleri, günümüzün teknolojik dünyasında yazılım geliştirmede trend teknolojilerin baskın gücüdür.
 Günümüzde geliştiriciler, sürekli uygulama yoluyla yapay zeka alanında çözümler arıyorlar ve makineler insanlar gibi akıllıca düşünebilirler. Yapay zeka yazılım yeteneklerine sahip şirketlerin başarılı olacağı göz önüne alındığında, AI'nın 2021'de yazılım geliştirmede en iyi eğilimler olarak çekişmesi bekleniyor. Doğal dil işleme alanı, AI'daki yazılım geliştirmedeki yeni teknoloji nedeniyle özellikle ilgi çekicidir. 2021 Son yazılım geliştirme eğilimleri, her görevi otomatik hale getirerek ve insan katılımını azaltarak daha fazla geliştirme becerisi, sohbet botları getiriyor.
 {{_LINE_24_}}

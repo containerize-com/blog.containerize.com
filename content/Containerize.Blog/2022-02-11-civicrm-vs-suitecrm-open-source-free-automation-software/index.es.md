@@ -32,16 +32,16 @@ En esta sección de **CivicRM vs Suitecrm  **Blog Public, pasaremos brevemente o
 ## Civicrm vs Suitecrm   {#VS}
 Hasta ahora, hemos pasado por lo que es Civicm y también hemos investigado suitera. Ahora, dibujaremos una comparación entre estos dos software de automatización gratuito ****. Entonces, veamos los siguientes puntos para cubrir este artículo  **CivicRM vs Suitecrm**  .
 
-#### Características
+## ## Características
 Esta es la tarea más crucial cuando se trata de elegir cualquier software para el negocio. Afortunadamente, ambos software de automatización gratuito ofrecen una rica pila de características para los usuarios. Ambos están basados ​​en la web y son adecuados para cualquier nivel de negocio. CIVICRM ofrece integraciones con plataformas populares y es fácil de usar para la automatización de marketing gratuita. Esta **herramienta de automatización de marketing  **ofrece soporte al cliente en línea junto con tutoriales en video. Además, ofrece plantillas para informes personalizados, automatización de reconocimiento de regalos y muchos más. Por otro lado, SuitECRM ofrece atención al cliente por teléfono, en línea y base de conocimiento. Este **  software de automatización gratuito**  también viene con una amplia gama de características que incluyen facturación, facturación, calculadora de ROI y más.
 
-#### Teck Stack
+## ## Teck Stack
 Este es otro aspecto importante cuando va a optar por un software de código abierto. CIVICRM y SuitECRM están escritos en PHP y requieren requisitos casi similares para implementar en servidores locales o en la nube.
 
-#### Comunidad de pie
+## ## Comunidad de pie
 En lo que respecta a CivicRM, tiene 436 estrellas y 748 tenedores en su repositorio de GitHub. Por otro lado, Suitecrm tiene 2.8k estrellas y 1.6k tenedores. Ambas **Herramientas de automatización de marketing**  proporcionan documentación integral sobre la implementación y el desarrollo.
 
-#### Extensibilidad
+## ## Extensibilidad
 Por último, pero no menos importante, SuitECRM y CivicRM son altamente configurables y ofrecen integración con aplicaciones de terceros que incluyen algunas aplicaciones de nivel empresarial como WordPress, Joomla y más. Además, puede agregar nuevas características según la necesidad y acercarse a la comunidad de los desarrolladores que sea vibrante y responder a las consultas activamente.
 Del mismo modo, puede explorar más aspectos y características de CivicRM y SuitEcrm.
 

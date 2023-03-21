@@ -32,16 +32,16 @@ In diesem Abschnitt des Blog -Beitrags **Civicrm vs Suitecrm  **werden wir kurz 
 ## Civicrm vs Suitecrm   {#vs}
 Bisher haben wir das, was Civicm ist, durchgemacht und auch in Suitecrm geschaut. Jetzt werden wir einen Vergleich zwischen diesen beiden Open Source **Free Automation Software**  ziehen. Schauen wir uns also die folgenden Punkte an, um diesen Artikel zu decken.
 
-#### Merkmale
+## ## Merkmale
 Dies ist die wichtigste Aufgabe, wenn es darum geht, eine Software für das Unternehmen auszuwählen. Glücklicherweise bieten diese beiden kostenlosen Automatisierungssoftware einen reichhaltigen Funktionsstapel für die Benutzer. Beide sind webbasiert und für jedes Geschäftsbereich geeignet. CivicRM bietet Integrationen mit beliebten Plattformen und ist einfach für die kostenlose Marketingautomatisierung zu verwenden. Dieses **Marketing -Automatisierungs -Tool  **bietet Online -Kundensupport sowie Video -Tutorials. Darüber hinaus bietet es Vorlagen für benutzerdefinierte Berichte, Anerkennung für Geschenkanerkennung und vieles mehr. Andererseits bietet SuiteCreCrm Kunden, Online und Wissensbasis Kundenunterstützung. Diese **  kostenlose Automatisierungssoftware**  verfügt außerdem über eine Vielzahl von Funktionen, darunter Abrechnung, Rechnungsstellung, ROI -Taschenrechner und mehr.
 
-#### Teck Stack
+## ## Teck Stack
 Dies ist ein weiterer wichtiger Aspekt, wenn Sie sich für eine Open-Source-Software entscheiden. Civicrm und Suitecrm sind in PHP geschrieben und erfordern nahezu ähnliche Anforderungen für die Bereitstellung lokaler oder Cloud -Server.
 
-#### Community Stehen
+## ## Community Stehen
 In Bezug auf Civicrm hat es 436 Sterne und 748 Gabeln auf seinem Github -Repo. Andererseits hat Suitecrm 2,8 K -Sterne und 1,6.000 Gabeln. Beide **Marketing -Automatisierungswerkzeuge**  bieten umfassende Dokumentation zu Bereitstellungen und Entwicklung.
 
-#### Erweiterbarkeit
+## ## Erweiterbarkeit
 Last but not least sind SuiteCrecrm und CivicRM sehr konfigurierbar und bieten Integration in Anwendungen von Drittanbietern, die einige Apps auf Unternehmensebene enthalten, wie WordPress, Joomla und mehr. Darüber hinaus können Sie neue Funktionen nach Bedarf hinzufügen und Entwicklergemeinschaften nähern, die lebendig sind und aktiv auf Anfragen reagieren.
 Ebenso können Sie weitere Aspekte und Merkmale von CivicRM und SuiteCRM untersuchen.
 

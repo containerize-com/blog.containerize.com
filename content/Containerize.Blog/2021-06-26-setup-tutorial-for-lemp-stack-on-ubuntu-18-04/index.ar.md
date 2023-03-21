@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-### تثبيت خادم الويب Nginx
+## # تثبيت خادم الويب Nginx
   *قم بتشغيل الأمر أدناه إلى  **تثبيت Nginx على Ubuntu** .
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="الصفحة الافتراضية لخادم الويب Nginx">}}
 
 
-### تثبيت MySQL
+## # تثبيت MySQL
 الآن ، تحتاج إلى تثبيت خادم قاعدة بيانات MySQL لإدارة بيانات التطبيق الخاصة بك.
   *قم بتشغيل الأمر أدناه إلى  **تثبيت MySQL على Ubuntu** .
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### تثبيت بي اتش بي
+## # تثبيت بي اتش بي
 سوف نغطي تثبيت PHP-FPM لمعالجة PHP. PHP-FPM تعني مدير عملية FastCGI. لا يحتوي Nginx Web Server على أي وظيفة مصممة لمعالجة PHP لذلك ، سنستخدم PHP-FPM لذلك. بالإضافة إلى ذلك ، سنقوم بتثبيت PHP-MYSQL للتواصل مع MySQL لإدارة البيانات.
   *قم بتشغيل الأمر أدناه إلى  **تثبيت PHP على Ubuntu** .
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### اختبار PHP
+## # اختبار PHP
   * من أجل التأكد من أن Nginx يخدم صفحات PHP بشكل صحيح ، سنقوم بإنشاء ملف PHP لاختبار التكوينات.
   * إنشاء ملف info.php في الدليل الجذر لخادم الويب Nginx عن طريق تشغيل الأمر أدناه.
 ```

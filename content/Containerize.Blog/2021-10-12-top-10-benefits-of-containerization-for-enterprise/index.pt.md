@@ -26,34 +26,34 @@ O Docker é um software de contêiner de código aberto usado para facilitar as 
 ## Benefícios da contêinerização   {#Benefits}
 Nesta seção, exploraremos alguns dos principais benefícios da contêinerização.
 
-### implantações rápidas
+## # implantações rápidas
 Nos métodos tradicionais de implantação de aplicativos, os desenvolvedores precisam fazer considerações sérias sobre o ambiente em que o software será executado. Eles precisam configurar todas as configurações e dependências necessárias manualmente para garantir a implantação bem -sucedida. A contêiner tirou esse ônus e assumiu a responsabilidade de lidar com formalidades de implantação.
 
-### Isolamento
+## # Isolamento
 Este é o principal benefício da contêiner, pois os aplicativos em execução em cada contêiner são isolados e desconhecem um do outro. Eles usam seus próprios recursos de forma independente e, portanto, alcançam o máximo de segurança e confiabilidade.
 
-### **Consistência** 
+## # **Consistência** 
 Uma imagem do Docker contém todas as dependências de software e certifique -se de criar um ambiente consistente em várias plataformas. É uma máquina de desenvolvedor ou uma máquina de produção na nuvem, a contêiner cria as instalações que fornecem um comportamento consistente da implantação de aplicativos.
 
-### escalabilidade
+## # escalabilidade
 **Software de contêiner**  permite que os desenvolvedores dimensionem aplicativos sem afetar toda a infraestrutura. Os desenvolvedores de software podem reconfigurar a infraestrutura existente ou adicionar outros contêineres para aprimorar os recursos. Os processos para dimensionar aplicativos exigem menos esforços que, em seguida, permitem que os desenvolvedores se concentrem em outros desenvolvimentos importantes.
 
-### melhor segurança
+## # melhor segurança
 Como há isolamento completo entre todos os contêineres em execução em uma rede, todos os contêineres contêm sua própria camada de segurança. No entanto, reduz o fator de risco de qualquer conflito de recursos entre os aplicativos como memória, armazenamento, CPU e outros recursos de rede.
 
-### Portabilidade
+## # Portabilidade
 Este é outro grande benefício entre os outros benefícios da contêinerização. A contêiner torna os aplicativos altamente portáteis, pois são independentes da plataforma. Os desenvolvedores podem configurar facilmente o aplicativo de contêiner em qualquer plataforma devido a aplicativos abstratos de contêineres do sistema operacional host.
 
-### **Custo-beneficio**
+## # **Custo-beneficio**
 As ferramentas de orquestração de contêineres e o software de contêineres são gratuitos e de código aberto. Eles têm comunidades fortes que estão vivas e vibrantes. Aprender essas ferramentas não é difícil e existem muitos serviços disponíveis que facilitam as implantações de aplicativos no período mais curto.
 
-### Produtividade
+## # Produtividade
 O software gratuito de contêineres traz cargas de produtividade automatizando os processos de implantação. Além disso, se houver algum tempo de inatividade ou manuseio encontrado na produção, existem ferramentas de monitoramento disponíveis para esse fim. Os desenvolvedores de software podem agrupar o software em um pacote e compartilhar e executar em qualquer plataforma.
 
-### reutilização
+## # reutilização
 A contêiner com a contêiner facilita os usuários com disposições de reutilização. Os desenvolvedores escrevem o código do aplicativo comercial uma vez para todas as plataformas. Eles não precisam escrever diferentes códigos de origem para diferentes plataformas.
 
-Comunidade ###
+Comunidade ## #
 Esta é outra grande vantagem de contêinerização. Há um grande suporte disponível pela comunidade e os usuários podem buscar orientação em qualquer nível. Acima de tudo, existe um espaço chamado [Docker Hub][5], onde os usuários podem criar, compartilhar e puxar os aplicativos e serviços de contêiner.
 
 ## Final Observações   {#Final}

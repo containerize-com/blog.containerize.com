@@ -21,7 +21,7 @@ categories: ['Database Management Software']
   * [使用Adminer管理數據庫][5]
   * [結論][6]
 
-##什麼是管理員？   {#什麼}
+## 什麼是管理員？   {#什麼}
 當涉及輕巧，用戶友好，高性能的MySQL數據庫管理工具時，Adminer獲得了廣泛的知名度，並且與PhpMyAdmin相比提供了許多改進。最初，此數據庫管理工具是由Jakub Vrana在2007年開發的，可作為PhpMyAdmin的替代方法，因此您要做的就是在應用程序的數據庫上下載並安裝一個輕巧的PHP文件。
 作為開源數據庫管理工具，它也可以免費使用並以PHP編寫。設置此基於Web的數據庫管理系統的原因是一種良好的用戶界面設計，可用於無縫的用戶體驗，以及強大的安全功能，以防止數據免受任何攻擊或惡意黑客嘗試的嘗試。該數據庫管理工具易於設置，需要簡單的要求，例如Ubuntu和Lamp。用戶可以找到有關開發和部署的全面文檔。因此，您可以在[Github][7]上找到此基於Web的數據庫管理系統的源文件。
 
@@ -36,7 +36,7 @@ categories: ['Database Management Software']
 ## Adminer vs phpMyAdmin   {#adminer}
 因此，當我們談論什麼是管理員時，知道管理員與phpmyadmin之間的比較將很有趣。當涉及到Adminer和PhpMyAdmin之間選擇時，Adminer在其提供的靈活功能和輕型文件上載最重要的是。同樣，與PhpMyAdmin相比，它支持包括MySQL，SQLite等許多數據庫。同樣，與phpmyadmin相比，它更直觀，更聰明。
 
-##用adminer   {#manage}管理數據庫
+## 用adminer   {#manage}管理數據庫
 在本管理教程的部分中，我們將仔細研究如何使用Adminer管理數據庫。
 **系統要求**
 為了使Adminer在系統上運行，重要的是要在服務器上設置以下要求：
@@ -69,7 +69,7 @@ categories: ['Database Management Software']
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-4-1024x462.png" alt="管理員與phpmyadmin">}}
 
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這將我們帶到了本管理教程的結尾。我們已經介紹了一些重要主題，例如Adminer，Adminer vs PhpMyAdmin以及此開源基於Web的數據庫管理系統的其他方面。希望，如果您想安裝開源數據庫管理工具，這篇博客文章肯定會為您提供幫助。它是直觀，智能且易於使用的界面，使其成為一個非常流行的數據庫管理工具。此外，它支持許多數據庫，包括MySQL，Sqlite，MongoDB等，以及保護和防止任何惡意黑客事件的安全措施。總而言之，此數據庫管理工具不僅是開源的，而且可以免費使用。
 最後，[Containerize.com][9]不斷地撰寫有關進一步開源產品和主題的博客文章。因此，請與[10]類別保持聯繫，以進行常規更新。此外，您可以在我們的社交媒體帳戶上關注我們[Facebook][11]，[LinkedIn][12]和[Twitter][13]。
 

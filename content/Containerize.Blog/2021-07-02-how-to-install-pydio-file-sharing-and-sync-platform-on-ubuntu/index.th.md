@@ -39,19 +39,19 @@ sudo reboot
 ## ขั้นตอนที่ 2: ติดตั้งเซิร์ฟเวอร์หลอดไฟ
 ในการตั้งค่าเซิร์ฟเวอร์การแชร์ไฟล์ Pydio Secure Enterprise และวิธีการสร้างคลาวด์ส่วนตัวโอเพ่นซอร์สเราต้องตั้งค่าเซิร์ฟเวอร์ Lamp ที่ทำงานอยู่ก่อน หากคุณได้ติดตั้งและใช้งานสแต็กหลอดไฟให้ข้ามขั้นตอนนี้ใช้คำสั่งต่อไปนี้เพื่อตั้งค่าหลอดไฟบนระบบ Ubuntu ของคุณ
 
-### ติดตั้ง PHP
+## # ติดตั้ง PHP
 คุณสามารถติดตั้ง PHP บนระบบ Ubuntu หรือ Debian ของคุณได้โดยเรียกใช้คำสั่ง:
 sudo apt-get ติดตั้ง python-software-preperties
 Sudo Add-Apt-repository PPA: ondrej/php
 sudo apt-get ติดตั้ง -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### ติดตั้ง apache2
+## # ติดตั้ง apache2
 Apache เป็นซอฟต์แวร์เว็บเซิร์ฟเวอร์โอเพนซอร์ซที่ใช้กันอย่างแพร่หลาย ถัดไปติดตั้ง Apache Web Server บน Ubuntu โดยเรียกใช้:
 sudo apt-get ติดตั้ง -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### ติดตั้ง mysql
+## # ติดตั้ง mysql
 ระบบการจัดการฐานข้อมูลเชิงสัมพันธ์ของ MySQL Open-Source เป็นส่วนประกอบของซอฟต์แวร์แอปพลิเคชันเว็บแอปพลิเคชัน LAMP และอื่น ๆ ตอนนี้การติดตั้ง MySQL บน Ubuntu โดยทำงานด้านล่าง:
 sudo apt-get ติดตั้ง -y mysql-server php-mysql
 {{_LINE_42_}}

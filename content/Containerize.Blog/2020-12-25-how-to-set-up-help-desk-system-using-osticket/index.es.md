@@ -24,14 +24,14 @@ Osticket proporciona un panel de control fácil de usar y un componente de infor
 
 ## pros y contras de Osticket   {#Pros}
 
-#### Pros
+## ## Pros
   * Osticket es extremadamente fácil de usar tanto para los usuarios finales como para los agentes de soporte.
   * Bundido con características ricas, Osticket tiene todo lo que necesitas sin ser demasiado complicado.
   * Osticket es un software de administración de boletos de código abierto y completamente gratuito.
   * Es liviano, seguro, confiable y fácil de instalar software de administración de la mesa de ayuda.
   * Es flexible ejecutarse en todos los servidores web populares, incluidos Apache, Nginx, Lighttpd e IIS, etc.
 
-#### Contras
+## ## Contras
   * Osticket no proporciona detalles de análisis de boletos y estadísticas como otros sistemas de mesa de ayuda pagas.
   * Su interfaz de usuario es muy simple y básica en comparación con otros sistemas de soporte.
 

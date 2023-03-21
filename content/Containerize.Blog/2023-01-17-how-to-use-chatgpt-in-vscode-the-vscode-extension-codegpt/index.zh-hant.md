@@ -9,7 +9,7 @@ url: /zh-hant/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**本文將為VSCODE介紹CHATGPT。 OpenAI代碼生成器代碼GPT基於開源人工智能驅動的GPT-3型號。**
+## **本文將為VSCODE介紹CHATGPT。 OpenAI代碼生成器代碼GPT基於開源人工智能驅動的GPT-3型號。**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="VSCODE擴展代碼GPT">}}
 
@@ -23,10 +23,10 @@ categories: ['Artificial intelligence']
   *[**檢索OpenAI API鍵並配置代碼GPT**][9]
   *[**開始使用代碼GPT  -  AI驅動的OpenAI Code Generator**][10]
 
-##什麼是代碼GPT？   {#什麼is-codegpt}
+## 什麼是代碼GPT？   {#什麼is-codegpt}
 [代碼GPT][3]是一個 **Visual Studio代碼擴展** ，可讓您從編輯器中的純文本生成代碼段。此 **OpenAI代碼生成器** 基於OpenAI API來處理和生成自然語言的響應。但是，代碼GPT建立在GPT-3的頂部，該模型是預培訓的模型，因此GPT-3對代碼GPT的每個請求都進行了處理，並且該模型足夠聰明，可以採用多種情況。此外，此 **VSCODE擴展** 可讓您折射和改進代碼片段以及代碼生成。實際上，整個環境使您確切地感覺到您在Visual Studio代碼編輯器中使用[ChatGpt][11]。
 
-##如何安裝VSCODE擴展代碼GPT？   {#操作式安裝 -  vscode-extension-codgpt}
+## 如何安裝VSCODE擴展代碼GPT？   {#操作式安裝 -  vscode-extension-codgpt}
 在本節中，我們將詳細介紹 **VSCODE擴展代碼GPT。** 為此，請確保您已經在計算機上安裝了Visual Studio代碼。您可以輕鬆地從 **[vscode Marketplace][12]** 安裝此擴展程序。
 打開VSCODE編輯器，進入“擴展”，然後將代碼GPT鍵入搜索欄。名稱Codegpt將有許多擴展程序，但您必須安裝擴展名，如下圖所示：
 
@@ -34,7 +34,7 @@ categories: ['Artificial intelligence']
 
 如果您遇到兼容性錯誤，請將VSCODE更新為最新版本。此外，這種VSCODE擴展在一致的發展之下，因此無法省略異常行為的機會。
 
-##檢索OpenAI API鍵＆配置代碼gpt   {#retirevie-openai-api-key-key-configure-coddpt-}
+## 檢索OpenAI API鍵＆配置代碼gpt   {#retirevie-openai-api-key-key-configure-coddpt-}
 安裝完成後，下一步是從OpenAI [網站][13]中獲取API密鑰。您需要此API鍵來啟用**代碼GPT擴展**的功能。要獲取API，請訪問此[鏈接][13]，並創建一個帳戶，如果未創建。
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="OEPNAI API">}}
@@ -48,7 +48,7 @@ categories: ['Artificial intelligence']
 
 一旦成功完成，您最終將在Visual Studio代碼中安裝**代碼GPT擴展**。在下一部分中，我們將進一步探討此VSCODE擴展程序提供的功能。
 
-##開始使用代碼GPT  -  AI驅動的OpenAI Code Generator   {#start-using-used-codegpt ---- an-ai-Powered-openai-code-enerator}
+## 開始使用代碼GPT  -  AI驅動的OpenAI Code Generator   {#start-using-used-codegpt ---- an-ai-Powered-openai-code-enerator}
 到目前為止，我們已經在Visual Studio代碼中設置了代碼GPT擴展名。要利用此 **vscode擴展代碼GPT** ，請按“命令+shift+p”選擇“ ask codegpt”，然後在輸入字段中寫下您的問題，例如“ html中的輸入元素的代碼”，您將獲得該問題側欄中的響應如下圖所示：
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="vscode的chatgpt">}}
@@ -66,7 +66,7 @@ categories: ['Artificial intelligence']
 ## 問一個問題
 您可以在我們的[論壇][17]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **代碼GPT是用什麼？**
 [代碼GPT][3]是基於人工智能的代碼生成和優化擴展。這是建立在由OpenAI驅動的開源GPT-3之上的。有關更多詳細信息，請訪問此鏈接。
 **如何將代碼GPT與VSCODE集成？**

@@ -28,35 +28,35 @@ Esses sistemas de gerenciamento de configuração oferecem utilitários para man
 ## **5 Top 5 de código aberto Melhor software CMDB**    {#TOP}
 Nesta seção, exploraremos o software de banco de dados de gerenciamento de configuração com melhor classificação.
 
-### Ralph
+## # Ralph
 [Ralph][2] é um software de gerenciamento de recursos gratuito de código aberto. É uma plataforma cruzada e apresenta recursos de auto-hospedagem. É altamente extensível e fornece API REST para integrações de terceiros. Em seguida, há suporte completo para data centers e infraestrutura de TI do Office. No entanto, esse software de rastreamento de ativos em tempo real é escrito no Python e vem com documentação abrangente sobre desenvolvimento e implantação. Portanto, todo o código -fonte está disponível no [Github][9].
 Ralph fornece os seguintes recursos importantes
   * Visualização DC integrada
   * Acompanhamento de bens
   * Leve
 
-### snipe-it
+## # snipe-it
 [Snipe-it][3] é outro software de código aberto que fornece rastreamento de ativos e configurações. Esta plataforma de gerenciamento de recursos é suportada pela AWS. É altamente seguro e fornece opções de login usando autenticação de dois fatores e suporte SAML. Também é auto-hospedado e fácil de configurar. Esta solução CMDB está gravada no PHP e todo o código -fonte está disponível no [GitHub][10].
 A seguir estão os principais recursos do snipe-it
   * Interface repouso
   * Integração com Slack e LDAP
   * Opções de importação/exportação
 
-### Foreman
+## # Foreman
 [Foreman][11] é outra ferramenta de código aberto para gerenciar servidores físicos e virtuais. É altamente personalizável e fornece uma API REST para criar as funcionalidades necessárias. Além disso, há suporte completo para gerenciar configurações, implantações de aplicativos, alteração nas configurações e administradores do sistema podem obter relatórios detalhados. É auto-hospedado e todo o código-fonte está disponível no [GitHub][12].
 Forman oferece os seguintes recursos principais
   * Fácil de configurar
   * Relatórios e monitoramento
   * Arquitetura do plug -in
 
-### racktables
+## # racktables
 [RackTables][13] é um sistema de gerenciamento de ativos de código aberto para data centers, salas de servidores. Ele também fornece suporte para gerenciar endereços de rede, configurações de rede, configurações de balanceamento de carga e outros equipamentos de hardware. Além disso, permite que os usuários criem permissões, marcação de usuário e documentação de firewalls.
 RackTables fornece os seguintes recursos proeminentes
   * Gerenciamento de arquivos
   * Auto-hospedado
   * Gerenciamento de portas físicas
 
-### eu topo
+## # eu topo
 [Portal de operações de TI][14] é uma solução gratuita que fornece uma solução CMDB, sistema helpdesk e uma ferramenta de gerenciamento de documentos. Oferece ricas opções de importação e exportação.
 O ITOP oferece recursos importantes
   * Análise de impacto automático

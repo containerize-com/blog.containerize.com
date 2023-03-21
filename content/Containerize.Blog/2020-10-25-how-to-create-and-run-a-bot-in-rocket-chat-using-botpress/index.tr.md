@@ -22,13 +22,13 @@ Bu makalede, botpress kullanarak nasıl bot oluşturacağınız konusunda size r
   * [Botpress kullanarak botunuzu kodlayın][4]
   * [Sonuç][5]
 
-### Rocket.chat   {#Rockchat}
+## # Rocket.chat   {#Rockchat}
 Rocket.chat, popüler canlı sohbet yazılımı kısmen açık kaynaklı bir canlı sohbet projesi arasında. Topluluk baskısı olarak ücretsiz canlı sohbet sürümü vardır. Ayrıca, özel dahili sohbet özelliklerine sahip büyük şirketler için ücretli bir canlı sohbet sürümü. Bu canlı sohbet uygulaması tarayıcıda çalışır, ancak kendi sunucunuza da yüklenebilir. [Devamını oku][6]
 
-### Botpress   {#botpress}
+## # Botpress   {#botpress}
 Konuşma sohbet botları, işletmelerin müşterilerine istedikleri her zaman mevcut yüksek dokunmatik desteği vermelerini mümkün kıldı. Botpress, yerleşik doğal dil işlemeye sahip en popüler açık kaynak bot oluşturma araclarından biridir. Botpress’in NLU teknolojisi, Botkit, Dialogflow ve Microsoft Bot Framework gibi sahadaki rakiplerinden bir adım önde. [Devamını oku][7]
 
-### Rocket.chat   {#CreateBotuser}
+## # Rocket.chat   {#CreateBotuser}
 Chatbot'unuzla konuşmak için botun giriş yapabileceği roket.chat sunucusunda önceden yapılandırılmış bir kullanıcı hesabı olmalıdır.
 Hesabı oluşturmak için yönetici ayrıcalıklarına sahip olmanız gerekir:
   1. Topbar'da üç noktayı (seçenekleri) tıklayın ve ardından **Yönetim**  tıklayın.
@@ -42,7 +42,7 @@ Hesabı oluşturmak için yönetici ayrıcalıklarına sahip olmanız gerekir:
   9. _save_'i tıklayın
 Kaydettikten sonra bot, 4. adımda ayarlanan kullanıcı adı ve şifre ile yapılandırılacaktır. Rocket.chat sunucusuna bu kullanıcı adı ve şifre çifti ile giriş yapmak için “Rockchat \ _user” ve “Rockketchat \ _Password” çevresel değişkenleri kullanabilirsiniz.
 
-### Botpress kullanarak botunuzu kodlayın   {#codeBot}
+## # Botpress kullanarak botunuzu kodlayın   {#codeBot}
 Botpress bir Node.js paketidir ve düğüm ve NPM ile çalışır.
 Botpress ile başlamanın en hızlı yolu, [botpress-kanal konnektörü][9] aracılığıyla zaten roketle entegre edilmiş [Botpress-vur-starter][8] depo kullanmaktır [9].
 Bot ile çalışmak istediğiniz klasöre gidin ve aşağıdaki adımlara devam edin:
@@ -133,7 +133,7 @@ npm start
 **botunuzla konuş** 
 Sunucuda, normal bir kullanıcı olarak (bot kullanıcısı değil) giriş yapın, genel odaya gidin ve yeni oluşturulan botunuzla konuşun.
 
-### Sonuç   {#Conclusion}
+## # Sonuç   {#Conclusion}
 Bu makalede, Botpress'te bir bot oluşturmayı öğrendik. Ve rocket.chat ile nasıl yapılandırılır. Botpress, kullanıcıların yenilikçi otomatik iş akışları oluşturmasını çok kolaylaştırır. Ve Rocket.Chat ile entegrasyon, bunları konuşma bir şekilde kontrol etmenizi sağlar.
 
   

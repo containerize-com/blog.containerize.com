@@ -39,19 +39,19 @@ sudo reboot
 ## Étape 2: Installez le serveur de lampe
 Pour configurer le serveur de partage de fichiers Enterprise Secure Enterprise Secure et comment créer un cloud privé open source, nous devons d'abord configurer un serveur LAMP en cours d'exécution. Si vous avez déjà installé et exécuté la pile de lampe, sautez cette étape, utilisez les commandes suivantes pour configurer la lampe de votre système Ubuntu.
 
-### Installer PHP
+## # Installer PHP
 Vous pouvez installer PHP sur votre système Ubuntu ou Debian en exécutant des commandes:
 sudo apt-get install python-lowware-properties
 sudo add-apt-repository ppa: ondrej / php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### Installer Apache2
+## # Installer Apache2
 Apache est le logiciel de serveur Web open-source le plus utilisé. Ensuite, installez le serveur Web Apache sur Ubuntu en exécutant:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Installer MySQL
+## # Installer MySQL
 Le système de gestion de la base de données relationnel de la base de données relationnelle MySQL est un composant de la pile de logiciels d'application Web LAMP et autres. Installez maintenant MySQL sur Ubuntu en fonctionnant ci-dessous:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

@@ -31,19 +31,19 @@ Trong hướng dẫn plugin WordPress này, chúng tôi sẽ học cách tạo p
 ## Cơ bản về phát triển plugin   {#Basics}
 Hãy để một chút thời gian để nói về một số khía cạnh chính của phát triển plugin. Một sự hiểu biết vững chắc về cách các khái niệm này hoạt động sẽ giúp bạn xây dựng chức năng dễ sử dụng và duy trì.
 
-### Hành động
+## # Hành động
 * * móc hành động**là một công cụ rất hữu ích trong**WordPress****plugin**và chúng được sử dụng để thực hiện các chức năng (**hành động**) ở những nơi cụ thể của một chủ đề hoặc plugin. WordPress có hàng tá hành động được xác định trong toàn bộ chức năng cốt lõi của nó, mỗi hành động bao gồm một tên duy nhất. Để biết thêm chi tiết [đọc][5].
 
-### Bộ lọc
+## # Bộ lọc
 Bộ lọc WordPress là một móc chấp nhận một biến (hoặc loạt biến) và trả lại chúng sau khi chúng đã được sửa đổi. Các bộ lọc này thường được sử dụng để bạn có cách điều khiển thông tin mặc định. Để biết thêm chi tiết [đọc][6].
 
-### Mã ngắn
+## # Mã ngắn
 Shortcodes là macro có thể được sử dụng để thực hiện các tương tác động với nội dung. I.E Tạo một bộ sưu tập từ các hình ảnh được gắn vào bài đăng hoặc hiển thị một video. Kết quả là, chúng là một cách có giá trị để giữ cho nội dung sạch sẽ và ngữ nghĩa trong khi cho phép người dùng cuối có khả năng lập trình thay đổi cách trình bày nội dung của họ. Để biết thêm chi tiết [đọc][7].
 
-### Widgets
+## # Widgets
 Các tiện ích rất quan trọng vì chúng cung cấp cho bạn một phương tiện khác để thực hiện mã plugin của bạn trong khi cung cấp giao diện dễ sử dụng. Vì hầu hết các chủ đề sẽ hỗ trợ một hoặc nhiều thanh bên; Thêm các tiện ích của riêng bạn sẽ cho phép bạn truy cập nhanh để hiển thị thông tin của bạn bên trong chủ đề.
 
-##**Cách tạo plugin WP?** {#Create}
+## **Cách tạo plugin WP?** {#Create}
 Trong phần này của hướng dẫn plugin WordPress, tất cả những gì bạn cần làm là tạo một thư mục và sau đó tạo một tệp duy nhất với một dòng nội dung. Điều hướng đến thư mục**WP-Content/Plugin**và tạo một thư mục mới có tên**MyTestPlugin**. Bên trong thư mục mới này, hãy tạo một tệp có tên**mytestplugin.php**. Mở tệp trong trình soạn thảo văn bản và dán các thông tin sau trong đó:
 ```
 <?php
@@ -62,7 +62,7 @@ Trong phần này của hướng dẫn plugin WordPress, tất cả những gì 
 Bây giờ, bạn có thể đi vào phần cuối để kích hoạt plugin của bạn. Đó là tất cả, mặc dù plugin này không làm gì cả. Nhưng, nó là một plugin hoạt động, hoạt động. Thực tiễn tốt nhất khi phát triển một plugin là tách biệt mã của bạn thành các tệp và thư mục phù hợp.
 Để chứng minh, hãy để thêm chức năng cho plugin thử nghiệm của chúng tôi theo dõi mức độ phổ biến của các bài viết của chúng tôi bằng cách lưu trữ số lần mỗi bài đăng đã được xem.
 
-### Lượt xem trang
+## # Lượt xem trang
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ Cho đến nay, rất tốt trong hướng dẫn plugin WordPress này. Nhưng c
 add_action("wp_head", "add_page_views");
 ```
 
-### Hiển thị chế độ xem trang
+## # Hiển thị chế độ xem trang
 Bây giờ chúng tôi sẽ tạo một chức năng khác trả về các chế độ xem trang mà chúng tôi đã lưu trữ trong hàm trên. Hãy để một cái nhìn vào mã:
 ```
 function get_page_views() {

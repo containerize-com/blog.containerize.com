@@ -14,7 +14,7 @@ categories: ['DevOps', 'Software Development']
 {{< figure align=center src="images/KubernetesVsDocker.png" alt="Kubernetes vs Docker">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Jeśli chodzi o technologie kontenerów, dwie nazwy Kubernetes i Docker pojawiają się jako liderzy open source. Wiele osób chce wiedzieć, która opcja technologii kontenerów jest lepsza w branży przetwarzania w chmurze. Co to jest **Kubernetes vs Docker  ****  Tutorial  **Debata jest powszechna w świecie konteneralizacji. Chociaż większość ludzi lubi porównywać Kubernetes i Docker, aby skutecznie zarządzać aplikacją kontenerową. Te dwie potężne technologie kontenerów nie są wymienne i nie można wybrać jednego z drugiej. **  Docker vs Kubernetes  **to zasadniczo dyskretne technologie kontenerów, które mogą doskonale uzupełniać się przy automatyzacji, tworzeniu, dostarczaniu, zarządzaniu i skalowaniu aplikacji kontenerowych. W rzeczywistości najlepszym tematem porównawczym byłby**   Kubernetes vs Docker Swarm**.
 W tym artykule wyjaśniono różnicę fundamentów między Docker i Kubernetes Technologies oraz wyjaśnia różnice Docker i Kubernetes, abyś mógł być pewny poruszania się w szybko rozwijającej się platformie kontenerowej. Zapoznajmy się z niesamowitymi i najpopularniejszymi technologiami Kubernetes vs Docker Containt Technologies. Aby to zrobić, ważne jest, aby zacząć od podstawowej technologii, która je łączy: pojemniki.
   * Co to jest pojemnik?

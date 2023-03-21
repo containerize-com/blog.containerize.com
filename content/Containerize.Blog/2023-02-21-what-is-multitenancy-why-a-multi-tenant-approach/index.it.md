@@ -14,7 +14,7 @@ categories: ['Programming']
 {{< figure align=center src="images/What-is-Multitenancy-Why-a-multi-tenant-Approach.png" alt="What is Multitenancy? ">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro post sul blog nella categoria [programmazione][1]. Discuteremo di un'architettura di applicazioni multi-tenant. In effetti, [containerize.com][2] ha una vasta gamma di app multi-tenant nel suo stack di prodotti open source. Le applicazioni multi-tenant open source includono [Form.io][3], [Botpress][4] e altro ancora. Inoltre, è disponibile [documentazione][5] per quanto riguarda l'architettura, la distribuzione, lo sviluppo e l'utilizzo di questi software open source. Il motivo alla base della scrittura di questo articolo è quello di comprendere il concetto alla base della multi-tenancy nello sviluppo del software. Quindi, scopriamo  **cos'è la multitenancy?**  Attraverseremo anche i pro e i contro della multitenancy e l'architettura a tenant multi-tenant vs singolo.
 I seguenti punti saranno discussi in questo post:
   * [Cos'è la multitenancy? Multi-tenant vs single-tenant][6]

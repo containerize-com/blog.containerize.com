@@ -32,7 +32,7 @@ Trong thời gian gần đây, các tổ chức có xu hướng áp dụng các 
 ## TOP 3 Phần mềm Trao đổi video nguồn mở   {#top}
 Có nhiều hệ thống hội nghị web nguồn mở có sẵn. Vì vậy, hãy để xem những cái phổ biến nhất:
 
-#### Jitsi gặp nhau
+## ## Jitsi gặp nhau
 [JITSI Meet][5] là một phần mềm cộng tác video nguồn mở với nhiều công cụ cộng tác video. Nó rất an toàn và đi kèm với khả năng mã hóa. Hơn nữa, phần mềm cuộc họp nguồn mở**này sử dụng cầu video phần mềm dựa trên WEBRTC cho các hội nghị video độ nét cao. Công cụ miễn phí này rất dễ thiết lập và có thể định cấu hình với các ứng dụng của bên thứ ba. Ngoài ra, những người tham gia có thể trò chuyện với nhau trong cuộc gọi và có thể mời các thành viên tiếp theo bằng cách chia sẻ một liên kết với họ. Tuy nhiên, ứng dụng gọi video này được viết bằng JavaScript và tất cả các tài liệu có sẵn liên quan đến phát triển và triển khai. Do đó, các nhà phát triển có thể tìm thấy mã nguồn của nó trên [GitHub][6]. Nó có các tính năng chính sau:
   * Hội nghị video đa đảng
   * Hỗ trợ cho etherpad
@@ -40,7 +40,7 @@ Có nhiều hệ thống hội nghị web nguồn mở có sẵn. Vì vậy, hã
   * Tương thích WEBRTC
   * Mã hóa video/âm thanh
 
-#### BIGBLUEBUTTON
+## ## BIGBLUEBUTTON
 . [9], và một số khác. Giống như các ứng dụng cuộc họp video**khác**, nó an toàn và đi kèm với khả năng tự lưu trữ. Ngoài ra, nó cung cấp một giao diện rất logic mà người dùng có thể điều hướng dễ dàng. Tuy nhiên, ứng dụng gọi video này được viết bằng JavaScript cùng với đầu vào của các ngôn ngữ khác như Java, HTML5, Scala Ruby, Groovy và CSS và tất cả các tài liệu có sẵn về phát triển và triển khai. Do đó, các nhà phát triển có thể tìm thấy mã nguồn của nó trên [GitHub][10]. Các tính năng chính sau bao gồm:
   * Bảng trắng nhiều người dùng
   * Trò chuyện thời gian thực
@@ -49,7 +49,7 @@ Có nhiều hệ thống hội nghị web nguồn mở có sẵn. Vì vậy, hã
   * Hỗ trợ phần mềm của bên thứ ba (ví dụ: WordPress)
   * Âm thanh HD
 
-#### OpenVidu
+## ## OpenVidu
 Tương tự, [OpenVidu][11] là một phần mềm cộng tác video nguồn mở khác****cung cấp các tính năng và công cụ để hội nghị truyền hình từ xa. Kiến trúc của nó bao gồm hai lớp. Đầu tiên là trình duyệt OpenVidu là thư viện phía máy khách và một thư viện còn lại là máy chủ OpenVidu là thư viện phụ trợ. Thật dễ dàng để thiết lập và cung cấp hình ảnh Docker để triển khai và phát triển dễ dàng. Tuy nhiên, ứng dụng cuộc gọi video**nhóm**này được viết bằng JavaScript và tất cả các tài liệu có sẵn liên quan đến phát triển và triển khai. Do đó, các nhà phát triển có thể tìm thấy mã nguồn của nó trên [GitHub][12]. Một số tính năng nổi bật là:
   * Tương thích WEBRTC
   * Chia sẻ màn hình

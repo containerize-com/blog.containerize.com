@@ -18,34 +18,34 @@ categories: ['Social Network Platforms']
 İşletmeniz için kendi kendine barındırılan bir sosyal ağa sahip olmakla ilgili birçok şeyi kapsayacağımız başka bir yepyeni makaleye hoş geldiniz. Geçmişte, çok çeşitli açık kaynaklı ürünler hakkında birçok blog yazısı yayınladık. Bu nedenle, bu makale açık kaynaklı sosyal ağa eklenen yönleri de hedefleyecektir. Açık kaynak topluluğu, daha büyük ve küçük ölçekte çalışan kuruluşlara çok çeşitli özellikler sunan birçok **sosyal ağ uygulaması**  geliştirmiştir. Buna ek olarak, çalışanlar için ortak bir altyapı oluştururken kaçınılmaz olan birçok önemli husus da vardır.
 Öte yandan, çevrimiçi işletmeler kontrol, güvenlik ve verimlilik uğruna kendi sosyal ağlarını oluşturmaya başladılar. İşletmeniz için veri şifrelemesi, bilgi paylaşımı, veri bilgileri, kaynak etkileşimleri ve daha fazlası gibi kendi kendine barındırılan sosyal ağ yazılımına gitmek için birçok neden vardır. Bu blog yazısında, sosyal ağ için iyi bir açık kaynak uygulamasına sahip olmanın artılarını inceleyeceğiz.
 
-#### Fikirleri ve Kaynakları Paylaşın
+## ## Fikirleri ve Kaynakları Paylaşın
 Büyük organizasyonlarda, daha fazla çözüm keşfetmek için beyin fırtınası oturumlarına sahip olmak çok hayati önem taşıyor. Fırsatları ve tehditleri ele almak için bir sayfadaki her varlığı getirmek için farklı araçlar ve teknikler vardır. **Sosyal Ağ Uygulamalarının  **ortaya çıkmasıyla, düşüncelerinizi ve bulgularınızı**   açık kaynaklı bir sosyal ağ kullanan herkesle paylaşmak kolay ve etkili hale geldi. Ayrıca, kullanıcılar belgeleri, video, ses veya diğer herhangi bir dosya biçimini tek bir tıklamayla paylaşabilir. Takım arkadaşları bu gönderiye tepki verebilir veya herhangi bir yorum bırakabilirler.
 
-#### Odaklanmış İçerik
+## ## Odaklanmış İçerik
 Bulguları ve kaynakları paylaşırken, **Enterprise Social Software** , vurgulanan içeriği iyi okunabilen bir şekilde detaylandırmak için ekleme olanağı sağlar. Bazen zorlaşan uzun belgeler yayınlama hükmü sunan birçok kendi kendine barındırılan sosyal ağ vardır. Bu nedenle, kullanıcılar bu belgedeki en önemli ve kritik metni vurgulayabilir. Her şeyden önce, kullanıcılar bir videodaki belirli bir bölümden bahsedebilir ve seçilen bölümün bağlantısını diğer üyelerle paylaşabilir.
 
-#### İş Akışı Otomasyonu
+## ## İş Akışı Otomasyonu
 **Kendine Barındırılan Sosyal Ağın**  başka bir güzelliği rutin görevlerin otomasyonudur. İşlet BT yöneticileri, çalışan yapraklarını, performans incelemelerini, toplantıların tutanaklarını ve daha fazlasını otomatikleştirmek için bu ücretsiz araçları dağıtabilir. Paylaşılan bir alanda, herkes devam eden ekip performanslarını ve yönetim rollerini görüntüleyebilir ve analiz edebilir. İşletme paydaşları, tüm döngüyü izlemek için faaliyetleri baştan sona izleyebilir.
 
-#### Etkinlik Akışı
+## ## Etkinlik Akışı
 Bu, Enterprise Social Software tarafından sağlanan bir diğer önemli özelliktir. Büyük ölçekte çalışan işletmeler her zaman iş operasyonlarının şeffaflığını ve açıklığını sağlamayı amaçlamaktadır. Bu nedenle, açık kaynak **Sosyal Ağ Uygulamaları **, gösterge panelinde kullanıcıların diğer kullanıcıların etkinliklerini görebileceği bir günlük görünümü ile birlikte gelir. Ancak, gerçek zamanlı olarak bir haber beslemesi var ve  **Facebook alternatifi**   gibi geliyor.
 
-#### yapılandırılmış iletişim
+## ## yapılandırılmış iletişim
 İletişim söz konusu olduğunda, sosyal ağ uygulamaları zengin sohbet seçenekleri sunar. Ayrıca, takım arkadaşlarınızla bir grup veya bireysel sohbet kurabilirsiniz. Açık kaynaklı sosyal ağlar, emojiler, ekler ve vb. Ayrıca, katılımcılar sohbetlerin görünürlüğünü kamudan özel olarak değiştirebilir.
 
-#### Uzaktan Bağımlamalar
+## ## Uzaktan Bağımlamalar
 Mevcut zaman noktasında, uzak model birçok kuruluş tarafından benimsenen en yaygın kullanılan çalışma modelidir. Ancak **, kendi kendine barındırılan sosyal ağlar **, katılımcıların konferans görüşmeleri yapabileceği tam bir video ve ses çağrısı modülü ile birlikte gelir. Ayrıca, katılımcılar bağlantıyı onlarla paylaşarak konuşmalara başka kullanıcılar ekleyebilir. Bu nedenle, GIF'lerin, emojilerin ve tepkilerin desteğiyle iletişim eğlencelidir.
 
-#### Veri Toplama ve Şifreleme
+## ## Veri Toplama ve Şifreleme
 Veri güvenliği, herhangi bir yazılımın en kritik yönüdür. Neyse ki, açık kaynaklı topluluk o kadar canlı ve canlı hale geldi ki, açık kaynaklı yazılım eskisinden çok daha güvenli. Bu nedenle, **Sosyal Ağ Uygulamaları**  Kullanıcıların herhangi bir güvenlik ihlali konusunda endişelenmeden verimli bir şekilde çalışmasına yardımcı olan veri akışlarını güvence altına almak için en son veri şifreleme tekniklerini kullanın.
 
-#### Anında Yoklama
+## ## Anında Yoklama
 Kendi sosyal ağınızı tıpkı bir Facebook alternatifi olarak çalıştırabilirsiniz. Açık kaynaklı sosyal uygulamalar, büyük sosyal medya platformlarının sunduğu gibi neredeyse tüm özellikleri sunar. Bu nedenle, kullanıcılar gerekli bilgileri arkadaşlarının görüşleri şeklinde toplayabilecekleri anketler oluşturabilirler.
 
-#### Arama Özellikleri
+## ## Arama Özellikleri
 Belirli bilgileri bulmak için büyük belgelerde gezinmek bir güçlüktür. Bu nedenle, kendi kendine barındırılan bir sosyal ağ, kullanıcıların büyük bir belgede tek bir çalışma bile bulabileceği zengin küresel arama seçenekleri sunar.
 
-#### Tüm uygulamalar tek bir yerde
+## ## Tüm uygulamalar tek bir yerde
 Açık kaynaklı bir yazılımın en iyi özelliği genişletilebilirliğidir. **Kurumsal Sosyal Yazılım** , geliştiricilerin üçüncü taraf uygulamalarını sorunsuz bir şekilde entegre edebilecek kadar genişletilebilir.
 
 ## Çözüm

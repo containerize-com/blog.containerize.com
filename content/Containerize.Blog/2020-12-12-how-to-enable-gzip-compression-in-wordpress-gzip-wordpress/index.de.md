@@ -43,7 +43,7 @@ Dort sehen Sie, ob die Gzip -Komprimierung aktiviert ist oder nicht.
 ## Aktivieren Sie die GZIP -Komprimierung in WordPress   {#Enable}
 Wenn Sie festgestellt haben, dass **WordPress -GZIP -Komprimierung noch nicht aktiviert ist** , können Sie mehrere Methoden verwenden, um sie zum Laufen zu bringen. Der einfachste Weg ist die Verwendung einiger WordPress -Plugins wie [WP Rocket][6], [WP Super Cache][7] oder [W3 Total Cache][8]. Sie können dies jedoch manuell auf Serverebene entweder nach .htaccess -Datei oder durch Aktualisierung Ihrer Nginx -Konfiguration tun.
 
-### Durch Bearbeitung von .htaccess -Datei
+## # Durch Bearbeitung von .htaccess -Datei
 Eine der häufigsten Möglichkeiten, um die WordPress -GZIP -Komprimierung zu aktivieren, besteht darin, Ihre _.htaccess_ -Datei ** zu bearbeiten. Dies beinhaltet jedoch das Risiko, etwas zu brechen. Dies ist eine sensible Serverdatei, und eine falsche Bewegung kann viele Probleme verursachen.
 Um das Risiko zu verringern, speichern Sie eine Kopie der Originaldatei **, bevor Sie Änderungen vornehmen. Die Datei _.htaccess_ sollte sich in dem **Root -Ordner Ihrer Website**  befinden. Nachdem Sie _.htaccess_ geöffnet haben, fügen Sie den folgenden Code unter den Abschnitten hinzu, die von den Tags "# begin WordPress" und "# end WordPress" gekennzeichnet sind
 ```

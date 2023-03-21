@@ -14,7 +14,7 @@ Il plugin ## WordPress è un modulo che attivi sul tuo sito Web per fornire una 
 {{< figure align=center src="images/Screenshot-2020-11-13-at-6.08.54-PM-1024x537.png" alt="Tutorial del plug -in WordPress">}}
 
 
-Panoramica ##
+Panoramica ## 
 WordPress è una piattaforma di blogging open source a livello aziendale. Un plug -in**WordPress**è un set di codice autonomo che migliora ed estende la funzionalità di WordPress. Usando qualsiasi combinazione di PHP, HTML, CSS, JavaScript/JQuery. Un plug -in può aggiungere nuove funzionalità a qualsiasi parte del tuo sito Web.
 La funzionalità che puoi aggiungere al tuo sito Web dipende da ciò che ogni plug -in specifico è stato creato per fare. Un plug -in WordPress può essere sviluppato per fare qualsiasi cosa. Da un piccolo compito a un'applicazione a pieno titolo che esegue una serie di operazioni e ha le sue interfacce. I plugin sono diversi dal tema e funzionano in modo indipendente, utilizzando ganci, filtri, cortometraggi, widget e codice personalizzato per eseguire la loro funzionalità.
 In questo tutorial del plug -in WordPress, impareremo come creare il nostro primo plug -in WordPress. Il motivo più importante per creare un plug -in è che ti consente di separare il tuo codice dal codice principale di WordPress.
@@ -31,19 +31,19 @@ Requisiti ##  {#Requirements}
 ## Basics of Plugin Development   {#Basics}
 Prendiamo un momento per parlare di alcuni aspetti chiave dello sviluppo del plugin. Una solida comprensione di come funzionano questi concetti ti aiuterà a costruire funzionalità facili da usare e mantenebili.
 
-### Azioni
+## # Azioni
 * * I ganci d'azione**sono uno strumento molto utile nel plug -in**wordpress******e vengono utilizzati per eseguire funzioni (**azioni**) in luoghi specifici di un tema o plug -in. WordPress ha dozzine di azioni definite durante la sua funzionalità principale, ogni azione costituita da un nome univoco. Per maggiori dettagli [leggi][5].
 
-Filtri ###
+Filtri ## #
 Un filtro WordPress è un gancio che accetta una variabile (o serie di variabili) e le restituisce indietro dopo che sono state modificate. Questi filtri vengono spesso utilizzati in modo da avere un modo per manipolare le informazioni predefinite. Per maggiori dettagli [leggi][6].
 
-Shortcodes ###
+Shortcodes ## #
 I codi di forza sono macro che possono essere utilizzati per eseguire interazioni dinamiche con il contenuto. cioè la creazione di una galleria da immagini allegate al post o rendendo un video. Di conseguenza, sono un modo prezioso per mantenere il contenuto pulito e semantico, consentendo agli utenti finali una certa capacità di alterare a livello di programmazione la presentazione del loro contenuto. Per maggiori dettagli [leggi][7].
 
-Widget ###
+Widget ## #
 I widget sono importanti perché ti danno un altro mezzo per eseguire il codice del plug-in fornendo al contempo un'interfaccia facile da usare. Poiché la maggior parte dei temi supporterà una o più barre laterali; L'aggiunta dei tuoi widget ti darà un rapido accesso per visualizzare le tue informazioni all'interno del tema.
 
-##**Come creare il plugin WP?** {#Create}
+## **Come creare il plugin WP?** {#Create}
 In questa sezione del tutorial del plug -in WordPress, tutto ciò che devi fare è creare una cartella e quindi creare un singolo file con una riga di contenuto. Passa alla cartella**WP-Content/Plugins**e crea una nuova cartella denominata**MytestPlugin**. All'interno di questa nuova cartella, crea un file denominato**mytestplugin.php**. Apri il file in un editor di testo e incolla le seguenti informazioni in esso:
 ```
 <?php
@@ -62,7 +62,7 @@ In questa sezione del tutorial del plug -in WordPress, tutto ciò che devi fare 
 Ora puoi andare nel back -end per attivare il plugin. È tutto, anche se questo plugin non fa nulla. Ma è un plug -in attivo e funzionante. La migliore pratica quando si sviluppa un plug -in è separare ordinatamente il codice in file e cartelle appropriate.
 Per dimostrare, aggiungiamo funzionalità al nostro plug -in di test che tiene traccia della popolarità dei nostri articoli memorizzando quante volte ogni post è stato visualizzato.
 
-### memorizzazione delle visualizzazioni della pagina
+## # memorizzazione delle visualizzazioni della pagina
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ Finora, tutto bene in questo tutorial del plug -in WordPress. Ma questa funzione
 add_action("wp_head", "add_page_views");
 ```
 
-### che mostra le visualizzazioni della pagina
+## # che mostra le visualizzazioni della pagina
 Ora creeremo un'altra funzione che restituisce le visualizzazioni di pagina che abbiamo già archiviato nella funzione sopra. Diamo un'occhiata al codice:
 ```
 function get_page_views() {

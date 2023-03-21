@@ -34,7 +34,7 @@ Sistem manajemen terjemahan mengotomatiskan tugas -tugas berulang dalam mengelol
 Bagian paling keren dari perangkat lunak manajemen terjemahan sumber terbuka adalah Anda dapat memiliki versi cloud yang memecahkan masalah yang terkait dengan skalabilitas. Oleh karena itu, Anda dapat fokus pada mengelola lokalisasi proyek Anda dan meningkatkan jangkauan konten Anda lintas batas.
 Berikut ini adalah fitur inti dari setiap sistem manajemen terjemahan (TMZ):
 
-####**API untuk integrasi pihak ketiga**
+#### **API untuk integrasi pihak ketiga**
 Level perusahaan**TMS**selalu menyediakan API yang digunakan untuk integrasi dengan aplikasi lain dan modul terjemahan seperti [i18n][5].
 
 #### Pencarian Global
@@ -73,10 +73,10 @@ Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] 
 
 ## faqs   {#faqs}
 
-####**Apakah saya memerlukan sistem manajemen terjemahan?**
+#### **Apakah saya memerlukan sistem manajemen terjemahan?**
 Ya, jika Anda berurusan dengan sejumlah besar konten yang melibatkan sumber daya statis dan dinamis. Jadi, Anda dapat meng-host open-source**perangkat lunak manajemen terjemahan**untuk mengotomatisasi dan mengelola terjemahan.
 
-####**Apa keuntungan dari TMS?**
+#### **Apa keuntungan dari TMS?**
 Silakan kunjungi [tautan][4] ini untuk mengetahui keuntungan dari sistem manajemen terjemahan.
 
 ## Lihat juga   {#See-also}

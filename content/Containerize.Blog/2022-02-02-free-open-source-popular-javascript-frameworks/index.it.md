@@ -14,7 +14,7 @@ categories: ['Software Development']
 {{< figure align=center src="images/js.png" alt="Framework JavaScript popolari">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro post sul blog nella serie di [sviluppo software][1]. In questo articolo, esploreremo i famosi framework JavaScript popolari open source più utilizzati. Come Internet è diventato un imperativo nella vita umana, JavaScript è diventato una componente indispensabile dello sviluppo del software. Ci sono alcuni fattori dovuti ai quali JavaScript open source ha guadagnato così tanta fama nella comunità dello sviluppatore. Tuttavia, potresti chiederti che ci sono molti quadri per lo sviluppo web, ma perché JavaScript sta diventando una scelta numero uno? Troveremo la risposta a questa domanda in questo post sul blog.
 I giganti del presente come [Facebook][2], [LinkedIn][3] e molti altri che sono direttamente collegati agli utenti comuni e interagiscono con tali app su base quasi giornaliera, sono fatti di JavaScript. Il motivo, Open Source Community ha sviluppato i suoi framework sia per le parti delle applicazioni di back-end che front-end. Gli sviluppatori tendono a optare per questo linguaggio open source in quanto consente loro di diventare sviluppatori di software a pieno stack. Inoltre, è disponibile un enorme supporto dalla comunità dello sviluppatore per i suoi quadri JavaScript open source. Pertanto, esploriamo i framework JavaScript più usati coprendo i seguenti punti.
   * [Angular][4]

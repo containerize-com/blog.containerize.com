@@ -70,7 +70,7 @@ Selama Anda memiliki semua server di tempat, Anda sekarang harus menemukan bahwa
 ## direktur hulu   {#upstream}
 Dalam contoh terakhir kami, kami menggunakan modul hulu sederhana untuk melakukan penyeimbangan beban round-robin untuk mendistribusikan lalu lintas secara setara di antara server. Namun, ada banyak alasan mengapa ini mungkin bukan cara yang paling efisien untuk bekerja dengan lalu lintas. Ada beberapa arahan yang dapat kami gunakan untuk mengarahkan pengunjung situs secara lebih efektif.
 
-### Berat
+## # Berat
 Salah satu cara untuk mulai mengalokasikan pengguna ke server dengan lebih presisi adalah dengan mengalokasikan bobot spesifik untuk mesin tertentu. Nginx memungkinkan kami untuk menetapkan nomor yang menentukan proporsi lalu lintas yang harus diarahkan ke setiap server.
 Pengaturan Load Balanced yang termasuk berat server bisa terlihat seperti ini:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 Berat default adalah 1. Dengan berat 2, backend2.Example akan dikirim dua kali lebih banyak lalu lintas dari backend1, dan backend3, dengan berat 4, akan menangani lalu lintas dua kali lebih banyak daripada backend2 dan empat kali lebih banyak dari backend 1.
 
-### hash
+## # hash
 IP Hash memungkinkan server untuk menanggapi klien sesuai dengan alamat IP mereka, mengirim pengunjung kembali ke VPS yang sama setiap kali mereka berkunjung (kecuali server itu turun). Jika server diketahui tidak aktif, itu harus ditandai sebagai turun. Semua IP yang seharusnya rute ke server bawah kemudian diarahkan ke yang alternatif.
 Konfigurasi di bawah ini memberikan contoh:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### MAX gagal
+## # MAX gagal
 Menurut pengaturan round-robin default, penyeimbang beban aplikasi Nginx akan terus mengirim data ke server pribadi virtual, bahkan jika server tidak menanggapi. Max gagal secara otomatis dapat mencegah hal ini dengan membuat server yang tidak responsif tidak beroperasi untuk jumlah waktu yang ditentukan.
 Ada dua faktor yang terkait dengan gagal maks: Max \ _fails dan Fall \ _Timeout. Gagal Max mengacu pada jumlah maksimum upaya gagal untuk terhubung ke server yang harus terjadi sebelum dianggap tidak aktif. Fall_Timeout menentukan panjang server dianggap tidak beroperasi. Setelah waktu berakhir, upaya baru untuk mencapai server akan dimulai lagi. Nilai batas waktu default adalah 10 detik.
 Konfigurasi sampel mungkin terlihat seperti ini:

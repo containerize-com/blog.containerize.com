@@ -22,7 +22,7 @@ Carousels don't automatically normalize slide dimensions. As such, you may need 
 
 **The `.active` class needs to be added to one of the slides** otherwise the carousel will not be visible. Also be sure to set a unique id on the `.carousel` for optional controls, especially if you're using multiple carousels on a single page. Control and indicator elements must have a `data-target` attribute (or `href` for links) that matches the id of the `.carousel` element.
 
-### Slides only
+## # Slides only
 
 Here's a carousel with slides only. Note the presence of the `.d-block` and `.w-100` on carousel images to prevent browser default image alignment.
 
@@ -43,7 +43,7 @@ Here's a carousel with slides only. Note the presence of the `.d-block` and `.w-
 {% endcapture %}
 {% include example.html content=example %}
 
-### With controls
+## # With controls
 
 Adding in the previous and next controls:
 
@@ -72,7 +72,7 @@ Adding in the previous and next controls:
 {% endcapture %}
 {% include example.html content=example %}
 
-### With indicators
+## # With indicators
 
 You can also add the indicators to the carousel, alongside the controls, too.
 
@@ -106,7 +106,7 @@ You can also add the indicators to the carousel, alongside the controls, too.
 {% endcapture %}
 {% include example.html content=example %}
 
-### With captions
+## # With captions
 
 Add captions to your slides easily with the `.carousel-caption` element within any `.carousel-item`. They can be easily hidden on smaller viewports, as shown below, with optional [display utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/display/). We hide them initially with `.d-none` and bring them back on medium-sized devices with `.d-md-block`.
 
@@ -161,7 +161,7 @@ Add captions to your slides easily with the `.carousel-caption` element within a
 </div>
 {% endhighlight %}
 
-### Crossfade
+## # Crossfade
 
 Add `.carousel-fade` to your carousel to animate slides with a fade transition instead of a slide.
 
@@ -193,13 +193,13 @@ Add `.carousel-fade` to your carousel to animate slides with a fade transition i
 
 ## Usage
 
-### Via data attributes
+## # Via data attributes
 
 Use data attributes to easily control the position of the carousel. `data-slide` accepts the keywords `prev` or `next`, which alters the slide position relative to its current position. Alternatively, use `data-slide-to` to pass a raw slide index to the carousel `data-slide-to="2"`, which shifts the slide position to a particular index beginning with `0`.
 
 The `data-ride="carousel"` attribute is used to mark a carousel as animating starting at page load. **It cannot be used in combination with (redundant and unnecessary) explicit JavaScript initialization of the same carousel.**
 
-### Via JavaScript
+## # Via JavaScript
 
 Call carousel manually with:
 
@@ -207,7 +207,7 @@ Call carousel manually with:
 $('.carousel').carousel()
 {% endhighlight %}
 
-### Options
+## # Options
 
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-interval=""`.
 
@@ -255,11 +255,11 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
   </tbody>
 </table>
 
-### Methods
+## # Methods
 
 {% include callout-danger-async-methods.md %}
 
-#### `.carousel(options)`
+## ## `.carousel(options)`
 
 Initializes the carousel with an optional options `object` and starts cycling through items.
 
@@ -269,31 +269,31 @@ $('.carousel').carousel({
 })
 {% endhighlight %}
 
-#### `.carousel('cycle')`
+## ## `.carousel('cycle')`
 
 Cycles through the carousel items from left to right.
 
-#### `.carousel('pause')`
+## ## `.carousel('pause')`
 
 Stops the carousel from cycling through items.
 
-#### `.carousel(number)`
+## ## `.carousel(number)`
 
 Cycles the carousel to a particular frame (0 based, similar to an array). **Returns to the caller before the target item has been shown** (i.e. before the `slid.bs.carousel` event occurs).
 
-#### `.carousel('prev')`
+## ## `.carousel('prev')`
 
 Cycles to the previous item. **Returns to the caller before the previous item has been shown** (i.e. before the `slid.bs.carousel` event occurs).
 
-#### `.carousel('next')`
+## ## `.carousel('next')`
 
 Cycles to the next item. **Returns to the caller before the next item has been shown** (i.e. before the `slid.bs.carousel` event occurs).
 
-#### `.carousel('dispose')`
+## ## `.carousel('dispose')`
 
 Destroys an element's carousel.
 
-### Events
+## # Events
 
 Bootstrap's carousel class exposes two events for hooking into carousel functionality. Both events have the following additional properties:
 
@@ -329,6 +329,6 @@ $('#myCarousel').on('slide.bs.carousel', function () {
 })
 {% endhighlight %}
 
-### Change transition duration
+## # Change transition duration
 
 The transition duration of `.carousel-item` can be changed with the `$carousel-transition` Sass variable before compiling or custom styles if you're using the compiled CSS. If multiple transitions are applied, make sure the transform transition is defined first (eg. `transition: transform 2s ease, opacity .5s ease-out`).

@@ -35,7 +35,7 @@ Di bagian ini, kami akan fokus pada cara menginstal Nginx, MySQL, dan PHP pada U
 $ sudo apt update
 ```
 
-### Menginstal server web nginx
+## # Menginstal server web nginx
   *Jalankan perintah di bawah ini untuk **Instal Nginx di Ubuntu** .
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Halaman default server web nginx">}}
 
 
-### Menginstal MySQL
+## # Menginstal MySQL
 Sekarang, Anda perlu menginstal server database MySQL untuk pengelolaan data aplikasi Anda.
   *Jalankan perintah di bawah ini untuk **Instal MySQL di Ubuntu** .
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### Memasang PHP
+## # Memasang PHP
 Kami akan mencakup pemasangan PHP-FPM untuk pemrosesan PHP. PHP-FPM adalah singkatan dari FastCGI Process Manager. Nginx Web Server tidak memiliki fungsionalitas builtin untuk pemrosesan PHP jadi, kami akan menggunakan PHP-FPM untuk itu. Selain itu, kami akan menginstal PHP-MYSQL untuk mengkomunikasikan PHP dengan MySQL untuk manajemen data.
   *Jalankan perintah di bawah ini untuk **Instal PHP di Ubuntu** .
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### Tes PHP
+## # Tes PHP
   * Untuk memastikan bahwa Nginx dengan benar melayani halaman PHP, kami akan membuat file PHP untuk menguji konfigurasi.
   * Buat file info.php di direktori root Nginx Web Server dengan menjalankan perintah di bawah ini.
 ```

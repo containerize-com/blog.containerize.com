@@ -24,10 +24,10 @@ Stąd więcej użytkowników**migruje z WordPress do Ghost**. Istnieje wiele tre
 * **[importuj zawartość do ducha][7]**
 * **[wniosek][8]**
 
-##**Briedf Intro of WordPress** {#WP}
+## **Briedf Intro of WordPress** {#WP}
 [WordPress][9] to wiodąca platforma blogowa typu open source, która napędzała ogromną liczbę stron internetowych. To bezpłatne oprogramowanie do blogowania jest samowystarczalne, wielojęzyczne i zapewnia obsługę wielu języków. Ponadto społeczność programistyczna WordPress jest bardzo żywa i opracowała gigantyczną pulę przydatnych wtyczek, które są łatwo dostępne. Te wtyczki dotyczą prawie każdego przypadku użycia witryny firmy. Ponadto jest napisany w PHP i ma kompleksową dokumentację dotyczącą rozwoju i wdrażania. Cały kod źródłowy jest dostępny na GitHub. Ponadto ta platforma blogowa jest wysoce rozszerzalna, konfigurowalna i zapewnia integrację z aplikacjami innych firm. Istnieje bardzo logiczna i łatwa do zrozumienia pulpit nawigacyjny, w którym użytkownicy mogą przeciągać i upuszczać elementy, aby zmodyfikować wygląd swoich stron internetowych.
 
-##**Co to jest duch? ​​** {#ghost}
+## **Co to jest duch? ​​** {#ghost}
 [Ghost][10] to kolejna popularna platforma blogowa typu open source. Jest to jedna z najczęściej używanych platform publikowania treści, które są wysoce przyjęte przez programistów i właścicieli witryn. Ponadto Ghost jest bardzo przyjazny dla SEO i ma wbudowane motywy, formularze, biuletyny e-mail i subskrypcje. To bezpłatne oprogramowanie do blogowania zostało zapisane w JavaScript, a cała dokumentacja jest dostępna w odniesieniu do rozwoju i wdrażania.
 
 ## wymagania   {#Requirements}

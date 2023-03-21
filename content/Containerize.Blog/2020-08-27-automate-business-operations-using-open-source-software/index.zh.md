@@ -86,7 +86,7 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [Botkit][49]  -  Facebook，Slack和Webchat的机器人建造者
 以上所有内容都是免费的开源实时聊天软件。这些当然是最好的实时聊天软件，并支持多个聊天以及其他现代功能。我们将在列表中添加更多的开源聊天平台。因此，请密切关注[实时聊天软件][50]部分，以获取最新更新。
 
-## **使用Form Builder **   {#forms-Builder}构建业务表格}
+## **使用Form Builder **   {#使用Form Builder}
 公司使用表格收集与客户反馈有关的数据。此外，您可以使用表格进行营销细分，调查和任何研究分析。由于这些表格是基于HTML的，因此与设备无关，可以从桌面以及智能设备访问和填充。在此类别中，Containerize.com提供了有关以下开源**形式构建者的信息：**
   * [form.io][51]  - 最佳基于Web的表单构建器，带有REST API平台用于无服务器软件
   * [ORBEON][52]  - 一个易于访问性的Web表单构建器，并支持PDF生成框

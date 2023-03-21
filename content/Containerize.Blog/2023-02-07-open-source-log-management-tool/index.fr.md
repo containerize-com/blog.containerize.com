@@ -28,7 +28,7 @@ En termes simples, un système de gestion de journal**(LMS)**est un logiciel qui
 
 De plus, l'outil de rapport d'un LMS joue un rôle clé dans l'identification des problèmes et la création de fichiers journaux en générant les index. La meilleure partie est que tout ce qui se passe via une interface de configuration fournie par le système de gestion du journal (LMS). Cependant, les administrateurs peuvent ensuite permettre aux workflows automatisés de maintenir la santé du serveur et en cours d'exécution.
 
-## Défis attachés avec la gestion du journal des événements   {# défis-attachés avec-en-époux de gestion}}
+## Défis attachés avec la gestion du journal des événements   {# défis-attachés avec-en-époux de gestion}
 En fait, il est devenu très facile de gérer certains des problèmes communs et conventionnels concernant le stockage, la vitesse et le réseau. Même s'il y a certains domaines où les administrateurs du système sont confrontés à des défis pour résoudre les problèmes suivants:
 **Volume de journaux massif:**C'est l'un des défis auxquels toute organisation peut faire face. Il devient une mission impossible à collecter et à trier d'énormes quantités de données de journal où il y a des centaines et des milliers de serveurs impliqués. Ainsi, un**Système de gestion des journaux (LMS)**propose des dispositions pour gérer les volumes de journaux massifs de manière efficace.
 **Variations du format de données:**Gestion de divers formats de données provenant de plusieurs sources n'est pas un travail facile et peut être un défi pour tout outil de journalisation et de surveillance. Étant donné que les administrateurs du système ne sont pas sûrs du format de données provenant de divers points de terminaison du système.

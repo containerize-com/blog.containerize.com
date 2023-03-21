@@ -32,7 +32,7 @@ to your `package.json` using `npm install --save jquery popper.js`.
 
 ## Importing Styles
 
-### Importing Precompiled Sass
+## # Importing Precompiled Sass
 
 To enjoy the full potential of Bootstrap and customize it to your needs, use the source files as a part of your project's bundling process.
 
@@ -70,7 +70,7 @@ For Bootstrap to compile, make sure you install and use the required loaders: [s
   ...
 {% endhighlight %}
 
-### Importing Compiled CSS
+## # Importing Compiled CSS
 
 Alternatively, you may use Bootstrap's ready-to-use CSS by simply adding this line to your project's entry point:
 

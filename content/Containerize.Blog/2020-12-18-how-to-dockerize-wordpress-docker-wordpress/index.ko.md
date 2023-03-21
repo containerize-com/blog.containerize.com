@@ -33,11 +33,11 @@ Dev Machine, Stage 또는 Live Server와 OS가 있든 Docker는 어디에서나 
 
 ## Docker Compose를 설치하는 방법   {#install}
 
-### 전제 조건
+## # 전제 조건
 Docker Compose를 사용하여 Docker 컨테이너로 제작 된 고립 된 환경에서 WordPress를 쉽게 실행할 수 있습니다. 이 안내서는 Compose를 사용하여 WordPress를 설정하는 방법을 보여줍니다.
 Docker Compose는 Docker Engine에 의존하므로 Docker Engine이 설치되어 있는지 확인하십시오. Mac 및 Windows 용 Docker Desktop과 같은 데스크탑 시스템에서 Docker Compose는 이러한 데스크탑 설치의 일부로 포함됩니다. 그러나 먼저 Linux Systems에서는 [공식 가이드][9]를 따라 Docker 엔진을 설치하십시오.
 
-### Linux에서 Compose 설치
+## # Linux에서 Compose 설치
 Docker Compose의 현재 안정적인 릴리스를 다운로드하려면이 명령을 실행하십시오.
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -51,7 +51,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-### WordPress의 dockerfile을 정의하십시오
+## # WordPress의 dockerfile을 정의하십시오
 우리가해야 할 첫 번째 일은 우리의 이미지가**_ dockerfile _**에서 어떻게 보이는지 정의하는 것입니다. 응용 프로그램 소스와 함께 디렉토리에 추가되는 텍스트 파일입니다.
 ```
 FROM wordpress:php7.1-apache

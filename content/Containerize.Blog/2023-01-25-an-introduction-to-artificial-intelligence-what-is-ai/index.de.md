@@ -31,13 +31,13 @@ Maschinelles Lernen verwendet jedoch Deep Learning, eine neuronale Netzwerkmetho
 ## Arten der künstlichen Intelligenz   {#Typen-von-Artificial-Intelligence}
 Hauptsächlich gibt es zwei Arten künstlicher Intelligenz. In diesem Abschnitt des Blog -Beitrags wird diese beiden Typen demonstriert.
 
-#### Schwache künstliche Intelligenz
+## ## Schwache künstliche Intelligenz
 Gemäß dieser Kategorie von KI sind Systeme so konzipiert, dass sie weniger komplexe Probleme lösen. Diese Systeme nehmen Eingaben auf, verarbeiten die natürlichen Sprachprozesse und geben die Ausgabe an. Obwohl diese Systeme die Reaktion basierend auf den Daten und früheren Statistiken generieren, die Probleme jedoch nicht aus ihrem Umfang verarbeiten können. Daher ist der Umfang dieser Kategorie nicht unbegrenzt. Die besten Beispiele für schwache KI sind [Apple's Siri][4] und andere von [Google][5] und [Amazon][6] entwickelte virtuelle Assistenten -Tools.
 
-#### Starke künstliche Intelligenz
+## ## Starke künstliche Intelligenz
 Starke künstliche Intelligenz bietet die genaue Simulation des menschlichen Gehirns. Künstliche allgemeine Intelligenz und künstliche Superintelligenz werden ebenfalls unter diese Kategorie eingehen. Diese Kategorie entwirft Systeme und Modelle, die die Fähigkeit enthalten, Dinge zu verarbeiten und Entscheidungen ohne menschliche Intervention zu treffen. Interaktive Roboter sind Beispiele für starke KI und selbstfahrende Autos sind auch mit Systemen angereichert, die mit riesigen Datensätzen geschult sind und in der Lage sind, Entscheidungen mit neuronalen Netzwerken zu treffen. Darüber hinaus können solche Systeme Vorhersagen auf der Grundlage ihrer früheren Erfahrungen machen.
 
-##**Anwendungen der künstlichen Intelligenz** {#Anwendungen der künstlichen Intelligenz}
+## **Anwendungen der künstlichen Intelligenz** {#Anwendungen der künstlichen Intelligenz}
 Die folgenden Punkte geben Ihnen eine Vorstellung von einigen prominenten Anwendungen künstlicher Intelligenz:
 **Spracherkennung**: Die Verarbeitung natürlicher Sprache ist der Hauptzweig der KI, der die menschliche Stimme verarbeitet und die Ausgabe in geschriebener oder einer anderen Form verleiht. Diese Funktion ist auf vielen Geräten wie Mobiltelefonen, Autos und vielem mehr verfügbar.
 **Gesichtserkennung**: Nach dieser Anwendung kann AI mehrere Gesichtsvisionen vergleichen und können eine bestimmte Gesichtsstruktur erkennen. Darüber hinaus können Sie künstliche Intelligenz verwenden, um verschiedene Sprachakzente, Handschrift, Rauschen und mehr zu entsprechen.

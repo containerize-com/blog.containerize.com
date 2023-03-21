@@ -24,14 +24,14 @@ OSTICKET fornece um painel de controle amigável e um componente de relatório e
 
 ## prós e contras do Osticket   {#Pros}
 
-#### Pros
+## ## Pros
   * OSTICKET é extremamente amigável para usuários finais e agentes de suporte.
   * Filmado com recursos ricos, o Osticket tem tudo o que você precisa sem ser excessivamente complicado.
   * Osticket é totalmente gratuito e o software de gerenciamento de ingressos de código aberto.
   * É leve, seguro, confiável e fácil de instalar software de gerenciamento de suporte técnico.
   * É flexível executar em todos os servidores populares da Web, incluindo Apache, Nginx, LightTPD e IIS, etc.
 
-#### Contras
+## ## Contras
   * OSTICKET não fornece detalhes de análise de ingressos e estatísticas, como outros sistemas de suporte técnico pago.
   * A interface do usuário é muito simples e básica quando comparada a outros sistemas de suporte.
 

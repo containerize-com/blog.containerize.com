@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms', 'Business Intelligence Software']
 {{< figure align=center src="images/Top-5-Most-Popular-Open-Source-Cryptocurrencies-To-Invest.png" alt="Top 5 tiền điện tử nguồn mở phổ biến nhất để đầu tư">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 **Tiền điện tử là gì?** Một loại tiền điện tử, tiền điện tử hoặc tiền điện tử là tiền kỹ thuật số hoặc tiền ảo có dạng mã thông báo hoặc tiền xu. Nó được bảo đảm bằng các kỹ thuật mật mã, điều này khiến cho nó gần như không thể làm giả tiền hoặc chi tiêu gấp đôi. Nhiều loại tiền điện tử tồn tại trên một mạng lưới phân tán và phi tập trung dựa trên công nghệ blockchain. Một đặc điểm quan trọng của tiền điện tử là họ thường không có cơ quan tiền tệ hoặc điều tiết trung tâm, khiến họ miễn nhiễm về mặt lý thuyết đối với sự kiểm soát hoặc thao túng của chính phủ.
 Lĩnh vực tiền điện tử đã mở rộng đáng kể kể từ **Bitcoin ** ** Vua tiền điện tử**  đã được ra mắt vào năm 2009, và loại tiền kỹ thuật số tuyệt vời tiếp theo có thể được phát hành vào ngày mai. Về mặt quản trị, là nguồn mở được coi là hoàn toàn sai đối với ý tưởng quản lý tập trung. Đó là lý do tại sao tiền điện tử phi tập trung gần như là nguồn mở.
 Với tất cả năm trong số các loại tiền điện tử dưới đây là nguồn mở, có những phát triển liên tục trong các khung và giao thức tạo thành phần mềm tiền điện tử.  **Tiền điện tử ngày càng mạnh mẽ hơn**  khi các ý tưởng kém được kiểm tra và lọc ra. Tất cả các vấn đề mở rộng và bảo mật cho các loại tiền điện tử này cần được giải quyết và điều tốt là những loại tiền điện tử này là nguồn mở. Những điều này cho phép các nhà phát triển bắt đầu với Crypto tham gia vào việc làm cho mỗi đồng xu hoặc mã thông báo tuyệt vời để đạt được việc áp dụng hàng loạt.

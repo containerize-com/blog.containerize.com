@@ -9,24 +9,24 @@ url: /zh-hant/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
 categories: ['Web Server Solution Stack']
 ---
 
-##安裝和配置LEMP堆棧用於開發和部署Web應用程序。本指南將幫助您在Ubuntu 18.04上安裝NGINX，MYSQL和PHP。
+## 安裝和配置LEMP堆棧用於開發和部署Web應用程序。本指南將幫助您在Ubuntu 18.04上安裝NGINX，MYSQL和PHP。
 
 {{< figure align=center src="images/lemp-banner.png" alt="在Ubuntu上安裝LEMP堆棧">}}
 
 
-##概述 {#prerequisites}
+## 概述 {#prerequisites}
 在本指南中，我們將安裝NGINX，MySQL和PHP（LEMP堆棧）進行開發和部署Web應用程序。我們還將在Ubuntu Server上配置Web服務器與Server PHP應用程序18.04。我們將介紹本教程中的以下各節。
   *[**先決條件**][1]
   *[**什麼是LEMP堆棧？**][2]
   *[ **LEMP安裝** ][3]
   *[**結論**][4]
 
-##先決條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 在安裝軟件之前，您應該滿足以下要求。
   *帶有Ubuntu操作系統的服務器
   *與 **sudo** 特權的非根本用戶
 
-##什麼是LEMP堆棧？   {#什麼}
+## 什麼是LEMP堆棧？   {#什麼}
 **LEMP堆棧**是一個軟件集合，可用於運行基於PHP的Web應用程序。 LEMP代表Linux，Nginx，MySQL和PHP。 LEMP堆棧是燈泡的變體。 LAMP和LEMP都是用於開發和部署Web應用程序的流行軟件堆棧。這兩個軟件堆棧之間有一個區別。 LAMP利用Apache Web服務器，而LEMP服務器則利用Nginx Web服務器。
 
 ## LEMP安裝 {#installation}
@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-###安裝Nginx Web服務器
+## #安裝Nginx Web服務器
   *將下面的命令運行到**在Ubuntu**上安裝nginx。
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Nginx Web服務器默認頁面">}}
 
 
-###安裝mysql
+## #安裝mysql
 現在，您需要安裝MySQL數據庫服務器來管理應用程序數據。
   *將下面的命令運行**在Ubuntu**上安裝mysql。
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-###安裝PHP
+## #安裝PHP
 我們將介紹用於處理PHP的PHP-FPM的安裝。 PHP-FPM代表FastCGI Process Manager。 NGINX Web服務器沒有任何用於處理PHP的內置功能，因此，我們將使用PHP-FPM。此外，我們將安裝用於與MySQL通信數據管理的PHP-MYSQL。
   *將下面的命令運行到**在Ubuntu**上安裝PHP。
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-###測試PHP
+## #測試PHP
   *為了確保NGINX正確提供PHP頁面，我們將創建用於測試配置的PHP文件。
   *通過運行以下命令，在NGINX Web服務器的根目錄中創建info.php文件。
 ```
@@ -144,7 +144,7 @@ phpinfo();
 {{< figure align=center src="images/info-php.png" alt="PHP信息頁面">}}
 
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在本教程中，我們討論瞭如何安裝和配置 **LEMP堆棧** 。如您所見，配置軟件堆棧組件真的很容易。此外，您可以在幾分鐘內開始創建和服務Web應用程序。
 最後，[ **containerize.com** ][5]正在始終如一地編寫有關更多最新開源產品的博客文章。因此，與此[ **Web服務器解決方案堆棧** ][6]類別保持聯繫以進行最新更新。
 

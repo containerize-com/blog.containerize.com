@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="كيفية تثبيت منصة مشاركة ملفات Pydio ومزامنتها على Ubuntu">}}
 
 
-##**ملخص**
+## **ملخص**
 خلايا Pydio هي برنامج مشاركة الملفات والمزامنة مفتوحة المصدر. يوفر نقطة وصول واحدة إلى جميع تخزين البيانات الخاص بك ، وهو بديل لـ OwnCloud و NextCloud الذي يوفر خدمات التخزين ومشاركة الملفات والمزامنة. Pydio هو منصة مشاركة ملفات مفتوحة المصدر للمؤسسة مماثلة لنظام Dropbox ومنصات التخزين الأخرى. يساعدك على توصيل جميع ملفاتك وأجهزتك بشكل آمن.
 خلايا Pydio هي منصة مزامنة الملفات والتعاون المستندة إلى مجموعة النظراء. يعمل هذا البرنامج المفتوح المصدر على البنية التحتية الخاصة بتكنولوجيا المعلومات الشخصية ويساعد موظفيك على حماية ومراقبة بيانات عملك. يمكنك مزامنة البيانات الخاصة بك والوصول إليها من أي مكان باستخدام تطبيق الهاتف المحمول أو برنامج سطح المكتب أو متصفح الويب باستخدام خلايا Pydio. يعتمد تطبيق Pydio Cells Best File Sharing على بنية الخدمة الصغيرة ويتم كتابتها باستخدام لغة برمجة Golang.
 سيساعدك هذا البرنامج التعليمي على تثبيت وتكوين برامج مشاركة الملفات المستضافة ذاتيا Pydio وتوليفها على أنظمة Ubuntu LTS.
@@ -39,19 +39,19 @@ sudo reboot
 ## الخطوة 2: تثبيت خادم المصباح
 لإعداد خادم مشاركة ملفات Pydio Secure Enterprise وكيفية إنشاء سحابة خاصة مفتوحة المصدر ، نحتاج أولاً إلى إعداد خادم مصباح قيد التشغيل. إذا كنت قد قمت بتثبيت مكدس المصباح وتشغيله بالفعل ، فاختر هذه الخطوة الأخرى ، استخدم أوامر التالية لإعداد المصباح على نظام Ubuntu الخاص بك.
 
-### تثبيت PHP
+## # تثبيت PHP
 يمكنك تثبيت PHP على نظام Ubuntu أو Debian عن طريق تشغيل الأوامر:
 Sudo APT-GET تثبيت Python-software-properties
 sudo add-appt-repository ppa: ondrej/php
 sudo app-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### تثبيت Apache2
+## # تثبيت Apache2
 Apache هو أكثر برنامج خادم الويب مفتوح المصدر. بعد ذلك ، قم بتثبيت خادم الويب Apache على Ubuntu عن طريق التشغيل:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### تثبيت MySQL
+## # تثبيت MySQL
 MySQL Open Source Management System Management Relational Management هو مكون من مكدس برامج تطبيق Web Lamp وغيرهم. الآن تثبيت MySQL على Ubuntu عن طريق التشغيل أدناه:
 Sudo APT-get install -y mysql-server php-mysql
 {{_LINE_42_}}

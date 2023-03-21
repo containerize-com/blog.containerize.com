@@ -14,7 +14,7 @@ categories: ['Video Conferencing Software']
 {{< figure align=center src="images/jitsi-bannerF.png" alt="software di videoconferenza">}}
 
 
-Panoramica ##
+Panoramica ## 
 Di recente abbiamo pubblicato un [post sul blog][1] che parla dell'impatto di [software di videoconferenza][2] sul settore aziendale. Tuttavia, in questo articolo, tratteremo i seguenti punti.
   * [Una breve introduzione di Jitsi Meet][3]
   * [Come impostare JITSI MEET?][4]

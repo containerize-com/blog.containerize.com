@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginxletsencrypt.png" alt="Bảo mật nginx với chúng ta hãy mã hóa trên Ubuntu">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Bất kỳ trang web nào tìm cách thu hút khách truy cập cần bao gồm mã hóa TLS/SSL cho tên miền của nó. Chứng chỉ miễn phí SSL đảm bảo kết nối an toàn giữa máy chủ web của bạn muốn mã hóa và bảo mật nginx và trình duyệt ứng dụng. Let Let Encrypt là một cơ quan chứng chỉ mở miễn phí, tự động và mở cho phép bạn thiết lập sự bảo vệ đó cho nginx ssl cho phép. Hãy để các chứng chỉ SSL miễn phí mã hóa được tất cả các trình duyệt chính tin cậy và có giá trị trong 90 ngày kể từ ngày phát hành.
 Bài đăng trên blog này giải thích cách đơn giản nhất để mã hóa và bảo mật nginx chạy máy chủ web trên Ubuntu 20.04 / 18.04 bằng cách lấy Chinx HTTPS cho phép chứng chỉ sử dụng tiện ích NGINX CERTBOT và thiết lập chứng chỉ của bạn để tự động gia hạn. Hãy để bắt đầu và thiết lập cho các cấu hình Ubuntu nginx của Ubuntu.
   * Phụ thuộc và điều kiện tiên quyết

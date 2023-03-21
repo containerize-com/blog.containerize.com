@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-single-sign-on-software-in-the-year-2021/
 categories: ['Single Sign-On']
 ---
 
-##單登錄軟件為所有用戶帳戶和IT系統提供了中央登錄。它通過提供安全性和透明度來使用戶體驗現代化。
+## 單登錄軟件為所有用戶帳戶和IT系統提供了中央登錄。它通過提供安全性和透明度來使用戶體驗現代化。
 
 {{< figure align=center src="images/sso.png" alt="單登錄軟件">}}
 
@@ -73,7 +73,7 @@ WSO2提供以下要點：
   *身份提供商
 **[了解有關WSO2][21]**
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 此博客文章中提到的幾乎所有開源 **SSO軟件** 都廣泛用於企業級別。如果您正在選擇“企業軟件”上的最佳**單個標誌，那麼我們建議您深入了解本文。
 最後，[ **containerize.com** ][22]正在撰寫有關進一步開源產品的文章。因此，請與[單登錄][23]類別保持聯繫，以進行常規更新。
 

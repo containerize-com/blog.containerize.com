@@ -14,7 +14,7 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/5-Digital-Marketing-Tools-You-Shouldnt-Live-Without-in-2021.png" alt="Top 5 công cụ tiếp thị kỹ thuật số tốt nhất để giúp bạn phát triển">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Để đảm bảo rằng kế hoạch tiếp thị trực tuyến của bạn thành công, điều đó cũng có nghĩa là sử dụng các công cụ phù hợp vào đúng thời điểm. Bạn cần biết chiến lược nào để thực hiện và sử dụng công cụ tiếp thị kỹ thuật số nào. Có nhiều công cụ tiếp thị kỹ thuật số trực tuyến có thể cải thiện đáng kể năng suất của bạn và tăng doanh số bán hàng của bạn. Trong bài đăng này, tôi sẽ phác thảo 5 công cụ tiếp thị kỹ thuật số trực tuyến tốt nhất mà bạn cần khi bắt đầu kinh doanh. Mỗi công cụ này sẽ giúp bạn có được lợi thế cạnh tranh mà bạn đã có sau đó.
 Trong bài viết này, chúng tôi sẽ tập trung vào danh sách các công cụ tiếp thị kỹ thuật số hàng đầu để tăng lưu lượng truy cập, tạo doanh số và nhiều hơn nữa.
   * **[Semrush][1]**
@@ -41,7 +41,7 @@ Mỗi nhà tiếp thị cần một dịch vụ tiếp thị qua email và [Mail
 MailChimp có các tính năng thiết kế email và báo cáo mạnh mẽ. Đó là tích hợp chia sẻ xã hội hoạt động với WordPress, Twitter, Facebook, Magento, Salesforce, Zendesk, Shopify, WooC Commerce, Mandrill, EventBrite, Unbounce, Squarespace, Drupal, Slack và Google Analytics, v.v. Tăng lưu lượng hữu cơ.
 Hơn nữa, nó cho phép bạn gửi email cho hàng trăm hoặc hàng ngàn người nhận cùng một lúc. Nó giúp tạo, gửi và quản lý danh sách gửi thư. Nó cũng phân tích các chiến dịch email, bản tin và thu thập khách hàng tiềm năng của bạn.
 
-##*.
+## *.
 . Search Console là một dịch vụ miễn phí để giúp khắc phục sự cố, duy trì và giám sát sự hiện diện của trang web của bạn trong kết quả tìm kiếm của Google.
 Google Search Console có thể thông báo ngay cho bạn về bất kỳ lỗi nào mà nó tìm thấy trên trang web của bạn trong hộp thư đến bảng điều khiển của bạn. Nó xác nhận rằng Google có thể sửa và thu thập dữ liệu trang web của bạn. Bạn có thể tìm thấy thêm chi tiết và tổng quan tại đây Bảng điều khiển tìm kiếm Google và bạn có thể thiết lập tìm kiếm Google cho trang web của mình bằng cách làm theo hướng dẫn [Liên kết][10] với bảng điều khiển tìm kiếm của Google.
 

@@ -33,17 +33,17 @@ Owncloud çok kararlı ve güvenilir bulut uygulamasıdır. Özellikle ticari uy
 
 ## 3. Karşılaştırma NextCloud vs Owncloud:   {#CE62}
 
-#### **Fiyatlandırma** 
+## ## **Fiyatlandırma** 
 NextCloud ve Owncloud her ikisi de ücretsiz olarak kullanılır ve ayrıca bir destek hizmeti satar. Her iki yazılımın indirmeleri ve kurulumları kesinlikle ücretsizdir. Ancak iki platform arasındaki en büyük fark, en iyi ücretsiz çevrimiçi bulut depolama alanı NextCloud'un tamamen ücretsiz ve açık kaynak olmasıdır. Owncloud'un tüm özelliklerine tam erişim sağlamak için, ek özellikler için Enterprise Edition'a abone olmanız gerekecektir.
 
-#### **Özellikler**
+## ## **Özellikler**
 Açık Kaynak Güvenli Dosya Paylaşımı Owncloud, esas olarak Dosya Paylaşımı ve Senkronize Bulut Verilerinin Senkronize edilmesine odaklanmıştır. NextCloud, Audio-Video Communications ve işbirlikçi ofis belgeleri çalışması da dahil olmak üzere diğer özellikleri sunmak için hizmet yelpazesini büyük ölçüde artırdı.
 
-#### **Topluluk**  ve Destek
+## ## **Topluluk**  ve Destek
 Hem açık kaynak NextCloud hem de Owncloud platormlarının bir diğer önemli farkı, onları çevreleyen topluluk ve destektir. 2017'den bu yana, NextCloud katkıda bulunanların sayısı, Owncloud katkıda bulunanların sayısından çok sayıda artmaktadır. Hem açık kaynaklı OwnCloud hem de NextCloud Cloud depolama alanının destek sayfaları, hem NextCloud hem de Owncloud'un kurumsal kategori istemcileri için belgelere, internet sohbet kanallarına, forumlara vb. Bağlantılar sağlar.
 NextCloud'un yardım forumlarına bakarsanız, en yaygın tartışılan konu “Owncloud'dan NextCloud'a geçiş” sunucusudur. Bu 95.000'den fazla görüntüleme kazandı. Owncloud’un halka açık forumundaki en popüler konu, 45.000'den fazla görüntülemeye sahip kilitli bir dosyanın kilidini açma ile ilgilidir. Owncloud'un YouTube kanalı, abone tabanı 1.36k ile 70'den fazla videoya sahiptir. NextCloud, YouTube kanalında 9.3k abone tabanı olan 220'den fazla video içeriyor. Ayrıca, hem için bir Google anahtar kelime araması, sırasıyla 4.050.000 arama sonucuna hem de NextCloud ve Owncloud için 3.460.000 arama sonucuna yol açtı.
 
-#### **Güvenlik**
+## ## **Güvenlik**
 Açık Kaynak Bulut Dosyası Paylaşımı NextCloud, kaba kuvvet saldırıları, akış kısıtlaması, hız sınırlama, şifre yönetimi, içerik güvenliği politikası ve diğer birçok güvenlik seçeneğinden korunmaktadır. Benzer şekilde, bazı güvenlik güvenlik tarama özellikleri yalnızca Enterprise sürümünde mevcuttur. Bu ek özelliklerin sizi dış sıkıntılardan korumak için gerekli olup olmadığını kontrol etmek için kurumsal sürümünü 30 gün boyunca ücretsiz olarak test etmek mümkündür.
 Buna ek olarak, bilgisayar korsanları, ekibin düzeltmesi için güvenlik açıklarının keşfedilmesi için bir ödül olarak bir hata ödül programı kazanma şansına sahiptir.
 

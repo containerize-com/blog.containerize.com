@@ -9,7 +9,7 @@ url: /zh-hant/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 categories: ['Artificial intelligence']
 ---
 
-##為什麼每個人都在談論chatgpt？您的軟件是否利用聊天機器人？讓我們探索這個由人工智能驅動的Chatgpt背後的現象。
+## 為什麼每個人都在談論chatgpt？您的軟件是否利用聊天機器人？讓我們探索這個由人工智能驅動的Chatgpt背後的現象。
 
 {{< figure align=center src="images/What-is-OpenAI-Chatbot-GPT-3-ChatGPT-an-AI-Revolution.png" alt="Openai Chatbot">}}
 
@@ -54,7 +54,7 @@ categories: ['Artificial intelligence']
 ## 問一個問題
 您可以在我們的[論壇][15]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **Q4。 chatgpt會替換程序員嗎？**
 不，這個[Openai][1]聊天機器人[chatgpt][2]幫助開發人員在類似人類的對話中找到最佳答案，而僅此而已。
 **chatgpt是開源的？**

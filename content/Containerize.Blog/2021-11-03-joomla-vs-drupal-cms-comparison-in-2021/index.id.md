@@ -33,22 +33,22 @@ Perangkat lunak CMS open source ini aman, fleksibel, dan menawarkan kemampuan ho
 ## Perbandingan Joomla & Drupal   {#Comp}
 Di bagian Artikel **Joomla vs Drupal**  ini, kami akan membandingkan dua perangkat lunak CMS open source ini dengan melihat ke dalam fitur mereka dan berdiri di komunitas. Berikut adalah poin -poin berikut yang akan kami liput.
 
-#### Masyarakat
+## ## Masyarakat
 Sebuah komunitas yang mendukung menentukan keberhasilan dan jangkauan perangkat lunak open source. Untungnya, kedua CM open source ini memiliki komunitas yang hidup dan aktif yang selalu muncul untuk masalah atau rilis fitur apa pun. Joomla memiliki bintang 3,9k dengan garpu 3,3k di GitHub sedangkan, Drupal mengamankan bintang 3,6K dengan garpu 1,8k. Selain itu, Anda dapat menemukan dokumentasi lengkap mengenai pengembangan dan penyebaran kedua solusi CMS open source ini.
 
-#### Skalabilitas
+## ## Skalabilitas
 Skalabilitas adalah karakteristik penting lain dari perangkat lunak open source. Drupal lebih terukur dan stabil daripada Joomla. Drupal hadir dengan arsitektur lurus dan sederhana sehingga pengembang dapat memperpanjangnya dengan lebih sedikit upaya dibandingkan dengan Joomla.
 
-#### Kompleksitas
+## ## Kompleksitas
 Karakteristik ini sangat penting dalam hal popularitas di kalangan pengembang. Sesuai pandangan umum, Drupal tampaknya sedikit kompleks dibandingkan dengan Joomla. Joomla relatif lebih mudah untuk dipelajari dan pengembang merasa nyaman melakukan pengembangan lebih lanjut dalam sistem manajemen konten open source ini.
 
-Plugin ####
+Plugin ## ## 
 Sejauh menyangkut modul dan ekstensi, kedua CM open source ini menawarkan banyak modul. Pengguna dapat memilih dan menyesuaikan plugin ini sesuai kebutuhan mereka. Namun, Drupal memiliki keunggulan kompetitif atas Joomla karena jumlah plugin yang ditawarkan oleh sistem manajemen konten ini lebih tinggi dari Joomla.
 
-#### Tech Stack
+## ## Tech Stack
 Kedua CM open source ini ditulis dalam PHP. Namun, ini adalah situasi win-win bagi pengembang PHP untuk menghadapi lingkungan pengembangan yang sama.
 
-#### Keamanan
+## ## Keamanan
 Ini adalah karakteristik yang paling penting dan menentukan saat memilih perangkat lunak apa pun. Kedua CM open source ini aman tetapi Drupal menonjol dengan metodologi keamanan bawaan. Lebih lanjut, Drupal juga memberikan instruksi keamanan untuk coders yang ingin memperluas sistem manajemen konten sumber terbuka ini.
 
 ## kesimpulan   {#conclusion}

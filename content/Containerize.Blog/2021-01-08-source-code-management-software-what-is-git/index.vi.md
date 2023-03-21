@@ -49,7 +49,7 @@ Sử dụng Git, bạn có thể thực hiện các thay đổi cho kho lưu tr�
 ## Cài đặt git   {#install}
 Có các phương pháp khác nhau có sẵn để cài đặt git trên máy tính của bạn. Bạn có thể cài đặt nó dưới dạng gói hoặc thông qua trình cài đặt khác hoặc tải xuống mã nguồn và tự biên dịch nó.
 
-### Cài đặt trên Linux
+## # Cài đặt trên Linux
 Nếu bạn muốn cài đặt các công cụ GIT cơ bản trên Linux thông qua trình cài đặt nhị phân, bạn thường có thể thực hiện như vậy thông qua công cụ quản lý gói đi kèm với phân phối của bạn. Đối với Fedora (hoặc bất kỳ phân phối dựa trên RPM liên quan chặt chẽ nào, chẳng hạn như Rhel hoặc Centos), bạn có thể sử dụng
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ Nếu bạn là một bản phân phối dựa trên Debian, chẳng hạn như 
 $ sudo apt install git-all
 ```
 
-### Cài đặt trên macOS
+## # Cài đặt trên macOS
 Có một số cách để cài đặt git trên máy Mac. Dễ nhất có lẽ là cài đặt các công cụ dòng lệnh XCode. Trên Mavericks (10.9) trở lên, bạn có thể làm điều này chỉ bằng cách cố gắng chạy  **git**  từ nhà ga lần đầu tiên.
 ```
 $ git --version

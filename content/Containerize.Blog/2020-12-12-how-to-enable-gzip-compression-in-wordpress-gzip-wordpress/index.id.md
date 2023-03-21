@@ -43,7 +43,7 @@ Di sana, Anda akan melihat apakah kompresi GZIP diaktifkan atau tidak.
 ## Mengaktifkan kompresi GZIP di WordPress   {#Enable}
 Jika Anda telah menentukan bahwa **kompresi GZIP WordPress belum diaktifkan** , ada beberapa metode yang dapat Anda gunakan untuk menjalankannya. Cara termudah adalah dengan menggunakan beberapa plugin WordPress seperti [WP Rocket][6], [WP Super Cache][7], atau [W3 Total Cache][8]. Namun, Anda dapat melakukan ini secara manual di level server baik dengan file .htaccess atau dengan memperbarui konfigurasi nginx Anda.
 
-### dengan mengedit file .htaccess
+## # dengan mengedit file .htaccess
 Salah satu cara paling umum untuk mengaktifkan kompresi WordPress GZIP adalah dengan **mengedit file _.htaccess_ Anda** . Namun, ini melibatkan risiko melanggar sesuatu. Ini adalah file server yang sensitif, dan satu langkah yang salah dapat menyebabkan banyak masalah.
 Untuk mengurangi risiko, pastikan untuk **menyimpan salinan file asli  **sebelum membuat perubahan. File _.htaccess_ harus di folder root **  situs web Anda** . Setelah Anda membuka _.htaccess_, tambahkan kode berikut di bawah bagian yang ditandai oleh tag `# begin WordPress` dan`# end WordPress`
 ```

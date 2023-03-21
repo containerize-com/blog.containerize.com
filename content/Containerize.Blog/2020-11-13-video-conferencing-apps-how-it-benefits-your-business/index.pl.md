@@ -32,7 +32,7 @@ W ostatnim czasie organizacje mają tendencję do przyjmowania**aplikacji do spo
 ## Top 3 Oprogramowanie do wideokonferencji open source   {#top}
 Dostępnych jest wiele systemów konferencji internetowych typu open source. Zobaczmy więc najpopularniejsze:
 
-#### Jitsi Meet
+## ## Jitsi Meet
 [Jitsi Meet][5] to oprogramowanie do współpracy wideo typu open source z wieloma narzędziami do współpracy wideo. Jest bardzo bezpieczny i ma możliwości szyfrowania. Ponadto to**oprogramowanie do spotkań open source**używa oprogramowania opartego na WEBRTC most wideo do konferencji wideo o wysokiej rozdzielczości. To bezpłatne narzędzie jest łatwe do skonfigurowania i konfigurowalne w aplikacjach innych firm. Ponadto uczestnicy mogą rozmawiać ze sobą podczas połączenia i mogą zapraszać kolejnych członków, udostępniając im link. Jednak ta aplikacja do połączeń wideo została zapisana w JavaScript, a cała dokumentacja jest dostępna w odniesieniu do rozwoju i wdrażania. Dlatego programiści mogą znaleźć kod źródłowy na [GitHub][6]. Ma następujące kluczowe funkcje:
   * Konferencja wideo wielopartyjna
   * Wsparcie dla Etherpad
@@ -40,7 +40,7 @@ Dostępnych jest wiele systemów konferencji internetowych typu open source. Zob
   * WEBRTC kompatybilny
   * Szyfrowanie wideo/audio
 
-#### BigBlueButton
+## ## BigBlueButton
 [BigBlueButton][7] to kolejna aplikacja do wideokonferencji w czasie rzeczywistym**, która nie tylko zapewnia rozwiązania do spotkań wideo, ale także oferuje integrację z niektórymi popularnymi ramami open source, takimi jak [Drupal][8], Redmine, [WordPress][9] i jeszcze więcej. Podobnie jak inne**aplikacje do spotkania wideo**, jest bezpieczny i ma możliwości samodzielne. Ponadto zapewnia bardzo logiczny interfejs, w którym użytkownicy mogą łatwo nawigować. Jednak ta aplikacja do połączeń wideo została zapisana w JavaScript wraz z wkładem innych języków, takich jak Java, HTML5, Scala Ruby, Groovy i CSS, a cała dokumentacja jest dostępna dotycząca rozwoju i wdrażania. Dlatego programiści mogą znaleźć swój kod źródłowy na [GitHub][10]. Poniższe kluczowe funkcje obejmują:
   * Wytrożnia wielu użytkowników
   * Czat w czasie rzeczywistym
@@ -49,7 +49,7 @@ Dostępnych jest wiele systemów konferencji internetowych typu open source. Zob
   * Obsługa oprogramowania stron trzecich (np. Drupal, WordPress)
   * Audio HD
 
-#### Openvidu
+## ## Openvidu
 Podobnie [OpenVidu][11] to kolejne oprogramowanie do współpracy wideo open source**, które zapewnia funkcje i narzędzia do zdalnych wideokonferencji. Jego architektura składa się z dwóch warstw. Pierwszy to przeglądarka Openvidu, która jest biblioteką po stronie klienta, a druga to serwer Openvidu, który jest biblioteką zaplecza. Jest łatwy w konfiguracji i zapewnia obraz Docker dla łatwych wdrożeń i rozwoju. Jednak ta**grupowa aplikacja telewizyjna**jest napisana w JavaScript, a cała dokumentacja jest dostępna w odniesieniu do rozwoju i wdrażania. Dlatego programiści mogą znaleźć kod źródłowy na [GitHub][12]. Niektóre wybitne funkcje to:
   * WEBRTC kompatybilny
   * Udostępnianie ekranu

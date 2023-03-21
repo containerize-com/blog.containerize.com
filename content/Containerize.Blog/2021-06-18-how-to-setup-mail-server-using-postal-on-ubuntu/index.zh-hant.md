@@ -9,7 +9,7 @@ url: /zh-hant/how-to-setup-mail-server-using-postal-on-ubuntu/
 categories: ['Transactional Email']
 ---
 
-##通過開源郵件服務器發送和接收電子郵件。本文將幫助您為公司安裝和配置郵政郵件服務器。
+## 通過開源郵件服務器發送和接收電子郵件。本文將幫助您為公司安裝和配置郵政郵件服務器。
 
 {{< figure align=center src="images/postal-banner.png" alt="開源郵件服務器">}}
 
@@ -19,11 +19,11 @@ categories: ['Transactional Email']
   * [郵政安裝][3]
   * [結論][4]
 
-##什麼是郵政郵件服務器？   {#郵政}
+## 什麼是郵政郵件服務器？   {#郵政}
 [**郵政**][5]是免費的**開源郵件服務器**。它是用於網站和Web應用程序的功能齊全的郵件服務器。郵政郵件服務器是現有流行**郵件服務器**的替代方法，例如sendgrid和mailgun。 **郵政**是一個健壯，安全且可擴展的開源電子郵件傳遞平台。所有源代碼和文檔均可在[ **github** ][6]上獲得。您可以下載，將其安裝在專用服務器上，並全面控制它。您還可以根據業務需求改進和增強它。此外，**郵政服務器**支持多個組織。
 用戶可以查看顯示傳入和發出郵件的量的圖形和統計數據。此外，您可以訪問完整的外傳和傳入的消息隊列。郵政郵件服務器為Webhooks提供功能。您可以設置Webhooks，以實時接收有關送貨信息的實時信息。它還提供消息保留，使您可以存儲和檢查所有發送和接收的消息。電子郵件交付在業務中非常重要，以確保用戶收到電子郵件。但是，有時電子郵件確實會將其發送給用戶，您必須調查問題。**傳入和發出的郵件服務器**還提供了完成調查的完整日誌記錄和工具。
 
-##郵政 {#features}的功能
+## 郵政 {#features}的功能
 郵政郵件服務器提供許多功能。但是，我們將討論本文中的以下關鍵功能。
 **發送電子郵件**：郵政郵件服務器提供兩種技術，用於傳出電子郵件，包括HTTP API和SMTP。您可以輕鬆地使用HTTP API與Web應用程序集成。您還可以使用SMTP服務器與現有應用程序和系統集成。
 **傳入的電子郵件**：**傳入的郵件**可以使用郵政郵件服務器轉發到HTTP Endpoint， **SMTP服務器** 和其他電子郵件地址。
@@ -31,14 +31,14 @@ categories: ['Transactional Email']
 **單擊並打開跟踪**：可以通過郵政跟踪電子郵件開口和點擊。郵政將掃描您的傳出消息，並用傳遞郵政Web服務器的新鏈接替換所有鏈接。當用戶單擊鏈接時，郵政記錄操作並立即將其重定向到原始URL。但是，默認情況下不會激活這。
 **IP池**：郵政允許您從各種IP地址發送消息。這使您可以根據發件人或收件人地址將多個IP地址分配給不同的郵件服務器或從不同的IP發送。
 
-##郵政安裝 {#installation}
+## 郵政安裝 {#installation}
 請按照以下分步指南安裝Ubuntu上的郵政**郵件服務器軟件**。
   *首先，您需要連接服務器vis ssh。運行以下命令以更新系統，並使用最新的可用軟件包。
 ```
 sudo apt-get update
 ```
 
-###安裝MariaDB數據庫服務器
+## #安裝MariaDB數據庫服務器
   *運行命令以安裝MariadB。
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-###安裝Ruby
+## #安裝Ruby
   *首先，添加第三方PPA以安裝Ruby。運行以下命令。
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-###安裝兔子
+## #安裝兔子
   * Erlang必須安裝RabbitMQ，因此您也需要安裝它。使用以下命令將Erlang存儲庫密鑰添加到Ubuntu。
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-###安裝nodejs
+## #安裝nodejs
   *使用以下命令添加nodejs存儲庫。
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-###安裝郵政郵件服務器
+## #安裝郵政郵件服務器
   *首先，您需要為郵政郵件服務器創建用戶。使用以下命令創建它。
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-###安裝nginx
+## #安裝nginx
   *運行下面的命令以安裝NGINX Web服務器。
 ```
 sudo apt install nginx
@@ -280,7 +280,7 @@ sudo systemctl restart nginx
 ```
   *最後，打開瀏覽器並鍵入URL https://postal.example.com。您將被重定向到登錄頁面。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 我們已經深入了解了郵政郵件服務器的介紹和主要功能。我們還提供了用於設置此**郵件傳輸代理**的分步說明。此外，我們對設置有了一些洞察力。設置郵政郵件服務器是一個簡單的過程。我希望本文確實有助於為您的業務設置和配置郵政郵件服務器。
 最後，[ **containerize.com** ][7]正處於撰寫有關更多最新開源產品的博客文章的一致過程中。因此，與此[**交易電子郵件**][8]類別保持聯繫以獲取最新更新。
 

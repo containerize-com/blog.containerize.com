@@ -9,7 +9,7 @@ url: /zh-hant/top-5-free-rapid-application-development-software-in-2021/
 categories: ['Rapid Application Development']
 ---
 
-##通過敏捷軟件開發構建靈活和適應性的應用程序。 RAD方法論通過提高效率縮短了開發時間和成本。
+## 通過敏捷軟件開發構建靈活和適應性的應用程序。 RAD方法論通過提高效率縮短了開發時間和成本。
 
 {{< figure align=center src="images/topRad.png" alt="快速應用程序開發軟件">}}
 
@@ -21,7 +21,7 @@ categories: ['Rapid Application Development']
   * [Apache ISIS][5]
   * [結論][6]
 
-##古巴平台 {#cuba-platform}
+## 古巴平台 {#cuba-platform}
 [古巴平台][7]是一種開源代碼生成軟件。它建立在一個模塊化體系結構上，該體系結構有助於進一步的組成部分的發展。此外，它提供了使用OAuth2協議進行身份驗證的REST API。對LDAP和SSO有內置的支持，可以定義基於角色的用戶權限。此外，此RAD軟件還配備了自己的開發工具，名為Cuba Studio，以及許多強大的功能，例如腳手架，熱部署等。此 **RAD框架** 很容易設置，需要Java 8和Cuba Gradle插件。此外，古巴平台用Java編寫，並提供有關開發和部署的所有文檔。因此，所有源代碼均可在[GitHub][8]上獲得。
 古巴平台提供以下要點：
   *支持oauth2
@@ -71,7 +71,7 @@ LI3具有以下關鍵功能：
   * REST接口
 [了解有關Apache ISIS的更多信息][19]
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 RAD方法側重於原型和即時開發，並始終如一地輸入用戶反饋。這篇博客文章可以幫助您在選擇良好的**快速應用程序開發軟件**的同時做出正確的選擇。如果您希望選擇為您的業務選擇開源RAD框架，那麼本文將為您提供幫助。此外，[Containerize.com][20]正在不斷努力增強開源產品列表。因此，請與[RAD][21]類別保持聯繫以進行常規更新。
 
 ## 探索

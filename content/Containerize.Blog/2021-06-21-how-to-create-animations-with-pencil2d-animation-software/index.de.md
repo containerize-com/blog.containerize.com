@@ -36,7 +36,7 @@ sudo apt-get install -y pencil2d
 
 ```
 
-## Übersicht über die Anwendungsschnittstelle   {#Anwendungsschnittstelle}}
+## Übersicht über die Anwendungsschnittstelle   {#Anwendungsschnittstelle}
 Bevor wir mit dem tatsächlichen Pencil2D -Tutorial beginnen, wie Sie Animationen mit Pencil2D erstellen können, finden Sie hier ein wenig Überblick über die Benutzeroberfläche und einige gute Tools und Funktionen:
   ***Weißes Board:**  Wenn Sie zum ersten Mal Pencil2D starten, sehen Sie ein Hauptbrett in der Mitte, umgeben von Steuerungstafeln, Werkzeugen und Funktionen, in denen Sie den Hauptteil der Animation erstellen
   ***Tools:**  Auf der linken Seite finden Sie die Funktionen der Tools, die Pinselwerkzeug, Bleistift, Radiergummi, Bucket Tool zum Hinzufügen von Farbe und alle Funktionen enthalten, mit denen Sie einen Cartoon oder eine Animation skizzieren und definieren können.

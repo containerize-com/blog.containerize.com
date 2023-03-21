@@ -24,14 +24,14 @@ Osticket menyediakan panel kontrol ramah pengguna dan komponen pelaporan waktu-n
 
 ## pro dan kontra Osticket   {#pros}
 
-#### Pro
+## ## Pro
   * Osticket sangat ramah pengguna untuk pengguna akhir dan agen dukungan.
   * Dikumpulkan dengan fitur -fitur yang kaya, Osticket memiliki semua yang Anda butuhkan tanpa terlalu rumit.
   * Osticket sepenuhnya gratis dan perangkat lunak manajemen tiket open source.
   * Ini ringan, aman, andal, dan mudah menginstal perangkat lunak manajemen meja bantuan.
   * Fleksibel untuk berjalan di semua server web populer termasuk Apache, Nginx, LightTPD dan IIS, dll.
 
-#### kontra
+## ## kontra
   * Osticket tidak memberikan detail analisis tiket dan statistik seperti sistem meja bantuan berbayar lainnya.
   * Antarmuka pengguna ini sangat sederhana dan mendasar jika dibandingkan dengan sistem pendukung lainnya.
 

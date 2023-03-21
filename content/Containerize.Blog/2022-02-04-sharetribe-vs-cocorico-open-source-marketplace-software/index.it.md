@@ -14,7 +14,7 @@ categories: ['Marketplace']
 {{< figure align=center src="images/cocorico.png" alt="Sharetribe vs Cocorico">}}
 
 
-Panoramica ##
+Panoramica ## 
 Stai cercando di costruire un mercato online? Ti stai chiedendo con quale soluzione di marketing andare? Sei atterrato in un posto giusto. Benvenuti in un altro interessante post sul blog nella serie di software di mercato open source. In effetti, il mondo virtuale si sta espandendo di volta in volta e i mercati si stanno trasformando in enormi centri commerciali online. Le persone ora cercano tutto accessibile su Internet. Pertanto, la comunità open source ha sviluppato molti software di mercato open source  **a livello aziendale** .
 Gli utenti cercano l'interfaccia interattiva, semplice e user-friendly di un mercato multi-vendor open source. Inoltre, dovrebbe essere rapido e sensibile a tutti i tipi di layout. D'altra parte, optare per una soluzione di mercato libero riduce il costo per la manutenzione delle vendite, lo stock, consente agli imprenditori di valutare le prestazioni e trarre previsioni future aziendali. Inoltre, è il modo più veloce per raggiungere e catturare il mercato in un arco di tempo più breve. In questo articolo, confronteremo [Sharetribe][1] vs [Cocorico][2] coprendo i seguenti punti.
   * [Che cos'è la Sharetribe?][3]
@@ -31,16 +31,16 @@ In questa sezione del post sul blog di Sharetribe vs Cocorico, passeremo breveme
 ## sharetribe vs cocorico   {#vs}
 Finora, abbiamo attraversato ciò che è azionario e una breve introduzione di Cocorico. Andando avanti in questo post sul blog di Sharetribe vs Cocorico, cercheremo di tracciare una linea tra questi due popolari  **software di mercato open source**  coprendo i seguenti punti.
 
-#### Tech Stack
+## ## Tech Stack
 Quando si tratta di software open source auto-conduttore, è davvero importante rivedere tutti gli aspetti come le tecnologie front-end e back-end, il database e le metodologie di sviluppo. Tuttavia, lo Sharetribe è sviluppato utilizzando Ruby on Rails, JavaScript e HTML. Considerando che Cocorico è costruito utilizzando PHP, JavaScript, Twig e input da altre lingue come CSS. Tuttavia, entrambi sono facili da configurare sui server locali o cloud.
 
-####  **Community Standing** 
+## ##  **Community Standing** 
 Questo è un altro fattore imperativo durante la scelta di un software open source. Per quanto riguarda lo sharetribe, ha 2,2k stelle e forchette 1.3k sul suo repository Github. Tuttavia, è possibile trovare la documentazione per quanto riguarda lo sviluppo e la distribuzione insieme ai file di codice sorgente. D'altra parte, ci sono 812 stelle e 626 forche sul suo repository Github. Tuttavia, puoi trovare anche la documentazione insieme ai file di origine.
 
-####**Estensibilità**
+## ## **Estensibilità**
 Questa caratteristica ha i punti massimi. Pertanto, entrambi questi  **software di mercato open source**  offrono integrazioni con applicazioni di terze parti. Sharetribe fornisce integrazione con [Google Analytics][9], Stripe, PayPal e ecc. Cocorico consente anche di connetterti con i gateway di pagamento per la gestione dei pagamenti. Inoltre, gli sviluppatori possono aggiungere funzionalità per soddisfare le esigenze aziendali.
 
-#### Caratteristiche
+## ## Caratteristiche
 L'ultima ma più importante è rivedere e analizzare le disposizioni e le caratteristiche di un software open source. Il più delle volte dipende dalla natura del business e usa i casi. Entrambe queste soluzioni di mercato libero offrono funzionalità economiche che aumentano la produttività e riducono altri costi. Supporto Sharetribe Tutti i tipi di mercati, offre un sistema di pagamento integrato, strumenti per la gestione del catalogo dei prodotti, branding personalizzato, filtrazione dei contenuti e altro ancora. Inoltre, offre anche gestione degli ordini/categoria, gestione SEO/promozione e fornisce un portale del fornitore.
 Per quanto riguarda Cocorico, offre disposizioni per il mercato a più vettori open source. Inoltre, include il monitoraggio della geolocalizzazione, il geofencing, il carrello della spesa, la gestione delle commissioni/commissioni, è sicuro, robusto e viene fornito con capacità di auto-hosting.
 

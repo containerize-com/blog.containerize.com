@@ -14,7 +14,7 @@ La tecnologia ## blockchain si basa su un libro mastro distribuito protetto con 
 {{< figure align=center src="images/block-1.png" alt="Piattaforme blockchain open source">}}
 
 
-Panoramica ##
+Panoramica ## 
 Di recente abbiamo pubblicato post sul blog su [Blockchain Technology for Business][1] e un articolo di tutorial sulla costruzione di un [contratto intelligente di base][2]. Tuttavia, abbiamo compilato un elenco delle seguenti popolari piattaforme blockchain del 2020.
 * **[Ethereum][3]**
 * **[tessuto Hypeledger][4]**

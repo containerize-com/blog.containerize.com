@@ -26,34 +26,34 @@ Docker adalah perangkat lunak kontainer open-source yang digunakan untuk membuat
 ## Manfaat Kontainerisasi   {#Benefits}
 Di bagian ini, kami akan mengeksplorasi beberapa manfaat teratas dari kontainerisasi.
 
-### Penempatan cepat
+## # Penempatan cepat
 Dalam metode penyebaran aplikasi tradisional, pengembang perlu membuat pertimbangan serius mengenai lingkungan di mana perangkat lunak akan berjalan. Mereka perlu mengatur semua konfigurasi dan dependensi yang diperlukan secara manual untuk memastikan penyebaran yang berhasil. Kontainerisasi menghilangkan beban ini dan mengambil alih tanggung jawab untuk menangani formalitas penyebaran.
 
-### Isolasi
+## # Isolasi
 Ini adalah manfaat utama dari kontainerisasi karena aplikasi yang berjalan di setiap wadah diisolasi dan tidak sadar satu sama lain. Mereka menggunakan sumber daya mereka sendiri secara mandiri dan karenanya, mencapai tingkat keamanan dan keandalan terbaik.
 
-### **Konsistensi** 
+## # **Konsistensi** 
 Gambar Docker berisi semua dependensi perangkat lunak dan memastikan untuk menciptakan lingkungan yang konsisten di berbagai platform. Entah itu adalah mesin pengembang atau mesin produksi di cloud, kontainerisasi muncul dengan fasilitas yang memberikan perilaku konsisten penyebaran aplikasi.
 
-### skalabilitas
+## # skalabilitas
 **Perangkat Lunak Kontainer**  Memungkinkan pengembang untuk skala aplikasi tanpa mempengaruhi seluruh infrastruktur. Pengembang perangkat lunak dapat mengkonfigurasi ulang infrastruktur yang ada atau dapat menambahkan wadah lebih lanjut untuk meningkatkan sumber daya. Proses untuk skala aplikasi membutuhkan lebih sedikit upaya yang akibatnya memungkinkan pengembang fokus pada perkembangan penting lainnya.
 
-### Keamanan yang lebih baik
+## # Keamanan yang lebih baik
 Karena ada isolasi lengkap di antara semua wadah yang berjalan di jaringan sehingga setiap wadah berisi lapisan keamanannya sendiri. Namun, ini mengurangi faktor risiko bentrokan sumber daya di antara aplikasi seperti memori, penyimpanan, CPU, dan sumber daya jaringan lainnya.
 
-### Portabilitas
+## # Portabilitas
 Ini adalah manfaat utama lainnya di antara manfaat kontainerisasi lainnya. Kontainerisasi membuat aplikasi sangat portabel karena tidak tergantung pada platform. Pengembang dapat dengan mudah mengatur aplikasi containered pada platform apa pun karena wadah aplikasi abstrak dari sistem operasi host.
 
-### **Biaya hemat** 
+## # **Biaya hemat** 
 Alat orkestrasi kontainer dan perangkat lunak kontainer gratis dan open source. Mereka memiliki komunitas kuat yang hidup dan bersemangat. Mempelajari alat -alat ini tidak sulit dan ada banyak layanan yang tersedia yang membuat penyebaran aplikasi menjadi mudah dalam periode waktu singkat.
 
-### Produktifitas
+## # Produktifitas
 Perangkat lunak kontainer gratis membawa banyak produktivitas dengan mengotomatisasi proses penyebaran. Selain itu, jika ada downtime atau kesalahan penanganan yang ditemukan dalam produksi, ada alat pemantauan yang tersedia untuk tujuan ini. Pengembang perangkat lunak dapat menggabungkan perangkat lunak dalam paket dan dapat berbagi dan berjalan di platform apa pun langsung.
 
-### Reusability
+## # Reusability
 Kontainerisasi memfasilitasi pengguna dengan ketentuan reusability. Pengembang menulis kode aplikasi bisnis sekali untuk semua platform. Mereka tidak perlu menulis kode sumber yang berbeda untuk platform yang berbeda.
 
-### Masyarakat
+## # Masyarakat
 Ini adalah nilai tambah utama lainnya. Ada dukungan besar yang tersedia oleh masyarakat dan pengguna dapat mencari panduan di tingkat mana pun. Di atas semua itu, ada ruang yang disebut [Docker Hub][5] di mana pengguna dapat membuat, berbagi, dan menarik aplikasi dan layanan containerize.
 
 ## Pernyataan terakhir   {#Final}

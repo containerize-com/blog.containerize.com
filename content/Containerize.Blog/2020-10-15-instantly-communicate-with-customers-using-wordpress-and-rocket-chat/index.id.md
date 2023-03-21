@@ -24,7 +24,7 @@ Kami akan membahas bagian berikut dalam posting blog ini:
 ## Deskripsi:   {#description}
 Integrasi WordPress dan Rocket.Chat memungkinkan Anda untuk meletakkan widget obrolan langsung di situs berbasis WordPress. Obrolan langsung WordPress memungkinkan pelanggan untuk berkolaborasi dengan dukungan atau agen penjualan Anda secara real time dengan satu klik. Komunikasi instan membantu pelanggan resolusi cepat dari pertanyaan mereka dan mempercepat pengambilan keputusan. Oleh karena itu solusi ini dapat membantu Anda memenangkan pelanggan baru dengan berbalik lebih cepat serta meningkatkan kepuasan dan loyalitas pelanggan yang sudah ada.
 
-Fitur ##:  {#features}
+Fitur ## :  {#features}
   * Konferensi audio gratis
   * Konferensi video gratis
   * Akses Tamu
@@ -34,7 +34,7 @@ Fitur ##:  {#features}
   * Obrolan tim
   * Terjemahan waktu nyata
 
-Instalasi plugin ##:  {#plugin}
+Instalasi plugin ## :  {#plugin}
   1. Buka dasbor admin dari situs WordPress Anda.
   2. Kemudian pindah ke plugin.
   3. Kemudian instal plugin berikut: [rocket.chat livechat][5]

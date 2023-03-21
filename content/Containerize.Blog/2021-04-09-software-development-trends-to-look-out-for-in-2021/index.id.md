@@ -24,7 +24,7 @@ Agar tetap terkini, Anda tidak hanya perlu mempertimbangkan keadaan teknologi sa
   * Pengembangan kode rendah
   * Kesimpulan
 
-#### **Tren 1: Kecerdasan Buatan (AI)** 
+## ## **Tren 1: Kecerdasan Buatan (AI)** 
 Teknologi modern cukup kuat untuk membuat solusi perangkat lunak AI. Kecerdasan buatan adalah perangkat lunak yang berpikir cerdas dalam arti luas, seperti seseorang. Karena masa depan pengembangan perangkat lunak dan masa depan teknologi terletak di dalam algoritma, pembelajaran mesin, jaringan saraf dan alat AI untuk menarik kesimpulan baru dan menarik. Solusi Perangkat Lunak AI adalah kekuatan dominan teknologi tren dalam pengembangan perangkat lunak di dunia teknologi saat ini.
 Saat ini, pengembang mencari solusi di bidang kecerdasan buatan melalui praktik berkelanjutan dan mesin dapat berpikir secara cerdas seperti manusia. AI diharapkan mendapatkan daya tarik pada tahun 2021 sebagai tren teratas dalam pengembangan perangkat lunak, mengingat bahwa perusahaan dengan kemampuan perangkat lunak AI cenderung berhasil. Bidang pemrosesan bahasa alami sangat menarik karena teknologi baru dalam pengembangan perangkat lunak di AI. Tren pengembangan perangkat lunak terbaru 2021 membawa lebih banyak keterampilan pengembangan, bot-bot dengan membuat setiap tugas otomatis dan mengurangi keterlibatan manusia.
 {{_LINE_24_}}

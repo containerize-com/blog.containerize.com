@@ -14,7 +14,7 @@ categories: ['Marketing Automation']
 {{< figure align=center src="images/civi.png" alt="Civicrm vs Suitcrm">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro post sul blog di zecca nella serie di [software di automazione del marketing][1]. Nel recente passato, abbiamo pubblicato articoli su alcuni argomenti interessanti come [come configurare campagne mautiche usando la campagna builder][2], [automazione del marketing con integrazione mautica e wooCommerce][3] e altro ancora. Tuttavia, passeremo attraverso i due software di automazione gratuiti più utilizzati  **[CivicRM][4] vs [Suitcrm][5].**  Con il passare del tempo, le strategie di marketing si stanno evolvendo a un ritmo elevato. È diventato molto importante raggiungere il mercato nel momento più appropriato per catturare il mercato. Inoltre, le persone sono così desiderose di seguire le cose che sono di tendenza.
 Pertanto, uno strumento open source a livello aziendale **Marketing Automation Tool  **è ora un componente indispensabile delle aziende. Esistono molti compiti ripetitivi relativi al marketing che si verificano su base giornaliera e consumano manodopera e altri sforzi. In effetti, ci sono molti altri software gratuiti disponibili per**   Automation marketing gratuita** che puoi trovare in questo [spazio][6]. Questi software di marketing open source non solo automatizzano le attività di marketing, ma raccolgono anche i dati dei visitatori in base alle loro attività. Inoltre, il software di automazione gratuita aiuta le aziende in termini di entrate, vendite e lead nutriente. Copriamo i seguenti punti e esaminiamo gli aspetti critici di [CivicRm][4] e [SuitCRM][5].
   * [Che cos'è Civicrm?][7]
@@ -32,16 +32,16 @@ In questa sezione del post sul blog **Civicrm vs Suitcrm **, passeremo brevement
 ## Civicrm vs Suitcrm   {#vs}
 Finora abbiamo attraversato ciò che è Civicm e abbiamo anche esaminato Suitcrm. Ora disegneremo un confronto tra questi due software di automazione gratuiti ****. Quindi, esaminiamo i seguenti punti per coprire questo articolo ** Civicrm vs Suitcrm** .
 
-#### Caratteristiche
+## ## Caratteristiche
 Questo è il compito più cruciale quando si tratta di scegliere qualsiasi software per l'azienda. Fortunatamente, entrambi questi software di automazione gratuiti offrono un ricco stack di funzionalità per gli utenti. Entrambi sono basati sul web e adatti a qualsiasi livello di attività. CivicRM offre integrazioni con piattaforme popolari ed è facile da usare per l'automazione del marketing gratuita. Questo **strumento di automazione del marketing  **offre assistenza clienti online insieme a tutorial video. Inoltre, offre modelli per report personalizzati, automazione del riconoscimento regalo e molti altri. D'altra parte, Suitcrm offre assistenza clienti via telefono, online e conoscenza della conoscenza. Questo**   software di automazione gratuita** viene fornito anche con una vasta gamma di funzionalità che includono fatturazione, fatturazione, calcolatore ROI e altro ancora.
 
-#### teck stack
+## ## teck stack
 Questo è un altro aspetto importante quando hai intenzione di optare per un software open source. CivicRM e SuitCRM sono scritti in PHP e richiedono requisiti quasi simili da distribuire sui server locali o cloud.
 
-#### Community Standing
+## ## Community Standing
 Per quanto riguarda CivicRM, ha 436 stelle e 748 forchette sul suo repository Github. D'altra parte, Suitcrm ha 2,8k stelle e forchette 1.6k. Entrambi questi  **strumenti di automazione del marketing**  forniscono una documentazione completa in merito alla distribuzione e allo sviluppo.
 
-#### Estensibilità
+## ## Estensibilità
 Ultimo ma non meno importante, Suitcrm e CiviCRM sono altamente configurabili e offrono integrazione con applicazioni di terze parti che includono alcune app a livello aziendale come WordPress, Joomla e altro ancora. Inoltre, è possibile aggiungere nuove funzionalità secondo le esigenze e l'approccio agli sviluppatori che è vibrante e rispondere attivamente alle domande.
 Allo stesso modo, puoi esplorare ulteriori aspetti e caratteristiche di CivicRM e Suitcrm.
 

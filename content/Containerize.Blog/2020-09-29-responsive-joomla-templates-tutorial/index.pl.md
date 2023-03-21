@@ -43,7 +43,7 @@ Przed wskoczeniem do tej sekcji upewnij się, że rozumiesz następujące czynno
   * Php
 Tak więc tworzenie niestandardowych szablonów w Joomli nigdy nie było tak twarde i złożone. Zacznijmy jednak tworzyć nasz pierwszy szablon Joomla.
 
-##**Struktura katalogu konfiguracji**
+## **Struktura katalogu konfiguracji**
 Po pierwsze, utwórz folder o nazwie „**MyTemplate**” wewnątrz folderu „**Szablony**”.
 Utwórz następujące pliki w folderze „**MyTemplate**”:
 ***index.php**: To jest plik podstawowy zawierający kod HTML i PHP dla całej strony szablonów.

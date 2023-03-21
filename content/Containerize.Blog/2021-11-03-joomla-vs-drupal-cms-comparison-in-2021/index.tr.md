@@ -33,22 +33,22 @@ Bu açık kaynaklı CMS yazılımı güvenli, esnektir ve kendi kendine barınma
 ## Joomla & Drupal'ın karşılaştırması   {#comp}
 **Joomla vs Drupal**  makalesinin bu bölümünde, bu iki açık kaynaklı CMS yazılımını özelliklerine bakarak ve toplulukta durarak karşılaştıracağız. İşte ele alacağımız aşağıdaki noktalar.
 
-#### Toplum
+## ## Toplum
 Destekleyen bir topluluk, açık kaynaklı bir yazılımın başarısını ve erişimini tanımlar. Neyse ki, bu açık kaynaklı CM'lerin her ikisi de her zaman herhangi bir soruna veya özellik bültenine gelen canlı ve aktif topluluklara sahiptir. Joomla'nın GitHub'da 3.3k çatallı 3.9K yıldızı var, oysa Drupal 1.8k çatalla 3.6k yıldızları koruyor. Ayrıca, her iki açık kaynak CMS çözümünün geliştirilmesi ve dağıtımıyla ilgili eksiksiz belgeler bulabilirsiniz.
 
-#### Ölçeklenebilirlik
+## ## Ölçeklenebilirlik
 Ölçeklenebilirlik, herhangi bir açık kaynak yazılımının bir başka önemli özelliğidir. Drupal Joomla'dan daha ölçeklenebilir ve istikrarlıdır. Drupal, geliştiricilerin Joomla'ya kıyasla daha az çaba ile genişletebilecekleri düz ve basit mimariyle birlikte gelir.
 
-#### Karmaşıklık
+## ## Karmaşıklık
 Bu karakteristik, geliştiriciler arasında popülerlik söz konusu olduğunda çok önemlidir. Genel görüşe göre, Drupal Joomla'ya kıyasla biraz karmaşık görünüyor. Joomla'nın öğrenilmesi nispeten daha kolaydır ve geliştiriciler bu açık kaynak içerik yönetim sisteminde daha fazla geliştirme yaparken rahat bulurlar.
 
-#### Eklentiler
+## ## Eklentiler
 Modüller ve uzantılar söz konusu olduğunda, bu açık kaynaklı CM'lerin her ikisi de bir grup modül sunar. Kullanıcılar bu eklentileri ihtiyaçlarına göre seçebilir ve özelleştirebilir. Bununla birlikte, Drupal, bu içerik yönetim sistemi tarafından sunulan eklenti sayısı Joomla'dan daha yüksek olduğundan Joomla'ya karşı rekabet avantajına sahiptir.
 
-#### Tech Stack
+## ## Tech Stack
 Bu açık kaynaklı CM'lerin her ikisi de PHP'de yazılmıştır. Ancak, PHP geliştiricisinin aynı geliştirme ortamıyla yüzleşmesi bir kazan-kazan durumudur.
 
-#### Güvenlik
+## ## Güvenlik
 Bu, herhangi bir yazılımı seçerken en önemli ve belirleyici özelliktir. Bu açık kaynaklı CM'lerin her ikisi de güvenlidir, ancak Drupal yerleşik güvenlik metodolojileri ile öne çıkmaktadır. Ayrıca Drupal, bu açık kaynaklı içerik yönetim sistemini genişletmek isteyen kodlayıcılar için güvenlik talimatları da sağlar.
 
 ## Sonuç   {#Conclusion}

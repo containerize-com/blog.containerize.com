@@ -9,12 +9,12 @@ url: /zh-hant/top-5-open-source-container-orchestration-tools-for-devops-in-2021
 categories: ['DevOps', 'Software Development']
 ---
 
-##容器編排工具可幫助用戶自動化容器的部署，網絡，縮放和管理。讓我們回顧最好的編排工具
+## 容器編排工具可幫助用戶自動化容器的部署，網絡，縮放和管理。讓我們回顧最好的編排工具
 
 {{< figure align=center src="images/Open-Source-Container-Orchestration-Tools.png" alt="前5個開源容器編排工具">}}
 
 
-##**概述**
+## **概述**
 集裝箱編排工具可幫助IT管理員，軟件開發人員和用戶在開發，測試，縮放和部署過程中管理容器化應用程序。這些容器編排軟件還促進了在應用程序中安排和部署多個容器以實現，以識別失敗的容器實現並管理聲明的配置。**開源容器編排工具**幫助用戶自動化運行實例，配置主機和鏈接容器的過程，以通過添加容器來提高應用程序的可擴展性和功能。
 編排工具有助於優化編排過程，通過設置容器訪問權限並保持容器組件相互分開來改善容器安全。當前，市場上有許多基於雲的開源容器編排工具列表，不同組織用於生產環境來**管理容器和微服務**。讓我們回顧一些頂級編排工具。
 **哪些集裝箱編排平台？
@@ -92,7 +92,7 @@ Docker Swarm容器編排始於容器，並構建出來，提供了一種簡單�
 **與Nomad集成的最受歡迎的工具**是Docker，Vault，Hashicorp Sentinel，Consul，Portworx，Humio和Gloo Edge。
 **在其技術堆棧中使用Nomad**的頂級公司是Petal，Trivago，Wealthsimple，Edgelab，Fundamentei，5G Systems，Aislelabs，Botmetric，Botmetric，Taboola和Machete Inc。
 
-##**什麼是開源容器管理工具？**   {#4A1A}
+## **什麼是開源容器管理工具？**   {#4A1A}
 容器編排解決方案比虛擬機（VM）有很多好處。容器共享一個單個操作系統內核，在幾秒鐘內啟動而不是啟動虛擬機（VM）所需的分鐘。擴展和復制容器非常容易，具有較小的磁盤尺寸，並且很容易共享。**容器管理平台**是管理多個容器的雲應用程序。以下是最廣泛使用的最佳容器管理軟件和容器編排列表，以簡化容器管理的特定方面。
   * **[Rancher][12]**是一個開源的最佳容器管理平台，用於管理Kubernetes。
   * **[Apache Mesos][13]**是下一代開源群集管理器和Apache容器編排服務。
@@ -101,7 +101,7 @@ Docker Swarm容器編排始於容器，並構建出來，提供了一種簡單�
   * **[Amazon彈性容器服務（Amazon ECS）][16]**是AWS ECS編排和容器管理服務，該服務支持Docker容器在Amazon EC2 Instances cluster上運行應用程序。
   * **[Amazon Elastic Kubernetes服務（Amazon EKS）][17]**是運行Kubernetes應用程序和管理基礎架構的容器編排AWS服務。
 
-##**結論：**   {#4a1a}
+## **結論：**   {#4a1a}
 **容器編排技術如何適用於您的業務和軟件應用程序？如果您只需要記住一個關鍵信息即可幫助您選擇**kubernetes vs docker swarm  **vs redhat**   openshift vs copsose** vs hashicorp nomad，那麼每個解決方案都應該具有一些優勢和弊端。還有其他編排平台選項可為服務編排提供不同的功能。最終，您採用哪種選項取決於您想要達到的規模以及最喜歡的生態系統。要深入研究集裝箱編排，請繼續訪問[Containerize Blog][18]。
 _您最喜歡的最佳容器編排工具是什麼？您對上面提到的容器編排列表有任何疑問嗎？
 

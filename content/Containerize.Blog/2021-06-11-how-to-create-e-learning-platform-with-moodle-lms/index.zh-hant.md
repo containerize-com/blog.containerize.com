@@ -9,7 +9,7 @@ url: /zh-hant/how-to-create-e-learning-platform-with-moodle-lms/
 categories: ['Learning Management System']
 ---
 
-##使用開源電子學習平台構建在線學習平台。本文解釋瞭如何使用Moodle LMS創建遠程學習網站。
+## 使用開源電子學習平台構建在線學習平台。本文解釋瞭如何使用Moodle LMS創建遠程學習網站。
 
 {{< figure align=center src="images/moodle-banner.png" alt="Moodle LMS">}}
 
@@ -21,10 +21,10 @@ categories: ['Learning Management System']
   * [Moodle安裝][4]
   * [結論][5]
 
-##先決條件 {#prerequisites}
+## 先決條件 {#prerequisites}
 如果還沒有，則必須在服務器上安裝和配置LAMP環境。
 
-##什麼是情緒？   {#什麼}
+## 什麼是情緒？   {#什麼}
 [**moodle **][6]是一種免費的開源電子學習解決方案。 Moodle代表模塊化的面向對象的動態學習環境。它的創建是為了使教育者，管理員和學習者一個電子學習平台，以創建和提供個性化的學習環境。此外，Moodle是學校**，大學和公司專業培訓課程的合適 **LMS。它是創建LMS網站的流行** 遠程學習**解決方案之一。此外，Moodle為教師和學生提供豐富的工具和協作學習環境。 Moodle擁有一個用於iPhone，Android，Windows手機和平板電腦的移動應用程序。移動應用程序可從世界各地的任何位置使用。這個**自託的LMS **用PHP編寫，並將數據存儲在MySQL/PostgreSQL數據庫中。它帶有廣泛的用戶和開發人員文檔。所有源代碼均可在[**  github**][7]上獲得。此開源的許可證**電子學習解決方案**是GPLV3+。
 
 ## Moodle的功能 {#features}
@@ -112,7 +112,7 @@ sudo systemctl restart nginx
   *提供網站的信息，例如完整的站點名稱，網站的簡短名稱，前頁面摘要，默認時區和無需發送電子郵件。單擊“保存更改”按鈕。
   *通過提供網站名稱，語言，區域，電子郵件地址等信息來完成您的網站註冊。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 我們了解了Moodle及其在本文中的主要特徵。我們還逐步介紹了設置 **Moodle lms** 的分步方法，以**創建電子學習網站**。您可以回顧Moodle的[**官方文檔**][8]，以更加滿意各種功能，例如課程，學生註冊，跟踪進度等。希望您發現這篇文章在創建LMS網站上很有用。
 最後，[ **containerize.com** ][9]正處於撰寫有關更多最新開源產品的博客文章的一致過程。因此，與此[**學習管理系統**][10]類別保持聯繫，以進行最新更新。
 

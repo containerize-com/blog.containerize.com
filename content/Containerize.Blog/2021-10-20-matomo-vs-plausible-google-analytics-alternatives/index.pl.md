@@ -31,19 +31,19 @@ Z drugiej strony zachowanie i reakcja konsumentów końcowych dają wyobrażenie
 ## Porównanie Plausible & Matomo   {#Comp}
 W sekcji tego **Matomo vs Plausible  **zbadamy te dwie**   Alternatywy Google Analytics** w odniesieniu do ich funkcji i cech, obejmując następujące punkty.
 
-#### Github Stats
+## ## Github Stats
 Oba  **Open Source BI Tools**  są popularne ze względu na ich potężne funkcje. Jeśli jednak mówimy o ich statystykach GitHub, to [prawdopodobne][7] utrzymuje 9k gwiazdki i 400 plus widelce, podczas gdy [Matomo][5] zabezpiecza 15,5 tys. Gwiazdy i 2k plus widelce do tej pory.
 
-#### Technologia
+## ## Technologia
 Stos technologiczny tych dwóch  **oprogramowania do analizy internetowej**  jest zróżnicowany. [Prawdopodobne][7] jest napisane głównie w eliksirze, który jest funkcjonalnym językiem programowania. Z drugiej strony [Matomo][5] jest zapisywany w PHP wraz z wejściem JavaScript. Oba te bezpłatne narzędzia są łatwe do wdrożenia na serwerach o łatwych wymaganiach.
 
-#### Bezpieczeństwo
+## ## Bezpieczeństwo
 Jeśli chodzi o bezpieczeństwo i prywatność, prawdopodobne jest wysoce zorientowane na prywatność i daje kontrolę właścicielom witryny. Utrudnia śledzenie między witrynami, które dotyczy gromadzenia danych przeglądania w wielu stronach. Jednak oba te  **narzędzia raportowania wywiadu biznesowego**  są w pełni zgodne z międzynarodowymi przepisami dotyczącymi prywatności.
 
-#### rozszerzalność
+## ## rozszerzalność
 Jest to najważniejsza cecha każdego oprogramowania typu open source. Na szczęście oba te  **open source BI narzędzia**  oferują interakcję z bibliotekami stron trzecich i są łatwe do rozszerzenia zgodnie z wymaganiami. Podczas gdy Matomo ujawnia interfejs API w celu tworzenia niestandardowych raportów i integracji.
 
-#### Cechy
+## ## Cechy
 Prawdopodobne i Matomo zapewniają potężne funkcje dotyczące użytkowników, zarządzania stronami internetowymi, a istnieją moduły, które zapewniają odwiedzającym informacje o zachowaniu i aktywności. Przede wszystkim oba te  **oprogramowanie do analizy internetowej**  oferuje logiczny interfejs użytkownika, który użytkownicy mogą dostosowywać widżety zgodnie z ich preferencjami. Ponadto możesz odwiedzić ten [link][9], aby dowiedzieć się o dalszych funkcjach.
 **Wspólnota**
 W rzeczywistości społeczność open source jest bardzo żywa i żywa. Jednak prawdopodobne, a Matomo są open source  **Narzędzia do raportowania inteligencji biznesowej**  Dlatego oboje mają bardzo silne społeczności deweloperów, które zawsze odpowiadają na zapytania i błędy.

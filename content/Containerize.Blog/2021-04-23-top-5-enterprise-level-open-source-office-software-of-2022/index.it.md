@@ -14,7 +14,7 @@ categories: ['Office Productivity Software']
 {{< figure align=center src="images/open-source-office-productivity-software.png" alt="software di ufficio open source">}}
 
 
-Panoramica ##
+Panoramica ## 
 Ti stai chiedendo come migliorare l'efficienza sul lavoro? Se sì, sei atterrato nel posto giusto. A causa della digitalizzazione, il mondo sta andando più senza carta. Quindi anche la domanda di software di produttività degli uffici è aumentata. Microsoft Office domina questo dominio per molto tempo. Ma all'aumentare della domanda e della scelta del software open source e di ufficio libero. Ci sono molti compiti che svolgono quotidianamente e richiedono tempo e costi per eseguire tali attività ripetitive. Le organizzazioni devono sostenere i costi aggiuntivi e fermare le prestazioni complessive alla fine. Inoltre, consente alle parti interessate di fissare obiettivi, tenere traccia delle loro prestazioni ed eseguire varie analisi per fare previsioni future.
 Inoltre, i manager possono creare luoghi di lavoro condivisi in cui possono collaborare con i compagni di squadra in modo efficiente. Inoltre, al tempo della pandemia, dà l'opportunità di lavorare in remoto. Tuttavia, questi strumenti di produttività gratuiti emettono anche funzionalità di archiviazione dei dati. Sempre più persone stanno guardando al software di ufficio open source. In questo articolo, esploreremo alcuni dei migliori strumenti di produttività degli uffici open source e gratuiti. Iniziamo
   * [Apache OpenOffice][1]

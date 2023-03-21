@@ -49,7 +49,7 @@ GIT是一个免费的开源版本控制系统，旨在以速度和效率处理�
 ## 安装git   {#install}
 有不同的方法可以在计算机上安装GIT。您可以将其作为软件包或其他安装程序安装，或下载源代码并自行编译。
 
-### 在Linux上安装
+## # 在Linux上安装
 如果您想通过二进制安装程序在Linux上安装基本的Git工具，通常可以通过您的分发带随附的软件包管理工具来完成。对于Fedora（或任何与RPM密切相关的分布，例如RHEL或CENTOS），您可以使用“ DNF”
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ $ sudo dnf install git-all
 $ sudo apt install git-all
 ```
 
-### 在MacOS上安装
+## # 在MacOS上安装
 有几种方法可以在Mac上安装GIT。最简单的可能是安装Xcode命令行工具。在Mavericks（10.9）或更高版本上，您只需第一次尝试从终端运行**git** 即可完成此操作。
 ```
 $ git --version

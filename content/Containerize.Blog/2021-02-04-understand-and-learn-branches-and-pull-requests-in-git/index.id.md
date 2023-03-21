@@ -49,13 +49,13 @@ Ketika seorang pengembang membuka permintaan tarik, yang dia lakukan hanyalah me
 ## Model percabangan populer   {#model}
 Ada sejumlah alur kerja percabangan yang digunakan oleh komunitas pengembang di seluruh dunia. Tapi, kita akan membahas tiga model percabangan paling populer satu per satu
 
-### GIT Flow
+## # GIT Flow
 GitFlow Workflow adalah alur kerja Git yang membantu pengembangan perangkat lunak berkelanjutan dan menerapkan praktik DevOps. Aliran Git adalah alur kerja yang paling dikenal dalam daftar ini. Itu dibuat oleh [Vincent Driessen pada 2010][7] dan didasarkan pada dua cabang utama dengan masa hidup yang tak terbatas, bersama dengan cabang pendukung lainnya seperti fitur-\*, perbaikan panas-\* yang kemudian bergabung ke dalam cabang pengembangan sebagai individual Barang selesai.
   ***Master**  - Cabang ini berisi kode produksi. Semua kode pengembangan digabungkan ke dalam cabang master setelah siap untuk didorong ke produksi.
   ***Kembangkan** -Cabang ini berisi kode pra-produksi. Ketika fitur selesai maka mereka digabungkan menjadi berkembang.
 Gitflow sangat cocok untuk proyek -proyek yang memiliki siklus rilis yang dijadwalkan. Padahal, sejarah git menjadi tidak dapat dibaca.
 
-### Github Flow
+## # Github Flow
 Aliran GitHub adalah alur kerja yang ringan. Itu dibuat oleh [GitHub][8] pada tahun 2011 dan terutama berfokus pada model Agile, di mana Anda tidak menunggu siklus rilis. Sebaliknya, Anda mendorong perubahan pada produksi setiap hari karena fitur selesai.
 Aliran GitHub mengikuti prinsipal berikut:
   * Apa pun di cabang "Master" dapat digunakan.
@@ -65,7 +65,7 @@ Aliran GitHub mengikuti prinsipal berikut:
   * Setelah ditinjau dan ditandatangani pada fitur, Anda dapat menggabungkannya ke dalam master
   * Setelah digabungkan dan didorong ke 'master', itu dapat digunakan untuk produksi.
 
-### Gitlab Flow
+## # Gitlab Flow
 Gitlab Flow adalah alur kerja yang dibuat oleh GitLab pada tahun 2014. Aliran GitLab adalah alternatif yang lebih sederhana untuk GitFlow dan menggabungkan pengembangan yang digerakkan oleh fitur dan cabang fitur dengan pelacakan masalah. Perbedaan utama antara aliran gitlab dan aliran gitub adalah penggunaan cabang lingkungan.
 Pengembang membuat **mengembangkan**  cabang dan menjadikannya default, sementara aliran GitLab bekerja dengan cabang 'utama' segera. Aliran GitLab menggabungkan beberapa cabang pra-produksi. Dan, itu dapat digunakan untuk menguji barang -barang di tingkat yang berbeda. mis. Dari cabang uji hingga penerimaan dan kemudian dari penerimaan ke produksi.
 

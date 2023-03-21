@@ -14,7 +14,7 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/superpowers.png" alt="Come sviluppare un videogioco">}}
 
 
-Panoramica ##
+Panoramica ## 
 Nel quasi passato, alcuni articoli sono stati pubblicati nella categoria [Software di sviluppo del gioco][1] che include il modo in cui il settore globale di gioco di gioco attivo software open source e tutorial GDEVVive per i principianti per iniziare lo sviluppo del gioco. Lo sviluppo dei videogiochi è molto più diffuso in tutto il mondo con la crescente domanda di giochi divertenti. Tuttavia, comporta l'idea, lo sviluppo del design, i test continui, le rilasci e il feedback. In altre parole, coinvolge progettisti, architetti software, programmatori, tester e risorse di supporto. Inoltre, ci sono molti tipi di giochi come giochi d'azione, giochi di puzzle, giochi di corse, giochi cognitivi e altri.
 Pertanto, è molto necessaria una buona guida allo sviluppo del gioco per iniziare a iniziare con qualsiasi costruttore di giochi 3D. La comunità open source ha sviluppato molti software di sviluppo del gioco che offrono funzionalità e utility a livello aziendale per sviluppare giochi 3D e 2D. Questo tutorial sullo sviluppo del gioco HTML5 esplorerà come sviluppare un videogioco utilizzando il software di sviluppo di videogiochi gratuito  **Superpowers**  coprendo i seguenti punti.
   * **[What Is SuperPowers][2]**

@@ -15,7 +15,7 @@ categories: ['Programming']
 {{< figure align=center src="images/What-is-DOM-in-JavaScript-Document-Object-Model.png" alt="Cos'è DOM in JavaScript??">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro entusiasmante post sul blog nella serie di [programmazione JavaScript][1]. In questo articolo, toccheremo un concetto molto semplice ma essenziale di sviluppo web. Sì, copriremo il modello di oggetti documenti in JavaScript. In passato, abbiamo pubblicato tutorial JavaScript che sono obbligatori per iniziare lo sviluppo usando il linguaggio JavaScript. Pertanto, ti suggeriamo di leggere a fondo questo post sul blog in modo da non perdere nulla legato a questo concetto importante. Iniziamo questa guida e scopriamo  **cosa è DOM in JavaScript** , DOM Properties e come è possibile interagire con essa a livello di programmazione.
 Tratteremo i seguenti argomenti in questa guida JavaScript:
   * **[Cos'è il modello di oggetti documentari (DOM)?][2]**

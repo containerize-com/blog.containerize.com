@@ -32,16 +32,16 @@ Nesta seção da postagem do blog **Civicrm vs Suveecrm **, passaremos brevement
 ## civicrm vs sudeecrm   {#vs}
 Até agora, passamos pelo que é o Civicm e também analisamos o SuperEcrm. Agora, vamos fazer uma comparação entre esses dois software de automação gratuita **. Então, vamos analisar os seguintes pontos para cobrir este artigo **civicrm vs superecrm** .
 
-#### Características
+## ## Características
 Esta é a tarefa mais crucial quando se trata de escolher qualquer software para o negócio. Felizmente, esses dois softwares de automação gratuitos oferecem uma rica pilha de recursos para os usuários. Ambos são baseados na Web e adequados para qualquer nível de negócios. O Civicrm oferece integrações com plataformas populares e é fácil de usar para automação de marketing gratuita. Esta ferramenta de automação de marketing **oferece suporte ao cliente on -line junto com tutoriais em vídeo. Além disso, oferece modelos para relatórios personalizados, automação de reconhecimento de presentes e muito mais. Por outro lado, o SuperECRM oferece suporte ao cliente por telefone, online e base de conhecimento. Este  **software de automação gratuito**   também vem com uma ampla gama de recursos que incluem cobrança, faturamento, calculadora de ROI e muito mais.
 
-#### Teck Stack
+## ## Teck Stack
 Esse é outro aspecto importante quando você optar por um software de código aberto. O CIVICRM e o SuperECRM estão escritos no PHP e requerem requisitos quase semelhantes para implantar em servidores locais ou em nuvem.
 
-#### Comunidade em pé
+## ## Comunidade em pé
 No que diz respeito ao Civicrm, possui 436 estrelas e 748 garfos em seu repositório do GitHub. Por outro lado, o SuperEcrm tem 2,8 mil estrelas e 1,6 mil garfos. Ambas as ferramentas de automação de marketing ** fornecem documentação abrangente sobre implantação e desenvolvimento.
 
-#### extensibilidade
+## ## extensibilidade
 Por último, mas não menos importante, o SuperEcrm e o Civicrm são altamente configuráveis ​​e oferecem integração com aplicativos de terceiros que incluem alguns aplicativos de nível corporativo, como WordPress, Joomla e muito mais. Além disso, você pode adicionar novos recursos conforme a necessidade e abordar a comunidade dos desenvolvedores que é vibrante e responder às consultas ativamente.
 Da mesma forma, você pode explorar outros aspectos e recursos do Civicrm e do SuperEcrm.
 

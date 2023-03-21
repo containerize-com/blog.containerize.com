@@ -293,7 +293,7 @@ These changes, and more, are demonstrated below.
 
 ## Misc elements
 
-### Address
+## # Address
 
 The `<address>` element is updated to reset the browser default `font-style` from `italic` to `normal`. `line-height` is also now inherited, and `margin-bottom: 1rem` has been added. `<address>`s are for presenting contact information for the nearest ancestor (or an entire body of work). Preserve formatting by ending lines with `<br>`.
 
@@ -311,7 +311,7 @@ The `<address>` element is updated to reset the browser default `font-style` fro
   </address>
 </div>
 
-### Blockquote
+## # Blockquote
 
 The default `margin` on blockquotes is `1em 40px`, so we reset that to `0 0 1rem` for something more consistent with other elements.
 
@@ -322,7 +322,7 @@ The default `margin` on blockquotes is `1em 40px`, so we reset that to `0 0 1rem
   </blockquote>
 </div>
 
-### Inline elements
+## # Inline elements
 
 The `<abbr>` element receives basic styling to make it stand out amongst paragraph text.
 
@@ -330,7 +330,7 @@ The `<abbr>` element receives basic styling to make it stand out amongst paragra
   Nulla <abbr title="attribute">attr</abbr> vitae elit libero, a pharetra augue.
 </div>
 
-### Summary
+## # Summary
 
 The default `cursor` on summary is `text`, so we reset that to `pointer` to convey that the element can be interacted with by clicking on it.
 
@@ -355,7 +355,7 @@ HTML5 adds [a new global attribute named `[hidden]`](https://developer.mozilla.o
 {% endhighlight %}
 
 {% capture callout %}
-##### jQuery incompatibility
+## ## # jQuery incompatibility
 
 `[hidden]` is not compatible with jQuery's `$(...).hide()` and `$(...).show()` methods. Therefore, we don't currently especially endorse `[hidden]` over other techniques for managing the `display` of elements.
 {% endcapture %}

@@ -31,19 +31,19 @@ Por outro lado, o comportamento e a resposta dos consumidores finais dão uma id
 ## Comparação de plausível e matomo   {#comp}
 Na seção deste artigo **Matomo vs Plausível **, exploraremos essas duas alternativas  **do Google Analytics**   sobre seus recursos e características, cobrindo os seguintes pontos.
 
-#### Github Stats
+## ## Github Stats
 Ambas as ferramentas de BI de código aberto ** são populares devido a seus recursos poderosos. No entanto, se falarmos sobre as estatísticas do Github, então [plausível][7] mantém 9k estrelas e 400 mais garfos, enquanto [Matomo][5] protege 15,5 mil estrelas e 2K mais garfos até a data.
 
-Tecnologia ####
+Tecnologia ## ## 
 A pilha de tecnologia desses dois **software de análise da web**  é diversa. [Plausível][7] é escrito principalmente no Elixir, que é uma linguagem de programação funcional. Por outro lado, [Matomo][5] é escrito em PHP junto com a entrada de JavaScript. Ambas as ferramentas gratuitas são fáceis de implantar em servidores com requisitos fáceis.
 
-#### Segurança
+## ## Segurança
 No que diz respeito à segurança e privacidade, plausível é altamente orientado à privacidade e dá controle aos proprietários do site. Isso dificulta o rastreamento cruzado que trata de coletar dados de navegação em vários sites. No entanto, essas duas ferramentas de relatório de inteligência de negócios ** são totalmente compatíveis com as leis internacionais de privacidade.
 
-#### extensibilidade
+## ## extensibilidade
 Essa é a característica mais importante de qualquer software de código aberto. Felizmente, essas duas ferramentas de BI de código aberto ** oferecem interação com bibliotecas de terceiros e são fáceis de estender conforme os requisitos. Considerando que o Matomo expõe uma API para criar relatórios e integrações personalizados.
 
-#### Características
+## ## Características
 Plausível e Matomo fornecem recursos poderosos sobre usuários, gerenciamento de sites e existem módulos que fornecem informações de comportamento e atividade dos visitantes. Acima de tudo, esses dois **software de análise da web**  oferecem uma interface de usuário lógica que os usuários podem personalizar os widgets de acordo com suas preferências. Além disso, você pode visitar este [link][9] para aprender sobre outros recursos.
 **Comunidade**
 De fato, a comunidade de código aberto é muito vivo e vibrante. No entanto, plausível e Matomo são ferramentas de relatório de inteligência de negócios  ****  É por isso que ambos têm comunidades de desenvolvedores muito fortes que sempre tendem a responder às consultas e bugs.

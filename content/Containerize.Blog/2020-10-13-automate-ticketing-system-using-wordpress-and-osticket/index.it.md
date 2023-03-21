@@ -20,7 +20,7 @@ Osticket è un sistema di biglietteria Open-Source e HelpDesk. I clienti possono
   * [Procedura di autenticazione][3]
   * [Conclusione][4]
 
-Processo di integrazione ##:  {#integration}
+Processo di integrazione ## :  {#integration}
 L'integrazione Osticket e WordPress richiede un modulo di contatto sul sito WordPress con i seguenti campi
   1. Aiuto argomento
   2. Email

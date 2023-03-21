@@ -25,14 +25,14 @@ Mỗi doanh nghiệp cần một số loại hệ thống để quản lý hóa 
 ## Quy trình cài đặt của Crater   {#installation}
 Chúng tôi sẽ thảo luận về cách cài đặt Crater với phương pháp thủ công và sử dụng Docker trong phần này.
 
-### Hướng dẫn cài đặt
+## # Hướng dẫn cài đặt
   * Tải xuống phiên bản mới nhất từ.
   * Tải lên tệp zip đã tải xuống lên máy chủ của bạn và trích xuất nó.
   * Truyền miền của bạn vào thư mục công khai bên trong thư mục Crater.
   * Điều hướng đến gốc của dự án của bạn và thực hiện lệnh SUDO CHMOD -R 775 ./ Lệnh để gán các đặc quyền thích hợp.
   * Mở trang web của bạn trong trình duyệt và theo dõi trình hướng dẫn cài đặt.
 
-### Cài đặt Docker
+## # Cài đặt Docker
   * Cài đặt Docker trên máy chủ của bạn:.
   * Cài đặt Docker Compose bằng cách làm theo hướng dẫn này:.
   * Kho lưu trữ miệng núi lửa bằng cách sử dụng lệnh này.

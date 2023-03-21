@@ -14,7 +14,7 @@ categories: ['Live Chat']
 {{< figure align=center src="images/rocketchat-1.png" alt="Software di chat dal vivo">}}
 
 
-Panoramica ##
+Panoramica ## 
 Abbiamo pubblicato alcuni post di blog relativi a software di chat live open source come [il top 5 software di chat di assistenza clienti gratuiti per il sito Web][1], [messaggi istantanei di WordPress utilizzando Rocket.chat][2] e altri. In questo post sul blog, passeremo attraverso il miglior software di assistenza clienti Rocket.Chat. Con l'enorme aumento del traffico online, le aziende hanno difficoltà a intrattenere un gran numero di domande in tempo. I visitatori vengono sul tuo sito, tendono ad acquisire alcune informazioni relative ai prodotti o ai servizi e lasciano il tuo sito in caso di non ricevere risposta. Pertanto, l'assistenza alla chat dal vivo ti aiuta a salutare i tuoi clienti in modo pro-previsto mentre passano attraverso il tuo sito web. Oppure, nel caso in cui abbiano bisogno di aiuto e chiarimenti per prendere le loro decisioni di acquisto.
 Il supporto della chat dal vivo aumenta la possibilità di convertire un visitatore in un cliente. Ci sono un sacco di software di supporto in chat open source****e disponibile. Ma Rocket.Chat ha guadagnato molta attrazione per le sue caratteristiche. E viene trattata come un'alternativa al software di chat leader del settore come Slack e Microsoft Team. In questo articolo, impareremo come installare Rocket.chat su un server e quindi come configurarlo sul tuo sito Web. Quindi, iniziamo coprendo i seguenti punti.
 * [**Cos'è Rocket.cha**t?][3]
@@ -59,7 +59,7 @@ E quindi configurare il look e la sensazione del widget di chat live
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat LiveChat Widget">}}
 
 
-##**Installa widget di chat live sul tuo sito Web** {#widget}
+## **Installa widget di chat live sul tuo sito Web** {#widget}
 In questa sezione, installeremo widget di chat live sul sito Web aziendale. Ora, per accedere a**Installazione LiveChat**Impostazioni:
 Vai all'installazione**LiveChat**nelle impostazioni del pannello omnicanale, come mostrato di seguito, e copia il pezzo di codice dato.
 

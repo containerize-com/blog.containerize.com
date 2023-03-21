@@ -25,14 +25,14 @@ Każda firma potrzebuje systemu zarządzania fakturami, wydatkami, płatnościam
 ## Procedura instalacji krateru   {#Installation}
 Omówimy, jak zainstalować krater z metodą ręczną i użyć Dockera w tej sekcji.
 
-### Instalacja ręczna
+## # Instalacja ręczna
   * Pobierz najnowszą wersję z.
   * Prześlij pobrany plik zip na swój serwer i wyodrębnij go.
   * Wskaż swoją domenę na publiczny katalog wewnątrz krateru.
   * Przejdź do korzenia swojego projektu i wykonaj polecenie „sudo chmod -r 775 ./”, aby przypisać odpowiednie uprawnienia.
   * Otwórz witrynę w przeglądarce i śledź kreatora instalacji.
 
-### Docker Instalation
+## # Docker Instalation
   * Zainstaluj Docker na swoim serwerze :.
   * Zainstaluj skompozycję Dockera, postępując zgodnie z tym przewodnikiem :.
   * Repozytorium krateru klonów za pomocą tego polecenia.

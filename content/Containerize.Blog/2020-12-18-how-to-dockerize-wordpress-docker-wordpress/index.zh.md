@@ -33,11 +33,11 @@ categories: ['Blogging']
 
 ## 如何安装Docker组成 {#install}
 
-### 先决条件
+## # 先决条件
 您可以使用Docker组合在使用Docker容器构建的孤立环境中轻松运行WordPress。本指南演示了如何使用组合来设置和运行WordPress。
 Docker撰写的依赖于Docker Engine，因此请确保您安装了Docker Engine。在台式机系统（例如用于Mac和Windows的Docker Desktop）上，将包括Docker Compose作为这些台式机安装的一部分。但是，首先，在Linux系统上，按照其[官方指南][9]安装Docker引擎。
 
-### 在Linux上安装撰写
+## # 在Linux上安装撰写
 运行此命令以下载Docker当前稳定版本组成：
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -51,7 +51,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-### 定义WordPress的Dockerfile
+## # 定义WordPress的Dockerfile
 我们需要做的第一件事是定义在**_ dockerfile _** 中的图像的样子。这是一个文本文件，并添加到了您的应用程序源中的目录中。
 ```
 FROM wordpress:php7.1-apache

@@ -14,7 +14,7 @@ categories: ['Software Development']
 {{< figure align=center src="images/maps.png" alt="Alternative di Google Maps">}}
 
 
-Panoramica ##
+Panoramica ## 
 Nel recente passato, abbiamo pubblicato alcuni post sul blog su alcuni argomenti interessanti e di tendenza come [Free & Open Source Popular JavaScript Frameworks][1], [Cose da rivedere prima di optare sul software open source nel 2021,][2] e alcuni altri . In questo articolo, passeremo attraverso un altro argomento entusiasmante open source  **Google Maps Alternatives** . L'emergere di Google Maps è considerata un enorme sviluppo nel mondo della navigazione online. In effetti, questo software Interactive Maps offre molto di più della mappatura e della navigazione come luoghi di ricerca, controllo di velocità, input vocale e altro ancora. Inoltre, [Google Maps][3] è altamente accessibile e offre la sua versione offline in cui non si dispone di disponibilità a Internet. Inoltre, ci sono molte disposizioni per gli imprenditori in quanto consente alle persone di aggiungere le loro attività su Google Maps insieme a contatti, sito Web, foto e video.
 D'altra parte, ci sono molti **software di navigazione gratuiti  **che la comunità open source ha sviluppato. Queste**   applicazioni di mappe** sono dotate di capacità di auto-osting e hanno comunità molto vive. Inoltre, è possibile utilizzare questi software MAP sulle piattaforme Web e mobili per tenere traccia delle direzioni e sfruttare le altre funzionalità. Tuttavia, procediamo oltre coprendo i seguenti punti.
   * **[OpenStreetMap][4]**

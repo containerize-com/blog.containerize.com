@@ -37,7 +37,7 @@ Ensuite, installez ce plugin et appuyez sur Activer pour l'activer pour l'utilis
 
 La beauté de WordPress est qu'elle communique avec le plugin Matomo de manière transparente à travers les API. Ce logiciel Open Source  **Web Analytics **  fournit le code de suivi tout comme Google Analytics. Par conséquent, vous n'avez pas besoin d'insérer manuellement le code de suivi, mais qu'il se produit automatiquement. Enfin, le plugin Matomo est installé et configuré sur WordPress et vous pouvez commencer à suivre les données du site Web de votre entreprise.
 
-##  **Tableau de bord Matomo **    {#dashboard}
+## **Tableau de bord Matomo **    {#dashboard}
 Ce didacticiel  **WordPress **  a décrit l'intégration du plugin open source  **Matomo ** . Maintenant, explorons son tableau de bord qui fournit des modules puissants. Dans le menu Matomo Analytics, cliquez sur l'option «Reporting» qui vous amènera au tableau de bord Matomo de votre site Web comme indiqué dans l'image ci-dessous.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="Analyse Web open source">}}

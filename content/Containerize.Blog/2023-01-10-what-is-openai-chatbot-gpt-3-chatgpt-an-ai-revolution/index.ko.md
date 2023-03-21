@@ -28,7 +28,7 @@ categories: ['Artificial intelligence']
 실제로 Chatgpt는 거대한 데이터 세트에 대해 교육을받은 큰 언어 모델 (LLM)이며 문장을 예측하고 완료하는 현상은 LLM 측에서 발생합니다. 이 데이터 세트는 자연 처리를 사용하여 인간과 같은 대화 문장을 생성하는 데 사용되는 텍스트 데이터를 구성합니다. 데이터 세트의 크기가 많을수록 언어 모델이 더 많이 수행됩니다.
 이**Openai Chatbot“Chatgpt”**는 인간 피드백을 사용하여 강화 학습이라는 기술을 사용하여 잘 훈련되어 시스템에 응답에 대한 피드백이 제공되고 해당 응답을 다시 생성하도록 시행합니다. Chatgpt를 독특하게 만드는 것은 대화에서 인간의 의도를 이해하는 능력입니다. 또한 대답해야 할 사항과 버릴 것과 같은 특정 유형의 질문에 대한 결정을 내릴만큼 지능적입니다. 대화의 범위는 제한되지 않으며이 AI 챗봇은 모든 유형의 대화를 시작하도록 훈련되었습니다.
 
-## chatgpt가 Google 검색보다 낫습니까?   {#chatgpt-is-better-than-google-search}}
+## chatgpt가 Google 검색보다 낫습니까?   {#chatgpt-is-better-than-google-search}
 * * ai 기반 chatgpt**의 출현으로 대화 반응은 일반 검색 결과보다 사용자를 더 많이 끌어들이는 것을 보았습니다. 이**Openai Chatbot**는 검색 결과를 사람과 같은 대화 응답으로 제시하는 반면 [Google][8]과 같은 검색 엔진은 간단한 일반 텍스트로 수행합니다. 그러나 두 플랫폼 모두 결과를 제공하기위한 다양한 접근 방식을 제시합니다.
 
 {{< figure align=center src="images/surprise.png" alt="AI 챗봇 chatgpt">}}

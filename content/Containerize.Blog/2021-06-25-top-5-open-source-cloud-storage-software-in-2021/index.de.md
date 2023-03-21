@@ -55,7 +55,7 @@ Zu den Funktionen gehören wie Objektbasiert, verwaltet zentralisierte Metadaten
   ***Xigmanas**  Open-Source-leistungsstarke und anpassbare Lösung
   ***Cloud Storage Server**  ist sicher und erweiterbarer Speicher
 
-## ****Final Denk **:**    {#4a1a}}
+## ****Final Denk **:**    {#4a1a}
 Die oben genannten fünf Open -Source -Cloud -Dateidatei -Plattformen sind flexible Lösungen. Im Cloud Computing würden Sie viele Open Source Private Cloud -Speicherlösungen finden, aber das zuverlässigste ist am wichtigsten. Sie oder das Bedürfnis Ihres Unternehmens entscheiden die Auswahl der Cloud -Software. Ich hoffe, dieser Artikel hilft Ihnen dabei, einen sicheren und zuverlässigen persönlichen Cloud -Server einzurichten oder den besten Cloud -Service für die Speicherung Ihrer wertvollen Bilder, Musik, Filme und Dokumente auszuwählen.
 _Was ist Ihre bevorzugte kostenlose und Open -Source -Cloud -Storage -Softwarelösung?. Wenn Sie Fragen haben, bitte_ [in Kontakt][8].
 

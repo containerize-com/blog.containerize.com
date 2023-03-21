@@ -33,16 +33,16 @@ Diễn đàn trả lời câu hỏi này nhanh, đáng tin cậy, nhẹ và cung
 ## flarum vs diễn ngôn   {#vs}
 Trong phần này, chúng tôi sẽ đặt cả hai phần mềm diễn đàn nguồn mở này ở một nơi mà chúng tôi sẽ có thể so sánh diễn ngôn và Flarum.
 
-#### Cộng đồng
+## ## Cộng đồng
 Chà, cả hai diễn đàn trả lời câu hỏi miễn phí này đều có các cộng đồng mạnh mẽ phản ứng tích cực với các truy vấn của người dùng/nhà phát triển. Nếu chúng ta nói về các số liệu thống kê GitHub, Flarum có 12K cộng với các ngôi sao và 1k Fork trên repo GitHub của nó. Mặt khác, diễn ngôn có 34K cộng với các ngôi sao và 7K Plus Fork trên repo github của nó.
 
-#### Stack công nghệ
+## ## Stack công nghệ
 Theo như phần mềm công nghệ của phần mềm diễn đàn nguồn mở này có liên quan, diễn ngôn được viết bằng Ruby trên Rails và JavaScript. Trong khi đó, flarum được viết bằng PHP với sự kết hợp và mysql / mariadb.
 
-####**Đặc trưng**
+## ## **Đặc trưng**
 Đây là khía cạnh quan trọng nhất khi nói đến việc lựa chọn bất kỳ phần mềm nào cho doanh nghiệp của bạn. Do đó, cả hai phần mềm diễn đàn thảo luận này cung cấp các tính năng cấp doanh nghiệp. Falrum và diễn ngôn cả cung cấp các tính năng xã hội và hệ thống thông báo phong phú. Ngoài ra, diễn ngôn có một cơ sở plugin khổng lồ, nơi bạn có thể tìm thấy hầu hết các loại plugin. Hơn nữa, người dùng có thể sửa đổi giao diện của bảng điều khiển diễn ngôn. Nó cũng cung cấp các tính năng đăng nhập một nơi mà người dùng có thể đăng nhập bằng cách sử dụng đăng nhập xã hội của bên thứ ba.
 
-#### Khả năng mở rộng
+## ## Khả năng mở rộng
 Đây là một đặc điểm quan trọng khác của bất kỳ phần mềm. May mắn thay, cả hai phần mềm diễn đàn nguồn mở này đều có thể mở rộng và các nhà phát triển có thể dễ dàng mở rộng chức năng theo nhu cầu. Trên hết, diễn ngôn cung cấp AP cho các tích hợp của bên thứ ba.
 
 ## Kết luận   {#conclusion}

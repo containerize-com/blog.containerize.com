@@ -97,7 +97,7 @@ http：// localhost/owncloud/
 {{_LINE_79_}}
 是的！我们使用OwnCloud安装指南来构建个人云存储。现在，您知道如何在Ubuntu上完全安装owncloud，以逐步构建类似于Dropbox或Google Drive的私有云。
 
-##  **owncloud的最佳替代方案是什么？**    {#4a1a}
+## **owncloud的最佳替代方案是什么？**    {#4a1a}
 以下是自托管的ownCloud替代方案和竞争对手文件托管软件。
   ***Seafile** 是开源跨平台文件托管软件系统
   ***NextCloud** 是免费的，开源云存储平台

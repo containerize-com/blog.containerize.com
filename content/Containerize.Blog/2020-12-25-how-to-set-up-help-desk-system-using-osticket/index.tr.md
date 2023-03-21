@@ -24,14 +24,14 @@ Osticket, kullanıcı dostu bir kontrol paneli ve gerçek zamanlı bir raporlama
 
 ## Osticket'in artıları ve eksileri   {#pros}
 
-#### Artılar
+## ## Artılar
   * Osticket hem son kullanıcılar hem de destek aracıları için son derece kullanıcı dostudur.
   * Zengin özelliklerle paketlenmiş Osticket, aşırı karmaşık olmadan ihtiyacınız olan her şeye sahiptir.
   * Osticket tamamen ücretsiz ve açık kaynaklı bilet yönetimi yazılımıdır.
   * Hafif, güvenli, güvenilir ve yardım masası yönetimi yazılımı yüklenmesi kolaydır.
   * Apache, Nginx, LightTPD ve IIS vb.
 
-#### Eksileri
+## ## Eksileri
   * Osticket, diğer ücretli yardım masası sistemleri gibi bilet analizi ve istatistikleri detaylandırmaz.
   * Kullanıcı arayüzü, diğer destek sistemlerine kıyasla çok basit ve temeldir.
 

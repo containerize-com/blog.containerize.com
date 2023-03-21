@@ -37,7 +37,7 @@ Em seguida, instale este plug -in e pressione Ative para ativá -lo para usá -l
 
 A beleza do WordPress é que ele se comunica com o plug -in Matomo sem problemas através das APIs. Este Software de Analíquia da Web  **Open **  fornece o código de rastreamento, assim como o Google Analytics. Portanto, você não precisa inserir o código de rastreamento manualmente, mas isso acontece automaticamente. Por fim, o plug -in do Matomo está instalado e configurado no WordPress e você pode começar a rastrear os dados do site da sua empresa.
 
-##  **Dashboard Matomo **    {#Dashboard}
+## **Dashboard Matomo **    {#Dashboard}
 Este tutorial  **WordPress **  descreveu a integração do código aberto  **Matomo Plugin ** . Agora, vamos explorar seu painel que fornece módulos poderosos. No menu Matomo Analytics, clique na opção "Relatórios" que o levará ao painel Matomo do seu site, como mostra a imagem abaixo.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="análise da web de código aberto">}}

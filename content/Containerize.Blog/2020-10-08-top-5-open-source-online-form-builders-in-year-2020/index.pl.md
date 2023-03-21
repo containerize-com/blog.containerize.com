@@ -24,7 +24,7 @@ Aby pomóc Ci wybrać właściwy budowniczy formularzy online, nasz zespół utw
   * [Webiny][4]
   * [FormTools][5]
 
-###**form.io** {#formio}
+## # **form.io** {#formio}
 Form.io jest jednym z najpopularniejszych oprogramowania Builder z funkcjami zaawansowanymi. Pomaga generować formularze i ankiety wjazdu danych wraz z platformą API zarządzania danymi.
 FORM.io oparte jest na Node.js i MongoDB. Obsługuje architekturę bez serwera, co czyni ją prostą i skalowalną. Przede wszystkim obsługuje uwierzytelnianie użytkownika i zapewnia pełną kontrolę danych w własnym środowisku.
 Oto najważniejsze atrakcje formy.io
@@ -35,7 +35,7 @@ Oto najważniejsze atrakcje formy.io
   * Interfejs przeciągnij i upuść
     [Czytaj więcej][6]
 
-###**Orbeon** {#orbeon}
+## # **Orbeon** {#orbeon}
 Orbeon jest wykorzystywany do generowania form złożonych na poziomie przemysłowym bez żadnej wiedzy technicznej. Jego platforma agnostyczna i formy są dostępne za pośrednictwem komputerów stacjonarnych, laptopów i telefonów komórkowych.
 Jest to jedno z popularnych oprogramowania Builder Forms Builder, które zapewnia zaawansowane funkcje szybkiego generowania formularzy internetowych. Postępuje zgodnie ze standardami internetowymi, dzięki czemu jest to przekrojowa platforma. Koncentruje się na bezpieczeństwie, a wszystkie dane są szyfrowane w spoczynku.
 Orbeon obsługuje integrację stron trzecią Dlatego pozwala połączyć się z dowolnym backendem. Obsługuje zarówno format JSON, jak i XML dla usług zewnętrznych, aby zwrócić odpowiedź
@@ -47,7 +47,7 @@ Oto niektóre z kluczowych funkcji Orbeon
   * Wsparcie Liferay.
     [Czytaj więcej][7]
 
-###**OHMYFORM** {#OHMYFORM}
+## # **OHMYFORM** {#OHMYFORM}
 Ohmyform to oprogramowanie typu open source do generowania formularzy, ankiet i pytań. Śledzi standardowe technologie i formularze internetowe, które można łatwo osadzić w aplikacjach mobilnych, komputerowych i internetowych.
 Ohmyform jest wyposażony w wbudowane narzędzia do analizy danych. Innymi słowy, możesz przeanalizować wszystkie zgłoszenia danych i zgłoszenia formularzy ankiety. Jest aktywnie rozwijany. Co najważniejsze, społeczność programistów bardzo ciężko pracuje nad ulepszeniem produktu.
 Najważniejsze atrakcje OhmyForm są wymienione tutaj
@@ -58,7 +58,7 @@ Najważniejsze atrakcje OhmyForm są wymienione tutaj
   * Forms jako interfejs API serwisowy.
     [Czytaj więcej][8]
 
-###**Webiny** {#Webiny}
+## # **Webiny** {#Webiny}
 Webiny to samooprzezorodowe oprogramowanie do budowy w pełni funkcjonalnych formularzy. To nie tylko konstruktor formularzy. Ale kompletny pakiet do automatyzacji większości internetowych procesów biznesowych.
 Webiny jest zbudowany na Node.js i GraphQL i ReactJS. Dlatego całkowicie obsługuje architekturę bez serwera. Ponadto może pomóc w zbudowaniu interfejsu API, aplikacji React, pełnej aplikacji administracyjnej dla produktu, strony internetowej lub aplikacji mobilnej.
 Architektura bez serwera sprawia, że ​​aplikacja jest skalowalna i uwalnia Cię z problemów związanych z obciążeniem i ruchem. Nie tylko to ma znacznie więcej funkcji z góry, takich jak
@@ -69,7 +69,7 @@ Architektura bez serwera sprawia, że ​​aplikacja jest skalowalna i uwalnia 
   * Webhooks
     [Czytaj więcej][9]
 
-###**FormTools** {#formTools}
+## # **FormTools** {#formTools}
 Form Form Tools to potężny, elastyczny, bezpłatny i open source PHP/MySQL Script. Musisz zainstalować go na swojej stronie internetowej, aby zarządzać formularzami i danymi. Ponadto FormTools pojawia się z interfejsem budowniczym formularzy, w którym można tworzyć jedne strony i formularze wielostronicowe.
 FormTools nie tylko pozwalają na gromadzenie danych, ale także pozwala przeglądać i analizować dane za pomocą potężnego modułu wizualizacji danych. Ponadto pozwala to również wyeksportować swoje dane do wykorzystania przez inne narzędzia analizy danych innych firm.
 Wraz z zarządzaniem użytkownikami i obsługą interfejsu API istnieje kompleksowa lista funkcji, które zapewnia FormTools, oto niektóre z tych funkcji
@@ -80,7 +80,7 @@ Wraz z zarządzaniem użytkownikami i obsługą interfejsu API istnieje kompleks
   * Obsługa Map Google
     [Czytaj więcej][10]
 
-### Wniosek
+## # Wniosek
 Na tym blogu dokonaliśmy przeglądu najlepszego oprogramowania Builder Form Forms Builder Best Open Source. Form.io, Webiny i Ohmyform mają dobre rozwiązanie poza pudełkiem dla integracji stron trzecich, a także kompleksowe wsparcie API. Tak więc, jeśli chcesz połączyć się z backendem stron trzecich lub potrzebujesz wbudowanej analizy, możesz z nich skorzystać. Jeśli chcesz szybko skonfigurować Orbeon i Formtools, są dobrym wyborem.
 
   

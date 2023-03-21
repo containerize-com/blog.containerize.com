@@ -14,7 +14,7 @@ categories: ['Marketing Automation', 'Marketplace']
 {{< figure align=center src="images/Open-Source-SEO-Tools-to-Drive-Traffic-Search-Engine-Marketing-Tools-SEM-Tools-for-Marketers.png" alt="Công cụ SEO nguồn mở để lái xe | Công cụ tiếp thị công cụ tìm kiếm | Công cụ SEM cho các nhà tiếp thị|Công cụ SEO nguồn mở để lái xe | Công cụ tiếp thị công cụ tìm kiếm | Công cụ SEM cho các nhà tiếp thị|Công cụ SEO nguồn mở để lái xe | Công cụ tiếp thị công cụ tìm kiếm | Công cụ SEM cho các nhà tiếp thị">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Các công cụ tối ưu hóa công cụ tìm kiếm có thể tốn kém, vì vậy, rất vui khi biết có một số công cụ SEO mở và miễn phí để sử dụng thay thế. Hãy cùng đi qua 5 công cụ SEO nguồn mở hoạt động. Từ trình kiểm tra hạng đến phân tích tệp nhật ký và thậm chí trình thu thập dữ liệu trang web. Chúng tôi sẽ vượt qua 5 công cụ SEO nguồn mở có thể giúp cung cấp dữ liệu cần thiết để tối ưu hóa một trang web cho các công cụ tìm kiếm.
 Trên trang SEO các yếu tố cần được theo dõi, đặc biệt nếu bạn có nhiều tay trong trang web Cookiejar. Đôi khi phần mềm thương mại có giá cho các doanh nghiệp và SEO bắt đầu, đó là nơi mà nguồn mở giúp ích. Nếu bạn hoặc một người bạn biết một hoặc hai điều về lập trình, bạn thậm chí có thể tùy chỉnh và tạo một bộ công cụ mới chỉ dành cho bạn. Bây giờ có một chút kỹ thuật biết cách thiết lập các công cụ nguồn mở này!
 Trong bài viết này, chúng tôi sẽ liệt kê một số nền tảng tối ưu hóa động cơ nguồn mở với các tính năng phổ biến. Bạn có thể sử dụng các nền tảng SEO này để điều khiển lưu lượng truy cập đến trang web của bạn.

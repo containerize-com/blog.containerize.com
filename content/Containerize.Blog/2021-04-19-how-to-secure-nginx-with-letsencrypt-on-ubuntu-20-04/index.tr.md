@@ -65,7 +65,7 @@ sudo systemctl reload nginx
 ```
 CertBot yardımcı programı artık NGINX'i güvence altına almak ve otomatik olarak güncellemek için doğru Nginx Server Block yönergesini bulabilir. Bir sonraki adımda, HTTPS trafiğine izin vermek için güvenlik duvarını güncelleyelim.
 
-## Adım 3-HTTPS'nin güvenlik duvarından izin verilmesi   {#Step-3 -—- HTTPS-Firewall'a izin vermek}}
+## Adım 3-HTTPS'nin güvenlik duvarından izin verilmesi   {#Step-3 -—- HTTPS-Firewall'a izin vermek}
 Bu makalede önerildiği gibi, HTTPS trafiğine izin vermek için ayarları ayarlamanız gerekir. Güvenlik duvarınızın etkin ve etkin olduğundan emin olmak için aşağıdaki komutu çalıştırın:
 ```
 sudo ufw status

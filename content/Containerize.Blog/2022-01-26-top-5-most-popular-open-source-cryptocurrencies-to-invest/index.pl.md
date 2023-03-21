@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms', 'Business Intelligence Software']
 {{< figure align=center src="images/Top-5-Most-Popular-Open-Source-Cryptocurrencies-To-Invest.png" alt="5 najpopularniejszych kryptowalut open source do inwestowania">}}
 
 
-##**Przegląd**
+## **Przegląd**
 **Co to jest kryptowaluta?** Kryptowaluta, kryptowaluta lub krypto to cyfrowe pieniądze lub wirtualna waluta, która przybiera formę tokenów lub monet. Jest zabezpieczony technikami kryptograficznymi, co sprawia, że ​​prawie niemożliwe jest podrobienie pieniędzy lub dwukrotnie. Wiele kryptowalut istnieje w rozproszonych i zdecentralizowanych sieciach opartych na technologii blockchain. Ważną cechą kryptowalut jest to, że na ogół nie mają one centralnego organu pieniężnego lub regulującego władzę, czyniąc je teoretycznie odpornymi na kontrolę rządu lub manipulację.
 Pole kryptowalut rozszerzyło się dramatycznie od czasu **Bitcoin ** ** Król kryptowalut**  został wydany w 2009 roku, a jutro może zostać wydana kolejna świetna waluta cyfrowa. Jeśli chodzi o zarządzanie, bycie open source jest uważane za całkowicie błędne wobec idei scentralizowanego kierownictwa. Właśnie dlatego zdecentralizowane kryptowaluty są prawie otwarte.
 Ponieważ wszystkie pięć z tych poniżej kryptowalut są open source, w ramach i protokołach są stałe osiągnięcia, które tworzą oprogramowanie do kryptowalut.  **Kryptowaluta staje się coraz silniejsza i silniejsza** , gdy złe pomysły są testowane i filtrowane. Wszystkie problemy z skalowaniem i bezpieczeństwem tych kryptowalut należy rozwiązać i dobrze jest, że te kryptowaluty są open source. Umożliwiają one programistom zacząć od kryptowalut w urzeczywistnieniu każdej monety lub tokenu, aby osiągnąć masowe adopcję.

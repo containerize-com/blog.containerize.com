@@ -9,7 +9,7 @@ url: /zh-hant/how-to-create-an-online-store-with-woocommerce/
 categories: ['Shopping Cart Software']
 ---
 
-##創建一個帶有免費WordPress插件的在線商店，並迅速開始向客戶銷售。管理WordPress網站並從單個接口存儲。
+## 創建一個帶有免費WordPress插件的在線商店，並迅速開始向客戶銷售。管理WordPress網站並從單個接口存儲。
 
 {{< figure align=center src="images/create-woocomerce-store.png" alt="WordPress購物車插件">}}
 
@@ -20,10 +20,10 @@ categories: ['Shopping Cart Software']
   *[**帶有WooCommerce的設置商店**][3]
   *[**結論**][4]
 
-##安裝WordPress   {#WordPress}
+## 安裝WordPress   {#WordPress}
 如果您已經安裝了WordPress，則可以跳過此部分並移至下一個部分。如果您沒有WordPress設置，則可以在[ **Containerize.com** ][5]上找到安裝逐步的指南。
 
-##安裝WooCommerce插件 {#WooCommerce}
+## 安裝WooCommerce插件 {#WooCommerce}
 為了設置WooCommerce，請執行以下步驟：
   *登錄WordPress網站的管理面板。
   *導航到**插件**，然後單擊**添加新**按鈕。
@@ -34,7 +34,7 @@ categories: ['Shopping Cart Software']
   *單擊**立即安裝** WooCommerce插件旁邊的按鈕。
   *安裝需要一些時間。完成安裝後，單擊**激活**按鈕。
 
-##設置商店與WooCommerce   {#setup}
+## 設置商店與WooCommerce   {#setup}
 設置嚮導可以指導您完成創建商店的所有必需步驟。按照以下步驟操作，您的商店將準備開始銷售。
 
 {{< figure align=center src="images/WooCommerce-2-1024x371.png" alt="與WooCommerce的設置商店">}}
@@ -49,7 +49,7 @@ categories: ['Shopping Cart Software']
 {{< figure align=center src="images/WooCommerce-3.png" alt="商店設置清單">}}
 
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 我們已經討論瞭如何在本教程中設置WordPress和**WooCommerce Cart **。我們希望本指南能幫助您建立在線商店。但是，您可以查看**  WooCommerce Storefront**，以選擇適合商店的主題。
 此外，[ **containerize.com** ][6]正在以多種語言和框架來增強開源產品的堆棧。有關定期更新，請繼續關注[**購物車軟件**][7]類別，以獲取更多有趣的文章。
 

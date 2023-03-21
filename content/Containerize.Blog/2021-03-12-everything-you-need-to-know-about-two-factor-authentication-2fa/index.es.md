@@ -186,7 +186,7 @@ Se verifica el código del paso 4 y se ha completado la autenticación 2FA.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo - página autorizada">}}
 
 
-### Conclusión:
+## # Conclusión:
 En este artículo, hemos aprendido sobre 2FA y su implementación en .NET5 utilizando IdentityServer4 y Twilio. Puede descargar el código de muestra utilizado en este artículo de este [Repo][6].
 El uso de SMS para 2FA seguramente fortalece su seguridad, pero todavía es vulnerable a [ataques de intercambio SIM][7]. Por lo tanto, los investigadores de seguridad alentan a 2FA a utilizar otros enfoques como aplicaciones de autenticador y claves de seguridad ([yubikey][8]) que no se pueden interceptar en la red telefónica. Aprenderemos más sobre eso en un próximo artículo: ¡estén atentos!
 

@@ -59,7 +59,7 @@ Và sau đó định cấu hình tiện ích trò chuyện trực tiếp
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat LiveChat Widget">}}
 
 
-##**Cài đặt tiện ích trò chuyện trực tiếp trên trang web của bạn** {#Widget}
+## **Cài đặt tiện ích trò chuyện trực tiếp trên trang web của bạn** {#Widget}
 Trong phần này, chúng tôi sẽ cài đặt các tiện ích trò chuyện trực tiếp trên trang web kinh doanh. Bây giờ, để truy cập**Cài đặt LiveChat**Cài đặt:
 Truy cập**Cài đặt LiveChat**trong cài đặt bảng điều khiển Omnichannel, như được hiển thị bên dưới và sao chép đoạn mã đã cho.
 

@@ -15,10 +15,10 @@ categories: ['Blogging']
   * [要求][1]
   * [逐步指南][2]
 
-### 要求 {#requirements}
+## # 要求 {#requirements}
 首先，您需要做的是最重要的事情，是安装WordPress。 WordPress以其易于安装而闻名。这是一个简单的过程，可以按照[指南][3]轻松完成自己的操作。
 
-### 如何创建WordPress主题；逐步指南 {#guide}
+## # 如何创建WordPress主题；逐步指南 {#guide}
 对于WordPress主题，一切都将仅在**wp_content **目录中完成。只需在**  wp_content→主题文件夹中制作一个新的主题子文件夹即可。
 第二件事是决定主题的布局。在这里，教程显示了基本布局，包括**标题，主区域，页脚，侧边栏**。
 基本上，WordPress仅需要2个文件，即style.css and Index.php。但是，对于此布局，您需要 **5个文件** ，如下所示；
@@ -32,7 +32,7 @@ categories: ['Blogging']
 **Bootstrap.js **和 **Bootstrap.css**  需要从Bootstrap软件包下载并复制到**主题**文件夹中。
 这是要遵循设置主题的步骤
 
-### 步骤1：header.php文件
+## # 步骤1：header.php文件
 将以下代码放在header.php文件中。
 ```
 <html>
@@ -57,7 +57,7 @@ categories: ['Blogging']
 ```
 此文件标题.php包含链接JS和样式文件的标头部分的代码。它显示页面的标题。
 
-### 步骤2：index.php文件
+## # 步骤2：index.php文件
 将以下代码放在主文件index.php中
 ```
 <?php get_header(); ?>
@@ -83,7 +83,7 @@ categories: ['Blogging']
 ```
 上面的代码显示帖子，侧边栏和页脚的主要内容。
 
-### 步骤3：sidebar.php文件
+## # 步骤3：sidebar.php文件
 在sidebar.php中添加以下代码
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +95,7 @@ categories: ['Blogging']
 ```
 在上面的代码中，调用内部WordPress函数显示不同的类别，即帖子档案。
 
-### 步骤4：footer.php文件
+## # 步骤4：footer.php文件
 将以下代码行添加到footer.php文件：
 ```
 <div id= "ttr_footer">
@@ -132,7 +132,7 @@ font-weight: bold;
 ```
 遵循上述所有步骤后，您将拥有一个基本的WordPress主题。您可以进一步修改它，使其更加美丽，适合您的要求。
 
-### 结论
+## # 结论
 在本教程中，我们解释了如何以简单简便的步骤创建WordPress主题。在阅读并遵循创建WordPress主题的步骤之后，现在已经不再是艰巨的任务了。但是，显然，这个教程坚持非常基本的设置，为了增强您的功能，您必须了解有关HTML，CSS，JS和PHP的更多信息。
 
   

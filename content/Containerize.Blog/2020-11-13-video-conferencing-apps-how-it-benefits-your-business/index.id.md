@@ -32,7 +32,7 @@ Baru -baru ini, organisasi cenderung mengadopsi aplikasi rapat video  ****  untu
 ## TOP 3 Perangkat Lunak Konferensi Video Open Source   {#top}
 Ada banyak sistem konferensi web open source yang tersedia. Jadi, mari kita lihat yang paling populer:
 
-#### Jitsi bertemu
+## ## Jitsi bertemu
 [Jitsi Meet][5] adalah perangkat lunak kolaborasi video open source dengan banyak alat kolaborasi video. Ini sangat aman dan dilengkapi dengan kemampuan enkripsi. Selanjutnya, ini **perangkat lunak pertemuan open source**  menggunakan jembatan video perangkat lunak berbasis WebRTC untuk konferensi video definisi tinggi. Alat gratis ini mudah diatur, dan dapat dikonfigurasi dengan aplikasi pihak ketiga. Selain itu, peserta dapat mengobrol satu sama lain selama panggilan dan dapat mengundang anggota lebih lanjut dengan berbagi tautan dengan mereka. Namun, aplikasi panggilan video ini ditulis dalam JavaScript dan semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, pengembang dapat menemukan kode sumbernya di [GitHub][6]. Ini memiliki fitur utama berikut:
   * Konferensi video multi-partai
   * Dukungan untuk Etherpad
@@ -40,7 +40,7 @@ Ada banyak sistem konferensi web open source yang tersedia. Jadi, mari kita liha
   * Kompatibel WEBRTC
   * Enkripsi video/audio
 
-#### BigBluebutton
+## ## BigBluebutton
 [BigBluebutton][7] adalah aplikasi konferensi video **waktu nyata  **yang tidak hanya memberikan solusi untuk pertemuan video tetapi juga menawarkan integrasi dengan beberapa kerangka kerja sumber terbuka yang populer seperti [Drupal][8], Redmine, [WordPress][9], dan beberapa lagi. Seperti aplikasi rapat video **  lainnya** , itu aman dan dilengkapi dengan kemampuan hosting sendiri. Selain itu, ia menyediakan antarmuka yang sangat logis sehingga pengguna dapat menavigasi dengan mudah. Namun, aplikasi panggilan video ini ditulis dalam JavaScript bersama dengan input bahasa lain seperti Java, HTML5, Scala Ruby, Groovy, dan CSS dan semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, pengembang dapat menemukan kode sumbernya di [GitHub][10]. Fitur utama berikut meliputi:
   * Papan tulis multi-pengguna
   * Obrolan real-time
@@ -49,7 +49,7 @@ Ada banyak sistem konferensi web open source yang tersedia. Jadi, mari kita liha
   * Dukungan untuk Perangkat Lunak Pihak Ketiga (E.G.Drupal, WordPress)
   * Audio HD
 
-#### OpenVidu
+## ## OpenVidu
 Demikian pula, [OpenVidu][11] adalah perangkat lunak kolaborasi open source **video lainnya  **yang menyediakan fitur dan alat untuk konferensi video jarak jauh. Arsitekturnya terdiri dari dua lapisan. Yang pertama adalah browser OpenVidu yang merupakan pustaka sisi klien dan yang lainnya adalah server OpenVidu yang merupakan pustaka backend. Mudah diatur dan menyediakan gambar Docker untuk penyebaran dan perkembangan yang mudah. Namun, aplikasi panggilan video grup **  ini**  ditulis dalam JavaScript dan semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Oleh karena itu, pengembang dapat menemukan kode sumbernya di [GitHub][12]. Beberapa fitur yang menonjol adalah:
   * Kompatibel WEBRTC
   * Berbagi layar

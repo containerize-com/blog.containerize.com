@@ -27,7 +27,7 @@ Les outils de gestion de la traduction suivants seront couverts dans ce guide:
 Si vous cherchez à l'essayer, vous pouvez trouver son code sur le repo [github][7] avec toutes les instructions d'installation mentionnées. Ce système de gestion de traduction gratuit a la capacité de gérer plusieurs fichiers de traduction. De plus, vous pouvez créer des adaptateurs personnalisés et faire de nombreuses autres personnalisations pour répondre aux besoins de votre entreprise. Fondamentalement, il fait tous les processus par analyse statique où il offre une console interactive aux utilisateurs. De plus, ce TMS open source fournit des intégrations avec Deepl et Google Traductions.
 **[En savoir plus sur les tâches i18n][5]**
 
-##**Tolgee** {#tolgee}
+## **Tolgee** {#tolgee}
 [Tolgee][8] est un système open source de niveau d'entreprise**Système de gestion de la traduction.**Il est livré avec des capacités d'auto-hébergement avec une riche pile de fonctionnalités. Ce TMS est écrit en Kotlin, et dactylographié et propose des intégrations avec presque tous les frameworks JavaScript populaires tels que Next.js, Angular, Vue, etc. De plus, ce TMS gratuit a tout le code source disponible sur [GitHub][9] avec une documentation complète concernant le développement et le déploiement.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="Système de gestion de la traduction">}}
@@ -42,7 +42,7 @@ Voici les caractéristiques importantes de ce TMS gratuit:
 .**Collaboration**: C'est une autre disposition importante dans laquelle différentes parties prenantes peuvent travailler en collaboration et examiner, le travail effectué par d'autres
 [**En savoir plus sur Tolgee**][8]
 
-##**Traduora** {#traduora}
+## **Traduora** {#traduora}
 [Traduora][13] est un autre logiciel open source pour automatiser le flux de travail de traduction. Ce TMS gratuit est également écrit en dactylographie ainsi que la saisie d'autres langues telles que HTML, JavaScript, CSS et autres. De plus, vous pouvez l'auto-héberger car il existe une documentation complète disponible sur GitHub concernant son développement et son déploiement. De plus, il existe une image Docker disponible de ce logiciel de gestion de la traduction open source avec lequel vous configurez ce logiciel en faisant tourner le conteneur du Docker.
 Surtout, Traduora a exposé une API REST pour l'intégration avec des applications tierces. Il y a une implémentation complète de l'authentification dans ce TMS gratuit.
 TradUora propose les principales caractéristiques suivantes:

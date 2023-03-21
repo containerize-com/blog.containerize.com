@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Jak zainstalować platformę udostępniania plików Pydio na Ubuntu">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Komórki Pydio to oprogramowanie do udostępniania i synchronizacji plików typu open source. Zapewnia jeden punkt dostępu do wszystkich przechowywania danych i jest alternatywą dla OwnCloud i NextCloud, który świadczy usługi pamięci, udostępnianie plików i synchronizację. Pydio to platforma udostępniania plików open source Enterprise podobna do Dropbox i innych platform pamięci. Pomaga bezpiecznie podłączyć wszystkie pliki i urządzenia na jednej platformie.
 Pydio Cell to oparta na chmurze platforma synchronizacji plików i współpracy. To oprogramowanie typu open source działa na osobistej infrastrukturze IT i pomaga pracownikom chronić i monitorować dane biznesowe. Możesz zsynchronizować swoje dane i uzyskać do nich dostęp z dowolnego miejsca za pomocą aplikacji mobilnej, oprogramowania komputerowego lub przeglądarki internetowej za pomocą komórek Pydio. Najlepsza aplikacja do udostępniania plików komórek Pydio jest oparta na architekturze mikro-usług i jest napisana przy użyciu języka programowania Golang.
 Ten samouczek pomoże Ci zainstalować i skonfigurować oprogramowanie do udostępniania plików Pydio i platformę synchronizującą w systemach Ubuntu LTS.
@@ -39,19 +39,19 @@ sudo reboot
 ## Krok 2: Zainstaluj serwer LAMP
 Aby skonfigurować Pydio Secure Enterprise Plice Server i sposób utworzenia prywatnej chmury open source, najpierw musimy skonfigurować działającą serwer LAMP. Jeśli już zainstalowałeś i działając stosowanie lampy, pomiń ten krok, a następnie użyj poleceń obserwujących, aby skonfigurować lampę w systemie Ubuntu.
 
-### Zainstaluj php
+## # Zainstaluj php
 Możesz zainstalować PHP w systemie Ubuntu lub Debian, uruchamiając polecenia:
 sudo apt-get instaluj Python-Sofware-Properties
 sudo add-apt-repozytory PPA: ondrej/php
 sudo apt-get instaluj -y php php-gd php-curl php-zip php-akt php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### Zainstaluj Apache2
+## # Zainstaluj Apache2
 Apache to najczęściej używane oprogramowanie serwera internetowego typu open source. Następnie zainstaluj serwer WWW Apache na Ubuntu, uruchamiając:
 sudo apt-get install -y Apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Zainstaluj mysql
+## # Zainstaluj mysql
 MySQL open source relacyjna system zarządzania bazą danych jest składnikiem stosu oprogramowania aplikacji internetowej i innych. Teraz instalowanie MySQL na Ubuntu, działając poniżej:
 sudo apt-get instal -y mysql-server php-mysql
 {{_LINE_42_}}

@@ -20,7 +20,7 @@ Los siguientes puntos se cubrirán en este artículo:
 * **[hosts de contenedores multi-inquilinos][5]**
 * **[Kubernetes multi-tenancia][6]**
 
-## Hosts de contenedores múltiples   {#Hosts-Container-Container}}
+## Hosts de contenedores múltiples   {#Hosts-Container-Container}
 La implementación de aplicaciones de múltiples inquilinos es una tarea crítica cuando se trata de alojamiento de plataformas. Todos saben que los contenedores son livianos en comparación con las máquinas virtuales. La implementación de la aplicación toma solo unos pocos milisegundos para completar la implementación, mientras que podría ser cuestión de segundos o minutos en el caso de las máquinas virtuales.
 Sin embargo, lograr la tenencia múltiple en una arquitectura basada en contenedores es bastante sencillo. Cada inquilino es alojado por un contenedor separado con completo aislamiento y privacidad de datos. Eso significa que el número de contenedores depende del número de inquilinos. Además, se utilizarán las siguientes herramientas para lograr este enfoque:
   * Docker y Docker componen

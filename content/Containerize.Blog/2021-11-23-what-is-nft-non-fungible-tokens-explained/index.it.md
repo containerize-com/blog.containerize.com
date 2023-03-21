@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms']
 {{< figure align=center src="images/nft.png" alt="Cos'è NFT">}}
 
 
-Panoramica ##
+Panoramica ## 
 Nella serie di open source [piattaforme blockchain][1], abbiamo pubblicato molti post sul blog che includono articoli introduttivi e tutorial come [i 5 portafogli di criptovalute open source nel 2021][2], [come impostare il nodo Ethereum Su localhost | Guida per principianti][3] e altri altri. Con l'aumento della tecnologia blockchain, molti degli ultimi sviluppi sono orientati ai contabili distribuiti. È stata la prima scelta a causa di alcune potenti caratteristiche come apertura, sicurezza, trasparenza e robustezza. Ora, parliamo del NFT.  **Cos'è Nft** ? NFT è un token non fissobile ed è conservato in un libro mastro distribuito chiamato blockchain. Il più delle volte, è [Ethereum][1] blockchain che supporta le transazioni di NFT.
 In questo post sul blog, passeremo attraverso i token  **non fischibili**  coprendo i seguenti punti.
   * **[che cos'è nft?][4]**

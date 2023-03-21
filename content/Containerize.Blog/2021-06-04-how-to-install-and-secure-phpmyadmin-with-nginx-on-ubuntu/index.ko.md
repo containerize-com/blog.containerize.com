@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/install_phpmyadmin_with_nginx_on_ubuntu.png" alt="Ubuntu의 Nginx를 사용하여 Phpmyadmin을 설치하고 확보하는 방법">}}
 
 
-##  **개요 ** 
+## **개요 ** 
 Phpmyadmin은 직관적 인 인터페이스를 통해 MySQL 또는 Mariadb 서버를 관리하는 웹 인터페이스를 제공하는 무료 및 오픈 소스 데이터베이스 관리 도구입니다. 이는 대부분의 인기있는 호스팅 제공 업체가 제공하는 널리 지원되는 소프트웨어 중 하나이며, 웹 관리자가 PhpmyAdmin에서 데이터베이스를 작성하고 데이터베이스를 관리하고 SQL- 진술을 실행하고 데이터를 쉽게 가져오고 내 보낼 수 있습니다. PHP 개발 환경과 함께 실행되는 그래픽 웹 인터페이스를 통해 NGINX를 통해 PHPMYADMIN의 MySQL 또는 MariaDB 데이터베이스에 액세스 할 수 있습니다.
 이 안내서에서는 Ubuntu 20.04의 Nginx를 사용하여 Phpmyadmin을 설치하고 보호하는 방법을 설명 할 것입니다. Ubuntu 서버에 phpmyadmin을 설치하고 구성하여 MySQL 데이터베이스 및 테이블과 쉽게 작동하도록해야합니다. Ubuntu 20.04 / 20.10의 Nginx를 사용하여 Phpmyadmin을 설치하고 확보하는 방법을 배우겠습니다.
   * 전제 조건
@@ -90,7 +90,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'yasiradmin'@'localhost';
 
 phpmyadmin nginx를 확보하기 위해 phpmyadmin에 대한 추가 보안을 설정하는 것이 좋습니다. Phpmyadmin URL을 Absperure URL과 같은 것으로 변경하고 액세스 할 수 있어야합니다.
 
-## 7 단계 : 보안 phpmyadmin   {#id-6-secure-phpmyadmin recommorded}}
+## 7 단계 : 보안 phpmyadmin   {#id-6-secure-phpmyadmin recommorded}
 다음으로, 추가 보안 계층을 제공하기 위해 Nginx에서 인증을 설정하려고합니다. 이제 Nginx 및 Apache2 서버에서 작동하는 .htpasswd 파일을 생성 할 수있는 Apache2-Utils를 설치합니다.
 ```
 sudo apt install apache2-utils

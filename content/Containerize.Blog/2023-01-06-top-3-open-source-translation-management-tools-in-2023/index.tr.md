@@ -27,7 +27,7 @@ Aşağıdaki çeviri yönetimi araçları bu kılavuzda ele alınacaktır:
 Eğer denemek istiyorsanız, kodunu [GitHub][7] repo'da belirtilen tüm kurulum talimatlarıyla bulabilirsiniz. Bu ücretsiz çeviri yönetim sistemi, birden çok çeviri dosyasını yönetme yeteneğine sahiptir. Ayrıca, özel adaptörler oluşturabilir ve iş ihtiyaçlarınızı karşılamak için başka birçok özelleştirme yapabilirsiniz. Temel olarak, kullanıcılara etkileşimli bir konsol sunduğu statik analizle tüm işlemleri yapar. Ayrıca, bu açık kaynaklı TMS, DeepL ve Google çevirileri ile entegrasyonlar sağlar.
 **[I18N görevleri hakkında daha fazla bilgi edinin][5]**
 
-##**Tolgee** {#tolgee}
+## **Tolgee** {#tolgee}
 [Tolgee][8] kurumsal düzeyde açık kaynaktır**çeviri yönetim sistemidir.**Zengin bir özellik yığınına sahip kendi kendine barınma yetenekleri ile birlikte gelir. Bu TMS Kotlin'de yazılmıştır ve TypeScript'te yazılmıştır ve Next.js, Angular, Vue ve daha fazlası gibi neredeyse tüm popüler JavaScript çerçevelerine sahip entegrasyonlar sunar. Buna ek olarak, bu ücretsiz TMS, geliştirme ve dağıtım ile ilgili kapsamlı belgelerle [GitHub][9] 'da mevcut tüm kaynak kodlara sahiptir.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="Çeviri Yönetim Sistemi">}}
@@ -42,7 +42,7 @@ Bu ücretsiz TMS'nin öne çıkan özellikleri aşağıdadır:
 .**İşbirliği**: Farklı paydaşların işbirliği içinde çalışabileceği ve başkaları tarafından yapılan işleri gözden geçirebilecekleri bir başka önemli hükümdür
 [**Tolgee hakkında daha fazla bilgi edinin**][8]
 
-##**Traduora** {#Traduora}
+## **Traduora** {#Traduora}
 [Traduora][13] çeviri iş akışını otomatikleştirmek için bir başka açık kaynak yazılımıdır. Bu ücretsiz TMS, HTML, JavaScript, CSS ve diğerleri gibi diğer dillerden gelen girdilerle birlikte TypeScript'te de yazılmıştır. Ayrıca, GitHub'da geliştirme ve dağıtımıyla ilgili tam belgeler olduğu için bunu kendi kendine barındırabilirsiniz. Ayrıca, bu yazılımı Docker'ın kapsayıcısını döndürerek kurduğunuz bu açık kaynak çeviri yönetimi yazılımının bir Docker görüntüsü vardır.
 Her şeyden önce, Traduora üçüncü taraf uygulamalarla entegrasyon için bir REST API'sını ortaya çıkardı. Bu ücretsiz TMS'de tam bir kimlik doğrulama uygulaması vardır.
 Traduora aşağıdaki temel özellikleri ortaya çıkarır:

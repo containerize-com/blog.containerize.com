@@ -31,19 +31,19 @@ W tym samouczku wtyczki WordPress nauczymy się, jak utworzyć naszą pierwszą 
 ## Podstawy rozwoju wtyczek   {#basics}
 Poświęćmy chwilę, aby porozmawiać o niektórych kluczowych aspektach tworzenia wtyczek. Solidne zrozumienie, w jaki sposób działają te pojęcia, pomoże Ci zbudować łatwą w użyciu i utrzymanie funkcjonalności.
 
-### Działania
+## # Działania
 * * Haczyki akcji**są bardzo przydatnym narzędziem w**WordPress****wtyczka**i są używane do wykonywania funkcji (**Działania**) w określonych miejscach motywu lub wtyczki. WordPress ma dziesiątki działań zdefiniowanych w swojej podstawowej funkcjonalności, każde działanie składające się z unikalnej nazwy. Aby uzyskać więcej informacji [przeczytaj][5].
 
-### filtry
+## # filtry
 Filtr WordPress to hak, który akceptuje zmienną (lub serię zmiennych) i zwraca je po ich zmodyfikowaniu. Te filtry są często używane, aby mieć sposób manipulowania domyślnymi informacjami. Aby uzyskać więcej informacji [przeczytaj][6].
 
-### skróty
+## # skróty
 Skróty to makra, które można użyć do wykonywania dynamicznych interakcji z zawartością. tj. Tworzenie galerii z obrazów dołączonych do postu lub renderowanie wideo. W rezultacie są one cennym sposobem na utrzymanie treści w czystości i semantyce, jednocześnie umożliwiając użytkownikom końcowym pewną zdolność do programowej zmiany prezentacji ich treści. Aby uzyskać więcej informacji [przeczytaj][7].
 
-### widżety
+## # widżety
 Widżety są ważne, ponieważ podają inne środki wykonywania kodu wtyczki, jednocześnie zapewniając łatwy w użyciu interfejs. Ponieważ większość tematów będzie obsługiwać jedno lub więcej pasków bocznych; Dodanie własnych widżetów zapewni szybki dostęp do wyświetlania informacji w motywie.
 
-##**Jak utworzyć wtyczkę WP?** {#Create}
+## **Jak utworzyć wtyczkę WP?** {#Create}
 W tej sekcji samouczka wtyczki WordPress wszystko, co musisz zrobić, to utworzyć folder, a następnie utworzyć pojedynczy plik z jedną linią treści. Przejdź do folderu**WP-Content/wtyczki**i utwórz nowy folder o nazwie**MyTestPlugin**. W tym nowym folderze utwórz plik o nazwie**MyTestplugin.php**. Otwórz plik w edytorze tekstu i wklej w nim następujące informacje:
 ```
 <?php
@@ -62,7 +62,7 @@ W tej sekcji samouczka wtyczki WordPress wszystko, co musisz zrobić, to utworzy
 Teraz możesz przejść do tylnego końca, aby aktywować swoją wtyczkę. To wszystko, chociaż ta wtyczka nic nie robi. Ale jest to aktywna, funkcjonująca wtyczka. Najlepszą praktyką podczas opracowywania wtyczki jest staranne oddzielenie kodu na odpowiednie pliki i foldery.
 Aby zademonstrować, dodajmy funkcjonalność do naszej wtyczki testowej, która śledzi popularność naszych artykułów, przechowując, ile razy każdy post był oglądany.
 
-### przechowywanie wyświetleń strony
+## # przechowywanie wyświetleń strony
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ Jak dotąd, tak dobrze w tym samouczku wtyczki WordPress. Ale ta funkcja nigdy n
 add_action("wp_head", "add_page_views");
 ```
 
-### Pokazanie widoków strony
+## # Pokazanie widoków strony
 Teraz utworzymy inną funkcję, która zwraca widoki strony, które już przechowyliśmy w powyższej funkcji. Rzućmy okiem na kod:
 ```
 function get_page_views() {

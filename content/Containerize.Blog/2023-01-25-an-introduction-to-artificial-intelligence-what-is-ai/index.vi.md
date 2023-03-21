@@ -31,13 +31,13 @@ Tuy nhiên, máy học sử dụng học tập sâu, đó là phương pháp m�
 ## Các loại trí tuệ nhân tạo   {#Type-of-articial-Intellectence}
 Chủ yếu, có hai loại trí tuệ nhân tạo. Phần này của bài viết trên blog sẽ chứng minh hai loại này.
 
-#### Trí tuệ nhân tạo yếu
+## ## Trí tuệ nhân tạo yếu
 Theo danh mục AI này, các hệ thống được thiết kế để giải quyết các vấn đề ít phức tạp hơn. Các hệ thống này lấy đầu vào, xử lý các quy trình ngôn ngữ tự nhiên và cung cấp đầu ra. Mặc dù, các hệ thống này tạo ra phản hồi dựa trên dữ liệu và số liệu thống kê trong quá khứ nhưng không thể xử lý các vấn đề ngoài phạm vi của chúng. Do đó, phạm vi của thể loại này là không giới hạn. Các ví dụ tốt nhất về AI yếu là [Apple Sir Siri][4] và các công cụ trợ lý ảo khác được phát triển bởi [Google][5] và [Amazon][6].
 
-#### Trí tuệ nhân tạo mạnh mẽ
+## ## Trí tuệ nhân tạo mạnh mẽ
 Trí tuệ nhân tạo mạnh mẽ cung cấp mô phỏng chính xác của bộ não con người. Trí tuệ nhân tạo nói chung và siêu thư viện nhân tạo cũng thuộc thể loại này. Danh mục này thiết kế các hệ thống và mô hình có khả năng xử lý mọi thứ và đưa ra quyết định mà không cần sự can thiệp của con người. Robot tương tác là những ví dụ về AI mạnh và xe tự lái cũng được làm phong phú với các hệ thống được đào tạo với các bộ dữ liệu khổng lồ và có khả năng đưa ra quyết định bằng mạng lưới thần kinh. Ngoài ra, các hệ thống như vậy có thể đưa ra dự đoán dựa trên kinh nghiệm trong quá khứ của họ.
 
-##**Ứng dụng Trí tuệ nhân tạo** {#Ứng dụng-of-articial-Intellectence}
+## **Ứng dụng Trí tuệ nhân tạo** {#Ứng dụng-of-articial-Intellectence}
 Các điểm sau đây sẽ cho bạn ý tưởng về một số ứng dụng nổi bật của trí tuệ nhân tạo:
 * * Nhận dạng giọng nói**: Xử lý ngôn ngữ tự nhiên là nhánh chính của AI xử lý giọng nói của con người và đưa ra đầu ra bằng văn bản hoặc hình thức khác. Tính năng này có sẵn trên nhiều thiết bị như điện thoại di động, xe hơi, v.v.
 * * Nhận dạng khuôn mặt**: Theo ứng dụng này, AI có thể so sánh nhiều tầm nhìn trên khuôn mặt và có khả năng phát hiện một cấu trúc khuôn mặt cụ thể. Ngoài ra, bạn có thể sử dụng trí tuệ nhân tạo để phù hợp và chỉ ra các giọng nói khác nhau, chữ viết tay, tiếng ồn, v.v.

@@ -24,7 +24,7 @@ categories: ['Web Hosting']
 ## Webmin簡介 {#intro}
 Webmin是用於Linux系統管理的基於Web的接口。它可以幫助您從任何現代的Web瀏覽器遠程管理自己的託管服務器。使用WebMin，您可以配置操作系統內部設備，例如用戶帳戶，Apache，DNS，文件共享等等。 Webmin還允許通過單個接口來控制許多機器，或在同一子網或LAN上的其他Webmin主機上無縫登錄。基於Perl的Webmin作為自己的過程和Web服務器運行。關於Webmin的最好的部分是其100％的免費和開源，並擁有一個非常蓬勃發展的開發人員社區。
 
-##突出顯示功能 {#features}
+## 突出顯示功能 {#features}
   *允許您創建和編輯域，DNS記錄，綁定選項和視圖。
   *通過使用IPFW創建和編輯規則來幫助配置防火牆。
   *讓您設置腳本以在啟動時從/Etc/init.d或/etc/rc.local運行
@@ -40,7 +40,7 @@ Webmin是用於Linux系統管理的基於Web的接口。它可以幫助您從任
   *使用類似Windows的文件管理器查看系統和目錄上的文件和目錄的權限
   *它有助於將SSL隧道設置為使用INETD的Stunnel運行，以加密POP3和IMAP等服務。
 
-##支持的操作系統 {#support}
+## 支持的操作系統 {#support}
 由於不同的UNIX式操作系統和Linux發行版在其各種配置文件中使用不同的位置，因此WebMin只能支持已配置的系統。以下操作系統由Webmin的1.979版支持：
   * Almalinux Linux
   * Alphacore Linux
@@ -159,7 +159,7 @@ Webmin是用於Linux系統管理的基於Web的接口。它可以幫助您從任
   * Yoper Linux
 目前最支持的系統是Solaris，Linux（尤其是RedHat）和FreeBSD。
 
-##在Ubuntu上安裝WebMin   {#install}
+## 在Ubuntu上安裝WebMin   {#install}
 要安裝WebMin，您需要與具有**root **特權的用戶訪問。建議您設置具有**  sudo**訪問權限的非根用戶。
 首先使用以下命令進入服務器中的SSH
 ```
@@ -200,14 +200,14 @@ https://server_IP_address:10000
 {{< figure align=center src="images/install-webmin-system-info.png" alt="安裝Webmin系統信息">}}
 
 
-##使用webmin   {#install-apache}安裝apache}
+## 使用webmin   {#install-apache}安裝apache}
 Webmin配備了各種管理不同軟件包的模塊。使用Webmin安裝Apache
 **步驟1 **：在“導航”菜單中，單擊**未使用的模塊**以展開類別，然後單擊 **Apache Weberver** 。
 如果您在服務器上沒有安裝Apache，則該模塊將通知您並為您提供安裝Apache的方法。
 **步驟2**：使用**單擊此處**鏈接（在最後一句話中）通過apt-get通過webmin安裝apache。
 Apache安裝完成後，您的服務器將運行默認的Apache服務器。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 本文簡要討論了Webmin可以做的許多事情，Webmin是管理Linux/Unix服務器的最佳工具之一。在本教程中，我們還學習瞭如何在Ubuntu上安裝Webmin，我們還討論瞭如何使用WebMin在服務器上安裝Apache。
 
 ## 探索

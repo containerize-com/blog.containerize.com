@@ -49,13 +49,13 @@ Quando um desenvolvedor abre uma solicitação de tração, tudo o que está faz
 ## modelos de ramificação populares   {#model}
 Existem vários fluxos de trabalho ramificados que estão em uso pela comunidade de desenvolvedores em todo o mundo. Mas discutiremos os três modelos de ramificação mais populares, um por um
 
-### Git Flow
+## # Git Flow
 O GITFlow Workflow é um fluxo de trabalho Git que ajuda no desenvolvimento contínuo de software e na implementação de práticas do DevOps. O fluxo Git é o fluxo de trabalho mais conhecido nesta lista. Foi criado por [Vincent Driessen em 2010][7] e é baseado em dois ramos principais com uma vida infinita, juntamente com outros ramos de apoio, como recursos-\*, hotfixes-\* que se fundem no ramo de desenvolvimento como individual Os itens são concluídos.
   ***Master**  - Esta filial contém código de produção. Todo o código de desenvolvimento é mesclado no ramo mestre, uma vez pronto para ser empurrado para a produção.
   ***Desenvolver** -Esta filial contém código de pré-produção. Quando os recursos são concluídos, eles são fundidos para desenvolver.
 O GITFlow é ideal para projetos que possuem um ciclo de lançamento programado. No entanto, a história do Git se torna ilegível.
 
-### Github Flow
+## # Github Flow
 O fluxo do GitHub é um fluxo de trabalho leve. Foi criado por [Github][8] em 2011 e se concentra principalmente no modelo ágil, onde você não espera por um ciclo de lançamento. Em vez disso, você pressiona diariamente as alterações à produção à medida que os recursos são concluídos.
 O fluxo do GitHub segue a seguir os diretores:
   * Qualquer coisa na filial "mestre" é implantável.
@@ -65,7 +65,7 @@ O fluxo do GitHub segue a seguir os diretores:
   * Depois de ser revisado e assinado no recurso, você pode mesclá -lo no mestre
   * Uma vez mesclado e empurrado para o 'Master', ele pode ser implantado na produção.
 
-### GitLab Flow
+## # GitLab Flow
 O fluxo GitLab é um fluxo de trabalho criado pelo GitLab em 2014. O fluxo do GitLab é uma alternativa mais simples ao GITFlow e combina o desenvolvimento de recursos e ramos com ramificações com rastreamento de problemas. A principal diferença entre o fluxo GitLab e o fluxo do GitHub é o uso de ramificações do ambiente.
 Os desenvolvedores criam uma ramificação **desenvolver**  e fazem com que o padrão, enquanto o fluxo do GitLab funciona com a ramificação "principal" imediatamente. O fluxo GitLab incorpora vários ramos de pré-produção. E eles podem ser usados ​​para testar as coisas em diferentes níveis. por exemplo, da filial de teste à aceitação e depois da aceitação à produção.
 

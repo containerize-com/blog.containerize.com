@@ -238,7 +238,7 @@ Use the tab JavaScript plugin—include it individually or through the compiled 
 </div>
 {% endhighlight %}
 
-### Using data attributes
+## # Using data attributes
 
 You can activate a list group navigation without writing any JavaScript by simply specifying `data-toggle="list"` or on an element. Use these data attributes on `.list-group-item`.
 
@@ -262,7 +262,7 @@ You can activate a list group navigation without writing any JavaScript by simpl
 {% endhighlight %}
 </div>
 
-### Via JavaScript
+## # Via JavaScript
 
 Enable tabbable list item via JavaScript (each list item needs to be activated individually):
 
@@ -282,7 +282,7 @@ $('#myList a:last-child').tab('show') // Select last tab
 $('#myList a:nth-child(3)').tab('show') // Select third tab
 {% endhighlight %}
 
-### Fade effect
+## # Fade effect
 
 To make tabs panel fade in, add `.fade` to each `.tab-pane`. The first tab pane must also have `.show` to make the initial content visible.
 
@@ -295,9 +295,9 @@ To make tabs panel fade in, add `.fade` to each `.tab-pane`. The first tab pane 
 </div>
 {% endhighlight %}
 
-### Methods
+## # Methods
 
-#### $().tab
+## ## $().tab
 
 Activates a list item element and content container. Tab should have either a `data-target` or an `href` targeting a container node in the DOM.
 
@@ -323,7 +323,7 @@ Activates a list item element and content container. Tab should have either a `d
 </script>
 {% endhighlight %}
 
-#### .tab('show')
+## ## .tab('show')
 
 Selects the given list item and shows its associated pane. Any other list item that was previously selected becomes unselected and its associated pane is hidden. **Returns to the caller before the tab pane has actually been shown** (for example, before the `shown.bs.tab` event occurs).
 
@@ -331,7 +331,7 @@ Selects the given list item and shows its associated pane. Any other list item t
 $('#someListItem').tab('show')
 {% endhighlight %}
 
-### Events
+## # Events
 
 When showing a new tab, the events fire in the following order:
 

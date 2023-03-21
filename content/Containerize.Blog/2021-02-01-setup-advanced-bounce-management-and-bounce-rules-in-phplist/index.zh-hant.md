@@ -9,7 +9,7 @@ url: /zh-hant/setup-advanced-bounce-management-and-bounce-rules-in-phplist/
 categories: ['Newsletters']
 ---
 
-##根據MTA返回的彈跳錯誤代碼類型，高級彈跳管理允許自動執行不同的操作。
+## 根據MTA返回的彈跳錯誤代碼類型，高級彈跳管理允許自動執行不同的操作。
 
 {{< figure align=center src="images/advanced-bounce-management-in-phpList.png" alt="設置phplist中的高級反彈管理和反彈規則">}}
 
@@ -19,7 +19,7 @@ categories: ['Newsletters']
   * [列表彈跳規則][4]
   * [結論][5]
 
-##啟用高級彈跳處理 {#enable}
+## 啟用高級彈跳處理 {#enable}
 首先，首先，通過在config.php文件中復制下面的代碼來啟用高級**彈跳處理**。
 ```
 define('USE_ADVANCED_BOUNCEHANDLING',1);
@@ -36,7 +36,7 @@ define('USE_ADVANCED_BOUNCEHANDLING',1);
   *將電子郵件地址添加到do-non-not列表中並刪除彈跳
   *刪除反彈
 
-##添加彈跳規則 {#add}
+## 添加彈跳規則 {#add}
 讓我們創建我們的第一個反彈規則。
   *首先，輸入正則表達式（如**）（帳戶已被暫停|不可用的帳戶）**
   *之後，選擇適當的動作
@@ -56,13 +56,13 @@ define('USE_ADVANCED_BOUNCEHANDLING',1);
   * 等等 …
 **注意：**您必須在括號中包裹彈跳原因，並使用管道符號 **|** 或**或**語句，如果您想在一個彈跳規則中添加多個原因。
 
-##列表彈跳規則 {#list}
+## 列表彈跳規則 {#list}
 創建數量的規則後，您的**彈跳規則**列表將如下屏幕截圖所示。您可以在此頁面上執行其他操作，例如訂單更改和刪除。
 
 {{< figure align=center src="images/bounce-regular-expressions.png" alt="彈跳規則清單">}}
 
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在本教程中，我們了解了Advanced  **Bounce Management** ，並製定了必要的彈跳規則。允許使用此功能將是很棒的，以便您可以自動化清除列表中的無效電子郵件地址的過程。它還允許您維護最低返回電子郵件的水平。此外，您的列表將具有合法的訂戶。
 此外，[Containerize.com][6]正在以多種語言和框架來增強開源產品的堆棧。有關定期更新，請繼續關注[新聞通訊][7]類別，以獲取更多有趣的文章。
 

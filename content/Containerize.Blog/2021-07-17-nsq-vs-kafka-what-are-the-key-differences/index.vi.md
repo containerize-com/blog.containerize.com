@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software']
 {{< figure align=center src="images/nsq-vs-kafka.png" alt="NSQ vs Kafka | Sự khác biệt là gì?|NSQ vs Kafka | Sự khác biệt là gì??">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Các hệ thống nhắn tin phân tán tạo thành cốt lõi của truyền phát dữ liệu lớn, các ứng dụng gốc đám mây và kiến ​​trúc microservice khi hệ thống phát triển lớn hơn. Có một nhu cầu ngày càng tăng đối với nền tảng hàng đợi nhắn tin đáng tin cậy, có thể mở rộng và khả năng chịu lỗi với độ trễ thấp cho các ứng dụng thời gian thực. Nền tảng hàng đợi nhắn tin cung cấp cách giao tiếp và phối hợp không đồng bộ trong khi cải thiện hiệu suất, độ tin cậy và khả năng mở rộng.
 Các hệ thống nhắn tin phân tán hiện đang lan rộng và không ngừng phát triển. Có nhiều hệ thống hàng đợi thông điệp hiện đại đã xuất hiện tất cả với ưu và nhược điểm của riêng họ. Hệ thống hàng đợi thông báo nguồn mở tốt nhất tạo thành cơ sở hạ tầng phần mềm trung gian cho truyền phát dữ liệu lớn, dịch vụ vi mô và các ứng dụng dựa trên đám mây. Điều này đã trở thành vấn đề cho các công ty kinh doanh để quyết định hệ thống nhắn tin nào là phù hợp nhất cho một ứng dụng cụ thể. Một sự hiểu biết sâu sắc là cần thiết để quyết định tính năng nào của một hệ thống nhắn tin đáp ứng nhu cầu của một ứng dụng cụ thể.
 Bài viết trên blog này phác thảo nền tảng hàng đợi nhắn tin hiện đại NSQ vs Kafka. Bài viết cung cấp thông tin về các hệ thống nhắn tin phân tán NSQ vs Kafka, so sánh các tính năng để tạo điều kiện cho người dùng đưa ra quyết định sáng suốt cho ứng dụng thời gian thực và cũng là cách để nghiên cứu và phát triển trong tương lai.

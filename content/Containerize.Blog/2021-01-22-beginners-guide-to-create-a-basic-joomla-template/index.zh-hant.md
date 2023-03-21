@@ -22,7 +22,7 @@ categories: ['Content Management']
   * **[軟件包模板][6]**
   * **[結論][7]**
 
-##設置目錄結構 {#setup}
+## 設置目錄結構 {#setup}
 要首先創建一個非常基本的Joomla模板，請在模板文件夾中創建一個新文件夾。無論您想調用模板，命名文件夾命名，例如“  **myNewTemplate** ”。
 使用您喜歡的文本編輯器創建文件**index.php **和 **templatedEtails.xml ** 。為了管理您的圖像和样式表，請製作2個名為**圖像**和 **css ** 的新文件夾。在 **css**  文件夾中創建一個名為 **Template.css** 的文件。
 您的目錄結構看起來像這樣
@@ -30,7 +30,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/Screenshot-2021-01-22-at-12.30.14-PM.png" alt="Joomla模板目錄結構">}}
 
 
-##創建一個基本的TemplatedEtails.xml文件 {#xml}
+## 創建一個基本的TemplatedEtails.xml文件 {#xml}
 **templatedEtails.xml**文件包含有關模板的所有元數據。而且，沒有它，此文件至關重要，Joomla！不會看到您的模板。
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -66,7 +66,7 @@ categories: ['Content Management']
 templateTails.xml的內容是自我解釋的。您可以將內容複製修改所需位。
 將位置保持原樣 - 這些是常見的集合，因此您可以輕鬆地從標準模板中切換。
 
-##創建一個基本index.php文件 {#php}
+## 創建一個基本index.php文件 {#php}
 index.php成為Joomla每個頁面的主要引導程序！交付。此頁面將顯示出學號的準備，供您切割並粘貼到自己的設計中。
 ```
 <?php defined('_JEXEC') or die('Restricted access');?>
@@ -84,7 +84,7 @@ index.php成為Joomla每個頁面的主要引導程序！交付。此頁面將�
 </html>
 ```
 
-##發現並安裝模板 {#install}
+## 發現並安裝模板 {#install}
 您首先需要告訴Joomla！您創建了一個新模板。此功能稱為發現擴展，可以通過
 ```
 Extensions -> Extension Manager -> Discover
@@ -94,17 +94,17 @@ Extensions -> Extension Manager -> Discover
 Extensions -> Template Manager
 ```
 
-##軟件包模板 {#packge}
+## 軟件包模板 {#packge}
 帶有多個文件的無拉鍊目錄不是分發的好方法。因此，為了發行，我們應該創建一個模板包。包裝可以採用ZIP格式（帶有.zip擴展名）。
 如果您的模板位於目錄MyTemplate中/，則可以將包裝連接到該目錄並使用以下命令：
 ```
 zip -r ..\mytemplate.zip .
 ```
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在本文中，我們了解了Joomla模板。我們逐步介紹瞭如何創建Joomla模板。這只是一個非常基本的教程，可以從模板創建開始。當然，您可以基於這個裸露的結構來構建一個非常自定義和增強的模板。
 
-##相關產品頁面
+## 相關產品頁面
 您可能會發現以下鏈接相關：
   * [Joomla模板開髮指南][8]
 

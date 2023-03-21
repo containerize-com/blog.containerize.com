@@ -50,7 +50,7 @@ Hãy để xem những gì chúng ta có thể nhận được bằng cách áp 
 ***Sửa lỗi ngay lập tức**- Trên thực tế, có các nhóm hỗ trợ sản xuất làm việc về sửa lỗi. Tuy nhiên, trong mô hình này, bất cứ khi nào có một giao dịch sai được tìm thấy, các nhà phát triển đã sửa chúng trong một thời gian nhanh hơn.
 ***Công nghệ mới nhất**- Đó là một lợi thế rất lớn của mô hình RAD mà các nhóm phát triển có thể áp dụng và kiểm tra các công cụ và công nghệ mới nhất ở bất kỳ giai đoạn nào.
 
-##**Kết luận** {#conclusion}
+## **Kết luận** {#conclusion}
 Đây là kết thúc của hướng dẫn này. Có nhiều mô hình phát triển phần mềm như mô hình thác nước, mô hình xoắn ốc, mô hình hình chữ V, mô hình Agile, và một số khác. Vì vậy, việc áp dụng bất kỳ mô hình nào phụ thuộc vào các trường hợp sử dụng của bạn và bản chất của phần mềm. Do đó, bài đăng trên blog này sẽ thực sự giúp bạn nếu bạn đang tìm cách áp dụng mô hình RAD cho doanh nghiệp của bạn. Bất kể nền tảng nào, có một số phần mềm phát triển ứng dụng nhanh nguồn mở cung cấp khả năng đa nền tảng với các công cụ phát triển. Có những phần mềm tạo mẫu nhanh khác có sẵn trong phần ‘Khám phá bên dưới theo các phương pháp RAD. Đây là thời gian cao để áp dụng cách tiếp cận hiệu quả và mạnh mẽ này để phát triển phần mềm kinh doanh sẵn sàng sản xuất.
 Cuối cùng, [containerize.com][9] đang trong quá trình liên tục giới thiệu nguồn mở [phần mềm rad][1]. Vui lòng theo dõi [Phát triển ứng dụng nhanh][1] để cập nhật thường xuyên. Hơn nữa, phần mềm được liệt kê dưới đây trong phần Khám phá là nguồn mở, miễn phí và tự lưu trữ. Tất cả các bộ tạo mã nguồn**này đi kèm với tài liệu toàn diện về phát triển và triển khai.
 

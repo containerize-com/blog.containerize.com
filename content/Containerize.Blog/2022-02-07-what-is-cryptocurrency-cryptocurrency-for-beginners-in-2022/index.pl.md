@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms', 'Business Intelligence Software']
 {{< figure align=center src="images/what-is-cryptocurrency.png" alt="What is Cryptocurrency? |Co to jest kryptowaluta? |. Kryptowaluta dla początkujących | Wyjaśniono kryptowalutę | Podstawy kryptowalut|Co to jest kryptowaluta? |. Kryptowaluta dla początkujących | Wyjaśniono kryptowalutę | Podstawy kryptowalut|Co to jest kryptowaluta? |. Kryptowaluta dla początkujących | Wyjaśniono kryptowalutę | Podstawy kryptowalut">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Jeśli chcesz dowiedzieć się o kryptowalucie i o tym, jak to działa, jesteś we właściwym miejscu. Aby Ci pomóc, opracowaliśmy ten szczegółowy przewodnik na temat cyfrowych podstaw kryptowalut dla początkujących. Stało się jasne, że kryptowaluty pozostają, więc liczba osób inwestujących w nich rośnie.
 Każda kryptowaluta różni się ceną, popytem, ​​dostępnością i prędkością transakcji, jakie są najlepsze kryptowaluty do inwestowania dla nowo przybyłych? Dla początkujących warto trzymać się najpopularniejszej kryptowaluty, więc tutaj wymieniliśmy tutaj najlepszą monetę i pięć najlepszych kryptowalut.
 W tym artykule na blogu zapoznamy się z podstawami kryptowalut, w tym tym, czym jest kryptowaluta, jak działa kryptowaluta, wspólna terminologia i wiele innych. Do czasu, gdy skończysz czytać tę stronę, będziesz mieć dobre podstawowe zrozumienie kryptowalut. Jeśli nie chcesz czytać całego dokumentu i wolisz skakać do konkretnej sekcji, możesz użyć poniższych linków skokowych, aby wskoczyć do części, które najbardziej Cię interesują.

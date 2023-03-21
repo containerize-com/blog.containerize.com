@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms']
 {{< figure align=center src="images/cryptovsnft.png" alt="NFT vs Crypto">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro post sul blog di zecca nella serie di [Blockchain Technologies][1]. Sei atterrato nel posto giusto se ti stai chiedendo criptovalute, valuta digitale e [token non fischibili][2]. Il mondo della tecnologia ha portato anche una rivoluzione nel settore finanziario. Sta cambiando il modo in cui le persone commerciano tra loro, scambiano beni, investimenti e trasferiscono denaro. Innanzitutto, era un sistema di baratto in cui le persone si scambiano beni tra loro. Quindi, è stata introdotta la valuta cartacea e le persone hanno sviluppato un consenso per utilizzare questi soldi cartacei per acquistare merci. Inoltre, è nata la valuta digitale in cui le persone erano solite conservare i loro soldi nei loro conti bancari in forma digitale e prelevare denaro dagli sportelli automatici.
 Successivamente, qualche anno fa nel primo decennio di questo secolo, è stata fondata un'altra forma di valuta che è crittograficamente crittografata e memorizzata su un libro mastro distribuito  **chiamato [blockchain][3]. Ora, nel mezzo del secondo decennio, sono stati introdotti token non fischibili (NFTS)** . Un token non fungibile è un token che rappresenta beni di vita reale come un dipinto, un disegno, un pezzo di scrittura, un file o qualcos'altro. Tuttavia, lo esploreremo ulteriormente in dettaglio e trarremo un confronto tra NFT vs Crypto. In questo post sul blog, tratteremo i seguenti punti.
   * **[Cosa significa NFT e come funziona?][4]**

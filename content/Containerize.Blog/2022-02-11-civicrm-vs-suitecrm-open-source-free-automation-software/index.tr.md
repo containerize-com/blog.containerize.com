@@ -32,16 +32,16 @@ Bu **pazarlama otomasyon aracı**  ayarlanması kolaydır ve PHP ve MySQL içere
 ## Civicrm vs Suitecrm   {#vs}
 Şimdiye kadar, Civicm olanı yaşadık ve aynı zamanda Suitecrm'e de baktık. Şimdi, bu iki açık kaynak **ücretsiz otomasyon yazılımı  **arasında bir karşılaştırma yapacağız. Öyleyse, bu **  CiviCrm vs Suitecrm**  makalesini kapsayacak şekilde aşağıdaki noktalara bakalım.
 
-#### Özellikler
+## ## Özellikler
 İş için herhangi bir yazılım seçmek söz konusu olduğunda bu en önemli görevdir. Neyse ki, bu ücretsiz otomasyon yazılımlarının her ikisi de kullanıcılar için zengin bir özellik sunmaktadır. Her ikisi de web tabanlı ve herhangi bir iş seviyesi için uygundur. CiviCRM, popüler platformlarla entegrasyonlar sunar ve ücretsiz pazarlama otomasyonu için kullanımı kolaydır. Bu **Pazarlama Otomasyon Aracı **, video eğitimleriyle birlikte çevrimiçi müşteri desteği sunar. Ayrıca, özel raporlar, hediye onay otomasyonu ve daha fazlası için şablonlar sunar. Öte yandan, Suitecrm telefon, çevrimiçi ve bilgi tabanı aracılığıyla müşteri desteği sunar. Bu  **Ücretsiz Otomasyon Yazılımı**   ayrıca faturalandırma, faturalandırma, YG hesap makinesi ve daha fazlasını içeren çok çeşitli özelliklerle birlikte gelir.
 
-#### Teck yığın
+## ## Teck yığın
 Bu, açık kaynaklı bir yazılımı tercih edeceğinizde bir başka önemli yönüdür. CiviCRM ve Suitecrm PHP'de yazılmıştır ve yerel veya bulut sunucularına dağıtmak için neredeyse benzer gereksinimler gerektirir.
 
-#### Topluluk ayakta
+## ## Topluluk ayakta
 CiviCRM söz konusu olduğunda, GitHub Repo'sunda 436 yıldız ve 748 çatal var. Öte yandan, Suitecrm'in 2.8k yıldızı ve 1.6k çatalları var. Bu **pazarlama otomasyon araçlarının**  her ikisi de dağıtım ve geliştirme ile ilgili kapsamlı belgeler sunmaktadır.
 
-#### Genişletilebilirlik
+## ## Genişletilebilirlik
 Son olarak, Suitecrm ve CiviCRM son derece yapılandırılabilir ve WordPress, Joomla ve daha fazlası gibi bazı kurumsal düzey uygulamaları içeren üçüncü taraf uygulamalarla entegrasyon sunar. Dahası, ihtiyaç ve yaklaşım geliştiricilerin topluluğuna göre yeni özellikler ekleyebilir ve sorgulara aktif olarak yanıt verebilirsiniz.
 Aynı şekilde, CivicRM ve SueCrm'in diğer yönlerini ve özelliklerini keşfedebilirsiniz.
 

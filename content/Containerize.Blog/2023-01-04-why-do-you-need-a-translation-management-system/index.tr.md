@@ -34,7 +34,7 @@ Bir çeviri yönetim sistemi, bir işletme web sitesinin çevirilerini yönetmen
 Açık kaynaklı çeviri yönetimi yazılımının en havalı kısmı, ölçeklenebilirlik ile ilgili sorunları çözen bulut sürümüne sahip olmanızdır. Bu nedenle, projelerinizin yerelleştirilmesini yönetmeye ve içeriğinizin sınırlar boyunca erişimini artırmaya odaklanabilirsiniz.
 Herhangi bir çeviri yönetim sisteminin (TMZ) temel özellikleri aşağıdadır:
 
-####**Üçüncü taraf entegrasyonlar için API**
+#### **Üçüncü taraf entegrasyonlar için API**
 Bir işletme düzeyinde**tms**her zaman [i18n][5] gibi diğer uygulamalar ve çeviri modülleriyle entegrasyon için kullanılan bir API sağlar.
 
 #### Global Arama
@@ -73,10 +73,10 @@ Son olarak, [**Containerize.com**][6] daha fazla açık kaynaklı ürünler üze
 
 ## SSS   {#FAQS}
 
-####**Bir çeviri yönetim sistemine ihtiyacım var mı?**
+#### **Bir çeviri yönetim sistemine ihtiyacım var mı?**
 Evet, statik ve dinamik kaynakları içeren büyük miktarda içerikle uğraşıyorsanız. Böylece, çevirileri otomatikleştirmek ve yönetmek için açık kaynaklı**çeviri yönetimi yazılımı**barındırabilirsiniz.
 
-####**TMS'nin avantajları nelerdir?**
+#### **TMS'nin avantajları nelerdir?**
 Bir çeviri yönetim sisteminin avantajlarını öğrenmek için lütfen bu [link][4] ziyaret edin.
 
 ## Ayrıca bkz.   {#See-ALSO}

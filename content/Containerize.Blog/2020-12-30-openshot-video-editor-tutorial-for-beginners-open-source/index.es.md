@@ -45,7 +45,7 @@ En el lado derecho, hay una ventana donde puedes jugar y probar los cambios. Hay
 
 Si hace clic derecho en el clip en la línea de tiempo y vaya a las propiedades, un panel se abrirá en el lado izquierdo que contiene las opciones avanzadas relacionadas con los efectos de video, las animaciones y más.
 
-###### Una vez que haya terminado con la edición, puede exportar/descargar el video desde el botón rojo en la barra de opciones superiores.
+## ## ## Una vez que haya terminado con la edición, puede exportar/descargar el video desde el botón rojo en la barra de opciones superiores.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="editor de video de OpenShot">}}
 

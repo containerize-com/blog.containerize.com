@@ -70,7 +70,7 @@ Siempre que tenga todos los servidores en su lugar, ahora debe encontrar que el 
 ## Directives Upstream   {#upstream}
 En nuestro último ejemplo, utilizamos un módulo aguas arriba simple para hacer un equilibrio de carga de round-robin para distribuir el tráfico por igual entre los servidores. Sin embargo, hay muchas razones por las cuales esta puede no ser la forma más eficiente de trabajar con el tráfico. Hay varias directivas que podemos usar para dirigir a los visitantes del sitio de manera más efectiva.
 
-### Peso
+## # Peso
 Una forma de comenzar a asignar a los usuarios a los servidores con más precisión es asignar un peso específico a ciertas máquinas. Nginx nos permite asignar un número que especifique la proporción de tráfico que debe dirigirse a cada servidor.
 Una configuración de carga equilibrada que incluía el peso del servidor podría verse así:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 El peso predeterminado es 1. Con un peso de 2, Backend2.Example se enviará el doble de tráfico que Backend1, y Backend3, con un peso de 4, se ocupará del doble de tráfico que Backend2 y cuatro veces más que Backend 1.
 
-### hash
+## # hash
 El hash IP permite a los servidores responder a los clientes de acuerdo con su dirección IP, enviando a los visitantes de regreso a los mismos VP cada vez que visitan (a menos que ese servidor esté inactivo). Si se sabe que un servidor está inactivo, debe marcarse como hacia abajo. Todos los IP que se suponían que debían enrutar al servidor hacia abajo se dirigen a uno alternativo.
 La siguiente configuración proporciona un ejemplo:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### max falla
+## # max falla
 De acuerdo con la configuración predeterminada de Round-Robin, el equilibrador de carga de la aplicación NGINX continuará enviando datos a los servidores privados virtuales, incluso si los servidores no están respondiendo. Max Fails puede evitar esto automáticamente al hacer que los servidores no respondieran no operativos durante un período de tiempo establecido.
 Hay dos factores asociados con el max fallas: max \ _fails y caída \ _timeout. Max Fails se refiere al número máximo de intentos fallidos de conectarse a un servidor que debe ocurrir antes de que se considere inactivo. Fall_TimeOut especifica la longitud de que el servidor no se considera inoperativo. Una vez que expire el tiempo, los nuevos intentos de llegar al servidor se iniciarán nuevamente. El valor de tiempo de espera predeterminado es de 10 segundos.
 Una configuración de muestra puede verse así:

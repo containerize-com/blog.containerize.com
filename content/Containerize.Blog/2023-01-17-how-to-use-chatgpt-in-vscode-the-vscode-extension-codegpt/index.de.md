@@ -9,7 +9,7 @@ url: /de/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**In diesem Artikel wird Chatgpt für VSCODE vorgestellt. Ein OpenAI-Codegenerator-Code GPT basiert auf einem Open-Source-GPT-3-Modell für künstliche Intelligenz.**
+## **In diesem Artikel wird Chatgpt für VSCODE vorgestellt. Ein OpenAI-Codegenerator-Code GPT basiert auf einem Open-Source-GPT-3-Modell für künstliche Intelligenz.**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="VSCODE -Erweiterungscode GPT">}}
 
@@ -48,7 +48,7 @@ Im Bild oben sehen Sie die Schaltfläche „Neue geheime Schlüssel erstellen“
 
 Sobald alles erfolgreich erledigt ist, werden Sie am Ende**Code GPT -Erweiterung**in Ihrem Visual Studio -Code installiert. Im nächsten Abschnitt werden wir weiterentwickeln, um die von dieser VSCODE -Erweiterung angebotenen Funktionen zu erkunden.
 
-## Verwenden Sie mit Code GPT-Ein AI-angetanter OpenAI-Codegenerator   {#Start-Use-CodeGPT --- An-AI-Antriebs-OpenAI-Code-Code-Generator}}
+## Verwenden Sie mit Code GPT-Ein AI-angetanter OpenAI-Codegenerator   {#Start-Use-CodeGPT --- An-AI-Antriebs-OpenAI-Code-Code-Generator}
 Bisher haben wir die Code -GPT -Erweiterung im Visual Studio -Code eingerichtet. Um dies zu nutzen**VSCODE -Erweiterungscode GPT**, drücken Sie "Befehl+Umschalt+P". Wählen Sie "Codegpt agieren" und schreiben Antwort in der Seitenleiste, wie im Bild unten gezeigt:
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="CHATGPT für VSCODE">}}

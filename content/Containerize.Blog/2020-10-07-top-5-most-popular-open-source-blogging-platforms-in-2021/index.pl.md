@@ -21,7 +21,7 @@ Istnieje tak wiele platform blogowych typu open source, które zapewniają niesa
   * [Serendipity][4]
   * [SilverStripe][5]
 
-###**WordPress** {#WordPress}
+## # **WordPress** {#WordPress}
 WordPress to bezpłatny i open source zarządzający treścią oraz platforma blogowa. Opiera się na PHP i MySQL, który jest najpopularniejszym stosem technologicznym. W związku z tym sprawia, że ​​WordPress jest najczęściej używane CMS i oprogramowanie blogowania open source na świecie. W momencie pisania tego postu, zgodnie z oficjalnymi stronami internetowymi WordPress.org, który zasila ponad 30% z 10 milionów stron internetowych, a ogólny udział w rynku wynosi 60%.
 Niezależnie od tego, czy chcesz stworzyć blog, stronę internetową, czy chcesz sprzedać online. Innymi słowy, wszystko związane z tworzeniem treści WordPress daje wszystkie narzędzia i funkcje. Ma rozległe repozytorium wtyczek z tysiącami wtyczek. Dlatego dla programistów pomocne jest ulepszenie najlepszego narzędzia do blogowania WordPress.
 Podsumowując, popularność WordPress sprawia, że ​​pierwszym wyborem programistów pisanie własnych dodatków do rozszerzenia funkcjonalności WordPress. Rozwój wtyczek dla WordPress stał się branżą.
@@ -33,7 +33,7 @@ Oto niektóre z godnych uwagi funkcji najlepszej platformy mikroblogowania WordP
   * Ogromna społeczność programistów open source
     [Czytaj więcej][6]
 
-###**Jekyll** {#Jekyll}
+## # **Jekyll** {#Jekyll}
 Jekyll to statyczny generator witryn i bezpłatne narzędzia blogowe dla początkujących. Tworzy stronę internetową za pomocą plików znaczników. Pobiera zawartość witryny, stosuje ją do pewnego szablonu i generuje czysto statyczne pliki HTML. Są więc gotowe do hostowania na dowolnej platformie hostingowej.
 W przeciwieństwie do WordPress lub dowolnego innego narzędzia blogowania Jekyll's Jekll jest szybkość i wydajność strony internetowej. Jest to statyczny generator witryn i bezpłatna platforma blogowa typu open source. W związku z tym usuwa całą przetwarzanie treści w czasie wykonywania. Tak więc nie ma kosztów ogólnych danych z bazy danych, gdy użytkownik uzyskuje dostęp do strony internetowej. Wiele witryn o wysokim ruchu jest zbudowanych z Jekyll i wiadomo, że dostarcza stosunkowo szybkie i bezpieczne strony internetowe.
 Oto najważniejsze atrakcje platformy blogowania Jekyll Best Open Source.
@@ -44,7 +44,7 @@ Oto najważniejsze atrakcje platformy blogowania Jekyll Best Open Source.
   * Otwarte źródło
     [Czytaj więcej][7]
 
-###**Ghost** {#ghost}
+## # **Ghost** {#ghost}
 Ghost jest open source non-profit i bezpłatnym narzędziem blogowym. Jest opracowywany przy użyciu Node.js, który jest jedną z najpopularniejszych platform programistycznych. Ma więc wszystkie moce węzła. Przede wszystkim ma prosty i czysty interfejs, który ułatwia użycie. To wspaniała platforma zarządzania treścią i blogowania dla początkujących i koncentruje się bardziej na treści.
 Moc i prędkość Node.js sprawia, że ​​Ghost jest szybką i niezawodną platformą. Koncentruje się bardziej na Markdown zamiast edycji WYSIWYG. Ghost ma dwie wersje, hostowane i hostowane. Obsługuje niestandardowe motywy i pozwala przesyłać własne motywy zarówno w wersjach samodzielnych, jak i hostowanych.
 Ghost zapewnia natywny interfejs API REST, wbudowane funkcje członkostwa i subskrypcji wraz z innymi znaczącymi funkcjami, jak wymieniono poniżej
@@ -56,7 +56,7 @@ Ghost zapewnia natywny interfejs API REST, wbudowane funkcje członkostwa i subs
   * Native Apps
     [Czytaj więcej][8]
 
-###**Serendipity** {#Serendipity}
+## # **Serendipity** {#Serendipity}
 Serendipity to open source, oparty na PHP silnik blogu, który można wykorzystać do budowy i utrzymywania stron internetowych w dowolnym celu. Jest zaprojektowany dla zwykłych blogerów. Oferuje jednak rozszerzalne ramy, które mają moc budowania profesjonalnych aplikacji.
 Niezawodność, bezpieczeństwo, rozszerzalność i łatwość użytkowania są podstawowymi wymaganiami każdej platformy blogowej, a Serendipity oznacza je. Ma prosty, ale potężny interfejs. Dlatego pozwala na łatwą edycję i zarządzanie Twoją treści.
 Serendipity obsługuje wiele języków, takich jak angielski, niemiecki, duński i francuski. Co najważniejsze, ma natywną obsługę migracji z innych platform blogowych, takich jak WordPress, TextPattern, typ ruchomy itp. Ułatwia to przenoszenie istniejących blogów z WordPress do Serendipity.
@@ -68,7 +68,7 @@ Oto niektóre z najważniejszych najważniejszych oprogramowania blogowania Sere
   * Otwarte źródło
     [Czytaj więcej][9]
 
-###**SilverStripe** {#SilverStripe}
+## # **SilverStripe** {#SilverStripe}
 SilverStripe to bezpłatny CMS i framework do tworzenia i utrzymywania stron internetowych, blogów i aplikacji internetowych. Został zbudowany przy użyciu najpopularniejszego na świecie języka skrypowego PHP. Dlatego sprawia, że ​​jest to elastyczna ramy, które można wykorzystać do budowania aplikacji ocen produkcyjnych.
 Dużo koncentruje się na bezpieczeństwie i zapewnia bezpieczeństwo i wsparcie na poziomie przedsiębiorstw. Mimo że nie ma sięgnąć do WordPress. Ale ma rosnącą i kwitnącą społeczność open source, która ciężko pracuje. W rezultacie jest niesamowitym produktem dla użytkowników.
 Oto najlepsze funkcje, które wymyśliliśmy w oprogramowaniu blogu Silverstripe.
@@ -79,7 +79,7 @@ Oto najlepsze funkcje, które wymyśliliśmy w oprogramowaniu blogu Silverstripe
   * Zarządzanie użytkownikami
     [Czytaj więcej][10]
 
-### Wniosek:
+## # Wniosek:
 W tym artykule przejrzałeś najlepsze oprogramowanie do blogowania open source dostępne dla twórców treści. W przypadku rozszerzalności WordPress ma przewagę ze względu na duże repozytorium wtyczek. Jeśli potrzebujesz prędkości, Ghost i Jekyll mogą być Twoim wyborem. W przypadku problemów z spamowaniem Serendipity ma funkcję sterowania spamem. Na koniec SilverStripe może być wyborem dla tych, którzy chcą skonfigurować złożone przepływy zatwierdzenia.
 Ponadto [Containerize.com][11] jest w drodze, aby ulepszyć stos produktów open source w wielu językach i frameworks_. Możesz dołączyć do nas na [Twitter][12], [LinkedIn][13] i naszej strony [Facebook][14]. Jaką listę platform blogowych wolisz?. Jeśli masz jakieś pytania lub opinię, proszę [skontaktuj się][15].
 

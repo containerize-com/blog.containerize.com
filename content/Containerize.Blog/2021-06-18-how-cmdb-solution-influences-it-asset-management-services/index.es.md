@@ -28,35 +28,35 @@ Estos sistemas de gestión de configuración ofrecen utilidades para mantener el
 ## **Top 5 Open Source mejor software CMDB**    {#top}
 En esta sección, exploraremos el software de base de datos de administración de configuración mejor calificado.
 
-### ralph
+## # ralph
 [Ralph][2] es un software de gestión de recursos gratuito de código abierto. Es multiplataforma y se le ocurre las capacidades de autohospitalización. Es altamente extensible y proporciona API REST para integraciones de terceros. Luego, existe un soporte completo para los centros de datos y la infraestructura de TI de la oficina. Sin embargo, este software de seguimiento de activos en tiempo real está escrito en Python y viene con documentación integral con respecto al desarrollo y la implementación. Por lo tanto, todo el código fuente está disponible en [GitHub][9].
 Ralph proporciona las siguientes características clave
   * Visualización de CC incorporada
   * Seguimiento de activos
   * Ligero
 
-### snipe-it it
+## # snipe-it it
 [Snipe-it][3] es otro software de código abierto que proporciona seguimiento de activos y configuración. Esta plataforma de gestión de recursos es compatible con AWS. Está altamente asegurado y proporciona opciones de inicio de sesión utilizando autenticación de dos factores y soporte SAML. También es autohostado y fácil de configurar. Esta solución CMDB está escrita en PHP y todo el código fuente está disponible en [GitHub][10].
 Las siguientes son las características centrales de Snipe-It
   * Interfaz RESTful
   * Integración con Slack y LDAP
   * Opciones de importación/exportación
 
-### Capataz
+## # Capataz
 [Foreman][11] es otra herramienta de código abierto para administrar servidores físicos y virtuales. Es altamente personalizable y proporciona una API REST para construir las funcionalidades necesarias. Además, existe un soporte completo para administrar configuraciones, implementaciones de aplicaciones, cambios en configuraciones y administradores del sistema pueden obtener informes detallados. Es autohospedado y todo el código fuente está disponible en [Github][12].
 Forman ofrece las siguientes características principales
   * Fácil de configurar
   * Informes y monitoreo
   * Arquitectura del complemento
 
-### Pasteles de estante
+## # Pasteles de estante
 [Racktables][13] es un sistema de gestión de activos de código abierto para centros de datos, salas de servidores. También proporciona soporte para administrar direcciones de red, configuraciones de red, configuraciones de equilibrio de carga y otros equipos de hardware. Además, permite a los usuarios crear permisos, etiquetado de usuarios y documentación de firewalls.
 Racktables proporciona las siguientes características destacadas
   * Gestión de archivos
   * Autohostado
   * Gestión de puertos físicos
 
-### ITOP
+## # ITOP
 [El portal de operaciones de TI][14] es una solución gratuita que proporciona una solución CMDB, sistema de servicio de ayuda y una herramienta de gestión de documentos. Ofrece ricas opciones de importación y exportación.
 ITOP ofrece características clave
   * Análisis de impacto automático

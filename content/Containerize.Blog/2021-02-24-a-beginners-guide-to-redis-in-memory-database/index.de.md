@@ -40,7 +40,7 @@ Einige beispielhafte Anwendungsfälle von Redis-In-Memory-Datenbank sind wie fol
   ***Benutzerpräsenz** : Aufgrund der Geschwindigkeit können Sie sie verwenden, um den Status "Online / Offline" des Benutzers zu speichern.
   ***Warteschlangen** : Sie können Redis verwenden, um vorübergehende Warteschlangen zu erhalten, um Hintergrundjobs zu verarbeiten.
 
-## Redis gegen andere Schlüsselwertspeicher   {#OTHER}}
+## Redis gegen andere Schlüsselwertspeicher   {#OTHER}
 Die Datenbank in der Memory-In-Memory ist sehr schnell und kann etwa 110000 Sätze pro Sekunde ausführen, etwa 81000 erhalten pro Sekunde. Es unterstützt mehrere Datentypen: Zeichenfolgen, Hashes, Listen, Sets und sortierte Sets. Redis ist Single-Threaden, was es ermöglicht, säure konform zu sein (Atomizität, Konsistenz, Isolation und Haltbarkeit). Andere NoSQL -Datenbanken bieten im Allgemeinen keine Säure -Compliance oder diese teilweise.
 
 ## Redis auf Ubuntu   {#install} installieren

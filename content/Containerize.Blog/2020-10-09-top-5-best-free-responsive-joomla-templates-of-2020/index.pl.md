@@ -23,7 +23,7 @@ Interfejs użytkownika witryny biznesowej zawsze był najważniejszą częścią
   * [Jd Austin][6]
   * [Wniosek][7]
 
-##**xeon**-**darmowy szablon joomla** {#xeon}
+## **xeon**-**darmowy szablon joomla** {#xeon}
 [Xeon][8] to bezpłatny modny szablon Joomla. Może być używany do wielu celów, takich jak strony osobiste, korporacyjne, wydarzenia lub biznesowe. Oprócz tego**JOOMLA ONE PAIPLE szablon**zapewnia nawigację opartą na animacjach JQuery i CSS. Wydaje się to odpowiednia opcja dla użytkowników ze względu na tak przydatne funkcje.
 Jednak niektóre dominujące cechy szablonu**Xeon**to:
   * Układ responsywny
@@ -32,7 +32,7 @@ Jednak niektóre dominujące cechy szablonu**Xeon**to:
   * HTML5, CSS3, SCSS Wsparcie
   * Obsługa języków od prawej do lewej
 
-##**jd Seattle**-**Lekki wielofunkcyjny szablon Joomla** {#jd}
+## **jd Seattle**-**Lekki wielofunkcyjny szablon Joomla** {#jd}
 [JD Seattle][9] to szeroko stosowany szablon Joomla. Ponadto jest zbudowany przy użyciu astroidowych framework. Ponadto jest wyposażony w solidny panel administracyjny z wieloma innymi funkcjami i animacjami. Jest zintegrowany z JD Builder, który w rezultacie zapewnia użytkownik do projektowania i budowy dowolnej sekcji według elementów przeciągania i upuści. Jest przyjazny dla układu i natychmiast dostosowuje się do dowolnego ekranu. Zapewnia logiczną nawigację, w której użytkownicy mogą wstawić tyle pozycji menu, ile potrzebne. Właściciele witryn mogą skontaktować się z odwiedzającymi witrynę za pośrednictwem formularza kontaktowego pakowanego w tym szablonie biznesowym Joomla. Ponadto w JD Seattle jest ponad 800 czcionek Google.
 Przede wszystkim kilka ważnych funkcji**JD Seattle**to:
   * Nawigacja z nieograniczonymi elementami menu
@@ -41,7 +41,7 @@ Przede wszystkim kilka ważnych funkcji**JD Seattle**to:
   * Obsługa kolorów RGB
   * Obsługa Framework Bootstrap 4
 
-##**Dino**-**Darmowy konfigurowalny szablon Joomla** {#dino}
+## **Dino**-**Darmowy konfigurowalny szablon Joomla** {#dino}
 [Dino][10] to bardzo żywy szablon dotyczący regularnych ulepszeń i nowych aktualizacji funkcji. Ten szablon jest kompatybilny z Bootstrap 4 Dlatego**Joomla Development Environment**oferuje w pełni responsywny układ i utrzymuje czysty i zoptymalizowany kod. Ponadto można go łatwo dostosować zgodnie z potrzebami biznesowymi. Istnieją regularne zmiany, które aktualizują ten szablon Joomla o nowe funkcje i wygląd.
 * * Dino**jest idealnym wyborem ze względu na następujące wybitne funkcje:
   * Darmowe czcionki Google
@@ -50,7 +50,7 @@ Przede wszystkim kilka ważnych funkcji**JD Seattle**to:
   * Przyjazny układ
   * Ponad 100 unikalnych komponentów
 
-##**Jollyany**-**Szablon Joomla z nieskończonymi funkcjami** {#jollyany}
+## **Jollyany**-**Szablon Joomla z nieskończonymi funkcjami** {#jollyany}
 [Jollyany][11] to szablon Joomla z bogatym. Przede wszystkim jest obsługiwany przez framework astroid i bootstrap v4.5 Framework. Ponadto zapowiada się na modułowy front, w którym użytkownicy mogą dostosować interfejs użytkownika zgodnie z wymaganiami. W tym bezpłatnym szablonie Joomla jest ponad 60 wtyczek. Użytkownicy mają opcje wyboru dowolnego nagłówka spośród wielu opcji nagłówka. Jeśli masz na celu zaprojektowanie strony osobistej, blogu, firmy lub blogu, to**Jollyany**jest najlepszym wyborem.
 Jest to bardzo przydatne ramy z wieloma funkcjami, takimi jak:
   * Obsługa menu na płótnie
@@ -59,7 +59,7 @@ Jest to bardzo przydatne ramy z wieloma funkcjami, takimi jak:
   * Optymalizuj HTML, JS, CSS
   * 6 rodzajów artykułów
 
-##**jd austin**-**SEO zoptymalizowany szablon Joomla** {#Austin}
+## **jd austin**-**SEO zoptymalizowany szablon Joomla** {#Austin}
 * * [JD Austin][12]**to bezpłatny responsywny**szablon biznesowy Joomla**, jednak zapewnia potężne opcje witryn komercyjnych i niekomercyjnych. Optymalizacja wyszukiwarek odbywa się zgodnie ze standardami zdefiniowanymi przez Google. Przede wszystkim jest wyposażony w zintegrowaną chronoforię budowniczą formularzy, w której użytkownicy mogą budować dowolny formularz za pomocą interfejsu przeciągania i upuść. Ponadto ten szablon utrzymuje wysoce responsywne układy z bogatą typografią i kolorami. Zapewnia również integrację z rozszerzeniami stron trzecich.
 Z drugiej strony niektóre fajne cechy tego darmowego szablonu Joomla obejmują:
   * W pełni dostosowany układ blogu

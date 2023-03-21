@@ -49,7 +49,7 @@ GIT kullanarak yerel deponuzda değişiklikler yapabilir ve bir barındırma ara
 ## Git   {#install}
 Git'i bilgisayarınıza yüklemek için farklı yöntemler vardır. Bir paket olarak veya başka bir yükleyici aracılığıyla yükleyebilir veya kaynak kodunu indirebilir ve kendiniz derleyebilirsiniz.
 
-### Linux'a yükleme
+## # Linux'a yükleme
 Basic Git araçlarını Linux'a bir ikili yükleyici aracılığıyla yüklemek istiyorsanız, bunu genellikle dağıtımınızla birlikte gelen paket yönetim aracı aracılığıyla yapabilirsiniz. Fedora (veya RHEL veya CentOS gibi yakından ilgili RPM tabanlı herhangi bir dağılım için “DNF” kullanabilirsiniz.
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ Ubuntu gibi Debian tabanlı bir dağıtımdaysanız, “Apt” i deneyin.
 $ sudo apt install git-all
 ```
 
-### MacOS üzerine yükleme
+## # MacOS üzerine yükleme
 Git'i Mac'e yüklemenin birkaç yolu vardır. En kolay olanı muhtemelen Xcode komut satırı araçlarını yüklemektir. Mavericks (10.9) ya da daha yüksekte bunu ilk kez terminalden **git**  çalıştırmaya çalışarak yapabilirsiniz.
 ```
 $ git --version

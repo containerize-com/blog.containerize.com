@@ -66,7 +66,7 @@ ruby -r rubygems -e 'require "jekyll-import";
 ```
 Questo importa solo dati e contenuti post e pagine. Questo importatore converte solo i tuoi post e crea una ma-matter di Yaml. Non importa i layout, lo styling o i file esterni (immagini, CSS, ecc.).
 
-Distribuzione ##**con pagine GitHub**{#deploy}
+Distribuzione ## **con pagine GitHub**{#deploy}
 Finora abbiamo creato il nostro blog Jekyll a livello locale. Ora lo schiereremo su GitHub. Prima di tutto, dobbiamo controllare la versione il nostro sito usando [git][9]. Esegui i seguenti comandi nella cartella del sito.
 ```
 git init

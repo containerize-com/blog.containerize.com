@@ -24,14 +24,14 @@ Osticket fornisce un pannello di controllo intuitivo e un componente di reportin
 
 ## pro e contro di osticket   {#pros}
 
-#### Professionisti
+## ## Professionisti
   * Osticket è estremamente intuitivo sia per gli utenti finali che per gli agenti di supporto.
   * In bundle con caratteristiche ricche, Osticket ha tutto il necessario senza essere eccessivamente complicato.
   * Osticket è completamente gratuito e il software di gestione dei biglietti open source.
   * È leggero, sicuro, affidabile e facile da installare software di gestione dell'help desk.
   * È flessibile da eseguire su tutti i server Web popolari tra cui Apache, Nginx, Lighttpd e IIS, ecc.
 
-#### cons
+## ## cons
   * Osticket non fornisce dettagli analisi dei biglietti e statistiche come altri sistemi di help desk retribuiti.
   * La sua interfaccia utente è molto semplice e di base rispetto ad altri sistemi di supporto.
 

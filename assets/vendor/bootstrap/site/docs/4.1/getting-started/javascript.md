@@ -35,7 +35,7 @@ $(document).off('.alert.data-api')
 {% endhighlight %}
 
 {% capture callout %}
-##### Escaping selectors
+## ## # Escaping selectors
 If you use special selectors, for example: `collapse:Example`, be sure to escape them, because they'll be passed through jQuery.
 {% endcapture %}
 {% include callout.html content=callout type="warning" %}
@@ -70,7 +70,7 @@ $('#myModal').modal('show')                // initializes and invokes show immed
 
 Each plugin also exposes its raw constructor on a `Constructor` property: `$.fn.popover.Constructor`. If you'd like to get a particular plugin instance, retrieve it directly from an element: `$('[rel="popover"]').data('popover')`.
 
-### Asynchronous functions and transitions
+## # Asynchronous functions and transitions
 
 All programmatic API methods are **asynchronous** and returns to the caller once the transition is started but **before it ends**.
 
@@ -93,7 +93,7 @@ $('#myCarousel').carousel('1') // Will start sliding to the slide 1 and returns 
 $('#myCarousel').carousel('2') // !! Will be ignored, as the transition to the slide 1 is not finished !!
 {% endhighlight %}
 
-### Default settings
+## # Default settings
 
 You can change the default settings for a plugin by modifying the plugin's `Constructor.Default` object:
 
@@ -123,7 +123,7 @@ $.fn.tooltip.Constructor.VERSION // => "{{ site.current_version }}"
 Bootstrap's plugins don't fall back particularly gracefully when JavaScript is disabled. If you care about the user experience in this case, use [`<noscript>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript) to explain the situation (and how to re-enable JavaScript) to your users, and/or add your own custom fallbacks.
 
 {% capture callout %}
-##### Third-party libraries
+## ## # Third-party libraries
 
 **Bootstrap does not officially support third-party JavaScript libraries** like Prototype or jQuery UI. Despite `.noConflict` and namespaced events, there may be compatibility problems that you need to fix on your own.
 {% endcapture %}

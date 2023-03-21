@@ -31,16 +31,16 @@ En este tutorial de complementos de WordPress, aprenderemos cómo crear nuestro 
 ## conceptos básicos del desarrollo de complementos   {#Basics}
 Tomemos un momento para hablar sobre algunos aspectos clave del desarrollo de complementos. Una comprensión sólida de cómo funcionan estos conceptos lo ayudará a desarrollar una funcionalidad fácil de usar y mantenible.
 
-### Acciones
+## # Acciones
 **Los ganchos de acción  **son una herramienta muy útil en **  WordPress  ****  complemento  **y se utilizan para realizar funciones (**  acciones** ) en lugares específicos de un tema o complemento. WordPress tiene docenas de acciones definidas a lo largo de su funcionalidad central, cada acción que consiste en un nombre único. Para más detalles [leer][5].
 
-### Filtros
+## # Filtros
 Un filtro de WordPress es un gancho que acepta una variable (o una serie de variables) y las devuelve después de haber sido modificado. Estos filtros a menudo se usan para que tenga una forma de manipular la información predeterminada. Para más detalles [leer][6].
 
-### Códigos cortos
+## # Códigos cortos
 Los códigos cortos son macros que se pueden usar para realizar interacciones dinámicas con el contenido. es decir, crear una galería a partir de imágenes adjuntas a la publicación o hacer un video. Como resultado, son una forma valiosa de mantener el contenido limpio y semántico al tiempo que permite a los usuarios finales cierta capacidad de alterar programáticamente la presentación de su contenido. Para más detalles [leer][7].
 
-### widgets
+## # widgets
 Los widgets son importantes porque le dan otro medio para ejecutar el código de su complemento al tiempo que proporciona una interfaz fácil de usar. Dado que la mayoría de los temas admitirán una o más barras laterales; Agregar sus propios widgets le dará acceso rápido para mostrar su información dentro del tema.
 
 ## **¿Cómo crear el complemento WP?**    {#Create}
@@ -62,7 +62,7 @@ En esta sección del tutorial de complementos de WordPress, todo lo que necesita
 Ahora, puede entrar en el back -end para activar su complemento. Eso es todo, aunque este complemento no hace nada. Pero, es un complemento activo y funcional. La mejor práctica al desarrollar un complemento es separar perfectamente su código en archivos y carpetas apropiados.
 Para demostrar, agregemos funcionalidad a nuestro complemento de prueba que rastree la popularidad de nuestros artículos almacenando cuántas veces se ha visto cada publicación.
 
-### Almacenamiento de vistas de la página
+## # Almacenamiento de vistas de la página
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ Hasta ahora, todo bien en este tutorial de complementos de WordPress. Pero esta 
 add_action("wp_head", "add_page_views");
 ```
 
-### mostrando las vistas de la página
+## # mostrando las vistas de la página
 Ahora crearemos otra función que devuelve las vistas de la página que ya almacenamos en la función anterior. Echemos un vistazo al código:
 ```
 function get_page_views() {

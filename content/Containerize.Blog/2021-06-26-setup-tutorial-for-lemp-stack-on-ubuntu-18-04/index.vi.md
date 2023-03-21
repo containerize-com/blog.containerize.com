@@ -35,7 +35,7 @@ Trong phần này, chúng tôi sẽ tập trung vào cách cài đặt Nginx, My
 $ sudo apt update
 ```
 
-### Cài đặt máy chủ web nginx
+## # Cài đặt máy chủ web nginx
   *Chạy lệnh bên dưới để  **Cài đặt nginx trên ubuntu** .
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Trang máy chủ web nginx trang mặc định">}}
 
 
-### Cài đặt MySQL
+## # Cài đặt MySQL
 Bây giờ, bạn cần cài đặt máy chủ cơ sở dữ liệu MySQL để quản lý dữ liệu ứng dụng của bạn.
   *Chạy lệnh bên dưới để  **Cài đặt MySQL trên Ubuntu** .
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### Đang cài đạt PHP
+## # Đang cài đạt PHP
 Chúng tôi sẽ bao gồm việc cài đặt PHP-FPM để xử lý PHP. PHP-FPM là viết tắt của Trình quản lý quy trình FastCGI. Máy chủ web nginx không có bất kỳ chức năng tích hợp nào để xử lý PHP vì vậy, chúng tôi sẽ sử dụng PHP-FPM cho nó. Ngoài ra, chúng tôi sẽ cài đặt PHP-MYSQL để giao tiếp PHP với MySQL để quản lý dữ liệu.
   *Chạy lệnh bên dưới để  **Cài đặt PHP trên Ubuntu** .
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### Kiểm tra PHP
+## # Kiểm tra PHP
   * Để đảm bảo nginx phục vụ chính xác các trang PHP, chúng tôi sẽ tạo tệp PHP để kiểm tra các cấu hình.
   * Tạo tệp Info.php trong thư mục gốc của máy chủ web nginx bằng cách chạy lệnh bên dưới.
 ```

@@ -15,7 +15,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Top-5-Open-Source-Web-Server-Solution-Stacks-In-2021.png" alt="software del server web">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro articolo nella serie di [stack di soluzione del server Web][1]. Nel recente passato, abbiamo pubblicato post sul blog su argomenti come [Setup XAMPP e PhpMyAdmin come LocalHost su Windows][2], [come installare NextCloud con Apache su Ubuntu Server][3], [tutorial di installazione per lemp stack on Occ. Ubuntu 18.04][4] e altri. Come sviluppatore, quando si decide di sviluppare un'applicazione Web, la selezione di server Web e database per l'hosting di un'applicazione è la prima attività. Prima di distribuire un'app Web su un server live, gli sviluppatori devono prima creare e testare l'app sul server locale. Esistono molte opzioni per il software di server Web open source. Un buon server Web dovrebbe avere qualità come la facilità d'uso, la stabilità, l'espansione e la scalabilità.
 Un server Web è un tipo di software installato sul sistema operativo. Con l'aiuto dei protocolli di trasferimento HTTP, le richieste dei client vengono trasmesse al Web ERVER e, in cambio, il Web Server fornisce documenti per richiedere i client. Per contenuti statici, come i file o le immagini HMTL, quindi il server Web elabora direttamente la richiesta inviando i dati corrispondenti al client. Il contenuto dinamico, d'altra parte, può essere reso solo con l'aiuto di database e moduli di script. Tuttavia, le soluzioni di server HTTP gratuite più comunemente utilizzate includono:
   * [XAMPP][5]

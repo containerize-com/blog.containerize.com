@@ -44,7 +44,7 @@ Prima di parlare di più sulla migliore coda di messaggi Apache Kafka, devi capi
   ***Leader** : il nodo è responsabile di tutte le letture e scrive per una data partizione.
   ***Follower** : il nodo che segue le istruzioni del leader sono chiamati seguaci.
 
-Passaggi di installazione ##  {#Steps}
+Passaggi di installazione ## {#Steps}
 
 ### Passaggio 1 - Verifica dell'installazione di Java
 Spero che tu abbia già installato Java sulla tua macchina in questo momento, quindi lo verifichi semplicemente utilizzando il seguente comando.

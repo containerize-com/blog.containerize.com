@@ -33,16 +33,16 @@ Forum jawaban pertanyaan ini cepat, andal, ringan, dan menawarkan banyak fitur m
 ## flarum vs wacana   {#vs}
 Di bagian ini, kami akan menempatkan kedua perangkat lunak forum open source ini di satu tempat di mana kami akan dapat membandingkan wacana dan flarum.
 
-#### Masyarakat
+## ## Masyarakat
 Nah, kedua forum jawaban pertanyaan gratis ini memiliki komunitas kuat yang secara aktif menanggapi pertanyaan pengguna/pengembang. Jika kita berbicara tentang statistik GitHub, Flarum memiliki 12K plus bintang dan 1K garpu pada repo github -nya. Di sisi lain, wacana memiliki 34K plus bintang dan 7K plus garpu pada repo github -nya.
 
-#### Tech Stack
+## ## Tech Stack
 Sejauh menyangkut tumpukan teknologi dari perangkat lunak forum open source ini, wacana ditulis dalam Ruby on Rails dan JavaScript. Sedangkan, flarum ditulis dalam PHP dengan kombinasi dan mysql / mariadb.
 
-#### **Fitur**
+## ## **Fitur**
 Ini adalah aspek paling penting dalam hal pemilihan perangkat lunak apa pun untuk bisnis Anda. Oleh karena itu, kedua perangkat lunak forum diskusi ini menyediakan fitur tingkat perusahaan. Falrum dan wacana keduanya menawarkan fitur sosial dan sistem pemberitahuan yang kaya. Selain itu, wacana memiliki basis plugin yang sangat besar di mana Anda dapat menemukan hampir semua jenis plugin. Selain itu, pengguna dapat memodifikasi tampilan & nuansa dasbor wacana. Ini juga menawarkan fitur masuk tunggal di mana pengguna dapat masuk menggunakan login sosial pihak ketiga.
 
-#### ekstensibilitas
+## ## ekstensibilitas
 Ini adalah karakteristik penting lain dari perangkat lunak apa pun. Untungnya, kedua perangkat lunak forum open source ini dapat diperluas dan pengembang dapat dengan mudah memperluas fungsionalitas sesuai kebutuhan. Di atas segalanya, wacana menawarkan AP untuk integrasi pihak ketiga.
 
 ## kesimpulan   {#conclusion}

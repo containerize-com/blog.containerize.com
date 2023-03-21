@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomvsdrup.png" alt="Joomla vs Drupal">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Chào mừng bạn đến với bài viết trên blog này. Trong quá khứ gần đây, chúng tôi đã xuất bản nhiều bài viết như [Hướng dẫn phát triển mẫu Joomla cho người mới bắt đầu][1], [Tích hợp Mautic & Joomla cho tự động hóa tiếp thị kỹ thuật số][2], và một số khác. Drupal và Joomla là phần mềm CMS nguồn mở được cấp phép theo GPL. Bài đăng trên blog  **Joomla vs Drupal**  này sẽ cung cấp cho bạn một bức tranh rõ ràng về các tính năng. Tuy nhiên, sự hiện diện trực tuyến của doanh nghiệp của bạn là khía cạnh quan trọng nhất khi nói đến tăng trưởng và tiếp cận kinh doanh. Mục tiêu của các bên liên quan kinh doanh là xuất bản nội dung hấp dẫn thu hút lưu lượng truy cập vào các trang web kinh doanh.
 Do đó, cộng đồng nguồn mở đã phát triển nhiều phần mềm quản lý nội dung cung cấp một loạt các tính năng cho chủ sở hữu trang web và nhà xuất bản nội dung. [Joomla][3] và [Drupal][4] là phần mềm CMS nguồn mở phổ biến nhất. Drupal là gì? **Joomla  **là gì? Đây là hai câu hỏi mà chúng tôi sẽ cố gắng trả lời trong bài đăng trên blog của**   CMS so sánh** bằng cách trình bày các điểm sau.
   * **[Joomla là gì?][5]**
@@ -33,22 +33,22 @@ Phần mềm CMS nguồn mở này an toàn, linh hoạt và cung cấp các kh�
 ## So sánh Joomla & Drupal   {#comp}
 Trong phần này của bài viết  **Joomla vs Drupal** , chúng tôi sẽ so sánh hai phần mềm CMS nguồn mở này bằng cách xem xét các tính năng của họ và đứng trong cộng đồng. Dưới đây là những điểm sau đây mà chúng tôi sẽ đề cập.
 
-#### Cộng đồng
+## ## Cộng đồng
 Một cộng đồng hỗ trợ xác định thành công và phạm vi tiếp cận của một phần mềm nguồn mở. May mắn thay, cả hai CMS nguồn mở này đều có các cộng đồng sống động và tích cực luôn luôn tiến tới bất kỳ vấn đề hoặc phát hành tính năng nào. Joomla có 3,9k sao với 3,3k dĩa trên GitHub trong khi, Drupal bảo vệ 3,6k sao với 1,8k Fork. Ngoài ra, bạn có thể tìm thấy tài liệu đầy đủ về việc phát triển và triển khai cả hai giải pháp CMS nguồn mở này.
 
-#### Khả năng mở rộng
+## ## Khả năng mở rộng
 Khả năng mở rộng là một đặc điểm quan trọng khác của bất kỳ phần mềm nguồn mở nào. Drupal có thể mở rộng và ổn định hơn Joomla. Drupal đi kèm với kiến ​​trúc thẳng và đơn giản mà các nhà phát triển có thể mở rộng nó với ít nỗ lực hơn so với Joomla.
 
-#### Độ phức tạp
+## ## Độ phức tạp
 Đặc điểm này rất quan trọng khi nói đến sự phổ biến giữa các nhà phát triển. Theo quan điểm chung, Drupal có vẻ hơi phức tạp so với Joomla. Joomla tương đối dễ học và các nhà phát triển thấy thoải mái khi phát triển hơn nữa trong hệ thống quản lý nội dung nguồn mở này.
 
-#### Bổ sung
+## ## Bổ sung
 Theo như các mô -đun và tiện ích mở rộng có liên quan, cả hai CM nguồn mở này đều cung cấp một loạt các mô -đun. Người dùng có thể chọn và tùy chỉnh các plugin này theo nhu cầu của họ. Tuy nhiên, Drupal có lợi thế cạnh tranh so với Joomla vì số lượng plugin được cung cấp bởi hệ thống quản lý nội dung này cao hơn Joomla.
 
-#### Stack công nghệ
+## ## Stack công nghệ
 Cả hai CMS nguồn mở này được viết bằng PHP. Tuy nhiên, đó là một tình huống có lợi cho nhà phát triển PHP để đối mặt với môi trường phát triển tương tự.
 
-#### Bảo vệ
+## ## Bảo vệ
 Đây là đặc điểm quan trọng và quyết định nhất trong khi chọn bất kỳ phần mềm nào. Cả hai CM nguồn mở này đều an toàn nhưng Drupal nổi bật với các phương pháp bảo mật tích hợp. Hơn nữa, Drupal cũng cung cấp các hướng dẫn bảo mật cho các lập trình viên muốn mở rộng hệ thống quản lý nội dung nguồn mở này.
 
 ## Kết luận   {#conclusion}

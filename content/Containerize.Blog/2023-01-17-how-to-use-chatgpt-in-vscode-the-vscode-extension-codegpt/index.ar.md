@@ -9,7 +9,7 @@ url: /ar/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**ستقدم هذه المقالة chatgpt لـ VScode. يعتمد رمز مولد كود Openai GPT على نموذج GPT-3 الذي يعمل بالذكاء المفتوح المصدر.**
+## **ستقدم هذه المقالة chatgpt لـ VScode. يعتمد رمز مولد كود Openai GPT على نموذج GPT-3 الذي يعمل بالذكاء المفتوح المصدر.**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="رمز امتداد VSCODE GPT">}}
 

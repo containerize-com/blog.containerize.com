@@ -29,7 +29,7 @@ Faktanya, JavaScript adalah bahasa yang diketik secara longgar yang berarti Anda
 {{< figure align=center src="images/web-development.png" alt="Panduan Pemula Javascript">}}
 
 
-#### tipe data primitif
+## ## tipe data primitif
 Jenis data primitif adalah yang tidak dapat diubah dan tidak dapat diubah setelah pembuatan dan inisialisasi. Namun, Anda dapat menilai kembali nilai baru tetapi tidak dapat bermutasi nilai yang ada.
 Misalnya:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 Dalam contoh di atas, string adalah tipe data primitif dan nilai lama digantikan oleh nilai baru tetapi perubahan nilai yang ada tidak tercermin. Jadi, kita bisa melihatnya masih "nama saya diubah" bukan "nama saya diubah";
 
-#### tipe data non-primitif
+## ## tipe data non-primitif
 Jenis data non-primitif dapat berubah, dengan kata-kata sederhana berlawanan dengan tipe data primitif.
 Misalnya:
 ```

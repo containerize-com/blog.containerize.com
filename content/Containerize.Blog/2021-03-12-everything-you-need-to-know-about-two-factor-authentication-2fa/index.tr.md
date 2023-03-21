@@ -186,7 +186,7 @@ Adım-4 kodu doğrulandı ve 2FA kimlik doğrulaması tamamlandı.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2FADemo - Yetkili Sayfa">}}
 
 
-### Çözüm:
+## # Çözüm:
 Bu makalede, 2FA'yı ve .NET5'teki uygulamasını kimlikserver4 ve Twilio'yu kullanarak öğrendik. Bu makalede kullanılan örnek kodunu bu [repo][6] 'dan indirebilirsiniz.
 2FA için SMS kullanmak güvenliğinizi kesinlikle güçlendirir, ancak [SIM takas saldırılarına] karşı savunmasızdır [7]. Bu nedenle, güvenlik araştırmacıları 2FA'yı, telefon ağında ele geçirilemeyen Authenticator uygulamaları ve güvenlik anahtarları ([Yubikey][8]) gibi diğer yaklaşımları kullanmaya teşvik ediyor. Bu konuda daha fazla bilgi edineceğimiz bir makalede - bizi izlemeye devam edin!
 

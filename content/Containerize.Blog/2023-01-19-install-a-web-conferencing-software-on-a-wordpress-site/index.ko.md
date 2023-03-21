@@ -21,15 +21,15 @@ categories: ['Blogging', 'Video Conferencing Software']
 * [**WordPress에 대한 간단한 소개**][4]
 * **[WordPress에 BigBlueButton 플러그인을 설치하는 방법?][5]**
 
-##**BigBlueButton은 무엇입니까?** {#What-is-BigblueButton}
+## **BigBlueButton은 무엇입니까?** {#What-is-BigblueButton}
 [BigBlueButton][6]는 오픈 소스 무료**비디오 협업 소프트웨어**의 거대한 엔터프라이즈 수준의 기능을 갖춘 스택입니다. 이 오픈 소스 소프트웨어는 확장 가능하며 WordPress, [Redmine][7], [Schoology][8], [Drupal][9] 및 Canvas와 같은 많은 인기있는 응용 프로그램과 통합을 제공합니다. 또한 공유 화이트 보드, 공개/개인 메시지 보내기, HD 오디오, 전자식 수제 및 풍부한 프리젠 테이션 도구를 제공합니다. 또한**BigBlueButton**는 HTML5 지원이며 모든 인기있는 웹 브라우저에서 잘 작동합니다.
 또한이**웹 회의 소프트웨어**는 거대하고 살아있는 개발자 커뮤니티를 보유하고 있습니다. [Github Repo][10]에는 7.8k 별과 5.8k 포크가있는 매우 좋은 통계가 있습니다. BigBlueButton은 Java 및 Ruby와 같은 다른 언어의 입력과 함께 JavaScript로 작성되었습니다. 실제로 개발자는 개발, 배포 및 사용에 관한 포괄적 인 문서를 찾을 수 있습니다. 따라서이 자체 호스팅 소프트웨어를 로컬 또는 클라우드 서버에서 쉽게 설정할 수 있습니다.
 
-##**WordPress에 대한 간단한 소개** {#a-brief-intro-to-wordpress}
+## **WordPress에 대한 간단한 소개** {#a-brief-intro-to-wordpress}
 [WordPress][2]는 웹 사이트 소프트웨어 범주에서 최상위**오픈 소스 블로그 플랫폼**중 하나입니다. 이 오픈 소스 소프트웨어는 초보자 수준의 웹 개발자도 사이트 구축을 수행하여 시작할 수 있습니다. 또한 WordPress는 매우 구성 가능하며 비즈니스 요구 사항에 따라 사용자 정의 할 수 있습니다. 무엇보다도, 그것은 많은 플러그인을 찾을 수있는 엄청난 [Marketplace][11]가 있습니다.
 이**블로깅 소프트웨어**에는 자체 호스팅 기능이 제공되며 여러 언어에 대한 완벽한 지원이 있습니다. 또한 [GitHub][12] Repo에는 매우 좋은 통계가 있으며 소스 코드를 다운로드하여 쉽게 설정할 수 있습니다. 또한 WordPress 웹 사이트에 기능에 대한 플러그인을 설치할 수 있습니다. 실제로 모든 카테고리에 속하는 사이트의 플러그인을 찾을 수 있습니다. 주로 PHP로 작성되었으며 개발, 배포 및 사용에 관한 완전한 지침을 찾을 수 있습니다.
 
-##**WordPress에 BigBlueButton 플러그인을 설치하는 방법?** {#how-install-bigbluebutton-in-wordpress}
+## **WordPress에 BigBlueButton 플러그인을 설치하는 방법?** {#how-install-bigbluebutton-in-wordpress}
 이 섹션에서는 WordPress 사이트**에 웹 회의 소프트웨어를 설치하는 방법을 보여줍니다. 또한 BigBlueButton 플러그인을 조금 더 탐색 할 것입니다. 더 옮기기 전에 컴퓨터에 WordPress를 설치하고 비즈니스 웹 사이트를 UP & RUNGEN을 사용해야합니다.
 WordPress를 설치하지 않은 경우이 [링크][2]를 방문하십시오. 완전한 설치 지침을 찾을 수 있습니다.
 WordPress에서 BigBlueButton [플러그인][13]의 설치 프로세스를 시작하겠습니다.

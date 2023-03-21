@@ -21,7 +21,7 @@ Có rất nhiều nền tảng viết blog Nguồn mở cung cấp các tùy ch�
   * [Serendipity][4]
   * [Silverstripe][5]
 
-###**WordPress** {#wordpress}
+## # **WordPress** {#wordpress}
 WordPress là một hệ thống quản lý nội dung nguồn mở và miễn phí và nền tảng viết blog tự lưu trữ. Nó dựa trên PHP và MySQL là ngăn xếp công nghệ phổ biến nhất. Do đó, làm cho WordPress được sử dụng rộng rãi nhất CMS và phần mềm viết blog nguồn mở trên thế giới. Tại thời điểm viết bài đăng này, theo các trang web chính thức WordPress.org, nó cung cấp năng lượng cho hơn 30% trong số 10 triệu trang web hàng đầu và tổng thị phần là 60%.
 Cho dù bạn muốn tạo một blog, trang web hoặc muốn bán trực tuyến. Nói cách khác, bất cứ điều gì liên quan đến tạo nội dung, WordPress cung cấp cho bạn tất cả các công cụ và tính năng. Nó có kho lưu trữ plugin rộng rãi với hàng ngàn plugin có sẵn. Do đó, nó rất hữu ích cho các nhà phát triển để nâng cao trải nghiệm công cụ viết blog tốt nhất WordPress.
 Tóm lại, sự phổ biến của WordPress, khiến nó lựa chọn các nhà phát triển đầu tiên để viết các tiện ích bổ sung của riêng họ để mở rộng chức năng của WordPress. Phát triển plugin cho WordPress đã trở thành một ngành công nghiệp của riêng mình.
@@ -33,7 +33,7 @@ Dưới đây là một số tính năng đáng chú ý của nền tảng Micro
   * Cộng đồng nhà phát triển nguồn mở khổng lồ
     [Đọc thêm][6]
 
-###**Jekyll** {#jekyll}
+## # **Jekyll** {#jekyll}
 Jekyll là một trình tạo trang web tĩnh và các công cụ viết blog miễn phí cho người mới bắt đầu. Nó tạo ra một trang web bằng cách sử dụng các tệp đánh dấu của bạn. Nó lấy nội dung trang web của bạn, áp dụng nó vào một số mẫu và tạo các tệp HTML tĩnh hoàn toàn. Vì vậy, họ đã sẵn sàng để được lưu trữ trên bất kỳ nền tảng lưu trữ nào.
 Không giống như WordPress hoặc bất kỳ công cụ viết blog nào khác Jekyll, mục đích chính là tốc độ và hiệu suất của trang web. Nó là một trình tạo trang web tĩnh và nền tảng blog nguồn mở miễn phí. Do đó, nó lấy đi tất cả các xử lý nội dung tại thời điểm chạy. Vì vậy, không có chi phí đọc dữ liệu từ cơ sở dữ liệu khi người dùng truy cập trang web. Nhiều trang web giao thông cao được xây dựng với Jekyll và được biết là cung cấp các trang web tương đối nhanh và an toàn.
 Dưới đây là những điểm nổi bật hàng đầu của nền tảng viết blog nguồn mở tốt nhất Jekyll.
@@ -44,7 +44,7 @@ Dưới đây là những điểm nổi bật hàng đầu của nền tảng vi
   * Mã nguồn mở
     [Đọc thêm][7]
 
-###**ma** {#Ghost}
+## # **ma** {#Ghost}
 Ghost là công cụ viết blog phi lợi nhuận và miễn phí của nguồn mở. Nó được phát triển bằng Node.js, một trong những nền tảng phát triển phổ biến nhất. Vì vậy, nó có tất cả các quyền hạn của nút. Trên hết, nó có một giao diện đơn giản và sạch sẽ giúp nó dễ sử dụng. Nó là một nền tảng quản lý nội dung và viết blog tuyệt vời cho người mới bắt đầu và tập trung nhiều hơn vào nội dung.
 Sức mạnh và tốc độ của Node.js làm cho Ghost trở thành một nền tảng nhanh chóng và mạnh mẽ. Nó tập trung nhiều hơn vào Markdown thay vì chỉnh sửa Wysiwyg. Ghost có hai phiên bản, tự lưu trữ và lưu trữ. Nó hỗ trợ các chủ đề tùy chỉnh và cho phép bạn tải lên các chủ đề của riêng mình trên cả phiên bản tự lưu trữ và lưu trữ.
 Ghost cung cấp API REST gốc, thành viên tích hợp và các tính năng đăng ký cùng với các tính năng đáng chú ý khác như được liệt kê dưới đây
@@ -56,7 +56,7 @@ Ghost cung cấp API REST gốc, thành viên tích hợp và các tính năng �
   * Ứng dụng gốc
     [Đọc thêm][8]
 
-###**serendipity** {#serendipity}
+## # **serendipity** {#serendipity}
 Serendipity là một công cụ weblog dựa trên nguồn mở, dựa trên PHP có thể được sử dụng để xây dựng và duy trì các trang web cho bất kỳ mục đích nào. Nó được thiết kế cho các blogger thông thường. Tuy nhiên, cung cấp một khung có thể mở rộng có sức mạnh để xây dựng các ứng dụng chuyên nghiệp.
 Độ tin cậy, bảo mật, khả năng mở rộng và dễ sử dụng là các yêu cầu cốt lõi của bất kỳ nền tảng viết blog và Serendipity là viết tắt của những điều này. Nó có giao diện đơn giản nhưng mạnh mẽ. Do đó, cho phép chỉnh sửa và quản lý dễ dàng nội dung của bạn.
 Serendipity hỗ trợ nhiều ngôn ngữ như tiếng Anh, tiếng Đức, tiếng Đan Mạch và tiếng Pháp. Quan trọng nhất, nó có sự hỗ trợ gốc cho việc di chuyển từ các nền tảng viết blog khác như WordPress, TextPotype, loại di chuyển, v.v. Vì vậy, điều này giúp bạn dễ dàng chuyển các blog hiện tại của bạn từ WordPress sang Serendipity.
@@ -68,7 +68,7 @@ Dưới đây là một số điểm nổi bật hàng đầu của phần mềm
   * Mã nguồn mở
     [Đọc thêm][9]
 
-###**Silverstripe** {#silverstripe}
+## # **Silverstripe** {#silverstripe}
 Silverstripe là một CMS nguồn mở miễn phí và khung để tạo và duy trì các trang web, blog và ứng dụng web. Nó được xây dựng bằng cách sử dụng Php ngôn ngữ kịch bản phổ biến nhất thế giới. Do đó, làm cho nó trở thành một khung linh hoạt có thể được sử dụng để xây dựng các ứng dụng cấp sản xuất.
 Nó tập trung rất nhiều vào bảo mật và cung cấp bảo mật và hỗ trợ cấp doanh nghiệp. Mặc dù nó không có tầm với như WordPress. Nhưng nó có một cộng đồng nguồn mở đang phát triển và phát triển mạnh đang làm việc chăm chỉ. Kết quả là làm cho nó trở thành một sản phẩm tuyệt vời cho người dùng.
 Dưới đây là các tính năng hàng đầu mà chúng tôi đã tìm ra trong phần mềm blog tự lưu trữ của Silverstripe.
@@ -79,7 +79,7 @@ Dưới đây là các tính năng hàng đầu mà chúng tôi đã tìm ra tro
   * Quản lý người dùng
     [Đọc thêm][10]
 
-### Phần kết luận:
+## # Phần kết luận:
 Trong bài viết này, bạn đã xem xét phần mềm viết blog nguồn mở tốt nhất có sẵn cho người tạo nội dung. Để mở rộng WordPress có lợi thế vì kho lưu trữ plugin lớn. Nếu bạn cần tốc độ thì Ghost và Jekyll có thể là lựa chọn của bạn. Đối với các vấn đề về spam, serendipity đã tích hợp tính năng kiểm soát thư rác. Cuối cùng Silverstripe có thể là một lựa chọn cho những người muốn thiết lập các luồng phê duyệt phức tạp.
 Hơn nữa, [containerize.com][11] đang trên đường để tăng cường ngăn xếp các sản phẩm nguồn mở bằng nhiều ngôn ngữ và frameworks_. Bạn có thể tham gia với chúng tôi trên [Twitter][12], [LinkedIn][13] và trang [Facebook][14] của chúng tôi. Bạn thích danh sách những nền tảng blog nào hơn?. Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, xin vui lòng liên hệ][15].
 

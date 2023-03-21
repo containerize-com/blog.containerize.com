@@ -14,7 +14,7 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/An-introduction-to-artificial-intelligence-What-is-AI.png" alt="Cos'è AI">}}
 
 
-Panoramica ##
+Panoramica ## 
 L'intelligenza artificiale è l'argomento più votato nel momento attuale. In effetti, il futuro appartiene totalmente all'IA e molti giganti della tecnologia popolari stanno facendo enormi investimenti in tempo e risorse in questo ramo di informatica. Di recente, un enorme cambiamento ha portato una rivoluzione a causa della quale le macchine pesanti si sono trasformate in piccoli chip e transistor. Inoltre, le macchine intelligenti stanno rimuovendo pesantemente la forza lavoro a causa delle loro ricche tecniche di elaborazione e decisioni. Tuttavia, l'avvento dell'intelligenza artificiale ha dato una nuova direzione al mondo tecnologico. Sebbene sia costoso per l'azienda e richiede risorse. In questo post sul blog, passeremo attraverso un'introduzione all'intelligenza artificiale e cercheremo di ottenere la risposta a "**Cos'è Ai**"?
 I seguenti argomenti saranno trattati in questo post sul blog:
 * [**Che cos'è l'intelligenza artificiale (AI)?**][1]
@@ -31,13 +31,13 @@ Tuttavia, l'apprendimento automatico utilizza un apprendimento profondo che è u
 ## Tipi di intelligenza artificiale   {#tipi di intelligenza}
 Principalmente, ci sono due tipi di intelligenza artificiale. Questa sezione del post sul blog dimostrerà questi due tipi.
 
-#### Intelligenza artificiale debole
+## ## Intelligenza artificiale debole
 Secondo questa categoria di intelligenza artificiale, i sistemi sono progettati per risolvere problemi meno complessi. Questi sistemi prendono input, elaborano i processi del linguaggio naturale e forniscono l'output. Tuttavia, questi sistemi generano la risposta in base ai dati e alle statistiche passate ma non possono elaborare i problemi fuori dal loro ambito. Quindi, l'ambito di questa categoria non è illimitato. I migliori esempi di AI debole sono [Siri][4] di Apple e altri strumenti di assistente virtuale sviluppati da [Google][5] e [Amazon][6].
 
-#### Strong Artificial Intelligence
+## ## Strong Artificial Intelligence
 La forte intelligenza artificiale offre l'esatta simulazione del cervello umano. Anche l'intelligenza generale artificiale e la sovrintendenza artificiale rientrano in questa categoria. Questa categoria progetta sistemi e modelli che contengono la capacità di elaborare le cose e prendere decisioni senza intervento umano. I robot interattivi sono esempi di AI e auto a guida autonoma sono anche arricchiti con sistemi addestrati con enormi set di dati e sono in grado di prendere decisioni utilizzando la rete neurale. Inoltre, tali sistemi possono fare previsioni basate sulla loro esperienza passata.
 
-##**Applicazioni di intelligenza artificiale** {#Applicazioni di Intelligenza artificiale}
+## **Applicazioni di intelligenza artificiale** {#Applicazioni di Intelligenza artificiale}
 I seguenti punti ti daranno un'idea di alcune importanti applicazioni di intelligenza artificiale:
 * * Riconoscimento vocale**: L'elaborazione del linguaggio naturale è il ramo principale dell'IA che elabora la voce umana e fornisce l'output in forma scritta o in un'altra. Questa funzione è disponibile su molti dispositivi come telefoni cellulari, automobili e altro ancora.
 * * Riconoscimento facciale**: Secondo questa applicazione, l'intelligenza artificiale può confrontare più visioni facciali e ha la capacità di rilevare una struttura facciale specifica. Inoltre, puoi usare l'intelligenza artificiale per abbinare e sottolineare diversi accenti vocali, calligrafia, rumore e altro ancora.

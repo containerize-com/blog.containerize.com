@@ -24,14 +24,14 @@ Osticket zapewnia przyjazny dla użytkownika panel sterowania i komponent raport
 
 ## Plus i wady Osticket   {#Pros}
 
-#### Pro
+## ## Pro
   * Osticket jest niezwykle przyjazny dla użytkowników zarówno dla użytkowników końcowych, jak i agentów wsparcia.
   * W pakiecie z bogatymi funkcjami Osticket ma wszystko, czego potrzebujesz, nie będąc zbyt skomplikowanym.
   * Osticket jest całkowicie bezpłatne i oprogramowanie do zarządzania biletami typu open source.
   * Jest lekki, bezpieczny, niezawodny i łatwy w instalacji oprogramowania do zarządzania biurkami.
   * Elastyczne jest uruchamianie na wszystkich popularnych serwerach internetowych, w tym Apache, Nginx, LightTPD i IIS itp.
 
-#### Cons
+## ## Cons
   * Osticket nie podaje szczegółów analizy biletów i statystyk, takich jak inne systemy opłat pomocy technicznej.
   * Jego interfejs użytkownika jest bardzo prosty i podstawowy w porównaniu z innymi systemami wsparcia.
 

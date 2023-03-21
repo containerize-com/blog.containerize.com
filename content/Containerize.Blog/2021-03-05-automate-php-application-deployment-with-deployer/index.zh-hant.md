@@ -9,7 +9,7 @@ url: /zh-hant/automate-php-application-deployment-with-deployer/
 categories: ['Deployment Tools']
 ---
 
-##使用PHP部署工具自動化PHP應用程序部署過程。我們將學習如何設置Deployer並使用它來部署PHP應用程序。
+## 使用PHP部署工具自動化PHP應用程序部署過程。我們將學習如何設置Deployer並使用它來部署PHP應用程序。
 
 {{< figure align=center src="images/deployer-blog-post.png" alt="PHP部署工具">}}
 
@@ -19,10 +19,10 @@ categories: ['Deployment Tools']
   *[**部署PHP應用程序**][3]
   *[**結論**][4]
 
-##什麼是deployer   {#what}
+## 什麼是deployer   {#what}
 [**Deployer **][5]是一種免費的開源**  PHP部署工具**。它允許軟件團隊自動化基於PHP應用程序的部署工作流程。安裝非常簡單，易於使用。從初學者到專家級別的任何人都可以快速將其用於部署PHP應用程序。 Deployer帶有開箱即用的食譜/腳本，可用於流行的PHP框架，CMS和購物車軟件。此外，您可以使用此**開源部署工具**進行 **laravel部署** 。開發人員可以將內置食譜用於其項目，並將其用於部署。此外，您可以輕鬆地使用 **php Deployer** 嚮導創建安裝/部署腳本。此外，此**免費部署工具**提供了出色的功能，例如零下降時間部署，回滾前版本，SSH，並行執行等。
 
-##安裝deployer   {#installing}
+## 安裝deployer   {#installing}
   *部署者取決於PHP。您應該確保PHP在服務器上運行。但是，您可以使用下面的命令在Ubuntu上安裝PHP。
 ```
 sudo apt-get install php
@@ -34,7 +34,7 @@ sudo mv Deployer.phar /usr/local/bin/dep
 sudo chmod +x /usr/local/bin/dep
 ```
 
-##部署PHP應用程序 {#deploy}
+## 部署PHP應用程序 {#deploy}
 請按照分步指南進行**與Deployer部署PHP應用程序**。
   *為部署創建一個目錄，並導航到新創建的目錄。
 ```
@@ -117,7 +117,7 @@ dep deployer
 dep rollback
 ```
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 我們已經討論了有關Deployer以及如何在本教程中安裝它的信息。此外，我們為從GITHUB存儲庫中部署基於PHP的應用程序創建了完整的指南。希望這篇博客文章將幫助您與Deployer啟動**部署PHP應用程序**。此外，我們將在即將到來的教程中撰寫有關此 **PHP部署工具** 的更多信息。
 最後，[ **containerize.com** ][6]正處於撰寫有關更多最新開源產品的博客文章的一致過程。因此，與此[**部署工具**][7]類別保持聯繫，以進行最新更新。
 

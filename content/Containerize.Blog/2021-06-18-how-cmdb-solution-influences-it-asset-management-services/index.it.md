@@ -28,35 +28,35 @@ Questi sistemi di gestione della configurazione offrono utilità per mantenere i
 ##  **Top 5 open source miglior software CMDB**    {#top}
 In questa sezione, esploreremo il software di database di gestione della configurazione più votato.
 
-### Ralph
+## # Ralph
 [Ralph][2] è un software di gestione delle risorse gratuito open source. È multipiattaforma e presenta capacità di auto-osting. È altamente estensibile e fornisce API REST per integrazioni di terze parti. Quindi, esiste un supporto completo per i data center e l'infrastruttura IT di Office. Tuttavia, questo software di tracciamento delle risorse in tempo reale è scritto in Python e viene fornito una documentazione completa per lo sviluppo e la distribuzione. Pertanto, tutto il codice sorgente è disponibile su [github][9].
 Ralph fornisce le seguenti caratteristiche chiave
   * Visualizzazione DC incorporata
   * Tracciamento delle risorse
   * Leggero
 
-### snipe-it
+## # snipe-it
 [Snipe-it][3] è un altro software open source che fornisce monitoraggio delle risorse e della configurazione. Questa piattaforma di gestione delle risorse è supportata da AWS. È altamente protetto e fornisce opzioni di accesso utilizzando l'autenticazione a due fattori e il supporto SAML. È anche ospitato e facile da configurare. Questa soluzione CMDB è scritta in PHP e tutto il codice sorgente è disponibile su [GitHub][10].
 Di seguito sono riportate le caratteristiche fondamentali di Snipe-It
   * Interfaccia riposante
   * Integrazione con Slack e LDAP
   * Opzioni di importazione/esportazione
 
-### Foreman
+## # Foreman
 [Foreman][11] è un altro strumento open source per gestire i server fisici e virtuali. È altamente personalizzabile e fornisce un'API REST per costruire funzionalità necessarie. Inoltre, esiste un supporto completo per la gestione di configurazioni, distribuzioni di app, modifica delle configurazioni e degli amministratori di sistema può ottenere report dettagliati. È ospitato da soli e tutto il codice sorgente è disponibile su [github][12].
 Forman offre le seguenti caratteristiche principali
   * Facile da configurare
   * Reporting e monitoraggio
   * Architettura del plugin
 
-### racktables
+## # racktables
 [RackTables][13] è un sistema di gestione patrimoniale open source per data center, sale server. Fornisce inoltre supporto per la gestione degli indirizzi di rete, delle configurazioni di rete, delle configurazioni di bilanciamento del carico e altre apparecchiature hardware. Inoltre, consente agli utenti di creare autorizzazioni, tag utente e documentazione dei firewall.
 RackTables fornisce le seguenti caratteristiche di spicco
   * Gestione dei file
   * Autosufficiente
   * Gestione delle porte fisiche
 
-### itop
+## # itop
 [Portale operativa IT][14] è una soluzione autosuocata gratuita che fornisce una soluzione CMDB, un sistema di helpdesk e uno strumento di gestione dei documenti. Offre ricche opzioni di importazione ed esportazione.
 Itop offre funzionalità chiave
   * Analisi di impatto automatico

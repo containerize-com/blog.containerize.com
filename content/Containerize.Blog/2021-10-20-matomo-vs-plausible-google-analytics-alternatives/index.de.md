@@ -31,19 +31,19 @@ Andererseits geben Ihnen das Verhalten und die Reaktion von Endverbrauchern eine
 ## Vergleich von plausibler & matomo   {#Comp}
 Im Abschnitt dieses **Matomo vs plausible  **Artikel werden wir diese beiden **  Google Analytics -Alternativen**  in Bezug auf ihre Funktionen und Eigenschaften untersuchen, indem wir die folgenden Punkte abdecken.
 
-#### Github Statistiken
+## ## Github Statistiken
 Beide **Open Source BI -Tools**  sind aufgrund ihrer leistungsstarken Funktionen beliebt. Wenn wir jedoch über ihre Github -Statistiken sprechen, unterhält [plausible][7] 9K Sterne und 400 plus Gabeln, während [matomo][5] 15,5K Sterne und 2K plus Gabeln bis zu diesem Datum sichert.
 
-#### Technologie
+## ## Technologie
 Der Technologiestapel dieser beiden **Webanalytics -Software**  ist vielfältig. [Plausible][7] ist hauptsächlich in Elixier geschrieben, das eine funktionale Programmiersprache ist. Andererseits wird [Matomo][5] zusammen mit der Eingabe von JavaScript in PHP geschrieben. Beide kostenlosen Tools können einfach auf Servern mit einfachen Anforderungen bereitgestellt werden.
 
-#### Sicherheit
+## ## Sicherheit
 In Bezug auf Sicherheit und Privatsphäre ist plausibel hochwertig ausgerichtet und gibt den Site-Eigentümern die Kontrolle. Es behindert die Verfolgung von Cross-Site, bei denen es darum geht, Surfendaten an mehreren Standorten zu sammeln. Beide Tools für die Berichterstattung von Business Intelligence ** entsprechen jedoch voll und ganz den internationalen Datenschutzgesetzen.
 
-#### Erweiterbarkeit
+## ## Erweiterbarkeit
 Dies ist das wichtigste Merkmal jeder Open -Source -Software. Glücklicherweise bieten diese beiden **Open Source-BI-Tools**  eine Interaktion mit Bibliotheken von Drittanbietern und sind nach Anforderungen leicht zu verlängern. Während Matomo eine API enthüllt, um benutzerdefinierte Berichte und Integrationen zu erstellen.
 
-#### Merkmale
+## ## Merkmale
 Plausible und Matomo bieten leistungsstarke Funktionen in Bezug auf Benutzer, Website -Management und es gibt Module, die den Besuchern Verhaltens- und Aktivitätsinformationen bereitstellen. Vor allem bieten beide **Webanalytics -Software**  eine logische Benutzeroberfläche, die Benutzer die Widgets gemäß ihren Einstellungen anpassen können. Darüber hinaus können Sie diesen [Link][9] besuchen, um weitere Funktionen zu erfahren.
 **Gemeinschaft**
 In der Tat ist Open Source Community sehr lebendig und lebendig. Plausible und Matomo sind jedoch Open Source **Business Intelligence Reporting Tools**  Deshalb haben sie beide sehr starke Entwicklergemeinschaften, die immer dazu neigen, die Fragen und Fehler zu beantworten.

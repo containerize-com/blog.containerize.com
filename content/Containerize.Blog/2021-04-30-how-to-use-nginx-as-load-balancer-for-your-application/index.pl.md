@@ -70,7 +70,7 @@ Dopóki masz wszystkie serwery, powinieneś teraz stwierdzić, że równowaga ob
 ## Dyrektywy uptream   {#Upstream}
 W naszym ostatnim przykładzie wykorzystaliśmy prosty moduł upstream do równoważenia obciążenia okrągłego, aby równo rozpowszechniać ruch między serwerami. Istnieje jednak wiele powodów, dla których może to nie być najbardziej wydajny sposób pracy z ruchem ruchu. Istnieje kilka dyrektyw, które możemy wykorzystać do skuteczniejszego kierowania odwiedzającymi witrynę.
 
-### Waga
+## # Waga
 Jednym ze sposobów zacząć przydzielić użytkowników z większą precyzją serwerów, jest przydzielenie określonej wagi do niektórych maszyn. Nginx pozwala nam przypisać liczbę określającą odsetek ruchu, który powinien być skierowany do każdego serwera.
 Konfiguracja zrównoważona obciążeniem, która zawierała wagę serwera, może wyglądać tak:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 Domyślna waga wynosi 1. Przy wadze 2, backend2. Przykład zostanie wysłany dwa razy większy ruch niż Backend1, a backend3, o wadze 4, poradzi sobie z dwukrotnie większym ruchem niż Backend2 i cztery razy więcej niż backend 1.
 
-### Hash
+## # Hash
 Hash IP pozwala serwerom reagować na klientów zgodnie z ich adresem IP, wysyłając odwiedzających z powrotem do tych samych VPS za każdym razem, gdy odwiedzają ten serwer). Jeśli wiadomo, że serwer jest nieaktywny, powinien być oznaczony jako w dół. Wszystkie IP, które miały kierować się na serwer Down, są następnie kierowane do alternatywnego.
 Poniższa konfiguracja zawiera przykład:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### Max zawodzi
+## # Max zawodzi
 Zgodnie z domyślnymi ustawieniami Round-Robin, równoważenie ładowania aplikacji Nginx będzie nadal wysyłać dane do wirtualnych serwerów prywatnych, nawet jeśli serwery nie odpowiadają. Max Fails może automatycznie zapobiegać temu, relacjonując niereagujące serwerów bez operacji przez określony czas.
 Istnieją dwa czynniki związane z maksymalnym niepowodzeniem: Max \ _ Fails i Fall \ _Timeout. Max Fails odnosi się do maksymalnej liczby nieudanych prób połączenia się z serwerem, który powinien wystąpić, zanim zostanie uznany za nieaktywny. Fall_timeout określa długość tego serwera jest uważane za nieoperacyjne. Po upływie czasu nowe próby dotarcia do serwera rozpoczną się ponownie. Domyślna wartość limitu czasu wynosi 10 sekund.
 Przykładowa konfiguracja może wyglądać tak:

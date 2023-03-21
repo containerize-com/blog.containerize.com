@@ -37,7 +37,7 @@ Ardından, bu eklentiyi yükleyin ve daha fazla kullanmak için etkinleştirmek 
 
 WordPress'in güzelliği, Matomo eklentisi ile API'ler aracılığıyla sorunsuz bir şekilde iletişim kurmasıdır. Bu açık kaynak  **Web Analytics yazılımı ** , tıpkı Google Analytics gibi izleme kodunu sağlar. Bu nedenle, izleme kodunu manuel olarak eklemeniz gerekmez, bunun yerine otomatik olarak gerçekleşir. Son olarak, Matomo eklentisi WordPress'e yüklenir ve kurulur ve işletme web sitesi verilerini izlemeye başlayabilirsiniz.
 
-##  **Matomo Gösterge Tablosu **    {#dashboard}
+## **Matomo Gösterge Tablosu **    {#dashboard}
 Bu  **WordPress Tutorial ** , açık kaynak  **Matomo eklentisinin entegrasyonunu açıklamıştır ** . Şimdi, güçlü modüller sağlayan gösterge tablosunu keşfedelim. Matomo Analytics menüsünün altında, sizi aşağıdaki resimde gösterildiği gibi web sitenizin Matomo kontrol paneline götürecek “Raporlama” seçeneğini tıklayın.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="Açık Kaynak Web Analytics">}}

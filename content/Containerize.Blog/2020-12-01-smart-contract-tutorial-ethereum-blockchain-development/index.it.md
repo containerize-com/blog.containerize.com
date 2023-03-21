@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms']
 {{< figure align=center src="images/contract.png" alt="Tutorial contrattuale intelligente">}}
 
 
-Panoramica ##
+Panoramica ## 
 Nel recente passato, abbiamo pubblicato un [post sul blog][1] che evidenzia l'impatto e l'importanza della tecnologia blockchain. C'è un altro post interessante sul blog [che cos'è NFT? | I token non fungibili hanno spiegato][2]. La tecnologia di contabilità distribuita si basa su alcuni concetti fondamentali come contratti intelligenti, nodi, mining, algoritmi di consenso, transazioni digitali e reti peer-to-peer. Poiché è open source, quindi, esiste un'enorme finestra per un'estensione relativa ai casi d'uso. In effetti, ci sono molte piattaforme di gestione delle risorse digitali open source e gratuite che sono distribuite e richiedono alcuni software per governare le transazioni.
 In questo tutorial sul contratto intelligente, impareremo come costruire un contratto intelligente Ethereum coprendo i seguenti punti elenco.
 * [**Cos'è un contratto intelligente?**][3]

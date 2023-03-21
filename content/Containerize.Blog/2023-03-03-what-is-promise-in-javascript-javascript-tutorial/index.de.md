@@ -29,7 +29,7 @@ Ein Versprechen ist ein Objekt, das einen Wert eines asynchronen Betriebswetters
 **Abgelehnt**: Dies ist der Zustand, der durch einen Fehler verursacht wird, was bedeutet, dass das Versprechen abgelehnt wurde.
 Eine wichtige Sache, die hier zu berücksichtigen ist, ist, dass der von dem Versprechen zurückgegebene Wert/Zustand unveränderlich ist und nicht geändert werden kann, was bedeutet, dass Versprechen sicherstellen, dass es kein ungewöhnliches Verhalten gibt.
 
-## Warum verwenden wir Promise in JavaScript?   {#Warum wir haben in JavaScript}}}
+## Warum verwenden wir Promise in JavaScript?   {#Warum wir haben in JavaScript}}
 Wenn Sie**Callback Hell**nicht kennen, lassen Sie mich teilen, was es ist. Erstens ist ein Rückruf eine Funktion in einer anderen Funktion. Grundsätzlich wird eine Rückruffunktion als zweites Argument in einer Funktion übergeben, die nach Erhaltsergebnisse ausgeführt wird. In vielen Szenarien müssen Sie also eine Rückruffunktion nisten und mit zunehmendem Nesting nahezu unmöglich zu handhaben. Daher nennen wir diese lange Verschachtelung von Rückruffunktionen**Callback Hell**.
 Ein Versprechen ist also eine Möglichkeit, eine Callback -Höllensituation zu vermeiden. Die Verwendung von Versprechen bietet eine bessere Lesbarkeit und eine verbesserte Fehlerbehandlung. Darüber hinaus können Sie asynchrone Operationen besser ausführen, indem Sie den zurückgegebenen Wert abrufen und diesen Wert an die nächste Funktion in der Kette weitergeben.
 

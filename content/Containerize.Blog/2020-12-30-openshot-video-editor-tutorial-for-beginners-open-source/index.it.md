@@ -14,7 +14,7 @@ categories: ['Video Editing Software']
 {{< figure align=center src="images/openShot.png" alt="Tutorial di OpenShot Video Editor">}}
 
 
-Panoramica ##
+Panoramica ## 
 Di recente abbiamo pubblicato un post sul blog che ha discusso dell'impatto [**del marketing video sul business**][1] insieme ad alcuni altri aspetti. Tuttavia, se ti stai chiedendo di promuovere la tua attività online e hai optato per una strategia di marketing video, questo articolo fa per te. Negli ultimi anni, i modi di marketing sono stati rivoluzionati con l'avvento dei social media online e delle piattaforme di apprendimento. Il marketing digitale è diventato una componente indispensabile di qualsiasi attività di successo. È molto chiaro che i contenuti video sono sempre coinvolgenti e guida il traffico pertinente. Pertanto, è una buona idea distribuire un produttore di video gratuito e open source che aiuta a realizzare video attraenti per il business.
 Costruire un video promozionale non è un compito facile in quanto richiede immensa attenzione e abilità per formulare contenuti video. Una volta che il contenuto video è in atto, è tempo di compilare le parti come audio e grafica. Questi strumenti gratuiti offrono molte funzionalità professionali da scegliere e compilare una grafica ricca. Quindi ci sono altri passaggi importanti come la revisione e il test. I video coinvolgenti contengono sempre storie, effetti, audio e filtri. Come iniziare la modifica video? In questo tutorial di OpenShot Video Editor, esploreremo l'editor video OpenShot coprendo i seguenti punti.
 * **[Una breve introduzione di OpenShot][2]**
@@ -45,7 +45,7 @@ Sul lato destro, c'è una finestra in cui è possibile giocare e testare le modi
 
 Se fai clic con il pulsante destro del mouse sulla clip nella sequenza temporale e vai alle proprietà, un pannello si aprirà sul lato sinistro che contiene le opzioni avanzate relative agli effetti video, alle animazioni e altro ancora.
 
-###### Una volta terminato la modifica, è possibile esportare/scaricare il video dal pulsante rosso sulla barra delle opzioni in alto.
+## ## ## Una volta terminato la modifica, è possibile esportare/scaricare il video dal pulsante rosso sulla barra delle opzioni in alto.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="Editor video OpenShot">}}
 

@@ -9,7 +9,7 @@ url: /ko/marketing-automation-using-mautic-and-wordpress-woocommerce/
 categories: ['Blogging', 'Marketing Automation']
 ---
 
-##은 Mautic 및 WordPress WooCommerce를 사용하여 판매를 자랑합니다. WordPress에서 Mautic으로 고객의 데이터를 가져와 마케팅 프로세스를 자동화하십시오.
+## 은 Mautic 및 WordPress WooCommerce를 사용하여 판매를 자랑합니다. WordPress에서 Mautic으로 고객의 데이터를 가져와 마케팅 프로세스를 자동화하십시오.
 
 {{< figure align=center src="images/banner-mauticWP-1200x628-1-1024x536.png" alt="Mautic-Woocommerce 통합을 사용한 마케팅 자동화">}}
 

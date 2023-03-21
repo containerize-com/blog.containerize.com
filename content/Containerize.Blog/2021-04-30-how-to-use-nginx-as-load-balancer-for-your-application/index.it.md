@@ -70,7 +70,7 @@ Finché hai tutti i server in atto, ora dovresti scoprire che il bilanciamento d
 Direttive a monte ##  {#upstream}
 Nel nostro ultimo esempio, abbiamo usato un semplice modulo a monte per eseguire il bilanciamento del carico rotondo per distribuire il traffico equamente tra i server. Tuttavia, ci sono molte ragioni per cui questo potrebbe non essere il modo più efficiente di lavorare con il traffico. Esistono diverse direttive che possiamo utilizzare per dirigere i visitatori del sito in modo più efficace.
 
-### Peso
+## # Peso
 Un modo per iniziare ad allocare gli utenti ai server con maggiore precisione è allocare peso specifico a determinate macchine. Nginx ci consente di assegnare un numero che specifica la proporzione di traffico che dovrebbe essere indirizzata a ciascun server.
 Una configurazione bilanciata del carico che includeva il peso del server potrebbe apparire così:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 Il peso predefinito è 1. con un peso di 2, backend2. Example verrà inviato il doppio del traffico del backend1 e il backend3, con un peso di 4, affronterà il doppio del traffico del backend2 e quattro volte più del backend 1.
 
-### hash
+## # hash
 IP Hash consente ai server di rispondere ai client in base al proprio indirizzo IP, inviando i visitatori allo stesso VP ogni volta che visitano (a meno che quel server non sia inattivo). Se è noto che un server è inattivo, dovrebbe essere contrassegnato come giù. Tutti gli IP che avrebbero dovuto instradare verso il server verso il basso sono quindi indirizzati a uno alternativo.
 La configurazione seguente fornisce un esempio:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### max fallisce
+## # max fallisce
 Secondo le impostazioni di round-robin predefinite, il bilanciamento del carico dell'applicazione Nginx continuerà a inviare dati ai server privati ​​virtuali, anche se i server non rispondono. Max Fails può impedire automaticamente questo rendendo i server non rispondenti non operativi per un determinato periodo di tempo.
 Ci sono due fattori associati al massimo di fallimento: max \ _fails e caduta \ _timeout. Max non si riferisce al numero massimo di tentativi non riusciti di connettersi a un server che dovrebbe verificarsi prima che sia considerato inattivo. Fall_timeout specifica la lunghezza di ciò che il server è considerato inoperante. Una volta scaduto il tempo, i nuovi tentativi di raggiungere il server si riprenderanno. Il valore di timeout predefinito è di 10 secondi.
 Una configurazione di esempio potrebbe apparire così:

@@ -38,7 +38,7 @@ categories: ['Transactional Email']
 sudo apt-get update
 ```
 
-### سرور پایگاه داده MARIADB را نصب کنید
+## # سرور پایگاه داده MARIADB را نصب کنید
   * دستور نصب MariaDB را اجرا کنید.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### روبی را نصب کنید
+## # روبی را نصب کنید
   * اول ، PPA شخص ثالث را برای نصب یاقوت اضافه کنید. دستورات زیر را اجرا کنید.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### نصب RabbitMQ
+## # نصب RabbitMQ
   * Erlang برای نصب RabbitMQ لازم است ، بنابراین ، شما باید آن را نیز نصب کنید. کلید مخزن Erlang را با دستور زیر به اوبونتو اضافه کنید.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### nodejs را نصب کنید
+## # nodejs را نصب کنید
   * مخزن Nodejs را با دستور زیر اضافه کنید.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### سرور پست الکترونیکی را نصب کنید
+## # سرور پست الکترونیکی را نصب کنید
   * ابتدا باید یک کاربر برای سرور پستی پستی ایجاد کنید. آن را با دستور زیر ایجاد کنید.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### نصب nginx
+## # نصب nginx
   * دستور زیر را برای نصب سرور وب NGINX اجرا کنید.
 ```
 sudo apt install nginx

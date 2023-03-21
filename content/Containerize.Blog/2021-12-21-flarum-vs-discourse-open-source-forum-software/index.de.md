@@ -33,16 +33,16 @@ Dieses Frage-Antworten-Forum ist schnell, zuverlässig, leicht und bietet viele 
 ## flarum vs diskurs   {#vs}
 In diesem Abschnitt werden wir diese beiden Open -Source -Forum -Software an einem Ort setzen, an dem wir Diskurs und Flarum vergleichen können.
 
-#### Gemeinschaft
+## ## Gemeinschaft
 Nun, beide kostenlosen Fragen-Antworten haben starke Gemeinschaften, die aktiv auf die Fragen der Benutzer/Entwickler reagieren. Wenn wir über die Github -Statistiken sprechen, hat Flarum 12K Plus Stars und 1K -Gabeln auf seinem Github -Repo. Auf der anderen Seite hat Diskurs 34K Plus Stars und 7K Plus -Gabeln auf seinem Github -Repo.
 
-#### Tech Stack
+## ## Tech Stack
 Was den Tech-Stapel dieser Open-Source-Forum-Software betrifft, ist der Diskurs in Ruby on Rails und JavaScript geschrieben. Das Flarum ist in PHP mit der Kombination von und MySQL / Mariadb geschrieben.
 
-#### **Merkmale**
+## ## **Merkmale**
 Dies ist der kritischste Aspekt, wenn es um die Auswahl einer Software für Ihr Unternehmen geht. Daher bieten diese beiden Diskussionsforumsoftware Funktionen auf Unternehmensebene. Der Falrum und der Diskurs bieten sowohl soziale Merkmale als auch reiche Benachrichtigungssysteme. Darüber hinaus verfügt Diskurs über eine riesige Plugins -Basis, in der Sie fast alle Arten von Plugins finden können. Darüber hinaus können Benutzer das Erscheinungsbild des Diskurs -Dashboards ändern. Es bietet auch einzelne Sign-On-Funktionen, bei denen sich Benutzer mit sozialen Anmeldungen von Drittanbietern anmelden können.
 
-#### Erweiterbarkeit
+## ## Erweiterbarkeit
 Dies ist ein weiteres wichtiges Merkmal jeder Software. Glücklicherweise sind diese beiden Open -Source -Forum -Software erweiterbar und Entwickler können die Funktionalität nach Bedarf leicht erweitern. Der Diskurs bietet AP für Integrationen von Drittanbietern an.
 
 ## Schlussfolgerung   {#Conclusion}

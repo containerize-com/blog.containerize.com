@@ -15,10 +15,10 @@ Come creare il tema WordPress è tra le migliori query nella ricerca di Google. 
   * [Requisiti][1]
   * [Guida passo passo][2]
 
-Requisiti ###  {#Requirements}
+Requisiti ## #  {#Requirements}
 La prima cosa più importante che devi fare è installare WordPress. WordPress è ben noto per la sua facilità di installazione. È un processo semplice e può essere fatto facilmente da solo seguendo la [guida][3].
 
-### come creare tema WordPress; Guida passo -passo   {#Guide}
+## # come creare tema WordPress; Guida passo -passo   {#Guide}
 Per il tema WordPress, tutto sarà fatto solo nella directory**WP_Content**. Basta fare una nuova sottocartella nel tema nella cartella**WP_Content → Temi.**Supponiamo che tu lo chiami**"CustomTheme"**.
 La seconda cosa è decidere il layout del tema. Qui, il tutorial mostra il layout di base composto da**intestazione, area principale, piè di pagina, barra laterale**.
 Fondamentalmente, WordPress ha bisogno solo di 2 file, ovvero stile.css e index.php. Ma, per questo layout, hai bisogno di**5 file**, come segue;
@@ -32,7 +32,7 @@ Fondamentalmente, WordPress ha bisogno solo di 2 file, ovvero stile.css e index.
 * * bootstrap.js**e**bootstrap.css**devono essere scaricati dal pacchetto bootstrap e copiati nella cartella**tema**.
 Ecco i passaggi da seguire per configurare il tema
 
-### Passaggio 1: file header.php
+## # Passaggio 1: file header.php
 Metti il ​​seguente codice nel file header.php.
 ```
 <html>
@@ -57,7 +57,7 @@ Metti il ​​seguente codice nel file header.php.
 ```
 Questo file header.php contiene il codice per la parte dell'intestazione in cui è collegato il file JS e Style. Visualizza l'intestazione della pagina.
 
-### Passaggio 2: file index.php
+## # Passaggio 2: file index.php
 Metti il ​​seguente codice nel file principale indice.php
 ```
 <?php get_header(); ?>
@@ -83,7 +83,7 @@ Metti il ​​seguente codice nel file principale indice.php
 ```
 Il codice sopra visualizza il contenuto principale del post, della barra laterale e del piè di pagina.
 
-### Passaggio 3: file sidebar.php
+## # Passaggio 3: file sidebar.php
 Aggiungi il seguente codice in sidebar.php
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +95,7 @@ Aggiungi il seguente codice in sidebar.php
 ```
 Nel codice sopra, le funzioni interne di WordPress sono chiamate per visualizzare diverse categorie, archivi di post.
 
-### Passaggio 4: file footer.php
+## # Passaggio 4: file footer.php
 Aggiungi le righe di codice seguenti al file footer.php:
 ```
 <div id= "ttr_footer">
@@ -132,7 +132,7 @@ font-weight: bold;
 ```
 Dopo aver seguito tutti i passaggi sopra, avrai un tema WordPress funzionante di base. Puoi modificarlo ulteriormente per renderlo più bello e adatto alle tue esigenze.
 
-### Conclusione
+## # Conclusione
 In questo tutorial abbiamo spiegato come creare tema WordPress in passi semplici e facili. Dopo aver letto e seguito i passaggi, la creazione di un tema WordPress non è più difficile ora. Ma ovviamente questo tutorial si attacca alla configurazione di base e per migliorarlo dovrai saperne di più su HTML, CSS, JS e PHP.
 
   

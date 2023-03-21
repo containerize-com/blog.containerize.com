@@ -9,7 +9,7 @@ url: /zh-hant/civicrm-wordpress-integration-wordpress-tutorial/
 categories: ['Blogging', 'Marketing Automation']
 ---
 
-##在本WordPress插件教程中，我們將學習如何將免費的CIVICRM與WordPress集成，以在聯繫管理方面獲得競爭優勢。
+## 在本WordPress插件教程中，我們將學習如何將免費的CIVICRM與WordPress集成，以在聯繫管理方面獲得競爭優勢。
 
 {{< figure align=center src="images/integrate-civicrm-with-wordpress-banner-1024x536.png" alt="civicrm wordpress">}}
 
@@ -21,11 +21,11 @@ categories: ['Blogging', 'Marketing Automation']
   * [如何設置目錄結構？][5]
   * [如何在WordPress中激活和安裝CivICRM？][6]
 
-##這種組合對企業的好處？   {#好處}
+## 這種組合對企業的好處？   {#好處}
 在此**WordPress教程**的部分中，我們將研究**civicrm wordpress**集成的核心好處。隨著競爭在市場上的增長，[WordPress][3]的普及正在不斷提高。 WordPress社區一直在開發新的插件，以增強插件的存儲桶。因此，將civiCRM添加到插件的WordPress池中，從蓬勃發展的組織中引起了極大的關注，這些組織會自動化和集中他們的業務工作流程。
 由於某些方面，這種集成很重要。首先，[civICRM][2]消除了管理用戶聯繫源位於不同地方的麻煩。其次，它通過定期備份數據來提供完整的安全性。第三，它是基於網絡的開源和開源，這意味著您可以從任何地方訪問數據。這種開源營銷自動化工具是為公民部門開發的。它已通過提供一站式解決方案來消除將數據導出到各種表和數據庫的需求。該開源CRM軟件將所有數據存儲到來自各種來源的數據庫中無限的自定義數據集，任務管理，用戶管理，跟踪開放式承諾和會員資格等等。
 
-##如何設置目錄結構？   {#目錄}
+## 如何設置目錄結構？   {#目錄}
 在啟動此**WordPress插件教程**之前，我們假設您已經設置了WordPress，並且具有安裝和激活插件的基本理解。此外，您可以找到有關設置WordPress及其功能的信息。
 首先，從此[網站][8]下載civicrm。選擇一個名稱的選項，例如“下載wordpress for WordPress”。
 下載後，將ZIP文件放入此位置 /WP-CONTENT /插件中，然後提取它。確保此目錄具有“寫入”訪問權限。
@@ -42,7 +42,7 @@ categories: ['Blogging', 'Marketing Automation']
 {{_LINE_35_}}
 CIVICRM WordPress集成的這一部分已完成。讓我們轉到下一節。
 
-##如何在WordPress中激活和安裝CIVICRM？   {#安裝}
+## 如何在WordPress中激活和安裝CIVICRM？   {#安裝}
 WordPress教程的這一部分顯示了基於網絡的營銷工具**civiCRM的安裝和激活步驟。設置目錄結構後，轉到**插件 **- >** 已安裝的插件**，您將在列表中看到CIVICRM。
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.18.07-1024x544.png" alt="civicrm wordpress">}}

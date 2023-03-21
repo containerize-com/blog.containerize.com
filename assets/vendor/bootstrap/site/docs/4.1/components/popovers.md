@@ -52,7 +52,7 @@ $(function () {
 {% endcapture %}
 {% include example.html content=example %}
 
-### Four directions
+## # Four directions
 
 Four options are available: top, right, bottom, and left aligned.
 
@@ -92,12 +92,12 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
 </button>
 {% endhighlight %}
 
-### Dismiss on next click
+## # Dismiss on next click
 
 Use the `focus` trigger to dismiss popovers on the user's next click of a different element than the toggle element.
 
 {% capture callout %}
-#### Specific markup required for dismiss-on-next-click
+## ## Specific markup required for dismiss-on-next-click
 
 For proper cross-browser and cross-platform behavior, you must use the `<a>` tag, _not_ the `<button>` tag, and you also must include a [`tabindex`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
 {% endcapture %}
@@ -114,7 +114,7 @@ $('.popover-dismiss').popover({
 })
 {% endhighlight %}
 
-### Disabled elements
+## # Disabled elements
 
 Elements with the `disabled` attribute aren't interactive, meaning users cannot hover or click them to trigger a popover (or tooltip). As a workaround, you'll want to trigger the popover from a wrapper `<div>` or `<span>` and override the `pointer-events` on the disabled element.
 
@@ -133,7 +133,7 @@ Enable popovers via JavaScript:
 
 {% highlight js %}$('#example').popover(options){% endhighlight %}
 
-### Options
+## # Options
 
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-animation=""`.
 
@@ -251,69 +251,69 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
 </table>
 
 {% capture callout %}
-#### Data attributes for individual popovers
+## ## Data attributes for individual popovers
 
 Options for individual popovers can alternatively be specified through the use of data attributes, as explained above.
 {% endcapture %}
 {% include callout.html content=callout type="info" %}
 
-### Methods
+## # Methods
 
 {% include callout-danger-async-methods.md %}
 
-#### `$().popover(options)`
+## ## `$().popover(options)`
 
 Initializes popovers for an element collection.
 
-#### `.popover('show')`
+## ## `.popover('show')`
 
 Reveals an element's popover. **Returns to the caller before the popover has actually been shown** (i.e. before the `shown.bs.popover` event occurs). This is considered a "manual" triggering of the popover. Popovers whose both title and content are zero-length are never displayed.
 
 {% highlight js %}$('#element').popover('show'){% endhighlight %}
 
-#### `.popover('hide')`
+## ## `.popover('hide')`
 
 Hides an element's popover. **Returns to the caller before the popover has actually been hidden** (i.e. before the `hidden.bs.popover` event occurs). This is considered a "manual" triggering of the popover.
 
 {% highlight js %}$('#element').popover('hide'){% endhighlight %}
 
-#### `.popover('toggle')`
+## ## `.popover('toggle')`
 
 Toggles an element's popover. **Returns to the caller before the popover has actually been shown or hidden** (i.e. before the `shown.bs.popover` or `hidden.bs.popover` event occurs). This is considered a "manual" triggering of the popover.
 
 {% highlight js %}$('#element').popover('toggle'){% endhighlight %}
 
-#### `.popover('dispose')`
+## ## `.popover('dispose')`
 
 Hides and destroys an element's popover. Popovers that use delegation (which are created using [the `selector` option](#options)) cannot be individually destroyed on descendant trigger elements.
 
 {% highlight js %}$('#element').popover('dispose'){% endhighlight %}
 
-#### `.popover('enable')`
+## ## `.popover('enable')`
 
 Gives an element's popover the ability to be shown. **Popovers are enabled by default.**
 
 {% highlight js %}$('#element').popover('enable'){% endhighlight %}
 
-#### `.popover('disable')`
+## ## `.popover('disable')`
 
 Removes the ability for an element's popover to be shown. The popover will only be able to be shown if it is re-enabled.
 
 {% highlight js %}$('#element').popover('disable'){% endhighlight %}
 
-#### `.popover('toggleEnabled')`
+## ## `.popover('toggleEnabled')`
 
 Toggles the ability for an element's popover to be shown or hidden.
 
 {% highlight js %}$('#element').popover('toggleEnabled'){% endhighlight %}
 
-#### `.popover('update')`
+## ## `.popover('update')`
 
 Updates the position of an element's popover.
 
 {% highlight js %}$('#element').popover('update'){% endhighlight %}
 
-### Events
+## # Events
 
 <table class="table table-bordered table-striped">
   <thead>

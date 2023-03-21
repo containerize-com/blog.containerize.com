@@ -22,7 +22,7 @@ Do đó, nó đã trở thành một nền tảng duy nhất nhắm vào cả ha
   * **[Tương lai của phát triển trò chơi nguồn mở][3]**
   * **[Kết luận][4]**
 
-##  **Làm thế nào nguồn mở giúp thị trường chơi game toàn cầu**    {#how}
+## **Làm thế nào nguồn mở giúp thị trường chơi game toàn cầu**    {#how}
 Có một nhu cầu rất lớn cho các trò chơi video hấp dẫn và chất lượng cao. Trên thực tế, các nhà phát triển có xu hướng thích làm việc phát triển trò chơi do đồ họa, âm thanh và ý tưởng chơi game bắt mắt. Mặt khác, có hàng tỷ game thủ dành thời gian và tiền bạc để chơi những trò chơi đó. Do đó, làm cho phần mềm nguồn mở làm tăng xác suất của chất lượng và hiệu suất nâng cao. Hãy cùng xem các cách trực tiếp sau đây nơi nguồn mở hỗ trợ phát triển trò chơi.
 **Công cụ**: Sử dụng một công cụ phát triển trò chơi được trang bị đầy đủ có thể giảm chi phí phát triển. May mắn thay, cộng đồng nguồn mở đã phát triển nhiều công cụ thiết kế trò chơi cung cấp môi trường hoàn chỉnh cho sự phát triển trò chơi.
 **Hiệu quả về chi phí**: Có một số động cơ trò chơi nguồn mở có sẵn cho các chức năng cần thiết. Do đó, sử dụng các thư viện được xây dựng sẵn trong các dự án đang diễn ra có thể giảm thêm chi phí và thời gian.
@@ -30,15 +30,15 @@ Có một nhu cầu rất lớn cho các trò chơi video hấp dẫn và chất
 **Tính ổn định **: Cộng đồng nguồn mở đang mở rộng từng ngày. Trong ngành công nghiệp trò chơi ****, có nhiều nhà phát triển đang gắn bó với một dự án và họ có xu hướng thiết lập tại cơ sở của họ để cấu hình và kiểm tra. Hoạt động này đảm bảo tính ổn định của dự án khi các vấn đề được giải quyết ngay lập tức do kiểm tra và kiểm tra nhất quán.
 **Chia sẻ kiến ​​thức **: Nguồn cung ứng mở các dự án tạo ra cơ hội chia sẻ thông tin trên toàn cầu. Có một loạt các diễn đàn thảo luận nơi các nhà phát triển đến và chia sẻ các vấn đề họ gặp phải và do đó, họ đến một giải pháp luôn có sẵn cho phần còn lại của thị trường trò chơi toàn cầu ****.
 
-##  **Tác động của covid-19 đến cộng đồng phát triển trò chơi**    {#covid}
+## **Tác động của covid-19 đến cộng đồng phát triển trò chơi**    {#covid}
 Chơi trò chơi video là thị trường mới nổi nhất của thời đại hiện tại. Covid-19 đã tăng tốc số lượng người dùng trò chơi. Do khóa và hạn chế, thế hệ trẻ dành phần lớn thời gian của họ trên điện thoại thông minh và PC và luôn xem các trò chơi để vượt qua thời gian chất lượng. Ngoài ra, thế giới chơi game không chỉ là chơi game. Có các giải đấu và giải đấu trực tuyến được tổ chức ở cấp độ quốc tế.
 Đại dịch này đang đưa ngành công nghiệp trò chơi di động  **lên cấp độ tiếp theo về sự tham gia của người dùng, doanh thu và doanh số. Ngành công nghiệp trò chơi toàn cầu**  đang tạo ra các trò chơi video hấp dẫn với đồ họa và câu chuyện hấp dẫn. Do tất cả những điều này và một số yếu tố khác, nó luôn luôn là một mong muốn về việc nắm bắt thị trường càng nhiều càng tốt và nó có vẻ rất dễ thực hiện với sự giúp đỡ của cộng đồng nguồn mở.
 
-##  **Tương lai của phát triển trò chơi nguồn mở**    {#Future}
+## **Tương lai của phát triển trò chơi nguồn mở**    {#Future}
 Không có nguồn mở, rất khó để các nhà phát triển đóng góp một cách hiệu quả và tiến bộ. Theo các xu hướng gần đây, giống như các danh mục phần mềm khác, điều quan trọng không kém là làm cho phát triển trò chơi nguồn mở. Các đại gia công nghệ hiện đang tìm kiếm việc làm cho cơ sở mã của họ mở cho các nhà phát triển do các yếu tố khác nhau như bảo mật, ổn định và khả năng tương tác.
 Tương lai của sự phát triển trò chơi được liên kết chặt chẽ với nguồn mở do sự áp dụng nguồn mở mạnh mẽ của các công ty công nghệ. Nó mang đến những phát triển mới nhất và do đó, các biên tập viên trò chơi nhanh phát hành với các tính năng và giao diện mới. Trong khi đó, các công ty khởi nghiệp coi đó là một bàn tay giúp đỡ tuyệt vời, nơi họ có thể tận dụng các dự án nguồn mở được xây dựng sẵn. Tuy nhiên, có nhiều động cơ trò chơi nguồn mở cho người mới bắt đầu có cơ hội về mặt học tập và phát triển để phát hành sản xuất.
 
-##  **Kết luận**    {#conclusion}
+## **Kết luận**    {#conclusion}
 Cuối cùng, luôn có lợi khi có những người từ khắp nơi trên thế giới làm việc trên các dự án chung. Gammers đang đóng một vai trò quan trọng trong sự phát triển của ngành công nghiệp trò chơi video ****. Do đó, điều thực sự quan trọng là phải chú ý đến phản hồi của họ. Bằng cách áp dụng các thực tiễn phát triển phần mềm nguồn mở, các nhà phát triển trò chơi video có thể nhân số đóng góp của họ cho thị trường trò chơi toàn cầu **. Vì vậy, bạn có thể khám phá các công cụ thiết kế trò chơi nguồn mở ****  và các bài đăng trên blog liên quan được nhập ngũ trong phần Khám phá bên dưới.
 Cuối cùng,  **** [containerize.com][5]**** sẽ xuất bản các bài viết trên phần mềm phát triển trò chơi nguồn mở hơn nữa. Do đó, vui lòng giữ liên lạc với danh mục [phần mềm phát triển trò chơi][6] này để cập nhật thường xuyên.
 

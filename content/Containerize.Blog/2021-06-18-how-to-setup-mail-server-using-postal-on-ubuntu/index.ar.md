@@ -38,7 +38,7 @@ categories: ['Transactional Email']
 sudo apt-get update
 ```
 
-### قم بتثبيت خادم قاعدة بيانات MariaDB
+## # قم بتثبيت خادم قاعدة بيانات MariaDB
   * قم بتشغيل الأمر لتثبيت MariaDB.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### تثبيت Ruby
+## # تثبيت Ruby
   * أولاً ، أضف PPA التابع لجهة خارجية لتثبيت Ruby. تشغيل الأوامر التالية.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### تثبيت rabbitmq
+## # تثبيت rabbitmq
   * مطلوب Erlang لتثبيت RabbitMQ ، لذلك ، تحتاج إلى تثبيته أيضًا. أضف مفتاح مستودع Erlang إلى Ubuntu مع الأمر أدناه.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### تثبيت nodejs
+## # تثبيت nodejs
   * إضافة مستودع NodeJS مع الأمر التالي.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### تثبيت خادم البريد البريدي
+## # تثبيت خادم البريد البريدي
   * أولاً ، تحتاج إلى إنشاء مستخدم لخادم البريد البريدي. أنشئه مع الأمر التالي.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### تثبيت nginx
+## # تثبيت nginx
   * قم بتشغيل الأمر أدناه لتثبيت Nginx Web Server.
 ```
 sudo apt install nginx

@@ -27,7 +27,7 @@ categories: ['Software Development']
 시도해 보려면 언급 된 모든 설치 지침으로 [Github][7] Repo에서 코드를 찾을 수 있습니다. 이 무료 번역 관리 시스템에는 여러 번역 파일을 관리 할 수 ​​있습니다. 또한 사용자 정의 어댑터를 구축하고 비즈니스 요구를 충족시키기 위해 많은 다른 사용자 정의를 수행 할 수 있습니다. 기본적으로 사용자에게 대화식 콘솔을 제공하는 정적 분석을 통해 모든 프로세스를 수행합니다. 또한이 오픈 소스 TMS는 DEEPL 및 Google 번역과 통합을 제공합니다.
 * * [I18N- 작업에 대해 자세히 알아보기][5]**
 
-##**Tolgee** {#Tolgee}
+## **Tolgee** {#Tolgee}
 [TOLGEE][8]는 엔터프라이즈 수준의 오픈 소스**번역 관리 시스템입니다.**풍부한 기능이있는 자조 호스팅 기능이 제공됩니다. 이 TMS는 Kotlin 및 TypeScript로 작성되었으며 Next.js, Angular, Vue 등과 같은 거의 모든 인기있는 JavaScript 프레임 워크와 통합을 제공합니다. 또한이 무료 TMS에는 개발 및 배포에 관한 포괄적 인 문서가있는 [GitHub][9]에서 사용할 수있는 모든 소스 코드가 있습니다.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="번역 관리 시스템">}}
@@ -42,7 +42,7 @@ categories: ['Software Development']
 .**협업**: 다른 이해 관계자가 협력하여 검토 할 수있는 또 다른 저명한 조항입니다.
 [**Tolgee에 대해 자세히 알아보십시오**][8]
 
-##**traduora** {#traduora}
+## **traduora** {#traduora}
 [Traduora][13]는 번역 워크 플로를 자동화하기위한 또 다른 오픈 소스 소프트웨어입니다. 이 무료 TMS는 HTML, JavaScript, CSS 및 기타와 같은 다른 언어의 입력과 함께 TypeScript로 작성됩니다. 또한 GitHub에 개발 및 배포에 관한 완전한 문서가 있으므로 자체 주최 할 수 있습니다. 또한이 오픈 소스 번역 관리 소프트웨어에서 Docker 이미지가 있습니다.
 무엇보다도 Traduora는 타사 응용 프로그램과의 통합을 위해 REST API를 노출 시켰습니다. 이 무료 TMS에는 인증이 완전히 구현됩니다.
 Traduora는 다음과 같은 주요 기능을 제공합니다.

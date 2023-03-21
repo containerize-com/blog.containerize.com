@@ -87,7 +87,7 @@ sudo systemctl รีสตาร์ท apache2.service
 sudo a2enmod ssl
 สิ่งนี้จะให้พร็อกซี apache ย้อนกลับที่ปลอดภัย HTTP ไปยัง HTTPS รองรับเซิร์ฟเวอร์แบ็กเอนด์
 
-## ขั้นตอนที่ 5: รีสตาร์ท apache2   {#block-836bb4ff-17ad-4317-8ecb-153104bd28a7}}
+## ขั้นตอนที่ 5: รีสตาร์ท apache2   {#block-836bb4ff-17ad-4317-8ecb-153104bd28a7}
 เพื่อให้การเปลี่ยนแปลงเหล่านี้มีผลให้รีสตาร์ท Apache โดยเรียกใช้คำสั่งด้านล่าง:
 sudo systemctl รีสตาร์ท apache2.service
 ยินดีด้วย! คุณได้ติดตั้งและกำหนดค่า Apache2 Reverse Proxy ได้สำเร็จในระบบ Linux ของคุณ

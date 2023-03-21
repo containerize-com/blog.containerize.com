@@ -22,7 +22,7 @@ Oto lista 5 najlepszych agentów przesyłania poczty typu open source, które na
   * [Postfix][5]
   * [Exim][6]
 
-###**Postal** {#postal}
+### **Postal** {#postal}
 Postal jest pełnym wyróżnieniem na przesłanym alternatywie dla SendGrid i Mailgun. Jest wyposażony w prosty interfejs API HTTP dla łatwej integracji z aplikacjami internetowymi. Postal jest w 100% bezpłatny i open source, możesz pobrać kod źródłowy zmodyfikować go zgodnie z wymaganiami.
 Jego godne uwagi cechy są następujące:
   * Obsługa wielu organizacji z serwerami pocztowymi i użytkownikami.
@@ -32,7 +32,7 @@ Jego godne uwagi cechy są następujące:
   * Wbudowane sprawdzanie i monitorowanie DNS w celu upewnienia się, że domeny wysyłane pocztą są prawidłowo skonfigurowane dla maksymalnej dostarczalności.
     [Czytaj więcej][7]
 
-###**CUTTLEFISH** {#CUTTLEFISH}
+### **CUTTLEFISH** {#CUTTLEFISH}
 Mątwy to samooprzeznane oprogramowanie do dostarczania poczty i jest powszechnie używane do łatwego wysyłania dużych ilości e -maili. Obsługuje protokół SMTP. W związku z tym pozwala wysyłać wiadomości e -mail z aplikacji bez wysiłku. Cuptlefish używa Postfix do dostawy e -maili, która jest jednym z najpopularniejszych i najbardziej niezawodnych agentów przesyłania poczty typu open source. Dlatego ma całą wiarygodność postfix.
 Oto godne uwagi funkcje:
   * Zapewnia, że ​​twoje e -maile przybywają do ich miejsc docelowych.
@@ -42,7 +42,7 @@ Oto godne uwagi funkcje:
   * Działa z dowolną frameworkiem i językiem internetowym
     [Czytaj więcej][8]
 
-###**Mail-in-a-box** {#poczta-in-a-box}
+### **Mail-in-a-box** {#poczta-in-a-box}
 Mail-in-a-box to innowacyjny serwer poczty Linux, który koncentruje się na łatwym wdrażaniu. Zapewnia poręczny serwer internetowy i serwer IMAP/SMTP z automatyczną konfiguracją DNS. Pomaga w skonfigurowaniu własnego Gmaila bez wiedzy technicznej. Jego najlepsze funkcje obejmują:
   * Automatyczna konfiguracja DNS
   * Filtrowanie spamu.
@@ -52,7 +52,7 @@ Mail-in-a-box to innowacyjny serwer poczty Linux, który koncentruje się na ła
   * Host Mail dla wielu użytkowników i wielu nazw domen.
     [Czytaj więcej][9]
 
-###**Postfix** {#postfix}
+### **Postfix** {#postfix}
 Postfix to potężny serwer poczty typu open source, który może być używany do routingu i dostarczania wiadomości e -mail. Został jednak pierwotnie opracowany w celu zastąpienia popularnego agenta przesyłania poczty Sendmail. Mimo że często podąża za Sendmail. Ale w implementacji jest dość wyraźny i wyjątkowy. Oferuje wiele funkcji, w tym
   * Kontrola poczty śmieciowej
   * Obsługuje wiele protokołów
@@ -61,7 +61,7 @@ Postfix to potężny serwer poczty typu open source, który może być używany 
   * Wsparcie manipulacji adresami i wiele innych
     [Czytaj więcej][10]
 
-###**exim** {#exim}
+### **exim** {#exim}
 EXIM to pełny serwer pocztowy używany w wielu systemach operacyjnych podobnych do UNIX. Oferuje wsparcie między platformami, dzięki czemu jest dobrym wyborem dla serwerów poczty. EXIM to wysoce konfigurowalny serwer do routingu e -mail i dostawy. EXIM jest jak framework z językiem aplikacji do konfigurowania złożonych konfiguracji. Ma zaawansowaną logikę przetwarzania poczty wieloetapowej, która pomaga w rozwiązywaniu złożonych przypadków użycia. Oto najważniejsze funkcje Exim:
   * Obsługuje protokoły, takie jak RFC 2821 SMTP i RFC 2033 LMTP E -mail Transport
   * Konfiguracje obejmują listy kontroli dostępu, skanowanie treści, szyfrowanie, kontrola routingu

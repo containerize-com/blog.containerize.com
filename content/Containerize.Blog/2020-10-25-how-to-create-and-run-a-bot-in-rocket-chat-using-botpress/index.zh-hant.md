@@ -9,7 +9,7 @@ url: /zh-hant/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/
 categories: ['Live Chat']
 ---
 
-##在本教程中，我們將指導您如何使用botpress創建一個機器人，並與rocket.chat集成
+## 在本教程中，我們將指導您如何使用botpress創建一個機器人，並與rocket.chat集成
 
 {{< figure align=center src="images/How-to-Create-and-Run-a-Bot-in-Rocket.Chat-using-Botpress.png" alt="如何使用botpress在Rocket.Chat中創建和運行bot">}}
 
@@ -22,13 +22,13 @@ Rocket.Chat鼓勵聊天機器人和消息自動化集成。因此，擁有全面
   * [使用botpress代碼機器人][4]
   * [結論][5]
 
-### Rocket.Chat   {#rocketchat}
+## # Rocket.Chat   {#rocketchat}
 Rocket.Chat是流行的實時聊天軟件之一，部分是開源實時聊天項目。它具有免費的實時聊天版本作為社區版。以及具有私人內部聊天功能的大型公司的付費託管實時聊天版本。此實時聊天應用程序在瀏覽器中運行，但也可以安裝在您自己的服務器上。 [閱讀更多][6]
 
-### botpress   {#botpress}
+## # botpress   {#botpress}
 對話聊天機器人使企業成為可能的始終提供他們想要的高觸摸支持。 Botpress是具有內置自然語言處理的最受歡迎的開源機器人創建工具之一。 Botpress的NLU技術使其比Botkit，Dialogflow和Microsoft Bot Framework等領域的競爭對手領先。 [閱讀更多][7]
 
-###在Rocket.Chat   {#createbotuser}中創建一個bot用戶
+## #在Rocket.Chat   {#createbotuser}中創建一個bot用戶
 為了與您的聊天機器人交談，必須在rompot.chat服務器上預先配置一個用戶帳戶，該器機器人可以登錄。
 要創建帳戶，您需要擁有管理特權：
   1.在TopBar中，單擊三個點（選項），然後單擊**管理**
@@ -42,7 +42,7 @@ Rocket.Chat是流行的實時聊天軟件之一，部分是開源實時聊天項
   9.單擊_save _
 保存後，將在步驟4上使用用戶名和密碼配置該機器人。您可以使用“ Rocketchat \ _user”和“ Rocketchat \ _Password”環境變量，以使用此用戶名和密碼對登錄Rocket.Chat服務器。
 
-###使用botpress   {#codebot}代碼機器人代碼
+## #使用botpress   {#codebot}代碼機器人代碼
 botpress是一個node.js軟件包，可與節點和npm一起使用。
 從botpress開始的最快方法是使用[botpress-kick-starter][8]存儲庫，該存儲庫已經通過[botpress-channel connector][9]集成了rocket.chat。
 導航到您想要與機器人一起工作的文件夾，並繼續執行以下步驟：
@@ -133,7 +133,7 @@ npm start
 * *與您的機器人交談**
 在服務器上，作為常規用戶（不是機器人用戶）登錄，轉到通用房間，然後與您新創建的bot交談。
 
-###結論 {#conclusion}
+## #結論 {#conclusion}
 在本文中，我們學會瞭如何在Botpress中創建一個機器人。並且，如何用rought.Chat配置它。 Botpress使用戶非常容易構建創新的自動化工作流。並且，與Rocket.Chat的集成使您可以以對話方式控制它們。
 
   

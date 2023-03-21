@@ -34,7 +34,7 @@ Un sistema de gestión de traducción automatiza las tareas repetitivas de gesti
 La parte más genial de un software de administración de traducción de código abierto es que puede tener su versión en la nube que resuelve los problemas relacionados con la escalabilidad. Por lo tanto, puede concentrarse en administrar la localización de sus proyectos y aumentar el alcance de su contenido a través de las fronteras.
 Las siguientes son las características centrales de cualquier sistema de gestión de traducción (TMZ):
 
-####**API para integraciones de terceros**
+#### **API para integraciones de terceros**
 Un nivel empresarial**TMS**siempre proporciona una API que se utiliza para la integración con otras aplicaciones y módulos de traducción como [i18n][5].
 
 #### Búsqueda global
@@ -73,10 +73,10 @@ Puede informarnos sobre sus preguntas o consultas en nuestro [Foro][7].
 
 ## Preguntas frecuentes   {#faqs}
 
-####**¿Necesito un sistema de gestión de traducción?**
+#### **¿Necesito un sistema de gestión de traducción?**
 Sí, si está tratando con una gran cantidad de contenido que involucra recursos estáticos y dinámicos. Por lo tanto, puede alojar un software de administración de traducción de código abierto****para automatizar y administrar las traducciones.
 
-####**¿Cuáles son las ventajas de TMS?**
+#### **¿Cuáles son las ventajas de TMS?**
 Visite este [enlace][4] para conocer las ventajas de un sistema de gestión de traducción.
 
 ## Ver también   {#See-also}

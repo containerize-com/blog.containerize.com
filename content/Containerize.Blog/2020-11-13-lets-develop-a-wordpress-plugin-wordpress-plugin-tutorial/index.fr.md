@@ -31,16 +31,16 @@ Dans ce tutoriel de plugin WordPress, nous apprendrons à créer notre premier p
 ## bases du développement des plugins   {#basics}
 Prenons un moment pour parler de certains aspects clés du développement des plugins. Une solide compréhension du fonctionnement de ces concepts vous aidera à créer des fonctionnalités faciles à utiliser et maintenables.
 
-### Actions
+## # Actions
 **Les crochets d'action  **sont un outil très utile dans **  WordPress  ****  Plugin  **et ils sont utilisés pour effectuer des fonctions (**  Actions** ) dans des lieux spécifiques d'un thème ou d'un plugin. WordPress possède des dizaines d'actions définies tout au long de sa fonctionnalité principale, chaque action composée d'un nom unique. Pour plus de détails [lire][5].
 
-Filtres ###
+Filtres ## #
 Un filtre WordPress est un crochet qui accepte une variable (ou une série de variables) et les renvoie après avoir été modifiés. Ces filtres sont souvent utilisés afin que vous ayez un moyen de manipuler les informations par défaut. Pour plus de détails [lire][6].
 
-### shortcodes
+## # shortcodes
 Les raccourcis sont des macros qui peuvent être utilisées pour effectuer des interactions dynamiques avec le contenu. c'est-à-dire la création d'une galerie à partir d'images jointes au post ou rendu une vidéo. En conséquence, ils sont un moyen précieux de garder le contenu propre et sémantique tout en permettant aux utilisateurs finaux une certaine capacité à modifier par programme la présentation de leur contenu. Pour plus de détails [lire][7].
 
-Widgets ###
+Widgets ## #
 Les widgets sont importants car ils vous donnent un autre moyen d'exécuter le code de votre plugin tout en fournissant une interface facile à utiliser. Car la plupart des thèmes soutiendront une ou plusieurs barres latérales; L'ajout de vos propres widgets vous donnera un accès rapide pour afficher vos informations dans le thème.
 
 ## **Comment créer un plugin WP?**    {#create}
@@ -62,7 +62,7 @@ Dans cette section du tutoriel de plugin WordPress, il vous suffit de créer un 
 Maintenant, vous pouvez aller dans l'arrière pour activer votre plugin. C’est tout, bien que ce plugin ne fasse rien. Mais c'est un plugin actif et fonctionnel. La meilleure pratique lors du développement d'un plugin est de séparer soigneusement votre code en fichiers et dossiers appropriés.
 Pour démontrer, ajoutons des fonctionnalités à notre plugin de test qui suit la popularité de nos articles en stockant le nombre de fois où chaque message a été visualisé.
 
-### Stockage des pages vues
+## # Stockage des pages vues
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ Jusqu'à présent, tout va bien dans ce tutoriel de plugin WordPress. Mais cette
 add_action("wp_head", "add_page_views");
 ```
 
-### montrant les pages vues
+## # montrant les pages vues
 Nous allons maintenant créer une autre fonction qui renvoie les vues de pages que nous avons déjà stockées dans la fonction ci-dessus. Jetons un coup d'œil au code:
 ```
 function get_page_views() {

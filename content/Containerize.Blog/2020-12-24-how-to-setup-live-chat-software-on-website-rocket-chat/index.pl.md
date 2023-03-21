@@ -59,7 +59,7 @@ A następnie skonfiguruj wygląd widżetu czatu na żywo
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.chat LiveChat Widżet">}}
 
 
-##**Zainstaluj widżet czatu na żywo na swojej stronie** {#Widget}
+## **Zainstaluj widżet czatu na żywo na swojej stronie** {#Widget}
 W tej sekcji zainstalujemy widżety czatu na żywo na stronie internetowej firmy. Teraz, aby uzyskać dostęp do**instalacji LiveChat**Ustawienia:
 Przejdź do**instalacja LiveChat**w ustawieniach panelu Omnichannel, jak pokazano poniżej, i skopiuj dany kawałek kodu.
 

@@ -14,7 +14,7 @@ categories: ['Healthcare Software']
 {{< figure align=center src="images/hospitalrun.png" alt="Sistema di gestione dell'ospedale">}}
 
 
-Panoramica ##
+Panoramica ## 
 Di recente abbiamo pubblicato un post sul blog su [come il software sanitario online autorizza l'industria sanitaria][1] che descrive l'impatto del sistema di gestione ospedaliera open source sul settore sanitario. L'industria del software sanitario globale sta guadagnando un valore con il passare del tempo. Il fatto è che la tecnologia ha trasformato ogni campo della vita. Il numero di pazienti e membri del personale è così alto che è diventato una seccatura gestire dati così enormi. D'altra parte, ci sono molti compiti che richiedono tempo che svolgono ogni giorno e le entità sanitarie svolgono ripetutamente tali compiti. Pertanto, la comunità di fonti open-source ha sviluppato software medico open source forniti con molti moduli utili per soddisfare le esigenze sanitarie.
 Il software medico open source è sviluppato per gestire i registri dei pazienti per quanto riguarda la loro storia medica e le disposizioni per la gestione dell'ospedale. Inoltre, il software sanitario open source sta sfruttando l'intelligenza artificiale per fornire livelli avanzati di servizi. La maggior parte dei trattamenti per la malattia viene ora gestita dal software che non solo diagnostica i problemi, ma fornisce anche assistenza nella cura. Tuttavia, ci sono molti software emergenti per gli ospedali. In questo post sul blog, tratteremo i seguenti punti.
   *[**Cos'è HospitalRun?** ][2]

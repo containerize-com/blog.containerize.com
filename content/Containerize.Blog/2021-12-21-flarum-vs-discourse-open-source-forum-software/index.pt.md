@@ -33,16 +33,16 @@ Este fórum de perguntas e respostas é rápido, confiável, leve e oferece muit
 ## flarum vs discurso   {#vs}
 Nesta seção, colocaremos esses dois softwares de fórum de código aberto em um só lugar, onde poderemos comparar o discurso e o flarum.
 
-Comunidade ####
+Comunidade ## ## 
 Bem, ambos os fóruns gratuitos de perguntas e respostas têm comunidades fortes que respondem ativamente às consultas dos usuários/desenvolvedores. Se falarmos sobre as estatísticas do Github, Flarum tem 12k mais estrelas e 1k garfos em seu repositório do Github. Por outro lado, o discurso tem 34K Plus Stars e 7K Plus Forks em seu repositório do Github.
 
-Pilha de tecnologia ####
+Pilha de tecnologia ## ## 
 No que diz respeito à pilha tecnológica desses software de fórum de código aberto, o discurso é escrito em Ruby on Rails e JavaScript. Considerando que o Flarum está escrito em PHP com a combinação de e MySQL / Mariadb.
 
-#### **Características**
+## ## **Características**
 Esse é o aspecto mais crítico quando se trata da seleção de qualquer software para o seu negócio. Portanto, ambos os softwares do fórum de discussão fornecem recursos de nível corporativo. O Falrum e o discurso oferecem recursos sociais e sistemas de notificação ricos. Além disso, o discurso possui uma enorme base de plugins, onde você pode encontrar quase todos os tipos de plugins. Além disso, os usuários podem modificar a aparência do painel do discurso. Ele também oferece recursos de assinatura única, onde os usuários podem fazer login usando logins sociais de terceiros.
 
-#### extensibilidade
+## ## extensibilidade
 Essa é outra característica importante de qualquer software. Felizmente, ambos os softwares do fórum de código aberto são extensíveis e os desenvolvedores podem estender facilmente a funcionalidade conforme as necessidades. Acima de tudo, o discurso oferece AP para integrações de terceiros.
 
 ## Conclusão   {#conclusion}

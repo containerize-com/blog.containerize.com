@@ -14,7 +14,7 @@ categories: ['Healthcare Software']
 {{< figure align=center src="images/blog-banners-template-1.png" alt="Manager di cartelle mediche">}}
 
 
-Panoramica ##
+Panoramica ## 
 Open Source [Healthcare Software][1] ha guadagnato un'enorme popolarità nel recente passato. In primo luogo, è dovuto al progresso della tecnologia. In secondo luogo, Covid-19 ha influenzato l'industria medica in tutti i modi e ha dato alla luce una nuova opportunità per la comunità open source. È molto importante fornire servizi sanitari di alta qualità ai pazienti quando il mondo intero sta attraversando un momento cruciale. Fortunatamente, sono disponibili diverse soluzioni di gestione delle cartelle cliniche open source che forniscono centralizzazioni di dati, trasparenza, sicurezza, integrazioni e molte altre potenti funzionalità. Questi servizi sanitari gratuiti offrono una corretta gestione di flussi di lavoro come medici, pazienti, cliniche e altri membri del personale. Recentemente, [Containerize.com][2] ha pubblicato alcuni articoli sui sistemi di gestione delle informazioni ospedalieri open source che includono [Top 5 software di record di salute dei pazienti open source][3], [Funzionalità Exploration of Medical Health Solution OpenEMR][4], e [come il software sanitario online autorizza l'industria sanitaria][5].
 In passato, abbiamo scritto un articolo che descrive la procedura di creazione di [HospitalRun][6] su LocalHost. In questo post sul blog, esploreremo ulteriormente [HospitalRun][6] coprendo i seguenti punti.
   * **[Perché Hospitalrun?][7]**

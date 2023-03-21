@@ -23,7 +23,7 @@ Lassen Sie uns zunächst verstehen, was 2FA ist und warum es ein wesentlicher Be
 Ein Faktor in diesem Zusammenhang impliziert eine Möglichkeit, eine App oder einen Dienst davon zu überzeugen, dass Sie der Eigentümer des Kontos sind. Benutzername/Kennwort wird häufig als der häufigste Authentifizierungsfaktor verwendet. Aufgrund vieler Sicherheitsprobleme im Zusammenhang mit der IT und den jüngsten weit verbreiteten Datenverletzungen ist die Einzelfaktorauthentifizierung weniger sicher geworden.
 Die Zwei-Faktor-Authentifizierung ist eine zusätzliche Sicherheitsebene, die vor dem Zugriff auf Ihr Konto spielt. Einbeziehung zum Standard-Anmeldungsprozess-Es wird ein zusätzlicher Schritt eingeführt, um die Benutzeridentität durch Senden eines Codes (an Ihre E-Mail oder als Textnachricht) zu überprüfen. Auf diese Weise wird Ihre Identität bewiesen und nur dann wird der Zugang gewährt.
 
-## Wie funktioniert 2FA?   {#2 -Fach}}
+## Wie funktioniert 2FA?   {#2 -Fach}
 In 2FA ist das Passwort immer noch Ihr erster Authentifizierungsfaktor. Wenn Sie sich also bei Ihrem Konto anmelden, werden Sie zu einer anderen Seite umgeleitet, auf der Sie das Konto des Kontos überprüfen müssen. Dies kann auf verschiedene Arten erfolgen:
   1. Die Anwendung sendet einen Bestätigungscode, der häufig OTP (einmalige Passwörter) an Ihre E-Mail-Adresse bezeichnet wird.
   2. Code wird als Textnachricht auf Ihrem Telefon geliefert.
@@ -186,7 +186,7 @@ Step-4-Code wird verifiziert und die 2FA-Authentifizierung wurde abgeschlossen.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo - Autorisierte Seite">}}
 
 
-### Abschluss:
+## # Abschluss:
 In diesem Artikel haben wir mit IdentityServer4 und Twilio von 2FA und seiner Implementierung in .NET5 erfahren. Sie können den in diesem Artikel verwendeten Beispielcode aus diesem [Repo][6] herunterladen.
 Die Verwendung von SMS für 2FA stärkt Ihre Sicherheit sicher, ist jedoch immer noch anfällig für [SIM -Swap -Angriffe][7]. Daher ermutigen Sicherheitsforscher 2FA, andere Ansätze wie Authenticator -Apps und Sicherheitsschlüssel ([Yubikey][8]) zu verwenden, die nicht in das Telefonnetzwerk abgefangen werden können. In einem kommenden Artikel werden wir mehr darüber erfahren - bleiben Sie dran!
 

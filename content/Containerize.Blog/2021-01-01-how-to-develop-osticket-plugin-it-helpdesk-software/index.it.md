@@ -14,7 +14,7 @@ categories: ['Help Desk']
 {{< figure align=center src="images/A-beginners-guide-to-develop-osTickets-plugin.png" alt="software di helpdesk">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro interessante post sul blog nella serie di [software di biglietteria helpdesk][1]. Abbiamo pubblicato alcuni post sul blog su argomenti come [Helpdesk e sistema di assistenza clienti popolari basati su biglietteria Tuttavia, Osticket è un sistema HelpDesk basato su biglietteria open source progettato per i clienti per segnalare le loro domande e reclami per supportare il personale. Questo sistema di supporto gratuito fornisce un modulo di gestione delle richieste di facile utilizzo che converte le richieste provenienti da telefoni, e-mail e moduli in biglietti basati sul Web. Offre una vasta gamma di funzionalità e opzioni che consentono al personale di supporto di offrire un'incredibile esperienza di supporto ai clienti per i clienti.
 Questo sistema di biglietteria open source (OSCKET) è un framework di biglietti di supporto completamente flessibile che offre numerose opzioni per aiutare a personalizzare tutte le parti dell'esperienza di supporto del cliente come messaggi inviati a clienti, pagine e notifiche. Nel suo articolo, impareremo lo sviluppo del plug -in Osticket per migliorare la funzionalità in base alle nostre esigenze. Per fare ciò, copriremo i seguenti argomenti:
   * [Perché usare i plugin?][4]

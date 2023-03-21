@@ -39,19 +39,19 @@ sudo reboot
 ## Passaggio 2: installa la lampada server
 Per configurare Pydio Secure Enterprise File Sharing Server e come creare un cloud privato open source, dobbiamo prima impostare un server di lampade in esecuzione. Se hai già installato e funzionante lo stack della lampada, salta questo passaggio altro, utilizzare i comandi di following per impostare la lampada sul tuo sistema Ubuntu.
 
-### Installa PHP
+## # Installa PHP
 Puoi installare PHP sul tuo sistema Ubuntu o Debian eseguendo comandi:
 sudo apt-get installa python-software-prroperties
 Sudo ADD-APP-Repository PPA: Ondrej/PHP
 SUDO APT-OGT Installa -y PHP PHP-GD PHP-CURL PHP-ZIP PHP-DOM PHP-XML PHP-SIMPLEXML PHP-MBString
 {{_LINE_34_}}
 
-### Installa Apache2
+## # Installa Apache2
 Apache è il software Web Server open source più utilizzato. Quindi, installa il server Web Apache su Ubuntu eseguendo:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Installa mysql
+## # Installa mysql
 Il sistema di gestione del database relazionale open source MySQL è un componente dello stack del software per applicazioni Web LAMP e altri. Ora installa MySQL su Ubuntu in esecuzione di seguito:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

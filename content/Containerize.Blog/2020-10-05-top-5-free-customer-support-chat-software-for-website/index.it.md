@@ -23,7 +23,7 @@ L'uso della giusta soluzione software di chat live ti aiuta a rispondere alle do
   * [Let's Chat][4]
   * [Botpress][5]
 
-##**Rocket.Chat** {#Rocket-Chat}
+## **Rocket.Chat** {#Rocket-Chat}
 Rocket.Chat è un software di chat Web open source.**È un sistema di chat completamente gratuito e autosufficiente. È una piattaforma di comunicazione completa che fornisce una comunicazione di gruppo utilizzando messaggi diretti e messaggi di gruppo.
 Rocket.Chat ha un'enorme comunità open source. Come risultato di ciò, questa**app di chat open source**ha più plugin disponibili per migliorare ulteriormente l'esperienza del prodotto. Aiuta i team a lavorare in remoto in quanto fornisce strumenti di chat audio e video. Può essere un'alternativa economica allo zoom e al gioco. Ecco le caratteristiche notevoli di questa soluzione di chat open source.
   * BYOS (porta il tuo server)
@@ -33,7 +33,7 @@ Rocket.Chat ha un'enorme comunità open source. Come risultato di ciò, questa**
   * Applicazione desktop multipiattaforma nativa
     [Leggi di più][6]
 
-##**zulip** {#Zulip}
+## **zulip** {#Zulip}
 Zulip è una delle soluzioni di chat open source più popolari**che segue il modello di threading basato sul flusso. In Zulip ti iscrivi ai flussi anziché ai canali in modo da ricevere una notifica solo dei flussi che ti interessa. Questo abbonamento a flusso ti aiuta a tracciare le conversazioni in seguito e ad organizzare.
 Questa**app di chat open source**è multipiattaforma e offre API per sviluppare le tue integrazioni personalizzate. Come altri**Web Chat Software**, supporta Emoji, immagini in linea, video e anteprime del tweet. Zulip è un software gratuito e open source al 100%. Ecco le principali funzionalità di questo**software di chat dell'assistenza clienti**.
   * Anteprime in linea di immagine, video e tweet: Zulip genera automaticamente un'anteprima dei collegamenti che invii nelle conversazioni
@@ -44,7 +44,7 @@ Questa**app di chat open source**è multipiattaforma e offre API per sviluppare 
   * App desktop: supporta app desktop multipiattaforma.
     [Leggi di più][7]
 
-##**MATTERIME** {#MATTER}
+## **MATTERIME** {#MATTER}
 La più materia è un software di chat Web****, che è altamente sicuro e scalabile. In primo luogo, è considerato un'alternativa alle app di chat dal vivo più popolari. In secondo luogo, questa**app di chat open source**è una miscela di team Slack e Microsoft. In conclusione, lo rende un superset di entrambe le applicazioni.
 Questa**soluzione di chat open source**aiuta le grandi aziende a consolidare tutte le loro comunicazioni. Ad esempio chat di squadra, chat video e condivisione dei documenti in una volta. Pertanto, rendere semplice la ricerca e la scoperta di informazioni.
 Ecco alcune delle migliori caratteristiche di Matterm
@@ -56,7 +56,7 @@ Ecco alcune delle migliori caratteristiche di Matterm
   * Biblioteca API robusta
     [Leggi di più][8]
 
-##**CHAT** {#lets-chat}
+## **CHAT** {#lets-chat}
 CHAT è un software di chat di assistenza clienti**da soli**per piccoli team. Questo**Web Chat Software**è sviluppato utilizzando Node.js e MongoDB e si concentra su una distribuzione facile e rapida. Puoi installarlo sul tuo server con pochi clic. È gratuito al 100% e open source con il suo codice sorgente disponibile su GitHub.
 Ciò che rende unica let di chat da altri software open source sono le sue funzionalità aziendali come l'autenticazione LDAP e Kerberos. Questo**software di chat dell'assistenza clienti**viene costantemente aggiornato dal team di sviluppo e vengono aggiunte sempre più funzionalità. Ecco le migliori funzionalità disponibili ora
   * Autenticazione LDAP / Kerberos
@@ -66,7 +66,7 @@ Ciò che rende unica let di chat da altri software open source sono le sue funzi
   * Trascrizioni / cronologia della chat
     [Leggi di più][9]
 
-##**botpress** {#botpress}
+## **botpress** {#botpress}
 I chatbot sono in aumento in questi giorni. Che tu li usi per vendite, marketing o supporto, possono essere un'ottima aggiunta al tuo team virtuale.
 Quindi fare BotPress è uno dei software open source più popolare**Live Chat per i siti Web**. Ha un costruttore di conversazione visiva e un emulatore per testare le tue conversazioni. Usa AI e Natural Language Comprenk (NLU). Pertanto, consente ai diversi specialisti di mettere insieme le loro conoscenze nella costruzione di migliori assistenti conversazionali. Quindi migliorare il potere della macchina per capire gli umani.
 L'intelligenza artificiale e l'apprendimento automatico sono migliorati molto di recente. Pertanto, la domanda di conversazione con la conversazione basata sull'intelligenza artificiale**software di chat dell'assistenza clienti**ha acquisito molti potenziamenti. Quindi, ecco le caratteristiche notevoli offerte da BotPress.

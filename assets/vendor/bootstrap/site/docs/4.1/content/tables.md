@@ -683,13 +683,13 @@ A `<caption>` functions like a heading for a table. It helps users with screen r
 Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a `.table` with `.table-responsive`. Or, pick a maximum breakpoint with which to have a responsive table up to by using `.table-responsive{-sm|-md|-lg|-xl}`.
 
 {% capture callout %}
-##### Vertical clipping/truncation
+## ## # Vertical clipping/truncation
 
 Responsive tables make use of `overflow-y: hidden`, which clips off any content that goes beyond the bottom or top edges of the table. In particular, this can clip off dropdown menus and other third-party widgets.
 {% endcapture %}
 {% include callout.html content=callout type="warning" %}
 
-### Always responsive
+## # Always responsive
 
 Across every breakpoint, use `.table-responsive` for horizontally scrolling tables.
 
@@ -760,7 +760,7 @@ Across every breakpoint, use `.table-responsive` for horizontally scrolling tabl
 </div>
 {% endhighlight %}
 
-### Breakpoint specific
+## # Breakpoint specific
 
 Use `.table-responsive{-sm|-md|-lg|-xl}` as needed to create responsive tables up to a particular breakpoint. From that breakpoint and up, the table will behave normally and not scroll horizontally.
 

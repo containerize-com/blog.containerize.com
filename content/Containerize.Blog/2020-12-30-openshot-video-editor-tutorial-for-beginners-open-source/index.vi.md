@@ -45,7 +45,7 @@ Sau đó, bạn có thể thêm các video này vào dòng thời gian được 
 
 Nếu bạn nhấp chuột phải vào clip trong dòng thời gian và đi đến các thuộc tính, một bảng sẽ mở ở phía bên trái có chứa các tùy chọn nâng cao liên quan đến hiệu ứng video, hình ảnh động và hơn thế nữa.
 
-###### Sau khi hoàn thành việc chỉnh sửa, bạn có thể xuất/tải xuống video từ nút màu đỏ trên thanh Tùy chọn hàng đầu.
+## ## ## Sau khi hoàn thành việc chỉnh sửa, bạn có thể xuất/tải xuống video từ nút màu đỏ trên thanh Tùy chọn hàng đầu.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="OpenShot Video Editor">}}
 

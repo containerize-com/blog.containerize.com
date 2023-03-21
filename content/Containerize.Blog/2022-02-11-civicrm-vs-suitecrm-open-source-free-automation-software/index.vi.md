@@ -32,16 +32,16 @@ Trong phần này của bài đăng trên blog **Civicrm vs Sit Suitecrm **, ch�
 ## Civicrm vs Suitecrm   {#VS}
 Cho đến nay, chúng tôi đã trải qua những gì là Civicm và cũng đã xem xét Suitecrm. Bây giờ, chúng tôi sẽ rút ra một so sánh giữa hai phần mềm tự động hóa miễn phí nguồn mở này **. Vì vậy, hãy để Lôi nhìn vào các điểm sau đây để trình bày bài viết  **Civicrm vs Sitarecrm**  này.
 
-#### Đặc trưng
+## ## Đặc trưng
 Đây là nhiệm vụ quan trọng nhất khi chọn bất kỳ phần mềm nào cho doanh nghiệp. May mắn thay, cả hai phần mềm tự động hóa miễn phí này đều cung cấp một chồng các tính năng phong phú cho người dùng. Cả hai đều dựa trên web và phù hợp cho bất kỳ cấp độ kinh doanh nào. Civicrm cung cấp tích hợp với các nền tảng phổ biến và dễ sử dụng để tự động hóa tiếp thị miễn phí. Công cụ tự động hóa **này  **cung cấp hỗ trợ khách hàng trực tuyến cùng với các hướng dẫn video. Hơn nữa, nó cung cấp các mẫu cho các báo cáo tùy chỉnh, tự động hóa xác nhận quà tặng và nhiều mẫu khác. Mặt khác, SuitecRM cung cấp hỗ trợ khách hàng qua điện thoại, trực tuyến và cơ sở kiến ​​thức. Phần mềm tự động hóa miễn phí**   này** cũng đi kèm với một loạt các tính năng bao gồm thanh toán, lập hóa đơn, máy tính ROI và hơn thế nữa.
 
-#### Stack Teck
+## ## Stack Teck
 Đây là một khía cạnh quan trọng khác khi bạn sẽ chọn một phần mềm nguồn mở. CIVICRM và SITECRM được viết bằng PHP và yêu cầu các yêu cầu gần như tương tự để triển khai trên các máy chủ cục bộ hoặc đám mây.
 
-#### Đứng cộng đồng
+## ## Đứng cộng đồng
 Theo như Civicrm có liên quan, nó có 436 sao và 748 dĩa trên repo github của nó. Mặt khác, Suitecrm có 2,8k sao và 1,6k dĩa. Cả hai công cụ tự động hóa tiếp thị  **này**  cung cấp tài liệu toàn diện về việc triển khai và phát triển.
 
-#### Khả năng mở rộng
+## ## Khả năng mở rộng
 Cuối cùng nhưng không kém phần quan trọng, SITECRM và CIVICRM có cấu hình cao và cung cấp tích hợp với các ứng dụng của bên thứ ba bao gồm một số ứng dụng cấp doanh nghiệp như WordPress, Joomla, v.v. Hơn nữa, bạn có thể thêm các tính năng mới theo nhu cầu và cách tiếp cận cộng đồng của các nhà phát triển sôi động và trả lời các truy vấn một cách tích cực.
 Tương tự như vậy, bạn có thể khám phá các khía cạnh và tính năng tiếp theo của Civicrm và Suitecrm.
 

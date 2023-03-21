@@ -20,7 +20,7 @@ Discuteremo in dettaglio gli argomenti seguenti per  **Crea il modulo Prestashop
   * [Crea il nostro modulo Prestashop][3]
   * [Conclusione][4]
 
-Requisiti ##  {#req}
+Requisiti ## {#req}
   * Installa Prestashop 1.6 o superiore.
   * Familiare con Prestashop.
   * Comprensione di PHP.

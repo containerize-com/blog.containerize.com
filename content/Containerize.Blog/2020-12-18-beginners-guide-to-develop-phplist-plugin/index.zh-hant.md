@@ -24,7 +24,7 @@ categories: ['Newsletters']
 * [**創建我們的phplist插件**][4]
 * [**結論**][5]
 
-##先決條件 {#req}
+## 先決條件 {#req}
 * 最新版本的phplist。
 * 熟悉Phplist和PHP。
 * 了解HTML / CSS和JavaScript。
@@ -38,7 +38,7 @@ Phplist有三種特殊插件。每種類型的一個插件只能啟用。
 ***身份驗證插件** - 這允許添加用於管理員身份驗證的新機制。
 ***電子郵件發送者插件** - 允許實現一種新方法來發送電子郵件，而不是內置功能。
 
-##創建我們的phplist插件 {#create}
+## 創建我們的phplist插件 {#create}
 首先，您需要擴展phplistplugin核心類。要創建一個插件，您需要在插件\ _Rootdir下創建一個名為“ Helloworld”的目錄，並在插件目錄的根部創建一個名為Helloworld.php的文件。您可以檢查config.php文件以查找插件\ _Rootdir變量的值。將下面的代碼複製到helloworld.php文件中。
 ```
 <?php
@@ -76,7 +76,7 @@ $tk = $_REQUEST['tk'];
 將helloworld.php類文件和插件目錄放入插件rootdir中以安裝插件。要激活插件，請單擊菜單欄中的“配置”選項卡，然後單擊“管理插件”。插件頁面將向您顯示可用插件的列表，您可以在此處啟用/禁用插件表。
 您可以通過以下URL訪問您的插件，例如http://example.com/admin/?page=main&pi=helloworld。用您的域名替換example.com。
 
-##結論 {#con}
+## 結論 {#con}
 我們已經了解了**phplist插件**開發的基礎知識，並創建了一個示例插件。作為起點，您可以遵循此指南並進一步探索插件開發以增強功能。
 最後，[**containerize.com**][6]正處於撰寫有關更多最新開源產品的博客文章的一致過程。因此，與此[**新聞通訊**][7]類別保持聯繫以獲取最新更新。
 

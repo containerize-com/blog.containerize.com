@@ -15,10 +15,10 @@ WordPress 테마를 만드는 방법은 Google 검색의 쿼리 중 하나입니
   * [요구 사항][1]
   * [단계별 가이드][2]
 
-### 요구 사항   {#requirements}
+## # 요구 사항   {#requirements}
 가장 먼저해야 할 가장 중요한 일은 WordPress를 설치하는 것입니다. WordPress는 설치 용이성으로 잘 알려져 있습니다. 간단한 과정이며 [가이드][3]를 따라 혼자서 쉽게 수행 할 수 있습니다.
 
-### WordPress 테마를 만드는 방법; 단계별 가이드   {#guide}
+## # WordPress 테마를 만드는 방법; 단계별 가이드   {#guide}
 WordPress 테마의 경우 모든 것이**wp_content**디렉토리에서만 수행됩니다.**wp_content → 테마 폴더에서 새로운 테마 하위 폴더를 만드십시오.**이름을 "CustomTheme"**이름으로 가정 해 봅시다.
 두 번째는 테마의 레이아웃을 결정하는 것입니다. 여기에서 튜토리얼에는**헤더, 메인 영역, 바닥 글, 사이드 바**로 구성된 기본 레이아웃이 표시됩니다.
 기본적으로 WordPress는 2 개의 파일, 즉 Style.css 및 Index.php 만 필요합니다. 그러나이 레이아웃의 경우 다음과 같이**5 파일**가 필요합니다.
@@ -32,7 +32,7 @@ WordPress 테마의 경우 모든 것이**wp_content**디렉토리에서만 수�
 * * bootstrap.js**및**bootstrap.css**는 bootstrap 패키지에서 다운로드하고**테마**폴더로 복사해야합니다.
 다음은 테마를 설정하기 위해 따라야 할 단계입니다
 
-### 1 단계 : header.php 파일
+## # 1 단계 : header.php 파일
 다음 코드를 Header.php 파일에 넣습니다.
 ```
 <html>
@@ -57,7 +57,7 @@ WordPress 테마의 경우 모든 것이**wp_content**디렉토리에서만 수�
 ```
 이 파일 Header.php에는 JS 및 스타일 파일이 연결된 헤더 부분의 코드가 포함되어 있습니다. 페이지의 헤더를 표시합니다.
 
-### 2 단계 : index.php 파일
+## # 2 단계 : index.php 파일
 다음 코드를 기본 파일 index.php에 넣습니다
 ```
 <?php get_header(); ?>
@@ -83,7 +83,7 @@ WordPress 테마의 경우 모든 것이**wp_content**디렉토리에서만 수�
 ```
 위의 코드는 게시물, 사이드 바 및 바닥 글의 주요 내용을 표시합니다.
 
-### 3 단계 : sidebar.php 파일
+## # 3 단계 : sidebar.php 파일
 sidebar.php에 다음 코드를 추가하십시오
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +95,7 @@ sidebar.php에 다음 코드를 추가하십시오
 ```
 위의 코드에서는 내부 WordPress 기능이 호출되어 다른 범주, 게시물 아카이브를 표시합니다.
 
-### 4 단계 : footer.php 파일
+## # 4 단계 : footer.php 파일
 아래 코드 라인을 biger.php 파일에 추가하십시오.
 ```
 <div id= "ttr_footer">
@@ -132,7 +132,7 @@ font-weight: bold;
 ```
 위의 모든 단계를 따르면 기본적인 작업 WordPress 테마가 나타납니다. 더 아름답고 요구 사항에 적합하도록 추가로 수정할 수 있습니다.
 
-### 결론
+## # 결론
 이 튜토리얼에서는 간단하고 쉬운 단계에서 WordPress 테마를 만드는 방법을 설명했습니다. 단계를 읽고 따른 후 WordPress 테마를 만드는 것은 더 이상 어려운 작업이 아닙니다. 그러나이 튜토리얼은 매우 기본적인 설정을 고수하고 그 위에 향상하려면 HTML, CSS, JS 및 PHP에 대해 자세히 알아야합니다.
 
   

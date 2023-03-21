@@ -14,7 +14,7 @@ categories: ['Video Editing Software']
 {{< figure align=center src="images/videoEdit.png" alt="Editor video open source">}}
 
 
-Panoramica ##
+Panoramica ## 
 È molto sicuro ammettere che il momento attuale è digitale. Le strategie di marketing si stanno evolvendo giorno per giorno e la presenza online è diventata inevitabile per le aziende. Tuttavia,**Business Video Marketing**è uno degli approcci di marketing più efficaci e immensamente usati. Abbiamo pubblicato alcuni articoli su argomenti come [Blender Video Editing Tutorial per principianti | Come funziona][2], [top 5 strumenti di creazione video gratuiti per la marketing video del 2021][3] e [un tutorial per avviare l'editing video con OpenShot Video Editor][4]. In questo post sul blog, esamineremo l'impatto di un**editor di video open source**sul business coprendo i seguenti punti.
 * **[Che cos'è il video marketing e perché è essenziale per le imprese?][5]**
 * **[Come fare un video di marketing per la tua attività?][6]**

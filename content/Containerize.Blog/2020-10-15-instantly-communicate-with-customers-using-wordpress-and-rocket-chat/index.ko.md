@@ -9,7 +9,7 @@ url: /ko/instantly-communicate-with-customers-using-wordpress-and-rocket-chat/
 categories: ['Blogging', 'Live Chat']
 ---
 
-##이 통합은 WordPress 사이트에서 인스턴트 메시징을 허용하여 생산성을 향상시킵니다. 고객 및 팀 동료와 의사 소통 할 수 있습니다.
+## 이 통합은 WordPress 사이트에서 인스턴트 메시징을 허용하여 생산성을 향상시킵니다. 고객 및 팀 동료와 의사 소통 할 수 있습니다.
 
 {{< figure align=center src="images/integrate-rocketchat-with-wordpress-banner-1024x536.png" alt="Rocket.chat을 사용한 WordPress 인스턴트 메시징 솔루션">}}
 

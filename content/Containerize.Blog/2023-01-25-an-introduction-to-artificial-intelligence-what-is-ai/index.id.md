@@ -31,13 +31,13 @@ Namun, pembelajaran mesin menggunakan pembelajaran mendalam yang merupakan metod
 ## Jenis Kecerdasan Buatan   {#Tipe-of-Artificial-Intelligence}
 Terutama, ada dua jenis kecerdasan buatan. Bagian posting blog ini akan menunjukkan kedua jenis ini.
 
-#### Kecerdasan buatan yang lemah
+## ## Kecerdasan buatan yang lemah
 Sesuai kategori AI ini, sistem dirancang untuk memecahkan masalah yang kurang kompleks. Sistem ini mengambil input, memproses proses bahasa alami, dan memberikan output. Meskipun, sistem ini menghasilkan respons berdasarkan data dan statistik masa lalu tetapi tidak dapat memproses masalah dari ruang lingkup mereka. Oleh karena itu, ruang lingkup kategori ini tidak terbatas. Contoh terbaik dari AI yang lemah adalah [Apple's Siri][4] dan alat asisten virtual lainnya yang dikembangkan oleh [Google][5] dan [Amazon][6].
 
-#### Kecerdasan buatan yang kuat
+## ## Kecerdasan buatan yang kuat
 Kecerdasan buatan yang kuat menawarkan simulasi yang tepat dari otak manusia. Kecerdasan umum buatan dan pengawasan buatan juga berada di bawah kategori ini. Kategori ini merancang sistem dan model yang berisi kemampuan untuk memproses berbagai hal dan mengambil keputusan tanpa intervensi manusia. Robot interaktif adalah contoh AI yang kuat dan mobil self-driving juga diperkaya dengan sistem yang dilatih dengan set data besar dan mampu mengambil keputusan menggunakan jaringan saraf. Selain itu, sistem tersebut dapat membuat prediksi berdasarkan pengalaman masa lalu mereka.
 
-##**Aplikasi Kecerdasan Buatan** {#Aplikasi-of-Artificial-Intelligence}
+## **Aplikasi Kecerdasan Buatan** {#Aplikasi-of-Artificial-Intelligence}
 Poin -poin berikut akan memberi Anda gambaran tentang beberapa aplikasi terkemuka dari kecerdasan buatan:
 **Pengenalan Pidato**: Pemrosesan bahasa alami adalah cabang utama AI yang memproses suara manusia dan memberikan output dalam bentuk tertulis atau bentuk lain. Fitur ini tersedia di banyak perangkat seperti ponsel, mobil, dan banyak lagi.
 **Pengenalan wajah**: Sesuai aplikasi ini, AI dapat membandingkan beberapa visi wajah dan memiliki kemampuan untuk mendeteksi struktur wajah tertentu. Selain itu, Anda dapat menggunakan kecerdasan buatan untuk mencocokkan dan menunjukkan aksen ucapan yang berbeda, tulisan tangan, kebisingan, dan banyak lagi.

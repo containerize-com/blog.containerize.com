@@ -14,7 +14,7 @@ categories: ['Single Sign-On']
 {{< figure align=center src="images/sso.png" alt="Software di accesso singolo">}}
 
 
-Panoramica ##
+Panoramica ## 
 Gli utenti di organizzazioni di grandi dimensioni accedono alle risorse digitali senza soluzione di continuità utilizzando il software **Single Sign-On (SSO) **. Gestione dell'identità e dell'accesso utilizzando il software ** SSO**  è diventato parte integrante delle operazioni aziendali di routine. In questo post sul blog, passeremo attraverso alcuni dei seguenti primi 5 popolari software di accesso singolo open source.
   * **[IdentityServer][1]**
   * **[Keycloak][2]**

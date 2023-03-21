@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginx-as-reverse-proxy.png" alt="Usa Nginx come server proxy inverso">}}
 
 
-Panoramica ##:
+Panoramica ## :
 Nginx e Apache sono due server Web open source più **più popolari  **spesso utilizzati con PHP. Un proxy inverso o gateway funge da connessione tra il client e il server. Il client e il server scambiano informazioni tra loro per funzionare in modo continuo ed efficiente. I proxy inversi più comuni sono**   nginx e apache** ed entrambi possono essere configurati sulla stessa macchina virtuale quando si ospitano più siti Web. Un proxy inverso protegge i server Web dagli attacchi e il gateway di connessione appare al client come un normale server Web in cui non sono necessarie configurazioni Nginx proxy inversa speciali. Il client invia la richiesta mentre il proxy inverso decide dove trasmettere le informazioni richieste e quindi consegna del risultato finale di output al client.
 Dopo molto apprezzamento per la nostra serie sui tutorial di Redis, abbiamo ricevuto molte richieste per avviare una serie sui tutorial NGINX. Quindi la scorsa settimana abbiamo iniziato con un tutorial su come utilizzare [NGINX Reverse Proxy Caricamento del carico][1] per le tue applicazioni. Questo semplice esempio di configurazione proxy NGINX inversa fornisce molti vantaggi per le prestazioni proxy inversa NGINX. NGINX Simple Reverse Proxy è il server Nginx proxy open source più attivamente utilizzato su Internet. In questo tutorial,  **configureremo ed esploreremo come utilizzare Nginx come proxy inverso**  e come impostarlo come proxy inverso su un singolo server. Quindi iniziamo!
   * Che cos'è un server proxy?

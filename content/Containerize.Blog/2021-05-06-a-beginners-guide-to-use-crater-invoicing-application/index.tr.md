@@ -25,14 +25,14 @@ Her işletmenin faturaların, giderlerin, ödemelerin ve daha fazlasının yöne
 ## krater kurulum prosedürü   {#installation}
 Bu bölümde kraterin manuel yöntemle nasıl yükleneceğini ve Docker'ı kullanmayı tartışacağız.
 
-### Manuel Kurulum
+## # Manuel Kurulum
   * En son sürümü indirin.
   * İndirilen Zip dosyasını sunucunuza yükleyin ve çıkarın.
   * Alan adınızı krater klasörü içindeki genel dizine yönlendirin.
   * Projenizin köküne gidin ve uygun ayrıcalıkları atamak için “sudo chmod -r 775 ./” komutunu çalıştırın.
   * Sitenizi tarayıcıda açın ve kurulum sihirbazını takip edin.
 
-### Docker Kurulumu
+## # Docker Kurulumu
   * Docker'ı sunucunuza yükleyin :.
   * Bu kılavuzu izleyerek Docker Compose'u yükleyin :.
   * Bu komutu kullanarak klon krateri deposu.

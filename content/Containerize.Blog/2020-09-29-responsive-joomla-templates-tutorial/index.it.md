@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/banner_1200x628.png" alt="Sviluppo del modello Joomla">}}
 
 
-Panoramica ##
+Panoramica ## 
 Un sito Web di business ben progettato gioca una parte vitale per portare e trattenere i visitatori dando loro la facilità di navigazione.**Full ha caratterizzato Joomla**facilita i suoi utenti con una serie di layout reattivi e lo sviluppo del modello Joomla che controllano l'estetica di un sito Web aziendale.
 Durante la fase di sviluppo, il posizionamento degli elementi di progettazione è molto fondamentale per ottenere:
   * Consistenza
@@ -43,7 +43,7 @@ Prima di saltare in questa sezione, assicurati di avere una comprensione di quan
   * Php
 Quindi, creare modelli personalizzati in Joomla non è mai stato così difficile e complesso. Tuttavia, iniziamo a creare il nostro primo modello Joomla.
 
-##**Struttura della directory di configurazione**
+## **Struttura della directory di configurazione**
 Prima di tutto, crea una cartella chiamata "**MyTemplate**" all'interno della cartella "**Modelli**".
 Crea i seguenti file all'interno della cartella "**MyTemplate**":
 ***INDICE.php**: questo è il file principale che contiene il codice HTML e PHP per le pagine di interi modelli.

@@ -14,7 +14,7 @@ Rozwiązanie ## CMDB zapewnia lepsze zarządzanie zapasami zasobów informatyczn
 {{< figure align=center src="images/it-asset-management-services.png" alt="Usługi zarządzania zasobami IT">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Niedawno rozpoczęliśmy serię treści na temat oprogramowania do bazy danych z zarządzaniem konfiguracją (CMDB)][1] i opublikowaliśmy niektóre produkty typu open source i bezpłatne, takie jak [Ralph][2], [Snipe-IT][3] oraz blog samouczka Opublikuj [Jak skonfigurować rozwiązanie CMDB Ralph na LocalHost][4]. Kategoria oprogramowania CMDB zyskuje popularność w organizacjach utrzymujących ogromną infrastrukturę IT. Istnieje silna potrzeba automatyzacji powtarzających się zadań oraz pewnego rodzaju śledzenia i zarządzania zasobami. Jednak większość dostępnych rozwiązań oprogramowania w chmurze zawiera płatne wersje, a także istnieją pewne obawy dotyczące bezpieczeństwa danych. Dlatego społeczność open source opracowała oprogramowanie do bazy danych zarządzania konfiguracją konfiguracji, które umożliwia całe środowisko IT dzięki usługom zarządzania zasobami IT.
 Te systemy zarządzania konfiguracją oferują narzędzia do utrzymania zapisu elementów konfiguracji. Te elementy konfiguracji (CIS) obejmują drukarki, serwery, oprogramowanie, skanery, skanery kodów QR, czytniki kodów kreskowych, konfiguracje itp. Dlatego w tym poście na blogu zbadamy wpływ oprogramowania  **CMDB**  na IT każdej firmy Departament, obejmując następujące punkty.
   * **[Co to jest oprogramowanie CMDB?][5]**
@@ -28,35 +28,35 @@ Te systemy zarządzania konfiguracją oferują narzędzia do utrzymania zapisu e
 ##  **Najlepsze oprogramowanie CMDB Top 5 Top 5 Open Source**    {#top}
 W tej sekcji zbadamy najwyżej oceniane oprogramowanie do bazy danych zarządzania konfiguracją.
 
-### Ralph
+## # Ralph
 [Ralph][2] to oprogramowanie do zarządzania zasobami bez źródła. Jest to wieloplatformowe i opracowuje zdolności samozaparcia. Jest wysoce rozszerzalny i zapewnia API REST dla integracji stron trzecich. Następnie istnieje kompletna obsługa centrów danych i infrastruktury IT Office. Jednak to oprogramowanie śledzenia aktywów w czasie rzeczywistym jest napisane w Python i ma kompleksową dokumentację dotyczącą rozwoju i wdrażania. Dlatego cały kod źródłowy jest dostępny na [github][9].
 Ralph zapewnia następujące kluczowe funkcje
   * Wbudowana wizualizacja DC
   * Śledzenie zasobów
   * Lekki
 
-### Snipe-it
+## # Snipe-it
 [Snipe-IT][3] to kolejne oprogramowanie typu open source, które zapewnia śledzenie zasobów i konfiguracji. Ta platforma zarządzania zasobami jest obsługiwana przez AWS. Jest wysoce zabezpieczony i zapewnia opcje logowania przy użyciu uwierzytelniania dwuskładnikowego i obsługi SAML. Jest również samodzielnie hostowany i łatwy do skonfigurowania. To rozwiązanie CMDB jest zapisane w PHP, a cały kod źródłowy jest dostępny na [Github][10].
 Poniżej znajdują się podstawowe cechy Snipe-it
   * Interfejs RESTful
   * Integracja z Slack i LDAP
   * Opcje importu/eksportu
 
-### Foreman
+## # Foreman
 [Foreman][11] to kolejne narzędzie open source do zarządzania serwerami fizycznymi i wirtualnymi. Jest wysoce konfigurowalny i zapewnia interfejs API REST w celu budowania potrzebnych funkcji. Ponadto istnieje pełne obsługę zarządzania konfiguracją, wdrożenia aplikacji, zmiany konfiguracji i administratorów systemowych mogą uzyskać szczegółowe raporty. Jest samodzielnie hostowany i cały kod źródłowy jest dostępny na [github][12].
 Forman oferuje następujące główne funkcje
   * Łatwe do skonfigurowania
   * Raportowanie i monitorowanie
   * Architektura wtyczek
 
-### Racktables
+## # Racktables
 [Racktables][13] to system zarządzania zasobami typu open source dla centrów danych, serwerów. Zapewnia również obsługę zarządzania adresami sieciowymi, konfiguracji sieci, konfiguracji równoważenia obciążenia i innych urządzeń sprzętowych. Ponadto pozwala użytkownikom tworzyć uprawnienia, oznaczenie użytkowników i dokumentację zapory ogniowej.
 Strable zapewniają następujące widoczne funkcje
   * Zarządzanie plikami
   * Samodzielnie
   * Zarządzanie porty fizyczne
 
-### Itop
+## # Itop
 [Portal IT Operations][14] to bezpłatne rozwiązanie samodzielne, które zapewnia rozwiązanie CMDB, system pomocniczy i narzędzie do zarządzania dokumentami. Oferuje bogate opcje importu i eksportu.
 ITOP oferuje kluczowe funkcje
   * Automatyczna analiza wpływu

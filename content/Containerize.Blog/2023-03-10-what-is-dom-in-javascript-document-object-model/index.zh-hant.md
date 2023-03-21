@@ -22,7 +22,7 @@ categories: ['Programming']
   * **[DOM級別][3]**
   * **[什麼是域屬性以及如何訪問它們？][4]**
 
-##什麼是文檔對像模型（DOM）？   {#什麼is-document-Object-Model}
+## 什麼是文檔對像模型（DOM）？   {#什麼is-document-Object-Model}
 DOM代表？**文檔對像模型（DOM）**是Web瀏覽器中網頁的表示。簡而言之，瀏覽器中HTML文檔元素的分層表示稱為文檔對像模型。它是由Web瀏覽器實際生成的樹狀形成的。它由各種節點組成，它們相互連接，形成樹狀。此外，DOM元素還附帶了屬性和事件。
 實際上，DOM是一個編程界面，該界面旨在製定網頁的邏輯結構，並決定訪問頁面元素的方式。基本上，JavaScript無法識別HTML標籤，例如標題，H1和等。因此，一旦將HTML文檔加載到Web瀏覽器中，創建了DOM，則可以使JavaScript了解文檔元素。
 
@@ -33,7 +33,7 @@ DOM代表？**文檔對像模型（DOM）**是Web瀏覽器中網頁的表示。�
 
 好吧，您可以看到上圖中的DOM元素。窗口和文檔是頂級瀏覽器對象，然後我們將HTML元素作為根。繼續前進，我們有頭部和身體節點，標題節點屬於頭節點，並且身體節點包含在Web瀏覽器中呈現和可見的所有節點。此外，身體元素包含我們可以在圖像中看到的屬性，例如包含“ HREF”屬性的錨標記。同樣，其他DOM節點包含各種屬性，例如IMG，META等。
 
-##什麼是dom屬性以及如何訪問它們？   {#什麼 -  dom-properties and-wow-wow-wow-wow-to-access-them}
+## 什麼是dom屬性以及如何訪問它們？   {#什麼 -  dom-properties and-wow-wow-wow-wow-to-access-them}
 到目前為止，我們已經對JavaScript和DOM級別中的DOM提出了答案，並且我們也經歷了DOM節點。在本節中，我們將瀏覽DOM屬性，並將看到如何與它們進行交互。每個DOM元素都有一個鏈接到它的值，例如“ P”標籤具有文本屬性，IMG標籤具有圖像等。 JavaScript方法用於訪問節點的值。此外，您可以將/刪除事件偵聽器添加到DOM元素中。
 您可以找到以下 **dom屬性** ：
 **innerhtml**：此屬性用於設置或獲取DOM節點的HTML內容。
@@ -85,7 +85,7 @@ document.getElementById("myID").querySelector(".first").innerHTML = "change the 
 ## 問一個問題
 您可以在我們的[論壇][9]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **JavaScript中使用了什麼？**
 您可以訪問此[鏈接][2]，以獲取此問題的詳細答案。
 

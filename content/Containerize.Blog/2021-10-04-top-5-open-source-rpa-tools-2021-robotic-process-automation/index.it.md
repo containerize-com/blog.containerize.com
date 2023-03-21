@@ -13,7 +13,7 @@ categories: ['Deployment Tools', 'Marketing Automation']
 {{< figure align=center src="images/Top-5-Most-Popular-Open-Source-Robotic-Process-Automation-RPA-Tools.png" alt="I 5 migliori strumenti RPA di automazione robotica open source più popolari">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 In qualsiasi organizzazione aziendale, ci sono molti compiti e operazioni ripetitive, costose e che richiedono tempo in natura. Mentre svolgono questi tipi di compiti ripetitivi quotidiani, esiste sempre un'enorme possibilità per errori umani a causa del lavoro ripetitivo. Quindi, al fine di evitare errori, per risparmiare tempo e sforzi umani, sono disponibili molti software RPA di automazione dei processi robotici.
 Le attività quotidiane eseguite sul software dai dipendenti sono automatizzate utilizzando i robot del software metaforico o la tecnologia di intelligenza artificiale. Il software che utilizza il bot per eseguire questa automazione è chiamato software RPA o software robotico, non confuso con il software robot. Di seguito è riportato un elenco degli strumenti RPA di automazione dei processi robotici più popolari disponibili sul mercato per ottimizzare la tua attività.
 **Quali sono gli RPA Rools open source più popolari? ** In questo articolo, acquisiremo familiarità con gli esempi più popolari degli strumenti RPA open source del 2021.

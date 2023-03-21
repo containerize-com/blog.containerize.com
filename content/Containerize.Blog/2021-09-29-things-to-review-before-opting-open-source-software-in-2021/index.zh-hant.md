@@ -9,7 +9,7 @@ url: /zh-hant/things-to-review-before-opting-open-source-software-in-2021/
 categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'Form', 'Game Development Software', 'Healthcare Software', 'Marketing Automation', 'Rapid Application Development', 'Single Sign-On', 'Video Conferencing Software', 'Video Editing Software']
 ---
 
-##開發免費和開源軟件可公開提供源代碼。讓我們回顧一下選擇開源軟件的關鍵因素。
+## 開發免費和開源軟件可公開提供源代碼。讓我們回顧一下選擇開源軟件的關鍵因素。
 
 {{< figure align=center src="images/oss.png" alt="開源軟件">}}
 
@@ -28,22 +28,22 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 ## community   {#community}
 這是選擇開源解決方案（OSS）的最重要因素。如果沒有足夠的支持，則很難管理軟件。大多數開發人員傾向於保持軟件的可靠性。因此，您應該始終更喜歡有充滿活力的社區支持的免費**開源軟件（FOSS）**，因此，如果發生任何嚴重的問題，應解決。
 
-##文檔 {#documentation}
+## 文檔 {#documentation}
 選擇**開源應用程序**的下一個關鍵方面是文檔。大多數開源軟件（OSS）都帶有詳細且全面的文檔。但是，每個OSS仍然不是這種情況。文檔較少或沒有文檔的軟件會使您陷入困境。有時，開發人員將用戶手冊寫入軟件網站以外的另一個空間。因此，始終確保您選擇了具有完整文檔的OSS。
 
-##便攜性 {#portability}
+## 便攜性 {#portability}
 這種特徵與其他諸如文檔，安全性和等其他特徵同樣重要。您需要確保**開源軟件（OSS）**是便攜式且環境友好的。它很容易設置託管，並帶有完整的源代碼文件。可移植性與安裝程序以外的軟件文件無關。**自託管軟件**使開發人員能夠完全控制開發，生產狀態和安全性。
 
 ## git Stats   {#git-stats}
 在選擇免費軟件之前，這是一項非常基本但重要的活動。始終徹底查看特定產品的GIT回購。它包括顯示開源工具流行的叉子，星星和其他統計數據。另外，請檢查GIT存儲庫的問題部分，以確保此開源應用程序沒有附加嚴重的問題。
 
-##許可 {#licensing}
+## 許可 {#licensing}
 選擇免費的開源軟件（FOSS）是不可避免的。在探索GIT回購統計數據時，請檢查產品的許可證有關權限。仔細閱讀有關OSS的使用，開發和分佈的條款和條件。其中一些許可證是開源的，但不是免費的。因此，您必須選擇完全開源且免費的免費軟件。
 
-##可擴展性 {#Extensibility}
+## 可擴展性 {#Extensibility}
 選擇開源工具的最大原因是其可擴展的性質。免費軟件必須配置，可擴展且易於擴展。開源社區提供了使軟件在各個方面保持靈活性的最佳方法，以使用戶在任何修訂或添加新功能時都不會感到恐慌。此外，用戶可以找到許多插件，大多數流行的開源工具（例如S內容管理軟件，博客軟件，快速應用程序開發等等）所曝光的REST API等。
 
-##安全 {#security}
+## 安全 {#security}
 最後但並非最不重要的一點是，任何軟件的安全性都不能以任何代價損害。但是，您需要嚴格分析軟件體系結構，以確保沒有安全漏洞。過去是一個誤解，即開源軟件（OSS）容易受到外部威脅的影響。因此，在當前時間點並非如此，因為隨著時間的流逝，成熟度和普及正在增加。
 
 ## 最後的想法

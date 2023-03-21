@@ -26,34 +26,34 @@ Docker es un software de contenedores de código abierto que se utiliza para fac
 ## Beneficios de la contenedorización   {#Benefits}
 En esta sección, exploraremos algunos de los principales beneficios de la contenedorización.
 
-### Implementaciones rápidas
+## # Implementaciones rápidas
 En los métodos de implementación de aplicaciones tradicionales, los desarrolladores deben considerar serias con respecto al entorno en el que se ejecutará el software. Deben configurar todas las configuraciones y dependencias requeridas manualmente para asegurarse de la implementación exitosa. La contenedores eliminó esta carga y asumió la responsabilidad de manejar los trámites de despliegue.
 
-### Aislamiento
+## # Aislamiento
 Este es el principal beneficio de la contenedorización, ya que las aplicaciones que se ejecutan en cada contenedor están aisladas y desconocidas entre sí. Utilizan sus propios recursos de forma independiente y, por lo tanto, logran el mayor nivel de seguridad y confiabilidad.
 
-### **Consistencia**
+## # **Consistencia**
 Una imagen de Docker contiene todas las dependencias del software y se asegura de crear un entorno consistente en múltiples plataformas. O es la máquina de un desarrollador o una máquina de producción en la nube, la contenedores presenta las instalaciones que brindan un comportamiento consistente de la implementación de la aplicación.
 
-### Escalabilidad
+## # Escalabilidad
 **Software de contenedores**  Permite a los desarrolladores escalar aplicaciones sin afectar toda la infraestructura. Los desarrolladores de software pueden reconfigurar la infraestructura existente o pueden agregar más contenedores para mejorar los recursos. Los procesos para escalar aplicaciones requieren menos esfuerzos que permitan a los desarrolladores centrarse en otros desarrollos importantes.
 
-### Mejor seguridad
+## # Mejor seguridad
 Como hay un aislamiento completo entre todos los contenedores que se ejecutan en una red, cada contenedor contiene su propia capa de seguridad. Sin embargo, reduce el factor de riesgo de cualquier choque de recursos entre las aplicaciones como la memoria, el almacenamiento, la CPU y otros recursos de red.
 
-### Portabilidad
+## # Portabilidad
 Este es otro beneficio importante entre los otros beneficios de la contenedorización. La contenedorización hace que las aplicaciones sean altamente portátiles, ya que son independientes de la plataforma. Los desarrolladores pueden configurar fácilmente la aplicación contenedora en cualquier plataforma debido a las aplicaciones abstractas de contenedores del sistema operativo host.
 
-### **Económico**
+## # **Económico**
 Las herramientas de orquestación de contenedores y el software de contenedores son gratuitos y de código abierto. Tienen comunidades fuertes que están vivas y vibrantes. Aprender estas herramientas no es difícil y hay muchos servicios disponibles que facilitan las implementaciones de aplicaciones en el menor período de tiempo.
 
-### Productividad
+## # Productividad
 El software de contenedor gratuito trae mucha productividad al automatizar los procesos de implementación. Además, si se encuentra algún tiempo de inactividad o mal manejo en la producción, hay herramientas de monitoreo disponibles para este propósito. Los desarrolladores de software pueden agrupar el software en un paquete y pueden compartir y ejecutar en cualquier plataforma de inmediato.
 
-### Reutilización
+## # Reutilización
 La contenedores facilita a los usuarios con disposiciones de reutilización. Los desarrolladores escriben el código de la aplicación comercial una vez para todas las plataformas. No necesitan escribir diferentes códigos fuente para diferentes plataformas.
 
-### Comunidad
+## # Comunidad
 Esta es otra gran ventaja de contenedores. Hay un gran apoyo disponible por la comunidad y los usuarios pueden buscar orientación en cualquier nivel. Sobre todo, hay un espacio llamado [Docker Hub][5] donde los usuarios pueden crear, compartir y extraer las aplicaciones y servicios de contenedores.
 
 ## Observaciones finales   {#final}

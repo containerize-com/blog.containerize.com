@@ -23,7 +23,7 @@ Trong bài đăng trên blog này, chúng tôi sẽ tập trung vào việc thi�
   * [Xử lý hàng đợi][6]
   * [Kết luận][7]
 
-##**Tạo Chiến dịch/Bản tin** {#Create}
+## **Tạo Chiến dịch/Bản tin** {#Create}
   * Đăng nhập vào giao diện quản trị của cài đặt phplist của bạn. Nhấp vào**Bắt đầu hoặc tiếp tục nút**nút trên bảng điều khiển hoặc gửi liên kết chiến dịch trong chiến dịch trong điều hướng bên trái.
   * Nhấp vào Bắt đầu nút Chiến dịch mới.
   * Điền vào các trường với các tùy chọn như chủ đề, từ dòng, nội dung và chân trang như trong hình ảnh dưới đây.
@@ -31,26 +31,26 @@ Trong bài đăng trên blog này, chúng tôi sẽ tập trung vào việc thi�
 {{< figure align=center src="images/create-campaign.png" alt="Thiết kế bản tin trong phplist">}}
 
 
-##**Chiến dịch lập lịch** {#schedule}
+## **Chiến dịch lập lịch** {#schedule}
   * Lập lịch cho phép bạn chọn ngày khi bạn muốn bắt đầu chiến dịch. Chiến dịch sẽ không được gửi trước/sau ngày được chọn.
   * Bạn không cần phải thay đổi ngày, nếu bạn muốn gửi chiến dịch ngay lập tức.
 
 {{< figure align=center src="images/scheduling.png" alt="Lên lịch bản tin trong Phplist">}}
 
 
-##**gán danh sách cho chiến dịch** {#list}
+## **gán danh sách cho chiến dịch** {#list}
 Tất cả các danh sách sẽ hiển thị trong tab Danh sách, chọn Danh sách thích hợp. Chiến dịch sẽ cung cấp để chỉ gán danh sách. Tuy nhiên, bạn có thể làm cho danh sách công khai hoặc riêng tư trong khi tạo/cập nhật danh sách.
 
 {{< figure align=center src="images/lists.png" alt="Gán danh sách cho bản tin trong phplist">}}
 
 
-##**Chiến dịch kết thúc** {#finish}
+## **Chiến dịch kết thúc** {#finish}
 Kết thúc là bước cuối cùng trong quá trình tạo chiến dịch. Bạn có thể thêm email để thông báo, thêm mã theo dõi Google Analytics. Nhấp vào nút**Gửi chiến dịch**để bắt đầu gửi tin nhắn cho người đăng ký. Bây giờ, bạn đã thực hiện với quá trình thiết kế bản tin và chiến dịch. Nhưng, bạn cần xử lý hàng đợi và bạn có thể đọc thêm về nó trong phần tiếp theo.
 
-##**xử lý hàng đợi** {#queue}
+## **xử lý hàng đợi** {#queue}
 Hàng đợi quy trình là quá trình để bắt đầu gửi chiến dịch. Bạn có thể bắt đầu quá trình thủ công, với tập lệnh dòng lệnh hoặc tạo công việc cron. Nó dễ dàng xử lý hàng đợi thủ công cho một vài thuê bao Hundered. Nhưng, thật tốt khi sử dụng Cron Job để xử lý hàng đợi, nếu bạn có hàng ngàn/triệu người đăng ký. Bạn có thể truy cập phplist chính thức [Trang web][8] để biết thông tin để tạo công việc cron.
 
-##**Kết luận** {#conclusion}
+## **Kết luận** {#conclusion}
 PHPLIST là một công cụ hoàn hảo cho các doanh nghiệp muốn sử dụng phần mềm bản tin nguồn mở để tiếp thị qua email. Chúng tôi đã mô tả quá trình chi tiết để thiết kế và gửi các chiến dịch. Bạn có thể theo dõi nó cho bản tin tiếp theo của bạn và tận hưởng sức mạnh thực sự của phplist.
 Cuối cùng, với một số hướng dẫn hấp dẫn hơn, [containerize.com][9] đều được thiết lập để tăng cường cơ sở hướng dẫn của nó. Để cập nhật thường xuyên, vui lòng duy trì kết nối với danh mục [Bản tin][10].
 

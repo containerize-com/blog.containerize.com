@@ -38,7 +38,7 @@ categories: ['Transactional Email']
 sudo apt-get update
 ```
 
-### Установить сервер баз данных Mariadb
+## # Установить сервер баз данных Mariadb
   * Запустите команду для установки Mariadb.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### Установите Ruby
+## # Установите Ruby
   * Во-первых, добавьте стороннее PPA для установки Ruby. Запустите следующие команды.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### Установить Rabbitmq
+## # Установить Rabbitmq
   * Erlang должен установить Rabbitmq, поэтому вам также нужно установить его. Добавьте ключ репозитория Erlang в Ubuntu с помощью команды ниже.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### Установить Nodejs
+## # Установить Nodejs
   * Добавить репозиторий Nodejs со следующей командой.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### Установить почтовый почтовый сервер
+## # Установить почтовый почтовый сервер
   * Во -первых, вам нужно создать пользователя для почтового почтового сервера. Создайте его со следующей командой.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### Установить nginx
+## # Установить nginx
   * Запустите команду ниже, чтобы установить веб -сервер Nginx.
 ```
 sudo apt install nginx

@@ -31,7 +31,7 @@ Consensys Quorum cung cấp các tính năng quan trọng sau:
   * Mạng công cộng/riêng tư
 [Tìm hiểu thêm về Quorum của Consensys][11]
 
-##**** Quy trình cài đặt trước và yêu cầu trước là gì?
+## **** Quy trình cài đặt trước và yêu cầu trước là gì?
 Trong phần này, chúng tôi sẽ cài đặt các phụ thuộc cần thiết và thiết lập môi trường địa phương. Trước khi đi đến bước tiếp theo, hãy chắc chắn rằng bạn đã cài đặt các điều kiện tiên quyết sau:
   * Nodejs v10+
   * Docker

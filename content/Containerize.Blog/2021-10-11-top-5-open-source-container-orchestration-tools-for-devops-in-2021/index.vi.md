@@ -14,7 +14,7 @@ categories: ['DevOps', 'Software Development']
 {{< figure align=center src="images/Open-Source-Container-Orchestration-Tools.png" alt="Top 5 công cụ điều phối container nguồn mở">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Các công cụ điều phối container giúp quản trị viên CNTT, nhà phát triển phần mềm và người dùng quản lý các ứng dụng được chứa trong quá trình phát triển, thử nghiệm, mở rộng và triển khai. Các phần mềm điều phối container này cũng tạo điều kiện cho việc lên lịch và triển khai nhiều container để triển khai trong một ứng dụng, để xác định việc triển khai container thất bại và quản lý các cấu hình khai báo.  **Công cụ điều phối nguồn mở nguồn mở**  giúp người dùng tự động hóa quá trình chạy các phiên bản, cung cấp máy chủ và liên kết các container để tăng khả năng mở rộng và chức năng của các ứng dụng bằng cách thêm các thùng chứa.
 Các công cụ phối hợp giúp tối ưu hóa quy trình điều phối, cải thiện bảo mật container bằng cách đặt các quyền truy cập của container và giữ các thành phần container được tách biệt với nhau. Hiện tại, có nhiều danh sách các công cụ điều phối nguồn mở dựa trên đám mây có sẵn trên thị trường mà các tổ chức khác nhau sử dụng cho môi trường sản xuất để  **Quản lý container và microservice** . Hãy để xem xét một số công cụ điều phối hàng đầu.
 **Nền tảng điều phối container là gì?

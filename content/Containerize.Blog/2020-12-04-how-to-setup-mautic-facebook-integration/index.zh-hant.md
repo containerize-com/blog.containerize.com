@@ -9,7 +9,7 @@ url: /zh-hant/how-to-setup-mautic-facebook-integration/
 categories: ['Marketing Automation']
 ---
 
-##獲取Facebook導致Mautic，將聯繫人添加到一個細分市場中並運行電子郵件活動。還使用這些聯繫人為Facebook廣告創建自定義受眾。
+## 獲取Facebook導致Mautic，將聯繫人添加到一個細分市場中並運行電子郵件活動。還使用這些聯繫人為Facebook廣告創建自定義受眾。
 
 {{< figure align=center src="images/How-to-set-up-Mautic-Facebook-Integration.png" alt="如何設置Mautic- Facebook集成">}}
 
@@ -20,7 +20,7 @@ Mautic是一種營銷自動化軟件，可以完全控制營銷電子郵件，�
   * [Mautic插件配置][3]
   * [結論][4]
 
-##配置Facebook開發人員帳戶 {#account}
+## 配置Facebook開發人員帳戶 {#account}
 * 去[開發人員的Facebook][5]
 * 如果沒有一個帳戶，請註冊您的帳戶。
 * 要註冊一個新帳戶，請轉到右上角單擊“入門”。
@@ -30,7 +30,7 @@ Mautic是一種營銷自動化軟件，可以完全控制營銷電子郵件，�
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic- Facebook集成 - 註冊開發人員帳戶">}}
 
 
-##配置Facebook開發人員的應用 {#App}
+## 配置Facebook開發人員的應用 {#App}
 * 單擊“創建第一個應用”
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic  -  Facebook集成 - 創建第一個應用程序">}}
@@ -72,7 +72,7 @@ Mautic是一種營銷自動化軟件，可以完全控制營銷電子郵件，�
 * 在這裡，您可以將您的聯繫字段映射到Facebook字段。
 * 最後，發佈設置，您很高興。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 MAUTIC  -  Facebook集成可以幫助您將Facebook引線同步到MAUTIC系統中，毫無困難。在Mautic應用中，您可以將所有這些引線添加到一個細分市場中。您可以在其中運行電子郵件營銷活動。這確實可以幫助您的業務發展，營銷和銷售產品/服務，向更大的目標受眾群體。
 
 ## 探索

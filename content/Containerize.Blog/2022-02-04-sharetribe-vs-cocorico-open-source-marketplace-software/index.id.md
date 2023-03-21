@@ -31,16 +31,16 @@ Di bagian posting blog ShareTribe vs Cocorico ini, kami akan secara singkat meme
 ## sharetribe vs cocorico   {#vs}
 Sejauh ini, kami telah melalui apa itu sharetribe dan pengenalan singkat Cocorico. Bergerak maju ke posting blog SharetRibe vs Cocorico ini, kami akan mencoba menarik garis antara dua perangkat lunak pasar terbuka **open open ini**  dengan mencakup poin -poin berikut.
 
-#### Tech Stack
+## ## Tech Stack
 Ketika datang ke perangkat lunak open-source-host sendiri, benar-benar penting untuk meninjau semua aspek seperti teknologi front-end dan back-end, basis data, dan metodologi pengembangan. Namun, Sharetribe dikembangkan menggunakan Ruby on Rails, JavaScript, dan HTML. Sedangkan, cocorico dibangun menggunakan PHP, JavaScript, ranting, dan input dari bahasa lain seperti CSS. Namun, keduanya mudah diatur di server lokal atau cloud.
 
-#### **Berdiri komunitas** 
+## ## **Berdiri komunitas** 
 Ini adalah faktor imperatif lain saat memilih perangkat lunak open source. Sejauh menyangkut sharetribe, ia memiliki bintang 2.2k dan 1.3k garpu pada repo github -nya. Namun, Anda dapat menemukan dokumentasi tentang pengembangan dan penyebaran bersama dengan file kode sumber. Di sisi lain, ada 812 bintang dan 626 garpu pada repo github -nya. Meskipun, Anda dapat menemukan dokumentasi juga bersama dengan file sumber.
 
-#### **ekstensibilitas** 
+## ## **ekstensibilitas** 
 Karakteristik ini memiliki poin maksimum. Oleh karena itu, kedua perangkat lunak pasar terbuka **ini**  menawarkan integrasi dengan aplikasi pihak ketiga. Sharetribe memberikan integrasi dengan [Google Analytics][9], Stripe, PayPal dan dll. Cocorico juga memungkinkan Anda untuk terhubung dengan gateway pembayaran untuk menangani pembayaran. Lebih lanjut, pengembang dapat menambahkan fungsionalitas untuk memenuhi kebutuhan bisnis.
 
-#### Fitur
+## ## Fitur
 Yang terakhir tetapi yang paling penting adalah meninjau dan menganalisis ketentuan dan fitur perangkat lunak open source muncul. Sebagian besar waktu itu tergantung pada sifat bisnis dan menggunakan kasus. Kedua solusi pasar bebas ini menawarkan fitur ramah bisnis yang meningkatkan produktivitas dan mengurangi biaya lainnya. Sharetribe mendukung semua jenis pasar, menawarkan sistem pembayaran bawaan, alat untuk mengelola katalog produk, branding khusus, penyaringan konten, dan banyak lagi. Lebih lanjut, ia juga menawarkan manajemen pesanan/kategori, manajemen SEO/promosi dan menyediakan portal vendor.
 Sejauh menyangkut Cocorico, ia menawarkan ketentuan untuk pasar multi-vendor open source. Selain itu, termasuk pelacakan geolokasi, geofencing, keranjang belanja, manajemen biaya/komisi, aman, kuat, dan dilengkapi dengan kemampuan hosting sendiri.
 

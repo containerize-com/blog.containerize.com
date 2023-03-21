@@ -29,7 +29,7 @@ Hơn nữa, phần mềm hội nghị web** này có một cộng đồng nhà p
 [WordPress][2] là một trong những nền tảng blog nguồn mở  **hàng đầu**  trong danh mục phần mềm trang web. Phần mềm nguồn mở này thân thiện với người dùng ngay cả một nhà phát triển web cấp độ mới bắt đầu có thể thực hiện việc xây dựng trang web và khởi chạy nó. Ngoài ra, WordPress có thể cấu hình cao và bạn có thể tùy chỉnh nó theo yêu cầu kinh doanh của bạn. Trên hết, nó có một [Marketplace][11] lớn, nơi bạn có thể tìm thấy một số plugin.
 Phần mềm blog  **này**  đi kèm với các khả năng tự lưu trữ và có sẵn hỗ trợ hoàn toàn cho nhiều ngôn ngữ. Hơn nữa, có các số liệu thống kê rất tốt trên [GitHub][12] của nó và bạn có thể tải xuống mã nguồn và thiết lập nó dễ dàng. Hơn nữa, bạn có thể cài đặt một plugin cho bất kỳ chức năng nào trong trang web WordPress của bạn. Trong thực tế, bạn có thể tìm thấy các plugin cho các trang web thuộc bất kỳ danh mục nào. Nó chủ yếu được viết bằng PHP và bạn có thể tìm thấy các hướng dẫn đầy đủ về phát triển, triển khai và sử dụng.
 
-##** Cách cài đặt Plugin BigBluebutton trong WordPress?
+## ** Cách cài đặt Plugin BigBluebutton trong WordPress?
 Phần này sẽ trình bày cách  **cài đặt phần mềm hội nghị web trên trang web WordPress** . Ngoài ra, chúng tôi cũng sẽ khám phá plugin BigBluebutton hơn một chút. Trước khi di chuyển xa hơn, hãy đảm bảo bạn đã cài đặt WordPress trên máy của mình và có một trang web kinh doanh lên và chạy.
 Vui lòng truy cập [Liên kết][2] này trong trường hợp bạn chưa cài đặt WordPress, bạn có thể tìm thấy các hướng dẫn cài đặt hoàn chỉnh.
 Hãy bắt đầu quá trình cài đặt của BigBluebutton [plugin][13] trên WordPress.

@@ -49,13 +49,13 @@ Wenn ein Entwickler eine Pull -Anfrage eröffnet, ist alles, was er an einen and
 ## beliebte Verzweigungsmodelle   {#Model}
 Es gibt eine Reihe von Verzweigungsworkflows, die von der Entwicklergemeinschaft weltweit verwendet werden. Wir werden jedoch die drei beliebtesten Verzweigungsmodelle nacheinander diskutieren
 
-### Git Flow
+## # Git Flow
 GitFlow Workflow ist ein Git -Workflow, der bei der kontinuierlichen Softwareentwicklung und der Implementierung von DevOps -Praktiken hilft. Der Git -Fluss ist der bekannteste Workflow auf dieser Liste. Es wurde von [Vincent Driessen im Jahr 2010][7] erstellt und basiert auf zwei Hauptzweigen mit einer unendlichen Lebensdauer, zusammen mit anderen unterstützenden Zweigen wie Merkmalen-\*, Hotfixes-\*, die dann als individuell in den Entwicklungszweig in den Entwicklungszweig verschmelzen Artikel werden abgeschlossen.
   ***Master**  - Diese Filiale enthält Produktionscode. Der gesamte Entwicklungscode wird in den Master -Zweig zusammengefasst, sobald bereit für die Produktion gedrängt wird.
   ***entwickeln** -Diese Zweigstelle enthält Vorproduktionscode. Wenn die Funktionen fertig sind, werden sie in die Entwicklung verschmolzen.
 Gitflow ist ideal für Projekte geeignet, die einen geplanten Release -Zyklus haben. Die Git -Geschichte wird jedoch unlesbar.
 
-### Github Flow
+## # Github Flow
 Der Github -Fluss ist ein leichtgewichtiger Workflow. Es wurde 2011 von [Github][8] erstellt und konzentriert sich hauptsächlich auf das agile Modell, wo Sie nicht auf einen Release -Zyklus warten. Stattdessen drängen Sie täglich Änderungen in die Produktion, wenn die Funktionen abgeschlossen werden.
 Github Flow folgt den folgenden Prinzipien:
   * Alles in der "Master" -Ast ist bereitgestellt.
@@ -65,7 +65,7 @@ Github Flow folgt den folgenden Prinzipien:
   * Nachdem es überprüft und abgemeldet wurde, können Sie sie in den Master zusammenführen
   * Sobald es zusammengeführt und auf "Master" verschrieben wird, kann es in die Produktion eingesetzt werden.
 
-### Gitlab Flow
+## # Gitlab Flow
 Der GitLab Flow ist ein Workflow, der 2014 von GitLab erstellt wurde. Gitlab Flow ist eine einfachere Alternative zu Gitflow und kombiniert featurengesteuerte Entwicklung und Feature -Zweige mit Problemverfolgung. Der Hauptunterschied zwischen Gitlab Flow und Github Flow ist die Verwendung von Umgebungszweigen.
 Entwickler erstellen einen **entwickeln**  Zweig und machen dies zur Standardeinstellung, während Gitlab Flow sofort mit dem Hauptzweig funktioniert. Der GitLab Flow enthält mehrere Vorproduktionszweige. Und diese können verwendet werden, um das Zeug auf verschiedenen Ebenen zu testen. z. B. von der Testzweig bis zur Akzeptanz und dann von der Akzeptanz zur Produktion.
 

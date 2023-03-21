@@ -33,22 +33,22 @@ Ce logiciel CMS open source est sécurisé, flexible et offre des capacités d'a
 ## Comparaison de Joomla & Drupal   {#comp}
 Dans cette section de l'article **Joomla vs Drupal** , nous comparerons ces deux logiciels CMS open source en examinant leurs fonctionnalités et en se tenant dans la communauté. Voici les points suivants que nous couvrirons.
 
-#### Communauté
+## ## Communauté
 Une communauté qui soutient définir le succès et la portée d'un logiciel open source. Heureusement, ces deux CMS open source ont des communautés vivantes et actives qui se présentent toujours à tout problème ou communication de fonctionnalités. Joomla a 3,9 000 étoiles avec 3,3k fourches sur GitHub tandis que Drupal sécurise 3,6k d'étoiles avec 1,8k fourchettes. De plus, vous pouvez trouver une documentation complète concernant le développement et le déploiement de ces deux solutions CMS open source.
 
-#### évolutivité
+## ## évolutivité
 L'évolutivité est une autre caractéristique importante de tout logiciel open source. Drupal est plus évolutif et stable que Joomla. Drupal est livré avec une architecture droite et simple que les développeurs peuvent l'étendre avec moins d'efforts par rapport à Joomla.
 
-#### Complexité
+## ## Complexité
 Cette caractéristique compte beaucoup en ce qui concerne la popularité entre les développeurs. Selon la vue générale, Drupal semble un peu complexe par rapport à Joomla. Joomla est relativement plus facile à apprendre et les développeurs trouvent à l'aise de faire un développement ultérieur dans ce système de gestion de contenu open source.
 
-Plugins ####
+Plugins ## ## 
 En ce qui concerne les modules et les extensions, ces deux CMS open source offrent un tas de modules. Les utilisateurs peuvent choisir et personnaliser ces plugins selon leurs besoins. Cependant, Drupal a un avantage concurrentiel sur Joomla car le nombre de plugins offerts par ce système de gestion de contenu est plus élevé que Joomla.
 
-#### Tech Stack
+## ## Tech Stack
 Ces deux CMS open source sont écrites en PHP. Cependant, c'est une situation gagnant-gagnant pour le développeur PHP de faire face au même environnement de développement.
 
-#### Sécurité
+## ## Sécurité
 C'est la caractéristique la plus importante et la plus décisive tout en optant pour n'importe quel logiciel. Ces deux CMS open source sont sécurisées mais Drupal se démarque avec des méthodologies de sécurité intégrées. De plus, Drupal fournit également des instructions de sécurité pour les codeurs qui souhaitent étendre ce système de gestion de contenu open source.
 
 ## Conclusion   {#conclusion}

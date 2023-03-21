@@ -73,7 +73,7 @@ Here's an example of all the sub-components included in a responsive light-theme
 
 This example uses [color]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/colors/) (`bg-light`) and [spacing]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/) (`my-2`, `my-lg-0`, `mr-sm-0`, `my-sm-0`) utility classes.
 
-### Brand
+## # Brand
 
 The `.navbar-brand` can be applied to most elements, but an anchor works best as some elements might require utility classes or custom styles.
 
@@ -113,7 +113,7 @@ Adding images to the `.navbar-brand` will likely always require custom styles or
 {% endcapture %}
 {% include example.html content=example %}
 
-### Nav
+## # Nav
 
 Navbar navigation links build on our `.nav` options with their own modifier class and require the use of [toggler classes](#toggler) for proper responsive styling. **Navigation in navbars will also grow to occupy as much horizontal space as possible** to keep your navbar contents securely aligned.
 
@@ -200,7 +200,7 @@ You may also utilize dropdowns in your navbar nav. Dropdown menus require a wrap
 {% endcapture %}
 {% include example.html content=example %}
 
-### Forms
+## # Forms
 
 Place various form controls and components within a navbar with `.form-inline`.
 
@@ -255,7 +255,7 @@ Various buttons are supported as part of these navbar forms, too. This is also a
 {% endcapture %}
 {% include example.html content=example %}
 
-### Text
+## # Text
 
 Navbars may contain bits of text with the help of `.navbar-text`. This class adjusts vertical alignment and horizontal spacing for strings of text.
 
@@ -464,7 +464,7 @@ Navbars can utilize `.navbar-toggler`, `.navbar-collapse`, and `.navbar-expand{-
 
 For navbars that never collapse, add the `.navbar-expand` class on the navbar. For navbars that always collapse, don't add any `.navbar-expand` class.
 
-### Toggler
+## # Toggler
 
 Navbar togglers are left-aligned by default, but should they follow a sibling element like a `.navbar-brand`, they'll automatically be aligned to the far right. Reversing your markup will reverse the placement of the toggler. Below are examples of different toggle styles.
 
@@ -557,7 +557,7 @@ With a toggler on the left and brand name on the right:
 {% endcapture %}
 {% include example.html content=example %}
 
-### External content
+## # External content
 
 Sometimes you want to use the collapse plugin to trigger hidden content elsewhere on the page. Because our plugin works on the `id` and `data-target` matching, that's easily done!
 

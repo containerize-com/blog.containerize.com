@@ -14,7 +14,7 @@ La soluzione ## CMDB offre una risoluzione più rapida di incidenti, monitoraggi
 {{< figure align=center src="images/ams-1.png" alt="Soluzione di gestione patrimoniale IT">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 In questa serie di blog di software CMDB, abbiamo scritto su argomenti come [come la soluzione CMDB influenza i servizi di gestione delle risorse IT][1] e [come impostare la soluzione CMDB Ralph su LocalHost][2]. Questi articoli descrivono il ruolo della soluzione di gestione patrimoniale IT nel business e l'altro è un post sul blog di tutorial che aiuta a impostare Ralph. [Ralph][3] è un software di monitoraggio delle risorse Open Source ** che consente agli utenti di tenere traccia delle risorse fisiche e digitali con il pieno controllo e la sicurezza. È altamente estensibile e fornisce un'interfaccia riposante per applicazioni di terze parti. Questo software CMDB presenta capacità di auto-osting. Consente agli utenti di definire un flusso di lavoro per azioni interne/esterne sulle risorse. Puoi vedere approfondimenti completi sulla tua infrastruttura IT. Tuttavia, in questo post sul blog, giocheremo con Ralph per sviluppare una comprensione di base delle sue operazioni coprendo i seguenti punti.
   * **[Cos'è Ralph Dashboard?][4]**
   *[**Supporto per back office** ][5]

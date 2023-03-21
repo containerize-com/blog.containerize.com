@@ -39,19 +39,19 @@ sudo reboot
 ## ステップ2：ランプサーバーをインストールします
 Pydio Secure Enterpriseファイル共有サーバーとオープンソースのプライベートクラウドの作成方法をセットアップするには、まずランニングランプサーバーをセットアップする必要があります。既にインストールしてランプスタックを実行している場合は、この手順をスキップしてください。そうしないと、Ubuntuシステムにランプをセットアップするためにフォローイングコマンドを使用します。
 
-### PHPをインストールします
+## # PHPをインストールします
 コマンドを実行して、ubuntuまたはdebianシステムにPHPをインストールできます。
 sudo apt-getインストールpython-software-properties
 sudo add-papt-repository ppa：ondrej/php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### apache2をインストールします
+## # apache2をインストールします
 Apacheは、最も広く使用されているオープンソースWebサーバーソフトウェアです。次に、実行してubuntuにApache Webサーバーをインストールします。
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### mysqlをインストールします
+## # mysqlをインストールします
 MySQLオープンソースリレーショナルデータベース管理システムは、ランプWebアプリケーションソフトウェアスタックなどのコンポーネントです。以下で実行して、ubuntuにmysqlをインストールします。
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

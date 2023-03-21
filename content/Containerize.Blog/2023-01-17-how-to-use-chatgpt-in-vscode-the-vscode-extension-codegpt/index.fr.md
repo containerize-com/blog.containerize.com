@@ -9,7 +9,7 @@ url: /fr/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**Cet article présentera ChatGpt pour VScode. Un code de générateur de code Openai GPT est basé sur un modèle GPT-3 alimenté par l'intelligence artificielle open source.**.
+## **Cet article présentera ChatGpt pour VScode. Un code de générateur de code Openai GPT est basé sur un modèle GPT-3 alimenté par l'intelligence artificielle open source.**.
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="Code d'extension VScode gpt">}}
 

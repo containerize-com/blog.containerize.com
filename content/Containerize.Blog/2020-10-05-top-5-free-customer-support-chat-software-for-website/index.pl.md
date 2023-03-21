@@ -23,7 +23,7 @@ Korzystanie z odpowiedniego oprogramowania do czatu na żywo pomaga natychmiast 
   * [Czatmy][4]
   * [Botpress][5]
 
-##**rocket.chat** {#rocket-chat}
+## **rocket.chat** {#rocket-chat}
 Rocket.Chat to oprogramowanie do czatu internetowego**.**To całkowicie bezpłatny i samodzielny system czatu. Jest to kompleksowa platforma komunikacyjna, która zapewnia komunikację zespołową przy użyciu bezpośrednich wiadomości i komunikatów grupowych.
 Rocket.chat ma ogromną społeczność open source. W rezultacie ta**Aplikacja czatu open source**ma więcej wtyczek do dalszego zwiększenia wrażeń produktu. Pomaga zespołom w pracy zdalnie, ponieważ zapewnia narzędzia do czatu audio i wideo. Może to być tania alternatywa dla powiększenia i luzu. Oto godne uwagi funkcje tego rozwiązania czatu typu open source.
   * BYO (przynieś własny serwer)
@@ -33,7 +33,7 @@ Rocket.chat ma ogromną społeczność open source. W rezultacie ta**Aplikacja c
   * Native Cross-Platform Desktop Application
     [Czytaj więcej][6]
 
-##**Zulip** {#Zulip}
+## **Zulip** {#Zulip}
 Zulip jest jednym z najpopularniejszych**roztworów czatu open source**, który jest zgodny z modelem wątków opartym na strumieniu. W Zulip subskrybujesz strumienie zamiast kanałów, abyś powiadamiał tylko o strumieniach, którymi jesteś zainteresowany. Ta subskrypcja strumienia pomaga śledzić rozmowy później i zachować uporządkowanie.
 Ta**Aplikacja czatu open source**jest wieloplatformowa i oferuje interfejsy API do opracowania własnych integracji niestandardowych. Podobnie jak inne**oprogramowanie do czatu internetowego**, obsługuje emoji, wbudowane obrazy, wideo i podgląd tweeta. Zulip jest w 100% bezpłatny i oprogramowania typu open source. Oto najlepsze funkcje tego**oprogramowania do czatu obsługi klienta**.
   * Podgląd obrazu, wideo i tweetów wbudowanych: Zulip automatycznie generuje podgląd linków wysyłanych w rozmowach
@@ -44,7 +44,7 @@ Ta**Aplikacja czatu open source**jest wieloplatformowa i oferuje interfejsy API 
   * Aplikacje komputerowe: obsługuje wieloplatformowe aplikacje komputerowe.
     [Czytaj więcej][7]
 
-##**MASTERMIN** {#Matter najbardziej
+## **MASTERMIN** {#Matter najbardziej
 MASTERSPSOL to oprogramowanie do czatu internetowego****, które jest bardzo bezpieczne i skalowalne. Po pierwsze, jest uważany za alternatywę dla najpopularniejszych zastrzeżonych aplikacji na żywo. Po drugie, ta**Aplikacja czatu open source**jest mieszanką zarówno zespołów Slack, jak i Microsoft. Podsumowując, czyni go supersetem obu aplikacji.
 To**Rozwiązanie czatu open source**pomaga dużym firmom w konsolidacji całej swojej komunikacji. Na przykład czaty zespołowe, czaty wideo i udostępnianie dokumentów jednocześnie. Dlatego ułatwiaj wyszukiwanie i odkrywanie informacji.
 Oto niektóre z najważniejszych cech Matter
@@ -56,7 +56,7 @@ Oto niektóre z najważniejszych cech Matter
   * Solidna biblioteka API
     [Czytaj więcej][8]
 
-##**Czat** {#Lets-Chat}
+## **Czat** {#Lets-Chat}
 Chat Let to samoobsługowe**oprogramowanie do czatu obsługi klienta**dla małych zespołów. To**oprogramowanie do czatu internetowego**jest opracowywane przy użyciu Node.js i MongoDB i koncentruje się na łatwym i szybkim wdrażaniu. Możesz zainstalować go na serwerze za pomocą kilku kliknięć. Jest w 100% bezpłatny i open source z kodem źródłowym dostępnym w GitHub.
 To, co czyni Let's Chat unikalne z innego oprogramowania open source, to jego funkcje przedsiębiorstwa, takie jak LDAP i Kerberos Authentication. To**oprogramowanie do czatu obsługi klienta**jest stale aktualizowane przez zespół programistów i dodaje się coraz więcej funkcji. Oto najlepsze funkcje dostępne teraz
   * Uwierzytelnianie LDAP / Kerberos
@@ -66,7 +66,7 @@ To, co czyni Let's Chat unikalne z innego oprogramowania open source, to jego fu
   * Transkrypty / historia czatu
     [Czytaj więcej][9]
 
-##**botpress** {#botPress}
+## **botpress** {#botPress}
 Chatboty rosną w dzisiejszych czasach. Niezależnie od tego, czy używasz ich do sprzedaży, marketingu czy wsparcia, mogą być świetnym dodatkiem do twojego wirtualnego zespołu.
 Stąd Making BotPress jest jednym z najpopularniejszych oprogramowania do czatu na żywo dla stron internetowych**. Ma wizualny konstruktor konwersacji i emulator do testowania rozmów. Używa zrozumienia AI i języka naturalnego (NLU). Dlatego pozwala różnym specjalistom na połączenie swojej wiedzy w budowaniu lepszych asystentów konwersacyjnych. Stąd poprawa mocy maszyny do zrozumienia ludzi.
 Sztuczna inteligencja i uczenie maszynowe ostatnio znacznie się poprawiły. Dlatego zapotrzebowanie na oprogramowanie do rozmowy opartej na AI**Obsługa obsługi klienta**zyskało wiele poprawek. Oto godne uwagi funkcje, które oferuje BotPress.

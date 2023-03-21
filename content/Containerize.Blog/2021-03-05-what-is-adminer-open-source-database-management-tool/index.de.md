@@ -33,7 +33,7 @@ Einige grundlegende, aber wichtige Funktionen dieses Datenbankverwaltungs -Tools
   * Sie können Datenbankobjekte wie Ansichten, Auslöser, gespeicherte Prozeduren, Benutzerberechtigungen und mehr problemlos bearbeiten.
   * Der Adminer bietet auch Sicherheitsmaßnahmen gegen SQL -Injektion, Session -Diebstahl, Softwareangriffe (Cross Site Scripting) und andere Angriffe.
 
-## Adminer gegen phpmyadmin   {#Adminer}}
+## Adminer gegen phpmyadmin   {#Adminer}
 Wenn wir also darüber sprechen, was Administrator ist, wäre es interessant, den Vergleich zwischen Adminer mit PhpMyAdmin zu kennen. Wenn es darum geht, zwischen Adminer und PhpMyAdmin zu wählen, ist Adminer für die flexiblen Funktionen und die leichten Datei hochgeladen, die er bietet. In ähnlicher Weise unterstützt es im Vergleich zu PhpMyAdmin mehrere Datenbanken, darunter MySQL, SQLite und viele andere. In ähnlicher Weise ist es intuitiver und schlauer als phpmyadmin, wenn es darum geht, zusätzliche Felder hinzuzufügen, die der Administrator automatisch durchführt oder gleichzeitig mit allen Indizes manipuliert wird.
 
 ## Datenbanken mit Adminer   {#Manage} verwalten

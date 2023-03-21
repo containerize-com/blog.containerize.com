@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms']
 {{< figure align=center src="images/quorum.png" alt="Consensys Quorum">}}
 
 
-Panoramica ##
+Panoramica ## 
 Nel recente passato, abbiamo pubblicato post sul blog su alcuni argomenti relativi alla blockchain come [le 5 piattaforme blockchain open source nel 2020][1], [una guida di base su come creare un contratto Ethereum Smart][2], [come decentralizzato La tecnologia aggiorna la tua strategia aziendale][3] e [una guida per principianti per configurare il nodo Ethereum su LocalHost][4]. In questo articolo, vedremo come impostare la rete Blockchain di Consensys Quorum su LocalHost coprendo i seguenti punti.
   * **[Una breve introduzione di consenzieri Quorum][5]**
   * **[Quali sono i prerequisiti e **Procedura di installazione **?][6]** 

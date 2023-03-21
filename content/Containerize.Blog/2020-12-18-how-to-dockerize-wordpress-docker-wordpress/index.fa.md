@@ -33,11 +33,11 @@ categories: ['Blogging']
 
 ## نحوه نصب Docker Compose   {#install}
 
-### پیش نیازها
+## # پیش نیازها
 شما می توانید از Docker Compose استفاده کنید تا به راحتی وردپرس را در یک محیط جدا شده ساخته شده با ظروف داکر اجرا کنید. این راهنما نحوه استفاده از آهنگسازی برای تنظیم و اجرای وردپرس را نشان می دهد.
 Docker Compose به Docker Engine متکی است ، بنابراین مطمئن شوید که موتور Docker نصب شده است. در سیستم های دسک تاپ مانند Docker Desktop برای Mac و Windows ، Docker Compose به عنوان بخشی از آن نصب های دسک تاپ گنجانده شده است. با این حال ، ابتدا در سیستم های لینوکس ، موتور Docker را با دنبال کردن [راهنمای رسمی آنها] نصب کنید [9].
 
-### نصب را در لینوکس نصب کنید
+## # نصب را در لینوکس نصب کنید
 این دستور را برای بارگیری نسخه پایدار فعلی Docker Compose اجرا کنید:
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -51,7 +51,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-### یک dockerfile را برای وردپرس تعریف کنید
+## # یک dockerfile را برای وردپرس تعریف کنید
 اولین کاری که ما باید انجام دهیم این است که تعریف کنیم که تصویر ما چگونه در یک Dockerfile _**به نظر می رسد. این یک فایل متنی است که با منابع برنامه شما به فهرست اضافه می شود.
 ```
 FROM wordpress:php7.1-apache

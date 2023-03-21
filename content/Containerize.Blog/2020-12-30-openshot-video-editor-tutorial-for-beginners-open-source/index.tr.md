@@ -45,7 +45,7 @@ Sağ tarafta, değişiklikleri oynayabileceğiniz ve test edebileceğiniz bir pe
 
 Zaman çizelgesindeki klibi sağ tıklatırsanız ve özelliklere giderseniz, video efektleri, animasyonları ve daha fazlası ile ilgili gelişmiş seçenekleri içeren sol tarafta bir panel açılır.
 
-###### Düzenlemeyi bitirdikten sonra, videoyu üst seçenekler çubuğundaki kırmızı düğmeden dışa aktarabilir/indirebilirsiniz.
+## ## ## Düzenlemeyi bitirdikten sonra, videoyu üst seçenekler çubuğundaki kırmızı düğmeden dışa aktarabilir/indirebilirsiniz.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="OpenShot Video Editor">}}
 

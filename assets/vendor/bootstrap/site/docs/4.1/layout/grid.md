@@ -120,7 +120,7 @@ See how aspects of the Bootstrap grid system work across multiple devices with a
 
 Utilize breakpoint-specific column classes for easy column sizing without an explicit numbered class like `.col-sm-6`.
 
-### Equal-width
+## # Equal-width
 
 For example, here are two grid layouts that apply to every device and viewport, from `xs` to `xl`. Add any number of unit-less classes for each breakpoint you need and every column will be the same width.
 
@@ -168,7 +168,7 @@ Equal-width columns can be broken into multiple lines, but there was a [Safari f
 {% include example.html content=example %}
 </div>
 
-### Setting one column width
+## # Setting one column width
 
 Auto-layout for flexbox grid columns also means you can set the width of one column and have the sibling columns automatically resize around it. You may use predefined grid classes (as shown below), grid mixins, or inline widths. Note that the other columns will resize no matter the width of the center column.
 
@@ -202,7 +202,7 @@ Auto-layout for flexbox grid columns also means you can set the width of one col
 {% include example.html content=example %}
 </div>
 
-### Variable width content
+## # Variable width content
 
 Use `col-{breakpoint}-auto` classes to size columns based on the natural width of their content.
 
@@ -236,7 +236,7 @@ Use `col-{breakpoint}-auto` classes to size columns based on the natural width o
 {% include example.html content=example %}
 </div>
 
-### Equal-width multi-row
+## # Equal-width multi-row
 
 Create equal-width columns that span multiple rows by inserting a `.w-100` where you want the columns to break to a new line. Make the breaks responsive by mixing the `.w-100` with some [responsive display utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/display/).
 
@@ -257,7 +257,7 @@ Create equal-width columns that span multiple rows by inserting a `.w-100` where
 
 Bootstrap's grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
 
-### All breakpoints
+## # All breakpoints
 
 For grids that are the same from the smallest of devices to the largest, use the `.col` and `.col-*` classes. Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to `.col`.
 
@@ -277,7 +277,7 @@ For grids that are the same from the smallest of devices to the largest, use the
 {% include example.html content=example %}
 </div>
 
-### Stacked to horizontal
+## # Stacked to horizontal
 
 Using a single set of `.col-sm-*` classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (`sm`).
 
@@ -296,7 +296,7 @@ Using a single set of `.col-sm-*` classes, you can create a basic grid system th
 {% include example.html content=example %}
 </div>
 
-### Mix and match
+## # Mix and match
 
 Don't want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier as needed. See the example below for a better idea of how it all works.
 
@@ -328,7 +328,7 @@ Don't want your columns to simply stack in some grid tiers? Use a combination of
 
 Use flexbox alignment utilities to vertically and horizontally align columns.
 
-### Vertical alignment
+## # Vertical alignment
 
 <div class="bd-example-row bd-example-row-flex-cols">
 {% capture example %}
@@ -390,7 +390,7 @@ Use flexbox alignment utilities to vertically and horizontally align columns.
 {% include example.html content=example %}
 </div>
 
-### Horizontal alignment
+## # Horizontal alignment
 
 <div class="bd-example-row">
 {% capture example %}
@@ -440,7 +440,7 @@ Use flexbox alignment utilities to vertically and horizontally align columns.
 {% include example.html content=example %}
 </div>
 
-### No gutters
+## # No gutters
 
 The gutters between columns in our predefined grid classes can be removed with `.no-gutters`. This removes the negative `margin`s from `.row` and the horizontal `padding` from all immediate children columns.
 
@@ -473,7 +473,7 @@ In practice, here's how it looks. Note you can continue to use this with all oth
 {% include example.html content=example %}
 </div>
 
-### Column wrapping
+## # Column wrapping
 
 If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.
 
@@ -488,7 +488,7 @@ If more than 12 columns are placed within a single row, each group of extra colu
 {% include example.html content=example %}
 </div>
 
-### Column breaks
+## # Column breaks
 
 Breaking columns to a new line in flexbox requires a small hack: add an element with `width: 100%` wherever you want to wrap your columns to a new line. Normally this is accomplished with multiple `.row`s, but not every implementation method can account for this.
 
@@ -528,7 +528,7 @@ You may also apply this break at specific breakpoints with our [responsive displ
 
 ## Reordering
 
-### Order classes
+## # Order classes
 
 Use `.order-` classes for controlling the **visual order** of your content. These classes are responsive, so you can set the `order` by breakpoint (e.g., `.order-1.order-md-2`). Includes support for `1` through `12` across all five grid tiers.
 
@@ -572,11 +572,11 @@ There are also responsive `.order-first` and `.order-last` classes that change t
 {% include example.html content=example %}
 </div>
 
-### Offsetting columns
+## # Offsetting columns
 
 You can offset grid columns in two ways: our responsive `.offset-` grid classes and our [margin utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/). Grid classes are sized to match columns while margins are more useful for quick layouts where the width of the offset is variable.
 
-#### Offset classes
+## ## Offset classes
 
 Move columns to the right using `.offset-md-*` classes. These classes increase the left margin of a column by `*` columns. For example, `.offset-md-4` moves `.col-md-4` over four columns.
 
@@ -614,7 +614,7 @@ In addition to column clearing at responsive breakpoints, you may need to reset 
 {% include example.html content=example %}
 </div>
 
-#### Margin utilities
+## ## Margin utilities
 
 With the move to flexbox in v4, you can use margin utilities like `.mr-auto` to force sibling columns away from one another.
 
@@ -663,7 +663,7 @@ To nest your content with the default grid, add a new `.row` and set of `.col-sm
 
 When using Bootstrap's source Sass files, you have the option of using Sass variables and mixins to create custom, semantic, and responsive page layouts. Our predefined grid classes use these same variables and mixins to provide a whole suite of ready-to-use classes for fast responsive layouts.
 
-### Variables
+## # Variables
 
 Variables and maps determine the number of columns, the gutter width, and the media query point at which to begin floating columns. We use these to generate the predefined grid classes documented above, as well as for the custom mixins listed below.
 
@@ -692,7 +692,7 @@ $container-max-widths: (
 );
 {% endhighlight %}
 
-### Mixins
+## # Mixins
 
 Mixins are used in conjunction with the grid variables to generate semantic CSS for individual grid columns.
 
@@ -708,7 +708,7 @@ Mixins are used in conjunction with the grid variables to generate semantic CSS 
 @include make-col-offset($size, $columns: $grid-columns);
 {% endhighlight %}
 
-### Example usage
+## # Example usage
 
 You can modify the variables to your own custom values, or just use the mixins with their default values. Here's an example of using the default settings to create a two-column layout with a gap between.
 
@@ -759,7 +759,7 @@ You can modify the variables to your own custom values, or just use the mixins w
 
 Using our built-in grid Sass variables and maps, it's possible to completely customize the predefined grid classes. Change the number of tiers, the media query dimensions, and the container widths—then recompile.
 
-### Columns and gutters
+## # Columns and gutters
 
 The number of grid columns can be modified via Sass variables. `$grid-columns` is used to generate the widths (in percent) of each individual column while `$grid-gutter-width` sets the width for the column gutters.
 
@@ -768,7 +768,7 @@ $grid-columns: 12 !default;
 $grid-gutter-width: 30px !default;
 {% endhighlight %}
 
-### Grid tiers
+## # Grid tiers
 
 Moving beyond the columns themselves, you may also customize the number of grid tiers. If you wanted just four grid tiers, you'd update the `$grid-breakpoints` and `$container-max-widths` to something like this:
 

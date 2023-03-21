@@ -38,7 +38,7 @@ Thực hiện theo hướng dẫn từng bước dưới đây để cài đặt
 sudo apt-get update
 ```
 
-### Cài đặt máy chủ cơ sở dữ liệu Mariadb
+## # Cài đặt máy chủ cơ sở dữ liệu Mariadb
   * Chạy lệnh để cài đặt Mariadb.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### Cài đặt Ruby
+## # Cài đặt Ruby
   * Đầu tiên, thêm PPA của bên thứ ba để cài đặt Ruby. Chạy các lệnh sau.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### Cài đặt Rabbitmq
+## # Cài đặt Rabbitmq
   * Erlang được yêu cầu cài đặt RabbitMQ, vì vậy, bạn cũng cần cài đặt nó. Thêm khóa kho Erlang vào Ubuntu với lệnh bên dưới.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### Cài đặt NodeJS
+## # Cài đặt NodeJS
   * Thêm kho lưu trữ NodeJS với lệnh sau.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### Cài đặt máy chủ thư bưu điện
+## # Cài đặt máy chủ thư bưu điện
   * Đầu tiên, bạn cần tạo người dùng cho máy chủ thư bưu chính. Tạo nó với lệnh sau.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### Cài đặt nginx
+## # Cài đặt nginx
   * Chạy lệnh bên dưới để cài đặt máy chủ web nginx.
 ```
 sudo apt install nginx

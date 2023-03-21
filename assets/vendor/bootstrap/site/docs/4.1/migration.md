@@ -10,7 +10,7 @@ toc: true
 
 Moving from Beta 3 to our stable v4.0 release, there are no breaking changes, but there are some notable changes.
 
-### Printing
+## # Printing
 - Fixed broken print utilities. Previously, using a `.d-print-*` class would unexpectedly overrule any other `.d-*` class. Now, they match our other display utilities and only apply to that media (`@media print`).
 
 - Expanded available print display utilities to match other utilities. Beta 3 and older only had `block`, `inline-block`, `inline`, and `none`. Stable v4 added `flex`, `inline-flex`, `table`, `table-row`, and `table-cell`.
@@ -21,12 +21,12 @@ Moving from Beta 3 to our stable v4.0 release, there are no breaking changes, bu
 
 While Beta 2 saw the bulk of our breaking changes during the beta phase, but we still have a few that needed to be addressed in the Beta 3 release. These changes apply if you're updating to Beta 3 from Beta 2 or any older version of Bootstrap.
 
-### Miscellaneous
+## # Miscellaneous
 
 - Removed the unused `$thumbnail-transition` variable. We weren't transitioning anything, so it was just extra code.
 - The npm package no longer includes any files other than our source and dist files; if you relied on them and were running our scripts via the `node_modules` folder, you should adapt your workflow.
 
-### Forms
+## # Forms
 
 - Rewrote both custom and default checkboxes and radios. Now, both have matching HTML structure (outer `<div>` with sibling `<input>` and `<label>`) and the same layout styles (stacked default, inline with modifier class). This allows us to style the label based on the input's state, simplifying support for the `disabled` attribute (previously requiring a parent class) and better supporting our form validation.
 
@@ -40,7 +40,7 @@ While Beta 2 saw the bulk of our breaking changes during the beta phase, but we 
 
 - Custom file inputs received a change to their `$custom-file-text` Sass variable. It's no longer a nested Sass map and now only powers one string—the `Browse` button as that is now the only pseudo-element generated from our Sass. The `Choose file` text now comes from the `.custom-file-label`.
 
-### Input groups
+## # Input groups
 
 - Input group addons are now specific to their placement relative to an input. We've dropped `.input-group-addon` and `.input-group-btn` for two new classes, `.input-group-prepend` and `.input-group-append`. You must explicitly use an append or a prepend now, simplifying much of our CSS. Within an append or prepend, place your buttons as they would exist anywhere else, but wrap text in `.input-group-text`.
 
@@ -52,7 +52,7 @@ While Beta 2 saw the bulk of our breaking changes during the beta phase, but we 
 
 While in beta, we aim to have no breaking changes. However, things don't always go as planned. Below are the breaking changes to bear in mind when moving from Beta 1 to Beta 2.
 
-### Breaking
+## # Breaking
 
 - Removed `$badge-color` variable and its usage on `.badge`. We use a color contrast function to pick a `color` based on the `background-color`, so the variable is unnecessary.
 - Renamed `grayscale()` function to `gray()` to avoid breaking conflict with the CSS native `grayscale` filter.
@@ -63,7 +63,7 @@ While in beta, we aim to have no breaking changes. However, things don't always 
 - Removed the unused `.form-control-label` class. If you did make use of this class, it was duplicate of the `.col-form-label` class that vertically centered a `<label>` with it's associated input in horizontal form layouts.
 - Changed the `color-yiq` from a mixin that included the `color` property to a function that returns a value, allowing you to use it for any CSS property. For example, instead of `color-yiq(#000)`, you'd write `color: color-yiq(#000);`.
 
-### Highlights
+## # Highlights
 
 - Introduced new `pointer-events` usage on modals. The outer `.modal-dialog` passes through events with `pointer-events: none` for custom click handling (making it possible to just listen on the `.modal-backdrop` for any clicks), and then counteracts it for the actual `.modal-content` with `pointer-events: auto`.
 
@@ -72,12 +72,12 @@ While in beta, we aim to have no breaking changes. However, things don't always 
 
 Here are the big ticket items you'll want to be aware of when moving from v3 to v4.
 
-### Browser support
+## # Browser support
 
 - Dropped IE8, IE9, and iOS 6 support. v4 is now only IE10+ and iOS 7+. For sites needing either of those, use v3.
 - Added official support for Android v5.0 Lollipop's Browser and WebView. Earlier versions of the Android Browser and WebView remain only unofficially supported.
 
-### Global changes
+## # Global changes
 
 - **Flexbox is enabled by default.** In general this means a move away from floats and more across our components.
 - Switched from [Less](http://lesscss.org/) to [Sass](https://sass-lang.com/) for our source CSS files.
@@ -90,7 +90,7 @@ Here are the big ticket items you'll want to be aware of when moving from v3 to 
 - Dropped the online Customizer in favor of more extensive setup documentation and customized builds.
 - Added dozens of new [utility classes]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/) for common CSS property-value pairs and margin/padding spacing shortcuts.
 
-### Grid system
+## # Grid system
 
 - **Moved to flexbox.**
   - Added support for flexbox in the grid mixins and predefined classes.
@@ -105,7 +105,7 @@ Here are the big ticket items you'll want to be aware of when moving from v3 to 
   - Grid breakpoints and container widths are now handled via Sass maps (`$grid-breakpoints` and `$container-max-widths`) instead of a handful of separate variables. These replace the `@screen-*` variables entirely and allow you to fully customize the grid tiers.
   - Media queries have also changed. Instead of repeating our media query declarations with the same value each time, we now have `@include media-breakpoint-up/down/only`. Now, instead of writing `@media (min-width: @screen-sm-min) { ... }`, you can write `@include media-breakpoint-up(sm) { ... }`.
 
-### Components
+## # Components
 
 - **Dropped panels, thumbnails, and wells** for a new all-encompassing component, [cards]({{ site.baseurl }}/docs/{{ site.docs_version }}/components/card/).
 - **Dropped the Glyphicons icon font.** If you need icons, some options are:
@@ -123,11 +123,11 @@ Here are the big ticket items you'll want to be aware of when moving from v3 to 
 
 This list highlights key changes by component between v3.x.x and v4.0.0.
 
-### Reboot
+## # Reboot
 
 New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version }}/content/reboot/), a new stylesheet that builds on Normalize with our own somewhat opinionated reset styles. Selectors appearing in this file only use elements—there are no classes here. This isolates our reset styles from our component styles for a more modular approach. Some of the most important resets this includes are the `box-sizing: border-box` change, moving from `em` to `rem` units on many elements, link styles, and many form element resets.
 
-### Typography
+## # Typography
 
 - Moved all `.text-` utilities to the `_utilities.scss` file.
 - Dropped `.page-header` as its styles can be applied via utilities.
@@ -135,13 +135,13 @@ New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version 
 - Redesigned blockquotes, moving their styles from the `<blockquote>` element to a single class, `.blockquote`. Dropped the `.blockquote-reverse` modifier for text utilities.
 - `.list-inline` now requires that its children list items have the new `.list-inline-item` class applied to them.
 
-### Images
+## # Images
 
 - Renamed `.img-responsive` to `.img-fluid`.
 - Renamed `.img-rounded` to `.rounded`
 - Renamed `.img-circle` to `.rounded-circle`
 
-### Tables
+## # Tables
 
 - Nearly all instances of the `>` selector have been removed, meaning nested tables will now automatically inherit styles from their parents. This greatly simplifies our selectors and potential customizations.
 - Renamed `.table-condensed` to `.table-sm` for consistency.
@@ -149,7 +149,7 @@ New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version 
 - Added table header modifiers: `.thead-default` and `.thead-inverse`.
 - Renamed contextual classes to have a `.table-`-prefix. Hence `.active`, `.success`, `.warning`, `.danger` and `.info` to `.table-active`, `.table-success`, `.table-warning`, `.table-danger` and `.table-info`.
 
-### Forms
+## # Forms
 
 - Moved element resets to the `_reboot.scss` file.
 - Renamed `.control-label` to `.col-form-label`.
@@ -167,7 +167,7 @@ New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version 
 - Replaced `.has-error`, `.has-warning`, and `.has-success` classes with HTML5 form validation via CSS's `:invalid` and `:valid` pseudo-classes.
 - Renamed `.form-control-static` to `.form-control-plaintext`.
 
-### Buttons
+## # Buttons
 
 - Renamed `.btn-default` to `.btn-secondary`.
 - Dropped the `.btn-xs` class entirely as `.btn-sm` is proportionally much smaller than v3's.
@@ -175,7 +175,7 @@ New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version 
   - Note that the other features of the plugin (button checkboxes, button radios, single-toggle buttons) have been retained in v4.
 - Change buttons' `[disabled]` to `:disabled` as IE9+ supports `:disabled`. However `fieldset[disabled]` is still necessary because [native disabled fieldsets are still buggy in IE11](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset#Browser_compatibility).
 
-### Button group
+## # Button group
 
 - Rewrote component with flexbox.
 - Removed `.btn-group-justified`. As a replacement you can use `<div class="btn-group d-flex" role="group"></div>` as a wrapper around elements with `.w-100`.
@@ -183,7 +183,7 @@ New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version 
 - Removed explicit spacing between button groups in button toolbars; use margin utilities now.
 - Improved documentation for use with other components.
 
-### Dropdowns
+## # Dropdowns
 
 - Switched from parent selectors to singular classes for all components, modifiers, etc.
 - Simplified dropdown styles to no longer ship with upward or downward facing arrows attached to the dropdown menu.
@@ -193,32 +193,32 @@ New to Bootstrap 4 is the [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version 
 - Dropdown items now require `.dropdown-item`.
 - Dropdown toggles no longer require an explicit `<span class="caret"></span>`; this is now provided automatically via CSS's `::after` on `.dropdown-toggle`.
 
-### Grid system
+## # Grid system
 
 - Added a new `576px` grid breakpoint as `sm`, meaning there are now five total tiers (`xs`, `sm`, `md`, `lg`, and `xl`).
 - Renamed the responsive grid modifier classes from `.col-{breakpoint}-{modifier}-{size}` to `.{modifier}-{breakpoint}-{size}` for simpler grid classes.
 - Dropped push and pull modifier classes for the new flexbox-powered `order` classes. For example, instead of `.col-8.push-4` and `.col-4.pull-8`, you'd use `.col-8.order-2` and `.col-4.order-1`.
 - Added flexbox utility classes for grid system and components.
 
-### List groups
+## # List groups
 
 - Rewrote component with flexbox.
 - Replaced `a.list-group-item` with an explicit class, `.list-group-item-action`, for styling link and button versions of list group items.
 - Added `.list-group-flush` class for use with cards.
 
-### Modal
+## # Modal
 
 - Rewrote component with flexbox.
 - Given move to flexbox, alignment of dismiss icons in the header is likely broken as we're no longer using floats. Floated content comes first, but with flexbox that's no longer the case. Update your dismiss icons to come after modal titles to fix.
 - The `remote` option (which could be used to automatically load and inject external content into a modal) and the corresponding `loaded.bs.modal` event were removed. We recommend instead using client-side templating or a data binding framework, or calling [jQuery.load](https://api.jquery.com/load/) yourself.
 
-### Navs
+## # Navs
 
 - Rewrote component with flexbox.
 - Dropped nearly all `>` selectors for simpler styling via un-nested classes.
 - Instead of HTML-specific selectors like `.nav > li > a`, we use separate classes for `.nav`s, `.nav-item`s, and `.nav-link`s. This makes your HTML more flexible while bringing along increased extensibility.
 
-### Navbar
+## # Navbar
 
 The navbar has been entirely rewritten in flexbox with improved support for alignment, responsiveness, and customization.
 
@@ -231,28 +231,28 @@ The navbar has been entirely rewritten in flexbox with improved support for alig
 - Navbars no longer include `margin-bottom` or `border-radius` by default. Use utilities as necessary.
 - All examples featuring navbars have been updated to include new markup.
 
-### Pagination
+## # Pagination
 
 - Rewrote component with flexbox.
 - Explicit classes (`.page-item`, `.page-link`) are now required on the descendants of `.pagination`s
 - Dropped the `.pager` component entirely as it was little more than customized outline buttons.
 
-### Breadcrumbs
+## # Breadcrumbs
 
 - An explicit class, `.breadcrumb-item`, is now required on the descendants of `.breadcrumb`s
 
-### Labels and badges
+## # Labels and badges
 
 - Consolidated `.label` and `.badge` to disambiguate from the `<label>` element and simplify related components.
 - Added `.badge-pill` as modifier for rounded "pill" look.
 - Badges are no longer floated automatically in list groups and other components. Utility classes are now required for that.
 - `.badge-default` has been dropped and `.badge-secondary` added to match component modifier classes used elsewhere.
 
-### Panels, thumbnails, and wells
+## # Panels, thumbnails, and wells
 
 Dropped entirely for the new card component.
 
-### Panels
+## # Panels
 
 - `.panel` to `.card`, now built with flexbox.
 - `.panel-default` removed and no replacement.
@@ -263,12 +263,12 @@ Dropped entirely for the new card component.
 - `.panel-footer` to `.card-footer`
 - `.panel-primary`, `.panel-success`, `.panel-info`, `.panel-warning`, and `.panel-danger` have been dropped for `.bg-`, `.text-`, and `.border` utilities generated from our `$theme-colors` Sass map.
 
-### Progress
+## # Progress
 
 - Replaced contextual `.progress-bar-*` classes with `.bg-*` utilities. For example, `class="progress-bar progress-bar-danger"` becomes `class="progress-bar bg-danger"`.
 - Replaced `.active` for animated progress bars with `.progress-bar-animated`.
 
-### Carousel
+## # Carousel
 
 - Overhauled the entire component to simplify design and styling. We have fewer styles for you to override, new indicators, and new icons.
 - All CSS has been un-nested and renamed, ensuring each class is prefixed with `.carousel-`.
@@ -279,12 +279,12 @@ Dropped entirely for the new card component.
 - Removed image overrides for images in carousel items, deferring to utilities.
 - Tweaked the Carousel example to include the new markup and styles.
 
-### Tables
+## # Tables
 
 - Removed support for styled nested tables. All table styles are now inherited in v4 for simpler selectors.
 - Added inverse table variant.
 
-### Utilities
+## # Utilities
 
 - **Display, hidden, and more:**
   - Made display utilities responsive (e.g., `.d-none` and `d-{sm,md,lg,xl}-none`).
@@ -298,7 +298,7 @@ Dropped entirely for the new card component.
   - Dropped `.center-block` for the new `.mx-auto` class.
 - Clearfix updated to drop support for older browser versions.
 
-### Vendor prefix mixins
+## # Vendor prefix mixins
 
 Bootstrap 3's [vendor prefix](https://www.thoughtco.com/css-vendor-prefixes-3466867) mixins, which were deprecated in v3.2.0, have been removed in Bootstrap 4. Since we use [Autoprefixer](https://github.com/postcss/autoprefixer), they're no longer necessary.
 
@@ -317,7 +317,7 @@ Our documentation received an upgrade across the board as well. Here's the low d
 - Pages have been reorganized for simpler content and a more approachable hierarchy.
 - We moved from regular CSS to SCSS to take full advantage of Bootstrap's variables, mixins, and more.
 
-### Responsive utilities
+## # Responsive utilities
 
 All `@screen-` variables have been removed in v4.0.0. Use the `media-breakpoint-up()`, `media-breakpoint-down()`, or `media-breakpoint-only()` Sass mixins or the `$grid-breakpoints` Sass map instead.
 

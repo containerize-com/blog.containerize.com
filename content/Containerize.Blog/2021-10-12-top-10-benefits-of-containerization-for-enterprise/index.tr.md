@@ -26,34 +26,34 @@ Docker, kapsayıcıların yardımıyla uygulama dağıtımlarını kolaylaştır
 ## Konteynerizasyonun faydaları   {#benefits}
 Bu bölümde, konteynerizasyonun en iyi faydalarından bazılarını araştıracağız.
 
-### Hızlı Dağıtımlar
+## # Hızlı Dağıtımlar
 Geleneksel uygulama dağıtım yöntemlerinde, geliştiricilerin yazılımın çalışacağı ortamla ilgili ciddi düşünceler yapmaları gerekir. Başarılı dağıtımdan emin olmak için gerekli tüm yapılandırmaları ve bağımlılıkları manuel olarak ayarlamaları gerekir. Konteynerizasyon bu yükü kaldırdı ve dağıtım formalitelerini ele alma sorumluluğunu üstlendi.
 
-### İzolasyon
+## # İzolasyon
 Her bir kapta çalışan uygulamalar birbirinden habersiz olduğu ve birbirinden habersiz olduğu için konteynerizasyonun en büyük yararıdır. Kendi kaynaklarını bağımsız olarak kullanırlar ve bu nedenle en üst düzeyde güvenlik ve güvenilirliği elde ederler.
 
-### **Tutarlılık**
+## # **Tutarlılık**
 Bir Docker görüntüsü tüm yazılım bağımlılıklarını içerir ve birden çok platformda tutarlı bir ortam oluşturmayı sağlar. Ya bir geliştiricinin makinesi ya da bulutta bir üretim makinesidir, konteynerizasyon, uygulama dağıtımının tutarlı bir davranışını veren tesislerle birlikte gelir.
 
-### Ölçeklenebilirlik
+## # Ölçeklenebilirlik
 **Konteyner Yazılımı**  Geliştiricilerin tüm altyapıyı etkilemeden uygulamaları ölçeklendirmelerine olanak tanır. Yazılım geliştiricileri mevcut altyapıyı yeniden yapılandırabilir veya kaynakları geliştirmek için daha fazla kap ekleyebilir. Uygulamaları ölçeklendirme süreçleri, geliştiricilerin diğer önemli gelişmelere odaklanmasına izin veren daha az çaba gerektirir.
 
-### Daha iyi güvenlik
+## # Daha iyi güvenlik
 Bir ağda çalışan tüm kaplar arasında tam bir izolasyon olduğundan, böylece her kap kendi güvenlik katmanını içerir. Bununla birlikte, bellek, depolama, CPU ve diğer ağ kaynakları gibi uygulamalar arasında herhangi bir kaynak çatışmasının risk faktörünü azaltır.
 
-### Taşınabilirlik
+## # Taşınabilirlik
 Bu, konteynerizasyonun diğer faydaları arasında bir başka önemli faydadır. Konteynerizasyon, uygulamaları platformdan bağımsız oldukları için son derece taşınabilir hale getirir. Geliştiriciler, ana bilgisayar işletim sisteminden gelen konteynerler soyut uygulamaları nedeniyle kapsayıcı uygulamayı herhangi bir platformda kolayca ayarlayabilir.
 
-### **Maliyet etkin** 
+## # **Maliyet etkin** 
 Konteyner düzenleme araçları ve konteyner yazılımı ücretsiz ve açık kaynaktır. Canlı ve canlı olan güçlü toplulukları var. Bu araçları öğrenmek zor değildir ve uygulama dağıtımlarını en kısa sürede kolaylaştıran birçok hizmet mevcuttur.
 
-### Verimlilik
+## # Verimlilik
 Ücretsiz konteyner yazılımı, dağıtım işlemlerini otomatikleştirerek bir sürü üretkenlik getirir. Buna ek olarak, üretimde herhangi bir kesinti veya yanlış kullanma varsa, bu amaç için izleme araçları mevcuttur. Yazılım geliştiricileri yazılımı bir pakette paketleyebilir ve herhangi bir platformda doğrudan paylaşabilir ve çalıştırabilir.
 
-### Tekrar Kullanılabilirlik
+## # Tekrar Kullanılabilirlik
 Konteynerizasyon, yeniden kullanılabilirlik hükümleri olan kullanıcıları kolaylaştırır. Geliştiriciler, tüm platformlar için iş uygulamasının kodunu bir kez yazarlar. Farklı platformlar için farklı kaynak kodları yazmaları gerekmez.
 
-### Toplum
+## # Toplum
 Bu konteynerizasyonun bir başka büyük artı. Topluluk tarafından büyük bir destek var ve kullanıcılar herhangi bir düzeyde rehberlik isteyebilir. Her şeyden önce, kullanıcıların Containerize uygulamaları ve hizmetlerini oluşturabileceği, paylaşabileceği ve çekebileceği [Docker Hub][5] adlı bir alan vardır.
 
 ## final açıklamaları   {#final}

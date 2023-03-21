@@ -31,7 +31,7 @@ Nó cũng rất quan trọng cần lưu ý rằng việc nén GZIP phải đư�
 GZIP, phương pháp nén phổ biến nhất, được sử dụng bởi các máy chủ và trình duyệt web để nén và giải nén nội dung khi nó truyền qua Internet. Nó được sử dụng chủ yếu trên các tệp mã và văn bản, GZIP có thể giảm kích thước của các tệp JavaScript, CSS và HTML lên tới 90%. Theo mặc định, nén GZIP không nén hình ảnh hoặc video. Đối với điều đó, bạn sẽ cần tối ưu hóa hình ảnh cho web trên trang web WordPress của bạn. Đây là lý do tại sao hầu hết các công cụ kiểm tra tốc độ trang web như Google Pagespeed Insights rất khuyến khích cho phép nén GZIP.
 Khi một máy chủ web nhận được yêu cầu cho một trang web, máy chủ web sẽ kiểm tra tiêu đề của yêu cầu kiểm tra xem trình duyệt có hỗ trợ GZIP không. Nếu vậy, máy chủ tạo ra đánh dấu cho trang trước khi áp dụng GZIP. GZIP chuyển đổi đánh dấu HTML thành dữ liệu được nén sau đó được gửi cho người dùng cuối. Khi người dùng cuối nhận được dữ liệu nén, trình duyệt của họ đã giải nén nó.
 
-##**Cách xác minh xem nén gzip có được bật không?** {#verify}
+## **Cách xác minh xem nén gzip có được bật không?** {#verify}
 Máy chủ web của bạn có thể kích hoạt nén trong WordPress theo mặc định. Tuy nhiên, đây không phải là trường hợp. Bạn có thể xác định để xem bạn đã bật nén GZIP bằng cách sử dụng Chrome, devtools.
 Mở trang web của bạn trong trình duyệt Chrome, sau đó nhấp chuột phải vào bất cứ đâu trên trang và chọn**Kiểm tra**để**Mở các công cụ nhà phát triển**.
 Tiếp theo, điều hướng đến tab**mạng**và nhấp vào URL chính của trang web từ phần Tên tên. Chọn tab**tiêu đề**, sau đó cuộn xuống để tìm phần**tiêu đề phản hồi**:
@@ -43,7 +43,7 @@ Tiếp theo, điều hướng đến tab**mạng**và nhấp vào URL chính c�
 ## Bật nén GZIP trong WordPress   {#Enable}
 Nếu bạn đã xác định rằng việc nén WordPress Gzip chưa được bật**, có nhiều phương thức bạn có thể sử dụng để chạy nó. Cách dễ nhất là sử dụng một số plugin WordPress như [WP Rocket][6], [WP Super Cache][7] hoặc [W3 Total Cache][8]. Tuy nhiên, bạn có thể thực hiện thủ công điều này ở cấp độ máy chủ bằng tệp .htaccess hoặc bằng cách cập nhật cấu hình nginx của bạn.
 
-### bằng cách chỉnh sửa tệp .htaccess
+## # bằng cách chỉnh sửa tệp .htaccess
 Một trong những cách phổ biến nhất để kích hoạt nén WordPress Gzip là**Chỉnh sửa tệp _.htaccess_ của bạn**. Tuy nhiên, điều này liên quan đến nguy cơ phá vỡ một cái gì đó. Đây là một tệp máy chủ nhạy cảm và một động tác sai có thể gây ra nhiều vấn đề.
 Để giảm rủi ro, hãy chắc chắn**Lưu một bản sao của tệp gốc**trước khi thực hiện bất kỳ thay đổi nào. Tệp _.htaccess_ phải có trong thư mục gốc**của trang web của bạn**. Sau khi bạn mở _.htaccess_, thêm mã sau bên dưới các phần được đánh dấu bởi các thẻ `# bắt đầu wordpress` và`# end wordpress`
 ```

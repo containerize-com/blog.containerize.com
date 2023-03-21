@@ -29,7 +29,7 @@ Trên thực tế, JavaScript là một ngôn ngữ được gõ lỏng lẻo, �
 {{< figure align=center src="images/web-development.png" alt="Hướng dẫn của người mới bắt đầu JavaScript">}}
 
 
-#### Kiểu dữ liệu nguyên thủy
+## ## Kiểu dữ liệu nguyên thủy
 Các loại dữ liệu nguyên thủy là những loại dữ liệu bất biến và không thể thay đổi sau khi tạo và khởi tạo. Tuy nhiên, bạn có thể gán lại một giá trị mới nhưng không thể thay đổi giá trị hiện có.
 Ví dụ:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 Trong ví dụ trên, chuỗi là một loại dữ liệu nguyên thủy và giá trị cũ đang được thay thế bằng giá trị mới nhưng sự thay đổi trong giá trị hiện tại không được phản ánh. Vì vậy, chúng ta có thể thấy nó vẫn còn là tên của tôi, tên của tôi được thay đổi không phải là tên của tôi được thay đổi;
 
-#### Kiểu dữ liệu không nguyên thủy
+## ## Kiểu dữ liệu không nguyên thủy
 Các loại dữ liệu không định tuyến là có thể thay đổi, trong các từ đơn giản đối diện với các loại dữ liệu nguyên thủy.
 Ví dụ:
 ```

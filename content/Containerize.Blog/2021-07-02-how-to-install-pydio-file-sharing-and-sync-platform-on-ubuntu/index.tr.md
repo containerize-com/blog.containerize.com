@@ -39,19 +39,19 @@ sudo reboot
 ## Adım 2: Lamba Sunucusunu Yükle
 Pydio Secure Enterprise Dosya Paylaşım Sunucusunu ve Açık Kaynak Özel Bulutun Nasıl Oluşturulacağını Kurmak için önce çalışan bir lamba sunucusu oluşturmamız gerekir. Zaten lamba yığınını takmış ve çalıştırmışsanız, bu adımı atlayın, aksi takdirde lambayı Ubuntu sisteminizde ayarlamak için takip komutlarını kullanın.
 
-### PHP'yi yükle
+## # PHP'yi yükle
 Komutları çalıştırarak Ubuntu veya Debian sisteminize PHP yükleyebilirsiniz:
 sudo apt-get install python-software properties
 sudo add -t-repository ppa: ondrej/php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### Apache2'yi kurun
+## # Apache2'yi kurun
 Apache en çok kullanılan açık kaynaklı web sunucusu yazılımıdır. Ardından, çalışarak Apache web sunucusunu Ubuntu'ya yükleyin:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### MySQL'i kurun
+## # MySQL'i kurun
 MySQL Açık kaynaklı ilişkisel veritabanı yönetim sistemi, lamba web uygulama yazılımı yığınının ve diğerlerinin bir bileşenidir. Şimdi aşağıda çalışarak MySQL'i Ubuntu'ya yükleme:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

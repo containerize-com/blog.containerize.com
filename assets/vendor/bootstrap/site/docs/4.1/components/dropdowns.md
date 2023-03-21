@@ -26,7 +26,7 @@ However, Bootstrap does add built-in support for most standard keyboard menu int
 
 Wrap the dropdown's toggle (your button or link) and the dropdown menu within `.dropdown`, or another element that declares `position: relative;`. Dropdowns can be triggered from `<a>` or `<button>` elements to better fit your potential needs.
 
-### Single button
+## # Single button
 
 Any single `.btn` can be turned into a dropdown toggle with some markup changes. Here's how you can put them to work with either `<button>` elements:
 
@@ -142,7 +142,7 @@ The best part is you can do this with any button variant, too:
 </div>
 {% endhighlight %}
 
-### Split button
+## # Split button
 
 Similarly, create split button dropdowns with virtually the same markup as single button dropdowns, but with the addition of `.dropdown-toggle-split` for proper spacing around the dropdown caret.
 
@@ -353,7 +353,7 @@ Button dropdowns work with buttons of all sizes, including default and split dro
 
 ## Directions
 
-### Dropup
+## # Dropup
 
 Trigger dropdown menus above elements by adding `.dropup` to the parent element.
 
@@ -413,7 +413,7 @@ Trigger dropdown menus above elements by adding `.dropup` to the parent element.
 </div>
 {% endhighlight %}
 
-### Dropright
+## # Dropright
 
 Trigger dropdown menus at the right of the elements by adding `.dropright` to the parent element.
 
@@ -473,7 +473,7 @@ Trigger dropdown menus at the right of the elements by adding `.dropright` to th
 </div>
 {% endhighlight %}
 
-### Dropleft
+## # Dropleft
 
 Trigger dropdown menus at the left of the elements by adding `.dropleft` to the parent element.
 
@@ -567,7 +567,7 @@ You can also create non-interactive dropdown items with `.dropdown-item-text`. F
 {% endcapture %}
 {% include example.html content=example %}
 
-### Active
+## # Active
 
 Add `.active` to items in the dropdown to **style them as active**.
 
@@ -580,7 +580,7 @@ Add `.active` to items in the dropdown to **style them as active**.
 {% endcapture %}
 {% include example.html content=example %}
 
-### Disabled
+## # Disabled
 
 Add `.disabled` to items in the dropdown to **style them as disabled**.
 
@@ -618,7 +618,7 @@ By default, a dropdown menu is automatically positioned 100% from the top and al
 
 ## Menu content
 
-### Headers
+## # Headers
 
 Add a header to label sections of actions in any dropdown menu.
 
@@ -631,7 +631,7 @@ Add a header to label sections of actions in any dropdown menu.
 {% endcapture %}
 {% include example.html content=example %}
 
-### Dividers
+## # Dividers
 
 Separate groups of related menu items with a divider.
 
@@ -646,7 +646,7 @@ Separate groups of related menu items with a divider.
 {% endcapture %}
 {% include example.html content=example %}
 
-### Text
+## # Text
 
 Place any freeform text within a dropdown menu with text and use [spacing utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/). Note that you'll likely need additional sizing styles to constrain the menu width.
 
@@ -662,7 +662,7 @@ Place any freeform text within a dropdown menu with text and use [spacing utilit
 {% endcapture %}
 {% include example.html content=example %}
 
-### Forms
+## # Forms
 
 Put a form within a dropdown menu, or make it into a dropdown menu, and use [margin or padding utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/) to give it the negative space you require.
 
@@ -755,7 +755,7 @@ On touch-enabled devices, opening a dropdown adds empty (`$.noop`) `mouseover` h
 {% endcapture %}
 {% include callout.html content=callout type="info" %}
 
-### Via data attributes
+## # Via data attributes
 
 Add `data-toggle="dropdown"` to a link or button to toggle a dropdown.
 
@@ -770,7 +770,7 @@ Add `data-toggle="dropdown"` to a link or button to toggle a dropdown.
 </div>
 {% endhighlight %}
 
-### Via JavaScript
+## # Via JavaScript
 
 Call the dropdowns via JavaScript:
 
@@ -779,13 +779,13 @@ $('.dropdown-toggle').dropdown()
 {% endhighlight %}
 
 {% capture callout %}
-##### `data-toggle="dropdown"` still required
+## ## # `data-toggle="dropdown"` still required
 
 Regardless of whether you call your dropdown via JavaScript or instead use the data-api, `data-toggle="dropdown"` is always required to be present on the dropdown's trigger element.
 {% endcapture %}
 {% include callout.html content=callout type="info" %}
 
-### Options
+## # Options
 
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-offset=""`.
 
@@ -834,7 +834,7 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
 
 Note when `boundary` is set to any value other than `'scrollParent'`, the style `position: static` is applied to the `.dropdown` container.
 
-### Methods
+## # Methods
 
 | Method | Description |
 | --- | --- |
@@ -842,7 +842,7 @@ Note when `boundary` is set to any value other than `'scrollParent'`, the style 
 | `$().dropdown('update')` | Updates the position of an element's dropdown. |
 | `$().dropdown('dispose')` | Destroys an element's dropdown. |
 
-### Events
+## # Events
 
 All dropdown events are fired at the `.dropdown-menu`'s parent element and have a `relatedTarget` property, whose value is the toggling anchor element.
 `hide.bs.dropdown` and `hidden.bs.dropdown` events have a `clickEvent` property (only when the original event type is `click`) that contains an Event Object for the click event.

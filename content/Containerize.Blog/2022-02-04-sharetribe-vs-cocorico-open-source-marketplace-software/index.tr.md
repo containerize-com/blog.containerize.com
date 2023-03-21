@@ -31,16 +31,16 @@ ShareTribe vs Cocorico blog yazısının bu bölümünde, kısaca başka bir aç
 ## Sharetribe vs cocorico   {#vs}
 Şimdiye kadar, Sharetribe ve Cocorico'nun kısa bir tanıtımından geçtik. Bu SharTribe vs Cocorico Blog yayınına ilerlerken, aşağıdaki noktaları kapsayarak bu iki popüler **açık kaynak pazar yazılımı**  arasında bir çizgi çizmeye çalışacağız.
 
-#### Tech Stack
+## ## Tech Stack
 Kendi kendine açık kaynaklı yazılım söz konusu olduğunda, ön uç ve arka uç teknolojileri, veritabanı ve geliştirme metodolojileri gibi tüm yönleri gözden geçirmek gerçekten önemlidir. Bununla birlikte, ShareTribe Ruby on Rails, JavaScript ve HTML kullanılarak geliştirilir. Oysa Cocorico, PHP, JavaScript, Twig ve CSS gibi diğer dillerden girdi kullanılarak inşa edilir. Ancak, her ikisinin de yerel veya bulut sunucularında kurulumu kolaydır.
 
-#### **Topluluk ayakta** 
+## ## **Topluluk ayakta** 
 Bu, açık kaynaklı bir yazılım seçerken başka bir zorunlu faktördür. ShareTribe söz konusu olduğunda, GitHub Repo'sunda 2.2k yıldız ve 1.3K çatal var. Ancak, kaynak kodu dosyalarıyla birlikte geliştirme ve dağıtım ile ilgili belgeleri bulabilirsiniz. Öte yandan, GitHub Repo'sunda 812 yıldız ve 626 çatal var. Her ne kadar kaynak dosyalarla birlikte belgeleri de bulabilirsiniz.
 
-#### **Genişletilebilirlik** 
+## ## **Genişletilebilirlik** 
 Bu özellik maksimum noktalara sahiptir. Bu nedenle, bu **açık kaynak pazar yazılımı**  üçüncü taraf uygulamalarla entegrasyonlar sunar. ShareTribe, [Google Analytics][9], Stripe, PayPal ve vb. İle entegrasyon sağlar. Ayrıca, geliştiriciler iş ihtiyaçlarını karşılamak için işlevsellik ekleyebilir.
 
-#### Özellikler
+## ## Özellikler
 Son fakat en önemli şey, hükümleri gözden geçirmek ve analiz etmektir ve açık kaynaklı bir yazılım ortaya çıkarır. Çoğu zaman işin doğasına bağlıdır ve vakaları kullanır. Bu serbest pazar çözümlerinin her ikisi de verimliliği artıran ve diğer maliyetleri azaltan iş dostu özellikler sunmaktadır. ShareTribe her türlü pazar yerleşimini destekler, yerleşik bir ödeme sistemi, ürün kataloğunu yönetmek için araçlar, özel markalama, içerik filtrasyonu ve daha fazlasını sunar. Ayrıca, sipariş/kategori yönetimi, SEO/tanıtım yönetimi de sunar ve bir satıcı portalı sağlar.
 Cocorico söz konusu olduğunda, açık kaynaklı çok satıcı pazar için hükümler sunmaktadır. Buna ek olarak, coğrafi konum izleme, coğrafi işleme, alışveriş sepeti, ücret/komisyon yönetimi, güvenli, sağlamdır ve kendi kendine barınma yetenekleriyle birlikte gelir.
 

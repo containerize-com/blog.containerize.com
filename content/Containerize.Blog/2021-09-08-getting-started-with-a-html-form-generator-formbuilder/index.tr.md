@@ -14,7 +14,7 @@ categories: ['Form']
 {{< figure align=center src="images/formbuilder.png" alt="HTML Form Jeneratörü">}}
 
 
-##  **Genel Bakış ** 
+## **Genel Bakış ** 
 Kısa süre önce [2020 yılında Bootstrap Form Creator Form.io][1] ve [Top 5 Açık Kaynak Çevrimiçi Form İnşaatçıları][2] gibi konular hakkında bazı makaleler yayınladık [2]. İlk blog yazısı, bir Bootstrap Form Builder [Form.io][3] 'in ayarlama işlemini ve özelliklerini gösteren bir öğretici makaledir. İkinci makale, yaygın olarak kullanılan açık kaynaklı form üreticileri hakkında konuşuyor. Mevcut zaman noktasında, iki yönlü etkileşim, hizmet sağlayıcıları ve hizmet tüketicileri arasındaki en önemli şeydir. Kuruluşlar hizmetleri hakkında tutarlı geri bildirim alma eğilimindedir ve daha sonra gelecekteki iş stratejilerini formüle ederler. Ancak, formlar müşterilerden bilgi toplamak ve depolamaktır. İşletmeler, çeşitli devam eden operasyonlar hakkında veri toplamak için bir dizi form üretir ve bazıları tek sayfalardır ve bazıları çok sayfalık formlardır. Bazı işletmeler, çevrimiçi portallarına formlar yerleştirmiştir veya bazıları veri toplama için formlarını ortaya çıkarmak için e -postalar veya diğer tür ortamlar kullanırlar.
 Bu nedenle, zengin form oluşturucu özelliklerine sahip birçok açık kaynak formu ve veri yönetimi yazılımı vardır. Bu makalede, aşağıdaki noktaları kaplayarak ücretsiz HTML form jeneratörü  **[formbuilder][4] **  keşfedeceğiz.
   * **[formbuilder nedir?][5] ** 

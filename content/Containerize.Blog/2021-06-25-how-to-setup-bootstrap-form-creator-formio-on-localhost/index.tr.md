@@ -14,7 +14,7 @@ categories: ['Form']
 {{< figure align=center src="images/formio-1.png" alt="Bootstrap form yaratıcısı">}}
 
 
-##  **Genel Bakış ** 
+## **Genel Bakış ** 
 Hızlı büyüyen iş ihtiyaçlarında, doğrudan kamuoyu ve katılımına ait birçok operasyon vardır. Bu katılım fiziksel ya da sanal olabilir. Bazen hizmet sağlamakla ilgilidir ve bazen veri veya geri bildirim toplamakla ilgilidir. Öte yandan, kurumsal kuruluşlar müşterinin ürün ve hizmetleri hakkındaki verilerini toplama eğilimindedir. Bu nedenle, veri miktarı ilgili kitleye ulaşmaya bağlıdır. Daha sonra, veri yönetimi başka bir kritik görevdir ve muazzam bir dikkat gerektirir.
 Ancak, kurumsal sektörler veri toplama ile ilgili ihtiyaçları karşılamak için çevrimiçi formları kullanırlar. İletişim formu, şikayet formu, müşteri geri bildirimi formu, giriş formu ve daha fazlası gibi birçok form içerebilecek birçok web sitesi vardır. Şimdi, bu formları ve gönderim verilerini oluşturmak, yönetmek için bir güçlük haline geliyor. İşte [form.io][1] geliyor. Form.io, form oluşturma ve veri yönetimi özellikleri sağlayan açık kaynaklı bootstrap form oluşturucudur. Yakın geçmişte, [2020 yılında ilk 5 açık kaynaklı çevrimiçi form oluşturucuları] kapsayan bir makale yayınladık [2]. Bu blog yazısında, bu Bootstrap form yaratıcısını, aşağıdaki noktaları kaplayarak Localhost'ta kurma süreci ile birlikte keşfedeceğiz.
   *** [form.io?

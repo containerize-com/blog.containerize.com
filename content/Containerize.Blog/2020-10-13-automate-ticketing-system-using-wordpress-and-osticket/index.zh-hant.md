@@ -9,7 +9,7 @@ url: /zh-hant/automate-ticketing-system-using-wordpress-and-osticket/
 categories: ['Blogging', 'Help Desk']
 ---
 
-##使用無縫的WordPress和Osticket集成自動化HelpDesk進程。通過基於Web的表格將客戶的查詢轉換為支持門票。
+## 使用無縫的WordPress和Osticket集成自動化HelpDesk進程。通過基於Web的表格將客戶的查詢轉換為支持門票。
 
 {{< figure align=center src="images/integrate-osticket-with-wordpress-banner-1024x536.png" alt="Osticket-wordpress集成到自動化票務系統">}}
 
@@ -20,7 +20,7 @@ Osticket是一種開源和免費的HelpDesk票務系統。客戶可以在Osticke
   * [身份驗證過程][3]
   * [結論][4]
 
-##集成過程： {#integration}
+## 集成過程： {#integration}
 Osticket和WordPress集成需要WordPress網站上的聯繫表，並具有以下字段
   1.幫助主題
   2.電子郵件
@@ -42,7 +42,7 @@ Osticket和WordPress集成需要WordPress網站上的聯繫表，並具有以下
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Osticket-wordpress集成到自動化票務系統">}}
 
 
-##身份驗證過程： {#auth}
+## 身份驗證過程： {#auth}
 API身份驗證是通過在Osticket管理面板中配置的API鍵執行的。生成API鍵並鏈接到源IP地址，該源IP地址已根據HTTP API請求的源IP進行了驗證。創建API密鑰
   1.轉到Osticket的管理面板。
   2.單擊“管理”。
@@ -55,7 +55,7 @@ API身份驗證是通過在Osticket管理面板中配置的API鍵執行的。生
 {{< figure align=center src="images/osticket-1024x729.png" alt="Osticket-wordpress集成到自動化票務系統">}}
 
 
-##結論： {#conclusion}
+## 結論： {#conclusion}
 Osticket-WordPress集成將自動化票務過程。因此，這將使支持團隊的生活更輕鬆。 WordPress網站上的查詢將自動轉換為Osticket上的支持門票。因此，支持團隊可以更輕鬆有效地管理所有客戶的查詢。支持代理將通過電子郵件通知通知。因此，代理可以按時解決客戶的查詢。 Osticket上的評論部分可以幫助客戶和支持代理進行有效和及時的溝通。這也使管理人員更容易跟踪每張票的進度。
 
 ## 探索：

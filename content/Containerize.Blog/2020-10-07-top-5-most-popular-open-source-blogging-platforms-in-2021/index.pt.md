@@ -21,7 +21,7 @@ Existem tantas plataformas de blog de código aberto que fornecem incríveis op�
   * [Serendipity][4]
   * [Silverstripe][5]
 
-### **WordPress**    {#wordpress}
+## # **WordPress**    {#wordpress}
 O WordPress é um sistema de gerenciamento de conteúdo gratuito e de código aberto e uma plataforma de blog auto -hospedada. É baseado no PHP e MySQL, que é a pilha de tecnologia mais popular. Consequentemente, torna o WordPress o CMS mais amplamente usado e o software de blog de código aberto do mundo. No momento da redação deste post, conforme sites oficiais WordPress.org, ele alimenta mais de 30% dos 10 milhões de sites e a participação geral de mercado é de 60%.
 Se você deseja criar um blog, site ou vender online. Em outras palavras, qualquer coisa relacionada à criação de conteúdo, o WordPress oferece todas as ferramentas e recursos. Possui extenso repositório de plug -in com milhares de plugins disponíveis. Portanto, é útil para os desenvolvedores aprimorar a melhor experiência da ferramenta de blog WordPress.
 Em conclusão, a popularidade do WordPress torna a primeira escolha dos desenvolvedores para escrever seus próprios complementos para estender a funcionalidade do WordPress. O desenvolvimento de plug -in para o WordPress tornou -se uma indústria por conta própria.
@@ -33,7 +33,7 @@ Aqui estão alguns dos recursos notáveis ​​da melhor plataforma de microblo
   * Enorme comunidade de desenvolvedores de código aberto
     [Leia mais][6]
 
-### **jekyll**    {#jekyll}
+## # **jekyll**    {#jekyll}
 Jekyll é um gerador de sites estáticos e ferramentas gratuitas de blog para iniciantes. Ele cria um site usando seus arquivos de marcação. Ele leva o conteúdo do seu site, aplica -o a algum modelo e gera arquivos HTML puramente estáticos. Portanto, eles estão prontos para serem hospedados em qualquer plataforma de hospedagem.
 Ao contrário do WordPress ou de qualquer outra ferramenta de blog, o principal objetivo de Jekyll é a velocidade e o desempenho do site. É um gerador de sites estáticos e uma plataforma de blog de código aberto gratuito. Consequentemente, ele tira todo o processamento de conteúdo no tempo de execução. Portanto, não há despesas gerais de leitura de dados de um banco de dados quando o usuário acessar o site. Muitos sites de alto tráfego são construídos com Jekyll e é conhecido por fornecer sites relativamente rápidos e seguros.
 Aqui estão os principais destaques da melhor plataforma de blog de código aberto Jekyll.
@@ -44,7 +44,7 @@ Aqui estão os principais destaques da melhor plataforma de blog de código aber
   * Código aberto
     [Leia mais][7]
 
-### **fantasma**    {#ghost}
+## # **fantasma**    {#ghost}
 O Ghost é uma ferramenta de blog sem fins lucrativos e gratuita de código aberto. É desenvolvido usando o Node.js, que é uma das plataformas de desenvolvimento mais populares. Então, ele tem todos os poderes do nó. Acima de tudo, possui uma interface simples e limpa, o que facilita o uso. É uma maravilhosa plataforma de gerenciamento de conteúdo e blog para iniciantes e se concentra mais no conteúdo.
 Poder e velocidade do Node.js fazem do Ghost uma plataforma rápida e robusta. Ele se concentra mais no Markdown em vez de na edição Wysiwyg. Ghost tem duas versões, auto-hospedado e hospedado. Ele suporta temas personalizados e permite que você envie seus próprios temas nas versões auto-hospedadas e hospedadas.
 O Ghost fornece uma API REST nativa, membros de associação e assinatura internos juntamente com outros recursos notáveis, conforme listado abaixo
@@ -56,7 +56,7 @@ O Ghost fornece uma API REST nativa, membros de associação e assinatura intern
   * Aplicativos nativos
     [Leia mais][8]
 
-### **Serendipity**    {#Serendipity}
+## # **Serendipity**    {#Serendipity}
 O Serendipity é um mecanismo de webg de código aberto, baseado em PHP, que pode ser usado para criar e manter sites para qualquer finalidade. É projetado para os blogueiros casuais. No entanto, oferece uma estrutura expansível que tem o poder de criar aplicativos profissionais.
 Confiabilidade, segurança, extensibilidade e facilidade de uso são os principais requisitos de qualquer plataforma de blogs e serendipity significa isso. Tem uma interface simples, porém poderosa. Portanto, permite a fácil edição e gerenciamento de seu conteúdo.
 Serendipity suporta vários idiomas como inglês, alemão, dinamarquês e francês. Mais importante ainda, possui suporte nativo para migração de outras plataformas de blogs como WordPress, TextPattern, Tipo móvel etc. Portanto, isso facilita a movimentação de seus blogs existentes do WordPress para o Serendipity.
@@ -68,7 +68,7 @@ Aqui estão alguns dos principais destaques do software Serendipity Top Blogging
   * Código aberto
     [Leia mais][9]
 
-### **SilverStripe**    {#SilverStripe}
+## # **SilverStripe**    {#SilverStripe}
 O SilverStripe é um CMS de código aberto gratuito e estrutura para criar e manter sites, blogs e aplicativos da Web. Foi construído usando o PHP de linguagem de script mais popular do mundo. Portanto, o torna uma estrutura flexível que pode ser usada para criar aplicações de grau de produção.
 Ele se concentra muito na segurança e fornece segurança e suporte de nível corporativo. Mesmo que não tenha alcance como o WordPress. Mas tem uma comunidade crescente e próspera de código aberto que está trabalhando duro. Como resultado, tornando -o um produto incrível para seus usuários.
 Aqui estão os principais recursos que descobrimos no software de blog SilverStripe auto -hospedado.
@@ -79,7 +79,7 @@ Aqui estão os principais recursos que descobrimos no software de blog SilverStr
   * Gerenciamento de usuários
     [Leia mais][10]
 
-### Conclusão:
+## # Conclusão:
 Neste artigo, você revisou o melhor software de blog de código aberto disponível para criadores de conteúdo. Para extensibilidade, o WordPress tem vantagem devido ao grande repositório de plug -in. Se você precisar de velocidade, Ghost e Jekyll podem ser sua escolha. Para problemas de spam, o Serendipity construiu o recurso de controle de spam. Por fim, o Silverstripe pode ser uma escolha para quem deseja configurar fluxos de aprovação complexos.
 Além disso, o [containerize.com][11] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas_. Você pode se juntar a nós no [Twitter][12], [LinkedIn][13] e nossa página [Facebook][14]. Que lista de plataformas de blog você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato][15].
 

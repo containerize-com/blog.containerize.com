@@ -24,7 +24,7 @@ Pour rester à jour, vous devez non seulement considérer l'état actuel de la t
   * Développement à faible code
   * Conclusion
 
-#### **TRENDE 1: Intelligence artificielle (AI)** 
+## ## **TRENDE 1: Intelligence artificielle (AI)** 
 La technologie moderne est suffisamment puissante pour fabriquer des solutions logicielles AI. Une intelligence artificielle est un logiciel qui pense intelligemment dans un sens large, comme une personne. Parce que l'avenir du développement de logiciels et l'avenir de la technologie se trouvent dans les algorithmes, l'apprentissage automatique, le réseau neuronal et les outils d'IA pour tirer des conclusions nouvelles et fascinantes. Les solutions logicielles AI sont une force dominante des technologies de tendance dans le développement de logiciels dans le monde technologique d'aujourd'hui.
 De nos jours, les développeurs recherchent des solutions dans le domaine de l'intelligence artificielle à travers une pratique continue et les machines peuvent penser intelligemment comme les humains. L'IA devrait gagner du terrain en 2021 en tant que principales tendances du développement de logiciels, étant donné que les entreprises ayant des capacités logicielles d'IA devraient réussir. Le domaine du traitement du langage naturel est particulièrement intéressant en raison de nouvelles technologies dans le développement de logiciels dans l'IA. 2021 Les dernières tendances de développement logiciel apportent plus de compétences en développement, Chat-bots en rendant chaque tâche automatique et réduisant l'implication humaine.
 {{_LINE_24_}}

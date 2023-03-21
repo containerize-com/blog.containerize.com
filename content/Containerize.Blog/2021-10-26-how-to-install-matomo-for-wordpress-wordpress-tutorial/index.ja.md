@@ -37,7 +37,7 @@ categories: ['Blogging', 'Business Intelligence Software']
 
 WordPressの美しさは、APIを通じてMatomoプラグインとシームレスに通信することです。このオープンソース **Web Analyticsソフトウェア** は、Google Analyticsと同様に追跡コードを提供します。したがって、トラッキングコードを手動で挿入する必要はありません。最後に、MATOMOプラグインがインストールされ、WordPressにセットアップされ、ビジネスWebサイトのデータの追跡を開始できます。
 
-##  **Matomo Dashboard **    {#Dashboard}
+## **Matomo Dashboard **    {#Dashboard}
 この **WordPressチュートリアル** は、オープンソース **Matomoプラグイン** の統合について説明しています。それでは、強力なモジュールを提供するダッシュボードを調べてみましょう。 Matomo Analyticsメニューの下で、下の画像に示すように、WebサイトのMatomoダッシュボードに移動する「レポート」オプションをクリックします。
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="オープンソースWeb分析">}}

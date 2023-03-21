@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/install_phpmyadmin_with_nginx_on_ubuntu.png" alt="Come installare e fissare phpmyadmin con nginx su ubuntu">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 PhpMyAdmin è uno strumento di gestione del database gratuito e open source che offre agli utenti un'interfaccia Web per gestire i server MySQL o MARIADB attraverso un'interfaccia intuitiva. Questo è uno dei software ampiamente supportati offerto dalla maggior parte dei popolari provider di hosting per consentire agli amministratori Web per la creazione di database in PhpMyAdmin e gestire i database, eseguire le tenute SQL, importare ed esportare facilmente i dati. Sarai in grado di accedere ai tuoi database MySQL o MARIADB in PhpMyAdmin con Nginx attraverso un'interfaccia web grafica facilmente, in esecuzione insieme a un ambiente di sviluppo PHP.
 In questa guida, descriveremo i passaggi su come installare e proteggere PhpMyAdmin con Nginx su Ubuntu 20.04. Dovrai installare e configurare PhpMyAdmin su Ubuntu Server per lasciarlo funzionare con database e tabelle MySQL. Quindi, impariamo a installare e proteggere PhpMyAdmin con Nginx su Ubuntu 20.04 / 20.10:
   * Prerequisiti

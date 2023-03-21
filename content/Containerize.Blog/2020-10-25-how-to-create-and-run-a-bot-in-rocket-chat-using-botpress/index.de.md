@@ -22,13 +22,13 @@ In diesem Artikel führen wir Sie durch das Erstellen eines Bots mit BotPress. U
   * [Codieren Sie Ihren Bot mit BotPress][4]
   * [Schlussfolgerung][5]
 
-### Rocket.chat   {#Rocketchat}
+## # Rocket.chat   {#Rocketchat}
 Rocket.chat gehört zu der beliebten Live -Chat -Software, die teilweise ein Open -Source -Live -Chat -Projekt ist. Es hat eine kostenlose Live -Chat -Version als Community -Ausgabe. Neben einer kostenpflichtigen Live -Chat -Version für große Unternehmen mit privaten internen Chat -Funktionen. Diese Live -Chat -Anwendung wird im Browser ausgeführt, kann jedoch auch auf Ihrem eigenen Server installiert werden. [Lesen Sie mehr][6]
 
-### BotPress   {#botpress}
+## # BotPress   {#botpress}
 Konversations -Chatbots haben es Unternehmen ermöglicht, ihren Kunden die immer verfügbare hohe Berührungsunterstützung zu bieten, die sie gewünscht haben. BotPress ist eines der beliebtesten Open-Source-Bot-Kreationsinstrumente mit integrierter Verarbeitung natürlicher Sprache. Die NLU -Technologie von Botpress macht es seinen Konkurrenten vor Ort wie Botkit, Dialogflow und Microsoft Bot Framework zu einem Schritt voraus. [Lesen Sie mehr][7]
 
-### Erstellen Sie einen Bot -Benutzer in Rocket.chat   {#createBotuser}
+## # Erstellen Sie einen Bot -Benutzer in Rocket.chat   {#createBotuser}
 Um mit Ihrem Chatbot zu sprechen, muss ein Benutzerkonto auf dem Rocket.chat-Server vorkonfiguriert sein, auf den sich der Bot anmelden kann.
 Um das Konto zu erstellen, benötigen Sie die Administratorrechte:
   1. Klicken Sie in der TopBar auf die drei Punkte (Optionen) und dann auf **Administration**  klicken
@@ -42,7 +42,7 @@ Um das Konto zu erstellen, benötigen Sie die Administratorrechte:
   9. Klicken Sie auf _save_
 Nach dem Speichern wird der Bot mit dem in Schritt 4 festgelegten Benutzernamen und Kennwort konfiguriert.
 
-### codieren Ihren Bot mit BotPress   {#CodeBot}
+## # codieren Ihren Bot mit BotPress   {#CodeBot}
 BotPress ist ein Node.js -Paket und arbeitet mit Knoten und NPM.
 Der schnellste Weg, um mit BotPress zu beginnen, ist die Verwendung von [Botpress-Kick-Starter][8] Repository, das bereits in Rocket.chat über [Botpress-Kanal-Anschluss][9] integriert ist.
 Navigieren Sie zum Ordner, in dem Sie mit dem Bot arbeiten möchten, und fahren Sie mit den folgenden Schritten fort:
@@ -133,7 +133,7 @@ npm start
 **Sprechen Sie mit Ihrem Bot** 
 Melden Sie sich auf dem Server als regulärer Benutzer (nicht als Bot -Benutzer) an, gehen Sie in den allgemeinen Raum und sprechen Sie mit Ihrem neu erstellten Bot.
 
-### Fazit   {#Conclusion}
+## # Fazit   {#Conclusion}
 In diesem Artikel haben wir gelernt, wie man einen Bot in Botpress erstellt. Und wie man es mit Rocket.chat konfigurieren. BotPress macht es den Benutzern sehr einfach, innovative automatisierte Workflows zu erstellen. In der Integration mit Rocket.chat können Sie sie auf konverselle Weise kontrollieren.
 
   

@@ -22,7 +22,7 @@ Wir werden die folgenden Punkte in diesem Artikel behandeln:
 * **[Scopes in JavaScript][3]**
 * **[JavaScript -Verschluss][4]**
 
-## Was hebt sich in JavaScript   {#What-is-Hoisting-in-JavaScript}}
+## Was hebt sich in JavaScript   {#What-is-Hoisting-in-JavaScript}
 Das Phänomen der Funktion oder variable Deklaration neben dem aktuellen Bereich wird als Hebezeug bezeichnet. Dies ist ein sehr kritisches Konzept und die meisten JavaScript -Entwickler sind sich dessen nicht bewusst. Eine wichtige Sache zu beachten ist jedoch, dass nur Funktions-/Variablendeklarationen nach oben und nicht nach der Funktion/variablen Initialisierung gebracht werden.
 Nehmen wir ein Beispiel und sehen Sie den Code -Snippet unten.
 ```

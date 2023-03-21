@@ -14,7 +14,7 @@ categories: ['Blogging', 'Marketing Automation']
 {{< figure align=center src="images/banner-mauticWP-1200x628-1-1024x536.png" alt="Automazione del marketing utilizzando l'integrazione di WooCommerce Mautic">}}
 
 
-Panoramica ##:
+Panoramica ## :
 L'integrazione mautica-woocommerce fornisce un modo semplice per ottenere tutti i contatti nell'app mautica. Quindi utilizzando questi contatti, è possibile creare campagne di marketing in base alle tue esigenze. Mautic è un ottimo strumento di marketing che ti dà il pieno controllo sulle tue campagne di marketing.
 Mautic è una soluzione di automazione del marketing open source e gratuita. Viene utilizzato per creare campagne di marketing, segmenti, forme, report e molto altro.
 WooCommerce è un plug-in e-commerce open source per WordPress. A questo punto è la soluzione di e-commerce per lo più usata in tutto il mondo. Ci sono centinaia di componenti aggiuntivi disponibili per WooCommerce che possono essere utilizzati in base alle tue esigenze.

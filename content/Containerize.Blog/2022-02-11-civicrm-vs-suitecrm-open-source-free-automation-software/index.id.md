@@ -32,16 +32,16 @@ Di bagian ini dari posting blog **civicrm vs suitecrm **, kami akan secara singk
 ## CivicRM vs Suitecrm   {#vs}
 Sejauh ini, kami telah melalui apa itu Civicm dan juga telah melihat ke dalam suitecrm. Sekarang, kami akan menarik perbandingan antara dua perangkat lunak open source **gratis ini **. Jadi, mari kita lihat poin -poin berikut untuk menutupi artikel ini  **CivicRM vs Suitecrm**  .
 
-#### Fitur
+## ## Fitur
 Ini adalah tugas yang paling penting dalam memilih perangkat lunak apa pun untuk bisnis. Untungnya, kedua perangkat lunak otomatisasi gratis ini menawarkan tumpukan fitur yang kaya untuk pengguna. Keduanya berbasis web dan cocok untuk setiap tingkat bisnis. CiviCRM menawarkan integrasi dengan platform populer dan mudah digunakan untuk otomatisasi pemasaran gratis. Alat otomatisasi pemasaran **ini  **menawarkan dukungan pelanggan online bersama dengan tutorial video. Lebih lanjut, ia menawarkan templat untuk laporan khusus, otomatisasi pengakuan hadiah, dan banyak lagi. Di sisi lain, SuitecRM menawarkan dukungan pelanggan melalui basis telepon, online, dan pengetahuan. Perangkat lunak otomatisasi gratis**   ini juga dilengkapi dengan berbagai fitur yang mencakup penagihan, faktur, kalkulator ROI, dan banyak lagi.
 
-#### Teck Stack
+## ## Teck Stack
 Ini adalah aspek penting lainnya ketika Anda akan memilih perangkat lunak open-source. CiviCRM dan SuitecRM ditulis dalam PHP dan membutuhkan persyaratan yang hampir sama untuk digunakan di server lokal atau cloud.
 
-#### Berdiri komunitas
+## ## Berdiri komunitas
 Sejauh menyangkut CiviCRM, ia memiliki 436 bintang dan 748 garpu pada repo GitHub -nya. Di sisi lain, SuitEcRM memiliki 2,8k bintang dan 1.6k garpu. Keduanya **alat otomatisasi pemasaran**  memberikan dokumentasi komprehensif mengenai penyebaran dan pengembangan.
 
-#### ekstensibilitas
+## ## ekstensibilitas
 Last but not least, SuitecRM dan CivICRM sangat dapat dikonfigurasi dan menawarkan integrasi dengan aplikasi pihak ketiga yang mencakup beberapa aplikasi tingkat perusahaan seperti WordPress, Joomla, dan banyak lagi. Selain itu, Anda dapat menambahkan fitur baru sesuai kebutuhan dan mendekati komunitas pengembang yang bersemangat dan menanggapi pertanyaan secara aktif.
 Demikian juga, Anda dapat mengeksplorasi aspek dan fitur civicrm dan suitecrm lebih lanjut.
 

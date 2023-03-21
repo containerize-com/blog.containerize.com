@@ -33,11 +33,11 @@ Không có vấn đề gì nếu nó là một máy phát triển, giai đoạn 
 
 ## Cách cài đặt Docker Compose   {#install}
 
-### Điều kiện tiên quyết
+## # Điều kiện tiên quyết
 Bạn có thể sử dụng Docker Compose để dễ dàng chạy WordPress trong một môi trường bị cô lập được xây dựng với các thùng chứa Docker. Hướng dẫn này trình bày cách sử dụng Compose để thiết lập và chạy WordPress.
 Docker Compose dựa vào công cụ Docker, vì vậy hãy chắc chắn rằng bạn đã cài đặt Công cụ Docker. Trên các hệ thống máy tính để bàn như Docker Desktop cho Mac và Windows, Docker Compose được bao gồm như một phần của các cài đặt máy tính để bàn đó. Tuy nhiên, trên Linux Systems trước tiên, hãy cài đặt Công cụ Docker bằng cách làm theo [hướng dẫn chính thức của họ][9].
 
-### Cài đặt Compose trên Linux
+## # Cài đặt Compose trên Linux
 Chạy lệnh này để tải xuống bản phát hành ổn định hiện tại của Docker Compose:
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -51,7 +51,7 @@ Kiểm tra cài đặt bằng lệnh phiên bản chạy:
 docker-compose --version
 ```
 
-### Xác định Dockerfile cho WordPress
+## # Xác định Dockerfile cho WordPress
 Điều đầu tiên chúng ta cần làm là xác định hình ảnh của chúng ta sẽ trông như thế nào trong**_ Dockerfile _**. Đó là một tệp văn bản được thêm vào thư mục với các nguồn ứng dụng của bạn.
 ```
 FROM wordpress:php7.1-apache

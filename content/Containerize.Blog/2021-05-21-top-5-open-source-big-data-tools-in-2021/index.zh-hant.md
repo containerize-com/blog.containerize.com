@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-big-data-tools-in-2021/
 categories: ['Big Data']
 ---
 
-##大數據框架使企業可以從有助於決策的數據中獲得見解。查看前5個開源大數據工具的列表。
+## 大數據框架使企業可以從有助於決策的數據中獲得見解。查看前5個開源大數據工具的列表。
 
 {{< figure align=center src="images/top-5-open-source-big-data-tools.png" alt="開源大數據工具">}}
 

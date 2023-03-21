@@ -24,14 +24,14 @@ OSTICKET fournit un panneau de configuration convivial et un composant de rappor
 
 ## Avantages et inconvénients d'Osticket   {#Pros}
 
-#### Avantages
+## ## Avantages
   * OSTICKET est extrêmement convivial pour les utilisateurs finaux et les agents de support.
   * Fondé avec des fonctionnalités riches, OSTICKET a tout ce dont vous avez besoin sans être trop compliqué.
   * OSTICKET est entièrement gratuit et un logiciel de gestion des billets open source.
   * Il est léger, sécurisé, fiable et facile à installer le logiciel de gestion des services d'assistance.
   * Il est flexible de s'exécuter sur tous les serveurs Web populaires, notamment Apache, Nginx, LightTPD et IIS, etc.
 
-#### Les inconvénients
+## ## Les inconvénients
   * OSTICKET ne fournit pas de détails sur l'analyse des billets et les statistiques comme les autres systèmes d'assistance payants.
   * Son interface utilisateur est très simple et basique par rapport à d'autres systèmes de support.
 

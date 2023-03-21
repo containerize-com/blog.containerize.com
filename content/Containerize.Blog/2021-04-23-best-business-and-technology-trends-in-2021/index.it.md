@@ -14,7 +14,7 @@ categories: ['Business Intelligence Software']
 {{< figure align=center src="images/business-and-technology-trends.png" alt="Top Technology and Business Trends per il 2021">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 La pandemia del virus Corona ha costretto le imprese ad adottare la trasformazione digitale in quasi tutti i settore. Covid-19 continua a provocare il caos e l'interruzione in tutto il mondo. Il 2020 è stato un anno molto impegnativo di pandemia e incertezze. Il 2020 ha accelerato il processo di innovazione come Top Technology and Business Trends. Ecco perché sarà anche ricordato come un anno che ha cambiato i nostri modi di vivere. Molte persone che lavorano da casa. Milioni di persone in tutto il mondo devono fare affidamento su videoconferenze come Zoom o Skype per comunicare tra loro.
 La pandemia di Coronavirus ha anche accelerato l'adozione tradizionale di trasformazione digitale come lavoro remoto, reti 5G. Sono inoltre accelerate altre soluzioni tecnologiche remote e operazioni chirurgiche digitali remote. In un mondo post-covid-19, le persone si adattano a nuovi modi di vivere. Le startup innovative che ci consentono di lavorare e comunicare praticamente, stanno spingendo l'involucro introducendo nuove tecnologie. Ci aiuterà a affrontare meglio con sfide che derivano dalla vita pandemica. In questo post sul blog esamineremo alcune tecnologie emergenti e tendenze aziendali nel 2021. Può impostare il corso di nuove idee di business di tendenza per i prossimi anni.
   * Lavoro remoto e tecnologia delle risorse umane

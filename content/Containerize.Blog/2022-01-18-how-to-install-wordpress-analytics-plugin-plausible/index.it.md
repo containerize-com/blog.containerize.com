@@ -14,7 +14,7 @@ categories: ['Blogging', 'Business Intelligence Software']
 {{< figure align=center src="images/wp-plausible-1.png" alt="Plug -in di analisi WordPress">}}
 
 
-Panoramica ##
+Panoramica ## 
 Hai un sito web aziendale? Stai cercando di monitorare, analizzare le informazioni critiche aziendali? Sei atterrato nel posto giusto in cui non solo saprai di un software professionale di business intelligence open source, ma imparerai anche come installare il plug -in di analisi WordPress [plausibile][1]. Questo è un altro post sul blog della serie su [Business Intelligence Software][2]. Nel recente passato, abbiamo pubblicato articoli su argomenti come [come installare Matomo per WordPress | Tutorial di WordPress][3], [top 5 strumenti di business intelligence open source del 2021][4] e altri. Questi articoli ti danno una panoramica dettagliata delle loro caratteristiche e utilizzo.
 In effetti, ci sono milioni di siti Web che corrono su Internet e milioni di persone li visitano in diversi modi. Pertanto, è molto importante per i proprietari di siti Web conoscere in dettaglio il traffico del sito. L'unico modo per ottenere queste informazioni sui dati è tramite [Google Analytics][5] o alcuni altri strumenti simili. Tuttavia, la comunità open source ha sviluppato alcuni strumenti BI che sono considerati alternativi di Google Analytics e Plausible è uno di questi. In questo post sul blog, impareremo come installare plausibile coprendo i seguenti punti.
   * **[Cosa è plausibile?][6]**

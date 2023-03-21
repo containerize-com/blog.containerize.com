@@ -49,7 +49,7 @@ Menggunakan git Anda dapat membuat perubahan pada repositori lokal Anda dan mend
 ## Instal git   {#install}
 Ada berbagai metode yang tersedia untuk menginstal git di komputer Anda. Anda dapat menginstalnya sebagai paket atau melalui penginstal lain, atau mengunduh kode sumber dan mengkompilasinya sendiri.
 
-### Menginstal di Linux
+## # Menginstal di Linux
 Jika Anda ingin menginstal Alat Git Basic di Linux melalui installer biner, Anda umumnya dapat melakukannya melalui alat manajemen paket yang disertakan dengan distribusi Anda. Untuk Fedora (atau distribusi berbasis RPM yang terkait erat, seperti RHEL atau CentOS), Anda dapat menggunakan "DNF"
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ Jika Anda berada di distribusi berbasis Debian, seperti Ubuntu, cobalah "Apt"
 $ sudo apt install git-all
 ```
 
-### Menginstal MacOS
+## # Menginstal MacOS
 Ada beberapa cara untuk menginstal git di Mac. Yang termudah mungkin untuk menginstal alat baris perintah XCODE. Pada mavericks (10.9) atau di atas Anda dapat melakukan ini hanya dengan mencoba menjalankan **git**  dari terminal pertama kali.
 ```
 $ git --version

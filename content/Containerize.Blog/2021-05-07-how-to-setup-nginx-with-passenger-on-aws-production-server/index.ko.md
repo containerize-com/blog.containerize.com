@@ -30,7 +30,7 @@ categories: ['Web Server Solution Stack']
 **[nginx 서버 란 무엇입니까?][1]**Nginx 및 smtp. 최대의 성능과 안정성을 위해 설계된 매우 확장 가능합니다. Nginx는 고성능 비동기식, 비 스레드 및 이벤트 중심 웹 서버로 동시에 여러 클라이언트 요청을 처리 할 수 ​​있습니다. Igor Sysoev가 2004 년에 2 명 BSD 라이센스의 조건에 따라 발표했습니다.  **Nginx는 Apache보다 2.5 배 더 빠른**  를 수행하며 벤치 마크 테스트에 따라 메모리를 적게 소비했습니다.
 **[승객 란 무엇입니까?][2]**Phusion 승객은 mod \ _rails 및 mod \ _rack으로도 알려진 승객은 무료 웹 서버 및 오픈 소스 웹 애플리케이션 서버입니다. Apache 및 Nginx와 통합되는 빠르고 강력하며 기능이 풍부하고 경량이되도록 설계되었습니다. 또한 응용 프로그램의 보안, 신뢰성 및 확장 성을 향상시킵니다. 이를 통해 관리자는 웹 애플리케이션 작업, 서버 성능에 대한 통찰력을 얻을 수 있습니다. 승객 앱 서버는 웹 응용 프로그램을 쉽게 실행하고 자동 관리합니다. 또한 여러 응용 프로그램**  동시에 멀티 테넌트 및 독립형을 제공 할 수 있습니다. HTTP 요청을 처리하고 프로세스 및 리소스를 관리하며 관리 작업, 모니터링 및 문제 진단을 가능하게합니다. Phusion 승객은 Meteor, Ruby on Rails Nginx 승객, JavaScript, Python 및 Node.js 애플리케이션을 배포하고 관리하는 지원을 제공하는 무료 응용 프로그램 서버입니다.
 
-## 2. Nginx 및 승객 패키지 설치 :   {#Step-1 : -Stall-Pasenger-Packages}}
+## 2. Nginx 및 승객 패키지 설치 :   {#Step-1 : -Stall-Pasenger-Packages}
 이제 승객과 Nginx를 설치할 때입니다. 이 안내서에 이어 인기있는 웹 서버 중 하나를 쉽게 배포 할 수 있습니다. 아래에 나열된 명령은 Phusion의 APT 저장소를 통해 승객 및 NGINX를 설치합니다. 이미 Nginx를 설치 한 경우이 명령은 승객을 컴파일 한 상태에서 Nginx를 Phusion 버전으로 업그레이드합니다.
 ```
 # Install Ubuntu PGP key and add HTTPS support for APT
@@ -65,7 +65,7 @@ http {
 $ sudo service nginx restart
 ```
 
-## 4. 설치 검증 :   {##Step-3 : -Check Installation}}
+## 4. 설치 검증 :   {##Step-3 : -Check Installation}
 설치 후`sudo/usr/bin/confenger-config validate-install`를 실행하여 터미널의 설치를 확인하십시오.
 ```
 sudo /usr/bin/passenger-config validate-install

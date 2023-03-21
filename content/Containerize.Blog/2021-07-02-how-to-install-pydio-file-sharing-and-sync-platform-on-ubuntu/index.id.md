@@ -39,19 +39,19 @@ sudo reboot
 ## Langkah 2: Instal Lamp Server
 Untuk mengatur server berbagi file Pydio Secure Enterprise dan cara membuat cloud pribadi open source, pertama -tama kita harus mengatur server lampu yang berjalan. Jika Anda sudah memasang dan menjalankan tumpukan lampu, lewati langkah ini, gunakan perintah pengikut untuk mengatur lampu pada sistem ubuntu Anda.
 
-### Instal PHP
+## # Instal PHP
 Anda dapat menginstal PHP pada sistem Ubuntu atau Debian Anda dengan menjalankan perintah:
 sudo apt-get menginstal properti python-software
 Sudo Add-apt-Repository PPA: ondrej/php
 sudo apt-get install -y php pHp-gd php-curl pHp-zip pHp-dom php-xml PHP-simplexml pHP-mbstring
 {{_LINE_34_}}
 
-### Instal apache2
+## # Instal apache2
 Apache adalah perangkat lunak server web open-source yang paling banyak digunakan. Selanjutnya, instal server web Apache di Ubuntu dengan menjalankan:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Instal MySQL
+## # Instal MySQL
 MySQL Open-Source Relational Database Management System adalah komponen dari tumpukan perangkat lunak aplikasi web lampu dan lainnya. Sekarang menginstal MySQL di Ubuntu dengan berjalan di bawah ini:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

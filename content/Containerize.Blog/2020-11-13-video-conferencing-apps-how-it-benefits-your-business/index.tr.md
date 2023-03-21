@@ -32,7 +32,7 @@ Son zamanlarda kuruluşlar, yerinde toplantılar üzerindeki sanal toplantılar 
 ## Top 3 Açık Kaynak Video Konferans Yazılımı   {#top}
 Birçok açık kaynaklı web konferans sistemi mevcuttur. Öyleyse, en popüler olanları görelim:
 
-#### Jitsi buluşması
+## ## Jitsi buluşması
 [Jitsi Meet][5] birçok video işbirliği aracı ile açık kaynaklı bir video işbirliği yazılımıdır. Son derece güvenlidir ve şifreleme özellikleri ile birlikte gelir. Ayrıca, bu **açık kaynak toplantı yazılımı** , yüksek tanımlı video konferansları için WebRTC tabanlı yazılım video köprüsünü kullanır. Bu ücretsiz aracın ayarlanması kolaydır ve üçüncü taraf uygulamalarla yapılandırılabilir. Buna ek olarak, katılımcılar çağrı sırasında birbirleriyle sohbet edebilir ve onlarla bir bağlantı paylaşarak daha fazla üyeyi davet edebilirler. Ancak, bu görüntülü arama uygulaması JavaScript'te yazılmıştır ve geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Bu nedenle, geliştiriciler kaynak kodunu [GitHub][6] 'da bulabilirler. Aşağıdaki temel özelliklere sahiptir:
   * Çok partili video konferansı
   * Etherpad için destek
@@ -40,7 +40,7 @@ Birçok açık kaynaklı web konferans sistemi mevcuttur. Öyleyse, en popüler 
   * Webrtc uyumlu
   * Video/ses şifrelemesi
 
-#### Bigbluebutton
+## ## Bigbluebutton
 [BigBluebutton][7] sadece video toplantıları için çözümler sunmakla kalmayıp, aynı zamanda [Drupal][8], Redmine, [WordPress] gibi bazı popüler açık kaynak çerçeveleriyle entegrasyonlar sunan bir başka gerçek zamanlı **video konferans uygulaması  **[9] ve biraz daha. Diğer **  Video Toplantı Uygulamaları**  gibi, güvenlidir ve kendi kendine barınma yetenekleriyle birlikte gelir. Ayrıca, kullanıcıların kolayca gezinebileceği çok mantıklı bir arayüz sağlar. Bununla birlikte, bu görüntülü arama uygulaması Java, HTML5, Scala Ruby, Groovy ve CSS gibi diğer dillerin girişiyle birlikte JavaScript'te yazılmıştır ve geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Bu nedenle, geliştiriciler kaynak kodunu [GitHub][10] 'da bulabilirler. Aşağıdaki önemli özellikler şunlardır:
   * Çok Kullanıcı Beyaz Tahta
   * Gerçek zamanlı sohbetler
@@ -49,7 +49,7 @@ Birçok açık kaynaklı web konferans sistemi mevcuttur. Öyleyse, en popüler 
   * Üçüncü taraf yazılımı için destek (örn. Drupal, WordPress)
   * HD Ses
 
-#### Openvidu
+## ## Openvidu
 Benzer şekilde, [OpenVIDU][11], uzak video konferans için özellikler ve araçlar sağlayan başka bir açık kaynak **video işbirliği yazılımı **'dır. Mimarisi iki katmandan oluşur. Birincisi, istemci tarafı kütüphanesi olan OpenVidu tarayıcısı, diğeri ise arka uç kitaplığı olan OpenVIDU sunucusudur. Kurulumu kolaydır ve kolay dağıtımlar ve gelişmeler için bir Docker görüntüsü sağlar. Ancak, bu  **Grup Video Çağrı Uygulaması**   JavaScript'te yazılmıştır ve tüm belgeler geliştirme ve dağıtım ile ilgili olarak mevcuttur. Bu nedenle, geliştiriciler kaynak kodunu [GitHub][12] 'de bulabilirler. Bazı önemli özellikler:
   * Webrtc uyumlu
   * Ekran paylaşımı

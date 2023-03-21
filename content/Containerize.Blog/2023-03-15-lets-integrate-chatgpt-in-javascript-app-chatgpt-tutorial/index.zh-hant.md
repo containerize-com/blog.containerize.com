@@ -10,7 +10,7 @@ tags: ["Integrate ChatGPT in JavaScript App", "ChatGPT tutorial", "ChatGPT JavaS
 categories: [ 'Artificial intelligence']
 ---
 
-##通過集成基於GPT-3的病毒聊天機器人來簡化業務軟件。該CHATGPT教程演示了集成步驟和代碼段。
+## 通過集成基於GPT-3的病毒聊天機器人來簡化業務軟件。該CHATGPT教程演示了集成步驟和代碼段。
 
 {{< figure align=center src="images/lets-integrate-chatgpt-in-javascript-app-chatgpt-tutorial.png" alt="將chatgpt集成到JavaScript應用中">}}
 
@@ -21,7 +21,7 @@ categories: [ 'Artificial intelligence']
   * **[前提條件-Chatgpt JavaScript包裝器][2]**
   * **[與node.js應用程序集成][3]**
 
-##前提條件-Chatgpt JavaScript包裝器 {#Pre-Requisites -------------------------------------
+## 前提條件-Chatgpt JavaScript包裝器 {#Pre-Requisites -------------------------------------
 本節演示了在基於node.js的應用程序中啟用chatgpt集成所需的要求。要求很簡單且易於在系統上安裝。
 以下是練習此Chatgpt JavaScript集成的預要求：
 
@@ -69,7 +69,7 @@ console.log(res.text);
 ## 問一個問題
 您可以在[論壇][12]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **如何將Chatgpt與JavaScript集成？**
 請按照此ChatGpt [教程][2]學習步驟和代碼段，以編程在JavaScript應用中集成Chatgpt。
 

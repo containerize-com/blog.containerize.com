@@ -14,7 +14,7 @@ categories: ['CMDB Software']
 {{< figure align=center src="images/ralph.png" alt="Giải pháp CMDB">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Tại thời điểm hiện tại, các tổ chức đang phát triển mạnh để đáp ứng tốc độ công nghệ bằng cách sử dụng cơ sở hạ tầng CNTT khổng lồ. Tiếp theo, nó không ít hơn một thách thức để quản lý môi trường lớn như vậy. Nó đòi hỏi nhân lực và sức mạnh công nghệ để hoàn thành các nhiệm vụ quan trọng như vậy. Đôi khi, nó trở thành rắc rối khi xây dựng các quy trình và quy trình để xử lý các mạng phức tạp của các hệ thống bao gồm máy in, máy tính để bàn, máy quét, điện thoại và các phụ kiện CNTT khác. Tương tự như vậy, các cấu hình của các nút này cũng rất quan trọng vì có nhiều cơ hội ngừng hoạt động của bất kỳ máy nào trong mạng. Do đó, cần có một kiểm tra nhất quán đối với các cấu hình này.
 Tuy nhiên, có nhiều phần mềm nguồn mở và phần mềm miễn phí có sẵn để theo dõi và ghi lại tài sản. Phần mềm này được gọi là Phần mềm cơ sở dữ liệu quản lý cấu hình (CMDB). Gần đây, [containerize.com][1] đã xuất bản giải pháp CMDB [RALPH][2] cung cấp nhiều tính năng để quản lý tài sản và cấu hình tốt hơn. Trong bài đăng trên blog này, chúng tôi sẽ khám phá Ralph bằng cách đề cập đến các điểm sau.
   * **[Giới thiệu ngắn gọn về quản lý tài sản phần mềm CMDB Ralph][3]**

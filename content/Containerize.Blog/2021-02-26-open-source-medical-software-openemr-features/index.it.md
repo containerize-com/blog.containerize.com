@@ -14,7 +14,7 @@ categories: ['Healthcare Software']
 {{< figure align=center src="images/medical-health-solution.png" alt="Software medico open source">}}
 
 
-Panoramica ##
+Panoramica ## 
 In tempi recenti, abbiamo pubblicato post sul blog su [come il software sanitario online autorizza l'industria sanitaria][1] e un articolo di tutorial [come impostare EHealth System HospitalRun su LocalHost][2]. In questo articolo, passeremo attraverso le promettenti caratteristiche offerte dalla  **Soluzione di salute medica**  OpenMR. Nel momento attuale, ogni settore aziendale viene digitalizzato. Enormi macchine e software stanno sostituendo la forza lavoro a causa di determinate caratteristiche. Quindi, il campo medico e sanitario è in gran parte rivoluzionato dall'Internet of Things. Esistono complesse risorse digitali che sono collegate tra loro tramite reti e software complessi. Il termine eHealth sta diventando popolare in cui i medici fanno pieno uso di software e comunicazioni sanitarie.
 Esistono molti software medici open source che forniscono efficienza, migliore qualità e sicurezza. I servizi sanitari digitali hanno ridotto vari costi come costi di viaggio, costi cartacei e costi umani. Tuttavia, copriremo i seguenti punti.
   *[ **COSA È OPENEMR** ][3]

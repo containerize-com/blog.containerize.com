@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/install_phpmyadmin_with_nginx_on_ubuntu.png" alt="Ubuntu'da nginx ile Phpmyadmin nasıl kurulur ve güvence altına alırsınız">}}
 
 
-##  **Genel Bakış ** 
+## **Genel Bakış ** 
 PHPMyAdmin, kullanıcılara sezgisel bir arayüz aracılığıyla MySQL veya MariaDB sunucularını yönetmek için bir web arayüzü sunan ücretsiz ve açık kaynaklı bir veritabanı yönetim aracıdır. Bu, popüler barındırma sağlayıcılarının çoğu tarafından Web yöneticilerinin PhpmyAdmin'de veritabanı oluşturmasına ve veritabanlarını yönetmesine, SQL uyarılarını yürütmesine, içe aktarma ve dışa aktarma verilerini kolayca vermeye izin vermek için sunulan yaygın olarak desteklenen yazılımlardan biridir. PHPMyAdmin'deki MySQL veya MariaDB veritabanlarınıza, bir PHP geliştirme ortamının yanında çalışan bir grafik web arayüzü aracılığıyla NGINX ile erişebileceksiniz.
 Bu kılavuzda, PHPMyAdmin'in Ubuntu 20.04'te Nginx ile nasıl kurulacağı ve güvence altına alınacağını açıklayacağız. MySQL veritabanları ve tablolarla kolayca çalışmasına izin vermek için phpmyAdmin'i Ubuntu sunucusuna yüklemeniz ve yapılandırmanız gerekir. Öyleyse, ubuntu 20.04 / 20.10'da nginx ile phpmyadmin nasıl kurulacağını ve güvence altına alacağınızı öğrenelim:
   * Önkoşullar

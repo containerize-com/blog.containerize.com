@@ -43,9 +43,9 @@ Orada, GZIP sıkıştırmasının etkin olup olmadığını göreceksiniz.
 ## WordPress'te gzip sıkıştırmasını etkinleştir   {#enable}
 **WordPress GZIP sıkıştırmasının henüz etkin olmadığını belirlediyseniz** , çalıştırmak için kullanabileceğiniz birden fazla yöntem vardır. En kolay yol, [WP Rocket][6], [WP Süper Önbellek][7] veya [W3 Total Cache][8] gibi bazı WordPress eklentilerini kullanmaktır. Ancak, bunu .htaccess dosyası veya Nginx yapılandırmanızı güncelleyerek sunucu düzeyinde manuel olarak yapabilirsiniz.
 
-### .htaccess dosyasını düzenleyerek
+## # .htaccess dosyasını düzenleyerek
 WordPress GZIP sıkıştırmasını etkinleştirmenin en yaygın yollarından biri **_.htaccess_ dosyasını**  düzenlemektir. Ancak bu, bir şeyi kırma riskini içerir. Bu hassas bir sunucu dosyasıdır ve yanlış bir hareket çok fazla soruna neden olabilir.
-Riski azaltmak için, herhangi bir değişiklik yapmadan önce orijinal dosyanın bir kopyasını **kaydettiğinizden emin olun. _.Htaccess_ dosyası web sitenizin  **kök klasöründe olmalıdır**  . _.Htaccess_ açtıktan sonra, `### wordpress 've`## end wordpress' etiketleri ile işaretlenen bölümlerin altına aşağıdaki kodu ekleyin
+Riski azaltmak için, herhangi bir değişiklik yapmadan önce orijinal dosyanın bir kopyasını **kaydettiğinizden emin olun. _.Htaccess_ dosyası web sitenizin  **kök klasöründe olmalıdır**  . _.Htaccess_ açtıktan sonra, `## # wordpress 've`## end wordpress' etiketleri ile işaretlenen bölümlerin altına aşağıdaki kodu ekleyin
 ```
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
 AddOutputFilterByType DEFLATE application/javascript

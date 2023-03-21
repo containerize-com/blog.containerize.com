@@ -39,19 +39,19 @@ sudo reboot
 ## Schritt 2: Lampenerserver installieren
 Um Pydio Secure Enterprise Datei Sharing -Server und das Erstellen einer privaten Open -Source -Cloud zu erstellen, müssen wir zunächst einen laufenden Lampenserver einrichten. Wenn Sie bereits einen Lampenstapel installiert und ausgeführt haben, überspringen Sie diesen Schritt an. Verwenden Sie die folgenden Befehle, um die Lampe auf Ihrem Ubuntu -System einzurichten.
 
-### PHP installieren
+## # PHP installieren
 Sie können PHP auf Ihrem Ubuntu- oder Debian -System installieren, indem Sie Befehle ausführen:
 sudo apt-get installieren Sie Python-Software-Properties
 sudo add-apt-Repository PPA: Ondrej/PHP
 sudo APT-Get-Installation -y-php-GD-php-curl php-zip php-dom php-xml php-Simplexml php-mbstring
 {{_LINE_34_}}
 
-### apache2 installieren
+## # apache2 installieren
 Apache ist die am häufigsten verwendete Open-Source-Webserversoftware. Installieren Sie als Nächstes den Apache -Webserver auf Ubuntu, indem Sie ausführen:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Installieren Sie MySQL
+## # Installieren Sie MySQL
 MySQL Open-Source Relational Database Management System ist ein Bestandteil des LAMP-Webanwendungssoftware-Stacks und anderer. Installieren Sie nun MySQL auf Ubuntu, indem Sie unten ausgeführt werden:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

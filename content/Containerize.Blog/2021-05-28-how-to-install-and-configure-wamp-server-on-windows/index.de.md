@@ -59,7 +59,7 @@ Jetzt werden wir uns mit wenigen Konfigurationen befassen, die Ihnen während de
   ***leere Protokolle**  - WAMSERVER bietet Funktionen zum Löschen von Protokollen aus dem Bedienfeld. Sie können Protokolle wie PHP -Fehlerprotokoll, Apache -Fehlerprotokoll, Apache -Zugriffsprotokoll, MySQL -Protokoll und MariADB -Protokoll leeren. Auch Sie können alle Protokolle gleichzeitig löschen. Klicken Sie mit der rechten Maustaste auf das WAMP-Symbol, um das Dialogfeld "Tools" zu öffnen. Wählen Sie Tools aus und wählen Sie leere Protokolle. Sie finden alle Optionen zum Entfernen von Protokollen.
   ***Sprache ändern**  - Sie können Sprache für das Wampserver -Bedienfeld. Klicken Sie mit der rechten Maustaste auf das WAMP-Symbol, um das Dialogfeld "Tools" zu öffnen. Wählen Sie Sprache und klicken Sie auf die erforderliche Sprache. Sie sehen das Bedienfeld in der neu ausgewählten Sprache.
 
-## Zugriff auf phpmyadmin   {#phpmyadmin}}
+## Zugriff auf phpmyadmin   {#phpmyadmin}
 Sie können auf **PhpMyAdmin**  zugreifen, um Ihre Datenbanken zu verwalten, indem Sie Lokalhost in Ihrem Browser öffnen und dann auf den Link phpmyadmin auf der WampServer -Begrüßungsseite klicken. Außerdem können Sie darauf zugreifen, indem Sie http: // localhost/phpmyadmin URL besuchen.
 
 ## Abschluss

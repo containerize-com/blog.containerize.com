@@ -9,7 +9,7 @@ url: /id/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**Artikel ini akan memperkenalkan chatgpt untuk vscode. Kode Generator Kode OpenAi GPT didasarkan pada model GPT-3 bertenaga kecerdasan open-source.**
+## **Artikel ini akan memperkenalkan chatgpt untuk vscode. Kode Generator Kode OpenAi GPT didasarkan pada model GPT-3 bertenaga kecerdasan open-source.**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="Kode Ekstensi VScode GPT">}}
 

@@ -21,13 +21,13 @@ Es un desafío integrar un foro con sitios web alimentados por WordPress. Aunque
   * [Instalación][4]
   * [Configuración][5]
 
-### Discurso   {#discourse}
+## # Discurso   {#discourse}
 El discurso es un software 100% gratuito, totalmente abierto, moderno, fácil de usar, rico en funciones, basado en el foro de discusión basado en características. Acompaña a una amplia gama de herramientas para discusiones comunitarias. Por lo tanto, su plataforma confiable y adaptable. [Leer más][6]
 
-### WordPress   {#wordpress}
+## # WordPress   {#wordpress}
 WordPress es uno de los software de creación de sitios web y blogs más populares. Su código 100% abierto y tiene una gran comunidad de desarrolladores. Como resultado, esto lo convierte en la opción número uno de desarrolladores, bloggers y constructores de sitios web. Una gran cantidad de sitios web en línea se ejecutan hoy en WordPress. Porque, permite que cualquier persona sin experiencia en desarrollo cree sitios web. [Leer más][7]
 
-### complemento oficial de WordPress para el discurso   {#plugin}
+## # complemento oficial de WordPress para el discurso   {#plugin}
 Teniendo en cuenta el volumen de sitios web alimentados por WordPress. Y, una gran demanda de integración con WordPress. Discurso, ha lanzado un complemento oficial de WordPress que hace que la integración sea realmente fácil.
 [Discurso WP][8] es el discurso oficial del complemento de WordPress es de código abierto al 100%. Y está disponible gratuitamente para descargar desde el repositorio. El código fuente está disponible en [GitHub][9].
 Este complemento le permite utilizar el discurso como motor comunitario para su sitio web o blog de WordPress. Tiene muchas características y algunos de los aspectos más destacados del complemento, y lo que se puede lograr es lo siguiente.
@@ -37,7 +37,7 @@ Este complemento le permite utilizar el discurso como motor comunitario para su 
   * El complemento también viene con funcionalidad SSO opcional que le permite usar su sitio de WordPress como proveedor de inicio de sesión único para su foro de discurso.
   * El complemento le permite usar el discurso como proveedor de autenticación para su sitio de WordPress.
 
-### Instalación   {#Installation}
+## # Instalación   {#Installation}
 Puede instalar fácilmente el complemento buscando "WP Discurso" dentro de su tablero de WordPress.
   * Desde el tablero de WordPress, navegue a complementos> Agregar nuevo
   * Buscar "discurso de WP"
@@ -46,7 +46,7 @@ Puede instalar fácilmente el complemento buscando "WP Discurso" dentro de su ta
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="Instale el complemento de discurso WP desde el tablero de WordPress">}}
 
 
-### Configuración   {#settings}
+## # Configuración   {#settings}
 El discurso de WP le brinda el control total con la configuración. Le permite establecer la conexión entre las dos plataformas. Publicar la configuración le permite controlar cómo desea publicar el contenido de WordPress al discurso.
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="Configuración común">}}
@@ -64,7 +64,7 @@ La configuración de SSO le permite habilitar el inicio de sesión único entre 
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-### Conclusión
+## # Conclusión
 En este tutorial hemos aprendido a integrar el discurso con WordPress. El discurso de WP ha facilitado la fusión de dos productos de primera clase. Como resultado, la integración con WordPress ha resuelto el problema de una gran comunidad que era difícil administrar un foro.
 
   

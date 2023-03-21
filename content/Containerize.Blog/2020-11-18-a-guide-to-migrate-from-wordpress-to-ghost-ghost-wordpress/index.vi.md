@@ -24,10 +24,10 @@ Do đó, nhiều người dùng hơn**di chuyển từ WordPress sang Ghost**. C
 * **[Nhập nội dung vào Ghost][7]**
 * **[Kết luận][8]**
 
-##**một phần giới thiệu briedf của wordpress** {#wp}
+## **một phần giới thiệu briedf của wordpress** {#wp}
 [WordPress][9] là một nền tảng blog nguồn mở hàng đầu đã cung cấp một số lượng lớn các trang web. Phần mềm viết blog miễn phí này là tự lưu trữ, đa ngôn ngữ và cung cấp hỗ trợ cho nhiều ngôn ngữ. Hơn nữa, cộng đồng phát triển của WordPress rất sôi động và đã phát triển một nhóm các plugin hữu ích khổng lồ có sẵn dễ dàng. Các plugin này giải quyết hầu hết mọi trường hợp sử dụng của trang web doanh nghiệp của bạn. Ngoài ra, nó được viết bằng PHP và đi kèm với tài liệu toàn diện về phát triển và triển khai. Tất cả các mã nguồn có sẵn trên GitHub. Hơn nữa, nền tảng viết blog này có khả năng mở rộng cao, có thể định cấu hình và cung cấp tích hợp với các ứng dụng của bên thứ ba. Có một bảng điều khiển rất hợp lý và dễ hiểu, nơi người dùng có thể kéo và thả các yếu tố để sửa đổi giao diện và cảm nhận của trang web của họ.
 
-##**Ghost là gì?** {#Ghost}
+## **Ghost là gì?** {#Ghost}
 [Ghost][10] là một nền tảng viết blog nguồn mở phổ biến khác. Đây là một trong những nền tảng xuất bản nội dung được sử dụng rộng rãi nhất được các nhà phát triển và chủ sở hữu trang web chấp nhận cao. Ngoài ra, Ghost rất thân thiện với SEO và đi kèm với các chủ đề, biểu mẫu, bản tin email và đăng ký tích hợp. Phần mềm viết blog miễn phí này được viết bằng JavaScript và tất cả các tài liệu có sẵn liên quan đến phát triển và triển khai.
 
 ## Yêu cầu   {#Requirements}

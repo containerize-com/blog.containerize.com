@@ -25,14 +25,14 @@ Jedes Unternehmen benötigt eine Art System für die Verwaltung von Rechnungen, 
 ## Installationsverfahren von Crater   {#installation}
 Wir werden diskutieren, wie das Krater mit der manuellen Methode und Docker in diesem Abschnitt installiert wird.
 
-### Manuelle Installation
+## # Manuelle Installation
   * Laden Sie die neueste Version von.
   * Laden Sie die heruntergeladene ZIP -Datei auf Ihren Server hoch und extrahieren Sie sie.
   * Zeigen Sie Ihre Domain in das öffentliche Verzeichnis im Kraterordner.
   * Navigieren Sie zum Root Ihres Projekts und führen Sie den Befehl „sudo chmod -r 775 ./“ aus, um geeignete Berechtigungen zuzuweisen.
   * Öffnen Sie Ihre Website im Browser und befolgen Sie den Installationsassistenten.
 
-### Docker Installation
+## # Docker Installation
   * Installieren Sie Docker auf Ihrem Server :.
   * Installieren Sie Docker Compose, indem Sie diese Anleitung folgen :.
   * Klonkrater -Repository mit diesem Befehl.

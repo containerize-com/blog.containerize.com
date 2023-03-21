@@ -14,7 +14,7 @@ categories: ['Blogging', 'Marketing Automation']
 {{< figure align=center src="images/integrate-civicrm-with-wordpress-banner-1024x536.png" alt="Civicrm WordPress">}}
 
 
-Panoramica ##:
+Panoramica ## :
 Benvenuti in questo articolo di tutorial che parla di**Civicrm WordPress Integrazione**. Il fatto è che viviamo nell'era di informazioni e dati. Alcune cose danno funzionalità distintive alla tua attività come l'automazione della raccolta di dati, una comunicazione coerente, campagne di marketing e altri flussi di lavoro aziendali. In questa era moderna, la quantità di dati è in aumento di giorno in giorno. Le organizzazioni ricevono questi dati da varie fonti di dati. Di conseguenza, diventa difficile gestire e compilare una quantità così enorme di dati. Tuttavia, è molto importante assicurarsi che l'integrità e l'autenticità dei dati siano la base di un'efficace campagna di marketing. Inoltre, il verificarsi di dati in più luoghi dà vita a problemi e cattiva gestione e i team operativi hanno difficoltà a venire sulla stessa pagina e lavorare in una direzione unificata.
 D'altra parte, esistono diversi sistemi di gestione dei contenuti che hanno ottenuto il potente supporto degli utenti e delle comunità degli sviluppatori a causa di una solida gestione dei contenuti e dei sistemi di eco a friendly SEO. Questi sistemi di gestione dei contenuti open source offrono sviluppi e distribuzioni facili e rapidi per raggiungere obiettivi relativi ai contenuti. Offre funzionalità in termini di costi, funzionalità estensibili e auto-hosting. Questo**Tutorial plug -in WordPress**riguarda l'integrazione di [Civicrm][2] con [WordPress][3] e copriremo i seguenti punti elenco
   * [Vantaggi di questa combinazione per le imprese?][4]

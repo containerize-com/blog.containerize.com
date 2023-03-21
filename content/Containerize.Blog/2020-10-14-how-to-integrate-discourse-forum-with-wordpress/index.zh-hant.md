@@ -9,7 +9,7 @@ url: /zh-hant/how-to-integrate-discourse-forum-with-wordpress/
 categories: ['Blogging', 'Discussion Forum']
 ---
 
-##學習如何在本教程中將話語論壇與WordPress整合在一起。使用話語的官方WordPress插件
+## 學習如何在本教程中將話語論壇與WordPress整合在一起。使用話語的官方WordPress插件
 
 {{< figure align=center src="images/integrate-discourse-with-wordpress-banner-1024x536.png" alt="將話語與WordPress整合">}}
 
@@ -21,13 +21,13 @@ categories: ['Blogging', 'Discussion Forum']
   * [安裝][4]
   * [設置][5]
 
-###話語 {#discourse}
+## #話語 {#discourse}
 話語是100％免費的，完全開源的，現代，易於使用的，基於特徵的社區討論論壇軟件。它伴隨著社區討論的各種工具。因此，其可靠和適應性的平台。 [閱讀更多][6]
 
-### WordPress   {#wordpress}
+## # WordPress   {#wordpress}
 WordPress是最受歡迎的網站建設和博客軟件之一。它的100％開源，並擁有一個龐大的開發社區。結果，這使其成為開發人員，博客作者和網站建設者的第一選擇。如今，許多在線網站在WordPress上運行。因為，它允許任何沒有開發經驗的人建立網站。 [閱讀更多][7]
 
-###語言官方WordPress插件 {#plugin}
+## #語言官方WordPress插件 {#plugin}
 考慮由WordPress提供動力的網站的數量。而且，與WordPress集成的巨大需求。話語已發布了一個官方的WordPress插件，使集成變得非常容易。
 [WP話語][8]是官方話語WordPress插件是100％開源的。並且，可以免費從存儲庫下載。源代碼可在[Github][9]上找到。
 該插件使您可以將話語用作WordPress網站或博客的社區引擎。它具有許多功能和插件的某些亮點，可以實現的措施如下。
@@ -37,7 +37,7 @@ WordPress是最受歡迎的網站建設和博客軟件之一。它的100％開�
 * 該插件還具有可選的SSO功能，可讓您將WordPress網站用作話語論壇提供商的單個標誌。
 * 該插件允許您將話語用作WordPress網站的身份驗證提供商。
 
-###安裝 {#installation}
+## #安裝 {#installation}
 您可以通過在WordPress儀表板中搜索“ WP話語”來輕鬆安裝插件。
 * 從WordPress儀表板中，導航到插件>添加新
 * 搜索“ WP話語”
@@ -46,7 +46,7 @@ WordPress是最受歡迎的網站建設和博客軟件之一。它的100％開�
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="從WordPress儀表板安裝WP話語插件">}}
 
 
-###設置 {#settings}
+## #設置 {#settings}
 WP話語可以使您完全控制設置。它使您可以在兩個平台之間建立連接。發佈設置，允許您控制如何從WordPress發佈到話語的內容。
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="通用設置">}}
@@ -64,7 +64,7 @@ SSO設置允許您在WordPress網站和話語論壇之間啟用單登錄。因�
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-##＃ 結論
+## #  結論
 在本教程中，我們學會瞭如何將話語與WordPress整合在一起。 WP話語使得融合兩種頂級產品變得容易。結果，與WordPress的集成解決了一個龐大的社區的問題，該問題發現很難管理論壇。
 
   

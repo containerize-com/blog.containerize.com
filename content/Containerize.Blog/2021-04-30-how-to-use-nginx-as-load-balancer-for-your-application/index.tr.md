@@ -70,7 +70,7 @@ Tüm sunucuları yerinde bulundurduğunuz sürece, şimdi Nginx açık kaynak y�
 ## upstream direktifleri   {#upstream}
 Son örneğimizde, trafiği sunucular arasında eşit olarak dağıtmak için yuvarlak robin yük dengeleme yapmak için basit bir yukarı akış modülü kullandık. Bununla birlikte, bunun trafikle çalışmanın en etkili yolu olmamasının birçok nedeni vardır. Site ziyaretçilerini daha etkili bir şekilde yönlendirmek için kullanabileceğimiz birkaç yönerge vardır.
 
-### Ağırlık
+## # Ağırlık
 Kullanıcıları daha hassas bir şekilde sunuculara tahsis etmeye başlamanın bir yolu, belirli makinelere belirli ağırlık tahsis etmektir. Nginx, her sunucuya yönlendirilmesi gereken trafiğin oranını belirten bir sayı atamamıza olanak tanır.
 Sunucu ağırlığı içeren yük dengeli bir kurulum şöyle görünebilir:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 Varsayılan ağırlık 1'dir. 2 ağırlık 2 ile backend2.example, Backend1'den iki kat daha fazla trafik gönderilecek ve 4 ağırlık ile Backend3, Backend2'den iki kat daha fazla trafik ve arka uçtan dört kat daha fazla trafikle ilgilenecek 1.
 
-### Doğramak
+## # Doğramak
 IP Hash, sunucuların istemcilere IP adreslerine göre yanıt vermesine izin verir ve ziyaretçileri her ziyaret ettiklerinde aynı VPS'ye geri gönderir (bu sunucu kapalı olmadıkça). Bir sunucunun aktif olmadığı biliniyorsa, aşağı olarak işaretlenmelidir. Down sunucusuna gitmesi gereken tüm IP'ler daha sonra alternatif olana yönlendirilir.
 Aşağıdaki yapılandırma bir örnek sunmaktadır:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### Max başarısız oluyor
+## # Max başarısız oluyor
 Varsayılan yuvarlak robin ayarlarına göre, Nginx uygulama yük dengeleyici, sunucular yanıt vermese bile sanal özel sunuculara veri göndermeye devam edecektir. Max Fails, yanıt vermeyen sunucuları belirli bir süre için çalışkan hale getirerek bunu otomatik olarak önleyebilir.
 Maks ile ilişkili iki faktör vardır: maks. Max Fails, etkin olmayan kabul edilmeden önce gerçekleşmesi gereken bir sunucuya bağlanma için başarısız girişim sayısını ifade eder. Fall_timeout, sunucunun çalışmaz olarak kabul edildiğini belirtir. Zaman süresi sona erdiğinde, sunucuya ulaşmak için yeni girişimler tekrar başlayacaktır. Varsayılan zaman aşımı değeri 10 saniyedir.
 Örnek bir yapılandırma şöyle görünebilir:

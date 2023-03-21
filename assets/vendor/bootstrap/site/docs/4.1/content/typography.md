@@ -90,7 +90,7 @@ All HTML headings, `<h1>` through `<h6>`, are available.
 {% endcapture %}
 {% include example.html content=example %}
 
-### Customizing headings
+## # Customizing headings
 
 Use the included utility classes to recreate the small secondary heading text from Bootstrap 3.
 
@@ -196,7 +196,7 @@ For quoting blocks of content from another source within your document. Wrap `<b
 {% endcapture %}
 {% include example.html content=example %}
 
-### Naming a source
+## # Naming a source
 
 Add a `<footer class="blockquote-footer">` for identifying the source. Wrap the name of the source work in `<cite>`.
 
@@ -208,7 +208,7 @@ Add a `<footer class="blockquote-footer">` for identifying the source. Wrap the 
 {% endcapture %}
 {% include example.html content=example %}
 
-### Alignment
+## # Alignment
 
 Use text utilities as needed to change the alignment of your blockquote.
 
@@ -230,7 +230,7 @@ Use text utilities as needed to change the alignment of your blockquote.
 
 ## Lists
 
-### Unstyled
+## # Unstyled
 
 Remove the default `list-style` and left margin on list items (immediate children only). **This only applies to immediate children list items**, meaning you will need to add the class for any nested lists as well.
 
@@ -255,7 +255,7 @@ Remove the default `list-style` and left margin on list items (immediate childre
 {% endcapture %}
 {% include example.html content=example %}
 
-### Inline
+## # Inline
 
 Remove a list's bullets and apply some light `margin` with a combination of two classes, `.list-inline` and `.list-inline-item`.
 
@@ -268,7 +268,7 @@ Remove a list's bullets and apply some light `margin` with a combination of two 
 {% endcapture %}
 {% include example.html content=example %}
 
-### Description list alignment
+## # Description list alignment
 
 Align terms and descriptions horizontally by using our grid system's predefined classes (or semantic mixins). For longer terms, you can optionally add a `.text-truncate` class to truncate the text with an ellipsis.
 

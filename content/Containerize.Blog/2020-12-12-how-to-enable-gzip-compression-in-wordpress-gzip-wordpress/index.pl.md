@@ -31,7 +31,7 @@ Należy również pamiętać, że kompresja GZIP musi być włączona na serwerz
 GZIP, najpopularniejsza metoda kompresji, jest używana przez serwery i przeglądarki do kompresji i dekompresji treści, ponieważ jest przesyłany przez Internet. Jest używany głównie w plikach kodu i tekstu, GZIP może zmniejszyć rozmiar plików JavaScript, CSS i HTML nawet o 90%. Domyślnie kompresja GZIP nie kompresuje obrazów ani filmów. W tym celu musisz zoptymalizować obrazy dla Internetu w swojej witrynie WordPress. Właśnie dlatego większość narzędzi do testowania prędkości witryny, takich jak Google Pagesspeed Insights, zdecydowanie zaleca włączenie kompresji GZIP.
 Gdy serwer WWW otrzyma żądanie strony internetowej, WebServer sprawdza nagłówek żądania, aby sprawdzić, czy przeglądarka obsługuje GZIP. Jeśli tak, serwer generuje znacznik dla strony przed zastosowaniem GZIP. GZIP przekształca znaczniki HTML w skompresowane dane, które są następnie dostarczane do użytkownika końcowego. Gdy użytkownik końcowy odbiera skompresowane dane, ich przeglądarka ich dekompresuje.
 
-##**Jak sprawdzić, czy kompresja GZIP jest włączona?** {#Verify}
+## **Jak sprawdzić, czy kompresja GZIP jest włączona?** {#Verify}
 Twój host internetowy może domyślnie włączyć kompresję w WordPress. Jednak nie zawsze tak jest. Możesz ustalić, czy masz już włączoną kompresję GZIP za pomocą Chrome 'DevTools.
 Otwórz witrynę w chromowanej przeglądarce, a następnie kliknij prawym przyciskiem myszy w dowolnym miejscu na stronie i wybierz**Sprawdź**, aby**otwórz narzędzia programistów**.
 Następnie przejdź do karty**Sieć**i kliknij główny adres URL strony internetowej z sekcji „Nazwa”. Wybierz kartę****, a następnie przewiń w dół, aby znaleźć sekcję**nagłówki odpowiedzi**:
@@ -43,7 +43,7 @@ Tam zobaczysz, czy kompresja GZIP jest włączona.
 ## Włącz kompresję GZIP w WordPress   {#enable}
 Jeśli ustaliłeś, że**WordPress GZIP Compression nie jest jeszcze włączona**, istnieje wiele metod, których można użyć, aby go uruchomić. Najłatwiejszym sposobem jest użycie niektórych wtyczek WordPress, takich jak [WP Rocket][6], [WP Super Cache][7] lub [W3 Total Cache][8]. Możesz jednak zrobić to ręcznie na poziomie serwera według pliku .htaccess lub aktualizując konfigurację Nginx.
 
-### poprzez edytowanie pliku .htaccess
+## # poprzez edytowanie pliku .htaccess
 Jednym z najczęstszych sposobów włączenia kompresji WordPress GZIP jest**edycja pliku _.htaccess_**. Obejmuje to jednak ryzyko złamania czegoś. Jest to poufny plik serwerowy, a jeden zły ruch może spowodować wiele problemów.
 Aby zmniejszyć ryzyko, przed wprowadzeniem jakichkolwiek zmian zapisz kopię oryginalnego pliku**. Plik _.htaccess_ powinien znajdować się w folderze**w Twojej witrynie**. Po otworze
 ```

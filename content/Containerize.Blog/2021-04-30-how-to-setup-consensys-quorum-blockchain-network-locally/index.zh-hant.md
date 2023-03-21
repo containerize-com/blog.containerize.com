@@ -9,7 +9,7 @@ url: /zh-hant/how-to-setup-consensys-quorum-blockchain-network-locally/
 categories: ['Blockchain Platforms']
 ---
 
-##建立自己的公共/私人區塊鍊網絡，以管理和監視業務數字交易。讓我們學習如何在Localhost上設置COSSENSYS QUORUM。
+## 建立自己的公共/私人區塊鍊網絡，以管理和監視業務數字交易。讓我們學習如何在Localhost上設置COSSENSYS QUORUM。
 
 {{< figure align=center src="images/quorum.png" alt="共識法規">}}
 
@@ -31,7 +31,7 @@ Consensys Quorum提供以下重要功能：
   *公共/私人網絡
 [了解有關共識法規的更多信息][11]
 
-##****有哪些先決條件和安裝過程？****   {#前提條件}
+## ****有哪些先決條件和安裝過程？****   {#前提條件}
 在本節中，我們將安裝所需的依賴項並設置本地環境。在進入下一步之前，請確保已安裝以下先決條件：
   * nodejs v10+
   * Docker
@@ -45,7 +45,7 @@ npx quorum-dev-quickstart
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="共識法規">}}
 
 
-##****如何啟動網絡？****   {#start}
+## ****如何啟動網絡？****   {#start}
 現在，我們已經制定了源代碼。因此，下一步是使網絡實時。
 運行以下命令進入根目錄。
 ```
@@ -72,7 +72,7 @@ http://localhost:25000
 ./stop.sh 
 ```
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這是本教程的結尾。最重要的是，以太坊的共識群體是一項專門用於財務用例的數字金融技術**。它具有基於投票的共識算法。但是，這項分散技術的主要動機是為企業建立有效的解決方案。
 最後，[containerize.com][12]在[blog.containerize.com][13]上發表了許多有關流行開源產品的技術博客文章和教程。因此，請堅持[區塊鏈平台][14]類別以進行常規更新。
 

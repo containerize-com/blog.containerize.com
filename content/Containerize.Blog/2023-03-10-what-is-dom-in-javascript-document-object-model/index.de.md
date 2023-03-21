@@ -22,7 +22,7 @@ Wir werden die folgenden Themen in diesem JavaScript -Handbuch behandeln:
 * **[DOM -Ebene][3]**
 * **[Was sind DOM -Eigenschaften und wie kann man darauf zugreifen?][4]**
 
-## Was ist Dokumentobjektmodell (DOM)?   {#What-is-dokument-Object-Model}}
+## Was ist Dokumentobjektmodell (DOM)?   {#What-is-dokument-Object-Model}
 Dom steht für?**Dokumentobjektmodell (DOM)**ist die Darstellung einer Webseite in einem Webbrowser. Die hierarchische Darstellung der Elemente eines HTML -Dokuments in einem Browser wird einfach als Dokumentobjektmodell bezeichnet. Es wird in einer Baumform gebildet, die tatsächlich vom Webbrowser generiert wird. Es besteht aus verschiedenen Knoten, die miteinander verbunden sind und eine Baumform bilden. Darüber hinaus haben DOM -Elemente Attribute und Ereignisse an sie.
 Tatsächlich ist DOM eine Programmierschnittstelle, die die logische Struktur einer Webseite formuliert und den Weg zum Zugriff auf Seitenelemente diktiert. Grundsätzlich erkennt JavaScript keine HTML -Tags wie Titel, H1 und usw. Daher wird DOM erstellt, sobald ein HTML -Dokument in einen Webbrowser geladen wurde, was es dann ermöglicht, JavaScript die Dokumentelemente zu verstehen.
 

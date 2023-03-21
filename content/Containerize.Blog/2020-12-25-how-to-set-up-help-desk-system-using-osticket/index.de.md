@@ -24,14 +24,14 @@ Osticket bietet ein benutzerfreundliches Bedienfeld und eine Echtzeit-Berichtsko
 
 ## Vor- und Nachteile von Osticket   {#Pros}
 
-#### Pros
+## ## Pros
   * Osticket ist sowohl für Endbenutzer als auch für Support -Agenten äußerst benutzerfreundlich.
   * Mit reichhaltigen Merkmalen gebündelt, hat Osticket alles, was Sie brauchen, ohne übermäßig kompliziert zu sein.
   * Osticket ist vollständig kostenlos und Open -Source -Ticket -Management -Software.
   * Es ist leicht, sicher, zuverlässig und einfach zu installieren, um Helpdesk -Management -Software zu installieren.
   * Es ist flexibel, auf allen beliebten Webservern wie Apache, Nginx, LightTPD und IIS usw. auszuführen.
 
-#### cons
+## ## cons
   * Osticket bietet keine Details zur Ticketanalyse und Statistiken wie andere bezahlte Helpdesk -Systeme.
   * Die Benutzeroberfläche ist im Vergleich zu anderen Support -Systemen sehr einfach und grundlegend.
 

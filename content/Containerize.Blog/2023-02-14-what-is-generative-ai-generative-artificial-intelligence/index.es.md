@@ -20,7 +20,7 @@ Cubriremos los siguientes puntos en este artículo:
 * [**¿Qué es generativo AI y cómo funciona? AI generativo explicado**][3]
 * [**Beneficios comerciales de la inteligencia artificial generativa**][4]
 
-## ¿Qué es la IA generativa y cómo funciona? La IA generativa explicó   {#What-is Generative-AI-How-it-Works-Generative-AI-explicada}}
+## ¿Qué es la IA generativa y cómo funciona? La IA generativa explicó   {#What-is Generative-AI-How-it-Works-Generative-AI-explicada}
 Esta rama de la inteligencia artificial genera contenido como imágenes, texto, audio o video basado en datos existentes. El término "generativo" se usa correctamente aquí porque genera algo nuevo basado en las bases de datos proporcionadas.
 **Inteligencia artificial generativa**se basa principalmente en los siguientes dos modelos:
 **Modelos basados ​​en transformadores:**Este modelo toma la entrada del usuario y genera datos textuales recopilados de fuentes de Internet. ChatGPT es un ejemplo importante porque**GPT-3**(transformador generativo previamente entrenado) genera respuestas textuales recopiladas y compiladas de múltiples fuentes a través de Internet.

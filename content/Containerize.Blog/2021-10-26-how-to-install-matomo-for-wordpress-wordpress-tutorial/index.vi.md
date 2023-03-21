@@ -37,7 +37,7 @@ Tiếp theo, cài đặt plugin này và nhấn Kích hoạt để kích hoạt 
 
 Vẻ đẹp của WordPress là nó giao tiếp với plugin Matomo một cách liền mạch thông qua API. Phần mềm phân tích web nguồn mở  **này **  cung cấp mã theo dõi giống như Google Analytics. Do đó, bạn không cần phải chèn mã theo dõi theo cách thủ công thay vì nó tự động xảy ra. Cuối cùng, plugin Matomo được cài đặt và thiết lập trên WordPress và bạn có thể bắt đầu theo dõi dữ liệu trang web doanh nghiệp của mình.
 
-##  **Bảng điều khiển Matomo **    {#Dashboard}
+## **Bảng điều khiển Matomo **    {#Dashboard}
 Hướng dẫn  **WordPress này **  đã mô tả sự tích hợp của plugin Matomo nguồn mở  **** . Bây giờ, hãy để khám phá bảng điều khiển của nó cung cấp các mô -đun mạnh mẽ. Trong menu Matomo Analytics, nhấp vào tùy chọn Báo cáo trên mạng sẽ đưa bạn đến bảng điều khiển Matomo của trang web của bạn như trong hình ảnh bên dưới.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="phân tích web nguồn mở">}}

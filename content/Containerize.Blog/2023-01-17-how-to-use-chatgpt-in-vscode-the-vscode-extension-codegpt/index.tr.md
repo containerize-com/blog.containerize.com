@@ -9,7 +9,7 @@ url: /tr/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**Bu makale VSCODE için ChatGPT'yi tanıtacaktır. Bir Openai Kodu Jeneratör Kodu GPT, açık kaynaklı yapay zeka destekli GPT-3 modeline dayanır.**
+## **Bu makale VSCODE için ChatGPT'yi tanıtacaktır. Bir Openai Kodu Jeneratör Kodu GPT, açık kaynaklı yapay zeka destekli GPT-3 modeline dayanır.**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="VSCODE Uzatma Kodu GPT">}}
 

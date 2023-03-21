@@ -14,7 +14,7 @@ categories: ['Single Sign-On']
 {{< figure align=center src="images/ssoBiz.png" alt="Soluzione SSO">}}
 
 
-Panoramica ##
+Panoramica ## 
 Di recente abbiamo pubblicato un post sul blog sul [top 5 software open source singolo di accesso nell'anno 2021][1] che fornisce una breve introduzione del sistema Top  **SSO** . In questo post sul blog, tratteremo i seguenti punti.
   *[ **Qual è la tecnologia SSO?** ][2]
   * **[Ho][3]**[ **W**  ][3] **[Single Sign-on (SSO) funziona?][3]** 

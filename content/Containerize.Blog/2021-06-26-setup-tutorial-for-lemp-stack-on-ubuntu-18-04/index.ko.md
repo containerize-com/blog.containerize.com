@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-### nginx 웹 서버 설치
+## # nginx 웹 서버 설치
   *Ubuntu**에 nginx를 설치하려면 아래 명령을 실행하십시오.
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Nginx 웹 서버 기본 페이지">}}
 
 
-### mySQL 설치
+## # mySQL 설치
 이제 응용 프로그램 데이터 관리를 위해 MySQL 데이터베이스 서버를 설치해야합니다.
   *Ubuntu**에 MySQL을 설치하려면 아래 명령을 실행하십시오.
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### PHP 설치
+## # PHP 설치
 PHP 처리를 위해 PHP-FPM의 설치를 다룰 것입니다. PHP-FPM은 FASTCGI 프로세스 관리자를 나타냅니다. Nginx 웹 서버에는 PHP 처리를위한 내장 기능이 없으므로 PHP-FPM을 사용합니다. 또한 Data Management 용 MySQL과 PHP를 통신하기위한 PHP-MYSQL을 설치합니다.
   *Ubuntu**에 PHP를 설치하려면 아래 명령을 실행하십시오.
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### 테스트 php
+## # 테스트 php
   * nginx가 PHP 페이지를 올바르게 제공하는지 확인하기 위해 구성 테스트를위한 PHP 파일을 만듭니다.
   * 아래 명령을 실행하여 nginx 웹 서버의 루트 디렉토리에서 info.php 파일을 만듭니다.
 ```

@@ -9,7 +9,7 @@ url: /th/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**บทความนี้จะแนะนำ chatgpt สำหรับ vscode รหัสเครื่องกำเนิดรหัส OpenAI GPT นั้นใช้โมเดล GPT-3 ที่ใช้พลังงานปัญญาโอเพนซอร์ซ
+## **บทความนี้จะแนะนำ chatgpt สำหรับ vscode รหัสเครื่องกำเนิดรหัส OpenAI GPT นั้นใช้โมเดล GPT-3 ที่ใช้พลังงานปัญญาโอเพนซอร์ซ
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="Vscode Code GPT">}}
 

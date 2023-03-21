@@ -9,7 +9,7 @@ url: /ko/how-to-integrate-discourse-forum-with-wordpress/
 categories: ['Blogging', 'Discussion Forum']
 ---
 
-##이 튜토리얼에서 Discourse Forum을 WordPress와 통합하는 방법을 배우십시오. Discourse의 공식 WordPress 플러그인 사용
+## 이 튜토리얼에서 Discourse Forum을 WordPress와 통합하는 방법을 배우십시오. Discourse의 공식 WordPress 플러그인 사용
 
 {{< figure align=center src="images/integrate-discourse-with-wordpress-banner-1024x536.png" alt="WordPress와 담론을 통합하십시오">}}
 
@@ -21,13 +21,13 @@ categories: ['Blogging', 'Discussion Forum']
   * [설치][4]
   * [설정][5]
 
-### 담론   {#Discourse}
+## # 담론   {#Discourse}
 담론은 100% 무료, 완전 오픈 소스이며 현대적이며 사용하기 쉬운 기능이 풍부한 커뮤니티 기반 토론 포럼 소프트웨어입니다. 커뮤니티 토론을위한 광범위한 도구와 함께 제공됩니다. 따라서 신뢰할 수 있고 적응 가능한 플랫폼. [더 읽기][6]
 
-### WordPress   {#wordpress}
+## # WordPress   {#wordpress}
 WordPress는 가장 인기있는 웹 사이트 구축 및 블로깅 소프트웨어 중 하나입니다. 100% 오픈 소스이며 거대한 개발자 커뮤니티가 있습니다. 결과적으로 이것은 개발자, 블로거 및 웹 사이트 빌더 중 하나의 선택이됩니다. 오늘날 수많은 온라인 웹 사이트가 WordPress에서 실행됩니다. 개발 경험이없는 사람은 누구나 웹 사이트를 구축 할 수 있기 때문입니다. [더 읽기][7]
 
-### 담론을위한 공식 워드 프레스 플러그인   {#plugin}
+## # 담론을위한 공식 워드 프레스 플러그인   {#plugin}
 WordPress가 구동하는 웹 사이트의 양을 고려합니다. 그리고 WordPress와의 통합 수요. 담론은 통합을 정말 쉽게 만드는 공식 WordPress 플러그인을 발표했습니다.
 [WP 담론][8] 공식 담론 WordPress 플러그인은 100% 오픈 소스입니다. 그리고 저장소에서 무료로 다운로드 할 수 있습니다. 소스 코드는 [github][9]에서 사용할 수 있습니다.
 이 플러그인을 사용하면 Condibourse를 WordPress 웹 사이트 또는 블로그의 커뮤니티 엔진으로 사용할 수 있습니다. 플러그인의 많은 기능과 일부 하이라이트가 있으며 달성 할 수있는 것은 다음과 같습니다.
@@ -37,7 +37,7 @@ WordPress가 구동하는 웹 사이트의 양을 고려합니다. 그리고 Wor
   * 플러그인에는 또한 옵션 SSO 기능이 제공되어 WordPress 사이트를 담론 포럼 제공 업체의 단일 사인으로 사용할 수 있습니다.
   * 플러그인을 사용하면 담론을 WordPress 사이트의 인증 제공 업체로 사용할 수 있습니다.
 
-### 설치   {#installation}
+## # 설치   {#installation}
 WordPress 대시 보드 내에서 "WP 담론"을 검색하여 플러그인을 쉽게 설치할 수 있습니다.
   * WordPress 대시 보드에서 플러그인으로 탐색> 새로운 추가
 * “WP 담론”검색
@@ -46,7 +46,7 @@ WordPress 대시 보드 내에서 "WP 담론"을 검색하여 플러그인을 �
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="WordPress 대시 보드에서 WP 담론 플러그인을 설치하십시오">}}
 
 
-### 설정   {#settings}
+## # 설정   {#settings}
 WP 담론은 설정을 통해 완전히 제어 할 수 있습니다. 두 플랫폼간에 연결을 설정할 수 있습니다. 설정을 게시하면 WordPress에서 담론으로 내용을 게시하는 방법을 제어 할 수 있습니다.
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="일반적인 설정">}}
@@ -64,7 +64,7 @@ SSO 설정을 사용하면 WordPress 사이트와 담론 포럼간에 단일 사
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-### 결론
+## # 결론
 이 튜토리얼에서 우리는 담론을 WordPress와 통합하는 방법을 배웠습니다. WP 담론은 두 가지 최고급 제품을 쉽게 만들 수있게 만들었습니다. 결과적으로 WordPress와의 통합은 포럼을 관리하기가 어려운 거대한 커뮤니티의 문제를 해결했습니다.
 
   

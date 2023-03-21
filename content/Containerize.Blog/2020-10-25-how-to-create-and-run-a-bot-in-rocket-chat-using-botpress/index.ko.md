@@ -9,7 +9,7 @@ url: /ko/how-to-create-and-run-a-bot-in-rocket-chat-using-botpress/
 categories: ['Live Chat']
 ---
 
-##이 튜토리얼에서는 Botpress를 사용하여 봇을 만드는 방법과 Rocket.chat와의 통합 방법을 안내합니다.
+## 이 튜토리얼에서는 Botpress를 사용하여 봇을 만드는 방법과 Rocket.chat와의 통합 방법을 안내합니다.
 
 {{< figure align=center src="images/How-to-Create-and-Run-a-Bot-in-Rocket.Chat-using-Botpress.png" alt="로켓에서 봇을 생성하고 실행하는 방법 Botpress를 사용하여 Chat">}}
 
@@ -22,13 +22,13 @@ Rocket.Chat은 챗봇 및 메시징 자동화 통합을 장려합니다. 따라�
   * [botpress를 사용하여 봇 코딩][4]
   * [결론][5]
 
-### rocket.chat   {#Rocketchat}
+## # rocket.chat   {#Rocketchat}
 Rocket.chat은 인기있는 라이브 채팅 소프트웨어 중 하나입니다. 커뮤니티 에디션으로 무료 라이브 채팅 버전이 있습니다. 뿐만 아니라 개인 내부 채팅 기능이있는 대기업을위한 유료 호스팅 라이브 채팅 버전. 이 라이브 채팅 응용 프로그램은 브라우저에서 실행되지만 자체 서버에도 설치할 수 있습니다. [더 읽기][6]
 
-### botpress   {#botpress}
+## # botpress   {#botpress}
 대화적인 챗봇은 비즈니스가 고객에게 항상 원하는 고 터치 지원을 제공 할 수있게 해주었습니다. Botpress는 내장 된 자연 언어 처리가있는 가장 인기있는 오픈 소스 봇 제작 도구 중 하나입니다. Botpress의 NLU 기술은 Botkit, Dialogflow 및 Microsoft Bot Framework와 같은 분야의 경쟁 업체보다 한 발 앞서 있습니다. [더 읽기][7]
 
-### rocket.chat   {#createbotuser}에서 봇 사용자를 만듭니다.
+## # rocket.chat   {#createbotuser}에서 봇 사용자를 만듭니다.
 챗봇과 대화하려면 봇이 로그인 할 수있는 Rocket.chat 서버에 미리 구성된 사용자 계정이 있어야합니다.
 계정을 만들려면 관리자 권한이 있어야합니다.
   1. Topbar에서 3 개의 점 (옵션)을 클릭 한 다음**관리**를 클릭하십시오.
@@ -42,7 +42,7 @@ Rocket.chat은 인기있는 라이브 채팅 소프트웨어 중 하나입니다
   9. _save_를 클릭합니다.
 저장되면 봇은 4 단계에서 사용자 이름과 비밀번호 세트로 구성됩니다. "rocketchat \ _user"및 "rocketchat \ _password"환경 변수를 사용 하여이 사용자 이름과 비밀번호 쌍으로 Rocket.chat 서버에 로그인 할 수 있습니다.
 
-### botpress   {#codebot}을 사용하여 봇 코드 코드
+## # botpress   {#codebot}을 사용하여 봇 코드 코드
 Botpress는 Node.js 패키지이며 Node 및 NPM과 함께 작동합니다.
 Botpress로 시작하는 가장 빠른 방법은 [Botpress-Kick-Starter][8] 저장소를 사용하는 것입니다.
 봇으로 작업하려는 폴더로 이동하여 다음 단계를 진행하십시오.
@@ -133,7 +133,7 @@ npm start
 * * 봇과 대화**
 서버에서 일반 사용자 (봇 사용자가 아닌)로 로그인하고 General Room으로 가서 새로 만든 봇과 대화하십시오.
 
-### 결론   {#conclusion}
+## # 결론   {#conclusion}
 이 기사에서는 Botpress에서 봇을 만드는 방법을 배웠습니다. 그리고 Rocket.chat로 구성하는 방법. Botpress를 사용하면 사용자가 혁신적인 자동화 된 워크 플로를 쉽게 구축 할 수 있습니다. 그리고 로켓과의 통합을 사용하면 대화 방식으로 제어 할 수 있습니다.
 
   

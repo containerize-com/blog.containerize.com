@@ -21,15 +21,15 @@ Les points suivants seront couverts dans cet article:
   * [**Une brève introduction à WordPress**][4]
   * **[Comment installer le plugin bigbluebutton dans wordpress?][5]**
 
-##**Qu'est-ce que BigblueButton?** {# What-is-bigBlueButton}
+## **Qu'est-ce que BigblueButton?** {# What-is-bigBlueButton}
 [BigBlueButton][6] est un logiciel de collaboration vidéo sans open source****avec une énorme pile de fonctionnalités de niveau d'entreprise. Ce logiciel open source est hautement extensible et propose des intégrations avec de nombreuses applications populaires telles que WordPress, [Redmine][7], [Schoology][8], [Drupal][9] et Canvas. De plus, il propose un tableau blanc partagé, des messages publics / privés, un audio HD, une augmentation des mains électroniques, ainsi que de riches outils de présentation. De plus,**BigblueButton**est pris en charge HTML5 et fonctionne bien sur tous les navigateurs Web populaires.
 De plus, ce**logiciel de conférence Web**a une communauté de développeurs énormes et vivante. Il y a de très bonnes statistiques sur son [Github Repo][10] avec 7,8k étoiles et 5,8k fourches. BigblueButton est écrit en JavaScript ainsi que la saisie d'autres langues telles que Java et Ruby. En fait, les développeurs peuvent trouver une documentation complète concernant le développement, le déploiement et l'utilisation. Ainsi, vous pouvez configurer facilement ce logiciel auto-hébergé sur un serveur local ou cloud.
 
-##**Une brève introduction à WordPress** {# a-Brief-intro-to-wordpress}
+## **Une brève introduction à WordPress** {# a-Brief-intro-to-wordpress}
 [WordPress][2] est l'une des meilleures plates-formes de blogs open source**dans la catégorie des logiciels de site Web. Ce logiciel open source est convivial, même un développeur Web de niveau débutant peut faire la construction du site et le lancer. De plus, WordPress est très configurable et vous pouvez le personnaliser conformément aux besoins de votre entreprise. Surtout, il a un immense [marché][11] où vous pouvez trouver un certain nombre de plugins.
 Ce**logiciel de blogging**est livré avec des capacités d'auto-hébergement et il y a une prise en charge complète pour plusieurs langues disponibles. En outre, il y a de très bonnes statistiques sur son déménagement [github][12] et vous pouvez télécharger le code source et le configurer facilement. De plus, vous pouvez installer un plugin pour toutes les fonctionnalités de votre site Web WordPress. En fait, vous pouvez trouver des plugins pour les sites appartenant à n'importe quelle catégorie. Il est principalement écrit en PHP et vous pouvez trouver des instructions complètes concernant le développement, le déploiement et l'utilisation.
 
-##**Comment installer le plugin bigbluebutton dans wordpress?** {# comment-installer-bigbluebutton-plugin-dans-wordpress}
+## **Comment installer le plugin bigbluebutton dans wordpress?** {# comment-installer-bigbluebutton-plugin-dans-wordpress}
 Cette section montrera comment**installer un logiciel de conférence Web sur un site WordPress**. De plus, nous explorerons également un peu plus le plugin Bigbluebutton. Avant d'aller plus loin, assurez-vous d'avoir installé WordPress sur votre machine et de faire fonctionner un site Web d'entreprise.
 Veuillez visiter ce [lien][2] Si vous n'auriez pas installé WordPress, vous pouvez trouver des instructions d'installation complètes.
 Commençons le processus d'installation du bigbluebutton [plugin][13] sur WordPress.

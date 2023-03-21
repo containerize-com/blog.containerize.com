@@ -29,7 +29,7 @@ En fait, JavaScript est un langage dactylographié vaguement, ce qui signifie qu
 {{< figure align=center src="images/web-development.png" alt="Guide du débutant JavaScript">}}
 
 
-#### Types de données primitives
+## ## Types de données primitives
 Les types de données primitifs sont ceux qui sont immuables et ne peuvent pas être modifiés après la création et l'initialisation. Cependant, vous pouvez réaffecter une nouvelle valeur mais ne peut pas muter la valeur existante.
 Par exemple:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 Dans l'exemple ci-dessus, String est un type de données primitif et l'ancienne valeur est remplacée par la nouvelle valeur, mais la variation de la valeur existante n'est pas reflétée. Donc, nous pouvons voir que c'est toujours «mon nom est modifié» et non «mon nom est changé»;
 
-#### Types de données non primitives
+## ## Types de données non primitives
 Les types de données non primitifs sont mutables, en mots simples en face des types de données primitifs.
 Par exemple:
 ```

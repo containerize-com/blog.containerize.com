@@ -7,7 +7,7 @@ toc: true
 ---
 
 {% capture callout %}
-##### Warning
+## ## # Warning
 The `text-hide()` class and mixin has been deprecated as of v4.1. It will be removed entirely in v5.
 {% endcapture %}
 {% include callout.html content=callout type="warning" %}

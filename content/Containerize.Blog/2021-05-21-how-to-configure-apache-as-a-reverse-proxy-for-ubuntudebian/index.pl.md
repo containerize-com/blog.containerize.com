@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-Apache-as-a-Reverse-Proxy-1.png" alt="Zainstaluj i skonfiguruj proxy Apache Reverse">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Apache Reverse Proxy pozwala całego ruchu i przekazać go uruchomić jeden lub więcej serwerów zaplecza lub kontenerów za serwerem proxy, bez publicznego ujawnienia. Back-end Server może być innym Apache2 lub Open Source HTTP Server, taki jak Nginx. Apache2 HTTP Server jest jednym z najpopularniejszych serwerów internetowych open source, który jest używany dzisiaj.
 Istnieje wiele powodów instalacji i konfigurowania serwera proxy. Na przykład odwrotny proxy może pomóc w dodaniu bezpieczeństwa, w celu równoważenia obciążenia, ograniczenia dostępu do niektórych lokalizacji, aby zapobiec atakom i wielu innych. W tym artykule wyjaśniono, jak zainstalować i skonfigurować konfigurację proxy Apache Reverse Krok po kroku dla serwera HTTPS na Ubuntu/Debian:
   * Instalowanie Apache2

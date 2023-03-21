@@ -186,7 +186,7 @@ Mã bước 4 được xác minh và xác thực 2FA đã được hoàn thành.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2Fademo - Trang được ủy quyền">}}
 
 
-### Phần kết luận:
+## # Phần kết luận:
 Trong bài viết này, chúng tôi đã tìm hiểu về 2FA và việc triển khai của nó trong .NET5 bằng cách sử dụng IdentityServer4 và Twilio. Bạn có thể tải xuống mã mẫu được sử dụng trong bài viết này từ [repo][6] này.
 Sử dụng SMS cho 2FA chắc chắn tăng cường bảo mật của bạn nhưng nó vẫn dễ bị tổn thương bởi [các cuộc tấn công hoán đổi SIM][7]. Do đó, các nhà nghiên cứu bảo mật đang khuyến khích 2FA sử dụng các phương pháp khác như ứng dụng xác thực và khóa bảo mật ([Yubikey][8]) có thể bị chặn trên mạng điện thoại. Chúng tôi sẽ tìm hiểu thêm về điều đó trong một bài viết sắp tới - hãy theo dõi!
 

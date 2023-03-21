@@ -14,7 +14,7 @@ categories: ['Version Control Software']
 {{< figure align=center src="images/version-control-banner.png" alt="Software di gestione del codice sorgente">}}
 
 
-Panoramica ##
+Panoramica ## 
 Immagina come sviluppatore di software che lavora su un progetto. Hai più di una persona che ci lavora. E c'è un singolo file contenente il codice sorgente. Dato che tutti apportano modifiche al codice, avranno versioni diverse del file ogni volta che apportano una modifica. Quindi, ora come gestiremo diverse versioni dello stesso file? È qui che entra in gioco il software di gestione del codice sorgente. Ti aiuta a gestire e unire diverse versioni dello stesso file. E anche lasciarti rintracciare la storia del cambiamento. E puoi sempre essere sicuro di chi ha apportato le modifiche al file e quali sono quelle modifiche.
 In questo articolo, apprenderemo il sistema di controllo della versione GIT. Come puoi utilizzarlo per gestire i file di codice sorgente di sviluppo del software o qualsiasi altro file. Quindi iniziamo.
   * **[Cos'è il sistema di controllo della versione][1]**
@@ -49,7 +49,7 @@ Usando Git puoi apportare modifiche al repository locale e spingerlo a uno strum
 ## Installa git   {#install}
 Esistono diversi metodi disponibili per l'installazione di Git sul tuo computer. Puoi installarlo come pacchetto o tramite un altro installatore o scaricare il codice sorgente e compilarlo da solo.
 
-### Installazione su Linux
+## # Installazione su Linux
 Se si desidera installare gli strumenti GIT di base su Linux tramite un installatore binario, in genere puoi farlo tramite lo strumento di gestione del pacchetto fornito con la tua distribuzione. Per Fedora (o qualsiasi distribuzione basata su RPM strettamente correlata, come RHEL o CENTOS), è possibile utilizzare "DNF"
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ Se hai una distribuzione basata su Debian, come Ubuntu, prova "Apt"
 $ sudo apt install git-all
 ```
 
-### Installazione su macOS
+## # Installazione su macOS
 Esistono diversi modi per installare Git su un Mac. Il più semplice è probabilmente installare gli strumenti di riga di comando Xcode. Su Mavericks (10.9) o superiore puoi farlo semplicemente cercando di correre  **git**  dal terminale la prima volta.
 ```
 $ git --version

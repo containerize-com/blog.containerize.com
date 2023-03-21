@@ -15,7 +15,7 @@ categories: ['Programming']
 {{< figure align=center src="images/Learn-JavaScript-Basic-Concepts-to-Help-Your-Career.png" alt="Concetti di base JavaScript">}}
 
 
-Panoramica ##
+Panoramica ## 
 JavaScript è un linguaggio di scripting utilizzato per sviluppare applicazioni dinamiche basate sul Web. Utilizziamo HTML e CSS per creare siti Web statici mentre JavaScript viene utilizzato per aggiungere interattività. Nel nostro precedente post sul blog, abbiamo coperto [Modello di oggetti documentali][1] e ora tratteremo alcuni altri importanti concetti di base JavaScript**. Gli sviluppatori Web tendono a optare per questo linguaggio di scripting grazie alle sue ricche caratteristiche e framework. Inoltre, puoi fare sviluppo sul front -end e sul back -end imparando JavaScript. Tuttavia, non è possibile sviluppare solo app Web ma anche app mobili. Questo tutorial JavaScript ti aiuterà se ti stai preparando per una sessione di intervista. Tuttavia, questa guida vale la pena leggere per aggiungere altro al secchio di conoscenza.
 Tratteremo i seguenti punti in questo articolo:
   * **[cosa sta sollevando in javascript][2]**

@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-deployment-tools-in-the-year-2021/
 categories: ['Deployment Tools']
 ---
 
-##使用免費部署工具自動化軟件構建，測試和部署工作流程。我們已經匯總了前5個開源部署軟件的列表。
+## 使用免費部署工具自動化軟件構建，測試和部署工作流程。我們已經匯總了前5個開源部署軟件的列表。
 
 {{< figure align=center src="images/deployment-tools-blog-post.png" alt="免費軟件部署工具">}}
 
@@ -30,7 +30,7 @@ categories: ['Deployment Tools']
   *建立狀態通知
 [**了解有關Jenkins**][8]
 
-##無人機 {#drone}
+## 無人機 {#drone}
 [**無人機**][9]是一種現代的免費和開源CI/CD工具。它是Docker和存儲庫提供商之間的中間層。**無人機**需要存儲庫帳戶信息來引導其身份驗證，用戶和權限模型。此外，它帶有多個數據庫後端和存儲庫提供商。此外，它具有開箱即用的支持，用於設置TLS/SSL證書。開發人員還可以用任何語言創建插件，並將其作為無人機使用的容器發布。無人機用GO語言編寫，其源代碼可在[Github][10]上找到。此**開源連續集成**工具在Apache許可證下發布。
 這是無人機的關鍵功能的列表：
   *孤立的構建
@@ -60,7 +60,7 @@ Capistrano支持以下重要特徵：
   *支持插件
 [**了解更多有關Capistrano**][17]
 
-##牧場主 {#rancher}
+## 牧場主 {#rancher}
 [**牧場主**][18]是一個免費的自託管**容器管理工具**。軟件團隊可以輕鬆地將其用於管理集裝應用程序的管理。它為容器，網絡，存儲，主機管理和負載平衡提供了全面的服務。  **Rancher** 提供了與Aqua，Gitlab，Sysdig，Datadog，Artifactory，Portworx和Calico等容器操作的廣泛流行服務的集成。它是用go編寫的，源代碼可在[github][19]上找到。此開源**容器管理平台**的許可證是Apache-2.0。
 牧場主提出以下關鍵功能：
   *跨主機網絡

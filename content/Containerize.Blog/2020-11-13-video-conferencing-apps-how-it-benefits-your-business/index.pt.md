@@ -32,7 +32,7 @@ Nos últimos tempos, as organizações tendem a adotar **inscrições para reuni
 ## Top 3 Software de videoconferência de código aberto   {#top}
 Existem muitos sistemas de conferência da web de código aberto disponíveis. Então, vamos ver os mais populares:
 
-#### Jitsi Meet
+## ## Jitsi Meet
 [Jitsi Meet][5] é um software de colaboração de vídeo de código aberto com muitas ferramentas de colaboração de vídeo. É altamente seguro e vem com recursos de criptografia. Além disso, este **Software de reunião de código aberto**  usa o software WebRTC Bridge para videoconferências de videoconferências de alta definição. Essa ferramenta gratuita é fácil de configurar e configurável com aplicativos de terceiros. Além disso, os participantes podem conversar um com o outro durante a chamada e podem convidar outros membros compartilhando um link com eles. No entanto, este aplicativo de chamada de vídeo está escrito no JavaScript e toda a documentação está disponível em relação ao desenvolvimento e implantação. Portanto, os desenvolvedores podem encontrar seu código -fonte no [Github][6]. Tem os seguintes recursos importantes:
   * Videoconferência multipartidária
   * Suporte para Etherpad
@@ -40,7 +40,7 @@ Existem muitos sistemas de conferência da web de código aberto disponíveis. E
   * WebRTC Compatível
   * Criptografia de vídeo/áudio
 
-#### bigblueButton
+## ## bigblueButton
 [BigBluebutton][7] é outro aplicativo de videoconferência ** **em tempo real **  que não apenas fornece soluções para reuniões de vídeo, mas também oferece integrações com algumas estruturas de código aberto populares, como [Drupal][8], Redmine, [WordPress][9], e um pouco mais. Como outros aplicativos de reunião de vídeo** , é seguro e vem com recursos de auto-hospedagem. Além disso, fornece uma interface muito lógica que os usuários podem navegar facilmente. No entanto, este aplicativo de chamada de vídeo é escrito em JavaScript, juntamente com a entrada de outros idiomas, como Java, HTML5, Scala Ruby, Groovy e CSS e toda a documentação está disponível em relação ao desenvolvimento e implantação. Portanto, os desenvolvedores podem encontrar seu código -fonte no [Github][10]. A seguir, os principais recursos incluem:
   * Quadro branco de vários usuários
   * Bate-papos em tempo real
@@ -49,7 +49,7 @@ Existem muitos sistemas de conferência da web de código aberto disponíveis. E
   * Suporte para software de terceiros (por exemplo
   * HD Audio
 
-#### OpenVidu
+## ## OpenVidu
 Da mesma forma, [OpenVidu][11] é outro software de colaboração de vídeo **de código aberto  **que fornece recursos e ferramentas para videoconferência remota. Sua arquitetura consiste em duas camadas. O primeiro é o navegador OpenVidu, que é uma biblioteca do lado do cliente e a outra é o servidor OpenVidu que é uma biblioteca de back-end. É fácil configurar e fornece uma imagem do Docker para facilitar implantações e desenvolvimentos. No entanto, este aplicativo de chamada de vídeo **  do grupo**  está escrito em JavaScript e toda a documentação está disponível em relação ao desenvolvimento e implantação. Portanto, os desenvolvedores podem encontrar seu código -fonte no [Github][12]. Alguns recursos proeminentes são:
   * WebRTC Compatível
   * Compartilhamento de tela

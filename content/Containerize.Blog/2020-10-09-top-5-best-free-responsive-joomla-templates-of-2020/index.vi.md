@@ -23,7 +23,7 @@ Giao diện người dùng của một trang web kinh doanh luôn là phần qua
   * [JD Austin][6]
   * [Kết luận][7]
 
-##**Xeon**-**Mẫu joomla đơn miễn phí** {#xeon}
+## **Xeon**-**Mẫu joomla đơn miễn phí** {#xeon}
 [Xeon][8] là một mẫu Joomla thời trang miễn phí. Nó có thể được sử dụng cho nhiều mục đích như các trang web cá nhân, công ty, sự kiện hoặc kinh doanh. Thêm vào đó, mẫu**Joomla One trang này**cung cấp điều hướng dựa trên hình ảnh động của jQuery và CSS. Nó có vẻ là một tùy chọn phù hợp cho người dùng do các tính năng hữu ích như vậy.
 Tuy nhiên, một số tính năng chi phối của mẫu**Xeon**là:
   * Bố cục đáp ứng
@@ -32,7 +32,7 @@ Tuy nhiên, một số tính năng chi phối của mẫu**Xeon**là:
   * Hỗ trợ HTML5, CSS3, SCSS
   * Hỗ trợ ngôn ngữ phải sang trái
 
-##**JD Seattle**-**Mẫu Joomla đa chức năng nhẹ** {#JD}
+## **JD Seattle**-**Mẫu Joomla đa chức năng nhẹ** {#JD}
 [JD Seattle][9] là một mẫu Joomla được sử dụng rộng rãi. Ngoài ra, nó được xây dựng bằng cách sử dụng khung Astroid. Hơn nữa, nó được trang bị một bảng quản trị mạnh mẽ với nhiều tính năng và hình ảnh động khác. Nó được tích hợp với JD Builder, kết quả là, cung cấp cho người dùng cung cấp để thiết kế và xây dựng bất kỳ phần nào theo các yếu tố kéo và thả. Nó thân thiện với bố cục và thích nghi với bất kỳ màn hình ngay lập tức. Nó cung cấp điều hướng logic nơi người dùng có thể chèn càng nhiều mục menu khi cần. Chủ sở hữu trang web có thể liên hệ với khách truy cập trang web thông qua một hình thức liên hệ được đóng gói trong mẫu kinh doanh Joomla này. Hơn nữa, có hơn 800 phông chữ Google được hỗ trợ tại JD Seattle.
 Trên hết, một số tính năng quan trọng của**JD Seattle**là:
   * Điều hướng với các mục menu không giới hạn
@@ -41,7 +41,7 @@ Trên hết, một số tính năng quan trọng của**JD Seattle**là:
   * Hỗ trợ màu RGB
   * Hỗ trợ khung Bootstrap 4
 
-##**Dino**-**Mẫu Joomla có thể tùy chỉnh miễn phí** {#Dino}
+## **Dino**-**Mẫu Joomla có thể tùy chỉnh miễn phí** {#Dino}
 [Dino][10] là một mẫu rất sôi động liên quan đến những cải tiến thường xuyên và cập nhật tính năng mới. Mẫu này tương thích với Bootstrap 4 Do đó, môi trường phát triển**Joomla**cung cấp bố cục đáp ứng đầy đủ và duy trì mã sạch và được tối ưu hóa. Hơn nữa, nó có thể dễ dàng tùy chỉnh theo nhu cầu kinh doanh. Có những phát triển thường xuyên cập nhật mẫu Joomla này với các chức năng và giao diện mới.
 * * Dino**là một lựa chọn hoàn hảo vì các tính năng nổi bật sau đây:
   * Phông chữ Google miễn phí
@@ -50,7 +50,7 @@ Trên hết, một số tính năng quan trọng của**JD Seattle**là:
   * Bố cục thân thiện
   * Hơn 100 thành phần độc đáo
 
-##**Jollyany**-**Mẫu Joomla với các tính năng vô hạn** {#Jollyany}
+## **Jollyany**-**Mẫu Joomla với các tính năng vô hạn** {#Jollyany}
 [Jollyany][11] là một mẫu Joomla có tính năng phong phú. Trên hết, nó được hỗ trợ bởi khung Astroid và khung Bootstrap v4.5. Ngoài ra, nó đưa ra một mặt trước mô -đun nơi người dùng có thể tùy chỉnh giao diện người dùng theo yêu cầu. Có hơn 60 plugin được hỗ trợ trong mẫu Joomla miễn phí này. Người dùng có các tùy chọn để chọn bất kỳ tiêu đề nào trong nhiều tùy chọn tiêu đề. Nếu bạn có ý định thiết kế một trang web cá nhân, blog, công ty hoặc blog thì**jollyany**là lựa chọn tốt nhất.
 Nó là một khung rất hữu ích với nhiều tính năng như:
   * Hỗ trợ menu Canvas
@@ -59,7 +59,7 @@ Nó là một khung rất hữu ích với nhiều tính năng như:
   * Tối ưu hóa HTML, JS, CSS
   * 6 loại bài viết
 
-##**JD Austin**-**SEO Tối ưu hóa mẫu Joomla** {#Austin}
+## **JD Austin**-**SEO Tối ưu hóa mẫu Joomla** {#Austin}
 * * [JD Austin][12]**là một mẫu phản hồi miễn phí**Mẫu kinh doanh Joomla**, tuy nhiên, nó cung cấp các tùy chọn mạnh mẽ cho các trang web thương mại và phi thương mại. Tối ưu hóa công cụ tìm kiếm của nó đang được thực hiện theo các tiêu chuẩn được xác định bởi Google. Trên hết, nó đi kèm với một trình xây dựng hình thức được tích hợp sẵn Chronoform nơi người dùng có thể xây dựng bất kỳ hình thức nào bằng giao diện kéo và thả. Hơn nữa, mẫu này duy trì bố cục đáp ứng cao với kiểu chữ và màu sắc phong phú. Nó cũng cung cấp tích hợp với các tiện ích mở rộng của bên thứ ba.
 Mặt khác, một số tính năng thú vị của mẫu Joomla miễn phí này bao gồm:
   * Bố cục blog được tùy chỉnh đầy đủ

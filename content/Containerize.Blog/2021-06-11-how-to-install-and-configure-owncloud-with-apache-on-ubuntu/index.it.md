@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 OwnCloud è un'applicazione Web Enterprise open source gratuita e popolare scritta in PHP utilizzata per la sincronizzazione dei dati e la condivisione di file. Inoltre, consente di gestire facilmente file di dati, contatti, calendari, per fare elenchi e molti altri. È un'ottima alternativa alle piattaforme cloud più popolari come Google Drive, Dropbox, iCloud e altri servizi di archiviazione cloud là fuori. Ma a differenza degli altri servizi di archiviazione cloud, OwnCloud Self Hosted è gratuito per creare il proprio cloud host.
 OwnCloud è un software cloud privato open source che fornisce l'accesso ai dati utilizzando l'interfaccia Web per creare un cloud privato. Ti consente di creare il tuo server di condivisione di file in cui puoi facilmente visualizzare e sincronizzare eventi di calendario, archivi, immagini, registrazioni, attività, libri di indirizzi con segnalibri, simili a Dropbox e Google Drive. Fornisce inoltre opzioni per sincronizzare e condividere i dati su tutti i dispositivi sotto il controllo. Installa e configura OwnCloud supporta i dati sincronizzati per i client desktop e per i dispositivi di app mobile. Inoltre, è possibile implementare facilmente le restrizioni di accesso agli utenti e al gruppo sui file per utente utilizzando OwnCloud su Ubuntu. OPENCLOUD Open Source Personal Storage Server è un'applicazione incrociata e può essere installato su tutti i sistemi operativi popolari.
 Questo tutorial ti aiuterà a configurare OwnCloud e configurare OwnCloud sui sistemi Ubuntu LTS.

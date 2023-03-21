@@ -24,14 +24,14 @@ Osticket cung cấp một bảng điều khiển thân thiện với người d�
 
 ## Ưu và nhược điểm của Osticket   {#Pros}
 
-#### Ưu điểm
+## ## Ưu điểm
   * Osticket cực kỳ thân thiện với người dùng cho cả người dùng cuối và đại lý hỗ trợ.
   * Được đóng gói với các tính năng phong phú, Osticket có mọi thứ bạn cần mà không quá phức tạp.
   * Osticket hoàn toàn miễn phí và phần mềm quản lý vé nguồn mở.
   * Nó là nhẹ, an toàn, đáng tin cậy và dễ dàng cài đặt phần mềm quản lý bàn trợ giúp.
   * Thật linh hoạt khi chạy trên tất cả các máy chủ web phổ biến bao gồm Apache, Nginx, LightTPD và IIS, v.v.
 
-#### nhược điểm
+## ## nhược điểm
   * Osticket không cung cấp chi tiết phân tích vé và số liệu thống kê như các hệ thống bàn trợ giúp trả phí khác.
   * Giao diện người dùng của nó rất đơn giản và cơ bản khi so sánh với các hệ thống hỗ trợ khác.
 

@@ -14,7 +14,7 @@ categories: ['Blogging']
 {{< figure align=center src="images/dockerwordpress.png" alt="Dockerize WordPress">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro post sul blog nella categoria [Blogging][1] di software open source. Abbiamo pubblicato alcuni articoli su argomenti come [Boost i tuoi lead con l'integrazione gratuita di CivicRM WordPress][2], [come costruire il tuo sito Web con WordPress e Gatsby][3] e altri. Tuttavia, questo articolo porterà ulteriori approfondimenti e dettagli sulle piattaforme di blogging open source e il software di container**. Passeremo attraverso alcune domande calde come ciò che è Docker e**come installare Docker Compons**e impareremo come dockerare WordPress.
 La containerizzazione è diventata una tendenza importante nello sviluppo del software in alternativa alla virtualizzazione. Implica l'incapsulamento o il raggruppamento del codice software e tutte le sue dipendenze in modo che possa essere eseguito in modo coerente su qualsiasi infrastruttura. La containerizzazione consente agli sviluppatori di creare e distribuire applicazioni più velocemente e in modo più sicuro. Docker è l'applicazione di containerizzazione più popolare utilizzata in tutta la comunità degli sviluppatori. In questo tutorial, impareremo come dockerizzare WordPress usando Docker Compose. Quindi, iniziamo con i seguenti punti.
 * [**Cos'è Docker?**][4]
@@ -33,11 +33,11 @@ Non importa se si tratta di una macchina per lo sviluppo, una fase o un server l
 
 ## come installare docker compose   {#install}
 
-### Prerequisiti
+## # Prerequisiti
 È possibile utilizzare Docker Comy per eseguire facilmente WordPress in un ambiente isolato costruito con contenitori Docker. Questa guida dimostra come utilizzare commento per impostare ed eseguire WordPress.
 Docker Compose si basa sul motore Docker, quindi assicurati di avere un motore Docker installato. Sui sistemi desktop come Docker Desktop per Mac e Windows, Docker Compose è incluso come parte di tali installazioni desktop. Tuttavia, su Linux Systems prima, installa il motore Docker seguendo la loro [Guida ufficiale][9].
 
-### Installa composizione su Linux
+## # Installa composizione su Linux
 Esegui questo comando per scaricare l'attuale versione stabile di Docker Compose:
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -51,7 +51,7 @@ Test Installation mediante comando versione:
 docker-compose --version
 ```
 
-### Definisci un file Docker per WordPress
+## # Definisci un file Docker per WordPress
 La prima cosa che dobbiamo fare è definire come sarà la nostra immagine in**_ Dockerfile _**. È un file di testo che viene aggiunto alla directory con le fonti dell'applicazione.
 ```
 FROM wordpress:php7.1-apache

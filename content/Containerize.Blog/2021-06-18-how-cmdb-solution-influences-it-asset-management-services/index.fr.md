@@ -28,35 +28,35 @@ Ces systèmes de gestion de configuration offrent des utilitaires pour maintenir
 ## **Top 5 Open Source Meilleur logiciel CMDB**    {#top}
 Dans cette section, nous explorerons le logiciel de base de données de gestion de la configuration le mieux noté.
 
-### Ralph
+## # Ralph
 [Ralph][2] est un logiciel de gestion des ressources gratuits open source. Il est multiplateforme et propose des capacités d'auto-hébergement. Il est très extensible et fournit une API REST pour les intégrations tierces. Ensuite, il y a une prise en charge complète des centres de données et de l'infrastructure informatique de bureau. Cependant, ce logiciel de suivi des actifs en temps réel est écrit en Python et est livré avec une documentation complète concernant le développement et le déploiement. Par conséquent, tout le code source est disponible sur [GitHub][9].
 Ralph fournit les caractéristiques clés suivantes
   * Visualisation CC intégrée
   * Suivi des actifs
   * Poids léger
 
-### Snipe-it
+## # Snipe-it
 [Snipe-it][3] est un autre logiciel open source qui fournit un suivi des actifs et de la configuration. Cette plate-forme de gestion des ressources est prise en charge par AWS. Il est fortement sécurisé et offre des options de connexion à l'aide de l'authentification à deux facteurs et du support SAML. Il est également auto-hébergé et facile à installer. Cette solution CMDB est écrite en PHP et tout le code source est disponible chez [GitHub][10].
 Voici les principales caractéristiques de Snipe-it
   * Interface reposante
   * Intégration avec Slack et LDAP
   * Options d'importation / exportation
 
-### contremaître
+## # contremaître
 [Foreman][11] est un autre outil open source pour gérer les serveurs physiques et virtuels. Il est hautement personnalisable et fournit une API REST pour créer des fonctionnalités nécessaires. De plus, il existe une prise en charge complète pour la gestion des configurations, des déploiements d'applications, des changements dans les configurations et les administrateurs système peuvent obtenir des rapports détaillés. Il est auto-hébergé et tout le code source est disponible chez [GitHub][12].
 Forman propose les principales fonctionnalités suivantes
   * Facile à installer
   * Reporting et surveillance
   * Architecture du plugin
 
-### RackTables
+## # RackTables
 [RackTables][13] est un système de gestion des actifs open source pour les centres de données, les salles des serveurs. Il prend également en charge la gestion des adresses réseau, des configurations réseau, des configurations d'équilibrage de charge et d'autres équipements matériels. En outre, il permet aux utilisateurs de créer des autorisations, un étiquetage des utilisateurs et une documentation des pare-feu.
 RackTables fournit les fonctionnalités importantes suivantes
   * Gestion de fichiers
   * Hostomé
   * Gestion des ports physiques
 
-### itop
+## # itop
 [Le portail des opérations informatiques][14] est une solution libre hébergée qui fournit une solution CMDB, un système d'assistance et un outil de gestion de documents. Il offre de riches options d'importation et d'exportation.
 ITOP propose des fonctionnalités clés
   * Analyse d'impact automatique

@@ -14,7 +14,7 @@ categories: ['Business Intelligence Software']
 {{< figure align=center src="images/BI.png" alt="Sistemi di business intelligence">}}
 
 
-Panoramica ##
+Panoramica ## 
 Nel momento attuale, i dati sono la cosa più importante in qualsiasi organizzazione. Le aziende aziendali contengono dati enormi che sono normalmente in forma grezza e quindi, difficile da analizzare. Pertanto, l'industria tecnologica ha rilevato la necessità di una soluzione che dovrebbe convertire i dati grezzi in una forma utile e significativa. In effetti, esiste un'enorme popolazione che è diventata attiva su Internet e sfruttare molti tipi di applicazioni come app di gioco, app di trasferimento di dati, app di social media e ecc. Pertanto, non è meno di una sfida raccogliere, archiviare, Compilare e analizzare i dati per varie operazioni aziendali.
 La comunità open source ha sviluppato una serie di progetti di business intelligence gratuiti e autosullati che offrono funzionalità a livello aziendale per le aziende. Tuttavia, sono disponibili molti sistemi di business intelligence **** che automatizzano i processi di raccolta dei dati e trasformandoli in informazioni. In questo post sul blog, tratteremo i seguenti punti.
   * **[Che cos'è la business intelligence?][1]**

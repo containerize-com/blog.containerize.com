@@ -15,7 +15,7 @@ toc: true
 
 Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the folks at StackPath. Using a package manager or need to download the source files? [Head to the downloads page.]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/)
 
-### CSS
+## # CSS
 
 Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
 
@@ -23,7 +23,7 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 <link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
 {% endhighlight %}
 
-### JS
+## # JS
 
 Many of our components require the use of JavaScript to function. Specifically, they require [jQuery](https://jquery.com), [Popper.js](https://popper.js.org/), and our own JavaScript plugins. Place the following `<script>`s near the end of your pages, right before the closing `</body>` tag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.
 
@@ -90,7 +90,7 @@ That's all you need for overall page requirements. Visit the [Layout docs]({{ si
 
 Bootstrap employs a handful of important global styles and settings that you'll need to be aware of when using it, all of which are almost exclusively geared towards the *normalization* of cross browser styles. Let's dive in.
 
-### HTML5 doctype
+## # HTML5 doctype
 
 Bootstrap requires the use of the HTML5 doctype. Without it, you'll see some funky incomplete styling, but including it shouldn't cause any considerable hiccups.
 
@@ -101,7 +101,7 @@ Bootstrap requires the use of the HTML5 doctype. Without it, you'll see some fun
 </html>
 {% endhighlight %}
 
-### Responsive meta tag
+## # Responsive meta tag
 
 Bootstrap is developed *mobile first*, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, **add the responsive viewport meta tag** to your `<head>`.
 
@@ -111,7 +111,7 @@ Bootstrap is developed *mobile first*, a strategy in which we optimize code for 
 
 You can see an example of this in action in the [starter template](#starter-template).
 
-### Box-sizing
+## # Box-sizing
 
 For more straightforward sizing in CSS, we switch the global `box-sizing` value from `content-box` to `border-box`. This ensures `padding` does not affect the final computed width of an element, but it can cause problems with some third party software like Google Maps and Google Custom Search Engine.
 
@@ -127,7 +127,7 @@ With the above snippet, nested elements—including generated content via `::bef
 
 Learn more about [box model and sizing at CSS Tricks](https://css-tricks.com/box-sizing/).
 
-### Reboot
+## # Reboot
 
 For improved cross-browser rendering, we use [Reboot]({{ site.baseurl }}/docs/{{ site.docs_version }}/content/reboot/) to correct inconsistencies across browsers and devices while providing slightly more opinionated resets to common HTML elements.
 
@@ -138,7 +138,7 @@ Stay up to date on the development of Bootstrap and reach out to the community w
 - Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
 - Read and subscribe to [The Official Bootstrap Blog]({{ site.blog }}).
 - Join [the official Slack room]({{ site.slack }}).
-- Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
+- Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `## bootstrap` channel.
 - Implementation help may be found at Stack Overflow (tagged [`bootstrap-4`](https://stackoverflow.com/questions/tagged/bootstrap-4)).
 - Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/browse/keyword/bootstrap) or similar delivery mechanisms for maximum discoverability.
 

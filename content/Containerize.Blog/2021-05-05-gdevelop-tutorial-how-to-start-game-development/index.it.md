@@ -14,7 +14,7 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/GDevelop.png" alt="Tutorial GDEVVive">}}
 
 
-Panoramica ##
+Panoramica ## 
 L'industria dei videogiochi è fiorente a un ritmo elevato. Ci sono miliardi di giocatori in tutto il mondo che cercano sempre videogiochi eccitanti e divertenti. D'altra parte, ci sono un certo numero di software di sviluppo dei videogiochi che forniscono agli sviluppatori uno strumento completo di sviluppo dell'ambiente e dei giochi per sviluppare giochi avanzati e affascinanti. In passato, gli sviluppatori di giochi erano abituati a scrivere il codice sorgente di gioco riga per riga. Questo è stato un tempo per prendere il metodo di sviluppo e i giocatori hanno dovuto aspettare mesi per una nuova versione. Pertanto, Open Source Community ha sviluppato  **Makers di Game Fakers gratuiti**  per gli sviluppatori di giochi.
 Questi **motori di gioco gratuiti  **vengono non solo aiutando a fornire uscite di gioco veloci, ma sono anche con funzionalità che migliorano la qualità e la robustezza del gioco. Inoltre, questi **  designer di giochi 3D  **offrono un'interfaccia utente di trascinamento ed eliminare la necessità di avere conoscenze di programmazione per costruire giochi. Tuttavia, si tratta di un tutorial**   GDEVVive** in cui impareremo cosa è GDEVVive e come impostarlo localmente coprendo il seguente punto.
   * **[cosa è gdevelop.][1]**

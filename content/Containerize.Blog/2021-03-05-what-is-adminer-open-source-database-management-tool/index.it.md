@@ -12,7 +12,7 @@ categories: ['Database Management Software']
 ## Administrar è un sistema di gestione del database basato sul Web open source per gestire i database. Impariamo come impostare l'amministratore su localhost e rivedere le sue caratteristiche chiave.
 {{_LINE_11_}}
 
-Panoramica ##
+Panoramica ## 
 Le attività relative ai dati sono molto più critiche ora che mai. Lo strumento di gestione del database è diventato parte integrante di qualsiasi azienda. Tuttavia, esistono molti sistemi di gestione dei database basati sul Web che offrono soluzioni a tali compiti impegnativi. Le imprese stanno generando tonnellate di dati su base giornaliera e diventano difficili da mantenere. Inoltre, le organizzazioni tendono a semplificare l'accesso ai dati e il controllo dei dati. Questi strumenti gratuiti aiutano a ridurre la ridondanza dei dati, rendere efficienti e affidabili i database. Inoltre, abbiamo pubblicato post sul blog su argomenti come [Top Open Source DBMS Software Strumenti][1] e altri.
 Pertanto, la comunità open source ha sviluppato amministratore che è uno strumento di gestione del database gratuito a livello aziendale. In questo tutorial amministratore, copriremo i seguenti punti.
   * [Cos'è l'amministratore?][2]

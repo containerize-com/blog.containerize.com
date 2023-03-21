@@ -43,7 +43,7 @@ Lá, você verá se a compactação GZIP está ou não ativada.
 ## Ativar compactação GZIP no WordPress   {#enable}
 Se você determinou que a compactação do **WordPress GZIP ainda não está ativada** , existem vários métodos que você pode usar para executá -lo. A maneira mais fácil é usar alguns plugins do WordPress, como [WP Rocket][6], [WP Super Cache][7] ou [W3 Total Cache][8]. No entanto, você pode fazer isso manualmente no nível do servidor por arquivo .htaccess ou atualizando sua configuração nginx.
 
-### Editando o arquivo .htaccess
+## # Editando o arquivo .htaccess
 Uma das maneiras mais comuns de ativar a compactação do WordPress GZIP é **editar seu arquivo _.htaccess_** . No entanto, isso envolve o risco de quebrar alguma coisa. Este é um arquivo de servidor sensível e um movimento errado pode causar muitos problemas.
 Para reduzir o risco, certifique -se de **salvar uma cópia do arquivo original  **antes de fazer alterações. O arquivo _.htaccess_ deve estar na pasta **  root do seu site** . Depois de abrir _.htaccess_, adicione o seguinte código abaixo das seções marcadas pelas tags `# BEGIN WordPress` e`# End WordPress`
 ```

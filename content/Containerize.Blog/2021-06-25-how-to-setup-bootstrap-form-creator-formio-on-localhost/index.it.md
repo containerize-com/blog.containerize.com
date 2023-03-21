@@ -14,7 +14,7 @@ categories: ['Form']
 {{< figure align=center src="images/formio-1.png" alt="Creatore di moduli Bootstrap">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 Nelle esigenze aziendali in rapida crescita, ci sono molte operazioni che appartengono direttamente al settore pubblico e al coinvolgimento. Questo impegno potrebbe essere fisico o virtuale. A volte si tratta di fornire servizi e talvolta si tratta di raccogliere dati o feedback. D'altra parte, le organizzazioni aziendali tendono a raccogliere i dati dei clienti sui loro prodotti e servizi. Pertanto, la quantità di dati dipende dalla portata del pubblico pertinente. Successivamente, la gestione dei dati è un altro compito critico e richiede un'enorme attenzione.
 Tuttavia, i settori aziendali utilizzano i moduli online per soddisfare le esigenze relative alla raccolta dei dati. Esistono molti siti Web che possono contenere molti moduli come il modulo di contatto, il modulo di reclamo, il modulo di feedback dei clienti, il modulo di ammissione e altro ancora. Ora diventa una seccatura costruire, gestire questi moduli e i dati di invio. Here Comes [Form.io][1]. Form.io è un creatore di moduli bootstrap open source che fornisce funzionalità di costruzione e gestione dei dati. Nel recente passato, abbiamo pubblicato un articolo che ha coperto i [migliori costruttori di moduli online open source nell'anno 2020][2]. In questo post sul blog, esploreremo questo creatore di moduli Bootstrap insieme al suo processo di configurazione su LocalHost coprendo i seguenti punti.
   * **[What is form.io?

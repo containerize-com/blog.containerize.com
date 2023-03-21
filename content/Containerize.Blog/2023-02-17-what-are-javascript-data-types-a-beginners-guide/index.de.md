@@ -23,13 +23,13 @@ Wir decken den folgenden Punkt ab:
 ## Datentypen erklärt | Was ist ein Datentyp?   {#What-is-a-data-Typ}
 Bei einem Datentyp geht es darum, dem Compiler mitzuteilen, wie die Daten interpretiert oder kompiliert werden sollen. Die Verwendung von Datentypen ist kritisch und muss mit Bedacht verwendet werden. In einfachen Worten geht es um das Format der Daten wie Anzahl, String, Boolescher und mehr. Es gibt jedoch zwei Kategorien von Datentypen primitive Datentypen und nichtprimitive Datentypen. Es gibt acht primitive Datentypen, die wir im nächsten Abschnitt durchlaufen werden.
 
-## Was sind JavaScript -Datentypen?   {#What-Are-JavaScript-Data-Type}}
+## Was sind JavaScript -Datentypen?   {#What-Are-JavaScript-Data-Type}
 Tatsächlich ist JavaScript eine locker getippte Sprache, was bedeutet, dass Sie den variablen Typ nicht explizit definieren müssen. Sie können einer Variablen einen beliebigen Wert zuweisen, und diese Variable speichert diesen Wert wie String, Bigint, Boolean oder mehr.
 
 {{< figure align=center src="images/web-development.png" alt="JavaScript Anfängerhandbuch">}}
 
 
-#### Primitive Datentypen
+## ## Primitive Datentypen
 Primitive Datentypen sind solche, die nach der Erstellung und Initialisierung nicht verändert werden können. Sie können jedoch einen neuen Wert neu zuordnen, können jedoch den bestehenden Wert nicht mutieren.
 Zum Beispiel:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 Im obigen Beispiel ist String ein primitiver Datentyp und der alte Wert wird durch den neuen Wert ersetzt, aber die Änderung des vorhandenen Werts wird nicht reflektiert. Wir können also sehen, dass es immer noch "Mein Name wird geändert" ist, nicht "Mein Name wird geändert";
 
-#### Nicht primitive Datentypen
+## ## Nicht primitive Datentypen
 Nicht primitive Datentypen sind veränderlich, in einfachen Wörtern, die von primitiven Datentypen entgegengesetzt sind.
 Zum Beispiel:
 ```

@@ -26,34 +26,34 @@ Docker est un logiciel de conteneur open source qui est utilisé pour faciliter 
 ## Avantages de la conteneurisation   {#Benefits}
 Dans cette section, nous explorerons certains des principaux avantages de la conteneurisation.
 
-### déploiements rapides
+## # déploiements rapides
 Dans les méthodes de déploiement des applications traditionnelles, les développeurs doivent faire des considérations sérieuses concernant l'environnement dans lequel les logiciels s'exécuteront. Ils doivent configurer manuellement toutes les configurations et dépendances requises pour s'assurer du déploiement réussi. La conteneurisation a supprimé ce fardeau et a pris la responsabilité de gérer les formalités de déploiement.
 
-### Isolement
+## # Isolement
 Il s'agit de l'avantage majeur de la conteneurisation, les applications exécutées dans chaque conteneur, sont isolées et inconscientes les unes des autres. Ils utilisent leurs propres ressources indépendamment et, par conséquent, atteignent le plus grand niveau de sécurité et de fiabilité.
 
-### **Cohérence**
+## # **Cohérence**
 Une image Docker contient toutes les dépendances logicielles et s'assure de créer un environnement cohérent sur plusieurs plates-formes. Soit c'est une machine d'un développeur, soit une machine de production sur le cloud, la conteneurisation propose les installations qui donnent un comportement cohérent du déploiement des applications.
 
-### évolutivité
+## # évolutivité
 **Le logiciel de conteneur**  permet aux développeurs de mettre à l'échelle des applications sans affecter toute l'infrastructure. Les développeurs de logiciels peuvent reconfigurer l'infrastructure existante ou peuvent ajouter d'autres conteneurs pour améliorer les ressources. Les processus de mise à l'échelle des applications nécessitent moins d'efforts qui permettent aux développeurs de se concentrer sur d'autres développements importants.
 
-### meilleure sécurité
+## # meilleure sécurité
 Comme il y a une isolation complète parmi tous les conteneurs fonctionnant sur un réseau afin que chaque conteneur contient sa propre couche de sécurité. Cependant, il réduit le facteur de risque de tout affrontement des ressources entre les applications telles que la mémoire, le stockage, le processeur et d'autres ressources réseau.
 
-### portabilité
+## # portabilité
 Il s'agit d'un autre avantage majeur parmi les autres avantages de la conteneurisation. La conteneurisation rend les applications très portables car elles sont indépendantes de la plate-forme. Les développeurs peuvent facilement configurer l'application conteneurisée sur n'importe quelle plate-forme en raison des applications abstraites des conteneurs du système d'exploitation hôte.
 
-### **Rentable**
+## # **Rentable**
 Les outils d'orchestration en conteneurs et les logiciels de conteneurs sont gratuits et open source. Ils ont des communautés fortes qui sont vivantes et dynamiques. L'apprentissage de ces outils n'est pas difficile et il existe de nombreux services qui facilitent les déploiements d'applications dans la période la plus courte.
 
-### Productivité
+## # Productivité
 Le logiciel de conteneur gratuit apporte beaucoup de productivité en automatisant les processus de déploiement. De plus, s'il y a des temps d'arrêt ou des malandies trouvés dans la production, il existe des outils de surveillance disponibles à cet effet. Les développeurs de logiciels peuvent regrouper le logiciel dans un package et peuvent partager et s'exécuter sur n'importe quelle plate-forme.
 
-### Réutilisabilité
+## # Réutilisabilité
 La conteneurisation facilite les utilisateurs avec des dispositions de réutilisabilité. Les développeurs rédigent le code de l'application commerciale une fois pour toutes les plateformes. Ils n'ont pas besoin d'écrire différents codes source pour différentes plates-formes.
 
-### Communauté
+## # Communauté
 Il s'agit d'un autre majeur plus de conteneurisation. Il existe un énorme soutien disponible par la communauté et les utilisateurs peuvent demander des conseils à n'importe quel niveau. Surtout, il y a un espace appelé [Docker Hub][5] où les utilisateurs peuvent créer, partager et extraire les applications et services de contenerize.
 
 ## Remarques finales   {#Final}

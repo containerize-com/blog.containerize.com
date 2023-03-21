@@ -29,7 +29,7 @@ Aslında, JavaScript gevşek yazılmış bir dildir, yani değişken türünü a
 {{< figure align=center src="images/web-development.png" alt="JavaScript Yeni Başlayan Kılavuzu">}}
 
 
-#### İlkel Veri Türleri
+## ## İlkel Veri Türleri
 İlkel veri türleri değişmez olanlardır ve oluşturulduktan ve başlatılmasından sonra değiştirilemez. Ancak, yeni bir değeri yeniden atayabilirsiniz, ancak mevcut değeri değiştiremezsiniz.
 Örneğin:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 Yukarıdaki örnekte, String ilkel bir veri türüdür ve eski değer yeni değerle değiştirilmektedir, ancak mevcut değerdeki değişiklik yansıtılmamaktadır. Yani, “benim adım değişti” olduğunu görebiliriz “benim adım değişti”;
 
-#### Primer olmayan veri türleri
+## ## Primer olmayan veri türleri
 Önleyici olmayan veri türleri, ilkel veri türlerinin karşısındaki basit kelimelerle değiştirilebilir.
 Örneğin:
 ```

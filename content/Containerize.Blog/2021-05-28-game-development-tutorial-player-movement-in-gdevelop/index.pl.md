@@ -14,7 +14,7 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/Game-Development-Tutorial.png" alt="Samouczek rozwoju gry">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Społeczność open source pojawia się wraz z przejściem każdej minuty. Istnieją gry międzyplatformowe, gry mobilne i gry stacjonarne. Różne rodzaje gier obejmują gry akcji, gry przygodowe, gry rólowe, gry sportowe, gry puzzle, gry symulacyjne i wiele innych. Dlatego wszystkie te różne typy gier przyniosły ogromny wzrost ruchu, ponieważ użytkownicy ze wszystkich grup wiekowych zwykle grają w te gry.
 Co więcej, pandemia przyniosła ogromną zmianę w stylu życia ludzi żyjących na całym świecie. Ludzie mają teraz więcej czasu. Wszystkie działania offline stały się online. Dlatego mają tendencję do wybierania oprogramowania online do wykonywania profesjonalnych obowiązków i gier wideo w przypadku rozrywki. Z tych wszystkich powodów branża ta zyskała zrównoważony rozwój i wsparcie użytkowników i programistów. W niedawnej przeszłości napisaliśmy na takie tematy, jak [samouczek rozwoju gier HTML5 dla programistów gier wideo][1], [Jak globalny przemysł gier wykorzystuje oprogramowanie typu open source][2] oraz [samouczek Gdeveloping dla początkujących, aby rozpocząć rozwój gier][3]. W tym samouczku rozwoju gry omówimy następujące punkty.
   * **[Funkcje eksploracji GDeveloper][4]**

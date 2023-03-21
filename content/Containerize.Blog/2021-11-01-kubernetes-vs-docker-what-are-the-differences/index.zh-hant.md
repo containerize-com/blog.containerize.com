@@ -14,7 +14,7 @@ categories: ['DevOps', 'Software Development']
 {{< figure align=center src="images/KubernetesVsDocker.png" alt="Kubernetes vs Docker">}}
 
 
-##**概述**
+## **概述**
 在容器技術方面，Kubernetes和Docker的兩個名稱出現為開源負責人。許多人想知道云計算行業中哪種容器技術選項更好。 **kubernetes vs docker  **** 教程**辯論在容器化世界中很常見。儘管大多數人喜歡比較Kubernetes和Docker來更有效地管理集裝箱應用程序。這兩種強大的容器化技術無法交換，您不能選擇一種。  **docker vs kubernetes**  本質上是離散的容器技術，可以在自動化，創建，交付，管理，管理和擴展容器化應用程序時彼此完美補充。實際上，最好的比較主題是 **kubernetes vs docker swarm** 。
 本文解釋了Docker和Kubernetes Technologies之間的基本差異，並闡明了Docker和Kubernetes的差異，因此您可以對快速擴展的容器平台進行瀏覽。讓我們熟悉很棒，最受歡迎的開源Kubernetes vs Docker Container Technologies。為此，從將它們聯繫在一起的基礎技術開始很重要：容器。
   *什麼是容器？
@@ -43,7 +43,7 @@ Kubernetes可以在具有基於Docker的應用程序的客戶的公共雲服務�
 容器很棒。即使 **docker和k8s kubernetes** 是獨特的技術，但它們實際上相互補充並可以共同努力。在設置Kubernetes時，Docker的安裝很容易快速，而且很耗時。 Docker已針對一個**單個大集群**進行了優化，Kubernetes可以與**多個較小的群集**一起使用。 Docker是容器化技術的核心，它允許您構建，共享，運行和部署應用程序容器。如果您的應用程序很小且簡單，Docker容器具有管理其生命週期的基礎架構。
 **何時使用kubernetes vs docker？**。如果您的容器化應用程序變得更大，越來越複雜，可能需要多個較小的群集，並且更複雜的管理，那麼Kubernetes就會成為一種方便的工具。 Kubernetes為您的Docker容器提供了一個**編排平台**。它不僅創建容器，而且需要一個容器工具才能運行，其中哪個Docker容器是最受歡迎的選項。與Docker一起使用Kubernetes可以增強基礎設施的魯棒性。您的應用程序高度可用，還可以提高應用程序的可擴展性。
 
-##**結論：**   {#4a1a}
+## **結論：**   {#4a1a}
 **那麼，Kubernetes或Docker的最佳選擇是什麼？答案是顯而易見的：兩者。上述Kubernetes和Docker是開發人員最受歡迎的免費和最佳開源軟件。他們允許以全新的數字方式考慮基礎架構最需要的服務和系統。最重要的是，Kubernetes和Docker都提供了一個完善的平台**，以更有效地自動化容器管理，擴展，破壞和部署系統容器。為以容器為中心的平台設計較新的軟件**，不僅可以使您的應用程序更具擴展性，而且還可以使您的應用程序更具範圍。
 _什麼開源容器Technolog_y您更喜歡_？您對kubernetes和docker_之間的_差異有任何疑問？
 

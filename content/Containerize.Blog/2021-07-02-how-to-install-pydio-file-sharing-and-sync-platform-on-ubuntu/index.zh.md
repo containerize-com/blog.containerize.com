@@ -39,19 +39,19 @@ sudo reboot
 ## 步骤2：安装灯服务器
 要设置Pydio安全企业文件共享服务器以及如何创建开源私有云，我们首先需要设置运行灯服务器。如果您已经安装并运行灯堆栈，请跳过此步骤，请使用以下命令在Ubuntu系统上设置灯。
 
-### 安装php
+## # 安装php
 您可以通过运行命令在Ubuntu或Debian系统上安装PHP：
 sudo apt-get安装python-software-properties
 sudo附加措施PPA：ondrej/php
 sudo apt-get安装-y php php-GD php-curl php-zip php-dom php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### 安装apache2
+## # 安装apache2
 Apache是​​使用最广泛的开源Web服务器软件。接下来，通过运行在Ubuntu上安装Apache Web服务器：
 sudo apt-get安装-y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### 安装mysql
+## # 安装mysql
 MySQL开源关系数据库管理系统是LAMP Web应用程序软件堆栈等的组成部分。现在通过在下面运行在Ubuntu上安装mySQL：
 sudo apt-get安装-y mysql-server php-mysql
 {{_LINE_42_}}

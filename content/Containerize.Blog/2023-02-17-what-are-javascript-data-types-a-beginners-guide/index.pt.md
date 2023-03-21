@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 No exemplo acima, a string é um tipo de dados primitivo e o valor antigo está sendo substituído pelo novo valor, mas a alteração no valor existente não está sendo refletida. Então, podemos ver que ainda é "meu nome foi alterado" e não "meu nome foi alterado";
 
-#### Tipos de dados não primitivos
+## ## Tipos de dados não primitivos
 Os tipos de dados não primitivos são mutáveis, em palavras simples opostas dos tipos de dados primitivos.
 Por exemplo:
 ```

@@ -14,7 +14,7 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/Game-Development-Tutorial.png" alt="Hướng dẫn phát triển trò chơi">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Cộng đồng nguồn mở đang nổi lên với sự thông qua của mỗi phút. Có các trò chơi đa nền tảng, trò chơi di động và trò chơi máy tính để bàn. Nhiều loại trò chơi bao gồm các trò chơi hành động, trò chơi phiêu lưu, trò chơi nhập vai, trò chơi thể thao, trò chơi giải đố, trò chơi mô phỏng, và nhiều hơn nữa. Do đó, tất cả các loại trò chơi khác nhau này đã mang lại sự thúc đẩy to lớn cho lưu lượng truy cập vì người dùng từ tất cả các nhóm tuổi có xu hướng chơi các trò chơi này.
 Hơn nữa, đại dịch đã mang đến một sự thay đổi lớn trong lối sống của những người sống trên toàn cầu. Mọi người bây giờ có nhiều thời gian hơn. Tất cả các hoạt động ngoại tuyến đã trở thành trực tuyến. Do đó, họ có xu hướng lựa chọn phần mềm trực tuyến để thực hiện các nhiệm vụ và trò chơi video chuyên nghiệp trong trường hợp giải trí. Do tất cả những lý do này, ngành công nghiệp này đã đạt được sự bền vững và sự hỗ trợ của người dùng và nhà phát triển. Trong quá khứ gần đây, chúng tôi đã viết về các chủ đề như [Hướng dẫn phát triển trò chơi HTML5 cho các lập trình viên trò chơi video][1], [làm thế nào ngành công nghiệp trò chơi toàn cầu tận dụng phần mềm nguồn mở][2] và [Hướng dẫn phát triển GDevelop để bắt đầu phát triển trò chơi][3]. Trong hướng dẫn phát triển trò chơi này, chúng tôi sẽ đề cập đến các điểm sau.
   * **[Tính năng Thăm dò GDevelop][4]**

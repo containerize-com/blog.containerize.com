@@ -9,7 +9,7 @@ url: /zh/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**本文将为VSCODE介绍CHATGPT。 OpenAI代码生成器代码GPT基于开源人工智能驱动的GPT-3型号。**
+## **本文将为VSCODE介绍CHATGPT。 OpenAI代码生成器代码GPT基于开源人工智能驱动的GPT-3型号。**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="VSCODE扩展代码GPT">}}
 

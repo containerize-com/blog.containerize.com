@@ -38,7 +38,7 @@ sudo apt-get install synfigstudio
 ```
 Ora devi essere in grado di accedere facilmente a Synfig Studio.
 
-Panoramica dell'interfaccia dell'applicazione ##  {#Applicazione-Interface}
+Panoramica dell'interfaccia dell'applicazione ## {#Applicazione-Interface}
 Come abbiamo accennato in precedenza, Synfig Studio è un software di animazione open source che consente agli utenti di creare animazioni 2D senza soluzione di continuità e rapide e tweenless. Per comprendere gli strumenti e le funzionalità, ecco una rapida panoramica dello studio Synfig quando inizi a usarlo.
 
 {{< figure align=center src="images/Synfig-Tutorial-An-Open-Source-2D-Animation-Software-1-1024x649.png" alt="Synfig Tutorial Un software di animazione 2D open source">}}

@@ -32,7 +32,7 @@ In jüngster Zeit neigen Organisationen dazu, Bewerbungen von Videobesprechungen
 ## Top 3 Open Source Video Conferencing Software   {#top}
 Es stehen viele Open -Source -Webkonferenzsysteme zur Verfügung. Lassen Sie uns also die beliebtesten sehen:
 
-#### Jitsi Meet
+## ## Jitsi Meet
 [Jitsi Meet][5] ist eine Open -Source -Video -Kollaborationssoftware mit vielen Tools für Videokollaboration. Es ist sehr sicher und verfügt über Verschlüsselungsfunktionen. Darüber hinaus verwendet diese Software **Open Source -Meeting -Software**  die WebRTC -basierte Software -Video -Brücke für High Definition -Videokonferenzen. Dieses kostenlose Tool ist einfach eingerichtet und mit Anwendungen von Drittanbietern konfigurierbar. Darüber hinaus können die Teilnehmer während des Anrufs miteinander chatten und weitere Mitglieder einladen, indem sie einen Link mit ihnen teilen. Diese Videoanrufanwendung ist jedoch in JavaScript geschrieben und alle Dokumentationen sind in Bezug auf Entwicklung und Bereitstellung verfügbar. Daher können Entwickler ihren Quellcode auf [Github][6] finden. Es hat die folgenden Schlüsselfunktionen:
   * Multi-Party-Videokonferenz
   * Unterstützung für EtherPad
@@ -40,7 +40,7 @@ Es stehen viele Open -Source -Webkonferenzsysteme zur Verfügung. Lassen Sie uns
   * Webrtc kompatibel
   * Video/Audioverschlüsselung
 
-#### Bigbluebutton
+## ## Bigbluebutton
 [Bigbluebutton][7] ist eine weitere Echtzeit **Video Conferencing App **, die nicht nur Lösungen für Video-Meetings bietet, sondern auch Integrationen mit einigen beliebten Open-Source-Frameworks wie [Drupal][8], Redmine, [WordPress] anbietet. [9] und noch mehr. Wie andere  **VIDEO-MECIONEN-Anwendungen**   ist es sicher und bietet Selbsthostfunktionen. Darüber hinaus bietet es eine sehr logische Oberfläche, die Benutzer problemlos navigieren können. Diese Videoanrufanwendung ist jedoch in JavaScript zusammen mit der Eingabe anderer Sprachen wie Java, HTML5, Scala Ruby, Groovy und CSS geschrieben, und alle Dokumentationen sind in Bezug auf Entwicklung und Bereitstellung verfügbar. Daher können Entwickler ihren Quellcode auf [Github][10] finden. Zu den folgenden Schlüsselfunktionen gehören:
   * Multi-Benutzer-Whiteboard
   * Echtzeit-Chats
@@ -49,7 +49,7 @@ Es stehen viele Open -Source -Webkonferenzsysteme zur Verfügung. Lassen Sie uns
   * Unterstützung für Software von Drittanbietern (z. B.Drupal, WordPress)
   * HD -Audio
 
-#### OpenVIDU
+## ## OpenVIDU
 In ähnlicher Weise ist [OpenVidu][11] eine weitere Open -Source -Software **Video Collaboration **, die Funktionen und Tools für Remote -Videokonferenzen bietet. Seine Architektur besteht aus zwei Schichten. Der erste ist der OpenVidu-Browser, der eine clientseitige Bibliothek ist, und der andere ist der OpenVidu-Server, der eine Backend-Bibliothek ist. Es ist einfach einzurichten und bietet ein Docker -Image für einfache Bereitstellungen und Entwicklungen. Diese  **Gruppenvideoanruf -App**   ist jedoch in JavaScript geschrieben und alle Dokumentationen finden Sie in Bezug auf Entwicklung und Bereitstellung. Daher können Entwickler ihren Quellcode auf [Github][12] finden. Einige prominente Funktionen sind:
   * Webrtc kompatibel
   * Bildschirm teilen

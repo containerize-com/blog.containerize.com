@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginx-enable-http2.png" alt="NGINX Abilita il supporto HTTP2 su Ubuntu e Debian">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 Nginx è un server Web digitale e affidabile open source. Ha guadagnato popolarità a causa della sua bassa impronta di memoria, bilanciamento del carico, elevata scalabilità, memorizzazione nella cache, supporto per la maggior parte dei protocolli e proxy inversa. Ora parliamo di come NGINX abilita il protocollo HTTP2.
 Uno dei protocolli supportati da NGINX è HTTP/2 che è stato pubblicato a maggio 2015. Il vantaggio principale di HTTP/2 è la sua alta velocità di trasferimento per i siti Web ricchi di contenuti, riduce il carico sul web server e può avviare più richieste parallele in una singola connessione TCP. Nginx abilita HTTP2 è una versione migliorata del protocollo HTTP. Prima di iniziare, avremo bisogno di alcuni server Ubuntu o Debian con certificato SSL. In questo tutorial, ti guideremo passo dopo passo su come Nginx abilitare HTTP2 su Ubuntu.
   * Aggiornamento dei pacchetti e installazione di NGINX

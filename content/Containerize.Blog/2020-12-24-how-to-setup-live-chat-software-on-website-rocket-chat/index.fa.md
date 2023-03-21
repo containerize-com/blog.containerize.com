@@ -59,7 +59,7 @@ sudo snap install rocketchat-server
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat Widget LiveChat">}}
 
 
-##**ویجت چت زنده را در وب سایت خود نصب کنید** {#widget}
+## **ویجت چت زنده را در وب سایت خود نصب کنید** {#widget}
 در این بخش ابزارک های چت زنده را در وب سایت تجارت نصب خواهیم کرد. اکنون ، برای دسترسی به**نصب LiveChat**تنظیمات:
 همانطور که در شکل زیر نشان داده شده است به**نصب LiveChat**در تنظیمات پانل Omnichannel بروید و کد داده شده را کپی کنید.
 

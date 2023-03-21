@@ -28,35 +28,35 @@ Bu yapılandırma yönetim sistemleri, yapılandırma öğelerinin kaydını kor
 ## **Top 5 Açık Kaynak En İyi CMDB Yazılımı**    {#top}
 Bu bölümde, en iyi yapılandırma yönetimi veritabanı yazılımını keşfedeceğiz.
 
-### Ralph
+## # Ralph
 [Ralph][2] açık kaynaklı bir kaynak yönetimi yazılımıdır. Platformlar arasıdır ve kendi kendine barındırma yetenekleri ile gelir. Oldukça genişletilebilir ve üçüncü taraf entegrasyonlar için REST API sağlar. Ardından, veri merkezleri ve ofis BT altyapısı için tam bir destek vardır. Ancak, bu gerçek zamanlı varlık izleme yazılımı Python'da yazılmıştır ve geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir. Bu nedenle, tüm kaynak kodu [GitHub][9] 'da mevcuttur.
 Ralph aşağıdaki temel özellikleri sunar
   * Yerleşik DC görselleştirme
   * Varlık İzleme
   * Hafif
 
-### Snipe-it
+## # Snipe-it
 [SNIPE-IT][3] varlık ve yapılandırma izleme sağlayan bir başka açık kaynak yazılımıdır. Bu kaynak yönetim platformu AWS tarafından desteklenmektedir. Çok güvenlidir ve iki faktörlü kimlik doğrulama ve SAML desteği kullanarak giriş seçenekleri sağlar. Ayrıca kendi kendine barındırılmış ve kurulumu kolaydır. Bu CMDB çözümü PHP'de yazılmıştır ve tüm kaynak kodu [GitHub][10] 'da mevcuttur.
 Snipe-It'in temel özellikleri aşağıdadır
   * RESTful arayüzü
   * Slack ve LDAP ile entegrasyon
   * İthalat/Dışa Aktarma Seçenekleri
 
-### Ustabaşı
+## # Ustabaşı
 [Foreman][11] fiziksel ve sanal sunucuları yönetmek için başka bir açık kaynaklı araçtır. Oldukça özelleştirilebilir ve gerekli işlevleri oluşturmak için bir dinlenme API'sı sağlar. Ayrıca, yapılandırmaları, uygulama dağıtımlarını, yapılandırmalarda değişiklik ve sistem yöneticilerindeki değişiklikleri yönetmek için tam destek vardır. Kendi kendine barındırılır ve tüm kaynak kodu [GitHub][12] 'de mevcuttur.
 Forman aşağıdaki ana özellikleri sunar
   * Kurulumu kolay
   * Raporlama ve İzleme
   * Eklenti mimarisi
 
-### Racktables
+## # Racktables
 [RackTables][13] veri merkezleri, sunucu odaları için açık kaynaklı bir varlık yönetim sistemidir. Ayrıca ağ adreslerini, ağ yapılandırmalarını, yük dengeleme yapılandırmalarını ve diğer donanım ekipmanlarını yönetmek için destek sağlar. Ayrıca, kullanıcıların izinler, kullanıcı etiketleme ve güvenlik duvarlarının belgelenmesi oluşturmasını sağlar.
 RackTables, aşağıdaki önemli özellikleri sunar
   * Dosya yönetimi
   * Kendi kendine
   * Fiziksel Liman Yönetimi
 
-### Itop
+## # Itop
 [BT Operasyon Portalı][14], bir CMDB çözümü, yardım masası sistemi ve bir belge yönetim aracı sağlayan ücretsiz bir kendi kendine barındıran çözümdür. Zengin ithalat ve ihracat seçenekleri sunar.
 ITOP önemli özellikler sunar
   * Otomatik etki analizi

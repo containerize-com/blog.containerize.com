@@ -113,7 +113,7 @@ Bootstrap's documentation, included in this repo in the root directory, is built
 
 Documentation search is powered by [Algolia's DocSearch](https://community.algolia.com/docsearch/). Working on our search? Be sure to set `debug: true` in `site/docs/4.1/assets/js/src/search.js` file.
 
-### Running documentation locally
+## # Running documentation locally
 
 1. Run through the [tooling setup](https://getbootstrap.com/docs/4.1/getting-started/build-tools/#tooling-setup) to install Jekyll (the site builder) and other Ruby dependencies with `bundle install`.
 2. Run `npm install` to install Node.js dependencies.
@@ -122,7 +122,7 @@ Documentation search is powered by [Algolia's DocSearch](https://community.algol
 
 Learn more about using Jekyll by reading its [documentation](https://jekyllrb.com/docs/home/).
 
-### Documentation for previous releases
+## # Documentation for previous releases
 
 - For v2.3.2: <https://getbootstrap.com/2.3.2/>
 - For v3.3.x: <https://getbootstrap.com/docs/3.3/>
@@ -147,7 +147,7 @@ Get updates on Bootstrap's development and chat with the project maintainers and
 - Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
 - Read and subscribe to [The Official Bootstrap Blog](https://blog.getbootstrap.com/).
 - Join [the official Slack room](https://bootstrap-slack.herokuapp.com/).
-- Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
+- Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `## bootstrap` channel.
 - Implementation help may be found at Stack Overflow (tagged [`bootstrap-4`](https://stackoverflow.com/questions/tagged/bootstrap-4)).
 - Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/browse/keyword/bootstrap) or similar delivery mechanisms for maximum discoverability.
 

@@ -14,7 +14,7 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/super.png" alt="Iniziare con lo sviluppo del gioco">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 Nella nostra serie di tutorial di sviluppo di giochi open source, abbiamo pubblicato post sul blog su alcuni argomenti popolari come [Tutorial di sviluppo del gioco | Movimento dei giocatori in GDEVVive][1], [tutorial di sviluppo del gioco HTML5 per programmatori di videogiochi][2], [come il settore globale del gioco che sfrutta il software open source][3] e [tutorial GDEVVive per i principianti per iniziare lo sviluppo del gioco][4 ]. Questo articolo di tutorial riguarda l'inizio con lo sviluppo del gioco utilizzando Open Source [superpoteri][5] coprendo i seguenti punti.
   * **[tipi di animazioni di gioco][6]**
   * **[Come creare sprite?][7]**

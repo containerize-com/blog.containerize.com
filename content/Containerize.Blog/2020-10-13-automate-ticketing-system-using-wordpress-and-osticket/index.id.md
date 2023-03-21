@@ -20,7 +20,7 @@ Osticket adalah sistem tiket helpdesk open-source dan gratis. Pelanggan dapat me
   * [Prosedur Otentikasi][3]
   * [Kesimpulan][4]
 
-Proses integrasi ##:  {#integrasi}
+Proses integrasi ## :  {#integrasi}
 Integrasi Osticket dan WordPress membutuhkan formulir kontak di situs WordPress dengan bidang berikut
   1. Bantuan topik
   2. Email
@@ -42,7 +42,7 @@ Instalasi plugin ## WordPress:  {#WordPress}
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Integrasi Osticket-WordPress untuk mengotomatiskan sistem tiket">}}
 
 
-Prosedur otentikasi ##:  {#Auth}
+Prosedur otentikasi ## :  {#Auth}
 Otentikasi API dilakukan melalui tombol API yang dikonfigurasi di dalam panel admin osticket. Kunci API dihasilkan dan ditautkan ke alamat IP sumber yang diverifikasi terhadap Sumber IP dari permintaan API HTTP. Untuk membuat kunci API
   1. Buka panel admin osticket.
   2. Klik "Kelola".

@@ -24,7 +24,7 @@ Tratteremo le seguenti sezioni in questo post sul blog:
 ## Descrizione:   {#description}
 WordPress e Rocket.Chat Integration ti consente di mettere un widget di chat dal vivo su siti basati su WordPress. WordPress Live Chat consente ai clienti di collaborare con il tuo supporto o agenti di vendita in tempo reale con un solo clic. La comunicazione istantanea aiuta i clienti a una risoluzione rapida delle loro indagini e accelera il processo decisionale. Quindi questa soluzione può aiutarti a vincere nuovi clienti con un giro più rapido e migliorare la soddisfazione e la fedeltà dei clienti esistenti.
 
-Funzionalità ##:  {#features}
+Funzionalità ## :  {#features}
   * Conferenza audio gratuita
   * Videoconferenza gratuita
   * Accesso agli ospiti

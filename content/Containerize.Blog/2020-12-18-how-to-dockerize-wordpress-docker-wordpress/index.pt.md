@@ -33,11 +33,11 @@ Não importa se é uma máquina de desenvolvimento, estágio ou servidor ao vivo
 
 ## Como instalar o Docker Compose   {#install}
 
-### Pré -requisitos
+## # Pré -requisitos
 Você pode usar o Docker Compose para executar facilmente o WordPress em um ambiente isolado construído com contêineres do Docker. Este guia demonstra como usar a Compose para configurar e executar o WordPress.
 O Docker Compose depende do mecanismo Docker, portanto, certifique -se de instalar o Docker Engine. Em sistemas de desktop como o Docker Desktop para Mac e Windows, o Docker Compose está incluído como parte dessas instalações de desktop. No entanto, nos sistemas Linux First, instale o mecanismo do Docker seguindo seu [Guia Oficial][9].
 
-### Instale a composição no Linux
+## # Instale a composição no Linux
 Execute este comando para baixar o lançamento estável atual do Docker Compose:
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -51,7 +51,7 @@ Teste a instalação do comando de versão em execução:
 docker-compose --version
 ```
 
-### Defina um Dockerfile para WordPress
+## # Defina um Dockerfile para WordPress
 A primeira coisa que precisamos fazer é definir como nossa imagem será em um **_ Dockerfile _** . É um arquivo de texto adicionado ao diretório com as fontes do seu aplicativo.
 ```
 FROM wordpress:php7.1-apache

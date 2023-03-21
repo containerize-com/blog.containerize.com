@@ -9,7 +9,7 @@ url: /zh-hant/how-to-setup-live-chat-software-on-website-rocket-chat/
 categories: ['Live Chat']
 ---
 
-##實時聊天支持軟件在提供客戶支持方面帶來了便利和效率。讓我們學習如何在您的業務網站上安裝Rocket.Chat。
+## 實時聊天支持軟件在提供客戶支持方面帶來了便利和效率。讓我們學習如何在您的業務網站上安裝Rocket.Chat。
 
 {{< figure align=center src="images/rocketchat-1.png" alt="實時聊天軟件">}}
 
@@ -27,7 +27,7 @@ categories: ['Live Chat']
 [Rocket.Chat][8]是流行的**實時聊天軟件之一。它具有免費的實時聊天版本，作為社區版，以及具有私人內部聊天功能的大型公司的付費託管實時聊天版本。 Rocket.Chat支持實時聊天客戶支持以及團隊聊天功能。它是跨平台，並為幾乎所有流行的平台（例如Windows，Mac，Linux和移動應用程序）提供了支持。這個**客戶支持軟件**是安全的，可擴展的，並與第三方流行應用程序（例如Trello，Google Drive等）提供了集成。 Rocket提供了許多強大的功能。Chat提供了多個房間，私人聊天室和團體，通知，表情符號，LDAP身份驗證和RESTFUL界面。此外，此免費工具易於部署，並具有自託管功能。此外，它提供了一個邏輯且用戶友好的界面，用戶可以在其中修改黑暗，光或黑色等主題。
 此**聊天支持軟件**用JavaScript編寫，所有文檔均可用於開發和部署。因此，您可以在[github][9]上找到所有源代碼。有關更多詳細信息，您可以閱讀有關Rocket.Chat [此處][10]的信息。
 
-##如何安裝Rocket.Chat   {#install}
+## 如何安裝Rocket.Chat   {#install}
 因此，我們知道什麼是Rocket.Chat，在本節中，我們將學習如何安裝此實時聊天軟件。您可以從各種市場上安裝Rocket.Chat，例如Ubuntu快照，Dockerhub，或將其安裝在您自己的服務器上。在本文中，我們將重點介紹Rocket.Chat通過Ubuntu上的快照的安裝。這是最快的安裝方法。
 快照是安全的。 Rocket.Chat及其所有依賴項都與您的其餘部分隔離。當有新版本時，快照也會自動更新。
 首先，在Ubuntu上，安裝以下命令安裝snap
@@ -40,7 +40,7 @@ sudo snap install rocketchat-server
 ```
 快照已經啟動並運行。瀏覽到http：// localhost：3000並設置Rocket.Chat。您可以將NGINX代理配置為rocket.chat實例與您的域。
 
-##啟用實時聊天功能 {#enable}
+## 啟用實時聊天功能 {#enable}
 一旦Rocket.Chat軟件安裝和配置，下一步就是啟用其功能。博客文章的這一部分介紹瞭如何在您的網站上啟用**聊天支持軟件**。要啟用Rocket.Chat實例上的LiveChat功能：
 1.去**管理**
 
@@ -59,7 +59,7 @@ sudo snap install rocketchat-server
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat Livechat小部件">}}
 
 
-##**在您的網站上安裝實時聊天小部件** {#widget}
+## **在您的網站上安裝實時聊天小部件** {#widget}
 在本節中，我們將在業務網站上安裝實時聊天小部件。現在，要訪問**livechat安裝**設置：
 轉到全渠道面板設置中的LiveChat安裝**，如下所示，並複制給定的代碼。
 
@@ -72,7 +72,7 @@ sudo snap install rocketchat-server
 
 {{_LINE_48_}}
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這使我們進入了此博客文章的結尾。在本文中，我們已經瀏覽了Rocket.Chat，如何安裝Rocket.Chat，我們還向您展示瞭如何通過Ubuntu Snaps在自己的服務器上安裝它。我們還學會瞭如何啟用實時聊天功能並在您的網站上安裝小部件。此外，由於我們上面討論的某些因素，**客戶支持軟件**已成為任何業務網站的必備部分。但是，如果您希望在您的業務網站上部署開源實時聊天軟件，那麼這篇博客文章確實會為您提供幫助。此外，您可以在下面的“探索”部分中提供了許多其他**聊天支持軟件**和文章，您可以查看。
 最後，[**containerize.com**][11]是在進一步的開源**開源聊天應用程序上撰寫文章。此外，您可以在我們的社交媒體帳戶上關注我們[Facebook][13]，[LinkedIn][14]和[Twitter][15]。
 

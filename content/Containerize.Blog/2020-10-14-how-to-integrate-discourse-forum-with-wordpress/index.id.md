@@ -21,13 +21,13 @@ Merupakan tantangan untuk mengintegrasikan forum dengan situs web yang didukung 
   * [Instalasi][4]
   * [Pengaturan][5]
 
-### wacana   {#discourse}
+## # wacana   {#discourse}
 Wacana adalah 100% perangkat lunak forum diskusi berbasis komunitas gratis, modern, modern, mudah digunakan, kaya fitur. Ini menyertai berbagai alat untuk diskusi masyarakat. Oleh karena itu, platform yang dapat diandalkan dan mudah beradaptasi. [Baca lebih lanjut][6]
 
-### WordPress   {#WordPress}
+## # WordPress   {#WordPress}
 WordPress adalah salah satu perangkat lunak pembangunan dan blogging situs web paling populer. 100% open source dan memiliki komunitas pengembang yang sangat besar. Akibatnya, ini menjadikannya pilihan nomor satu dari pengembang, blogger, dan pembangun situs web. Sejumlah besar situs web online hari ini dijalankan di WordPress. Karena, memungkinkan siapa pun yang tidak memiliki pengalaman pengembangan untuk membangun situs web. [Baca lebih lanjut][7]
 
-### Plugin WordPress Resmi untuk Wacana   {#plugin}
+## # Plugin WordPress Resmi untuk Wacana   {#plugin}
 Mempertimbangkan volume situs web yang ditenagai oleh WordPress. Dan, permintaan besar integrasi dengan WordPress. Wacana, telah merilis plugin WordPress resmi yang membuat integrasi sangat mudah.
 [Wacana WP][8] adalah plugin wispenpress wacana resmi adalah 100% open source. Dan, tersedia secara bebas untuk diunduh dari repositori. Kode sumber tersedia di [GitHub][9].
 Plugin ini memungkinkan Anda menggunakan wacana sebagai mesin komunitas untuk situs web atau blog WordPress Anda. Ini memiliki banyak fitur dan beberapa sorotan dari plugin, dan apa yang dapat dicapai adalah sebagai berikut.
@@ -37,7 +37,7 @@ Plugin ini memungkinkan Anda menggunakan wacana sebagai mesin komunitas untuk si
   * Plugin ini juga dilengkapi dengan fungsionalitas SSO opsional yang memungkinkan Anda menggunakan situs WordPress Anda sebagai tanda tunggal pada penyedia untuk forum wacana Anda.
   * Plugin memungkinkan Anda untuk menggunakan wacana sebagai penyedia otentikasi untuk situs WordPress Anda.
 
-Instalasi ###  {#installation}
+Instalasi ## #  {#installation}
 Anda dapat dengan mudah menginstal plugin dengan mencari "wacana WP" di dalam dasbor WordPress Anda.
   * Dari dasbor WordPress, navigasikan ke plugin> tambahkan baru
   * Cari "Wacana WP"
@@ -46,7 +46,7 @@ Anda dapat dengan mudah menginstal plugin dengan mencari "wacana WP" di dalam da
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="Instal WP Wacana Plugin dari WordPress Dashboard">}}
 
 
-Pengaturan ###  {#settings}
+Pengaturan ## #  {#settings}
 Wacana WP memberi Anda kontrol penuh dengan pengaturan. Ini memungkinkan Anda untuk membuat koneksi antara kedua platform. Pengaturan penerbitan, memungkinkan Anda untuk mengontrol bagaimana Anda ingin menerbitkan konten dari WordPress ke wacana.
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="Pengaturan umum">}}
@@ -64,7 +64,7 @@ Pengaturan SSO memungkinkan Anda untuk mengaktifkan masuk tunggal antara situs W
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-### Kesimpulan
+## # Kesimpulan
 Dalam tutorial ini kami telah belajar bagaimana mengintegrasikan wacana dengan WordPress. Wacana WP telah membuatnya mudah untuk membuat perpaduan dua produk kelas atas. Akibatnya, integrasi dengan WordPress telah memecahkan masalah komunitas besar yang merasa sulit untuk mengelola sebuah forum.
 
   

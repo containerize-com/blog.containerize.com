@@ -39,19 +39,19 @@ sudo reboot
 ## Шаг 2: Установите сервер лампы
 Чтобы настроить Pydio Secure Enterprise File Serving Server и того, как создать частное облако с открытым исходным кодом, нам сначала необходимо настроить работающий сервер LAMP. Если вы уже установили и работали в стеке лампы, пропустите этот шаг, иначе используйте команды последователей, чтобы настроить лампу на вашей системе Ubuntu.
 
-### Установить PHP
+## # Установить PHP
 Вы можете установить PHP в систему Ubuntu или Debian, выполняя команды:
 sudo apt-get установить Python-Software-Properties
 Sudo Add-Apt-Repository PPA: Ondrej/PHP
 Sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbsstring
 {{_LINE_34_}}
 
-### Установить Apache2
+## # Установить Apache2
 Apache является наиболее широко используемым программным обеспечением для веб-сервера с открытым исходным кодом. Затем установите веб -сервер Apache на Ubuntu, запустив:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Установить MySQL
+## # Установить MySQL
 Система управления база данных с открытым исходным кодом MySQL является компонентом программного стека программного обеспечения для веб-приложений LAMP и других. Теперь установка MySQL на Ubuntu, работая ниже:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

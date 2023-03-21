@@ -36,7 +36,7 @@ I metodi di autenticazione non sono limitati a due fattori. Molte app e servizi 
 Può controllare l'indirizzo IP di un utente, la geo-locazione e le informazioni sul dispositivo nell'aggiunta di altri fattori come una password e OTP per verificare l'identità dell'utente.
 Pertanto, possiamo dire che il 2FA è un sottoinsieme di MFA. In 2FA ci saranno solo due fattori mentre il multi-fattore può utilizzare due o più fattori. L'MFA rende difficile per gli hacker in quanto aggiunge più livelli di sicurezza nel tradizionale processo di autenticazione.
 
-## Ci sono degli svantaggi usando 2FA?   {##MFA-CONS}
+## Ci sono degli svantaggi usando 2FA?   {## MFA-CONS}
 Simile a molte soluzioni di "sicurezza e privacy" che esistono nelle app moderne. Viene inoltre con un prezzo - inconveniente, in quanto è coinvolto un ulteriore passo che può causare attrito nell'esperienza dell'utente.
 Tuttavia, viene adottato da molte app e servizi, quindi questo compromesso sta diventando accettabile.
 
@@ -186,7 +186,7 @@ Il codice Step-4 viene verificato e l'autenticazione 2FA è stata completata.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2Fademo - Pagina autorizzata">}}
 
 
-### Conclusione:
+## # Conclusione:
 In questo articolo, abbiamo appreso 2FA e la sua implementazione in .NET5 usando IdentityServer4 e Twilio. È possibile scaricare il codice di esempio utilizzato in questo articolo da questo [Repo][6].
 L'uso di SMS per 2FA sicuramente rafforza la tua sicurezza, ma è ancora vulnerabile agli [attacchi di scambio SIM][7]. Pertanto, i ricercatori della sicurezza stanno incoraggiando 2FA a utilizzare altri approcci come le app di autenticato e le chiavi di sicurezza ([Yubikey][8]) che non possono essere intercettate sulla rete telefonica. Impareremo di più su questo in un prossimo articolo: rimanete sintonizzati!
 

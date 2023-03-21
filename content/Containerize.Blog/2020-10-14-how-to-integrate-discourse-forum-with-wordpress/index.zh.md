@@ -21,13 +21,13 @@ categories: ['Blogging', 'Discussion Forum']
   * [安装][4]
   * [设置][5]
 
-### 话语 {#discourse}
+## # 话语 {#discourse}
 话语是100％免费的，完全开源的，现代，易于使用的，基于特征的社区讨论论坛软件。它伴随着社区讨论的各种工具。因此，其可靠和适应性的平台。 [阅读更多][6]
 
-### WordPress   {#wordpress}
+## # WordPress   {#wordpress}
 WordPress是最受欢迎的网站建设和博客软件之一。它的100％开源，并拥有一个庞大的开发社区。结果，这使其成为开发人员，博客作者和网站建设者的第一选择。如今，许多在线网站在WordPress上运行。因为，它允许任何没有开发经验的人建立网站。 [阅读更多][7]
 
-### 语言官方WordPress插件 {#plugin}
+## # 语言官方WordPress插件 {#plugin}
 考虑由WordPress提供动力的网站的数量。而且，与WordPress集成的巨大需求。话语已发布了一个官方的WordPress插件，使集成变得非常容易。
 [WP话语][8]是官方话语WordPress插件是100％开源的。并且，可以免费从存储库下载。源代码可在[Github][9]上找到。
 该插件使您可以将话语用作WordPress网站或博客的社区引擎。它具有许多功能和插件的某些亮点，可以实现的措施如下。
@@ -37,7 +37,7 @@ WordPress是最受欢迎的网站建设和博客软件之一。它的100％开�
   *该插件还具有可选的SSO功能，可让您将WordPress网站用作话语论坛提供商的单个标志。
   *该插件允许您将话语用作WordPress网站的身份验证提供商。
 
-### 安装 {#installation}
+## # 安装 {#installation}
 您可以通过在WordPress仪表板中搜索“ WP话语”来轻松安装插件。
   *从WordPress仪表板中，导航到插件>添加新
   *搜索“ WP话语”
@@ -46,7 +46,7 @@ WordPress是最受欢迎的网站建设和博客软件之一。它的100％开�
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="从WordPress仪表板安装WP话语插件">}}
 
 
-### 设置 {#settings}
+## # 设置 {#settings}
 WP话语可以使您完全控制设置。它使您可以在两个平台之间建立连接。发布设置，允许您控制如何从WordPress发布到话语的内容。
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="通用设置">}}
@@ -64,7 +64,7 @@ SSO设置允许您在WordPress网站和话语论坛之间启用单登录。因�
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-### 结论
+## # 结论
 在本教程中，我们学会了如何将话语与WordPress整合在一起。 WP话语使得融合两种顶级产品变得容易。结果，与WordPress的集成解决了一个庞大的社区的问题，该问题发现很难管理论坛。
 
   

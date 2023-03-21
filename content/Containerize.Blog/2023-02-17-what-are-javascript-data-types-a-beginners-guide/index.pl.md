@@ -29,7 +29,7 @@ W rzeczywistości JavaScript jest luźno wpisanym językiem, co oznacza, że ​
 {{< figure align=center src="images/web-development.png" alt="Przewodnik dla początkujących JavaScript">}}
 
 
-#### prymitywne typy danych
+## ## prymitywne typy danych
 Prymitywne typy danych to te, które są niezmienne i nie można ich zmienić po utworzeniu i inicjalizacji. Możesz jednak ponownie przypisać nową wartość, ale nie możesz zmutować istniejącej wartości.
 Na przykład:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 W powyższym przykładzie ciąg jest prymitywnym typem danych, a stara wartość jest zastępowana nową wartością, ale zmiana istniejącej wartości nie jest odzwierciedlona. Widzimy więc, że wciąż jest to „moje imię zmieniło się”, a nie „moje imię się zmieniło”;
 
-####
+## ## 
 Nieprzestwalne typy danych są zmienne, w prostych słowach przeciwieństwo prymitywnych typów danych.
 Na przykład:
 ```

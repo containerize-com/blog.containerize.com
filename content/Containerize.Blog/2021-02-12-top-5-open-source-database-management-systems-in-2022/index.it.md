@@ -14,7 +14,7 @@ Il software ## Open-source DBMS ha guadagnato maturità e popolarità a livello 
 {{< figure align=center src="images/Top-5-Open-Source-Database-Management-Systems-In-2021.png" alt="Sistemi di gestione del database">}}
 
 
-Panoramica ##
+Panoramica ## 
 I sistemi di gestione del database offrono un approccio sistematico per la gestione dei database tramite un'interfaccia utente. Inoltre, un sistema di gestione del database è un pacchetto software che fornisce soluzioni tecnologiche essenziali per la manipolazione, l'ottimizzazione, nonché la gestione e il recupero dei dati dai database. Allo stesso modo, fornisce anche accesso ai dati sia per applicazioni online che offline. Discuteremo il seguente software DBMS open source in questo articolo:
   * [Mysql][1]
   * [Postgresql][2]

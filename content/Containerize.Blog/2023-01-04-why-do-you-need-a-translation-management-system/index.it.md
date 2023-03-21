@@ -34,7 +34,7 @@ Un sistema di gestione della traduzione automatizza i compiti ripetitivi della g
 La parte più bella di un software di gestione della traduzione open source è che è possibile avere la sua versione cloud che risolve i problemi relativi alla scalabilità. Pertanto, puoi concentrarti sulla gestione della localizzazione dei tuoi progetti e sull'aumento della portata dei tuoi contenuti attraverso i confini.
 Le seguenti sono le caratteristiche fondamentali di qualsiasi sistema di gestione della traduzione (TMZ):
 
-####**API per integrazioni di terze parti**
+#### **API per integrazioni di terze parti**
 Un TMS**a livello aziendale**fornisce sempre un'API utilizzata per l'integrazione con altre applicazioni e moduli di traduzione come [i18n][5].
 
 #### Global Search
@@ -73,10 +73,10 @@ Puoi farci sapere delle tue domande o domande sul nostro [forum][7].
 
 ## FAQS   {#FAQS}
 
-####**Ho bisogno di un sistema di gestione della traduzione?**
+#### **Ho bisogno di un sistema di gestione della traduzione?**
 Sì, se hai a che fare con una grande quantità di contenuti che coinvolgono risorse statiche e dinamiche. Quindi, puoi ospitare un software di gestione della traduzione open source**per automatizzare e gestire le traduzioni.
 
-####**Quali sono i vantaggi di TMS?**
+#### **Quali sono i vantaggi di TMS?**
 Visitare questo [link][4] per conoscere i vantaggi di un sistema di gestione della traduzione.
 
 ## vedi anche   {#see-anche}

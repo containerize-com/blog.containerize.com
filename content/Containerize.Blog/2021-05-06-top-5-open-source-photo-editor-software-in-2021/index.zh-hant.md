@@ -9,7 +9,7 @@ url: /zh-hant/photo-editing-software/top-5-open-source-photo-editor-software-in-
 categories: ['Photo Editing Software']
 ---
 
-##照片編輯器是遵循複雜算法的高級圖像編輯工具，以編輯和操縱現有圖片為全新的照片。
+## 照片編輯器是遵循複雜算法的高級圖像編輯工具，以編輯和操縱現有圖片為全新的照片。
 
 {{< figure align=center src="images/Top-5-Open-Source-Photo-Editing-Software-In-2021.png" alt="2021年的前5個開源照片編輯器軟件">}}
 

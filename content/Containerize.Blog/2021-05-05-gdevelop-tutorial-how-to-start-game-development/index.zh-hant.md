@@ -9,7 +9,7 @@ url: /zh-hant/gdevelop-tutorial-how-to-start-game-development/
 categories: ['Game Development Software']
 ---
 
-##從頭開始構建視頻遊戲，然後在Android，iOS，Web，Windows和Linux上運行它。 Gdevelop是一種具有強大功能的自託管，免費的遊戲引擎。
+## 從頭開始構建視頻遊戲，然後在Android，iOS，Web，Windows和Linux上運行它。 Gdevelop是一種具有強大功能的自託管，免費的遊戲引擎。
 
 {{< figure align=center src="images/GDevelop.png" alt="Gdevelop教程">}}
 
@@ -21,12 +21,12 @@ categories: ['Game Development Software']
   * **[如何在local主機上設置？][2]**
   * **[結論][3]**
 
-##**什麼是gdevelop。**   {#intro}
+## **什麼是gdevelop。**   {#intro}
 Gdevelop是一種免費的開源視頻遊戲開發軟件。它是自我託管的，並提供了豐富的功能來開發2D遊戲。但是，有3D對象的支持。用戶不需要任何形式的編程技能來開發和發布多個平台的遊戲。它非常可擴展且易於設置，因為它需要簡單的要求才能自助使用這款免費的遊戲引擎。有一個具有拖放功能的直觀用戶界面。該免費工具提供高級動畫，視頻/音頻效果，觸摸屏和多點觸摸，實時預覽等。此外，這款 **3D遊戲設計師** 提出了強大的原型製作功能，可幫助開發人員根據原型開發優質的產品。
 此外，此開源 **Easy Game Maker** 具有高度配置，並支持與第三方庫的集成。最重要的是，它為流行的視頻遊戲機提供了Xbox和PlayStation的支持。 Gdevelop用C ++，JavaScript和Typescript編寫。有有關部署和開發的詳細文檔。 Gdevelop擁有一個非常充滿活力的開發人員社區，該社區對錯誤和查詢有積極響應。因此，所有源代碼均可在[GitHub][4]上獲得。
 [了解有關GDEVEVEL的更多信息][5]
 
-##**如何在localhost上設置？**   {#setup}
+## **如何在localhost上設置？**   {#setup}
 在此 **gdevelop教程** 的一部分中，我們將看到如何在本地系統上設置GDEVEEP。在移至下一步之前，請確保您已經安裝了以下先決條件。
   * git
   * node.js 12.x
@@ -67,7 +67,7 @@ npm start
 
 這樣，您可以探索並嘗試進一步的功能。這個**輕鬆遊戲製造商**對開發人員友好，並提供了直觀的儀表板。完成遊戲完成後，您可以將其導出到Android，iOS和Web等各種平台。
 
-##**結論**   {#conclusion}
+## **結論**   {#conclusion}
 這結束了本gdevelop教程。此**免費遊戲引擎**可讓您使用視覺事件實現遊戲的邏輯。它具有非常支持的社區，該社區製作了許多有用的教程和用戶手冊。如果您在遊戲開發領域是新手，那麼這篇博客文章將真正為您提供幫助。下面的“探索”部分中提到了許多其他 **3D遊戲設計師** ，遊戲開發工具和文章。所有這些遊戲引擎都是免費的，開源的，並提出了自我託管功能。因此，隨著遊戲玩家數量的增加，遊戲開發行業正在大大擴展。有具有高清圖形和聲音效果的視頻遊戲引發遊戲玩家的興趣和吸引力。但是，選擇一個良好的遊戲開發軟件，該軟件為您的工作帶來質量和效率。
 最後，Containerize.com將通過一些更有趣的遊戲開發教程來增強其教程基礎。請在[contaerize.com][7]上與此[遊戲開發軟件][6]類別保持聯繫，以進行常規更新。
 

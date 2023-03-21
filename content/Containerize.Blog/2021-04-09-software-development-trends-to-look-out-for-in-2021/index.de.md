@@ -24,7 +24,7 @@ Um auf dem Laufenden zu bleiben, müssen Sie nicht nur den gegenwärtigen Techno
   * Entwicklung mit niedriger Code
   * Abschluss
 
-#### **Trend 1: Künstliche Intelligenz (AI)** 
+## ## **Trend 1: Künstliche Intelligenz (AI)** 
 Moderne Technologie ist leistungsstark genug, um KI -Softwarelösungen zu erstellen. Eine künstliche Intelligenz ist eine Software, die wie eine Person intelligent denkt. Da die Zukunft der Softwareentwicklung und die Zukunft der Technologie in Algorithmen, maschinellem Lernen, dem neuronalen Netzwerk und KI -Tools liegt, um neue und faszinierende Schlussfolgerungen zu ziehen. AI -Softwarelösungen sind die dominierende Kraft von Trendtechnologien in der Softwareentwicklung in der technologischen Welt von heute.
 Heutzutage suchen Entwickler durch kontinuierliche Praxis Lösungen im Bereich für künstliche Intelligenz, und Maschinen können intelligent wie Menschen denken. Es wird erwartet, dass KI im Jahr 2021 als Top -Trends in der Softwareentwicklung an Traktion gewonnen wird, da Unternehmen mit KI -Softwarefunktionen wahrscheinlich erfolgreich sind. Der Bereich der natürlichen Sprachverarbeitung ist aufgrund der neuen Technologie in der Softwareentwicklung in der KI von besonderem Interesse. 2021 Neueste Softwareentwicklungstrends verleihen mehr Entwicklungsfähigkeiten, Chat-Bots, indem jede Aufgabe automatisch gestaltet und menschliche Beteiligung reduziert wird.
 {{_LINE_24_}}

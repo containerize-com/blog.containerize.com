@@ -31,7 +31,7 @@ Oto kilka popularnych funkcji Joomla CMS.
   * SEO
     [Czytaj więcej][6]
 
-###**Drupal** {#Drupal}
+### **Drupal** {#Drupal}
 Drupal to kolejna popularna opcja wśród**Systemów zarządzania treścią open source**, która pojawiła się w 2001 roku do opracowania dynamicznych stron internetowych. Jest open source i 100% bezpłatny, a wśród jednej z 3 najlepszych platform CMS. Prowadzi cyfrową transformację w branżach.
 W Drupal szablony i wtyczki ułatwiają opracowanie nowej strony internetowej bez żadnych problemów. Jednym z głównych punktów sprzedaży tego**Web Content Management System**jest jego moc do tworzenia i zarządzania ogromną różnorodnością typów treści. Jego bezpieczeństwo jest niezrównane i niezachwiane.
 Oto kilka popularnych funkcji Drupal.
@@ -41,7 +41,7 @@ Oto kilka popularnych funkcji Drupal.
   * Wyświetlacz specyficzny dla urządzenia
     [Czytaj więcej][7]
 
-###**Pyro** {#pyro}
+### **Pyro** {#pyro}
 Pyro to wspaniały system zarządzania treścią, który ostatnio rośnie. Jest zbudowany z Laravel CMS. I wydaje się, że to przedłużenie. Podobnie jak inne**Open Source CMS**, Pyro jest wyposażony w unikalne i potężne funkcje z pudełka. Obsługuje również zarządzanie plikami opartymi na sterowniku w celu idealnej integracji z Laravel.
 Pyro obsługuje również zarządzanie użytkownikami. Dlatego to**niestandardowe oprogramowanie CMS**umożliwia nam łatwe zarządzanie użytkownikami, ról i uprawnieniami. Możesz jednak cieszyć się dodatkami dostępnymi w sklepie Pyro.
 Rdzeniem Pyro jest platforma Streams. Jest to pełnoprawny zestaw narzędzi do tworzenia potężnych i szybszych aplikacji. Jest to również solidna platforma silnika i rozwoju.
@@ -53,7 +53,7 @@ Oto kilka popularnych funkcji Pyro.
   * 1 Kickass API
     [Czytaj więcej][8]
 
-###**django** {#django}
+### **django** {#django}
 Django CMS to ramy napisane w Pythonie, które umożliwiają szybkie opracowanie bezpiecznych i możliwych do utrzymania stron internetowych. To CMS open source. Co najważniejsze, tysiące stron jest obsługiwanych przez Django. Jest przyjazny dla użytkownika z wieloma funkcjami, takimi jak obsługa multisite, kontrola wersji, lepszy mechanizm publikowania, i zapewnia deskę rozdzielczą przeciągnięcia i upuszczenia, która przyspiesza proces rozwoju.
 Podobnie jak inne**Platformy CMS open source**, korzystanie z Django wymaga większości kłopotów z tworzeniem stron internetowych. Po pierwsze, ten**System zarządzania treścią internetową**traktuje bezpieczeństwo poważnie i pomaga programistom z wieloma typowymi błędami bezpieczeństwa. Po drugie, bardzo łatwo poradzi sobie z ogromną ilością ruchu internetowego. Przede wszystkim rządy, organizacje i firmy wykorzystują Django do budowania wszelkiego rodzaju rzeczy, od sieci społecznościowych po systemy zarządzania po przetwarzanie naukowe.
 Oto kilka popularnych funkcji Django CMS.
@@ -63,7 +63,7 @@ Oto kilka popularnych funkcji Django CMS.
   * Łatwe do zintegrowania
     [Czytaj więcej][9]
 
-##**Umbraco** {#umbraco}
+## **Umbraco** {#umbraco}
 Umbraco to kolejny**CMS open source dla stron internetowych**, który zapewnia najszybsze sposoby założenia strony internetowej dla biznesu poprzez oferowanie gotowych szablonów projektowych. Dzięki Umbraco otrzymujesz znany i lubił system zarządzania treścią ze względu na jego elastyczność i doskonałą edycję. Intuicyjny pulpit nawigacyjny jest na miejscu, aby umożliwić użytkownikom efektywne tworzenie, aktualizowanie i publikowanie treści.
 Umbraco zostało zaprojektowane w celu uzyskania deweloperów. Dlatego jest elastyczny bez ograniczeń. Podobnie marketerzy i redaktorzy uwielbiają pracować z Umbraco. Ponieważ sprawia, że ​​codzienne prace są prostsze i bardziej zachwycające.
 Umbraco CMS jest zapisywany w ASP.NET wraz z wejściem niektórych innych języków, takich jak JavaScript, HTML i TypeScript. Co najważniejsze, obsługuje globalne wyszukiwanie, w których użytkownicy mogą wyszukiwać wszystko, niezależnie od zakresu.

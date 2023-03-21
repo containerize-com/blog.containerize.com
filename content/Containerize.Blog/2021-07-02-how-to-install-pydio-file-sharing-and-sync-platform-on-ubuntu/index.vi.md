@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Cách cài đặt nền tảng chia sẻ và đồng bộ hóa tệp Pydio trên Ubuntu">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Tế bào Pydio là một phần mềm chia sẻ và đồng bộ hóa tệp nguồn mở. Nó cung cấp một điểm truy cập duy nhất vào tất cả các lưu trữ dữ liệu của bạn và nó là một giải pháp thay thế cho Owncloud và NextCloud cung cấp dịch vụ lưu trữ, chia sẻ tệp và đồng bộ hóa. Pydio là một nền tảng chia sẻ tệp nguồn mở doanh nghiệp tương tự như Dropbox và các nền tảng lưu trữ khác. Nó giúp bạn kết nối an toàn tất cả các tệp và thiết bị của bạn trong một nền tảng.
 Tế bào Pydio là một nền tảng cộng tác và đồng bộ hóa các tệp dựa trên đám mây. Phần mềm nguồn mở này chạy trên cơ sở hạ tầng CNTT cá nhân của bạn và giúp nhân viên của bạn bảo vệ và giám sát dữ liệu kinh doanh của bạn. Bạn có thể đồng bộ hóa dữ liệu của mình và truy cập nó từ mọi nơi bằng ứng dụng di động, phần mềm máy tính để bàn hoặc trình duyệt web bằng các ô Pydio. Ứng dụng chia sẻ tệp tốt nhất của các ô Pydio dựa trên kiến ​​trúc dịch vụ vi mô và được viết bằng ngôn ngữ lập trình Golang.
 Hướng dẫn này sẽ giúp bạn cài đặt và định cấu hình phần mềm chia sẻ tệp PYDIO tự lưu trữ và nền tảng đồng bộ hóa trên các hệ thống Ubuntu LTS.
@@ -39,19 +39,19 @@ sudo reboot
 ## Bước 2: Cài đặt máy chủ đèn
 Để thiết lập máy chủ chia sẻ tệp doanh nghiệp an toàn Pydio và cách tạo một đám mây riêng nguồn mở, trước tiên chúng tôi cần thiết lập một máy chủ đèn đang chạy. Nếu bạn đã cài đặt và chạy ngăn xếp đèn, hãy bỏ qua bước này khác sử dụng các lệnh sau để thiết lập đèn trên hệ thống Ubuntu của bạn.
 
-### Cài đặt PHP
+## # Cài đặt PHP
 Bạn có thể cài đặt PHP trên hệ thống Ubuntu hoặc Debian của mình bằng cách chạy các lệnh:
 sudo apt-get install python-software-properies
 sudo ppa thêm-apt-ept-end: ondrej/php
 sudo apt-get install -y php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### Cài đặt Apache2
+## # Cài đặt Apache2
 Apache là phần mềm máy chủ web nguồn mở được sử dụng rộng rãi nhất. Tiếp theo, cài đặt máy chủ web Apache trên Ubuntu bằng cách chạy:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### Cài đặt MySQL
+## # Cài đặt MySQL
 Hệ thống quản lý cơ sở dữ liệu quan hệ nguồn mở của MySQL là một thành phần của ngăn xếp phần mềm ứng dụng web LAMP và các loại khác. Bây giờ đã cài đặt MySQL trên Ubuntu bằng cách chạy bên dưới:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

@@ -46,7 +46,7 @@ sudo apt-get update
 sudo apt-get install -y nginx-extras passenger
 ```
 
-## 3. Aktivieren Sie das Passagier-Nginx-Modul und starten Sie Nginx neu:   {#Schritt-2: -Enable-the-Passager-Nginx-Module und -Restart-nginx}}
+## 3. Aktivieren Sie das Passagier-Nginx-Modul und starten Sie Nginx neu:   {#Schritt-2: -Enable-the-Passager-Nginx-Module und -Restart-nginx}
 Edit /etc/nginx/nginx.conf und unkontrollieren inclycment /etc/nginx/pasger.conf;. Zum Beispiel können Sie Folgendes sehen:
 ```
 # include /etc/nginx/passenger.conf;
@@ -83,7 +83,7 @@ sudo apt-Get-Update
 sudo apt-get upgrade
 Nach einem Update müssen Sie Web oder Anwendung nicht neu starten und nach einem Update auch keine Konfigurationsdateien ändern. Das alles wird für Sie von APT automatisch gepflegt.
 
-## 6. **Die besten Open-Source-Webserver** :   {#STEP-4: -Update-regular}}
+## 6. **Die besten Open-Source-Webserver** :   {#STEP-4: -Update-regular}
 ** Was ist ein Open-Source-Webserver? Grundsätzlich verarbeitet es Anforderungen über das HTTP -Netzwerkprotokoll, um Informationen im World Wide Web zu verteilen.
 Mehr als 80% der Webanwendungen und Websites werden von Open Source -Webservern betrieben. Hier habe ich einige der beliebtesten Open -Source -Webservers ** aufgelistet und Sie können einfach eines dieser beliebten Webserver selbst bereitstellen.
   ***Apache HTTP Server** 

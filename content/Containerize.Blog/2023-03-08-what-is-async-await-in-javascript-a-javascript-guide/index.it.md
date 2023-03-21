@@ -15,14 +15,14 @@ categories: ['Programming']
 {{< figure align=center src="images/what-is-async-await-in-javascript-a-javascript-guide.png" alt="Cos'è Async Wait in JavaScript??">}}
 
 
-Panoramica ##
+Panoramica ## 
 Abbiamo coperto [JavaScript Promises][1] nel nostro precedente post sul blog e devi visitare se vuoi ottenere una chiara comprensione del concetto dietro le promesse di JavaScript. In questa serie di [JavaScript Tutorials][2], siamo qui con un'altra guida JavaScript che dimostrerà le moderne caratteristiche dell'asincronizzazione JavaScript/Abvet. Questo post sul blog è per coloro che hanno una conoscenza preliminare delle promesse di JavaScript. Inoltre, cercheremo di coprire **ciò che è asincrone/attesa in JavaScript  **e quando dobbiamo usare Async/Abved. Inoltre, copriremo anche gli errori di gestione con asincroni/attesa. Quindi, dai una lettura approfondita a questo**   JavaScript Async/Aspetta Tutorial** per contrassegnare questo concetto controllato.
 Passeremo attraverso le seguenti sezioni in questo asincrone JavaScript attende il tutorial:
   * **[Cos'è ASYNC/ATSED in JavaScript | Async Aspetta sintassi][3]**
   * **[quando usare asincroni/attesa?][4]**
   * **[Gestione degli errori con Async/Wait][5]**
 
-## Cosa è asincrone/attesa in javascript | Async Attende la sintassi   {#what-is-asyncawait-in-javascript-async-wait-syntex}}
+## Cosa è asincrone/attesa in javascript | Async Attende la sintassi   {#what-is-asyncawait-in-javascript-async-wait-syntex}
 ECMAScript 2017 ha rilasciato nuove funzionalità di JavaScript e Async/Wait è una delle più utilizzate tra queste caratteristiche. L'asincronizzazione/attesa è costruito sopra le promesse ed è in realtà un modo moderno per gestire le promesse JavaScript.
 Vediamo come usare le parole chiave asincriche/attenti nel codice JavaScript:
 ```

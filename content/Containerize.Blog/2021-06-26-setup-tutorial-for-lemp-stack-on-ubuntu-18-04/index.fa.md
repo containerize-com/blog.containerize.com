@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-### نصب سرور وب nginx
+## # نصب سرور وب nginx
   *دستور زیر را به  **نصب NGINX را در Ubuntu**  اجرا کنید.
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="صفحه پیش فرض سرور Nginx">}}
 
 
-### نصب mysql
+## # نصب mysql
 اکنون ، برای مدیریت داده های برنامه خود باید سرور پایگاه داده MySQL را نصب کنید.
   *دستور زیر را اجرا کنید تا  **MySQL را در Ubuntu**  نصب کنید.
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### نصب PHP
+## # نصب PHP
 ما نصب PHP-FPM را برای پردازش PHP پوشش خواهیم داد. PHP-FPM مخفف مدیر فرآیند FastCGI است. سرور وب Nginx هیچ قابلیت ساخت و ساز برای پردازش PHP ندارد ، بنابراین ، ما از PHP-FPM برای آن استفاده خواهیم کرد. علاوه بر این ، ما PHP-MYSQL را برای برقراری ارتباط PHP با MYSQL برای مدیریت داده نصب خواهیم کرد.
   *دستور زیر را برای  **نصب PHP در Ubuntu**  اجرا کنید.
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### تست PHP
+## # تست PHP
   * برای اطمینان از اینکه NGINX به درستی در صفحات PHP خدمت می کند ، ما برای آزمایش تنظیمات ، فایل PHP را ایجاد خواهیم کرد.
   * با اجرای دستور زیر ، فایل info.php را در فهرست اصلی سرور وب NGINX ایجاد کنید.
 ```

@@ -14,7 +14,7 @@ categories: ['CMDB Software']
 {{< figure align=center src="images/ralph.png" alt="Rozwiązanie CMDB">}}
 
 
-##**Przegląd**
+## **Przegląd**
 W obecnym momencie organizacje kwitną, aby spełnić tempo technologii, stosując ogromną infrastrukturę IT. Następnie zarządzanie tak ogromnymi środowiskami jest nie mniej niż wyzwanie. Wymaga siły roboczej i siły technologicznej, aby wykonywać tak krytyczne zadania. Czasami staje się kłopotem ze sformułowaniem procesów i procedur w zakresie obsługi złożonych sieci systemów, które zawierają drukarki, komputery stacjonarne, skanery, telefony i inne akcesoria IT. Podobnie konfiguracje tych węzłów są również ważne, ponieważ istnieją duże szanse na przestoje dowolnego komputera w sieci. Dlatego powinno istnieć spójne sprawdzanie tych konfiguracji.
 Istnieje jednak wiele dostępnych oprogramowania typu open source i bezpłatnych, aby śledzić i rejestrować zasoby. To oprogramowanie jest znane jako oprogramowanie do bazy danych zarządzania konfiguracją (CMDB). Niedawno [Containerize.com][1] opublikował rozwiązanie CMDB [Ralph][2], które zapewnia wiele funkcji dla lepszych zasobów i zarządzania konfiguracją. W tym poście na blogu zbadamy Ralpha, obejmując następujące punkty.
   * **[Krótkie wprowadzenie CMDB Software Asset Management Ralph][3]**

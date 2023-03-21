@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Nginx-With-Passenger-on-AWS-Production-Server.png" alt="Imposta nginx con il passeggero sul server di produzione AWS">}}
 
 
-Panoramica ##  **** :
+Panoramica ## **** :
 È necessario installare e configurare **nginx con il passeggero sulla produzione AWS**  Server prima di distribuire l'applicazione sul server di produzione.
 **Il passeggero di Phusion open source ** offre molte opzioni di personalizzazione e funzionalità. Passenger Alcune funzionalità vengono utilizzate per migliorare le caratteristiche delle prestazioni dell'applicazione. Alcune delle applicazioni di personalizzazione influenzano l'applicazione o il comportamento di gestione della connessione ecc. Due opzioni di configurazione per il passeggero sono necessarie per essere impostate in Nginx, denominate come passeggero \ _enabled e passeggeri \ _root. Questo processo di installazione imposterà automaticamente entrambe queste opzioni.
 In questo articolo del blog, tratteremo alcune delle fasi di configurazione essenziali per l'installazione di Web Application Server sul sistema operativo Ubuntu che segue **Metodo APT** . Sarai in grado di distribuire e amministrare le applicazioni Web scritte in node.js, python e Ruby dopo aver letto e seguito la guida di seguito.

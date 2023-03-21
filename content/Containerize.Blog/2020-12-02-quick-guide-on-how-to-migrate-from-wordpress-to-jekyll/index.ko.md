@@ -9,7 +9,7 @@ url: /ko/quick-guide-on-how-to-migrate-from-wordpress-to-jekyll/
 categories: ['Blogging']
 ---
 
-##이 튜토리얼에서는 웹 사이트를 WordPress에서 Jekyll로 마이그레이션하고 Github로 무료로 호스팅하는 방법을 배우게됩니다.
+## 이 튜토리얼에서는 웹 사이트를 WordPress에서 Jekyll로 마이그레이션하고 Github로 무료로 호스팅하는 방법을 배우게됩니다.
 
 {{< figure align=center src="images/wordpress-to-jeykll.png" alt="WordPress에게 Jekyll">}}
 
@@ -66,7 +66,7 @@ ruby -r rubygems -e 'require "jekyll-import";
 ```
 이것은 게시물 및 페이지 데이터 및 컨텐츠 만 가져옵니다. 이 수입업자는 귀하의 게시물 만 변환하고 Yaml 프론트 미터를 만듭니다. 레이아웃, 스타일링 또는 외부 파일 (이미지, CSS 등)을 가져 오지 않습니다.
 
-##**github 페이지로 배포** {#deploy}
+## **github 페이지로 배포** {#deploy}
 지금까지 우리는 Jekyll 블로그를 로컬로 만들었습니다. 이제 우리는 그것을 Github에 배포 할 것입니다. 우선, 우리는 [git][9]를 사용하여 사이트를 제어해야합니다. 사이트 폴더에서 다음 명령을 실행하십시오.
 ```
 git init

@@ -31,16 +31,16 @@ Bu WordPress eklenti öğreticisinde, ilk WordPress eklentimizi nasıl oluştura
 ## eklenti geliştirmenin temelleri   {#basics}
 Eklenti geliştirmenin bazı önemli yönleri hakkında konuşalım. Bu kavramların nasıl çalıştığına dair sağlam bir anlayış, kullanımı kolay ve sürdürülebilir işlevsellik oluşturmanıza yardımcı olacaktır.
 
-### Hareketler
+## # Hareketler
 **Action Hooks  ****  WordPress  ****  eklentisinde çok kullanışlı bir araçtır ve bir temanın veya eklentinin belirli yerlerinde işlevleri ( **Eylemler**  ) gerçekleştirmek için kullanılırlar. WordPress, temel işlevselliği boyunca tanımlanan düzinelerce eyleme sahiptir, her bir eylem benzersiz bir isimden oluşur. Daha fazla ayrıntı için [okuyun][5].
 
-### Filtreler
+## # Filtreler
 Bir WordPress filtresi, bir değişkeni (veya değişken serisini) kabul eden ve değiştirildikten sonra bunları geri döndüren bir kancadır. Bu filtreler genellikle varsayılan bilgileri manipüle etmek için bir yolunuz olması için kullanılır. Daha fazla ayrıntı için [okuyun][6].
 
-### Kısa kodlar
+## # Kısa kodlar
 Kısa kodlar, içerikle dinamik etkileşimler gerçekleştirmek için kullanılabilen makrolardır. yani gönderiye bağlı resimlerden bir galeri oluşturma veya bir video oluşturma. Sonuç olarak, içeriği temiz ve semantik tutmanın değerli bir yoludur ve son kullanıcılara içeriklerinin sunumunu programlı olarak değiştirme yeteneğine izin verir. Daha fazla ayrıntı için [okuyun][7].
 
-### widget'lar
+## # widget'lar
 Widget'lar önemlidir, çünkü kullanımı kolay bir arayüz sağlarken eklentinizin kodunu yürütmenin başka bir yolu sunarlar. Çoğu tema bir veya daha fazla kenar çubuğunu destekleyeceğinden; Kendi widget'larınızı eklemek, bilgilerinizi temanın içinde görüntülemenize hızlı erişim sağlayacaktır.
 
 ## **WP eklentisi nasıl oluşturulur?**    {#create}
@@ -62,7 +62,7 @@ WordPress eklenti öğreticisinin bu bölümünde, tek yapmanız gereken bir kla
 Şimdi, eklentinizi etkinleştirmek için arka ucuna gidebilirsiniz. Hepsi bu kadar, ancak bu eklenti hiçbir şey yapmıyor. Ancak, aktif, çalışan bir eklentidir. Bir eklenti geliştirirken en iyi uygulama, kodunuzu düzgün bir şekilde uygun dosyalara ve klasörlere ayırmaktır.
 Göstermek için, her yazının kaç kez görüntülendiğini saklayarak makalelerimizin popülaritesini izleyen test eklentimize işlevsellik ekleyelim.
 
-### Sayfa görünümlerini saklama
+## # Sayfa görünümlerini saklama
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ function add_page_views() {
 add_action("wp_head", "add_page_views");
 ```
 
-### Sayfa Görünümlerini Gösteriyor
+## # Sayfa Görünümlerini Gösteriyor
 Şimdi yukarıdaki işlevde zaten sakladığımız sayfa görünümlerini döndüren başka bir işlev oluşturacağız. Kodu bir inceleyelim:
 ```
 function get_page_views() {

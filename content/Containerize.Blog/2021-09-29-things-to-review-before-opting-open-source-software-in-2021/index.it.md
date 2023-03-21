@@ -14,7 +14,7 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 {{< figure align=center src="images/oss.png" alt="software open source">}}
 
 
-Panoramica ##
+Panoramica ## 
 Sei atterrato nel posto giusto se ti stai chiedendo di adottare software per aumentare la tua attività. In questo mondo in rapida crescita di tecnologia e innovazione, ci sono molti fattori che possono diventare tappi come costi, tempo, competenze, risorse e molti altri. D'altra parte, è un affare costoso per sviluppare software da zero per soddisfare i requisiti aziendali. Ecco che arriva il  **software open source** . Il software open source (OSS) è pubblicamente disponibile per tutti con tutto il codice sorgente e la documentazione con licenza. Potrebbe essere costruito da un singolo sviluppatore o da un gruppo di sviluppatori che lo rendono pubblico. Una volta che la visibilità del software libero è pubblica, altri sviluppatori possono contribuire a quel software per i miglioramenti.
 Inoltre, la comunità open source è molto vibrante e di supporto che si è sviluppata lungo  **elenco di software open source** . Ci sono bacheche in cui collaboratori e utenti si uniscono per condividere soluzioni e pensieri. Esiste una vasta gamma di categorie OSS che coprono la maggior parte degli aspetti aziendali. Naturalmente, ci sono alcune cose da considerare prima di scegliere un'applicazione open source che discuteremo in questo post sul blog coprendo i seguenti punti.
   * **[Community][1]**

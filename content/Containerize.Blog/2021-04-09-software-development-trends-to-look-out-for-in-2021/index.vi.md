@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms', 'Rapid Application Development']
 {{< figure align=center src="images/b-2.png" alt="Xu hướng phát triển phần mềm để xem xét vào năm 2021">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Phát triển phần mềm không ngừng phát triển và mọi chuyên gia công nghệ đều biết tầm quan trọng của các xu hướng mới nhất của ngành. Bạn không thể hạn chế những tiến bộ trong công nghệ. Bởi vì nó không thể ngăn cản và nó tiếp tục phát triển. Từ các công cụ triển khai đến các công cụ triển khai, xu hướng phát triển phần mềm thay đổi nhanh như chính công nghệ.
 Để duy trì hiện tại, bạn không chỉ cần xem xét trạng thái công nghệ hiện tại. Nhưng bạn cũng phải quan tâm đến các xu hướng mới nổi trong tương lai trong kỹ thuật phần mềm. Trong bài đăng trên blog này, chúng tôi đã tổng hợp các xu hướng phát triển phần mềm phổ biến nhất sau đây trong ngành CNTT:
   * Trí tuệ nhân tạo (AI)
@@ -24,7 +24,7 @@ Phát triển phần mềm không ngừng phát triển và mọi chuyên gia c�
   * Phát triển mã thấp
   * Phần kết luận
 
-####  **Xu hướng 1: Trí tuệ nhân tạo (AI)** 
+## ##  **Xu hướng 1: Trí tuệ nhân tạo (AI)** 
 Công nghệ hiện đại đủ mạnh để tạo ra các giải pháp phần mềm AI. Trí tuệ nhân tạo là một phần mềm suy nghĩ thông minh theo nghĩa rộng, giống như một người. Bởi vì tương lai của phát triển phần mềm và tương lai của công nghệ nằm trong các thuật toán, học máy, mạng lưới thần kinh và các công cụ AI để đưa ra kết luận mới và hấp dẫn. Các giải pháp phần mềm AI là lực lượng thống trị của các công nghệ xu hướng trong phát triển phần mềm trong thế giới công nghệ ngày nay.
 Ngày nay, các nhà phát triển tìm kiếm các giải pháp trong khu vực trí tuệ nhân tạo thông qua thực hành liên tục và máy móc có thể suy nghĩ thông minh như con người. AI dự kiến ​​sẽ đạt được lực kéo vào năm 2021 với tư cách là xu hướng phát triển phần mềm hàng đầu, do các công ty có khả năng phần mềm AI có khả năng thành công. Khu vực xử lý ngôn ngữ tự nhiên được đặc biệt quan tâm vì công nghệ mới trong phát triển phần mềm trong AI. 2021 Xu hướng phát triển phần mềm mới nhất đang mang lại nhiều kỹ năng phát triển hơn, trò chuyện bằng cách làm cho mọi nhiệm vụ tự động và giảm sự tham gia của con người.
 {{_LINE_24_}}

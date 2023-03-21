@@ -38,7 +38,7 @@ Ubuntu 18.04에 우편  **메일 서버 소프트웨어** 를 설치하려면 �
 sudo apt-get update
 ```
 
-### MariaDB 데이터베이스 서버를 설치하십시오
+## # MariaDB 데이터베이스 서버를 설치하십시오
   * 명령을 실행하여 mariadb를 설치하십시오.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### 루비를 설치하십시오
+## # 루비를 설치하십시오
   * 먼저, Ruby를 설치하려면 타사 PPA를 추가하십시오. 다음 명령을 실행하십시오.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### RabbitMQ를 설치하십시오
+## # RabbitMQ를 설치하십시오
   * Erlang은 RabbitMQ를 설치해야하므로 설치해야합니다. 아래 명령으로 Ubuntu에 Erlang 저장소 키를 추가하십시오.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### nodejs를 설치하십시오
+## # nodejs를 설치하십시오
   * 다음 명령으로 nodejs 저장소를 추가하십시오.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### 우편 서버를 설치하십시오
+## # 우편 서버를 설치하십시오
   * 먼저 우편 메일 서버 용 사용자를 만들어야합니다. 다음 명령으로 작성하십시오.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### nginx를 설치하십시오
+## # nginx를 설치하십시오
   * Nginx 웹 서버를 설치하려면 아래 명령을 실행하십시오.
 ```
 sudo apt install nginx

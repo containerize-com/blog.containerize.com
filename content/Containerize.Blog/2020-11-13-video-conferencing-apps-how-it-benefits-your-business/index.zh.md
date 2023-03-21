@@ -32,7 +32,7 @@ categories: ['Video Conferencing Software']
 ## 前3个开源视频会议软件 {#top}
 有许多开源网络会议系统可用。因此，让我们看看最受欢迎的：
 
-#### jitsi见面
+## ## jitsi见面
 [Jitsi Meet][5]是带有许多视频协作工具的开源视频协作软件。它非常安全，并具有加密功能。此外，此**开源会议软件**使用基于WEBRTC的软件视频桥进行高清视频会议。此免费工具易于设置，并且可与第三方应用程序配置。此外，参与者可以在电话期间互相聊天，并可以通过与他们共享链接来邀请更多成员。但是，此视频通话应用程序是用JavaScript编写的，所有文档都可以使用有关开发和部署。因此，开发人员可以在[github][6]上找到其源代码。它具有以下关键功能：
   *多方视频会议
   *支持Etherpad
@@ -40,7 +40,7 @@ categories: ['Video Conferencing Software']
   * webrtc兼容
   *视频/音频加密
 
-#### BigBluebutton
+## ## BigBluebutton
 [BigBlueButton][7]是另一个实时**视频会议应用程序**，不仅为视频会议提供解决方案，而且还提供了与一些流行的开源框架的集成，例如[Drupal][8]，Redmine，[WordPress][9]，还有更多。像其他**视频会议应用程序**一样，它是安全的，并且具有自托管功能。此外，它提供了一个非常逻辑的接口，用户可以轻松导航。但是，此视频通话应用程序是用JavaScript编写的，以及其他语言的输入，例如Java，HTML5，Scala Ruby，Groovy和CSS，并且所有文档都提供有关开发和部署的文档。因此，开发人员可以在[GitHub][10]上找到其源代码。以下关键功能包括：
   *多用户白板
   *实时聊天
@@ -49,7 +49,7 @@ categories: ['Video Conferencing Software']
   *支持第三方软件（例如Drupal，WordPress）
   *高清音频
 
-#### OpenVidu
+## ## OpenVidu
 同样，[OpenVidu][11]是另一个开源**视频协作软件**，可提供远程视频会议的功能和工具。它的架构由两层组成。第一个是OpenVIDU浏览器，它是客户端库，另一个是后端库的OpenVidu服务器。它很容易设置并为简单的部署和开发提供了Docker映像。但是，此**组视频呼叫应用程序**用JavaScript编写，所有文档都可用于开发和部署。因此，开发人员可以在[github][12]上找到其源代码。一些突出的特征是：
   * webrtc兼容
   *屏幕共享

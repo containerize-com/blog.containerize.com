@@ -32,7 +32,7 @@ Ces derniers temps, les organisations ont tendance à adopter **les demandes de 
 ## Logiciel de conférence vidéo Open Source Top Source   {#TOP}
 De nombreux systèmes de conférence Web open source sont disponibles. Alors, voyons les plus populaires:
 
-#### Jitssi Meet
+## ## Jitssi Meet
 [Jitsi Meet][5] est un logiciel de collaboration vidéo open source avec de nombreux outils de collaboration vidéo. Il est hautement sécurisé et est livré avec des capacités de chiffrement. De plus, ce **Soft Source Meeting Software**  utilise le pont vidéo logiciel basé sur WeBrTC pour les conférences vidéo haute définition. Cet outil gratuit est facile à configurer et configurable avec des applications tierces. De plus, les participants peuvent discuter entre eux pendant l'appel et peuvent inviter d'autres membres en partageant un lien avec eux. Cependant, cette application d'appel vidéo est écrite en JavaScript et toute la documentation est disponible concernant le développement et le déploiement. Par conséquent, les développeurs peuvent trouver son code source sur [GitHub][6]. Il a les caractéristiques clés suivantes:
   * Conférence vidéo multipartite
   * Prise en charge de Etherpad
@@ -40,7 +40,7 @@ De nombreux systèmes de conférence Web open source sont disponibles. Alors, vo
   * Compatible Webbrtc
   * Cryptage vidéo / audio
 
-#### bigbluebutton
+## ## bigbluebutton
 [BigBlueButton][7] est une autre application de vidéoconférence en temps réel **qui fournit non seulement des solutions pour les réunions vidéo mais propose également des intégrations avec des frameworks open source populaires tels que [Drupal][8], Redmine, [WordPress][9], et encore plus. Comme d'autres  **applications de réunion vidéo**  , il est sécurisé et est livré avec des capacités d'auto-hébergement. De plus, il fournit une interface très logique que les utilisateurs peuvent naviguer facilement. Cependant, cette application d'appel vidéo est écrite en JavaScript avec l'entrée d'autres langues telles que Java, HTML5, Scala Ruby, Groovy et CSS et toute la documentation est disponible concernant le développement et le déploiement. Par conséquent, les développeurs peuvent trouver son code source sur [GitHub][10]. Les caractéristiques clés suivantes comprennent:
   * Tableau blanc multi-utilisateurs
   * Chats en temps réel
@@ -49,7 +49,7 @@ De nombreux systèmes de conférence Web open source sont disponibles. Alors, vo
   * Prise en charge des logiciels tiers (par exemple Drupal, WordPress)
   * Audio HD
 
-#### Openvidu
+## ## Openvidu
 De même, [OpenVidu][11] est un autre logiciel open source **Video Collaboration  **qui fournit des fonctionnalités et des outils pour la vidéoconférence distante. Son architecture se compose de deux couches. Le premier est le navigateur Openvidu qui est une bibliothèque côté client et l'autre est le serveur OpenVidu qui est une bibliothèque backend. Il est facile à configurer et fournit une image Docker pour des déploiements et des développements faciles. Cependant, cette **  Application Video Call App**  est écrite en JavaScript et toute la documentation est disponible concernant le développement et le déploiement. Par conséquent, les développeurs peuvent trouver son code source sur [GitHub][12]. Certaines fonctionnalités importantes sont:
   * Compatible Webbrtc
   * Partage d'écran

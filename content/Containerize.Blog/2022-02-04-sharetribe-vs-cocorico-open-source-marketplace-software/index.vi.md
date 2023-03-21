@@ -31,16 +31,16 @@ Trong phần này của bài đăng trên blog Sharetribe vs Cocorico, chúng t�
 ## Sharetribe vs Cocorico   {#VS}
 Cho đến nay, chúng tôi đã trải qua những gì là Sharetribe và giới thiệu ngắn gọn về Cocorico. Chuyển tiếp vào bài đăng trên blog Sharetribe vs Cocorico này, chúng tôi sẽ cố gắng vẽ một ranh giới giữa hai phần mềm thị trường nguồn mở phổ biến  **này**  bằng cách đề cập đến các điểm sau.
 
-#### Stack công nghệ
+## ## Stack công nghệ
 Khi nói đến phần mềm nguồn mở tự lưu trữ, điều thực sự quan trọng là xem xét tất cả các khía cạnh như các công nghệ, cơ sở dữ liệu và phương pháp phát triển. Tuy nhiên, Sharetribe được phát triển bằng Ruby trên Rails, JavaScript và HTML. Trong khi đó, Cocorico được xây dựng bằng PHP, JavaScript, cành và đầu vào từ các ngôn ngữ khác như CSS. Tuy nhiên, cả hai đều dễ dàng thiết lập trên các máy chủ cục bộ hoặc đám mây.
 
-####  **Đứng cộng đồng** 
+## ##  **Đứng cộng đồng** 
 Đây là một yếu tố bắt buộc khác trong khi chọn một phần mềm nguồn mở. Theo như Sharetribe, nó có 2,2k sao và 1,3k Fork trên github repo của nó. Tuy nhiên, bạn có thể tìm thấy tài liệu liên quan đến phát triển và triển khai cùng với các tệp mã nguồn. Mặt khác, có 812 sao và 626 dĩa trên repo github của nó. Mặc dù, bạn cũng có thể tìm thấy tài liệu cùng với các tệp nguồn.
 
-####  **Khả năng mở rộng** 
+## ##  **Khả năng mở rộng** 
 Đặc điểm này có điểm tối đa. Do đó, cả hai phần mềm thị trường nguồn mở** này cung cấp tích hợp với các ứng dụng của bên thứ ba. Sharetribe cung cấp tích hợp với [Google Analytics][9], Stripe, PayPal và v.v. Cocorico cũng cho phép bạn kết nối với các cổng thanh toán để xử lý thanh toán. Hơn nữa, các nhà phát triển có thể thêm chức năng để đáp ứng nhu cầu kinh doanh.
 
-#### Đặc trưng
+## ## Đặc trưng
 Điều cuối cùng nhưng quan trọng nhất là xem xét và phân tích các điều khoản và có một phần mềm nguồn mở xuất hiện. Hầu hết thời gian nó phụ thuộc vào bản chất của kinh doanh và sử dụng các trường hợp. Cả hai giải pháp thị trường miễn phí này đều cung cấp các tính năng thân thiện với doanh nghiệp giúp tăng năng suất và giảm chi phí khác. Sharetribe hỗ trợ tất cả các loại thị trường, cung cấp một hệ thống thanh toán tích hợp, công cụ để quản lý danh mục sản phẩm, thương hiệu tùy chỉnh, lọc nội dung, v.v. Hơn nữa, nó cũng cung cấp quản lý đơn hàng/danh mục, quản lý SEO/khuyến mãi và cung cấp một cổng thông tin của nhà cung cấp.
 Theo như Cocorico, nó cung cấp các điều khoản cho thị trường đa nhà cung cấp nguồn mở. Ngoài ra, nó bao gồm theo dõi định vị địa lý, địa lý, giỏ hàng, quản lý phí/hoa hồng, an toàn, mạnh mẽ và đi kèm với khả năng tự lưu trữ.
 

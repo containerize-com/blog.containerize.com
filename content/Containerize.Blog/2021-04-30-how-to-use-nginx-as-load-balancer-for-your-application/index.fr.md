@@ -70,7 +70,7 @@ Tant que vous avez tous les serveurs en place, vous devez maintenant constater q
 ## Directives en amont   {#upstream}
 Dans notre dernier exemple, nous avons utilisé un module simple en amont pour faire l'équilibrage de la charge du Round-Robin pour distribuer le trafic également entre les serveurs. Cependant, il existe de nombreuses raisons pour lesquelles cela n'est peut-être pas le moyen le plus efficace de travailler avec le trafic. Il existe plusieurs directives que nous pouvons utiliser pour diriger plus efficacement les visiteurs du site.
 
-### Lester
+## # Lester
 Une façon de commencer à allouer des utilisateurs aux serveurs avec plus de précision est d'allouer un poids spécifique à certaines machines. Nginx nous permet d'attribuer un nombre spécifiant la proportion de trafic qui doit être dirigée vers chaque serveur.
 Une configuration équilibrée de charge qui incluait le poids du serveur pourrait ressembler à ceci:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 Le poids par défaut est 1. Avec un poids de 2, backend2.example sera envoyé deux fois plus de trafic que Backend1, et Backend3, avec un poids de 4, traitera deux fois plus de trafic que Backend2 et quatre fois plus que Backend 1.
 
-### Hash
+## # Hash
 IP Hash permet aux serveurs de répondre aux clients en fonction de leur adresse IP, renvoyant les visiteurs aux mêmes VP à chaque visite (sauf si ce serveur est en panne). Si un serveur est connu pour être inactif, il doit être marqué comme vers le bas. Tous les IP qui devaient se rendre vers le serveur Down sont ensuite dirigés vers un autre.
 La configuration ci-dessous fournit un exemple:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### Max échoue
+## # Max échoue
 Selon les paramètres de la ronde par défaut, l'équilibreur de chargement d'application Nginx continuera d'envoyer des données aux serveurs privés virtuels, même si les serveurs ne répondent pas. MAX échoue peut empêcher cela automatiquement en rendant les serveurs non réactifs inopérants pendant un temps défini.
 Il y a deux facteurs associés au maximum d'échec: max \ _fails et chute \ _timeout. Max échoue fait référence au nombre maximum de tentatives infructueuses pour se connecter à un serveur qui devrait se produire avant d'être considéré comme inactif. Fall_timeout spécifie la longueur de ce que le serveur est considéré comme inopérant. Une fois que l'heure expire, de nouvelles tentatives d'atteindre le serveur redémarreront. La valeur de délai d'expiration par défaut est de 10 secondes.
 Un exemple de configuration peut ressembler à ceci:

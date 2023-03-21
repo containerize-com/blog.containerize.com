@@ -48,7 +48,7 @@ If you're using our compiled JavaScript, don't forget to include CDN versions of
 
 Pull in Bootstrap's **source files** into nearly any project with some of the most popular package managers. No matter the package manager, Bootstrap will **require a Sass compiler and [Autoprefixer](https://github.com/postcss/autoprefixer)** for a setup that matches our official compiled versions.
 
-### npm
+## # npm
 
 Install Bootstrap in your Node.js powered apps with [the npm package](https://www.npmjs.com/package/bootstrap):
 
@@ -63,7 +63,7 @@ Bootstrap's `package.json` contains some additional metadata under the following
 - `sass` - path to Bootstrap's main [Sass](https://sass-lang.com/) source file
 - `style` - path to Bootstrap's non-minified CSS that's been precompiled using the default settings (no customization)
 
-### RubyGems
+## # RubyGems
 
 Install Bootstrap in your Ruby apps using [Bundler](https://bundler.io/) (**recommended**) and [RubyGems](https://rubygems.org/) by adding the following line to your [`Gemfile`](https://bundler.io/gemfile.html):
 
@@ -79,7 +79,7 @@ gem install bootstrap -v {{ site.current_ruby_version }}
 
 [See the gem's README](https://github.com/twbs/bootstrap-rubygem/blob/master/README.md) for further details.
 
-### Composer
+## # Composer
 
 You can also install and manage Bootstrap's Sass and JavaScript using [Composer](https://getcomposer.org/):
 
@@ -87,7 +87,7 @@ You can also install and manage Bootstrap's Sass and JavaScript using [Composer]
 composer require twbs/bootstrap:{{ site.current_version }}
 {% endhighlight %}
 
-### NuGet
+## # NuGet
 
 If you develop in .NET, you can also install and manage Bootstrap's [CSS](https://www.nuget.org/packages/bootstrap/) or [Sass](https://www.nuget.org/packages/bootstrap.sass/) and JavaScript using [NuGet](https://www.nuget.org/):
 

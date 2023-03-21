@@ -37,7 +37,7 @@ Selanjutnya, instal plugin ini dan tekan Activate untuk mengaktifkannya untuk me
 
 Keindahan WordPress adalah bahwa ia berkomunikasi dengan plugin Matomo dengan mulus melalui API. Sumber Open Source  **Perangkat Lunak Analisis Web ini **  menyediakan kode pelacakan seperti Google Analytics. Oleh karena itu, Anda tidak perlu memasukkan kode pelacakan secara manual melainkan terjadi secara otomatis. Akhirnya, plugin Matomo diinstal dan diatur di WordPress dan Anda dapat mulai melacak data situs web bisnis Anda.
 
-##  **Matomo Dashboard **    {#dashboard}
+## **Matomo Dashboard **    {#dashboard}
 Tutorial  **WordPress **  ini telah menggambarkan integrasi plugin open source  **matomo ** . Sekarang, mari kita jelajahi dasbornya yang menyediakan modul yang kuat. Di bawah menu Matomo Analytics, klik opsi "Pelaporan" yang akan membawa Anda ke dasbor Matomo dari situs web Anda seperti yang ditunjukkan pada gambar di bawah ini.
 
 {{< figure align=center src="images/Screenshot-2021-10-27-at-01.35.48-1024x575.png" alt="Analisis web open source">}}

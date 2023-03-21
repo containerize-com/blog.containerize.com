@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-### 安装Nginx Web服务器
+## # 安装Nginx Web服务器
   *将下面的命令运行到**在Ubuntu **上安装nginx。
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Nginx Web服务器默认页面">}}
 
 
-### 安装mysql
+## # 安装mysql
 现在，您需要安装MySQL数据库服务器来管理应用程序数据。
   *将下面的命令运行**在Ubuntu **上安装mysql。
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### 安装PHP
+## # 安装PHP
 我们将介绍用于处理PHP的PHP-FPM的安装。 PHP-FPM代表FastCGI Process Manager。 NGINX Web服务器没有任何用于处理PHP的内置功能，因此，我们将使用PHP-FPM。此外，我们将安装用于与MySQL通信数据管理的PHP-MYSQL。
   *将下面的命令运行到**在Ubuntu **上安装PHP。
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### 测试PHP
+## # 测试PHP
   *为了确保NGINX正确提供PHP页面，我们将创建用于测试配置的PHP文件。
   *通过运行以下命令，在NGINX Web服务器的根目录中创建info.php文件。
 ```

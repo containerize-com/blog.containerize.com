@@ -12,7 +12,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/php-with-nginx-multiple-versions.png" alt="具有NGINX多個PHP版本的PHP">}}
 
 
-##如果您想將多個版本的PHP與NGINX一起使用，則在本文中，我們將指導您如何在Ubuntu上使用Nginx安裝PHP。
+## 如果您想將多個版本的PHP與NGINX一起使用，則在本文中，我們將指導您如何在Ubuntu上使用Nginx安裝PHP。
 本文是我們關於Nginx教程的系列文章的延續。到目前為止，我們已經介紹瞭如何使用NGINX作為負載平衡器，如何使用NGINX作為反向代理。現在，本教程涵蓋了另一個要求的問題：“如何使用nginx使用多個版本的PHP”。在本教程中，我們將指導您逐步指導如何在Ubuntu上安裝PHP，如何使用NGINX配置PHP，最後如何使用NGINX安裝多個版本的PHP。所以，讓我們開始吧！
   * [安裝nginx][1]
   * [安裝多個PHP版本][2]
@@ -32,7 +32,7 @@ sudo apt install nginx
 {{< figure align=center src="images/php-with-nginx-install.png" alt="使用nginx安裝PHP">}}
 
 
-##安裝多個PHP版本 {#php}
+## 安裝多個PHP版本 {#php}
 **php**（ **php：超文本預處理器** 的遞歸首字母縮寫）是一種開源的，流行的通用腳本語言，廣泛使用，最適合開發網站和基於Web的應用程序。這是一種可以嵌入HTML中的服務器端腳本語言。
 當前，有三個支持版本的**php **，即 **php 5.6 ** ， **7.0，** 和 **8.0 ** 。含義 **php 5.3**  ， **5.4，** 和 **5.5** 都達到了生命的盡頭；他們不再支持安全更新。因此，讓我們首先使用PHP-FPM安裝PHP 7.0和PHP 7.2。
 實際上，在我們使用安裝移動之前，首先讓PHP-FPM是什麼。 **php-fpm **（**  FastCGI Process Manager**的首字母縮寫詞）是極大的替代PHP（超文本處理器）FastCGI實現。 PHP-FPM包含許多功能，這些功能可以證明對經常接收流量的網站有益。
@@ -52,7 +52,7 @@ systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-##使用PHP   {#web}創建多個網站
+## 使用PHP   {#web}創建多個網站
 默認頁面放置在/var/www/html/位置。您可以將靜態頁面放置在此處，或使用虛擬主機並將其放置在其他位置
 ```
 mkdir /var/www/html/site1.containerize.com
@@ -168,7 +168,7 @@ systemctl restart php7.0-fpm
 systemctl restart php7.2-fpm
 ```
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在本教程中，我們探索瞭如何在Ubuntu上使用多個PHP版本。我們學會瞭如何安裝nginx。然後，我們探索瞭如何在NGINX中設置兩個不同的網站。最後，我們學會瞭如何用Nginx使用不同版本的PHP配置兩個不同的網站。希望該教程對您有幫助。
 
 ## 探索

@@ -24,7 +24,7 @@ Para mantenerse actualizado, no solo necesita considerar el estado actual de la 
   * Desarrollo de bajo código
   * Conclusión
 
-#### **Tendencia 1: Inteligencia artificial (AI)** 
+## ## **Tendencia 1: Inteligencia artificial (AI)** 
 La tecnología moderna es lo suficientemente potente como para hacer soluciones de software de IA. Una inteligencia artificial es un software que piensa de manera inteligente en un sentido amplio, como una persona. Debido a que el futuro del desarrollo de software y el futuro de la tecnología se encuentran dentro de los algoritmos, el aprendizaje automático, la red neuronal y las herramientas de IA para sacar conclusiones nuevas y fascinantes. Las soluciones de software de IA son la fuerza dominante de las tecnologías de tendencia en el desarrollo de software en el mundo tecnológico de hoy.
 Hoy en día, los desarrolladores buscan soluciones en el área de inteligencia artificial a través de la práctica continua y las máquinas pueden pensar de manera inteligente como los humanos. Se espera que la IA gane tracción en 2021 como las principales tendencias en el desarrollo de software, dado que las empresas con capacidades de software de IA probablemente tengan éxito. El área de procesamiento del lenguaje natural es de particular interés debido a la nueva tecnología en el desarrollo de software en la IA. 2021 Las últimas tendencias de desarrollo de software traen más habilidades de desarrollo, los botes de chat haciendo cada tarea automática y reduciendo la participación humana.
 {{_LINE_24_}}

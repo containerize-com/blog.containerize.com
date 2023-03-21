@@ -43,7 +43,7 @@ GZIP是最流行的压缩方法，由Web服务器和浏览器使用，以通过I
 ## 在WordPress中启用GZIP压缩 {#enable}
 如果您确定 **WordPress GZIP压缩尚未启用** ，则可以使用多种方法来运行它。最简单的方法是使用一些WordPress插件，例如[WP Rocket][6]，[WP Super Cache][7]或[W3 Total Cache][8]。但是，您可以通过.htaccess文件或更新Nginx配置在服务器级别手动执行此操作。
 
-### 通过编辑.htaccess文件
+## # 通过编辑.htaccess文件
 启用WordPress GZIP压缩的最常见方法之一是**编辑您的_.htaccess_文件**。但是，这涉及破坏某事的风险。这是一个敏感的服务器文件，一个错误的举动可能会导致很多问题。
 为了降低风险，请确保**保存原始文件的副本**，然后进行任何更改。 _.htaccess_文件应位于网站的**根文件夹中**。打开_.htaccess_之后，在下面添加以下代码`
 ```

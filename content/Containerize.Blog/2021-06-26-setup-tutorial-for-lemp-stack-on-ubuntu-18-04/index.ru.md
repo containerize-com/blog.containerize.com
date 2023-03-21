@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-### Установка веб -сервера Nginx
+## # Установка веб -сервера Nginx
   *Запустите команду ниже, чтобы **Установить nginx на Ubuntu** .
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Страница по умолчанию Nginx Web Server">}}
 
 
-### Установка MySQL
+## # Установка MySQL
 Теперь вам нужно установить сервер базы данных MySQL для управления данными приложения.
   *Запустите команду ниже, чтобы **Установить MySQL на Ubuntu** .
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### Установка PHP
+## # Установка PHP
 Мы рассмотрим установку PHP-FPM для обработки PHP. PHP-FPM означает FastCGI Process Manager. Nginx Web Server не имеет никакой встроенной функциональности для обработки PHP, поэтому мы будем использовать для него PHP-FPM. Кроме того, мы установим PHP-MySQL для передачи PHP с MySQL для управления данными.
   *Запустите команду ниже, чтобы **Установить PHP на Ubuntu** .
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### Тест PHP
+## # Тест PHP
   * Чтобы гарантировать, что Nginx правильно обслуживает страницы PHP, мы создадим PHP -файл для тестирования конфигураций.
   * Создать файл info.php в каталоге ROOT Nginx Web Server, выполнив команду ниже.
 ```

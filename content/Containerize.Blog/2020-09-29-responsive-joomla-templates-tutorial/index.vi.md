@@ -43,7 +43,7 @@ Trước khi nhảy vào phần này, hãy chắc chắn rằng bạn có sự h
   * PHP
 Vì vậy, việc tạo các mẫu tùy chỉnh trong Joomla chưa bao giờ khó khăn và phức tạp như vậy. Tuy nhiên, hãy để bắt đầu tạo mẫu Joomla đầu tiên của chúng tôi.
 
-##**Cấu trúc thư mục thiết lập**
+## **Cấu trúc thư mục thiết lập**
 Trước hết, hãy tạo một thư mục có tên là**myTemplate**bên trong thư mục****.
 Tạo các tệp sau đây bên trong thư mục**MyTemplate**:
 ***index.php**: Đây là tệp cốt lõi chứa mã HTML và PHP cho toàn bộ trang mẫu.

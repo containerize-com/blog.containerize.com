@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomvsdrup.png" alt="Joomla vs Drupal">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Witamy w tym poście na blogu. W niedawnej przeszłości opublikowaliśmy wiele artykułów, takich jak [przewodnik opracowywania szablonów Joomla dla początkujących][1], [Integrate Mautic i Joomla do automatyzacji marketingu cyfrowego][2] i jeszcze kilka. Drupal i Joomla to oprogramowanie CMS open source, które są licencjonowane w ramach GPL. Ten **wpis na blogu ** Joomla vs Drupal**  da ci jasny obraz dotyczący funkcji. Jednak obecność online Twojej firmy jest najważniejszym aspektem, jeśli chodzi o rozwój biznesu i sięga. Celem interesariuszy biznesowych jest publikowanie angażujących treści, które przyciągają ruch na stronach internetowych biznesowych.
 Dlatego społeczność Open Source opracowała wiele oprogramowania do zarządzania treścią, które zapewnia szeroki zakres funkcji dla właścicieli witryn i wydawców treści. [Joomla][3] i [Drupal][4] to najpopularniejsze oprogramowanie CMS open source. Co to jest Drupal? **Co to jest Joomla **? Są to dwa pytania, na które postaramy się odpowiedzieć w poście na blogu ** CMS Porównanie** , obejmując następujące punkty.
   * **[Co to jest Joomla?][5]**
@@ -33,22 +33,22 @@ To oprogramowanie CMS typu open source jest bezpieczne, elastyczne i oferuje mo�
 ## Porównanie Joomla & Drupal   {#Comp}
 W tej sekcji artykułu  **Joomla vs Drupal**  porównamy te dwa oprogramowanie CMS open source, analizując ich funkcje i stojąc w społeczności. Oto następujące punkty, które obejmiemy.
 
-#### Wspólnota
+## ## Wspólnota
 Społeczność, która wspiera określa sukces i zasięg oprogramowania typu open source. Na szczęście oba te open source CMS żyją i aktywne społeczności, które zawsze pojawiają się w dowolnym wydaniu problemu lub funkcji. Joomla ma 3,9 000 gwiazdek z widelcami 3,3 tys. Na Github, podczas gdy Drupal zabezpiecza 3,6 000 gwiazdek z widelcami 1,8 000. Ponadto można znaleźć pełną dokumentację dotyczącą rozwoju i wdrażania obu tych rozwiązań CMS open source.
 
-Skalowalność ####
+Skalowalność ## ## 
 Skalowalność jest kolejną ważną cechą każdego oprogramowania typu open source. Drupal jest bardziej skalowalny i stabilny niż Joomla. Drupal jest wyposażony w prostą i prostą architekturę, którą programiści mogą rozszerzyć ją przy mniejszym wysiłku w porównaniu z Joomla.
 
-Złożoność ####
+Złożoność ## ## 
 Ta charakterystyka ma bardzo ważne, jeśli chodzi o popularność programistów. Zgodnie z ogólnym poglądem Drupal wydaje się nieco złożony w porównaniu z Joomla. Joomla jest stosunkowo łatwiejsza do nauczenia się, a programiści uważają, że jest komfortowy, tworząc dalszy rozwój w tym systemie zarządzania treścią typu open source.
 
-Wtyczki ####
+Wtyczki ## ## 
 Jeśli chodzi o moduły i rozszerzenia, oba te CMS open source oferują mnóstwo modułów. Użytkownicy mogą wybierać i dostosowywać te wtyczki zgodnie z ich potrzebami. Jednak Drupal ma przewagę konkurencyjną nad Joomla, ponieważ liczba wtyczek oferowanych przez ten system zarządzania treścią jest wyższa niż Joomla.
 
-#### Tech Stack
+## ## Tech Stack
 Oba te CMS open source są napisane w PHP. Jednak dla programisty PHP jest to sytuacja korzystna dla tego samego środowiska programistycznego.
 
-#### Bezpieczeństwo
+## ## Bezpieczeństwo
 Jest to najważniejsza i decydująca cecha przy wyborze każdego oprogramowania. Oba te CMS open source są bezpieczne, ale Drupal wyróżnia się wbudowanymi metodologiami bezpieczeństwa. Ponadto Drupal podaje również instrukcje bezpieczeństwa dla koderów, którzy chcą rozszerzyć ten system zarządzania treścią typu open source.
 
 ## Wniosek   {#Conclusion}

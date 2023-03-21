@@ -96,7 +96,7 @@ Unternehmen verwenden Formulare, um Daten im Zusammenhang mit Kundenfeedback zu 
   * [Formtools][56] - Eine unglaubliche Formulare und Datenverwaltungslösung mit integrierten Unterstützung für Recaptcha und Datenvisualisierung
 Diese Open -Source -Software bietet einzigartige Funktionen und Funktionen. Zum Beispiel Drag & Drop -Schnittstelle, Rollen/Benutzerverwaltung, Datenverwaltung und eingebettbare Formulare. Weitere Open -Source -HTML -Formulargeneratorplattformen werden der Liste hinzugefügt. Für zukünftige Updates besuchen Sie bitte [Formular Software][57].
 
-## **Transaktions- oder Bulk-E-Mail-E-Mail-Zustellungsplattformen**    {#Transaktionsemail}}
+## **Transaktions- oder Bulk-E-Mail-E-Mail-Zustellungsplattformen**    {#Transaktionsemail}
 Bestimmte Ereignisse und Kampagnen von Webanwendungen auslösen Transaktions -E -Mails. Die folgenden Transaktions -E -Mail -Dienste beitragen bei der Einrichtung von Geschäftsworkflows für diese Veranstaltungen. Weitere Informationen zu diesen finden Sie unter [Products.Containerize.com][1]. **Transaktions -E -Mail -Software:** 
   * [Postal][58] - In Voraussetzungen zu SendGrid und Mailgun senden Sie E -Mails aus Ihren Web- und mobilen Anwendungen.
   * [Tintefish][59] - Open Source Self -Hosted Mail -Zustell -Software mit E -Mail -Tracking -Funktionen.

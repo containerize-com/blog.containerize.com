@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-database-management-systems-in-2022/
 categories: ['Database Management Software']
 ---
 
-##開源DBMS軟件已獲得企業級別的成熟和流行。它們具有靈活性，具有魯棒性，效率和數據完整性。
+## 開源DBMS軟件已獲得企業級別的成熟和流行。它們具有靈活性，具有魯棒性，效率和數據完整性。
 
 {{< figure align=center src="images/Top-5-Open-Source-Database-Management-Systems-In-2021.png" alt="數據庫管理系統">}}
 

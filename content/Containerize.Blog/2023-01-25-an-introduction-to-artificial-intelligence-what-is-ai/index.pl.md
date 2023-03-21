@@ -31,13 +31,13 @@ Jednak uczenie maszynowe wykorzystuje głębokie uczenie się, która jest metod
 ## Rodzaje sztucznej inteligencji   {#typy sztucznej inteligencji}
 Istnieją głównie dwa rodzaje sztucznej inteligencji. W tej sekcji postu na blogu pokazuje te dwa typy.
 
-#### Słaba sztuczna inteligencja
+## ## Słaba sztuczna inteligencja
 Zgodnie z tą kategorią sztucznej inteligencji systemy mają na celu rozwiązanie mniej złożonych problemów. Systemy te przyjmują dane wejściowe, przetwarzają procesy języka naturalnego i podają wyjście. Chociaż systemy te generują odpowiedź na podstawie danych i wcześniejszych statystyk, ale nie mogą przetwarzać problemów z ich zakresu. Stąd zakres tej kategorii nie jest nieograniczony. Najlepsze przykłady słabej sztucznej inteligencji to [Siri Apple][4] i inne wirtualne narzędzia asystentów opracowane przez [Google][5] i [Amazon][6].
 
-#### Silna sztuczna inteligencja
+## ## Silna sztuczna inteligencja
 Silna sztuczna inteligencja oferuje dokładną symulację ludzkiego mózgu. Sztuczna inteligencja ogólna i sztuczna superintligencja również znajdują się w tej kategorii. Ta kategoria projektuje systemy i modele, które zawierają zdolność do przetwarzania rzeczy i podejmowania decyzji bez interwencji człowieka. Interaktywne roboty są przykładami silnych AI, a samochody samodzielne są również wzbogacone o systemy, które są szkolone z ogromnymi zestawami danych i są w stanie podejmować decyzje za pomocą sieci neuronowej. Ponadto takie systemy mogą dokonywać prognoz na podstawie ich wcześniejszych doświadczeń.
 
-##**Zastosowania sztucznej inteligencji** {#Applications-of-of-Artificial-Intelligence}
+## **Zastosowania sztucznej inteligencji** {#Applications-of-of-Artificial-Intelligence}
 Poniższe punkty dają wyobrażenie o niektórych znaczących zastosowaniach sztucznej inteligencji:
 * * Rozpoznawanie mowy**: Przetwarzanie języka naturalnego jest główną gałęzią AI, która przetwarza ludzki głos i daje wyjście w pisemnej lub innej formie. Ta funkcja jest dostępna na wielu urządzeniach, takich jak telefony komórkowe, samochody i wiele innych.
 * * Rozpoznanie twarzy**: Zgodnie z tym aplikacją AI może porównać wiele wizji twarzy i ma zdolność wykrywania określonej struktury twarzy. Ponadto możesz użyć sztucznej inteligencji do dopasowania i wskazania różnych akcentów mowy, pisma ręcznego, hałasu i innych.

@@ -70,7 +70,7 @@ Solange Sie alle Server vorhanden haben, sollten Sie nun feststellen, dass der N
 ## Upstream -Anweisungen   {#Upstream}
 In unserem letzten Beispiel haben wir ein einfaches Upstream-Modul verwendet, um einen Rund-Robin-Lastausgleich durchzuführen, um den Verkehr gleichermaßen auf die Server zu verteilen. Es gibt jedoch viele Gründe, warum dies möglicherweise nicht die effizienteste Möglichkeit ist, mit dem Verkehr zu arbeiten. Es gibt mehrere Anweisungen, mit denen wir Besucher effektiver auf Site -Besucher leiten können.
 
-### Gewicht
+## # Gewicht
 Eine Möglichkeit, Benutzern Servern mit mehr Präzision zuzuweisen, besteht darin, bestimmte Maschinen ein bestimmtes Gewicht zuzuweisen. Mit Nginx können wir eine Nummer zuweisen, die den Anteil des Datenverkehrs angibt, der an jeden Server gerichtet werden sollte.
 Ein ausbalanciertes Setup, das das Servergewicht enthielt, könnte wie folgt aussehen:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 Das Standardgewicht beträgt 1. mit einem Gewicht von 2, Backend2. Beispiel wird doppelt so viel Verkehr wie Backend1 gesendet, und Backend3 mit einem Gewicht von 4 wird doppelt so viel Verkehr wie Backend 2 und viermal so viel wie Backend handeln wie Backend 1.
 
-### Hash
+## # Hash
 Mit IP Hash können Server nach ihrer IP -Adresse auf Clients reagieren und die Besucher jedes Mal, wenn sie besuchen, an dieselbe VPS zurücksendet (es sei denn, dieser Server ist nicht mehr ausgefallen). Wenn ein Server als inaktiv bekannt ist, sollte er als Down markiert werden. Alle IPs, die zum Down -Server wechseln sollten, werden dann auf eine alternative Weise gerichtet.
 Die folgende Konfiguration enthält ein Beispiel:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### max fällt aus
+## # max fällt aus
 Gemäß den Standardeinstellungen für Round-Robin-Einstellungen sendet NGINX Application Load Balancer weiterhin Daten an die virtuellen privaten Server, auch wenn die Server nicht antworten. MAX FAIL kann dies automatisch verhindern, indem sie nicht reagierende Server für einen festgelegten Zeitraum nicht reagieren.
 Es gibt zwei Faktoren, die mit dem maximalen Fehlschlag verbunden sind: max \ _fails und fallen \ _timeout. MAX fails bezieht sich auf die maximale Anzahl fehlgeschlagener Versuche, eine Verbindung zu einem Server herzustellen, der auftreten sollte, bevor er als inaktiv angesehen wird. Fall_timeout gibt an, wie lange der Server als inoperativ angesehen wird. Sobald die Zeit abgelaufen ist, werden neue Versuche, den Server zu erreichen, erneut gestartet. Der Standard -Timeout -Wert beträgt 10 Sekunden.
 Eine Beispielkonfiguration könnte so aussehen:

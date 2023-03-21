@@ -31,16 +31,16 @@ Dalam tutorial plugin WordPress ini, kami akan belajar cara membuat plugin WordP
 ## Dasar -dasar pengembangan plugin   {#basics}
 Mari kita luangkan waktu sejenak untuk membicarakan beberapa aspek kunci dari pengembangan plugin. Pemahaman yang kuat tentang bagaimana konsep-konsep ini bekerja akan membantu Anda membangun fungsionalitas yang mudah digunakan dan dapat dipelihara.
 
-### Tindakan
+## # Tindakan
 **Hooks Action  **adalah alat yang sangat berguna di **  WordPress  ****  plugin  **dan mereka digunakan untuk melakukan fungsi (**  Tindakan** ) di tempat -tempat tertentu dari tema atau plugin. WordPress memiliki lusinan tindakan yang ditentukan di seluruh fungsi intinya, setiap tindakan yang terdiri dari nama yang unik. Untuk detail lebih lanjut [baca][5].
 
-Filter ###
+Filter ## #
 Filter WordPress adalah kait yang menerima variabel (atau serangkaian variabel) dan mengembalikannya setelah mereka dimodifikasi. Filter ini sering digunakan sehingga Anda memiliki cara untuk memanipulasi informasi default. Untuk detail lebih lanjut [baca][6].
 
-Kode pendek ###
+Kode pendek ## #
 Kode pendek adalah makro yang dapat digunakan untuk melakukan interaksi dinamis dengan konten. yaitu membuat galeri dari gambar yang dilampirkan ke pos atau merender video. Akibatnya, mereka adalah cara yang berharga untuk menjaga konten tetap bersih dan semantik sambil memungkinkan pengguna akhir beberapa kemampuan untuk secara terprogram mengubah presentasi konten mereka. Untuk detail lebih lanjut [baca][7].
 
-Widget ###
+Widget ## #
 Widget penting karena memberi Anda cara lain untuk melaksanakan kode plugin Anda sambil menyediakan antarmuka yang mudah digunakan. Karena sebagian besar tema akan mendukung satu atau lebih sidebar; Menambahkan widget Anda sendiri akan memberi Anda akses cepat untuk menampilkan informasi Anda di dalam tema.
 
 ## **Cara Membuat Plugin WP?**    {#Create}
@@ -62,7 +62,7 @@ Di bagian tutorial plugin WordPress ini, yang perlu Anda lakukan adalah membuat 
 Sekarang, Anda dapat masuk ke bagian belakang untuk mengaktifkan plugin Anda. Itu saja, meskipun plugin ini tidak melakukan apa -apa. Tapi, ini adalah plugin yang aktif dan berfungsi. Praktik terbaik saat mengembangkan plugin adalah memisahkan kode Anda dengan rapi menjadi file dan folder yang sesuai.
 Untuk mendemonstrasikan, mari kita tambahkan fungsionalitas ke plugin uji kami yang melacak popularitas artikel kami dengan menyimpan berapa kali setiap posting telah dilihat.
 
-### Menyimpan tampilan halaman
+## # Menyimpan tampilan halaman
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ Sejauh ini, sangat bagus dalam tutorial plugin WordPress ini. Tetapi fungsi ini 
 add_action("wp_head", "add_page_views");
 ```
 
-### Menampilkan tampilan halaman
+## # Menampilkan tampilan halaman
 Sekarang kami akan membuat fungsi lain yang mengembalikan tampilan halaman yang sudah kami simpan dalam fungsi di atas. Mari kita lihat kode:
 ```
 function get_page_views() {

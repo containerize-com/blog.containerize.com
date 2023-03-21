@@ -28,35 +28,35 @@ Sistem manajemen konfigurasi ini menawarkan utilitas untuk mempertahankan catata
 ## **TOP 5 Open Source Perangkat lunak CMDB Terbaik**    {#top}
 Di bagian ini, kami akan menjelajahi perangkat lunak database manajemen konfigurasi teratas.
 
-### Ralph
+## # Ralph
 [Ralph][2] adalah perangkat lunak manajemen sumber daya gratis sumber terbuka. Ini adalah cross-platform dan muncul dengan kemampuan hosting sendiri. Ini sangat dapat diperluas dan menyediakan API REST untuk integrasi pihak ketiga. Kemudian, ada dukungan lengkap untuk pusat data dan infrastruktur TI kantor. Namun, perangkat lunak pelacakan aset real-time ini ditulis dalam Python dan dilengkapi dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran. Oleh karena itu, semua kode sumber tersedia di [GitHub][9].
 Ralph memberikan fitur utama berikut
   * Visualisasi DC bawaan
   * Pelacakan aset
   * Ringan
 
-### snipe-it
+## # snipe-it
 [Snipe-it][3] adalah perangkat lunak open source lain yang menyediakan pelacakan aset dan konfigurasi. Platform manajemen sumber daya ini didukung oleh AWS. Ini sangat diamankan dan menyediakan opsi login menggunakan otentikasi dua faktor dan dukungan SAML. Ini juga diselenggarakan sendiri dan mudah diatur. Solusi CMDB ini ditulis dalam PHP dan semua kode sumber tersedia di [GitHub][10].
 Berikut ini adalah fitur inti dari snipe-it
   * Antarmuka yang tenang
   * Integrasi dengan Slack dan LDAP
   * Opsi Impor/Ekspor
 
-### Mandor
+## # Mandor
 [Foreman][11] adalah alat open source lain untuk mengelola server fisik dan virtual. Ini sangat dapat disesuaikan dan menyediakan API REST untuk membangun fungsionalitas yang diperlukan. Selain itu, ada dukungan lengkap untuk mengelola konfigurasi, penyebaran aplikasi, perubahan dalam konfigurasi dan admin sistem bisa mendapatkan laporan terperinci. Ini diselenggarakan sendiri dan semua kode sumber tersedia di [GitHub][12].
 Forman menawarkan fitur utama berikut
   * Mudah diatur
   * Pelaporan dan Pemantauan
   * Arsitektur plugin
 
-### racktables
+## # racktables
 [RackTables][13] adalah sistem manajemen aset sumber terbuka untuk pusat data, ruang server. Ini juga menyediakan dukungan untuk mengelola alamat jaringan, konfigurasi jaringan, konfigurasi penyeimbang beban, dan peralatan perangkat keras lainnya. Lebih lanjut, ini memungkinkan pengguna membuat izin, penandaan pengguna, dan dokumentasi firewall.
 RackTables menyediakan fitur -fitur penting berikut
   * Manajemen file
   * Self-hosting
   * Manajemen port fisik
 
-### ITOP
+## # ITOP
 [Portal Operasi TI][14] adalah solusi hosting sendiri gratis yang menyediakan solusi CMDB, sistem helpdesk, dan alat manajemen dokumen. Ini menawarkan opsi impor dan ekspor yang kaya.
 ITOP menawarkan fitur utama
   * Analisis Dampak Otomatis

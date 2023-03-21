@@ -186,7 +186,7 @@ public async Task<IActionResult> Login(LoginInputModel model, string button)
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo-授权页面">}}
 
 
-### 结论：
+## # 结论：
 在本文中，我们使用IdentityServer4和Twilio了解了2FA及其在.NET5中的实现。您可以从此[repo][6]中下载本文中使用的示例代码。
 使用SMS进行2FA肯定会增强您的安全性，但仍然容易受到[SIM SHAP攻击][7]的影响。因此，安全研究人员鼓励2FA使用其他方法，例如Authenticator应用程序和安全密钥（[Yubikey][8]），这些方法无法在电话网络上截获。我们将在即将发表的文章中了解更多信息 - 敬请期待！
 

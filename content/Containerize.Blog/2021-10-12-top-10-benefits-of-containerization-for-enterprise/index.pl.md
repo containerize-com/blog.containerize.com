@@ -26,34 +26,34 @@ Docker to oprogramowanie do kontenera typu open source, które służy do ułatw
 ## Korzyści z konteneryzacji   {#benefits}
 W tej sekcji zbadamy niektóre z najważniejszych zalet konteneryzacji.
 
-### Szybkie wdrożenia
+## # Szybkie wdrożenia
 W tradycyjnych metod wdrażania aplikacji programiści muszą rozważyć poważne rozważania dotyczące środowiska, w którym będzie działać oprogramowanie. Muszą ręcznie skonfigurować wszystkie wymagane konfiguracje i zależności, aby upewnić się, że udane wdrożenie. Konteneralizacja usunęła to obciążenie i przejęła odpowiedzialność za obsługę formalności wdrażania.
 
-### Izolacja
+## # Izolacja
 Jest to główna zaleta konteneryzacji, ponieważ aplikacje działające w każdym pojemniku są izolowane i nieświadome. Używają własnych zasobów niezależnie, a zatem osiągają najwyższy poziom bezpieczeństwa i niezawodności.
 
-###**Konsystencja**
+## # **Konsystencja**
 Obraz Docker zawiera wszystkie zależności oprogramowania i zapewnia tworzenie spójnego środowiska na wielu platformach. Albo jest maszyną programistów, albo maszyną produkcyjną w chmurze, konteneryzacja opracowuje obiekty, które zapewniają konsekwentne zachowanie wdrażania aplikacji.
 
-### Skalowalność
+## # Skalowalność
 **Oprogramowanie kontenerowe** umożliwia programistom skalowanie aplikacji bez wpływu na całą infrastrukturę. Deweloperzy oprogramowania mogą ponownie skonfigurować istniejącą infrastrukturę lub dodać kolejne kontenery, aby ulepszyć zasoby. Procesy skalowania aplikacji wymagają mniejszych wysiłków, które skutkiem pozwalają programistom skoncentrować się na innych ważnych wydarzeniach.
 
-### Lepsze bezpieczeństwo
+## # Lepsze bezpieczeństwo
 Ponieważ wszystkie kontenery występują w sieci, ponieważ każdy kontener zawiera własną warstwę bezpieczeństwa. Jednak zmniejsza współczynnik ryzyka dowolnego starcia zasobów między aplikacjami, takimi jak pamięć, pamięć, procesor i inne zasoby sieciowe.
 
-### Portability
+## # Portability
 Jest to kolejna ważna korzyść wśród innych korzyści z konteneralizacji. Konteneryzacja sprawia, że ​​aplikacje są wysoce przenośne, ponieważ są one niezależne od platformy. Deweloperzy mogą łatwo skonfigurować aplikację kontenerową na dowolnej platformie ze względu na abstrakcyjne aplikacje kontenerów z systemu operacyjnego hosta.
 
-###  **Opłacalny** 
+## #  **Opłacalny** 
 Narzędzia orkiestracji kontenerów i oprogramowanie do kontenerów są bezpłatne i open source. Mają silne społeczności, które są żywe i żywe. Uczenie się tych narzędzi nie jest trudne i istnieje wiele usług, które ułatwiają wdrożenia aplikacji w najkrótszym czasie.
 
-### Wydajność
+## # Wydajność
 Bezpłatne oprogramowanie kontenerowe przynosi mnóstwo wydajności poprzez automatyzację procesów wdrażania. Ponadto, jeśli w produkcji znajdują się jakieś przestoje lub niewłaściwe, dostępne są narzędzia monitorujące w tym celu. Twórcy oprogramowania mogą łączyć oprogramowanie w pakiecie i mogą udostępniać i działać na dowolnej platformie.
 
-### Ponowne wykorzystanie
+## # Ponowne wykorzystanie
 Kontenerowanie ułatwia użytkownikom przepisy dotyczące ponownego użycia. Deweloperzy piszą kod aplikacji biznesowej dla wszystkich platform. Nie muszą pisać różnych kodów źródłowych dla różnych platform.
 
-### Wspólnota
+## # Wspólnota
 To kolejny ważny plus konteneryzacji. Społeczność dostępna jest ogromne wsparcie, a użytkownicy mogą szukać wskazówek na dowolnym poziomie. Przede wszystkim istnieje przestrzeń o nazwie [Docker Hub][5], w której użytkownicy mogą tworzyć, udostępniać i pobierać aplikacje i usługi kontenerowe.
 
 ## Uwagi końcowe   {#final}

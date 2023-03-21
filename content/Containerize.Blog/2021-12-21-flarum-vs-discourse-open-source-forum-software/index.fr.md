@@ -33,16 +33,16 @@ Ce forum de réponses est rapide, fiable, léger et offre de nombreuses fonction
 ## flarum vs discours   {#vs}
 Dans cette section, nous allons mettre ces deux logiciels de forum open source en un seul endroit où nous pourrons comparer le discours et le flarum.
 
-#### Communauté
+## ## Communauté
 Eh bien, ces deux forums de réponses gratuits ont des communautés solides qui répondent activement aux requêtes des utilisateurs / développeurs. Si nous parlons des statistiques GitHub, Flarum a 12k plus d'étoiles et 1k fourchettes sur son référentiel GitHub. De l'autre côté, le discours a 34k plus d'étoiles et 7k Plus Forks sur son dépôt GitHub.
 
-#### Tech Stack
+## ## Tech Stack
 En ce qui concerne la technologie technique de ces logiciels de forum open source, le discours est écrit en Ruby sur Rails et JavaScript. Alors que le Flarum est écrit en PHP avec la combinaison de et MySQL / MARIADB.
 
-#### **Caractéristiques**
+## ## **Caractéristiques**
 C'est l'aspect le plus critique en ce qui concerne la sélection de tout logiciel pour votre entreprise. Par conséquent, ces deux logiciels de forum de discussion fournissent des fonctionnalités de niveau d'entreprise. Le Falrum et le discours offrent tous deux des caractéristiques sociales et des systèmes de notification riches. De plus, le discours a une énorme base de plugins où vous pouvez trouver presque tous les types de plugins. De plus, les utilisateurs peuvent modifier l'apparence et la sensation du tableau de bord du discours. Il propose également des fonctionnalités de connexion unique où les utilisateurs peuvent se connecter à l'aide de connexions sociales tierces.
 
-#### Extensibilité
+## ## Extensibilité
 Il s'agit d'une autre caractéristique importante de tout logiciel. Heureusement, ces deux logiciels de forum open source sont extensibles et les développeurs peuvent facilement étendre les fonctionnalités selon les besoins. Surtout, le discours offre AP pour les intégrations tierces.
 
 ## Conclusion   {#conclusion}

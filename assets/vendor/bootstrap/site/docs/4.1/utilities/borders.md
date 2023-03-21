@@ -11,7 +11,7 @@ toc: true
 
 Use border utilities to add or remove an element's borders. Choose from all borders or one at a time.
 
-### Additive
+## # Additive
 
 <div class="bd-example-border-utils">
 {% capture example %}
@@ -24,7 +24,7 @@ Use border utilities to add or remove an element's borders. Choose from all bord
 {% include example.html content=example %}
 </div>
 
-### Subtractive
+## # Subtractive
 
 <div class="bd-example-border-utils bd-example-border-utils-0">
 {% capture example %}

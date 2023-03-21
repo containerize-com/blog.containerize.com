@@ -9,7 +9,7 @@ url: /zh-hant/jhipster-tutorial-getting-started-with-rad-software/
 categories: ['Rapid Application Development']
 ---
 
-##讓我們深入研究源代碼生成器。它提供開箱即用的功能，以生成具有據可查的REST API的基於Web的響應應用程序。
+## 讓我們深入研究源代碼生成器。它提供開箱即用的功能，以生成具有據可查的REST API的基於Web的響應應用程序。
 
 {{< figure align=center src="images/How-to-set-up-and-create-a-basic-application-with-Jhipster.png" alt="Jhipster教程">}}
 
@@ -22,7 +22,7 @@ categories: ['Rapid Application Development']
   * [探索生成應用程序的管理儀表板][6]
   * [結論][7]
 
-##什麼是JHIPSTER？如何安裝它？   {#安裝}
+## 什麼是JHIPSTER？如何安裝它？   {#安裝}
 [Jhipster][3]是一種開源RAD軟件，用於生成企業Web應用程序。該開源應用程序構建器在服務器端和流行的前端技術（例如Angular，vue.js和react.js）上提供了基於Java的彈簧啟動框架。此源代碼生成器包括具有多種用戶身份驗證機制（例如OAuth.20，JWTS和HTTP Session Authentication）的強大微服務體系結構。此外，它提供了一個在線版本，用戶可以在其中探索所有功能。此**開源原型製作工具**用JavaScript編寫，並少量輸入打字稿。因此，有關開發和部署的綜合文檔。開發人員可以在[Github][8] repo中找到源代碼。使用流行的測試框架（例如蓋林和量角器）進行運行測試的完全支持。此外，它是強大的，安全的，跨平台的，並支持第三方集成。
 在此**Jhipster教程中，**我們將探索Jhipster的設置和用法。 [JHIPSTER][3]是免費的，並在快速應用開發模型的頂部建立。它提供了一個非常有前途的開發人員友好的生態系統，並提供了強大的快速Web應用程序開發工具。
 讓我們看看如何安裝此開源應用程序構建器。首先，我們將安裝以下先決條件。
@@ -37,7 +37,7 @@ categories: ['Rapid Application Development']
 {{< figure align=center src="images/install-1024x564.png" alt="JHIPSTER安裝">}}
 
 
-##如何生成和運行基本應用程序？   {#跑步}
+## 如何生成和運行基本應用程序？   {#跑步}
 在此**Jhipster教程**的部分中，我們將學習如何使用此開源RAD軟件生成第一個應用程序。
 返回到終端窗口，運行以下命令：
 `mkdir 1StAppCD 1Stapp/`
@@ -56,7 +56,7 @@ categories: ['Rapid Application Development']
 
 通過http：// localhost：8080/訪問您的應用程序中的應用程序。
 
-##探索生成應用的管理儀表板 {#dashboard}
+## 探索生成應用的管理儀表板 {#dashboard}
 擊中http：// localhost：8080/在瀏覽器中，您將看到以下屏幕。
 
 {{< figure align=center src="images/Screenshot-2020-10-27-at-15.56.41-1024x488.png" alt="代碼生成器">}}
@@ -82,7 +82,7 @@ JHIPSTER Admin儀表板中有一個完整的記錄系統。
 {{< figure align=center src="images/Screenshot-2020-10-27-at-15.57.48-1024x582.png" alt="開源雜物">}}
 
 
-##結論 {#con}
+## 結論 {#con}
 這是本Jhipster教程的終結。有許多開源RAD平台提供**即時應用程序開發**。有一個非常充滿活力的社區，始終活著回應問題及其解決方案。由於許多因素，RAD方法正在名聲。首先，無需完全了解要求。其次，在整個軟件開發生命週期中，最終消費者都參與其中。第三，由於所有利益相關者都在船上，危險因素的速度非常小。但是，RAD軟件具有適應性的，對開發人員的友好型，並且可以靈活地進行更改。隨著代碼生成器節省重寫重複腳本的巨大時間，它節省了很多時間。這個**[jhipster][3]教程**文章強調了一些重要的見解。使用一些簡單的外殼命令可以輕巧且易於設置。
 如果您正在認真尋找開源快速應用程序開發平台，請立即隨時安裝此開源應用程序構建器。最後，[Containerize.com][11]都將通過一些更有趣的教程來增強其教程基礎。請與此[快速應用程序開發][2]類別保持聯繫，以進行常規更新。
 

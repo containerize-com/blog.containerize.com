@@ -66,7 +66,7 @@ ruby -r rubygems -e 'require "jekyll-import";
 ```
 Điều này chỉ nhập dữ liệu & trang Post & Page. Nhà nhập khẩu này chỉ chuyển đổi các bài đăng của bạn và tạo ra vật phẩm mặt trước của YAML. Nó không nhập bất kỳ bố cục, kiểu dáng hoặc tệp bên ngoài (hình ảnh, CSS, v.v.).
 
-##**Triển khai với các trang GitHub** {#Deploy}
+## **Triển khai với các trang GitHub** {#Deploy}
 Cho đến nay, chúng tôi đã tạo ra blog Jekyll của chúng tôi tại địa phương. Bây giờ chúng tôi sẽ triển khai nó trên GitHub. Trước hết, chúng tôi phải kiểm soát phiên bản trang web của mình bằng [git][9]. Chạy các lệnh sau trong thư mục của trang web.
 ```
 git init

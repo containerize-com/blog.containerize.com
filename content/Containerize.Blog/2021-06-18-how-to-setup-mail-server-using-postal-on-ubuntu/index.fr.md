@@ -38,7 +38,7 @@ Suivez le guide étape par étape ci-dessous pour installer le logiciel postal *
 sudo apt-get update
 ```
 
-### Installer le serveur de base de données MARIADB
+## # Installer le serveur de base de données MARIADB
   * Exécutez la commande pour installer MariaDB.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### Installer Ruby
+## # Installer Ruby
   * Tout d'abord, ajoutez un PPA tiers pour installer Ruby. Exécutez les commandes suivantes.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### Installer Rabbitmq
+## # Installer Rabbitmq
   * Erlang est nécessaire pour installer RabbitMQ, vous devez donc l'installer également. Ajoutez une touche de référentiel erlang à Ubuntu avec la commande ci-dessous.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### Installer NodeJs
+## # Installer NodeJs
   * Ajouter le référentiel NodeJs avec la commande suivante.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### Installer le serveur de messagerie postal
+## # Installer le serveur de messagerie postal
   * Tout d'abord, vous devez créer un utilisateur pour le serveur de messagerie postal. Créez-le avec la commande suivante.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### Installer Nginx
+## # Installer Nginx
   * Exécutez la commande ci-dessous pour installer le serveur Web Nginx.
 ```
 sudo apt install nginx

@@ -31,16 +31,16 @@ Nesta seção do post Sharetribe vs Cocorico, passaremos brevemente por outro **
 ## sharetribe vs cocorico   {#vs}
 Até agora, passamos pelo que é Sharetribe e uma breve introdução de Cocorico. Avançando para esta postagem do blog Sharetribe vs Cocorico, tentaremos desenhar uma linha entre esses dois softwares populares **de código aberto**  cobrindo os seguintes pontos.
 
-Pilha de tecnologia ####
+Pilha de tecnologia ## ## 
 Quando se trata de software de código aberto auto-host, é realmente importante revisar todos os aspectos, como tecnologias de front-end e back-end, banco de dados e metodologias de desenvolvimento. No entanto, o Sharetribe é desenvolvido usando Ruby on Rails, JavaScript e HTML. Considerando que o Cocorico é construído usando PHP, JavaScript, Twig e entrada de outros idiomas, como CSS. No entanto, os dois são fáceis de configurar em servidores locais ou em nuvem.
 
-#### **Comunidade em pé** 
+## ## **Comunidade em pé** 
 Esse é outro fator imperativo ao escolher um software de código aberto. No que diz respeito ao Sharetribe, possui 2,2 mil estrelas e 1,3 mil garfos em seu repositório do Github. No entanto, você pode encontrar documentação sobre desenvolvimento e implantação, juntamente com os arquivos de código -fonte. Por outro lado, existem 812 estrelas e 626 garfos em seu repositório do Github. Embora você também possa encontrar documentação junto com os arquivos de origem.
 
-#### **extensibilidade** 
+## ## **extensibilidade** 
 Essa característica tem os pontos máximos. Portanto, esses dois **Software de mercado de código aberto**  oferecem integrações com aplicativos de terceiros. O Sharetribe fornece integração com [Google Analytics][9], Stripe, PayPal e etc. O Cocorico também permite que você se conecte com gateways de pagamento para manusear pagamentos. Além disso, os desenvolvedores podem adicionar funcionalidade para atender às necessidades de negócios.
 
-#### Características
+## ## Características
 A última, mas mais importante, é revisar e analisar as disposições e apresenta um software de código aberto. Na maioria das vezes, depende da natureza dos negócios e usa casos. Ambas as soluções de mercado livre oferecem recursos favoráveis ​​aos negócios que aumentam a produtividade e reduzem outros custos. A Sharetribe suporta todos os tipos de mercados, oferece um sistema de pagamento integrado, ferramentas para gerenciar o catálogo de produtos, marca personalizada, filtração de conteúdo e muito mais. Além disso, também oferece gerenciamento de pedidos/categorias, gerenciamento de SEO/promoção e fornece um portal de fornecedores.
 No que diz respeito ao Cocorico, oferece provisões para o mercado de vários fornecedores de código aberto. Além disso, inclui rastreamento de geolocalização, geofencismo, carrinho de compras, gerenciamento de taxas/comissão, é seguro, robusto e vem com recursos de auto-hospedagem.
 

@@ -14,7 +14,7 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/What-are-Top-5-Open-Source-AI-Frameworks-1.png" alt="Top 5 framework AI open source">}}
 
 
-Panoramica ##
+Panoramica ## 
 Abbiamo pubblicato alcuni post sul blog davvero interessanti e di tendenza nella categoria di**Intelligenza artificiale**. Il più recente [articolo][1] ha dimostrato un'introduzione all'IA, ai tipi e alle applicazioni dell'intelligenza artificiale. Tuttavia, questo post sul blog è in genere per gli sviluppatori di software che sono appassionati di AI. C'è un ampio ambito di sviluppo in questo ramo di informatica. In effetti, l'età moderna appartiene assolutamente all'intelligenza artificiale. Giusto per ricapitolare, l'IA è la simulazione dell'intelligenza umana nelle macchine artificiali. Pertanto, le organizzazioni software stanno investendo in modo enorme in AI per arricchire questa tecnologia con funzionalità avanzate. Pertanto, la comunità open source ha sviluppato alcuni quadri e biblioteche a livello aziendale per sviluppare e distribuire applicazioni aziendali basate sull'intelligenza artificiale. Iniziamo questa guida ed esploriamo i 5 framework AI Open-Source.**
 Copriremo le seguenti**biblioteche AI ​​open source:**
 * **[Tensorflow][2]**

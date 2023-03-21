@@ -138,13 +138,13 @@ The collapse plugin utilizes a few classes to handle the heavy lifting:
 
 These classes can be found in `_transitions.scss`.
 
-### Via data attributes
+## # Via data attributes
 
 Just add `data-toggle="collapse"` and a `data-target` to the element to automatically assign control of one or more collapsible elements. The `data-target` attribute accepts a CSS selector to apply the collapse to. Be sure to add the class `collapse` to the collapsible element. If you'd like it to default open, add the additional class `show`.
 
 To add accordion-like group management to a collapsible area, add the data attribute `data-parent="#selector"`. Refer to the demo to see this in action.
 
-### Via JavaScript
+## # Via JavaScript
 
 Enable manually with:
 
@@ -152,7 +152,7 @@ Enable manually with:
 $('.collapse').collapse()
 {% endhighlight %}
 
-### Options
+## # Options
 
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-parent=""`.
 
@@ -181,11 +181,11 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
   </tbody>
 </table>
 
-### Methods
+## # Methods
 
 {% include callout-danger-async-methods.md %}
 
-#### `.collapse(options)`
+## ## `.collapse(options)`
 
 Activates your content as a collapsible element. Accepts an optional options `object`.
 
@@ -195,23 +195,23 @@ $('#myCollapsible').collapse({
 })
 {% endhighlight %}
 
-#### `.collapse('toggle')`
+## ## `.collapse('toggle')`
 
 Toggles a collapsible element to shown or hidden. **Returns to the caller before the collapsible element has actually been shown or hidden** (i.e. before the `shown.bs.collapse` or `hidden.bs.collapse` event occurs).
 
-#### `.collapse('show')`
+## ## `.collapse('show')`
 
 Shows a collapsible element. **Returns to the caller before the collapsible element has actually been shown** (i.e. before the `shown.bs.collapse` event occurs).
 
-#### `.collapse('hide')`
+## ## `.collapse('hide')`
 
 Hides a collapsible element. **Returns to the caller before the collapsible element has actually been hidden** (i.e. before the `hidden.bs.collapse` event occurs).
 
-#### `.collapse('dispose')`
+## ## `.collapse('dispose')`
 
 Destroys an element's collapse.
 
-### Events
+## # Events
 
 Bootstrap's collapse class exposes a few events for hooking into collapse functionality.
 

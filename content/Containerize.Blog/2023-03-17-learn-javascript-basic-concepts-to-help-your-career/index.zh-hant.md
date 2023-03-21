@@ -10,7 +10,7 @@ tags: ["JavaScript Basic Concepts", "what is hoisting in JavaScript", "JavaScrip
 categories: ['Programming']
 ---
 
-##讓我們學習開發人員必須知道的一些核心JavaScript基本面。這種解釋的編程語言被廣泛用於開發企業級應用程序。
+## 讓我們學習開發人員必須知道的一些核心JavaScript基本面。這種解釋的編程語言被廣泛用於開發企業級應用程序。
 
 {{< figure align=center src="images/Learn-JavaScript-Basic-Concepts-to-Help-Your-Career.png" alt="JavaScript基本概念">}}
 
@@ -108,7 +108,7 @@ myFunction()
 ## 問一個問題
 您可以在我們的[論壇][9]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **在JavaScript中要學習的重要概念是什麼？**
 請按照此JavaScript初學者的[指南][2]了解JavaScript基本概念。
 

@@ -31,19 +31,19 @@ Di sisi lain, perilaku dan respons konsumen akhir memberi Anda gagasan bahwa car
 ## Perbandingan yang masuk akal & matomo   {#Comp}
 Di bagian artikel **Matomo vs yang masuk akal  **ini, kami akan mengeksplorasi kedua alternatif Google Analytics **  ini**  mengenai fitur dan karakteristiknya dengan membahas poin -poin berikut.
 
-Statistik #### GitHub
+Statistik ## ## GitHub
 Kedua alat BI open source ** ini populer karena fitur -fiturnya yang kuat. Namun, jika kita berbicara tentang statistik github mereka maka [masuk akal][7] mempertahankan 9K bintang dan 400 plus garpu sedangkan [Matomo][5] mengamankan 15,5k bintang dan 2K plus garpu hingga tanggal.
 
-Teknologi ####
+Teknologi ## ## 
 Tumpukan teknologi dari kedua perangkat lunak analisis web **ini**  beragam. [Masuk akal][7] terutama ditulis dalam elixir yang merupakan bahasa pemrograman fungsional. Di sisi lain, [Matomo][5] ditulis dalam PHP bersama dengan input JavaScript. Kedua alat gratis ini mudah digunakan di server dengan persyaratan mudah.
 
-#### Keamanan
+## ## Keamanan
 Sejauh menyangkut keamanan dan privasi, masuk akal sangat berorientasi pada privasi dan memberikan kendali kepada pemilik situs. Ini menghambat pelacakan lintas situs yang tentang mengumpulkan data penelusuran di beberapa situs. Namun, kedua alat pelaporan intelijen bisnis **ini**  sepenuhnya sesuai dengan undang -undang privasi internasional.
 
-#### ekstensibilitas
+## ## ekstensibilitas
 Ini adalah karakteristik terpenting dari setiap perangkat lunak open source. Untungnya, kedua alat BI open source ** ini menawarkan interaksi dengan pustaka pihak ketiga dan mudah diperluas sesuai persyaratan. Sedangkan, Matomo memaparkan API untuk membuat laporan dan integrasi khusus.
 
-#### Fitur
+## ## Fitur
 Plausible dan Matomo memberikan fitur yang kuat mengenai pengguna, manajemen situs web dan ada modul yang memberikan pengunjung perilaku dan informasi aktivitas. Di atas segalanya, kedua perangkat lunak analitik web **ini**  menawarkan antarmuka pengguna logis yang dapat disesuaikan pengguna kepada widget sesuai preferensi mereka. Selanjutnya, Anda dapat mengunjungi [tautan][9] ini untuk mempelajari tentang fitur lebih lanjut.
 **Masyarakat**
 Bahkan, komunitas open source sangat hidup dan bersemangat. Namun, masuk akal dan Matomo adalah open source **alat pelaporan intelijen bisnis**  Itulah sebabnya mereka berdua memiliki komunitas pengembang yang sangat kuat yang selalu cenderung menjawab pertanyaan dan bug.

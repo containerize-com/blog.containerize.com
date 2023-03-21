@@ -97,7 +97,7 @@ http：// localhost/owncloud/
 {{_LINE_79_}}
 是的！我們使用OwnCloud安裝指南來構建個人云存儲。現在，您知道如何在Ubuntu上完全安裝owncloud，以逐步構建類似於Dropbox或Google Drive的私有云。
 
-##  **owncloud的最佳替代方案是什麼？**    {#4a1a}
+## **owncloud的最佳替代方案是什麼？**    {#4a1a}
 以下是自託管的ownCloud替代方案和競爭對手文件託管軟件。
   ***Seafile** 是開源跨平台文件託管軟件系統
   ***NextCloud** 是免費的，開源雲存儲平台

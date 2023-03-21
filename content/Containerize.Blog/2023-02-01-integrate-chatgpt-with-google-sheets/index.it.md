@@ -14,14 +14,14 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/How-to-Integrate-ChatGPT-with-Google-Sheets.png" alt=" Integrare chatgpt con fogli Google">}}
 
 
-Panoramica ##
+Panoramica ## 
 Siamo grati ai nostri lettori che hanno costantemente seguito i nostri post sul blog. La risposta dei nostri recenti post sul blog su [codice GPT][1] e [CHATGPT][2] è schiacciante. Pertanto, abbiamo escogitato un altro articolo che dimostrerà  **come integrare CHATGPT con Google [fogli][3].**  I fogli di Google forniscono anche funzionalità basate sull'apprendimento automatico insieme ad altri come la formattazione dei fogli di calcolo, la visualizzazione dei dati e Di più. Dall'altro lato, CHATGPT si basa su [Open-Source][4] GPT-3 che è un modello NLP open source sviluppato da [OpenAI][5].
 Tuttavia, rendere reattive i tuoi fogli installando un chatbot basato sull'intelligenza artificiale porterà funzionalità ed efficienza potenziate. Inoltre, questa integrazione di chatbot a livello aziendale** ti farà risparmiare tempo automatizzando le attività di routine e può offrire soluzioni ai tuoi problemi complessi.
 Tratteremo i seguenti punti in questo articolo:
   *[ **Come integrare CHATGPT con i fogli di Google?** ][6]
   *[ **Come usare CHATGPT nei fogli di Google?** ][7]
 
-## come integrare CHATGPT con fogli di Google   {#How-to-integrate-chatgpt-with-google-sheet}}
+## come integrare CHATGPT con fogli di Google   {#How-to-integrate-chatgpt-with-google-sheet}
 **Integrazione CHATGPT** Con qualsiasi software darà sicuramente un vantaggio competitivo al business. Un modello alimentato dall'intelligenza artificiale che può iniziare sessioni di conversazione a due vie e lo incorpori con il tuo software quanto potrebbe essere potente l'integrazione? Ovviamente incredibile. Quindi, chiedi a un chatbot una soluzione tecnica a un problema e ottieni la risposta appena in tempo, significa molto in termini di risparmio di tempo e sforzi.
 Iniziamo questa  **integrazione di fogli di Google con Chatgpt.** 
 Innanzitutto, Apri Google [Sheets][3] e fai clic su  **"Extensions-> Aggiungi-> Ottieni componenti aggiuntivi"** . Una volta che lo fai, vedrai un dialogo sul mercato di Google Workspace. Ora, digita "chatgpt" nella barra di ricerca posizionata nell'angolo in alto a destra e seleziona la prima opzione come mostrato nell'immagine qui sotto.

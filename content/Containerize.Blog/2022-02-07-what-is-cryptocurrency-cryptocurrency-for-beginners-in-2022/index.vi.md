@@ -14,7 +14,7 @@ categories: ['Blockchain Platforms', 'Business Intelligence Software']
 {{< figure align=center src="images/what-is-cryptocurrency.png" alt="What is Cryptocurrency? |Tiền điện tử là gì? | Tiền điện tử cho người mới bắt đầu | Tiền điện tử giải thích | Khái niệm cơ bản về tiền điện tử|Tiền điện tử là gì? | Tiền điện tử cho người mới bắt đầu | Tiền điện tử giải thích | Khái niệm cơ bản về tiền điện tử|Tiền điện tử là gì? | Tiền điện tử cho người mới bắt đầu | Tiền điện tử giải thích | Khái niệm cơ bản về tiền điện tử">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Nếu bạn muốn tìm hiểu về tiền điện tử và cách thức hoạt động, bạn sẽ ở đúng nơi. Để giúp bạn, chúng tôi đã phát triển hướng dẫn chi tiết này về cơ bản về tiền điện tử kỹ thuật số cho người mới bắt đầu. Rõ ràng là tiền điện tử đang ở đây, vì vậy số người đầu tư vào chúng đang tăng lên.
 Mỗi tiền điện tử khác nhau về giá cả, nhu cầu, tính khả dụng và tốc độ giao dịch, tiền điện tử tốt nhất để đầu tư vào người mới đến là gì? Đối với người mới bắt đầu, có thể là một ý tưởng tốt để gắn bó với hầu hết các loại tiền điện tử phổ biến, vì vậy ở đây chúng tôi đã liệt kê ở đây là đồng tiền hàng đầu tốt nhất và nguồn mở hàng đầu.
 Trong bài viết trên blog này, chúng tôi sẽ làm quen với những điều cơ bản về tiền điện tử, bao gồm cả tiền điện tử là gì, cách thức hoạt động của tiền điện tử, thuật ngữ phổ biến và nhiều hơn nữa. Vào thời điểm bạn đọc xong trang này, bạn sẽ có một sự hiểu biết cơ bản tốt về tiền điện tử. Nếu bạn không muốn đọc toàn bộ tài liệu và muốn chuyển sang một phần cụ thể, bạn có thể sử dụng các liên kết nhảy bên dưới để nhảy vào các phần mà bạn quan tâm nhất.

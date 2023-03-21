@@ -49,13 +49,13 @@ Cuando un desarrollador abre una solicitud de extracción, todo lo que está hac
 ## Modelos de ramificación populares   {#model}
 Hay un número de flujos de trabajo de ramificación que están en uso por la comunidad de desarrolladores en todo el mundo. Pero, discutiremos los tres modelos de ramificación más populares uno por uno
 
-### flujo de git
+## # flujo de git
 GitFlow Workflow es un flujo de trabajo GIT que ayuda con el desarrollo continuo de software e implementando prácticas de DevOps. El flujo Git es el flujo de trabajo más conocido en esta lista. Fue creado por [Vincent Driessen en 2010][7] y se basa en dos ramas principales con una vida infinita, junto con otras ramas de soporte como las características-\*, HotfiMes-\* que luego se fusionan en la rama de desarrollo como individual Los artículos se completan.
   ***Master**  - Esta rama contiene código de producción. Todo el código de desarrollo se fusiona en la rama maestra una vez que está listo para ser empujado a la producción.
   ***Desarrollar** -Esta rama contiene código de preproducción. Cuando las características están terminadas, se fusionan en desarrollo.
 Gitflow es ideal para proyectos que tienen un ciclo de lanzamiento programado. Sin embargo, la historia de GIT se vuelve ilegible.
 
-### flujo de github
+## # flujo de github
 El flujo de GitHub es un flujo de trabajo liviano. Fue creado por [Github][8] en 2011 y se centra principalmente en el modelo ágil, donde no espera un ciclo de liberación. En cambio, impulsa los cambios a la producción a diario a medida que las características se completan.
 El flujo de Github sigue a los siguientes directores:
   * Cualquier cosa en la rama "maestra" es desplegable.
@@ -65,7 +65,7 @@ El flujo de Github sigue a los siguientes directores:
   * Después de revisar y firmar en la función, puede fusionarlo en el maestro
   * Una vez que se fusiona y empuja a "Master", se puede implementar en producción.
 
-### flujo de gitlab
+## # flujo de gitlab
 GitLab Flow es un flujo de trabajo creado por GitLab en 2014. GitLab Flow es una alternativa más simple a Gitflow y combina el desarrollo de características y las ramas de características con seguimiento de problemas. La principal diferencia entre el flujo de gitlab y el flujo de GitHub es el uso de ramas ambientales.
 Los desarrolladores crean una rama **Desarrollar**  y hacen que sea el valor predeterminado, mientras que GitLab Flow funciona con la rama "principal" de inmediato. GitLab Flow incorpora múltiples ramas de preproducción. Y, se pueden usar para probar las cosas en diferentes niveles. por ejemplo, desde la rama de prueba hasta la aceptación y luego de la aceptación a la producción.
 

@@ -42,7 +42,7 @@ Hier sind die bemerkenswerten Funktionen:
   * Arbeitet mit jedem Web -Framework und jeder Sprache
     [Lesen Sie mehr][8]
 
-### **Mail-in-a-Box**    {#mail-in-a-Box}}
+### **Mail-in-a-Box**    {#mail-in-a-Box}
 Mail-in-a-Box ist ein innovativer Linux-Mailserver, der sich auf eine einfache Bereitstellung konzentriert. Es bietet praktische Webmail- und IMAP/SMTP -Server mit automatischen DNS -Konfigurationen. Es hilft Ihnen, Ihr eigenes Google Mail ohne technisches Fachwissen einzurichten. Zu den Top -Funktionen gehören:
   * Automatische DNS -Konfiguration
   * Spamfilterung.

@@ -39,19 +39,19 @@ sudo reboot
 ## 2 단계 : 램프 서버를 설치합니다
 Pydio Secure Enterprise 파일 공유 서버를 설정하고 오픈 소스 프라이빗 클라우드를 만드는 방법을 설정하려면 먼저 실행중인 램프 서버를 설정해야합니다. 램프 스택을 이미 설치하고 실행중인 경우이 단계를 건너 뛰면 다음 단계를 사용하여 다음 명령을 사용하여 우분투 시스템에서 램프를 설정하십시오.
 
-### php를 설치하십시오
+## # php를 설치하십시오
 명령을 실행하여 우분투 또는 데비안 시스템에 PHP를 설치할 수 있습니다.
 Sudo apt-get 설치 Python-Software-Properties
 Sudo Add-Apt-Repository PPA : Ondrej/Php
 Sudo apt-get install -y php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-### Apache2를 설치하십시오
+## # Apache2를 설치하십시오
 Apache는 가장 널리 사용되는 오픈 소스 웹 서버 소프트웨어입니다. 다음으로 Ubuntu에 Apache 웹 서버를 설치하여 다음을 실행하십시오.
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-### MySQL을 설치하십시오
+## # MySQL을 설치하십시오
 MySQL Open-Source Relational Database Management System은 LAMP 웹 애플리케이션 소프트웨어 스택 및 기타의 구성 요소입니다. 이제 아래에서 실행하여 Ubuntu에 MySQL을 설치하십시오.
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}

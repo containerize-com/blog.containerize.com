@@ -25,14 +25,14 @@ Cada negocio necesita algún tipo de sistema para la gestión de facturas, gasto
 ## Procedimiento de instalación del cráter   {#Installation}
 Discutiremos cómo instalar el cráter con el método manual y usar Docker en esta sección.
 
-### Instalación manual
+## # Instalación manual
   * Descargue la última versión desde.
   * Cargue el archivo zip descargado a su servidor y extraiga.
   * Apunte su dominio al directorio público dentro de la carpeta de cráter.
   * Navegue a la raíz de su proyecto y ejecute el comando "sudo chmod -r 775 ./" para asignar privilegios apropiados.
   * Abra su sitio en el navegador y siga el asistente de instalación.
 
-### Instalación de Docker
+## # Instalación de Docker
   * Instale Docker en su servidor :.
   * Instale Docker Compose siguiendo esta guía :.
   * Repositorio de cráter clon mediante el uso de este comando.

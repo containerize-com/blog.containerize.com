@@ -14,7 +14,7 @@ categories: ['Programming']
 {{< figure align=center src="images/What-are-JavaScript-Data-Types-A-Beginners-Guide-1.png" alt="What are JavaScript Data Types? |Quali sono i tipi di dati JavaScript? | Una guida per principianti">}}
 
 
-Panoramica ##
+Panoramica ## 
 Non importa se sei un livello mediocre o uno sviluppatore esperto, otterrai le soluzioni ai tuoi problemi durante i lavori di sviluppo. [Containerize.com][1] ha iniziato a scrivere post sul blog di tutorial nella categoria di programmazione e stiamo iniziando con una Guida per principianti **JavaScript **. Dal momento che stiamo iniziando, quindi questo articolo riguarda i tipi di dati JavaScript. Esploriamo  **Quali sono i tipi di dati JavaScript **  e vediamo esempi di come puoi usarli nel codice sorgente in modo efficiente. Pertanto, attraversa accuratamente questa guida per principianti in modo da poter avere una buona comprensione dei tipi di dati ** JavaScript** .
 Stiamo coprendo il seguente punto:
   * [Che cos'è un tipo di dati?][2]
@@ -29,7 +29,7 @@ In effetti, JavaScript è un linguaggio tipizzato in modo libera, il che signifi
 {{< figure align=center src="images/web-development.png" alt="Guida per principianti JavaScript">}}
 
 
-#### tipi di dati primitivi
+## ## tipi di dati primitivi
 I tipi di dati primitivi sono quelli che sono immutabili e non possono essere modificati dopo la creazione e l'inizializzazione. Tuttavia, è possibile riassegnare un nuovo valore ma non è possibile mutare il valore esistente.
 Per esempio:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 Nell'esempio sopra, la stringa è un tipo di dati primitivi e il vecchio valore viene sostituito dal nuovo valore, ma la modifica del valore esistente non viene riflessa. Quindi, possiamo vedere che è ancora "il mio nome è cambiato" non "il mio nome è cambiato";
 
-#### tipi di dati non prime
+## ## tipi di dati non prime
 I tipi di dati non primari sono mutabili, in parole semplici opposte ai tipi di dati primitivi.
 Per esempio:
 ```

@@ -14,7 +14,7 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/gdevelop-game.png" alt="Come fare una partita a scratch">}}
 
 
-Panoramica ##  **** 
+Panoramica ## **** 
 In The Near Past, abbiamo pubblicato molti post sul blog su software di sviluppo di giochi gratuito open source come [il top 5 software di sviluppo di giochi gratuito nell'anno 2021][1], [Introduzione allo sviluppo del gioco usando i superpowers][2], [gioco Tutorial di sviluppo | Movimento dei giocatori in GDEVVive][3], [tutorial di sviluppo del gioco HTML5 per programmatori di videogiochi][4], [come il settore globale del gioco che sfrutta il software open source][5] e [tutorial GDEVive per i principianti per iniziare lo sviluppo del gioco][6 ]. Gli ultimi progressi nell'era di Internet hanno portato nuove tendenze nel settore dei videogiochi. Una piattaforma di costruzione di giochi open source offre un ecosistema completo per sviluppare giochi in modo indipendente e gli sviluppatori quindi maturano quella piattaforma secondo le esigenze. In questo post sul blog, impareremo come fare un gioco su scratch usando [GDevelop][7] coprendo i seguenti punti.
   * **[Perché dovremmo usare GDevelop?][8]**
   * **[Impostazione del progetto][9]**

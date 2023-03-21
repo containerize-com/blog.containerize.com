@@ -14,7 +14,7 @@ categories: ['Blogging', 'Video Conferencing Software']
 {{< figure align=center src="images/jitsimeet.png" alt="jitsi incontra il plugin WordPress">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti in un altro post sul blog nella serie di [Blogging][1] e [software di videoconferenza][2]. Di recente, abbiamo pubblicato articoli su argomenti come [una guida passo passo per impostare Jitsi Meet open source][3], [come installare Matomo per WordPress | Tutorial di WordPress][4] e altri. In questo post sul blog, proveremo a coprire WordPress e Jitsi e vedremo come possiamo installare il plug -in  **jitsi incontra wordpress** . Tuttavia, sia il software è open source e sono dotati di capacità di auto-osting. In effetti, la domanda del modello di lavoro remoto è aumentata in gran parte dopo la pandemia. Ogni settore di vita come l'istruzione, la salute e altri settori ha adottato il modello remoto.
 Pertanto, il software di riunioni open source presenta tutte quelle caratteristiche e caratteristiche che sono sufficienti per condurre operazioni aziendali da remoto. JITSI MEET è uno di quelli  **Software di riunioni open source**  disponibile con documentazione completa per lo sviluppo, l'implementazione e l'utilizzo. Quindi, copriremo i seguenti punti.
   * [Cos'è Jitsi Meet?][5]

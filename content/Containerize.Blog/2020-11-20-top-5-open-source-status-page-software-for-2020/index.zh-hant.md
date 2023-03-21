@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-status-page-software-for-2020/
 categories: ['Status Page']
 ---
 
-##狀態頁面系統可幫助企業減少服務的停機時間並立即通知客戶。我們已經匯總了2020年前5個免費狀態頁面軟件的列表。
+## 狀態頁面系統可幫助企業減少服務的停機時間並立即通知客戶。我們已經匯總了2020年前5個免費狀態頁面軟件的列表。
 
 {{< figure align=center src="images/status.png" alt="開源狀態頁">}}
 

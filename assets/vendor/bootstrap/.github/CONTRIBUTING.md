@@ -97,7 +97,7 @@ Example:
 > causing the bug, and potential solutions (and your opinions on their
 > merits).
 
-### Reporting upstream browser bugs
+## # Reporting upstream browser bugs
 
 Sometimes bugs reported to us are actually caused by bugs in the browser(s) themselves, not bugs in Bootstrap per se.
 When feasible, we aim to report such upstream bugs to the relevant browser vendor(s), and then list them on our [Wall of Browser Bugs](https://getbootstrap.com/browser-bugs/) and [document them in MDN](https://developer.mozilla.org/en-US/docs/Web).
@@ -109,7 +109,7 @@ When feasible, we aim to report such upstream bugs to the relevant browser vendo
 | Google, Opera | Chrome, Chromium, Opera v15+ | Blink            | https://bugs.chromium.org/p/chromium/issues/list                                      | Click the "New issue" button.                            |
 | Microsoft     | Edge                         | EdgeHTML         | https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/                 |                                                          |
 
-### Issues bots
+## # Issues bots
 
 [@twbs-lmvtfy](https://github.com/twbs-lmvtfy) is a Bootstrap bot that hangs out in our GitHub issue tracker and automatically checks for HTML validation errors in live examples (e.g. jsFiddles, JS Bins, Bootplys, Plunks, CodePens, etc.) posted in issue comments. If it finds any errors, it will post a follow-up comment on the issue and point out the errors. If this happens with an example you've posted, please fix the errors and post an updated live example. If you opened a bug report, please check whether the bug still occurs with your revised, valid live example. If the bug no longer occurs, it was probably due to your invalid HTML rather than something in Bootstrap and we'd appreciate it if you could close out the GitHub issue.
 
@@ -207,7 +207,7 @@ includes code changes) and under the terms of the
 
 ## Code guidelines
 
-### HTML
+## # HTML
 
 [Adhere to the Code Guide.](http://codeguide.co/#html)
 
@@ -215,14 +215,14 @@ includes code changes) and under the terms of the
 - Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via `file://`.
 - Use [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) attributes in documentation examples to promote accessibility.
 
-### CSS
+## # CSS
 
 [Adhere to the Code Guide.](http://codeguide.co/#css)
 
 - When feasible, default color palettes should comply with [WCAG color contrast guidelines](https://www.w3.org/TR/WCAG20/#visual-audio-contrast).
 - Except in rare cases, don't remove default `:focus` styles (via e.g. `outline: none;`) without providing alternative styles. See [this A11Y Project post](https://a11yproject.com/posts/never-remove-css-outlines/) for more details.
 
-### JS
+## # JS
 
 - No semicolons (in client-side JS)
 - 2 spaces (no tabs)
@@ -230,7 +230,7 @@ includes code changes) and under the terms of the
 - "Attractive"
 - Don't use [jQuery event alias convenience methods](https://github.com/jquery/jquery/blob/master/src/event/alias.js) (such as `$().focus()`). Instead, use [`$().trigger(eventType, ...)`](https://api.jquery.com/trigger/) or [`$().on(eventType, ...)`](https://api.jquery.com/on/), depending on whether you're firing an event or listening for an event. (For example, `$().trigger('focus')` or `$().on('focus', function (event) { /* handle focus event */ })`) We do this to be compatible with custom builds of jQuery where the event aliases module has been excluded.
 
-### Checking coding style
+## # Checking coding style
 
 Run `npm run test` before committing to ensure your changes follow our coding standards.
 

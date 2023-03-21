@@ -256,7 +256,7 @@ Multiple add-ons are supported and can be mixed with checkbox and radio input ve
 
 Input groups include support for custom selects and custom file inputs. Browser default versions of these are not supported.
 
-### Custom select
+## # Custom select
 
 {% capture example %}
 <div class="input-group mb-3">
@@ -309,7 +309,7 @@ Input groups include support for custom selects and custom file inputs. Browser 
 {% endcapture %}
 {% include example.html content=example %}
 
-### Custom file input
+## # Custom file input
 
 {% capture example %}
 <div class="input-group mb-3">

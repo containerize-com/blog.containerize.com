@@ -45,7 +45,7 @@ Sur le côté droit, il y a une fenêtre où vous pouvez jouer et tester les mod
 
 Si vous cliquez avec le bouton droit sur le clip dans la chronologie et accédez aux propriétés, un panneau s'ouvrira sur le côté gauche qui contient les options avancées liées aux effets vidéo, aux animations, etc.
 
-###### Une fois que vous avez terminé le montage, vous pouvez exporter / télécharger la vidéo à partir du bouton rouge sur la barre des options supérieures.
+## ## ## Une fois que vous avez terminé le montage, vous pouvez exporter / télécharger la vidéo à partir du bouton rouge sur la barre des options supérieures.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="Éditeur vidéo OpenShot">}}
 

@@ -38,7 +38,7 @@ Ubuntu 18.04'e Posta **Posta Sunucusu Yazılımı**  yüklemek için aşağıdak
 sudo apt-get update
 ```
 
-### Mariadb Veritabanı Sunucusunu Yükle
+## # Mariadb Veritabanı Sunucusunu Yükle
   * Mariadb yükleme komutunu çalıştırın.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### Ruby'yi kurun
+## # Ruby'yi kurun
   * İlk olarak, Ruby'yi kurmak için üçüncü taraf PPA ekleyin. Aşağıdaki komutları çalıştırın.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### Rabbitmq'i yükle
+## # Rabbitmq'i yükle
   * Erlang'ın Rabbitmq'i kurmanız gerekir, bu yüzden de yüklemeniz gerekir. Aşağıdaki komutla Ubuntu'ya Erlang Depo Tuşunu ekleyin.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### Nodejs'i yükleyin
+## # Nodejs'i yükleyin
   * Aşağıdaki komutla NodeJS depo ekleyin.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### Posta Posta Sunucusunu Yükle
+## # Posta Posta Sunucusunu Yükle
   * İlk olarak, posta posta sunucusu için bir kullanıcı oluşturmanız gerekir. Aşağıdaki komutla oluşturun.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### nginx'i yükle
+## # nginx'i yükle
   * Nginx web sunucusunu yüklemek için aşağıdaki komutu çalıştırın.
 ```
 sudo apt install nginx

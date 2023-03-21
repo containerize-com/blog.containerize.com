@@ -14,7 +14,7 @@ Strony ## obejmują szyfrowanie SSL/TLS dla swojej domeny, aby przyciągnąć od
 {{< figure align=center src="images/nginxletsencrypt.png" alt="Bezpieczne nginx z Let's Szyfrowanie na Ubuntu">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Każda strona internetowa, która ma na celu przyciągnięcie odwiedzających, musi zawierać szyfrowanie TLS/SSL do swojej domeny. Bezpłatne certyfikaty SSL zapewniają bezpieczne połączenie między serwerem WWW lubią szyfrować i zabezpieczyć przeglądarki nginx i aplikacji. Let's Encrypt to bezpłatny, zautomatyzowany i otwarty organ certyfikatu, który umożliwia skonfigurowanie takiej ochrony dla Nginx SSL LetsEncrypt. Szyfrowajmy bezpłatne certyfikaty SSL są zaufane przez wszystkie główne przeglądarki i ważne przez następne 90 dni od daty wydania.
 Ten post na blogu wyjaśnia najprostszy sposób szyfrowania i zabezpieczenia serwera WWW Nginx na Ubuntu 20.04 / 18.04 poprzez uzyskiwanie certyfikatów Nginx HTTPS LetsCrypt za pomocą narzędzia Nginx CertBot i skonfigurowanie certyfikatów, aby go automatycznie odnowić. Rozpocznijmy i konfigurujmy konfiguracje Ubuntu Nginx.
   * Zależności i warunki wstępne
@@ -84,7 +84,7 @@ sudo ufw status
 ```
 Następnie uruchommy Certbot i pobrajmy nasze certyfikaty.
 
-## Krok 4-Uzyskanie certyfikatu SSL   {#Krok-4---Otrzymanie-certyfikat}}
+## Krok 4-Uzyskanie certyfikatu SSL   {#Krok-4---Otrzymanie-certyfikat}
 Wtyczka Nginx dla CertBot zajmie się rekonfiguracją Nginx i przeładuje jego konfigurację w razie potrzeby. Dlatego tylko musisz generować certyfikaty za pomocą wtyczki Nginx, wykonując następujące polecenie:
 ```
 sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com

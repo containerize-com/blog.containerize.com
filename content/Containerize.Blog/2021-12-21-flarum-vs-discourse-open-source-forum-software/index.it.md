@@ -14,7 +14,7 @@ categories: ['Discussion Forum']
 {{< figure align=center src="images/flarumvsdiscourse.png" alt="Flarum vs Discourse">}}
 
 
-Panoramica ##
+Panoramica ## 
 Benvenuti nel nostro nuovo post sul blog nella serie di [Software del forum di discussione][1]. Nel passato vicino, abbiamo pubblicato articoli su argomenti come [come integrare il forum del discorso con wordpress][2], [come integrare il forum del discorso con wordpress][2] e alcuni altri. Tuttavia, trarremo un confronto tra i forum di discussione più popolari e ampiamente usati Flarum vs Discourse. A causa di un enorme cambiamento negli stili di vita, la presenza online di individui e aziende è diventata indispensabile. O il dipartimento dell'istruzione o il settore degli affari, entrambi dipendono fortemente dal forum di risparmio.
 La comunità open source ha sviluppato molti forum di discussione a livello aziendale. [Discourse][3] e [Flarum][4] sono software per forum open source che aiutano le aziende a gestire le discussioni a livello di organizzazione tra membri del team e consumatori. Inoltre, è molto importante mantenere i tuoi clienti coinvolti, raccogliere informazioni per affrontare opportunità e minacce aziendali. Tra le altre funzionalità, questi forum di discussione offrono funzionalità sociali proprio come Facebook e Twitter che alla fine aiutano le aziende a far crescere le comunità aziendali in modo moderno. Tuttavia, questo post sul blog comprenderà i seguenti punti.
   * [Cos'è il discorso?][5]
@@ -33,16 +33,16 @@ Questo forum di domanda-risposta è veloce, affidabile, leggero e offre molte ca
 ## flarum vs discorso   {#vs}
 In questa sezione, metteremo entrambi questi software per forum open source in un posto in cui saremo in grado di confrontare il discorso e Flarum.
 
-#### Comunità
+## ## Comunità
 Bene, entrambi questi forum gratuiti per le risposte hanno comunità forti che rispondono attivamente alle domande degli utenti/sviluppatori. Se parliamo delle statistiche di Github, Flarum ha 12k più stelle e forchette 1K sul suo repository Github. Dall'altro lato, il discorso ha 34k più stelle e forchette 7k Plus sul suo repo di Github.
 
-#### Tech Stack
+## ## Tech Stack
 Per quanto riguarda lo stack tecnologico di questi software per forum open source, il discorso è scritto in Ruby on Rails e JavaScript. Considerando che il flarum è scritto in PHP con la combinazione di e mysql / mariadb.
 
-####**Caratteristiche**
+## ## **Caratteristiche**
 Questo è l'aspetto più critico quando si tratta della selezione di qualsiasi software per la tua azienda. Pertanto, entrambi questi software del forum di discussione forniscono funzionalità a livello aziendale. Il Falrum e il discorso offrono entrambi caratteristiche sociali e sistemi di notifica ricchi. Inoltre, il discorso ha un'enorme base di plug -in in cui è possibile trovare quasi tutti i tipi di plugin. Inoltre, gli utenti possono modificare l'aspetto del dashboard del discorso. Offre anche funzionalità di accesso singolo in cui gli utenti possono accedere utilizzando accessi social di terze parti.
 
-#### Estensibilità
+## ## Estensibilità
 Questa è un'altra caratteristica importante di qualsiasi software. Fortunatamente, entrambi questi software per forum open source sono estensibili e gli sviluppatori possono facilmente estendere la funzionalità secondo le esigenze. Soprattutto, il discorso offre AP per integrazioni di terze parti.
 
 ## conclusioni   {#conclusion}

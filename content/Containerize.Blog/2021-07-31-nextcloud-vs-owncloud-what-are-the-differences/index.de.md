@@ -33,17 +33,17 @@ OwnCloud ist eine sehr stabile und zuverlässige Cloud -Anwendung. Es wird beson
 
 ## 3. Vergleich Nextcloud gegen OwnCloud:   {#CE62}
 
-#### **Preisgestaltung**
+## ## **Preisgestaltung**
 Nextcloud und Owncloud werden beide kostenlos verwendet und verkaufen auch einen Support -Service. Die Downloads und Installationen beider Software sind absolut kostenlos. Der größte Unterschied zwischen den beiden Plattformen ist jedoch, dass der beste kostenlose Online -Cloud -Speicher NextCloud vollständig kostenlos und Open Source ist. Um den vollen Zugriff auf alle Funktionen von OwnCloud zu haben, müssen Sie ihre Enterprise Edition für zusätzliche Funktionen abonnieren.
 
-#### **Merkmale**
+## ## **Merkmale**
 Open Source Secure Datei Sharing OwnCloud konzentriert sich hauptsächlich auf die Dateifreigabe und die Synchronisierung von Cloud -Daten. NextCloud hat seine Dienste erheblich erweitert, um andere Funktionen anzubieten, einschließlich der Arbeiten für Audio-Video-Kommunikation und kollaborative Bürodokumente.
 
-#### **Community**  und Unterstützung
+## ## **Community**  und Unterstützung
 Ein weiterer wichtiger Unterschied von Open Source Nextcloud und Owncloud Platorms ist die Gemeinschaft und Unterstützung, die sie umgibt. Seit 2017 hat die Anzahl der Nextcloud -Mitwirkenden eine große Anzahl als die Anzahl der OwnCloud -Mitwirkenden erhöht. Die Support -Seiten von Open Source OwnCloud und NextCloud Cloud Storage bieten Ihnen Links zu Dokumentation, Internet -Chat -Kanälen, Foren usw. Für die Kunden von Enterprise -Kategorien sind sowohl NextCloud als auch OwnCloud auch Premium -Support an.
 Wenn Sie einen Blick auf Help -Foren von Nextcloud werfen, ist das am häufigsten besprochene Thema „Migration von OwnCloud zu Nextcloud“. Dies hat mehr als 95.000 Ansichten erzielt. Das beliebteste Thema im öffentlichen Forum von Owncloud befasst sich mit der Entsperren einer gesperrten Datei mit über 45.000 Aufsichten. Der YouTube -Kanal von Owncloud verfügt über mehr als 70 Videos mit einer Abonnentenbasis von 1,36K. NextCloud verfügt über mehr als 220 Videos mit einer Abonnentenbasis von 9,3.000 auf dem YouTube -Kanal. Darüber hinaus führte eine Google -Keyword -Suche nach beiden zu 4.050.000 Suchergebnissen und 3.460.000 Suchergebnisse für NextCloud bzw. OwnCloud.
 
-#### **Sicherheit** 
+## ## **Sicherheit** 
 Die Freigabe von Open Source Cloud -Datei Nextcloud bietet Schutz vor Brute -Force -Angriffen, Flussbeschränkung, Ratenbegrenzung, Kennwortverwaltung, Inhaltssicherheitsrichtlinien und vielen anderen Sicherheitsoptionen. In ähnlicher Weise sind bestimmte Sicherheits -Sicherheits -Scan -Funktionen nur in der Enterprise -Version verfügbar. Es ist möglich, die Enterprise -Version 30 Tage kostenlos zu testen, um zu prüfen, ob diese zusätzlichen Funktionen erforderlich sind, um Sie vor externen Problemen zu schützen.
 Darüber hinaus haben Hacker die Chance, ein Bug Bounty -Programm Angebote als Belohnung für die Entdeckung von Schwachstellen für das Team zu erhalten.
 

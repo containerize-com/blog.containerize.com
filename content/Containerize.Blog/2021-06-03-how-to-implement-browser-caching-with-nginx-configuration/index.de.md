@@ -24,7 +24,7 @@ In der Tutorial -Serie unserer NGINX -Reihe haben wir [wie man Nginx als Lastbal
 Je schneller eine Website lädt, desto wahrscheinlicher ist es, dass ein Besucher auf der Website bleibt. Websites mit vielen Bildern und interaktiven Inhalten werden im Hintergrund geladen, und die Website eröffnet eine komplexe Aufgabe. Es besteht darin, viele verschiedene Dateien vom Server einzeln anzufordern. Das Minimieren der Menge dieser Anfragen ist eine Möglichkeit, Ihre Website zu beschleunigen.
 Eine Methode zur Verbesserung der Website -Leistung ist _leveraging Browser Caching_. Browser Caching spielt eine große Rolle im Cache -Mechanismus, um die Seitengeschwindigkeit zu erhöhen. Statische Dateien wie CSS, JS, JPEG, PNG usw., die für die Website verwendet werden, können auf dem Computer des Besuchers für den zukünftigen Zugriff gespeichert werden. Immer wenn der Besucher auf eine neue Seite auf Ihrer Website trifft, können auf die oben genannten Dateien vom Computer des Besuchers anstelle Ihres bereitgestellten Servers zugegriffen werden, wodurch die Seitenlastgeschwindigkeit enorm erhöht wird.
 
-## Nginxs Header-Modul   {#Header-Modul}}
+## Nginxs Header-Modul   {#Header-Modul}
 Das _ngx \ _http \ _Headers_Module_-Modul ermöglicht das Hinzufügen der Headerfelder "_expires_" und "_cache-control_" und beliebige Felder zu einem Antwortkopf. Wir können das Header -Modul verwenden, um diese HTTP -Header zu setzen. Das Header -Modul ist ein Kern -Nginx -Modul, was bedeutet, dass es nicht separat installiert werden muss, um verwendet zu werden.
 Beispielkonfiguration sieht so aus:
 ```

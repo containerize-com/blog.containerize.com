@@ -45,7 +45,7 @@ No lado direito, há uma janela onde você pode reproduzir e testar as alteraç�
 
 Se você clicar com o botão direito do mouse no clipe na linha do tempo e for para as propriedades, um painel será aberto no lado esquerdo que contém as opções avançadas relacionadas aos efeitos do vídeo, animações e muito mais.
 
-###### Depois de terminar com a edição, você pode exportar/baixar o vídeo do botão vermelho na barra de opções superiores.
+## ## ## Depois de terminar com a edição, você pode exportar/baixar o vídeo do botão vermelho na barra de opções superiores.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="OpenShot Video Editor">}}
 

@@ -49,13 +49,13 @@ Bir geliştirici bir çekme isteği açtığında, yaptığı tek şey başka bi
 ## Popüler dallanma modelleri   {#model}
 Dünya çapında geliştirici topluluğu tarafından kullanılan bir sayı o dallanma iş akışları vardır. Ancak, en popüler üç dallanma modelini tek tek tartışacağız
 
-### git akışı
+## # git akışı
 GitFlow iş akışı, sürekli yazılım geliştirme ve DevOps uygulamalarının uygulanmasına yardımcı olan bir git iş akışıdır. Git akışı bu listede en bilinen iş akışıdır. [2010 yılında Vincent Driessen][7] tarafından yaratıldı ve sonsuz ömür boyu olan iki ana dala dayanıyor ve özellikler-\*, hotfixes-\* gibi diğer destekleyici dallarla birlikte, daha sonra bireysel olarak geliştirme dalına birleşiyor öğeler tamamlandı.
   ***Master**  - Bu şube üretim kodu içerir. Tüm geliştirme kodu, üretime itilmeye hazır bir kez ana dalda birleştirilir.
   ***Geliştirme** -Bu dal yapım öncesi kodu içerir. Özellikler bittiğinde, gelişmekle birleştirilirler.
 GitFlow, planlanmış bir sürüm döngüsü olan projeler için idealdir. Yine de, git tarihi okunamaz hale geliyor.
 
-### Github akışı
+## # Github akışı
 Github akışı hafif bir iş akışıdır. [GitHub][8] tarafından 2011 yılında oluşturuldu ve esas olarak bir serbest bırakma döngüsünü beklemediğiniz Çevik modeline odaklanıyor. Bunun yerine, özellikler tamamlandıkça değişiklikleri günlük olarak itersiniz.
 Github akışı aşağıdaki müdürleri takip eder:
   * “Master” şubesindeki herhangi bir şey dağıtılabilir.
@@ -65,7 +65,7 @@ Github akışı aşağıdaki müdürleri takip eder:
   * Gözden geçirildikten ve özelliği imzaladıktan sonra, bunu ustaca birleştirebilirsiniz
   * Birleştirildikten ve "usta" a itildikten sonra üretime dağıtılabilir.
 
-### Gitlab akışı
+## # Gitlab akışı
 GitLab akışı, GitLab tarafından 2014 yılında oluşturulan bir iş akışıdır. GitLab akışı, GitFlow'a daha basit bir alternatiftir ve özellik odaklı geliştirme ve özellik dallarını sorun izleme ile birleştirir. GitLab akışı ve github akışı arasındaki en büyük fark, çevre dallarının kullanılmasıdır.
 Geliştiriciler bir **geliştirme**  dalı oluşturur ve bunu varsayılan hale getirirken, GitLab akışı hemen 'ana' şube ile çalışır. GitLab akışı, üretim öncesi birden fazla dal içerir. Ve bunlar, eşyaları farklı seviyelerde test etmek için kullanılabilir. Örneğin test dalından kabul ve daha sonra kabulden üretime.
 

@@ -9,7 +9,7 @@ url: /ja/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**この記事では、vscodeのchatgptを紹介します。 OpenAIコードジェネレーターコードGPTは、オープンソースの人工知能を搭載したGPT-3モデルに基づいています。**
+## **この記事では、vscodeのchatgptを紹介します。 OpenAIコードジェネレーターコードGPTは、オープンソースの人工知能を搭載したGPT-3モデルに基づいています。**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="vscode拡張コードgpt">}}
 

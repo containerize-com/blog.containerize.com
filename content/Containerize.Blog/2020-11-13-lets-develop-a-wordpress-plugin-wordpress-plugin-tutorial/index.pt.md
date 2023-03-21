@@ -31,16 +31,16 @@ Neste tutorial do plug -in do WordPress, aprenderemos como criar nosso primeiro 
 ## básicos do desenvolvimento do plug -in   {#Basics}
 Vamos reservar um momento para falar sobre alguns aspectos -chave do desenvolvimento de plug -in. Um entendimento sólido de como esses conceitos funcionam ajudará você a criar funcionalidade fácil de usar e sustentável.
 
-### Ações
+## # Ações
 **Os ganchos de ação  **são uma ferramenta muito útil no **  WordPress  ****  plugin  **e são usados ​​para executar funções (**  ações** ) em locais específicos de um tema ou plug -in. O WordPress possui dezenas de ações definidas ao longo de sua funcionalidade principal, cada ação que consiste em um nome exclusivo. Para mais detalhes [leia][5].
 
-Filtros ###
+Filtros ## #
 Um filtro WordPress é um gancho que aceita uma variável (ou série de variáveis) e as devolve depois que elas foram modificadas. Esses filtros são frequentemente usados ​​para que você tenha uma maneira de manipular informações padrão. Para mais detalhes [leia][6].
 
-### shortcodes
+## # shortcodes
 Os códigos de short são macros que podem ser usados ​​para executar interações dinâmicas com o conteúdo. ou seja, criando uma galeria a partir de imagens anexadas ao post ou renderizando um vídeo. Como resultado, eles são uma maneira valiosa de manter o conteúdo limpo e semântico, permitindo que os usuários finais sejam alguma capacidade de alterar programaticamente a apresentação de seu conteúdo. Para mais detalhes [leia][7].
 
-Widgets ###
+Widgets ## #
 Os widgets são importantes porque fornecem outro meio de executar o código do seu plug-in enquanto fornece uma interface fácil de usar. Como a maioria dos temas apoiará uma ou mais barras laterais; Adicionar seus próprios widgets fornecerá acesso rápido para exibir suas informações dentro do tema.
 
 ## **Como criar plugin WP?**    {#Create}
@@ -62,7 +62,7 @@ Nesta seção do tutorial do plug -in do WordPress, tudo o que você precisa faz
 Agora, você pode entrar no back -end para ativar seu plug -in. Isso é tudo, embora este plugin não faça nada. Mas, é um plug -in ativo e funcionando. A melhor prática ao desenvolver um plug -in é separar seu código em arquivos e pastas apropriadas.
 Para demonstrar, vamos adicionar funcionalidade ao nosso plug -in de teste que rastreia a popularidade de nossos artigos, armazenando quantas vezes cada postagem foi vista.
 
-### armazenando visualizações de página
+## # armazenando visualizações de página
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ Até agora, tão bom neste tutorial do plug -in do WordPress. Mas essa função 
 add_action("wp_head", "add_page_views");
 ```
 
-### mostrando as visualizações da página
+## # mostrando as visualizações da página
 Agora, criaremos outra função que retorne as visualizações da página que já armazenamos na função acima. Vamos dar uma olhada no código:
 ```
 function get_page_views() {

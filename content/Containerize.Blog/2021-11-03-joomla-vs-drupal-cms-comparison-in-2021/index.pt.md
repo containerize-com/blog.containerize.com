@@ -33,22 +33,22 @@ Este software CMS de código aberto é seguro, flexível e oferece recursos de a
 ## Comparação de Joomla & Drupal   {#comp}
 Nesta seção do artigo **Joomla vs Drupal** , compararemos esses dois softwares CMS de código aberto analisando seus recursos e em pé na comunidade. Aqui estão os seguintes pontos que abordaremos.
 
-Comunidade ####
+Comunidade ## ## 
 Uma comunidade que suporta definir o sucesso e o alcance de um software de código aberto. Felizmente, ambos os CMs de código aberto têm comunidades alivas e ativas que sempre se apresentam para qualquer problema ou lançamentos de recursos. Joomla tem 3,9 mil estrelas com 3,3k garfos no Github, enquanto o Drupal protege 3,6 mil estrelas com 1,8 mil garfos. Além disso, você pode encontrar documentação completa sobre o desenvolvimento e a implantação de ambas as soluções de CMS de código aberto.
 
-#### Scalability
+## ## Scalability
 A escalabilidade é outra característica importante de qualquer software de código aberto. O Drupal é mais escalável e estável que Joomla. O Drupal vem com arquitetura direta e simples que os desenvolvedores podem estendê -la com menos esforço em comparação com o Joomla.
 
-Complexidade ####
+Complexidade ## ## 
 Essa característica importa muito quando se trata de popularidade entre os desenvolvedores. De acordo com a visão geral, o Drupal parece um pouco complexo em comparação com Joomla. Joomla é comparativamente mais fácil de aprender e os desenvolvedores acham confortável fazer um desenvolvimento adicional neste sistema de gerenciamento de conteúdo de código aberto.
 
-Plugins ####
+Plugins ## ## 
 No que diz respeito aos módulos e extensões, ambos os CMs de código aberto oferecem vários módulos. Os usuários podem escolher e personalizar esses plugins conforme suas necessidades. No entanto, o Drupal tem uma vantagem competitiva sobre o Joomla, pois o número de plugins oferecidos por este sistema de gerenciamento de conteúdo é maior que o Joomla.
 
-Pilha de tecnologia ####
+Pilha de tecnologia ## ## 
 Ambos os CMs de código aberto são escritos no PHP. No entanto, é uma situação em que todos saem ganhando para o desenvolvedor do PHP enfrentar o mesmo ambiente de desenvolvimento.
 
-#### Segurança
+## ## Segurança
 Essa é a característica mais importante e decisiva ao optar por qualquer software. Ambos os CMs de código aberto são seguros, mas o Drupal se destaca com metodologias de segurança internas. Além disso, o Drupal também fornece instruções de segurança para os codificadores que desejam estender este sistema de gerenciamento de conteúdo de código aberto.
 
 ## Conclusão   {#conclusion}

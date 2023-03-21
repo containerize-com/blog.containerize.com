@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-### การติดตั้งเว็บเซิร์ฟเวอร์ Nginx
+## # การติดตั้งเว็บเซิร์ฟเวอร์ Nginx
   *เรียกใช้คำสั่งด้านล่างเป็น **ติดตั้ง nginx บน ubuntu** 
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="หน้าเริ่มต้นของเว็บเซิร์ฟเวอร์ Nginx">}}
 
 
-### การติดตั้ง mysql
+## # การติดตั้ง mysql
 ตอนนี้คุณต้องติดตั้งเซิร์ฟเวอร์ฐานข้อมูล MySQL สำหรับการจัดการข้อมูลแอปพลิเคชันของคุณ
   *เรียกใช้คำสั่งด้านล่างเป็น **ติดตั้ง mysql บน ubuntu** 
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### การติดตั้ง PHP
+## # การติดตั้ง PHP
 เราจะครอบคลุมการติดตั้ง PHP-FPM สำหรับการประมวลผลของ PHP PHP-FPM ย่อมาจาก FastCGI Process Manager Nginx Web Server ไม่มีฟังก์ชั่นในตัวสำหรับการประมวลผลของ PHP ดังนั้นเราจะใช้ PHP-FPM สำหรับมัน นอกจากนี้เราจะติดตั้ง PHP-MYSQL สำหรับการสื่อสาร PHP ด้วย MySQL สำหรับการจัดการข้อมูล
   *เรียกใช้คำสั่งด้านล่างเป็น **ติดตั้ง PHP บน Ubuntu** 
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### ทดสอบ php
+## # ทดสอบ php
   * เพื่อให้แน่ใจว่า NGINX ให้บริการหน้า PHP อย่างถูกต้องเราจะสร้างไฟล์ PHP สำหรับการทดสอบการกำหนดค่า
   * สร้างไฟล์ info.php ในไดเรกทอรีรูทของเว็บเซิร์ฟเวอร์ Nginx โดยเรียกใช้คำสั่งด้านล่าง
 ```

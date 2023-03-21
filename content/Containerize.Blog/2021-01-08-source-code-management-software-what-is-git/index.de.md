@@ -49,7 +49,7 @@ Mit Git können Sie Änderungen an Ihrem lokalen Repository vornehmen und es in 
 ## Installieren Sie Git   {#install}
 Es stehen verschiedene Methoden zur Verfügung, um Git auf Ihrem Computer zu installieren. Sie können es als Paket oder über einen anderen Installateur installieren oder den Quellcode herunterladen und selbst kompilieren.
 
-### auf Linux installieren
+## # auf Linux installieren
 Wenn Sie die grundlegenden Git -Tools auf Linux über einen binären Installateur installieren möchten, können Sie dies im Allgemeinen über das mit Ihrer Verteilung gelieferte Paket -Management -Tool tun. Für Fedora (oder eine eng verwandte RPM-basierte Verteilung wie Rhel oder CentOS) können Sie „DNF“ verwenden
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ Wenn Sie in einer Debian-basierten Verteilung wie Ubuntu sind, versuchen Sie es 
 $ sudo apt install git-all
 ```
 
-### auf macOS installieren
+## # auf macOS installieren
 Es gibt verschiedene Möglichkeiten, Git auf einem Mac zu installieren. Am einfachsten ist es wahrscheinlich, die Xcode -Befehlszeilen -Tools zu installieren. Bei Mavericks (10.9) oder darüber können Sie dies einfach tun, indem Sie versuchen, **Git**  vom Terminal zum ersten Mal auszuführen.
 ```
 $ git --version

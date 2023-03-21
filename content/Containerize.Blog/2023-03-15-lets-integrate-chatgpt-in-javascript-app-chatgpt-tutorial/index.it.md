@@ -15,7 +15,7 @@ categories: [ 'Artificial intelligence']
 {{< figure align=center src="images/lets-integrate-chatgpt-in-javascript-app-chatgpt-tutorial.png" alt="Integrare chatgpt nell'app javascript">}}
 
 
-Panoramica ##
+Panoramica ## 
 Ciao lettori! Grazie mille per la tua schiacciante risposta ai post del blog che abbiamo pubblicato sulle integrazioni [CHATGPT][1]. Siamo qui con un altro utile tutorial **Chatgpt  **seguendo il tuo interesse. Inoltre, saremo in giro per pubblicare articoli utili ai tuoi accademici e alla tua carriera. Tuttavia, abbiamo iniziato una [serie][20] di tutorial JavaScript, quindi è il momento migliore per scrivere una guida che dimostra come **  integrare CHATGPT in JavaScript AQPP ** programmaticamente. Inoltre, scriveremo lo snippet di codice per rendere questa funzionalità di chatbot virale**  basata su GPT-3. A tale scopo, consentiremo la funzionalità di CHATGPT in un'app Node.js. Pertanto, un livello base di conoscenza precedente di Node.js è un vantaggio mentre attraversa questa guida.
 Le seguenti sezioni saranno trattate in questo tutorial su chatgpt:
   * **[Prerequisiti - Chatgpt JavaScript Wrapper][2]**

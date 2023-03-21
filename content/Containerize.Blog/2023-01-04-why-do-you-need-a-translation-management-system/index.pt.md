@@ -34,7 +34,7 @@ Um sistema de gerenciamento de tradução automatiza as tarefas repetitivas de g
 A parte mais legal de um software de gerenciamento de tradução de código aberto é que você pode ter sua versão em nuvem que resolve os problemas relacionados à escalabilidade. Portanto, você pode se concentrar no gerenciamento da localização de seus projetos e no aumento do alcance do seu conteúdo nas fronteiras.
 A seguir, são apresentados os principais recursos de qualquer sistema de gerenciamento de tradução (TMZ):
 
-####**API para integrações de terceiros**
+#### **API para integrações de terceiros**
 Um nível corporativo**TMS**sempre fornece uma API usada para integração com outros aplicativos e módulos de tradução, como [i18n][5].
 
 #### Pesquisa global
@@ -49,7 +49,7 @@ Esse recurso é super incrível, pois reduz o tempo e o esforço de ir e voltar 
 Memória de tradução ####
 A memória de tradução economiza tempo, aumenta a eficiência e torna o processo de tradução ainda mais rápido. Portanto, mantém um registro de todas as traduções anteriores, para que todas as seqüências repetitivas sejam traduzidas sem iniciar nenhum novo processo.
 
-## benefícios comerciais da globalização e localização   {#Benefícios de globalização e localização}}
+## benefícios comerciais da globalização e localização   {#Benefícios de globalização e localização}
 Esta seção descreverá algumas das vantagens proeminentes vinculadas à adição de traduções ao seu aplicativo comercial.
 
 #### vantagem competitiva
@@ -73,10 +73,10 @@ Você pode nos informar sobre suas perguntas ou consultas em nosso [fórum][7].
 
 ## FAQS   {#FAQS}
 
-####**eu preciso de um sistema de gerenciamento de tradução?**
+#### **eu preciso de um sistema de gerenciamento de tradução?**
 Sim, se você estiver lidando com uma grande quantidade de conteúdo que envolve recursos estáticos e dinâmicos. Portanto, você pode hospedar um software de gerenciamento de tradução de código aberto**para automatizar e gerenciar as traduções.
 
-####**Quais são as vantagens do TMS?**
+#### **Quais são as vantagens do TMS?**
 Visite este [link][4] para conhecer as vantagens de um sistema de gerenciamento de tradução.
 
 ## veja também   {#ver-alos}

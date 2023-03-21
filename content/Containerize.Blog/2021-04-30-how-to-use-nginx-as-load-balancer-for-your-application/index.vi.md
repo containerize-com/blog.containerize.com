@@ -70,7 +70,7 @@ Miễn là bạn có tất cả các máy chủ tại chỗ, bạn sẽ thấy r
 ## Các chỉ thị ngược dòng   {#Upstream}
 Trong ví dụ cuối cùng của chúng tôi, chúng tôi đã sử dụng một mô-đun ngược dòng đơn giản để thực hiện cân bằng tải vòng tròn để phân phối lưu lượng truy cập như nhau giữa các máy chủ. Tuy nhiên, có nhiều lý do tại sao điều này có thể không phải là cách hiệu quả nhất để làm việc với giao thông. Có một số chỉ thị mà chúng tôi có thể sử dụng để chỉ đạo khách truy cập trang web hiệu quả hơn.
 
-### Cân nặng
+## # Cân nặng
 Một cách để bắt đầu phân bổ người dùng cho các máy chủ có độ chính xác hơn là phân bổ trọng lượng cụ thể cho một số máy nhất định. Nginx cho phép chúng tôi gán một số chỉ định tỷ lệ lưu lượng cần được chuyển đến mỗi máy chủ.
 Một thiết lập cân bằng tải bao gồm trọng lượng máy chủ có thể trông như thế này:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 Trọng lượng mặc định là 1. Với trọng lượng 2, backend2.Exampl 1.
 
-### Hash
+## # Hash
 Hash IP cho phép các máy chủ trả lời khách hàng theo địa chỉ IP của họ, gửi khách truy cập trở lại cùng một VPS mỗi khi họ truy cập (trừ khi máy chủ đó bị hỏng). Nếu một máy chủ được biết là không hoạt động, nó nên được đánh dấu là xuống. Tất cả các IP được cho là định tuyến đến máy chủ Down sau đó được chuyển đến một máy thay thế.
 Cấu hình dưới đây cung cấp một ví dụ:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### Max thất bại
+## # Max thất bại
 Theo cài đặt vòng tròn mặc định, bộ cân bằng tải ứng dụng Nginx sẽ tiếp tục gửi dữ liệu đến các máy chủ riêng ảo, ngay cả khi các máy chủ không phản hồi. Max Fails có thể tự động ngăn chặn điều này bằng cách hiển thị các máy chủ không phản hồi không hoạt động trong một khoảng thời gian đã thiết lập.
 Có hai yếu tố liên quan đến Max Fails: Max \ _Fails và Fall \ _Timeout. Max Fails đề cập đến số lần thử tối đa không thành công để kết nối với một máy chủ sẽ xảy ra trước khi nó được xem xét không hoạt động. Fall_Timeout Chỉ định độ dài của máy chủ được xem xét không hoạt động. Khi thời gian hết hạn, các nỗ lực mới để tiếp cận máy chủ sẽ khởi động lại. Giá trị thời gian chờ mặc định là 10 giây.
 Một cấu hình mẫu có thể trông như thế này:

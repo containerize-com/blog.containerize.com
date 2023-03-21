@@ -45,7 +45,7 @@ Po prawej stronie znajduje się okno, w którym można odtwarzać i przetestowa�
 
 Jeśli klikniesz klip prawym przyciskiem myszy na osi czasu i przejdziesz do właściwości, panel otworzy się po lewej stronie, który zawiera zaawansowane opcje związane z efektami wideo, animacjami i innymi.
 
-######
+## ## ## 
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="Edytor wideo OpenShot">}}
 

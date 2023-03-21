@@ -49,13 +49,13 @@ Kiedy deweloper otwiera żądanie ciągnięcia, wszystko, co robi, to prośba o 
 ## popularne modele rozgałęzienia   {#Model}
 Istnieje wiele oddziałowych przepływów pracy, które są używane przez społeczność programistów na całym świecie. Ale omówimy trzy najpopularniejsze modele rozgałęzione jeden po drugim
 
-### Git Flow
+## # Git Flow
 Gitflow Workflow to przepływ pracy GIT, który pomaga w ciągłym tworzeniu oprogramowania i wdrażaniu praktyk DevOps. Git Flow jest najbardziej znanym przepływem pracy na tej liście. Został stworzony przez [Vincent Driessen w 2010 r.][7] i opiera się na dwóch głównych gałęziach z nieskończonym okresem życia, wraz z innymi gałęziami wspierającymi, takimi jak cechy-\*, Hotfixes-\*, które następnie łączą się w gałęzie rozwoju jako indywidualne Przedmioty są zakończone.
   * **Master**  - Ta gałąź zawiera kod produkcyjny. Cały kod rozwoju jest połączony z gałęzią główną, która jest gotowa do wypchnięcia do produkcji.
   * **Opracuj** -Ta gałąź zawiera kod przedprodukcyjny. Po zakończeniu funkcji są one połączone w rozwój.
 Gitflow idealnie nadaje się do projektów, które mają zaplanowany cykl wydania. Chociaż historia Git staje się nieczytelna.
 
-### Github Flow
+## # Github Flow
 Flow Github jest lekkim przepływem pracy. Został stworzony przez [Github][8] w 2011 roku i koncentruje się głównie na modelu zwinnym, w którym nie czekasz na cykl wydania. Zamiast tego codziennie przesuwasz zmiany produkcji w miarę zakończenia funkcji.
 Github Flow następuje następującym na zasadach:
   * Wszystko w oddziale „Master” można wdrożyć.
@@ -65,7 +65,7 @@ Github Flow następuje następującym na zasadach:
   * Po recenzji i podpisaniu funkcji możesz połączyć ją z mistrzem
   * Po połączeniu i popchnięciu do „Mistrza” można go wdrożyć do produkcji.
 
-### Gitlab Flow
+## # Gitlab Flow
 GitLab Flow to przepływ pracy stworzony przez GitLab w 2014 roku. Gitlab Flow jest prostszą alternatywą dla Gitflow i łączy opracowane funkcje rozwoju i gałęzi funkcji z śledzeniem problemów. Główną różnicą między przepływem GitLab a przepływem GitHub jest zastosowanie gałęzi środowiska.
 Deweloperzy tworzą  **opracuj**  gałąź i sprawiają, że domyślnie, podczas gdy Gitlab Flow działa z oddziałem „głównej”. GitLab Flow zawiera wiele gałęzi przedprodukcyjnych. Można je użyć do testowania rzeczy na różnych poziomach. np. od oddziału testowego do akceptacji, a następnie od akceptacji do produkcji.
 

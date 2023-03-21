@@ -32,16 +32,16 @@ Dans cette section du billet de blog **Civicrm vs SaceCrm **, nous passerons bri
 ## Civicrm vs SaceCrm   {#vs}
 Jusqu'à présent, nous avons traversé ce qui est Civicm et nous avons également examiné le SATIECRM. Maintenant, nous ferons une comparaison entre ces deux logiciels d'automatisation gratuits open source **. Alors, examinons les points suivants pour couvrir cet article **Civicrm vs SaceCrm** .
 
-#### Caractéristiques
+## ## Caractéristiques
 C'est la tâche la plus cruciale lorsqu'il s'agit de choisir un logiciel pour l'entreprise. Heureusement, ces deux logiciels d'automatisation gratuits offrent une riche pile de fonctionnalités pour les utilisateurs. Tous deux sont basés sur le Web et adaptés à tout niveau d'entreprise. CiviCRM propose des intégrations avec des plateformes populaires et est facile à utiliser pour l'automatisation marketing gratuite. Cet outil d'automatisation du marketing **propose un support client en ligne ainsi que des tutoriels vidéo. De plus, il propose des modèles pour les rapports personnalisés, l'automatisation des cadeaux et bien d'autres. D'un autre côté, SaceCrm propose un support client par téléphone, en ligne et base de connaissances. Ce  **logiciel d'automatisation gratuit**   est également livré avec un large éventail de fonctionnalités qui incluent la facturation, la facturation, la calculatrice de ROI, etc.
 
-#### Teck Stack
+## ## Teck Stack
 C'est un autre aspect important lorsque vous allez opter pour un logiciel open source. CiviCRM et SaceCrm sont écrits en PHP et nécessitent des exigences presque similaires à déployer sur des serveurs locaux ou cloud.
 
-#### Standing Community
+## ## Standing Community
 En ce qui concerne Civicrm, il a 436 étoiles et 748 fourchettes sur son dépôt GitHub. D'un autre côté, SatureCrm a 2,8 000 étoiles et 1,6k de fourches. Ces deux **outils d'automatisation du marketing**  fournissent une documentation complète concernant le déploiement et le développement.
 
-#### Extensibilité
+## ## Extensibilité
 Enfin et surtout, SaceCrm et CiviCRM sont hautement configurables et offrent une intégration avec des applications tierces qui incluent certaines applications de niveau d'entreprise telles que WordPress, Joomla, etc. De plus, vous pouvez ajouter de nouvelles fonctionnalités selon les besoins et approcher la communauté des développeurs qui est dynamique et répondre activement aux questions.
 De même, vous pouvez explorer d'autres aspects et fonctionnalités de CiviCRM et SATECRM.
 

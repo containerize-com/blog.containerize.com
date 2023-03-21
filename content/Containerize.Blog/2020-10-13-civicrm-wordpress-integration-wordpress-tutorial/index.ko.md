@@ -9,7 +9,7 @@ url: /ko/civicrm-wordpress-integration-wordpress-tutorial/
 categories: ['Blogging', 'Marketing Automation']
 ---
 
-##이 WordPress 플러그인 자습서에서는 무료 CivicRM을 WordPress와 통합하여 연락처 관리 측면에서 경쟁력있는 이점을 얻는 방법을 배웁니다.
+## 이 WordPress 플러그인 자습서에서는 무료 CivicRM을 WordPress와 통합하여 연락처 관리 측면에서 경쟁력있는 이점을 얻는 방법을 배웁니다.
 
 {{< figure align=center src="images/integrate-civicrm-with-wordpress-banner-1024x536.png" alt="Civicrm WordPress">}}
 

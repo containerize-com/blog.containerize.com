@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-Apache-as-a-Reverse-Proxy-1.png" alt="Cài đặt và định cấu hình proxy ngược Apache">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Apache Reverse Proxy cho phép tất cả lưu lượng truy cập và chuyển tiếp nó để chạy một hoặc nhiều máy chủ phụ trợ hoặc container phía sau máy chủ proxy, mà không làm lộ chúng một cách công khai. Máy chủ web back-end có thể là một máy chủ HTTP nguồn mở hoặc nguồn mở khác như Nginx. Máy chủ HTTP Apache2 là một trong những máy chủ web nguồn mở phổ biến nhất đang được sử dụng ngày nay.
 Có nhiều lý do để cài đặt và định cấu hình máy chủ proxy. Ví dụ: proxy ngược có thể giúp bạn thêm bảo mật, để cân bằng tải, hạn chế quyền truy cập vào các vị trí nhất định để ngăn chặn các cuộc tấn công và nhiều hơn nữa. Bài viết này giải thích cách cài đặt và định cấu hình cấu hình proxy Apache Reverse Từng bước cho máy chủ HTTPS trên Ubuntu/Debian:
   * Cài đặt Apache2

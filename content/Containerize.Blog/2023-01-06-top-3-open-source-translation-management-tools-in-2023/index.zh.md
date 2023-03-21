@@ -27,7 +27,7 @@ categories: ['Software Development']
 如果您想尝试一下，则可以在[Github][7]仓库上找到其代码，其中包括所有提到的安装说明。这个免费的翻译管理系统具有管理多个翻译文件的能力。此外，您可以构建自定义适配器并执行许多其他自定义以满足您的业务需求。基本上，它通过静态分析来完成所有过程，并为用户提供交互式控制台。此外，此开源TMS提供了与DeepL和Google翻译的集成。
 **[了解有关I18N任务的更多信息][5]**
 
-##**tolgee** {#tolgee}
+## **tolgee** {#tolgee}
 [Tolgee][8]是企业级开源**翻译管理系统。**它具有具有丰富功能的自托管功能。该TMS用Kotlin和TypeScript编写，并与几乎所有流行的JavaScript框架（例如Next.js，Angular，Vue等）提供集成。此外，此免费TMS在[Github][9]上提供了所有源代码，并提供有关开发和部署的全面文档。
 
 {{< figure align=center src="images/tolgeelogo.png" alt="翻译管理系统">}}
@@ -42,7 +42,7 @@ categories: ['Software Development']
 。
 [**了解更多有关Tolgee**][8]
 
-##**Traduora** {#traduora}
+## **Traduora** {#traduora}
 [Traduora][13]是自动化翻译工作流程的另一个开源软件。此免费TMS还用打字稿和其他语言的输入（例如HTML，JavaScript，CSS等）编写。此外，您可以自我主持，因为GitHub上有有关其开发和部署的完整文档。此外，还有一个开源翻译管理软件的Docker映像，您可以通过旋转Docker的容器来设置此软件。
 最重要的是，Traduora暴露了REST API与第三方应用程序集成。在此免费TMS中有完整的身份验证实现。
 Traduora提出了以下关键功能：

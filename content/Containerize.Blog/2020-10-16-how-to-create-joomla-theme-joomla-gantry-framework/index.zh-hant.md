@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomla-gantry-framework.png" alt="Joomla Gantry">}}
 
 
-##**概述**
+## **概述**
 我們已經發表了一些有關主題的文章，例如[初學者的JOOMLA模板開髮指南][1]，[Drupal Mautic集成以自動化鉛培養][2]，[[2]，[整合Mautic＆Joomla用於數字營銷自動化的Mautic＆Joomla][3][3] ，以及更多，因此我們將專注於在本指南中使用**Gantry Framework**創建主題。 Gantry Framework是一種開源模板構建器，用於為[JOOMLA][4]和[WordPress][5]構建響應式和企業級的佈局。開源社區已經開發了廣泛的內容管理系統，可提供功能豐富的主題構建功能。 Joomla的Gantry框架是最受歡迎的主題框架之一。建立引人注目和引人入勝的網站是任何業務的重要組成部分。但是，構建或修改此類網站的時間是另一個重要方面。
 因此，Joomla Gantry框架提供了加快佈局開發過程的規定。最重要的是，它還消除了配備編碼或編程技能的強迫。另一方面，此類框架的安裝過程非常簡單和簡單。它們以插件的形式提供，可用於大多數內容管理系統，例如WordPress和Joomla。在本Gantry框架教程中，我們將介紹以下幾點：
 * [**什麼是Joomla的龍門框架？**][6]

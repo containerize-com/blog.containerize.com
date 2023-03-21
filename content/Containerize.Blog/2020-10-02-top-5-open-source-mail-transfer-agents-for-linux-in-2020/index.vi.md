@@ -22,7 +22,7 @@ Dưới đây là danh sách 5 đại lý chuyển thư mở nguồn hàng đầ
   * [Postfix][5]
   * [Exim][6]
 
-###**Bưu điện** {#Postal}
+### **Bưu điện** {#Postal}
 Bưu điện là một đặc trưng đầy đủ về tiền đề thay thế cho SendGrid và Mailgun. Nó đi kèm với API HTTP đơn giản để tích hợp dễ dàng với các ứng dụng web. Bưu điện miễn phí 100% và nguồn mở, bạn có thể tải xuống mã nguồn sửa đổi nó theo yêu cầu của bạn.
 Các tính năng đáng chú ý của nó trong số những người khác như sau:
   * Hỗ trợ cho nhiều tổ chức có máy chủ và người dùng thư bên trong.
@@ -32,7 +32,7 @@ Các tính năng đáng chú ý của nó trong số những người khác như
   * Kiểm tra và giám sát DNS tích hợp để đảm bảo các tên miền bạn gửi thư từ được cấu hình chính xác để có khả năng phân phối tối đa.
     [Đọc thêm][7]
 
-###**cá mực** {#cuttlefish}
+### **cá mực** {#cuttlefish}
 Cắt dây là một phần mềm gửi thư tự lưu trữ và được sử dụng rộng rãi để gửi khối lượng lớn email một cách dễ dàng. Nó hỗ trợ giao thức SMTP. Do đó, cho phép bạn gửi email từ ứng dụng của bạn mà không cần nỗ lực. Căn thú sử dụng Postfix để gửi email, một trong những tác nhân chuyển thư nguồn mở phổ biến và đáng tin cậy nhất. Do đó, nó có tất cả độ tin cậy của postfix.
 Dưới đây là các tính năng đáng chú ý:
   * Đảm bảo email của bạn đến điểm đến của họ.
@@ -42,7 +42,7 @@ Dưới đây là các tính năng đáng chú ý:
   * Hoạt động với bất kỳ khung web và ngôn ngữ nào
     [Đọc thêm][8]
 
-###**mail-in-a-box** {#mail-in-a-box}
+### **mail-in-a-box** {#mail-in-a-box}
 Mail-in-a-box là một máy chủ thư Linux sáng tạo tập trung vào việc triển khai dễ dàng. Nó cung cấp webmail tiện dụng và máy chủ IMAP/SMTP với các cấu hình DNS tự động. Nó giúp bạn thiết lập Gmail của riêng bạn mà không có chuyên môn kỹ thuật. Các tính năng hàng đầu của nó bao gồm:
   * Cấu hình DNS tự động
   * Lọc thư rác.
@@ -52,7 +52,7 @@ Mail-in-a-box là một máy chủ thư Linux sáng tạo tập trung vào việ
   * Thư máy chủ cho nhiều người dùng và nhiều tên miền.
     [Đọc thêm][9]
 
-###**postfix** {#postfix}
+### **postfix** {#postfix}
 Postfix là một máy chủ thư nguồn mở mạnh mẽ có thể được sử dụng để định tuyến và gửi email. Tuy nhiên, ban đầu nó được phát triển để thay thế Đại lý chuyển thư phổ biến SendMail. Mặc dù nó theo sau Sendmail rất nhiều. Nhưng, trong việc thực hiện nó khá khác biệt và độc đáo. Nó cung cấp nhiều tính năng bao gồm
   * Kiểm soát thư rác
   * Hỗ trợ nhiều giao thức
@@ -61,7 +61,7 @@ Postfix là một máy chủ thư nguồn mở mạnh mẽ có thể được s�
   * Giải quyết hỗ trợ thao tác và nhiều hơn nữa
     [Đọc thêm][10]
 
-###**exim** {#exim}
+### **exim** {#exim}
 Exim là một máy chủ thư nổi bật được sử dụng trên nhiều hệ điều hành giống UNIX. Nó cung cấp hỗ trợ nền tảng chéo, làm cho nó trở thành một lựa chọn tốt cho các máy chủ thư. Exim là một máy chủ có thể tùy chỉnh cao cho định tuyến và gửi email. Exim giống như một khung với ngôn ngữ ứng dụng của nó để thiết lập các cấu hình phức tạp. Nó có một logic xử lý thư nhiều bước tiên tiến giúp nó giải quyết các trường hợp sử dụng phức tạp. Dưới đây là các tính năng hàng đầu của exim:
   * Hỗ trợ các giao thức như RFC 2821 SMTP và RFC 2033 LMTP gửi thông báo vào
   * Cấu hình bao gồm danh sách kiểm soát truy cập, quét nội dung, mã hóa, điều khiển định tuyến giữa các loại khác

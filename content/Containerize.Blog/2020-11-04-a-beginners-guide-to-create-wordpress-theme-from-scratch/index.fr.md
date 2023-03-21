@@ -15,10 +15,10 @@ Comment créer le thème WordPress fait partie des principales requêtes de Goog
   * [Exigences][1]
   * [Guide étape par étape][2]
 
-### exigences   {#Requirements}
+## # exigences   {#Requirements}
 La première et la plus importante que vous devez faire est d'installer WordPress. WordPress est bien connu pour sa facilité d'installation. C'est un processus simple et peut être fait facilement par vous-même en suivant le [guide][3].
 
-### Comment créer un thème WordPress; Guide étape par étape   {#guide}
+## # Comment créer un thème WordPress; Guide étape par étape   {#guide}
 Pour le thème WordPress, tout sera fait dans le répertoire **wp_content  **uniquement. Faites simplement un nouveau sous-dossier de thème dans le dossier **  wp_content → thèmes.  **Supposons que vous l'appelez **  "CustomTheme"** .
 La deuxième chose est de décider de la mise en page du thème. Ici, le tutoriel montre la disposition de base composée de **en-tête, zone principale, pied de page, barre latérale** .
 Fondamentalement, WordPress n'a besoin que de 2 fichiers, c'est-à-dire Style.css et index.php. Mais, pour cette mise en page, vous avez besoin de **5 fichiers** , comme suit;
@@ -32,7 +32,7 @@ Fondamentalement, WordPress n'a besoin que de 2 fichiers, c'est-à-dire Style.cs
 **bootstrap.js  **et **  bootstrap.css  **doit être téléchargé à partir du package bootstrap et copié dans le dossier **  thème** .
 Voici les étapes à suivre pour configurer le thème
 
-### Étape 1: fichier en tête.php
+## # Étape 1: fichier en tête.php
 Mettez le code suivant dans le fichier en-tête.php.
 ```
 <html>
@@ -57,7 +57,7 @@ Mettez le code suivant dans le fichier en-tête.php.
 ```
 Ce fichier header.php contient le code de la partie d'en-tête dans laquelle le fichier JS et Style est lié. Il affiche l'en-tête de la page.
 
-### Étape 2: fichier index.php
+## # Étape 2: fichier index.php
 Mettez le code suivant dans le fichier principal index.php
 ```
 <?php get_header(); ?>
@@ -83,7 +83,7 @@ Mettez le code suivant dans le fichier principal index.php
 ```
 Le code ci-dessus affiche le contenu principal de la publication, de la barre latérale et du pied de page.
 
-### Étape 3: Fichier Sidebar.php
+## # Étape 3: Fichier Sidebar.php
 Ajouter le code suivant dans la barre latérale.php
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +95,7 @@ Ajouter le code suivant dans la barre latérale.php
 ```
 Dans le code ci-dessus, les fonctions WordPress internes sont appelées pour afficher différentes catégories, archives de publications.
 
-### Étape 4: fichier de pied.php
+## # Étape 4: fichier de pied.php
 Ajoutez les lignes de code ci-dessous dans le fichier Footer.php:
 ```
 <div id= "ttr_footer">
@@ -132,7 +132,7 @@ font-weight: bold;
 ```
 Après avoir suivi toutes les étapes ci-dessus, vous aurez un thème WordPress de base. Vous pouvez davantage le modifier pour le rendre plus beau et adapté à vos besoins.
 
-### Conclusion
+## # Conclusion
 Dans ce tutoriel, nous avons expliqué comment créer un thème WordPress en étapes simples et faciles. Après avoir lu et suivi les étapes, la création d'un thème WordPress n'est plus difficile maintenant. Mais, évidemment, ce tutoriel vous convient à une configuration très basique et à améliorer le dessus, vous devrez en savoir plus sur HTML, CSS, JS et PHP.
 
   

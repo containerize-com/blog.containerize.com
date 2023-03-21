@@ -25,14 +25,14 @@ Setiap bisnis membutuhkan semacam sistem untuk pengelolaan faktur, pengeluaran, 
 ## Prosedur Instalasi Kawah   {#installation}
 Kami akan membahas cara memasang kawah dengan metode manual dan menggunakan Docker di bagian ini.
 
-### Instalasi manual
+## # Instalasi manual
   * Unduh versi terbaru dari.
   * Unggah file zip yang diunduh ke server Anda dan ekstrak.
   * Arahkan domain Anda ke direktori publik di dalam folder kawah.
   * Arahkan ke akar proyek Anda dan jalankan perintah “sudo chmod -r 775 ./” untuk menetapkan hak istimewa yang sesuai.
   * Buka situs Anda di browser dan ikuti Wizard Instalasi.
 
-Instalasi ### Docker
+Instalasi ## # Docker
   * Instal Docker di server Anda :.
   * Instal Docker Compose dengan mengikuti panduan ini :.
   * Klone Repositori Kawah dengan menggunakan perintah ini.

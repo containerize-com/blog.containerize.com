@@ -14,7 +14,7 @@ categories: ['DevOps', 'Software Development']
 {{< figure align=center src="images/Open-Source-Container-Orchestration-Tools.png" alt="5 najlepszych narzędzi do orkiestracji kontenerów typu open source">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Narzędzia orkiestracji kontenerów pomagają administratorom IT, programiści i użytkownikom zarządzanie aplikacjami kontenerowymi podczas tworzenia, testowania, skalowania i wdrażania. Te oprogramowanie do orkiestracji kontenerów ułatwiają również planowanie i wdrażanie wielu kontenerów do wdrażania w aplikacji, w celu zidentyfikowania nieudanych implementacji kontenerów i zarządzania konfiguracjami deklaratywnymi.  **Narzędzia orkiestracji kontenerów open source**  Pomóż użytkownikom zautomatyzować proces uruchamiania instancji, udostępniania hostów i łączenia kontenerów w celu zwiększenia skalowalności i funkcjonalności aplikacji poprzez dodanie kontenerów.
 Narzędzia orkiestracyjne pomagają w optymalizacji procesu orkiestracji, poprawie bezpieczeństwa kontenerów poprzez ustawienie kontenerów dostępu do uprawnień i utrzymywanie komponentów kontenerów oddzielonych od siebie. Obecnie istnieje wiele listy narzędzi do orkiestracji kontenerów open source na rynku dostępnych na rynku, z których różne organizacje używają do środowisk produkcyjnych do  **Zarządzanie pojemnikami i mikrousługami** . Przejrzyjmy niektóre z najlepszych narzędzi orkiestrowych.
 **Jakie są platformy orkiestracji kontenerów?** W tym artykule zapoznamy się z najpopularniejszymi ramami orkiestracji kontenerów open source dla DevOps w 2021 roku.

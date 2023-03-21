@@ -31,16 +31,16 @@ In diesem WordPress -Plugin -Tutorial lernen wir, wie Sie unser erstes WordPress
 ## Grundlagen der Plugin -Entwicklung   {#Basics}
 Nehmen wir uns einen Moment Zeit, um über einige wichtige Aspekte der Plugin -Entwicklung zu sprechen. Ein solides Verständnis der Funktionsweise dieser Konzepte hilft Ihnen dabei, einfach zu bedienende und wartbare Funktionen aufzubauen.
 
-### Aktionen
+## # Aktionen
 **Action Hooks  **sind ein sehr nützliches Werkzeug in **  WordPress  ****  Plugin  **und sie werden verwendet, um Funktionen (**  Aktionen** ) an bestimmten Stellen eines Themas oder Plugins auszuführen. WordPress hat Dutzende von Aktionen, die während seiner Kernfunktionalität definiert wurden, wobei jede Aktion aus einem eindeutigen Namen besteht. Für weitere Details [lesen][5].
 
-### Filter
+## # Filter
 Ein WordPress -Filter ist ein Haken, der eine Variable (oder eine Reihe von Variablen) akzeptiert und sie nach dem Änderung zurückgibt. Diese Filter werden häufig verwendet, damit Sie eine Möglichkeit haben, Standardinformationen zu manipulieren. Weitere Details [lesen][6].
 
-### Shortcodes
+## # Shortcodes
 Shortcodes sind Makros, mit denen dynamische Interaktionen mit dem Inhalt durchgeführt werden können. d.h. Erstellen einer Galerie von Bildern, die an den Beitrag angeschlossen sind oder ein Video rendern. Infolgedessen sind sie eine wertvolle Möglichkeit, Inhalte sauber und semantisch zu halten und gleichzeitig den Endbenutzern eine gewisse Fähigkeit zu ermöglichen, die Darstellung ihrer Inhalte programmatisch zu verändern. Für weitere Details [lesen][7].
 
-### Widgets
+## # Widgets
 Widgets sind wichtig, da sie Ihnen ein weiteres Mittel zur Ausführung des Code Ihres Plugins bieten und gleichzeitig eine benutzerfreundliche Oberfläche bereitstellen. Da die meisten Themen eine oder mehrere Seitenleisten unterstützen; Wenn Sie Ihre eigenen Widgets hinzufügen, können Sie schnell zugreifen, um Ihre Informationen im Thema anzuzeigen.
 
 ## **Wie erstelle ich WP -Plugin?**    {#create}
@@ -62,7 +62,7 @@ In diesem Abschnitt des WordPress -Plugin -Tutorials müssen Sie lediglich einen
 Jetzt können Sie in das hintere Ende gehen, um Ihr Plugin zu aktivieren. Das ist alles, obwohl dieses Plugin nichts tut. Es ist jedoch ein aktives, funktionierendes Plugin. Die beste Praxis bei der Entwicklung eines Plugins besteht darin, Ihren Code in entsprechenden Dateien und Ordnern genau zu trennen.
 Um zu demonstrieren, fügen wir unser Test -Plugin Funktionalität hinzu, das die Popularität unserer Artikel verfolgt, indem wir speichern, wie oft jeder Beitrag angezeigt wurde.
 
-### Speicher Seitenansichten
+## # Speicher Seitenansichten
 ```
 function add_page_views() {
    if(is_single()) {
@@ -82,7 +82,7 @@ So weit, so gut in diesem WordPress -Plugin -Tutorial. Diese Funktion wird jedoc
 add_action("wp_head", "add_page_views");
 ```
 
-### Die Seitenansichten zeigen
+## # Die Seitenansichten zeigen
 Jetzt erstellen wir eine andere Funktion, die die Seitenansichten zurückgibt, die wir bereits in der obigen Funktion gespeichert haben. Schauen wir uns den Code an:
 ```
 function get_page_views() {

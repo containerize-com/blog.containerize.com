@@ -31,13 +31,13 @@ Sin embargo, el aprendizaje automático utiliza el aprendizaje profundo que es u
 ## Tipos de inteligencia artificial   {#tipos de inteligencia artificial-inteligencia}
 Principalmente, hay dos tipos de inteligencia artificial. Esta sección de la publicación del blog demostrará estos dos tipos.
 
-#### Inteligencia artificial débil
+## ## Inteligencia artificial débil
 Según esta categoría de IA, los sistemas están diseñados para resolver problemas menos complejos. Estos sistemas toman entrada, procesan los procesos del lenguaje natural y dan la salida. Aunque, estos sistemas generan la respuesta basada en los datos y las estadísticas pasadas, pero no pueden procesar los problemas de su alcance. Por lo tanto, el alcance de esta categoría no es ilimitado. Los mejores ejemplos de IA débil son [Siri][4][4] y otras herramientas de asistente virtual desarrolladas por [Google][5] y [Amazon][6].
 
-#### Inteligencia artificial fuerte
+## ## Inteligencia artificial fuerte
 La inteligencia artificial fuerte ofrece la simulación exacta del cerebro humano. La inteligencia general artificial y la superinteligencia artificial también se encuentran en esta categoría. Esta categoría diseña sistemas y modelos que contienen la capacidad de procesar cosas y tomar decisiones sin intervención humana. Los robots interactivos son ejemplos de IA fuerte y automóviles autónomos también están enriquecidos con sistemas que están capacitados con grandes conjuntos de datos y son capaces de tomar decisiones utilizando la red neuronal. Además, tales sistemas pueden hacer predicciones basadas en su experiencia pasada.
 
-##**Aplicaciones de inteligencia artificial** {#Aplicaciones de inteligencia artificial}
+## **Aplicaciones de inteligencia artificial** {#Aplicaciones de inteligencia artificial}
 Los siguientes puntos le darán una idea de algunas aplicaciones prominentes de inteligencia artificial:
 **Reconocimiento de voz**: El procesamiento del lenguaje natural es la rama principal de la IA que procesa la voz humana y da la salida en forma escrita u otra. Esta característica está disponible en muchos dispositivos, como teléfonos móviles, automóviles y más.
 **Reconocimiento facial**: Según esta aplicación, la IA puede comparar múltiples visiones faciales y tiene la capacidad de detectar una estructura facial específica. Además, puede usar inteligencia artificial para que coincida y señalar diferentes acentos de habla, escritura a mano, ruido y más.

@@ -33,7 +33,7 @@ Schauen wir uns nun einen kurzen Blick auf die Single-Mieter-Architektur an. In 
 {{< figure align=center src="images/single-tenant-2.png" alt="Einzelmietarchitektur">}}
 
 
-## Arten von Anwendungsarchitekturen mit mehreren Mietern   {#Typen von Multi-Tenant-Application-Architecture}}
+## Arten von Anwendungsarchitekturen mit mehreren Mietern   {#Typen von Multi-Tenant-Application-Architecture}
 Bisher haben Sie ein Verständnis für Multi-Messen und jetzt werden wir seine verschiedenen Typen durchlaufen.
 **Eine Datenbank-eine App-Instanz**: Dieser Ansatz ist sehr beliebt und wurde häufig zum Erstellen von Multi-Mandanten-Apps verwendet. Gemäß diesem Ansatz wird eine Anwendungsinstanz mit einer einzelnen Datenbank ausgeführt. Darüber hinaus gibt es ein gemeinsames Schema und die Daten des Mieters werden an einem einzigen Ort gegen ihre eindeutige ID gespeichert.
 **Multiple Datenbank-Eine App-Instanz:**In dieser Multi-Mieter-Anwendungsarchitektur wird nur eine Instanz der Anwendung mit mehreren Datenbanken ausgeführt. Jeder Mieter hat ein eigenes Datenbankschema, bei dem alle Informationen pro Mieter separat gespeichert werden.

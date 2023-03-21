@@ -9,7 +9,7 @@ url: /ko/source-code-management-software-what-is-git/
 categories: ['Version Control Software']
 ---
 
-##이 기사에서는 GIT가 무엇이며 GIT가 작동하는 방식을 탐구 할 것입니까? GIT는 소스 코드, 트랙 및 로그 버전을 관리하도록 설계된 버전 제어 시스템입니다.
+## 이 기사에서는 GIT가 무엇이며 GIT가 작동하는 방식을 탐구 할 것입니까? GIT는 소스 코드, 트랙 및 로그 버전을 관리하도록 설계된 버전 제어 시스템입니다.
 
 {{< figure align=center src="images/version-control-banner.png" alt="소스 코드 관리 소프트웨어">}}
 
@@ -49,7 +49,7 @@ GIT를 사용하면 로컬 저장소를 변경하여 호스팅 도구로 푸시 
 ## git   {#install} 설치
 컴퓨터에 GIT를 설치하는 데 사용할 수있는 다양한 방법이 있습니다. 패키지 또는 다른 설치 프로그램을 통해 설치하거나 소스 코드를 다운로드하여 직접 컴파일 할 수 있습니다.
 
-### Linux에 설치
+## # Linux에 설치
 바이너리 설치 프로그램을 통해 Linux에 기본 GIT 도구를 설치하려면 일반적으로 분포와 함께 제공되는 패키지 관리 도구를 통해이를 수행 할 수 있습니다. Fedora (또는 Rhel 또는 Centos와 같은 밀접하게 관련된 RPM 기반 분포)의 경우 "DNF"를 사용할 수 있습니다.
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ $ sudo dnf install git-all
 $ sudo apt install git-all
 ```
 
-### macOS에 설치
+## # macOS에 설치
 Mac에 Git을 설치하는 방법에는 여러 가지가 있습니다. 가장 쉬운 것은 아마도 Xcode 명령 줄 도구를 설치하는 것입니다. Mavericks (10.9) 이상에서는 터미널에서 처음으로  **git** 를 실행하려고 시도하면이 작업을 수행 할 수 있습니다.
 ```
 $ git --version

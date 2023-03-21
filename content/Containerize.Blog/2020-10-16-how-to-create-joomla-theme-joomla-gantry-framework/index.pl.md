@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomla-gantry-framework.png" alt="Gantry joomla">}}
 
 
-##**Przegląd**
+## **Przegląd**
 Opublikowaliśmy już kilka artykułów na takie tematy, jak [Joomla Template Development Guide for the Beginners][1], [Integracja Drupal Mautic w celu automatyzacji pielęgnacji ołowiu][2], [Integrate Mautic & Joomla do automatyzacji marketingu cyfrowego][3] , i więcej, dlatego skoncentrujemy się na tworzeniu motywu z**Gantry Framework**w tym przewodniku. Gantry Framework to konstruktor szablonów typu open source, który służy do budowy układów responsywnych i na poziomie przedsiębiorstw dla [Joomla][4] i [WordPress][5]. Społeczność open source opracowała szeroki zakres systemów zarządzania treścią, które oferują bogate możliwości budowania motywów. Ramy Gantry dla Joomli są jedną z najpopularniejszych ram tematycznych. Budowanie przyciągającej wzrok i angażującej witryny jest istotnym elementem każdej firmy. Jednak kolejny ważny aspekt wymaga zbudowania lub modyfikacji takich stron internetowych.
 Dlatego ramy porywające Joomla zapewnia przepisy dotyczące przyspieszenia procesu rozwoju układu. Przede wszystkim eliminuje również przymus wyposażenia w umiejętności kodowania lub programowania. Z drugiej strony proces instalacji takich frameworków jest dość łatwy i prosty. Są one dostępne w postaci wtyczek dla najwyższych systemów zarządzania treścią, takimi jak WordPress i Joomla. W tym samouczku bramowym omówimy następujące punkty:
 * [**Co to jest ramy bramkowe dla Joomla?**][6]

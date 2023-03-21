@@ -70,7 +70,7 @@ Contanto que você tenha todos os servidores em vigor, agora deve descobrir que 
 ## Diretivas upstream   {#Upstream}
 Em nosso último exemplo, usamos um módulo simples a montante para fazer balanceamento de carga redondo-robin para distribuir o tráfego igualmente entre os servidores. No entanto, existem muitas razões pelas quais essa pode não ser a maneira mais eficiente de trabalhar com o tráfego. Existem várias diretivas que podemos usar para direcionar os visitantes do site com mais eficiência.
 
-### Peso
+## # Peso
 Uma maneira de começar a alocar usuários para servidores com mais precisão é alocar peso específico para determinadas máquinas. O NGINX nos permite atribuir um número especificando a proporção de tráfego que deve ser direcionada para cada servidor.
 Uma configuração equilibrada de carga que incluía o peso do servidor pode ser assim:
 ```
@@ -82,7 +82,7 @@ upstream backend  {
 ```
 O peso padrão é 1. com um peso de 2, backend2.Exemplo será enviado duas vezes mais tráfego do que backend1 e backend3, com um peso de 4, lidará com o dobro do tráfego do backend2 e quatro vezes mais do que o back -end 1.
 
-### Cerquilha
+## # Cerquilha
 O IP Hash permite que os servidores respondam aos clientes de acordo com seu endereço IP, enviando os visitantes de volta ao mesmo VPS cada vez que visitam (a menos que esse servidor esteja inativo). Se um servidor for conhecido por estar inativo, ele deve ser marcado como inativo. Todos os IPs que deveriam ir para o servidor Down são então direcionados para um alternativo.
 A configuração abaixo fornece um exemplo:
 ```
@@ -94,7 +94,7 @@ upstream backend {
  }
 ```
 
-### Max falha
+## # Max falha
 De acordo com as configurações padrão de Round-Robin, o NGINX Application Load Balancer continuará enviando dados para os servidores privados virtuais, mesmo que os servidores não estejam respondendo. O MAX falhas pode impedir isso automaticamente, tornando os servidores que não respondem inoperante por um período de tempo definido.
 Existem dois fatores associados às falhas máximas: max \ _fails e outono \ _timeout. Max falha refere -se ao número máximo de tentativas com falha de se conectar a um servidor que deve ocorrer antes de ser considerado inativo. Fall_timeout Especifica o comprimento desse servidor é considerado inoperante. Depois que o tempo expirar, novas tentativas de chegar ao servidor serão iniciadas novamente. O valor do tempo limite padrão é de 10 segundos.
 Uma configuração de amostra pode ser assim:

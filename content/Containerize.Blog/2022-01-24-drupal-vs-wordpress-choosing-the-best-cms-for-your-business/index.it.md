@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/WordPress-vs-Drupal.png" alt="Drupal vs WordPress | Scegliere il miglior CMS per la tua attività|Drupal vs WordPress | Scegliere il miglior CMS per la tua attività">}}
 
 
-Panoramica ##
+Panoramica ## 
 **Drupal vs WordPress** sono due dei sistemi di gestione dei contenuti più utilizzati (CMS) e delle migliori piattaforme CMS al mondo. Sia WordPress che Drupal sono potenti strumenti di gestione dei contenuti per creare grandi siti Web. Vogliamo tutti che i nostri siti Web siano veloci, potenti e facili da gestire i contenuti. Questo è realizzabile con entrambi i sistemi CMS. Se stai cercando una soluzione open source e di gestione dei contenuti intuitiva per le tue esigenze CMS, entrambe le piattaforme lo farà. WordPress vs Drupal Entrambi i sistemi possono essere estesi e personalizzati per fare molte cose.
 Ovviamente, entrambi i sistemi di gestione dei contenuti Drupal vs WordPress forniscono una soluzione autosuocata per creare e gestire tutti i contenuti sul tuo sito Web. Ora, in questa guida discuteremo della differenza tra Drupal e WordPress, i popolari sistemi di gestione dei contenuti. Verrai a sapere  **Quale piattaforma CMS è giusta per la tua attività**  a seconda dei tuoi obiettivi a breve e lungo termine. Questo articolo ti aiuterà a determinare quale è meglio per la tua attività.
   * **Cos'è Drupal?** 

@@ -26,34 +26,34 @@ Docker là một phần mềm container nguồn mở được sử dụng để 
 ## Lợi ích của bộ chứa   {#benefits}
 Trong phần này, chúng tôi sẽ khám phá một số lợi ích hàng đầu của container.
 
-### Triển khai nhanh
+## # Triển khai nhanh
 Trong các phương pháp triển khai ứng dụng truyền thống, các nhà phát triển cần xem xét nghiêm túc về môi trường mà phần mềm sẽ chạy. Họ cần thiết lập tất cả các cấu hình và phụ thuộc cần thiết theo cách thủ công để đảm bảo triển khai thành công. Container hóa đã loại bỏ gánh nặng này và đảm nhận trách nhiệm xử lý các thủ tục triển khai.
 
-### Sự cách ly
+## # Sự cách ly
 Đây là lợi ích chính của việc container hóa khi các ứng dụng chạy trong mỗi container được phân lập và không biết về nhau. Họ sử dụng tài nguyên của riêng mình một cách độc lập và do đó, đạt được mức độ bảo mật và độ tin cậy tối đa.
 
-###**Tính nhất quán**
+## # **Tính nhất quán**
 Một hình ảnh Docker chứa tất cả các phụ thuộc phần mềm và đảm bảo tạo ra một môi trường nhất quán trên nhiều nền tảng. Hoặc là máy phát triển của máy phát triển hoặc máy sản xuất trên đám mây, container hóa đi kèm với các cơ sở cung cấp một hành vi nhất quán của việc triển khai ứng dụng.
 
-### Khả năng mở rộng
+## # Khả năng mở rộng
 **Phần mềm container** cho phép các nhà phát triển mở rộng các ứng dụng mà không ảnh hưởng đến toàn bộ cơ sở hạ tầng. Các nhà phát triển phần mềm có thể cấu hình lại cơ sở hạ tầng hiện có hoặc có thể thêm các container tiếp theo để tăng cường tài nguyên. Các quy trình để mở rộng các ứng dụng đòi hỏi ít nỗ lực hơn cho phép các nhà phát triển tập trung vào các phát triển quan trọng khác.
 
-### An ninh tốt hơn
+## # An ninh tốt hơn
 Vì có sự cô lập hoàn toàn giữa tất cả các container chạy trên mạng để mọi container chứa lớp bảo mật riêng của nó. Tuy nhiên, nó làm giảm yếu tố rủi ro của bất kỳ cuộc đụng độ tài nguyên nào giữa các ứng dụng như bộ nhớ, lưu trữ, CPU và các tài nguyên mạng khác.
 
-### Tính di động
+## # Tính di động
 Đây là một lợi ích lớn khác trong số các lợi ích khác của container. Container hóa làm cho các ứng dụng có tính di động cao vì chúng độc lập với nền tảng. Các nhà phát triển có thể dễ dàng thiết lập ứng dụng container hóa trên bất kỳ nền tảng nào vì các ứng dụng trừu tượng của container từ hệ điều hành máy chủ.
 
-###  **hiệu quả chi phí** 
+## #  **hiệu quả chi phí** 
 Các công cụ phối hợp container và phần mềm container là nguồn mở và miễn phí. Họ có những cộng đồng mạnh mẽ còn sống và sôi động. Học các công cụ này không khó và có nhiều dịch vụ có sẵn giúp triển khai ứng dụng dễ dàng trong khoảng thời gian ngắn nhất.
 
-### Năng suất
+## # Năng suất
 Phần mềm container miễn phí mang lại vô số năng suất bằng cách tự động hóa các quy trình triển khai. Ngoài ra, nếu có bất kỳ thời gian chết hoặc xử lý sai được tìm thấy trong sản xuất, có các công cụ giám sát có sẵn cho mục đích này. Các nhà phát triển phần mềm có thể gói phần mềm trong một gói và có thể chia sẻ và chạy trên bất kỳ nền tảng nào.
 
-### Khả năng tái sử dụng
+## # Khả năng tái sử dụng
 Container hóa tạo điều kiện cho người dùng các điều khoản tái sử dụng. Các nhà phát triển viết mã của ứng dụng kinh doanh một lần cho tất cả các nền tảng. Họ không cần phải viết mã nguồn khác nhau cho các nền tảng khác nhau.
 
-### Cộng đồng
+## # Cộng đồng
 Đây là một điểm cộng chính của container hóa. Có sự hỗ trợ rất lớn có sẵn bởi cộng đồng và người dùng có thể tìm kiếm hướng dẫn ở mọi cấp độ. Trên hết, có một không gian gọi là [Docker Hub][5] nơi người dùng có thể tạo, chia sẻ và kéo các ứng dụng và dịch vụ container hóa.
 
 ## Nhận xét cuối cùng   {#Final}

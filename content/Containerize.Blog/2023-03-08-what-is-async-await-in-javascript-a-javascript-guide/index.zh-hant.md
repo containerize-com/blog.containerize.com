@@ -22,7 +22,7 @@ categories: ['Programming']
   * **[何時使用異步/等待？][4]**
   * **[使用異步/等待的錯誤處理][5]**
 
-##什麼是異步/等待JavaScript |異步等待語法 {#what-is-asyncawait in javascript-async-await-syntax}
+## 什麼是異步/等待JavaScript |異步等待語法 {#what-is-asyncawait in javascript-async-await-syntax}
 ECMAScript 2017發布了JavaScript的新功能，Async/等待是這些功能中使用最廣泛的功能之一。異步/等待是建立在承諾之上的，實際上是處理JavaScript承諾的現代方式。
 讓我們看看如何在JavaScript代碼中使用async/等待關鍵字：
 ```
@@ -43,10 +43,10 @@ getValues().then(function(){
 ```
 好吧，函數開始時的異步關鍵字意味著此函數將返回承諾。因此，等待關鍵字始終在異步函數的主體內部使用，以暫停該函數的執行，直到承諾解決。這裡要注意的重要一點是，您無法在常規功能的身體內部使用等待關鍵字。但是，您只能使用與異步關鍵字聲明的異步函數一起使用。
 
-##何時使用異步/等待？   {#何時使用 -  assyncawait}
+## 何時使用異步/等待？   {#何時使用 -  assyncawait}
 到目前為止，您可以回答**在JavaScript**中等待什麼是異步。由於這只是圍繞傳統JavaScript承諾的包裝紙，因此您最好使用這種新的方式來以更清潔，更可讀性的方式創建和處理承諾。此外，您可以擺脫多個Promise.then（）使用異步/等待的呼叫，這最終使源代碼更易於管理和可維護。等待的關鍵字將.ly（）語句封裝到一行中。
 
-##使用異步/等待的錯誤處理 {#錯誤處理與assyncawait}
+## 使用異步/等待的錯誤處理 {#錯誤處理與assyncawait}
 在企業級軟件開發方面，錯誤處理是一項關鍵任務。有多種方法可以在異步/等待方法中捕獲錯誤。
 
 {{< figure align=center src="images/async-await.png" alt="嘗試捕獲異步等待JavaScript">}}
@@ -96,7 +96,7 @@ getValues().catch(err){
 ## 問一個問題
 您可以在我們的[論壇][10]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **示例中的JavaScript中有什麼異步？**
 您可以訪問此[鏈接][3]，以了解異步等待的概念。
 **什麼是異步等待與承諾？**

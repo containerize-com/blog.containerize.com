@@ -51,7 +51,7 @@ Classes are used throughout, so your markup can be super flexible. Use `<ul>`s l
 
 Change the style of `.nav`s component with modifiers and utilities. Mix and match as needed, or build your own.
 
-### Horizontal alignment
+## # Horizontal alignment
 
 Change the horizontal alignment of your nav with [flexbox utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/layout/grid/#horizontal-alignment). By default, navs are left-aligned, but you can easily change them to center or right aligned.
 
@@ -95,7 +95,7 @@ Right-aligned with `.justify-content-end`:
 {% endcapture %}
 {% include example.html content=example %}
 
-### Vertical
+## # Vertical
 
 Stack your navigation by changing the flex item direction with the `.flex-column` utility. Need to stack them on some viewports but not others? Use the responsive versions (e.g., `.flex-sm-column`).
 
@@ -129,7 +129,7 @@ As always, vertical navigation is possible without `<ul>`s, too.
 {% endcapture %}
 {% include example.html content=example %}
 
-### Tabs
+## # Tabs
 
 Takes the basic nav from above and adds the `.nav-tabs` class to generate a tabbed interface. Use them to create tabbable regions with our [tab JavaScript plugin](#javascript-behavior).
 
@@ -151,7 +151,7 @@ Takes the basic nav from above and adds the `.nav-tabs` class to generate a tabb
 {% endcapture %}
 {% include example.html content=example %}
 
-### Pills
+## # Pills
 
 Take that same HTML, but use `.nav-pills` instead:
 
@@ -173,7 +173,7 @@ Take that same HTML, but use `.nav-pills` instead:
 {% endcapture %}
 {% include example.html content=example %}
 
-### Fill and justify
+## # Fill and justify
 
 Force your `.nav`'s contents to extend the full available width one of two modifier classes. To proportionately fill all available space with your `.nav-item`s, use `.nav-fill`. Notice that all horizontal space is occupied, but not every nav item has the same width.
 
@@ -255,7 +255,7 @@ Note that navigation bars, even if visually styled as tabs with the `.nav-tabs` 
 
 Add dropdown menus with a little extra HTML and the [dropdowns JavaScript plugin]({{ site.baseurl }}/docs/{{ site.docs_version }}/components/dropdowns/#usage).
 
-### Tabs with dropdowns
+## # Tabs with dropdowns
 
 {% capture example %}
 <ul class="nav nav-tabs">
@@ -282,7 +282,7 @@ Add dropdown menus with a little extra HTML and the [dropdowns JavaScript plugin
 {% endcapture %}
 {% include example.html content=example %}
 
-### Pills with dropdowns
+## # Pills with dropdowns
 
 {% capture example %}
 <ul class="nav nav-pills">
@@ -499,7 +499,7 @@ And with vertical pills.
 </div>
 {% endhighlight %}
 
-### Using data attributes
+## # Using data attributes
 
 You can activate a tab or pill navigation without writing any JavaScript by simply specifying `data-toggle="tab"` or `data-toggle="pill"` on an element. Use these data attributes on `.nav-tabs` or `.nav-pills`.
 
@@ -529,7 +529,7 @@ You can activate a tab or pill navigation without writing any JavaScript by simp
 </div>
 {% endhighlight %}
 
-### Via JavaScript
+## # Via JavaScript
 
 Enable tabbable tabs via JavaScript (each tab needs to be activated individually):
 
@@ -549,7 +549,7 @@ $('#myTab li:last-child a').tab('show') // Select last tab
 $('#myTab li:nth-child(3) a').tab('show') // Select third tab
 {% endhighlight %}
 
-### Fade effect
+## # Fade effect
 
 To make tabs fade in, add `.fade` to each `.tab-pane`. The first tab pane must also have `.show` to make the initial content visible.
 
@@ -562,11 +562,11 @@ To make tabs fade in, add `.fade` to each `.tab-pane`. The first tab pane must a
 </div>
 {% endhighlight %}
 
-### Methods
+## # Methods
 
 {% include callout-danger-async-methods.md %}
 
-#### $().tab
+## ## $().tab
 
 Activates a tab element and content container. Tab should have either a `data-target` or an `href` targeting a container node in the DOM.
 
@@ -600,7 +600,7 @@ Activates a tab element and content container. Tab should have either a `data-ta
 </script>
 {% endhighlight %}
 
-#### .tab('show')
+## ## .tab('show')
 
 Selects the given tab and shows its associated pane. Any other tab that was previously selected becomes unselected and its associated pane is hidden. **Returns to the caller before the tab pane has actually been shown** (i.e. before the `shown.bs.tab` event occurs).
 
@@ -608,11 +608,11 @@ Selects the given tab and shows its associated pane. Any other tab that was prev
 $('#someTab').tab('show')
 {% endhighlight %}
 
-#### .tab('dispose')
+## ## .tab('dispose')
 
 Destroys an element's tab.
 
-### Events
+## # Events
 
 When showing a new tab, the events fire in the following order:
 

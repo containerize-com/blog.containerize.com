@@ -49,7 +49,7 @@ Git est un système de contrôle de version libre et open-source conçu pour gé
 ## installer git   {#install}
 Il existe différentes méthodes disponibles pour installer GIT sur votre ordinateur. Vous pouvez l'installer en tant que package ou via un autre installateur, ou télécharger le code source et le compiler vous-même.
 
-### Installation sur Linux
+## # Installation sur Linux
 Si vous souhaitez installer les outils Git de base sur Linux via un installateur binaire, vous pouvez généralement le faire via l'outil de gestion des packages fournis avec votre distribution. Pour Fedora (ou toute distribution basée sur le RPM liée, comme Rhel ou Centos), vous pouvez utiliser «DNF»
 ```
 $ sudo dnf install git-all
@@ -59,7 +59,7 @@ Si vous êtes sur une distribution basée à Debian, comme Ubuntu, essayez "APT"
 $ sudo apt install git-all
 ```
 
-### Installation sur macOS
+## # Installation sur macOS
 Il existe plusieurs façons d'installer GIT sur un Mac. Le plus simple est probablement d'installer les outils de ligne de commande Xcode. Sur Mavericks (10.9) ou plus, vous pouvez le faire simplement en essayant d'exécuter **git**  du terminal la toute première fois.
 ```
 $ git --version

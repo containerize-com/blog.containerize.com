@@ -31,19 +31,19 @@ Mặt khác, hành vi và phản ứng của người tiêu dùng cuối cùng c
 ## So sánh hợp lý & matomo   {#comp}
 Trong phần của bài viết **matomo vs hợp lý  **này, chúng tôi sẽ khám phá hai giải pháp thay thế**   Google Analytics** về các tính năng và đặc điểm của chúng bằng cách bao gồm các điểm sau.
 
-#### Số liệu thống kê GitHub
+## ## Số liệu thống kê GitHub
 Cả hai công cụ BI nguồn mở** này đều phổ biến do các tính năng mạnh mẽ của chúng. Tuy nhiên, nếu chúng ta nói về số liệu thống kê GitHub của họ thì [hợp lý][7] duy trì 9k sao và 400 FLUS trong khi [Matomo][5] bảo vệ 15,5k sao và 2K Plus Fork cho đến ngày.
 
-#### Công nghệ
+## ## Công nghệ
 Ngăn xếp công nghệ của hai phần mềm phân tích web** này rất đa dạng. [Hợp lý][7] chủ yếu được viết bằng Elixir đó là ngôn ngữ lập trình chức năng. Mặt khác, [Matomo][5] được viết bằng PHP cùng với đầu vào của JavaScript. Cả hai công cụ miễn phí này đều dễ dàng triển khai trên các máy chủ với các yêu cầu dễ dàng.
 
-#### Bảo vệ
+## ## Bảo vệ
 Theo như bảo mật và quyền riêng tư, hợp lý là định hướng quyền riêng tư cao và trao quyền kiểm soát cho các chủ sở hữu trang web. Nó cản trở theo dõi trang web chéo, đó là về việc thu thập dữ liệu duyệt qua nhiều trang web. Tuy nhiên, cả hai công cụ báo cáo thông minh kinh doanh  **này**  hoàn toàn tuân thủ luật riêng tư quốc tế.
 
-#### Khả năng mở rộng
+## ## Khả năng mở rộng
 Đây là đặc điểm quan trọng nhất của bất kỳ phần mềm nguồn mở nào. May mắn thay, cả hai công cụ BI nguồn mở** này cung cấp tương tác với các thư viện của bên thứ ba và dễ dàng mở rộng theo yêu cầu. Trong khi đó, Matomo hiển thị API để tạo các báo cáo và tích hợp tùy chỉnh.
 
-#### Đặc trưng
+## ## Đặc trưng
 Hợp lý và Matomo cung cấp các tính năng mạnh mẽ liên quan đến người dùng, quản lý trang web và có các mô -đun cung cấp cho khách truy cập hành vi và thông tin hoạt động. Trên hết, cả hai phần mềm Phân tích web** này cung cấp giao diện người dùng logic mà người dùng có thể tùy chỉnh các tiện ích theo sở thích của họ. Hơn nữa, bạn có thể truy cập [link][9] này để tìm hiểu về các tính năng tiếp theo.
 **Cộng đồng**
 Trong thực tế, cộng đồng nguồn mở rất sống và sôi động. Tuy nhiên, hợp lý và Matomo là các công cụ báo cáo thông minh kinh doanh **** Đó là lý do tại sao cả hai đều có các cộng đồng phát triển rất mạnh, những người luôn có xu hướng trả lời các truy vấn và lỗi.

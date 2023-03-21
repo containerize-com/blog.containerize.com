@@ -38,7 +38,7 @@ Postępuj zgodnie z poniższym przewodnikiem krok po kroku, aby zainstalować op
 sudo apt-get update
 ```
 
-### Zainstaluj serwer bazy danych mariadb
+## # Zainstaluj serwer bazy danych mariadb
   * Uruchom polecenie, aby zainstalować Mariadb.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### Zainstaluj Ruby
+## # Zainstaluj Ruby
   * Najpierw dodaj PPA innych firm, aby zainstalować Ruby. Uruchom następujące polecenia.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### Zainstaluj Rabbitmq
+## # Zainstaluj Rabbitmq
   * Erlang jest zobowiązany do zainstalowania RabbitMQ, więc musisz go również zainstalować. Dodaj klucz repozytorium Erlang do Ubuntu za pomocą poniższego polecenia.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### Zainstaluj NodeJS
+## # Zainstaluj NodeJS
   * Dodaj repozytorium NodeJS z następującym poleceniem.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### Zainstaluj pocztę pocztową
+## # Zainstaluj pocztę pocztową
   * Po pierwsze, musisz utworzyć użytkownika dla pocztowego serwera pocztowego. Utwórz go za pomocą następującego polecenia.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### Zainstaluj Nginx
+## # Zainstaluj Nginx
   * Uruchom poniższe polecenie, aby zainstalować serwer WWW Nginx.
 ```
 sudo apt install nginx

@@ -21,7 +21,7 @@ W tym przewodniku zainstalujemy Nginx, MySQL i PHP (LEMP Stack) do tworzenia i w
   *[ **LEMP instalacja** ][3]
   *[ **Wniosek** ][4]
 
-##
+## 
 Przed zainstalowaniem oprogramowania należy spełnić następujące wymagania.
   * Serwer z systemem operacyjnym Ubuntu
   *Użytkownik bez korzeni z  **sudo**  uprawnieniami
@@ -35,7 +35,7 @@ W tej sekcji skupimy się na tym, jak zainstalować Nginx, MySQL i PHP na Ubuntu
 $ sudo apt update
 ```
 
-### Instalowanie serwera WWW Nginx
+## # Instalowanie serwera WWW Nginx
   *Uruchom poniższe polecenie, aby  **Zainstaluj Nginx na Ubuntu** .
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Domyślna strona serwera WWW Nginx">}}
 
 
-### Instalowanie MySQL
+## # Instalowanie MySQL
 Teraz musisz zainstalować serwer bazy danych MySQL do zarządzania danymi aplikacji.
   *Uruchom poniższe polecenie, aby  **Zainstaluj MySQL na Ubuntu** .
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### Instalowanie PHP
+## # Instalowanie PHP
 Omówimy instalację PHP-FPM do przetwarzania PHP. PHP-FPM oznacza FastCGI Process Manager. Serwer WWW Nginx nie ma żadnej wbudowanej funkcjonalności do przetwarzania PHP, więc użyjemy do niego PHP-FPM. Ponadto zainstalujemy PHP-MYSQL do komunikowania PHP z MySQL w celu zarządzania danymi.
   *Uruchom poniższe polecenie, aby  **Zainstaluj PHP na Ubuntu** .
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### test PHP
+## # test PHP
   * Aby upewnić się, że Nginx poprawnie obsługuje strony PHP, utworzymy plik PHP do testowania konfiguracji.
   * Utwórz plik info.php w katalogu głównym serwera WWW Nginx, uruchamiając poniższe polecenie.
 ```

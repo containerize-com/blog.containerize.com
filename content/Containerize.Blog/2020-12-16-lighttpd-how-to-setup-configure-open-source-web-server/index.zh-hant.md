@@ -9,7 +9,7 @@ url: /zh-hant/lighttpd-how-to-setup-configure-open-source-web-server/
 categories: ['Web Server Solution Stack']
 ---
 
-##配置安全，輕巧和開源Web服務器。 LightTPD是企業級免費的Web服務器，最適合高性能的網站。
+## 配置安全，輕巧和開源Web服務器。 LightTPD是企業級免費的Web服務器，最適合高性能的網站。
 
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Websites.png" alt="開源Web服務器">}}
 
@@ -20,7 +20,7 @@ categories: ['Web Server Solution Stack']
   * [如何配置LightTPD？][7]
   * [結論][8]
 
-##什麼是LightTPD？   {#什麼}
+## 什麼是LightTPD？   {#什麼}
 與Apache和Nginx（例如Apache和Nginx）相比，LightTPD Web服務器具有較小的內存足跡，因此它提供了CPU負載的有效管理。這款輕巧的Web服務器提供了高級功能集，包括FastCGI，SCGI，AUTH，輸出壓縮和URL互動等。它允許使用服務器使用任何編程語言編寫的Web應用程序。可以將LightTPD的FASTCGI配置為支持PHP。除PHP外，它還支持其他編程語言，包括Python，Perl，Ruby等。
 有許多開源Web服務器和Web代理服務器，但是LightTPD在列表的頂部被廣泛使用。該Web服務器解決方案非常容易設置，需要簡單的要求，例如Ubuntu 18.04。此外，那些希望部署此開源解決方案的人可以從此[鏈接][9]下載最新版本。最重要的是，它支持除PHP以外的許多語言，例如Python，Ruby，Perl等。此外，所有文檔都提供有關開發和部署的信息。因此，開發人員可以在[github][10]上找到源代碼。
 
@@ -34,7 +34,7 @@ LightTPD提供了以下突出的好處：
   * mod_proxy向後端提出HTTP/1.1請求（從HTTP/1.0更改）
 * 支持使用chroot和mod_rewrite
 
-##如何配置LightTPD？   {#配置}
+## 如何配置LightTPD？   {#配置}
 在此博客文章的這一部分中，我們探討了配置LightTPD的步驟。在Ubuntu上安裝LightTPD非常簡單明了。只需使用以下命令，就可以了
 ```
 $ sudo apt install lighttpd
@@ -74,7 +74,7 @@ su make install
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="如何為高性能網站設置和配置LightTPD">}}
 
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這使我們進入了此博客文章的結尾。我們經歷了什麼是LightTPD？如何配置LightTPD？並設置過程。 LightTPD是一款免費，高性能和開源Web服務器，專為速度關鍵環境而設計。低內存足跡，小的CPU負載和速度優化使其適用於遭受負載問題的服務器。與其他Web服務器相比，它輕巧，安全和快速，這使其成為高性能和速度關鍵網站的最佳選擇之一。 LightTPD擁有一個非常活躍和充滿活力的社區，可為問題和查詢提供支持。下面的“探索”部分中提到了許多操作開源產品和相關博客文章。因此，如果您想為您的業務選擇開源Web服務器，那麼本文可以為您提供幫助。
 最後，**[containerize.com][12]**一直在寫進一步的開源產品。請與常規更新有關[1]類別[1]類別。此外，您可以在我們的社交媒體帳戶上關注我們[Facebook][13]，[LinkedIn][14]和[Twitter][15]。
 

@@ -31,19 +31,19 @@ categories: ['Business Intelligence Software']
 ## Makul ve Matomo karşılaştırması   {#comp}
 Bu **Matomo vs makul  **makalesinin bölümünde, aşağıdaki noktaları kapsayarak özellikleri ve özellikleri hakkında bu iki **  Google Analytics alternatifini**  keşfedeceğiz.
 
-#### GitHub İstatistikleri
+## ## GitHub İstatistikleri
 Bu **Açık Kaynak BI Tools** , güçlü özellikleri nedeniyle popülerdir. Bununla birlikte, Github istatistikleri hakkında konuşursak [makul][7] 9k yıldız ve 400 artı çatalları korurken [Matomo][5] 15.5K yıldız ve 2K Plus çatalları tarihe kadar korur.
 
-#### Teknoloji
+## ## Teknoloji
 Bu iki **web analizi yazılımının**  teknoloji yığını çeşitlidir. [Makul][7] esas olarak işlevsel bir programlama dili olan iksir ile yazılmıştır. Öte yandan, [Matomo][5] JavaScript girişiyle birlikte PHP'de yazılmıştır. Bu ücretsiz araçların her ikisi de kolay gereksinimlere sahip sunuculara dağıtılması kolaydır.
 
-#### Güvenlik
+## ## Güvenlik
 Güvenlik ve gizlilik söz konusu olduğunda, makul son derece gizlilik odaklıdır ve site sahiplerini kontrol eder. Birden fazla sitede göz atma verilerini toplamakla ilgili siteler arası izlemeyi engeller. Ancak, bu ** iş zekası raporlama araçlarının her ikisi de uluslararası gizlilik yasalarına tamamen uymaktadır.
 
-#### Genişletilebilirlik
+## ## Genişletilebilirlik
 Bu, herhangi bir açık kaynak yazılımının en önemli özelliğidir. Neyse ki, bunların her ikisi de **Açık Kaynak BI Tools**  üçüncü taraf kütüphanelerle etkileşim sunar ve gereksinimlere göre genişlemesi kolaydır. Oysa Matomo, özel raporlar ve entegrasyonlar oluşturmak için bir API ortaya çıkarır.
 
-#### Özellikler
+## ## Özellikler
 Makul ve Matomo, kullanıcılar, web sitesi yönetimi ile ilgili güçlü özellikler sağlar ve ziyaretçilere davranış ve etkinlik bilgileri sağlayan modüller vardır. Her şeyden önce, bu **Web Analytics yazılımı** , kullanıcıların widget'ları tercihlerine göre özelleştirebilecekleri mantıklı bir kullanıcı arayüzü sunar. Ayrıca, daha fazla özellik hakkında bilgi edinmek için bu [link][9] ziyaret edebilirsiniz.
 **Toplum**
 Aslında, açık kaynaklı topluluk çok canlı ve canlıdır. Bununla birlikte, makul ve Matomo açık kaynaktır **İş Zekası Raporlama Araçları**  Bu yüzden her ikisi de her zaman sorgulara ve hatalara cevap verme eğiliminde olan çok güçlü geliştirici topluluklarına sahiptir.

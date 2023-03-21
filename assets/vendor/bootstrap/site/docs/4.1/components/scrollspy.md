@@ -226,7 +226,7 @@ Scrollspy also works with `.list-group`s. Scroll the area next to the list group
 
 ## Usage
 
-### Via data attributes
+## # Via data attributes
 
 To easily add scrollspy behavior to your topbar navigation, add `data-spy="scroll"` to the element you want to spy on (most typically this would be the `<body>`). Then add the `data-target` attribute with the ID or class of the parent element of any Bootstrap `.nav` component.
 
@@ -248,7 +248,7 @@ body {
 </body>
 {% endhighlight %}
 
-### Via JavaScript
+## # Via JavaScript
 
 After adding `position: relative;` in your CSS, call the scrollspy via JavaScript:
 
@@ -257,22 +257,22 @@ $('body').scrollspy({ target: '#navbar-example' })
 {% endhighlight %}
 
 {% capture callout %}
-#### Resolvable ID targets required
+## ## Resolvable ID targets required
 
 Navbar links must have resolvable id targets. For example, a `<a href="#home">home</a>` must correspond to something in the DOM like `<div id="home"></div>`.
 {% endcapture %}
 {% include callout.html content=callout type="danger" %}
 
 {% capture callout %}
-#### Non-`:visible` target elements ignored
+## ## Non-`:visible` target elements ignored
 
 Target elements that are not [`:visible` according to jQuery](https://api.jquery.com/visible-selector/) will be ignored and their corresponding nav items will never be highlighted.
 {% endcapture %}
 {% include callout.html content=callout type="info" %}
 
-### Methods
+## # Methods
 
-#### `.scrollspy('refresh')`
+## ## `.scrollspy('refresh')`
 
 When using scrollspy in conjunction with adding or removing of elements from the DOM, you'll need to call the refresh method like so:
 
@@ -282,11 +282,11 @@ $('[data-spy="scroll"]').each(function () {
 })
 {% endhighlight %}
 
-#### `.scrollspy('dispose')`
+## ## `.scrollspy('dispose')`
 
 Destroys an element's scrollspy.
 
-### Options
+## # Options
 
 Options can be passed via data attributes or JavaScript. For data attributes, append the option name to `data-`, as in `data-offset=""`.
 
@@ -309,7 +309,7 @@ Options can be passed via data attributes or JavaScript. For data attributes, ap
   </tbody>
 </table>
 
-### Events
+## # Events
 
 <table class="table table-bordered table-striped">
   <thead>

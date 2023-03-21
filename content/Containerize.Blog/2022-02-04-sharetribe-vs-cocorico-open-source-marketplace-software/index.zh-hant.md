@@ -9,7 +9,7 @@ url: /zh-hant/sharetribe-vs-cocorico-open-source-marketplace-software/
 categories: ['Marketplace']
 ---
 
-##選擇開源市場軟件來為在線市場供電至關重要。讓我們比較兩個自由市場解決方案Sharetribe＆Cocorico。
+## 選擇開源市場軟件來為在線市場供電至關重要。讓我們比較兩個自由市場解決方案Sharetribe＆Cocorico。
 
 {{< figure align=center src="images/cocorico.png" alt="Sharetribe vs Cocorico">}}
 
@@ -22,7 +22,7 @@ categories: ['Marketplace']
   * [Sharetribe vs Cocorico][5]
   * [結論][6]
 
-##什麼是Sharetribe？   {#什麼}
+## 什麼是Sharetribe？   {#什麼}
 [Sharetribe][1]是一個具有點對點體系結構的**開源市場軟件**。這種市場解決方案是免費的，強大的，並且具有自託管功能。業務利益相關者可以將此軟件部署到銷售商品和服務。 Sharetribe還管理託管，搜索引擎優化，並且非常可擴展。此外，它具有一個非常活躍的開發人員社區，該社區積極回應用戶查詢和最新開發。 Sharetribe提供可自定義的個人資料頁面，企業主可以個性化列表，產品評級和評論。這種自由的市場解決方案是用Ruby on Rails編寫的，並提出了有關開發，部署和使用的全面文件。因此，您可以在[github][7]上找到源代碼文件。
 
 ## Cocorico的簡介 {#Coco}
@@ -31,20 +31,20 @@ categories: ['Marketplace']
 ## sharetribe vs cocorico   {#vs}
 到目前為止，我們已經了解了Sharetribe的內容，並簡要介紹了Cocorico。向前介紹了這本Sharetribe vs Cocorico博客文章，我們將通過涵蓋以下幾點來嘗試在這兩個流行的**開源市場軟件**之間劃清界限。
 
-####技術堆棧
+## ## 技術堆棧
 在自助主持人開源軟件方面，回顧所有方面，例如前端和後端技術，數據庫和開發方法確實很重要。但是，Sharetribe是使用Ruby在Rails，JavaScript和HTML上開發的。而Cocorico是使用PHP，JavaScript，Twig和其他語言（例如CSS）的輸入構建的。但是，它們倆都很容易在本地或云服務器上設置。
 
-####**社區站立**
+## ## **社區站立**
 這是選擇開源軟件的另一個命令率。就Sharetribe而言，它的GitHub存儲庫有2.2千的恆星和1.3k叉。但是，您可以找到有關開發和部署的文檔以及源代碼文件。另一方面，其Github存儲庫上有812顆恆星和626叉。雖然，您也可以找到文檔以及源文件。
 
-####**可擴展性**
+## ## **可擴展性**
 該特徵具有最大點。因此，這兩個**開源市場軟件**提供與第三方應用程序的集成。 Sharetribe提供了與[Google Analytics（9]]，Stripe，PayPal等的集成。Cocorico還使您可以與付款網關聯繫以進行處理。此外，開發人員可以添加功能以滿足業務需求。
 
-#### 特徵
+## ## 特徵
 最後但最重要的是要查看和分析開源軟件提出的規定和功能。在大多數情況下，它取決於業務的性質和使用案例。這兩種自由市場解決方案都提供業務友好的功能，可提高生產力並降低其他成本。 Sharetribe支持所有類型的市場，提供內置支付系統，用於管理產品目錄的工具，自定義品牌，內容過濾等。此外，它還提供訂單/類別管理，SEO/促銷管理，並提供供應商門戶。
 就Cocorico而言，它為開源多供應商市場提供了規定。此外，它包括地理位置跟踪，地理載體，購物車，費用/委員會管理，安全，健壯，並具有自託管功能。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這使我們進入了此博客文章的結尾。希望這篇文章將幫助您在[Sharetribe][1] vs [Cocorico][2]方面做出正確的選擇。我們在此博客文章中介紹了一些重要的主題，例如Sharetrib和Cocorico的引入。但是，部署**市場解決方案**非常重要，這使您具有競爭優勢。很明顯，隨著時間的流逝，電子商務銷售正在增加，並且在偏遠地區也獲得了信任。因此，亞馬遜，eBay和其他一些受歡迎的平台等巨人正在增強新移民的範圍。下面的“探索”部分中提到了其他一些文章，您可能會查看。
 最後， **[containerize.com][10]** 一直在寫進一步的開源產品。請與此[11]類別保持聯繫，以進行常規更新。此外，您可以在我們的社交媒體帳戶上關注我們[Facebook][12]，[LinkedIn][13]和[Twitter][14]。
 

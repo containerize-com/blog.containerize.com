@@ -9,12 +9,12 @@ url: /it/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**Questo articolo introdurrà CHATGPT per VSCode. Un codice generatore di codice aperto GPT si basa su un modello GPT-3 basato sull'intelligenza artificiale open source.**
+## **Questo articolo introdurrà CHATGPT per VSCode. Un codice generatore di codice aperto GPT si basa su un modello GPT-3 basato sull'intelligenza artificiale open source.**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="VScode Extension Code GPT">}}
 
 
-Panoramica ##
+Panoramica ## 
 Pensi che tu sia un principiante o un programmatore di livello esperto e hai lavorato a un progetto di sviluppo. Quindi, cosa succede se [alimentato dall'intelligenza artificiale][1]**Codice di estensione VScode GPT**ti aiuta a scrivere il codice sorgente in qualsiasi linguaggio di programmazione? Ad esempio, se si richiede AI di scrivere il codice per un elemento di input HTML e l'IA restituisce "". Sorprendente?
 Sì, non è solo sorprendente, ma una cosa stimolante è l'IA genererà il codice sorgente del nostro software. Bene, questo post sul blog mostrerà un [OpenAI][2]**Generatore di codice**denominato [Codice GPT][3], che è alimentato da [Open-Source][4]**GPT-3**. Passeremo attraverso l'installazione e configureremo i processi di questo codice di estensione VScode GPT. Inoltre, esploreremo anche ciò che offre agli sviluppatori e alla comunità. Tuttavia, se hai saltato il nostro recente post sul blog su**[chatgpt][5]**, allora devi visitare questo [link][6] per ottenere una panoramica dettagliata di questo**AI Chatbot.**
 Copriremo i seguenti punti:

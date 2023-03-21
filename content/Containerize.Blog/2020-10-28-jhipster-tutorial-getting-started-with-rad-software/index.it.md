@@ -14,7 +14,7 @@ categories: ['Rapid Application Development']
 {{< figure align=center src="images/How-to-set-up-and-create-a-basic-application-with-Jhipster.png" alt="Tutorial Jhipster">}}
 
 
-Panoramica ##:
+Panoramica ## :
 Di recente abbiamo pubblicato un [post sul blog][1] sull'importanza di [RAD Software][2] nei tempi attuali. La tecnologia si sta evolvendo a un ritmo molto alto. I requisiti e le esigenze aziendali stanno cambiando di giorno in giorno. C'è una corsa per sviluppare soluzioni in un arco di tempo più breve. D'altra parte, ogni azienda vuole catturare il mercato lanciando il prodotto il prima possibile. Pertanto, la comunità open source ha sviluppato molti software basati sullo sviluppo di software****. Questi software gratuiti di sviluppo di applicazioni rapidi facilitano gli utenti con funzionalità di sviluppo di prototipazioni rapide. Ti consente di creare e avviare la versione iniziale del tuo prodotto e quindi è possibile sviluppare ulteriori rilasci con l'input del feedback degli utenti. Inoltre, questi software sono progettati per assorbire qualsiasi cambiamento in qualsiasi fase del progetto.
 Nel frattempo, i team di sviluppo del software accelerano i loro processi di sviluppo e assicurano che le consegne precedenti. In effetti, è conveniente, risparmiando tempo e dà soddisfazione per sviluppatori e utenti. Lo sviluppo rapido dell'applicazione è abbastanza flessibile da non aver bisogno di scadenze pianificate e rigorose. Costruisci ciò di cui i tuoi consumatori finali hanno bisogno. In questo tutorial di Jhipster, esamineremo come impostare [Jhipter][3] e creare la nostra prima applicazione con esso coprendo i seguenti punti:
   * [Che cos'è Jhipster e come installarlo?][4]

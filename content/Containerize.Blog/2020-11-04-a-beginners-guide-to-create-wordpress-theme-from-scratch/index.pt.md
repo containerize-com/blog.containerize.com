@@ -15,10 +15,10 @@ Como criar o tema WordPress está entre as principais consultas na pesquisa do G
   * [Requisitos][1]
   * [Guia passo a passo][2]
 
-### Requisitos   {#ReQuirements}
+## # Requisitos   {#ReQuirements}
 A primeira e mais importante coisa que você precisa fazer é instalar o WordPress. O WordPress é bem conhecido por sua facilidade de instalação. É um processo simples e pode ser feito facilmente sozinho seguindo o [guia][3].
 
-### como criar tema WordPress; Guia passo a passo   {#guide}
+## # como criar tema WordPress; Guia passo a passo   {#guide}
 Para o tema WordPress, tudo será feito apenas no diretório **wp_content **. Basta fazer uma nova subpasta tema na pasta**  wp_content → temas.
 A segunda coisa é decidir o layout do tema. Aqui, o tutorial está mostrando o layout básico que consiste em **cabeçalho, área principal, rodapé, barra lateral** .
 Basicamente, o WordPress precisa de apenas 2 arquivos, ou seja, estilo.css e index.php. Mas, para este layout, você precisa **5 arquivos** , como segue;
@@ -32,7 +32,7 @@ Basicamente, o WordPress precisa de apenas 2 arquivos, ou seja, estilo.css e ind
 **bootstrap.js  **e **  bootstrap.css  **precisa ser baixado do pacote Bootstrap e copiado na pasta **  tema** .
 Aqui estão as etapas a seguir para o tema de configuração
 
-### Etapa 1: Arquivo Header.php
+## # Etapa 1: Arquivo Header.php
 Coloque o seguinte código no arquivo header.php.
 ```
 <html>
@@ -57,7 +57,7 @@ Coloque o seguinte código no arquivo header.php.
 ```
 Este arquivo header.php contém o código para a parte do cabeçalho na qual o JS e o arquivo de estilo estão vinculados. Ele exibe o cabeçalho da página.
 
-### Etapa 2: arquivo index.php
+## # Etapa 2: arquivo index.php
 Coloque o seguinte código no índice de arquivo principal.php
 ```
 <?php get_header(); ?>
@@ -83,7 +83,7 @@ Coloque o seguinte código no índice de arquivo principal.php
 ```
 O código acima exibe o conteúdo principal da postagem, barra lateral e rodapé.
 
-### Etapa 3: arquivo lateral.php
+## # Etapa 3: arquivo lateral.php
 Adicione o seguinte código na barra lateral.php
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +95,7 @@ Adicione o seguinte código na barra lateral.php
 ```
 No código acima, as funções internas do WordPress são chamadas para exibir categorias diferentes, arquivos de postagens.
 
-### Etapa 4: FIGO RODO.PHP
+## # Etapa 4: FIGO RODO.PHP
 Adicione as linhas de código abaixo ao arquivo de rodapé.php:
 ```
 <div id= "ttr_footer">
@@ -132,7 +132,7 @@ font-weight: bold;
 ```
 Depois de seguir todas as etapas acima, você terá um tema básico de trabalho do WordPress. Você pode modificá -lo para torná -lo mais bonito e adequado para seus requisitos.
 
-### Conclusão
+## # Conclusão
 Neste tutorial, explicamos como criar tema WordPress em etapas simples e fáceis. Depois de ler e seguir as etapas, a criação de um tema do WordPress não é uma tarefa mais difícil agora. Mas, obviamente, este tutorial se atenha a uma configuração muito básica e, para melhorar, você precisará aprender mais sobre HTML, CSS, JS e PHP.
 
   

@@ -20,7 +20,7 @@ Tratteremo i seguenti punti in questo articolo:
   *[**Che cos'è l'IA generativa e come funziona? Ai generativo spiegato** ][3]
   *[**Benefici commerciali dell'intelligenza artificiale generativa** ][4]
 
-## Che cos'è l'IA generativa e come funziona? Ai generativo ha spiegato   {#what-is-generative-a-how-it-works-generative-a-waslained}}
+## Che cos'è l'IA generativa e come funziona? Ai generativo ha spiegato   {#what-is-generative-a-how-it-works-generative-a-waslained}
 Questo ramo dell'intelligenza artificiale genera contenuti come immagini, testo, audio o video basati su dati esistenti. Il termine "generativo" viene utilizzato correttamente qui perché genera qualcosa di nuovo in base ai database forniti.
 **Intelligenza artificiale generativa ** si basa principalmente sui seguenti due modelli:
 **Modelli basati sul trasformatore: **Questo modello prende l'input dell'utente e genera dati testuali raccolti dalle fonti Internet. CHATGPT è un esempio importante perché  **GPT-3**   (trasformatore pre-addestrato generativo) genera risposte testuali raccolte e compilate da più fonti su Internet.

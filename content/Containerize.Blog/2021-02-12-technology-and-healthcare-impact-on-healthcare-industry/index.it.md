@@ -14,7 +14,7 @@ categories: ['Healthcare Software']
 {{< figure align=center src="images/healthcare.png" alt="tecnologia e assistenza sanitaria">}}
 
 
-Panoramica ##
+Panoramica ## 
 In The Near Past, abbiamo pubblicato alcuni post sul blog su argomenti come [Top 5 Open Source Patient Health Record Software][1], [come installare EHealth System HospitalRun su LocalHost][2], [Funziona l'esplorazione della soluzione di salute medica Openemr][3] e altri altri. Negli ultimi anni, la tecnologia ha cambiato i flussi di lavoro in quasi tutti i campi della vita, incluso l'industria medica. Ci sono molti campi emersi solo pochi anni fa che includono l'intelligenza artificiale, il cloud computing, l'Internet of Things e il settore finanziario. Il settore della tecnologia sanitaria è uno di questi campi sviluppati che è stato completamente digitalizzato con l'avvento del software sanitario open source. Tuttavia, esiste una forte relazione tra tecnologia e assistenza sanitaria.
 I dipartimenti sanitari sono ancora più produttivi ed efficienti di prima a causa della sostituzione della forza lavoro con i sistemi di informazione sanitaria. Esistono un certo numero di  **software sanitario online**  che hanno dato alla luce nuove opportunità e possibilità nel settore pertinente. In questo post sul blog, esploreremo l'impatto della tecnologia e dell'assistenza sanitaria coprendo i seguenti punti.
   * **[Che cos'è la tecnologia sanitaria?][4]**

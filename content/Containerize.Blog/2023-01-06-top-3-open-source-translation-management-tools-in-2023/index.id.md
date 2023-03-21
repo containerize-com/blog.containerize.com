@@ -27,7 +27,7 @@ Alat manajemen terjemahan berikut akan dibahas dalam panduan ini:
 Jika Anda ingin mencobanya, Anda dapat menemukan kodenya di [GitHub][7] repo dengan semua instruksi instalasi yang disebutkan. Sistem manajemen terjemahan gratis ini memiliki kemampuan untuk mengelola beberapa file terjemahan. Selanjutnya, Anda dapat membangun adaptor khusus dan melakukan banyak penyesuaian lainnya untuk memenuhi kebutuhan bisnis Anda. Pada dasarnya, ia melakukan semua proses dengan analisis statis di mana ia menawarkan konsol interaktif kepada pengguna. Selain itu, TMS open source ini memberikan integrasi dengan terjemahan Deepl dan Google.
 **[Pelajari lebih lanjut tentang tugas i18n][5]**
 
-##**Tolgee** {#Tolgee}
+## **Tolgee** {#Tolgee}
 [Tolgee][8] adalah sistem manajemen terjemahan level perusahaan level perusahaan. TMS ini ditulis dalam Kotlin, dan TypeScript dan menawarkan integrasi dengan hampir semua kerangka kerja JavaScript yang populer seperti Next.js, Angular, Vue, dan banyak lagi. Selain itu, TMS gratis ini memiliki semua kode sumber yang tersedia di [GitHub][9] dengan dokumentasi komprehensif mengenai pengembangan dan penyebaran.
 
 {{< figure align=center src="images/tolgeelogo.png" alt="Sistem Manajemen Terjemahan">}}
@@ -42,7 +42,7 @@ Berikut ini adalah fitur penting dari TMS gratis ini:
 .**Kolaborasi**: Ini adalah ketentuan penting lainnya di mana pemangku kepentingan yang berbeda dapat bekerja secara kolaboratif dan meninjau, pekerjaan yang dilakukan oleh orang lain
 [**Pelajari lebih lanjut tentang Tolgee**][8]
 
-##**traduora** {#traduora}
+## **traduora** {#traduora}
 [Traduora][13] adalah perangkat lunak open source lain untuk mengotomatisasi alur kerja terjemahan. TMS gratis ini juga ditulis dalam naskah bersama dengan masukan dari bahasa lain seperti HTML, JavaScript, CSS, dan lainnya. Selain itu, Anda dapat menjadi tuan rumah sendiri karena ada dokumentasi lengkap yang tersedia di GitHub mengenai pengembangan dan penyebarannya. Lebih lanjut, ada gambar Docker yang tersedia dari perangkat lunak manajemen terjemahan open source ini yang dengannya Anda mengatur perangkat lunak ini dengan memutar wadah Docker.
 Di atas segalanya, Traduora telah mengekspos API REST untuk integrasi dengan aplikasi pihak ketiga. Ada implementasi lengkap otentikasi dalam TMS gratis ini.
 Traduora muncul dengan fitur -fitur utama berikut:

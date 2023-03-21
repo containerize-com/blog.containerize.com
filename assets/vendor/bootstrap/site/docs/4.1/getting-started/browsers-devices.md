@@ -31,7 +31,7 @@ You can find our supported range of browsers and their versions [in our `package
 
 We use [Autoprefixer](https://github.com/postcss/autoprefixer) to handle intended browser support via CSS prefixes, which uses [Browserslist](https://github.com/browserslist/browserslist) to manage these browser versions. Consult their documentation for how to integrate these tools into your projects.
 
-### Mobile devices
+## # Mobile devices
 
 Generally speaking, Bootstrap supports the latest versions of each major platform's default browsers. Note that proxy browsers (such as Opera Mini, Opera Mobile's Turbo mode, UC Browser Mini, Amazon Silk) are not supported.
 
@@ -74,7 +74,7 @@ Generally speaking, Bootstrap supports the latest versions of each major platfor
   </tbody>
 </table>
 
-### Desktop browsers
+## # Desktop browsers
 
 Similarly, the latest versions of most desktop browsers are supported.
 
@@ -126,15 +126,15 @@ Internet Explorer 10+ is supported; IE9 and down is not. Please be aware that so
 
 ## Modals and dropdowns on mobile
 
-### Overflow and scrolling
+## # Overflow and scrolling
 
 Support for `overflow: hidden;` on the `<body>` element is quite limited in iOS and Android. To that end, when you scroll past the top or bottom of a modal in either of those devices' browsers, the `<body>` content will begin to scroll. See [Chrome bug #175502](https://bugs.chromium.org/p/chromium/issues/detail?id=175502) (fixed in Chrome v40) and [WebKit bug #153852](https://bugs.webkit.org/show_bug.cgi?id=153852).
 
-### iOS text fields and scrolling
+## # iOS text fields and scrolling
 
 As of iOS 9.2, while a modal is open, if the initial touch of a scroll gesture is within the boundary of a textual `<input>` or a `<textarea>`, the `<body>` content underneath the modal will be scrolled instead of the modal itself. See [WebKit bug #153856](https://bugs.webkit.org/show_bug.cgi?id=153856).
 
-### Navbar Dropdowns
+## # Navbar Dropdowns
 
 The `.dropdown-backdrop` element isn't used on iOS in the nav because of the complexity of z-indexing. Thus, to close dropdowns in navbars, you must directly click the dropdown element (or [any other element which will fire a click event in iOS](https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile)).
 
@@ -166,7 +166,7 @@ As of Safari v8.0, use of the fixed-width `.container` class can cause Safari to
 
 Out of the box, Android 4.1 (and even some newer releases apparently) ship with the Browser app as the default web browser of choice (as opposed to Chrome). Unfortunately, the Browser app has lots of bugs and inconsistencies with CSS in general.
 
-#### Select menu
+## ## Select menu
 
 On `<select>` elements, the Android stock browser will not display the side controls if there is a `border-radius` and/or `border` applied. (See [this StackOverflow question](https://stackoverflow.com/questions/14744437/html-select-box-not-showing-drop-down-arrow-on-android-version-4-0-when-set-with) for details.) Use the snippet of code below to remove the offending CSS and render the `<select>` as an unstyled element on the Android stock browser. The user agent sniffing avoids interference with Chrome, Safari, and Mozilla browsers.
 

@@ -32,16 +32,16 @@ W tej sekcji postu na blogu **Civicrm vs SuiteCrm  **przejdziemy krótko przez k
 ## Civicrm vs Suitecrm   {#vs}
 Do tej pory przeszliśmy przez Civicm, a także przyjrzeliśmy się apartamencie. Teraz narysujemy porównanie między tymi dwoma oprogramowaniem do automatyzacji Open Source **. Przyjrzyjmy się następującym punktom, aby pokryć ten artykuł  **Civicrm vs SuspeCrm** .
 
-#### Cechy
+## ## Cechy
 Jest to najważniejsze zadanie, jeśli chodzi o wybór oprogramowania dla firmy. Na szczęście oba te bezpłatne oprogramowanie do automatyzacji oferują bogaty stos funkcji dla użytkowników. Oba są internetowe i są odpowiednie dla każdego poziomu działalności. CivicRM oferuje integrację z popularnymi platformami i jest łatwy w użyciu do bezpłatnej automatyzacji marketingu. To **narzędzie do automatyzacji marketingu  **oferuje obsługę klienta online wraz z samouczkami wideo. Ponadto oferuje szablony raportów niestandardowych, automatyzacji potwierdzania prezentów i wielu innych. Z drugiej strony, SuSeCRM oferuje obsługę klienta przez telefon, online i bazę wiedzy. To**   bezpłatne oprogramowanie do automatyzacji** ma również szeroki zakres funkcji, które obejmują rozliczenie, fakturowanie, kalkulator ROI i wiele innych.
 
-#### Teck Stack
+## ## Teck Stack
 Jest to kolejny ważny aspekt, kiedy zamierzasz wybrać oprogramowanie typu open source. CivicRM i SuiteCrm są zapisane w PHP i wymagają prawie podobnych wymagań do wdrażania na serwerach lokalnych lub chmur.
 
-#### stała społeczność
+## ## stała społeczność
 Jeśli chodzi o CivicRM, ma 436 gwiazdek i 748 widelców na swoim repozytorium Github. Z drugiej strony SuiteCrm ma 2,8 000 gwiazdek i 1,6 tys. Widelców. Oba te  **Narzędzia do automatyzacji marketingu**  zapewniają kompleksową dokumentację dotyczącą wdrażania i rozwoju.
 
-#### rozszerzalność
+## ## rozszerzalność
 Wreszcie, SuteCrm i CivicRM są bardzo konfigurowalne i oferują integrację z aplikacjami innych firm, które zawierają niektóre aplikacje na poziomie przedsiębiorstwa, takie jak WordPress, Joomla i wiele innych. Ponadto możesz dodawać nowe funkcje zgodnie z potrzebami i zbliżyć się do społeczności programistów, która jest żywa i aktywnie reaguje na zapytania.
 Podobnie możesz odkryć dalsze aspekty i cechy CivicRM i SuiteCrm.
 

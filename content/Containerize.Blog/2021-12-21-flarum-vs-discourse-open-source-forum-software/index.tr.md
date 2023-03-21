@@ -33,16 +33,16 @@ Bu soru-cevap forumu hızlı, güvenilir, hafiftir ve bildirim sistemi, sosyal �
 ## Flarum vs söylem   {#vs}
 Bu bölümde, bu açık kaynaklı forum yazılımlarının her ikisini de söylem ve flarum'u karşılaştırabileceğimiz bir yere koyacağız.
 
-#### Toplum
+## ## Toplum
 Bu ücretsiz soru-cevap forumlarının her ikisi de kullanıcı/geliştiricilerin sorgularına aktif olarak yanıt veren güçlü topluluklara sahiptir. Github istatistikleri hakkında konuşursak, Flarum'un GitHub repo'sunda 12K artı yıldız ve 1K çatal vardır. Diğer tarafta, Söylem Github Repo'sunda 34K Plus Star ve 7K Plus Forks var.
 
-#### Tech Stack
+## ## Tech Stack
 Bu açık kaynaklı forum yazılımının teknolojisi söz konusu olduğunda, söylem Ruby on Rails ve JavaScript'te yazılmıştır. Oysa, flarum PHP'de ve MySQL / MariAdb kombinasyonu ile yazılır.
 
-#### **Özellikler**
+## ## **Özellikler**
 Bu, işletmeniz için herhangi bir yazılım seçimi söz konusu olduğunda en kritik yönüdür. Bu nedenle, bu tartışma forum yazılımlarının her ikisi de kurumsal düzeyde özellikler sunmaktadır. Falrum ve söylem hem sosyal özellikler hem de zengin bildirim sistemleri sunuyor. Buna ek olarak, söylemin neredeyse her türlü eklenti bulabileceğiniz büyük bir eklenti tabanı vardır. Ayrıca, kullanıcılar söylem kontrol panelinin görünümünü ve hissini değiştirebilir. Ayrıca, kullanıcıların üçüncü taraf sosyal girişleri kullanarak oturum açabilecekleri tek oturum açma özellikleri sunar.
 
-#### Genişletilebilirlik
+## ## Genişletilebilirlik
 Bu, herhangi bir yazılımın bir başka önemli özelliğidir. Neyse ki, bu açık kaynaklı forum yazılımlarının her ikisi de genişletilebilir ve geliştiriciler işlevselliği ihtiyaçlara göre kolayca genişletebilir. Her şeyden önce, Söylem üçüncü taraf entegrasyonlar için AP sunuyor.
 
 ## Sonuç   {#Conclusion}

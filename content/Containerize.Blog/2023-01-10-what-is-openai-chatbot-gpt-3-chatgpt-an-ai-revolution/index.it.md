@@ -14,7 +14,7 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/What-is-OpenAI-Chatbot-GPT-3-ChatGPT-an-AI-Revolution.png" alt="Openai Chatbot">}}
 
 
-Panoramica ##
+Panoramica ## 
 
 Nel novembre 2022, [OpenAI1] (an artificial intelligence research & development company) ha lanciato [CHATGPT][2] che consente agli utenti di avere conversazioni simili all'uomo con i robot di intelligenza artificiale. Questo**AI Chatbot**si basa su una terza generazione di GPT (trasformatore pre-allenato generativo) che utilizza**Tecniche di elaborazione naturale**Tecniche per condurre sessioni di domande. Inoltre, questo**Openai Chatbot**ha attirato un'enorme attenzione in tutto il mondo a causa della sua precisione e flusso di dati. Anche nella prima settimana della sua uscita, ha registrato 1 milione di utenti. È stupefacente!
 Questo software di intelligenza artificiale conversazionale è gratuito e puoi [accedere][3] a giocare con esso. Tuttavia, CHATGPT non è ancora open source ma, secondo le notizie, la sua versione open source sarà disponibile nel prossimo futuro. Inoltre, Chatgpt è un chatbot ben addestrato che può interagire con gli umani in modo molto naturale. Molte domande si appariranno nella tua testa su questo**strumento di intelligenza artificiale**. Quindi, andremo qualche miglia davanti a questo articolo e cercheremo di scoprire risposte ad alcune domande interessanti.

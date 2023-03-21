@@ -9,7 +9,7 @@ url: /zh-hant/top-5-open-source-lms-tools-for-business-in-2021/
 categories: ['Learning Management System']
 ---
 
-##使用免費學習管理軟件創建一個電子學習網站。我們彙編了前5個開源學習管理系統（LMS）的列表。
+## 使用免費學習管理軟件創建一個電子學習網站。我們彙編了前5個開源學習管理系統（LMS）的列表。
 
 {{< figure align=center src="images/lms-post-banner.png" alt="前5個開源LMS商業工具">}}
 
@@ -40,7 +40,7 @@ categories: ['Learning Management System']
   *社會學習網絡
   *與第三方工具集成
 
-##帆布 {#canvas}
+## 帆布 {#canvas}
 [**canvas **][10]是另一個開源LMS。它是免費的，旨在使每個人都更輕鬆地教學。 **帆布**是學校，大學和培訓中心的合適**。此外，這是業務的理想LMS。 **帆布LMS **開源系統具有三個核心組件，例如帆布LMS，帆布工作室和帆布目錄。它是安全，可靠且易於與第三方服務集成的。  **Canvas Education軟件** 提供移動應用程序，包括帆布老師，帆布學生和帆布父母。它用Ruby和JavaScript編寫。 **帆布教育平台** 提供了詳細的文檔，其源代碼可通過[ **github** ][11]獲得。 Canvas教育軟件的許可是GNU Affero通用公共許可證。
 另一方面，畫布的一些很酷的功能包括：
   *協作工作區

@@ -14,7 +14,7 @@ categories: ['Software Development']
 {{< figure align=center src="images/cont.png" alt="Vantaggi della containerizzazione">}}
 
 
-Panoramica ##
+Panoramica ## 
 Ciao, lettori! Benvenuti in un altro post sul blog nuovo di zecca e in questo post sul blog, faremo luce su un argomento molto caldo del momento in corso. Negli ultimi anni, le tecniche di sviluppo e distribuzione sono state rivoluzionate in larga misura. La comunità open source ha sviluppato molti software di automazione per automatizzare i processi. Pertanto, la distribuzione delle applicazioni diventa facile e rapida con l'avvento del software di contenitore **e  **Strumenti di orchestrazione del contenitore **  come Kubernetes, Docker e altri. Questi software sono gratuiti, open-source e sono dotati di documentazione completa. Il software container rimuove le cavoli dello sviluppo del software e consente agli amministratori del software di distribuire le applicazioni senza preoccuparsi delle piattaforme e delle altre dipendenze del software. In effetti, i contenitori impacchettano insieme le dipendenze delle applicazioni e il codice sorgente. Allo stesso modo, ci sono molti ** vantaggi della containerizzazione**  che passeremo in questo articolo coprendo i seguenti punti.
   * **[Che cos'è un contenitore in Docker e cos'è la containerizzazione?][1]**
   *[ **Vantaggi del containerizzazione** ][2]
@@ -26,34 +26,34 @@ Docker è un software di container open source che viene utilizzato per semplifi
 ## Vantaggi della containerizzazione   {#Benefits}
 In questa sezione, esploreremo alcuni dei migliori vantaggi della containerizzazione.
 
-Distribuzioni rapide ###
+Distribuzioni rapide ## #
 Nei metodi di distribuzione delle applicazioni tradizionali, gli sviluppatori devono fare serie considerazioni sull'ambiente in cui verrà eseguito il software. Devono impostare manualmente tutte le configurazioni e le dipendenze richieste per assicurarsi della distribuzione riuscita. La containerizzazione ha rimosso questo onere e assunta la responsabilità di gestire le formalità di distribuzione.
 
-### Isolamento
+## # Isolamento
 Questo è il principale vantaggio del containerizzazione poiché le applicazioni in esecuzione in ciascun contenitore sono isolate e inconsapevoli l'una dell'altra. Usano le proprie risorse in modo indipendente e quindi, raggiungono il massimo livello di sicurezza e affidabilità.
 
-###**Consistenza**
+## # **Consistenza**
 Un'immagine Docker contiene tutte le dipendenze del software e si assicura di creare un ambiente coerente su più piattaforme. O è una macchina per sviluppatore o una macchina di produzione sul cloud, la containerizzazione presenta le strutture che forniscono un comportamento coerente della distribuzione delle applicazioni.
 
-### scalabilità
+## # scalabilità
 **Software container** Consente agli sviluppatori di ridimensionare le applicazioni senza influire sull'intera infrastruttura. Gli sviluppatori di software possono riconfigurare l'infrastruttura esistente o possono aggiungere ulteriori contenitori per migliorare le risorse. I processi per ridimensionare le applicazioni richiedono meno sforzi che di conseguenza consentono agli sviluppatori di concentrarsi su altri importanti sviluppi.
 
-### migliore sicurezza
+## # migliore sicurezza
 Poiché esiste un completo isolamento tra tutti i contenitori in esecuzione su una rete in modo che ogni contenitore contenga il proprio livello di sicurezza. Tuttavia, riduce il fattore di rischio di qualsiasi scontro di risorse tra le applicazioni come memoria, archiviazione, CPU e altre risorse di rete.
 
-Portabilità ###
+Portabilità ## #
 Questo è un altro grande vantaggio tra gli altri benefici della containerizzazione. Il containerizzazione rende le applicazioni altamente portatili in quanto indipendenti dalla piattaforma. Gli sviluppatori possono facilmente impostare l'applicazione containerizzata su qualsiasi piattaforma a causa di applicazioni astratte dei contenitori dal sistema operativo host.
 
-###**Conveniente**
+## # **Conveniente**
 Gli strumenti di orchestrazione del contenitore e il software container sono gratuiti e open source. Hanno comunità forti che sono vive e vibranti. L'apprendimento di questi strumenti non è difficile e sono disponibili molti servizi che semplificano le distribuzioni delle applicazioni nel periodo di tempo più breve.
 
-### produttività
+## # produttività
 Il software container gratuito offre un sacco di produttività automatizzando i processi di distribuzione. Inoltre, se si trovano tempi di inattività o maltrattamenti trovati nella produzione, ci sono strumenti di monitoraggio disponibili per questo scopo. Gli sviluppatori di software possono raggruppare il software in un pacchetto e possono condividere ed eseguire subito su qualsiasi piattaforma.
 
-### riusabilità
+## # riusabilità
 La containerizzazione facilita gli utenti con disposizioni di riusabilità. Gli sviluppatori scrivono il codice dell'applicazione aziendale una volta per tutte le piattaforme. Non hanno bisogno di scrivere diversi codici di origine per piattaforme diverse.
 
-### Comunità
+## # Comunità
 Questo è un altro grande vantaggio di containerizzazione. C'è un enorme supporto disponibile dalla comunità e gli utenti possono cercare una guida a qualsiasi livello. Soprattutto, c'è uno spazio chiamato [Docker Hub][5] in cui gli utenti possono creare, condividere e tirare le applicazioni e i servizi di containerizzare.
 
 ## osservazioni finali   {#final}

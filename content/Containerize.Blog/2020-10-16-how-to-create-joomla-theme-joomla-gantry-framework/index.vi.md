@@ -14,7 +14,7 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomla-gantry-framework.png" alt="Gantry Joomla">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Chúng tôi đã xuất bản một số bài viết về các chủ đề như [Hướng dẫn phát triển mẫu Joomla cho người mới bắt đầu][1], [tích hợp Maitic Drupal để tự động hóa Nurturing chính][2], [Tích hợp Mautic & Joomla cho tự động hóa tiếp thị kỹ thuật số][3] , và hơn thế nữa, vì vậy chúng tôi sẽ tập trung vào việc tạo chủ đề với**Khung Gantry**trong hướng dẫn này. Gantry Framework là một nhà xây dựng mẫu nguồn mở được sử dụng để xây dựng bố cục mức độ đáp ứng và cấp doanh nghiệp cho [Joomla][4] và [WordPress][5]. Cộng đồng nguồn mở đã phát triển một loạt các hệ thống quản lý nội dung cung cấp các khả năng xây dựng chủ đề phong phú. Khung Gantry cho Joomla là một trong những khung chủ đề phổ biến nhất. Xây dựng một trang web bắt mắt và hấp dẫn là một thành phần quan trọng của bất kỳ doanh nghiệp nào. Tuy nhiên, thời gian yêu cầu xây dựng hoặc sửa đổi các trang web như vậy là một khía cạnh quan trọng khác.
 Do đó, Khung Gantry Joomla cung cấp các điều khoản để tăng tốc quá trình phát triển bố cục. Trên hết, nó cũng loại bỏ sự bắt buộc của việc được trang bị kỹ năng mã hóa hoặc lập trình. Mặt khác, quá trình cài đặt của các khung như vậy khá dễ dàng và đơn giản. Chúng có sẵn dưới dạng plugin cho hầu hết các hệ thống quản lý nội dung hàng đầu như WordPress và Joomla. Trong hướng dẫn khung Gantry này, chúng tôi sẽ đề cập đến các điểm sau:
 * [**Khung Gantry cho Joomla là gì?**][6]

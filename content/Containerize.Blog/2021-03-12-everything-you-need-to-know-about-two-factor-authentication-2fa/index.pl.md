@@ -186,7 +186,7 @@ Kod Krok 4 jest weryfikowany, a uwierzytelnianie 2FA zostało zakończone.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo - autoryzowana strona">}}
 
 
-### Wniosek:
+## # Wniosek:
 W tym artykule dowiedzieliśmy się o 2FA i jego wdrożeniu w .NET5 przy użyciu IdentityServer4 i Twilio. Możesz pobrać przykładowy kod użyty w tym artykule z tego [Repo][6].
 Używanie SMS dla 2FA z pewnością wzmacnia twoje bezpieczeństwo, ale nadal jest podatne na [ataki zamiany SIM][7]. Dlatego badacze bezpieczeństwa zachęcają 2FA do korzystania z innych podejść, takich jak aplikacje uwierzytelniające i klucze bezpieczeństwa ([Yubikey][8]), których w sieci telefonicznej nie można przechwycić. Dowiemy się więcej o tym w nadchodzącym artykule - bądźcie czujni!
 

@@ -14,7 +14,7 @@ categories: ['Animation Software']
 {{< figure align=center src="images/synfigvspencil2d.png" alt="Recensione Synfig">}}
 
 
-Panoramica ##
+Panoramica ## 
 Ciao lettori! Spero che stiate andando alla grande. Questo è un nuovissimo post sul blog sul confronto di **[ **synfig ** ][1] **recensione con la **  [matin2d][2] **recensione. Nel nuovo passato, abbiamo pubblicato alcuni articoli su argomenti come **  [come creare animazioni con software di animazione matil2d][3]**,  **[Top 5 software di animazione open source nel 2021][4]** , **, e ** [tutorial synfig | Un software di animazione 2D open source][5]** . Costruire video animati è divertente ed è diventato un bisogno di tempo. In effetti, è molto facile memorizzare ed elaborare i contenuti video rispetto al contenuto testuale e audio. C'è stato un immenso cambiamento nel marketing digitale in tutto il mondo. Inoltre, vediamo aziende che fanno video commercializzazione dei loro prodotti su quasi tutte le piattaforme di social media popolari come [Facebook][6], [YouTube][7], [Instagram][8] e [Snapchat][9].
 Pertanto, prendi una decisione saggia e adotta un buon software di animazione open source. Fortunatamente, la comunità open source è vibrante e ha sviluppato software di animazione gratuito a livello aziendale. Esistono software di animazione 3D e 3D che sono dotati di una vasta gamma di funzionalità come rendering senza soluzione di continuità, piattaforma multipla, animazione disegnata a mano e opere d'arte bitmap. In questo post sul blog, passeremo attraverso la recensione **synfig  **e**   recensione di matil2d**. Quindi trarremo un confronto di entrambi i software di animazione open source coprendo i seguenti punti.
   * **[come usare synfig?][10]**

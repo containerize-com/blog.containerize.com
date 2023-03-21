@@ -38,7 +38,7 @@ Postal Mail Serverには多くの機能があります。ただし、この記�
 sudo apt-get update
 ```
 
-### Mariadbデータベースサーバーをインストールします
+## # Mariadbデータベースサーバーをインストールします
   *コマンドを実行してMariadbをインストールします。
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +78,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-### Rubyをインストールします
+## # Rubyをインストールします
   *まず、サードパーティPPAを追加してRubyをインストールします。次のコマンドを実行します。
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +93,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-### rabbitmqをインストールします
+## # rabbitmqをインストールします
   * erlangはrabbitmqをインストールする必要があるため、インストールする必要があります。以下のコマンドを使用して、ubuntuにerlangリポジトリキーを追加します。
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +132,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-### nodejsをインストールします
+## # nodejsをインストールします
   *次のコマンドでnodejsリポジトリを追加します。
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +142,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-### 郵便郵便サーバーをインストールします
+## # 郵便郵便サーバーをインストールします
   *最初に、郵便メールサーバー用のユーザーを作成する必要があります。次のコマンドで作成します。
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -257,7 +257,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-### nginxをインストールします
+## # nginxをインストールします
   *以下のコマンドを実行して、Nginx Webサーバーをインストールします。
 ```
 sudo apt install nginx

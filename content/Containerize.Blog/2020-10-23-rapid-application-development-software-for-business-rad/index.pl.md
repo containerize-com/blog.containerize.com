@@ -50,7 +50,7 @@ Zobaczmy, jakie są korzyści, które możemy uzyskać, przyjmując oprogramowan
 ***Natychmiastowa poprawka**- W rzeczywistości istnieją zespoły wsparcia produkcyjnego pracujące nad naprawą błędów. Jednak w tym modelu, ilekroć znaleziono niewłaściwe, programiści naprawiają je w szybszym czasie.
 ***Najnowsze technologie**- To ogromna zaleta modelu RAD, że zespoły programistów mogą przyjąć i przetestować najnowsze narzędzia i technologie na każdym etapie.
 
-##**Wniosek** {#Conclusion}
+## **Wniosek** {#Conclusion}
 Oto koniec tego samouczka. Istnieje wiele modeli rozwoju oprogramowania, takich jak model wodospadu, model spiralny, model w kształcie litery V, model zwinny i inne. Tak więc przyjęcie dowolnego modelu zależy od twoich przypadków użycia i charakteru oprogramowania. Dlatego ten post na blogu naprawdę pomoże ci, jeśli chcesz przyjąć model RAD dla swojej firmy. Niezależnie od platformy istnieje kilka oprogramowania do programowania szybkiego aplikacji typu open source, które oferuje możliwości międzyplatformowe z narzędziami programistycznymi. Istnieją inne oprogramowanie do szybkiego prototypowania dostępne w poniższej sekcji „eksploruj”, które wykonują metodologie RAD. Jest to najwyższy czas, aby przyjąć to opłacalne i solidne podejście do opracowania oprogramowania biznesowego gotowego do produkcji.
 Ostatecznie [Containerize.com][9] jest w ciągłym procesie wprowadzania open source [RAD Software][1]. Postępuj zgodnie z tą kategorią [Rapid Application][1] w celu regularnych aktualizacji. Ponadto oprogramowanie wymienione poniżej w sekcji Explore jest open source, bezpłatne i samodzielne. Wszystkie te**generatory kodów źródłowych**mają kompleksową dokumentację dotyczącą rozwoju i wdrażania.
 

@@ -9,7 +9,7 @@ url: /ko/everything-you-need-to-know-about-two-factor-authentication-2fa/
 categories: ['Single Sign-On']
 ---
 
-##이 기사에서는 IdentityServer4 및 SMS 제공 업체 (Twilio)와 같은 Identity Frameworks를 사용하여 .NET 5에서 구현할 수있는 2 단계 인증을 자세히 설명합니다.
+## 이 기사에서는 IdentityServer4 및 SMS 제공 업체 (Twilio)와 같은 Identity Frameworks를 사용하여 .NET 5에서 구현할 수있는 2 단계 인증을 자세히 설명합니다.
 {{_LINE_11_}}
 다음 섹션이 포함되어 있습니다.
   * [2 요인 인증이란 무엇입니까? ][1]
@@ -186,7 +186,7 @@ STEP-4 코드가 확인되고 2FA 인증이 완료되었습니다.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo- 공인 페이지">}}
 
 
-### 결론:
+## # 결론:
 이 기사에서는 IdentityServer4 및 Twilio를 사용하여 2FA와 .NET5의 구현에 대해 배웠습니다. 이 기사에서 사용 된 샘플 코드를이 [Repo][6]에서 다운로드 할 수 있습니다.
 2FA에 SMS를 사용하면 보안이 반드시 강화되지만 여전히 [SIM 스왑 공격]에 취약합니다 [7]. 따라서 보안 연구원들은 2FA가 전화 네트워크에서 가로 채지 못하는 인 Apperenticator 앱 및 보안 키 ([Yubikey][8])와 같은 다른 접근법을 사용하도록 권장하고 있습니다. 우리는 다가오는 기사에서 그에 대해 더 많이 배울 것입니다 - 계속 지켜봐 주시기 바랍니다!
 

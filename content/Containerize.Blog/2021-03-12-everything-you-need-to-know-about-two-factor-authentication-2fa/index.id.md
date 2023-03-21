@@ -186,7 +186,7 @@ Kode Langkah-4 diverifikasi dan otentikasi 2FA telah selesai.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2Fademo - Halaman Resmi">}}
 
 
-### Kesimpulan:
+## # Kesimpulan:
 Dalam artikel ini, kami telah belajar tentang 2FA dan implementasinya di .net5 menggunakan IdentityServer4 dan Twilio. Anda dapat mengunduh kode sampel yang digunakan dalam artikel ini dari [repo] ini [6].
 Menggunakan SMS untuk 2FA pasti memperkuat keamanan Anda tetapi masih rentan terhadap [serangan swap sim][7]. Oleh karena itu, peneliti keamanan mendorong 2FA untuk menggunakan pendekatan lain seperti aplikasi authenticator dan kunci keamanan ([yubikey][8]) yang tidak dapat dicegat di jaringan telepon. Kami akan belajar lebih banyak tentang itu di artikel yang akan datang - tetaplah disini!
 

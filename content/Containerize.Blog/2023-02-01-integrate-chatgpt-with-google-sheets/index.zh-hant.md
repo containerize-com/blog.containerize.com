@@ -9,7 +9,7 @@ url: /zh-hant/integrate-chatgpt-with-google-sheets/
 categories: ['Artificial intelligence']
 ---
 
-##通過Chatgpt和Google表集合解鎖自動化的功能。 OpenAI GPT-3提供了AI驅動的對話，文本完成和搜索功能。
+## 通過Chatgpt和Google表集合解鎖自動化的功能。 OpenAI GPT-3提供了AI驅動的對話，文本完成和搜索功能。
 
 {{< figure align=center src="images/How-to-Integrate-ChatGPT-with-Google-Sheets.png" alt=" 將Chatgpt與Google床單整合在一起">}}
 
@@ -21,7 +21,7 @@ categories: ['Artificial intelligence']
   *[**如何將Chatgpt與Google表集成？**][6]
   *[**如何在Google表中使用Chatgpt？**][7]
 
-##如何將ChatGpt與Google表集成 {#how-to-integrate-chatgpt-with-google-sheets}
+## 如何將ChatGpt與Google表集成 {#how-to-integrate-chatgpt-with-google-sheets}
 **chatgpt集成**與任何軟件肯定會為企業帶來競爭優勢。一個可以開始雙向對話會話的AI驅動模型，然後將其嵌入軟件，該集成的功能能力有多強大？當然很棒。因此，您向聊天機器人詢問問題的技術解決方案，然後及時獲得響應，這在節省時間和精力方面意味著很多。
 讓我們開始這個 **Google表與Chatgpt集成。** 
 首先，打開Google [Sheets][3]，然後單擊**“ Extensions->添加 - >獲取附加組件”**。這樣做後，您將在Google Workspace Marketplace上看到一個對話框。現在，在放置在右上角的搜索欄中鍵入“ chatgpt”，然後選擇第一個選項，如下圖所示。
@@ -35,7 +35,7 @@ categories: ['Artificial intelligence']
 {{< figure align=center src="images/Screenshot-2023-01-31-at-10.05.17-PM-1024x605.png" alt="chatgpt集成">}}
 
 
-##如何在Google表中使用Chatgpt？   {#操作 - 使用chatgpt-in-google-sheets}
+## 如何在Google表中使用Chatgpt？   {#操作 - 使用chatgpt-in-google-sheets}
 設置了OpenAI API鍵後，您就可以利用此功能強大的** chatgpt和Google表集成。
 例如，您可以要求此AI驅動的聊天機器人通過以下方式調用該功能來編寫汽車的產品描述：
 ```
@@ -61,7 +61,7 @@ categories: ['Artificial intelligence']
 ## 問一個問題
 您可以在我們的[論壇][14]上讓我們知道您的問題或查詢。
 
-##常見問題解答
+## 常見問題解答
 **如何在Google表中啟用聊天？**
 Chatgpt是AI驅動的，並以對話方式進行交互。您可以通過導航到此[link][6]將Chatgpt與Google表格集成在一起。
 

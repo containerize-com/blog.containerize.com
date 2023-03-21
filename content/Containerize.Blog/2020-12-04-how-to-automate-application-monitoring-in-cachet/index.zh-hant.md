@@ -19,11 +19,11 @@ categories: ['Status Page']
   * [創建Linux服務][3]
   * [結論][4]
 
-##要求 {#requirements}
+## 要求 {#requirements}
 * 安裝最新版本的Cachet。
 * 熟悉Linux服務。
 
-##設置監視插件 {#plugin}
+## 設置監視插件 {#plugin}
 以下步驟是在Ubuntu上安裝和配置用於監視的插件。
 * 從[發行頁][5]下載二進製文件。
 * 將文件重命名為cachet-monitor。
@@ -76,7 +76,7 @@ cachet-monitor -c config.json
 ```
 * 如果一切正常，請移至下一節並創建Linux服務。
 
-##創建Linux服務 {#Service}
+## 創建Linux服務 {#Service}
 以下步驟是創建和啟動Linux服務以自動化監視過程。
 * 創建服務**cachet-monitor.service**文件。
 ```
@@ -110,7 +110,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable cachet-monitor.service
 ```
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 Cachet A是免費的，並且**開源狀態頁**系統。但是，它沒有為**Web應用程序監視**提供開箱即用的功能。取而代之的是，它具有強大的REST API，可用於執行諸如事件，組件，組等之類的動作。在本文中，我們使用第三方插件來自動化CACHET的應用程序監視。最重要的是，您可以開發自己的插件或使用任何其他現有插件來完成這項工作。
 此外，[Containerize.com][6]正在以多種語言和框架來增強開源產品的堆棧。有關定期更新，請繼續關注[狀態頁][7]類別，以獲取更多有趣的文章。
 

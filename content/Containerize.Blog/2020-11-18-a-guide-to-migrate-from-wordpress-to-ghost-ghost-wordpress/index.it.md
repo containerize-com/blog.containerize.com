@@ -24,13 +24,13 @@ Quindi, più utenti**migrano da WordPress a Ghost**. Ci sono molti contenuti che
 * **[Importa contenuto in fantasma][7]**
 * **[Conclusione][8]**
 
-##**A Briedf Intro di WordPress** {#WP}
+## **A Briedf Intro di WordPress** {#WP}
 [WordPress][9] è una piattaforma di blogging open source leader che ha alimentato un numero enorme di siti Web. Questo software di blogging gratuito è ospitato da soli, multilingue e fornisce supporto per molte lingue. Inoltre, la comunità di sviluppo di WordPress è altamente vibrante e ha sviluppato un pool gigantesco di plug -in utili che sono facilmente disponibili. Questi plugin affrontano quasi ogni caso d'uso del tuo sito Web aziendale. Inoltre, è scritto in PHP e viene fornito una documentazione completa per quanto riguarda lo sviluppo e la distribuzione. Tutto il codice sorgente è disponibile su GitHub. Inoltre, questa piattaforma di blogging è altamente estensibile, configurabile e fornisce integrazioni con applicazioni di terze parti. Esiste una dashboard molto logica e facile da capire in cui gli utenti possono trascinare elementi per modificare l'aspetto dei loro siti Web.
 
-##**Cos'è fantasma?** {#ghost}
+## **Cos'è fantasma?** {#ghost}
 [Ghost][10] è un'altra popolare piattaforma di blog open source. Questa è una delle piattaforme editoriali di contenuti più utilizzate che sono fortemente adottate da sviluppatori e proprietari di siti. Inoltre, Ghost è altamente amichevole e viene fornito con temi, forme, newsletter e-mail e abbonamenti integrati. Questo software di blogging gratuito è scritto in JavaScript e tutta la documentazione è disponibile per quanto riguarda lo sviluppo e la distribuzione.
 
-Requisiti ##  {#Requirements}
+Requisiti ## {#Requirements}
 Nella sezione del tutorial di Ghost WordPress, vedremo i requisiti necessari per migrare da WordPress a Ghost. Con il plug -in di esportazione WordPress ufficiale, puoi facilmente migrare i tuoi contenuti da WordPress a Ghost. In questo tutorial, ti guideremo su come esportare i tuoi contenuti da WordPress in un sito fantasma. Quindi, è necessario avere un'installazione di funzionamento di WordPress e WordPress**Plugin di esportazione**installato.
 
 ## Contenuto di esportazione da WordPress   {#export}

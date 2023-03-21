@@ -26,34 +26,34 @@ Docker ist eine Open-Source-Container-Software, mit der die Bereitstellung von A
 ## Vorteile der Containerisierung   {#Benefits}
 In diesem Abschnitt werden wir einige der Top -Vorteile der Containerisierung untersuchen.
 
-### Schnelle Bereitstellungen
+## # Schnelle Bereitstellungen
 In den traditionellen Methoden zur Bereitstellung von Anwendungen müssen Entwickler ernsthafte Überlegungen bezüglich der Umgebung vornehmen, in der Software ausgeführt wird. Sie müssen alle erforderlichen Konfigurationen und Abhängigkeiten manuell einrichten, um sicherzustellen, dass die erfolgreiche Bereitstellung. Die Containerisierung hat diese Belastung beseitigt und die Verantwortung übernommen, um die Formalitäten der Bereitstellung zu bewältigen.
 
-### Isolation
+## # Isolation
 Dies ist der Hauptvorteil von Containerisierung, da Anwendungen, die in jedem Container ausgeführt werden, isoliert und nicht bewusst sind. Sie nutzen ihre eigenen Ressourcen unabhängig und erreichen daher ein größtes Sicherheitsgrad und Zuverlässigkeit.
 
-### **Konsistenz** 
+## # **Konsistenz** 
 Ein Docker -Image enthält alle Softwareabhängigkeiten und stellt sicher, dass eine konsistente Umgebung über mehrere Plattformen hinweg erstellt wird. Entweder handelt es sich um die Maschine eines Entwicklers oder eine Produktionsmaschine in der Cloud. Containerisierung erfolgt mit den Einrichtungen, die ein konsistentes Verhalten der Anwendungsbereitstellung vermitteln.
 
-### Skalierbarkeit
+## # Skalierbarkeit
 **Container -Software**  ermöglicht es Entwicklern, Anwendungen zu skalieren, ohne die gesamte Infrastruktur zu beeinflussen. Softwareentwickler können die vorhandene Infrastruktur neu konfigurieren oder weitere Container hinzufügen, um die Ressourcen zu verbessern. Die Prozesse zur Skalierung von Anwendungen erfordern weniger Anstrengungen, mit denen sich Entwickler auf andere wichtige Entwicklungen konzentrieren können.
 
-### Bessere Sicherheit
+## # Bessere Sicherheit
 Da es bei allen Containern, die in einem Netzwerk ausgeführt werden, vollständig isoliert werden, enthält jeder Container eine eigene Sicherheitsschicht. Es verringert jedoch den Risikofaktor eines Ressourcenkonflikts zwischen den Anwendungen wie Speicher-, Speicher-, CPU- und anderen Netzwerkressourcen.
 
-### Portabilität
+## # Portabilität
 Dies ist ein weiterer großer Vorteil unter den anderen Vorteilen der Containerisierung. Containerisierung macht Anwendungen mit plattformunabhängigen Anwendungen hoch tragbar. Entwickler können die Containeranwendung auf jeder Plattform aufgrund der abstrakten Container -Anwendungen aus dem Host -Betriebssystem problemlos einrichten.
 
-### **Kosteneffizient**
+## # **Kosteneffizient**
 Container -Orchestrierungswerkzeuge und Containersoftware sind kostenlos und Open Source. Sie haben starke Gemeinschaften, die lebendig und lebendig sind. Das Erlernen dieser Tools ist nicht schwierig und es gibt viele Dienste, die in kürzester Zeit die Bereitstellung von Anwendungen erleichtern.
 
-### Produktivität
+## # Produktivität
 Kostenlose Container -Software bringt eine Menge Produktivität durch Automatisierung der Bereitstellungsprozesse. Wenn in der Produktion Ausfallzeiten oder Misshandlungen vorhanden sind, stehen zu diesem Zweck Überwachungsinstrumente zur Verfügung. Softwareentwickler können die Software in einem Paket bündeln und direkt auf jeder Plattform freigeben und ausführen.
 
-### Wiederverwendbarkeit
+## # Wiederverwendbarkeit
 Die Containerisierung erleichtert den Benutzern die Wiederverwendbarkeitsbestimmungen. Entwickler schreiben den Code der Geschäftsanwendung einmal für alle Plattformen. Sie müssen keine verschiedenen Quellcodes für verschiedene Plattformen schreiben.
 
-### Gemeinschaft
+## # Gemeinschaft
 Dies ist ein weiteres großes Plus der Containerisierung. Die Community gibt enorme Unterstützung und Benutzer können auf jeder Ebene Anleitungen suchen. Vor allem gibt es einen Platz namens [Docker Hub][5], in dem Benutzer die Container -Anwendungen und -Dienste erstellen, teilen und ziehen können.
 
 ## Abschlussbemerkungen   {#Final}

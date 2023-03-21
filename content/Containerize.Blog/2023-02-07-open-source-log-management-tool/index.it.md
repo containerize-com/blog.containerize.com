@@ -14,7 +14,7 @@ categories: ['Deployment Tools', 'DevOps']
 {{< figure align=center src="images/Why-Do-You-Need-an-Open-Source-Log-Management-Tool.png" alt="Strumento di gestione dei registri open source">}}
 
 
-Panoramica ##
+Panoramica ## 
 Questo post sul blog è per te, sia che tu sia uno sviluppatore o un professionista [DevOps][1]. I sistemi operativi o le applicazioni software eseguono varie attività che a volte dipendono da applicazioni di terze parti. Inoltre, le applicazioni in esecuzione in ambienti di produzione richiedono un sistema completo di tracciamento e registrazione dei dettagli del malfunzionamento o della rottura. Pertanto, quasi tutto il software viene fornito con un sistema di registrazione in cui i dettagli di tutti gli eventi sono archiviati in un file. Gli amministratori di sistema o gli sviluppatori di software si riferiscono quindi a questo file di registro delle attività per tracciare qualsiasi errore in caso di arresto anomalo. In questo scenario, hai sicuramente bisogno di software per **Event Log Management **. In questo post sul blog, esploreremo la necessità di uno strumento [Open-Source][2]**  Log Management per qualsiasi software aziendale.**
 I seguenti punti saranno trattati in questo articolo:
   *[ **Cos'è un sistema di gestione dei registri?** ][3]

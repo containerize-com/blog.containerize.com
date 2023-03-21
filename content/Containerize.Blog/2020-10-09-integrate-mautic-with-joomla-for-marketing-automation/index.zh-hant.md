@@ -14,14 +14,14 @@ categories: ['Content Management', 'Marketing Automation']
 {{< figure align=center src="images/banner-mautic-1200x628-1-1024x536.png" alt="Mautic和Joomla整合">}}
 
 
-##這種集成如何幫助您的業務：
+## 這種集成如何幫助您的業務：
 Mautic和Joomla集成將使您以非常簡單但高效的方式推銷產品/服務。 Mautic一種免費的開源營銷解決方案使您可以很好地控制營銷活動，並且根據情況繼續進行滴水活動非常簡單。例如：它為您提供信息，即如果客戶已閱讀了電子郵件或訪問了您的產品頁面。使用該信息，您可以設置廣告系列，以決定是否繼續向該客戶發送下一封電子郵件。這種集成將有助於數字營銷自動化。這篇博客文章將指導您以下各節：
   * [概述][1]
   * [JOOMLA插件安裝][2]
   * [Mautic配置][3]
   * [結論][4]
 
-##概述： {#overview}
+## 概述： {#overview}
 Mautic是一種開源營銷自動化系統。這是一個免費的營銷軟件。您可以使用它來創建無限的廣告系列，以向目標客戶發送營銷電子郵件。
 Joomla還是用於開發網站的免費開源內容管理系統。在Joomla上設置您的業務網站非常容易。它具有數千個擴展名，可根據您的要求使用。
 
@@ -58,7 +58,7 @@ Joomla還是用於開發網站的免費開源內容管理系統。在Joomla上�
 {{< figure align=center src="images/Mautic-and-Joomla-integration-1024x591.png" alt="Mautic和Joomla整合">}}
 
 
-##結論： {#conclusion}
+## 結論： {#conclusion}
 在本文中，我們討論了Mautic和Joomla如何共同幫助數字營銷自動化。這種開源的免費營銷解決方案將使您可以將來自Joomla網站的所有聯繫人分組，並使用它們進行營銷活動。 Mautic允許您創建細分市場，因此您可以根據需要在不同的細分市場上運行不同的廣告系列。請檢查[Joomla][7]和[Mautic][8]博客以獲取詳細概述。
 
 ## 探索：

@@ -40,7 +40,7 @@ Es wird Ihre Erlaubnis einholen, auf Ihr Google -Konto zuzugreifen. Führen Sie 
 
 Schließlich wurde der OpenAI GPT-3 in Ihren Google-Dokumenten installiert und Sie können mit der Nutzung von Google Docs Automation beginnen.
 
-## Verwenden Sie ChatGPT und Google Docs   {#starten-use-Chatgpt-and-Google}}
+## Verwenden Sie ChatGPT und Google Docs   {#starten-use-Chatgpt-and-Google}
 Es ist Zeit, diese Google DOCS -Automatisierung zu verwenden. Auf diesem Zweck wird eine neue Registerkarte geöffnet, indem Sie auf „Extensions-> App-Skript“ klicken. Kopieren Sie nun den folgenden Code in den Code -Editor.
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 Ersetzen Sie im obigen Kern die "xxxxxxxxxxxxxxxxx" durch Ihre OpenAI -API -Taste. Speichern Sie als Nächstes die Datei und klicken Sie in der oberen Mitte des Code -Editors auf "Ausführen" und schließen Sie das Fenster.

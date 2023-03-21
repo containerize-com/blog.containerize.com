@@ -15,10 +15,10 @@ Cách tạo chủ đề WordPress là một trong những truy vấn hàng đầ
   * [Yêu cầu][1]
   * [Hướng dẫn từng bước][2]
 
-### Yêu cầu   {#Requirements}
+## # Yêu cầu   {#Requirements}
 Điều đầu tiên và quan trọng nhất bạn cần làm là, cài đặt WordPress. WordPress nổi tiếng vì dễ cài đặt. Đó là một quá trình đơn giản và có thể tự mình thực hiện dễ dàng bằng cách làm theo [hướng dẫn][3].
 
-### Cách tạo chủ đề WordPress; Hướng dẫn từng bước   {#Guide}
+## # Cách tạo chủ đề WordPress; Hướng dẫn từng bước   {#Guide}
 Đối với chủ đề WordPress, mọi thứ sẽ được thực hiện trong thư mục**wp_content**. Chỉ cần tạo một thư mục con chủ đề mới trong thư mục**wp_content → chủ đề.**Hãy để giả sử bạn đặt tên cho nó**.
 Điều thứ hai là quyết định bố cục của chủ đề. Ở đây, hướng dẫn đang hiển thị bố cục cơ bản bao gồm**tiêu đề, khu vực chính, chân trang, thanh bên**.
 Về cơ bản, WordPress chỉ cần 2 tệp, tức là style.css và index.php. Nhưng, đối với bố cục này, bạn cần**5 tệp**, như sau;
@@ -32,7 +32,7 @@ Về cơ bản, WordPress chỉ cần 2 tệp, tức là style.css và index.php
 * * BootStrap.js**và**BootStrap.css**Cần được tải xuống từ gói Bootstrap và sao chép vào thư mục**chủ đề**.
 Dưới đây là các bước để làm theo chủ đề thiết lập
 
-### Bước 1: Tệp tiêu đề.php
+## # Bước 1: Tệp tiêu đề.php
 Đặt mã sau trong tệp Header.php.
 ```
 <html>
@@ -57,7 +57,7 @@ Dưới đây là các bước để làm theo chủ đề thiết lập
 ```
 Tệp này tiêu đề.php chứa mã cho phần tiêu đề trong đó tệp JS và kiểu được liên kết. Nó hiển thị tiêu đề của trang.
 
-### Bước 2: Tệp index.php
+## # Bước 2: Tệp index.php
 Đặt mã sau vào tệp chính Index.php
 ```
 <?php get_header(); ?>
@@ -83,7 +83,7 @@ Tệp này tiêu đề.php chứa mã cho phần tiêu đề trong đó tệp JS
 ```
 Mã trên hiển thị nội dung chính của bài, thanh bên và chân trang.
 
-### Bước 3: Tệp Sidebar.php
+## # Bước 3: Tệp Sidebar.php
 Thêm mã sau trong thanh bên.php
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +95,7 @@ Thêm mã sau trong thanh bên.php
 ```
 Trong mã trên, các chức năng WordPress nội bộ được gọi để hiển thị các danh mục khác nhau, Lưu trữ các bài đăng.
 
-### Bước 4: Tệp footer.php
+## # Bước 4: Tệp footer.php
 Thêm các dòng mã bên dưới vào tệp footer.php:
 ```
 <div id= "ttr_footer">
@@ -132,7 +132,7 @@ font-weight: bold;
 ```
 Sau khi làm theo tất cả các bước trên, bạn sẽ có một chủ đề WordPress làm việc cơ bản. Bạn có thể sửa đổi nó hơn nữa để làm cho nó đẹp hơn và phù hợp với yêu cầu của bạn.
 
-### Phần kết luận
+## # Phần kết luận
 Trong hướng dẫn này, chúng tôi đã giải thích cách tạo chủ đề WordPress theo các bước đơn giản và dễ dàng. Sau khi đọc và làm theo các bước tạo ra một chủ đề WordPress không phải là nhiệm vụ khó khăn hơn bây giờ. Nhưng, rõ ràng hướng dẫn này gắn liền với thiết lập rất cơ bản và để tăng cường trên nó, bạn sẽ phải tìm hiểu thêm về HTML, CSS, JS và PHP.
 
   

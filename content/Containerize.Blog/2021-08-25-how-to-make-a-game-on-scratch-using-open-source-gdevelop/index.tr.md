@@ -14,7 +14,7 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/gdevelop-game.png" alt="Scratch'da bir oyun nasıl yapılır">}}
 
 
-##  **Genel Bakış ** 
+## **Genel Bakış ** 
 Yakın geçmişte, [2021 yılında Top 5 Ücretsiz Oyun Geliştirme Yazılımı][1], [Superpowers kullanarak Oyun Gelişimine Başlamak][2], [Game Geliştirme Eğitimi | GDEVANP'DA PLAYER hareketi][3], [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi][4], [Global Oyun Endüstrisi Nasıl Açık Kaynak Yazılımdan yararlanıyor][5] ve [Yeni Başlayanlar için Gdepelple Eğitimi][6. ]. İnternet çağındaki son gelişmeler video oyun endüstrisinde yeni trendler getirdi. Açık kaynaklı bir oyun oluşturma platformu, oyunları bağımsız olarak geliştirmek için eksiksiz bir ekosistem sağlar ve geliştiriciler bu platformu ihtiyaçlara göre olgunlaştırır. Bu blog yazısında, aşağıdaki noktaları kapsayarak [Gdeelop][7] kullanarak bir oyunun çizikte nasıl yapılacağını öğreneceğiz.
   * **[Neden Gdecop kullanmalıyız?][8] ** 
   * **[Projenin kurulması][9] ** 

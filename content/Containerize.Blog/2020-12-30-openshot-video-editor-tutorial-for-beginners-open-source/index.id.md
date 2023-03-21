@@ -45,7 +45,7 @@ Di sisi kanan, ada jendela di mana Anda dapat bermain dan menguji perubahan. Ada
 
 Jika Anda mengklik kanan pada klip di timeline dan pergi ke properti, panel akan terbuka di sisi kiri yang berisi opsi canggih terkait dengan efek video, animasi, dan banyak lagi.
 
-###### Setelah selesai dengan pengeditan, Anda dapat mengekspor/mengunduh video dari tombol merah di bilah opsi atas.
+## ## ## Setelah selesai dengan pengeditan, Anda dapat mengekspor/mengunduh video dari tombol merah di bilah opsi atas.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="Editor Video OpenShot">}}
 

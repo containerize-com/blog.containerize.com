@@ -33,11 +33,11 @@ Bir geliştirici makinesi, sahne veya canlı sunucu ve hangi işletim sisteminin
 
 ## Docker Compose nasıl yüklenir   {#install}
 
-### Önkoşullar
+## # Önkoşullar
 WordPress'i Docker kapları ile oluşturulan izole edilmiş bir ortamda kolayca çalıştırmak için Docker Compose'u kullanabilirsiniz. Bu kılavuz, WordPress'i ayarlamak ve çalıştırmak için Compose'un nasıl kullanılacağını gösterir.
 Docker Compose, Docker motoruna dayanır, bu nedenle Docker motoru takıldığınızdan emin olun. Mac ve Windows için Docker Desktop gibi masaüstü sistemlerinde Docker Compose, bu masaüstü yüklerinin bir parçası olarak dahil edilir. Bununla birlikte, önce Linux Systems'a, [resmi rehberleri][9] izleyerek Docker motorunu takın.
 
-### Linux'a besteyi yükleyin
+## # Linux'a besteyi yükleyin
 Docker Compose'un mevcut kararlı sürümünü indirmek için bu komutu çalıştırın:
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -51,7 +51,7 @@ Sürüm komutunu çalıştırarak kurulumu test edin:
 docker-compose --version
 ```
 
-### WordPress için bir DockerFile tanımlayın
+## # WordPress için bir DockerFile tanımlayın
 Yapmamız gereken ilk şey, bir **_ dockerfile _**  'da görüntümüzün nasıl görüneceğini tanımlamaktır. Uygulamanızın kaynaklarıyla dizine eklenen bir metin dosyasıdır.
 ```
 FROM wordpress:php7.1-apache

@@ -22,13 +22,13 @@ Dalam artikel ini, kami akan memandu Anda melalui cara membuat bot menggunakan b
   * [Kode bot Anda menggunakan botpress][4]
   * [Kesimpulan][5]
 
-### rocket.chat   {#rocketchat}
+## # rocket.chat   {#rocketchat}
 Rocket.chat adalah salah satu perangkat lunak obrolan langsung yang populer sebagian proyek obrolan langsung open source. Ini memiliki versi obrolan langsung gratis sebagai edisi komunitas. Selain itu, versi obrolan langsung yang di -host untuk perusahaan besar dengan fitur obrolan internal pribadi. Aplikasi obrolan langsung ini berjalan di browser tetapi dapat diinstal di server Anda sendiri juga. [Baca lebih lanjut][6]
 
-### botpress   {#botpress}
+## # botpress   {#botpress}
 Chatbots percakapan telah memungkinkan bisnis ini untuk memberi pelanggan mereka dukungan sentuhan tinggi yang selalu tersedia yang mereka inginkan. Botpress adalah salah satu alat pembuatan bot open source paling populer dengan pemrosesan bahasa alami bawaan. Teknologi NLU Botpress membuatnya selangkah lebih maju dari para pesaingnya di bidang seperti Botkit, DialogFlow, dan Microsoft Bot Framework. [Baca lebih lanjut][7]
 
-### Buat pengguna bot di rocket.chat   {#CreateBoTuser}
+## # Buat pengguna bot di rocket.chat   {#CreateBoTuser}
 Untuk berbicara dengan chatbot Anda, harus ada akun pengguna yang telah dikonfigurasi sebelumnya di server roket.chat tempat bot dapat masuk.
 Untuk membuat akun, Anda perlu memiliki hak istimewa admin:
   1. Di Topbar, klik tiga titik (opsi) dan kemudian klik **Administrasi** 
@@ -42,7 +42,7 @@ Untuk membuat akun, Anda perlu memiliki hak istimewa admin:
   9. Klik _Save_
 Setelah disimpan, bot akan dikonfigurasi dengan nama pengguna dan kata sandi yang ditetapkan pada langkah 4. Anda dapat menggunakan variabel lingkungan “Rocketchat \ _User” dan “Rocketchat \ _Password” untuk masuk ke server rocket.chat dengan nama pengguna dan kata sandi ini.
 
-### Kode bot Anda menggunakan botpress   {#codeBot}
+## # Kode bot Anda menggunakan botpress   {#codeBot}
 Botpress adalah paket Node.js dan bekerja dengan Node dan NPM.
 Cara tercepat untuk memulai dengan Botpress adalah menggunakan repositori [botpress-kick-starter][8] yang sudah terintegrasi dengan rocket.chat melalui [konektor saluran botpress][9].
 Arahkan ke folder tempat Anda ingin bekerja dengan bot dan melanjutkan dengan langkah -langkah berikut:
@@ -133,7 +133,7 @@ npm start
 **Bicaralah dengan bot Anda** 
 Di server, login sebagai pengguna biasa (bukan pengguna bot), pergi ke ruang umum, dan berbicara dengan bot Anda yang baru dibuat.
 
-### Kesimpulan   {#conclusion}
+## # Kesimpulan   {#conclusion}
 Dalam artikel ini, kami telah belajar cara membuat bot di Botpress. Dan, cara mengkonfigurasinya dengan rocket.chat. Botpress membuatnya sangat mudah bagi pengguna untuk membangun alur kerja otomatis yang inovatif. Dan, integrasi dengan rocket.chat memungkinkan Anda untuk mengendalikannya secara percakapan.
 
   

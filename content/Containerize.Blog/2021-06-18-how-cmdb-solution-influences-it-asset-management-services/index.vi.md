@@ -14,7 +14,7 @@ categories: ['CMDB Software']
 {{< figure align=center src="images/it-asset-management-services.png" alt="Dịch vụ quản lý tài sản CNTT">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Gần đây chúng tôi đã bắt đầu một chuỗi nội dung trên [Phần mềm cơ sở dữ liệu quản lý cấu hình (CMDB)][1] và đã xuất bản một số sản phẩm miễn phí và nguồn mở như [RALPH][2], [Snipe-it][3] và blog hướng dẫn Đăng [Cách thiết lập giải pháp CMDB RALPH trên localhost][4]. Danh mục phần mềm CMDB đang trở nên phổ biến trong các tổ chức duy trì cơ sở hạ tầng CNTT khổng lồ. Có một nhu cầu mạnh mẽ để tự động hóa các nhiệm vụ lặp đi lặp lại và một số loại theo dõi và quản lý tài nguyên. Tuy nhiên, hầu hết các giải pháp phần mềm dựa trên đám mây có sẵn đều có các phiên bản trả phí và cũng có một số mối quan tâm bảo mật dữ liệu được đính kèm. Do đó, cộng đồng nguồn mở đã phát triển phần mềm cơ sở dữ liệu quản lý cấu hình tự lưu trữ và đa nền tảng, trao quyền cho toàn bộ môi trường CNTT với các dịch vụ quản lý tài sản CNTT.
 Các hệ thống quản lý cấu hình này cung cấp các tiện ích để duy trì hồ sơ các mục cấu hình. Các mục cấu hình (CIS) này bao gồm máy in, máy chủ, phần mềm, máy quét, máy quét mã QR, đầu đọc mã vạch, cấu hình, v.v. bộ phận bằng cách bao gồm các điểm sau.
   * **[Phần mềm CMDB là gì?][5]**
@@ -28,35 +28,35 @@ Các hệ thống quản lý cấu hình này cung cấp các tiện ích để 
 ##  **Top 5 Nguồn mở phần mềm CMDB tốt nhất**    {#top}
 Trong phần này, chúng tôi sẽ khám phá phần mềm cơ sở dữ liệu quản lý cấu hình được xếp hạng hàng đầu.
 
-### Ralph
+## # Ralph
 [RALPH][2] là một phần mềm quản lý tài nguyên miễn phí nguồn mở. Đó là nền tảng chéo và đưa ra khả năng tự lưu trữ. Nó rất có thể mở rộng và cung cấp API REST cho các tích hợp của bên thứ ba. Sau đó, có hỗ trợ đầy đủ cho các trung tâm dữ liệu và cơ sở hạ tầng CNTT Office. Tuy nhiên, phần mềm theo dõi tài sản thời gian thực này được viết bằng Python và đi kèm với tài liệu toàn diện về phát triển và triển khai. Do đó, tất cả các mã nguồn có sẵn tại [GitHub][9].
 Ralph cung cấp các tính năng chính sau
   * Trực quan hóa DC tích hợp
   * Theo dõi tài sản
   * Nhẹ
 
-### Snipe-it
+## # Snipe-it
 [Snipe-it][3] là một phần mềm nguồn mở khác cung cấp theo dõi tài sản và cấu hình. Nền tảng quản lý tài nguyên này được hỗ trợ bởi AWS. Nó được bảo mật cao và cung cấp các tùy chọn đăng nhập bằng cách sử dụng xác thực hai yếu tố và hỗ trợ SAML. Nó cũng tự lưu trữ và dễ dàng thiết lập. Giải pháp CMDB này được viết bằng PHP và tất cả các mã nguồn có sẵn tại [GitHub][10].
 Sau đây là các tính năng cốt lõi của Snipe-It
   * Giao diện RESTful
   * Tích hợp với Slack và LDAP
   * Tùy chọn nhập/xuất
 
-### Người cai
+## # Người cai
 [Foreman][11] là một công cụ nguồn mở khác để quản lý các máy chủ vật lý và ảo. Nó có khả năng tùy biến cao và cung cấp API REST để xây dựng các chức năng cần thiết. Hơn nữa, có hỗ trợ đầy đủ để quản lý cấu hình, triển khai ứng dụng, thay đổi trong cấu hình và quản trị viên hệ thống có thể nhận được các báo cáo chi tiết. Nó được tự lưu trữ và tất cả các mã nguồn có sẵn tại [GitHub][12].
 Forman cung cấp các tính năng chính sau đây
   * Dễ dàng thiết lập
   * Báo cáo và giám sát
   * Kiến trúc plugin
 
-### Racktables
+## # Racktables
 [Racktables][13] là một hệ thống quản lý tài sản nguồn mở cho các trung tâm dữ liệu, phòng máy chủ. Nó cũng cung cấp hỗ trợ cho việc quản lý các địa chỉ mạng, cấu hình mạng, cấu hình cân bằng tải và các thiết bị phần cứng khác. Hơn nữa, nó cho phép người dùng tạo quyền, gắn thẻ người dùng và tài liệu của tường lửa.
 Racktables cung cấp các tính năng nổi bật sau đây
   * Quản lý tập tin
   * Tự lưu trữ
   * Quản lý cổng vật lý
 
-### ITOP
+## # ITOP
 [Cổng thông tin hoạt động CNTT][14] là một giải pháp tự lưu trữ miễn phí cung cấp giải pháp CMDB, hệ thống trợ giúp và công cụ quản lý tài liệu. Nó cung cấp các tùy chọn nhập và xuất khẩu phong phú.
 ITOP cung cấp các tính năng chính
   * Phân tích tác động tự động

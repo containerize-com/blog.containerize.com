@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software']
 {{< figure align=center src="images/Nextcloud-vs-ownCloud.png" alt="NextCloud vs owncloud | Sự khác biệt là gì?|NextCloud vs owncloud | Sự khác biệt là gì??">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 NextCloud vs Owncloud là một trong những điểm tranh luận lớn nhất và toàn bộ chương trình nghị sự của các dịch vụ lưu trữ đám mây nguồn mở tự lưu trữ là bảo mật và quyền riêng tư. Những người muốn sẵn sàng truy cập vào các tài liệu, tệp, hình ảnh, hình ảnh, âm thanh và video cá nhân của họ mọi lúc mọi nơi, đang áp dụng ngày càng nhiều để lưu trữ đám mây. Các dịch vụ đám mây như Microsoft 365 và Google Drive cung cấp một sự thay thế hấp dẫn và thực tế cho lưu trữ và quản lý cục bộ trên thiết bị máy tính, khả năng truy cập do Internet cung cấp. Tuy nhiên, vẫn còn câu hỏi về việc thông tin nhạy cảm của bạn an toàn và an toàn như thế nào khi được lưu trữ trong lưu trữ đám mây.
 Nếu bạn muốn tận hưởng những lợi ích của lưu trữ đám mây trong khi duy trì kiểm soát hoàn toàn tất cả dữ liệu của mình thì bạn nên xem xét lưu trữ và quản lý giải pháp lưu trữ đám mây nguồn mở của riêng bạn. Phần mềm cần thiết có thể được tìm thấy trong các công cụ nguồn mở. Hai ứng dụng tự lưu trữ đặc biệt phổ biến là NextCloud và Owncloud. Cả hai nền tảng lưu trữ đám mây nguồn mở NextCloud và Owncloud đều có một cơ sở mạnh mẽ để chia sẻ tệp doanh nghiệp và hỗ trợ cho các ứng dụng bổ trợ và dịch vụ khách hàng. Tuy nhiên, chia sẻ tệp nguồn mở NextCloud đã chứng kiến ​​sự tăng trưởng nhiều hơn trong vài năm qua so với OpenCloud nguồn mở. Trong bài viết trên blog này, chúng tôi sẽ thảo luận về Owncloud vs NextCloud của cả hai dịch vụ lưu trữ đám mây.
   * NextCloud là gì?
@@ -33,17 +33,17 @@ Owncloud là ứng dụng đám mây rất ổn định và đáng tin cậy. N�
 
 ## 3. So sánh NextCloud vs owncloud:   {#ce62}
 
-####  **Giá cả** 
+## ##  **Giá cả** 
 Cả NextCloud và Owncloud đều được sử dụng miễn phí và cũng bán một dịch vụ hỗ trợ. Tải xuống và cài đặt của cả hai phần mềm là hoàn toàn miễn phí. Nhưng sự khác biệt lớn nhất giữa hai nền tảng là bộ lưu trữ đám mây trực tuyến miễn phí tốt nhất NextCloud hoàn toàn miễn phí và nguồn mở. Mặc dù để có quyền truy cập đầy đủ vào tất cả các tính năng của Owncloud, bạn sẽ phải đăng ký phiên bản doanh nghiệp của họ để biết thêm các tính năng.
 
-####**Đặc trưng**
+## ## **Đặc trưng**
 Chia sẻ tệp bảo mật nguồn mở Owncloud chủ yếu tập trung vào việc chia sẻ tệp và đồng bộ hóa dữ liệu đám mây. NextCloud đã tăng đáng kể phạm vi dịch vụ của mình để cung cấp các tính năng khác, bao gồm các tài liệu văn phòng hợp tác và truyền thông hợp tác.
 
-####  **Cộng đồng**  và hỗ trợ
+## ##  **Cộng đồng**  và hỗ trợ
 Một sự khác biệt quan trọng khác của cả nguồn mở tiếp Nexcloud và Powcloud Platorms là cộng đồng và hỗ trợ xung quanh họ. Kể từ năm 2017, số lượng người đóng góp NextCloud đã tăng lên với số lượng lớn so với số lượng người đóng góp riêng. Các trang hỗ trợ của cả Sở hữu nguồn mở và NextCloud Cloud Storage cung cấp cho bạn các liên kết đến tài liệu, kênh trò chuyện internet, diễn đàn, v.v. cho khách hàng danh mục doanh nghiệp cả NextCloud và Owncloud cũng cung cấp hỗ trợ cao cấp.
 Nếu bạn có một cái nhìn về các diễn đàn trợ giúp của NextCloud, chủ đề được thảo luận rộng rãi nhất sẽ xuất hiện là di chuyển từ máy chủ của owncloud sang nextcloud. Điều này đã thu được hơn 95.000 lượt xem. Chủ đề phổ biến nhất trên Diễn đàn công cộng Owncloud, liên quan đến việc mở khóa một tệp bị khóa có hơn 45.000 lượt xem. Kênh YouTube của Owncloud có hơn 70 video với cơ sở thuê bao là 1,36K. NextCloud có hơn 220 video với cơ sở thuê bao 9,3k trên kênh YouTube của nó. Hơn nữa, tìm kiếm từ khóa của Google cho cả hai đã dẫn đến 4.050.000 kết quả tìm kiếm và 3,460.000 kết quả tìm kiếm cho NextCloud và Owncloud tương ứng.
 
-####**Bảo vệ**
+## ## **Bảo vệ**
 Chia sẻ tệp đám mây nguồn mở NextCloud cung cấp bảo vệ khỏi các cuộc tấn công vũ lực, hạn chế dòng chảy, giới hạn tốc độ, quản lý mật khẩu, chính sách bảo mật nội dung và nhiều tùy chọn bảo mật khác. Tương tự, Owncloud, một số tính năng quét bảo mật nhất định chỉ có sẵn trong phiên bản Enterprise. Nó có thể kiểm tra phiên bản doanh nghiệp miễn phí trong 30 ngày để kiểm tra xem các tính năng bổ sung này có cần thiết để giữ cho bạn an toàn trước những rắc rối bên ngoài hay không.
 Ngoài ra, tin tặc có cơ hội kiếm được một chương trình Bounty Bounty cung cấp như một phần thưởng cho việc khám phá các lỗ hổng để nhóm sửa chữa.
 

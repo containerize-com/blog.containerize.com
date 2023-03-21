@@ -35,7 +35,7 @@ categories: ['Web Server Solution Stack']
 $ sudo apt update
 ```
 
-### Nginx Webサーバーのインストール
+## # Nginx Webサーバーのインストール
   *以下のコマンドを実行して、**ubuntu** にnginxをインストールします。
 ```
 $ sudo apt install nginx
@@ -45,7 +45,7 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Nginx Webサーバーのデフォルトページ">}}
 
 
-### mysqlのインストール
+## # mysqlのインストール
 これで、アプリケーションデータを管理するためにMySQLデータベースサーバーをインストールする必要があります。
   *以下のコマンドを実行して、**ubuntu** にmysqlをインストールします。
 ```
@@ -74,7 +74,7 @@ $ sudo mysql
 mysql> exit
 ```
 
-### PHPのインストール
+## # PHPのインストール
 PHPの処理のために、PHP-FPMのインストールについて説明します。 PHP-FPMは、FastCGI Process Managerの略です。 Nginx Webサーバーには、PHPの処理のためのビルドイン機能がないため、PHP-FPMを使用します。さらに、データ管理のためにMySQLとPHPを通信するためにPHP-MYSQLをインストールします。
   *以下のコマンドを実行して、**ubuntu** にphpをインストールします。
 ```
@@ -128,7 +128,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-### テストphp
+## # テストphp
   * NginxがPHPページを正しく提供することを確認するために、構成をテストするためのPHPファイルを作成します。
   *以下のコマンドを実行して、Nginx Webサーバーのルートディレクトリにinfo.phpファイルを作成します。
 ```

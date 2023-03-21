@@ -9,7 +9,7 @@ url: /ko/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**이 기사는 VSCODE 용 ChatGpt를 소개합니다. OpenAi 코드 생성기 코드 GPT는 오픈 소스 인공 지능 구동 GPT-3 모델을 기반으로합니다.**
+## **이 기사는 VSCODE 용 ChatGpt를 소개합니다. OpenAi 코드 생성기 코드 GPT는 오픈 소스 인공 지능 구동 GPT-3 모델을 기반으로합니다.**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="VSCODE 확장 코드 GPT">}}
 
@@ -26,7 +26,7 @@ categories: ['Artificial intelligence']
 ## 코드 gpt 란 무엇입니까?   {#what-is-codegpt}
 [Code Gpt][3]는**비주얼 스튜디오 코드 확장**편집기 내에서 일반 텍스트에서 코드 스 니펫을 생성 할 수 있습니다. 이**OpenAI Code Generator**는 OpenAI API를 기반으로하여 자연어의 응답을 처리하고 생성합니다. 그러나 코드 GPT는 미리 훈련 된 모델 인 GPT-3 위에 구축되므로 Code GPT에 대한 모든 요청은 GPT-3에 의해 처리 되며이 모델은 여러 상황을 채택 할만 큼 똑똑합니다. 또한이**vScode 확장**를 사용하면 코드 생성과 함께 코드 스 니펫을 굴절시키고 개선 할 수 있습니다. 실제로, 전체 환경은 Visual Studio Code 편집기에서 [chatgpt][11]를 사용하고 있다는 정확한 느낌을줍니다.
 
-## vscode 확장 코드 GPT를 설치하는 방법은 무엇입니까?   {#vo-vscode-extension-codegpt}}
+## vscode 확장 코드 GPT를 설치하는 방법은 무엇입니까?   {#vo-vscode-extension-codegpt}
 이 섹션에서는**vscode 확장 코드 GPT를 설치하는 단계를 살펴 보겠습니다.**이 목적을 위해 컴퓨터에 Visual Studio 코드를 설치했는지 확인하십시오.**[vscode Marketplace][12]**에서이 확장을 설치할 수 있습니다.
 VSCODE 편집기를 열고 "확장자"로 이동하여 Code GPT를 검색 표시 줄에 입력하십시오. CodeGpt라는 이름에는 많은 확장 기능이 있지만 아래 이미지와 같이 확장자를 설치해야합니다.
 
@@ -34,7 +34,7 @@ VSCODE 편집기를 열고 "확장자"로 이동하여 Code GPT를 검색 표시
 
 호환 오류가 발생할 경우 VSCODE를 최신 버전으로 업데이트하십시오. 또한,이 VSCODE 확장은 일관된 개발 중이므로 비정상적인 행동의 가능성을 생략 할 수 없습니다.
 
-## OpenAI API 키 검색 및 코드 구성 gpt   {#restieve-Openai-Api-key-configure-codegpt-}}
+## OpenAI API 키 검색 및 코드 구성 gpt   {#restieve-Openai-Api-key-configure-codegpt-}
 설치가 완료되면 다음 단계는 OpenAi의 [웹 사이트][13]에서 API 키를 얻는 것입니다.**Code GPT Extension**의 기능을 활성화하려면이 API 키가 필요합니다. API를 얻으려면이 [링크][13]를 방문하고 아직 생성되지 않은 경우 계정을 만듭니다.
 
 {{< figure align=center src="images/openai-key-1024x630.png" alt="Oepnai API">}}
@@ -48,7 +48,7 @@ VSCODE 편집기를 열고 "확장자"로 이동하여 Code GPT를 검색 표시
 
 모든 것이 성공적으로 완료되면 비주얼 스튜디오 코드에**코드 gpt 확장**가 설치됩니다. 다음 섹션에서는이 VScode 확장자가 제공하는 기능을 탐색하기 위해 더 자세히 설명합니다.
 
-## 코드 GPT 사용 시작-AI- 힘의 OpenAi 코드 생성기   {#start-using-codegpt --- an-ai-powered-openai-code-generator}}
+## 코드 GPT 사용 시작-AI- 힘의 OpenAi 코드 생성기   {#start-using-codegpt --- an-ai-powered-openai-code-generator}
 지금까지 Visual Studio Code에서 Code GPT Extension을 설정했습니다. 이**vscode 확장 코드 gpt**를 활용하려면“Command+Shift+P”를 누르십시오.“CodeGpt Ask”를 선택하고“HTML의 입력 요소 쓰기 코드 작성”과 같은 입력 필드에 질문을 작성하면 아래 이미지에 표시된대로 사이드 바의 응답 :
 
 {{< figure align=center src="images/chatgpt-for-vscode-1024x522.png" alt="vscode 용 chatgpt">}}

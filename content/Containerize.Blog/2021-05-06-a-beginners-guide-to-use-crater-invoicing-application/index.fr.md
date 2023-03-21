@@ -25,14 +25,14 @@ Chaque entreprise a besoin d'une sorte de système pour la gestion des factures,
 ## Procédure d'installation du cratère   {#installation}
 Nous discuterons de la façon d'installer Crater avec la méthode manuelle et d'utiliser Docker dans cette section.
 
-### Installation manuelle
+## # Installation manuelle
   * Téléchargez la dernière version depuis.
   * Téléchargez le fichier zip téléchargé sur votre serveur et extraire.
   * Pointez votre domaine vers le répertoire public à l'intérieur du dossier Crater.
   * Accédez à la racine de votre projet et exécutez la commande «Sudo Chmod -R 775 ./» pour attribuer des privilèges appropriés.
   * Ouvrez votre site dans le navigateur et suivez l'assistant d'installation.
 
-Installation ### Docker
+Installation ## # Docker
   * Installez Docker sur votre serveur :.
   * Installez Docker Compose en suivant ce guide :.
   * Clone Crater Repository en utilisant cette commande.

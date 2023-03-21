@@ -9,7 +9,7 @@ url: /ru/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
 categories: ['Artificial intelligence']
 ---
 
-##**Эта статья представит CHATGPT для VSCODE. Код GPT GPTE GENTERATO OPENAI основан на модели GPT-3 с открытым исходным кодом GPT-3.**
+## **Эта статья представит CHATGPT для VSCODE. Код GPT GPTE GENTERATO OPENAI основан на модели GPT-3 с открытым исходным кодом GPT-3.**
 
 {{< figure align=center src="images/How-to-use-ChatGPT-in-VSCode-The-VSCode-Extension-CodeGPT-1.png" alt="Код расширения VSCODE GPT">}}
 

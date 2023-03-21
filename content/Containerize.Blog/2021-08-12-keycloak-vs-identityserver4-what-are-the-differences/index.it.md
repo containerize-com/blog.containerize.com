@@ -14,7 +14,7 @@ categories: ['Single Sign-On']
 {{< figure align=center src="images/open-source-sso.png" alt="KeyCloak vs IdentityServer4">}}
 
 
-Panoramica ##
+Panoramica ## 
 In The Near Past, abbiamo pubblicato alcuni post sul blog su argomenti come come sfruttare il sistema SSO per una migliore crescita aziendale e il top 5 software open source singolo di accesso nell'anno 2021. Questi articoli descrivono software SSO open source ampiamente utilizzato e il suo Impatti fondamentali sul business. Tuttavia, la gestione degli utenti è l'aspetto più critico di qualsiasi applicazione. Nel moderno mondo della tecnologia, la sicurezza informatica è un argomento caldo. Ci sono tonnellate di applicazioni che gli utenti visitano, accedono ed escludono. Un utente con più set di credenziali è più vulnerabile e un obiettivo facile di attacchi informatici.
 Pertanto, è sempre una buona idea accedere alle risorse utilizzando un unico set di credenziali. Il software di accesso singolo consente agli utenti di accedere a più applicazioni utilizzando un singolo nome utente e password. Gli utenti accederanno in una sola volta e potranno accedere a molte applicazioni senza accedere di nuovo. Questo approccio sta guadagnando popolarità giorno per giorno poiché la comunità open source sta sviluppando fornitori di identità open source come [IdentityServer4][1] e [Keycloak][2]. In questo post sul blog, esamineremo le prime due soluzioni SSO open source e confronteremo le funzionalità e gli ambiti poiché il titolo suggerisce KeyCloak vs IdentityServer4. I seguenti punti saranno coperti.
   * **[Breve introduzione di IdentityServer4][3]**

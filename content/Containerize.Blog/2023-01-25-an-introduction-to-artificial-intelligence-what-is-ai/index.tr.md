@@ -31,13 +31,13 @@ Bununla birlikte, makine öğrenimi, çoklu işlem öğelerinin katmanlı bir ya
 ## Yapay Zeka Türleri   {#Tür-Tür-İstihbarat Türleri}
 Temel olarak, iki tür yapay zeka vardır. Blog yayınının bu bölümü bu iki türü gösterecektir.
 
-#### Zayıf Yapay Zeka
+## ## Zayıf Yapay Zeka
 Bu AI kategorisine göre, sistemler daha az karmaşık problemleri çözmek için tasarlanmıştır. Bu sistemler girdi alır, doğal dil süreçlerini işler ve çıktıyı verir. Bununla birlikte, bu sistemler verilere ve geçmiş istatistiklere dayalı yanıtı üretir, ancak sorunları kapsamlarının dışında işleyemez. Bu nedenle, bu kategorinin kapsamı sınırsız değildir. Zayıf AI'nın en iyi örnekleri [Apple’ın Siri][4] ve [Google][5] ve [Amazon][6] tarafından geliştirilen diğer sanal yardımcı araçlardır.
 
-#### Güçlü Yapay Zeka
+## ## Güçlü Yapay Zeka
 Güçlü yapay zeka, insan beyninin tam simülasyonunu sunar. Yapay genel zeka ve yapay süperlık da bu kategoriye giriyor. Bu kategori, insan müdahalesi olmadan işleri işleme ve karar alma yeteneğini içeren sistemler ve modeller tasarlar. Etkileşimli robotlar güçlü AI örnekleridir ve kendi kendine giden otomobiller de büyük veri setleriyle eğitilmiş ve sinir ağı kullanarak karar alabilen sistemlerle zenginleştirilmiştir. Ayrıca, bu tür sistemler geçmiş deneyimlerine dayanarak tahminler yapabilir.
 
-##**Yapay Zekanın Uygulamaları** {#Eş-İstek Uygulamaları}
+## **Yapay Zekanın Uygulamaları** {#Eş-İstek Uygulamaları}
 Aşağıdaki noktalar size yapay zekanın bazı önemli uygulamaları hakkında bir fikir verecektir:
 **Konuşma tanıma**: Doğal dil işleme, AI'nın insan sesini işleyen ve çıktıyı yazılı veya başka bir biçimde veren ana dalıdır. Bu özellik cep telefonları, otomobiller ve daha fazlası gibi birçok cihazda mevcuttur.
 **Yüz tanıma**: Bu uygulamaya göre, AI birden fazla yüz vizyonunu karşılaştırabilir ve belirli bir yüz yapısını tespit etme yeteneğine sahiptir. Buna ek olarak, farklı konuşma aksanlarına, el yazısına, gürültü ve daha fazlasını eşleştirmek ve göstermek için yapay zekayı kullanabilirsiniz.

@@ -45,7 +45,7 @@ Auf der rechten Seite gibt es ein Fenster, in dem Sie die Änderungen spielen un
 
 Wenn Sie mit der rechten Maustaste auf den Clip in der Timeline klicken und zu den Eigenschaften gehen, öffnet sich ein Panel auf der linken Seite, das die erweiterten Optionen zu den Videoeffekten, Animationen und mehr enthält.
 
-###### Sobald Sie mit der Bearbeitung fertig sind, können Sie das Video von der roten Schaltfläche in der oberen Optionsleiste exportieren/herunterladen.
+## ## ## Sobald Sie mit der Bearbeitung fertig sind, können Sie das Video von der roten Schaltfläche in der oberen Optionsleiste exportieren/herunterladen.
 
 {{< figure align=center src="images/Screenshot-2020-12-27-at-23.46.53-1024x640.png" alt="OpenShot Video Editor">}}
 

@@ -21,13 +21,13 @@ Bir forumu WordPress tarafından desteklenen web siteleriyle entegre etmek zordu
   * [Kurulum][4]
   * [Ayarlar][5]
 
-### Söyleme   {#Discours}
+## # Söyleme   {#Discours}
 Söylem% 100 ücretsiz, tamamen açık kaynaklı, modern, kullanımı kolay, zengin topluluk tabanlı tartışma forum yazılımıdır. Topluluk tartışmaları için çok çeşitli araçlara eşlik ediyor. Bu nedenle, güvenilir ve uyarlanabilir platformu. [Devamını oku][6]
 
-### wordpress   {#wordpress}
+## # wordpress   {#wordpress}
 WordPress en popüler web sitesi oluşturma ve blog yazılımlarından biridir. % 100 açık kaynaklı ve büyük bir geliştirici topluluğuna sahip. Sonuç olarak, bu onu geliştiricilerin, blogcuların ve web sitesi oluşturucuların bir numaralı seçimi yapar. Bugün çok sayıda çevrimiçi web sitesi WordPress'te çalışıyor. Çünkü geliştirme deneyimi olmayan herkesin web siteleri oluşturmasına izin verir. [Devamını oku][7]
 
-### Söylem için resmi WordPress eklentisi   {#plugin}
+## # Söylem için resmi WordPress eklentisi   {#plugin}
 WordPress tarafından desteklenen web sitelerinin hacmini göz önünde bulundurarak. Ve WordPress ile büyük bir entegrasyon talebi. Söylem, entegrasyonu gerçekten kolaylaştıran resmi bir WordPress eklentisi yayınladı.
 [WP söylem][8] resmi söylem WordPress eklentisi% 100 açık kaynaktır. Ve depodan indirmek için serbestçe kullanılabilir. Kaynak kodu [GitHub][9] 'da mevcuttur.
 Bu eklenti, WordPress web siteniz veya blogunuz için söylemi topluluk motoru olarak kullanmanızı sağlar. Birçok özelliğe ve eklentinin önemli noktalarına sahiptir ve elde edilebilecek olanlar aşağıdaki gibidir.
@@ -37,7 +37,7 @@ Bu eklenti, WordPress web siteniz veya blogunuz için söylemi topluluk motoru o
   * Eklenti ayrıca WordPress sitenizi söylem forumunuz için sağlayıcı olarak tek işaret olarak kullanmanıza olanak tanıyan isteğe bağlı SSO işlevselliği ile birlikte gelir.
   * Eklenti, Söylemi WordPress siteniz için bir kimlik doğrulama sağlayıcısı olarak kullanmanıza olanak tanır.
 
-### Kurulum   {#installation}
+## # Kurulum   {#installation}
 WordPress kontrol panelinizde “WP söylemini” arayarak eklentiyi kolayca yükleyebilirsiniz.
   * WordPress Gösterge Tablosundan eklentilere gidin> Yeni Ekle
   * "WP söylemi" arayın
@@ -46,7 +46,7 @@ WordPress kontrol panelinizde “WP söylemini” arayarak eklentiyi kolayca yü
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="WordPress panosundan WP söylem eklentisini yükleyin">}}
 
 
-### Ayarlar   {#settings}
+## # Ayarlar   {#settings}
 WP söylemi size ayarlarla tam kontrol sağlar. İki platform arasında bağlantı kurmanıza olanak tanır. Yayınlama ayarları, WordPress'ten içeriği söylemeye nasıl yayınlamak istediğinizi kontrol etmenizi sağlar.
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="Genel Ayarlar">}}
@@ -64,7 +64,7 @@ SSO Ayarları, WordPress siteniz ile söylem forumunuz arasında tek oturum açm
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-### Çözüm
+## # Çözüm
 Bu öğreticide söylemin WordPress ile nasıl entegre edileceğini öğrendik. WP söylemi, iki üst sınıf ürününün birleşmesini kolaylaştırdı. Sonuç olarak, WordPress ile entegrasyon, bir forumu yönetmekte zorlanan büyük bir topluluk sorununu çözdü.
 
   

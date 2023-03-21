@@ -291,7 +291,7 @@ Flexbox can do some pretty awesome things when you mix flex alignments with auto
 {% endcapture %}
 {% include example.html content=example %}
 
-### With align-items
+## # With align-items
 
 Vertically move one flex item to the top or bottom of a container by mixing `align-items`, `flex-direction: column`, and `margin-top: auto` or `margin-bottom: auto`.
 

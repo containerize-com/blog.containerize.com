@@ -14,7 +14,7 @@ categories: ['Shopping Cart Software']
 {{< figure align=center src="images/Top-5-Open-Source-Shopping-Cart-Software.png" alt="Top 5 oprogramowania do koszyka open source">}}
 
 
-##**Przegląd** {#opencart}
+## **Przegląd** {#opencart}
 * * Oprogramowanie do koszyka na zakupy open source**to oprogramowanie eCommerce na serwerze internetowym, który umożliwia sprzedawcom wyświetlanie produktów online, zarządzanie swoim sklepem internetowym i sprzedawanie klientom. To oprogramowanie pozwala klientom zakupów online wybierać, zarezerwować i kupować produkt lub usługę z witryny e -commerce. Rozwiązania typu open source są bezpłatne do instalowania, pobierania i dostosowywania, jak chcesz. Klienci mogą dodawać i usuwać produkty z sklepów internetowych, jak chcą. Rozwiązanie lub sklep z zakupami e -commerce jest ważną częścią zakupów online do korzystania przez klientów.
 Zauważyliśmy, że zakupy online szybko rosną z powodu pandemii Coronawirus w 2021 r. Dlatego założenie sklepu zakupowego internetowego stało się teraz niezbędne. Ponadto pomoże detalistom przyciągnąć znaczną liczbę klientów, a także zwiększyć zyski. Musisz użyć oprogramowania do koszyka eCommerce do sprzedaży przedmiotów. Dlatego przy wyborze odpowiedniego**Oprogramowanie e -commerce open source**musisz zapewnić takie funkcje, jak zarządzanie zapasami, lista produktów, CART, kasa, narzędzia marketingowe i narzędzia obsługi klienta.
 W tym poście omówimy następujący**koszyk open source**, aby prowadzić najlepszą platformę e -commerce dla hurtowej firmy online.
@@ -74,7 +74,7 @@ Oto kilka kluczowych**funkcji NOPCOMMERCE**Framework e -commerce open source:
   * Bezpieczeństwo i zgodność
 [**Dowiedz się więcej o NOPCOMMERCE**][14]
 
-##**Funkcje do rozważenia w oprogramowaniu do koszyka na zakupy**:   {#NopCommerce}
+## **Funkcje do rozważenia w oprogramowaniu do koszyka na zakupy**:   {#NopCommerce}
 Poniższe funkcje mogą decydować o sukcesie i porażce rozwiązania e -commerce dla małych działalności online.
   * Przyjazny dla użytkownika panel administratora
   * Produkty filtrowania

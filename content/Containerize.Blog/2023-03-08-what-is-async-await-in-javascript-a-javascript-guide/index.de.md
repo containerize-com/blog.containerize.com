@@ -46,7 +46,7 @@ Nun, das asynchrische Schlüsselwort zu Beginn der Funktion impliziert, dass die
 ## Wann asynchronisiert/wartet?   {#Wenn es zu verwenden-asyncawait}
 Bisher haben Sie die Antwort auf**Was ist Async in JavaScript**. Da dies nur ein Wrapper um die traditionellen JavaScript -Versprechen ist, nutzen Sie diese neue Art, Versprechungen auf sauberere und lesbare Weise besser zu erstellen und umzugehen. Darüber hinaus können Sie mehrere Versprechen beseitigen. Anschließend () Anrufe mit Async/Assait, die den Quellcode schließlich verwaltbarer und gewaltbarer machen. Das Keyword ist die Anweisung .then () in eine einzelne Zeile zusammenfasst.
 
-## Fehlerbehandlung mit Async/Warte   {#Fehlerhandling mit Asyncawait}}
+## Fehlerbehandlung mit Async/Warte   {#Fehlerhandling mit Asyncawait}
 Fehlerbehandlung ist eine kritische Aufgabe, wenn es um Softwareentwicklung auf Unternehmensebene geht. Es gibt mehrere Möglichkeiten, Fehler im Async/Warted -Ansatz zu erfassen.
 
 {{< figure align=center src="images/async-await.png" alt="Versuchen Sie, Async zu fangen, der auf JavaScript warten">}}

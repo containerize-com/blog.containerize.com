@@ -9,7 +9,7 @@ url: /zh-hant/how-to-develop-osticket-plugin-it-helpdesk-software/
 categories: ['Help Desk']
 ---
 
-##創建一個osticket插件，以將功能添加到您的術中安裝中。這種開源票務系統可幫助企業有效地處理客戶。
+## 創建一個osticket插件，以將功能添加到您的術中安裝中。這種開源票務系統可幫助企業有效地處理客戶。
 
 {{< figure align=center src="images/A-beginners-guide-to-develop-osTickets-plugin.png" alt="它可以幫助DESKSK軟件">}}
 
@@ -22,20 +22,20 @@ categories: ['Help Desk']
   * [如何開發Osticket的插件？][6]
   * [結論][7]
 
-##為什麼要使用插件？   {#為什麼}
+## 為什麼要使用插件？   {#為什麼}
 在此主題中，我們將學習如何創建一個簡單的插件來擴展此**的核心功能**軟件**（osticket）。插件是一塊軟件，可擴展任何應用程序/軟件的核心功能。此外，還有許多企業級開源軟件具有大量擴展功能的插件。此外，這些受歡迎的開源軟件包括WordPress，Joomla等。最重要的是，充滿活力和活著的社區根據需求支持和開發插件。但是，框架提供了有關插件開發的全面文檔。以下是應用程序支持插件的一些原因：
   *它允許第三方開發人員創建擴展應用程序功能的軟件組件。
   *插件允許輕鬆整合新功能。
   *另外，它不會增加應用程序的大小和復雜性。
   *以及開發人員可以將插件代碼與核心應用程序分開保存和管理。
 
-##要求 {#requirements}
+## 要求 {#requirements}
 **的這一部分HERSEDESK軟件**指南描述了開發Osticket插件所需的要求。
   * PHP版本5.6或更高版本
   * Osticket安裝
   *基本的PHP知識
 
-##如何開發Osticket的插件？   {#如何}
+## 如何開發Osticket的插件？   {#如何}
 在本節中，我們將仔細研究此開源票務系統（Osticket）的插件開發步驟。
   *在 /include /插件目錄中創建插件夾。在本教程中，我們將創建一個演示插件，該插件將 **Osticket System** 與Redmine集成在一起。
   *它應該具有以下必要的文件：plugin.php和config.php。
@@ -126,7 +126,7 @@ class DynabicRedminePlugin extends Plugin {
 ```
   *此代碼獲取配置值，您可以在功能中使用這些值。在此文件中，您可以將插件的功能添加為您的要求。
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 這使我們進入了此博客文章的結尾。 Osticket是一種票務管理軟件，可為開發人員提供插件結構，因此他們可以根據需求添加新功能。插件是擴展任何應用程序/軟件的核心功能的組件。在他的文章中，我們討論了此**客戶支持系統**（Osticket）的插件開發，該系統可幫助開發人員根據其要求添加自定義功能和增強功能。因此，如果您想為您的業務部署**幫助桌子軟件**，則此博客文章確實會為您提供幫助。此外，下面的“ Explore”部分中提到的其他 **HelpDesk票務軟件** 和文章。
 最後，[Containerize.com][8]不斷地撰寫有關進一步開源產品和主題的博客文章。因此，請與常規更新的[HelpDesk票務軟件][1]類別保持聯繫。此外，您可以在我們的社交媒體帳戶[Facebook][9]，[LinkedIn][10]和[Twitter][11]上關注我們。
 

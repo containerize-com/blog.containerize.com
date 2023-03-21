@@ -59,7 +59,7 @@ Rocket.chat 소프트웨어가 설치되고 구성되면 다음 단계는 기능
 {{< figure align=center src="images/livechat-widget-demo-1-1024x724.png" alt="Rocket.Chat LiveChat 위젯">}}
 
 
-##**웹 사이트에 라이브 채팅 위젯을 설치하십시오** {#widget}
+## **웹 사이트에 라이브 채팅 위젯을 설치하십시오** {#widget}
 이 섹션에서는 비즈니스 웹 사이트에 라이브 채팅 위젯을 설치합니다. 이제**LiveChat 설치**설정에 액세스하려면 : 설정 :
 아래와 같이 옴니 채널 패널 설정에서**LiveChat 설치**로 이동하여 주어진 코드를 복사하십시오.
 

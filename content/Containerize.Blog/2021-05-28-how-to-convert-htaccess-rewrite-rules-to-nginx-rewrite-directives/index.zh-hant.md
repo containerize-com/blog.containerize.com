@@ -54,7 +54,7 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-##轉換.htaccess重寫規則到nginx重寫指令 {#convert}
+## 轉換.htaccess重寫規則到nginx重寫指令 {#convert}
 正如我們在上面的示例中顯示的那樣，將非www URL重定向到www url，讓我們將相同的.htaccess重寫規則轉換為nginx重寫指令。
 ```
 server {
@@ -100,7 +100,7 @@ location / {
 }
 ```
 
-##結論 {#conclusion}
+## 結論 {#conclusion}
 在本教程中，我們探索了Apache的.htaccess重寫規則，以及如何將這些.htaccess重寫規則轉換為NGINX重寫指令。我們進一步探索了可用於重寫URL的不同NGINX指令。我們還給出了nginx和apache的示例重寫規則。希望該教程對您有幫助。
 
 ## 探索

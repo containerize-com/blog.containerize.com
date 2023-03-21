@@ -14,7 +14,7 @@ categories: ['DevOps', 'Software Development']
 {{< figure align=center src="images/KubernetesVsDocker.png" alt="Kubernetes vs Docker">}}
 
 
-##**Tổng quan**
+## **Tổng quan**
 Khi nói đến các công nghệ container, hai tên Kubernetes và Docker nổi lên như những người lãnh đạo nguồn mở. Rất nhiều người muốn biết tùy chọn công nghệ container nào tốt hơn trong ngành công nghiệp điện toán đám mây. Điều gì là **Kubernetes vs Docker  ****  Hướng dẫn  **Cuộc tranh luận là phổ biến trong thế giới container hóa. Mặc dù hầu hết mọi người thích so sánh Kubernetes và Docker để quản lý ứng dụng được chứa hiệu quả hơn. Hai công nghệ container hóa mạnh mẽ này không thể trao đổi và bạn không thể chọn cái này hơn cái kia. **  Docker vs Kubernetes  **về cơ bản là các công nghệ container riêng biệt có thể bổ sung hoàn hảo cho nhau khi tự động hóa, tạo, phân phối, quản lý và mở rộng các ứng dụng container hóa. Trên thực tế, chủ đề so sánh tốt nhất sẽ là**   Kubernetes vs Docker Swarm**.
 Bài viết này giải thích sự khác biệt về nguyên tắc cơ bản giữa các công nghệ Docker và Kubernetes và làm rõ sự khác biệt của Docker và Kubernetes để bạn có thể tự tin trong việc điều hướng nền tảng container mở rộng nhanh chóng. Hãy cùng làm quen với các công nghệ container nguồn mở tuyệt vời và nguồn mở phổ biến nhất. Để làm như vậy, điều quan trọng là bắt đầu với công nghệ nền tảng gắn kết chúng với nhau: container.
   * Container là gì?

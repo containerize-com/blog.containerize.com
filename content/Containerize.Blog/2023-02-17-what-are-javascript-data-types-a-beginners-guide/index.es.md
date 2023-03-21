@@ -29,7 +29,7 @@ De hecho, JavaScript es un lenguaje tipado libremente, lo que significa que no t
 {{< figure align=center src="images/web-development.png" alt="Guía para principiantes de JavaScript">}}
 
 
-#### Tipos de datos primitivos
+## ## Tipos de datos primitivos
 Los tipos de datos primitivos son aquellos que son inmutables y no se pueden cambiar después de la creación e inicialización. Sin embargo, puede reasignar un nuevo valor pero no puede mutar el valor existente.
 Por ejemplo:
 ```
@@ -41,7 +41,7 @@ console.log(name) // output: my name is changed
 ```
 En el ejemplo anterior, String es un tipo de datos primitivos y el valor anterior está siendo reemplazado por el nuevo valor, pero el cambio en el valor existente no se está reflejando. Entonces, podemos ver que todavía es "mi nombre ha cambiado", no "mi nombre ha cambiado";
 
-#### Tipos de datos no ejercicios
+## ## Tipos de datos no ejercicios
 Los tipos de datos no primitivos son mutables, en palabras simples opuestas a los tipos de datos primitivos.
 Por ejemplo:
 ```

@@ -21,7 +21,7 @@ W tym artykule omówimy następujące sekcje, aby  **utworzyć witrynę e-learni
   * [Instalacja Moodle][4]
   * [Wniosek][5]
 
-##
+## 
 Jeśli jeszcze tego nie zrobiłeś, musisz zainstalować i konfigurować środowisko lamp na swoim serwerze.
 
 ## Co to jest Moodle?   {#Co}
