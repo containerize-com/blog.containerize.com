@@ -70,7 +70,7 @@ This brings us to the end of this **WordPress tutorial** in which we have covere
 
 ## Connect with us
 
-Finally, [containerize.com][10] is in a consistent process of writing JavaScript posts on new topics. You can stay in the loop by following us on our social media platforms, including [Facebook][11], [LinkedIn][12], and [Twitter][13].
+Finally, [containerize.com][10] is in a consistent process of writing blog posts on new topics. You can stay in the loop by following us on our social media platforms, including [Facebook][11], [LinkedIn][12], and [Twitter][13].
 
 ## Ask a Question
 
