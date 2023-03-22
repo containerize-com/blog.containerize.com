@@ -52,7 +52,7 @@ This is the point where you need to have an OpenAI API key.
 Next, go to the settings of this ChatGPT plugin and press the "Settings" button, and insert your OpenAI API key as shown in the image below:
 {{< figure align=center src="images/chatgpt-wordpress-integration.png" alt="ChatGPT WordPress integration">}}
 
-After that, you can modify setting further by going into the "Chatbot" option. It lets you chang the mode of communication, you can set the greeting message, and you can also set the position of this AI-base chatbot. At the bottom of this window, you can see the "Shortcode" section. Here you can get the shortcode that you can use to render the ChatGPT interface anywhere in your website. In addition, you can check the option to inject this chatbot throughout your website. You can see these options in the picture below:
+After that, you can modify setting further by going into the "Chatbot" option. It lets you chang the mode of communication, you can set the greeting message, and you can also set the position of this **AI-base chatbot**. At the bottom of this window, you can see the "Shortcode" section. Here you can get the shortcode that you can use to render the ChatGPT interface anywhere in your website. In addition, you can check the option to inject this chatbot throughout your website. You can see these options in the picture below:
 {{< figure align=center src="images/wordpress-plugin-for-chatgpt.png" alt="WordPress plugin for ChatGPT">}}
 Once all done, you can see the ChatGPt user interface in your website.
 
