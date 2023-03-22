@@ -1,6 +1,6 @@
 baseURL: 'https://blog.containerize.com/'
 languageCode: 'en-us'
-title: 'Containerize Blog'
+title: 'Open Source Software Blog'
 theme: "PaperMod"
 paginate: 10
 enableRobotsTXT: true
@@ -68,7 +68,9 @@ params:
     pl: containerize-pl
 
 # Disabled languages
-disableLanguages: [ja,ko,es,de,ru,fr,zh,it,pt,ar,vi,zh-hant,tr,id,th,fa,pl]
+# disableLanguages: [ja,ko,es,de,ru,fr,zh,it,pt,ar,vi,zh-hant,tr,id,th,fa,pl]
+disableLanguages: [] # Disabled languages not trasalted
+#ko,it,ar,vi,zh-hant,fa,pl
 defaultContentLang: en
 
 languages:
@@ -512,3 +514,9 @@ deployment:
       contentType: "application/xml"
       gzip: true
       force: true
+    - pattern: "^.+\\.(css|js)$"
+      cacheControl: "public, immutable, max-age=31536000" #1y
+    - pattern: "(?i)^.+_hu[0-9a-f]{32}_.+\\.(jpg|jpeg|gif|png|webp)$"
+      cacheControl: "public, immutable, max-age=31536000" #1y
+    - pattern: "(?i)^.+\\.(jpg|jpeg|gif|png|webp|mp4|woff|woff2)$"
+      cacheControl: "public, s-maxage=7776000, max-age=604800" #90d,7d
