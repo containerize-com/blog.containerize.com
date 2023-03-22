@@ -24,7 +24,7 @@ We will cover the following points in this ChatGPT WordPress integration guide:
   * **[How to install WordPress plugin for ChatGPT?][5]**
   * **[Configuring ChatGPT plugin for WordPress][6]**
 
-## What’s New in GPT-4? {#What’s-New-in-GPT-4?}
+## What’s New in GPT-4? {#Whats-New-in-GPT-4}
 
 Just to recap, GPT(Generative Pre-trained Transformer) is a natural language processing model backed by [OpenAI][7]. In fact, GPT-3 is an artificial neural network trained on huge data sets and can conduct human-like conversations. In the last week(i.e 14 March), OpenAI launched GPT-4 which is the next version of GPT-3. Surprisingly, there are 100 Trillion parameters in GPT-4 which can actually work like a human brain. In other words, its a simulation of human brain that can even sense the emotions involves in the conversation and has the ability to predeict the next sentence. 
 However, you can build enterprise-level applications that can conduct two way conversations in the form of text, and images to cover real-world scenarios. Well, you can GPT-4 is a refined version of GPT-3 as the latest version has better image processing, can create video games and more. Further, you can visit the official [site][8] to explore further.
@@ -43,7 +43,7 @@ Click "Add New" and type "ChatGPT" in the search bar, you will find the ChatGPT 
 
 Now, press the "Install Now" button to install and then activate it by hitting the "Activate" button. Upon successful installation and activation, it is time to configure this WordPress plugin for ChatGPT.
 
-## Configuring ChatGPT plugin for WordPress {#Factory-pattern-JavaScript}
+## Configuring ChatGPT plugin for WordPress {#Configuring-ChatGPT-plugin-for-WordPress}
 
 This is the point where you need to have an OpenAI API key. 
 
@@ -93,7 +93,7 @@ Please visit this [link][5] to install this viral chatbot in WordPress.
  [1]: https://blog.containerize.com/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
  [2]: https://products.containerize.com/blogging/wordpress/
  [3]: https://blog.containerize.com/categories/artificial-intelligence/
- [4]: #What’s-New-in-GPT-4?
+ [4]: #Whats-New-in-GPT-4
  [5]: #How-to-install-WordPress-plugin-for-ChatGPT
  [6]: #Configuring-ChatGPT-plugin-for-WordPress
  [7]: https://openai.com/
