@@ -35,7 +35,7 @@ However, you can build enterprise-level applications that can conduct two-way co
 
 This section demonstrates ChatGPT for WordPress and the installation procedure. Before moving forward, you can visit our [Blogging][22] category to learn about articles written on WordPress. In addition, you will find how to install WordPress on your server along with usage guides. 
 
-Now, let's start ChatGPT WordPress integration.
+Now, let's start **ChatGPT WordPress integration.**
 
 First, go to the WordPress dashboard and click on the “Plugins” option that you will see on the left menubar of the window.
 
@@ -43,11 +43,11 @@ Click "Add New" and type "ChatGPT" in the search bar, you will find the ChatGPT 
 
 {{< figure align=center src="images/chatgpt-plugin.gif" alt="ChatGPT plugin">}}
 
-Now, press the "Install Now" button to install it and then activate it by hitting the "Activate" button. Upon successful installation and activation, it is time to configure this WordPress plugin for ChatGPT.
+Now, press the "Install Now" button to install it and then activate it by hitting the "Activate" button. Upon successful installation and activation, it is time to configure this **WordPress plugin for ChatGPT.**
 
 ## Configuring ChatGPT plugin for WordPress {#Configuring-ChatGPT-plugin-for-WordPress}
 
-This is the point where you need to have an OpenAI API key. 
+This is the point where you need to have an **OpenAI API key.**
 
 **Please visit this [tutorial][9] to learn how to obtain this API key in case you do not know the procedure.**
 
@@ -55,6 +55,8 @@ Next, go to the settings of this ChatGPT plugin and press the "Settings" button,
 {{< figure align=center src="images/chatgpt-wordpress-integration.png" alt="ChatGPT WordPress integration">}}
 
 After that, you can modify the setting further by going into the “Chatbot” option. It lets you change the mode of communication, you can set the greeting message, and you can also set the position of this **AI-based chatbot**. At the bottom of this window, you can see the “Shortcode” section. Here you can get the shortcode that you can use to render the ChatGPT interface anywhere on your website. In addition, you can check the option to inject this chatbot throughout your website. You can see these options in the picture below:
+
+{{< figure align=center src="images/wordpress-plugin-for-chatgpt.png" alt="ChatGPT for WordPress">}}
 
 Once all is done, you can see the ChatGPt user interface on your website.
 
