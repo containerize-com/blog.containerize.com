@@ -108,7 +108,7 @@ console.log(myBurger);
 
 This design pattern is very popular that restricts the instantiation of a class to a single object. The service in the JavaScript framework Angular follows this pattern where it creates only one instance of the service and that object is accessible to all the modules. Moreover, all the client connected to the single object shares the same resources and access levels.
 
-The demonstration of the singleton pattern is as follows:
+The demonstration of the **singleton pattern** is as follows:
 ```
 let singletonPattern = new (function () {
 
