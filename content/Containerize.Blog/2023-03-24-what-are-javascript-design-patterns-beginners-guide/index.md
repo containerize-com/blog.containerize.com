@@ -1,5 +1,5 @@
 ---
-title: What are JavaScript Design Patterns? | Beginners Guide
+title: "What are JavaScript Design Patterns? | Beginners Guide"
 seoTitle: JavaScript Design Patterns
 description: 'This JavaScript beginner's guide explains JavaScript design patterns. Take your development to the next level by adopting the best code patterns.'
 date: 2023-03-24T00:00:00+00:00
