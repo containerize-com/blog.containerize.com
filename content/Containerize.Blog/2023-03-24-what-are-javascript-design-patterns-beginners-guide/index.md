@@ -16,7 +16,7 @@ categories: ['Programming']
 {{< figure align=center src="images/what-are-javascript-design-patterns-beginners-guide.png" alt="JavaScript Design Patterns">}}
 ## Overview
 
-A large number of JavaScript programmers are unclear about JavaScript design patterns and this gap should be filled. In this series of [JavaScript tutorials][1], we are writing this blog post that will cover the most widely used JavaScript design patterns such as the Module design pattern, Observer pattern, and more. In addition, we will try to demonstrate using code examples so that there is no ambiguity left in your mind. This topic is very important if you are pursuing a career in JavaScript. Therefore, stay connected throughout this article, and by the end of this blog post, you should have a strong understanding of JS design patterns. 
+A large number of JavaScript programmers are unclear about **JavaScript design patterns** and this gap should be filled. In this series of [JavaScript tutorials][1], we are writing this blog post that will cover the most widely used JavaScript design patterns such as the Module design pattern, Observer pattern, and more. In addition, we will try to demonstrate using code examples so that there is no ambiguity left in your mind. This topic is very important if you are pursuing a career in JavaScript. Therefore, stay connected throughout this article, and by the end of this blog post, you should have a strong understanding of JS design patterns. 
 
 The following points shall be covered in this JavaScript beginner's guide:
 
