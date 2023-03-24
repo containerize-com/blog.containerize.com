@@ -56,13 +56,13 @@ const student = (function () {
 })();
 
 student.name;
-student.field;
+student.program;
 student.getStudentProgram();
 ```
 
 ## Factory pattern JavaScript {#Factory-pattern-JavaScript}
 
-As per this design pattern, you create objects using an interface rather than calling the constructor with the new operator. In fact, we specify a type of object and the factory creates an instance and send us back for use. In addition, this JavaScript design pattern gives complete control over object creation. Further, you can choose this design pattern for handling simple and complex objects and it is also wise to use the Factory pattern for decoupling.
+As per this design pattern, you create objects using an interface rather than calling the constructor with the **new** operator. In fact, we specify a type of object and the factory creates an instance and sends us back for use. In addition, this JavaScript design pattern gives complete control over object creation. Further, you can choose this design pattern for handling simple and complex objects and it is also wise to use the Factory pattern for decoupling.
 Let's write a code snippet for further exploration.
 
 ```
