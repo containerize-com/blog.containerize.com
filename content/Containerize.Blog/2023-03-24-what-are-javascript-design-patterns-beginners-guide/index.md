@@ -1,10 +1,10 @@
 ---
 title: What are JavaScript Design Patterns? | Beginners Guide
 seoTitle: JavaScript Design Patterns
-description: 'This JavaScript beginner's guide explains JavaScript design patterns. Take your development to the next level by adopting the best code patterns.'
+description: 'This JavaScript beginners guide explains JavaScript design patterns. Take your development to the next level by adopting the best code patterns.'
 date: 2023-03-24T00:00:00+00:00
 author: muhammadmustafa
-summary: 'This JavaScript beginner's guide explains JavaScript design patterns. Take your development to the next level by adopting the best code patterns.'
+summary: 'This JavaScript beginners guide explains JavaScript design patterns. Take your development to the next level by adopting the best code patterns.'
 url: /what-are-javascript-design-patterns-beginners-guide/
 tags: ["JavaScript Design Patterns", "learning JavaScript design patterns", "factory pattern JavaScript", "observer pattern JavaScript", "singleton pattern javascript", "module design pattern"]
     
