@@ -20,19 +20,21 @@ Bu blog gönderisindeki aşağıdaki bölümleri ele alacağız:
   * [PhpmyAdmin Gösterge Tablosu][3]
   * [Son düşünceler][4]
 
-## açıklama:   {#description}
+## Tanım: {#description}
+
 XAMPP ücretsiz ve açık kaynaklı web sunucusu çözüm yığınıdır. Apache, MySQL, MariaDB, PHP ve Perl içerir. XAMPP, Windows işletim sistemleri için kullanılabilir. Kurulumu ve kullanımı son derece kolaydır. Bu yüzden en popüler PHP geliştirme ortamı. Localhost olarak XAMPP ve PHPMyAdmin, web uygulaması geliştirme ve test için eksiksiz bir ortam sağlar.
 XAMPP'deki alfabeler şunları sağlar:
-  ***X** -Çapraz Platform (Linux, Windows ve Mac OS dahil birden çok işletim sistemini destekler)
-  ***A**  - Apache HTTP Sunucusu
-  ***M**  - Mariadb (Veritabanı)
-  ***P**  - PHP
-  ***P**  - Perl
+* **X** -Çapraz Platform (Linux, Windows ve Mac OS dahil birden çok işletim sistemini destekler)
+* **A** - Apache HTTP Sunucusu
+* **M** - Mariadb (Veritabanı)
+* **P** - PHP
+* **P** - Perl
 
-## xampp yüklemesi   {#xampp}
+## XAMPP Kurulumu {#xampp}
+
   * XAMPP'yi [buradan][5] 'den indirin.
 
-{{< figure align=center src="images/xampp1.png" alt="Localhost olarak xampp">}}
+{{< figure align=center src="images/xampp1.png" alt="Localhost olarak XAMPP">}}
 
   * Yürütülebilir dosyayı yükleyin.
   * Ardından “İleri” yi tıklayın.
@@ -53,7 +55,8 @@ XAMPP'deki alfabeler şunları sağlar:
 {{< figure align=center src="images/xampp5.png" alt="Localhost olarak Xampp Adım 4">}}
 
 
-## phpmyadmin gösterge paneli:   {#phpmyadmin}
+## PhpmyAdmin Gösterge Tablosu: {#phpmyadmin}
+
 PHPMyAdmin Gösterge Tablosuna erişmek için MySQL hizmetinin yanındaki “Yönetici” düğmesine tıklayın. Tarayıcınızdan http: // localhost/phpmyadmin'i ziyaret ederek PhpmyAdmin'e de erişebilirsiniz. Burada veritabanları oluşturabilirsiniz. Yeni bir veritabanı oluşturmak için bu adımları izleyin.
   * Gösterge tablosundan “Veritabanları” sekmesine tıklayın.
 
@@ -75,14 +78,16 @@ PHPMyAdmin Gösterge Tablosuna erişmek için MySQL hizmetinin yanındaki “Yö
 {{< figure align=center src="images/db4-1024x564.png" alt="Localhost'ta Phpmyadmin 4. adımda">}}
 
 
-## Son Düşünceler:   {#Final}
+## Son düşünceler: {#final}
+
 XAMPP kurulumu basit ve basittir. Kurulum XAMPP sunucusuna 15 dakikadan fazla sürmez. Yüklendikten sonra, geliştiriciler İnternet bağlantısı olmadan bile PHP tabanlı web uygulamalarını oluşturabilir ve test edebilirler. Projeleri doğrudan canlı bir web sunucusunda test etmek yerine, bunları yerel olarak test etmek basit ve zaman tasarrufu sağlar. Yeni başlayanların PHP, Perl ve veritabanı becerilerini öğrenmeleri, test etmesi ve cilalaması için harika bir platform.
 
 ## Keşfetmek:
 [PHP ve Perl geliştiricileri için açık kaynaklı web sunucusu çözümü yığını][6]
 [En İyi Açık Kaynak Web Server Çözümü Yığın Seçenekleri][7]
 
-  
+
+
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

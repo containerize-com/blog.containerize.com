@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Jak zainstalować platformę udostępniania plików Pydio na Ubuntu">}}
 
 
-## **Przegląd**
+##  **Przegląd**  
 Komórki Pydio to oprogramowanie do udostępniania i synchronizacji plików typu open source. Zapewnia jeden punkt dostępu do wszystkich przechowywania danych i jest alternatywą dla OwnCloud i NextCloud, który świadczy usługi pamięci, udostępnianie plików i synchronizację. Pydio to platforma udostępniania plików open source Enterprise podobna do Dropbox i innych platform pamięci. Pomaga bezpiecznie podłączyć wszystkie pliki i urządzenia na jednej platformie.
 Pydio Cell to oparta na chmurze platforma synchronizacji plików i współpracy. To oprogramowanie typu open source działa na osobistej infrastrukturze IT i pomaga pracownikom chronić i monitorować dane biznesowe. Możesz zsynchronizować swoje dane i uzyskać do nich dostęp z dowolnego miejsca za pomocą aplikacji mobilnej, oprogramowania komputerowego lub przeglądarki internetowej za pomocą komórek Pydio. Najlepsza aplikacja do udostępniania plików komórek Pydio jest oparta na architekturze mikro-usług i jest napisana przy użyciu języka programowania Golang.
 Ten samouczek pomoże Ci zainstalować i skonfigurować oprogramowanie do udostępniania plików Pydio i platformę synchronizującą w systemach Ubuntu LTS.
@@ -22,7 +22,7 @@ Ten samouczek pomoże Ci zainstalować i skonfigurować oprogramowanie do udost�
   * Zainstaluj serwer lampy
   * Zainstaluj Pydio na Ubuntu
   * Utwórz bazę danych i użytkownika Pydio
-  * Uzyskaj dostęp do Pydio w przeglądarce
+  * Uzyskaj dostęp do Pydio w Twojej przeglądarce
   * Wniosek
 
 ## Krok 1: Pierwsze kroki
@@ -36,22 +36,22 @@ Po aktualizacji zawsze zaleca się ponowne uruchomienie serwera, aby nowe zmiany
 sudo reboot
 ```
 
-## Krok 2: Zainstaluj serwer LAMP
+## Krok 2: Zainstaluj serwer lamp
 Aby skonfigurować Pydio Secure Enterprise Plice Server i sposób utworzenia prywatnej chmury open source, najpierw musimy skonfigurować działającą serwer LAMP. Jeśli już zainstalowałeś i działając stosowanie lampy, pomiń ten krok, a następnie użyj poleceń obserwujących, aby skonfigurować lampę w systemie Ubuntu.
 
-## # Zainstaluj php
+### Zainstaluj php
 Możesz zainstalować PHP w systemie Ubuntu lub Debian, uruchamiając polecenia:
 sudo apt-get instaluj Python-Sofware-Properties
 sudo add-apt-repozytory PPA: ondrej/php
 sudo apt-get instaluj -y php php-gd php-curl php-zip php-akt php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-## # Zainstaluj Apache2
+### Zainstaluj Apache2
 Apache to najczęściej używane oprogramowanie serwera internetowego typu open source. Następnie zainstaluj serwer WWW Apache na Ubuntu, uruchamiając:
 sudo apt-get install -y Apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # Zainstaluj mysql
+### Zainstaluj mysql
 MySQL open source relacyjna system zarządzania bazą danych jest składnikiem stosu oprogramowania aplikacji internetowej i innych. Teraz instalowanie MySQL na Ubuntu, działając poniżej:
 sudo apt-get instal -y mysql-server php-mysql
 {{_LINE_42_}}
@@ -118,27 +118,27 @@ Otwórz przeglądarkę i wpisz adres URL http: // Your -Server -ip / Pydio. Zost
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Instalator Pydio">}}
 
-Potwierdź wszystkie elementy sterujące i kliknij przycisk  **Kontynuuj instalację Pydio** . Powinieneś zobaczyć następną stronę:
+Potwierdź wszystkie elementy sterujące i kliknij przycisk  **Kontynuuj instalację Pydio**  . Powinieneś zobaczyć następną stronę:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Kreator konfiguracji Pydio">}}
 
-Wybierz swój język i kliknij  **Uruchom Kreatora** . Powinieneś zobaczyć następną stronę:
+Wybierz swój język i kliknij  **Uruchom Kreatora**  . Powinieneś zobaczyć następną stronę:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Rozpocznij ustawienia Pydio">}}
 
-Wprowadź nazwę programu i wiadomość powitalną. Następnie kliknij przycisk  **Dalej** . Powinieneś zobaczyć następną stronę:
+Wprowadź nazwę programu i wiadomość powitalną. Następnie kliknij przycisk  **Dalej**  . Powinieneś zobaczyć następną stronę:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Wprowadź aplikację Pydio">}}
 
-Następnie wprowadź konto administratora i kliknij przycisk  **Dalej** . Powinieneś zobaczyć następną stronę:
+Następnie wprowadź konto administratora i kliknij przycisk  **Dalej**  . Powinieneś zobaczyć następną stronę:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Ustawienia bazy danych mysql">}}
 
-Następnie wprowadź szczegóły swojej bazy danych, takie jak nazwa bazy danych, nazwa użytkownika i hasło. Następnie kliknij przycisk  **TEST DB Połączenie** . Powinieneś zobaczyć następną stronę:
+Następnie wprowadź szczegóły swojej bazy danych, takie jak nazwa bazy danych, nazwa użytkownika i hasło. Następnie kliknij przycisk  **TEST DB Połączenie**  . Powinieneś zobaczyć następną stronę:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Opcje zaawansowane Pydio">}}
 
-Następnie kliknij przycisk  **Zainstaluj Pydio** . Po pomyślnym zakończeniu instalacji. Zostaniesz przekierowany na następną stronę:
+Następnie kliknij przycisk  **Zainstaluj Pydio**  . Po pomyślnym zakończeniu instalacji. Zostaniesz przekierowany na następną stronę:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Login Pydio">}}
 
@@ -146,7 +146,8 @@ Następnie wprowadź nazwę użytkownika i hasło dla administratora. Następnie
 
 Tak! Zrobione. Teraz wiesz, jak całkowicie zainstalować oprogramowanie do udostępniania plików Pydio Self Hosted i open source w Ubuntu do budowy chmury prywatnej krok po kroku podobnym do Dropbox lub Dysku Google.
 
-##  **Wniosek:** {#4a1a}
+##  **Wniosek:**   {#4a1a}
+
 W tym samouczku z powodzeniem zainstalowałeś bezpieczne udostępnianie plików Pydio Cells w systemie Ubuntu. Możesz użyć tego artykułu, aby stworzyć infrastrukturę chmurową do przechowywania, zabezpieczania i udostępniania plików w chmurze hostowanej. Użyj wspólnego udostępniania dokumentów Pydio i najlepszej bezpłatnej aplikacji udostępniania plików, aby uzyskać większą kontrolę nad danymi i zapewnić skuteczną współpracę w organizacji biznesowej. W naszych nadchodzących samouczkach omówimy bardziej interesujące tematy rozwiązań pamięci masowej w chmurze open source i narzędzi do współpracy.
 _Your może dołączyć do nas na [Twitter][1], [LinkedIn][2] i naszą stronę [Facebook][3]. Jaką platformę Udostępnianie opartego na chmurze _file używasz online?. Jeśli masz jakieś pytania, proszę [skontaktuj się][4].
 
@@ -154,11 +155,12 @@ _Your może dołączyć do nas na [Twitter][1], [LinkedIn][2] i naszą stronę [
 Mamy również kilka innych artykułów dotyczących codziennego zarządzania twoim serwerem.
   * [Jak skonfigurować Apache jako odwrotną proxy dla Ubuntu/Debian][5]
   * [Jak zainstalować i zabezpieczyć phpMyAdmin z Nginx na Ubuntu][6]
-  * [Zabezpiecz i szyfruj Nginx za pomocą Let's Encrypt on Ubuntu 20.04][7]
+  * [Zabezpiecz i szyfruj Nginx z Let's Encrypt on Ubuntu 20.04][7]
   * [Konfiguruj obsługę HTTP/2 w Nginx na Ubuntu/Debian][8]
   * [Ustaw nginx z pasażerem na serwerze produkcyjnym AWS][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

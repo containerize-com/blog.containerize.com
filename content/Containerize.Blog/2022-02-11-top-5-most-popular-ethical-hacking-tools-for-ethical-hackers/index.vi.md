@@ -26,36 +26,40 @@ Tin tặc đạo đức làm việc như các chuyên gia bảo mật thông tin
   * Các tùy chọn phần mềm hack đạo đức khác để xem xét:
   * Phần kết luận
 
-## 1. metasploit   {#42db}
+## 1. Metasploit {#42db}
+
 [Metasploit][1] Framework là một công cụ nguồn mở và nó có thể được tải xuống miễn phí. Metasploit Pro là một sản phẩm thương mại. Bản dùng thử miễn phí có sẵn trong 14 ngày. Liên hệ với công ty để tìm hiểu thêm về chi tiết giá của nó.
-Nó là phần mềm để kiểm tra thâm nhập. Sử dụng khung Metasploit, bạn có thể phát triển và thực thi mã khai thác đối với máy từ xa. Nó hỗ trợ đa nền tảng. Nó là **** tốt nhất để xây dựng các công cụ chống ưu tiên và trốn tránh.
-**Khóa ** **Các tính năng:**  
+Nó là phần mềm để kiểm tra thâm nhập. Sử dụng khung Metasploit, bạn có thể phát triển và thực thi mã khai thác đối với máy từ xa. Nó hỗ trợ đa nền tảng. Nó là****tốt nhất để xây dựng các công cụ chống ưu tiên và trốn tránh.
+**Khóa****Các tính năng:**  
   * Nó rất hữu ích khi biết về các lỗ hổng bảo mật.
   * Giúp kiểm tra thâm nhập.
   * Giúp phát triển chữ ký ID.
   * Bạn có thể tạo các công cụ kiểm tra bảo mật.
 
-## 2. SQLMAP   {#66FD}
+## 2. SQLMAP {#66fd}
+
 [SQLMAP][2] là một công cụ để tự động hóa quá trình phát hiện và khai thác các lỗ hổng SQL và phụ trách các máy chủ cơ sở dữ liệu. Nó là một công cụ nguồn mở và có một công cụ phát hiện mạnh mẽ. Nó hoàn toàn hỗ trợ MySQL, Oracle, PostgreSQL, và nhiều hơn nữa. Nó hoàn toàn hỗ trợ sáu kỹ thuật tiêm SQL, mù dựa trên Boolean, mù dựa trên thời gian, dựa trên lỗi, truy vấn dựa trên công đoàn, các truy vấn xếp chồng và ngoài băng tần.
 SQLMAP hỗ trợ thực thi các lệnh tùy ý và truy xuất đầu ra tiêu chuẩn của họ, tải xuống và tải lên bất kỳ tệp nào, tìm kiếm tên cơ sở dữ liệu cụ thể, v.v. Nó sẽ cho phép bạn kết nối trực tiếp với cơ sở dữ liệu.
-**Các tính năng chính: **
+**Các tính năng chính:**  
   * Người dùng, băm mật khẩu, quyền, vai trò, cơ sở dữ liệu, bảng và cột đều có thể được liệt kê.
   * Các định dạng băm mật khẩu được tự động nhận dạng và một cuộc tấn công dựa trên từ điển có thể được sử dụng để bẻ khóa chúng.
   * Hỗ trợ bán các bảng cơ sở dữ liệu toàn bộ, một loạt các mục hoặc chọn các trường dựa trên tùy chọn của người dùng. Người dùng cũng có thể chọn một tập hợp con của các ký tự từ mỗi mục nhập cột để kết xuất.
 
-## 3. Hashcat   {#66fd}
+## 3. Hashcat {#66fd}
+
 [Hashcat][3], mặc dù cuối cùng trong danh sách của chúng tôi, là một trong những chương trình bẻ khóa mật khẩu và hack đạo đức mạnh mẽ nhất có sẵn. Đây là một trong những chương trình tin tặc tốt nhất hiện có và nó có thể hỗ trợ người dùng khôi phục mật khẩu bị lãng quên, kiểm toán bảo mật mật khẩu hoặc đơn giản là xác định dữ liệu nào được bao gồm trong Hash. Công cụ này có sẵn miễn phí.
-**Các tính năng chính: **
+**Các tính năng chính:**  
   * Hỗ trợ hoạt động của bộ não ứng cử viên mật khẩu.
   * Mạng nứt phân tán được hỗ trợ (sử dụng lớp phủ)
   * Tạm dừng/sơ yếu lý lịch tương tác được hỗ trợ.
   * Phiên được hỗ trợ.
   * AIDS trong việc phục hồi
 
-## 4. NMAP   {#B3ED}
+## 4. NMAP {#b3ed}
+
 [NMAP][4] là máy quét bảo mật, máy quét cổng, cũng như một công cụ thăm dò mạng. Nó là phần mềm nguồn mở và có sẵn miễn phí. Tốt nhất là cho các mạng quét, dễ sử dụng và nhanh chóng. Nó là viết tắt của Mạng lưới.
 Nó hỗ trợ đa nền tảng. Nó có thể được sử dụng để kiểm kê mạng, quản lý lịch trình nâng cấp dịch vụ và để giám sát thời gian hoạt động của máy chủ & dịch vụ. Nó có thể hoạt động cho một máy chủ duy nhất cũng như các mạng lớn. Nó cung cấp các gói nhị phân cho Linux, Windows và Mac OS X.
-**Các tính năng chính: **
+**Các tính năng chính:**  
   * Truyền dữ liệu, chuyển hướng và công cụ gỡ lỗi (NCAT),
   * Kết quả quét so sánh tiện ích (NDIFF),
   * Công cụ phân tích phản hồi và tạo gói (NPing),
@@ -66,23 +70,26 @@ Nó hỗ trợ đa nền tảng. Nó có thể được sử dụng để kiểm
   * Bộ lọc gói họ đang sử dụng.
   * Và nhiều đặc điểm khác.
 
-## 5. John the Ripper   {#B3ed}
+## 5. John the Ripper {#b3ed}
+
 [John the Ripper][5] là một công cụ để bẻ khóa mật khẩu. Nó có thể được sử dụng trên Windows, DOS và VM mở. Nó là một công cụ nguồn mở. Nó được tạo để phát hiện mật khẩu Unix yếu. Tốt nhất là nhanh chóng trong việc bẻ khóa mật khẩu.
-**Các tính năng chính: **
+**Các tính năng chính:**  
   * John the Ripper có thể được sử dụng để kiểm tra các mật khẩu được mã hóa khác nhau.
   * Nó thực hiện các cuộc tấn công từ điển.
   * Nó cung cấp các bánh quy mật khẩu khác nhau trong một gói.
   * Nó cung cấp một cracker có thể tùy chỉnh.
 
-## Các tùy chọn phần mềm hack đạo đức khác để xem xét:   {#42db}
-Có hàng tá nền tảng hack đạo đức nguồn mở khác như được liệt kê dưới đây:
-  ***Máy quét IP tức giận** 
-  ***Aircrack** 
-  ***ettercap** 
-  ***Nikto** 
-  ***ZenMap** 
+## Các tùy chọn phần mềm hack đạo đức khác để xem xét: {#42db}
 
-## Kết luận:   {#4a1a}
+Có hàng tá nền tảng hack đạo đức nguồn mở khác như được liệt kê dưới đây:
+* **Máy quét IP tức giận** 
+* **Aircrack** 
+* **ettercap** 
+* **Nikto** 
+* **ZenMap** 
+
+## Phần kết luận: {#4a1a}
+
 Như đã giải thích ở đây, Metasploit cũng là để bảo mật và rất tốt cho việc xây dựng các công cụ chống ưu tiên và trốn tránh. NMAP được sử dụng để bảo mật máy tính và quản lý mạng. Nó là tốt để quét mạng. Theo các đánh giá có sẵn trực tuyến, mọi người khuyên bạn nên sử dụng NMAP thay vì máy quét IP tức giận vì máy quét IP tức giận đi kèm với các ứng dụng không mong muốn. John the Ripper rất nhanh trong việc bẻ khóa mật khẩu. Nikto là một công cụ nguồn mở tốt để kiểm tra thâm nhập.
 _What _open Nguồn công cụ hack đạo đức _do bạn sử dụng ?. Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, xin vui lòng liên hệ][6].
 
@@ -94,7 +101,8 @@ Bạn có thể tìm thấy các bài viết liên quan hơn dưới đây:
   * [Tùy chọn phần mềm thị trường kỹ thuật số hàng đầu][10]
   * [Top 5 Phần mềm lưu trữ đám mây nguồn mở vào năm 2021][11]
 
-  
+
+
 [1]: https://www.metasploit.com/
 [2]: https://sqlmap.org/
 [3]: https://hashcat.net/hashcat/

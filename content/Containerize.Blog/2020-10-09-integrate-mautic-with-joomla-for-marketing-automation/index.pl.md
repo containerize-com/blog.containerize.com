@@ -1,5 +1,5 @@
 ---
-title: "Zintegruj Mautic i Joomla do automatyzacji marketingu cyfrowego " 
+title: "Zintegruj Mautic i Joomla do automatyzacji marketingu cyfrowego ”" 
 seoTitle: "Zintegruj Mautic i Joomla do automatyzacji marketingu cyfrowego" 
 description: "Integracja mautic i Joomla może pomóc Twojej firmie z automatyzacją marketingu cyfrowego. Pomaga sprzedawać produkty za pomocą kampanii mautowych." 
 date: Fri, 09 Oct 2020 15:16:25 +0000
@@ -21,11 +21,13 @@ Integracja mautic i joomla umożliwia sprzedawanie produktów/usług w bardzo ł
   * [Konfiguracja mautyczna][3]
   * [Wniosek][4]
 
-## Przegląd:   {#overview}
+## Przegląd: {#overview}
+
 Mautic to open source marketingowy system automatyzacji. To bezpłatne oprogramowanie marketingowe. Możesz go użyć do tworzenia nieograniczonych kampanii, aby wysyłać e -maile marketingowe do ukierunkowanych klientów.
 Joomla jest również bezpłatnym systemem zarządzania treścią open source do opracowywania stron internetowych. Bardzo łatwo jest skonfigurować witryny biznesowe na Joomla. Ma tysiące rozszerzeń, które można wykorzystać zgodnie z Twoimi wymaganiami.
 
-## joomla wtyczka instalacja:   {#plugin}
+## Instalacja wtyczki Joomla: {#plugin}
+
   * Pobierz [wtyczkę][5].
   * Następnie przejdź do rozszerzeń -> Zarządzaj -> Zainstaluj.
   * Wprowadź adres URL mautic.
@@ -33,16 +35,17 @@ Joomla jest również bezpłatnym systemem zarządzania treścią open source do
   * Osadza formularze w treści Joomla za pomocą następującego kodu fragmentu: {mautic type = ”form” id}
   * Następnie możesz utworzyć formularz w swojej aplikacji Maucing i uzyskać identyfikator z adresu URL.
   * Dynamiczna zawartość można również dodać za pomocą następującego kodu snippt: {mautic type = ”content” slot = ”nazwa_nazwa”} Treść domyślna tutaj. {/Mautic}
-  * Nazwa slot jest identyfikatorem slotu określonego podczas dodawania decyzji „Dynamic Treść żądania” do kampanii.
+  * Nazwa slot jest identyfikatorem slotu określonego podczas dodawania decyzji „żądania treści dynamicznej” do kampanii.
 Po instalacji musisz utworzyć i osadzić formularze na swojej stronie Joomla. Te formularze wysyłają informacje o kontaktach do Mautic. Po zakończeniu konfiguracji wtyczki na Joomla następnym krokiem będzie skonfigurowanie jej na Mauutic.
 
-## Mauutic Configuration:   {#mautic}
-  * Przejdź do swojej witryny mautycznej, przejdź do ustawień.
+## Konfiguracja mautyczna: {#mautic}
+
+  * Przejdź do swojej witryny mautic, przejdź do ustawień.
   * Kliknij konfigurację.
   * Z ustawień API włącz API.
-  * Aby połączyć się z JOOMLA, musisz mieć certyfikat SSL na swoich stronach.
+  * Aby połączyć Mautic z Joomla, musisz mieć certyfikat SSL na swoich stronach.
   * Następnie musisz przejść do poświadczeń API.
-* Jeśli Twoja witryna nie ma SSL (więc przejdź do**http**: //yourjoomLasite.com), wybierz OAuth1. Jeśli masz SSL na swojej stronie (więc przejdź do**https**: //yourjoomLasite.com), wybierz OAuth2.
+* Jeśli Twoja witryna nie ma SSL (więc przejdź do **http**: //yourjoomLasite.com), wybierz OAuth1. Jeśli masz SSL na swojej stronie (więc przejdź do**https** : //yourjoomLasite.com), wybierz OAuth2.
   * Kliknij nowe, podaj nazwę (może być wszystkim, co chcesz) i pełny adres URL swojej Joomli! strona ([https://yourjoomlasite.com][6])
   * Kliknij Zapisz i zamknij.
   * Tutaj możesz dostać klucze publiczne i prywatne.
@@ -58,7 +61,8 @@ Po instalacji musisz utworzyć i osadzić formularze na swojej stronie Joomla. T
 {{< figure align=center src="images/Mautic-and-Joomla-integration-1024x591.png" alt="Integracja mautyczna i Joomla">}}
 
 
-## Wniosek:   {#Conclusion}
+## Wniosek: {#conclusion}
+
 W tym artykule omówiliśmy, w jaki sposób Mauutic i Joomla razem mogą pomóc w automatyzacji marketingu cyfrowego. To bezpłatne rozwiązanie marketingowe open source pozwoli grupować wszystkie kontakty pochodzące z witryny Joomla i tworzyć ich kampanie marketingowe. Mautic pozwala tworzyć segmenty, abyś mógł prowadzić różne kampanie w różnych segmentach zgodnie z Twoimi potrzebami. Sprawdź blogi [Joomla][7] i [mautic][8], aby uzyskać szczegółowy przegląd.
 
 ## Badać:
@@ -70,7 +74,8 @@ Możesz znaleźć istotne następujące linki:
   * [Automatyzacja marketingowa za pomocą mautic i WordPress WooCommerce][11]
   * [Jak skonfigurować kampanie marketingowe w Mautic][12]
 
-  
+
+
 [1]: #overview
 [2]: #plugin
 [3]: #mautic

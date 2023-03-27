@@ -20,7 +20,8 @@ OSTICKET é um sistema de ingressos para helpdesk de código aberto e gratuito. 
   * [Procedimento de autenticação][3]
   * [Conclusão][4]
 
-## Processo de integração:   {#Integration}
+## Processo de integração: {#integration}
+
 A integração de Oticket e WordPress requer um formulário de contato no site WordPress com os seguintes campos
   1. Tópico de ajuda
   2. E -mail
@@ -29,7 +30,8 @@ A integração de Oticket e WordPress requer um formulário de contato no site W
   5. Mensagem
 O formulário de contato deve enviar emails, porque este plug -in conecta a função WP_MAIL para obter os dados dos formulários.
 
-## WordPress Instalação do plug -in:   {#wordpress}
+## Instalação do plug -in do WordPress: {#wordpress}
+
   1. Vá para o painel de administração do seu site WordPress.
   2. Em seguida, vá para a seção Plugins.
   3. Em seguida, instale este [plugin][5].
@@ -42,11 +44,12 @@ O formulário de contato deve enviar emails, porque este plug -in conecta a fun�
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Integração de Osticket-WordPress para automatizar o sistema de emissão de emissão de emissão">}}
 
 
-## Procedimento de autenticação:   {#auth}
+## Procedimento de autenticação: {#auth}
+
 A autenticação da API é realizada via API Keys configurada no painel de administração do Osticket. As teclas da API são geradas e vinculadas a um endereço IP de origem que é verificado em relação ao IP de origem das solicitações da API HTTP. Para criar a chave da API
   1. Vá para o painel de administração do Osticket.
   2. Clique em "Gerenciar".
-  3. Vá para o sub -menu "API Keys".
+  3. Vá para o sub -menu “chaves da API”.
   4. Clique em "Adicionar nova chave da API".
   5. Defina o "status" como ativo.
   6. Verifique a caixa de seleção "pode ​​criar ticket".
@@ -55,16 +58,18 @@ A autenticação da API é realizada via API Keys configurada no painel de admin
 {{< figure align=center src="images/osticket-1024x729.png" alt="Integração de Osticket-WordPress para automatizar o sistema de emissão de emissão de emissão">}}
 
 
-## Conclusão:   {#conclusion}
+## Conclusão: {#conclusion}
+
 A integração de Osticket-WordPress automatizará o processo de ticketing. Portanto, facilitará a vida para a equipe de apoio. As consultas no site do WordPress se converterão automaticamente em ingressos de suporte no Osticket. Para que a equipe de suporte possa gerenciar todas as consultas dos clientes com mais facilidade e eficiência. Os agentes de suporte serão notificados por notificações por email. Portanto, os agentes podem resolver as consultas dos clientes a tempo. A seção de comentários sobre o Osticket ajuda os clientes e os agentes de suporte a se comunicarem de maneira eficaz e oportuna. Também facilita para os gerentes acompanhar o progresso de cada bilhete.
 
 ## Explore:
 Para saber mais sobre Osticket e WordPress, consulte estas páginas:
   * [OSTICKET - Sistema de ingressos para Helpdesk de código aberto gratuito][7]
-  * [WordPress - código aberto gratuito e CMS e ferramenta de blog mais amplamente usadas][8]
+  * [WordPress - código aberto gratuito e CMS e ferramenta de blog mais amplamente usados][8]
   * [Como configurar o software de suporte técnico on -line usando osticket][9]
 
-  
+
+
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

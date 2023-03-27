@@ -22,22 +22,25 @@ Dieses Open -Source -Ticketing -System (OSTICKET) ist ein völlig flexibles Supp
   * [Wie man Ostickets Plugin entwickelt?][6]
   * [Schlussfolgerung][7]
 
-## Warum Plugins verwenden?   {#Warum}
-In diesem Thema lernen wir, wie Sie ein einfaches Plugin erstellen, um die Kernfunktionalität dieser **IT -Helpdesk -Software**  (Osticket) zu erweitern. Ein Plugin ist eine Software, die die Kernfunktionalität jeder App/Software erweitert. Darüber hinaus gibt es viele Open-Source-Software auf Unternehmensebene mit einem riesigen Stapel Plugins, die die Funktionen erweitern. Darüber hinaus umfassen diese beliebten Open -Source -Software WordPress, Joomla und viele mehr. Vor allem lebendige und lebendige Gemeinschaften unterstützen und entwickeln Plugins nach Bedarf. Frameworks bieten jedoch umfassende Dokumentation zur Entwicklung der Plugins. Im Folgenden finden Sie einige Gründe für Apps zur Unterstützung von Plugins:
+## Warum Plugins verwenden? {#why}
+
+In diesem Thema lernen wir, wie Sie ein einfaches Plugin erstellen, um die Kernfunktionalität dieser  **IT -Helpdesk -Software**  (Osticket) zu erweitern. Ein Plugin ist eine Software, die die Kernfunktionalität jeder App/Software erweitert. Darüber hinaus gibt es viele Open-Source-Software auf Unternehmensebene mit einem riesigen Stapel Plugins, die die Funktionen erweitern. Darüber hinaus umfassen diese beliebten Open -Source -Software WordPress, Joomla und viele mehr. Vor allem lebendige und lebendige Gemeinschaften unterstützen und entwickeln Plugins nach Bedarf. Frameworks bieten jedoch umfassende Dokumentation zur Entwicklung der Plugins. Im Folgenden finden Sie einige Gründe für Apps zur Unterstützung von Plugins:
   * Es ermöglicht Entwickler von Drittanbietern, Softwarekomponenten zu erstellen, die die Funktionalität einer Anwendung erweitern.
   * Plugins ermöglichen es einfach, neue Funktionen zu integrieren.
   * Außerdem erhöht es nicht die Größe und Komplexität einer Anwendung.
   * Sowie Entwickler können den Code von Plugins getrennt von der Kernanwendung aufbewahren und verwalten.
 
-## Anforderungen   {#Requirements}
-In diesem Abschnitt der Helpdesk -Software ** Handbuch wird die Anforderungen beschrieben, die für die Entwicklung des Osticket -Plugins erforderlich sind.
+## Anforderungen {#requirements}
+
+In diesem Abschnitt der Helpdesk -Software**beschreibt die Anforderungen für die Entwicklung des Osticket -Plugins.
   * PHP Version 5.6 oder höher
   * Osticket -Installation
   * Grundlegendes PHP -Wissen
 
-## Wie entwickelt man Ostickets Plugin?   {#Wie}
+## Wie entwickle ich das Plugin von Ostickets? {#how}
+
 In diesem Abschnitt werden wir die Schritte der Pluginentwicklung dieses Open -Source -Ticketing -Systems (Osticket) durchlaufen.
-  * Erstellen Sie den Ordner von Plugin in /include /plugins verzeichnis. In diesem Tutorial erstellen wir ein Demo -Plugin, das das **Osticket -System**  in Redmine integriert.
+  * Erstellen Sie den Ordner von Plugin in /include /plugins verzeichnis. In diesem Tutorial erstellen wir ein Demo -Plugin, das das  **Osticket -System**  in Redmine integriert.
   * Es sollte die folgenden erforderlichen Dateien haben: plugin.php und config.php.
   * Plugin.php -Datei enthält eine allgemeine Beschreibung des Plugins. Verwenden Sie den folgenden Beispielcode in der Plugin.php -Datei:
 ```
@@ -105,7 +108,7 @@ class DynabicRedminePluginConfig extends PluginConfig {
       * Telefonfield - Textfeld optimiert für Telefonnummern
       * Booleanfield - Kontrollkästchen
       * ChoiceField-Dropdown-Feld auswählen
-      * Abschnitt Breakfield - Horizontaler Abschnitt Pause
+      * Abschnitt Breakfield - Horizontale Abschnitt Pause
   * Danach müssen wir die Datei erstellen, in der die Funktionalität von Plugin definiert wird.
   * Der Dateiname sollte wie in Plugin.php -Datei definiert sein. d.h. rotmine.php.
   * Dies muss die Klasse DynabicredMineplugin halten. Schauen Sie sich den folgenden Beispielcode an:
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Dieser Code hat die Konfigurationswerte abgerufen und Sie können diese Werte in Ihren Funktionen verwenden. In dieser Datei können Sie die Funktionen Ihres Plugins als Anforderungen hinzufügen.
 
-## Schlussfolgerung   {#Conclusion}
-Dies bringt uns zum Ende dieses Blog -Beitrags. Osticket ist eine Ticketing -Management -Software, die die Struktur der Plugins für Entwickler anbietet, damit sie neue Funktionen nach Anforderungen hinzufügen können. Plugins sind die Komponenten, die die Kernfunktionalität jeder App/Software erweitern. In seinem Artikel haben wir die Pluginentwicklung dieses **Kundenunterstützungssystems  **(Osticket) erörtert, mit dem Entwickler benutzerdefinierte Funktionen und Verbesserungen entsprechend ihren Anforderungen hinzufügen können. Daher hilft Ihnen dieser Blog -Beitrag wirklich, wenn Sie eine **  Helpdesk -Software  **für Ihr Unternehmen bereitstellen möchten. Darüber hinaus gibt es andere **  Helpdesk -Ticket -Software**  und Artikel im Abschnitt „Explore“ unten.
+## Abschluss {#conclusion}
+
+Dies bringt uns zum Ende dieses Blog -Beitrags. Osticket ist eine Ticketing -Management -Software, die die Struktur der Plugins für Entwickler anbietet, damit sie neue Funktionen nach Anforderungen hinzufügen können. Plugins sind die Komponenten, die die Kernfunktionalität jeder App/Software erweitern. In seinem Artikel haben wir die Pluginentwicklung dieses  **Kundenunterstützungssystems** (Osticket) erörtert, mit dem Entwickler benutzerdefinierte Funktionen und Verbesserungen entsprechend ihren Anforderungen hinzufügen können. Daher hilft Ihnen dieser Blog -Beitrag wirklich, wenn Sie eine  **Helpdesk -Software**  für Ihr Unternehmen bereitstellen möchten. Darüber hinaus gibt es andere **Helpdesk -Ticket -Software**  und Artikel im Abschnitt „Explore“ unten.
 Schließlich schreibt [Containerize.com][8] ständig Blog -Beiträge zu weiteren Open -Source -Produkten und -Themen. Bitte bleiben Sie mit der Kategorie [Helpdesk Ticketing][1] in Kontakt mit der Kategorie [Helpdesk -Ticketing] für regelmäßige Updates. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][9], [LinkedIn][10] und [Twitter][11] folgen.
 
 ## Erkunden
@@ -143,7 +147,8 @@ Möglicherweise finden Sie die folgenden Links relevant:
   * [Automatisieren Sie das Ticketing -System mit WordPress und Osticket][3]
   * [Automatisieren Geschäftsbetriebe mit kostenloser und Open -Source -Software][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

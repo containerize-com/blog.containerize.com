@@ -19,29 +19,34 @@ Ele contém as seguintes seções:
   * [Implementando 2FA em .NET5][5]
 Primeiro, vamos entender o que é 2FA e por que ele precisa ser parte integrante de todos os aplicativos da web modernos.
 
-## O que é autenticação de dois fatores?   {#2fa}
+## O que é autenticação de dois fatores? {#2FA}
+
 Um fator nesse contexto implica uma maneira de convencer um aplicativo ou serviço de que você é o proprietário da conta. O nome de usuário/senha é amplamente utilizado como o fator de autenticação mais comum. No entanto, devido a muitos problemas de segurança associados a TI e violações de dados generalizadas recentes-a autenticação de fator único se tornou menos seguro.
 A autenticação de dois fatores é uma camada adicional de segurança, que entra em jogo antes que você possa acessar sua conta. A adição no processo de login padrão-ele introduz uma etapa extra para verificar a identidade do usuário enviando um código (para o seu email ou como uma mensagem de texto). Dessa forma, sua identidade é comprovada e só então o acesso é concedido.
 
-## Como funciona o 2FA?   {#2Fawork}
+## Como funciona o 2FA? {#2fawork}
+
 No 2FA, a senha ainda é seu primeiro fator de autenticação - então, quando você faz login na sua conta, ela o redirecionará para outra página em que você precisar verificar a propriedade da conta. Isso pode ser feito usando várias maneiras:
   1. O aplicativo envia um código de verificação frequentemente chamado OTP (senhas únicas) para o seu endereço de e-mail.
   2. O código é entregue como uma mensagem de texto no seu telefone.
   3. Você instala um aplicativo autenticador no celular, através do qual pode autorizar solicitações de login.
 NOTA: Esses códigos de verificação são gerados aleatoriamente e expirados uma vez usados. Além disso, eles têm vida curta - então há uma janela curta antes que você possa usar o código (isso impede o hacker para forçar os códigos de verificação).
 
-## podemos chamar 2fa de autenticação multifatorial?   {#Mfa}
+## Podemos chamar o 2FA como autenticação multifatorial? {#MFA}
+
 Os métodos de autenticação não se limitam a dois fatores. Muitos aplicativos e serviços estão movendo seus usuários além do 2FA e usando a autenticação multifatorial.
 2FA e MFA (autenticação multifatorial) são frequentemente usados ​​de forma intercambiável. No entanto, há uma diferença. Na autenticação de vários fatores, dois ou mais fatores são usados.
 Ele pode verificar o endereço IP de um usuário, localização geográfica e informações de dispositivo em relação a outros fatores, como uma senha e OTP, para verificar a identidade do usuário.
 Portanto, podemos dizer que o 2FA é um subconjunto de MFA. No 2FA, haverá apenas dois fatores, enquanto o multi-fator pode utilizar dois ou mais fatores. O MFA torna difícil para hackers, pois adiciona várias camadas de segurança no processo de autenticação tradicional.
 
-## Existem desvantagens usando 2fa?   {#MFA-CONS}
-Semelhante a muitas soluções de "segurança e privacidade" que existem em aplicativos modernos. Ele também tem um preço - inconveniente, pois há uma etapa adicional envolvida que pode causar atrito na experiência do usuário.
-No entanto, está sendo adotado por muitos aplicativos e serviços, portanto essa compensação está se tornando aceitável.
+## Existem desvantagens usando 2fa? {#mfa-cons}
 
-## Como posso implementar a autenticação 2FA?   {#implementando2fa}
-Nesta seção, aprenderemos a implementar o 2FA no .NET5 usando o IdentityServer4 e o Twilio.
+Semelhante a muitas soluções de "segurança e privacidade" que existem em aplicativos modernos. Ele também tem um preço - inconveniente, pois há uma etapa adicional envolvida que pode causar atrito na experiência do usuário.
+No entanto, está sendo adotado por muitos aplicativos e serviços, portanto essa troca está se tornando aceitável.
+
+## Como posso implementar a autenticação 2FA? {#implementing2fa}
+
+Nesta seção, aprenderemos como implementar o 2FA no .NET5 usando o IdentityServer4 e o Twilio.
 Então, vamos criar uma conta de avaliação no Twilio:
   1. Inscreva -se
   2. Verifique sua conta fornecendo um número de telefone válido.
@@ -58,7 +63,7 @@ NOTA: O Twilio fornece 15 $ Credit em todas as contas de avaliação que você u
 Você pode escolher qualquer número, desde que ofereça 'recursos de SMS'. (Anote seu número de telefone que usaremos para configurar mais adiante em nosso projeto).
 5. Usando a conta de teste, o Twilio apenas permite que você envie SMS para um IDS de chamadas verificado que você pode gerenciar usando o link abaixo:
 É tudo o que você precisa configurar usando o Twilio Painel.
-Vamos criar um aplicativo Web ASP.NET Core (selecione Modelo de Projeto abaixo e Target .NET5.
+Vamos criar um aplicativo Web ASP.NET Core (selecione Modelo de Projeto como abaixo e Target .NET5.
 
 {{< figure align=center src="images/2021-03-10-16_32_20-Window-1024x607.png" alt="Visual Studio - novo projeto">}}
 
@@ -66,7 +71,7 @@ Agora, integraremos o IdentityServer4, Pacotes Twilio da Nuget.
   1. `Install -Package IdentityServer4 -version 4.1.1`
   2. `Install -Package Twilio -version 5.55.0`
 IdentityServer4 Ui Quick está disponível em:
-Você pode incluí -lo em seu projeto executando o comando abaixo no Shell do desenvolvedor:
+Você pode incluí -lo em seu projeto executando o comando abaixo no desenvolvedor Shell:
 `iex ((new-object System.net.webclient) .DownloadString ('https://raw.githubusercontent.com/IdentityServer/IdentityServer4.quickstart.ui/main/getmain.ps1')`
 Se fosse instalado corretamente - você veria a pasta QuickStart em seu projeto:
 
@@ -186,11 +191,12 @@ O código da etapa 4 é verificado e a autenticação 2FA foi concluída.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2FadeMo - Página autorizada">}}
 
 
-## # Conclusão:
+### Conclusão:
 Neste artigo, aprendemos sobre o 2FA e sua implementação no .NET5 usando o IdentityServer4 e o Twilio. Você pode baixar o código de exemplo usado neste artigo deste [repo][6].
 O uso de SMS para 2FA certamente fortalece sua segurança, mas ainda é vulnerável a [SIM Swap Attacks][7]. Portanto, os pesquisadores de segurança estão incentivando o 2FA a usar outras abordagens, como aplicativos autenticadores e chaves de segurança ([Yubikey][8]) que não podem ser interceptadas na rede telefônica. Aprenderemos mais sobre isso em um próximo artigo - fique atento!
 
-  
+
+
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

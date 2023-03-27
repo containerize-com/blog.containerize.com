@@ -19,10 +19,12 @@ Trong bài viết này, chúng tôi sẽ học cách thiết lập các chiến 
   * [Làm thế nào để tạo các chiến dịch trong Maitic?][3]
   * [Kết luận][4]
 
-## Maitic là gì?   {#Mautic}
+## Maitic là gì? {#mautic}
+
 Mautic là một phần mềm tự động hóa tiếp thị nguồn mở. Nó cung cấp hoàn toàn kiểm soát các email tiếp thị, trang đích và quy trình làm việc cho các hoạt động tiếp thị. Nó tự động hóa cách để có được khách hàng tiềm năng được tạo từ các trang đích, biểu mẫu và chuyển đổi chúng thành khách hàng tiềm năng. Tất cả điều này có thể đạt được bằng cách tạo các chiến dịch nhỏ giọt thông minh, điều này sẽ giữ cho khách hàng tiềm năng được cập nhật về các sản phẩm/dịch vụ.
 
-## Làm thế nào để tạo các biểu mẫu trong Maitic?   {#các hình thức}
+## Làm thế nào để tạo các biểu mẫu trong Maitic? {#forms}
+
   * Đăng nhập vào cài đặt MAUITC của bạn.
   * Chuyển đến tab Thành phần của các thành phần và nhấp vào các biểu mẫu trên mạng.
   * Nhấn vào New New New từ góc trên bên phải.
@@ -41,7 +43,8 @@ Mautic là một phần mềm tự động hóa tiếp thị nguồn mở. Nó c
   * Sau đó, nhấp vào Thêm Thêm và nhấn vào Save Save và đóng.
   * Thật dễ dàng để tạo các hình thức trong Maitic.
 
-## Làm thế nào để tạo các chiến dịch trong Maitic?   {#Campaigns}
+## Làm thế nào để tạo các chiến dịch trong Maitic? {#campaigns}
+
   * Đi đến các chiến dịch. Nhấp vào Mới mới từ trên cùng bên phải.
   * Nhập tên và đặt ra các bản xuất bản trên mạng.
 
@@ -65,9 +68,10 @@ Mautic là một phần mềm tự động hóa tiếp thị nguồn mở. Nó c
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Cách thiết lập các chiến dịch Maitic cho tiếp thị kỹ thuật số">}}
 
 
-## Kết luận:   {#conclusion}
+## Phần kết luận: {#conclusion}
+
 Chúng tôi đã học cách thiết lập các chiến dịch tiếp thị nhỏ giọt theo 3 bước rất đơn giản. Điều đó bao gồm việc tạo một biểu mẫu cần thiết dưới dạng nguồn chiến dịch, tạo chiến dịch và định cấu hình email. Chúng tôi đã tạo ra chiến dịch rất cơ bản trong hướng dẫn này. Tuy nhiên, bạn có thể tạo các chiến dịch phức tạp bằng cách sử dụng MAINTIC WIDE BUILDER. Nếu bạn chưa quen với Mautic, hãy xem cách cài đặt nó bằng hướng dẫn sau:
-[Tổng quan và Cài đặt Maitic][5]
+[Tổng quan và cài đặt MAntic][5]
 
 ## Khám phá:
 Những bài viết này có thể rất hữu ích nếu bạn muốn tích hợp Mautic với WordPress hoặc Joomla cũng như để giúp bạn bắt đầu với việc thực hiện nhiều người thuê trong Mautic.
@@ -75,12 +79,13 @@ Những bài viết này có thể rất hữu ích nếu bạn muốn tích h�
 [Tích hợp Mautic với Joomla cho tự động hóa tiếp thị][7]
 [Cách thực hiện nhiều người thuê trong Mautic][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

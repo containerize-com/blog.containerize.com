@@ -16,11 +16,12 @@ categories: ['Marketing Automation']
 A Mautic é um software de automação de marketing e fornece controle total sobre e -mails de marketing, páginas de destino e fluxos de trabalho para atividades de marketing. As campanhas de gotejamento da Mautic ajudam a envolver o público -alvo e mantê -las atualizadas sobre seus produtos. A Mautic Facebook Integration fornece uma maneira de novos leads serem adicionados ao Mautic. Com essa integração mautica - o Facebook, os leads da sua campanha no Facebook serão adicionados automaticamente ao Mautic.
 Abordaremos as seguintes seções neste tutorial:
   * [Configurar conta do desenvolvedor do Facebook][1]
-  * [Configure o aplicativo do desenvolvedor do Facebook][2]
+  * [Configurar o aplicativo do desenvolvedor do Facebook][2]
   * [Configuração do plug -in mautic][3]
   * [Conclusão][4]
 
-## Configurar conta do desenvolvedor do Facebook   {#Account}
+## Configure a conta do desenvolvedor do Facebook {#account}
+
   * Vá para [Facebook para desenvolvedores][5]
   * Registre sua conta se você não tiver uma.
   * Para registrar uma nova conta, vá e clique em "Comece" no canto superior direito.
@@ -30,7 +31,8 @@ Abordaremos as seguintes seções neste tutorial:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Facebook Integration - Register Developer Conta">}}
 
 
-## Configure o aplicativo do desenvolvedor do Facebook   {#app}
+## Configure o aplicativo do desenvolvedor do Facebook {#app}
+
   * Clique em "Criar primeiro aplicativo"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Integração do Facebook - Crie o primeiro aplicativo">}}
@@ -49,7 +51,7 @@ Abordaremos as seguintes seções neste tutorial:
 
   * No menu esquerdo, clique em "Configurações" em Produtos -> Login do Facebook.
 
-{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Login-1024x621.png" alt="Mautic - Integração do Facebook - Configure o Login do FB">}}
+{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Login-1024x621.png" alt="Mautic - Integração do Facebook - Configure o login do FB">}}
 
   * Digite o URL do seu site mautico. Defina o "Client OAuth Login" e "Login do Web Oauth" como "Sim".
   * Agora vá para Configurações -> Configurações básicas. Na parte inferior da página, clique no botão "+ Adicionar plataforma". Depois disso, uma janela pop -up será aberta. Digite o URL do seu site e salve as alterações.
@@ -57,7 +59,8 @@ Abordaremos as seguintes seções neste tutorial:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Integração do Facebook - Adicionar site como plataforma">}}
 
 
-## Configuração do plug -in mautic   {#Configuration}
+## Configuração do plug -in mautic {#configuration}
+
   * Vá para o painel mautico.
   * Em seguida, vá para “Configurações” do canto superior direito.
   * Clique em "Plugins".
@@ -72,7 +75,8 @@ Abordaremos as seguintes seções neste tutorial:
   * Aqui você pode mapear seus campos de contato para os campos do Facebook.
   * Finalmente, publique as configurações e você estará pronto.
 
-## Conclusão   {#conclusion}
+## Conclusão {#conclusion}
+
 Mautic - a integração do Facebook pode ajudar a sincronizar seus líderes no Facebook no sistema mautico sem nenhuma dificuldade. No aplicativo Mautic, você pode adicionar todos esses leads a um segmento. Você pode executar campanhas de marketing por e -mail nelas. Isso pode realmente ajudar sua empresa a crescer, comercializar e vender produtos/serviços para um público -alvo muito maior.
 
 ## Explore
@@ -83,7 +87,8 @@ Para saber mais sobre Mautic e Facebook, visite:
   * [Automação de marketing com integração Mautic e WooCommerce][9]
   * [Integre Mautic & Joomla para Automação de Marketing Digital][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

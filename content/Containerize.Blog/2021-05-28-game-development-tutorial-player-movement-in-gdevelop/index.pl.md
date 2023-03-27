@@ -14,22 +14,24 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/Game-Development-Tutorial.png" alt="Samouczek rozwoju gry">}}
 
 
-## **Przegląd**
+## **Przegląd** 
 Społeczność open source pojawia się wraz z przejściem każdej minuty. Istnieją gry międzyplatformowe, gry mobilne i gry stacjonarne. Różne rodzaje gier obejmują gry akcji, gry przygodowe, gry rólowe, gry sportowe, gry puzzle, gry symulacyjne i wiele innych. Dlatego wszystkie te różne typy gier przyniosły ogromny wzrost ruchu, ponieważ użytkownicy ze wszystkich grup wiekowych zwykle grają w te gry.
 Co więcej, pandemia przyniosła ogromną zmianę w stylu życia ludzi żyjących na całym świecie. Ludzie mają teraz więcej czasu. Wszystkie działania offline stały się online. Dlatego mają tendencję do wybierania oprogramowania online do wykonywania profesjonalnych obowiązków i gier wideo w przypadku rozrywki. Z tych wszystkich powodów branża ta zyskała zrównoważony rozwój i wsparcie użytkowników i programistów. W niedawnej przeszłości napisaliśmy na takie tematy, jak [samouczek rozwoju gier HTML5 dla programistów gier wideo][1], [Jak globalny przemysł gier wykorzystuje oprogramowanie typu open source][2] oraz [samouczek Gdeveloping dla początkujących, aby rozpocząć rozwój gier][3]. W tym samouczku rozwoju gry omówimy następujące punkty.
-  * **[Funkcje eksploracji GDeveloper][4]**
-  * **[Praca nad grą][5]**
-  * **[wniosek][6]**
+* **[Funkcje eksploracji GDevelop][4]** 
+* **[Praca nad grą][5]** 
+* **[wniosek][6]** 
 
-## zawiera eksplorację GDevelop   {#Features}
+## Zawiera eksplorację GDevelop {#features}
+
 [GDevelop][7] to platforma do budowy gier typu open source. Jest wysoce rozszerzalny i oferuje logiczny interfejs, w którym użytkownicy mogą łatwo nawigować. To bezpłatne oprogramowanie jest napisane w C ++, TypeScript i JavaScript. Ponadto dostępna jest kompleksowa dokumentacja dotycząca rozwoju i wdrażania. Cały kod źródłowy jest dostępny w GitHub. Ponadto istnieje wiele funkcji, które sprawiają, że oprogramowanie jest widoczne. Zobaczmy niektóre z kluczowych funkcji.
-**Cross-platform**: Ta platforma tworzenia gry jest multiplatform i może być wdrażana na prawie wszystkich popularnych systemach operacyjnych, takich jak macOS, Linux i Windows.
-**Eksportowanie opcji**: GDevelvel pozwala użytkownikom eksportować opracowane gry za pomocą jednego kliknięcia dla Androida, iOS i sieci. Właściciele gier mogą wyświetlać reklamy wideo w swoich grach i może być możliwe przy wsparciu Admob.
-**Bogate obiekty gry**: Ten twórca gier open source zapewnia szeroką gamę obiektów gier, takich jak duszki z animacje, eksplozje pożaru i inne efekty za pomocą emiterów cząstek. Sformatowany tekst, wbudowane filmy i rysowanie niestandardowych kształtów są dostępne do wprowadzania efektów przyciągających wzrok do gier.
-**Wszechstronne zachowania**: W tym podstawowym artykule rozwoju gry pokażemy, w jaki sposób możemy dodać różne zachowania do obiektów gry. Dostępnych jest wiele zachowań, które są gotowe do użycia, a użytkownicy mogą rozwijać się dalej zgodnie z wymaganiami. Wszystko to dzieje się w kilku kliknięciach myszy.
-**Zaawansowany interfejs**: W tym samouczku projektowania gry zobaczymy interfejs użytkownika tego silnika 3D. Użytkownicy mogą przeciągać i upuszczać różne elementy gry i obiekty.
+**Cross-platform** : Ta platforma tworzenia gry jest multiplatform i może być wdrażana na prawie wszystkich popularnych systemach operacyjnych, takich jak macOS, Linux i Windows.
+**Eksportowanie opcji** : GDevelvel pozwala użytkownikom eksportować opracowane gry za pomocą jednego kliknięcia dla Androida, iOS i sieci. Właściciele gier mogą wyświetlać reklamy wideo w swoich grach i może być możliwe przy wsparciu Admob.
+**Bogate obiekty gry** : Ten twórca gier open source zapewnia szeroki zakres obiektów gier, takich jak duszki z animacje, eksplozje pożaru i inne efekty za pomocą emiterów cząstek. Sformatowany tekst, wbudowane filmy i rysowanie niestandardowych kształtów są dostępne do wprowadzania efektów przyciągających wzrok do gier.
+**Wszechstronne zachowania** : W tym podstawowym artykule rozwoju gry pokażemy, w jaki sposób możemy dodać różne zachowania do obiektów gry. Dostępnych jest wiele zachowań, które są gotowe do użycia, a użytkownicy mogą rozwijać się dalej zgodnie z wymaganiami. Wszystko to dzieje się w kilku kliknięciach myszy.
+**Zaawansowany interfejs** : W tym samouczku projektowania gry zobaczymy interfejs użytkownika tego silnika 3D. Użytkownicy mogą przeciągać i upuszczać różne elementy gry i obiekty.
 
-## Praca nad grą   {#working}
+## Praca nad grą {#working}
+
 Ta sekcja samouczka rozwoju gry wyjaśnia podstawowy rozwój gry z GDevelop. Przed pójściem dalej upewnij się, że zainstalowałeś GDevel na swoim komputerze.
 Możesz odwiedzić ten samouczek [samouczek Gdevelop dla początkujących, aby rozpocząć rozwój gry][3], aby uzyskać wiedzę na temat założenia tego edytora gier w LocalHost.
 Teraz otwórz redaktor i utwórz nowy projekt. W tym samouczku utworzymy folder na Dysku Google do zapisywania plików gier. Teraz kliknij „Utwórz nowy projekt”, otworzy nowe okno dialogowe, wybierz opcję „Pusta gra”, aby rozpocząć budowę nowej gry.
@@ -62,7 +64,8 @@ Więc przeciągnij znak występujący w lewym górnym rogu do środka obiektu, a
 {{< figure align=center src="images/Screenshot-2021-05-28-at-16.18.02-1024x578.png" alt="Samouczek rozwoju gry">}}
 
 
-## Wniosek   {#Conclusion}
+## Wniosek {#Wniosek}
+
 To koniec tego samouczka rozwoju gry. Mamy nadzieję, że ten post na blogu byłby pomocny dla twórców gier. Ten samouczek umożliwił pracę z obiektami gry i dodawanie zachowań. W przyszłości Conteerize.com opublikuje posty na blogu i artykuły samouczkowe na temat dalszego oprogramowania do projektowania gier open source. Dlatego proszę pozostać w kontakcie z tą kategorią [oprogramowanie do rozwoju gier][8] na [Containerize.com][9] w celu regularnych aktualizacji.
 
 ## Badać
@@ -72,7 +75,8 @@ To koniec tego samouczka rozwoju gry. Mamy nadzieję, że ten post na blogu był
   * [Cocos Creator][12]
   * [Panda3d][13]
 
-  
+
+
 [1]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [2]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
 [3]: https://blog.containerize.com/game-development-software/pl/game-development-tutorial-player-movement-in-gdevelop/

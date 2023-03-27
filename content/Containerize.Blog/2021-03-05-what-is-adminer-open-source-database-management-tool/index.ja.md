@@ -21,35 +21,39 @@ categories: ['Database Management Software']
   * [管理者を使用してデータベースを管理][5]
   * [結論][6]
 
-## 管理者とは何ですか？   {#何}
-軽量でユーザーフレンドリーで、高性能のMySQLデータベース管理ツールに関しては、PHPMyAdminと比較して多くの改善に幅広い人気を博しています。当初、このデータベース管理ツールは、2007年にPHPMyAdminの代替としてJakub Vranaによって開発されたため、アプリケーションのデータベースに単一の軽量PHPファイルをダウンロードしてインストールするだけです。
-オープンソースデータベース管理ツールとして、自由に使用でき、PHPで記述されています。このWebベースのデータベース管理システムを際立たせているのは、シームレスなユーザーエクスペリエンスのための優れたユーザーインターフェイス設計であり、攻撃や悪意のあるハッキングの試みからデータを安全に保つための強力なセキュリティ機能です。このデータベース管理ツールはセットアップが簡単で、UbuntuやLampなどの簡単な要件が必要です。ユーザーは、開発と展開に関する包括的なドキュメントを見つけることができます。したがって、[github][7]でこのWebベースのデータベース管理システムのソースファイルを見つけることができます。
+## 管理者とは何ですか？ {#what}
 
-## adminer   {#important}の重要な機能
-このデータベース管理ツールのいくつかの基本的で重要な機能は次のとおりです。
-  *選択データベースの選択、テーブルの編集、テーブルのデータの挿入/編集、複数の列のソート/検索など、多くのデータベース関数があります
+軽量でユーザーフレンドリーで、高性能のMySQLデータベース管理ツールに関しては、PHPMyAdminと比較して多くの改善に幅広い人気を博しています。当初、このデータベース管理ツールは、2007年にPHPMyAdminの代替としてJakub Vranaによって開発されたため、アプリケーションのデータベースに単一の軽量PHPファイルをダウンロードしてインストールするだけです。
+オープンソースデータベース管理ツールとして、自由に使用でき、PHPで記述されています。このWebベースのデータベース管理システムを際立たせているのは、シームレスなユーザーエクスペリエンスの優れたユーザーインターフェイス設計であり、攻撃や悪意のあるハッキングの試みからデータを安全に保つための強力なセキュリティ機能です。このデータベース管理ツールはセットアップが簡単で、UbuntuやLampなどの簡単な要件が必要です。ユーザーは、開発と展開に関する包括的なドキュメントを見つけることができます。したがって、[github][7]でこのWebベースのデータベース管理システムのソースファイルを見つけることができます。
+
+## 管理者の重要な特徴 {#important}
+
+このデータベース管理ツールの基本的で重要な機能は次のとおりです。
+* 選択データベースの選択、テーブルの編集、テーブルのデータの挿入/編集、複数の列のソート/検索など、多くのデータベース関数があります
   * MySQL、PostgreSQL、SQLite、MS SQL、Oracle、およびSimpledBデータベースなどを含む複数のデータベースをサポートしています
-  *英語、アラビア語、ペルシャ語、ポーランド語、オランダ語などを含む43の言語で利用できます
-  *ビュー、トリガー、ストアドプロシージャ、ユーザー許可など、データベースオブジェクトを簡単に編集できます。
+* 英語、アラビア語、ペルシャ語、ポーランド語、オランダ語などを含む43の言語で利用できます
+* ビュー、トリガー、ストアドプロシージャ、ユーザー許可など、データベースオブジェクトを簡単に編集できます。
   * Andererは、SQLインジェクション、セッション盗み、クロスサイトスクリプト（XSS）ソフトウェア攻撃、その他の攻撃に対するセキュリティ対策も提供します。
 
-## adminer vs phpmyadmin   {#adminer}
+## 管理者とphpmyadmin {#adminer}
+
 したがって、私たちが管理者とは何かについて話すとき、管理者とphpmyadminの比較を知ることは興味深いでしょう。 admenterとphpmyadminを選択することになると、柔軟な機能とそれが提供するライトファイルのアップロードのためにadmenterがトップになります。同様に、PHPMyAdminと比較して、MySQL、SQLiteなどを含む複数のデータベースをサポートしています。同様に、admentが自動的に行うか、すべてのインデックスで操作するフィールドを同時に操作する追加のフィールドを追加することに関しては、phpmyadminよりも直感的で賢くなります。
 
-## adminer   {#manage}でデータベースを管理する
+## 管理者を使用してデータベースを管理します {#manage}
+
 このAdmanserチュートリアルのセクションでは、ANDARERを使用してデータベースをどのように管理できるかについて説明します。
-**システム要求**
+ **システム要求** 
 管理者がシステムで実行するためには、サーバーに次の要件を既に設定していることが重要です。
   * PHPバージョン5、7、または8
   * mysql、sqlite、postgresqlなどのデータベースドライバー
-**インストール**
+ **インストール** 
 これらの2つのシステム要件をチェックした場合は、[][8]からファイルをダウンロードし、PHPファイルをサーバーにアップロードして開始します。 XAMPPサーバーの場合、ダウンロードしたファイルを「adminer.php」と名前を変更し、このファイルをHTDOCSフォルダーに入れます。
-**アクセスユーザーインターフェイス**
+ **アクセスユーザーインターフェイス** 
 それを経験した後、何が管理されますか？図のように、http：your-ip-address/adminer.phpからこのアプリにアクセスしてください。
 {{_LINE_42_}}
-**サーバーに接続**
+ **サーバーに接続** 
 サーバーのユーザー名とパスワードを使用して、この無料のデータベース管理ツールにログインします。ここで、1つのデータベースのみにアクセスする場合は、その名前を入力します。このフィールドを空白のままにして、すでにサーバーに存在するすべてのデータベースにアクセスできます。
-**データベースの管理**
+ **データベースの管理** 
 ログイン後、現在のすべてのデータベースのリストが表示されます。データベースをクリックして管理します。
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-2-1024x449.png" alt="データベース管理ツールを使用してデータベースを管理します">}}
@@ -58,18 +62,19 @@ categories: ['Database Management Software']
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-5-1024x534.png" alt="データベース管理ツール">}}
 
-**新しいデータベースを作成**
+ **新しいデータベースを作成** 
 新しいデータベースを作成するには、[データベースの作成]をクリックし、データベース名を入力して[保存]をクリックします。
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-3-1024x370.png" alt="データベース管理ツール">}}
 
-**レコードを挿入/更新**
+ **レコードを挿入/更新** 
 テーブルに新しいレコードを追加するのは非常に簡単です。挿入画面にリダイレクトする新しいアイテムリンクをクリックします。ここでは、テーブル内のすべての列の新しいデータをデータ型とともに追加できるようにするため、新しいデータを追加することが迅速なプロセスです。
 
 {{< figure align=center src="images/Manage-Databases-with-Adminer-Database-Management-Tool-4-1024x462.png" alt="管理者とphpmyadmin">}}
 
 
 ## 結論 {#conclusion}
+
 これにより、この管理者チュートリアルの終わりになります。このオープンソースWebベースのデータベース管理システムの管理者、管理者とPHPMyAdmin、その他の側面など、いくつかの重要なトピックを経験しました。うまくいけば、このブログ投稿が、オープンソースのデータベース管理ツールをインストールしようとしている場合に確実に役立ちます。直感的で、スマートで、使いやすいインターフェイスにより、非常に人気のあるデータベース管理ツールになります。さらに、MySQL、SQLite、MongoDBなどを含む多くのデータベースと、悪意のあるハッキングイベントを保護および防止するためのセキュリティ対策をサポートしています。全体として、このデータベース管理ツールはオープンソースだけでなく、自由に使用できます。
 最後に、[containerize.com][9]は、さらなるオープンソース製品とトピックに関するブログ投稿を継続的に執筆しています。したがって、定期的な更新については、[データベース管理ツール][10]カテゴリに連絡してください。さらに、ソーシャルメディアアカウント[Facebook][11]、[LinkedIn][12]、および[Twitter][13]でフォローできます。
 
@@ -80,20 +85,21 @@ categories: ['Database Management Software']
   * [2021年のトップ5オープンソースデータベース管理ツール][15]
   * [無料およびオープンソースソフトウェアを使用してビジネスオペレーションを自動化][16]
 
-  
-[1]: https://products.containerize.com/database-management
-[2]: #what
-[3]: #important
-[4]: #adminer
-[5]: #manage
-[6]: #conclusion
-[7]: https://github.com/vrana/adminer
-[8]: https://www.adminer.org/
-[9]: https://www.containerize.com/
-[10]: https://products.containerize.com/database-management/
-[11]: https://web.facebook.com/containerize
-[12]: https://www.linkedin.com/company/containerize/
-[13]: https://twitter.com/containerize_co
-[14]: https://products.containerize.com/database-management/adminer
-[15]: https://blog.containerize.com/2021/01/16/top-5-open-source-database-management-tools-in-2021/
-[16]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+
+
+ [1]: https://products.containerize.com/database-management
+ [2]: #what
+ [3]: #important
+ [4]: #adminer
+ [5]: #manage
+ [6]: #conclusion
+ [7]: https://github.com/vrana/adminer
+ [8]: https://www.adminer.org/
+ [9]: https://www.containerize.com/
+ [10]: https://products.containerize.com/database-management/
+ [11]: https://web.facebook.com/containerize
+ [12]: https://www.linkedin.com/company/containerize/
+ [13]: https://twitter.com/containerize_co
+ [14]: https://products.containerize.com/database-management/adminer
+ [15]: https://blog.containerize.com/2021/01/16/top-5-open-source-database-management-tools-in-2021/
+ [16]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/

@@ -19,10 +19,12 @@ Bu makalede, Mautic'te kampanyaların nasıl kurulacağını öğreneceğiz. Aş
   * [Mautic'te kampanya nasıl oluşturulur?][3]
   * [Sonuç][4]
 
-## Mautic nedir?   {#Mautic}
+## Mautik nedir? {#mautic}
+
 Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -postaları, açılış sayfaları ve pazarlama etkinlikleri için iş akışları üzerinde tam kontrol sağlar. İniş sayfalarından, formlardan oluşturulan ve bunları potansiyel müşterilere dönüştürme yollarını otomatikleştirir. Tüm bunlar, potansiyel müşterileri ürünler/hizmetler konusunda güncel tutacak akıllı damlama kampanyaları oluşturarak elde edilebilir.
 
-## Mautic'te formlar nasıl oluşturulur?   {#formlar}
+## Mautikte formlar nasıl oluşturulur? {#forms}
+
   * Mauitc kurulumunuza giriş yapın.
   * “Bileşenler” sekmesine gidin ve “Formlar” a tıklayın.
   * Sağ üst köşeden “Yeni” yi vur.
@@ -39,9 +41,10 @@ Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -p
 
   * Alan türünü seçin ve alan adını girin.
   * Bundan sonra “Ekle” yi tıklayın ve “Kaydet ve Kapat” a basın.
-  * Bu kadar kolay, mautikte formlar oluşturmaktır.
+  * Mautic'te formlar oluşturmak kolaydır.
 
-## Mautic'te kampanya nasıl oluşturulur?   {#Campaigns}
+## Mautic'te kampanya nasıl oluşturulur? {#campaigns}
+
   * Kampanyalara gidin. Sağ üstten “Yeni” yi tıklayın.
   * Adı girin ve “Yayınlanmış” ı “Evet” olarak ayarlayın.
 
@@ -65,7 +68,8 @@ Mautic, açık kaynaklı bir pazarlama otomasyon yazılımıdır. Pazarlama e -p
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Dijital pazarlama için mautik kampanyalar nasıl kurulur">}}
 
 
-## Sonuç:   {#Conclusion}
+## Çözüm: {#conclusion}
+
 3 çok basit adımın ardından damla pazarlama kampanyaları oluşturmayı öğrendik. Bu, kampanya kaynağı olarak gerekli bir form oluşturmayı, kampanyayı oluşturmayı ve e -postayı yapılandırmayı içerir. Bu öğreticide çok temel bir kampanya oluşturduk. Ancak, Mautic Campain oluşturucu kullanarak karmaşık kampanyalar oluşturabilirsiniz. Mautic'te yeniyseniz, aşağıdaki kılavuzu kullanarak nasıl kurulacağınızı kontrol edin:
 [Mautik Genel Bakış ve Kurulum][5]
 
@@ -75,12 +79,13 @@ Mautic'i WordPress veya Joomla ile entegre etmek ve Mautic'te çoklu kiracılık
 [Pazarlama otomasyonu için joomla ile entegre et][7]
 [Mautic'te çoklu kiracılık nasıl uygulanır][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

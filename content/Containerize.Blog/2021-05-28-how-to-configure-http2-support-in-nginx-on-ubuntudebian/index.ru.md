@@ -26,7 +26,8 @@ Nginx - это быстрый и надежный веб -сервер с отк
   * Перезагрузите Nginx
   * Заключение
 
-## Шаг 1: Обновление пакетов и установка Nginx   {#4597}
+## Шаг 1: Обновление пакетов и установка Nginx {#4597}
+
 Первым шагом является обновление и обновление репозиториев в системе упаковки APT. Использование Update будет загружать последние пакеты версий, а обновление установит последнюю версию пакетов в списке. Запустите приведенное ниже команду APT, чтобы обновить и обновить пакеты.
 ```
 sudo apt-get update && apt-get upgrade
@@ -44,7 +45,8 @@ sudo nginx -v
 nginx version: nginx/1.10.0 (Ubuntu)
 ```
 
-## Шаг 2: Включение HTTP/2 Support   {#F4D2}
+## Шаг 2: Включение поддержки HTTP/2 {#f4d2}
+
 После установки пакета Nginx нам необходимо включить HTTP2 Nginx. Пользователь должен изменить порт прослушивания с 80 на 443. Давайте откроем файл конфигурации NGINX:
 ```
 sudo nano /etc/nginx/sites-available/domain-name.com
@@ -57,7 +59,8 @@ sudo nano /etc/nginx/sites-available/domain-name.com
 Слушать [::]: 443 SSL http2 default_server;
 Обратите внимание, что в дополнение к SSL мы также добавили HTTP2. Nginx теперь может использовать браузеры, которые поддерживают протокол HTTP/2.
 
-## Шаг 3: Добавление имени сервера   {#A745}
+## Шаг 3: Добавление имени сервера {#a745}
+
 Следующим шагом является изменение сервера \ _name, чтобы имя сервера было связано с доменным именем. Пользователю просто нужно изменить имя сервера в файле конфигурации. Найдите вход Server \ _name в файле конфигурации и измените _ на ваш фактический домен, например,:
 ```
 server_name example.com www.example.com;
@@ -70,7 +73,8 @@ sudo nginx -t
 nginx: файл конфигурации /etc/nginx/nginx.conf синтаксис в порядке
 nginx: файл конфигурации /etc/nginx/nginx.conf тест успешно
 
-## Шаг 4: Добавление сертификатов SSL   {#37C0}
+## Шаг 4: Добавление сертификатов SSL {#37c0}
+
 Следующим шагом является включение конфигурации NGINX HTTPS для использования вашего сертификата SSL. Вы можете генерировать сертификат с самопозначением или [установить бесплатный сертификат из Let's Encrypt][1]. Если у вас нет сертификата SSL, пожалуйста, следуйте этому уроку. Добавьте свои сертификаты SSL в каталог конфигурации NGINX, аналогичный:
 ```
 sudo mkdir /etc/nginx/ssl
@@ -84,16 +88,18 @@ ssl_certificate /etc/nginx/ssl/example.com.crt;
 ssl_certificate_key /etc/nginx/ssl/example.com.key;
 Сохраните файл файла nginx и выйдите из текстового редактора.
 
-## Шаг 5: Удаление Ciphers   {#D291}
+## Шаг 5: Удаление шифров {#d291}
+
 Cipher - это алгоритм, используемый в криптографии для шифрования и дешифрования данных. Коллексы шифров - это куча криптографических алгоритмов, используемых для обеспечения сетевых соединений. HTTP/2 имеет огромный черный список небезопасных шифров, которые необходимо удалить. Здесь мы будем использовать популярный набор шифров, утвержденный интернет -гигантами Cloudflare.
-Откройте следующий файл конфигурации nginx /etc/nginx/nginx.conf и добавьте строки ниже сразу после ** ssl \ _prefer \ _server_ciphers.
+Откройте следующий файл конфигурации nginx /etc/nginx/nginx.conf и добавьте строки ниже сразу после**ssl \ _prefer \ _server_ciphers.
 ```
 ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+
 AES256:EECDH+3DES:RSA+3DES:!MD5;
 ```
 Вы можете установить GZIP и добавить Proxy \ _max \ _temp \ _file \ _size 0; Чтобы избежать err \ _http2 \ _protocol_error nginx ошибка.
 
-## Шаг 6: перенаправить все http -запросы на https   {#b387}
+## Шаг 6: перенаправить все HTTP -запросы на HTTPS {#b387}
+
 Теперь мы должны сообщить NGINX HTTP2 Proxy, что он должен обслуживать контент только через HTTPS только в том случае, если сервер получает HTTP -запрос. Наконец, игнорируя комментированные строки, ваш файл конфигурации nginx /etc/nginx/sites-available/domain-name.com должен выглядеть похоже на это:
 Сервер {Слушание 443 SSL http2 default_server; Слушайте [::]: 443 ssl http2 default_server; root/var/www/html; index index.html index.htm index.nginx-debian.html; server_name example.com; {try_files $ uri $ uri/= 404; ; } ssl_certificate /etc/nginx/ssl/example.com.crt;ssl_certificate_key /etc/nginx/ssl/example.com.key;ssl_dhparam /etc/nginx/ssl/dhparam.pem ;server {слушать 80; Слушать [::]: 80; server_name example.com; return 301 https: // $ server_name $ request_uri;}
 Сохраните файл /etc/nginx/sites-available/domain-name.com, а затем выйдите. Проверьте конфигурации на наличие синтаксических ошибок:
@@ -101,12 +107,14 @@ AES256:EECDH+3DES:RSA+3DES:!MD5;
 sudo nginx -t
 ```
 
-## Шаг 7: перезапустить nginx   {#e687}
+## Шаг 7: перезапустить Nginx {#e687}
+
 Чтобы применить все изменения, перезагрузите обратный прокси -сервер Nginx HTTP2 и проверьте состояние конфигурации.
 Sudo SystemCtl перезапустить nginx
 Sudo SystemCtl Status nginx
 
-## **Заключение:** {#4A1A}
+## **Заключение:**  {#4a1a}
+
 Поздравляем, вы успешно научились настроить поддержку Nginx Config HTTP2 на сервере Ubuntu. Ваши настройки Nginx HTTP2 теперь обслуживают HTTP/2 страницы, и это также очистило разницу между протоколами HTTP/1 и HTTP/2. Если вы все еще сталкиваетесь с какими -либо проблемами конфигурации, дайте нам знать в разделе комментариев.
 У вас есть какие -либо вопросы о мультиплексном протоколе HTTP2?
 
@@ -118,7 +126,8 @@ Sudo SystemCtl Status nginx
   * [Безопасно и шифровать nginx с Let's Encrypt на Ubuntu 20.04][1]
   * [Как установить и настроить OwnCloud с Apache на Ubuntu][6]
 
-  
+
+
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

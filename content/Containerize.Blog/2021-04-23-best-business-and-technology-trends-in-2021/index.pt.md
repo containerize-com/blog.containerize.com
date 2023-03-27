@@ -14,7 +14,7 @@ categories: ['Business Intelligence Software']
 {{< figure align=center src="images/business-and-technology-trends.png" alt="Tecnologia principal e tendências de negócios para 2021">}}
 
 
-## **Visão geral**
+## **Visão geral** 
 A pandemia do vírus Corona forçou as empresas a adotar a transformação digital em quase todos os setores. O Covid-19 continua causando estragos e interrupções em todo o mundo. 2020 tem sido um ano muito desafiador de pandemia e incertezas. 2020 acelerou o processo de inovação como as principais tendências de tecnologia e negócios. É por isso que também será lembrado como um ano que mudou nossos modos de vida. Muitas pessoas trabalhando em casa. Milhões de pessoas em todo o mundo precisam confiar em videoconferência como zoom ou skype para se comunicar.
 A pandemia de coronavírus também acelerou a adoção convencional de transformação digital, como trabalho remoto, redes 5G. Outras soluções de tecnologia remota e operações cirúrgicas digitais remotas também são aceleradas. Em um mundo pós-Covid-19, as pessoas se adaptam a novos modos de vida. Empresas de startups inovadoras que nos permitem trabalhar e comunicar virtualmente, estão empurrando o envelope, introduzindo novas tecnologias. Isso nos ajudará a enfrentar melhor os desafios que acompanham a vida pandemia. Nesta postagem do blog, examinaremos algumas tendências de tecnologia e negócios emergentes em 2021. Ele pode definir o curso de novas idéias de negócios de tendências para os próximos anos.
   * Trabalho remoto e tecnologia de RH
@@ -44,9 +44,10 @@ Novas startups de tecnologia e empresas públicas mais famosas, como One Medical
 A inteligência artificial (IA) não apenas projetará produtos, mas também tomará decisões sobre como eles devem ser produzidos e processados. A inteligência artificial é uma tendências tecnológicas populares nos negócios e as tendências mais recentes nos negócios internacionais. O desenvolvimento de hoje de novos medicamentos depende completamente de tentativa e erro e a IA melhorará radicalmente o tempo de ciclo para trazer medicamentos ao mercado. Dados e análises ajudarão na tomada de decisão em tempo real. Os algoritmos melhorarão a qualidade com a entrada e espera -se que a IA nas empresas de manufatura reduza o desperdício em 50% ou mais.
 A inteligência artificial (IA) melhorou as operações para muitas empresas e empresas. A pandemia até tornou seu uso mais comum. AI, dados e aprendizado de máquina desempenharam um papel incomparável durante essa pandemia de coronavírus. A inteligência artificial está ajudando a fornecer as sugestões aos clientes ao fazer compras na Amazon, ou mesmo quando eles estão assistindo filmes na Netflix. Mais empresas e empresas se beneficiarão da IA, uma vez que a computação em nuvem continua a permitir o acesso ao software crescente, poder de computação e aplicativos. Estima -se que 50% das empresas que usam inteligência artificial aumentaram seus gastos totais por cliente.
 
-## Conclusão:   {#conclusion}
+## Conclusão: {#conclusion}
+
 As principais tendências de negócios e tecnologia podem ter acabado de começar e você verá grandes mudanças no ano 2021. A pandemia COVID-19 mudou permanentemente a trajetória de nossos negócios e como pensamos sobre a segurança no local de trabalho. Essas novas tecnologias podem impactá-lo para melhor e muitos de nossos novos comportamentos se tornarão parte do novo normal na pandemia de 2021 Covid-19 para ajudar a impulsionar as principais inovações tecnológicas e de aprendizado de máquina. Em 2021 Pandemia, é fundamental que as empresas continuem investindo nas principais tecnologias de TI.
-Nossas empresas de ajuda da equipe de contêiner a aproveitam as tendências de tecnologia emergentes para alimentar seu crescimento. Nossa equipe de produtos em contêiner tem experiência em lidar com projetos fáceis de complexos e, se você estiver tendo um desafio tecnológico e precisar de algum suporte no caminho, fique à vontade para entrar em contato conosco.
+Nossas empresas de ajuda da equipe em contêiner a aproveitar as tendências de tecnologia emergentes para alimentar seu crescimento. Nossa equipe de produtos em contêiner tem experiência em lidar com projetos fáceis de complexos e, se você estiver tendo um desafio tecnológico e precisar de algum suporte no caminho, fique à vontade para entrar em contato conosco.
 Você pode se juntar a nós no [Twitter][1], [LinkedIn][2] e nossa página [Facebook][3]. Que tendências de negócios e tecnologia você prefere?. Se você tiver alguma dúvida ou feedback, por favor [entre em contato][4].
 
 ## Explore
@@ -54,12 +55,13 @@ Você pode encontrar os artigos mais relacionados abaixo:
   * [Tendências de desenvolvimento de software para procurar em 2021][5]
   * [5 melhores ferramentas de marketing digital para ajudá -lo a crescer em 2021][6]
   * [Importantes práticas de marketing digital para startups em 2021][7]
-  * [Software do mercado de código aberto 5 em 2021][8]
+  * [Software Top 5 Open Sourceling Marketplace em 2021][8]
   * [5 Top 5 Software de armazenamento em nuvem de código aberto em 2021][9]
   * [Fila de mensagens mais popular (MQ) Software em 2021][10]
   * [Top 5 Ferramentas forenses digitais de código aberto em 2021][11]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

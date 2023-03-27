@@ -24,10 +24,11 @@ Ce blog couvrira les sections suivantes:
   * [Configuration Mautic][3]
   * [Réflexions finales][4]
 
-## Configuration du plugin wordpress   {#wordpress}
+## Configuration du plugin WordPress {#wordpress}
+
   1. Accédez aux plugins.
   2. Cliquez sur «Ajouter un nouveau».
-  3. Recherchez «**Intégration avec Mautic pour WooCommerce** ».
+  3. Recherchez «  **Intégration avec Mautic pour WooCommerce**  ».
   4. Une fois que vous avez trouvé le plugin, cliquez sur «Installer maintenant».
   5. Après l'installation, cliquez sur «Activer».
   6. Ensuite, accédez à WooCommerce -> Mautic -> Onglet Connecter.
@@ -40,7 +41,8 @@ Ce blog couvrira les sections suivantes:
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Intégration Mautic et WordPress">}}
 
 
-## Configuration de Mautic:   {#moutic}
+## Configuration Mautic: {#mautic}
+
   1. Depuis votre site Mautic, accédez aux paramètres.
   2. Accédez aux configurations.
   3. Activez l'API à partir des paramètres de l'API.
@@ -60,7 +62,8 @@ Ce blog couvrira les sections suivantes:
 {{< figure align=center src="images/mautic-1024x622.png" alt="Étapes d'intégration Mautic et WordPress">}}
 
 
-## Réflexions finales:   {#Final}
+## Dernières pensées: {#final}
+
 L'intégration de Mautic-WooCommerce peut vous aider à atteindre vos objectifs de marketing. Cette intégration est l'une des meilleures solutions pour l'automatisation du marketing du commerce électronique. Avec WordPress, vous pouvez facilement obtenir beaucoup de clients, puis avec Mautic, vous pouvez créer des campagnes illimitées pour cibler ces clients et les tenir au courant de vos produits / services, qui vont certainement les ventes.
 
 ## Explorer:
@@ -72,7 +75,8 @@ Vous pouvez trouver des liens suivants pertinents:
   * [Automatisation marketing à l'aide de Mautic et WordPress WooCommerce][10]
   * [Comment configurer des campagnes de marketing dans Mautic][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

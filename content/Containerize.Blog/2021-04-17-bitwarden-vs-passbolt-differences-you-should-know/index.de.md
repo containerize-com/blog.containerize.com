@@ -48,7 +48,7 @@ Sowohl Bitwards als auch Passbolt bieten viele Funktionen und Funktionen als Ope
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **Abschluss**
+## **Abschluss** 
 In diesem Beitrag haben wir versucht, im Detailvergleich von Bitwarden vs Passbolt zu übergehen. Wir haben die Hauptunterschiede zwischen den beiden Open -Source -Kennwortmanagern besprochen und die die meisten Funktionen als kostenlose, benutzerfreundliche Open -Source -Passwort -Manager für Teams bieten.
 
 ## Erkunden
@@ -57,7 +57,8 @@ Sie können die folgenden Links relevant finden:
 [Passbolt | Kostenloser, Open Source & Self-Hosted-Passwort-Manager][6]
 [Setup & verwalten Keepass Password Manager für Windows][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

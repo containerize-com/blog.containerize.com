@@ -44,13 +44,14 @@ Yeni teknoloji girişimleri ve One Medical, Teladoc Health, Humana ve Amwell gib
 Yapay Zeka (AI) sadece ürünleri tasarlamakla kalmayacak, aynı zamanda nasıl üretilecekleri ve işlenecekleri hakkında kararlar alacaktır. Yapay Zeka, iş dünyasında popüler bir teknoloji trendleri ve uluslararası iş dünyasındaki en son eğilimlerdir. Bugünün yeni ilaçların gelişimi tamamen deneme yanılma'ya dayanmaktadır ve AI, ilaçları piyasaya sürme döngüsünü radikal bir şekilde iyileştirecektir. Veri ve analitik gerçek zamanlı karar vermede yardımcı olacaktır. Algoritmalar girdi ile kaliteyi artıracak ve imalat şirketlerindeki AI'nın atıkları% 50 veya daha fazla azaltması beklenmektedir.
 Yapay Zeka (AI) birçok şirket ve işletme için operasyonları geliştirmiştir. Pandemi, kullanımını daha yaygın hale getirdi. Yapay zeka, veri ve makine öğrenimi bu koronavirüs pandemi sırasında eşsiz bir rol oynamıştır. Yapay Zeka, Amazon'da alışveriş yaparken veya Netflix'te film izlerken bile müşterilere öneriler sunmaya yardımcı oluyor. Bulut bilişim, yükselen yazılım, bilgi işlem gücüne ve uygulamalara erişim sağlamaya devam ettiği için daha fazla işletme ve şirket AI'dan yararlanacak. Yapay zeka kullanan şirketlerin% 50'sinin müşteri başına toplam harcamalarını artırdığı tahmin edilmektedir.
 
-## Sonuç:   {#Conclusion}
+## Çözüm: {#conclusion}
+
 En iyi iş ve teknoloji trendleri yeni başlamış olabilir ve 2021 yılında büyük değişiklikler göreceksiniz. Covid-19 pandemi, işlerimizin yörüngesini ve işyeri güvenliği hakkında nasıl düşündüğümüzü kalıcı olarak değiştirdi. Bu yeni teknolojiler sizi daha iyisi için etkileyebilir ve yeni davranışlarımızın çoğu 2021'de büyük AI ve makine öğrenimi teknolojik ve iş yeniliklerini yönlendirmeye yardımcı olmak için 2021 Covid-19 pandemide yeni normalin bir parçası haline gelecektir. 2021 Pandemi'de işletmelerin en çok trend BT teknolojilerine yatırım yapmaya devam etmesi çok önemlidir.
 Containerize ekibimiz, işletmelerin büyümelerini artırmak için gelişmekte olan teknoloji eğilimlerinden yararlanmasına yardımcı olur. Containerize Ürünleri Ekibimiz, karmaşık ve karmaşık projeleri ele alma deneyimine sahiptir ve bir teknoloji mücadelesi yaşıyorsanız ve yolda biraz desteğe ihtiyacınız varsa, bize ulaşmaktan çekinmeyin.
 _ [Twitter][1], [LinkedIn][2] ve [Facebook][3] sayfamızda bize katılabilirsiniz. Hangi iş ve teknoloji trendlerini tercih edersiniz? Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin][4].
 
 ## Keşfetmek
-Aşağıdaki daha fazla makaleyi bulabilirsiniz:
+Aşağıdaki makaleleri daha fazla bulabilirsiniz:
   * [2021'de bakmak için yazılım geliştirme eğilimleri][5]
   * [2021'de büyümenize yardımcı olacak 5 en iyi dijital pazarlama aracı][6]
   * [2021'de yeni başlayanlar için önemli dijital pazarlama uygulamaları][7]
@@ -59,7 +60,8 @@ Aşağıdaki daha fazla makaleyi bulabilirsiniz:
   * [2021'de en popüler mesaj kuyruğu (MQ) yazılımı][10]
   * [2021'de Top 5 Açık Kaynak Dijital Adli Araç][11]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

@@ -14,24 +14,26 @@ O Joomla é um dos sistemas de gerenciamento de conteúdo de código aberto mais
 {{< figure align=center src="images/joomla-templates-2.png" alt="modelo de joomla básico">}}
 
 Nesta era digital, um sistema de gerenciamento de conteúdo é uma necessidade básica de qualquer negócio para todas as suas necessidades de criação de conteúdo. E há vários softwares de código aberto e CMS disponíveis no mercado. Também temos [listados][1] alguns dos principais softwares de gerenciamento de conteúdo de código aberto para empresas. A Joomla é um dos softwares CMS de código aberto mais populares e, neste tutorial, o levaremos a passo a passo e explicaremos como criar um modelo Joomla a partir do zero. Então vamos começar!
-**NOTA: Assumimos que você tem sua versão do Joomla 2.5 instalada** 
-  ***[Estrutura do diretório de configuração][2]** 
-  ***[Crie um modelo básico de modificado.xml][3]** 
-  ***[Crie um arquivo básico index.php][4]** 
-  ***[Descubra e instale o modelo][5]** 
-  ***[Pacote o modelo][6]** 
-  ***[Conclusão][7]** 
+ **NOTA: Assumimos que você possui a versão do Joomla 2.5 instalada** 
+*  **[Estrutura do diretório de configuração][2]**  
+*  **[Crie um modelo básico de modificado.xml][3]**  
+*  **[Crie um arquivo básico index.php][4]**  
+*  **[Descubra e instale o modelo][5]**  
+*  **[Pacote o modelo][6]**  
+*  **[Conclusão][7]**  
 
-## Estrutura do diretório de configuração   {#setup}
-Para criar um modelo Joomla muito básico primeiro, crie uma nova pasta na pasta Modelos. Nomeie a pasta, o que você quiser chamar seu modelo, por exemplo, “**myNewTemplate** “.
-Usando seu editor de texto favorito, crie os arquivos **index.php  **e **  modetails.xml **. Para gerenciar suas imagens e folhas de estilo, faça duas novas pastas chamadas  **imagens **  e  **CSS ** . Dentro da pasta  **CSS **  Crie um arquivo chamado  **template.css**  .
+## Estrutura do diretório de configuração {#setup}
+
+Para criar um modelo Joomla muito básico primeiro, crie uma nova pasta na pasta Modelos. Nomeie a pasta, o que você quiser chamar seu modelo, por exemplo, “  **myNewTemplate**  “.
+Usando seu editor de texto favorito, crie os arquivos  **index.php** e  **modetails.xml**  . Para gerenciar suas imagens e folhas de estilo, faça duas novas pastas chamadas  **imagens**  e  **CSS**  . Dentro da pasta  **CSS**  Crie um arquivo chamado **template.css**  .
 Sua estrutura de diretório será algo assim
 
 {{< figure align=center src="images/Screenshot-2021-01-22-at-12.30.14-PM.png" alt="Estrutura do diretório de modelos joomla">}}
 
 
-## Crie um arquivo básico de modelo básico.xml   {#xml}
-O arquivo **modetails.xml**  mantém todos os metadados sobre o seu modelo. E esse arquivo é essencial sem ele, seu modelo não será visto por Joomla!.
+## Crie um arquivo básico de modelo {#xml}
+
+O arquivo  **modetails.xml**  mantém todos os metadados sobre o seu modelo. E esse arquivo é essencial sem ele, seu modelo não será visto por Joomla!.
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="template">
@@ -66,7 +68,8 @@ O arquivo **modetails.xml**  mantém todos os metadados sobre o seu modelo. E es
 O conteúdo dos templateetails.xml é auto-explicativo. Você pode simplesmente copiar o conteúdo do modificar os bits necessários.
 Deixe as posições como elas são - estes são um conjunto comum para que você possa mudar facilmente dos modelos padrão.
 
-## Crie um arquivo Basic Index.php   {#php}
+## Crie um arquivo básico index.php {#php}
+
 O index.php se torna o principal arquivo de bootstrap de todas as páginas que Joomla! entrega. Esta página mostrará o código nua pronto para você cortar e colar em seu próprio design.
 ```
 <?php defined('_JEXEC') or die('Restricted access');?>
@@ -84,7 +87,8 @@ O index.php se torna o principal arquivo de bootstrap de todas as páginas que J
 </html>
 ```
 
-## Descubra e instale o modelo   {#install}
+## Descubra e instale o modelo {#install}
+
 Você primeiro precisa dizer a Joomla! que você criou um novo modelo. Esse recurso é chamado de extensões de descoberta e pode ser acessado via
 ```
 Extensions -> Extension Manager -> Discover
@@ -94,21 +98,24 @@ Clique no botão Descubra para descobrir seu modelo e selecione -o e clique em I
 Extensions -> Template Manager
 ```
 
-## pacote o modelo   {#packge}
+## Empaco o modelo {#packge}
+
 Um diretório descompactado com vários arquivos não é um bom método para distribuição. Portanto, por uma questão de distribuição, devemos criar um pacote do nosso modelo. O pacote pode estar no formato ZIP (com uma extensão .zip).
 Se o seu modelo estiver em um diretório MyTemplate/, para fazer o pacote, você pode se conectar a esse diretório e usar comandos como:
 ```
 zip -r ..\mytemplate.zip .
 ```
 
-## Conclusão   {#conclusion}
+## Conclusão {#conclusion}
+
 Neste artigo, aprendemos sobre o modelo Joomla. Passamos passo a passo sobre como criar um modelo Joomla. Este é apenas um tutorial muito básico para começar com a criação de modelos. Obviamente, você pode criar um modelo muito personalizado e aprimorado com base nessa estrutura de osso nu.
 
 Páginas de produto relevantes
 Você pode encontrar os seguintes links relevantes:
   * [Guia de Desenvolvimento de modelo Joomla para os iniciantes][8]
 
-  
+
+
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

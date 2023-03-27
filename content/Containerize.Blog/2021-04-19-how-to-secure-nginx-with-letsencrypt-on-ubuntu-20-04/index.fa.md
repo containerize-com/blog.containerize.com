@@ -14,17 +14,18 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginxletsencrypt.png" alt="nginx را ایمن کنید و بیایید در اوبونتو رمزگذاری کنیم">}}
 
 
-## **بررسی اجمالی**
+##  **بررسی اجمالی**  
 هر وب سایتی که به دنبال جذب بازدید کنندگان باشد ، باید شامل رمزگذاری TLS/SSL برای دامنه آن باشد. گواهینامه های رایگان SSL اطمینان حاصل می کنند که بین سرور وب شما دوست دارید رمزگذاری و مرورگرهای برنامه را ایمن کنید. بیایید رمزگذاری یک مجوز مجوز رایگان ، خودکار و باز است که به شما امکان می دهد چنین محافظتی را برای NGINX SSL Letsencrypt تنظیم کنید. بیایید گواهینامه های SSL رایگان را رمزگذاری کنیم توسط همه مرورگرهای اصلی و برای 90 روز آینده از تاریخ انتشار معتبر است.
 این پست وبلاگ ساده ترین روش برای رمزگذاری و امنیت NGINX در اجرای سرور وب در اوبونتو 20.04 / 18.04 را با به دست آوردن گواهینامه های NGINX HTTPS با استفاده از ابزار NGINX CERTBOT و تنظیم گواهینامه های خود برای تجدید خودکار آن توضیح می دهد. بیایید تنظیمات Ubuntu nginx را شروع و راه اندازی کنیم.
   * وابستگی ها و پیش نیازها
   * نصب ابزار Certbot
   * تأیید پیکربندی nginx
   * اجازه دادن https از طریق فایروال
-  * دریافت گواهی SSL
+  * دریافت گواهینامه SSL
   * نتیجه
 
-## اولین چیزها اول: وابستگی ها و پیش نیازها   {#precequisites}
+## اولین چیزها اول: وابستگی ها و پیش نیازها {#prerequisites}
+
 برای پیروی از این مقاله ، برای نصب برنامه های کاربردی letsencrypt ubuntu nginx ، نیاز به وابستگی ها و پیش نیازها دارید:
   * یک کاربر غیر ریشه یا ریشه در دستگاه های محلی/از راه دور.
   * سیستمی که اوبونتو 20.04 یا اوبونتو 18.04 را اجرا می کند
@@ -35,7 +36,8 @@ categories: ['Web Server Solution Stack']
   * یک سرور سرور برای آن نام دامنه پیکربندی شده است
   * فایروال برای پذیرش اتصالات در درگاه های 80 و 443 پیکربندی شده است.
 
-## مرحله 1-نصب Certbot   {#Step-1 -—- نصب-Certbot
+## مرحله 1 - نصب Certbot {#step-1-—-installing-certbot}
+
 مرحله اول برای تأمین NGINX و رمزگذاری Nginx با Let's Encrypt نصب بسته بندی NGINX CERTBOT کاملاً برجسته و استفاده آسان برای به دست آوردن و تمدید اجازه می دهد تا گواهینامه های SSL را روی سرور خود رمزگذاری کنیم. برای انجام این کار ، با باز کردن یک ترمینال در اوبونتو و به روزرسانی مخزن محلی شروع کنید. Y را تایپ کرده و در صورت درخواست وارد شوید.
 ```
 sudo apt update
@@ -44,7 +46,8 @@ sudo apt install certbot python3-certbot-nginx
 ```
 اکنون بیایید برخی از تنظیمات پیکربندی امن Nginx را تأیید کنیم.
 
-## مرحله 2-تأیید پیکربندی nginx   {#مرحله 2--تأیید- nginx-39-s-configuration
+## مرحله 2 - تأیید پیکربندی Nginx {#step-2-—-confirming-nginx-39-s-configuration}
+
 همانطور که در بخش وابستگی ها و پیش نیازها توضیح داده شده است ، شما باید در حال حاضر یک دامنه ثبت شده داشته باشید و Certbot باید بتواند بلوک سرور صحیح NGINX را برای آن دامنه پیدا کند تا به طور خودکار SSL را پیکربندی کند. به عنوان نمونه ، این پست وبلاگ از Domain blog.containerize.com و بلوک سرور برای دامنه خود در /etc/nginx/sites-available/blog.containerize.com با دستورالعمل server_name استفاده می کند.
 برای تأیید ، فایل پیکربندی دامنه خود را با استفاده از Nano یا ویرایشگر متن مورد علاقه خود باز کنید:
 ```
@@ -65,7 +68,8 @@ sudo systemctl reload nginx
 ```
 Certbot Utility اکنون می تواند دستورالعمل صحیح سرور Nginx را برای تأمین امنیت NGINX پیدا کند و آن را به طور خودکار به روز کند. در مرحله بعدی ، اجازه دهید فایروال را به روز کنیم تا امکان ترافیک HTTPS فراهم شود.
 
-## مرحله 3-اجازه دادن https از طریق فایروال   {#مرحله 3 -3-- اجازه دادن https-through-the-firewall}
+## مرحله 3 - اجازه دادن HTTPS از طریق فایروال {#step-3-—-allowing-https-through-the-firewall}
+
 همانطور که در این مقاله توصیه شده است پیش نیازهای شما باید تنظیمات را تنظیم کنید تا ترافیک HTTPS امکان پذیر باشد. برای اطمینان از فعال و فعال فایروال ، دستور زیر را اجرا کنید:
 ```
 sudo ufw status
@@ -84,7 +88,8 @@ sudo ufw status
 ```
 در مرحله بعد ، اجازه دهید Certbot را اجرا کنیم و گواهینامه های خود را واکشی کنیم.
 
-## مرحله 4-به دست آوردن گواهی SSL   {#مرحله 4 --- دریافت- AN-SSL گواهی
+## مرحله 4 - دریافت گواهینامه SSL {#step-4-—-obtaining-an-ssl-certificate}
+
 افزونه NGINX برای Certbot از تنظیم مجدد NGINX مراقبت می کند و در صورت لزوم پیکربندی آن را بارگیری مجدد می کند. بنابراین ، فقط شما باید با اجرای دستور زیر گواهینامه هایی را با افزونه Nginx ایجاد کنید:
 ```
 sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
@@ -94,7 +99,8 @@ sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
 گواهینامه های شما بارگیری ، نصب و بارگذاری شده با گواهی NGINX SSL LetSencrypt. سعی کنید وب سایت خود را با استفاده از https: // بارگیری کنید و به نشانگر امنیتی مرورگر خود توجه کنید. باید نشان دهد که سایت به درستی ایمن است ، معمولاً با یک نماد قفل. اگر سرور خود را با استفاده از تست SSL Labs Server تست کنید ، یک درجه A برای NGINX دریافت می کند و LetSencrypt را دریافت می کند.
 بیایید با آزمایش روند تمدید به پایان برسیم.
 
-## مرحله 5-تأیید Certbot Auto-Reenewal   {#Step-5 -—- تأیید- Certbot-Auto-Reenewal}
+## مرحله 5-تأیید اعتبار مجدد Certbot {#step-5-—-verifying-certbot-auto-renewal}
+
 از آنجا که اجازه می دهیم گواهینامه های رمزگذاری شده هر نود (90) روز منقضی شوند و NGINX SSL اجازه می دهد تا کاربران را برای تنظیم کار و تمدید خودکار کرون تشویق کنند. ابتدا پرونده پیکربندی Crontab را برای کاربر فعلی باز کنید:
 ```
 sudo crontab -e
@@ -106,7 +112,8 @@ sudo certbot renew --dry-run
 ```
 کار Cron همچنین باید مانند دستور بالا ، ویژگی –quiet را شامل شود. این به NGINX که گواهی SSL را تمدید می کند ، پس از انجام کار ، هیچ گونه خروجی را شامل نمی شود. تمدید گواهینامه خودکار را فعال کنید. پس از اضافه کردن کار Cron ، تغییرات را ذخیره کرده و از پرونده خارج شوید.
 
-## نتیجه گیری   {#conclusion}
+## نتیجه {#conclusion}
+
 در این مقاله ، ما یاد گرفتیم که چگونه NGINX را نصب کنیم و گواهی SSL را نصب کنیم. ما گواهینامه های SSL را برای دامنه شما بارگیری کردیم و NGINX را برای استفاده از این گواهینامه ها پیکربندی کردیم. علاوه بر این ، شما باید Certbot را فعال کنید تا گواهینامه ها را به طور خودکار برای SSL Nginx letsencrypt تمدید کند. در آموزش های آینده ما ، ما در مورد موضوعات جالب تر در مورد چگونگی تأمین امنیت یک سرور وب با فناوری امنیتی استاندارد که امکان ارتباط رمزگذاری شده بین یک مرورگر وب و یک سرور وب را فراهم می کند ، بحث خواهیم کرد.
 _ شما می توانید در [توییتر][1] ، [LinkedIn][2] و صفحه [Facebook][3] ما به ما بپیوندید. از چه پروتکل رمزنگاری برای ارائه امنیت ارتباطات از طریق شبکه رایانه استفاده می کنید؟ اگر سوالی دارید ، لطفاً [با شما در تماس باشید][4].
 
@@ -118,13 +125,14 @@ _ شما می توانید در [توییتر][1] ، [LinkedIn][2] و صفحه [
   * [Setup nginx با مسافر در سرور تولید AWS][8]
   * [نحوه نصب و پیکربندی OwnCloud با Apache در اوبونتو][9]
 
-  
-[1]: https://twitter.com/containerize_co
-[2]: https://www.linkedin.com/company/containerize/
-[3]: http://facebook.com/containerize
-[4]: mailto:yasir.saeed@aspose.com
-[5]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
-[8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
-[9]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
+
+ [1]: https://twitter.com/containerize_co
+ [2]: https://www.linkedin.com/company/containerize/
+ [3]: http://facebook.com/containerize
+ [4]: mailto:yasir.saeed@aspose.com
+ [5]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
+ [9]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/

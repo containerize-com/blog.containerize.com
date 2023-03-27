@@ -1,6 +1,6 @@
 ---
-title: "Como instalar o compartilhamento de arquivos Pydo e a plataforma de sincronização no Ubuntu" 
-seoTitle: "Como instalar o compartilhamento de arquivos Pydo e a plataforma de sincronização no Ubuntu" 
+title: "Como instalar a plataforma de compartilhamento e sincronização de arquivos Pydo no Ubuntu" 
+seoTitle: "Como instalar a plataforma de compartilhamento e sincronização de arquivos Pydo no Ubuntu" 
 description: "O PyDIO é um software de compartilhamento de documentos colaborativos e auto -hospedado. Vamos revisar como instalar a ferramenta de compartilhamento e sincronização de arquivos PyDIO." 
 date: Fri, 02 Jul 2021 22:46:01 +0000
 author: yasir saeed
@@ -9,12 +9,12 @@ url: /pt/how-to-install-pydio-file-sharing-and-sync-platform-on-ubuntu/
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 ---
 
-## Pydo é uma plataforma de compartilhamento de arquivos baseada em nuvem e sincronização para acessar todos os dados em qualquer lugar e em qualquer dispositivo. Este tutorial é sobre como instalar o Pydo no Ubuntu.
+## Pydo é uma plataforma de compartilhamento de arquivos baseada em nuvem para acessar todos os dados em qualquer lugar e em qualquer dispositivo. Este tutorial é sobre como instalar o Pydo no Ubuntu.
 
-{{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Como instalar o compartilhamento de arquivos Pydo e a plataforma de sincronização no Ubuntu">}}
+{{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Como instalar a plataforma de compartilhamento e sincronização de arquivos Pydo no Ubuntu">}}
 
 
-## **Visão geral**
+##  **Visão geral**  
 As células Pydo é um software de compartilhamento e sincronização de arquivos de código aberto. Ele fornece um único ponto de acesso a todo o seu armazenamento de dados e é uma alternativa ao OwnCloud e NextCloud que fornecem serviços de armazenamento, compartilhamento de arquivos e sincronização. O Pydo é uma plataforma corporativa de compartilhamento de arquivos de código aberto semelhante ao Dropbox e outras plataformas de armazenamento. Ajuda você a conectar com segurança todos os seus arquivos e dispositivos em uma plataforma.
 As células Pydio são uma plataforma de sincronização e colaboração de arquivos baseada em nuvem. Este software de código aberto é executado em sua infraestrutura pessoal de TI e ajuda sua equipe a proteger e monitorar seus dados comerciais. Você pode sincronizar seus dados e acessá -los de qualquer lugar usando um aplicativo móvel, software de desktop ou um navegador da Web usando células Pydo. O melhor aplicativo de compartilhamento de arquivos Pydo Cells é baseado em uma arquitetura de micro-serviço e é escrito usando a linguagem de programação de Golang.
 Este tutorial ajudará você a instalar e configurar o software de compartilhamento de arquivos Pydo Host Hosted e a plataforma de sincronização nos sistemas Ubuntu LTS.
@@ -39,23 +39,23 @@ sudo reboot
 ## Etapa 2: Instale o servidor de lâmpadas
 Para configurar o servidor de compartilhamento de arquivos Enterprise Pydo Secure Enterprise e como criar uma nuvem privada de código aberto, primeiro precisamos configurar um servidor de lâmpada em execução. Se você já instalou e executando a pilha de lâmpadas, pule esta etapa use os comandos de seguidores para configurar a lâmpada no seu sistema Ubuntu.
 
-## # Instale o php
+### Instale o php
 Você pode instalar o PHP no seu sistema Ubuntu ou Debian, executando comandos:
 SUDO APT-GET Instale Python-Software-Properties
 sudo add-aprop-repository ppa: ondrej/php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-## # Instale o Apache2
+### Instale o Apache2
 O Apache é o software de servidor Web de código aberto mais amplamente usado. Em seguida, instale o servidor da Web Apache no Ubuntu executando:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # Instale o MySQL
+### Instale o MySQL
 O sistema de gerenciamento de banco de dados relacional de código aberto do MySQL é um componente da pilha de software de aplicativos da Web da LAMP e de outros. Agora instalando o MySQL no Ubuntu, executando abaixo:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Depois que a instalação estiver concluída, abra **php.ini**  arquivo de configuração para editar. Use seu editor de arquivos preferido.
+Depois que a instalação estiver concluída, abra  **php.ini**  arquivo de configuração para editar. Use seu editor de arquivos preferido.
 Faça alterações no arquivo php.ini como abaixo. Abra dois arquivos e faça as alterações como mostrado
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -88,7 +88,7 @@ Agora é hora de instalar o PYDIO EFSS e o software de compartilhamento de docum
 ```
 sudo apt install -y pydio pydio-all
 ```
-Ativar módulo de reescrita Apache usando os comandos mostrados abaixo e reinicie e ative o Apache2
+Ativar módulo Apache Rewrite usando os comandos mostrados abaixo e reinicie e ative o Apache2
 ```
 sudo a2enmod rewrite
 sudo systemctl restart apache2
@@ -118,27 +118,27 @@ Abra o seu navegador e digite URL http: // your-server -ip / pydo. Você será r
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Instalador Pydo">}}
 
-Confirme todos os controles e clique no botão **Continue para a instalação do Pydo** . Você deve ver a seguinte página:
+Confirme todos os controles e clique no botão  **Continue a instalação do Pydo**  . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Assistente de configuração de Pydo">}}
 
-Selecione seu idioma e clique em **Iniciar assistente** . Você deve ver a seguinte página:
+Selecione seu idioma e clique em  **Iniciar assistente**  . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Inicie as configurações do Pydo">}}
 
-Digite o nome do programa e a mensagem de boas -vindas. Em seguida, clique no botão **Avançar** . Você deve ver a seguinte página:
+Digite o nome do programa e a mensagem de boas -vindas. Em seguida, clique no botão  **Avançar**  . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Digite o aplicativo Pydo">}}
 
-Em seguida, digite sua conta de administrador e clique no botão **Avançar** . Você deve ver a seguinte página:
+Em seguida, digite sua conta de administrador e clique no botão  **Avançar**  . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Configurações do banco de dados MySQL">}}
 
-Em seguida, digite os detalhes do seu banco de dados, como nome do banco de dados, nome de usuário e senha. Em seguida, clique no botão **de teste de db de teste** . Você deve ver a seguinte página:
+Em seguida, digite os detalhes do seu banco de dados, como nome do banco de dados, nome de usuário e senha. Em seguida, clique no botão  **de teste de db de teste**  . Você deve ver a seguinte página:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Opções avançadas do Pydo">}}
 
-Em seguida, clique no botão **Instale o PyDio** . Depois que a instalação for concluída com sucesso. Você será redirecionado para a página seguinte:
+Em seguida, clique no botão  **Instale o PyDio**  . Depois que a instalação for concluída com sucesso. Você será redirecionado para a página seguinte:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Login de Pydo">}}
 
@@ -146,7 +146,8 @@ Em seguida, digite seu nome de usuário e senha para o administrador. Em seguida
 
 Sim! Está feito. Agora você sabe como instalar completamente a sincronização de arquivos Pydo Host Hosted e o software de compartilhamento de arquivos de código aberto no Ubuntu para criar uma nuvem privada passo a passo semelhante ao Dropbox ou Google Drive.
 
-## **Conclusão:** {#4A1A}
+##  **Conclusão:**   {#4a1a}
+
 Neste tutorial, você instalou com sucesso o compartilhamento de arquivos seguros de código aberto do Pydo Cells no seu sistema Ubuntu. Você pode usar este artigo para criar uma infraestrutura em nuvem para armazenar, proteger e compartilhar seus arquivos na nuvem auto-hospedada. Use o compartilhamento de documentos colaborativos do Pydo e o melhor aplicativo gratuito de compartilhamento de arquivos para obter mais controle de seus dados e garantir uma colaboração eficiente em sua organização de negócios. Em nossos próximos tutoriais, discutiremos tópicos mais interessantes de soluções de armazenamento em nuvem de código aberto e ferramentas de colaboração de compartilhamento de arquivos.
 Você pode se juntar a nós no [Twitter][1], [LinkedIn][2] e nossa página [Facebook][3]. Qual plataforma de compartilhamento de código Open _File _File você usa on-line?. Se você tiver alguma dúvida, por favor [entre em contato][4].
 
@@ -158,7 +159,8 @@ Também temos vários outros artigos relacionados ao gerenciamento diário do se
   * [Configurar suporte HTTP/2 no Nginx no Ubuntu/Debian][8]
   * [Configure o nginx com o passageiro no servidor de produção da AWS][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

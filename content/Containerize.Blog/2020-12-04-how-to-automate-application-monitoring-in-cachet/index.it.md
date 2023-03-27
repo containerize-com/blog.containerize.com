@@ -13,17 +13,19 @@ categories: ['Status Page']
 
 {{< figure align=center src="images/cachet-monitor.png" alt="Monitoraggio delle applicazioni Web">}}
 
-Il monitoraggio di applicazioni e servizi è una parte molto importante del business online. Il tuo sito Web esegue 24x7 e puoi sbagliare in qualsiasi momento. Non si può sapere che nessuno dei due sito funziona o no fino a quando non lo visiti. Inoltre, i clienti non avranno informazioni sul problema. Possono contattare il tuo team di supporto per i tempi di inattività del servizio. Inoltre, ciò potrebbe portare i tuoi clienti a rimanere delusi. Tuttavia, è possibile ridurre i tempi di inattività del servizio configurando il sistema di pagina di stato. Il sistema di pagina di stato monitorerà tutti i tuoi servizi tutto il giorno e invierà immediatamente notifiche al tuo team e ai clienti. Ciò ti consentirà di adottare rapidi passi per risolvere il problema e i clienti rimarranno aggiornati sui progressi. In questo post sul blog, avrai imparare a integrare la libreria di terze parti con**Cachet**per**Automatizzare il monitoraggio**.
+Il monitoraggio di applicazioni e servizi è una parte molto importante del business online. Il tuo sito Web esegue 24x7 e puoi sbagliare in qualsiasi momento. Non si può sapere che nessuno dei due sito funziona o no fino a quando non lo visiti. Inoltre, i clienti non avranno informazioni sul problema. Possono contattare il tuo team di supporto per i tempi di inattività del servizio. Inoltre, ciò potrebbe portare i tuoi clienti a rimanere delusi. Tuttavia, è possibile ridurre i tempi di inattività del servizio configurando il sistema di pagina di stato. Il sistema di pagina di stato monitorerà tutti i tuoi servizi tutto il giorno e invierà immediatamente notifiche al tuo team e ai clienti. Ciò ti consentirà di adottare rapidi passi per risolvere il problema e i clienti rimarranno aggiornati sui progressi. In questo post sul blog, avrai imparare a integrare la libreria di terze parti con **Cachet**per**Automatizzare il monitoraggio** .
   * [Requisiti][1]
   * [Plug -in di monitoraggio di configurazione][2]
   * [Creazione di servizi Linux][3]
   * [Conclusione][4]
 
-Requisiti ##  {#Requirements}
+## Requisiti {#Requisiti}
+
   * Installa l'ultima versione della cache.
   * Famoso con i servizi Linux.
 
-Plug -in di monitoraggio di configurazione ##  {#plugin}
+## Plug -in di monitoraggio di configurazione {#Plugin}
+
 Di seguito sono riportati i passaggi per l'installazione e la configurazione del plug -in per il monitoraggio su Ubuntu.
   * Scarica binario da [pagina di rilascio][5].
   * Rinomina il file in cachetto-monitor.
@@ -31,7 +33,7 @@ Di seguito sono riportati i passaggi per l'installazione e la configurazione del
 ```
 sudo chmod +x cachet-monitor
 ```
-  * Metti l'eseguibile in una directory del percorso, in modo da poter accedervi direttamente tramite terminale. Quindi, ti suggerisco di muoverti sotto**/usr/local/bin**.
+  * Metti l'eseguibile in una directory del percorso, in modo da poter accedervi direttamente tramite terminale. Quindi, ti suggerisco di muoverti sotto **/usr/local/bin** .
   * Crea un file config.json eseguendo il comando seguente.
 ```
 sudo nano config.json
@@ -56,7 +58,7 @@ sudo nano config.json
       "template": {
         "investigating": {
           "subject": "{{ .Monitor.Name }} - {{ .SystemName }}",
-          "message": "{{ .Monitor.Name }} check**failed** (server time: {{ .now }})\n\n{{ .FailReason }}"
+          "message": "{{ .Monitor.Name }} check **failed** (server time: {{ .now }})\n\n{{ .FailReason }}"
         },
         "fixed": {
           "subject": "I HAVE BEEN FIXED"
@@ -76,9 +78,10 @@ cachet-monitor -c config.json
 ```
   * Se tutto funziona bene, passa alla sezione successiva e crea un servizio Linux.
 
-## Creazione del servizio Linux   {#Service}
+## Creazione del servizio Linux {#Service}
+
 Di seguito sono riportati i passaggi per creare e avviare un servizio Linux per automatizzare il processo di monitoraggio.
-* Crea un servizio**File cachet-monitor.service**.
+* Crea un servizio **File cachet-monitor.service** .
 ```
 sudo nano cachet-monitor.service
 ```
@@ -110,8 +113,9 @@ sudo systemctl daemon-reload
 sudo systemctl enable cachet-monitor.service
 ```
 
-## conclusioni   {#conclusion}
-La cache A è gratuita e**Pagina di stato open source**Sistema. Tuttavia, non fornisce funzionalità fuori dalla scatola per**Monitoraggio delle applicazioni Web**. Invece, ha una potente API REST che può essere utilizzata per eseguire azioni come incidenti, componenti, gruppi e molti altri. In questo articolo, abbiamo utilizzato il plug-in di terze parti per automatizzare il monitoraggio dell'applicazione nella cache. Soprattutto, puoi sviluppare il tuo plug -in o utilizzare qualsiasi altro plug -in esistente per fare il lavoro.
+## Conclusione {#Conclusione}
+
+La cache A è gratuita e **Pagina di stato open source**Sistema. Tuttavia, non fornisce funzionalità fuori dalla scatola per**Monitoraggio delle applicazioni Web** . Invece, ha una potente API REST che può essere utilizzata per eseguire azioni come incidenti, componenti, gruppi e molti altri. In questo articolo, abbiamo utilizzato il plug-in di terze parti per automatizzare il monitoraggio dell'applicazione nella cache. Soprattutto, puoi sviluppare il tuo plug -in o utilizzare qualsiasi altro plug -in esistente per fare il lavoro.
 Inoltre, [containerize.com][6] è sulla buona strada per migliorare lo stack di prodotti open source in più lingue e framework. Per aggiornamenti regolari, rimanete sintonizzati su [Pagina di stato][7] per articoli più interessanti.
 
 ## Esplorare
@@ -120,7 +124,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Cachet - Software di stato di stato gratuito e open source][9]
   * [Top 5 Software di stato di stato open source per 2020][10]
 
-  
+
+
 [1]: #Requirements
 [2]: #Plugin
 [3]: #Service

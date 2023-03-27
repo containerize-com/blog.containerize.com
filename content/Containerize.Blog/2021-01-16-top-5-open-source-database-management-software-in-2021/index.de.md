@@ -23,7 +23,8 @@ Wir werden die folgenden Open -Source -DBMS -Tools in diesem Artikel diskutieren
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin   {#phpmyadmin}
+## phpmyadmin {#phpmyadmin}
+
 PHPMYADMIN ist eine integrierte Komponente mit XAMPP- und WAMPP-Webservern. Derzeit ist PhpMyAdmin die am häufigsten verwendete Datenbankverwaltungssoftware. Entwickler können Informationen, Tabellen, Spalten, Beziehungen, Referenzen, Benutzer und Berechtigungen usw. über die Schnittstelle verwalten. Darüber hinaus wird es verwendet, um die meisten Verwaltungsaufgaben auszuführen, einschließlich des Erstellens einer Datenbank, zum Ausführen von Abfragen und dem Hinzufügen von Benutzerkonten. Dieses Datenbankverwaltungssystem ist in PHP zusammen mit Eingaben aus anderen Sprachen wie JavaScript und SCSS geschrieben. Daher ist die gesamte Dokumentation in Bezug auf Entwicklung und Bereitstellung verfügbar. Dies sind einige herausragende Merkmale von PhpMyAdmin:
   * Einfach zu verwendende Webschnittstelle.
   * Mehrere MySQL -Funktionen unterstützen.
@@ -83,7 +84,8 @@ Um mehr über die oben genannten Datenbankverwaltungs-Tools zu erfahren, überpr
   * [Warum ist MySQL ein beliebtes Open -Source -Datenbankverwaltungssystem?][2]
   * [Kafka vs Redis Pub-Sub, Unterschiede, die Sie wissen sollten][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

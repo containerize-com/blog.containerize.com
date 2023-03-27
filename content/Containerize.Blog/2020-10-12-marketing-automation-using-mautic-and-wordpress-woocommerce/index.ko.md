@@ -9,7 +9,7 @@ url: /ko/marketing-automation-using-mautic-and-wordpress-woocommerce/
 categories: ['Blogging', 'Marketing Automation']
 ---
 
-## 은 Mautic 및 WordPress WooCommerce를 사용하여 판매를 자랑합니다. WordPress에서 Mautic으로 고객의 데이터를 가져와 마케팅 프로세스를 자동화하십시오.
+##은 Mautic 및 WordPress WooCommerce를 사용하여 판매를 자랑합니다. WordPress에서 Mautic으로 고객의 데이터를 가져와 마케팅 프로세스를 자동화하십시오.
 
 {{< figure align=center src="images/banner-mauticWP-1200x628-1-1024x536.png" alt="Mautic-Woocommerce 통합을 사용한 마케팅 자동화">}}
 
@@ -24,10 +24,11 @@ WooCommerce는 WordPress 용 오픈 소스 전자 상거래 플러그인입니�
   * [mautic 구성][3]
   * [최종 생각][4]
 
-## WordPress 플러그인 구성   {#WordPress}
+## WordPress 플러그인 구성 {#wordpress}
+
   1. 플러그인으로 이동하십시오.
   2.“새 추가”를 클릭하십시오.
-  3.“Woocommerce**”에 대한 Mautic과의 통합을 검색하십시오.
+  3.“Woocommerce**”를 위해 Mautic과의 통합을 검색하십시오.
   4. 플러그인을 찾으면 "지금 설치"를 클릭하십시오.
   5. 설치 후 "활성화"를 클릭하십시오.
   6. 그런 다음 woocommerce-> mautic-> 연결 탭으로 이동하십시오.
@@ -40,7 +41,8 @@ WooCommerce는 WordPress 용 오픈 소스 전자 상거래 플러그인입니�
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Mautic 및 WordPress 통합">}}
 
 
-## mautic 구성 :   {#Mautic}
+## mautic 구성 : {#mautic}
+
   1. Mautic 사이트에서 설정으로 이동하십시오.
   2. 구성으로 이동하십시오.
   3. API 설정에서 API를 활성화합니다.
@@ -60,7 +62,8 @@ WooCommerce는 WordPress 용 오픈 소스 전자 상거래 플러그인입니�
 {{< figure align=center src="images/mautic-1024x622.png" alt="Mautic 및 WordPress 통합 단계">}}
 
 
-## 최종 생각 :   {#final}
+## 마지막 생각들: {#final}
+
 Mautic-Woocommerce 통합은 마케팅 목표를 달성하는 데 도움이 될 수 있습니다. 이 통합은 전자 상거래 마케팅 자동화를위한 최상의 솔루션 중 하나입니다. WordPress를 사용하면 많은 고객을 쉽게 얻을 수 있고 Mautic을 사용하면 해당 고객을 대상으로 한 무제한 캠페인을 만들고 제품/서비스와 관련하여 업데이트를 유지할 수 있습니다.
 
 ## 탐구하다:
@@ -72,7 +75,8 @@ Mautic-Woocommerce 통합은 마케팅 목표를 달성하는 데 도움이 될 
   * [Mautic 및 WordPress WooCommerce를 사용한 마케팅 자동화][10]
   * [Mautic에서 마케팅 캠페인을 설정하는 방법][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

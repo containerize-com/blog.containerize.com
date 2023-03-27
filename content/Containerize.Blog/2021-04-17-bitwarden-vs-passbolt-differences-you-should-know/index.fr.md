@@ -48,7 +48,7 @@ Bitwarden et Passbolt offrent de nombreuses fonctionnalités et fonctionnalités
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **Conclusion**
+## **Conclusion** 
 Dans cet article, nous avons essayé de passer en détail la comparaison de Bitwarden vs Passbolt. Nous avons discuté des principales différences entre les deux gestionnaires de mot de passe open source et celui qui offre le plus de fonctionnalités en tant que gestionnaire de mot de passe open source gratuit et facile à utiliser pour les équipes.
 
 ## Explorer
@@ -57,7 +57,8 @@ Vous pouvez trouver des liens suivants pertinents:
 [Passbolt | GRATUIT, Open Source et Manager de mot de passe auto-hébergé][6]
 [Configuration et gérer Keepass Password Manager pour Windows][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

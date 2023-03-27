@@ -21,10 +21,12 @@ Nous couvrirons les sections suivantes dans cet article de blog:
   * [Installation du plugin][3]
   * [Réflexions finales][4]
 
-## Description:   {#Description}
+## Description: {#description}
+
 L'intégration WordPress et Rocket.Chat vous permet de mettre un widget de chat en direct sur des sites basés sur WordPress. WordPress Live Chat permet aux clients de collaborer avec votre support ou vos agents de vente en temps réel en un seul clic. La communication instantanée aide les clients à résolution rapide de leurs demandes et accélère la prise de décision. Par conséquent, cette solution peut vous aider à gagner de nouveaux clients avec un virage plus rapide et à améliorer la satisfaction et la fidélité des clients existants.
 
-## Fonctionnalités:   {#Features}
+## Caractéristiques: {#features}
+
   * Conférence audio gratuite
   * Conférence vidéo gratuite
   * Accès invité
@@ -34,7 +36,8 @@ L'intégration WordPress et Rocket.Chat vous permet de mettre un widget de chat 
   * Chat d'équipe
   * Traduction en temps réel
 
-## Installation du plugin:   {#plugin}
+## Installation du plugin: {#plugin}
+
   1. Accédez au tableau de bord Admin de votre site WordPress.
   2. Ensuite, passez aux plugins.
   3. Installez ensuite le plugin suivant: [Rocket.Chat Livechat][5]
@@ -47,7 +50,8 @@ L'intégration WordPress et Rocket.Chat vous permet de mettre un widget de chat 
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="Solution de messagerie instantanée WordPress Utilisation de Rocket.Chat">}}
 
 
-## Réflexions finales:   {#conclusion}
+## Dernières pensées: {#conclusion}
+
 Worpress et Rocket.Chat L'intégration établit la confiance et les relations avec vos clients grâce à des conversations en temps réel. La messagerie instantanée WordPress peut donner un coup de pouce à votre entreprise. Communiquez à vos clients en utilisant la fonction de chat en direct. Vous pouvez également collaborer avec vos coéquipiers en utilisant la fonctionnalité de chat d'équipe. Cela améliorera la productivité en discutant et partageant des idées avec un chat en temps réel.
 
 ## Explorer:
@@ -55,11 +59,12 @@ Pour en savoir plus sur Rocket.Chat et WordPress, veuillez vérifier ces pages:
 [Meilleur logiciel de chat en direct gratuit et open source][6]
 [WordPress - Open source gratuit et CMS et outil de blogging le plus utilisé][7]
 
-  
-[1]: #description
-[2]: #features
-[3]: #plugin
-[4]: #conclusion
-[5]: https://wordpress.org/plugins/rocketchat-livechat/
-[6]: https://products.containerize.com/live-chat
-[7]: https://href.li/?https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #description
+ [2]: #features
+ [3]: #plugin
+ [4]: #conclusion
+ [5]: https://wordpress.org/plugins/rocketchat-livechat/
+ [6]: https://products.containerize.com/live-chat
+ [7]: https://href.li/?https://products.containerize.com/blogging/wordpress

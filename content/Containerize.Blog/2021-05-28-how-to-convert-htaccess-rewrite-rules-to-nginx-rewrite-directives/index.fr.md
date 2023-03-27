@@ -14,12 +14,13 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Convertir .htaccess réécrivez les règles en directives de Nginx">}}
 
 Dans notre dernier tutoriel, nous avons appris [comment installer plusieurs versions PHP avec Nginx sur Ubuntu][1]. Apache est l'un des serveurs les plus populaires, mais ces derniers temps, Nginx s'est imposé comme un concurrent d'Apache. Mais Nginx ne prend pas en charge les règles de réécriture HTACCESS. Ainsi, dans cet article, nous apprendrons à convertir les règles de réécriture de HTACCESS en directives de réécriture de Nginx. Commençons!
-  * **[Nginx Rewrite Rules][2]** 
-  * [**. HTACCESS REWRIT RÈGLES **][3]
-  * [**Convertir des règles de réécriture .htaccess en directives de réécriture Nginx** ][4]
-  * [**Conclusion** ][5]
+  *  **[Nginx Rewrite Rules][2]**  
+  * [  **. HTACCESS REWRIT RÈGLES**  ][3]
+  * [  **Convertir des règles de réécriture .htaccess en directives de réécriture Nginx**  ][4]
+  * [  **Conclusion**  ][5]
 
-## Nginx réécrit les règles   {#nginx}
+## Nginx réécrit les règles {#nginx}
+
 Réécrivez les règles de modification d'une partie ou de la totalité de l'URL dans une demande client, généralement pour informer les clients que la ressource qu'ils demandent réside désormais à un endroit différent, ou pour contrôler le flux de traitement dans Nginx. Par exemple pour transférer les demandes à un serveur d'applications lorsque le contenu doit être généré dynamiquement. La directive Try_Files est souvent utilisée à cet effet.
 Les deux directives de réécriture générale de Nginx sont _return_ et _rewrite_, et la directive _try_files est un moyen pratique de diriger les demandes de serveurs d'application.
 La directive de retour est la plus simple des deux directives générales. Vous enfermez le retour dans un serveur ou un contexte de localisation.
@@ -44,7 +45,8 @@ server {
 }
 ```
 
-## .htaccess Rewrite Règles   {#apache}
+## .htaccess réécrivez les règles {#apache}
+
 Le fichier .htaccess contrôle un certain nombre de façons dont un site Web peut être accessible, bloqué et redirigé. Il le fait en utilisant une série d'une ou plusieurs règles de réécriture .htaccess. Ces réécritures sont exécutées par le module mod_rewrite d'Apache.
 MOD_REWRITE fournit un moyen de modifier les demandes d'URL entrantes, dynamiquement, sur la base de règles d'expression régulières. Cela vous permet de cartographier toutes les URL sur votre structure URL interne de quelque manière que ce soit. Ceci est également utilisé pour faire nettoyer vos URL externes, puis les cartographier sur des URL internes d'aspect laid.
 Par exemple, le suivi de la règle de réécriture .htaccess reformit une URL non www à une URL www.
@@ -54,7 +56,8 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## converti.
+## Convertir .htaccess réécrivez les règles en directives de réécriture de Nginx {#convert}
+
 Comme nous l'avons montré dans notre exemple ci-dessus pour rediriger une URL non WWW en URL www, convertissons la même règle de réécriture .htaccess en directive de réécriture Nginx.
 ```
 server {
@@ -82,7 +85,7 @@ server {
 }
 ```
 Pour plus de clarté, convertissons les règles WordPress htaccess en directive nginx try_files.
-[Wordpress.org distribue][6] Un fichier de base par défaut **. HTACCESS ** avec les suivants. HTACCESS réécrit les règles qui permettent de jolies permaliens:
+[Wordpress.org distribue][6] Un fichier de base par défaut  **. HTACCESS**  avec les suivants. HTACCESS réécrit les règles qui permettent de jolies permaliens:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -100,18 +103,20 @@ location / {
 }
 ```
 
-## Conclusion   {#conclusion}
+## Conclusion {#conclusion}
+
 Dans ce didacticiel, nous avons exploré les règles de réécriture .htaccess d'Apache et comment nous pouvons convertir ces règles de réécriture .htaccess en directives de réécriture Nginx. Nous avons en outre exploré différentes directives Nginx qui peuvent être utilisées pour réécrire les URL. Nous avons également donné des exemples de règles de réécriture pour Nginx et Apache. J'espère que le tutoriel vous est utile.
 
 ## Explorer
   * [Comment installer plusieurs versions PHP avec Nginx sur Ubuntu][1]
   * [Comment configurer et configurer Nginx comme proxy inverse][7]
 
-  
-[1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-[2]: #nginx
-[3]: #apache
-[4]: #convert
-[5]: #conclusion
-[6]: https://codex.wordpress.org/htaccess
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+
+
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [2]: #nginx
+ [3]: #apache
+ [4]: #convert
+ [5]: #conclusion
+ [6]: https://codex.wordpress.org/htaccess
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

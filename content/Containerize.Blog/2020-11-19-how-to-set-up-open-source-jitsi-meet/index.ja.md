@@ -22,10 +22,12 @@ categories: ['Video Conferencing Software']
   * [結論][6]
 
 ## Jitsi Meetの簡単な紹介 {#intro}
+
 [Jitsi Meet][7]は、完全に無料のオープンソースで、安全でスケーラブルなビデオコラボレーションソフトウェアです。完全な暗号化、EtherPadのサポート、ビデオ/オーディオ録音を備えたマルチパルティビデオ会議など、いくつかの一般的な機能を提供します。このWeBRTC互換性のあるソフトウェアを使用すると、ビデオミーティングに必要なだけ多くのユーザーを招待できます。
 仮想会議の台頭は最近始まり、人々はビデオ/オーディオ通話によるコミュニケーションがより効果的かつ共同作業的であると考えています。何よりも、このカテゴリのソフトウェアは、ラップトップ/デスクトップで機能するだけでなく、参加者が携帯電話を介して顔を合わせて安全なビデオ会議に出席することもできます。
 
-## Jitsi Meetをセットアップする方法は？   {#設定}
+## Jitsi Meetをセットアップする方法は？ {#setup}
+
 このセクションでは、Jitsi Meetのインストールプロセスに入ります。まず、次の前提条件をインストールしていることを確認してください。
   * [Docker][8]
 Dockerがインストールされたら、この[リンク][9]からソースコードのzipファイルをダウンロードします。
@@ -34,16 +36,17 @@ Dockerがインストールされたら、この[リンク][9]からソースコ
 その後、次のコマンドを実行して `.env`を作成します
 `cp env.example .env`
 次に、次のコマンドを実行して、必要なディレクトリを作成します。
-`mkdir -p〜/.jitsi-meet-cfg/{web/letsencrypt、prosody/config、solody/prosody-plugins-custom、jicofo、jvb、jigasi、jibri}`
+`mkdir -p〜/.jitsi-meet-cfg/{web/letsencrypt、prosody/config、prody/prosody-plugins-custom、jicofo、jvb、jigasi、jibri}`
 最後に、このコマンドを実行してDocker画像をスピンアップし、ブラウザのこのURLでアプリケーションにアクセスします。
 `docker -compose up -d`
 
-## Jitsi Meet Feature Exploration   {#Features}
+## Jitsi Meet Feature Exploration {#features}
+
 この無料のビデオチャットソフトウェアは、多くの豊富な機能を提供します。これは、最初に表示されるホームページです。
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="ビデオ会議">}}
 
-会議のキャプションを入力して「Go」を押すと、次のビデオストリームウィンドウに着陸します。
+会議のキャプションを入力して「Go」を押してください。そうすれば、次のビデオストリームウィンドウに着陸します。
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.30.25_-1024x585.jpg" alt="オープンソースソフトウェア">}}
 
@@ -65,6 +68,7 @@ Jitsi Meetは、絵文字との統合チャットを提供しています。
 
 
 ## 結論 {#con}
+
 この記事では、見事なリモート通信ソフトウェアとそのインストールプロセスを実行しました。さらに、ビジネスニーズを進化するテクノロジーと同期するための最良のソリューションを選択する時が来ました。最終的に、[containerize.com][10]は、ビデオ会議ソフトウェアのリストを拡張するために取り組んできました。したがって、定期的な更新については、[ビデオ会議ソフトウェア][2]カテゴリに接続してください。
 
 ## 関連する製品ページ
@@ -75,7 +79,8 @@ Jitsi Meetは、絵文字との統合チャットを提供しています。
   * [要素][13]
   * [ワイヤー][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

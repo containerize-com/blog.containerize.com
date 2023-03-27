@@ -23,7 +23,8 @@ Discuteremo i seguenti strumenti DBMS open source in questo articolo:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin   {#phpmyadmin}
+## phpmyadmin {#phpmyadmin}
+
 PhpMyAdmin è un componente integrato con server Web XAMPP e WAMPP. In questo momento PhpMyAdmin è il software di gestione del database più utilizzato. Gli sviluppatori possono gestire informazioni, tabelle, colonne, relazioni, riferimenti, utenti e autorizzazioni, ecc. Tramite l'interfaccia. Inoltre, viene utilizzato per eseguire la maggior parte delle attività di amministrazione, tra cui la creazione di un database, l'esecuzione di query e l'aggiunta di account utente. Questo sistema di gestione del database è scritto in PHP insieme a input da altri linguaggi come JavaScript e SCSS. Pertanto, tutta la documentazione è disponibile per quanto riguarda lo sviluppo e la distribuzione. Queste sono alcune caratteristiche straordinarie di phpmyadmin:
   * Interfaccia Web facile da usare.
   * Supporto più funzionalità MySQL.
@@ -83,7 +84,8 @@ Per saperne di più sugli strumenti di gestione del database di cui sopra, contr
   * [Perché MySQL è un popolare sistema di gestione del database open source?][2]
   * [Kafka vs Redis Pub-Sub, differenze che dovresti sapere][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

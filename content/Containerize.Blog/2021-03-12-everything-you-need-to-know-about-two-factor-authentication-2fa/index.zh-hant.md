@@ -9,7 +9,7 @@ url: /zh-hant/everything-you-need-to-know-about-two-factor-authentication-2fa/
 categories: ['Single Sign-On']
 ---
 
-## 本文詳細說明了兩因素身份驗證，以及如何使用IdentityServer4和SMS提供商（Twilio）（Twilio）等身份框架在.NET 5中實現它。
+##本文詳細說明了兩因素身份驗證，以及如何使用IdentityServer4和SMS提供商（Twilio）（Twilio）等身份框架在.NET 5中實現它。
 {{_LINE_11_}}
 它包含以下各節：
   * [什麼是兩因素身份驗證？ ][1]
@@ -19,28 +19,33 @@ categories: ['Single Sign-On']
   * [實現2FA In .NET5][5]
 首先，讓我們了解2FA是什麼，以及為什麼它需要成為每個現代Web應用程序的組成部分。
 
-## 什麼是兩因素身份驗證？   {#2FA}
-在這種情況下，一個因素意味著您可以說服應用程序或服務是帳戶的所有者的一種方式。用戶名/密碼被廣泛用作最常見的身份驗證因素。但是，由於與IT相關的許多安全問題以及最近廣泛的數據洩露，單因素身份驗證變得越來越少。
+## 什麼是兩因素身份驗證？ {#2FA}
+
+在這種情況下，一個因素意味著您可以說服應用程序或服務是帳戶的所有者的一種方式。用戶名/密碼被廣泛用作最常見的身份驗證因素。但是，由於與此相關的許多安全問題以及最近廣泛的數據洩露，因此單因素身份驗證變得不太安全。
 兩因素身份驗證是另外的安全層，在您訪問帳戶之前，它就發揮了作用。標準登錄過程的附件 - 它引入了額外的步驟來通過發送代碼（您的電子郵件或短信）來驗證用戶身份。通過這種方式，您的身份得到證明，只有這樣授予訪問權限。
 
-## 2FA如何工作？   {#2 fawork}
-在2FA中，密碼仍然是您的第一個身份驗證因素 - 因此，當您登錄到帳戶時，它將將您重定向到另一個頁面，在該頁面上，您需要驗證帳戶所有權。這可以通過多種方式完成：
+## 2FA如何工作？ {#2fawork}
+
+在2FA中，密碼仍然是您的第一個身份驗證因素 - 因此，當您登錄到帳戶時，它將將您重定向到另一個頁面，在此頁面上，您需要驗證帳戶所有權。這可以通過多種方式完成：
   1.應用程序將通常稱為OTP（一次性密碼）的驗證代碼發送到您的電子郵件地址。
   2.代碼在手機上作為短信傳遞。
   3.您在移動設備上安裝了一個身份驗證器應用程序，您可以通過該應用程序授權登錄請求。
 注意：這些驗證代碼是隨機生成的，並在使用後過期。另外，它們是短暫的 - 因此，在您使用代碼之前，有一個簡短的窗口（這可以防止黑客強迫驗證代碼）。
 
-## 我們可以將2FA稱為多因素身份驗證嗎？   {#MFA}
+## 我們可以將2FA稱為多因素身份驗證嗎？ {#MFA}
+
 身份驗證方法不限於兩因素。許多應用程序和服務正在將其用戶超過2FA並使用多因素身份驗證。
 2FA和MFA（多因素身份驗證）通常可以互換使用。但是有區別。在多因素身份驗證中，使用了兩個或多個因素。
 它可以檢查用戶的IP地址，地理位置和設備信息的附件，以驗證用戶身份的其他因素，例如密碼和OTP。
 因此，我們可以說2FA是MFA的子集。在2FA中，只有兩個因素，而多因素可以利用兩個或多個因素。 MFA使黑客難以在傳統身份驗證過程中增加多層安全性。
 
-## 使用2FA有任何缺點嗎？   {#MFA-CONS}
+## 使用2FA有任何缺點嗎？ {#mfa-cons}
+
 類似於現代應用中存在的許多“安全和隱私”解決方案。這也帶來了價格 - 不便，因為涉及的另一個步驟可能會導致用戶體驗摩擦。
 但是，許多應用程序和服務都採用它，因此這種權衡已成為可以接受的。
 
-## 如何實現2FA身份驗證？   {#實施2fa}
+## 如何實現2FA身份驗證？ {#implementing2fa}
+
 在本節中，我們將學習如何使用IdentityServer4和Twilio在.NET5中實現2FA。
 因此，讓我們在Twilio上創建一個試用帳戶：
   1.註冊
@@ -64,7 +69,7 @@ categories: ['Single Sign-On']
 
 現在，我們將集成Nuget的IdentityServer4，Twilio軟件包。
   1.`install -package IdentityServer4 -version 4.1.1`
-  2.`安裝包裝twilio -version 5.55.0`
+  2.`install -package twilio -version 5.55.0`
 IdentityServer4快速UI可用：
 您可以通過在開發人員Shell中運行以下命令來將其包括在項目中：
 `iex（（new-object system.net.webclient）.downloadstring（'https://raw.githubusercontent.com/indistityserver/indistityserver/indentityserver4.quickstart.ui/main/getmain/getmain.ps1'））
@@ -93,11 +98,11 @@ IdentityServer4快速UI可用：
 ```
 app.UseIdentityServer();
 ```
-運行項目並導航到**_/account/登錄_** 
+運行項目並導航到 **_/account/登錄_** 
 
 {{< figure align=center src="images/2021-03-10-17_48_09-Window-1024x586.png" alt="IdentityServer4-登錄">}}
 
-使用**config.cs** 中添加的憑據登錄
+使用 **config.cs** 中添加的憑據登錄
 一旦配置並運行IdentityServer。然後，我們可以使用Twilio添加對2FA的支持。
 讓我們添加以下課程：
 ```
@@ -145,7 +150,7 @@ public Task SendSmsAsync(string number, string message)
 }
 
 ```
-我們將修改登錄方法以檢查用戶是否已啟用2FA，以便我們可以重定向將其重定向以進行代碼驗證。
+我們將修改登錄方法以檢查用戶是否已啟用了2FA，以便我們可以重定向將其重定向以進行代碼驗證。
 在QuickStart/views中添加verifycode.cshtml：
 
 {{< figure align=center src="images/2021-03-10-15_47_52-Window-1024x497.png" alt="2FA行動">}}
@@ -167,7 +172,7 @@ public async Task<IActionResult> Login(LoginInputModel model, string button)
 
 {{< figure align=center src="images/2021-03-11-09_13_15-Window-1024x647.png" alt="代碼屏幕截圖">}}
 
-如果匹配代碼，則只需通過調用signAsynasync方法來完成身份驗證請求，然後將用戶重定向到授權頁面。
+如果匹配代碼，則只需通過調用SignInasync方法來完成身份驗證請求，然後將用戶重定向到授權頁面。
 讓我們運行該項目
 步驟-1：用戶提供憑據。
 
@@ -186,11 +191,12 @@ public async Task<IActionResult> Login(LoginInputModel model, string button)
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo-授權頁面">}}
 
 
-## #  結論：
+＃## 結論：
 在本文中，我們使用IdentityServer4和Twilio了解了2FA及其在.NET5中的實現。您可以從此[repo][6]中下載本文中使用的示例代碼。
 使用SMS進行2FA肯定會增強您的安全性，但仍然容易受到[SIM SHAP攻擊][7]的影響。因此，安全研究人員鼓勵2FA使用其他方法，例如Authenticator應用程序和安全密鑰（[Yubikey][8]），這些方法無法在電話網絡上截獲。我們將在即將發表的文章中了解更多信息 - 敬請期待！
 
-  
+
+
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

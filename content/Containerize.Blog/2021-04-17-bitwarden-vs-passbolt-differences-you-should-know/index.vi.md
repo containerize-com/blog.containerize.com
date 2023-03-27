@@ -48,7 +48,7 @@ Cả Bitwarden và Passbolt đều cung cấp nhiều tính năng và chức nă
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **Phần kết luận**
+## **Phần kết luận** 
 Trong bài đăng này, chúng tôi đã cố gắng vượt qua chi tiết so sánh về Bitwarden vs Passbolt. Chúng tôi đã thảo luận về sự khác biệt chính giữa hai trình quản lý mật khẩu nguồn mở và cái nào cung cấp nhiều tính năng nhất là trình quản lý mật khẩu nguồn mở miễn phí, dễ sử dụng cho các nhóm.
 
 ## Khám phá
@@ -57,7 +57,8 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
 [Passbolt | Trình quản lý mật khẩu miễn phí, nguồn mở & tự lưu trữ][6]
 [Thiết lập và quản lý Trình quản lý mật khẩu Keepass cho Windows][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

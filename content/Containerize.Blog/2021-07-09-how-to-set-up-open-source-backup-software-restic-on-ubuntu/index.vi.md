@@ -13,26 +13,28 @@ categories: ['Backup Software']
 
 {{< figure align=center src="images/restic-post-banner.png" alt="Phần mềm sao lưu nguồn mở">}}
 
-Một hệ thống sao lưu thực sự quan trọng đối với cả doanh nghiệp và cá nhân. Dữ liệu có thể bị mất vì nhiều lý do như tấn công mạng, lỗi hệ thống, loại bỏ tình cờ và nhiều hơn nữa. Bạn nên có một chiến lược sao lưu tốt tại chỗ để bạn có thể khôi phục dữ liệu của mình nhanh chóng. Hướng dẫn này sẽ chỉ cho bạn cách cài đặt và sử dụng phần mềm sao lưu nguồn mở  ****  RESTIC trên máy chủ Ubuntu của bạn.
+Một hệ thống sao lưu thực sự quan trọng đối với cả doanh nghiệp và cá nhân. Dữ liệu có thể bị mất vì nhiều lý do như tấn công mạng, lỗi hệ thống, loại bỏ tình cờ và nhiều hơn nữa. Bạn nên có một chiến lược sao lưu tốt tại chỗ để bạn có thể khôi phục dữ liệu của mình nhanh chóng. Hướng dẫn này sẽ chỉ cho bạn cách cài đặt và sử dụng phần mềm sao lưu nguồn mở****RESTIC trên máy chủ Ubuntu của bạn.
 Chúng tôi đã đề cập đến các phần sau trong hướng dẫn này.
-  *[ **Điều kiện tiên quyết ** ][1]
-  *[ **RESTIC là gì? ** ][2]
-  *[ **Cài đặt RESTIC ** ][3]
-  *[ **Cấu hình RESTIC ** ][4]
-  *[ **Giải pháp thay thế cho Restic ** ][5]
-  * **[Kết luận][6]**
+* [ **Điều kiện tiên quyết** ][1]
+* [ **Restic là gì?** ][2]
+* [ **Cài đặt RESTIC** ][3]
+* [ **Cấu hình RESTIC** ][4]
+* [ **Giải pháp thay thế cho Restic** ][5]
+* **[Kết luận][6]** 
 
-## Điều kiện tiên quyết   {#Prerequisites}
-Chương trình phần mềm sao lưu RESTIC hỗ trợ ba hệ điều hành chính Linux, MacOS và Windows. Trước khi cài đặt  **Sao lưu RESTIC ** , bạn nên đáp ứng các yêu cầu hệ thống sau.
+## Điều kiện tiên quyết {#Điều kiện tiên quyết}
+
+Chương trình phần mềm sao lưu RESTIC hỗ trợ ba hệ điều hành chính Linux, MacOS và Windows. Trước khi cài đặt **Sao lưu RESTIC** , bạn nên đáp ứng các yêu cầu hệ thống sau.
   * Máy hoặc hệ thống máy tính để bàn với hệ điều hành Ubuntu chứa dữ liệu được sao lưu
   * Một phiên bản máy chủ Ubuntu mới nhất
   * Xác thực khóa SSH được cấu hình giữa hai máy khách và máy chủ
   * Người dùng không root có đặc quyền sudo
 Với những bit này trong tay, hãy để di chuyển và đi làm.
 
-## Restic là gì?   {#Restic}
-[ **restic ** ][7] là một công cụ sao lưu nguồn mở tuyệt vời  **** . Nó có một tiện ích sao lưu miễn phí  ****  mà nhanh chóng, an toàn và hiệu quả. Chương trình sao lưu đa nền tảng của nó, do đó, nó sẽ chạy trên Linux, BSD, Mac OS X và Windows. Phần mềm sao lưu nguồn mở tốt nhất RESTIC rất dễ chạy và không yêu cầu máy chủ hoặc cấu hình phức tạp. Nó tạo ra một bản sao lưu của dữ liệu đã sửa đổi và cho phép người dùng khôi phục nó khi cần thiết. Hơn nữa, nó cung cấp một loạt các tùy chọn lưu trữ, bao gồm lưu trữ tự lưu trữ và lưu trữ internet. Hơn nữa, Restic Open Sure tự lưu trữ lưu trữ đám mây sử dụng các kỹ thuật mật mã mạnh mẽ để bảo vệ dữ liệu của bạn.
-Restic không phải là một tiện ích sao chép tệp đơn giản. Nó chủ yếu được xây dựng trên hai khái niệm: ảnh chụp nhanh và kho lưu trữ.  **RESTIC **  Giải pháp sao lưu nguồn mở lưu thông tin dưới dạng ảnh chụp nhanh, sau đó được lưu trong kho lưu trữ. Nó được viết bằng ngôn ngữ lập trình GO. Restic Go dựa trên tiện ích sao lưu và ứng dụng sao lưu nguồn mở hoạt động trơn tru với nhiều hệ thống lưu trữ phụ trợ đám mây và địa phương. Mã nguồn của phần mềm sao lưu tệp nguồn mở RESTIC có sẵn tại [ **GitHub ** ][8]. Tuy nhiên, bạn có thể tìm thấy chi tiết [ **Tài liệu ** ][9] để cài đặt và sử dụng.
+## Restic là gì? {#Restic}
+
+[ **restic**][7] là một công cụ sao lưu nguồn mở tuyệt vời****. Nó có một tiện ích sao lưu miễn phí****mà nhanh chóng, an toàn và hiệu quả. Chương trình sao lưu đa nền tảng của nó, do đó, nó sẽ chạy trên Linux, BSD, Mac OS X và Windows. Phần mềm sao lưu nguồn mở tốt nhất RESTIC rất dễ chạy và không yêu cầu máy chủ hoặc cấu hình phức tạp. Nó tạo ra một bản sao lưu của dữ liệu đã sửa đổi và cho phép người dùng khôi phục nó khi cần thiết. Hơn nữa, nó cung cấp một loạt các tùy chọn lưu trữ, bao gồm lưu trữ tự lưu trữ và lưu trữ internet. Hơn nữa, Restic Open Sure tự lưu trữ lưu trữ đám mây sử dụng các kỹ thuật mật mã mạnh mẽ để bảo vệ dữ liệu của bạn.
+Restic không phải là một tiện ích sao chép tệp đơn giản. Nó chủ yếu được xây dựng trên hai khái niệm: ảnh chụp nhanh và kho lưu trữ. **RESTIC**Giải pháp sao lưu nguồn mở lưu thông tin dưới dạng ảnh chụp nhanh, sau đó được lưu trong kho lưu trữ. Nó được viết bằng ngôn ngữ lập trình GO. Restic Go dựa trên tiện ích sao lưu và ứng dụng sao lưu nguồn mở hoạt động trơn tru với nhiều hệ thống lưu trữ phụ trợ đám mây và địa phương. Mã nguồn của phần mềm sao lưu tệp nguồn mở RESTIC có sẵn tại [ **GitHub** ][8]. Tuy nhiên, bạn có thể tìm thấy chi tiết [**Tài liệu** ][9] để cài đặt và sử dụng.
 RESTIC tự lưu trữ bản sao lưu đám mây hỗ trợ các phụ trợ ngoài hộp để lưu trữ sao lưu.
   * Thư mục cục bộ
   * Máy chủ SFTP (qua SSH)
@@ -45,9 +47,10 @@ RESTIC tự lưu trữ bản sao lưu đám mây hỗ trợ các phụ trợ ngo
   * Backblaze B2
   * Lưu trữ Blob Microsoft Azure
   * Lưu trữ đám mây Google
-Bạn có thể sử dụng [ **rclone ** ][10] cho nhiều phụ trợ khác nhau ngoài những phụ trợ được liệt kê ở trên.
+Bạn có thể sử dụng [ **rclone** ][10] cho nhiều phụ trợ khác nhau ngoài những phụ trợ được liệt kê ở trên.
 
-## Cài đặt RESTIC   {#installation}
+## Cài đặt restic {#Installation}
+
 Có nhiều cách khác nhau để cài đặt lưu trữ đám mây tự lưu trữ tốt nhất trên hệ điều hành Ubuntu của bạn. Chúng tôi sẽ bao gồm việc cài đặt lưu trữ tệp tự lưu trữ RESTIC bằng gói Ubuntu, Docker và mã nguồn.
 
 ### Cài đặt bằng cách sử dụng gói
@@ -63,8 +66,8 @@ $ docker pull restic/restic
 ```
 
 ### Cài đặt bằng nguồn
-  * Đầu tiên, bạn cần cài đặt ngôn ngữ lập trình GO để thiết lập RESTIC từ nguồn. Bạn có thể truy cập trang web chính thức [ **Golang ** ][11] để hướng dẫn cài đặt GO.
-  * Tiếp theo, thực thi các lệnh bên dưới để cài đặt sao lưu gia tăng.
+  * Đầu tiên, bạn cần cài đặt ngôn ngữ lập trình GO để thiết lập RESTIC từ nguồn. Bạn có thể truy cập trang web chính thức [ **Golang** ][11] để hướng dẫn cài đặt GO.
+  * Tiếp theo, thực hiện các lệnh bên dưới để cài đặt sao lưu gia tăng RESTIC.
 ```
 $ git clone https://github.com/restic/restic
 $ cd restic
@@ -77,7 +80,8 @@ $ go run build.go --goos freebsd --goarch 386
 $ go run build.go --goos linux --goarch arm --goarm 6
 ```
 
-## Cấu hình RESTIC   {#configuration}
+## Cấu hình RESTIC {#Configuration}
+
 Như chúng tôi đã đề cập ở trên rằng hệ thống sao lưu nguồn mở RESTIC dựa trên ảnh chụp nhanh và kho lưu trữ để sao lưu. Hãy cùng xem cách thiết lập một kho lưu trữ, chụp nhanh và sau đó khôi phục bản sao lưu.
 
 ### Tạo kho lưu trữ
@@ -130,8 +134,8 @@ RESTIC là ứng dụng phần mềm sao lưu nguồn mở phổ biến nhất v
   * Sự gắn kết
 
 ## Phần kết luận
-Trong bài viết này, chúng tôi đã đề cập đến phần mềm sao lưu nguồn mở miễn phí  **** . Chúng tôi cũng đã thảo luận về một số kỹ thuật cài đặt, cũng như cách tạo bản sao lưu và cách khôi phục sao lưu. Có nhiều hình thức lưu trữ sao lưu dữ liệu khác và chúng tôi chỉ đề cập đến một hình thức trong bài viết này. Các loại lưu trữ phụ trợ còn lại sẽ được đề cập trong các ấn phẩm trong tương lai. Chúng tôi hy vọng rằng hướng dẫn này sẽ đóng vai trò là điểm khởi đầu để bạn sử dụng công cụ sao lưu nguồn mở tốt nhất RESTIC để thực hiện và khôi phục bản sao lưu.
-Cuối cùng, [ **containerize.com ** ][12] đang trong một quá trình viết bài đăng trên blog nhất quán trên các sản phẩm nguồn mở mới nhất. Do đó, hãy giữ liên lạc với danh mục [ **bản sao lưu này ** ][13] cho các bản cập nhật mới nhất.
+Trong bài viết này, chúng tôi đã đề cập đến phần mềm sao lưu nguồn mở miễn phí****. Chúng tôi cũng đã thảo luận về một số kỹ thuật cài đặt, cũng như cách tạo bản sao lưu và cách khôi phục sao lưu. Có nhiều hình thức lưu trữ sao lưu dữ liệu khác và chúng tôi chỉ đề cập đến một hình thức trong bài viết này. Các loại lưu trữ phụ trợ còn lại sẽ được đề cập trong các ấn phẩm trong tương lai. Chúng tôi hy vọng rằng hướng dẫn này sẽ đóng vai trò là điểm khởi đầu để bạn sử dụng công cụ sao lưu nguồn mở tốt nhất RESTIC để thực hiện và khôi phục bản sao lưu.
+Cuối cùng, [ **containerize.com**][12] đang trong một quá trình viết bài đăng trên blog nhất quán trên các sản phẩm nguồn mở mới nhất. Do đó, hãy giữ liên lạc với danh mục [**bản sao lưu này** ][13] cho các bản cập nhật mới nhất.
 _ Phần mềm sao lưu nguồn mở và miễn phí yêu thích nhất của bạn là gì ?. Bạn có bất kỳ câu hỏi nào về phần mềm sao lưu nguồn mở không?
 
 ## Khám phá:
@@ -144,7 +148,8 @@ Chúng tôi cũng có một số thông tin liên quan khác từ OSS Watch:
   * [NextCloud vs owncloud | Sự khác biệt là gì?][20]
   * [Phần mềm chia sẻ tệp và lưu trữ đám mây nguồn mở tốt nhất][21]
 
-  
+
+
 [1]: #Prerequisites
 [2]: #Restic
 [3]: #Installation

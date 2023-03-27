@@ -15,62 +15,67 @@ categories: ['Artificial intelligence']
 
 
 ## Descripción general
-Hemos estado publicando algunas publicaciones de blog realmente interesantes y de moda en la categoría de**inteligencia artificial**. El más reciente [Artículo][1] demostró una introducción a la IA, los tipos y las aplicaciones de la inteligencia artificial. Sin embargo, esta publicación de blog es típicamente para desarrolladores de software que son entusiastas de la IA. Hay un amplio alcance de desarrollo en esta rama de la informática. De hecho, la era moderna pertenece absolutamente a la inteligencia artificial. Solo para recapitular, la IA es la simulación de la inteligencia humana en máquinas hechas por el hombre. Por lo tanto, las organizaciones de software están invirtiendo masivamente en IA para enriquecer esta tecnología con características avanzadas. Por lo tanto, la comunidad de código abierto ha desarrollado algunos marcos y bibliotecas de nivel empresarial para desarrollar e implementar aplicaciones comerciales con IA. Comencemos esta guía y exploremos los**Los 5 mejores marcos de IA de código abierto.**
-Cubriremos las siguientes bibliotecas de AI de código abierto:**
-* **[TensorFlow][2]**
-* **[Pytorch][3]**
-* **[Keras][4]**
-* **[Scikit-Learn][5]**
-* **[Cafe][6]**
+Hemos estado publicando algunas publicaciones de blog realmente interesantes y de moda en la categoría de  **inteligencia artificial** . El más reciente [Artículo][1] demostró una introducción a la IA, los tipos y las aplicaciones de la inteligencia artificial. Sin embargo, esta publicación de blog es típicamente para desarrolladores de software que son entusiastas de la IA. Hay un amplio alcance de desarrollo en esta rama de la informática. De hecho, la era moderna pertenece absolutamente a la inteligencia artificial. Solo para recapitular, la IA es la simulación de la inteligencia humana en máquinas hechas por el hombre. Por lo tanto, las organizaciones de software están invirtiendo masivamente en IA para enriquecer esta tecnología con características avanzadas. Por lo tanto, la comunidad de código abierto ha desarrollado algunos marcos y bibliotecas de nivel empresarial para desarrollar e implementar aplicaciones comerciales con IA. Comencemos esta guía y exploremos los **Los 5 mejores marcos de IA de código abierto.**  
+Cubriremos las siguientes bibliotecas de AI de código abierto:** 
+*  **[TensorFlow][2]**  
+*  **[Pytorch][3]**  
+*  **[Keras][4]**  
+*  **[Scikit-Learn][5]**  
+*  **[Cafe][6]**  
 
-## tensorflow   {#tensorflow}
-[TensorFlow][7] es un marco de código abierto para construir algoritmos de aprendizaje automático (ML) para resolver problemas complejos. Es una de las principales bibliotecas AI de código abierto**que simplifica el desarrollo de modelos de aprendizaje automático. Además, TensorFlow ofrece una amplia gama de herramientas que ayudan a preparar conjuntos de datos, construir modelos ML y luego implementar e implementar modelos ML. Además, este**Marco de inteligencia artificial de código abierto**es multiplataforma y puede crear modelos ML para computadoras de escritorio, móviles y plataformas web.
+## Flujo tensor  {#Flujo tensor}
+
+[TensorFlow][7] es un marco de código abierto para construir algoritmos de aprendizaje automático (ML) para resolver problemas complejos. Es una de las  **bibliotecas AI de código abierto** que simplifica el desarrollo de modelos de aprendizaje automático. Además, TensorFlow ofrece una amplia gama de herramientas que ayudan a preparar conjuntos de datos, construir modelos ML y luego implementar e implementar modelos ML. Además, este **Marco de inteligencia artificial de código abierto**  es multiplataforma y puede crear modelos ML para computadoras de escritorio, móviles y plataformas web.
 
 {{< figure align=center src="images/lockup.png" alt="inteligencia artificial de código abierto">}}
 
 Además, ofrece una API para integraciones de terceros y viene con capacidades de autohospedación. Esta**biblioteca de IA gratuita es muy popular y está respaldada por una gran comunidad. Hay recursos y documentación disponibles para los desarrolladores y visitantes. Sobre todo, hay 171k estrellas y 87.7k tenedores en su [Github][8].
-[**Aprenda más sobre TensorFlow**][7]
+[  **Aprenda más sobre TensorFlow**  ][7]
 
-## Pytorch   {#Pytorch}
+## Pytorch {#Pytorch}
+
 [Pytorch][9] es otro marco de aprendizaje automático de nivel empresarial**con un ecosistema robusto. Se le ocurre una parte delantera fácil de usar, es fácil de configurar y puede instalarlo [localmente][10] o en la [nube][11]. Además, es compatible con [Google Cloud Platform][12], [Amazon Web Services][13] y [Microsoft Azure][14]. Existe una [documentación] completa y recursos disponibles con respecto al desarrollo, las pruebas y la implementación.
 
 {{< figure align=center src="images/pytorch-logo-dark.png" alt="Bibliotecas de AI de código abierto">}}
 
-Además, Pytorch también ofrece desarrollo de redes neuronales, que es un componente integral del aprendizaje automático. Este**marco ML de código abierto**se escribe principalmente en C ++ y Python y tiene muy buenas estadísticas sobre su [GitHub][16] con 62.1k estrellas y 17.3k tenedores.
-**[Aprenda más sobre Pytorch][9]**
+Además, Pytorch también ofrece desarrollo de redes neuronales, que es un componente integral del aprendizaje automático. Este  **marco ML de código abierto**  se escribe principalmente en C ++ y Python y tiene muy buenas estadísticas sobre su [GitHub][16] con 62.1k estrellas y 17.3k tenedores.
+ **[Aprenda más sobre Pytorch][9]** 
 
-## keras   {#keras}
-[Keras][17] es una poderosa API**de aprendizaje profundo**que ofrece herramientas de aprendizaje automático ricos para aliviar la carga del desarrollador. Esta plataforma ML se ejecuta sobre TensorFlow y ofrece flujos de trabajo simples para una experimentación rápida. Sobre todo, es muy útil y es utilizado por [NASA][18], [YouTube][19] y otros gigantes populares. Esta**plataforma AI de código abierto**ofrece soluciones de aprendizaje automático a problemas del mundo real de manera más eficiente y rápida.
+## Keras {#Keras}
+
+[Keras][17] es una poderosa API  **de aprendizaje profundo** que ofrece herramientas de aprendizaje automático ricos para aliviar la carga del desarrollador. Esta plataforma ML se ejecuta sobre TensorFlow y ofrece flujos de trabajo simples para una experimentación rápida. Sobre todo, es muy útil y es utilizado por [NASA][18], [YouTube][19] y otros gigantes populares. Esta **plataforma AI de código abierto**  ofrece soluciones de aprendizaje automático a problemas del mundo real de manera más eficiente y rápida.
 
 {{< figure align=center src="images/logo-1024x297.png" alt="plataforma de aprendizaje automático">}}
 
 Además, puede exportar modelos Keras a JavaScript y ejecutarlos en plataformas web. De hecho, puede generar archivos relevantes de modelos para ejecutarse en iOS, Android y dispositivos integrados. Además, tiene un gran apoyo y comunidad de desarrolladores. Está escrito en Python y asegura buenas estadísticas sobre [Github][20] con 57.2k estrellas y 19.3k tenedores.
-**[Aprenda más sobre Keras][21]**
+ **[Aprenda más sobre Keras][21]** 
 
-## scikit-learn   {#scikit-learn}
-[Scikit-Learn][22] es otro de esos**marcos AI de código abierto**que están escritos en Python. Proporciona análisis de datos predictivos y es altamente escalable. Este marco de aprendizaje automático ha sido una parte integral de**AI Systems**de muchas grandes empresas como [J.P.Morgan][23], [Spotify][24], [Booking.com][25] y más. Booking.com utiliza sckikit-learn para recomendar hoteles y destinos de viaje a los clientes.
+## Lear {#Lear}
+
+[Scikit-Learn][22] es otro de esos  **marcos AI de código abierto** que están escritos en Python. Proporciona análisis de datos predictivos y es altamente escalable. Este marco de aprendizaje automático ha sido una parte integral de **AI Systems**  de muchas grandes empresas como [J.P.Morgan][23], [Spotify][24], [Booking.com][25] y más. Booking.com utiliza sckikit-learn para recomendar hoteles y destinos de viaje a los clientes.
 
 {{< figure align=center src="images/scikit-learn-logo-small.png" alt="Bibliotecas de AI de código abierto,">}}
 
-Este**marco AI de código abierto**también está escrito en Python y es muy fácil de configurar, ya que requiere menos dependencias como Numpy, SciPy, Joblib y Threadpoolctl. También ofrece componentes reutilizables a los que son accesibles para todos. Además, hay una gran comunidad y apoyo detrás de Scikit-Learns, y también tiene buenas estadísticas sobre [Github][26] con 52.7k estrellas y 23.9k tenedores.
-**[Aprenda más sobre Scikit-Learn][22]**
+Este  **marco AI de código abierto**  también está escrito en Python y es muy fácil de configurar, ya que requiere menos dependencias como Numpy, SciPy, Joblib y Threadpoolctl. También ofrece componentes reutilizables a los que son accesibles para todos. Además, hay una gran comunidad y apoyo detrás de Scikit-Learns, y también tiene buenas estadísticas sobre [Github][26] con 52.7k estrellas y 23.9k tenedores.
+ **[Aprenda más sobre Scikit-Learn][22]** 
 
-## Caffe   {#CAFFE}
-[Cafe][27] es otro marco de aprendizaje profundo de código abierto que se centra en la modularidad y la velocidad. Ofrece arquitectura expresiva con optimizaciones de alto nivel. Este**Marco de inteligencia artificial (AI) de código abierto**es extensible y robusto para la implementación y experimentos de la industria de la investigación. Además, hay una comunidad vibrante que ha estado activa en las contribuciones del código.
+## Cafetería {#Cafetería}
+
+[Cafe][27] es otro marco de aprendizaje profundo de código abierto que se centra en la modularidad y la velocidad. Ofrece arquitectura expresiva con optimizaciones de alto nivel. Este  **Marco de inteligencia artificial (AI) de código abierto**  es extensible y robusto para la implementación y experimentos de la industria de la investigación. Además, hay una comunidad vibrante que ha estado activa en las contribuciones del código.
 El repositorio [Github][28] del marco Caffe tiene estadísticas alentadoras con 33k estrellas y 19K tenedores. Además, se escribe principalmente en C ++ con un pequeño aporte de otros idiomas como Python y más.
-[**Aprenda más sobre Caffe**][27]
+[  **Aprenda más sobre Caffe**  ][27]
 
 ## Conclusión
-Esto nos lleva al final de esta publicación de blog. Las conclusiones clave de este artículo son los**Los 5 marcos AI de código abierto principales**. Además, teníamos una vista de pájaro de estos**marcos de inteligencia artificial de código abierto**. Por lo tanto, esta guía seguramente lo ayudará si está buscando equipar su software de negocios con inteligencia artificial. Sin lugar a dudas,**aprendizaje automático**y**procesamiento del lenguaje natural**son grandes éxitos ahora y en el futuro. Además, hay artículos muy interesantes y relevantes que puede encontrar en la sección "Ver también" a continuación.
+Esto nos lleva al final de esta publicación de blog. Las conclusiones clave de este artículo son los  **Los 5 marcos AI de código abierto principales** . Además, teníamos una vista de pájaro de estos  **marcos de inteligencia artificial de código abierto**  . Por lo tanto, esta guía seguramente lo ayudará si está buscando equipar su software de negocios con inteligencia artificial. Sin lugar a dudas,  **aprendizaje automático**  y **procesamiento del lenguaje natural**  son grandes éxitos ahora y en el futuro. Además, hay artículos muy interesantes y relevantes que puede encontrar en la sección "Ver también" a continuación.
 Finalmente, [Contenerize.com][29] está escribiendo continuamente publicaciones de blog sobre otros productos y temas de código abierto. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][30], [LinkedIn][31] y [Twitter][32].
 
 ## Hacer una pregunta
 Puede informarnos sobre sus preguntas o consultas en nuestro [Foro][33].
 
 ## Preguntas frecuentes
-**¿Qué marco se usa para la inteligencia artificial?**
+ **¿Qué marco se usa para la inteligencia artificial?** 
 [TensorFlow][7] es un marco AI de código abierto muy popular y de nivel empresarial**. Además, hay algunas otras opciones disponibles, como [Pytorch][9], [Scikit-Learn][22] y más.
-**¿Es TensorFlow Open Source?**
+ **¿Es TensorFlow Open Source?** 
 Sí, es de código abierto y se le ocurre capacidades de autohospedación. Visite este [enlace][2] para explorar TensorFlow aún más.
 
 ## Ver también
@@ -78,7 +83,8 @@ Sí, es de código abierto y se le ocurre capacidades de autohospedación. Visit
   * [Cómo usar chatgpt en vscode | El código de extensión VScode GPT][34]
   * [¿Qué es OpenAi Chatbot GPT-3 | Chatgpt una revolución ai][35]
 
-  
+
+
 [1]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
 [2]: #TensorFlow
 [3]: #PyTorch

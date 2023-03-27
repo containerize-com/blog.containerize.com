@@ -16,16 +16,16 @@ categories: ['DevOps', 'Software Development']
 
 Panoramica ##
 Le persone che lavorano ai contenitori per la prima volta, si rendono presto conto che la gestione di Docker dall'interfaccia della riga di comando (CLI) non è il modo più intuitivo. Se un utente può eseguire determinate attività utilizzando solo la CLI, ma il software GUI moderno può anche aiutare a gestire un gran numero di contenitori e semplificare le operazioni di DevOps. Questo post sul blog coprirà i due framework GUI di container più popolari: Portainer vs Rancher.
-Portainer e Rancher condividono entrambi molte somiglianze in quanto entrambi il software sono strumenti di controllo della gestione dei container che aiutano i team DevOps a iniziare con Kubernetes. Tuttavia, oltre a queste simili, ci sono una serie di differenze chiare. Rancher ha rilasciato un'interfaccia utente predefinita per gestire Swarm come Portainer dalla versione 1.5. A partire dalla versione 2.x Rancher si è concentrata maggiormente a Kubernetes con il suo strumento di clustering, ma ora non supporta più Docker Swarm.
+Portainer e Rancher condividono entrambi molte somiglianze in quanto entrambi il software sono strumenti di controllo della gestione dei container autonomi che aiutano i team DevOps a iniziare con Kubernetes. Tuttavia, oltre a queste simili, ci sono una serie di differenze chiare. Rancher ha rilasciato un'interfaccia utente predefinita per gestire Swarm come Portainer dalla versione 1.5. A partire dalla versione 2.x Rancher si è concentrata maggiormente a Kubernetes con il suo strumento di clustering, ma ora non supporta più Docker Swarm.
 Portainer e Rancher possono essere classificati come strumenti di gestione dei contenitori. Per motivi di semplicità, questo articolo spiega solo la differenza fondamentali tra Portainer e Rancher Technologies. Acquisiamo familiarità con gli strumenti di gestione dei container Portainer vs Rancher open source più popolari.
-  ***Cos'è Portainer?** 
-  ***Cos'è Rancher?** 
-  ***Portainer vs Rancher: quale dovresti adottare?** 
-  * **Conclusione**
+* **Cos'è Portainer?** 
+* **Cos'è Rancher?** 
+* **Portainer vs Rancher: quale dovresti adottare?** 
+  * **Conclusione** 
 
 ## **1. Cos'è Portainer?** 
 [Portainer][1] è la piattaforma di gestione dei container più popolare. Gli ingegneri DevOps descrivono Portainer come un semplice interfaccia utente di gestione per Docker. Portainer è un'interfaccia utente di gestione contirosa leggera open source e ti consente di gestire facilmente i tuoi ambienti Docker. Non è mai stato così facile gestire Docker ma Portainer è disponibile su Windows, Linux e Mac Operating Systems. Le alternative Portainer sono Azure Container Registry, Rancher e Docker Swarm. È stata fondata nel 2017 in Nuova Zelanda e la porta predefinita della GUI Web Portainer è 9000.
-Portainer è un set di strumenti di gestione open source potente che consente di creare, gestire e mantenere facilmente gli ambienti di produzione Docker. È stato sviluppato per aiutare i clienti ad adottare la tecnologia dei container Docker e accelerare il tempo a valore. Portainer si integra con Docker Swarm e Kubernetes Cluster Management. Portainer è uno strumento open source con stelle GitHub da 20,1k e forcelle GitHub da 1,8k. Apre la piattaforma di containerizzazione della sorgente **Repository di codice sorgente portainer**  è disponibile su [GitHub][2]. Alcune delle funzionalità offerte da Portainer per applicazioni containerizzate sono:
+Portainer è un set di strumenti di gestione open source potente che consente di creare, gestire e mantenere facilmente gli ambienti di produzione Docker. È stato sviluppato per aiutare i clienti ad adottare la tecnologia dei container Docker e accelerare il tempo a valore. Portainer si integra con Docker Swarm e Kubernetes Cluster Management. Portainer è uno strumento open source con stelle GitHub da 20,1k e forcelle GitHub da 1,8k. Apre la piattaforma di containerizzazione della sorgente **Repository di codice sorgente portainer** è disponibile su [GitHub][2]. Alcune delle funzionalità offerte da Portainer per applicazioni containerizzate sono:
   * Container Easy Deployment & Management
   * Monitorare le prestazioni e il comportamento
   * Governance e sicurezza
@@ -34,7 +34,7 @@ Portainer è un set di strumenti di gestione open source potente che consente di
 
 ## 2. Che cos'è il rancher?
 [Rancher][3] è una piattaforma di gestione dei container open source per Kubernetes. Include distribuzioni complete di Kubernetes, Apache Mesos e Docker Swarm che semplifica la gestione dei cluster di container su qualsiasi cloud o piattaforma di infrastruttura. Il rancher è descritto come una piattaforma di gestione open source per l'esecuzione del servizio di container e la creazione di cluster. Può facilmente distribuire nuovi cluster da zero o addirittura può importare cluster Kubernetes esistenti. Rancher è stato costruito per eseguire e gestire più cluster basati su Kubernetes ovunque. Rancher Web GUI funziona sulla porta predefinita 80/443.
-Rancher è uno stack di software completo per i team che lavorano su container e l'hosting Rancher può essere complicato. Allevia con successo le sfide operative e di sicurezza della gestione di più cluster di Kubernetes fornendo al contempo ai team di sviluppo e operazioni con strumenti integrati per l'esecuzione di software containerizzato. Quando si distribuiscono contenitori nei tuoi ambienti di cluster di produzione o di sviluppo, avrai bisogno di un rapido accesso alla registrazione per analizzare gli errori del contenitore. Quindi, una buona soluzione è quella di distribuire il rancher nei cluster DevOps acceso o fuori dal cloud. Rancher è uno strumento open source con stelle Github da 18,1k e forcelle GitHub da 2,4k. **Repository del codice sorgente rancher**  è disponibile su [github][4]. Rancher fornisce le seguenti caratteristiche chiave:
+Rancher è uno stack di software completo per i team che lavorano su container e l'hosting Rancher può essere complicato. Allevia con successo le sfide operative e di sicurezza della gestione di più cluster di Kubernetes fornendo al contempo ai team di sviluppo e operazioni con strumenti integrati per l'esecuzione di software containerizzato. Quando si distribuiscono contenitori nei tuoi ambienti di cluster di produzione o di sviluppo, avrai bisogno di un rapido accesso alla registrazione per analizzare gli errori del contenitore. Quindi, una buona soluzione è quella di distribuire il rancher nei cluster DevOps acceso o fuori dal cloud. Rancher è uno strumento open source con stelle Github da 18,1k e forcelle GitHub da 2,4k. **Repository del codice sorgente rancher** è disponibile su [github][4]. Rancher fornisce le seguenti caratteristiche chiave:
   * Gestione e distribuzione di Kubernetes
   * Gestione degli utenti e collaborazione
   * Orchestrazione e pianificazione del contenitore
@@ -50,19 +50,21 @@ La funzione Namespaces ha recentemente aggiunto da Portainer con controllo di ac
 Portainer corrisponde completamente alle esigenze per piccoli ambienti di applicazione, specialmente quando si basa su hardware scarso. Funziona perfettamente con Raspberry Pi e potrebbe essere la scelta migliore se si desidera gestire un ambiente domestico, piccoli laboratori o una piccola azienda. Si concentrerà anche su grandi imprese con estensioni a basso costo per aggiungere nuove funzionalità e può anche essere utilizzato su Rancher come strumento di orchestratore contenitore alternativo. Rancher ha anche un sistema operativo molto fantastico e leggero chiamato Rancheros che si basa su Busybox. Se vuoi usare questo rancheros, sei libero di selezionarlo dalla GUI. Rancher si concentra direttamente sulle esigenze di ambienti medi -grandi con architetture applicative complesse. Il rancher potrebbe essere la scelta migliore se vuoi aprire il mondo dei contenitori per un'azienda e utilizzare la piattaforma di orchestrazione Kubernetes.
 Infine, la mia considerazione personale è che Portainer e Rancher sono strumenti migliori e validi per gestire facilmente i tuoi ambienti contenitori.
 
-## conclusione:   {#4a1a}
-**Qual è la scelta migliore Portainer vs Rancher, quindi? ** La risposta è quella ovvia: entrambi. I sopra menzionati Portainer vs Rancher sono più popolari strumenti open e open source per gli sviluppatori. Consentono di pensare a servizi e sistemi in modo completamente nuovo e digitale che l'infrastruttura necessita di più. La linea di fondo è che entrambi gli strumenti forniscono una piattaforma ben integrata per automatizzare in modo più efficace la gestione dei container, il ridimensionamento e la distribuzione di contenitori di sistemi.
+## Conclusione: {#4a1a}
+
+**Qual è la scelta migliore Portainer vs Rancher, quindi?** La risposta è quella ovvia: entrambi. I sopra menzionati Portainer vs Rancher sono più popolari strumenti open e open source per gli sviluppatori. Consentono di pensare a servizi e sistemi in modo completamente nuovo e digitale che l'infrastruttura necessita di più. La linea di fondo è che entrambi gli strumenti forniscono una piattaforma ben integrata per automatizzare in modo più efficace la gestione dei container, il ridimensionamento e la distribuzione di contenitori di sistemi.
 _ CHE CONVERSORE DI GESTIONE DEL CONTERMATURA OPENO SOURICA PREFERIMENTO_?. Hai domande sulla differenza tra Portainer e Rancher?, Per favore_ [mettiti in contatto][5].
 
 ## Esplorare:
 Abbiamo diversi altri articoli correlati per gestire la gestione delle attività quotidiane per gli amministratori IT:
-  * **[Top 5 strumenti di orchestrazione del contenitore open source per DevOps 2021][6]**
-  * **[Best Open Source Cloud Storage e sharing software][7]**
-  * **[Software Top 5 Open Source Message Code (MQ) nel 2021][8]**
-  * **[Strumenti forensi digitali open source più popolari][9]**
-  * **[Licenze open source più popolari approvate][10]**
+* **[Top 5 strumenti di orchestrazione del contenitore open source per DevOps 2021][6]** 
+* **[Miglior software di archiviazione cloud e file di file open source][7]** 
+* **[Software Top 5 Open Source Message Code (MQ) nel 2021][8]** 
+* **[Strumenti forensi digitali open source più popolari][9]** 
+* **[Licenze open source più popolari approvate da Osi][10]** 
 
-  
+
+
 [1]: https://www.portainer.io/
 [2]: https://github.com/portainer/portainer
 [3]: https://rancher.com/

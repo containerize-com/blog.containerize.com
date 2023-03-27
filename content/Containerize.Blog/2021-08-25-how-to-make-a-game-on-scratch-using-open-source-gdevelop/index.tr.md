@@ -14,19 +14,21 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/gdevelop-game.png" alt="Scratch'da bir oyun nasıl yapılır">}}
 
 
-## **Genel Bakış ** 
+## **Genel Bakış** 
 Yakın geçmişte, [2021 yılında Top 5 Ücretsiz Oyun Geliştirme Yazılımı][1], [Superpowers kullanarak Oyun Gelişimine Başlamak][2], [Game Geliştirme Eğitimi | GDEVANP'DA PLAYER hareketi][3], [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi][4], [Global Oyun Endüstrisi Nasıl Açık Kaynak Yazılımdan yararlanıyor][5] ve [Yeni Başlayanlar için Gdepelple Eğitimi][6. ]. İnternet çağındaki son gelişmeler video oyun endüstrisinde yeni trendler getirdi. Açık kaynaklı bir oyun oluşturma platformu, oyunları bağımsız olarak geliştirmek için eksiksiz bir ekosistem sağlar ve geliştiriciler bu platformu ihtiyaçlara göre olgunlaştırır. Bu blog yazısında, aşağıdaki noktaları kapsayarak [Gdeelop][7] kullanarak bir oyunun çizikte nasıl yapılacağını öğreneceğiz.
-  * **[Neden Gdecop kullanmalıyız?][8] ** 
-  * **[Projenin kurulması][9] ** 
-  * **[arka plan ve nesne nasıl hazırlanır?][10] ** 
-  * **[Nesneye Behviors Ekleme][11] ** 
-  * **[oyunu çalıştırmak][12] ** 
-  * **[Sonuç][13] ** 
+* **[Neden Gdecop kullanmalıyız?][8]** 
+* **[Projenin kurulması][9]** 
+* **[arka plan ve nesne nasıl hazırlanır?][10]** 
+* **[Nesneye Behviors Ekleme][11]** 
+* **[oyunu çalıştırmak][12]** 
+* **[Sonuç][13]** 
 
-## Neden Gdecop kullanmalıyız?   {#Neden}
+## Neden Gdeelp kullanmalıyız? {#why}
+
 [GDEVER][7] açık kaynaklı bir oyun yazılımıdır. Kendi kendine barınma yetenekleri ile birlikte gelir ve doğada çapraz platformdur. İndirebilir ve yükleyebilir veya onunla oynamak için çevrimiçi sürümünü kullanabilirsiniz. Kullanıcıların bu oyun oluşturucusunu kullanmak için herhangi bir programlama bilgisi kazanmaları gerekmez. Her şeyden önce, önceden oluşturulmuş oyun davranışları, şablonları ve nesnelerle ortaya çıkan bir sürükleme ve damla kullanıcı arayüzü sunar. Bu ücretsiz oyun geliştirme yazılımı son derece yapılandırılabilir ve üçüncü taraf kütüphanelerle entegrasyonlar sunar. Bu ücretsiz araç hakkında daha fazla bilgi için, özellikleri ve kurulum süreci hakkında daha fazla bilgi edinmek için bu bağlantıyı kontrol edebilirsiniz.
 
-## Projeyi ayarlamak   {#setting}
+## Projeyi kurmak {#setting}
+
 Bu bölümde, bazı temel işlevlere sahip bir kamyon yarış oyunu oluşturmak için projemizi oluşturacağız. Bunu izleyin [bağlantı][6] Yerel makinenize kurmak istiyorsanız veya bu [bağlantı][14] 'e giderek çevrimiçi sürümü kullanabilirsiniz.
 “Yeni bir proje oluştur” u tıkladığınızda aşağıdaki ekranı bulacaksınız ve ardından “Boş Oyunu” yı tıklayın.
 
@@ -37,13 +39,15 @@ Pencerenin sol tarafındaki menü çubuğunu görebilirsiniz. Şimdi, “Sahnele
 {{< figure align=center src="images/Screenshot-2021-08-24-at-23.46.43-1024x580.png" alt="Gdeplop eğitimi">}}
 
 
-## Arka plan ve nesne nasıl hazırlanır?   {#hazırlanmak}
+## Arka plan ve nesne nasıl hazırlanır? {#prepare}
+
 Arama çubuğunda, kamyon nesnesini arayın ve çift tıklayın ve sonuçlara geldikten sonra “Oyuna Ekle” ye basın. İki tekerlek ve bir platform nesnesi için bu adımı tekrarlayın. Şimdi, Greenfloor nesnesine sağ tıklayın ve düzenleyin.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-00.07.21-1024x580.png" alt="Oyun Geliştirme Eğitimi">}}
 
 
-## nesneye behviors eklemek   {#add}
+## Nesneye Behviors eklemek {#add}
+
 Ardından, Greenfloor'u oyun ekranına sürükleyin ve bırakın ve yüksekliğini ve genişliğini dileğinize göre ayarlayın. Kamyon nesnesini sürükleyin ve oyun ekranına ve ardından tekerlek nesnelerine bırakın. İleride hareket edin, kamyon gövdesine sağ tıklayın ve “Nesne Truckbody Düzenle” ye basın, davranışları tıklayın, “Nesneye Bir Davranış Ekle” yi tıklayın ve “Fizik Motoru 2.0” ı tıklayın, aşağıdaki pencereyi göreceksiniz.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-02.54.06-1024x579.png" alt="Scratch'da bir oyun nasıl yapılır">}}
@@ -69,31 +73,34 @@ Bundan sonra, yeni bir koşul ekleyin, “tuşa basıldığını” arayın ve s
 {{< figure align=center src="images/Screenshot-2021-08-25-at-04.38.34-1024x547.png" alt="Oyun Geliştirme Eğitimi">}}
 
 
-## oyunu çalıştırmak   {#run}
+## Oyunu Koşmak {#run}
+
 Tüm adımlar tamamlandığında. Sol üst köşeye yerleştirilen düğmeye basarak oyunu çalıştırmanın zamanı geldi. Oyunu yeni pencereye başlatacak.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-05.15.59-1024x543.png" alt="Scratch'da bir oyun nasıl yapılır">}}
 
 
-## Sonuç   {#Conclusion}
-Bu blog yazısının sonu ve kesinlikle bir oyunun sıfırda nasıl yapılacağını öğrendiniz. Ancak, bu endüstri popülerlik ve talep kazandığı için piyasada birçok ücretsiz  **oyun tasarım yazılımı **  var. Arkasında açık kaynaklı yazılım ölçeklenebilir, yapılandırılabilir, uygun maliyetli ve bakımı kolay olması gibi çeşitli nedenler vardır. Buna ek olarak, geliştiriciler Android, iOS, Web ve masaüstü gibi tüm popüler platformlarda çalışan bir oyun oluşturmayı rahat buldukları için platformlar arası oyun inşaatçılarına olan talep artmaktadır. Öte yandan, pandeminin ortaya çıkışı insanların hayatlarını değiştirdi ve şimdi içeride kalmayı tercih ediyorlar. Yani, insanlar boş zamanlarında video oyunları oynama eğilimindedir.
-Son olarak, [Containerize.com][15], öğretici tabanını biraz daha ilginç  **oyun geliştirme öğreticileri **  ile geliştirecek şekilde ayarlanmıştır. Düzenli güncellemeler için lütfen bu [Oyun Geliştirme Yazılımı][16] kategorisiyle bağlantıda kalın.
+## Çözüm {#Çözüm}
+
+Bu blog yazısının sonu ve kesinlikle bir oyunun sıfırda nasıl yapılacağını öğrendiniz. Ancak, bu endüstri popülerlik ve talep kazandığı için piyasada birçok ücretsiz **oyun tasarım yazılımı** var. Arkasında açık kaynaklı yazılım ölçeklenebilir, yapılandırılabilir, uygun maliyetli ve bakımı kolay olması gibi çeşitli nedenler vardır. Buna ek olarak, geliştiriciler Android, iOS, Web ve masaüstü gibi tüm popüler platformlarda çalışan bir oyun oluşturmayı rahat buldukları için platformlar arası oyun inşaatçılarına olan talep artmaktadır. Öte yandan, pandeminin ortaya çıkışı insanların hayatlarını değiştirdi ve şimdi içeride kalmayı tercih ediyorlar. Yani, insanlar boş zamanlarında video oyunları oynama eğilimindedir.
+Son olarak, [Containerize.com][15], öğretici tabanını biraz daha ilginç **oyun geliştirme öğreticileri** ile geliştirecek şekilde ayarlanmıştır. Düzenli güncellemeler için lütfen bu [Oyun Geliştirme Yazılımı][16] kategorisiyle bağlantıda kalın.
 
 ## Keşfetmek
-  * **[Gdeelp][7] ** 
-  * **[Godot][17] ** 
-  * **[süper güçler][18] ** 
-  * **[Cocos yaratıcısı][19] ** 
-  * **[Panda3d][20] ** 
-  * **[PlayCanvas][21] ** 
-  * **[Süper güçler kullanarak oyun geliştirmeye başlamak][2] ** 
-  * **[Oyun Geliştirme Eğitimi | Gdepop'ta oyuncu hareketi][3] ** 
-  * **[Video oyunu programcıları için HTML5 Oyun Geliştirme Eğitimi][4] ** 
-  * **[Küresel Oyun Endüstrisi Nasıl Açık Kaynak Yazılımlardan yararlanıyor][5] ** 
-  * **[Yeni Başlayanlar için Oyun Gelişimine Başlamak İçin Gdepelop Eğitimi][6] ** 
-  *[ **2021 yılında ilk 5 ücretsiz oyun geliştirme yazılımı ** ][1]
+* **[Gdeelp][7]** 
+* **[Godot][17]** 
+* **[süper güçler][18]** 
+* **[Cocos yaratıcısı][19]** 
+* **[Panda3d][20]** 
+* **[Playcanvas][21]** 
+* **[Süper güçler kullanarak oyun geliştirmeye başlamak][2]** 
+* **[Oyun Geliştirme Eğitimi | Gdepop'ta oyuncu hareketi][3]** 
+* **[Video oyunu programcıları için HTML5 Oyun Geliştirme Eğitimi][4]** 
+* **[Küresel Oyun Endüstrisi Nasıl Açık Kaynak Yazılımlardan yararlanıyor][5]** 
+* **[Yeni Başlayanlar için Oyun Gelişimine Başlamak İçin Gdepelop Eğitimi][6]** 
+* [ **2021 yılında ilk 5 ücretsiz oyun geliştirme yazılımı** ][1]
 
-  
+
+
 [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
 [2]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
 [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/

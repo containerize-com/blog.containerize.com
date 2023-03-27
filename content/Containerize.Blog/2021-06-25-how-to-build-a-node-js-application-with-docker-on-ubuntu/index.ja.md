@@ -14,33 +14,36 @@ categories: ['Software Development']
 
 ## この記事では、Dockerコンテナ化を使用してNodeJSアプリケーションを構築する方法を説明します。 Dockerでは、アプリケーションをコンテナとしてパッケージ化および実行できます。
 今日は、ソフトウェア開発ツールに関する一連のチュートリアルを開始しています。また、この最初の記事では、dockerを使用してnode.jsアプリケーションをコンテナ化する方法について説明します。 Dockerは、開発者がコンテナとしてアプリケーションをパッケージ化および実行するのに役立ちます。コンテナは孤立したプロセスであり、仮想マシンの軽量な代替品であるためです。この記事では、Dockerコンテナ化を使用してNodeJSアプリケーションを構築する方法について説明します。始めましょう！
-  *[ **dockerとは何ですか** ][1]
-  ***[前提条件][2]** 
-  *[ **node.jsアプリケーションのセットアップ** ][3]
-  *[ **dockerfileを書きます** ][4]
-  *[**画像を構築し、Dockerコンテナを実行**][5]
-  *[**結論**][6]
+* [ **dockerとは** ][1]
+* **[前提条件][2]** 
+* [ **node.jsアプリケーションのセットアップ** ][3]
+* [ **dockerfileを書きます** ][4]
+* [ **画像を構築し、Dockerコンテナを実行** ][5]
+* [ **結論** ][6]
 
-## docker   {#docker}とは
+## Dockerとは何ですか {#docker}
+
 Dockerは、OSレベルの仮想化を使用してコンテナと呼ばれるパッケージでソフトウェアを配信するサービス製品としてのプラットフォームのセットです。アプリケーションを開発、出荷、および実行するためのオープンプラットフォームです。 Dockerを使用すると、アプリケーションをインフラストラクチャから分離して、ソフトウェアをすばやく配信できます。
 Dockerは、クライアントサーバーアーキテクチャを使用しています。 Dockerのクライアントは、Docker Daemonと話し合います。DockerDaemonは、Dockerコンテナの建物、走行、配布の重いものを行います。 Dockerクライアントとデーモンは、REST API、UNIXソケット、またはネットワークインターフェイスを使用して通信します。これがDockerアーキテクチャの図です。
 
 {{< figure align=center src="images/docker-architecture-1024x540.png" alt="Dockerアーキテクチャ">}}
 
 
-## Prererequisites   {#prereq}
+## 前提条件 {#prereq}
+
   * ubuntuサーバー
-  *サーバーにインストールされているDocker
+* サーバーにインストールされているDocker
   * node.js npmインストール
 
-## setup node.jsアプリケーション {#setup}
+## node.jsアプリケーションをセットアップします {#setup}
+
 画像を作成するには、最初にアプリケーションファイルを作成する必要があります。これをコンテナにコピーできます。これらのファイルには、アプリケーションの静的コンテンツ、コード、依存関係が含まれます。
 まず、非ルートユーザーのホームディレクトリにプロジェクトのディレクトリを作成します。次に、作成した新しいフォルダーで以下のコマンドを実行します。
 ```
 npm init -y
 npm i -s express
 ```
-上記のコマンドは、依存関係としてインストールされたExpressフレームワークを備えたnode.jsアプリケーションを設定します。次のコードを**app.js** ファイルに追加しましょう。
+上記のコマンドは、依存関係としてインストールされたExpressフレームワークを備えたnode.jsアプリケーションを設定します。次のコードを **app.js** ファイルに追加しましょう。
 ```
 const express = require(‘express’);
 const app = express();
@@ -52,20 +55,21 @@ app.listen(port, function () {
   console.log(‘Listening on port 3000!’)
 })
 ```
-node app.jsでアプリケーションを開始します
+ノードapp.jsでアプリケーションを開始します
 ```
 node app.js
 ```
 ブラウザをhttp：// \ _server \ _ip：3000に移動します。次のランディングページが表示されます。
 これで、アプリケーションが稼働しています。次に、このアプリケーションを再作成および拡張できるDockerFileを作成するために進むことができます。
 
-## 書き込みdockerfile   {#dockerfile}
-DockerFileを使用して、アプリケーションコンテナが実行されたときに何を含めるかとコンテナ環境を指定できます。
-まず、プロジェクトのルートに次のコマンドを備えたDockerFileを作成します。
+## dockerfileを書きます {#dockerfile}
+
+Dockerfileを使用して、アプリケーションコンテナが実行されたときに何を含めるかとコンテナ環境を指定できます。
+まず、プロジェクトのルートで次のコマンドを備えたDockerFileを作成します。
 ```
 vi Dockerfile
 ```
-次の**from** 命令を追加して、アプリケーションのベース画像を設定します。
+次の **from** 命令を追加して、アプリケーションのベース画像を設定します。
 ```
 FROM node:12-alpine
 ```
@@ -74,7 +78,7 @@ FROM node:12-alpine
     Docker画像に属していないファイルを削除するために、.dockerignoreファイルを追加できます。
 {{_LINE_46_}}
 {{_LINE_47_}}
-**node_modules**  subdirectory in /home /nodeをApp Directoryとともに作成しましょう。これにより、必要なアクセス許可が確保されます。これは、NPMインストール付きのコンテナにローカルノードモジュールを作成するときに重要になります。
+**node_modules** subdirectory in /home /nodeをApp Directoryとともに作成しましょう。これにより、必要なアクセス許可が確保されます。これは、NPMインストール付きのコンテナにローカルノードモジュールを作成するときに重要になります。
 ```
 ...
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
@@ -102,7 +106,7 @@ COPY --chown=node:node . .
 EXPOSE 3000
 CMD [ "node", "app.js" ]
 ```
-dockerfileの最終バージョンは次のようになります：
+dockerfileの最終バージョンは次のようになります。
 ```
 FROM node:12-alpine
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
@@ -115,7 +119,8 @@ EXPOSE 3000
 CMD [ "node", "app.js" ]
 ```
 
-## 画像を構築し、コンテナを実行 {#build}
+## 画像を構築し、コンテナを実行します {#build}
+
 次のコマンドを実行して、Docker画像を生成します
 ```
 docker build -t <<image_name>> .
@@ -127,13 +132,15 @@ docker run — name <<container_name>> -p 3000:3000 -d <<image_name>>
 これにより、Docker PSコマンドを実行して確認できるコンテナが起動します。ここでブラウザでhttp：// localhost：3000にアクセスすると、node.jsアプリが実行されています。しかし、今回はDockerコンテナから実行されています。
 
 ## 結論 {#conclusion}
+
 Dockerコンテナを使用した開発は非常にシンプルで簡単です。 Dockerは、開発者がコンテナとしてアプリケーションをパッケージ化および実行するのに役立ちます。このチュートリアルでは、ubuntuでdockerコンテナを使用してnode.jsアプリケーションを構築する方法を学びました。今後の記事では、Dockerのより多くの用途について執筆し、他のツールについても説明します。
 
 ## 探検
   * [ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法][7]
   * [nginxをリバースプロキシとしてセットアップして構成する方法][8]
 
-  
+
+
 [1]: #docker
 [2]: #prereq
 [3]: #setup

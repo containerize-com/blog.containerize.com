@@ -19,20 +19,23 @@ Mautic, pazarlama e -postalarınız, açılış sayfalarınız, iş akışların
   * [Mautic'te çoklu kiracılık uygulayın][3]
   * [Sonuç][4]
 
-## Multi-kiracılık nedir   {#çoklu kiracılık}
+## Çok kiracılık nedir {#multi-tenancy}
+
 Çok kiracılı yazılım mimarisinde, bir yazılım uygulamasının tek bir örneği birden fazla kiracıya hizmet eder. Her kiracı verisi, aynı başvuru örneğini paylaşan diğer kiracıdan izole edilir. Bu kiracılar mantıksal olarak izole, ancak fiziksel olarak entegre. Bu, tüm kiracılar için veri güvenliği ve gizliliği sağlar. Tek bir uygulama örneğinden birden fazla kiracı oluşturmak çok daha az bellek gerektirir. Kiracılar kaynakları paylaşır ve yazılım bakımı, altyapı ve veri merkezi operasyonları için maliyetleri azaltır. Maliyetler tek kiracı bir altyapıdan daha düşük olma eğilimindedir.
 
-## Mautic nedir   {#Mautic}
+## Mautik nedir {#mautic}
+
 [Mautic][5] ücretsiz ve açık kaynaklı bir pazarlama yazılımıdır. Mautic kullanarak pazarlama kampanyaları, olası satış üretimi, temas segmentasyonu vb. Gibi tekrarlayan pazarlama görevlerini otomatikleştirin. Kurşun üretimi, kampanya oluşturma, temas segmentasyonu, e -posta oluşturucu, A/B testi, sayfa oluşturucu, kurşun besleme ve daha fazlası gibi şaşırtıcı özelliklere sahiptir. Mautic ayrıca tüm popüler sosyal platformlarla entegrasyonu destekler; Facebook, Twitter, LinkedIn. Tüm bu inanılmaz özellikler, genel müşteri deneyimini artırmanıza ve işletmeniz için pazarlama otomasyonunu geliştirmenize yardımcı olur.
 
-## mautic   {#implement}
+## Mautic'te çoklu kiracılık uygulayın {#implement}
+
   * “Main_db” olarak adlandırılan yeni bir boş veritabanı oluşturun.
-  * Ardından, tüm kiracılarla ilgili ayrıntıları taşıyacak “Kiracı” adlı tablo oluşturun.
+  * Ardından, tüm kiracılar hakkında ayrıntılar tutacak “Kiracı” adlı tablo oluşturun.
   * Şekilde gösterildiği gibi site \ _name, url ve db \ _name dahil olmak üzere 3 alanı olacaktır.
 
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-mautic-database.png-1024x131.jpg" alt="Mautic'te çoklu kiracılık nasıl uygulanır">}}
 
-  * Bundan sonra Open Mautic/App/Paths.php dosyası ve bu kodu ekleyin:
+  * Bundan sonra açık mautic/app/paths.php dosyası ve bu kodu ekleyin:
 ```
 $host = $_SERVER["HTTP_HOST"];
 $dbName = "main_db";
@@ -48,7 +51,8 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Bundan sonra, Mautic/App/config/local.php kopyasını oluşturun ve [site_name] .php olarak yeniden adlandırın.
   * Son olarak yeni veritabanına göre veritabanı adını, ana bilgisayarını, şifresini ve kullanıcıyı güncelleyin.
 
-## Sonuç   {#Conclusion}
+## Çözüm {#conclusion}
+
 Mautic, ücretsiz, zengin özellikli ve kalite odaklı bir pazarlama otomasyon çözümüdür. Pazarlama kampanyaları, segmentler, formlar, raporlar ve çok daha fazlası oluşturmanıza olanak tanır. Mautikte çoklu kiracılığın uygulanması maliyetleri azaltır, verimliliği, ölçeklenebilirliği ve güvenliği artırır. Sadece bir kurulumdan yüzlerce kiracı oluşturun.
 
 ## Keşfetmek
@@ -59,13 +63,14 @@ Mautic ve Facebook hakkında daha fazla bilgi edinmek için lütfen şu adresi z
   * [Mautic ve WooCommerce Entegrasyonu ile Pazarlama Otomasyonu][8]
   * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre][9]
 
-  
-[1]: #multi-tenancy
-[2]: #mautic
-[3]: #implement
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
-[7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
-[8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
-[9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
+
+
+ [1]: #multi-tenancy
+ [2]: #mautic
+ [3]: #implement
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+ [7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+ [9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

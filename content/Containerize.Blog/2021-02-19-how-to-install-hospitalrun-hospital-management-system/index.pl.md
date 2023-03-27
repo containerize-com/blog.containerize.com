@@ -17,27 +17,30 @@ categories: ['Healthcare Software']
 ## Przegląd
 Niedawno opublikowaliśmy post na blogu na temat [How Online Healthcare Software upoważnia branżę opieki zdrowotnej][1], który opisuje wpływ systemu zarządzania szpitalem open source na branżę opieki zdrowotnej. Globalny przemysł oprogramowania opieki zdrowotnej uzyskuje wartość upływu czasu. Faktycznie jest to, że technologia przekształciła każde dziedzinę życia. Liczba pacjentów i członków personelu zniknęła tak wysoko, że kłopotliwe było zarządzanie tak ogromnymi danymi. Z drugiej strony istnieje wiele czasochłonnych zadań, które odbywają się każdego dnia, a podmioty opieki zdrowotnej wielokrotnie wykonują te zadania. Dlatego społeczność źródłowa typu open source opracowała oprogramowanie medyczne typu open source, które ma wiele przydatnych modułów w celu zaspokojenia potrzeb opieki zdrowotnej.
 Oprogramowanie medyczne open source jest opracowywane w celu zarządzania rejestrami pacjentów dotyczących ich historii medycznej, a także przepisów dotyczących zarządzania szpitalami. Ponadto oprogramowanie do opieki zdrowotnej open source wykorzystuje sztuczną inteligencję, aby zapewnić zaawansowane poziomy usług. Większość zabiegów chorób jest obecnie obsługiwana przez oprogramowanie, które nie tylko diagnozuje problemy, ale także zapewnia pomoc w lekarstwie. Istnieje jednak wiele nowych oprogramowania dla szpitali. W tym poście na blogu omówimy następujące punkty.
-  *[**Co to jest szpital?** ][2]
-  *[**Jakie są cechy szpitala** ][3]
-  *[**Kroki instalacyjne szpitala?** ][4]
-  *[**Wniosek** ][5]
+* [ **Co to jest szpital?** ][2]
+* [ **Jakie są cechy szpitala** ][3]
+* [ **Kroki instalacyjne szpitala?** ][4]
+* [ **Wniosek** ][5]
 
-## Co to jest szpital?   {#intro}
+## Co to jest szpital? {#intro}
+
 HospitalRun to bezpłatny system zarządzania informacjami o szpitalu typu open source. To bezpłatne rozwiązanie opieki zdrowotnej jest przyjazne dla środowiska, ponieważ użytkownicy mogą w pełni korzystać z tego bezpłatnego oprogramowania, nawet jeśli nie ma łączności internetowej. Zapewnia wiele funkcji, takich jak zarządzanie użytkownikami, rejestracje pacjentów, wizyty, system rozliczeniowy, system wypisu pacjentów i wiele innych. Interfejs użytkownika tego systemu e -zdrowia open source jest logiczna, w której użytkownicy mogą łatwo poruszać się po różnych elementach. Ponadto łatwo jest skonfigurować i oferuje obraz Docker, w którym programiści mogą go wdrożyć za pomocą obrazu Docker.
-Ten **System zarządzania szpitalem**  oferuje przepisy dotyczące integracji laboratoriów w celu scentralizowania dokumentacji medycznej pacjenta. Ponadto pozwala użytkownikom prowadzić rejestrację wizyt pacjentów, leków i ocen. Ten system rekordu eHealth jest bezpieczny, elastyczny i oferuje integrację z aplikacjami stron trzecich. Istnieje bardzo tętniąca życiem społeczność, która zapewnia wsparcie dla szpitala. Ponadto istnieje kompletny system wypisu pacjenta. To oprogramowanie medyczne open source jest całkowicie napisane w JavaScript. Ponadto dostępna jest kompleksowa dokumentacja dotycząca rozwoju i wdrażania. W rzeczywistości to oprogramowanie medyczne typu open source zapewnia różne pulpity nawigacyjne dla różnych działów, takich jak dział wsparcia, dział kliniczny i dział administracyjny. Wszystkie te role mają różne poziomy zgody i dostępu.
+Ten **System zarządzania szpitalem** oferuje przepisy dotyczące integracji laboratoriów w celu scentralizowania dokumentacji medycznej pacjenta. Ponadto pozwala użytkownikom prowadzić rejestrację wizyt pacjentów, leków i ocen. Ten system rekordu eHealth jest bezpieczny, elastyczny i oferuje integrację z aplikacjami stron trzecich. Istnieje bardzo tętniąca życiem społeczność, która zapewnia wsparcie dla szpitala. Ponadto istnieje kompletny system wypisu pacjenta. To oprogramowanie medyczne open source jest całkowicie napisane w JavaScript. Ponadto dostępna jest kompleksowa dokumentacja dotycząca rozwoju i wdrażania. W rzeczywistości to oprogramowanie medyczne typu open source zapewnia różne pulpity nawigacyjne dla różnych działów, takich jak dział wsparcia, dział kliniczny i dział administracyjny. Wszystkie te role mają różne poziomy zgody i dostępu.
 
-## Jakie są cechy szpitala?   {#cechy}
+## Jakie są cechy szpitala? {#features}
+
 W tej sekcji przejdziemy przez niektóre z poniższych kluczowych funkcji tego systemu e -Zdrowia.
-  ***Samopoziomowane** : Hospitalrun ma możliwości samowystarczające i wymaga mniej wysiłków w celu rozmieszczenia na serwerach.
-  ***Planowanie terminów** : Ten system opieki zdrowotnej pozwala użytkownikom zaplanować spotkania. Na desce rozdzielczej znajduje się kompletny moduł na spotkania. Ponadto użytkownicy mogą przeszukiwać spotkania za pomocą filtrów.
-  ***System wypisu pacjentów** : Ten system zarządzania szpitalnego utrzymuje zapis pacjentów, którzy zostali wypisani.
-  ***Zarządzanie narkotykami** : Ten system e -Zdrowia umożliwia użytkownikom rejestrowanie pełnych danych dotyczących leków konkretnego pacjenta.
-  ***Zarządzanie rekordami pacjentów** : Istnieje kompletny moduł do zarządzania rekordami pacjentów. Użytkownicy mogą rejestrować szczegóły nowych pacjentów, przyjmować pacjentów w stosunku do ich pełnej historii medycznej, takiej jak medycyna, raporty i wizyty.
-  ***Dostosowany system rozliczeń** : W tym oprogramowaniu do opieki zdrowotnej dostępny jest bogaty system rozliczeniowy. Umożliwia użytkownikom generowanie faktur i zarządzania pełnymi szczegółami, takimi jak ceny laboratoryjne, opłaty oddziałowe, ceny obrazowania i itp.
-  ***Elektroniczna dokumentacja medyczna** : To oprogramowanie medyczne typu open source zapewnia wszystkie niezbędne moduły do ​​prowadzenia dokumentacji medycznej i administracyjnej.
-  ***Elastyczne** : HospitalRun jest elastyczny i rozszerzalny, aby programiści mogli rozszerzyć swoją funkcjonalność, aby spełnić potrzebne funkcje.
+* **Samopoznany** : Hospitalrun ma możliwości samowystarczające i wymaga mniej wysiłków w celu rozmieszczenia na serwerach.
+* **Planowanie terminów** : Ten system opieki zdrowotnej pozwala użytkownikom zaplanować spotkania. Na desce rozdzielczej znajduje się kompletny moduł na spotkania. Ponadto użytkownicy mogą przeszukiwać spotkania za pomocą filtrów.
+* **System wypisu pacjenta** : Ten system zarządzania szpitalem utrzymuje zapis pacjentów, którzy zostali wypisani.
+* **Zarządzanie narkotykami** : Ten system e -Zdrowia umożliwia użytkownikom rejestrowanie pełnych danych dotyczących leków konkretnego pacjenta.
+* **Zarządzanie rekordami pacjentów** : Istnieje kompletny moduł do zarządzania rekordami pacjentów. Użytkownicy mogą rejestrować szczegóły nowych pacjentów, przyjmować pacjentów w stosunku do ich pełnej historii medycznej, takiej jak medycyna, raporty i wizyty.
+* **Dostosowany system rozliczeń** : W tym oprogramowaniu do opieki zdrowotnej dostępny jest bogaty system rozliczeniowy. Umożliwia użytkownikom generowanie faktur i zarządzania pełnymi szczegółami, takimi jak ceny laboratoryjne, opłaty oddziałowe, ceny obrazowania i itp.
+* **Elektroniczna dokumentacja medyczna** : To oprogramowanie medyczne typu open source zapewnia wszystkie niezbędne moduły do ​​prowadzenia dokumentacji medycznej i administracyjnej.
+* **Elastyczne** : HospitalRun jest elastyczny i rozszerzalny, aby programiści mogli rozszerzyć swoją funkcjonalność, aby spełnić potrzebne funkcje.
 
-## Kroki instalacji szpitala?   {#kroki}
+## Kroki instalacyjne szpitala? {#steps}
+
 W tej sekcji postu na blogu opisano etapy instalacji szpitala.
 Zanim zaczniemy, najpierw zainstaluj następujące warunki wstępne:
   * [Docker][6]
@@ -58,9 +61,10 @@ Na koniec możesz uzyskać dostęp do tego rozwiązania opieki zdrowotnej w prze
 {{< figure align=center src="images/Screenshot-2021-02-16-at-23.46.35-1024x676.png" alt="System zarządzania szpitalem">}}
 
 
-## Wniosek   {#Conclusion}
+## Wniosek {#Wniosek}
+
 To jest koniec tego samouczka. Ten system rekordów pacjentów naprawdę pomaga zautomatyzować **Usługi opieki zdrowotnej** . Nowoczesny system zarządzania szpitalem typu open source jest wyposażony w narzędzia analityczne danych, które pomagają pracownikom opieki zdrowotnej w podjęciu niezbędnych działań dla lepszych placówek opieki zdrowotnej. Ten post na blogu naprawdę pomoże ci, jeśli poważnie chcesz wdrożyć system e -Zdrowia dla swojego szpitala/kliniki. Te rozwiązania typu open source są opłacalne, ponieważ są zintegrowane z laboratoriami i innymi klinikami, a także minimalizują dokumentację poprzez komputerowe każdy proces. Rozwiązanie opieki zdrowotnej open source pozwala użytkownikom mieć wizualizacje wszystkich operacji opieki zdrowotnej, takich jak leki pacjentów, wypisanie, raporty i zarządzanie rozliczeniami. Ponadto możesz skupić się na innych ważnych zadaniach, takich jak planowanie zasobów i ocena ryzyka. Istnieje jednak wiele innych oprogramowania na poziomie przedsiębiorstw dla szpitali, które są wymienione w sekcji „Explore” poniżej.
-Ostatecznie  **** [Containerize.com][9]**** ma na celu pisanie na temat dalszych produktów typu open source. Dlatego pozostań w kontakcie z tą kategorią [Technologie opieki zdrowotnej][10] w celu uzyskania najnowszych aktualizacji.
+Ostatecznie* ***[Containerize.com][9]****ma na celu pisanie na temat dalszych produktów typu open source. Dlatego pozostań w kontakcie z tą kategorią [Technologie opieki zdrowotnej][10] w celu uzyskania najnowszych aktualizacji.
 
 ## Badać
 Możesz znaleźć istotne następujące linki:
@@ -70,13 +74,14 @@ Możesz znaleźć istotne następujące linki:
   * [Open Hospital][14]
   * [Solumsed][15]
   * [Rzeczy do przejrzenia przed wyborem oprogramowania open source w 2021 r.][16]
-  * [Funkcje eksploracji menedżera menedżera HospitalRun][17]
-  * [Top 5 Open Source Patient Record Software][18]
+  * [Zawiera eksplorację menedżera menedżera HospitalRun][17]
+  * [Top 5 Open Source Patient Record Record Record][18]
   * [Zawiera eksplorację rozwiązania medycznego OpenEMR][19]
   * [Jak skonfigurować EHealth System HospitalRun na LocalHost][20]
   * [Jak online oprogramowanie opieki zdrowotnej upoważnia branżę opieki zdrowotnej][1]
 
-  
+
+
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: #intro
 [3]: #features

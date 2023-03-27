@@ -19,13 +19,16 @@ Mautic è una soluzione di automazione del marketing gratuita e open source che 
   * [Implementa multi-tenancy in mautico][3]
   * [Conclusione][4]
 
-## Cosa è multi-tenancy   {#multi-tenancy}
+## Cos'è multi-tenancy {#multi-tenancy}
+
 Nell'architettura software multi-tenant, un'unica istanza di un'applicazione software serve più inquilini. Ogni dati degli inquilini è isolato da altri inquilini che condividono la stessa istanza dell'applicazione. Questi inquilini sono logicamente isolati, ma fisicamente integrati. Ciò garantisce la sicurezza e la privacy dei dati per tutti gli inquilini. La creazione di più inquilini da un'unica istanza dell'applicazione richiede molta meno memoria. Gli inquilini condividono le risorse e riducono i costi per la manutenzione del software, le infrastrutture e le operazioni di data center. I costi tendono ad essere inferiori a quelli di un'infrastruttura a tenant singolo.
 
-## Cosa è mautico   {#mautic}
-[Mautic][5] è un software di marketing gratuito e open source. Automatizzare le attività di marketing ripetitive come campagne di marketing, generazione di lead, segmentazione dei contatti, ecc. Utilizzando Mautic. Ha funzionalità sorprendenti tra cui generazione di lead, costruzione di campagne, segmentazione di contatto, costruttore di e -mail, test A/B, costruttore di pagine, nutrimento di lead e altro ancora. Mautic supporta anche l'integrazione con tutte le piattaforme social popolari, ad es. Facebook, Twitter, LinkedIn. Tutte queste incredibili funzionalità ti aiutano a rafforzare l'esperienza complessiva del cliente e migliorare l'automazione del marketing per la tua attività.
+## Ciò che è mautico {#mautic}
 
-## implementa multi-tenancy in mautic   {#implement}
+[Mautic][5] è un software di marketing gratuito e open source. Automatizzare le attività di marketing ripetitive come campagne di marketing, generazione di lead, segmentazione dei contatti, ecc. Utilizzando Mautic. Ha caratteristiche sorprendenti tra cui generazione di lead, costruzione di campagne, segmentazione di contatto, costruttore di e -mail, test A/B, costruttore di pagine, nutrimento di lead e altro ancora. Mautic supporta anche l'integrazione con tutte le piattaforme social popolari, ad es. Facebook, Twitter, LinkedIn. Tutte queste incredibili funzionalità ti aiutano a rafforzare l'esperienza complessiva del cliente e migliorare l'automazione del marketing per la tua attività.
+
+## Implementare il multi-tenancy in mautico {#implement}
+
   * Crea un nuovo database vuoto chiamato "Main_DB".
   * Quindi crea una tabella denominata "inquilino" che conterrà i dettagli su tutti gli inquilini.
   * Avrà 3 campi tra cui il sito \ _name, url e db \ _name come mostrato nella figura
@@ -48,7 +51,8 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Successivamente, crea una copia di mautic/app/config/local.php e rinominala in [site_name] .php.
   * Infine aggiornare il nome del database, l'host, la password e l'utente in base al nuovo database.
 
-## conclusioni   {#conclusion}
+## Conclusione {#conclusion}
+
 Mautic è una soluzione di automazione del marketing gratuita, alla preparazione e orientata alla qualità. Ti consente di creare campagne di marketing, segmenti, forme, report e molto altro. L'implementazione della multi-tenancy in Mautic riduce i costi, migliora l'efficienza, la scalabilità e la sicurezza. Crea facilmente centinaia di inquilini da una sola installazione.
 
 ## Esplorare
@@ -59,13 +63,14 @@ Per saperne di più su Mautic e Facebook, visitare:
   * [Automazione del marketing con integrazione mautica e woocommerce][8]
   * [Integrate Mautic & Joomla per l'automazione del marketing digitale][9]
 
-  
-[1]: #multi-tenancy
-[2]: #mautic
-[3]: #implement
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
-[7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
-[8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
-[9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
+
+
+ [1]: #multi-tenancy
+ [2]: #mautic
+ [3]: #implement
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+ [7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+ [9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

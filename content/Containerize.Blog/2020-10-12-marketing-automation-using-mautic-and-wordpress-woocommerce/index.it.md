@@ -14,7 +14,7 @@ categories: ['Blogging', 'Marketing Automation']
 {{< figure align=center src="images/banner-mauticWP-1200x628-1-1024x536.png" alt="Automazione del marketing utilizzando l'integrazione di WooCommerce Mautic">}}
 
 
-Panoramica ## :
+Panoramica ##:
 L'integrazione mautica-woocommerce fornisce un modo semplice per ottenere tutti i contatti nell'app mautica. Quindi utilizzando questi contatti, è possibile creare campagne di marketing in base alle tue esigenze. Mautic è un ottimo strumento di marketing che ti dà il pieno controllo sulle tue campagne di marketing.
 Mautic è una soluzione di automazione del marketing open source e gratuita. Viene utilizzato per creare campagne di marketing, segmenti, forme, report e molto altro.
 WooCommerce è un plug-in e-commerce open source per WordPress. A questo punto è la soluzione di e-commerce per lo più usata in tutto il mondo. Ci sono centinaia di componenti aggiuntivi disponibili per WooCommerce che possono essere utilizzati in base alle tue esigenze.
@@ -24,10 +24,11 @@ Questo blog coprirà le seguenti sezioni:
   * [Configurazione mautica][3]
   * [Pensieri finali][4]
 
-## Configurazione del plug -in WordPress   {#WordPress}
+## Configurazione del plug -in WordPress {#wordpress}
+
   1. Vai ai plugin.
   2. Fare clic su "Aggiungi nuovo".
-  3. Cerca “**Integrazione con Mautic per WooCommerce**“.
+  3. Cerca “  **Integrazione con Mautic per WooCommerce**  “.
   4. Una volta trovato il plugin, fai clic su "Installa ora".
   5. Dopo l'installazione, fare clic su "Attiva".
   6. Quindi andare su WooCommerce -> Mautic -> Connetti la scheda.
@@ -40,7 +41,8 @@ Questo blog coprirà le seguenti sezioni:
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Integrazione mautica e di WordPress">}}
 
 
-## configurazione mautica:   {#mautic}
+## Configurazione mautica: {#mautic}
+
   1. Dal tuo sito mautico, vai alle impostazioni.
   2. Vai alle configurazioni.
   3. Abilita API dalle impostazioni API.
@@ -60,7 +62,8 @@ Questo blog coprirà le seguenti sezioni:
 {{< figure align=center src="images/mautic-1024x622.png" alt="Passaggi di integrazione mautica e di WordPress">}}
 
 
-## pensieri finali:   {#final}
+## Pensieri finali: {#final}
+
 L'integrazione mautica-woocommerce può aiutarti a raggiungere i tuoi obiettivi di marketing. Questa integrazione è una delle migliori soluzione per l'automazione del marketing di eCommerce. Con WordPress puoi facilmente ottenere molti clienti e quindi con Mautic puoi creare campagne illimitate per indirizzare tali clienti e tenerli aggiornati riguardo ai tuoi prodotti/servizi, il che vanta sicuramente le vendite.
 
 ## Esplorare:
@@ -72,7 +75,8 @@ Potresti trovare i seguenti link pertinenti:
   * [Automazione del marketing utilizzando Mautic e WordPress WooCommerce][10]
   * [Come impostare campagne di marketing in Mautic][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

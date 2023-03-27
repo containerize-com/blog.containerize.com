@@ -1,19 +1,19 @@
 ---
 title: "Bitwarden vs passbolt - różnice, które powinieneś wiedzieć" 
 seoTitle: "Bitwarden vs passbolt - różnice, które powinieneś wiedzieć" 
-description: "Zarówno Bitwarden, jak i PassBolt to aplikacje Manager Hasło open source zbudowane dla zespołów. Ten artykuł pomoże ci zdecydować, który z nich lepiej Ci odpowiada." 
+description: "Zarówno Bitwarden, jak i PassBolt to aplikacje Manager Hasła open source zbudowane dla zespołów. Ten artykuł pomoże ci zdecydować, który z nich lepiej Ci odpowiada." 
 date: Sat, 17 Apr 2021 14:24:13 +0000
 author: bilalahmed
-summary: "Zarówno Bitwarden, jak i PassBolt są menedżerami haseł typu open source, specjalnie zbudowanym dla zespołów. Ten artykuł pomoże ci zdecydować, który z nich lepiej Ci odpowiada." 
+summary: "Zarówno Bitwarden, jak i Passbolt są menedżerami haseł typu open source, specjalnie zbudowanym dla zespołów. Ten artykuł pomoże ci zdecydować, który z nich lepiej Ci odpowiada." 
 url: /pl/uncategorized/bitwarden-vs-passbolt-differences-you-should-know/
 categories: ['Uncategorized']
 ---
 
-## zarówno Bitwarden, jak i PassBolt są menedżerami haseł typu open source specjalnie zbudowanych dla zespołów. Ten artykuł pomoże ci zdecydować, który z nich lepiej Ci odpowiada.
+## Zarówno Bitwarden, jak i PassBolt są menedżerami haseł typu open source specjalnie zbudowanych dla zespołów. Ten artykuł pomoże ci zdecydować, który z nich lepiej Ci odpowiada.
 
 {{< figure align=center src="images/bitwarden.png" alt="Menedżerowie haseł typu open source | Bitwarden vs Passbolt|Menedżerowie haseł typu open source | Bitwarden vs Passbolt">}}
 
-Jeśli chodzi o znalezienie menedżera haseł, który nie tylko działa do indywidualnego użytku, ale pozwala zespołom i przedsiębiorstwom lepiej zarządzać informacjami poufnymi i dostępnymi, znalezienie odpowiedniego menedżera haseł może pomóc w złagodzeniu przepływu pracy. Bitwarden i PassBolt to oprogramowanie Manager Hasło Open Source, które zostały specjalnie zaprojektowane dla zespołów i pozwalają firmom hostować aplikacje lokalnie lub w chmurze. W tym poście omówimy następujące tematy, aby porównać Bitwardeen vs Passbolt:
+Jeśli chodzi o znalezienie menedżera haseł, który nie tylko działa do indywidualnego użytku, ale pozwala zespołom i przedsiębiorstwom lepiej zarządzać informacjami poufnymi i dostępnymi, znalezienie odpowiedniego menedżera haseł może pomóc w złagodzeniu przepływu pracy. Bitwarden i PassBolt to oprogramowanie Manager Hasło Open Source, które zostały specjalnie zaprojektowane dla zespołów i pozwalają firmom hostować aplikacje lokalnie lub w chmurze. W tym poście omówimy następujące tematy, aby porównać Bitwarden vs Passbolt:
   * [Co to jest Bitwarden?][1]
   * [Co to jest passbolt?][2]
   * [Główne różnice][3]
@@ -44,11 +44,11 @@ Zarówno Bitwarden, jak i Passbolt zapewniają wiele funkcji i funkcjonalności 
     Tylko PassBolt zapewnia użytkownikom i funkcję zarządzania grupami w swoim bezpłatnym pakiecie, co ułatwia zespołom kategoryzację i zapewnienie hierarchii do dostępu do haseł. Bitwarden ma te funkcje, ale będziesz musiał kupić plan organizacji zespołu.
 {{_LINE_38_}}
 {{_LINE_39_}}
-    PassBolt ma otwarty interfejs API, do którego można uzyskać dostęp do celów programistycznych, ale API Bitwarde można uzyskać tylko w pakiecie premium.
+    PassBolt ma otwarty interfejs API, do którego można uzyskać dostęp do celów rozwoju, ale API Bitwarde można uzyskać jedynie w pakiecie premium.
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **Wniosek**
+## **Wniosek** 
 W tym poście staraliśmy się szczegółowo porównać Bitwarden vs Passbolt. Omówiliśmy główne różnice między dwoma menedżerami haseł typu open source i które zapewniają najwięcej funkcji jako bezpłatny, łatwy w użyciu menedżer haseł typu open source dla zespołów.
 
 ## Badać
@@ -57,7 +57,8 @@ Możesz znaleźć istotne następujące linki:
 [Passbolt | Bezpłatny, open source i samozwańczy menedżer haseł][6]
 [Konfiguruj i zarządzaj menedżerem haseł Keepass dla systemu Windows][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

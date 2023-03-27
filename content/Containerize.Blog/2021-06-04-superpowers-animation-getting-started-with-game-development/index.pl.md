@@ -14,24 +14,26 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/super.png" alt="Rozpoczęcie rozwoju gry">}}
 
 
-## **Przegląd**
-W naszej serii tworzenia gier typu open source opublikowaliśmy posty na blogu na niektóre popularne tematy, takie jak [samouczek rozwoju gier | Ruch Player in Gdeveloper][1], [samouczek rozwoju gry HTML5 dla programistów gier wideo][2], [Jak globalny przemysł gier wykorzystuje oprogramowanie typu open source][3] oraz [samouczek Gdeveloper dla początkujących, aby rozpocząć rozwój gry][4 ]. Ten artykuł samouczka polega na rozpoczęciu rozwoju gry za pomocą bezpłatnych open source [supermocarstwa][5] poprzez obejmowanie następujących punktów.
-  * **[Rodzaje animacji gier][6]**
-  * **[Jak tworzyć duszki?][7]**
-  * **[Praca ze scenami][8]**
-  * **[Uruchomienie gry na LocalHost][9]**
-  * **[wniosek][10]**
+## **Przegląd** 
+W naszej serii tworzenia gier typu open source opublikowaliśmy posty na blogu na niektóre popularne tematy, takie jak [samouczek rozwoju gier | Ruch Player in Gdeveloper][1], [samouczek rozwoju gry HTML5 dla programistów gier wideo][2], [Jak globalny przemysł gier wykorzystuje oprogramowanie typu open source][3] oraz [samouczek Gdeveloper dla początkujących do rozpoczęcia rozwoju gry][4 ]. Ten artykuł samouczka polega na rozpoczęciu rozwoju gry za pomocą bezpłatnych open source [supermocarstwa][5] poprzez obejmowanie następujących punktów.
+* **[Rodzaje animacji gier][6]** 
+* **[Jak tworzyć duszki?][7]** 
+* **[Praca ze scenami][8]** 
+* **[Uruchomienie gry na LocalHost][9]** 
+* **[wniosek][10]** 
 Dla początkujących dostępnych jest wiele oprogramowania do rozwoju gier open source, które mają możliwości samowystarczające. Jednak [supermocarstwa][5] to oprogramowanie do tworzenia gier 2D i 3D. Zapewnia wbudowane biblioteki i przykłady gier, które ułatwiają tworzenie gier dla twórców gier. Ta bezpłatna aplikacja do projektowania gier jest zapisana w TypeScript, a cała dokumentacja jest dostępna w [Github][11] w odniesieniu do rozwoju i wdrażania. W tym poście na blogu zbadamy supermocarstwa dotyczące ich użycia.
 
-## Rodzaje animacji gier   {#Types}
-Animacje są istotną częścią gier wideo. Postacie w grach muszą reagować na działania użytkownika, animacja powinna być płynna i nagła. Chodzi o zarządzanie wieloma ramkami, a animatorzy potrafią nadają się do tworzenia efektów ruchomych. Ponadto istnieją animacje 2D i 3D, w których obiekty wydają się poruszać przez trójwymiarową przestrzeń. Twórcy gier i graficy tworzą modele 3D. Animacje zależą od charakteru gry, a najczęstsze typy są następujące.
-**Animacja chodzenia: ** Animacja spaceru dotyczy tworzenia procesu spaceru, w którym postacie animują każdy krok i podają ilustracje chodzące.
-**Animacja bezczynna: ** Jest to bardzo ważny rodzaj animacji, w której postać nic nie robi, ponieważ użytkownik nie naciska żadnego kontrolera.
-**Uruchom animację **: Run Animation jest częścią każdej gry, w której obiekt gry wykonuje cykl uruchamiania. Ten typ jest najczęstszym typem i wymaga większej uwagi dewelopera.
-**Walka animacja **: W grach walki wiele postaci z gier walczy ze sobą.
-**Animacja skoku **: Ten rodzaj animacji wymaga lepszych umiejętności i wiedzy specjalistycznej. Postać kompresuje i uwalnia ciało, aby wykonać ilustrację skoków.
+## Rodzaje animacji gier {#types}
 
-## Jak tworzyć duszki?   {#sprites}
+Animacje są istotną częścią gier wideo. Postacie w grach muszą reagować na działania użytkownika, animacja powinna być płynna i nagła. Chodzi o zarządzanie wieloma ramkami, a animatorzy potrafią nadają się do tworzenia efektów ruchomych. Ponadto istnieją animacje 2D i 3D, w których obiekty wydają się poruszać przez trójwymiarową przestrzeń. Twórcy gier i graficy tworzą modele 3D. Animacje zależą od charakteru gry, a najczęstsze typy są następujące.
+**Animacja chodzenia:**  Animacja spaceru dotyczy tworzenia procesu spaceru, w którym postacie animują każdy krok i podają ilustracje chodzące.
+**Animacja bezczynna:**  Jest to bardzo ważny rodzaj animacji, w której postać nic nie robi, ponieważ użytkownik nie naciska żadnego kontrolera.
+**Uruchom animację** : Run Animation jest częścią każdej gry, w której obiekt gry wykonuje cykl uruchamiania. Ten typ jest najczęstszym typem i wymaga większej uwagi dewelopera.
+**Walka animacja** : W grach walki wiele postaci z gier walczy ze sobą.
+**Animacja skoku** : Ten rodzaj animacji wymaga lepszych umiejętności i wiedzy specjalistycznej. Postać kompresuje i uwalnia ciało, aby wykonać ilustrację skoków.
+
+## Jak tworzyć duszki? {#sprites}
+
 Ta sekcja przewodnika do tworzenia gier pozwala użytkownikom tworzyć projekty i rozpocząć tworzenie duszek do gry. Duszki to nietatyczne obrazy lub grafika, które są używane nie tylko w grach, ale także częścią projektowania stron internetowych. Są one zwykle rysowane na tle, które jest stale odświeżane.
 Przed przejściem upewnij się, że skonfigurowałeś supermocarstwa na swoim komputerze. Możesz skorzystać z tego linku [samouczek rozwoju gry HTML5 dla programistów gier wideo][2], aby skonfigurować tę bezpłatną platformę tworzenia gier.
 Najpierw otwórz aplikację do przeglądarki i stwórzmy nowy pusty projekt. Jak pokazano na poniższym obrazku.
@@ -52,7 +54,8 @@ Następnie stwórzmy animacje. Możemy to zrobić, klikając przycisk „Nowy”
 {{< figure align=center src="images/Screenshot-2021-06-04-at-13.12.21-1024x578.png" alt="Oprogramowanie do rozwoju gier dla początkujących">}}
 
 
-## Praca ze scenami   {#SCenes}
+## Praca ze scenami {#scenes}
+
 W tej sekcji dodamy scenę do naszej gry. W tym celu ponownie otwórz okno dialogowe Zasoby i wybierz „Scena” i naciśnij przycisk Utwórz. Teraz utwórz aktora, klikając przycisk gwiazdy dostępny w prawym górnym rogu, jak pokazano na poniższym obrazku.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-14.07.34-1024x580.png" alt="Jak zrobić grę z zadrapaniem dla początkujących">}}
@@ -64,7 +67,8 @@ Możesz zmienić tryb aparatu, aby zmienić go w tryb „ortograficzny”, jak p
 
 W lewym dolnym rogu przejdź do opcji Ustawienia i otwórz ją. W sekcjach „Sprite” i „mapa płytek” wstawiaj 16 przeciwko „Pixel na jednostkę”. Następnie w „Domyślnym trybie kamery” wybierz 2d w sekcji „Scena”. Ponadto, w sekcji „Mapa płytek”, domyślna szerokość 36, domyślna wysokość 28 i zestaw kafelków rozmiar 16. Nie ma potrzeby jej zapisywania, raczej wszystko jest na autosavie.
 
-## Wprowadzenie gry na LocalHost   {#local}
+## Uruchomienie gry na LocalHost {#local}
+
 Jesteśmy więc bliscy wprowadzenia animacji supermocarni naszej pierwszej gry. Jednak ponownie przejdź do zakładki Ustawienia i przeciągnij scenę z lewego panelu bocznego i upuść ją do „Sceny Startup”, jak pokazano na poniższym zdjęciu.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.29.34-1024x578.png" alt="Jak zrobić grę z zadrapaniem dla początkujących">}}
@@ -74,8 +78,9 @@ Teraz kliknij „Player” i pod komponentem „Sprite Renderer” wybierz Anima
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.42.14-1024x576.png" alt="Rozpoczęcie rozwoju gry">}}
 
 
-## Wniosek   {#Conclusion}
-To koniec samouczka, w którym nauczyliśmy się, jak zrobić grę dla początkujących. Dlatego rozpoczęcie rozwoju gier staje się łatwe, gdy dostępna jest szczegółowa dokumentacja oprogramowania do tworzenia gier. Wreszcie [**Containerize.com** ][12] jest w spójnym procesie pisania artykułów na dalsze tematy i produkty open source. Dlatego prosimy o kontakt z tą kategorią [oprogramowania do rozwoju gier][13] w celu regularnych aktualizacji.
+## Wniosek {#Wniosek}
+
+To koniec samouczka, w którym nauczyliśmy się, jak zrobić grę dla początkujących. Dlatego rozpoczęcie rozwoju gier staje się łatwe, gdy dostępna jest szczegółowa dokumentacja oprogramowania do tworzenia gier. Wreszcie [ **Containerize.com** ][12] jest w spójnym procesie pisania artykułów na dalsze tematy i produkty open source. Dlatego prosimy o kontakt z tą kategorią [oprogramowania do rozwoju gier][13] w celu regularnych aktualizacji.
 
 ## Badać
   * [Gdevelop][14]
@@ -85,7 +90,8 @@ To koniec samouczka, w którym nauczyliśmy się, jak zrobić grę dla początku
   * [Panda3d][17]
   * [PlayCanvas][18]
 
-  
+
+
 [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
 [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/

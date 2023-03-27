@@ -23,13 +23,14 @@ W tym artykule omówimy następujące narzędzia DBMS open source:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpMyAdmin   {#phpMyAdmin}
+## phpMyAdmin {#phpmyadmin}
+
 PhpMyAdmin jest wbudowanym komponentem z serwerami WWW XAMPP i WAMPP. Obecnie PhpMyAdmin to najczęściej używane oprogramowanie do zarządzania bazą danych. Deweloperzy mogą zarządzać informacjami, tabelami, kolumnami, relacjami, referencjami, użytkownikami i uprawnieniami itp. Za pośrednictwem interfejsu. Ponadto służy do wykonywania większości zadań administracyjnych, w tym tworzenia bazy danych, uruchamiania zapytań i dodawania kont użytkowników. Ten system zarządzania bazą danych jest napisany w PHP wraz z wejściem z innych języków, takich jak JavaScript i SCSS. Dlatego dostępna jest cała dokumentacja dotycząca rozwoju i wdrażania. To są kilka wyróżniających się funkcji phpMyAdmin:
   * Łatwy w użyciu interfejsu internetowego.
   * Wiele obsługi funkcji MySQL.
   * Przeglądaj informacje, takie jak bazy danych, tabele, wiersze, kolumny itp.
   * Utwórz, kopiuj, odrzucaj, zmień nazwę i modyfikuj bazy danych, tabele i nazwy kolumn.
-  * Utwórz, edytuj i zaznacz zakładki dla dowolnych instrukcji SQL lub zapytaniach wsadowych.
+  * Utwórz, edytuj i oznacz zakładki dla dowolnych instrukcji SQL lub zapytaniach wsadowych.
 [Czytaj więcej][9]
 
 ## administrator
@@ -65,7 +66,7 @@ Główne cechy Cubrid obejmują udostępnianie danych, wysokowydajne buforowanie
 HeidisQL zapewnia interfejs graficzny do zarządzania serwerami MariaDB lub MySQL, baz danych Microsoft SQL, PostgreSQL lub SQLite. „Heidi” pozwala przeglądać i edytować dane, tworzyć i edytować tabele, widoki, procedury, wyzwalacze i zaplanowane zdarzenia. Ponadto ten system zarządzania bazą danych jest bezpłatny, open source, przenośny i lekki, a także ma świetny GUI i łatwość użytkowania.
   * Bezpłatnie dla wszystkich, open source.
   * Połącz się z wieloma serwerami w jednym oknie.
-  * Obsługiwane systemy bazy danych: MariaDB, MySQL, MS SQL, Postgresql i SQLite.
+  * Obsługiwane systemy bazy danych: Mariadb, MySQL, MS SQL, PostgreSQL i SQLite.
   * Połącz się z wieloma serwerami w jednym oknie.
   * Połącz z serwerami za pomocą wiersza poleceń.
 [Czytaj więcej][13]
@@ -78,12 +79,13 @@ Wreszcie [Containerize.com][14] ciągle pisze posty na blogu na temat dalszych p
 Aby dowiedzieć się więcej o wyżej wymienionych narzędziach do zarządzania bazą danych, sprawdź te strony produktów:
   * [Najlepsze narzędzia do zarządzania bazą danych open source][1]
   * [Najlepsze systemy zarządzania bazą danych open source][19]
-  * [Zarządzaj bazami danych z narzędziem do zarządzania bazą danych administratorów][20]
+  * [Zarządzaj bazami danych z narzędziem zarządzania bazą danych administratorów][20]
   * [Przewodnik dla początkujących po bazie danych w pamięci Redis][21]
   * [Dlaczego MySQL jest popularnym systemem zarządzania bazą danych typu open source?][2]
   * [Kafka vs Redis Pub-Sub, różnice, które powinieneś wiedzieć][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

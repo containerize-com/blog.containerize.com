@@ -14,15 +14,17 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginx-post.png" alt="Monitoruj serwer WWW Nginx za pomocą Nginx wzmacnia">}}
 
 
-## Przegląd   {#install}
-**Monitorowanie serwera WWW **jest bardzo ważne dla stron internetowych o wysokim ruchu.  **Agent Monitoring**   regularnie rejestruje niezbędne wskaźniki dotyczące serwera WWW. Te krytyczne wskaźniki można wykorzystać do optymalizacji konfiguracji Nginx. Pomoże ci to poprawić wydajność Twojego serwera internetowego i aplikacji.
-W tym poście na blogu omówimy następujące sekcje dla **Nginx Monitoring**  Narzędzie open source.
+## Przegląd {#Install}
+
+**Monitorowanie serwera WWW**jest bardzo ważne dla stron internetowych o wysokim ruchu.** Agent Monitoring**regularnie rejestruje niezbędne wskaźniki dotyczące serwera WWW. Te krytyczne wskaźniki można wykorzystać do optymalizacji konfiguracji Nginx. Pomoże ci to poprawić wydajność Twojego serwera internetowego i aplikacji.
+W tym poście na blogu omówimy następujące sekcje dla **Nginx Monitoring** Narzędzie open source.
   * [Nginx Web Server][1]
   * [Nginx amplify][2]
   * [Zainstaluj nginx amplify][3]
   * [Monitorowanie wskaźników][4]
 
-## Nginx Web Server   {#nginx}
+## Serwer WWW Nginx {#Nginx}
+
 [Nginx][5] to bezpłatny i open source serwer WWW. Jest to proste, lekkie i łatwe do skonfigurowania niż Apache. Serwer WWW Nginx działa również jako odwrotny proxy, równoważenie obciążenia, proxy poczty i pamięć podręczna HTTP. Działa dla protokołów HTTP, HTTPS, SMTP, POP3 i IMAP. Nginx jest szybkim, niezawodnym i oszczędnym serwerem WWW, który poprawia wydajność twoich aplikacji. Ponadto zyskał popularność i jest obecnie uważany za najpopularniejszy serwer WWW. Ponadto Nginx jest odpowiedni dla każdego rodzaju witryny, w tym witryn i aplikacji o wysokim ruchu. Można go zainstalować i skonfigurować w prawie wszystkich systemach operacyjnych.
 
 ### Zainstaluj Nginx
@@ -36,18 +38,20 @@ sudo apt install nginx
 {{< figure align=center src="images/nginx-home.png" alt="Witamy w Nginx!">}}
 
 
-## nginx amplify   {#Amplify}
-Nginx Amplify to bezpłatne narzędzie monitorujące dla Nginx Open Source, Nginx Plus i PHP-FPM. Jest to narzędzie oparte na SaaS do monitorowania i aplikacji serwera Nginx. Użytkownicy mogą łatwo śledzić zasoby infrastrukturalne, monitorować wydajność i dostosować konfigurację. Daje kompleksowe informacje, które użytkownicy mogą wykorzystywać do optymalizacji konfiguracji serwera WWW i aplikacji. Działa jako agent na serwerze, który hostuje aplikacje Nginx i PHP. Nginx Amplify to lekka, push dzienników i monitorowanie danych w celu wzmocnienia serwerów bez narażania wydajności. Możesz wyświetlić wskaźniki na desce rozdzielczej Amplify. Agent jest dostępny dla wszystkich podstawowych systemów operacyjnych, takich jak Rhel, Centos, Ubuntu, Debian, Fedora i FreeBSD. NGINX Amplify ma trzy główne komponenty, takie jak Agent wzmacniający Nginx, interfejs internetowy Nginx Amplify Web i nginx Amplify Backend.
-  ***Nginx wzmacniają agent**  - Działa w monitorowanym systemie. Cała komunikacja jest szyfrowana za pomocą SSL/TLS.
-  ***Nginx wzmacniają interfejs internetowy**  - interfejs internetowy pokazuje wskaźniki serwerów internetowych, aplikacji i systemów operacyjnych.
-  ***Nginx wzmacniacz backend**  - Jest to kluczowy komponent, który jest zaimplementowany jako SaaS i jest odpowiedzialny za zbieranie wskaźników, utrzymanie bazy danych, uruchamianie silnika analitycznego i zapewnienie podstawowego interfejsu API.
+## Nginx wzmacniają {#Amplify}
 
-## Zainstaluj nginx amplify   {#Install}
+Nginx Amplify to bezpłatne narzędzie monitorujące dla Nginx Open Source, Nginx Plus i PHP-FPM. Jest to narzędzie oparte na SaaS do monitorowania i aplikacji serwera Nginx. Użytkownicy mogą łatwo śledzić zasoby infrastrukturalne, monitorować wydajność i dostosować konfigurację. Daje kompleksowe informacje, które użytkownicy mogą wykorzystywać do optymalizacji konfiguracji serwera WWW i aplikacji. Działa jako agent na serwerze, który hostuje aplikacje Nginx i PHP. Nginx Amplify to lekka, push dzienników i monitorowanie danych w celu wzmocnienia serwerów bez narażania wydajności. Możesz wyświetlić wskaźniki na desce rozdzielczej Amplify. Agent jest dostępny dla wszystkich podstawowych systemów operacyjnych, takich jak Rhel, Centos, Ubuntu, Debian, Fedora i FreeBSD. NGINX Amplify ma trzy główne komponenty, takie jak Agent wzmacniający Nginx, interfejs internetowy Nginx Amplify Web i nginx Amplify Backend.
+* **Nginx wzmacniają agent** - Działa w monitorowanym systemie. Cała komunikacja jest szyfrowana za pomocą SSL/TLS.
+* **Nginx wzmacniają interfejs internetowy** - interfejs internetowy pokazuje wskaźniki serwerów internetowych, aplikacji i systemów operacyjnych.
+* **Nginx wzmacniają backend** - Jest to kluczowy element zaimplementowany jako SaaS i jest odpowiedzialny za zbieranie wskaźników, utrzymanie bazy danych, uruchamianie silnika analitycznego i zapewnienie podstawowego interfejsu API.
+
+## Zainstaluj Nginx Amplify {#Install}
+
 Postępuj poniżej Przewodnik krok po kroku, aby zainstalować Nginx Amplify na Ubuntu.
   * Po pierwsze, musisz utworzyć konto na Nginx [strona internetowa][6].
   * Po zalogowaniu zobaczysz poniżej ekran na stronie Nginx Amplify. Teraz połącz się z serwerem za pośrednictwem SSH i użyj poleceń podanych w poniższych krokach.
 
-{{< figure align=center src="images/amplify-1.png" alt="Zainstaluj nginx amplify">}}
+{{< figure align=center src="images/amplify-1.png" alt="Zainstaluj Nginx Amplify">}}
 
   * Uruchom poniższe polecenie, aby pobrać agenta.
 ```
@@ -61,7 +65,7 @@ $ API_KEY='XXXXXXXX' sh ./install.sh
 ```
 $ sudo service amplify-agent status
 ```
-  * Teraz musisz skonfigurować agenta Nginx wzmacniających, aby wyświetlić wskaźniki.
+  * Teraz musisz skonfigurować agenta Nginx wzmacniacz, aby wyświetlić metryki.
 
 {{< figure align=center src="images/amplify-2-1.png" alt="Konfiguracja monitorowania Nginx">}}
 
@@ -103,19 +107,20 @@ $ sudo service nginx restart
 
 {{< figure align=center src="images/amplify-after-finish-1024x503.png" alt="Monitorowanie serwera WWW">}}
 
-  *Możesz zobaczyć statystyki w łatwiejszym i czytelnym formacie, klikając na karcie **przegląd** . Będzie wyglądać jak pokazano poniżej.
+* Możesz zobaczyć statystyki w łatwiejszym i czytelnym formacie, klikając na karcie **przegląd** . Będzie wyglądać jak pokazano poniżej.
 
 {{< figure align=center src="images/amplify-overview.png" alt="Statystyki monitorowania Nginx">}}
 
 
-## Monitorowanie wskaźników   {#monitoring}
+## Monitorowanie wskaźników {#Monitoring}
+
 Nginx wzmacniają agent zbiera następujące typy danych:
-  ***Metryki Nginx** -Zbiera różne wskaźniki związane z NGINX z plików Stub_Status, Logs i ze stanu procesu.
-  ***Metryki systemowe**  - Nginx wzmacnia monitoruje różne wskaźniki systemowe, takie jak użycie procesora, zużycie pamięci, ruch sieciowy i wiele innych.
-  ***Metryki PHP-FPM** -Jeśli identyfikuje działający proces główny PHP-FPM, otrzymuje wskaźniki ze stanu puli puli PHP-FPM.
-  ***MySQL Metryki**  - Globalny zestaw zmiennych MySQL może być używany przez agenta do zbierania wskaźników.
-  ***Nginx Metadata**  - agent gromadzi dane o instancjach Nginx, takich jak dane pakietu, informacje o kompilacji, ścieżka binarna, ustawienia konfiguracji kompilacji i wiele innych.
-  ***Metadane systemowe**  - Agent zbiera dane w systemie operacyjnym, w tym nazwa hosta, czas uptaksu, smaku systemu operacyjnego i innych szczegółów.
+* **Metryki Nginx** -Zbiera różne wskaźniki związane z Nginx z plików Stub_Status, Logs i ze stanu procesu.
+* **Metryki systemowe** - Nginx wzmacnia monitoruje różne wskaźniki systemowe, takie jak użycie procesora, zużycie pamięci, ruch sieciowy i wiele innych.
+* **Metryki PHP-FPM** -Jeśli identyfikuje działający proces główny PHP-FPM, otrzymuje wskaźniki ze stanu puli puli PHP-FPM.
+* **MySQL Metrycs** - MySQL Global Status Zestaw zmiennych może być używany przez agenta do zbierania wskaźników.
+* **Nginx Metadata** - agent gromadzi dane o instancjach Nginx, takich jak dane pakietu, informacje o kompilacji, ścieżka binarna, ustawienia konfiguracji kompilacji i wiele innych.
+* **Metadane systemowe** - Agent zbiera dane w systemie operacyjnym, w tym nazwa hosta, czas uptaksu, smaku systemu operacyjnego i innych szczegółów.
 
 ## Wniosek
 Szczegółowo omówiliśmy serwer WWW Nginx i Nginx wzmacniają zaawansowany agent monitorowania. Nginx Amplify jest dość prosty w konfiguracji i konfiguracji. Ponadto przeszliśmy przez które krytyczne wskaźniki Nginx wzmocnienie może śledzić **monitorowanie nginx** . Te ważne wskaźniki można wykorzystać do poprawy konfiguracji serwera WWW i aplikacji Nginx.
@@ -126,7 +131,8 @@ Możesz znaleźć istotne następujące linki:
   * [Jak używać Nginx jako równoważenia obciążenia do aplikacji][9]
   * [Jak skonfigurować i skonfigurować Nginx jako odwrotną proxy][10]
 
-  
+
+
 [1]: #Nginx
 [2]: #Amplify
 [3]: #Install

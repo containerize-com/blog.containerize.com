@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="So installieren Sie PyDio -Dateifreigabe und Synchronisationsplattform auf Ubuntu">}}
 
 
-## **Überblick**
+##  **Überblick**  
 Pydio Cells ist eine Open -Source -Datei -Sharing- und Synchronisierungssoftware. Es bietet einen einzelnen Zugriff auf alle Ihre Datenspeicher und ist eine Alternative zu OwnCloud und Nextcloud, die Speicherdienste, Dateifreigabe und Synchronisierung anbieten. Pydio ist eine Enterprise Open Source -Datei -Sharing -Plattform ähnlich wie bei Dropbox und anderen Speicherplattformen. Es hilft Ihnen, alle Dateien und Geräte in einer Plattform sicher zu verbinden.
 Pydio Cells ist eine Cloud-basierte Dateien, die Synchronisierungs- und Zusammenarbeitsplattform für die Kollaboration ist. Diese Open -Source -Software wird auf Ihrer persönlichen IT -Infrastruktur ausgeführt und hilft Ihren Mitarbeitern beim Schutz und Überwachung Ihrer Geschäftsdaten. Sie können Ihre Daten mithilfe einer mobilen App, einer Desktop -Software oder einem Webbrowser mithilfe von Pydio -Zellen aus überall auf sie zugreifen. Die beste App-App-App Pydio Cells basiert auf einer Mikro-Service-Architektur und wird unter Verwendung der Golang-Programmiersprache geschrieben.
 Dieses Tutorial hilft Ihnen bei der Installation und Konfiguration von Pydio -Self -Hosted -Dateifreigabe -Software und Synchronisierungsplattform auf Ubuntu LTS -Systemen.
@@ -39,23 +39,23 @@ sudo reboot
 ## Schritt 2: Lampenerserver installieren
 Um Pydio Secure Enterprise Datei Sharing -Server und das Erstellen einer privaten Open -Source -Cloud zu erstellen, müssen wir zunächst einen laufenden Lampenserver einrichten. Wenn Sie bereits einen Lampenstapel installiert und ausgeführt haben, überspringen Sie diesen Schritt an. Verwenden Sie die folgenden Befehle, um die Lampe auf Ihrem Ubuntu -System einzurichten.
 
-## # PHP installieren
+### PHP installieren
 Sie können PHP auf Ihrem Ubuntu- oder Debian -System installieren, indem Sie Befehle ausführen:
 sudo apt-get installieren Sie Python-Software-Properties
 sudo add-apt-Repository PPA: Ondrej/PHP
 sudo APT-Get-Installation -y-php-GD-php-curl php-zip php-dom php-xml php-Simplexml php-mbstring
 {{_LINE_34_}}
 
-## # apache2 installieren
+### apache2 installieren
 Apache ist die am häufigsten verwendete Open-Source-Webserversoftware. Installieren Sie als Nächstes den Apache -Webserver auf Ubuntu, indem Sie ausführen:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # Installieren Sie MySQL
+### Installieren Sie MySQL
 MySQL Open-Source Relational Database Management System ist ein Bestandteil des LAMP-Webanwendungssoftware-Stacks und anderer. Installieren Sie nun MySQL auf Ubuntu, indem Sie unten ausgeführt werden:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Sobald die Installation abgeschlossen ist, öffnen Sie **php.ini**  Konfigurationsdatei zum Bearbeiten. Verwenden Sie Ihren bevorzugten Datei -Editor.
+Sobald die Installation abgeschlossen ist, öffnen Sie  **php.ini**  Konfigurationsdatei zum Bearbeiten. Verwenden Sie Ihren bevorzugten Datei -Editor.
 Nehmen Sie Änderungen an der unten stehenden Php.ini -Datei vor. Öffnen Sie zwei Dateien und nehmen Sie die Änderungen wie gezeigt vor
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -88,7 +88,7 @@ Es ist jetzt an der Zeit, Pydio EFSS und Dokumentheilungssoftware zu installiere
 ```
 sudo apt install -y pydio pydio-all
 ```
-Aktivieren Sie das Apache -Umschreiben mit den folgenden Befehlen und neu starten Sie sie neu und aktivieren Sie Apache2
+Aktivieren Sie das Apache -Umschreiben mit den folgenden Befehlen und neu starten Sie sie neu und aktivieren Sie Apache2 neu
 ```
 sudo a2enmod rewrite
 sudo systemctl restart apache2
@@ -118,27 +118,27 @@ Pydio private Cloud -Dateifreigabe und Geschäftsdatei -Software für die Freiga
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Pydio Installer">}}
 
-Bestätigen Sie alle Steuerelemente und klicken Sie auf die Schaltfläche **weiter mit der Pydio -Installation** . Sie sollten die folgende Seite sehen:
+Bestätigen Sie alle Steuerelemente und klicken Sie auf die Schaltfläche  **weiter mit der Pydio -Installation**  . Sie sollten die folgende Seite sehen:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Pydio Setup Assistent">}}
 
-Wählen Sie Ihre Sprache aus und klicken Sie auf **Start Assistent** . Sie sollten die folgende Seite sehen:
+Wählen Sie Ihre Sprache aus und klicken Sie auf  **Start Assistent**  . Sie sollten die folgende Seite sehen:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Starten Sie die Pydio -Einstellungen">}}
 
-Geben Sie den Programmnamen und die Begrüßungsnachricht ein. Klicken Sie dann auf die Schaltfläche **Weiter** . Sie sollten die folgende Seite sehen:
+Geben Sie den Programmnamen und die Begrüßungsnachricht ein. Klicken Sie dann auf die Schaltfläche  **Weiter**  . Sie sollten die folgende Seite sehen:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Geben Sie die Pydio -Anwendung ein">}}
 
-Geben Sie anschließend Ihr Administratorkonto ein und klicken Sie auf die Schaltfläche **Weiter** . Sie sollten die folgende Seite sehen:
+Geben Sie anschließend Ihr Administratorkonto ein und klicken Sie auf die Schaltfläche  **Weiter**  . Sie sollten die folgende Seite sehen:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="MySQL -Datenbankeinstellungen">}}
 
-Geben Sie dann Ihre Datenbankdetails ein, z. B. den Datenbanknamen, den Benutzernamen und das Passwort. Klicken Sie dann auf die Schaltfläche **Test DB -Verbindung** . Sie sollten die folgende Seite sehen:
+Geben Sie dann Ihre Datenbankdetails ein, z. B. den Datenbanknamen, den Benutzernamen und das Passwort. Klicken Sie dann auf die Schaltfläche  **Test DB -Verbindung**  . Sie sollten die folgende Seite sehen:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Pydio erweiterte Optionen">}}
 
-Klicken Sie anschließend auf die Schaltfläche **pydio**  installieren. Sobald die Installation erfolgreich abgeschlossen wurde. Sie werden auf die folgende Seite umgeleitet:
+Klicken Sie anschließend auf die Schaltfläche  **pydio**  installieren. Sobald die Installation erfolgreich abgeschlossen wurde. Sie werden auf die folgende Seite umgeleitet:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Pydio Login">}}
 
@@ -146,7 +146,8 @@ Geben Sie dann Ihren Benutzernamen und Ihr Passwort für den Administrator ein. 
 
 Ja! Es ist fertig. Sie wissen nun, wie Sie PYDIO Self -Hosted -Datei -Synchronisierungs- und Open -Source -Datei -Sharing -Software auf Ubuntu vollständig installieren, um einen privaten Cloud -Cloud zu erstellen, der bei Dropbox oder Google Drive ähnlich ist.
 
-## **Fazit:** {#4A1a}
+##  **Abschluss:**   {#4a1a}
+
 In diesem Tutorial haben Sie die Open -Source -Dateifreigabe von Pydio Cells in Ihrem Ubuntu -System erfolgreich installiert. Sie können diesen Artikel verwenden, um eine Cloud-Infrastruktur zum Speichern, Sichern und Teilen Ihrer Dateien in der selbst gehosteten Cloud zu erstellen. Verwenden Sie die Pydio Collaborative Document Sharing und die beste kostenlose Dateifreigabe -App, um mehr Kontrolle über Ihre Daten zu erhalten und eine effiziente Zusammenarbeit in Ihrer Unternehmensorganisation zu gewährleisten. In unseren bevorstehenden Tutorials werden wir weitere interessante Themen von Open -Source -Cloud -Speicherlösungen und den Tattyp zur Kollaboration von Dateien zur Kollaboration erörtert.
 Sie können sich uns auf [Twitter][1], [linkedIn][2] und unserer [Facebook][3] -Seite anschließen. Welche Cloud-basierte Open Source _file Share-Plattform verwenden Sie online? Wenn Sie Fragen haben, bitte_ [Kontakt aufnehmen][4].
 
@@ -158,7 +159,8 @@ Wir haben auch mehrere andere Artikel, die sich auf die tägliche Verwaltung Ihr
   * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian][8]
   * [Setup nginx mit Passagier auf AWS Production Server][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

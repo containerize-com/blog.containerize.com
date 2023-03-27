@@ -1,10 +1,10 @@
 ---
-title: "Cài đặt XAMPP và PHPMyAdmin dưới dạng localhost trên Windows" 
-seoTitle: "Cài đặt XAMPP và PHPMyAdmin dưới dạng localhost trên Windows" 
+title: "Cài đặt XAMPP và PHPMyAdmin là Localhost trên Windows" 
+seoTitle: "Cài đặt XAMPP và PHPMyAdmin là Localhost trên Windows" 
 description: "Cài đặt XAMPP và PHPMyAdmin dưới dạng localhost trên Windows. Tạo môi trường thử nghiệm cục bộ miễn phí và nguồn mở của riêng bạn để kiểm tra và xây dựng các ứng dụng web." 
 date: Mon, 26 Oct 2020 07:29:24 +0000
 author: bilalahmed
-summary: "Thiết lập môi trường phát triển với STACK SCREAL WEB Server (XAMPP) và phần mềm quản lý cơ sở dữ liệu (PHPMyAdmin) miễn phí)" 
+summary: "Thiết lập môi trường phát triển với STACK SAUCE (XAMPP) và phần mềm quản lý cơ sở dữ liệu miễn phí và nguồn mở (PhpMyAdmin)" 
 url: /vi/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 categories: ['Database Management Software', 'Web Server Solution Stack']
 ---
@@ -20,16 +20,18 @@ Chúng tôi sẽ trình bày các phần sau trong bài đăng trên blog này:
   * [Bảng điều khiển phpmyadmin][3]
   * [Suy nghĩ cuối cùng][4]
 
-## Mô tả:   {#Descrip}
+## Sự miêu tả: {#description}
+
 XAMPP là ngăn xếp giải pháp máy chủ web miễn phí và nguồn mở. Nó chứa Apache, MySQL, MariaDB, PHP và Perl. XAMPP có sẵn cho các hệ điều hành Windows. Nó là cực kỳ dễ dàng để cài đặt và sử dụng. Đó là lý do tại sao nó là môi trường phát triển PHP phổ biến nhất. XAMPP và PHPMYADMIN là Localhost cung cấp một môi trường hoàn chỉnh để phát triển và thử nghiệm ứng dụng web.
 Bảng chữ cái trong XAMPP đứng cho:
-***x**-Tăng cường đa nền tảng (hỗ trợ nhiều hệ điều hành bao gồm Linux, Windows và Mac OS)
-***A**- Máy chủ Apache HTTP
-***M**- Mariadb (cơ sở dữ liệu)
-***P**- PHP
-***P**- Perl
+* **x** -Tăng cường đa nền tảng (hỗ trợ nhiều hệ điều hành bao gồm Linux, Windows và Mac OS)
+* **A** - Máy chủ Apache HTTP
+* **M** - Mariadb (cơ sở dữ liệu)
+* **P** - PHP
+* **P** - Perl
 
-## Cài đặt XAMPP   {#xampp}
+## Cài đặt XAMPP {#xampp}
+
   * Tải xuống XAMPP từ [ở đây][5].
 
 {{< figure align=center src="images/xampp1.png" alt="XAMPP là Localhost">}}
@@ -53,7 +55,8 @@ Bảng chữ cái trong XAMPP đứng cho:
 {{< figure align=center src="images/xampp5.png" alt="XAMPP như Localhost Bước 4">}}
 
 
-## PhpmyAdmin Dashboard:   {#phpmyadmin}
+## Bảng điều khiển PHPMyAdmin: {#phpmyadmin}
+
 Để truy cập bảng điều khiển PHPMyAdmin, hãy nhấp vào nút Quản trị viên bên cạnh dịch vụ MySQL. Bạn cũng có thể truy cập phpmyadmin bằng cách truy cập http: // localhost/phpmyadmin từ trình duyệt của bạn. Ở đây bạn có thể tạo cơ sở dữ liệu. Thực hiện theo các bước này để tạo cơ sở dữ liệu mới.
   * Từ bảng điều khiển, nhấp vào tab Cơ sở dữ liệu trên cơ sở dữ liệu.
 
@@ -75,14 +78,16 @@ Bảng chữ cái trong XAMPP đứng cho:
 {{< figure align=center src="images/db4-1024x564.png" alt="PHPMyAdmin tại Localhost Bước 4">}}
 
 
-## Suy nghĩ cuối cùng:   {#final}
+## Suy nghĩ cuối cùng: {#final}
+
 Cài đặt XAMPP rất đơn giản và thẳng tiến. Không mất quá 15 phút để thiết lập máy chủ XAMPP. Khi nó được cài đặt, các nhà phát triển có thể xây dựng và kiểm tra các ứng dụng web dựa trên PHP của họ ngay cả khi không có kết nối internet. Thay vì thử nghiệm các dự án trực tiếp trên một máy chủ web trực tiếp, nó rất đơn giản và tiết kiệm thời gian để kiểm tra chúng tại địa phương. Nó là một nền tảng tuyệt vời để người mới bắt đầu học hỏi, kiểm tra và đánh bóng các kỹ năng PHP, Perl và cơ sở dữ liệu của họ.
 
 ## Khám phá:
 [Ngăn xếp giải pháp máy chủ web nguồn mở cho các nhà phát triển PHP & Perl][6]
 [Tùy chọn ngăn xếp giải pháp máy chủ web nguồn mở tốt nhất][7]
 
-  
+
+
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

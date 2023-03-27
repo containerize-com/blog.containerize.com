@@ -15,13 +15,14 @@ categories: ['Artificial intelligence']
 
 
 ## 概要
-最近発売された[chatgpt][1]は、テクノロジーの世界で流行語になりました。一部の人々は、この**aiチャットボット**を生産性と透明性に対する脅威と考えています。さて、[containerize.com][2]は、このOpenAI GPT-3モデルの使用と統合について書いています。実際、[Google Docs][3]は、執筆とデータ表現に最適なツールです。別の手であるChatGptの出現は、会話の方法で自然言語の質問に応答する会話[AI][4]ツールです。このAIツールは機械学習に基づいており、[Openai][5]によって開発されています。ただし、このブログ投稿は**chatgptとGoogle**についてです。ここでは、**Googleドキュメントの統合を達成する方法を学びます。間違いなく、GoogleドキュメントにChatGPTアドオンをインストールすることにより、**Google Docs Automation**を持参できます。
+最近発売された[chatgpt][1]は、テクノロジーの世界で流行語になりました。一部の人々は、この **aiチャットボット**を生産性と透明性に対する脅威と考えています。さて、[containerize.com][2]は、このOpenAI GPT-3モデルの使用と統合について書いています。実際、[Google Docs][3]は、執筆とデータ表現に最適なツールです。別の手であるChatGptの出現は、会話の方法で自然言語の質問に応答する会話[AI][4]ツールです。このAIツールは機械学習に基づいており、[Openai][5]によって開発されています。ただし、このブログ投稿は **chatgptとGoogle** についてです。ここでは、**Googleドキュメントの統合を達成する方法を学びます。間違いなく、GoogleドキュメントにChatGPTアドオンをインストールすることにより、** Google Docs Automation**を持参できます。
 このブログ投稿では、次のポイントを説明します。
-* [**Openai APIキーを取得する方法？**][6]
-* **[chatgptとの統合をGoogleドキュメントにしましょう][7]**
-* [**chatgptとgoogleの使用を開始****docs**][8]
+* [ **Openai APIキーを取得する方法？** ][6]
+* **[chatgptとの統合をGoogleドキュメントにしましょう][7]** 
+* [ **chatgptとgoogleの使用を開始****docs**][8]
 
-## Openai APIキーを取得する方法は？   {#How-to-Obtain-the-openai-api-key}
+## Openai APIキーを取得する方法は？ {#How-to-obtain-the-OpenAI-API-key}
+
 少し紹介するために、Openaiは人工知能ツールの研究開発に焦点を当てた会社です。 CHATGPTはOpenAIによって開発および発売されますが、OpenAIは一連のGPTモデルを開発しました。
 まず、Openaiの[プラットフォーム][9]でアカウントを作成してからログインする必要があります。ログインしたら、APIキーページにランディングして、ボタンをクリックしてAPIキーを生成できます。以下に示すように、キー」。
 
@@ -29,7 +30,8 @@ categories: ['Artificial intelligence']
 
 Google Docsの統合に使用できるように、新しくOpenai APIキーを生成して保存します。
 
-## Googleドキュメントとchatgptとの統合を行う {#lets-do-google-docs-Integration-with-chatgpt}
+## GoogleドキュメントとChatGptとの統合をしましょう {#Lets-do-Google-Docs-Integration-with-ChatGPT}
+
 この会話型AIツールのインストール手順は非常に簡単です。 [Extensions-Add-Ons-> Add-Onsを取得]をクリックすると、Google Workspace Marketplaceページが表示されます。ここで、検索バーにchatgptを作成し、「シートとドキュメントのchatgpt」というオプションを選択して、最初のオプションをクリックして、以下の画像に表示されるようにインストールします。
 
 {{< figure align=center src="images/chatgpt-and-google-1.gif" alt="ChatGptとGoogle">}}
@@ -40,25 +42,26 @@ Googleアカウントにアクセスする許可を求めているため、こ�
 
 最後に、OpenAI GPT-3がGoogleドキュメントにインストールされており、Google Docs Automationの活用を開始できます。
 
-## ChatGptとGoogle Docsの使用を開始 {#start-using-chatgpt-and-google}
+## ChatGPTとGoogleドキュメントの使用を開始します {#Start-using-ChatGPT-and-Google}
+
 このGoogle Docs Automationの使用を開始する時が来ました。この目的の毛皮では、「拡張機能 - >アプリスクリプト」をクリックすると、新しいタブが開かれます。次に、次のコードをコードエディターにコピーして貼り付けます。
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 上記のコアでは、「xxxxxxxxxxxxxxxxxx」をOpenai APIキーに置き換えます。次に、ファイルを保存し、コードエディターの上部中央に配置された「実行」をクリックし、ウィンドウを閉じます。
-Google Docsウィンドウに戻ると、メニューバーに新しいメニュー項目「chatgpt」が表示されます。要件に応じてコードを変更できますが、この例では、下の画像に示す画像、キャッチフレーズ、同義語などのさまざまな機能があります。
+Google Docsウィンドウに戻ると、メニューバーに新しいメニュー項目「chatgpt」が表示されます。要件に応じてコードを変更できますが、この例では、下の画像に示す画像、キャッチフレーズ、同義語の生成など、さまざまな機能があります。
 
 {{< figure align=center src="images/Google-Docs-Integration-.gif" alt="GoogleドキュメントとChatGptとの統合">}}
 
 上記の例では、単語を書き、ChatGptにキャッチフレーズ、画像、同義語を生成するように尋ね、タスクを正常に実行しました。
 
 ## 結論
-結論として、chatgpt**とのGoogleドキュメントの統合を達成する方法を学んだと安全に言うことができます。さらに、**Openai APIキー**を生成し、**Openai GPT-3**関数を有効にするように設定する方法を見てきました。このGoogle Docs Automationは、ビジネスタスクに真剣に利益をもたらす可能性があります。さらに、以下の「参照」セクションに登録されているリンクにアクセスすることを忘れないでください。
+結論として、chatgpt **とのGoogleドキュメントの統合を達成する方法を学んだと安全に言うことができます。さらに、**Openai APIキー**を生成し、** Openai GPT-3**関数を有効にするように設定する方法を見てきました。このGoogle Docs Automationは、ビジネスタスクに真剣に利益をもたらす可能性があります。さらに、以下の「参照」セクションに登録されているリンクにアクセスすることを忘れないでください。
 最後に、[containerize.com][2]は、さらなるオープンソース製品とトピックに関するブログ投稿を継続的に執筆しています。さらに、ソーシャルメディアアカウント[Facebook][10]、[LinkedIn][11]、および[Twitter][12]でフォローできます。
 
 ## 質問する
 [フォーラム][13]での質問や質問についてお知らせください。
 
 ## FAQ
-**GoogleドキュメントでGPT-3 APIの使用方法？**
+**GoogleドキュメントでGPT-3 APIの使用方法？** 
 Googleドキュメントの統合の手順をCHATGPTと知り合うには、この[リンク][7]にアクセスしてください。
 
 ## 参照
@@ -68,7 +71,8 @@ Googleドキュメントの統合の手順をCHATGPTと知り合うには、こ�
   * [Openai Chatbot gpt-3 | ai革命をchatgpt][1]
   * [トップ5のオープンソースAIフレームワークは何ですか][16]
 
-  
+
+
 [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [2]: https://www.containerize.com/
 [3]: https://docs.google.com/document/u/0/

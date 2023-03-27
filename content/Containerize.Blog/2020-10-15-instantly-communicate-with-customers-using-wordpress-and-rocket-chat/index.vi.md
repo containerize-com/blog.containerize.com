@@ -21,10 +21,12 @@ Chúng tôi sẽ trình bày các phần sau trong bài đăng trên blog này:
   * [Cài đặt plugin][3]
   * [Suy nghĩ cuối cùng][4]
 
-## Mô tả:   {#Descrip}
+## Sự miêu tả: {#description}
+
 Tích hợp WordPress và Rocket.Chat cho phép bạn đặt tiện ích trò chuyện trực tiếp trên các trang web dựa trên WordPress. Trò chuyện trực tiếp WordPress cho phép khách hàng hợp tác với các đại lý hỗ trợ hoặc bán hàng của bạn trong thời gian thực chỉ bằng một cú nhấp chuột. Giao tiếp tức thì giúp khách hàng giải quyết nhanh chóng các yêu cầu của họ và thúc đẩy việc ra quyết định. Do đó, giải pháp này có thể giúp bạn giành được khách hàng mới với sự quay đầu nhanh hơn cũng như cải thiện sự hài lòng và lòng trung thành của khách hàng hiện tại.
 
-## Tính năng tính năng}
+## Đặc trưng: {#features}
+
   * Hội nghị âm thanh miễn phí
   * Hội nghị video miễn phí
   * Truy cập khách
@@ -34,9 +36,10 @@ Tích hợp WordPress và Rocket.Chat cho phép bạn đặt tiện ích trò ch
   * Trò chuyện nhóm
   * Dịch thời gian thực
 
-## Cài đặt plugin:   {#Plugin}
+## Cài đặt plugin: {#plugin}
+
   1. Chuyển đến bảng điều khiển quản trị của trang web WordPress của bạn.
-  2. Sau đó di chuyển sang plugin.
+  2. Sau đó di chuyển sang các plugin.
   3. Sau đó cài đặt plugin sau: [Rocket.Chat LiveChat][5]
   4. Sau đó kích hoạt plugin.
   5. Sau khi cài đặt thành công, đi đến cài đặt.
@@ -47,7 +50,8 @@ Tích hợp WordPress và Rocket.Chat cho phép bạn đặt tiện ích trò ch
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="Giải pháp nhắn tin tức thời WordPress sử dụng Rocket.chat">}}
 
 
-## Suy nghĩ cuối cùng:   {#conclusion}
+## Suy nghĩ cuối cùng: {#conclusion}
+
 Integration và Rocket.Chat tích hợp xây dựng niềm tin và mối quan hệ với khách hàng của bạn thông qua các cuộc trò chuyện thời gian thực. Tin nhắn tức thời WordPress có thể cung cấp một sự thúc đẩy nhanh chóng cho doanh nghiệp của bạn. Giao tiếp với khách hàng của bạn bằng tính năng trò chuyện trực tiếp. Ngoài ra, bạn có thể hợp tác với các đồng đội của mình bằng tính năng trò chuyện nhóm. Điều này sẽ cải thiện năng suất bằng cách thảo luận và chia sẻ ý tưởng với trò chuyện thời gian thực.
 
 ## Khám phá:
@@ -55,11 +59,12 @@ Integration và Rocket.Chat tích hợp xây dựng niềm tin và mối quan h�
 [Phần mềm trò chuyện trực tiếp miễn phí và nguồn mở tốt nhất][6]
 [WordPress - Nguồn mở miễn phí và CMS được sử dụng rộng rãi nhất và công cụ viết blog][7]
 
-  
-[1]: #description
-[2]: #features
-[3]: #plugin
-[4]: #conclusion
-[5]: https://wordpress.org/plugins/rocketchat-livechat/
-[6]: https://products.containerize.com/live-chat
-[7]: https://href.li/?https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #description
+ [2]: #features
+ [3]: #plugin
+ [4]: #conclusion
+ [5]: https://wordpress.org/plugins/rocketchat-livechat/
+ [6]: https://products.containerize.com/live-chat
+ [7]: https://href.li/?https://products.containerize.com/blogging/wordpress

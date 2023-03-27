@@ -4,7 +4,7 @@ seoTitle: "Skonfiguruj XAMPP i phpMyAdmin jako lokalizację w systemie Windows"
 description: "Skonfiguruj XAMPP i phpMyAdmin jako lokalne host w systemie Windows. Utwórz własne bezpłatne i open source lokalne środowisko testowe, aby testować i budować aplikacje internetowe." 
 date: Mon, 26 Oct 2020 07:29:24 +0000
 author: bilalahmed
-summary: "Skonfiguruj środowisko programistyczne z bezpłatnym i oprogramowaniem do zarządzania serwerami internetowymi (XAMPP) i oprogramowaniem do zarządzania bazami danych (phpMyAdmin)" 
+summary: "Skonfiguruj środowisko programistyczne z bezpłatnym i oprogramowaniem do zarządzania serwerami WWW (XAMPP) i oprogramowaniem do zarządzania bazami danych (phpMyAdmin)" 
 url: /pl/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 categories: ['Database Management Software', 'Web Server Solution Stack']
 ---
@@ -20,16 +20,18 @@ W tym poście na blogu omówimy następujące sekcje:
   * [PhpMyAdmin Dashboard][3]
   * [Final Myśli][4]
 
-## Opis:   {#Description}
+## Opis: {#description}
+
 XAMPP jest bezpłatny i stos serwera WWW open source. Zawiera Apache, MySQL, Mariadb, PHP i Perl. XAMPP jest dostępny dla systemów operacyjnych Windows. Jest niezwykle łatwy w instalacji i użyciu. Dlatego jest to najpopularniejsze środowisko programistyczne PHP. XAMPP i PhpMyAdmin jako LocalHost zapewnia pełne środowisko do tworzenia i testowania aplikacji internetowych.
 Alfabety w XAMPP oznaczają:
-***X**-Splatform krzyżowy (obsługuje wiele systemów operacyjnych, w tym Linux, Windows i Mac OS)
-***A**- Apache HTTP Server
-***M**- Mariadb (baza danych)
-***P**- PHP
-***P**- Perl
+* **X** -Platforma krzyżowa (obsługuje wiele systemów operacyjnych, w tym Linux, Windows i Mac OS)
+* **A** - Apache HTTP Server
+* **M** - Mariadb (baza danych)
+* **P** - PHP
+* **P** - Perl
 
-## XAMPP instalacja   {#xampp}
+## Instalacja XAMPP {#xampp}
+
   * Pobierz XAMPP z [tutaj][5].
 
 {{< figure align=center src="images/xampp1.png" alt="XAMPP jako Localhost">}}
@@ -53,7 +55,8 @@ Alfabety w XAMPP oznaczają:
 {{< figure align=center src="images/xampp5.png" alt="XAMPP jako Localhost Krok 4">}}
 
 
-## phpMyAdmin pulpit nawigacyjny:   {#phpMyAdmin}
+## PhpMyAdmin Dashboard: {#phpmyadmin}
+
 Aby uzyskać dostęp do pulpitu PhPMyAdmin, kliknij przycisk „Admin” obok usługi MySQL. Możesz również uzyskać dostęp do phpMyAdmin, odwiedzając http: // localhost/phpMyAdmin z przeglądarki. Tutaj możesz tworzyć bazy danych. Wykonaj następujące kroki, aby utworzyć nową bazę danych.
   * Z pulpitu pulpitu kliknij kartę „Bazy danych”.
 
@@ -75,14 +78,16 @@ Aby uzyskać dostęp do pulpitu PhPMyAdmin, kliknij przycisk „Admin” obok us
 {{< figure align=center src="images/db4-1024x564.png" alt="phpMyAdmin w Localhost kroku 4">}}
 
 
-## końcowe myśli:   {#final}
+## Końcowe przemyślenia: {#final}
+
 Instalacja XAMPP jest prosta i prosta. Konfiguracja XAMPP zajmuje nie więcej niż 15 minut. Po zainstalowaniu programiści mogą budować i testować swoje aplikacje internetowe oparte na PHP nawet bez połączenia internetowego. Zamiast testować projekty bezpośrednio na serwerze WWW na żywo, przetestowanie ich lokalnie jest proste i oszczędzające czas. Jest to świetna platforma dla początkujących, aby uczyć się, testować i wypolerować swoje umiejętności PHP, Perl i bazy danych.
 
 ## Badać:
-[Stos rozwiązania serwera WWW dla programistów PHP i Perl][6]
+[Stos rozwiązania serwera internetowego dla programistów PHP i Perl][6]
 [Najlepsze opcje rozwiązania serwera WWW open source][7]
 
-  
+
+
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

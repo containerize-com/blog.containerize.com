@@ -4,7 +4,7 @@ seoTitle: "Top 5 piattaforme blockchain open source nel 2020"
 description: "Attraversa questa guida e scegli la piattaforma blockchain giusta per il business. In questo articolo, abbiamo dato una breve introduzione alle migliori piattaforme blockchain open source" 
 date: Fri, 11 Dec 2020 13:53:34 +0000
 author: muhammadmustafa
-summary: "La tecnologia blockchain si basa su un libro mastro distribuito fissato con crittografia. È di natura immutabile e fornisce una migliore sicurezza e disponibilità." 
+summary: "La tecnologia blockchain si basa su un libro mastro distribuito protetto con crittografia. È di natura immutabile e fornisce una migliore sicurezza e disponibilità." 
 url: /it/top-5-open-source-blockchain-platforms-in-2020/
 categories: ['Blockchain Platforms']
 ---
@@ -14,16 +14,17 @@ La tecnologia ## blockchain si basa su un libro mastro distribuito protetto con 
 {{< figure align=center src="images/block-1.png" alt="Piattaforme blockchain open source">}}
 
 
-Panoramica ## 
+Panoramica ##
 Di recente abbiamo pubblicato post sul blog su [Blockchain Technology for Business][1] e un articolo di tutorial sulla costruzione di un [contratto intelligente di base][2]. Tuttavia, abbiamo compilato un elenco delle seguenti popolari piattaforme blockchain del 2020.
-* **[Ethereum][3]**
-* **[tessuto Hypeledger][4]**
-* **[OpenChain][5]**
-* **[Multichain][6]**
-* **[Ripple][7]**
-* **[Conclusione][8]**
+*  **[Ethereum][3]**  
+*  **[tessuto Hypeledger][4]**  
+*  **[OpenChain][5]**  
+*  **[Multichain][6]**  
+*  **[Ripple][7]**  
+*  **[Conclusione][8]**  
 
-## Ethereum   {#ether}
+## Ethereum {#ether}
+
 [Ethereum][9] è una piattaforma basata su blockchain open source leader. Fornisce un framework completo per gestire le risorse digitali, scrivere contratti intelligenti e creare app decentralizzate. Questo software utilizza un algoritmo di consenso chiamato Proof of Work (POW). Supporta la propria criptovaluta chiamata Ether. Inoltre, Ethereum ha cinque componenti principali Ethereum Virtual Machine, contratti intelligenti, nodi Ethereum, API client Ethereum e applicazioni utente finali. È scritto in lingua GO e tutto il codice sorgente è disponibile su [github][10].
 Di seguito sono riportate le caratteristiche di spicco:
   * Sicuro con la crittografia
@@ -33,7 +34,8 @@ Di seguito sono riportate le caratteristiche di spicco:
   * Architettura a più livelli
 [Leggi di più][11]
 
-## tessuto hypeledger   {#hyper}
+## Tessuto ipicedger {#hyper}
+
 [Hyperledger Fabric][12] è una blockchain autorizzata open source costruita su un'architettura modulare. Tuttavia, offre agli utenti di utilizzare qualsiasi protocollo di consenso a seconda del caso d'uso. Inoltre, questo software è scalabile, robusto ed efficiente. Fornisce integrazione con software di terze parti come LDAP, OpenID Connect e Libraries crittografici. È anche scritto in lingua GO e il suo codice sorgente è disponibile su [GitHub][13].
 Il tessuto Hyperledger ha le seguenti caratteristiche chiave:
   * Supporto per EVM e solidità
@@ -43,7 +45,8 @@ Il tessuto Hyperledger ha le seguenti caratteristiche chiave:
   * Dati query
 [Leggi di più][14]
 
-## openchain   {#open}
+## OpenChain {#open}
+
 [OpenChain][15] è comparativamente una nuova tecnologia blockchain e si basa sull'architettura del server client. Inoltre, chiunque può impostare un'istanza di questo software open source e c'è un amministratore per ogni istanza che convalida le transazioni. Inoltre, non esiste un meccanismo di mining supportato in OpenChain. Soprattutto, in questa piattaforma viene utilizzato l'algoritmo di consenso partoriale. È scritto in lingua C# e il suo codice sorgente è disponibile su [github][16].
 OpenChain offre le seguenti caratteristiche importanti:
   * Disposizione per definire le regole
@@ -58,12 +61,13 @@ OpenChain offre le seguenti caratteristiche importanti:
 Multichain elabora le seguenti caratteristiche chiave:
   * Supporto per risorse illimitate
   * Gestione delle autorizzazioni
-  * Sicuro con chiave pubblica-privata
+  * Sicuro con la chiave pubblica-privata
   * Flessibile e robusto
   * Feed di dati in tempo reale
 [Leggi di più][18]
 
-## ripple   {#ripple}
+## Ondulazione {#Ondulazione}
+
 [Ripple][20] è una piattaforma blockchain open source a livello aziendale con funzionalità avanzate. Pertanto, si basa su un'infrastruttura decentralizzata che supporta transazioni garantite di attività digitali. Soprattutto, ha una vasta gamma di funzionalità che sono sufficienti per stabilire un'attività di pagamenti. Inoltre, è alimentato da un libro mastro XRP che è un libro mastro crittografico decentralizzato. Tuttavia, questo software open source è scritto in linguaggio C ++ con l'input di altre lingue e il suo codice sorgente è disponibile su [GitHub][21].
 Ripple offre i seguenti punti chiave:
   * Alimentato da un libro mastro XRP
@@ -73,7 +77,8 @@ Ripple offre i seguenti punti chiave:
   * Multiuso
 [Leggi di più][22]
 
-## conclusioni   {#conclusion}
+## Conclusione {#Conclusione}
+
 In questo post sul blog, abbiamo attraversato alcune delle famose piattaforme blockchain open source. Poiché ci sono molte altre piattaforme popolari disponibili, nuove piattaforme hanno iniziato a ottenere l'intenzione della comunità offrendo funzionalità avanzate. Pertanto, è sempre una buona idea indagare correttamente prima di fare qualsiasi scelta.
 Infine, [containerize.com][23] sta espandendo il suo elenco di software open source e post di blog. Pertanto, rimani in contatto con la categoria [Blockchain Platforms][24] per aggiornamenti regolari.
 
@@ -86,7 +91,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Multichain][25]
   * [Consensys Quorum][26]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: #ether

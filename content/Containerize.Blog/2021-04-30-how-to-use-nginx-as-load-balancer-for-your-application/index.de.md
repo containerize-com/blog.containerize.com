@@ -15,17 +15,19 @@ categories: ['Web Server Solution Stack']
 
 Moderne Websites für hohe Verkehrsdaten bedienen Hunderttausende und in einigen Fällen Millionen von gleichzeitigen Anfragen von Benutzern oder Clients und geben die richtigen Text-, Bilder-, Video- oder Anwendungsdaten schnell und zuverlässig zurück. Um die Bedürfnisse dieser hohen Volumina und der Rechenleistung zu erfüllen, benötigen Sie mehr Server. Mit mehr Servern benötigen Sie eine Möglichkeit, den Verkehr zwischen diesen Servern auszugleichen. In diesem Blog -Tutorial werden wir untersuchen, was ein Lastausgleich ist und wie wir Nginx als Lastbalancer verwenden können.
 Um Nginx Load Balancing als Voraussetzung zu konfigurieren, müssen Sie mindestens zwei Hosts mit einer Webserver -Software installiert und konfiguriert haben, um die Vorteile des Lastausgleichs mit NGINX anzuzeigen. Wenn Sie bereits über einen ausführenden Webhost einrichten, werden Sie es doppelten, indem Sie ein benutzerdefiniertes Bild erstellen und auf einem neuen Webserver bereitstellen. Lernen wir also, wie Sie die Konfiguration des NGINX -Lastausgleichs Schritt für Schritt für Ihre Cloud -Server einrichten.
-  ***[Nginx Web Server][1]** 
-  ***[Lastausgleich][2]** 
-  ***[Setup nginx als Lastausgleich (Round Robin)][3]** 
-  ***[über verschiedene Upstream -Richtlinien][4]** 
-  ***[Schlussfolgerung][5]** 
+* **[Nginx Web Server][1]** 
+* **[Lastbalancer][2]** 
+* **[Setup nginx als Lastausgleich (Round Robin)][3]** 
+* **[über verschiedene Upstream -Richtlinien][4]** 
+* **[Schlussfolgerung][5]** 
 
-## Nginx Web Server   {#Webserver}
+## Nginx Web Server {#webserver}
+
 Nginx ist ein Hochleistungs-Webserver, Open-Source-Webserver. Zusätzlich zu den Funktionen des HTTP -Servers kann NGINX auch als Proxy -Server für E -Mail (IMAP, POP3 und SMTP) und als Reverse -Proxy fungieren und das Gleichgewicht NGINX für HTTP-, TCP- und UDP -Server laden. Es verbessert die Leistung, Zuverlässigkeit und Sicherheit Ihrer Anwendungen. Es ist beliebt für seine reichhaltige Feature -Set, einfache Konfiguration und einen geringen Ressourcenverbrauch.
 Wie funktioniert Nginx? Nginx wird üblicherweise als Nginx Reverse Proxy Last Balancer als einzelne Einstiegspunkt für eine verteilte Webanwendung verwendet, die auf mehreren separaten Servern arbeitet. Es verwendet einen asynchronen, ereignisgesteuerten Ansatz, um einen geringen Speicherverbrauch und eine hohe Parallelität zu bieten. Sie können mehr über Nginx [hier][6] lesen.
 
-## laden Balancer   {#loadBalancer}
+## Lastenausgleicher {#loadbalancer}
+
 Lastausgleich ist der Prozess, den Netzwerkverkehr auf mehrere Server verteilen. Und die „Software“ oder „Hardware“, die diesen Verteilungsvorgang ausführt, wird als Last Balancer bezeichnet. Ein Lastausgleich ist wie ein „Traffic Cop“, der vor Ihren Servern steht und Client -Anfragen auf allen Servern routet. Es stellt sicher, dass Ihre Bewerbung auch dann in Betrieb bleibt, auch wenn eines der Server ausfällt.
 
 {{< figure align=center src="images/223F67DC-2518-4CDD-883A-7DAF3C78A7CC.png" alt="nginx als Lastausgleicher">}}
@@ -35,7 +37,8 @@ Hauptfunktionen eines Lastausgleichs folgen:
   * Gewährleistet eine hohe Verfügbarkeit und Zuverlässigkeit, indem Anfragen nur an Server gesendet werden, die online sind
   * Bietet die Flexibilität, Server nach Bedarf hinzuzufügen oder zu subtrahieren
 
-## Setup Nginx als Ladeausgleicher   {#setup}
+## Setup Nginx als Lastausgleichs {#setup}
+
 Bevor Sie Nginx Round Robin Load Balancing einrichten, sollten Sie Nginx auf Ihrem Server installieren lassen. Sie können es schnell mit APT-Get installieren:
 ```
 sudo apt-get install nginx
@@ -67,10 +70,11 @@ sudo service nginx restart
 ```
 Solange Sie alle Server vorhanden haben, sollten Sie nun feststellen, dass der Nginx Open Source -Lastausgleich, die Besucher gleichermaßen auf die Server verteilen. Diese gleiche Verteilung wird als Round-Robin-Lastausgleich bezeichnet.
 
-## Upstream -Anweisungen   {#Upstream}
+## Upstream -Richtlinien {#upstream}
+
 In unserem letzten Beispiel haben wir ein einfaches Upstream-Modul verwendet, um einen Rund-Robin-Lastausgleich durchzuführen, um den Verkehr gleichermaßen auf die Server zu verteilen. Es gibt jedoch viele Gründe, warum dies möglicherweise nicht die effizienteste Möglichkeit ist, mit dem Verkehr zu arbeiten. Es gibt mehrere Anweisungen, mit denen wir Besucher effektiver auf Site -Besucher leiten können.
 
-## # Gewicht
+### Gewicht
 Eine Möglichkeit, Benutzern Servern mit mehr Präzision zuzuweisen, besteht darin, bestimmte Maschinen ein bestimmtes Gewicht zuzuweisen. Mit Nginx können wir eine Nummer zuweisen, die den Anteil des Datenverkehrs angibt, der an jeden Server gerichtet werden sollte.
 Ein ausbalanciertes Setup, das das Servergewicht enthielt, könnte wie folgt aussehen:
 ```
@@ -82,7 +86,7 @@ upstream backend  {
 ```
 Das Standardgewicht beträgt 1. mit einem Gewicht von 2, Backend2. Beispiel wird doppelt so viel Verkehr wie Backend1 gesendet, und Backend3 mit einem Gewicht von 4 wird doppelt so viel Verkehr wie Backend 2 und viermal so viel wie Backend handeln wie Backend 1.
 
-## # Hash
+### Hash
 Mit IP Hash können Server nach ihrer IP -Adresse auf Clients reagieren und die Besucher jedes Mal, wenn sie besuchen, an dieselbe VPS zurücksendet (es sei denn, dieser Server ist nicht mehr ausgefallen). Wenn ein Server als inaktiv bekannt ist, sollte er als Down markiert werden. Alle IPs, die zum Down -Server wechseln sollten, werden dann auf eine alternative Weise gerichtet.
 Die folgende Konfiguration enthält ein Beispiel:
 ```
@@ -94,8 +98,8 @@ upstream backend {
  }
 ```
 
-## # max fällt aus
-Gemäß den Standardeinstellungen für Round-Robin-Einstellungen sendet NGINX Application Load Balancer weiterhin Daten an die virtuellen privaten Server, auch wenn die Server nicht antworten. MAX FAIL kann dies automatisch verhindern, indem sie nicht reagierende Server für einen festgelegten Zeitraum nicht reagieren.
+### max fällt aus
+Gemäß den Standardeinstellungen für Round-Robin-Einstellungen sendet Nginx Application Load Balancer weiterhin Daten an die virtuellen privaten Server, selbst wenn die Server nicht antworten. MAX fällt nicht automatisch verhindern, indem sie nicht reagierende Server für eine festgelegte Zeitspanne unwirksam machen.
 Es gibt zwei Faktoren, die mit dem maximalen Fehlschlag verbunden sind: max \ _fails und fallen \ _timeout. MAX fails bezieht sich auf die maximale Anzahl fehlgeschlagener Versuche, eine Verbindung zu einem Server herzustellen, der auftreten sollte, bevor er als inaktiv angesehen wird. Fall_timeout gibt an, wie lange der Server als inoperativ angesehen wird. Sobald die Zeit abgelaufen ist, werden neue Versuche, den Server zu erreichen, erneut gestartet. Der Standard -Timeout -Wert beträgt 10 Sekunden.
 Eine Beispielkonfiguration könnte so aussehen:
 ```
@@ -106,16 +110,18 @@ upstream backend  {
 }
 ```
 
-## Schlussfolgerung:   {#Conclusion}
+## Abschluss: {#conclusion}
+
 In diesem Nginx -Lastausgleichstutorial haben wir etwas über NGNIX, Lastausgleich und die Einrichtung von Nginx -Last -Balancer gelernt, um Ihren Verkehr auf mehrere Server zu verteilen. Wir haben auch verschiedene Lastausgleichsalgorithmen wie Round-Robin, Hash und Max Fails untersucht. Wenn Sie eine Anwendung mit hohem Volumen ausführen und die Last auf verschiedene Server verteilen müssen, ist Nginx eine der besten Optionen für Sie. Und vor allem ist es 100% kostenlos und Open-Source-Webserver.
 Sie können sich uns auf [Twitter][7], [LinkedIn][8] und unserer [Facebook][9] -Seite anschließen. Welcher andere leistungsstarke Lastausgleiche, um die Verfügbarkeit und Effizienz der Server zu verbessern, verwenden Sie? . Wenn Sie Fragen oder Feedback haben, bitte_ [Kontakt aufnehmen][10].
 
 ## Erkunden
 Möglicherweise finden Sie die mehr verwandten unteren Artikel
   * [So sichern und verschlüsseln Sie Nginx mit uns auf Ubuntu 20.04][11]
-  * [Apache vs nginx - Detaillierter Vergleich in 2021][12]
+  * [Apache vs Nginx - Detaillierter Vergleich in 2021][12]
 
-  
+
+
 [1]: #webserver
 [2]: #loadbalancer
 [3]: #setup

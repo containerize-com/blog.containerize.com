@@ -20,34 +20,36 @@ Mauticはマーケティングオートメーションソフトウェアであ�
   * [mauticプラグイン構成][3]
   * [結論][4]
 
-## Facebook開発者アカウントを構成 {#Account}
+## Facebook開発者アカウントを構成します {#account}
+
   * [開発者のためのFacebook][5]に行く
-  *アカウントがない場合は、アカウントを登録します。
-  *新しいアカウントを登録するには、右上隅から「開始」をクリックしてクリックします。
-  *その後、Facebookアカウントを選択して「続行」を押します。
-  *次に、ポップアップウィンドウから[開発者]ボタンをクリックします。
+* アカウントがない場合は、アカウントを登録します。
+* 新しいアカウントを登録するには、右上隅から「開始」をクリックしてクリックします。
+* その後、Facebookアカウントを選択して「続行」を押します。
+* 次に、ポップアップウィンドウから[開発者]ボタンをクリックします。
 
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="MAUTIC -Facebook統合 - 開発者アカウントを登録します">}}
 
 
-## Facebook開発者のアプリを構成 {#App}
-  *「最初のアプリの作成」をクリックします
+## Facebook開発者のアプリを構成します {#app}
+
+* 「最初のアプリの作成」をクリックします
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic  -  Facebook統合 - 最初のアプリを作成します">}}
 
-  *「ビジネス統合の管理」をクリックして、「続行」を押します。
+* 「ビジネス統合の管理」をクリックして、「続行」を押します。
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Choose-Purpose.png" alt="Mautic  -  Facebook統合 - 目的を選択します">}}
 
-  *次のウィンドウで、アプリ名を入力し、アプリの目的を選択します。 [アプリの作成]ボタンをクリックします。
+* 次のウィンドウで、アプリ名を入力し、アプリの目的を選択します。 [アプリの作成]ボタンをクリックします。
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Fill-Form-to-Create-App.png" alt="Mautic  -  Facebook統合 - アプリを作成するためのフォームに記入">}}
 
-  *次のステップは、Facebookログインをセットアップすることです。 Productsページから、「Facebookログイン」ボックスの下にある[セットアップ]ボタンをクリックします。
+* 次のステップは、Facebookログインをセットアップすることです。 Productsページから、「Facebookログイン」ボックスの下にある[セットアップ]ボタンをクリックします。
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-SetUp-FB-Login-1024x563.png" alt="Mautic  -  Facebook統合 - セットアップFBログイン">}}
 
-  *左メニューから、製品の下の「設定」をクリックします - > Facebookログイン。
+* 左メニューから、製品の下の「設定」をクリックします - > Facebookログイン。
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Login-1024x621.png" alt="Mautic  -  Facebook統合 -  FBログインを構成します">}}
 
@@ -57,22 +59,24 @@ Mauticはマーケティングオートメーションソフトウェアであ�
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic  -  Facebook統合 - プラットフォームとしてWebサイトを追加します">}}
 
 
-## mauticプラグイン構成 {#configuration}
+## Mauticプラグイン構成 {#configuration}
+
   * Mautic Dashboardに移動します。
-  *次に、右上隅から「設定」に移動します。
-  *「プラグイン」をクリックします。
-  *その後、「Facebook」プラグインの設定を開きます。
-  *次に、クライアントIDとクライアントシークレットを入力します。上記の手順に従って作成したばかりのFacebook開発者アプリからこれらのキーを入手してください。
+* 次に、右上隅から「設定」に移動します。
+* 「プラグイン」をクリックします。
+* その後、「Facebook」プラグインの設定を開きます。
+* 次に、クライアントIDとクライアントシークレットを入力します。上記の手順に従って作成したばかりのFacebook開発者アプリからこれらのキーを入手してください。
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Plugin-on-Mautic.png" alt="Mautic  -  Facebook統合 -  MauticでFBプラグインを構成する">}}
 
-  *「Authorize App」ボタンを押します。
-  *その後、新しいFacebook認証ウィンドウが開きます。プロンプトに従って、アプリ認証を完了します。
-  *承認が成功した後、MauticのFacebookプラグインから[マッピングの連絡先]タブに移動します。
-  *ここでは、連絡先フィールドをFacebookフィールドにマップできます。
-  *最後に、設定を公開すると、行ってもいいです。
+* 「Authorize App」ボタンを押します。
+* その後、新しいFacebook認証ウィンドウが開きます。プロンプトに従って、アプリ認証を完了します。
+* 承認が成功した後、MauticのFacebookプラグインから[マッピングの連絡先]タブに移動します。
+* ここでは、連絡先フィールドをFacebookフィールドにマップできます。
+* 最後に、設定を公開すると、行ってもいいです。
 
 ## 結論 {#conclusion}
+
 Mautic  -  Facebookの統合は、Facebookのリードを困難なくMauticシステムに同期させるのに役立ちます。 Mautic Appでは、これらすべてのリードをセグメントに追加できます。メールマーケティングキャンペーンを実行できます。これは、あなたのビジネスがより大きなターゲットオーディエンスに製品/サービスを成長させ、販売し、販売するのに役立ちます。
 
 ## 探検
@@ -83,7 +87,8 @@ MauticとFacebookの詳細については、ご覧ください。
   * [MauticとWoocommerceの統合によるマーケティングオートメーション][9]
   * [デジタルマーケティングの自動化のためにMautic＆Joomlaを統合][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

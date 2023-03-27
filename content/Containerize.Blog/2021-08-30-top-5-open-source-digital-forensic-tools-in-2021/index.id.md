@@ -14,7 +14,7 @@ categories: ['Digital Forensic Tools']
 {{< figure align=center src="images/open-source-digital-forensic-tools.png" alt="5 Alat Forensik Digital Sumber Terbuka di 2021">}}
 
 
-## **Ringkasan**
+## **Ringkasan** 
 Alat forensik digital membantu dalam penyelidikan, identifikasi, ekstraksi, pelestarian dan dokumentasi bukti digital. Alat -alat ini berkaitan dengan pengumpulan fakta selama kasus kriminal mengenai bukti digital yang ditemukan pada komputer dan perangkat digital lainnya yang dapat digunakan oleh Pengadilan Hukum. Ada banyak alat forensik digital open source yang membantu Anda membuat proses forensik menjadi sederhana dan mudah. Aplikasi perangkat lunak forensik digital (DFS) ini menghasilkan laporan lengkap peristiwa kejahatan yang dapat digunakan dalam prosedur hukum. Ketika kejahatan dunia maya berkembang dan berkembang, organisasi penegak hukum membutuhkan armada alat untuk mempertahankan dan menyelidiki insiden.
 Bukti digital atau bukti elektronik dapat ada pada sejumlah platform yang berbeda dan dalam berbagai bentuk yang dapat digunakan oleh suatu pihak dalam kasus pengadilan. Apakah itu kasus sumber daya manusia internal, penyelidikan terhadap akses server yang tidak sah atau perangkat seluler, alat forensik digital open source akan membantu Anda melakukan analisis mendalam tentang apa yang ada di bawah kap sistem. Investigasi forensik mencakup bukti fisik terkait kejahatan, analisis aktivitas jaringan, sidik jari, file, email, hard drive dan sumber petunjuk untuk menetapkan bagaimana kejahatan terjadi. Menggunakan alat forensik digital yang tepat akan selalu membantu Anda memindahkan investigasi lebih cepat dan menghasilkan hasil yang lebih produktif.
 Posting blog berikut menguraikan alat forensik digital open source teratas pada tahun 2021 untuk investigasi forensik komputer dan apa yang harus dipertimbangkan oleh organisasi keamanan saat membeli atau memperoleh alat perangkat lunak forensik digital (DFS) yang populer.
@@ -40,7 +40,8 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
   * Hasilkan garis waktu semua jejak berbahaya yang terdeteksi.
 **Tautan**:
 
-## 2. Wireshark - Analisis Protokol Jaringan   {#Ce62}
+## 2. Wireshark - Analisis Protokol Jaringan {#ce62}
+
 [Wireshark][2] adalah alat yang menganalisis paket jaringan. Ini dapat digunakan untuk pengujian dan pemecahan masalah jaringan. Alat ini membantu Anda memeriksa berbagai lalu lintas melalui sistem komputer Anda.
 **Fitur**:
   * Ini memberikan analisis VoIP (Voice Over Internet Protocol) yang kaya.
@@ -52,7 +53,8 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
   * Memungkinkan Anda membaca atau menulis file dalam format apa pun.
 **Tautan** : [https://www.wireshark.org][2]
 
-## 3. The Sleuth Kit dan Autopsi - Analisis Disk   {#Ce62}
+## 3. The Sleuth Kit dan Autopsi - Analisis Disk {#ce62}
+
 [SLEUTH KIT & AUTOPSY][3] adalah alat utilitas berbasis Windows yang membuat analisis forensik sistem komputer lebih mudah. Alat ini memungkinkan Anda untuk memeriksa hard drive dan smartphone Anda.
 **Fitur**:
   * Anda dapat mengidentifikasi aktivitas menggunakan antarmuka grafis secara efektif.
@@ -64,7 +66,8 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
   * Ini membantu Anda menandai file dan folder berdasarkan jalur dan nama.
 **Tautan** : [https://www.sleuthkit.org][3]
 
-## 4. Kerangka kerja volatilitas - memori forensik   {#ce62}
+## 4. Kerangka kerja volatilitas - forensik memori {#ce62}
+
 [Kerangka Volatilitas][4] adalah perangkat lunak untuk analisis memori dan forensik. Ini adalah salah satu alat pencitraan forensik terbaik yang membantu Anda menguji keadaan runtime suatu sistem menggunakan data yang ditemukan dalam RAM. Aplikasi ini memungkinkan Anda untuk berkolaborasi dengan rekan satu tim Anda.
 **Fitur**:
   * Ini memiliki API yang memungkinkan Anda untuk mencari bendera PTE (Entri Tabel Halaman) dengan cepat.
@@ -73,7 +76,8 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
   * Secara otomatis menjalankan perintah kegagalan ketika layanan gagal dimulai beberapa kali.
 **Tautan** : [https://www.volatilityfoundation.org][4]
 
-## 5. Sans Investigative Forensik Toolkit (SIFT) - SIFT Workstation untuk Ubuntu   {#B49B}
+## 5. Sans Investigative Forensik Toolkit (SIFT) - SIFT Workstation untuk Ubuntu {#b49b}
+
 [Sans sift][5] adalah distribusi forensik komputer berdasarkan Ubuntu. Ini adalah salah satu alat forensik komputer terbaik yang menyediakan fasilitas pemeriksaan forensik dan respons insiden digital.
 **Fitur**:
   * Ini dapat bekerja pada sistem operasi 64-bit.
@@ -87,7 +91,8 @@ Amnesty International telah merilis toolkit yang disebut [Toolkit Verifikasi Sel
 Anda memerlukan alat forensik digital karena memainkan peran penting dalam infrastruktur keamanan siber yang komprehensif. Forensik digital dan keamanan cyber bekerja bersama untuk melindungi keberadaan online dan informasi data pribadi Anda. Digital Forensics Software (DFS) berspesialisasi dalam menyelidiki sistem TI, router atau server dalam konteks acara keamanan.
 Forensik digital dapat bermanfaat bagi perusahaan serta firma hukum untuk mengidentifikasi ancaman dunia maya. Bisnis Anda membutuhkan alat forensik digital untuk meningkatkan keamanan dunia maya dengan mengurangi risiko pencurian identitas, penipuan, dan kejahatan digital lainnya. Alat forensik digital mengumpulkan informasi menggunakan alat yang kompleks untuk membawa seseorang ke pengadilan untuk mengeksploitasi atau merusak informasi pribadi.
 
-## Pikiran Final:   {#4A1A}
+## Pikiran terakhir: {#4a1a}
+
 Kami telah membahas alat forensik digital open source paling populer yang mencakup banyak implementasi dengan waktu penyelesaian yang lebih cepat dibandingkan dengan metode tradisional. Alat forensik data sebagian besar didorong oleh teknologi dengan alternatif cepat untuk analisis manual. Ini adalah beberapa alat gratis terbaik yang dapat Anda gunakan untuk forensik. Kami harap Anda menikmati membaca daftar. Dalam artikel blog kami yang akan datang, kami akan membahas lebih banyak topik menarik tentang alat forensik digital open source.
 _Your dapat bergabung dengan kami di [Twitter][7], [LinkedIn][8] dan halaman [Facebook][9] kami. Alat forensik digital open source apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi][10].
 
@@ -96,7 +101,8 @@ Kami juga memiliki beberapa artikel lain yang mungkin Anda sukai.
   * [Alat forensik digital open source top][11]
   * [Toolkit Verifikasi Seluler atau Alat MVT untuk NSO Group Pegasus Israel Spyware][1]
 
-  
+
+
 [1]: https://products.containerize.com/digital-forensic-software/mvt/
 [2]: https://www.wireshark.org/
 [3]: https://www.sleuthkit.org/

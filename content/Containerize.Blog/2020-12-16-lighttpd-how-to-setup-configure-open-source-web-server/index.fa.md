@@ -1,10 +1,10 @@
 ---
-title: "LITTTPD | نحوه تنظیم و پیکربندی سرور منبع باز " 
+title: "LITTTPD | نحوه تنظیم و پیکربندی سرور منبع باز '" 
 seoTitle: "LITTTPD | نحوه تنظیم و پیکربندی سرور منبع باز" 
 description: "برای یادگیری نحوه تنظیم و پیکربندی سرور وب منبع باز ، این مقاله را دنبال کنید. LightTPD یک سرور وب سازگار است که دارای کنترل بار CPU قوی است." 
 date: Wed, 16 Dec 2020 12:53:41 +0000
 author: bilalahmed
-summary: "یک سرور وب ایمن ، سبک و منبع باز را پیکربندی کنید. LightTPD یک سرور وب رایگان در سطح شرکت است و برای وب سایت های بسیار عملکردی مناسب است." 
+summary: "یک سرور وب امن ، سبک و منبع باز را پیکربندی کنید. LightTPD یک سرور وب رایگان در سطح شرکت است و برای وب سایت های بسیار عملکردی مناسب است." 
 url: /fa/lighttpd-how-to-setup-configure-open-source-web-server/
 categories: ['Web Server Solution Stack']
 ---
@@ -20,11 +20,13 @@ categories: ['Web Server Solution Stack']
   * [چگونه LightTPD را پیکربندی کنیم؟][7]
   * [نتیجه گیری][8]
 
-## LightTPD چیست؟   {#چی}
+## LightTPD چیست؟ {#what}
+
 در مقایسه با سایر سرورهای وب مانند Apache و Nginx ، سرور وب LightTPD دارای یک ردپای حافظه کوچک است ، بنابراین مدیریت مؤثر بار CPU را فراهم می کند. این سرور وب سبک ، مجموعه های پیشرفته ای از جمله FastCGI ، SCGI ، AUTH ، خروجی-ترکیبی و URL را فراهم می کند. FastCGI LightTPD را می توان برای پشتیبانی از PHP پیکربندی کرد. به غیر از PHP همچنین از سایر زبانهای برنامه نویسی از جمله پایتون ، پرل ، روبی و موارد دیگر نیز پشتیبانی می کند.
 بسیاری از سرورهای وب منبع باز و سرورهای پروکسی وب وجود دارد اما LightTPD در بالای لیستی است که به طور گسترده مورد استفاده قرار می گیرد. این راه حل سرور وب بسیار آسان است و به الزامات ساده ای مانند اوبونتو 18.04 نیاز دارد. علاوه بر این ، کسانی که مایل به استقرار این راه حل منبع باز هستند می توانند آخرین نسخه را از این [لینک][9] بارگیری کنند. مهمتر از همه ، از بسیاری از زبانهای غیر از PHP مانند پایتون ، روبی ، پرل و موارد دیگر پشتیبانی می کند. علاوه بر این ، تمام اسناد مربوط به توسعه و استقرار در دسترس است. بنابراین ، توسعه دهندگان می توانند کد منبع را در [GitHub][10] پیدا کنند.
 
-## مزایای LightPD   {#benefits}
+## مزایای LightPD {#benefits}
+
 در این بخش ، مزایا و مقرراتی را که این سرور وب منبع باز ارائه می دهد ، خواهیم پرداخت. بنابراین ، اگر به دنبال یک سرور وب سریع ، کارآمد و ایمن هستید ، سرور وب LightTPD بهترین انتخاب برای شما است. نیازی به حافظه و استفاده از CPU زیادی ندارد. که آن را به یکی از بهترین ها برای هر پروژه ای که نیاز به سرعت و عملکرد بالا دارد ، می کند. LightTPD می تواند حداکثر 10000 اتصال را به موازات یک سرور واحد کنترل کند. LightTPD راه حل مناسبی برای هر سرور است که از سرعت یا مشکلات عملکرد رنج می برد. این راه حل رایگان مقرون به صرفه و کارآمد است.
 علاوه بر این ، این راه حل وب سرور تقریباً برای همه سیستم عامل های محبوب مانند ویندوز ، لینوکس ، سولاریس و MACOS پشتیبانی می کند. به همین ترتیب ، LightTPD برای سیستم های تعبیه شده بسیار خوبی است و توانایی ارائه محتوای استاتیک و پویا را برای چندین کاربران حتی با منابع محدود دارد. LightTPD که به دلیل امنیت ، سرعت ، انطباق و انعطاف پذیری شناخته شده است ، به سرعت در حال تعریف مجدد کارآیی یک وب سرور است.
 LightTPD مزایای برجسته زیر را ارائه می دهد:
@@ -34,7 +36,8 @@ LightTPD مزایای برجسته زیر را ارائه می دهد:
   * mod_proxy درخواست HTTP/1.1 را به Backends می کند (تغییر از HTTP/1.0)
   * پشتیبانی از استفاده از chroot و mod_rewrite
 
-## چگونه LightTPD را پیکربندی کنیم؟   {#configure}
+## چگونه LightTPD را پیکربندی کنیم؟ {#configure}
+
 در این بخش از این پست وبلاگ ، مراحل پیکربندی LightTPD را بررسی می کنیم. نصب LightTPD در اوبونتو بسیار ساده و ساده است. فقط از دستور زیر استفاده کنید و خوب هستید که بروید
 ```
 $ sudo apt install lighttpd
@@ -74,9 +77,10 @@ su make install
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="نحوه تنظیم و پیکربندی LightTPD برای وب سایت های با کارایی بالا">}}
 
 
-## نتیجه گیری   {#conclusion}
+## نتیجه {#conclusion}
+
 این ما را به پایان این پست وبلاگ می رساند. ما از طریق LightTPD چیست؟ چگونه LightTPD را پیکربندی کنیم؟ و تنظیم روش LightTPD یک سرور وب رایگان ، با کارایی بالا و منبع باز است که برای محیط های مهم با سرعت طراحی شده است. ردپای حافظه کم ، بار کوچک CPU و بهینه سازی سرعت آن را برای سرورهایی که دچار مشکلات بار هستند مناسب می کند. این سبک ، ایمن و سریع در مقایسه با سایر سرورهای وب است که باعث می شود آن را به یکی از بهترین گزینه ها برای وب سایت های با کارایی بالا و با سرعت تبدیل کند. LightTPD جامعه ای بسیار زنده و پر جنب و جوش دارد که پشتیبانی از موضوعات و نمایش داده ها را ارائه می دهد. بسیاری از محصولات منبع باز و پست های مربوط به وبلاگ وجود دارد که می توانید از طریق آن در بخش "اکتشاف" در زیر ذکر شوید. بنابراین ، اگر به دنبال انتخاب یک سرور منبع باز برای تجارت خود هستید ، این مقاله واقعاً می تواند به شما کمک کند.
-سرانجام ،**[Containerize.com][12]**در مورد محصولات منبع باز بیشتر در حال نوشتن است. لطفاً برای به روزرسانی های منظم ، با این [پشته راه حل وب سرور][1] S در تماس باشید. علاوه بر این ، شما می توانید ما را در حساب های رسانه های اجتماعی [Facebook][13] ، [LinkedIn][14] و [Twitter][15] دنبال کنید.
+سرانجام ،  **[Containerize.com][12]**  در مورد محصولات منبع باز بیشتر در حال نوشتن است. لطفاً برای به روزرسانی های منظم ، با این [پشته راه حل وب سرور][1] S در تماس باشید. علاوه بر این ، شما می توانید ما را در حساب های رسانه های اجتماعی [Facebook][13] ، [LinkedIn][14] و [Twitter][15] دنبال کنید.
 
 ## کاوش کنید
 ممکن است پیوندهای زیر مربوطه را پیدا کنید:
@@ -88,23 +92,24 @@ su make install
   * [5 پشته راه حل سرور وب منبع باز در سال 2021][4]
   * [Setup XAMPP و PHPMYADMIN به عنوان LocalHost در ویندوز][2]
 
-  
-[1]: https://products.containerize.com/solution-stack/
-[2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
-[3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
-[4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
-[5]: #what
-[6]: #benefits
-[7]: #configure
-[8]: #conclusion
-[9]: http://www.lighttpd.net/download/
-[10]: https://github.com/lighttpd/lighttpd1.4
-[11]: http://your-server-ip/
-[12]: https://www.containerize.com/
-[13]: https://web.facebook.com/containerize
-[14]: https://www.linkedin.com/company/containerize/
-[15]: https://twitter.com/containerize_co
-[16]: https://products.containerize.com/solution-stack/xampp/
-[17]: https://products.containerize.com/solution-stack/nginx/
-[18]: https://products.containerize.com/solution-stack/caddy/
-[19]: https://products.containerize.com/solution-stack/lighttpd
+
+
+ [1]: https://products.containerize.com/solution-stack/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
+ [4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
+ [5]: #what
+ [6]: #benefits
+ [7]: #configure
+ [8]: #conclusion
+ [9]: http://www.lighttpd.net/download/
+ [10]: https://github.com/lighttpd/lighttpd1.4
+ [11]: http://your-server-ip/
+ [12]: https://www.containerize.com/
+ [13]: https://web.facebook.com/containerize
+ [14]: https://www.linkedin.com/company/containerize/
+ [15]: https://twitter.com/containerize_co
+ [16]: https://products.containerize.com/solution-stack/xampp/
+ [17]: https://products.containerize.com/solution-stack/nginx/
+ [18]: https://products.containerize.com/solution-stack/caddy/
+ [19]: https://products.containerize.com/solution-stack/lighttpd

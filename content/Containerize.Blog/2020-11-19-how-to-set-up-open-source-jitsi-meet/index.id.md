@@ -21,11 +21,13 @@ Kami baru -baru ini menerbitkan [posting blog][1] yang berbicara tentang dampak 
   * [Jitsi bertemu fitur eksplorasi][5]
   * [Kesimpulan][6]
 
-## Pengenalan singkat Jitsi Meet   {#intro}
+## Pengenalan singkat Jitsi Meet {#intro}
+
 [Jitsi Meet][7] adalah perangkat lunak kolaborasi video open source, aman, dan terukur sepenuhnya gratis. Ini menyediakan beberapa fitur populer seperti konferensi video multipartai dengan enkripsi penuh, dukungan untuk Etherpad, dan perekaman video/audio. Perangkat lunak yang kompatibel dengan WEBRTC ini memungkinkan Anda untuk mengundang sebanyak mungkin pengguna ke pertemuan video.
 Munculnya pertemuan virtual dimulai dalam beberapa waktu terakhir dan orang -orang percaya bahwa komunikasi melalui panggilan video/audio lebih efektif dan kolaboratif. Di atas segalanya, kategori perangkat lunak ini tidak hanya berfungsi pada laptop/desktop tetapi juga memungkinkan peserta untuk menghadiri pertemuan video yang diamankan tatap muka melalui ponsel mereka.
 
-## Bagaimana cara mengatur jitsi bertemu?   {#mempersiapkan}
+## Bagaimana cara mengatur jitsi bertemu? {#setup}
+
 Di bagian ini, kami akan masuk ke proses instalasi Jitsi Meet. Pertama, pastikan Anda telah menginstal prasyarat berikut.
   * [Docker][8]
 Setelah Docker diinstal, unduh file zip kode sumber dari [tautan] ini [9].
@@ -38,7 +40,8 @@ Sekarang, jalankan perintah berikut untuk membuat direktori yang diperlukan.
 Akhirnya, jalankan perintah ini untuk memutar gambar Docker dan mengakses aplikasi di URL ini di browser.
 `Docker -Compose UP -D`
 
-## jitsi bertemu fitur eksplorasi   {#features}
+## Jitsi bertemu fitur eksplorasi {#features}
+
 Perangkat lunak obrolan video gratis ini menawarkan banyak fitur kaya. Ini adalah beranda yang akan ditampilkan terlebih dahulu.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="konferensi video">}}
@@ -64,7 +67,8 @@ Jitsi Meet menawarkan obrolan terintegrasi dengan emoji.
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.19.57_.jpg" alt="Perangkat lunak pertemuan video">}}
 
 
-## kesimpulan   {#con}
+## Kesimpulan {#con}
+
 Dalam artikel ini, kami menjalani perangkat lunak komunikasi jarak jauh yang menakjubkan dan proses instalasinya. Selain itu, sudah saatnya untuk memilih solusi terbaik untuk menyinkronkan kebutuhan bisnis dengan teknologi yang berkembang. Pada akhirnya, [containerize.com][10] telah bekerja untuk memperluas daftar perangkat lunak konferensi video. Oleh karena itu, tetap terhubung dengan kategori [perangkat lunak konferensi video][2] untuk pembaruan rutin.
 
 ## halaman produk yang relevan
@@ -75,7 +79,8 @@ Anda mungkin menemukan tautan berikut yang relevan:
   * [Elemen][13]
   * [Kawat][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

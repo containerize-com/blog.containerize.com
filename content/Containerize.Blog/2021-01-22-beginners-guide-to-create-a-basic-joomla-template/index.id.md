@@ -14,24 +14,26 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomla-templates-2.png" alt="Template Joomla Dasar">}}
 
 Di era digital ini, sistem manajemen konten adalah kebutuhan dasar bisnis apa pun untuk semua kebutuhan pembuatan konten mereka. Dan, ada sejumlah open-source serta perangkat lunak CMS berbayar yang tersedia di pasar. Kami juga telah [terdaftar][1] Beberapa perangkat lunak manajemen konten open-source teratas untuk bisnis. Joomla adalah salah satu perangkat lunak CMS open-source paling populer dan dalam tutorial ini kami akan memandu Anda melalui langkah demi langkah dan menjelaskan cara membuat template Joomla dari awal. Jadi mari kita mulai!
-**Catatan: Kami berasumsi bahwa Anda memiliki versi joomla 2.5 yang diinstal** 
-  ***[Struktur Direktori Pengaturan][2]** 
-  ***[Buat file TemplateDetails.xml dasar][3]** 
-  ***[Buat file index.php dasar][4]** 
-  ***[temukan dan instal template][5]** 
-  ***[paket templat][6]** 
-  ***[Kesimpulan][7]** 
+ **Catatan: Kami berasumsi bahwa Anda memiliki versi joomla 2.5 yang diinstal** 
+*  **[Struktur Direktori Pengaturan][2]**  
+*  **[Buat file TemplateDetails.xml dasar][3]**  
+*  **[Buat file index.php dasar][4]**  
+*  **[temukan dan instal template][5]**  
+*  **[paket templat][6]**  
+*  **[Kesimpulan][7]**  
 
-Struktur direktori setup ##  {#setup}
-Untuk membuat template Joomla yang sangat mendasar terlebih dahulu, buat folder baru di folder Templates. Sebutkan folder apa pun yang ingin Anda sebut templat Anda, mis. “**MyNewTemplate** “.
-Menggunakan Editor Teks Favorit Anda Buat file **index.php  **dan **  templatedetails.xml **. Untuk mengelola gambar dan lembar gaya Anda, buat 2 folder baru yang disebut  **gambar **  dan  **CSS ** . Di dalam folder  **CSS **  Buat file yang disebut  **template.css**  .
+## Struktur Direktori Pengaturan {#setup}
+
+Untuk membuat template Joomla yang sangat mendasar terlebih dahulu, buat folder baru di folder Templates. Sebutkan folder apa pun yang ingin Anda sebut templat Anda, mis. “  **MyNewTemplate**  “.
+Menggunakan Editor Teks Favorit Anda Buat file  **index.php** dan  **templatedetails.xml**  . Untuk mengelola gambar dan lembar gaya Anda, buat 2 folder baru yang disebut  **gambar**  dan  **CSS**  . Di dalam folder  **CSS**  Buat file yang disebut **template.css**  .
 Struktur direktori Anda akan terlihat seperti ini
 
 {{< figure align=center src="images/Screenshot-2021-01-22-at-12.30.14-PM.png" alt="Struktur Direktori Template Joomla">}}
 
 
-## Buat file dasar templatedetails.xml   {#xml}
-File **templatedetails.xml**  memegang semua metadata tentang templat Anda. Dan, file ini sangat penting tanpanya, template Anda tidak akan dilihat oleh Joomla!.
+## Buat file Templatedetails.xml dasar {#xml}
+
+File  **templatedetails.xml**  memegang semua metadata tentang templat Anda. Dan, file ini sangat penting tanpanya, template Anda tidak akan dilihat oleh Joomla!.
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="template">
@@ -66,7 +68,8 @@ File **templatedetails.xml**  memegang semua metadata tentang templat Anda. Dan,
 Isi Templateetails.xml cukup jelas. Anda bisa menyalin konten yang mengubah bit yang diperlukan.
 Biarkan posisi apa adanya - ini adalah set umum sehingga Anda akan dapat dengan mudah beralih dari templat standar.
 
-## Buat file index.php dasar   {#php}
+## Buat file index.php dasar {#php}
+
 Index.php menjadi file bootstrap utama dari setiap halaman yang Joomla! memberikan. Halaman ini akan menunjukkan kode Bare-Bones yang siap untuk Anda potong dan tempel ke dalam desain Anda sendiri.
 ```
 <?php defined('_JEXEC') or die('Restricted access');?>
@@ -84,7 +87,8 @@ Index.php menjadi file bootstrap utama dari setiap halaman yang Joomla! memberik
 </html>
 ```
 
-## temukan dan instal template   {#install}
+## Temukan dan Pasang Template {#install}
+
 Pertama -tama Anda harus memberi tahu Joomla! bahwa Anda telah membuat templat baru. Fitur ini disebut Discover Extensions dan dapat diakses melalui
 ```
 Extensions -> Extension Manager -> Discover
@@ -94,21 +98,24 @@ Klik Temukan tombol untuk menemukan template Anda, lalu pilih dan klik Instal un
 Extensions -> Template Manager
 ```
 
-## Paket template   {#packge}
+## Kemas template {#packge}
+
 Direktori yang tidak di -zip dengan beberapa file bukanlah metode yang baik untuk distribusi. Jadi, demi distribusi, kita harus membuat paket templat kita. Paket dapat dalam format zip (dengan ekstensi .zip).
 Jika template Anda ada di direktori myTemplate/ maka untuk membuat paket Anda dapat terhubung ke direktori itu dan menggunakan perintah seperti:
 ```
 zip -r ..\mytemplate.zip .
 ```
 
-## kesimpulan   {#conclusion}
+## Kesimpulan {#conclusion}
+
 Dalam artikel ini, kami belajar tentang Template Joomla. Kami melewati langkah demi langkah tentang cara membuat template Joomla. Ini hanya tutorial yang sangat mendasar untuk memulai dengan penciptaan template. Tentu saja, Anda dapat membangun template yang sangat disesuaikan dan ditingkatkan berdasarkan struktur tulang telanjang ini.
 
 ## halaman produk yang relevan
 Anda mungkin menemukan tautan berikut yang relevan:
   * [Panduan Pengembangan Template Joomla untuk Pemula][8]
 
-  
+
+
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

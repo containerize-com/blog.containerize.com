@@ -21,7 +21,8 @@ Recordar todas las diferentes combinaciones de contraseñas para diferentes siti
   * [Psono][5]
   * [Conclusión][6]
 
-## Keepass   {#keepass}
+## Conserva {#keepass}
+
 Keepass es uno de los mejores software gratuito de Administrador de contraseñas. Hace que sea más fácil para los usuarios acceder a las contraseñas sincronizarlas en múltiples dispositivos o compartir archivos en Dropbox, OneDrive u otras aplicaciones para compartir archivos. Si bien Keepass se desarrolla principalmente como un administrador de contraseñas para Windows OS, aún puede ejecutar el Administrador de contraseñas en Max o Linux también. Todas las contraseñas se almacenan en una base de datos que está encriptada con una clave maestra que se comparte con el usuario. Cuando se trata de cifrado, Keepass usa SHA-256, dos algoritmos de cifrado populares para garantizar la seguridad de las contraseñas. Aquí hay algunos profesionales de Keepass:
   * Administrador de contraseñas seguras
   * Fuente abierta
@@ -30,8 +31,9 @@ Keepass es uno de los mejores software gratuito de Administrador de contraseñas
   * Portátil
 [Leer más][7]
 
-## Passbolt   {#PassBolt}
-Passbolt facilita a los empleados almacenar contraseñas para diferentes servidores, aplicaciones que usan en el diario y los alientan a no mantener la misma contraseña para múltiples cuentas. Funciona para aplicaciones de navegador, correos electrónicos de aplicaciones de escritorio y mucho más. Como Administrador de contraseñas de código abierto, es muy seguro y utiliza el cifrado GNUPG para autenticar a los usuarios y una base de datos de contraseña segura. Aquí hay algunas características destacadas de Passbolt:
+## Rayo {#passbolt}
+
+Passbolt facilita que los empleados almacenen contraseñas para diferentes servidores, aplicaciones que usan diariamente y los alientan a no mantener la misma contraseña para múltiples cuentas. Funciona para aplicaciones de navegador, correos electrónicos de aplicaciones de escritorio y mucho más. Como Administrador de contraseñas de código abierto, es muy seguro y utiliza el cifrado GNUPG para autenticar a los usuarios y una base de datos de contraseña segura. Aquí hay algunas características destacadas de Passbolt:
   * Código de código libre y abierto
   * Creado para equipos
   * Incorpora el cifrado Gnupg
@@ -40,7 +42,8 @@ Passbolt facilita a los empleados almacenar contraseñas para diferentes servido
   * Administrador de contraseñas autohostadas
 [Leer más][8]
 
-## Password Safe   {#Password-Safe}
+## Contraseña segura {#password-safe}
+
 Contraseña Safe se desarrolló únicamente para usuarios de Windows y Linux. Sin embargo, también puede encontrar clones del software para otros sistemas operativos y plataformas. Como un administrador de contraseñas gratuito, Password Safe se mejoró aún más para mantener sus contraseñas seguras al incluir algoritmo de cifrado TWOFISH y usar funciones de hash criptográfica como SHA-256 para generar claves. Aquí hay algunas características destacadas de contraseña segura:
   * Clasifica fácilmente las contraseñas
   * Exportar o importar contraseñas
@@ -49,7 +52,8 @@ Contraseña Safe se desarrolló únicamente para usuarios de Windows y Linux. Si
   * Administrador de contraseñas seguras y seguras
 [Leer más][9]
 
-## bitwarden   {#bitwarden}
+## Bitwarden {#bitwarden}
+
 BitWarden es un administrador de contraseñas de código abierto redondeado que no solo puede ser utilizado por las personas para almacenar su información crítica e importante, sino que también pueden ser implementadas por empresas en todos los niveles. Como administrador de contraseñas de código abierto, viene en dos versiones: versión gratuita y pagada. Del mismo modo, BitWarden se puede descargar tanto en teléfonos móviles iOS como de Android, y proporciona muchas extensiones de navegador para enfocar las contraseñas también. Es uno de los mejores administradores de contraseñas de código abierto. Las siguientes son algunas de las características clave que proporciona:
   * Compatibilidad de plataforma cruzada
   * Informes de salud sobre contraseñas
@@ -58,7 +62,8 @@ BitWarden es un administrador de contraseñas de código abierto redondeado que 
   * Registros de eventos detallados
 [Leer más][10]
 
-## psono   {#psono}
+## Psono {#psono}
+
 Con PSONO, puede implementar el Administrador de contraseñas en su propio servidor y permitir que hasta 10 usuarios almacenen su información importante y accedan a ella también. Como administrador de contraseñas de código abierto, también tiene múltiples compatibilidad con dispositivos y plataformas cruzadas, como iOS, Android, MacOS, Linux y navegadores como Chrome, Edge, Safari y más. Aquí hay algunas características destacadas de Psono:
   * Fuente abierta
   * Utiliza un cifrado multicapa
@@ -66,7 +71,8 @@ Con PSONO, puede implementar el Administrador de contraseñas en su propio servi
   * Credenciales de inicio de sesión de Autocomisos
 [Leer más][11]
 
-## conclusión   {#conclusion}
+## Conclusión {#conclusion}
+
 Los gerentes de credenciales son una forma conveniente de almacenar sus contraseñas para diferentes cuentas y sitios web en un solo lugar. Especialmente si usa combinaciones de contraseñas complejas que consisten en caracteres alfanuméricos y especiales, entonces puede ser difícil recordarlos a todos. Hemos discutido algunos de los principales administradores de contraseñas de código abierto en este blog. Algunos son mejores para las personas, algunos son mejores para los equipos, otros son mejores para Windows y otros para navegadores o aplicaciones móviles. Todos ellos tienen sus propios pros y contras. Elegir el mejor depende de los requisitos del usuario.
 _Un puede unirse a nosotros en [Twitter][12], [LinkedIn][13] y nuestra página [Facebook][14]. ¿Qué administradores de contraseñas de código abierto usan? Si tiene alguna pregunta o comentarios, por favor_ [póngase en contacto][15].
 
@@ -75,7 +81,8 @@ Puede encontrar los siguientes enlaces relevantes:
   * [Configurar y administrar el Administrador de contraseñas Keepass para Windows][16]
   * [El mejor software de administración de contraseñas de código abierto][17]
 
-  
+
+
 [1]: #keepass
 [2]: #passbolt
 [3]: #password-safe

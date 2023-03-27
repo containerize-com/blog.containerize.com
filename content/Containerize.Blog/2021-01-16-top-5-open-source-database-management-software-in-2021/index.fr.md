@@ -23,7 +23,8 @@ Nous discuterons des outils Open Source suivants dans cet article:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin   {#phpmyadmin}
+## phpmyadmin {#phpmyadmin}
+
 PHPMYADMIN est un composant intégré avec les serveurs Web XAMPP et WAMPP. À l'heure actuelle, PHPMyAdmin est le logiciel de gestion des bases de données le plus utilisé. Les développeurs peuvent gérer les informations, les tables, les colonnes, les relations, les références, les utilisateurs et les autorisations, etc. via l'interface. De plus, il est utilisé pour effectuer la plupart des tâches d'administration, notamment la création d'une base de données, l'exécution de requêtes et l'ajout de comptes d'utilisateurs. Ce système de gestion de base de données est écrit en PHP ainsi que la saisie d'autres langues telles que JavaScript et SCSS. Par conséquent, toute la documentation est disponible concernant le développement et le déploiement. Ce sont quelques caractéristiques remarquables de phpmyadmin:
   * Interface Web facile à utiliser.
   * Prise en charge des fonctionnalités MySQL multiples.
@@ -51,7 +52,7 @@ Il s'agit d'une autre alternative PhpMyAdmin, utilisée pour créer et gérer de
 [Lire la suite][11]
 
 ## Cubrid
-Les principales caractéristiques de Cubrid incluent le partage de données, la mise en cache de données haute performance, les relations d'éléments de base de données orientées objet, un courtier au middleware natif, un support de mondialisation extensible et personnalisable. Cubrid assure des performances, une stabilité, une évolutivité et une haute disponibilité élevées qui sont indispensables pour les applications Web critiques. Il fournit des fonctions, notamment la mise en commun des connexions, la surveillance et le traçage des journaux et l'analyse ainsi que les sauvegardes de base de données et restaurent les points. Cubrid est un outil SGBD de relation d'objet, composé du serveur de base de données, du courtier et du Cubrid Manager. En fait, toute la documentation est disponible concernant le développement et le déploiement. Voici quelques caractéristiques les plus remarquables de Cubrid:
+Les principales caractéristiques de Cubrid incluent le partage de données, la mise en cache de données haute performance, les relations d'éléments de base de données orientées objet, un courtier de middleware natif, un support de mondialisation extensible et personnalisable. Cubrid assure des performances, une stabilité, une évolutivité et une haute disponibilité élevées qui sont indispensables pour les applications Web critiques. Il fournit des fonctions, notamment la mise en commun des connexions, la surveillance et le traçage des journaux et l'analyse ainsi que les sauvegardes de base de données et restaurent les points. Cubrid est un outil SGBD de relation d'objet, composé du serveur de base de données, du courtier et du Cubrid Manager. En fait, toute la documentation est disponible concernant le développement et le déploiement. Voici quelques caractéristiques les plus remarquables de Cubrid:
   * Entièrement transactionnel, conforme à l'acide.
   * Le tableau rejoint (intérieur, gauche, droit, extérieur, union, fusion).
   * Expressions régulières conditionnelles.
@@ -83,7 +84,8 @@ Pour en savoir plus sur les outils de gestion de la base de données susmentionn
   * [Pourquoi MySQL est un système de gestion de la base de données open source populaire?][2]
   * [Kafka vs redis pub-sub, différences que vous devez connaître][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

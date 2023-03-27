@@ -23,104 +23,110 @@ categories: ['Software Development']
   * [Express][7]
   * [NESTJS][8]
 
-## angular   {#Angular}
+## Угловой {#Угловой}
+
 [Angular][9] является одной из лучших фреймворков JavaScript с открытым исходным кодом, которые широко используются разработчиками. Это открытый источник и поставляется с полной документацией и поддержкой.
-**Лучше всего для** : эта структура JavaScript лучше всего подходит для создания одностраничных приложений. Кроме того, разработчики выбирают Angular для создания индивидуальных приложений. Это одна из структур для веб-разработки, которые являются кроссплатформенными и позволяют вам разрабатывать приложения почти на всех популярных платформах. Кроме того, Angular является лучшим выбором, если вы создаете приложения для данных в реальном времени, приложения для потокового видео или приложения для электронной коммерции для своего бизнеса.
-**Особенности** : Angular предлагает последние возможности для разработки высокопроизводительных прогрессивных приложений. Кроме того, разработчики могут разрабатывать нативные приложения, используя Cordova и Ionic. Это позволяет легко масштабировать приложения и предлагает высокую скорость, используя рендеринг на стороне сервера. Кроме того, он предлагает лучшую поддержку инструментов, варианты CLI и обеспечивает поддержку как JavaScript, так и для TypeScript.
+ **Лучше всего для** : эта структура JavaScript лучше всего подходит для создания одностраничных приложений. Кроме того, разработчики выбирают Angular для создания индивидуальных приложений. Это одна из структур для веб-разработки, которые являются кроссплатформенными и позволяют вам разрабатывать приложения почти на всех популярных платформах. Кроме того, Angular является лучшим выбором, если вы создаете приложения для данных в реальном времени, приложения для потокового видео или приложения для электронной коммерции для своего бизнеса.
+ **Особенности** : Angular предлагает последние возможности для разработки высокопроизводительных прогрессивных приложений. Кроме того, разработчики могут разрабатывать нативные приложения, используя Cordova и Ionic. Это позволяет легко масштабировать приложения и предлагает высокую скорость, используя рендеринг на стороне сервера. Кроме того, он предлагает лучшую поддержку инструментов, варианты CLI и обеспечивает поддержку как JavaScript, так и для TypeScript.
 
-## React   {#react}
+## Реагировать {#Реагировать}
+
 Это еще одна из популярных фреймворков JavaScript для фронтальной разработки. Он основан на компонентах и ​​предлагает максимальную гибкость, масштабируемость и скорость. Это бесплатно, открытый источник, подходит как веб-и мобильные приложения, которые имеют интенсивное взаимодействие с пользователем.
-**Лучше всего для** : [React][10] лучше всего подходит для создания одностраничных приложений со сложными пользовательскими панелями, такими как приложения для бизнес-аналитики и аналитики данных. Кроме того, эта структура JavaScript с открытым исходным кодом предоставляет декларатив, где разработчики могут повторно использовать компоненты.
-**Функции** : Это одна из самых используемых фреймворков JavaScript, которые предлагают высокую скорость, используя DOM Diffing. Есть встроенные крючки для лучшей производительности приложений. Кроме того, он предлагает коммунальные услуги для управления статическими активами, стилями и сторонними библиотеками. Кроме того, React является одной из тех структур для веб -разработки, которая предлагает поддержку JavaScript и TypeScript. Существует богатая поддержка инструментов, где разработчики могут использовать свои функции разработки.
+ **Лучше всего для** : [React][10] лучше всего подходит для создания одностраничных приложений со сложными пользовательскими панелями, такими как приложения для бизнес-аналитики и аналитики данных. Кроме того, эта структура JavaScript с открытым исходным кодом предоставляет декларатив, где разработчики могут повторно использовать компоненты.
+ **Функции** : Это одна из самых используемых фреймворков JavaScript, которые предлагают высокую скорость, используя DOM Diffing. Есть встроенные крючки для лучшей производительности приложений. Кроме того, он предлагает коммунальные услуги для управления статическими активами, стилями и сторонними библиотеками. Кроме того, React является одной из тех структур для веб -разработки, которая предлагает поддержку JavaScript и TypeScript. Существует богатая поддержка инструментов, где разработчики могут использовать свои функции разработки.
 
-## vue.js   {#vue.js}
+## Vue.js {#Vue.js}
+
 [Vue.js][11] - еще одна популярная структура JavaScript с открытым исходным кодом, которая стала первым выбором разработчиков для создания приложений. Это фронтальная структура JavaScript, которая предлагает богатые положения для анимации, взаимодействия с пользователями, графики и прототипирования.
-**Лучше всего для** : vue.js - одна из тех фреймворков JavaScript с открытым исходным кодом, которые предлагают [быстрое разработку приложений][12] и помогают создать прототип приложения в течение короткого периода времени. Кроме того, он лучше всего подходит для строительства мониторных панелей, которые содержат Draggable и Dropbable Elements.
-**Особенности** : Эта фронтальная структура MVVM очень универсальна и предлагает возможности для создания Seo-Opttimised Apps. Эта структура также использует преимущества виртуального DOM и предлагает богатый механизм маршрутизации. Кроме того, экосистема Vue.js очень проста и легкая.
+ **Лучше всего для** : vue.js - одна из тех фреймворков JavaScript с открытым исходным кодом, которые предлагают [быстрое разработку приложений][12] и помогают создать прототип приложения в течение короткого периода времени. Кроме того, он лучше всего подходит для строительства мониторных панелей, которые содержат Draggable и Dropbable Elements.
+ **Особенности** : Эта фронтальная структура MVVM очень универсальна и предлагает возможности для создания Seo-Opttimised Apps. Эта структура также использует преимущества виртуального DOM и предлагает богатый механизм маршрутизации. Кроме того, экосистема Vue.js очень проста и легкая.
 
-## Express   {#Express}
+## Выражать {#Выражать}
+
 [Express][13] является наиболее широко используемой лучшей бэкэнд-платформой для написания логики на стороне сервера. Архитектура этой популярной структуры JavaScript легка и настраивается. Тем не менее, это открывает источник JavaScript Framework является главным приоритетом разработчиков, когда речь идет о разработке на стороне сервера.
-**Лучше всего для** : не стесняйтесь выбирать эту среду JavaScript, если вы создаете приложение, которое требует обширного ввода пользователя. Более того, это первый выбор, когда речь заходит о строительстве отдыха и API SOAP.
-**Функции** : Express - одна из самых используемых фреймворков JavaScript, которые также предлагают поддержку TypeScript. Есть ряд плагинов, которые доступны для необходимой функциональности. Кроме того, разработчики написали так много модулей, что вы можете найти в каталоге NPM. Express предлагает модульную архитектуру, где вы можете повторно использовать модули по всему приложению. Для разработчиков доступна отличная поддержка инструментов и разработчиков.
+ **Лучше всего для** : не стесняйтесь выбирать эту среду JavaScript, если вы создаете приложение, которое требует обширного ввода пользователя. Более того, это первый выбор, когда речь заходит о строительстве отдыха и API SOAP.
+ **Функции** : Express - одна из самых используемых фреймворков JavaScript, которые также предлагают поддержку TypeScript. Есть ряд плагинов, которые доступны для необходимой функциональности. Кроме того, разработчики написали так много модулей, что вы можете найти в каталоге NPM. Express предлагает модульную архитектуру, где вы можете повторно использовать модули по всему приложению. Для разработчиков доступна отличная поддержка инструментов и разработчиков.
 
-## nestjs   {#nestjs}
+## Nestjs {#Nestjs}
+
 И последнее, но не менее важное, [NESTJS][14]-еще одна фреймворк с открытым исходным кодом, который используется для написания логики на стороне сервера. У Nodejs есть много средних рамок, но Nestjs набирает популярность благодаря своей улучшенной архитектуре и богатым вариантам лесов.
-**Лучше всего для** : это одна из самых используемых фреймворков JavaScript, которая предлагает богатые возможности для тестирования и строительства. Он также основан на модульной архитектуре для построения небольших и больших применений. Кроме того, он предлагает масштабируемость, способность повторного использования и высокую скорость.
-**Функции** : эта внутренняя структура полностью поддерживается TypeScript и прост в использовании и обучении. Кроме того, существуют богатые варианты CLI, которые повышают процессы разработки. Тем не менее, существует огромное сообщество разработчиков, которое всегда активно и реагирует на проблемы.
+ **Лучше всего для** : это одна из самых используемых фреймворков JavaScript, которая предлагает богатые возможности для тестирования и строительства. Он также основан на модульной архитектуре для построения небольших и больших применений. Кроме того, он предлагает масштабируемость, способность повторного использования и высокую скорость.
+ **Функции** : эта внутренняя структура полностью поддерживается TypeScript и прост в использовании и обучении. Кроме того, существуют богатые варианты CLI, которые повышают процессы разработки. Тем не менее, существует огромное сообщество разработчиков, которое всегда активно и реагирует на проблемы.
 
 ## Заключение
 Это подводит нас к концу этого сообщения в блоге. Надеемся, что это поможет вам сделать правильный выбор, когда речь заходит о выборе среди популярных фреймворков JavaScript. Для веб -разработки есть много средств с открытым исходным кодом, но это полностью зависит от характера вашего бизнес -приложения. Есть много других соответствующих статей, которые упоминаются в разделе «Исследовать» ниже.
-Наконец, **[cantainerize.com][15]**  написал на дополнительных продуктах с открытым исходным кодом. Более того, вы можете подписаться на нас в наших учетных записях в социальных сетях [Facebook][16], [LinkedIn][17] и [Twitter][18].
+Наконец,  **[cantainerize.com][15]**  написал на дополнительных продуктах с открытым исходным кодом. Более того, вы можете подписаться на нас в наших учетных записях в социальных сетях [Facebook][16], [LinkedIn][17] и [Twitter][18].
 
 ## Исследовать
 Вы можете найти следующие ссылки актуальными:
-  * [Автоматизируйте бизнес -операции с использованием бесплатного и программного обеспечения с открытым исходным кодом][19]
+  * [Автоматизировать бизнес -операции с использованием бесплатного и открытого программного обеспечения][19]
   * [Управление контентом][20], [блоггинг][21], [дискуссионный форум][22], [программное обеспечение для здравоохранения][23]
   * [Helpdesk][24], [Marketing Automation][25], [Marketplace][26], [Инструменты развертывания][27], [Безопасность][28]
   * [Live Chat][29], [форма][30], [транзакционная электронная почта][31], [Программное обеспечение бизнес -аналитики][32]
   * [Информационный бюллетень][33], [страница статуса][34], [выставление счетов][35], [Управление паролем][36], [Программное обеспечение для очередей сообщений][37]
   * [Single Sign-On][38], [Management Project][39], [быстрое разработка приложений][12], [программное обеспечение для анимации][40]
-  * [Cart Cart][41], [Управление версией с открытым исходным кодом][42], [стек решений веб -сервера][43], [Программное обеспечение для редактирования фото][44]
+  * [Cart Cart][41], [Контроль версий с открытым исходным кодом][42], [стек решений веб -сервера][43], [Программное обеспечение для редактирования фото][44]
   * [Управление базой базы][45], [видеоконференция][46], [платформы блокчейна][47], [Большие данные][48]
   * [Программное обеспечение CMDB][49], [Программное обеспечение для разработки игры][50], [Планирование ресурсов предприятия (ERP)][51]
   * [Программное обеспечение для редактирования видео][52], [Системы управления базами данных][53], [Производительность офиса][54]
   * [Система управления обучением (LMS)][55], [программное обеспечение резервного копирования и синхронизации][56], [цифровое судебное программное обеспечение][57]
 
-  
-[1]: https://products.containerize.com/
-[2]: #
-[3]: https://www.facebook.com/
-[4]: #Angular
-[5]: #React
-[6]: #Vue.js
-[7]: #Express
-[8]: #NestJS
-[9]: https://angular.io/
-[10]: https://reactjs.org/
-[11]: https://vuejs.org/
-[12]: https://products.containerize.com/rad/
-[13]: https://expressjs.com/
-[14]: https://nestjs.com/
-[15]: https://www.containerize.com/
-[16]: https://web.facebook.com/containerize
-[17]: https://www.linkedin.com/company/containerize/
-[18]: https://twitter.com/containerize_co
-[19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
-[20]: https://products.containerize.com/content-management/
-[21]: https://products.containerize.com/blogging/
-[22]: https://products.containerize.com/discussion-forum/
-[23]: https://products.containerize.com/healthcare-technologies/
-[24]: https://products.containerize.com/helpdesk/
-[25]: https://products.containerize.com/marketing-automation/
-[26]: https://products.containerize.com/marketplace/
-[27]: https://products.containerize.com/deployment-tools/
-[28]: https://products.containerize.com/security-testing-tools/
-[29]: https://products.containerize.com/live-chat/
-[30]: https://products.containerize.com/form/
-[31]: https://products.containerize.com/transactional-email/
-[32]: https://products.containerize.com/business-intelligence/
-[33]: https://products.containerize.com/newsletter/
-[34]: https://products.containerize.com/status/
-[35]: https://products.containerize.com/invoicing/
-[36]: https://products.containerize.com/password-management/
-[37]: https://products.containerize.com/message-queue-software/
-[38]: https://products.containerize.com/single-sign-on/
-[39]: https://products.containerize.com/project-management/
-[40]: https://products.containerize.com/animation-software/
-[41]: https://products.containerize.com/ecommerce/
-[42]: https://products.containerize.com/version-control/
-[43]: https://products.containerize.com/solution-stack/
-[44]: https://products.containerize.com/photo-editing-software/
-[45]: https://products.containerize.com/database-management/
-[46]: https://products.containerize.com/video-conferencing/
-[47]: https://products.containerize.com/blockchain-platforms/
-[48]: https://products.containerize.com/big-data/
-[49]: https://products.containerize.com/cmdb-software/
-[50]: https://products.containerize.com/game-development-software/
-[51]: https://products.containerize.com/erp/
-[52]: https://products.containerize.com/video-editing-software/
-[53]: https://products.containerize.com/database-management-system/
-[54]: https://products.containerize.com/office-productivity/
-[55]: https://products.containerize.com/lms/
-[56]: https://products.containerize.com/backup-and-sync/
-[57]: https://products.containerize.com/digital-forensic-software/
+
+
+ [1]: https://products.containerize.com/
+ [2]: #
+ [3]: https://www.facebook.com/
+ [4]: #Angular
+ [5]: #React
+ [6]: #Vue.js
+ [7]: #Express
+ [8]: #NestJS
+ [9]: https://angular.io/
+ [10]: https://reactjs.org/
+ [11]: https://vuejs.org/
+ [12]: https://products.containerize.com/rad/
+ [13]: https://expressjs.com/
+ [14]: https://nestjs.com/
+ [15]: https://www.containerize.com/
+ [16]: https://web.facebook.com/containerize
+ [17]: https://www.linkedin.com/company/containerize/
+ [18]: https://twitter.com/containerize_co
+ [19]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+ [20]: https://products.containerize.com/content-management/
+ [21]: https://products.containerize.com/blogging/
+ [22]: https://products.containerize.com/discussion-forum/
+ [23]: https://products.containerize.com/healthcare-technologies/
+ [24]: https://products.containerize.com/helpdesk/
+ [25]: https://products.containerize.com/marketing-automation/
+ [26]: https://products.containerize.com/marketplace/
+ [27]: https://products.containerize.com/deployment-tools/
+ [28]: https://products.containerize.com/security-testing-tools/
+ [29]: https://products.containerize.com/live-chat/
+ [30]: https://products.containerize.com/form/
+ [31]: https://products.containerize.com/transactional-email/
+ [32]: https://products.containerize.com/business-intelligence/
+ [33]: https://products.containerize.com/newsletter/
+ [34]: https://products.containerize.com/status/
+ [35]: https://products.containerize.com/invoicing/
+ [36]: https://products.containerize.com/password-management/
+ [37]: https://products.containerize.com/message-queue-software/
+ [38]: https://products.containerize.com/single-sign-on/
+ [39]: https://products.containerize.com/project-management/
+ [40]: https://products.containerize.com/animation-software/
+ [41]: https://products.containerize.com/ecommerce/
+ [42]: https://products.containerize.com/version-control/
+ [43]: https://products.containerize.com/solution-stack/
+ [44]: https://products.containerize.com/photo-editing-software/
+ [45]: https://products.containerize.com/database-management/
+ [46]: https://products.containerize.com/video-conferencing/
+ [47]: https://products.containerize.com/blockchain-platforms/
+ [48]: https://products.containerize.com/big-data/
+ [49]: https://products.containerize.com/cmdb-software/
+ [50]: https://products.containerize.com/game-development-software/
+ [51]: https://products.containerize.com/erp/
+ [52]: https://products.containerize.com/video-editing-software/
+ [53]: https://products.containerize.com/database-management-system/
+ [54]: https://products.containerize.com/office-productivity/
+ [55]: https://products.containerize.com/lms/
+ [56]: https://products.containerize.com/backup-and-sync/
+ [57]: https://products.containerize.com/digital-forensic-software/

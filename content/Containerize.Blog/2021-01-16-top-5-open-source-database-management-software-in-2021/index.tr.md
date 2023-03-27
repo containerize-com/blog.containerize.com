@@ -23,7 +23,8 @@ Bu makalede aşağıdaki açık kaynak DBMS araçlarını tartışacağız:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin   {#phpmyadmin}
+## phpmyadmin {#phpmyadmin}
+
 PhpmyAdmin, XAMPP ve WAMPP Web sunucuları ile yerleşik bir bileşen olarak gelir. Şu anda PhpmyAdmin en yaygın kullanılan veritabanı yönetim yazılımıdır. Geliştiriciler, arayüz aracılığıyla bilgi, tablolar, sütunlar, ilişkiler, referanslar, kullanıcılar ve izin vb. Ayrıca, bir veritabanı oluşturma, sorgular çalıştırma ve kullanıcı hesapları ekleme gibi çoğu yönetim görevini gerçekleştirmek için kullanılır. Bu veritabanı yönetim sistemi, JavaScript ve SCSS gibi diğer dillerden gelen girdilerle birlikte PHP'de yazılmıştır. Bu nedenle, geliştirme ve dağıtım ile ilgili tüm belgeler mevcuttur. Bunlar PhpmyAdmin'in bazı göze çarpan özellikleri:
   * Kullanımı kolay web arayüzü.
   * Çoklu MySQL özellikleri desteği.
@@ -79,11 +80,12 @@ Yukarıda belirtilen veritabanı yönetim araçları hakkında daha fazla bilgi 
   * [En İyi Açık Kaynak Veritabanı Yönetim Araçları][1]
   * [En İyi Açık Kaynak Veritabanı Yönetim Sistemleri][19]
   * [Yönetici Veritabanı Yönetim Aracı ile Veritabanlarını Yönetin][20]
-  * [REDIS-Commory Veritabanı Redis Kılavuzu][21]
+  * [Redis-Commory Veritabanı Redis Kılavuzu][21]
   * [MySQL neden popüler bir açık kaynak veritabanı yönetim sistemidir?][2]
-  * [Kafka vs Redis Pub-Sub, bilmeniz gereken farklılıklar][3]
+  * [Kafka vs Redis pub-sub, bilmeniz gereken farklılıklar][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

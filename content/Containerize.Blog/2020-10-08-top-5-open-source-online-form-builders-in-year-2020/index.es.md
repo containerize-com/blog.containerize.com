@@ -24,10 +24,12 @@ Para ayudarlo a elegir el formulario de formulario en línea correcto, nuestro e
   * [Webiny][4]
   * [Formtools][5]
 
-## # **Form.io** {#Formio}
+
+###  **Form.io**  {#formio}
+
 Form.io es uno de los software Form Builder más populares con características de nivel avanzado. Le ayuda a generar formularios web y encuestas de entrada de datos junto con la plataforma API de administración de datos.
 Form.io se basa en Node.js y MongoDB. Admite la arquitectura sin servidor y esto la hace simple y escalable. Sobre todo, admite la autenticación del usuario y le brinda el control total de sus datos dentro de su propio entorno.
-Aquí están los mejores momentos de los mejores aspectos de la forma.io
+Aquí están los mejores momentos de los mejores aspectos de la forma.
   * Builder de formulario avanzado
   * Gestión de datos
   * Proveedores de OAuth
@@ -35,7 +37,9 @@ Aquí están los mejores momentos de los mejores aspectos de la forma.io
   * Arrastre y suelte la interfaz
     [Leer más][6]
 
-## # **Orbeon** {#orbeon}
+
+###  **Orbeon**  {#orbeon}
+
 Orbeon se utiliza para generar formas complejas de nivel industrial sin ninguna experiencia técnica. Se puede acceder a su plataforma agnóstica y sus formularios a través de escritorio, computadoras portátiles y móviles.
 Es uno de los populares software de formulario de formulario de código abierto que proporciona características avanzadas para generar formularios web rápidamente. Sigue los estándares web que lo convierten en plataforma cruzada. Se centra en la seguridad y todos los datos están encriptados en reposo.
 Orbeon admite la integración de terceros, por lo tanto, le permite conectarse con cualquier backend. Admite el formato JSON y XML para servicios externos para devolver la respuesta
@@ -47,7 +51,9 @@ Estas son algunas de las características clave para Orbeon
   * Soporte de Liferay.
     [Leer más][7]
 
-## # **Ohmyform** {#OHMYFORM}
+
+###  **ohmyform**  {#ohmyform}
+
 OhmyForm es un software de código abierto para generar formularios, encuestas y cuestionario listos para dispositivos móviles. Sigue las tecnologías y formularios web estándar son fácilmente integrables para aplicaciones móviles, de escritorio y web.
 OhmyForm viene con herramientas incorporadas para el análisis de datos. En otras palabras, puede analizar todos sus envíos de datos y entradas de formulario de encuestas. Se está desarrollando activamente. Lo más importante, la comunidad de desarrolladores está trabajando muy duro para mejorar el producto.
 Los mejores aspectos más destacados de la ohmyform se enumeran aquí
@@ -58,7 +64,9 @@ Los mejores aspectos más destacados de la ohmyform se enumeran aquí
   * Formularios como API de servicio.
     [Leer más][8]
 
-## # **Webiny** {#Webiny}
+
+###  **Webiny**  {#webiny}
+
 Webiny es un software autohospedado de código abierto para construir la producción listos para formularios con todas las funciones. No es solo un constructor de formularios. Pero, un paquete completo para automatizar la mayoría de los procesos comerciales en línea.
 Webiny está construido en la parte superior de Node.js y GraphQL y ReactJS. Por lo tanto, admite completamente la arquitectura sin servidor. Además, puede ayudarlo a crear API, una aplicación React, una aplicación de administración completa para su producto, sitio web o una aplicación móvil de manera rápida y fácil.
 La arquitectura sin servidor hace que la aplicación lo sea escalable y lo libera de problemas relacionados con la carga y el tráfico. No solo esto tiene mucho más características de nivel avanzado como
@@ -69,7 +77,9 @@ La arquitectura sin servidor hace que la aplicación lo sea escalable y lo liber
   * Webhooks
     [Leer más][9]
 
-## # **Formtools** {#Formtools}
+
+###  **Formtools**  {#formtools}
+
 Form Tools es un script PHP/MySQL potente, flexible, gratuito y de código abierto. Debe instalarlo en su sitio web para administrar sus formularios y datos. Además, FormTools presenta una interfaz Form Builder donde puede crear formularios de una sola página y varias páginas.
 Formtools no solo le permite recopilar datos, sino que también le permite ver y analizar sus datos utilizando un poderoso módulo de visualización de datos. Además, también le permite exportar sus datos para ser utilizados por cualquier otra herramienta de análisis de datos de terceros.
 Junto con la gestión de usuarios y el soporte de API, hay una lista completa de características que proporciona Formtools, estas son algunas de esas características
@@ -80,17 +90,18 @@ Junto con la gestión de usuarios y el soporte de API, hay una lista completa de
   * Soporte para Google Maps
     [Leer más][10]
 
-## # Conclusión
+### Conclusión
 En este blog hemos revisado el mejor software de constructor de formulario en línea de código abierto. Form.io, Webiny y Ohmyform tienen una buena solución para las integraciones de terceros, así como un soporte integral de API. Por lo tanto, si necesita conectarse con un backend de terceros o necesita análisis incorporado, puede usarlos. Si solo desea configurar rápidamente Orbeon y Formtools son una buena opción.
 
-  
-[1]: #formio
-[2]: #orbeon
-[3]: #ohmyform
-[4]: #webiny
-[5]: #formtools
-[6]: https://products.containerize.com/form/formio
-[7]: https://products.containerize.com/form/orbeon
-[8]: https://products.containerize.com/form/ohmyform
-[9]: https://products.containerize.com/form/webiny
-[10]: https://products.containerize.com/form/formtools
+
+
+ [1]: #formio
+ [2]: #orbeon
+ [3]: #ohmyform
+ [4]: #webiny
+ [5]: #formtools
+ [6]: https://products.containerize.com/form/formio
+ [7]: https://products.containerize.com/form/orbeon
+ [8]: https://products.containerize.com/form/ohmyform
+ [9]: https://products.containerize.com/form/webiny
+ [10]: https://products.containerize.com/form/formtools

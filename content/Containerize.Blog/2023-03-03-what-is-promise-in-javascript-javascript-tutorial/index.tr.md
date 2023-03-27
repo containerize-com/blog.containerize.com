@@ -15,32 +15,36 @@ categories: ['Programming']
 
 
 ## Genel Bakış
-[JavaScript veri türleri][1] hakkında daha iyi bir anlayışa sahip olduğunuzu umuyoruz. Şimdi, bu [programlama][2] kategorisindeki başka bir blog yazısı. Bu JavaScript öğreticisinde, JavaScript**'de vaat edenleri**yaşayacağız ve bununla birlikte, eşzamansız operasyonların, vaatlerin kullanımı ve JavaScript'te nasıl vaatlerin oluşturulacağını da göreceğiz. Birincisi, eşzamansız bir süreç/işlem, diğer süreçlere göre bağımsız olarak yürütülen ve herhangi bir tıkanma yaratmayan işlemdir. Bu nedenle, asenkron işlemleri işlemeniz gerekir, aksi takdirde JavaScript kodunuzda anormallikler oluşturabilir. Böylece, vaatleri kullanarak asenkron operasyonları nasıl ele alabileceğimizi keşfedeceğiz.
+[JavaScript veri türleri][1] hakkında daha iyi bir anlayışa sahip olduğunuzu umuyoruz. Şimdi, bu [programlama][2] kategorisindeki başka bir blog yazısı. Bu JavaScript öğreticisinde, JavaScript **'de vaat edenleri** yaşayacağız ve bununla birlikte, eşzamansız operasyonların, vaatlerin kullanımı ve JavaScript'te nasıl vaatlerin oluşturulacağını da göreceğiz. Birincisi, eşzamansız bir süreç/işlem, diğer süreçlere göre bağımsız olarak yürütülen ve herhangi bir tıkanma yaratmayan işlemdir. Bu nedenle, asenkron işlemleri işlemeniz gerekir, aksi takdirde JavaScript kodunuzda anormallikler oluşturabilir. Böylece, vaatleri kullanarak asenkron operasyonları nasıl ele alabileceğimizi keşfedeceğiz.
 Bu JavaScript öğreticisinde aşağıdaki noktaları ele alacağız:
-* **[JavaScript'te söz nedir? Vaatler açıklandı][3]**
-* **[Neden JavaScript'te söz veriyoruz?][4]**
-* **[Javascript'te Promise Nasıl Çalışır?][5]**
-* **[Bir Söz Nasıl Olur?][6]**
+* **[JavaScript'te söz nedir? Vaatler açıklandı][3]** 
+* **[Neden JavaScript'te söz veriyoruz?][4]** 
+* **[Javascript'te Promise Nasıl Çalışır?][5]** 
+* **[Bir Söz Nasıl Olur?][6]** 
 
-## JavaScript'te söz nedir? Vaatler açıklandı   {#What-IS-In-Javascript-Promises-Açıklanıyor}
-Bir vaat, çözüldüğü, reddedildiği veya beklemede olan bir asenkron operasyon havasının değerini temsil eden bir nesnedir. Daha basit bir deyişle, vaatler, eşzamansız bir kod bloğu tarafından henüz üretilmeyen bir değer döndürmek için kullanılır. Aslında, üç**vaat durumu vardır**ve aşağıdaki durumlardan herhangi birinde olabilir:
-**Bekleyen**: Söz beklemede olan bir durumda, yani başlangıç ​​aşamasında ve şu anda yürütülüyor.
-**yerine getirildi**: Söz çözüldü ve değer iade edildi.
-**Reddedildi**: Bu, herhangi bir hatadan kaynaklanan durumdur, bu da vaatin reddedildiği anlamına gelir.
+## JavaScript'te söz nedir? Vaatler Açıklandı {#What-is-promise-in-JavaScript-Promises-Explained}
+
+Bir vaat, çözüldüğü, reddedildiği veya beklemede olan bir asenkron operasyon havasının değerini temsil eden bir nesnedir. Daha basit bir deyişle, vaatler, eşzamansız bir kod bloğu tarafından henüz üretilmeyen bir değer döndürmek için kullanılır. Aslında, üç **vaat durumu vardır** ve aşağıdaki durumlardan herhangi birinde olabilir:
+**Bekleyen** : Söz beklemede olan bir durumda, yani başlangıç ​​aşamasında ve şu anda yürütülüyor.
+**yerine getirildi** : Söz çözüldü ve değer iade edildi.
+**Reddedildi** : Bu, herhangi bir hatadan kaynaklanan durumdur, bu da vaatin reddedildiği anlamına gelir.
 Burada dikkate alınması gereken önemli bir şey, vaat tarafından iade edilen değerin/durumun değişmez olması ve değiştirilemeyeceğidir, bu da vaatlerin olağandışı bir davranış olmadığından emin olduğu anlamına gelir.
 
-## Neden JavaScript'te söz veriyoruz?   {#Neden-we-we-we-in-javascript}
-**geri arama cehennemi**farkında değilseniz, ne olduğunu paylaşmama izin verin. İlk olarak, geri arama başka bir işlevin içindeki bir işlevdir. Temel olarak, geri arama işlevi, sonuç aldıktan sonra yürütülen bir işlevde ikinci bir argüman olarak geçirilir. Bu nedenle, birçok senaryoda, bir geri arama işlevini yuva etmeniz ve yuvalama arttıkça, işlenmesi imkansız hale gelir. Dolayısıyla, geri arama işlevlerinin bu uzun yuvalamasına**geri arama cehennemi**diyoruz.
+## Neden JavaScript'te söz veriyoruz? {#Why-we-use-promise-in-JavaScript}
+
+**geri arama cehennemi**farkında değilseniz, ne olduğunu paylaşmama izin verin. İlk olarak, geri arama başka bir işlevin içindeki bir işlevdir. Temel olarak, geri arama işlevi, sonuç aldıktan sonra yürütülen bir işlevde ikinci bir argüman olarak geçirilir. Bu nedenle, birçok senaryoda, bir geri arama işlevini yuva etmeniz ve yuvalama arttıkça, işlenmesi imkansız hale gelir. Dolayısıyla, geri arama işlevlerinin bu uzun yuvalamasına** geri arama cehennemi**diyoruz.
 Yani, bir vaat, geri arama cehennem durumundan kaçınmanın bir yoludur. Vaatlerin kullanımı daha iyi okunabilirlik ve iyileştirilmiş hata işleme sağlar. Ayrıca, döndürülen değeri alarak ve bu değeri zincirdeki bir sonraki işleve ileterek eşzamansız işlemleri daha iyi işleyebilirsiniz.
 
-## JavaScript'te Promise Nasıl Çalışır?   {#Javascript-in-javascript}
+## JavaScript'te Promise Nasıl Çalışır? {#How-promise-works-in-JavaScript}
+
 Şimdi vaatlerin arkasındaki çalışma mekanizmasını anlayalım. Lütfen aşağıda belirtilen şemaya bir göz atın.
 
 {{< figure align=center src="images/what-is-a-promise.png" alt="JavaScript'te Promise Nasıl Çalışır??" >}}
 
 Yukarıda belirtilen iş akışına göre, uygulama ayrıntıları oldukça açıktır. Söz, yaratılışı üzerine infaza başlar ve beklemede olan durumda yanıtı beklemektedir. İki seçenek var ya veri olacak ya da işleme sonunda bir hata olacak. Veri aldıktan sonra. Then () bloğuna girer ve bir hata durumunda .catch () bloğuna girer.
 
-## Bir söz nasıl yaratılır?   {#Nasıl yaratılacak bir vaat}
+## Bir söz nasıl yaratılır? {#How-to-create-a-promise}
+
 Şimdiye kadar temel vaat kavramını ele aldık. Şimdi, JavaScript'te nasıl bir söz yaratabileceğimizi keşfedeceğiz. Bir söz yaratmak için aşağıdaki vaat yapıcısını kullanalım.
 ```
 let promise = new Promise(function(resolve, reject) {
@@ -94,7 +98,7 @@ promise is completed
 Yani, vaat içindeki kod, "senkronize yürütme" basılması için senkronize olarak çalışır. Daha sonra,. Then () bloğu eşzamansız olarak çalışır ve sonuç üretilene kadar bekler, ancak program yürütme durmaz, bu yüzden "merhaba Word" yazdırılır ve vaatte bulunulmuştur. Bundan sonra. Then () blok vaat ettiği değerleri yürütür ve döndürür. JavaScript vaatlerinin hikayesi bu. Yine, JavaScript tek dişli olduğundan, eşzamansız işlemleri engellemeyen bir şekilde işlemek için vaatler kullanılır.
 
 ## Çözüm
-Bu**JavaScript öğreticisinin sonu. Umarım JavaScript vaatleri hakkında iyi bir fikriniz vardır. JavaScript'te söz verdik**, neden JavaScript'te söz veriyoruz,**JavaScript'te nasıl vaat**ve bir söz nasıl yaratılacağı. Ayrıca, ileri kullanım ve hükümleri ile ilgili bu konuyu daha fazla ele alacağız. Bu nedenle, kendinizi bir röportaj oturumuna hazırlıyorsanız bu makaleyi gözden geçirin.
+Bu **JavaScript öğreticisinin sonu. Umarım JavaScript vaatleri hakkında iyi bir fikriniz vardır. JavaScript'te söz verdik**, neden JavaScript'te söz veriyoruz,**JavaScript'te nasıl vaat** ve bir söz nasıl yaratılacağı. Ayrıca, ileri kullanım ve hükümleri ile ilgili bu konuyu daha fazla ele alacağız. Bu nedenle, kendinizi bir röportaj oturumuna hazırlıyorsanız bu makaleyi gözden geçirin.
 
 ## Bizimle iletişime geçin
 Son olarak, [Containerize.com][7] çeşitli heyecan verici konularda devam eden JavaScript öğreticileri sunmaktadır. [Facebook][8], [LinkedIn][9] ve [Twitter][10] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
@@ -103,7 +107,7 @@ Son olarak, [Containerize.com][7] çeşitli heyecan verici konularda devam eden 
 [Forum][11] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-**JavaScript'te örnekle vaatler nelerdir?**
+**JavaScript'te örnekle vaatler nelerdir?** 
 JavaScript'te vaatlerin ne olduğunu bilmek için lütfen bunu [link][3] izleyin.
 
 ## Ayrıca bakınız
@@ -113,7 +117,8 @@ JavaScript'te vaatlerin ne olduğunu bilmek için lütfen bunu [link][3] izleyin
   * [Multitenancy nedir? | Neden çok kiracı bir yaklaşım?][14]
   * [JavaScript veri türleri nelerdir? | Bir Başlayan Kılavuz][15]
 
-  
+
+
 [1]: https://blog.containerize.com/programming/what-are-javascript-data-types-a-beginners-guide/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-promise-in-JavaScript-Promises-Explained

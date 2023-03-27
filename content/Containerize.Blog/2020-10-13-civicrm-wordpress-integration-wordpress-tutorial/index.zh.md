@@ -21,11 +21,13 @@ categories: ['Blogging', 'Marketing Automation']
   * [如何设置目录结构？][5]
   * [如何在WordPress中激活和安装CivICRM？][6]
 
-## 这种组合对企业的好处？   {#好处}
-在此**WordPress教程**的部分中，我们将研究 **civicrm wordpress**  集成的核心好处。随着竞争在市场上的增长，[WordPress][3]的普及正在不断提高。 WordPress社区一直在开发新的插件，以增强插件的存储桶。因此，将civiCRM添加到插件的WordPress池中，从蓬勃发展的组织中引起了极大的关注，这些组织会自动化和集中他们的业务工作流程。
+## 这种组合对企业的好处？ {#benefits}
+
+在此 **WordPress教程**的部分中，我们将研究**civicrm wordpress** 集成的核心好处。随着竞争在市场上的增长，[WordPress][3]的普及正在不断提高。 WordPress社区一直在开发新的插件，以增强插件的存储桶。因此，将civiCRM添加到插件的WordPress池中，从蓬勃发展的组织中引起了极大的关注，这些组织会自动化和集中他们的业务工作流程。
 由于某些方面，这种集成很重要。首先，[civICRM][2]消除了管理用户联系源位于不同地方的麻烦。其次，它通过定期备份数据来提供完整的安全性。第三，它是基于网络的开源和开源，这意味着您可以从任何地方访问数据。这种开源营销自动化工具是为公民部门开发的。它已通过提供一站式解决方案来消除将数据导出到各种表和数据库的需求。该开源CRM软件将所有数据存储到来自各种来源的数据库中无限的自定义数据集，任务管理，用户管理，跟踪开放式承诺和会员资格等等。
 
-## 如何设置目录结构？   {#目录}
+## 如何设置目录结构？ {#directory}
+
 在启动此 **WordPress插件教程** 之前，我们假设您已经设置了WordPress，并且具有安装和激活插件的基本理解。此外，您可以找到有关设置WordPress及其功能的信息。
 首先，从此[网站][8]下载civicrm。选择一个名称的选项，例如“下载wordpress for WordPress”。
 下载后，将ZIP文件放入此位置 /WP-CONTENT /插件中，然后提取它。确保此目录具有“写入”访问权限。
@@ -42,16 +44,17 @@ categories: ['Blogging', 'Marketing Automation']
 {{_LINE_35_}}
 CIVICRM WordPress集成的这一部分已完成。让我们转到下一节。
 
-## 如何在WordPress中激活和安装CIVICRM？   {#安装}
-WordPress教程的这一部分显示了基于网络的营销工具**civiCRM的安装和激活步骤。设置目录结构后，转到**插件 ** - >**  已安装的插件**，您将在列表中看到CIVICRM。
+## 如何在WordPress中激活和安装CIVICRM？ {#install}
+
+WordPress教程的这一部分显示了基于网络的营销工具 **civiCRM的安装和激活步骤。设置目录结构后，转到**插件** - >** 已安装的插件**，您将在列表中看到CIVICRM。
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.18.07-1024x544.png" alt="civicrm wordpress">}}
 
-点击“ **激活**”。
+点击“ **激活** ”。
 
 {{< figure align=center src="images/civi-1024x581.jpeg" alt="营销自动化指南">}}
 
-激活CIVICRM后，您将在WP-Admin页面右上角找到CivICRM选项。只需点击该选项，您就会降落在**安装**屏幕上。
+激活CIVICRM后，您将在WP-Admin页面右上角找到CivICRM选项。只需点击该选项，您就会降落在 **安装** 屏幕上。
 以下页面将显示要求详细信息以及数据库配置。
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.56.14-1024x632.png" alt="营销自动化指南">}}
@@ -66,7 +69,7 @@ WordPress教程的这一部分显示了基于网络的营销工具**civiCRM的�
 
 
 ## 结论
- **civicrm wordpress集成** 在管理大量散布用户信息方面，是一个真正有用的附加组件。通过提供直观的仪表板，它使复杂的工作流程变得简单。这两个开源软件的二人组合以及用户可以轻松导航的其他实用程序提供了一个用户友好的界面。幸运的是，开源社区开发了许多营销自动化工具，例如[Mautic][9]，[SuiteCrm][10]，[Espocrm][11]等。所有这些解决方案都是免费的，易于在云上或Localhost上部署。最重要的是，这些解决方案包含有关开发和部署的全面文件。但是，如果您希望将营销自动化软件与您的内容管理软件集成在一起，则此 **WordPress插件教程** 将非常有帮助。
+**civicrm wordpress集成**在管理大量散布用户信息方面，是一个真正有用的附加组件。通过提供直观的仪表板，它使复杂的工作流程变得简单。这两个开源软件的二人组合以及用户可以轻松导航的其他实用程序提供了一个用户友好的界面。幸运的是，开源社区开发了许多营销自动化工具，例如[Mautic][9]，[SuiteCrm][10]，[Espocrm][11]等。所有这些解决方案都是免费的，易于在云上或Localhost上部署。最重要的是，这些解决方案包含有关开发和部署的全面文件。但是，如果您希望将营销自动化软件与您的内容管理软件集成在一起，则此** WordPress插件教程**将非常有帮助。
 最后，[Containerize.com][12]正在撰写有关其他开源软件集成的更多教程。有关定期更新，请与[营销自动化][1]和[Blogging][13]类别保持联系。
 
 ## 探索
@@ -87,7 +90,8 @@ WordPress教程的这一部分显示了基于网络的营销工具**civiCRM的�
   * [2020年的前5个开源博客平台][27]
   * [使用免费和开源软件自动化业务运营][28]
 
-  
+
+
 [1]: https://products.containerize.com/marketing-automation
 [2]: https://products.containerize.com/marketing-automation/civicrm
 [3]: https://products.containerize.com/blogging/wordpress

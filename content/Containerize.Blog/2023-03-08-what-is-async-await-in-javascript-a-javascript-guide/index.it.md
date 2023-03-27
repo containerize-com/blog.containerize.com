@@ -15,16 +15,17 @@ categories: ['Programming']
 {{< figure align=center src="images/what-is-async-await-in-javascript-a-javascript-guide.png" alt="Cos'è Async Wait in JavaScript??">}}
 
 
-Panoramica ## 
-Abbiamo coperto [JavaScript Promises][1] nel nostro precedente post sul blog e devi visitare se vuoi ottenere una chiara comprensione del concetto dietro le promesse di JavaScript. In questa serie di [JavaScript Tutorials][2], siamo qui con un'altra guida JavaScript che dimostrerà le moderne caratteristiche dell'asincronizzazione JavaScript/Abvet. Questo post sul blog è per coloro che hanno una conoscenza preliminare delle promesse di JavaScript. Inoltre, cercheremo di coprire **ciò che è asincrone/attesa in JavaScript  **e quando dobbiamo usare Async/Abved. Inoltre, copriremo anche gli errori di gestione con asincroni/attesa. Quindi, dai una lettura approfondita a questo**   JavaScript Async/Aspetta Tutorial** per contrassegnare questo concetto controllato.
+Panoramica ##
+Abbiamo coperto [JavaScript Promises][1] nel nostro precedente post sul blog e devi visitare se vuoi ottenere una chiara comprensione del concetto dietro le promesse di JavaScript. In questa serie di [JavaScript Tutorials][2], siamo qui con un'altra guida JavaScript che dimostrerà le moderne caratteristiche dell'asincronizzazione JavaScript/Abvet. Questo post sul blog è per coloro che hanno una conoscenza preliminare delle promesse di JavaScript. Inoltre, cercheremo di coprire  **ciò che è asincrone/attesa in JavaScript** e quando dobbiamo usare Async/Abved. Inoltre, copriremo anche gli errori di gestione con asincroni/attesa. Quindi, dai una lettura approfondita a questo **JavaScript Async/Aspetta Tutorial**  per contrassegnare questo concetto controllato.
 Passeremo attraverso le seguenti sezioni in questo asincrone JavaScript attende il tutorial:
-  * **[Cos'è ASYNC/ATSED in JavaScript | Async Aspetta sintassi][3]**
-  * **[quando usare asincroni/attesa?][4]**
-  * **[Gestione degli errori con Async/Wait][5]**
+*  **[Cos'è ASYNC/ATSED in JavaScript | Async Aspetta sintassi][3]**  
+*  **[quando usare asincroni/attesa?][4]**  
+*  **[Gestione degli errori con Async/Wait][5]**  
 
-## Cosa è asincrone/attesa in javascript | Async Attende la sintassi   {#what-is-asyncawait-in-javascript-async-wait-syntex}
+## Cos'è ASYNC/ATSEGGIO in JavaScript | L'asincronizzazione attende la sintassi {#What-is-AsyncAwait-in-JavaScript-Async-Await-Syntax}
+
 ECMAScript 2017 ha rilasciato nuove funzionalità di JavaScript e Async/Wait è una delle più utilizzate tra queste caratteristiche. L'asincronizzazione/attesa è costruito sopra le promesse ed è in realtà un modo moderno per gestire le promesse JavaScript.
-Vediamo come usare le parole chiave asincriche/attenti nel codice JavaScript:
+Vediamo come usare le parole chiave Async/Abvet nel codice JavaScript:
 ```
 async function getValues() {
 
@@ -43,15 +44,17 @@ getValues().then(function(){
 ```
 Bene, la parola chiave Async all'inizio della funzione implica che questa funzione restituirà una promessa. Quindi, attendere la parola chiave viene sempre utilizzata all'interno del corpo della funzione asincrona per mettere in pausa l'esecuzione della funzione fino a quando la promessa non si risolve. La cosa importante da notare qui è che non puoi usare la parola chiave di attesa all'interno del corpo di una funzione regolare. Tuttavia, è possibile utilizzare solo con funzioni asincrone dichiarate con la parola chiave asincrima.
 
-## Quando usare l'asincronizzazione/attesa?   {#Quando-to-usy-asyncawait}
-Finora, hai la risposta a  **che cosa è Async in attesa in JavaScript** . Dal momento che questo è solo un involucro attorno alle tradizionali promesse JavaScript, quindi è meglio usare questo nuovo modo per creare e gestire le promesse in modo più pulito e leggibile. Inoltre, puoi sbarazzarti di molteplici promesse. QUELLE () Chiamate utilizzando asincroni/attesa che alla fine rende il codice sorgente più gestibile e mantenibile. La parola chiave di attesa incapsula l'istruzione .then () in una singola riga.
+## Quando usare l'asincronizzazione/attesa? {#When-to-use-AsyncAwait}
 
-## Gestione degli errori con Async/Awet   {#Error-Handing-With-Asyncawait}
+Finora, hai la risposta a  **che cosa è Async in attesa in JavaScript**  . Dal momento che questo è solo un involucro attorno alle tradizionali promesse JavaScript, quindi è meglio usare questo nuovo modo per creare e gestire le promesse in modo più pulito e leggibile. Inoltre, puoi sbarazzarti di molteplici promesse. QUELLE () Chiamate utilizzando asincroni/attesa che alla fine rende il codice sorgente più gestibile e mantenibile. La parola chiave di attesa incapsula l'istruzione .then () in una singola riga.
+
+## Gestione degli errori con asincroni/attesa {#Error-handling-with-AsyncAwait}
+
 La gestione degli errori è un'attività critica quando si tratta di sviluppo del software a livello aziendale. Esistono diversi modi per catturare errori nell'approccio Async/Aspetta.
 
 {{< figure align=center src="images/async-await.png" alt="Prova a catturare Async Aspetta JavaScript">}}
 
-**Prova a catturare Async Attesa JavaScript**: niente di nuovo con questo approccio di gestione degli errori. Tuttavia, è possibile utilizzare un blocco Try/Catch all'interno di una funzione Async come mostrato nello snippet di codice di seguito:
+ **Prova a catturare Async Attesa JavaScript** : niente di nuovo con questo approccio di gestione degli errori. Tuttavia, è possibile utilizzare un blocco Try/Catch all'interno di una funzione Async come mostrato nello snippet di codice di seguito:
 ```
 async function getValues() {
   try{
@@ -88,7 +91,7 @@ getValues().catch(err){
 ```
 
 ## Conclusione
-Stiamo terminando questo **JavaScript Async Aspetta il tutorial **. Spero che tu abbia una migliore comprensione di ** ciò che è Async attesa in JavaScript** . Inoltre, abbiamo attraversato JavaScript Async attende la sintassi che rende il codice sorgente meno complesso. Questa funzionalità JavaScript viene ampiamente utilizzata per il suo ricco utilizzo e le prestazioni. Nei prossimi giorni, scriveremo ulteriormente su funzionalità e concetti JavaScript in modo da poter ottenere un forte comando sui concetti di JS. Inoltre, ci sono altri articoli interessanti menzionati nella sezione "vedi anche".
+Stiamo terminando questo  **JavaScript Async Aspetta il tutorial** . Spero che tu abbia una migliore comprensione di **ciò che è Async attesa in JavaScript**  . Inoltre, abbiamo attraversato JavaScript Async attende la sintassi che rende il codice sorgente meno complesso. Questa funzionalità JavaScript viene ampiamente utilizzata per il suo ricco utilizzo e le prestazioni. Nei prossimi giorni, scriveremo ulteriormente su funzionalità e concetti JavaScript in modo da poter ottenere un forte comando sui concetti di JS. Inoltre, ci sono altri articoli interessanti menzionati nella sezione "vedi anche".
 
 ## Connettiti con noi
 Infine, [containerize.com][6] offre tutorial JavaScript in corso su vari argomenti entusiasmanti. Puoi rimanere aggiornato seguendoci sulle nostre piattaforme di social media, tra cui [Facebook][7], [LinkedIn][8] e [Twitter][9].
@@ -97,9 +100,9 @@ Infine, [containerize.com][6] offre tutorial JavaScript in corso su vari argomen
 Puoi farci conoscere le tue domande o domande sul nostro [forum][10].
 
 ## FAQ
-**Che cos'è l'asincrone in attesa in javascript con esempio?**
+ **Che cos'è l'asincrone in attesa in javascript con esempio?** 
 Puoi visitare questo [link][3] per comprendere il concetto di asincrone atteso.
-**Che cos'è Async Wait vs Promise?**
+ **Che cos'è Async Wait vs Promise?** 
  * Async/Wait rende il codice sorgente più chiaro e leggibile rispetto alle promesse in cui il concatenamento della promessa può rendere il codice sorgente un disastro.
  * La gestione degli errori è abbastanza simile in entrambi gli approcci.
  * Il debug è meno difficile nell'asincronizzazione.
@@ -115,21 +118,22 @@ Puoi visitare questo [link][3] per comprendere il concetto di asincrone atteso.
   * [Cos'è Openai Chatbot GPT-3 | CHATGPT una rivoluzione AI][16]
   * [Un'introduzione all'intelligenza artificiale | Cos'è AI?][17]
 
-  
-[1]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
-[2]: https://blog.containerize.com/categories/programming/
-[3]: #What-is-AsyncAwait-in-JavaScript-Async-Await-Syntax
-[4]: #When-to-use-AsyncAwait
-[5]: #Error-handling-with-AsyncAwait
-[6]: https://www.containerize.com/
-[7]: https://web.facebook.com/containerize
-[8]: https://www.linkedin.com/company/containerize/
-[9]: https://twitter.com/containerize_co
-[10]: https://forum.containerize.com/
-[11]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/
-[12]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
-[13]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
-[14]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
-[15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
-[16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
-[17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+
+
+ [1]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
+ [2]: https://blog.containerize.com/categories/programming/
+ [3]: #What-is-AsyncAwait-in-JavaScript-Async-Await-Syntax
+ [4]: #When-to-use-AsyncAwait
+ [5]: #Error-handling-with-AsyncAwait
+ [6]: https://www.containerize.com/
+ [7]: https://web.facebook.com/containerize
+ [8]: https://www.linkedin.com/company/containerize/
+ [9]: https://twitter.com/containerize_co
+ [10]: https://forum.containerize.com/
+ [11]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/
+ [12]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
+ [13]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
+ [14]: https://blog.containerize.com/artificial-intelligence/integrate-chatgpt-with-google-sheets/
+ [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+ [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/

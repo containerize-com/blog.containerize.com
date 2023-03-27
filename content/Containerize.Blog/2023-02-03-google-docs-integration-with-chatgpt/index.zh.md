@@ -15,13 +15,14 @@ categories: ['Artificial intelligence']
 
 
 ## 概述
-最近推出的 [chatgpt][1] 已成为技术界的流行语。有些人赞成，并考虑这种**ai聊天机器人**对生产力和透明度的威胁。好吧，[Containerize.com][2]正在撰写有关该OpenAI GPT-3模型的使用和集成。实际上，[Google Docs][3]是编写和数据表示的好工具。另一只手是Chatgpt的出现是对话[AI][4]工具，该工具以对话方式响应自然语言查询。该AI工具基于机器学习，由[OpenAI][5]开发。但是，这篇博客文章是关于**chatgpt和Google**的，我们将学习如何实现**Google文档与ChatGpt**集成。毫无疑问，我们可以通过在Google文档中安装chatgpt附加组件来携带**Google文档自动化**。
+最近推出的[chatgpt][1]已成为技术界的流行语。有些人赞成，并考虑这种 **ai聊天机器人**对生产力和透明度的威胁。好吧，[Containerize.com][2]正在撰写有关该OpenAI GPT-3模型的使用和集成。实际上，[Google Docs][3]是编写和数据表示的好工具。另一只手是Chatgpt的出现是对话[AI][4]工具，该工具以对话方式响应自然语言查询。该AI工具基于机器学习，由[OpenAI][5]开发。但是，这篇博客文章是关于 **chatgpt和Google** 的，我们将学习如何实现 **Google文档与ChatGpt** 集成。毫无疑问，我们可以通过在Google文档中安装chatgpt附加组件来携带**Google文档自动化** 。
 我们将在此博客文章中浏览以下几点：
-* [**如何获取OpenAI API密钥？**][6]
-* **[让我们与Chatgpt集成Google Docs][7]**
-* [**开始使用chatgpt和google****文档**][8]
+* [ **如何获取OpenAI API密钥？** ][6]
+* **[让我们与Chatgpt集成Google Docs][7]** 
+* [ **开始使用chatgpt和google****文档**][8]
 
-## 如何获取OpenAI API密钥？   {#操作效果 -  openai-api-key}
+## 如何获取OpenAI API密钥？ {#How-to-obtain-the-OpenAI-API-key}
+
 为了给您一些介绍，OpenAI是一家专注于人工智能工具的研究与开发的公司。 Chatgpt还由OpenAI开发和推出，而OpenAI开发了一系列GPT模型。
 首先，您需要在OpenAI的[Platform][9]上创建一个帐户，然后登录。登录后，您将降落在API键页面上，可以在其中通过单击“创建新秘密”按钮来生成API键键”如下所示。
 
@@ -29,18 +30,20 @@ categories: ['Artificial intelligence']
 
 复制新生成的OpenAI API密钥并保存它，以便您可以将其用于Google Docs集成。
 
-## 让我们与ChatGpt集成Google Docs   {#让Do-Google-docs-integration-with-chatgpt}
+## 让我们与Chatgpt集成Google文档 {#Lets-do-Google-Docs-Integration-with-ChatGPT}
+
 此对话AI工具的安装过程非常容易。单击“ Extensions-Add-On->获取附加组件”，您将看到Google Workspace Marketplace页面。现在，在搜索栏中编写Chatgpt，选择“在纸和文档中的chatgpt”选项单击第一个选项，然后按照以下图表所示安装它：
 
 {{< figure align=center src="images/chatgpt-and-google-1.gif" alt="Chatgpt和Google">}}
 
-它将寻求您访问Google帐户的许可，因此请执行此步骤以完成安装。接下来，单击“扩展 - > gpt for Sheet和docs->设置API密钥”以设置API密钥，以便您可以启用Google Docs与ChatGPT集成，如下图所示：
+它将寻求您访问Google帐户的许可，因此请执行此步骤以完成安装。接下来，单击“扩展 - > gpt for Sheets和docs-> set api键”以设置API键，以便您可以启用Google Docs与Chatgpt集成，如下图所示：
 
 {{< figure align=center src="images/conversational-ai-tool.gif" alt="会话AI工具">}}
 
 最后，OpenAI GPT-3已安装在您的Google文档中，您可以开始利用Google文档自动化。
 
-## 开始使用chatgpt和Google文档 {#start-using-using-chatgpt and google}
+## 开始使用chatgpt和Google文档 {#Start-using-ChatGPT-and-Google}
+
 现在是时候开始使用此Google Docs自动化了。此目的，通过单击“扩展 - >应用程序脚本”，将打开一个新的选项卡。现在，将以下代码复制到代码编辑器中。
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 在上面的核心中，用OpenAI API键替换“ xxxxxxxxxxxxxx”。接下来，保存文件，然后单击“运行”，放置在代码编辑器的顶部中心，然后关闭窗口。
@@ -51,7 +54,7 @@ categories: ['Artificial intelligence']
 在上面的示例中，我们写了一个单词，并要求chatgpt生成标语，图像和同义词，并成功执行了任务。
 
 ## 结论
-总而言之，我们可以肯定地说，您已经学会了如何实现与Chatgpt**集成的Google文档。此外，我们已经看到了如何生成**OpenAI API密钥**并将其设置为启用**OpenAi GPT-3**功能。该Google文档自动化可以严重使您的业务任务受益。此外，不要忘记访问下面“参见”部分中的链接。
+总而言之，我们可以肯定地说，您已经学会了如何实现与Chatgpt **集成的Google文档。此外，我们已经看到了如何生成**OpenAI API密钥**并将其设置为启用** OpenAi GPT-3**功能。该Google文档自动化可以严重使您的业务任务受益。此外，不要忘记访问下面“参见”部分中的链接。
 最后，[Containerize.com][2]不断地撰写有关进一步开源产品和主题的博客文章。此外，您可以在我们的社交媒体帐户[Facebook][10]，[LinkedIn][11]和[Twitter][12]上关注我们。
 
 ## 问一个问题
@@ -68,7 +71,8 @@ categories: ['Artificial intelligence']
   * [什么是OpenAi ChatBot GPT-3 | Chatgpt AI革命][1]
   * [什么是前5个开源AI框架][16]
 
-  
+
+
 [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [2]: https://www.containerize.com/
 [3]: https://docs.google.com/document/u/0/

@@ -21,11 +21,13 @@ En esta publicación de blog, cubriremos los siguientes puntos:
   * [Configuración del complemento de explorador de conocimiento en el discurso][2]
   * [Conclusión][3]
 
-## ¿Cómo funciona el discurso como base de conocimiento?   {#uso}
+## ¿Cómo funciona el discurso como base de conocimiento? {#usage}
+
 La base de conocimiento actúa como una base de datos de documentos e información. Se utiliza para recopilar, administrar y compartir la información relevante para los productos y procedimientos de la empresa. Cuando hablamos de un foro de discusión como [discurso][4], hay temas largos enhebrados donde los usuarios finales y representantes participan en un debate. En este caso, a los clientes les resulta difícil encontrar información relevante. Para golpear esta molestia, la comunidad del discurso ha desarrollado un par de complementos de base de conocimiento.
 Tener el complemento KB instalado en [Discurso][4] se vuelve bastante rápido para que los clientes encuentren la información deseada. Además, hay varias consultas y preguntas de los clientes que permanecen sin respuesta durante bastante tiempo. Por lo tanto, documentar información comúnmente utilizada en temas de estilo KB ahorra tiempo y mejora la experiencia del cliente.
 
-## Configuración del complemento de explorador de conocimiento en el discurso   {#setup}
+## Configuración del complemento de explorador de conocimiento en el discurso {#setup}
+
 En esta sección, veremos cómo habilitar el [complemento de explorador de conocimiento][5] y qué ofrece.
 Como [el discurso][4] es un código completamente abierto, el complemento del explorador de conocimiento está disponible en [Github][5].
 Hay sencillos pasos para instalar cualquier complemento en el discurso. Por lo tanto, siga las instrucciones mencionadas en esta [Guía de instalación del complemento][6].
@@ -47,11 +49,13 @@ Finalmente, puede abrir y compartir el enlace del documento con cualquier person
 {{< figure align=center src="images/Screenshot-2020-11-04-at-19.11.11-1024x493.png" alt="Discurso como KB">}}
 
 
-## conclusión   {#conclusion}
+## Conclusión  {#Conclusión}
+
 En este artículo, hemos visto cómo el discurso puede usarse como una base de conocimiento para un negocio. Es realmente importante tener un ojo fuerte sobre las necesidades de los usuarios finales. En lo que respecta al foro, debemos llevarlo al siguiente nivel equipándolo con el complemento KB para que los clientes puedan abordar los recursos requeridos de manera fácil y rápida.
 [Contenerize.com][7] ha reclutado muchos software de foro poderoso en la categoría [8][8]. Para actualizaciones regulares, manténgase conectado con [Blog.Containerize.com][9].
 
-  
+
+
 [1]: #usage
 [2]: #setup
 [3]: #Conclusion

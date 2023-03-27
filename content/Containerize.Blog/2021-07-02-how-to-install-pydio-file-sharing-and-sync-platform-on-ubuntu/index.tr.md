@@ -14,12 +14,12 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Ubuntu'ya Pydio Dosya Paylaşımı ve Senkronizasyon Platformu Nasıl Kurulur">}}
 
 
-## **Genel Bakış** 
+##  **Genel Bakış**  
 Pydio Cells, açık kaynaklı bir dosya paylaşımı ve senkronizasyon yazılımıdır. Tüm veri depolama alanınıza tek bir erişim noktası sağlar ve depolama hizmetleri, dosya paylaşımı ve senkronizasyon sağlayan Owncloud ve NextCloud'a bir alternatiftir. Pydio, Dropbox ve diğer depolama platformlarına benzer bir kurumsal açık kaynak dosya paylaşım platformudur. Tüm dosyalarınızı ve cihazlarınızı tek bir platformda güvenli bir şekilde bağlamanıza yardımcı olur.
 Pydio Cells, bulut tabanlı bir dosya senkronizasyonu ve işbirliği platformudur. Bu açık kaynaklı yazılım kişisel BT altyapınız üzerinde çalışır ve personelinizin iş verilerinizi korumasına ve izlemesine yardımcı olur. Verilerinizi senkronize edebilir ve bir mobil uygulama, masaüstü yazılımı veya Pydio hücrelerini kullanarak bir web tarayıcısı kullanarak herhangi bir yerden erişebilirsiniz. Pydio Cells En İyi Dosya Paylaşımı Uygulaması bir mikro hizmet mimarisine dayanır ve Golang programlama dili kullanılarak yazılır.
 Bu öğretici, Ubuntu LTS sistemlerine Pydio Self Barding yazılımını ve senkronizasyon platformunu kurmanıza ve yapılandırmanıza yardımcı olacaktır.
   * Başlarken
-  * Lamba sunucusunu yükleyin
+  * Lamba Sunucusunu Yükle
   * Ubuntu'ya pydio yükleyin
   * Pydio veritabanı ve kullanıcı oluşturun
   * Tarayıcınızdaki Pydio'ya erişin
@@ -39,23 +39,23 @@ sudo reboot
 ## Adım 2: Lamba Sunucusunu Yükle
 Pydio Secure Enterprise Dosya Paylaşım Sunucusunu ve Açık Kaynak Özel Bulutun Nasıl Oluşturulacağını Kurmak için önce çalışan bir lamba sunucusu oluşturmamız gerekir. Zaten lamba yığınını takmış ve çalıştırmışsanız, bu adımı atlayın, aksi takdirde lambayı Ubuntu sisteminizde ayarlamak için takip komutlarını kullanın.
 
-## # PHP'yi yükle
+### PHP'yi yükle
 Komutları çalıştırarak Ubuntu veya Debian sisteminize PHP yükleyebilirsiniz:
 sudo apt-get install python-software properties
 sudo add -t-repository ppa: ondrej/php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-## # Apache2'yi kurun
+### Apache2'yi kurun
 Apache en çok kullanılan açık kaynaklı web sunucusu yazılımıdır. Ardından, çalışarak Apache web sunucusunu Ubuntu'ya yükleyin:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # MySQL'i kurun
+### MySQL'i yükle
 MySQL Açık kaynaklı ilişkisel veritabanı yönetim sistemi, lamba web uygulama yazılımı yığınının ve diğerlerinin bir bileşenidir. Şimdi aşağıda çalışarak MySQL'i Ubuntu'ya yükleme:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Kurulum tamamlandığında, Düzenlemek için **PHP.ini**  yapılandırma dosyasını açın. Tercih ettiğiniz dosya düzenleyicisini kullanın.
+Kurulum tamamlandığında, Düzenlemek için  **PHP.ini**  yapılandırma dosyasını açın. Tercih ettiğiniz dosya düzenleyicisini kullanın.
 Php.ini dosyasında aşağıdaki gibi değişiklikler yapın. İki dosya açın ve değişiklikleri gösterildiği gibi yapın
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -88,7 +88,7 @@ sudo apt update
 ```
 sudo apt install -y pydio pydio-all
 ```
-Aşağıdaki gösterilen komutları kullanarak Apache yeniden yazma modülünü etkinleştirin ve yeniden başlatın ve apache2'yi etkinleştirin
+Aşağıda gösterilen komutları kullanarak Apache yeniden yazma modülünü etkinleştirin ve yeniden başlatın ve apache2'yi etkinleştirin
 ```
 sudo a2enmod rewrite
 sudo systemctl restart apache2
@@ -116,29 +116,29 @@ Tarayıcınızı açın ve _http: /// pydio_ url'sini yazın. Gösterildiği gib
 Pydio özel bulut dosya paylaşımı ve iş dosyası paylaşım yazılımı artık yüklendi ve yapılandırıldı, web arayüzlerine erişmenin zamanı geldi.
 Tarayıcınızı açın ve url yazın http: // serinver -ip / pydio. Bir sonraki sayfaya yönlendirileceksiniz:
 
-{{< figure align=center src="images/Pydio-Installer.png" alt="Pydio yükleyici">}}
+{{< figure align=center src="images/Pydio-Installer.png" alt="Pydio yükleyicisi">}}
 
-Tüm kontrolleri onaylayın ve **Pydio Kurulum**  düğmesine devam edin. Aşağıdaki sayfayı görmelisiniz:
+Tüm kontrolleri onaylayın ve  **Pydio kurulumuna devam edin**  düğmesine devam edin. Aşağıdaki sayfayı görmelisiniz:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Pydio Kurulum Sihirbazı">}}
 
-Dilinizi seçin ve **Sihirbazı Başlat**  tıklayın. Aşağıdaki sayfayı görmelisiniz:
+Dilinizi seçin ve  **Sihirbazı Başlat**  tıklayın. Aşağıdaki sayfayı görmelisiniz:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Pydio ayarlarını başlatın">}}
 
-Program adını girin ve hoş geldiniz mesajı. Ardından **Sonraki**  düğmesini tıklayın. Aşağıdaki sayfayı görmelisiniz:
+Program adını girin ve hoş geldiniz mesajı. Ardından  **Sonraki**  düğmesini tıklayın. Aşağıdaki sayfayı görmelisiniz:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Pydio uygulamasını girin">}}
 
-Ardından, Yönetici hesabınızı girin ve **Sonraki**  düğmesini tıklayın. Aşağıdaki sayfayı görmelisiniz:
+Ardından, Yönetici hesabınızı girin ve  **Sonraki**  düğmesini tıklayın. Aşağıdaki sayfayı görmelisiniz:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="MySQL Veritabanı Ayarları">}}
 
-Ardından veritabanı adı, kullanıcı adı ve şifre gibi veritabanı ayrıntılarınızı girin. Ardından **Test DB Bağlantısı**  düğmesini tıklayın. Aşağıdaki sayfayı görmelisiniz:
+Ardından veritabanı adı, kullanıcı adı ve şifre gibi veritabanı ayrıntılarınızı girin. Ardından  **Test DB Bağlantısı**  düğmesini tıklayın. Aşağıdaki sayfayı görmelisiniz:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Pydio Gelişmiş Seçenekler">}}
 
-Ardından, **Pydio**  düğmesini takın. Kurulum başarıyla tamamlandıktan sonra. Bir sonraki sayfaya yönlendirileceksiniz:
+Ardından,  **Pydio**  düğmesini takın. Kurulum başarıyla tamamlandıktan sonra. Bir sonraki sayfaya yönlendirileceksiniz:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Pydio Giriş">}}
 
@@ -146,7 +146,8 @@ Ardından yönetici için kullanıcı adınızı ve şifrenizi girin. Ardından 
 
 Evet! Bitti. Artık Dropbox veya Google Drive'a benzer adım adım özel bir bulut adım oluşturmak için Ubuntu'da Pydio Selfole Dosya Senkronizasyonu ve Açık Kaynak Dosya Paylaşım Yazılımı nasıl tamamen yükleneceğini biliyorsunuz.
 
-## **Sonuç:** {#4A1A}
+##  **Çözüm:**   {#4a1a}
+
 Bu öğreticide, Ubuntu sisteminize Pydio hücreleri açık kaynaklı güvenli dosya paylaşımını başarıyla yüklediniz. Bu makaleyi, dosyalarınızı kendi kendine barındıran bulutta depolamak, güvence altına almak ve paylaşmak için bir bulut altyapısı oluşturmak için kullanabilirsiniz. Verilerinizi daha fazla kontrol etmek ve iş organizasyonunuzda verimli işbirliği sağlamak için Pydio İşbirlikçi Belge Paylaşımı ve En İyi Ücretsiz Dosya Paylaşımı uygulamasını kullanın. Yaklaşan öğreticilerimizde, açık kaynaklı bulut depolama çözümleri ve dosya paylaşımı işbirliği araçlarının daha ilginç konularını tartışacağız.
 _ [Twitter][1], [LinkedIn][2] ve [Facebook][3] sayfamızda bize katılabilirsiniz. Çevrimiçi olarak hangi cloud tabanlı_ açık kaynak _file paylaşım platformu kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][4].
 
@@ -158,7 +159,8 @@ Ayrıca sunucunuzun günlük yönetimi ile ilgili başka birkaç makalemiz de va
   * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][8]
   * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

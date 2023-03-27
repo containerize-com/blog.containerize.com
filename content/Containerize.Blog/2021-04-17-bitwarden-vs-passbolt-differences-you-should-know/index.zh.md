@@ -14,18 +14,18 @@ categories: ['Uncategorized']
 {{< figure align=center src="images/bitwarden.png" alt="开源密码经理| Bitwarden vs Passbolt|开源密码经理| Bitwarden vs Passbolt">}}
 
 当找到一个密码管理器不仅用于个人使用，而且允许团队和企业更好地管理和访问敏感信息时，找到正确的密码管理器可以帮助减轻工作流程。 Bitwarden和Passbolt都是开源密码管理器软件，它们是专门为团队设计的，允许企业在本地或云上托管应用程序。我们将在本文中介绍以下主题，以比较Bitwarden vs passbolt：
-  * [什么是bitwarden？][1]
+  * [什么是Bitwarden？][1]
   * [什么是Passbolt？][2]
   * [主要差异][3]
   * [结论][4]
 
-## **什么是bitwarden？**
+## **什么是bitwarden？** 
 Bitwarden是一个有希望的开源密码管理器，具有跨平台兼容性，包括移动和Web应用程序以及命令行接口。您还可以在桌面上访问Bitwarden，因为它与Windows，MacOS和Linux具有兼容性。作为开源密码管理器，Bitwarden可用于个人使用以及企业级别。您不仅可以在服务器上托管Bitwarden，而且还具有云托管，并且使用跨设备兼容性，可以在需要时访问它。
 
-## **什么是Passbolt？**
+## **什么是Passbolt？** 
 Passbolt是专门为企业开发的开源密码管理器。该界面已被设计为牢记小型和大型团队的需求和要求，它允许对密码和敏感信息进行轻松，安全的管理，并需要定期访问多个员工。 PassBolt仅可在您的服务器上本地使用，并且可以通过网络浏览器扩展在线访问。作为开源密码管理器，您可以直接在服务器上安装源代码，也可以在Ubuntu，Centos 7，Digital Ocean等上托管它。
 
-## **主要差异**
+## **主要差异** 
 Bitwarden和Passbolt都提供了许多作为开源管理人员的功能，但是它们的加密技术和所提供的不同客户端应用程序有所不同。这是一个破产：
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -48,7 +48,7 @@ Bitwarden和Passbolt都提供了许多作为开源管理人员的功能，但是
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **结论**
+## **结论** 
 在这篇文章中，我们试图详细介绍Bitwarden vs Passbolt的比较。我们讨论了两个开源密码管理器之间的主要区别，哪一个提供了最多的功能，作为免费，易于使用的，易于使用的开源密码管理器。
 
 ## 探索
@@ -57,7 +57,8 @@ Bitwarden和Passbolt都提供了许多作为开源管理人员的功能，但是
 [Passbolt |免费，开源和自托密码管理器][6]
 [设置和管理Windows的KeepAss密码管理器][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

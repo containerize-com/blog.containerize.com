@@ -9,7 +9,7 @@ url: /zh-hant/marketing-automation-using-mautic-and-wordpress-woocommerce/
 categories: ['Blogging', 'Marketing Automation']
 ---
 
-## 使用Mautic和WordPress WooCommerce共同擁有銷售。通過從WordPress到Mautic獲取客戶的數據來自動化營銷過程。
+##使用Mautic和WordPress WooCommerce共同擁有銷售。通過從WordPress到Mautic獲取客戶的數據來自動化營銷過程。
 
 {{< figure align=center src="images/banner-mauticWP-1200x628-1-1024x536.png" alt="使用Mautic-WooCommerce集成的營銷自動化">}}
 
@@ -24,10 +24,11 @@ WooCommerce是WordPress的開源電子商務插件。目前，它是世界各地
   * [Mautic配置][3]
   * [最終想法][4]
 
-## WordPress插件配置 {#WordPress}
+## WordPress插件配置 {#wordpress}
+
   1.轉到插件。
   2.單擊“添加新”。
-  3.搜索“**與Mautic集成以進行WooCommerce**”。
+  3.搜索“  **與Mautic集成以進行WooCommerce**  ”。
   4.找到插件後，單擊“立即安裝”。
   5.安裝後，單擊“激活”。
   6.然後轉到WooCommerce-> Mautic-> Connect Tab。
@@ -41,6 +42,7 @@ WooCommerce是WordPress的開源電子商務插件。目前，它是世界各地
 
 
 ## Mautic配置： {#mautic}
+
   1.在您的卑鄙站點中，轉到設置。
   2.轉到配置。
   3.從API設置啟用API。
@@ -60,7 +62,8 @@ WooCommerce是WordPress的開源電子商務插件。目前，它是世界各地
 {{< figure align=center src="images/mautic-1024x622.png" alt="Mautic和WordPress集成步驟">}}
 
 
-## 最終想法： {#final}
+## 最後的想法： {#final}
+
 Mautic-WooCommerce集成可以幫助您實現營銷目標。這種集成是電子商務營銷自動化的最佳解決方案之一。使用WordPress，您可以輕鬆獲得很多客戶，然後使用Mautic創建無限的廣告系列來定位這些客戶，並使其有關您的產品/服務的最新信息，這肯定會擁有銷售額。
 
 ## 探索：
@@ -72,7 +75,8 @@ Mautic-WooCommerce集成可以幫助您實現營銷目標。這種集成是電�
   * [使用Mautic和WordPress WooCommerce的營銷自動化][10]
   * [如何在Mautic中設置營銷活動][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

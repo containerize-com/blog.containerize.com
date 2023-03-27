@@ -17,16 +17,18 @@ categories: ['Blockchain Platforms']
 ## Przegląd
 W niedawnej przeszłości opublikowaliśmy [post na blogu][1], który podkreśla wpływ i znaczenie technologii blockchain. Jest kolejny interesujący post na blogu [co to jest NFT? |. Tokeny nieokreślone wyjaśniły][2]. Technologia Ledger Distributed opiera się na niektórych podstawowych pojęciach, takich jak inteligentne kontrakty, węzły, wydobycie, algorytmy konsensusowe, transakcje cyfrowe i sieci peer-to-peer. Ponieważ jest to zatem open source, istnieje ogromne okno dla rozszerzenia dotyczących przypadków użycia. W rzeczywistości istnieje wiele platform zarządzania zasobami cyfrowymi i bezpłatnymi, które są rozpowszechniane i wymagają pewnego oprogramowania, aby rządzić transakcjami.
 W tym inteligentnym samouczku kontraktowym nauczymy się, jak budować inteligentny kontrakt Ethereum, obejmując następujące punkty pocisków.
-* [**Co to jest inteligentny kontrakt?**][3]
-* [**Jak zbudować podstawowy inteligentny kontrakt?**][4]
-* [**Jak uruchomić i wdrażać inteligentny kontrakt?**][5]
-* [**Wniosek**][6]
+* [ **Co to jest inteligentny kontrakt?** ][3]
+* [ **Jak zbudować podstawowy inteligentny kontrakt?** ][4]
+* [ **Jak uruchomić i wdrażać inteligentną umowę?** ][5]
+* [ **Wniosek** ][6]
 
-## Co to jest inteligentny kontrakt?   {#Co}
+## Co to jest inteligentny kontrakt? {#what}
+
 Inteligentna umowa to program, który działa w blockchain, aby rządzić transakcjami cyfrowymi. Ten kawałek kodu zawiera zdefiniowane reguły i procedury, które zapewniają przejrzystość transakcji. Każda inteligentna umowa zawiera adres, a adres ten służy do uzyskania dostępu do dowolnej funkcji konkretnej inteligentnej umowy. Ponadto inteligentne umowy wprowadzają przejrzystość, zaufanie i bezpieczeństwo do sieci blockchain. Te elementy kodu wykonują automatycznie po spełnieniu określonych warunków.
 Jednak każdy programista może napisać inteligentny kontrakt i wdrożyć ją w sieci. Ponadto inteligentne umowy sprawiają, że procesy są dość solidne, ponieważ nie ma zależności w wykonywaniu tych fragmentów kodu. Ponadto inteligentne umowy przechowują niezbędne informacje związane z każdą transakcją, którą uczestnicy mogą odzyskać i weryfikować. Wiele branż, takich jak opieka zdrowotna, bankowość, bardzo przyjmuje tę rozproszoną technologię księgi. Instytucje rządowe chcą również wdrażać zdecentralizowane aplikacje (DAPPS) w celu wprowadzenia autentyczności i przejrzystości w systemie wyborczym. Istnieje wiele [platform blockchain][7], takich jak [Ethereum][8], [Ripple][9], [Corda][10], a jednak jeszcze w tym przewodniku zbudujemy nasz pierwszy inteligentny kontrakt na Ethereum.
 
-## Jak zbudować podstawową inteligentną umowę?   {#zbudować}
+## Jak zbudować podstawową inteligentną umowę? {#build}
+
 W tej sekcji Smart Contract Tutorial zobaczymy kroki w celu skonfigurowania środowiska dla naszej pierwszej inteligentnej umowy.
 Inteligentne umowy mogą być napisane w wielu językach, ale użyjemy [solidności][11], który jest językiem na wysokim poziomie do pisania inteligentnych umów.
 Użyjemy [Ethereum Studio][12], czyli IDE na podstawie internetowej. Służy do pisania inteligentnych umów, a także zdecentralizowanych aplikacji do interakcji z inteligentnymi umowami. Zapewnia wstępnie zbudowane szablony projektów, w których możesz od razu zacząć pisać swoją logikę.
@@ -38,15 +40,16 @@ Wybierzmy opcję „Hello World” i stwórz nasz pierwszy projekt. Możesz zoba
 
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-5.03.12-PM-1024x578.png" alt="Samouczek inteligentnego kontraktu">}}
 
-Istnieją dwa foldery „App” i „kontrakty”.
+Istnieją dwa foldery „App” i „umowy”.
 Folder aplikacji należy do aplikacji internetowej i zawiera następujące pliki.
-***app.css**: do stylizacji układu
-***app.html**: dla strony głównej
-***App.js**: zawiera logikę biznesową, aby połączyć front z inteligentnym kontraktem
+* **app.css** : do stylizacji układu
+* **app.html** : dla strony głównej
+* **App.js** : zawiera logikę biznesową, aby połączyć front z inteligentnym kontraktem
 Podobnie folder kontraktów zawiera plik źródłowy umowy.
 Otwórzmy teraz plik HelloWorld.sol, który można znaleźć w plikach/kontraktach/helloworld.sol. Zasadniczo jest to główny plik zawierający kod inteligentnego kontraktu napisanego w solidności. Możesz zmodyfikować kod, jeśli chcesz, zostawimy go takim, jakim jest.
 
-## Jak uruchomić i wdrożyć inteligentną umowę?   {#wdrożyć}
+## Jak uruchomić i wdrożyć inteligentną umowę? {#deploy}
+
 W tej sekcji inteligentnego samouczka kontraktowego zobaczymy, jak uruchomić i wdrożyć inteligentną umowę. Ethereum Studio kompiluje kod solidności w kodzie bajtów. Dlatego zapisz kod i wdrożymy naszą pierwszą inteligentną umowę.
 Na lewym panelu bocznym naciśnij ikonę rakiety.
 
@@ -69,14 +72,15 @@ Ponadto istnieje aplikacja front-end, która pozwala użytkownikom interakcję z
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-6.02.38-PM-746x1024.png" alt="Co to jest inteligentny kontrakt">}}
 
 
-## Wniosek   {#Con}
+## Wniosek {#con}
+
 To prowadzi nas do końca tego inteligentnego samouczka kontraktowego. Mam nadzieję, że ten artykuł pomógł ci zrozumieć kluczowe kroki budowania i wdrażania Ethereum Smart Contrar. Ponieważ technologia Blockchain ewoluuje w wysokim tempie, nadszedł czas, aby uzyskać silną praktyczną praktykę nad systemem echo blockchain. Ta rozproszona technologia księgi jest wysoce konfigurowalna i rozszerzalna. Ten post na blogu naprawdę pomoże ci, jeśli chcesz nauczyć się inteligentnego rozwoju kontraktów. Ponadto istnieje wiele pomocnych samouczków i platform zarządzania zasobami cyfrowymi typu open source wymienionych w sekcji „Explore” poniżej.
 Ostatecznie [Containerize.com][13] jest w pełni poświęcony kompilacji listy oprogramowania open source. Istnieje wiele samouczków i postów na blogu na temat oprogramowania typu open source, a wiele postów na blogu znajduje się w przygotowaniu. Dlatego prosimy o kontakt z kategorią [platform Blockchain][7] w celu regularnych aktualizacji.
 
 ## Badać
 Możesz znaleźć istotne następujące linki:
   * [Ethereum][8]
-  * [Hyperledger Fabric][14]
+  * [Materiał hiperledgerowy][14]
   * [OpenChain][15]
   * [Ripple][16]
   * [Multichain][17]
@@ -84,11 +88,12 @@ Możesz znaleźć istotne następujące linki:
   * [Co to jest NFT? |. Wyjaśniono tokeny nieokreślone][2]
   * [Jak konfigurować lokalnie sieć Blockchain Quorum Blockchain][19]
   * [Top 5 platform blockchain open source w 2020 r.][20]
-  * [Podstawowy przewodnik na temat utworzenia Ethereum Smart Contract][21]
+  * [Podstawowy przewodnik na temat utworzenia inteligentnego kontraktu Ethereum][21]
   * [Jak zdecentralizowana technologia ulepsza twoją strategię biznesową][22]
   * [Jak konfigurować lokalnie sieć Blockchain Quorum Blockchain][19]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
 [3]: #what

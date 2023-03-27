@@ -13,26 +13,28 @@ categories: ['Backup Software']
 
 {{< figure align=center src="images/restic-post-banner.png" alt="Open Source Backup -Software">}}
 
-Ein Backup -System ist sowohl für Unternehmen als auch für Einzelpersonen sehr wichtig. Daten können aus verschiedenen Gründen wie Cyberangriff, Systemausfall, versehentlichem Entfernen und vielem mehr verloren gehen. Sie sollten eine gute Sicherungsstrategie haben, damit Sie Ihre Daten schnell wiederherstellen können. In dieser Anleitung wird angezeigt, wie Sie die  **Open Source Backup -Software **  RESTIC auf Ihrem Ubuntu -Server installieren und verwenden.
+Ein Backup -System ist sowohl für Unternehmen als auch für Einzelpersonen sehr wichtig. Daten können aus verschiedenen Gründen wie Cyberangriff, Systemausfall, versehentlichem Entfernen und vielem mehr verloren gehen. Sie sollten eine gute Sicherungsstrategie haben, damit Sie Ihre Daten schnell wiederherstellen können. In dieser Anleitung wird angezeigt, wie Sie die **Open Source Backup -Software** RESTIC auf Ihrem Ubuntu -Server installieren und verwenden.
 Wir haben die folgenden Abschnitte in diesem Tutorial behandelt.
-  *[ **Voraussetzungen ** ][1]
-  *[ **Was ist restlich? ** ][2]
-  *[ **restliche Installation ** ][3]
-  *[ **restliche Konfiguration ** ][4]
-  *[ **Alternativen zu Restic ** ][5]
-  * **[Schlussfolgerung][6] ** 
+* [ **Voraussetzungen** ][1]
+* [ **Was ist restlich?** ][2]
+* [ **restliche Installation** ][3]
+* [ **restliche Konfiguration** ][4]
+* [ **Alternativen zu Restic** ][5]
+* **[Fazit][6]** 
 
-## Voraussetzungen   {#Voraussetzungen}
-Das Restic Backup -Softwareprogramm unterstützt die drei Hauptbetriebssysteme Linux, MacOS und Windows. Vor der Installation  **restlicher Sicherung **  sollten Sie die folgenden Systemanforderungen erfüllen.
+## Voraussetzungen {#Voraussetzungen}
+
+Das Restic Backup -Softwareprogramm unterstützt die drei Hauptbetriebssysteme Linux, MacOS und Windows. Vor der Installation **restlicher Sicherung** sollten Sie die folgenden Systemanforderungen erfüllen.
   * Maschinen- oder Desktop -System mit Ubuntu -Betriebssystem, in dem die Daten untergebracht sind, die gesichert werden sollen
   * Eine neueste Ubuntu -Serverinstanz
   * SSH -Schlüsselauthentifizierung zwischen dem beiden Client und dem Server konfiguriert
   * Nicht-Root-Benutzer mit Sudo-Berechtigungen
 Lassen Sie uns mit diesen Teilen in der Hand bewegen und uns an die Arbeit machen.
 
-## Was ist Restic?   {#Restisch}
-[ **restic ** ][7] ist ein fantastisches  **Open Source -Backup -Tool ** . Es ist ein kostenloses Backup -Dienstprogramm **, das schnell, sicher und effizient ist. Es handelt sich um ein plattformübergreifendes Backup-Programm, sodass es unter Linux, BSD, Mac OS X und Windows ausgeführt wird. RESTIC Best Open Source Backup -Software ist einfach auszuführen und benötigt keinen Server oder eine komplizierte Konfiguration. Es erstellt eine Sicherung der geänderten Daten und ermöglicht es Benutzern, diese bei Bedarf wiederherzustellen. Darüber hinaus bietet es eine Vielzahl von Speicheroptionen, einschließlich Selbst gehosteter und Internetspeicher. Darüber hinaus verwendet der restliche Open -Source -Self -Hosted -Cloud -Speicher robuste kryptografische Techniken, um Ihre Daten zu schützen.
-Restic ist kein einfaches Dateikopierprogramm. Es basiert in erster Linie auf zwei Konzepten: Schnappschüsse und Repositorys.  **RESTIC **  Open Source Backup -Lösung speichert die Informationen als Schnappschuss, der dann in einem Repository gespeichert wird. Es ist in der Go -Programmiersprache geschrieben. RESTIC GO -basiertes Backup -Dienstprogramm und Open -Source -Backup -Anwendung funktioniert reibungslos mit vielen Cloud- und lokalen Backend -Speichersystemen. Der Quellcode der restlichen Open -Source -Dateisicherungssoftware ist unter [ **Github ** ][8] verfügbar. Sie können jedoch detailliert [ **Dokumentation ** ][9] für die Installation und Verwendung finden.
+## Was ist Restic? {#Restic}
+
+[ **restic**][7] ist ein fantastisches**Open Source -Backup -Tool** . Es ist ein kostenloses Backup -Dienstprogramm**, das schnell, sicher und effizient ist. Es handelt sich um ein plattformübergreifendes Backup-Programm, sodass es unter Linux, BSD, Mac OS X und Windows ausgeführt wird. RESTIC Best Open Source Backup -Software ist einfach auszuführen und benötigt keinen Server oder eine komplizierte Konfiguration. Es erstellt eine Sicherung der geänderten Daten und ermöglicht es Benutzern, diese bei Bedarf wiederherzustellen. Darüber hinaus bietet es eine Vielzahl von Speicheroptionen, einschließlich Selbst gehosteter und Internetspeicher. Darüber hinaus verwendet der restliche Open -Source -Self -Hosted -Cloud -Speicher robuste kryptografische Techniken, um Ihre Daten zu schützen.
+Restic ist kein einfaches Dateikopierprogramm. Es basiert in erster Linie auf zwei Konzepten: Schnappschüsse und Repositorys. **RESTIC**Open Source Backup -Lösung speichert die Informationen als Schnappschuss, der dann in einem Repository gespeichert wird. Es ist in der Go -Programmiersprache geschrieben. RESTIC GO -basiertes Backup -Dienstprogramm und Open -Source -Backup -Anwendung funktioniert reibungslos mit vielen Cloud- und lokalen Backend -Speichersystemen. Der Quellcode der restlichen Open -Source -Dateisicherungssoftware ist unter [ **Github** ][8] verfügbar. Sie können jedoch detailliert [**Dokumentation** ][9] für die Installation und Verwendung finden.
 Restic Self Hosted Cloud Backup unterstützt die folgenden Backends für den Sicherungsspeicher.
   * Lokales Verzeichnis
   * SFTP -Server (über SSH)
@@ -45,13 +47,14 @@ Restic Self Hosted Cloud Backup unterstützt die folgenden Backends für den Sic
   * Backblaze B2
   * Microsoft Azure Blob -Speicher
   * Google Cloud -Speicher
-Sie können [ **rclone ** ][10] für verschiedene Backends verwenden, zusätzlich zu den oben aufgeführten.
+Sie können [ **rclone** ][10] für verschiedene Backends verwenden, zusätzlich zu den oben aufgeführten.
 
-## restliche Installation   {#installation}
+## RESTIC -Installation {#Installation}
+
 Es gibt verschiedene Möglichkeiten, restlich bester selbst gehostete Cloud -Speicher auf Ihrem Ubuntu -Betriebssystem zu installieren. Wir werden die Installation des restlichen selbsthosteten Dateispeichers mithilfe von Ubuntu -Paket, Docker und Quellcode abdecken.
 
 ### Installieren mit Paket
-  * Führen Sie den folgenden Befehl aus, um den restlichen Open -Source -Backup -Server unter Ubuntu -Betriebssystem zu installieren.
+  * Führen Sie den folgenden Befehl aus, um den restlichen Open -Source -Backup -Server unter Ubuntu OS zu installieren.
 ```
 $ sudo apt-get install restic
 ```
@@ -63,7 +66,7 @@ $ docker pull restic/restic
 ```
 
 ### Installieren mit der Quelle
-  * Zuerst müssen Sie die Go -Programmiersprache installieren, um Restic aus der Quelle einzurichten. Sie können die offizielle [ **Golang -Website ** ][11] besuchen, um die Anweisungen zu installieren.
+  * Zuerst müssen Sie die Go -Programmiersprache installieren, um Restic aus der Quelle einzurichten. Sie können die offizielle [ **Golang -Website** ][11] besuchen, um die Anweisungen zu installieren.
   * Führen Sie als nächstes die folgenden Befehle aus, um die restliche inkrementelle Sicherung zu installieren.
 ```
 $ git clone https://github.com/restic/restic
@@ -77,7 +80,8 @@ $ go run build.go --goos freebsd --goarch 386
 $ go run build.go --goos linux --goarch arm --goarm 6
 ```
 
-## restliche Konfiguration   {#Configuration}
+## RESTIC -Konfiguration {#Configuration}
+
 Wie wir bereits erwähnt haben, basiert das restliche Open -Source -Backup -System auf Schnappschüssen und Repositorys für die Sicherung. Schauen wir uns an, wie Sie ein Repository einrichten, einen Schnappschuss machen und dann das Backup wiederherstellen können.
 
 ### Repository erstellen
@@ -118,7 +122,7 @@ $ restic -r /srv/restic-repo forget bdbd3439
 ```
 
 ## Alternativen zur Restlichkeit
-Restic ist die beliebteste Open -Source -Backup -Softwareanwendung und garantiert die Vertraulichkeit und Integrität Ihrer wichtigen Dateien. Im Folgenden finden Sie die beliebtesten Alternativen und Top -Konkurrenten des Tools zur Sicherung von restlichen Daten.
+Restic ist die beliebteste Open -Source -Backup -Softwareanwendung und garantiert die Vertraulichkeit und Integrität Ihrer wichtigen Dateiendaten. Im Folgenden finden Sie die beliebtesten Alternativen und Top -Konkurrenten des Tools zur Sicherung von restlichen Daten.
   * Amazon Gletscher
   * Reproduzieren
   * Runrestic
@@ -130,13 +134,13 @@ Restic ist die beliebteste Open -Source -Backup -Softwareanwendung und garantier
   * Zusammensetzung
 
 ## Abschluss
-In diesem Artikel haben wir die restliche  **kostenlose Open -Source -Backup -Software **  behandelt. Wir haben auch mehrere Installationstechniken sowie die Erstellung eines Backups und die Wiederherstellung der Backups besprochen. Es gibt viele andere Formen des Datensicherungsspeichers und wir haben gerade einen in diesem Artikel angesprochen. Die verbleibenden Backend -Speichertypen werden in zukünftigen Veröffentlichungen behandelt. Wir hoffen, dass dieses Tutorial als Ausgangspunkt für Sie für Sie das restliche Best -Source -Backup -Tool für die Einnahme und Wiederherstellung von Backups dient.
-Schließlich befindet sich [ **containerize.com ** ][12] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [ **Backup -Software ** ][13] in Kontakt, um die neuesten Updates zu erhalten.
+In diesem Artikel haben wir die restliche **kostenlose Open -Source -Backup -Software** behandelt. Wir haben auch mehrere Installationstechniken sowie die Erstellung eines Backups und die Wiederherstellung der Backups besprochen. Es gibt viele andere Formen des Datensicherungsspeichers und wir haben gerade einen in diesem Artikel angesprochen. Die verbleibenden Backend -Speichertypen werden in zukünftigen Veröffentlichungen behandelt. Wir hoffen, dass dieses Tutorial als Ausgangspunkt für Sie für Sie das restliche Best -Source -Backup -Tool für die Einnahme und Wiederherstellung von Backups dient.
+Schließlich befindet sich [ **containerize.com**][12] in einem konsistenten Prozess des Schreibens von Blog -Posts zu weiteren neuesten Open -Source -Produkten. Daher bleiben Sie mit dieser Kategorie [**Backup -Software** ][13] in Kontakt, um die neuesten Updates zu erhalten.
 _Was sind Ihre favorisierste kostenlose und Open -Source -Sicherungssoftware?. Haben Sie Fragen zur Open -Source -Backup -Software?
 
 ## Erkunden:
 Wir haben auch mehrere andere verwandte Informationen von OSS Watch:
-  * [Top 5 Open Source Cloud Storage -Software in 2021][15]
+  * [Top 5 Open -Source -Cloud -Speichersoftware in 2021][15]
   * [So installieren Sie NextCloud mit Apache auf Ubuntu Server][16]
   * [Installieren und konfigurieren OwnCloud mit Apache auf Ubuntu][17]
   * [So installieren Sie die Pydio -Dateifreigabe und die Synchronisierungsplattform auf Ubuntu][18]
@@ -144,7 +148,8 @@ Wir haben auch mehrere andere verwandte Informationen von OSS Watch:
   * [Nextcloud gegen OwnCloud | Was sind die Unterschiede?][20]
   * [Beste Open -Source -Cloud -Speicher- und Dateifreigabe -Software][21]
 
-  
+
+
 [1]: #Prerequisites
 [2]: #Restic
 [3]: #Installation

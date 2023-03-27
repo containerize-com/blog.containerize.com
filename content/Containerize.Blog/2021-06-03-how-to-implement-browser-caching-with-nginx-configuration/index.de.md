@@ -14,17 +14,19 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="So implementieren Sie Browsr Caching mit Nginx -Konfiguration">}}
 
 In der Tutorial -Serie unserer NGINX -Reihe haben wir [wie man Nginx als Lastbalancer verwendet][1], [Konfigurieren von Nginx als Reverse Proxy][2], [verwenden Sie mehrere PHP Regeln für Nginx -Schreibrichtlinien][4]. In dem heutigen Artikel berichten wir über ein sehr wichtiges Thema, das Unternehmen hilft, die Erfahrung ihres Benutzers zu verbessern, indem ein Browser -Caching eingesetzt wird. In diesem Tutorial werden Sie Sie mithilfe des Browser -Caching mit der NGINX -Konfiguration mit dem Headermodul von NGINX implementieren. Lass uns anfangen!
-  ***[Hebelbrowser -Caching][5]** 
-  *[**nginx Header -Modul** ][6]
-  *[**E-Tage und If-None-Match** ][7]
-  *[**Hebelbrowser -Caching mit Nginx -Konfiguration** ][8]
-  *[**Schlussfolgerung** ][9]
+* **[Hebelbrowser -Caching][5]** 
+* [ **nginx Header -Modul** ][6]
+* [ **E-Tage und If-None-Match** ][7]
+* [ **Hebelbrowser -Caching mit Nginx -Konfiguration** ][8]
+* [ **Schlussfolgerung** ][9]
 
-## Hebelbrowser Caching   {#Browser-Caching}
+## Nutzen Sie den Browser Caching {#browser-caching}
+
 Je schneller eine Website lädt, desto wahrscheinlicher ist es, dass ein Besucher auf der Website bleibt. Websites mit vielen Bildern und interaktiven Inhalten werden im Hintergrund geladen, und die Website eröffnet eine komplexe Aufgabe. Es besteht darin, viele verschiedene Dateien vom Server einzeln anzufordern. Das Minimieren der Menge dieser Anfragen ist eine Möglichkeit, Ihre Website zu beschleunigen.
 Eine Methode zur Verbesserung der Website -Leistung ist _leveraging Browser Caching_. Browser Caching spielt eine große Rolle im Cache -Mechanismus, um die Seitengeschwindigkeit zu erhöhen. Statische Dateien wie CSS, JS, JPEG, PNG usw., die für die Website verwendet werden, können auf dem Computer des Besuchers für den zukünftigen Zugriff gespeichert werden. Immer wenn der Besucher auf eine neue Seite auf Ihrer Website trifft, können auf die oben genannten Dateien vom Computer des Besuchers anstelle Ihres bereitgestellten Servers zugegriffen werden, wodurch die Seitenlastgeschwindigkeit enorm erhöht wird.
 
-## Nginxs Header-Modul   {#Header-Modul}
+## Das Headermodul von Nginx {#header-module}
+
 Das _ngx \ _http \ _Headers_Module_-Modul ermöglicht das Hinzufügen der Headerfelder "_expires_" und "_cache-control_" und beliebige Felder zu einem Antwortkopf. Wir können das Header -Modul verwenden, um diese HTTP -Header zu setzen. Das Header -Modul ist ein Kern -Nginx -Modul, was bedeutet, dass es nicht separat installiert werden muss, um verwendet zu werden.
 Beispielkonfiguration sieht so aus:
 ```
@@ -38,7 +40,8 @@ expires    $expires;
 add_header Cache-Control private;
 ```
 
-## E-Tag und If-None-Match   {#etage}
+## E-Tag und If-None-Match {#etage}
+
 Nehmen wir an, wir haben einige Testdateien mit unterschiedlichen Erweiterungen, z. B. test.html, test.jpg, test.css und test.js. Standardmäßig haben alle Dateien das gleiche Standard -Caching -Verhalten. So überprüfen Sie die Antwort -Header einer Datei mit dem folgenden Befehl, um eine Datei von unserem lokalen NGINX -Server anzufordern, und zeigt die Antwortheader an:
 ```
 curl -I http://localhost/test.html
@@ -73,7 +76,8 @@ Connection: keep-alive
 ```
 Dieses Mal antwortet Nginx mit **304 nicht geändert** . Es wird die Datei nicht erneut über das Netzwerk gesendet. Stattdessen wird der Browser angegeben, dass die Datei, die er bereits lokal heruntergeladen hat, wiederverwenden kann. Dies ist nützlich, da es den Netzwerkverkehr reduziert. Der Browser muss jedoch noch einen HTTP -Anruf tätigen, um eine Antwort vom Server zu erhalten, die noch einige Zeit dauert.
 
-## Hebelbrowser-Caching mit Nginx-Konfiguration   {#Nginx-Konfiguration}
+## Nutzen Sie das Browser -Caching mit Nginx -Konfiguration {#nginx-configuration}
+
 In unserem vorherigen Beispiel haben wir erklärt, wie Sie mit dem E-Tag und dem If-None-Match den Netzwerkverkehr reduzieren können. Das Problem mit "etag" ist jedoch, dass der Browser immer eine Anfrage an den Server sendet, in dem er gefragt wird, ob er seine zwischengespeicherte Datei wiederverwenden kann. Dies braucht immer noch Zeit, um die Anfrage zu stellen und die Antwort zu erhalten.
 Mit Hilfe des Header -Moduls von NGINX werden wir den Browser dazu erstellen, einige Dateien lokal vorzulegen, ohne den Server explizit zu fragen.
 Fügen Sie die folgenden 3 Zeilen in Ihre Nginx -Konfigurationsdatei hinzu, um den statischen Inhalt in nginx zu cache
@@ -104,14 +108,16 @@ location ~* \.(js|jpg|gif|png|css)$ {
 Im obigen Beispiel zwischen verschiedenen Dateitypen wie JS, JPG, CSS usw. zwischengespeichert wir.
 In ähnlicher Weise können Sie die Cache -Konfiguration in _server_ Block vor einem Standortblock platzieren. In diesem Fall werden alle Antworten dieses Servers zwischengespeichert. Oder Sie können es im Block _http_ platzieren. In diesem Fall werden alle von der Nginx -Konfigurationsdatei unterstützten Serveranforderungen zwischengespeichert.
 
-## Schlussfolgerung   {#Conclusion}
-Mit dem Header-Modul des NGINX kann die Reaktion beliebige Headers hinzufügen. Die richtige Einstellung von Cache-Kontroll-Headern ist jedoch eine der nützlichsten Anwendungen. Es hilft Ihnen, die Leistung der Website zu verbessern, insbesondere für Benutzer in Netzwerken mit höherer Latenz wie mobilen Carrier -Netzwerken. In diesem Tutorial haben wir gelernt, wie man das Browser -Caching mit Nginx -Konfiguration nutzt. Ich hoffe, dies hilft Ihnen dabei, die Erfahrung Ihres Benutzers auf Ihrer Website zu verbessern.
+## Abschluss {#conclusion}
+
+Mit dem Header-Modul des NGINX kann die Reaktion beliebige Headers hinzufügen. Die ordnungsgemäße Einstellung von Cache-Kontroll-Headern ist jedoch eine der nützlichsten Anwendungen. Es hilft Ihnen, die Leistung der Website zu verbessern, insbesondere für Benutzer in Netzwerken mit höherer Latenz wie mobilen Carrier -Netzwerken. In diesem Tutorial haben wir gelernt, wie man das Browser -Caching mit Nginx -Konfiguration nutzt. Ich hoffe, dies hilft Ihnen dabei, die Erfahrung Ihres Benutzers auf Ihrer Website zu verbessern.
 
 ## Erkunden
   * [So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu][3]
   * [So richten und konfigurieren Sie Nginx als Reverse -Proxy][2]
 
-  
+
+
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

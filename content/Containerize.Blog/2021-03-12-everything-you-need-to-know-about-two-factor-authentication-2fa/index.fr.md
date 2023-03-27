@@ -4,7 +4,7 @@ seoTitle: "Tout ce que vous devez savoir sur l'authentification à deux facteurs
 description: "Cet article explique en détail l'authentification à deux facteurs (2FA) et comment peut être implémenté dans .NET5 en utilisant IdentityServer4 et Twilio." 
 date: Fri, 12 Mar 2021 13:14:33 +0000
 author: Hammad Abbasi
-summary: "Cet article explique en détail l'authentification à deux facteurs et comment peut être implémentée dans .NET 5 en utilisant des cadres d'identité comme IdentityServer4 et un fournisseur SMS (Twilio). & Nbsp;" 
+summary: "Cet article explique en détail l'authentification à deux facteurs et comment peut être implémenté dans .NET 5 en utilisant des cadres d'identité comme IdentityServer4 et un fournisseur SMS (Twilio). & Nbsp;" 
 url: /fr/everything-you-need-to-know-about-two-factor-authentication-2fa/
 categories: ['Single Sign-On']
 ---
@@ -19,28 +19,33 @@ Il contient les sections suivantes:
   * [Implémentation de 2FA dans .NET5][5]
 Tout d'abord, comprenons ce qu'est 2FA et pourquoi il doit faire partie intégrante de chaque application Web moderne.
 
-## Qu'est-ce que l'authentification à deux facteurs?   {#2FA}
-Un facteur dans ce contexte implique un moyen de convaincre une application ou un service que vous êtes propriétaire du compte. Le nom d'utilisateur / mot de passe est largement utilisé comme facteur d'authentification le plus courant. Cependant, en raison de nombreux problèmes de sécurité qui y sont associés et des violations de données généralisées récentes - l'authentification à facteur unique est devenue moins sécurisée.
-L'authentification à deux facteurs est une couche de sécurité supplémentaire, qui entre en jeu avant de pouvoir accéder à votre compte. En cours au processus de connexion standard - il introduit une étape supplémentaire pour vérifier l'identité de l'utilisateur en envoyant un code (à votre e-mail ou en SMS). De cette façon, votre identité est prouvée et ce n'est qu'à ce que l'accès soit accordé.
+## Qu'est-ce que l'authentification à deux facteurs? {#2FA}
 
-## Comment fonctionne 2FA?   {#2fawork}
+Un facteur dans ce contexte implique un moyen de convaincre une application ou un service que vous êtes propriétaire du compte. Le nom d'utilisateur / mot de passe est largement utilisé comme facteur d'authentification le plus courant. Cependant, en raison de nombreux problèmes de sécurité qui y sont associés et des violations de données généralisées récentes - l'authentification à facteur unique est devenue moins sécurisée.
+L'authentification à deux facteurs est une couche de sécurité supplémentaire, qui entre en jeu avant de pouvoir accéder à votre compte. Ajout du processus de connexion standard - il introduit une étape supplémentaire pour vérifier l'identité de l'utilisateur en envoyant un code (à votre e-mail ou en SMS). De cette façon, votre identité est prouvée et ce n'est qu'à ce que l'accès soit accordé.
+
+## Comment fonctionne 2FA? {#2fawork}
+
 Dans 2FA, le mot de passe est toujours votre premier facteur d'authentification - donc lorsque vous vous connectez à votre compte, il vous redirigera vers une autre page où vous devez vérifier la propriété du compte. Cela peut être fait en utilisant différentes manières:
   1. L'application envoie un code de vérification souvent appelé OTP (mot de passe ponctuel) à votre adresse e-mail.
   2. Le code est livré en SMS sur votre téléphone.
   3. Vous installez une application Authenticator sur mobile à travers laquelle vous pouvez autoriser les demandes de connexion.
 Remarque: Ces codes de vérification sont générés au hasard et sont expirés une fois utilisés. En outre, ils sont de courte durée - il y a donc une courte fenêtre avant de pouvoir utiliser le code (cela empêche le pirate de forcer brute les codes de vérification).
 
-## Pouvons-nous appeler 2FA comme authentification multi-facteurs?   {#Mfa}
+## Pouvons-nous appeler 2FA comme authentification multi-facteurs? {#MFA}
+
 Les méthodes d'authentification ne sont pas limitées aux deux facteurs. De nombreuses applications et services déplacent leurs utilisateurs au-delà de 2FA et utilisent l'authentification multi-facteurs.
 2FA et MFA (authentification multi-facteurs) sont souvent utilisés de manière interchangeable. Cependant, il y a une différence. Dans l'authentification multi-facteurs, deux ou plusieurs facteurs sont utilisés.
 Il peut vérifier l'adresse IP d'un utilisateur, la géo-localisation et les informations sur les informations de l'appareil à d'autres facteurs tels qu'un mot de passe et un OTP pour vérifier l'identité de l'utilisateur.
 Par conséquent, nous pouvons dire que le 2FA est un sous-ensemble de MFA. En 2FA, il n'y aura que deux facteurs alors que le multi-facteurs peut utiliser deux ou plusieurs facteurs. Le MFA rend difficile les pirates car il ajoute plusieurs couches de sécurité dans le processus d'authentification traditionnel.
 
-## Y a-t-il des inconvénients utilisant 2FA?   {#MFA-Cons}
+## Y a-t-il des inconvénients utilisant 2FA? {#mfa-cons}
+
 Semblable à de nombreuses solutions de «sécurité et de confidentialité» qui existent dans les applications modernes. Il a également un prix - un inconvénient, car il existe une étape supplémentaire qui peut provoquer une friction dans l'expérience utilisateur.
 Cependant, il est adopté par de nombreuses applications et services, ce compromis devient donc acceptable.
 
-## Comment puis-je implémenter l'authentification 2FA?   {#implémenting2fa}
+## Comment puis-je implémenter l'authentification 2FA? {#implementing2fa}
+
 Dans cette section, nous apprendrons à implémenter 2FA dans .NET5 en utilisant IdentityServer4 et Twilio.
 Créons donc un compte d'essai sur Twilio:
   1. S'inscrire sur
@@ -67,7 +72,7 @@ Nous allons désormais intégrer les packages IdentityServer4, Twilio de NuGet.
   2. `Installer-Package Twilio -Version 5.55.0`
 IdentityServer4 Ui rapide est disponible sur:
 Vous pouvez l'inclure dans votre projet en exécutant la commande ci-dessous dans le développeur Shell:
-`IEX ((new-object system.net.webclient) .DownloadString ('https://raw.githubusercontent.com/IdentityServer/IdentityServer4.Quickstart.Ui/Main/Getmain.PS1'))`
+`IEX ((new-object system.net.webclient) .DownloadString ('https://raw.githubusercontent.com/IdentityServer/IdentityServer4
 S'il était installé correctement - vous verriez le dossier QuickStart dans votre projet:
 
 {{< figure align=center src="images/2021-03-10-16_40_47-Window.png" alt="Hiérarchie du projet">}}
@@ -151,7 +156,7 @@ Ajouter VerifyCode.cshtml dans QuickStart / Views:
 {{< figure align=center src="images/2021-03-10-15_47_52-Window-1024x497.png" alt="2fa en action">}}
 
 Modifiez la méthode du compte / de la connexion pour générer et envoyer du code de vérification après la vérification des informations d'identification. Nous ne voulons pas terminer la demande de connexion en ce moment.
-Par conséquent, l'appel de méthode httpcontext.signInasync sera supprimé, et à la place, nous générerons simplement un code de vérification aléatoire et le stockons (actuellement nous utilisons un magasin en mémoire à des fins de démonstration).
+Par conséquent, l'appel de méthode httpcontext.signInasync sera supprimé, et nous générerons simplement un code de vérification aléatoire et le stockons (actuellement nous utilisons un magasin en mémoire à des fins de démonstration).
 ```
 [HttpPost]
 
@@ -167,7 +172,7 @@ Dans VerifyCode Action, nous allons simplement récupérer les informations de l
 
 {{< figure align=center src="images/2021-03-11-09_13_15-Window-1024x647.png" alt="Capture d'écran de code">}}
 
-Si le code est apparié, nous terminons simplement la demande d'authentification en invoquant la méthode SignInasync et redirigez l'utilisateur vers la page autorisée.
+Si le code est égalé, nous terminons simplement la demande d'authentification en invoquant la méthode SignInasync et redirigez l'utilisateur vers la page autorisée.
 Exécutons le projet
 Étape -1: L'utilisateur fournit des informations d'identification.
 
@@ -186,11 +191,12 @@ Le code étape-4 est vérifié et l'authentification 2FA est terminée.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo - page autorisée">}}
 
 
-## # Conclusion:
+### Conclusion:
 Dans cet article, nous avons appris sur 2FA et sa mise en œuvre dans .NET5 en utilisant IdentityServer4 et Twilio. Vous pouvez télécharger l'exemple de code utilisé dans cet article à partir de ce [Repo][6].
-L'utilisation de SMS pour 2FA renforce sûrement votre sécurité, mais elle est toujours vulnérable aux [attaques d'échange SIM][7]. Par conséquent, les chercheurs en sécurité encouragent le 2FA à utiliser d'autres approches telles que les applications d'authentification et les clés de sécurité ([Yubikey][8]) qui ne peuvent pas être interceptées sur le réseau téléphonique. Nous en apprendrons plus à ce sujet dans un prochain article - restez à l'écoute!
+L'utilisation de SMS pour 2FA renforce sûrement votre sécurité, mais elle est toujours vulnérable aux [attaques d'échange SIM][7]. Par conséquent, les chercheurs en sécurité encouragent 2FA à utiliser d'autres approches telles que les applications d'authentificateurs et les clés de sécurité ([Yubikey][8]) qui ne peuvent pas être interceptées sur le réseau téléphonique. Nous en apprendrons plus à ce sujet dans un prochain article - restez à l'écoute!
 
-  
+
+
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

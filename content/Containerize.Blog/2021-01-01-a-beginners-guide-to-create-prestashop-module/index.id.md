@@ -13,28 +13,31 @@ categories: ['Shopping Cart Software']
 
 {{< figure align=center src="images/prestashop-module.png" alt="Modul Prestashop">}}
 
- **Prestashop **  adalah perangkat lunak eCommerce yang 100% gratis dan open source. Ini memungkinkan pemilik toko untuk dengan mudah mengatur keberadaan online mereka dan meningkatkan bisnis dalam skala luas. Prestashop hadir dengan fitur default dan Anda dapat membutuhkan lebih banyak fungsi untuk kebutuhan bisnis Anda sesekali. Marketplace for Prestashop adalah tempat yang fantastis untuk menemukan fitur tambahan yang dapat digunakan untuk memperluas fungsionalitas toko. Selain itu, Anda dapat menemukan modul gratis dan berbayar di Marketplace. Namun, Anda dapat membuat modul khusus dari awal juga.
-Kami akan membahas topik di bawah ini secara rinci untuk  **Buat Modul Prestashop ** .
+**Prestashop** adalah perangkat lunak eCommerce yang 100% gratis dan open source. Ini memungkinkan pemilik toko untuk dengan mudah mengatur keberadaan online mereka dan meningkatkan bisnis dalam skala luas. Prestashop hadir dengan fitur default dan Anda dapat membutuhkan lebih banyak fungsi untuk kebutuhan bisnis Anda sesekali. Marketplace for Prestashop adalah tempat yang fantastis untuk menemukan fitur tambahan yang dapat digunakan untuk memperluas fungsionalitas toko. Selain itu, Anda dapat menemukan modul gratis dan berbayar di Marketplace. Namun, Anda dapat membuat modul khusus dari awal juga.
+Kami akan membahas topik di bawah ini secara rinci untuk **Buat Modul Prestashop** .
   * [Persyaratan][1]
   * [Dasar -dasar Pengembangan Modul][2]
   * [Buat modul prestashop kami][3]
   * [Kesimpulan][4]
 
-## persyaratan   {#req}
+## Persyaratan {#Req}
+
   * Pasang Prestashop 1.6 atau lebih besar.
   * Akrab dengan prestashop.
   * Pemahaman tentang PHP.
 
-## Dasar -dasar Pengembangan Modul   {#Basics}
-Sebelum Anda mulai mengkode, sangat penting untuk mengetahui tentang konsep inti untuk pengembangan modul prestashop  **** . Ini akan memungkinkan Anda untuk dengan cepat membangun dan mengelola modul Anda.
- **Konfigurasi **  - Konfigurasi memungkinkan Anda menyimpan data di database toko tanpa memerlukan tabel spesifik modul. Tabel konfigurasi berisi daftar properti nilai kunci yang dapat diakses dari mana saja.
- **Hooks **  - Hooks adalah cara untuk menghubungkan acara prestashop tertentu dengan kode Anda. Anda dapat menggunakan kait untuk menempatkan kode Anda di halaman dan untuk tindakan tertentu seperti mengirim email pada acara tertentu.
- **Widget **  - Pengembang modul menggunakan widget untuk menampilkan konten jika diperlukan.
- **Doktrin **  - Doktrin adalah ORM memungkinkan Anda untuk mengelola data database Anda melalui objek. Ini memberikan lapisan abstrak yang memungkinkan Anda melakukan tindakan memasukkan/memperbarui dengan panggilan sederhana.
+## Dasar -dasar Pengembangan Modul {#Basics}
 
-## Buat modul prestashop kami   {#Create}
-  *Buat direktori modul bernama  **myfirstmodule **  dalam  **modul **  direktori instalasi prestashop Anda. Tempatkan semua file di direktori modul Anda.
-  *Buat file utama dengan nama  **myfirstmodule.php **  dan salin kode berikut di dalamnya.
+Sebelum Anda mulai mengkode, sangat penting untuk mengetahui tentang konsep inti untuk pengembangan modul prestashop****. Ini akan memungkinkan Anda untuk dengan cepat membangun dan mengelola modul Anda.
+**Konfigurasi** - Konfigurasi memungkinkan Anda menyimpan data di database toko tanpa memerlukan tabel spesifik modul. Tabel konfigurasi berisi daftar properti nilai kunci yang dapat diakses dari mana saja.
+**Hooks** - Hooks adalah cara untuk menghubungkan acara prestashop tertentu dengan kode Anda. Anda dapat menggunakan kait untuk menempatkan kode Anda di halaman dan untuk tindakan tertentu seperti mengirim email pada acara tertentu.
+**Widget** - Pengembang modul menggunakan widget untuk menampilkan konten jika diperlukan.
+**Doktrin** - Doktrin adalah ORM memungkinkan Anda untuk mengelola data database Anda melalui objek. Ini memberikan lapisan abstrak yang memungkinkan Anda melakukan tindakan memasukkan/memperbarui dengan panggilan sederhana.
+
+## Buat modul prestashop kami {#Create}
+
+* Buat direktori modul bernama **myfirstmodule**dalam**modul** direktori instalasi prestashop Anda. Tempatkan semua file di direktori modul Anda.
+* Buat file utama dengan nama **myfirstmodule.php** dan salin kode berikut di dalamnya.
 ```
 <?php
 if (!defined('_PS_VERSION_'))
@@ -64,7 +67,7 @@ class MyFirstModule extends Module
   }
 }
 ```
-  *Buat  **Instal () **  dan  **uninstall () **  Metode. Tambahkan metode berikut di  **file myfirstmodule.php ** .
+* Buat **Instal ()**dan **uninstall ()** Metode. Tambahkan metode berikut di**file myfirstmodule.php** .
 ```
 public function install()
 {
@@ -81,7 +84,7 @@ public function uninstall()
   return true;
 }
 ```
-  * Hubungi metode khusus untuk mengaktifkan kait terdaftar kami. Kami akan menggunakan metode ini untuk menampilkan "Hello World!" SMS ke bilah samping. Tambahkan kode berikut di  **file myfirstmodule.php ** .
+  * Hubungi metode khusus untuk mengaktifkan kait terdaftar kami. Kami akan menggunakan metode ini untuk menampilkan "Hello World!" SMS ke bilah samping. Tambahkan kode berikut di **file myfirstmodule.php** .
 ```
 public function hookLeftColumn($params)
 {
@@ -93,17 +96,19 @@ public function hookRightColumn($params)
    return $this->hookLeftColumn($params);
 }
 ```
-  *Akhirnya, buka bagian Administrator, Unggah dan  **Instal Modul Prestashop ** .
+* Akhirnya, buka bagian Administrator, Unggah dan **Instal Modul Prestashop** .
 
-## kesimpulan   {#conclusion}
-Kami telah membahas konsep inti untuk membangun modul  **prestashop **  dalam tutorial ini. Lebih lanjut, kami telah mengembangkan modul dasar yang dapat digunakan sebagai titik awal untuk lebih banyak modul canggih. [containerize.com][5] secara konsisten bekerja pada posting blog tutorial baru. Untuk pembaruan terbaru, harap tetap berhubungan dengan kategori [Perangkat Lunak Keranjang Belanja][6].
+## Kesimpulan {#Kesimpulan}
+
+Kami telah membahas konsep inti untuk membangun modul **prestashop** dalam tutorial ini. Lebih lanjut, kami telah mengembangkan modul dasar yang dapat digunakan sebagai titik awal untuk lebih banyak modul canggih. [containerize.com][5] secara konsisten bekerja pada posting blog tutorial baru. Untuk pembaruan terbaru, harap tetap berhubungan dengan kategori [Perangkat Lunak Keranjang Belanja][6].
 
 ## Mengeksplorasi
-Anda dapat menemukan tautan berikut yang berguna selain tutorial pembuatan Modul Prestashop  **** .
+Anda dapat menemukan tautan berikut yang berguna selain tutorial pembuatan Modul Prestashop****.
   * [Prestashop - Perangkat lunak keranjang belanja gratis][7]
   * [Top 5 Perangkat Lunak Keranjang Belanja Open Source Pada tahun 2020][8]
 
-  
+
+
 [1]: #Req
 [2]: #Basics
 [3]: #Create

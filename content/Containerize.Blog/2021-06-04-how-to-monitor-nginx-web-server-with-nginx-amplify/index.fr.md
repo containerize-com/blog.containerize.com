@@ -14,15 +14,17 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginx-post.png" alt="Surveiller le serveur Web Nginx avec Amplify Nginx">}}
 
 
-## Présentation   {#install}
-**La surveillance du serveur Web  **est très importante pour les sites Web à haut trafic. L'agent de surveillance ** **  enregistrera régulièrement des mesures essentielles sur le serveur Web. Ces mesures critiques peuvent être utilisées pour optimiser la configuration de Nginx. Il vous aidera à améliorer les performances de votre serveur Web et de votre application.
-Dans cet article de blog, nous couvrirons les sections suivantes pour **Nginx Surveillant**  Open Source Tool.
+## Aperçu {#Install}
+
+**La surveillance du serveur Web**est très importante pour les sites Web à haut trafic. L'agent de surveillance****enregistrera régulièrement des mesures essentielles sur le serveur Web. Ces mesures critiques peuvent être utilisées pour optimiser la configuration de Nginx. Il vous aidera à améliorer les performances de votre serveur Web et de votre application.
+Dans cet article de blog, nous couvrirons les sections suivantes pour **Nginx Surveillant** Open Source Tool.
   * [Serveur Web Nginx][1]
   * [Nginx amplify][2]
   * [Installer Nginx Amplify][3]
   * [Surveillance des mesures][4]
 
-## serveur Web Nginx   {#nginx}
+## Serveur Web Nginx {#Nginx}
+
 [Nginx][5] est un serveur Web gratuit et open source. Il est simple, léger et facile à configurer qu'Apache. Le serveur Web Nginx fonctionne également comme un proxy inversé, un équilibreur de chargement, un proxy de courrier et un cache HTTP. Il fonctionne pour les protocoles HTTP, HTTPS, SMTP, POP3 et IMAP. Nginx est un serveur Web à grande vitesse, fiable et économe en mémoire qui améliore les performances de vos applications. De plus, il a gagné en popularité et est maintenant considéré comme le serveur Web le plus populaire. De plus, Nginx convient à tout type de site Web, y compris des sites et applications à fort trafic. Il peut être installé et configuré sur presque tous les systèmes d'exploitation.
 
 ### Installer Nginx
@@ -36,13 +38,15 @@ sudo apt install nginx
 {{< figure align=center src="images/nginx-home.png" alt="Bienvenue à Nginx!">}}
 
 
-## nginx amplify   {#amplify}
-Nginx Amplify est un outil de surveillance gratuit pour Nginx Open Source, Nginx Plus et PHP-FPM. Il s'agit d'un outil basé sur le SaaS pour la surveillance et les applications du serveur NGINX. Les utilisateurs peuvent facilement garder une trace des actifs d'infrastructure, surveiller les performances et ajuster la configuration. Il donne des informations complètes que les utilisateurs peuvent utiliser pour optimiser le serveur Web et la configuration des applications. Il agit comme un agent sur le serveur qui héberge les applications Nginx et PHP. Nginx Amplify est un journal léger, pushs et de surveillance des données pour amplifier les serveurs sans compromettre les performances. Vous pouvez afficher les mesures sur le tableau de bord Amplify. L'agent est disponible pour tous les principaux systèmes d'exploitation tels que Rhel, Centos, Ubuntu, Debian, Fedora et FreeBSD. Nginx Amplify a trois composants principaux tels que Nginx Amplify Agent, Nginx Amplify Web UI et Nginx Amplify Backend.
-  * **Nginx Amplify Agent**  - il fonctionne sur le système surveillé. Toute communication est chiffrée à l'aide de SSL / TLS.
-  * **Nginx Amplify Web UI**  - UI Web affiche les mesures pour les serveurs Web, les applications et les systèmes d'exploitation.
-  * **Nginx Amplify Backend**  - C'est un composant clé qui est implémenté en tant que SaaS et est responsable de la collecte de mesures, de la maintenance d'une base de données, de l'exécution d'un moteur d'analyse et de la fourniture d'une API de base.
+## Amplification Nginx {#Amplify}
 
-## Installer Nginx Amplify   {#install}
+Nginx Amplify est un outil de surveillance gratuit pour Nginx Open Source, Nginx Plus et PHP-FPM. Il s'agit d'un outil basé sur le SaaS pour la surveillance et les applications du serveur NGINX. Les utilisateurs peuvent facilement garder une trace des actifs d'infrastructure, surveiller les performances et ajuster la configuration. Il donne des informations complètes que les utilisateurs peuvent utiliser pour optimiser le serveur Web et la configuration des applications. Il agit comme un agent sur le serveur qui héberge les applications Nginx et PHP. Nginx Amplify est un journal léger, pushs et de surveillance des données pour amplifier les serveurs sans compromettre les performances. Vous pouvez afficher les mesures sur le tableau de bord Amplify. L'agent est disponible pour tous les principaux systèmes d'exploitation tels que Rhel, Centos, Ubuntu, Debian, Fedora et FreeBSD. Nginx Amplify a trois composants principaux tels que Nginx Amplify Agent, Nginx Amplify Web UI et Nginx Amplify Backend.
+  * **Nginx Amplify Agent** - il fonctionne sur le système surveillé. Toute communication est chiffrée à l'aide de SSL / TLS.
+  * **Nginx Amplify Web UI** - UI Web affiche les mesures pour les serveurs Web, les applications et les systèmes d'exploitation.
+  * **Nginx Amplify Backend** - C'est un composant clé qui est implémenté en tant que SaaS et est responsable de la collecte de mesures, de la maintenance d'une base de données, de l'exécution d'un moteur d'analyse et de la fourniture d'une API de base.
+
+## Installer Nginx Amplify {#Install}
+
 Suivez ci-dessous le guide étape par étape pour l'installation de Nginx Amplify sur Ubuntu.
   * Tout d'abord, vous devez créer un compte sur le Nginx [site Web][6].
   * Après la connexion, vous verrez l'écran ci-dessous sur le site Web de Nginx Amplify. Maintenant, connectez-vous à votre serveur via SSH et utilisez les commandes données dans les étapes ci-dessous.
@@ -108,14 +112,15 @@ $ sudo service nginx restart
 {{< figure align=center src="images/amplify-overview.png" alt="Statistiques de surveillance Nginx">}}
 
 
-## Surveillance des métriques   {#onitoring}
+## Surveillance des mesures {#Monitoring}
+
 L'agent Amplify Nginx collecte les types de données suivants:
-  * **Metrics Nginx**  - Il collecte diverses mesures liées à Nginx à partir de Stub_status, de fichiers de journaux et à partir de l'état de processus.
-  * **Metrics système**  - Nginx Amplify surveille une variété de mesures système telles que l'utilisation du processeur, l'utilisation de la mémoire, le trafic réseau et bien d'autres.
-  * **PHP-FPM Metrics**  - S'il identifie un processus maître PHP-FPM en cours, il obtient des métriques à partir de l'état du pool PHP-FPM.
-  * **MySQL Metrics**  - L'ensemble de statut global MySQL des variables peut être utilisé par l'agent pour collecter des mesures.
-  * **Metadata Nginx**  - L'agent rassemble des données sur les instances NGINX telles que les données de package, les informations de construction, le chemin binaire, les paramètres de configuration de construction et bien d'autres.
-  * **Metadata du système**  - L'agent collecte des données sur le système d'exploitation, y compris le nom d'hôte, la disponibilité, la saveur du système d'exploitation et d'autres détails.
+  * **Metrics Nginx** - Il collecte diverses mesures liées à Nginx à partir de Stub_status, de fichiers de journaux et à partir de l'état de processus.
+  * **Metrics système** - Nginx Amplify surveille une variété de mesures système telles que l'utilisation du processeur, l'utilisation de la mémoire, le trafic réseau et bien d'autres.
+  * **PHP-FPM Metrics** - S'il identifie un processus maître PHP-FPM en cours, il obtient des métriques à partir de l'état du pool PHP-FPM.
+  * **MySQL Metrics** - L'ensemble de statut global MySQL des variables peut être utilisé par l'agent pour collecter des mesures.
+  * **Metadata Nginx** - L'agent rassemble des données sur les instances de Nginx telles que les données de package, les informations de construction, le chemin binaire, les paramètres de configuration de construction et bien d'autres.
+  * **Metadata du système** - L'agent collecte des données sur le système d'exploitation, y compris le nom d'hôte, la disponibilité, la saveur du système d'exploitation et d'autres détails.
 
 ## Conclusion
 Nous avons parcouru le serveur Web Nginx et Nginx Amplify Advanced Monitoring Agent en détail. Nginx Amplify est assez simple à configurer et à configurer. De plus, nous avons parcouru les métriques critiques que Nginx Amplify peut suivre pour **surveiller Nginx** . Ces mesures importantes peuvent être utilisées pour améliorer la configuration de votre serveur Web et applications Nginx.
@@ -126,7 +131,8 @@ Vous pouvez trouver les liens suivants pertinents:
   * [Comment utiliser nginx comme équilibreur de charge pour votre application][9]
   * [Comment configurer et configurer Nginx comme proxy inverse][10]
 
-  
+
+
 [1]: #Nginx
 [2]: #Amplify
 [3]: #Install

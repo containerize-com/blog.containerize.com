@@ -24,10 +24,11 @@ WooCommerce هو البرنامج المساعد للتجارة الإلكترو
   * [تكوين mautic][3]
   * [الأفكار النهائية][4]
 
-## تكوين المكون الإضافي WordPress   {#WordPress}
+## تكوين البرنامج المساعد WordPress {#wordpress}
+
   1. انتقل إلى الإضافات.
   2. انقر فوق "إضافة جديد".
-  3. ابحث عن "**تكامل مع Mautic لـ WooCommerce**".
+  3. ابحث عن "  **تكامل مع Mautic لـ WooCommerce**  ".
   4. بمجرد العثور على البرنامج المساعد ، انقر على "تثبيت الآن".
   5. بعد التثبيت ، انقر فوق "تنشيط".
   6. ثم انتقل إلى WooCommerce -> Mautic -> Connect Tab.
@@ -40,7 +41,8 @@ WooCommerce هو البرنامج المساعد للتجارة الإلكترو
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="تكامل Mautic و WordPress">}}
 
 
-## تكوين Mautic:   {#Mautic}
+## تكوين mautic: {#mautic}
+
   1. من موقع mautic الخاص بك ، انتقل إلى الإعدادات.
   2. انتقل إلى التكوينات.
   3. تمكين API من إعدادات API.
@@ -60,7 +62,8 @@ WooCommerce هو البرنامج المساعد للتجارة الإلكترو
 {{< figure align=center src="images/mautic-1024x622.png" alt="خطوات تكامل Mautic و WordPress">}}
 
 
-## الأفكار النهائية:   {#final}
+## افكار اخيرة: {#final}
+
 يمكن أن يساعدك تكامل Mautic-Woocommerce معًا على تحقيق أهدافك التسويقية. هذا التكامل هو أحد أفضل الحلول لأتمتة تسويق التجارة الإلكترونية. باستخدام WordPress ، يمكنك بسهولة الحصول على الكثير من العملاء ، ثم مع Mautic ، يمكنك إنشاء حملات غير محدودة لاستهداف هؤلاء العملاء والحفاظ على تحديثهم فيما يتعلق بمنتجاتك/خدماتك ، والتي ستفاخر المبيعات بالتأكيد.
 
 ## يستكشف:
@@ -72,7 +75,8 @@ WooCommerce هو البرنامج المساعد للتجارة الإلكترو
   * [أتمتة التسويق باستخدام WOOCOMMERCE MAUTIC و WORDPRESS][10]
   * [كيفية إعداد حملات التسويق في Mautic][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

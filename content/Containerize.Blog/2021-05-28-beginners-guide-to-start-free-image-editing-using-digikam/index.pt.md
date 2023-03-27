@@ -19,11 +19,13 @@ Se você apenas filma com seu smartphone ou é um fotógrafo profissional, preci
   * [Como usar Digikam?][4]
   * [Conclusão][5]
 
-## O que é Digikam?   {#digikam}
+## O que é Digikam? {#digikam}
+
 Para qualquer fotógrafo digital que tenha um software que ajude o fluxo de trabalho da fotografia e o torne sem costura pode fazer uma enorme diferença não apenas para a qualidade das suas fotos, mas também o processo de edição. Digikam é um gerente de fluxo de trabalho de fotografia digital que permite que os fotógrafos não apenas categorizem os arquivos separadamente em massa, mas apliquem muitos efeitos de edição também. Você também pode enviar imagens cruas diretamente e convertê -las em DNG sem perda de qualidade e suporta muitos modelos de câmera digital. Como editor de imagem de código aberto, você também pode armazenar arquivos localmente ou em um servidor remoto. O Digikam fornece suporte ao banco de dados de vários dados, incluindo SQL, MySQL e Mariadb.
 Digikam tem uma interface fácil de usar. Ele permite que você se conecte à sua câmera ou visualize imagens. Seu layout é muito intuitivo e fácil de entender. À esquerda, existem controles para visualizar as fotos e, à direita, existem controles para efeitos e filtros. O DGIKAM tem sido essencialmente um aplicativo completo e estável há um bom tempo, por isso será uma boa experiência para você.
 
-## Como instalar Digikam?   {#instalar}
+## Como instalar Digikam? {#install}
+
 [Digikam][1] suporta vários sistemas operacionais, incluindo Windows, Mac OS e Linux. Como um software de edição de imagem gratuito, a versão mais recente do Digikam é bastante estável e pronta para ser instalada para o seu sistema operacional preferido.
 Para Linux, aqui é como instalar Digikam:
 {{_LINE_23_}}
@@ -48,7 +50,8 @@ sudo apt install digikam
   * E você terminou, agora você pode iniciar o aplicativo e configurar o comportamento do arquivo de acordo com suas necessidades.
 É importante observar que o primeiro lançamento do Digikam será um desempenho lento, pois o Digikam analisará sua coleção de fotos e criará informações para ele. Isso pode demorar um pouco, por isso é melhor deixá -lo correr durante a noite se você tiver uma grande coleção e começar a usar o dia seguinte. Agora podemos passar para a edição de imagens com este software de edição de fotos de código aberto.
 
-## Como usar o Digikam?   {#usar}
+## Como usar Digikam? {#use}
+
 Digikam tem uma interface bastante fácil de navegar e entender que permite que fotógrafos e editores de imagens comecem imediatamente com o fluxo de trabalho. Esteja você enviando imagens diretamente da sua câmera, servidor local ou de um servidor remoto, o Digikam torna a organização e a edição de imagens digitais bastante diretas e rápidas.
 Uma das principais características do Digikam é a tabela de luz que mostra automaticamente melhorias que podem refinar a qualidade de suas fotos digitais sem perda de qualidade. É simplesmente retocar e ir. Da mesma forma, o editor de imagens do Digikam fornece muitas ferramentas e efeitos que tornam a edição bastante fácil e simples.
 Aqui estão toda a edição de imagem que você pode fazer através do Digikam:
@@ -101,7 +104,8 @@ Aqui estão toda a edição de imagem que você pode fazer através do Digikam:
 {{< figure align=center src="images/Beginners-Guide-To-Start-Free-Image-Editing-Using-Digikam-6-1024x570.jpeg" alt="Guia para iniciantes para iniciar a edição de imagem gratuita usando Digikam">}}
 
 
-## Conclusão   {#conclusion}
+## Conclusão {#conclusion}
+
 Digikam é um software útil, funcional, fácil de navegar, de edição de imagens simples e gratuita e gerenciador de fluxo de trabalho de fotografia digital. Ele permite que você organize suas imagens e as edite também. Esperamos que este guia tenha sido útil para lhe dar uma compreensão básica do que você pode alcançar com o Digikam como um fotógrafo digital novo ou avançado. Para ler mais críticas e guias sobre aplicativos de software úteis para suas aventuras de fotografia e edição de imagens, mantenha seus olhos para novos tópicos em [contémize.com][6].
 
 ## Explore
@@ -110,7 +114,8 @@ Para saber sobre outros aplicativos de software de edição de imagens gratuitos
   * [Digikam | Um aplicativo de gerenciamento de fotos digitais de código aberto][1]
   * [5 Top 5 Software de editor de fotos de código aberto em 2021][8]
 
-  
+
+
 [1]: https://products.containerize.com/photo-editing-software/digikam/
 [2]: #digikam
 [3]: #install

@@ -1,6 +1,6 @@
 ---
-title: "Как разработать видеоигру с помощью SuperPours SuperPource Open-Sopurce" 
-seoTitle: "Как разработать видеоигру с помощью SuperPours SuperPource Open-Sopurce" 
+title: "Как разрабатывать видеоигру с помощью SuperPoures Open-Sopurce SuperPours" 
+seoTitle: "Как разрабатывать видеоигру с помощью SuperPoures Open-Sopurce SuperPours" 
 description: "Как разработать видеоигру? SuperPowers-это разработка игры с открытым исходным кодом HTML5. Это кросс -платформ и позволяет пользователям создавать анимированные 2D и 3D -игры." 
 date: Wed, 19 May 2021 20:28:01 +0000
 author: muhammadmustafa
@@ -16,23 +16,25 @@ categories: ['Game Development Software']
 
 ## Обзор
 В ближайшем прошлом некоторые статьи были опубликованы в категории [1][1][1], которая включает в себя то, как глобальная игровая индустрия использует программное обеспечение с открытым исходным кодом и учебник GDEVELT для начинающих для начала разработки игры. Разработка видеоигр гораздо больше распространяется по всему миру с растущим спросом на развлекательные игры. Тем не менее, это включает в себя идею, разработку дизайна, непрерывное тестирование, выбросы и обратную связь. Другими словами, он включает в себя дизайнеров, архитекторов программного обеспечения, программистов, тестеров и ресурсов поддержки. Кроме того, существует много типов игр, таких как боевики, головоломки, гоночные игры, когнитивные игры и несколько других.
-Таким образом, хорошее руководство по разработке игры очень необходимо, чтобы начать работу с любым 3D -застройщиком. Сообщество с открытым исходным кодом разработало много программного обеспечения для разработки игр, которое предлагает функции и утилиты на уровне предприятия для разработки 3D и 2D игр. В этом уроке по разработке игры HTML5 будет изучено, как разработать видеоигру с помощью бесплатного программного обеспечения для разработки видеоигр **SuperPoers** , освещая следующие моменты.
-  ***[Что такое суперспособности][2]** 
-  ***[Как настроить на Localhost?][3]** 
-  ***[Dashboard of SuperPowers?][4]** 
-  ***[Заключение][5]** 
+Таким образом, хорошее руководство по разработке игры очень необходимо, чтобы начать работу с любым 3D -застройщиком. Сообщество с открытым исходным кодом разработало много программного обеспечения для разработки игр, которое предлагает функции и утилиты на уровне предприятия для разработки 3D и 2D игр. В этом уроке по разработке игры HTML5 будет изучено, как разработать видеоигру с помощью бесплатного программного обеспечения для разработки видеоигр  **SuperPoers**  , освещая следующие моменты.
+*  **[Что такое суперспособности][2]**  
+*  **[Как настроить на Localhost?][3]**  
+*  **[Dashboard of SuperPowers?][4]**  
+*  **[Заключение][5]**  
 
-## Что такое SuperPogers   {#Intro}
+## Что такое суперспособности {#intro}
+
 [SuperPowers][6] - это программное обеспечение с открытым исходным кодом для разработки видеоигр. Это гибко, надежно и расширяется. Тем не менее, он предлагает поддержку анимации, 3D -моделей и широкий спектр примеров игры. Более того, он также поставляется с автономной версией, где пользователи могут создавать игры без какого -либо подключения к Интернету. Публикация любого проекта удивительно проста, и все, что происходит с одним щелчком. Для пользователей есть интуитивно понятная панель инструментов, где пользователи могут легко перемещаться по различным элементам. Прежде всего, есть очень крутая отчетность по ошибкам, где он показывает ошибку разработчику, чтобы избежать какой -либо неоднозначности или ошибки. SuperPowers легко настроить и требует простых требований для дальнейшего размещения на серверах, этот 3D -строитель игры написан в TypeScript и поставляется со всей документацией, касающейся разработки и развертывания. Следовательно, весь исходный код доступен в [GitHub][7].
 SuperPowers предлагает следующие ключевые моменты:
   * Отчеты об ошибках в прямом эфире
   * Многоязычный
-  * Кроссплатформенный
+  * Кроссплатформенное
   * Богатый шрифт и звуковые эффекты
   * Самостоятельно
 
-## Как настроить на Localhost?   {#настраивать}
-Если вам все еще интересно, как разработать видеоигру, то в этой части статьи мы узнаем, как настроить суперспособности на Localhost. В этом разделе это **Руководство по разработке игры**  будет подробно рассмотрит процесс настройки среды разработки игры.
+## Как настроить на Localhost? {#setup}
+
+Если вам все еще интересно, как разработать видеоигру, то в этой части статьи мы узнаем, как настроить суперспособности на Localhost. В этом разделе это  **Руководство по разработке игры**  будет подробно рассмотрит процесс настройки среды разработки игры.
 Прежде всего, убедитесь, что вы установили следующие предварительные условия перед началом разработки видеоигр:
   * Git
   * npm
@@ -65,7 +67,8 @@ node server start
 <a href="http://localhost:4237/">http://localhost:4237/</a>
 ```
 
-## Dashboard of SuperPowers?   {#функции}
+## Приборная панель суперспособности? {#features}
+
 Нажав приведенный выше URL, вы увидите следующую домашнюю страницу. Существуют параметры для изменения или создания нового пустого или 2D -платформерного проекта.
 
 {{< figure align=center src="images/Screenshot-2021-05-20-at-21.41.27-1024x577.png" alt="Разработка видеоигр">}}
@@ -80,8 +83,9 @@ node server start
 
 Аналогичным образом, после просмотра этой игровая статья вы можете исследовать ее дальше и использовать все функции. Кроме того, вы сможете понять, как идти дальше, используя SuperPowers Builder. Для этого программного обеспечения для разработки игры доступна онлайн -поддержка.
 
-## **Заключение** {#conclusion}
-Это подходит к этому руководству по разработке игры HTML5. Надеемся, что этот пост поможет вам, если вы стремитесь начать разработку видеоигр. Мы исследовали, что такое SuperPoers, как разработать видеоигру, которая представляет собой 3D -строитель с открытым исходным кодом, и мы также прошли процедуру установки на LocalHost. Есть много приложений для дизайна видеоигр с открытым исходным кодом **, которые позволяют пользователям строить игры с нуля. Программисты видеоигр используют основные принципы дизайна игры для создания высококачественных игр. Вы узнаете больше о создании 2D и 3D -игр в наших предстоящих статьях по адресу [blog.containerize.com][8]. Существуют и другие открытые, самостоятельные 3D-строители игры и соответствующие статьи, упомянутые в разделе «Исследовать» ниже.
+##  **Заключение**  {#Conclusion}
+
+Это подходит к этому руководству по разработке игры HTML5. Надеемся, что этот пост поможет вам, если вы стремитесь начать разработку видеоигр. Мы исследовали, что такое SuperPoers, как разработать видеоигру, которая является строителем 3D -игр с открытым исходным кодом, и мы также прошли процедуру установки на LocalHost. Есть много приложений для дизайна видеоигр с открытым исходным кодом**, которые позволяют пользователям строить игры с нуля. Программисты видеоигр используют основные принципы дизайна игры для создания высококачественных игр. Вы узнаете больше о создании 2D и 3D -игр в наших предстоящих статьях по адресу [blog.containerize.com][8]. Существуют и другие открытые, самостоятельные 3D-строители игры и соответствующие статьи, упомянутые в разделе «Исследовать» ниже.
 Наконец, Containerize.com постоянно пишет посты в блоге на дополнительные продукты и темы с открытым исходным кодом. Поэтому, пожалуйста, оставайтесь на связи с категорией [разработка видеоигр][9][][10] для регулярных обновлений. Более того, вы можете подписаться на нас в наших учетных записях в социальных сетях [Facebook][11], [LinkedIn][12] и [Twitter][13].
 
 ## Исследовать
@@ -91,34 +95,35 @@ node server start
   * [][14][SuperPowers][6]
   * [][14][Создатель Кокоса][16]
   * [][14][panda3d][17]
-  ***[Начало работы с разработкой игры с использованием SuperPogers][18]** 
-  ***[Учебное пособие по развитию игры | Движение игрока в GDEVENT][19]** 
-  *[**Как сделать игру на царапине с помощью открытого исходного кода Gdevelop** ][20]
-  ***[Как глобальная игровая индустрия использует программное обеспечение с открытым исходным кодом][21]** 
-  ***[Учебное пособие по GDEVENT для начинающих, чтобы начать разработку игры][22]** 
-  *[**5 лучших бесплатных программного обеспечения для разработки игр в 2021 году** ][23]
+*  **[Начало работы с разработкой игры с использованием SuperPogers][18]**  
+*  **[Учебное пособие по развитию игры | Движение игрока в GDEVENT][19]**  
+* [  **Как сделать игру на царапине, используя GDEVELTAVE с открытым исходным кодом**  ][20]
+*  **[Как глобальная игровая индустрия использует программное обеспечение с открытым исходным кодом][21]**  
+*  **[Учебное пособие по GDEVENT для начинающих, чтобы начать разработку игры][22]**  
+* [  **5 лучших бесплатных программного обеспечения для разработки игр в 2021 году**  ][23]
 
-  
-[1]: https://blog.containerize.com/category/game-development-software/
-[2]: #intro
-[3]: #setup
-[4]: #features
-[5]: #Conclusion
-[6]: https://products.containerize.com/game-development-software/superpowers/
-[7]: https://github.com/superpowers/superpowers-core
-[8]: https://blog.containerize.com/
-[9]: https://products.containerize.com/game-development-software/
-[10]: https://products.containerize.com/business-intelligence/
-[11]: https://web.facebook.com/containerize
-[12]: https://www.linkedin.com/company/containerize/
-[13]: https://twitter.com/containerize_co
-[14]: https://products.containerize.com/game-development-software/gdevelop/
-[15]: https://products.containerize.com/game-development-software/godot/
-[16]: https://products.containerize.com/game-development-software/cocos-creator/
-[17]: https://products.containerize.com/game-development-software/panda3d/
-[18]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
-[19]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
-[20]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
-[21]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
-[22]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
-[23]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
+
+
+ [1]: https://blog.containerize.com/category/game-development-software/
+ [2]: #intro
+ [3]: #setup
+ [4]: #features
+ [5]: #Conclusion
+ [6]: https://products.containerize.com/game-development-software/superpowers/
+ [7]: https://github.com/superpowers/superpowers-core
+ [8]: https://blog.containerize.com/
+ [9]: https://products.containerize.com/game-development-software/
+ [10]: https://products.containerize.com/business-intelligence/
+ [11]: https://web.facebook.com/containerize
+ [12]: https://www.linkedin.com/company/containerize/
+ [13]: https://twitter.com/containerize_co
+ [14]: https://products.containerize.com/game-development-software/gdevelop/
+ [15]: https://products.containerize.com/game-development-software/godot/
+ [16]: https://products.containerize.com/game-development-software/cocos-creator/
+ [17]: https://products.containerize.com/game-development-software/panda3d/
+ [18]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
+ [19]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+ [20]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
+ [21]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
+ [22]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+ [23]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/

@@ -19,28 +19,33 @@ Zawiera następujące sekcje:
   * [Wdrożenie 2FA w .NET5][5]
 Po pierwsze, zrozummy, czym jest 2FA i dlaczego musi być integralną częścią każdej nowoczesnej aplikacji internetowej.
 
-## Co to jest uwierzytelnianie dwuskładnikowe?   {#2FA}
+## Co to jest uwierzytelnianie dwuskładnikowe? {#2FA}
+
 Czynnik w tym kontekście implikuje sposób przekonania aplikacji lub usługi, że jesteś właścicielem konta. Nazwa użytkownika/hasło jest szeroko stosowane jako najczęstszy współczynnik uwierzytelnienia. Jednak ze względu na wiele problemów związanych z tym bezpieczeństwa i najnowsze powszechne naruszenia danych-uwierzytelnianie jednoskładnikowe stało się mniej bezpieczne.
 Uwierzytelnianie dwuskładnikowe jest dodatkową warstwą bezpieczeństwa, która wchodzi w grę, zanim będziesz mógł uzyskać dostęp do swojego konta. W dodaniu do standardowego procesu logowania-wprowadza dodatkowy krok w celu zweryfikowania tożsamości użytkownika poprzez wysyłanie kodu (do wiadomości e-mail lub wiadomości tekstowej). W ten sposób twoja tożsamość jest udowodniona i dopiero wtedy dostęp jest przyznawany.
 
-## Jak działa 2FA?   {#2fawork}
+## Jak działa 2FA? {#2fawork}
+
 W 2FA hasło jest nadal pierwszym współczynnikiem uwierzytelniania - więc po zalogowaniu się na konto przekierowuje Cię na inną stronę, na której musisz zweryfikować własność konta. Można to zrobić przy użyciu różnych sposobów:
   1. Aplikacja wysyła kod weryfikacyjny często nazywany OTP (jednorazowe hasła) na adres e-mail.
   2. Kod jest dostarczany jako wiadomość tekstowa w telefonie.
   3. Instalujesz aplikację uwierzytelniającego na telefonie komórkowym, za pośrednictwem której możesz autoryzować żądania logowania.
 Uwaga: Te kody weryfikacji są generowane losowo i wygasane po użyciu. Ponadto są one krótkie - więc jest krótkie okno, zanim będziesz mógł użyć kodu (uniemożliwia hakerowi brutalną wymuszanie kodów weryfikacji).
 
-## Czy możemy nazwać 2FA jako uwierzytelnianie wieloczynnikowe?   {#Mfa}
+## Czy możemy nazwać 2FA jako uwierzytelnianie wieloskładnikowe? {#MFA}
+
 Metody uwierzytelniania nie są ograniczone do dwuskładnikowego. Wiele aplikacji i usług przenosi swoich użytkowników poza 2FA i korzysta z uwierzytelniania wieloskładnikowego.
 2FA i MFA (uwierzytelnianie wielu czynników) są często używane zamiennie. Jest jednak różnica. W uwierzytelnianiu wieloczynnikowym stosuje się dwa lub więcej czynników.
 Może sprawdzić adres IP użytkownika, geo-lokalizację i informacje o urządzeniu w przypadku innych czynników, takich jak hasło i OTP w celu zweryfikowania tożsamości użytkownika.
 Dlatego możemy powiedzieć, że 2FA jest podzbiorem MFA. W 2FA będą tylko dwa czynniki, podczas gdy wieloczynnik może wykorzystywać dwa lub więcej czynników. MFA utrudnia hakerom, ponieważ dodaje wiele warstw bezpieczeństwa w tradycyjnym procesie uwierzytelniania.
 
-## Czy są jakieś wady za pomocą 2FA?   {#mfa-cons}
+## Czy są jakieś wady za pomocą 2FA? {#mfa-cons}
+
 Podobne do wielu rozwiązań „bezpieczeństwa i prywatności”, które istnieją w nowoczesnych aplikacjach. Ma również cenę - niedogodności, ponieważ istnieje dodatkowy krok, który może powodować tarcie w doświadczeniu użytkownika.
 Jest to jednak przyjmowane przez wiele aplikacji i usług, więc ten kompromis staje się akceptowalny.
 
-## Jak mogę zaimplementować uwierzytelnianie 2FA?   {#Implementing2Fa}
+## Jak mogę wdrożyć uwierzytelnianie 2FA? {#implementing2fa}
+
 W tej sekcji dowiemy się, jak wdrożyć 2FA w .NET5 przy użyciu IdentityServer4 i Twilio.
 Utwórzmy więc konto próbne na Twilio:
   1. Zarejestruj się
@@ -49,22 +54,22 @@ Po zweryfikowaniu konta możesz następnie użyć ich pulpitu konsoli.
 
 {{< figure align=center src="images/Twilio-dashboard-console-1024x561.png" alt="Pulpit nawigacyjny Twilio">}}
 
-  1. Skopiuj swoje konto SID i token Auth z pulpitu nawigacyjnego.
+  1. Skopiuj swoje konto SID i token autora z pulpitu nawigacyjnego.
   1. Przejdź do zakupu numeru, którego użyjesz do wysyłania SMS -ów/
-UWAGA: Twilio przekazuje 15 $ kredytów na wszystkich kontach próbnych, których użyjesz do zakupu numeru telefonu.
+Uwaga: Twilio przekazuje 15 $ kredytów na wszystkich kontach próbnych, których użyjesz do zakupu numeru telefonu.
 
 {{< figure align=center src="images/Twilio-phone-number-search-1024x513.png" alt="Twilio - wyszukiwanie numeru telefonu">}}
 
 Możesz wybrać dowolny numer, o ile obsługuje „możliwości SMS”. (Zanotuj swój numer telefonu, którego użyjemy do skonfigurowania późniejszego naszego projektu).
-5. Korzystając z konta próbnego, Twilio pozwala tylko wysyłać SMS do zweryfikowanych identyfikatorów dzwoniącego, które możesz zarządzać użyciem poniżej linku:
-To wszystko, czego musisz skonfigurować za pomocą pulpitu nawigacyjnego Twilio.
+5. Korzystając z konta próbnego, Twilio pozwala tylko wysyłać SMS do zweryfikowanych identyfikatorów dzwoniącego, które możesz zarządzać za pomocą poniższego linku:
+To wszystko, co musisz skonfigurować za pomocą pulpitu nawigacyjnego Twilio.
 Utwórzmy aplikację internetową ASP.NET Core (wybierz szablon projektu jak poniżej i Target .NET5.
 
 {{< figure align=center src="images/2021-03-10-16_32_20-Window-1024x607.png" alt="Visual Studio - nowy projekt">}}
 
 Teraz zintegrujemy pakiety IdentityServer4, Twilio z Nuget.
   1. `instalacja tożsamości tożsamościServer4 -version 4.1.1`
-  2. `instalacja pakietu Twilio -version 5.55.0`
+  2. `instalacja pakietu Twilio -version 5.55.0 '
 IdentityServer4 Szybki interfejs użytkownika jest dostępny pod adresem:
 Możesz go dołączyć w swoim projekcie, uruchamiając poniższe polecenie w Shell Shell:
 `ieex ((new-obiekt system.net.webclient) .DownloadString ('https://raw.githubusercontent.com/identityServer/InterityServer4.quickstart.ui/Main/getmain.ps1'))` `
@@ -80,7 +85,7 @@ Ten szablon wykorzystuje magazyn danych w pamięci, dzięki czemu możesz dodać
 
 {{< figure align=center src="images/2021-03-10-16_49_15-Window.png" alt="Config.cs klasa">}}
 
-Otwórz startup.cs i dodaj następujące usługi IdentityServer4 w metodzie ConfigServices:
+Otwórz startup.cs i dodaj następujące usługi IdentityServer4 w Metodzie ConfigServices:
 ```
   services.AddIdentityServer()
         .AddInMemoryIdentityResources(Config.GetIdentityResources())
@@ -111,7 +116,7 @@ Dodajmy następującą klasę:
 ```
 Ta klasa konfiguracji zostanie użyta do wstrzykiwania ustawień za pomocą wtrysku zależności.
   1. Kliknij prawym przyciskiem prawym prawym prawym prawym przyciskiem na projekt i dodaj tajemnice użytkownika z konfiguracją Twilio (SID, Token, PhoneNumber)
-  2. Ustawienia wstrzykiwania w metodzie konfiguracyjnej Startup.cs
+  2. Ustawienia wstrzykiwania w metodzie konfiguracyjnej Uruchamiania.cs
 ```
  var twilioSettings = Configuration.GetSection("TwilioSettings");
  services.Configure<TwilioSettings>(twilioSettings);
@@ -177,20 +182,21 @@ Krok 2: Uwierzytelności są weryfikowane i wysyłany jest kod weryfikacji:
 
 {{< figure align=center src="images/ssScreenshot_2021-03-11-09-21-38-65-1-1024x394.jpg" alt="2fademo - SMS">}}
 
-Krok 3: Użytkownik weryfikuje poprawny kod.
+Krok 3: Użytkownik weryfikuje prawidłowy kod.
 
 {{< figure align=center src="images/2021-03-11-09_21_25-Window-1024x471.png" alt="2fademo - VerifyCode">}}
 
-Kod Krok 4 jest weryfikowany, a uwierzytelnianie 2FA zostało zakończone.
+Kod stopnia 4 jest weryfikowany, a uwierzytelnianie 2FA zostało zakończone.
 
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2fademo - autoryzowana strona">}}
 
 
-## # Wniosek:
+### Wniosek:
 W tym artykule dowiedzieliśmy się o 2FA i jego wdrożeniu w .NET5 przy użyciu IdentityServer4 i Twilio. Możesz pobrać przykładowy kod użyty w tym artykule z tego [Repo][6].
 Używanie SMS dla 2FA z pewnością wzmacnia twoje bezpieczeństwo, ale nadal jest podatne na [ataki zamiany SIM][7]. Dlatego badacze bezpieczeństwa zachęcają 2FA do korzystania z innych podejść, takich jak aplikacje uwierzytelniające i klucze bezpieczeństwa ([Yubikey][8]), których w sieci telefonicznej nie można przechwycić. Dowiemy się więcej o tym w nadchodzącym artykule - bądźcie czujni!
 
-  
+
+
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

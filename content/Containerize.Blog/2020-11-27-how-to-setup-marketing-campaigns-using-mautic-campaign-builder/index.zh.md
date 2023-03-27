@@ -19,53 +19,57 @@ categories: ['Marketing Automation']
   * [如何在Mautic中创建广告系列？][3]
   * [结论][4]
 
-## 什么是Mautic？   {#mautic}
+## 什么是卑鄙的？ {#mautic}
+
 Mautic是一种开源营销自动化软件。它可以完全控制营销电子邮件，着陆页和营销活动的工作流程。它自动化了从登陆页面，表单上创建潜在客户并将其转换为潜在客户的方式。所有这些都可以通过创建智能滴灌广告系列来实现，这将使潜在客户有关产品/服务的最新信息。
 
-## 如何在Mautic中创建形式？   {#形式}
-  *登录您的MAUITC安装。
-  *转到“组件”选项卡，然后单击“表单”。
-  *从右上角点击“新”。
-  *选择“新广告表格”选项。如本屏幕截图所示，它将打开表单配置页面。
+## 如何以卑鄙的方式创造形式？ {#forms}
+
+* 登录您的MAUITC安装。
+* 转到“组件”选项卡，然后单击“表单”。
+* 从右上角点击“新”。
+* 选择“新广告表格”选项。如本屏幕截图所示，它将打开表单配置页面。
 
 {{< figure align=center src="images/Mautic-Campaign-Create-Form-1024x424.png" alt="如何为数字营销设置卑鄙的活动">}}
 
-  *在“详细信息”选项卡下输入表单名称。其他字段是可选的。
-  *移动到下一个标签“字段”。
-  *在这里，您可以创建希望访问者进入的数据字段。
-  *创建一个字段，如下所示：
+* 在“详细信息”选项卡下输入表单名称。其他字段是可选的。
+* 移动到下一个标签“字段”。
+* 在这里，您可以创建希望访问者进入的数据字段。
+* 创建一个字段，如下所示：
 
 {{< figure align=center src="images/Mautic-Campaign-Forms-Form-fields-1024x525.png" alt="如何为数字营销设置卑鄙的活动">}}
 
-  *选择字段类型并输入字段名称。
-  *之后，单击“添加”，然后点击“保存并关闭”。
-  *这很容易创造出卑鄙的形式。
+* 选择字段类型并输入字段名称。
+* 之后，单击“添加”，然后点击“保存并关闭”。
+* 这很容易创造出卑鄙的形式。
 
-## 如何创建Mautic的广告系列？   {#CampAigns}
-  *参加竞选活动。从右上单击“新”。
-  *输入名称并将“发布”设置为“是”。
+## 如何创建卑鄙的运动？ {#campaigns}
+
+* 参加竞选活动。从右上单击“新”。
+* 输入名称并将“发布”设置为“是”。
 
 {{< figure align=center src="images/Create-new-campaign-1024x437.png" alt="如何为数字营销设置卑鄙的活动">}}
 
-  *接下来，单击“启动活动构建器”。
-  *选择“广告表格”作为源，然后选择表单。
+* 接下来，单击“启动活动构建器”。
+* 选择“广告表格”作为源，然后选择表格。
 
 {{< figure align=center src="images/Mautic-Select-campaign-source.png" alt="如何为数字营销设置卑鄙的活动">}}
 
-  *现在创建和“操作”，每当用户填写我们在上一节中创建的表格时，它将被触发。
+* 现在创建和“操作”，每当用户填写我们在上一节中创建的表格时，它将被触发。
 
 {{< figure align=center src="images/Mautic-Campaign-Choose-action.png" alt="如何为数字营销设置卑鄙的活动">}}
 
-  *您可以通过选择“发送电子邮件”事件的“发送电子邮件”事件来向他们发送后续电子邮件：
+* 您可以通过选择“发送电子邮件”事件的“发送电子邮件”事件来向他们发送后续电子邮件：
 
 {{< figure align=center src="images/Send-email-to-user-when-form-is-filled.png" alt="如何为数字营销设置卑鄙的活动">}}
 
-  *配置后续电子邮件，输入电子邮件名称并创建“新电子邮件”，如果没有。最后，单击“添加”。
+* 配置后续电子邮件，输入电子邮件名称并创建“新电子邮件”，如果没有。最后，单击“添加”。
 
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="如何为数字营销设置卑鄙的活动">}}
 
 
 ## 结论： {#conclusion}
+
 我们已经学会了按照三个非常简单的步骤来设置滴灌营销活动。其中包括创建作为广告系列所需的表格，创建广告系列并配置电子邮件。我们在本教程中创建了非常基本的活动。但是，您可以使用Mautic广告系列制造商创建复杂的广告系列。如果您是Mautic的新手，请查看如何使用以下指南来安装它：
 [Mautic概述和安装][5]
 
@@ -75,12 +79,13 @@ Mautic是一种开源营销自动化软件。它可以完全控制营销电子�
 [将Mautic与Joomla整合以进行营销自动化][7]
 [如何在Mautic中实施多租户][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

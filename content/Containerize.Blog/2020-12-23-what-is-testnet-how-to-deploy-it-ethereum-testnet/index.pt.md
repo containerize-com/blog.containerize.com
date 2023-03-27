@@ -13,18 +13,20 @@ categories: ['Blockchain Platforms']
 
 {{< figure align=center src="images/ether.png" alt="O que é TestNet">}}
 
-Em nossas postagens anteriores no blog, escrevemos em vários tópicos que incluem [tecnologia blockchain para negócios][1], [escrevendo um contrato inteligente básico][2] e [plataformas populares de blockchain][3]. Existem outros tópicos que escreveremos em um futuro próximo, à medida que **Tecnologia descentralizada do razão**  está ganhando ritmo com o passar do tempo. Agora, as pessoas estão começando a se interessar pelas plataformas de gerenciamento de ativos digitais devido à segurança e transparência. Além disso, as transações digitais são rastreáveis, imutáveis ​​e esses fatores dão confiança às pessoas em relação à confiabilidade dessa tecnologia. Existem três tipos de público, privado e permissão. No entanto, os usuários podem adotar qualquer tipo, dependendo do seu caso de uso.
+Em nossas postagens anteriores no blog, escrevemos em vários tópicos que incluem [tecnologia blockchain para negócios][1], [escrevendo um contrato inteligente básico][2] e [plataformas populares de blockchain][3]. Existem outros tópicos que escreveremos em um futuro próximo, à medida que  **Tecnologia descentralizada do razão**  está ganhando ritmo com o passar do tempo. Agora, as pessoas estão começando a se interessar pelas plataformas de gerenciamento de ativos digitais devido à segurança e transparência. Além disso, as transações digitais são rastreáveis, imutáveis ​​e esses fatores dão confiança às pessoas em relação à confiabilidade dessa tecnologia. Existem três tipos de público, privado e permissão. No entanto, os usuários podem adotar qualquer tipo, dependendo do seu caso de uso.
 O advento dessa tecnologia trouxe uma enorme mudança no setor bancário, pois mudou o caminho das transações financeiras. Nesta postagem do blog, falaremos sobre o Ethereum Blockchain sobre a configuração do nó Ethereum no localhost e veremos como interagir com a rede de testes. Abordaremos os seguintes pontos -chave.
-  ***O que é testnet?** 
-  ***[Como configurar o Ethereum Blockchain?][4]** 
-  ***[Como interagir com o Ethereum Blockchain?][5]** 
-  ***[Conclusão][6]** 
+*  **O que é testnet?**  
+*  **[Como configurar o Ethereum Blockchain?][4]**  
+*  **[Como interagir com o Ethereum Blockchain?][5]**  
+*  **[Conclusão][6]**  
 
-## O que é testnet?   {#tetstnet}
+## O que é testnet? {#tetstnet}
+
 Nesta postagem do blog, iremos implantar um nó Ethereum no localhost. O Ethereum possui várias redes, a rede de produção é chamada MainNet e a rede usada para fins de teste é chamada TestNet. A maioria das aplicações descentralizadas é baseada em [Ethereum][7] blockchain. O Smart Contract é um componente integrante desta infraestrutura distribuída. Além disso, o Blockchain é uma rede de computadores chamados "nós". No entanto, cada nó contém uma cópia da blockchain e, portanto, participa da rede. O Ethereum Blockchain também tem sua própria criptomoeda chamada "éter". Todas as transações são protegidas criptograficamente. Além disso, é uma tecnologia completa do Ledger que nunca desliga ou é corrompida. Ele permite escrever contratos inteligentes e aplicativos descentralizados (DAPPs) que são executados nos nós da Blockchain Etherum.
 Esta rede de blockchain distribuída de código aberto usa um algoritmo de consenso chamado Prova de Trabalho (POW). Além disso, a arquitetura do Ethereum compreende cinco camadas como a Ethereum Virtual Machine, as APIs do cliente Ethereum, contratos inteligentes, nós do Ethereum e aplicativos de usuário final. A Ethereum Virtual Machine oferece o software e a arquitetura que reconhecem contratos inteligentes. Contratos inteligentes são o software que governa as transações. Há um forte apoio à Ethereum Blockchain e às empresas da Fortune 500 demonstraram grande interesse em fazer o desenvolvimento em uma escala maior usando essa tecnologia. Além disso, o Ethereum está escrito no idioma Go e seu código -fonte está disponível no [Github][8]. Toda a documentação está disponível em relação à implantação e desenvolvimento, pois possui uma comunidade vibrante.
 
-## Como configurar o Ethereum Blockchain?   {#configurar}
+## Como configurar o Ethereum Blockchain? {#setup}
+
 Agora, estamos cientes do que é TestNet. Nesta seção, configuraremos o nó Ethereum em nossa máquina local. Antes de ir além, verifique se você instalou os seguintes pré -requisitos.
   * [Homebrew][9] (para macOS)
 
@@ -55,7 +57,8 @@ build/bin/geth
 {{< figure align=center src="images/Screen-Shot-2020-12-22-at-1.19.44-PM-1024x409.png" alt="Nó Ethereum">}}
 
 
-## Como interagir com o Ethereum Blockchain?   {#interagir}
+## Como interagir com o Ethereum Blockchain? {#interact}
+
 Esta seção fala sobre a interação com um nó Ethereum em execução que é totalmente sincronizado com a blockchain. Podemos usar o software Geth para interagir e enviar comandos para a rede de teste.
 Para isso, vamos incluir Build/Bin/Geth na variável de ambiente de $ Path, executando os seguintes comandos:
 ```
@@ -90,8 +93,9 @@ eth.accounts
 
 Da mesma forma, existem muitos comandos que você pode usar para interagir com o Ethereum Blockchain.
 
-## Conclusão   {#conclusion}
-Aí vem o final deste tutorial. Aprendemos **o que é testnet  **e o processo de configuração do nó Ethereum na máquina local. O Ethereum Blockchain é uma solução generalizada para a maioria das aplicações descentralizadas. A maioria das empresas e departamentos governamentais tende a adotar essa tecnologia para trazer robustez, transparência, disponibilidade e responsabilidade. Além disso, este tutorial **  Blockchain  **realmente o ajudará se você planeja começar o desenvolvimento no Ethereum Blockchain, pois aproveita os contratos inteligentes. O Blockchain Etheruem é mais estável e popular, pois possui milhares de nós ao vivo. Além disso, as empresas podem facilmente desenvolver e implantar redes Ethereum Blockchain sem gastar tempo extra. O outro fator por trás da confiabilidade do Ethereum é que ele oferece o desenvolvimento de contratos inteligentes de uma maneira que outras plataformas de gerenciamento de ativos digitais**   não ofereçam.
+## Conclusão {#Conclusão}
+
+Aí vem o final deste tutorial. Aprendemos  **o que é testnet** e o processo de configuração do nó Ethereum na máquina local. O Ethereum Blockchain é uma solução generalizada para a maioria das aplicações descentralizadas. A maioria das empresas e departamentos governamentais tende a adotar essa tecnologia para trazer robustez, transparência, disponibilidade e responsabilidade. Além disso, este tutorial **Blockchain**  realmente o ajudará se você planeja começar o desenvolvimento no Ethereum Blockchain, pois aproveita os contratos inteligentes. O Blockchain Etheruem é mais estável e popular, pois possui milhares de nós ao vivo. Além disso, as empresas podem facilmente desenvolver e implantar redes Ethereum Blockchain sem gastar tempo extra. O outro fator por trás da confiabilidade do Ethereum é que ele oferece o desenvolvimento de contratos inteligentes de uma maneira que outras plataformas de gerenciamento de ativos digitais**não ofereçam.
 As atualizações mais recentes na rede Ethereum tornaram a rede mais econômica e eficiente. De fato, há muito mais material disponível na nuvem que demonstra os aspectos importantes do Etheruem em relação aos fins de investimento e desenvolvimento. Para os desenvolvedores, fornece um ecossistema de um desenvolvedor com serviços pré-fabricados. Para os mineiros, há uma recompensa na forma de um éter sempre que eles minerem um novo bloco na blockchain. Além disso, [contenderize.com][10] publicou muitas postagens técnicas e tutoriais sobre produtos populares de código aberto em [blog.containerize.com][11]. Portanto, mantenha -se conectado à categoria [Blockchain Platforms][12] para atualizações regulares.
 
 ## Explore
@@ -107,23 +111,24 @@ Você pode encontrar os seguintes links relevantes:
   * [Um guia básico sobre como criar contrato inteligente Ethereum][2]
   * [Como a tecnologia descentralizada atualiza sua estratégia de negócios][19]
 
-  
-[1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
-[2]: https://blog.containerize.com/
-[3]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
-[4]: #setup
-[5]: #interact
-[6]: #Conclusion
-[7]: https://products.containerize.com/blockchain-platforms/ethereum
-[8]: https://github.com/ethereum/go-ethereum
-[9]: https://brew.sh/
-[10]: https://www.containerize.com/
-[11]: https://blog.containerize.com/
-[12]: https://products.containerize.com/blockchain-platforms/
-[13]: https://products.containerize.com/blockchain-platforms/hyperledger-fabric
-[14]: https://products.containerize.com/blockchain-platforms/openchain
-[15]: https://products.containerize.com/blockchain-platforms/ripple
-[16]: https://products.containerize.com/blockchain-platforms/multichain
-[17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
-[18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
-[19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+
+
+ [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
+ [2]: https://blog.containerize.com/
+ [3]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+ [4]: #setup
+ [5]: #interact
+ [6]: #Conclusion
+ [7]: https://products.containerize.com/blockchain-platforms/ethereum
+ [8]: https://github.com/ethereum/go-ethereum
+ [9]: https://brew.sh/
+ [10]: https://www.containerize.com/
+ [11]: https://blog.containerize.com/
+ [12]: https://products.containerize.com/blockchain-platforms/
+ [13]: https://products.containerize.com/blockchain-platforms/hyperledger-fabric
+ [14]: https://products.containerize.com/blockchain-platforms/openchain
+ [15]: https://products.containerize.com/blockchain-platforms/ripple
+ [16]: https://products.containerize.com/blockchain-platforms/multichain
+ [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
+ [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+ [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

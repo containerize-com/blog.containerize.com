@@ -23,38 +23,45 @@ Dans cet article de blog, nous nous concentrerons sur la conception et l'envoi d
   * [Traitez la file d'attente][6]
   * [Conclusion][7]
 
-## **Créer une campagne / newsletter** {#create}
-  * Connectez-vous à l'interface d'administration de votre installation PHPLIST. Cliquez sur **Démarrer ou continuer la campagne**  sur le tableau de bord ou envoyer un lien de campagne sous la campagne dans la navigation du côté gauche.
+##  **Créer une campagne / newsletter**  {#create}
+
+  * Connectez-vous à l'interface d'administration de votre installation PHPLIST. Cliquez sur  **Démarrer ou continuer la campagne**  sur le tableau de bord ou envoyer un lien de campagne sous la campagne dans la navigation du côté gauche.
   * Cliquez sur Démarrer un nouveau bouton de campagne.
   * Remplissez les champs avec les options telles que le sujet, à partir de la ligne, du contenu et du pied de page comme indiqué dans l'image ci-dessous.
 
 {{< figure align=center src="images/create-campaign.png" alt="Newsletter de conception dans phplist">}}
 
 
-## **Campagne de planification** {#schedule}
+##  **Campagne de planification**  {#schedule}
+
   * La planification vous permet de sélectionner les dates lorsque vous souhaitez démarrer la campagne. La campagne ne sera pas envoyée avant / après les dates sélectionnées.
   * Vous n'avez pas besoin de modifier les dates, si vous souhaitez envoyer une campagne immédiatement.
 
 {{< figure align=center src="images/scheduling.png" alt="Planifiez la newsletter dans PHPLIST">}}
 
 
-## **Attribuez des listes à la campagne** {#List}
+##  **Attribuez des listes à la campagne**  {#list}
+
 Toutes les listes s'afficheront sous l'onglet Listes, sélectionnez la liste appropriée. La campagne sera livrée pour attribuer des listes uniquement. Cependant, vous pouvez rendre la liste publique ou privée lors de la création / mise à jour de la liste.
 
 {{< figure align=center src="images/lists.png" alt="Attribuer des listes à la newsletter dans phplist">}}
 
 
-## **Campagne de fin** {#Finish}
-La finition est la dernière étape du processus de création de campagne. Vous pouvez ajouter des e-mails pour les notifications, ajouter le code de suivi de Google Analytics. Cliquez sur le bouton **Envoyer la campagne**  pour commencer l'envoi de messages aux abonnés. Maintenant, vous avez fait avec la conception de newsletter et le processus de campagne. Mais, vous devez traiter la file d'attente et vous pouvez en savoir plus dans la section suivante.
+##  **Campagne de finition**  {#finish}
 
-## **Traitez la file d'attente** {#queue}
+La finition est la dernière étape du processus de création de campagne. Vous pouvez ajouter des e-mails pour les notifications, ajouter le code de suivi de Google Analytics. Cliquez sur le bouton  **Envoyer la campagne**  pour commencer l'envoi de messages aux abonnés. Maintenant, vous avez fait avec la conception de newsletter et le processus de campagne. Mais, vous devez traiter la file d'attente et vous pouvez en savoir plus dans la section suivante.
+
+##  **Traitez la file d'attente**  {#queue}
+
 La file d'attente de processus est un processus pour commencer l'envoi de la campagne. Vous pouvez lancer un processus manuellement, avec le script de ligne de commande ou créer un travail CRON. Il est facile de traiter la file d'attente manuellement pour quelques abonnés chutés. Mais, il est bon d'utiliser Cron Job pour traiter la file d'attente, si vous avez des milliers / millions d'abonnés. Vous pouvez visiter PHPLIST OFFICIEL [site Web][8] pour plus d'informations pour créer Cron Job.
 
-## **Conclusion** {#conclusion}
+##  **Conclusion**  {#conclusion}
+
 PHPLIST est un outil parfait pour les entreprises qui souhaitent utiliser un logiciel de newsletter open source pour le marketing par e-mail. Nous avons décrit le processus en détail pour la conception et l'envoi de campagnes. Vous pouvez le suivre pour votre prochaine newsletter et profiter du vrai pouvoir de PHPLIST.
 Enfin, avec des tutoriels plus fascinants, [contenerize.com][9] est prêt pour améliorer sa base de tutoriels. Pour les mises à jour régulières, veuillez rester connecté avec la catégorie [Newsletter][10].
 
-  
+
+
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #create
 [3]: #schedule

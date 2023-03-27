@@ -22,22 +22,25 @@ Este sistema de boletos de código abierto (Osticket) es un marco de boletos de 
   * [¿Cómo desarrollar el complemento de Osticket?][6]
   * [Conclusión][7]
 
-## ¿Por qué usar complementos?   {#por qué}
-En este tema, aprenderemos cómo crear un complemento simple para extender la funcionalidad central de este **Software de servicio IT**  (Osticket). Un complemento es un software que extiende la funcionalidad central de cualquier aplicación/software. Además, hay muchos software de código abierto de nivel empresarial que tiene una gran pila de complementos que extienden las funcionalidades. Además, este popular software de código abierto incluye WordPress, Joomla y muchos más. Sobre todo, las comunidades vibrantes y vivas apoyan y desarrollan complementos según las necesidades. Sin embargo, los marcos ofrecen documentación integral con respecto al desarrollo de los complementos. Las siguientes son algunas razones para que las aplicaciones admitan complementos:
-  * Permite a los desarrolladores de terceros crear componentes de software que extienden la funcionalidad de una aplicación.
+## ¿Por qué usar complementos? {#why}
+
+En este tema, aprenderemos cómo crear un complemento simple para extender la funcionalidad central de este  **Software de servicio IT**  (Osticket). Un complemento es un software que extiende la funcionalidad central de cualquier aplicación/software. Además, hay muchos software de código abierto de nivel empresarial que tiene una gran pila de complementos que extienden las funcionalidades. Además, este popular software de código abierto incluye WordPress, Joomla y muchos más. Sobre todo, las comunidades vibrantes y vivas apoyan y desarrollan complementos según las necesidades. Sin embargo, los marcos ofrecen documentación integral con respecto al desarrollo de los complementos. Las siguientes son algunas razones para que las aplicaciones admitan complementos:
+  * Permite a los desarrolladores de terceros crear componentes de software que extiendan la funcionalidad de una aplicación.
   * Los complementos permiten integrar fácilmente nuevas funciones.
   * Tampoco aumenta el tamaño y la complejidad de una aplicación.
   * Así como los desarrolladores pueden mantener y administrar el código de los complementos por separado de la aplicación central.
 
-## Requisitos   {#Requirements}
-Esta sección de **IT HelpDesk Software**  Guía describe los requisitos necesarios para desarrollar el complemento Osticket.
+## Requisitos {#requirements}
+
+Esta sección de  **IT HelpDesk Software**  Guía describe los requisitos necesarios para desarrollar el complemento Osticket.
   * PHP versión 5.6 o superior
   * Instalación de Osticket
   * Conocimiento básico de PHP
 
-## ¿Cómo desarrollar el complemento de Osticket?   {#cómo}
+## ¿Cómo desarrollar el complemento de Osticket? {#how}
+
 En esta sección, revisaremos los pasos del desarrollo del complemento de este sistema de boletos de código abierto (Osticket).
-  * Crear la carpeta del complemento en el directorio /incluido /complementos. En este tutorial crearemos un complemento de demostración que integra **Sistema Osticket**  con RedMine.
+  * Crear la carpeta del complemento en el directorio /incluido /complementos. En este tutorial crearemos un complemento de demostración que integra  **Sistema Osticket**  con RedMine.
   * Debe tener siguiendo los archivos necesarios: plugin.php y config.php.
   * El archivo plugin.php contiene una descripción general del complemento. Use el siguiente código de muestra en el archivo plugin.php:
 ```
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Este código obtuvo los valores de configuración y puede usar estos valores en sus funciones. En este archivo puede agregar la funcionalidad de su complemento como sus requisitos.
 
-## conclusión   {#conclusion}
-Esto nos lleva al final de esta publicación de blog. Osticket es un software de administración de ticketing que ofrece una estructura de complementos para los desarrolladores para que puedan agregar una nueva funcionalidad según los requisitos. Los complementos son los componentes que extienden la funcionalidad central de cualquier aplicación/software. En su artículo, hemos discutido el desarrollo de complementos de este sistema de atención al cliente ** **(Osticket), que ayuda a los desarrolladores a agregar características y mejoras personalizadas de acuerdo con sus requisitos. Por lo tanto, esta publicación de blog realmente lo ayudará si está buscando implementar un software **  IT de servicio de ayuda  **para su negocio. Además, hay otro software de boletos de servicio ** **  y artículos mencionados en la sección "Explorar" a continuación.
+## Conclusión {#conclusion}
+
+Esto nos lleva al final de esta publicación de blog. Osticket es un software de administración de ticketing que ofrece una estructura de complementos para los desarrolladores para que puedan agregar una nueva funcionalidad según los requisitos. Los complementos son los componentes que extienden la funcionalidad central de cualquier aplicación/software. En su artículo, hemos discutido el desarrollo de complementos de este sistema de atención al cliente*  ***(Osticket), que ayuda a los desarrolladores a agregar características y mejoras personalizadas de acuerdo con sus requisitos. Por lo tanto, esta publicación de blog realmente lo ayudará si está buscando implementar un software** IT de servicio de ayuda **para su negocio. Además, hay otro software de boletos de servicio** **y artículos mencionados en la sección "Explorar" a continuación.
 Finalmente, [Contenerize.com][8] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Software de boletos de HelpDesk][1] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][9], [LinkedIn][10] y [Twitter][11].
 
 ## Explorar
@@ -143,7 +147,8 @@ Puede encontrar los siguientes enlaces relevantes:
   * [Automatizar el sistema de tickets usando WordPress y Osticket][3]
   * [Automatice las operaciones comerciales utilizando software de código abierto y abierto][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

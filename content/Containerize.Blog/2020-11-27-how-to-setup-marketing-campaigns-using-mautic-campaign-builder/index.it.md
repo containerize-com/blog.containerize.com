@@ -19,13 +19,15 @@ In questo articolo, impareremo come impostare campagne in Mautic. Copriremo le s
   * [Come creare campagne in Mautic?][3]
   * [Conclusione][4]
 
-## Cos'è il mautico?   {#mautic}
+## Cos'è Mautic? {#mautic}
+
 Mautic è un software di automazione del marketing open source. Offre un controllo completo su e -mail di marketing, landing page e flussi di lavoro per le attività di marketing. Automatizza la strada verso la creazione di lead da pagine di destinazione, forme e convertirli in potenziali clienti. Tutto ciò può essere ottenuto creando campagne Smart Drip, che manterranno i potenziali clienti aggiornati in merito a prodotti/servizi.
 
-## come creare forme in mautico?   {#forme}
+## Come creare forme in mautico? {#forms}
+
   * Accedi all'installazione Mauitc.
   * Vai alla scheda "Componenti" e fai clic su "Forms".
-  * Colpisci "Nuovo" dall'angolo in alto a destra.
+  * Colpisci "New" dall'angolo in alto a destra.
   * Seleziona l'opzione "Nuovo modulo della campagna". Aprirà la pagina di configurazione del modulo come mostrato in questa schermata.
 
 {{< figure align=center src="images/Mautic-Campaign-Create-Form-1024x424.png" alt="Come configurare campagne mautiche per il marketing digitale">}}
@@ -38,10 +40,11 @@ Mautic è un software di automazione del marketing open source. Offre un control
 {{< figure align=center src="images/Mautic-Campaign-Forms-Form-fields-1024x525.png" alt="Come configurare campagne mautiche per il marketing digitale">}}
 
   * Selezionare il tipo di campo e immettere il nome del campo.
-  * Dopo di che fare clic su "Aggiungi" e premi "Salva e chiudi".
+  * Dopo allora fai clic su "Aggiungi" e premi "Salva e chiudi".
   * È facile creare forme in Mautico.
 
-## come creare campagne in mautico?   {#campaigns}
+## Come creare campagne in Mautic? {#campaigns}
+
   * Vai alle campagne. Fai clic su "Nuovo" dall'alto a destra.
   * Immettere il nome e impostare "Pubblicato" su "Sì".
 
@@ -65,7 +68,8 @@ Mautic è un software di automazione del marketing open source. Offre un control
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Come configurare campagne mautiche per il marketing digitale">}}
 
 
-## conclusione:   {#conclusion}
+## Conclusione: {#conclusion}
+
 Abbiamo imparato a impostare campagne di marketing gocciolante seguendo i 3 passaggi molto semplici. Ciò include la creazione di un modulo richiesto come fonte della campagna, la creazione della campagna e la configurazione dell'e -mail. Abbiamo creato una campagna molto semplice in questo tutorial. Tuttavia, è possibile creare campagne complesse utilizzando il costruttore di campagne Mautic. Se sei nuovo in Mautic, dai un'occhiata a come installarlo utilizzando la guida seguente:
 [Panoramica mautica e installazione][5]
 
@@ -75,12 +79,13 @@ Questi articoli potrebbero essere molto utili se si desidera integrare Mautic co
 [Integra Mautic con Joomla per l'automazione del marketing][7]
 [Come implementare il multi-tenancy in mautico][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

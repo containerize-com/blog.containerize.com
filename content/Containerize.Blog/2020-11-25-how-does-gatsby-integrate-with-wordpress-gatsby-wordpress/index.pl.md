@@ -17,15 +17,17 @@ categories: ['Blogging']
 ## Przegląd
 GatsByJS to bezpłatny i oparty na opachowym reakcie generator statycznych witryn zasilanych GraphQL. Wykorzystuje potężną wstępną konfigurację do budowy strony internetowej, która używa tylko plików statycznych do niewiarygodnie szybkich obciążeń stron. WordPress to świetna platforma blogowa typu open source. W rezultacie jest wiele osób, które wiedzą, jak dowiedzieć się, czy witryna jest witryną WordPress, aby mogli ją zhakować i ukraść informacje. Używanie Gatsby WordPress razem zapewni tę samą moc zarządzania treścią WordPress i szybkość Gatsby.
 W tym artykule przyjrzymy się, czym jest Gatsby i dlaczego musisz go używać z oprogramowaniem CMS. Następnie szczegółowo omówimy, jak korzystać ze WordPress i Gatsby razem, aby zbudować niesamowitą stronę internetową. Zaczynajmy!
-* [**Co to jest Gatsby**?][1]
-* **[Plusy i wady korzystania z WordPress i Gatsby][2]**
-* **[Jak używać gatsby z WordPress][3]**
-* **[wniosek][4]**
+* [ **Co to jest Gatsby** ?][1]
+* **[Plusy i wady korzystania z WordPress i Gatsby][2]** 
+* **[Jak używać gatsby z WordPress][3]** 
+* **[wniosek][4]** 
 
-## Co to jest Gatsby   {#gatsby}
+## Co to jest Gatsby {#gatsby}
+
 Gatsby jest statycznym generatorem witryn. Oznacza to, że Gatsby generuje statyczne pliki HTML, które są przesyłane na serwer Twojej witryny. Gdy odwiedzający wyląduje na Twojej stronie, te pliki statyczne są podawane do przeglądarki, zamiast dynamicznej treści WordPress ogólnie służy. Jest to framework bezpłatny i open source oparty na React, który pomaga programistom budować płonące witryny i aplikacje.
 
-## Plus i wady korzystania z WordPress i Gatsby   {#Proscons}
+## Plusy i wady korzystania z WordPress i Gatsby {#proscons}
+
 Zgodnie z oficjalnym [dokumentami][5] opracowali tabelę, dla której połączenie Gatsby WordPress jest świetne i dla których nie jest. Ze względu na łatwość wymieniam je tutaj.
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -43,7 +45,7 @@ Zgodnie z oficjalnym [dokumentami][5] opracowali tabelę, dla której połączen
         Przeprojektowania witryn z treścią już przechowywaną w WordPress
 {{_LINE_37_}}
 {{_LINE_38_}}
-        Zespoły, które chcą posiadać swoje dane i stos techniczny
+        Zespoły, które chcą mieć swoje dane i stos techniczny
 {{_LINE_40_}}
 {{_LINE_41_}}
         Złożone przepływy pracy kontroli dostępu lub ograniczenia modelowania treści
@@ -65,7 +67,7 @@ Zgodnie z oficjalnym [dokumentami][5] opracowali tabelę, dla której połączen
         Zespoły wymagające użycia motywów interfejsu WordPress
 {{_LINE_59_}}
 {{_LINE_60_}}
-        Ci, którzy szukają w pełni zarządzanej Cmo
+        Ci, którzy szukają w pełni zarządzanych Cmm
 {{_LINE_62_}}
 {{_LINE_63_}}
 {{_LINE_64_}}
@@ -84,7 +86,7 @@ Oprócz tych oficjalnych punktów chciałbym wymienić kilka zalet i wady korzys
         Mniejsze koszty serwera - ponieważ pliki statyczne nie wymagają specjalnych oprogramowania, dlatego statyczne strony HTML mogą być również obsługiwane z tańszych serwerów.
 {{_LINE_78_}}
 {{_LINE_79_}}
-        Bardziej bezpieczne - dla witryn statycznych nie ma ruchomych elementów części, dlatego hakerzy nie ma szans na wykorzystanie oprogramowania.
+        Bardziej bezpieczne - dla stron statycznych nie ma ruchomych elementów części, dlatego hakerzy nie ma szans na wykorzystanie oprogramowania.
 {{_LINE_81_}}
 {{_LINE_82_}}
 {{_LINE_83_}}
@@ -105,7 +107,8 @@ Oprócz tych oficjalnych punktów chciałbym wymienić kilka zalet i wady korzys
 {{_LINE_98_}}
 {{_LINE_99_}}
 
-## Jak używać Gatsby z WordPress   {#Howto}
+## Jak używać Gatsby z WordPress {#howto}
+
 Przed zainstalowaniem Gatsby musisz zainstalować [Nodejs][6] i [NPM][7] w środowisku witryny.
 
 ### Krok 1 - Zainstaluj Gatsby
@@ -120,7 +123,7 @@ To pobranie szablonu startowego Gatsby i umieszcza go w katalogu/Gatsby-Wordpres
 ```
 gatsby develop
 ```
-Teraz, w przeglądarce internetowej, wprowadź _http: // localhost: 8000_ i domyślny szablon powinien otworzyć.
+Teraz w przeglądarce internetowej wpisz _http: // localhost: 8000_ i domyślny szablon powinien otworzyć.
 
 {{< figure align=center src="images/gatsby-starter-1024x681.jpg" alt="Szablon startera Gatsby">}}
 
@@ -157,7 +160,7 @@ aliases: -  `wpexample.com`,
 ```
 Zaktualizuj ten kod, aby wskazać swoją witrynę WordPress. Jeśli Twoja witryna jest hostowana lokalnie, po BaseUrl możesz użyć _localhost: 8888/WordPress_ zamiast adresu URL witryny. Po zapisaniu pliku musisz zbudować szablony stron.
 
-### Krok 4 - Wykonaj szablony strony
+### Krok 4 - Wybuduj szablony strony
 Budowanie szablonów strony umożliwiają ten generator witryny generowanie postu dla każdej strony na Twojej stronie WordPress. Wtyczka źródłowa wyciągnie potrzebne dane z WordPress dla tych stron, ale musisz utworzyć szablon projektowy.
 W pliku _gatsby-node.js_ dodaj następujący kod
 ```
@@ -196,11 +199,13 @@ exports.createPages = async ({ graphql, actions }) => {
 ```
 Po wywołaniu wszystkich danych Gatsby wygeneruje stronę dla każdego postu. Korzystając z polecenia programu, możesz przejść do każdej nowej strony za pomocą wygenerowanego adresu URL.
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 W tym samouczku Gatsby WordPress omówiliśmy, jak wygenerować stronę internetową Gatsby z WordPress. Dowiedzieliśmy się, jakie są zalety i wady tych dwóch oprogramowania typu open source. Omówiliśmy również sposób instalowania i rozpoczęcia od środowiska programistycznego Gatsby.
 Wreszcie [Containerize.com][8] pisze artykuły na temat dalszych produktów typu open source. Dlatego prosimy o kontakt z kategorią platformy open source [blogowanie][9] w celu regularnych wiadomości i aktualizacji.
 
-  
+
+
 [1]: #gatsby
 [2]: #proscons
 [3]: #howto

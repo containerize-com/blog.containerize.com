@@ -24,13 +24,14 @@ In diesem Blog werden folgende Abschnitte behandelt:
   * [Mautische Konfiguration][3]
   * [Letzte Gedanken][4]
 
-## WordPress -Plugin -Konfiguration   {#wordpress}
+## WordPress -Plugin -Konfiguration {#wordpress}
+
   1. Gehen Sie zu Plugins.
   2. Klicken Sie auf "Neu hinzufügen".
-  3. Suchen Sie nach „**Integration in Mautic für WooCommerce** “.
+  3. Suchen Sie nach „  **Integration in Mautic für WooCommerce**  “.
   4. Sobald Sie das Plugin gefunden haben, klicken Sie auf "Jetzt installieren".
   5. Klicken Sie nach der Installation auf "Aktivieren".
-  6. Gehen Sie dann zu WooCommerce -> Mautic -> Registerkarte Verbindung.
+  6. Gehen Sie dann zu WooCommerce -> Mautic -> Registerkarte Connect.
   7. Füllen Sie das Formular mit folgenden Daten aus:
       * Basis -URL.
       * Kunden ID.
@@ -40,7 +41,8 @@ In diesem Blog werden folgende Abschnitte behandelt:
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Mautische und WordPress -Integration">}}
 
 
-## MAUTIC -Konfiguration:   {#meus}
+## Mautische Konfiguration: {#mautic}
+
   1. Gehen Sie von Ihrer mauischen Website zu Einstellungen.
   2. Gehen Sie zu Konfigurationen.
   3. Aktivieren Sie die API aus API -Einstellungen.
@@ -60,7 +62,8 @@ In diesem Blog werden folgende Abschnitte behandelt:
 {{< figure align=center src="images/mautic-1024x622.png" alt="Mautische und WordPress -Integrationsschritte">}}
 
 
-## Schluss Gedanken:   {#final}
+## Abschließende Gedanken: {#final}
+
 Mautic-woocommerce-Integration gemeinsam kann Ihnen helfen, Ihre Marketingziele zu erreichen. Diese Integration ist eine der besten Lösung für die E -Commerce -Marketing -Automatisierung. Mit WordPress können Sie problemlos viele Kunden bekommen, und dann können Sie mit Mauter unbegrenzte Kampagnen erstellen, um diese Kunden abzuzielen und sie über Ihre Produkte/Dienstleistungen auf dem Laufenden zu halten, was definitiv den Verkauf aufweist.
 
 ## Erkunden:
@@ -72,7 +75,8 @@ Sie können die folgenden Links relevant finden:
   * [Marketing -Automatisierung mit Mautic und WordPress WooCommerce][10]
   * [So richten Sie Marketingkampagnen in Mautic ein][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

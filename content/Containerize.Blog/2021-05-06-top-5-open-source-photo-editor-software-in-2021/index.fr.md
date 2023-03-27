@@ -30,7 +30,7 @@ DarkTable est un logiciel d'édition d'image gratuit qui offre aux photographes 
 [Lire la suite][6]
 
 ## gimp
-GIMP est l'un des meilleurs logiciels de retouche photo gratuits. Il a une interface personnalisable facile à comprendre et à naviguer, tout en fournissant des fonctionnalités de manipulation d'images polyvalentes. Non seulement il est compatible avec plusieurs langues comme Python, C ++, Perl, Scheme et plus encore, mais vous pouvez également vous intégrer dans votre flux de travail de photographie aux côtés d'autres applications comme Scribus, Inkscape et SwatchBooker. Voici quelques-unes des principales fonctionnalités qu'il fournit:
+GIMP est l'un des meilleurs logiciels de retouche photo gratuits. Il a une interface personnalisable facile à comprendre et à naviguer, tout en fournissant des fonctionnalités de manipulation d'images polyvalentes. Non seulement il est compatible avec plusieurs langues comme Python, C ++, Perl, Scheme et plus encore, mais vous pouvez également vous intégrer à votre flux de travail de photographie aux côtés d'autres applications comme Scribus, Inkscape et SwatchBooker. Voici quelques-unes des principales fonctionnalités qu'il fournit:
   * Distorsion en perspective
   * Distorsion du baril
   * Corrigez facilement la saturation des couleurs, la luminosité, le contraste et plus
@@ -50,7 +50,7 @@ Avec Phuvo, vous pouvez utiliser l'éditeur d'image pour traiter non seulement l
 [Lire la suite][8]
 
 ## digikam
-Digikam est un éditeur d'image open source. Il est compatible avec plusieurs systèmes d'exploitation, notamment Windows, Mac OS et Linux. De même, l'équipe développant Digikam publie continuellement des versions de construction stables de Digikam pour s'assurer que le flux de travail de la photographie n'est pas affecté. Avec Digikam, vous pouvez facilement importer et exporter des fichiers bruts, organiser vos fichiers chronologiquement via des dossiers et les rechercher également. Voici quelques-unes des principales fonctionnalités qu'il fournit:
+Digikam est un éditeur d'image open source. Il est compatible avec plusieurs systèmes d'exploitation, notamment Windows, Mac OS et Linux. De même, l'équipe qui développe Digikam publie continuellement des versions de construction stables de Digikam pour s'assurer que le flux de travail de la photographie n'est pas affecté. Avec Digikam, vous pouvez facilement importer et exporter des fichiers bruts, organiser vos fichiers chronologiquement via des dossiers et les rechercher également. Voici quelques-unes des principales fonctionnalités qu'il fournit:
   * Permet à l'utilisateur de stocker la base de données d'image soit localement ou sur un serveur distant
   * Compatibilité avec plusieurs modèles de caméras numériques
   * Fonctions d'importation d'images multiples
@@ -79,7 +79,8 @@ Que vous tiriez simplement avec votre smartphone ou que vous soyez un photograph
   * [Digikam][9]
   * [RAWTHERAPEE][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

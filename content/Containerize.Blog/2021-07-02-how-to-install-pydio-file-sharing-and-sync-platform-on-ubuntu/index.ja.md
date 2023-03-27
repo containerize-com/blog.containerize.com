@@ -14,15 +14,15 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="UbuntuにPydioファイル共有と同期プラットフォームをインストールする方法">}}
 
 
-## **概要**
+##  **概要**  
 Pydio Cellsは、オープンソースファイル共有および同期ソフトウェアです。すべてのデータストレージへのアクセスの1つのポイントを提供し、ストレージサービス、ファイル共有、同期を提供するOwnCloudおよびNextCloudに代わるものです。 Pydioは、Dropboxやその他のストレージプラットフォームと同様のエンタープライズオープンソースファイル共有プラットフォームです。 1つのプラットフォームですべてのファイルとデバイスを安全に接続するのに役立ちます。
 Pydio Cellsは、クラウドベースのファイルの同期およびコラボレーションプラットフォームです。このオープンソースソフトウェアは、個人のITインフラストラクチャで実行され、スタッフがビジネスデータを保護および監視するのに役立ちます。モバイルアプリ、デスクトップソフトウェア、またはPydioセルを使用してWebブラウザーを使用して、データを同期してどこからでもアクセスできます。 Pydio Cells Best File共有アプリは、マイクロサービスアーキテクチャに基づいており、Golangプログラミング言語を使用して記述されています。
-このチュートリアルは、Ubuntu LTSシステムにPydio Self Hosted File Sharing Softwareと同期プラットフォームをインストールおよび構成するのに役立ちます。
+このチュートリアルでは、Ubuntu LTSシステムにPydio Self Hosted File Shariningソフトウェアと同期プラットフォームをインストールおよび構成するのに役立ちます。
   * 入門
-  *ランプサーバーをインストールします
+* ランプサーバーをインストールします
   * UbuntuにPydioをインストールします
   * Pydioデータベースとユーザーを作成します
-  *ブラウザにPydioにアクセスします
+* ブラウザにPydioにアクセスします
   * 結論
 
 ## ステップ1：開始
@@ -39,23 +39,23 @@ sudo reboot
 ## ステップ2：ランプサーバーをインストールします
 Pydio Secure Enterpriseファイル共有サーバーとオープンソースのプライベートクラウドの作成方法をセットアップするには、まずランニングランプサーバーをセットアップする必要があります。既にインストールしてランプスタックを実行している場合は、この手順をスキップしてください。そうしないと、Ubuntuシステムにランプをセットアップするためにフォローイングコマンドを使用します。
 
-## # PHPをインストールします
+### PHPをインストールします
 コマンドを実行して、ubuntuまたはdebianシステムにPHPをインストールできます。
 sudo apt-getインストールpython-software-properties
 sudo add-papt-repository ppa：ondrej/php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-## # apache2をインストールします
+### apache2をインストールします
 Apacheは、最も広く使用されているオープンソースWebサーバーソフトウェアです。次に、実行してubuntuにApache Webサーバーをインストールします。
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # mysqlをインストールします
+### mysqlをインストールします
 MySQLオープンソースリレーショナルデータベース管理システムは、ランプWebアプリケーションソフトウェアスタックなどのコンポーネントです。以下で実行して、ubuntuにmysqlをインストールします。
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-インストールが完了したら、編集するために[intall.ini **設定ファイル]を開きます。推奨されるファイルエディターを使用します。
+インストールが完了したら、編集するために[intall.ini**設定ファイル]を開きます。推奨されるファイルエディターを使用します。
 以下のようにphp.iniファイルに変更を加えます。 2つのファイルを開き、図のように変更を加えます
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -118,11 +118,11 @@ Pydioプライベートクラウドファイル共有とビジネスファイル
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Pydioインストーラー">}}
 
-すべてのコントロールを確認し、[ **Pydioのインストール]をクリックします** ボタン。次のページを表示する必要があります。
+すべてのコントロールを確認し、[  **Pydioのインストール]をクリックします**  ボタン。次のページを表示する必要があります。
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Pydioセットアップウィザード">}}
 
-言語を選択して、[wizard **を開始] **をクリックします。次のページを表示する必要があります。
+言語を選択して、[ウィザードを開始]**をクリックします。次のページを表示する必要があります。
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Pydio設定を開始します">}}
 
@@ -138,7 +138,7 @@ Pydioプライベートクラウドファイル共有とビジネスファイル
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Pydio Advanced Options">}}
 
-次に、**Pydio** インストールボタンをクリックします。インストールが正常に完了したら。次のページにリダイレクトされます。
+次に、  **Pydio**  インストールボタンをクリックします。インストールが正常に完了したら。次のページにリダイレクトされます。
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Pydioログイン">}}
 
@@ -146,7 +146,8 @@ Pydioプライベートクラウドファイル共有とビジネスファイル
 
 うん！完了しました。 Pydioの自己ホストファイル同期とオープンソースファイル共有ソフトウェアをUbuntuに完全にインストールする方法を知っていることがわかりました。
 
-## **結論：**   {#4a1a}
+##  **結論:**   {#4a1a}
+
 このチュートリアルでは、UbuntuシステムにPydioセルオープンソースセキュアファイル共有を正常にインストールしました。この記事を使用して、自己ホストクラウドにファイルを保存、保護、共有するためのクラウドインフラストラクチャを作成できます。 Pydioコラボレーションドキュメント共有と最高の無料ファイル共有アプリを使用して、データをより制御し、ビジネス組織で効率的なコラボレーションを確保します。今後のチュートリアルでは、オープンソースクラウドストレージソリューションとファイル共有コラボレーションツールのより興味深いトピックについて説明します。
 _Yourは[Twitter][1]、[LinkedIn][2]、および[Facebook][3]ページに参​​加できます。どのクラウドベース_オープンソース_FILE共有プラットフォームをオンラインで使用していますか？ご質問がある場合は、[ご連絡ください][4]をお願いします。
 
@@ -158,7 +159,8 @@ _Yourは[Twitter][1]、[LinkedIn][2]、および[Facebook][3]ページに参​�
   * [ubuntu/debianでnginxでHTTP/2サポートを構成][8]
   * [AWSプロダクションサーバーの乗客を備えたnginxをセットアップ][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

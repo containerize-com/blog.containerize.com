@@ -21,10 +21,12 @@ Bu blog gönderisindeki aşağıdaki bölümleri ele alacağız:
   * [Eklenti kurulumu][3]
   * [Son düşünceler][4]
 
-## açıklama:   {#description}
+## Tanım: {#description}
+
 WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet widget'ı koymanızı sağlar. WordPress Live Chat, müşterilerin destek veya satış aracılarınızla tek bir tıklamayla gerçek zamanlı olarak işbirliği yapmalarını sağlar. Anında iletişim, müşterilerin sorularının hızlı bir şekilde çözülmesine yardımcı olur ve karar vermeyi hızlandırır. Bu nedenle bu çözüm, daha hızlı bir şekilde dönerek yeni müşteriler kazanmanıza ve mevcut müşterilerin memnuniyetini ve sadakatini artırmanıza yardımcı olabilir.
 
-## Özellikler özellikler}
+## Özellikler: {#features}
+
   * Ücretsiz ses konferansı
   * Ücretsiz video konferansı
   * Misafir erişimi
@@ -34,7 +36,8 @@ WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet
   * Takım sohbeti
   * Gerçek Zamanlı Çeviri
 
-## eklenti kurulumu:   {#plugin}
+## Eklenti Kurulumu: {#plugin}
+
   1. WordPress sitenizin Yönetici Gösterge Tablosuna gidin.
   2. Ardından eklentilere taşıyın.
   3. Ardından aşağıdaki eklenti yükleyin: [Rocket.Chat Livechat][5]
@@ -47,7 +50,8 @@ WordPress ve Rocket.Chat Entegrasyonu, WordPress tabanlı sitelere canlı sohbet
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="Rocket.chat kullanarak WordPress Anlık Mesajlaşma Çözümü">}}
 
 
-## Son Düşünceler:   {#Conclusion}
+## Son düşünceler: {#conclusion}
+
 Worpress ve Rocket.Chat Entegrasyonu, gerçek zamanlı konuşmalar yoluyla müşterilerinizle güven ve ilişkiler kurar. WordPress anlık mesajlaşma, işletmenize hızlı bir destek sağlayabilir. Canlı sohbet özelliğini kullanarak müşterilerinizle iletişim kurun. Ayrıca takım sohbet özelliğini kullanarak takım arkadaşlarınızla işbirliği yapabilirsiniz. Bu, fikirleri gerçek zamanlı sohbet ile tartışarak ve paylaşarak verimliliği artıracaktır.
 
 ## Keşfetmek:
@@ -55,11 +59,12 @@ Rocket.chat ve WordPress hakkında daha fazla bilgi edinmek için lütfen şu sa
 [En iyi ücretsiz ve açık kaynaklı canlı sohbet yazılımı][6]
 [WordPress - ücretsiz açık kaynak ve en yaygın kullanılan CMS ve bloglama aracı][7]
 
-  
-[1]: #description
-[2]: #features
-[3]: #plugin
-[4]: #conclusion
-[5]: https://wordpress.org/plugins/rocketchat-livechat/
-[6]: https://products.containerize.com/live-chat
-[7]: https://href.li/?https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #description
+ [2]: #features
+ [3]: #plugin
+ [4]: #conclusion
+ [5]: https://wordpress.org/plugins/rocketchat-livechat/
+ [6]: https://products.containerize.com/live-chat
+ [7]: https://href.li/?https://products.containerize.com/blogging/wordpress

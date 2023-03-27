@@ -13,23 +13,27 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/ci-cd-post.png" alt="Intégration continue et déploiement continu">}}
 
-Les équipes de développement utilisent différentes méthodes pour le déploiement de logiciels tels que FTP, tirant du code du référentiel et bien d'autres. Toutes ces méthodes sont effectuées manuellement et nécessitent beaucoup d'efforts. Nous pouvons voir que davantage d'équipes suivent la méthodologie Agile pour le développement de logiciels. Ainsi, ils publient fréquemment de nouvelles fonctionnalités et la fixation des bogues. Par conséquent, l'automatisation des workflows de livraison de logiciels aide les équipes pour lancer rapidement de nouvelles versions et sans erreurs. Nous apprendrons à utiliser  **CI / CD avec Jenkins **  et GitHub pour automatiser le processus de livraison du logiciel. Nous couvrirons les sections suivantes dans cet article.
-  * [ **Qu'est-ce que Jenkins? ** ][1]
-  * [ **Intégration continue ** ][2]
-  * [ **Déploiement continu ** ][3]
-  * [ **Configurer Jenkins ** ][4]
-  * [ **Créer Jenkins Job ** ][5]
+Les équipes de développement utilisent différentes méthodes pour le déploiement de logiciels tels que FTP, tirant du code du référentiel et bien d'autres. Toutes ces méthodes sont effectuées manuellement et nécessitent beaucoup d'efforts. Nous pouvons voir que davantage d'équipes suivent la méthodologie Agile pour le développement de logiciels. Ainsi, ils publient fréquemment de nouvelles fonctionnalités et la fixation des bogues. Par conséquent, l'automatisation des workflows de livraison de logiciels aide les équipes pour lancer rapidement de nouvelles versions et sans erreurs. Nous apprendrons à utiliser **CI / CD avec Jenkins** et GitHub pour automatiser le processus de livraison du logiciel. Nous couvrirons les sections suivantes dans cet article.
+  * [ **Qu'est-ce que Jenkins?** ][1]
+  * [ **Intégration continue** ][2]
+  * [ **Déploiement continu** ][3]
+  * [ **Configurer Jenkins** ][4]
+  * [ **Créer Jenkins Job** ][5]
 
-## Qu'est-ce que Jenkins?   {#Jenkins}
- **Jenkins **  est un puissant outil de déploiement gratuit  **pour l'automatisation du processus de livraison du logiciel. Il s'agit d'un serveur d'automatisation open source pour la construction, les tests et le déploiement. Jenkins utilise l'architecture maître-esclave. Cela permet aux équipes logicielles d'exécuter simultanément plusieurs builds et tests de logiciels. De plus, il existe de nombreux plugins disponibles et les équipes peuvent les utiliser au besoin. Vous pouvez visiter la page [**  Jenkins **][6] pour plus d'informations et d'installation. De plus, vous pouvez trouver le code source dans le référentiel Jenkins [ **github ** ][7].
+## Qu'est-ce que Jenkins? {#Jenkins}
 
-## Intégration continue   {#ci}
- **L'intégration continue **  est une pratique de développement qui oblige les développeurs à intégrer fréquemment le code dans un référentiel partagé. Chaque intégration / poussée du code dans le référentiel peut être vérifiée par build et tests automatisés. Il permet également aux développeurs d'identifier facilement les problèmes dans le code.
+**Jenkins **est un puissant outil de déploiement gratuit** pour l'automatisation du processus de livraison du logiciel. Il s'agit d'un serveur d'automatisation open source pour la construction, les tests et le déploiement. Jenkins utilise l'architecture maître-esclave. Cela permet aux équipes logicielles d'exécuter simultanément plusieurs builds et tests de logiciels. De plus, il existe de nombreux plugins disponibles et les équipes peuvent les utiliser au besoin. Vous pouvez visiter la page [ **Jenkins** ][6] pour plus d'informations et d'installation. De plus, vous pouvez trouver le code source dans le référentiel Jenkins [**github** ][7].
 
-## Déploiement continu   {#cd}
- **Déploiement continu **  est l'étape suivante après l'intégration continue. Il permettrait aux équipes de déployer en continu le code sur le serveur. De plus, il aide les développeurs à réduire les tâches répétitives et à augmenter l'agilité.
+## Intégration continue {#CI}
 
-## Configure Jenkins   {#configure}
+**L'intégration continue** est une pratique de développement qui oblige les développeurs à intégrer fréquemment le code dans un référentiel partagé. Chaque intégration / poussée du code dans le référentiel peut être vérifiée par build et tests automatisés. Il permet également aux développeurs d'identifier facilement les problèmes dans le code.
+
+## Déploiement continu {#CD}
+
+**Déploiement continu** est l'étape suivante après l'intégration continue. Il permettrait aux équipes de déployer en continu le code sur le serveur. De plus, il aide les développeurs à réduire les tâches répétitives et à augmenter l'agilité.
+
+## Configurer Jenkins {#Configure}
+
 Suivez ci-dessous les directives étape par étape pour la configuration dans Jenkins.
   * Ouvrez votre site Jenkins et connectez-vous.
   * Installez le plugin «Publier sur SSH». Vous pouvez le rechercher en naviguant pour «gérer Jenkins → Gérer les plugins → Disponible».
@@ -57,7 +61,8 @@ $ nano authorized_keys
   * Cliquez sur le bouton de configuration de test pour vous assurer que Jenkins peut se connecter au serveur de déploiement.
   * Enfin, cliquez sur le bouton Enregistrer pour stocker les informations.
 
-## Créer Jenkins Job   {#create}
+## Créer un travail Jenkins {#Create}
+
 Vous pouvez utiliser ces étapes pour créer un travail Jenkins.
   * Ouvrez le tableau de bord Jenkins et cliquez sur le bouton «nouvel élément».
   * Entrez le nom du projet et choisissez «Freestyle Job».
@@ -68,23 +73,24 @@ Vous pouvez utiliser ces étapes pour créer un travail Jenkins.
   * Connectez-vous au serveur de déploiement et assurez-vous que le code est là.
 
 ## Conclusion
-Nous avons discuté du  **Jenkins Server ** ,  **Intégration continue ** , et  **Déploiement continu **  dans cet article. Nous avons également appris à configurer le  **outil de déploiement gratuit **  et à créer un travail Jenkins pour le déploiement à l'aide de GitHub. L'outil CI / CD gratuit permet à l'équipe de développement d'automatiser les workflows de livraison de logiciels et de garder l'accent sur les emplois importants. Nous couvrirons d'autres outils de déploiement dans les prochains articles.
-Enfin, [ **contenerize.com ** ][8] publiera des articles sur d'autres outils de déploiement open source. Par conséquent, veuillez rester en contact avec [ **les outils de déploiement ** ][9] Catégorie pour les mises à jour régulières.
+Nous avons discuté du **Jenkins Server**, **Intégration continue** , et **Déploiement continu** dans cet article. Nous avons également appris à configurer le**outil de déploiement gratuit** et à créer un travail Jenkins pour le déploiement à l'aide de GitHub. L'outil CI / CD gratuit permet à l'équipe de développement d'automatiser les workflows de livraison de logiciels et de garder l'accent sur les emplois importants. Nous couvrirons d'autres outils de déploiement dans les prochains articles.
+Enfin, [ **contenerize.com**][8] publiera des articles sur d'autres outils de déploiement open source. Par conséquent, veuillez rester en contact avec [**les outils de déploiement** ][9] Catégorie pour les mises à jour régulières.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  *  **[Jenkins][6] ** 
-  * [ **Drone ** ][10]
-  * [ **Déploieur ** ][11]
-  * [ **Capistrano ** ][12]
-  * [ **Rancher ** ][13]
-  * [ **hall ** ][14]
-  * [ **ANSIBLE ** ][15]
-  * [ **gocd ** ][16]
-  * [ **Top 5 des outils de déploiement open source en 2021 ** ][17]
-  * [ **Automatiser le déploiement des applications PHP avec le déploieur ** ][18]
+  * **[Jenkins][6]** 
+  * [ **Drone** ][10]
+  * [ **Déploieur** ][11]
+  * [ **Capistrano** ][12]
+  * [ **Rancher** ][13]
+  * [ **hall** ][14]
+  * [ **ANSIBLE** ][15]
+  * [ **gocd** ][16]
+  * [ **Top 5 des outils de déploiement open source en 2021** ][17]
+  * [ **Automatiser le déploiement des applications PHP avec le déploieur** ][18]
 
-  
+
+
 [1]: #Jenkins
 [2]: #CI
 [3]: #CD

@@ -20,7 +20,8 @@ categories: ['Web Server Solution Stack']
   * [پیکربندی nginx برای اجرای نسخه های مختلف برای وب سایت ها][4]
   * [نتیجه گیری][5]
 
-## نصب nginx   {#nginx
+## nginx را نصب کنید {#nginx}
+
 NGINX (به عنوان "Engine-X" تلفظ می شود) یک سرور وب با منبع باز است که اغلب به عنوان پروکسی معکوس یا حافظه نهان HTTP استفاده می شود. برای لینوکس به صورت رایگان در دسترس است.
 برای نصب nginx ، از دستور زیر استفاده کنید:
 ```
@@ -32,10 +33,11 @@ sudo apt install nginx
 {{< figure align=center src="images/php-with-nginx-install.png" alt="PHP را با nginx نصب کنید">}}
 
 
-## چندین نسخه PHP را نصب کنید   {#php}
-**PHP **(مخفف بازگشتی برای ** PHP: Hypertext Preprocessor** ) یک زبان اسکریپتیک با هدف عمومی با منبع باز و محبوب است که بسیار مورد استفاده قرار می گیرد و برای توسعه وب سایت ها و برنامه های مبتنی بر وب مناسب است. این یک زبان برنامه نویسی سمت سرور است که می تواند در HTML تعبیه شود.
-در حال حاضر ، سه نسخه پشتیبانی شده از **php  **، یعنی **  php 5.6  **، **  7.0 ،  **و **  8.0  **وجود دارد. معنی **  php 5.3  **، **  5.4 ،  **و**   5.5** همه به پایان زندگی رسیده اند. آنها دیگر با به روزرسانی های امنیتی پشتیبانی نمی شوند. بنابراین بیایید ابتدا PHP 7.0 و PHP 7.2 را با PHP-FPM نصب کنیم.
-در واقع قبل از اینکه با نصب حرکت کنیم ، ابتدا به زیر می پردازیم که PHP-FPM چیست. **PHP-FPM  **(مخفف مخفف**   مدیر فرآیند FASTCGI**) یک PHP جایگزین بسیار محبوب (پردازنده HyperText) اجرای FASTCGI است. PHP-FPM شامل ویژگی های بیشماری است که می تواند برای وب سایت های دریافت کننده ترافیک در حجم های بزرگ به طور مکرر مفید باشد.
+## چندین نسخه PHP را نصب کنید {#php}
+
+ **PHP** (مخفف بازگشتی برای **PHP: Hypertext Preprocessor** ) یک زبان اسکریپتیک با هدف عمومی با منبع باز و محبوب است که بسیار مورد استفاده قرار می گیرد و برای توسعه وب سایت ها و برنامه های مبتنی بر وب مناسب است. این یک زبان برنامه نویسی سمت سرور است که می تواند در HTML تعبیه شود.
+در حال حاضر ، سه نسخه پشتیبانی شده از  **php** ، یعنی  **php 5.6**  ،  **7.0 ،**  و  **8.0**  وجود دارد. معنی  **php 5.3**  ،  **5.4 ،**  و **5.5**  همه به پایان زندگی رسیده اند. آنها دیگر با به روزرسانی های امنیتی پشتیبانی نمی شوند. بنابراین بیایید ابتدا PHP 7.0 و PHP 7.2 را با PHP-FPM نصب کنیم.
+در واقع قبل از اینکه با نصب حرکت کنیم ، ابتدا به زیر می پردازیم که PHP-FPM چیست.  **PHP-FPM** (مخفف مخفف **مدیر فرآیند FASTCGI**  ) یک PHP جایگزین بسیار محبوب (پردازنده HyperText) اجرای FASTCGI است. PHP-FPM شامل ویژگی های بیشماری است که می تواند برای وب سایت های دریافت کننده ترافیک در حجم های بزرگ به طور مکرر مفید باشد.
 برای نصب PHP 7.0 و 7.2 ابتدا ، برای نصب چندین نسخه از PHP ، باید مخزن PHP را به سرور خود اضافه کنید. می توانید مخزن ONDREJ PHP را با دستور زیر اضافه کنید:
 ```
 sudo apt-get install software-properties-common -y
@@ -52,7 +54,8 @@ systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-## چندین وب سایت با PHP   {#web} ایجاد کنید
+## چندین وب سایت با PHP ایجاد کنید {#web}
+
 صفحه پیش فرض در/var/www/html/مکان قرار داده شده است. می توانید صفحات استاتیک خود را در اینجا قرار دهید ، یا از میزبان مجازی استفاده کرده و مکان دیگری را قرار دهید
 ```
 mkdir /var/www/html/site1.containerize.com
@@ -104,7 +107,8 @@ chown -R www-data:www-data /var/www/html/site1.containerize.com
 chown -R www-data:www-data /var/www/html/site2.containerize.com
 ```
 
-## پیکربندی nginx   {#configure}
+## nginx را پیکربندی کنید {#configure}
+
 در مرحله بعد ، شما نیاز به ایجاد یک فایل میزبان مجازی NGINX برای Site1.Containerize.com دارید که از PHP 7.0 استفاده می کند. و دیگری برای Site2.containerize.com که از PHP 7.2 استفاده می کند.
 ```
 vi /etc/nginx/sites-available/site1.containerize.com.conf
@@ -168,18 +172,20 @@ systemctl restart php7.0-fpm
 systemctl restart php7.2-fpm
 ```
 
-## نتیجه گیری   {#conclusion}
+## نتیجه {#conclusion}
+
 در این آموزش ما به بررسی چگونگی چندین نسخه PHP در اوبونتو پرداختیم. ما یاد گرفتیم که چگونه nginx را نصب کنیم. سپس ما نحوه تنظیم دو وب سایت مختلف را در NGINX بررسی کردیم. و سرانجام یاد گرفتیم که چگونه دو وب سایت مختلف را با نسخه های مختلف PHP با NGINX پیکربندی کنیم. امیدوارم که این آموزش به شما کمک کند.
 
 ## کاوش کنید
   * [نحوه تنظیم و پیکربندی nginx به عنوان پروکسی معکوس][6]
   * [نحوه استفاده از NGINX به عنوان Balancer Load برای برنامه خود][7]
 
-  
-[1]: #nginx
-[2]: #php
-[3]: #web
-[4]: #configure
-[5]: #conclusion
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+
+ [1]: #nginx
+ [2]: #php
+ [3]: #web
+ [4]: #configure
+ [5]: #conclusion
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/

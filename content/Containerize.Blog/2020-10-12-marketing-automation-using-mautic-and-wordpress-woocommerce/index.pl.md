@@ -11,7 +11,7 @@ categories: ['Blogging', 'Marketing Automation']
 
 ## chwalić się sprzedażą za pomocą Mauutic i WordPress WooCommerce razem. Zautomatyzuj proces marketingowy, pobierając dane klientów z WordPress do Mauutic.
 
-{{< figure align=center src="images/banner-mauticWP-1200x628-1-1024x536.png" alt="Automatyzacja marketingowa za pomocą integracji mautic-woocommerce">}}
+{{< figure align=center src="images/banner-mauticWP-1200x628-1-1024x536.png" alt="Automatyzacja marketingowa za pomocą integracji mautic-wookomerce">}}
 
 
 ## Przegląd:
@@ -24,10 +24,11 @@ Ten blog obejmie następujące sekcje:
   * [Konfiguracja mautyczna][3]
   * [Final Myśli][4]
 
-## WordPress Configuration   {#WordPress}
+## Konfiguracja wtyczek WordPress {#wordpress}
+
   1. Przejdź do wtyczek.
   2. Kliknij „Dodaj nowy”.
-  3. Wyszukaj „**Integracja z mautic dla WooCommerce**”.
+  3. Wyszukaj „  **Integracja z mautic dla WooCommerce**  ”.
   4. Po znalezieniu wtyczki kliknij „Zainstaluj teraz”.
   5. Po instalacji kliknij „Aktywuj”.
   6. Następnie przejdź do WooCommerce -> Mautic -> Connect Tab.
@@ -35,12 +36,13 @@ Ten blog obejmie następujące sekcje:
       * Baza URL.
       * Identyfikator klienta.
       * Secret Id.
-  8. Wszystkie te pola pojawią się po skonfigurowaniu aplikacji Maucing, która jest wyjaśniona w następnej sekcji.
+  8. Wszystkie te pola pojawią się po skonfigurowaniu w aplikacji Maucing, która została wyjaśniona w następnej sekcji.
 
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Integracja mautyczna i WordPress">}}
 
 
-## Mauutic Configuration:   {#mautic}
+## Konfiguracja mautyczna: {#mautic}
+
   1. Z swojej witryny mautycznej przejdź do ustawień.
   2. Przejdź do konfiguracji.
   3. Włącz API z ustawień interfejsu API.
@@ -48,7 +50,7 @@ Ten blog obejmie następujące sekcje:
   5. Kliknij „NOWOŚĆ”, wprowadź dowolną nazwę, którą lubisz i pełny adres URL witryny WordPress, tj. [Http://yourwordpresssite.com/wp-admin/admin.php]=5]
   6. Naciśnij Zapisz i zamknij.
   7. stworzy klucze publiczne i prywatne.
-  8. Przejdź do swojej witryny WordPress i znajdź wtyczkę mautyczną zainstalowaną wcześniej.
+  8. Przejdź do witryny WordPress i znajdź wtyczkę mautic instalowaną wcześniej.
   9. Wprowadź klucze publiczne i tajne, które utworzyłeś z swojej witryny mautycznej.
  10. Wybierz OAuth1 lub OAuth2 (tak samo, jak wybrano w Mauutic) i ustaw zarejestrowanych użytkowników na tak.
  11. Zapisz i opublikuj wtyczkę.
@@ -60,7 +62,8 @@ Ten blog obejmie następujące sekcje:
 {{< figure align=center src="images/mautic-1024x622.png" alt="Kroki integracji mautycznej i WordPress">}}
 
 
-## końcowe myśli:   {#final}
+## Końcowe przemyślenia: {#final}
+
 Integracja mautic-woocommerce razem może pomóc w osiągnięciu celów marketingowych. Ta integracja jest jednym z najlepszych rozwiązań w zakresie automatyzacji marketingu e -commerce. Dzięki WordPress możesz łatwo zdobyć wielu klientów, a następnie z Mautycznym, możesz tworzyć nieograniczone kampanie, aby skierować tych klientów i informować ich o swoich produktach/usługach, co z pewnością szczyci się sprzedażą.
 
 ## Badać:
@@ -70,9 +73,10 @@ Możesz znaleźć istotne następujące linki:
   * [Jak skonfigurować mautic - integracja na Facebooku][8]
   * [Integracja Drupal Mautic w celu automatyzacji pielęgnacji ołowiu][9]
   * [Automatyzacja marketingowa za pomocą mautic i WordPress WooCommerce][10]
-  * [Jak skonfigurować kampanie marketingowe w Mautic][11]
+  * [Jak skonfigurować kampanie marketingowe w Mauutic][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

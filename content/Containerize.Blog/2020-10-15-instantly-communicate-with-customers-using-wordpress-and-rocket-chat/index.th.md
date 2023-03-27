@@ -21,10 +21,12 @@ categories: ['Blogging', 'Live Chat']
   * [การติดตั้งปลั๊กอิน][3]
   * [ความคิดสุดท้าย][4]
 
-## คำอธิบาย:   {#description}
+## คำอธิบาย: {#description}
+
 การรวม WordPress และ Rocket.Chat ช่วยให้คุณสามารถใส่วิดเจ็ตแชทสดบนไซต์ที่ใช้ WordPress WordPress Live Chat ช่วยให้ลูกค้าสามารถทำงานร่วมกับการสนับสนุนหรือตัวแทนขายของคุณแบบเรียลไทม์ด้วยการคลิกเพียงครั้งเดียว การสื่อสารทันทีช่วยให้ลูกค้าแก้ไขข้อสงสัยและเร่งการตัดสินใจได้อย่างรวดเร็ว ดังนั้นโซลูชันนี้สามารถช่วยให้คุณชนะลูกค้าใหม่ด้วยการเลี้ยวเร็วขึ้นรวมถึงปรับปรุงความพึงพอใจและความภักดีของลูกค้าปัจจุบัน
 
-## ฟีเจอร์:   {#Features}
+## คุณสมบัติ: {#features}
+
   * การประชุมเสียงฟรี
   * การประชุมทางวิดีโอฟรี
   * การเข้าถึงของแขก
@@ -34,7 +36,8 @@ categories: ['Blogging', 'Live Chat']
   * แชทเป็นทีม
   * การแปลตามเวลาจริง
 
-การติดตั้งปลั๊กอิน ## :  {#plugin}
+## การติดตั้งปลั๊กอิน: {#plugin}
+
   1. ไปที่แผงควบคุมผู้ดูแลระบบของไซต์ WordPress ของคุณ
   2. จากนั้นย้ายไปที่ปลั๊กอิน
   3. จากนั้นติดตั้งปลั๊กอินต่อไปนี้: [rocket.chat livechat][5]
@@ -47,19 +50,21 @@ categories: ['Blogging', 'Live Chat']
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="วิธีแก้ปัญหาการส่งข้อความแบบทันทีของ WordPress โดยใช้ rocket.chat">}}
 
 
-## ความคิดสุดท้าย:   {#conclusion}
+## ความคิดสุดท้าย: {#conclusion}
+
 Worpress และ Rocket.chat Integration สร้างความไว้วางใจและความสัมพันธ์กับลูกค้าของคุณผ่านการสนทนาแบบเรียลไทม์ WordPress Instant Messaging สามารถเพิ่มธุรกิจของคุณได้อย่างรวดเร็ว สื่อสารกับลูกค้าของคุณโดยใช้คุณสมบัติการแชทสด นอกจากนี้คุณสามารถร่วมมือกับเพื่อนร่วมทีมของคุณโดยใช้คุณสมบัติการแชทเป็นทีม สิ่งนี้จะปรับปรุงประสิทธิภาพการทำงานโดยการพูดคุยและแบ่งปันแนวคิดด้วยการแชทแบบเรียลไทม์
 
 ## สำรวจ:
 หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ rocket.chat และ wordpress โปรดตรวจสอบหน้าเหล่านี้:
-[ซอฟต์แวร์แชทสดฟรีและโอเพ่นซอร์สที่ดีที่สุด][6]
+[ซอฟต์แวร์แชทสดฟรีที่ดีที่สุดและโอเพ่นซอร์ส][6]
 [WordPress - โอเพ่นซอร์สฟรีและ CMS และเครื่องมือบล็อกที่ใช้กันอย่างแพร่หลายที่สุด][7]
 
-  
-[1]: #description
-[2]: #features
-[3]: #plugin
-[4]: #conclusion
-[5]: https://wordpress.org/plugins/rocketchat-livechat/
-[6]: https://products.containerize.com/live-chat
-[7]: https://href.li/?https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #description
+ [2]: #features
+ [3]: #plugin
+ [4]: #conclusion
+ [5]: https://wordpress.org/plugins/rocketchat-livechat/
+ [6]: https://products.containerize.com/live-chat
+ [7]: https://href.li/?https://products.containerize.com/blogging/wordpress

@@ -21,13 +21,14 @@ WooCommerce adalah plugin e-commerce open-source untuk WordPress. Ini adalah sol
 Ada plugin yang tersedia untuk Mautic dan WordPress yang menyediakan solusi otomatisasi pemasaran. Harap ikuti langkah -langkah ini untuk mengintegrasikan WooCommerce dengan MAUTIC menggunakan plugin [Integrasi dengan Mautic untuk WooCommerce - Otomatisasi Pemasaran Sumber Terbuka.][1]
 Blog ini akan mencakup bagian berikut:
   * [Konfigurasi Plugin WordPress][2]
-  * [Konfigurasi Mautik][3]
+  * [Konfigurasi mautik][3]
   * [Pikiran Terakhir][4]
 
-Konfigurasi plugin ## WordPress  {#wordpress}
+## Konfigurasi Plugin WordPress {#wordpress}
+
   1. Pergi ke plugin.
   2. Klik "Tambahkan Baru".
-  3. Cari "**Integrasi dengan Mautic untuk WooCommerce** ".
+  3. Cari "  **Integrasi dengan Mautic untuk WooCommerce**  ".
   4. Setelah Anda menemukan plugin, klik "Instal Now".
   5. Setelah instalasi, klik "Activate".
   6. Kemudian buka WooCommerce -> Mautic -> Tab Connect.
@@ -40,7 +41,8 @@ Konfigurasi plugin ## WordPress  {#wordpress}
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Integrasi Mautik dan WordPress">}}
 
 
-## konfigurasi mautik:   {#mautic}
+## Konfigurasi Mautik: {#mautic}
+
   1. Dari situs mautik Anda, buka pengaturan.
   2. Buka konfigurasi.
   3. Aktifkan API dari pengaturan API.
@@ -60,7 +62,8 @@ Konfigurasi plugin ## WordPress  {#wordpress}
 {{< figure align=center src="images/mautic-1024x622.png" alt="Langkah Integrasi Mautik dan WordPress">}}
 
 
-## Pikiran Final:   {#Final}
+## Pikiran terakhir: {#final}
+
 Integrasi Mautic-WooCommerce Bersama dapat membantu Anda mencapai tujuan pemasaran Anda. Integrasi ini adalah salah satu solusi terbaik untuk otomatisasi pemasaran eCommerce. Dengan WordPress Anda dapat dengan mudah mendapatkan banyak pelanggan dan kemudian dengan MAUTIC Anda dapat membuat kampanye tanpa batas untuk menargetkan pelanggan tersebut dan memperbarui mereka mengenai produk/layanan Anda, yang pasti akan membanggakan penjualan.
 
 ## Mengeksplorasi:
@@ -72,7 +75,8 @@ Anda dapat menemukan tautan berikut yang relevan:
   * [Otomasi Pemasaran Menggunakan Mautik dan WordPress WooCommerce][10]
   * [Cara Mengatur Kampanye Pemasaran di Mautik][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

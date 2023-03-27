@@ -22,36 +22,44 @@ Trong bài viết này, chúng tôi sẽ hướng dẫn bạn cách tạo bot b�
   * [Mã bot của bạn bằng botpress][4]
   * [Kết luận][5]
 
-## # Rocket.chat   {#Rocketchat}
+
+### Rocket.Chat {#rocketchat}
+
 Rocket.chat là một trong những phần mềm trò chuyện trực tiếp phổ biến một phần là một dự án trò chuyện trực tiếp nguồn mở. Nó có phiên bản trò chuyện trực tiếp miễn phí như một phiên bản cộng đồng. Cũng như, một phiên bản trò chuyện trực tiếp được lưu trữ được trả tiền cho các công ty lớn có các tính năng trò chuyện nội bộ riêng tư. Ứng dụng trò chuyện trực tiếp này chạy trong trình duyệt nhưng cũng có thể được cài đặt trên máy chủ của riêng bạn. [Đọc thêm][6]
 
-## # botpress   {#botpress}
+
+### Botpress {#botpress}
+
 Chatbots trò chuyện đã giúp các doanh nghiệp này có thể cung cấp cho khách hàng của họ sự hỗ trợ cảm ứng cao luôn có sẵn mà họ muốn. Botpress là một trong những công cụ tạo bot nguồn mở phổ biến nhất với xử lý ngôn ngữ tự nhiên tích hợp. Công nghệ NLU của Botpress, làm cho nó đi trước các đối thủ cạnh tranh trong lĩnh vực như BotKit, Dialogflow và Microsoft Bot Framework. [Đọc thêm][7]
 
-## # Tạo người dùng bot trong Rocket.Chat   {#CreateBotuser}
+
+### Tạo người dùng bot trong Rocket.chat {#createbotuser}
+
 Để nói chuyện với chatbot của bạn, phải có tài khoản người dùng được cấu hình sẵn trên máy chủ Rocket.Chat mà bot có thể đăng nhập.
 Để tạo tài khoản, bạn cần có đặc quyền quản trị viên:
-  1. Trong topbar, nhấp vào ba dấu chấm (tùy chọn) và sau đó nhấp vào**Quản trị**
-  2. Chọn**người dùng**từ thanh bên trái
+  1. Trong topbar, nhấp vào ba dấu chấm (tùy chọn) và sau đó nhấp vào  **Quản trị**  
+  2. Chọn  **người dùng**  từ thanh bên trái
   3. Nhấp vào nút `+` (Thêm người dùng) ở thanh bên phải
   4. Trong cửa sổ hồ sơ xuất hiện, điền vào _name_, _username_, _email_ và _password_ trường
   5. Bật _verified_ chuyển đổi dưới trường _email_
   6
   7
-  8. Tắt các kênh mặc định _Join
+  8. Tắt các kênh mặc định _Join_ và _send chào mừng bạn
   9. Nhấp vào _save_
 Sau khi được lưu, bot sẽ được cấu hình với tên người dùng và mật khẩu được đặt ở bước 4. Bạn có thể sử dụng Rock Rocketchat \ _User và và Rocketchat \ _password, các biến môi trường để đăng nhập vào máy chủ tên lửa.
 
-## # Mã bot của bạn bằng botpress   {#codeBot}
+
+### Mã bot của bạn bằng botpress {#codebot}
+
 Botpress là gói Node.js và hoạt động với Node và NPM.
 Cách nhanh nhất để bắt đầu với Botpress là sử dụng kho lưu trữ [botpress-kick][8] đã được tích hợp với Rocket.chat thông qua [đầu nối Botpress-Channel][9].
 Điều hướng đến thư mục nơi bạn muốn làm việc với bot và tiến hành các bước sau:
-* * Cài đặt gói botpress**
+ **Cài đặt gói botpress** 
 ```
 npm init -y
 npm install botpress@10.40.0
 ```
-* * Tạo bot**
+ **Tạo bot** 
 ```
 mkdir bot
 cd bot
@@ -109,12 +117,12 @@ Next steps:
 
 Enjoy Botpress!
 ```
-* * Cài đặt Trình kết nối botpress và phụ thuộc bot**
+ **Cài đặt Trình kết nối botpress và phụ thuộc bot** 
 ```
 npm install
 npm install botpress-channel-rocketchat
 ```
-Cấu hình bot
+Định cấu hình bot
 Mở thư mục cấu hình trên mạng và tạo tệp kênh kênh-rocketchat.json với nội dung sau:
 ```
 {
@@ -126,23 +134,26 @@ Mở thư mục cấu hình trên mạng và tạo tệp kênh kênh-rocketchat.
     "scope": ""
 }
 ```
-* * Chạy bot**
+ **Chạy bot** 
 ```
 npm start
 ```
-* * Nói chuyện với bot của bạn**
+ **Nói chuyện với bot của bạn** 
 Trên máy chủ, đăng nhập với tư cách là người dùng thông thường (không phải người dùng bot), vào phòng tổng hợp và nói chuyện với bot mới được tạo của bạn.
 
-## # Kết luận   {#conclusion}
+
+### Phần kết luận {#conclusion}
+
 Trong bài viết này, chúng tôi đã học được cách tạo bot trong botpress. Và, làm thế nào để cấu hình nó với Rocket.chat. Botpress giúp người dùng rất dễ dàng xây dựng quy trình công việc tự động sáng tạo. Và, tích hợp với Rocket.chat cho phép bạn kiểm soát chúng theo cách trò chuyện.
 
-  
-[1]: #rocketchat
-[2]: #botpress
-[3]: #createbotuser
-[4]: #codebot
-[5]: #conclusion
-[6]: https://products.containerize.com/live-chat/rocketchat
-[7]: https://products.containerize.com/live-chat/botpress
-[8]: https://github.com/RocketChat/botpress-kick-starter
-[9]: https://github.com/RocketChat/botpress-channel-rocketchat
+
+
+ [1]: #rocketchat
+ [2]: #botpress
+ [3]: #createbotuser
+ [4]: #codebot
+ [5]: #conclusion
+ [6]: https://products.containerize.com/live-chat/rocketchat
+ [7]: https://products.containerize.com/live-chat/botpress
+ [8]: https://github.com/RocketChat/botpress-kick-starter
+ [9]: https://github.com/RocketChat/botpress-channel-rocketchat

@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Comment installer le partage de fichiers Pydio et la plate-forme de synchronisation sur Ubuntu">}}
 
 
-## **Aperçu**
+##  **Aperçu**  
 Pydio Cells est un logiciel de partage de fichiers et de synchronisation open source. Il fournit un seul point d'accès à tous vos stocks de données et c'est une alternative à OwnCloud et NextCloud qui fournissent des services de stockage, du partage de fichiers et de la synchronisation. Pydio est une plate-forme de partage de fichiers Open Source Enterprise similaire à Dropbox et à d'autres plates-formes de stockage. Il vous aide à connecter en toute sécurité tous vos fichiers et appareils dans une seule plate-forme.
 Pydio Cells est une plate-forme de synchronisation et de collaboration de fichiers basés sur le cloud. Ce logiciel open source fonctionne sur votre infrastructure informatique personnelle et aide votre personnel à protéger et à surveiller vos données commerciales. Vous pouvez synchroniser vos données et y accéder à partir de n'importe où à l'aide d'une application mobile, d'un logiciel de bureau ou d'un navigateur Web à l'aide de cellules PYDIO. L'application de partage de fichiers Pydio pour les cellules est basée sur une architecture de micro-services et est écrite à l'aide d'un langage de programmation Golang.
 Ce tutoriel vous aidera à installer et à configurer le logiciel de partage de fichiers auto-hébergé Pydio et la plate-forme de synchronisation sur les systèmes Ubuntu LTS.
@@ -39,23 +39,23 @@ sudo reboot
 ## Étape 2: Installez le serveur de lampe
 Pour configurer le serveur de partage de fichiers Enterprise Secure Enterprise Secure et comment créer un cloud privé open source, nous devons d'abord configurer un serveur LAMP en cours d'exécution. Si vous avez déjà installé et exécuté la pile de lampe, sautez cette étape, utilisez les commandes suivantes pour configurer la lampe de votre système Ubuntu.
 
-## # Installer PHP
+### Installer PHP
 Vous pouvez installer PHP sur votre système Ubuntu ou Debian en exécutant des commandes:
 sudo apt-get install python-lowware-properties
 sudo add-apt-repository ppa: ondrej / php
 sudo apt-get install -y php php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-## # Installer Apache2
+### Installer Apache2
 Apache est le logiciel de serveur Web open-source le plus utilisé. Ensuite, installez le serveur Web Apache sur Ubuntu en exécutant:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # Installer MySQL
+### Installer MySQL
 Le système de gestion de la base de données relationnel de la base de données relationnelle MySQL est un composant de la pile de logiciels d'application Web LAMP et autres. Installez maintenant MySQL sur Ubuntu en fonctionnant ci-dessous:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Une fois l'installation terminée, ouvrez **Php.ini**  Fichier de configuration à modifier. Utilisez votre éditeur de fichiers préféré.
+Une fois l'installation terminée, ouvrez  **Php.ini**  Fichier de configuration à modifier. Utilisez votre éditeur de fichiers préféré.
 Apporter des modifications au fichier php.ini comme ci-dessous. Ouvrez deux fichiers et apportez les modifications comme indiqué
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -118,27 +118,27 @@ Ouvrez votre navigateur et tapez URL http: // votre serveur -ip / pydio. Vous se
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Installateur de Pydio">}}
 
-Confirmez toutes les commandes et cliquez sur le bouton **Continuez vers PYDIO Installation** . Vous devriez voir la page suivante:
+Confirmez toutes les commandes et cliquez sur le bouton  **Continuez vers PYDIO Installation**  . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Assistant de configuration de Pydio">}}
 
-Sélectionnez votre langue et cliquez sur **Démarrer l'assistant** . Vous devriez voir la page suivante:
+Sélectionnez votre langue et cliquez sur  **Démarrer l'assistant**  . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Démarrer les paramètres de Pydio">}}
 
-Entrez le nom du programme et le message d'accueil. Puis cliquez sur le bouton **Suivant** . Vous devriez voir la page suivante:
+Entrez le nom du programme et le message d'accueil. Puis cliquez sur le bouton  **Suivant**  . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Entrez l'application Pydio">}}
 
-Ensuite, entrez votre compte administrateur et cliquez sur le bouton **Suivant** . Vous devriez voir la page suivante:
+Ensuite, entrez votre compte administrateur et cliquez sur le bouton  **Suivant**  . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Paramètres de la base de données MySQL">}}
 
-Entrez ensuite les détails de votre base de données, tels que le nom de la base de données, le nom d'utilisateur et le mot de passe. Cliquez ensuite sur le bouton **Tester DB Connexion** . Vous devriez voir la page suivante:
+Entrez ensuite les détails de votre base de données, tels que le nom de la base de données, le nom d'utilisateur et le mot de passe. Cliquez ensuite sur le bouton  **Tester DB Connexion**  . Vous devriez voir la page suivante:
 
 {{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Options avancées de Pydio">}}
 
-Ensuite, cliquez sur le bouton **Installer Pydio** . Une fois l'installation terminée avec succès. Vous serez redirigé vers la page suivante:
+Ensuite, cliquez sur le bouton  **Installer Pydio**  . Une fois l'installation terminée avec succès. Vous serez redirigé vers la page suivante:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Pydio Connexion">}}
 
@@ -146,7 +146,8 @@ Entrez ensuite votre nom d'utilisateur et votre mot de passe pour l'administrate
 
 Ouais! C'est fait. Vous savez maintenant comment installer complètement la synchronisation des fichiers auto-hébergés Pydio et le logiciel de partage de fichiers open source sur Ubuntu pour créer un cloud privé étape par étape similaire à Dropbox ou Google Drive.
 
-## **Conclusion:** {#4A1A}
+##  **Conclusion:**   {#4a1a}
+
 Dans ce tutoriel, vous avez réussi à installer le partage de fichiers sécurisé Open Source des cellules Pydio sur votre système Ubuntu. Vous pouvez utiliser cet article pour créer une infrastructure cloud pour stocker, sécuriser et partager vos fichiers dans le cloud auto-hébergé. Utilisez le partage de documents Collaborative Pydio et la meilleure application de partage de fichiers gratuite pour obtenir plus de contrôle de vos données et assurer une collaboration efficace dans votre organisation d'entreprise. Dans nos prochains tutoriels, nous discuterons des sujets plus intéressants des solutions de stockage cloud open source et des outils de collaboration de partage de fichiers.
 _Pour peut se joindre à nous sur [Twitter][1], [LinkedIn][2] et notre page [Facebook][3]. Quelle plate-forme de partage ouverte de cloud-basé sur le cloud_ utilisez-vous en ligne ?. Si vous avez des questions, veuillez vous contacter][4].
 
@@ -158,7 +159,8 @@ Nous avons également plusieurs autres articles relatifs à la gestion quotidien
   * [Configurer la prise en charge HTTP / 2 dans Nginx sur Ubuntu / Debian][8]
   * [Configuration Nginx avec passager sur AWS Production Server][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

@@ -23,7 +23,8 @@ Chúng tôi sẽ thảo luận về các công cụ DBMS nguồn mở sau đây 
   * [Cubrid][7]
   * [Heidisql][8]
 
-## PHPMyAdmin   {#phpmyadmin}
+## Phpmyadmin {#phpmyadmin}
+
 PHPMyAdmin đến như một thành phần tích hợp với các máy chủ WAMPP và WAMPP. Ngay bây giờ PHPMyAdmin là phần mềm quản lý cơ sở dữ liệu được sử dụng rộng rãi nhất. Các nhà phát triển có thể quản lý thông tin, bảng, cột, mối quan hệ, tài liệu tham khảo, người dùng và quyền, v.v. thông qua giao diện. Ngoài ra, nó được sử dụng để thực hiện hầu hết các tác vụ quản trị bao gồm tạo cơ sở dữ liệu, chạy truy vấn và thêm tài khoản người dùng. Hệ thống quản lý cơ sở dữ liệu này được viết bằng PHP cùng với đầu vào từ các ngôn ngữ khác như JavaScript và SCSS. Do đó, tất cả các tài liệu có sẵn liên quan đến phát triển và triển khai. Đây là một số tính năng nổi bật của phpmyadmin:
   * Dễ sử dụng giao diện web.
   * Nhiều tính năng MySQL hỗ trợ.
@@ -83,7 +84,8 @@ Cuối cùng, [containerize.com][14] liên tục viết các bài đăng trên b
   * [Tại sao MySQL là một hệ thống quản lý cơ sở dữ liệu nguồn mở phổ biến?][2]
   * [Kafka vs Redis Pub-Sub, sự khác biệt mà bạn nên biết][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

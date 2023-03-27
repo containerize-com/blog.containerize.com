@@ -13,29 +13,33 @@ categories: ['Learning Management System']
 
 {{< figure align=center src="images/moodle-banner.png" alt="Moodle LMS">}}
 
-Chúng tôi đã bị Covid 19 làm phiền trong hơn một năm. Mọi nơi trên thế giới đã được đặt dưới khóa. Nó có tác động tiêu cực đến cuộc sống của người dân và các doanh nghiệp trên toàn thế giới. Quan trọng hơn, nó có tác động lớn đến hệ thống giáo dục của chúng tôi. Các tổ chức giáo dục phải thực hiện chuyển đổi sang học tập trực tuyến để học sinh có thể tiếp tục giáo dục từ sự thoải mái của chính ngôi nhà của họ. Không có nền tảng học tập điện tử vững chắc và an toàn, việc học trực tuyến là không thể. Trong bài viết này, chúng tôi sẽ xem xét dự án  **Moodle Open Source** , cho phép giáo viên và học sinh giao tiếp và học hỏi từ bất cứ đâu.
-Chúng tôi sẽ đề cập đến các phần sau trong bài viết này để  **Tạo trang web học tập điện tử**  bằng Moodle.
+Chúng tôi đã bị Covid 19 làm phiền trong hơn một năm. Mọi nơi trên thế giới đã được đặt dưới khóa. Nó có tác động tiêu cực đến cuộc sống của người dân và các doanh nghiệp trên toàn thế giới. Quan trọng hơn, nó có tác động lớn đến hệ thống giáo dục của chúng tôi. Các tổ chức giáo dục phải thực hiện chuyển đổi sang học tập trực tuyến để học sinh có thể tiếp tục giáo dục từ sự thoải mái của chính ngôi nhà của họ. Không có nền tảng học tập điện tử vững chắc và an toàn, việc học trực tuyến là không thể. Trong bài viết này, chúng tôi sẽ xem xét dự án **Moodle Open Source** , cho phép giáo viên và học sinh giao tiếp và học hỏi từ bất cứ đâu.
+Chúng tôi sẽ đề cập đến các phần sau trong bài viết này để **Tạo trang web học tập điện tử** bằng Moodle.
   * [Điều kiện tiên quyết][1]
   * [Moodle là gì?][2]
   * [Các tính năng của Moodle][3]
   * [Cài đặt Moodle][4]
   * [Kết luận][5]
 
-## Điều kiện tiên quyết   {#Prerequisites}
+## Điều kiện tiên quyết {#Điều kiện tiên quyết}
+
 Nếu bạn đã không có, bạn phải cài đặt và định cấu hình môi trường đèn trên máy chủ của mình.
 
-## Moodle là gì?   {#Cái gì}
-[**Moodle **][6] là một giải pháp học tập điện tử miễn phí và mở. Moodle là viết tắt của môi trường học tập động hướng đối tượng mô-đun. Nó được tạo ra để cung cấp cho các nhà giáo dục, quản trị viên và người học một nền tảng học tập điện tử để tạo và cung cấp môi trường học tập cá nhân. Hơn nữa, Moodle là một  **LMS phù hợp cho các trường học ** , các trường đại học và các khóa đào tạo chuyên nghiệp trong các công ty. Đây là một trong những giải pháp học tập từ xa  **phổ biến **  để tạo trang web LMS. Ngoài ra, Moodle cung cấp cho giáo viên và học sinh các công cụ phong phú và môi trường học tập hợp tác. Moodle có một ứng dụng di động cho điện thoại iPhone, Android và Windows và máy tính bảng. Ứng dụng di động có thể được sử dụng từ bất kỳ vị trí nào trên khắp thế giới. LMS  **tự lưu trữ này **  được viết trong PHP và lưu trữ dữ liệu trong cơ sở dữ liệu MySQL/PostgreSQL. Nó đi kèm với tài liệu người dùng và nhà phát triển rộng rãi. Tất cả các mã nguồn có sẵn tại [ **GitHub ** ][7]. Giấy phép cho nguồn mở ** Giải pháp học tập điện tử**  là GPLV3+.
+## Moodle là gì? {#What}
 
-## Các tính năng của Moodle   {#Features}
+[ **Moodle**][6] là một giải pháp học tập điện tử miễn phí và mở. Moodle là viết tắt của môi trường học tập động hướng đối tượng mô-đun. Nó được tạo ra để cung cấp cho các nhà giáo dục, quản trị viên và người học một nền tảng học tập điện tử để tạo và cung cấp môi trường học tập cá nhân. Hơn nữa, Moodle là một **LMS phù hợp cho các trường học** , các trường đại học và các khóa đào tạo chuyên nghiệp trong các công ty. Đây là một trong những giải pháp học tập từ xa **phổ biến** để tạo trang web LMS. Ngoài ra, Moodle cung cấp cho giáo viên và học sinh các công cụ phong phú và môi trường học tập hợp tác. Moodle có một ứng dụng di động cho điện thoại iPhone, Android và Windows và máy tính bảng. Ứng dụng di động có thể được sử dụng từ bất kỳ vị trí nào trên khắp thế giới. LMS **tự lưu trữ này** được viết trong PHP và lưu trữ dữ liệu trong cơ sở dữ liệu MySQL/PostgreSQL. Nó đi kèm với tài liệu người dùng và nhà phát triển rộng rãi. Tất cả các mã nguồn có sẵn tại [ **GitHub** ][7]. Giấy phép cho nguồn mở**Giải pháp học tập điện tử** là GPLV3+.
+
+## Các tính năng của Moodle {#Features}
+
 Moodle đi kèm với rất nhiều tính năng. Tuy nhiên, trong bài viết này, chúng tôi sẽ xem xét một số tính năng chính sau đây.
-**Các công cụ và hoạt động hợp tác**: Diễn đàn, Wikis, Thuật ngữ, Hoạt động cơ sở dữ liệu và các công cụ khác cho phép người dùng hợp tác và học cùng nhau. Một nhóm các yếu tố trong một khóa học Moodle được gọi là một hoạt động. Một hoạt động thường là điều mà một học sinh làm trong đó mình tương tác với các học sinh khác và/hoặc giáo viên.
-**Theo dõi tiến trình**: Các nhà giáo dục và sinh viên có thể theo dõi tiến trình và hoàn thành của họ bằng cách sử dụng nhiều công cụ để theo dõi các hoạt động hoặc tài liệu cụ thể cũng như ở cấp khóa học. Có một số cách để theo dõi sự tiến bộ của học sinh trong Moodle như điểm số, năng lực, hoàn thành hoạt động, hoàn thành khóa học, huy hiệu, báo cáo khóa học và phân tích.
-**Quản lý plugins**: Plugin cho phép bạn mở rộng chức năng cơ bản của Moodle, bằng cách thêm các tính năng mới. Người dùng có thể thêm plugin cho nhiều tác vụ khác nhau như hoạt động bổ sung, loại câu hỏi đố mới, báo cáo mới, đầu nối hệ thống và nhiều tác vụ khác. Giao diện quản trị có thể được sử dụng để cài đặt và vô hiệu hóa các plugin.
-**Quản lý khóa học**: Tạo và quản lý các khóa học đáp ứng nhiều nhu cầu khác nhau. Các lớp học do người hướng dẫn, các lớp học tự, các lớp pha trộn và các lớp hoàn toàn trực tuyến là tất cả các tùy chọn.
-**Đánh giá ngang hàng và tự đánh giá**: Các hội thảo và khảo sát là các hoạt động tích hợp để khuyến khích học sinh xem, phân loại và xem xét lại của riêng họ và các bạn cùng lớp khác làm việc như một nhóm.
+**Các công cụ và hoạt động hợp tác** : Diễn đàn, Wikis, Thuật ngữ, Hoạt động cơ sở dữ liệu và các công cụ khác cho phép người dùng hợp tác và học cùng nhau. Một nhóm các yếu tố trong một khóa học Moodle được gọi là một hoạt động. Một hoạt động thường là điều mà một học sinh làm trong đó mình tương tác với các học sinh khác và/hoặc giáo viên.
+**Theo dõi tiến trình** : Các nhà giáo dục và sinh viên có thể theo dõi tiến trình và hoàn thành của họ bằng cách sử dụng nhiều công cụ để theo dõi các hoạt động hoặc tài liệu cụ thể cũng như ở cấp khóa học. Có một số cách để theo dõi sự tiến bộ của học sinh trong Moodle như điểm số, năng lực, hoàn thành hoạt động, hoàn thành khóa học, huy hiệu, báo cáo khóa học và phân tích.
+**Quản lý plugins** : Plugin cho phép bạn mở rộng chức năng cơ bản của Moodle, bằng cách thêm các tính năng mới. Người dùng có thể thêm plugin cho nhiều tác vụ khác nhau như hoạt động bổ sung, loại câu hỏi đố mới, báo cáo mới, đầu nối hệ thống và nhiều tác vụ khác. Giao diện quản trị có thể được sử dụng để cài đặt và vô hiệu hóa các plugin.
+**Quản lý khóa học** : Tạo và quản lý các khóa học đáp ứng nhiều nhu cầu khác nhau. Các lớp học do người hướng dẫn, các lớp học tự, các lớp pha trộn và các lớp hoàn toàn trực tuyến là tất cả các tùy chọn.
+**Đánh giá ngang hàng và tự đánh giá** : Các hội thảo và khảo sát là các hoạt động tích hợp để khuyến khích học sinh xem, phân loại và xem xét lại của riêng họ và các bạn cùng lớp khác làm việc như một nhóm.
 
-## Cài đặt Moodle   {#moodle}
+## Cài đặt Moodle {#Moodle}
+
 Thực hiện theo hướng dẫn từng bước dưới đây để cài đặt Moodle LMS trên Ubuntu 18.04.
   * Đầu tiên, hãy chạy các lệnh bên dưới để thay đổi tải xuống trực tiếp và tải xuống Moodle.
 ```
@@ -112,16 +116,18 @@ sudo systemctl restart nginx
   * Cung cấp thông tin cho trang web của bạn như tên trang web đầy đủ, tên ngắn cho trang web, tóm tắt frontpage, múi giờ mặc định và email không trả lời. Nhấp vào nút Lưu Thay đổi Thay đổi.
   * Hoàn thành đăng ký trang web của bạn bằng cách cung cấp thông tin như tên trang web, ngôn ngữ, khu vực, địa chỉ email, v.v.
 
-## Kết luận   {#conclusion}
-Chúng tôi đã học về Moodle và các tính năng chính của nó trong bài viết này. Chúng tôi cũng đã thực hiện một cách tiếp cận từng bước để thiết lập **Moodle LMS  **thành **  Tạo trang web học tập điện tử **. Bạn có thể xem lại Moodle, [**  Tài liệu chính thức**][8] để trở nên thoải mái hơn với các chức năng khác nhau như các khóa học, đăng ký sinh viên, tiến trình theo dõi, v.v. Tôi hy vọng bạn thấy bài đăng này hữu ích trong việc tạo một trang web LMS.
-Cuối cùng, [**containerize.com **][9] đang trong một quá trình viết bài đăng trên blog nhất quán trên các sản phẩm nguồn mở mới nhất. Do đó, hãy giữ liên lạc với hệ thống quản lý học tập [** **][10] cho các bản cập nhật mới nhất.
+## Phần kết luận {#Phần kết luận}
+
+Chúng tôi đã học về Moodle và các tính năng chính của nó trong bài viết này. Chúng tôi cũng đã thực hiện một cách tiếp cận từng bước để thiết lập **Moodle LMS**thành **Tạo trang web học tập điện tử** . Bạn có thể xem lại Moodle, [**Tài liệu chính thức** ][8] để trở nên thoải mái hơn với các chức năng khác nhau như các khóa học, đăng ký sinh viên, tiến trình theo dõi, v.v. Tôi hy vọng bạn thấy bài đăng này hữu ích trong việc tạo một trang web LMS.
+Cuối cùng, [ **containerize.com** ][9] đang trong một quá trình viết bài đăng trên blog nhất quán trên các sản phẩm nguồn mở mới nhất. Do đó, hãy giữ liên lạc với hệ thống quản lý học tập [****][10] cho các bản cập nhật mới nhất.
 
 ## Khám phá
 Bạn có thể tìm thấy các liên kết sau có liên quan:
-  *[ **Công cụ LMS nguồn mở** ][11]
-  *[ **Moodle-Hệ thống học tập điện tử** ][12]
+* [ **Công cụ LMS nguồn mở** ][11]
+* [ **Moodle-Hệ thống học tập điện tử** ][12]
 
-  
+
+
 [1]: #Prerequisites
 [2]: #What
 [3]: #Features

@@ -20,7 +20,8 @@ categories: ['Web Server Solution Stack']
   * [تكوين nginx لتشغيل إصدارات مختلفة لمواقع الويب][4]
   * [الخلاصة][5]
 
-## تثبيت nginx   {#nginx}
+## تثبيت nginx {#nginx}
+
 NGINX (وضوحا باسم "Engine-X") هو خادم ويب مفتوح المصدر يستخدم غالبًا كوكيل عكسي أو ذاكرة التخزين المؤقت HTTP. وهي متوفرة لـ Linux مجانًا.
 لتثبيت nginx ، استخدم الأمر التالي:
 ```
@@ -32,10 +33,11 @@ sudo apt install nginx
 {{< figure align=center src="images/php-with-nginx-install.png" alt="تثبيت PHP مع nginx">}}
 
 
-## قم بتثبيت إصدارات PHP متعددة   {#php}
-**PHP **(اختصار متكرر لـ ** PHP: معالج النص التشعبي** ) هي لغة نصية مفتوحة ومصدر شهيرة للأغراض العامة والتي تستخدم على نطاق واسع وتناسب مواقع الويب والتطبيقات القائمة على الويب. إنها لغة برمجة من جانب الخادم يمكن تضمينها في HTML.
-حاليًا ، هناك ثلاثة إصدارات مدعومة من **php  **، أي **  php 5.6  **، **  7.0 ،  **و **  8.0 **. المعنى  **PHP 5.3 **  ،  **5.4 ، **  و ** 5.5**  لقد وصلوا جميعًا إلى نهاية الحياة ؛ لم تعد مدعومة بتحديثات الأمان. لذلك دعونا أولاً نثبت PHP 7.0 و PHP 7.2 مع PHP-FPM.
-في الواقع قبل أن نتحرك مع التثبيت ، يتيح أولاً أن يقلم ما هو PHP-FPM. **PHP-FPM  **(اختصار لـ**   Fastcgi Process Manager**) هو تطبيق FastCGI بديل شهير. يتضمن PHP-FPM العديد من الميزات التي يمكن أن تكون مفيدة لمواقع الويب التي تتلقى حركة المرور بأحجام كبيرة بشكل متكرر.
+## تثبيت إصدارات متعددة PHP {#php}
+
+ **PHP** (اختصار متكرر لـ **PHP: معالج النص التشعبي** ) هي لغة نصية مفتوحة ومصدر شهيرة للأغراض العامة والتي تستخدم على نطاق واسع وتناسب مواقع الويب والتطبيقات القائمة على الويب. إنها لغة برمجة من جانب الخادم يمكن تضمينها في HTML.
+حاليًا ، هناك ثلاثة إصدارات مدعومة من  **php** ، أي  **php 5.6**  ،  **7.0 ،**  و  **8.0**  . المعنى  **PHP 5.3**  ،  **5.4 ،**  و **5.5**  لقد وصلوا جميعًا إلى نهاية الحياة ؛ لم تعد مدعومة بتحديثات الأمان. لذلك دعونا أولاً نثبت PHP 7.0 و PHP 7.2 مع PHP-FPM.
+في الواقع قبل أن نتحرك مع التثبيت ، يتيح أولاً أن يقلم ما هو PHP-FPM.  **PHP-FPM** (اختصار لـ **Fastcgi Process Manager**  ) هو تطبيق FastCGI بديل شهير. يتضمن PHP-FPM العديد من الميزات التي يمكن أن تكون مفيدة لمواقع الويب التي تتلقى حركة المرور بأحجام كبيرة بشكل متكرر.
 لتثبيت PHP 7.0 و 7.2 أولاً ، ستحتاج إلى إضافة مستودع PHP إلى الخادم الخاص بك لتثبيت إصدارات متعددة من PHP. يمكنك إضافة مستودع ondrej php مع الأمر التالي:
 ```
 sudo apt-get install software-properties-common -y
@@ -52,7 +54,8 @@ systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-## إنشاء مواقع ويب متعددة مع php   {#web}
+## إنشاء مواقع ويب متعددة مع PHP {#web}
+
 يتم وضع الصفحة الافتراضية في/var/www/html/الموقع. يمكنك وضع صفحاتك الثابتة هنا ، أو استخدام المضيف الظاهري ووضعه في موقع آخر
 ```
 mkdir /var/www/html/site1.containerize.com
@@ -104,7 +107,8 @@ chown -R www-data:www-data /var/www/html/site1.containerize.com
 chown -R www-data:www-data /var/www/html/site2.containerize.com
 ```
 
-## تكوين nginx   {#configure}
+## تكوين nginx {#configure}
+
 بعد ذلك ، ستحتاج إلى إنشاء ملف مضيف افتراضي NGINX لـ DOMAIN SITE1.CONTAINERIZE.com الذي يستخدم PHP 7.0. والآخر لـ site2.containerize.com الذي يستخدم PHP 7.2.
 ```
 vi /etc/nginx/sites-available/site1.containerize.com.conf
@@ -168,18 +172,20 @@ systemctl restart php7.0-fpm
 systemctl restart php7.2-fpm
 ```
 
-## الخاتمة   {#conclusion}
+## خاتمة {#conclusion}
+
 في هذا البرنامج التعليمي ، اكتشفنا كيفية إصدارات PHP متعددة على Ubuntu. لقد تعلمنا كيفية تثبيت nginx. ثم اكتشفنا كيفية إعداد موقعين مختلفين في Nginx. وأخيراً تعلمنا كيفية تكوين موقعين مختلفين مع إصدارات مختلفة من PHP مع NGINX. آمل أن يكون البرنامج التعليمي ساعدك.
 
 ## يستكشف
   * [كيفية إعداد وتكوين Nginx كوكيل عكسي][6]
   * [كيفية استخدام nginx كموازن تحميل لتطبيقك][7]
 
-  
-[1]: #nginx
-[2]: #php
-[3]: #web
-[4]: #configure
-[5]: #conclusion
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+
+ [1]: #nginx
+ [2]: #php
+ [3]: #web
+ [4]: #configure
+ [5]: #conclusion
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/

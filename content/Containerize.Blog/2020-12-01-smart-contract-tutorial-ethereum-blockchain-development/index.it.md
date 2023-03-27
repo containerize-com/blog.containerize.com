@@ -14,19 +14,21 @@ categories: ['Blockchain Platforms']
 {{< figure align=center src="images/contract.png" alt="Tutorial contrattuale intelligente">}}
 
 
-Panoramica ## 
+Panoramica ##
 Nel recente passato, abbiamo pubblicato un [post sul blog][1] che evidenzia l'impatto e l'importanza della tecnologia blockchain. C'è un altro post interessante sul blog [che cos'è NFT? | I token non fungibili hanno spiegato][2]. La tecnologia di contabilità distribuita si basa su alcuni concetti fondamentali come contratti intelligenti, nodi, mining, algoritmi di consenso, transazioni digitali e reti peer-to-peer. Poiché è open source, quindi, esiste un'enorme finestra per un'estensione relativa ai casi d'uso. In effetti, ci sono molte piattaforme di gestione delle risorse digitali open source e gratuite che sono distribuite e richiedono alcuni software per governare le transazioni.
 In questo tutorial sul contratto intelligente, impareremo come costruire un contratto intelligente Ethereum coprendo i seguenti punti elenco.
-* [**Cos'è un contratto intelligente?**][3]
-* [**Come creare un contratto intelligente di base?**][4]
-* [**Come eseguire e distribuire contratto intelligente?**][5]
-* [**conclusione**][6]
+* [ **Cos'è un contratto intelligente?** ][3]
+* [ **Come creare un contratto intelligente di base?** ][4]
+* [ **Come eseguire e distribuire contratto intelligente?** ][5]
+* [ **conclusione** ][6]
 
-## Cos'è un contratto intelligente?   {#Che cosa}
+## Cos'è un contratto intelligente? {#what}
+
 Un contratto intelligente è un programma che funziona sulla blockchain per governare le transazioni digitali. Questo pezzo di codice contiene le regole e le procedure definite che assicurano la trasparenza di una transazione. Ogni contratto intelligente contiene un indirizzo e quell'indirizzo viene utilizzato per accedere a qualsiasi funzione di un particolare contratto intelligente. Inoltre, i contratti intelligenti portano trasparenza, fiducia e sicurezza nella rete blockchain. Questi pezzi di codice eseguono automaticamente una volta soddisfatte determinate condizioni.
 Tuttavia, qualsiasi sviluppatore può scrivere un contratto intelligente e distribuirlo sulla rete. Inoltre, i contratti intelligenti rendono i processi abbastanza robusti in quanto non vi è alcuna dipendenza nell'esecuzione di questi pezzi di codice. Inoltre, i contratti intelligenti archiviano le informazioni necessarie relative a ogni transazione che i partecipanti possono recuperare e verificare. Molte industrie come l'assistenza sanitaria, bancarie, stanno adottando fortemente questa tecnologia di contabilità distribuita. Le istituzioni governative sono inoltre desiderose di distribuire applicazioni decentralizzate (DAPPS) per portare autenticità e trasparenza nel sistema elettorale. Esistono molte [piattaforme blockchain][7] come [Ethereum][8], [Ripple][9], [Corda][10] e altre, tuttavia, in questa guida, costruiremo il nostro primo contratto intelligente su Ethereum.
 
-## Come creare un contratto intelligente di base?   {#costruire}
+## Come creare un contratto intelligente di base? {#build}
+
 In questa sezione del tutorial sul contratto intelligente, vedremo i passaggi per impostare l'ambiente per il nostro primo contratto intelligente.
 I contratti intelligenti possono essere scritti in molte lingue, ma useremo [Solidità][11] che è una lingua di alto livello per scrivere contratti intelligenti.
 Useremo [Ethereum Studio][12] che è un IDE basato sul web. Viene utilizzato per scrivere contratti intelligenti e app decentralizzate per interagire con contratti intelligenti. Fornisce alcuni modelli di progetto pre-costruiti in cui puoi iniziare a scrivere subito la tua logica.
@@ -40,13 +42,14 @@ Scegliamo l'opzione "Hello World" e crea il nostro primo progetto. Puoi vedere l
 
 Ci sono due cartelle "app" e "contratti".
 La cartella dell'app appartiene all'app Web e contiene i seguenti file.
-***app.css**: per lo stile del layout
-***app.html**: per la home page
-***app.js**: contiene la logica aziendale per collegare il front -end con il contratto intelligente
+* **app.css** : per lo stile del layout
+* **app.html** : per la home page
+* **app.js** : contiene la logica aziendale per collegare il front -end con il contratto intelligente
 Allo stesso modo, la cartella dei contratti contiene il file di origine del contratto.
 Ora, apriamo il file Helloworld.sol che può essere trovato su file/contratti/helloworld.sol. Fondamentalmente, questo è il file principale che contiene il codice per il contratto intelligente scritto in solidità. Puoi modificare il codice se lo desideri, lo lasceremo così com'è.
 
-## Come eseguire e distribuire un contratto intelligente?   {#deploy}
+## Come eseguire e distribuire un contratto intelligente? {#deploy}
+
 In questa sezione del tutorial sul contratto intelligente, vedremo come eseguire e distribuire un contratto intelligente. Ethereum Studio compila il codice di solidità nel codice byte. Pertanto, salva il codice e distribuiamo il nostro primo contratto intelligente.
 Sul pannello laterale sinistro, premere l'icona del razzo.
 
@@ -69,7 +72,8 @@ Inoltre, esiste un'app front-end che consente agli utenti di interagire con il c
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-6.02.38-PM-746x1024.png" alt="Cos'è un contratto intelligente">}}
 
 
-## conclusione   {#con}
+## Conclusione {#con}
+
 Questo ci porta alla fine di questo tutorial sul contratto intelligente. Spero che questo articolo ti abbia aiutato a comprendere i passaggi chiave della costruzione e della distribuzione del contratto intelligente Ethereum. Poiché la tecnologia blockchain si sta evolvendo a un ritmo elevato, è tempo di ottenere una forte pratica pratica sul sistema di eco di blockchain. Questa tecnologia di contabilità distribuita è altamente configurabile ed estensibile. Questo post sul blog ti aiuterà davvero se sei disposto a imparare lo sviluppo del contratto intelligente. Inoltre, ci sono molti tutorial utili e piattaforme di gestione delle risorse digitali open source menzionate nella sezione "Esplora" di seguito.
 Alla fine, [containerize.com][13] è completamente dedicato alla compilazione dell'elenco del software open source. Ci sono molti tutorial e post di blog sul software open source e numerosi post sul blog sono in cantiere. Pertanto, rimani in contatto con la categoria [Blockchain Platforms][7] per aggiornamenti regolari.
 
@@ -88,7 +92,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Come la tecnologia decentralizzata aggiorna la tua strategia aziendale][22]
   * [Come configurare la rete di blockchain quorum di consenso a livello locale][19]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
 [3]: #what

@@ -19,13 +19,16 @@ MAUTIC یک راه حل اتوماسیون بازاریابی رایگان و م
   * [اجرای چند اجاره بها][3]
   * [نتیجه گیری][4]
 
-## چند اجاره چیست   {#چند اجاره}
+## چند اجاره چیست {#multi-tenancy}
+
 در معماری نرم افزاری چند مستاجر ، یک نمونه واحد از یک برنامه نرم افزاری در خدمت چندین مستاجر است. هر داده مستاجر از سایر مستاجران جدا می شود که همان نمونه برنامه را به اشتراک می گذارند. این مستاجران از نظر منطقی منزوی هستند ، اما از نظر جسمی یکپارچه هستند. این امنیت داده و حریم خصوصی برای همه مستاجران را تضمین می کند. ایجاد چندین مستاجر از یک نمونه برنامه واحد به حافظه بسیار کمتری نیاز دارد. مستاجرین منابع را به اشتراک می گذارند و هزینه های مربوط به نگهداری نرم افزار ، زیرساخت ها و عملیات مرکز داده را کاهش می دهند. هزینه ها نسبت به زیرساخت های یک مستاجر پایین تر هستند.
 
-## Mautic   {#mautic} چیست
+## مائتی چیست {#mautic}
+
 [MAUTIC][5] یک نرم افزار بازاریابی منبع آزاد و آزاد است. کارهای بازاریابی تکراری مانند کمپین های بازاریابی ، تولید سرب ، تقسیم تماس و غیره را با استفاده از MAUTIC خودکار کنید. این ویژگی دارای ویژگی های شگفت انگیز از جمله تولید سرب ، ایجاد کمپین ، تقسیم تماس ، سازنده ایمیل ، آزمایش A/B ، سازنده صفحه ، پرورش سرب و موارد دیگر است. MAUTIC همچنین از ادغام با تمام سیستم عامل های اجتماعی محبوب به عنوان مثال پشتیبانی می کند. فیس بوک ، توییتر ، لینکدین. تمام این ویژگی های باورنکردنی به شما کمک می کند تا تجربه کلی مشتری را تقویت کرده و اتوماسیون بازاریابی را برای تجارت خود بهبود بخشید.
 
-## اجرای چند اجاره در mautic   {#Implement
+## اجرای چند اجاره ای در Mautic {#implement}
+
   * یک پایگاه داده خالی جدید به نام "main_db" ایجاد کنید.
   * سپس جدول به نام "مستاجر" ایجاد کنید که جزئیات مربوط به همه مستاجران را در اختیار شما قرار می دهد.
   * دارای 3 قسمت از جمله سایت \ _name ، url و db _ name همانطور که در شکل نشان داده شده است
@@ -48,7 +51,8 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * پس از آن ، کپی از mautic/app/config/local.php ایجاد کنید و آن را به [site_name] .php تغییر دهید.
   * در آخر نام پایگاه داده ، میزبان ، رمز عبور و کاربر را با توجه به پایگاه داده جدید به روز کنید.
 
-## نتیجه گیری   {#conclusion}
+## نتیجه {#conclusion}
+
 Mautic یک راه حل اتوماسیون بازاریابی رایگان ، غنی و با کیفیت است. این امکان را به شما می دهد تا کمپین های بازاریابی ، بخش ها ، فرم ها ، گزارش ها و موارد دیگر را ایجاد کنید. اجرای چند اجاره در MAUTIC باعث کاهش هزینه ها ، افزایش کارایی ، مقیاس پذیری و امنیت می شود. به راحتی صدها مستاجر را فقط از یک نصب ایجاد کنید.
 
 ## کاوش کنید
@@ -59,13 +63,14 @@ Mautic یک راه حل اتوماسیون بازاریابی رایگان ، غ
   * [اتوماسیون بازاریابی با ادغام Mautic و WooCommerce][8]
   * [ادغام Mautic & Joomla برای اتوماسیون بازاریابی دیجیتال][9]
 
-  
-[1]: #multi-tenancy
-[2]: #mautic
-[3]: #implement
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
-[7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
-[8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
-[9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
+
+
+ [1]: #multi-tenancy
+ [2]: #mautic
+ [3]: #implement
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+ [7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+ [9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

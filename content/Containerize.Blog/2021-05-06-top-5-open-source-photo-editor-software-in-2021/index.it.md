@@ -72,14 +72,15 @@ Come download open source, gratuito, Editor di immagini Raw a Platform Cross, Ra
 Che tu stia semplicemente scattando con il tuo smartphone o che tu sia un fotografo professionista, hai bisogno di software di editing di immagini per organizzare e ottimizzare le tue foto digitali. In questo articolo abbiamo discusso di alcuni dei migliori software di editor fotografici open source. Può aiutarti a decidere quale editor di immagini puoi utilizzare a seconda delle tue esigenze. Questi software consentono di organizzare i tuoi scatti, scegliere quelli migliori, perfezionarli e stamparli o condividerli online.
 
 ## Esplorare
-  * [Miglior software di fotoritocco open source][11]
+  * [Il miglior software di fotoritocco open source][11]
   * [Darktable][6]
   * [GIMP][7]
   * [Photo][8]
   * [Digikam][9]
   * [Rawtherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

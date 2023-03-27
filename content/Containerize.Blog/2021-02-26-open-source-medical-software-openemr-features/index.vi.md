@@ -15,18 +15,20 @@ categories: ['Healthcare Software']
 
 
 ## Tổng quan
-Trong thời gian gần đây, chúng tôi đã xuất bản các bài đăng trên blog về [cách thức phần mềm chăm sóc sức khỏe trực tuyến trao quyền cho ngành chăm sóc sức khỏe][1] và một bài viết hướng dẫn [cách thiết lập EHealth System Bệnh viện trên localhost][2]. Trong bài viết này, chúng tôi sẽ trải qua các tính năng đầy hứa hẹn được cung cấp bởi  **Giải pháp sức khỏe y tế**  OpenEMR. Tại thời điểm hiện tại, mọi lĩnh vực kinh doanh đang được số hóa. Các máy móc và phần mềm khổng lồ đang thay thế nhân lực do các đặc điểm nhất định. Do đó, lĩnh vực y tế và chăm sóc sức khỏe chủ yếu được cách mạng bởi Internet of Things. Có những tài nguyên kỹ thuật số phức tạp được kết nối với nhau thông qua mạng và phần mềm phức tạp. Thuật ngữ eHealth đang trở nên phổ biến khi các bác sĩ y tế sử dụng đầy đủ phần mềm và truyền thông chăm sóc sức khỏe.
+Trong thời gian gần đây, chúng tôi đã xuất bản các bài đăng trên blog về [cách thức phần mềm chăm sóc sức khỏe trực tuyến trao quyền cho ngành chăm sóc sức khỏe][1] và một bài viết hướng dẫn [cách thiết lập EHealth System Bệnh viện trên localhost][2]. Trong bài viết này, chúng tôi sẽ trải qua các tính năng đầy hứa hẹn được cung cấp bởi **Giải pháp sức khỏe y tế** OpenEMR. Tại thời điểm hiện tại, mọi lĩnh vực kinh doanh đang được số hóa. Các máy móc và phần mềm khổng lồ đang thay thế nhân lực do các đặc điểm nhất định. Do đó, lĩnh vực y tế và chăm sóc sức khỏe chủ yếu được cách mạng bởi Internet of Things. Có những tài nguyên kỹ thuật số phức tạp được kết nối với nhau thông qua mạng và phần mềm phức tạp. Thuật ngữ eHealth đang trở nên phổ biến khi các bác sĩ y tế sử dụng đầy đủ phần mềm và truyền thông chăm sóc sức khỏe.
 Có nhiều phần mềm y tế nguồn mở cung cấp hiệu quả, chất lượng tốt hơn và bảo mật. Các dịch vụ chăm sóc sức khỏe kỹ thuật số đã giảm các chi phí khác nhau như chi phí đi lại, chi phí giấy và chi phí của con người. Tuy nhiên, chúng tôi sẽ bao gồm các điểm sau.
-  *[ **OpenEmr** ][3] là gì
-  *[ **Các tính năng OpenEMR** ][4]
-  *[ **Kết luận** ][5]
+* [ **OpenEmr** ][3] là gì
+* [ **Các tính năng OpenEMR** ][4]
+* [ **Kết luận** ][5]
 
-## OpenEmr   {#Intro} là gì
+## OpenEmr là gì {#intro}
+
 [OpenEMR][6] là một giải pháp chăm sóc y tế nguồn mở đa ngôn ngữ. Nó cung cấp bảo mật dữ liệu với các kỹ thuật mã hóa. Giải pháp chăm sóc sức khỏe miễn phí này tạo điều kiện cho người dùng quản lý bệnh nhân hồ sơ y tế và cổ phiếu y học. Hơn nữa, có nhiều tính năng như lập lịch hẹn bệnh nhân, nhắc nhở và tích hợp phòng thí nghiệm. Tuy nhiên, phần mềm y tế nguồn mở này có một mô -đun thanh toán tích hợp rất mạnh mẽ để quản lý các giao dịch và hóa đơn tài chính.openemr là đa ngôn ngữ và cung cấp hỗ trợ cho gần 100 ngôn ngữ.
 Phần mềm thanh toán y tế dựa trên web này được tự lưu trữ và cung cấp giao diện hợp lý, thân thiện với người dùng. Hơn nữa, kê đơn điện tử là một mô-đun rất mạnh mẽ của công cụ miễn phí này. Trên hết, có những khả năng tìm kiếm phong phú trong đó các quản trị viên phần mềm y tế có thể thực hiện tìm kiếm trong các mô -đun chính. Nó rất mở rộng và cung cấp hỗ trợ cho việc tích hợp các ứng dụng của bên thứ ba. OpenEMR được viết bằng PHP và được ghi nhận đầy đủ về sự phát triển và triển khai. Ngoài ra, giải pháp sức khỏe y tế này rất dễ thiết lập và yêu cầu các yêu cầu đơn giản như Apache, PHP và MySQL.
 
-## Các tính năng OpenEMR   {#Features}
-Trong phần này, chúng tôi sẽ khám phá một số mô -đun chính được cung cấp bởi phần mềm chăm sóc sức khỏe tùy chỉnh  **này** .
+## Các tính năng OpenEMR {#features}
+
+Trong phần này, chúng tôi sẽ khám phá một số mô -đun chính được cung cấp bởi phần mềm chăm sóc sức khỏe tùy chỉnh **này** .
 Bạn có thể tự mình trải nghiệm OpenEMR bằng cách làm theo [liên kết] này [7]. Khi bạn mở liên kết này, bạn sẽ hạ cánh trên một trang đăng nhập. Bạn có thể sử dụng các thông tin đăng nhập sau để đăng nhập làm quản trị viên.
 Tên người dùng: Quản trị viên
 Mật khẩu: Truyền
@@ -52,7 +54,8 @@ Người dùng có thể xem và tìm kiếm các báo cáo của bệnh nhân t
 
 Tương tự như vậy, có nhiều tính năng phong phú có sẵn trong hệ thống quản lý bệnh viện này. Hơn nữa, có một mô -đun để quản lý các tài liệu liên quan giống như một cơ sở kiến ​​thức và cũng có một điều khoản của sổ địa chỉ được sử dụng để duy trì địa chỉ của các thực thể. Ngoài ra, bạn có thể có một đánh giá kỹ lưỡng và sau đó lưu trữ nó trên các máy chủ của riêng bạn.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#Phần kết luận}
+
 Cuối cùng, chúng ta có thể nói một cách an toàn rằng giải pháp y tế này thực sự là một giải pháp chăm sóc sức khỏe cấp doanh nghiệp để quản lý các hoạt động y tế hàng ngày. Có rất nhiều phần mềm y tế nguồn mở cung cấp các tính năng đầy hứa hẹn để đáp ứng nhu cầu kinh doanh và cộng đồng. OpenEMR dường như giải quyết các nhu cầu cơ bản và cốt lõi của ngành chăm sóc sức khỏe và quan trọng hơn, nó là nguồn mở miễn phí và dễ dàng mở rộng. Do đó, cộng đồng nguồn mở đang tích cực làm việc để cải thiện phần mềm hiện có để cung cấp dịch vụ chăm sóc sức khỏe. Bài đăng trên blog này sẽ thực sự giúp bạn nếu bạn đang tìm cách lựa chọn Ehealth. Hơn nữa, bạn có thể thấy phần mềm y tế nguồn mở được nhập ngũ trong phần Khám phá bên dưới. Cuối cùng, [containerize.com][8] đang trong một quá trình viết bài đăng trên blog nhất quán trên các sản phẩm nguồn mở mới nhất. Do đó, hãy giữ liên lạc với danh mục [Công nghệ chăm sóc sức khỏe][9] này cho các bản cập nhật mới nhất.
 
 ## Khám phá
@@ -69,7 +72,8 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Cách thiết lập Bệnh viện Hệ thống EHealth trên Localhost][2]
   * [[Tự động hóa hoạt động kinh doanh sử dụng phần mềm nguồn mở và miễn phí][19]][20]
 
-  
+
+
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
 [3]: #intro

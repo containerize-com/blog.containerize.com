@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginxletsencrypt.png" alt="Asegure nginx con vamos en cifrado en ubuntu">}}
 
 
-## **Descripción general**
+##  **Descripción general**  
 Cualquier sitio web que busque atraer a los visitantes debe incluir el cifrado TLS/SSL para su dominio. Los certificados gratuitos de SSL aseguran una conexión segura entre su servidor web como para cifrar y asegurar los navegadores Nginx y de aplicaciones. Let's CiCrypt es una autoridad de certificado gratuita, automatizada y abierta que le permite configurar dicha protección para Nginx SSL LetsenCrypt. Vamos a encriptar los certificados SSL gratuitos en todos los principales navegadores y válidos para los próximos 90 días desde la fecha de emisión.
 Esta publicación de blog explica una forma más simple de cifrar y asegurar Nginx ejecutando el servidor web en Ubuntu 20.04 / 18.04 obteniendo certificados NGINX HTTPS LetsEnsenSptypt utilizando la utilidad Nginx CertBot y configurar sus certificados para renovarlo automáticamente. Comiencemos y configuremos las configuraciones de LetsEnsenSpt Ubuntu Nginx.
   * Dependencias y requisitos previos
@@ -24,7 +24,8 @@ Esta publicación de blog explica una forma más simple de cifrar y asegurar Ngi
   * Obtener un certificado SSL
   * Conclusión
 
-## Lo primero es lo primero: dependencias y requisitos previos   {#Preequisites}
+## Lo primero es lo primero: dependencias y requisitos previos {#prerequisites}
+
 Para seguir este artículo, necesitará las siguientes dependencias y requisitos previos para instalar las utilidades de Letsencrypt Ubuntu Nginx:
   * Un usuario no raíz o raíz habilitado para SUDO en máquinas locales/remotas.
   * Un sistema que ejecuta Ubuntu 20.04 o Ubuntu 18.04
@@ -35,7 +36,8 @@ Para seguir este artículo, necesitará las siguientes dependencias y requisitos
   * Un bloque de servidor configurado para ese nombre de dominio
   * El firewall está configurado para aceptar conexiones en los puertos 80 y 443.
 
-## Paso 1-Instalación de CERTBOT   {#Paso-1 -—- Instalación-CERTBOT}
+## Paso 1 - Instalación de CertBot {#step-1-—-installing-certbot}
+
 El primer paso para asegurar NGINX y cifrar NGINX con Let's CiCrypt es instalar Nginx CERTBOT TOTALMENTE FORMACIÓN Y FÁCIL de usar para obtener y renovar los certificados SSL de Let’s CiCrypt en su servidor. Para hacerlo, comience abriendo un terminal en Ubuntu y actualizando el repositorio local. Escriba y e ingrese si se le solicita.
 ```
 sudo apt update
@@ -44,7 +46,8 @@ sudo apt install certbot python3-certbot-nginx
 ```
 Ahora verifiquemos algunas de las configuraciones de configuración segura de NGINX.
 
-## Paso 2-Confirmación de la configuración de Nginx   {#Paso-2 --—- Confirmación de Nginx-39-S-Configuración}
+## Paso 2: confirmar la configuración de Nginx {#step-2-—-confirming-nginx-39-s-configuration}
+
 Como se explica en la sección Dependencias y requisitos previos, ya debe tener un dominio registrado y CERTBOT debe poder encontrar el bloque Nginx del servidor correcto para ese dominio para configurar automáticamente SSL. Como ejemplo, esta publicación de blog utiliza el Blog de dominio.containerize.com y el bloque de servidor para su dominio en /etc/nginx/sites-available/blog.containerize.com con la directiva server_name ya establecida correctamente.
 Para confirmar, abra el archivo de configuración para su dominio usando Nano o su editor de texto favorito:
 ```
@@ -65,7 +68,8 @@ sudo systemctl reload nginx
 ```
 CertBot Utility ahora puede encontrar la directiva correcta de bloque de servidor NGINX para asegurar NGINX y actualizarla automáticamente. En el siguiente paso, actualicemos el firewall para permitir el tráfico HTTPS.
 
-## Paso 3-Permitir https a través del firewall   {#step-3 -—- permitiendo https-through-the-firewall}
+## Paso 3 - Permitir HTTP a través del firewall {#step-3-—-allowing-https-through-the-firewall}
+
 Como se recomienda en este artículo, los requisitos previos, deberá ajustar la configuración para permitir el tráfico HTTPS. Para asegurarse de que su firewall esté habilitado y activo, ejecute el siguiente comando:
 ```
 sudo ufw status
@@ -84,7 +88,8 @@ sudo ufw status
 ```
 A continuación, ejecutemos CertBot y obtengamos nuestros certificados.
 
-## Paso 4-Obtener un certificado SSL   {#Paso-4 -—- Obtener-AN-SSL-Certificate}
+## Paso 4 - Obtener un certificado SSL {#step-4-—-obtaining-an-ssl-certificate}
+
 El complemento del NGINX para CERTBOT se encargará de reconfigurar a NGINX y recarga su configuración cuando sea necesario. Por lo tanto, solo usted necesita generar certificados con el complemento NGINX ejecutando el siguiente comando:
 ```
 sudo certbot --nginx -d blog.containerize.com -d www.blog.containerize.com
@@ -94,8 +99,9 @@ Si esta es la primera vez que ejecuta CertBot Utility, CertBot le pide que confi
 Sus certificados se descargan, instalan y se cargan con configuraciones de Certificado Nginx SSL LetsEnsenCrypt. Intente recargar su sitio web usando https: // y observe el indicador de seguridad de su navegador. Debe indicar que el sitio está correctamente asegurado, generalmente con un icono de bloqueo. Si prueba su servidor utilizando la prueba del servidor SSL Labs, obtendrá una calificación A para NGINX y LetsEnsencrypt.
 Terminemos probando el proceso de renovación.
 
-## Paso 5-Verificación de CertBot Auto-Renowal   {#Step-5 -—- Verificación de certbot-autos-renovación}
-Dado que los certificados en cifrado caducan cada noventa (90) días y Nginx SSL Letsencrypt alientan a los usuarios que configuran y el trabajo automático de renovación cron. Primero, abra el archivo de configuración de CRONTAB para el usuario actual:
+## Paso 5-Verificación de CertBot Auto-Renowal {#step-5-—-verifying-certbot-auto-renewal}
+
+Dado que los certificados en cifrado caducan cada noventa (90) días y NGINX SSL Letsencrypt alientan a los usuarios que configuran y renovan el trabajo de renovación automática. Primero, abra el archivo de configuración de CRONTAB para el usuario actual:
 ```
 sudo crontab -e
 ```
@@ -106,7 +112,8 @@ sudo certbot renew --dry-run
 ```
 El trabajo de Cron también debe incluir el atributo –quiet, como en el comando anterior. Esto instruye a Nginx Renew SSL Certificado que no incluya ninguna salida después de realizar la tarea. Habilitar la renovación de certificado automático. Una vez que agregó el trabajo cron, guarde los cambios y salga del archivo.
 
-## conclusión   {#conclusion}
+## Conclusión {#conclusion}
+
 En este artículo, aprendimos cómo instalar Nginx Certificado de Letsencrypt SSL. Descargamos certificados SSL para su dominio y configuramos NGINX para usar estos certificados. Además, debe haber habilitado CERTBOT para renovar los certificados automáticamente para SSL Nginx LetsEnsenCrypt. En nuestros próximos tutoriales, discutiremos sobre temas más interesantes sobre cómo asegurar un servidor web con tecnología de seguridad estándar que permita la comunicación cifrada entre un navegador web y un servidor web.
 _Un puede unirse a nosotros en [Twitter][1], [LinkedIn][2] y nuestra página [Facebook][3]. ¿Qué protocolo criptográfico utiliza para proporcionar seguridad de comunicaciones a través de una red de computadoras? Si tiene alguna pregunta, por favor_ [póngase en contacto][4].
 
@@ -118,13 +125,14 @@ Puede encontrar los siguientes enlaces relevantes para monitorear el rendimiento
   * [Configurar nginx con pasajero en el servidor de producción de AWS][8]
   * [Cómo instalar y configurar OwnCloud con Apache en Ubuntu][9]
 
-  
-[1]: https://twitter.com/containerize_co
-[2]: https://www.linkedin.com/company/containerize/
-[3]: http://facebook.com/containerize
-[4]: mailto:yasir.saeed@aspose.com
-[5]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
-[8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
-[9]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
+
+ [1]: https://twitter.com/containerize_co
+ [2]: https://www.linkedin.com/company/containerize/
+ [3]: http://facebook.com/containerize
+ [4]: mailto:yasir.saeed@aspose.com
+ [5]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+ [8]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
+ [9]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/

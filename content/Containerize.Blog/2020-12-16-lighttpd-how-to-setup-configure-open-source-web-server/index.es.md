@@ -20,11 +20,13 @@ Además, Open Source Community ha desarrollado muchos servidores web de código 
   * [¿Cómo configurar LightTpd?][7]
   * [Conclusión][8]
 
-## ¿Qué es LightTPD?   {#qué}
+## ¿Qué es LightTpd? {#what}
+
 En comparación con otros servidores web como Apache y Nginx, el servidor web de LightTPD tiene una pequeña huella de memoria, por lo que proporciona una administración efectiva de la carga de CPU. Este servidor web liviano proporciona conjuntos de características avanzadas que incluyen FastCGI, SCGI, Auth, Compresión de salida y Reescritura de URL, etc. Permite que las aplicaciones web escritas en cualquier lenguaje de programación se utilicen con el servidor. FastCGI de LightTPD se puede configurar para admitir PHP. Además de PHP, también admite otros lenguajes de programación, incluidos Python, Perl, Ruby y muchos más.
 Hay muchos servidores web de código abierto y servidores proxy web, pero LightTPD está en la parte superior de la lista que se usa ampliamente. Esta solución de servidor web es muy fácil de configurar y requiere requisitos simples como Ubuntu 18.04. Además, aquellos que desean implementar esta solución de código abierto pueden descargar la última versión de este [enlace][9]. Sobre todo, admite muchos idiomas además de PHP como Python, Ruby, Perl y más. Además, toda la documentación está disponible con respecto al desarrollo y la implementación. Por lo tanto, los desarrolladores pueden encontrar el código fuente en [GitHub][10].
 
-## Beneficios de LightPD   {#Benefits}
+## Beneficios de LightPD {#benefits}
+
 En esta sección, pasaremos por los beneficios y la disposición que ofrece este servidor web de código abierto. Por lo tanto, si está buscando un servidor web rápido, eficiente y seguro, entonces el servidor web de LightTPD es la mejor opción para usted. No requiere mucha memoria y uso de CPU. Lo que lo convierte en uno de los mejores para cualquier proyecto que necesite velocidad y alto rendimiento. LightTPD puede manejar hasta 10000 conexiones en paralelo en un solo servidor. LightTPD es la solución perfecta para cada servidor que sufre problemas de velocidad o rendimiento. Esta solución gratuita es rentable y eficiente en recursos.
 Además, esta solución de servidor web ofrece soporte para casi todas las plataformas populares como Windows, Linux, Solaris y MacOS. Del mismo modo, LightTPD es una gran oferta para los sistemas integrados y tiene la capacidad de servir contenido estático y dinámico a múltiples usuarios incluso con recursos limitados. Conocido por su seguridad, velocidad, cumplimiento y flexibilidad, LightTPD está redefiniendo rápidamente la eficiencia de un servidor web.
 LightTPD proporciona los siguientes beneficios destacados:
@@ -34,7 +36,8 @@ LightTPD proporciona los siguientes beneficios destacados:
   * Mod_proxy hace solicitudes HTTP/1.1 a Backends (cambie de http/1.0)
   * Soporte para usar chroot y mod_rewrite
 
-## ¿Cómo configurar LightTPD?   {#configure}
+## ¿Cómo configurar LightTPD? {#configure}
+
 En esta sección de esta publicación de blog, exploramos los pasos para configurar el LightTPD. Instalar LightTPD en Ubuntu es muy simple y directo. Solo usa el siguiente comando y estarás listo para ir
 ```
 $ sudo apt install lighttpd
@@ -74,9 +77,10 @@ Compruebe si LightTPD se configura e instala correctamente visitando la URL [htt
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="Cómo configurar y configurar LightTPD para sitios web de alto rendimiento">}}
 
 
-## conclusión   {#conclusion}
+## Conclusión {#conclusion}
+
 Esto nos lleva al final de esta publicación de blog. Hemos pasado por qué es LightTpd? ¿Cómo configurar LightTPD? y configuración del procedimiento. LightTPD es un servidor web gratuito, de alto rendimiento y de código abierto diseñado para entornos críticos de velocidad. La baja huella de memoria, la pequeña carga de CPU y las optimizaciones de velocidad lo hacen adecuado para los servidores que sufren problemas de carga. Es liviano, seguro y rápido en comparación con otros servidores web, lo que lo convierte en una de las mejores opciones para sitios web de alto rendimiento y de velocidad crítica. LightTPD tiene una comunidad muy viva y vibrante que brinda apoyo para problemas y consultas. Hay muchos productos de código abierto operativo y publicaciones de blog relevantes que puede pasar que se mencionan en la sección "Explorar" a continuación. Por lo tanto, este artículo realmente puede ayudarlo si está buscando optar por un servidor web de código abierto para su negocio.
-Finalmente, **[Contenerize.com][12]**  ha estado escribiendo en otros productos de código abierto. Manténgase en contacto con esta categoría [pila de soluciones del servidor web][1] S para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][13], [LinkedIn][14] y [Twitter][15].
+Finalmente,  **[Contenerize.com][12]**  ha estado escribiendo en otros productos de código abierto. Manténgase en contacto con esta categoría [pila de soluciones del servidor web][1] S para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][13], [LinkedIn][14] y [Twitter][15].
 
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
@@ -88,23 +92,24 @@ Puede encontrar los siguientes enlaces relevantes:
   * [Top 5 Pilas de soluciones de servidor web de código web abierto en 2021][4]
   * [Configurar XAMPP y PhPMyAdmin como localhost en Windows][2]
 
-  
-[1]: https://products.containerize.com/solution-stack/
-[2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
-[3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
-[4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
-[5]: #what
-[6]: #benefits
-[7]: #configure
-[8]: #conclusion
-[9]: http://www.lighttpd.net/download/
-[10]: https://github.com/lighttpd/lighttpd1.4
-[11]: http://your-server-ip/
-[12]: https://www.containerize.com/
-[13]: https://web.facebook.com/containerize
-[14]: https://www.linkedin.com/company/containerize/
-[15]: https://twitter.com/containerize_co
-[16]: https://products.containerize.com/solution-stack/xampp/
-[17]: https://products.containerize.com/solution-stack/nginx/
-[18]: https://products.containerize.com/solution-stack/caddy/
-[19]: https://products.containerize.com/solution-stack/lighttpd
+
+
+ [1]: https://products.containerize.com/solution-stack/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
+ [4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
+ [5]: #what
+ [6]: #benefits
+ [7]: #configure
+ [8]: #conclusion
+ [9]: http://www.lighttpd.net/download/
+ [10]: https://github.com/lighttpd/lighttpd1.4
+ [11]: http://your-server-ip/
+ [12]: https://www.containerize.com/
+ [13]: https://web.facebook.com/containerize
+ [14]: https://www.linkedin.com/company/containerize/
+ [15]: https://twitter.com/containerize_co
+ [16]: https://products.containerize.com/solution-stack/xampp/
+ [17]: https://products.containerize.com/solution-stack/nginx/
+ [18]: https://products.containerize.com/solution-stack/caddy/
+ [19]: https://products.containerize.com/solution-stack/lighttpd

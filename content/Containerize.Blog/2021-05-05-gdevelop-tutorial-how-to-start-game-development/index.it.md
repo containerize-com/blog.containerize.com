@@ -14,20 +14,22 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/GDevelop.png" alt="Tutorial GDEVVive">}}
 
 
-Panoramica ## 
+Panoramica ##
 L'industria dei videogiochi è fiorente a un ritmo elevato. Ci sono miliardi di giocatori in tutto il mondo che cercano sempre videogiochi eccitanti e divertenti. D'altra parte, ci sono un certo numero di software di sviluppo dei videogiochi che forniscono agli sviluppatori uno strumento completo di sviluppo dell'ambiente e dei giochi per sviluppare giochi avanzati e affascinanti. In passato, gli sviluppatori di giochi erano abituati a scrivere il codice sorgente di gioco riga per riga. Questo è stato un tempo per prendere il metodo di sviluppo e i giocatori hanno dovuto aspettare mesi per una nuova versione. Pertanto, Open Source Community ha sviluppato  **Makers di Game Fakers gratuiti**  per gli sviluppatori di giochi.
-Questi **motori di gioco gratuiti  **vengono non solo aiutando a fornire uscite di gioco veloci, ma sono anche con funzionalità che migliorano la qualità e la robustezza del gioco. Inoltre, questi **  designer di giochi 3D  **offrono un'interfaccia utente di trascinamento ed eliminare la necessità di avere conoscenze di programmazione per costruire giochi. Tuttavia, si tratta di un tutorial**   GDEVVive** in cui impareremo cosa è GDEVVive e come impostarlo localmente coprendo il seguente punto.
-  * **[cosa è gdevelop.][1]**
-  * **[come configurare su localhost?][2]**
-  * **[conclusione][3]**
+Questi  **motori di gioco gratuiti** vengono non solo aiutando a fornire uscite di gioco veloci, ma sono anche con funzionalità che migliorano la qualità e la robustezza del gioco. Inoltre, questi  **designer di giochi 3D**  offrono un'interfaccia utente di trascinamento ed eliminare la necessità di avere conoscenze di programmazione per costruire giochi. Tuttavia, si tratta di un tutorial **GDEVVive**  in cui impareremo cosa è GDEVVive e come impostarlo localmente coprendo il seguente punto.
+*  **[cosa è gdevelop.][1]**  
+*  **[come configurare su localhost?][2]**  
+*  **[conclusione][3]**  
 
-##  **What is gdevelop.** {#intro}
+##  **Che cosa è GDevelop.**  {#intro}
+
 Gdevelop è un software di sviluppo di videogiochi open source gratuito. È ospitato da soli e offre funzionalità ricche per sviluppare giochi 2D. Tuttavia, è disponibile un supporto per gli oggetti 3D. Gli utenti non hanno bisogno di alcun tipo di abilità di programmazione per sviluppare e pubblicare giochi per più piattaforme. È altamente estensibile e facile da configurare in quanto richiede facili requisiti per auto-host questo motore di gioco gratuito. Esiste un'interfaccia utente intuitiva con le funzionalità di trascinamento. Questo strumento gratuito fornisce animazioni di alta classe, effetti video/audio, touchscreen e multi-touch, anteprima dal vivo e molti altri. Inoltre, questo  **Designer di giochi 3D**  presenta potenti funzionalità di prototipazione che aiutano gli sviluppatori a sviluppare un prodotto raffinato basato sul prototipo.
 Inoltre, questa open source  **Easy Game Maker**  è altamente configurabile e supporta integrazioni con librerie di terze parti. Soprattutto, fornisce supporto per Xbox e PlayStation che sono popolari console di videogiochi. GDEVVive è scritto in C ++, JavaScript e TypeScript. È disponibile una documentazione dettagliata per quanto riguarda la distribuzione e lo sviluppo. Gdevelop ha una comunità di sviluppatori molto vivaci che risponde attivamente a bug e domande. Pertanto, tutto il codice sorgente è disponibile su [github][4].
 [Scopri di più su Gdevelop][5]
 
-##  **Come configurare su localhost?** {#setup}
-Nella sezione di questo  **Tutorial GDEVVive** , vedremo come possiamo impostare GDEVive sul nostro sistema locale. Prima di passare ai passaggi successivi, assicurati di aver installato i seguenti prerequisiti.
+##  **Come configurare su localhost?**  {#setup}
+
+Nella sezione di questo  **Tutorial GDEVVive**  , vedremo come possiamo impostare GDEVive sul nostro sistema locale. Prima di passare ai passaggi successivi, assicurati di aver installato i seguenti prerequisiti.
   * Idiota
   * Node.js 12.x
   * Filato / npm
@@ -57,7 +59,7 @@ Una volta che accedi a questo gioco facendo software nel browser, aprirà la hom
 {{< figure align=center src="images/181755626_430416518403410_850455915030815113_n-1024x612.png" alt="Strumenti di sviluppo del gioco">}}
 
 Ci sono opzioni per avviare un nuovo progetto o aprire un nuovo progetto. Inoltre, esiste un'opzione per vedere gli esempi o i tutorial per iniziare bene.
-Una volta fatto clic su "Crea un nuovo progetto", è possibile vedere diversi modelli di gioco di base e anticipazione pre-costruiti come mostrato nell'immagine qui sotto.
+Dopo aver fatto clic su "Crea un nuovo progetto", è possibile vedere diversi modelli di gioco di base e anticipazione pre-costruiti come mostrato nell'immagine qui sotto.
 
 {{< figure align=center src="images/181970185_1410837245966585_2870884044502649776_n-1024x579.png" alt="Tutorial GDEVVive">}}
 
@@ -67,8 +69,9 @@ Una volta fatto clic su "Crea un nuovo progetto", è possibile vedere diversi mo
 
 In questo modo, puoi esplorare e provare ulteriori funzionalità. Questo  **Easy Game Maker**  è adatto agli sviluppatori e offre un cruscotto intuitivo. Una volta che hai finito di sviluppare il tuo gioco, puoi esportarlo per varie piattaforme come Android, iOS e Web.
 
-##  **conclusione** {#Conclusione}
-Questo pone fine a questo tutorial GDEVVive. Questo **motore di gioco gratuito  **ti consente di implementare la logica dei giochi usando eventi visivi. Ha una comunità molto favorevole che ha reso molti tutorial e manuali utente utili. Questo post sul blog ti aiuterà davvero se sei nuovo nel mondo dello sviluppo del gioco. Ci sono molti altri**   designer di giochi 3D**, strumenti di sviluppo del gioco e articoli menzionati nella sezione Explore di seguito. Tutti questi motori di gioco sono gratuiti, open source e escogitano funzionalità di auto-ospite. Pertanto, il settore dello sviluppo del gioco si sta espandendo immensamente con l'aumento del numero di giocatori. Ci sono videogiochi con grafica ad alta definizione ed effetti sonori che innescano interesse e attrazione nei giocatori. Tuttavia, scegli un software di sviluppo del gioco ben ripulato che porti qualità ed efficienza al tuo lavoro.
+##  **Conclusione**  {#Conclusion}
+
+Questo pone fine a questo tutorial GDEVVive. Questo  **motore di gioco gratuito** ti consente di implementare la logica dei giochi usando eventi visivi. Ha una comunità molto favorevole che ha reso molti tutorial e manuali utente utili. Questo post sul blog ti aiuterà davvero se sei nuovo nel mondo dello sviluppo del gioco. Ci sono molti altri **designer di giochi 3D**  , strumenti di sviluppo del gioco e articoli menzionati nella sezione Explore di seguito. Tutti questi motori di gioco sono gratuiti, open source e escogitano funzionalità di auto-ospite. Pertanto, il settore dello sviluppo del gioco si sta espandendo immensamente con l'aumento del numero di giocatori. Ci sono videogiochi con grafica ad alta definizione ed effetti sonori che innescano interesse e attrazione nei giocatori. Tuttavia, scegli un software di sviluppo del gioco ben ripulato che porti qualità ed efficienza al tuo lavoro.
 Infine, Containerize.com è pronto per migliorare la sua base di tutorial con alcuni tutorial di sviluppo del gioco più interessanti. Si prega di rimanere in contatto con questa categoria [software di sviluppo del gioco][6] su [Containerize.com][7] per aggiornamenti regolari.
 
 ## Esplorare
@@ -85,7 +88,8 @@ Infine, Containerize.com è pronto per migliorare la sua base di tutorial con al
   * [Tutorial di sviluppo del gioco HTML5 per programmatori di videogiochi][18]
   * [Come il settore dei videogiochi sfrutta il software open source][19]
 
-  
+
+
 [1]: #intro
 [2]: #setup
 [3]: #Conclusion

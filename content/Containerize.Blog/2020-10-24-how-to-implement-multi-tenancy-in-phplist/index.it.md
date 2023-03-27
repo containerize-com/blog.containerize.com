@@ -13,10 +13,10 @@ Tutorial ## per sviluppare un'applicazione multi-tenant in Phplist. La funzione 
 
 {{< figure align=center src="images/Multi-tenancy-phplist.png" alt="Phlist di applicazione multi-tenant">}}
 
-In questo articolo, tratteremo**ciò che è multi-tenancy**e come possiamo configurare**Applicazione multi-tenant**in Phplist.
+In questo articolo, tratteremo **What Is Multi-Tenancy**e come possiamo configurare**Applicazione multi-tenant** in Phplist.
 
 ## Cos'è Phplist?
-Quando si decide la strategia di marketing, l'email marketing è una parte fondamentale di ogni azienda digitale online. Phplist consente alle aziende di raggiungere un vasto pubblico. Phplist è ampiamente utilizzato**Software di newsletter open source**per la gestione degli elenchi e l'invio di newsletter. Aiuta le aziende a creare, programmare, inviare e analizzare le campagne di newsletter. Phplist supporta funzionalità come analisi, segmentazione, elaborazione di rimbalzo, plugin, API e molti altri.
+Quando si decide la strategia di marketing, l'email marketing è una parte fondamentale di ogni azienda digitale online. Phplist consente alle aziende di raggiungere un vasto pubblico. Phplist è ampiamente utilizzato **Software di newsletter open source** per la gestione degli elenchi e l'invio di newsletter. Aiuta le aziende a creare, programmare, inviare e analizzare le campagne di newsletter. Phplist supporta funzionalità come analisi, segmentazione, elaborazione di rimbalzo, plugin, API e molti altri.
 
 ## Cos'è multi-tenancy?
 La multi-tenancy è un'architettura in cui molti clienti/siti sono rappresentati da un'unica istanza di un'applicazione software. In multi-tenancy, il sito è considerato un inquilino. Ogni inquilino ha caratteristiche specifiche come configurazione, temi, SMTP.
@@ -29,7 +29,8 @@ Utilizzeremo un database separato per ogni approccio inquilino per implementare 
   * [Setup Database per inquilino][2]
   * [Configura Nginx per l'inquilino][3]
 
-## maneggevole flusso di richiesta   {#request}
+## Flusso di richieste di manette {#request}
+
   * Prendi un backup del file config.php e puoi trovarlo sotto la directory di configurazione.
   * Crea un nuovo file config.php e aggiungi il seguente codice per la gestione di siti/inquilini.
 ```
@@ -45,18 +46,20 @@ switch ($_SERVER['SERVER_NAME'])
 ```
 Sostituisci Esempio.com con il tuo nome di dominio. È inoltre necessario creare un file di configurazione per ogni inquilino. Copia il file di backup di config.php e salvalo con un nuovo nome come config.example.com.php.
 
-Database di configurazione ## per inquilino  {#database}
+## Database di configurazione per l'inquilino {#database}
+
   * Prendi un backup del database Phlist esistente. Usalo per creare un database per il nuovo inquilino.
   * Apri il file config.example.com.php. Modificare le credenziali del database e qualsiasi altra impostazione secondo l'ambiente.
 
-## configure nginx per inquilino   {#nginx}
-* Vai alla directory nginx**CD/etc/nginx/siti-disponibile**.
+## Configurare nginx per l'inquilino {#Nginx}
+
+* Vai alla directory Nginx **CD/etc/nginx/siti-disponibile** .
   * Copia il file di config.php predefinito e salvalo con il nome del tuo sito come esempio.com.
-* Apri la configurazione di esempio.com con**sudo nano esempio.com**.
+* Apri la configurazione di esempio.com con **sudo nano esempio.com** .
   * Modifica il percorso root, Server_name e qualsiasi altra impostazione.
-* Test Configurazioni con**SUDO NGINX -T**
-* Infine, crea SymLink eseguendo**Sudo ln -s /etc/nginx/sites-available/example.com/etc/nginx/sites-aabled/**
-* Riavvia Nginx Web Server eseguendo**Sudo SystemCtl Riavvia Nginx**, quindi può caricare il file di configurazione appena creato.
+* Test Configurazioni con **SUDO NGINX -T** 
+* Infine, crea SymLink eseguendo **Sudo ln -s /etc/nginx/sites-available/example.com/etc/nginx/sites-aabled/** 
+* Riavvia Nginx Web Server eseguendo **Sudo SystemCtl Riavvia Nginx** , quindi può caricare il file di configurazione appena creato.
 
 ## Conclusione
 Il software multi-tenancy presenta alcuni vantaggi rispetto alle applicazioni a singola tenuta come ridurre i costi di manutenzione, un utilizzo efficace delle risorse e aggiornamenti facili da installare. Se hai intenzione di costruire software SAAS (software come servizio), puoi seguire l'architettura multi-tenancy e goderti la sua vera potenza.
@@ -69,7 +72,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Guida per principianti per lo sviluppo del plug -in Phlist][7]
   * [Setup Advanced Bounce Management e Bounce Regole in Phplist][8]
 
-  
+
+
 [1]: #request
 [2]: #database
 [3]: #nginx

@@ -11,25 +11,27 @@ categories: ['Programming']
 
 ## Kubernetes küme kaynakları tüm kiracılar arasında paylaşılmaktadır. Optimize edilmiş ve kaynak tasarrufu sağlayan uygulamaları dağıtmak için çok kiracılı konteyner ana bilgisayar yaklaşımı uygulayın.
 
-{{< figure align=center src="images/Kubernetes Multi-Tenancy & Container-Based Architecture.png" alt="Kubernetes Multi Tenacy & Container Tabanlı Mimari " caption=" Kubernetes Çok Kencilik ve Konteyner Tabanlı Mimari" >}}
+{{< figure align=center src="images/Kubernetes Multi-Tenancy & Container-Based Architecture.png" alt="Kubernetes Multi Tenacy & Container Tabanlı Mimari " caption="Kubernetes Çok Kencilik ve Konteyner Tabanlı Mimari" >}}
 
 
 ## Genel Bakış
 Multi-kiracılık serisinde başka bir heyecan verici blog yazısı ile buradayız. Önceki [makalemiz][1] 'de, çok kiracılı uygulamaların, profesyonellerin ve eksilerin ve çok kiracılı mimarinin türlerinin arkasındaki temel konsepte değindik. Birden fazla kullanıcıya/kiracıya hizmet vermenin zamanı geldiğinden, kaynakları etkili bir şekilde yönetip kullanır. Dolayısıyla, çoklu kiracılık, çeşitli müşterileri/kiracıları eşzamanlı olarak ele alan bir altyapı oluşturmanın en büyük yaklaşımıdır. Bununla birlikte, en son [blog yazısı][2] sunucusuz mimari, konteynerizasyon ve [Kubernetes][3] göstermiştir. Bu nedenle, bu makalede, çok kiracılık ve konteyner tabanlı mimariyi keşfedeceğiz. Ayrıca, [kapsayıcı][4] uygulamalarınızda nasıl çoklu kiracılık elde edebileceğinizi göreceğiz.
 Aşağıdaki noktalar bu makalede ele alınacaktır:
-* **[Çok Kireli Konteyner Ana Bilgisayarlar][5]**
-* **[Kubernetes Çok Kencilik][6]**
+* **[Çok Kireli Konteyner Ana Bilgisayarlar][5]** 
+* **[Kubernetes Multi-Tenacy][6]** 
 
-## Çok kiracılı konteyner ana bilgisayarları   {#çok kiracılı-container-hosts}
+## Çok kiracılı konteyner ana bilgisayarları {#Multi-Tenant-container-hosts}
+
 Çok kiracılı uygulama dağıtım, barındırma platformları söz konusu olduğunda kritik bir görevdir. Hepiniz, kapların sanal makinelere kıyasla hafif olduğunu biliyorsunuz. Uygulama dağıtımının dağıtımını tamamlamak için sadece birkaç milisaniye sürmesi, sanal makinelerde saniyeler ila dakika kalabilir.
 Bununla birlikte, konteyner tabanlı bir mimaride çoklu kiracılık elde etmek oldukça basittir. Her kiracı tam izolasyon ve veri gizliliğine sahip ayrı bir kap tarafından barındırılır. Bu, konteyner sayısının kiracı sayısına bağlı olduğu anlamına gelir. Ayrıca, bu yaklaşımı elde etmek için aşağıdaki araçlar kullanılacaktır:
   * Docker ve Docker Compose
   * Nginx
   * Veritabanı Örneği
   * Uygulama sunucusu
-Konteyneri oluşturmak için bir şablon olan görüntüyü oluşturmak için Docker'ı kullanacaksınız. Ayrıca, birden fazla konteyner ana bilgisayarını döndürmek için Docker Compose'u kullanacaksınız. Ayrıca, gelen talepleri uygun kiracıya yönlendirmek için Nginx'i kullanacaksınız. Böylece, her konteyner ana bilgisayarı uygulama ve veritabanı örneklerini içerir. Bu**çok kiracılı konteyner ana bilgisayarları**yöntemi kaynak yoğun değildir ve çeşitli kiracıları yönetmede ve veri izolasyonu ve güvenliğinden emin olmada sağlamlık sunar.
+Konteyneri oluşturmak için bir şablon olan görüntüyü oluşturmak için Docker'ı kullanacaksınız. Ayrıca, birden fazla konteyner ana bilgisayarını döndürmek için Docker Compose'u kullanacaksınız. Ayrıca, gelen talepleri uygun kiracıya yönlendirmek için Nginx'i kullanacaksınız. Böylece, her konteyner ana bilgisayarı uygulama ve veritabanı örneklerini içerir. Bu **çok kiracılı konteyner ana bilgisayarları** yöntemi kaynak yoğun değildir ve çeşitli kiracıları yönetmede ve veri izolasyonu ve güvenliğinden emin olmada sağlamlık sunar.
 
-## Kubernetes Multi-Tenacy   {#Kubernetes-Multi-Tenancy-}
+## Kubernetes çoklu kiracılık {#Kubernetes-Multi-Tenancy-}
+
 Kubernetes, mimarisinde düğümler, küme, kontrol düzlemi ve daha fazlası gibi birçok bileşen içerir. Temel olarak, Kubernetes'te yerleşik bir çoklu kiracılık yoktur, ancak bunu başarabilirsiniz. Bu nedenle, Kubernetes küme ve kontrol düzlemini çalışan ve paylaşan birden fazla uygulama/kiracı vardır. Öte yandan, tek kiracılı uygulamalarda, uygulamanın tek bir örneği tüm Kubernetes kümesini kaplar.
 
 {{< figure align=center src="images/kubernetes.svg" alt="Kubernetes çoklu kiracılık" >}}
@@ -38,7 +40,7 @@ Dahası, biraz daha derine inmek, Kubernetes kümesinde kiracı ev sahipliği ya
 Oldukça konuşursak, Kubernetes Multi Tenacy, kuruluşa birden fazla kullanıcı arayüzü ile ilgilenen uygun maliyetli bir çözüm sunar. Aslında, kullanıcı yönetimi ve daha iyi kaynak yönetimi gibi bazı zorluklarla karşılaşabilirsiniz. Bununla birlikte, tamamen kullanım durumuna ve hedeflediğiniz uygulamanın doğasına bağlıdır.
 
 ## Çözüm
-Bu bizi bu blog yazısının sonuna getiriyor. Çok kiracılık elde etmek için**Kubernetes Çok Kencilik ve Konteyner Tabanlı Mimari**geçtik. Buna ek olarak, çok kiracılı uygulamaları Kubernetes ile köprülemek için birçok üçüncü taraf kütüphanesi bulunmaktadır. Bu blog yazısı**çok kiracılı konteyner ana bilgisayarları**kavramını anlamanıza yardımcı olacaktır. "Ayrıca bakınız" bölümünde bulabileceğiniz başka ilginç blog yayınları da var.
+Bu bizi bu blog yazısının sonuna getiriyor. Çok kiracılık elde etmek için **Kubernetes Çok Kencilik ve Konteyner Tabanlı Mimari**geçtik. Buna ek olarak, çok kiracılı uygulamaları Kubernetes ile köprülemek için birçok üçüncü taraf kütüphanesi bulunmaktadır. Bu blog yazısı**çok kiracılı konteyner ana bilgisayarları** kavramını anlamanıza yardımcı olacaktır. "Ayrıca bakınız" bölümünde bulabileceğiniz başka ilginç blog yayınları da var.
 
 ## Bizimle iletişime geçin
 Son olarak, [Containerize.com][7] çeşitli açık kaynaklı ürünler ve konularda devam eden blog yayınları sunmaktadır. [Facebook][8], [LinkedIn][9] ve [Twitter][10] dahil olmak üzere sosyal medya platformlarımızda bizi takip ederek döngüde kalabilirsiniz.
@@ -47,9 +49,9 @@ Son olarak, [Containerize.com][7] çeşitli açık kaynaklı ürünler ve konula
 [Forum][11] 'de sorularınızı veya sorgularınızı bize bildirebilirsiniz.
 
 ## SSS
-**Kubernetes'te çok kiracılık nedir?**?
+**Kubernetes'te çok kiracılık nedir?** ?
 Kubernetes çoklu kiracılığını bilmek için bunu [bağlantı][6] takip edin.
-**Çok kiracılı vs tek kiracılı küme nedir?**
+**Çok kiracılı vs tek kiracılı küme nedir?** 
 Çok kiracılı bir kümede, tüm kiracılar/müşteriler Kubernetes kümesini paylaşırken, tek kiracı bir kümede her kiracı için ayrı bir küme çalışır.
 
 ## Ayrıca bakınız
@@ -61,7 +63,8 @@ Kubernetes çoklu kiracılığını bilmek için bunu [bağlantı][6] takip edin
   * [Openai Chatbot GPT-3 Nedir | Chatgpt bir AI devrimi][17]
   * [Yapay Zekaya Giriş | AI nedir?][18]
 
-  
+
+
 [1]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
 [2]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/#Serverless-vs-Containers
 [3]: https://products.containerize.com/devops/kubernetes/

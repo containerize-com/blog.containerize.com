@@ -19,28 +19,33 @@ Nó chứa các phần sau:
   * [Thực hiện 2FA trong .NET5][5]
 Trước hết, hãy để hiểu về 2FA là gì và tại sao nó cần phải là một phần không thể thiếu của mọi ứng dụng web hiện đại.
 
-## Xác thực hai yếu tố là gì?   {#2FA}
+## Xác thực hai yếu tố là gì? {#2FA}
+
 Một yếu tố trong bối cảnh này ngụ ý một cách bạn có thể thuyết phục một ứng dụng hoặc dịch vụ rằng bạn là chủ sở hữu của tài khoản. Tên người dùng/Mật khẩu được sử dụng rộng rãi làm yếu tố xác thực phổ biến nhất. Tuy nhiên, do nhiều vấn đề bảo mật liên quan đến CNTT và các vi phạm dữ liệu rộng rãi gần đây-Xác thực một yếu tố đã trở nên kém an toàn hơn.
 Xác thực hai yếu tố là một lớp bảo mật bổ sung, xuất hiện trước khi bạn có thể truy cập vào tài khoản của mình. In-Addition vào quy trình đăng nhập tiêu chuẩn-Nó giới thiệu thêm một bước để xác minh danh tính người dùng bằng cách gửi mã (đến email của bạn hoặc dưới dạng tin nhắn văn bản). Theo cách này, danh tính của bạn được chứng minh và chỉ sau đó truy cập được cấp.
 
-## 2FA hoạt động như thế nào?   {#2fawork}
+## 2FA hoạt động như thế nào? {#2fawork}
+
 Trong 2FA, mật khẩu vẫn là yếu tố xác thực đầu tiên của bạn - vì vậy khi bạn đăng nhập vào tài khoản của mình, nó sẽ chuyển hướng bạn đến một trang khác nơi bạn được yêu cầu xác minh quyền sở hữu tài khoản. Điều này có thể được thực hiện bằng cách sử dụng nhiều cách khác nhau:
   1. Ứng dụng gửi mã xác minh thường được gọi là OTP (mật khẩu một lần) đến địa chỉ email của bạn.
   2. Mã được gửi dưới dạng tin nhắn văn bản trên điện thoại của bạn.
   3. Bạn cài đặt một ứng dụng Authenticator trên thiết bị di động thông qua đó bạn có thể ủy quyền cho các yêu cầu đăng nhập.
 Lưu ý: Các mã xác minh này được tạo ngẫu nhiên và được hết hạn khi được sử dụng. Ngoài ra, chúng sống ngắn - vì vậy, có một cửa sổ ngắn trước khi bạn có thể sử dụng mã (điều này ngăn tin tặc để buộc các mã xác minh).
 
-## Chúng ta có thể gọi 2FA là xác thực đa yếu tố không?   {#MFA}
+## Chúng ta có thể gọi 2FA là xác thực đa yếu tố không? {#MFA}
+
 Phương pháp xác thực không giới hạn ở hai yếu tố. Nhiều ứng dụng và dịch vụ đang di chuyển người dùng của họ ngoài 2FA và sử dụng xác thực đa yếu tố.
 2FA và MFA (xác thực đa yếu tố) thường được sử dụng thay thế cho nhau. Tuy nhiên có một sự khác biệt. Trong xác thực đa yếu tố, hai hoặc nhiều yếu tố được sử dụng.
 Nó có thể kiểm tra địa chỉ IP của người dùng, vị trí địa lý và thông tin thiết bị liên quan đến các yếu tố khác như mật khẩu và OTP để xác minh danh tính của người dùng.
 Do đó, chúng ta có thể nói 2FA là một tập hợp con của MFA. Trong 2FA, sẽ chỉ có hai yếu tố trong khi nhiều yếu tố có thể sử dụng hai hoặc nhiều yếu tố. MFA gây khó khăn cho tin tặc vì nó bổ sung nhiều lớp bảo mật trong quá trình xác thực truyền thống.
 
-## Có bất kỳ nhược điểm nào sử dụng 2FA không?   {#mfa-con}
+## Có bất kỳ nhược điểm nào sử dụng 2FA? {#mfa-cons}
+
 Tương tự như nhiều giải pháp bảo mật và bảo mật, tồn tại trong các ứng dụng hiện đại. Nó cũng đi kèm với một mức giá - sự bất tiện, vì có một bước bổ sung liên quan có thể gây ra ma sát trong trải nghiệm người dùng.
 Tuy nhiên, nó được sử dụng bởi nhiều ứng dụng và dịch vụ, vì vậy sự đánh đổi này đang trở nên chấp nhận được.
 
-## Làm cách nào để thực hiện xác thực 2FA?   {#Triển khai2fa}
+## Làm thế nào tôi có thể thực hiện xác thực 2FA? {#implementing2fa}
+
 Trong phần này, chúng tôi sẽ tìm hiểu cách triển khai 2FA trong .NET5 bằng cách sử dụng IdentityServer4 và Twilio.
 Vì vậy, hãy để tạo một tài khoản dùng thử trên Twilio:
   1. Đăng ký trên
@@ -89,7 +94,7 @@ Mở startup.cs và thêm Dịch vụ IdentityServer4 trong Phương thức Conf
         .AddDeveloperSigningCredential();
 
 ```
-Bây giờ hãy thêm danh tínhServer vào đường ống yêu cầu:
+Bây giờ thêm danh tính trình điều khiển vào đường ống yêu cầu:
 ```
 app.UseIdentityServer();
 ```
@@ -109,7 +114,7 @@ Hãy để thêm lớp sau:
      }
 
 ```
-Lớp cấu hình này sẽ được sử dụng để tiêm cài đặt bằng cách tiêm phụ thuộc.
+Lớp cấu hình này sẽ được sử dụng để tiêm cài đặt bằng cách sử dụng tiêm phụ thuộc.
   1. Nhấp chuột phải vào dự án và thêm bí mật người dùng với cấu hình Twilio, (SID, mã thông báo, Phonenumber)
   2
 ```
@@ -186,11 +191,12 @@ Mã bước 4 được xác minh và xác thực 2FA đã được hoàn thành.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2Fademo - Trang được ủy quyền">}}
 
 
-## # Phần kết luận:
+### Phần kết luận:
 Trong bài viết này, chúng tôi đã tìm hiểu về 2FA và việc triển khai của nó trong .NET5 bằng cách sử dụng IdentityServer4 và Twilio. Bạn có thể tải xuống mã mẫu được sử dụng trong bài viết này từ [repo][6] này.
 Sử dụng SMS cho 2FA chắc chắn tăng cường bảo mật của bạn nhưng nó vẫn dễ bị tổn thương bởi [các cuộc tấn công hoán đổi SIM][7]. Do đó, các nhà nghiên cứu bảo mật đang khuyến khích 2FA sử dụng các phương pháp khác như ứng dụng xác thực và khóa bảo mật ([Yubikey][8]) có thể bị chặn trên mạng điện thoại. Chúng tôi sẽ tìm hiểu thêm về điều đó trong một bài viết sắp tới - hãy theo dõi!
 
-  
+
+
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

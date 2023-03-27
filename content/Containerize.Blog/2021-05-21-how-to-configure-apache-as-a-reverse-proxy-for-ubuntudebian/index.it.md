@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-Apache-as-a-Reverse-Proxy-1.png" alt="Installare e configurare Apache Reverse Proxy">}}
 
 
-Panoramica ## ****
+Panoramica ##****
 Apache Reverse Proxy consente a tutto il traffico e lo inoltra di eseguire uno o più server back -end o contenitori dietro un server proxy, senza esporli pubblicamente. Il server Web back-end può essere un altro server HTTP APACHE2 o open source come NGINX. Apache2 HTTP Server è uno dei server Web open source più popolare che viene utilizzato oggi.
 Esistono molti motivi per installare e configurare un server proxy. Ad esempio, il proxy inverso può aiutarti ad aggiungere sicurezza, per il bilanciamento del carico, limitare l'accesso a determinate posizioni al fine di prevenire attacchi e molti altri. Questo articolo spiega come installare e configurare la configurazione del proxy di Apache Reverse passo dopo passo per il server HTTPS su Ubuntu/Debian:
   * Installazione di Apache2
@@ -44,7 +44,7 @@ Per verificare la configurazione APACHE2, aprire il browser e navigare al nome h
 
 
 ## Passaggio 2: configurare Apache2 come proxy inverso
-Apache2 è installato correttamente e pronto per l'uso. Ora puoi configurare Apache2 per funzionare come proxy inverso Apache2 Ubuntu. ProxyPass **e  **ProxyPassReverse **  Funzione di Apache2 Proxy Module  **forniscono un proxy inverso. Per utilizzare **  ProxyPass  **e**   ProxyPassReverse**, devi prima sapere che dove si desidera dirigere il traffico del sito.
+Apache2 è installato correttamente e pronto per l'uso. Ora puoi configurare Apache2 per funzionare come proxy inverso Apache2 Ubuntu. ProxyPass  **e**ProxyPassReverse** Funzione di Apache2 Proxy Module **forniscono un proxy inverso. Per utilizzare** ProxyPass **e**ProxyPassReverse**  , devi prima sapere che dove si desidera dirigere il traffico del sito.
 Il server proxy inverso Apache2 ascolterà tutto il traffico sulla porta HTTP predefinita, che è la porta 80 in una semplice configurazione. Il server back-end che ospita il contenuto del sito Web ascolterà una porta personalizzata ed è molto probabilmente la porta 8080.
 In questo articolo del blog, stiamo andando a impostare Apache2 per ascoltare la porta 80 e quindi dirigere il traffico verso il server back-end che ascolta la porta 8080. Esegui il comando sotto per creare un file VirtualHost proxy chiamato Apache2Proxy.conf.
 sudo nano /etc/apache2/sites-available/apache2proxy.conf
@@ -82,17 +82,20 @@ sudo a2ensite apache2proxy.conf
 sudo systemctl riavvio apache2.service
 Avvia un browser Web di tua scelta e naviga sul nome host del server come Esempio.com. Ora sarai proxetto al tuo server Apache2 sulla porta predefinita, ovvero 8080.
 
-## Passaggio 4: Abilita SSL   {#BLOCK-07B86D83-DCA0-4924-B991-206719C342EB}
+## Passaggio 4: abilita SSL {#block-07b86d83-dca0-4924-b991-206719c342eb}
+
 Se si desidera abilitare il modulo SSL proxy Apache Reverse, eseguire il comando sotto per abilitare Apache Reverse Proxy HTTPS Proxy Pass:
 sudo a2enmod ssl
 Ciò fornirà il proxy di Apache Reverse sicuro al supporto HTTPS ai server di backend.
 
-## Passaggio 5: Riavvia Apache2   {#BLOCK-836BB4FF-17AD-4317-8ECB-153104BD28A7}
+## Passaggio 5: riavvia Apache2 {#block-836bb4ff-17ad-4317-8ecb-153104bd28a7}
+
 Per rendere in vigore queste modifiche, riavvia Apache eseguendo il comando seguente:
 sudo systemctl riavvio apache2.service
 Congratulazioni! Hai installato e configurato correttamente il proxy inverso Apache2 sul sistema Linux.
 
-##  **Conclusione:** {#4a1a}
+##  **Conclusione:**   {#4a1a}
+
 In questo tutorial, abbiamo esplorato e discusso ciò che è un server proxy e una configurazione di esempio proxy di reverse Apache Passo dopo passo. Abbiamo anche imparato come impostare e configurare Apache2 come proxy inverso su un sistema Linux. Nei nostri prossimi tutorial, discuteremo di argomenti più interessanti su Apache e altri stack di soluzione del server Web.
 
 ## Esplorare
@@ -103,10 +106,11 @@ Potresti anche apprezzare gli articoli più correlati:
   * [Sicuro e crittografico nginx con let's crittograpt su ubuntu 20.04][5]
   * [Come installare e configurare OwnCloud con Apache su Ubuntu][6]
 
-  
-[1]: https://blog.containerize.com/web-server-solution-stack/it/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
-[2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
-[3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
-[4]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
-[5]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
-[6]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
+
+ [1]: https://blog.containerize.com/web-server-solution-stack/it/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+ [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+ [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
+ [4]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+ [5]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
+ [6]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/

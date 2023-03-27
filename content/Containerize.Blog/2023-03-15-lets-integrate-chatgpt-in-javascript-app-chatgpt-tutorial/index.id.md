@@ -16,23 +16,26 @@ categories: [ 'Artificial intelligence']
 
 
 ## Ringkasan
-Halo pembaca! Terima kasih banyak atas tanggapan Anda yang luar biasa terhadap posting blog yang kami terbitkan di [chatgpt][1] integrasi. Kami di sini dengan tutorial chatgpt**chatgpt lainnya**mengikuti minat Anda. Selain itu, kami akan berada dalam lingkaran untuk menerbitkan artikel yang bermanfaat bagi akademisi dan karier Anda. Namun, kami telah memulai [seri][20] dari tutorial JavaScript sehingga ini adalah waktu terbaik untuk menulis panduan yang menunjukkan cara**mengintegrasikan chatgpt dalam javascript aqpp**secara terprogram. Lebih lanjut, kami akan menulis cuplikan kode untuk membuat fungsionalitas chatbot viral gpt-3 ini**. Untuk tujuan ini, kami akan mengaktifkan fungsionalitas chatgpt di aplikasi Node.js. Oleh karena itu, tingkat dasar pengetahuan sebelumnya tentang Node.js adalah nilai tambah saat memeriksa panduan ini.
+Halo pembaca! Terima kasih banyak atas tanggapan Anda yang luar biasa terhadap posting blog yang kami terbitkan di [chatgpt][1] integrasi. Kami di sini dengan tutorial chatgpt  **chatgpt lainnya** mengikuti minat Anda. Selain itu, kami akan berada dalam lingkaran untuk menerbitkan artikel yang bermanfaat bagi akademisi dan karier Anda. Namun, kami telah memulai [seri][20] dari tutorial JavaScript sehingga ini adalah waktu terbaik untuk menulis panduan yang menunjukkan cara **mengintegrasikan chatgpt dalam javascript aqpp**  secara terprogram. Lebih lanjut, kami akan menulis cuplikan kode untuk membuat fungsionalitas chatbot viral gpt-3 ini**. Untuk tujuan ini, kami akan mengaktifkan fungsionalitas chatgpt di aplikasi Node.js. Oleh karena itu, tingkat dasar pengetahuan sebelumnya tentang Node.js adalah nilai tambah saat memeriksa panduan ini.
 Bagian berikut akan dibahas dalam tutorial chatgpt ini:
-* **[Prasyarat - Pembungkus JavaScript Chatgpt][2]**
-* **[Integrasi chatgpt dengan aplikasi node.js][3]**
+*  **[Prasyarat - Pembungkus JavaScript Chatgpt][2]**  
+*  **[Integrasi chatgpt dengan aplikasi node.js][3]**  
 
-## Pra-Persyaratan-Pembungkus JavaScript Chatgpt   {#Pra-Persyaratan --- chatgpt-javascript-wrapper-}
+## Prasyarat - Pembungkus JavaScript Chatgpt {#Pre-requisites---ChatGPT-JavaScript-wrapper-}
+
 Bagian ini menunjukkan persyaratan yang diperlukan untuk mengaktifkan integrasi chatgpt dalam aplikasi berbasis Node.js. Persyaratan langsung dan mudah dipasang di sistem Anda.
 Berikut ini adalah prasyarat untuk mempraktikkan integrasi javascript chatgpt ini:
 
  * [NodeJs4](>= 18)
 
  * [NPM5](>=9)
+ 
 Setelah prasyarat di atas diinstal, langkah selanjutnya adalah mendapatkan kunci API OpenAI. Kunci ini digunakan untuk membuat permintaan API ke chatgpt secara terprogram. Oleh karena itu, silakan kunjungi [tautan] ini [6] untuk mempelajari cara mendapatkan kunci API OpenAI jika Anda tidak tahu prosedurnya.
 Harap simpan kunci API Anda di tempat yang aman dan itu saja untuk fase persyaratan.
 
-## integrasi chatgpt dengan aplikasi node.js   {#chatgpt-integration-with-node.js-application}
-Sekarang, kita semua siap untuk**mengintegrasikan chatgpt di aplikasi JavaScript secara terprogram.**Pertama, buka terminal dan jalankan perintah berikut:
+## Integrasi chatgpt dengan aplikasi node.js {#ChatGPT-integration-with-Node.js-application}
+
+Sekarang, kita semua siap untuk  **mengintegrasikan chatgpt di aplikasi JavaScript secara terprogram.**  Pertama, buka terminal dan jalankan perintah berikut:
 ```
 npm i chatgpt
 ```
@@ -46,7 +49,7 @@ Salin dan tempel cuplikan kode di atas ke file server utama Anda dan jalankan pe
 ```
 node index.js
 ```
-**CATATAN**: Harap tambahkan ("type": "module",) ke dalam file package.json Anda jika Anda mendapatkan kesalahan "tidak dapat menggunakan pernyataan impor di luar modul".
+ **CATATAN** : Harap tambahkan ("type": "module",) ke dalam file package.json Anda jika Anda mendapatkan kesalahan "tidak dapat menggunakan pernyataan impor di luar modul".
 Anda dapat melihat output pada gambar di bawah ini:
 
 {{< figure align=center src="images/chatgpt_tutorial.png" alt="tutorial chatgpt">}}
@@ -61,7 +64,7 @@ console.log(res.text);
 Demikian juga, Anda dapat menjelajahi banyak metode lain yang ditawarkan [di sini][7]. Integrasi Openai Chatbot ini dapat memberikan keunggulan kompetitif untuk aplikasi tingkat perusahaan Anda.
 
 ## Kesimpulan
-Poin ini membawa kita ke akhir tutorial chatgpt**ini**. Kami harap Anda telah belajar cara**mengintegrasikan chatgpt dalam aplikasi JavaScript**secara terprogram. Selanjutnya, Anda memiliki cuplikan kode kerja yang dapat Anda uji pada mesin lokal Anda. Posting blog ini adalah aset jika Anda berkembang untuk mempelajari**integrasi chatgpt**di aplikasi node.js Anda.
+Poin ini membawa kita ke akhir tutorial chatgpt  **ini** . Kami harap Anda telah belajar cara  **mengintegrasikan chatgpt dalam aplikasi JavaScript**  secara terprogram. Selanjutnya, Anda memiliki cuplikan kode kerja yang dapat Anda uji pada mesin lokal Anda. Posting blog ini adalah aset jika Anda berkembang untuk mempelajari **integrasi chatgpt**  di aplikasi node.js Anda.
 
 ## Terhubung dengan kami
 Akhirnya, [containerize.com][8] secara terus -menerus menulis posting blog tentang berbagai topik. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][9], [LinkedIn][10], dan [Twitter][11].
@@ -70,8 +73,8 @@ Akhirnya, [containerize.com][8] secara terus -menerus menulis posting blog tenta
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [12].
 
 ## FAQ
-**Bagaimana cara mengintegrasikan chatgpt dengan javascript?**
-Harap ikuti chatgpt [tutorial][2] ini untuk mempelajari langkah -langkah dan cuplikan kode untuk mengintegrasikan chatgpt di aplikasi JavaScript secara terprogram.
+ **Bagaimana cara mengintegrasikan chatgpt dengan javascript?** 
+Harap ikuti chatgpt ini [tutorial][2] Untuk mempelajari langkah -langkah dan cuplikan kode untuk mengintegrasikan chatgpt di aplikasi JavaScript secara terprogram.
 
 ## Lihat juga
   * [Pengantar Kecerdasan Buatan | Apa itu ai?][13]
@@ -82,7 +85,8 @@ Harap ikuti chatgpt [tutorial][2] ini untuk mempelajari langkah -langkah dan cup
   * [Apa 5 kerangka kerja AI open-source teratas][18]
   * [Apa itu AI generatif | Kecerdasan Buatan Generatif][19]
 
-  
+
+
 [1]: https://blog.containerize.com/categories/artificial-intelligence/
 [2]: #Pre-requisites---ChatGPT-JavaScript-wrapper-
 [3]: #ChatGPT-integration-with-Node.js-application

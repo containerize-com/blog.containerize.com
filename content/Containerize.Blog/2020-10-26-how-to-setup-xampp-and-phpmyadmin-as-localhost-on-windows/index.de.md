@@ -20,16 +20,18 @@ Wir werden die folgenden Abschnitte in diesem Blog -Beitrag behandeln:
   * [phpmyadmin Dashboard][3]
   * [Letzte Gedanken][4]
 
-## Beschreibung:   {#Description}
+## Beschreibung: {#description}
+
 XAMPP ist kostenlos und Open Source Web Server Solution Stack. Es enthält Apache, MySQL, Mariadb, PHP und Perl. XAMPP ist für Windows -Betriebssysteme verfügbar. Es ist extrem einfach zu installieren und zu verwenden. Deshalb ist es die beliebteste PHP -Entwicklungsumgebung. XAMPP und PHPMYADMIN AS LOCALHOST bieten eine vollständige Umgebung für die Entwicklung und das Testen von Web -Apps.
 Alphabete in xampp stehen für:
-  ***x** -plattformübergreifend (unterstützt mehrere Betriebssysteme, einschließlich Linux, Windows und Mac OS)
-  ***a**  - Apache HTTP -Server
-  ***m**  - Mariadb (Datenbank)
-  ***p**  - php
-  ***p**  - Perl
+* **x** -plattformübergreifend (unterstützt mehrere Betriebssysteme, einschließlich Linux, Windows und Mac OS)
+* **a** - Apache HTTP -Server
+* **m** - Mariadb (Datenbank)
+* **p** - php
+* **p** - Perl
 
-## XAMPP -Installation   {#xampp}
+## XAMPP -Installation {#xampp}
+
   * Laden Sie XAMPP von [hier][5] herunter.
 
 {{< figure align=center src="images/xampp1.png" alt="Xampp als Lokalhost">}}
@@ -53,7 +55,8 @@ Alphabete in xampp stehen für:
 {{< figure align=center src="images/xampp5.png" alt="Xampp als Lokalhost Schritt 4">}}
 
 
-## phpmyadmin Dashboard:   {#phpmyadmin}
+## phpmyadmin Dashboard: {#phpmyadmin}
+
 Klicken Sie auf die Schaltfläche „Admin“ neben dem MySQL -Dienst, um auf PhpMyAdmin -Dashboard zuzugreifen. Sie können auch auf PhpMyAdmin zugreifen, indem Sie http: // localhost/phpmyadmin aus Ihrem Browser besuchen. Hier können Sie Datenbanken erstellen. Befolgen Sie diese Schritte, um eine neue Datenbank zu erstellen.
   * Klicken Sie aus dem Dashboard auf Registerkarte "Datenbanken".
 
@@ -75,14 +78,16 @@ Klicken Sie auf die Schaltfläche „Admin“ neben dem MySQL -Dienst, um auf Ph
 {{< figure align=center src="images/db4-1024x564.png" alt="phpmyadmin bei Localhost Schritt 4">}}
 
 
-## Schluss Gedanken:   {#final}
+## Abschließende Gedanken: {#final}
+
 Die XAMPP -Installation ist einfach und direkt. Der Setup XAMPP -Server dauert nicht mehr als 15 Minuten. Sobald es installiert ist, können Entwickler ihre PHP -basierten Web -Apps auch ohne Internetverbindung erstellen und testen. Anstatt Projekte direkt auf einem Live-Webserver zu testen, ist es einfach und zeitsparend, sie lokal zu testen. Es ist eine großartige Plattform für Anfänger, um ihre Fertigkeiten von PHP-, Perl- und Datenbank zu testen, zu testen und zu polieren.
 
 ## Erkunden:
 [Open Source Web Server Solution Stack für PHP- und Perl -Entwickler][6]
 [Beste Open Source Web Server Solution Stack Optionen][7]
 
-  
+
+
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

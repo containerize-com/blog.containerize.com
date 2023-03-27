@@ -21,11 +21,13 @@ categories: ['Video Conferencing Software']
   * [Jitsi는 특징 탐사를 만난다][5]
   * [결론][6]
 
-## Jitsi Meet의 간단한 소개   {#intro}
+## Jitsi의 간단한 소개 {#intro}
+
 [Jitsi Meet][7]는 완전 무료 오픈 소스, 안전하고 확장 가능한 비디오 협업 소프트웨어입니다. 전체 암호화, EtherPAD 지원 및 비디오/오디오 녹음을 통한 다자 화상 회의와 같은 몇 가지 인기있는 기능을 제공합니다. 이 WEBRTC 호환 소프트웨어를 사용하면 비디오 회의에 원하는만큼 많은 사용자를 초대 할 수 있습니다.
 가상 회의의 증가는 최근에 시작되었으며 사람들은 비디오/오디오 통화를 통한 커뮤니케이션이 더 효과적이고 협력 적이라고 생각합니다. 무엇 보다도이 범주의 소프트웨어는 랩톱/데스크탑에서 작동 할뿐만 아니라 참가자가 휴대 전화를 통해 보안 비디오 회의에 참석할 수 있습니다.
 
-## Jitsi 모임을 설정하는 방법?   {#설정}
+## Jitsi 모임을 설정하는 방법? {#setup}
+
 이 섹션에서는 Jitsi Meet의 설치 프로세스에 들어갑니다. 먼저 다음 사전 반품을 설치했는지 확인하십시오.
   * [Docker][8]
 Docker가 설치되면이 [Link][9]에서 소스 코드의 zip 파일을 다운로드하십시오.
@@ -33,12 +35,13 @@ Docker가 설치되면이 [Link][9]에서 소스 코드의 zip 파일을 다운�
 `CD Docker-Jitsi-Meet`
 그런 다음 다음 명령을 실행하여`.env`를 만듭니다.
 `cp env.example .env`
-이제 필요한 디렉토리를 작성하려면 다음 명령을 실행하십시오.
+이제 필요한 디렉토리를 만들려면 다음 명령을 실행하십시오.
 `mkdir -p ~/.jitsi-meet-cfg/{Web/letsencrypt, 성적표, 프로디/구성, 프로디/프로디/플루그 핀-코스트, jicofo, jvb, jigasi, jibri}`
 마지막 으로이 명령을 실행하여 Docker 이미지를 회전시키고 브라우저 의이 URL에서 응용 프로그램에 액세스하십시오.
 `docker -compose -d`
 
-## Jitsi Meet Featsing Exploration   {#features}
+## Jitsi는 기능 탐색을 만납니다 {#features}
+
 이 무료 비디오 채팅 소프트웨어는 많은 풍부한 기능을 제공합니다. 이것은 먼저 표시 될 홈페이지입니다.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="화상 회의">}}
@@ -64,7 +67,8 @@ Jitsi Meet은 이모티콘과의 통합 채팅을 제공합니다.
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.19.57_.jpg" alt="비디오 회의 소프트웨어">}}
 
 
-## 결론   {#con}
+## 결론 {#con}
+
 이 기사에서는 멋진 원격 통신 소프트웨어와 설치 프로세스를 거쳤습니다. 또한 비즈니스 요구 사항을 진화하는 기술과 동기화 할 수있는 최상의 솔루션을 선택할 때가되었습니다. 결국, [Containerize.com][10]은 화상 회의 소프트웨어 목록을 확장하기 위해 노력하고 있습니다. 따라서 정기적 인 업데이트를 위해 [비디오 회의 소프트웨어][2] 카테고리와 연결하십시오.
 
 ## 관련 제품 페이지
@@ -75,7 +79,8 @@ Jitsi Meet은 이모티콘과의 통합 채팅을 제공합니다.
   * [요소][13]
   * [와이어][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

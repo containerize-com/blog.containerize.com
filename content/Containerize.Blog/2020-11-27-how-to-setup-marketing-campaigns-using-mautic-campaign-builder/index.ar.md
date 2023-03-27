@@ -19,10 +19,12 @@ categories: ['Marketing Automation']
   * [كيفية إنشاء حملات في Mautic؟][3]
   * [الخلاصة][4]
 
-## ما هو Mautic؟   {#Mautic}
+## ما هو Mautic؟ {#mautic}
+
 Mautic هو برنامج أتمتة التسويق مفتوح المصدر. إنه يوفر تحكمًا كاملاً في رسائل البريد الإلكتروني التسويقية والصفحات المقصودة وسير العمل لأنشطة التسويق. إنه يقوم بأتمتة الطريق نحو الحصول على العملاء المتوقعين من الصفحات المقصودة ، والنماذج وتحويلها إلى عملاء محتملين. كل هذا يمكن تحقيقه من خلال إنشاء حملات بالتنقيط الذكي ، والتي ستحافظ على تحديث العملاء المحتملين فيما يتعلق بالمنتجات/الخدمات.
 
-## كيفية إنشاء أشكال في Mautic؟   {#نماذج}
+## كيفية إنشاء أشكال في Mautic؟ {#forms}
+
   * تسجيل الدخول إلى تثبيت mauitc الخاص بك.
   * انتقل إلى علامة التبويب "مكونات" وانقر على "النماذج".
   * ضرب "جديد" من أعلى الزاوية اليمنى.
@@ -41,7 +43,8 @@ Mautic هو برنامج أتمتة التسويق مفتوح المصدر. إن
   * بعد ذلك ، انقر فوق "إضافة" واضغط على "حفظ وإغلاق".
   * من السهل إنشاء أشكال في mautic.
 
-## كيفية إنشاء حملات في Mautic؟   {#campaigns}
+## كيفية إنشاء حملات في Mautic؟ {#campaigns}
+
   * اذهب إلى الحملات. انقر فوق "جديد" من أعلى اليمين.
   * أدخل الاسم وقم بتعيين "منشور" إلى "نعم".
 
@@ -65,7 +68,8 @@ Mautic هو برنامج أتمتة التسويق مفتوح المصدر. إن
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="كيفية إعداد حملات mautic للتسويق الرقمي">}}
 
 
-## الخلاصة:   {#Conclusion}
+## خاتمة: {#conclusion}
+
 لقد تعلمنا إعداد حملات التسويق بالتنقيط باتباع 3 خطوات بسيطة للغاية. يتضمن ذلك إنشاء نموذج مطلوب كمصدر للحملة ، وإنشاء الحملة وتكوين البريد الإلكتروني. لقد أنشأنا حملة أساسية للغاية في هذا البرنامج التعليمي. ومع ذلك ، يمكنك إنشاء حملات معقدة باستخدام منشئ حملة Mautic. إذا كنت جديدًا على Mautic ، تحقق من كيفية تثبيته باستخدام دليل التالي:
 [نظرة عامة وتثبيت Mautic][5]
 
@@ -75,12 +79,13 @@ Mautic هو برنامج أتمتة التسويق مفتوح المصدر. إن
 [دمج Mautic مع Joomla لأتمتة التسويق][7]
 [كيفية تنفيذ مستأجرة متعددة في Mautic][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

@@ -22,7 +22,9 @@ Berikut adalah daftar 5 agen transfer surat open source teratas yang telah disia
   * [Postfix][5]
   * [Exim][6]
 
+
 ### **Pos** {#postal}
+
 Pos adalah fitur lengkap pada alternatif premis untuk Sendgrid dan Mailgun. Muncul dengan HTTP API sederhana untuk integrasi yang mudah dengan aplikasi web. Pos adalah 100% gratis dan open source, Anda dapat mengunduh kode sumber memodifikasinya sesuai kebutuhan Anda.
 Fitur -fitur pentingnya antara lain adalah sebagai berikut:
   * Dukungan untuk banyak organisasi dengan server surat & pengguna di dalamnya.
@@ -32,7 +34,9 @@ Fitur -fitur pentingnya antara lain adalah sebagai berikut:
   * Pemeriksaan & Pemantauan DNS bawaan untuk memastikan domain yang Anda kirim dari surat dikonfigurasi dengan benar untuk pengiriman maksimum.
     [Baca lebih lanjut][7]
 
-### **cuttlefish** {#cuttlefish}
+
+### **Cumi -cumi** {#cuttlefish}
+
 Cuttlefish adalah perangkat lunak pengiriman surat yang di -host sendiri dan banyak digunakan untuk mengirim volume besar email dengan mudah. Ini mendukung protokol SMTP. Akibatnya, memungkinkan Anda untuk mengirim email dari aplikasi Anda tanpa usaha. Cuttlefish menggunakan postfix untuk pengiriman email yang merupakan salah satu agen transfer surat open source yang paling populer dan andal. Oleh karena itu, ia memiliki semua keandalan postfix.
 Berikut adalah fitur terkenal:
   * Memastikan email Anda tiba di tujuan mereka.
@@ -42,7 +46,9 @@ Berikut adalah fitur terkenal:
   * Bekerja dengan kerangka kerja dan bahasa apa pun
     [Baca lebih lanjut][8]
 
-### **mail-in-a-box** {#mail-in-a-box}
+
+### **Mail-in-a-box** {#mail-in-a-box}
+
 Mail-in-a-box adalah server Linux Mail inovatif yang berfokus pada penyebaran yang mudah. Ini menyediakan webmail yang praktis dan server IMAP/SMTP dengan konfigurasi DNS otomatis. Ini membantu Anda mengatur gmail Anda sendiri tanpa keahlian teknis. Fitur teratasnya meliputi:
   * Konfigurasi DNS Otomatis
   * Penyaringan spam.
@@ -52,7 +58,9 @@ Mail-in-a-box adalah server Linux Mail inovatif yang berfokus pada penyebaran ya
   * Host Mail untuk banyak pengguna dan beberapa nama domain.
     [Baca lebih lanjut][9]
 
+
 ### **postfix** {#postfix}
+
 Postfix adalah server surat open source yang kuat yang dapat digunakan untuk merutekan dan mengirimkan email. Namun, awalnya dikembangkan untuk menggantikan Agen Transfer Mail Sendmail yang populer. Meskipun sangat banyak mengikuti Sendmail. Tetapi, dalam implementasi itu sangat berbeda dan unik. Ini menawarkan banyak fitur termasuk
   * Kontrol Junk Mail
   * Mendukung banyak protokol
@@ -61,7 +69,9 @@ Postfix adalah server surat open source yang kuat yang dapat digunakan untuk mer
   * Alamat dukungan manipulasi dan banyak lagi
     [Baca lebih lanjut][10]
 
+
 ### **exim** {#exim}
+
 Exim adalah server email unggulan lengkap yang digunakan pada banyak sistem operasi seperti UNIX. Ini menawarkan dukungan lintas platform yang menjadikannya pilihan yang baik untuk server surat. EXIM adalah server yang sangat dapat disesuaikan untuk perutean dan pengiriman email. Exim seperti kerangka kerja dengan bahasa aplikasinya untuk mengatur konfigurasi yang kompleks. Ini memiliki logika pemrosesan surat multi-langkah canggih yang membantunya menyelesaikan kasus penggunaan yang kompleks. Berikut adalah fitur teratas EXIM:
   * Mendukung protokol seperti RFC 2821 SMTP dan RFC 2033 LMTP Email Transport
   * Konfigurasi termasuk daftar kontrol akses, pemindaian konten, enkripsi, kontrol perutean antara lain
@@ -72,7 +82,8 @@ Exim adalah server email unggulan lengkap yang digunakan pada banyak sistem oper
 ### Kesimpulan
 Dalam artikel ini Anda telah meninjau agen transfer surat open source terbaik. Pertama, kami mendaftarkan sorotan utama dari setiap MTA pendek yang terdaftar. Setelah itu, kami menjelaskan bagaimana fitur -fitur ini membuatnya unik. Sebagai kesimpulan, jika Anda mencari solusi yang cepat dan mudah tanpa konfigurasi yang kompleks maka postal, cumi-cumi, dan mail-in-a-box adalah pilihan Anda. Namun, jika Anda mencari kontrol yang lebih canggih melalui konfigurasi maka Anda dapat memilih exim atau postfix.
 
-  
+
+
 [1]: https://products.containerize.com/transactional-email
 [2]: #postal
 [3]: #cuttlefish

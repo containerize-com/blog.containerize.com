@@ -16,14 +16,15 @@ categories: ['Blockchain Platforms']
 
 ## Überblick
 Wir haben kürzlich Blog -Beiträge zu [Blockchain Technology for Business][1] und einen Tutorial -Artikel zum Erstellen eines [Basic Smart Contract][2] veröffentlicht. Wir haben jedoch eine Liste der folgenden beliebten Blockchain -Plattformen von 2020 zusammengestellt.
-  ***[Ethereum][3]** 
-  ***[Hypeledger Fabric][4]** 
-  ***[OpenChain][5]** 
-  ***[Multichain][6]** 
-  ***[Ripple][7]** 
-  ***[Fazit][8]** 
+*  **[Ethereum][3]**  
+*  **[Hypeledger Fabric][4]**  
+*  **[OpenChain][5]**  
+*  **[Multichain][6]**  
+*  **[Ripple][7]**  
+*  **[Fazit][8]**  
 
-## Ethereum   {#ether}
+## Äther {#ether}
+
 [Ethereum][9] ist eine führende Open -Source -Blockchain -basierte Plattform. Es bietet einen vollständigen Rahmen, um digitale Vermögenswerte zu verwalten, intelligente Verträge zu schreiben und dezentrale Apps zu erstellen. Diese Software verwendet einen Konsensalgorithmus mit dem Namen Proof of Work (POW). Es unterstützt seine eigene Kryptowährung namens Ether. Darüber hinaus verfügt Ethereum über fünf Hauptkomponenten Ethereum Virtual Machine, Smart Contracts, Ethereum Knode, Ethereum Client APIs und Endbenutzeranwendungen. Es ist in Go -Sprache geschrieben und der gesamte Quellcode ist unter [Github][10] verfügbar.
 Im Folgenden finden Sie die herausragenden Merkmale:
   * Mit Kryptographie sicher
@@ -33,7 +34,8 @@ Im Folgenden finden Sie die herausragenden Merkmale:
   * Mehrschichtige Architektur
 [Lesen Sie mehr][11]
 
-## Hypeledger Fabric   {#Hyper}
+## Hypeledger -Stoff {#hyper}
+
 [Hyperledger Fabric][12] ist eine Open -Source -Erlaubnis, die auf einer modularen Architektur basiert. Es gibt jedoch die Benutzer, je nach Anwendungsfall ein Konsensprotokoll zu verwenden. Darüber hinaus ist diese Software skalierbar, robust und effizient. Es bietet Integration mit Software von Drittanbietern wie LDAP, OpenID Connect und kryptografischen Bibliotheken. Es ist auch in GO -Sprache geschrieben und sein Quellcode ist in [GitHub][13] verfügbar.
 Hyperledger Fabric hat die folgenden Schlüsselmerkmale:
   * Unterstützung für EVM und Solidität
@@ -43,7 +45,8 @@ Hyperledger Fabric hat die folgenden Schlüsselmerkmale:
   * Abfragbare Daten
 [Lesen Sie mehr][14]
 
-## OpenChain   {#open}
+## OpenChain {#open}
+
 [OpenChain][15] ist vergleichsweise eine neue Blockchain -Technologie und basiert auf der Client -Serverarchitektur. Darüber hinaus kann jeder eine Instanz dieser Open -Source -Software einrichten, und es gibt einen Administrator für jede Instanz, die die Transaktionen validiert. Darüber hinaus gibt es in OpenChain keinen Bergbaumechanismus. Vor allem wird in dieser Plattform der altionierte Konsensalgorithmus verwendet. Es ist in C# -Sprache geschrieben und sein Quellcode ist unter [Github][16] verfügbar.
 OpenChain bietet die folgenden wichtigen Funktionen:
   * Bestimmung zur Definition von Regeln
@@ -63,7 +66,8 @@ Multichain erstellt die folgenden Schlüsselmerkmale:
   * Echtzeitdaten-Feeds
 [Lesen Sie mehr][18]
 
-## Ripple   {#Ripple}
+## Ripple {#Ripple}
+
 [Ripple][20] ist eine Open -Source -Blockchain -Plattform der Unternehmensebene mit erweiterten Funktionen. Daher basiert es auf einer dezentralen Infrastruktur, die gesicherte Transaktionen digitaler Vermögenswerte unterstützt. Vor allem verfügt es über eine breite Palette von Funktionen, die ausreichen, um ein Zahlungsgeschäft einzurichten. Darüber hinaus wird es von einem XRP -Hauptbuch angetrieben, das ein dezentrales kryptografisches Hauptbuch ist. Diese Open -Source -Software ist jedoch in C ++ - Sprache mit der Eingabe anderer Sprachen geschrieben und ihr Quellcode ist unter [Github][21] verfügbar.
 Ripple bietet die folgenden wichtigen Punkte:
   * Angetrieben von XRP -Ledger
@@ -73,7 +77,8 @@ Ripple bietet die folgenden wichtigen Punkte:
   * Mehrzweck
 [Lesen Sie mehr][22]
 
-## Schlussfolgerung   {#Conclusion}
+## Abschluss {#Abschluss}
+
 In diesem Blog -Beitrag haben wir einige der beliebten Open -Source -Blockchain -Plattformen durchlaufen. Da es viele andere beliebte Plattformen gibt, haben neue Plattformen begonnen, die Absicht der Community zu gewinnen, indem sie fortschrittliche Funktionen anbieten. Daher ist es immer eine gute Idee, ordnungsgemäß zu untersuchen, bevor Sie sich entschieden haben.
 Schließlich erweitert [containerize.com][23] seine Liste der Open -Source -Software- und Blog -Beiträge. Bitte bleiben Sie mit der Kategorie [Blockchain][24] in Kontakt mit der Kategorie [Blockchain].
 
@@ -86,7 +91,8 @@ Möglicherweise finden Sie die folgenden Links relevant:
   * [Multichain][25]
   * [Konsensys Quorum][26]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: #ether

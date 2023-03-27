@@ -20,7 +20,8 @@ Mautic은 마케팅 자동화 소프트웨어이며 마케팅 이메일, 방문 
   * [mautic 플러그인 구성][3]
   * [결론][4]
 
-## Facebook 개발자 계정 구성   {#Account}
+## Facebook 개발자 계정을 구성하십시오 {#account}
+
   * [Facebook for Developers][5]로 이동하십시오.
   * 계정이없는 경우 계정을 등록하십시오.
   * 새 계정을 등록하려면 오른쪽 상단에서 "시작"을 클릭하십시오.
@@ -30,7 +31,8 @@ Mautic은 마케팅 자동화 소프트웨어이며 마케팅 이메일, 방문 
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic- Facebook 통합 - 등록 개발자 계정">}}
 
 
-## Facebook 개발자의 앱 구성   {#app}
+## Facebook 개발자의 앱을 구성하십시오 {#app}
+
   * "첫 번째 앱 생성"을 클릭하십시오.
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Facebook 통합 - 첫 번째 앱 생성">}}
@@ -57,7 +59,8 @@ Mautic은 마케팅 자동화 소프트웨어이며 마케팅 이메일, 방문 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Facebook 통합 - 웹 사이트를 플랫폼으로 추가하십시오">}}
 
 
-## mautic 플러그인 구성   {#configuration}
+## Mautic 플러그인 구성 {#configuration}
+
   * Mautic 대시 보드로 이동하십시오.
   * 그런 다음 오른쪽 상단에서 "설정"으로 이동하십시오.
   * "플러그인"을 클릭하십시오.
@@ -69,10 +72,11 @@ Mautic은 마케팅 자동화 소프트웨어이며 마케팅 이메일, 방문 
   * "Authorize 앱"버튼을 누르십시오.
   그 후 새로운 Facebook 인증 창이 열립니다. 프롬프트를 따라 앱 승인을 완료하십시오.
   * 성공적인 승인 후 Mautic의 Facebook 플러그인에서 "연락처 매핑"탭으로 이동하십시오.
-  * 여기서는 연락처 필드를 Facebook 필드에 매핑 할 수 있습니다.
+  * 여기에서 연락처 필드를 Facebook 필드에 매핑 할 수 있습니다.
   * 마지막으로 설정을 게시하면 가면 좋습니다.
 
-## 결론   {#conclusion}
+## 결론 {#conclusion}
+
 MAUTIC - Facebook 통합은 Facebook 리드를 Mautic 시스템으로 동기화하는 데 도움이 될 수 있습니다. Mautic 앱에서는이 모든 리드를 세그먼트에 추가 할 수 있습니다. 이메일 마케팅 캠페인을 실행할 수 있습니다. 이를 통해 비즈니스가 훨씬 더 큰 대상 고객에게 제품/서비스를 성장, 마케팅 및 판매하는 데 도움이 될 수 있습니다.
 
 ## 탐구하다
@@ -83,7 +87,8 @@ Mautic 및 Facebook에 대한 자세한 내용은 다음을 방문하십시오.
   * [Mautic 및 Woocommerce 통합을 통한 마케팅 자동화][9]
   * [디지털 마케팅 자동화를 위해 Mautic & Joomla 통합][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

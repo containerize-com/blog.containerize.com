@@ -14,19 +14,21 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/gdevelop-game.png" alt="Jak zrobić grę na zera">}}
 
 
-## **Przegląd**
+## **Przegląd** 
 W przeszłości opublikowaliśmy wiele postów na blogu na temat oprogramowania do rozwoju gier open source, takich jak [Top 5 Free Game Development w roku 2021][1], [Pierwsze kroki z tworzeniem gier za pomocą supermocarstw][2], [Gra Samouczek rozwoju | Ruch Player in Gdevelop][3], [samouczek rozwoju gry HTML5 dla programistów gier wideo][4], [Jak globalny przemysł gier wykorzystuje oprogramowanie typu open source][5] oraz [samouczek Gdeveloper dla początkujących, aby rozpocząć rozwój gry][6 ]. Najnowsze postępy w epoce Internetu przyniosły nowe trendy w branży gier wideo. Platforma do budowania gier open source zapewnia kompletny ekosystem do samodzielnego rozwijania gier, a programiści dojrzewają tę platformę zgodnie z potrzebami. W tym poście na blogu nauczymy się, jak zrobić grę w Scratch za pomocą [GDevelop][7], obejmując następujące punkty.
-  * **[Dlaczego powinniśmy używać gdevelop?][8]**
-  * **[Konfiguracja projektu][9]**
-  * **[Jak przygotować tło i obiekt?][10]**
-  * **[Dodawanie behviorów do obiektu][11]**
-  * **[Uruchomienie gry][12]**
-  * **[wniosek][13]**
+* **[Dlaczego powinniśmy używać gdevelop?][8]** 
+* **[Konfiguracja projektu][9]** 
+* **[Jak przygotować tło i obiekt?][10]** 
+* **[Dodawanie behviorów do obiektu][11]** 
+* **[Uruchomienie gry][12]** 
+* **[wniosek][13]** 
 
-## Dlaczego powinniśmy korzystać z GDevelop?   {#Dlaczego}
+## Dlaczego powinniśmy korzystać z GDevelop? {#why}
+
 [GDevelop][7] to oprogramowanie do gier typu open source. Ma to możliwości samowystarczające i ma charakter międzyplatformowy. Możesz go pobrać i zainstalować lub użyć jego wersji online do zabawy. Użytkownicy nie muszą zdobywać żadnej wiedzy programowania, aby korzystać z tego konstruktora gier. Przede wszystkim oferuje interfejs użytkownika przeciągania i upuść, który opracowuje gotowe zachowania gry, szablony i obiekty. To bezpłatne oprogramowanie do tworzenia gier jest bardzo konfigurowalne i oferuje integrację z bibliotekami stron trzecich. Aby uzyskać więcej informacji na temat tego bezpłatnego narzędzia, możesz sprawdzić ten link, aby dowiedzieć się dalej o jego funkcjach i procesie konfigurowania.
 
-## Konfigurowanie projektu   {#setting}
+## Konfiguracja projektu {#setting}
+
 W tej sekcji stworzymy nasz projekt do budowy gry wyścigowej z niektórymi podstawowymi funkcjami. Śledź ten [link][6] Jeśli chcesz skonfigurować na komputerze lokalnym lub możesz użyć wersji online, przechodząc do tego [link][14].
 Tak więc znajdziesz następujący ekran po kliknięciu „Utwórz nowy projekt”, a następnie kliknij „Pusta gra”.
 
@@ -37,13 +39,15 @@ Możesz zobaczyć pasek menu po lewej stronie okna. Teraz kliknij przycisk „Sc
 {{< figure align=center src="images/Screenshot-2021-08-24-at-23.46.43-1024x580.png" alt="Samouczek Gdevelop">}}
 
 
-## Jak przygotować tło i obiekt?   {#przygotowywać}
+## Jak przygotować tło i obiekt? {#prepare}
+
 Na pasku wyszukiwania poszukaj obiektu ciężarówki i kliknij go dwukrotnie i naciśnij „Dodaj do gry”, gdy pojawi się w wynikach. Powtórz ten krok dla dwóch kół i obiektu platformy. Teraz kliknij prawym przyciskiem myszy obiekt Greenfloor i edytuj.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-00.07.21-1024x580.png" alt="Samouczek rozwoju gry">}}
 
 
-## Dodanie behviorów do obiektu   {#add}
+## Dodawanie behviorów do obiektu {#add}
+
 Następnie przeciągnij i upuść Greenfloor do ekranu gry i dostosuj jego wysokość i szerokość zgodnie z życzeniem. Przeciągnij obiekt ciężarówki i upuść go na ekran gry, a następnie obiekty koła. Idąc naprzód, kliknij prawym przyciskiem myszy korpus ciężarówki i naciśnij „Edytuj Object Truckbody”, kliknij zachowania, kliknij „Dodaj zachowanie do obiektu” i kliknij „Physics Engine 2.0”, a zobaczysz następujące okno.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-02.54.06-1024x579.png" alt="Jak zrobić grę na zera">}}
@@ -69,31 +73,34 @@ Następnie dodaj nowy warunek, wyszukaj „naciśnięty klawisz” i ustaw go w 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-04.38.34-1024x547.png" alt="Samouczek rozwoju gry">}}
 
 
-## Uruchamianie gry   {#run}
+## Uruchomienie gry {#run}
+
 Po zakończeniu wszystkich kroków. Czas uruchomić grę, naciskając przycisk umieszczony w lewym górnym rogu. Wprowadzi grę w nowym oknie.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-05.15.59-1024x543.png" alt="Jak zrobić grę na zera">}}
 
 
-## Wniosek   {#Conclusion}
-To jest koniec tego postu na blogu i na pewno dowiedziałeś się, jak zrobić grę z zarysowaniem. Istnieje jednak wiele bezpłatnych oprogramowania do projektowania gier ** na rynku, ponieważ ta branża zyskuje popularność i popyt. Istnieje kilka powodów, takich jak oprogramowanie typu open source, są skalowalne, konfigurowalne, opłacalne i łatwe w utrzymaniu. Ponadto zapotrzebowanie na międzyplatformowych konstruktorów gier rośnie, ponieważ programiści uważają, że jest wygodna gra, która działa na wszystkich popularnych platformach, takich jak Android, iOS, Web i Desktop. Z drugiej strony nadejście pandemii zmieniło życie ludzi i teraz wolą pozostać w domu. Tak więc ludzie grają w gry wideo w czasie wolnym.
-Wreszcie [Containerize.com][15] jest gotowy na ulepszenie bazy samouczków o bardziej interesujące  **samouczki rozwoju gier ** . Pozostań w kontakcie z tą kategorią [oprogramowanie do rozwoju gier][16] w celu regularnych aktualizacji.
+## Wniosek {#Wniosek}
+
+To jest koniec tego postu na blogu i na pewno dowiedziałeś się, jak zrobić grę z zarysowaniem. Istnieje jednak wiele bezpłatnych oprogramowania do projektowania gier**na rynku, ponieważ ta branża zyskuje popularność i popyt. Istnieje kilka powodów, takich jak oprogramowanie typu open source, są skalowalne, konfigurowalne, opłacalne i łatwe w utrzymaniu. Ponadto zapotrzebowanie na międzyplatformowych konstruktorów gier rośnie, ponieważ programiści uważają, że jest wygodna gra, która działa na wszystkich popularnych platformach, takich jak Android, iOS, Web i Desktop. Z drugiej strony nadejście pandemii zmieniło życie ludzi i teraz wolą pozostać w domu. Tak więc ludzie grają w gry wideo w czasie wolnym.
+Wreszcie [Containerize.com][15] jest gotowy na ulepszenie bazy samouczków o bardziej interesujące **samouczki rozwoju gier** . Pozostań w kontakcie z tą kategorią [oprogramowanie do rozwoju gier][16] w celu regularnych aktualizacji.
 
 ## Badać
-  * **[gdevelop][7]**
-  * **[Godot][17]**
-  * **[supermocarstwa][18]**
-  * **[Cocos Creator][19]**
-  * **[Panda3d][20]**
-  * **[PlayCanvas][21]**
-  * **[Rozpoczęcie rozwoju gry za pomocą supermocarstw][2]**
-  * **[Samouczek rozwoju gier | Ruch Player in Gdevelop][3]**
-  * **[samouczek rozwoju gier HTML5 dla programistów gier wideo][4]**
-  * **[Jak globalny przemysł gier wykorzystuje oprogramowanie open source][5]**
-  * **[samouczek GDevelop dla początkujących do rozpoczęcia rozwoju gry][6]**
-  *[ **5 najlepszych oprogramowania do tworzenia gier w roku 2021 ** ][1]
+* **[gdevelop][7]** 
+* **[Godot][17]** 
+* **[supermocarstwa][18]** 
+* **[Cocos Creator][19]** 
+* **[Panda3d][20]** 
+* **[PlayCanvas][21]** 
+* **[Rozpoczęcie rozwoju gry za pomocą supermocarstw][2]** 
+* **[Samouczek rozwoju gier | Ruch Player in Gdevelop][3]** 
+* **[samouczek rozwoju gier HTML5 dla programistów gier wideo][4]** 
+* **[Jak globalny przemysł gier wykorzystuje oprogramowanie open source][5]** 
+* **[samouczek GDevelop dla początkujących do rozpoczęcia rozwoju gry][6]** 
+* [ **5 najlepszych oprogramowania do tworzenia gier w roku 2021** ][1]
 
-  
+
+
 [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
 [2]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
 [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/

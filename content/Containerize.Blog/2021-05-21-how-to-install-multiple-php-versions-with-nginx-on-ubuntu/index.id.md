@@ -20,7 +20,8 @@ Artikel ini dalam kelanjutan dari seri kami tentang tutorial tentang Nginx. Seja
   * [Konfigurasikan Nginx untuk menjalankan versi yang berbeda untuk situs web][4]
   * [Kesimpulan][5]
 
-## Instal nginx   {#nginx}
+## Instal Nginx {#nginx}
+
 Nginx (diucapkan sebagai "engine-x") adalah server web open source yang sering digunakan sebagai proxy terbalik atau cache http. Ini tersedia untuk Linux secara gratis.
 Untuk menginstal Nginx, gunakan perintah berikut:
 ```
@@ -32,10 +33,11 @@ Setelah instalasi selesai, Anda dapat membuka "http: // localhost" di browser An
 {{< figure align=center src="images/php-with-nginx-install.png" alt="Pasang PHP dengan Nginx">}}
 
 
-## Instal beberapa versi PHP   {#php}
-**PHP  **(akronim rekursif untuk **  PHP: Hypertext Preprocessor** ) adalah bahasa scripting serba guna yang populer dan populer yang banyak digunakan dan paling cocok untuk mengembangkan situs web dan aplikasi berbasis web. Ini adalah bahasa skrip sisi server yang dapat tertanam dalam HTML.
-Saat ini, ada tiga versi yang didukung dari **PHP **, yaitu  **PHP 5.6 ** ,  **7.0, **  dan  **8.0 ** . Artinya  **PHP 5.3 ** ,  **5.4, **  dan  **5.5**   semuanya mencapai akhir kehidupan; Mereka tidak lagi didukung dengan pembaruan keamanan. Jadi mari kita pasang PHP 7.0 dan PHP 7.2 dengan PHP-FPM.
-Sebenarnya sebelum kita bergerak dengan instalasi mari kita kencangkan terlebih dahulu bahwa apa itu php-fpm. **PHP-FPM  **(akronim dari **  FastCGI Process Manager** ) adalah alternatif PHP (Hypertext Processor) alternatif yang sangat populer. PHP-FPM mencakup banyak fitur yang dapat terbukti bermanfaat untuk situs web yang menerima lalu lintas dalam volume besar.
+## Pasang beberapa versi PHP {#php}
+
+ **PHP** (akronim rekursif untuk **PHP: Hypertext Preprocessor** ) adalah bahasa scripting serba guna yang populer dan populer yang banyak digunakan dan paling cocok untuk mengembangkan situs web dan aplikasi berbasis web. Ini adalah bahasa skrip sisi server yang dapat tertanam dalam HTML.
+Saat ini, ada tiga versi yang didukung dari  **PHP** , yaitu  **PHP 5.6**  ,  **7.0,**  dan  **8.0**  . Artinya  **PHP 5.3**  ,  **5.4,**  dan **5.5**  semuanya mencapai akhir kehidupan; Mereka tidak lagi didukung dengan pembaruan keamanan. Jadi mari kita pasang PHP 7.0 dan PHP 7.2 dengan PHP-FPM.
+Sebenarnya sebelum kita bergerak dengan instalasi mari kita kencangkan terlebih dahulu bahwa apa itu php-fpm.  **PHP-FPM** (akronim dari **FastCGI Process Manager**  ) adalah alternatif PHP (Hypertext Processor) alternatif yang sangat populer. PHP-FPM mencakup banyak fitur yang dapat terbukti bermanfaat untuk situs web yang menerima lalu lintas dalam volume besar.
 Untuk menginstal PHP 7.0 dan 7.2 terlebih dahulu, Anda harus menambahkan repositori PHP ke server Anda untuk menginstal beberapa versi PHP. Anda dapat menambahkan repositori php ondrej dengan perintah berikut:
 ```
 sudo apt-get install software-properties-common -y
@@ -52,7 +54,8 @@ systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-## Buat beberapa situs web dengan php   {#web}
+## Buat beberapa situs web dengan PHP {#web}
+
 Halaman default ditempatkan di/var/www/html/lokasi. Anda dapat menempatkan halaman statis Anda di sini, atau menggunakan host virtual dan menempatkannya lokasi lain
 ```
 mkdir /var/www/html/site1.containerize.com
@@ -104,7 +107,8 @@ chown -R www-data:www-data /var/www/html/site1.containerize.com
 chown -R www-data:www-data /var/www/html/site2.containerize.com
 ```
 
-## Konfigurasikan nginx   {#configure}
+## Konfigurasikan nginx {#configure}
+
 Selanjutnya, Anda perlu membuat file host virtual nginx untuk domain Site1.containerize.com yang menggunakan PHP 7.0. Dan satu lagi untuk situs2.containerize.com yang menggunakan PHP 7.2.
 ```
 vi /etc/nginx/sites-available/site1.containerize.com.conf
@@ -168,18 +172,20 @@ systemctl restart php7.0-fpm
 systemctl restart php7.2-fpm
 ```
 
-## kesimpulan   {#conclusion}
+## Kesimpulan {#conclusion}
+
 Dalam tutorial ini kami menjelajahi cara beberapa versi PHP di Ubuntu. Kami belajar cara menginstal nginx. Kemudian kami menjelajahi cara mengatur dua situs web yang berbeda di Nginx. Dan akhirnya kami belajar cara mengkonfigurasi dua situs web yang berbeda dengan versi PHP yang berbeda dengan Nginx. Semoga tutorialnya membantu Anda.
 
 ## Mengeksplorasi
   * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][6]
   * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda][7]
 
-  
-[1]: #nginx
-[2]: #php
-[3]: #web
-[4]: #configure
-[5]: #conclusion
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+
+ [1]: #nginx
+ [2]: #php
+ [3]: #web
+ [4]: #configure
+ [5]: #conclusion
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/

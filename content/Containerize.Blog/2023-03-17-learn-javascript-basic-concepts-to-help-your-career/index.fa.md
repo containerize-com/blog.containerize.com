@@ -18,11 +18,12 @@ categories: ['Programming']
 ## بررسی اجمالی
 JavaScript یک زبان برنامه نویسی است که برای توسعه برنامه های مبتنی بر وب پویا استفاده می شود. ما از HTML و CSS برای ساخت وب سایت های استاتیک استفاده می کنیم در حالی که JavaScript برای افزودن تعامل استفاده می شود. در پست وبلاگ قبلی ما ، [مدل شیء سند][1] را پوشش دادیم و اکنون برخی از مفاهیم مهم JavaScript را پوشش خواهیم داد**. توسعه دهندگان وب به دلیل ویژگی ها و چارچوب های غنی خود تمایل به انتخاب این زبان اسکریپت دارند. علاوه بر این ، شما می توانید با یادگیری JavaScript در انتهای جلو و انتهای جلو انجام دهید. با این حال ، شما فقط نمی توانید برنامه های وب بلکه برنامه های تلفن همراه را نیز تهیه کنید. اگر خود را برای یک جلسه مصاحبه آماده می کنید ، این آموزش JavaScript به شما کمک می کند. با این وجود ، این راهنما ارزش خواندن دارد تا بیشتر به سطل دانش شما اضافه شود.
 ما در این مقاله نکات زیر را پوشش خواهیم داد:
-  * **[آنچه در جاوا اسکریپت بلند می شود][2]**
-  * **[Scopes in JavaScript][3]**
-  * **[بسته شدن جاوا اسکریپت][4]**
+*  **[آنچه در جاوا اسکریپت بلند می شود][2]**  
+*  **[Scopes in JavaScript][3]**  
+*  **[بسته شدن جاوا اسکریپت][4]**  
 
-## آنچه در JavaScript بالا می رود   {#چه چیزی در javascript}
+## آنچه در جاوا اسکریپت بالا می رود {#What-is-hoisting-in-JavaScript}
+
 پدیده گرفتن عملکرد یا اعلامیه متغیر در بالای دامنه فعلی به عنوان بالا بردن شناخته می شود. این یک مفهوم بسیار مهم است و بیشتر توسعه دهندگان جاوا اسکریپت از آن آگاه نیستند. با این حال ، نکته مهمی که باید در اینجا توجه داشته باشید این است که فقط اعلامیه های عملکرد/متغیر به بالا منتقل می شوند ، نه اولیه سازی عملکرد/متغیر.
 بیایید یک مثال بزنیم و قطعه کد را در زیر مشاهده کنیم.
 ```
@@ -51,9 +52,10 @@ let name;
 ```
 خطای موجود در قطعه کد فوق رخ داده است. دلیل این امر این است که اولیه سازی هنگام بلند کردن این متغیر انجام نشده است. داستان کوتاه ، همه اعلامیه ها با "تعریف نشده" آغاز می شوند در حالی که متغیرهای اعلام شده با "اجازه" یا "const" در بالا بردن آغاز نمی شوند.
 
-## Scopes in JavaScript   {#Scopes-in-javascript}
+## دامنه در جاوا اسکریپت {#Scopes-in-JavaScript}
+
 دامنه یکی از مفاهیم اساسی JavaScript است که یک توسعه دهنده باید آن را بداند. با این حال ، کار با Scopes JavaScript ساده نیست و کمی متفاوت است. بنابراین ، سه نوع دامنه در جاوا اسکریپت وجود دارد و این موارد به شرح زیر است:
-**سطح بلوک**: متغیرهای اعلام شده با "اجازه" یا "const" حاوی دامنه سطح بلوک هستند.
+ **سطح بلوک** : متغیرهای اعلام شده با "اجازه" یا "const" حاوی دامنه سطح بلوک هستند.
 ```
 if(true){
   let a = 1;
@@ -61,7 +63,7 @@ if(true){
 // a is not accessible outside the curly braces.
 ```
 متغیر "A" در خارج از بریس های فرفری قابل دسترسی نیست زیرا دامنه سطح بلوک دارد.
-**سطح عملکرد**: متغیرهای اعلام شده در عملکرد JavaScript دامنه محلی دارند.
+ **سطح عملکرد** : متغیرهای اعلام شده در عملکرد JavaScript دامنه محلی دارند.
 ```
 function innerFunc(){
         let last_name = "ashraf";
@@ -70,7 +72,7 @@ function innerFunc(){
 // last_name is not accessible outside the function.
 ```
 نکته مهمی که باید در اینجا توجه داشته باشید این است که متغیرهای اعلام شده با "اجازه" "const" و "var" دامنه عملکرد را در بدن عملکرد دارند.
-**سطح جهانی**: متغیرهای اعلام شده در خارج از عملکرد متغیرهای جهانی می شوند. مهم نیست که آنها آنها را با استفاده از کلمات کلیدی "LET" ، "CONST" یا "VAR" اعلام کرده اید. علاوه بر این ، اگر بدون استفاده از هر کلمه کلیدی همانطور که در قطعه کد زیر نشان داده شده است ، یک متغیر به یک متغیر جهانی تبدیل شود:
+ **سطح جهانی** : متغیرهای اعلام شده در خارج از عملکرد متغیرهای جهانی می شوند. مهم نیست که آنها آنها را با استفاده از کلمات کلیدی "LET" ، "CONST" یا "VAR" اعلام کرده اید. علاوه بر این ، اگر بدون استفاده از هر کلمه کلیدی همانطور که در قطعه کد زیر نشان داده شده است ، یک متغیر به یک متغیر جهانی تبدیل شود:
 ```
 function innerFunc(){
         last_name = "ashraf";
@@ -79,7 +81,8 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## JavaScript بسته شدن   {#JavaScript-Closures}
+## بسته شدن جاوا اسکریپت {#JavaScript-Closures}
+
 این یکی دیگر از مفهوم مهم است که دانش جاوا اسکریپت شما را در مورد دامنه ها و محاصره داده ها تقویت می کند. در ساده ترین شکل ، یک عملکرد در داخل یک تابع به عنوان بسته شدن شناخته می شود. ممکن است عملکرد داخلی را بسته بندی کنید. این عملکرد داخلی سه نوع دامنه دارد:
  * دامنه سطح بلوک خاص خود را دارد.
  * به متغیرهای والدین دسترسی دارد.
@@ -109,7 +112,7 @@ myFunction()
 شما می توانید در مورد سوالات یا سؤالات خود در مورد [انجمن][9] به ما اطلاع دهید.
 
 ## سؤالات متداول
-**مفاهیم مهم برای یادگیری در JavaScript چیست؟**
+ **مفاهیم مهم برای یادگیری در JavaScript چیست؟** 
 لطفاً برای دانستن مفاهیم اساسی JavaScript این جاوا اسکریپت مبتدی [2] را دنبال کنید.
 
 ## همچنین ببینید
@@ -124,22 +127,23 @@ myFunction()
   * [مقدمه ای بر هوش مصنوعی | AI چیست؟][17]
   * [Async در JavaScript در انتظار چیست؟ | راهنمای جاوا اسکریپت][18]
 
-  
-[1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
-[2]: #What-is-hoisting-in-JavaScript
-[3]: #Scopes-in-JavaScript
-[4]: #JavaScript-Closures
-[5]: https://www.containerize.com/
-[6]: https://web.facebook.com/containerize
-[7]: https://www.linkedin.com/company/containerize/
-[8]: https://twitter.com/containerize_co
-[9]: https://forum.containerize.com/
-[10]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
-[11]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/
-[12]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
-[13]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
-[14]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/
-[15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
-[16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
-[17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
-[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/
+
+
+ [1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
+ [2]: #What-is-hoisting-in-JavaScript
+ [3]: #Scopes-in-JavaScript
+ [4]: #JavaScript-Closures
+ [5]: https://www.containerize.com/
+ [6]: https://web.facebook.com/containerize
+ [7]: https://www.linkedin.com/company/containerize/
+ [8]: https://twitter.com/containerize_co
+ [9]: https://forum.containerize.com/
+ [10]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
+ [11]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/
+ [12]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
+ [13]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
+ [14]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/
+ [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+ [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+ [18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

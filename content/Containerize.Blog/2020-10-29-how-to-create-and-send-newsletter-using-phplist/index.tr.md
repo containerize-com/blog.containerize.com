@@ -23,38 +23,45 @@ Bu blog yazısında, Phplist'te e -posta kampanyası tasarlamaya ve göndermeye 
   * [Kuyruğu işleyin][6]
   * [Sonuç][7]
 
-## **Kampanya/bülten oluştur** {#create}
-  * Phplist kurulumunuzun yönetici arayüzüne giriş yapın. **Kampanyaya Başlat veya Devam Kampanya**  düğmesine tıklayın veya Sol Yan Gezinme Kampanyası altında bir kampanya bağlantısı gönderin.
+##  **Kampanya/Bülten Oluştur**  {#create}
+
+  * Phplist kurulumunuzun yönetici arayüzüne giriş yapın.  **Kampanyaya Başlat veya Devam Kampanya**  düğmesine tıklayın veya Sol Yan Gezinme Kampanyası altında bir kampanya bağlantısı gönderin.
   * Yeni bir kampanya başlat düğmesine tıklayın.
   * Alanları, aşağıdaki resimde gösterildiği gibi, satır, içerik ve altbilgiden konu gibi seçeneklerle doldurun.
 
 {{< figure align=center src="images/create-campaign.png" alt="Phplist'te Tasarım Bülteni">}}
 
 
-## **Zamanlama Kampanyası** {#Schedule}
+## **Zamanlama Kampanyası** {#schedule}
+
   * Zamanlama, kampanyaya başlamak istediğinizde tarihleri ​​seçmenizi sağlar. Kampanya seçilen tarihlerden önce/sonra gönderilmeyecektir.
   * Hemen kampanya göndermek istiyorsanız tarihleri ​​değiştirmenize gerek yoktur.
 
-{{< figure align=center src="images/scheduling.png" alt="Phplist'te Bülten Çizelgesi">}}
+{{< figure align=center src="images/scheduling.png" alt="Phplist'teki bülten programı">}}
 
 
-## **Kampanyaya listeler atayın** {#List}
+## **Kampanyaya listeler atayın** {#list}
+
 Tüm listeler Listeler sekmesi altında görüntülenir, uygun liste seçin. Kampanya yalnızca listeler atamak için sunulacaktır. Ancak, liste oluştururken/güncelleme listesi sırasında liste kamu veya özel yapabilirsiniz.
 
 {{< figure align=center src="images/lists.png" alt="Phplist'teki bültene listeler atayın">}}
 
 
 ## **Bitir kampanyası** {#finish}
-Bitiş, kampanya oluşturma sürecinin son adımıdır. Bildirimler için e -posta ekleyebilir, Google Analytics izleme kodu ekleyebilirsiniz. Abonelere mesaj göndermeye başlamak için **Kampanya Gönder**  düğmesine tıklayın. Şimdi, bülten tasarımı ve kampanya sürecini yaptınız. Ancak, kuyruğu işlemeniz gerekir ve bunun hakkında daha fazla bilgi için bir sonraki bölümde okuyabilirsiniz.
 
-## **kuyruğu işleyin** {#queue}
+Bitiş, kampanya oluşturma sürecinin son adımıdır. Bildirimler için e -posta ekleyebilir, Google Analytics izleme kodu ekleyebilirsiniz. Abonelere mesaj göndermeye başlamak için **Kampanya Gönder** düğmesine tıklayın. Şimdi, bülten tasarımı ve kampanya sürecini yaptınız. Ancak, kuyruğu işlemeniz gerekir ve bunun hakkında daha fazla bilgi için bir sonraki bölümde okuyabilirsiniz.
+
+## **Kuyruğu işleyin** {#queue}
+
 Süreç kuyruğu kampanyanın gönderilmesine başlama işlemidir. Komut satırı komut dosyasıyla işlemi manuel olarak başlatabilir veya cron işi oluşturabilirsiniz. Birkaç avlı abone için sırayı manuel olarak işlemek kolaydır. Ancak, binlerce/milyonlarca aboneniz varsa, sırayı işlemek için Cron Job'u kullanmak iyidir. CRON işi oluşturmak için bilgi için Phplist yetkilisini [web sitesi][8] ziyaret edebilirsiniz.
 
-## **Sonuç** {#Conclusion}
+## **Çözüm** {#conclusion}
+
 Phplist, e -posta pazarlaması için açık kaynak bülten yazılımı kullanmak isteyen işletmeler için mükemmel bir araçtır. Kampanya tasarlama ve gönderme süreci ayrıntılı olarak tanımladık. Bir sonraki bülteniniz için takip edebilir ve Phplist'in gerçek gücünün tadını çıkarabilirsiniz.
 Son olarak, daha büyüleyici öğreticilerle [Containerize.com][9] öğretici tabanını geliştirecek şekilde ayarlanmıştır. Düzenli güncellemeler için lütfen [bülten][10] kategorisiyle bağlantıda kalın.
 
-  
+
+
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #create
 [3]: #schedule

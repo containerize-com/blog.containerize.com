@@ -14,14 +14,15 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/Game-Development-Tutorial.png" alt="Tutorial de desarrollo de juegos">}}
 
 
-## **Descripción general**
+## **Descripción general** 
 La comunidad de código abierto está emergiendo con el paso de cada minuto. Hay juegos multiplataforma, juegos móviles y juegos de escritorio. Varios tipos de juegos incluyen juegos de acción, juegos de aventura, juegos de rol, juegos deportivos, juegos de rompecabezas, juegos de simulación y muchos más. Por lo tanto, todos estos tipos de juegos diferentes han dado un inmenso impulso al tráfico, ya que los usuarios de todos los grupos de edad tienden a jugar estos juegos.
 Además, la pandemia ha traído un cambio masivo en el estilo de vida de las personas que viven en todo el mundo. La gente ahora tiene más tiempo. Todas las actividades fuera de línea se han vuelto en línea. Por lo tanto, tienden a optar por el software en línea para realizar tareas profesionales y videojuegos en caso de entretenimiento. Debido a todas estas razones, esta industria ha ganado sostenibilidad y el apoyo de los usuarios y desarrolladores. En el pasado reciente, escribimos sobre temas como [Tutorial de desarrollo de juegos HTML5 para programadores de videojuegos][1], [cómo la industria del juego global aprovecha el software de código abierto][2] y [tutorial de GDEVelovelop para principiantes para comenzar el desarrollo del juego][3]. En este tutorial de desarrollo del juego, cubriremos los siguientes puntos.
-  ***[Características de exploración de GDegelop][4]** 
-  ***[trabajando en un juego][5]** 
-  ***[Conclusión][6]** 
+* **[Características de exploración de GDegelop][4]** 
+* **[trabajando en un juego][5]** 
+* **[Conclusión][6]** 
 
-## presenta la exploración de GDEVOLED   {#Feature}
+## Características de exploración de GDEVelovel {#features}
+
 [GDEVROVED][7] es una plataforma de construcción de juegos de código abierto. Es altamente extensible y ofrece una interfaz lógica donde los usuarios pueden navegar fácilmente. Este software libre está escrito en C ++, TypeScript y JavaScript. Además, hay una documentación integral disponible con respecto al desarrollo y la implementación. Todo el código fuente está disponible en GitHub. Además, hay muchas características que hacen que este software sea prominente. Veamos algunas de las características clave.
 **Crossplatform** : Esta plataforma de creación de juegos es multiplataforma y se puede implementar en casi todos los sistemas operativos populares como macOS, Linux y Windows.
 **Opciones de exportación** : GDEVOLEVED Permite a los usuarios exportar juegos desarrollados con solo un clic para Android, iOS y Web. Los propietarios de juegos pueden mostrar anuncios de video en sus juegos y puede ser posible con el apoyo de ADMOB.
@@ -29,7 +30,8 @@ Además, la pandemia ha traído un cambio masivo en el estilo de vida de las per
 **Comportamientos versátiles** : En este artículo básico de desarrollo de juegos, le mostraremos cómo podemos agregar diferentes comportamientos a los objetos del juego. Hay múltiples comportamientos disponibles que están listos para usar y los usuarios pueden desarrollarse más según los requisitos. Todo sucede en cuestión de unos pocos clics del mouse.
 **Interfaz avanzada** : En este tutorial de diseño del juego, veremos la interfaz de usuario de este motor de juego 3D. Los usuarios pueden arrastrar y soltar varios elementos y objetos del juego.
 
-## trabajando en un juego   {#working}
+## Trabajando en un juego {#working}
+
 Esta sección del Tutorial de Desarrollo del Juego elabora el desarrollo básico del juego con GDEVOLEVE. Antes de ir más allá, asegúrese de haber instalado GDEVelop localmente en su máquina.
 Puede visitar este tutorial [Tutorial GDEVelovelop para principiantes para comenzar el desarrollo del juego][3] para obtener el conocimiento de configurar este editor de juegos en Localhost.
 Ahora, abra el editor y cree un nuevo proyecto. En este tutorial, crearemos una carpeta en Google Drive para guardar archivos de juego. Ahora haga clic en "Crear un nuevo proyecto", abrirá un nuevo cuadro de diálogo, seleccione la opción "Juego vacío" para comenzar a construir un nuevo juego.
@@ -62,7 +64,8 @@ Entonces, arrastre la marca que aparece en la esquina superior izquierda al cent
 {{< figure align=center src="images/Screenshot-2021-05-28-at-16.18.02-1024x578.png" alt="Tutorial de desarrollo de juegos">}}
 
 
-## conclusión   {#conclusion}
+## Conclusión {#Conclusión}
+
 Este es el final de este tutorial de desarrollo del juego. Con suerte, esta publicación de blog sería útil para los desarrolladores de juegos. Este tutorial le permitió trabajar con los objetos del juego y agregar comportamientos. En el futuro, Contenerize.com publicará publicaciones de blog y artículos de tutoriales sobre un software de diseño de videojuegos de código abierto. Por lo tanto, manténgase conectado con esta categoría [Software de desarrollo de juegos][8] en [Contenerize.com][9] para actualizaciones regulares.
 
 ## Explorar
@@ -72,7 +75,8 @@ Este es el final de este tutorial de desarrollo del juego. Con suerte, esta publ
   * [Cocos Creator][12]
   * [Panda3d][13]
 
-  
+
+
 [1]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [2]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
 [3]: https://blog.containerize.com/game-development-software/es/game-development-tutorial-player-movement-in-gdevelop/

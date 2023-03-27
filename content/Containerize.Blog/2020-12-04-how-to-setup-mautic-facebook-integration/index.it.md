@@ -20,7 +20,8 @@ Copriremo le seguenti sezioni in questo tutorial:
   * [Configurazione del plug -in mautico][3]
   * [Conclusione][4]
 
-## Configura account sviluppatore di Facebook   {#Account}
+## Configura account sviluppatore di Facebook {#account}
+
   * Vai su [Facebook per gli sviluppatori][5]
   * Registra il tuo account se non ne hai uno.
   * Per registrare un nuovo account, vai e fai clic su "Inizia" dall'angolo in alto a destra.
@@ -30,7 +31,8 @@ Copriremo le seguenti sezioni in questo tutorial:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Integrazione di Facebook - Registrati Account sviluppatore">}}
 
 
-## Configura l'app dello sviluppatore di Facebook   {#app}
+## Configura l'app dello sviluppatore di Facebook {#app}
+
   * Fai clic su "Crea la prima app"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Integrazione di Facebook - Crea prima app">}}
@@ -57,7 +59,8 @@ Copriremo le seguenti sezioni in questo tutorial:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Integrazione di Facebook - Aggiungi il sito Web come piattaforma">}}
 
 
-## Configurazione del plugin mautico   {#configuration}
+## Configurazione del plug -in mautico {#configuration}
+
   * Vai al cruscotto Mautico.
   * Quindi passare alle "impostazioni" dall'angolo in alto a destra.
   * Fai clic su "Plugin".
@@ -68,11 +71,12 @@ Copriremo le seguenti sezioni in questo tutorial:
 
   * Premi il pulsante "Autorizza l'app".
   * Successivamente, si aprirà una nuova finestra di autorizzazione di Facebook. Seguire le istruzioni per completare l'autorizzazione dell'app.
-  * Dopo l'autorizzazione riuscita, passa alla scheda "Contatta mappatura" dal plug -in Facebook di Mautic.
+  * Dopo un'autorizzazione riuscita, passa alla scheda "Contatta mappatura" dal plug -in Facebook di Mautic.
   * Qui puoi mappare i tuoi campi di contatto sui campi di Facebook.
   * Infine, pubblica le impostazioni e sei a posto.
 
-## conclusioni   {#conclusion}
+## Conclusione {#conclusion}
+
 Mautic - L'integrazione di Facebook può aiutare a sincronizzare i tuoi conduttori di Facebook nel sistema mautico senza alcuna difficoltà. Nell'app mautica, puoi aggiungere tutti questi lead in un segmento. Puoi eseguire campagne di email marketing su di loro. Questo può davvero aiutare la tua azienda a crescere, commercializzare e vendere prodotti/servizi a un pubblico target molto più grande.
 
 ## Esplorare
@@ -83,7 +87,8 @@ Per saperne di più su Mautic e Facebook, visitare:
   * [Automazione del marketing con integrazione mautica e woocommerce][9]
   * [Integrate Mautic & Joomla per l'automazione del marketing digitale][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

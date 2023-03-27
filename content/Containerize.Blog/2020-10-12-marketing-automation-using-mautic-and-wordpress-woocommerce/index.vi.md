@@ -24,10 +24,11 @@ Blog này sẽ bao gồm các phần sau:
   * [Cấu hình Maitic][3]
   * [Suy nghĩ cuối cùng][4]
 
-## Cấu hình plugin WordPress   {#wordpress}
+## Cấu hình plugin WordPress {#wordpress}
+
   1. Chuyển đến plugin.
   2. Nhấp vào trên Thêm Thêm mới.
-  3. Tìm kiếm tích hợp**với Maitic cho WooC Commerce**.
+  3. Tìm kiếm tích hợp  **với Maitic cho WooC Commerce**  .
   4. Khi bạn tìm thấy plugin, hãy nhấp vào Cài đặt ngay bây giờ.
   5. Sau khi cài đặt, nhấp vào kích hoạt trên mạng.
   6. Sau đó, đi đến WooC Commerce -> Mautic -> Kết nối tab.
@@ -40,7 +41,8 @@ Blog này sẽ bao gồm các phần sau:
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="Tích hợp Ma Ma và WordPress">}}
 
 
-## Cấu hình Mautic:   {#Mautic}
+## Cấu hình Maitic: {#mautic}
+
   1. Từ trang web Maitic của bạn, đi đến cài đặt.
   2. Đi đến cấu hình.
   3. Bật API từ Cài đặt API.
@@ -53,14 +55,15 @@ Blog này sẽ bao gồm các phần sau:
  10. Chọn OAuth1 hoặc OAuth2 (giống như bạn đã chọn trong Mautic) và đặt Gửi người dùng đã đăng ký thành Có.
  11. Lưu và xuất bản plugin.
  12. Sau đó, bạn sẽ có thể ủy quyền cho trang web WordPress của bạn.
- 13. WordPress sẽ hướng dẫn lại đến ví dụ Maitic để ủy quyền.
+ 13.
  14. Nhấp vào ủy quyền của người Viking và đó là nó.
  15. Bạn sẽ bắt đầu nhận liên hệ vào trang web Maitic của bạn.
 
 {{< figure align=center src="images/mautic-1024x622.png" alt="Các bước tích hợp Maitic và WordPress">}}
 
 
-## Suy nghĩ cuối cùng:   {#final}
+## Suy nghĩ cuối cùng: {#final}
+
 Tích hợp Maitic-WooC Commerce cùng nhau có thể giúp bạn đạt được các mục tiêu tiếp thị của mình. Tích hợp này là một trong những giải pháp tốt nhất cho tự động hóa tiếp thị thương mại điện tử. Với WordPress, bạn có thể dễ dàng có được nhiều khách hàng và sau đó với Mautic, bạn có thể tạo các chiến dịch không giới hạn để nhắm mục tiêu vào những khách hàng đó và cập nhật cho họ về các sản phẩm/dịch vụ của bạn, điều này chắc chắn sẽ tự hào về doanh số.
 
 ## Khám phá:
@@ -72,7 +75,8 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Tự động hóa tiếp thị bằng cách sử dụng Maitic và WordPress WooC Commerce][10]
   * [Cách thiết lập các chiến dịch tiếp thị trong Mautic][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

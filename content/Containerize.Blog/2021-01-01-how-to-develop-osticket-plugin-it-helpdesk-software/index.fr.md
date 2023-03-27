@@ -22,22 +22,25 @@ Ce système de billetterie open source (OSTICKET) est un cadre de billets de sup
   * [Comment développer le plugin d'Osticket?][6]
   * [Conclusion][7]
 
-## Pourquoi utiliser des plugins?   {#pourquoi}
-Dans ce sujet, nous apprendrons à créer un plugin simple pour étendre la fonctionnalité principale de ce logiciel **It Helpdesk**  (OSTICKET). Un plugin est un logiciel, qui étend la fonctionnalité principale de toute application / logiciel. De plus, il existe de nombreux logiciels open source de niveau d'entreprise qui ont une énorme pile de plugins qui étendent les fonctionnalités. De plus, ces logiciels open source populaires incluent WordPress, Joomla et bien d'autres. Surtout, les communautés dynamiques et vivantes soutiennent et développent des plugins selon les besoins. Cependant, les cadres offrent une documentation complète concernant le développement des plugins. Voici quelques raisons pour lesquelles les applications prennent en charge les plugins:
+## Pourquoi utiliser des plugins? {#why}
+
+Dans ce sujet, nous apprendrons à créer un plugin simple pour étendre la fonctionnalité principale de ce logiciel  **It Helpdesk**  (OSTICKET). Un plugin est un logiciel, qui étend la fonctionnalité principale de toute application / logiciel. De plus, il existe de nombreux logiciels open source de niveau d'entreprise qui ont une énorme pile de plugins qui étendent les fonctionnalités. De plus, ces logiciels open source populaires incluent WordPress, Joomla et bien d'autres. Surtout, les communautés dynamiques et vivantes soutiennent et développent des plugins selon les besoins. Cependant, les cadres offrent une documentation complète concernant le développement des plugins. Voici quelques raisons pour lesquelles les applications prennent en charge les plugins:
   * Il permet aux développeurs tiers de créer des composants logiciels qui étendent les fonctionnalités d'une application.
   * Les plugins permettent d'intégrer facilement de nouvelles fonctionnalités.
   * De plus, cela n'augmente pas la taille et la complexité d'une application.
   * Ainsi que les développeurs peuvent conserver et gérer le code des plugins séparément de l'application de base.
 
-## exigences   {#Requirements}
-Cette section du Guide **It Helpdesk Software**  décrit les exigences nécessaires pour développer le plugin OSTICKET.
+## Exigences {#requirements}
+
+Cette section du Guide  **It Helpdesk Software**  décrit les exigences nécessaires pour développer le plugin OSTICKET.
   * PHP version 5.6 ou plus
   * Installation d'Osticket
   * Connaissances PHP de base
 
-## Comment développer le plugin d'Osticket?   {#comment}
+## Comment développer le plugin d'Osticket? {#how}
+
 Dans cette section, nous passerons par les étapes du développement du plugin de ce système de billetterie open source (OSTICKET).
-  * Créez le dossier du plugin dans / include / plugins répertoire des plugins. Dans ce tutoriel, nous créerons un plugin de démonstration qui intègre **le système OSTICKET**  avec Redmin.
+  * Créez le dossier du plugin dans / include / plugins répertoire des plugins. Dans ce tutoriel, nous créerons un plugin de démonstration qui intègre  **le système OSTICKET**  avec Redmin.
   * Il devrait avoir les fichiers nécessaires suivants: plugin.php et config.php.
   * Le fichier plugin.php contient une description générale du plugin. Utilisez un exemple de code suivant dans le fichier plugin.php:
 ```
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Ce code a obtenu les valeurs de configuration et vous pouvez utiliser ces valeurs dans vos fonctions. Dans ce fichier, vous pouvez ajouter les fonctionnalités de votre plugin comme exigences.
 
-## Conclusion   {#conclusion}
-Cela nous amène à la fin de ce billet de blog. OSTICKET est un logiciel de gestion de billetterie qui offre une structure de plugins pour les développeurs afin qu'ils puissent ajouter de nouvelles fonctionnalités selon les exigences. Les plugins sont les composants qui étendent la fonctionnalité principale de toute application / logiciel. Dans son article, nous avons discuté du développement des plugins de ce **Système de support client  **(OSTICKET), qui aide les développeurs à ajouter des fonctionnalités et des améliorations personnalisées en fonction de leurs exigences. Par conséquent, ce billet de blog vous aidera vraiment si vous cherchez à déployer un logiciel **  It Helpdesk  **pour votre entreprise. De plus, il existe d'autres **  logiciels de billetterie d'assistance**  et des articles mentionnés dans la section «Explorer» ci-dessous.
+## Conclusion {#conclusion}
+
+Cela nous amène à la fin de ce billet de blog. OSTICKET est un logiciel de gestion de billetterie qui offre une structure de plugins pour les développeurs afin qu'ils puissent ajouter de nouvelles fonctionnalités selon les exigences. Les plugins sont les composants qui étendent la fonctionnalité principale de toute application / logiciel. Dans son article, nous avons discuté du développement des plugins de ce  **Système de support client** (OSTICKET), qui aide les développeurs à ajouter des fonctionnalités et des améliorations personnalisées en fonction de leurs exigences. Par conséquent, ce billet de blog vous aidera vraiment si vous cherchez à déployer un logiciel  **It Helpdesk**  pour votre entreprise. De plus, il existe d'autres **logiciels de billetterie d'assistance**  et des articles mentionnés dans la section «Explorer» ci-dessous.
 Enfin, [contenerize.com][8] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [Logiciel de billetterie d'assistance][1] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][9], [LinkedIn][10] et [Twitter][11].
 
 ## Explorer
@@ -143,7 +147,8 @@ Vous pouvez trouver les liens suivants pertinents:
   * [Automatiser le système de billetterie à l'aide de WordPress et OSTICKET][3]
   * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

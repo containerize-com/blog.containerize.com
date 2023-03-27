@@ -4,7 +4,7 @@ seoTitle: "Top 5 Software de editor de fotos de código abierto en 2021 en 2021"
 description: "Las aplicaciones de editor de fotos de código abierto son las herramientas avanzadas de edición de imágenes que siguen los sofisticados algoritmos para editar y manipular imágenes en nuevas fotos." 
 date: Thu, 06 May 2021 14:36:15 +0000
 author: bilalahmed
-summary: "Los editores de fotos son las herramientas de edición de imágenes avanzadas que siguen los algoritmos sofisticados para editar y manipular imágenes existentes en fotos nuevas." 
+summary: "Los editores de fotos son las herramientas avanzadas de edición de imágenes que siguen los sofisticados algoritmos para editar y manipular imágenes existentes en fotos nuevas." 
 url: /es/photo-editing-software/top-5-open-source-photo-editor-software-in-2021/
 categories: ['Photo Editing Software']
 ---
@@ -79,7 +79,8 @@ Ya sea que simplemente dispare con su teléfono inteligente o sea un fotógrafo 
   * [Digikam][9]
   * [RawTherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

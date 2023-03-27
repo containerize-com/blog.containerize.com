@@ -9,32 +9,34 @@ url: /pl/top-5-open-source-video-editor-software-for-video-marketing/
 categories: ['Video Editing Software']
 ---
 
-## Zaawansowane oprogramowanie do edycji wideo jest integralną częścią każdego rozwijającego się firmy, aby osiągnąć wysokie zaangażowanie użytkowników, skuteczny marketing wideo i motywację kupującego.
+## Zaawansowane oprogramowanie do edycji wideo jest integralną częścią każdej rozwijającej się firmy, aby osiągnąć wysokie zaangażowanie użytkowników, skuteczny marketing wideo i motywację kupującego.
 
 {{< figure align=center src="images/topVideo.png" alt="Darmowe narzędzia do tworzenia wideo">}}
 
 
 ## Przegląd
-W niedawnej przeszłości opublikowaliśmy kilka postów na blogu na temat bezpłatnych narzędzi do tworzenia wideo. Pierwszy post na blogu mówił o [**Wpływ marketingu wideo na biznes **][1], a drugi post na blogu był artykułem [ **samouczka na popularnym edytorze wideo OpenShot**  ][2].
+W niedawnej przeszłości opublikowaliśmy kilka postów na blogu na temat bezpłatnych narzędzi do tworzenia wideo. Pierwszy post na blogu mówił o [ **Wpływ marketingu wideo na biznes**][1], a drugi post na blogu był artykułem [**samouczka na popularnym edytorze wideo OpenShot** ][2].
 W tym poście na blogu omówimy krótkie wprowadzenie następującego oprogramowania do edytora wideo.
-  * **[OpenShot][3]**
-  *[**Shotcut** ][4]
-  * **[FlowBlade][5]**
-  * **[KdenLive][6]**
-  * **[Blender][7]**
-  * **[wniosek][8]**
+* **[OpenShot][3]** 
+* [ **Shotcut** ][4]
+* **[FlowBlade][5]** 
+* **[KdenLive][6]** 
+* **[Blender][7]** 
+* **[wniosek][8]** 
 
-## OpenShot   {#openshot}
+## OpenShot {#openshot}
+
 [OpenShot][9] to open source międzyplatformowy i nagradzany edytor wideo. Zapewnia wiele potężnych funkcji, takich jak przycinanie, krojenie, efekty, animacje 3D 2D i interfejs przyjazny dla użytkownika. Ponadto jest to najlepsza platforma do tworzenia filmów, ponieważ zapewnia integrację API REST i komputerów stacjonarnych, w których można przeciągnąć i upuszczać pliki. To oprogramowanie typu open source jest wielojęzyczne, solidne i bezpieczne. Ponadto dostępna jest kompleksowa dokumentacja dotycząca wdrażania i rozwoju. OpenShot jest napisany w Pythonie. Dlatego cały kod źródłowy jest dostępny na [github][10].
 Poniżej znajdują się widoczne cechy:
   * Interfejs RESTful
   * Wiele efektów wideo
-  * Podgląd osi czasu
+  * Podgląd oś czasu
   * Bezpieczne
   * Edycja proxy
 [Dowiedz się więcej o Openshot][11]
 
-## Shotcut   {#Shotcut}
+## Shotcut {#Shotcut}
+
 [Shotcut][12] to kolejny bezpłatny producent wideo open source z wieloma potężnymi możliwościami. Jest wieloplatformowy i dostosowywany. Ponadto w tym oprogramowaniu do edycji wideo znajdują się wysokiej jakości filtry wideo i efekty. Strzałem, producent wideo zapewnia obsługę wszystkich popularnych formatów obrazów, takich jak TIFF, BMP, GIF, TGA, WebP, PNG, JPEG, SVG i JPEG. Shotcut może działać jako przenośna aplikacja z napędu zewnętrznego. Jednak to oprogramowanie jest zapisane w C ++, QML i JavaScript, a cały kod źródłowy jest dostępny na [Github][13].
 Shotcut ma następujące kluczowe funkcje:
   * 3-punktowa edycja
@@ -45,7 +47,8 @@ Shotcut ma następujące kluczowe funkcje:
   * Pomiar jakości wideo
 [Dowiedz się więcej o Shotcut][14]
 
-## FlowBlade   {#flowblade}
+## FlowBlade {#FlowBlade}
+
 [FlowBlade][15] to kompetentny multitrack open source twórca wideo. Wynika z bogatych funkcji edycji wideo, które zawierają interfejs użytkownika przeciągania i upuść. Ponadto ten edytor wideo wykorzystuje technologię filtrowania obrazów open source G’MIC. Istnieją potężne elementy sterujące, takie jak synchronizacja audio osi czasu, podzielona część klipów wideo, tworzenie komponowanych obrazów i tryb kompozycji pełnego utworu. FlowBlade jest napisane w Pythonie z niewielkim wejściem z innych języków, takich jak HTML, JavaScript CSS. Dlatego jego kod źródłowy jest dostępny na [Github][16].
 FlowBlade oferuje następujące ważne funkcje:
   * Mieszanka i transformacja
@@ -55,7 +58,8 @@ FlowBlade oferuje następujące ważne funkcje:
   * Przeciągnij i upuść interfejs użytkownika
 [Dowiedz się więcej o FlowBlade][17]
 
-## KdenLive   {#kdenLive}
+## Kdenlive {#Kdenlive}
+
 KdenLive to kolejne oprogramowanie do edycji wideo typu open source. To oprogramowanie jest zbudowane na bibliotekach [QT][18], FFMPEG i [KDE][19], z czego może przetwarzać wszystkie powszechnie używane formaty wideo/audio. Przede wszystkim jego konfigurowalny interfejs użytkownika przyciąga użytkowników do używania go do profesjonalnej edycji wideo. Ponadto istnieją bogate opcje dotyczące efektów, przejść i wsparcia dla audiometru i histogramu. Ponadto najfajniejszą rzeczą w tym oprogramowaniu open source jest wersja i automatyczna kopia zapasowa plików projektu. KdenLive jest napisane w C ++, a cały kod źródłowy jest dostępny na [Github][20].
 KdenLive wymyśla następujące kluczowe funkcje:
   * Konfigurowalny interfejs
@@ -65,7 +69,8 @@ KdenLive wymyśla następujące kluczowe funkcje:
   * Multi-Track Edycja wideo
 [Dowiedz się więcej o KdenLive][21]
 
-## Blender   {#Blender}
+## Mikser {#Mikser}
+
 [Blender][22] to kolejna aplikacja edytora wideo typu open source. Jest to nie tylko edytor wideo, ale kompletny zestaw do tworzenia 3D, który zawiera animację 2D, symulację i śledzenie ruchu. Ponadto ten edytor wideo typu open source zapewnia w pełni konfigurowalny interfejs użytkownika. Istnieje również interfejs API do dowolnego rodzaju skryptowania i modyfikacji. Przede wszystkim Blender oferuje maksymalnie 32 narzędzia do edycji wideo z elementami sterowania mediami. To oprogramowanie zostało napisane w C, C ++ i Python. Kod źródłowy tej aplikacji jest dostępny na [GitHub][23].
 Blender oferuje następujące kluczowe punkty:
   * Konfigurowalny interfejs
@@ -75,7 +80,8 @@ Blender oferuje następujące kluczowe punkty:
   * Wyświetla się histogram
 [Dowiedz się więcej o Blenderze][22]
 
-## Wniosek   {#Conclusion}
+## Wniosek  {#Wniosek}
+
 Dokonuje końca tego postu na blogu. Ten artykuł może pomóc w dokonaniu wyboru wśród popularnych bezpłatnych narzędzi do tworzenia wideo. Dokonaj jednak właściwego wyboru i stwórz przekonujące wysokiej jakości filmy biznesowe.
 Wreszcie [Containerize.com][24] ciągle pisze posty na blogu na temat dalszych produktów i tematów open source. Dlatego prosimy o kontakt z kategorią [oprogramowanie do edycji wideo][25] w celu regularnych aktualizacji.
 
@@ -87,7 +93,8 @@ Możesz znaleźć istotne następujące linki:
   * [KdenLive][26]
   * [Blender][27]
 
-  
+
+
 [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
 [2]: https://blog.containerize.com/2020/12/30/a-beginners-guide-to-start-video-editing-with-free-openshot/
 [3]: #openshot

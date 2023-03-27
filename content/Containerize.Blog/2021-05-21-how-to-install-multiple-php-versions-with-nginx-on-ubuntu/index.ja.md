@@ -20,7 +20,8 @@ categories: ['Web Server Solution Stack']
   * [nginxをWebサイト用に異なるバージョンを実行するように構成][4]
   * [結論][5]
 
-## インストールnginx   {#nginx}
+## nginxをインストールします {#nginx}
+
 Nginx（「Engine-X」と発音）は、逆プロキシまたはHTTPキャッシュとしてよく使用されるオープンソースWebサーバーです。 Linuxで無料で利用できます。
 nginxをインストールするには、次のコマンドを使用します。
 ```
@@ -32,10 +33,11 @@ sudo apt install nginx
 {{< figure align=center src="images/php-with-nginx-install.png" alt="nginxでPHPをインストールします">}}
 
 
-## 複数のPHPバージョン {#PHP}をインストールする
-**PHP **（ **PHP：HyperText Preprocessor**  の再帰的頭字語）は、広く使用され、WebサイトやWebベースのアプリケーションの開発に最適なオープンソースで人気のある汎用スクリプト言語です。これは、HTMLに埋め込むことができるサーバー側のスクリプト言語です。
-現在、**php **、すなわち **php 5.6 ** 、 **7.0、**  8.0 **の3つのサポートバージョンがあります。意味 **PHP 5.3 ** 、 **5.4、** 、および **5.5**  はすべて終了に達しました。セキュリティの更新ではサポートされなくなりました。まず、PHP-FPMにPHP 7.0とPHP 7.2をインストールしましょう。
-実際、インストールで移動する前に、最初にPHP-fpmであることが記載されています。 **PHP-FPM **（ **FastCGI Process Manager**  の頭字語）は、非常に人気のある代替PHP（HyperText Processor）FastCGI実装です。 PHP-FPMには、頻繁にトラフィックを受け取るWebサイトに有益であることが証明できる多数の機能が含まれています。
+## 複数のPHPバージョンをインストールします {#php}
+
+ **PHP** （ **PHP：HyperText Preprocessor** の再帰的頭字語）は、広く使用され、WebサイトやWebベースのアプリケーションの開発に最適なオープンソースで人気のある汎用スクリプト言語です。これは、HTMLに埋め込むことができるサーバー側のスクリプト言語です。
+現在、  **php** 、すなわち  **php 5.6**  、  **7.0、**  8.0  **の3つのサポートバージョンがあります。意味**  PHP 5.3  **、** 5.4、** 、および **5.5** はすべて終了に達しました。セキュリティの更新ではサポートされなくなりました。まず、PHP-FPMにPHP 7.0とPHP 7.2をインストールしましょう。
+実際、インストールで移動する前に、最初にPHP-fpmであることが記載されています。  **PHP-FPM** （ **FastCGI Process Manager**  の頭字語）は、非常に人気のある代替PHP（HyperText Processor）FastCGI実装です。 PHP-FPMには、頻繁にトラフィックを受け取るWebサイトに有益であることが証明できる多数の機能が含まれています。
 最初にPHP 7.0と7.2をインストールするには、PHPリポジトリをサーバーに追加して、複数のバージョンのPHPをインストールする必要があります。次のコマンドでOndrej PHPリポジトリを追加できます。
 ```
 sudo apt-get install software-properties-common -y
@@ -52,13 +54,14 @@ systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-## php   {#web}で複数のWebサイトを作成する
+## PHPで複数のWebサイトを作成します {#web}
+
 デフォルトページは/var/www/html/locationに配置されます。静的ページをここに配置するか、仮想ホストを使用して他の場所を配置できます
 ```
 mkdir /var/www/html/site1.containerize.com
 mkdir /var/www/html/site2.containerize.com
 ```
-次に、サイト1のサンプルindex.phpファイルを作成します。
+次に、Site1のサンプルindex.phpファイルを作成します。
 ```
 vi /var/www/html/site1.containerize.com/index.php
 ```
@@ -104,7 +107,8 @@ chown -R www-data:www-data /var/www/html/site1.containerize.com
 chown -R www-data:www-data /var/www/html/site2.containerize.com
 ```
 
-## configure nginx   {#configure}
+## nginxを構成します {#configure}
+
 次に、PHP 7.0を使用するDomain Site1.Containerize.comのNGINX仮想ホストファイルを作成する必要があります。 PHP 7.2を使用するSite2.Containerize.comのもう1つ。
 ```
 vi /etc/nginx/sites-available/site1.containerize.com.conf
@@ -169,17 +173,19 @@ systemctl restart php7.2-fpm
 ```
 
 ## 結論 {#conclusion}
+
 このチュートリアルでは、Ubuntuで複数のPHPバージョンを作成する方法について説明しました。 Nginxのインストール方法を学びました。次に、Nginxで2つの異なるWebサイトをセットアップする方法を検討しました。そして最後に、NGINXを使用してPHPの異なるバージョンで2つの異なるWebサイトを構成する方法を学びました。チュートリアルがあなたを助けてくれることを願っています。
 
 ## 探検
   * [nginxをリバースプロキシとしてセットアップして構成する方法][6]
   * [アプリケーションのロードバランサーとしてnginxを使用する方法][7]
 
-  
-[1]: #nginx
-[2]: #php
-[3]: #web
-[4]: #configure
-[5]: #conclusion
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+
+ [1]: #nginx
+ [2]: #php
+ [3]: #web
+ [4]: #configure
+ [5]: #conclusion
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/

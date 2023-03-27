@@ -15,15 +15,16 @@ categories: ['Game Development Software']
 
 
 ## **Genel Bakış** 
-Açık kaynaklı oyun geliştirme öğretici serimizde, [Oyun Geliştirme Eğitimi | GDEPOSP'DA PLAYER hareketi][1], [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi][2], [Global Oyun Endüstrisi Nasıl Açık Kaynak Yazılımlardan yararlanıyor][3] ve [Yeni Başlayanlar Oyun Gelişimine Başlamak İçin Gdeelop öğreticisi][4 ]. Bu öğretici makale, aşağıdaki noktaları kapsayarak ücretsiz açık kaynak [süper güçler][5] kullanarak oyun geliştirmeye başlamakla ilgilidir.
-  ***[Oyun Animasyon Türleri][6]** 
-  ***[Sprite nasıl oluşturulur?][7]** 
-  ***[sahnelerle çalışmak][8]** 
-  ***[Oyunu Localhost'ta başlatmak][9]** 
-  ***[Sonuç][10]** 
+Açık kaynaklı oyun geliştirme öğretici serimizde, [Oyun Geliştirme Eğitimi | GDEPLOVE'de Oyuncu Hareketi][1], [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi][2], [Global Oyun Endüstrisi Nasıl Açık Kaynak Yazılımdan yararlanıyor][3] ve [Yeni Başlayanlar Oyun Gelişimine Başlamak İçin Gdepelop Eğitimi][4 ]. Bu öğretici makale, aşağıdaki noktaları kapsayarak ücretsiz açık kaynak [süper güçler][5] kullanarak oyun geliştirmeye başlamakla ilgilidir.
+* **[Oyun Animasyon Türleri][6]** 
+* **[Sprite nasıl oluşturulur?][7]** 
+* **[sahnelerle çalışmak][8]** 
+* **[Oyunu Localhost'ta başlatmak][9]** 
+* **[Sonuç][10]** 
 Yeni başlayanlar için kendi kendine barındırma yetenekleriyle birlikte gelen birçok açık kaynaklı oyun geliştirme yazılımı vardır. Bununla birlikte, [Superpowers][5] platformlar arası 2D ve 3D oyun oluşturma yazılımıdır. Oyun geliştiricileri için oyun geliştirmeleri kolaylaştıran yerleşik kütüphaneler ve oyun örnekleri sağlar. Bu ücretsiz oyun tasarım uygulaması TypeScript'te yazılmıştır ve tüm belgeler geliştirme ve dağıtım ile ilgili [GitHub][11] 'te mevcuttur. Bu blog yazısında, kullanımlarıyla ilgili süper güçleri keşfedeceğiz.
 
-## Oyun Animasyon Türleri   {#types}
+## Oyun Animasyon Türleri {#types}
+
 Animasyonlar video oyunlarının hayati bir parçasıdır. Oyunlardaki karakterler kullanıcının eylemlerine yanıt vermelidir, animasyon pürüzsüz ve ani olmalıdır. Bu, birden fazla kare ve animatörün yönetilmesi ile ilgilidir. Ayrıca, nesnelerin üç boyutlu alanda hareket ettiği 2D ve 3D animasyonlar vardır. Oyun geliştiricileri ve grafik tasarımcıları 3D modeller oluşturur. Animasyonlar oyunun doğasına bağlıdır ve en yaygın türler aşağıdaki gibidir.
 **Yürüyüş Animasyonu:**  Yürüyüş Animasyonu, karakterlerin her adımı canlandırdığı ve yürüyüş çizimleri verdiği bir yürüyüş sürecinin oluşturulmasıyla ilgilidir.
 **Boşta animasyon:**  Bu, kullanıcının herhangi bir denetleyiciye basmadığı için karakterin hiçbir şey yapmadığı çok önemli bir animasyon türüdür.
@@ -31,7 +32,8 @@ Animasyonlar video oyunlarının hayati bir parçasıdır. Oyunlardaki karakterl
 **Dövüş Animasyonu** : Dövüş oyunlarında, birden fazla oyun karakteri birbirleriyle savaşır.
 **Atlama Animasyonu** : Bu tür animasyon daha iyi beceri ve uzmanlık gerektirir. Karakter, atlama illüstrasyonu yapmak için vücudu sıkıştırır ve serbest bırakır.
 
-## Sprite nasıl oluşturulur?   {#Sprites}
+## Sprite nasıl oluşturulur? {#sprites}
+
 Oyun Yapma Kılavuzu'nun bu bölümü, kullanıcıların proje oluşturmasını ve oyun için spritel oluşturmaya başlamasını sağlar. Sprite, sadece oyunlarda değil, aynı zamanda web tasarımının bir parçası olan statik olmayan görüntüler veya grafiklerdir. Bunlar normalde sürekli yenilenen bir arka plan üzerine çizilir.
 Devam etmeden önce, makinenizde süper güçler ayarladığınızdan emin olun. Bu ücretsiz oyun oluşturma platformunu kurmak için bu bağlantıyı [Video Oyunu Programcıları için HTML5 Oyun Geliştirme Eğitimi][2] takip edebilirsiniz.
 İlk olarak, uygulamayı tarayıcıya açın ve yeni bir boş proje oluşturalım. Aşağıdaki resimde gösterildiği gibi.
@@ -52,7 +54,8 @@ Bundan sonra animasyonlar oluşturalım. Bunu Animasyon sekmesindeki “Yeni” 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-13.12.21-1024x578.png" alt="Yeni başlayanlar için oyun geliştirme yazılımı">}}
 
 
-## sahnelerle çalışmak   {#scenes}
+## Sahnelerle çalışmak {#scenes}
+
 Bu bölümde, oyunumuza bir sahne ekleyeceğiz. Bunun için yine Varlıklar iletişim kutusunu açın ve “Sahne” yi seçin ve Oluştur düğmesine basın. Şimdi aşağıdaki resimde gösterildiği gibi sağ üst köşede bulunan yıldız düğmesini tıklayarak bir aktör oluşturun.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-14.07.34-1024x580.png" alt="Yeni başlayanlar için sıfırda bir oyun nasıl yapılır">}}
@@ -64,7 +67,8 @@ Kamera modunu değiştirebilirsiniz, böylece aşağıdaki resimde gösterildiğ
 
 Sol alt köşede, Ayarlar seçeneğine gidin ve açın. “Sprite” ve “Kiremit haritası” bölümleri altında, 16'yı “Birim başına piksel” e ekleyin. Ardından “Varsayılan Kamera Modu” nda, “Sahne” bölümünün altındaki 2D'yi seçin. Ayrıca, “Kiremit haritası” bölümü altında, varsayılan genişlik 36, varsayılan yükseklik 28 ve karo seti ızgara boyutu 16. Kaydedilmeye gerek yoktur, bunun yerine her şey otomatik havada bulunur.
 
-## Localhost'ta oyunu başlatma   {#local}
+## Oyunu Localhost'ta başlatmak {#local}
+
 Bu nedenle, ilk oyunumuzun Süper Güç Animasyonunu başlatmaya yaklaşıyoruz. Ancak, yine Ayarlar sekmesine gidin ve sahneyi sol yan panelden sürükleyin ve aşağıdaki resimde gösterildiği gibi “Başlangıç ​​Sahnesi” ne kadar bırakın.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.29.34-1024x578.png" alt="Yeni başlayanlar için sıfırda bir oyun nasıl yapılır">}}
@@ -74,8 +78,9 @@ Bu nedenle, ilk oyunumuzun Süper Güç Animasyonunu başlatmaya yaklaşıyoruz.
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.42.14-1024x576.png" alt="Oyun Gelişimine Başlamak">}}
 
 
-## Sonuç   {#Conclusion}
-Bu, yeni başlayanlar için sıfırda bir oyun yapmayı öğrendiğimiz öğreticinin sonu. Bu nedenle, oyun geliştirme yazılımının ayrıntılı belgeleri olduğunda oyun geliştirmeye başlamak kolaylaşır. Son olarak, [**Containerize.com** ][12] daha fazla açık kaynak konuları ve ürünleri hakkında makale yazma sürecindedir. Bu nedenle, düzenli güncellemeler için lütfen bu [oyun geliştirme yazılımı][13] kategorisiyle iletişim halinde olun.
+## Çözüm {#Çözüm}
+
+Bu, yeni başlayanlar için sıfırda bir oyun yapmayı öğrendiğimiz öğreticinin sonu. Bu nedenle, oyun geliştirme yazılımının ayrıntılı belgeleri olduğunda oyun geliştirmeye başlamak kolaylaşır. Son olarak, [ **Containerize.com** ][12] daha fazla açık kaynak konuları ve ürünleri hakkında makale yazma sürecindedir. Bu nedenle, düzenli güncellemeler için lütfen bu [oyun geliştirme yazılımı][13] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
   * [Gdeelp][14]
@@ -85,7 +90,8 @@ Bu, yeni başlayanlar için sıfırda bir oyun yapmayı öğrendiğimiz öğreti
   * [Panda3d][17]
   * [Playcanvas][18]
 
-  
+
+
 [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
 [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/

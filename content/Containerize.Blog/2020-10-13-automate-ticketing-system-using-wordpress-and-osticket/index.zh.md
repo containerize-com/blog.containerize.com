@@ -21,6 +21,7 @@ Osticket是一种开源和免费的HelpDesk票务系统。客户可以在Osticke
   * [结论][4]
 
 ## 集成过程： {#integration}
+
 Osticket和WordPress集成需要WordPress网站上的联系表，并具有以下字段
   1.帮助主题
   2.电子邮件
@@ -29,7 +30,8 @@ Osticket和WordPress集成需要WordPress网站上的联系表，并具有以下
   5.消息
 联系表必须发送电子邮件，因为此插件将WP_Mail功能挂钩以获取表单的数据。
 
-## WordPress插件安装： {#WordPress}
+## WordPress插件安装： {#wordpress}
+
   1.转到WordPress网站的管理仪表板。
   2.接下来转到插件部分。
   3.然后安装此[插件][5]。
@@ -42,7 +44,8 @@ Osticket和WordPress集成需要WordPress网站上的联系表，并具有以下
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Osticket-wordpress集成到自动化票务系统">}}
 
 
-## 身份验证过程： {#auth}
+## 身份验证程序： {#auth}
+
 API身份验证是通过在Osticket管理面板中配置的API键执行的。生成API键并链接到源IP地址，该源IP地址已根据HTTP API请求的源IP进行了验证。创建API密钥
   1.转到Osticket的管理面板。
   2.单击“管理”。
@@ -56,6 +59,7 @@ API身份验证是通过在Osticket管理面板中配置的API键执行的。生
 
 
 ## 结论： {#conclusion}
+
 Osticket-WordPress集成将自动化票务过程。因此，这将使支持团队的生活更轻松。 WordPress网站上的查询将自动转换为Osticket上的支持门票。因此，支持团队可以更轻松有效地管理所有客户的查询。支持代理将通过电子邮件通知通知。因此，代理可以按时解决客户的查询。 Osticket上的评论部分可以帮助客户和支持代理进行有效和及时的沟通。这也使管理人员更容易跟踪每张票的进度。
 
 ## 探索：
@@ -64,7 +68,8 @@ Osticket-WordPress集成将自动化票务过程。因此，这将使支持团�
   * [WordPress  - 免费开源，最广泛使用的CMS和博客工具][8]
   * [如何使用Osticket设置在线帮助台软件][9]
 
-  
+
+
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

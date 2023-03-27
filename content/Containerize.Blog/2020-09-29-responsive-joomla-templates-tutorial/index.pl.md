@@ -15,26 +15,28 @@ categories: ['Content Management']
 
 
 ## Przegląd
-Dobrze zaprojektowana witryna biznesowa odgrywa istotną rolę, aby przynieść i zatrzymać odwiedzających, zapewniając im łatwość nawigacji.**Pełna funkcja Joomla**ułatwia swoim użytkownikom z wieloma responsywnymi układami i opracowywaniem szablonów Joomla, które kontrolują estetykę witryny biznesowej.
+Dobrze zaprojektowana witryna biznesowa odgrywa istotną rolę, aby przynieść i zatrzymać odwiedzających, zapewniając im łatwość nawigacji. **Pełna funkcja Joomla** ułatwia swoim użytkownikom z wieloma responsywnymi układami i opracowywaniem szablonów Joomla, które kontrolują estetykę witryny biznesowej.
 Podczas fazy rozwoju umieszczenie elementów projektowych jest bardzo ważne do uzyskania:
   * Konsystencja
   * Łatwa nawigacja
   * Prostota
   * Kompatybilność mobilna
   * Czytelność
-Oto**szablony Joomla**. To oprogramowanie typu open source zapewnia opracowywanie lub korzystanie z predefiniowanych układów responsywnych dla wszystkich stron internetowych zamiast pisania kodu dla każdej strony osobno.
+Oto **szablony Joomla** . To oprogramowanie typu open source zapewnia opracowywanie lub korzystanie z predefiniowanych układów responsywnych dla wszystkich stron internetowych zamiast pisania kodu dla każdej strony osobno.
 W tym poście na blogu dowiemy się następujących rzeczy, jak tworzyć i skonfigurować szablon przyjazny dla użytkownika**w Joomla.
-* [**Czym są układy Joomla?**][2]
-* [**Jak utworzyć prosty responsywny szablon w Joomla?**][3]
-* [**Jak zainstalować szablon Joomla?**][4]
-* [**Wniosek**][5]
+* [ **Czym są układy Joomla?** ][2]
+* [ **Jak utworzyć prosty responsywny szablon w Joomla?** ][3]
+* [ **Jak zainstalować szablon Joomla?** ][4]
+* [ **Wniosek** ][5]
 
-## Co to są układy Joomla?   {#Co}
-Joomla zapewnia szablony przednich, a także na tylnym końcu. Jest wyposażony w wiele gotowych szablonów i oferuje programistom zbudowanie**darmowe responsywne motywy bootstrap**zgodnie z ich przypadkami użycia. Istnieją dwa rodzaje szablonów w Joomla.
-* * Szablony front-end:**Związane z użytkownikiem stojącym w obliczu części witryny biznesowej.
-* * Szablony zaplecza:**Te szablony są powiązane z logiką biznesową witryny.
+## Co to są układy Joomla? {#what}
 
-## Jak utworzyć prosty responsywny szablon w Joomla?   {#Jak}
+Joomla zapewnia szablony przednich, a także na tylnym końcu. Jest wyposażony w wiele gotowych szablonów i oferuje programistom zbudowanie **darmowe responsywne motywy bootstrap** zgodnie z ich przypadkami użycia. Istnieją dwa rodzaje szablonów w Joomla.
+**Szablony front-end:**  Związane z użytkownikiem stojącym w obliczu części witryny biznesowej.
+**Szablony zaplecza:**  Te szablony są powiązane z logiką biznesową witryny.
+
+## Jak stworzyć prosty responsywny szablon w Joomla? {#how}
+
 W tej sekcji omówimy kroki tego samouczka szablonu Joomla.
 Przed wskoczeniem do tej sekcji upewnij się, że rozumiesz następujące czynności:
   * Html
@@ -43,29 +45,29 @@ Przed wskoczeniem do tej sekcji upewnij się, że rozumiesz następujące czynno
   * Php
 Tak więc tworzenie niestandardowych szablonów w Joomli nigdy nie było tak twarde i złożone. Zacznijmy jednak tworzyć nasz pierwszy szablon Joomla.
 
-## **Struktura katalogu konfiguracji**
-Po pierwsze, utwórz folder o nazwie „**MyTemplate**” wewnątrz folderu „**Szablony**”.
-Utwórz następujące pliki w folderze „**MyTemplate**”:
-***index.php**: To jest plik podstawowy zawierający kod HTML i PHP dla całej strony szablonów.
-***TemplateTetails.xml**: Ten plik zawiera meta dane szablonu i jest obowiązkowy za zauważony przez Joomla.
-Teraz utwórz trzy foldery w folderze „**MyTemplate**” z następującymi nazwami:
-***JS**: Ten folder będzie zawierał wszystkie pliki JavaScript potrzebne dla szablonu
-***CSS**: Wszystkie pliki CSS do stylizacji pojawią się w tym folderze
-***Obrazy**: Obrazy użyte przez szablon znajdują się w tym folderze
-Utwórz plik CSS o nazwie „**szablon.css**” wewnątrz folderu „**css**”.
+## **Struktura katalogu konfiguracji** 
+Po pierwsze, utwórz folder o nazwie „ **MyTemplate**” wewnątrz folderu „**Szablony** ”.
+Utwórz następujące pliki w folderze „ **MyTemplate** ”:
+* **index.php** : To jest plik podstawowy zawierający kod HTML i PHP dla całej strony szablonów.
+* **TemplateTetails.xml** : Ten plik zawiera meta dane szablonu i jest obowiązkowy za zauważony przez Joomla.
+Teraz utwórz trzy foldery w folderze „ **MyTemplate** ” z następującymi nazwami:
+* **JS** : Ten folder będzie zawierał wszystkie pliki JavaScript potrzebne dla szablonu
+* **CSS** : Wszystkie pliki CSS do stylizacji pojawią się w tym folderze
+* **Obrazy** : Obrazy użyte przez szablon znajdują się w tym folderze
+Utwórz plik CSS o nazwie „ **szablon.css**” wewnątrz folderu „**css** ”.
 ```
 * mytemplate/
-**css/
+** css/
 *** template.css
-**images/
-**js/
-**index.php
-**templateDetails.xml
+** images/
+** js/
+** index.php
+** templateDetails.xml
 ```
 W końcu tak będzie wyglądać struktura katalogu.
 
 ## Umieśćmy jakiś kod
-Umieść ten kod w pliku**TemplateTails.xml**.
+Umieść ten kod w pliku **TemplateTails.xml** .
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,7 +103,7 @@ Umieść ten kod w pliku**TemplateTails.xml**.
 ```
 Jak wspomniano wcześniej, ten plik zawiera metadane dotyczące responsywnych układów zdefiniowanych między znacznikami znaczników. Możesz jednak zmienić ogólne informacje, takie jak nazwa, autor i opis.
 Ten plik zawiera również informacje o innych plikach i folderach używanych przez szablon.
-Teraz otwórz plik**index.php**i zacznij umieszczać następujący kod:
+Teraz otwórz plik **index.php** i zacznij umieszczać następujący kod:
 ```
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 ```
@@ -114,7 +116,7 @@ Ma to poinformować przeglądarkę o typu dokumentu.
 <html xmlns="http://www.w3.org/1999/xhtml" 
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 ```
-Dokumenty HTML zaczynają się od tego wiersza, a atrybut**XMLNS**informuje przestrzeń nazw XML dla dokumentu.
+Dokumenty HTML zaczynają się od tego wiersza, a atrybut **XMLNS** informuje przestrzeń nazw XML dla dokumentu.
 ```
 <head>
     <jdoc:include type="head" />
@@ -168,8 +170,8 @@ Sekcja ciała rozpoczyna się po tym, jak sekcja Head zawiera wszystkie dane, kt
 ```
 <jdoc:include type="modules" name="position-7" style="well" />
 ```
-To stwierdzenie nazywa się instrukcja JDOC, która służy do instruowania Joomli do dodania modułu o nazwie „Pozycja-7”. Istnieje kilka instrukcji JDOC, które często są używane w**Joomla Tablate Development**.
-Jest to ostateczny kompletny plik**index.php**z całym kodem wymaganym dla podstawowego szablonu Joomla.
+To stwierdzenie nazywa się instrukcja JDOC, która służy do instruowania Joomli do dodania modułu o nazwie „Pozycja-7”. Istnieje kilka instrukcji JDOC, które często są używane w **Joomla Tablate Development** .
+Jest to ostateczny kompletny plik **index.php** z całym kodem wymaganym dla podstawowego szablonu Joomla.
 ```
 <!DOCTYPE html>
 
@@ -220,7 +222,8 @@ Jest to ostateczny kompletny plik**index.php**z całym kodem wymaganym dla podst
 ```
 Wszystko jest na miejscu dla bardzo podstawowego szablonu. Teraz nadszedł czas, aby zainstalować go na serwerze Joomla i zobaczyć, jak to się dzieje.
 
-## Jak zainstalować szablon Joomla?   {#zainstalować}
+## Jak zainstalować szablon Joomla? {#install}
+
 Proces instalacji szablonu Joomla jest dość prosty i łatwy. Istnieją następujące kroki do zainstalowania:
 Przejdź do „Rozszerzenia -> Zarządzaj -> Zainstaluj
 
@@ -237,9 +240,10 @@ Po zainstalowaniu szablonu możesz uzyskać dostęp do i zmodyfikować pliki sza
 
 Teraz możesz wyświetlić swój pierwszy szablon Joomla w przeglądarce!
 
-## Wniosek   {#Conclusion}
-Dobry i responsywny szablon jest podstawą ogólnego modelowania witryn.**Responsywne układy**w Joomla są wielofunkcyjne i mogą być używane do różnych projektów. Od pisania kodu po opracowywanie szablonu Joomla staje się bardzo proste za pomocą intuicyjnego pulpitu administratora. Joomla zapewnia pełną kontrolę nad opracowywaniem szablonu, aby sprostać pragnieniu użytkownika.
-Ponieważ kategoria oprogramowania**CMS**znajduje się w ramach spójnych ulepszeń, a więcej samouczków na temat innych systemów zarządzania treścią zostanie dodane do listy, pozostań w kontakcie z sekcją [System zarządzania treścią][6] w celu regularnych aktualizacji.
+## Wniosek {#Wniosek}
+
+Dobry i responsywny szablon jest podstawą ogólnego modelowania witryn. **Responsywne układy** w Joomla są wielofunkcyjne i mogą być używane do różnych projektów. Od pisania kodu po opracowywanie szablonu Joomla staje się bardzo proste za pomocą intuicyjnego pulpitu administratora. Joomla zapewnia pełną kontrolę nad opracowywaniem szablonu, aby sprostać pragnieniu użytkownika.
+Ponieważ kategoria oprogramowania **CMS** znajduje się w ramach spójnych ulepszeń, a więcej samouczków na temat innych systemów zarządzania treścią zostanie dodane do listy, pozostań w kontakcie z sekcją [System zarządzania treścią][6] w celu regularnych aktualizacji.
 
 ## odpowiednie strony produktów
 Możesz znaleźć istotne następujące linki:
@@ -256,7 +260,8 @@ Możesz znaleźć istotne następujące linki:
   * [Rafineria CMS][16]
   * [Locomotivecms][17]
 
-  
+
+
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

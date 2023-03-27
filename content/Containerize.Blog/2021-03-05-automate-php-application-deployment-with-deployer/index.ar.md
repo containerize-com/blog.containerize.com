@@ -13,16 +13,18 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/deployer-blog-post.png" alt="أداة نشر PHP">}}
 
-إنها مهمة حاسمة للغاية لنشر التطبيق على الخادم بعد التطوير. غالبًا ما يتم إصدار ميزات جديدة وإصلاحات الأخطاء من قبل الفرق. لذلك ، من الأفضل للفرق التخلص من العمل اليدوي وأتمتة عملية نشر البرامج ****. سيسمح لفرق البرمجيات بالتركيز على المهام الأكثر أهمية. هناك العديد من أداة نشر المصدر المفتوح  **هناك ، لكننا سنركز على**   PHP Deployer** في هذا البرنامج التعليمي. سنغطي القسم التالي في هذا المنشور.
-  *[ **ما هو النشر** ][1]
-  *[ **تثبيت Deployer** ][2]
-  *[ **نشر تطبيق PHP** ][3]
-  *[ **الخلاصة** ][4]
+إنها مهمة حاسمة للغاية لنشر التطبيق على الخادم بعد التطوير. غالبًا ما يتم إصدار ميزات جديدة وإصلاحات الأخطاء من قبل الفرق. لذلك ، من الأفضل للفرق التخلص من العمل اليدوي وأتمتة عملية نشر البرامج*  ***. سيسمح لفرق البرمجيات بالتركيز على المهام الأكثر أهمية. هناك العديد من أداة نشر المصدر المفتوح** هناك ، لكننا سنركز على **PHP Deployer**  في هذا البرنامج التعليمي. سنغطي القسم التالي في هذا المنشور.
+* [  **ما هو النشر**  ][1]
+* [  **تثبيت Deployer**  ][2]
+* [  **نشر تطبيق PHP**  ][3]
+* [  **الخلاصة**  ][4]
 
-## ما هو Deployer   {#what}
-[**Deployer **][5] عبارة عن أداة نشر مجانية ومفتوحة المصدر  **PHP ** . يتيح فرق البرمجيات لأتمتة سير عمل النشر للتطبيقات المستندة إلى PHP. من السهل جدًا التثبيت وسهل الاستخدام. يمكن لأي شخص من المبتدئين إلى الخبرة على مستوى الخبراء استخدامه بسرعة لنشر تطبيقات PHP. يأتي Deployer مع وصفات/نصوص خارج الصندوق لأطر PHP الشهيرة ، CMS ، وبرامج عربة التسوق. علاوة على ذلك ، يمكنك القيام بنشر  **لارافيل **  مع أداة نشر المصدر المفتوحة هذه **. يمكن للمطور استخدام وصفات مدمجة لمشاريعه واستخدامها للنشر. علاوة على ذلك ، يمكنك بسهولة إنشاء البرنامج النصي للتثبيت/النشر باستخدام معالج  **PHP**  . علاوة على ذلك ، توفر أداة النشر المجانية هذه** ميزات ممتازة مثل عمليات النشر صفرًا ، وتراجعًا إلى الإصدار السابق ، SSH ، التنفيذ الموازي ، وغيرها الكثير.
+## ما هو النشر {#What}
 
-## تثبيت Deployer   {#Installing}
+[  **Deployer** ][5] عبارة عن أداة نشر مجانية ومفتوحة المصدر  **PHP**  . يتيح فرق البرمجيات لأتمتة سير عمل النشر للتطبيقات المستندة إلى PHP. من السهل جدًا التثبيت وسهل الاستخدام. يمكن لأي شخص من المبتدئين إلى الخبرة على مستوى الخبراء استخدامه بسرعة لنشر تطبيقات PHP. يأتي Deployer مع وصفات/نصوص خارج الصندوق لأطر PHP الشهيرة ، CMS ، وبرامج عربة التسوق. علاوة على ذلك ، يمكنك القيام بنشر  **لارافيل**  مع أداة نشر المصدر المفتوحة هذه  **. يمكن للمطور استخدام وصفات مدمجة لمشاريعه واستخدامها للنشر. علاوة على ذلك ، يمكنك بسهولة إنشاء البرنامج النصي للتثبيت/النشر باستخدام معالج**  PHP **. علاوة على ذلك ، توفر أداة النشر المجانية هذه**  ميزات ممتازة مثل عمليات النشر صفرًا ، وتراجعًا إلى الإصدار السابق ، SSH ، التنفيذ الموازي ، وغيرها الكثير.
+
+## تثبيت Deployer {#Installing}
+
   * النشر يعتمد على PHP. يجب عليك التأكد من أن PHP يعمل على الخادم الخاص بك. ومع ذلك ، يمكنك استخدام الأمر أدناه لتثبيت PHP على Ubuntu.
 ```
 sudo apt-get install php
@@ -34,7 +36,8 @@ sudo mv Deployer.phar /usr/local/bin/dep
 sudo chmod +x /usr/local/bin/dep
 ```
 
-## نشر تطبيق PHP   {#deploy}
+## نشر تطبيق PHP {#Deploy}
+
 اتبع الإرشادات خطوة بخطوة إلى  **نشر تطبيق PHP**  مع النشر.
   * قم بإنشاء دليل للنشر وانتقل إلى الدليل الذي تم إنشاؤه حديثًا.
 ```
@@ -104,10 +107,10 @@ task('deploy', [
 after('deploy:failed', 'deploy:unlock');
 ```
 يجب عليك تغيير المتغيرات التالية لنشر تطبيق PHP الخاص بك.
-  * **تعيين ("التطبيق" ، "My_Project") ؛**  - تعيين اسم التطبيق.
-  * **SET ('RESPOSTORY' ، ") ؛** -قم بتعيين مسار مستودع git مثل" git@github.com: masood/first-app-with-deployer.git '. يجب عليك تعيين مفتاح النشر على مستودع GitHub الخاص بك. يمكنك البحث عن كيفية إنشاء مفتاح SSH في الخادم ، إذا لم تكن على دراية به.
- *** المضيف ("project.com")
-    -> SET ("deploy_path" ، "~/{{application}} ') ؛** -تعيين اسم المشروع وتحديد المسار حيث تريد تخزين الملفات لتطبيقك. سيبدو مثل/var/www/html/deployer.
+*  **تعيين ("التطبيق" ، "My_Project") ؛**  - تعيين اسم التطبيق.
+*  **SET ('RESPOSTORY' ، ") ؛**  -قم بتعيين مسار مستودع git مثل" git@github.com: masood/first-app-with-deployer.git '. يجب عليك تعيين مفتاح النشر على مستودع GitHub الخاص بك. يمكنك البحث عن كيفية إنشاء مفتاح SSH في الخادم ، إذا لم تكن على دراية به.
+***المضيف ("project.com")
+    -> SET ("deploy_path" ، "~/{{application}} ') ؛**-تعيين اسم المشروع وتحديد المسار حيث تريد تخزين الملفات لتطبيقك. سيبدو مثل/var/www/html/deployer.
 أخيرًا ، قم بتشغيل الأمر أدناه لنشر تطبيق PHP الخاص بك.
 ```
 dep deployer
@@ -117,38 +120,40 @@ dep deployer
 dep rollback
 ```
 
-## الخاتمة   {#conclusion}
-لقد ناقشنا حول النشر وكيفية تثبيته في هذا البرنامج التعليمي. علاوة على ذلك ، قمنا بإنشاء مبادئ توجيهية كاملة لنشر التطبيق المستند إلى PHP من مستودع GitHub. نأمل أن يساعدك منشور المدونة هذا على بدء **نشر تطبيق PHP ** مع Deployer. علاوة على ذلك ، سنكتب المزيد عن أداة نشر PHP**  في البرامج التعليمية القادمة.
-أخيرًا ، [**Containerize.com **][6] في عملية ثابتة لكتابة منشورات المدونة على أحدث منتجات مفتوحة المصدر. لذلك ، ابق على اتصال مع هذه الفئة [**  الأدوات النشر هذه**][7] لآخر التحديثات.
+## خاتمة {#خاتمة}
+
+لقد ناقشنا حول النشر وكيفية تثبيته في هذا البرنامج التعليمي. علاوة على ذلك ، قمنا بإنشاء مبادئ توجيهية كاملة لنشر التطبيق المستند إلى PHP من مستودع GitHub. نأمل أن يساعدك منشور المدونة هذا على بدء  **نشر تطبيق PHP**  مع Deployer. علاوة على ذلك ، سنكتب المزيد عن أداة نشر PHP**في البرامج التعليمية القادمة.
+أخيرًا ، [  **Containerize.com** ][6] في عملية ثابتة لكتابة منشورات المدونة على أحدث منتجات مفتوحة المصدر. لذلك ، ابق على اتصال مع هذه الفئة [ **الأدوات النشر هذه**  ][7] لآخر التحديثات.
 
 ## يستكشف
 قد تجد الروابط التالية ذات الصلة:
-  *[ **Deployer** ][8]
-  *[ **Jenkins** ][9]
-  *[ **بدون طيار** ][10]
-  *[ **Capistrano** ][11]
-  *[ **Rancher** ][12]
-  *[ **concourse** ][13]
-  *[ **Ansible** ][14]
-  *[ **GOCD** ][15]
-  *[ **أفضل 5 أدوات نشر المصدر المفتوح في 2021** ][16]
-  *[ **التكامل المستمر والنشر المستمر من خادم التحكم في المصدر** ][17]
+* [  **Deployer**  ][8]
+* [  **Jenkins**  ][9]
+* [  **بدون طيار**  ][10]
+* [  **Capistrano**  ][11]
+* [  **Rancher**  ][12]
+* [  **concourse**  ][13]
+* [  **Ansible**  ][14]
+* [  **GOCD**  ][15]
+* [  **أفضل 5 أدوات نشر المصدر المفتوح في 2021**  ][16]
+* [  **التكامل المستمر والنشر المستمر من خادم التحكم في المصدر**  ][17]
 
-  
-[1]: #What
-[2]: #Installing
-[3]: #Deploy
-[4]: #Conclusion
-[5]: https://deployer.org/
-[6]: https://containerize.com
-[7]: https://blog.containerize.com/category/deployment-tools/
-[8]: https://products.containerize.com/deployment-tools/deployer
-[9]: https://products.containerize.com/deployment-tools/jenkins/
-[10]: https://products.containerize.com/deployment-tools/drone/
-[11]: https://products.containerize.com/deployment-tools/capistrano/
-[12]: https://products.containerize.com/deployment-tools/rancher/
-[13]: https://products.containerize.com/deployment-tools/concourse/
-[14]: https://products.containerize.com/deployment-tools/ansible/
-[15]: https://products.containerize.com/deployment-tools/gocd/
-[16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
-[17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/
+
+
+ [1]: #What
+ [2]: #Installing
+ [3]: #Deploy
+ [4]: #Conclusion
+ [5]: https://deployer.org/
+ [6]: https://containerize.com
+ [7]: https://blog.containerize.com/category/deployment-tools/
+ [8]: https://products.containerize.com/deployment-tools/deployer
+ [9]: https://products.containerize.com/deployment-tools/jenkins/
+ [10]: https://products.containerize.com/deployment-tools/drone/
+ [11]: https://products.containerize.com/deployment-tools/capistrano/
+ [12]: https://products.containerize.com/deployment-tools/rancher/
+ [13]: https://products.containerize.com/deployment-tools/concourse/
+ [14]: https://products.containerize.com/deployment-tools/ansible/
+ [15]: https://products.containerize.com/deployment-tools/gocd/
+ [16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+ [17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/

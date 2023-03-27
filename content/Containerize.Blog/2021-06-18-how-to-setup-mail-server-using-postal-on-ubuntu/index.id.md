@@ -13,32 +13,35 @@ categories: ['Transactional Email']
 
 {{< figure align=center src="images/postal-banner.png" alt="Server surat open source">}}
 
-Mengirim email pada berbagai jenis acara diperlukan untuk aplikasi modern. Setiap bisnis membutuhkan server email **yang andal  **untuk email keluar. Lebih lanjut, perusahaan memerlukan server surat untuk mengirim email massal untuk kampanye pemasaran, buletin, dan banyak tugas lainnya. Ada beberapa **  server surat open source  **tersedia untuk ini. Namun, kita akan membahas **  server pos**  secara rinci dalam posting ini dan membahas topik -topik berikut.
+Mengirim email pada berbagai jenis acara diperlukan untuk aplikasi modern. Setiap bisnis membutuhkan server email  **yang andal** untuk email keluar. Lebih lanjut, perusahaan memerlukan server surat untuk mengirim email massal untuk kampanye pemasaran, buletin, dan banyak tugas lainnya. Ada beberapa  **server surat open source**  tersedia untuk ini. Namun, kita akan membahas **server pos**  secara rinci dalam posting ini dan membahas topik -topik berikut.
   * [Apa itu server surat pos?][1]
   * [Fitur Pos][2]
   * [Instalasi Pos][3]
   * [Kesimpulan][4]
 
-## Apa itu server surat pos?   {#Postal}
-[**Pos **][5] adalah server surat open source gratis dan **. Ini adalah server email berfitur lengkap untuk situs web dan aplikasi web. Server Pos Mail adalah alternatif untuk server email  **yang ada **  seperti SendGrid, dan MailGun.  **Pos **  adalah platform pengiriman email open source yang kuat, aman, dan terukur. Semua kode sumber dan dokumentasi tersedia di [ **github ** ][6]. Anda dapat mengunduh, menginstalnya di server pribadi Anda dan tetap mengendalikannya. Anda juga dapat meningkatkan dan meningkatkannya sesuai kebutuhan bisnis. Selain itu,  **server surat pos**   mendukung banyak organisasi.
-Pengguna dapat melihat grafik dan statistik yang menunjukkan volume surat yang masuk & keluar. Selain itu, Anda dapat mengakses antrian pesan keluar & masuk lengkap. Server Pos Mail menyediakan fungsionalitas untuk webhooks. Anda dapat mengatur webhooks untuk menerima informasi langsung tentang informasi pengiriman secara real-time. Ini juga menawarkan retensi pesan yang memungkinkan Anda untuk menyimpan dan memeriksa semua pesan mengirim dan menerima. Pengiriman email sangat penting dalam bisnis untuk memastikan bahwa pengguna mendapatkan email. Namun, terkadang email mengirimkan ke pengguna dan Anda harus menyelidiki masalah ini. Server email yang masuk dan keluar dan keluar ** juga menyediakan penebangan dan alat lengkap untuk melakukan penyelidikan.
+## Apa itu server surat pos? {#Postal}
 
-## fitur pos   {#features}
+[  **Pos** ][5] adalah server surat open source gratis dan  **. Ini adalah server email berfitur lengkap untuk situs web dan aplikasi web. Server Pos Mail adalah alternatif untuk server email**  yang ada  **seperti SendGrid, dan MailGun.**  Pos  **adalah platform pengiriman email open source yang kuat, aman, dan terukur. Semua kode sumber dan dokumentasi tersedia di [**  github **][6]. Anda dapat mengunduh, menginstalnya di server pribadi Anda dan tetap mengendalikannya. Anda juga dapat meningkatkan dan meningkatkannya sesuai kebutuhan bisnis. Selain itu,**  server surat pos**mendukung banyak organisasi.
+Pengguna dapat melihat grafik dan statistik yang menunjukkan volume surat yang masuk & keluar. Selain itu, Anda dapat mengakses antrian pesan keluar & masuk lengkap. Server Pos Mail menyediakan fungsionalitas untuk webhooks. Anda dapat mengatur webhooks untuk menerima informasi langsung tentang informasi pengiriman secara real-time. Ini juga menawarkan retensi pesan yang memungkinkan Anda untuk menyimpan dan memeriksa semua pesan mengirim dan menerima. Pengiriman email sangat penting dalam bisnis untuk memastikan bahwa pengguna mendapatkan email. Namun, terkadang email mengirimkan ke pengguna dan Anda harus menyelidiki masalah ini. Server email yang masuk dan keluar dan keluar**juga menyediakan penebangan dan alat lengkap untuk melakukan penyelidikan.
+
+## Fitur postal {#Features}
+
 Server Pos Mail menawarkan banyak fitur. Namun, kami akan membahas fitur -fitur utama berikut dalam artikel ini.
-**Mengirim email** : Server Pos Mail menyediakan dua teknik untuk email keluar termasuk HTTP API dan SMTP. Anda dapat dengan mudah menggunakan HTTP API untuk integrasi dengan aplikasi web. Anda juga dapat menggunakan server SMTP untuk integrasi dengan aplikasi dan sistem yang ada.
-**Email yang masuk **:  **MAIL Masuk **  Dapat diteruskan ke titik akhir HTTP,  **Server SMTP**  , dan alamat email lainnya menggunakan server pos pos.
-**Pemeriksaan spam dan virus** : Spamassassin dan Clamav dapat diintegrasikan dengan pos untuk secara otomatis memindai pesan yang masuk dan keluar saat mereka melewati server surat. Fitur ini juga dimatikan secara default.
-**Klik dan buka pelacakan** : Pembukaan email dan klik dapat dilacak dengan pos. Pos akan memindai pesan keluar Anda dan mengganti tautan apa pun dengan tautan baru yang bergerak melalui server web pos Anda. Ketika pengguna mengklik tautan, Pos mencatat tindakan dan langsung mengarahkannya ke URL asli. Namun, ini tidak diaktifkan secara default.
-**IP Pools** : Pos memungkinkan Anda mengirim pesan dari berbagai alamat IP. Ini memungkinkan Anda untuk menetapkan beberapa alamat IP ke berbagai server email atau mengirim dari IP yang berbeda tergantung pada pengirim atau alamat penerima.
+ **Mengirim email** : Server Pos Mail menyediakan dua teknik untuk email keluar termasuk HTTP API dan SMTP. Anda dapat dengan mudah menggunakan HTTP API untuk integrasi dengan aplikasi web. Anda juga dapat menggunakan server SMTP untuk integrasi dengan aplikasi dan sistem yang ada.
+ **Email yang masuk** : **MAIL Masuk** Dapat diteruskan ke titik akhir HTTP, **Server SMTP** , dan alamat email lainnya menggunakan server pos pos.
+ **Pemeriksaan spam dan virus** : Spamassassin dan Clamav dapat diintegrasikan dengan pos untuk secara otomatis memindai pesan yang masuk dan keluar saat mereka melewati server surat. Fitur ini juga dimatikan secara default.
+ **Klik dan buka pelacakan** : Pembukaan email dan klik dapat dilacak dengan pos. Pos akan memindai pesan keluar Anda dan mengganti tautan apa pun dengan tautan baru yang bergerak melalui server web pos Anda. Ketika pengguna mengklik tautan, Pos mencatat tindakan dan langsung mengarahkannya ke URL asli. Namun, ini tidak diaktifkan secara default.
+ **IP Pools** : Pos memungkinkan Anda mengirim pesan dari berbagai alamat IP. Ini memungkinkan Anda untuk menetapkan beberapa alamat IP ke berbagai server email atau mengirim dari IP yang berbeda tergantung pada pengirim atau alamat penerima.
 
-## Instalasi Pos   {#installation}
-Ikuti panduan langkah demi langkah di bawah ini untuk menginstal perangkat lunak server postal  ****  di Ubuntu 18.04.
+## Instalasi Pos {#Installation}
+
+Ikuti panduan langkah demi langkah di bawah ini untuk menginstal perangkat lunak server postal****di Ubuntu 18.04.
   * Pertama, Anda perlu menghubungkan server Anda Vis SSH. Jalankan perintah berikut untuk memperbarui sistem dengan paket terbaru yang tersedia.
 ```
 sudo apt-get update
 ```
 
-## # Instal Mariadb Database Server
+### Instal Mariadb Database Server
   * Jalankan perintah untuk menginstal mariadb.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -64,7 +67,7 @@ mysql -u root -p
 ```
 CREATE DATABASE postal CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
-  * Selanjutnya, buat pengguna database yang disebut "postalUser" dengan kata sandi baru.
+  * Selanjutnya, buat pengguna basis data yang disebut "postalUser" dengan kata sandi baru.
 ```
 CREATE USER 'postaluser'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
@@ -78,7 +81,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-## # Instal Ruby
+### Instal Ruby
   * Pertama, tambahkan PPA pihak ketiga untuk menginstal Ruby. Jalankan perintah berikut.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +96,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-## # Instal RabbitMQ
+### Instal RabbitMQ
   * Erlang diharuskan menginstal RabbitMQ jadi, Anda perlu menginstalnya juga. Tambahkan kunci repositori Erlang ke Ubuntu dengan perintah di bawah ini.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +135,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-## # Instal NodeJs
+### Instal NodeJs
   * Tambahkan repositori nodejs dengan perintah berikut.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +145,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-## # Instal Server Surat Pos
+### Instal Server Pos Mail
   * Pertama, Anda perlu membuat pengguna untuk server email pos. Buat dengan perintah berikut.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -247,7 +250,7 @@ This tool is usually only used to create your initial admin user.
 E-Mail Address      : admin@example.com
 First Name          : Admin
 Last Name           : Postal
-Initial Password:   : *********
+Initial Password:   :  ****** ***
 
 User has been created with e-mail address admin@example.com
 ```
@@ -257,8 +260,8 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-## # Instal Nginx
-  * Jalankan perintah di bawah ini untuk menginstal server web nginx.
+### Instal Nginx
+  * Jalankan perintah di bawah ini untuk menginstal Nginx Web Server.
 ```
 sudo apt install nginx
 ```
@@ -280,24 +283,26 @@ sudo systemctl restart nginx
 ```
   * Akhirnya, buka browser Anda dan ketik url https://postal.example.com. Anda akan dialihkan ke halaman login.
 
-## kesimpulan   {#conclusion}
-Kami telah membahas pendahuluan dan fitur utama dari server surat pos secara mendalam. Kami juga menyertakan instruksi langkah demi langkah untuk mengatur agen transfer **email ini** . Selain itu, kami telah memberikan beberapa wawasan tentang pengaturan. Menyiapkan server surat pos adalah proses yang sederhana. Saya harap artikel ini memang bermanfaat dalam mengatur dan mengkonfigurasi server surat pos untuk bisnis Anda.
-Akhirnya, [**containerize.com **][7] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [ **email transaksional**  ][8] ini untuk pembaruan terbaru.
+## Kesimpulan {#Kesimpulan}
+
+Kami telah membahas pendahuluan dan fitur utama dari server surat pos secara mendalam. Kami juga menyertakan instruksi langkah demi langkah untuk mengatur agen transfer  **email ini**  . Selain itu, kami telah memberikan beberapa wawasan tentang pengaturan. Menyiapkan server surat pos adalah proses yang sederhana. Saya harap artikel ini memang bermanfaat dalam mengatur dan mengkonfigurasi server surat pos untuk bisnis Anda.
+Akhirnya, [  **containerize.com** ][7] sedang dalam proses penulisan posting blog yang konsisten pada produk open source terbaru lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [ **email transaksional**  ][8] ini untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
-  *[**Perangkat Lunak Email Transaksional Top** ][9]
-  *[**Potal - Server Source Open Source** ][5]
-  *[**5 Perangkat Lunak Server Sumber Sumber Terbaik Terbaik Untuk Bisnis di 2020** ][10]
+* [  **Perangkat Lunak Email Transaksional Top**  ][9]
+* [  **Potal - Server Source Open Source**  ][5]
+* [  **5 Perangkat lunak server surat open source terbaik untuk bisnis pada tahun 2020**  ][10]
 
-  
-[1]: #Postal
-[2]: #Features
-[3]: #Installation
-[4]: #Conclusion
-[5]: https://products.containerize.com/transactional-email/postal/
-[6]: https://github.com/postalhq/postal
-[7]: https://containerize.com
-[8]: https://blog.containerize.com/category/transactional-email/
-[9]: https://products.containerize.com/transactional-email/
-[10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
+
+
+ [1]: #Postal
+ [2]: #Features
+ [3]: #Installation
+ [4]: #Conclusion
+ [5]: https://products.containerize.com/transactional-email/postal/
+ [6]: https://github.com/postalhq/postal
+ [7]: https://containerize.com
+ [8]: https://blog.containerize.com/category/transactional-email/
+ [9]: https://products.containerize.com/transactional-email/
+ [10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/

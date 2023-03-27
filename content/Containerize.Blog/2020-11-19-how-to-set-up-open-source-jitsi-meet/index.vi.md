@@ -16,29 +16,32 @@ categories: ['Video Conferencing Software']
 
 ## Tổng quan
 Gần đây chúng tôi đã xuất bản một [bài đăng trên blog][1] nói về tác động của [phần mềm hội nghị video][2] đối với khu vực công ty. Tuy nhiên, trong bài viết này, chúng tôi sẽ đề cập đến các điểm sau.
-  * [Giới thiệu ngắn gọn về Meet Jitsi][3]
+  * [Giới thiệu ngắn gọn về gặp Jitsi][3]
   * [Làm thế nào để thiết lập Jitsi gặp?][4]
   * [Jitsi Gặp gỡ các tính năng Thăm dò][5]
   * [Kết luận][6]
 
-## Giới thiệu ngắn gọn về Jitsi Meet   {#Intro}
+## Giới thiệu ngắn gọn về Jitsi Meet {#intro}
+
 [JITSI Meet][7] là một phần mềm cộng tác video nguồn mở, an toàn và có thể mở rộng hoàn toàn miễn phí. Nó cung cấp một số tính năng phổ biến như hội nghị video đa nhóm với mã hóa đầy đủ, hỗ trợ cho etherpad và ghi video/âm thanh. Phần mềm tương thích WEBRTC này cho phép bạn mời nhiều người dùng như bạn muốn vào một cuộc họp video.
 Sự gia tăng của các cuộc họp ảo bắt đầu trong thời gian gần đây và mọi người tin rằng giao tiếp thông qua các cuộc gọi video/âm thanh hiệu quả và hợp tác hơn. Trên hết, danh mục phần mềm này không chỉ hoạt động trên máy tính xách tay/máy tính để bàn mà còn cho phép người tham gia tham dự các cuộc họp video được bảo mật trực tiếp thông qua điện thoại di động của họ.
 
-## Làm thế nào để thiết lập Jitsi gặp nhau?   {#cài đặt}
+## Làm thế nào để thiết lập Jitsi gặp nhau? {#setup}
+
 Trong phần này, chúng tôi sẽ tham gia vào quá trình cài đặt của Jitsi Meet. Đầu tiên, hãy chắc chắn rằng bạn đã cài đặt các điều kiện tiên quyết sau.
   * [Docker][8]
 Khi Docker được cài đặt, hãy tải xuống tệp zip của mã nguồn từ [liên kết][9] này.
 Mở thiết bị đầu cuối và chạy lệnh sau
 `CD Docker-Jitsi-Treet`
 Sau đó, chạy lệnh sau để tạo `.env`
-`CP env.example .Env`
+`cp env.example .env`
 Bây giờ, chạy lệnh sau để tạo các thư mục cần thiết.
 `mkdir -p ~/.jitsi-meet-cfg/{Web/letSencrypt, bảng điểm, prosody/config, prosody/prosody-plugins-custom, jicofo, jvb, jigasi, jibri}`
 Cuối cùng, chạy lệnh này để quay hình ảnh Docker và truy cập ứng dụng tại URL này trong trình duyệt.
-`Docker -Compose Up -d`
+docker -compose up -d`
 
-## jitsi đáp ứng các tính năng khám phá   {#features}
+## Jitsi gặp các tính năng khám phá {#features}
+
 Phần mềm trò chuyện video miễn phí này cung cấp nhiều tính năng phong phú. Đây là trang chủ sẽ được hiển thị đầu tiên.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="Trao đổi video">}}
@@ -64,7 +67,8 @@ Jitsi Meet cung cấp trò chuyện tích hợp với biểu tượng cảm xúc
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.19.57_.jpg" alt="Phần mềm cuộc họp video">}}
 
 
-## Kết luận   {#con}
+## Phần kết luận {#con}
+
 Trong bài viết này, chúng tôi đã trải qua một phần mềm truyền thông từ xa tuyệt đẹp và quá trình cài đặt của nó. Hơn nữa, đây là thời điểm cao để lựa chọn các giải pháp tốt nhất để đồng bộ hóa nhu cầu kinh doanh với các công nghệ phát triển. Cuối cùng, [containerize.com][10] đã làm việc để mở rộng danh sách phần mềm hội nghị video. Do đó, vui lòng duy trì kết nối với danh mục [Phần mềm hội nghị video][2] để cập nhật thường xuyên.
 
 ## trang sản phẩm có liên quan
@@ -75,7 +79,8 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Phần tử][13]
   * [Dây][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

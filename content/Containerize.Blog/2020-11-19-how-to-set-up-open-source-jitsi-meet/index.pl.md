@@ -1,6 +1,6 @@
 ---
-title: "Przewodnik krok po kroku, aby skonfigurować Jitsi Spotkanie" 
-seoTitle: "Przewodnik krok po kroku, aby skonfigurować Jitsi Spotkanie" 
+title: "Przewodnik krok po kroku, aby skonfigurować jitsi spotkanie" 
+seoTitle: "Przewodnik krok po kroku, aby skonfigurować jitsi spotkanie" 
 description: "Dowiedz się, jak skonfigurować spotkanie Jitsi. Jest to oprogramowanie do wideokonferencji typu open source zaprojektowane w celu zaspokojenia potrzeb zdalnych i oferuje potężne funkcje" 
 date: Thu, 19 Nov 2020 09:32:35 +0000
 author: muhammadmustafa
@@ -21,11 +21,13 @@ Niedawno opublikowaliśmy [post na blogu][1], który mówi o wpływie [oprogramo
   * [Jitsi Meet Features Exploration][5]
   * [Wniosek][6]
 
-## Krótkie wprowadzenie Jitsi Meet   {#intro}
+## Krótkie wprowadzenie Jitsi Meet {#intro}
+
 [Jitsi Meet][7] to całkowicie bezpłatne oprogramowanie do współpracy wideo typu open source, bezpieczne i skalowalne. Zapewnia kilka popularnych funkcji, takich jak wielopartyjne wideokonferencje z pełnym szyfrowaniem, obsługą ETHERPAD i nagrywanie wideo/audio. To oprogramowanie kompatybilne WEBRTC pozwala zaprosić tyle użytkowników, ile chcesz na spotkanie wideo.
 Wzrost wirtualnych spotkań rozpoczął się w ostatnim czasie, a ludzie uważają, że komunikacja za pośrednictwem połączeń wideo/audio jest bardziej skuteczna i współpracująca. Przede wszystkim ta kategoria oprogramowania działa nie tylko na laptopach/komputerach stacjonarnych, ale także umożliwia uczestnikom uczestnictwo w twarz w obliczu zabezpieczonych spotkań wideo za pośrednictwem telefonu komórkowego.
 
-## Jak skonfigurować spotkanie Jitsi?   {#organizować coś}
+## Jak skonfigurować spotkanie Jitsi? {#setup}
+
 W tej sekcji przejdziemy do procesu instalacji Jitsi Meet. Najpierw upewnij się, że zainstalowałeś następujące warunki wstępne.
   * [Docker][8]
 Po zainstalowaniu Docker pobierz plik zip kodu źródłowego z tego [link][9].
@@ -34,11 +36,12 @@ Otwórz terminal i uruchom następujące polecenie
 Następnie uruchom następujące polecenie, aby utworzyć „.env”
 `cp env.example .env`
 Teraz uruchom następujące polecenie, aby utworzyć wymagane katalogi.
-`mkdir -p ~/.jitsi-meet-cfg/{Web/LetsEncrypt, transkrypty, prozodia/config, prosody/prosody-plugins-custom, jicofo, jvb, jigasi, jibri}` `
+`mkdir -p ~/.Jitsi-meet-cfg/{Web/LetsEncrypt, transkrypty, prozodia/config, prosody/prosody-plugins-custom, jicofo, jvb, jigasi, jibri}` `
 Na koniec uruchom to polecenie, aby zwrócić obraz Docker i uzyskać dostęp do aplikacji w tym adresie URL w przeglądarce.
 `` Docker -Compose Up -D '
 
-## Jitsi Meet Features Exploration   {#Features}
+## Jitsi Meet Features Exploration {#features}
+
 To bezpłatne oprogramowanie do czatu wideo oferuje wiele bogatych funkcji. To jest strona główna, która zostanie pokazana jako pierwsza.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="Konferencje wideo">}}
@@ -59,12 +62,13 @@ W prawym górnym rogu możesz zobaczyć szczegóły swojego połączenia wideo.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.18.51_.jpg" alt="Darmowy czat wideo">}}
 
-Jitsi Meet oferuje zintegrowane czat z emoji.
+Jitsi Meet oferuje zintegrowane czat z emojis.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.19.57_.jpg" alt="Oprogramowanie do spotkania wideo">}}
 
 
-## Wniosek   {#Con}
+## Wniosek {#con}
+
 W tym artykule przeszliśmy oszałamiające oprogramowanie do zdalnej komunikacji i jego proces instalacji. Ponadto najwyższy czas zdecydować o najlepszych rozwiązaniach, aby zsynchronizować potrzeby biznesowe z ewoluującymi technologiami. Ostatecznie [Containerize.com][10] pracuje nad rozszerzeniem listy oprogramowania do konferencji wideo. Dlatego proszę pozostać w kontakcie z kategorią [oprogramowanie do konferencji wideo][2] w celu regularnych aktualizacji.
 
 ## odpowiednie strony produktów
@@ -75,7 +79,8 @@ Możesz znaleźć istotne następujące linki:
   * [Element][13]
   * [Wire][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

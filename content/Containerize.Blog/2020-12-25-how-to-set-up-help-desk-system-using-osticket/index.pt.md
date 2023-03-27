@@ -19,24 +19,27 @@ OSTICKET é uma solução de software de suporte técnico on -line de código ab
   * [Como configurar osticket?][3]
   * [Conclusão][4]
 
-## O que é osticket?   {#osticket}
+## O que é osticket? {#osticket}
+
 OSTICKET fornece um painel de controle amigável e um componente de relatório em tempo real. Os usuários podem simplesmente fazer login e criar os ingressos em algumas etapas fáceis. Eles podem criar ingressos através do seu site, email ou telefone. Os ingressos recebidos serão salvos e atribuídos aos agentes. Os agentes receberão notificações por e -mail e responderão às consultas para ajudar a resolver seus problemas. Clientes e agentes podem discutir detalhes e progredir na seção de comentários. Os clientes podem acompanhar suas solicitações e progredir através do portal de clientes interno fornecido por este software de suporte técnico on-line.
 
-## prós e contras do Osticket   {#Pros}
+## Prós e contras do oticket {#pros}
 
-## ## Pros
+
+#### Pros
   * OSTICKET é extremamente amigável para usuários finais e agentes de suporte.
   * Filmado com recursos ricos, o Osticket tem tudo o que você precisa sem ser excessivamente complicado.
-  * Osticket é totalmente gratuito e o software de gerenciamento de ingressos de código aberto.
+  * OSTICKET é totalmente gratuito e o software de gerenciamento de ingressos de código aberto.
   * É leve, seguro, confiável e fácil de instalar software de gerenciamento de suporte técnico.
   * É flexível executar em todos os servidores populares da Web, incluindo Apache, Nginx, LightTPD e IIS, etc.
 
-## ## Contras
+#### Contras
   * OSTICKET não fornece detalhes de análise de ingressos e estatísticas, como outros sistemas de suporte técnico pago.
   * A interface do usuário é muito simples e básica quando comparada a outros sistemas de suporte.
 
-## Como instalar o Osticket?   {#como}
-Siga estas etapas para instalar o Osticket com o Nginx no Ubuntu 18.04 LTS.
+## Como instalar o Osticket? {#how}
+
+Siga estas etapas para instalar o Osticket com o nginx no Ubuntu 18.04 LTS.
   * Crie um novo diretório para osticket.
 ```
 sudo mkdir -p /var/www/osticket/
@@ -48,7 +51,7 @@ sudo apt-get install wget unzip
 sudo wget https://github.com/osTicket/osTicket/releases/download/v1.14.1/osTicket-v1.14.1.zip
 sudo unzip osTicket-v1.14.1.zip
 ```
-  * Depois disso, crie o arquivo de configuração do arquivo de amostra usando esses comandos.
+  * Depois disso, crie arquivo de configuração do arquivo de amostra usando esses comandos.
 ```
 sudo su -
 cd upload/
@@ -136,7 +139,7 @@ sudo systemctl restart nginx
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-2.png" alt="Como configurar o software de suporte técnico on -line usando osticket">}}
 
   * Ative as extensões necessárias do php.ini e clique em "Continuar".
-  *Preencha todas as informações necessárias e clique em "**Instalar agora"**  Botão.
+* Preencha todas as informações necessárias e clique em "  **Instalar agora"**  Botão.
 
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-3.png" alt="Como configurar o software de suporte técnico on -line usando osticket">}}
 
@@ -149,7 +152,8 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## Conclusão   {#conclusion}
+## Conclusão {#conclusion}
+
 Osticket é mais adequado para empresas com baixo orçamento ou aquelas que desejam um sistema de suporte simples e não complexo. É simples, leve, leve, confiável, de código aberto e software de suporte on -line totalmente gratuito. O que faz do Osticket uma ótima alternativa aos sistemas de suporte ao cliente de maior custo. Para saber mais sobre os recursos de oticket e o guia de instalação, consulte o seguinte tutorial.
 
 ## Explore
@@ -159,13 +163,14 @@ Osticket é mais adequado para empresas com baixo orçamento ou aquelas que dese
 [Como implementar a multiestância em osticket][8]
 [Automatize o sistema de ticketing usando o WordPress e o Osticket][9]
 
-  
-[1]: #osticket
-[2]: #pros
-[3]: #how
-[4]: #conclusion
-[5]: https://products.containerize.com/helpdesk/
-[6]: https://products.containerize.com/helpdesk/osticket
-[7]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
-[8]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
-[9]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+
+ [1]: #osticket
+ [2]: #pros
+ [3]: #how
+ [4]: #conclusion
+ [5]: https://products.containerize.com/helpdesk/
+ [6]: https://products.containerize.com/helpdesk/osticket
+ [7]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
+ [8]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
+ [9]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

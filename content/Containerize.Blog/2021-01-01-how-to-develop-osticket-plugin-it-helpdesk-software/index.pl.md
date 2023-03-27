@@ -11,7 +11,7 @@ categories: ['Help Desk']
 
 ## Utwórz wtyczkę Osticket, aby dodać funkcje do instalacji Osticket. Ten system biletów na otwartym poziomie pomaga firmom w wydajnym obsłudze klientów.
 
-{{< figure align=center src="images/A-beginners-guide-to-develop-osTickets-plugin.png" alt="Oprogramowanie HelpDesk">}}
+{{< figure align=center src="images/A-beginners-guide-to-develop-osTickets-plugin.png" alt="Oprogramowanie pomocy">}}
 
 
 ## Przegląd
@@ -22,20 +22,23 @@ Ten system biletów typu open source (Osticket) to całkowicie elastyczne ramy b
   * [Jak opracować wtyczkę Osticket?][6]
   * [Wniosek][7]
 
-## Dlaczego używać wtyczek?   {#Dlaczego}
+## Po co używać wtyczek? {#why}
+
 W tym temacie dowiemy się, jak utworzyć prostą wtyczkę, aby rozszerzyć podstawową funkcjonalność tego  **IT HelpDesk Software**  (Osticket). Wtyczka to oprogramowanie, które rozszerza podstawową funkcjonalność dowolnej aplikacji/oprogramowania. Ponadto istnieje wiele oprogramowania open source na poziomie przedsiębiorstw, które ma ogromny stos wtyczek, które rozszerzają funkcje. Ponadto te popularne oprogramowanie open source obejmują WordPress, Joomla i wiele innych. Przede wszystkim żywe i żywe społeczności obsługują i rozwijają wtyczki zgodnie z potrzebami. Jednak ramy oferują kompleksową dokumentację dotyczącą rozwoju wtyczek. Poniżej znajdują się powody, dla których aplikacje obsługują wtyczki:
   * Pozwala twórcom stron trzecich tworzyć komponenty oprogramowania, które rozszerzają funkcjonalność aplikacji.
   * Wtyczki pozwalają łatwo zintegrować nowe funkcje.
   * Nie zwiększa również wielkości i złożoności aplikacji.
-  * Oprócz programistów mogą przechowywać i zarządzać kodem wtyczek osobno od podstawowej aplikacji.
+  * Oprócz programiści mogą przechowywać i zarządzać kodem wtyczek osobno od podstawowej aplikacji.
 
-## wymagania   {#Requirements}
+## Wymagania {#requirements}
+
 W niniejszej sekcji przewodnika  **IT HelpDesk**  opisuje wymagania potrzebne do opracowania wtyczki Osticket.
   * Wersja PHP 5.6 lub nowsza
   * Instalacja Osticket
   * Podstawowa wiedza PHP
 
-## Jak opracować wtyczkę Osticket?   {#Jak}
+## Jak opracować wtyczkę Osticket? {#how}
+
 W tej sekcji przejdziemy przez etapy rozwoju wtyczki tego systemu biletów typu open source (Osticket).
   * Utwórz folder wtyczki w katalogu /wtyk /wtyczki. W tym samouczku utworzymy wtyczkę demo, która integruje  **Osticket System**  z Redmine.
   * Powinien mieć następujące niezbędne pliki: plugin.php i config.php.
@@ -105,7 +108,7 @@ class DynabicRedminePluginConfig extends PluginConfig {
       * Phonefield - pole tekstowe zoptymalizowane pod kątem numerów telefonów
       * Booleanfield - pole wyboru
       * Choicefield-rozwijane pole wyboru
-      * Sectionbreakfield - pozioma przerwa w sekcji
+      * SECTBREAKFIELD - SEKCJA SEKCJA WYSOKIE
   * Następnie musimy utworzyć plik, w którym zostanie zdefiniowana funkcjonalność wtyczki.
   * Nazwa pliku powinna być taka sama, jak zdefiniowana w pliku Plugin.php. tj. Redmine.php.
   * To musi utrzymywać klasę dynabicredminplugin. Sprawdź następujący przykładowy kod:
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Ten kod przyniósł wartości konfiguracji i możesz użyć tych wartości w swoich funkcjach. W tym pliku możesz dodać funkcjonalność wtyczki jako swoje wymagania.
 
-## Wniosek   {#Conclusion}
-To prowadzi nas do końca tego postu na blogu. Osticket to oprogramowanie do zarządzania biletami, które oferuje strukturę wtyczek dla programistów, aby mogli dodawać nowe funkcje zgodnie z wymaganiami. Wtyczki to komponenty, które rozszerzają podstawową funkcjonalność dowolnej aplikacji/oprogramowania. W jego artykule omówiliśmy opracowanie wtyczek tego **systemu obsługi klienta  **(Osticket), który pomaga programistom dodawać niestandardowe funkcje i ulepszenia zgodnie z ich wymaganiami. Dlatego ten post na blogu naprawdę pomoże ci, jeśli chcesz wdrożyć oprogramowanie Heldesk **  IT  **dla Twojej firmy. Ponadto istnieją inne**   oprogramowanie do biletowania Heldesk** i artykuły wymienione w sekcji „Explore” poniżej.
+## Wniosek {#conclusion}
+
+To prowadzi nas do końca tego postu na blogu. Osticket to oprogramowanie do zarządzania biletami, które oferuje strukturę wtyczek dla programistów, aby mogli dodawać nowe funkcje zgodnie z wymaganiami. Wtyczki to komponenty, które rozszerzają podstawową funkcjonalność dowolnej aplikacji/oprogramowania. W jego artykule omówiliśmy opracowanie wtyczek tego  **systemu obsługi klienta** (Osticket), który pomaga programistom dodawać niestandardowe funkcje i ulepszenia zgodnie z ich wymaganiami. Dlatego ten post na blogu naprawdę pomoże ci, jeśli chcesz wdrożyć oprogramowanie Heldesk  **IT**  dla Twojej firmy. Ponadto istnieją inne **oprogramowanie do biletowania Heldesk**  i artykuły wymienione w sekcji „Explore” poniżej.
 Wreszcie [Containerize.com][8] ciągle pisze posty na blogu na temat dalszych produktów i tematów open source. Dlatego prosimy o kontakt z kategorią [oprogramowanie do biletowania Heldesk][1] w celu regularnych aktualizacji. Ponadto możesz śledzić nas na naszych kontach w mediach społecznościowych [Facebook][9], [LinkedIn][10] i [Twitter][11].
 
 ## Badać
@@ -136,14 +140,15 @@ Możesz znaleźć istotne następujące linki:
   * [Zammad][13]
   * [Freescout][14]
   * [Helpy][15]
-  * [Najlepsze oprogramowanie open source i bezpłatne IT Help Desk][16]
+  * [Najlepsze oprogramowanie openne i bezpłatne IT Help Desk][16]
   * [Popularny bezpłatny system pomocy technicznej i systemu obsługi klienta][2]
   * [Jak skonfigurować oprogramowanie do pomocy internetowej za pomocą Osticket][17]
   * [Jak wdrożyć wielozadaniowość w Osticket][18]
   * [Zautomatyzuj system biletów za pomocą WordPress i Osticket][3]
   * [Zautomatyzuj operacje biznesowe za pomocą oprogramowania bezpłatnego i open source][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

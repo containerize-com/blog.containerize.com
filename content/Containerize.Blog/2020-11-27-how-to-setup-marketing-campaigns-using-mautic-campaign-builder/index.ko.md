@@ -19,10 +19,12 @@ categories: ['Marketing Automation']
   * [Mautic에서 캠페인을 만드는 방법?][3]
   * [결론][4]
 
-## mautic은 무엇입니까?   {#Mautic}
+## Mautic은 무엇입니까? {#mautic}
+
 Mautic은 오픈 소스 마케팅 자동화 소프트웨어입니다. 마케팅 이메일, 방문 페이지 및 마케팅 활동을위한 워크 플로를 완전히 제어 할 수 있습니다. 방문 페이지에서 리드를 작성하고 양식을 작성하여 잠재 고객으로 변환하는 방법을 자동화합니다. 스마트 드립 캠페인을 만들어이 모든 것을 달성 할 수 있으며, 이는 제품/서비스와 관련하여 잠재 고객을 업데이트 할 수 있습니다.
 
-## mautic에서 양식을 만드는 방법은 무엇입니까?   {#forms}
+## Mautic에서 양식을 만드는 방법? {#forms}
+
   * mauitc 설치에 로그인하십시오.
   * "구성 요소"탭으로 이동하여 "양식"을 클릭하십시오.
   * 오른쪽 상단에서“새”를 쳤다.
@@ -41,13 +43,14 @@ Mautic은 오픈 소스 마케팅 자동화 소프트웨어입니다. 마케팅 
   * 그 후 "추가"를 클릭하고 "저장 및 닫기"를 누르십시오.
   * 그것은 쉽게 mautic에서 양식을 만드는 것입니다.
 
-## Mautic에서 캠페인을 만드는 방법은 무엇입니까?   {#campaigns}
+## Mautic에서 캠페인을 만드는 방법? {#campaigns}
+
   * 캠페인으로 이동하십시오. 오른쪽 상단에서 "새"를 클릭하십시오.
   * 이름을 입력하고 "게시"를 "예"로 설정하십시오.
 
 {{< figure align=center src="images/Create-new-campaign-1024x437.png" alt="디지털 마케팅을위한 Mautic 캠페인을 설정하는 방법">}}
 
-  * 다음으로, "캠페인 캠페인 빌더 시작"을 클릭하십시오.
+  * 다음으로 "캠페인 캠페인 빌더 시작"을 클릭하십시오.
 * “캠페인 양식”을 소스로 선택하고 양식을 선택하십시오.
 
 {{< figure align=center src="images/Mautic-Select-campaign-source.png" alt="디지털 마케팅을위한 Mautic 캠페인을 설정하는 방법">}}
@@ -65,7 +68,8 @@ Mautic은 오픈 소스 마케팅 자동화 소프트웨어입니다. 마케팅 
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="디지털 마케팅을위한 Mautic 캠페인을 설정하는 방법">}}
 
 
-## 결론 :   {#conclusion}
+## 결론: {#conclusion}
+
 우리는 매우 간단한 3 단계에 따라 Drip 마케팅 캠페인을 설정하는 법을 배웠습니다. 캠페인 소스로 필요한 양식 작성, 캠페인 작성 및 이메일 구성이 포함됩니다. 우리는이 튜토리얼에서 매우 기본적인 캠페인을 만들었습니다. 그러나 Mautic 캠페인 빌더를 사용하여 복잡한 캠페인을 만들 수 있습니다. Mautic을 처음 접하는 경우 다음 안내서를 사용하여 설치하는 방법을 확인하십시오.
 [Mautic 개요 및 설치][5]
 
@@ -75,12 +79,13 @@ Mautic은 오픈 소스 마케팅 자동화 소프트웨어입니다. 마케팅 
 [마케팅 자동화를 위해 Mautic을 Joomla와 통합][7]
 [Mautic에서 다중 테넌시를 구현하는 방법][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

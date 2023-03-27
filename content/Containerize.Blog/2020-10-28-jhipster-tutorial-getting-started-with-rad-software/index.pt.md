@@ -15,16 +15,17 @@ categories: ['Rapid Application Development']
 
 
 ## Visão geral:
-Recentemente, publicamos uma [postagem do blog][1] sobre a importância do [RAD Software][2] nos tempos atuais. A tecnologia está evoluindo em um ritmo muito alto. Os requisitos e as necessidades de negócios estão mudando dia a dia. Há uma corrida para desenvolver soluções em um período mais curto. Por outro lado, toda empresa deseja capturar o mercado lançando o produto o mais rápido possível. Portanto, a comunidade de código aberto desenvolveu muitos softwares baseados no desenvolvimento de software  **** . Esses softwares de desenvolvimento de aplicativos rápidos gratuitos facilitam os usuários com recursos rápidos de desenvolvimento de prototipagem. Ele permite criar e iniciar a versão inicial do seu produto e, portanto, você pode desenvolver mais lançamentos com a entrada de feedback do usuário. Além disso, esses softwares foram projetados para absorver qualquer alteração em qualquer estágio do projeto.
+Recentemente, publicamos uma [postagem do blog][1] sobre a importância do [RAD Software][2] nos tempos atuais. A tecnologia está evoluindo em um ritmo muito alto. Os requisitos e as necessidades de negócios estão mudando dia a dia. Há uma corrida para desenvolver soluções em um período mais curto. Por outro lado, toda empresa deseja capturar o mercado lançando o produto o mais rápido possível. Portanto, a comunidade de código aberto desenvolveu muitos softwares baseados no desenvolvimento de software****. Esses softwares de desenvolvimento de aplicativos rápidos gratuitos facilitam os usuários com recursos rápidos de desenvolvimento de prototipagem. Ele permite criar e iniciar a versão inicial do seu produto e, portanto, você pode desenvolver mais lançamentos com a entrada de feedback do usuário. Além disso, esses softwares foram projetados para absorver qualquer alteração em qualquer estágio do projeto.
 Enquanto isso, as equipes de desenvolvimento de software aceleram seus processos de desenvolvimento e garantem as entregas anteriores. De fato, é econômico, economizando tempo e dá satisfação aos desenvolvedores e usuários. O rápido desenvolvimento de aplicativos é flexível o suficiente para que você não precise ter prazos planejados e rigorosos. Você constrói o que seus consumidores finais precisam. Neste tutorial Jhipster, veremos como configurar [Jhipster][3] e criaremos nosso primeiro aplicativo com ele cobrindo os seguintes pontos:
   * [O que é Jhipster e como instalá -lo?][4]
   * [Como gerar e executar um aplicativo básico?][5]
   * [Explore o painel administrador do aplicativo gerado][6]
   * [Conclusão][7]
 
-## O que é jhipster e como instalá -lo?   {#instalar}
-[Jhipster][3] é um software RAD de código aberto usado para gerar aplicativos da Web corporativos. Este construtor de aplicativos de código aberto oferece uma estrutura de inicialização de spring baseada em Java nos tecnologias populares e populares do lado do servidor, como Angular, Vue.js e React.js. Este gerador de código -fonte inclui arquitetura robusta de microsserviço com vários mecanismos de autenticação de usuário, como OAuth.20, JWTS e autenticação de sessão HTTP. Além disso, ele fornece uma versão online na qual os usuários podem explorar todos os recursos. Esta ferramenta de prototipagem **de código aberto**  está escrito em JavaScript com um pouco de entrada do TypeScript. Portanto, a documentação abrangente está disponível em relação ao desenvolvimento e implantação. Os desenvolvedores podem encontrar o código -fonte no [github][8] repo. Há suporte completo para executar testes usando estruturas de testes populares, como gatling e transferidor. Além disso, é robusto, seguro, de plataforma cruzada e suporta integrações de terceiros.
-Neste tutorial **jhipster,**  exploraremos o Jhipster sobre sua configuração e uso. [Jhipster][3] é gratuito e construído sobre o modelo de desenvolvimento de aplicativos rápido. Ele fornece um ecossistema amigável ao desenvolvedor que é bastante promissor e apresenta poderosas ferramentas rápidas de desenvolvimento de aplicativos da Web.
+## O que é Jhipster e como instalá -lo? {#install}
+
+[Jhipster][3] é um software RAD de código aberto usado para gerar aplicativos da Web corporativos. Este construtor de aplicativos de código aberto oferece uma estrutura de inicialização de spring baseada em Java nos tecnologias populares e populares do lado do servidor, como Angular, Vue.js e React.js. Este gerador de código -fonte inclui arquitetura robusta de microsserviço com vários mecanismos de autenticação de usuário, como OAuth.20, JWTS e autenticação de sessão HTTP. Além disso, ele fornece uma versão online na qual os usuários podem explorar todos os recursos. Esta ferramenta de prototipagem  **de código aberto**  está escrito em JavaScript com um pouco de entrada do TypeScript. Portanto, a documentação abrangente está disponível em relação ao desenvolvimento e implantação. Os desenvolvedores podem encontrar o código -fonte no [github][8] repo. Há suporte completo para executar testes usando estruturas de testes populares, como gatling e transferidor. Além disso, é robusto, seguro, de plataforma cruzada e suporta integrações de terceiros.
+Neste tutorial  **jhipster,**  exploraremos o Jhipster sobre sua configuração e uso. [Jhipster][3] é gratuito e construído sobre o modelo de desenvolvimento de aplicativos rápido. Ele fornece um ecossistema amigável ao desenvolvedor que é bastante promissor e apresenta poderosas ferramentas rápidas de desenvolvimento de aplicativos da Web.
 Vamos ver como podemos instalar este construtor de aplicativos de código aberto. Primeiro, instalaremos os seguintes pré -requisitos.
   * [Java 11 JDK][9]
   * [Node.js 10.20.1+][10]
@@ -37,8 +38,9 @@ Você pode verificar o seguinte comando para verificar a instalação.
 {{< figure align=center src="images/install-1024x564.png" alt="Instalação Jhipster">}}
 
 
-## Como gerar e executar um aplicativo básico?   {#correr}
-Na seção deste tutorial **jhipster** , aprenderemos como gerar nosso primeiro aplicativo usando este software RAD de código aberto.
+## Como gerar e executar um aplicativo básico? {#run}
+
+Na seção deste tutorial  **jhipster**  , aprenderemos como gerar nosso primeiro aplicativo usando este software RAD de código aberto.
 Volte para a janela do terminal, execute os seguintes comandos:
 `mkdir 1Stappcd 1STAPP/`
 Depois de fazer diretórios, execute o seguinte comando mencionado abaixo:
@@ -56,12 +58,13 @@ NOTA: Este comando funcionará se você escolheu o Maven como automação de con
 
 Acesse seu aplicativo no navegador em http: // localhost: 8080/.
 
-## Explore o painel de administração do aplicativo gerado   {#Dashboard}
+## Explore o painel administrativo do aplicativo gerado {#dashboard}
+
 Depois de atingir http: // localhost: 8080/No seu navegador, você verá a tela a seguir.
 
 {{< figure align=center src="images/Screenshot-2020-10-27-at-15.56.41-1024x488.png" alt="gerador de código">}}
 
-Você pode usar as credenciais mencionadas para fazer login como admin. O Jhipster fornece duas funções de usuário padrão. Após um login bem -sucedido, você terá as seguintes disposições mostradas na imagem.
+Você pode usar as credenciais mencionadas para fazer login como admin. O JHipster fornece duas funções de usuário padrão. Após um login bem -sucedido, você terá as seguintes disposições mostradas na imagem.
 
 {{< figure align=center src="images/Screenshot-2020-10-27-at-15.57.12-1024x532.png" alt="Software RAD de código aberto">}}
 
@@ -77,13 +80,14 @@ Existe um sistema completo de registro disponível no painel de administrador Jh
 
 {{< figure align=center src="images/Screenshot-2020-10-27-at-15.57.38-1024x583.png" alt="Software RAD de código aberto">}}
 
-O painel administrativo deste construtor de aplicativos de código aberto também fornece pontos de extremidade de restos de funcionalidades internas e personalizadas.
+O painel de administração deste construtor de aplicativos de código aberto também fornece pontos de extremidade de restos de funcionalidades internas e personalizadas.
 
 {{< figure align=center src="images/Screenshot-2020-10-27-at-15.57.48-1024x582.png" alt="Jhipster de código aberto">}}
 
 
-## Conclusão   {#con}
-Este é o fim deste tutorial Jhipster. Existem muitas plataformas RAD de código aberto que fornecem **Desenvolvimento de aplicativos instantâneos **. Há uma comunidade muito vibrante que está sempre viva para responder aos problemas e suas soluções. A metodologia RAD está ganhando fama devido a muitos fatores. Em primeiro lugar, não há necessidade de ter um entendimento completo dos requisitos. Em segundo lugar, o consumidor final está envolvido ao longo do ciclo de vida do desenvolvimento de software. Em terceiro lugar, o fator de risco é muito menor, pois todas as partes interessadas estão a bordo. No entanto, o software RAD é adaptável, amigável ao desenvolvedor e flexível às mudanças. Economiza muito tempo, pois os geradores de código salvam um imenso tempo de reescrever os scripts repetitivos. Este artigo  **[JHIPSTER][3] Tutorial**   destacou algumas idéias importantes. É leve e fácil de configurar com alguns comandos de shell simples.
+## Conclusão {#con}
+
+Este é o fim deste tutorial Jhipster. Existem muitas plataformas RAD de código aberto que fornecem  **Desenvolvimento de aplicativos instantâneos** . Há uma comunidade muito vibrante que está sempre viva para responder aos problemas e suas soluções. A metodologia RAD está ganhando fama devido a muitos fatores. Em primeiro lugar, não há necessidade de ter um entendimento completo dos requisitos. Em segundo lugar, o consumidor final está envolvido ao longo do ciclo de vida do desenvolvimento de software. Em terceiro lugar, o fator de risco é muito menor, pois todas as partes interessadas estão a bordo. No entanto, o software RAD é adaptável, amigável ao desenvolvedor e flexível às mudanças. Economiza muito tempo, pois os geradores de código salvam um imenso tempo de reescrever os scripts repetitivos. Este artigo **[JHIPSTER][3] Tutorial**  destacou algumas idéias importantes. É leve e fácil de configurar com alguns comandos de shell simples.
 Sinta -se à vontade para instalar este construtor de aplicativos de código aberto hoje se estiver procurando seriamente uma plataforma de desenvolvimento de aplicativos rápida de código aberto. Finalmente, [contendeRize.com][11] está pronto para aprimorar sua base de tutoriais com alguns tutoriais mais interessantes. Fique conectado com esta categoria [Rapid Application Development][2] para atualizações regulares.
 
 ## Explore
@@ -97,22 +101,23 @@ Você pode encontrar os seguintes links relevantes:
   * [Software de desenvolvimento de aplicativos rápido para negócios | Rad][17]
   * [Coisas para revisar antes de optar por software de código aberto em 2021][18]
 
-  
-[1]: https://blog.containerize.com/2020/10/23/how-rad-software-can-help-you-to-grow-business-to-next-level/
-[2]: https://products.containerize.com/rad
-[3]: https://products.containerize.com/rad/jhipster
-[4]: #install
-[5]: #run
-[6]: #dashboard
-[7]: #con
-[8]: https://github.com/jhipster/generator-jhipster
-[9]: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
-[10]: https://nodejs.org/en/
-[11]: https://www.containerize.com/
-[12]: https://products.containerize.com/rad/cuba
-[13]: https://products.containerize.com/rad/quickapp
-[14]: https://products.containerize.com/rad/li3
-[15]: https://products.containerize.com/rad/apache-isis
-[16]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
-[17]: https://blog.containerize.com/rapid-application-development/rapid-application-development-software-for-business-rad/
-[18]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+
+ [1]: https://blog.containerize.com/2020/10/23/how-rad-software-can-help-you-to-grow-business-to-next-level/
+ [2]: https://products.containerize.com/rad
+ [3]: https://products.containerize.com/rad/jhipster
+ [4]: #install
+ [5]: #run
+ [6]: #dashboard
+ [7]: #con
+ [8]: https://github.com/jhipster/generator-jhipster
+ [9]: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+ [10]: https://nodejs.org/en/
+ [11]: https://www.containerize.com/
+ [12]: https://products.containerize.com/rad/cuba
+ [13]: https://products.containerize.com/rad/quickapp
+ [14]: https://products.containerize.com/rad/li3
+ [15]: https://products.containerize.com/rad/apache-isis
+ [16]: https://blog.containerize.com/rapid-application-development/top-5-free-rapid-application-development-software-in-2021/
+ [17]: https://blog.containerize.com/rapid-application-development/rapid-application-development-software-for-business-rad/
+ [18]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/

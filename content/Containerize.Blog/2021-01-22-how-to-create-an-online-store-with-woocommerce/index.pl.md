@@ -13,28 +13,31 @@ categories: ['Shopping Cart Software']
 
 {{< figure align=center src="images/create-woocomerce-store.png" alt="Wtyczka koszyka na zakupy WordPress">}}
 
-Większość z was zna WordPress. WordPress jest jedną z wiodących platformy do tworzenia stron internetowych, blogów itp. Na Marketplace jest mnóstwo wtyczek, które umożliwiają ulepszenie funkcjonalności. Jednym z nich jest **WooCommerce Cart  **wtyczka pomaga użytkownikom skonfigurować sklep internetowy. **  WooCommerce  **jest jedną z**   najlepszej wtyczki eCommerce dla WordPress**, łatwej w użyciu, konfigurowalnej i solidnej platformie eCommerce. Co więcej, jest zbudowany na WordPress i wykorzystuje swoją moc, aby szybko przekształcić firmę w dużą publiczność.
+Większość z was zna WordPress. WordPress jest jedną z wiodących platformy do tworzenia stron internetowych, blogów itp. Na Marketplace jest mnóstwo wtyczek, które umożliwiają ulepszenie funkcjonalności. Jednym z nich jest **WooCommerce Cart**wtyczka pomaga użytkownikom skonfigurować sklep internetowy. **WooCommerce** jest jedną z**najlepszej wtyczki eCommerce dla WordPress** , łatwej w użyciu, konfigurowalnej i solidnej platformie eCommerce. Co więcej, jest zbudowany na WordPress i wykorzystuje swoją moc, aby szybko przekształcić firmę w dużą publiczność.
 W tym samouczku omówimy następujące tematy.
-  *[ **Zainstaluj WordPress** ][1]
-  *[ **Zainstaluj wtyczkę WooCommerce** ][2]
-  *[ **Skonfiguruj sklep z WooCommerce** ][3]
-  *[ **Wniosek** ][4]
+* [ **Zainstaluj WordPress** ][1]
+* [ **Zainstaluj wtyczkę WooCommerce** ][2]
+* [ **Skonfiguruj sklep z WooCommerce** ][3]
+* [ **Wniosek** ][4]
 
-## Zainstaluj WordPress   {#WordPress}
+## Zainstaluj WordPress {#WordPress}
+
 Możesz pominąć tę sekcję i przejść do następnej, jeśli masz już zainstalowany WordPress. Jeśli nie masz konfiguracji WordPress, możesz znaleźć wytyczne krok po kroku do instalacji na [ **Containerize.com** ][5].
 
-## Zainstaluj wtyczkę WooCommerce   {#WoOcommerce}
+## Zainstaluj wtyczkę WooCommerce {#WooCommerce}
+
 Aby skonfigurować WooCommerce, wykonaj następujące kroki:
-  * Zaloguj się do panelu administracyjnego witryny WordPress.
-  *Przejdź do **wtyczek  **i kliknij**   Dodaj nowy** przycisk.
-  *Wpisz  **wooCommerce**  w polu wyszukiwania, a zobaczysz to jako pierwszy wynik wyszukiwania.
+  * Zaloguj się do panelu administratora witryny WordPress.
+* Przejdź do **wtyczek**i kliknij**Dodaj nowy** przycisk.
+* Wpisz **wooCommerce** w polu wyszukiwania, a zobaczysz to jako pierwszy wynik wyszukiwania.
 
 {{< figure align=center src="images/WooCommerce-1-1024x367.png" alt="Zainstaluj wtyczkę WooCommerce">}}
 
-  *Kliknij  **Zainstaluj teraz**  przycisk obok wtyczki WooCommerce.
-  * Instalacja zajęłaby kilka chwil. Kliknij przycisk  **Aktywuj**  Po zakończeniu instalacji.
+* Kliknij **Zainstaluj teraz** przycisk obok wtyczki WooCommerce.
+  * Instalacja zajęłaby kilka chwil. Kliknij przycisk **Aktywuj** Po zakończeniu instalacji.
 
-## Ustaw sklep z WOOCOMMERCE   {#SETUP}
+## Skonfiguruj sklep z WooCommerce {#Setup}
+
 Kreator konfiguracji prowadzi Cię przez wszystkie wymagane kroki do utworzenia sklepu. Wykonaj poniższe kroki, a Twój sklep będzie gotowy do rozpoczęcia sprzedaży.
 
 {{< figure align=center src="images/WooCommerce-2-1024x371.png" alt="Skonfiguruj sklep z WooCommerce">}}
@@ -49,17 +52,19 @@ Kreator konfiguracji prowadzi Cię przez wszystkie wymagane kroki do utworzenia 
 {{< figure align=center src="images/WooCommerce-3.png" alt="Lista kontrolna konfiguracji sklepu">}}
 
 
-## Wniosek   {#Conclusion}
-W tym samouczku omówiliśmy, jak skonfigurować WordPress i **WooCommerce Cart **. Mamy nadzieję, że ten przewodnik pomoże Ci zbudować sklep internetowy. Możesz jednak sprawdzić ** WooCommerce Storefront**  w celu wybrania właściwego motywu sklepu.
-Ponadto [**Containerize.com **][6] jest w drodze do ulepszenia stosu produktów open source w wielu językach i ramach. Aby uzyskać regularne aktualizacje, bądź na bieżąco z oprogramowaniem [**  koszykówki**][7], aby uzyskać bardziej interesujące artykuły.
+## Wniosek {#Wniosek}
+
+W tym samouczku omówiliśmy, jak skonfigurować WordPress i **WooCommerce Cart**. Mamy nadzieję, że ten przewodnik pomoże Ci zbudować sklep internetowy. Możesz jednak sprawdzić**WooCommerce Storefront** w celu wybrania właściwego motywu sklepu.
+Ponadto [ **Containerize.com**][6] jest w drodze do ulepszenia stosu produktów open source w wielu językach i ramach. Aby uzyskać regularne aktualizacje, bądź na bieżąco z oprogramowaniem [**koszykówki** ][7], aby uzyskać bardziej interesujące artykuły.
 
 ## Badać
 Możesz znaleźć istotne następujące linki:
-  *[ **WordPress - blogowanie open source i platforma CMS** ][5]
-  *[ **WooCommerce - darmowa wtyczka WordPress do sklepu z budynkiem** ][8]
-  *[ **Oprogramowanie do koszyka na zakupy w Top 5 w 2020** ][9]
+* [ **WordPress - blogowanie open source i platforma CMS** ][5]
+* [ **WooCommerce - darmowa wtyczka WordPress do sklepu budynku** ][8]
+* [ **Oprogramowanie do koszyków open source w 2020** ][9]
 
-  
+
+
 [1]: #WordPress
 [2]: #WooCommerce
 [3]: #Setup

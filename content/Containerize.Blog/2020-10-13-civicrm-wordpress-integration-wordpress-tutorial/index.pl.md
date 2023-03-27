@@ -15,44 +15,47 @@ categories: ['Blogging', 'Marketing Automation']
 
 
 ## Przegląd:
-Witamy w tym artykule samouczkowym, który dotyczy**Civicrm WordPress Integracja**. Faktem jest, że żyjemy w dobie informacji i danych. Niektóre rzeczy dają charakterystyczne funkcje Twojej firmie, takie jak automatyzacja gromadzenia danych, spójna komunikacja, kampanie marketingowe i inne przepływy pracy biznesowej. W tym współczesnym wieku ilość danych rośnie z dnia na dzień. Organizacje otrzymują te dane z różnych źródeł danych. W rezultacie trudno jest zarządzać i skompilować tak ogromną ilość danych. Jednak bardzo ważne jest, aby upewnić się, że integralność danych i autentyczność są podstawą skutecznej kampanii marketingowej. Ponadto występowanie danych w wielu miejscach rodzi kłopoty i niewłaściwe zarządzanie, a zespoły operacyjne mają trudności z wejściem na tę samą stronę i pracą w jednolitym kierunku.
-Z drugiej strony istnieje kilka systemów zarządzania treścią, które zyskały potężne wsparcie społeczności użytkowników i programistów z powodu solidnego zarządzania treścią i systemów ECHO przyjaznych dla SEO. Te systemy zarządzania treścią typu open source oferują łatwe i szybkie osiągnięcia i wdrożenia w celu osiągnięcia celów związanych z treścią. Oferuje opłacalność, rozszerzalną funkcjonalność i możliwości samowystarczające. Ten**WordPress Wtyczek**dotyczy integracji [Civicrm][2] z [WordPress][3] i omówimy następujące punkty pocisków
+Witamy w tym artykule samouczkowym, który dotyczy **Civicrm WordPress Integracja** . Faktem jest, że żyjemy w dobie informacji i danych. Niektóre rzeczy dają charakterystyczne funkcje Twojej firmie, takie jak automatyzacja gromadzenia danych, spójna komunikacja, kampanie marketingowe i inne przepływy pracy biznesowej. W tym współczesnym wieku ilość danych rośnie z dnia na dzień. Organizacje otrzymują te dane z różnych źródeł danych. W rezultacie trudno jest zarządzać i skompilować tak ogromną ilość danych. Jednak bardzo ważne jest, aby upewnić się, że integralność danych i autentyczność są podstawą skutecznej kampanii marketingowej. Ponadto występowanie danych w wielu miejscach rodzi kłopoty i niewłaściwe zarządzanie, a zespoły operacyjne mają trudności z wejściem na tę samą stronę i pracą w jednolitym kierunku.
+Z drugiej strony istnieje kilka systemów zarządzania treścią, które zyskały potężne wsparcie społeczności użytkowników i programistów z powodu solidnego zarządzania treścią i systemów ECHO przyjaznych dla SEO. Te systemy zarządzania treścią typu open source oferują łatwe i szybkie osiągnięcia i wdrożenia w celu osiągnięcia celów związanych z treścią. Oferuje opłacalność, rozszerzalną funkcjonalność i możliwości samowystarczające. Ten **WordPress Wtyczek** dotyczy integracji [Civicrm][2] z [WordPress][3] i omówimy następujące punkty pocisków
   * [Korzyści z tej kombinacji dla biznesu?][4]
   * [Jak skonfigurować strukturę katalogu?][5]
   * [Jak aktywować i zainstalować CivicRM w WordPress?][6]
 
-## Korzyści z tej kombinacji dla biznesu?   {#korzyści}
-W sekcji tego**WordPress**przyjrzymy się podstawowym korzyściom**CIVICRM WordPress**Integracja. Popularność [WordPress][3] rośnie wraz ze wzrostem konkurencji na rynku. Społeczność WordPress opracowuje nowe wtyczki, aby ulepszyć wiadro wtyczki. Dlatego dodanie CivicRM do puli WordPress wtyczki zyskało ogromną uwagę organizacji, które rozwijają się w celu zautomatyzowania i scentralizowania przepływów pracy.
+## Korzyści z tej kombinacji dla biznesu? {#benefits}
+
+W sekcji tego **WordPress**przyjrzymy się podstawowym korzyściom**CIVICRM WordPress** Integracja. Popularność [WordPress][3] rośnie wraz ze wzrostem konkurencji na rynku. Społeczność WordPress opracowuje nowe wtyczki, aby ulepszyć wiadro wtyczki. Dlatego dodanie CivicRM do puli WordPress wtyczki zyskało ogromną uwagę organizacji, które rozwijają się w celu zautomatyzowania i scentralizowania przepływów pracy.
 Ta integracja jest ważna ze względu na niektóre aspekty. Po pierwsze, [CivicRM][2] usuwa kłopot z zarządzaniem źródłami kontaktowymi użytkownika zamieszkałych w różnych miejscach. Po drugie, zapewnia pełne bezpieczeństwo, biorąc regularne kopie zapasowe danych. Po trzecie, jest on internetowy i open source, co oznacza, że ​​możesz uzyskać dostęp do swoich danych z dowolnego miejsca. To narzędzie automatyzacji marketingu open source zostało opracowane dla sektora obywatelskiego. Usunęło to potrzebę eksportowania danych do różnych arkuszy i baz danych poprzez zapewnienie kompleksowego rozwiązania. To oprogramowanie CRM typu open source przechowuje wszystkie dane w bazie danych pochodzących z różnych źródeł, takich jak biuletyny, strony zarządzania wydarzeniami, zarządzanie wkładem, zarządzanie sprawami itp. Te oprogramowanie do zarządzania relacjami typu open source są łatwe do skonfigurowania i dostarczania wielu funkcji, takich jak funkcje, takie jak Nieograniczone niestandardowe zestawy danych, zarządzanie zadaniami, zarządzanie użytkownikami, śledzenie otwartych obietnic i członkostwa oraz wiele innych.
 
-## Jak skonfigurować strukturę katalogu?   {#informator}
-Przed rozpoczęciem tego**WordPress Wtyczka**zakładamy, że skonfigurowałeś WordPress i masz podstawowe zrozumienie instalacji i aktywowania wtyczek. Ponadto możesz znaleźć informacje [tutaj][7] na temat konfigurowania WordPress i jego funkcji.
+## Jak skonfigurować strukturę katalogu? {#directory}
+
+Przed rozpoczęciem tego **WordPress Wtyczka** zakładamy, że skonfigurowałeś WordPress i masz podstawowe zrozumienie instalacji i aktywowania wtyczek. Ponadto możesz znaleźć informacje [tutaj][7] na temat konfigurowania WordPress i jego funkcji.
 Najpierw pobierz CivicRM z tej [witryny][8]. Wybierz opcję o nazwie „Pobierz Civicrmx.x.x dla WordPress”.
 Po pobraniu umieść plik ZIP w tej lokalizacji /WP-Content /wtyczkach i wyodrębnij go. Upewnij się, że ten katalog ma dostęp „zapisz”.
 Możesz użyć tego polecenia, aby zapewnić pozwolenie na dostęp „zapisz”. `sudo chmod 777 Server_Path/WP-Content/Plugins/Civicrm`
 Po drugie, utwórz pusty folder o nazwie „Civicrm” w tej lokalizacji /WP-Content /przesyła i podaj dostęp „zapisz” za pomocą następującego polecenia.
-`sudo chmod 777 Server_Path/WP-Content/uploads/Civicrm`
-* * Uwaga**: Nie zapomnij zmienić tych katalogów z powrotem na domyślne. Możesz uruchomić następujące polecenia, aby przywrócić domyślny status tych katalogów:
+`sudo chmod 777 Server_Path/WP-content/uploads/Civicrm`
+**Uwaga** : Nie zapomnij zmienić tych katalogów z powrotem na domyślne. Możesz uruchomić następujące polecenia, aby przywrócić domyślny status tych katalogów:
 {{_LINE_29_}}
 {{_LINE_30_}}
 {{_LINE_31_}}
-      sudo chown -r nazwa użytkownika server_path/WP -content/uploads/CivicrmSudo chown -r nazwa użytkownika server_path/WP -Content/Plugins/Civicrm
+      sudo chown -r nazwa użytkownika server_path/WP -content/uploads/CivicrmSudo chown -r nazwa użytkownika Server_Path/WP -Content/Plugins/Civicrm
 {{_LINE_33_}}
 {{_LINE_34_}}
 {{_LINE_35_}}
 Niniejsza sekcja integracji WordPress Civicrm została zakończona. Przejdźmy do następnej sekcji.
 
-## Jak aktywować i zainstalować CivicRM w WordPress?   {#zainstalować}
-W tej sekcji samouczka WordPress pokazuje etapy instalacji i aktywacji**internetowego narzędzia marketingowego**Civicrm. Po skonfigurowaniu struktury katalogu przejdź do**wtyczek**->**Zainstalowane wtyczki**, a zobaczysz CivicRM na liście.
+## Jak aktywować i zainstalować CivicRM w WordPress? {#install}
+
+W tej sekcji samouczka WordPress pokazuje etapy instalacji i aktywacji **internetowego narzędzia marketingowego**Civicrm. Po skonfigurowaniu struktury katalogu przejdź do **wtyczek** ->**Zainstalowane wtyczki** , a zobaczysz CivicRM na liście.
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.18.07-1024x544.png" alt="Civicrm WordPress">}}
 
-Hit „**Aktywuj**”.
+Hit „ **Aktywuj** ”.
 
 {{< figure align=center src="images/civi-1024x581.jpeg" alt="Przewodnik automatyzacji marketingu">}}
 
-Po aktywacji CivicRM znajdziesz opcję CivicRM w prawym górnym rogu strony WP-Admin. Po prostu naciśnij tę opcję, a wylądujesz na ekranie**instalacji**.
-Poniższa strona zostanie wyświetlona z szczegółami wymagań wraz z konfiguracją bazy danych.
+Po aktywacji CivicRM znajdziesz opcję CivicRM w prawym górnym rogu strony WP-Admin. Po prostu naciśnij tę opcję, a wylądujesz na ekranie **instalacji** .
+Poniższa strona zostanie wyświetlona ze szczegółami wymagań wraz z konfiguracją bazy danych.
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.56.14-1024x632.png" alt="Przewodnik automatyzacji marketingu">}}
 
@@ -60,18 +63,18 @@ Naciśnij przycisk „Sprawdź wymagania i zainstaluj CivicRM”. CivicRM zostan
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-03.06.05-1024x630.png" alt="Integracja Civicrm WordPress">}}
 
-Wreszcie,**CIVICRM WordPress Integration**Menu pojawi się u góry pulpitu pulpitu administratora.
+Wreszcie, na górze pulpitu administracyjnego **CIVICRM WordPress** pojawi się u góry pulpitu nawigacyjnego.
 
 {{< figure align=center src="images/Screenshot-2020-10-09-at-23.22.03-1024x586.png" alt="Samouczek rozwoju wtyczek WordPress">}}
 
 
 ## Wniosek
-* * CIVICRM WordPress Integration**to naprawdę pomocny dodatek, jeśli chodzi o zarządzanie ogromnym przechowywaniem rozproszonych informacji o użytkownikach. Ułatwia to złożone przepływy pracy, oferując intuicyjny pulpit nawigacyjny. Duet tych dwóch oprogramowania open source zapewnia przyjazny interfejs użytkownika wraz z innymi narzędziami, w których użytkownicy mogą łatwo nawigować. Na szczęście społeczność open source opracowała tak wiele narzędzi do automatyzacji marketingu, takich jak [Mauctic][9], [SuiteCrm][10], [Espocrm][11] i wiele innych. Wszystkie te rozwiązania są bezpłatne i łatwe do wdrożenia w chmurze lub na Localhost. Przede wszystkim rozwiązania te zawierają kompleksową dokumentację dotyczącą rozwoju i wdrażania. Jednak ten**WordPress wtyczek**będzie bardzo pomocny, jeśli chcesz zintegrować oprogramowanie do automatyzacji marketingu z oprogramowaniem do zarządzania treścią.
+**CIVICRM WordPress Integration**to naprawdę pomocny dodatek, jeśli chodzi o zarządzanie ogromnym przechowywaniem rozproszonych informacji o użytkownikach. Ułatwia to złożone przepływy pracy, oferując intuicyjny pulpit nawigacyjny. Duet tych dwóch oprogramowania open source zapewnia przyjazny interfejs użytkownika wraz z innymi narzędziami, w których użytkownicy mogą łatwo nawigować. Na szczęście społeczność open source opracowała tak wiele narzędzi do automatyzacji marketingu, takich jak [Mauctic][9], [SuiteCrm][10], [Espocrm][11] i wiele innych. Wszystkie te rozwiązania są bezpłatne i łatwe do wdrożenia w chmurze lub na Localhost. Przede wszystkim rozwiązania te zawierają kompleksową dokumentację dotyczącą rozwoju i wdrażania. Jednak ten** WordPress wtyczek**będzie bardzo pomocny, jeśli chcesz zintegrować oprogramowanie do automatyzacji marketingu z oprogramowaniem do zarządzania treścią.
 Wreszcie [Containerize.com][12] jest w trakcie pisania dalszych samouczków na temat integracji niektórych innych oprogramowania open source. W przypadku regularnych aktualizacji pozostań w kontakcie z [Automatyzacja marketingu][1] i [blogowanie][13] kategorie.
 
 ## Badać
 Możesz znaleźć istotne następujące linki:
-  * [Przewodnik dla początkujących o waniliowej integracji WordPress][14]
+  * [Przewodnik dla początkujących o integracji WordPress Forum wanilii][14]
   * [Jak dokeryzować WordPress z Docker Compose][15]
   * [Migracja z WordPress do Jekyll][16]
   * [Jak zbudować swoją stronę internetową za pomocą WordPress i Gatsby][17]
@@ -87,7 +90,8 @@ Możesz znaleźć istotne następujące linki:
   * [Platforma blogowa typu open source w 2020 r.][27]
   * [Zautomatyzuj operacje biznesowe za pomocą oprogramowania bezpłatnego i open source][28]
 
-  
+
+
 [1]: https://products.containerize.com/marketing-automation
 [2]: https://products.containerize.com/marketing-automation/civicrm
 [3]: https://products.containerize.com/blogging/wordpress

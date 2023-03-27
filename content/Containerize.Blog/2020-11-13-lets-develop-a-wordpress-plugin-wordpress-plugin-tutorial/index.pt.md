@@ -15,36 +15,39 @@ O plug -in ## WordPress é um módulo que você ativa no seu site para fornecer 
 
 
 ## Visão geral
-O WordPress é uma plataforma de blog de código aberto em nível corporativo. Um plug -in **WordPress**  é um conjunto independente de código que aprimora e estende a funcionalidade do WordPress. Usando qualquer combinação de PHP, HTML, CSS, JavaScript/JQuery. Um plug -in pode adicionar novos recursos a qualquer parte do seu site.
-A funcionalidade que você pode adicionar ao seu site depende do que cada plug -in específico foi criado para fazer. Um plug -in do WordPress pode ser desenvolvido para fazer qualquer coisa. De uma pequena tarefa a um aplicativo de pleno direito que executa várias operações e possui suas próprias interfaces. Os plug -ins são diferentes do seu tema e trabalho de forma independente, usando ganchos, filtros, códigos de curto, widgets e código personalizado para executar sua funcionalidade.
+O WordPress é uma plataforma de blog de código aberto em nível corporativo. Um plug -in **WordPress** é um conjunto independente de código que aprimora e estende a funcionalidade do WordPress. Usando qualquer combinação de PHP, HTML, CSS, JavaScript/JQuery. Um plug -in pode adicionar novos recursos a qualquer parte do seu site.
+A funcionalidade que você pode adicionar ao seu site depende do que cada plug -in específico foi criado para fazer. Um plug -in do WordPress pode ser desenvolvido para fazer qualquer coisa. De uma pequena tarefa a um aplicativo de pleno direito que executa várias operações e possui suas próprias interfaces. Os plugins são diferentes do seu tema e trabalho de forma independente, usando ganchos, filtros, códigos de curto, widgets e código personalizado para executar sua funcionalidade.
 Neste tutorial do plug -in do WordPress, aprenderemos como criar nosso primeiro plug -in do WordPress. O motivo mais importante para criar um plug -in é que ele permite separar seu próprio código do código principal do WordPress.
-  ***[Requisitos][1]** 
-  ***[básicos do desenvolvimento do plug -in][2]** 
-  ***[Como criar plugin WP?][3]** 
-  ***[Conclusão][4]** 
+* **[Requisitos][1]** 
+* **[básicos do desenvolvimento do plug -in][2]** 
+* **[Como criar plug -in WP?][3]** 
+* **[Conclusão][4]** 
 
-## Requisitos   {#ReQuirements}
+## Requisitos {#requirements}
+
   * Versão mais recente do WordPress
   * Compreensão do PHP / MySQL
   * Compreensão de HTML / CSS e JavaScript
 
-## básicos do desenvolvimento do plug -in   {#Basics}
+## Noções básicas de desenvolvimento de plug -in {#basics}
+
 Vamos reservar um momento para falar sobre alguns aspectos -chave do desenvolvimento de plug -in. Um entendimento sólido de como esses conceitos funcionam ajudará você a criar funcionalidade fácil de usar e sustentável.
 
-## # Ações
-**Os ganchos de ação  **são uma ferramenta muito útil no **  WordPress  ****  plugin  **e são usados ​​para executar funções (**  ações** ) em locais específicos de um tema ou plug -in. O WordPress possui dezenas de ações definidas ao longo de sua funcionalidade principal, cada ação que consiste em um nome exclusivo. Para mais detalhes [leia][5].
+### Ações
+**Os ganchos de ação **são uma ferramenta muito útil no** WordPress* ***plugin** e são usados ​​para executar funções (**ações** ) em locais específicos de um tema ou plug -in. O WordPress possui dezenas de ações definidas ao longo de sua funcionalidade principal, cada ação que consiste em um nome exclusivo. Para mais detalhes [leia][5].
 
-Filtros ## #
+Filtros ###
 Um filtro WordPress é um gancho que aceita uma variável (ou série de variáveis) e as devolve depois que elas foram modificadas. Esses filtros são frequentemente usados ​​para que você tenha uma maneira de manipular informações padrão. Para mais detalhes [leia][6].
 
-## # shortcodes
+### shortcodes
 Os códigos de short são macros que podem ser usados ​​para executar interações dinâmicas com o conteúdo. ou seja, criando uma galeria a partir de imagens anexadas ao post ou renderizando um vídeo. Como resultado, eles são uma maneira valiosa de manter o conteúdo limpo e semântico, permitindo que os usuários finais sejam alguma capacidade de alterar programaticamente a apresentação de seu conteúdo. Para mais detalhes [leia][7].
 
-Widgets ## #
+Widgets ###
 Os widgets são importantes porque fornecem outro meio de executar o código do seu plug-in enquanto fornece uma interface fácil de usar. Como a maioria dos temas apoiará uma ou mais barras laterais; Adicionar seus próprios widgets fornecerá acesso rápido para exibir suas informações dentro do tema.
 
-## **Como criar plugin WP?** {#Create}
-Nesta seção do tutorial do plug -in do WordPress, tudo o que você precisa fazer é criar uma pasta e, em seguida, criar um único arquivo com uma linha de conteúdo. Navegue até a pasta **wp-content/plugins  **e crie uma nova pasta chamada **  mytestplugin **. Dentro desta nova pasta, crie um arquivo chamado  **mytestplugin.php**  . Abra o arquivo em um editor de texto e cole as seguintes informações nele:
+## **Como criar plugin WP?** {#create}
+
+Nesta seção do tutorial do plug -in do WordPress, tudo o que você precisa fazer é criar uma pasta e, em seguida, criar um único arquivo com uma linha de conteúdo. Navegue até a pasta **wp-content/plugins**e crie uma nova pasta chamada **mytestplugin** . Dentro desta nova pasta, crie um arquivo chamado**mytestplugin.php** . Abra o arquivo em um editor de texto e cole as seguintes informações nele:
 ```
 <?php
    /*
@@ -62,7 +65,7 @@ Nesta seção do tutorial do plug -in do WordPress, tudo o que você precisa faz
 Agora, você pode entrar no back -end para ativar seu plug -in. Isso é tudo, embora este plugin não faça nada. Mas, é um plug -in ativo e funcionando. A melhor prática ao desenvolver um plug -in é separar seu código em arquivos e pastas apropriadas.
 Para demonstrar, vamos adicionar funcionalidade ao nosso plug -in de teste que rastreia a popularidade de nossos artigos, armazenando quantas vezes cada postagem foi vista.
 
-## # armazenando visualizações de página
+### armazenando visualizações de página
 ```
 function add_page_views() {
    if(is_single()) {
@@ -77,12 +80,12 @@ function add_page_views() {
    }
 }
 ```
-Até agora, tão bom neste tutorial do plug -in do WordPress. Mas essa função nunca é chamada, portanto, não será usada. É aqui que os ganchos entram. Você pode entrar nos arquivos do seu tema e chamar a função manualmente a partir daí. Mas então você perderia essa funcionalidade se mudasse o tema, derrotando todo o objetivo. Um gancho, chamado **wp_head **, que funciona logo antes da tag estar presente na maioria dos temas, para que possamos definir nossa função para executar sempre que  **wp_head**   é executado, como assim:
+Até agora, tão bom neste tutorial do plug -in do WordPress. Mas essa função nunca é chamada, portanto, não será usada. É aqui que os ganchos entram. Você pode entrar nos arquivos do seu tema e chamar a função manualmente a partir daí. Mas então você perderia essa funcionalidade se mudasse o tema, derrotando todo o objetivo. Um gancho, chamado **wp_head**, que funciona logo antes da tag estar presente na maioria dos temas, para que possamos definir nossa função para executar sempre que**wp_head** é executado, como assim:
 ```
 add_action("wp_head", "add_page_views");
 ```
 
-## # mostrando as visualizações da página
+### mostrando as visualizações da página
 Agora, criaremos outra função que retorne as visualizações da página que já armazenamos na função acima. Vamos dar uma olhada no código:
 ```
 function get_page_views() {
@@ -100,7 +103,8 @@ Até agora, acabamos de recuperar a contagem de visualizações. Agora, vamos mo
 echo get_page_views() . “view(s)”
 ```
 
-## Conclusão   {#conclusion}
+## Conclusão {#conclusion}
+
 Este é o final deste tutorial do plug -in do WordPress. Seguindo este artigo e usando apenas algumas funções, criamos um plug -in básico para rastrear nossas postagens mais populares. Podemos melhorá -lo muito, mas o objetivo era apenas deixá -lo confortável com o básico. Além disso, ao aprender alguns padrões de desenvolvimento do WordPress (plugins, ganchos, etc.), você também está adquirindo habilidades que o servirão em ambientes sem palavras. Existem muitas outras postagens de blog relacionadas a plataformas de blog de código aberto e CMS de código aberto. que você pode encontrar na seção Explorar abaixo. Esta postagem do blog pode realmente ajudá -lo se você deseja implantar uma plataforma de blog de código aberto para o seu negócio.
 Finalmente, [contendeRize.com][8] está escrevendo artigos sobre outros produtos de código aberto. Portanto, mantenha contato com as categorias [Blogging][9] e [software de inteligência de negócios][10] para notícias e atualizações regulares
 
@@ -111,7 +115,8 @@ Finalmente, [contendeRize.com][8] está escrevendo artigos sobre outros produtos
   * [Joomla vs Drupal | Comparação do CMS em 2021][14]
   * [Coisas para revisar antes de optar por software de código aberto em 2021][15]
 
-  
+
+
 [1]: #requirements
 [2]: #basics
 [3]: #create

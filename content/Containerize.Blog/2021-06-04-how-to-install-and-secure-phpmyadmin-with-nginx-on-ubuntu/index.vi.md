@@ -14,7 +14,7 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/install_phpmyadmin_with_nginx_on_ubuntu.png" alt="Cách cài đặt và bảo mật phpmyadmin với nginx trên ubuntu">}}
 
 
-## **Tổng quan**
+## **Tổng quan** 
 PHPMyAdmin là một công cụ quản lý cơ sở dữ liệu nguồn mở và miễn phí, cung cấp cho người dùng giao diện web để quản lý các máy chủ MYSQL hoặc MARIADB thông qua giao diện trực quan. Đây là một trong những phần mềm được hỗ trợ rộng rãi được cung cấp bởi hầu hết các nhà cung cấp dịch vụ lưu trữ phổ biến để cho phép các quản trị viên web tạo cơ sở dữ liệu trong phpmyadmin và quản lý cơ sở dữ liệu, thực hiện các statators SQL, nhập và xuất dữ liệu một cách dễ dàng. Bạn sẽ có thể truy cập cơ sở dữ liệu MySQL hoặc MariaDB của mình bằng phpmyadmin với NGINX thông qua giao diện web đồ họa một cách dễ dàng, chạy cùng với môi trường phát triển PHP.
 Trong hướng dẫn này, chúng tôi sẽ mô tả các bước cách cài đặt và bảo mật phpmyadmin với NGINX trên Ubuntu 20.04. Bạn sẽ cần cài đặt và định cấu hình phpmyadmin trên máy chủ Ubuntu để cho phép nó hoạt động với cơ sở dữ liệu và bảng của MySQL một cách dễ dàng. Vì vậy, hãy để Lừa học cách cài đặt và bảo mật phpmyadmin với NGINX trên Ubuntu 20.04 / 20.10:
   * Điều kiện tiên quyết
@@ -26,14 +26,16 @@ Trong hướng dẫn này, chúng tôi sẽ mô tả các bước cách cài đ�
   * Phpmyadmin an toàn
   * Phần kết luận
 
-## Bước 1: Điều kiện tiên quyết   {#id-Prerequisites}
+## Bước 1: Điều kiện tiên quyết {#id-prerequisites}
+
 Để làm theo hướng dẫn này, bạn sẽ cần máy chủ Ubuntu 20.04 chạy trên máy tính cục bộ của bạn hoặc trên một máy chủ từ xa với các điều kiện tiên quyết.
   * Bạn nên truy cập vào máy chủ với tư cách là người dùng không root với các đặc quyền sudo và bật tường lửa UFW.
   * Giả sử rằng bạn đã cài đặt Nginx, MySQL và PHP trên Ubuntu.
   * Vì PHPMyAdmin sử dụng thông tin đăng nhập MySQL để xác thực nên bạn cũng nên cài đặt chứng chỉ SSL/TLS để cho phép lưu lượng được mã hóa giữa máy chủ và máy khách.
 Không có cách nào, hãy để bắt đầu cài đặt và bảo mật phpmyadmin để kết nối với máy chủ MySQL để truy cập cơ sở dữ liệu thông qua giao diện web.
 
-## Bước 2: Cài đặt phpmyadmin   {#id-1-install-phpmyadmin}
+## Bước 2: Cài đặt phpmyadmin {#id-1-install-phpmyadmin}
+
 Hãy chắc chắn rằng bạn đã cài đặt thành công tất cả các điều kiện tiên quyết trên hệ thống của mình trước khi cài đặt phpmyadmin trên Ubuntu 20.04. Bắt đầu bằng cách cập nhật danh sách các gói:
 ```
 sudo apt update 
@@ -43,13 +45,14 @@ Bây giờ, hãy chạy lệnh sau để cài đặt gói PHPMyAdmin từ kho l�
 sudo apt install phpmyadmin
 
 ```
-Nhấn  **y **  và  **Enter **  Khi được yêu cầu tiếp tục. Nếu bạn được nhắc chọn một máy chủ web, vì không có tùy chọn cho  **nginx **  như bên dưới, nhấn Tab  **để chọn OK và sau đó **  nhập ** để tiếp tục mà không cần chọn máy chủ web.
+Nhấn **y**và **Enter** Khi được yêu cầu tiếp tục. Nếu bạn được nhắc chọn một máy chủ web, vì không có tùy chọn cho **nginx** như bên dưới, nhấn Tab**để chọn OK và sau đó** nhập**để tiếp tục mà không cần chọn máy chủ web.
 
 {{< figure align=center src="images/mysql-setup.png" alt="Cài đặt và bảo mật phpmyadmin cho Nginx trên Ubuntu 20.04">}}
 
 
-## Bước 2: Định cấu hình cơ sở dữ liệu   {#id-1-install-phpmyadmin}
-Tiếp theo, chọn  **Có **  và nhấn  **Enter **  để cài đặt và thiết lập cơ sở dữ liệu bằng cách sử dụng công cụ DBConfig-Common:
+## Bước 2: Định cấu hình cơ sở dữ liệu {#id-1-install-phpmyadmin}
+
+Tiếp theo, chọn **Có**và nhấn**Enter** để cài đặt và thiết lập cơ sở dữ liệu bằng cách sử dụng công cụ DBConfig-Common:
 
 {{< figure align=center src="images/phpmyadmin-install2.png" alt="Cách cấu hình MySQL với phpmyadmin">}}
 
@@ -57,21 +60,24 @@ Mật khẩu ứng dụng MySQL được PHPMyAdmin sử dụng nội bộ để
 
 {{< figure align=center src="images/phpmyadmin-install3.png" alt="Cách cấu hình MySQL cho phpmyadmin">}}
 
-Bạn sẽ được nhắc xác nhận mật khẩu, nhập cùng một mật khẩu, chọn  **ok **  và nhấn  **enter ** . Chúc mừng! PHPMyAdmin đã được cài đặt thành công trên hệ thống của bạn.
+Bạn sẽ được nhắc xác nhận mật khẩu, nhập cùng một mật khẩu, chọn **ok**và nhấn**enter** . Chúc mừng! PHPMyAdmin đã được cài đặt thành công trên hệ thống của bạn.
 
-## Bước 4: Tạo liên kết tượng trưng   {#id-2-create-symbolic-link}
+## Bước 4: Tạo liên kết tượng trưng {#id-2-create-symbolic-link}
+
 Có một số cách để định cấu hình Nginx để phục vụ các tệp phpmyadmin. Nếu khối máy chủ miền của bạn đã được thiết lập để phục vụ các yêu cầu PHP thì bạn phải tạo một liên kết tượng trưng từ các tệp cài đặt PhpMyAdmin nginx/usr/share/phpmyadmin đến thư mục gốc tài liệu tên miền của bạn. Vị trí mặc định của root tài liệu nginx trong Ubuntu 20.04/20.10 phải là/var/www/html/và nó có thể khác nhau tùy thuộc vào thiết lập INS của bạn. Root tài liệu của bạn có thể được đặt ví dụ trong /var/www/example.com/public_html.
 Tiếp theo, chúng tôi sẽ tạo một liên kết tượng trưng từ thư mục phpmyadmin/usr/share/phpmyadmin đến gốc tài liệu của bạn. Ở đây chúng tôi sẽ giả sử rằng root tài liệu của chúng tôi là/var/www/html/và chúng tôi chỉ cần thêm phpmyadmin vào cuối của điều này. Điều này sẽ cho phép chúng tôi truy cập phpmyadmin tại url example.com/phpmyadmin
 ```
 sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 
-## Bước 5: Truy cập phpmyadmin   {#id-3-test-phpmyadmin}
+## Bước 5: Truy cập phpmyadmin {#id-3-test-phpmyadmin}
+
 Bây giờ bạn sẽ có thể truy cập giao diện web PHPMyAdmin bằng cách truy cập máy chủ/tên miền máy chủ hoặc địa chỉ IP công khai của bạn theo tên domain.com/phpmyadmin trong trình duyệt web yêu thích của bạn. Ví dụ: http://example.com/phpmyadmin hoặc http://192.168.1.10/phpmyadmin
 {{_LINE_48_}}
 Trên các máy chủ Ubuntu chạy với MySQL 5.7 trở lên, bạn sẽ không thể đăng nhập vào cơ sở dữ liệu phpmyadmin miễn phí bằng tài khoản gốc mặc định MySQL và sẽ gặp lỗi như _ Truy cập bị từ chối cho người dùng ‘root. Thay vào đó, bạn nên tạo một tài khoản Superuser mới chỉ dành cho phpmyadmin. Tiếp theo, chúng tôi sẽ tạo tài khoản gốc MySQL để đăng nhập vào phpmyadmin.
 
-..
+## Bước 6: Tạo siêu người dùng MySQL {#id-4-create-mysql-superuser}
+
 Trong thiết bị đầu cuối, hãy bắt đầu bằng cách đăng nhập vào MySQL bằng mật khẩu gốc MySQL của bạn mà bạn có thể đã tạo mật khẩu gốc khi bạn cài đặt cơ sở dữ liệu PHPMyAdmin MySQL lần đầu tiên.
 ```
 sudo mysql -u root -p
@@ -90,7 +96,8 @@ Bây giờ thoát khỏi phiên MySQL. Bây giờ bạn sẽ có thể truy cậ
 
 Rất khuyến khích bạn thiết lập một số bảo mật bổ sung cho phpmyadmin để bảo mật phpmyadmin nginx. Bạn sẽ có thể thay đổi và truy cập URL phpmyadmin thành một cái gì đó như URL tối nghĩa.
 
-## Bước 7: an toàn phpmyadmin   {#id-6-secure-phpmyadmin được đề xuất}
+## Bước 7: Phpmyadmin an toàn {#id-6-secure-phpmyadmin-recommended}
+
 Tiếp theo, chúng tôi muốn thiết lập xác thực trong Nginx để cung cấp một lớp bảo mật bổ sung. Bây giờ chúng tôi sẽ cài đặt Apache2-Utils, có thể tạo tệp .htpasswd hoạt động với cả máy chủ nginx và apache2.
 ```
 sudo apt install apache2-utils
@@ -130,7 +137,8 @@ Bây giờ khi truy cập ví dụ.com/aspose_hidden, bạn nên được trình
 
 Bạn đã hoàn thành tất cả với các cài đặt PHPMyAdmin trên máy chủ Ubuntu.
 
-## Kết luận:   {#id-what-next}
+## Phần kết luận: {#id-what-next}
+
 Xin chúc mừng, bạn đã cài đặt thành công phpmyadmin với NGINX cho máy chủ Ubuntu 20.04 / 20.10 và hiện có thể quản lý MySQL thông qua PHPMyAdmin. Bây giờ, bạn có thể bắt đầu tạo cơ sở dữ liệu, người dùng, bảng của MySQL, thực hiện truy vấn MySQL và các hoạt động khác.
 Nếu bạn có câu hỏi, hãy nói với tôi dưới đây trong phần bình luận.
 
@@ -142,7 +150,8 @@ Bạn cũng có thể thích các bài viết liên quan hơn dưới đây:
   * [Cách thiết lập Nginx với hành khách trên máy chủ sản xuất AWS][7]
   * [Cách cài đặt và định cấu hình Owncloud với Apache trên Ubuntu][8]
 
-  
+
+
 [1]: https://devanswers.co/installing-phpmyadmin-nginx-ubuntu-16-04-17-04/mysql-setup/
 [2]: https://passgen.co/
 [3]: https://passgen.co/?pw=10&a=1

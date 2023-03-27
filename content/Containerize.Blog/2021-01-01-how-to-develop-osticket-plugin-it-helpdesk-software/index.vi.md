@@ -22,20 +22,23 @@ Hệ thống bán vé nguồn mở này (Osticket) là một khung vé hỗ tr�
   * [Làm thế nào để phát triển plugin Osticket?][6]
   * [Kết luận][7]
 
-## Tại sao sử dụng plugin?   {#Tại sao}
-Trong chủ đề này, chúng tôi sẽ tìm hiểu cách tạo một plugin đơn giản để mở rộng chức năng cốt lõi của phần mềm trợ giúp này** nó (Osticket). Plugin là một phần mềm, mở rộng chức năng cốt lõi của bất kỳ ứng dụng/phần mềm nào. Ngoài ra, có rất nhiều phần mềm nguồn mở cấp doanh nghiệp có một chồng plugin khổng lồ mở rộng các chức năng. Hơn nữa, các phần mềm nguồn mở phổ biến này bao gồm WordPress, Joomla và nhiều thứ khác. Trên hết, cộng đồng sôi động và sống động hỗ trợ và phát triển các plugin theo nhu cầu. Tuy nhiên, Frameworks cung cấp tài liệu toàn diện về sự phát triển của các plugin. Sau đây là một số lý do để các ứng dụng hỗ trợ các plugin:
+## Tại sao phải sử dụng plugin? {#why}
+
+Trong chủ đề này, chúng tôi sẽ tìm hiểu cách tạo một plugin đơn giản để mở rộng chức năng cốt lõi của phần mềm trợ giúp này**nó (Osticket). Plugin là một phần mềm, mở rộng chức năng cốt lõi của bất kỳ ứng dụng/phần mềm nào. Ngoài ra, có rất nhiều phần mềm nguồn mở cấp doanh nghiệp có một chồng plugin khổng lồ mở rộng các chức năng. Hơn nữa, các phần mềm nguồn mở phổ biến này bao gồm WordPress, Joomla và nhiều thứ khác. Trên hết, cộng đồng sôi động và sống động hỗ trợ và phát triển các plugin theo nhu cầu. Tuy nhiên, Frameworks cung cấp tài liệu toàn diện về sự phát triển của các plugin. Sau đây là một số lý do để các ứng dụng hỗ trợ các plugin:
   * Nó cho phép các nhà phát triển bên thứ ba tạo các thành phần phần mềm mở rộng chức năng của một ứng dụng.
   * Plugin cho phép dễ dàng tích hợp các tính năng mới.
   * Ngoài ra, nó không làm tăng kích thước và độ phức tạp của một ứng dụng.
   * Cũng như các nhà phát triển có thể giữ và quản lý các plugin mã riêng biệt với ứng dụng cốt lõi.
 
-## Yêu cầu   {#Requirements}
+## Yêu cầu {#requirements}
+
 Phần này của phần mềm  **CNTT trợ giúp**  Hướng dẫn mô tả các yêu cầu cần thiết để phát triển plugin Osticket.
   * Php phiên bản 5.6 trở lên
   * Cài đặt Osticket
   * Kiến thức PHP cơ bản
 
-## Làm thế nào để phát triển plugin Osticket?   {#Làm sao}
+## Làm thế nào để phát triển plugin Osticket? {#how}
+
 Trong phần này, chúng tôi sẽ trải qua các bước phát triển plugin của hệ thống bán vé nguồn mở này (Osticket).
   * Tạo thư mục plugin plugin trong /bao gồm /plugins. Trong hướng dẫn này, chúng tôi sẽ tạo một plugin demo tích hợp  **hệ thống Osticket**  với redmine.
   * Nó nên có các tệp cần thiết sau: Plugin.php và Config.php.
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Mã này tìm nạp các giá trị cấu hình và bạn có thể sử dụng các giá trị này trong các chức năng của mình. Trong tệp này, bạn có thể thêm chức năng plugin của bạn như các yêu cầu của bạn.
 
-## Kết luận   {#conclusion}
-Điều này đưa chúng ta đến cuối bài viết trên blog này. Osticket là một phần mềm quản lý vé cung cấp cấu trúc plugin cho các nhà phát triển để họ có thể thêm chức năng mới theo yêu cầu. Plugin là các thành phần mở rộng chức năng cốt lõi của bất kỳ ứng dụng/phần mềm nào. Trong bài viết của mình, chúng tôi đã thảo luận về sự phát triển plugin của hệ thống hỗ trợ khách hàng **này  **(Osticket), giúp các nhà phát triển thêm các tính năng và cải tiến tùy chỉnh theo yêu cầu của họ. Do đó, bài đăng trên blog này sẽ thực sự giúp bạn nếu bạn đang tìm cách triển khai phần mềm **  CNTT CNTT  **cho doanh nghiệp của bạn. Hơn nữa, có một phần mềm bán vé**   trợ giúp khác** và các bài viết được đề cập trong phần Khám phá trên mạng bên dưới.
+## Phần kết luận {#conclusion}
+
+Điều này đưa chúng ta đến cuối bài viết trên blog này. Osticket là một phần mềm quản lý vé cung cấp cấu trúc plugin cho các nhà phát triển để họ có thể thêm chức năng mới theo yêu cầu. Plugin là các thành phần mở rộng chức năng cốt lõi của bất kỳ ứng dụng/phần mềm nào. Trong bài viết của mình, chúng tôi đã thảo luận về sự phát triển plugin của hệ thống hỗ trợ khách hàng  **này** (Osticket), giúp các nhà phát triển thêm các tính năng và cải tiến tùy chỉnh theo yêu cầu của họ. Do đó, bài đăng trên blog này sẽ thực sự giúp bạn nếu bạn đang tìm cách triển khai phần mềm  **CNTT CNTT**  cho doanh nghiệp của bạn. Hơn nữa, có một phần mềm bán vé **trợ giúp khác**  và các bài viết được đề cập trong phần Khám phá trên mạng bên dưới.
 Cuối cùng, [containerize.com][8] liên tục viết các bài đăng trên blog về các sản phẩm và chủ đề nguồn mở tiếp theo. Do đó, vui lòng giữ liên lạc với danh mục [phần mềm bán vé trợ giúp][1] để cập nhật thường xuyên. Hơn nữa, bạn có thể theo dõi chúng tôi trên các tài khoản truyền thông xã hội của chúng tôi [Facebook][9], [LinkedIn][10] và [Twitter][11].
 
 ## Khám phá
@@ -135,7 +139,7 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Uvdesk][12]
   * [Zammad][13]
   * [Freescout][14]
-  * [Helpy][15]
+  * [Trợ giúp][15]
   * [Nguồn mở tốt nhất và phần mềm bàn trợ giúp CNTT miễn phí][16]
   * [Hệ thống chăm sóc khách hàng và trợ giúp dựa trên vé miễn phí phổ biến][2]
   * [Cách thiết lập phần mềm bàn trợ giúp trực tuyến bằng Osticket][17]
@@ -143,7 +147,8 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Tự động hóa hệ thống bán vé bằng cách sử dụng WordPress và Osticket][3]
   * [Tự động hóa hoạt động kinh doanh bằng phần mềm nguồn mở và miễn phí][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

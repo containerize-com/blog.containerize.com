@@ -22,30 +22,34 @@ La communauté open source a développé de nombreux forums de discussion au niv
   * [Flarum vs discours][7]
   * [Conclusion][8]
 
-## Qu'est-ce que le discours?   {#What-est-il fait?}
-[Discours][3] est un logiciel de forum open source qui fournit un portail riche en fonctionnalités où les entités commerciales peuvent établir des discussions saines. Entre autres fonctionnalités, ce forum de discussion propose des fonctionnalités sociales, tout comme Facebook et Twitter qui aident éventuellement les entreprises à développer des communautés commerciales de manière moderne. De plus, il y a des installations pour discuter avec d'autres membres dans les salles de chat, où vous pouvez mentionner les gens et partager les fichiers multimédias. De plus, il est écrit en Ruby sur Rails, Ember.js, Postgresql, Redis et est facile à installer dans vos propres locaux.
+## Qu'est-ce que le discours? {#What-is-Discourse?}
+
+[Discours][3] est un logiciel de forum open source qui fournit un portail riche en fonctionnalités où les entités commerciales peuvent établir des discussions saines. Entre autres fonctionnalités, ce forum de discussion propose des fonctionnalités sociales, tout comme Facebook et Twitter qui finissent par aider les entreprises à développer des communautés commerciales de manière moderne. De plus, il y a des installations pour discuter avec d'autres membres dans les salles de chat, où vous pouvez mentionner les gens et partager les fichiers multimédias. De plus, il est écrit en Ruby sur Rails, Ember.js, Postgresql, Redis et est facile à installer dans vos propres locaux.
 Il existe une communauté très dynamique qui offre un soutien à ce forum de questions-réponses. Il existe une énorme pile de plugins et de thèmes disponibles tels que OAuth 2.0 et OpenID Connect Support, SAML Authentication, Discours Traductor et bien d'autres. Le discours fournit de nombreuses fonctionnalités qui incluent un système de notifications dynamiques, des liens en expansion automatiquement, [l'authentification unique][9], une API complète, etc. Surtout, il existe une documentation complète sur le développement et le déploiement. Par conséquent, tout le code source de ce logiciel de forum open source est disponible sur [GitHub][10].
 
-## Brief Introduction de Flarum   {#flarum}
+## Brève introduction de flarum {#flarum}
+
 [Flarum][4] est un autre forum de discussion populaire qui est gratuit, open source et est livré avec des capacités d'auto-hébergement. Il est très extensible et est livré avec une disposition réactive qui fonctionne bien sur les tablettes et les appareils mobiles également. Ce logiciel de forum open source est écrit en PHP et facile à héberger sur ses propres serveurs. De plus, il fournit une interface logique à deux volets où les utilisateurs naviguent facilement sur les éléments.
 Ce forum de réponses est rapide, fiable, léger et offre de nombreuses fonctionnalités attrayantes telles que le système de notification, les fonctionnalités sociales (par exemple, mentionner, tagging, comme) des autorisations puissantes, des paramètres à grain fin, etc. Il y a de riches animations et thèmes où les utilisateurs peuvent glisser à gauche et à droite pour afficher d'autres contrôles de chat. Tout comme le discours, Flarum a également une communauté qui est proactive et fournit une prise en charge des bogues et de nouvelles demandes de fonctionnalités. Surtout, il existe une documentation complète sur le développement et le déploiement. Par conséquent, tout le code source de ce logiciel de forum open source est disponible sur [GitHub][10].
 
-## flarum vs discours   {#vs}
+## Flarum vs discours {#vs}
+
 Dans cette section, nous allons mettre ces deux logiciels de forum open source en un seul endroit où nous pourrons comparer le discours et le flarum.
 
-## ## Communauté
+#### Communauté
 Eh bien, ces deux forums de réponses gratuits ont des communautés solides qui répondent activement aux requêtes des utilisateurs / développeurs. Si nous parlons des statistiques GitHub, Flarum a 12k plus d'étoiles et 1k fourchettes sur son référentiel GitHub. De l'autre côté, le discours a 34k plus d'étoiles et 7k Plus Forks sur son dépôt GitHub.
 
-## ## Tech Stack
+#### Tech Stack
 En ce qui concerne la technologie technique de ces logiciels de forum open source, le discours est écrit en Ruby sur Rails et JavaScript. Alors que le Flarum est écrit en PHP avec la combinaison de et MySQL / MARIADB.
 
-## ## **Caractéristiques**
+#### **Caractéristiques** 
 C'est l'aspect le plus critique en ce qui concerne la sélection de tout logiciel pour votre entreprise. Par conséquent, ces deux logiciels de forum de discussion fournissent des fonctionnalités de niveau d'entreprise. Le Falrum et le discours offrent tous deux des caractéristiques sociales et des systèmes de notification riches. De plus, le discours a une énorme base de plugins où vous pouvez trouver presque tous les types de plugins. De plus, les utilisateurs peuvent modifier l'apparence et la sensation du tableau de bord du discours. Il propose également des fonctionnalités de connexion unique où les utilisateurs peuvent se connecter à l'aide de connexions sociales tierces.
 
-## ## Extensibilité
+#### Extensibilité
 Il s'agit d'une autre caractéristique importante de tout logiciel. Heureusement, ces deux logiciels de forum open source sont extensibles et les développeurs peuvent facilement étendre les fonctionnalités selon les besoins. Surtout, le discours offre AP pour les intégrations tierces.
 
-## Conclusion   {#conclusion}
+## Conclusion {#Conclusion}
+
 Cela met à la fin de ce discours Flarum vs. Nous avons passé la revue des meilleurs forums de discussion open source les plus importants. Nous avons traversé ce qui est le discours et une brève introduction du logiciel Flarum. Ces deux logiciels libres sont compétents et aident les entreprises à avoir un portail de discussion professionnel. Par conséquent, c'est à vous maintenant de conclure quel logiciel de discussion correspond à votre modèle commercial. Ce billet de blog peut vraiment vous aider si vous cherchez à déployer un logiciel de forum open source pour votre entreprise. De plus, il existe d'autres articles de blog qui sont très pertinents et peuvent trouver d'autres logiciels de forum open source autres que Flarum et Discours.
 Enfin, [contenerize.com][11] écrit continuellement des articles de blog sur d'autres produits et sujets open source. Par conséquent, veuillez rester en contact avec la catégorie [][][12][Discussion Forum Logiciel][1] pour les mises à jour régulières. De plus, vous pouvez nous suivre sur nos comptes de médias sociaux [Facebook][13], [LinkedIn][14] et [Twitter][15].
 
@@ -57,7 +61,8 @@ Vous pouvez trouver les liens suivants pertinents:
   * [Comment intégrer le forum du discours avec WordPress][2]
   * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][19]
 
-  
+
+
 [1]: https://products.containerize.com/discussion-forum/
 [2]: https://blog.containerize.com/blogging/how-to-integrate-discourse-forum-with-wordpress/
 [3]: https://products.containerize.com/discussion-forum/discourse/

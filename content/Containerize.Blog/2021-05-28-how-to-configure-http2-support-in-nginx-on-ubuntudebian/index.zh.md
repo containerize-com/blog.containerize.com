@@ -14,19 +14,20 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/nginx-enable-http2.png" alt="nginx启用ubuntu和debian的HTTP2支持">}}
 
 
-## **概述**
+## **概述** 
 NGINX是一个快速可靠的Web服务器。由于其记忆范围较低，负载平衡，高可扩展性，缓存，对大多数协议的支持和反向代理，因此获得了受欢迎程度。现在，让我们谈谈NGINX如何启用HTTP2协议。
 NGINX支持的协议之一是2015年5月发布的HTTP/2。HTTP/2的主要优点是其内容丰富的网站的高传输速度，减少Web服务器上的负载，并且可以启动多个并行请求。在单个TCP连接中。 nginx enable HTTP2是HTTP协议的改进版本。在开始之前，我们将需要一些带有SSL证书的Ubuntu或Debian服务器。在本教程中，我们将指导您介绍如何在Ubuntu上启用HTTP2的nginx。
-  *更新软件包并安装nginx
-  *启用HTTP/2支持
-  *添加服务器名称
-  *添加SSL证书
-  *删除密码
-  *将所有HTTP请求重定向到HTTPS
-  *重新启动nginx
+* 更新软件包并安装nginx
+* 启用HTTP/2支持
+* 添加服务器名称
+* 添加SSL证书
+* 删除密码
+* 将所有HTTP请求重定向到HTTP
+* 重新启动nginx
   * 结论
 
-## 步骤1：更新软件包并安装nginx   {#4597}
+## 步骤1：更新软件包并安装nginx {#4597}
+
 第一步是更新和升级APT包装系统中的存储库。使用更新将下载最新版本软件包，升级将在列表中安装最新版本的软件包。运行下面的APT命令以更新和升级软件包。
 ```
 sudo apt-get update && apt-get upgrade
@@ -44,7 +45,8 @@ sudo nginx -v
 nginx version: nginx/1.10.0 (Ubuntu)
 ```
 
-## 步骤2：启用http/2支持 {#f4d2}
+## 步骤2：启用HTTP/2支持 {#f4d2}
+
 安装NGINX软件包后，我们需要启用HTTP2 NGINX。用户必须将收听端口从80更改为443。让我们打开Nginx配置文件：
 ```
 sudo nano /etc/nginx/sites-available/domain-name.com
@@ -57,7 +59,8 @@ sudo nano /etc/nginx/sites-available/domain-name.com
 听[::]：443 SSL HTTP2 DEFAULT_SERVER;
 请注意，除SSL外，我们还添加了HTTP2。 NGINX现在能够使用支持HTTP/2协议的浏览器。
 
-## 步骤3：添加服务器名称 {#A745}
+## 步骤3：添加服务器名称 {#a745}
+
 下一步是更改服务器\ _名称，以便服务器名称与域名关联。用户只需要更改配置文件中的服务器名称即可。在配置文件中找到服务器\ _name条目，然后将_更改为您的实际域，如下：
 ```
 server_name example.com www.example.com;
@@ -70,7 +73,8 @@ sudo nginx -t
 nginx：配置文件/ETC/NGINX/NGINX.CONF语法是可以的
 nginx：configuration file /etc/nginx/nginx.conf测试成功
 
-## 步骤4：添加SSL证书 {#37C0}
+## 步骤4：添加SSL证书 {#37c0}
+
 下一步是启用NGINX HTTPS配置使用您的SSL证书。您可以生成自签名证书或[从Let's Encrypt中安装免费证书][1]。如果您没有SSL证书，请遵循本教程。在NGINX配置目录中添加您的SSL证书类似：
 ```
 sudo mkdir /etc/nginx/ssl
@@ -84,16 +88,18 @@ ssl_certificate /etc/nginx/ssl/example.com.crt;
 ssl_certificate_key /etc/nginx/ssl/example.com.key;
 保存文件nginx文件并退出文本编辑器。
 
-## 步骤5：删除密码 {#D291}
+## 步骤5：删除密码 {#d291}
+
 密码是一种用于数据加密和解密的加密术中的算法。密码套件是用于保护网络连接的一堆密码算法。 HTTP/2具有巨大的不安全密码黑名单，需要删除。在这里，我们将使用由Internet Giants Cloudflare批准的流行密码集。
-打开以下nginx配置文件/etc/nginx/nginx.conf，然后在** ssl \ _prefer \ _server_ciphers上添加以下行。
+打开以下nginx配置文件/etc/nginx/nginx.conf，然后在**ssl \ _prefer \ _server_ciphers上添加以下行。
 ```
 ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+
 AES256:EECDH+3DES:RSA+3DES:!MD5;
 ```
 您可以将GZIP设置为OFF并添加代理\ _max \ _temp \ _file \ _size 0;为了避免err \ _http2 \ _protocol_error nginx错误。
 
-## 步骤6：将所有http请求重定向到https   {#b387}
+## 步骤6：将所有HTTP请求重定向到HTTPS {#b387}
+
 现在，我们应该告诉NGINX HTTP2代理，仅当服务器收到HTTP请求时，它应该通过HTTPS提供内容。最后，忽略评论的行，您的nginx配置文件/etc/nginx/sites-available/domain-name.com应该看起来与此相似：
 服务器{收听443 SSL HTTP2 DEFAULT_SERVER;听[::]：443 SSL HTTP2 default_server; root/var/var/www/html; index index index.html index.htm index.htm index.nginx-debian.html; server_name example.com; locaty/location/locess/{ ; } ssl_certificate /etc/nginx/ssl/example.com.crt; sssl_certificate_key /etc/nginx/nginx/ssl/ssl/example.com.ykey；听[::]：80; server_name example.com;返回301 https：// $ server_name $ request_uri;}
 保存文件/etc/nginx/sites-available/domain-name.com，然后退出。检查语法错误的配置：
@@ -101,12 +107,14 @@ AES256:EECDH+3DES:RSA+3DES:!MD5;
 sudo nginx -t
 ```
 
-## 步骤7：RESTART NGINX   {#E687}
+## 步骤7：重新启动nginx {#e687}
+
 要应用所有更改，请重新启动NGINX HTTP2反向代理服务器并检查配置状态。
 sudo systemctl restart nginx
 sudo systemctl状态nginx
 
-## **结论：**   {#4a1a}
+## **结论:**  {#4a1a}
+
 恭喜，您已经成功地学习了如何在Ubuntu Server上设置Nginx Config Http2支持。您的NGINX HTTP2设置现在为HTTP/2页提供，并且还清除了HTTP/1和HTTP/2协议之间的差异。如果您仍然遇到任何配置问题，请在评论部分中告诉我们。
 您对HTTP2多路复用协议有任何疑问吗？_，请_ [获得联系][2]。
 
@@ -118,7 +126,8 @@ sudo systemctl状态nginx
   * [安全和加密nginx与让我们在Ubuntu上加密20.04][1]
   * [如何在Ubuntu上使用Apache安装和配置OllCloud][6]
 
-  
+
+
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
 [2]: mailto:yasir.saeed@aspose.com
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/

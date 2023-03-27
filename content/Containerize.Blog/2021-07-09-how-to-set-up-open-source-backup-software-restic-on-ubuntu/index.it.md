@@ -13,27 +13,29 @@ categories: ['Backup Software']
 
 {{< figure align=center src="images/restic-post-banner.png" alt="Software di backup open source">}}
 
-Un sistema di backup è davvero importante sia per le aziende che per gli individui. I dati possono essere persi per vari motivi come un attacco informatico, fallimento del sistema, rimozione accidentale e molti altri. Dovresti avere una buona strategia di backup in atto in modo da poter ripristinare rapidamente i tuoi dati. Questa guida ti mostrerà come installare e utilizzare il software di backup open source ** Restic sul tuo server Ubuntu.
+Un sistema di backup è davvero importante sia per le aziende che per gli individui. I dati possono essere persi per vari motivi come un attacco informatico, fallimento del sistema, rimozione accidentale e molti altri. Dovresti avere una buona strategia di backup in atto in modo da poter ripristinare rapidamente i tuoi dati. Questa guida ti mostrerà come installare e utilizzare il software di backup open source**Restic sul tuo server Ubuntu.
 Abbiamo coperto le seguenti sezioni in questo tutorial.
-  *[ **prerequisiti ** ][1]
-  *[ **Cos'è Resic? ** ][2]
-  *[ **Installazione restale ** ][3]
-  *[ **Configurazione restabile ** ][4]
-  *[ **Alternative a Restic ** ][5]
-  * **[Conclusione][6]**
+* [ **prerequisiti** ][1]
+* [ **Cos'è Resic?** ][2]
+* [ **Installazione restale** ][3]
+* [ **Configurazione restabile** ][4]
+* [ **Alternative a Restic** ][5]
+* **[Conclusione][6]** 
 
-## Prerequisites   {#Prerequisites}
-Resic Backup Software Program supporta i tre principali sistemi operativi Linux, MacOS e Windows. Prima di installare  **Resic Backup ** , è necessario soddisfare i seguenti requisiti di sistema.
+## Prerequisiti {#Prerequisiti}
+
+Resic Backup Software Program supporta i tre principali sistemi operativi Linux, MacOS e Windows. Prima di installare **Resic Backup** , è necessario soddisfare i seguenti requisiti di sistema.
   * Sistema macchina o desktop con un sistema operativo Ubuntu che ospita i dati da eseguire il backup
   * Un'ultima istanza del server Ubuntu
   * Autenticazione chiave SSH configurata tra i due client e il server
   * Utente non root con privilegi sudo
 Con questi bit in mano, muoviamo e mettiamoci al lavoro.
 
-## Cos'è Resic?   {#Restic}
-[ **Restic ** ][7] è un fantastico strumento di backup open source **. È un'utilità di backup  ****  che è veloce, sicura ed efficiente. È un programma di backup multipiattaforma, quindi funzionerà su Linux, BSD, Mac OS X e Windows. Il miglior software di backup open source è facile da eseguire e non richiede un server o una configurazione complicata. Crea un backup dei dati modificati e consente agli utenti di ripristinarli quando necessario. Inoltre, fornisce una varietà di opzioni di archiviazione, tra cui autoprodotta e archiviazione Internet. Inoltre, il resic Cloud Storage autonomo open source utilizza solide tecniche crittografiche per proteggere i tuoi dati.
-Resic non è un'utilità di copia di file semplice. È basato principalmente su due concetti: istantanee e repository.  **Resic **  La soluzione di backup open source salva le informazioni come snapshot, che viene quindi salvata in un repository. È scritto nel linguaggio di programmazione Go. L'utilità di backup basata su GO e l'applicazione di backup open source funzionano senza intoppi con molti sistemi di archiviazione del back -end cloud e locali. Il codice sorgente del software di backup del file open source Resic è disponibile su [ **GitHub ** ][8]. Tuttavia, è possibile trovare una documentazione dettagliata [ **** ][9] per l'installazione e l'utilizzo.
-Resic autosostato da sé il backup cloud supporta il backend out-of-the-box per l'archiviazione di backup.
+## Cos'è Resic? {#Restic}
+
+[ **Restic**][7] è un fantastico strumento di backup open source**. È un'utilità di backup****che è veloce, sicura ed efficiente. È un programma di backup multipiattaforma, quindi funzionerà su Linux, BSD, Mac OS X e Windows. Il miglior software di backup open source è facile da eseguire e non richiede un server o una configurazione complicata. Crea un backup dei dati modificati e consente agli utenti di ripristinarli quando necessario. Inoltre, fornisce una varietà di opzioni di archiviazione, tra cui autoprodotta e archiviazione Internet. Inoltre, il resic Cloud Storage autonomo open source utilizza solide tecniche crittografiche per proteggere i tuoi dati.
+Resic non è un'utilità di copia di file semplice. È basato principalmente su due concetti: istantanee e repository. **Resic**La soluzione di backup open source salva le informazioni come snapshot, che viene quindi salvata in un repository. È scritto nel linguaggio di programmazione Go. L'utilità di backup basata su GO e l'applicazione di backup open source funzionano senza intoppi con molti sistemi di archiviazione del back -end cloud e locali. Il codice sorgente del software di backup del file open source Resic è disponibile su [**GitHub** ][8]. Tuttavia, è possibile trovare una documentazione dettagliata [****][9] per l'installazione e l'utilizzo.
+Resic autosostato da sé il backup del cloud supporta i backend fuori dalla scatola per l'archiviazione di backup.
   * Directory locale
   * Server SFTP (tramite SSH)
   * Server di riposo
@@ -45,13 +47,14 @@ Resic autosostato da sé il backup cloud supporta il backend out-of-the-box per 
   * Backblaze B2
   * Archiviazione BLOB Microsoft Azure
   * Google Cloud Storage
-È possibile utilizzare [ **rclone ** ][10] per vari backend oltre a quelli sopra elencati.
+È possibile utilizzare [ **rclone** ][10] per vari backend oltre a quelli sopra elencati.
 
-## installazione restigiana   {#installation}
+## Installazione restiale {#Installation}
+
 Esistono vari modi per installare la migliore memoria cloud autosufficiente sul tuo sistema operativo Ubuntu. Copriremo l'installazione di archiviazione di file autosullati resistenti utilizzando il pacchetto Ubuntu, il docker e il codice sorgente.
 
 ### Installazione utilizzando il pacchetto
-  * Esegui il comando di seguito per installare un server backup open source su Ubuntu OS.
+  * Esegui il comando di seguito per installare un server backup open source sul sistema operativo Ubuntu.
 ```
 $ sudo apt-get install restic
 ```
@@ -63,7 +66,7 @@ $ docker pull restic/restic
 ```
 
 ### Installazione utilizzando la sorgente
-  * Innanzitutto, è necessario installare un linguaggio di programmazione GO per configurare Resic dalla fonte. È possibile visitare il sito Web ufficiale [ **Golang ** ][11] per le istruzioni da installare.
+  * Innanzitutto, è necessario installare un linguaggio di programmazione GO per configurare Resic dalla fonte. È possibile visitare il sito Web ufficiale [ **Golang** ][11] per le istruzioni da installare.
   * Successivamente, eseguire i comandi seguenti per installare un backup incrementale resistente.
 ```
 $ git clone https://github.com/restic/restic
@@ -77,7 +80,8 @@ $ go run build.go --goos freebsd --goarch 386
 $ go run build.go --goos linux --goarch arm --goarm 6
 ```
 
-## configurazione restale   {#configuration}
+## Configurazione resta {#Configuration}
+
 Come abbiamo già menzionato sopra, il report di backup open source si basa su istantanee e repository per il backup. Diamo un'occhiata a come impostare un repository, dare un'istantanea e quindi ripristinare il backup.
 
 ### Crea repository
@@ -102,7 +106,7 @@ $ restic restore 47a15bab -r /tmp/backup --target /tmp/backup/restore
 $ restic restore latest -r /tmp/backup --target /tmp/backup/restore
 ```
 
-### lavorando con le istantanee
+### Lavorare con le istantanee
 In questa sezione, esamineremo alcune delle funzionalità delle istantanee.
   * Esegui il comando seguente per elencare gli snaphost.
 ```
@@ -130,8 +134,8 @@ Restic è l'applicazione software di backup open source più popolare e garantis
   * Cohesity
 
 ## Conclusione
-In questo articolo, abbiamo coperto il restante software di backup open source gratuito **. Abbiamo anche discusso di diverse tecniche di installazione, nonché come creare un backup e come ripristinare il backup. Esistono molte altre forme di archiviazione di backup dei dati e ne abbiamo appena affrontata una in questo articolo. I restanti tipi di archiviazione backend saranno trattati in future pubblicazioni. Speriamo che questo tutorial sarà un punto di partenza per utilizzare il miglior strumento di backup open source per eseguire e ripristinare i backup.
-Infine, [ **Containerize.com ** ][12] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, rimani in contatto con questa categoria [ **Backup Software ** ][13] per gli ultimi aggiornamenti.
+In questo articolo, abbiamo coperto il restante software di backup open source gratuito**. Abbiamo anche discusso di diverse tecniche di installazione, nonché come creare un backup e come ripristinare il backup. Esistono molte altre forme di archiviazione di backup dei dati e ne abbiamo appena affrontata una in questo articolo. I restanti tipi di archiviazione backend saranno trattati in future pubblicazioni. Speriamo che questo tutorial sarà un punto di partenza per utilizzare il miglior strumento di backup open source per eseguire e ripristinare i backup.
+Infine, [ **Containerize.com**][12] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, rimani in contatto con questa categoria [**Backup Software** ][13] per gli ultimi aggiornamenti.
 _ Quali sono il tuo software di backup gratuito e open source preferito?. Hai domande sul software di backup open source?, Per favore_ [mettiti in contatto][14].
 
 ## Esplorare:
@@ -144,7 +148,8 @@ Abbiamo anche diverse altre informazioni correlate da OSS Watch:
   * [NextCloud vs OwnCloud | Quali sono le differenze?][20]
   * [Il miglior software di archiviazione e condivisione di file open source][21]
 
-  
+
+
 [1]: #Prerequisites
 [2]: #Restic
 [3]: #Installation

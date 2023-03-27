@@ -20,11 +20,13 @@ categories: ['Web Server Solution Stack']
   * [كيفية تكوين LightTPD؟][7]
   * [الخلاصة][8]
 
-## ما هو Lighttpd؟   {#ماذا}
+## ما هو Lighttpd؟ {#what}
+
 بالمقارنة مع خوادم الويب الأخرى مثل Apache و Nginx ، يحتوي خادم Web LightTPD على بصمة ذاكرة صغيرة ، لذلك يوفر إدارة فعالة لحمل وحدة المعالجة المركزية. يوفر خادم الويب الخفيف الوزن هذا مجموعات ميزات متقدمة بما في ذلك FastCGI و SCGI و AUTH وضغط الإخراج وتكتسب عنوان URL ، وما إلى ذلك. يسمح بتطبيقات الويب المكتوبة في أي لغة برمجة لاستخدامها مع الخادم. يمكن تكوين FastCGI من LightTPD لدعم PHP. بخلاف PHP ، فإنه يدعم أيضًا لغات البرمجة الأخرى بما في ذلك Python و Perl و Ruby وغيرها الكثير.
 هناك العديد من خوادم الويب مفتوحة المصدر وخوادم ويب ويب ولكن LightTPD في أعلى القائمة التي يتم استخدامها على نطاق واسع. من السهل جدًا إعداد حل خادم الويب هذا ويتطلب متطلبات بسيطة مثل Ubuntu 18.04. علاوة على ذلك ، يمكن لأولئك الذين يرغبون في نشر حل مفتوح المصدر تنزيل أحدث إصدار من هذا [الرابط][9]. قبل كل شيء ، يدعم العديد من اللغات بخلاف PHP مثل Python و Ruby و Perl والمزيد. بالإضافة إلى ذلك ، تتوفر جميع الوثائق فيما يتعلق بالتطوير والنشر. لذلك ، يمكن للمطورين العثور على رمز المصدر على [github][10].
 
-## فوائد LightPD   {#benefits}
+## فوائد LightPD {#benefits}
+
 في هذا القسم ، سوف نمر بالفوائد والتوفير الذي يوفره خادم الويب مفتوح المصدر. لذلك ، إذا كنت تبحث عن خادم ويب سريع وفعال وآمن ، فإن خادم الويب LightTPD هو الخيار الأفضل لك. لا يتطلب الكثير من الذاكرة واستخدام وحدة المعالجة المركزية. مما يجعلها واحدة من الأفضل لأي مشروع يحتاج إلى السرعة والأداء العالي. يمكن LightTPD التعامل مع ما يصل إلى 10000 اتصال بالتوازي على خادم واحد. LightTPD هو الحل الأمثل لكل خادم يعاني من مشكلات السرعة أو الأداء. هذا الحل المجاني فعال من حيث التكلفة وفعال الموارد.
 علاوة على ذلك ، يقدم حل خادم الويب هذا الدعم لجميع المنصات الشائعة تقريبًا مثل Windows و Linux و Solaris و MacOS. وبالمثل ، يعد LightTPD الكثير من الأنظمة المدمجة ولديه القدرة على تقديم محتوى ثابت وديناميكي لعدة مستخدمين حتى مع موارد محدودة. تشتهر LightTPD بأمانها وسرعة وامتثالها ومرونتها ، تعيد تعريف كفاءة خادم الويب بسرعة.
 يوفر LightTPD الفوائد البارزة التالية:
@@ -34,7 +36,8 @@ categories: ['Web Server Solution Stack']
   * mod_proxy يقدم طلبات HTTP/1.1 للتراجع (التغيير من HTTP/1.0)
   * دعم استخدام chroot و mod_rewrite
 
-## كيفية تكوين LightTPD؟   {#تهيئة}
+## كيفية تكوين LightTPD؟ {#configure}
+
 في هذا القسم من منشور المدونة هذا ، نستكشف خطوات تكوين LightTPD. تثبيت LightTPD على Ubuntu بسيط للغاية ومباشر. فقط استخدم الأمر التالي وأنت على ما يرام
 ```
 $ sudo apt install lighttpd
@@ -74,9 +77,10 @@ su make install
 {{< figure align=center src="images/How-to-Setup-and-Configure-Lighttpd-for-High-Performance-Web-1024x506.png" alt="كيفية إعداد وتكوين LightTPD لمواقع الويب عالية الأداء">}}
 
 
-## الخاتمة   {#conclusion}
+## خاتمة {#conclusion}
+
 هذا يقودنا إلى نهاية منشور المدونة هذا. لقد مررنا ما هو Lighttpd؟ كيفية تكوين LightTPD؟ وإعداد الإجراء. LightTPD هو خادم ويب مجاني وعالي الأداء ومفتوح المصدر مصمم للبيئات الحرجة للسرعة. تجعل بصمة الذاكرة المنخفضة ، وحمل وحدة المعالجة المركزية الصغيرة ، وتحسينات السرعة مناسبة للخوادم التي تعاني من مشاكل في الحمل. إنه خفيف الوزن وآمن وسريع مقارنة بخوادم الويب الأخرى ، مما يجعلها واحدة من أفضل الخيارات لمواقع الويب عالية الأداء والسرعة. يحتوي LightTPD على مجتمع حي ونابض بالحياة يوفر الدعم للمشكلات والاستعلامات. هناك العديد من منتجات Oper Open Source ومشاركات المدونة ذات الصلة التي يمكنك مرورها والتي تم ذكرها في قسم "Explore" أدناه. لذلك ، يمكن أن تساعدك هذه المقالة حقًا إذا كنت تتطلع إلى اختيار خادم ويب مفتوح المصدر لعملك.
-أخيرًا ،**[Containerize.com][12]**كتبت على المزيد من المنتجات مفتوحة المصدر. يرجى البقاء على اتصال مع فئة [Web Server Solution Stack][1] لتحديثات منتظمة. علاوة على ذلك ، يمكنك متابعتنا على حسابات وسائل التواصل الاجتماعي لدينا [Facebook][13] و [LinkedIn][14] و [Twitter][15].
+أخيرًا ،  **[Containerize.com][12]**  كتبت على المزيد من المنتجات مفتوحة المصدر. يرجى البقاء على اتصال مع فئة [Web Server Solution Stack][1] لتحديثات منتظمة. علاوة على ذلك ، يمكنك متابعتنا على حسابات وسائل التواصل الاجتماعي لدينا [Facebook][13] و [LinkedIn][14] و [Twitter][15].
 
 ## يستكشف
 قد تجد الروابط التالية ذات الصلة:
@@ -88,23 +92,24 @@ su make install
   * [Top 5 Open Source Web Server Congles في 2021][4]
   * [إعداد XAMPP و PHPMYADMIN كضيف محلي على Windows][2]
 
-  
-[1]: https://products.containerize.com/solution-stack/
-[2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
-[3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
-[4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
-[5]: #what
-[6]: #benefits
-[7]: #configure
-[8]: #conclusion
-[9]: http://www.lighttpd.net/download/
-[10]: https://github.com/lighttpd/lighttpd1.4
-[11]: http://your-server-ip/
-[12]: https://www.containerize.com/
-[13]: https://web.facebook.com/containerize
-[14]: https://www.linkedin.com/company/containerize/
-[15]: https://twitter.com/containerize_co
-[16]: https://products.containerize.com/solution-stack/xampp/
-[17]: https://products.containerize.com/solution-stack/nginx/
-[18]: https://products.containerize.com/solution-stack/caddy/
-[19]: https://products.containerize.com/solution-stack/lighttpd
+
+
+ [1]: https://products.containerize.com/solution-stack/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [3]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
+ [4]: https://blog.containerize.com/2021/01/08/top-5-open-source-web-server-solution-stacks-in-2021/
+ [5]: #what
+ [6]: #benefits
+ [7]: #configure
+ [8]: #conclusion
+ [9]: http://www.lighttpd.net/download/
+ [10]: https://github.com/lighttpd/lighttpd1.4
+ [11]: http://your-server-ip/
+ [12]: https://www.containerize.com/
+ [13]: https://web.facebook.com/containerize
+ [14]: https://www.linkedin.com/company/containerize/
+ [15]: https://twitter.com/containerize_co
+ [16]: https://products.containerize.com/solution-stack/xampp/
+ [17]: https://products.containerize.com/solution-stack/nginx/
+ [18]: https://products.containerize.com/solution-stack/caddy/
+ [19]: https://products.containerize.com/solution-stack/lighttpd

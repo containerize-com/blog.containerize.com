@@ -4,7 +4,7 @@ seoTitle: "Como instalar e configurar o OwnCloud com o Apache no Ubuntu"
 description: "O OwnCloud é um software cliente-servidor de código aberto para criar serviços de hospedagem de arquivos. Neste tutorial, aprenderemos a instalar e configurar o OwnCloud no Ubuntu" 
 date: Fri, 11 Jun 2021 18:59:44 +0000
 author: yasir saeed
-summary: "O OwnCloud é uma coleção de código-fonte aberto de software cliente-servidor para criar servidores de hospedagem de arquivos. Este tutorial é sobre como configurar o OwnCloud no Ubuntu." 
+summary: "O OwnCloud é uma coleção de fontes de código aberto do software cliente-servidor para criar servidores de hospedagem de arquivos. Este tutorial é sobre como configurar o OwnCloud no Ubuntu." 
 url: /pt/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
 categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 ---
@@ -14,13 +14,13 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-## **Visão geral**
+## **Visão geral** 
 O OwnCloud é um aplicativo Web de código aberto robusto gratuito e popular, escrito no PHP usado para sincronização de dados e compartilhamento de arquivos. Ele também permite gerenciar facilmente arquivos de dados, contatos, calendários, listas e muito mais. É uma ótima alternativa para as plataformas de nuvem mais populares, como Google Drive, Dropbox, iCloud e outros serviços de armazenamento em nuvem por aí. Mas, diferentemente dos outros serviços de armazenamento em nuvem, o OwnCloud Hosted é gratuito para criar a própria nuvem de host.
 O OwnCloud é um software de nuvem privada de código aberto que fornece acesso a dados usando a interface da Web para criar uma nuvem privada. Ele permite que você crie seu próprio servidor de compartilhamento de arquivos, onde você pode visualizar e sincronizar eventos, arquivos, fotos, gravações, tarefas, livros com livros, semelhantes ao Dropbox e Google Drive. Ele também fornece opções para sincronizar e compartilhar dados entre os dispositivos, todos sob seu controle. Instale e configure o OwnCloud suporta seus dados sincronizados para clientes de desktop, bem como dispositivos de aplicativos móveis. Além disso, você pode implementar facilmente restrições de acesso ao usuário e grupo em arquivos por usuário usando o OwnCloud no Ubuntu. O OwnCloud Open Open Storage Storage Server é um aplicativo de plataforma cruzada e pode ser instalado em todos os sistemas operacionais populares.
 Este tutorial ajudará você a configurar o OwnCloud e configurar o OwnCloud nos sistemas Ubuntu LTS.
   * Instale o servidor de lâmpadas
   * Download OwnCloud
-  * Crie banco de dados e usuário do MySQL
+  * Crie banco de dados e usuário MySQL
   * Instale o OwnCloud
   * Quais são as melhores alternativas para o próprio cloud?
   * Conclusão
@@ -48,7 +48,7 @@ sudo apt-get install -y mysql-server php-mysql
 {{_LINE_39_}}
 
 ## Etapa 2: Baixe OwnCloud no Ubuntu
-Depois de configurar com êxito o servidor de lâmpadas no seu sistema Ubuntu, vamos baixar a solução mais recente de armazenamento em nuvem privada OUDCLOUD em seu [site oficial][1].
+Depois de configurar com êxito o servidor de lâmpadas no seu sistema Ubuntu, vamos baixar a solução mais recente de armazenamento em nuvem privada OUH OwnCloud em seu [site oficial][1].
 CD /TMP
 wget https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2
 {{_LINE_44_}}
@@ -74,7 +74,7 @@ mysql> desistir
 Em seguida, precisamos instalar o OwnCloud no Ubuntu na interface da web para criar uma nuvem privada.
 
 ## Etapa 4: Instale o OwnCloud no Ubuntu
-Agora acesse o diretório de painel do servidor pessoal do OwnLoud Best Cloud em um navegador da Web. Altere o host local para o endereço IP do servidor ou o nome de domínio.
+Agora acesse o diretório de painel do servidor pessoal de nuvem de melhor cloud em um navegador da web. Altere o host local para o endereço IP do servidor ou o nome de domínio.
 http: // localhost/owncloud/
 {{_LINE_67_}}
 Você deve ver a página de login de Open Source OwnCloud. Digite novas credenciais de nome de usuário e senha do Admin para criar uma conta de administrador e fornecer a localização da pasta de dados. Se tudo está bem, então você deve obter a página da web como esta.
@@ -97,15 +97,17 @@ Depois de concluir a configuração, você receberá o painel de administração
 {{_LINE_79_}}
 Sim! Terminamos o Guia de instalação do OwnCloud para criar armazenamento em nuvem pessoal. Agora você sabe como instalar completamente o OwnCloud no Ubuntu para criar uma nuvem privada passo a passo semelhante ao Dropbox ou Google Drive.
 
-## **Quais são as melhores alternativas para o própriocloud?** {#4A1A}
-A seguir, as alternativas e os concorrentes do Own -Host
-  *** SEAFIL
-  ***NextCloud**  é grátis e a plataforma de armazenamento em nuvem de código aberto
-  ***Resilio Sync**  é o aplicativo de sincronização de arquivos de código -fonte a ponto de código aberto
-  ***células Pydo**  é o software de compartilhamento e sincronização de arquivos de código aberto
-  ***Sincronização**  é APLICAÇÃO DE SINCRONIZAÇÃO DE ARQUIVO DE PEER-PEERA FREE E ABERTA
+## **Quais são as melhores alternativas para o próprio cloud?** {#4a1a}
 
-## **CONCLUSÃO:** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+A seguir, as alternativas e os concorrentes do Own -Host
+***SEAFIL
+* **NextCloud** é grátis e a plataforma de armazenamento em nuvem de código aberto
+* **Resilio Sync** é o aplicativo de sincronização de arquivos de código -fonte a ponto de código aberto
+* **células Pydo** é o software de compartilhamento e sincronização de arquivos de código aberto
+* **Sincronização** é APLICAÇÃO DE SINCRONIZAÇÃO DE ARQUIVO DE PEER-PEE ABREE
+
+## **Conclusão:**  {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 Parabéns! Você instalou e configurou com sucesso o OwnCloud para criar sua própria nuvem privada com o Apache na máquina Ubuntu. Agora, seus dados nunca estão nas mãos de terceiros e podem ser gerenciados em particular no armazenamento virtual do servidor Ubuntu. Muitas empresas estão optando por criar seus servidores do próprio cloud com muitas informações vitais devido a muitos problemas com a privacidade dos dados. Em nossos próximos tutoriais, discutiremos tópicos mais interessantes das pilhas de solução de servidores da web.
 Você pode se juntar a nós no [Twitter][2], [LinkedIn][3] e nossa página [Facebook][4]. Qual solução de armazenamento baseada em nuvem você usa online?. Se você tiver alguma dúvida, por favor [entre em contato][5].
 
@@ -117,7 +119,8 @@ Também temos vários outros artigos relacionados ao gerenciamento diário do se
   * [Configure o suporte HTTP/2 no Nginx no Ubuntu/Debian][9]
   * [Configure o nginx com o passageiro no servidor de produção da AWS][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

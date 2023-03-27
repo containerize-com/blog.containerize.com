@@ -22,22 +22,25 @@ Sistem Tiket Open Source ini (OSTICKET) ini adalah kerangka tiket dukungan yang 
   * [Cara Mengembangkan Plugin Osticket?][6]
   * [Kesimpulan][7]
 
-## Mengapa menggunakan plugin?   {#Mengapa}
-Dalam topik ini, kita akan belajar cara membuat plugin sederhana untuk memperluas fungsionalitas inti dari perangkat lunak ini **ini**  (Osticket). Plugin adalah perangkat lunak, yang memperluas fungsionalitas inti dari aplikasi/perangkat lunak apa pun. Selain itu, ada banyak perangkat lunak open source tingkat perusahaan yang memiliki tumpukan plugin yang besar yang memperluas fungsionalitas. Selanjutnya, perangkat lunak open source populer ini termasuk WordPress, Joomla, dan banyak lagi. Di atas segalanya, komunitas yang bersemangat dan hidup mendukung dan mengembangkan plugin sesuai kebutuhan. Namun, kerangka kerja menawarkan dokumentasi komprehensif mengenai pengembangan plugin. Berikut ini adalah beberapa alasan aplikasi untuk mendukung plugin:
+## Mengapa menggunakan plugin? {#why}
+
+Dalam topik ini, kita akan belajar cara membuat plugin sederhana untuk memperluas fungsionalitas inti dari perangkat lunak ini  **ini**  (Osticket). Plugin adalah perangkat lunak, yang memperluas fungsionalitas inti dari aplikasi/perangkat lunak apa pun. Selain itu, ada banyak perangkat lunak open source tingkat perusahaan yang memiliki tumpukan plugin yang besar yang memperluas fungsionalitas. Selanjutnya, perangkat lunak open source populer ini termasuk WordPress, Joomla, dan banyak lagi. Di atas segalanya, komunitas yang bersemangat dan hidup mendukung dan mengembangkan plugin sesuai kebutuhan. Namun, kerangka kerja menawarkan dokumentasi komprehensif mengenai pengembangan plugin. Berikut ini adalah beberapa alasan aplikasi untuk mendukung plugin:
   * Ini memungkinkan pengembang pihak ketiga untuk membuat komponen perangkat lunak yang memperluas fungsionalitas suatu aplikasi.
   * Plugin memungkinkan untuk dengan mudah mengintegrasikan fitur baru.
   * Juga tidak meningkatkan ukuran dan kompleksitas aplikasi.
   * Serta pengembang dapat menyimpan dan mengelola kode plugin secara terpisah dari aplikasi inti.
 
-## Persyaratan   {#Requirements}
-Bagian ini dari panduan **IT helpdesk**  ini menjelaskan persyaratan yang diperlukan untuk mengembangkan plugin Osticket.
+## Persyaratan {#requirements}
+
+Bagian ini dari panduan  **IT helpdesk**  ini menjelaskan persyaratan yang diperlukan untuk mengembangkan plugin Osticket.
   * PHP Versi 5.6 atau lebih
   * Instalasi Osticket
   * Pengetahuan PHP dasar
 
-## Bagaimana cara mengembangkan plugin Osticket?   {#Bagaimana}
+## Bagaimana cara mengembangkan plugin Osticket? {#how}
+
 Di bagian ini, kami akan melalui langkah -langkah pengembangan plugin dari sistem tiket open source ini (OSTICKET).
-  * Buat folder plugin di /include /plugins direktori. Dalam tutorial ini kami akan membuat plugin demo yang mengintegrasikan **sistem osticket**  dengan redmine.
+  * Buat folder plugin di /include /plugins direktori. Dalam tutorial ini kami akan membuat plugin demo yang mengintegrasikan  **sistem osticket**  dengan redmine.
   * Seharusnya memiliki file yang diperlukan: plugin.php dan config.php.
   * File plugin.php berisi deskripsi umum plugin. Gunakan kode sampel berikut dalam file plugin.php:
 ```
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Kode ini mengambil nilai konfigurasi dan Anda dapat menggunakan nilai -nilai ini dalam fungsi Anda. Dalam file ini Anda dapat menambahkan fungsionalitas plugin Anda sebagai kebutuhan Anda.
 
-## kesimpulan   {#conclusion}
-Ini membawa kita ke akhir posting blog ini. Osticket adalah perangkat lunak manajemen tiket yang menawarkan struktur plugin untuk pengembang sehingga mereka dapat menambahkan fungsionalitas baru sesuai persyaratan. Plugin adalah komponen yang memperluas fungsionalitas inti dari aplikasi/perangkat lunak apa pun. Dalam artikelnya, kami telah membahas pengembangan plugin dari sistem dukungan pelanggan **ini  **(OSTICKET), yang membantu pengembang untuk menambahkan fitur dan peningkatan khusus sesuai dengan persyaratan mereka. Oleh karena itu, posting blog ini akan sangat membantu Anda jika Anda ingin menggunakan perangkat lunak **  IT helpdesk  **untuk bisnis Anda. Selain itu, ada perangkat lunak tiket **  helpdesk lainnya**  dan artikel yang disebutkan di bagian "Jelajahi" di bawah ini.
+## Kesimpulan {#conclusion}
+
+Ini membawa kita ke akhir posting blog ini. Osticket adalah perangkat lunak manajemen tiket yang menawarkan struktur plugin untuk pengembang sehingga mereka dapat menambahkan fungsionalitas baru sesuai persyaratan. Plugin adalah komponen yang memperluas fungsionalitas inti dari aplikasi/perangkat lunak apa pun. Dalam artikelnya, kami telah membahas pengembangan plugin dari sistem dukungan pelanggan  **ini** (OSTICKET), yang membantu pengembang untuk menambahkan fitur dan peningkatan khusus sesuai dengan persyaratan mereka. Oleh karena itu, posting blog ini akan sangat membantu Anda jika Anda ingin menggunakan perangkat lunak  **IT helpdesk**  untuk bisnis Anda. Selain itu, ada perangkat lunak tiket **helpdesk lainnya**  dan artikel yang disebutkan di bagian "Jelajahi" di bawah ini.
 Akhirnya, [containerize.com][8] terus menulis posting blog tentang produk dan topik open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori [HelpDesk Ticketing Software][1] untuk pembaruan rutin. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][9], [LinkedIn][10], dan [Twitter][11].
 
 ## Mengeksplorasi
@@ -143,7 +147,8 @@ Anda mungkin menemukan tautan berikut yang relevan:
   * [Otomatis Sistem Tiket Menggunakan WordPress dan Osticket][3]
   * [Otomatis Operasi Bisnis Menggunakan Perangkat Lunak Sumber Gratis dan Terbuka][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

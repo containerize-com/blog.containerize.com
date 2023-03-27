@@ -23,15 +23,18 @@ Récemment, nous avons écrit un article sur «Kafka vs Redis Pub-Sub» qui expl
   * [Lire les messages du sujet][7]
   * [Conclusion][8]
 
-## Introduction à Apache Kafka   {#intro}
+## Introduction à Apache Kafka {#intro}
+
 Le courtier de messages open source d'Apache Kafka a été lancé sur LinkedIn et est devenu plus tard un projet APACHE open source. Le logiciel Kafka Message Broker est développé à Scala et Java. Apache Kafka Broker est un système de messagerie de publication-subscription qui permet également l'échange de données entre les applications, les serveurs et les processeurs. Il est rapide, évolutif et distribué par conception. Il est capable de gérer des millions de données ou de messages par seconde. Il fonctionne comme médiateur entre le système source (producteur) et le système cible (consommateur). Des organisations telles que Netflix, Uber et des milliers de ces entreprises utilisent le streaming en temps réel Apache Kafka. Par rapport à d'autres systèmes de messagerie, le logiciel de file d'attente de messages Kafka a un meilleur débit, un partitionnement intégré, une réplication et une tolérance aux pannes inhérente. Cela en fait un bon ajustement pour les applications de traitement de messages à grande échelle.
 
-## Qu'est-ce qu'un système de messagerie?   {#Messagerie}
+## Qu'est-ce qu'un système de messagerie? {#messaging}
+
 Un système de messagerie est un simple échange de messages entre deux ou plusieurs personnes, dispositifs, etc. Il est responsable du transfert de données d'une application à une autre, afin que les applications puissent se concentrer sur les données, mais ne pas s'inquiéter de la façon de les partager.
 Un type de système de messagerie est le «système de messagerie point à point». Dans ce système, les messages sont stockés dans une file d'attente lorsqu'ils sont envoyés par le producteur. Un seul consommateur peut consommer un message à tout moment. Et, une fois le message consommé, il sera supprimé de la file d'attente. L'un des exemple de ce système est le système de traitement des commandes. Où un seul processus peut procéder à la commande.
 Un autre type de système de messagerie est le système de messagerie Pub-Sub qui permet à un expéditeur d'envoyer le message et un récepteur pour lire ce message. Dans la messagerie Apache Kafka, un expéditeur est connu comme un producteur qui publie des messages, et un récepteur est connu comme un consommateur qui consomme ce message en s'y abonnement. Un exemple de ce système est votre télévision par câble qui publie de nombreuses chaînes, et n'importe qui peut s'abonner à son choix de chaînes et les obtenir chaque fois que leurs chaînes abonnées sont disponibles.
 
-## Termes fondamentaux   {#terms}
+## Termes fondamentaux {#terms}
+
 Avant de parler davantage de la meilleure file d'attente de messages Apache Kafka, vous devez comprendre certains des termes.
   * **Sujets** : Un flux de messages appartenant à une catégorie particulière est appelé un sujet.
   * **Partition** : Les sujets peuvent avoir de nombreuses partitions, afin qu'ils puissent gérer une quantité arbitraire de données.
@@ -44,7 +47,8 @@ Avant de parler davantage de la meilleure file d'attente de messages Apache Kafk
   * **leader** : Le nœud est-il responsable de toutes les lectures et écrit pour une partition donnée.
   * **Follower** : Node qui suit les instructions de leader est appelé adepte.
 
-## Étapes d'installation   {#steps}
+## Étapes d'installation {#steps}
+
 
 ### Étape 1 - Vérification de l'installation de Java
 J'espère que vous avez déjà installé Java sur votre machine dès maintenant, vous le vérifiez donc simplement en utilisant la commande suivante.
@@ -93,7 +97,8 @@ Ouvrez une autre session de terminal et exécutez:
 $ bin/kafka-server-start.sh config/server.properties
 ```
 
-## Créer un sujet   {#create}
+## Créer un sujet {#create}
+
 Pour écrire vos messages ou événements sur des sujets, vous devez d'abord créer un sujet. Pour créer un sujet, ouvrez votre terminal et exécutez la commande suivante:
 ```
 $ bin/kafka-topics.sh --create --topic weather-updates --bootstrap-server localhost:9092
@@ -106,7 +111,8 @@ Topic:weather-updates  PartitionCount:1    ReplicationFactor:1 Configs:
 
 ```
 
-## Écrivez le message dans le sujet   {#Write}
+## Écrire un message dans le sujet {#write}
+
 Exécutez le client du producteur de console pour écrire quelques événements sur votre sujet. Par défaut, chaque ligne que vous entrez entraînera un événement distinct sur le sujet.
 ```
 $ bin/kafka-console-producer.sh --topic weather-updates --bootstrap-server localhost:9092
@@ -114,7 +120,8 @@ Weather for New York is Cloudy
 Weather for Houston is Rainy
 ```
 
-## lire les messages de la rubrique   {#read}
+## Lire les messages de la rubrique {#read}
+
 Ouvrez une autre session de terminal et exécutez le client du consommateur de console pour lire les événements que vous venez de créer:
 ```
 $ bin/kafka-console-consumer.sh --topic weather-updates --from-beginning --bootstrap-server localhost:9092
@@ -123,7 +130,8 @@ Weather for Houston is Rainy
 ```
 N'hésitez pas à expérimenter: par exemple, revenez à votre terminal de producteur (étape précédente) pour écrire des événements supplémentaires et voir comment les événements apparaissent immédiatement dans votre terminal de consommation.
 
-## Conclusion   {#conclusion}
+## Conclusion {#conclusion}
+
 Dans ce tutoriel, nous avons appris les bases de l'utilisation d'Apache Kafka. Nous avons installé le service de mise en file d'attente de Kafka, puis l'avons configuré. Nous avons également appris à créer des sujets dans Kafka, à envoyer des messages à des sujets et à lire les messages à partir des sujets. J'espère que cet article vous a été utile. Revenons dans l’article suivant.
 _Quelle plate-forme de streaming d'événements distribuée à source open source utilisez-vous ?. Avez-vous des questions ?, s'il vous plaît_ [contacte][9].
 
@@ -133,7 +141,8 @@ Vous pouvez trouver des liens suivants pertinents:
   * [Kafka vs redis pub-sub, différences que vous devez connaître][11]
   * [Introduction à Redis Pub / Sub et comment cela fonctionne-t-il?][12]
 
-  
+
+
 [1]: #intro
 [2]: #messaging
 [3]: #terms

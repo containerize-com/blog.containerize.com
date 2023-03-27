@@ -13,32 +13,35 @@ categories: ['Transactional Email']
 
 {{< figure align=center src="images/postal-banner.png" alt="오픈 소스 메일 서버">}}
 
-최신 응용 프로그램에는 다양한 유형의 이벤트에 대한 이메일을 보내야합니다. 모든 비즈니스에는 나가는 이메일을 위해서는 안정적인 **메일 서버 **가 필요합니다. 또한 회사는 마케팅 캠페인, 뉴스 레터 및 기타 여러 작업을 위해 대량 이메일을 보내기위한 메일 서버가 필요합니다. 이것에 사용할 수있는 몇 가지  **오픈 소스 메일 서버 ** 가 있습니다. 그러나이 게시물에서 ** 우편 서버** 에 대해 자세히 설명하고 다음 주제를 다룰 것입니다.
+최신 응용 프로그램에는 다양한 유형의 이벤트에 대한 이메일을 보내야합니다. 모든 비즈니스에는 나가는 이메일을 위해서는 안정적인  **메일 서버** 가 필요합니다. 또한 회사는 마케팅 캠페인, 뉴스 레터 및 기타 여러 작업을 위해 대량 이메일을 보내기위한 메일 서버가 필요합니다. 이것에 사용할 수있는 몇 가지  **오픈 소스 메일 서버**  가 있습니다. 그러나이 게시물에서 **우편 서버**  에 대해 자세히 설명하고 다음 주제를 다룰 것입니다.
   * [우편 서버 란 무엇입니까?][1]
   * [우편의 특징][2]
   * [우편 설치][3]
   * [결론][4]
 
-## 우편 서버 란 무엇입니까?   {#우편 엽서}
-[**postal **][5]는 무료 및  **오픈 소스 메일 서버 ** 입니다. 웹 사이트 및 웹 애플리케이션을위한 완전한 기능 메일 서버입니다. 우편 메일 서버는 Sendgrid 및 Mailgun과 같은 기존 인기  **메일 서버 ** 의 대안입니다.  **Postal ** 는 강력하고 안전하며 확장 가능한 오픈 소스 이메일 전송 플랫폼입니다. 모든 소스 코드와 문서는 [ **github ** ][6]에서 사용할 수 있습니다. 다운로드하고 개인 서버에 설치하고 완전히 제어 할 수 있습니다. 비즈니스 요구에 따라 개선하고 향상시킬 수도 있습니다. 또한 ** 우편 메일 서버** 는 여러 조직을 지원합니다.
+## 우편 서버 란 무엇입니까? {#Postal}
+
+[  **postal** ][5]는 무료 및  **오픈 소스 메일 서버**  입니다. 웹 사이트 및 웹 애플리케이션을위한 완전한 기능 메일 서버입니다. 우편 메일 서버는 Sendgrid 및 Mailgun과 같은 기존 인기  **메일 서버**  의 대안입니다.  **Postal**  는 강력하고 안전하며 확장 가능한 오픈 소스 이메일 전송 플랫폼입니다. 모든 소스 코드와 문서는 [  **github**  ][6]에서 사용할 수 있습니다. 다운로드하고 개인 서버에 설치하고 완전히 제어 할 수 있습니다. 비즈니스 요구에 따라 개선하고 향상시킬 수도 있습니다. 또한 **우편 메일 서버**  는 여러 조직을 지원합니다.
 사용자는 들어오고 나가는 메일의 양을 보여주는 그래프 및 통계를 볼 수 있습니다. 또한, 나가는 메시지 큐에 액세스 할 수 있습니다. 우편 메일 서버는 WebHooks에 대한 기능을 제공합니다. WebHooks를 설정하여 배송 정보에 대한 실시간 정보를 실시간으로받을 수 있습니다. 또한 모든 보내기 및 수신 된 메시지를 저장하고 검사 할 수있는 메시지 보존을 제공합니다. 사용자가 이메일을받을 수 있도록 비즈니스에서 이메일 배송이 매우 중요합니다. 그러나 때로는 이메일이 사용자에게 전달되며 문제를 조사해야합니다. 수신 및 나가는 메일 서버**는 또한 조사를 수행하기위한 완전한 로깅 및 도구를 제공합니다.
 
-우편의 ## 특징  {#features}
-우편 서버는 많은 기능을 제공합니다. 그러나이 기사에서 다음 주요 기능에 대해 논의 할 것입니다.
-**이메일 보내기** : 우편 메일 서버는 HTTP API 및 SMTP를 포함한 나가는 이메일에 대한 두 가지 기술을 제공합니다. 웹 앱과 통합하기 위해 HTTP API를 쉽게 사용할 수 있습니다. 기존 애플리케이션 및 시스템과 통합하기 위해 SMTP 서버를 사용할 수도 있습니다.
-**들어오는 이메일 **:  **들어오는 메일 ** 는 우편 메일 서버를 사용하여 HTTP Endpoint, ** SMTP 서버**  및 기타 이메일 주소로 전달할 수 있습니다.
-**스팸 및 바이러스 점검** : Spamassassin 및 Clamav는 우편과 통합하여 우편 서버를 통과 할 때 들어오는 메시지 및 나가는 메시지를 자동으로 스캔 할 수 있습니다. 이 기능은 기본적으로 꺼져 있습니다.
-**클릭 및 열기 추적** : 이메일 오프닝 및 클릭은 우편으로 추적 할 수 있습니다. 우편은 나가는 메시지를 스캔하고 우편 웹 서버를 통해 여행하는 새 링크로 링크를 바꿉니다. 사용자가 링크를 클릭하면 우편은 작업을 기록하고 즉시 원래 URL로 리디렉션합니다. 그러나 이것은 기본적으로 활성화되지 않습니다.
-**IP 풀** : Postal을 사용하면 다양한 IP 주소에서 메시지를 보낼 수 있습니다. 이를 통해 여러 IP 주소를 다른 메일 서버에 할당하거나 발신자 또는 수신자 주소에 따라 다른 IP로부터 보낼 수 있습니다.
+## 우편의 특징 {#Features}
 
-## 우편 설치   {#installation}
-Ubuntu 18.04에 우편  **메일 서버 소프트웨어** 를 설치하려면 아래 단계별 안내서를 따라하십시오.
+우편 서버는 많은 기능을 제공합니다. 그러나이 기사에서 다음 주요 기능에 대해 논의 할 것입니다.
+ **이메일 보내기** : 우편 메일 서버는 HTTP API 및 SMTP를 포함한 나가는 이메일에 대한 두 가지 기술을 제공합니다. 웹 앱과 통합하기 위해 HTTP API를 쉽게 사용할 수 있습니다. 기존 애플리케이션 및 시스템과 통합하기 위해 SMTP 서버를 사용할 수도 있습니다.
+ **들어오는 이메일** : **들어오는 메일** 는 우편 메일 서버를 사용하여 HTTP Endpoint, **SMTP 서버** 및 기타 이메일 주소로 전달할 수 있습니다.
+ **스팸 및 바이러스 점검** : Spamassassin 및 Clamav는 우편과 통합하여 우편 서버를 통과 할 때 들어오는 메시지 및 나가는 메시지를 자동으로 스캔 할 수 있습니다. 이 기능은 기본적으로 꺼져 있습니다.
+ **클릭 및 열기 추적** : 이메일 오프닝 및 클릭은 우편으로 추적 할 수 있습니다. 우편은 나가는 메시지를 스캔하고 우편 웹 서버를 통해 여행하는 새 링크로 링크를 바꿉니다. 사용자가 링크를 클릭하면 우편은 작업을 기록하고 즉시 원래 URL로 리디렉션합니다. 그러나 이것은 기본적으로 활성화되지 않습니다.
+ **IP 풀** : Postal을 사용하면 다양한 IP 주소에서 메시지를 보낼 수 있습니다. 이를 통해 여러 IP 주소를 다른 메일 서버에 할당하거나 발신자 또는 수신자 주소에 따라 다른 IP로부터 보낼 수 있습니다.
+
+## 우편 설치 {#Installation}
+
+Ubuntu 18.04에 우편  **메일 서버 소프트웨어**  를 설치하려면 아래 단계별 안내서를 따라하십시오.
   * 먼저 서버 VIS SSH를 연결해야합니다. 최신 사용 가능한 패키지로 시스템을 업데이트하려면 다음 명령을 실행하십시오.
 ```
 sudo apt-get update
 ```
 
-## # MariaDB 데이터베이스 서버를 설치하십시오
+### MariaDB 데이터베이스 서버를 설치하십시오
   * 명령을 실행하여 mariadb를 설치하십시오.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -78,7 +81,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-## # 루비를 설치하십시오
+### 루비를 설치하십시오
   * 먼저, Ruby를 설치하려면 타사 PPA를 추가하십시오. 다음 명령을 실행하십시오.
 ```
 sudo apt-get install software-properties-common
@@ -93,12 +96,12 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-## # RabbitMQ를 설치하십시오
+### RabbitMQ를 설치하십시오
   * Erlang은 RabbitMQ를 설치해야하므로 설치해야합니다. 아래 명령으로 Ubuntu에 Erlang 저장소 키를 추가하십시오.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
 ```
-  * 다음으로 다음 명령으로 Erlang 저장소를 추가하십시오.
+  * 다음으로 다음 명령과 함께 Erlang 저장소를 추가하십시오.
 ```
 echo "deb https://packages.erlang-solutions.com/ubuntu bionic contrib" | sudo tee /etc/apt/sources.list.d/erlang.list
 ```
@@ -132,7 +135,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-## # nodejs를 설치하십시오
+### nodejs를 설치하십시오
   * 다음 명령으로 nodejs 저장소를 추가하십시오.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +145,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-## # 우편 서버를 설치하십시오
+### 우편 서버를 설치하십시오
   * 먼저 우편 메일 서버 용 사용자를 만들어야합니다. 다음 명령으로 작성하십시오.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -247,7 +250,7 @@ This tool is usually only used to create your initial admin user.
 E-Mail Address      : admin@example.com
 First Name          : Admin
 Last Name           : Postal
-Initial Password:   :*********
+Initial Password:   :  ****** ***
 
 User has been created with e-mail address admin@example.com
 ```
@@ -257,12 +260,12 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-## # nginx를 설치하십시오
-  * Nginx 웹 서버를 설치하려면 아래 명령을 실행하십시오.
+### nginx를 설치하십시오
+  * nginx 웹 서버를 설치하려면 아래 명령을 실행하십시오.
 ```
 sudo apt install nginx
 ```
-  * 다음으로 우편 NGINX 구성을 복사하여이를 가상 호스트로 사용하십시오.
+  * 다음으로, 우편 NGINX 구성을 복사하여 가상 호스트로 사용하십시오.
 ```
 sudo cp /opt/postal/app/resource/nginx.cfg /etc/nginx/sites-available/default
 ```
@@ -280,24 +283,26 @@ sudo systemctl restart nginx
 ```
   * 마지막으로 브라우저를 열고 URL https://postal.example.com을 입력하십시오. 로그인 페이지로 리디렉션됩니다.
 
-## 결론   {#conclusion}
-우리는 우편 메일 서버의 소개 및 기본 기능을 깊이로 살펴 보았습니다. 또한이  **메일 송금 에이전트** 를 설정하기위한 단계별 지침도 포함 시켰습니다. 또한, 우리는 설정에 대한 통찰력을 제공했습니다. 우편 메일 서버를 설정하는 것은 간단한 프로세스입니다. 이 기사가 실제로 비즈니스의 우편 메일 서버를 설정하고 구성하는 데 도움이되기를 바랍니다.
-마지막으로, [**containerize.com **][7]는 최신 오픈 소스 제품에 대한 블로그 게시물을 작성하는 일관된 프로세스에 있습니다. 따라서 최신 업데이트에 대해이 [**  거래 이메일**][8] 카테고리와 연락하십시오.
+## 결론 {#결론}
+
+우리는 우편 메일 서버의 소개 및 기본 기능을 깊이로 살펴 보았습니다. 또한이  **메일 송금 에이전트**  를 설정하기위한 단계별 지침도 포함 시켰습니다. 또한, 우리는 설정에 대한 통찰력을 제공했습니다. 우편 메일 서버를 설정하는 것은 간단한 프로세스입니다. 이 기사가 실제로 비즈니스의 우편 메일 서버를 설정하고 구성하는 데 도움이되기를 바랍니다.
+마지막으로, [  **containerize.com** ][7]는 최신 오픈 소스 제품에 대한 블로그 게시물을 작성하는 일관된 프로세스에 있습니다. 따라서 최신 업데이트에 대해이 [ **거래 이메일**  ][8] 카테고리와 연락하십시오.
 
 ## 탐구하다
 다음 링크를 찾을 수 있습니다.
-  *[ **최고 거래 이메일 소프트웨어** ][9]
-  *[ **potal - 오픈 소스 메일 서버** ][5]
-  *[ **5 최고의 오픈 소스 메일 서버 소프트웨어 2020 년 비즈니스** ][10]
+* [  **최고 거래 이메일 소프트웨어**  ][9]
+* [  **potal - 오픈 소스 메일 서버**  ][5]
+* [  **5 최고의 오픈 소스 메일 서버 소프트웨어 2020 년 비즈니스**  ][10]
 
-  
-[1]: #Postal
-[2]: #Features
-[3]: #Installation
-[4]: #Conclusion
-[5]: https://products.containerize.com/transactional-email/postal/
-[6]: https://github.com/postalhq/postal
-[7]: https://containerize.com
-[8]: https://blog.containerize.com/category/transactional-email/
-[9]: https://products.containerize.com/transactional-email/
-[10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
+
+
+ [1]: #Postal
+ [2]: #Features
+ [3]: #Installation
+ [4]: #Conclusion
+ [5]: https://products.containerize.com/transactional-email/postal/
+ [6]: https://github.com/postalhq/postal
+ [7]: https://containerize.com
+ [8]: https://blog.containerize.com/category/transactional-email/
+ [9]: https://products.containerize.com/transactional-email/
+ [10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/

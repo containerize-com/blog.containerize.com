@@ -14,22 +14,24 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/Game-Development-Tutorial.png" alt="游戏开发教程">}}
 
 
-## **概述**
+## **概述** 
 开源社区每分钟都在出现。有跨平台游戏，手机游戏和桌面游戏。各种类型的游戏包括动作游戏，冒险游戏，角色扮演游戏，体育游戏，益智游戏，仿真游戏等。因此，所有这些不同的游戏类型都给了所有年龄段的用户倾向于玩这些游戏，从而给予了巨大的交通。
 此外，大流行带来了居住全球生活方式的巨大变化。人们现在有更多的时间。所有离线活动都已在线。因此，他们倾向于选择在线软件来执行专业职责和视频游戏，以防娱乐。由于所有这些原因，该行业已获得可持续性和用户和开发人员的支持。在最近的过去，我们撰写了诸如视频游戏程序员的[HTML5游戏开发教程][1]，[1]，[全球游戏行业如何利用开源软件][2]和[Gdeveloping for初学者开始游戏开发]][3]。在本游戏开发教程中，我们将介绍以下几点。
-  ***[gdevelop的特征探索][4]** 
-  ***[在游戏中工作][5]** 
-  ***[结论][6]** 
+* **[gdevelop的特征探索][4]** 
+* **[在游戏中工作][5]** 
+* **[结论][6]** 
 
-## 特征gdevelop   {#features}的探索}
+## 特征Gdevelop的探索 {#features}
+
 [Gdevelop][7]是一个开源游戏平台。它是高度扩展的，并提供了一个逻辑接口，用户可以轻松导航。此免费软件用C ++，Typescript和JavaScript编写。此外，还有有关开发和部署的全面文件。所有源代码均可在GitHub上找到。此外，有许多功能使该游戏使软件突出。让我们看看一些关键功能。
-**跨平台**：此游戏创建平台是乘数的，并且可以部署在MacOS，Linux和Windows等几乎所有流行的操作系统上。
+**跨平台**：这个游戏创建平台是乘数的，并且可以部署在MacOS，Linux和Windows等几乎所有流行的操作系统上。
 **导出选项**：gdevelops允许用户只需单击Android，iOS和Web即可导出开发的游戏。游戏所有者可以在他们的游戏中显示视频广告，并且在Admob的支持下可能是可能的。
 **丰富的游戏对象**：这家开源游戏制造商提供了各种游戏对象，例如具有动画，火灾爆炸和其他效果的精灵对象，并借助粒子发射器。格式的文本，嵌入式视频和绘制自定义形状可用于在游戏中引起醒目的效果。
 **多功能行为**：在这篇基本的游戏开发文章中，我们将向您展示如何在游戏对象中添加不同的行为。有多种可用的行为可以使用，用户可以根据要求进一步发展。这一切都发生在几个鼠标点击的情况下。
 **高级接口**：在此游戏设计教程中，我们将看到此3D游戏引擎的用户界面。用户可以拖放各种游戏元素和对象。
 
-## 在游戏 {#working}上工作
+## 从事游戏 {#working}
+
 游戏开发教程的这一部分详细阐述了Gdevelop的基本游戏开发。在进一步前进之前，请确保您已在机器上安装了Gdevelpent。
 您可以访问本教程[GDEVELED教程，供初学者开始游戏开发][3]，以了解在Localhost上设置该游戏编辑器的知识。
 现在，打开编辑器并创建一个新项目。在本教程中，我们将在Google Drive上创建一个文件夹以保存游戏文件。现在，单击“创建一个新项目”，它将打开一个新的对话框，选择“空游戏”选项以开始构建新游戏。
@@ -62,7 +64,8 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/Screenshot-2021-05-28-at-16.18.02-1024x578.png" alt="游戏开发教程">}}
 
 
-## 结论 {#conclusion}
+## 结论 {#结论}
+
 这是本游戏开发教程的结尾。希望这篇博客文章对游戏开发人员有帮助。本教程使您可以使用游戏对象并添加行为。将来，Containerize.com将在其他开源视频游戏设计软件上发布博客文章和教程文章。因此，请在[Containerize.com][9]上与此[游戏开发软件][8]类别保持联系，以进行常规更新。
 
 ## 探索
@@ -72,7 +75,8 @@ categories: ['Game Development Software']
   * [可可创造者][12]
   * [panda3d][13]
 
-  
+
+
 [1]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [2]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
 [3]: https://blog.containerize.com/game-development-software/zh/game-development-tutorial-player-movement-in-gdevelop/

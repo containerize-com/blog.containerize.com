@@ -18,29 +18,31 @@ categories: ['Blogging', 'Marketing Automation']
 Mautic-Woocommerce Integrationは、Mauticアプリのすべての連絡先を簡単に取得する簡単な方法を提供します。次に、これらの連絡先を使用して、要件に応じてマーケティングキャンペーンを作成できます。 Mauticは、マーケティングキャンペーンを完全に制御できる優れたマーケティングツールです。
 Mauticは、オープンソースと無料のマーケティングオートメーションソリューションです。これは、マーケティングキャンペーン、セグメント、フォーム、レポートなどを作成するために使用されます。
 WooCommerceは、WordPress用のオープンソースのeコマースプラグインです。これは、この時点で世界中で主に使用されているeコマースソリューションです。あなたのニーズに応じて使用できるWooCommerceに利用可能な何百ものアドオンがあります。
-MauticとWordPress用のプラグインがあり、マーケティングオートメーションソリューションを提供しています。これらの手順に従って、WooCommerceをMauticとプラグインを使用して統合してください[WooCommerceのMauticとの統合 - オープンソースマーケティングオートメーション][1]
+MauticとWordPress用のプラグインがあり、マーケティングオートメーションソリューションを提供しています。これらの手順に従って、WooCommerceをプラグインを使用してMauticと統合してください。
 このブログでは、次のセクションについて説明します。
   * [WordPressプラグイン構成][2]
   * [Mautic Configuration][3]
   * [最終的な考え][4]
 
-## WordPressプラグイン構成 {#WordPress}
+## WordPressプラグイン構成 {#wordpress}
+
   1.プラグインに移動します。
   2.「新しい追加」をクリックします。
-  3.「 **woocommerceのためにMauticとの統合** 」を検索します。
-  4.プラグインを見つけたら、[今すぐインストール]をクリックします。
+  3.「  **woocommerceのためにMauticとの統合**  」を検索します。
+  4.プラグインを見つけたら、「今すぐインストール」をクリックします。
   5.インストール後、「アクティブ化」をクリックします。
   6.次に、woocommerce-> mautic-> connectタブに移動します。
   7.次のデータをフォームに記入します。
-      *ベースURL。
+* ベースURL。
       * クライアントID。
-      *秘密ID。
+* 秘密ID。
   8.これらのすべてのフィールドは、次のセクションで説明されているMauticアプリで構成した後に来ます。
 
 {{< figure align=center src="images/woocommerce-1024x665.png" alt="MauticおよびWordPressの統合">}}
 
 
 ## mautic構成： {#mautic}
+
   1. Mauticサイトから、設定に移動します。
   2.構成に移動します。
   3. API設定からAPIを有効にします。
@@ -61,6 +63,7 @@ MauticとWordPress用のプラグインがあり、マーケティングオー�
 
 
 ## 最終的な考え： {#final}
+
 Mautic-Woocommerceの統合を一緒に統合することで、マーケティング目標を達成するのに役立ちます。この統合は、eコマースマーケティングの自動化に最適なソリューションの1つです。 WordPressを使用すると、多くの顧客を簡単に取得でき、Mauticを使用すると、これらの顧客をターゲットにして、製品/サービスに関して最新情報を維持することができます。
 
 ## 探検：
@@ -72,7 +75,8 @@ Mautic-Woocommerceの統合を一緒に統合することで、マーケティ�
   * [MauticとWordPress WooCommerceを使用したマーケティングオートメーション][10]
   * [Mauticでマーケティングキャンペーンをセットアップする方法][11]
 
-  
+
+
 [1]: https://href.li/?https://wordpress.org/plugins/enhanced-woocommerce-mautic-integration/
 [2]: #wordpress
 [3]: #mautic

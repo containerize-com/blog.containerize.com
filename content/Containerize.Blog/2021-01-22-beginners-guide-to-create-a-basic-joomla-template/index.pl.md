@@ -14,23 +14,25 @@ categories: ['Content Management']
 {{< figure align=center src="images/joomla-templates-2.png" alt="Podstawowy szablon Joomla">}}
 
 W tej erze cyfrowej system zarządzania treścią jest podstawową koniecznością każdej firmy dla wszystkich ich potrzeb w zakresie tworzenia treści. I istnieje wiele oprogramowania typu open source, a także płatnego oprogramowania CMS na rynku. Mieliśmy również [wymieniliśmy][1] niektóre z najlepszych oprogramowania do zarządzania treścią dla firm. Joomla jest jednym z najpopularniejszych oprogramowania CMS typu open source, aw tym samouczku przejdziemy cię krok po kroku i wyjaśnimy, jak utworzyć szablon Joomla od zera. Więc zacznijmy!
-**Uwaga: Zakładamy, że masz zainstalowaną wersję Joomla 2.5**
-  * **[Struktura katalogu konfiguracji][2]**
-  * **[Utwórz podstawowy plik TemplateTails.xml][3]**
-  * **[Utwórz podstawowy plik index.php][4]**
-  * **[Odkryj i zainstaluj szablon][5]**
-  * **[pakować szablon][6]**
-  * **[wniosek][7]**
+ **Uwaga: Zakładamy, że masz zainstalowaną wersję Joomla 2.5** 
+*  **[Struktura katalogu konfiguracji][2]**  
+*  **[Utwórz podstawowy plik TemplateTails.xml][3]**  
+*  **[Utwórz podstawowy plik index.php][4]**  
+*  **[Odkryj i zainstaluj szablon][5]**  
+*  **[pakować szablon][6]**  
+*  **[wniosek][7]**  
 
-## STRUKTORY KATRITORY   {#SETUP}
-Aby najpierw utworzyć bardzo podstawowy szablon Joomla, utwórz nowy folder w folderze szablonów. Nazwij folder, bez względu na to, jak chcesz nazwać swój szablon, np. „ **MyNewtemplate** ”.
-Korzystanie z ulubionego edytora tekstu Utwórz pliki **index.php  **i **  TemplateTails.xml **. Aby zarządzać obrazami i arkuszami stylów, zrób 2 nowe foldery o nazwie  **Images **  i  **css ** . Wewnątrz folderu  **css **  Utwórz plik o nazwie ** szablon.css** .
+## Struktura katalogu konfiguracji {#setup}
+
+Aby najpierw utworzyć bardzo podstawowy szablon Joomla, utwórz nowy folder w folderze szablonów. Nazwij folder, bez względu na to, jak chcesz nazwać swój szablon, np. „  **MyNewtemplate**  ”.
+Korzystanie z ulubionego edytora tekstu Utwórz pliki  **index.php** i  **TemplateTails.xml**  . Aby zarządzać obrazami i arkuszami stylów, zrób 2 nowe foldery o nazwie  **Images**  i  **css**  . Wewnątrz folderu  **css**  Utwórz plik o nazwie **szablon.css**  .
 Twoja struktura katalogu będzie wyglądać mniej więcej tak
 
 {{< figure align=center src="images/Screenshot-2021-01-22-at-12.30.14-PM.png" alt="Struktura katalogu szablonów Joomla">}}
 
 
-## Utwórz podstawowy plik TemplateTails.xml   {#xml}
+## Utwórz podstawowy plik TemplateTails.xml {#xml}
+
 Plik  **TemplateTails.xml**  zawiera wszystkie metadane wokół szablonu. I ten plik jest niezbędny bez niego, twój szablon nie będzie widoczny przez Joomla!.
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -66,7 +68,8 @@ Plik  **TemplateTails.xml**  zawiera wszystkie metadane wokół szablonu. I ten 
 Treść szablonu. Xml jest oczywisty. Możesz po prostu skopiować zawartość modyfikowania niezbędnych bitów.
 Pozostaw pozycje, jakie są - są to wspólny zestaw, abyś mógł łatwo przełączyć się ze standardowych szablonów.
 
-## Utwórz podstawowy plik index.php   {#php}
+## Utwórz podstawowy plik index.php {#php}
+
 Index.php staje się głównym plikami ładowanialnym każdej strony, którą Joomla! dostarcza. Ta strona pokaże kod Bare Bones gotowy do cięcia i wklejenia we własnym projekcie.
 ```
 <?php defined('_JEXEC') or die('Restricted access');?>
@@ -84,7 +87,8 @@ Index.php staje się głównym plikami ładowanialnym każdej strony, którą Jo
 </html>
 ```
 
-## odkryj i zainstaluj szablon   {#install}
+## Odkryj i zainstaluj szablon {#install}
+
 Najpierw musisz powiedzieć Joomli! że stworzyłeś nowy szablon. Ta funkcja nazywa się rozszerzaniami Discover i można uzyskać do niej dostęp za pośrednictwem
 ```
 Extensions -> Extension Manager -> Discover
@@ -94,21 +98,24 @@ Kliknij przycisk Odkryj, aby odkryć szablon, a następnie wybierz go i kliknij,
 Extensions -> Template Manager
 ```
 
-## Pakiet szablon   {#packge}
+## Pakować szablon {#packge}
+
 Zakazany katalog z kilkoma plikami nie jest dobrą metodą dystrybucji. Tak więc dla dystrybucji powinniśmy utworzyć pakiet naszego szablonu. Pakiet może być w formacie ZIP (z rozszerzeniem .zip).
-Jeśli twój szablon znajduje się w katalogu MyTemplate/, aby zrobić pakiet, możesz połączyć się z tym katalogiem i użyć poleceń takich jak:
+Jeśli twój szablon znajduje się w katalogu MyTemplate/, aby stworzyć pakiet, możesz połączyć się z tym katalogiem i użyć poleceń takich jak:
 ```
 zip -r ..\mytemplate.zip .
 ```
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 W tym artykule dowiedzieliśmy się o szablonie Joomla. Przeszliśmy krok po kroku, jak stworzyć szablon Joomla. To tylko bardzo podstawowy samouczek, aby zacząć od tworzenia szablonów. Oczywiście możesz zbudować bardzo dostosowany i ulepszony szablon na podstawie tej gołej struktury.
 
 ## odpowiednie strony produktów
 Możesz znaleźć istotne następujące linki:
   * [Podręcznik rozwoju szablonów Joomla dla początkujących][8]
 
-  
+
+
 [1]: https://products.containerize.com/content-management
 [2]: #setup
 [3]: #xml

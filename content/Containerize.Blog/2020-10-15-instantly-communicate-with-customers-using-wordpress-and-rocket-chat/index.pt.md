@@ -21,10 +21,12 @@ Cobriremos as seguintes seções nesta postagem do blog:
   * [Instalação do plug -in][3]
   * [Pensamentos finais][4]
 
-## Descrição:   {#Description}
+## Descrição: {#description}
+
 WordPress e Rocket.Chat A integração permite colocar o widget de bate -papo ao vivo em sites baseados no WordPress. O WordPress Live Chat permite que os clientes colaborem com seus agentes de suporte ou vendas em tempo real com um único clique. A comunicação instantânea ajuda os clientes à resolução rápida de suas consultas e agiliza a tomada de decisões. Portanto, esta solução pode ajudá -lo a conquistar novos clientes com uma volta mais rápida, além de melhorar a satisfação e a lealdade dos clientes existentes.
 
-## Recursos:   {#Features}
+## Características: {#features}
+
   * Conferência de áudio grátis
   * Videoconferência grátis
   * Acesso ao convidado
@@ -34,7 +36,8 @@ WordPress e Rocket.Chat A integração permite colocar o widget de bate -papo ao
   * Chat da equipe
   * Tradução em tempo real
 
-## Instalação do plugin:   {#plugin}
+## Instalação do plug -in: {#plugin}
+
   1. Vá para o painel de administração do seu site WordPress.
   2. Em seguida, mova para os plugins.
   3. Em seguida, instale o seguinte plugin: [Rocket.Chat LiveChat][5]
@@ -47,7 +50,8 @@ WordPress e Rocket.Chat A integração permite colocar o widget de bate -papo ao
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="Solução de mensagens instantâneas do WordPress usando Rocket.Chat">}}
 
 
-## Pensamentos finais:   {#conclusion}
+## Pensamentos finais: {#conclusion}
+
 Worpress e Rocket.Chat A integração cria confiança e relacionamentos com seus clientes através de conversas em tempo real. As mensagens instantâneas do WordPress podem fornecer um impulso rápido ao seu negócio. Comunique -se aos seus clientes usando o recurso de bate -papo ao vivo. Além disso, você pode colaborar com seus companheiros de equipe usando o recurso de bate -papo em equipe. Isso melhorará a produtividade discutindo e compartilhando idéias com bate-papo em tempo real.
 
 ## Explore:
@@ -55,11 +59,12 @@ Para saber mais sobre o Rocket.Chat e o WordPress, verifique estas páginas:
 [Melhor software de bate -papo ao vivo gratuito e de código aberto][6]
 [WordPress - código aberto gratuito e CMS e ferramenta de blog mais amplamente usados][7]
 
-  
-[1]: #description
-[2]: #features
-[3]: #plugin
-[4]: #conclusion
-[5]: https://wordpress.org/plugins/rocketchat-livechat/
-[6]: https://products.containerize.com/live-chat
-[7]: https://href.li/?https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #description
+ [2]: #features
+ [3]: #plugin
+ [4]: #conclusion
+ [5]: https://wordpress.org/plugins/rocketchat-livechat/
+ [6]: https://products.containerize.com/live-chat
+ [7]: https://href.li/?https://products.containerize.com/blogging/wordpress

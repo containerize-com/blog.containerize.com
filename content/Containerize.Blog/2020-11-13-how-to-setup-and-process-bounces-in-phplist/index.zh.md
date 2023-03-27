@@ -20,31 +20,37 @@ categories: ['Newsletters']
   * [如何处理弹跳？][6]
   * [结论][7]
 
-## 什么是phplist？   {#phplist}
+## 什么是phplist？ {#phplist}
+
 Phplist是最受欢迎的免费和开源新闻通讯发送软件。 Phplist使企业能够向订户发送营销电子邮件，产品更新和公告。它可以帮助企业管理上市，设计精美的新闻通讯，计划活动和弹跳管理。 [阅读更多][8]
 
-## 什么是弹跳？   {#弹跳}
+## 什么是弹跳？ {#bounce}
+
 弹跳是一条电子邮件，由于许多原因而无法传递并返回发件人。我们可能有邮箱已满的原因，电子邮件地址不再有效或不正确的电子邮件地址。因此，您必须处理弹跳，以免将电子邮件发送到无效的电子邮件地址。
 
-## 设置弹跳管理 {#setup}
+## 设置反弹管理 {#setup}
+
 为了设置弹跳管理，您需要在config.php文件中配置以下设置。
 
 {{< figure align=center src="images/bounce-handling-phplist.png" alt="phplist-弹​​跳处理管理">}}
 
 我们将在以下步骤中解释有关这些配置的更多信息。
-  *首先，您需要添加要接收弹跳消息的电子邮件地址。您可以找到**Message_envelope** 变量并添加您的电子邮件地址。
-  *phplist可以通过两个协议（**Mbox和pop3 **）从弹跳邮箱中获取电子邮件。因此，找到 **bounce_protocol**  变量并根据您的环境更改它。
-  *如果您设置了**mbox  **prototcol，则需要为其定义文件格式。因此，查找**  bounce_mailbox** 并设置路径，例如“/var/spool/mail/listBounces”。
-  *如果您已经使用了**POP3 **协议，则需要配置** 主机，用户名和密码**邮箱。您可以在上面的Sreenshot中看到这些设置。
-  *除了上述**POP3** 协议的设置外，您可能需要添加端口和加密。
+* 首先，您需要添加要接收弹跳消息的电子邮件地址。您可以找到 **Message_envelope** 变量并添加您的电子邮件地址。
+* phplist可以通过两个协议（ **Mbox和pop3**）从弹跳邮箱中获取电子邮件。因此，找到**bounce_protocol** 变量并根据您的环境更改它。
+* 如果您设置了 **mbox**prototcol，则需要为其定义文件格式。因此，查找**bounce_mailbox** 并设置路径，例如“/var/spool/mail/listBounces”。
+* 如果您已经使用了 **POP3**协议，则需要配置**主机，用户名和密码** 邮箱。您可以在上面的Sreenshot中看到这些设置。
+* 除了上述 **POP3** 协议的设置外，您可能需要添加端口和加密。
 
-## 如何处理弹跳？   {#过程}
-phplist支持两种用于过程弹跳的方法：手动和自动化。您将不得不创建CRON作业以自动化反弹处理。您也可以通过访问**系统>流程弹跳**页面手动处理弹跳。因此，首先，您需要根据您的要求手动更改**手动\ _Process \ _bounces **设置。您可以访问[phplist文档][9]来设置cron作业以进行弹跳。
+## 如何处理弹跳？ {#process}
+
+phplist支持两种用于过程弹跳的方法：手动和自动化。您将不得不创建CRON作业以自动化反弹处理。您也可以通过访问 **系统>流程弹跳**页面手动处理弹跳。因此，首先，您需要根据您的要求手动更改**手动\ _Process \ _bounces** 设置。您可以访问[phplist文档][9]来设置cron作业以进行弹跳。
 
 ## 结论 {#conclusion}
+
 在这篇文章中，我们学会了如何配置弹跳电子邮件地址和过程弹跳。如果您的订户量较少，则可以轻松地使用手动方法处理弹跳。但是，您必须将自动弹跳处理过程用于大列表。它将节省您的时间，并帮助您创建干净有效的订户列表。
 
-  
+
+
 [1]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
 [2]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
 [3]: #phplist

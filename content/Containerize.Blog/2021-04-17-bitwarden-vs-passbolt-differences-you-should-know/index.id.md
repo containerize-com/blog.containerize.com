@@ -48,8 +48,8 @@ Baik Bitwarden dan Passbolt menyediakan banyak fitur dan fungsionalitas sebagai 
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **Kesimpulan**
-Dalam posting ini, kami mencoba membahas perbandingan detail dari Bitwarden vs Passbolt. Kami membahas perbedaan utama antara dua manajer kata sandi open source dan mana yang memberikan fitur terbanyak sebagai manajer kata sandi open source gratis, mudah digunakan untuk tim.
+## **Kesimpulan** 
+Dalam posting ini, kami mencoba untuk membahas perbandingan detail dari Bitwarden vs Passbolt. Kami membahas perbedaan utama antara dua manajer kata sandi open source dan mana yang memberikan fitur terbanyak sebagai manajer kata sandi open source gratis, mudah digunakan untuk tim.
 
 ## Mengeksplorasi
 Anda dapat menemukan tautan berikut yang relevan:
@@ -57,7 +57,8 @@ Anda dapat menemukan tautan berikut yang relevan:
 [Passbolt | Manajer Kata Sandi Gratis, Open Source & Self-Hosted][6]
 [Pengaturan & Kelola Keepass Password Manager untuk Windows][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

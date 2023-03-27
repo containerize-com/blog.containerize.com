@@ -13,18 +13,20 @@ categories: ['Blockchain Platforms']
 
 {{< figure align=center src="images/ether.png" alt="testnet چیست">}}
 
-در پست های قبلی وبلاگ ما ، ما در مورد موضوعات مختلفی نوشتیم که شامل [فناوری blockchain برای تجارت][1] ، [نوشتن یک قرارداد هوشمند اساسی][2] و [سیستم عامل های محبوب blockchain][3] است. مباحث دیگری وجود دارد که ما در آینده نزدیک خواهیم نوشت زیرا**فناوری Ledger غیر متمرکز**با گذشت زمان سرعت می یابد. اکنون مردم به دلیل امنیت و شفافیت ، به سیستم عامل های مدیریت دارایی دیجیتال توجه می کنند. علاوه بر این ، معاملات دیجیتالی قابل ردیابی است ، تغییر ناپذیر و چنین عواملی در مورد قابلیت اطمینان این فناوری به مردم اعتماد به نفس می بخشد. سه نوع از blockchain عمومی ، خصوصی و مجاز وجود دارد. با این حال ، کاربران بسته به مورد استفاده از آنها می توانند هر نوع را اتخاذ کنند.
+در پست های قبلی وبلاگ ما ، ما در مورد موضوعات مختلفی نوشتیم که شامل [فناوری blockchain برای تجارت][1] ، [نوشتن یک قرارداد هوشمند اساسی][2] و [سیستم عامل های محبوب blockchain][3] است. مباحث دیگری وجود دارد که ما در آینده نزدیک خواهیم نوشت زیرا  **فناوری Ledger غیر متمرکز**  با گذشت زمان سرعت می یابد. اکنون مردم به دلیل امنیت و شفافیت ، به سیستم عامل های مدیریت دارایی دیجیتال توجه می کنند. علاوه بر این ، معاملات دیجیتالی قابل ردیابی است ، تغییر ناپذیر و چنین عواملی در مورد قابلیت اطمینان این فناوری به مردم اعتماد به نفس می بخشد. سه نوع از blockchain عمومی ، خصوصی و مجاز وجود دارد. با این حال ، کاربران بسته به مورد استفاده از آنها می توانند هر نوع را اتخاذ کنند.
 ظهور این فناوری باعث تغییر عظیمی در بخش بانکی شده است زیرا روش معاملات مالی را تغییر داده است. در این پست وبلاگ ، ما در مورد Ethereum blockchain در مورد راه اندازی گره Ethereum در LocalHost صحبت خواهیم کرد و خواهیم دید که چگونه با شبکه آزمایش ارتباط برقرار کنیم. ما نکات کلیدی زیر را پوشش خواهیم داد.
-***testnet چیست؟**
-* **[چگونه می توان blockchain Ethereum را تنظیم کرد؟][4]**
-* **[چگونه با blockchain ethereum ارتباط برقرار کنیم؟][5]**
-* **[نتیجه گیری][6]**
+*  **testnet چیست؟**  
+*  **[چگونه می توان blockchain Ethereum را تنظیم کرد؟][4]**  
+*  **[چگونه با blockchain ethereum ارتباط برقرار کنیم؟][5]**  
+*  **[نتیجه گیری][6]**  
 
-## testnet چیست؟   {#tetstnet}
+## testnet چیست؟ {#tetstnet}
+
 در این پست وبلاگ ، ما قصد داریم یک گره اتریوم را در LocalHost مستقر کنیم. Ethereum دارای چندین شبکه است ، شبکه تولید به آن MainNet گفته می شود و شبکه ای که برای اهداف آزمایش استفاده می شود ، TestNet نامیده می شود. بیشتر برنامه های غیر متمرکز بر اساس [Ethereum][7] blockchain است. قرارداد هوشمند یک مؤلفه جدایی ناپذیر از این زیرساخت های توزیع شده است. علاوه بر این ، blockchain شبکه ای از رایانه ها به نام "گره" است. با این حال ، هر گره حاوی یک کپی از blockchain است و بنابراین در شبکه شرکت می کند. Ethereum Blockchain همچنین رمزنگاری خود را به نام "اتر" دارد. تمام معاملات به صورت رمزنگاری تضمین می شوند. علاوه بر این ، این یک فناوری لجر کامل است که هرگز خاموش نمی شود یا خراب نمی شود. این امکان را به شما می دهد تا قراردادهای هوشمند و برنامه های غیر متمرکز (DAPP) بنویسید که روی گره های blockchain Etherum اجرا می شوند.
 این شبکه blockchain توزیع شده منبع باز از یک الگوریتم اجماع به نام اثبات کار (POW) استفاده می کند. علاوه بر این ، معماری اتریوم شامل پنج لایه مانند دستگاه مجازی Ethereum ، API های مشتری Ethereum ، قراردادهای هوشمند ، گره های اتریوم و برنامه های نهایی کاربر است. دستگاه مجازی Ethereum نرم افزار و معماری را ارائه می دهد که قراردادهای هوشمند را تشخیص می دهد. قراردادهای هوشمند نرم افزاری هستند که معاملات را اداره می کنند. پشتیبانی جدی برای شرکت های Ethereum blockchain و Fortune 500 علاقه زیادی به انجام توسعه در مقیاس بزرگتر با استفاده از این فناوری نشان داده اند. علاوه بر این ، اتریوم به زبان Go نوشته شده است و کد منبع آن در [GitHub][8] در دسترس است. تمام اسناد مربوط به استقرار و توسعه در دسترس است زیرا جامعه ای پر جنب و جوش دارد.
 
-## چگونه blockchain Ethereum را تنظیم کنیم؟   {#برپایی}
+## چگونه می توان blockchain Ethereum را تنظیم کرد؟ {#setup}
+
 اکنون ، ما از آنچه Testnet است آگاه هستیم. در این بخش گره Ethereum را روی دستگاه محلی خود تنظیم خواهیم کرد. قبل از ادامه کار ، اطمینان حاصل کنید که پیش نیازهای زیر را نصب کرده اید.
   * [homebrew][9] (برای macOS)
 
@@ -55,7 +57,8 @@ build/bin/geth
 {{< figure align=center src="images/Screen-Shot-2020-12-22-at-1.19.44-PM-1024x409.png" alt="گره">}}
 
 
-## چگونه با Ethereum blockchain ارتباط برقرار کنیم؟   {#تعامل داشتن}
+## چگونه می توان با Ethereum blockchain تعامل داشت؟ {#interact}
+
 در این بخش در مورد تعامل با یک گره اتریوم در حال اجرا که کاملاً با blockchain هماهنگ شده است ، صحبت می شود. ما می توانیم از نرم افزار GETH برای تعامل و ارسال دستورات به شبکه تست استفاده کنیم.
 برای این کار ، با اجرای دستورات زیر ، ساخت/سطل/GETH را در متغیر محیط $ مسیر قرار می دهیم:
 ```
@@ -90,8 +93,9 @@ eth.accounts
 
 به همین ترتیب ، دستورات زیادی وجود دارد که می توانید برای تعامل با Ethereum blockchain استفاده کنید.
 
-## نتیجه گیری   {#conclusion}
-در اینجا پایان این آموزش می آید. ما یاد گرفتیم که TestNet**و روند تنظیم گره Ethereum در دستگاه محلی چیست. blockchain Ethereum یک راه حل عمومی برای اکثر برنامه های غیر متمرکز است. بیشتر مشاغل و ادارات دولتی تمایل دارند این فناوری را اتخاذ کنند تا استحکام ، شفافیت ، در دسترس بودن و پاسخگویی را به وجود آورند. علاوه بر این ، این آموزش**blockchain**در صورتی که قصد شروع به توسعه در Ethereum blockchain را دارید ، به شما کمک می کند زیرا از قراردادهای هوشمند استفاده می کند. Blockchain Etheruem با داشتن هزاران گره زنده ، با ثبات تر و محبوب تر است. علاوه بر این ، شرکت ها می توانند بدون صرف وقت اضافی ، شبکه های blockchain Ethereum را توسعه داده و مستقر کنند. عامل دیگر قابلیت اطمینان اتریوم این است که توسعه قراردادهای هوشمند را به شکلی ارائه می دهد که سایر سیستم عامل های مدیریت دارایی دیجیتال**ارائه نمی دهند.
+## نتیجه {#نتیجه}
+
+در اینجا پایان این آموزش می آید. ما یاد گرفتیم که TestNet  **و روند تنظیم گره Ethereum در دستگاه محلی چیست. blockchain Ethereum یک راه حل عمومی برای اکثر برنامه های غیر متمرکز است. بیشتر مشاغل و ادارات دولتی تمایل دارند این فناوری را اتخاذ کنند تا استحکام ، شفافیت ، در دسترس بودن و پاسخگویی را به وجود آورند. علاوه بر این ، این آموزش** blockchain **در صورتی که قصد شروع به توسعه در Ethereum blockchain را دارید ، به شما کمک می کند زیرا از قراردادهای هوشمند استفاده می کند. Blockchain Etheruem با داشتن هزاران گره زنده ، با ثبات تر و محبوب تر است. علاوه بر این ، شرکت ها می توانند بدون صرف وقت اضافی ، شبکه های blockchain Ethereum را توسعه داده و مستقر کنند. عامل دیگر قابلیت اطمینان اتریوم این است که توسعه قراردادهای هوشمند را به شکلی ارائه می دهد که سایر سیستم عامل های مدیریت دارایی دیجیتال**  ارائه نمی دهند.
 آخرین به روزرسانی ها در شبکه اتریوم باعث شده است که شبکه مقرون به صرفه تر و کارآمدتر شود. در حقیقت ، مطالب بسیار بیشتری در ابر وجود دارد که جنبه های مهم اترییم را در مورد اهداف سرمایه گذاری و توسعه نشان می دهد. برای توسعه دهندگان ، یک اکوسیستم سازگار با توسعه دهنده را با برنامه های از پیش ساخته فراهم می کند. برای معدنچیان ، هر زمان که آنها یک بلوک جدید را در داخل محفظه قرار دهند ، به شکل اتر وجود دارد. علاوه بر این ، [Containerize.com][10] بسیاری از پست های وبلاگ فنی و آموزش های مربوط به محصولات منبع باز محبوب را در [blog.containerize.com] منتشر کرده است [11]. بنابراین ، برای به روزرسانی های منظم با دسته [سیستم عامل های blockchain][12] در ارتباط باشید.
 
 ## کاوش کنید
@@ -107,23 +111,24 @@ eth.accounts
   * [یک راهنمای اساسی در مورد چگونگی ایجاد قرارداد هوشمند Ethereum][2]
   * [چگونه فناوری غیر متمرکز استراتژی کسب و کار شما را به روز می کند][19]
 
-  
-[1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
-[2]: https://blog.containerize.com/
-[3]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
-[4]: #setup
-[5]: #interact
-[6]: #Conclusion
-[7]: https://products.containerize.com/blockchain-platforms/ethereum
-[8]: https://github.com/ethereum/go-ethereum
-[9]: https://brew.sh/
-[10]: https://www.containerize.com/
-[11]: https://blog.containerize.com/
-[12]: https://products.containerize.com/blockchain-platforms/
-[13]: https://products.containerize.com/blockchain-platforms/hyperledger-fabric
-[14]: https://products.containerize.com/blockchain-platforms/openchain
-[15]: https://products.containerize.com/blockchain-platforms/ripple
-[16]: https://products.containerize.com/blockchain-platforms/multichain
-[17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
-[18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
-[19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+
+
+ [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
+ [2]: https://blog.containerize.com/
+ [3]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
+ [4]: #setup
+ [5]: #interact
+ [6]: #Conclusion
+ [7]: https://products.containerize.com/blockchain-platforms/ethereum
+ [8]: https://github.com/ethereum/go-ethereum
+ [9]: https://brew.sh/
+ [10]: https://www.containerize.com/
+ [11]: https://blog.containerize.com/
+ [12]: https://products.containerize.com/blockchain-platforms/
+ [13]: https://products.containerize.com/blockchain-platforms/hyperledger-fabric
+ [14]: https://products.containerize.com/blockchain-platforms/openchain
+ [15]: https://products.containerize.com/blockchain-platforms/ripple
+ [16]: https://products.containerize.com/blockchain-platforms/multichain
+ [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
+ [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
+ [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

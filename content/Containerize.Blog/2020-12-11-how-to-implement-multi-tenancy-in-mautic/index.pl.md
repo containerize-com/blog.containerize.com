@@ -13,21 +13,24 @@ categories: ['Marketing Automation']
 
 {{< figure align=center src="images/Mautic-multitenancy.png" alt="Jak wdrożyć wielozadaniowość w języku mautycznym">}}
 
-Mautic to bezpłatne i open source marketingowe rozwiązanie automatyzacji, które zapewnia pełną kontrolę nad e -mailem marketingowym, stronami do lądowania, przepływami pracy i środkami działań marketingowych. W tym samouczku omówimy następujące sekcje:
+Mautic to bezpłatne i open source marketingowe rozwiązanie automatyzacji, które zapewnia pełną kontrolę nad e -mailem marketingowym, stronami docelowymi, przepływami pracy i środkami działań marketingowych. W tym samouczku omówimy następujące sekcje:
   * [Co to jest wielozadaniowość][1]
   * [Co to jest mautic][2]
-  * [Wdrożenie wielozadaniowości w mautic][3]
+  * [Wdrożenie wielopisaninowości w mautic][3]
   * [Wniosek][4]
 
-## Czym jest wielopoziomowy   {#Multi-Denancy}
+## Co to jest wielozadaniowość {#multi-tenancy}
+
 W architekturze oprogramowania wielozadaniowego pojedyncza instancja aplikacji obsługuje wielu najemców. Każde dane najemcy są odizolowane od innych najemców udostępniających tę samą instancję aplikacji. Ci najemcy są logicznie izolowani, ale fizycznie zintegrowani. Zapewnia to bezpieczeństwo danych i prywatność wszystkim najemcom. Tworzenie wielu najemców z pojedynczej instancji aplikacji wymaga znacznie mniej pamięci. Najemcy dzielą zasoby i obniżają koszty konserwacji oprogramowania, infrastruktury i operacji centrum danych. Koszty są zwykle niższe niż koszty infrastruktury jednolitej.
 
-## Czym jest mautic   {#mautic}
+## Co jest mautyczne {#mautic}
+
 [Mautic][5] to oprogramowanie marketingowe bezpłatne i open source. Zautomatyzuj powtarzające się zadania marketingowe, takie jak kampanie marketingowe, generowanie potencjalnych klientów, segmentacja kontaktów itp. Korzystanie z mautic. Ma zaskakujące funkcje, w tym generowanie potencjalnych klientów, budowanie kampanii, segmentację kontaktów, konstruktor e -maili, testy A/B, budownicza stron, pielęgnowanie ołowiu i wiele innych. Mautic wspiera również integrację ze wszystkimi popularnymi platformami społecznościowymi, np. Facebook, Twitter, LinkedIn. Wszystkie te niesamowite funkcje pomagają zwiększyć ogólną obsługę klienta i poprawić automatyzację marketingu Twojej firmy.
 
-## Wdrożyć wielokrotność w mautic   {#Implement}
+## Wdrożyć wielozadaniowość w języku mautycznym {#implement}
+
   * Utwórz nową pustą bazę danych o nazwie „main_db”.
-  * Następnie utwórz tabelę o nazwie „Najemca”, który będzie zawierał szczegóły dotyczące wszystkich najemców.
+  * Następnie utwórz tabelę o nazwie „Najemca”, który będzie zawierał szczegółowe informacje na temat wszystkich najemców.
   * Będzie miał 3 pola, w tym witryna \ _name, URL i db \ _name, jak pokazano na rysunku
 
 {{< figure align=center src="images/How-to-implement-multi-tenancy-in-mautic-database.png-1024x131.jpg" alt="Jak wdrożyć wielozadaniowość w języku mautycznym">}}
@@ -48,7 +51,8 @@ $local_config = "%kernel.root_dir%/config/local_".$siteName.".php";
   * Następnie utwórz kopię mautic/app/config/local.php i zmień nazwę na [Site_name] .php.
   * Wreszcie zaktualizuj nazwę bazy danych, host, hasło i użytkownik zgodnie z nową bazą danych.
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 Mautic to bezpłatne, bogate i zorientowane na jakość rozwiązanie automatyzacji marketingu. Pozwala tworzyć kampanie marketingowe, segmenty, formularze, raporty i wiele więcej. Wdrożenie wielozadaniowości w mautic zmniejsza koszty, poprawia wydajność, skalowalność i bezpieczeństwo. Z łatwością stwórz setki najemców tylko z jednej instalacji.
 
 ## Badać
@@ -59,13 +63,14 @@ Aby dowiedzieć się więcej o Mautic i Facebooku, odwiedź:
   * [Automatyzacja marketingowa z integracją Mautic i WooCommerce][8]
   * [Zintegruj Mautic i Joomla do automatyzacji marketingu cyfrowego][9]
 
-  
-[1]: #multi-tenancy
-[2]: #mautic
-[3]: #implement
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
-[7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
-[8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
-[9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/
+
+
+ [1]: #multi-tenancy
+ [2]: #mautic
+ [3]: #implement
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+ [7]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [8]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+ [9]: https://blog.containerize.com/content-management/integrate-mautic-with-joomla-for-marketing-automation/

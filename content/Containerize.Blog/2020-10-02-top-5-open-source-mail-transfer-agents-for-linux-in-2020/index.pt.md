@@ -22,7 +22,9 @@ Aqui está uma lista dos 5 principais agentes de transferência de correio de c�
   * [Postfix][5]
   * [Exim][6]
 
-### **Postal** {#Postal}
+
+### **Postal** {#postal}
+
 O Postal é um destaque completo na Premise Alternative a SendGrid e Mailgun. Ele vem com uma API HTTP simples para fácil integração com aplicativos da Web. O Postal é 100% gratuito e de código aberto, você pode baixar o código -fonte modificá -lo de acordo com seus requisitos.
 Suas características notáveis, entre outras, são seguintes:
   * Suporte para várias organizações com servidores de email e usuários dentro.
@@ -32,17 +34,21 @@ Suas características notáveis, entre outras, são seguintes:
   * Verificação e monitoramento de DNS embutidos para garantir que os domínios da qual você envie e-mails sejam configurados corretamente para obter a máxima entrega.
     [Leia mais][7]
 
+
 ### **Cuttlefish** {#cuttlefish}
+
 O Cuttlefish é um software de entrega de correio auto -hospedado e é amplamente usado para enviar grandes volumes de e -mails com facilidade. Ele suporta o protocolo SMTP. Consequentemente, permite que você envie e -mails do seu aplicativo sem nenhum esforço. O Cuttlefish usa o Postfix para entrega de email, que é um dos agentes de transferência de correio de código aberto mais populares e confiáveis. Portanto, possui toda a confiabilidade do pós -fixo.
 Aqui estão os recursos notáveis:
   * Garante que seus e -mails cheguem aos destinos deles.
-  * Mantém sua reputação por e -mail alta, mantendo automaticamente os e -mails para destinos que haviam sofrido anteriormente.
+  * Mantém sua reputação por e -mail alta, mantendo automaticamente os e -mails para destinos que se trouxeram anteriormente.
   * Monitora em tempo real que os e -mails chegam ao seu destino e que saltam.
   * Envia e -mail do seu aplicativo usando o SMTP da maneira usual e obtém todos os tipos de benefícios adicionais sem nenhum esforço.
   * Funciona com qualquer estrutura e linguagem da web
     [Leia mais][8]
 
-### **Mail-in-A-Box** {#Mail-in-A-Box}
+
+### **Mail-in-A-Box** {#mail-in-a-box}
+
 O Mail-in-A-Box é um servidor de e-mail Linux inovador que se concentra na implantação fácil. Ele fornece o servidor útil e o servidor IMAP/SMTP com configurações automáticas de DNS. Ajuda você a configurar seu próprio gmail sem experiência técnica. Seus principais recursos incluem:
   * Configuração automática de DNS
   * Filtragem de spam.
@@ -52,7 +58,9 @@ O Mail-in-A-Box é um servidor de e-mail Linux inovador que se concentra na impl
   * Host Mail para vários usuários e vários nomes de domínio.
     [Leia mais][9]
 
-### **postfix** {#PostFix}
+
+### **postfix** {#postfix}
+
 O Postfix é um poderoso servidor de correio de código aberto que pode ser usado para rotear e fornecer emails. No entanto, foi originalmente desenvolvido para substituir o popular agente de transferência de correio Sendmail. Mesmo que se segue muito Sendmail. Mas, na implementação, é bastante distinto e único. Oferece muitos recursos, incluindo
   * Controle de lixo eletrônico
   * Suporta vários protocolos
@@ -61,7 +69,9 @@ O Postfix é um poderoso servidor de correio de código aberto que pode ser usad
   * Abordar o suporte de manipulação e muito mais
     [Leia mais][10]
 
-### **exim** {#Exim}
+
+### **exim** {#exim}
+
 O EXIM é um servidor de email completo usado em muitos sistemas operacionais do tipo UNIX. Oferece suporte cruzado de plataforma, o que a torna uma boa opção para servidores de email. O EXIM é um servidor altamente personalizável para roteamento e entrega de email. O EXIM é como uma estrutura com seu idioma de aplicativo para configurar configurações complexas. Possui uma lógica avançada de processamento de email em várias etapas, que ajuda a resolver casos de uso complexos. Aqui estão os principais recursos do Exim:
   * Suporta protocolos como RFC 2821 SMTP e RFC 2033 LMTP E -mail mensagens de transporte
   * As configurações incluem listas de controle de acesso, varredura de conteúdo, criptografia, controles de roteamento, entre outros
@@ -70,9 +80,10 @@ O EXIM é um servidor de email completo usado em muitos sistemas operacionais do
     [Leia mais][11]
 
 ### Conclusão
-Neste artigo, você revisou o melhor agente de transferência de correio de código aberto. Em primeiro lugar, listamos os principais destaques de cada MTA listado curto. Depois disso, explicamos como esses recursos os tornam únicos. Em conclusão, se você estiver procurando uma solução rápida e fácil, sem configurações complexas, depois, o Cuttlefish e o Mail-in-a-Box são suas escolhas. No entanto, se você estiver procurando por um controle mais avançado por meio de configurações, poderá escolher exim ou postfix.
+Neste artigo, você revisou o melhor agente de transferência de correio de código aberto. Em primeiro lugar, listamos os principais destaques de cada MTA listado curto. Depois disso, explicamos como esses recursos os tornam únicos. Em conclusão, se você estiver procurando uma solução rápida e fácil, sem configurações complexas, depois o Cuttlefish e o Mail-in-a-Box são suas escolhas. No entanto, se você estiver procurando por um controle mais avançado por meio de configurações, poderá escolher exim ou postfix.
 
-  
+
+
 [1]: https://products.containerize.com/transactional-email
 [2]: #postal
 [3]: #cuttlefish

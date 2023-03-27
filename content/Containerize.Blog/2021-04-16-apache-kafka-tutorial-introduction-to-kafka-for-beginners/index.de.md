@@ -23,28 +23,32 @@ Kürzlich haben wir einen Artikel über „Kafka vs Redis Pub-Sub“ geschrieben
   * [Nachrichten aus dem Thema lesen][7]
   * [Schlussfolgerung][8]
 
-## Einführung in Apache Kafka   {#Intro}
+## Einführung in Apache Kafka {#intro}
+
 Apache Kafka Open Source Message Broker wurde bei LinkedIn gestartet und wurde später zu einem Open -Source -Apache -Projekt. Die Kafka Message Broker -Software wird in Scala und Java entwickelt. Apache Kafka Broker ist ein Messaging-System des Publish-Subscribe, mit dem auch Daten zwischen Anwendungen, Servern und Prozessoren ausgetauscht werden können. Es ist schnell, skalierbar und von Design verteilt. Es ist in der Lage, Millionen von Daten oder Nachrichten pro Sekunde zu bearbeiten. Es wirkt als Mediator zwischen dem Quellsystem (Produzenten) und dem Ziel (Verbraucher). Organisationen wie Netflix, Uber und Tausende solcher Unternehmen nutzen Apache Kafka Echtzeit -Streaming. Im Vergleich zu anderen Messaging-Systemen verfügt die Kafka Message Queue Software über einen besseren Durchsatz, eine integrierte Partitionierung, Replikation und inhärente Fehlertoleranz. Dies ist gut geeignet zu großen Nachrichtenverarbeitungsanwendungen.
 
-## Was ist ein Messaging -System?   {#Messaging}
+## Was ist ein Messaging -System? {#messaging}
+
 Ein Messaging -System ist ein einfacher Austausch von Nachrichten zwischen zwei oder mehr Personen, Geräten usw. Es ist für die Datenübertragung von einer Anwendung zu einer anderen verantwortlich, sodass sich die Anwendungen auf Daten konzentrieren können, aber keine Sorgen darüber machen, wie sie sie teilen.
 Eine Art von Messaging -System ist „Point to Point Messaging System“. In diesem System werden Nachrichten in einer Warteschlange gespeichert, wenn sie vom Produzenten gesendet werden. Nur ein Verbraucher kann zu einem bestimmten Zeitpunkt eine Nachricht konsumieren. Und sobald die Nachricht verbraucht ist, wird sie aus der Warteschlange entfernt. Eines der Beispiele dieses Systems ist das Auftragsverarbeitungssystem. Wobei nur ein Prozess die Bestellung produzieren kann.
 Eine andere Art von Messaging-System ist das Pub-Sub-Messaging-System, mit dem ein Absender die Nachricht und einen Empfänger senden können, um diese Nachricht zu lesen. In Apache Kafka Messaging ist ein Absender als Produzent bekannt, der Nachrichten veröffentlicht, und ein Empfänger wird als Verbraucher bekannt, der diese Nachricht konsumiert, indem er sie abonniert. Ein Beispiel für dieses System ist Ihr Kabelfernseher, das viele Kanäle veröffentlicht, und jeder kann seine Auswahl an Kanälen abonnieren und sie erhalten, wenn seine abonnierten Kanäle verfügbar sind.
 
-## Fundamental Begriffe   {#terms}
-Bevor wir mehr über die beste Meldungswarteschlange Apache Kafka sprechen, müssen Sie einige der Begriffe verstehen.
-  ***Themen** : Ein Strom von Nachrichten, die zu einer bestimmten Kategorie gehören, wird als Thema bezeichnet.
-  ***Partition** : Themen können viele Partitionen haben, sodass sie eine willkürliche Datenmenge bewältigen können.
-  ***Partition Offset** : Jede partitionierte Nachricht hat eine eindeutige Sequenz -ID mit dem Namen "Offset".
-  ***Repliken der Partition** : Repliken sind Backups einer Partition. Sie werden verwendet, um Datenverlust zu verhindern.
-  ***Makler** : sind für die Aufrechterhaltung veröffentlichter Daten verantwortlich.
-  ***Kafka Cluster** : Kafka hat mehr als einen Broker Kafka Cluster.
-  ***Produzenten** : Sind die Verlage der Nachrichten zu einem oder mehreren Themen.
-  ***Verbraucher** : Sind der Leser der Daten von Makler. Sie abonnieren mehrere Themen und konsumieren immer dann, wenn es eine Nachricht im Thema gibt.
-  ***Anführer** : Ist der Knoten für alle Lese- und Schreibvorgänge für eine bestimmte Partition verantwortlich.
-  ***Nachfolger** : Knoten, der den Anweisungen der Führer folgt, werden als Follower bezeichnet.
+## Grundlegende Begriffe {#terms}
 
-## Installationsschritte   {#steps}
+Bevor wir mehr über die beste Meldungswarteschlange Apache Kafka sprechen, müssen Sie einige der Begriffe verstehen.
+* **Themen** : Ein Strom von Nachrichten, die zu einer bestimmten Kategorie gehören, wird als Thema bezeichnet.
+* **Partition** : Themen können viele Partitionen haben, sodass sie eine willkürliche Datenmenge bewältigen können.
+* **Partition Offset** : Jede partitionierte Nachricht hat eine eindeutige Sequenz -ID mit dem Namen "Offset".
+* **Repliken der Partition** : Repliken sind Backups einer Partition. Sie werden verwendet, um Datenverlust zu verhindern.
+* **Makler** : sind für die Aufrechterhaltung veröffentlichter Daten verantwortlich.
+* **Kafka Cluster** : Kafka hat mehr als einen Broker Kafka Cluster.
+* **Produzenten** : Sind die Verlage der Nachrichten zu einem oder mehreren Themen.
+* **Verbraucher** : Sind der Leser der Daten von Makler. Sie abonnieren mehrere Themen und konsumieren immer dann, wenn es eine Nachricht im Thema gibt.
+* **Anführer** : Ist der Knoten für alle Lese- und Schreibvorgänge für eine bestimmte Partition verantwortlich.
+* **Nachfolger** : Knoten, der den Anweisungen der Führer folgt, werden als Follower bezeichnet.
+
+## Installationsschritte {#steps}
+
 
 ### Schritt 1 - Überprüfung der Java -Installation
 Hoffentlich haben Sie Java bereits jetzt auf Ihrem Computer installiert, sodass Sie es einfach mit dem folgenden Befehl überprüfen.
@@ -93,7 +97,8 @@ $ bin/zookeeper-server-start.sh config/zookeeper.properties
 $ bin/kafka-server-start.sh config/server.properties
 ```
 
-## Erstellen Sie ein Thema   {#create}
+## Erstellen Sie ein Thema {#create}
+
 Um Ihre Nachrichten oder Ereignisse in Themen zu schreiben, müssen Sie zuerst ein Thema erstellen. So erstellen Sie ein Thema, öffnen Sie Ihr Terminal und führen Sie den folgenden Befehl aus:
 ```
 $ bin/kafka-topics.sh --create --topic weather-updates --bootstrap-server localhost:9092
@@ -106,7 +111,8 @@ Topic:weather-updates  PartitionCount:1    ReplicationFactor:1 Configs:
 
 ```
 
-## Meldung in das Thema   {#Write} schreiben
+## Meldung in Thema schreiben {#write}
+
 Führen Sie den Konsolenproduzenten -Kunden aus, um ein paar Ereignisse in Ihr Thema zu schreiben. Standardmäßig führt jede Zeile, die Sie eingeben, zu einem separaten Ereignis an das Thema.
 ```
 $ bin/kafka-console-producer.sh --topic weather-updates --bootstrap-server localhost:9092
@@ -114,8 +120,9 @@ Weather for New York is Cloudy
 Weather for Houston is Rainy
 ```
 
-## Lesen Sie Nachrichten aus dem Thema   {#Read}
-Öffnen Sie eine weitere Terminalsitzung und führen Sie den Konsolen -Verbraucher -Client aus, um die von Ihnen erstellten Ereignisse zu lesen:
+## Lesen Sie Nachrichten vom Thema {#read}
+
+Öffnen Sie eine weitere Terminalsitzung und führen Sie den Konsolenkonsum -Kunden aus, um die von Ihnen erstellten Ereignisse zu lesen:
 ```
 $ bin/kafka-console-consumer.sh --topic weather-updates --from-beginning --bootstrap-server localhost:9092
 Weather for New York is Cloudy
@@ -123,7 +130,8 @@ Weather for Houston is Rainy
 ```
 Fühlen Sie sich frei zu experimentieren: Wechseln Sie beispielsweise wieder zu Ihrem Produzenten -Terminal (vorheriger Schritt), um zusätzliche Ereignisse zu schreiben, und sehen Sie, wie die Ereignisse sofort in Ihrem Verbraucherterminal angezeigt werden.
 
-## Schlussfolgerung   {#Conclusion}
+## Abschluss {#conclusion}
+
 In diesem Tutorial haben wir die Grundlagen der Verwendung von Apache Kafka kennengelernt. Wir haben den Kafka -Warteschlangendienst installiert und ihn dann konfiguriert. Wir haben auch gelernt, wie man Themen in Kafka erstellt, Nachrichten an Themen sendet und wie Sie Nachrichten aus den Themen lesen. Ich hoffe, dieser Artikel war nützlich für Sie. Treffen wir uns im nächsten Artikel.
 _What Open Source Distributed Event Streaming Platform verwenden Sie?. Haben Sie Fragen?
 
@@ -133,7 +141,8 @@ Sie können die folgenden Links relevant finden:
   * [Kafka vs Redis Pub-Sub, Unterschiede, die Sie wissen sollten][11]
   * [Einführung in Redis Pub/Sub und wie funktioniert es?][12]
 
-  
+
+
 [1]: #intro
 [2]: #messaging
 [3]: #terms

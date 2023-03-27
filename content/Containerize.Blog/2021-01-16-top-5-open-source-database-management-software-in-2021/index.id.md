@@ -23,7 +23,8 @@ Kami akan membahas alat DBMS open source berikut dalam artikel ini:
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpMyadmin   {#phpmyadmin}
+## phpMyadmin {#phpmyadmin}
+
 PHPMyAdmin hadir sebagai komponen bawaan dengan server web XAMPP dan WAMPP. Saat ini PhpMyAdmin adalah perangkat lunak manajemen basis data yang paling banyak digunakan. Pengembang dapat mengelola informasi, tabel, kolom, hubungan, referensi, pengguna, dan izin, dll. Melalui antarmuka. Selain itu, digunakan untuk melakukan sebagian besar tugas administrasi termasuk membuat database, menjalankan kueri, dan menambahkan akun pengguna. Sistem manajemen basis data ini ditulis dalam PHP bersama dengan input dari bahasa lain seperti JavaScript dan SCSS. Oleh karena itu, semua dokumentasi tersedia mengenai pengembangan dan penyebaran. Ini adalah beberapa fitur yang menonjol dari phpMyadmin:
   * Antarmuka web yang mudah digunakan.
   * Beberapa dukungan fitur MySQL.
@@ -55,7 +56,7 @@ Fitur utama Cubrid termasuk berbagi data, caching data kinerja tinggi, hubungan 
   * Sepenuhnya transaksional, patuh asam.
   * Tabel bergabung (bagian dalam, kiri, kanan, luar, Union, gabungkan).
   * Ekspresi reguler bersyarat.
-  * Pertanyaan bersarang dan hierarkis.
+  * Kueri bersarang dan hierarkis.
   * Dukungan Data LOB (Blob/Clob).
   * Kursor, pemicu, dan prosedur tersimpan.
   * Load Balancing and Distribution.
@@ -80,10 +81,11 @@ Untuk mempelajari lebih lanjut tentang alat manajemen basis data yang disebutkan
   * [Sistem Manajemen Basis Data Sumber Terbaik][19]
   * [Kelola Database dengan Alat Manajemen Database Adminer][20]
   * [Panduan Pemula untuk Redis In-Memory Database][21]
-  * [Mengapa MySQL adalah sistem manajemen basis data sumber terbuka yang populer?][2]
+  * [Mengapa MySQL adalah sistem manajemen basis data open source populer?][2]
   * [Kafka vs Redis Pub-Sub-Sub, Perbedaan Yang Harus Anda Ketahui][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

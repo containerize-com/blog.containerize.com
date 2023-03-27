@@ -1,6 +1,6 @@
 ---
-title: "Software de gestión de bases de datos de código abierto Top 5 en 2021" 
-seoTitle: "Software de gestión de bases de datos de código abierto Top 5 en 2021" 
+title: "Top 5 Software de gestión de bases de datos de código abierto en 2021" 
+seoTitle: "Top 5 Software de gestión de bases de datos de código abierto en 2021" 
 description: "Esta publicación de blog es sobre el software de administración de bases de datos de código abierto y de código abierto principales principales. Estos son Phpmyadmin, Adminer, Dbeaver, Cubrid y Heidisql." 
 date: Sat, 16 Jan 2021 00:02:07 +0000
 author: bilalahmed
@@ -23,7 +23,8 @@ Discutiremos las siguientes herramientas DBMS de código abierto en este artícu
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin   {#phpmyadmin}
+## phpmyadmin {#phpmyadmin}
+
 PhPMyAdmin viene como un componente incorporado con los servidores web XAMPP y WAMPP. En este momento, PhPMyadmin es el software de gestión de bases de datos más utilizado. Los desarrolladores pueden administrar información, tablas, columnas, relaciones, referencias, usuarios y permisos, etc. a través de la interfaz. Además, se utiliza para realizar la mayoría de las tareas de administración, incluida la creación de una base de datos, ejecutar consultas y agregar cuentas de usuario. Este sistema de gestión de bases de datos está escrito en PHP junto con la entrada de otros idiomas como JavaScript y SCSS. Por lo tanto, toda la documentación está disponible con respecto al desarrollo y la implementación. Estas son algunas características destacadas de PhPMyadmin:
   * Interfaz web fácil de usar.
   * Soporte de características múltiples de MySQL.
@@ -37,7 +38,7 @@ Adminer es una alternativa liviana PhPMyadmin. También es una herramienta DBMS 
   * Admite PHP 5 con sesiones habilitadas.
   * Agregar y soltar tablas y columnas.
   * Crear, alterar, soltar y buscar por índices.
-  * Insertar nuevos registros, actualizar y eliminar los existentes.
+  * Inserte nuevos registros, actualice y elimine los existentes.
   * También permite crear, alterar, soltar y listas de enlaces por claves extranjeras.
 [Leer más][10]
 
@@ -52,7 +53,7 @@ Esta es otra alternativa de PhPMyadmin, utilizada para crear y administrar bases
 
 ## cubrid
 Las características principales de Cubrid incluyen intercambio de datos, almacenamiento en caché de datos de alto rendimiento, relaciones de elementos de base de datos orientadas a objetos, un corredor de middleware nativo, soporte de globalización extensible y personalizable. Cubrid asegura un alto rendimiento, estabilidad, escalabilidad y alta disponibilidad que son imprescindibles para aplicaciones web de misión crítica. Proporciona funciones que incluyen agrupación de conexión, monitoreo y rastreo de registros y análisis, así como copias de seguridad de la base de datos y restauración de puntos. Cubrid es una herramienta DBMS relacional de objetos, que consiste en el servidor de la base de datos, el corredor y el administrador de Cubrid. De hecho, toda la documentación está disponible con respecto al desarrollo y la implementación. Las siguientes son algunas características destacadas de Cubrid:
-  * Totalmente transaccional, cumplido con el ácido.
+  * Totalmente transaccional, compatible con el ácido.
   * La mesa se une (interior, izquierda, derecha, exterior, unión, fusionada).
   * Expresiones regulares condicionales.
   * Consultas anidadas y jerárquicas.
@@ -83,7 +84,8 @@ Para obtener más información sobre las herramientas de gestión de bases de da
   * [¿Por qué MySQL es un popular sistema de gestión de bases de datos de código abierto?][2]
   * [Kafka vs Redis Pub-sub, diferencias que debes saber][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

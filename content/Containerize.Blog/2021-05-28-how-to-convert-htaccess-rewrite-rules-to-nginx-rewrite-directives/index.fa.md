@@ -14,12 +14,13 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="تبدیل قوانین بازنویسی .htaccess به دستورالعمل های NGINX">}}
 
 در آخرین آموزش ما ، ما یاد گرفتیم [چگونه می توان چندین نسخه PHP را با NGINX در اوبونتو نصب کرد][1]. Apache یکی از محبوب ترین وب سایت ها است اما اخیراً ، Nginx خود را به عنوان رقیب آپاچی تأسیس کرده است. اما Nginx از قوانین بازنویسی HTACCESS پشتیبانی نمی کند. بنابراین ، در این مقاله ، ما یاد خواهیم گرفت که چگونه می توان قوانین بازنویسی HTACCESS را به دستورالعمل های بازنویسی NGINX تبدیل کرد. بیا شروع کنیم!
-  * **[nginx قوانین را بازنویسی می کند][2]**
-  *[**. htaccess قوانین را بازنویسی می کند**][3]
-  *[ **تبدیل .HTACCESS قوانین را به دستورالعمل های بازنویسی nginx بازنویسی می کند** ][4]
-  *[ **نتیجه گیری** ][5]
+*  **[nginx قوانین را بازنویسی می کند][2]**  
+* [  **. htaccess قوانین را بازنویسی می کند**  ][3]
+* [  **تبدیل .HTACCESS قوانین را به دستورالعمل های بازنویسی nginx بازنویسی می کند**  ][4]
+* [  **نتیجه گیری**  ][5]
 
-## nginx قوانین   {#nginx را بازنویسی می کند
+## Nginx قوانین را بازنویسی می کند {#nginx}
+
 بازنویسی قوانین تغییر بخش یا کلیه URL در درخواست مشتری ، معمولاً برای آگاه سازی به مشتریان که منبعی که اکنون درخواست می کنند در یک مکان متفاوت قرار دارد یا کنترل جریان پردازش در NGINX است. به عنوان مثال برای ارسال درخواست ها به سرور برنامه در هنگام نیاز به تولید دینامیکی. دستورالعمل try_files اغلب برای این منظور استفاده می شود.
 دو دستورالعمل برای بازنویسی NGINX با هدف عمومی _return_ و _rewrite_ است ، و دستورالعمل _try_files_ روشی مفید برای هدایت درخواست ها به سرورهای برنامه است.
 بخشنامه بازگشت ساده تر از دو دستورالعمل هدف عمومی است. بازده را در یک سرور یا زمینه مکان محصور می کنید.
@@ -44,7 +45,8 @@ server {
 }
 ```
 
-## .htaccess قوانین   {#Apache را بازنویسی می کند
+## .htaccess قوانین را بازنویسی کنید {#apache}
+
 پرونده .htaccess تعدادی از راه های دسترسی ، مسدود و هدایت به یک وب سایت را کنترل می کند. این کار را با استفاده از یک سری از یک یا چند قانون بازنویسی .htaccess انجام می دهد. این بازنویسی ها توسط ماژول Mod_Rewrite Apache اجرا می شوند.
 mod_rewrite راهی برای اصلاح درخواست های URL ورودی ، به صورت پویا ، بر اساس قوانین بیان منظم فراهم می کند. این به شما امکان می دهد هر URL را بر روی ساختار URL داخلی خود به هر روشی که دوست دارید نقشه برداری کنید. این همچنین برای تمیز کردن URL های خارجی شما و سپس نقشه برداری آنها بر روی URL های داخلی زشت به نظر می رسد.
 به عنوان مثال ، پس از بازنویسی .htaccess قانون ، URL غیر WWW را به یک URL WWW بازنویسی می کند.
@@ -54,7 +56,8 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## تبدیل .htaccess قوانین را به دستورالعمل های بازنویسی nginx   {#convert intry بازنویسی کنید
+## تبدیل قوانین بازنویسی .htaccess به دستورالعمل های بازنویسی nginx {#convert}
+
 همانطور که در مثال بالا برای تغییر مسیر URL غیر WWW به یک URL WWW نشان دادیم ، اجازه دهید همان قانون بازنویسی HTACCESS را به بخشنامه بازنویسی NGINX تبدیل کنیم.
 ```
 server {
@@ -82,7 +85,7 @@ server {
 }
 ```
 به خاطر وضوح بیشتر ، بیایید قوانین HTACCESS WordPress را به بخشنامه nginx try_files تبدیل کنیم.
-[wordpress.org توزیع][6] یک پرونده پیش فرض اساسی **. htaccess** با موارد زیر. HTACCESS قوانینی را بازنویسی می کند که لینک های ثابت را قادر می سازد:
+[wordpress.org توزیع][6] یک پرونده پیش فرض اساسی  **. htaccess**  با موارد زیر. HTACCESS قوانینی را بازنویسی می کند که لینک های ثابت را قادر می سازد:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -100,18 +103,20 @@ location / {
 }
 ```
 
-## نتیجه گیری   {#conclusion}
+## نتیجه {#conclusion}
+
 در این آموزش ، ما به بررسی قوانین بازنویسی .htaccess Apache و چگونگی تبدیل آن قوانین بازنویسی .htaccess در بخشنامه های بازنویسی NGINX می پردازیم. ما در ادامه دستورالعمل های مختلف NGINX را نیز مورد بررسی قرار دادیم که می تواند برای بازنویسی URL ها استفاده شود. ما همچنین به عنوان مثال قوانین بازنویسی را برای Nginx و Apache ارائه دادیم. امیدوارم که این آموزش برای شما مفید باشد.
 
 ## کاوش کنید
   * [نحوه نصب چندین نسخه PHP با NGINX در اوبونتو][1]
   * [نحوه تنظیم و پیکربندی nginx به عنوان پروکسی معکوس][7]
 
-  
-[1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-[2]: #nginx
-[3]: #apache
-[4]: #convert
-[5]: #conclusion
-[6]: https://codex.wordpress.org/htaccess
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+
+
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [2]: #nginx
+ [3]: #apache
+ [4]: #convert
+ [5]: #conclusion
+ [6]: https://codex.wordpress.org/htaccess
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

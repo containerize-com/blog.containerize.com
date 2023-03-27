@@ -14,29 +14,33 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/lemp-banner.png" alt="پشته LEMP را روی اوبونتو نصب کنید">}}
 
 
-## نمای کلی   {#prequisites}
-در این راهنما ، ما NGINX ، MYSQL و PHP (LEMP پشته) را برای توسعه و استقرار برنامه های وب نصب خواهیم کرد. ما همچنین یک سرور وب را به برنامه PHP سرور در سرور اوبونتو 18.04 پیکربندی خواهیم کرد. بخش های زیر را در این آموزش پوشش خواهیم داد.
-  *[ **پیش نیاز** ][1]
-  *[ **لیمپ پشته چیست؟** ][2]
-  *[ **نصب LEMP** ][3]
-  *[ **نتیجه گیری** ][4]
+## بررسی اجمالی {#Prerequisites}
 
-## پیش نیازها   {#precequisites}
+در این راهنما ، ما NGINX ، MYSQL و PHP (LEMP پشته) را برای توسعه و استقرار برنامه های وب نصب خواهیم کرد. ما همچنین یک سرور وب را به برنامه PHP سرور در سرور اوبونتو 18.04 پیکربندی خواهیم کرد. بخش های زیر را در این آموزش پوشش خواهیم داد.
+* [  **پیش نیاز**  ][1]
+* [  **لیمپ پشته چیست؟**  ][2]
+* [  **نصب LEMP**  ][3]
+* [  **نتیجه گیری**  ][4]
+
+## پیش نیازها {#پیش نیازها}
+
 قبل از نصب نرم افزار ، باید شرایط زیر را برآورده کنید.
   * سرور با سیستم عامل اوبونتو
-  *کاربر غیر ریشه با  **sudo**  امتیازات
+* کاربر غیر ریشه با  **sudo**  امتیازات
 
-## لیمپ پشته چیست؟   {#چی}
-**LEMP Stack** مجموعه ای از نرم افزاری است که می تواند برای اجرای برنامه های وب مبتنی بر PHP استفاده شود. LEMP مخفف Linux ، Nginx ، MySQL و PHP است. پشته LEMP نوعی از پشته لامپ است. هر دو LAMP و LEMP پشته های نرم افزاری محبوب برای توسعه و استقرار برنامه های وب هستند. یک تفاوت بین این دو پشته نرم افزار وجود دارد. لامپ از سرور وب Apache استفاده می کند ، در حالی که سرور LEMP از سرور وب Nginx استفاده می کند.
+## LEMP Stack چیست؟ {#What}
 
-## نصب LEMP   {#Installation}
+ **LEMP Stack** مجموعه ای از نرم افزاری است که می تواند برای اجرای برنامه های وب مبتنی بر PHP استفاده شود. LEMP مخفف Linux ، Nginx ، MySQL و PHP است. پشته LEMP نوعی از پشته لامپ است. هر دو LAMP و LEMP پشته های نرم افزاری محبوب برای توسعه و استقرار برنامه های وب هستند. یک تفاوت بین این دو پشته نرم افزار وجود دارد. لامپ از سرور وب Apache استفاده می کند ، در حالی که سرور LEMP از سرور وب Nginx استفاده می کند.
+
+## نصب LEMP {#Installation}
+
 در این بخش ، ما به نحوه نصب NGINX ، MYSQL و PHP در اوبونتو 18.04 توجه خواهیم کرد. اول از همه ، ما باید بسته های سرور را با اجرای دستور زیر به روز کنیم.
 ```
 $ sudo apt update
 ```
 
-## # نصب سرور وب nginx
-  *دستور زیر را به  **نصب NGINX را در Ubuntu**  اجرا کنید.
+### نصب سرور وب nginx
+* دستور زیر را به  **نصب NGINX را در Ubuntu**  اجرا کنید.
 ```
 $ sudo apt install nginx
 ```
@@ -45,9 +49,9 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="صفحه پیش فرض سرور Nginx">}}
 
 
-## # نصب mysql
+### نصب mysql
 اکنون ، برای مدیریت داده های برنامه خود باید سرور پایگاه داده MySQL را نصب کنید.
-  *دستور زیر را اجرا کنید تا  **MySQL را در Ubuntu**  نصب کنید.
+* دستور زیر را اجرا کنید تا  **MySQL را در Ubuntu**  نصب کنید.
 ```
 $ sudo apt install mysql-server
 ```
@@ -55,7 +59,7 @@ $ sudo apt install mysql-server
 ```
 $ sudo mysql_secure_installation
 ```
-  *از شما خواسته می شود یا می خواهید افزونه رمز عبور را فعال کنید** یا نه. بهتر است که آن را فعال نکنید ، N را تایپ کرده و Enter را فشار دهید تا در مرحله بعدی حرکت کنید.
+* از شما خواسته می شود یا می خواهید افزونه رمز عبور را فعال کنید**یا نه. بهتر است که آن را فعال نکنید ، N را تایپ کرده و Enter را فشار دهید تا در مرحله بعدی حرکت کنید.
   * در مرحله بعد ، همانطور که در زیر آمده است ، چند سؤال از شما می پرسد. شما باید به تمام سوالات پاسخ دهید.
 ```
 Enter current password for root (enter for none):
@@ -74,9 +78,9 @@ $ sudo mysql
 mysql> exit
 ```
 
-## # نصب PHP
+### نصب PHP
 ما نصب PHP-FPM را برای پردازش PHP پوشش خواهیم داد. PHP-FPM مخفف مدیر فرآیند FastCGI است. سرور وب Nginx هیچ قابلیت ساخت و ساز برای پردازش PHP ندارد ، بنابراین ، ما از PHP-FPM برای آن استفاده خواهیم کرد. علاوه بر این ، ما PHP-MYSQL را برای برقراری ارتباط PHP با MYSQL برای مدیریت داده نصب خواهیم کرد.
-  *دستور زیر را برای  **نصب PHP در Ubuntu**  اجرا کنید.
+* دستور زیر را برای  **نصب PHP در Ubuntu**  اجرا کنید.
 ```
 $ sudo apt install php-fpm php-mysql
 ```
@@ -108,13 +112,13 @@ server {
 }
 ```
   * بیایید نگاهی کوتاه به این دستورالعمل ها و بلوک موقعیت مکانی بیندازیم ، بنابراین می توانید اطلاعات اساسی داشته باشید.
-      * **گوش دهید** : می توانید پورت NGINX را تعریف کنید. از پورت 80 برای HTTP و 443 برای پروتکل های HTTPS استفاده کنید.
-      * **root** : فهرست اصلی پروژه خود را تعریف کنید. NGINX از آن برای خدمت به وب سایت یا برنامه وب استفاده خواهد کرد.
-      * **index** : ترتیب ارائه پرونده ها را تعریف کنید. هنگامی که پرونده فهرست نامیده می شود ، NGINX پرونده index.php را تحویل می دهد.
-      * **server_name** : نام دامنه یا IP عمومی سرور خود را تعریف کنید.
-      ***موقعیت مکانی /**: این بلوک مکان دارای ** try_block**  دستورالعمل است و با URI درخواست شده مطابقت دارد. اگر پرونده درخواست شده را پیدا نکند ، Nginx خطای 404 را برمی گرداند.
-      * **مکان ~ .php $** : این بلوک مکان پردازش PHP را کنترل می کند.
-      ***موقعیت مکانی ~ /.htmn: nginx پرونده  **را پردازش نمی کند. nginx با تعریف**   انکار همه بخشنامه** ، پرونده .htaccess را ارائه نمی دهد.
+*  **گوش دهید**  : می توانید پورت NGINX را تعریف کنید. از پورت 80 برای HTTP و 443 برای پروتکل های HTTPS استفاده کنید.
+*  **root**  : فهرست اصلی پروژه خود را تعریف کنید. NGINX از آن برای خدمت به وب سایت یا برنامه وب استفاده خواهد کرد.
+*  **index**  : ترتیب ارائه پرونده ها را تعریف کنید. هنگامی که پرونده فهرست نامیده می شود ، NGINX پرونده index.php را تحویل می دهد.
+*  **server_name**  : نام دامنه یا IP عمومی سرور خود را تعریف کنید.
+*  **موقعیت مکانی /** : این بلوک مکان دارای **try_block**  دستورالعمل است و با URI درخواست شده مطابقت دارد. اگر پرونده درخواست شده را پیدا نکند ، Nginx خطای 404 را برمی گرداند.
+*  **مکان ~ .php $**  : این بلوک مکان پردازش PHP را کنترل می کند.
+*  **موقعیت مکانی ~ /.htmn: nginx پرونده** را پردازش نمی کند. nginx با تعریف **انکار همه بخشنامه**  ، پرونده .htaccess را ارائه نمی دهد.
   * Symlink را برای پرونده پیکربندی NGINX تازه ایجاد شده ایجاد کنید تا آن را فعال کنید.
 ```
 $ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
@@ -128,7 +132,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-## # تست PHP
+### تست PHP
   * برای اطمینان از اینکه NGINX به درستی در صفحات PHP خدمت می کند ، ما برای آزمایش تنظیمات ، فایل PHP را ایجاد خواهیم کرد.
   * با اجرای دستور زیر ، فایل info.php را در فهرست اصلی سرور وب NGINX ایجاد کنید.
 ```
@@ -144,31 +148,33 @@ phpinfo();
 {{< figure align=center src="images/info-php.png" alt="صفحه اطلاعات PHP">}}
 
 
-## نتیجه گیری   {#conclusion}
+## نتیجه {#نتیجه}
+
 در این آموزش ، ما در مورد نحوه نصب و پیکربندی  **LEMP پشته**  بحث کردیم. همانطور که مشاهده می کنید ، پیکربندی اجزای پشته نرم افزار بسیار آسان است. علاوه بر این ، شما می توانید در عرض چند دقیقه ایجاد و خدمت به برنامه های وب را شروع کنید.
-سرانجام ، [**Containerize.com **][5] در یک فرآیند مداوم نوشتن پست های وبلاگ در آخرین محصولات منبع باز است. بنابراین ، برای آخرین به روزرسانی ها با این [**  Web Server Solution Stack**][6] در تماس باشید.
+سرانجام ، [  **Containerize.com** ][5] در یک فرآیند مداوم نوشتن پست های وبلاگ در آخرین محصولات منبع باز است. بنابراین ، برای آخرین به روزرسانی ها با این [ **Web Server Solution Stack**  ][6] در تماس باشید.
 
 ## کاوش کنید
 ممکن است پیوندهای زیر مربوطه را پیدا کنید:
-  *[ **بهترین راه حل راه حل سرور منبع باز** ][7]
-   **[محبوب ترین ابزارهای پزشکی قانونی دیجیتال منبع باز][8]** 
-  * **[5 نرم افزار برتر صفحه منبع باز (MQ) در سال 2021][9]**
-   **[بهترین نرم افزار ذخیره سازی ابر منبع باز و به اشتراک گذاری پرونده][10]** 
-  *[ **نحوه نصب و ایمن phpmyadmin با nginx در اوبونتو** ][11]
-  *[ **نحوه نصب چندین نسخه PHP با nginx در اوبونتو** ][12]
-  *[ **5 محبوب ترین مجوزهای منبع باز تأیید شده توسط OSI از 2021** ][13]
+* [  **بهترین راه حل راه حل سرور منبع باز**  ][7]
+ **[محبوب ترین ابزارهای پزشکی قانونی دیجیتال منبع باز][8]** 
+*  **[5 نرم افزار برتر صفحه منبع باز (MQ) در سال 2021][9]**  
+ **[بهترین نرم افزار ذخیره سازی ابر منبع باز و به اشتراک گذاری پرونده][10]** 
+* [  **نحوه نصب و ایمن phpmyadmin با nginx در اوبونتو**  ][11]
+* [  **نحوه نصب چندین نسخه PHP با nginx در اوبونتو**  ][12]
+* [  **5 محبوب ترین مجوزهای منبع باز تأیید شده توسط OSI از 2021**  ][13]
 
-  
-[1]: #Prerequisites
-[2]: #What
-[3]: #Installation
-[4]: #Conclusion
-[5]: https://containerize.com
-[6]: https://blog.containerize.com/category/web-server-solution-stack/
-[7]: https://products.containerize.com/solution-stack/
-[8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
-[9]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
-[10]: https://products.containerize.com/backup-and-sync/
-[11]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
-[12]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-[13]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+
+
+ [1]: #Prerequisites
+ [2]: #What
+ [3]: #Installation
+ [4]: #Conclusion
+ [5]: https://containerize.com
+ [6]: https://blog.containerize.com/category/web-server-solution-stack/
+ [7]: https://products.containerize.com/solution-stack/
+ [8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+ [9]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+ [10]: https://products.containerize.com/backup-and-sync/
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+ [12]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [13]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

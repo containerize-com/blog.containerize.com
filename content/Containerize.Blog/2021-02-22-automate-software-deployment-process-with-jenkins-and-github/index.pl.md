@@ -13,23 +13,27 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/ci-cd-post.png" alt="Ciągłe integracja i ciągłe wdrażanie">}}
 
-Zespoły programistów używają różnych metod wdrażania oprogramowania, takich jak FTP, wyciąganie kodu z repozytorium i wiele innych. Wszystkie te metody są wykonywane ręcznie i wymagają dużo wysiłku. Widzimy, że więcej zespołów podąża za zwinną metodologią tworzenia oprogramowania. Tak więc często wydają nowe funkcje i naprawiania błędów. Dlatego automatyzacja przepływów pracy w zakresie dostarczania oprogramowania pomaga zespołom w szybkim i bez błędów wprowadzania nowych wersji. Dowiemy się, jak używać  **CI/CD z Jenkins **  i GitHub do automatyzacji procesu dostarczania oprogramowania. W tym artykule omówimy następujące sekcje.
-  *[ **Co to jest Jenkins? ** ][1]
-  *[ **Ciągła integracja ** ][2]
-  *[ **Ciągłe wdrażanie ** ][3]
-  *[ **Skonfiguruj Jenkins ** ][4]
-  *[ **Utwórz Jenkins Job ** ][5]
+Zespoły programistów używają różnych metod wdrażania oprogramowania, takich jak FTP, wyciąganie kodu z repozytorium i wiele innych. Wszystkie te metody są wykonywane ręcznie i wymagają dużo wysiłku. Widzimy, że więcej zespołów podąża za zwinną metodologią tworzenia oprogramowania. Tak więc często wydają nowe funkcje i naprawiania błędów. Dlatego automatyzacja przepływów pracy w zakresie dostarczania oprogramowania pomaga zespołom w szybkim i bez błędów wprowadzania nowych wersji. Dowiemy się, jak używać **CI/CD z Jenkins** i GitHub do automatyzacji procesu dostarczania oprogramowania. W tym artykule omówimy następujące sekcje.
+* [ **Co to jest Jenkins?** ][1]
+* [ **Ciągła integracja** ][2]
+* [ **Ciągłe wdrażanie** ][3]
+* [ **Skonfiguruj Jenkins** ][4]
+* [ **Utwórz Jenkins Job** ][5]
 
-## Co to jest Jenkins?   {#Jenkins}
-**Jenkins  **to potężne **  bezpłatne narzędzie wdrażania  **do automatyzacji procesu dostarczania oprogramowania. Jest to serwer automatyki typu open source do budowania, testowania i wdrażania. Jenkins używa architektury mistrzów. Pozwala to zespołom oprogramowania na jednoczesne uruchamianie wielu kompilacji i testów oprogramowania. Ponadto dostępnych jest wiele wtyczek, a zespoły mogą je używać w razie potrzeby. Możesz odwiedzić stronę [**  Jenkins **][6], aby uzyskać więcej informacji i instalacji. Ponadto można znaleźć kod źródłowy w Jenkins [ **github ** ][7] repozytorium.
+## Co to jest Jenkins? {#Jenkins}
 
-## ciągła integracja   {#ci}
-**Ciągła integracja ** to praktyka programistyczna, która wymaga od programistów często integracji kodu z wspólnym repozytorium. Każda integracja/pchnięcie kodu do repozytorium można zweryfikować za pomocą zautomatyzowanej kompilacji i testów. Umożliwia także programistom łatwą identyfikację problemów w kodzie.
+**Jenkins **to potężne** bezpłatne narzędzie wdrażania **do automatyzacji procesu dostarczania oprogramowania. Jest to serwer automatyki typu open source do budowania, testowania i wdrażania. Jenkins używa architektury mistrzów. Pozwala to zespołom oprogramowania na jednoczesne uruchamianie wielu kompilacji i testów oprogramowania. Ponadto dostępnych jest wiele wtyczek, a zespoły mogą je używać w razie potrzeby. Możesz odwiedzić stronę [** Jenkins**][6], aby uzyskać więcej informacji i instalacji. Ponadto można znaleźć kod źródłowy w Jenkins [** github**][7] repozytorium.
 
-## Ciągłe wdrażanie   {#CD}
-**Ciągłe wdrażanie ** to następny krok po ciągłej integracji. Umożliwiłoby to zespołom ciągłe wdrażanie kodu na serwerze. Ponadto pomaga programistom ograniczyć powtarzające się zadania i zwiększa zwinność.
+## Ciągła integracja {#CI}
 
-## Skonfiguruj Jenkins   {#Configure}
+**Ciągła integracja** to praktyka programistyczna, która wymaga od programistów często integracji kodu z wspólnym repozytorium. Każda integracja/pchnięcie kodu do repozytorium można zweryfikować za pomocą zautomatyzowanej kompilacji i testów. Umożliwia także programistom łatwą identyfikację problemów w kodzie.
+
+## Ciągłe wdrażanie {#CD}
+
+**Ciągłe wdrażanie** to następny krok po ciągłej integracji. Umożliwiłoby to zespołom ciągłe wdrażanie kodu na serwerze. Ponadto pomaga programistom ograniczyć powtarzające się zadania i zwiększa zwinność.
+
+## Skonfiguruj Jenkins {#Configure}
+
 Postępuj zgodnie z poniższymi wskazówkami dotyczącymi konfiguracji w Jenkins.
   * Otwórz witrynę Jenkins i zaloguj się.
   * Zainstaluj wtyczkę „Publikuj nad SSH”. Możesz go wyszukać, nawigując do „Zarządzaj Jenkins → Zarządzaj wtyczkami → Dostępne”.
@@ -57,34 +61,36 @@ $ nano authorized_keys
   * Kliknij przycisk Konfiguracji testu, aby upewnić się, że Jenkins może połączyć się z serwerem wdrażania.
   * Na koniec kliknij przycisk Zapisz, aby przechowywać informacje.
 
-## Utwórz Jenkins Job   {#Create}
+## Stwórz pracę Jenkinsa {#Create}
+
 Możesz użyć tych kroków do tworzenia pracy Jenkins.
   * Otwórz pulpit Jenkins i kliknij przycisk „Nowy element”.
   * Wprowadź nazwę projektu i wybierz „zadanie freestyle”.
-  * Wprowadź adres URL repozytorium GitHub w „Okno konfiguracji”.
+  * Wprowadź adres URL repozytorium GitHub w „Windows konfiguracji”.
   * W sekcji „Środowisko kompilacji” sprawdź te opcje „Usuń obszar roboczy przed rozpoczęciem kompilacji” i „Wyślij pliki lub wykonaj polecenia nad SSH po uruchomieniu kompilacji”.
   * Wprowadź nazwę, pliki źródłowe i zdalny katalog w środowisku kompilacji.
   * Zapisz pracę i zbuduj go.
-  * Połącz się z serwerem wdrażania i upewnij się, że jest tam kod.
+  * Podłącz się do serwera wdrażania i upewnij się, że jest tam kod.
 
 ## Wniosek
-W tym artykule omówiliśmy  **Jenkins Server ** ,  **Ciągła integracja **  i  **Ciągłe wdrażanie ** . Nauczyliśmy się również, jak skonfigurować narzędzie do wdrażania  ****  i stworzyliśmy zadanie Jenkins do wdrażania za pomocą GitHub. Bezpłatne narzędzie CI/CD pozwala zespołowi programistów automatyzować przepływy pracy w zakresie dostarczania oprogramowania i koncentrować się na ważnych zadaniach. Będziemy obejmować inne narzędzia wdrażania na nadchodzących postach.
-Wreszcie [ **Containerize.com ** ][8] opublikuje artykuły na temat dalszych narzędzi wdrażania open source. Dlatego prosimy o kontakt z [ **narzędziami wdrażania ** ][9] kategorii regularnych aktualizacji.
+W tym artykule omówiliśmy **Jenkins Server**, **Ciągła integracja** i**Ciągłe wdrażanie** . Nauczyliśmy się również, jak skonfigurować narzędzie do wdrażania****i stworzyliśmy zadanie Jenkins do wdrażania za pomocą GitHub. Bezpłatne narzędzie CI/CD pozwala zespołowi programistów automatyzować przepływy pracy w zakresie dostarczania oprogramowania i koncentrować się na ważnych zadaniach. Będziemy obejmować inne narzędzia wdrażania na nadchodzących postach.
+Wreszcie [ **Containerize.com**][8] opublikuje artykuły na temat dalszych narzędzi wdrażania open source. Dlatego prosimy o kontakt z [**narzędziami wdrażania** ][9] kategorii regularnych aktualizacji.
 
 ## Badać
 Możesz znaleźć istotne następujące linki:
-  * **[Jenkins][6]**
-  *[ **dron ** ][10]
-  *[ **wdrażacz ** ][11]
-  *[ **Capistrano ** ][12]
-  *[ **rancher ** ][13]
-  *[ **Concourse ** ][14]
-  *[ **ansible ** ][15]
-  *[ **gocd ** ][16]
-  *[ **Top 5 Narzędzia do wdrażania open source w 2021 ** ][17]
-  *[ **Automatyzuj wdrażanie aplikacji PHP z wdrażającym ** ][18]
+* **[Jenkins][6]** 
+* [ **dron** ][10]
+* [ **wdrażacz** ][11]
+* [ **Capistrano** ][12]
+* [ **rancher** ][13]
+* [ **Concourse** ][14]
+* [ **ansible** ][15]
+* [ **gocd** ][16]
+* [ **Top 5 Narzędzia do wdrażania open source w 2021** ][17]
+* [ **Automatyzuj wdrażanie aplikacji PHP z wdrażającym** ][18]
 
-  
+
+
 [1]: #Jenkins
 [2]: #CI
 [3]: #CD

@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-## **Überblick**
+##  **Überblick**  
 OwnCloud ist kostenlos und beliebte robuste Open -Source -Unternehmenswebanwendung, die in PHP geschrieben wurden und für die Datensynchronisation und Dateifreigabe verwendet werden. Außerdem können Sie Datendateien, Kontakte, Kalender, Listen und vieles mehr einfach verwalten. Es ist eine großartige Alternative zu den beliebtesten Cloud -Plattformen wie Google Drive, Dropbox, iCloud und anderen Cloud -Speicherdiensten. Im Gegensatz zu den anderen Cloud -Speicherdiensten kann OwnCloud Self -Hosted eigene Host -Cloud erstellen.
 OwnCloud ist eine private Cloud -Software von Open Source, die Datenzugriff über Weboberfläche zum Erstellen einer privaten Cloud bietet. Es ermöglicht es Ihnen, einen eigenen Server für die Freigabe von Dateien zu erstellen, auf dem Sie Kalender, Archive, Bilder, Aufnahmen, Aufgaben, Adressbücher mit Lesezeichen, ähnlich wie bei Dropbox und Google Drive, einfach anzeigen und synchronisieren können. Es bietet auch Optionen zum Synchronisieren und Freigeben von Daten über Geräte, die alle unter Ihrer Kontrolle sind. Installieren und Konfigurieren von OwnCloud unterstützt Ihre Daten, die für Desktop -Clients sowie mobile App -Geräte synchronisiert sind. Darüber hinaus können Sie Benutzer- und Gruppenzugriffsbeschränkungen für Dateien pro Benutzer problemlos mit OwnCloud auf Ubuntu implementieren. Opper Source Personal Storage Server ist eine Cross -Plattform -Anwendung und kann auf allen beliebten Betriebssystemen installiert werden.
 In diesem Tutorial können Sie OwnCloud einrichten und OwnCloud auf Ubuntu LTS -Systemen konfigurieren.
@@ -83,7 +83,7 @@ Sie sollten die Open Source OwnCloud -Anmeldeseite sehen. Geben Sie einen neuen 
 {{< figure align=center src="images/owncloud-setup-1.png" alt="Installieren Sie Overcloud mit Apache auf Ubuntu">}}
 
 {{_LINE_71_}}
-Schieben Sie jetzt Ihre Seite nach unten. In dem folgenden Formular müssen Sie Benutzername und Kennwort in das Beste Personal Cloud Server OwnCloud -Panel eingeben. Geben Sie auch die Datenbank zusammen mit Benutzername und Kennwort an, um den OwnCloud -Server mit dem Datenbankserver zu verbinden, den Speicherort des Datenordners und klicken Sie auf **Setup beenden** .
+Schieben Sie jetzt Ihre Seite nach unten. In dem folgenden Formular müssen Sie Benutzername und Kennwort in das Beste Personal Cloud Server OwnCloud -Panel eingeben. Geben Sie auch die Datenbank zusammen mit Benutzername und Kennwort an, um den OwnCloud -Server mit dem Datenbankserver zu verbinden, den Speicherort des Datenordners und klicken Sie auf  **FIRCE Setup**  .
 {{_LINE_73_}}
 
 {{< figure align=center src="images/owncloud-setup-2.png" alt="Konfigurieren Sie OwnCloud auf Ubuntu">}}
@@ -97,15 +97,17 @@ Nach Abschluss des Setups erhalten Sie das Admin -Dashboard. Wo Sie Benutzer, Gr
 {{_LINE_79_}}
 Ja! Wir sind mit dem OwnCloud Installation Guide abgeschlossen, um den persönlichen Cloud -Speicher zu erstellen. Sie wissen jetzt, wie Sie OwnCloud auf Ubuntu vollständig installieren, um eine private Cloud -Cloud -Cloud schrittweise ähnlich wie bei Dropbox oder Google Drive zu erstellen.
 
-## **Was sind die besten Alternativen zu OwnCloud?** {#4a1a}
-Im Folgenden finden Sie die selbst gehosteten OwnCloud Alternatives and Competitors Datei Hosting -Software.
-  ***Seafile**  ist Open-Source-Plattform-Datei-Hosting-Softwaresystem
-  ***NextCloud**  ist kostenlos und Open -Source -Cloud -Speicherplattform
-  ***Resilio Sync**  ist Open Source Peer to Peer -Datei -Synchronisationsanwendung
-  ***Pydio -Zellen**  ist Open -Source -Datei -Sharing- und Synchronisierungssoftware
-  ***syncthing**  ist kostenlos und Open-Source-Peer-to-Peer-Datei-Synchronisierungsanwendung
+##  **Was sind die besten Alternativen zu OwnCloud?**  {#4a1a}
 
-## **Fazit:** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+Im Folgenden finden Sie die selbst gehosteten OwnCloud Alternatives and Competitors Datei Hosting -Software.
+*  **Seafile**  ist Open-Source-Plattform-Datei-Hosting-Softwaresystem
+*  **NextCloud**  ist kostenlos und Open -Source -Cloud -Speicherplattform
+*  **Resilio Sync**  ist Open Source Peer to Peer -Datei -Synchronisationsanwendung
+*  **Pydio -Zellen**  ist Open -Source -Datei -Sharing- und Synchronisierungssoftware
+*  **syncthing**  ist kostenlos und Open-Source-Peer-to-Peer-Datei-Synchronisierungsanwendung
+
+##  **Abschluss:**   {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 Glückwunsch! Sie haben OwnCloud erfolgreich installiert und konfiguriert, um Ihre eigene private Cloud mit Apache auf Ubuntu -Maschine zu erstellen. Jetzt liegen Ihre Daten nie in den Händen von Dritten und können privat im virtuellen Speicher für private Cloud OwnCloud Ubuntu Server in privat verwaltet werden. Viele Unternehmen entscheiden sich aufgrund vieler Probleme mit der Privatsphäre von Daten, um ihre Owncloud -Server mit vielen wichtigen Informationen zu erstellen. In unseren bevorstehenden Tutorials werden wir mehr interessante Themen von Webserver -Lösungsstapeln besprechen.
 Sie können sich uns auf [Twitter][2], [LinkedIn][3] und unserer [Facebook][4] -Seite anschließen. Welche Cloud-basierte Speicherlösung verwenden Sie online? Wenn Sie Fragen haben, bitte_ [in Kontakt][5].
 
@@ -117,7 +119,8 @@ Wir haben auch mehrere andere Artikel, die sich auf die tägliche Verwaltung Ihr
   * [Konfigurieren Sie HTTP/2 -Unterstützung in Nginx auf Ubuntu/Debian][9]
   * [Setup Nginx mit Passagier auf AWS Production Server][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

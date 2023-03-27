@@ -17,12 +17,13 @@ categories: ['Blockchain Platforms']
 ## Aperçu
 Dans le passé récent, nous avons publié des articles de blog sur certains sujets liés à la blockchain tels que [Top 5 Open Source Blockchain Plateformes en 2020][1], [un guide de base sur la façon de créer un contrat intelligent Ethereum][2], [comment décentralisé La technologie améliore votre stratégie commerciale][3] et [un guide débutant pour configurer le nœud Ethereum sur localhost][4]. Dans cet article, nous verrons comment configurer le réseau Blockchain Quorum Ansensys sur LocalHost en couvrant les points suivants.
   * **[Une brève introduction de consensys quorum][5]** 
-  * **[Quelles sont les pré-requis et  **Procédure d'installation ** ?][6]** 
+  * **[Quelles sont les pré-requis et**Procédure d'installation**?][6]** 
   * **[Comment démarrer le réseau?][7]** 
   * **[Conclusion][8]** 
 
-## **Une brève introduction de consensys quorum** {#introduction}
-[CONSENSYS Quorum][9] est une plate-forme open source basée sur **Decentralized Ledger Technology **. Cependant, il fournit un environnement complet adapté aux développeurs pour construire des applications basées sur la blockchain qui gèrent les transactions rapides et à haut débit. Il est basé sur  **Ethereum ** , extensible et propose de nombreux plugins. De plus, ce système distribué open source est livré avec des normes de haute sécurité et de confidentialité. De plus, il existe de nombreuses fonctionnalités puissantes telles que les API d'autorisation et la surveillance. De plus, cette  **plate-forme DLT**   est auto-hébergée et fournit une documentation détaillée concernant le développement et le déploiement. Le code source de ce logiciel libre est disponible chez [GitHub][10].
+## **Une brève introduction de consensys quorum** {#Introduction}
+
+[CONSENSYS Quorum][9] est une plate-forme open source basée sur **Decentralized Ledger Technology**. Cependant, il fournit un environnement complet adapté aux développeurs pour créer des applications basées sur la blockchain qui gèrent les transactions rapides et à haut débit. Il est basé sur **Ethereum** , extensible et propose de nombreux plugins. De plus, ce système distribué open source est livré avec des normes de haute sécurité et de confidentialité. De plus, il existe de nombreuses fonctionnalités puissantes telles que les API d'autorisation et la surveillance. De plus, cette**plate-forme DLT** est auto-hébergée et fournit une documentation détaillée concernant le développement et le déploiement. Le code source de ce logiciel libre est disponible chez [GitHub][10].
 Ansensys Quorum offre les caractéristiques importantes suivantes:
   * Architecture enfichable
   * Basé sur Ethereum
@@ -31,7 +32,8 @@ Ansensys Quorum offre les caractéristiques importantes suivantes:
   * Réseau public / privé
 [En savoir plus sur le consensys quorum][11]
 
-## ****Quelles sont les pré-requis et la procédure d'installation? **** {#Pre-Requisites}
+##* ***Quelles sont les pré-requis et la procédure d'installation?****{#pre-requisites}
+
 Dans cette section, nous installerons les dépendances requises et configurerons l'environnement local. Avant d'aller à l'étape suivante, assurez-vous que vous avez installé les pré-requis suivants:
   * Nodejs v10 +
   * Docker
@@ -45,7 +47,8 @@ Cependant, répondez aux questions pour compléter l'installation comme indiqué
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="CONSENSYS Quorum">}}
 
 
-## ****Comment démarrer le réseau? **** {#Start}
+##* ***Comment démarrer le réseau?****{#start}
+
 Maintenant, nous avons le code source en place. Ainsi, la prochaine étape consiste à rendre le réseau en direct.
 Exécutez la commande suivante pour accéder au répertoire racine.
 ```
@@ -72,8 +75,9 @@ De même, vous pouvez arrêter l'ensemble du réseau en exécutant la commande s
 ./stop.sh 
 ```
 
-## Conclusion   {#conclusion}
-C'est la fin de ce tutoriel. Surtout, le Consensys Quorum basé sur Ethereum est une **technologie financière numérique**  spécialement développé pour les cas d'utilisation financière. Il a un algorithme de consensus basé sur le vote. Cependant, le principal motif de cette technologie décentralisée est de créer des solutions efficaces pour les entreprises.
+## Conclusion {#Conclusion}
+
+C'est la fin de ce tutoriel. Surtout, le Consensys Quorum basé sur Ethereum est une **technologie financière numérique** spécialement développé pour les cas d'utilisation financière. Il a un algorithme de consensus basé sur le vote. Cependant, le principal motif de cette technologie décentralisée est de créer des solutions efficaces pour les entreprises.
 Enfin, [Containerize.com][12] a publié de nombreux articles de blog techniques et tutoriels sur les produits open source populaires sur [blog.Containerize.com][13]. Par conséquent, respectez la catégorie [plates-formes blockchain][14] pour les mises à jour régulières.
 
 ## Explorer
@@ -85,7 +89,8 @@ Vous pouvez trouver les liens suivants pertinents:
   * [Multichain][19]
   * [CONSENSYS Quorum][9]
 
-  
+
+
 [1]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [2]: https://blog.containerize.com/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

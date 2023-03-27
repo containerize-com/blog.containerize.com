@@ -13,23 +13,27 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/ci-cd-post.png" alt="Integrazione continua e distribuzione continua">}}
 
-I team di sviluppo utilizzano metodi diversi per la distribuzione di software come FTP, estrazione del codice dal repository e molti altri. Tutti questi metodi vengono eseguiti manualmente e richiedono molto sforzo. Possiamo vedere che più team seguono la metodologia agile per lo sviluppo del software. Quindi, rilasciano nuove funzionalità e fissati di bug frequentemente. Pertanto, l'automazione dei flussi di consegna del software aiuta i team per il lancio di nuove versioni rapidamente e senza errori. Impareremo come utilizzare  **CI/CD con Jenkins **  e GitHub per l'automazione del processo di consegna del software. Tratteremo le seguenti sezioni in questo articolo.
-  *[ **Cos'è Jenkins? ** ][1]
-  *[ **Integrazione continua ** ][2]
-  *[ **Distribuzione continua ** ][3]
-  *[ **Configura Jenkins ** ][4]
-  *[ **Crea lavoro Jenkins ** ][5]
+I team di sviluppo utilizzano metodi diversi per la distribuzione di software come FTP, estrazione del codice dal repository e molti altri. Tutti questi metodi vengono eseguiti manualmente e richiedono molto sforzo. Possiamo vedere che più team seguono la metodologia agile per lo sviluppo del software. Quindi, rilasciano nuove funzionalità e fissati di bug frequentemente. Pertanto, l'automazione dei flussi di consegna del software aiuta i team per il lancio di nuove versioni rapidamente e senza errori. Impareremo come utilizzare **CI/CD con Jenkins** e GitHub per l'automazione del processo di consegna del software. Tratteremo le seguenti sezioni in questo articolo.
+* [ **Cos'è Jenkins?** ][1]
+* [ **Integrazione continua** ][2]
+* [ **Distribuzione continua** ][3]
+* [ **Configura Jenkins** ][4]
+* [ **Crea lavoro Jenkins** ][5]
 
-## Che cos'è Jenkins?   {#Jenkins}
-**Jenkins  **è un potente strumento di distribuzione gratuito **  per automatizzare il processo di consegna del software. È un server di automazione open source per la costruzione, il test e la distribuzione. Jenkins usa l'architettura Master-Slave. Ciò consente ai team di software di eseguire più build e test per il software contemporaneamente. Inoltre, ci sono molti plugin disponibili e i team possono usarli secondo necessità. È possibile visitare la pagina [ **Jenkins ** ][6] per ulteriori informazioni e installazione. Inoltre, puoi trovare il codice sorgente su Jenkins [ **github ** ][7] repository.
+## Cos'è Jenkins? {#Jenkins}
 
-## integrazione continua   {#ci}
-**Integrazione continua ** è una pratica di sviluppo che richiede agli sviluppatori di integrare frequentemente il codice in un repository condiviso. Ogni integrazione/spinta del codice nel repository può essere verificata mediante build e test automatizzati. Inoltre, consente agli sviluppatori di identificare facilmente i problemi nel codice.
+**Jenkins **è un potente strumento di distribuzione gratuito** per automatizzare il processo di consegna del software. È un server di automazione open source per la costruzione, il test e la distribuzione. Jenkins usa l'architettura Master-Slave. Ciò consente ai team di software di eseguire più build e test per il software contemporaneamente. Inoltre, ci sono molti plugin disponibili e i team possono usarli secondo necessità. È possibile visitare la pagina [ **Jenkins** ][6] per ulteriori informazioni e installazione. Inoltre, puoi trovare il codice sorgente su Jenkins [**github** ][7] repository.
 
-## distribuzione continua   {#cd}
-**La distribuzione continua ** è il prossimo passo dopo l'integrazione continua. Consentirebbe ai team di distribuire continuamente il codice sul server. Inoltre, aiuta gli sviluppatori a ridurre le attività ripetitive e ad aumentare l'agilità.
+## Integrazione continua {#CI}
 
-## Configura Jenkins   {#Configure}
+**Integrazione continua** è una pratica di sviluppo che richiede agli sviluppatori di integrare frequentemente il codice in un repository condiviso. Ogni integrazione/spinta del codice nel repository può essere verificata mediante build e test automatizzati. Inoltre, consente agli sviluppatori di identificare facilmente i problemi nel codice.
+
+## Distribuzione continua {#CD}
+
+**La distribuzione continua** è il prossimo passo dopo l'integrazione continua. Consentirebbe ai team di distribuire continuamente il codice sul server. Inoltre, aiuta gli sviluppatori a ridurre le attività ripetitive e ad aumentare l'agilità.
+
+## Configurare Jenkins {#Configure}
+
 Seguire la linea guida passo passo di seguito per la configurazione in Jenkins.
   * Apri il tuo sito Jenkins e accedi.
   * Installa il plug -in "Pubblica tramite SSH". Puoi cercarlo navigando per "Gestisci Jenkins → Gestisci plugin → Disponibile".
@@ -51,13 +55,14 @@ $ cd .ssh
 $ nano authorized_keys
 ```
   * Naviga per gestire "Jenkins → Configura sistema → Pubblica su SSH".
-  * Aggiungi il tasto SSH individuando il percorso del file o incolla lo stesso contenuto fatto per il server di distribuzione.
+  * Aggiungi il tasto SSH individuando il percorso del file o incolla gli stessi contenuti fatti per il server di distribuzione.
   * Aggiungi un server SSH facendo clic sul pulsante "Aggiungi" accanto a "server SSH".
   * Immettere il nome, il nome host, il nome utente e la directory remota per il server di distribuzione/target.
   * Fare clic sul pulsante di configurazione del test per assicurarti che Jenkins possa connettersi al server di distribuzione.
   * Infine, fai clic sul pulsante Salva per archiviare le informazioni.
 
-## Crea lavoro Jenkins   {#create}
+## Crea lavoro Jenkins {#Create}
+
 È possibile utilizzare questi passaggi per la creazione del lavoro Jenkins.
   * Apri la dashboard Jenkins e fai clic sul pulsante "Nuovo elemento".
   * Inserisci il nome del progetto e scegli "lavoro freestyle".
@@ -68,23 +73,24 @@ $ nano authorized_keys
   * Connettiti al server di distribuzione e assicurati che il codice sia lì.
 
 ## Conclusione
-Abbiamo discusso del server  **Jenkins ** ,  **Integrazione continua **  e  **distribuzione continua **  In questo articolo. Abbiamo anche imparato come configurare lo strumento di distribuzione  **gratuito **  e creato un lavoro Jenkins per la distribuzione utilizzando GitHub. Lo strumento CI/CD gratuito consente al team di sviluppo di automatizzare i flussi di lavoro di consegna del software e mantenere l'attenzione su lavori importanti. Copriremo altri strumenti di distribuzione nei prossimi post.
-Infine, [ **containerize.com ** ][8] pubblicherà articoli su ulteriori strumenti di distribuzione open source. Pertanto, rimani in contatto con [ **Strumenti di distribuzione ** ][9] per aggiornamenti regolari.
+Abbiamo discusso del server **Jenkins**, **Integrazione continua** e **distribuzione continua** In questo articolo. Abbiamo anche imparato come configurare lo strumento di distribuzione**gratuito** e creato un lavoro Jenkins per la distribuzione utilizzando GitHub. Lo strumento CI/CD gratuito consente al team di sviluppo di automatizzare i flussi di lavoro di consegna del software e mantenere l'attenzione su lavori importanti. Copriremo altri strumenti di distribuzione nei prossimi post.
+Infine, [ **containerize.com**][8] pubblicherà articoli su ulteriori strumenti di distribuzione open source. Pertanto, rimani in contatto con [**Strumenti di distribuzione** ][9] per aggiornamenti regolari.
 
 ## Esplorare
 Potresti trovare i seguenti collegamenti pertinenti:
-  * **[Jenkins][6]**
-  *[ **drone ** ][10]
-  *[ **Deployer ** ][11]
-  *[ **Capistrano ** ][12]
-  *[ **rancher ** ][13]
-  *[ **Concourse ** ][14]
-  *[ **ansible ** ][15]
-  *[ **GOCD ** ][16]
-  *[ **Top 5 strumenti di distribuzione open source nel 2021 ** ][17]
-  *[ **Automatizza la distribuzione dell'applicazione PHP con Deployer ** ][18]
+* **[Jenkins][6]** 
+* [ **drone** ][10]
+* [ **Deployer** ][11]
+* [ **Capistrano** ][12]
+* [ **rancher** ][13]
+* [ **Concourse** ][14]
+* [ **ansible** ][15]
+* [ **GOCD** ][16]
+* [ **Top 5 strumenti di distribuzione open source nel 2021** ][17]
+* [ **Automatizza la distribuzione dell'applicazione PHP con Deployer** ][18]
 
-  
+
+
 [1]: #Jenkins
 [2]: #CI
 [3]: #CD

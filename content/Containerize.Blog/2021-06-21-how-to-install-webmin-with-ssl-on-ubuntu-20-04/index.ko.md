@@ -14,18 +14,20 @@ categories: ['Web Hosting']
 
 ## Webmin은 명령 줄 시스템 관리의 간단한 대안 인 웹 기반 시스템 관리 도구입니다. 이 기사는 Webmin을 설치하는 방법을 안내합니다
 이 기사를 통해“Ubuntu 20.04에서 SSL을 사용하여 Webmin을 설치하는 방법”을 통해 웹 호스팅 소프트웨어 및 도구에 대한 새로운 시리즈 자습서를 시작하고 있습니다. Webmin을 사용하면 사용자 계정을 설정하고 파일 공유를 활성화하고 Apache 및 DNS 설정을 구성하며 웹 호스팅과 관련된 더 많은 작업을 수행 할 수 있습니다. 전체 웹 호스팅 서버를 관리 할 수 ​​있습니다. Linux 구성 파일을 수동으로 편집하는 데 문제가 발생합니다. SSL을 사용하여 Webmin을 설치하는 방법을 배우겠습니다.
-  * **[Webmin 소개][1]**
-  *[ **강조 된 기능** ][2]
-  *[ **지원 운영 체제** ][3]
-  *[ **Ubuntu에 웹민을 설치하십시오** ][4]
-  *[ **Webmin을 사용하여 Apache 설치** ][5]
-  *[ **결론** ][6]
+* **[Webmin 소개][1]** 
+* [ **강조 된 기능** ][2]
+* [ **지원 운영 체제** ][3]
+* [ **Ubuntu에 웹민을 설치하십시오** ][4]
+* [ **Webmin을 사용하여 Apache 설치** ][5]
+* [ **결론** ][6]
 
-## Webmin   {#intro} 소개
+## Webmin 소개 {#intro}
+
 Webmin은 Linux의 시스템 관리를위한 웹 기반 인터페이스입니다. 최신 웹 브라우저에서 자신의 호스팅 서버를 원격으로 관리하는 데 도움이됩니다. Webmin을 사용하면 사용자 계정, Apache, DNS, 파일 공유 등과 같은 운영 체제 내부를 구성 할 수 있습니다. 또한 Webmin을 사용하면 단일 인터페이스를 통해 많은 컴퓨터를 제어하거나 동일한 서브넷 또는 LAN의 다른 Webmin 호스트에서 완벽한 로그인 할 수 있습니다. Perl을 기반으로하는 Webmin은 자체 프로세스 및 웹 서버로 실행됩니다. 그리고 Webmin의 가장 중요한 부분은 100% 무료 및 오픈 소스이며 매우 번성하는 개발자 커뮤니티가 있습니다.
 
-## 강조 표시된 기능   {#features}
-  * 도메인, DNS 레코드, 바인딩 옵션 및 뷰를 작성 및 편집 할 수 있습니다.
+## 강조 표시된 기능 {#features}
+
+  * 도메인, DNS 레코드, 바인딩 옵션 및보기를 작성 및 편집 할 수 있습니다.
   * IPFW를 사용하여 규칙을 작성하고 편집하여 방화벽 구성을 돕습니다.
   * 부팅 시간에 /etc/init.d 또는 /etc/rc.local에서 실행할 스크립트를 설정하겠습니다.
   * 서버에서 여러 서버로 파일 전송을 예약 할 수 있습니다.
@@ -38,9 +40,10 @@ Webmin은 Linux의 시스템 관리를위한 웹 기반 인터페이스입니다
   * Windows와 유사한 파일 관리자를 사용하면 서버의 파일 및 디렉토리에서 권한을보고, 편집 및 변경할 수 있습니다.
   * 서비스 위치 프로토콜 서버를 구성 할 수 있습니다
   * Windows와 같은 파일 관리자를 사용하여 시스템의 파일 및 디렉토리에 대한 권한을보고, 편집 및 변경합니다.
-  * inetd에서 실행되는 스unnel을 사용하여 POP3 및 IMAP와 같은 서비스를 암호화하기 위해 SSL 터널을 설정하는 데 도움이됩니다.
+  * Inetd에서 실행되는 스턴 넬을 사용하여 POP3 및 IMAP와 같은 서비스를 암호화하기 위해 SSL 터널을 설정하는 데 도움이됩니다.
 
-## 지원 운영 체제   {#support}
+## 지원되는 운영 체제 {#support}
+
 다른 UNIX와 유사한 운영 체제 및 Linux 배포판은 다양한 구성 파일에 다른 위치를 사용하기 때문에 Webmin은 구성된 시스템 만 지원할 수 있습니다. 다음 운영 체제는 Webmin의 1.979 버전으로 지원됩니다.
   * Almalinux Linux
   * 알파 코어 리눅스
@@ -159,8 +162,9 @@ Webmin은 Linux의 시스템 관리를위한 웹 기반 인터페이스입니다
   * 요퍼 리눅스
 현재 가장 잘 지원되는 시스템은 Solaris, Linux (특히 Redhat) 및 FreeBSD입니다.
 
-## Ubuntu   {#install}에 웹 민을 설치하십시오.
-Webmin을 설치하려면 **root  **권한이있는 사용자에게 액세스해야합니다.**   sudo** 액세스로 뿌리가 아닌 사용자를 설정하는 것이 좋습니다.
+## 우분투에 웹 민을 설치하십시오 {#install}
+
+Webmin을 설치하려면 **root**권한이있는 사용자에게 액세스해야합니다.**sudo** 액세스로 뿌리가 아닌 사용자를 설정하는 것이 좋습니다.
 다음 명령을 사용하여 서버에 대한 첫 번째 SSH
 ```
 ssh user@server_IP_address
@@ -178,7 +182,7 @@ deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib
 ```
 wget -q http://www.webmin.com/jcameron-key.asc -O- | sudo apt-key add -
 ```
-Webmin을 설치하기 전에 APT-Get의 패키지 목록을 업데이트해야합니다.
+Webmin을 설치하기 전에 Apt-Get의 패키지 목록을 업데이트해야합니다.
 ```
 sudo apt-get update
 ```
@@ -195,26 +199,29 @@ https://server_IP_address:10000
 
 {{< figure align=center src="images/webmin-login-screen.png" alt="Webmin을 설치하십시오">}}
 
-Webmin에 처음 로그인하면  **시스템 정보**  페이지로 이동합니다. 시스템의 리소스 및 기타 기타 정보에 대한 개요를 제공합니다.
+Webmin에 처음 로그인하면 **시스템 정보** 페이지로 이동합니다. 시스템의 리소스 및 기타 기타 정보에 대한 개요를 제공합니다.
 
 {{< figure align=center src="images/install-webmin-system-info.png" alt="웹 민 시스템 정보를 설치하십시오">}}
 
 
-## Webmin을 사용하여 Apache 설치   {#install-Apache}
+## Webmin을 사용하여 Apache를 설치하십시오 {#install-apache}
+
 Webmin에는 다양한 소프트웨어 패키지를 관리하는 다양한 모듈이 제공됩니다. Webmin을 사용하여 Apache를 설치하려면 아래 지침을 따르십시오
-**1 단계 **: 탐색 메뉴에서  **사용하지 않은 모듈 ** 을 클릭하여 범주를 확장 한 다음 ** Apache WebServer** 를 클릭하십시오.
+**1 단계 **: 탐색 메뉴에서** 사용하지 않은 모듈**을 클릭하여 범주를 확장 한 다음** Apache WebServer**를 클릭하십시오.
 서버에 Apache가 설치되지 않은 경우 모듈에 알리고 Apache를 설치하는 방법을 제공합니다.
-**2 단계 **: ** 여기를 클릭하십시오**  링크 (마지막 문장)를 통해 apt-get을 통해 Apache를 설치하십시오.
+**2 단계**:**  여기를 클릭하십시오**링크 (마지막 문장)를 통해 apt-get을 통해 Apache를 설치하십시오.
 Apache 설치가 완료되면 서버가 기본 Apache 서버를 실행합니다.
 
-## 결론   {#conclusion}
+## 결론 {#conclusion}
+
 이 기사에서는 Webmin이 할 수있는 수많은 것들에 대해 설명하며 Webmin은 Linux/Unix 서버를 관리하는 가장 좋은 도구 중 하나입니다. 이 튜토리얼에서 우리는 Ubuntu에 Webmin을 설치하는 방법을 배웠습니다. 또한 Webmin을 사용하여 서버에 Apache를 설치하는 방법에 대해 논의했습니다.
 
 ## 탐구하다
   * [우분투에서 Nginx를 사용하여 여러 PHP 버전을 설치하는 방법][7]
-  * [NGINX를 리버스 프록시로 설정하고 구성하는 방법][8]
+  * [Nginx를 리버스 프록시로 설정하고 구성하는 방법][8]
 
-  
+
+
 [1]: #intro
 [2]: #features
 [3]: #support

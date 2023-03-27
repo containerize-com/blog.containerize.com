@@ -16,23 +16,26 @@ categories: [ 'Artificial intelligence']
 
 
 ## 개요
-안녕하세요 독자! [chatgpt][1] 통합에 게시 한 블로그 게시물에 대한 압도적 인 응답에 감사드립니다. 우리는 당신의 관심에 따른 또 다른 유용한 **chatgpt 튜토리얼 **와 함께 여기에 있습니다. 또한, 우리는 귀하의 학업 및 경력에 유익한 기사를 게시하기 위해 루프에 올 것입니다. 그러나 우리는 JavaScript 자습서의 [시리즈][20]을 시작 했으므로 JavaScript AQPP **에서 ChatGpt를  **통합하는 방법을 보여주는 가이드를 작성하는 것이 가장 좋은시기입니다. 또한이 GPT-3 기반**   바이러스 성 챗봇** 기능을 만들기 위해 코드 스 니펫을 작성합니다. 이를 위해 Node.js 앱에서 ChatGpt 기능을 활성화합니다. 따라서 Node.js에 대한 사전 지식의 기본 수준은이 안내서를 진행하는 동안 플러스입니다.
+안녕하세요 독자! [chatgpt][1] 통합에 게시 한 블로그 게시물에 대한 압도적 인 응답에 감사드립니다. 우리는 당신의 관심에 따른 또 다른 유용한  **chatgpt 튜토리얼** 와 함께 여기에 있습니다. 또한, 우리는 귀하의 학업 및 경력에 유익한 기사를 게시하기 위해 루프에 올 것입니다. 그러나 우리는 JavaScript 자습서의 [시리즈][20]을 시작 했으므로 JavaScript AQPP  **에서 ChatGpt를**  통합하는 방법을 보여주는 가이드를 작성하는 것이 가장 좋은시기입니다. 또한이 GPT-3 기반 **바이러스 성 챗봇**  기능을 만들기 위해 코드 스 니펫을 작성합니다. 이를 위해 Node.js 앱에서 ChatGpt 기능을 활성화합니다. 따라서 Node.js에 대한 사전 지식의 기본 수준은이 안내서를 진행하는 동안 플러스입니다.
 다음 섹션은이 chatgpt 튜토리얼에서 다루어집니다.
-  * **[사전 반품 -CatGpt JavaScript 래퍼][2]**
-  * **[node.js 응용 프로그램과의 chatgpt 통합][3]**
+*  **[사전 반품 -CatGpt JavaScript 래퍼][2]**  
+*  **[node.js 응용 프로그램과의 chatgpt 통합][3]**  
 
-## pre-requisites-Chatgpt JavaScript Wrapper   {#pre-refiesites --- chatgpt-javaScript-wrapper-}
+## 사전 반품 - chatgpt JavaScript 래퍼 {#Pre-requisites---ChatGPT-JavaScript-wrapper-}
+
 이 섹션에서는 Node.js 기반 응용 프로그램에서 ChatGpt 통합을 활성화하는 데 필요한 요구 사항을 보여줍니다. 요구 사항은 간단하고 시스템에 쉽게 설치할 수 있습니다.
 다음은이 chatgpt javaScript 통합을 연습하기위한 사전 요청입니다.
 
  * [nodejs4](>= 18)
 
  * [NPM5](>=9)
+ 
 위의 전제 조건이 설치되면 다음 단계는 OpenAI API 키를 얻는 것입니다. 이 키는 API 요청을 프로그래밍 방식으로 ChatGpt에 요청하는 데 사용됩니다. 따라서 절차를 모르는 경우 OpenAI API 키를 얻는 방법을 배우려면이 [링크][6]를 방문하십시오.
 API 키를 안전한 장소에 보관하십시오. 요구 사항 단계의 전부입니다.
 
-## chatgpt node.js 응용 프로그램과의 통합   {#hatgpt-integration-with-node.js-application}
-이제 우리는 모두 프로그래밍 방식으로 javaScript 앱에서 chatgpt를 통합하도록 설정되었습니다.** 먼저 터미널을 열고 다음 명령을 실행하십시오.
+## node.js 응용 프로그램과의 chatgpt 통합 {#ChatGPT-integration-with-Node.js-application}
+
+이제 우리는 모두 프로그래밍 방식으로 javaScript 앱에서 chatgpt를 통합하도록 설정되었습니다.**먼저 터미널을 열고 다음 명령을 실행하십시오.
 ```
 npm i chatgpt
 ```
@@ -46,7 +49,7 @@ npm i chatgpt
 ```
 node index.js
 ```
-**참고** : Package.json 파일에 "모듈 외부에서 가져 오기 명령문을 사용할 수 없다"는 경우 ( "type": "module",)를 추가하십시오.
+ **참고** : Package.json 파일에 "모듈 외부에서 가져 오기 명령문을 사용할 수 없다"는 경우 ( "type": "module",)를 추가하십시오.
 아래 이미지에서 출력을 볼 수 있습니다.
 
 {{< figure align=center src="images/chatgpt_tutorial.png" alt="chatgpt 튜토리얼">}}
@@ -61,17 +64,17 @@ console.log(res.text);
 마찬가지로, 당신은 [여기][7]에 제공된 다른 많은 방법을 탐색 할 수 있습니다. 이 OpenAi 챗봇 통합은 엔터프라이즈 수준 애플리케이션에 경쟁력을 부여 할 수 있습니다.
 
 ## 결론
-이 시점은이 **chatgpt 튜토리얼 **의 끝까지 우리를 데려옵니다. JavaScript 앱에서 ChatGpt를  **통합하는 방법을 배웠기를 바랍니다. 또한 로컬 컴퓨터에서 테스트 할 수있는 작업 코드 스 니펫이 있습니다. 이 블로그 게시물은 Node.js 응용 프로그램에서**   chatgpt 통합**를 배우기 위해 번성하는 경우 자산입니다.
+이 시점은이  **chatgpt 튜토리얼** 의 끝까지 우리를 데려옵니다. JavaScript 앱에서 ChatGpt를 **통합하는 방법을 배웠기를 바랍니다. 또한 로컬 컴퓨터에서 테스트 할 수있는 작업 코드 스 니펫이 있습니다. 이 블로그 게시물은 Node.js 응용 프로그램에서**  chatgpt 통합**를 배우기 위해 번성하는 경우 자산입니다.
 
 ## 우리와 접촉
-마지막으로, [Containerize.com][8]는 다른 주제에 대한 블로그 게시물을 지속적으로 작성합니다. 또한 소셜 미디어 계정 [Facebook][9], [LinkedIn][10] 및 [Twitter][11]에서 우리를 따라갈 수 있습니다.
+마지막으로, [Containerize.com][8]는 다른 주제에 대한 블로그 게시물을 지속적으로 씁니다. 또한 소셜 미디어 계정 [Facebook][9], [LinkedIn][10] 및 [Twitter][11]에서 우리를 따라갈 수 있습니다.
 
 ## 질문을하십시오
 [포럼][12]에서 귀하의 질문이나 질문에 대해 알려줄 수 있습니다.
 
 ## FAQ
-**chatgpt를 JavaScript와 통합하는 방법?**
-이 chatgpt [튜토리얼][2]에 따라 Programmatical으로 javaScript 앱에 chatGpt를 통합하기위한 단계와 코드 스 니펫을 알아보십시오.
+ **chatgpt를 JavaScript와 통합하는 방법?** 
+이 chatgpt [튜토리얼][2]에 따라 Programmatical으로 javaScript 앱에 ChatGpt를 통합하기위한 단계와 코드 스 니펫을 알아보십시오.
 
 ## 또한보십시오
   * [인공 지능 소개 | AI는 무엇입니까?][13]
@@ -82,7 +85,8 @@ console.log(res.text);
   * [상위 5 개 오픈 소스 AI 프레임 워크는 무엇입니까][18]
   * [생성 ai | 생성 인공 지능][19]
 
-  
+
+
 [1]: https://blog.containerize.com/categories/artificial-intelligence/
 [2]: #Pre-requisites---ChatGPT-JavaScript-wrapper-
 [3]: #ChatGPT-integration-with-Node.js-application

@@ -14,29 +14,33 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/lemp-banner.png" alt="ubuntuにLEMPスタックをインストールします">}}
 
 
-## 概要 {#prerequisites}
-このガイドでは、開発と展開のためにNginx、MySQL、およびPHP（LEMPスタック）をインストールします。また、Ubuntu Server 18.04でWeb Server to Server PHPアプリケーションを構成します。このチュートリアルでは、次のセクションについて説明します。
-  *[**前提条件**][1]
-  *[ **LEMPスタックとは？** ][2]
-  *[ **LEMPインストール** ][3]
-  *[**結論**][4]
+## 概要 {#Prerequisites}
 
-## Prererequisites   {#prerequisites}
+このガイドでは、開発と展開のためにNginx、MySQL、およびPHP（LEMPスタック）をインストールします。また、Ubuntu Server 18.04でWeb Server to Server PHPアプリケーションを構成します。このチュートリアルでは、次のセクションについて説明します。
+* [  **前提条件**  ][1]
+* [  **LEMPスタックとは？**  ][2]
+* [  **LEMPインストール**  ][3]
+* [  **結論**  ][4]
+
+## 前提条件 {#前提条件}
+
 ソフトウェアをインストールする前に、次の要件を満たす必要があります。
   * Ubuntuオペレーティングシステムを備えたサーバー
-  ***sudo** 特権を持つ非ルートユーザー
+*  **sudo**  特権を持つ非ルートユーザー
 
-## LEMPスタックとは何ですか？   {#何}
-**LEMP Stack** は、PHPベースのWebアプリケーションを実行するために使用できるソフトウェアのコレクションです。 LEMPは、Linux、Nginx、MySQL、およびPHPの略です。 LEMPスタックは、ランプスタックのバリアントです。 LampとLempの両方は、Webアプリケーションを開発および展開するための人気のあるソフトウェアスタックです。これら2つのソフトウェアスタックには1つの違いがあります。 LAMPはApache Webサーバーを使用しますが、LEMPサーバーはNginx Webサーバーを使用しています。
+## LEMPスタックとは何ですか？ {#What}
 
-## LEMPインストール {#installation}
+ **LEMP Stack** は、PHPベースのWebアプリケーションを実行するために使用できるソフトウェアのコレクションです。 LEMPは、Linux、Nginx、MySQL、およびPHPの略です。 LEMPスタックは、ランプスタックのバリアントです。 LampとLempの両方は、Webアプリケーションを開発および展開するための人気のあるソフトウェアスタックです。これら2つのソフトウェアスタックには1つの違いがあります。 LAMPはApache Webサーバーを使用しますが、LEMPサーバーはNginx Webサーバーを使用しています。
+
+## LEMPのインストール {#Installation}
+
 このセクションでは、Ubuntu 18.04にNginx、MySQL、およびPHPをインストールする方法に焦点を当てます。まず、以下のコマンドを実行して、サーバーパッケージを更新する必要があります。
 ```
 $ sudo apt update
 ```
 
-## # Nginx Webサーバーのインストール
-  *以下のコマンドを実行して、**ubuntu** にnginxをインストールします。
+### Nginx Webサーバーのインストール
+* 以下のコマンドを実行して、  **ubuntu**  にnginxをインストールします。
 ```
 $ sudo apt install nginx
 ```
@@ -45,9 +49,9 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Nginx Webサーバーのデフォルトページ">}}
 
 
-## # mysqlのインストール
+### mysqlのインストール
 これで、アプリケーションデータを管理するためにMySQLデータベースサーバーをインストールする必要があります。
-  *以下のコマンドを実行して、**ubuntu** にmysqlをインストールします。
+* 以下のコマンドを実行して、  **ubuntu**  にmysqlをインストールします。
 ```
 $ sudo apt install mysql-server
 ```
@@ -55,8 +59,8 @@ $ sudo apt install mysql-server
 ```
 $ sudo mysql_secure_installation
 ```
-  ***パスワードプラグインを検証するかどうかを有効にするかどうかを尋ねられます。それを有効にしないようにすることをお勧めします。Nと入力してEnterを押して次のステップを進んでください。
-  *次に、以下に示すようにいくつかの質問をします。すべての質問に答える必要があります。
+***パスワードプラグインを検証するかどうかを有効にするかどうかを尋ねられます。それを有効にしないようにすることをお勧めします。Nと入力してEnterを押して次のステップを進んでください。
+* 次に、以下に示すようにいくつかの質問をします。すべての質問に答える必要があります。
 ```
 Enter current password for root (enter for none):
 Set root password? [Y/n]: N
@@ -65,27 +69,27 @@ Disallow root login remotely? [Y/n]: Y
 Remove test database and access to it? [Y/n]:  Y
 Reload privilege tables now? [Y/n]:  Y
 ```
-  *今、MySQLサーバーは稼働しています。次のコマンドでテストできます。パスワードを求めた場合に備えて、mysqlのパスワードではなく、ubuntuルートアカウントパスワードを入力してください。
+* 今、MySQLサーバーは稼働しています。次のコマンドでテストできます。パスワードを求めた場合に備えて、mysqlのパスワードではなく、ubuntuルートアカウントパスワードを入力してください。
 ```
 $ sudo mysql
 ```
-  * mysqlから終了するには、以下のコマンドを入力します。
+  * MySQLから終了するには、以下のコマンドを入力します。
 ```
 mysql> exit
 ```
 
-## # PHPのインストール
+### PHPのインストール
 PHPの処理のために、PHP-FPMのインストールについて説明します。 PHP-FPMは、FastCGI Process Managerの略です。 Nginx Webサーバーには、PHPの処理のためのビルドイン機能がないため、PHP-FPMを使用します。さらに、データ管理のためにMySQLとPHPを通信するためにPHP-MYSQLをインストールします。
-  *以下のコマンドを実行して、**ubuntu** にphpをインストールします。
+* 以下のコマンドを実行して、  **ubuntu**  にphpをインストールします。
 ```
 $ sudo apt install php-fpm php-mysql
 ```
-  *ここで、Webアプリケーションを実行するためにPHPインストールとLEMPスタックのすべての必要なソフトウェアが完了します。
-  *このステップでは、Nginx構成ファイルを作成して、Nginxに動的コンテンツにPHPプロセッサを使用するように指示します。以下のコマンドを実行して、nginx構成ファイルを作成します。
+* ここで、Webアプリケーションを実行するためにPHPインストールとLEMPスタックのすべての必要なソフトウェアが完了します。
+* このステップでは、Nginx構成ファイルを作成して、Nginxに動的コンテンツにPHPプロセッサを使用するように指示します。以下のコマンドを実行して、nginx構成ファイルを作成します。
 ```
 $ sudo nano /etc/nginx/sites-available/example.com
 ```
-  *コードをnginx構成ファイルにコピーして保存します。
+* コードをnginx構成ファイルにコピーして保存します。
 ```
 server {
         listen 80;
@@ -107,19 +111,19 @@ server {
         }
 }
 ```
-  *これらのディレクティブとロケーションブロックを少し見てみましょう。これにより、基本情報を入手できます。
-      ***聞く**：nginxのポートを定義できます。 HTTPにはポート80、HTTPSプロトコルには443を使用します。
-      ***root** ：プロジェクトのルートディレクトリを定義します。 Nginxはそれを使用してWebサイトまたはWebアプリケーションを提供します。
-      ***index** ：ファイルを提供する順序を定義します。インデックスファイルが呼び出されると、nginxはindex.phpファイルを配信します。
-      ***server_name** ：サーバーのドメイン名またはパブリックIPを定義します。
-      ***場所 /**：このロケーションブロックには**try_block** ディレクティブがあり、要求されたURIと一致します。 Nginxは、要求されたファイルが見つからない場合、404エラーを返します。
-      ***location〜.php $** ：この場所ブロックはPHP処理を処理します。
-      * **location〜 /.ht** ：nginxは**。htaccess**ファイルを処理しません。この場所はそれをブロックします。 nginxは、**すべての**ディレクティブを定義することで.htaccessファイルを提供しません。
-  *新しく作成されたnginx構成ファイルのSymlinkを作成して有効にします。
+* これらのディレクティブとロケーションブロックを少し見てみましょう。これにより、基本情報を入手できます。
+*  **聞く**  ：nginxのポートを定義できます。 HTTPにはポート80、HTTPSプロトコルには443を使用します。
+*  **root**  ：プロジェクトのルートディレクトリを定義します。 Nginxはそれを使用してWebサイトまたはWebアプリケーションを提供します。
+*  **index**  ：ファイルを提供する順序を定義します。インデックスファイルが呼び出されると、nginxはindex.phpファイルを配信します。
+*  **server_name**  ：サーバーのドメイン名またはパブリックIPを定義します。
+*  **場所 /** ：このロケーションブロックには **try_block**  ディレクティブがあり、要求されたURIと一致します。 Nginxは、要求されたファイルが見つからない場合、404エラーを返します。
+*  **location〜.php $**  ：この場所ブロックはPHP処理を処理します。
+*  **location〜 /.ht** ：nginxは  **。htaccess**  ファイルを処理しません。この場所はそれをブロックします。 nginxは、 **すべての**  ディレクティブを定義することで.htaccessファイルを提供しません。
+* 新しく作成されたnginx構成ファイルのSymlinkを作成して有効にします。
 ```
 $ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 ```
-  *次のコマンドを実行して、構文エラーについてnginx構成ファイルをテストします。
+* 次のコマンドを実行して、構文エラーについてnginx構成ファイルをテストします。
 ```
 $ sudo nginx -t
 ```
@@ -128,13 +132,13 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-## # テストphp
+### テストphp
   * NginxがPHPページを正しく提供することを確認するために、構成をテストするためのPHPファイルを作成します。
-  *以下のコマンドを実行して、Nginx Webサーバーのルートディレクトリにinfo.phpファイルを作成します。
+* 以下のコマンドを実行して、Nginx Webサーバーのルートディレクトリにinfo.phpファイルを作成します。
 ```
 $ sudo nano /var/www/html/info.php
 ```
-  *以下のコードをITに追加して、ファイルを保存します。
+* 以下のコードをITに追加して、ファイルを保存します。
 ```
 <?php
 phpinfo();
@@ -144,31 +148,33 @@ phpinfo();
 {{< figure align=center src="images/info-php.png" alt="PHP情報ページ">}}
 
 
-## 結論 {#conclusion}
-このチュートリアルでは、 **LEMPスタック** のインストールと構成について説明しました。ご覧のとおり、ソフトウェアスタックコンポーネントの構成は非常に簡単です。さらに、数分でWebアプリの作成と提供を開始できます。
-最後に、[**containerize.com **][5]は、最新のオープンソース製品に関するブログ投稿を書く一貫したプロセスにあります。したがって、最新のアップデートについては、この[**  Webサーバーソリューションスタック**][6]カテゴリに連絡してください。
+## 結論 {#結論}
+
+このチュートリアルでは、  **LEMPスタック**  のインストールと構成について説明しました。ご覧のとおり、ソフトウェアスタックコンポーネントの構成は非常に簡単です。さらに、数分でWebアプリの作成と提供を開始できます。
+最後に、[  **containerize.com** ][5]は、最新のオープンソース製品に関するブログ投稿を書く一貫したプロセスにあります。したがって、最新のアップデートについては、この[ **Webサーバーソリューションスタック**  ][6]カテゴリに連絡してください。
 
 ## 探検
 次のリンクが関連する場合があります。
-  *[**最高のオープンソースWebサーバーソリューションスタック**][7]
-  ***[最も人気のあるオープンソースデジタルフォレンジックツール][8]** 
-  ***[2021年のトップ5オープンソースメッセージキュー（MQ）ソフトウェア][9]** 
-  ***[最高のオープンソースクラウドストレージとファイル共有ソフトウェア][10]** 
-  *[ **ubuntuでnginxを使用してphpmyadminをインストールして保護する方法** ][11]
-  *[ **ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法** ][12]
-  *[**2021年の最も人気のあるOSI-承認のオープンソースライセンスのトップ5** ][13]
+* [  **最高のオープンソースWebサーバーソリューションスタック**  ][7]
+*  **[最も人気のあるオープンソースデジタルフォレンジックツール][8]**  
+*  **[2021年のトップ5オープンソースメッセージキュー（MQ）ソフトウェア][9]**  
+*  **[最高のオープンソースクラウドストレージとファイル共有ソフトウェア][10]**  
+* [  **ubuntuでnginxを使用してphpmyadminをインストールして保護する方法**  ][11]
+* [  **ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法**  ][12]
+* [  **2021年の最も人気のあるOSI承認のオープンソースライセンスのトップ5**  ][13]
 
-  
-[1]: #Prerequisites
-[2]: #What
-[3]: #Installation
-[4]: #Conclusion
-[5]: https://containerize.com
-[6]: https://blog.containerize.com/category/web-server-solution-stack/
-[7]: https://products.containerize.com/solution-stack/
-[8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
-[9]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
-[10]: https://products.containerize.com/backup-and-sync/
-[11]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
-[12]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-[13]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+
+
+ [1]: #Prerequisites
+ [2]: #What
+ [3]: #Installation
+ [4]: #Conclusion
+ [5]: https://containerize.com
+ [6]: https://blog.containerize.com/category/web-server-solution-stack/
+ [7]: https://products.containerize.com/solution-stack/
+ [8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+ [9]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+ [10]: https://products.containerize.com/backup-and-sync/
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+ [12]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [13]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

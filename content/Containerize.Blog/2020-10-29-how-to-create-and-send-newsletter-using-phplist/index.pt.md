@@ -23,38 +23,45 @@ Nesta postagem do blog, nos concentraremos em projetar e enviar campanha por e -
   * [Processe a fila][6]
   * [Conclusão][7]
 
-## **Create Campaign/Newsletter** {#Create}
-  * Faça login na interface administrativa da sua instalação phplist. Clique no botão Iniciar ou continuar a campanha ** no painel ou enviar um link de campanha em campanha na navegação do lado esquerdo.
+## **Criar campanha/Newsletter** {#create}
+
+  * Faça login na interface administrativa da sua instalação phplist. Clique no botão Iniciar ou continuar a campanha**no painel ou enviar um link de campanha em campanha na navegação do lado esquerdo.
   * Clique em Iniciar um novo botão de campanha.
   * Preencha os campos com as opções como o assunto, da linha, conteúdo e rodapé, conforme mostrado na imagem abaixo.
 
 {{< figure align=center src="images/create-campaign.png" alt="Newsletter de design em phplist">}}
 
 
-## **Campanha de agendamento** {#Schedule}
+## **Campanha de agendamento** {#schedule}
+
   * A programação permite selecionar datas quando deseja iniciar a campanha. A campanha não será enviada antes/depois das datas selecionadas.
   * Você não precisa alterar as datas, se deseja enviar campanha imediatamente.
 
 {{< figure align=center src="images/scheduling.png" alt="Agendar boletim informativo em phplist">}}
 
 
-## **Atribua listas à campanha** {#List}
+## **Atribuir listas à campanha** {#list}
+
 Todas as listas serão exibidas na guia Listas, selecione a lista apropriada. A campanha entregará apenas para atribuir listas. No entanto, você pode tornar a lista pública ou privada ao criar/atualizar a lista.
 
 {{< figure align=center src="images/lists.png" alt="Atribuir listas ao boletim informativo em phplist">}}
 
 
 ## **Campanha de acabamento** {#finish}
-O acabamento é a etapa final no processo de criação de campanhas. Você pode adicionar e -mails para notificações, adicionar código de rastreamento do Google Analytics. Clique no botão **Enviar campanha**  para começar a enviar mensagens para os assinantes. Agora, você fez o processo de design e campanha do boletim informativo. Mas você precisa processar a fila e pode ler mais sobre isso na próxima seção.
+
+O acabamento é a etapa final no processo de criação de campanhas. Você pode adicionar e -mails para notificações, adicionar código de rastreamento do Google Analytics. Clique no botão **Enviar campanha** para começar a enviar mensagens para os assinantes. Agora, você fez o processo de design e campanha do boletim informativo. Mas você precisa processar a fila e pode ler mais sobre isso na próxima seção.
 
 ## **Processe a fila** {#queue}
+
 A fila de processos é um processo para começar a enviar a campanha. Você pode iniciar o processo manualmente, com script de linha de comando ou criar um trabalho de cron. É fácil processar a fila manualmente para poucos assinantes Hunderd. Mas é bom usar o trabalho CRON para processar a fila, se você tiver milhares/milhões de assinantes. Você pode visitar o Phplist Official [Website][8] para obter informações para criar um trabalho de Cron.
 
-## **CONCLUSÃO** {#conclusion}
+## **Conclusão** {#conclusion}
+
 O PHPLIST é uma ferramenta perfeita para empresas que desejam usar o software de boletim informativo de código aberto para marketing por email. Descrevemos o processo em detalhes para projetar e enviar campanhas. Você pode segui -lo para o seu próximo boletim e aproveitar o verdadeiro poder do phplist.
 Finalmente, com alguns tutoriais mais fascinantes, o [contendeRize.com][9] está definido para aprimorar sua base de tutoriais. Para atualizações regulares, mantenha -se conectado com a categoria [Newsletter][10].
 
-  
+
+
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #create
 [3]: #schedule

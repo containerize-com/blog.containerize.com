@@ -26,36 +26,40 @@ Di seguito è riportato un elenco del software di hacking più popolare disponib
   * Altre opzioni di software di hacking etico da considerare:
   * Conclusione
 
-## 1. metasploit   {#42db}
+## 1. Metasploit {#42db}
+
 [Metasploit][1] Framework è uno strumento open source e può essere scaricato gratuitamente. Metasploit Pro è un prodotto commerciale. La prova gratuita è disponibile per 14 giorni. Contatta l'azienda per saperne di più sui suoi dettagli sui prezzi.
-È il software per i test di penetrazione. Utilizzando il framework Metasploit, è possibile sviluppare ed eseguire il codice di exploit su una macchina remota. Supporta la piattaforma crociata. È **** migliore per la costruzione di strumenti anti-forensici ed di evasione.
-**Chiave ** **Caratteristiche:**  
+È il software per i test di penetrazione. Utilizzando il framework Metasploit, è possibile sviluppare ed eseguire il codice di exploit su una macchina remota. Supporta la piattaforma crociata. È****migliore per la costruzione di strumenti anti-forensici ed di evasione.
+**Chiave****Caratteristiche:**  
   * È utile per conoscere le vulnerabilità della sicurezza.
   * Aiuta nei test di penetrazione.
   * Aiuta nello sviluppo della firma IDS.
   * È possibile creare strumenti di test di sicurezza.
 
-## 2. sqlmap   {#66fd}
+## 2. SQLMAP {#66fd}
+
 [SQLMAP][2] è uno strumento per automatizzare il processo di rilevamento e sfruttamento dei difetti di iniezione di SQL e occuparsi dei server di database. È uno strumento open source e ha un potente motore di rilevamento. Supporta completamente MySQL, Oracle, PostgreSQL e molti altri. Supporta pienamente sei tecniche di iniezione SQL, ciechi a base booleana, ciechi basati sul tempo, basati su errori, query a base di query sindacali, impilati e fuori band.
 SQLMAP supporta l'esecuzione di comandi arbitrari e il recupero del loro output standard, il download e il caricamento di qualsiasi file, la ricerca di nomi di database specifici, ecc. Ti consentirà di connetterti direttamente al database.
-**Caratteristiche chiave: **
+**Caratteristiche chiave:**  
   * Gli utenti, gli hash password, i diritti, i ruoli, i database, le tabelle e le colonne possono essere tutti elencati.
   * I formati di hash password vengono automaticamente riconosciuti e un attacco basato sul dizionario può essere utilizzato per spezzarli.
   * Supporto per lo scarico di tabelle di database intero, una gamma di voci o selezionare campi in base alle preferenze dell'utente. L'utente può anche selezionare un sottoinsieme di caratteri dalla voce di ciascuna colonna in Dump.
 
-## 3. hashcat   {#66fd}
+## 3. Hashcat {#66fd}
+
 [Hashcat][3], anche se per ultimo nella nostra lista, è uno dei più potenti programmi di cracking e di hacking etici disponibili. È uno dei migliori programmi di hacker disponibili e può aiutare gli utenti a recuperare le password dimenticate, audit la sicurezza della password o semplicemente determinare quali dati sono inclusi in un hash. Questo strumento è disponibile gratuitamente.
-**Caratteristiche chiave: **
+**Caratteristiche chiave:**  
   * Supporta il funzionamento del cervello del candidato password.
   * Le reti di cracking distribuite sono supportate (utilizzando la sovrapposizione)
   * La pausa/curriculum interattiva è supportata.
   * Le sessioni sono aiutate.
   * Aiuta nel restauro di
 
-## 4. nmap   {#b3ed}
+## 4. NMAP {#b3ed}
+
 [NMAP][4] è uno scanner di sicurezza, scanner di porte e uno strumento di esplorazione della rete. È un software open source ed è disponibile gratuitamente. È meglio per le reti di scansione, facili da usare e velocemente. È sta per Network Mapper.
 Supporta la piattaforma crociata. Può essere utilizzato per l'inventario di rete, la gestione degli orari degli aggiornamenti dei servizi e per il monitoraggio degli up -time host e del servizio. Può funzionare per un singolo host e reti di grandi dimensioni. Fornisce pacchetti binari per Linux, Windows e Mac OS X.
-**Caratteristiche chiave: **
+**Caratteristiche chiave:**  
   * Strumento di trasferimento dei dati, reindirizzamento e debug (NCAT),
   * Risultati di scansione che confronta l'utilità (NDIFF),
   * Strumento di analisi della generazione e risposta dei pacchetti (NPING),
@@ -66,24 +70,27 @@ Supporta la piattaforma crociata. Può essere utilizzato per l'inventario di ret
   * Filtri dei pacchetti che stanno usando.
   * E molte altre caratteristiche.
 
-## 5. John The Ripper   {#B3ed}
+## 5. Giovanni lo Squartatore {#b3ed}
+
 [John lo Ripper][5] è uno strumento per il cracking della password. Può essere utilizzato su Windows, DOS e VM aperte. È uno strumento open source. Viene creato per rilevare password UNIX deboli. È meglio per il cracking veloce nella password.
-**Caratteristiche chiave: **
+**Caratteristiche chiave:**  
   * Giovanni lo Squartatore può essere utilizzato per testare varie password crittografate.
   * Esegue attacchi di dizionario.
   * Fornisce vari cracker di password in un unico pacchetto.
   * Fornisce un cracker personalizzabile.
 
-## Altre opzioni di software di hacking etico da considerare:   {#42db}
-Ci sono dozzine di altre piattaforme di hacking etiche open source come elencato di seguito:
-  ***Scanner IP arrabbiato** 
-  ***Aircrack** 
-  ***Ettercap** 
-  ***Nikto** 
-  ***Zenmap** 
+## Altre opzioni di software di hacking etico da considerare: {#42db}
 
-## conclusione:   {#4a1a}
-Come spiegato qui, Metasploit è anche per la sicurezza ed è utile per la costruzione di strumenti anti-forensici ed di evasione. NMAP viene utilizzato per la sicurezza dei computer e la gestione della rete. È utile per la scansione della rete. Secondo le recensioni disponibili online, le persone consigliano di utilizzare NMAP anziché scanner IP arrabbiato poiché Scanner IP arrabbiato viene fornito con applicazioni indesiderate. John lo Squartatore è veloce nel cracking della password. Nikto è un buon strumento open source per i test di penetrazione.
+Ci sono dozzine di altra piattaforma di hacking etica open source come elencato di seguito:
+* **Scanner IP arrabbiato** 
+* **Aircrack** 
+* **Ettercap** 
+* **Nikto** 
+* **Zenmap** 
+
+## Conclusione: {#4a1a}
+
+Come spiegato qui, Metasploit è anche per la sicurezza ed è utile per la costruzione di strumenti anti-forensici ed di evasione. NMAP viene utilizzato per la sicurezza dei computer e la gestione della rete. È utile per la scansione della rete. Secondo le recensioni disponibili online, le persone raccomandano di utilizzare NMAP anziché Scanner IP arrabbiato poiché Scanner IP Angry viene fornito con applicazioni indesiderate. John lo Squartatore è veloce nel cracking della password. Nikto è un buon strumento open source per i test di penetrazione.
 _ Cosa _open Source Ethical Hacking Tools__ _ Usi?. In caso di domande o feedback, per favore [mettiti in contatto][6].
 
 ## Esplorare
@@ -94,7 +101,8 @@ Potresti trovare più gli articoli di seguito:
   * [Top Digital Marketplace Software Options][10]
   * [Top 5 software di archiviazione cloud open source nel 2021][11]
 
-  
+
+
 [1]: https://www.metasploit.com/
 [2]: https://sqlmap.org/
 [3]: https://hashcat.net/hashcat/

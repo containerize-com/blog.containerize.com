@@ -16,37 +16,40 @@ categories: ['Marketing Automation']
 
 ## ملخص
 مرحبًا بك في منشور مدونة جديد آخر في سلسلة [برنامج أتمتة التسويق][1]. في الماضي القريب ، قمنا بنشر مقالات حول بعض الموضوعات المثيرة للاهتمام مثل [كيفية إعداد حملات Mautic باستخدام Builder Campaign][2] ، [التسويق الأتمتة مع تكامل Mautic و WooCommerce][3] ، وأكثر من ذلك. ومع ذلك ، سوف نمر ببرامج الأتمتة المجانية الأكثر استخدامًا على نطاق واسع  **[CIDICRM][4] مقابل [Suitecrm][5].**  مع مرور الوقت ، تتطور استراتيجيات التسويق بوتيرة عالية. لقد أصبح من المهم للغاية الوصول إلى السوق في الأنسب لالتقاط السوق. بالإضافة إلى ذلك ، يحرص الناس على اتباع الأشياء الموجودة في الاتجاه.
-لذلك ، فإن أداة أتمتة التسويق على مستوى المؤسسة ** **هي الآن مكون لا بد منه في الشركات. هناك العديد من المهام المتعلقة بالتسويق المتكررة التي تحدث على أساس يومي وتستهلك القوى العاملة وغيرها من الجهود. في الواقع ، هناك العديد من البرامج المجانية الأخرى المتاحة لـ**   Automation Free Marketing** يمكنك العثور عليها في هذا [الفضاء][6]. لا يقوم برنامج التسويق المفتوح المصدر هذا بأتمتة مهام التسويق فحسب ، بل يقوم أيضًا بجمع بيانات الزوار بناءً على أنشطتهم. علاوة على ذلك ، يساعد برنامج الأتمتة المجاني الشركات من حيث الإيرادات والمبيعات ورعاية العملاء المتوقعين. دعنا نغطي النقاط التالية ونذهب إلى الجوانب الحرجة لـ [CivIcrm][4] و [Suitecrm][5].
+لذلك ، فإن أداة أتمتة التسويق على مستوى المؤسسة*  ***هي الآن مكون لا بد منه في الشركات. هناك العديد من المهام المتعلقة بالتسويق المتكررة التي تحدث على أساس يومي وتستهلك القوى العاملة وغيرها من الجهود. في الواقع ، هناك العديد من البرامج المجانية الأخرى المتاحة لـ**  Automation Free Marketing**يمكنك العثور عليها في هذا [الفضاء][6]. لا يقوم برنامج التسويق المفتوح المصدر هذا بأتمتة مهام التسويق فحسب ، بل يقوم أيضًا بجمع بيانات الزوار بناءً على أنشطتهم. علاوة على ذلك ، يساعد برنامج الأتمتة المجاني الشركات من حيث الإيرادات والمبيعات ورعاية العملاء المتوقعين. دعنا نغطي النقاط التالية ونذهب إلى الجوانب الحرجة لـ [CivIcrm][4] و [Suitecrm][5].
   * [ما هو civicrm؟][7]
   * [مقدمة موجزة لـ Suitecrm][8]
   * [civicrm vs suitecrm][9]
   * [الخلاصة][10]
 
-## ما هو Civicrm؟   {#civi}
-هذا [برنامج إدارة العلاقات المكون هذا][4] مفتوح المصدر ، مجاني ، ويأتي مع قدرات الاستضافة الذاتية. CivICRM قابلة للتمديد إلى حد كبير ويوفر تكاملًا مع برامج إدارة المحتوى الأكثر استخدامًا ، وبرامج التدوين مثل [WordPress][11] ، [Joomla][12] ، [Drupal][13] ، وأكثر من ذلك. هذا البرمجيات الأتمتة المجانية** هي ميزة غنية ويأتي مع أدوات إعداد التقارير لإنشاء تقارير مختلفة. بالإضافة إلى ذلك ، يتيح لك إعداد حملات الدعوة ، وجمع التبرعات من الأقران ، وإدارة الأحداث ، وإدارة الحالات.
-من السهل إعداد أداة Automation Automation **** وتتطلب متطلبات بسيطة لإعدادها على الخوادم التي تتضمن PHP و MySQL. قبل كل شيء ، يوفر ميزات عالية الكفاءة مثل البحث السريع ، ومجموعات البيانات المخصصة ، وتتبع التفاعل ، وتسجيل الأحداث عبر الإنترنت ، وقبول المدفوعات ، وتقارير الأحداث ، وغيرها الكثير. علاوة على ذلك ، يتيح لك تطبيق مرشحات على البيانات ، ويرسل الهدايا إلى الأصدقاء والعائلة ، ويقدم توفيرًا لحفظ التقارير بتنسيقات مختلفة. علاوة على ذلك ، تتم كتابة CivIcRM في PHP جنبا إلى جنب مع مدخلات من لغات أخرى مثل JavaScript و HTML. لذلك ، يمكنك العثور على ملفات التعليمات البرمجية المصدر على [github][14].
+## ما هو civicrm؟ {#civi}
+
+هذا [برنامج إدارة العلاقات المكون هذا][4] مفتوح المصدر ، مجاني ، ويأتي مع قدرات الاستضافة الذاتية. CivICRM قابلة للتمديد للغاية ويوفر تكاملًا مع برامج إدارة المحتوى الأكثر استخدامًا ، وبرامج التدوين مثل [WordPress][11] ، [Joomla][12] ، [Drupal][13] ، وأكثر من ذلك. هذا البرمجيات الأتمتة المجانية**هي ميزة غنية ويأتي مع أدوات إعداد التقارير لإنشاء تقارير مختلفة. بالإضافة إلى ذلك ، يتيح لك إعداد حملات الدعوة ، وجمع التبرعات من الأقران ، وإدارة الأحداث ، وإدارة الحالات.
+من السهل إعداد أداة Automation Automation****وتتطلب متطلبات بسيطة لإعدادها على الخوادم التي تتضمن PHP و MySQL. قبل كل شيء ، يوفر ميزات عالية الكفاءة مثل البحث السريع ، ومجموعات البيانات المخصصة ، وتتبع التفاعل ، وتسجيل الأحداث عبر الإنترنت ، وقبول المدفوعات ، وتقارير الأحداث ، وغيرها الكثير. علاوة على ذلك ، يتيح لك تطبيق مرشحات على البيانات ، ويرسل الهدايا إلى الأصدقاء والعائلة ، ويقدم توفيرًا لحفظ التقارير بتنسيقات مختلفة. علاوة على ذلك ، تتم كتابة CivIcRM في PHP جنبا إلى جنب مع مدخلات من لغات أخرى مثل JavaScript و HTML. لذلك ، يمكنك العثور على ملفات التعليمات البرمجية المصدر على [github][14].
 
 ## مقدمة موجزة من Suitecrm
-في هذا القسم من منشور المدونة **CivIcrm vs Suitecrm  **، سنذهب لفترة وجيزة من خلال SuiteCrm شهيرة مفتوحة. هذا البرنامج الأتمتة المجاني **  هو بديل لـ Salesforce ويأتي مع إمكانيات الاستضافة الذاتية. يتيح لك تحقيق ** أتمتة التسويق المجانية**  بطرق عالية الكفاءة يمكن تتبعها. هناك العديد من الميزات المتوفرة مثل إدارة التمويل ، وعروض الأسعار ، وخدمة تجديد العقود ، ودعم الأسئلة والأجوبة ، وسير العمل المرن ، والخدمة الذاتية للعميل ، وأكثر من ذلك. إنه قابل للتمديد للغاية ويقدم تكاملًا مع تطبيقات الطرف الثالث. علاوة على ذلك ، يتم كتابة Suitecrm أيضًا في PHP ويسهل إعدادها على الخوادم. لذلك ، يمكنك العثور على ملفات التعليمات البرمجية المصدر على [github][15].
+في هذا القسم من منشور المدونة  **CivIcrm vs Suitecrm** ، سنذهب لفترة وجيزة من خلال SuiteCrm شهيرة مفتوحة. هذا البرنامج الأتمتة المجاني **هو بديل لـ Salesforce ويأتي مع إمكانيات الاستضافة الذاتية. يتيح لك تحقيق**  أتمتة التسويق المجانية**بطرق عالية الكفاءة يمكن تتبعها. هناك العديد من الميزات المتوفرة مثل إدارة التمويل ، وعروض الأسعار ، وخدمة تجديد العقود ، ودعم الأسئلة والأجوبة ، وسير العمل المرن ، والخدمة الذاتية للعميل ، وأكثر من ذلك. إنه قابل للتمديد للغاية ويقدم تكاملًا مع تطبيقات الطرف الثالث. علاوة على ذلك ، يتم كتابة Suitecrm أيضًا في PHP ويسهل إعدادها على الخوادم. لذلك ، يمكنك العثور على ملفات التعليمات البرمجية المصدر على [github][15].
 
-## civicrm vs suitecrm   {#vs}
-حتى الآن ، مررنا بما هو Civicm ونظرنا أيضًا في Suitecrm. الآن ، سوف نرسم مقارنة بين هذين برنامجين Open Source **Free Automation **. لذلك ، دعونا ننظر إلى النقاط التالية لتغطية مقالة ** CivIcrm vs Suitecrm** .
+## Civicrm مقابل Suitecrm {#vs}
 
-## ## سمات
+حتى الآن ، مررنا بما هو Civicm ونظرنا أيضًا في Suitecrm. الآن ، سوف نرسم مقارنة بين هذين برنامجين Open Source  **Free Automation** . لذلك ، دعونا ننظر إلى النقاط التالية لتغطية مقالة **CivIcrm vs Suitecrm**  .
+
+#### سمات
 هذه هي المهمة الأكثر أهمية عندما يتعلق الأمر باختيار أي برنامج للشركة. لحسن الحظ ، يقدم كلا من برنامج الأتمتة المجاني مجموعة غنية من الميزات للمستخدمين. كلاهما يعتمد على الويب ومناسب لأي مستوى من الأعمال. يوفر CivICRM تكاملًا مع المنصات الشهيرة ويسهل استخدامه لأتمتة التسويق المجانية. تقدم أداة أتمتة التسويق هذه  **دعم العملاء عبر الإنترنت إلى جانب برامج الفيديو التعليمية. علاوة على ذلك ، فإنه يوفر قوالب للتقارير المخصصة ، وأتمتة إقرار الهدايا ، وغيرها الكثير. من ناحية أخرى ، تقدم Suitecrm دعم العملاء عبر الهاتف والإنترنت وقاعدة المعرفة. يأتي برنامج الأتمتة المجاني**  أيضًا مع مجموعة واسعة من الميزات التي تشمل الفواتير ، الفواتير ، حاسبة العائد على الاستثمار ، وأكثر من ذلك.
 
-## ## Teck Stack
+#### Teck Stack
 هذا جانب مهم آخر عندما تختار برنامج مفتوح المصدر. تتم كتابة CivICRM و Suitecrm في PHP وتتطلب متطلبات مماثلة تقريبًا للنشر على الخوادم المحلية أو السحابية.
 
-## ## مجتمع يقف
-بقدر ما يتعلق الأمر بـ CivicRM ، فإنه يحتوي على 436 نجمة و 748 شوكًا على ريبو GitHub. من ناحية أخرى ، لدى Suitecrm 2.8 كيلو نجم وشوكات 1.6 كيلو. كل من هذه الأدوات الأتمتة التسويقية** توفر وثائق شاملة فيما يتعلق بالنشر والتطوير.
+#### مجتمع يقف
+بقدر ما يتعلق الأمر بـ CivicRM ، فإنه يحتوي على 436 نجمة و 748 شوكًا على ريبو GitHub. من ناحية أخرى ، لدى Suitecrm 2.8 كيلو نجم وشوكات 1.6 كيلو. كل من هذه الأدوات الأتمتة التسويقية**توفر وثائق شاملة فيما يتعلق بالنشر والتطوير.
 
-## ## قابلية التوسيع
+#### قابلية التوسيع
 أخيرًا وليس آخرًا ، تكون Suitecrm و CivICRM قابلة للتكوين بشكل كبير وتقدم تكاملًا مع تطبيقات الطرف الثالث والتي تتضمن بعض التطبيقات على مستوى المؤسسة مثل WordPress و Joomla والمزيد. علاوة على ذلك ، يمكنك إضافة ميزات جديدة حسب الحاجة والاقتراب من مجتمع المطورين النابض بالحياة والاستجابة للاستعلامات بنشاط.
 وبالمثل ، يمكنك استكشاف المزيد من الجوانب وميزات CivicRM و Suitecrm.
 
-## الخاتمة   {#conclusion}
-هذا يقودنا إلى نهاية هذا **CivIcrm vs Suitecrm  **Post. لقد قمنا بتغطية بعض الموضوعات المهمة في هذه المقالة مثل ما هو CivICRM ، ومقدمة موجزة لـ Suitecrm ، ومقارنة بين كل من أدوات التشغيل الآلي للتسويق ** . بالإضافة إلى ذلك ، هناك برنامج أتمتة مجاني آخر ****  والمقالات ذات الصلة المجندة في قسم "استكشاف" أدناه والتي يمكنك التحقق منها. علاوة على ذلك ، سيساعدك منشور المدونة هذا بالتأكيد إذا كنت تتطلع بجدية إلى اختيار برنامج مفتوح المصدر لأتمتة تسويق عملك.
+## خاتمة {#خاتمة}
+
+هذا يقودنا إلى نهاية هذا  **CivIcrm vs Suitecrm** Post. لقد قمنا بتغطية بعض الموضوعات المهمة في هذه المقالة مثل ما هو CivICRM ، ومقدمة موجزة لـ Suitecrm ، ومقارنة بين كل من أدوات التشغيل الآلي للتسويق **. بالإضافة إلى ذلك ، هناك برنامج أتمتة مجاني آخر** **والمقالات ذات الصلة المجندة في قسم "استكشاف" أدناه والتي يمكنك التحقق منها. علاوة على ذلك ، سيساعدك منشور المدونة هذا بالتأكيد إذا كنت تتطلع بجدية إلى اختيار برنامج مفتوح المصدر لأتمتة تسويق عملك.
 أخيرًا ، [Containerize.com][16] يكتب بشكل مستمر منشورات المدونة على منتجات ومواضيع مفتوحة المصدر. لذلك ، يرجى البقاء على اتصال مع [منصات أتمتة التسويق][6] فئة للتحديثات العادية. علاوة على ذلك ، يمكنك متابعتنا على حسابات وسائل التواصل الاجتماعي لدينا [Facebook][17] و [LinkedIn][18] و [Twitter][19].
 
 ## يستكشف
@@ -58,29 +61,30 @@ categories: ['Marketing Automation']
   * [دروبال البرنامج التعليمي | أتمتة نمو الرصاص مع Drupal & Mautic][24]
   * [Civicrm WordPress Integration | البرنامج التعليمي WordPress][25]
 
-  
-[1]: https://blog.containerize.com/category/marketing-automation/
-[2]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
-[3]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
-[4]: https://products.containerize.com/marketing-automation/civicrm/
-[5]: https://products.containerize.com/marketing-automation/suitecrm/
-[6]: https://products.containerize.com/marketing-automation/
-[7]: #civi
-[8]: #suite
-[9]: #vs
-[10]: #Conclusion
-[11]: https://products.containerize.com/blogging/wordpress/
-[12]: https://products.containerize.com/content-management/joomla/
-[13]: https://products.containerize.com/content-management/drupal/
-[14]: https://github.com/civicrm/civicrm-core
-[15]: https://github.com/salesagility/SuiteCRM
-[16]: https://www.containerize.com/
-[17]: https://web.facebook.com/containerize
-[18]: https://www.linkedin.com/company/containerize/
-[19]: https://twitter.com/containerize_co
-[20]: https://products.containerize.com/marketing-automation/mautic/
-[21]: https://products.containerize.com/marketing-automation/espocrm/
-[22]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
-[23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
-[24]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
-[25]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+
+
+ [1]: https://blog.containerize.com/category/marketing-automation/
+ [2]: https://blog.containerize.com/marketing-automation/how-to-setup-marketing-campaigns-using-mautic-campaign-builder/
+ [3]: https://blog.containerize.com/blogging/marketing-automation-using-mautic-and-wordpress-woocommerce/
+ [4]: https://products.containerize.com/marketing-automation/civicrm/
+ [5]: https://products.containerize.com/marketing-automation/suitecrm/
+ [6]: https://products.containerize.com/marketing-automation/
+ [7]: #civi
+ [8]: #suite
+ [9]: #vs
+ [10]: #Conclusion
+ [11]: https://products.containerize.com/blogging/wordpress/
+ [12]: https://products.containerize.com/content-management/joomla/
+ [13]: https://products.containerize.com/content-management/drupal/
+ [14]: https://github.com/civicrm/civicrm-core
+ [15]: https://github.com/salesagility/SuiteCRM
+ [16]: https://www.containerize.com/
+ [17]: https://web.facebook.com/containerize
+ [18]: https://www.linkedin.com/company/containerize/
+ [19]: https://twitter.com/containerize_co
+ [20]: https://products.containerize.com/marketing-automation/mautic/
+ [21]: https://products.containerize.com/marketing-automation/espocrm/
+ [22]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+ [23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+ [24]: https://blog.containerize.com/content-management/drupal-tutorial-automate-lead-growth-with-drupal-mautic/
+ [25]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/

@@ -17,35 +17,39 @@ categories: ['Blogging']
 ## Przegląd
 Ponieważ Google i inne wyszukiwarki rozważają doświadczenie użytkownika witryny (UX) za kluczowy czynnik w ich algorytmach rankingowych. Ważniejsze stało się ulepszenie i optymalizację Twojej witryny pod kątem najwyższych ocen. Jednym z najważniejszych czynników, na które należy zwrócić uwagę, są prędkość strony i czas ładowania. A najszybszym i najłatwiejszym sposobem na poprawę prędkości i wydajności witryny jest umożliwienie kompresji GZIP na Twojej stronie. Istnieje szansa, że ​​Twój host automatycznie umożliwi ci kompresję GZIP. Jeśli nie, musisz sam wykonać to kluczowe zadanie.
 W tym artykule pokażemy dokładnie, jak łatwo włączyć kompresję GZIP w WordPress. Zacznijmy!
-* [**Czym jest kompresja GZIP**?][1]
-* [**Jak działa kompresja GZIP?**][2]
-* **[Jak sprawdzić, czy kompresja GZIP jest włączona?][3]**
-* **[Włącz kompresję GZIP w WordPress][4]**
-* **[wniosek][5]**
+* [ **Czym jest kompresja GZIP** ?][1]
+* [ **Jak działa kompresja GZIP?** ][2]
+* **[Jak sprawdzić, czy kompresja GZIP jest włączona?][3]** 
+* **[Włącz kompresję GZIP w WordPress][4]** 
+* **[wniosek][5]** 
 
-## Co to jest kompresja GZIP?   {#Co}
-GZIP to format pliku**i aplikacja**używana do kompresji i dekompresji plików. Serwery internetowe lub inne oprogramowanie używają kompresji GZIP do kompresji plików danych, zanim zostaną wysłane do przeglądarki użytkowników. Skraca to czas pobierania pliku, co sprawia, że ​​Twoja witryna jest szybsza. Wszystkie nowoczesne przeglądarki obsługują kompresję GZIP.
+## Co to jest kompresja GZIP? {#what}
+
+GZIP to format pliku **i aplikacja** używana do kompresji i dekompresji plików. Serwery internetowe lub inne oprogramowanie używają kompresji GZIP do kompresji plików danych, zanim zostaną wysłane do przeglądarki użytkowników. Skraca to czas pobierania pliku, co sprawia, że ​​Twoja witryna jest szybsza. Wszystkie nowoczesne przeglądarki obsługują kompresję GZIP.
 Należy również pamiętać, że kompresja GZIP musi być włączona na serwerze WWW, zanim możesz włączyć kompresję plików i folderów. Wkrótce zobaczymy, jak sprawdzić, czy Twój serwer WWW ma włączony GZIP.
 
-## Jak działa kompresja GZIP?   {#praca}
+## Jak działa kompresja GZIP? {#work}
+
 GZIP, najpopularniejsza metoda kompresji, jest używana przez serwery i przeglądarki do kompresji i dekompresji treści, ponieważ jest przesyłany przez Internet. Jest używany głównie w plikach kodu i tekstu, GZIP może zmniejszyć rozmiar plików JavaScript, CSS i HTML nawet o 90%. Domyślnie kompresja GZIP nie kompresuje obrazów ani filmów. W tym celu musisz zoptymalizować obrazy dla Internetu w swojej witrynie WordPress. Właśnie dlatego większość narzędzi do testowania prędkości witryny, takich jak Google Pagesspeed Insights, zdecydowanie zaleca włączenie kompresji GZIP.
 Gdy serwer WWW otrzyma żądanie strony internetowej, WebServer sprawdza nagłówek żądania, aby sprawdzić, czy przeglądarka obsługuje GZIP. Jeśli tak, serwer generuje znacznik dla strony przed zastosowaniem GZIP. GZIP przekształca znaczniki HTML w skompresowane dane, które są następnie dostarczane do użytkownika końcowego. Gdy użytkownik końcowy odbiera skompresowane dane, ich przeglądarka ich dekompresuje.
 
-## **Jak sprawdzić, czy kompresja GZIP jest włączona?** {#Verify}
+## **Jak sprawdzić, czy kompresja GZIP jest włączona?** {#verify}
+
 Twój host internetowy może domyślnie włączyć kompresję w WordPress. Jednak nie zawsze tak jest. Możesz ustalić, czy masz już włączoną kompresję GZIP za pomocą Chrome 'DevTools.
-Otwórz witrynę w chromowanej przeglądarce, a następnie kliknij prawym przyciskiem myszy w dowolnym miejscu na stronie i wybierz**Sprawdź**, aby**otwórz narzędzia programistów**.
-Następnie przejdź do karty**Sieć**i kliknij główny adres URL strony internetowej z sekcji „Nazwa”. Wybierz kartę****, a następnie przewiń w dół, aby znaleźć sekcję**nagłówki odpowiedzi**:
+Otwórz witrynę w przeglądarce Chrome, a następnie kliknij prawym przyciskiem myszy w dowolnym miejscu na stronie i wybierz **Sprawdź**, aby**otwórz narzędzia programisty** .
+Następnie przejdź do karty **Sieć**i kliknij główny adres URL strony internetowej z sekcji „Nazwa”. Wybierz kartę****, a następnie przewiń w dół, aby znaleźć sekcję** nagłówki odpowiedzi**:
 
 {{< figure align=center src="images/gzip-determine.gif" alt="Sprawdź kodowanie treści">}}
 
 Tam zobaczysz, czy kompresja GZIP jest włączona.
 
-## Włącz kompresję GZIP w WordPress   {#enable}
-Jeśli ustaliłeś, że**WordPress GZIP Compression nie jest jeszcze włączona**, istnieje wiele metod, których można użyć, aby go uruchomić. Najłatwiejszym sposobem jest użycie niektórych wtyczek WordPress, takich jak [WP Rocket][6], [WP Super Cache][7] lub [W3 Total Cache][8]. Możesz jednak zrobić to ręcznie na poziomie serwera według pliku .htaccess lub aktualizując konfigurację Nginx.
+## Włącz kompresję GZIP w WordPress {#enable}
 
-## # poprzez edytowanie pliku .htaccess
-Jednym z najczęstszych sposobów włączenia kompresji WordPress GZIP jest**edycja pliku _.htaccess_**. Obejmuje to jednak ryzyko złamania czegoś. Jest to poufny plik serwerowy, a jeden zły ruch może spowodować wiele problemów.
-Aby zmniejszyć ryzyko, przed wprowadzeniem jakichkolwiek zmian zapisz kopię oryginalnego pliku**. Plik _.htaccess_ powinien znajdować się w folderze**w Twojej witrynie**. Po otworze
+Jeśli ustaliłeś, że **WordPress GZIP Compression nie jest jeszcze włączona** , istnieje wiele metod, których można użyć, aby go uruchomić. Najłatwiejszym sposobem jest użycie niektórych wtyczek WordPress, takich jak [WP Rocket][6], [WP Super Cache][7] lub [W3 Total Cache][8]. Możesz jednak zrobić to ręcznie na poziomie serwera według pliku .htaccess lub aktualizując konfigurację Nginx.
+
+### poprzez edytowanie pliku .htaccess
+Jednym z najczęstszych sposobów włączenia kompresji WordPress GZIP jest **edycja pliku _.htaccess_** . Obejmuje to jednak ryzyko złamania czegoś. Jest to poufny plik serwerowy, a jeden zły ruch może spowodować wiele problemów.
+Aby zmniejszyć ryzyko, przed wprowadzeniem jakichkolwiek zmian zapisz kopię oryginalnego pliku **. Plik _.htaccess_ powinien znajdować się w folderze** w Twojej witrynie**. Po otworze
 ```
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
 AddOutputFilterByType DEFLATE application/javascript
@@ -76,11 +80,11 @@ BrowserMatch ^Mozilla/4.0[678] no-gzip
 BrowserMatch bMSIE !no-gzip !gzip-only-text/html
 Header append Vary User-Agent
 ```
-* * Zapisz plik**i prześlij go na serwer witryny. Po zakończeniu sprawdź, czy GZIP jest włączony za pomocą DevTools Chrome, jak wyjaśniono powyżej.
+**Zapisz plik** i prześlij go na serwer witryny. Po zakończeniu sprawdź, czy GZIP jest włączony za pomocą DevTools Chrome, jak wyjaśniono powyżej.
 
 ## Włącz kompresję GZIP w Nginx
-Do**Włącz kompresję**, dołącz dyrektywę**gzip**z parametrem ON.**gzip**on; Domyślnie**nginx**kompresuje odpowiedzi tylko z tekstem MIME/HTML. Aby kompresować odpowiedzi z innymi typami MIME, dołącz dyrektywę GZIP_TYPES i wymienić dodatkowe typy.
-Możesz włączyć kompresję GZIP w WordPress przez**Otwieranie pliku _nginx.conf_**i dodanie następującego kodu:
+Do **Włącz kompresję**, dołącz dyrektywę **gzip** z parametrem ON. **gzip** on; Domyślnie**nginx** kompresuje odpowiedzi tylko z tekstem MIME/HTML. Aby kompresować odpowiedzi z innymi typami MIME, dołącz dyrektywę GZIP_TYPES i wymienić dodatkowe typy.
+Możesz włączyć kompresję GZIP w WordPress przez **Otwieranie pliku _nginx.conf_** i dodanie następującego kodu:
 ```
 gzip on;
 gzip_disable "MSIE [1-6].(?!.*SV1)";
@@ -88,7 +92,8 @@ gzip_vary on;
 gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon application/javascript application/x-javascript;
 ```
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 To jest koniec tego samouczka WordPress GZIP. Istnieje wiele sposobów optymalizacji witryny w celu szybkości i wydajności. W tym samouczku GZIP WordPress przeszliśmy przez kompresję GZIP, znaczenie kompresji GZIP i jego etapów instalacji. Ponadto istnieje wiele istotnych linków wymienionych w poniższej sekcji „Odkryj”.
 Wreszcie [Containerize.com][9] pisze artykuły na temat dalszych produktów open source. Dlatego prosimy o kontakt z kategorią [blogowania][10] w celu regularnych wiadomości i aktualizacji.
 
@@ -103,7 +108,8 @@ Wreszcie [Containerize.com][9] pisze artykuły na temat dalszych produktów open
   * [Jak zainstalować wtyczkę w WordPress | Forum waniliowe][18]
   * [Zwiększ swoje leady za pomocą bezpłatnej integracji WordPress Civicrm][19]
 
-  
+
+
 [1]: #what
 [2]: #work
 [3]: #verify

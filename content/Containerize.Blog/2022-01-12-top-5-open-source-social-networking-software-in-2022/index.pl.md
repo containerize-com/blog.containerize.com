@@ -17,13 +17,14 @@ categories: ['Social Network Platforms']
 ## Przegląd
 Witamy w innym poście na blogu z serii na temat [oprogramowania do sieci społecznościowych][1]. W niedawnej przeszłości opublikowaliśmy post na blogu [dlaczego Twoja firma potrzebuje sieci społecznościowej hostowanej][2]. Jednak w tym poście na blogu poinformujemy Cię o 5 najczęściej używanych platformach społecznościowych open source. W rzeczywistości społeczność open source jest tak aktywna i żywa, że ​​można łatwo znaleźć oprogramowanie związane z dowolną sektą życia z całą dostępną dokumentacją. Tak więc, kiedy mówimy o przypadkach użycia biznesowej, większość firm ma tendencję do rozwijania własnej sieci, niezależnie od tego, czy jest ona związana z komunikacją zespołową, czy interakcją z konsumentami.
 Udane firmy zawsze obejmują każdy aspekt i zapewniają pełne środowisko obejmujące zarówno pracę, jak i społeczne. Dlatego istnieje wiele bezpłatnych platform współpracy, na których koledzy i klienci mogą się ze sobą towarzysko, korzystając z własnego narzędzia sieci społecznościowej, podobnie jak alternatywa dla znanych platform społecznościowych, takich jak Facebook. Omówimy następujące platformy sieci społecznościowych typu open source.
-  * **[humhub][3]**
-  * **[elgg][4]**
-  * **[diaspora][5]**
-  *[**Sieć społecznościowa open source** ][6]
-  * **[Plemię][7]**
+* **[humhub][3]** 
+* **[elgg][4]** 
+* **[diaspora][5]** 
+* [ **Sieć społecznościowa open source** ][6]
+* **[Plemię][7]** 
 
-## humhub   {#humhub}
+## Humhub {#Humhub}
+
 [Humhub][8] to oprogramowanie do sieci społecznościowych typu open source. Jest szeroko stosowany, a niektóre z możliwościami samodzielnymi. Ta bezpłatna platforma współpracy jest wysoce rozszerzalna i oferuje bogate tematy i moduły. Pozwala użytkownikom tworzyć przestrzenie publiczne lub prywatne do dowolnego użytku, takiego jak każda konkretna przestrzeń bazowa zadań lub inna. Ponadto członkowie mogą wykorzystać prawie wszystkie działania w mediach społecznościowych, takie jak mogą komentować, na przykład śledzić lub zamieszczać. Ponadto mogą zarządzać swoimi profilem i przeprowadzać globalne wyszukiwanie. Ponadto to narzędzie do sieci społecznościowych oferuje wersję online, w której każdy może doświadczyć tego bezpłatnego narzędzia. Interfejs użytkownika Humhub jest bardzo logiczny, a użytkownicy mogą łatwo poruszać się po różnych elementach. Jest napisany w PHP i łatwy do skonfigurowania na serwerach. Można znaleźć kod źródłowy humhub na [github][9].
 Poniżej znajdują się widoczne cechy:
   * Strumień aktywności
@@ -31,9 +32,10 @@ Poniżej znajdują się widoczne cechy:
   * Obsługa plików multimedialnych
   * Samodzielnie
   * Narzędzia społeczne
-[**Dowiedz się więcej o Humhub** ][10]
+[ **Dowiedz się więcej o Humhub** ][10]
 
-## elgg   {#elgg}
+## Elgg {#Elgg}
+
 [ELGG][11] to kolejna alternatywna nagradzana platforma sieci społecznościowej open source. Jest wysoce zorientowany na prywatność i odbywa się przy użyciu technik kryptograficznych. Ponadto jest również bardzo rozszerzalny i ujawnia interfejs programowania aplikacji (API) do integracji z aplikacjami stron trzecich. Ponadto dostępnych jest wiele wtyczek, które rozszerzają zakres tego oprogramowania do sieci społecznościowych. Ta bezpłatna platforma współpracy oferuje szeroką gamę funkcji, takich jak system powiadomień, system kontroli dostępu do zasobów statycznych, przechowywanie plików, widoki i wiele innych. Interfejs użytkownika tej platformy społecznościowej open source jest bardzo intuicyjny. Ponadto jest również napisany w PHP, dostępna jest cała dokumentacja dotycząca rozwoju i wdrażania. Dlatego można znaleźć kod źródłowy ELGG na [github][12].
 Elgg ma następujące kluczowe funkcje:
   * Wtyczki
@@ -43,7 +45,8 @@ Elgg ma następujące kluczowe funkcje:
   * Uwierzytelnianie użytkownika
 **[Dowiedz się więcej o ELGG][13]**
 
-## diaspora   {#Diaspora}
+## Diaspora {#Diaspora}
+
 [Diaspora][14] jest również jednym z najczęściej używanych oprogramowania do sieci społecznościowych. Jest to zdecentralizowana sieć społecznościowa i działa jako alternatywa dla Facebooka. Ta bezpłatna platforma współpracy ma funkcje społeczne na poziomie przedsiębiorstw, które zawierają wzmianki, tagi, emoji, reakcje, załączniki, grupy oparte na intencjach i wiele innych. Ponadto diaspora jest wysoce rozszerzalna i oferuje integrację z najlepiej ocenianymi platformami społecznościowymi, takimi jak Twitter i Tumblr. Ta zdecentralizowana sieć społecznościowa jest napisana w Ruby, Ruby on Rails wraz z pewnymi wkładami innych języków, takich jak JavaScript. Użytkownicy mogą mieć kompleksową dokumentację dotyczącą rozwoju i wdrażania. Dlatego można znaleźć kod źródłowy diaspory na [github][15].
 Diaspora oferuje następujące ważne funkcje:
   * Decentralizacja
@@ -53,35 +56,38 @@ Diaspora oferuje następujące ważne funkcje:
   * Samodzielnie
 **[Dowiedz się więcej o diasporze][16]**
 
-## Sieć społecznościowa open source   {#open}
+## Sieć społecznościowa typu open source {#Open}
+
 [Sieć społecznościowa open source][17] to kolejne narzędzie do sieci społecznościowych, które również wiąże się z samowystarczalnymi i rozszerzalnymi możliwościami. Jest wielojęzyczny i oferuje wsparcie w wielu językach. Ponadto ta platforma sieci społecznościowych typu open source zapewnia bezpieczeństwo danych i integrację z bibliotekami stron trzecich. Podobnie jak inne oprogramowanie, to narzędzie do sieci społecznościowych oferuje również fajne funkcje, takie jak wzmianka, tagi, system powiadomień, system blokowy, system Poke, zachęcanie przyjaciół i wiele innych. Ponadto oferuje również kanał informacyjny, emoji i wsparcie dla Captcha. To oprogramowanie do sieci społecznościowych jest napisane w PHP z niewielkim wkładem CSS. Dlatego użytkownicy mogą skorzystać z źródła na [GitHub][18] wraz z dokumentacją dotyczącą rozwoju i wdrażania.
-Sieć społecznościowa typu open source wymyśla następujące kluczowe funkcje:
+Sieć społecznościowa open source opracowuje następujące kluczowe funkcje:
   * Zaprosić przyjaciół
   * System powiadomień
   * Samodzielnie
   * Wielojęzyczne
   * Kanał informacyjny w czasie rzeczywistym
-[**Dowiedz się więcej o sieci społecznościowej open source** ][19]
+[ **Dowiedz się więcej o sieci społecznościowej open source** ][19]
 
-## Tribe   {#tribe}
+## Plemię {#Plemię}
+
 Wreszcie [Plemię][20] to kolejna platforma Ource Social Network, która zawiera komunikację opartą na wątkach i wiele więcej. To narzędzie do sieci społecznościowych oferuje wbudowaną integrację Google Analytics do śledzenia i analizy danych użytkowników. Plemię jest napisane w JavaScript i ma kompleksową dokumentację dotyczącą rozwoju i wdrażania. Ponadto jest bezpieczny, zorientowany na prywatność, przyjazny dla użytkownika i oferuje logiczny interfejs użytkownika. Dlatego możesz uzyskać kod źródłowy tego bezpłatnego narzędzia społecznego na [Github][21].
 Plemię oferuje następujące kluczowe punkty:
   * Tagi, powiadomienie
   * Wyszukaj funkcje
   * Samodzielnie
   * Zintegrowane Google Analytics
-  * Przestrzenie, kategoryzacja treści
-[**Dowiedz się więcej o plemieniu** ][22]
+  * Spaces, kategoryzacja treści
+[ **Dowiedz się więcej o plemieniu** ][22]
 
-## **Wniosek**
+## **Wniosek** 
 To prowadzi nas do końca tego postu na blogu. Przeszliśmy szeroko używane oprogramowanie do sieci społecznościowych. Ten artykuł pomoże Ci dokonać właściwego wyboru, jeśli chcesz wdrożyć platformę społecznościową open source dla swojej firmy. Ponadto istnieją inne istotne artykuły wymienione w poniższej sekcji „Explore”, które można sprawdzić.
 Wreszcie [Containerize.com][23] ciągle pisze posty na blogu na temat dalszych produktów i tematów open source. Dlatego prosimy o kontakt z kategorią [][24][oprogramowanie do sieci społecznościowych][25] w celu regularnych aktualizacji. Ponadto możesz śledzić nas na naszych kontach w mediach społecznościowych [Facebook][26], [LinkedIn][27] i [Twitter][28].
 
 ## Badać
-  * **[Zautomatyzuj operacje biznesowe za pomocą oprogramowania bezpłatnego i open source][29]**
-  *[**Dlaczego Twoja firma potrzebuje własnej sieci społecznościowej** ][17]
+* **[Zautomatyzuj operacje biznesowe za pomocą oprogramowania bezpłatnego i open source][29]** 
+* [ **Dlaczego Twoja firma potrzebuje własnej sieci społecznościowej** ][17]
 
-  
+
+
 [1]: https://blog.containerize.com/category/social-network-platforms/
 [2]: https://blog.containerize.com/social-network-platforms/why-your-business-needs-a-self-hosted-social-network/
 [3]: #Humhub

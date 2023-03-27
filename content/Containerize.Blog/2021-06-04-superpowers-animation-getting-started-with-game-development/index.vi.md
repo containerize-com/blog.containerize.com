@@ -14,24 +14,26 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/super.png" alt="Bắt đầu với sự phát triển trò chơi">}}
 
 
-## **Tổng quan**
+## **Tổng quan** 
 Trong loạt hướng dẫn phát triển trò chơi nguồn mở của chúng tôi, chúng tôi đã xuất bản các bài đăng trên blog về một số chủ đề phổ biến như [Hướng dẫn phát triển trò chơi | Chuyển động của người chơi trong GDevelop][1], [Hướng dẫn phát triển trò chơi HTML5 cho các lập trình viên trò chơi video][2], [Làm thế nào ngành công nghiệp trò chơi toàn cầu tận dụng phần mềm nguồn mở][3] và [Hướng dẫn phát triển GDevelop để bắt đầu phát triển trò chơi][4 ]. Bài viết hướng dẫn này là về việc bắt đầu phát triển trò chơi bằng cách sử dụng nguồn mở miễn phí [siêu năng lực][5] bằng cách bao gồm các điểm sau.
-  * **[Các loại hình ảnh động trò chơi][6]**
-  * **[Làm thế nào để tạo Sprites?][7]**
-  * **[Làm việc với các cảnh][8]**
-  * **[Ra mắt trò chơi trên localhost][9]**
-  * **[Kết luận][10]**
+* **[Các loại hình ảnh động trò chơi][6]** 
+* **[Cách tạo Sprites?][7]** 
+* **[Làm việc với các cảnh][8]** 
+* **[Ra mắt trò chơi trên localhost][9]** 
+* **[Kết luận][10]** 
 Có nhiều phần mềm phát triển trò chơi nguồn mở cho người mới bắt đầu có khả năng tự lưu trữ. Tuy nhiên, [Superpowers][5] là một phần mềm tạo trò chơi 2D & 3D đa nền tảng. Nó cung cấp các thư viện tích hợp và ví dụ trò chơi giúp phát triển trò chơi dễ dàng cho các nhà phát triển trò chơi. Ứng dụng thiết kế trò chơi miễn phí này được viết bằng TypeScript và tất cả các tài liệu có sẵn tại [GitHub][11] về sự phát triển và triển khai. Trong bài đăng trên blog này, chúng tôi sẽ khám phá các siêu cường về việc sử dụng của họ.
 
-## Các loại hình ảnh động trò chơi   {#types}
-Hoạt hình là một phần quan trọng của trò chơi video. Các nhân vật trong các trò chơi phải phản ứng với các hành động của người dùng, hoạt hình phải trơn tru và đột ngột. Đó là về việc quản lý nhiều khung và các nhà làm phim hoạt hình tinh chỉnh các khung đó để tạo ra các hiệu ứng di chuyển. Hơn nữa, có các hình ảnh động 2D & 3D trong đó các đối tượng dường như di chuyển qua không gian ba chiều. Các nhà phát triển trò chơi và nhà thiết kế đồ họa tạo ra các mô hình 3D. Hoạt hình phụ thuộc vào bản chất của trò chơi và các loại phổ biến nhất như sau.
-**Hoạt hình đi bộ: ** Hoạt hình đi bộ là về việc tạo ra một quá trình đi bộ trong đó các nhân vật làm động từng bước và đưa ra hình minh họa đi bộ.
-**Hoạt hình nhàn rỗi: ** Đây là một loại hoạt hình rất quan trọng trong đó nhân vật không làm gì cả vì người dùng không nhấn bất kỳ bộ điều khiển nào.
-**Chạy hoạt hình **: Chạy hoạt hình là một phần của mọi trò chơi trong đó đối tượng trò chơi thực hiện chu kỳ chạy. Loại này là loại phổ biến nhất và đòi hỏi sự chú ý nhiều hơn từ nhà phát triển.
-**Chiến đấu hoạt hình **: Trong các trò chơi chiến đấu, nhiều nhân vật trò chơi chiến đấu với nhau.
-**Hoạt hình nhảy **: Kiểu hoạt hình này đòi hỏi các kỹ năng và chuyên môn tốt hơn. Ký tự nén và giải phóng cơ thể để thực hiện minh họa nhảy.
+## Các loại hình ảnh động trò chơi {#types}
 
-## Làm thế nào để tạo Sprites?   {#Sprites}
+Hoạt hình là một phần quan trọng của trò chơi video. Các nhân vật trong các trò chơi phải phản ứng với các hành động của người dùng, hoạt hình phải trơn tru và đột ngột. Đó là về việc quản lý nhiều khung và các nhà làm phim hoạt hình tinh chỉnh các khung đó để tạo ra các hiệu ứng di chuyển. Hơn nữa, có các hình ảnh động 2D & 3D trong đó các đối tượng dường như di chuyển qua không gian ba chiều. Các nhà phát triển trò chơi và nhà thiết kế đồ họa tạo ra các mô hình 3D. Hoạt hình phụ thuộc vào bản chất của trò chơi và các loại phổ biến nhất như sau.
+**Hoạt hình đi bộ:**  Hoạt hình đi bộ là về việc tạo ra một quá trình đi bộ trong đó các nhân vật làm động từng bước và đưa ra hình minh họa đi bộ.
+**Hoạt hình nhàn rỗi:**  Đây là một loại hoạt hình rất quan trọng trong đó nhân vật không làm gì cả vì người dùng không nhấn bất kỳ bộ điều khiển nào.
+**Chạy hoạt hình** : Chạy hoạt hình là một phần của mọi trò chơi trong đó đối tượng trò chơi thực hiện chu kỳ chạy. Loại này là loại phổ biến nhất và đòi hỏi sự chú ý nhiều hơn từ nhà phát triển.
+**Chiến đấu hoạt hình** : Trong các trò chơi chiến đấu, nhiều nhân vật trò chơi chiến đấu với nhau.
+**Hoạt hình nhảy** : Kiểu hoạt hình này đòi hỏi các kỹ năng và chuyên môn tốt hơn. Ký tự nén và giải phóng cơ thể để thực hiện minh họa nhảy.
+
+## Làm thế nào để tạo Sprites? {#sprites}
+
 Phần này của hướng dẫn làm trò chơi cho phép người dùng tạo các dự án và bắt đầu tạo Sprites cho trò chơi. Sprites là hình ảnh hoặc đồ họa không tĩnh không chỉ được sử dụng trong các trò chơi mà còn là một phần của thiết kế web. Chúng thường được vẽ trên một nền đang được làm mới liên tục.
 Trước khi tiếp tục, hãy chắc chắn rằng bạn đã thiết lập siêu năng lực trên máy của mình. Bạn có thể theo liên kết này [Hướng dẫn phát triển trò chơi HTML5 cho các lập trình viên trò chơi video][2] để thiết lập nền tảng tạo trò chơi miễn phí này.
 Đầu tiên, hãy mở ứng dụng vào trình duyệt và để cho một dự án trống mới. như thể hiện trong hình ảnh dưới đây.
@@ -52,7 +54,8 @@ Sau đó, hãy để tạo ra hình ảnh động. Chúng ta có thể làm đi�
 {{< figure align=center src="images/Screenshot-2021-06-04-at-13.12.21-1024x578.png" alt="Phần mềm phát triển trò chơi cho người mới bắt đầu">}}
 
 
-## Làm việc với các cảnh   {#Scenes}
+## Làm việc với các cảnh {#scenes}
+
 Trong phần này, chúng tôi sẽ thêm một cảnh vào trò chơi của chúng tôi. Đối với điều đó, một lần nữa mở hộp thoại tài sản và chọn cảnh Cảnh và nhấn nút Tạo. Bây giờ tạo một diễn viên bằng cách nhấp vào nút Star có sẵn ở góc trên cùng bên phải như trong hình ảnh bên dưới.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-14.07.34-1024x580.png" alt="Làm thế nào để tạo một trò chơi trên đầu cho người mới bắt đầu">}}
@@ -64,7 +67,8 @@ Bạn có thể thay đổi chế độ camera, vì vậy hãy thay đổi nó t
 
 Ở góc dưới bên trái, điều hướng đến tùy chọn Cài đặt và mở nó. Theo các phần của Sprite Sprite và các phần của Ngói, chèn 16 phần so với Pixel Pixel trên mỗi đơn vị. Sau đó, trong chế độ camera mặc định của người Viking, chọn 2D trong phần Cảnh trên mạng. Hơn nữa, trong phần Bản đồ gạch của người dùng, chiều rộng mặc định 36, chiều cao mặc định 28 và kích thước lưới đặt gạch 16. Không cần lưu nó, thay vào đó mọi thứ đều có trên tự động.
 
-## Khởi chạy trò chơi trên localhost   {#local}
+## Ra mắt trò chơi trên localhost {#local}
+
 Vì vậy, chúng tôi gần với việc ra mắt hoạt hình siêu năng lực của trò chơi đầu tiên của chúng tôi. Tuy nhiên, một lần nữa chuyển đến tab Cài đặt và kéo cảnh từ bảng điều khiển bên trái và thả nó vào cảnh khởi động của Hồi giáo như trong hình ảnh bên dưới.
 
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.29.34-1024x578.png" alt="Làm thế nào để tạo một trò chơi trên đầu cho người mới bắt đầu">}}
@@ -74,8 +78,9 @@ Bây giờ, nhấp vào người chơi của người chơi và trong thành ph�
 {{< figure align=center src="images/Screenshot-2021-06-04-at-15.42.14-1024x576.png" alt="Bắt đầu với sự phát triển trò chơi">}}
 
 
-## Kết luận   {#conclusion}
-Đây là kết thúc của hướng dẫn trong đó chúng tôi đã học cách làm một trò chơi trên đầu cho người mới bắt đầu. Do đó, bắt đầu với việc phát triển trò chơi trở nên dễ dàng khi có tài liệu chi tiết về phần mềm phát triển trò chơi có sẵn. Cuối cùng, [**containerize.com** ][12] đang trong một quá trình viết bài viết nhất quán về các chủ đề và sản phẩm nguồn mở hơn nữa. Do đó, vui lòng giữ liên lạc với danh mục [Phần mềm phát triển trò chơi][13] này để cập nhật thường xuyên.
+## Phần kết luận {#Phần kết luận}
+
+Đây là kết thúc của hướng dẫn trong đó chúng tôi đã học cách làm một trò chơi trên đầu cho người mới bắt đầu. Do đó, bắt đầu với việc phát triển trò chơi trở nên dễ dàng khi có tài liệu chi tiết về phần mềm phát triển trò chơi có sẵn. Cuối cùng, [ **containerize.com** ][12] đang trong một quá trình viết bài viết nhất quán về các chủ đề và sản phẩm nguồn mở hơn nữa. Do đó, vui lòng giữ liên lạc với danh mục [Phần mềm phát triển trò chơi][13] này để cập nhật thường xuyên.
 
 ## Khám phá
   * [GDevelop][14]
@@ -85,7 +90,8 @@ Bây giờ, nhấp vào người chơi của người chơi và trong thành ph�
   * [Panda3d][17]
   * [PlayCanvas][18]
 
-  
+
+
 [1]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
 [2]: https://blog.containerize.com/2021/05/19/html5-game-development-tutorial-for-video-game-programmers/
 [3]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/

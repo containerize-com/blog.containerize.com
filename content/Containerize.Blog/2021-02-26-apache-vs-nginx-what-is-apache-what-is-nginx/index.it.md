@@ -23,13 +23,16 @@ Sebbene Apache e Nginx condividano molte qualità, non dovrebbero essere conside
   * [Conclusione][5]
   * [Explore][6]
 
-## Cos'è Apache?   {#whatisapache}
+## Cos'è Apache? {#whatisapache}
+
 Il server Web Apache è uno dei server più popolari su Internet e serve oltre il 27% dei siti Web. Apache è principalmente la prima scelta di sviluppatori grazie alla sua flessibilità, potenza, supporto diffuso e documentazione dettagliata. Supporta moduli caricanti dinamicamente che consentono agli sviluppatori di estendere facilmente la sua funzionalità.
 
-## che cos'è nginx?   {#whatisnginx}
+## Cos'è Nginx? {#whatisnginx}
+
 Questo articolo parla del confronto Apache vs Nginx. Entrambi i server Web sono open-source, configurabili e gestiscono più della metà del traffico Internet del mondo.
 
-## apache vs nginx confronto   {#apachevsnginx}
+## Confronto apache vs nginx {#apachevsnginx}
+
 In questa sezione, confrontiamo Apache e NGINX sulla base di supporto, documentazione, tipo di contenuto e struttura di configurazione.
 
 #### Architettura
@@ -50,14 +53,17 @@ Apache Server ha la possibilità di interpretare una richiesta come risorsa fisi
 Configurazione ####
 Apache fornisce agli sviluppatori la possibilità di impostare la configurazione a livello di directory utilizzando il file indicato come .htaccess. Ma nel caso di NGINX, non esiste un tale meccanismo per impostare la configurazione a livello di directory. Apache fornisce maggiore flessibilità di NGINX in termini di configurazioni.
 
-## NGINX è migliore di Apache?   {#nginx}
+## Nginx è meglio di Apache? {#nginx}
+
 Nginx è più veloce di Apache per servire il contenuto statico. Quindi, se la tua applicazione Web serve molti contenuti statici, sì Nginx è migliore e più veloce di Apache. Per quanto riguarda il contenuto dinamico, entrambi i server Web offrono quasi le stesse prestazioni, quindi non esiste un chiaro vincitore qui. Sia Apache che Nginx funzionano su quasi tutti i sistemi operativi, ma le prestazioni di Nginx su Windows non sono altrettanto buone rispetto a quelle di Apache. Se il tuo sistema operativo è un sistema simile a Unix e l'applicazione Web è critica per le prestazioni, sì, Nginx è migliore di Apache.
 
-## conclusioni   {#conclusion}
+## Conclusione {#conclusion}
+
 Sia Apache che Nginx sono capaci a modo loro. Abbiamo discusso del confronto Apache vs Nginx, di ciò che è Apache, di ciò che è Nginx in dettaglio e alla differenza tra Apache e Nginx. Selezionare uno da questi due server Web più popolari dipende totalmente dai requisiti delle app Web. La selezione dipende dalle tue aspettative con prestazioni, utilizzo delle risorse, velocità, scalabilità e supporto di un server Web. Entrambi hanno i loro benefici. Non esiste un server Web unico per tutti, quindi usa la soluzione che si adatta meglio ai tuoi obiettivi e aspettative.
 Infine, [containerize.com][7] è in costante scrittura di post sul blog su ulteriori prodotti e argomenti open source. Pertanto, rimani in contatto con la categoria [Server Web open source][8] per aggiornamenti regolari. Inoltre, puoi seguirci sui nostri account di social media [Facebook][9], [LinkedIn][10] e [Twitter][11].
 
-## esplora   {#explore}
+## Esplorare {#explore}
+
 Potresti trovare i seguenti collegamenti pertinenti:
   * [Top 5 Stack Solution Open Source Web Server nel 2021][12]
   * [Setup XAMPP e PhpMyAdmin come LocalHost su Windows][13]
@@ -65,7 +71,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Nginx | Server web leggero e ad alte prestazioni][15]
   * [Tutorial di configurazione per lo stack LEMP su Ubuntu 18.04][16]
 
-  
+
+
 [1]: #whatisapache
 [2]: #whatisnginx
 [3]: #apachevsnginx

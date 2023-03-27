@@ -16,14 +16,15 @@ categories: ['Blockchain Platforms']
 
 ## Tổng quan
 Gần đây, chúng tôi đã xuất bản các bài đăng trên blog về [Công nghệ blockchain cho doanh nghiệp][1] và một bài viết hướng dẫn về việc xây dựng [Hợp đồng thông minh cơ bản][2]. Tuy nhiên, chúng tôi đã tổng hợp một danh sách các nền tảng blockchain phổ biến sau đây của năm 2020.
-* **[Ethereum][3]**
-* **[vải Hypeledger][4]**
-* **[Openchain][5]**
-* **[Multichain][6]**
-* **[Ripple][7]**
-* **[Kết luận][8]**
+*  **[Ethereum][3]**  
+*  **[vải Hypeledger][4]**  
+*  **[Openchain][5]**  
+*  **[Multichain][6]**  
+*  **[Ripple][7]**  
+*  **[Kết luận][8]**  
 
-## ethereum   {#ether}
+## Ethereum {#ether}
+
 [Ethereum][9] là một nền tảng dựa trên blockchain nguồn mở hàng đầu. Nó cung cấp một khung hoàn chỉnh để quản lý tài sản kỹ thuật số, viết hợp đồng thông minh và xây dựng các ứng dụng phi tập trung. Phần mềm này sử dụng thuật toán đồng thuận có tên là Proof of Work (POW). Nó hỗ trợ tiền điện tử của riêng mình được gọi là ether. Hơn nữa, Ethereum có năm thành phần chính máy ảo Ethereum, hợp đồng thông minh, nút Ethereum, API máy khách Ethereum và các ứng dụng người dùng cuối. Nó được viết bằng ngôn ngữ GO và tất cả các mã nguồn có sẵn tại [GitHub][10].
 Sau đây là các tính năng nổi bật:
   * An toàn với mật mã
@@ -33,7 +34,8 @@ Sau đây là các tính năng nổi bật:
   * Kiến trúc nhiều lớp
 [Đọc thêm][11]
 
-## vải hypeledger   {#hyper}
+## Vải hypeledger {#hyper}
+
 [Vải Hyperledger][12] là một blockchain được cho phép nguồn mở được xây dựng trên một kiến ​​trúc mô -đun. Tuy nhiên, nó cung cấp cho người dùng để sử dụng bất kỳ giao thức đồng thuận nào tùy thuộc vào trường hợp sử dụng. Hơn nữa, phần mềm này có thể mở rộng, mạnh mẽ và hiệu quả. Nó cung cấp tích hợp với các phần mềm của bên thứ ba như LDAP, OpenID Connect và thư viện mật mã. Nó cũng được viết bằng ngôn ngữ GO và mã nguồn của nó có sẵn trên [GitHub][13].
 Hyperledger Fabric có các tính năng chính sau:
   * Hỗ trợ cho EVM và sự vững chắc
@@ -43,7 +45,8 @@ Hyperledger Fabric có các tính năng chính sau:
   * Dữ liệu có thể truy vấn
 [Đọc thêm][14]
 
-## OpenChain   {#open}
+## Openchain {#open}
+
 [Openchain][15] tương đối là một công nghệ blockchain mới và nó dựa trên kiến ​​trúc máy chủ khách. Hơn nữa, bất kỳ ai cũng có thể thiết lập một phiên bản của phần mềm nguồn mở này và có một quản trị viên cho mỗi trường hợp xác nhận các giao dịch. Ngoài ra, không có cơ chế khai thác được hỗ trợ trong Openchain. Trên tất cả, thuật toán đồng thuận Partionned đang được sử dụng trong nền tảng này. Nó được viết bằng ngôn ngữ C# và mã nguồn của nó có sẵn tại [GitHub][16].
 Openchain cung cấp các tính năng quan trọng sau:
   * Cung cấp để xác định các quy tắc
@@ -58,12 +61,13 @@ Openchain cung cấp các tính năng quan trọng sau:
 Multichain đưa ra các tính năng chính sau:
   * Hỗ trợ tài sản không giới hạn
   * Quản lý quyền
-  * An toàn với khóa công-tư công cộng
+  * Bảo mật với khóa công-tư công cộng
   * Linh hoạt và mạnh mẽ
   * Nguồn cấp dữ liệu thời gian thực
 [Đọc thêm][18]
 
-## Ripple   {#Ripple}
+## Gợn sóng {#Gợn sóng}
+
 [Ripple][20] là nền tảng blockchain nguồn mở cấp doanh nghiệp với các tính năng nâng cao. Do đó, nó dựa trên cơ sở hạ tầng phi tập trung hỗ trợ các giao dịch bảo đảm tài sản kỹ thuật số. Trên hết, nó có một loạt các tính năng đủ để thiết lập một doanh nghiệp thanh toán. Hơn nữa, nó được cung cấp bởi một sổ cái XRP là một sổ cái mật mã phi tập trung. Tuy nhiên, phần mềm nguồn mở này được viết bằng ngôn ngữ C ++ với đầu vào của các ngôn ngữ khác và mã nguồn của nó có sẵn tại [GitHub][21].
 Ripple cung cấp các điểm chính sau:
   * Được cung cấp bởi sổ cái XRP
@@ -73,7 +77,8 @@ Ripple cung cấp các điểm chính sau:
   * Đa năng
 [Đọc thêm][22]
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#Phần kết luận}
+
 Trong bài đăng trên blog này, chúng tôi đã trải qua một số nền tảng blockchain nguồn mở phổ biến. Vì có nhiều nền tảng phổ biến khác có sẵn, các nền tảng mới đã bắt đầu đạt được ý định của cộng đồng bằng cách cung cấp các tính năng nâng cao. Do đó, luôn luôn là một ý tưởng tốt để điều tra đúng trước khi đưa ra bất kỳ lựa chọn nào.
 Cuối cùng, [containerize.com][23] đang mở rộng danh sách các phần mềm và bài đăng trên blog nguồn mở. Do đó, vui lòng giữ liên lạc với danh mục [nền tảng blockchain][24] để cập nhật thường xuyên.
 
@@ -86,7 +91,8 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Multichain][25]
   * [Quorum của Consensys][26]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: #ether

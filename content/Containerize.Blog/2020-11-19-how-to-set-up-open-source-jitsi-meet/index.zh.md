@@ -21,11 +21,13 @@ categories: ['Video Conferencing Software']
   * [jitsi符合功能探索][5]
   * [结论][6]
 
-## 简短介绍Jitsi Meet   {#intro}
+## 简短介绍Jitsi聚会 {#intro}
+
 [Jitsi Meet][7]是一个完全免费的开源，安全可扩展的视频协作软件。它提供了几个流行的功能，例如带有完整加密，对以太赛车的支持以及视频/音频录制的多方视频会议。此WEBRTC兼容软件使您可以邀请尽可能多的用户参加视频会议。
 虚拟会议的兴起始于最近，人们认为通过视频/音频通话的沟通更有效和协作。最重要的是，这类软件不仅可以在笔记本电脑/台式机上使用，而且还使参与者可以通过手机面对安全的视频会议。
 
-## 如何设置Jitsi见面？   {#设置}
+## 如何设置Jitsi见面？ {#setup}
+
 在本节中，我们将进入Jitsi Meet的安装过程。首先，确保您已经安装了以下先决条件。
   * [Docker][8]
 安装Docker后，从此[链接][9]下载源代码的zip文件。
@@ -39,6 +41,7 @@ categories: ['Video Conferencing Software']
 `docker -compose -d`
 
 ## jitsi满足功能探索 {#features}
+
 这个免费的视频聊天软件提供了许多丰富的功能。这是将首先显示的主页。
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="视频会议">}}
@@ -65,6 +68,7 @@ Jitsi Meet提供与表情符号的集成聊天。
 
 
 ## 结论 {#con}
+
 在本文中，我们浏览了令人惊叹的远程通信软件及其安装过程。此外，现在是时候选择最佳解决方案与不断发展的技术同步业务需求了。最后，[Containerize.com][10]一直在努力扩展视频会议软件的列表。因此，请与常规更新的[视频会议软件][2]类别保持联系。
 
 ## 相关产品页面
@@ -75,7 +79,8 @@ Jitsi Meet提供与表情符号的集成聊天。
   * [元素][13]
   * [电线][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

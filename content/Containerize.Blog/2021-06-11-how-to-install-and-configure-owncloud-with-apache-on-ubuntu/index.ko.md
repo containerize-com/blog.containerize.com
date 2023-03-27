@@ -26,19 +26,19 @@ OwnCloud는 웹 인터페이스를 사용하여 프라이빗 클라우드를 생
   * 결론
 
 ## 1 단계 : 램프 서버를 설치합니다
-자체 클라우드 서버를 설정하고 프라이빗 클라우드를 만드는 방법을 위해 먼저 램프 서버를 설정해야합니다. 램프 스택을 이미 설치하고 실행중인 경우이 단계를 건너 뛰면 다음 단계를 사용하여 다음 명령을 사용하여 우분투 시스템에서 램프를 설정하십시오.
+자체 클라우드 서버를 설정하고 프라이빗 클라우드를 만드는 방법을 위해 먼저 실행중인 램프 서버를 설정해야합니다. 램프 스택을 이미 설치하고 실행중인 경우이 단계를 건너 뛰면 다음 단계를 사용하여 다음 명령을 사용하여 우분투 시스템에서 램프를 설정하십시오.
 
 ### php를 설치하십시오
 명령을 실행하여 우분투 또는 데비안 시스템에 PHP 5.6 이상의 버전을 설치할 수 있습니다.
-Sudo apt-get 설치 Python-Software-Properties
+sudo apt-get 설치 Python-Software-Properties
 Sudo Add-Apt-Repository PPA : Ondrej/Php
-Sudo apt-get 업데이트
+sudo apt-get 업데이트
 sudo apt -get 업그레이드 -y
 Sudo apt-get install -y php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_31_}}
 
 ### Apache2를 설치하십시오
-Apache는 가장 널리 사용되는 오픈 소스 웹 서버 소프트웨어입니다. 그런 다음 Ubuntu에 Apache 웹 서버를 설치하여 자신의 클라우드 서버를 실행하여 다음을 수행하십시오.
+Apache는 가장 널리 사용되는 오픈 소스 웹 서버 소프트웨어입니다. 다음으로 Ubuntu에 Apache 웹 서버를 설치하여 자신의 클라우드 서버를 실행하여 다음을 수행하십시오.
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_35_}}
 
@@ -67,7 +67,7 @@ sudo systemctl 다시 시작 apache2
 mysql -u 루트 -p
 암호를 입력:
 mysql> 데이터베이스 weencloud 만들기;
-mysql> onselfcloud에 모든 것을 부여하십시오.* 'onseldcloud'@'localhost'로 '_password_'로 식별;
+mysql> onselfcloud에 모든 것을 부여하십시오.* 'onevercloud'@'localhost'로 '_password_'로 식별;
 MySQL> 플러시 권한;
 mysql> 종료
 {{_LINE_62_}}
@@ -97,27 +97,30 @@ http : // localhost/onsolcloud/
 {{_LINE_79_}}
 응! 우리는 개인 클라우드 스토리지를 구축하기 위해 OwnCloud 설치 가이드를 완료했습니다. 이제 Dropbox 또는 Google Drive와 유사한 단계별로 개인 클라우드를 구축하기 위해 Ubuntu에 OwnCloud를 완전히 설치하는 방법을 알고 있습니다.
 
-## **소유 클라우드에 가장 적합한 대안은 무엇입니까?** {#4a1a}
-다음은 Self Hosted OwnCloud 대안 및 경쟁사 파일 호스팅 소프트웨어입니다.
-  ***Seafile** 는 오픈 소스 크로스 플랫폼 파일 호스팅 소프트웨어 시스템입니다.
-  ***NextCloud** 는 무료이며 오픈 소스 클라우드 스토리지 플랫폼입니다.
-  ***resilio sync** 는 오픈 소스 피어 투 피어 파일 동기화 응용 프로그램입니다.
-  ***Pydio Cells** 는 오픈 소스 파일 공유 및 동기화 소프트웨어입니다.
-  ***동기화** 는 무료이며 오픈 소스 피어 투 피어 파일 동기화 응용 프로그램
+## **OwnCloud에 가장 적합한 대안은 무엇입니까?** {#4a1a}
 
-## **결론 :** {#block-dd1258f4-e0c5-4Ac9-be18-7dd2a700f09e}
+다음은 자체 호스팅 된 OwnCloud 대안 및 경쟁사 파일 호스팅 소프트웨어입니다.
+* **Seafile** 는 오픈 소스 크로스 플랫폼 파일 호스팅 소프트웨어 시스템입니다.
+* **NextCloud** 는 무료이며 오픈 소스 클라우드 스토리지 플랫폼입니다.
+* **resilio sync** 는 오픈 소스 피어 투 피어 파일 동기화 응용 프로그램입니다.
+* **Pydio Cells** 는 오픈 소스 파일 공유 및 동기화 소프트웨어입니다.
+* **동기화** 는 무료이며 오픈 소스 피어 투 피어 파일 동기화 응용 프로그램
+
+## **결론:**  {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 축하해요! Ubuntu 머신에서 Apache로 자신의 프라이빗 클라우드를 구축하기 위해 OwnCloud를 성공적으로 설치하고 구성했습니다. 이제 귀하의 데이터는 타사의 손에 달려 있지 않으며 Virtual Private Cloud OwnCloud Ubuntu 서버 스토리지에서 개인적으로 관리 할 수 ​​있습니다. 많은 회사들이 데이터의 개인 정보 보호 문제로 인해 많은 중요한 정보를 가진 자체 클라우드 서버를 만들기로 선택하고 있습니다. 다가오는 튜토리얼에서는 웹 서버 솔루션 스택의 더 흥미로운 주제에 대해 논의 할 것입니다.
 _ 당신은 [Twitter][2], [LinkedIn][3] 및 [Facebook][4] 페이지에서 우리와 함께 할 수 있습니다. 온라인에서 어떤 클라우드 기반 스토리지 솔루션을 사용하십니까?. 궁금한 점이 있으면 제발 _ [연락을 취하십시오][5].
 
 ## 탐구하다:
-또한 귀하의 서버의 일상 관리와 관련된 몇 가지 다른 기사가 있습니다.
+또한 서버의 일상적인 관리와 관련된 몇 가지 다른 기사가 있습니다.
   * [우분투/데비안의 역 프록시로 아파치를 구성하는 방법][6]
   * [우분투에 nginx를 사용하여 phpmyadmin을 설치하고 고정하는 방법][7]
   * [우분투에서하자 암호화 20.04로 Nginx를 안전하고 암호화합니다][8]
   * [우분투/데비안의 NGINX에서 HTTP/2 지원을 구성][9]
   * [AWS 프로덕션 서버에서 승객으로 Nginx 설정][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

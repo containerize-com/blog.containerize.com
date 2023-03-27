@@ -13,7 +13,7 @@ categories: ['Uncategorized']
 
 {{< figure align=center src="images/bitwarden.png" alt="Gerentes de senha de código aberto | Bitwarden vs Passtolt|Gerentes de senha de código aberto | Bitwarden vs Passtolt">}}
 
-Quando se trata de encontrar um gerenciador de senhas que não apenas funcione para uso individual, mas permite que equipes e empresas gerenciem e acessem melhor informações confidenciais, encontrar o gerenciador de senhas certo pode ajudar a aliviar o fluxo de trabalho. Bitwarden e Passbolt são softwares de gerenciador de senhas de código aberto, que foram projetados especificamente para equipes e permitem que as empresas hospedem os aplicativos localmente ou na nuvem. Abordaremos os seguintes tópicos neste post para comparar o Bitwarden vs Pass -Bolt:
+Quando se trata de encontrar um gerenciador de senhas que não apenas funcione para uso individual, mas permite que equipes e empresas gerenciem e acessem melhor informações confidenciais, encontrar o gerenciador de senhas certo pode ajudar a aliviar o fluxo de trabalho. Bitwarden e Passbolt são softwares de gerenciador de senhas de código aberto, que foram projetados especificamente para equipes e permitem que as empresas hospedem os aplicativos localmente ou na nuvem. Cobriremos os seguintes tópicos neste post para comparar o Bitwarden vs Passtolt:
   * [O que é Bitwarden?][1]
   * [O que é Pass -Bolt?][2]
   * [Principais diferenças][3]
@@ -57,7 +57,8 @@ Você pode encontrar links a seguir relevantes:
 [Passolt | Greer, gerenciador de senhas de código aberto e auto-hospedado][6]
 [Configurar e gerenciar o Keepass Password Manager para Windows][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

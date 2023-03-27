@@ -13,16 +13,18 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/deployer-blog-post.png" alt="ابزار استقرار PHP">}}
 
-این یک کار بسیار مهم برای استقرار برنامه در سرور پس از توسعه است. ویژگی های جدید و رفع اشکال اغلب توسط تیم ها منتشر می شود. بنابراین ، برای تیم ها ترجیح داده می شود که کار دستی را از بین ببرند و فرآیند استقرار نرم افزار **را به صورت خودکار انجام دهند. این امر به تیم های نرم افزاری اجازه می دهد تا روی کارهای مهم تر تمرکز کنند. چندین ابزار استقرار منبع باز  **در آنجا وجود دارد اما ما در این آموزش روی استقرار**   PHP** تمرکز خواهیم کرد. بخش زیر را در این پست پوشش خواهیم داد.
-  *[ **استقرارگر** ][1]
-  *[ **نصب مستقر** ][2]
-  *[ **برنامه PHP را مستقر کنید** ][3]
-  *[ **نتیجه گیری** ][4]
+این یک کار بسیار مهم برای استقرار برنامه در سرور پس از توسعه است. ویژگی های جدید و رفع اشکال اغلب توسط تیم ها منتشر می شود. بنابراین ، برای تیم ها ترجیح داده می شود که کار دستی را از بین ببرند و فرآیند استقرار نرم افزار  **را به صورت خودکار انجام دهند. این امر به تیم های نرم افزاری اجازه می دهد تا روی کارهای مهم تر تمرکز کنند. چندین ابزار استقرار منبع باز** در آنجا وجود دارد اما ما در این آموزش روی استقرار **PHP**  تمرکز خواهیم کرد. بخش زیر را در این پست پوشش خواهیم داد.
+* [  **استقرارگر**  ][1]
+* [  **نصب مستقر**  ][2]
+* [  **برنامه PHP را مستقر کنید**  ][3]
+* [  **نتیجه گیری**  ][4]
 
-## استقرارگر چیست   {#What}
-[**Diventeer **][5] یک ابزار رایگان و منبع باز است  **ابزار استقرار PHP ** . این امکان را برای تیم های نرم افزاری برای خودکارسازی گردش کار استقرار برای برنامه های مبتنی بر PHP فراهم می کند. نصب بسیار ساده و استفاده آسان است. هرکسی از تجربه سطح مبتدی تا متخصص می تواند به سرعت از آن برای استقرار برنامه های PHP استفاده کند. Divelipleer با دستور العمل های خارج از جعبه/اسکریپت برای چارچوب های محبوب PHP ، CMS و نرم افزار سبد خرید همراه است. علاوه بر این ، شما می توانید با استفاده از این ابزار استقرار منبع باز  ****  استقرار Laravel  **را انجام دهید. توسعه دهنده می تواند از دستور العمل های داخلی برای پروژه های خود استفاده کند و از آنها برای استقرار استفاده کند. علاوه بر این ، شما می توانید به راحتی Script Install/Deploy را با Wizard Diventioner **  PHP ایجاد کنید. علاوه بر این ، این ** ابزار استقرار رایگان**  ویژگی های عالی مانند استقرار صفر پایین ، بازگرداندن به نسخه قبلی ، SSH ، اجرای موازی و موارد دیگر را ارائه می دهد.
+## مستقل چیست {#What}
 
-## نصب مستقر   {#نصب}
+[  **Diventeer** ][5] یک ابزار رایگان و منبع باز است  **ابزار استقرار PHP**  . این امکان را برای تیم های نرم افزاری برای خودکارسازی گردش کار استقرار برای برنامه های مبتنی بر PHP فراهم می کند. نصب بسیار ساده و استفاده آسان است. هرکسی از تجربه سطح مبتدی تا متخصص می تواند به سرعت از آن برای استقرار برنامه های PHP استفاده کند. Divelipleer با دستور العمل های خارج از جعبه/اسکریپت برای چارچوب های محبوب PHP ، CMS و نرم افزار سبد خرید همراه است. علاوه بر این ، شما می توانید با استفاده از این ابزار استقرار منبع باز*  ***استقرار Laravel**  را انجام دهید. توسعه دهنده می تواند از دستور العمل های داخلی برای پروژه های خود استفاده کند و از آنها برای استقرار استفاده کند. علاوه بر این ، شما می توانید به راحتی Script Install/Deploy را با Wizard Diventioner **PHP ایجاد کنید. علاوه بر این ، این**  ابزار استقرار رایگان**ویژگی های عالی مانند استقرار صفر پایین ، بازگرداندن به نسخه قبلی ، SSH ، اجرای موازی و موارد دیگر را ارائه می دهد.
+
+## نصب مستقل {#Installing}
+
   * استقرارگر به PHP بستگی دارد. شما باید اطمینان حاصل کنید که PHP روی سرور شما اجرا می شود. با این حال ، می توانید از دستور زیر برای نصب PHP در اوبونتو استفاده کنید.
 ```
 sudo apt-get install php
@@ -34,7 +36,8 @@ sudo mv Deployer.phar /usr/local/bin/dep
 sudo chmod +x /usr/local/bin/dep
 ```
 
-## استقرار برنامه PHP   {#deploy}
+## استقرار برنامه PHP {#Deploy}
+
 دستورالعمل های گام به گام را برای  **استقرار برنامه PHP**  با Deployer دنبال کنید.
   * یک دایرکتوری برای استقرار ایجاد کرده و به دایرکتوری تازه ایجاد شده بروید.
 ```
@@ -104,10 +107,10 @@ task('deploy', [
 after('deploy:failed', 'deploy:unlock');
 ```
 شما باید متغیرهای زیر را برای استقرار برنامه PHP خود تغییر دهید.
-   **تنظیم ("برنامه" ، "my_project") ؛**  - نام برنامه را تنظیم کنید.
-   **مجموعه ("مخزن" ، ") ؛** -تنظیم مسیر مخزن git مانند‘ git@github.com: masood/first-app-with-deployer.git '. شما باید کلید Deploy را در مخزن GitHub خود تنظیم کنید. اگر با آن آشنا نیستید ، ممکن است نحوه ایجاد یک کلید SSH را در سرور جستجو کنید.
- ** میزبان ("project.com")
-    -> set (‘Deploy_Path" ، ‘~/{{Application}} ') ؛** -نام پروژه را تنظیم کنید و مسیری را که می خواهید پرونده ها را برای برنامه خود ذخیره کنید تعریف کنید. به نظر می رسد مانند/var/www/html/desplipleer.
+ **تنظیم ("برنامه" ، "my_project") ؛** - نام برنامه را تنظیم کنید.
+ **مجموعه ("مخزن" ، ") ؛** -تنظیم مسیر مخزن git مانند‘ git@github.com: masood/first-app-with-deployer.git '. شما باید کلید Deploy را در مخزن GitHub خود تنظیم کنید. اگر با آن آشنا نیستید ، ممکن است نحوه ایجاد یک کلید SSH را در سرور جستجو کنید.
+** میزبان ("project.com")
+    -> set (‘Deploy_Path" ، ‘~/{{Application}} ') ؛**-نام پروژه را تنظیم کنید و مسیری را که می خواهید پرونده ها را برای برنامه خود ذخیره کنید تعریف کنید. به نظر می رسد مانند/var/www/html/desplipleer.
 در آخر ، دستور زیر را برای استقرار برنامه PHP خود اجرا کنید.
 ```
 dep deployer
@@ -117,38 +120,40 @@ dep deployer
 dep rollback
 ```
 
-## نتیجه گیری   {#conclusion}
-ما در مورد Diverseer و نحوه نصب آن در این آموزش بحث کرده ایم. علاوه بر این ، ما دستورالعمل کاملی را برای استقرار برنامه مبتنی بر PHP از مخزن GitHub ایجاد کرده ایم. امیدوارم این پست وبلاگ به شما کمک کند تا **برنامه PHP را با استقرار مستقر کنید. علاوه بر این ، ما در مورد این ابزار استقرار ** PHP**  در آموزش های آینده بیشتر خواهیم نوشت.
-سرانجام ، [**Containerize.com **][6] در یک فرآیند مداوم نوشتن پست های وبلاگ در آخرین محصولات منبع باز است. بنابراین ، برای آخرین به روزرسانی ها با این [**  ابزارهای استقرار**][7] در تماس باشید.
+## نتیجه {#نتیجه}
+
+ما در مورد Diverseer و نحوه نصب آن در این آموزش بحث کرده ایم. علاوه بر این ، ما دستورالعمل کاملی را برای استقرار برنامه مبتنی بر PHP از مخزن GitHub ایجاد کرده ایم. امیدوارم این پست وبلاگ به شما کمک کند تا  **برنامه PHP را با استقرار مستقر کنید. علاوه بر این ، ما در مورد این ابزار استقرار**  PHP**در آموزش های آینده بیشتر خواهیم نوشت.
+سرانجام ، [  **Containerize.com** ][6] در یک فرآیند مداوم نوشتن پست های وبلاگ در آخرین محصولات منبع باز است. بنابراین ، برای آخرین به روزرسانی ها با این [ **ابزارهای استقرار**  ][7] در تماس باشید.
 
 ## کاوش کنید
 ممکن است پیوندهای زیر مربوطه را پیدا کنید:
-  *[ **Diventeer** ][8]
-  *[ **جنکینز** ][9]
-  *[ **هواپیماهای بدون سرنشین** ][10]
-  *[ **capistrano** ][11]
-  *[ **رانچر** ][12]
-  *[ **Concourse** ][13]
-  *[ **ansible** ][14]
-  *[ **GOCD** ][15]
-  *[ **5 ابزار برتر استقرار منبع باز در سال 2021** ][16]
-  *[ **ادغام مداوم و استقرار مداوم از سرور کنترل منبع** ][17]
+* [  **Diventeer**  ][8]
+* [  **جنکینز**  ][9]
+* [  **هواپیماهای بدون سرنشین**  ][10]
+* [  **capistrano**  ][11]
+* [  **رانچر**  ][12]
+* [  **Concourse**  ][13]
+* [  **ansible**  ][14]
+* [  **GOCD**  ][15]
+* [  **5 ابزار برتر استقرار منبع باز در سال 2021**  ][16]
+* [  **ادغام مداوم و استقرار مداوم از سرور کنترل منبع**  ][17]
 
-  
-[1]: #What
-[2]: #Installing
-[3]: #Deploy
-[4]: #Conclusion
-[5]: https://deployer.org/
-[6]: https://containerize.com
-[7]: https://blog.containerize.com/category/deployment-tools/
-[8]: https://products.containerize.com/deployment-tools/deployer
-[9]: https://products.containerize.com/deployment-tools/jenkins/
-[10]: https://products.containerize.com/deployment-tools/drone/
-[11]: https://products.containerize.com/deployment-tools/capistrano/
-[12]: https://products.containerize.com/deployment-tools/rancher/
-[13]: https://products.containerize.com/deployment-tools/concourse/
-[14]: https://products.containerize.com/deployment-tools/ansible/
-[15]: https://products.containerize.com/deployment-tools/gocd/
-[16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
-[17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/
+
+
+ [1]: #What
+ [2]: #Installing
+ [3]: #Deploy
+ [4]: #Conclusion
+ [5]: https://deployer.org/
+ [6]: https://containerize.com
+ [7]: https://blog.containerize.com/category/deployment-tools/
+ [8]: https://products.containerize.com/deployment-tools/deployer
+ [9]: https://products.containerize.com/deployment-tools/jenkins/
+ [10]: https://products.containerize.com/deployment-tools/drone/
+ [11]: https://products.containerize.com/deployment-tools/capistrano/
+ [12]: https://products.containerize.com/deployment-tools/rancher/
+ [13]: https://products.containerize.com/deployment-tools/concourse/
+ [14]: https://products.containerize.com/deployment-tools/ansible/
+ [15]: https://products.containerize.com/deployment-tools/gocd/
+ [16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+ [17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/

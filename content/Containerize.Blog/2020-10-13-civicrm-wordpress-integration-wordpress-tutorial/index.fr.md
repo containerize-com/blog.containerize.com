@@ -16,16 +16,18 @@ categories: ['Blogging', 'Marketing Automation']
 
 ## Aperçu:
 Bienvenue dans cet article de tutoriel qui concerne **CiviCRM WordPress Integration** . Le fait est que nous vivons à l'ère de l'information et des données. Certaines choses donnent des fonctionnalités distinctives à votre entreprise telles que l'automatisation de la collecte de données, la communication cohérente, les campagnes de marketing et d'autres flux de travail commerciaux. À cette époque moderne, la quantité de données augmente de jour en jour. Les organisations reçoivent ces données de diverses sources de données. En conséquence, il devient difficile de gérer et de compiler une telle quantité de données. Cependant, il est très important de s'assurer que l'intégrité des données et l'authenticité sont à la base d'une campagne de marketing efficace. De plus, la survenue de données à plusieurs endroits donne naissance aux tracas et à la mauvaise gestion, et les équipes opérationnelles ont du mal à venir sur la même longueur d'onde et à travailler dans une direction unifiée.
-D'un autre côté, il existe plusieurs systèmes de gestion de contenu qui ont gagné le puissant soutien des utilisateurs et des communautés de développeurs en raison de la gestion robuste de contenu et des systèmes d'écho conviviaux. Ces systèmes de gestion de contenu open source offrent des développements et des déploiements faciles et rapides pour atteindre des objectifs liés au contenu. Il offre une rentabilité, des fonctionnalités extensibles et des capacités d'auto-hébergement. Ce tutoriel de plugin **WordPress**  concerne l'intégration de [CiviCrm][2] avec [WordPress][3] et nous couvrirons les puces suivantes
+D'un autre côté, il existe plusieurs systèmes de gestion de contenu qui ont acquis le soutien puissant des utilisateurs et des communautés de développeurs en raison de la gestion robuste de contenu et des systèmes d'écho conviviaux. Ces systèmes de gestion de contenu open source offrent des développements et des déploiements faciles et rapides pour atteindre des objectifs liés au contenu. Il offre une rentabilité, des fonctionnalités extensibles et des capacités d'auto-hébergement. Ce tutoriel de plugin **WordPress** concerne l'intégration de [CiviCrm][2] avec [WordPress][3] et nous couvrirons les puces suivantes
   * [Avantages de cette combinaison pour les affaires?][4]
   * [Comment configurer une structure de répertoire?][5]
   * [Comment activer et installer la civicrm dans wordpress?][6]
 
-## Avantages de cette combinaison pour les entreprises?   {#avantages}
-Dans la section de ce **Tutorial WordPress **, nous examinerons les avantages principaux de  **CiviCrm WordPress**   Intégration. La popularité de [WordPress][3] augmente à mesure que la concurrence augmente sur le marché. La communauté WordPress a développé de nouveaux plugins pour améliorer le seau du plugin. Par conséquent, l'ajout de CiviCRM dans le pool de WordPress du plugin a attiré une énorme attention des organisations qui prospèrent pour automatiser et centraliser leurs flux de travail commerciaux.
+## Avantages de cette combinaison pour les entreprises? {#benefits}
+
+Dans la section de ce **Tutorial WordPress**, nous examinerons les avantages principaux de**CiviCrm WordPress** Intégration. La popularité de [WordPress][3] augmente à mesure que la concurrence augmente sur le marché. La communauté WordPress a développé de nouveaux plugins pour améliorer le seau du plugin. Par conséquent, l'ajout de CiviCRM dans le pool de WordPress du plugin a attiré une énorme attention des organisations qui prospèrent pour automatiser et centraliser leurs flux de travail commerciaux.
 Cette intégration est importante en raison de certains aspects. Tout d'abord, [Civicrm][2] supprime les tracas de la gestion des sources de contact de l'utilisateur résidant à différents endroits. Deuxièmement, il assure une sécurité complète en prenant des sauvegardes régulières de vos données. Troisièmement, il est basé sur le Web et open source qui signifie que vous pouvez accéder à vos données de n'importe où. Cet outil d'automatisation du marketing open source est développé pour le secteur civique. Il a supprimé la nécessité d'exporter des données vers diverses feuilles et bases de données en fournissant une solution à guichet unique. Ce logiciel CRM open source stocke toutes les données dans la base de données provenant de diverses sources telles que les newsletters, les sites de gestion d'événements, la gestion des contributions, la gestion des cas, etc. Ensembles de données personnalisés illimités, gestion des tâches, gestion des utilisateurs, suivi des engagements et des abonnements ouverts, et bien d'autres.
 
-## Comment configurer une structure de répertoire?   {#annuaire}
+## Comment configurer une structure de répertoire? {#directory}
+
 Avant de démarrer ce tutoriel du plugin **WordPress** , nous supposons que vous avez configuré WordPress et que vous avez une compréhension de base pour installer et activer les plugins. De plus, vous pouvez trouver des informations [ici][7] sur la configuration de WordPress et ses fonctionnalités.
 Tout d'abord, téléchargez la civicrm à partir de ce [site][8]. Choisissez une option nommée comme «Télécharger Civicrmx.x.x pour WordPress».
 Après téléchargement, placez le fichier zip dans cet emplacement / contenu WP / Plugins et extraire. Assurez-vous que ce répertoire a un accès «écrire».
@@ -42,12 +44,13 @@ Deuxièmement, créez un dossier vide nommé «CiviCrm» dans cet emplacement / 
 {{_LINE_35_}}
 Cette section de l'intégration CiviCRM WordPress est terminée. Passons à la section suivante.
 
-## Comment activer et installer le CiviCRM dans WordPress?   {#installer}
-Cette section du didacticiel WordPress montre les étapes d'installation et d'activation de l'outil de marketing basé sur le Web **CiviCRM. Après avoir configuré la structure du répertoire, accédez aux  **plugins **  ->  **Plugins installés**   et vous verrez le CiviCrm dans la liste.
+## Comment activer et installer le CiviCRM dans WordPress? {#install}
+
+Cette section du didacticiel WordPress montre les étapes d'installation et d'activation de l'outil de marketing basé sur le Web **CiviCRM. Après avoir configuré la structure du répertoire, accédez aux**plugins**->** Plugins installés**et vous verrez le CiviCrm dans la liste.
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.18.07-1024x544.png" alt="civicrm wordpress">}}
 
-Frapper «**activer** ».
+Frapper « **activer** ».
 
 {{< figure align=center src="images/civi-1024x581.jpeg" alt="Guide d'automatisation du marketing">}}
 
@@ -60,13 +63,13 @@ Appuyez sur le bouton «Vérifiez les exigences et installez CiviCRM». CiviCRM 
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-03.06.05-1024x630.png" alt="Civicrm WordPress Intégration">}}
 
-Enfin, l'onglet Menu **CiviCRM WordPress**  apparaîtra en haut du tableau de bord d'administration.
+Enfin, l'onglet Menu **CiviCRM WordPress** apparaîtra en haut du tableau de bord d'administration.
 
 {{< figure align=center src="images/Screenshot-2020-10-09-at-23.22.03-1024x586.png" alt="Tutoriel de développement du plugin WordPress">}}
 
 
 ## Conclusion
-L'intégration WordPress **CiviCRM  **est un complément vraiment utile lorsqu'il s'agit de gérer un énorme stockage d'informations utilisateur dispersées. Il facilite les workflows complexes en offrant un tableau de bord intuitif. Le duo de ces deux logiciels open source fournit une interface conviviale avec d'autres utilitaires où les utilisateurs peuvent naviguer facilement. Heureusement, la communauté open source a développé de nombreux outils d'automatisation du marketing tels que [Mautic][9], [SaceCrm][10], [ESPOCRM][11], et plus encore. Toutes ces solutions sont gratuites et faciles à déployer sur le cloud ou sur localhost. Surtout, ces solutions sont livrées avec une documentation complète concernant le développement et le déploiement. Cependant, ce tutoriel du plugin **  WordPress**  sera très utile si vous cherchez à intégrer le logiciel d'automatisation du marketing avec votre logiciel de gestion de contenu.
+L'intégration WordPress **CiviCRM**est un complément vraiment utile lorsqu'il s'agit de gérer un énorme stockage d'informations utilisateur dispersées. Il facilite les workflows complexes en offrant un tableau de bord intuitif. Le duo de ces deux logiciels open source fournit une interface conviviale avec d'autres utilitaires où les utilisateurs peuvent naviguer facilement. Heureusement, la communauté open source a développé de nombreux outils d'automatisation du marketing tels que [Mautic][9], [SaceCrm][10], [ESPOCRM][11], et plus encore. Toutes ces solutions sont gratuites et faciles à déployer sur le cloud ou sur localhost. Surtout, ces solutions sont livrées avec une documentation complète concernant le développement et le déploiement. Cependant, ce tutoriel du plugin**WordPress** sera très utile si vous cherchez à intégrer le logiciel d'automatisation du marketing avec votre logiciel de gestion de contenu.
 Enfin, [contenerize.com][12] est en cours d'écriture de tutoriels supplémentaires sur l'intégration de certains autres logiciels open source. Pour les mises à jour régulières, restez en contact avec [les catégories de [l'automatisation du marketing][1] et [blogging][13].
 
 ## Explorer
@@ -87,7 +90,8 @@ Vous pouvez trouver les liens suivants pertinents:
   * [Top 5 de la plate-forme de blogging open source en 2020][27]
   * [Automatiser les opérations commerciales à l'aide d'un logiciel gratuit et open source][28]
 
-  
+
+
 [1]: https://products.containerize.com/marketing-automation
 [2]: https://products.containerize.com/marketing-automation/civicrm
 [3]: https://products.containerize.com/blogging/wordpress

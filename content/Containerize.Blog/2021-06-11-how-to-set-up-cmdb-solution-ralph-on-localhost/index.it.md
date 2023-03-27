@@ -14,28 +14,31 @@ categories: ['CMDB Software']
 {{< figure align=center src="images/ralph.png" alt="Soluzione CMDB">}}
 
 
-Panoramica ## ****
+Panoramica ##****
 Nel momento in cui le organizzazioni sono prosperate per soddisfare il ritmo della tecnologia impiegando un'enorme infrastruttura IT. Successivamente, non è meno di una sfida gestire ambienti così enormi. Richiede forza lavoro e potere tecnologico per svolgere tali compiti critici. A volte, diventa una seccatura formulare processi e procedure per gestire reti complesse di sistemi che includono stampanti, computer desktop, scanner, telefoni e altri accessori IT. Allo stesso modo, anche le configurazioni di questi nodi sono importanti in quanto vi sono elevate possibilità di fermo di qualsiasi macchina nella rete. Quindi, dovrebbe esserci un controllo coerente su queste configurazioni.
 Tuttavia, ci sono molti software open source e gratuiti disponibili per tenere traccia e record di risorse. Questo software è noto come software di database di gestione della configurazione (CMDB). Di recente, [Containerize.com][1] ha pubblicato una soluzione CMDB [Ralph][2] che fornisce molte funzionalità per una migliore gestione delle risorse e della configurazione. In questo post sul blog, esploreremo Ralph coprendo i seguenti punti.
-  * **[Breve introduzione del software CMDB Gestione asset Ralph][3]**
-  * **[Caratteristiche di Ralph][4]**
-  * **[Come impostare Ralph su localhost?][5]**
-  * **[Conclusione][6]**
+*  **[Breve introduzione del software CMDB Gestione asset Ralph][3]**  
+*  **[Caratteristiche di Ralph][4]**  
+*  **[Come impostare Ralph su localhost?][5]**  
+*  **[Conclusione][6]**  
 
-## BREVE INTRODUZIONE DEL SOFTWARE CMDB GESTIONE ASSET RALPH   {#Intro}
+## Breve introduzione del software CMDB Gestione asset Ralph {#intro}
+
 Ralph è una soluzione di gestione patrimoniale IT open source gratuita. È multipiattaforma e viene fornito con capacità di auto-osting. C'è un ecosistema completo di monitoraggio delle risorse in tempo reale. Pertanto, gli utenti possono eseguire analisi per i report. Consente agli utenti di registrare i dettagli delle risorse sul loro ciclo di vita. Inoltre, questo software di gestione delle risorse digitali open source offre spazio per l'archiviazione di informazioni sulle risorse del data center. D'altra parte, questa soluzione CMDB fornisce anche supporto per la gestione di software, licenza, certificati e altri contratti. Ralph non solo supporta la gestione delle risorse, ma fornisce anche disposizioni per eseguire azioni su tali attività. Tuttavia, le azioni sono legate alla distribuzione di un host, alla generazione di fatture, al monitoraggio del dominio o alla gestione dell'inventario.
 Questa soluzione di gestione delle risorse IT emette un'interfaccia riposante. Gli sviluppatori possono integrare molte applicazioni di terze parti utilizzando gli endpoint API esposti da questo strumento gratuito open source. Inoltre, Ralph è scritto in Python insieme all'input di HTML, CSS e JavaScript. Pertanto, è disponibile una documentazione completa per lo sviluppo e la distribuzione. Il codice sorgente di questa soluzione di gestione delle azioni è disponibile su [GitHub][7].
 
-## caratteristiche di ralph   {#features}
-Ralph offre molte funzionalità. Tuttavia, menzioneremo alcune delle seguenti funzionalità chiave.
-**Extensible**: questo software di gestione delle risorse digitali open source è altamente estensibile. Gli sviluppatori possono distribuirlo nei locali o sul cloud secondo le loro esigenze.
-**Supporto per i data center:** Ralph offre anche supporto per i data warehouse, sale da data center, server e rack. Gli utenti possono tenere traccia di tutti i componenti, la loro rete e le configurazioni.
-**REST API**: questo software CMDB gratuito è altamente personalizzabile. In effetti, fornisce un'API REST per integrazioni di terze parti. Gli sviluppatori possono estenderlo in base alle loro esigenze.
-**Interfaccia utente intuitiva:** È disponibile un'interfaccia utente logica in questa soluzione CMDB in cui gli utenti possono navigare facilmente. Inoltre, la dashboard di amministrazione fornisce vari widget che mostrano i dati in arrivo in tempo reale.
-**Interfaccia della riga di comando**: Ralph presenta un'interfaccia di comando che fornisce una funzione per scoprire gli indirizzi MAC per la distribuzione degli host.
-**Supporto per attività non fisiche**: questa soluzione di gestione delle apparecchiature non solo fornisce supporto per le risorse fisiche, ma gestisce anche risorse non fisiche come domini, software e licenze.
+## Caratteristiche di Ralph {#features}
 
-## Come impostare Ralph su LocalHost?   {#impostare}
+Ralph offre molte funzionalità. Tuttavia, menzioneremo alcune delle seguenti funzionalità chiave.
+ **Extensible** : questo software di gestione delle risorse digitali open source è altamente estensibile. Gli sviluppatori possono distribuirlo nei locali o sul cloud secondo le loro esigenze.
+ **Supporto per i data center:**  Ralph offre anche supporto per i data warehouse, sale da data center, server e rack. Gli utenti possono tenere traccia di tutti i componenti, la loro rete e le configurazioni.
+ **REST API** : questo software CMDB gratuito è altamente personalizzabile. In effetti, fornisce un'API REST per integrazioni di terze parti. Gli sviluppatori possono estenderlo in base alle loro esigenze.
+ **Interfaccia utente intuitiva:**  È disponibile un'interfaccia utente logica in questa soluzione CMDB in cui gli utenti possono navigare facilmente. Inoltre, la dashboard di amministrazione fornisce vari widget che mostrano i dati in arrivo in tempo reale.
+ **Interfaccia della riga di comando** : Ralph presenta un'interfaccia di comando che fornisce una funzione per scoprire gli indirizzi MAC per la distribuzione degli host.
+ **Supporto per attività non fisiche** : questa soluzione di gestione delle apparecchiature non solo fornisce supporto per le risorse fisiche, ma gestisce anche risorse non fisiche come domini, software e licenze.
+
+## Come impostare Ralph su LocalHost? {#setup}
+
 In questa sezione, passeremo attraverso il processo di installazione del software di gestione delle risorse Ralph sulla macchina locale. È abbastanza facile da configurare e utilizzare.
 Prima di passare alla sezione successiva, assicurati di aver installato i seguenti prerequisiti.
   * [Docker-compose][8]
@@ -136,16 +139,18 @@ Mostrerà la pagina di accesso come mostrato nell'immagine seguente:
 {{< figure align=center src="images/Screenshot-2021-06-11-at-15.20.58-1024x577.png" alt="Soluzione CMDB">}}
 
 
-## conclusioni   {#conclusion}
-Dopo aver attraversato questo post sul blog di tutorial CMDB, una cosa è chiara che la gestione patrimoniale è quasi impossibile senza una buona soluzione CMDB. Il software di gestione delle risorse ha ruoli specifici nella gestione e monitoraggio di risorse, configurazioni e loro relazioni. Ci sono disposizioni per tenere traccia di tali cambiamenti apportati a malapena su attività digitali o fisiche. Questi strumenti gratuiti sono facili da configurare, utilizzare e sono dotati di documentazione e guida dettagliati. Infine, [**containerize.com **][1] ha lo scopo di scrivere articoli su ulteriori prodotti open source. Pertanto, rimani in contatto con questo [][10]**  [software CMDB][11]** per gli ultimi aggiornamenti.
+## Conclusione {#Conclusione}
+
+Dopo aver attraversato questo post sul blog di tutorial CMDB, una cosa è chiara che la gestione patrimoniale è quasi impossibile senza una buona soluzione CMDB. Il software di gestione delle risorse ha ruoli specifici nella gestione e monitoraggio di risorse, configurazioni e loro relazioni. Ci sono disposizioni per tenere traccia di tali cambiamenti apportati a malapena su attività digitali o fisiche. Questi strumenti gratuiti sono facili da configurare, utilizzare e sono dotati di documentazione e guida dettagliati. Infine, [  **containerize.com** ][1] ha lo scopo di scrivere articoli su ulteriori prodotti open source. Pertanto, rimani in contatto con questo [][10] **[software CMDB][11]**  per gli ultimi aggiornamenti.
 
 ## Esplorare
-  * **[software CMDB][11]**
-  * **[Ralph][2]**
-  *[ **automatizza le operazioni aziendali utilizzando software gratuito e open source** ][12]
-  * **[Tendenze di sviluppo del software per cercare nel 2021][13]**
+*  **[software CMDB][11]**  
+*  **[Ralph][2]**  
+* [  **automatizza le operazioni aziendali utilizzando software gratuito e open source**  ][12]
+*  **[Tendenze di sviluppo del software per cercare nel 2021][13]**  
 
-  
+
+
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/cmdb-software/ralph/
 [3]: #intro

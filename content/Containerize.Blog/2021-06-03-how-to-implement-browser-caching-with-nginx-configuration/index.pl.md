@@ -14,17 +14,19 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Jak zaimplementować buforowanie Browsr z konfiguracją Nginx">}}
 
 W naszej serii samouczków Nginx omówiliśmy [jak używać Nginx jako równoważenia obciążenia][1], [Konfiguruj Nginx jako odwrotną proxy][2], [Użyj wielu wersji PHP z Nginx][3] i [Konwertuj Htaccess Rewrite Zasady Nginx przepisują dyrektywy][4]. W dzisiejszym artykule omówimy bardzo ważny temat, który pomaga firmom poprawić wrażenia użytkowników poprzez wykorzystanie buforowania przeglądarki. W tym samouczku poprowadzimy Cię, jak zaimplementować buforowanie przeglądarki z konfiguracją Nginx za pomocą modułu nagłówka Nginx. Zacznijmy!
-  * **[Buforing przeglądarki dźwigni][5]**
-  *[**Moduł nagłówka Nginx** ][6]
-  *[**e-teg i if-none-mecz** ][7]
-  *[**Buforowanie przeglądarki dźwigni z konfiguracją Nginx** ][8]
-  *[**Wniosek** ][9]
+* **[buforowanie przeglądarki dźwigni][5]** 
+* [ **Moduł nagłówka Nginx** ][6]
+* [ **e-teg i if-none-mecz** ][7]
+* [ **Buforowanie przeglądarki dźwigni z konfiguracją Nginx** ][8]
+* [ **Wniosek** ][9]
 
-## przeglądarka dźwignia buforowanie przeglądarki   {#pobudzenie przeglądarki}
+## Cache przeglądarki dźwigni {#browser-caching}
+
 Im szybciej ładuje się witryna, tym bardziej prawdopodobne jest, że odwiedzający pozostanie na stronie internetowej. Witryny z dużą ilością obrazów i interaktywnych treści są ładowane w tle, dzięki czemu strona otwiera złożone zadanie. Polega na żądaniu wielu różnych plików od serwera jeden po drugim. Minimalizacja ilości tych żądań to jeden ze sposobów przyspieszenia Twojej witryny.
 Jedną z metod poprawy wydajności witryny jest „przeglądacza buforowanie przeglądarki”. Buforowanie przeglądarki odgrywa ogromną rolę w mechanizmie pamięci podręcznej zwiększania prędkości strony. Pliki statyczne, takie jak CSS, JS, JPEG, PNG itp., Które są używane na stronie internetowej, można zapisać na komputerze dla odwiedzających w celu uzyskania przyszłego dostępu. Ilekroć odwiedzający napotyka nową stronę w Twojej witrynie, powyższe pliki można uzyskać z komputera odwiedzającego zamiast z dostarczonego serwera, co ogromnie zwiększy prędkość ładowania strony.
 
-Moduł nagłówka ## Nginx  {#moduł nagłówka}
+## Moduł nagłówka Nginx {#header-module}
+
 Moduł _ngx \ _http \ _headers_module_ umożliwia dodanie pól nagłówka „_expires_” i „_Cache-Control_” i dowolnych pól do nagłówka odpowiedzi. Możemy użyć modułu nagłówka do ustawienia tych nagłówków HTTP. Moduł nagłówka jest podstawowym modułem nginx, co oznacza, że ​​nie należy go instalować osobno.
 Przykładowa konfiguracja wygląda tak:
 ```
@@ -38,7 +40,8 @@ expires    $expires;
 add_header Cache-Control private;
 ```
 
-## e-tag i if-none-mecz   {#ETAGE}
+## E-tag i mecz if-none {#etage}
+
 Załóżmy, że mamy niektóre pliki testowe z różnymi rozszerzeniami, np. Test.html, test.jpg, test.css i test.js. Domyślnie wszystkie pliki będą miały takie samo domyślne zachowanie buforowania. Aby sprawdzić nagłówki odpowiedzi pliku za pomocą następującego polecenia, aby żądać pliku z naszego lokalnego serwera Nginx i pokazuje nagłówki odpowiedzi:
 ```
 curl -I http://localhost/test.html
@@ -55,7 +58,7 @@ Connection: keep-alive
 <strong>ETag: "501c3b6f-401"</strong>
 Accept-Ranges: bytes
 ```
-W drugim do ostatniej linii znajdziesz nagłówek _etag_, który zawiera unikalny identyfikator tej konkretnej wersji żądanego pliku. Jeśli wielokrotnie wykonasz ostatnie polecenie _CURL_, znajdziesz dokładnie taką samą wartość ETAG.
+W drugim do ostatniej linii znajdziesz nagłówek _etag_, który zawiera unikalny identyfikator tej konkretnej wersji żądanego pliku. Jeśli wielokrotnie wykonasz ostatnie polecenie _CURL_, znajdziesz dokładnie tę samą wartość ETAG.
 Podczas korzystania z przeglądarki internetowej wartość _etag_ jest przechowywana i wysyłana z powrotem na serwer z nagłówkiem żądania _if-None-Match_, gdy użytkownik odświeża stronę lub ten sam plik jest wymagany przez przeglądarkę z dowolnego powodu.
 Możemy to symulować w wierszu polecenia za pomocą następującego polecenia.
 ```
@@ -73,7 +76,8 @@ Connection: keep-alive
 ```
 Tym razem Nginx odpowie na **304 nie zmodyfikowane** . Nie wyśle ​​ponownie pliku przez sieć; Zamiast tego poinformuje przeglądarkę, że może ponownie wykorzystać plik, który już pobrał lokalnie. Jest to przydatne, ponieważ zmniejsza ruch sieciowy. Ale przeglądarka nadal musi wykonać wywołanie HTTP, aby uzyskać odpowiedź z serwera, co wciąż zajmuje trochę czasu.
 
-## Buforing przeglądarki dźwigni z konfiguracją nginx   {#nginx-configuration}
+## Buforowanie przeglądarki dźwigni z konfiguracją Nginx {#nginx-configuration}
+
 W naszym poprzednim przykładzie wyjaśniliśmy, w jaki sposób e-Tag i IF-None-Match pomagają zmniejszyć ruch sieciowy. Ale problem z „etag” polega na tym, że przeglądarka zawsze wysyła żądanie do serwera z pytaniem, czy może ponownie wykorzystać jego plik podręczny. I to wciąż wymaga czasu, aby złożyć wniosek i otrzymać odpowiedź.
 Teraz za pomocą modułu nagłówka Nginx zmusimy przeglądarkę do buforowania niektórych plików lokalnie bez wyraźnego pytania serwera.
 Dodaj następujące 3 wiersze w swoim pliku konfiguracyjnym Nginx, aby pamięć statyczną pamięci podręcznej w Nginx
@@ -104,14 +108,16 @@ location ~* \.(js|jpg|gif|png|css)$ {
 W powyższym przykładzie buforujemy różne typy plików, takie jak JS, JPG, CSS itp.
 Podobnie możesz umieścić konfigurację pamięci podręcznej w bloku _server_ przed dowolnym blokiem lokalizacji. W takim przypadku wszystkie odpowiedzi z tego serwera zostaną buforowane. Lub możesz umieścić go w bloku _http_, w tym przypadku wszystkie żądania serwera obsługiwane przez plik konfiguracyjny Nginx zostaną buforowane.
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 Moduł nagłówków Nginx może być używany do dodania dowolnych nagłówków do odpowiedzi, ale prawidłowe ustawienie nagłówków sterowania pamięcią podręczną jest jedną z najbardziej przydatnych aplikacji. Pomaga poprawić wydajność witryny, szczególnie dla użytkowników w sieciach o wyższym opóźnieniu, takich jak sieci operatorów komórkowych. W tym samouczku nauczyliśmy się wykorzystać buforowanie przeglądarki z konfiguracją Nginx. Mam nadzieję, że pomoże ci to poprawić wrażenia użytkownika w Twojej witrynie.
 
 ## Badać
   * [Jak zainstalować wiele wersji PHP z Nginx na Ubuntu][3]
   * [Jak skonfigurować i skonfigurować Nginx jako odwrotną proxy][2]
 
-  
+
+
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

@@ -20,17 +20,20 @@ XAMPP, canlı sunuculara dağıtmadan önce bir PHP projesi oluşturmak, çalı�
   * [PHP komut dosyasını çalıştırın ve test edin][5]
   * [Sonuç][6]
 
-## Gereksinimler   {#Requirements}
+## Gereksinimler {#requirements}
+
   * XAMPP kurulumu
   * Kod Editör Uygulaması
   * Temel PHP bilgisi
   * Temel HTML ve JavaScript Bilgisi
 
-## XAMPP nedir?   {#xampp}
+## XAMPP nedir? {#xampp}
+
 XAMPP, açık kaynaklı bir web sunucusu çözüm yığınıdır. Apache, MySQL, MariaDB, PHP ve Perl içerir. Kurulumu ve kullanımı son derece kolaydır. Bu yüzden en popüler PHP geliştirme ortamı. XAMPP Server, PHP Web Uygulaması Geliştirme için eksiksiz bir ortam sağlar. Henüz XAMPP çalışma kurulumunuz yoksa, XAMPP'yi yüklemek için bu kılavuzu izleyin:
 [Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum][7]
 
-## PHP Script Oluştur   {#php}
+## PHP komut dosyası oluştur {#php}
+
   * Yukarıdaki öğreticiyi takip ederek XAMPP'yi zaten yüklediğinizi varsayarsak, şimdi basit bir PHP komut dosyası oluşturalım ve XAMPP'de test edelim.
   * Önce editörünüzü açın. Bir programlama düzenleyiciniz yoksa, not defterini açmanız yeterlidir.
   * Aşağıdaki kodu girin
@@ -42,13 +45,14 @@ echo "This is my first PHP project";
   * Sağ üst köşedeki "Dosya" yı tıklayın.
   * “AS AS” düğmesine basın.
   * Adını “.php” uzantısı ile girin.
-  *“Tür Olarak Kaydet” için “Tüm Dosyalar (\*. \*)” Seçeneğini seçin.
+* “Tür Olarak Kaydet” için “Tüm Dosyalar (\*. \*)” Seçeneğini seçin.
   * Ve son olarak “Kaydet” düğmesine basın.
 
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="XAMPP Açık Kaynak Web Server ile ilk PHP projenizi oluşturun">}}
 
 
-## PHP komut dosyasını çalıştırın ve test edin   {#test}
+## PHP komut dosyasını çalıştırın ve test edin {#test}
+
   * Bu PHP komut dosyasını XAMPP kurulumunuzdaki HTDOCS klasörüne kopyalayın. Çoğunlukla HTDOCS klasörü burada bulunur: C: \ XAMPP \ HTDOCS
   * Tarayıcınızı açın.
   * Localhost'a git/\ _first \ _php_project.php
@@ -57,7 +61,8 @@ echo "This is my first PHP project";
 
 Tebrikler! İlk PHP projenizi yeni oluşturdunuz.
 
-## Sonuç   {#Conclusion}
+## Çözüm {#conclusion}
+
 İlk web projesini oluşturmak yeni başlayanlar için her zaman çok heyecan vericidir. İlk dinamik betiğinizi tasarladığınızda, çalıştırdığınızda ve tarayıcınızda çalıştığını görünce harika hissettirir. Umarım bu basit rehber, Xampp Açık Kaynak Web Server ile ilk PHP projenizi oluşturmanıza ve çalıştırmanıza yardımcı olmuştur.
 
 ## Keşfetmek
@@ -65,7 +70,8 @@ XAMPP ve PHPMyAdmin hakkında daha fazla bilgi edinmek için kılavuzları takip
 [Windows'ta Localhost olarak XAMP ve PHPMyAdmin kurulum][7]
 [PHP & Perl geliştiricileri için ücretsiz web sunucusu çözümü yığını][1]
 
-  
+
+
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

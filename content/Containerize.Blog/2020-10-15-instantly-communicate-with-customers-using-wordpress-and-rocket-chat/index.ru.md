@@ -21,10 +21,12 @@ Plugin Rocket.chat Live Chat работает со 100% с открытым ис
   * [Установка плагина][3]
   * [Последние мысли][4]
 
-## Описание:   {#Description}
+## Описание: {#description}
+
 Интеграция WordPress и Rocket.chat позволяет вам размещать виджет чата на сайтах на основе WordPress. WordPress Live Chat позволяет клиентам сотрудничать с вашими поддержкой или агентами по продажам в режиме реального времени с одним щелчком. Мгновенное общение помогает клиентам быстрое решение своих запросов и ускоряет принятие решений. Следовательно, это решение может помочь вам выиграть новых клиентов с более быстрым поворотом, а также повысить удовлетворенность и лояльность существующих клиентов.
 
-## функции:   {#Features}
+## Функции: {#features}
+
   * Бесплатное аудиоконференция
   * Бесплатное видеоконференция
   * Гостевой доступ
@@ -34,7 +36,8 @@ Plugin Rocket.chat Live Chat работает со 100% с открытым ис
   * Командный чат
   * Перевод в реальном времени
 
-## Установка плагина:   {#plugin}
+## Установка плагина: {#plugin}
+
   1. Перейдите на административную панель вашего сайта WordPress.
   2. Затем перейдите к плагинам.
   3. Затем установите следующий плагин: [Rocket.chat LiveChat][5]
@@ -47,7 +50,8 @@ Plugin Rocket.chat Live Chat работает со 100% с открытым ис
 {{< figure align=center src="images/rocketchat-1024x468.png" alt="WordPress Instant Message Solution с использованием Rocket.chat">}}
 
 
-## Final Monds:   {#Conclusion}
+## Последние мысли: {#conclusion}
+
 Интеграция Worpress и Rocket.chat застрахованность доверием и отношениями с вашими клиентами посредством разговоров в режиме реального времени. WordPress Instant Messaging может обеспечить быстрое повышение для вашего бизнеса. Общайтесь с клиентами, используя функцию живого чата. Также вы можете сотрудничать со своими товарищами по команде, используя функцию командного чата. Это повысит производительность, обсуждая и обмениваясь идеями с чатом в реальном времени.
 
 ## Исследовать:
@@ -55,11 +59,12 @@ Plugin Rocket.chat Live Chat работает со 100% с открытым ис
 [Лучший бесплатный и с открытым исходным кодом программное обеспечение для живого чата][6]
 [WordPress - бесплатный открытый исходный код и наиболее широко используемый CMS и инструмент для ведения блога][7]
 
-  
-[1]: #description
-[2]: #features
-[3]: #plugin
-[4]: #conclusion
-[5]: https://wordpress.org/plugins/rocketchat-livechat/
-[6]: https://products.containerize.com/live-chat
-[7]: https://href.li/?https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #description
+ [2]: #features
+ [3]: #plugin
+ [4]: #conclusion
+ [5]: https://wordpress.org/plugins/rocketchat-livechat/
+ [6]: https://products.containerize.com/live-chat
+ [7]: https://href.li/?https://products.containerize.com/blogging/wordpress

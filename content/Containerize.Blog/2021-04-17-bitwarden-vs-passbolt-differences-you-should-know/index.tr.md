@@ -48,7 +48,7 @@ Hem Bitwarden hem de Passbolt, açık kaynak yöneticileri olarak birçok özell
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **Çözüm**
+## **Çözüm** 
 Bu yazıda, Bitwarden vs Passbolt ile karşılaştırma ayrıntılı olarak devam etmeye çalıştık. İki açık kaynak şifre yöneticisi arasındaki temel farklılıkları ve hangisinin en fazla özelliği ücretsiz, kullanımı kolay, açık kaynaklı bir şifre yöneticisi olarak sunduk.
 
 ## Keşfetmek
@@ -57,7 +57,8 @@ Bu yazıda, Bitwarden vs Passbolt ile karşılaştırma ayrıntılı olarak deva
 [Passbolt | Ücretsiz, açık kaynaklı ve kendi kendine barındırılan şifre yöneticisi][6]
 [Windows için Keepass şifre yöneticisini kurulup yönetin][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

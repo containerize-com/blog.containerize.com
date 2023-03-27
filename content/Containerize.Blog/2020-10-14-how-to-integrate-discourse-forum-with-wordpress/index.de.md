@@ -21,13 +21,19 @@ Es ist eine Herausforderung, ein Forum mit von WordPress betriebenen Websites zu
   * [Installation][4]
   * [Einstellungen][5]
 
-## # Diskurs   {#discourse}
+
+### Diskurs {#discourse}
+
 Der Diskurs ist eine 100% kostenlose, vollständig open Source, moderne, einfach zu bedienende, von Feature-reichen Community-basierte Diskussionsforum-Software. Es begleitet eine breite Palette von Tools für Community -Diskussionen. Daher seine zuverlässige und anpassungsfähige Plattform. [Lesen Sie mehr][6]
 
-## # WordPress   {#wordpress}
+
+### WordPress {#wordpress}
+
 WordPress ist eine der beliebtesten Website -Software für die Erstellung und Bloggine von Websiteen. Es ist 100% Open Source und hat eine riesige Entwicklergemeinschaft. Dadurch ist dies die Nummer 1 für Entwickler, Blogger und Website -Bauherren. Eine große Anzahl von Online -Websites wird heute auf WordPress ausgeführt. Denn es ermöglicht jemandem, der keine Entwicklungserfahrung erstellt, Websites aufzubauen. [Lesen Sie mehr][7]
 
-## # Offizielles WordPress -Plugin für den Diskurs   {#Plugin}
+
+### Offizielles WordPress -Plugin für den Diskurs {#plugin}
+
 Berücksichtigung des von WordPress betriebenen Websites. Und eine enorme Integrationsnachfrage mit WordPress. Der Diskurs hat ein offizielles WordPress -Plugin veröffentlicht, das die Integration wirklich einfach macht.
 [WP -Diskurs][8] ist das offizielle Diskurs WordPress -Plugin ist 100% Open Source. Und ist frei zum Download aus dem Repository zur Verfügung. Der Quellcode ist unter [Github][9] verfügbar.
 Mit diesem Plugin können Sie den Diskurs als Community Engine für Ihre WordPress -Website oder -blog verwenden. Es verfügt über viele Funktionen und einige der Höhepunkte des Plugins, und was erreicht werden kann, ist wie folgt.
@@ -37,7 +43,9 @@ Mit diesem Plugin können Sie den Diskurs als Community Engine für Ihre WordPre
   * Das Plugin wird außerdem mit einer optionalen SSO -Funktionalität geliefert, mit der Sie Ihre WordPress -Site als einzelnes Zeichen für den Anbieter für Ihr Diskursforum verwenden können.
   * Mit dem Plugin können Sie den Diskurs als Authentifizierungsanbieter für Ihre WordPress -Site verwenden.
 
-## # Installation   {#installation}
+
+### Installation {#installation}
+
 Sie können das Plugin problemlos installieren, indem Sie in Ihrem WordPress -Dashboard nach „WP -Diskurs“ suchen.
   * Navigieren Sie von WordPress Dashboard zu Plugins> Neu hinzuzufügen
   * Suche nach "WP -Diskurs"
@@ -46,7 +54,9 @@ Sie können das Plugin problemlos installieren, indem Sie in Ihrem WordPress -Da
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="Installieren Sie das WP -Diskurs -Plugin aus WordPress Dashboard">}}
 
 
-## # Einstellungen   {#Settings}
+
+### Einstellungen {#settings}
+
 Der WP -Diskurs gibt Ihnen die volle Kontrolle über Einstellungen. Sie können die Verbindung zwischen den beiden Plattformen herstellen. Mit Veröffentlicheneinstellungen können Sie steuern, wie Sie Inhalte von WordPress zum Diskurs veröffentlichen möchten.
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="Allgemeine Einstellungen">}}
@@ -64,16 +74,17 @@ Mit den SSO-Einstellungen können Sie einzelne Anmelden zwischen Ihrer WordPress
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-## # Abschluss
+### Abschluss
 In diesem Tutorial haben wir gelernt, wie man den Diskurs in WordPress integriert. Der WP -Diskurs hat es einfach gemacht, zwei erstklassige Produkte zu verdienen. Infolgedessen hat die Integration mit WordPress ein Problem einer riesigen Gemeinschaft gelöst, die es schwierig fand, ein Forum zu verwalten.
 
-  
-[1]: #discourse
-[2]: #wordpress
-[3]: #plugin
-[4]: #installation
-[5]: #settings
-[6]: https://products.containerize.com/discussion-forum/discourse
-[7]: https://products.containerize.com/blogging/wordpress
-[8]: https://wordpress.org/plugins/wp-discourse/
-[9]: https://github.com/discourse/wp-discourse
+
+
+ [1]: #discourse
+ [2]: #wordpress
+ [3]: #plugin
+ [4]: #installation
+ [5]: #settings
+ [6]: https://products.containerize.com/discussion-forum/discourse
+ [7]: https://products.containerize.com/blogging/wordpress
+ [8]: https://wordpress.org/plugins/wp-discourse/
+ [9]: https://github.com/discourse/wp-discourse

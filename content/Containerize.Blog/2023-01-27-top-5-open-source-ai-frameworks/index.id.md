@@ -15,62 +15,67 @@ categories: ['Artificial intelligence']
 
 
 ## Ringkasan
-Kami telah menerbitkan beberapa posting blog yang sangat menarik dan tren dalam kategori**kecerdasan buatan**. [Artikel][1] terbaru menunjukkan pengantar AI, jenis, dan aplikasi kecerdasan buatan. Namun, posting blog ini biasanya untuk pengembang perangkat lunak yang merupakan penggemar AI. Ada ruang lingkup pengembangan yang luas di cabang ilmu komputer ini. Bahkan, zaman modern benar -benar milik kecerdasan buatan. Hanya untuk rekap, AI adalah simulasi kecerdasan manusia pada mesin buatan manusia. Jadi, organisasi perangkat lunak berinvestasi besar -besaran di AI untuk memperkaya teknologi ini dengan fitur -fitur canggih. Oleh karena itu, komunitas open-source telah mengembangkan beberapa kerangka kerja dan perpustakaan tingkat perusahaan untuk mengembangkan dan menggunakan aplikasi bisnis bertenaga AI. Mari kita mulai panduan ini dan jelajahi**Top 5 Open-Source AI Frameworks.**
-Kami akan membahas perpustakaan AI open-source**berikut:**
-* **[TensorFlow][2]**
-* **[pytorch][3]**
-* **[keras][4]**
-* **[scikit-learn][5]**
-* **[Caffe][6]**
+Kami telah menerbitkan beberapa posting blog yang sangat menarik dan tren dalam kategori  **kecerdasan buatan** . [Artikel][1] terbaru menunjukkan pengantar AI, jenis, dan aplikasi kecerdasan buatan. Namun, posting blog ini biasanya untuk pengembang perangkat lunak yang merupakan penggemar AI. Ada ruang lingkup pengembangan yang luas di cabang ilmu komputer ini. Bahkan, zaman modern benar -benar milik kecerdasan buatan. Hanya untuk rekap, AI adalah simulasi kecerdasan manusia pada mesin buatan manusia. Jadi, organisasi perangkat lunak berinvestasi besar -besaran di AI untuk memperkaya teknologi ini dengan fitur -fitur canggih. Oleh karena itu, komunitas open-source telah mengembangkan beberapa kerangka kerja dan perpustakaan tingkat perusahaan untuk mengembangkan dan menggunakan aplikasi bisnis bertenaga AI. Mari kita mulai panduan ini dan jelajahi **Top 5 Open-Source AI Frameworks.**  
+Kami akan membahas pustaka AI open-source  **berikut:**   
+*  **[TensorFlow][2]**  
+*  **[pytorch][3]**  
+*  **[keras][4]**  
+*  **[scikit-learn][5]**  
+*  **[Caffe][6]**  
 
-## TensorFlow   {#tensorflow}
-[TensorFlow][7] adalah kerangka kerja open-source untuk membangun algoritma pembelajaran mesin (ML) untuk memecahkan masalah yang kompleks. Ini adalah salah satu pustaka AI open-source**teratas**yang menyederhanakan pengembangan model pembelajaran mesin. Selain itu, TensorFlow menawarkan berbagai alat yang membantu dalam menyiapkan set data, membangun model ML, dan kemudian menggunakan dan mengimplementasikan model ML. Lebih lanjut, ini**kerangka kerja kecerdasan buatan**ini**adalah cross-platform dan Anda dapat membangun model ML untuk desktop, ponsel, dan platform web.
+## Tensorflow  {#Tensorflow}
+
+[TensorFlow][7] adalah kerangka kerja open-source untuk membangun algoritma pembelajaran mesin (ML) untuk memecahkan masalah yang kompleks. Ini adalah salah satu pustaka AI open-source  **teratas** yang menyederhanakan pengembangan model pembelajaran mesin. Selain itu, TensorFlow menawarkan berbagai alat yang membantu dalam menyiapkan set data, membangun model ML, dan kemudian menggunakan dan mengimplementasikan model ML. Lebih lanjut, ini **kerangka kerja kecerdasan buatan**  ini**adalah cross-platform dan Anda dapat membangun model ML untuk desktop, ponsel, dan platform web.
 
 {{< figure align=center src="images/lockup.png" alt="Kecerdasan Buatan Sumber Terbuka">}}
 
 Selain itu, ia menawarkan API untuk integrasi pihak ketiga dan dilengkapi dengan kemampuan hosting sendiri. Perpustakaan AI gratis ini sangat populer dan didukung oleh komunitas besar. Ada sumber daya dan dokumentasi yang tersedia untuk pengembang dan pengunjung. Di atas segalanya, ada 171k bintang dan 87.7K garpu pada [github][8].
-[**Pelajari lebih lanjut tentang TensorFlow**][7]
+[  **Pelajari lebih lanjut tentang TensorFlow**  ][7]
 
-## Pytorch   {#PyTorch}
+## Pytorch {#Pytorch}
+
 [Pytorch][9] adalah kerangka pembelajaran mesin tingkat perusahaan****dengan ekosistem yang kuat. Muncul dengan ujung depan yang ramah pengguna, mudah diatur dan Anda dapat menginstalnya [secara lokal][10] atau di [cloud][11]. Selain itu, didukung oleh [Google Cloud Platform][12], [Amazon Web Services][13], dan [Microsoft Azure][14]. Ada [dokumentasi] komprehensif [15] dan sumber daya yang tersedia mengenai pengembangan, pengujian, dan penyebaran.
 
 {{< figure align=center src="images/pytorch-logo-dark.png" alt="Perpustakaan AI Sumber Terbuka">}}
 
-Selain itu, Pytorch juga menawarkan pengembangan jaringan saraf yang merupakan komponen integral dari pembelajaran mesin. Kerangka ML open-source**ini**terutama ditulis dalam C ++ dan Python dan memiliki statistik yang sangat baik di [GitHub][16] dengan 62.1k Stars dan 17.3K Forks.
-**[Pelajari lebih lanjut tentang Pytorch][9]**
+Selain itu, Pytorch juga menawarkan pengembangan jaringan saraf yang merupakan komponen integral dari pembelajaran mesin. Kerangka ML open-source  **ini**  terutama ditulis dalam C ++ dan Python dan memiliki statistik yang sangat baik di [GitHub][16] dengan 62.1k Stars dan 17.3K Forks.
+ **[Pelajari lebih lanjut tentang Pytorch][9]** 
 
-## keras   {#keras}
-[Keras][17] adalah API pembelajaran dalam sumber terbuka**yang kuat yang menawarkan alat pembelajaran mesin yang kaya untuk meringankan beban pengembang. Platform ML ini berjalan di atas TensorFlow dan menawarkan alur kerja sederhana untuk eksperimen cepat. Di atas segalanya, ini sangat berguna dan digunakan oleh [NASA][18], [YouTube][19], dan raksasa populer lainnya. Ini**platform AI open-source**ini menawarkan solusi pembelajaran mesin untuk masalah dunia nyata secara lebih efisien dan cepat.
+## Keras {#Keras}
 
-{{< figure align=center src="images/logo-1024x297.png" alt="Platform Pembelajaran Mesin">}}
+[Keras][17] adalah API pembelajaran dalam sumber terbuka  **yang kuat yang menawarkan alat pembelajaran mesin yang kaya untuk meringankan beban pengembang. Platform ML ini berjalan di atas TensorFlow dan menawarkan alur kerja sederhana untuk eksperimen cepat. Di atas segalanya, ini sangat berguna dan digunakan oleh [NASA][18], [YouTube][19], dan raksasa populer lainnya. Ini**  platform AI open-source**ini menawarkan solusi pembelajaran mesin untuk masalah dunia nyata secara lebih efisien dan cepat.
+
+{{< figure align=center src="images/logo-1024x297.png" alt="platform pembelajaran mesin">}}
 
 Lebih lanjut, Anda dapat mengekspor model Keras ke JavaScript dan menjalankannya di platform web. Bahkan, Anda dapat menghasilkan file model yang relevan untuk dijalankan di perangkat iOS, Android, dan tertanam. Selain itu, ia memiliki dukungan besar dan komunitas pengembang. Ini ditulis dalam Python dan mengamankan statistik yang baik di [GitHub][20] dengan bintang 57.2k dan 19.3k garpu.
-**[Pelajari lebih lanjut tentang keras][21]**
+ **[Pelajari lebih lanjut tentang keras][21]** 
 
-## scikit-learn   {#scikit-learn}
-[Scikit-learn][22] adalah salah satu dari kerangka kerja AI open-source**yang ditulis dalam Python. Ini memberikan analisis data prediktif dan sangat terukur. Kerangka pembelajaran mesin ini telah menjadi bagian integral dari sistem**AI**dari banyak perusahaan besar seperti [J.P.Morgan][23], [Spotify][24], [booking.com][25], dan banyak lagi. Booking.com menggunakan sckikit-learn untuk merekomendasikan hotel, dan tujuan perjalanan kepada pelanggan.
+## Scikit-learn {#Scikit-learn}
+
+[Scikit-learn][22] adalah salah satu dari kerangka kerja AI open-source  **yang ditulis dalam Python. Ini memberikan analisis data prediktif dan sangat terukur. Kerangka pembelajaran mesin ini telah menjadi bagian integral dari sistem**  AI**dari banyak perusahaan besar seperti [J.P.Morgan][23], [Spotify][24], [booking.com][25], dan banyak lagi. Booking.com menggunakan sckikit-learn untuk merekomendasikan hotel, dan tujuan perjalanan kepada pelanggan.
 
 {{< figure align=center src="images/scikit-learn-logo-small.png" alt="Perpustakaan AI Open Source,">}}
 
 Kerangka AI open-source**ini juga ditulis dalam Python dan sangat mudah diatur karena membutuhkan lebih sedikit ketergantungan seperti Numpy, Scipy, Joblib dan Threadpoolctl. Ini juga menawarkan komponen yang dapat digunakan kembali yang dapat diakses oleh semua orang. Lebih lanjut, ada komunitas besar dan dukungan di balik scikit-learns, dan juga memiliki statistik yang baik di [GitHub][26] dengan 52.7k Stars dan 23.9k garpu.
-**[Pelajari lebih lanjut tentang scikit-learn][22]**
+ **[Pelajari lebih lanjut tentang scikit-learn][22]** 
 
-## Caffe   {#caffe}
-[Caffe][27] adalah kerangka belajar dalam sumber terbuka lainnya yang berfokus pada modularitas dan kecepatan. Menawarkan arsitektur ekspresif dengan optimasi tingkat tinggi. Kerangka kerja intelijen buatan (AI)**ini**ini dapat diperluas dan kuat untuk penyebaran dan eksperimen industri penelitian. Lebih lanjut, ada komunitas yang bersemangat yang telah aktif dalam kontribusi kode.
+## Caffe {#Caffe}
+
+[Caffe][27] adalah kerangka belajar dalam sumber terbuka lainnya yang berfokus pada modularitas dan kecepatan. Menawarkan arsitektur ekspresif dengan optimasi tingkat tinggi. Kerangka kerja intelijen buatan (AI)  **ini**  ini dapat diperluas dan kuat untuk penyebaran dan eksperimen industri penelitian. Lebih lanjut, ada komunitas yang bersemangat yang telah aktif dalam kontribusi kode.
 Repo [GitHub][28] dari kerangka kerja Caffe telah mendorong statistik dengan bintang 33K dan 19K garpu. Selain itu, ini terutama ditulis dalam C ++ dengan sedikit masukan dari bahasa lain seperti Python, dan banyak lagi.
-[**Pelajari lebih lanjut tentang Caffe**][27]
+[  **Pelajari lebih lanjut tentang Caffe**  ][27]
 
 ## Kesimpulan
-Ini membawa kita ke akhir posting blog ini. Takeaways kunci dari artikel ini adalah**Top 5 Open-Source AI Frameworks**. Selain itu, kami memiliki pandangan mata burung tentang kerangka kecerdasan buatan open-source**ini**. Jadi, panduan ini pasti akan membantu Anda jika Anda serius ingin melengkapi perangkat lunak bisnis Anda dengan kecerdasan buatan. Tidak diragukan lagi,**Pembelajaran Mesin**dan**Pemrosesan Bahasa Alami**adalah kesuksesan besar sekarang dan di masa depan. Selain itu, ada artikel yang sangat menarik dan relevan yang mungkin Anda temukan di bagian "Lihat juga" di bawah ini.
+Ini membawa kita ke akhir posting blog ini. Takeaways kunci dari artikel ini adalah  **Top 5 Open-Source AI Frameworks** . Selain itu, kami memiliki pandangan mata burung tentang kerangka kecerdasan buatan open-source  **ini**  . Jadi, panduan ini pasti akan membantu Anda jika Anda serius ingin melengkapi perangkat lunak bisnis Anda dengan kecerdasan buatan. Tidak diragukan lagi,  **Pembelajaran Mesin**  dan **Pemrosesan Bahasa Alami**  adalah kesuksesan besar sekarang dan di masa depan. Selain itu, ada artikel yang sangat menarik dan relevan yang mungkin Anda temukan di bagian "Lihat juga" di bawah ini.
 Akhirnya, [containerize.com][29] terus menulis posting blog tentang produk dan topik open-source lebih lanjut. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][30], [LinkedIn][31], dan [Twitter][32].
 
 ## Berikan pertanyaan
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [33].
 
 ## FAQ
-**Kerangka kerja mana yang digunakan untuk kecerdasan buatan?**
+ **Kerangka kerja mana yang digunakan untuk kecerdasan buatan?** 
 [TensorFlow][7] adalah kerangka kerja AI open-source yang sangat populer dan level perusahaan**. Juga, ada beberapa opsi lain yang tersedia seperti [pytorch][9], [scikit-learn][22] dan banyak lagi.
-**Apakah TensorFlow Open Source?**
+ **Apakah TensorFlow Open Source?** 
 Ya, ini adalah open-source dan muncul dengan kemampuan hosting sendiri. Silakan kunjungi [tautan][2] ini untuk menjelajahi TensorFlow lebih lanjut.
 
 ## Lihat juga
@@ -78,7 +83,8 @@ Ya, ini adalah open-source dan muncul dengan kemampuan hosting sendiri. Silakan 
   * [Cara menggunakan chatgpt di vscode | Kode Ekstensi VScode GPT][34]
   * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI][35]
 
-  
+
+
 [1]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
 [2]: #TensorFlow
 [3]: #PyTorch

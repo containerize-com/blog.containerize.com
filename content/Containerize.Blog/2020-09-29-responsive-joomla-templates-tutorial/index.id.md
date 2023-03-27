@@ -15,7 +15,7 @@ categories: ['Content Management']
 
 
 ## Ringkasan
-Situs web bisnis yang dirancang dengan baik memainkan peran penting untuk membawa dan mempertahankan pengunjung dengan memberi mereka kemudahan navigasi. **Joomla**  fitur lengkap memfasilitasi penggunanya dengan sejumlah tata letak responsif dan pengembangan template Joomla yang mengontrol estetika situs web bisnis.
+Situs web bisnis yang dirancang dengan baik memainkan peran penting untuk membawa dan mempertahankan pengunjung dengan memberi mereka kemudahan navigasi. **Joomla** fitur lengkap memfasilitasi penggunanya dengan sejumlah tata letak responsif dan pengembangan template Joomla yang mengontrol estetika situs web bisnis.
 Selama fase pengembangan, penempatan elemen desain sangat penting untuk diperoleh:
   * Konsistensi
   * Navigasi yang mudah
@@ -23,18 +23,20 @@ Selama fase pengembangan, penempatan elemen desain sangat penting untuk diperole
   * Kompatibilitas seluler
   * Keterbacaan
 Inilah Template **Joomla** . Perangkat lunak open source ini memberikan ketentuan untuk mengembangkan atau menggunakan tata letak responsif yang telah ditentukan untuk semua halaman web daripada menulis kode untuk setiap halaman secara terpisah.
-Dalam posting blog ini, kami akan mempelajari hal -hal berikut tentang cara membuat dan mengatur template ramah pengguna ** di Joomla.
-  *[**Apa itu tata letak Joomla?** ][2]
-  *[**Bagaimana cara membuat template responsif sederhana di Joomla?** ][3]
-  *[**Bagaimana cara menginstal template joomla?** ][4]
-  *[**Kesimpulan** ][5]
+Dalam posting blog ini, kami akan mempelajari hal -hal berikut tentang cara membuat dan mengatur template ramah pengguna**di Joomla.
+* [ **Apa itu tata letak Joomla?** ][2]
+* [ **Bagaimana cara membuat template responsif sederhana di joomla?** ][3]
+* [ **Bagaimana cara menginstal template joomla?** ][4]
+* [ **Kesimpulan** ][5]
 
-## Apa itu tata letak Joomla?   {#Apa}
-Joomla menyediakan templat untuk ujung depan dan juga untuk bagian belakang. Muncul dengan banyak templat yang siap dan menawarkan pengembang untuk membangun **tema bootstrap responsif gratis**  Menurut kasus penggunaannya. Ada dua jenis templat di Joomla.
+## Apa tata letak Joomla? {#what}
+
+Joomla menyediakan templat untuk ujung depan dan juga untuk bagian belakang. Muncul dengan banyak templat yang siap dan menawarkan pengembang untuk membangun **tema bootstrap responsif gratis** Menurut kasus penggunaannya. Ada dua jenis templat di Joomla.
 **Templat front-end:**  Terkait dengan pengguna yang menghadapi bagian dari situs web bisnis.
-**Template back-end:**  Template ini ditautkan ke logika bisnis situs.
+**Template back-end:**  Template ini ditautkan ke logika bisnis suatu situs.
 
-## Bagaimana cara membuat template responsif sederhana di Joomla?   {#Bagaimana}
+## Bagaimana cara membuat template responsif sederhana di Joomla? {#how}
+
 Di bagian ini, kami akan membahas langkah -langkah tutorial Template Joomla ini.
 Sebelum melompat ke bagian ini, pastikan Anda memiliki pemahaman tentang hal -hal berikut:
   * Html
@@ -44,15 +46,15 @@ Sebelum melompat ke bagian ini, pastikan Anda memiliki pemahaman tentang hal -ha
 Jadi, membuat template khusus di Joomla tidak pernah begitu keras dan kompleks. Namun, mari kita mulai membuat template Joomla pertama kami.
 
 ## **Struktur Direktori Pengaturan** 
-Pertama -tama, buat folder bernama "**mytemplate **" di dalam " **template**  " folder.
-Buat file berikut di dalam "**folder MyTemplate** ":
-  ***index.php** : Ini adalah file inti yang berisi kode HTML dan PHP untuk seluruh halaman templat.
-  ***Templedetails.xml** : File ini berisi data meta templat dan wajib untuk diperhatikan oleh Joomla.
-Sekarang, buat tiga folder di dalam folder "**MyTemplate** " dengan nama -nama berikut:
-  ***JS** : Folder ini akan berisi semua file JavaScript yang diperlukan untuk template
-  ***CSS** : Semua file CSS untuk penataan akan masuk ke folder ini
-  ***Gambar** : Gambar yang digunakan oleh templat akan berada di folder ini
-Buat file CSS bernama "**template.css **" di dalam " **css**  " folder.
+Pertama -tama, buat folder bernama " **mytemplate**" di dalam "**template** " folder.
+Buat file berikut di dalam " **folder MyTemplate** ":
+* **index.php** : Ini adalah file inti yang berisi kode HTML dan PHP untuk seluruh halaman templat.
+* **Templedetails.xml** : File ini berisi data meta templat dan wajib untuk diperhatikan oleh Joomla.
+Sekarang, buat tiga folder di dalam folder " **MyTemplate** " dengan nama -nama berikut:
+* **JS** : Folder ini akan berisi semua file JavaScript yang diperlukan untuk template
+* **CSS** : Semua file CSS untuk penataan akan masuk ke folder ini
+* **Gambar** : Gambar yang digunakan oleh templat akan berada di folder ini
+Buat file CSS bernama " **template.css**" di dalam "**css** " folder.
 ```
 * mytemplate/
 ** css/
@@ -101,7 +103,7 @@ Masukkan kode ini di file **templatedetails.xml** .
 ```
 Seperti disebutkan sebelumnya, file ini berisi metadata tentang tata letak responsif yang didefinisikan di antara tag markup. Namun, Anda dapat mengubah informasi umum seperti nama, penulis, dan deskripsi.
 File ini juga berisi informasi tentang file dan folder lain yang digunakan oleh template.
-Sekarang, buka file **index.php**  dan mulailah meletakkan kode berikut:
+Sekarang, buka file **index.php** dan mulailah meletakkan kode berikut:
 ```
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 ```
@@ -114,7 +116,7 @@ Ini untuk memberi tahu Browser tentang jenis dokumen.
 <html xmlns="http://www.w3.org/1999/xhtml" 
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 ```
-Dokumen HTML dimulai dengan baris ini dan **xmlns**  atribut memberi tahu namespace XML untuk dokumen tersebut.
+Dokumen HTML dimulai dengan baris ini dan **xmlns** atribut memberi tahu namespace XML untuk dokumen tersebut.
 ```
 <head>
     <jdoc:include type="head" />
@@ -168,8 +170,8 @@ Bagian tubuh dimulai setelah bagian kepala berisi semua data yang akan tercermin
 ```
 <jdoc:include type="modules" name="position-7" style="well" />
 ```
-Pernyataan ini disebut pernyataan JDOC yang digunakan untuk menginstruksikan Joomla untuk menambahkan modul bernama "Posisi-7". Ada beberapa pernyataan JDOC yang sering digunakan dalam pengembangan Template Joomla **.
-Ini adalah file lengkap **index.php**  final dengan semua kode yang diperlukan untuk template Joomla dasar.
+Pernyataan ini disebut pernyataan JDOC yang digunakan untuk menginstruksikan Joomla untuk menambahkan modul bernama "Posisi-7". Ada beberapa pernyataan JDOC yang sering digunakan dalam pengembangan Template Joomla**.
+Ini adalah file lengkap **index.php** final dengan semua kode yang diperlukan untuk template Joomla dasar.
 ```
 <!DOCTYPE html>
 
@@ -220,7 +222,8 @@ Ini adalah file lengkap **index.php**  final dengan semua kode yang diperlukan u
 ```
 Semuanya ada untuk templat yang sangat mendasar. Sekarang, sekarang saatnya untuk menginstalnya di server Joomla dan melihat bagaimana hasilnya.
 
-## Bagaimana cara menginstal Template Joomla?   {#Install}
+## Bagaimana cara menginstal Template Joomla? {#install}
+
 Proses instalasi Template Joomla cukup lurus dan mudah. Ada langkah -langkah berikut untuk menginstal:
 Pergi ke “Ekstensi -> Kelola -> Instal
 
@@ -237,9 +240,10 @@ Setelah template diinstal, Anda dapat mengakses dan memodifikasi file template d
 
 Sekarang, Anda dapat melihat template Joomla pertama Anda ke browser!
 
-## kesimpulan   {#conclusion}
-Template yang baik dan responsif adalah dasar untuk pemodelan situs secara keseluruhan. **Tata letak responsif**  di Joomla bersifat multifungsi dan dapat digunakan untuk berbagai proyek. Dari menulis kode ke pengembangan Template Joomla menjadi sangat sederhana dengan bantuan dasbor admin intuitif. Joomla memberikan kontrol penuh atas pengembangan template untuk memenuhi keinginan pengguna.
-Sebagai **perangkat lunak CMS**  Kategori berada di bawah perbaikan yang konsisten dan lebih banyak tutorial tentang sistem manajemen konten lainnya akan ditambahkan ke daftar, harap tetap berhubungan dengan bagian [Sistem Manajemen Konten][6] untuk pembaruan rutin.
+## Kesimpulan {#Kesimpulan}
+
+Template yang baik dan responsif adalah dasar untuk pemodelan situs secara keseluruhan. **Tata letak responsif** di Joomla bersifat multifungsi dan dapat digunakan untuk berbagai proyek. Dari menulis kode ke pengembangan Template Joomla menjadi sangat sederhana dengan bantuan dasbor admin intuitif. Joomla memberikan kontrol penuh atas pengembangan template untuk memenuhi keinginan pengguna.
+Sebagai **perangkat lunak CMS** Kategori berada di bawah perbaikan yang konsisten dan lebih banyak tutorial tentang sistem manajemen konten lainnya akan ditambahkan ke daftar, harap tetap berhubungan dengan bagian [Sistem Manajemen Konten][6] untuk pembaruan rutin.
 
 ## halaman produk yang relevan
 Anda mungkin menemukan tautan berikut yang relevan:
@@ -256,7 +260,8 @@ Anda mungkin menemukan tautan berikut yang relevan:
   * [Refinery CMS][16]
   * [LocomotiveCMS][17]
 
-  
+
+
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

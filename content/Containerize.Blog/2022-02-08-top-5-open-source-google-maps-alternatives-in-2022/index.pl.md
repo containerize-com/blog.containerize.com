@@ -15,16 +15,17 @@ categories: ['Software Development']
 
 
 ## Przegląd
-W niedawnej przeszłości opublikowaliśmy kilka postów na blogu na niektóre interesujące i popularne tematy, takie jak [bezpłatne i open source popularne ramy JavaScript][1], [rzeczy do recenzji przed opcją oprogramowania open source w 2021 r.][2] i niektórych innych . W tym artykule przejdziemy do innego ekscytującego tematu open source  **Google Maps Alternatives** . Pojawienie się Map Google jest uważane za ogromny rozwój w świecie nawigacji online. W rzeczywistości to interaktywne oprogramowanie MAPS oferuje znacznie więcej niż mapowanie i nawigację, takie jak miejsca wyszukiwania, kontrola prędkości, wejście głosowe i wiele innych. Ponadto [Google Maps][3] jest wysoce dostępny i oferuje swoją wersję offline, w której nie masz dostępności Internetu. Ponadto istnieje wiele przepisów dla właścicieli firm, ponieważ pozwala ludziom dodawać swoje firmy na Mapach Google wraz z kontaktami, stroną internetową, zdjęciami i filmami.
-Z drugiej strony istnieje wiele **bezpłatnych oprogramowania do nawigacji **, które opracowała społeczność open source. Te ** aplikacje mapy**  mają możliwości samowystarczające i mają bardzo żywe społeczności. Ponadto możesz użyć tych oprogramowania MAP na platformach internetowych i mobilnych do śledzenia wskazówek i wykorzystania innych funkcji. Idźmy jednak dalej, obejmując następujące punkty.
-  * **[OpenStreetMap][4]**
-  * **[Osmand][5]**
-  * **[Mapy organiczne][6]**
-  * **[ulotka][7]**
-  * **[Mapa Qwant][8]**
+W niedawnej przeszłości opublikowaliśmy kilka postów na blogu na niektóre interesujące i popularne tematy, takie jak [bezpłatne i open source popularne ramy JavaScript][1], [rzeczy do recenzji przed opcją oprogramowania open source w 2021 r.][2] i niektórych innych . W tym artykule przejdziemy do innego ekscytującego tematu open source  **Google Maps Alternatives**  . Pojawienie się Map Google jest uważane za ogromny rozwój w świecie nawigacji online. W rzeczywistości to interaktywne oprogramowanie MAPS oferuje znacznie więcej niż mapowanie i nawigację, takie jak miejsca wyszukiwania, kontrola prędkości, wejście głosowe i wiele innych. Ponadto [Google Maps][3] jest wysoce dostępny i oferuje swoją wersję offline, w której nie masz dostępności Internetu. Ponadto istnieje wiele przepisów dla właścicieli firm, ponieważ pozwala ludziom dodawać swoje firmy na Mapach Google wraz z kontaktami, stroną internetową, zdjęciami i filmami.
+Z drugiej strony istnieje wiele  **bezpłatnych oprogramowania do nawigacji** , które opracowała społeczność open source. Te **aplikacje mapy**  mają możliwości samowystarczające i mają bardzo żywe społeczności. Ponadto możesz użyć tych oprogramowania MAP na platformach internetowych i mobilnych do śledzenia wskazówek i wykorzystania innych funkcji. Idźmy jednak dalej, obejmując następujące punkty.
+*  **[OpenStreetMap][4]**  
+*  **[Osmand][5]**  
+*  **[Mapy organiczne][6]**  
+*  **[ulotka][7]**  
+*  **[Mapa Qwant][8]**  
 
-## OpenStreetMap   {#OpenStreetMap}
-[OpenStreetMap][9] jest jednym z bezpłatnych oprogramowania nawigacyjnego, którym jest [Google Maps][3] alternatywy. Ta **MAP Application  **jest bezpłatna, open source i jest wyposażona w możliwości nawigacji GPS. Jest edytowalny, ponieważ jest wyposażony w wbudowany edytor. Istnieje tętniąca życiem społeczność, która aktywnie zapewnia wsparcie. Ponadto to**   bezpłatne oprogramowanie nawigacyjne** oferuje bardzo precyzyjną i kompleksową nawigację, dzięki czemu można dostrzec miejsca, takie jak posterunki policji itp. To oprogramowanie open source oferuje możliwości powiększenia, a także śledzi twoją obecną lokalizację. Ponadto umożliwia osadzenie i pobieranie określonej lokalizacji, abyś mógł udostępnić ją innym. Podobnie jak [Google Maps][3], możesz uzyskać wskazówki, ustawiając swoje źródło, miejsce docelowe i sposób podróży, takie jak samochód, spacer lub rower. Jednak OpenStreetMap jest zapisywany w JavaScript z całą dokumentacją dotyczącą rozwoju i wdrażania. Dlatego można znaleźć jego pliki kodu źródłowego na [github][10].
+## OpenStreetMap {#OpenStreetMap}
+
+[OpenStreetMap][9] jest jednym z bezpłatnych oprogramowania nawigacyjnego, którym jest [Google Maps][3] alternatywy. Ta  **MAP Application** jest bezpłatna, open source i jest wyposażona w możliwości nawigacji GPS. Jest edytowalny, ponieważ jest wyposażony w wbudowany edytor. Istnieje tętniąca życiem społeczność, która aktywnie zapewnia wsparcie. Ponadto to **bezpłatne oprogramowanie nawigacyjne**  oferuje bardzo precyzyjną i kompleksową nawigację, dzięki czemu można dostrzec miejsca, takie jak posterunki policji itp. To oprogramowanie open source oferuje możliwości powiększenia, a także śledzi twoją obecną lokalizację. Ponadto umożliwia osadzenie i pobieranie określonej lokalizacji, abyś mógł udostępnić ją innym. Podobnie jak [Google Maps][3], możesz uzyskać wskazówki, ustawiając swoje źródło, miejsce docelowe i sposób podróży, takie jak samochód, spacer lub rower. Jednak OpenStreetMap jest zapisywany w JavaScript z całą dokumentacją dotyczącą rozwoju i wdrażania. Dlatego można znaleźć jego pliki kodu źródłowego na [github][10].
 Poniżej znajdują się widoczne cechy:
   * Samodzielnie
   * Nawigacja GPS
@@ -32,8 +33,9 @@ Poniżej znajdują się widoczne cechy:
   * Szukaj
   * Udostępnianie lokalizacji
 
-## Osmand   {#osmand}
-[Osmand][11] to kolejna **MAP Application **, która działa zarówno online, jak i offline. To ** bezpłatne oprogramowanie nawigacyjne**  jest open source, dostosowywane i śledzi lokalizację GPS. Osmand jest jedną z alternatyw [Google Maps][3], która oferuje optymalizację trasy, pomaga użytkownikom wskazywać ścieżki, takie jak lasy, krajobrazy itp. Ponadto ma opcję tekstu do mowy i jest wyposażony w opcje w trybie nocnym, które przyciemniają motyw motywu. interfejs użytkownika. Przede wszystkim możesz zaplanować swoją podróż zgodnie z trasami sugerowanymi przez Osmand, ponieważ pozwala wyszukiwać różne miejsca. Najlepszą rzeczą w tej aplikacji offline Maps jest to, że oferuje kilka wtyczek, które zwiększają jego zakres. Osmand jest napisany głównie w Javie i można znaleźć dokumentację. Dlatego programiści mogą znaleźć pliki kodu źródłowego na [GitHub][12].
+## Osmand {#Osmand}
+
+[Osmand][11] to kolejna  **MAP Application** , która działa zarówno online, jak i offline. To **bezpłatne oprogramowanie nawigacyjne**  jest open source, dostosowywane i śledzi lokalizację GPS. Osmand jest jedną z alternatyw [Google Maps][3], która oferuje optymalizację trasy, pomaga użytkownikom wskazywać ścieżki, takie jak lasy, krajobrazy itp. Ponadto ma opcję tekstu do mowy i jest wyposażony w opcje w trybie nocnym, które przyciemniają motyw motywu. interfejs użytkownika. Przede wszystkim możesz zaplanować swoją podróż zgodnie z trasami sugerowanymi przez Osmand, ponieważ pozwala wyszukiwać różne miejsca. Najlepszą rzeczą w tej aplikacji offline Maps jest to, że oferuje kilka wtyczek, które zwiększają jego zakres. Osmand jest napisany głównie w Javie i można znaleźć dokumentację. Dlatego programiści mogą znaleźć pliki kodu źródłowego na [GitHub][12].
 Osmand ma następujące kluczowe funkcje:
   * Wersja offline
   * Tekst na mowę
@@ -41,8 +43,9 @@ Osmand ma następujące kluczowe funkcje:
   * Nawigacja GPS
   * Wtyczki
 
-## Mapy organiczne   {#organic}
-[Mapy organiczne][13] to kolejna aplikacja open source  **MAP** , która również działa offline. Podobnie jak inne oprogramowanie interaktywne mapy, jest ono dostępne zarówno dla Androida, jak i iOS. Ponadto ma najszybsze możliwości wyszukiwania w trybie offline. Mapy organiczne to jedna z tych [Mapy Google][3], które zapewniają tryb nocny, w którym tematy stają się ciemne w nocy. Ponadto możesz zaplanować podróż turystyczną, jazdy na rowerze lub przez Walk, a także zapewnia wytyczne użytkowników. Ponadto jest wolny od reklam, bez powiadomień push i nie wymaga rejestracji. Mapy organiczne są napisane w C ++ i są wyposażone w dokumentację. Dlatego można znaleźć pliki kodu źródłowego na [github][14].
+## Mapy organiczne {#Organic}
+
+[Mapy organiczne][13] to kolejna aplikacja open source  **MAP**  , która również działa offline. Podobnie jak inne oprogramowanie interaktywne mapy, jest ono dostępne zarówno dla Androida, jak i iOS. Ponadto ma najszybsze możliwości wyszukiwania w trybie offline. Mapy organiczne to jedna z tych [Mapy Google][3], które zapewniają tryb nocny, w którym tematy stają się ciemne w nocy. Ponadto możesz zaplanować podróż turystyczną, jazdy na rowerze lub przez Walk, a także zapewnia wytyczne użytkowników. Ponadto jest wolny od reklam, bez powiadomień push i nie wymaga rejestracji. Mapy organiczne są napisane w C ++ i są wyposażone w dokumentację. Dlatego można znaleźć pliki kodu źródłowego na [github][14].
 Mapy organiczne oferują następujące ważne funkcje:
   * Działa offline
   * Opcje szybkiego wyszukiwania
@@ -50,8 +53,9 @@ Mapy organiczne oferują następujące ważne funkcje:
   * Bezpłatne i open source
   * Wersje Andriod i iOS
 
-## Leaflet   {#leaflet}
-[Leaflet][15] to kolejne oprogramowanie do interaktywnych map typu open source, które ma możliwości samodzielne. Ta aplikacja mapa **jest lekka i łatwa w użyciu. Przede wszystkim jest dostępny dla wszystkich platform komputerowych i mobilnych, takich jak Android, iOS i Web. Ponadto ta aplikacja offline Maps jest wysoce rozszerzalna i oferuje dobrze udokumentowany interfejs API dla integracji stron trzecich. To oprogramowanie open source ** bezpłatne oprogramowanie nawigacyjne**  zapewnia również samouczki do wskazówek użytkowników. Ulotka jest napisana w JavaScript z dostępną kompleksową dokumentacją. Dlatego można znaleźć pliki kodu źródłowego na [github][16].
+## Ulotka {#Ulotka}
+
+[Leaflet][15] to kolejne oprogramowanie do interaktywnych map typu open source, które ma możliwości samodzielne. Ta aplikacja mapa  **jest lekka i łatwa w użyciu. Przede wszystkim jest dostępny dla wszystkich platform komputerowych i mobilnych, takich jak Android, iOS i Web. Ponadto ta aplikacja offline Maps jest wysoce rozszerzalna i oferuje dobrze udokumentowany interfejs API dla integracji stron trzecich. To oprogramowanie open source**  bezpłatne oprogramowanie nawigacyjne**zapewnia również samouczki do wskazówek użytkowników. Ulotka jest napisana w JavaScript z dostępną kompleksową dokumentacją. Dlatego można znaleźć pliki kodu źródłowego na [github][16].
 Ulotka wymyśla następujące kluczowe funkcje:
   * Samodzielnie
   * Lekki
@@ -59,8 +63,9 @@ Ulotka wymyśla następujące kluczowe funkcje:
   * Wtyczki
   * API
 
-## Qwant Map   {#qwant}
-Wreszcie [Qwant Map][17] jest jedną z tych  **Google Maps Alternatives** , która jest open source i bezpłatna. Podobnie jak Google Maps, to interaktywne oprogramowanie MAPS oferuje bogate możliwości wyszukiwania. Ponadto możesz szukać miejsc takich jak restauracje, hotele, rynki i wiele innych. Ponadto pozwala szukać pobliskich miejsc, śledząc swoją lokalizację. QWant Map opiera się na OpenStreetMap i oferuje śledzenie GPS.
+## Mapa Qwant {#Qwant}
+
+Wreszcie [Qwant Map][17] jest jedną z tych  **Google Maps Alternatives**  , która jest open source i bezpłatna. Podobnie jak Google Maps, to interaktywne oprogramowanie MAPS oferuje bogate możliwości wyszukiwania. Ponadto możesz szukać miejsc takich jak restauracje, hotele, rynki i wiele innych. Ponadto pozwala szukać pobliskich miejsc, śledząc swoją lokalizację. QWant Map opiera się na OpenStreetMap i oferuje śledzenie GPS.
 Mapa Qwant oferuje następujące kluczowe punkty:
   * Śledzenie GPS
   * Otwarte źródło
@@ -69,7 +74,7 @@ Mapa Qwant oferuje następujące kluczowe punkty:
   * Miejsca w pobliżu
 
 ## Końcowe przemyślenia
-To prowadzi nas do końca tego postu na blogu. Przeszliśmy przez open source i bezpłatne **Alternatywy Google Maps **, które są samodzielne i rozszerzalne. Ten artykuł z pewnością pomoże ci, jeśli chcesz zdecydować się na ** bezpłatne oprogramowanie nawigacyjne**  dla Twojej firmy. Ponadto w sekcji Explorer znajdują się inne artykuły, które możesz sprawdzić.
+To prowadzi nas do końca tego postu na blogu. Przeszliśmy przez open source i bezpłatne  **Alternatywy Google Maps** , które są samodzielne i rozszerzalne. Ten artykuł z pewnością pomoże ci, jeśli chcesz zdecydować się na **bezpłatne oprogramowanie nawigacyjne**  dla Twojej firmy. Ponadto w sekcji Explorer znajdują się inne artykuły, które możesz sprawdzić.
 Wreszcie [Containerize.com][18] ciągle pisze posty na blogu na temat dalszych produktów i tematów open source. Dlatego prosimy o kontakt z [Containerize.com][18] w celu regularnych aktualizacji. Ponadto możesz śledzić nas na naszych kontach w mediach społecznościowych [Facebook][19], [LinkedIn][20] i [Twitter][21].
 
 ## Badać
@@ -79,7 +84,8 @@ Wreszcie [Containerize.com][18] ciągle pisze posty na blogu na temat dalszych p
   * [Top 5 oprogramowania społecznościowego open source w 2022 r.][24]
   * [Co to jest NFT? |. Wyjaśniono tokeny nieokreślone][25]
 
-  
+
+
 [1]: https://blog.containerize.com/software-development/free-open-source-popular-javascript-frameworks/
 [2]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
 [3]: https://www.google.com/maps

@@ -20,23 +20,27 @@ Bu makalede, çok kiracılık uygulamak için Osticket özelleştirmenin nasıl 
   * [Uygulama][3]
   * [Sonuç][4]
 
-## Osticket'e Genel Bakış:   {#Osticket}
+## Osticket'e Genel Bakış: {#osticket}
+
 [Osticket][5] açık kaynaklı bir çevrimiçi müşteri desteği web tabanlı yardım masası yazılımıdır. Sezgisel bir kontrol paneli ve gerçek zamanlı bir raporlama bileşeni sağlar. Kullanımı kolay sorular yönetimi modülüne sahiptir. Bu, telefonunuzdan, e-postanızdan ve web tabanlı formlarınızdan sorular oluşturmanıza olanak tanır. Bu, müşteri destek deneyiminin tüm bölümlerini yorumlar ve e -posta bildirimleri gibi uyarlamaya yardımcı olmak için çok sayıda seçenek sunar.
 
-## çok kiracılık genel bakış:   {#multitenancy}
+## Çok Kencilik Genel Bakış: {#multitenancy}
+
 Çok kiracılık, bir uygulamanın birden fazla bağımsız örneğinin ortak bir ortamda çalıştığı uygulamayı ifade eder. Örnekler (kiracılar) mantıksal olarak izole edilir, ancak fiziksel olarak entegre edilir. Bir kuruluşun muhtemelen birden fazla departmanı olabilir. Böylece aynı uygulamanın birden fazla kiracı/örnek oluşturabilirler. Örneğin, bizim durumumuzda, aynı kuruluşun farklı alanları için bir yardım masası sistemi yapılandırılabilir. Yüzlerce kiracı olabilir, ancak hepsi aynı dosyaları ve dolayısıyla aynı depolamayı kullanacak. Bu, depolama maliyetlerini ve yükseltmeleri kolaylaştıracaktır. Geliştiricilerin dosyaları her site için ayrı ayrı değişiklik yapmak yerine tek bir yerden güncellemeleri gerekir.
 
-## Multi-Tenacy'nin faydaları nelerdir?   {#faydalar}
-İşte çoklu kiracılığın bazı önemli faydaları
-  ***Kaynaklar Optimizasyonu:**  Bir kiracı için ayrılmış bir makine verimli değildir. Çünkü bir kiracının makinenin tüm bilgi işlem gücünü kullanması muhtemel değildir. Paylaşım makineleri kaynak kullanılabilirliğini en üst düzeye çıkarır.
-  ***Daha düşük maliyetler:**  Aynı kaynakları paylaşan birden fazla kiracıyla, her kiracının kendi özel altyapılarını gerektirdiğinden çok daha düşük olacaktır.
-  ***Verimli barındırma:**  Ayrıca çok kiracı Osticket, ortak bir ortamda barındırma maliyetlerini minimumda bir şekilde düşürecektir.
-  ***Güvenlik:**  Dış dünyayla daha az etkileşim ile kötü amaçlı yazılımlara maruz kalma azaltılır.
-  ***Kolay Yükseltme** : Dosyaları ayrı ayrı güncellemek yerine yalnızca tek bir yerde yükseltin. Bu çok zaman ve çaba tasarrufu sağlayacaktır.
+## Çok kiracılığın faydaları nelerdir? {#benefits}
 
-## Çok kiracı osticket'in uygulanması:   {#implementation}
+İşte çok kiracılığın bazı önemli faydaları
+*  **Kaynaklar Optimizasyonu:**   Bir kiracı için ayrılmış bir makine verimli değildir. Çünkü bir kiracının makinenin tüm bilgi işlem gücünü kullanması muhtemel değildir. Paylaşım makineleri kaynak kullanılabilirliğini en üst düzeye çıkarır.
+*  **Daha düşük maliyetler:**   Aynı kaynakları paylaşan birden fazla kiracıyla, her kiracının kendi özel altyapılarını gerektirdiğinden çok daha düşük olacaktır.
+*  **Verimli barındırma:**   Ayrıca çok kiracı Osticket, ortak bir ortamda barındırma maliyetlerini minimumda bir şekilde düşürecektir.
+*  **Güvenlik:**   Dış dünyayla daha az etkileşim ile kötü amaçlı yazılımlara maruz kalma azaltılır.
+*  **Kolay Yükseltme**  : Dosyaları ayrı ayrı güncellemek yerine yalnızca tek bir yerde yükseltin. Bu çok zaman ve çaba tasarrufu sağlayacaktır.
+
+## Çok kiracı ostiketin uygulanması: {#implementation}
+
   * “Main_db” olarak yeni bir boş veritabanı adları oluşturun.
-  * Ardından, tüm kiracılarla ilgili ayrıntıları taşıyacak “Kiracı” adlı tablo oluşturun.
+  * Ardından, tüm kiracılar hakkında ayrıntılar tutacak “Kiracı” adlı tablo oluşturun.
   * Aşağıdaki alanlara sahip olacak:
   1. site_name
   2. URL
@@ -64,7 +68,8 @@ if ($url == $row['url']) {
   * Bu kod varsayılan veritabanı bağlantısını günceller. Önce mevcut kiracının URL'sini alacaktır. O zaman bu URL'ye göre veritabanının adını alacaktır. Uygulama hangi veritabanına bağlanacağını bu şekilde bilecektir. Her kiracının ayrı bir veritabanı olacaktır. Veritabanı kiracı URL'sine göre seçilecektir.
   * Yeni bir kiracı oluşturmak için, Nginx Server'da yeni kiracı alanı kurmanız yeterlidir. Bundan sonra mevcut Osticket veritabanını kopyalayın ve yeniden adlandırın. Son olarak girişi “Main_DB” veritabanının “kiracı” tablosuna ekleyin.
 
-## Sonuç:   {#Conclusion}
+## Çözüm: {#conclusion}
+
 Osticket, ücretsiz ve açık kaynaklı bir BT yardımcı masa yönetimi yazılımıdır. Ostickette ostickette çok kiracılık uygulamak için osticket özelleştirmelerinin maliyetleri tasarruf edebilmek, uygulamayı optimize etmek ve daha düşük kaynak gereksinimlerini nasıl yapmayı öğrendik. Geliştiricilerin birkaç basit adımda yeni kiracılar oluşturmaları hayatı kolaylaştıracaktır. Böylece aynı kurulumdan birden fazla Osticket kiracı oluşturun.
 
 ## Keşfetmek:
@@ -74,12 +79,13 @@ Osticket hakkında daha fazla bilgi edinmek için lütfen aşağıdaki sayfayı 
   * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur][7]
   * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin][8]
 
-  
-[1]: #osticket
-[2]: #multitenancy
-[3]: #benefits
-[4]: #conclusion
-[5]: https://products.containerize.com/helpdesk/osticket
-[6]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
-[7]: https://blog.containerize.com/helpdesk/how-to-set-up-help-desk-system-using-osticket/
-[8]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+
+ [1]: #osticket
+ [2]: #multitenancy
+ [3]: #benefits
+ [4]: #conclusion
+ [5]: https://products.containerize.com/helpdesk/osticket
+ [6]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
+ [7]: https://blog.containerize.com/helpdesk/how-to-set-up-help-desk-system-using-osticket/
+ [8]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

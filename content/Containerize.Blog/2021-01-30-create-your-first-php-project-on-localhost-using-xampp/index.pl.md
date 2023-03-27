@@ -20,17 +20,20 @@ XAMPP to serwer WWW open source, który zapewnia lokalne środowisko do tworzeni
   * [Uruchom i testuj skrypt php][5]
   * [Wniosek][6]
 
-## wymagania   {#Requirements}
+## Wymagania {#requirements}
+
   * Instalacja XAMPP
   * Aplikacja edytora kodu
   * Podstawowa wiedza PHP
   * Podstawowa wiedza HTML i JavaScript
 
-## Co to jest XAMPP?   {#XAMPP}
+## Co to jest XAMPP? {#xampp}
+
 XAMPP to stos serwera WWW open source. Zawiera Apache, MySQL, Mariadb, PHP i Perl. Jest niezwykle łatwy w instalacji i użyciu. Dlatego jest to najpopularniejsze środowisko programistyczne PHP. Serwer XAMPP zapewnia pełne środowisko do tworzenia aplikacji internetowych PHP. Jeśli nie masz jeszcze pracy XAMPP, postępuj zgodnie z tym przewodnikiem, aby zainstalować XAMPP:
 [Ustaw XAMPP i PhpMyAdmin jako LocalHost w systemie Windows][7]
 
-## Utwórz skrypt php   {#php}
+## Utwórz skrypt PHP {#php}
+
   * Zakładając, że zainstalowałeś już XAMPP, śledząc powyższy samouczek, stwórzmy teraz prosty skrypt PHP i przetestuj go na XAMPP.
   * Najpierw otwórz edytor. Jeśli nie masz edytora programowania, po prostu otwórz notatnik.
   * Wprowadź następujący kod
@@ -42,13 +45,14 @@ echo "This is my first PHP project";
   * Kliknij „Plik” w prawym górnym rogu.
   * Naciśnij przycisk „Zapisz jako”.
   * Wprowadź nazwę z rozszerzeniem „.php”.
-  *Dla „Zapisz jako typ”, wybierz opcję „Wszystkie pliki (\*. \*)”.
+* Dla „Zapisz jako typ”, wybierz opcję „Wszystkie pliki (\*. \*)”.
   * I na koniec naciśnij przycisk „Zapisz”.
 
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="Utwórz swój pierwszy projekt PHP z serwerem WWW XAMPP Open Source">}}
 
 
-## Uruchom i testuj skrypt php   {#Test}
+## Uruchom i testuj skrypt PHP {#test}
+
   * Skopiuj ten skrypt PHP do folderu HTDOCS w instalacji XAMPP. Głównie folder HTDOCS znajduje się tutaj: C: \ xampp \ htdocs
   * Otwórz swoją przeglądarkę.
   * Przejdź do LocalHost/My \ _first \ _php_project.php
@@ -57,7 +61,8 @@ echo "This is my first PHP project";
 
 Gratulacje! Właśnie stworzyłeś swój pierwszy projekt PHP.
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 Tworzenie pierwszego projektu internetowego jest zawsze bardzo ekscytujące dla początkującego. Czuje się świetnie, gdy projektujesz swój pierwszy dynamiczny skrypt, uruchamiasz go i przeglądaj działającą w przeglądarce. Mam nadzieję, że ten prosty przewodnik pomógł ci w tworzeniu i uruchomieniu pierwszego projektu PHP z serwerem WWW XAMPP open source.
 
 ## Badać
@@ -65,7 +70,8 @@ Aby dowiedzieć się więcej o XAMPP i PhpMyAdmin, sprawdź następujące przewo
 [Ustaw XAMPP i PhpMyAdmin jako LocalHost w systemie Windows][7]
 [Darmowy stos rozwiązania serwera WWW dla programistów PHP i Perl][1]
 
-  
+
+
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

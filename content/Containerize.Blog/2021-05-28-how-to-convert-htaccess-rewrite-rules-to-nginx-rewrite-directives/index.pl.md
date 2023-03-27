@@ -14,12 +14,13 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Konwertuj .htaccess przepisuj reguły na dyrektywy Nginx">}}
 
 W naszym ostatnim samouczku dowiedzieliśmy się [jak instalować wiele wersji PHP z Nginx na Ubuntu][1]. Apache jest jednym z najpopularniejszych serwisów internetowych, ale ostatnio Nginx stał się konkurentem Apache. Ale Nginx nie obsługuje zasad przepisywania HTACCSS. Tak więc w tym artykule dowiemy się, jak konwertować reguły przepisywania Htaccess na Nginx przepisanie dyrektyw. Zacznijmy!
-  * **[NGINX przepisuj reguły][2]**
-  *[**. HTACCESS REWRITE RUDY**][3]
-  *[ **Konwertuj .htaccess przepisuj reguły na dyrektywy NGINX** ][4]
-  *[ **Wniosek** ][5]
+*  **[NGINX przepisuj reguły][2]**  
+* [  **. HTACCESS REWRITE RUDY**  ][3]
+* [  **Konwertuj .htaccess przepisuj reguły na dyrektywy NGINX**  ][4]
+* [  **Wniosek**  ][5]
 
-## nginx przepisuj reguły   {#nginx}
+## Nginx przepisuje zasady {#nginx}
+
 Przepisanie reguł zmienia część lub całość URL w żądaniu klienta, zwykle w celu poinformowania klientów, że zasób, o którym proszą, znajduje się teraz w innej lokalizacji lub do kontrolowania przepływu przetwarzania w Nginx. Na przykład, aby przekazać żądania do serwera aplikacji, gdy treść musi być generowana dynamicznie. Dyrektywa TRY_FILES jest często używana w tym celu.
 Dwie dyrektywy dotyczące przepisu Nginx Nginx to _return_ i _rewrite_, a dyrektywa _TRY_FILES jest przydatnym sposobem kierowania żądań do serwerów aplikacji.
 Dyrektywa zwrotna jest prostsza z dwóch dyrektyw ogólnych. Zatrzymasz powrót w kontekście serwera lub lokalizacji.
@@ -44,17 +45,19 @@ server {
 }
 ```
 
-## .htaccess Rewrite Reguły   {#apache}
+## .htaccess przepisuje zasady {#apache}
+
 Plik .htaccess kontroluje szereg sposobów, w jakie witryna można uzyskać, zablokować i przekierować. Robi to przy użyciu serii jednego lub więcej reguł przepisywania .htaccess. Te przepisania są wykonywane przez moduł Mod_rewrite Apache.
 mod_rewrite zapewnia sposób dynamicznego modyfikacji przychodzących żądań URL opartych na regułach wyrażenia regularnego. Pozwala to mapować dowolne adresy URL na wewnętrzną strukturę adresu URL w dowolny sposób. Służy to również do wyczyszczenia zewnętrznych adresów URL, a następnie mapowania ich na brzydko wyglądające wewnętrzne adresy URL.
-Na przykład następujące .htaccess przepisanie reguły przekreśla adres URL bez WWW do adresu URL WWW.
+Na przykład następujące .htaccess przepisanie reguły przekreśla adres URL bez WWW do adresu URL www.
 ```
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## Konwertuj .htaccess przepisuj reguły na dyrektywy NGINX   {#Convert}
+## Konwertuj .htaccess przepisuj reguły na dyrektywy Nginx {#convert}
+
 Jak pokazaliśmy w naszym przykładzie powyżej przekierowania adresu URL bez WWW do adresu URL WWW, przekonwertujmy tę samą regułę .htaccess Rewrite w dyrektywę Nginx Rewrite.
 ```
 server {
@@ -82,7 +85,7 @@ server {
 }
 ```
 Ze względu na większą klarowność przekonwertujmy WordPress Htaccess reguły na dyrektywę Nginx TRY_FILES.
-[WordPress.org dystrybuuje][6] Plik podstawowy **. HTACCESS** Plik z następującymi. HTACCESS przepisuje zasady, które umożliwiają ładne permalinks:
+[WordPress.org dystrybuuje][6] Plik podstawowy  **. HTACCESS**  Plik z następującymi. HTACCESS przepisuje zasady, które umożliwiają ładne permalinks:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -100,18 +103,20 @@ location / {
 }
 ```
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 W tym samouczku zbadaliśmy reguły .htaccess Apache Rewrite i sposób, w jaki możemy przekonwertować te .htaccess przepisanie reguł na dyrektywy przepisywania Nginx. Ponadto badaliśmy różne dyrektywy Nginx, które można wykorzystać do przepisywania adresów URL. Podaliśmy również przykładowe reguły zarówno dla Nginx, jak i Apache. Mam nadzieję, że samouczek jest dla ciebie pomocny.
 
 ## Badać
   * [Jak zainstalować wiele wersji PHP z Nginx na Ubuntu][1]
   * [Jak skonfigurować i skonfigurować Nginx jako odwrotną proxy][7]
 
-  
-[1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-[2]: #nginx
-[3]: #apache
-[4]: #convert
-[5]: #conclusion
-[6]: https://codex.wordpress.org/htaccess
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+
+
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [2]: #nginx
+ [3]: #apache
+ [4]: #convert
+ [5]: #conclusion
+ [6]: https://codex.wordpress.org/htaccess
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

@@ -16,17 +16,19 @@ categories: ['Game Development Software']
 
 ## Przegląd
 Przemysł gier wideo kwitnie w wysokim tempie. Na całym świecie są miliardy graczy, którzy zawsze szukają ekscytujących i zabawnych gier wideo. Z drugiej strony istnieje wiele oprogramowania do tworzenia gier wideo, które zapewnia programistom kompletne narzędzia do rozwoju środowiska i gier do opracowywania zaawansowanych i fascynujących gier. W przeszłości twórcy gier byli przyzwyczajeni do pisania linii kodu źródłowego według linii. To był bardzo czas na podejmowanie metody rozwoju, a gracze musieli czekać miesiące na nową wersję. Dlatego społeczność open source opracowała bezpłatne  **łatwych producentów gier**  dla twórców gier.
-Te **Darmowe silniki do gry  **nie tylko pomagają w dostarczaniu szybkich wydań gry, ale także z funkcjami, które zwiększają jakość i solidność gry. Ponadto ci **  3D projektanci gier  **oferują interfejs użytkownika przeciągania i upuść i eliminują potrzebę posiadania wiedzy programowania w celu budowania gier. Jest to jednak**   samouczek Gdeveloper**, w którym dowiemy się, czym jest Gdevelop i jak skonfigurować go lokalnie, obejmując następujący punkt.
-  * **[Co to jest gdevel.][1]**
-  * **[Jak skonfigurować na LocalHost?][2]**
-  * **[wniosek][3]**
+Te  **Darmowe silniki do gry** nie tylko pomagają w dostarczaniu szybkich wydań gry, ale także z funkcjami, które zwiększają jakość i solidność gry. Ponadto ci  **3D projektanci gier**  oferują interfejs użytkownika przeciągania i upuść i eliminują potrzebę posiadania wiedzy programowania w celu budowania gier. Jest to jednak **samouczek Gdeveloper**  , w którym dowiemy się, czym jest Gdevelop i jak skonfigurować go lokalnie, obejmując następujący punkt.
+*  **[Co to jest gdevel.][1]**  
+*  **[Jak skonfigurować na LocalHost?][2]**  
+*  **[wniosek][3]**  
 
-##  **What Is Gdevelop.** {#intro}
+##  **Co to jest Gdevelop.**  {#intro}
+
 GDevelop to bezpłatne oprogramowanie do tworzenia gier open source. Jest samodzielny i oferuje bogate funkcje do rozwijania gier 2D. Istnieje jednak wsparcie dla obiektów 3D. Użytkownicy nie potrzebują żadnych umiejętności programowania, aby rozwijać i publikować gry na wielu platformach. Jest wysoce rozszerzalny i łatwy w konfiguracji, ponieważ wymaga łatwych wymagań, aby samodzielnie hostować ten bezpłatny silnik gry. Istnieje intuicyjny interfejs użytkownika z możliwościami przeciągania i upuszczenia. To bezpłatne narzędzie zapewnia animacje o wysokiej klasy, efekty wideo/audio, ekran dotykowy i multi-touch, podgląd na żywo i wiele innych. Co więcej, ten  **3D projektant gier**  opracowuje potężne funkcje prototypowania, które pomagają programistom opracować dobry produkt oparty na prototypie.
 Ponadto ten open source  **Easy Game Maker**  jest bardzo konfigurowalny i obsługuje integrację z bibliotekami stron trzecich. Przede wszystkim zapewnia obsługę Xboxa i PlayStation, które są popularnymi konsolami do gier wideo. Gdevelop jest napisane w C ++, JavaScript i TypeScript. Dostępna jest szczegółowa dokumentacja dotycząca wdrażania i rozwoju. Gdevelop ma bardzo tętniącej życiem społeczności programistów, która aktywnie reaguje na błędy i zapytania. Dlatego cały kod źródłowy jest dostępny na [github][4].
-[Dowiedz się więcej o Gdevelop][5]
+[Dowiedz się więcej o Gdeveloper][5]
 
-##  **Jak skonfigurować na LocalHost?** {#setUp}
+##  **Jak skonfigurować na LocalHost?**  {#setup}
+
 W sekcji tego  **gdevelowe samouczek**  zobaczymy, jak możemy skonfigurować GDevel na naszym lokalnym systemie. Przed przejściem do następnych kroków upewnij się, że zainstalowałeś następujące warunki wstępne.
   * Git
   * Node.js 12.x
@@ -67,8 +69,9 @@ Możesz wybrać dowolną grę jako starter, ponieważ w tym samouczku możesz zo
 
 W ten sposób możesz odkrywać i wypróbować dalsze funkcje. Ten  **Easy Game Maker**  jest przyjazny dla programistów i zapewnia intuicyjny pulpit nawigacyjny. Po zakończeniu rozwoju gry możesz ją wyeksportować dla różnych platform, takich jak Android, iOS i Web.
 
-##  **Wniosek** {#Conclusion}
-To kończy ten samouczek Gdevelop. Ten **darmowy silnik gry  **pozwala wdrożyć logikę gier za pomocą zdarzeń wizualnych. Ma bardzo wspierającą społeczność, która stworzyła wiele pomocnych samouczków i podręczników użytkowników. Ten post na blogu naprawdę pomoże ci, jeśli jesteś nowy w świecie rozwoju gier. Istnieje wielu innych**   3D projektantów gier**, narzędzia do tworzenia gier i artykuły wymienione w sekcji Explore poniżej. Wszystkie te silniki gier są bezpłatne, open source i opracowują możliwości samowystarczające. Dlatego branża rozwoju gier znacznie się rozwija wraz ze wzrostem liczby graczy. Istnieją gry wideo z grafiką o wysokiej rozdzielczości i efektami dźwiękowymi, które wywołują zainteresowanie i atrakcję u graczy. Wybierz jednak dobrze odporne oprogramowanie do tworzenia gier, które wprowadza jakość i wydajność do pracy.
+##  **Wniosek**  {#Conclusion}
+
+To kończy ten samouczek Gdevelop. Ten  **darmowy silnik gry** pozwala wdrożyć logikę gier za pomocą zdarzeń wizualnych. Ma bardzo wspierającą społeczność, która stworzyła wiele pomocnych samouczków i podręczników użytkowników. Ten post na blogu naprawdę pomoże ci, jeśli jesteś nowy w świecie rozwoju gier. Istnieje wielu innych **3D projektantów gier**  , narzędzia do tworzenia gier i artykuły wymienione w sekcji Explore poniżej. Wszystkie te silniki gier są bezpłatne, open source i opracowują możliwości samowystarczające. Dlatego branża rozwoju gier znacznie się rozwija wraz ze wzrostem liczby graczy. Istnieją gry wideo z grafiką o wysokiej rozdzielczości i efektami dźwiękowymi, które wywołują zainteresowanie i atrakcję u graczy. Wybierz jednak dobrze odporne oprogramowanie do tworzenia gier, które wprowadza jakość i wydajność do pracy.
 Wreszcie, Containerize.com jest gotowy na ulepszenie bazy samouczków o kilka interesujących samouczków rozwoju gier. Pozostań w kontakcie z tą kategorią [oprogramowanie do rozwoju gier][6] na [Containerize.com][7] w celu regularnych aktualizacji.
 
 ## Badać
@@ -78,14 +81,15 @@ Wreszcie, Containerize.com jest gotowy na ulepszenie bazy samouczków o kilka in
   * [Cocos Creator][11]
   * [Panda3d][12]
   * [Rzeczy do przejrzenia przed wyborem oprogramowania open source w 2021 r.][13]
-  * [Jak zrobić grę na scratch za pomocą open source GDeveld][14]
+  * [Jak zrobić grę na scratch za pomocą open source GDevelop][14]
   * [Top 5 bezpłatnych oprogramowania do rozwoju gier w roku 2021][15]
   * [Rozpoczęcie rozwoju gry za pomocą supermocarstw][16]
   * [Samouczek rozwoju gry | Ruch Player in Gdevelop][17]
   * [Samouczek rozwoju gier HTML5 dla programistów gier wideo][18]
   * [Jak branża gier wideo wykorzystuje oprogramowanie typu open source][19]
 
-  
+
+
 [1]: #intro
 [2]: #setup
 [3]: #Conclusion

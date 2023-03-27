@@ -13,28 +13,31 @@ Crie uma loja on -line com plug -in gratuita do WordPress e comece rapidamente a
 
 {{< figure align=center src="images/create-woocomerce-store.png" alt="Plugin de carrinho de compras wordpress">}}
 
-A maioria de vocês está familiarizada com o WordPress. O WordPress é uma das principais plataformas para criar sites, blogs etc. Existem toneladas de plugins disponíveis no Marketplace que permitem aprimorar a funcionalidade. Um deles é o plug -in **WooCommerce  **ajuda os usuários a configurar a loja on -line. **  WooCommerce  **é um dos melhores plug-in de comércio eletrônico para o WordPress**  , plataforma de comércio eletrônico fácil de usar, personalizável e robusto. Além disso, ele é construído sobre o WordPress e usa seu poder para transformar seus negócios rapidamente para um grande público.
+A maioria de vocês está familiarizada com o WordPress. O WordPress é uma das principais plataformas para criar sites, blogs etc. Existem toneladas de plugins disponíveis no Marketplace que permitem aprimorar a funcionalidade. Um deles é o plug -in **WooCommerce**ajuda os usuários a configurar a loja on -line.**WooCommerce** é um dos melhores plug-in de comércio eletrônico para o WordPress**, plataforma de comércio eletrônico fácil de usar, personalizável e robusto. Além disso, ele é construído sobre o WordPress e usa seu poder para transformar seus negócios rapidamente para um grande público.
 Abordaremos os seguintes tópicos deste tutorial.
-  *[**Instale o WordPress** ][1]
-  *[**Instale o plugin WooCommerce** ][2]
-  *[**Setup Store with wooCommerce** ][3]
-  *[**Conclusão** ][4]
+* [ **Instale o WordPress** ][1]
+* [ **Instale o plugin WooCommerce** ][2]
+* [ **Setup Store with wooCommerce** ][3]
+* [ **Conclusão** ][4]
 
-## Instale o WordPress   {#wordpress}
-Você pode pular esta seção e passar para a próxima se já tiver o WordPress instalado. Caso você não tenha a configuração do WordPress, você pode encontrar diretrizes passo a passo para instalação em [**containerize.com** ][5].
+## Instale o WordPress {#WordPress}
 
-## Instale o plug -in WooCommerce   {#WooCommerce}
+Você pode pular esta seção e passar para a próxima se já tiver o WordPress instalado. Caso você não tenha a configuração do WordPress, você pode encontrar diretrizes passo a passo para instalação em [ **containerize.com** ][5].
+
+## Instale o plug -in WooCommerce {#WooCommerce}
+
 Para configurar o WooCommerce, siga estas etapas:
   * Faça login no painel de administração do seu site WordPress.
-  *Navegue para **plugins  **e clique em **  Adicione novo botão** .
-  *TIPO **WooCommerce**  no campo de pesquisa e você o verá como o primeiro resultado da pesquisa.
+* Navegue para **plugins**e clique em**Adicione novo botão** .
+* TIPO **WooCommerce** no campo de pesquisa e você o verá como o primeiro resultado da pesquisa.
 
 {{< figure align=center src="images/WooCommerce-1-1024x367.png" alt="Instale o plug -in WooCommerce">}}
 
-  *Clique em **Instale agora**  Botão ao lado do plug -in WooCommerce.
-  * Levaria alguns momentos para instalação. Clique no botão **Ative**  depois de terminar com a instalação.
+* Clique em **Instale agora** Botão ao lado do plug -in WooCommerce.
+  * Levaria alguns momentos para instalação. Clique no botão **Ative** depois de terminar com a instalação.
 
-## Setup Store with wooCommerce   {#setup}
+## Loja de configuração com wooCommerce {#Setup}
+
 O assistente de instalação o guia por todas as etapas necessárias para criar sua loja. Siga as etapas abaixo e sua loja estará pronta para começar a vender.
 
 {{< figure align=center src="images/WooCommerce-2-1024x371.png" alt="Loja de configuração com wooCommerce">}}
@@ -49,17 +52,19 @@ O assistente de instalação o guia por todas as etapas necessárias para criar 
 {{< figure align=center src="images/WooCommerce-3.png" alt="Lista de verificação de instalação da loja">}}
 
 
-## Conclusão   {#conclusion}
-Discutimos como configurar o WordPress e **WooCommerce Cart  **neste tutorial. Esperamos que este guia o ajude a construir sua loja on -line. No entanto, você pode conferir **  WooCommerce Storefront**  para selecionar o tema correto para a loja.
-Além disso, [**containerize.com **][6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento à categoria [ **SOFTWARE DE CART**  ][7] para artigos mais interessantes.
+## Conclusão {#Conclusão}
+
+Discutimos como configurar o WordPress e **WooCommerce Cart**neste tutorial. Esperamos que este guia o ajude a construir sua loja on -line. No entanto, você pode conferir**WooCommerce Storefront** para selecionar o tema correto para a loja.
+Além disso, [ **containerize.com**][6] está a caminho de aprimorar a pilha de produtos de código aberto em vários idiomas e estruturas. Para atualizações regulares, fique atento à categoria [**SOFTWARE DE CART** ][7] para artigos mais interessantes.
 
 ## Explore
 Você pode encontrar os seguintes links relevantes:
-  *[**WordPress - Blogging de código aberto e plataforma CMS** ][5]
-  *[**WooCommerce - plug -in gratuito do WordPress para loja de construção** ][8]
-  *[**Top 5 software de carrinho de compras de código aberto em 2020** ][9]
+* [ **WordPress - Blogging de código aberto e plataforma CMS** ][5]
+* [ **WooCommerce - plugin WordPress gratuito para loja de construção** ][8]
+* [ **Top 5 software de carrinho de compras de código aberto em 2020** ][9]
 
-  
+
+
 [1]: #WordPress
 [2]: #WooCommerce
 [3]: #Setup

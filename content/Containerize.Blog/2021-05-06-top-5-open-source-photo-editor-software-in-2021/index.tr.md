@@ -79,7 +79,8 @@ Açık kaynak olarak, indirmek için ücretsiz, çapraz platform ham görüntü 
   * [Digikam][9]
   * [Rawtherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

@@ -13,15 +13,16 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/deployment-tools-blog-post.png" alt="Strumenti di distribuzione del software gratuito">}}
 
-**Strumenti di distribuzione del software gratuito  **Aiuta i team ad automatizzare i processi di costruzione, test e distribuzione delle applicazioni. Aiuta gli sviluppatori a concentrarsi su compiti di sviluppo, ad aumentare l'efficienza e la produttività. Ci sono molti strumenti di distribuzione gratuiti disponibili sul mercato. Tuttavia, discuteremo dei migliori strumenti CI/CD open source**  in questo post.
+**Strumenti di distribuzione del software gratuito**Aiuta i team ad automatizzare i processi di costruzione, test e distribuzione delle applicazioni. Aiuta gli sviluppatori a concentrarsi su compiti di sviluppo, ad aumentare l'efficienza e la produttività. Ci sono molti strumenti di distribuzione gratuiti disponibili sul mercato. Tuttavia, discuteremo dei migliori strumenti CI/CD open source** in questo post.
   * [Jenkins][1]
   * [Drone][2]
   * [Deployer][3]
   * [Capistrano][4]
   * [Rancher][5]
 
-## Jenkins   {#jenkins}
-[**Jenkins **][6] è un server di automazione open source che è ampiamente utilizzato. È una piattaforma di distribuzione completamente gratuita che include funzionalità tra cui integrazione continua e distribuzione continua.  **Jenkins **  è un server open source che include diversi plugin per la costruzione, il test e la distribuzione di applicazioni. Inoltre, è uno strumento di distribuzione affidabile, estensibile e versatile. Jenkins è costruito su un'architettura da maestro. Questo ** Strumento di distribuzione open source**  è scritto in Java e il codice sorgente è disponibile su [GitHub][7].
+## Jenkins {#Jenkins}
+
+[ **Jenkins**][6] è un server di automazione open source che è ampiamente utilizzato. È una piattaforma di distribuzione completamente gratuita che include funzionalità tra cui integrazione continua e distribuzione continua. **Jenkins** è un server open source che include diversi plugin per la costruzione, il test e la distribuzione di applicazioni. Inoltre, è uno strumento di distribuzione affidabile, estensibile e versatile. Jenkins è costruito su un'architettura da maestro. Questo**Strumento di distribuzione open source** è scritto in Java e il codice sorgente è disponibile su [GitHub][7].
 Di seguito sono riportate le caratteristiche chiave di Jenkins:
   * Integrazione continua e consegna continua
   * Interfaccia utente semplice e facile da usare
@@ -30,8 +31,9 @@ Di seguito sono riportate le caratteristiche chiave di Jenkins:
   * Costruisci le notifiche di stato
 [ **Scopri di più su Jenkins** ][8]
 
-## drone   {#drone}
-[**drone **][9] è uno strumento CI/CD libero e open source moderno. Funziona come un livello intermedio tra Docker e un fornitore di repository.  **Drone **  ha bisogno delle informazioni sull'account repository per bootstrap i suoi modelli di autenticazione, utente e autorizzazioni. Inoltre, viene fornito con più backend di database e fornitori di repository. Inoltre, ha un supporto fuori dalla scatola per l'impostazione di certificati TLS/SSL. Gli sviluppatori possono anche creare plugin in qualsiasi lingua e pubblicarli come contenitori per l'uso in drone. Il drone è scritto in lingua GO e il suo codice sorgente è disponibile su [github][10]. Questo ** lo strumento di integrazione continua open source**  viene rilasciato sotto la licenza Apache.
+## Drone {#Drone}
+
+[ **drone**][9] è uno strumento CI/CD libero e open source moderno. Funziona come un livello intermedio tra Docker e un fornitore di repository. **Drone** ha bisogno delle informazioni sull'account repository per bootstrap i suoi modelli di autenticazione, utente e autorizzazioni. Inoltre, viene fornito con più backend di database e fornitori di repository. Inoltre, ha un supporto fuori dalla scatola per l'impostazione di certificati TLS/SSL. Gli sviluppatori possono anche creare plugin in qualsiasi lingua e pubblicarli come contenitori per l'uso in drone. Il drone è scritto in lingua GO e il suo codice sorgente è disponibile su [github][10]. Questo**lo strumento di integrazione continua open source** viene rilasciato sotto la licenza Apache.
 Ecco un elenco della funzione chiave per il drone:
   * Build isolate
   * Supporta sistemi di gestione del codice sorgente popolari
@@ -40,8 +42,9 @@ Ecco un elenco della funzione chiave per il drone:
   * Supporta i plugin
 [ **Scopri di più sul drone** ][11]
 
-## Deployer   {#deployer}
-[**Deployer **][12] è uno strumento di distribuzione open source gratuito e  **** . È progettato per gestire la distribuzione di applicazioni basate su PHP. È facile da usare e ha una curva di apprendimento basso. ** Deployer**  ha ricette integrate per famosi framework PHP, sistemi di gestione dei contenuti e applicazioni del carrello della spesa. È uno strumento di riga di comando che non richiede l'installazione di un client o di un agente. Inoltre, è possibile distribuire applicazioni PHP senza tempi di inattività. Inoltre, consente agli sviluppatori di rollback rapidamente alla versione precedente. Il suo codice sorgente è disponibile anche su [GitHub][13].
+## Distributore {#Distributore}
+
+[ **Deployer**][12] è uno strumento di distribuzione open source gratuito e****. È progettato per gestire la distribuzione di applicazioni basate su PHP. È facile da usare e ha una curva di apprendimento basso.** Deployer**ha ricette integrate per famosi framework PHP, sistemi di gestione dei contenuti e applicazioni del carrello della spesa. È uno strumento di riga di comando che non richiede l'installazione di un client o di un agente. Inoltre, è possibile distribuire applicazioni PHP senza tempi di inattività. Inoltre, consente agli sviluppatori di rollback rapidamente alla versione precedente. Il suo codice sorgente è disponibile anche su [GitHub][13].
 Deployer offre i seguenti punti chiave:
   * Supporta i famosi framework PHP
   * Strumento CLI
@@ -50,8 +53,9 @@ Deployer offre i seguenti punti chiave:
   * Nessun agente, basta usare ssh
 [ **Scopri di più su Deployer** ][14]
 
-## Capistrano   {#capistrano}
-[**Capistrano **][15] è un altro dei migliori  **Strumento di distribuzione gratuito **  per la distribuzione di applicazioni Web. Consente ai team di creare script di distribuzione automatizzati. ** Capistrano**  può distribuire le applicazioni Web su più server contemporaneamente. Aiuta anche i team a identificare la distribuzione per più fasi, come sviluppo, stadiazione e produzione, tutti in una volta. Questo software di distribuzione gratuito è scritto in Ruby. Inoltre, Capistrano può essere facilmente integrato con qualsiasi altra applicazione Ruby. La licenza per questo strumento di distribuzione open source è MIT e il codice sorgente è disponibile su [GitHub][16].
+## Capistrano {#Capistrano}
+
+[ **Capistrano**][15] è un altro dei migliori **Strumento di distribuzione gratuito** per la distribuzione di applicazioni Web. Consente ai team di creare script di distribuzione automatizzati.**Capistrano** può distribuire le applicazioni Web su più server contemporaneamente. Aiuta anche i team a identificare la distribuzione per più fasi, come sviluppo, stadiazione e produzione, tutti in una volta. Questo software di distribuzione gratuito è scritto in Ruby. Inoltre, Capistrano può essere facilmente integrato con qualsiasi altra applicazione Ruby. La licenza per questo strumento di distribuzione open source è MIT e il codice sorgente è disponibile su [GitHub][16].
 Capistrano supporta le seguenti caratteristiche importanti:
   * Più fasi
   * Convenzioni forti
@@ -60,8 +64,9 @@ Capistrano supporta le seguenti caratteristiche importanti:
   * Supporta i plugin
 [ **Scopri di più su Capistrano** ][17]
 
-## rancher   {#rancher}
-[**Rancher **][18] è uno strumento di gestione del contenitore  **gratuito **  **. I team software possono utilizzarlo facilmente per la gestione di applicazioni containerizzate. Fornisce una serie completa di servizi per container, networking, archiviazione, gestione dell'host e bilanciamento del carico.  **Rancher**   offre l'integrazione con una vasta gamma di servizi popolari per operazioni di container come Aqua, Gitlab, Sysdig, Datadog, Artifactory, Portworx e Calico. È scritto in GO e il codice sorgente è disponibile su [github][19]. La licenza per questa piattaforma di gestione dei container open source** è Apache-2.0.
+## Allevatore {#Allevatore}
+
+[ **Rancher**][18] è uno strumento di gestione del contenitore **gratuito****. I team software possono utilizzarlo facilmente per la gestione di applicazioni containerizzate. Fornisce una serie completa di servizi per container, networking, archiviazione, gestione dell'host e bilanciamento del carico.**Rancher** offre l'integrazione con una vasta gamma di servizi popolari per operazioni di container come Aqua, Gitlab, Sysdig, Datadog, Artifactory, Portworx e Calico. È scritto in GO e il codice sorgente è disponibile su [github][19]. La licenza per questa piattaforma di gestione dei container open source**è Apache-2.0.
 Il rancher presenterà le seguenti caratteristiche chiave:
   * Networking cross-host
   * Bilanciamento del carico del contenitore
@@ -82,7 +87,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Capistrano - Strumento di distribuzione open source][15]
   * [Rancher - Piattaforma di gestione dei container][18]
 
-  
+
+
 [1]: #Jenkins
 [2]: #Drone
 [3]: #Deployer

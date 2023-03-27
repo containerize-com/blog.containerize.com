@@ -14,29 +14,33 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/lemp-banner.png" alt="Installa lo stack LEMP su Ubuntu">}}
 
 
-Panoramica ##  {#PreRequisites}
-In questa guida, installeremo NGINX, MySQL e PHP (LEMP Stack) per le applicazioni Web di sviluppo e distribuzione. Configurare anche l'applicazione PHP Server su server su Ubuntu Server 18.04. Tratteremo le seguenti sezioni in questo tutorial.
-  *[ **prerequisiti** ][1]
-  *[ **Cos'è il lemp stack?** ][2]
-  *[ **INSTALLAZIONE LEMP** ][3]
-  *[ **conclusione** ][4]
+## Panoramica {#Prerequisites}
 
-## Prerequisites   {#Prerequisites}
+In questa guida, installeremo NGINX, MySQL e PHP (LEMP Stack) per le applicazioni Web di sviluppo e distribuzione. Configurare anche l'applicazione PHP Server su server su Ubuntu Server 18.04. Tratteremo le seguenti sezioni in questo tutorial.
+* [  **prerequisiti**  ][1]
+* [  **Cos'è il lemp stack?**  ][2]
+* [  **INSTALLAZIONE LEMP**  ][3]
+* [  **conclusione**  ][4]
+
+## Prerequisiti {#Prerequisiti}
+
 Prima di installare il software, è necessario soddisfare i seguenti requisiti.
   * Server con sistema operativo Ubuntu
-  *Utente non root con  **sudo**  privilegi
+* Utente non root con  **sudo**  privilegi
 
-## Che cos'è il LEMP Stack?   {#Che cosa}
-**LEMP Stack** è una raccolta di software che può essere utilizzato per eseguire applicazioni Web basate su PHP. LEMP sta per Linux, Nginx, Mysql e PHP. Lo stack LEMP è una variante dello stack della lampada. Sia lampada che LEMP sono popolari stack software per lo sviluppo e la distribuzione di applicazioni Web. C'è una differenza tra questi due stack software. LAMP utilizza il server Web Apache, mentre il server LEMP utilizza il server Web Nginx.
+## Cos'è il LEMP Stack? {#What}
 
-## lemp Installation   {#Installation}
+ **LEMP Stack** è una raccolta di software che può essere utilizzato per eseguire applicazioni Web basate su PHP. LEMP sta per Linux, Nginx, Mysql e PHP. Lo stack LEMP è una variante dello stack della lampada. Sia lampada che LEMP sono popolari stack software per lo sviluppo e la distribuzione di applicazioni Web. C'è una differenza tra questi due stack software. LAMP utilizza il server Web Apache, mentre il server LEMP utilizza il server Web Nginx.
+
+## Installazione LEMP {#Installation}
+
 In questa sezione, ci concentreremo su come installare Nginx, Mysql e PHP su Ubuntu 18.04. Prima di tutto, dobbiamo aggiornare i pacchetti server eseguendo il comando seguente.
 ```
 $ sudo apt update
 ```
 
-## # Installazione del server Web Nginx
-  *Esegui il comando sotto per  **Installa nginx su Ubuntu** .
+### Installazione del server Web Nginx
+* Esegui il comando sotto per  **Installa nginx su Ubuntu**  .
 ```
 $ sudo apt install nginx
 ```
@@ -45,9 +49,9 @@ $ sudo apt install nginx
 {{< figure align=center src="images/nginx-home-1.png" alt="Pagina predefinita del server Web Nginx">}}
 
 
-## # Installazione di mysql
+### Installazione di mysql
 Ora, è necessario installare MySQL Database Server per la gestione dei dati dell'applicazione.
-  *Esegui il comando di seguito per  **Installa mysql su Ubuntu** .
+* Esegui il comando di seguito per  **Installa mysql su Ubuntu**  .
 ```
 $ sudo apt install mysql-server
 ```
@@ -55,7 +59,7 @@ $ sudo apt install mysql-server
 ```
 $ sudo mysql_secure_installation
 ```
-  *Ti verrà chiesto che si desidera abilitare  **Validati del plug -in password**  o no. È meglio non abilitarlo, quindi digitare N e premere Invio per spostarsi sul passaggio successivo.
+* Ti verrà chiesto che si desidera abilitare  **Validati del plug -in password**  o no. È meglio non abilitarlo, quindi digitare N e premere Invio per spostarsi sul passaggio successivo.
   * Successivamente, ti farà un paio di domande come mostrato di seguito. Devi rispondere a tutte le domande.
 ```
 Enter current password for root (enter for none):
@@ -74,9 +78,9 @@ $ sudo mysql
 mysql> exit
 ```
 
-## # Installazione di PHP
+### Installazione di PHP
 Copriremo l'installazione di PHP-FPM per l'elaborazione di PHP. PHP-FPM sta per FastCGI Process Manager. NGINX Web Server non ha alcuna funzionalità integrata per l'elaborazione di PHP, quindi useremo PHP-FPM per questo. Inoltre, installeremo PHP-Mysql per comunicare PHP con MySQL per la gestione dei dati.
-  *Esegui il comando sotto per  **Installare PHP su Ubuntu** .
+* Esegui il comando sotto per  **Installare PHP su Ubuntu**  .
 ```
 $ sudo apt install php-fpm php-mysql
 ```
@@ -108,13 +112,13 @@ server {
 }
 ```
   * Diamo un'occhiata a queste direttive e blocco di posizione, in modo da poter avere informazioni di base.
-      * **Ascolta** : puoi definire la porta per Nginx. Utilizzare la porta 80 per HTTP e 443 per i protocolli HTTPS.
-      * **root** : Definire la directory principale per il tuo progetto. Nginx lo utilizzerà per servire il sito Web o l'applicazione Web.
-      * **INDICE** : Definire l'ordine in cui i file devono essere serviti. Quando viene chiamato il file indice, NGINX fornirà il file Index.Php.
-      * **Server_name** : Definire il nome di dominio o l'IP pubblico del tuo server.
-      ***Posizione /**: questo blocco di posizione ha ** Try_Block**  direttiva e corrisponde all'URI richiesto. Nginx restituisce 404 errori, se non trova il file richiesto.
-      * **Posizione ~ .php $** : questo blocco di posizione gestisce l'elaborazione PHP.
-      ***Posizione ~ /.ht**: nginx non elabora **. File Htaccess  **e questa posizione blocca lo tratta. Nginx non serve il file .Htaccess definendo**   Deny All** Directive.
+*  **Ascolta**  : puoi definire la porta per Nginx. Utilizzare la porta 80 per HTTP e 443 per i protocolli HTTPS.
+*  **root**  : Definire la directory principale per il tuo progetto. Nginx lo utilizzerà per servire il sito Web o l'applicazione Web.
+*  **INDICE**  : Definire l'ordine in cui i file devono essere serviti. Quando viene chiamato il file indice, NGINX fornirà il file Index.Php.
+*  **Server_name**  : Definire il nome di dominio o l'IP pubblico del tuo server.
+*  **Posizione /** : questo blocco di posizione ha **Try_Block**  direttiva e corrisponde all'URI richiesto. Nginx restituisce 404 errori, se non trova il file richiesto.
+*  **Posizione ~ .php $**  : questo blocco di posizione gestisce l'elaborazione PHP.
+*  **Posizione ~ /.ht** : nginx non elabora  **. File Htaccess**  e questa posizione blocca lo tratta. Nginx non serve il file .Htaccess definendo **Deny All**  Directive.
   * Crea symlink per il file di configurazione Nginx appena creato per abilitarlo.
 ```
 $ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
@@ -128,7 +132,7 @@ $ sudo nginx -t
 $ sudo systemctl restart nginx
 ```
 
-## # Test PHP
+### Test PHP
   * Al fine di garantire che NGINX serva correttamente le pagine PHP, creeremo file PHP per testare le configurazioni.
   * Crea file info.php nella directory root del server Web Nginx eseguendo il comando di seguito.
 ```
@@ -144,31 +148,33 @@ phpinfo();
 {{< figure align=center src="images/info-php.png" alt="Pagina Info PHP">}}
 
 
-## conclusioni   {#conclusion}
-In questo tutorial, abbiamo discusso su come installare e configurare lo stack  **LEMP** . Come puoi vedere, la configurazione dei componenti dello stack software è davvero facile. Inoltre, puoi iniziare a creare e servire le app Web in pochi minuti.
-Infine, [**Containerize.com **][5] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, rimani in contatto con questa categoria [**  Web Server Solution Stack**][6] per gli ultimi aggiornamenti.
+## Conclusione {#Conclusione}
+
+In questo tutorial, abbiamo discusso su come installare e configurare lo stack  **LEMP**  . Come puoi vedere, la configurazione dei componenti dello stack software è davvero facile. Inoltre, puoi iniziare a creare e servire le app Web in pochi minuti.
+Infine, [  **Containerize.com** ][5] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, rimani in contatto con questa categoria [ **Web Server Solution Stack**  ][6] per gli ultimi aggiornamenti.
 
 ## Esplorare
 Potresti trovare i seguenti collegamenti pertinenti:
-  *[ **Miglior stack di soluzione del server Web open source** ][7]
-  * **[Strumenti forensi digitali open source più popolari][8]**
-  * **[Software Top 5 Open Source Message Code (MQ) nel 2021][9]**
-  * **[Miglior software di archiviazione e condivisione di file open source][10]**
-  *[ **Come installare e proteggere phpmyadmin con nginx su ubuntu** ][11]
-  *[ **Come installare più versioni PHP con nginx su Ubuntu** ][12]
-  *[ **Top 5 licenze open source più famose del 2021** ][13]
+* [  **Miglior stack di soluzione del server Web open source**  ][7]
+*  **[Strumenti forensi digitali open source più popolari][8]**  
+*  **[Software Top 5 Open Source Message Code (MQ) nel 2021][9]**  
+*  **[Miglior software di archiviazione e condivisione di file open source][10]**  
+* [  **Come installare e proteggere phpmyadmin con nginx su ubuntu**  ][11]
+* [  **Come installare più versioni PHP con nginx su Ubuntu**  ][12]
+* [  **Top 5 licenze open source più famose del 2021**  ][13]
 
-  
-[1]: #Prerequisites
-[2]: #What
-[3]: #Installation
-[4]: #Conclusion
-[5]: https://containerize.com
-[6]: https://blog.containerize.com/category/web-server-solution-stack/
-[7]: https://products.containerize.com/solution-stack/
-[8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
-[9]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
-[10]: https://products.containerize.com/backup-and-sync/
-[11]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
-[12]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-[13]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/
+
+
+ [1]: #Prerequisites
+ [2]: #What
+ [3]: #Installation
+ [4]: #Conclusion
+ [5]: https://containerize.com
+ [6]: https://blog.containerize.com/category/web-server-solution-stack/
+ [7]: https://products.containerize.com/solution-stack/
+ [8]: https://blog.containerize.com/digital-forensic-tools/top-5-open-source-digital-forensic-tools-in-2021/
+ [9]: https://blog.containerize.com/message-queue-software/top-5-open-source-message-queue-software-in-2021/
+ [10]: https://products.containerize.com/backup-and-sync/
+ [11]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+ [12]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [13]: https://blog.containerize.com/licenses-standards/top-5-most-popular-osi-approved-open-source-licenses-of-2021/

@@ -23,7 +23,8 @@ categories: ['Database Management Software']
   * [Cubrid][7]
   * [Heidisql][8]
 
-## phpmyadmin   {#phpmyadmin}
+## phpmyadmin {#phpmyadmin}
+
 يأتي PhpmyAdmin كمكون مدمج مع خوادم الويب XAMPP و WAMPP. الآن PhpmyAdmin هو برنامج إدارة قاعدة البيانات الأكثر استخدامًا على نطاق واسع. يمكن للمطورين إدارة المعلومات والجداول والأعمدة والعلاقات والمراجع والمستخدمين والأذونات ، إلخ. بالإضافة إلى ذلك ، يتم استخدامه لأداء معظم مهام الإدارة بما في ذلك إنشاء قاعدة بيانات وتشغيل الاستعلامات وإضافة حسابات المستخدمين. يتم كتابة نظام إدارة قاعدة البيانات هذا في PHP جنبا إلى جنب مع مدخلات من لغات أخرى مثل JavaScript و SCSS. لذلك ، تتوفر جميع الوثائق فيما يتعلق بالتطوير والنشر. هذه بعض الميزات البارزة لـ phpmyadmin:
   * سهل الاستخدام واجهة الويب.
   * MySQL ميزات متعددة الدعم.
@@ -83,7 +84,8 @@ categories: ['Database Management Software']
   * [لماذا MySQL هو نظام إدارة قاعدة بيانات المصدر الشهير؟][2]
   * [kafka vs redis pub-sub ، الاختلافات التي يجب أن تعرفها][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

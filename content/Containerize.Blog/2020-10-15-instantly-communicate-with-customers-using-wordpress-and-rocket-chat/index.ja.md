@@ -22,19 +22,22 @@ Rocket.chatライブチャットプラグインは、100％オープンソース
   * [最終的な考え][4]
 
 ## 説明： {#description}
+
 WordPressとRocket.Chat Integrationを使用すると、WordPressベースのサイトにライブチャットウィジェットを配置できます。 WordPressライブチャットにより、顧客は1回のクリックでリアルタイムでサポートまたは販売エージェントと協力できます。インスタントコミュニケーションは、顧客が問い合わせを迅速に解決し、意思決定を促進するのに役立ちます。したがって、このソリューションは、既存の顧客の満足度と忠誠心を向上させるだけでなく、より迅速なターンを繰り返して新しい顧客を獲得するのに役立ちます。
 
-## 機能： {#features}
-  *無料のオーディオ会議
-  *無料のビデオ会議
-  *ゲストアクセス
-  *画面共有
+## 特徴： {#features}
+
+* 無料のオーディオ会議
+* 無料のビデオ会議
+* ゲストアクセス
+* 画面共有
   * ファイル共有
   * ライブチャット
-  *チームチャット
-  *リアルタイム翻訳
+* チームチャット
+* リアルタイム翻訳
 
-## プラグインのインストール： {#Plugin}
+## プラグインのインストール： {#plugin}
+
   1. WordPressサイトの管理ダッシュボードに移動します。
   2.次に、プラグインに移動します。
   3.次に、次のプラグインをインストールします：[Rocket.chatlivechat][5]
@@ -48,6 +51,7 @@ WordPressとRocket.Chat Integrationを使用すると、WordPressベースのサ
 
 
 ## 最終的な考え： {#conclusion}
+
 WorpressとRocket.Chat Integrationは、リアルタイムの会話を通じて顧客との信頼と関係を構築します。 WordPressインスタントメッセージングは​​、ビジネスを迅速に後押しすることができます。ライブチャット機能を使用して顧客に通信します。また、チームチャット機能を使用してチームメイトとコラボレーションすることもできます。これにより、リアルタイムのチャットでアイデアを議論し、共有することで生産性が向上します。
 
 ## 探検：
@@ -55,11 +59,12 @@ Rocket.ChatとWordPressの詳細については、これらのページを確認
 [最高の無料でオープンソースのライブチャットソフトウェア][6]
 [WordPress  - 無料のオープンソースと最も広く使用されているCMSおよびブログツール][7]
 
-  
-[1]: #description
-[2]: #features
-[3]: #plugin
-[4]: #conclusion
-[5]: https://wordpress.org/plugins/rocketchat-livechat/
-[6]: https://products.containerize.com/live-chat
-[7]: https://href.li/?https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #description
+ [2]: #features
+ [3]: #plugin
+ [4]: #conclusion
+ [5]: https://wordpress.org/plugins/rocketchat-livechat/
+ [6]: https://products.containerize.com/live-chat
+ [7]: https://href.li/?https://products.containerize.com/blogging/wordpress

@@ -13,9 +13,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
 
 {{< figure align=center src="images/zuMM6v9k-1024x536.png" alt="أتمتة العمليات التجارية مع برنامج مفتوح المصدر مجاني">}}
 
-أصبح إنشاء شركة عن بُعد أمرًا ضروريًا مع ظهور تقنيات وأطر الويب الجديدة. لا يمكن الآن أن تظل أي عمل موجه نحو العميل ذا صلة بدون وجود على شبكة الإنترنت. علاوة على ذلك ، أجبر جائحة فيروس كورونا الأخير الجميع على التفكير في الأمر. لذلك ، من الضروري من أي وقت مضى إعداد عمليات تجارية عن بُعد أو**بدون ورق**. هناك العديد من الاستراتيجيات الواقعية. ومع ذلك ، فإن استخدام**Free**و**Open Source Software**لرفع عمليات عملك عبر الإنترنت هو الإستراتيجية الأكثر فعالية. يمكن للمجموعة الصحيحة من برامج المصادر المفتوحة المختصة تنمية الأعمال بشكل كبير.
-لذلك ، لتوفير حلول أعمال قوية وأقل إجهادًا وكاملة وحاسمة. لقد بدأنا في إدراج برنامج المصدر المفتوح على مستوى المؤسسة الأكثر شعبية ونجاحًا على [products.containerize.com][1]. علاوة على ذلك ، قمنا بتصنيف القائمة وفقًا لطبيعة وظائف العمل أو العمليات. يتم توفير المعلومات اللازمة حول كل برنامج مفتوح المصدر. على سبيل المثال ، نظرة عامة موجزة ، RINK**GITHUB Public Rostory**رابط. علاوة على ذلك ، نقوم أيضًا بتوثيق متطلبات النظام والميزات وتعليمات التثبيت وأي تفاصيل إضافية ذات صلة.
-هذا**منشور المدونة التمهيدي**هو تقديم نظرة عامة على منتجات البرامج المفتوحة المصدر المدرجة في الفئات الحالية من containize.com. بعد ذلك ، ستكون القائمة تحت تغييرات وإضافات مستمرة. لذلك ، يمكنك أن تتوقع العثور على بعض البرامج الشهيرة المصدر الشهيرة في فئة في كل زيارة جديدة. قد تجد فئة جديدة تغطي وظيفة عمل مهمة أخرى.
+أصبح إنشاء شركة عن بُعد أمرًا ضروريًا مع ظهور تقنيات وأطر الويب الجديدة. لا يمكن الآن أن تظل أي عمل موجه نحو العميل ذا صلة بدون وجود على شبكة الإنترنت. علاوة على ذلك ، أجبر جائحة فيروس كورونا الأخير الجميع على التفكير في الأمر. لذلك ، من الضروري من أي وقت مضى إعداد عمليات تجارية عن بُعد أو  **بدون ورق** . هناك العديد من الاستراتيجيات الواقعية. ومع ذلك ، فإن استخدام  **Free**  و **Open Source Software**  لرفع عمليات عملك عبر الإنترنت هو الإستراتيجية الأكثر فعالية. يمكن للمجموعة الصحيحة من برامج المصادر المفتوحة المختصة تنمية الأعمال بشكل كبير.
+لذلك ، لتوفير حلول أعمال قوية وأقل إجهادًا وكاملة وحاسمة. لقد بدأنا في إدراج برنامج المصدر المفتوح على مستوى المؤسسة الأكثر شعبية ونجاحًا على [products.containerize.com][1]. علاوة على ذلك ، قمنا بتصنيف القائمة وفقًا لطبيعة وظائف العمل أو العمليات. يتم توفير المعلومات اللازمة حول كل برنامج مفتوح المصدر. على سبيل المثال ، نظرة عامة موجزة ، RINK  **GITHUB Public Rostory**  رابط. علاوة على ذلك ، نقوم أيضًا بتوثيق متطلبات النظام والميزات وتعليمات التثبيت وأي تفاصيل إضافية ذات صلة.
+هذا  **منشور المدونة التمهيدي**  هو تقديم نظرة عامة على منتجات البرامج المفتوحة المصدر المدرجة في الفئات الحالية من containize.com. بعد ذلك ، ستكون القائمة تحت تغييرات وإضافات مستمرة. لذلك ، يمكنك أن تتوقع العثور على بعض البرامج الشهيرة المصدر الشهيرة في فئة في كل زيارة جديدة. قد تجد فئة جديدة تغطي وظيفة عمل مهمة أخرى.
   * [أنظمة إدارة المحتوى][2]
   * [منصات التدوين][3]
   * [منتديات المناقشة][4]
@@ -29,7 +29,8 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [برامج الفواتير][12]
   * [علامة واحدة على أنظمة][13]
 
-## **إنشاء وتنظيم محتويات موقع الأعمال** {#CMS}
+##  **إنشاء وتنظيم المحتويات لموقع الأعمال** **{#cms}
+
 تعد صفحات Home Home و Products Home و Products Handing Pages هي المكان الرئيسي للتسويق لأعمال المنتجات أو الخدمات. لذلك ، يمكنك اعتباره منفذاً لمصنع من حيث يمكن للعملاء عرضه ، ومحاولة التسوق. لذلك ، كنت بحاجة إلى منصة إدارة المحتوى المناسبة AKA CMS. علاوة على ذلك ، تساعد هذه البرامج على التحكم في بنية المحتويات وتخطيطها وتدفقها. في فئة برامج CMS ، هناك العديد من خيارات البرامج الشهيرة مفتوحة المصدر بلغات ومنصات مختلفة. في هذه المرحلة ، يغطي Containerize.com منصات CMS الشائعة التالية:
   * [Joomla][14] - برنامج CMS رائد مع آلاف الامتدادات.
   * [Drupal][15] - سهلة الاستخدام برنامج PHP CMS المرن مع مجتمع نابض بالحياة
@@ -38,7 +39,8 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [Umbraco][18] - نظام إدارة المحتوى المرن والودي .NET
 سنقوم بصياغة معلومات حول المزيد من خيارات CMS قريبًا مع موارد مفيدة. لذلك ، يرجى مراقبة قسم [إدارة المحتوى][19] لمزيد من التحديثات.
 
-## **اختر منصة تدوين جيدة** {#blogging}
+##  **اختر منصة تدوين جيدة**  {#blogging}
+
 التدوين جزء أساسي من أي عمل. تستخدم الشركات المدونات لنشر التحديثات والإعلانات. يمكن لفرق الدعم أيضًا استخدام المدونات لنشر البرامج التعليمية المفيدة حول خدماتك ومنتجاتك. علاوة على ذلك ، فإن ميزة التعليقات هي وسيلة رائعة للتفاعل مع جمهورك. باختصار ، المدونة هي الوسيلة لإبقاء جمهورك على اطلاع ومشاركة.
 في الوقت الحالي ، يتم تجنيد أفضل منصات التدوين****:
   * [WordPress][20] - أفضل منصة التدوين مع الإضافات الغنية وقدرات الاستضافة الذاتية
@@ -48,8 +50,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [SilversTripe][24] - CMS القابل للتخصيص PHP ومنصة التدوين
 سيتم إضافة المزيد من برامج التدوين مفتوحة المصدر إلى القائمة. لذلك ، يرجى البقاء على اتصال مع [برنامج التدوين][25] للحصول على التحديثات.
 
-## **منتدى المناقشة لبناء المجتمع** {#forums}
-يستخدم منتدى المناقشة لإجراء مناقشات عامة حول منتجاتك أو عروضك أو خدماتك. مثل هذه المناقشات العامة تشجع الجمهور على الانضمام إلى المناقشات. لذلك ، يمكنك تطوير نظرة ثاقبة لعملك بميزة إضافية لبناء المجتمع. قبل كل شيء ، تدور معظم المبيعات حول كلمة الفم. لذلك في حال ، يمكنك بناء مجتمع جيد ، يتم الحصول على نمو المبيعات أيضًا. علاوة على ذلك ، من وجهة نظر محرك البحث ، تستمر مناقشات المجتمع في توليد محتوى جديد. وبالتالي ، فإنه يضيف قيمة حركة المرور العضوية كذلك. في الوقت الحالي ، يحتفظ Containerize.com بمجموعة من منتديات المناقشة أدناه:**
+##  **منتدى المناقشة لبناء المجتمع**  {#forums}
+
+يستخدم منتدى المناقشة لإجراء مناقشات عامة حول منتجاتك أو عروضك أو خدماتك. مثل هذه المناقشات العامة تشجع الجمهور على الانضمام إلى المناقشات. لذلك ، يمكنك تطوير نظرة ثاقبة لعملك بميزة إضافية لبناء المجتمع. قبل كل شيء ، تدور معظم المبيعات حول كلمة الفم. لذلك في حال ، يمكنك بناء مجتمع جيد ، يتم الحصول على نمو المبيعات أيضًا. علاوة على ذلك ، من وجهة نظر محرك البحث ، تستمر مناقشات المجتمع في توليد محتوى جديد. وبالتالي ، فإنه يضيف قيمة حركة المرور العضوية كذلك. في الوقت الحالي ، يحتفظ Containerize.com بمجموعة من منتديات المناقشة أدناه:** 
   * [الخطاب][26]-أفضل منصة مناقشة مع ميزات الاعتدال المدمجة
   * [flarum][27] - منصة مناقشة مجتمع خفيفة الوزن مع تجربة مستخدم غنية
   * [Vanilla][28] - برامج وقائمة على أساس السحابة وقاعدة المعرفة في فئة المنتدى
@@ -57,9 +60,10 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [PHPBB][30]-برنامج منتدى مناقشة قوي على الطراز PHP
 توفر هذه البرامج المفتوحة المصدر دعمًا تجاريًا كاملًا لمنصة مناقشة نشطة****. علاوة على ذلك ، ستتم إضافة برنامج منتدى المناقشة المفتوح المصدر المفيد والشهير في قسم [منتديات المناقشة][31] بمعلومات ضرورية ومفيدة.
 
-## **نظام التذاكر لدعم العملاء** {#Helpdesk}
+##  **نظام التذاكر للمساعدة لدعم العملاء**  {#helpdesk}
+
 خدمة دعم العملاء هي الجزء الأكثر أهمية لرضا العملاء. بدون رضا العملاء ، يكون بقائك في خطر خاصة عندما يكون هناك العديد من البدائل المتاحة. يتيح نظام Helpdesk المستند إلى التذاكر للعملاء إنشاء تذاكر خاصة للمشكلات التي يواجهونها ، بينما يساعد أصحاب الأعمال على الحفاظ على مسار منهجي لمشكلات العملاء حتى لا يتم إسقاط الكرة أبدًا.
-في هذه الفئة ، يوفر Containerize.com تفاصيل لأنظمة التذاكر المفتوحة المصدر التالية:**
+في هذه الفئة ، يوفر Containerize.com تفاصيل لأنظمة التذاكر المفتوحة المصدر التالية:** 
   * [Osticket][32]-نظام التذاكر على شبكة الإنترنت متعددة المستخدمين على نطاق واسع
   * [UVDESK][33] - حل مساعدة للغاية قابل للتخصيص مرتبط بالتجارة الإلكترونية
   * [ZAMMAD][34] - أنظمة التذاكر الشائعة مع دعم متعدد اللغة مرتبطًا بـ Twitter و Facebook
@@ -67,8 +71,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [Helpy][36] - برنامج مساعدة متعدد القنوات متكامل مع MailGun
 هذه أنظمة تذاكر دعم المصدر الشهيرة التي تمكن العملاء من الإبلاغ عن المشكلات. علاوة على ذلك ، تسمح هذه الأنظمة لفرق الدعم الخاصة بك بحل مشكلاتها المبلغ عنها. لذلك ، يمكن للعملاء وفرق الدعم متابعة المشكلات المبلغ عنها. يرجى البقاء على اطلاع حول [برنامج "برنامج" [37][37] لمزيد من التحديثات.
 
-## **أتمتة تسويق المحتوى الرقمي** {#crm}
-تستخدم أقسام التسويق والمبيعات**أدوات أتمتة التسويق**للحملات التسويقية وأنشطة المبيعات من أجل توليد العملاء المتوقعين وإشراك العملاء وزيادة الكفاءة. في الوقت الحالي ، يوفر Containerize.com معلومات حول اتباع منصات أتمتة التسويق المفتوحة المصدر:
+##  **أتمتة تسويق المحتوى الرقمي**  {#crm}
+
+تستخدم أقسام التسويق والمبيعات  **أدوات أتمتة التسويق**  للحملات التسويقية وأنشطة المبيعات من أجل توليد العملاء المتوقعين وإشراك العملاء وزيادة الكفاءة. في الوقت الحالي ، يوفر Containerize.com معلومات حول اتباع منصات أتمتة التسويق المفتوحة المصدر:
   * [Mautic][38] - منصة أتمتة التسويق لتقديم حملات عالية الأداء
   * [civicrm][39] - CRM متعدد الاستخدامات لأتمتة حملات التسويق مع العديد من الامتدادات
   * [Suitecrm][40] - برنامج أتمتة التسويق على مستوى المؤسسة على مستوى PHP
@@ -76,7 +81,8 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [espocrm][42] - تكنولوجيا التسويق مفتوحة المصدر متكاملة مع MailChimp
 تساعدك برنامج CRM مفتوح المصدر المذكور أعلاه في تحديد هوية جمهورك. علاوة على ذلك ، تساعد هذه في تصميم المحتوى الصحيح وإجراء الإجراءات تلقائيًا بناءً على الجداول الزمنية وسلوك العملاء. سيتم إضافة المزيد من منصات أتمتة التسويق مفتوحة المصدر إلى القائمة ، يرجى مراقبة قسم [التسويق الأتمتة][43] للتحديثات.
 
-## **برنامج الدردشة المباشرة للدعم الفوري** {#Live-Chat}
+##  **برنامج الدردشة المباشرة للدعم الفوري**  {#live-chat}
+
 يعد دعم الدردشة المباشرة جزءًا لا مفر منه من شركة عبر الإنترنت لتوفير إجابات فورية في الوقت الفعلي لاستفسارات العملاء. في هذه الفئة ، يمكن الاطلاع على تفاصيل حول اتباع برنامج الدردشة المباشرة الشهيرة المصدر الشهير في Containerize.com:
   * [Rocket.Chat][44] - حل برنامج دردشة الفريق مع ميزات اتصال متعددة
   * [Zulip][45]-برنامج التعاون في الوقت الفعلي للفرق البعيدة
@@ -86,8 +92,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [botkit][49] - بوت بوت لوكس فيسبوك وركوب وويشات
 كل ما سبق برامج دردشة حية مجانية ومفتوحة المصدر. هذه بالتأكيد أفضل برنامج دردشة حية ودعم دردشات متعددة إلى جانب الميزات الحديثة الأخرى. سنضيف المزيد من منصة الدردشة المصدر المفتوحة إلى القائمة. لذلك ، راقب قسم [برنامج الدردشة المباشرة][50] للحصول على آخر التحديثات.
 
-## **بناء نماذج أعمال باستخدام النماذج Builder** {#Forms-Builder}
-تستخدم الشركات نماذج لجمع البيانات المتعلقة بتعليقات العملاء. بالإضافة إلى ذلك ، يمكنك استخدام نماذج لتجزئة التسويق والدراسات الاستقصائية وأي تحليل بحث. نظرًا لأن هذه النماذج تعتمد على HTML ، فهي مستقلة عن الجهاز ويمكن الوصول إليها وملءها من سطح المكتب وكذلك الأجهزة الذكية. في هذه الفئة ، يوفر Containerize.com معلومات حول مصدر مفتوح المصدر التالي**:**
+##  **بناء نماذج الأعمال باستخدام نموذج منشئ**  {#forms-builder}
+
+تستخدم الشركات نماذج لجمع البيانات المتعلقة بتعليقات العملاء. بالإضافة إلى ذلك ، يمكنك استخدام نماذج لتجزئة التسويق والدراسات الاستقصائية وأي تحليل بحث. نظرًا لأن هذه النماذج تعتمد على HTML ، فهي مستقلة عن الجهاز ويمكن الوصول إليها وملءها من سطح المكتب وكذلك الأجهزة الذكية. في هذه الفئة ، يوفر Containerize.com معلومات حول مصدر مفتوح المصدر التالي **:**  
   * [form.io][51] - أفضل منشئ النماذج القائم على الويب مع منصة REST API للبرامج بدون خادم
   * [orbeon][52] - منشئ نموذج ويب لسهولة الوصول إليه ويدعم توليد PDF خارج الصندوق
   * [Ohmyform][53] - بديل مجاني لـ typeform لبناء نماذج ويب قابلة للتضمين والمسوحات عبر الإنترنت
@@ -96,33 +103,37 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [formtools][56] - حل لا يصدق وإدارة البيانات مع دعم مدمج لـ recaptcha وتصور البيانات
 توفر هذه البرامج مفتوحة المصدر إمكانات وميزات فريدة. على سبيل المثال ، واجهة السحب والإفلات ، وأدوار/إدارة المستخدم ، وإدارة البيانات ، والنماذج القابلة للتضمين. سيتم إضافة المزيد من منصات مولد نموذج HTML مفتوحة المصدر إلى القائمة. لذلك للحصول على التحديثات المستقبلية ، يرجى زيارة [Form Software][57].
 
-## **معاملات أو رسائل بريد إلكتروني بالجملة منصات تسليم البريد الإلكتروني**
-بعض الأحداث والحملات من تطبيقات الويب تؤدي إلى رسائل بريد إلكتروني للمعاملات. بعد خدمات البريد الإلكتروني للمعاملات تساعد في إعداد سير عمل الأعمال لهذه الأحداث. يمكنك العثور على مزيد من المعلومات حول هذه في [products.containerize.com][1].**برنامج بريد إلكتروني للمعاملات:**
+##  **منصات تسليم رسائل البريد الإلكتروني للمعاملات أو السائبة**  {#transactional-email}
+
+بعض الأحداث والحملات من تطبيقات الويب تؤدي إلى رسائل بريد إلكتروني للمعاملات. بعد خدمات البريد الإلكتروني للمعاملات تساعد في إعداد سير عمل الأعمال لهذه الأحداث. يمكنك العثور على مزيد من المعلومات حول هذه في [products.containerize.com][1].  **برنامج بريد إلكتروني للمعاملات:**   
   * [postal][58] - على بديل فرضية لـ SendGrid و MailGun لإرسال رسائل بريد إلكتروني من تطبيقات الويب والهاتف المحمول.
   * [Cuttlefish][59] - برنامج تسليم البريد المستضاف ذاتيًا مفتوح المصدر مع ميزات تتبع البريد الإلكتروني.
   * [mail-in-a-box][60]-خادم بريد يعتمد على postfix لإعداد Gmail الخاص بك دون خبرة فنية.
   * [postfix][61] - خادم بريد قوي لتوجيه البريد الإلكتروني والتسليم.
   * [exim][62] - برنامج توجيه البريد الإلكتروني الشهير ، والذي يركز على التخصيص والأمان.
   * [iRedmail][63] - حل خادم بريد مميز كامل يعتمد على postfix.
-مزيد من**منصات البريد**ستضاف إلى القائمة المذكورة أعلاه. يرجى مراقبة القسم [برنامج البريد الإلكتروني للمعاملات][64].
+مزيد من  **منصات البريد**  ستضاف إلى القائمة المذكورة أعلاه. يرجى مراقبة القسم [برنامج البريد الإلكتروني للمعاملات][64].
 
-## **Newsletter AKA Software Email Marketing** {#NewSletter}
-النشرة الإخبارية المصممة جيدًا هي المفتاح لتوسيع التعرض. كما أنه يساعد على البقاء على اتصال مع العملاء. لذلك ، يصبح برنامج النشرة الإخبارية ضروريًا لتصميم النشرات الإخبارية الأنيقة. علاوة على ذلك ، يوفر Containerize.com معلومات حول برنامج تصميم النشرة الإخبارية مفتوح المصدر**:**
+##  **النشرة الإخبارية الملقب برامج التسويق عبر البريد الإلكتروني**  {#newsletter}
+
+النشرة الإخبارية المصممة جيدًا هي المفتاح لتوسيع التعرض. كما أنه يساعد على البقاء على اتصال مع العملاء. لذلك ، يصبح برنامج النشرة الإخبارية ضروريًا لتصميم النشرات الإخبارية الأنيقة. علاوة على ذلك ، يوفر Containerize.com معلومات حول برنامج تصميم النشرة الإخبارية مفتوح المصدر **:**  
   * [phplist][65] - برنامج التسويق عبر البريد الإلكتروني لإرسال النشرات الإخبارية إلى جمهور كبير.
   * [Mailtrain][66] - تطبيق النشرة الإخبارية المستضافة ذاتيًا تم تصميمه لإدارة قائمة بريدية ضخمة.
   * [ListMonk][67]-برنامج إخباري وموثوق وآمن ومليء بالميزات.
   * [Moonmail][68] - نظام إخباري مفتوح المصدر ونظام قائمة البريد يدعم التكامل مع Amazon SES.
   * [Mailman][69]-البرامج المجانية المحلية لإدارة القوائم البريدية وإرسال النشرات الإخبارية.
-* * A**Bove المذكور برنامج التسويق عبر البريد الإلكتروني يأتي مع مجموعة غنية من الميزات. مثل تكوين الحملات والنشرات الإخبارية التي يصعب تصميمها وصيانتها بسبب تقديم غير متوقع لعملاء البريد. في المستقبل القريب ، سيتم إضافة المزيد من برنامج التسويق عبر البريد الإلكتروني المجاني والمفتوح إلى القسم [Newsletter Software][70].
+**A** Bove المذكور برنامج التسويق عبر البريد الإلكتروني يأتي مع مجموعة غنية من الميزات. مثل تكوين الحملات والنشرات الإخبارية التي يصعب تصميمها وصيانتها بسبب تقديم غير متوقع لعملاء البريد. في المستقبل القريب ، سيتم إضافة المزيد من برنامج التسويق عبر البريد الإلكتروني المجاني والمفتوح إلى القسم [Newsletter Software][70].
 
-## **مراقبة حالة الخادم AKA statuspage software** {#status-page}
+##  **مراقبة حالة الخادم المعروفة باسم برنامج الحالة**  {#status-page}
+
 تُستخدم أدوات المراقبة للتحقق من حالة وأداء مكونات البرامج المهمة. في هذه الفئة ، تتوفر تفاصيل حول منتجات مراقبة حالة الخادم التالية في Containerize.com:
   * [cachet][71] - أفضل مراقبة التوقف عن العمل مع نظام صفحة حالة cachet
   * [stating][72]-صفحة الحالة المستضافة ذاتيا لمراقبة المواقع الإلكترونية والخدمات
   * [Monitoror][73] - لوح مراقبة مفتوح المصدر ومراقبة موثوق به لجميع أدواتك في مكان واحد.
 المنتجات المذكورة أعلاه مفتوحة المصدر وتقدم ميزات غنية تتضمن التكامل مع خدمات مكتب المساعدة الأخرى****. توفر هذه المنتجات أيضًا مراقبة وموثوقية في وقت التوقف. يرجى البقاء على اطلاع بإضافة المزيد من المنتجات في قسم [STATUTE PAGE Software][74].
 
-## **برنامج المحاسبة الملقب برامج الفواتير** {#Invoing}
+##  **برنامج المحاسبة الملقب برامج الفواتير**  {#invoicing}
+
 إذا كنت تبيع المنتجات أو الخدمات ، فستكون مهتمًا حقًا بوجود برنامج فاتورة في العمل. لذلك ، يوفر Containerize.com تفاصيل حول برنامج الفواتير مفتوح المصدر:
   * [Invoiceninja][75] - مدير الفاتورة للفواتير والفواتير وإدارة الدفع.
   * [AKAunting][76] - حل محاسبة عبر الإنترنت لإدارة الأموال وتتبعها.
@@ -131,8 +142,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [كارتر][79]-نظام فاتورة مستضيف ذاتيًا يسمح للشركات الصغيرة بإنشاء فواتير.
 هذه الحلول المالية**تعطي فواتير السيارات الموفرة للوقت ، وتقارير شاملة للمدفوعات ، وغيرها الكثير. أروع جزء هو خيار الاستضافة الذاتية الذي يسمح لك بإعداد النظام بأكمله في عملك. سيتم إضافة المزيد من برامج الفواتير مفتوحة المصدر. يرجى زيارة [برنامج الفواتير][80] قسم للتحديثات العادية.
 
-## **المصادقة المركزية أو علامة واحدة على** {#SSO}
-* * يتيح حل Single Sign-On**للمستخدم الوصول إلى أنظمة مختلفة داخل مؤسسة باستخدام نفس مجموعة بيانات الاعتماد. تميل شركات المؤسسات دائمًا إلى تحسين القدرات الأمنية للتعامل مع التهديدات والمخاطر المحتملة. وفي الوقت نفسه ، حافظ على نقطة إدارة مستخدم واحدة لجميع تطبيقات الويب. حاويات موقع إلقاء الضوء على حلول المصدر المفتوح التالي**SSO:**
+##  **المصادقة المركزية أو علامة واحدة على**  {#sso}
+
+ **يتيح حل Single Sign-On** للمستخدم الوصول إلى أنظمة مختلفة داخل مؤسسة باستخدام نفس مجموعة بيانات الاعتماد. تميل شركات المؤسسات دائمًا إلى تحسين القدرات الأمنية للتعامل مع التهديدات والمخاطر المحتملة. وفي الوقت نفسه ، حافظ على نقطة إدارة مستخدم واحدة لجميع تطبيقات الويب. حاويات موقع إلقاء الضوء على حلول المصدر المفتوح التالي **SSO:**  
   * [IdentityServer][81] - يمنحك توفيرًا لإعداد حل مزود الهوية الخاص بك باستخدام بروتوكول OpenID Connect.
   * [keycloak][15] - يسمح لك بتطوير نظام إدارة الهوية ونظام إدارة الوصول باستخدام OAUTH2.0 وبروتوكولات OpenID Connect ويعمل بشكل جيد مع LDAP و Active Directory.
   * [CAS][82] - علامة فردية متعددة اللغات مع المصادقة المفوضة.
@@ -141,95 +153,96 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [OpenIdentityPlatform][85] - منصة مفتوحة المصدر لعلامة واحدة ، وبروتوكولات SAML 2.0 OAUTH 2.0 ، وبروتوكولات Connect OpenID.
 وبالمثل ، تعمل الفئات الأخرى ، [Containerize.com][1] باستمرار على هذه الفئة لدفع المزيد من منتجات SSO في المكدس. لذا ، يرجى الحفاظ على التحديث حول [Single Sign-On][86] لقسم آخر التحديثات.
 
-## **افكار اخيرة**
-في الختام ، فإن اختيار أتمتة عملية الأعمال المناسبة****أدوات إلزامية لتشغيل الأعمال البعيدة**الناجحة**أو حتى الأعمال الفيزيائية. الأدوات المذكورة في منشور المدونة هذه هي مدخرات تكلفة من الوقت ومستدامة عندما يتعلق الأمر بالعمل من أي مكان ، وكلها برامج مفتوحة المصدر ،**من السهل إعدادها وقابل للتمديد في كل قسم من قسم الأعمال.
+##  **افكار اخيرة**  
+في الختام ، فإن اختيار أتمتة عملية الأعمال المناسبة*  ***أدوات إلزامية لتشغيل الأعمال البعيدة** الناجحة **أو حتى الأعمال الفيزيائية. الأدوات المذكورة في منشور المدونة هذه هي مدخرات تكلفة من الوقت ومستدامة عندما يتعلق الأمر بالعمل من أي مكان ، وكلها برامج مفتوحة المصدر ،**  من السهل إعدادها وقابل للتمديد في كل قسم من قسم الأعمال.
 لذلك ، فإن Containerize.com في الطريق لتحسين كومة المنتجات المفتوحة المصدر بلغات وأطر متعددة. للحصول على تحديثات منتظمة ، يرجى ترقبنا على [containize.com][1]. للحصول على أي اقتراحات أو ملاحظات أو استفسارات ، يرجى عدم التردد في الاتصال بنا من خلال بدء موضوع في [منتدى الدعم][87].
 
-  
-[1]: https://products.containerize.com/
-[2]: #cms
-[3]: #blogging
-[4]: #forums
-[5]: #helpdesk
-[6]: #crm
-[7]: #live-chat
-[8]: #forms-builder
-[9]: #transactional-email
-[10]: #newsletter
-[11]: #status-page
-[12]: #invoicing
-[13]: #sso
-[14]: https://products.containerize.com/content-management/joomla
-[15]: https://products.containerize.com/content-management/drupal
-[16]: https://products.containerize.com/content-management/pyro
-[17]: #
-[18]: https://products.containerize.com/content-management/umbraco
-[19]: https://products.containerize.com/content-management
-[20]: https://products.containerize.com/blogging/wordpress
-[21]: https://products.containerize.com/blogging/jekyll
-[22]: https://products.containerize.com/blogging/ghost
-[23]: https://products.containerize.com/blogging/serendipity
-[24]: https://products.containerize.com/blogging/silverstripe
-[25]: https://href.li/?https://products.containerize.com/blogging
-[26]: https://products.containerize.com/discussion-forum/discourse
-[27]: https://products.containerize.com/discussion-forum/flarum
-[28]: https://products.containerize.com/discussion-forum/vanilla
-[29]: https://products.containerize.com/discussion-forum/nodebb
-[30]: https://products.containerize.com/discussion-forum/phpbb
-[31]: https://products.containerize.com/discussion-forum
-[32]: https://products.containerize.com/helpdesk/osticket
-[33]: https://products.containerize.com/helpdesk/uvdesk
-[34]: https://products.containerize.com/helpdesk/zammad
-[35]: https://products.containerize.com/helpdesk/freescout
-[36]: https://products.containerize.com/helpdesk/helpy
-[37]: https://products.containerize.com/helpdesk
-[38]: https://products.containerize.com/marketing-automation/mautic
-[39]: https://products.containerize.com/marketing-automation/civicrm
-[40]: https://products.containerize.com/marketing-automation/suitecrm
-[41]: https://products.containerize.com/marketing-automation/odoo
-[42]: https://products.containerize.com/marketing-automation/espocrm
-[43]: https://products.containerize.com/marketing-automation
-[44]: https://products.containerize.com/live-chat/rocketchat
-[45]: https://products.containerize.com/live-chat/zulip
-[46]: https://products.containerize.com/live-chat/lets-chat
-[47]: https://products.containerize.com/live-chat/mattermost
-[48]: https://products.containerize.com/live-chat/botpress
-[49]: https://products.containerize.com/live-chat/botkit
-[50]: https://products.containerize.com/live-chat
-[51]: https://products.containerize.com/form/formio
-[52]: https://products.containerize.com/form/orbeon
-[53]: https://products.containerize.com/form/ohmyform
-[54]: https://products.containerize.com/form/webiny
-[55]: https://products.containerize.com/form/formbuilder
-[56]: https://products.containerize.com/form/formtools
-[57]: https://products.containerize.com/form
-[58]: https://products.containerize.com/transactional-email/postal
-[59]: https://products.containerize.com/transactional-email/cuttlefish
-[60]: https://products.containerize.com/transactional-email/mail-in-a-box
-[61]: https://products.containerize.com/transactional-email/postfix
-[62]: https://products.containerize.com/transactional-email/exim
-[63]: https://products.containerize.com/transactional-email/iredmail
-[64]: https://products.containerize.com/transactional-email
-[65]: https://products.containerize.com/newsletter/phplist
-[66]: https://products.containerize.com/newsletter/mailtrain
-[67]: https://products.containerize.com/newsletter/listmonk
-[68]: https://products.containerize.com/newsletter/moonmail
-[69]: https://products.containerize.com/newsletter/mailman
-[70]: https://products.containerize.com/newsletter
-[71]: https://products.containerize.com/status/cachet
-[72]: https://products.containerize.com/status/statping
-[73]: https://products.containerize.com/status/monitoror
-[74]: https://products.containerize.com/status
-[75]: https://products.containerize.com/invoicing/invoiceninja
-[76]: https://products.containerize.com/invoicing/akaunting
-[77]: https://products.containerize.com/invoicing/invoiceplane
-[78]: https://products.containerize.com/invoicing/killbill
-[79]: https://products.containerize.com/invoicing/crater
-[80]: https://products.containerize.com/invoicing
-[81]: https://products.containerize.com/single-sign-on/identity-server
-[82]: https://products.containerize.com/single-sign-on/cas
-[83]: https://products.containerize.com/single-sign-on/authelia
-[84]: https://products.containerize.com/single-sign-on/wso2
-[85]: https://products.containerize.com/single-sign-on/openidentityplatform
-[86]: https://products.containerize.com/single-sign-on
-[87]: https://forum.containerize.com
+
+
+ [1]: https://products.containerize.com/
+ [2]: #cms
+ [3]: #blogging
+ [4]: #forums
+ [5]: #helpdesk
+ [6]: #crm
+ [7]: #live-chat
+ [8]: #forms-builder
+ [9]: #transactional-email
+ [10]: #newsletter
+ [11]: #status-page
+ [12]: #invoicing
+ [13]: #sso
+ [14]: https://products.containerize.com/content-management/joomla
+ [15]: https://products.containerize.com/content-management/drupal
+ [16]: https://products.containerize.com/content-management/pyro
+ [17]: #
+ [18]: https://products.containerize.com/content-management/umbraco
+ [19]: https://products.containerize.com/content-management
+ [20]: https://products.containerize.com/blogging/wordpress
+ [21]: https://products.containerize.com/blogging/jekyll
+ [22]: https://products.containerize.com/blogging/ghost
+ [23]: https://products.containerize.com/blogging/serendipity
+ [24]: https://products.containerize.com/blogging/silverstripe
+ [25]: https://href.li/?https://products.containerize.com/blogging
+ [26]: https://products.containerize.com/discussion-forum/discourse
+ [27]: https://products.containerize.com/discussion-forum/flarum
+ [28]: https://products.containerize.com/discussion-forum/vanilla
+ [29]: https://products.containerize.com/discussion-forum/nodebb
+ [30]: https://products.containerize.com/discussion-forum/phpbb
+ [31]: https://products.containerize.com/discussion-forum
+ [32]: https://products.containerize.com/helpdesk/osticket
+ [33]: https://products.containerize.com/helpdesk/uvdesk
+ [34]: https://products.containerize.com/helpdesk/zammad
+ [35]: https://products.containerize.com/helpdesk/freescout
+ [36]: https://products.containerize.com/helpdesk/helpy
+ [37]: https://products.containerize.com/helpdesk
+ [38]: https://products.containerize.com/marketing-automation/mautic
+ [39]: https://products.containerize.com/marketing-automation/civicrm
+ [40]: https://products.containerize.com/marketing-automation/suitecrm
+ [41]: https://products.containerize.com/marketing-automation/odoo
+ [42]: https://products.containerize.com/marketing-automation/espocrm
+ [43]: https://products.containerize.com/marketing-automation
+ [44]: https://products.containerize.com/live-chat/rocketchat
+ [45]: https://products.containerize.com/live-chat/zulip
+ [46]: https://products.containerize.com/live-chat/lets-chat
+ [47]: https://products.containerize.com/live-chat/mattermost
+ [48]: https://products.containerize.com/live-chat/botpress
+ [49]: https://products.containerize.com/live-chat/botkit
+ [50]: https://products.containerize.com/live-chat
+ [51]: https://products.containerize.com/form/formio
+ [52]: https://products.containerize.com/form/orbeon
+ [53]: https://products.containerize.com/form/ohmyform
+ [54]: https://products.containerize.com/form/webiny
+ [55]: https://products.containerize.com/form/formbuilder
+ [56]: https://products.containerize.com/form/formtools
+ [57]: https://products.containerize.com/form
+ [58]: https://products.containerize.com/transactional-email/postal
+ [59]: https://products.containerize.com/transactional-email/cuttlefish
+ [60]: https://products.containerize.com/transactional-email/mail-in-a-box
+ [61]: https://products.containerize.com/transactional-email/postfix
+ [62]: https://products.containerize.com/transactional-email/exim
+ [63]: https://products.containerize.com/transactional-email/iredmail
+ [64]: https://products.containerize.com/transactional-email
+ [65]: https://products.containerize.com/newsletter/phplist
+ [66]: https://products.containerize.com/newsletter/mailtrain
+ [67]: https://products.containerize.com/newsletter/listmonk
+ [68]: https://products.containerize.com/newsletter/moonmail
+ [69]: https://products.containerize.com/newsletter/mailman
+ [70]: https://products.containerize.com/newsletter
+ [71]: https://products.containerize.com/status/cachet
+ [72]: https://products.containerize.com/status/statping
+ [73]: https://products.containerize.com/status/monitoror
+ [74]: https://products.containerize.com/status
+ [75]: https://products.containerize.com/invoicing/invoiceninja
+ [76]: https://products.containerize.com/invoicing/akaunting
+ [77]: https://products.containerize.com/invoicing/invoiceplane
+ [78]: https://products.containerize.com/invoicing/killbill
+ [79]: https://products.containerize.com/invoicing/crater
+ [80]: https://products.containerize.com/invoicing
+ [81]: https://products.containerize.com/single-sign-on/identity-server
+ [82]: https://products.containerize.com/single-sign-on/cas
+ [83]: https://products.containerize.com/single-sign-on/authelia
+ [84]: https://products.containerize.com/single-sign-on/wso2
+ [85]: https://products.containerize.com/single-sign-on/openidentityplatform
+ [86]: https://products.containerize.com/single-sign-on
+ [87]: https://forum.containerize.com

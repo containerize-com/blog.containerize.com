@@ -13,16 +13,18 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/deployer-blog-post.png" alt="Công cụ triển khai PHP">}}
 
-Đây là một công việc rất quan trọng để triển khai ứng dụng trên máy chủ sau khi phát triển. Các tính năng mới và sửa lỗi thường được các nhóm phát hành. Vì vậy, tốt hơn là các nhóm tốt hơn là loại bỏ công việc thủ công và tự động hóa quá trình triển khai phần mềm ****. Nó sẽ cho phép các nhóm phần mềm tập trung vào các nhiệm vụ quan trọng hơn. Có một số công cụ triển khai nguồn mở  **ngoài kia nhưng chúng tôi sẽ tập trung vào**   Triển khai PHP** trong hướng dẫn này. Chúng tôi sẽ bao gồm phần sau trong bài này.
-  *[ **Trình triển khai** ][1]
-  *[ **Cài đặt triển khai** ][2]
-  *[ **Triển khai ứng dụng PHP** ][3]
-  *[ **Kết luận** ][4]
+Đây là một công việc rất quan trọng để triển khai ứng dụng trên máy chủ sau khi phát triển. Các tính năng mới và sửa lỗi thường được các nhóm phát hành. Vì vậy, tốt hơn là các nhóm tốt hơn là loại bỏ công việc thủ công và tự động hóa quá trình triển khai phần mềm*  ***. Nó sẽ cho phép các nhóm phần mềm tập trung vào các nhiệm vụ quan trọng hơn. Có một số công cụ triển khai nguồn mở** ngoài kia nhưng chúng tôi sẽ tập trung vào **Triển khai PHP**  trong hướng dẫn này. Chúng tôi sẽ bao gồm phần sau trong bài này.
+* [  **Trình triển khai**  ][1]
+* [  **Cài đặt triển khai**  ][2]
+* [  **Triển khai ứng dụng PHP**  ][3]
+* [  **Kết luận**  ][4]
 
-## Trình triển khai là gì   {#what}
-. Nó cho phép các nhóm phần mềm để tự động hóa quy trình công việc triển khai cho các ứng dụng dựa trên PHP. Nó rất đơn giản để cài đặt và dễ sử dụng. Bất cứ ai từ người mới bắt đầu đến trải nghiệm cấp độ chuyên gia đều có thể nhanh chóng sử dụng nó để triển khai các ứng dụng PHP. Trình triển khai đi kèm với các công thức/tập lệnh vượt trội cho các khung PHP phổ biến, CMS và phần mềm giỏ hàng. Hơn nữa, bạn có thể thực hiện **triển khai Laravel  **với công cụ triển khai nguồn mở này ** . Nhà phát triển có thể sử dụng các công thức nấu ăn tích hợp cho các dự án của họ và sử dụng chúng để triển khai. Hơn nữa, bạn có thể dễ dàng tạo tập lệnh cài đặt/triển khai với trình hướng dẫn triển khai  **PHP ** . Hơn nữa, công cụ triển khai miễn phí ** này**  cung cấp các tính năng tuyệt vời như triển khai thời gian xuống, rollback sang phiên bản trước, SSH, thực hiện song song và nhiều hơn nữa.
+## Trình triển khai là gì {#What}
 
-## Cài đặt triển khai   {#installing}
+. Nó cho phép các nhóm phần mềm để tự động hóa quy trình công việc triển khai cho các ứng dụng dựa trên PHP. Nó rất đơn giản để cài đặt và dễ sử dụng. Bất cứ ai từ người mới bắt đầu đến trải nghiệm cấp độ chuyên gia đều có thể nhanh chóng sử dụng nó để triển khai các ứng dụng PHP. Trình triển khai đi kèm với các công thức/tập lệnh vượt trội cho các khung PHP phổ biến, CMS và phần mềm giỏ hàng. Hơn nữa, bạn có thể thực hiện  **triển khai Laravel** với công cụ triển khai nguồn mở này  **. Nhà phát triển có thể sử dụng các công thức nấu ăn tích hợp cho các dự án của họ và sử dụng chúng để triển khai. Hơn nữa, bạn có thể dễ dàng tạo tập lệnh cài đặt/triển khai với trình hướng dẫn triển khai**  PHP **. Hơn nữa, công cụ triển khai miễn phí**  này**cung cấp các tính năng tuyệt vời như triển khai thời gian xuống, rollback sang phiên bản trước, SSH, thực hiện song song và nhiều hơn nữa.
+
+## Cài đặt triển khai {#Installing}
+
   * Trình triển khai phụ thuộc vào PHP. Bạn nên đảm bảo rằng PHP đang chạy trên máy chủ của bạn. Tuy nhiên, bạn có thể sử dụng lệnh bên dưới để cài đặt PHP trên Ubuntu.
 ```
 sudo apt-get install php
@@ -34,8 +36,9 @@ sudo mv Deployer.phar /usr/local/bin/dep
 sudo chmod +x /usr/local/bin/dep
 ```
 
-## Triển khai ứng dụng PHP   {#deploy}
-Thực hiện theo các hướng dẫn từng bước tới  **Triển khai ứng dụng PHP**  với người triển khai.
+## Triển khai ứng dụng PHP {#Deploy}
+
+Thực hiện theo các hướng dẫn từng bước tới  **Triển khai ứng dụng PHP**  với Trình triển khai.
   * Tạo một thư mục cho người triển khai và điều hướng đến thư mục mới được tạo.
 ```
 sudo mkdir deployer
@@ -104,9 +107,9 @@ task('deploy', [
 after('deploy:failed', 'deploy:unlock');
 ```
 Bạn phải thay đổi các biến sau để triển khai ứng dụng PHP của mình.
-  * **Đặt (‘Ứng dụng,‘ My_Project,);**  - Đặt tên ứng dụng.
- *** Đặt (‘Kho lưu trữ ,, Bạn phải đặt khóa triển khai cho kho lưu trữ GitHub của bạn. Bạn có thể tìm kiếm cách tạo khóa SSH tại máy chủ, nếu bạn không quen với nó.
- *** Máy chủ (‘Project.com,)
+*  **Đặt (‘Ứng dụng,‘ My_Project,);**  - Đặt tên ứng dụng.
+***Đặt (‘Kho lưu trữ ,, Bạn phải đặt khóa triển khai cho kho lưu trữ GitHub của bạn. Bạn có thể tìm kiếm cách tạo khóa SSH tại máy chủ, nếu bạn không quen với nó.
+***Máy chủ (‘Project.com,)
     -> Đặt (‘Triển khai_Path,‘ ~/{{Ứng dụng}} Nó sẽ trông giống như/var/www/html/triển khai.
 Cuối cùng, chạy lệnh dưới đây để triển khai ứng dụng PHP của bạn.
 ```
@@ -117,38 +120,40 @@ Nếu bạn tìm thấy bất kỳ vấn đề nào với bản phát hành mớ
 dep rollback
 ```
 
-## Kết luận   {#conclusion}
-Chúng tôi đã thảo luận về việc triển khai và cách cài đặt nó trong hướng dẫn này. Hơn nữa, chúng tôi đã tạo hướng dẫn đầy đủ để triển khai ứng dụng dựa trên PHP từ kho lưu trữ GitHub. Hy vọng, bài đăng trên blog này sẽ giúp bạn bắt đầu **Triển khai ứng dụng PHP  **với Trình triển khai. Hơn nữa, chúng tôi sẽ viết thêm về công cụ triển khai**   PHP này** trong các hướng dẫn sắp tới.
-Cuối cùng, [**containerize.com **][6] đang trong một quá trình viết bài đăng trên blog nhất quán trên các sản phẩm nguồn mở mới nhất. Do đó, hãy giữ liên lạc với các công cụ triển khai [** ** này** ][7] cho các bản cập nhật mới nhất.
+## Phần kết luận {#Phần kết luận}
+
+Chúng tôi đã thảo luận về việc triển khai và cách cài đặt nó trong hướng dẫn này. Hơn nữa, chúng tôi đã tạo hướng dẫn đầy đủ để triển khai ứng dụng dựa trên PHP từ kho lưu trữ GitHub. Hy vọng, bài đăng trên blog này sẽ giúp bạn bắt đầu  **Triển khai ứng dụng PHP** với Trình triển khai. Hơn nữa, chúng tôi sẽ viết thêm về công cụ triển khai **PHP này**  trong các hướng dẫn sắp tới.
+Cuối cùng, [  **containerize.com** ][6] đang trong một quá trình viết bài đăng trên blog nhất quán trên các sản phẩm nguồn mở mới nhất. Do đó, hãy giữ liên lạc với các công cụ triển khai [ ****này**  ][7] cho các bản cập nhật mới nhất.
 
 ## Khám phá
 Bạn có thể tìm thấy các liên kết sau có liên quan:
-  *[ **Trình triển khai** ][8]
-  *[ **Jenkins** ][9]
-  *[ **drone** ][10]
-  *[ **Capistrano** ][11]
-  *[ **Rancher** ][12]
-  *[ **Concference** ][13]
-  *[ **Ansible** ][14]
-  *[ **GOCD** ][15]
-  *[ **Top 5 công cụ triển khai nguồn mở vào năm 2021** ][16]
-  *[ **Tích hợp liên tục và triển khai liên tục từ Máy chủ điều khiển nguồn** ][17]
+* [  **Triển khai**  ][8]
+* [  **Jenkins**  ][9]
+* [  **drone**  ][10]
+* [  **Capistrano**  ][11]
+* [  **Rancher**  ][12]
+* [  **Concference**  ][13]
+* [  **Ansible**  ][14]
+* [  **GOCD**  ][15]
+* [  **Top 5 công cụ triển khai nguồn mở vào năm 2021**  ][16]
+* [  **Tích hợp liên tục và triển khai liên tục từ Máy chủ điều khiển nguồn**  ][17]
 
-  
-[1]: #What
-[2]: #Installing
-[3]: #Deploy
-[4]: #Conclusion
-[5]: https://deployer.org/
-[6]: https://containerize.com
-[7]: https://blog.containerize.com/category/deployment-tools/
-[8]: https://products.containerize.com/deployment-tools/deployer
-[9]: https://products.containerize.com/deployment-tools/jenkins/
-[10]: https://products.containerize.com/deployment-tools/drone/
-[11]: https://products.containerize.com/deployment-tools/capistrano/
-[12]: https://products.containerize.com/deployment-tools/rancher/
-[13]: https://products.containerize.com/deployment-tools/concourse/
-[14]: https://products.containerize.com/deployment-tools/ansible/
-[15]: https://products.containerize.com/deployment-tools/gocd/
-[16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
-[17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/
+
+
+ [1]: #What
+ [2]: #Installing
+ [3]: #Deploy
+ [4]: #Conclusion
+ [5]: https://deployer.org/
+ [6]: https://containerize.com
+ [7]: https://blog.containerize.com/category/deployment-tools/
+ [8]: https://products.containerize.com/deployment-tools/deployer
+ [9]: https://products.containerize.com/deployment-tools/jenkins/
+ [10]: https://products.containerize.com/deployment-tools/drone/
+ [11]: https://products.containerize.com/deployment-tools/capistrano/
+ [12]: https://products.containerize.com/deployment-tools/rancher/
+ [13]: https://products.containerize.com/deployment-tools/concourse/
+ [14]: https://products.containerize.com/deployment-tools/ansible/
+ [15]: https://products.containerize.com/deployment-tools/gocd/
+ [16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+ [17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/

@@ -14,17 +14,19 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Cách thực hiện bộ nhớ đệm Browsr với cấu hình nginx">}}
 
 Trong chuỗi hướng dẫn của Nginx của chúng tôi, chúng tôi đã đề cập [Cách sử dụng Nginx làm bộ cân bằng tải][1], [Cấu hình Nginx làm proxy ngược][2], [sử dụng nhiều phiên bản PHP với NGINX][3] và [ Các quy tắc để nginx viết lại chỉ thị][4]. Trong bài viết hôm nay, chúng tôi đang đề cập đến một chủ đề rất quan trọng giúp các doanh nghiệp cải thiện trải nghiệm người dùng của họ bằng cách tận dụng bộ nhớ đệm trình duyệt. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách triển khai bộ nhớ đệm trình duyệt với cấu hình Nginx bằng mô -đun tiêu đề Nginx. Bắt đầu nào!
-  * **[Bộ nhớ đệm của trình duyệt tận dụng][5]**
-  *[**Mô -đun tiêu đề nginx** ][6]
-  *[**T-TAGE và IF-NONE-MATCH** ][7]
-  *[**Bộ nhớ đệm trình duyệt đòn bẩy với cấu hình nginx** ][8]
-  *[**Kết luận** ][9]
+* **[Bộ nhớ đệm của trình duyệt đòn bẩy][5]** 
+* [ **Mô -đun tiêu đề nginx** ][6]
+* [ **T-TAGE và IF-NONE-MATCH** ][7]
+* [ **Bộ nhớ đệm của trình duyệt đòn bẩy với cấu hình nginx** ][8]
+* [ **Kết luận** ][9]
 
-## Trình duyệt bộ nhớ đệm của Trình duyệt
+## Tận dụng bộ nhớ đệm trình duyệt {#browser-caching}
+
 Một trang web tải càng nhanh, khách truy cập càng có nhiều khả năng ở lại trên trang web. Các trang web có nhiều hình ảnh và nội dung tương tác được tải trong nền làm cho trang web mở một nhiệm vụ phức tạp. Nó bao gồm yêu cầu nhiều tệp khác nhau từ từng máy chủ. Giảm thiểu số lượng của các yêu cầu này là một cách để tăng tốc trang web của bạn.
 Một phương pháp để cải thiện hiệu suất trang web là _leveraging trình duyệt bộ nhớ đệm_. Trình duyệt bộ nhớ đệm đóng một vai trò rất lớn trong cơ chế bộ đệm để tăng tốc độ trang. Các tệp tĩnh như CSS, JS, JPEG, PNG, v.v. được sử dụng cho trang web có thể được lưu trên máy tính của khách truy cập để truy cập trong tương lai. Bất cứ khi nào khách truy cập gặp một trang mới trên trang web của bạn, các tệp trên có thể được truy cập từ máy tính của khách truy cập thay vì máy chủ được cung cấp của bạn, điều này sẽ tăng mạnh tốc độ tải trang.
 
-## Nginx, mô-đun tiêu đề   {#tiêu đề-module}
+## Mô -đun tiêu đề Nginx sườn {#header-module}
+
 Mô-đun _ngx \ _http \ _headers_module_ cho phép thêm các trường tiêu đề _Expires_ và _cache-control_, và các trường tùy ý, vào tiêu đề phản hồi. Chúng ta có thể sử dụng mô -đun tiêu đề để đặt các tiêu đề HTTP này. Mô -đun tiêu đề là một mô -đun Nginx lõi, có nghĩa là nó không cần phải cài đặt riêng để được sử dụng.
 Cấu hình ví dụ trông như thế này:
 ```
@@ -38,7 +40,8 @@ expires    $expires;
 add_header Cache-Control private;
 ```
 
-## e-tag và if-none-match   {#etage}
+## E-TAG và IF-NONE-MATCH {#etage}
+
 Hãy giả sử rằng chúng tôi có một số tệp kiểm tra với các tiện ích mở rộng khác nhau, ví dụ: test.html, test.jpg, test.css và test.js. Theo mặc định, tất cả các tệp sẽ có cùng hành vi bộ đệm mặc định. Để kiểm tra các tiêu đề phản hồi của tệp bằng lệnh sau để yêu cầu một tệp từ máy chủ nginx cục bộ của chúng tôi và hiển thị các tiêu đề phản hồi:
 ```
 curl -I http://localhost/test.html
@@ -73,7 +76,8 @@ Connection: keep-alive
 ```
 Lần này, Nginx sẽ trả lời với **304 không được sửa đổi** . Nó đã thắng được gửi tập tin qua mạng một lần nữa; Thay vào đó, nó sẽ nói với trình duyệt rằng nó có thể sử dụng lại tệp mà nó đã tải xuống cục bộ. Điều này rất hữu ích vì nó làm giảm lưu lượng mạng. Nhưng trình duyệt vẫn phải thực hiện cuộc gọi HTTP để nhận phản hồi từ máy chủ, vẫn còn một thời gian.
 
-## Bộ nhớ đệm của trình duyệt đòn bẩy với cấu hình nginx   {#nginx-configuration}
+## Tận dụng bộ nhớ đệm của trình duyệt với cấu hình nginx {#nginx-configuration}
+
 Trong ví dụ trước của chúng tôi, chúng tôi đã giải thích cách thẻ điện tử và IF-None-match giúp bạn giảm lưu lượng mạng. Nhưng vấn đề với `Etag` là trình duyệt luôn gửi yêu cầu đến máy chủ hỏi xem nó có thể sử dụng lại tệp được lưu trong bộ nhớ cache của nó không. Và điều này vẫn cần có thời gian để thực hiện yêu cầu và nhận được phản hồi.
 Bây giờ với sự trợ giúp của mô -đun tiêu đề Nginx, chúng tôi sẽ làm cho trình duyệt lưu trữ một số tệp cục bộ mà không cần hỏi rõ ràng máy chủ.
 Thêm 3 dòng sau trong tệp cấu hình nginx của bạn vào bộ đệm nội dung tĩnh trong nginx
@@ -83,7 +87,7 @@ add_header Pragma "public";
 add_header Cache-Control "public";
 ```
 Dòng đầu tiên hướng dẫn Nginx để lưu trữ nội dung trong trình duyệt máy khách trong 30 ngày (30D). Sau khoảng thời gian này, bất kỳ yêu cầu mới nào từ người dùng sẽ dẫn đến xác nhận lại bộ đệm và cập nhật từ trình duyệt khách.
-Bạn có thể đặt các dòng trên trong các khối _Location_, _server_ hoặc _http_.
+Bạn có thể đặt các dòng trên trong _Location_, _server_ hoặc _http_ khối.
 ```
 location /static/ {
  expires 30d;
@@ -104,14 +108,16 @@ location ~* \.(js|jpg|gif|png|css)$ {
 Trong ví dụ trên, chúng tôi đang lưu trữ các loại tệp khác nhau như JS, JPG, CSS, v.v.
 Tương tự, bạn có thể đặt cấu hình bộ đệm trong khối _server_ trước bất kỳ khối vị trí nào. Trong trường hợp này, tất cả các phản hồi từ máy chủ này sẽ được lưu trữ. Hoặc bạn có thể đặt nó trong khối _HTTP_, trong trường hợp này, tất cả các yêu cầu máy chủ được hỗ trợ bởi tệp cấu hình NGINX sẽ được lưu trong bộ đệm.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Mô-đun Tiêu đề Nginx có thể được sử dụng để thêm bất kỳ tiêu đề tùy ý nào vào phản hồi, nhưng thiết lập đúng các tiêu đề kiểm soát bộ đệm là một trong những ứng dụng hữu ích nhất của nó. Nó giúp bạn cải thiện hiệu suất của trang web, đặc biệt là đối với người dùng trên các mạng có độ trễ cao hơn, như mạng sóng mang di động. Trong hướng dẫn này, chúng tôi đã học cách tận dụng bộ nhớ đệm của trình duyệt với cấu hình nginx. Hy vọng điều này sẽ giúp bạn cải thiện trải nghiệm người dùng của bạn trên trang web của bạn.
 
 ## Khám phá
   * [Cách cài đặt nhiều phiên bản PHP với NGINX trên Ubuntu][3]
   * [Cách thiết lập và định cấu hình Nginx dưới dạng proxy ngược][2]
 
-  
+
+
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

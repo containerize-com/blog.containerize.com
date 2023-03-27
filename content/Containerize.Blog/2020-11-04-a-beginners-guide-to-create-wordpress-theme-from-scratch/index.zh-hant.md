@@ -15,24 +15,28 @@ categories: ['Blogging']
   * [要求][1]
   * [逐步指南][2]
 
-## #要求 {#requirements}
+
+##＃ 要求 {#requirements}
+
 首先，您需要做的是最重要的事情，是安裝WordPress。 WordPress以其易於安裝而聞名。這是一個簡單的過程，可以按照[指南][3]輕鬆完成自己的操作。
 
-## #如何創建WordPress主題；逐步指南 {#guide}
-對於WordPress主題，一切都將僅在**wp_content**目錄中完成。只需在**wp_content→主題文件夾中製作一個新的主題子文件夾即可。
-第二件事是決定主題的佈局。在這裡，教程顯示了基本佈局，包括**標題，主區域，頁腳，側邊欄**。
-基本上，WordPress僅需要2個文件，即style.css and Index.php。但是，對於此佈局，您需要**5個文件**，如下所示；
-***header.php  -**包含主題標題部分的代碼。
-***index.php  -**包含主區域的代碼，並將指定將包含其他文件的位置。這是主題的主要文件。
-***sidebar.php  -**包含有關側邊欄的信息。
-***footer.php  -**處理頁腳部分。
-***style.css  -**負責您主題的樣式。
-***bootstrap.css  -**無需單獨的CSS代碼；反應迅速。
-***bootstrap.js  -**為導航欄或選項卡提供了自己的JS，等等。
-* * Bootstrap.js**和**Bootstrap.css**需要從Bootstrap軟件包下載並複製到**主題**文件夾中。
+
+##＃如何創建WordPress主題；逐步指南 {#guide}
+
+對於WordPress主題，一切都將僅在  **wp_content**  目錄中完成。只需在**wp_content→主題文件夾中製作一個新的主題子文件夾即可。
+第二件事是決定主題的佈局。在這裡，教程顯示了基本佈局，包括  **標題，主區域，頁腳，側邊欄**  。
+基本上，WordPress僅需要2個文件，即style.css and Index.php。但是，對於此佈局，您需要  **5個文件**  ，如下所示；
+*  **header.php  -**  包含主題標題部分的代碼。
+*  **index.php  -**  包含主區域的代碼，並將指定將包含其他文件的位置。這是主題的主要文件。
+*  **sidebar.php  -**  包含有關側邊欄的信息。
+*  **footer.php  -**  處理頁腳部分。
+*  **style.css  -**  負責您主題的樣式。
+*  **bootstrap.css  -**  無需單獨的CSS代碼；反應迅速。
+*  **bootstrap.js  -**  為導航欄或選項卡提供了自己的JS，等等。
+ **Bootstrap.js** 和 **Bootstrap.css** 需要從Bootstrap軟件包下載並複製到 **主題** 文件夾中。
 這是要遵循設置主題的步驟
 
-## #步驟1：header.php文件
+###步驟1：header.php文件
 將以下代碼放在header.php文件中。
 ```
 <html>
@@ -57,7 +61,7 @@ categories: ['Blogging']
 ```
 此文件標題.php包含鏈接JS和样式文件的標頭部分的代碼。它顯示頁面的標題。
 
-## #步驟2：index.php文件
+###步驟2：index.php文件
 將以下代碼放在主文件index.php中
 ```
 <?php get_header(); ?>
@@ -83,7 +87,7 @@ categories: ['Blogging']
 ```
 上面的代碼顯示帖子，側邊欄和頁腳的主要內容。
 
-## #步驟3：sidebar.php文件
+###步驟3：sidebar.php文件
 在sidebar.php中添加以下代碼
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +99,7 @@ categories: ['Blogging']
 ```
 在上面的代碼中，調用內部WordPress函數顯示不同的類別，即帖子檔案。
 
-## #步驟4：footer.php文件
+###步驟4：footer.php文件
 將以下代碼行添加到footer.php文件：
 ```
 <div id= "ttr_footer">
@@ -106,7 +110,7 @@ categories: ['Blogging']
 </html>
 ```
 
-## 步驟5：styles.css文件
+##步驟5：styles.css文件
 將以下行添加到style.css文件
 ```
 body
@@ -132,10 +136,11 @@ font-weight: bold;
 ```
 遵循上述所有步驟後，您將擁有一個基本的WordPress主題。您可以進一步修改它，使其更加美麗，適合您的要求。
 
-## #  結論
+＃## 結論
 在本教程中，我們解釋瞭如何以簡單簡便的步驟創建WordPress主題。在閱讀並遵循創建WordPress主題的步驟之後，現在已經不再是艱鉅的任務了。但是，顯然，這個教程堅持非常基本的設置，為了增強您的功能，您必須了解有關HTML，CSS，JS和PHP的更多信息。
 
-  
-[1]: #requirements
-[2]: #guide
-[3]: https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #requirements
+ [2]: #guide
+ [3]: https://products.containerize.com/blogging/wordpress

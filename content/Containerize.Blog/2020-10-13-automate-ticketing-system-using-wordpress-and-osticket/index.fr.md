@@ -20,7 +20,8 @@ OSTICKET est un système de billetterie d'assistance open-source et gratuit. Les
   * [Procédure d'authentification][3]
   * [Conclusion][4]
 
-## Processus d'intégration:   {#Integration}
+## Processus d'intégration: {#integration}
+
 L'intégration OSTICKET et WordPress nécessite un formulaire de contact sur le site WordPress avec les champs suivants
   1. Aidez le sujet
   2. Email
@@ -29,7 +30,8 @@ L'intégration OSTICKET et WordPress nécessite un formulaire de contact sur le 
   5. Message
 Le formulaire de contact doit envoyer des e-mails, car ce plugin accroche la fonction WP_Mail pour obtenir les données des formulaires.
 
-## Installation du plugin wordpress:   {#wordpress}
+## Installation du plugin WordPress: {#wordpress}
+
   1. Accédez au tableau de bord Admin de votre site WordPress.
   2. Ensuite, allez à la section Plugins.
   3. Installez ensuite ce [plugin][5].
@@ -42,7 +44,8 @@ Le formulaire de contact doit envoyer des e-mails, car ce plugin accroche la fon
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Intégration OSTICKET-WORDPRESS pour automatiser le système de billetterie">}}
 
 
-## Procédure d'authentification:   {#Auth}
+## Procédure d'authentification: {#auth}
+
 L'authentification de l'API est effectuée via des touches API configurées dans le panneau d'administration d'Osticket. Les touches API sont générées et liées à une adresse IP source qui est vérifiée par rapport à l'IP source des demandes d'API HTTP. Pour créer une clé API
   1. Accédez au panneau d'administration d'Osticket.
   2. Cliquez sur «Gérer».
@@ -55,7 +58,8 @@ L'authentification de l'API est effectuée via des touches API configurées dans
 {{< figure align=center src="images/osticket-1024x729.png" alt="Intégration OSTICKET-WORDPRESS pour automatiser le système de billetterie">}}
 
 
-## Conclusion:   {#conclusion}
+## Conclusion: {#conclusion}
+
 L'intégration OSTICKET-WordPress automatisera le processus de billetterie. Par conséquent, cela facilitera la vie de l'équipe de soutien. Les demandes de renseignements sur le site Web WordPress se transformeront automatiquement en billets de support sur OSTICKET. Afin que l'équipe d'assistance puisse gérer toutes les requêtes des clients plus facilement et plus efficacement. Les agents d'assistance seront informés par des notifications par e-mail. Par conséquent, les agents peuvent résoudre les requêtes des clients à temps. La section des commentaires sur OSTICKET aide les clients et les agents de soutien à communiquer efficacement et en temps opportun. Il permet également aux managers de suivre plus facilement les progrès de chaque billet.
 
 ## Explorer:
@@ -64,7 +68,8 @@ Pour en savoir plus sur OSTICKET et WordPress, veuillez consulter ces pages:
   * [WordPress - Open source gratuit et CMS et outil de blogging les plus utilisés][8]
   * [Comment configurer le logiciel d'assistance en ligne à l'aide d'Osticket][9]
 
-  
+
+
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

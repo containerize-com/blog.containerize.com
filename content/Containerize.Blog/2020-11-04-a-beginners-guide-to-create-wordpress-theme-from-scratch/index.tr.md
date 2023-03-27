@@ -15,24 +15,28 @@ WordPress teması nasıl oluşturulur, Google aramasındaki en iyi sorgular aras
   * [Gereksinimler][1]
   * [Adım adım kılavuz][2]
 
-## # Gereksinimler   {#Requirements}
+
+### Gereksinimler {#requirements}
+
 Yapmanız gereken ilk ve en önemli şey WordPress'i yüklemektir. WordPress, kurulum kolaylığı ile tanınır. Bu basit bir süreçtir ve [kılavuz][3] 'i takip ederek kolayca kendiniz yapılabilir.
 
-## # WordPress teması nasıl oluşturulur; Adım adım kılavuz   {#guide}
-WordPress teması için her şey yalnızca **wp_content  **dizininde yapılacaktır. Sadece **  wp_content → temalar klasöründe yeni bir tema alt klasörü yapın.  **Varsayalım ki **  “CustomTheme”** .
-İkinci şey, temanın düzenine karar vermektir. Burada, öğretici **başlık, ana alan, altbilgi, kenar çubuğu**  oluşan temel düzeni gösteriyor.
-Temel olarak, WordPress sadece 2 dosyaya ihtiyaç duyar. Ancak, bu düzen için, aşağıdaki gibi **5 dosyaya**  gerekir;
-  ***header.php -** , temanın başlık bölümünün kodunu içerir.
-  ***index.php -**  Ana alanın kodu içerir ve diğer dosyaların nereye dahil edileceğini belirtir. Bu temanın ana dosyasıdır.
-  ***Sidebar.php -**  Kenar çubuğu hakkında bilgi içerir.
-  ***footer.php -**  altbilgi bölümünü işler.
-  ***Style.css -**  Temanızın stilinden sorumlu.
-  ***bootstrap.css -**  ayrı CSS kodu gerekmez; son derece duyarlı.
-  ***Bootstrap.js -**  Navigasyon çubuğu veya sekmeleri vb. İçin kendi js sağlar.
-**bootstrap.js  **ve **  bootstrap.css  **bootstrap paketinden indirilmesi ve **  tema**  klasörüne kopyalanması gerekir.
-İşte Kurulum Teması için İzlenecek Adımlar
 
-## # Adım 1: header.php dosyası
+### WordPress teması nasıl oluşturulur; Adım adım rehber {#guide}
+
+WordPress teması için her şey yalnızca  **wp_content** dizininde yapılacaktır. Sadece  **wp_content → temalar klasöründe yeni bir tema alt klasörü yapın.**  Varsayalım ki **“CustomTheme”**  .
+İkinci şey, temanın düzenine karar vermektir. Burada, öğretici  **başlık, ana alan, altbilgi, kenar çubuğu**  oluşan temel düzeni gösteriyor.
+Temel olarak, WordPress sadece 2 dosyaya ihtiyaç duyar. Ancak, bu düzen için, aşağıdaki gibi  **5 dosyaya**  gerekir;
+*  **header.php -**  , temanın başlık bölümünün kodunu içerir.
+*  **index.php -**  Ana alanın kodu içerir ve diğer dosyaların nereye dahil edileceğini belirtir. Bu temanın ana dosyasıdır.
+*  **Sidebar.php -**  Kenar çubuğu hakkında bilgi içerir.
+*  **footer.php -**  altbilgi bölümünü işler.
+*  **Style.css -**  Temanızın stilinden sorumlu.
+*  **bootstrap.css -**  ayrı CSS kodu gerekmez; son derece duyarlı.
+*  **Bootstrap.js -**  Navigasyon çubuğu veya sekmeleri vb. İçin kendi js sağlar.
+ **bootstrap.js** ve **bootstrap.css** bootstrap paketinden indirilmesi ve **tema** klasörüne kopyalanması gerekir.
+İşte ayarlama teması için izlenecek adımlar
+
+### Adım 1: header.php dosyası
 Aşağıdaki kodu header.php dosyasına koyun.
 ```
 <html>
@@ -57,7 +61,7 @@ Aşağıdaki kodu header.php dosyasına koyun.
 ```
 Bu dosya header.php, JS ve stil dosyasının bağlantılı olduğu başlık kısmının kodu içerir. Sayfanın başlığını görüntüler.
 
-## # Adım 2: index.php dosyası
+### Adım 2: index.php dosyası
 Aşağıdaki kodu ana dosya dizinine koyun.php
 ```
 <?php get_header(); ?>
@@ -83,7 +87,7 @@ Aşağıdaki kodu ana dosya dizinine koyun.php
 ```
 Yukarıdaki kod, yazı, kenar çubuğu ve altbilginin ana içeriğini görüntüler.
 
-## # Adım 3: Sidebar.php dosyası
+### Adım 3: Sidebar.php dosyası
 Sidebar.php'ye aşağıdaki kodu ekleyin
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +99,7 @@ Sidebar.php'ye aşağıdaki kodu ekleyin
 ```
 Yukarıdaki kodda, farklı kategorileri, yayın arşivlerini görüntülemek için dahili WordPress işlevleri çağrılır.
 
-## # Adım 4: Footer.php dosyası
+### Adım 4: Footter.php dosyası
 Aşağıdaki kod satırlarını footer.php dosyasına ekleyin:
 ```
 <div id= "ttr_footer">
@@ -132,10 +136,11 @@ font-weight: bold;
 ```
 Yukarıdaki tüm adımları izledikten sonra, temel bir WordPress temasına sahip olacaksınız. Daha güzel hale getirmek ve gereksinimlerinize uygun hale getirmek için daha fazla değiştirebilirsiniz.
 
-## # Çözüm
+### Çözüm
 Bu öğreticide WordPress temasının basit ve kolay adımlarla nasıl oluşturulacağını açıkladık. Bir WordPress teması oluşturmak ve şimdi daha zor bir iş değil, adımları okuduktan ve izledikten sonra artık zor bir görev değil. Ancak, bu öğretici çok temel kuruluma ve üstünü geliştirmek için HTML, CSS, JS ve PHP hakkında daha fazla bilgi edinmeniz gerekecek.
 
-  
-[1]: #requirements
-[2]: #guide
-[3]: https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #requirements
+ [2]: #guide
+ [3]: https://products.containerize.com/blogging/wordpress

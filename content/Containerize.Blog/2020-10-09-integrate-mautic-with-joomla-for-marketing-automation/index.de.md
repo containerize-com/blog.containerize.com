@@ -21,11 +21,13 @@ Mit der MAUTIC- und JOOMLA -Integration können Sie Ihre Produkte/Dienstleistung
   * [Mautische Konfiguration][3]
   * [Schlussfolgerung][4]
 
-## Übersicht:   {#overview}
+## Überblick: {#overview}
+
 Mautic ist ein Open-Source-Marketing-Automatisierungssystem. Es ist eine kostenlose Marketingsoftware. Sie können es verwenden, um unbegrenzte Kampagnen zu erstellen, um Marketing -E -Mails an gezielte Kunden zu senden.
 Joomla ist auch ein kostenloses Open-Source-Content-Management-System für die Entwicklung von Websites. Es ist sehr einfach, Ihre Geschäftswebsites auf Joomla einzurichten. Es hat Tausende von Erweiterungen, die entsprechend Ihren Anforderungen verwendet werden können.
 
-## Joomla Plugin Installation:   {#Plugin}
+## Joomla -Plugin -Installation: {#plugin}
+
   * Laden Sie das [Plugin][5] herunter.
   * Gehen Sie dann zu Erweiterungen -> verwalten -> Installation.
   * Geben Sie die mauische URL ein.
@@ -36,13 +38,14 @@ Joomla ist auch ein kostenloses Open-Source-Content-Management-System für die E
   * SLOT_NAME ist die Kennung des Steckplatzes, den Sie beim Hinzufügen einer Entscheidung „Dynamische Inhalte anfordern“ zu Ihrer Kampagne angegeben haben.
 Nach der Installation müssen Sie Formulare auf Ihrer Joomla -Website erstellen und einbetten. Diese Formulare senden die Kontaktinformationen an Mautic. Sobald Sie das Plugin auf Joomla konfiguriert haben, besteht der nächste Schritt darin, es auf Mautic zu konfigurieren.
 
-## MAUTIC -Konfiguration:   {#meus}
+## Mautische Konfiguration: {#mautic}
+
   * Gehen Sie zu Ihrer mauischen Website und wechseln Sie zu Einstellungen.
   * Klicken Sie auf die Konfiguration.
   * Aktivieren Sie API -Einstellungen API.
   * Um Mautic mit Joomla zu verbinden, müssen Sie ein SSL -Zertifikat auf Ihren Websites haben.
   * Als nächstes müssen Sie zu API -Anmeldeinformationen gehen.
-  *Wenn Ihre Website keine SSL hat (Sie gehen also zu **http **: //yourjoomlasiite.com), wählen Sie OAuth1. Wenn Sie eine SSL auf Ihrer Website haben (also gehen Sie zu  **https**  : //yourjoomlaite.com), wählen Sie OAuth2.
+* Wenn Ihre Website keine SSL hat (Sie gehen also zu **http**: //yourjoomlasiite.com), wählen Sie OAuth1. Wenn Sie eine SSL auf Ihrer Website haben (also gehen Sie zu**https** : //yourjoomlaite.com), wählen Sie OAuth2.
   * Klicken Sie auf Neu, geben Sie einen Namen an (kann alles sein, was Sie wollen) und die vollständige URL Ihres Joomla! Site ([https://yourjoomlaite.com][6])
   * Klicken Sie auf Speichern und Schließen.
   * Hier können Sie öffentliche und private Schlüssel bekommen.
@@ -58,7 +61,8 @@ Nach der Installation müssen Sie Formulare auf Ihrer Joomla -Website erstellen 
 {{< figure align=center src="images/Mautic-and-Joomla-integration-1024x591.png" alt="Mautic- und Joomla -Integration">}}
 
 
-## Schlussfolgerung:   {#Conclusion}
+## Abschluss: {#conclusion}
+
 In diesem Artikel haben wir diskutiert, wie mautisch und Joomla zusammen bei der Automatisierung digitaler Marketing helfen können. Mit dieser Open-Source-kostenlosen Marketing-Lösung können Sie alle Kontakte von Joomla-Website gruppieren und Marketingkampagnen mit ihnen erstellen. Mit MAUTIC können Sie Segmente erstellen, sodass Sie verschiedene Kampagnen in verschiedenen Segmenten entsprechend Ihren Anforderungen durchführen können. Bitte überprüfen Sie [Joomla][7] und [Mautic][8] Blogs für detaillierte Übersicht.
 
 ## Erkunden:
@@ -70,7 +74,8 @@ Sie können die folgenden Links relevant finden:
   * [Marketing -Automatisierung mit Mautic und WordPress WooCommerce][11]
   * [So richten Sie Marketingkampagnen in Mautic ein][12]
 
-  
+
+
 [1]: #overview
 [2]: #plugin
 [3]: #mautic

@@ -13,29 +13,33 @@ categories: ['Learning Management System']
 
 {{< figure align=center src="images/moodle-banner.png" alt="Moodle LMS">}}
 
-Siamo stati affetti da Covid 19 da oltre un anno. Ogni parte del mondo è stata messa sotto blocco. Ha un impatto negativo sulla vita e le imprese delle persone in tutto il mondo. Ancora più importante, ha un impatto notevole sul nostro sistema educativo. Le istituzioni educative devono effettuare il passaggio all'apprendimento online in modo che gli studenti possano continuare la propria istruzione dal comfort delle proprie case. Senza una piattaforma di e-learning solida e sicura, l'apprendimento online è impossibile. In questo articolo, esamineremo il progetto  **Moodle Open Source** , che consente agli insegnanti e agli studenti di comunicare e imparare da qualsiasi luogo.
-Tratteremo le seguenti sezioni in questo articolo per  **Creare il sito Web di e-learning**  usando Moodle.
+Siamo stati affetti da Covid 19 da oltre un anno. Ogni parte del mondo è stata messa sotto blocco. Ha un impatto negativo sulla vita e le imprese delle persone in tutto il mondo. Ancora più importante, ha un impatto notevole sul nostro sistema educativo. Le istituzioni educative devono effettuare il passaggio all'apprendimento online in modo che gli studenti possano continuare la propria istruzione dal comfort delle proprie case. Senza una piattaforma di e-learning solida e sicura, l'apprendimento online è impossibile. In questo articolo, esamineremo il progetto **Moodle Open Source** , che consente agli insegnanti e agli studenti di comunicare e imparare da qualsiasi luogo.
+Tratteremo le seguenti sezioni in questo articolo per **Creare il sito Web di e-learning** usando Moodle.
   * [Prerequisiti][1]
   * [Cos'è Moodle?][2]
   * [Caratteristiche di Moodle][3]
   * [Installazione di Moodle][4]
   * [Conclusione][5]
 
-## Prerequisites   {#Prerequisites}
+## Prerequisiti {#Prerequisiti}
+
 Se non l'hai già fatto, è necessario installare e configurare l'ambiente della lampada sul tuo server.
 
-## Cos'è Moodle?   {#Che cosa}
-[**Moodle **][6] è una soluzione di e-learning libera e open source. Moodle sta per un ambiente di apprendimento dinamico orientato agli oggetti modulare. È stato creato per offrire a educatori, amministratori e studenti una piattaforma di e-learning per creare e fornire ambienti di apprendimento personalizzati. Inoltre, Moodle è un  **LMS adatto per le scuole ** , università e corsi di formazione professionale nelle aziende. È una delle soluzioni popolari di apprendimento a distanza  **per creare un sito Web LMS. Inoltre, Moodle offre agli insegnanti e agli studenti strumenti ricchi e ambienti di apprendimento collaborativo. Moodle ha un'app mobile per iPhone, Android e telefoni e tablet Windows. L'app mobile può essere utilizzata da qualsiasi posizione in tutto il mondo. Questo **  LMS-hosted LMS  **è scritto in PHP e memorizza i dati nei database MySQL/PostgreSQL. Viene fornito con una vasta documentazione per utenti e sviluppatori. Tutto il codice sorgente è disponibile su [**  github **][7]. La licenza per questa soluzione open source ** e-learning**  è GPLV3+.
+## Cos'è Moodle? {#What}
 
-## Caratteristiche di Moodle   {#Features}
+[ **Moodle**][6] è una soluzione di e-learning libera e open source. Moodle sta per un ambiente di apprendimento dinamico orientato agli oggetti modulare. È stato creato per offrire a educatori, amministratori e studenti una piattaforma di e-learning per creare e fornire ambienti di apprendimento personalizzati. Inoltre, Moodle è un **LMS adatto per le scuole** , università e corsi di formazione professionale nelle aziende. È una delle soluzioni popolari di apprendimento a distanza **per creare un sito Web LMS. Inoltre, Moodle offre agli insegnanti e agli studenti strumenti ricchi e ambienti di apprendimento collaborativo. Moodle ha un'app mobile per iPhone, Android e telefoni e tablet Windows. L'app mobile può essere utilizzata da qualsiasi posizione in tutto il mondo. Questo** LMS-hosted LMS **è scritto in PHP e memorizza i dati nei database MySQL/PostgreSQL. Viene fornito con una vasta documentazione per utenti e sviluppatori. Tutto il codice sorgente è disponibile su [** github**][7]. La licenza per questa soluzione open source** e-learning**è GPLV3+.
+
+## Caratteristiche di Moodle {#Features}
+
 Moodle ha molte funzionalità. Tuttavia, in questo articolo, esamineremo alcune delle seguenti caratteristiche chiave.
-**Strumenti e attività collaborativi**: forum, wiki, glossari, attività di database e altri strumenti consentono agli utenti di collaborare e apprendere insieme. Un gruppo di elementi in un corso di Moodle viene definito un'attività. Un'attività è in genere qualcosa che uno studente fa in cui interagisce con altri studenti e/o l'insegnante.
-**Traccia progressi**: gli educatori e gli studenti possono tenere traccia dei loro progressi e completamento utilizzando una varietà di strumenti per monitorare attività o materiali specifici, nonché a livello di corso. Esistono diversi modi per tracciare i progressi degli studenti in Moodle come voti, competenze, completamento delle attività, completamento del corso, badge, report dei corsi e analisi.
-**Gestione plugin**: i plugin consentono di estendere la funzionalità fondamentale di Moodle aggiungendo nuove funzionalità. Gli utenti possono aggiungere plugin per una varietà di attività come attività aggiuntive, nuovi tipi di domande a quiz, nuovi report, connettori di sistema e molti altri. Un'interfaccia di amministrazione può essere utilizzata per installare e disabilitare i plugin.
-**Gestione dei corsi**: creare e gestire corsi che soddisfano una varietà di esigenze. Le lezioni guidate dall'istruttore, lezioni di auto-tocco, lezioni miscelate e lezioni completamente online sono tutte opzioni.
-**Peer e autovalutazione**: Workshop e sondaggi sono attività integrate che incoraggiano gli studenti a visualizzare, valutare e rivedere il lavoro dei propri e di altri compagni di classe come gruppo.
+**Strumenti e attività collaborativi** : forum, wiki, glossari, attività di database e altri strumenti consentono agli utenti di collaborare e apprendere insieme. Un gruppo di elementi in un corso di Moodle viene definito un'attività. Un'attività è in genere qualcosa che uno studente fa in cui interagisce con altri studenti e/o l'insegnante.
+**Traccia progressi** : gli educatori e gli studenti possono tenere traccia dei loro progressi e completamento utilizzando una varietà di strumenti per monitorare attività o materiali specifici, nonché a livello di corso. Esistono diversi modi per tracciare i progressi degli studenti in Moodle come voti, competenze, completamento delle attività, completamento del corso, badge, report dei corsi e analisi.
+**Gestione plugin** : i plugin consentono di estendere la funzionalità fondamentale di Moodle aggiungendo nuove funzionalità. Gli utenti possono aggiungere plugin per una varietà di attività come attività aggiuntive, nuovi tipi di domande a quiz, nuovi report, connettori di sistema e molti altri. Un'interfaccia di amministrazione può essere utilizzata per installare e disabilitare i plugin.
+**Gestione dei corsi** : creare e gestire corsi che soddisfano una varietà di esigenze. Le lezioni guidate dall'istruttore, lezioni di auto-tocco, lezioni miscelate e lezioni completamente online sono tutte opzioni.
+**Peer e autovalutazione** : Workshop e sondaggi sono attività integrate che incoraggiano gli studenti a visualizzare, valutare e rivedere il lavoro dei propri e di altri compagni di classe come gruppo.
 
-## moodle installation   {#Moodle}
+## Installazione di Moodle {#Moodle}
+
 Seguire la guida passo-passo seguente per installare Moodle LMS su Ubuntu 18.04.
   * Innanzitutto, esegui i comandi di seguito per modificare Directlory Scarica e scarica Moodle.
 ```
@@ -112,16 +116,18 @@ sudo systemctl restart nginx
   * Fornire informazioni per il tuo sito come nome completo, nome corto per il sito, riepilogo FrontPage, fuso orario predefinito e e-mail senza riferimento. Fai clic sul pulsante "Salva modifiche".
   * Completa la registrazione del sito fornendo informazioni come nome del sito, lingua, regione, indirizzo e -mail, ecc.
 
-## conclusioni   {#conclusion}
-Abbiamo imparato a conoscere Moodle e le sue caratteristiche principali in questo articolo. Abbiamo anche esaminato un approccio passo-passo per la creazione di **Moodle LMS  **per **  Creare il sito Web di e-learning **. Puoi rivedere la [**  documentazione ufficiale**][8] di Moodle per sentirsi più a tuo agio con varie funzioni come corsi, registrazione degli studenti, monitoraggio dei progressi e così via. Spero che tu abbia trovato questo post utile nella creazione di un sito Web LMS.
-Infine, [**Containerize.com **][9] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, rimani in contatto con questa categoria [**  Apprending Management System**][10] per gli ultimi aggiornamenti.
+## Conclusione {#Conclusione}
+
+Abbiamo imparato a conoscere Moodle e le sue caratteristiche principali in questo articolo. Abbiamo anche esaminato un approccio passo-passo per la creazione di **Moodle LMS**per **Creare il sito Web di e-learning** . Puoi rivedere la [**documentazione ufficiale** ][8] di Moodle per sentirsi più a tuo agio con varie funzioni come corsi, registrazione degli studenti, monitoraggio dei progressi e così via. Spero che tu abbia trovato questo post utile nella creazione di un sito Web LMS.
+Infine, [ **Containerize.com**][9] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, rimani in contatto con questa categoria [**Apprending Management System** ][10] per gli ultimi aggiornamenti.
 
 ## Esplorare
 Potresti trovare i seguenti collegamenti pertinenti:
-  *[ **Strumenti LMS open source** ][11]
-  *[ **Moodle-E-Learning System** ][12]
+* [ **Strumenti LMS open source** ][11]
+* [ **Moodle-E-Learning System** ][12]
 
-  
+
+
 [1]: #Prerequisites
 [2]: #What
 [3]: #Features

@@ -15,22 +15,25 @@ categories: ['Blogging', 'Video Conferencing Software']
 
 
 ## ملخص
-نحن هنا مع منشور مدونة آخر في فئة [برنامج مؤتمرات الفيديو مفتوح المصدر][1]. هناك طرق معينة للاتصال عن بُعد مثل رسائل البريد الإلكتروني ومكالمات الفيديو. ومع ذلك ، فإن الاجتماعات وجهاً لوجه تكون دائمًا أكثر فاعلية وأكثر ملاءمة من رسائل البريد الإلكتروني أو الدردشات. في هذا العالم سريع النمو ، لا يهتم الناس حقًا بالوقت والمكان. الآن ، بدأت المنظمات الصغيرة/الضخمة في توظيف**أدوات التعاون عن بُعد**لإجراء مؤتمرات افتراضية. على الرغم من وجود العديد من منصات اجتماعات الويب التي توفر أدوات قوية لإجراء مؤتمرات الفيديو ، إلا أن جميعها يتم دفعها. لذا ، مع استشعار هذه الحاجة ، طور مجتمع المصدر المفتوح بعض الحلول على مستوى المؤسسات لخدمات مؤتمرات الويب****. بالإضافة إلى ذلك ، توصلت هذه المنصات المجانية إلى سوق ضخم ويدعمها مجتمع المطورين النابض بالحياة. في منشور المدونة هذا ، سوف نتعلم**كيفية تثبيت برنامج مؤتمرات الويب**على موقع [WordPress][2].
+نحن هنا مع منشور مدونة آخر في فئة [برنامج مؤتمرات الفيديو مفتوح المصدر][1]. هناك طرق معينة للاتصال عن بُعد مثل رسائل البريد الإلكتروني ومكالمات الفيديو. ومع ذلك ، فإن الاجتماعات وجهاً لوجه تكون دائمًا أكثر فاعلية وأكثر ملاءمة من رسائل البريد الإلكتروني أو الدردشات. في هذا العالم سريع النمو ، لا يهتم الناس حقًا بالوقت والمكان. الآن ، بدأت المنظمات الصغيرة/الضخمة في توظيف  **أدوات التعاون عن بُعد** لإجراء مؤتمرات افتراضية. على الرغم من وجود العديد من منصات اجتماعات الويب التي توفر أدوات قوية لإجراء مؤتمرات الفيديو ، إلا أن جميعها يتم دفعها. لذا ، مع استشعار هذه الحاجة ، طور مجتمع المصدر المفتوح بعض الحلول على مستوى المؤسسات لخدمات مؤتمرات الويب ****. بالإضافة إلى ذلك ، توصلت هذه المنصات المجانية إلى سوق ضخم ويدعمها مجتمع المطورين النابض بالحياة. في منشور المدونة هذا ، سوف نتعلم**  كيفية تثبيت برنامج مؤتمرات الويب**على موقع [WordPress][2].
 سيتم تغطية النقاط التالية في هذه المقالة:
-* [**ما هو BigBluebutton؟**][3]
-* [**مقدمة موجزة لـ WordPress**][4]
-* **[كيفية تثبيت البرنامج المساعد BigBluebutton في WordPress؟][5]**
+* [  **ما هو BigBluebutton؟**  ][3]
+* [  **مقدمة موجزة لـ WordPress**  ][4]
+*  **[كيفية تثبيت البرنامج المساعد BigBluebutton في WordPress؟][5]**  
 
-## **ما هو BigBluebutton؟** {#What-IS-BigBluebutton}
-[BigBluebutton][6] هو برنامج تعاون خالي من المصدر****مع مجموعة كبيرة من الميزات على مستوى المؤسسة. هذا البرنامج المفتوح المصدر قابل للتمديد للغاية ويقدم تكاملًا مع العديد من التطبيقات الشائعة مثل WordPress و [Redmine][7] و [Schoology][8] و [Drupal][9] و Canvas. بالإضافة إلى ذلك ، فإنه يوفر لوحة بيضاء مشتركة ، وإرسال رسائل عامة/خاصة ، وصوت عالي الدقة ، وزيادة اليدين الإلكترونية ، إلى جانب أدوات العرض الغنية. علاوة على ذلك ،**BigBluebutton**يتم دعم HTML5 ويعمل بشكل جيد على جميع متصفحات الويب الشهيرة.
+##  **ما هو BigBluebutton؟**  {#What-is-BigBlueButton}
+
+[BigBluebutton][6] هو برنامج تعاون خالي من المصدر*  ***مع مجموعة كبيرة من الميزات على مستوى المؤسسة. هذا البرنامج المفتوح المصدر قابل للتمديد للغاية ويقدم تكاملًا مع العديد من التطبيقات الشائعة مثل WordPress و [Redmine][7] و [Schoology][8] و [Drupal][9] و Canvas. بالإضافة إلى ذلك ، فإنه يوفر لوحة بيضاء مشتركة ، وإرسال رسائل عامة/خاصة ، وصوت عالي الدقة ، وزيادة اليدين الإلكترونية ، إلى جانب أدوات العرض الغنية. علاوة على ذلك ،**  BigBluebutton**يتم دعم HTML5 ويعمل بشكل جيد على جميع متصفحات الويب الشهيرة.
 علاوة على ذلك ، فإن برنامج مؤتمرات الويب**يحتوي على مجتمع مطور ضخم وحيوي. هناك إحصائيات جيدة جدًا على [Github repo][10] مع نجوم 7.8K وشوكات 5.8K. BigBluebutton مكتوب في JavaScript جنبا إلى جنب مع مدخلات من لغات أخرى مثل جافا وروبي. في الواقع ، يمكن للمطورين العثور على وثائق شاملة فيما يتعلق بالتنمية والنشر والاستخدام. لذلك ، يمكنك إعداد هذا البرنامج المستضيف ذاتيًا على خادم محلي أو سحابة بسهولة.
 
-## **مقدمة موجزة لـ WordPress** {#a-brief-intro-to-wordpress}
-[WordPress][2] هي واحدة من منصات التدوين المفتوحة**المفتوحة المصدر**في فئة برامج الموقع. هذا البرنامج المفتوح المصدر سهل الاستخدام حتى أن مطور الويب على مستوى المبتدئين يمكنه القيام ببناء الموقع وإطلاقه. بالإضافة إلى ذلك ، يكون WordPress قابلاً للتكوين بشكل كبير ويمكنك تخصيصه وفقًا لمتطلبات عملك. قبل كل شيء ، يحتوي على [Marketplace][11] حيث يمكنك العثور على عدد من الإضافات.
+##  **مقدمة موجزة لـ WordPress**  {#A-brief-intro-to-WordPress}
+
+[WordPress][2] هي واحدة من منصات التدوين المفتوحة  **المفتوحة المصدر**  في فئة برامج الموقع. هذا البرنامج المفتوح المصدر سهل الاستخدام حتى أن مطور الويب على مستوى المبتدئين يمكنه القيام ببناء الموقع وإطلاقه. بالإضافة إلى ذلك ، يكون WordPress قابلاً للتكوين بشكل كبير ويمكنك تخصيصه وفقًا لمتطلبات عملك. قبل كل شيء ، يحتوي على [Marketplace][11] حيث يمكنك العثور على عدد من الإضافات.
 يأتي برنامج التدوين****مع إمكانات الاستضافة الذاتية وهناك دعم كامل لللغات المتعددة المتاحة. علاوة على ذلك ، هناك إحصائيات جيدة جدًا على [github][12] Repo ويمكنك تنزيل الكود المصدري وإعداده بسهولة. علاوة على ذلك ، يمكنك تثبيت مكون إضافي لأي وظيفة في موقع الويب الخاص بك WordPress. في الواقع ، قد تجد مكونات إضافية للمواقع التي تنتمي إلى أي فئة. تتم كتابتها بشكل أساسي في PHP ويمكنك العثور على تعليمات كاملة تتعلق بالتطوير والنشر والاستخدام.
 
-## **كيفية تثبيت المكون الإضافي bigbluebutton في WordPress؟** {#forstall-bigbluebutton-plugin-in-wordpress}
-سيوضح هذا القسم كيفية**تثبيت برنامج مؤتمرات الويب على موقع WordPress**. بالإضافة إلى ذلك ، سوف نستكشف أيضًا مكون BigBluebutton أكثر من ذلك بقليل. قبل التحرك إلى أبعد من ذلك ، تأكد من تثبيت WordPress على جهازك وتشغيل موقع الويب الخاص بك.
+##  **كيفية تثبيت البرنامج المساعد BigBluebutton في WordPress؟**  {#How-to-install-BigBlueButton-plugin-in-WordPress}
+
+سيوضح هذا القسم كيفية  **تثبيت برنامج مؤتمرات الويب على موقع WordPress**  . بالإضافة إلى ذلك ، سوف نستكشف أيضًا مكون BigBluebutton أكثر من ذلك بقليل. قبل التحرك إلى أبعد من ذلك ، تأكد من تثبيت WordPress على جهازك وتشغيل موقع الويب الخاص بك.
 يرجى زيارة هذا [الرابط][2] في حالة عدم تثبيت WordPress ، يمكنك العثور على تعليمات التثبيت الكاملة.
 لنبدأ عملية التثبيت الخاصة بـ BigBluebutton [البرنامج المساعد][13] على WordPress.
 انتقل إلى لوحة معلومات WordPress وافتح خيار "الإضافات" واضغط على "إضافة جديد". اكتب BigBluebutton في شريط البحث ، وسوف تجد المكون الإضافي الذي يعرض المركز الأول في البحث كما هو موضح في الصورة أدناه:
@@ -45,16 +48,16 @@ categories: ['Blogging', 'Video Conferencing Software']
 
 
 ## تغليف
-هذا يقودنا إلى نهاية منشور المدونة هذا. نأمل أن تكون قد تعلمت كيفية تثبيت برنامج مؤتمرات الويب**على موقع WordPress. علاوة على ذلك ، مررنا أيضًا بعملية إنشاء غرفة الاجتماعات.**يوفر BigBluebutton البرنامج المساعد**الكثير عندما يتعلق الأمر بإجراء اجتماعات افتراضية وجهاً لوجه. نظرًا لأن برنامج مؤتمرات الويب هذا**مفتوح المصدر حتى تتمكن من تخصيصه لتلبية متطلبات عملك. علاوة على ذلك ، قد تجد بعض المقالات المثيرة للاهتمام حقًا في قسم "انظر أيضًا".
+هذا يقودنا إلى نهاية منشور المدونة هذا. نأمل أن تكون قد تعلمت كيفية تثبيت برنامج مؤتمرات الويب  **على موقع WordPress. علاوة على ذلك ، مررنا أيضًا بعملية إنشاء غرفة الاجتماعات.** يوفر BigBluebutton البرنامج المساعد **الكثير عندما يتعلق الأمر بإجراء اجتماعات افتراضية وجهاً لوجه. نظرًا لأن برنامج مؤتمرات الويب هذا**  مفتوح المصدر حتى تتمكن من تخصيصه لتلبية متطلبات عملك. علاوة على ذلك ، قد تجد بعض المقالات المثيرة للاهتمام حقًا في قسم "انظر أيضًا".
 أخيرًا ، [Containerize.com][14] يكتب باستمرار منشورات المدونة على منتجات ومواضيع أخرى مفتوحة المصدر. لذلك ، يرجى البقاء على اتصال مع [[[[برنامج مؤتمرات الفيديو "][1] و [منصات التدوين][15]][16] للحصول على تحديثات منتظمة. علاوة على ذلك ، يمكنك متابعتنا على حسابات وسائل التواصل الاجتماعي لدينا [Facebook][17] و [LinkedIn][18] و [Twitter][19].
 
 ## طرح سؤال
 يمكنك إخبارنا بأسئلتك أو استفساراتك في [المنتدى][20].
 
 ## الأسئلة الشائعة
-* * كيف يمكنني إضافة مكالمة فيديو إلى موقع WordPress الخاص بي؟**
+ **كيف يمكنني إضافة مكالمة فيديو إلى موقع WordPress الخاص بي؟** 
 يمكنك إضافة برنامج مؤتمرات الويب إلى موقعك [WordPress][2] باستخدام هذا BigBluebutton [البرنامج المساعد][13]. هذا البرنامج مفتوح المصدر ويقدم العديد من الميزات لإنشاء مكالمات فيديو وجهاً لوجه.
-* * كيف يمكنني إضافة bigbluebutton إلى WordPress؟**
+ **كيف يمكنني إضافة bigbluebutton إلى WordPress؟** 
 اتبع هذا [الرابط][5] لمعرفة عملية التثبيت وإعداد العملية على [WordPress][2].
 
 ## أنظر أيضا
@@ -62,27 +65,28 @@ categories: ['Blogging', 'Video Conferencing Software']
   * [أفضل 5 برامج مؤتمرات الفيديو مفتوحة المصدر لعام 2021][22]
   * [دليل خطوة بخطوة لإعداد لقاء Jitsi مفتوح المصدر][23]
 
-  
-[1]: https://products.containerize.com/video-conferencing/
-[2]: https://products.containerize.com/blogging/wordpress/
-[3]: #What-is-BigBlueButton
-[4]: #A-brief-intro-to-WordPress
-[5]: #How-to-install-BigBlueButton-plugin-in-WordPress
-[6]: https://products.containerize.com/video-conferencing/bigbluebutton/
-[7]: https://products.containerize.com/project-management/redmine/
-[8]: https://app.schoology.com/login
-[9]: https://products.containerize.com/content-management/drupal/
-[10]: https://github.com/bigbluebutton/bigbluebutton
-[11]: https://wordpress.org/plugins/
-[12]: https://github.com/WordPress/WordPress
-[13]: https://wordpress.org/plugins/video-conferencing-with-bbb/
-[14]: https://www.containerize.com/
-[15]: https://products.containerize.com/blogging/
-[16]: https://products.containerize.com/social-network-platforms/
-[17]: https://web.facebook.com/containerize
-[18]: https://www.linkedin.com/company/containerize/
-[19]: https://twitter.com/containerize_co
-[20]: https://forum.containerize.com/
-[21]: https://blog.containerize.com/blogging/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
-[22]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
-[23]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/
+
+
+ [1]: https://products.containerize.com/video-conferencing/
+ [2]: https://products.containerize.com/blogging/wordpress/
+ [3]: #What-is-BigBlueButton
+ [4]: #A-brief-intro-to-WordPress
+ [5]: #How-to-install-BigBlueButton-plugin-in-WordPress
+ [6]: https://products.containerize.com/video-conferencing/bigbluebutton/
+ [7]: https://products.containerize.com/project-management/redmine/
+ [8]: https://app.schoology.com/login
+ [9]: https://products.containerize.com/content-management/drupal/
+ [10]: https://github.com/bigbluebutton/bigbluebutton
+ [11]: https://wordpress.org/plugins/
+ [12]: https://github.com/WordPress/WordPress
+ [13]: https://wordpress.org/plugins/video-conferencing-with-bbb/
+ [14]: https://www.containerize.com/
+ [15]: https://products.containerize.com/blogging/
+ [16]: https://products.containerize.com/social-network-platforms/
+ [17]: https://web.facebook.com/containerize
+ [18]: https://www.linkedin.com/company/containerize/
+ [19]: https://twitter.com/containerize_co
+ [20]: https://forum.containerize.com/
+ [21]: https://blog.containerize.com/blogging/what-is-jitsi-meet-wordpress-plugin-and-how-to-install-it/
+ [22]: https://blog.containerize.com/video-conferencing-software/top-5-open-source-video-conferencing-software-of-2021/
+ [23]: https://blog.containerize.com/video-conferencing-software/how-to-set-up-open-source-jitsi-meet/

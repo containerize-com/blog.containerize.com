@@ -17,16 +17,18 @@ categories: ['Blogging', 'Business Intelligence Software']
 ## ภาพรวม
 คุณมีเว็บไซต์ธุรกิจหรือไม่? คุณต้องการติดตามวิเคราะห์ข้อมูลเชิงลึกทางธุรกิจที่สำคัญหรือไม่? คุณอยู่ในสถานที่ที่เหมาะสมซึ่งคุณจะไม่เพียง แต่รู้เกี่ยวกับซอฟต์แวร์ระบบธุรกิจอัจฉริยะโอเพ่นซอร์สมืออาชีพ แต่ยังจะเรียนรู้วิธีการติดตั้งปลั๊กอิน WordPress Analytics [น่าเชื่อถือ][1] นี่เป็นอีกโพสต์บล็อกในซีรี่ส์บน [ซอฟต์แวร์ระบบธุรกิจอัจฉริยะ][2] ในอดีตที่ผ่านมาเราได้เผยแพร่บทความในหัวข้อต่าง ๆ เช่น [วิธีการติดตั้ง matomo สำหรับ WordPress | WordPress Tutorial][3], [5 อันดับแรกของ Open Source Business Intelligence Tools of 2021][4] และอีกมากมาย บทความเหล่านี้ให้ภาพรวมโดยละเอียดเกี่ยวกับคุณสมบัติและการใช้งานของพวกเขา
 ในความเป็นจริงมีเว็บไซต์นับล้านที่ทำงานผ่านอินเทอร์เน็ตและผู้คนหลายล้านคนมาเยี่ยมพวกเขาในรูปแบบที่แตกต่างกัน ดังนั้นจึงเป็นเรื่องสำคัญมากสำหรับเจ้าของเว็บไซต์ที่จะต้องรู้เกี่ยวกับการเข้าชมเว็บไซต์โดยละเอียด วิธีเดียวที่จะได้รับข้อมูลเชิงลึกข้อมูลเหล่านี้คือผ่าน [Google Analytics][5] หรือเครื่องมืออื่น ๆ ที่คล้ายกัน อย่างไรก็ตามชุมชนโอเพ่นซอร์สได้พัฒนาเครื่องมือ BI บางอย่างที่ถือว่าเป็นทางเลือกของ Google Analytics และเป็นไปได้เป็นหนึ่งในนั้น ในโพสต์บล็อกนี้เราจะเรียนรู้วิธีการติดตั้งที่น่าเชื่อถือโดยครอบคลุมประเด็นต่อไปนี้
-  ***[เป็นไปได้อะไร?][6]** 
-  ***[วิธีการติดตั้งปลั๊กอิน WordPress Analytics Plausible?][7]** 
-  ***[Dashboard ปลั๊กอินการวิเคราะห์ที่น่าเชื่อถือ][8]** 
-  ***[บทสรุป][9]** 
+*  **[เป็นไปได้อะไร?][6]**  
+*  **[วิธีการติดตั้งปลั๊กอิน WordPress Analytics Plausible?][7]**  
+*  **[Dashboard ปลั๊กอินการวิเคราะห์ที่น่าเชื่อถือ][8]**  
+*  **[บทสรุป][9]**  
 
-## เป็นไปได้อะไร?   {#what-is-plausible}
+## น่าเชื่อถือคืออะไร? {#What-is-Plausible}
+
 ในส่วนนี้เราจะรู้เกี่ยวกับซอฟต์แวร์การวิเคราะห์ที่เป็นไปได้ Plausible เป็นซอฟต์แวร์ระบบธุรกิจอัจฉริยะที่มีน้ำหนักเบาฟรีและโอเพ่นซอร์สที่มาพร้อมกับความสามารถในการโฮสต์ตนเอง มันมีค่าที่สามารถกำหนดค่าได้สูงมุ่งเน้นและสอดคล้องกับกฎหมายความเป็นส่วนตัวระหว่างประเทศอย่างสมบูรณ์ นอกจากนี้ปลั๊กอิน WordPress Analytics นี้ยังมีคุกกี้น้อยกว่าและเสนอบทบัญญัติสำหรับเจ้าของเว็บไซต์เพื่อทำความเข้าใจกับผู้เยี่ยมชมเว็บไซต์ นอกจากนี้ยังไม่รองรับการรวบรวมข้อมูลส่วนบุคคลและการติดตามข้ามไซต์ เหนือสิ่งอื่นใดที่น่าเชื่อถือเสนอสคริปต์การติดตั้งเช่นเดียวกับ Google Analytics และสคริปต์การติดตั้งนี้เบากว่าสคริปต์ของ Google Analytics 45 เท่า ยิ่งไปกว่านั้นทางเลือกของ Google Analytics ยังมีคุณสมบัติที่หลากหลายซึ่งรวมถึงเว็บไซต์ที่ไม่ จำกัด การติดตามแคมเปญที่มุ่งเน้นความเป็นส่วนตัวและอื่น ๆ อีกมากมาย
 อย่างไรก็ตามเครื่องมือ BI นี้มีแดชบอร์ดที่ใช้งานง่ายที่ให้คุณติดตามแนวโน้มเหตุการณ์ที่กำหนดเองและหน้า 404 น่าเชื่อถือได้ง่ายต่อการตั้งค่าและเสนอภาพนักเทียบท่าด้วย มันถูกเขียนขึ้นในน้ำอมฤต JavaScript และมาพร้อมกับเอกสารที่ครอบคลุมเกี่ยวกับการพัฒนาและการปรับใช้ นักพัฒนาสามารถใช้ประโยชน์จากซอร์สโค้ดจาก [GitHub][10]
 
-## จะติดตั้งปลั๊กอิน WordPress Analytics ได้อย่างไร?   {#ติดตั้ง}
+## จะติดตั้งปลั๊กอิน WordPress Analytics ได้อย่างไร? {#Install}
+
 ในส่วนของการสอนการรวม WordPress ที่เป็นไปได้นี้เราจะผ่านขั้นตอนการติดตั้ง
 ประการแรกตรวจสอบให้แน่ใจว่าคุณมีเว็บไซต์ WordPress ของคุณและทำงานอยู่ ประการที่สองคุณสามารถเข้าถึงแดชบอร์ดผู้ดูแลระบบ WordPress ซึ่งเราจะติดตั้งปลั๊กอิน WordPress Analytics น่าเชื่อถือเป็นซอฟต์แวร์ระบบธุรกิจอัจฉริยะที่มีชื่อเสียงมากและผู้ใช้สามารถค้นหาได้ในปลั๊กอินพูลของ WordPress ได้อย่างง่ายดาย ในทางกลับกัน WordPress เป็นเจ้าของปลั๊กอินระดับองค์กรขนาดใหญ่ที่ตอบสนองความต้องการของทุกแผนกธุรกิจ
 ตอนนี้เปิดแดชบอร์ด WordPress ของคุณไปที่ปลั๊กอินแล้วกดปุ่ม“ เพิ่มใหม่” หลังจากนั้นไปที่แถบค้นหาพิมพ์“ เป็นไปได้” และคุณจะพบปลั๊กอินการวิเคราะห์ที่น่าเชื่อถือเป็นอันดับแรกในตำแหน่งแรกดังที่แสดงในภาพด้านล่าง
@@ -38,16 +40,18 @@ categories: ['Blogging', 'Business Intelligence Software']
 {{< figure align=center src="images/Screenshot-2022-01-16-at-21.50.53-1024x550.png" alt="ทางเลือกของ Google Analytics">}}
 
 
-## Plausible Analytics Plugin Dashboard   {#Dashboard}
+## แผงควบคุมปลั๊กอินการวิเคราะห์ที่เป็นไปได้  {#dashboard}
+
 นอกจากนี้คุณจะเห็นหน้าการกำหนดค่าที่เป็นไปได้หากคุณมีตัวเลือกการวิเคราะห์ที่น่าเชื่อถือ คุณสามารถดูการกำหนดค่าต่างๆที่คุณจะลงทะเบียนชื่อโดเมนของคุณด้วยความน่าเชื่อถือและน่าเชื่อถือจะให้รหัสแก่คุณ หลังจากนั้นคุณจะแทรกรหัสการติดตามในการกำหนดค่า DNS ของคุณเพื่อให้คุณสามารถติดตามหน้าเว็บและดึงพฤติกรรมและการโต้ตอบของผู้เข้าชม ดังนั้นซอฟต์แวร์ข่าวกรองธุรกิจโอเพนซอร์สนี้จะช่วยให้คุณสามารถดูสถิติเว็บไซต์จากแผงควบคุม WordPress นอกจากนี้คุณยังสามารถเปิดหรือปิดการวิเคราะห์การติดตามสำหรับผู้ดูแลระบบ นอกจากนี้คุณสามารถรายงานข้อบกพร่องในกรณีที่คุณพบและผ่านเอกสารที่สมบูรณ์ คุณสามารถค้นหาปุ่มเอกสารได้ที่ด้านบนของหน้าการกำหนดค่า
 
 {{< figure align=center src="images/Screenshot-2022-01-16-at-22.11.27-1024x554.png" alt="ซอฟต์แวร์ระบบธุรกิจอัจฉริยะ">}}
 
 นอกจากนี้ยังมีตัวเลือกสำหรับการกำหนดค่าไซต์หากคุณโฮสต์ตัวเองโอเพ่นซอร์สนี้ [Google Analytics][5] ทางเลือก ในทำนองเดียวกันคุณสามารถสำรวจเพิ่มเติมด้วยตัวเองและดูว่าคุณสมบัติอื่น ๆ ที่มีให้กับผู้ใช้ เมื่อคุณทำการติดตั้งสคริปต์เสร็จแล้วคุณสามารถเริ่มดูข้อมูลเชิงลึกข้อมูลทางธุรกิจที่ผ่านซอฟต์แวร์ข่าวกรองธุรกิจโอเพนซอร์ซนี้
 
-## บทสรุป   {#conclusion}
+## บทสรุป {#บทสรุป}
+
 สิ่งนี้นำเราไปสู่จุดสิ้นสุดของการสอนการรวม WordPress ที่เป็นไปได้นี้ หวังว่าโพสต์บล็อกนี้จะช่วยคุณในการเรียนรู้เกี่ยวกับคุณสมบัติที่เป็นไปได้เกี่ยวกับคุณสมบัติขั้นตอนการติดตั้งและการใช้งาน เราผ่านหัวข้อย่อยที่สำคัญเช่นสิ่งที่เป็นไปได้และขั้นตอนการติดตั้งของปลั๊กอิน WordPress Analytics นี้ ในยุคเทคโนโลยีที่เติบโตอย่างรวดเร็วนี้เครื่องมือ BI ได้กลายเป็นองค์ประกอบที่ต้องมีของธุรกิจที่ประสบความสำเร็จ องค์กรไม่สามารถหลีกเลี่ยงส่วนที่สำคัญนี้ได้เนื่องจากเครื่องมือดังกล่าวทำให้ธุรกิจของคุณได้เปรียบในการแข่งขันเสมอ นอกจากนี้คุณสามารถค้นหาลิงก์ที่เกี่ยวข้องในส่วน“ สำรวจ” ด้านล่างซึ่งคุณจะพบซอฟต์แวร์ข่าวกรองธุรกิจโอเพนซอร์ส โพสต์บล็อกนี้จะช่วยคุณได้อย่างแน่นอนหากคุณต้องการติดตั้งซอฟต์แวร์ระบบอัจฉริยะธุรกิจระบบธุรกิจอัจฉริยะฟรีและโอเพ่นซอร์สสำหรับเว็บไซต์ธุรกิจของคุณ
-ในที่สุด [containerize.com][11] กำลังเขียนโพสต์บล็อกอย่างต่อเนื่องในผลิตภัณฑ์และหัวข้อโอเพ่นซอร์สเพิ่มเติม ดังนั้นโปรดติดต่อกับ [][12][ซอฟต์แวร์ระบบธุรกิจอัจฉริยะ][13][][12] หมวดหมู่สำหรับการอัปเดตปกติ ยิ่งกว่านั้นคุณสามารถติดตามเราในบัญชีโซเชียลมีเดียของเรา [Facebook][14], [LinkedIn][15] และ [Twitter][16]
+ในที่สุด [containerize.com][11] กำลังเขียนโพสต์บล็อกอย่างต่อเนื่องในผลิตภัณฑ์และหัวข้อโอเพนซอร์ซเพิ่มเติม ดังนั้นโปรดติดต่อกับ [][12][ซอฟต์แวร์ระบบธุรกิจอัจฉริยะ][13][][12] หมวดหมู่สำหรับการอัปเดตปกติ ยิ่งกว่านั้นคุณสามารถติดตามเราในบัญชีโซเชียลมีเดียของเรา [Facebook][14], [LinkedIn][15] และ [Twitter][16]
 
 ## สำรวจ
 คุณอาจพบลิงค์ต่อไปนี้ที่เกี่ยวข้อง
@@ -62,27 +66,28 @@ categories: ['Blogging', 'Business Intelligence Software']
   * [เพิ่มโอกาสในการขายของคุณด้วยการรวม CivICRM WordPress ฟรี][22]
   * [สิ่งที่ต้องตรวจสอบก่อนที่จะเลือกซอฟต์แวร์โอเพ่นซอร์สในปี 2021][23]
 
-  
-[1]: https://products.containerize.com/business-intelligence/plausible
-[2]: https://blog.containerize.com/category/business-intelligence-software/
-[3]: https://blog.containerize.com/blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/
-[4]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
-[5]: https://analytics.google.com/analytics/web/
-[6]: #What-is-Plausible
-[7]: #Install
-[8]: #dashboard
-[9]: #Conclusion
-[10]: https://github.com/plausible/analytics
-[11]: https://www.containerize.com/
-[12]: https://products.containerize.com/social-network-platforms/
-[13]: https://products.containerize.com/business-intelligence/
-[14]: https://web.facebook.com/containerize
-[15]: https://www.linkedin.com/company/containerize/
-[16]: https://twitter.com/containerize_co
-[17]: https://products.containerize.com/business-intelligence/matomo
-[18]: https://products.containerize.com/blogging/wordpress/
-[19]: https://products.containerize.com/blogging/jekyll/
-[20]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
-[21]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
-[22]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
-[23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/
+
+
+ [1]: https://products.containerize.com/business-intelligence/plausible
+ [2]: https://blog.containerize.com/category/business-intelligence-software/
+ [3]: https://blog.containerize.com/blogging/how-to-install-matomo-for-wordpress-wordpress-tutorial/
+ [4]: https://blog.containerize.com/business-intelligence-software/top-5-open-source-business-intelligence-solutions-of-2021/
+ [5]: https://analytics.google.com/analytics/web/
+ [6]: #What-is-Plausible
+ [7]: #Install
+ [8]: #dashboard
+ [9]: #Conclusion
+ [10]: https://github.com/plausible/analytics
+ [11]: https://www.containerize.com/
+ [12]: https://products.containerize.com/social-network-platforms/
+ [13]: https://products.containerize.com/business-intelligence/
+ [14]: https://web.facebook.com/containerize
+ [15]: https://www.linkedin.com/company/containerize/
+ [16]: https://twitter.com/containerize_co
+ [17]: https://products.containerize.com/business-intelligence/matomo
+ [18]: https://products.containerize.com/blogging/wordpress/
+ [19]: https://products.containerize.com/blogging/jekyll/
+ [20]: https://blog.containerize.com/2021/03/12/how-free-business-analytics-tools-assist-your-business/
+ [21]: https://blog.containerize.com/blogging/how-to-a-install-plugin-in-wordpress-vanilla-forum/
+ [22]: https://blog.containerize.com/blogging/civicrm-wordpress-integration-wordpress-tutorial/
+ [23]: https://blog.containerize.com/cmdb-software/things-to-review-before-opting-open-source-software-in-2021/

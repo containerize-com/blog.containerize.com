@@ -15,18 +15,20 @@ categories: ['Blogging', 'Marketing Automation']
 
 
 ## Genel Bakış:
-**CiviCrm WordPress Entegrasyonu**  hakkında bu öğretici makaleye hoş geldiniz. Mesele şu ki, bilgi ve veri çağında yaşıyoruz. Bazı şeyler işletmenize veri toplama, tutarlı iletişim, pazarlama kampanyaları ve diğer iş akışları gibi farklı özellikler sunar. Bu modern çağda, veri miktarı her geçen gün artmaktadır. Kuruluşlar bu verileri çeşitli veri kaynaklarından alır. Sonuç olarak, bu kadar büyük miktarda veriyi yönetmek ve derlemek zorlaşır. Bununla birlikte, veri bütünlüğünün ve özgünlüğünün etkili bir pazarlama kampanyasının temeli olduğundan emin olmak son derece önemlidir. Buna ek olarak, birçok yerde veri oluşumu güçlük ve yanlış yönetim doğurur ve operasyonel ekipler aynı sayfaya gelip birleşik bir yönde çalışmayı zor bulur.
+**CiviCrm WordPress Entegrasyonu** hakkında bu öğretici makaleye hoş geldiniz. Mesele şu ki, bilgi ve veri çağında yaşıyoruz. Bazı şeyler işletmenize veri toplama, tutarlı iletişim, pazarlama kampanyaları ve diğer iş akışları gibi farklı özellikler sunar. Bu modern çağda, veri miktarı her geçen gün artmaktadır. Kuruluşlar bu verileri çeşitli veri kaynaklarından alır. Sonuç olarak, bu kadar büyük miktarda veriyi yönetmek ve derlemek zorlaşır. Bununla birlikte, veri bütünlüğünün ve özgünlüğünün etkili bir pazarlama kampanyasının temeli olduğundan emin olmak son derece önemlidir. Buna ek olarak, birçok yerde veri oluşumu güçlük ve yanlış yönetim doğurur ve operasyonel ekipler aynı sayfaya gelip birleşik bir yönde çalışmayı zor bulur.
 Öte yandan, sağlam içerik yönetimi ve SEO dostu yankı sistemleri nedeniyle kullanıcıların ve geliştirici topluluklarının güçlü desteğini kazanan birkaç içerik yönetim sistemi vardır. Bu açık kaynaklı içerik yönetim sistemleri, içerikle ilgili hedeflere ulaşmak için kolay ve hızlı gelişmeler ve dağıtımlar sunar. Maliyet verimliliği, genişletilebilir işlevsellik ve kendi kendine barındırma yetenekleri sunar. Bu **WordPress Eklenti Eğitimi** , [Civicrm][2] 'nin [WordPress][3] ile entegrasyonu ile ilgilidir ve aşağıdaki mermi noktalarını kapsayacağız
   * [Bu kombinasyonun iş için faydaları?][4]
   * [Bir dizin yapısı nasıl kurulur?][5]
   * [Civicrm'i WordPress'te nasıl etkinleştirir ve kurabilirim?][6]
 
-## Bu kombinasyonun işletmeleri için faydaları?   {#faydalar}
-Bu **WordPress Tutorial  **bölümünde, **  CiviCrm WordPress**  entegrasyonunun temel avantajlarını inceleyeceğiz. Rekabet piyasada arttıkça [WordPress][3] 'in popülaritesi artmaktadır. WordPress topluluğu, eklentinin kovasını geliştirmek için yeni eklentiler geliştiriyor. Bu nedenle, eklentinin WordPress havuzuna CIVICRM eklenmesi, iş iş akışlarını otomatikleştirmek ve merkezileştirmek için gelişen kuruluşlardan büyük ilgi görmüştür.
+## Bu kombinasyonun işletmeleri için faydaları? {#benefits}
+
+Bu **WordPress Tutorial**bölümünde,**CiviCrm WordPress** entegrasyonunun temel avantajlarını inceleyeceğiz. Rekabet piyasada arttıkça [WordPress][3] 'in popülaritesi artmaktadır. WordPress topluluğu, eklentinin kovasını geliştirmek için yeni eklentiler geliştiriyor. Bu nedenle, eklentinin WordPress havuzuna CIVICRM eklenmesi, iş iş akışlarını otomatikleştirmek ve merkezileştirmek için gelişen kuruluşlardan büyük ilgi görmüştür.
 Bu entegrasyon belirli yönlerden dolayı önemlidir. İlk olarak, [CIVICRM][2], kullanıcının farklı yerlerde ikamet eden iletişim kaynaklarını yönetme güçlüklerini ortadan kaldırır. İkincisi, verilerinizin düzenli yedeklerini alarak tam güvenlik sağlar. Üçüncüsü, verilerinize her yerden erişebileceğiniz anlamına gelen web tabanlı ve açık kaynaktır. Bu açık kaynak pazarlama otomasyon aracı sivil sektör için geliştirilmiştir. Tek durak bir çözüm sağlayarak çeşitli sayfalara ve veritabanlarına veri aktarma ihtiyacını ortadan kaldırmıştır. Bu açık kaynaklı CRM yazılımı, tüm verileri bültenler, etkinlik yönetimi siteleri, katkı yönetimi, vaka yönetimi ve vb. Sınırsız özel veri setleri, görev yönetimi, kullanıcı yönetimi, açık taahhütler ve üyelikler ve daha fazlası.
 
-## Bir dizin yapısı nasıl kurulur?   {#Directory}
-Bu **WordPress Eklenti Eğitimi**  başlamadan önce, WordPress'i kurduğunuzu ve eklentileri yüklemek ve etkinleştirmek için temel bir anlayışa sahip olduğunuzu varsayıyoruz. Ayrıca, WordPress ve özellikleri hakkında bilgi [burada][7] bulabilirsiniz.
+## Bir dizin yapısı nasıl kurulur? {#directory}
+
+Bu **WordPress Eklenti Eğitimi** başlamadan önce, WordPress'i kurduğunuzu ve eklentileri yüklemek ve etkinleştirmek için temel bir anlayışa sahip olduğunuzu varsayıyoruz. Ayrıca, WordPress ve özellikleri hakkında bilgi [burada][7] bulabilirsiniz.
 İlk olarak, Civicrm'i bu [site][8] 'den indirin. “WordPress için Civicrmx.x.x'i indir” gibi bir seçenek seçin.
 İndirdikten sonra zip dosyasını bu konuma /wp-content /eklentilerine yerleştirin ve çıkarın. Bu dizinin "yazma" erişimine sahip olduğundan emin olun.
 Bu komutu "yazma" erişim izni vermek için kullanabilirsiniz. `Sudo Chmod 777 Server_Path/WP-Content/Eklentileri/Civicrm`
@@ -42,16 +44,17 @@ Bu komutu "yazma" erişim izni vermek için kullanabilirsiniz. `Sudo Chmod 777 S
 {{_LINE_35_}}
 CivicRM WordPress entegrasyonunun bu bölümü tamamlandı. Bir sonraki bölüme geçelim.
 
-## CivicRM'yi WordPress'e nasıl etkinleştirir ve kurabilirim?   {#düzenlemek}
-WordPress öğreticisinin bu bölümü **Web Tabanlı Pazarlama Aracı  **CIVICRM'nin kurulum ve aktivasyon adımlarını gösterir. Dizin yapısını ayarladıktan sonra **  eklentilerine gidin **->  **Yüklü eklentiler ** **  Civicrm'i listede göreceksiniz.
+## WordPress'te CivicRM nasıl etkinleştirilir ve yüklenir? {#install}
+
+WordPress öğreticisinin bu bölümü **Web Tabanlı Pazarlama Aracı**CIVICRM'nin kurulum ve aktivasyon adımlarını gösterir. Dizin yapısını ayarladıktan sonra **eklentilerine gidin** ->**Yüklü eklentiler****Civicrm'i listede göreceksiniz.
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.18.07-1024x544.png" alt="Civicrm WordPress">}}
 
-“**Etkinleştir** ”.
+“ **Etkinleştir** ”.
 
 {{< figure align=center src="images/civi-1024x581.jpeg" alt="Pazarlama Otomasyon Kılavuzu">}}
 
-CiviCRM'yi etkinleştirdikten sonra, WP-Admin sayfasının sağ üst kısmında CivicRM seçeneğini bulacaksınız. Sadece bu seçeneğe basın ve **kurulum**  ekranına ineceksiniz.
+CiviCRM'yi etkinleştirdikten sonra, WP-Admin sayfasının sağ üst kısmında CivicRM seçeneğini bulacaksınız. Sadece bu seçeneğe basın ve **kurulum** ekranına ineceksiniz.
 Bir sonraki sayfa, veritabanı yapılandırmaları ile birlikte gereksinim ayrıntılarıyla gösterilecektir.
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-02.56.14-1024x632.png" alt="Pazarlama Otomasyon Kılavuzu">}}
@@ -60,13 +63,13 @@ Bir sonraki sayfa, veritabanı yapılandırmaları ile birlikte gereksinim ayrı
 
 {{< figure align=center src="images/Screenshot-2020-10-10-at-03.06.05-1024x630.png" alt="Civicrm WordPress Entegrasyonu">}}
 
-Son olarak, **CIVICRM WordPress Entegrasyonu**  Menü sekmesi yönetici kontrol panelinin üstünde görünecektir.
+Son olarak, **CIVICRM WordPress Entegrasyonu** Menü sekmesi yönetici kontrol panelinin üstünde görünecektir.
 
 {{< figure align=center src="images/Screenshot-2020-10-09-at-23.22.03-1024x586.png" alt="WordPress Eklentisi Geliştirme Eğitimi">}}
 
 
 ## Çözüm
-**CiviCRM WordPress Entegrasyonu **, dağınık kullanıcı bilgilerinin büyük depolanması söz konusu olduğunda gerçekten yararlı bir eklentidir. Sezgisel bir gösterge paneli sunarak karmaşık iş akışlarını basitleştirir. Bu iki açık kaynaklı yazılımın ikilisi, kullanıcıların kolayca gezinebileceği diğer yardımcı programlarla birlikte kullanıcı dostu bir arayüz sağlar. Neyse ki, açık kaynak topluluğu [Mautic][9], [Suitecrm][10], [ESPOCRM][11] ve daha fazlası gibi birçok pazarlama otomasyon aracı geliştirdi. Tüm bu çözümler ücretsizdir ve bulutta veya localhost'ta dağıtımı kolaydır. Her şeyden önce, bu çözümler geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir. Ancak, pazarlama otomasyon yazılımını içerik yönetimi yazılımınızla entegre etmek istiyorsanız, bu  **WordPress eklenti öğreticisi**   çok yararlı olacaktır.
+**CiviCRM WordPress Entegrasyonu**, dağınık kullanıcı bilgilerinin büyük depolanması söz konusu olduğunda gerçekten yararlı bir eklentidir. Sezgisel bir gösterge paneli sunarak karmaşık iş akışlarını basitleştirir. Bu iki açık kaynaklı yazılımın ikilisi, kullanıcıların kolayca gezinebileceği diğer yardımcı programlarla birlikte kullanıcı dostu bir arayüz sağlar. Neyse ki, açık kaynak topluluğu [Mautic][9], [Suitecrm][10], [ESPOCRM][11] ve daha fazlası gibi birçok pazarlama otomasyon aracı geliştirdi. Tüm bu çözümler ücretsizdir ve bulutta veya localhost'ta dağıtımı kolaydır. Her şeyden önce, bu çözümler geliştirme ve dağıtım ile ilgili kapsamlı belgelerle birlikte gelir. Ancak, pazarlama otomasyon yazılımını içerik yönetimi yazılımınızla entegre etmek istiyorsanız, bu** WordPress eklenti öğreticisi**çok yararlı olacaktır.
 Son olarak, [Containerize.com][12] diğer bazı açık kaynak yazılımlarının entegrasyonu hakkında daha fazla öğretici yazma sürecindedir. Düzenli güncellemeler için [pazarlama otomasyonu][1] ve [bloglama][13] kategorileriyle iletişim halinde olun.
 
 ## Keşfetmek
@@ -78,7 +81,7 @@ Aşağıdaki bağlantıları alakalı bulabilirsiniz:
   * [WordPress'ten Hayalet'e Göçmek İçin Yeni Başlayanlar Kılavuzu][18]
   * [Mautic'te çoklu kiracılık nasıl uygulanır][19]
   * [Mautic nasıl kurulur - Facebook Entegrasyonu][20]
-  * [Kampanya Oluşturucu Kullanarak Mahsul Kampanyalar Kurulum][21]
+  * [Kampanya Oluşturucu Kullanarak Mahkem Kampanyaları Kurulum][21]
   * [Kurşun beslemesini otomatikleştirmek için drupal mautik entegrasyon][22]
   * [Rocket.chat kullanarak WordPress Anlık Mesajlaşma][23]
   * [Söylem Forumu WordPress ile nasıl entegre edilir][24]
@@ -87,7 +90,8 @@ Aşağıdaki bağlantıları alakalı bulabilirsiniz:
   * [2020'de Top 5 Açık Kaynak Bloglama Platformu][27]
   * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][28]
 
-  
+
+
 [1]: https://products.containerize.com/marketing-automation
 [2]: https://products.containerize.com/marketing-automation/civicrm
 [3]: https://products.containerize.com/blogging/wordpress

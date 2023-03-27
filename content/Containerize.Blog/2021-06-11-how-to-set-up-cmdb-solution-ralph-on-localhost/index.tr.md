@@ -14,28 +14,31 @@ categories: ['CMDB Software']
 {{< figure align=center src="images/ralph.png" alt="CMDB çözümü">}}
 
 
-## **Genel Bakış** 
+##  **Genel Bakış**  
 Mevcut zaman noktasında, kuruluşlar büyük BT altyapısı kullanarak teknolojinin hızını karşılamak için gelişmektedir. Daha sonra, bu tür büyük ortamları yönetmek zor bir işten daha az değildir. Bu tür kritik görevleri yerine getirmek için insan gücü ve teknoloji gücü gerektirir. Bazen, yazıcılar, masaüstü bilgisayarlar, tarayıcılar, telefonlar ve diğer BT aksesuarlarını içeren karmaşık sistem ağlarını işlemek için süreçler ve prosedürler formüle etmek bir güçlük haline gelir. Benzer şekilde, bu düğümlerin yapılandırmaları da önemlidir, çünkü ağdaki herhangi bir makinenin kesinti süresi yüksektir. Bu nedenle, bu konfigürasyonlar üzerinde tutarlı bir kontrol olmalıdır.
 Ancak, varlıkların izini ve kaydını tutmak için birçok açık kaynak ve ücretsiz yazılım vardır. Bu yazılım yapılandırma yönetimi veritabanı yazılımı (CMDB) olarak bilinir. Son zamanlarda, [Containerize.com][1] daha iyi varlıklar ve yapılandırma yönetimi için birçok özellik sağlayan bir CMDB çözümü [Ralph][2] yayınladı. Bu blog yazısında, aşağıdaki noktaları ele alarak Ralph'i keşfedeceğiz.
-  ***[CMDB Yazılım Varlık Yönetimi Ralph'ın Kısa Giriş][3]** 
-  ***[Ralph'ın özellikleri][4]** 
-  ***[Ralph Localhost'ta nasıl kurulur?][5]** 
-  ***[Sonuç][6]** 
+*  **[CMDB Yazılım Varlık Yönetimi Ralph'ın Kısa Giriş][3]**  
+*  **[Ralph'ın özellikleri][4]**  
+*  **[Ralph Localhost'ta nasıl kurulur?][5]**  
+*  **[Sonuç][6]**  
 
-## CMDB Yazılım Varlık Yönetimi Ralph   {#Intro}
+## CMDB Yazılım Varlık Yönetimi Ralph'ın Kısa Giriş {#intro}
+
 Ralph, ücretsiz bir açık kaynak BT varlık yönetimi çözümüdür. Platformlar arasıdır ve kendi kendine barınma yetenekleriyle birlikte gelir. Gerçek zamanlı varlık izlemenin tam bir ekosistemi vardır. Bu nedenle, kullanıcılar raporlama için analiz yapabilir. Kullanıcıların yaşam döngüsü hakkındaki varlıkların ayrıntılarını kaydetmelerini sağlar. Ayrıca, bu açık kaynaklı dijital varlık yönetimi yazılımı, veri merkezi varlıkları hakkında bilgi depolamak için alan sağlar. Öte yandan, bu CMDB çözümü yazılım, lisans, sertifikalar ve diğer sözleşmeleri yönetme için de destek sağlar. Ralph sadece varlık yönetimini desteklemekle kalmaz, aynı zamanda bu varlıklar üzerinde işlem yapmak için hükümler de sağlar. Ancak, eylemler bir ana bilgisayar dağıtımı, faturalar oluşturma, alan izleme veya envanter yönetimi ile ilgilidir.
 Bu BT varlık yönetimi çözümü, dinlendirici bir arayüz ile birlikte gelir. Geliştiriciler, bu açık kaynaklı ücretsiz araç tarafından maruz kalan API uç noktalarını kullanarak birçok üçüncü taraf uygulamasını entegre edebilir. Ayrıca Ralph, HTML, CSS ve JavaScript girişiyle birlikte Python'da yazılmıştır. Bu nedenle, geliştirme ve dağıtım konusunda kapsamlı belgeler mevcuttur. Bu stok yönetimi çözümünün kaynak kodu [GitHub][7] 'de mevcuttur.
 
-## Ralph'ın özellikleri   {#features}
-Ralph birçok özellik sunar. Ancak, aşağıdaki önemli özelliklerden bazılarından bahsedeceğiz.
-**Genişletilebilir** : Bu açık kaynaklı dijital varlık yönetimi yazılımı oldukça genişletilebilir. Geliştiriciler, ihtiyaçlarına göre tesislerde veya bulutta dağıtabilirler.
-**Veri merkezleri için destek:**  Ralph ayrıca veri ambarları, veri merkezi odaları, sunucular ve raflar için destek sunar. Kullanıcılar tüm bileşenleri, ağlarını ve yapılandırmalarını takip edebilir.
-**REST API** : Bu ücretsiz CMDB yazılımı oldukça özelleştirilebilir. Aslında, üçüncü taraf entegrasyonlar için bir dinlenme API'sı sağlar. Geliştiriciler bunu gereksinimlerine göre genişletebilir.
-**Sezgisel Kullanıcı Arayüzü:**  Bu CMDB çözümünde kullanıcıların kolayca gezinebileceği mantıksal bir kullanıcı arayüzü mevcuttur. Ayrıca, yönetici gösterge paneli, verilerin gerçek zamanlı olarak geldiğini gösteren çeşitli widget'lar sağlar.
-**Komut satırı arabirimi** : Ralph, ana bilgisayarların dağıtımına ilişkin MAC adreslerini keşfetmek için bir tesis sağlayan bir komut satırı arabirimi bulur.
-**Fiziksel olmayan varlıklar için destek** : Bu ekipman yönetimi çözümü sadece fiziksel varlıklara destek sağlamakla kalmaz, aynı zamanda alanlar, yazılım ve lisanslar gibi fiziksel olmayan kaynakları da yönetir.
+## Ralph'ın özellikleri {#features}
 
-## Ralph Localhost'ta nasıl kurulur?   {#kurmak}
+Ralph birçok özellik sunar. Ancak, aşağıdaki önemli özelliklerden bazılarından bahsedeceğiz.
+ **Genişletilebilir** : Bu açık kaynaklı dijital varlık yönetimi yazılımı oldukça genişletilebilir. Geliştiriciler, ihtiyaçlarına göre tesislerde veya bulutta dağıtabilirler.
+ **Veri merkezleri için destek:**  Ralph ayrıca veri ambarları, veri merkezi odaları, sunucular ve raflar için destek sunar. Kullanıcılar tüm bileşenleri, ağlarını ve yapılandırmalarını takip edebilir.
+ **REST API** : Bu ücretsiz CMDB yazılımı oldukça özelleştirilebilir. Aslında, üçüncü taraf entegrasyonlar için bir dinlenme API'sı sağlar. Geliştiriciler bunu gereksinimlerine göre genişletebilir.
+ **Sezgisel Kullanıcı Arayüzü:**  Bu CMDB çözümünde kullanıcıların kolayca gezinebileceği mantıksal bir kullanıcı arayüzü mevcuttur. Ayrıca, yönetici gösterge paneli, verilerin gerçek zamanlı olarak geldiğini gösteren çeşitli widget'lar sağlar.
+ **Komut satırı arabirimi** : Ralph, ana bilgisayarların dağıtımına ilişkin MAC adreslerini keşfetmek için bir tesis sağlayan bir komut satırı arabirimi bulur.
+ **Fiziksel olmayan varlıklar için destek** : Bu ekipman yönetimi çözümü sadece fiziksel varlıklara destek sağlamakla kalmaz, aynı zamanda alanlar, yazılım ve lisanslar gibi fiziksel olmayan kaynakları da yönetir.
+
+## Localhost'ta Ralph nasıl kurulur? {#setup}
+
 Bu bölümde, yerel makinedeki kaynak yönetimi yazılımı Ralph kurulum sürecinden geçeceğiz. Kurulmak ve kullanmak oldukça kolaydır.
 Bir sonraki bölüme geçmeden önce, aşağıdaki ön koşulları yüklediğinizden emin olun.
   * [Docker-compose][8]
@@ -130,22 +133,24 @@ Bu komutu çalıştırdıktan sonra, Docker kapsayıcıları aşağıdaki resimd
 
 {{< figure align=center src="images/Screenshot-2021-06-11-at-15.25.20-1024x509.png" alt="CMDB çözümü">}}
 
-Son olarak, tarayıcıyı açın ve uygulamaya http://127.0.0.1 adresinden erişin.
+Son olarak, tarayıcıyı açın ve uygulamaya bu adresten erişin http://127.0.0.1.
 Giriş sayfasını aşağıdaki resimde gösterildiği gibi gösterecektir:
 
 {{< figure align=center src="images/Screenshot-2021-06-11-at-15.20.58-1024x577.png" alt="CMDB çözümü">}}
 
 
-## Sonuç   {#Conclusion}
-Bu CMDB öğretici blog yayınından geçtikten sonra, varlık yönetiminin iyi bir CMDB çözümü olmadan imkansız olduğu açıktır. Kaynak yönetimi yazılımı, varlıkların, yapılandırmaların ve ilişkilerinin yönetilmesinde ve izlenmesinde özel rollere sahiptir. Dijital veya fiziksel varlıklarda zar zor yapılmayan değişiklikleri izlemek için hükümler vardır. Bu ücretsiz araçların ayarlanması, kullanılması ve ayrıntılı dokümantasyon ve rehberlik ile birlikte gelmesi kolaydır. Son olarak, [**Containerize.com **][1] diğer açık kaynak ürünlerine makaleler yazmayı amaçlamaktadır. Bu nedenle, en son güncellemeler için lütfen bu [][10]  **[CMDB yazılımı][11]**   kategorisiyle iletişim halinde olun.
+## Çözüm {#Çözüm}
+
+Bu CMDB öğretici blog yayınından geçtikten sonra, varlık yönetiminin iyi bir CMDB çözümü olmadan imkansız olduğu açıktır. Kaynak yönetimi yazılımı, varlıkların, yapılandırmaların ve ilişkilerinin yönetilmesinde ve izlenmesinde özel rollere sahiptir. Dijital veya fiziksel varlıklarda zar zor yapılmayan değişiklikleri izlemek için hükümler vardır. Bu ücretsiz araçların ayarlanması, kullanılması ve ayrıntılı dokümantasyon ve rehberlik ile birlikte gelmesi kolaydır. Son olarak, [  **Containerize.com** ][1] diğer açık kaynak ürünlerine makaleler yazmayı amaçlamaktadır. Bu nedenle, en son güncellemeler için lütfen bu [][10] **[CMDB yazılımı][11]**  kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
-  ***[CMDB yazılımı][11]** 
-  ***[Ralph][2]** 
-  *[**Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin** ][12]
-  ***[2021'de bakmak için yazılım geliştirme eğilimleri][13]** 
+*  **[CMDB yazılımı][11]**  
+*  **[Ralph][2]**  
+* [  **Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin**  ][12]
+*  **[2021'de bakmak için yazılım geliştirme eğilimleri][13]**  
 
-  
+
+
 [1]: https://www.containerize.com/
 [2]: https://products.containerize.com/cmdb-software/ralph/
 [3]: #intro

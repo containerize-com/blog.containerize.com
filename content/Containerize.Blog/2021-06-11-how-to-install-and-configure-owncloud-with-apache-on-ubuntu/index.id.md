@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-## **Ringkasan**
+## **Ringkasan** 
 OwnCloud adalah aplikasi web perusahaan open source yang kuat dan populer yang ditulis dalam PHP yang digunakan untuk sinkronisasi data dan berbagi file. Ini juga memungkinkan Anda untuk dengan mudah mengelola file data, kontak, kalender, untuk melakukan daftar dan banyak lagi. Ini adalah alternatif yang bagus untuk platform cloud paling populer seperti Google Drive, Dropbox, iCloud, dan layanan penyimpanan cloud lainnya di luar sana. Tetapi tidak seperti layanan penyimpanan cloud lainnya, OwnCloud Self Hosted gratis untuk membuat cloud host sendiri.
 OwnDloud adalah perangkat lunak cloud pribadi open source yang menyediakan akses data menggunakan antarmuka web untuk membuat cloud pribadi. Ini memungkinkan Anda untuk membuat server berbagi file sendiri di mana Anda dapat dengan mudah melihat dan menyinkronkan acara kalender, arsip, gambar, rekaman, tugas, alamat buku dengan bookmark, mirip dengan Dropbox dan Google Drive. Ini juga menyediakan opsi untuk menyinkronkan dan berbagi data di seluruh perangkat semua di bawah kendali Anda. Instal dan konfigurasikan dukungan ownCloud Anda disinkronkan untuk klien desktop serta perangkat aplikasi seluler. Selain itu, Anda dapat dengan mudah mengimplementasikan pembatasan akses pengguna dan grup pada file per pengguna menggunakan owncloud di ubuntu. Sumber Open Source Own Source adalah aplikasi lintas platform dan dapat diinstal pada semua sistem operasi yang populer.
 Tutorial ini akan membantu Anda untuk mengatur sendiri dan mengkonfigurasi sendiri pada sistem Ubuntu LTS.
@@ -25,16 +25,16 @@ Tutorial ini akan membantu Anda untuk mengatur sendiri dan mengkonfigurasi sendi
   * Apa alternatif terbaik untuk OwnCloud?
   * Kesimpulan
 
-## Langkah 1: Instal Lamp Server
+## Langkah 1: Instal Server Lampu
 Untuk mengatur server cloud sendiri dan cara membuat cloud pribadi, pertama -tama kita harus mengatur server lampu yang berjalan. Jika Anda sudah memasang dan menjalankan tumpukan lampu, lewati langkah ini, gunakan perintah pengikut untuk mengatur lampu pada sistem ubuntu Anda.
 
 ### Instal PHP
 Anda dapat menginstal PHP 5.6 atau versi yang lebih tinggi pada sistem Ubuntu atau Debian Anda dengan menjalankan perintah:
-sudo apt-get menginstal properti python-software
+sudo apt-get install python-software-properties
 Sudo Add-apt-Repository PPA: ondrej/php
 pembaruan sudo apt-get
 sudo apt -get upgrade -y
-sudo apt-get install -y php pHp-gd php-curl pHp-zip pHp-dom php-xml PHP-simplexml pHP-mbstring
+sudo apt-get install -y php pHp-gd php-curl php-zip pHp-dom php-xml PHP-simplexml PHP-MBSTRING
 {{_LINE_31_}}
 
 ### Instal apache2
@@ -60,7 +60,7 @@ sudo chmod -r 755 owncloud
 {{_LINE_50_}}
 Sekarang, hapus file arsip dan restart server Apache.
 sudo rm -f /tmp/owncloud-10.4.0.tar.bz2
-sudo systemctl restart apache2
+Sudo Systemctl Restart Apache2
 
 ## Langkah 3: Buat basis data dan pengguna sendiri
 Setelah mengekstraksi kode, sekarang mari kita buat database MySQL dan akun pengguna untuk mengkonfigurasi server penyimpanan cloud pribadi ownCloud. Gunakan set perintah berikut untuk masuk ke MySQL Server untuk membuat basis data dan pengguna sendiri.
@@ -98,14 +98,16 @@ Setelah menyelesaikan pengaturan, Anda akan mendapatkan dasbor admin. Di mana An
 Ya! Kami selesai dengan panduan instalasi ownCloud untuk membangun penyimpanan cloud pribadi. Anda sekarang tahu cara menginstal sendiri OwnCloud di Ubuntu untuk membangun cloud pribadi langkah demi langkah mirip dengan Dropbox atau Google Drive.
 
 ## **Apa alternatif terbaik untuk owncloud?** {#4a1a}
-Berikut ini adalah alternatif sendiri yang di -host sendiri dan perangkat lunak hosting file pesaing.
-  ***Seafile**  adalah sistem perangkat lunak hosting file lintas platform open source
-  ***NextCloud**  platform penyimpanan cloud bebas dan open source
-  ***Sinkronisasi Resilio**  adalah Aplikasi Sinkronisasi Peer Sumber Terbuka
-  ***Sel Pydio**  adalah perangkat lunak berbagi file dan sinkronisasi open source
-  ***Synching**  Aplikasi sinkronisasi file peer-to-peer gratis dan open source
 
-## **Kesimpulan:** {#block-dd1258f4-e0c5-4ac9-e18-7dd2a700f09e}
+Berikut ini adalah alternatif sendiri yang di -host sendiri dan perangkat lunak hosting file pesaing.
+* **Seafile** adalah open source source cross-platform file Software System
+* **NextCloud** platform penyimpanan cloud bebas dan open source
+* **Sinkronisasi Resilio** adalah Aplikasi Sinkronisasi Peer Sumber Terbuka
+* **Sel Pydio** adalah perangkat lunak berbagi file dan sinkronisasi open source
+* **Synching** Aplikasi Sinkronisasi File Peer-to-Peer Gratis dan Sumber Terbuka
+
+## **Kesimpulan:**  {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 Selamat! Anda telah berhasil menginstal dan mengkonfigurasi sendiri untuk membangun cloud pribadi Anda sendiri dengan Apache di mesin Ubuntu. Sekarang data Anda tidak pernah ada di tangan pihak ketiga dan dapat dikelola secara pribadi di Virtual Private Cloud Own Cloud Ubuntu Server Storage. Banyak perusahaan memilih untuk membuat server cloud mereka sendiri dengan banyak informasi penting karena banyak masalah dengan privasi data. Dalam tutorial mendatang kami, kami akan membahas topik yang lebih menarik dari tumpukan solusi server web.
 _Your dapat bergabung dengan kami di [Twitter][2], [LinkedIn][3] dan halaman [Facebook][4] kami. Solusi penyimpanan berbasis cloud apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi kami][5].
 
@@ -117,7 +119,8 @@ Kami juga memiliki beberapa artikel lain yang berkaitan dengan manajemen sehari-
   * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][9]
   * [Setup Nginx dengan penumpang di server produksi AWS][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

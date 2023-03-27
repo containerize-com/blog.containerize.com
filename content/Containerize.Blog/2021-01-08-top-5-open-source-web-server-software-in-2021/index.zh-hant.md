@@ -24,48 +24,53 @@ Web服務器是安裝在操作系統上的一種軟件。在HTTP傳輸協議的�
   * [CADDY][8]
   * [tomcat][9]
 
-## xampp   {#xampp-stands}
+## Xampp {#xampp-stands}
+
 XAMPP代表跨平台（X），Apache（A），Mariadb（M），PHP（P）和Perl（P）。它是一個免費的開源Web服務器軟件。它可以幫助開發人員在開發環境中測試其網絡應用程序或網站。 XAMPP具有所有必要的組件，包括Apache，Perl以及MySQL數據庫和PHP。它為基於PERL和PHP的Web應用程序提供了可靠的開發環境。此外，它為數據庫管理提供了Mariadb和MySQL。以下是其主要特徵：
-  *開源
-  *多個實例
-  *兼容性
-  *非線性發展
-  *具有數據庫的Web服務器
+* 開源
+* 多個實例
+* 兼容性
+* 非線性發展
+* 具有數據庫的Web服務器
 [閱讀更多][10]
 
-## nginx   {#nginx}
+## nginx {#nginx}
+
 NGINX Web服務器支持現代Web的所有組件，包括WebSocket，HTTP/2，以及多個視頻格式的流。它最初是從Web服務器開始，但現在已經開發出來作為電子郵件的反向代理軟件（IMAP，POP3和SMTP）。它還可以作為HTTP，TCP和UDP服務器的反向代理和負載平衡器。此外，如果在Web服務器性能上測量，此反向代理軟件會始終如一地擊敗Apache和其他服務器。 Nginx的一些重要特徵包括：
-  *模塊化體系結構
-  *負載平衡和容忍度
-  *基於IP的地理位置
-  *基於名稱和基於IP的虛擬服務器
-  *支持SSL和TLS SNI
+* 模塊化體系結構
+* 負載平衡和容忍度
+* 基於IP的地理位置
+* 基於名稱和基於IP的虛擬服務器
+* 支持SSL和TLS SNI
 [閱讀更多][11]
 
-## lighttpd   {#lighttpd}
-LightTPD是一種開源輕型Web服務器軟件，專為Linux機器設計。它不需要大量的內存和CPU使用。對於需要速度和高性能的任何項目來說，這是最好的之一。 LightTPD是每個遭受速度或性能問題的服務器的理想解決方案。此外，輕型Web服務器還提供了高級功能集，包括FastCGI，SCGI，auth，輸出壓縮和URL培訓等。除了PHP之外，它還支持其他編程語言，包括Python，Perl，Ruby等。這是LightTPD的一些流行功能：
-  *小尺寸，只有1MB
-  *支持FastCGI，SCGI，CGI接口
+## Lighttpd {#Lighttpd}
+
+LightTPD是一種開源輕型Web服務器軟件，專為Linux機器設計。它不需要大量的內存和CPU使用。對於需要速度和高性能的任何項目來說，這是最好的之一。 LightTPD是每個遭受速度或性能問題的服務器的理想解決方案。此外，輕型Web服務器還提供了高級功能集，包括FastCGI，SCGI，AUTH，輸出壓縮和URL互動等。除了PHP之外，它還支持其他編程語言，包括Python，Perl，Ruby等。這是LightTPD的一些流行功能：
+* 小尺寸，只有1MB
+* 支持FastCGI，SCGI，CGI接口
   * HTTP/2支持
   * TLS會話票鑰匙旋轉控制
-  *非常優化的CPU和RAM使用
+* 非常優化的CPU和RAM使用
 [閱讀更多][12]
 
-## caddy   {#caddy}
-CADDY服務器非常易於配置和使用。它需要照顧TLS證書續訂，OCSP訂書機，靜態文件服務以及反向代理和Kubernetes Ingress。此外，該靜態文件服務器是一個跨平台開源Web服務器，可以在包括MacOS，Linux和Windows在內的所有主要操作系統上運行。 Caddy是一家靈活，有效的靜態文件Web服務器，也是功能強大且可擴展的反向代理。使用CADDY服務器進行壓縮，模板評估和網站的降級渲染。這是Caddy Web服務器的一些關鍵功能：
-  *與Caddyfile的簡單配置
-  *訪問，錯誤和過程日誌
-  *默認情況下自動https
-  *服務器名稱指示
-  *優雅的重新啟動/重新加載
+## 球童 {#球童}
+
+CADDY服務器非常易於配置和使用。它需要照顧TLS證書續訂，OCSP訂書機，靜態文件服務以及反向代理和Kubernetes Ingress。此外，此靜態文件服務器是一個跨平台開源Web服務器，可以在包括MacOS，Linux和Windows在內的所有主要操作系統上運行。 Caddy是一家靈活，有效的靜態文件Web服務器，也是功能強大且可擴展的反向代理。使用CADDY服務器進行壓縮，模板評估和網站的降級渲染。這是Caddy Web服務器的一些關鍵功能：
+* 與Caddyfile的簡單配置
+* 訪問，錯誤和過程日誌
+* 默認情況下自動https
+* 服務器名稱指示
+* 優雅的重新啟動/重新加載
 [閱讀更多][13]
 
-## tomcat   {#tomcat}
+## tomcat {#tomcat}
+
 Apache Tomcat是Java Servlet，Javaserver頁面，Java Expression語言和Java Websocket Technologies的開源實現。此外，它是使用最廣泛的應用程序和Web服務器之一。 Tomcat服務器易於使用，並且具有強大的附加生態系統。 Apache Tomcat軟件可以用作獨立產品，並帶有其自己的內部Web服務器，以及其他Web服務器，例如Apache，Netscape Enterprise Server，Microsoft個人Web服務器和Microsoft Internet Information Servery。這是Apache Tomcat的一些關鍵功能：
   * 輕的
-  *開源
-  *開源
-  *高度安全
+* 開源
+* 開源
+* 高度安全
   * Servlet 3.0和JSP 2.2規格。
 [閱讀更多][14]
 
@@ -82,27 +87,28 @@ Apache Tomcat是Java Servlet，Javaserver頁面，Java Expression語言和Java W
   * [2021年的前5個開源雲存儲軟件][23]
   * [如何在Ubuntu Server上使用Apache安裝NextCloud][3]
 
-  
-[1]: https://products.containerize.com/solution-stack/
-[2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
-[3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
-[4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
-[5]: #xampp-stands
-[6]: #NGINX
-[7]: #Lighttpd
-[8]: #Caddy
-[9]: #Tomcat
-[10]: https://products.containerize.com/solution-stack/xampp
-[11]: https://products.containerize.com/solution-stack/nginx
-[12]: https://products.containerize.com/solution-stack/lighttpd
-[13]: https://products.containerize.com/solution-stack/caddy
-[14]: https://products.containerize.com/solution-stack/tomcat
-[15]: https://www.containerize.com/
-[16]: https://products.containerize.com/video-editing-software
-[17]: https://web.facebook.com/containerize
-[18]: https://www.linkedin.com/company/containerize/
-[19]: https://twitter.com/containerize_co
-[20]: https://products.containerize.com/solution-stack
-[21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
-[22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
-[23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/
+
+
+ [1]: https://products.containerize.com/solution-stack/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+ [4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
+ [5]: #xampp-stands
+ [6]: #NGINX
+ [7]: #Lighttpd
+ [8]: #Caddy
+ [9]: #Tomcat
+ [10]: https://products.containerize.com/solution-stack/xampp
+ [11]: https://products.containerize.com/solution-stack/nginx
+ [12]: https://products.containerize.com/solution-stack/lighttpd
+ [13]: https://products.containerize.com/solution-stack/caddy
+ [14]: https://products.containerize.com/solution-stack/tomcat
+ [15]: https://www.containerize.com/
+ [16]: https://products.containerize.com/video-editing-software
+ [17]: https://web.facebook.com/containerize
+ [18]: https://www.linkedin.com/company/containerize/
+ [19]: https://twitter.com/containerize_co
+ [20]: https://products.containerize.com/solution-stack
+ [21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
+ [22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
+ [23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/

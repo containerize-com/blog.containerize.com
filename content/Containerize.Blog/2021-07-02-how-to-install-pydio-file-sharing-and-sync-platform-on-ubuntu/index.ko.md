@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Ubuntu에 Pydio 파일 공유 및 동기화 플랫폼을 설치하는 방법">}}
 
 
-##  **개요** 
+##  **개요**  
 Pydio Cells는 오픈 소스 파일 공유 및 동기화 소프트웨어입니다. 모든 데이터 스토리지에 대한 단일 액세스 지점을 제공하며 스토리지 서비스, 파일 공유 및 동기화를 제공하는 OwnCloud 및 NextCloud의 대안입니다. Pydio는 Dropbox 및 기타 스토리지 플랫폼과 유사한 엔터프라이즈 오픈 소스 파일 공유 플랫폼입니다. 하나의 플랫폼에서 모든 파일과 장치를 안전하게 연결하는 데 도움이됩니다.
 Pydio Cells는 클라우드 기반 파일 동기화 및 협업 플랫폼입니다. 이 오픈 소스 소프트웨어는 개인 IT 인프라에서 실행되며 직원이 비즈니스 데이터를 보호하고 모니터링 할 수 있도록 도와줍니다. Pydio 셀을 사용하여 모바일 앱, 데스크탑 소프트웨어 또는 웹 브라우저를 사용하여 데이터를 동기화하고 어디서나 액세스 할 수 있습니다. Pydio Cells Best File Sharing App은 마이크로 서비스 아키텍처를 기반으로하며 Golang 프로그래밍 언어를 사용하여 작성됩니다.
 이 튜토리얼을 사용하면 Ubuntu LTS 시스템에서 Pydio 자체 호스팅 파일 공유 소프트웨어 및 동기화 플랫폼을 설치하고 구성하는 데 도움이됩니다.
@@ -31,7 +31,7 @@ Pydio Cells는 클라우드 기반 파일 동기화 및 협업 플랫폼입니�
 sudo apt-get update -y
 sudo apt-get upgrade -y
 ```
-업데이트 후에는 새로운 변경 사항이 적용되도록 항상 서버를 재부팅하는 것이 좋습니다.
+업데이트 후에는 새로운 변경 사항이 적용되도록 서버를 재부팅하는 것이 좋습니다.
 ```
 sudo reboot
 ```
@@ -39,19 +39,19 @@ sudo reboot
 ## 2 단계 : 램프 서버를 설치합니다
 Pydio Secure Enterprise 파일 공유 서버를 설정하고 오픈 소스 프라이빗 클라우드를 만드는 방법을 설정하려면 먼저 실행중인 램프 서버를 설정해야합니다. 램프 스택을 이미 설치하고 실행중인 경우이 단계를 건너 뛰면 다음 단계를 사용하여 다음 명령을 사용하여 우분투 시스템에서 램프를 설정하십시오.
 
-## # php를 설치하십시오
+### php를 설치하십시오
 명령을 실행하여 우분투 또는 데비안 시스템에 PHP를 설치할 수 있습니다.
-Sudo apt-get 설치 Python-Software-Properties
+sudo apt-get 설치 Python-Software-Properties
 Sudo Add-Apt-Repository PPA : Ondrej/Php
 Sudo apt-get install -y php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-## # Apache2를 설치하십시오
+### Apache2를 설치하십시오
 Apache는 가장 널리 사용되는 오픈 소스 웹 서버 소프트웨어입니다. 다음으로 Ubuntu에 Apache 웹 서버를 설치하여 다음을 실행하십시오.
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # MySQL을 설치하십시오
+### MySQL을 설치하십시오
 MySQL Open-Source Relational Database Management System은 LAMP 웹 애플리케이션 소프트웨어 스택 및 기타의 구성 요소입니다. 이제 아래에서 실행하여 Ubuntu에 MySQL을 설치하십시오.
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
@@ -122,11 +122,11 @@ Pydio Private Cloud 파일 공유 및 비즈니스 파일 공유 소프트웨어
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Pydio 설정 마법사">}}
 
-언어를 선택하고  **마법사 시작** 를 클릭하십시오. 다음 페이지가 표시됩니다.
+언어를 선택하고  **마법사 시작**  를 클릭하십시오. 다음 페이지가 표시됩니다.
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Pydio 설정을 시작하십시오">}}
 
-프로그램 이름을 입력하고 오신 것을 환영합니다. 그런 다음 버튼  **다음** 을 클릭하십시오. 다음 페이지가 표시됩니다.
+프로그램 이름을 입력하고 오신 것을 환영합니다. 그런 다음 버튼  **다음**  을 클릭하십시오. 다음 페이지가 표시됩니다.
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Pydio 응용 프로그램을 입력하십시오">}}
 
@@ -146,19 +146,21 @@ Pydio Private Cloud 파일 공유 및 비즈니스 파일 공유 소프트웨어
 
 응! 끝났다. 이제 Dropbox 또는 Google 드라이브와 유사한 단계별로 프라이빗 클라우드를 단계별로 구축하기 위해 Ubuntu에 Pydio 자체 호스팅 파일 동기화 및 오픈 소스 파일 공유 소프트웨어를 완전히 설치하는 방법을 알 수 있습니다.
 
-##  **결론 :** {#4a1a}
+##  **결론:**   {#4a1a}
+
 이 튜토리얼에서는 Ubuntu 시스템에 Pydio Cells Open Source Secure 파일 공유를 성공적으로 설치했습니다. 이 기사를 사용하여 자체 호스팅 클라우드에 파일을 저장, 보호 및 공유하기위한 클라우드 인프라를 만들 수 있습니다. Pydio 공동 작업 문서 공유 및 최고의 무료 파일 공유 앱을 사용하여 데이터를 더 많이 제어하고 비즈니스 조직의 효율적인 협업을 보장하십시오. 다가오는 자습서에서는 오픈 소스 클라우드 스토리지 솔루션 및 파일 공유 협업 도구의 더 흥미로운 주제에 대해 설명합니다.
 _ 당신은 [Twitter][1], [LinkedIn][2] 및 [Facebook][3] 페이지에서 우리와 함께 할 수 있습니다. 어떤 클라우드 기반 _ 오픈 소스 _file 공유 플랫폼을 온라인으로 사용하십니까?. 궁금한 점이 있으면 제발 _ [연락][4].
 
 ## 탐구하다:
-또한 귀하의 서버의 일상 관리와 관련된 몇 가지 다른 기사가 있습니다.
-  * [우분투/데비안의 역 프록시로 아파치를 구성하는 방법][5]
+또한 서버의 일상적인 관리와 관련된 몇 가지 다른 기사가 있습니다.
+  * [Apache를 Ubuntu/Debian의 역 프록시로 구성하는 방법][5]
   * [우분투에 nginx를 사용하여 phpmyadmin을 설치하고 고정하는 방법][6]
-  * [우분투에서하자 암호화와 함께 Nginx를 안전하고 암호화합니다.][7]
+  * [우분투에서하자 암호화 20.04로 Nginx를 안전하고 암호화합니다][7]
   * [우분투/데비안의 NGINX에서 HTTP/2 지원을 구성][8]
   * [AWS 프로덕션 서버에서 승객으로 Nginx 설정][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

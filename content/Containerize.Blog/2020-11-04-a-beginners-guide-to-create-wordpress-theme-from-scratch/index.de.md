@@ -15,24 +15,28 @@ So erstellen Sie das WordPress -Thema unter den Top -Abfragen in der Google -Suc
   * [Anforderungen][1]
   * [Schritt -für -Schritt -Handbuch][2]
 
-## # Anforderungen   {#Requirements}
+
+### Anforderungen {#requirements}
+
 Erstens und wichtigste, was Sie tun müssen, ist, WordPress zu installieren. WordPress ist für die einfache Installation bekannt. Es ist ein einfacher Prozess und kann einfach von sich selbst durch die [Handbuch][3] durchgeführt werden.
 
-## # So erstellen Sie WordPress -Thema; Schritt -für -Schritt -Handbuch   {#guide}
-Für WordPress -Thema wird alles nur im Verzeichnis **wp_content  **erledigt. Machen Sie einfach einen neuen Themenunterordner im Ordner**   wp_content → Themes.
-Die zweite Sache ist, das Layout des Themas zu entscheiden. Hier zeigt das Tutorial das grundlegende Layout aus **Header, Hauptbereich, Fußzeile, Seitenleiste** .
-Grundsätzlich benötigt WordPress nur 2 Dateien, d. H. Style.css und index.php. Für dieses Layout benötigen Sie jedoch wie folgt **5 Dateien** ;
-  ***Header.php -**  Enthält den Code für den Header -Abschnitt des Themas.
-  ***index.php -**  enthält den Code für den Hauptbereich und gibt an, wo die anderen Dateien enthalten sind. Dies ist die Hauptdatei des Themas.
-  ***Sidebar.php -**  Enthält die Informationen über die Seitenleiste.
-  ***footer.php -**  behandelt den Fußzeilenabschnitt.
-  ***style.css -**  Verantwortlich für das Styling Ihres Themas.
-  ***Bootstrap.css -**  Es ist kein separater CSS -Code erforderlich; sehr reaktionsschnell.
-  ***bootstrap.js -**  stellt seine eigenen JS für die Navigationsleiste oder Registerkarten usw. zur Verfügung.
-**bootstrap.js  **und**   bootstrap.css
+
+### Wie man WordPress -Thema erstellt; Schritt für Schritt Anleitung {#guide}
+
+Für WordPress -Thema wird alles nur im Verzeichnis  **wp_content**  erledigt. Machen Sie einfach einen neuen Themenunterordner im Ordner**wp_content → Themes.
+Die zweite Sache ist, das Layout des Themas zu entscheiden. Hier zeigt das Tutorial das grundlegende Layout aus  **Header, Hauptbereich, Fußzeile, Seitenleiste**  .
+Grundsätzlich benötigt WordPress nur 2 Dateien, d. H. Style.css und index.php. Für dieses Layout benötigen Sie jedoch wie folgt  **5 Dateien**  ;
+*  **Header.php -**  Enthält den Code für den Header -Abschnitt des Themas.
+*  **index.php -**  enthält den Code für den Hauptbereich und gibt an, wo die anderen Dateien enthalten sind. Dies ist die Hauptdatei des Themas.
+*  **Sidebar.php -**  Enthält die Informationen über die Seitenleiste.
+*  **footer.php -**  behandelt den Fußzeilenabschnitt.
+*  **style.css -**  Verantwortlich für das Styling Ihres Themas.
+*  **Bootstrap.css -**  Es ist kein separater CSS -Code erforderlich; sehr reaktionsschnell.
+*  **bootstrap.js -**  stellt seine eigenen JS für die Navigationsleiste oder Registerkarten usw. zur Verfügung.
+ **bootstrap.js** und** bootstrap.css
 Hier sind die Schritte, die zum Einrichten von Thema folgen,
 
-## # Schritt 1: Header.php -Datei
+### Schritt 1: Header.php -Datei
 Geben Sie den folgenden Code in Header.php -Datei ein.
 ```
 <html>
@@ -57,7 +61,7 @@ Geben Sie den folgenden Code in Header.php -Datei ein.
 ```
 Diese Datei Header.php enthält den Code für den Header -Teil, in dem die JS- und Style -Datei verknüpft ist. Es zeigt den Header der Seite an.
 
-## # Schritt 2: Index.php Datei
+### Schritt 2: Index.php Datei
 Setzen Sie den folgenden Code in den Hauptdatei index.php ein
 ```
 <?php get_header(); ?>
@@ -83,7 +87,7 @@ Setzen Sie den folgenden Code in den Hauptdatei index.php ein
 ```
 Der obige Code zeigt den Hauptinhalt der Post, der Seitenleiste und der Fußzeile an.
 
-## # Schritt 3: SideBar.php -Datei
+### Schritt 3: SideBar.php -Datei
 Fügen Sie den folgenden Code in SideBar.php hinzu
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +99,7 @@ Fügen Sie den folgenden Code in SideBar.php hinzu
 ```
 Im obigen Code werden interne WordPress -Funktionen aufgerufen, um verschiedene Kategorien und Archive der Beiträge anzuzeigen.
 
-## # Schritt 4: footer.php -Datei
+### Schritt 4: footer.php -Datei
 Fügen Sie die folgenden Codezeilen der Datei foote.php hinzu:
 ```
 <div id= "ttr_footer">
@@ -132,10 +136,11 @@ font-weight: bold;
 ```
 Nachdem Sie alle oben genannten Schritte befolgt haben, haben Sie ein grundlegendes WordPress -Thema. Sie können es weiter ändern, um es schöner zu machen und für Ihre Anforderungen zu passen.
 
-## # Abschluss
+### Abschluss
 In diesem Tutorial haben wir erklärt, wie man WordPress -Thema in einfachen und einfachen Schritten erstellt. Nach dem Lesen und Ausführen der Schritte ist das Erstellen eines WordPress -Themas jetzt keine schwierigere Aufgabe. Offensichtlich bleibt dieses Tutorial bei sehr einfachem Setup und um darüber zu verbessern, dass Sie mehr über HTML, CSS, JS und PHP erfahren müssen.
 
-  
-[1]: #requirements
-[2]: #guide
-[3]: https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #requirements
+ [2]: #guide
+ [3]: https://products.containerize.com/blogging/wordpress

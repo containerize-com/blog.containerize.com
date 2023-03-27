@@ -19,10 +19,12 @@ Neste artigo, aprenderemos a configurar campanhas no Mautic. Cobriremos as segui
   * [Como criar campanhas no Mautic?][3]
   * [Conclusão][4]
 
-## O que é mautico?   {#Mautic}
+## O que é mautico? {#mautic}
+
 A Mautic é um software de automação de marketing de código aberto. Ele fornece controle completo sobre e -mails de marketing, páginas de destino e fluxos de trabalho para atividades de marketing. Ele automatiza o caminho para criar leads a partir de páginas de destino, formas e convertê -las em clientes em potencial. Tudo isso pode ser alcançado pela criação de campanhas de gotejamento inteligentes, o que manterá os clientes em potencial atualizados sobre produtos/serviços.
 
-## Como criar formulários em Mautic?   {#forms}
+## Como criar formulários em Mautic? {#forms}
+
   * Faça login na sua instalação do MAUITC.
   * Vá para a guia "Componentes" e clique em "Formulários".
   * Bata “Novo” no canto superior direito.
@@ -41,7 +43,8 @@ A Mautic é um software de automação de marketing de código aberto. Ele forne
   * Depois disso, clique em "Adicionar" e pressionar "Salvar e fechar".
   * É fácil criar formulários no Mautic.
 
-## Como criar campanhas no Mautic?   {#campaigns}
+## Como criar campanhas no Mautic? {#campaigns}
+
   * Vá para campanhas. Clique em "Novo" do canto superior direito.
   * Digite o nome e defina "publicado" como "Sim".
 
@@ -65,7 +68,8 @@ A Mautic é um software de automação de marketing de código aberto. Ele forne
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Como configurar campanhas mauticas para marketing digital">}}
 
 
-## Conclusão:   {#conclusion}
+## Conclusão: {#conclusion}
+
 Aprendemos a configurar campanhas de marketing de gotejamento após as três etapas muito simples. Isso inclui a criação de um formulário necessário como fonte de campanha, criação da campanha e configuração do email. Criamos uma campanha muito básica neste tutorial. No entanto, você pode criar campanhas complexas usando o Mautic Campaign Builder. Se você é novo no Mautic, confira como instalá -lo usando o seguinte guia:
 [Visão geral e instalação mautic][5]
 
@@ -75,12 +79,13 @@ Esses artigos podem ser muito úteis se você quiser integrar o Mautic com o Wor
 [Integre a Mautic com Joomla para automação de marketing][7]
 [Como implementar a multiestância em Mautic][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

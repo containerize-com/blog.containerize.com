@@ -24,7 +24,8 @@ categories: ['Web Server Solution Stack']
   * [العلبة][8]
   * [Tomcat][9]
 
-## xampp   {#xampp-stands}
+## XAMPP {#xampp-stands}
+
 تعني XAMPP عن المنصات المتقاطعة (X) ، Apache (A) ، MariaDB (M) ، PHP (P) ، و Perl (P). إنه برنامج خادم ويب مجاني ومفتوح المصدر. يساعد المطورين على اختبار تطبيقات الويب أو مواقع الويب الخاصة بهم في بيئة التطوير الخاصة بهم. يحتوي XAMPP على جميع المكونات اللازمة بما في ذلك Apache و Perl وكذلك قاعدة بيانات MySQL و PHP. ويوفر بيئة تطوير موثوقة لتطبيقات الويب Perl و PHP. علاوة على ذلك ، فإنه يوفر MariaDB و MySQL لإدارة قاعدة البيانات. فيما يلي بعض ميزاتها الرئيسية:
   * المصدر المفتوح
   * مثيلات متعددة
@@ -33,7 +34,8 @@ categories: ['Web Server Solution Stack']
   * خادم الويب مع قاعدة البيانات
 [اقرأ المزيد][10]
 
-## nginx   {#nginx}
+## nginx {#nginx}
+
 يدعم Nginx Web Server جميع مكونات الويب الحديثة بما في ذلك WebSocket و HTTP/2 وتدفق تنسيقات الفيديو المتعددة. لقد بدأ الأمر كخادم ويب ولكن الآن ، تم تطويره للعمل أيضًا كبرنامج وكيل عكسي للبريد الإلكتروني (IMAP و POP3 و SMTP). كما أنه يعمل بمثابة وكيل عكسي وحمل تحميل لخوادم HTTP و TCP و UDP. علاوة على ذلك ، فإن برنامج الوكيل العكسي هذا يتفوق باستمرار على Apache وخوادم أخرى إذا تم قياسه على أداء خادم الويب. تشمل بعض الميزات المهمة لـ NGINX:
   * العمارة المعيارية
   * تحميل الموازنة والتسامح مع الأخطاء
@@ -42,7 +44,8 @@ categories: ['Web Server Solution Stack']
   * يدعم SSL و TLS SNI
 [اقرأ المزيد][11]
 
-## lighttpd   {#lighttpd}
+## Lighttpd {#Lighttpd}
+
 LightTPD هو برنامج خادم ويب خفيف الوزن مفتوح المصدر ، مصمم خصيصًا لآلات Linux. لا يتطلب الكثير من الذاكرة واستخدام وحدة المعالجة المركزية. مما يجعلها واحدة من الأفضل لأي مشروع يحتاج إلى السرعة والأداء العالي. LightTPD هو الحل الأمثل لكل خادم يعاني من مشكلات السرعة أو الأداء. علاوة على ذلك ، يوفر خادم الويب الخفيف الوزن مجموعات ميزات متقدمة بما في ذلك FastCGI و SCGI و AUTH وضغط الإخراج وتجديد عنوان URL ، إلخ. فيما يلي بعض الميزات الشائعة لـ Lighttpd:
   * الحجم الصغير ، فقط 1 ميجابايت
   * دعم واجهات FastCgi و SCGI و CGI
@@ -51,7 +54,8 @@ LightTPD هو برنامج خادم ويب خفيف الوزن مفتوح الم
   * استخدام وحدة المعالجة المركزية المحسنة للغاية وذاكرة الوصول العشوائي
 [اقرأ المزيد][12]
 
-## caddy   {#caddy}
+## العلبة {#العلبة}
+
 Caddy Server سهل التكوين واستخدامه. إنه يهتم بتجديد شهادات TLS ، ودخول OCSP ، وملف ثابت ، بالإضافة إلى عكس الوكيل و kubernetes. علاوة على ذلك ، فإن خادم الملفات الثابتة هذا عبارة عن خادم ويب مفتوح المصدر ، ويمكنه تشغيل جميع أنظمة التشغيل الرئيسية بما في ذلك MacOS و Linux و Windows. Caddy هو خادم ويب للملفات الثابتة المرنة والفعالة بالإضافة إلى وكيل عكسي قوي وقابل للتطوير. استخدم خادم CADDY للضغط ، وتقييم القالب ، وتقديم تخفيض مواقع الويب الخاصة بك. فيما يلي بعض الميزات الرئيسية لخادم ويب Caddy:
   * تكوين سهل مع caddyfile
   * الوصول والخطأ وسجلات العملية
@@ -60,7 +64,8 @@ Caddy Server سهل التكوين واستخدامه. إنه يهتم بتجد�
   * إعادة التشغيل/إعادة التحميل
 [اقرأ المزيد][13]
 
-## Tomcat   {#tomcat}
+## هر {#هر}
+
 Apache Tomcat هو تطبيق مفتوح المصدر لصفحات Java Servlet و Javaserver و Java Expression Language و Java Websocket Technologies. علاوة على ذلك ، فهي واحدة من أكثر التطبيقات استخدامًا وخوادم الويب. خادم Tomcat بسيط للاستخدام ولديه نظام بيئي قوي من الوظائف الإضافية. يمكن استخدام برنامج Apache Tomcat كمنتج مستقل مع خادم الويب الداخلي الخاص به وكذلك مع خوادم الويب الأخرى مثل Apache و NetScape Enterprise Server و Microsoft Personal Web Server و Microsoft Internet Server. فيما يلي بعض الميزات الرئيسية لـ Apache Tomcat:
   * وزن خفيف
   * مفتوحة المصدر
@@ -82,27 +87,28 @@ Apache Tomcat هو تطبيق مفتوح المصدر لصفحات Java Servlet 
   * [Top 5 Open Source Cloud Storage Sorke في 2021][23]
   * [كيفية تثبيت NextCloud مع Apache على خادم Ubuntu][3]
 
-  
-[1]: https://products.containerize.com/solution-stack/
-[2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
-[3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
-[4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
-[5]: #xampp-stands
-[6]: #NGINX
-[7]: #Lighttpd
-[8]: #Caddy
-[9]: #Tomcat
-[10]: https://products.containerize.com/solution-stack/xampp
-[11]: https://products.containerize.com/solution-stack/nginx
-[12]: https://products.containerize.com/solution-stack/lighttpd
-[13]: https://products.containerize.com/solution-stack/caddy
-[14]: https://products.containerize.com/solution-stack/tomcat
-[15]: https://www.containerize.com/
-[16]: https://products.containerize.com/video-editing-software
-[17]: https://web.facebook.com/containerize
-[18]: https://www.linkedin.com/company/containerize/
-[19]: https://twitter.com/containerize_co
-[20]: https://products.containerize.com/solution-stack
-[21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
-[22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
-[23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/
+
+
+ [1]: https://products.containerize.com/solution-stack/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+ [4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
+ [5]: #xampp-stands
+ [6]: #NGINX
+ [7]: #Lighttpd
+ [8]: #Caddy
+ [9]: #Tomcat
+ [10]: https://products.containerize.com/solution-stack/xampp
+ [11]: https://products.containerize.com/solution-stack/nginx
+ [12]: https://products.containerize.com/solution-stack/lighttpd
+ [13]: https://products.containerize.com/solution-stack/caddy
+ [14]: https://products.containerize.com/solution-stack/tomcat
+ [15]: https://www.containerize.com/
+ [16]: https://products.containerize.com/video-editing-software
+ [17]: https://web.facebook.com/containerize
+ [18]: https://www.linkedin.com/company/containerize/
+ [19]: https://twitter.com/containerize_co
+ [20]: https://products.containerize.com/solution-stack
+ [21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
+ [22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
+ [23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/

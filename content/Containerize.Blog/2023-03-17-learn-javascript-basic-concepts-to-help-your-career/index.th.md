@@ -16,13 +16,14 @@ categories: ['Programming']
 
 
 ## ภาพรวม
-JavaScript เป็นภาษาสคริปต์ที่ใช้ในการพัฒนาแอพพลิเคชั่นบนเว็บแบบไดนามิก เราใช้ HTML และ CSS เพื่อสร้างเว็บไซต์คงที่ในขณะที่ JavaScript ใช้เพื่อเพิ่มการโต้ตอบ ในโพสต์บล็อกก่อนหน้าของเราเราครอบคลุม [โมเดลวัตถุเอกสาร][1] และตอนนี้เราจะครอบคลุมแนวคิดพื้นฐานอื่น ๆ ที่สำคัญ**JavaScript**นักพัฒนาเว็บมีแนวโน้มที่จะเลือกใช้ภาษาสคริปต์นี้เนื่องจากคุณสมบัติและเฟรมเวิร์กที่หลากหลาย นอกจากนี้คุณสามารถพัฒนาได้ทั้งด้านหน้าและด้านหลังโดยการเรียนรู้ JavaScript อย่างไรก็ตามคุณไม่สามารถพัฒนาเว็บแอปเท่านั้น แต่ยังรวมถึงแอพมือถือ การสอน JavaScript นี้จะช่วยคุณหากคุณกำลังเตรียมตัวสำหรับการสัมภาษณ์ อย่างไรก็ตามคู่มือนี้คุ้มค่าที่จะอ่านเพิ่มเข้าไปในถังความรู้ของคุณมากขึ้น
+JavaScript เป็นภาษาสคริปต์ที่ใช้ในการพัฒนาแอพพลิเคชั่นบนเว็บแบบไดนามิก เราใช้ HTML และ CSS เพื่อสร้างเว็บไซต์คงที่ในขณะที่ JavaScript ใช้เพื่อเพิ่มการโต้ตอบ ในโพสต์บล็อกก่อนหน้าของเราเราครอบคลุม [โมเดลวัตถุเอกสาร][1] และตอนนี้เราจะครอบคลุมแนวคิดพื้นฐานอื่น ๆ ที่สำคัญ  **JavaScript**  นักพัฒนาเว็บมีแนวโน้มที่จะเลือกใช้ภาษาสคริปต์นี้เนื่องจากคุณสมบัติและเฟรมเวิร์กที่หลากหลาย นอกจากนี้คุณสามารถพัฒนาได้ทั้งด้านหน้าและด้านหลังโดยการเรียนรู้ JavaScript อย่างไรก็ตามคุณไม่สามารถพัฒนาเว็บแอปเท่านั้น แต่ยังรวมถึงแอพมือถือ การสอน JavaScript นี้จะช่วยคุณหากคุณกำลังเตรียมตัวสำหรับการสัมภาษณ์ อย่างไรก็ตามคู่มือนี้คุ้มค่าที่จะอ่านเพิ่มเข้าไปในถังความรู้ของคุณมากขึ้น
 เราจะครอบคลุมประเด็นต่อไปนี้ในบทความนี้:
-* **[อะไรคือการยกใน JavaScript][2]**
-* **[ขอบเขตใน JavaScript][3]**
-* **[การปิด JavaScript][4]**
+*  **[มีอะไรเกิดขึ้นใน JavaScript][2]**  
+*  **[ขอบเขตใน JavaScript][3]**  
+*  **[การปิด JavaScript][4]**  
 
-## ยกอะไรใน JavaScript   {#what-is-hoisting-in-javascript}
+## การยกในจาวาสคริปต์คืออะไร {#What-is-hoisting-in-JavaScript}
+
 ปรากฏการณ์ของการใช้ฟังก์ชันหรือการประกาศตัวแปรที่ด้านบนของขอบเขตปัจจุบันเรียกว่าการยก นี่เป็นแนวคิดที่สำคัญมากและนักพัฒนา JavaScript ส่วนใหญ่ไม่ได้ตระหนักถึงมัน อย่างไรก็ตามสิ่งสำคัญที่ควรทราบที่นี่คือเฉพาะการประกาศฟังก์ชั่น/ตัวแปรเท่านั้นที่จะถูกนำไปสู่ด้านบนไม่ใช่การเริ่มต้นฟังก์ชั่น/ตัวแปร
 ลองมาตัวอย่างและดูตัวอย่างโค้ดด้านล่าง
 ```
@@ -51,9 +52,10 @@ let name;
 ```
 ข้อผิดพลาดในตัวอย่างรหัสด้านบนเกิดขึ้น เหตุผลก็คือการเริ่มต้นไม่ได้ทำในขณะที่ยกตัวแปรนี้ เรื่องสั้นสั้นการประกาศทั้งหมดจะเริ่มต้นด้วย "undefined" ในขณะที่ตัวแปรที่ประกาศด้วย "Let" หรือ "const" ไม่ได้เริ่มต้นในการยก
 
-## scopes ใน JavaScript   {#spopes-in-JavaScript}
+## ขอบเขตในจาวาสคริปต์ {#Scopes-in-JavaScript}
+
 ขอบเขตเป็นหนึ่งในแนวคิดพื้นฐาน JavaScript ที่นักพัฒนาต้องรู้ อย่างไรก็ตามการทำงานกับขอบเขต JavaScript ไม่ตรงไปตรงมาและแตกต่างกันเล็กน้อย ดังนั้นจึงมีขอบเขตสามประเภทใน JavaScript และสิ่งเหล่านี้มีดังนี้:
-**ระดับบล็อก**: ตัวแปรที่ประกาศด้วย "Let" หรือ "const" มีขอบเขตระดับบล็อก
+ **ระดับบล็อก** : ตัวแปรที่ประกาศด้วย "Let" หรือ "const" มีขอบเขตระดับบล็อก
 ```
 if(true){
   let a = 1;
@@ -61,7 +63,7 @@ if(true){
 // a is not accessible outside the curly braces.
 ```
 ตัวแปร "A" ไม่สามารถเข้าถึงได้นอกวงเล็บปีกกา {} เพราะมีขอบเขตระดับบล็อก
-**ฟังก์ชั่นระดับ**: ตัวแปรที่ประกาศภายในฟังก์ชัน JavaScript มีขอบเขตท้องถิ่น
+ **ฟังก์ชั่นระดับ** : ตัวแปรที่ประกาศภายในฟังก์ชัน JavaScript มีขอบเขตท้องถิ่น
 ```
 function innerFunc(){
         let last_name = "ashraf";
@@ -70,7 +72,7 @@ function innerFunc(){
 // last_name is not accessible outside the function.
 ```
 สิ่งสำคัญที่ควรทราบที่นี่คือตัวแปรที่ประกาศด้วย "Let" "" const "และ" var "มีขอบเขตฟังก์ชันภายในร่างกายฟังก์ชั่น
-**ระดับโลก**: ตัวแปรที่ประกาศนอกฟังก์ชั่นกลายเป็นตัวแปรทั่วโลก ไม่ว่าคุณจะประกาศพวกเขาโดยใช้คำหลัก "let", "const" หรือ "var" นอกจากนี้ตัวแปรจะกลายเป็นตัวแปรส่วนกลางหากประกาศโดยไม่ใช้คำหลักใด ๆ ดังที่แสดงในตัวอย่างโค้ดด้านล่าง:
+ **ระดับโลก** : ตัวแปรที่ประกาศนอกฟังก์ชั่นกลายเป็นตัวแปรทั่วโลก ไม่ว่าคุณจะประกาศพวกเขาโดยใช้คำหลัก "let", "const" หรือ "var" นอกจากนี้ตัวแปรจะกลายเป็นตัวแปรส่วนกลางหากประกาศโดยไม่ใช้คำหลักใด ๆ ดังที่แสดงในตัวอย่างโค้ดด้านล่าง:
 ```
 function innerFunc(){
         last_name = "ashraf";
@@ -79,7 +81,8 @@ function innerFunc(){
 // last_name is accessible outside the function too and is of global scope
 ```
 
-## JavaScript ปิด   {#javascript-closures}
+## การปิด JavaScript {#JavaScript-Closures}
+
 นี่เป็นอีกหนึ่งแนวคิดที่สำคัญที่เสริมสร้างความรู้ด้านจาวาสคริปต์ของคุณเกี่ยวกับขอบเขตและการห่อหุ้มข้อมูล ในรูปแบบที่ง่ายที่สุดฟังก์ชั่นภายในฟังก์ชั่นเรียกว่าการปิด คุณสามารถเรียกฟังก์ชั่นภายในได้ ฟังก์ชั่นภายในนี้มีขอบเขตสามประเภท:
  * มันมีขอบเขตระดับบล็อกของตัวเอง
  * มีการเข้าถึงตัวแปรของผู้ปกครอง
@@ -100,7 +103,7 @@ myFunction()
 ตัวแปร first_name สามารถเข้าถึงได้ภายในฟังก์ชั่นที่ชื่อ InnerFunc แต่ฟังก์ชั่นหลักไม่สามารถเข้าถึงตัวแปร Last_name ได้ พฤติกรรมนี้ช่วยให้โปรแกรมเมอร์สร้างตัวแปรส่วนตัวในห่วงโซ่ขอบเขต
 
 ## บทสรุป
-เรากำลังสิ้นสุดคู่มือ JavaScript นี้ที่นี่และหวังว่าคุณจะมีความเข้าใจที่ดีขึ้นเกี่ยวกับแนวคิดพื้นฐานของ JavaScript**ยิ่งกว่านั้นเราได้ผ่านการปิด JavaScript, ขอบเขตใน JavaScript**และ Hoisting มีแนวคิดที่สำคัญอื่น ๆ อีกมากมายที่จำเป็นสำหรับผู้เริ่มต้น ดังนั้นบทความนี้จะช่วยคุณหากคุณกำลังเจริญรุ่งเรืองในการปรับปรุงหรือรีเฟรชแนวคิด JavaScript ของคุณ นอกจากนี้คุณอาจผ่านโพสต์บล็อกที่กล่าวถึงในส่วน "ดูเพิ่มเติม"
+เรากำลังสิ้นสุดคู่มือ JavaScript นี้ที่นี่และหวังว่าคุณจะมีความเข้าใจที่ดีขึ้นเกี่ยวกับแนวคิดพื้นฐานของ JavaScript  **ยิ่งกว่านั้นเราได้ผ่านการปิด JavaScript, ขอบเขตใน JavaScript**  และ Hoisting มีแนวคิดที่สำคัญอื่น ๆ อีกมากมายที่จำเป็นสำหรับผู้เริ่มต้น ดังนั้นบทความนี้จะช่วยคุณหากคุณกำลังเจริญรุ่งเรืองในการปรับปรุงหรือรีเฟรชแนวคิด JavaScript ของคุณ นอกจากนี้คุณอาจผ่านโพสต์บล็อกที่กล่าวถึงในส่วน "ดูเพิ่มเติม"
 
 ## เชื่อมต่อกับเรา
 ในที่สุด [containerize.com][5] ข้อเสนอการสอน JavaScript อย่างต่อเนื่องในหัวข้อที่น่าตื่นเต้นต่างๆ คุณสามารถอยู่ในวงได้โดยติดตามเราบนแพลตฟอร์มโซเชียลมีเดียของเรารวมถึง [Facebook][6], [LinkedIn][7] และ [Twitter][8]
@@ -109,7 +112,7 @@ myFunction()
 คุณสามารถแจ้งให้เราทราบเกี่ยวกับคำถามหรือคำถามของคุณเกี่ยวกับ [ฟอรัม] ของเรา [9]
 
 ## คำถามที่พบบ่อย
-**แนวคิดที่สำคัญในการเรียนรู้ใน JavaScript คืออะไร**
+ **แนวคิดที่สำคัญในการเรียนรู้ใน JavaScript คืออะไร** 
 โปรดติดตาม [คู่มือ] ของ JavaScript Beginner [2] เพื่อทราบแนวคิดพื้นฐาน JavaScript
 
 ## ดูสิ่งนี้ด้วย
@@ -124,22 +127,23 @@ myFunction()
   * [บทนำสู่ปัญญาประดิษฐ์ | AI คืออะไร][17]
   * [Async กำลังรออยู่ใน JavaScript คืออะไร? | คู่มือ JavaScript][18]
 
-  
-[1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
-[2]: #What-is-hoisting-in-JavaScript
-[3]: #Scopes-in-JavaScript
-[4]: #JavaScript-Closures
-[5]: https://www.containerize.com/
-[6]: https://web.facebook.com/containerize
-[7]: https://www.linkedin.com/company/containerize/
-[8]: https://twitter.com/containerize_co
-[9]: https://forum.containerize.com/
-[10]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
-[11]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/
-[12]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
-[13]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
-[14]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/
-[15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
-[16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
-[17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
-[18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/
+
+
+ [1]: https://blog.containerize.com/what-is-dom-in-javascript-document-object-model/
+ [2]: #What-is-hoisting-in-JavaScript
+ [3]: #Scopes-in-JavaScript
+ [4]: #JavaScript-Closures
+ [5]: https://www.containerize.com/
+ [6]: https://web.facebook.com/containerize
+ [7]: https://www.linkedin.com/company/containerize/
+ [8]: https://twitter.com/containerize_co
+ [9]: https://forum.containerize.com/
+ [10]: https://blog.containerize.com/what-is-promise-in-javascript-javascript-tutorial/
+ [11]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/
+ [12]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
+ [13]: https://blog.containerize.com/artificial-intelligence/what-is-generative-ai-generative-artificial-intelligence/
+ [14]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/
+ [15]: https://blog.containerize.com/artificial-intelligence/how-to-use-chatgpt-in-vscode-the-vscode-extension-codegpt/
+ [16]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
+ [17]: https://blog.containerize.com/artificial-intelligence/an-introduction-to-artificial-intelligence-what-is-ai/
+ [18]: https://blog.containerize.com/what-is-async-await-in-javascript-a-javascript-guide/

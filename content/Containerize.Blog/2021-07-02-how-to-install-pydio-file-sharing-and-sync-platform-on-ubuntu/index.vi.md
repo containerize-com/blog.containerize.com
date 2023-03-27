@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Cách cài đặt nền tảng chia sẻ và đồng bộ hóa tệp Pydio trên Ubuntu">}}
 
 
-## **Tổng quan**
+##  **Tổng quan**  
 Tế bào Pydio là một phần mềm chia sẻ và đồng bộ hóa tệp nguồn mở. Nó cung cấp một điểm truy cập duy nhất vào tất cả các lưu trữ dữ liệu của bạn và nó là một giải pháp thay thế cho Owncloud và NextCloud cung cấp dịch vụ lưu trữ, chia sẻ tệp và đồng bộ hóa. Pydio là một nền tảng chia sẻ tệp nguồn mở doanh nghiệp tương tự như Dropbox và các nền tảng lưu trữ khác. Nó giúp bạn kết nối an toàn tất cả các tệp và thiết bị của bạn trong một nền tảng.
 Tế bào Pydio là một nền tảng cộng tác và đồng bộ hóa các tệp dựa trên đám mây. Phần mềm nguồn mở này chạy trên cơ sở hạ tầng CNTT cá nhân của bạn và giúp nhân viên của bạn bảo vệ và giám sát dữ liệu kinh doanh của bạn. Bạn có thể đồng bộ hóa dữ liệu của mình và truy cập nó từ mọi nơi bằng ứng dụng di động, phần mềm máy tính để bàn hoặc trình duyệt web bằng các ô Pydio. Ứng dụng chia sẻ tệp tốt nhất của các ô Pydio dựa trên kiến ​​trúc dịch vụ vi mô và được viết bằng ngôn ngữ lập trình Golang.
 Hướng dẫn này sẽ giúp bạn cài đặt và định cấu hình phần mềm chia sẻ tệp PYDIO tự lưu trữ và nền tảng đồng bộ hóa trên các hệ thống Ubuntu LTS.
@@ -39,19 +39,19 @@ sudo reboot
 ## Bước 2: Cài đặt máy chủ đèn
 Để thiết lập máy chủ chia sẻ tệp doanh nghiệp an toàn Pydio và cách tạo một đám mây riêng nguồn mở, trước tiên chúng tôi cần thiết lập một máy chủ đèn đang chạy. Nếu bạn đã cài đặt và chạy ngăn xếp đèn, hãy bỏ qua bước này khác sử dụng các lệnh sau để thiết lập đèn trên hệ thống Ubuntu của bạn.
 
-## # Cài đặt PHP
+### Cài đặt PHP
 Bạn có thể cài đặt PHP trên hệ thống Ubuntu hoặc Debian của mình bằng cách chạy các lệnh:
 sudo apt-get install python-software-properies
 sudo ppa thêm-apt-ept-end: ondrej/php
 sudo apt-get install -y php-gd php-curl php-zip php-dom php-xml php-simplexml php-mbstring
 {{_LINE_34_}}
 
-## # Cài đặt Apache2
+### Cài đặt Apache2
 Apache là phần mềm máy chủ web nguồn mở được sử dụng rộng rãi nhất. Tiếp theo, cài đặt máy chủ web Apache trên Ubuntu bằng cách chạy:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # Cài đặt MySQL
+### Cài đặt MySQL
 Hệ thống quản lý cơ sở dữ liệu quan hệ nguồn mở của MySQL là một thành phần của ngăn xếp phần mềm ứng dụng web LAMP và các loại khác. Bây giờ đã cài đặt MySQL trên Ubuntu bằng cách chạy bên dưới:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
@@ -109,36 +109,36 @@ mysql> cấp tất cả trên pydio.* to 'pydio'@'localhost' được xác đị
 mysql> đặc quyền tuôn ra;
 mysql> bỏ
 {{_LINE_69_}}
-Tiếp theo, chúng ta cần cài đặt Pydio trên Ubuntu từ giao diện web để tạo đám mây riêng.
+Tiếp theo, chúng ta cần cài đặt Pydio trên Ubuntu từ giao diện web để tạo một đám mây riêng.
 
 ## Bước 5: Truy cập pydio trên trình duyệt của bạn
 Mở trình duyệt của bạn và nhập URL _HTTP: /// PYDIO_. Bạn sẽ thấy một trang như được hiển thị
-Phần mềm chia sẻ tệp và chia sẻ tệp đám mây riêng của Pydio hiện đã được cài đặt và định cấu hình, đã đến lúc truy cập giao diện web của họ.
+Phần mềm chia sẻ tệp và chia sẻ tệp đám mây riêng của Pydio hiện được cài đặt và định cấu hình, đã đến lúc truy cập giao diện web của họ.
 Mở trình duyệt của bạn và nhập URL http: // your -server -ip / pydio. Bạn sẽ được chuyển hướng đến trang sau:
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Trình cài đặt Pydio">}}
 
-Xác nhận tất cả các điều khiển và nhấp vào nút  **Tiếp tục cài đặt Pydio** . Bạn sẽ xem trang sau:
+Xác nhận tất cả các điều khiển và nhấp vào nút  **Tiếp tục cài đặt Pydio**  . Bạn sẽ xem trang sau:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Trình hướng dẫn thiết lập Pydio">}}
 
-Chọn ngôn ngữ của bạn và nhấp vào  **Bắt đầu Wizard** . Bạn sẽ xem trang sau:
+Chọn ngôn ngữ của bạn và nhấp vào  **Bắt đầu Wizard**  . Bạn sẽ xem trang sau:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Bắt đầu cài đặt Pydio">}}
 
-Nhập tên chương trình và tin nhắn chào mừng. Sau đó nhấp vào nút  **Tiếp theo** . Bạn sẽ xem trang sau:
+Nhập tên chương trình và tin nhắn chào mừng. Sau đó nhấp vào nút  **Tiếp theo**  . Bạn sẽ xem trang sau:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Nhập ứng dụng Pydio">}}
 
-Tiếp theo, nhập tài khoản quản trị viên của bạn và nhấp vào nút  **Tiếp theo** . Bạn sẽ xem trang sau:
+Tiếp theo, nhập tài khoản quản trị viên của bạn và nhấp vào nút  **Tiếp theo**  . Bạn sẽ xem trang sau:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Cài đặt cơ sở dữ liệu MySQL">}}
 
-Sau đó nhập chi tiết cơ sở dữ liệu của bạn, chẳng hạn như tên cơ sở dữ liệu, tên người dùng và mật khẩu. Sau đó nhấp vào nút  **Kiểm tra kết nối DB** . Bạn sẽ xem trang sau:
+Sau đó nhập chi tiết cơ sở dữ liệu của bạn, chẳng hạn như tên cơ sở dữ liệu, tên người dùng và mật khẩu. Sau đó nhấp vào nút  **Kiểm tra kết nối DB**  . Bạn sẽ xem trang sau:
 
-{{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Tùy chọn nâng cao PYDIO">}}
+{{< figure align=center src="images/Pydio-Advanced-Options.png" alt="PYDIO Tùy chọn nâng cao">}}
 
-Tiếp theo, nhấp vào nút  **Cài đặt Pydio** . Một khi cài đặt đã được hoàn thành thành công. Bạn sẽ được chuyển hướng đến trang sau:
+Tiếp theo, nhấp vào nút  **Cài đặt Pydio**  . Một khi cài đặt đã được hoàn thành thành công. Bạn sẽ được chuyển hướng đến trang sau:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Đăng nhập PYDIO">}}
 
@@ -146,7 +146,8 @@ Sau đó nhập tên người dùng và mật khẩu của bạn cho quản tr�
 
 Vâng! Xong rôi. Bây giờ bạn đã biết cách cài đặt hoàn toàn PYDIO tự lưu trữ tệp đồng bộ hóa và phần mềm chia sẻ tệp nguồn mở trên Ubuntu để xây dựng một đám mây riêng từng bước tương tự như Dropbox hoặc Google Drive.
 
-##  **Kết luận:** {#4A1A}
+##  **Phần kết luận:**   {#4a1a}
+
 Trong hướng dẫn này, bạn đã cài đặt thành công các tệp bảo mật nguồn mở của các ô Pydio trên hệ thống Ubuntu của bạn. Bạn có thể sử dụng bài viết này để tạo cơ sở hạ tầng đám mây để lưu trữ, bảo vệ và chia sẻ các tệp của bạn trong đám mây tự lưu trữ. Sử dụng chia sẻ tài liệu hợp tác Pydio và ứng dụng chia sẻ tệp miễn phí tốt nhất để có được quyền kiểm soát dữ liệu của bạn nhiều hơn và đảm bảo sự hợp tác hiệu quả trong tổ chức kinh doanh của bạn. Trong các hướng dẫn sắp tới của chúng tôi, chúng tôi sẽ thảo luận về các chủ đề thú vị hơn về các giải pháp lưu trữ đám mây nguồn mở và các công cụ cộng tác chia sẻ tệp.
 _Your có thể tham gia với chúng tôi trên [Twitter][1], [LinkedIn][2] và trang [Facebook][3] của chúng tôi. Bạn sử dụng nền tảng chia sẻ nguồn mở _file nào trên nền tảng đám mây ?. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ][4].
 
@@ -156,9 +157,10 @@ Chúng tôi cũng có một số bài viết khác liên quan đến việc qu�
   * [Cách cài đặt và bảo mật phpmyadmin với nginx trên ubuntu][6]
   * [An toàn và mã hóa Nginx với Let Let Encrypt trên Ubuntu 20.04][7]
   * [Định cấu hình hỗ trợ HTTP/2 trong Nginx trên Ubuntu/Debian][8]
-  * [Thiết lập Nginx với hành khách trên máy chủ sản xuất AWS][9]
+  * [Cài đặt nginx với hành khách trên máy chủ sản xuất AWS][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

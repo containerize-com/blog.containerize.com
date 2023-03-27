@@ -20,7 +20,8 @@ Osticket là một hệ thống bán vé giúp trợ giúp miễn phí và miễ
   * [Quy trình xác thực][3]
   * [Kết luận][4]
 
-## Quá trình tích hợp:   {#Integration}
+## Quá trình hội nhập: {#integration}
+
 Tích hợp Osticket và WordPress yêu cầu một biểu mẫu liên hệ trên trang web WordPress với các trường sau
   1. Giúp chủ đề
   2. Email
@@ -29,12 +30,13 @@ Tích hợp Osticket và WordPress yêu cầu một biểu mẫu liên hệ trê
   5. Tin nhắn
 Biểu mẫu liên hệ phải gửi email, vì plugin này nối hàm wp_mail để lấy dữ liệu biểu mẫu.
 
-## Cài đặt plugin WordPress:   {#wordpress}
+## Cài đặt plugin WordPress: {#wordpress}
+
   1. Chuyển đến bảng điều khiển quản trị của trang web WordPress của bạn.
   2. Tiếp theo đi đến phần plugins.
   3. Sau đó cài đặt [plugin][5] này.
   4. Sau đó kích hoạt plugin.
-  5. Và truy cập vào cài đặt của người Viking -> Trình kết nối Osticket.
+  5. và truy cập vào cài đặt của người Viking -> Trình kết nối Osticket.
   6. Sau đó nhập URL của trang web Osticket của bạn, tức là [http: //your.domain/api/tickets.json][6]
   7. Nhập khóa API được tạo từ bảng quản trị Osticket (được giải thích trong phần tiếp theo).
   8. Cuối cùng, điền vào tất cả các trường để ánh xạ dữ liệu từ mẫu liên hệ của bạn đến các trường vé Osticket.
@@ -42,11 +44,12 @@ Biểu mẫu liên hệ phải gửi email, vì plugin này nối hàm wp_mail �
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Tích hợp Osticket-Wordpress để tự động hóa hệ thống bán vé">}}
 
 
-## Quy trình xác thực:   {#Auth}
+## Quy trình xác thực: {#auth}
+
 Xác thực API được thực hiện thông qua các khóa API được cấu hình trong bảng quản trị của Osticket. Các khóa API được tạo và liên kết với địa chỉ IP nguồn được xác minh dựa trên IP nguồn của các yêu cầu API HTTP. Để tạo khóa API
   1. Chuyển đến bảng quản trị của Osticket.
   2. Nhấp vào Quản lý trên mạng.
-  3. Chuyển đến Menu phụ API Phím API.
+  3. Chuyển đến Menu phụ Keys API Phím.
   4. Nhấp vào trên Thêm Thêm khóa API mới.
   5. Đặt trạng thái trên mạng thành hoạt động.
   6. Kiểm tra hộp kiểm có thể tạo vé.
@@ -55,7 +58,8 @@ Xác thực API được thực hiện thông qua các khóa API được cấu 
 {{< figure align=center src="images/osticket-1024x729.png" alt="Tích hợp Osticket-Wordpress để tự động hóa hệ thống bán vé">}}
 
 
-## Kết luận:   {#conclusion}
+## Phần kết luận: {#conclusion}
+
 Tích hợp Osticket-Wordpress sẽ tự động hóa quá trình bán vé. Do đó, nó sẽ làm cho cuộc sống dễ dàng hơn cho nhóm hỗ trợ. Các yêu cầu trên trang web WordPress sẽ tự động chuyển đổi thành vé hỗ trợ trên Osticket. Để nhóm hỗ trợ có thể quản lý tất cả các truy vấn của khách hàng dễ dàng và hiệu quả hơn. Đại lý hỗ trợ sẽ được thông báo bằng thông báo email. Do đó, các đại lý có thể giải quyết các truy vấn của khách hàng đúng hạn. Phần bình luận trên Osticket giúp cả khách hàng và các đại lý hỗ trợ giao tiếp hiệu quả và kịp thời. Nó cũng giúp các nhà quản lý dễ dàng theo dõi tiến trình cho mỗi vé.
 
 ## Khám phá:
@@ -64,7 +68,8 @@ Tích hợp Osticket-Wordpress sẽ tự động hóa quá trình bán vé. Do �
   * [WordPress - Nguồn mở miễn phí và CMS được sử dụng rộng rãi nhất và công cụ viết blog][8]
   * [Cách thiết lập phần mềm bàn trợ giúp trực tuyến bằng Osticket][9]
 
-  
+
+
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

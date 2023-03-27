@@ -23,13 +23,16 @@ Mặc dù Apache và Nginx chia sẻ nhiều phẩm chất, nhưng chúng không
   * [Kết luận][5]
   * [Khám phá][6]
 
-## Apache là gì?   {#whatisapache}
+## Apache là gì? {#whatisapache}
+
 Máy chủ Web Apache là một trong những máy chủ phổ biến nhất trên Internet và phục vụ hơn 27% trang web. Apache chủ yếu là sự lựa chọn đầu tiên của các nhà phát triển do tính linh hoạt, sức mạnh cũng như hỗ trợ rộng rãi và tài liệu chi tiết. Nó hỗ trợ các mô -đun có thể tải động cho phép các nhà phát triển dễ dàng mở rộng chức năng của nó.
 
-## Nginx là gì?   {#whatisnginx}
+## Nginx là gì? {#whatisnginx}
+
 Bài viết này là về Apache vs Nginx so sánh. Cả hai máy chủ web đều có nguồn mở, có thể định cấu hình và xử lý hơn một nửa lưu lượng truy cập Internet trên thế giới.
 
-## Apache vs nginx so sánh   {#APACHEVSNGINX}
+## Apache vs nginx so sánh {#apachevsnginx}
+
 Trong phần này, hãy để so sánh Apache và Nginx trên cơ sở hỗ trợ, tài liệu, loại nội dung và cấu trúc cấu hình.
 
 #### Ngành kiến ​​​​trúc
@@ -50,22 +53,26 @@ Apache Server có khả năng diễn giải một yêu cầu là tài nguyên v�
 #### Cấu hình
 Apache cung cấp khả năng cho các nhà phát triển đặt cấu hình ở cấp độ thư mục bằng cách sử dụng tệp được gọi là .htaccess. Nhưng trong trường hợp Nginx, không có cơ chế nào như vậy để đặt cấu hình ở cấp độ thư mục. Apache cung cấp sự linh hoạt hơn Nginx về mặt cấu hình.
 
-## Nginx tốt hơn Apache?   {#nginx}
+## Nginx có tốt hơn Apache không? {#nginx}
+
 Nginx nhanh hơn Apache để phục vụ nội dung tĩnh. Vì vậy, nếu ứng dụng web của bạn phục vụ nhiều nội dung tĩnh thì có Nginx tốt hơn và nhanh hơn Apache. Theo như nội dung động có liên quan, cả hai máy chủ web gần như mang lại hiệu suất giống nhau nên không có người chiến thắng rõ ràng ở đây. Cả Apache và Nginx đều chạy trên hầu hết các hệ điều hành, nhưng hiệu suất của Nginx trên Windows không tốt so với Apache. Nếu hệ điều hành của bạn là một hệ thống giống như UNIX và ứng dụng web của bạn có hiệu suất quan trọng thì có, Nginx tốt hơn Apache.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Cả Apache và Nginx đều có khả năng theo cách riêng của họ. Chúng tôi đã thảo luận về so sánh Apache vinx, Apache là gì, Nginx là gì về chi tiết và sự khác biệt giữa Apache và Nginx. Chọn một từ hai máy chủ web phổ biến nhất này hoàn toàn phụ thuộc vào các yêu cầu của các ứng dụng web của bạn. Lựa chọn phụ thuộc vào kỳ vọng của bạn với hiệu suất, sử dụng tài nguyên, tốc độ, khả năng mở rộng và hỗ trợ của máy chủ web. Cả hai đều có lợi ích riêng của họ. Không có máy chủ web phù hợp với một kích cỡ, vì vậy hãy sử dụng giải pháp phù hợp nhất với mục tiêu và kỳ vọng của bạn.
 Cuối cùng, [containerize.com][7] liên tục viết các bài đăng trên blog về các sản phẩm và chủ đề nguồn mở tiếp theo. Do đó, vui lòng giữ liên lạc với danh mục [Máy ​​chủ web nguồn mở][8] để cập nhật thường xuyên. Hơn nữa, bạn có thể theo dõi chúng tôi trên các tài khoản truyền thông xã hội của chúng tôi [Facebook][9], [LinkedIn][10] và [Twitter][11].
 
-## Khám phá   {#Explore}
+## Khám phá {#explore}
+
 Bạn có thể tìm thấy các liên kết sau có liên quan:
-  * [Top 5 Stack giải pháp máy chủ web nguồn mở vào năm 2021][12]
+  * [Top 5 Ngăn xếp giải pháp máy chủ web nguồn mở vào năm 2021][12]
   * [Cài đặt XAMPP và PHPMyAdmin là Localhost trên Windows][13]
   * [XAMPP | Ngăn xếp giải pháp máy chủ web miễn phí và nguồn mở][14]
   * [Nginx | Máy chủ web nhẹ và hiệu suất cao][15]
   * [Hướng dẫn thiết lập cho Stack Lemp trên Ubuntu 18.04][16]
 
-  
+
+
 [1]: #whatisapache
 [2]: #whatisnginx
 [3]: #apachevsnginx

@@ -15,24 +15,28 @@ Cómo crear el tema de WordPress es una de las principales consultas en la búsq
   * [Requisitos][1]
   * [Guía paso a paso][2]
 
-## # Requisitos   {#Requirements}
+
+### Requisitos {#requirements}
+
 Primero y lo más importante que debe hacer es instalar WordPress. WordPress es conocido por su facilidad de instalación. Es un proceso simple y se puede hacer fácilmente siguiendo la [Guía][3].
 
-## # Cómo crear un tema de WordPress; Guía paso a paso   {#Guide}
-Para el tema de WordPress, todo se hará en el directorio **wp_content  **solamente. Simplemente haga una nueva subcarpeta de tema en la carpeta **  WP_CONTENT → TEMSES.  **Supongamos que lo nombra **  "CustomTheme"** .
-La segunda cosa es decidir el diseño del tema. Aquí, el tutorial muestra el diseño básico que consta de **encabezado, área principal, pie de página, barra lateral** .
-Básicamente, WordPress solo necesita 2 archivos, es decir, style.css e index.php. Pero, para este diseño, necesita **5 archivos** , como sigue;
-  ***Header.php -**  Contiene el código para la sección del encabezado del tema.
-  ***Index.php -**  Contiene el código para el área principal y especificará dónde se incluirán los otros archivos. Este es el archivo principal del tema.
-  ***Sidebar.php -**  Contiene la información sobre la barra lateral.
-  ***Fuente.php -**  Maneja la sección de pies de página.
-  ***style.css -**  Responsable del estilo de su tema.
-  ***bootstrap.css -**  No se requiere código CSS separado; altamente receptivo.
-  ***Bootstrap.js -**  Proporciona su propia JS para la barra de navegación o pestañas, etc.
-**Bootstrap.js  **y **  bootstrap.css  **debe descargarse del paquete Bootstrap y copiarse en la carpeta **  Tema** .
+
+### Cómo crear el tema de WordPress; Guía paso por paso {#guide}
+
+Para el tema de WordPress, todo se hará en el directorio  **wp_content** solamente. Simplemente haga una nueva subcarpeta de tema en la carpeta  **WP_CONTENT → TEMSES.**  Supongamos que lo nombra **"CustomTheme"**  .
+La segunda cosa es decidir el diseño del tema. Aquí, el tutorial muestra el diseño básico que consta de  **encabezado, área principal, pie de página, barra lateral**  .
+Básicamente, WordPress solo necesita 2 archivos, es decir, style.css e index.php. Pero, para este diseño, necesita  **5 archivos**  , como sigue;
+*  **Header.php -**  Contiene el código para la sección del encabezado del tema.
+*  **Index.php -**  Contiene el código para el área principal y especificará dónde se incluirán los otros archivos. Este es el archivo principal del tema.
+*  **Sidebar.php -**  Contiene la información sobre la barra lateral.
+*  **Fuente.php -**  Maneja la sección de pies de página.
+*  **style.css -**  Responsable del estilo de su tema.
+*  **bootstrap.css -**  No se requiere código CSS separado; altamente receptivo.
+*  **Bootstrap.js -**  Proporciona su propia JS para la barra de navegación o pestañas, etc.
+ **Bootstrap.js** y **bootstrap.css** debe descargarse del paquete Bootstrap y copiarse en la carpeta **Tema** .
 Aquí están los pasos a seguir hasta el tema de configuración
 
-## # Paso 1: Archivo Header.Php
+### Paso 1: Archivo Header.Php
 Coloque el siguiente código en el archivo Header.php.
 ```
 <html>
@@ -57,7 +61,7 @@ Coloque el siguiente código en el archivo Header.php.
 ```
 Este archivo de encabezado.php contiene el código para la parte del encabezado en la que está vinculado el archivo JS y el estilo. Muestra el encabezado de la página.
 
-## # Paso 2: archivo index.php
+### Paso 2: archivo index.php
 Coloque el siguiente código en el archivo principal index.php
 ```
 <?php get_header(); ?>
@@ -83,7 +87,7 @@ Coloque el siguiente código en el archivo principal index.php
 ```
 El código anterior muestra el contenido principal de la publicación, la barra lateral y el pie de página.
 
-## # Paso 3: archivo de barra lateral.php
+### Paso 3: archivo de barra lateral.php
 Agregue el siguiente código en la barra lateral.php
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +99,7 @@ Agregue el siguiente código en la barra lateral.php
 ```
 En el código anterior, las funciones internas de WordPress se llaman para mostrar diferentes categorías, archivos de publicaciones.
 
-## # Paso 4: archivo de footer.php
+### Paso 4: archivo de footer.php
 Agregue las líneas de código a continuación al archivo Footer.php:
 ```
 <div id= "ttr_footer">
@@ -132,10 +136,11 @@ font-weight: bold;
 ```
 Después de seguir todos los pasos anteriores, tendrá un tema básico de WordPress de trabajo. Puede modificarlo aún más para que sea más hermoso y adecuado para sus requisitos.
 
-## # Conclusión
+### Conclusión
 En este tutorial hemos explicado cómo crear un tema de WordPress en pasos simples y sencillos. Después de leer y seguir los pasos, crear un tema de WordPress no es una tarea más difícil ahora. Pero, obviamente, este tutorial se adhiere a una configuración muy básica y para mejorar la parte superior, tendrá que aprender más sobre HTML, CSS, JS y PHP.
 
-  
-[1]: #requirements
-[2]: #guide
-[3]: https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #requirements
+ [2]: #guide
+ [3]: https://products.containerize.com/blogging/wordpress

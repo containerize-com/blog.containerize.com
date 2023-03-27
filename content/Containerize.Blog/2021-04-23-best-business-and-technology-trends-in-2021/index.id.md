@@ -14,7 +14,7 @@ categories: ['Business Intelligence Software']
 {{< figure align=center src="images/business-and-technology-trends.png" alt="Teknologi Teratas dan Tren Bisnis untuk 2021">}}
 
 
-## **Ringkasan**
+## **Ringkasan** 
 Pandemi virus Corona telah memaksa bisnis untuk mengadopsi transformasi digital di hampir setiap industri. Covid-19 terus mendatangkan malapetaka dan gangguan di seluruh dunia. 2020 telah menjadi tahun yang sangat menantang pandemi dan ketidakpastian. 2020 mempercepat proses inovasi sebagai tren teknologi dan bisnis terkemuka. Itu sebabnya juga akan diingat sebagai tahun yang mengubah cara hidup kita. Banyak orang yang bekerja dari rumah. Jutaan orang di seluruh dunia harus mengandalkan konferensi video seperti zoom atau skype untuk berkomunikasi satu sama lain.
 Pandemi Coronavirus juga telah mempercepat adopsi utama transformasi digital seperti pekerjaan jarak jauh, jaringan 5G. Solusi teknologi jarak jauh lainnya dan operasi bedah digital jarak jauh juga dipercepat. Di dunia pasca Covid-19, orang beradaptasi dengan cara hidup baru. Perusahaan startup inovatif yang memungkinkan kami untuk bekerja, dan berkomunikasi secara virtual, mendorong amplop dengan memperkenalkan teknologi baru. Ini akan membantu kita menghadapi lebih baik dengan tantangan yang datang dengan kehidupan pandemi. Dalam posting blog ini kita akan memeriksa beberapa tren teknologi dan bisnis yang muncul pada tahun 2021. Ini dapat menetapkan kursus ide -ide bisnis tren baru selama beberapa tahun ke depan.
   * Pekerjaan jarak jauh dan teknologi SDM
@@ -44,7 +44,8 @@ Startup teknologi baru dan perusahaan publik paling terkenal seperti One Medical
 Kecerdasan buatan (AI) tidak hanya akan merancang produk tetapi juga membuat keputusan tentang bagaimana mereka akan diproduksi dan diproses. Kecerdasan buatan adalah tren teknologi populer dalam bisnis dan tren terbaru dalam bisnis internasional. Pengembangan obat -obatan baru saat ini sepenuhnya bergantung pada percobaan dan kesalahan dan AI secara radikal akan meningkatkan waktu siklus untuk membawa obat ke pasar. Data dan analitik akan membantu dalam pengambilan keputusan waktu nyata. Algoritma akan meningkatkan kualitas dengan input dan diharapkan bahwa AI di perusahaan manufaktur akan mengurangi limbah hingga 50% atau lebih.
 Artificial Intelligence (AI) telah meningkatkan operasi untuk banyak perusahaan dan bisnis. Pandemi bahkan membuat penggunaannya lebih umum. AI, data, dan pembelajaran mesin telah memainkan peran yang tak tertandingi selama pandemi coronavirus ini. Kecerdasan buatan membantu dalam memberikan saran kepada pelanggan saat berbelanja di Amazon, atau bahkan ketika mereka menonton film di Netflix. Lebih banyak bisnis dan perusahaan akan mendapat manfaat dari AI karena komputasi awan terus memungkinkan akses ke perangkat lunak yang meningkat, daya komputasi, dan aplikasi. Diperkirakan 50% perusahaan yang menggunakan kecerdasan buatan telah meningkatkan total pengeluaran per pelanggan.
 
-## kesimpulan:   {#conclusion}
+## Kesimpulan: {#conclusion}
+
 Tren bisnis dan teknologi terkemuka mungkin baru saja dimulai dan Anda akan melihat perubahan besar pada tahun 2021. Pandemi COVID-19 telah secara permanen mengubah lintasan bisnis kami dan bagaimana kami berpikir tentang keamanan di tempat kerja. Teknologi baru ini dapat memengaruhi Anda untuk lebih baik dan banyak perilaku baru kami akan menjadi bagian dari normal baru pada tahun 2021 pandemi Covid-19 untuk membantu mendorong AI utama dan teknologi pembelajaran mesin dan inovasi bisnis. Pada tahun 2021 Pandemi, sangat penting bahwa bisnis terus berinvestasi dalam teknologi TI tren teratas.
 Tim Containerize kami membantu bisnis memanfaatkan tren teknologi yang muncul untuk memicu pertumbuhan mereka. Tim Produk Kontainerisasi kami memiliki pengalaman menangani proyek -proyek yang mudah untuk kompleks dan jika Anda memiliki tantangan teknologi dan membutuhkan dukungan di ujung jalan, jangan ragu untuk menghubungi kami.
 _Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Facebook][3] kami. Tren bisnis dan teknologi apa yang Anda sukai? Jika Anda memiliki pertanyaan atau umpan balik, silakan_ [hubungi Anda][4].
@@ -53,13 +54,14 @@ _Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Fa
 Anda mungkin menemukan lebih banyak terkait artikel di bawah ini:
   * [Tren Pengembangan Perangkat Lunak yang Harus Dicari Pada 2021][5]
   * [5 alat pemasaran digital terbaik untuk membantu Anda tumbuh di tahun 2021][6]
-  * [Praktik Pemasaran Digital Penting untuk Startup pada 2021][7]
+  * [Praktik pemasaran digital penting untuk startup pada tahun 2021][7]
   * [Top 5 Open Source Marketplace Software pada tahun 2021][8]
-  * [Top 5 Perangkat Lunak Penyimpanan Cloud Open Source di 2021][9]
+  * [Top 5 Perangkat Lunak Penyimpanan Cloud Open Source pada tahun 2021][9]
   * [Perangkat Lunak Antrian Pesan Paling Populer (MQ) pada tahun 2021][10]
   * [Top 5 Open Source Digital Forensik Alat di 2021][11]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

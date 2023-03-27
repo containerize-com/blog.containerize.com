@@ -13,10 +13,10 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/Multi-tenancy-phplist.png" alt="Çok kiracılı uygulama Phplist">}}
 
-Bu makalede, **çok kiracılık neyi  **ve Phplist'te **  çok kiracılı uygulama**  nasıl yapılandırabileceğimizi ele alacağız.
+Bu makalede, **çok kiracılık neyi**ve Phplist'te**çok kiracılı uygulama** nasıl yapılandırabileceğimizi ele alacağız.
 
 ## Phplist nedir?
-Pazarlama stratejisine karar verirken, e -posta pazarlaması her çevrimiçi dijital şirketin önemli bir parçasıdır. Phplist, işletmelerin geniş bir kitleye ulaşmalarını sağlar. Phplist, listeleri yönetmek ve bültenleri göndermek için **açık kaynak bülten yazılımı**  yaygın olarak kullanılmaktadır. Şirketlerin bülten kampanyaları oluşturmasına, planlamasına, göndermesine ve analiz etmesine yardımcı olur. Phplist, analiz, segmentasyon, sıçrama işleme, eklentiler, API'ler ve daha fazlası gibi özellikleri destekler.
+Pazarlama stratejisine karar verirken, e -posta pazarlaması her çevrimiçi dijital şirketin önemli bir parçasıdır. Phplist, işletmelerin geniş bir kitleye ulaşmalarını sağlar. Phplist, listeleri yönetmek ve bültenleri göndermek için **açık kaynak bülten yazılımı** yaygın olarak kullanılmaktadır. Şirketlerin bülten kampanyaları oluşturmasına, planlamasına, göndermesine ve analiz etmesine yardımcı olur. Phplist, analiz, segmentasyon, sıçrama işleme, eklentiler, API'ler ve daha fazlası gibi özellikleri destekler.
 
 ## Çok kiracılık nedir?
 Multi-kiracılık, birçok müşterinin/sitenin bir yazılım uygulamasının tek bir örneği ile temsil edildiği bir mimaridir. Çok kiracılıkta, site kiracı olarak kabul edilir. Her kiracının yapılandırma, temalar, SMTP gibi özel özellikleri vardır.
@@ -29,7 +29,8 @@ Phplist'te çok kiracılık uygulamak için her kiracı yaklaşımı için ayrı
   * [Kiracı için kurulum veritabanı][2]
   * [Kiracı için Nginx yapılandırın][3]
 
-## TEPLE AKIŞI   {#REQUEST}
+## Teslim Talep Akışı {#request}
+
   * Config.php dosyanızın bir yedeğini alın ve bunu yapılandırma dizininin altında bulabilirsiniz.
   * Yeni bir Config.php dosyası oluşturun ve siteleri/kiracıları işlemek için aşağıdaki kodu ekleyin.
 ```
@@ -45,18 +46,20 @@ switch ($_SERVER['SERVER_NAME'])
 ```
 Örnek.com'u alan adınızla değiştirin. Ayrıca her kiracı için bir yapılandırma dosyası oluşturmanız gerekir. Config.php'in yedekleme dosyasını kopyalayın ve config.example.com.php gibi yeni bir adla kaydedin.
 
-## Kiracı için kurulum veritabanı   {#database}
+## Kiracı için kurulum veritabanı {#database}
+
   * Mevcut Phplist veritabanının yedeğini alın. Yeni kiracı için bir veritabanı oluşturmak için kullanın.
   * Config.example.com.php dosyasını açın. Veritabanı kimlik bilgilerini ve diğer ayarları ortamınıza göre değiştirin.
 
-## Kiracı için Nginx yapılandırın   {#nginx}
-  *Nginx dizinine gidin **CD/etc/nginx/siteler-BAĞLANTI** .
+## Kiracı için Nginx'i yapılandırın {#Nginx}
+
+* Nginx dizinine gidin **CD/etc/nginx/siteler-BAĞLANTI** .
   * Varsayılan config.php dosyasını kopyalayın ve örnek.com gibi site adınızla kaydedin.
-  ***sudo nano örnek.com**  ile örnek.com yapılandırması.
+* **sudo nano örnek.com** ile örnek.com yapılandırması.
   * Kök yolunu, Server_Name ve diğer ayarları değiştirin.
-  ***sudo nginx -t**  ile yapılan yapılandırmaları test edin
-  *Son olarak,  **sudo ln -s /etc/nginx/sites-vailable/example.com/etc/nginx/sites-etkin/** 
-  *Yeni oluşturulan yapılandırma dosyasını yükleyebilmesi için **sudo SystemCtl yeniden başlatma nginx**  çalıştırarak nginx web sunucusunu yeniden başlatın.
+* **sudo nginx -t** ile yapılan yapılandırmaları test edin
+* Son olarak, **sudo ln -s /etc/nginx/sites-vailable/example.com/etc/nginx/sites-etkin/** 
+* Yeni oluşturulan yapılandırma dosyasını yükleyebilmesi için **sudo SystemCtl yeniden başlatma nginx** çalıştırarak nginx web sunucusunu yeniden başlatın.
 
 ## Çözüm
 Çok kiracılık yazılımının, bakım maliyetlerini azaltma, etkili kaynak kullanımı ve yüklenmesi kolay güncellemeler gibi tek kiracılık uygulamasına kıyasla bazı avantajları vardır. SaaS (hizmet olarak yazılım) yazılımı oluşturacaksanız, çok kiracılık mimarisini takip edebilir ve gerçek gücünün tadını çıkarabilirsiniz.
@@ -65,11 +68,12 @@ switch ($_SERVER['SERVER_NAME'])
 Aşağıdaki bağlantıları alakalı bulabilirsiniz:
   * [Phplist - Açık Kaynak Bülten ve E -posta Pazarlama Yazılımı][4]
   * [Phplist kullanarak bülten nasıl oluşturulur ve gönderilir][5]
-  * [Phplist'te sıçramalar nasıl kurulur ve işlenir][6]
+  * [Phplist'te sıçrama nasıl kurulur ve işlenir][6]
   * [Phplist eklentisini geliştirmek için yeni başlayanlar rehberi][7]
   * [Phplist'te Gelişmiş Buluş Yönetimi ve Sıçrama Kuralları Kurulumu][8]
 
-  
+
+
 [1]: #request
 [2]: #database
 [3]: #nginx

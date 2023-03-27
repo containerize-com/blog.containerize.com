@@ -11,16 +11,17 @@ categories: ['Programming']
 
 Sumber daya cluster ## Kubernetes dibagikan di antara semua penyewa. Menerapkan pendekatan host kontainer multi-tenant untuk menggunakan aplikasi yang dioptimalkan dan hemat sumber daya.
 
-{{< figure align=center src="images/Kubernetes Multi-Tenancy & Container-Based Architecture.png" alt="Kubernetes Multi-Tenancy & Container Berbasis Arsitektur " caption="Kubernetes Multi-Tenancy & Container-Based Architecture" >}}
+{{< figure align=center src="images/Kubernetes Multi-Tenancy & Container-Based Architecture.png" alt="Kubernetes Multi-Tenancy & Container Berbasis Arsitektur " caption=" Kubernetes Multi-Tenancy & Container Architecture" >}}
 
 
 ## Ringkasan
 Kami di sini dengan posting blog lain yang menarik dalam serangkaian multi-tenancy. Dalam [artikel] kami sebelumnya [1], kami menyentuh konsep dasar di balik aplikasi multi-penyewa, pro, dan kontra, dan jenis arsitektur multi-penyewa. Karena sudah saatnya melayani banyak pengguna/penyewa, mengelola dan memanfaatkan sumber daya dengan cara yang efisien. Jadi, multi-tenancy adalah pendekatan teratas untuk membangun infrastruktur yang menangani berbagai klien/penyewa secara bersamaan. Namun, [posting blog] terbaru kami [2] menunjukkan arsitektur tanpa server, kontainerisasi, dan [Kubernetes][3]. Oleh karena itu, dalam artikel ini, kami akan mengeksplorasi arsitektur berbasis multi-tenancy & container. Selain itu, kami akan melihat bagaimana Anda dapat mencapai multi-tenancy di aplikasi [containerisasi][4] Anda.
 Poin -poin berikut harus dibahas dalam artikel ini:
-* **[host wadah multi-tenant][5]**
-* **[Kubernetes multi-tenancy][6]**
+* **[host wadah multi-tenant][5]** 
+* **[Kubernetes multi-tenancy][6]** 
 
-## Host Wadah Multi-Tenant   {#Multi-tenant-Container-Hosts}
+## Host Wadah Multi-Tenant {#Multi-Tenant-container-hosts}
+
 Penyebaran aplikasi multi-penyewa adalah tugas penting dalam hal hosting platform. Anda semua tahu bahwa wadah ringan dibandingkan dengan mesin virtual. Penyebaran aplikasi hanya membutuhkan beberapa milidetik untuk menyelesaikan penyebaran sedangkan, itu bisa jadi masalah detik hingga menit dalam kasus mesin virtual.
 Namun, mencapai multi-tenancy dalam arsitektur berbasis kontainer cukup mudah. Setiap penyewa di -host oleh wadah terpisah dengan isolasi lengkap dan privasi data. Itu berarti jumlah kontainer tergantung pada jumlah penyewa. Selanjutnya, alat berikut akan digunakan untuk mencapai pendekatan ini:
   * Docker dan Docker menyusun
@@ -29,7 +30,8 @@ Namun, mencapai multi-tenancy dalam arsitektur berbasis kontainer cukup mudah. S
   * Server Aplikasi
 Anda akan menggunakan Docker untuk membangun gambar yang merupakan templat untuk membangun wadah. Selain itu, Anda akan menggunakan Docker Compose untuk memutar beberapa host wadah. Selain itu, Anda akan menggunakan Nginx untuk mengarahkan kembali permintaan yang masuk ke penyewa yang tepat. Jadi, setiap host kontainer berisi aplikasi dan instance basis data. Metode host wadah multi-penyewa**ini bukan sumber daya yang intensif dan menawarkan ketahanan dalam mengelola berbagai penyewa dan memastikan isolasi dan keamanan data.
 
-## Kubernetes multi-tenancy   {#Kubernetes-multi-tenancy-}
+## Kubernetes multi-tenancy {#Kubernetes-Multi-Tenancy-}
+
 Kubernet berisi banyak komponen dalam arsitekturnya seperti node, cluster, bidang kontrol, dan banyak lagi. Pada dasarnya, tidak ada multi-tenancy bawaan di Kubernetes tetapi Anda dapat mencapainya. Jadi, ada beberapa aplikasi/penyewa yang menjalankan dan berbagi kluster Kubernetes dan pesawat kontrol. Di sisi lain, dalam aplikasi penyewa tunggal, satu contoh aplikasi menempati seluruh cluster Kubernetes.
 
 {{< figure align=center src="images/kubernetes.svg" alt="Kubernetes multi-tenancy" >}}
@@ -38,7 +40,7 @@ Selain itu, menjadi sedikit lebih dalam akan membuat kita belajar tentang hostin
 Secara adil, Kubernetes Multi-tenancy menawarkan solusi hemat biaya untuk organisasi yang berurusan dengan banyak antarmuka pengguna. Bahkan, Anda dapat menghadapi beberapa tantangan seperti manajemen pengguna dan manajemen sumber daya yang lebih baik. Namun demikian, itu benar -benar tergantung pada kasus penggunaan dan sifat aplikasi yang Anda tuju.
 
 ## Kesimpulan
-Ini membawa kita ke akhir posting blog ini. Kami telah melalui**Kubernetes multi-tenancy & arsitektur berbasis wadah**untuk mencapai multi-tenancy. Selain itu, ada banyak perpustakaan pihak ketiga yang tersedia untuk menjembatani aplikasi multi-penyewa dengan Kubernetes. Posting blog ini akan membantu Anda dalam memahami konsep**host wadah multi-tenant**. Ada posting blog menarik lainnya yang mungkin Anda temukan di bagian "Lihat juga".
+Ini membawa kita ke akhir posting blog ini. Kami telah melalui **Kubernetes multi-tenancy & arsitektur berbasis wadah**untuk mencapai multi-tenancy. Selain itu, ada banyak perpustakaan pihak ketiga yang tersedia untuk menjembatani aplikasi multi-penyewa dengan Kubernetes. Posting blog ini akan membantu Anda dalam memahami konsep**host wadah multi-tenant** . Ada posting blog menarik lainnya yang mungkin Anda temukan di bagian "Lihat juga".
 
 ## Terhubung dengan kami
 Terakhir, [containerize.com][7] menawarkan posting blog yang sedang berlangsung di berbagai produk dan topik open-source. Anda dapat tetap berada di loop dengan mengikuti kami di platform media sosial kami, termasuk [Facebook][8], [LinkedIn][9], dan [Twitter][10].
@@ -47,9 +49,9 @@ Terakhir, [containerize.com][7] menawarkan posting blog yang sedang berlangsung 
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [11].
 
 ## FAQ
-**Apa itu multi-tenancy di Kubernetes?**?
+**Apa itu multi-tenancy di Kubernetes?** ?
 Ikuti ini [tautan][6] untuk mengetahui Kubernetes multi-tenancy.
-**Apa itu kluster multi-tenant vs tunggal?**
+**Apa itu kluster multi-tenant vs tunggal?** 
 Dalam cluster multi-tenant, semua penyewa/klien berbagi kluster Kubernetes sedangkan, dalam satu cluster penyewa tunggal, ada satu cluster terpisah yang berjalan untuk setiap penyewa.
 
 ## Lihat juga
@@ -61,7 +63,8 @@ Dalam cluster multi-tenant, semua penyewa/klien berbagi kluster Kubernetes sedan
   * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI][17]
   * [Pengantar Kecerdasan Buatan | Apa itu ai?][18]
 
-  
+
+
 [1]: https://blog.containerize.com/programming/what-is-multitenancy-why-a-multi-tenant-approach-2/
 [2]: https://blog.containerize.com/programming/what-is-serverless-computing-serverless-architecture/#Serverless-vs-Containers
 [3]: https://products.containerize.com/devops/kubernetes/

@@ -21,11 +21,13 @@ Recientemente publicamos una [publicación de blog][1] que habla sobre el impact
   * [Exploración de características de JITSI para conocer][5]
   * [Conclusión][6]
 
-## Una breve introducción de Jitsi Meet   {#Intro}
+## Una breve introducción de Jitsi Meet {#intro}
+
 [Jitsi Meet][7] es un software de colaboración de video de video, seguro y escalable completamente gratuito. Proporciona varias características populares, como la videoconferencia multipartidista con cifrado completo, soporte para Etherpad y grabación de video/audio. Este software compatible con WEBRTC le permite invitar a tantos usuarios como desee en una reunión de video.
 El aumento de las reuniones virtuales comenzó en los últimos tiempos y las personas creen que la comunicación a través de llamadas de video/audio es más efectiva y colaborativa. Sobre todo, esta categoría de software no solo funciona en computadoras portátiles/computadoras de escritorio, sino que también permite a los participantes asistir a reuniones de video seguras cara a cara a través de su teléfono móvil.
 
-## ¿Cómo configurar Jitsi Meet?   {#configuración}
+## ¿Cómo configurar Jitsi Meet? {#setup}
+
 En esta sección, entraremos en el proceso de instalación de Jitsi Meet. Primero, asegúrese de haber instalado el siguiente requisito previo.
   * [Docker][8]
 Una vez que se instale Docker, descargue el archivo zip del código fuente de este [enlace][9].
@@ -38,7 +40,8 @@ Ahora, ejecute el siguiente comando para crear los directorios requeridos.
 Finalmente, ejecute este comando para girar la imagen de Docker y acceder a la aplicación en esta URL en el navegador.
 `Docker -Compose Up -d`
 
-## jitsi se encuentra con características exploración   {#features}
+## Jitsi Meet Características Exploración {#features}
+
 Este software de chat de video gratuito ofrece muchas características ricas. Esta es la página de inicio que se mostrará primero.
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="videoconferencia">}}
@@ -64,7 +67,8 @@ Jitsi Meet ofrece chat integrado con emojis.
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.19.57_.jpg" alt="Software de reunión de video">}}
 
 
-## conclusión   {#con}
+## Conclusión {#con}
+
 En este artículo, pasamos por un impresionante software de comunicación remota y su proceso de instalación. Además, es hora de optar por las mejores soluciones para sincronizar las necesidades comerciales con tecnologías en evolución. Al final, [Contenerize.com][10] ha estado trabajando para extender la lista de software de videoconferencia. Por lo tanto, manténgase conectado con la categoría [Software de videoconferencia][2] para actualizaciones regulares.
 
 ## Páginas de productos relevantes
@@ -75,7 +79,8 @@ Puede encontrar los siguientes enlaces relevantes:
   * [Elemento][13]
   * [Cable][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

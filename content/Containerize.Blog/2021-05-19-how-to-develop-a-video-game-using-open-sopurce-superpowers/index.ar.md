@@ -17,12 +17,13 @@ categories: ['Game Development Software']
 ## ملخص
 في الماضي القريب ، تم نشر بعض المقالات على فئة [Development Software][1] تتضمن كيفية استفادة صناعة الألعاب العالمية من البرامج المفتوحة المصدر والبرنامج GDEvelop للمبتدئين لبدء تطوير اللعبة. تم تطوير تطوير ألعاب الفيديو في جميع أنحاء العالم مع زيادة الطلب على الألعاب الترفيهية. ومع ذلك ، فإنه ينطوي على الفكرة ، وتطوير التصميم ، والاختبار المستمر ، والإصدارات ، والتعليقات. بمعنى آخر ، فإنه يشمل المصممين ومهندسي البرمجيات والمبرمجين والمختبرين وموارد الدعم. بالإضافة إلى ذلك ، هناك العديد من أنواع الألعاب مثل ألعاب الحركة وألعاب الألغاز وألعاب السباقات والألعاب المعرفية وغيرها.
 لذلك ، هناك حاجة ماسة إلى دليل تطوير اللعبة الجيد من أجل البدء في البدء في أي منشئ لعبة ثلاثي الأبعاد. طور مجتمع المصدر المفتوح العديد من برامج تطوير الألعاب التي توفر ميزات وأدوات مساعدة على مستوى المؤسسة لتطوير ألعاب ثلاثية الأبعاد و 2D. سيستكشف برنامج تطوير لعبة HTML5 هذا كيفية تطوير لعبة فيديو باستخدام برنامج تطوير ألعاب الفيديو المجاني  **Superpowers**  من خلال تغطية النقاط التالية.
-  * **[ما هو القوى العظمى][2]**
-  * **[كيفية الإعداد على المضيف المحلي؟][3]**
-  * **[لوحة القيادة للقوى العظمى؟][4]**
-  * **[الخلاصة][5]**
+*  **[ما هو القوى العظمى][2]**  
+*  **[كيفية الإعداد على المضيف المحلي؟][3]**  
+*  **[لوحة القيادة للقوى العظمى؟][4]**  
+*  **[الخلاصة][5]**  
 
-## ما هو الأدوات العظمى   {#intro}
+## ما هي القوى العظمى {#intro}
+
 [القوى العظمى][6] هو برنامج مفتوح المصدر لتطوير ألعاب الفيديو. إنها مرنة وقوية وقابلة للتمديد. ومع ذلك ، فإنه يقدم الدعم للرسوم المتحركة ، والموديلات ثلاثية الأبعاد ، ومجموعة واسعة من أمثلة اللعبة. علاوة على ذلك ، فإنه يأتي أيضًا مع إصدار غير متصل بالإنترنت حيث يمكن للمستخدمين إنشاء ألعاب دون أي اتصال بالإنترنت. إن نشر أي مشروع سهل بشكل مثير للدهشة وكل ما يحدث بنقرة واحدة. هناك لوحة معلومات بديهية للمستخدمين حيث يمكن للمستخدمين التنقل عبر العناصر المختلفة بسهولة. قبل كل شيء ، هناك مجموعة رائعة جدًا من الإبلاغ عن الخطأ الذي يظهر فيه الخطأ للمطور لتجنب أي غموض أو خطأ. من السهل إعداد القوى العظمى وتتطلب متطلبات سهلة لاستضافة الخوادم على الخوادم بشكل أكبر ، ويتم كتابة منشئ اللعبة ثلاثي الأبعاد في TypeScript ويأتي مع جميع الوثائق المتعلقة بالتطوير والنشر. لذلك ، كل رمز المصدر متاح في [github][7].
 تقدم القوى العظمى النقاط الرئيسية التالية:
   * الإبلاغ عن خطأ مباشر
@@ -31,8 +32,9 @@ categories: ['Game Development Software']
   * المؤثرات الغنية والمؤثرات الصوتية
   * مستضافة ذاتي
 
-## كيفية الإعداد على المضيف المحلي؟   {#يثبت}
-إذا كنت لا تزال تتساءل عن كيفية تطوير لعبة فيديو ، فسوف نتعلم في هذا الجزء من المقالة كيفية إعداد القوى العظمى على المضيف المحلي. في هذا القسم ، سوف يوضح دليل تطوير اللعبة **** عملية إنشاء بيئة تطوير اللعبة.
+## كيف تنشئ على المضيف المحلي؟ {#setup}
+
+إذا كنت لا تزال تتساءل عن كيفية تطوير لعبة فيديو ، فسوف نتعلم في هذا الجزء من المقالة كيفية إعداد القوى العظمى على المضيف المحلي. في هذا القسم ، سوف يوضح دليل تطوير اللعبة****عملية إنشاء بيئة تطوير اللعبة.
 بادئ ذي بدء ، تأكد من تثبيت المتطلبات المسبقة التالية قبل بدء تطوير ألعاب الفيديو:
   * شخص سخيف
   * NPM
@@ -65,7 +67,8 @@ node server start
 <a href="http://localhost:4237/">http://localhost:4237/</a>
 ```
 
-## لوحة القيادة من القوى العظمى؟   {#سمات}
+## لوحة القيادة من القوى العظمى؟ {#features}
+
 عند ضرب عنوان URL أعلاه ، سترى الصفحة الرئيسية التالية. هناك خيارات لتعديل أو إنشاء مشروع جديد فارغ أو ثنائي الأبعاد.
 
 {{< figure align=center src="images/Screenshot-2021-05-20-at-21.41.27-1024x577.png" alt="تطوير ألعاب الفيديو">}}
@@ -80,8 +83,9 @@ node server start
 
 وبالمثل ، بعد المرور بمقالة الألعاب هذه ، يمكنك استكشافها بشكل أكبر والاستفادة من جميع الميزات. علاوة على ذلك ، سوف تكون قادرًا على فهم كيفية المضي قدمًا في استخدام Puilder لقوى الفيديو العظمى. هناك دعم عبر الإنترنت متاح لبرنامج تطوير اللعبة.
 
-##  **الخلاصة** {#Conclusion}
-هذا يضع حد لدليل تطوير لعبة HTML5. نأمل أن يساعدك منشور المدونة هذا إذا كنت حريصًا على بدء تطوير ألعاب الفيديو. لقد استكشفنا ما هو القوى العظمى ، وكيفية تطوير لعبة فيديو ، وهي منشئ ألعاب ثلاثي الأبعاد مفتوح المصدر ، وقد مررنا أيضًا بإجراء التثبيت على مضيف محلي. هناك العديد من تطبيقات تصميم ألعاب الفيديو مفتوحة المصدر** التي تتيح للمستخدمين بناء الألعاب من نقطة الصفر. يستخدم مبرمجي ألعاب الفيديو مبادئ تصميم اللعبة الأساسية لبناء ألعاب عالية الجودة. سوف تتعلم المزيد حول بناء ألعاب ثنائية الأبعاد و 3D في مقالاتنا القادمة على [blog.containerize.com][8]. هناك بناة الألعاب ثلاثية الأبعاد ذات المصادر الأخرى والمستضافة ذاتيا والمقالات ذات الصلة المذكورة في قسم "استكشاف" أدناه.
+##  **خاتمة**  {#Conclusion}
+
+هذا يضع حد لدليل تطوير لعبة HTML5. نأمل أن يساعدك منشور المدونة هذا إذا كنت حريصًا على بدء تطوير ألعاب الفيديو. لقد استكشفنا ما هو القوى العظمى ، وكيفية تطوير لعبة فيديو ، وهي منشئ ألعاب ثلاثي الأبعاد مفتوح المصدر ، وقد مررنا أيضًا بإجراء التثبيت على مضيف محلي. هناك العديد من تطبيقات تصميم ألعاب الفيديو مفتوحة المصدر**التي تتيح للمستخدمين بناء الألعاب من نقطة الصفر. يستخدم مبرمجي ألعاب الفيديو مبادئ تصميم اللعبة الأساسية لبناء ألعاب عالية الجودة. سوف تتعلم المزيد حول بناء ألعاب ثنائية الأبعاد و 3D في مقالاتنا القادمة على [blog.containerize.com][8]. هناك بناة الألعاب ثلاثية الأبعاد ذات المصادر الأخرى والمستضافة ذاتيا والمقالات ذات الصلة المذكورة في قسم "استكشاف" أدناه.
 أخيرًا ، يقوم Containerize.com بكتابة منشورات المدونة بشكل مستمر على منتجات ومواضيع أخرى مفتوحة المصدر. لذلك ، يرجى البقاء على اتصال مع [تطوير ألعاب الفيديو][9][][10] للتحديثات العادية. علاوة على ذلك ، يمكنك متابعتنا على حسابات وسائل التواصل الاجتماعي لدينا [Facebook][11] و [LinkedIn][12] و [Twitter][13].
 
 ## يستكشف
@@ -91,34 +95,35 @@ node server start
   * [][14][القوى العظمى][6]
   * [][14][Cocos Creator][16]
   * [][14][panda3d][17]
-  * **[البدء في تطوير اللعبة باستخدام القوى العظمى][18]**
-  * **[تعليمي تطوير اللعبة | حركة اللاعب في gdevelop][19]**
-  *[ **كيفية صنع لعبة على Scratch باستخدام GDEvelop Open Source** ][20]
-  * **[كيف تستفيد صناعة الألعاب العالمية من البرامج المفتوحة المصدر][21]**
-  * **[GDEvelop Tutorial للمبتدئين لبدء تطوير اللعبة][22]**
-  *[ **أفضل 5 برامج تطوير ألعاب مجانية في عام 2021** ][23]
+*  **[البدء في تطوير اللعبة باستخدام القوى العظمى][18]**  
+*  **[تعليمي تطوير اللعبة | حركة اللاعب في gdevelop][19]**  
+* [  **كيفية صنع لعبة على Scratch باستخدام GDEvelop Open Source**  ][20]
+*  **[كيف تستفيد صناعة الألعاب العالمية من البرامج المفتوحة المصدر][21]**  
+*  **[GDEvelop Tutorial للمبتدئين لبدء تطوير اللعبة][22]**  
+* [  **أفضل 5 برامج تطوير ألعاب مجانية في عام 2021**  ][23]
 
-  
-[1]: https://blog.containerize.com/category/game-development-software/
-[2]: #intro
-[3]: #setup
-[4]: #features
-[5]: #Conclusion
-[6]: https://products.containerize.com/game-development-software/superpowers/
-[7]: https://github.com/superpowers/superpowers-core
-[8]: https://blog.containerize.com/
-[9]: https://products.containerize.com/game-development-software/
-[10]: https://products.containerize.com/business-intelligence/
-[11]: https://web.facebook.com/containerize
-[12]: https://www.linkedin.com/company/containerize/
-[13]: https://twitter.com/containerize_co
-[14]: https://products.containerize.com/game-development-software/gdevelop/
-[15]: https://products.containerize.com/game-development-software/godot/
-[16]: https://products.containerize.com/game-development-software/cocos-creator/
-[17]: https://products.containerize.com/game-development-software/panda3d/
-[18]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
-[19]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
-[20]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
-[21]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
-[22]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
-[23]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
+
+
+ [1]: https://blog.containerize.com/category/game-development-software/
+ [2]: #intro
+ [3]: #setup
+ [4]: #features
+ [5]: #Conclusion
+ [6]: https://products.containerize.com/game-development-software/superpowers/
+ [7]: https://github.com/superpowers/superpowers-core
+ [8]: https://blog.containerize.com/
+ [9]: https://products.containerize.com/game-development-software/
+ [10]: https://products.containerize.com/business-intelligence/
+ [11]: https://web.facebook.com/containerize
+ [12]: https://www.linkedin.com/company/containerize/
+ [13]: https://twitter.com/containerize_co
+ [14]: https://products.containerize.com/game-development-software/gdevelop/
+ [15]: https://products.containerize.com/game-development-software/godot/
+ [16]: https://products.containerize.com/game-development-software/cocos-creator/
+ [17]: https://products.containerize.com/game-development-software/panda3d/
+ [18]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
+ [19]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+ [20]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
+ [21]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
+ [22]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+ [23]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/

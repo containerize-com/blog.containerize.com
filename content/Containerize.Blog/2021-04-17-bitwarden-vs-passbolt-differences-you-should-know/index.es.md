@@ -38,7 +38,7 @@ Tanto Bitwarden como Passbolt proporcionan muchas características y funcionalid
     Cuando se trata de precios, ambos administradores de contraseñas de código abierto proporcionan paquetes gratuitos y premium. Si bien PassBolt es de forma gratuita para usar para usuarios ilimitados, BitWarden solo permite a dos usuarios en su plan gratuito.
 {{_LINE_32_}}
 {{_LINE_33_}}
-    El cifrado es una diferencia clave al comparar Passbolt y Bitwarden, ya que el primero usa el algoritmo Gnupg para autenticar a los usuarios y asegurar la base de datos de contraseña. Por otro lado, Bitwarden utiliza un protocolo de cifrado AES de 256 bits. Ambas tecnologías de cifrado aseguran la máxima seguridad y protección de la información almacenada.
+    El cifrado es una diferencia clave al comparar Passbolt y BitWarden, ya que el primero usa el algoritmo Gnupg para autenticar a los usuarios y asegurar la base de datos de contraseña. Por otro lado, Bitwarden utiliza un protocolo de cifrado AES de 256 bits. Ambas tecnologías de cifrado aseguran la máxima seguridad y protección de la información almacenada.
 {{_LINE_35_}}
 {{_LINE_36_}}
     Solo Passbolt proporciona a los usuarios y la función de gestión de grupos en su paquete gratuito, lo que facilita que los equipos clasifiquen y proporcionen una jerarquía para acceder a las contraseñas. Bitwarden tiene estas características, pero tendrá que comprar el plan para la organización del equipo.
@@ -48,7 +48,7 @@ Tanto Bitwarden como Passbolt proporcionan muchas características y funcionalid
 {{_LINE_41_}}
 {{_LINE_42_}}
 
-## **Conclusión**
+## **Conclusión** 
 En esta publicación, tratamos de revisar la comparación de detalles de Bitwarden vs Passbolt. Discutimos las principales diferencias entre los dos administradores de contraseñas de código abierto y cuál proporciona la mayoría de las características como un administrador de contraseñas de código abierto gratuito y fácil de usar para equipos.
 
 ## Explorar
@@ -57,7 +57,8 @@ Puede encontrar los siguientes enlaces relevantes:
 [Passbolt | Administrador de contraseñas de código abierto, abierto y autohostado][6]
 [Configurar y administrar el Administrador de contraseñas Keepass para Windows][7]
 
-  
+
+
 [1]: #bitwarden
 [2]: #passbolt
 [3]: #differences

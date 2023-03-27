@@ -4,7 +4,7 @@ seoTitle: "Mengatur Xampp dan PhpMyadmin sebagai LocalHost di Windows"
 description: "Siapkan XAMPP dan PHPMyAdmin sebagai localhost di windows. Buat lingkungan pengujian lokal Anda yang gratis dan open-source untuk menguji dan membangun aplikasi web." 
 date: Mon, 26 Oct 2020 07:29:24 +0000
 author: bilalahmed
-summary: "Siapkan Lingkungan Pengembangan dengan SOULE WEB SOLET SOULE SOULD SOULD (XAMPP) dan Perangkat Lunak Manajemen Database (PHPMYADMIN)" 
+summary: "Siapkan Lingkungan Pengembangan dengan SOURE WEB SOULE SOULE SOURD SOURDE DAN OPEN SUMBER SOULE (XAMPP) dan perangkat lunak manajemen database (phpMyAdmin)" 
 url: /id/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 categories: ['Database Management Software', 'Web Server Solution Stack']
 ---
@@ -20,16 +20,18 @@ Kami akan membahas bagian berikut dalam posting blog ini:
   * [dasbor phpMyadmin][3]
   * [Pikiran Terakhir][4]
 
-## Deskripsi:   {#description}
+## Keterangan: {#description}
+
 XAMPP adalah tumpukan solusi server web gratis dan open source. Ini berisi apache, mysql, mariadb, php, dan perl. XAMPP tersedia untuk sistem operasi Windows. Sangat mudah dipasang dan digunakan. Itu sebabnya lingkungan pengembangan PHP paling populer. XAMPP dan PHPMyAdmin sebagai LocalHost menyediakan lingkungan yang lengkap untuk pengembangan dan pengujian aplikasi Web.
 Enfabet di XAMPP adalah singkatan dari:
-  ***X** -Cross-Platform (mendukung beberapa sistem operasi termasuk Linux, Windows dan Mac OS)
-  ***A**  - Server Apache HTTP
-  ***m**  - mariadb (database)
-  ***P**  - PHP
-  ***P**  - Perl
+* **X** -Cross-Platform (mendukung beberapa sistem operasi termasuk Linux, Windows dan Mac OS)
+* **A** - Server Apache HTTP
+* **m** - mariadb (database)
+* **P** - PHP
+* **P** - Perl
 
-Instalasi ## XAMPP  {#XAMPP}
+## Instalasi XAMPP {#xampp}
+
   * Unduh xampp dari [di sini][5].
 
 {{< figure align=center src="images/xampp1.png" alt="Xampp sebagai localhost">}}
@@ -40,7 +42,7 @@ Instalasi ## XAMPP  {#XAMPP}
 
 {{< figure align=center src="images/xampp2.png" alt="Xampp sebagai Localhost Langkah 2">}}
 
-  * Untuk sebagian besar aplikasi web Anda hanya perlu _apache_, _mysql_, _php_, dan _phpMyAdmin_.
+  * Untuk sebagian besar aplikasi web, Anda hanya perlu _apache_, _mysql_, _php_, dan _phpMyadmin_.
   * Pilih direktori instalasi tempat Anda ingin menginstal XAMPP.
   * Anda akan ditampilkan peringatan Windows Security. Anda harus memeriksa opsi berikut: "_Private Networks, seperti rumah atau jaringan kerja saya" _.
   * Akhirnya klik "Selesai" untuk menyelesaikan instalasi.
@@ -53,7 +55,8 @@ Instalasi ## XAMPP  {#XAMPP}
 {{< figure align=center src="images/xampp5.png" alt="Xampp sebagai Localhost Langkah 4">}}
 
 
-## PHPMyAdmin Dashboard:   {#phpMyAdmin}
+## Dasbor PhpMyadmin: {#phpmyadmin}
+
 Untuk mengakses Dasbor PHPMyAdmin, klik tombol "Admin" di sebelah Layanan MySQL. Anda juga dapat mengakses phpMyadmin dengan mengunjungi http: // localhost/phpMyadmin dari browser Anda. Di sini Anda dapat membuat database. Ikuti langkah -langkah ini untuk membuat database baru.
   * Dari Dasbor, klik pada tab "Database".
 
@@ -75,14 +78,16 @@ Untuk mengakses Dasbor PHPMyAdmin, klik tombol "Admin" di sebelah Layanan MySQL.
 {{< figure align=center src="images/db4-1024x564.png" alt="PhpMyadmin di LocalHost Langkah 4">}}
 
 
-## Pikiran Final:   {#Final}
+## Pikiran terakhir: {#final}
+
 Instalasi XAMPP sederhana dan lurus ke depan. Dibutuhkan tidak lebih dari 15 menit ke server setup XAMPP. Setelah diinstal, pengembang dapat membangun dan menguji aplikasi web berbasis PHP mereka bahkan tanpa koneksi internet. Alih-alih menguji proyek secara langsung di server web langsung, sederhana dan hemat waktu untuk mengujinya secara lokal. Ini adalah platform yang hebat bagi pemula untuk belajar, menguji, dan memoles keterampilan PHP, Perl, dan database mereka.
 
 ## Mengeksplorasi:
 [Open Source Web Server Solusi Tumpukan untuk PHP & Perl Developers][6]
 [Opsi tumpukan solusi server web open source terbaik][7]
 
-  
+
+
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

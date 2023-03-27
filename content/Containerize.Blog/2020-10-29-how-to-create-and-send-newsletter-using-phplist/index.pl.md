@@ -9,7 +9,7 @@ url: /pl/how-to-create-and-send-newsletter-using-phplist/
 categories: ['Newsletters']
 ---
 
-## Utwórz i wysyłaj biuletyn za pomocą phplist open source i zasięgaj milionów subskrybentów. Zwiększ zaangażowanie klientów w aktualizacje produktów, promocje i nowe funkcje.
+## Utwórz i wyślij biuletyn za pomocą phplist open source i zasięgaj milionów subskrybentów. Zwiększ zaangażowanie klientów w aktualizacje produktów, promocje i nowe funkcje.
 
 {{< figure align=center src="images/How-to-send-newsletter-in-phpList.png" alt="Utwórz i wyślij biuletyn za pomocą phplist">}}
 
@@ -19,12 +19,13 @@ W tym poście na blogu skoncentrujemy się na projektowaniu i wysyłaniu kampani
   * [Utwórz biuletyn/kampanię][2]
   * [Planowanie kampanii][3]
   * [Przypisaj listy do kampanii][4]
-  * [Kończą kampanię][5]
+  * [Kampania zakończąca][5]
   * [Przetwarzaj kolejkę][6]
   * [Wniosek][7]
 
-## **Utwórz kampanię/biuletyn** {#Create}
-  * Zaloguj się do interfejsu administratora instalacji phplist. Kliknij**Uruchom lub kontynuuj kampanię**przycisk na desce rozdzielczej lub wyślij link do kampanii w ramach kampanii w nawigacji po lewej stronie.
+## **Utwórz kampanię/biuletyn** {#create}
+
+  * Zaloguj się do interfejsu administratora instalacji phplist. Kliknij **Uruchom lub kontynuuj kampanię** przycisk na desce rozdzielczej lub wyślij link do kampanii w ramach kampanii w nawigacji po lewej stronie.
   * Kliknij przycisk Uruchom nowy przycisk kampanii.
   * Wypełnij pola opcjami takimi jak temat, od linii, treści i stopki, jak pokazano na poniższym obrazku.
 
@@ -32,29 +33,35 @@ W tym poście na blogu skoncentrujemy się na projektowaniu i wysyłaniu kampani
 
 
 ## **Kampania planowania** {#schedule}
+
   * Planowanie umożliwia wybór dat, gdy chcesz rozpocząć kampanię. Kampania nie zostanie wysłana przed/po wybranych datach.
   * Nie musisz zmieniać dat, jeśli chcesz natychmiast wysłać kampanię.
 
 {{< figure align=center src="images/scheduling.png" alt="Planuj biuletyn w phplist">}}
 
 
-## **Przypisz listy do kampanii** {#List}
+## **Przypisz listy do kampanii** {#list}
+
 Wszystkie listy będą wyświetlane w karcie listy, wybierz odpowiednią listę. Kampania dostarczy tylko do przypisania list. Możesz jednak stworzyć listę publiczną lub prywatną podczas tworzenia/aktualizacji listy.
 
 {{< figure align=center src="images/lists.png" alt="Przypisz listy do biuletynu w phplist">}}
 
 
 ## **Zakończ kampanię** {#finish}
-Zakończenie jest ostatnim krokiem w procesie tworzenia kampanii. Możesz dodać e -maile do powiadomień, dodać kod śledzenia Google Analytics. Kliknij przycisk**Wyślij kampanię**, aby rozpocząć wysyłanie wiadomości do subskrybentów. Teraz zrobiłeś z projektowaniem biuletynowym i procesem kampanii. Ale musisz przetworzyć kolejkę i możesz przeczytać o niej więcej w następnej sekcji.
 
-## **Przetwarzaj kolejkę** {#Queue}
+Zakończenie jest ostatnim krokiem w procesie tworzenia kampanii. Możesz dodać e -maile do powiadomień, dodać kod śledzenia Google Analytics. Kliknij przycisk **Wyślij kampanię** , aby rozpocząć wysyłanie wiadomości do subskrybentów. Teraz zrobiłeś z projektowaniem biuletynowym i procesem kampanii. Ale musisz przetworzyć kolejkę i możesz przeczytać o niej więcej w następnej sekcji.
+
+## **Przetwarzaj kolejkę** {#queue}
+
 Kolejka procesowa to proces rozpoczęcia wysyłania kampanii. Możesz zainicjować proces ręcznie, ze skryptem wiersza poleceń lub tworzyć zadanie CRON. Łatwo jest ręcznie przetwarzać kolejkę dla kilku wkładanych subskrybentów. Ale dobrze jest używać zadania CRON do przetwarzania kolejki, jeśli masz tysiące/miliony subskrybentów. Możesz odwiedzić Phplist Oficjalną [stronę internetową][8], aby uzyskać informacje, aby stworzyć pracę CRON.
 
-## **Wniosek** {#Conclusion}
+## **Wniosek** {#conclusion}
+
 Phplist to idealne narzędzie dla firm, które chcą korzystać z oprogramowania do biuletynu open source do marketingu e -mailowego. Szczegółowo opisaliśmy ten proces projektowania i wysyłania kampanii. Możesz śledzić go na następnym biuletynie i cieszyć się prawdziwą siłą phplist.
 Wreszcie, z kilkoma bardziej fascynującymi samouczkami, [Containerize.com][9] ma na celu wzmocnienie bazy samouczków. Aby uzyskać regularne aktualizacje, pozostań w kontakcie z kategorią [biuletyn][10].
 
-  
+
+
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #create
 [3]: #schedule

@@ -15,22 +15,24 @@ categories: ['Blogging']
 
 Jeykll adalah generator situs statis open source. Ini mengubah teks biasa Anda menjadi situs web dan blog statis. Dibutuhkan teks yang ditulis dalam bahasa markup favorit Anda (Markdown, Liquid, HTML / CSS) dan menggunakan tata letak untuk membuat situs web statis. Jekyll adalah blog sadar dan permalink, kategori, halaman, posting, dan tata letak khusus semuanya adalah warga negara kelas satu. Salah satu manfaat terbesar dari Jekyll adalah Anda dapat meng -host situs web statis Anda di halaman GitHub dan menjalankan situs web atau blog Anda gratis. Jadi, WordPress to Jekyll Migration dapat membantu Anda meningkatkan kinerja dan kecepatan situs web Anda.
 Dalam posting blog ini kami akan melalui cara memigrasikan situs web atau blog Anda yang ada dari WordPress ke Jekyll untuk kecepatan dan kinerja yang lebih baik. Jadi, mari kita mulai!
-  ***[Mengapa bermigrasi?][1]** 
-  ***[instalasi][2]** 
-  ***[Impor posting dan halaman WordPress ke][3]** 
-  ***[Penerapan dengan halaman GitHub][4]** 
-  ***[Kesimpulan][5]** 
+*  **[Mengapa bermigrasi?][1]**  
+*  **[instalasi][2]**  
+*  **[Impor posting dan halaman WordPress ke][3]**  
+*  **[Penerapan dengan halaman GitHub][4]**  
+*  **[Kesimpulan][5]**  
 
-## Mengapa bermigrasi?   {#Mengapa}
+## Mengapa bermigrasi? {#why}
+
 Di Jekyll, Anda bisa mendapatkan 100/100 [skor mercusuar][6] karena tidak ada interaksi database. Dan, semua konten diproses dan disimpan sebagai file HTML. Dan, Jekyll hanya akan membuat sedikit permintaan HTTP. Oleh karena itu, ini sangat cepat.
 
-## Instalasi dan pengaturan jekyll   {#install}
+## Instalasi dan pengaturan jekyll {#install}
+
 Jekyll ditulis dalam Ruby. Jadi, Anda harus menginstalnya terlebih dahulu di komputer Anda. Panduan ini mengasumsikan bahwa Anda sudah menginstal Ruby di komputer Anda. Jika tidak, Anda dapat mengikuti [panduan resmi][7].
-Pertama, kami akan "**jekyl **" dan " **bundler ** " permata menggunakan perintah " **permata**  " yang akan tersedia setelah menginstal Ruby. Buka baris perintah dan jalankan kode berikut.
+Pertama, kami akan "  **jekyl** " dan "  **bundler**  " permata menggunakan perintah " **permata**  " yang akan tersedia setelah menginstal Ruby. Buka baris perintah dan jalankan kode berikut.
 ```
 gem install jekyll bundler
 ```
-Kemudian, jalankan perintah berikut untuk membuat situs baru. Ini akan membuat folder **myblog** .
+Kemudian, jalankan perintah berikut untuk membuat situs baru. Ini akan membuat folder  **myblog**  .
 ```
 jekyll new myblog
 ```
@@ -38,9 +40,10 @@ Setelah diinstal, Anda dapat membangun situs dan membuatnya tersedia di server l
 ```
 bundle exec jekyll serve
 ```
-Situs akan tersedia di http: // localhost: 4000. Ini juga menghasilkan folder "**_ Situs** " di folder Anda itulah output akhir dari situs ini.
+Situs akan tersedia di http: // localhost: 4000. Ini juga menghasilkan folder "  **_ Situs**  " di folder Anda itulah output akhir dari situs ini.
 
-## Impor halaman dan posting WordPress   {#import}
+## Impor halaman dan posting WordPress {#import}
+
 Plugin non-resmi untuk WordPress juga tersedia tetapi kami akan mengikuti metode resmi dalam tutorial ini. Jika Anda ingin memberikan plugin eksportir WordPess, Anda dapat [pergi ke sini][8].
 Untuk mengimpor posting Anda dari situs web WordPress yang diselenggarakan sendiri, jalankan perintah berikut di terminal Anda.
 ```
@@ -66,14 +69,15 @@ ruby -r rubygems -e 'require "jekyll-import";
 ```
 Ini hanya mengimpor data & konten posting & halaman. Importir ini hanya mengonversi posting Anda dan membuat materi depan YAML. Itu tidak mengimpor tata letak, gaya, atau file eksternal (gambar, CSS, dll.).
 
-## **Penerapan dengan halaman github** {#deploy}
+##  **Penempatan dengan halaman github**  {#deploy}
+
 Sejauh ini, kami membuat blog Jekyll kami secara lokal. Sekarang kita akan menggunakannya di GitHub. Pertama -tama, kami harus mengontrol versi situs kami menggunakan [git][9]. Jalankan perintah berikut di folder situs.
 ```
 git init
 git add .
 git commit -m "Initial Commit"
 ```
-Saat menginstal Jekyll, itu harus secara otomatis membuat file "**. Gitignore **" di root dengan setidaknya konten berikut.
+Saat menginstal Jekyll, itu harus secara otomatis membuat file "  **. Gitignore**  " di root dengan setidaknya konten berikut.
 Kemudian, masuk ke Github dan buat repositori baru youName.github.io
 Selanjutnya, salin URL HTTPS dari repositori.
 
@@ -86,16 +90,18 @@ git push origin master
 ```
 Selesai! Situs Anda sekarang harus tersedia di yourname.github.io
 
-## kesimpulan   {#conclusion}
+## Kesimpulan {#conclusion}
+
 Dalam artikel ini, kami belajar cara membangun blog statis dengan situs Jekyll. Kemudian, kami belajar cara mengekspor posting dan halaman Anda dari WordPress ke Jekyll. Dan akhirnya, kami menggunakan situs terakhir ke halaman GitHub.
 
-  
-[1]: #why
-[2]: #install
-[3]: #import
-[4]: #deploy
-[5]: #conclusion
-[6]: https://web.dev/performance-scoring/
-[7]: https://www.ruby-lang.org/en/documentation/installation/
-[8]: https://wordpress.org/plugins/jekyll-exporter/
-[9]: https://git-scm.com/
+
+
+ [1]: #why
+ [2]: #install
+ [3]: #import
+ [4]: #deploy
+ [5]: #conclusion
+ [6]: https://web.dev/performance-scoring/
+ [7]: https://www.ruby-lang.org/en/documentation/installation/
+ [8]: https://wordpress.org/plugins/jekyll-exporter/
+ [9]: https://git-scm.com/

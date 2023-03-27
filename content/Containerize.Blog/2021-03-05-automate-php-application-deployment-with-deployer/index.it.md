@@ -13,16 +13,18 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/deployer-blog-post.png" alt="Strumento di distribuzione PHP">}}
 
-È un lavoro molto fondamentale distribuire l'applicazione sul server dopo lo sviluppo. Nuove funzionalità e correzioni di bug vengono spesso rilasciate dai team. Quindi, è preferibile per i team eliminare il lavoro manuale e automatizzare il processo **Distribuzione del software **. Consentirebbe ai team software di concentrarsi su compiti più importanti. Esistono diversi  **strumento di distribuzione open source **  là fuori, ma ci concentreremo su ** PHP Deployer**  in questo tutorial. Copriremo la sezione seguente in questo post.
-  *[ **What Is Deployer** ][1]
-  *[ **Installazione di Deployer** ][2]
-  *[ **Distribuisci applicazione PHP** ][3]
-  *[ **conclusione** ][4]
+È un lavoro molto fondamentale distribuire l'applicazione sul server dopo lo sviluppo. Nuove funzionalità e correzioni di bug vengono spesso rilasciate dai team. Quindi, è preferibile per i team eliminare il lavoro manuale e automatizzare il processo  **Distribuzione del software** . Consentirebbe ai team software di concentrarsi su compiti più importanti. Esistono diversi  **strumento di distribuzione open source**  là fuori, ma ci concentreremo su **PHP Deployer**  in questo tutorial. Copriremo la sezione seguente in questo post.
+* [  **What Is Deployer**  ][1]
+* [  **Installazione di Deployer**  ][2]
+* [  **Distribuisci applicazione PHP**  ][3]
+* [  **conclusione**  ][4]
 
-## cosa è distribuito   {#what}
-[**Deployer **][5] è uno strumento di distribuzione PHP gratuito e aperto  **** . Consente ai team software di automatizzare i flussi di lavoro di distribuzione per applicazioni basate su PHP. È molto semplice da installare e facile da usare. Chiunque, da principiante all'esperienza a livello di esperti, può utilizzarlo rapidamente per la distribuzione di applicazioni PHP. Deployer viene fornito con ricette/script fuori box per famosi framework PHP, CMS e software del carrello della spesa. Inoltre, puoi fare  **Laravel Deployment **  con questo  **Strumento di distribuzione open source ** . Lo sviluppatore può utilizzare ricette integrate per i loro progetti e utilizzarle per la distribuzione. Inoltre, è possibile creare facilmente lo script di installazione/distribuzione con la procedura guidata  **PHP Disployer ** . Inoltre, questo ** strumento di distribuzione gratuito**  offre funzionalità eccellenti come distribuzioni a tempo zero, rollback alla versione precedente, SSH, esecuzione parallela e molti altri.
+## Cosa è distribuito {#What}
 
-## Installazione di Deployer   {#Installing}
+[  **Deployer** ][5] è uno strumento di distribuzione PHP gratuito e aperto*  ***. Consente ai team software di automatizzare i flussi di lavoro di distribuzione per applicazioni basate su PHP. È molto semplice da installare e facile da usare. Chiunque, da principiante all'esperienza a livello di esperti, può utilizzarlo rapidamente per la distribuzione di applicazioni PHP. Deployer viene fornito con ricette/script fuori box per famosi framework PHP, CMS e software del carrello della spesa. Inoltre, puoi fare**  Laravel Deployment  **con questo**  Strumento di distribuzione open source  **. Lo sviluppatore può utilizzare ricette integrate per i loro progetti e utilizzarle per la distribuzione. Inoltre, è possibile creare facilmente lo script di installazione/distribuzione con la procedura guidata**  PHP Disployer **. Inoltre, questo**  strumento di distribuzione gratuito**offre funzionalità eccellenti come distribuzioni a tempo zero, rollback alla versione precedente, SSH, esecuzione parallela e molti altri.
+
+## Installazione di Deployer {#Installing}
+
   * Deployer dipende da PHP. Dovresti assicurarti che PHP sia in esecuzione sul tuo server. Tuttavia, è possibile utilizzare il comando di seguito per installare PHP su Ubuntu.
 ```
 sudo apt-get install php
@@ -34,7 +36,8 @@ sudo mv Deployer.phar /usr/local/bin/dep
 sudo chmod +x /usr/local/bin/dep
 ```
 
-## Distribuisci applicazione PHP   {#deploy}
+## Distribuire l'applicazione PHP {#Deploy}
+
 Segui le linee guida passo-passo per  **distribuire l'applicazione PHP**  con il distributore.
   * Crea una directory per il distributore e vai alla directory appena creata.
 ```
@@ -104,10 +107,10 @@ task('deploy', [
 after('deploy:failed', 'deploy:unlock');
 ```
 È necessario modificare le seguenti variabili per la distribuzione dell'applicazione PHP.
-  * **Set ("Applicazione", "My_Project");**  - Imposta il nome dell'applicazione.
-  * **set ("repository", ");** -Imposta percorso del repository git come" git@github.com: masood/prima-app-with-deployer.git ". È necessario impostare la chiave di distribuzione sul repository GitHub. Puoi cercare come creare una chiave SSH sul server, se non ne hai familiarità.
- *** host ("progetto.com")
-    -> Set ("Deploy_Path", "~/{{Application}}");** -Imposta il nome del progetto e definisce il percorso in cui si desidera archiviare file per l'applicazione. Sarebbe come/var/www/html/depolayer.
+*  **Set ("Applicazione", "My_Project");**  - Imposta il nome dell'applicazione.
+*  **set ("repository", ");**  -Imposta percorso del repository git come" git@github.com: masood/prima-app-with-deployer.git ". È necessario impostare la chiave di distribuzione sul repository GitHub. Puoi cercare come creare una chiave SSH sul server, se non ne hai familiarità.
+***host ("progetto.com")
+    -> Set ("Deploy_Path", "~/{{Application}}");**-Imposta il nome del progetto e definisce il percorso in cui si desidera archiviare file per l'applicazione. Sarebbe come/var/www/html/depolayer.
 Infine, esegui il comando seguente per distribuire l'applicazione PHP.
 ```
 dep deployer
@@ -117,38 +120,40 @@ Se trovi problemi con la nuova versione e desideri il rollback. Puoi farlo sempl
 dep rollback
 ```
 
-## conclusioni   {#conclusion}
-Abbiamo discusso di Deployer e su come installarlo in questo tutorial. Inoltre, abbiamo creato linee guida complete per la distribuzione dell'applicazione basata su PHP dal repository GitHub. Spero che questo post sul blog ti aiuti ad avviare **Distribuisci applicazione PHP  **con Deployer. Inoltre, scriveremo di più su questo**   strumento di distribuzione PHP** nei prossimi tutorial.
-Infine, [**Containerize.com **][6] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, resta in contatto con questa categoria [**  Strumenti di distribuzione**][7] per gli ultimi aggiornamenti.
+## Conclusione {#Conclusione}
+
+Abbiamo discusso di Deployer e su come installarlo in questo tutorial. Inoltre, abbiamo creato linee guida complete per la distribuzione dell'applicazione basata su PHP dal repository GitHub. Spero che questo post sul blog ti aiuti ad avviare  **Distribuisci applicazione PHP** con Deployer. Inoltre, scriveremo di più su questo **strumento di distribuzione PHP**  nei prossimi tutorial.
+Infine, [  **Containerize.com** ][6] è in un processo coerente di scrittura di post sul blog su altri ultimi prodotti open source. Pertanto, resta in contatto con questa categoria [ **Strumenti di distribuzione**  ][7] per gli ultimi aggiornamenti.
 
 ## Esplorare
 Potresti trovare i seguenti collegamenti pertinenti:
-  *[ **Deployer** ][8]
-  *[ **Jenkins** ][9]
-  *[ **drone** ][10]
-  *[ **Capistrano** ][11]
-  *[ **rancher** ][12]
-  *[ **Concourse** ][13]
-  *[ **ansible** ][14]
-  *[ **GOCD** ][15]
-  *[ **Top 5 Strumenti di distribuzione open source nel 2021** ][16]
-  *[ **Integrazione continua e distribuzione continua dal server di controllo sorgente** ][17]
+* [  **Deployer**  ][8]
+* [  **Jenkins**  ][9]
+* [  **drone**  ][10]
+* [  **Capistrano**  ][11]
+* [  **rancher**  ][12]
+* [  **Concourse**  ][13]
+* [  **ansible**  ][14]
+* [  **GOCD**  ][15]
+* [  **Top 5 Strumenti di distribuzione open source nel 2021**  ][16]
+* [  **Integrazione continua e distribuzione continua dal server di controllo sorgente**  ][17]
 
-  
-[1]: #What
-[2]: #Installing
-[3]: #Deploy
-[4]: #Conclusion
-[5]: https://deployer.org/
-[6]: https://containerize.com
-[7]: https://blog.containerize.com/category/deployment-tools/
-[8]: https://products.containerize.com/deployment-tools/deployer
-[9]: https://products.containerize.com/deployment-tools/jenkins/
-[10]: https://products.containerize.com/deployment-tools/drone/
-[11]: https://products.containerize.com/deployment-tools/capistrano/
-[12]: https://products.containerize.com/deployment-tools/rancher/
-[13]: https://products.containerize.com/deployment-tools/concourse/
-[14]: https://products.containerize.com/deployment-tools/ansible/
-[15]: https://products.containerize.com/deployment-tools/gocd/
-[16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
-[17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/
+
+
+ [1]: #What
+ [2]: #Installing
+ [3]: #Deploy
+ [4]: #Conclusion
+ [5]: https://deployer.org/
+ [6]: https://containerize.com
+ [7]: https://blog.containerize.com/category/deployment-tools/
+ [8]: https://products.containerize.com/deployment-tools/deployer
+ [9]: https://products.containerize.com/deployment-tools/jenkins/
+ [10]: https://products.containerize.com/deployment-tools/drone/
+ [11]: https://products.containerize.com/deployment-tools/capistrano/
+ [12]: https://products.containerize.com/deployment-tools/rancher/
+ [13]: https://products.containerize.com/deployment-tools/concourse/
+ [14]: https://products.containerize.com/deployment-tools/ansible/
+ [15]: https://products.containerize.com/deployment-tools/gocd/
+ [16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+ [17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/

@@ -15,32 +15,36 @@ categories: ['Programming']
 
 
 ## Przegląd
-Mamy nadzieję, że lepiej rozumiesz [typy danych JavaScript][1]. To kolejny post na blogu w kategorii [Programming][2]. W tym samouczku JavaScript przejdziemy przez **, co jest obiecujące w JavaScript **, a wraz z tym zobaczymy, jakie są operacje asynchroniczne, wykorzystanie obietnic i jak stworzyć obietnice w JavaScript. Po pierwsze, asynchroniczny proces/operacja jest taka, która wykonuje niezależnie w odniesieniu do innych procesów i nie tworzy żadnego zablokowania. Dlatego musisz obsłużyć operacje asynchroniczne, w przeciwnym razie może to powodować nieprawidłowości w kodzie JavaScript. Zbadamy więc, w jaki sposób możemy obsłużyć operacje asynchroniczne za pomocą obietnic.
+Mamy nadzieję, że lepiej rozumiesz [typy danych JavaScript][1]. To kolejny post na blogu w kategorii [Programming][2]. W tym samouczku JavaScript przejdziemy przez **, co jest obiecujące w JavaScript** , a wraz z tym zobaczymy, jakie są operacje asynchroniczne, wykorzystanie obietnic i jak stworzyć obietnice w JavaScript. Po pierwsze, asynchroniczny proces/operacja jest taka, która wykonuje niezależnie w odniesieniu do innych procesów i nie tworzy żadnego zablokowania. Dlatego musisz obsłużyć operacje asynchroniczne, w przeciwnym razie może to powodować nieprawidłowości w kodzie JavaScript. Zbadamy więc, w jaki sposób możemy obsłużyć operacje asynchroniczne za pomocą obietnic.
 W tym samouczku JavaScript omówimy następujące punkty:
-  * **[Co jest obietnica w JavaScript? Wyjaśnione obietnice][3]**
-  * **[Dlaczego używamy obietnicy w JavaScript?][4]**
-  * **[Jak działa obietnica w JavaScript?][5]**
-  * **[Jak stworzyć obietnicę?][6]**
+* **[Co jest obietnica w JavaScript? Wyjaśnione obietnice][3]** 
+* **[Dlaczego używamy obietnicy w JavaScript?][4]** 
+* **[Jak działa obietnica w JavaScript?][5]** 
+* **[Jak stworzyć obietnicę?][6]** 
 
-## Co jest obietnic w JavaScript? Obiecany wyjaśnione   {#co-is-prOMISE-in-javascript-promises-explamed}
-Obietnica jest obiektem, który reprezentuje wartość pogody operacji asynchronicznej, która została rozwiązana, odrzucona lub jest w stanie oczekująca. Bardziej proste słowa, obietnice są używane do zwrócenia wartości, która ma być jeszcze wytworzona przez asynchroniczny blok kodu. W rzeczywistości istnieją trzy  **stany obietnicy **  i może to być w dowolnym z następujących stanów:
-**Oczekujący **: Obietnica jest w stanie oczekującym, co oznacza, że ​​jest w fazie początkowej i obecnie jest w realizacji.
-**spełnione **: Obietnica została rozwiązana, a wartość została zwrócona.
-**Odrzucone **: Jest to stan spowodowany każdym błędem, co oznacza, że ​​obietnica została odrzucona.
+## Czym jest obietnica w JavaScript? Wyjaśniono obietnice {#What-is-promise-in-JavaScript-Promises-Explained}
+
+Obietnica jest obiektem, który reprezentuje wartość pogody operacji asynchronicznej, która została rozwiązana, odrzucona lub jest w stanie oczekująca. Bardziej proste słowa, obietnice są używane do zwrócenia wartości, która ma być jeszcze wytworzona przez asynchroniczny blok kodu. W rzeczywistości istnieją trzy **stany obietnicy** i może to być w dowolnym z następujących stanów:
+**Oczekujący** : Obietnica jest w stanie oczekującym, co oznacza, że ​​jest w fazie początkowej i obecnie jest w realizacji.
+**spełnione** : Obietnica została rozwiązana, a wartość została zwrócona.
+**Odrzucone** : Jest to stan spowodowany każdym błędem, co oznacza, że ​​obietnica została odrzucona.
 Ważną rzeczą do rozważenia jest to, że wartość/stan zwrócony przez obietnicę jest niezmienna i nie można jej zmienić, co oznacza, że ​​obietnice upewniają się, że nie ma niezwykłego zachowania.
 
-## Dlaczego używamy obietnicy w JavaScript?   {#Dlaczego-dlaczego-użytkowe-prromise-in-javascript}
-Jeśli nie wiesz, że  **Callback Hell ** , pozwól mi podzielić się tym, co to jest. Po pierwsze, wywołanie zwrotne jest funkcją w innej funkcji. Zasadniczo funkcja wywołania zwrotnego jest przekazywana jako drugi argument w funkcji, która wykonuje się po otrzymaniu wyników. Tak więc, w wielu scenariuszach, musisz zagnieżdżać funkcję wywołania zwrotnego, a wraz ze wzrostem gniazdowania jest prawie niemożliwe do obsługi. Dlatego nazywamy to długie gniazdowanie funkcji wywołania zwrotnego  **Piekło oddzwonienia ** .
+## Dlaczego używamy obietnicy w JavaScript? {#Why-we-use-promise-in-JavaScript}
+
+Jeśli nie wiesz, że **Callback Hell**, pozwól mi podzielić się tym, co to jest. Po pierwsze, wywołanie zwrotne jest funkcją w innej funkcji. Zasadniczo funkcja wywołania zwrotnego jest przekazywana jako drugi argument w funkcji, która wykonuje się po otrzymaniu wyników. Tak więc, w wielu scenariuszach, musisz zagnieżdżać funkcję wywołania zwrotnego, a wraz ze wzrostem gniazdowania jest prawie niemożliwe do obsługi. Dlatego nazywamy to długie gniazdowanie funkcji wywołania zwrotnego**Piekło oddzwonienia** .
 Tak więc obietnica jest sposobem na uniknięcie sytuacji piekielnej oddzwaniania. Zastosowanie obietnic zapewnia lepszą czytelność i lepszą obsługę błędów. Ponadto możesz lepiej obsługiwać operacje asynchroniczne, odzyskując zwróconą wartość i przekazując tę ​​wartość do następnej funkcji w łańcuchu.
 
-## Jak działa obietnica w JavaScript?   {#How-Promise-Works-in-javascript}
+## Jak działa obietnica w JavaScript? {#How-promise-works-in-JavaScript}
+
 Teraz zrozummy mechanizm pracujący stojący za obietnicami. Spójrz na wspomniany poniżej schemat.
 
 {{< figure align=center src="images/what-is-a-promise.png" alt="Jak działa obietnica w JavaScript??" >}}
 
 Zgodnie z wymienionym powyżej przepływem pracy szczegóły wdrożenia są dość jasne. Obietnica rozpoczyna wykonywanie jego stworzenia i jest w stanie oczekującym na odpowiedź. Istnieją dwie opcje albo będą dane, albo wystąpi błąd po zakończeniu przetwarzania. Po otrzymaniu danych trafia do bloku .then () i przechodzi do bloku .catch () w przypadku błędu.
 
-## Jak stworzyć obietnicę?   {#How-to-Create-a-Promise}
+## Jak stworzyć obietnicę? {#How-to-create-a-promise}
+
 Do tej pory omówiliśmy podstawową koncepcję obietnicy. Teraz zbadamy, jak możemy stworzyć obietnicę w JavaScript. Użyjmy następującego konstruktora obietnicy, aby stworzyć obietnicę.
 ```
 let promise = new Promise(function(resolve, reject) {
@@ -94,7 +98,7 @@ promise is completed
 Tak więc kod wewnątrz ciała obietnicy działa synchronicznie, więc wydrukowano „wykonanie synchroniczne”. Następnie blok .ten () działa asynchronicznie i czeka, aż wynik zostanie wygenerowany, ale wykonanie programu nie zatrzymuje się, dlatego „Hello Word” jest drukowane i wykonanie obietnicy zostało odroczone. Następnie blok .then () wykonuje i zwraca obiecane wartości. Taka jest historia obietnic JavaScript. Ponownie, ponieważ JavaScript jest pojedynczy gwint, obietnice są używane do obsługi operacji asynchronicznych w sposób nie blokujący.
 
 ## Wniosek
-To jest koniec tego  **samouczka JavaScript ** . Mam nadzieję, że masz dobry pomysł na obietnice JavaScript. Omówiliśmy  **What jest obiecujący w JavaScript ** , dlaczego używamy obietnicy w JavaScript,  **Jak obietnica działa w JavaScript **  i jak stworzyć obietnicę. Ponadto omówimy ten temat więcej o jego zaawansowanym wykorzystaniu i przepisach. Dlatego przejrzyj ten artykuł na wypadek, gdybyś przygotowywał się na sesję rozmowy kwalifikacyjnej.
+To jest koniec tego **samouczka JavaScript**. Mam nadzieję, że masz dobry pomysł na obietnice JavaScript. Omówiliśmy **What jest obiecujący w JavaScript** , dlaczego używamy obietnicy w JavaScript,**Jak obietnica działa w JavaScript** i jak stworzyć obietnicę. Ponadto omówimy ten temat więcej o jego zaawansowanym wykorzystaniu i przepisach. Dlatego przejrzyj ten artykuł na wypadek, gdybyś przygotowywał się na sesję rozmowy kwalifikacyjnej.
 
 ## Połącz się z nami
 Wreszcie [Containerize.com][7] oferuje trwające samouczki JavaScript na różne ekscytujące tematy. Możesz pozostać w pętli, obserwując nas na naszych platformach społecznościowych, w tym [Facebook][8], [LinkedIn][9] i [Twitter][10].
@@ -103,7 +107,7 @@ Wreszcie [Containerize.com][7] oferuje trwające samouczki JavaScript na różne
 Możesz poinformować nas o swoich pytaniach lub zapytaniach na naszym [forum][11].
 
 ## FAQ
-**Jakie są obietnice w JavaScript z przykładem? **
+**Jakie są obietnice w JavaScript z przykładem?** 
 Połącz ten [link][3], aby wiedzieć, jakie są obietnice w JavaScript.
 
 ## Zobacz też
@@ -113,7 +117,8 @@ Połącz ten [link][3], aby wiedzieć, jakie są obietnice w JavaScript.
   * [Co to jest wielokrotność? |. Dlaczego podejście wielozadaniowe?][14]
   * [Co to są typy danych JavaScript? |. Przewodnik dla początkujących][15]
 
-  
+
+
 [1]: https://blog.containerize.com/programming/what-are-javascript-data-types-a-beginners-guide/
 [2]: https://blog.containerize.com/categories/programming/
 [3]: #What-is-promise-in-JavaScript-Promises-Explained

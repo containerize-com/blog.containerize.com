@@ -14,12 +14,12 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-Apache-as-a-Reverse-Proxy-1.png" alt="Apache Reverse Proxyをインストールして構成します">}}
 
 
-## **概要**
+##  **概要**  
 Apache Reverse Proxyを使用すると、すべてのトラフィックが可能になり、プロキシサーバーの後ろにある1つまたは複数のバックエンドサーバーまたはコンテナを公開せずに実行できます。バックエンドWebサーバーは、Nginxのような別のApache2またはオープンソースHTTPサーバーのいずれかにすることができます。 APACHE2 HTTPサーバーは、今日使用されている最も人気のあるオープンソースWebサーバーの1つです。
 プロキシサーバーをインストールして構成する理由はたくさんあります。たとえば、リバースプロキシは、攻撃などを防ぐために、負荷分散のためにセキュリティを追加し、特定の場所へのアクセスを制限するのに役立ちます。この記事では、ubuntu/debianのHTTPSサーバーのApache Reverse Proxy構成のインストールと構成の方法について説明します。
   * apache2のインストール
   * apache2を構成します
-  *プロキシモジュールを有効にします
+* プロキシモジュールを有効にします
   * SSLを有効にします
   * apache2を再起動します
   * 結論
@@ -44,7 +44,7 @@ apache2のセットアップを確認するには、ブラウザを開き、サ�
 
 
 ## ステップ2：apache2を逆プロキシとして構成します
-APACHE2が正常にインストールされ、使用可能です。 Apache2逆プロキシUbuntuとして動作するようにApache2を構成できるようになりました。 apache2プロキシモジュールの**proxypass  **and **  proxypassReverse **関数は、逆プロキシを提供します。  **proxypass **  and  **proxypassReverse**  を使用するには、まずサイトトラフィックを向けたい場所を知っておく必要があります。
+APACHE2が正常にインストールされ、使用可能です。 Apache2逆プロキシUbuntuとして動作するようにApache2を構成できるようになりました。 apache2プロキシモジュールの  **proxypass** and  **proxypassReverse**  関数は、逆プロキシを提供します。  **proxypass**  and **proxypassReverse**  を使用するには、まずサイトトラフィックを向けたい場所を知っておく必要があります。
 Apache2 Reverse Proxy Serverは、デフォルトのHTTPポートのすべてのトラフィックをリッスンします。これは、簡単なセットアップでポート80です。 Webサイトコンテンツをホストするバックエンドサーバーは、カスタムポートでリッスンし、ポート8080である可能性が最も高いです。
 このブログ記事では、APACHE2をセットアップしてポート80でリッスンし、ポート8080でリッスンするバックエンドサーバーにトラフィックを向けます。
 sudo nano/etc/apache2/sites-abailable/apache2proxy.conf
@@ -83,16 +83,19 @@ sudo systemctl restart apache2.service
 選択したWebブラウザを起動し、Example.comのようなサーバーホスト名に移動します。これで、デフォルトのポート、つまり8080でapache2サーバーにプロキシになります。
 
 ## ステップ4：SSLを有効にします {#block-07b86d83-dca0-4924-b991-206719c342eb}
+
 Apache Reverse Proxy SSLモジュールを有効にする場合は、以下のコマンドを実行してApache Reverse Proxy HTTPS Passを有効にします。
 sudo a2enmod ssl
-これにより、Secure Apache Reverse Proxy HTTPは、ServersにHTTPSサポートに提供されます。
+これにより、Secure Apache Reverse Proxy HTTPは、バックエンドサーバーにHTTPSサポートに提供されます。
 
-## ステップ5：apache2を再起動 {#block-836bb4ff-17ad-4317-8ecb-153104bd28a7}
+## ステップ5：Apache2を再起動します {#block-836bb4ff-17ad-4317-8ecb-153104bd28a7}
+
 これらの変更を有効にするには、以下のコマンドを実行してApacheを再起動します。
 sudo systemctl restart apache2.service
 おめでとう！ Linuxシステムにapache2リバースプロキシを正常にインストールおよび構成しました。
 
-## **結論：**   {#4a1a}
+##  **結論:**   {#4a1a}
+
 このチュートリアルでは、プロキシサーバーとApache Reverse Proxyの例の構成を段階的に調査して説明しました。また、Linuxシステムの逆プロキシとしてApache2をセットアップおよび構成する方法も学びました。今後のチュートリアルでは、Apacheやその他のWebサーバーソリューションスタックに関するより興味深いトピックについて説明します。
 
 ## 探検
@@ -103,10 +106,11 @@ sudo systemctl restart apache2.service
   * [ubuntu 20.04で暗号化してnginxを保護し、暗号化します][5]
   * [ubuntuでapacheでowncloudをインストールして構成する方法][6]
 
-  
-[1]: https://blog.containerize.com/web-server-solution-stack/ja/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
-[2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
-[3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
-[4]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
-[5]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
-[6]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/
+
+
+ [1]: https://blog.containerize.com/web-server-solution-stack/ja/how-to-configure-apache-as-a-reverse-proxy-for-ubuntudebian/
+ [2]: https://blog.containerize.com/web-server-solution-stack/how-to-install-and-secure-phpmyadmin-with-nginx-on-ubuntu/
+ [3]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-nginx-with-passenger-on-aws-production-server/
+ [4]: https://blog.containerize.com/web-server-solution-stack/how-to-configure-http2-support-in-nginx-on-ubuntudebian/
+ [5]: https://blog.containerize.com/web-server-solution-stack/how-to-secure-nginx-with-letsencrypt-on-ubuntu-20-04/
+ [6]: https://blog.containerize.com/backup-and-sync-software/how-to-install-and-configure-owncloud-with-apache-on-ubuntu/

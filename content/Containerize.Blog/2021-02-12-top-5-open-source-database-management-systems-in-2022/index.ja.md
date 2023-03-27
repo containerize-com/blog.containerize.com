@@ -4,7 +4,7 @@ seoTitle: "2022年のトップ5オープンソースデータベース管理シ�
 description: "オープンソースデータベース管理システムは、ストレージを管理し、安全で堅牢なデータアクセスを提供します。これは、開発者がデータにアクセスして変更できる論理ユーザーインターフェイスです。" 
 date: Fri, 12 Feb 2021 06:48:04 +0000
 author: bilalahmed
-summary: "オープンソースDBMSソフトウェアは、エンタープライズレベルの成熟度と人気を獲得しています。それらは柔軟で、堅牢性、効率性、データの完全性を提供します。" 
+summary: "オープンソースDBMSソフトウェアは、エンタープライズレベルに成熟と人気を獲得しています。それらは柔軟で、堅牢性、効率性、データの完全性を提供します。" 
 url: /ja/top-5-open-source-database-management-systems-in-2022/
 categories: ['Database Management Software']
 ---
@@ -22,59 +22,64 @@ categories: ['Database Management Software']
   * [sqlite][4]
   * [mongodb][5]
 
-## mysql   {#mysql}
+## mysql {#mysql}
+
 MySQLは無料でオープンソースのデータベース管理システムであり、クロスプラットフォームのサポートを提供しています。実際、プログラマーは特定の環境と要件に適合するようにMySQLソフトウェアを変更できます。ほとんどの開発者は、Webアプリケーションで最も人気のあるプログラミング言語であるPHPでMySQL DBMSを使用しています。 PHPとMySQLベースのWebアプリの良い例は、WordPress、Joomla、およびDrupalです。 MySQLは、PHP、Perl、C、C ++、Javaなどを含む多くの言語で動作します。ただし、このオープンソースDBMSのすべてのソースコードは、開発と展開に関するドキュメントを使用して[GitHub][6]で利用できます。
 顕著な特徴は次のとおりです。
-  *使いやすい
-  *クロスプラットフォームと互換性があります
+* 使いやすい
+* クロスプラットフォームと互換性があります
   * 安全
-  *独立したモジュールを使用して、多層サーバー設計を使用します
-  *無料でダウンロードできます
+* 独立したモジュールを使用して、多層サーバー設計を使用します
+* 無料でダウンロードできます
   * ハイパフォーマンス
 [読む][7][詳細][7]
 
-## postgresql   {#postgre}
+## postgreSql {#postgre}
+
 PostgreSQLは、その実績のあるアーキテクチャ、信頼性、データの整合性、堅牢な機能セット、拡張性、および災害復旧により、最も高度なリレーショナルDBMSソフトウェアです。他のデータベース管理システムと同様に、それは強力でオープンソースオブジェクト関連データベースシステムです。 SQL言語を拡張し、多くの追加機能を追加します。 PostgreSQLは非常に拡張可能です。カスタムデータ型を定義したり、カスタム関数を構築したり、データベースを再コンパイルすることなく、さまざまなプログラミング言語からコードを書くこともできます。したがって、それはC言語で書かれています。ただし、このオープンソースDBMSのすべてのソースコードは、開発と展開に関するドキュメントを使用して[github][8]で利用できます。
 PostgreSQLには次の重要な機能があります。
   * オープンソース
-  *オンラインバックアップ
-  *バイナリおよびテキストの大型オブジェクトストレージ
-  *プリプロセッサを使用した埋め込みSQL実装
-  *列あたりの照合
-  *普遍的に一意の識別子
+* オンラインバックアップ
+* バイナリおよびテキストの大型オブジェクトストレージ
+* プリプロセッサを使用した埋め込みSQL実装
+* 列あたりの照合
+* 普遍的に一意の識別子
 [続きを読む][9]
 
-## mariadb   {#maria}
+## Mariadb {#maria}
+
 MariadBはMySQLの代替品として使用できます。これは、信頼性、データの整合性、並行性、一貫性、災害復旧、およびWebアプリケーションの拡張性を提供するリレーショナルDBMSソフトウェアです。小規模なデータ処理タスクとエンタープライズのニーズの両方をサポートします。 MariaDBは、トランザクション、分析、およびハイブリッドワークロードとともに、リレーショナル、JSON、およびハイブリッドデータモデルもサポートしています。さらに、MariadBは最も人気のあるDBMSソフトウェアの1つです。これはほとんどのクラウド製品の一部であり、ほとんどのLinux分布のデフォルトです。したがって、CおよびC ++言語で記述されています。ただし、このオープンソースDBMSのすべてのソースコードは、開発と展開に関するドキュメントを使用して[GitHub][10]で利用できます。
 このリレーショナルDBMSは、次の重要な機能を提供します。
   * JSONサポート
   * オープンソース
-  *接続プールが大きく高速
-  *より安全で高速な複製を提供します
-  *システムバージョン付きテーブル
+* 接続プールが大きく高速
+* より安全で高速な複製を提供します
+* システムバージョン付きテーブル
   * ColumnStoreストレージエンジン / InfinIDB
 [続きを読む][11]
 
-## sqlite   {#sqlite}
+## sqlite {#sqlite}
+
 SQLiteは、セットアップ、データベース管理、および必要なリソースの点で軽量です。これは、世界で小さく、高速で、自己完結型であり、非常に信頼性の高いデータベースエンジンであるデータベースエンジンとして機能するC言語のライブラリです。さらに、SQLite DBエンジンは、アプリケーションの要件に従って静的または動的にリンクできます。 SQLiteは、他のRDMBと同様に動作するために個別のサーバープロセスまたはシステムを必要としないため、サーバーレスです。さらに、SQLite DBMSは、Windows（Win32、Wince、Winrt）、およびUnix（Linux、Mac OS-X、Android、iOS）などのさまざまなプラットフォームで使用できます。したがって、それはC言語で書かれています。ただし、このDBMSソフトウェアのすべてのソースコードは、開発と展開に関するドキュメントを使用して[GitHub][12]で利用できます。
 他のデータベース管理システムと同様に、以下はこのオープンソースDBMの顕著な機能です。
-  *サーバーレスデータベースエンジン
-  *自己完結型
-  *ゼロ構成が必要です
-  *単一のクロスプラットフォームディスクファイルストア完全なsqliteデータベース
-  *外部依存関係は必要ありません
-  *さまざまなプラットフォームで利用できます
+* サーバーレスデータベースエンジン
+* 自己完結型
+* ゼロ構成が必要です
+* 単一のクロスプラットフォームディスクファイルストア完全なsqliteデータベース
+* 外部依存関係は必要ありません
+* さまざまなプラットフォームで利用できます
 [続きを読む][13]
 
-## mongodb   {#mongo}
+## mongodb {#mongo}
+
 MongoDBは、ドキュメント指向の最大のデータベースの1つでもあります。データを保存するための内部メモリを実装する性質のため、データへの迅速なアクセスを提供します。そのため、MongoDBは、さまざまなタイプのアプリケーション内で構造化されたデータと非構造化データを処理できます。 MongoDBデータベースは、安全で簡単に拡張できるデータベースです。したがって、コンテンツ管理システム、eコマースシステム、モバイルアプリケーション、データ分析セクション、アーカイブ、オンラインおよびオフラインのゲームアプリケーションのサポートに使用できます。簡単にセットアップしてスケーラブルにできます。データは非常に迅速に更新できます。ただし、このドキュメント指向のデータベースのすべてのソースコードは、開発と展開に関するドキュメントを使用して[GitHub][14]で利用できます。
 このドキュメント指向のデータベースには、次の重要な機能があります。
-  *高い弾性スケーラビリティ
-  *データを保護するための複製施設
-  *クエリの豊富なコレクション
-  *オートシェルディング
+* 高い弾性スケーラビリティ
+* データを保護するための複製施設
+* クエリの豊富なコレクション
+* オートシェルディング
   * オープンソース
-  *構造化されたデータと非構造化データを処理します
+* 構造化されたデータと非構造化データを処理します
 [続きを読む][15]
 
 ## 結論
@@ -90,29 +95,30 @@ MongoDBは、ドキュメント指向の最大のデータベースの1つでも
   * [sqlite][13]
   * [mongodb][15]
   * [なぜMySQLが人気のあるオープンソースデータベース管理システムなのか？][22]
-  * [windowsのlocalhostとしてxamppとphpmyadminをセットアップ][23]
+  * [windowsのローカルホストとしてxamppとphpmyadminをセットアップ][23]
 
-  
-[1]: #mysql
-[2]: #postgre
-[3]: #maria
-[4]: #sqlite
-[5]: #mongo
-[6]: https://github.com/mysql/mysql-server
-[7]: https://products.containerize.com/database-management-system/mysql
-[8]: https://github.com/postgres/postgres
-[9]: https://products.containerize.com/database-management-system/postgresql
-[10]: https://github.com/MariaDB/server
-[11]: https://products.containerize.com/database-management-system/mariadb
-[12]: https://github.com/sqlite/sqlite
-[13]: https://products.containerize.com/database-management-system/sqlite
-[14]: https://github.com/mongodb/mongo
-[15]: https://products.containerize.com/database-management-system/mongodb
-[16]: https://www.containerize.com/
-[17]: https://products.containerize.com/discussion-forum/
-[18]: https://products.containerize.com/database-management-system
-[19]: https://web.facebook.com/containerize
-[20]: https://www.linkedin.com/company/containerize/
-[21]: https://twitter.com/containerize_co
-[22]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
-[23]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+
+
+ [1]: #mysql
+ [2]: #postgre
+ [3]: #maria
+ [4]: #sqlite
+ [5]: #mongo
+ [6]: https://github.com/mysql/mysql-server
+ [7]: https://products.containerize.com/database-management-system/mysql
+ [8]: https://github.com/postgres/postgres
+ [9]: https://products.containerize.com/database-management-system/postgresql
+ [10]: https://github.com/MariaDB/server
+ [11]: https://products.containerize.com/database-management-system/mariadb
+ [12]: https://github.com/sqlite/sqlite
+ [13]: https://products.containerize.com/database-management-system/sqlite
+ [14]: https://github.com/mongodb/mongo
+ [15]: https://products.containerize.com/database-management-system/mongodb
+ [16]: https://www.containerize.com/
+ [17]: https://products.containerize.com/discussion-forum/
+ [18]: https://products.containerize.com/database-management-system
+ [19]: https://web.facebook.com/containerize
+ [20]: https://www.linkedin.com/company/containerize/
+ [21]: https://twitter.com/containerize_co
+ [22]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
+ [23]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/

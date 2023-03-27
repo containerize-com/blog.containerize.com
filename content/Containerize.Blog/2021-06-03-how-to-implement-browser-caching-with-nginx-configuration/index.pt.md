@@ -14,17 +14,19 @@ categories: ['Uncategorized', 'Web Server Solution Stack']
 {{< figure align=center src="images/how-to-implement-browser-caching-with-nginx-configuration-1.png" alt="Como implementar o cache do BROWSR com a configuração NGINX">}}
 
 Em nossa série de tutoriais do NGINX, abordamos [como usar o nginx como balanceador de carga][1], [configurar o nginx como proxy reverso][2], [use várias versões PHP com nginx][3] e [convertem htaccess rewrite Regras para as diretivas de reescrita nginx][4]. No artigo de hoje, estamos cobrindo um tópico muito importante que ajuda as empresas a melhorar a experiência de seu usuário, aproveitando o cache do navegador. Neste tutorial, o guiaremos sobre como implementar cache de navegador com a configuração do NGINX usando o módulo de cabeçalho do NGINX. Vamos começar!
-  ***[Cache do navegador de alavancagem][5]** 
-  *[**módulo de cabeçalho nginx** ][6]
-  *[**E-TAGE E IF-NONE-MATCH** ][7]
-  *[**Cache do navegador de alavancagem com configuração nginx** ][8]
-  *[**Conclusão** ][9]
+* **[Cache de navegador de alavancagem][5]** 
+* [ **módulo de cabeçalho nginx** ][6]
+* [ **E-TAGE E IF-NONE-MATCH** ][7]
+* [ **Cache de navegador de alavancagem com configuração nginx** ][8]
+* [ **Conclusão** ][9]
 
-## Cache de navegador de alavancagem   {#Browser-Caching}
+## Cache do navegador de alavancagem {#browser-caching}
+
 Quanto mais rápido um site carrega, maior a probabilidade de um visitante permanecer no site. Os sites com muitas imagens e conteúdo interativo são carregados em segundo plano, tornam o site abrir uma tarefa complexa. Consiste em solicitar muitos arquivos diferentes do servidor um por um. Minimizar a quantidade dessas solicitações é uma maneira de acelerar seu site.
 Um método para melhorar o desempenho do site é o cache do navegador de lençamentos. O cache do navegador desempenha um papel enorme no mecanismo de cache para aumentar a velocidade da página. Arquivos estáticos como CSS, JS, JPEG, PNG, etc. usados ​​para o site, podem ser salvos no computador do visitante para acesso futuro. Sempre que o visitante encontrar uma nova página em seu site, os arquivos acima podem ser acessados ​​no computador do visitante, em vez do servidor fornecido, o que aumentará tremendamente a velocidade de carga da página.
 
-## módulo de cabeçalho do nginx   {#Module de cabeçalho}
+## Módulo de cabeçalho do Nginx {#header-module}
+
 Os módulos _ngx \ _http \ _headers_module_ permitem adicionar os campos "_expires_" e "_cache-control_" campos e campos arbitrários, para um cabeçalho de resposta. Podemos usar o módulo de cabeçalho para definir esses cabeçalhos HTTP. O módulo de cabeçalho é um módulo NGINX do núcleo, o que significa que não precisa ser instalado separadamente para ser usado.
 Exemplo de configuração se parece com o seguinte:
 ```
@@ -38,7 +40,8 @@ expires    $expires;
 add_header Cache-Control private;
 ```
 
-## e-tag e if-none-match   {#etage}
+## E-Tag e se não {#etage}
+
 Vamos supor que temos alguns arquivos de teste com diferentes extensões, por exemplo, test.html, test.jpg, test.css e test.js. Por padrão, todos os arquivos terão o mesmo comportamento de cache padrão. Para verificar os cabeçalhos de resposta de um arquivo usando o seguinte comando para solicitar um arquivo do nosso servidor nginx local e mostra os cabeçalhos de resposta:
 ```
 curl -I http://localhost/test.html
@@ -73,7 +76,8 @@ Connection: keep-alive
 ```
 Desta vez, o nginx responderá com **304 não modificado** . Ele não enviará o arquivo pela rede novamente; Em vez disso, dirá ao navegador que pode reutilizar o arquivo que já baixou localmente. Isso é útil, pois reduz o tráfego de rede. Mas o navegador ainda precisa fazer uma chamada HTTP para obter uma resposta do servidor, que ainda leva algum tempo.
 
-## Cache de navegador de alavancagem com a configuração nginx   {#nginx-configuration}
+## Cache do navegador de alavancagem com a configuração Nginx {#nginx-configuration}
+
 Em nosso exemplo anterior, explicamos como o E-Tag e o IF-None-Match ajudam a reduzir o tráfego da rede. Mas o problema com o `etag` é que o navegador sempre envia uma solicitação ao servidor perguntando se ele pode reutilizar seu arquivo em cache. E isso ainda leva tempo para fazer a solicitação e receber a resposta.
 Agora, com a ajuda do módulo de cabeçalho do NGINX, faremos com que o navegador contenha alguns arquivos localmente sem pedir explicitamente ao servidor.
 Adicione as três linhas a seguir no seu arquivo de configuração nginx para cache conteúdo estático no nginx
@@ -104,14 +108,16 @@ location ~* \.(js|jpg|gif|png|css)$ {
 No exemplo acima, estamos armazenando em cache vários tipos de arquivos, como JS, JPG, CSS, etc.
 Da mesma forma, você pode colocar a configuração do cache no bloco _server_ antes de qualquer bloco de localização. Nesse caso, todas as respostas deste servidor serão armazenadas em cache. Ou você pode colocá -lo no bloco _HTTP_, neste caso, todas as solicitações de servidor suportadas pelo arquivo de configuração do NGINX serão armazenadas em cache.
 
-## Conclusão   {#conclusion}
+## Conclusão {#conclusion}
+
 O módulo de cabeçalhos do NGINX pode ser usado para adicionar cabeçalhos arbitrários à resposta, mas definir adequadamente os cabeçalhos de controle de cache é um de seus aplicativos mais úteis. Ajuda você a melhorar o desempenho do site, especialmente para os usuários em redes com maior latência, como redes de transportadoras móveis. Neste tutorial, aprendemos a aproveitar o armazenamento em cache do navegador com a configuração do NGINX. Espero que isso ajude você a melhorar a experiência do seu usuário em seu site.
 
 ## Explore
   * [Como instalar várias versões PHP com Nginx no Ubuntu][3]
   * [Como configurar e configurar o nginx como proxy reverso][2]
 
-  
+
+
 [1]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
 [2]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
 [3]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/

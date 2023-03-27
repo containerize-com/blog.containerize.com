@@ -40,7 +40,8 @@ Af Örgütü International, Pegasus casus yazılımının iOS'unuzu veya Andriod
   * Bir zaman çizelgesi oluşturun Tüm kötü niyetli izler tespit edilir.
 **Bağlantı**:
 
-## 2. Wireshark - Ağ Protokolü Analizi   {#CE62}
+## 2. Wireshark - Ağ Protokol Analizi {#ce62}
+
 [Wireshark][2] bir ağ paketini analiz eden bir araçtır. Ağ testi ve sorun giderme için kullanılabilir. Bu araç, bilgisayar sisteminizden geçen farklı trafiği kontrol etmenize yardımcı olur.
 **Özellikler**:
   * Zengin VoIP (İnternet Protokolü üzerinden ses) analizi sağlar.
@@ -52,7 +53,8 @@ Af Örgütü International, Pegasus casus yazılımının iOS'unuzu veya Andriod
   * Herhangi bir formatta dosyayı okumanıza veya yazmanıza olanak tanır.
 **bağlantı** : [https://www.wireshark.org][2]
 
-## 3. Sleuth Kiti ve Otopsi - Disk Analizi   {#CE62}
+## 3. Sleuth kiti ve otopsi - disk analizi {#ce62}
+
 [Sleuth Kit ve Otopsi][3], bilgisayar sistemlerinin adli analizini kolaylaştıran Windows tabanlı bir yardımcı araçtır. Bu araç, sabit sürücünüzü ve akıllı telefonunuzu incelemenizi sağlar.
 **Özellikler**:
   * Grafik bir arayüz kullanarak etkinliği etkili bir şekilde tanımlayabilirsiniz.
@@ -64,16 +66,18 @@ Af Örgütü International, Pegasus casus yazılımının iOS'unuzu veya Andriod
   * Dosyaları ve klasörleri yol ve ada göre işaretlemenize yardımcı olur.
 **bağlantı** : [https://www.sleuthkit.org][3]
 
-## 4. Oynaklık Çerçevesi - Bellek Adli Tıp   {#CE62}
+## 4. Oynaklık Çerçevesi - Bellek Adli Tıp {#ce62}
+
 [Volatilite Framework][4] bellek analizi ve adli tıp için yazılımdır. RAM'de bulunan verileri kullanarak bir sistemin çalışma zamanı durumunu test etmenize yardımcı olan en iyi adli görüntüleme araçlarından biridir. Bu uygulama, takım arkadaşlarınızla işbirliği yapmanızı sağlar.
 **Özellikler**:
-  * PTE (sayfa tablosu girişi) bayrakları hızlı bir şekilde arama yapmanıza izin veren API'ya sahiptir.
-  * Volatilite çerçevesi Kaslr'ı destekler (çekirdek adres alanı düzeni randomizasyonu).
-  * Bu araç, Mac dosyası işlemini kontrol etmek için çok sayıda eklenti sağlar.
+  * Hızlı bir şekilde PTE (sayfa tablosu girişi) bayraklarının arama yapmanıza izin veren API'sı vardır.
+  * Volatilite çerçevesi KaslR'yi (çekirdek adres alanı randomizasyonu) destekler.
+  * Bu araç, MAC dosyası işlemini kontrol etmek için çok sayıda eklenti sağlar.
   * Bir hizmet birden çok kez başlayamadığında otomatik olarak hata komutunu çalıştırır.
 **bağlantı** : [https://www.volatilityfoundation.org][4]
 
-## 5. SANS Araştırmacı Adli Araç Seti (SIFT) - Ubuntu için Sift İş İstasyonu   {#B49B}
+## 5. SANS Araştırmacı Adli Araç Seti (SIFT) - Ubuntu için SIFT iş istasyonu {#b49b}
+
 [Sans Sift][5] Ubuntu'ya dayanan bir bilgisayar adli tıp dağılımıdır. Dijital adli ve olay müdahale sınavı tesisi sağlayan en iyi bilgisayar adli araçlarından biridir.
 **Özellikler**:
   * 64 bitlik bir işletim sisteminde çalışabilir.
@@ -87,7 +91,8 @@ Af Örgütü International, Pegasus casus yazılımının iOS'unuzu veya Andriod
 Dijital adli tıp aracına ihtiyacınız var çünkü kapsamlı bir siber güvenlik altyapısında önemli bir rol oynuyor. Dijital adli tıp ve siber güvenlik, çevrimiçi varlığınızı ve özel veri bilgilerinizi korumak için birlikte çalışır. Dijital Adli Tıp Yazılımı (DFS), güvenlik olayları bağlamında BT sistemlerini, yönlendiricileri veya sunucuları araştırmada uzmanlaşmıştır.
 Dijital adli tıp, siber tehditleri tanımlamak için şirketler ve hukuk firmaları için yararlı olabilir. İşletmeniz, kimlik hırsızlığı, sahtekarlık ve diğer dijital suç riskini azaltarak siber güvenliği artırmak için dijital adli araçlara ihtiyaç duyar. Dijital Adli Tıp Aracı, özel bilgilerden yararlanmak veya müdahale etmek için bir kişiyi adalete sağlamak için karmaşık araçlar kullanarak bilgi toplayın.
 
-## Son Düşünceler:   {#4A1A}
+## Son düşünceler: {#4a1a}
+
 Geleneksel yöntemlere kıyasla birçok uygulamayı daha hızlı geri dönüş süresiyle kapsayan en popüler açık kaynaklı dijital adli araçları tartıştık. Veri adli tıp araçları, manuel analize hızlı alternatif ile büyük ölçüde teknoloji odaklıdır. Bunlar adli tıp için kullanabileceğiniz en iyi ücretsiz araçlardan bazılarıdır. Listeyi okumaktan hoşlandığınızı umuyoruz. Yaklaşan blog makalelerimizde, açık kaynak dijital adli araçlar hakkında daha ilginç konuları tartışacağız.
 _ [Twitter][7], [LinkedIn][8] ve [Facebook][9] sayfamızda bize katılabilirsiniz. Hangi açık kaynaklı dijital adli araçları tercih edersiniz? Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen_ [iletişime geçin][10].
 
@@ -96,7 +101,8 @@ Ayrıca beğenebileceğiniz birkaç makalemiz de var.
   * [En iyi açık kaynaklı dijital adli araçlar][11]
   * [NSO Grubu Pegasus İsrail Casus Yazılımı için Mobil Doğrulama Araç Seti veya MVT Aracı][1]
 
-  
+
+
 [1]: https://products.containerize.com/digital-forensic-software/mvt/
 [2]: https://www.wireshark.org/
 [3]: https://www.sleuthkit.org/

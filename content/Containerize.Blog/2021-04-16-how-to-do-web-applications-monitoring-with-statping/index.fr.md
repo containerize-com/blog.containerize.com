@@ -13,25 +13,27 @@ categories: ['Status Page']
 
 {{< figure align=center src="images/How-to-monitor-websites-with-statping.png" alt="Surveillance des applications Web">}}
 
-Statping est un **logiciel de page d'état open source  **et l'un des **  meilleurs outils de surveillance du site Web** . Il utilise également pour surveiller des services tels que les services HTTP, TCP, UDP, ICMP et GRPC. STATPINE récupère automatiquement les services, les surveillez et rendent la belle page de statut. Il est multiplateforme et vous pouvez l'installer sur les systèmes d'exploitation Liunx, Mac et Windows. En outre, il permet d'utiliser le système de base de données MySQL, Postgres ou SQLite pour stocker des informations. De plus, il est livré avec des applications mobiles hors boîte pour les appareils iPhone et Android.
+Statping est un **logiciel de page d'état open source**et l'un des**meilleurs outils de surveillance du site Web** . Il utilise également pour surveiller des services tels que les services HTTP, TCP, UDP, ICMP et GRPC. STATPINE récupère automatiquement les services, les surveillez et rendent la belle page de statut. Il est multiplateforme et vous pouvez l'installer sur les systèmes d'exploitation Liunx, Mac et Windows. En outre, il permet d'utiliser le système de base de données MySQL, Postgres ou SQLite pour stocker des informations. De plus, il est livré avec des applications mobiles hors boîte pour les appareils iPhone et Android.
 Jetons un coup d'œil sur les caractéristiques de base de Statping.
-  * **Surveillance des services**  - STATPIN vous permet de suivre facilement tous vos services HTTP, TCP, UDP, GRPC et ICMP.
-  * **Notifications**  - STATPIN prend en charge la plupart des principales applications tierces pour recevoir des notifications.
-  * **Application mobile**  - Utilisez l'application gratuite pour les appareils iPhone et Android et gérez tout en déplacement.
-  * **OAuth Authenticatio**  n - prend en charge l'authentification OAuth pour les services populaires tels que GitHub, Google, Slack et le fournisseur OpenID personnalisé. Utilisez cette fonctionnalité et augmentez la sécurité.
+  * **Surveillance des services** - STATPIN vous permet de suivre facilement tous vos services HTTP, TCP, UDP, GRPC et ICMP.
+  * **Notifications** - STATPIN prend en charge la plupart des principales applications tierces pour recevoir des notifications.
+  * **Application mobile** - Utilisez l'application gratuite pour les appareils iPhone et Android et gérez tout en déplacement.
+  * **OAuth Authenticatio** n - prend en charge l'authentification OAuth pour les services populaires tels que GitHub, Google, Slack et le fournisseur OpenID personnalisé. Utilisez cette fonctionnalité et augmentez la sécurité.
 Nous couvrirons les sujets suivants dans ce tutoriel.
   * [Installation sur Linux][1]
   * [Configurer le service systemd][2]
   * [Créer un service pour la surveillance][3]
   * [Conclusion][4]
 
-## Installation sur Linux   {#installing}
+## Installation sur Linux {#Installing}
+
 Exécutez la commande ci-dessous pour l'installation de Statping.
 ```
 curl -o- -L https://statping.com/install.sh | bash
 ```
 
-## Configurer Systemd Service   {#configure}
+## Configurer le service SystemD {#Configure}
+
 La configuration d'un service SystemD est un excellent moyen de s'assurer que votre serveur Statping peut redémarrer automatiquement si nécessaire. Pour créer un service SystemD, suivez les étapes ci-dessous.
   * Tout d'abord, exécutez la commande ci-dessous pour créer un nouveau fichier.
 ```
@@ -61,7 +63,8 @@ systemctl enable statping
 systemctl start statping
 ```
 
-## Créer un service pour la surveillance   {#create}
+## Créer un service pour la surveillance {#Create}
+
   * Ouvrez votre navigateur, entrez URL pour vous connecter à votre installation Statping.
   * Cliquez sur le lien Services dans la navigation supérieure. Il vous montrera la page des services qui ressemble en dessous.
 
@@ -69,21 +72,23 @@ systemctl start statping
 
   * Cliquez sur le bouton Créer pour ajouter un nouveau service pour la surveillance. Remplissez les champs requis tels que le nom du service, le type de service, le vérification de l'intervalle, le point de terminaison du service (URL), etc.
 
-## Conclusion   {#conclusion}
-Nous avons appris sur Statping, comment l'installer sur Linux et comment créer un service SystemD dans ce tutoriel. De plus, nous avons créé un nouveau service pour surveiller et vous présenter les différentes fonctionnalités. Nous espérons que ce guide vous aidera à commencer à utiliser STATPING pour effectuer **la surveillance des services Web  **et **  Suivi des applications Web** .
-Enfin, [**contenerize.com **][5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [ **statut**  ][6] pour les dernières mises à jour.
+## Conclusion {#Conclusion}
+
+Nous avons appris sur Statping, comment l'installer sur Linux et comment créer un service SystemD dans ce tutoriel. De plus, nous avons créé un nouveau service pour surveiller et vous présenter les différentes fonctionnalités. Nous espérons que ce guide vous aidera à commencer à utiliser STATPING pour effectuer **la surveillance des services Web**et**Suivi des applications Web** .
+Enfin, [ **contenerize.com**][5] est dans un processus cohérent de rédaction de articles de blog sur d'autres produits open source. Par conséquent, restez en contact avec cette catégorie [**statut** ][6] pour les dernières mises à jour.
 
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
-  * [**Top 5 du logiciel de page d'état open source pour 2020** ][7]
-  * [**statping** ][8]
-  * [**cachet** ][9]
-  * [**Moniteur** ][10]
-  * [**Staytus** ][11]
-  * [**Upptime** ][12]
-  * [**statusfy** ][13]
+  * [ **Top 5 du logiciel de page d'état open source pour 2020** ][7]
+  * [ **statping** ][8]
+  * [ **cachet** ][9]
+  * [ **Moniteur** ][10]
+  * [ **Staytus** ][11]
+  * [ **Upptime** ][12]
+  * [ **statusfy** ][13]
 
-  
+
+
 [1]: #Installing
 [2]: #Configure
 [3]: #Create

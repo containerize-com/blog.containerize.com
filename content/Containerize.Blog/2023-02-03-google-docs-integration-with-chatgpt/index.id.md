@@ -15,21 +15,23 @@ categories: ['Artificial intelligence']
 
 
 ## Ringkasan
-Baru -baru ini diluncurkan [ChatGPT][1] telah menjadi kata kunci di dunia teknologi. Beberapa orang mendukung dan mempertimbangkan ini**ai chatbot**ancaman terhadap produktivitas dan transparansi. Nah, [containerize.com][2] menulis tentang penggunaan dan integrasi model OpenAI GPT-3 ini. Faktanya, [Google Docs][3] adalah alat yang hebat untuk menulis dan representasi data. Tangan lain, munculnya chatgpt adalah alat percakapan [AI][4] yang merespons pertanyaan bahasa alami secara percakapan. Alat AI ini didasarkan pada pembelajaran mesin dan dikembangkan oleh [openai][5]. Namun, posting blog ini tentang**chatgpt dan google**di mana kami akan belajar cara mencapai**integrasi Google Documents dengan chatgpt**. Tidak diragukan lagi, kami dapat membawa**Google Docs Automation**dengan menginstal add-on chatgpt ke Google Documents kami.
+Baru -baru ini diluncurkan [ChatGPT][1] telah menjadi kata kunci di dunia teknologi. Beberapa orang mendukung dan mempertimbangkan ini **ai chatbot**ancaman terhadap produktivitas dan transparansi. Nah, [containerize.com][2] menulis tentang penggunaan dan integrasi model OpenAI GPT-3 ini. Faktanya, [Google Docs][3] adalah alat yang hebat untuk menulis dan representasi data. Tangan lain, munculnya chatgpt adalah alat percakapan [AI][4] yang merespons pertanyaan bahasa alami secara percakapan. Alat AI ini didasarkan pada pembelajaran mesin dan dikembangkan oleh [openai][5]. Namun, posting blog ini tentang **chatgpt dan google** di mana kami akan belajar cara mencapai **integrasi Google Documents dengan chatgpt** . Tidak diragukan lagi, kami dapat membawa**Google Docs Automation** dengan menginstal add-on chatgpt ke Google Documents kami.
 Kami akan melalui poin -poin berikut dalam posting blog ini:
-* [**Bagaimana cara mendapatkan kunci API openai?**][6]
-* **[Mari kita lakukan integrasi Google Docs dengan chatgpt][7]**
-* [**Mulai menggunakan chatgpt dan google****docs**][8]
+* [ **Bagaimana cara mendapatkan kunci API openai?** ][6]
+* **[Mari kita lakukan integrasi Google Docs dengan chatgpt][7]** 
+* [ **Mulai menggunakan chatgpt dan google****docs**][8]
 
-## Bagaimana cara mendapatkan kunci API openai?   {#How-to-Obtain-the-Openai-Api-Key}
+## Bagaimana cara mendapatkan kunci API openai? {#How-to-obtain-the-OpenAI-API-key}
+
 Hanya untuk memberi Anda sedikit pengantar, Openai adalah perusahaan yang berfokus pada penelitian & pengembangan alat kecerdasan buatan. ChatGPT juga dikembangkan dan diluncurkan oleh Openai sedangkan, OpenAI telah mengembangkan serangkaian model GPT.
 Pertama, Anda perlu membuat akun di [platform] OpenAi [9] dan kemudian masuk. Setelah Anda masuk, Anda akan mendarat di halaman Keys API di mana Anda dapat menghasilkan kunci API dengan mengklik tombol “Buat Rahasia Baru baru kunci ”seperti yang ditunjukkan di bawah ini.
 
-{{< figure align=center src="images/openai-api-key-1.gif" alt="Kunci API OpenAI">}}
+{{< figure align=center src="images/openai-api-key-1.gif" alt="Kunci API Openai">}}
 
-Salin tombol API OpenAI yang baru menghasilkan dan simpan sehingga Anda dapat menggunakannya untuk integrasi Google Docs.
+Salin kunci API OpenAI yang baru dan simpan sehingga Anda dapat menggunakannya untuk integrasi Google Docs.
 
-## mari kita lakukan integrasi Google Docs dengan chatgpt   {#lets-do-google-docs-integrasi-dengan-chatgpt}
+## Mari kita lakukan integrasi Google Docs dengan chatgpt {#Lets-do-Google-Docs-Integration-with-ChatGPT}
+
 Prosedur instalasi alat AI percakapan ini cukup mudah. Klik “Extensions-Add-Ons-> Dapatkan Add-Ons” dan Anda akan melihat halaman Google Workspace Marketplace. Sekarang, tulis chatgpt di bilah pencarian, pilih opsi "chatgpt in sheets and docs" Klik opsi pertama dan instal seperti yang terlihat pada gambar di bawah ini:
 
 {{< figure align=center src="images/chatgpt-and-google-1.gif" alt="chatgpt dan google">}}
@@ -40,7 +42,8 @@ Ini akan meminta izin Anda untuk mengakses akun Google Anda, jadi lakukan langka
 
 Akhirnya, OpenAI GPT-3 telah diinstal di Google Documents Anda dan Anda dapat mulai memanfaatkan otomatisasi Google Documents.
 
-## Mulai menggunakan chatgpt dan google docs   {#start-using-chatgpt-and-google}
+## Mulailah menggunakan chatgpt dan google docs {#Start-using-ChatGPT-and-Google}
+
 Sudah waktunya untuk mulai menggunakan otomatisasi Google Documents ini. Fur Tujuan Ini, tab baru akan dibuka dengan mengklik "Extensions-> App Script". Sekarang, salin dan tempel kode berikut ke editor kode.
 {{< gist mustafabutt-dev 997afd9cc9f7285b055e053ad95ff298 >}}
 Pada inti di atas, ganti "xxxxxxxxxxxxxx" dengan tombol API openai Anda. Selanjutnya, simpan file dan klik "Jalankan" ditempatkan di tengah atas editor kode, dan tutup jendela.
@@ -51,14 +54,14 @@ Kembali ke jendela Google Docs dan Anda akan melihat item menu baru "Chatgpt" di
 Dalam contoh di atas, kami menulis sebuah kata dan meminta chatgpt untuk menghasilkan tagline, gambar, dan sinonim dan berhasil melakukan tugas.
 
 ## Kesimpulan
-Untuk menyimpulkan, kami dapat dengan aman mengatakan bahwa Anda telah belajar bagaimana mencapai**integrasi Google Documents dengan chatgpt**. Lebih lanjut, kita telah melihat cara menghasilkan kunci**OpenAI API**dan mengaturnya untuk mengaktifkan**OpenAI GPT-3**Fungsi. Otomasi Google Docs ini dapat dengan serius menguntungkan tugas bisnis Anda. Selain itu, jangan lupa untuk mengunjungi tautan yang terdaftar di bagian "Lihat juga" di bawah ini.
+Untuk menyimpulkan, kami dapat dengan aman mengatakan bahwa Anda telah belajar bagaimana mencapai **integrasi Google Documents dengan chatgpt**. Lebih lanjut, kita telah melihat cara menghasilkan kunci **OpenAI API** dan mengaturnya untuk mengaktifkan**OpenAI GPT-3** Fungsi. Otomasi Google Docs ini dapat dengan serius menguntungkan tugas bisnis Anda. Selain itu, jangan lupa untuk mengunjungi tautan yang terdaftar di bagian "Lihat juga" di bawah ini.
 Akhirnya, [containerize.com][2] terus menulis posting blog tentang produk dan topik open-source lebih lanjut. Selain itu, Anda dapat mengikuti kami di akun media sosial kami [Facebook][10], [LinkedIn][11], dan [Twitter][12].
 
 ## Berikan pertanyaan
 Anda dapat memberi tahu kami tentang pertanyaan atau pertanyaan Anda di [forum] kami [13].
 
 ## FAQ
-**Bagaimana cara menggunakan API GPT-3 di Google Documents?**
+**Bagaimana cara menggunakan API GPT-3 di Google Documents?** 
 Silakan kunjungi [tautan][7] ini untuk mengetahui langkah -langkah integrasi Google Docs dengan chatgpt.
 
 ## Lihat juga
@@ -68,7 +71,8 @@ Silakan kunjungi [tautan][7] ini untuk mengetahui langkah -langkah integrasi Goo
   * [Apa itu Openai Chatbot GPT-3 | Chatgpt an revolusi AI][1]
   * [Apa 5 Kerangka AI Open-Source Top][16]
 
-  
+
+
 [1]: https://blog.containerize.com/artificial-intelligence/what-is-openai-chatbot-gpt-3-chatgpt-an-ai-revolution/
 [2]: https://www.containerize.com/
 [3]: https://docs.google.com/document/u/0/

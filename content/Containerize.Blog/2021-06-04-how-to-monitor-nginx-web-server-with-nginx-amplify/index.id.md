@@ -11,18 +11,20 @@ categories: ['Web Server Solution Stack']
 
 ## Monitor NGINX, Aplikasi PHP, Sistem Operasi dengan Nginx memperkuat dan meningkatkan konfigurasi. Artikel ini memandu Anda untuk mengatur dan mengkonfigurasi Nginx Amplify.
 
-{{< figure align=center src="images/nginx-post.png" alt="Monitor Nginx Web Server dengan Nginx Amplify">}}
+{{< figure align=center src="images/nginx-post.png" alt="Pantau server web Nginx dengan Nginx Amplify">}}
 
 
-## Ikhtisar   {#install}
-**Pemantauan server web  **sangat penting untuk situs web lalu lintas tinggi. Agen pemantauan ** **  akan merekam metrik penting tentang server web secara teratur. Metrik kritis tersebut dapat digunakan untuk mengoptimalkan konfigurasi Nginx. Ini akan membantu Anda dalam meningkatkan kinerja server web dan aplikasi Anda.
-Dalam posting blog ini, kami akan membahas bagian berikut untuk pemantauan **nginx**  Alat Sumber Terbuka.
+## Ringkasan {#Install}
+
+**Pemantauan server web**sangat penting untuk situs web lalu lintas tinggi. Agen pemantauan****akan merekam metrik penting tentang server web secara teratur. Metrik kritis tersebut dapat digunakan untuk mengoptimalkan konfigurasi Nginx. Ini akan membantu Anda dalam meningkatkan kinerja server web dan aplikasi Anda.
+Dalam posting blog ini, kami akan membahas bagian berikut untuk pemantauan **nginx** Alat Sumber Terbuka.
   * [Server web nginx][1]
   * [Nginx amplify][2]
   * [Instal Nginx Amplify][3]
   * [Metrik Pemantauan][4]
 
-## NGINX Web Server   {#nginx}
+## Server Web Nginx {#Nginx}
+
 [Nginx][5] adalah server web sumber terbuka dan terbuka. Ini sederhana, ringan, dan mudah dikonfigurasi daripada Apache. Nginx Web Server juga berfungsi sebagai proxy terbalik, load balancer, proxy mail, dan cache http. Ini berfungsi untuk protokol HTTP, HTTPS, SMTP, POP3, dan IMAP. Nginx adalah server web berkecepatan tinggi, andal, dan efisien memori yang meningkatkan kinerja aplikasi Anda. Lebih lanjut, telah semakin populer dan sekarang dianggap sebagai server web yang paling populer. Selain itu, Nginx cocok untuk semua jenis situs web termasuk situs dan aplikasi lalu lintas tinggi. Ini dapat diinstal dan dikonfigurasi pada hampir semua sistem operasi.
 
 ### Instal Nginx
@@ -36,13 +38,15 @@ sudo apt install nginx
 {{< figure align=center src="images/nginx-home.png" alt="Selamat Datang di Nginx!">}}
 
 
-## nginx amplify   {#amplify}
-Nginx Amplify adalah alat pemantauan gratis untuk Nginx Open Source, Nginx Plus, dan PHP-FPM. Ini adalah alat berbasis SaaS untuk pemantauan dan aplikasi Nginx Server. Pengguna dapat dengan mudah melacak aset infrastruktur, memantau kinerja, dan menyesuaikan konfigurasi. Ini memberikan informasi komprehensif yang dapat digunakan pengguna untuk mengoptimalkan server web dan konfigurasi aplikasi. Ini bertindak sebagai agen di server yang meng -host aplikasi Nginx dan PHP. Nginx Amplify adalah ringan, push log dan memantau data untuk memperkuat server tanpa mengurangi kinerja. Anda dapat melihat metrik di dasbor amplify. Agen tersedia untuk semua sistem operasi utama seperti RHEL, Centos, Ubuntu, Debian, Fedora, dan FreeBSD. Nginx Amplify memiliki tiga komponen utama seperti Nginx Amplify Agent, Nginx Amplify Web UI, dan Nginx Amplify Backend.
-  ***Nginx Amplify Agent**  - Ini beroperasi pada sistem yang sedang dipantau. Semua komunikasi dienkripsi menggunakan SSL/TLS.
-  ***Nginx Amplify Web UI**  - Web UI Menampilkan Metrik untuk Server Web, Aplikasi, dan Sistem Operasi.
-  ***Nginx Amplify Backend**  - Ini adalah komponen kunci yang diimplementasikan sebagai SaaS dan bertanggung jawab untuk mengumpulkan metrik, memelihara basis data, menjalankan mesin analitik, dan menyediakan API inti.
+## Nginx Amplify {#Amplify}
 
-## Instal Nginx Amplify   {#install}
+Nginx Amplify adalah alat pemantauan gratis untuk Nginx Open Source, Nginx Plus, dan PHP-FPM. Ini adalah alat berbasis SaaS untuk pemantauan dan aplikasi Nginx Server. Pengguna dapat dengan mudah melacak aset infrastruktur, memantau kinerja, dan menyesuaikan konfigurasi. Ini memberikan informasi komprehensif yang dapat digunakan pengguna untuk mengoptimalkan server web dan konfigurasi aplikasi. Ini bertindak sebagai agen di server yang meng -host aplikasi Nginx dan PHP. Nginx Amplify adalah ringan, push log dan memantau data untuk memperkuat server tanpa mengurangi kinerja. Anda dapat melihat metrik di dasbor amplify. Agen tersedia untuk semua sistem operasi utama seperti RHEL, Centos, Ubuntu, Debian, Fedora, dan FreeBSD. Nginx Amplify memiliki tiga komponen utama seperti Nginx Amplify Agent, Nginx Amplify Web UI, dan Nginx Amplify Backend.
+* **Nginx Amplify Agent** - Ini beroperasi pada sistem yang sedang dipantau. Semua komunikasi dienkripsi menggunakan SSL/TLS.
+* **Nginx Amplify Web UI** - Web UI Menampilkan Metrik untuk Server Web, Aplikasi, dan Sistem Operasi.
+* **Nginx Amplify Backend** - Ini adalah komponen kunci yang diimplementasikan sebagai SaaS dan bertanggung jawab untuk mengumpulkan metrik, memelihara basis data, menjalankan mesin analitik, dan menyediakan API inti.
+
+## Instal Nginx Amplify {#Install}
+
 Ikuti panduan langkah demi langkah di bawah ini untuk pemasangan Nginx Amplify di Ubuntu.
   * Pertama, Anda perlu membuat akun di nginx [situs web][6].
   * Setelah login, Anda akan melihat layar di bawah ini di situs web Nginx Amplify. Sekarang, sambungkan ke server Anda melalui SSH dan gunakan perintah yang diberikan dalam langkah -langkah di bawah ini.
@@ -61,7 +65,7 @@ $ API_KEY='XXXXXXXX' sh ./install.sh
 ```
 $ sudo service amplify-agent status
 ```
-  * Sekarang, Anda perlu mengonfigurasi agen Nginx Amplify untuk melihat metrik.
+  * Sekarang, Anda perlu mengkonfigurasi agen Nginx Amplify untuk melihat metrik.
 
 {{< figure align=center src="images/amplify-2-1.png" alt="Konfigurasi Pemantauan Nginx">}}
 
@@ -103,19 +107,20 @@ $ sudo service nginx restart
 
 {{< figure align=center src="images/amplify-after-finish-1024x503.png" alt="Pemantauan Server Web">}}
 
-  *Anda dapat melihat statistik dalam format yang lebih mudah dan mudah dibaca dengan mengklik tab **Tinjauan** . Ini akan terlihat seperti seperti yang ditunjukkan di bawah ini.
+* Anda dapat melihat statistik dalam format yang lebih mudah dan mudah dibaca dengan mengklik tab **Tinjauan** . Ini akan terlihat seperti seperti yang ditunjukkan di bawah ini.
 
 {{< figure align=center src="images/amplify-overview.png" alt="Statistik pemantauan nginx">}}
 
 
-## Metrik Pemantauan   {#monitoring}
+## Metrik Pemantauan {#Monitoring}
+
 Nginx Amplify Agent mengumpulkan jenis data berikut:
-  ***Metrik nginx** -Ini mengumpulkan berbagai metrik terkait nginx dari stub_status, file log, dan dari status proses.
-  ***Metrik Sistem**  - Nginx Amplify memantau berbagai metrik sistem seperti penggunaan CPU, penggunaan memori, lalu lintas jaringan, dan banyak lagi.
-  ***Metrik PHP-FPM** -Jika mengidentifikasi proses master PHP-FPM yang berjalan, ia mendapat metrik dari status pool php-fpm.
-  ***Metrik MySQL**  - Kumpulan variabel status global MySQL dapat digunakan oleh agen untuk mengumpulkan metrik.
-  ***Nginx Metadata**  - Agen mengumpulkan data tentang instance nginx seperti data paket, membangun informasi, jalur biner, membangun pengaturan konfigurasi, dan banyak lagi.
-  ***Sistem Metadata**  - Agen mengumpulkan data pada sistem operasi, termasuk nama host, waktu kerja, rasa OS, dan detail lainnya.
+* **Metrik nginx** -Ini mengumpulkan berbagai metrik terkait nginx dari stub_status, file log, dan dari status proses.
+* **Metrik Sistem** - Nginx Amplify memantau berbagai metrik sistem seperti penggunaan CPU, penggunaan memori, lalu lintas jaringan, dan banyak lagi.
+* **Metrik PHP-FPM** -Jika mengidentifikasi proses master PHP-FPM yang berjalan, ia mendapat metrik dari status pool php-fpm.
+* **Metrik MySQL** - Kumpulan variabel status global MySQL dapat digunakan oleh agen untuk mengumpulkan metrik.
+* **Nginx Metadata** - Agen mengumpulkan data tentang instance nginx seperti data paket, membangun informasi, jalur biner, membangun pengaturan konfigurasi, dan banyak lagi.
+* **Sistem Metadata** - Agen mengumpulkan data pada sistem operasi, termasuk nama host, waktu kerja, rasa OS, dan detail lainnya.
 
 ## Kesimpulan
 Kami telah melewati Nginx Web Server dan Nginx Amplify Advanced Monitoring Agent dengan sangat rinci. Nginx Amplify cukup sederhana untuk diatur dan dikonfigurasi. Selain itu, kami telah pergi ke metrik kritis Nginx Amplify dapat melacak ke **Monitor nginx** . Metrik penting ini dapat digunakan untuk meningkatkan konfigurasi server dan aplikasi Nginx Anda.
@@ -126,7 +131,8 @@ Anda mungkin menemukan tautan berikut yang relevan:
   * [Cara Menggunakan Nginx sebagai Load Balancer untuk Aplikasi Anda][9]
   * [Cara Mengatur dan Mengkonfigurasi Nginx sebagai Proxy Terbalik][10]
 
-  
+
+
 [1]: #Nginx
 [2]: #Amplify
 [3]: #Install

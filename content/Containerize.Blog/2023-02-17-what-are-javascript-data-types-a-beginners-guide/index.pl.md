@@ -15,21 +15,23 @@ categories: ['Programming']
 
 
 ## Przegląd
-Bez względu na to, czy jesteś przeciętnym poziomem, czy doświadczonym programistą, otrzymasz rozwiązania problemów związanych z pracą w rozwoju. [Containerize.com][1] rozpoczął pisanie postów na blogu w kategorii programowania i zaczynamy od **JavaScript dla początkujących **. Ponieważ zaczynamy, więc ten artykuł dotyczył typów danych JavaScript. Zbadajmy  **Czym są typy danych JavaScript **  i zobacz przykłady, w jaki sposób możesz je efektywnie używać w kodzie źródłowym. Dlatego dokładnie przejdź przez przewodnika tego początkującego, aby dobrze zrozumieć ** JavaScript Rodzaje danych** .
+Bez względu na to, czy jesteś przeciętnym poziomem, czy doświadczonym programistą, otrzymasz rozwiązania problemów związanych z pracą w rozwoju. [Containerize.com][1] rozpoczął pisanie postów na blogu w kategorii programowania i zaczynamy od  **JavaScript dla początkujących** . Ponieważ zaczynamy, więc ten artykuł dotyczył typów danych JavaScript. Zbadajmy  **Czym są typy danych JavaScript**  i zobacz przykłady, w jaki sposób możesz je efektywnie używać w kodzie źródłowym. Dlatego dokładnie przejdź przez przewodnika tego początkującego, aby dobrze zrozumieć **JavaScript Rodzaje danych**  .
 Obejmujemy następujący punkt:
   * [Co to jest typ danych?][2]
   * [Co to są typy danych JavaScript?][3]
 
-## Typy danych wyjaśnione | Co to jest typ danych?   {#Co-is-a-data-typ}
+## Wyjaśnione typy danych | Co to jest typ danych? {#What-is-a-data-type}
+
 Typ danych polega na informowaniu kompilatora, jak interpretować lub skompilować dane. Zastosowanie typów danych ma kluczowe znaczenie i należy go używać mądrze. Krótko mówiąc, chodzi o format danych, takich jak liczba, ciąg, boolean i więcej. Istnieją jednak dwie kategorie typów danych prymitywne typy danych i typy danych niepryminitywnych. Istnieje osiem prymitywnych typów danych, przez które przejdziemy w następnej sekcji.
 
-## Co to są typy danych JavaScript?   {#Coe-javascript-data-typy}
+## Jakie są typy danych JavaScript? {#What-are-JavaScript-Data-Types}
+
 W rzeczywistości JavaScript jest luźno wpisanym językiem, co oznacza, że ​​nie musisz jawnie definiować typu zmiennego. Możesz przypisać dowolną wartość do zmiennej, a ta zmienna będzie przechowywać tę wartość, taką jak String, Bigint, Boolean lub więcej.
 
 {{< figure align=center src="images/web-development.png" alt="Przewodnik dla początkujących JavaScript">}}
 
 
-## ## prymitywne typy danych
+#### prymitywne typy danych
 Prymitywne typy danych to te, które są niezmienne i nie można ich zmienić po utworzeniu i inicjalizacji. Możesz jednak ponownie przypisać nową wartość, ale nie możesz zmutować istniejącej wartości.
 Na przykład:
 ```
@@ -41,8 +43,8 @@ console.log(name) // output: my name is changed
 ```
 W powyższym przykładzie ciąg jest prymitywnym typem danych, a stara wartość jest zastępowana nową wartością, ale zmiana istniejącej wartości nie jest odzwierciedlona. Widzimy więc, że wciąż jest to „moje imię zmieniło się”, a nie „moje imię się zmieniło”;
 
-## ## 
-Nieprzestwalne typy danych są zmienne, w prostych słowach przeciwieństwo prymitywnych typów danych.
+####
+Nieprzestite typy danych są zmienne, w prostych słowach przeciwieństwo prymitywnych typów danych.
 Na przykład:
 ```
 var arr = [1,2,3];
@@ -70,25 +72,25 @@ arr = arr2;
 arr === arr2 // true
 ```
 Teraz przejrzyjmy typy danych jeden po drugim. Istnieje 6 prymitywnych typów danych i 1 niepryminitywny typ danych.
-**Prymitywne typy danych obejmują:**
-  * **String** : Ten typ danych reprezentuje dane tekstowe, które składają się z sekwencji znaków otoczonych cytatami.
-  * **Numer** : Reprezentuje dane dziesiętne/nie-decymalne, szczególnie liczbę całkowitą lub zmiennoprzecinkową.
-  * **Boolean** : Reprezentacja wartości logicznych True lub False.
-  * **Symbol** : Symbol służy do przechowywania unikalnych wartości.
-  * **Undefined** : zmienna bez żadnej wartości lub niezainicjowanej zmiennej.
-  * **NULL** : Brak dowolnej wartości jest uważana za NULL.
-**Nieprzestronny typ danych obejmuje:**
-**Obiekt**: Służy do przechowywania gromadzenia danych składających się z par kluczowych.
+ **Prymitywne typy danych obejmują:**  
+*  **String**  : Ten typ danych reprezentuje dane tekstowe, które składają się z sekwencji znaków otoczonych cytatami.
+*  **Numer**  : Reprezentuje dane dziesiętne/nie-decymalne, szczególnie liczbę całkowitą lub zmiennoprzecinkową.
+*  **Boolean**  : Reprezentacja wartości logicznych True lub Fałsz.
+*  **Symbol**  : Symbol służy do przechowywania unikalnych wartości.
+*  **Undefined**  : zmienna bez żadnej wartości lub niezainicjowanej zmiennej.
+*  **NULL**  : Brak dowolnej wartości jest uważana za NULL.
+ **Nieprzestronny typ danych obejmuje:**  
+ **Obiekt** : Służy do przechowywania gromadzenia danych składających się z par kluczowych.
 
 ## Wniosek
-To jest koniec tego **Guide JavaScript dla początkujących **. Przeszliśmy  **Czym są typy danych JavaScript ** ? Ponadto zbadaliśmy, jaki jest typ danych w skrócie. Powinieneś lepiej zrozumieć niepryminitywne i ** prymitywne typy danych**  w JavaScript. Ten post na blogu naprawdę pomoże ci, jeśli chcesz przygotować do rozmowy kwalifikacyjnej.
+To jest koniec tego  **Guide JavaScript dla początkujących** . Przeszliśmy  **Czym są typy danych JavaScript**  ? Ponadto zbadaliśmy, jaki jest typ danych w skrócie. Powinieneś lepiej zrozumieć niepryminitywne i **prymitywne typy danych**  w JavaScript. Ten post na blogu naprawdę pomoże ci, jeśli chcesz przygotować do rozmowy kwalifikacyjnej.
 Wreszcie [Containerize.com][1] ciągle pisze posty na blogu na temat dalszych produktów i tematów typu open source. Ponadto możesz śledzić nas na naszych kontach w mediach społecznościowych [Facebook][4], [LinkedIn][5] i [Twitter][6].
 
 ## Zadać pytanie
 Możesz poinformować nas o swoich pytaniach lub zapytaniach na naszym [forum][7].
 
 ## FAQ
-**Jakie są 8 typów danych JavaScript?**
+ **Jakie są 8 typów danych JavaScript?** 
 Odwiedź ten [link][3], aby poznać 8 typów danych JavaScript.
 
 ## Zobacz też
@@ -96,14 +98,15 @@ Odwiedź ten [link][3], aby poznać 8 typów danych JavaScript.
   * [Zautomatyzuj operacje biznesowe za pomocą oprogramowania bezpłatnego i open source][9]
   * [Top 10 technologii open source do nauki w 2022 r.][10]
 
-  
-[1]: https://www.containerize.com/
-[2]: #What-is-a-data-type
-[3]: #What-are-JavaScript-Data-Types
-[4]: https://web.facebook.com/containerize
-[5]: https://www.linkedin.com/company/containerize/
-[6]: https://twitter.com/containerize_co
-[7]: https://forum.containerize.com/
-[8]: //blog.containerize.com/2022/02/02/free-open-source-popular-javascript-frameworks/
-[9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
-[10]: //blog.containerize.com/2022/01/31/top-10-open-source-trending-technologies-of-2022/
+
+
+ [1]: https://www.containerize.com/
+ [2]: #What-is-a-data-type
+ [3]: #What-are-JavaScript-Data-Types
+ [4]: https://web.facebook.com/containerize
+ [5]: https://www.linkedin.com/company/containerize/
+ [6]: https://twitter.com/containerize_co
+ [7]: https://forum.containerize.com/
+ [8]: //blog.containerize.com/2022/02/02/free-open-source-popular-javascript-frameworks/
+ [9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+ [10]: //blog.containerize.com/2022/01/31/top-10-open-source-trending-technologies-of-2022/

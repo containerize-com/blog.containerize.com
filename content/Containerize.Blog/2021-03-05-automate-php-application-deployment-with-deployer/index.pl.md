@@ -11,18 +11,20 @@ categories: ['Deployment Tools']
 
 ## Zautomatyzuj proces wdrażania aplikacji PHP za pomocą narzędzia do wdrażania PHP. Dowiemy się, jak konfigurować wdrażacz i użyć go do wdrażania aplikacji PHP.
 
-{{< figure align=center src="images/deployer-blog-post.png" alt="Narzędzie do wdrażania PHP">}}
+{{< figure align=center src="images/deployer-blog-post.png" alt="Narzędzie wdrażania PHP">}}
 
-Jest to bardzo krytyczne zadanie do wdrażania aplikacji na serwerze po opracowaniu. Nowe funkcje i poprawki błędów są często wydawane przez zespoły. Dlatego zespoły są lepsze do eliminowania pracy ręcznej i zautomatyzowania procesu **wdrażania oprogramowania **. Pozwoliłoby to zespołom oprogramowania skoncentrować się na ważniejszych zadaniach. Istnieje kilka  **narzędzie wdrażania open source**  , ale w tym samouczku skoncentrujemy się na** PHP. W tym poście omówimy następującą sekcję.
-  *[ **What Is wdrażający** ][1]
-  *[ **Instalowanie wdrażającego** ][2]
-  *[ **Wdrażaj aplikację PHP** ][3]
-  *[ **Wniosek** ][4]
+Jest to bardzo krytyczne zadanie do wdrażania aplikacji na serwerze po opracowaniu. Nowe funkcje i poprawki błędów są często wydawane przez zespoły. Dlatego zespoły są lepsze do eliminowania pracy ręcznej i zautomatyzowania procesu  **wdrażania oprogramowania** . Pozwoliłoby to zespołom oprogramowania skoncentrować się na ważniejszych zadaniach. Istnieje kilka **narzędzie wdrażania open source**  , ale w tym samouczku skoncentrujemy się na**PHP. W tym poście omówimy następującą sekcję.
+* [  **What Is wdrażający**  ][1]
+* [  **Instalowanie wdrażającego**  ][2]
+* [  **Wdrażaj aplikację PHP**  ][3]
+* [  **Wniosek**  ][4]
 
-## Co to jest wdrażający   {#what}
-[**Wdrażnik **][5] to narzędzie do wdrażania PHP  **wdrażania php ** . Umożliwia zespołom oprogramowania do automatyzacji przepływów pracy wdrażania dla aplikacji opartych na PHP. Jest bardzo prosty w instalacji i łatwy w użyciu. Każdy, kto od początku do początku do ekspertów może szybko wykorzystać go do wdrażania aplikacji PHP. Wdrożenie jest wyposażone w przepisy/scenariusze nie-pudełkowe dla popularnych ram PHP, CMS i oprogramowania do koszyków. Ponadto możesz zrobić  **Laravel wdrożenie **  z tym  **narzędziem wdrażania open source ** . Deweloper może wykorzystać wbudowane przepisy do swoich projektów i korzystać z nich do wdrażania. Ponadto możesz łatwo utworzyć skrypt instalacji/wdrożyć za pomocą kreatora  **PHP ** . Ponadto to ** narzędzie do wdrażania bezpłatnego**  oferuje doskonałe funkcje, takie jak wdrożenia zero-downTime, wycofanie w poprzedniej wersji, SSH, równoległe wykonanie i wiele innych.
+## Co to jest wdrażający {#What}
 
-## Instalowanie wdrażającego   {#Installing}
+[  **Wdrażnik** ][5] to narzędzie do wdrażania PHP  **wdrażania php**  . Umożliwia zespołom oprogramowania do automatyzacji przepływów pracy wdrażania dla aplikacji opartych na PHP. Jest bardzo prosty w instalacji i łatwy w użyciu. Każdy, kto od początku do początku do ekspertów może szybko wykorzystać go do wdrażania aplikacji PHP. Wdrożenie jest wyposażone w przepisy/scenariusze nie-pudełkowe dla popularnych ram PHP, CMS i oprogramowania do koszyków. Ponadto możesz zrobić  **Laravel wdrożenie**  z tym  **narzędziem wdrażania open source**  . Deweloper może wykorzystać wbudowane przepisy do swoich projektów i korzystać z nich do wdrażania. Ponadto możesz łatwo utworzyć skrypt instalacji/wdrożyć za pomocą kreatora  **PHP**  . Ponadto to **narzędzie do wdrażania bezpłatnego**  oferuje doskonałe funkcje, takie jak wdrożenia zero-downTime, wycofanie w poprzedniej wersji, SSH, równoległe wykonanie i wiele innych.
+
+## Instalowanie wdrażającego {#Installing}
+
   * Wdrożenie zależy od PHP. Powinieneś upewnić się, że PHP działa na twoim serwerze. Możesz jednak użyć poniższego polecenia do instalacji PHP na Ubuntu.
 ```
 sudo apt-get install php
@@ -34,9 +36,10 @@ sudo mv Deployer.phar /usr/local/bin/dep
 sudo chmod +x /usr/local/bin/dep
 ```
 
-## Wdrożenie aplikacji PHP   {#DePloy}
-Postępuj zgodnie z wytycznymi krok po kroku, aby  **wdrożyć aplikację PHP**  za pomocą wdrażającego.
-  * Utwórz katalog wdrażający i przejdź do nowo utworzonego katalogu.
+## Wdrożenie aplikacji PHP {#Deploy}
+
+Postępuj zgodnie z wytycznymi krok po kroku, aby  **wdrożyć aplikację PHP**  z wdrażnikiem.
+  * Utwórz katalog dla wdrażającego i przejdź do nowo utworzonego katalogu.
 ```
 sudo mkdir deployer
 cd deployer
@@ -51,7 +54,7 @@ dep init
 
   * Po pierwsze, musisz wybrać typ projektu, wprowadzając numer. Możesz wprowadzić 0, jeśli nie jesteś pewien typu projektu lub po prostu zapoznanie się z wdrożeniem.
   * Po drugie, musisz podać ścieżkę repozytorium GIT. To opcjonalny krok, możesz go pominąć i dodać ścieżkę później.
-  * W ostatnim kroku możesz udostępniać informacje społeczności Dyploener, wybierając tak lub wprowadzić nie, aby je pominąć.
+  * W ostatnim etapie możesz udostępniać informacje społeczności Dyploener, wybierając tak lub wprowadzić nie, aby je pominąć.
 ```
 <?php
 namespace Deployer;
@@ -104,10 +107,10 @@ task('deploy', [
 after('deploy:failed', 'deploy:unlock');
 ```
 Musisz zmienić następujące zmienne w celu wdrożenia aplikacji PHP.
-  * **SET („Application”, „my_project”);**  - Ustaw nazwę aplikacji.
-  * **set („repozytorium”, ”);** -Ustaw ścieżkę repozytorium GIT, taką jak„ git@github.com: masood/pierwsza-app-with-dployer.git ”. Musisz ustawić klawisz wdrażania w swoim repozytorium GitHub. Możesz wyszukać, jak utworzyć klucz SSH na serwerze, jeśli nie znasz go.
- *** Host („Project.com”)
-    -> set („wdrażanie_path”, „~/{{Application}}”);** -Ustaw nazwę projektu i zdefiniuj ścieżkę tam, gdzie chcesz przechowywać pliki dla swojej aplikacji. Wyglądałoby to jak/var/www/html/wdrożenie.
+*  **SET („Application”, „my_project”);**  - Ustaw nazwę aplikacji.
+*  **set („repozytorium”, ”);**  -Ustaw ścieżkę repozytorium GIT, taką jak„ git@github.com: masood/pierwsza-app-with-dployer.git ”. Musisz ustawić klawisz wdrażania w swoim repozytorium GitHub. Możesz wyszukać, jak utworzyć klucz SSH na serwerze, jeśli nie znasz go.
+***Host („Project.com”)
+    -> set („wdrażanie_path”, „~/{{Application}}”);**-Ustaw nazwę projektu i zdefiniuj ścieżkę tam, gdzie chcesz przechowywać pliki dla swojej aplikacji. Wyglądałoby to jak/var/www/html/wdrożenie.
 Na koniec uruchom poniższe polecenie, aby wdrożyć aplikację PHP.
 ```
 dep deployer
@@ -117,38 +120,40 @@ Jeśli znajdziesz jakieś problemy z nową wersją i chcesz cofać zmiany. Może
 dep rollback
 ```
 
-## Wniosek   {#Conclusion}
-Omówiliśmy o wdrożeniu i sposobie go zainstalowania w tym samouczku. Ponadto stworzyliśmy pełne wytyczne dotyczące wdrażania aplikacji opartej na PHP z repozytorium GitHub. Mamy nadzieję, że ten post na blogu pomoże Ci uruchomić **wdrażanie aplikacji PHP  **z wdrażnikiem. Ponadto napiszemy więcej o tym**   narzędzie do wdrażania PHP** w nadchodzących samouczkach.
-Wreszcie [**Containerize.com **][6] jest w spójnym procesie pisania postów na blogu na temat dalszych najnowszych produktów typu open source. Dlatego pozostań w kontakcie z tą kategorią [**  narzędzi wdrażania**][7] w celu uzyskania najnowszych aktualizacji.
+## Wniosek {#Wniosek}
+
+Omówiliśmy o wdrożeniu i sposobie go zainstalowania w tym samouczku. Ponadto stworzyliśmy pełne wytyczne dotyczące wdrażania aplikacji opartej na PHP z repozytorium GitHub. Mamy nadzieję, że ten post na blogu pomoże Ci uruchomić  **wdrażanie aplikacji PHP** z wdrażnikiem. Ponadto napiszemy więcej o tym **narzędzie do wdrażania PHP**  w nadchodzących samouczkach.
+Wreszcie [  **Containerize.com** ][6] jest w spójnym procesie pisania postów na blogu na temat dalszych najnowszych produktów typu open source. Dlatego pozostań w kontakcie z tą kategorią [ **narzędzi wdrażania**  ][7] w celu uzyskania najnowszych aktualizacji.
 
 ## Badać
 Możesz znaleźć istotne następujące linki:
-  *[ **wdrażacz** ][8]
-  *[ **Jenkins** ][9]
-  *[ **dron** ][10]
-  *[ **Capistrano** ][11]
-  *[ **rancher** ][12]
-  *[ **Concourse** ][13]
-  *[ **ansible** ][14]
-  *[ **gocd** ][15]
-  *[ **Top 5 narzędzi do wdrażania open source w 2021** ][16]
-  *[ **Ciągłe integracja i ciągłe wdrażanie z serwera kontroli źródła** ][17]
+* [  **wdrażacz**  ][8]
+* [  **Jenkins**  ][9]
+* [  **dron**  ][10]
+* [  **Capistrano**  ][11]
+* [  **rancher**  ][12]
+* [  **Concourse**  ][13]
+* [  **ansible**  ][14]
+* [  **gocd**  ][15]
+* [  **Top 5 Narzędzia do wdrażania open source w 2021**  ][16]
+* [  **Ciągłe integracja i ciągłe wdrażanie z serwera kontroli źródła**  ][17]
 
-  
-[1]: #What
-[2]: #Installing
-[3]: #Deploy
-[4]: #Conclusion
-[5]: https://deployer.org/
-[6]: https://containerize.com
-[7]: https://blog.containerize.com/category/deployment-tools/
-[8]: https://products.containerize.com/deployment-tools/deployer
-[9]: https://products.containerize.com/deployment-tools/jenkins/
-[10]: https://products.containerize.com/deployment-tools/drone/
-[11]: https://products.containerize.com/deployment-tools/capistrano/
-[12]: https://products.containerize.com/deployment-tools/rancher/
-[13]: https://products.containerize.com/deployment-tools/concourse/
-[14]: https://products.containerize.com/deployment-tools/ansible/
-[15]: https://products.containerize.com/deployment-tools/gocd/
-[16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
-[17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/
+
+
+ [1]: #What
+ [2]: #Installing
+ [3]: #Deploy
+ [4]: #Conclusion
+ [5]: https://deployer.org/
+ [6]: https://containerize.com
+ [7]: https://blog.containerize.com/category/deployment-tools/
+ [8]: https://products.containerize.com/deployment-tools/deployer
+ [9]: https://products.containerize.com/deployment-tools/jenkins/
+ [10]: https://products.containerize.com/deployment-tools/drone/
+ [11]: https://products.containerize.com/deployment-tools/capistrano/
+ [12]: https://products.containerize.com/deployment-tools/rancher/
+ [13]: https://products.containerize.com/deployment-tools/concourse/
+ [14]: https://products.containerize.com/deployment-tools/ansible/
+ [15]: https://products.containerize.com/deployment-tools/gocd/
+ [16]: https://blog.containerize.com/deployment-tools/top-5-open-source-deployment-tools-in-the-year-2021/
+ [17]: https://blog.containerize.com/deployment-tools/automate-software-deployment-process-with-jenkins-and-github/

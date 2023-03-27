@@ -20,17 +20,19 @@ Kami akan membahas bagian berikut dalam tutorial ini:
   * [Konfigurasi Plugin Mautik][3]
   * [Kesimpulan][4]
 
-## Konfigurasikan Akun Pengembang Facebook   {#Account}
+## Konfigurasikan Akun Pengembang Facebook {#account}
+
   * Pergi ke [Facebook untuk pengembang][5]
   * Daftarkan akun Anda jika Anda tidak memilikinya.
-  * Untuk mendaftarkan akun baru, buka dan klik "Mulai" dari sudut kanan atas.
+  * Untuk mendaftarkan akun baru, kunjungi dan klik "Mulai" dari sudut kanan atas.
   * Setelah itu, pilih akun Facebook Anda dan tekan "Lanjutkan".
   * Kemudian dari jendela popup, klik tombol "Pengembang".
 
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Integrasi Facebook - Register Account Pengembang">}}
 
 
-## Konfigurasikan aplikasi pengembang facebook   {#app}
+## Konfigurasikan Aplikasi Pengembang Facebook {#app}
+
   * Klik "Buat Aplikasi Pertama"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Integrasi Facebook - Buat Aplikasi Pertama">}}
@@ -57,7 +59,8 @@ Kami akan membahas bagian berikut dalam tutorial ini:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Integrasi Facebook - Tambahkan Situs Web Sebagai Platform">}}
 
 
-## Konfigurasi Plugin Mautik   {#Configuration}
+## Konfigurasi Plugin Mautik {#configuration}
+
   * Pergi ke dasbor mautik.
   * Kemudian pindah ke "Pengaturan" dari sudut kanan atas.
   * Klik "Plugins".
@@ -72,7 +75,8 @@ Kami akan membahas bagian berikut dalam tutorial ini:
   * Di sini Anda dapat memetakan bidang kontak Anda ke bidang Facebook.
   * Akhirnya, publikasikan pengaturan dan Anda siap melakukannya.
 
-## kesimpulan   {#conclusion}
+## Kesimpulan {#conclusion}
+
 MAUTIC - Integrasi Facebook dapat membantu menyinkronkan prospek Facebook Anda ke dalam sistem mautik tanpa kesulitan. Dalam aplikasi Mautic, Anda dapat menambahkan semua lead ini ke dalam segmen. Anda dapat menjalankan kampanye pemasaran email pada mereka. Ini benar -benar dapat membantu bisnis Anda untuk tumbuh, memasarkan, dan menjual produk/layanan kepada audiens target yang jauh lebih besar.
 
 ## Mengeksplorasi
@@ -83,7 +87,8 @@ Untuk mempelajari lebih lanjut tentang Mautic dan Facebook, silakan kunjungi:
   * [Otomasi Pemasaran dengan Integrasi Mautik dan WooCommerce][9]
   * [Mengintegrasikan Mautic & Joomla untuk Otomasi Pemasaran Digital][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

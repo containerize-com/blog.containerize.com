@@ -21,20 +21,24 @@ Bài viết này là tiếp tục của loạt hướng dẫn của chúng tôi 
   * [Xác minh nén GZIP][5]
   * [Kết luận][6]
 
-## Tối ưu hóa trang web với nén   {#Optimize}
+## Tối ưu hóa trang web với nén {#optimize}
+
 Một hiệu suất của trang web phụ thuộc vào một số yếu tố. Một trong những yếu tố mà nó phụ thuộc vào một phần là kích thước của tất cả các tệp mà trình duyệt của người dùng phải tải xuống từ máy chủ của bạn. Việc giảm hoặc nén kích thước của các tệp được truyền đó có thể làm cho trang web của bạn tải nhanh hơn cho người dùng. Nó cũng có thể giảm hóa đơn cho trang web của bạn trong trường hợp nếu bạn trả tiền cho việc sử dụng băng thông trên các kết nối có đồng hồ đo. Vì vậy, nén có thể đóng một vai trò rất quan trọng trong tối ưu hóa trang web của bạn.
 Vì Google và các công cụ tìm kiếm khác đang xem xét trải nghiệm người dùng (UX) của trang web là một yếu tố quan trọng trong các thuật toán xếp hạng của họ. Nó đã trở nên quan trọng hơn để cải thiện và tối ưu hóa trang web của bạn cho xếp hạng hàng đầu. Trong số các yếu tố quan trọng nhất cần chú ý là, tốc độ trang và thời gian tải. Và, cách nhanh nhất và dễ nhất để cải thiện tốc độ và hiệu suất trang web của bạn là cho phép nén GZIP trên trang web của bạn.
 
-## Nén Gzip là gì?   {#what-gzip}
-GZIP là một định dạng tệp **Ứng dụng phần mềm**  Được sử dụng để nén tệp và giải nén. Máy chủ web hoặc phần mềm khác sử dụng nén GZIP để nén các tệp dữ liệu trước khi được gửi đến trình duyệt của người dùng. Điều này làm giảm thời gian tải xuống tệp giúp trang web của bạn nhanh hơn. Tất cả các trình duyệt hiện đại hỗ trợ nén GZIP.
+## Nén Gzip là gì? {#what-gzip}
+
+GZIP là một định dạng tệp **Ứng dụng phần mềm** Được sử dụng để nén tệp và giải nén. Máy chủ web hoặc phần mềm khác sử dụng nén GZIP để nén các tệp dữ liệu trước khi được gửi đến trình duyệt của người dùng. Điều này làm giảm thời gian tải xuống tệp giúp trang web của bạn nhanh hơn. Tất cả các trình duyệt hiện đại hỗ trợ nén GZIP.
 Nó cũng rất quan trọng cần lưu ý rằng việc nén GZIP phải được bật trên máy chủ web của bạn trước khi bạn có thể bật nén tệp và thư mục. Một thời gian ngắn, chúng tôi sẽ thấy cách bật nén GZIP trong Nginx.
 
-## Nén Gzip hoạt động như thế nào?   {#How-Gzip}
+## Làm thế nào để nén gzip hoạt động? {#how-gzip}
+
 GZIP, phương pháp nén phổ biến nhất, được sử dụng bởi các máy chủ và trình duyệt web để nén và giải nén nội dung khi nó truyền qua Internet. Nó được sử dụng chủ yếu trên các tệp mã và văn bản, GZIP có thể giảm kích thước của các tệp JavaScript, CSS và HTML lên tới 90%.
 Theo mặc định, nén GZIP không nén hình ảnh hoặc video. Đây là lý do tại sao hầu hết các công cụ kiểm tra tốc độ trang web như Google Pagespeed Insights rất khuyến khích cho phép nén GZIP.
 Khi một máy chủ web nhận được yêu cầu cho một trang web, máy chủ web sẽ kiểm tra tiêu đề của yêu cầu kiểm tra xem trình duyệt có hỗ trợ GZIP không. Nếu vậy, máy chủ tạo ra đánh dấu cho trang trước khi áp dụng GZIP. GZIP chuyển đổi đánh dấu HTML thành dữ liệu nén sau đó được gửi cho người dùng cuối. Khi người dùng cuối nhận được dữ liệu nén, trình duyệt của họ đã giải nén nó.
 
-## Bật nén gzip trong nginx   {#enable-gzip}
+## Bật nén gzip trong nginx {#enable-gzip}
+
 Để thay đổi cấu hình nginx gzip, hãy mở tệp cấu hình nginx chính trong _VI_ hoặc trình soạn thảo văn bản yêu thích của bạn:
 ```
 sudo vi /etc/nginx/nginx.conf
@@ -98,7 +102,8 @@ gzip_types
 ```
 Bây giờ khởi động lại Nginx để có hiệu lực cài đặt mới.
 
-## Xác minh nén gzip   {#verify}
+## Xác minh nén GZIP {#verify}
+
 Bây giờ chúng tôi đã kích hoạt nén GZIP, hãy để xác minh nó.
 ```
 curl -H "Accept-Encoding: gzip" -I http://localhost/test.html
@@ -117,14 +122,16 @@ ETag: W/"6222dc8d-500"
 <strong>Content-Encoding: gzip</strong>
 ```
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Trong bài viết này, chúng tôi đã học được rằng bạn có thể sử dụng mô -đun Nginx GZIP để tăng tốc độ chuyển tệp. Chúng tôi đã chỉ cho bạn từng bước làm thế nào để bật nén GZIP trong Nginx bằng mô -đun GZIP. Tài liệu chính thức cho [Mô -đun GZIP][7] liệt kê các chỉ thị cấu hình khác mà bạn có thể muốn xem xét. Hy vọng hướng dẫn này giúp bạn tối ưu hóa hiệu suất và tốc độ trang web của bạn.
 
 ## Khám phá
   * [Cách cài đặt nhiều phiên bản PHP với NGINX trên Ubuntu][8]
   * [Cách thiết lập và định cấu hình Nginx dưới dạng proxy ngược][9]
 
-  
+
+
 [1]: #optimize
 [2]: #what-gzip
 [3]: #how-gzip

@@ -21,11 +21,13 @@ Dans cet article de blog, nous couvrirons les points suivants:
   * [Configuration du plugin d'explorateur de connaissances au discours][2]
   * [Conclusion][3]
 
-## Comment fonctionne le discours en tant que base de connaissances?   {#usage}
+## Comment fonctionne le discours en tant que base de connaissances? {#usage}
+
 La base de connaissances agit comme une base de données de documents et d'informations. Il est utilisé pour collecter, gérer et partager les informations pertinentes pour les produits et procédures de la Société. Lorsque nous parlons d'un forum de discussion comme [Discours][4], il y a de longs sujets filetés où les utilisateurs finaux et les représentants participent à un débat. Dans ce cas, les clients ont du mal à trouver des informations pertinentes. Pour faire l'objet de tracas, la communauté du discours a développé quelques plugins de base de connaissances.
 Le plugin KB installé sur [Discours][4] devient assez rapide pour les clients pour trouver les informations souhaitées. De plus, il existe plusieurs requêtes et questions clients qui restent sans réponse pendant assez longtemps. Par conséquent, la documentation des informations couramment utilisées dans des sujets de style KB gagne du temps et améliore l'expérience client.
 
-## Configuration du plugin d'explorateur de connaissances sur discours   {#setup}
+## Configuration du plugin d'explorateur de connaissances au discours {#setup}
+
 Dans cette section, nous verrons comment activer le [Knowledge Explorer Plugin][5] et ce qu'il offre.
 Comme [le discours][4] est une source complètement open, le plugin de l'explorateur de connaissances est disponible chez [github][5].
 Il y a des étapes faciles pour installer n'importe quel plugin au discours. Par conséquent, suivez les instructions mentionnées dans ce [Guide d'installation du plugin][6].
@@ -47,11 +49,13 @@ Enfin, vous pouvez ouvrir et partager le lien du document avec n'importe qui.
 {{< figure align=center src="images/Screenshot-2020-11-04-at-19.11.11-1024x493.png" alt="Discours comme kb">}}
 
 
-## Conclusion   {#conclusion}
+## Conclusion  {#Conclusion}
+
 Dans cet article, nous avons vu comment le discours peut être utilisé comme base de connaissances pour une entreprise. Il est vraiment important d'avoir un regard fort sur les besoins des utilisateurs finaux. En ce qui concerne le forum, nous devons le faire passer au niveau suivant en l'équipant du plugin KB afin que les clients puissent aborder les ressources requises facilement et rapidement.
 [contenerize.com][7] a enrôlé de nombreux logiciels de forum puissants dans [Forum de discussion][8]. Pour les mises à jour régulières, veuillez rester connecté avec [blog.conteainerise.com][9].
 
-  
+
+
 [1]: #usage
 [2]: #setup
 [3]: #Conclusion

@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/How-to-Install-Pydio-File-Sharing-and-Sync-Platform-on-Ubuntu.png" alt="Cara menginstal platform berbagi file pydio di ubuntu">}}
 
 
-## **Ringkasan**
+##  **Ringkasan**  
 Pydio Cells adalah perangkat lunak berbagi file open source dan sinkronisasi. Ini memberikan satu titik akses ke semua penyimpanan data Anda dan ini merupakan alternatif untuk OwnDloud dan NextCloud yang menyediakan layanan penyimpanan, berbagi file, dan sinkronisasi. Pydio adalah platform berbagi file open source perusahaan yang mirip dengan Dropbox dan platform penyimpanan lainnya. Ini membantu Anda untuk menghubungkan semua file dan perangkat Anda dengan aman dalam satu platform.
 Pydio Cells adalah platform sinkronisasi file dan kolaborasi berbasis cloud. Perangkat lunak open source ini berjalan pada infrastruktur TI pribadi Anda dan membantu staf Anda untuk melindungi dan memantau data bisnis Anda. Anda dapat menyinkronkan data Anda dan mengaksesnya dari mana saja menggunakan aplikasi seluler, perangkat lunak desktop, atau browser web menggunakan sel Pydio. Aplikasi berbagi file terbaik sel Pydio didasarkan pada arsitektur layanan mikro dan ditulis menggunakan bahasa pemrograman Golang.
 Tutorial ini akan membantu Anda menginstal dan mengonfigurasi perangkat lunak berbagi file yang di -host pydio dan platform sinkronisasi pada sistem Ubuntu LTS.
@@ -39,23 +39,23 @@ sudo reboot
 ## Langkah 2: Instal Lamp Server
 Untuk mengatur server berbagi file Pydio Secure Enterprise dan cara membuat cloud pribadi open source, pertama -tama kita harus mengatur server lampu yang berjalan. Jika Anda sudah memasang dan menjalankan tumpukan lampu, lewati langkah ini, gunakan perintah pengikut untuk mengatur lampu pada sistem ubuntu Anda.
 
-## # Instal PHP
+### Instal PHP
 Anda dapat menginstal PHP pada sistem Ubuntu atau Debian Anda dengan menjalankan perintah:
-sudo apt-get menginstal properti python-software
+sudo apt-get install python-software-properties
 Sudo Add-apt-Repository PPA: ondrej/php
-sudo apt-get install -y php pHp-gd php-curl pHp-zip pHp-dom php-xml PHP-simplexml pHP-mbstring
+sudo apt-get install -y php pHp-gd php-curl php-zip pHp-dom php-xml PHP-simplexml PHP-MBSTRING
 {{_LINE_34_}}
 
-## # Instal apache2
+### Instal apache2
 Apache adalah perangkat lunak server web open-source yang paling banyak digunakan. Selanjutnya, instal server web Apache di Ubuntu dengan menjalankan:
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_38_}}
 
-## # Instal MySQL
+### Instal MySQL
 MySQL Open-Source Relational Database Management System adalah komponen dari tumpukan perangkat lunak aplikasi web lampu dan lainnya. Sekarang menginstal MySQL di Ubuntu dengan berjalan di bawah ini:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_42_}}
-Setelah instalasi selesai, buka **php.ini**  file konfigurasi untuk diedit. Gunakan editor file pilihan Anda.
+Setelah instalasi selesai, buka  **php.ini**  file konfigurasi untuk diedit. Gunakan editor file pilihan Anda.
 Buat perubahan pada file php.ini seperti di bawah ini. Buka dua file dan buat perubahan seperti yang ditunjukkan
 ```
 sudo vim /etc/php/7.4/apache2/php.ini
@@ -118,27 +118,27 @@ Buka browser Anda dan ketik url http: // server Anda -IP / pydio. Anda akan dial
 
 {{< figure align=center src="images/Pydio-Installer.png" alt="Pemasang Pydio">}}
 
-Konfirmasikan semua kontrol dan klik **Lanjutkan ke instalasi pydio**  tombol. Anda harus melihat halaman berikut:
+Konfirmasikan semua kontrol dan klik  **Lanjutkan ke instalasi pydio**  tombol. Anda harus melihat halaman berikut:
 
 {{< figure align=center src="images/Pydio-setup-wizard.png" alt="Pydio Setup Wizard">}}
 
-Pilih bahasa Anda dan klik **Mulai Wizard** . Anda harus melihat halaman berikut:
+Pilih bahasa Anda dan klik  **Mulai Wizard**  . Anda harus melihat halaman berikut:
 
 {{< figure align=center src="images/Starting-the-setting.png" alt="Mulai Pengaturan Pydio">}}
 
-Masukkan nama program dan pesan selamat datang. Kemudian klik tombol **berikutnya** . Anda harus melihat halaman berikut:
+Masukkan nama program dan pesan selamat datang. Kemudian klik tombol  **berikutnya**  . Anda harus melihat halaman berikut:
 
 {{< figure align=center src="images/Enter-the-application-name.png" alt="Masukkan Aplikasi Pydio">}}
 
-Selanjutnya, masukkan akun administrator Anda dan klik tombol **berikutnya** . Anda harus melihat halaman berikut:
+Selanjutnya, masukkan akun administrator Anda dan klik tombol  **berikutnya**  . Anda harus melihat halaman berikut:
 
 {{< figure align=center src="images/MySQL-database-settings.png" alt="Pengaturan Basis Data MySQL">}}
 
-Kemudian masukkan detail database Anda, seperti nama basis data, nama pengguna, dan kata sandi. Kemudian klik tombol **Test DB Koneksi** . Anda harus melihat halaman berikut:
+Kemudian masukkan detail database Anda, seperti nama basis data, nama pengguna, dan kata sandi. Kemudian klik tombol  **Test DB Koneksi**  . Anda harus melihat halaman berikut:
 
-{{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Opsi Pydio Advanced">}}
+{{< figure align=center src="images/Pydio-Advanced-Options.png" alt="Opsi Lanjutan Pydio">}}
 
-Selanjutnya, klik tombol Instal **Pydio** . Setelah instalasi selesai dengan sukses. Anda akan dialihkan ke halaman berikut:
+Selanjutnya, klik tombol Instal  **Pydio**  . Setelah instalasi selesai dengan sukses. Anda akan dialihkan ke halaman berikut:
 
 {{< figure align=center src="images/Pydio-Login.png" alt="Login Pydio">}}
 
@@ -146,7 +146,8 @@ Kemudian masukkan nama pengguna dan kata sandi Anda untuk administrator. Kemudia
 
 Ya! Selesai. Anda sekarang tahu cara menginstal Sinkronisasi File yang Di -Hosted Pydio dan Perangkat Lunak Berbagi File Open Source di Ubuntu untuk membangun cloud privat langkah demi langkah mirip dengan Dropbox atau Google Drive.
 
-## **Kesimpulan:** {#4a1a}
+##  **Kesimpulan:**   {#4a1a}
+
 Dalam tutorial ini, Anda telah berhasil menginstal pembagian file aman Sumber Open Source Pydio pada sistem Ubuntu Anda. Anda dapat menggunakan artikel ini untuk membuat infrastruktur cloud untuk menyimpan, mengamankan, dan berbagi file Anda di cloud yang diselenggarakan sendiri. Gunakan berbagi dokumen kolaboratif PYDIO dan aplikasi berbagi file gratis terbaik untuk mendapatkan lebih banyak kontrol data Anda dan memastikan kolaborasi yang efisien di organisasi bisnis Anda. Dalam tutorial mendatang kami, kami akan membahas topik yang lebih menarik dari solusi penyimpanan cloud open source dan alat kolaborasi berbagi file.
 _Your dapat bergabung dengan kami di [Twitter][1], [LinkedIn][2] dan halaman [Facebook][3] kami. Platform berbagi _file _file _file berbasis cloud apa yang Anda gunakan secara online?. Jika Anda memiliki pertanyaan, silakan_ [hubungi Anda][4].
 
@@ -158,7 +159,8 @@ Kami juga memiliki beberapa artikel lain yang berkaitan dengan manajemen sehari-
   * [Mengkonfigurasi Dukungan HTTP/2 di Nginx di Ubuntu/Debian][8]
   * [Pengaturan Nginx dengan penumpang di server produksi AWS][9]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

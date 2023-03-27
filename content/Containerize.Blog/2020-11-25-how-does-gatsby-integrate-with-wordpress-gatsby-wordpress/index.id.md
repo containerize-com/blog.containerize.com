@@ -17,15 +17,17 @@ categories: ['Blogging']
 ## Ringkasan
 GatsbyJS adalah generator situs statis bertenaga graphql yang berbasis reaksi, graphql. Ini menggunakan pra-konfigurasi yang kuat untuk membangun situs web yang hanya menggunakan file statis untuk beban halaman yang sangat cepat. WordPress adalah platform blogging open source yang hebat. Akibatnya, ada banyak orang yang tahu cara mencari tahu apakah situs adalah situs WordPress sehingga mereka dapat meretasnya dan mencuri informasi. Menggunakan Gatsby WordPress bersama -sama akan memberi Anda kekuatan yang sama dari manajemen konten WordPress dan kecepatan Gatsby.
 Dalam artikel ini, kita akan melihat apa itu Gatsby dan mengapa Anda perlu menggunakannya dengan perangkat lunak CMS. Kemudian, kami akan membahas tentang cara menggunakan WordPress dan Gatsby bersama untuk membangun pengalaman situs web yang luar biasa. Ayo mulai!
-  *[**Apa itu Gatsby** ?][1]
-  ***[pro dan kontra menggunakan WordPress dan Gatsby][2]** 
-  ***[Cara menggunakan Gatsby dengan WordPress][3]** 
-  ***[Kesimpulan][4]** 
+* [ **Apa itu Gatsby** ?][1]
+* **[pro dan kontra menggunakan WordPress dan Gatsby][2]** 
+* **[Cara menggunakan Gatsby dengan WordPress][3]** 
+* **[Kesimpulan][4]** 
 
-## Apa itu gatsby   {#gatsby}
+## Apa itu Gatsby {#gatsby}
+
 Gatsby adalah generator situs statis. Ini berarti bahwa Gatsby menghasilkan file HTML statis yang diunggah ke server situs web Anda. Ketika pengunjung mendarat di situs Anda, file statis ini disajikan ke browser mereka, bukan konten dinamis WordPress umumnya melayani. Ini adalah kerangka kerja open source gratis dan berdasarkan React yang membantu pengembang membangun situs web dan aplikasi yang cepat menyala.
 
-## pro dan kontra menggunakan WordPress dan Gatsby   {#proscons}
+## Pro dan kontra menggunakan WordPress dan Gatsby {#proscons}
+
 Sesuai [dokumen] resmi Gatsby [5], mereka telah menyusun meja, untuk siapa kombinasi Gatsby WordPress sangat bagus dan tidak. Demi kemudahan, saya mendaftarkannya di sini.
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -58,7 +60,7 @@ Sesuai [dokumen] resmi Gatsby [5], mereka telah menyusun meja, untuk siapa kombi
 {{_LINE_51_}}
 {{_LINE_52_}}
 {{_LINE_53_}}
-      WordPress dan Gatsby tidak bagus
+      WordPress dan Gatsby tidak bagus untuk
 {{_LINE_55_}}
 {{_LINE_56_}}
 {{_LINE_57_}}
@@ -84,7 +86,7 @@ Selain poin -poin resmi ini, saya ingin mendaftar beberapa pro dan kontra menggu
         Kurang Biaya Server - Karena file statis tidak memerlukan perangkat lunak khusus maka halaman HTML statis dapat disajikan dari server yang lebih murah juga.
 {{_LINE_78_}}
 {{_LINE_79_}}
-        Lebih aman - untuk situs statis, tidak ada komponen yang bergerak dari bagian -bagian sehingga tidak ada kesempatan bagi peretas untuk mengeksploitasi perangkat lunak Anda.
+        Lebih aman - untuk situs statis, tidak ada komponen yang bergerak dari bagian -bagian itu sehingga tidak ada kesempatan bagi peretas untuk mengeksploitasi perangkat lunak Anda.
 {{_LINE_81_}}
 {{_LINE_82_}}
 {{_LINE_83_}}
@@ -105,7 +107,8 @@ Selain poin -poin resmi ini, saya ingin mendaftar beberapa pro dan kontra menggu
 {{_LINE_98_}}
 {{_LINE_99_}}
 
-## Cara menggunakan Gatsby dengan WordPress   {#howto}
+## Cara menggunakan gatsby dengan wordpress {#howto}
+
 Sebelum Anda dapat menginstal Gatsby, Anda perlu menginstal [NodeJs][6] dan [NPM][7] di lingkungan situs web Anda.
 
 ### Langkah 1 - Instal Gatsby
@@ -157,7 +160,7 @@ aliases: -  `wpexample.com`,
 ```
 Perbarui kode ini untuk menunjuk ke situs web WordPress Anda. Jika situs web Anda di -host secara lokal, setelah BaseUrl Anda dapat menggunakan _Localhost: 8888/WordPress_ alih -alih URL situs web Anda. Setelah menyimpan file, Anda harus membangun templat halaman Anda.
 
-### Langkah 4 - Template Bangun Halaman
+### Langkah 4 - Bangun templat halaman
 Templat Halaman Membangun Aktifkan Generator Situs ini untuk menghasilkan posting untuk setiap halaman di situs web WordPress Anda. Plugin sumber akan menarik data yang Anda butuhkan dari WordPress untuk halaman -halaman ini, tetapi Anda harus membuat templat desain.
 Di file _gatsby-node.js_ Anda, tambahkan kode berikut
 ```
@@ -196,11 +199,13 @@ exports.createPages = async ({ graphql, actions }) => {
 ```
 Setelah memanggil semua data, Gatsby akan menghasilkan halaman untuk setiap posting. Menggunakan perintah kembangkan, Anda dapat menavigasi ke setiap halaman baru menggunakan URL yang dihasilkan.
 
-## kesimpulan   {#conclusion}
+## Kesimpulan {#conclusion}
+
 Dalam tutorial Gatsby WordPress ini, kami membahas cara menghasilkan situs web Gatsby dari WordPress. Kami belajar apa pro dan kontra dari dua perangkat lunak open source ini. Kami juga membahas cara menginstal dan memulai dengan lingkungan pengembangan Gatsby.
 Akhirnya, [containerize.com][8] menulis artikel tentang produk open source lebih lanjut. Oleh karena itu, harap tetap berhubungan dengan kategori platform Open Source [Blogging][9] untuk berita dan pembaruan reguler.
 
-  
+
+
 [1]: #gatsby
 [2]: #proscons
 [3]: #howto

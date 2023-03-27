@@ -9,7 +9,7 @@ url: /it/how-to-use-discourse-as-a-knowledge-base/
 categories: ['Discussion Forum']
 ---
 
-Archivio ## , organizzare e condividere le informazioni installando il plug -in Knowledge Explorer al discorso. Il discorso come KB è utile e offre ricche opzioni di ricerca.
+Archivio ##, organizzare e condividere le informazioni installando il plug -in Knowledge Explorer al discorso. Il discorso come KB è utile e offre ricche opzioni di ricerca.
 
 {{< figure align=center src="images/discourse-1.png" alt="Discorso">}}
 
@@ -21,11 +21,13 @@ In questo post sul blog, tratteremo i seguenti punti:
   * [Impostazione del plug -in Explorer di conoscenza al discorso][2]
   * [Conclusione][3]
 
-## Come funziona il discorso come base di conoscenza?   {#Usage}
+## Come funziona il discorso come base di conoscenza? {#usage}
+
 La base di conoscenza funge da database di documenti e informazioni. Viene utilizzato per raccogliere, gestire e condividere le informazioni pertinenti ai prodotti e alle procedure dell'azienda. Quando parliamo di un forum di discussione come [Discourse][4], ci sono argomenti thread a lungo in cui gli utenti finali e i rappresentanti partecipano a un dibattito. In questo caso, i clienti trovano difficile trovare informazioni pertinenti. Per colpire questa seccatura, la comunità del discorso ha sviluppato un paio di plug -in di base.
 Avere il plug -in KB installato al [Discorso][4] diventa abbastanza veloce per i clienti per trovare le informazioni desiderate. Inoltre, ci sono diverse domande e domande dei clienti che rimangono senza risposta per un bel po 'di tempo. Pertanto, documentare informazioni comunemente usate in argomenti in stile KB risparmiano il tempo e migliora l'esperienza del cliente.
 
-## Impostazione del plug -in Explorer Knowledge al discorso   {#setup}
+## Impostazione del plug -in Explorer di conoscenza al discorso {#setup}
+
 In questa sezione, vedremo come abilitare il plug -in [Knowledge Explorer][5] e ciò che offre.
 Poiché [Discourse][4] è una fonte completamente open source, il plug -in Knowledge Explorer è disponibile su [GitHub][5].
 Ci sono semplici passaggi per installare qualsiasi plug -in al discorso. Pertanto, seguire le istruzioni menzionate in questa [Guida all'installazione del plug -in][6].
@@ -47,11 +49,13 @@ Infine, puoi aprire e condividere il link del documento con chiunque.
 {{< figure align=center src="images/Screenshot-2020-11-04-at-19.11.11-1024x493.png" alt="Discorso come kb">}}
 
 
-## conclusioni   {#conclusion}
+## Conclusione  {#Conclusione}
+
 In questo articolo, abbiamo visto come il discorso può essere usato come base di conoscenza per un'azienda. È davvero importante avere un occhio forte sulle esigenze degli utenti finali. Per quanto riguarda il forum, dovremmo portarlo al livello successivo equipaggiandolo con il plug -in KB in modo che i clienti possano affrontare le risorse richieste facilmente e rapidamente.
 [Containerize.com][7] ha arruolato molti potenti software del forum nella categoria [Discust Forum][8]. Per aggiornamenti regolari, rimani in contatto con [blog.containerize.com][9].
 
-  
+
+
 [1]: #usage
 [2]: #setup
 [3]: #Conclusion

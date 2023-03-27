@@ -4,7 +4,7 @@ seoTitle: "Cách sử dụng diễn ngôn như một cơ sở kiến ​​thứ
 description: "Đi qua bài đăng trên blog này nếu bạn đang muốn sử dụng diễn ngôn như một cơ sở kiến ​​thức. Bật nó ngay hôm nay và chia sẻ các phiên bản trực tiếp của tài liệu của công ty bạn" 
 date: Fri, 06 Nov 2020 09:55:07 +0000
 author: muhammadmustafa
-summary: "Lưu trữ, tổ chức và chia sẻ thông tin bằng cách cài đặt Plugin Trình thám hiểm Kiến thức tại diễn ngôn. Bài giảng như KB là hữu ích và cung cấp các tùy chọn tìm kiếm phong phú." 
+summary: "Lưu trữ, tổ chức và chia sẻ thông tin bằng cách cài đặt plugin Trình thám hiểm kiến ​​thức tại diễn ngôn. Bài giảng như KB là hữu ích và cung cấp các tùy chọn tìm kiếm phong phú." 
 url: /vi/how-to-use-discourse-as-a-knowledge-base/
 categories: ['Discussion Forum']
 ---
@@ -21,12 +21,14 @@ Trong bài đăng trên blog này, chúng tôi sẽ trình bày các điểm sau
   * [Thiết lập plugin Explorer kiến ​​thức tại diễn ngôn][2]
   * [Kết luận][3]
 
-## Bài giảng như một cơ sở kiến ​​thức hoạt động như thế nào?   {#cách sử dụng}
+## Làm thế nào diễn ngôn như một cơ sở kiến ​​thức hoạt động? {#usage}
+
 Cơ sở kiến ​​thức hoạt động như một cơ sở dữ liệu về tài liệu và thông tin. Nó được sử dụng để thu thập, quản lý và chia sẻ thông tin liên quan đến các sản phẩm và quy trình của công ty. Khi chúng ta nói về một diễn đàn thảo luận như [Diễn ngôn][4], có những chủ đề lâu dài trong đó người dùng cuối và đại diện tham gia vào một cuộc tranh luận. Trong trường hợp này, khách hàng thấy khó tìm thấy thông tin liên quan. Để đảo lộn sự rắc rối này, cộng đồng diễn ngôn đã phát triển một vài plugin cơ sở kiến ​​thức.
 Đã cài đặt plugin KB tại [diễn ngôn][4] trở nên khá nhanh để khách hàng tìm thấy thông tin mong muốn. Ngoài ra, có một số truy vấn và câu hỏi của khách hàng vẫn chưa được trả lời trong một thời gian khá dài. Do đó, tài liệu thông tin thường được sử dụng trong các chủ đề kiểu KB giúp tiết kiệm thời gian và cải thiện trải nghiệm của khách hàng.
 
-## Thiết lập plugin Explorer kiến ​​thức tại diễn ngôn   {#setup}
-Trong phần này, chúng ta sẽ thấy cách bật [plugin Tri thức Explorer][5] và những gì nó cung cấp.
+## Thiết lập plugin Explorer kiến ​​thức tại diễn ngôn {#setup}
+
+Trong phần này, chúng ta sẽ xem cách bật [plugin Trình duyệt Tri thức][5] và những gì nó cung cấp.
 Vì [diễn ngôn][4] là một nguồn hoàn toàn mở, plugin Trình thám hiểm kiến ​​thức có sẵn tại [GitHub][5].
 Có các bước dễ dàng để cài đặt bất kỳ plugin nào tại diễn ngôn. Do đó, hãy làm theo các hướng dẫn được đề cập trong [Hướng dẫn cài đặt plugin][6].
 Sau khi cài đặt plugin, bật plugin bằng cách bật cài đặt kích hoạt Trình duyệt Kiến thức. Bạn có thể thêm các danh mục và thẻ vào cài đặt thẻ explorer kiến ​​thức.
@@ -47,11 +49,13 @@ Cuối cùng, bạn có thể mở và chia sẻ liên kết của tài liệu v
 {{< figure align=center src="images/Screenshot-2020-11-04-at-19.11.11-1024x493.png" alt="Bài diễn văn như KB">}}
 
 
-## Kết luận   {#conclusion}
+## Phần kết luận  {#Phần kết luận}
+
 Trong bài viết này, chúng ta đã thấy làm thế nào diễn ngôn có thể được sử dụng như một cơ sở kiến ​​thức cho một doanh nghiệp. Điều thực sự quan trọng là phải có một con mắt mạnh mẽ về nhu cầu của người dùng cuối. Theo như diễn đàn, chúng ta nên đưa nó lên cấp độ tiếp theo bằng cách trang bị cho nó với plugin KB để khách hàng có thể tiếp cận các tài nguyên cần thiết một cách dễ dàng và nhanh chóng.
 [containerize.com][7] đã tranh thủ nhiều phần mềm diễn đàn mạnh mẽ trong [Diễn đàn thảo luận][8]. Để cập nhật thường xuyên, vui lòng duy trì kết nối với [blog.containerize.com][9].
 
-  
+
+
 [1]: #usage
 [2]: #setup
 [3]: #Conclusion

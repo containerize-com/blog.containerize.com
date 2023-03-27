@@ -14,26 +14,29 @@ categories: ['Software Development']
 
 ## W tym artykule wyjaśni ci, jak zbudować aplikację Nodejs z konteneryzacją Docker. Docker pozwala pakować i uruchamiać aplikacje jako kontenery.
 Dzisiaj rozpoczynamy serię samouczków na temat narzędzi do tworzenia oprogramowania. W tym pierwszym artykule obejmuje sposób kontenerowania aplikacji node.js za pomocą Docker. Docker pomaga programistom pakować i uruchamiać aplikacje jako kontenery. Ponieważ pojemnik jest izolowanym procesem i lekką alternatywą dla maszyn wirtualnych. W tym artykule wyjaśniono, jak zbudować aplikację Nodejs z konteneryzacją Docker. Zacznijmy!
-  *[**What Is Docker** ][1]
-  * **[Wymagania wstępne][2]**
-  *[**Ustawienie node.js aplikacja** ][3]
-  *[**Write Dockerfile** ][4]
-  *[**Zbuduj obraz i uruchom kontener Docker** ][5]
-  *[**Wniosek** ][6]
+* [ **What Is Docker** ][1]
+* **[Wymagania wstępne][2]** 
+* [ **Ustawienie aplikacji Node.js** ][3]
+* [ **Write Dockerfile** ][4]
+* [ **Zbuduj obraz i uruchom kontener Docker** ][5]
+* [ **Wniosek** ][6]
 
-## Co to jest Docker   {#Docker}
+## Co to jest Docker {#docker}
+
 Docker to zestaw platformy jako produkty serwisowe, które wykorzystują wirtualizację poziomu systemu operacyjnego do dostarczania oprogramowania w pakietach o nazwie Containers. Jest to otwarta platforma do opracowywania, wysyłki i uruchamiania aplikacji. Docker umożliwia oddzielenie aplikacji od infrastruktury, aby szybko dostarczać oprogramowanie.
 Docker używa architektury klienta-serwera. Klient Docker rozmawia z Docker Daemon, który prowadzi ciężkie podnoszenie budowania, uruchomienia i dystrybucji kontenerów Docker. Klient Docker i Demon komunikują się za pomocą interfejsu API REST, ponad gniazdem UNIX lub interfejsu sieciowego. Oto schemat architektury Docker.
 
 {{< figure align=center src="images/docker-architecture-1024x540.png" alt="Architektura Docker">}}
 
 
-## Wymagania wstępne   {#Prereq}
+## Wymagania wstępne {#prereq}
+
   * Serwer Ubuntu
   * Docker zainstalowany na serwerze
   * Zainstalowany node.js
 
-## SEFIP NODE.JS Application   {#setUp}
+## Aplikacja konfiguracyjna node.js {#setup}
+
 Aby utworzyć swój obraz, najpierw musisz wykonać pliki aplikacji, które możesz następnie skopiować do kontenera. Te pliki będą zawierać statyczną treść, kod i zależności aplikacji.
 Najpierw utwórz katalog do swojego projektu w katalogu domowym użytkownika nie-root. Następnie wykonaj poniżej polecenie w nowym folderze, który utworzyłeś.
 ```
@@ -59,13 +62,14 @@ node app.js
 Przejdź do przeglądarki do http: // Your \ _Server \ _IP: 3000. Zobaczysz następującą stronę docelową.
 Teraz masz uruchomioną aplikację. Możemy teraz przejść, aby stworzyć Plik Docker, który pozwoli nam odtworzyć i skalować tę aplikację.
 
-## Write DockerFile   {#DockerFile}
+## Napisz DockerFile {#dockerfile}
+
 Korzystając z DockerFile, możesz określić, co zostanie zawarte w kontenerze aplikacji podczas jego wykonywania i środowisku kontenera.
 Przede wszystkim utwórz DockerFile z następującym poleceniem u podstaw projektu.
 ```
 vi Dockerfile
 ```
-Dodaj następujące **z**  instrukcji, aby ustaw podstawowy obraz aplikacji:
+Dodaj następujące **z** instrukcji, aby ustaw podstawowy obraz aplikacji:
 ```
 FROM node:12-alpine
 ```
@@ -74,7 +78,7 @@ FROM node:12-alpine
     Możesz dodać plik .dockerignore, aby usunąć pliki, które nie należą do Docker Image.
 {{_LINE_46_}}
 {{_LINE_47_}}
-Utwórzmy **node_modules**  subdirectory w /home /node wraz z katalogiem aplikacji. Zapewni to, że mają one potrzebne uprawnienia, które będą ważne, gdy utworzymy lokalne moduły węzłów w kontenerze z instalacją NPM.
+Utwórzmy **Node_Modules** Podkazorkodawstwo w /home /node wraz z katalogiem aplikacji. Zapewni to, że mają one potrzebne uprawnienia, które będą ważne, gdy utworzymy lokalne moduły węzłów w kontenerze z instalacją NPM.
 ```
 ...
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
@@ -115,7 +119,8 @@ EXPOSE 3000
 CMD [ "node", "app.js" ]
 ```
 
-## buduj obraz i uruchom kontener   {#Build}
+## Zbuduj obraz i uruchom pojemnik {#build}
+
 Uruchom następujące polecenie, aby wygenerować obraz Docker
 ```
 docker build -t <<image_name>> .
@@ -126,14 +131,16 @@ docker run — name <<container_name>> -p 3000:3000 -d <<image_name>>
 ```
 To uruchomi kontener, który możesz zweryfikować, uruchamiając polecenie Docker PS. Teraz w przeglądarce, jeśli uzyskujesz dostęp do http: // localhost: 3000, zobaczysz aplikację Node.js. Jednak tym razem teraz działa z twojego kontenera Docker.
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 Rozwój z kontenerem Docker jest bardzo prosty i łatwy. Docker pomaga programistom pakować i uruchamiać aplikacje jako kontenery. W tym samouczku nauczyliśmy się budować aplikację node.js za pomocą kontenera Docker na Ubuntu. W nadchodzących artykułach napiszymy o większych zastosowaniach Docker, a także omówimy inne narzędzia.
 
 ## Badać
   * [Jak zainstalować wiele wersji PHP z Nginx na Ubuntu][7]
   * [Jak skonfigurować i skonfigurować Nginx jako odwrotną proxy][8]
 
-  
+
+
 [1]: #docker
 [2]: #prereq
 [3]: #setup

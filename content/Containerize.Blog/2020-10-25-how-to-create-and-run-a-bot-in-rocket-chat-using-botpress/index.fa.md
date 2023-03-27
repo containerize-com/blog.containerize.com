@@ -22,36 +22,44 @@ Rocket.Chat ادغام اتوماسیون Chatbot و پیام رسانی را ت
   * [ربات خود را با استفاده از Botpress][4]
   * [نتیجه گیری][5]
 
-## # ROCKET.CHAT   {#ROCOCTETCHAT}
+
+### ROCKET.CHAT {#rocketchat}
+
 Rocket.Chat یکی از نرم افزارهای محبوب چت زنده است که تا حدودی یک پروژه چت زنده منبع باز است. این یک نسخه گپ زنده رایگان به عنوان یک نسخه جامعه است. و همچنین ، یک نسخه چت زنده میزبان پرداخت شده برای شرکت های بزرگ با ویژگی های چت داخلی خصوصی. این برنامه چت زنده در مرورگر اجرا می شود اما می تواند بر روی سرور شخصی شما نیز نصب شود. [بیشتر بخوانید][6]
 
-## # botpress   {#botpress}
+
+### Botpress {#botpress}
+
 Chatbots مکالمه این امکان را برای مشاغل فراهم کرده است تا بتوانند به مشتریان خود همیشه پشتیبانی بالایی را که می خواهند در دسترس داشته باشند. Botpress یکی از محبوب ترین ابزار ایجاد ربات منبع باز با پردازش زبان طبیعی داخلی است. فناوری NLU Botpress آن را گامی جلوتر از رقبای خود در این زمینه مانند BOTKIT ، DIALOGFLOW و Microsoft Bot Framework می کند. [بیشتر بخوانید][7]
 
-## # ایجاد یک کاربر ربات در Rocket.chat   {#CreateBotuser
+
+### یک کاربر ربات در Rocket.Chat ایجاد کنید {#createbotuser}
+
 برای صحبت با Chatbot خود باید یک حساب کاربری از پیش تنظیم شده در سرور موشک وجود داشته باشد.
 برای ایجاد حساب باید امتیازات مدیر را داشته باشید:
-  1. در Topbar ، روی سه نقطه (گزینه ها) کلیک کنید و سپس روی**مدیریت**کلیک کنید
-  2.**کاربران**را از نوار کناری سمت چپ انتخاب کنید
+  1. در Topbar ، روی سه نقطه (گزینه ها) کلیک کنید و سپس روی  **مدیریت**  کلیک کنید
+  2.  **کاربران**  را از نوار کناری سمت چپ انتخاب کنید
   3. روی دکمه `+` (اضافه کردن کاربر) در نوار کناری سمت راست کلیک کنید
   4. در پنجره نمایه که ظاهر می شود ، _name_ ، _username_ ، _email_ و _password_ را پر کنید
   5. _Verified_ را در زیر قسمت _email_ فعال کنید
-  6. غیرفعال کردن رمز عبور _Require تغییر_ ضامن زیر قسمت _Password_
+  6. غیرفعال کردن رمز عبور _Require تغییر_ ضامن زیر قسمت _password_
   7. `bot` را از منوی کشویی` Add Mare` انتخاب کرده و روی دکمه _ADD نقش_ در سمت راست کلیک کنید
   8. غیرفعال کردن کانال های پیش فرض _join and _send خوش آمدید ایمیل_ کادر انتخاب
   9. روی _save_ کلیک کنید
 پس از ذخیره ، ربات با نام کاربری و رمز عبور تنظیم شده در مرحله 4 پیکربندی می شود. می توانید از متغیرهای محیطی "Rocketchat \ _user" و "Rocketchat \ _password" استفاده کنید تا با این نام کاربری و رمز عبور به سرور موشک وارد شوید.
 
-## # ربات خود را با استفاده از Botpress   {#codebot} کد کنید
+
+### ربات خود را با استفاده از Botpress کد کنید {#codebot}
+
 Botpress یک بسته Node.js است و با گره و NPM کار می کند.
 سریعترین راه برای شروع با Botpress استفاده از مخزن [Botpress-kick-starter][8] است که از قبل با موشک یکپارچه شده است. Chat از طریق [کانکتور کانال Botpress][9].
 به پوشه ای که می خواهید با ربات کار کنید بروید و مراحل زیر را ادامه دهید:
-* * بسته Botpress را نصب کنید**
+ **بسته Botpress را نصب کنید** 
 ```
 npm init -y
 npm install botpress@10.40.0
 ```
-* * ایجاد یک ربات**
+ **ایجاد یک ربات** 
 ```
 mkdir bot
 cd bot
@@ -109,7 +117,7 @@ Next steps:
 
 Enjoy Botpress!
 ```
-* * نصب Botpress Connector و BOT وابستگان**
+ **نصب کانکتور Botpress و وابستگی های ربات** 
 ```
 npm install
 npm install botpress-channel-rocketchat
@@ -126,23 +134,26 @@ npm install botpress-channel-rocketchat
     "scope": ""
 }
 ```
-* * ربات را اجرا کنید**
+ **ربات را اجرا کنید** 
 ```
 npm start
 ```
-* * با ربات خود صحبت کنید**
+ **با ربات خود صحبت کنید** 
 در سرور ، به عنوان یک کاربر معمولی وارد شوید (نه کاربر ربات) ، به اتاق عمومی بروید و با ربات تازه ایجاد شده خود صحبت کنید.
 
-## # نتیجه گیری   {#conclusion}
+
+### نتیجه {#conclusion}
+
 در این مقاله ، ما یاد گرفته ایم که چگونه یک ربات در Botpress ایجاد کنیم. و نحوه پیکربندی آن با Rocket.Chat. Botpress ساخت گردش کار خودکار نوآورانه را برای کاربران بسیار آسان می کند. و ادغام با Rocket.Chat به شما امکان می دهد تا آنها را به صورت مکالمه کنترل کنید.
 
-  
-[1]: #rocketchat
-[2]: #botpress
-[3]: #createbotuser
-[4]: #codebot
-[5]: #conclusion
-[6]: https://products.containerize.com/live-chat/rocketchat
-[7]: https://products.containerize.com/live-chat/botpress
-[8]: https://github.com/RocketChat/botpress-kick-starter
-[9]: https://github.com/RocketChat/botpress-channel-rocketchat
+
+
+ [1]: #rocketchat
+ [2]: #botpress
+ [3]: #createbotuser
+ [4]: #codebot
+ [5]: #conclusion
+ [6]: https://products.containerize.com/live-chat/rocketchat
+ [7]: https://products.containerize.com/live-chat/botpress
+ [8]: https://github.com/RocketChat/botpress-kick-starter
+ [9]: https://github.com/RocketChat/botpress-channel-rocketchat

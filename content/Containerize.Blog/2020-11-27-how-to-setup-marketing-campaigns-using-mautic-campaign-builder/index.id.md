@@ -19,10 +19,12 @@ Dalam artikel ini, kita akan belajar cara mengatur kampanye di Mautic. Kami akan
   * [Cara membuat kampanye di Mautic?][3]
   * [Kesimpulan][4]
 
-## APA ITU MAUTIC?   {#mautic}
+## Apa itu Mautic? {#mautic}
+
 Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan kontrol penuh atas email pemasaran, halaman arahan, dan alur kerja untuk kegiatan pemasaran. Ini mengotomatiskan cara menuju arahan yang dibuat dari halaman arahan, formulir dan mengubahnya menjadi pelanggan potensial. Semua ini dapat dicapai dengan membuat kampanye Smart Drip, yang akan membuat pelanggan potensial diperbarui mengenai produk/layanan.
 
-## Bagaimana cara membuat formulir di Mautic?   {#formulir}
+## Bagaimana cara membuat formulir di Mautic? {#forms}
+
   * Masuk ke instalasi Mauitc Anda.
   * Buka tab "Komponen" dan klik "Formulir".
   * Tekan "Baru" dari sudut kanan atas.
@@ -37,11 +39,12 @@ Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan 
 
 {{< figure align=center src="images/Mautic-Campaign-Forms-Form-fields-1024x525.png" alt="Cara mengatur kampanye mautik untuk pemasaran digital">}}
 
-  * Pilih Jenis Bidang dan Masukkan Nama Bidang.
+  * Pilih jenis bidang dan masukkan nama bidang.
   * Setelah itu klik "Tambah" dan tekan "Simpan dan Tutup".
-  * Mudah untuk membuat formulir di MAUTIC.
+  * Mudah untuk membuat formulir di Mautic.
 
-## Cara membuat kampanye di Mautic?   {#campaigns}
+## Bagaimana cara membuat kampanye di MAUTIC? {#campaigns}
+
   * Pergi ke kampanye. Klik "Baru" dari kanan atas.
   * Masukkan nama dan atur "diterbitkan" ke "ya".
 
@@ -65,7 +68,8 @@ Mautic adalah perangkat lunak otomatisasi pemasaran open-source. Ini memberikan 
 {{< figure align=center src="images/Mautic-Campaign-Configure-follow-up-email.png" alt="Cara mengatur kampanye mautik untuk pemasaran digital">}}
 
 
-## kesimpulan:   {#conclusion}
+## Kesimpulan: {#conclusion}
+
 Kami telah belajar mengatur kampanye pemasaran tetes mengikuti 3 langkah yang sangat sederhana. Itu termasuk membuat formulir yang diperlukan sebagai sumber kampanye, membuat kampanye dan mengkonfigurasi email. Kami telah membuat kampanye yang sangat mendasar dalam tutorial ini. Namun, Anda dapat membuat kampanye yang kompleks dengan menggunakan pembuat kampanye mautik. Jika Anda baru mengenal MAUTIC, lihat cara menginstalnya menggunakan panduan berikut:
 [Tinjauan dan Instalasi Mautik][5]
 
@@ -75,12 +79,13 @@ Artikel-artikel ini bisa sangat membantu jika Anda ingin mengintegrasikan MAUTIC
 [Mengintegrasikan mautik dengan joomla untuk otomatisasi pemasaran][7]
 [Cara Menerapkan Multi-tenancy di MAUTIC][8]
 
-  
-[1]: #mautic
-[2]: #forms
-[3]: #campaigns
-[4]: #conclusion
-[5]: https://products.containerize.com/marketing-automation/mautic
-[6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
-[7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
-[8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/
+
+
+ [1]: #mautic
+ [2]: #forms
+ [3]: #campaigns
+ [4]: #conclusion
+ [5]: https://products.containerize.com/marketing-automation/mautic
+ [6]: https://blog.containerize.com/wp-admin/post.php?post=388&action=edit
+ [7]: https://blog.containerize.com/wp-admin/post.php?post=233&action=edit
+ [8]: https://blog.containerize.com/marketing-automation/how-to-implement-multi-tenancy-in-mautic/

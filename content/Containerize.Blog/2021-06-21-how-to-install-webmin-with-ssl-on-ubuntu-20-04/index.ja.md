@@ -14,33 +14,36 @@ categories: ['Web Hosting']
 
 ## Webminは、コマンドラインシステム管理に代わる簡単な代替手段であるWebベースのシステム管理ツールです。この記事では、Webminのインストール方法を紹介します
 この記事「Ubuntu 20.04にSSLを使用してWebminをインストールする方法」では、Webホスティングソフトウェアとツールに関する新しいシリーズのチュートリアルを開始します。 Webminを使用すると、ユーザーアカウントを設定し、ファイル共有を有効にし、ApacheとDNSの設定を構成し、Webホスティングに関連するさらに多くのタスクを実行できます。これにより、Webホスティングサーバー全体を管理できます。 Linux構成ファイルを手動で編集するトラブルを排除します。それでは、SSLを使用してWebminをインストールする方法を学びましょう。
-  ***[webminの紹介][1]** 
-  *[**強調表示された機能**][2]
-  *[**サポートされているオペレーティングシステム**][3]
-  *[ **ubuntuにWebminをインストールする** ][4]
-  *[ **webminを使用してapacheをインストール** ][5]
-  *[**結論**][6]
+* **[webminの紹介][1]** 
+* [ **強調表示された機能** ][2]
+* [ **サポートされているオペレーティングシステム** ][3]
+* [ **ubuntuにWebminをインストールする** ][4]
+* [ **webminを使用してapacheをインストール** ][5]
+* [ **結論** ][6]
 
-## はじめにwebmin   {#intro}
+## Webminの紹介 {#intro}
+
 Webminは、Linuxのシステム管理用のWebベースのインターフェイスです。最新のWebブラウザーから独自のホスティングサーバーをリモートで管理するのに役立ちます。 Webminを使用すると、ユーザーアカウント、Apache、DNS、ファイル共有などのオペレーティングシステムの内部を構成できます。また、Webminでは、単一のインターフェイスを介して多くのマシンを制御すること、または同じサブネットまたはLANの他のWebminホストでのシームレスなログインを可能にします。 Perlに基づくWebminは、独自のプロセスとWebサーバーとして実行されます。そして、Webminの最大の部分は、100％無料でオープンソースであり、非常に繁栄した開発者コミュニティを持っています。
 
-## ハイライトされた機能 {#features}
-  *ドメイン、DNSレコード、バインドオプション、およびビューを作成および編集できます。
+## 強調表示された機能 {#features}
+
+* ドメイン、DNSレコード、バインドオプション、およびビューを作成および編集できます。
   * IPFWを使用してルールを作成および編集することにより、ファイアウォールの構成に役立ちます。
   * /etc/init.dまたは/etc/rc.localからブートタイムに実行するスクリプトを設定しましょう
-  *サーバーから複数のサーバーへのファイル転送をスケジュールできます
+* サーバーから複数のサーバーへのファイル転送をスケジュールできます
   * 1つのソースから複数のサーバーにRPMS、Debian、およびSolarisパッケージをインストールできます
-  *帯域幅の使用、アップロード、ダウンロード、訪問者などのレポートへのアクセスを提供します。
-  *複数のサーバーで同時に実行されるスケジュールされたCronジョブを作成できます
-  *複数のサーバーで一度にコマンドを実行できます
-  *ローカルファイルシステムのユーザーまたはグループディスクの割り当てをセットアップおよび編集できます
-  *ダンプを使用してファイルシステムをバックアップして復元することを含めて、コマンドファミリを復元します
+* 帯域幅の使用、アップロード、ダウンロード、訪問者などのレポートへのアクセスを提供します。
+* 複数のサーバーで同時に実行されるスケジュールされたCronジョブを作成できます
+* 複数のサーバーで一度にコマンドを実行できます
+* ローカルファイルシステムのユーザーまたはグループディスクの割り当てをセットアップおよび編集できます
+* ダンプを使用してファイルシステムをバックアップして復元することを含めて、コマンドファミリを復元します
   * Windowsに似たファイルマネージャーを使用して、サーバー上のファイルとディレクトリのアクセス許可を表示、編集、変更できます
   * Service Location Protocol Serverを構成できます
-  * Windowsのようなファイルマネージャーを使用して、ファイルとシステムのファイルとディレクトリのアクセス許可を表示、編集、および変更
+  * Windowsのようなファイルマネージャーを使用して、ファイルおよびシステム上のファイルとディレクトリのアクセス許可を表示、編集、および変更
   * INETDからのスタンネルランを使用して、POP3やIMAPなどのサービスを暗号化するようにSSLトンネルをセットアップするのに役立ちます。
 
 ## サポートされているオペレーティングシステム {#support}
+
 異なるUNIXのようなオペレーティングシステムとLinuxディストリビューションは、さまざまな構成ファイルに異なる場所を使用しているため、Webminは構成されているシステムのみをサポートできます。次のオペレーティングシステムは、Webminのバージョン1.979でサポートされています。
   * Almalinux Linux
   * Alphacore Linux
@@ -59,21 +62,21 @@ Webminは、Linuxのシステム管理用のWebベースのインターフェイ
   * Citrixハイパーバイザー
   * Cloudlinux
   * CloudRouter Linux
-  *コバルトLinux
-  *コヒーレントテクノロジーLinux
+* コバルトLinux
+* コヒーレントテクノロジーLinux
   * Conectiva Linux
   * Corel Linux
   * corvus latinux
   * Cygwin
-  *ダーウィン
+* ダーウィン
   * Debian Linux
   * 12月/Compaq OSF/1
   * Devuan Linux
   * Dragonfly BSD
-  *エンディアンファイアウォールLinux
+* エンディアンファイアウォールLinux
   * Fedora Linux
   * FreeBSD
-  *ジェネリックLinux
+* ジェネリックLinux
   * Gentoo Linux
   * Gralinux
   * Haansoft Linux
@@ -115,14 +118,14 @@ Webminは、Linuxのシステム管理用のWebベースのインターフェイ
   * Redhat Enterprise Linux
   * Redhat Linux
   * Redhat Linuxデスクトップ
-  *ロッキーLinux
+* ロッキーLinux
   * Sangoma Linux
   * SCI Linux
   * Scientific Linux
   * SCO OpenServer
   * SCO UNIXWARE
-  *セキュアLinux
-  * sgi irix
+* セキュアLinux
+  * SGI IRIX
   * Slackware Linux
   * Slamd64 Linux
   * smartos
@@ -132,7 +135,7 @@ Webminは、Linuxのシステム管理用のWebベースのインターフェイ
   * Sun Javaデスクトップシステム
   * Sun solaris
   * suse linux
-  * Suse openExchange Linux
+  * Suse OpenExchange Linux
   * Suse Sles Linux
   * Synology DSM
   * Tao Linux
@@ -147,7 +150,7 @@ Webminは、Linuxのシステム管理用のWebベースのインターフェイ
   * United Linux
   * ute linux
   * Virtuozzo Linux
-  *白いドワーフLinux
+* 白いドワーフLinux
   * WhiteBox Linux
   * Wind River Linux
   * ウィンドウズ
@@ -155,12 +158,13 @@ Webminは、Linuxのシステム管理用のWebベースのインターフェイ
   * Xandros Linux
   * xcp-ng linux
   * XenServer Linux
-  *黄色の犬Linux
+* 黄色の犬Linux
   * Yoper Linux
 現在最もサポートされているシステムは、Solaris、Linux（特にRedhat）、およびFreeBSDです。
 
-## ubuntu   {#install}にWebminをインストールする
-Webminをインストールするには、**root **特権を持つユーザーにアクセスする必要があります。  **sudo**  アクセスを備えた非ルートユーザーを設定することをお勧めします。
+## ubuntuにWebminをインストールします {#install}
+
+Webminをインストールするには、 **root**特権を持つユーザーにアクセスする必要があります。**sudo** アクセスを備えた非ルートユーザーを設定することをお勧めします。
 最初に次のコマンドを使用してサーバーにsshします
 ```
 ssh user@server_IP_address
@@ -195,26 +199,29 @@ https://server_IP_address:10000
 
 {{< figure align=center src="images/webmin-login-screen.png" alt="Webminをインストールします">}}
 
-最初にWebminにログインすると、**システム情報**ページに移動します。システムのリソースとその他のその他の情報の概要を提供します。
+最初にWebminにログインすると、 **システム情報** ページに移動します。システムのリソースとその他のその他の情報の概要を提供します。
 
 {{< figure align=center src="images/install-webmin-system-info.png" alt="Webminシステム情報をインストールします">}}
 
 
-## webminを使用してapacheをインストール {#install-apache}
+## Webminを使用してApacheをインストールします {#install-apache}
+
 Webminには、さまざまなソフトウェアパッケージを管理する多種多様なモジュールが付属しています。 Webminを使用してApacheをインストールするには、以下の指示に従ってください
-**ステップ1 **：ナビゲーションメニューで、**未使用のモジュール**をクリックしてカテゴリを展開し、[apache webserver **]をクリックします。
+**ステップ1 **：ナビゲーションメニューで、**未使用のモジュール**をクリックしてカテゴリを展開し、[apache webserver** ]をクリックします。
 サーバーにApacheをインストールしていない場合、モジュールはあなたに通知し、Apacheをインストールする方法を提供します。
-**ステップ2 **：**ここをクリック **** リンク（最後の文で）を使用して、apt-getを介してapacheをインストールします。
+**ステップ2 **:**  ここをクリック****リンク（最後の文で）を使用して、apt-getを介してapacheをインストールします。
 Apacheのインストールが完了すると、サーバーはデフォルトのApacheサーバーを実行します。
 
 ## 結論 {#conclusion}
+
 この記事では、Webminができることを簡単に説明します。Webminは、Linux/Unixサーバーを管理するための最良のツールの1つです。このチュートリアルでは、UbuntuにWebminをインストールする方法も学びました。また、Webminを使用してサーバーにApacheをインストールする方法について説明しました。
 
 ## 探検
   * [ubuntuにnginxを使用して複数のPHPバージョンをインストールする方法][7]
   * [nginxをリバースプロキシとしてセットアップして構成する方法][8]
 
-  
+
+
 [1]: #intro
 [2]: #features
 [3]: #support

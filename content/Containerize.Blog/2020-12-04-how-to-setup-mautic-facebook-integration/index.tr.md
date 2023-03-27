@@ -20,17 +20,19 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
   * [Mautic eklenti yapılandırması][3]
   * [Sonuç][4]
 
-## Facebook Geliştirici Hesabını Yapılandır   {#Account}
+## Facebook geliştirici hesabını yapılandırın {#account}
+
   * [Geliştiriciler için Facebook][5]
   * Varsa hesabınızı kaydedin.
-  * Yeni bir hesap kaydetmek için, sağ üst köşeden “Başla” yı tıklayın.
+  * Yeni bir hesap kaydettirmek için gidin ve sağ üst köşeden “Başlayın” ı tıklayın.
   * Bundan sonra Facebook hesabınızı seçin ve “Devam” a basın.
   * Ardından açılır pencereden “Geliştirici” düğmesine tıklayın.
 
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Facebook Entegrasyonu - Kayıt Geliştirici Hesabı">}}
 
 
-## Facebook geliştiricisinin uygulamasını yapılandırın   {#App}
+## Facebook geliştiricisinin uygulamasını yapılandırın {#app}
+
   * "İlk Uygulama Oluştur" u tıklayın
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Facebook Entegrasyonu - İlk Uygulamayı Oluşturun">}}
@@ -49,7 +51,7 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
 
   * Sol menüden, ürünler altındaki “Ayarlar” ı tıklayın -> Facebook Oturum Açma.
 
-{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Login-1024x621.png" alt="Mautic - Facebook Entegrasyonu - FB Girişini Yapılandırın">}}
+{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Login-1024x621.png" alt="Mautic - Facebook Entegrasyonu - FB Giriş Yapılandırın">}}
 
   * Mautic web sitesi URL'nizi girin. “İstemci OAuth Giriş” ve “Web OAuth Login” i “Evet” olarak ayarlayın.
   * Şimdi Ayarlar -> Temel Ayarlar'a gidin. Sayfanın altından “+ Platform Ekle” düğmesini tıklayın. Bundan sonra bir açılır pencere açılacaktır. Web Sitesi URL'nizi girin ve değişiklikleri kaydedin.
@@ -57,7 +59,8 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Facebook Entegrasyonu - Platform olarak web sitesi ekle">}}
 
 
-## Mautic eklenti yapılandırması   {#configuration}
+## Mautic eklentisi yapılandırması {#configuration}
+
   * Mautic panosuna gidin.
   * Ardından sağ üst köşeden “Ayarlar” a geçin.
   * “Eklentiler” i tıklayın.
@@ -72,7 +75,8 @@ Bu öğreticideki aşağıdaki bölümleri ele alacağız:
   * Burada iletişim alanlarınızı Facebook alanlarıyla eşleştirebilirsiniz.
   * Son olarak, ayarları yayınlayın ve gitmekte fayda var.
 
-## Sonuç   {#Conclusion}
+## Çözüm {#conclusion}
+
 MAUTIC - Facebook entegrasyonu, Facebook potansiyel müşterilerinizi zorluk çekmeden senkronize etmeye yardımcı olabilir. Mautic uygulamasında, tüm bu potansiyel müşterileri bir segmente ekleyebilirsiniz. Onlara e -posta pazarlama kampanyaları çalıştırabilirsiniz. Bu, işletmenizin çok daha büyük bir hedef kitleye ürün/hizmetleri büyütmesine, pazarlamasına ve satmasına gerçekten yardımcı olabilir.
 
 ## Keşfetmek
@@ -83,7 +87,8 @@ Mautic ve Facebook hakkında daha fazla bilgi edinmek için lütfen şu adresi z
   * [Mautic ve WooCommerce Entegrasyonu ile Pazarlama Otomasyonu][9]
   * [Dijital Pazarlama Otomasyonu için Mautic & Joomla'yı Entegre][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

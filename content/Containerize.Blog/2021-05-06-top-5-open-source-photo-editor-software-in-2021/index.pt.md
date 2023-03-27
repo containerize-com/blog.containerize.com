@@ -79,7 +79,8 @@ Se você apenas filma com seu smartphone ou é um fotógrafo profissional, preci
   * [Digikam][9]
   * [Rawtherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

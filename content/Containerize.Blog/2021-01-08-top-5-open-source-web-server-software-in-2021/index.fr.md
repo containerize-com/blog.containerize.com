@@ -24,7 +24,8 @@ Un serveur Web est un type de logiciel installé sur le système d'exploitation.
   * [Caddy][8]
   * [Tomcat][9]
 
-## xAMPP   {#xAMPP-stands}
+## XAMPP {#xampp-stands}
+
 XAMPP représente une plate-forme multiplateuse (X), Apache (A), MariADB (M), PHP (P) et Perl (P). Il s'agit d'un logiciel de serveur Web gratuit et open-source. Il aide les développeurs à tester leurs applications Web ou leurs sites Web dans leur environnement de développement. XAMPP possède tous les composants nécessaires, y compris Apache, Perl ainsi que la base de données MySQL et PHP. Il fournit un environnement de développement fiable pour les applications Web basées sur Perl et PHP. De plus, il fournit MariADB et MySQL pour la gestion des bases de données. Voici quelques-unes de ses principales caractéristiques:
   * Open source
   * Plusieurs instances
@@ -33,7 +34,8 @@ XAMPP représente une plate-forme multiplateuse (X), Apache (A), MariADB (M), PH
   * Serveur Web avec base de données
 [Lire la suite][10]
 
-## nginx   {#nginx}
+## Nginx {#Nginx}
+
 Le serveur Web Nginx prend en charge tous les composants du Web moderne, y compris WebSocket, HTTP / 2 et le streaming de plusieurs formats vidéo. Il a commencé comme un serveur Web, mais maintenant, il s'est développé pour fonctionner également comme un logiciel proxy inversé pour l'e-mail (IMAP, POP3 et SMTP). Il fonctionne également comme un proxy inversé et un équilibreur de charge pour les serveurs HTTP, TCP et UDP. De plus, ce logiciel proxy inversé bat systématiquement Apache et d'autres serveurs s'il est mesuré sur les performances du serveur Web. Certaines caractéristiques importantes de Nginx comprennent:
   * Architecture modulaire
   * Équilibrage du chargement et tolérance aux défauts
@@ -42,7 +44,8 @@ Le serveur Web Nginx prend en charge tous les composants du Web moderne, y compr
   * Prend en charge SSL et TLS SNI
 [Lire la suite][11]
 
-## LightTPD   {#lighttpd}
+## Clair {#Clair}
+
 LightTPD est un logiciel de serveur Web léger open source, conçu spécialement pour les machines Linux. Il ne nécessite pas beaucoup de mémoire et d'utilisation du processeur. Ce qui en fait l'un des meilleurs pour tout projet qui a besoin de vitesse et de performances élevées. LightTPD est la solution parfaite pour chaque serveur qui souffre de problèmes de vitesse ou de performances. De plus, le serveur Web léger fournit des ensembles de fonctionnalités avancées, notamment FastCGI, SCGI, AUTH, la compression de sortie et le rédaction d'URL, etc. À part PHP, il prend également en charge d'autres langages de programmation, notamment Python, Perl, Ruby et bien d'autres. Voici quelques fonctionnalités populaires de LightTPD:
   * Petite taille, seulement 1 Mo
   * Prise en charge des interfaces FastCGI, SCGI, CGI
@@ -51,7 +54,8 @@ LightTPD est un logiciel de serveur Web léger open source, conçu spécialement
   * Utilisation très optimisée du processeur et de la RAM
 [Lire la suite][12]
 
-## caddy   {#caddy}
+## Caddie {#Caddie}
+
 Caddy Server est extrêmement facile à configurer et à utiliser. Il s'occupe des renouvellements de certificat TLS, de l'agrafage OCSP, de la portion de fichiers statiques ainsi que de la proxyation inverse et de la pénétration de Kubernetes. De plus, ce serveur de fichiers statique est une plate-forme multiplateforme, un serveur Web open source et peut exécuter tous les principaux systèmes d'exploitation, notamment MacOS, Linux et Windows. Caddy est un serveur Web de fichiers statiques flexible et efficace ainsi qu'un proxy inverse puissant et évolutif. Utilisez le serveur Caddy pour la compression, l'évaluation des modèles et le rendu Markdown de vos sites Web. Voici quelques fonctionnalités clés du serveur Web Caddy:
   * Configuration facile avec le fichier de caddy
   * Journaux d'accès, d'erreur et de processus
@@ -60,7 +64,8 @@ Caddy Server est extrêmement facile à configurer et à utiliser. Il s'occupe d
   * Redémarrage / rechargement gracieux
 [Lire la suite][13]
 
-## Tomcat   {#tomcat}
+## Matou {#Matou}
+
 Apache Tomcat est une implémentation open source du servlet Java, des pages Javaserver, du langage d'expression Java et des technologies WebSocket Java. De plus, c'est l'une des applications et des serveurs Web les plus utilisés. Tomcat Server est simple à utiliser et dispose d'un écosystème robuste de modules complémentaires. Le logiciel Apache Tomcat peut être utilisé comme produit autonome avec son propre serveur Web interne ainsi qu'avec d'autres serveurs Web tels que Apache, Netscape Enterprise Server, Microsoft Personal Web Server et Microsoft Internet Information Server. Voici quelques fonctionnalités clés d'Apache Tomcat:
   * Poids léger
   * Open source
@@ -82,27 +87,28 @@ Enfin, [contenerize.com][15] écrit continuellement des articles de blog sur d'a
   * [Top 5 des logiciels de stockage cloud open source en 2021][23]
   * [Comment installer NextCloud avec Apache sur Ubuntu Server][3]
 
-  
-[1]: https://products.containerize.com/solution-stack/
-[2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
-[3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
-[4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
-[5]: #xampp-stands
-[6]: #NGINX
-[7]: #Lighttpd
-[8]: #Caddy
-[9]: #Tomcat
-[10]: https://products.containerize.com/solution-stack/xampp
-[11]: https://products.containerize.com/solution-stack/nginx
-[12]: https://products.containerize.com/solution-stack/lighttpd
-[13]: https://products.containerize.com/solution-stack/caddy
-[14]: https://products.containerize.com/solution-stack/tomcat
-[15]: https://www.containerize.com/
-[16]: https://products.containerize.com/video-editing-software
-[17]: https://web.facebook.com/containerize
-[18]: https://www.linkedin.com/company/containerize/
-[19]: https://twitter.com/containerize_co
-[20]: https://products.containerize.com/solution-stack
-[21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
-[22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
-[23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/
+
+
+ [1]: https://products.containerize.com/solution-stack/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+ [4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
+ [5]: #xampp-stands
+ [6]: #NGINX
+ [7]: #Lighttpd
+ [8]: #Caddy
+ [9]: #Tomcat
+ [10]: https://products.containerize.com/solution-stack/xampp
+ [11]: https://products.containerize.com/solution-stack/nginx
+ [12]: https://products.containerize.com/solution-stack/lighttpd
+ [13]: https://products.containerize.com/solution-stack/caddy
+ [14]: https://products.containerize.com/solution-stack/tomcat
+ [15]: https://www.containerize.com/
+ [16]: https://products.containerize.com/video-editing-software
+ [17]: https://web.facebook.com/containerize
+ [18]: https://www.linkedin.com/company/containerize/
+ [19]: https://twitter.com/containerize_co
+ [20]: https://products.containerize.com/solution-stack
+ [21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
+ [22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
+ [23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/

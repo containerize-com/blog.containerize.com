@@ -17,12 +17,13 @@ categories: ['Game Development Software']
 ## بررسی اجمالی
 در گذشته نزدیک ، برخی از مقالات در مورد [نرم افزار توسعه بازی][1] منتشر شده است که شامل چگونگی بهره گیری از صنعت جهانی بازی با استفاده از نرم افزار منبع باز و آموزش GDEVELVENT برای مبتدیان برای شروع توسعه بازی است. توسعه بازی های ویدیویی با افزایش تقاضا برای بازی های سرگرم کننده ، در سراسر جهان بسیار بیشتر پخش می شود. با این حال ، این شامل ایده ، توسعه طراحی ، آزمایش مداوم ، انتشار و بازخورد است. به عبارت دیگر ، این شامل طراحان ، معماران نرم افزار ، برنامه نویسان ، آزمایش کنندگان و منابع پشتیبانی است. علاوه بر این ، انواع مختلفی از بازی ها مانند بازی های اکشن ، بازی های پازل ، بازی های مسابقه ای ، بازی های شناختی و موارد دیگر وجود دارد.
 بنابراین ، برای شروع کار با هر سازنده بازی سه بعدی ، یک راهنمای توسعه خوب بازی بسیار مورد نیاز است. جامعه منبع باز بسیاری از نرم افزارهای توسعه بازی را توسعه داده است که ویژگی ها و برنامه های سطح سازمانی را برای توسعه بازی های سه بعدی و 2D ارائه می دهد. این آموزش توسعه بازی HTML5 نحوه توسعه یک بازی ویدیویی را با استفاده از نرم افزار رایگان توسعه بازی های ویدیویی  **SuperPowers**  با پوشش نکات زیر کشف خواهد کرد.
-  * **[ابرقدرت ها چیست][2]**
-  * **[چگونه می توان در localhost تنظیم کرد؟][3]**
-  * **[داشبورد ابرقدرت ها؟][4]**
-  * **[نتیجه گیری][5]**
+*  **[ابرقدرت ها چیست][2]**  
+*  **[چگونه می توان در localhost تنظیم کرد؟][3]**  
+*  **[داشبورد ابرقدرت ها؟][4]**  
+*  **[نتیجه گیری][5]**  
 
-## SuperPowers   {#intro}
+## ابرقدرت ها چیست {#intro}
+
 [SuperPowers][6] یک نرم افزار منبع باز برای توسعه بازی های ویدیویی است. این انعطاف پذیر ، قوی و گسترده است. با این حال ، پشتیبانی از انیمیشن ها ، مدل های سه بعدی و طیف گسترده ای از نمونه های بازی را ارائه می دهد. علاوه بر این ، این نسخه همچنین با نسخه آفلاین همراه است که کاربران می توانند بدون هیچگونه اتصال به اینترنت ، بازی ها را بسازند. انتشار هر پروژه به طرز حیرت انگیزی آسان است و همه آنچه با یک کلیک اتفاق می افتد. یک داشبورد بصری برای کاربران وجود دارد که کاربران می توانند از طریق عناصر مختلف به راحتی حرکت کنند. مهمتر از همه ، بسیار جالب است که گزارش خطای زنده است که در آن خطایی را برای توسعه دهنده نشان می دهد تا از هرگونه ابهام یا اشکال جلوگیری کند. راه اندازی SuperPowers آسان است و برای میزبانی بیشتر از سرورها به الزامات آسان نیاز دارد ، این سازنده بازی سه بعدی به صورت TypeScript نوشته شده است و با تمام اسناد مربوط به توسعه و استقرار همراه است. بنابراین ، تمام کد منبع در [GitHub][7] موجود است.
 SuperPowers نکات کلیدی زیر را ارائه می دهد:
   * گزارش خطای زنده
@@ -31,7 +32,8 @@ SuperPowers نکات کلیدی زیر را ارائه می دهد:
   * فونت و جلوه های صوتی غنی
   * خودساختار
 
-## چگونه می توان در LocalHost راه اندازی کرد؟   {#برپایی}
+## چگونه می توان در localhost راه اندازی کرد؟ {#setup}
+
 اگر هنوز تعجب می کنید که چگونه یک بازی ویدیویی ایجاد کنید ، در این بخش از مقاله یاد خواهیم گرفت که چگونه SuperPowers را در LocalHost تنظیم کنیم. در این بخش ، این راهنمای  **توسعه بازی**  در مورد روند تنظیم محیط توسعه بازی توضیح می دهد.
 اول از همه ، قبل از شروع توسعه بازی های ویدیویی ، پیش نیازهای زیر را نصب کرده اید:
   * گیت
@@ -65,7 +67,8 @@ node server start
 <a href="http://localhost:4237/">http://localhost:4237/</a>
 ```
 
-## داشبورد ابرقدرت ها؟   {#امکانات}
+## داشبورد ابرقدرت ها؟ {#features}
+
 پس از ضربه زدن به URL فوق ، صفحه اصلی زیر را مشاهده خواهید کرد. گزینه هایی برای اصلاح یا ایجاد یک پروژه جدید Platformer خالی یا 2D وجود دارد.
 
 {{< figure align=center src="images/Screenshot-2021-05-20-at-21.41.27-1024x577.png" alt="توسعه بازی های ویدیویی">}}
@@ -80,8 +83,9 @@ node server start
 
 به همین ترتیب ، پس از گذراندن این مقاله بازی ، می توانید آن را بیشتر کاوش کنید و از تمام ویژگی ها استفاده کنید. علاوه بر این ، شما قادر خواهید بود با استفاده از سازنده بازی های ویدیویی SuperPowers چگونه پیش بروید. پشتیبانی آنلاین برای این نرم افزار توسعه بازی در دسترس است.
 
-##  **نتیجه گیری** {#conclusion}
-این پایان این راهنمای توسعه بازی HTML5 را به پایان می رساند. امیدوارم اگر شما مشتاق شروع به توسعه بازی های ویدیویی هستید ، این پست وبلاگ به شما کمک می کند. ما به بررسی آنچه SuperPowers است ، نحوه تهیه یک بازی ویدیویی ، که یک سازنده بازی 3D منبع باز است ، کاوش کرده ایم و همچنین روش نصب آن را در LocalHost طی کرده ایم. بسیاری از برنامه های طراحی بازی های ویدیویی منبع باز** وجود دارد که به کاربران اجازه می دهد بازی ها را از ابتدا بسازند. برنامه نویسان بازی های ویدیویی برای ساختن بازی های با کیفیت بالا از اصول طراحی بازی ضروری استفاده می کنند. شما در مورد ساخت بازی های 2D و 3D در مقالات آینده ما در [blog.containerize.com][8] اطلاعات بیشتری کسب خواهید کرد. منبع باز دیگر ، سازندگان بازی سه بعدی خود میزبان و مقالات مربوطه که در بخش "اکتشاف" در زیر ذکر شده است.
+##  **نتیجه**  {#Conclusion}
+
+این پایان این راهنمای توسعه بازی HTML5 را به پایان می رساند. امیدوارم اگر شما مشتاق شروع به توسعه بازی های ویدیویی هستید ، این پست وبلاگ به شما کمک می کند. ما به بررسی آنچه SuperPowers است ، نحوه تهیه یک بازی ویدیویی ، که یک سازنده بازی 3D منبع باز است ، کاوش کرده ایم و همچنین روش نصب آن را در LocalHost طی کرده ایم. بسیاری از برنامه های طراحی بازی های ویدیویی منبع باز**وجود دارد که به کاربران اجازه می دهد بازی ها را از ابتدا بسازند. برنامه نویسان بازی های ویدیویی برای ساختن بازی های با کیفیت بالا از اصول طراحی بازی ضروری استفاده می کنند. شما در مورد ساخت بازی های 2D و 3D در مقالات آینده ما در [blog.containerize.com][8] اطلاعات بیشتری کسب خواهید کرد. منبع باز دیگر ، سازندگان بازی سه بعدی خود میزبان و مقالات مربوطه که در بخش "اکتشاف" در زیر ذکر شده است.
 سرانجام ، Containerize.com به طور مداوم در حال نوشتن پست های وبلاگ در مورد محصولات و موضوعات منبع باز بیشتر است. بنابراین ، لطفاً برای به روزرسانی های منظم با [توسعه بازی های ویدیویی][9][][10] در تماس باشید. علاوه بر این ، شما می توانید ما را در حساب های رسانه های اجتماعی [Facebook][11] ، [LinkedIn][12] و [Twitter][13] دنبال کنید.
 
 ## کاوش کنید
@@ -91,34 +95,35 @@ node server start
   * [][14][ابرقدرت ها][6]
   * [][14][Cocos Creator][16]
   * [][14][panda3d][17]
-  * **[شروع با توسعه بازی با استفاده از ابرقدرت ها][18]**
-   **[آموزش توسعه بازی | حرکت بازیکن در Gdevelop][19]** 
-  *[ **نحوه ساخت یک بازی در ابتدا با استفاده از منبع باز GDEVELVENT** ][20]
-   **[چگونه صنعت بازی جهانی از نرم افزار منبع باز بهره می برد][21]** 
-  * **[آموزش gdevelop برای مبتدیان برای شروع توسعه بازی][22]**
-  *[ **5 نرم افزار برتر توسعه بازی رایگان در سال 2021** ][23]
+*  **[شروع با توسعه بازی با استفاده از ابرقدرت ها][18]**  
+ **[آموزش توسعه بازی | حرکت بازیکن در Gdevelop][19]** 
+* [  **نحوه ساخت یک بازی در ابتدا با استفاده از منبع باز GDEVELVENT**  ][20]
+ **[چگونه صنعت بازی جهانی از نرم افزار منبع باز بهره می برد][21]** 
+*  **[آموزش gdevelop برای مبتدیان برای شروع توسعه بازی][22]**  
+* [  **5 نرم افزار برتر توسعه بازی رایگان در سال 2021**  ][23]
 
-  
-[1]: https://blog.containerize.com/category/game-development-software/
-[2]: #intro
-[3]: #setup
-[4]: #features
-[5]: #Conclusion
-[6]: https://products.containerize.com/game-development-software/superpowers/
-[7]: https://github.com/superpowers/superpowers-core
-[8]: https://blog.containerize.com/
-[9]: https://products.containerize.com/game-development-software/
-[10]: https://products.containerize.com/business-intelligence/
-[11]: https://web.facebook.com/containerize
-[12]: https://www.linkedin.com/company/containerize/
-[13]: https://twitter.com/containerize_co
-[14]: https://products.containerize.com/game-development-software/gdevelop/
-[15]: https://products.containerize.com/game-development-software/godot/
-[16]: https://products.containerize.com/game-development-software/cocos-creator/
-[17]: https://products.containerize.com/game-development-software/panda3d/
-[18]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
-[19]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
-[20]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
-[21]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
-[22]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
-[23]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
+
+
+ [1]: https://blog.containerize.com/category/game-development-software/
+ [2]: #intro
+ [3]: #setup
+ [4]: #features
+ [5]: #Conclusion
+ [6]: https://products.containerize.com/game-development-software/superpowers/
+ [7]: https://github.com/superpowers/superpowers-core
+ [8]: https://blog.containerize.com/
+ [9]: https://products.containerize.com/game-development-software/
+ [10]: https://products.containerize.com/business-intelligence/
+ [11]: https://web.facebook.com/containerize
+ [12]: https://www.linkedin.com/company/containerize/
+ [13]: https://twitter.com/containerize_co
+ [14]: https://products.containerize.com/game-development-software/gdevelop/
+ [15]: https://products.containerize.com/game-development-software/godot/
+ [16]: https://products.containerize.com/game-development-software/cocos-creator/
+ [17]: https://products.containerize.com/game-development-software/panda3d/
+ [18]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
+ [19]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+ [20]: https://blog.containerize.com/game-development-software/how-to-make-a-game-on-scratch-using-open-source-gdevelop/
+ [21]: https://blog.containerize.com/game-development-software/how-global-gaming-market-leveraging-open-source-software/
+ [22]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/
+ [23]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/

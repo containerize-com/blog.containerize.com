@@ -20,7 +20,8 @@ Cubriremos las siguientes secciones en este tutorial:
   * [Configuración del complemento mautic][3]
   * [Conclusión][4]
 
-## Configurar la cuenta de desarrollador de Facebook   {#ACCOUNT}
+## Configurar la cuenta de desarrollador de Facebook {#account}
+
   * Vaya a [Facebook para desarrolladores][5]
   * Registre su cuenta si no tiene una.
   * Para registrar una nueva cuenta, vaya y haga clic en "Comenzar" desde la esquina superior derecha.
@@ -30,7 +31,8 @@ Cubriremos las siguientes secciones en este tutorial:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Integración de Facebook - Cuenta de revelador de registro">}}
 
 
-## Configurar la aplicación del desarrollador de Facebook   {#App}
+## Configurar la aplicación de desarrollador de Facebook {#app}
+
   * Haga clic en "Crear primera aplicación"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Integración de Facebook - Crear primera aplicación">}}
@@ -57,7 +59,8 @@ Cubriremos las siguientes secciones en este tutorial:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Integración de Facebook - Agregar sitio web como plataforma">}}
 
 
-## Configuración del complemento Mautic   {#Configuration}
+## Configuración de complementos mautic {#configuration}
+
   * Vaya al tablero de Mautic.
   * Luego muévase a "Configuración" desde la esquina superior derecha.
   * Haga clic en "complementos".
@@ -72,7 +75,8 @@ Cubriremos las siguientes secciones en este tutorial:
   * Aquí puede mapear sus campos de contacto a los campos de Facebook.
   * Finalmente, publique la configuración y está listo para comenzar.
 
-## conclusión   {#conclusion}
+## Conclusión {#conclusion}
+
 Mautic: la integración de Facebook puede ayudar a sincronizar sus clientes potenciales de Facebook al sistema mautic sin ninguna dificultad. En la aplicación Mautic, puede agregar todos estos cables a un segmento. Puede ejecutar campañas de marketing por correo electrónico en ellas. Esto realmente puede ayudar a su negocio a crecer, comercializar y vender productos/servicios a un público objetivo mucho más grande.
 
 ## Explorar
@@ -83,7 +87,8 @@ Para obtener más información sobre Mautic y Facebook, visite:
   * [Automatización de marketing con integración de Mautic y WooCommerce][9]
   * [Integrar Mautic y Joomla para la automatización de marketing digital][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

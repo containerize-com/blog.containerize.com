@@ -24,7 +24,8 @@ Một máy chủ web là một loại phần mềm được cài đặt trên h�
   * [Caddy][8]
   * [Tomcat][9]
 
-## xampp   {#xampp-stands}
+## XAMPP {#xampp-stands}
+
 XAMPP là viết tắt của đa nền tảng (X), Apache (A), MariaDB (M), PHP (P) và Perl (P). Nó là một phần mềm máy chủ web miễn phí và nguồn mở. Nó giúp các nhà phát triển kiểm tra các ứng dụng web hoặc trang web của họ trong môi trường phát triển của họ. XAMPP có tất cả các thành phần cần thiết bao gồm Apache, Perl cũng như cơ sở dữ liệu MySQL và PHP. Nó cung cấp một môi trường phát triển đáng tin cậy cho các ứng dụng web dựa trên Perl và PHP. Hơn nữa, nó cung cấp MariaDB và MySQL cho quản lý cơ sở dữ liệu. Dưới đây là một số tính năng chính của nó:
   * Mã nguồn mở
   * Nhiều trường hợp
@@ -33,7 +34,8 @@ XAMPP là viết tắt của đa nền tảng (X), Apache (A), MariaDB (M), PHP 
   * Máy chủ web có cơ sở dữ liệu
 [Đọc thêm][10]
 
-## nginx   {#nginx}
+## Nginx {#Nginx}
+
 Máy chủ web Nginx hỗ trợ tất cả các thành phần của web hiện đại bao gồm WebSocket, HTTP/2 và phát trực tuyến nhiều định dạng video. Nó bắt đầu như một máy chủ web nhưng bây giờ, nó đã phát triển để hoạt động như một phần mềm proxy ngược cho email (IMAP, POP3 và SMTP). Nó cũng hoạt động như một proxy và cân bằng tải ngược cho các máy chủ HTTP, TCP và UDP. Hơn nữa, phần mềm proxy ngược này luôn đánh bại Apache và các máy chủ khác nếu được đo trên hiệu suất máy chủ web. Một số tính năng quan trọng của Nginx bao gồm:
   * Kiến trúc mô -đun
   * Tải cân bằng và dung sai lỗi
@@ -42,7 +44,8 @@ Máy chủ web Nginx hỗ trợ tất cả các thành phần của web hiện �
   * Hỗ trợ SSL và TLS SNI
 [Đọc thêm][11]
 
-## lighttpd   {#lighttpd}
+## LIGHTTPD {#LIGHTTPD}
+
 LightTPD là một phần mềm máy chủ web nhẹ nguồn mở, được thiết kế đặc biệt cho các máy Linux. Nó không yêu cầu nhiều bộ nhớ và sử dụng CPU. Điều này làm cho nó trở thành một trong những điều tốt nhất cho bất kỳ dự án nào cần tốc độ và hiệu suất cao. LIGHTTPD là giải pháp hoàn hảo cho mọi máy chủ đang gặp vấn đề về tốc độ hoặc hiệu suất. Hơn nữa, máy chủ web nhẹ cung cấp các bộ tính năng nâng cao bao gồm FastCGI, SCGI, AUTH, đầu ra-nén và viết URL, v.v. khác với PHP, nó cũng hỗ trợ các ngôn ngữ lập trình khác bao gồm Python, Perl, Ruby, và nhiều hơn nữa. Dưới đây là một số tính năng phổ biến của LightTPD:
   * Kích thước nhỏ, chỉ 1MB
   * Hỗ trợ cho các giao diện FastCGI, SCGI, CGI
@@ -51,7 +54,8 @@ LightTPD là một phần mềm máy chủ web nhẹ nguồn mở, được thi�
   * Sử dụng CPU và RAM được tối ưu hóa rất
 [Đọc thêm][12]
 
-## caddy   {#caddy}
+## Caddy {#Caddy}
+
 Máy chủ Caddy cực kỳ dễ dàng để cấu hình và sử dụng. Nó chăm sóc gia hạn chứng chỉ TLS, stapling OCSP, tệp tĩnh phục vụ cũng như ủy quyền ngược và kubernetes xâm nhập. Hơn nữa, máy chủ tệp tĩnh này là một máy chủ web nguồn mở, đa nền tảng và có thể chạy trên tất cả các hệ điều hành chính bao gồm MacOS, Linux và Windows. Caddy là một máy chủ web tệp tĩnh linh hoạt và hiệu quả cũng như một proxy ngược mạnh mẽ và có thể mở rộng. Sử dụng máy chủ Caddy để nén, đánh giá mẫu và kết xuất đánh dấu trang web của bạn. Dưới đây là một số tính năng chính của máy chủ web caddy:
   * Cấu hình dễ dàng với caddyfile
   * Truy cập, lỗi và nhật ký xử lý
@@ -60,7 +64,8 @@ Máy chủ Caddy cực kỳ dễ dàng để cấu hình và sử dụng. Nó ch
   * Khởi động lại/tải lại duyên dáng
 [Đọc thêm][13]
 
-## tomcat   {#tomcat}
+## Tomcat {#Tomcat}
+
 Apache Tomcat là một triển khai nguồn mở của Java servlet, trang Javaserver, ngôn ngữ biểu thức Java và Java WebSocket Technologies. Hơn nữa, nó là một trong những ứng dụng và máy chủ web được sử dụng rộng rãi nhất. Máy chủ Tomcat rất đơn giản để sử dụng và có một hệ sinh thái mạnh mẽ của các tiện ích bổ sung. Phần mềm Apache Tomcat có thể được sử dụng như một sản phẩm độc lập với máy chủ web nội bộ của riêng mình cũng như với các máy chủ web khác như Apache, Netscape Enterprise Server, Microsoft Personal Web Server và Microsoft Internet Information Server. Dưới đây là một số tính năng chính của Apache Tomcat:
   * Nhẹ
   * Mã nguồn mở
@@ -82,27 +87,28 @@ Cuối cùng, [containerize.com][15] liên tục viết các bài đăng trên b
   * [Top 5 Phần mềm lưu trữ đám mây nguồn mở vào năm 2021][23]
   * [Cách cài đặt NextCloud với Apache trên máy chủ Ubuntu][3]
 
-  
-[1]: https://products.containerize.com/solution-stack/
-[2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
-[3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
-[4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
-[5]: #xampp-stands
-[6]: #NGINX
-[7]: #Lighttpd
-[8]: #Caddy
-[9]: #Tomcat
-[10]: https://products.containerize.com/solution-stack/xampp
-[11]: https://products.containerize.com/solution-stack/nginx
-[12]: https://products.containerize.com/solution-stack/lighttpd
-[13]: https://products.containerize.com/solution-stack/caddy
-[14]: https://products.containerize.com/solution-stack/tomcat
-[15]: https://www.containerize.com/
-[16]: https://products.containerize.com/video-editing-software
-[17]: https://web.facebook.com/containerize
-[18]: https://www.linkedin.com/company/containerize/
-[19]: https://twitter.com/containerize_co
-[20]: https://products.containerize.com/solution-stack
-[21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
-[22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
-[23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/
+
+
+ [1]: https://products.containerize.com/solution-stack/
+ [2]: https://blog.containerize.com/database-management-software/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
+ [3]: https://blog.containerize.com/backup-and-sync-software/how-to-install-nextcloud-with-apache-on-ubuntu-server/
+ [4]: https://blog.containerize.com/web-server-solution-stack/setup-tutorial-for-lemp-stack-on-ubuntu-18-04/
+ [5]: #xampp-stands
+ [6]: #NGINX
+ [7]: #Lighttpd
+ [8]: #Caddy
+ [9]: #Tomcat
+ [10]: https://products.containerize.com/solution-stack/xampp
+ [11]: https://products.containerize.com/solution-stack/nginx
+ [12]: https://products.containerize.com/solution-stack/lighttpd
+ [13]: https://products.containerize.com/solution-stack/caddy
+ [14]: https://products.containerize.com/solution-stack/tomcat
+ [15]: https://www.containerize.com/
+ [16]: https://products.containerize.com/video-editing-software
+ [17]: https://web.facebook.com/containerize
+ [18]: https://www.linkedin.com/company/containerize/
+ [19]: https://twitter.com/containerize_co
+ [20]: https://products.containerize.com/solution-stack
+ [21]: https://blog.containerize.com/2021/02/26/apache-vs-nginx-detailed-comparison-in-2021/
+ [22]: https://blog.containerize.com/2020/12/16/setup-and-configure-lighttpd-web-server-for-high-performance-websites/
+ [23]: https://blog.containerize.com/backup-and-sync-software/top-5-open-source-cloud-storage-software-in-2021/

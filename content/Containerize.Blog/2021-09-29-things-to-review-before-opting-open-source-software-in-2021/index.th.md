@@ -15,40 +15,47 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 
 
 ## ภาพรวม
-คุณอยู่ในสถานที่ที่เหมาะสมหากคุณสงสัยว่าจะนำซอฟต์แวร์มาใช้เพื่อเพิ่มธุรกิจของคุณ ในโลกที่กำลังเติบโตอย่างรวดเร็วของเทคโนโลยีและนวัตกรรมมีหลายปัจจัยที่สามารถกลายเป็นสแตมเปอร์เช่นค่าใช้จ่ายเวลาทักษะทรัพยากรและอื่น ๆ อีกมากมาย ในทางกลับกันมันเป็นข้อตกลงที่มีราคาแพงในการพัฒนาซอฟต์แวร์ตั้งแต่เริ่มต้นเพื่อตอบสนองความต้องการทางธุรกิจ ซอฟต์แวร์โอเพ่นซอร์ส ** มาที่นี่ ซอฟต์แวร์โอเพ่นซอร์ส (OSS) มีให้บริการในที่สาธารณะสำหรับทุกคนที่มีซอร์สโค้ดและเอกสารทั้งหมดภายใต้ใบอนุญาต มันสามารถสร้างขึ้นโดยนักพัฒนาคนเดียวหรือกลุ่มนักพัฒนาที่ทำให้เป็นสาธารณะ เมื่อการมองเห็นซอฟต์แวร์ฟรีเป็นสาธารณะนักพัฒนาอื่น ๆ สามารถมีส่วนร่วมในซอฟต์แวร์นั้นเพื่อการปรับปรุง
-นอกจากนี้ชุมชนโอเพ่นซอร์สมีชีวิตชีวาและให้การสนับสนุนที่พัฒนาไปตามรายการซอฟต์แวร์โอเพนซอร์ส  ****  มีกระดานสนทนาที่ผู้ทำงานร่วมกันและผู้ใช้มารวมกันเพื่อแบ่งปันโซลูชันและความคิด มีหมวดหมู่ OSS ที่หลากหลายซึ่งครอบคลุมด้านธุรกิจส่วนใหญ่ แน่นอนว่ามีบางสิ่งที่ต้องพิจารณาก่อนที่จะไปใช้แอปพลิเคชันโอเพนซอร์สที่เราจะพูดถึงในโพสต์บล็อกนี้โดยครอบคลุมประเด็นต่อไปนี้
-  ***[ชุมชน][1]** 
-  ***[เอกสาร][2]** 
-  ***[พกพา][3]** 
-  ***[Git Stats][4]** 
-  ***[ใบอนุญาต][5]** 
-  ***[Extensibility][6]** 
-  ***[ความปลอดภัย][7]** 
+คุณอยู่ในสถานที่ที่เหมาะสมหากคุณสงสัยว่าจะนำซอฟต์แวร์มาใช้เพื่อเพิ่มธุรกิจของคุณ ในโลกที่กำลังเติบโตอย่างรวดเร็วของเทคโนโลยีและนวัตกรรมมีหลายปัจจัยที่สามารถกลายเป็นสแตมเปอร์เช่นค่าใช้จ่ายเวลาทักษะทรัพยากรและอื่น ๆ อีกมากมาย ในทางกลับกันมันเป็นข้อตกลงที่มีราคาแพงในการพัฒนาซอฟต์แวร์ตั้งแต่เริ่มต้นเพื่อตอบสนองความต้องการทางธุรกิจ ซอฟต์แวร์โอเพ่นซอร์ส**มาที่นี่ ซอฟต์แวร์โอเพ่นซอร์ส (OSS) มีให้บริการในที่สาธารณะสำหรับทุกคนที่มีซอร์สโค้ดและเอกสารทั้งหมดภายใต้ใบอนุญาต มันสามารถสร้างขึ้นโดยนักพัฒนาคนเดียวหรือกลุ่มนักพัฒนาที่ทำให้เป็นสาธารณะ เมื่อการมองเห็นซอฟต์แวร์ฟรีเป็นสาธารณะนักพัฒนาอื่น ๆ สามารถมีส่วนร่วมในซอฟต์แวร์นั้นเพื่อการปรับปรุง
+นอกจากนี้ชุมชนโอเพ่นซอร์สมีชีวิตชีวาและให้การสนับสนุนที่พัฒนาไปตามรายการซอฟต์แวร์โอเพนซอร์ส****มีกระดานสนทนาที่ผู้ทำงานร่วมกันและผู้ใช้มารวมกันเพื่อแบ่งปันโซลูชันและความคิด มีหมวดหมู่ OSS ที่หลากหลายซึ่งครอบคลุมด้านธุรกิจส่วนใหญ่ แน่นอนว่ามีบางสิ่งที่ต้องพิจารณาก่อนที่จะไปใช้แอปพลิเคชันโอเพนซอร์สที่เราจะพูดถึงในโพสต์บล็อกนี้โดยครอบคลุมประเด็นต่อไปนี้
+*  **[ชุมชน][1]**  
+*  **[เอกสาร][2]**  
+*  **[พกพา][3]**  
+*  **[Git Stats][4]**  
+*  **[ใบอนุญาต][5]**  
+*  **[Extensibility][6]**  
+*  **[ความปลอดภัย][7]**  
 
-## ชุมชน   {#community}
-นี่เป็นปัจจัยที่สำคัญที่สุดในขณะที่เลือกใช้โซลูชันโอเพ่นซอร์ส (OSS) มันยากมากที่จะจัดการซอฟต์แวร์หากมีการสนับสนุนไม่เพียงพอ นักพัฒนาส่วนใหญ่มีแนวโน้มที่จะรักษาความน่าเชื่อถือของซอฟต์แวร์ ดังนั้นคุณควรชอบซอฟต์แวร์โอเพ่นซอร์สฟรี **(FOSS)**  ที่มีการสนับสนุนชุมชนที่มีชีวิตชีวาดังนั้นหากมีปัญหาร้ายแรงใด ๆ ที่เกิดขึ้นควรได้รับการแก้ไข
+## ชุมชน {#ชุมชน}
 
-## เอกสาร   {#Documentation}
-สิ่งสำคัญต่อไปในการเลือกแอปพลิเคชันโอเพนซอร์ส ** คือเอกสาร ซอฟต์แวร์โอเพ่นซอร์สส่วนใหญ่ (OSS) มาพร้อมกับเอกสารที่มีรายละเอียดและครอบคลุม อย่างไรก็ตามมันยังไม่เป็นเช่นนั้นกับทุก OSS ซอฟต์แวร์ที่มีเอกสารน้อยลงหรือไม่มีเลยอาจทำให้คุณมีปัญหา บางครั้งนักพัฒนาเขียนคู่มือผู้ใช้ไปยังพื้นที่อื่นนอกเหนือจากไซต์ซอฟต์แวร์ ดังนั้นตรวจสอบให้แน่ใจเสมอว่าคุณได้เลือกใช้ OSS ด้วยเอกสารที่สมบูรณ์
+นี่เป็นปัจจัยที่สำคัญที่สุดในขณะที่เลือกใช้โซลูชันโอเพ่นซอร์ส (OSS) มันยากมากที่จะจัดการซอฟต์แวร์หากมีการสนับสนุนไม่เพียงพอ นักพัฒนาส่วนใหญ่มีแนวโน้มที่จะรักษาความน่าเชื่อถือของซอฟต์แวร์ ดังนั้นคุณควรชอบซอฟต์แวร์โอเพ่นซอร์สฟรี  **(FOSS)**  ที่มีการสนับสนุนชุมชนที่มีชีวิตชีวาดังนั้นหากมีปัญหาร้ายแรงใด ๆ ที่เกิดขึ้นควรได้รับการแก้ไข
 
-## พกพา   {#portability}
-คุณลักษณะนี้มีความสำคัญไม่แพ้กันเช่นเดียวกับเอกสารอื่น ๆ ความปลอดภัยและอื่น ๆ คุณต้องตรวจสอบให้แน่ใจว่า **โอเพ่นซอร์สซอฟต์แวร์ (OSS)  **เป็นแบบพกพาและเป็นมิตรกับสิ่งแวดล้อม มันถูกตั้งค่าโฮสต์ได้อย่างง่ายดายและมาพร้อมกับไฟล์ซอร์สโค้ดที่สมบูรณ์ การพกพาไม่มีส่วนเกี่ยวข้องกับตัวติดตั้ง แต่เป็นไฟล์ซอฟต์แวร์ **  ซอฟต์แวร์โฮสต์ตนเอง**  ช่วยให้นักพัฒนาสามารถควบคุมการพัฒนาสถานะการผลิตและความปลอดภัยได้อย่างสมบูรณ์
+## เอกสาร {#เอกสาร}
 
-สถิติ ## git  {#git-stats}
+สิ่งสำคัญต่อไปในการเลือกแอปพลิเคชันโอเพนซอร์ส**คือเอกสาร ซอฟต์แวร์โอเพ่นซอร์สส่วนใหญ่ (OSS) มาพร้อมกับเอกสารที่มีรายละเอียดและครอบคลุม อย่างไรก็ตามมันยังไม่เป็นเช่นนั้นกับทุก OSS ซอฟต์แวร์ที่มีเอกสารน้อยลงหรือไม่มีเลยอาจทำให้คุณมีปัญหา บางครั้งนักพัฒนาเขียนคู่มือผู้ใช้ไปยังพื้นที่อื่นนอกเหนือจากไซต์ซอฟต์แวร์ ดังนั้นตรวจสอบให้แน่ใจเสมอว่าคุณได้เลือกใช้ OSS ด้วยเอกสารที่สมบูรณ์
+
+## การพกพาได้ {#การพกพาได้}
+
+คุณลักษณะนี้มีความสำคัญไม่แพ้กันเช่นเดียวกับเอกสารอื่น ๆ ความปลอดภัยและอื่น ๆ คุณต้องตรวจสอบให้แน่ใจว่า  **โอเพ่นซอร์สซอฟต์แวร์ (OSS)** เป็นแบบพกพาและเป็นมิตรกับสิ่งแวดล้อม มันถูกตั้งค่าโฮสต์ได้อย่างง่ายดายและมาพร้อมกับไฟล์ซอร์สโค้ดที่สมบูรณ์ การพกพาไม่มีส่วนเกี่ยวข้องกับตัวติดตั้ง แต่เป็นไฟล์ซอฟต์แวร์ **ซอฟต์แวร์โฮสต์ตนเอง**  ช่วยให้นักพัฒนาสามารถควบคุมการพัฒนาสถานะการผลิตและความปลอดภัยได้อย่างสมบูรณ์
+
+## สถิติ Git {#Git-Stats}
+
 มันเป็นกิจกรรมพื้นฐาน แต่สำคัญมากก่อนที่จะเลือกซอฟต์แวร์ฟรี ตรวจสอบ GIT repo ของผลิตภัณฑ์เฉพาะอย่างถี่ถ้วน มันมีจำนวนส้อมดาวและสถิติอื่น ๆ ที่แสดงความนิยมของเครื่องมือโอเพนซอร์ส นอกจากนี้ตรวจสอบส่วนปัญหาของ GIT repo เพื่อให้แน่ใจว่าไม่มีปัญหาร้ายแรงใด ๆ ที่แนบมากับแอปพลิเคชันโอเพนซอร์สนี้
 
-## ใบอนุญาต   {#licensing}
+## การออกใบอนุญาต {#การออกใบอนุญาต}
+
 ปัจจัยนี้หลีกเลี่ยงไม่ได้เมื่อต้องเลือกซอฟต์แวร์โอเพนซอร์สฟรี (FOSS) ในขณะที่สำรวจสถิติ repo git ให้ตรวจสอบใบอนุญาตของผลิตภัณฑ์เกี่ยวกับการอนุญาต ผ่านข้อกำหนดและเงื่อนไขที่เขียนเกี่ยวกับการใช้งานการพัฒนาและการกระจายของ OSS ใบอนุญาตบางใบเป็นโอเพ่นซอร์ส แต่ไม่ฟรี ดังนั้นคุณต้องเลือกซอฟต์แวร์ฟรีที่โอเพ่นซอร์สและฟรี
 
-## Extensibility   {#extensibility}
+## ความสามารถในการขยายได้ {#ความสามารถในการขยายได้}
+
 เหตุผลที่ยิ่งใหญ่ที่สุดที่อยู่เบื้องหลังการเลือกใช้เครื่องมือโอเพนซอร์สคือธรรมชาติที่ขยายได้ ซอฟต์แวร์ฟรีจะต้องกำหนดค่าได้ปรับขนาดได้และขยายง่าย ชุมชนโอเพ่นซอร์สเป็นวิธีที่ดีที่สุดในการทำให้ซอฟต์แวร์มีความยืดหยุ่นเกี่ยวกับทุกด้านเพื่อให้ผู้ใช้ไม่ได้รับความตื่นตระหนกในเวลาที่มีการแก้ไขหรือเพิ่มฟังก์ชั่นใหม่ นอกจากนี้ผู้ใช้สามารถค้นหาปลั๊กอินจำนวนมาก REST APIs ที่เปิดเผยโดยเครื่องมือโอเพ่นซอร์สยอดนิยมส่วนใหญ่เช่นซอฟต์แวร์การจัดการเนื้อหา S, ซอฟต์แวร์บล็อกการพัฒนาแอปพลิเคชันที่รวดเร็วและอื่น ๆ อีกมากมาย
 
-## ความปลอดภัย   {#Security}
+## ความปลอดภัย {#ความปลอดภัย}
+
 สุดท้าย แต่ไม่ท้ายสุดความปลอดภัยของซอฟต์แวร์ใด ๆ ไม่สามารถลดลงได้ในราคาใด ๆ อย่างไรก็ตามคุณต้องวิเคราะห์สถาปัตยกรรมซอฟต์แวร์อย่างยิ่งเพื่อให้แน่ใจว่าไม่มีการละเมิดความปลอดภัย มันเป็นความเข้าใจผิดในอดีตที่ซอฟต์แวร์โอเพ่นซอร์ส (OSS) มีความเสี่ยงต่อภัยคุกคามภายนอก ดังนั้นจึงไม่ใช่กรณีของเวลาปัจจุบันเนื่องจากวุฒิภาวะและความนิยมเพิ่มขึ้นตามกาลเวลา
 
 ## ความคิดสุดท้าย
-สิ่งนี้นำเราไปสู่จุดสิ้นสุดของโพสต์บล็อกนี้ เราได้ผ่านแนวทางปฏิบัติที่สำคัญที่ควรปฏิบัติตามในขณะที่เลือกซอฟต์แวร์โอเพนซอร์ส **(OSS)  **เราได้เห็นยักษ์ใหญ่ด้านเทคโนโลยีจำนวนมากใช้ซอฟต์แวร์โอเพ่นซอร์สฟรี **  (FOSS)**  เพื่อตอบสนองความต้องการทางธุรกิจ อย่างไรก็ตามสิ่งนี้แพร่หลายบ่งบอกถึงความทนทานและประสิทธิภาพของแอปพลิเคชันโอเพนซอร์ส มีรายการเครื่องมือโอเพ่นซอร์สยาวที่กล่าวถึงในส่วนการสำรวจด้านล่าง ยิ่งกว่านั้นคุณสามารถค้นหา OSS ได้มากมายที่ containerize.com ที่ฟรีโอเพ่นซอร์สและมาพร้อมกับความสามารถในการโฮสต์ตนเอง ฉันขอแนะนำให้คุณเลือกโซลูชันโอเพ่นซอร์สสำหรับธุรกิจของคุณที่ตรงกับความต้องการทางธุรกิจของคุณ
-ในที่สุด [**containerize.com** ][8] กำลังเขียนบทความเกี่ยวกับผลิตภัณฑ์โอเพ่นซอร์สเพิ่มเติม ดังนั้นโปรดติดต่อกลับเพื่ออัปเดตปกติ
+สิ่งนี้นำเราไปสู่จุดสิ้นสุดของโพสต์บล็อกนี้ เราได้ผ่านแนวทางปฏิบัติที่สำคัญที่ควรปฏิบัติตามในขณะที่เลือกซอฟต์แวร์โอเพนซอร์ส  **(OSS)** เราได้เห็นยักษ์ใหญ่ด้านเทคโนโลยีจำนวนมากใช้ซอฟต์แวร์โอเพ่นซอร์สฟรี **(FOSS)**  เพื่อตอบสนองความต้องการทางธุรกิจ อย่างไรก็ตามสิ่งนี้แพร่หลายบ่งบอกถึงความทนทานและประสิทธิภาพของแอปพลิเคชันโอเพนซอร์ส มีรายการเครื่องมือโอเพ่นซอร์สยาวที่กล่าวถึงในส่วนการสำรวจด้านล่าง ยิ่งกว่านั้นคุณสามารถค้นหา OSS ได้มากมายที่ containerize.com ที่ฟรีโอเพ่นซอร์สและมาพร้อมกับความสามารถในการโฮสต์ตนเอง ฉันขอแนะนำให้คุณเลือกโซลูชันโอเพ่นซอร์สสำหรับธุรกิจของคุณที่ตรงกับความต้องการทางธุรกิจของคุณ
+ในที่สุด [  **containerize.com**  ][8] กำลังเขียนบทความเกี่ยวกับผลิตภัณฑ์โอเพ่นซอร์สเพิ่มเติม ดังนั้นโปรดติดต่อกลับเพื่ออัปเดตปกติ
 
 ## สำรวจ
 คุณอาจพบลิงค์ต่อไปนี้ที่เกี่ยวข้อง:
@@ -64,52 +71,53 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
   * [ซอฟต์แวร์แก้ไขวิดีโอ][43], [ระบบการจัดการฐานข้อมูล][44], [ประสิทธิภาพการทำงานของสำนักงาน][45]
   * [ระบบการจัดการการเรียนรู้ (LMS)][46], [ซอฟต์แวร์สำรองและซิงค์][47], [ซอฟต์แวร์นิติวิทยาศาสตร์ดิจิตอล][48]
 
-  
-[1]: #Community
-[2]: #Documentation
-[3]: #Portability
-[4]: #Git-Stats
-[5]: #Licensing
-[6]: #Extensibility
-[7]: #Security
-[8]: https://www.containerize.com/
-[9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
-[10]: https://products.containerize.com/content-management/
-[11]: https://products.containerize.com/blogging/
-[12]: https://products.containerize.com/discussion-forum/
-[13]: https://products.containerize.com/healthcare-technologies/
-[14]: https://products.containerize.com/helpdesk/
-[15]: https://products.containerize.com/marketing-automation/
-[16]: https://products.containerize.com/marketplace/
-[17]: https://products.containerize.com/deployment-tools/
-[18]: https://products.containerize.com/security-testing-tools/
-[19]: https://products.containerize.com/live-chat/
-[20]: https://products.containerize.com/form/
-[21]: https://products.containerize.com/transactional-email/
-[22]: https://products.containerize.com/business-intelligence/
-[23]: https://products.containerize.com/newsletter/
-[24]: https://products.containerize.com/status/
-[25]: https://products.containerize.com/invoicing/
-[26]: https://products.containerize.com/password-management/
-[27]: https://products.containerize.com/message-queue-software/
-[28]: https://products.containerize.com/single-sign-on/
-[29]: https://products.containerize.com/project-management/
-[30]: https://products.containerize.com/rad/
-[31]: https://products.containerize.com/animation-software/
-[32]: https://products.containerize.com/ecommerce/
-[33]: https://products.containerize.com/version-control/
-[34]: https://products.containerize.com/solution-stack/
-[35]: https://products.containerize.com/photo-editing-software/
-[36]: https://products.containerize.com/database-management/
-[37]: https://products.containerize.com/video-conferencing/
-[38]: https://products.containerize.com/blockchain-platforms/
-[39]: https://products.containerize.com/big-data/
-[40]: https://products.containerize.com/cmdb-software/
-[41]: https://products.containerize.com/game-development-software/
-[42]: https://products.containerize.com/erp/
-[43]: https://products.containerize.com/video-editing-software/
-[44]: https://products.containerize.com/database-management-system/
-[45]: https://products.containerize.com/office-productivity/
-[46]: https://products.containerize.com/lms/
-[47]: https://products.containerize.com/backup-and-sync/
-[48]: https://products.containerize.com/digital-forensic-software/
+
+
+ [1]: #Community
+ [2]: #Documentation
+ [3]: #Portability
+ [4]: #Git-Stats
+ [5]: #Licensing
+ [6]: #Extensibility
+ [7]: #Security
+ [8]: https://www.containerize.com/
+ [9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+ [10]: https://products.containerize.com/content-management/
+ [11]: https://products.containerize.com/blogging/
+ [12]: https://products.containerize.com/discussion-forum/
+ [13]: https://products.containerize.com/healthcare-technologies/
+ [14]: https://products.containerize.com/helpdesk/
+ [15]: https://products.containerize.com/marketing-automation/
+ [16]: https://products.containerize.com/marketplace/
+ [17]: https://products.containerize.com/deployment-tools/
+ [18]: https://products.containerize.com/security-testing-tools/
+ [19]: https://products.containerize.com/live-chat/
+ [20]: https://products.containerize.com/form/
+ [21]: https://products.containerize.com/transactional-email/
+ [22]: https://products.containerize.com/business-intelligence/
+ [23]: https://products.containerize.com/newsletter/
+ [24]: https://products.containerize.com/status/
+ [25]: https://products.containerize.com/invoicing/
+ [26]: https://products.containerize.com/password-management/
+ [27]: https://products.containerize.com/message-queue-software/
+ [28]: https://products.containerize.com/single-sign-on/
+ [29]: https://products.containerize.com/project-management/
+ [30]: https://products.containerize.com/rad/
+ [31]: https://products.containerize.com/animation-software/
+ [32]: https://products.containerize.com/ecommerce/
+ [33]: https://products.containerize.com/version-control/
+ [34]: https://products.containerize.com/solution-stack/
+ [35]: https://products.containerize.com/photo-editing-software/
+ [36]: https://products.containerize.com/database-management/
+ [37]: https://products.containerize.com/video-conferencing/
+ [38]: https://products.containerize.com/blockchain-platforms/
+ [39]: https://products.containerize.com/big-data/
+ [40]: https://products.containerize.com/cmdb-software/
+ [41]: https://products.containerize.com/game-development-software/
+ [42]: https://products.containerize.com/erp/
+ [43]: https://products.containerize.com/video-editing-software/
+ [44]: https://products.containerize.com/database-management-system/
+ [45]: https://products.containerize.com/office-productivity/
+ [46]: https://products.containerize.com/lms/
+ [47]: https://products.containerize.com/backup-and-sync/
+ [48]: https://products.containerize.com/digital-forensic-software/

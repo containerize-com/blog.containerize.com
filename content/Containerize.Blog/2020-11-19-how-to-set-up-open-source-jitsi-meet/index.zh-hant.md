@@ -21,11 +21,13 @@ categories: ['Video Conferencing Software']
   * [jitsi符合功能探索][5]
   * [結論][6]
 
-## 簡短介紹Jitsi Meet   {#intro}
+## 簡短介紹Jitsi聚會 {#intro}
+
 [Jitsi Meet][7]是一個完全免費的開源，安全可擴展的視頻協作軟件。它提供了幾個流行的功能，例如帶有完整加密，對以太賽車的支持以及視頻/音頻錄製的多方視頻會議。此WEBRTC兼容軟件使您可以邀請盡可能多的用戶參加視頻會議。
 虛擬會議的興起始於最近，人們認為通過視頻/音頻通話的溝通更有效和協作。最重要的是，這類軟件不僅可以在筆記本電腦/台式機上使用，而且還使參與者可以通過手機面對安全的視頻會議。
 
-## 如何設置Jitsi見面？   {#設置}
+## 如何設置Jitsi見面？ {#setup}
+
 在本節中，我們將進入Jitsi Meet的安裝過程。首先，確保您已經安裝了以下先決條件。
   * [Docker][8]
 安裝Docker後，從此[鏈接][9]下載源代碼的zip文件。
@@ -39,6 +41,7 @@ categories: ['Video Conferencing Software']
 `docker -compose -d`
 
 ## jitsi滿足功能探索 {#features}
+
 這個免費的視頻聊天軟件提供了許多豐富的功能。這是將首先顯示的主頁。
 
 {{< figure align=center src="images/Screenshot-2020-11-14-at-19.15.55_-1024x585.jpg" alt="視頻會議">}}
@@ -65,9 +68,10 @@ Jitsi Meet提供與表情符號的集成聊天。
 
 
 ## 結論 {#con}
+
 在本文中，我們瀏覽了令人驚嘆的遠程通信軟件及其安裝過程。此外，現在是時候選擇最佳解決方案與不斷發展的技術同步業務需求了。最後，[Containerize.com][10]一直在努力擴展視頻會議軟件的列表。因此，請與常規更新的[視頻會議軟件][2]類別保持聯繫。
 
-## 相關產品頁面
+##相關產品頁面
 您可能會發現以下鏈接相關：
   * [Jitsi Meet][7]
   * [BigBlueButton][11]
@@ -75,7 +79,8 @@ Jitsi Meet提供與表情符號的集成聊天。
   * [元素][13]
   * [電線][14]
 
-  
+
+
 [1]: https://blog.containerize.com/video-conferencing-software/video-conferencing-apps-how-it-benefits-your-business/
 [2]: https://products.containerize.com/video-conferencing/
 [3]: #intro

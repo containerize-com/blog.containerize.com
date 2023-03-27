@@ -19,23 +19,26 @@ Osticket هو حل برنامج مكتب مساعدة مفتوح المصدر ع
   * [كيفية إعداد Osticket؟][3]
   * [الخلاصة][4]
 
-## ما هو Osticket؟   {#osticket}
+## ما هو Osticket؟ {#osticket}
+
 يوفر Osticket لوحة تحكم سهلة الاستخدام ومكون للإبلاغ في الوقت الفعلي. يمكن للمستخدمين فقط تسجيل الدخول وإنشاء التذاكر في بضع خطوات سهلة. يمكنهم إنشاء تذاكر عبر موقع الويب الخاص بك أو البريد الإلكتروني أو الهاتف. ثم سيتم حفظ التذاكر الواردة وتعيين الوكلاء. سيحصل الوكلاء على إخطارات البريد الإلكتروني وسيستجيبون للاستفسارات للمساعدة في حل مشكلاتهم. يمكن للعملاء والوكلاء مناقشة التفاصيل والتقدم في قسم التعليقات. يمكن للعملاء تتبع طلباتهم والتقدم عبر بوابة العملاء المضمنة التي يوفرها برنامج مكتب المساعدة عبر الإنترنت.
 
-## إيجابيات وسلبيات Osticket   {#pros}
+## إيجابيات وسلبيات Osticket {#pros}
 
-## ## Pros
+
+#### Pros
   * Osticket سهل الاستخدام للغاية لكل من المستخدمين النهائيين ووكلاء الدعم.
   * مجمعة مع ميزات غنية ، Osticket لديه كل ما تحتاجه دون التعقيد بشكل مفرط.
   * Osticket هو برنامج إدارة التذاكر مفتوح المصدر بالكامل.
   * إنه خفيف الوزن وآمن وموثوق وسهل تثبيت برنامج إدارة مكتب المساعدة.
   * من المرونة تشغيل جميع خوادم الويب الشهيرة بما في ذلك Apache و Nginx و LightTPD و IIS ، إلخ.
 
-## ## سلبيات
+#### سلبيات
   * OSTICKET لا تقدم تفاصيل تحليلات التذاكر وإحصائيات مثل أنظمة مكتب المساعدة المدفوعة الأخرى.
   * واجهة المستخدم بسيطة للغاية وبشكل أساسي بالمقارنة مع أنظمة الدعم الأخرى.
 
-## كيفية تثبيت Osticket؟   {#كيف}
+## كيفية تثبيت Osticket؟ {#how}
+
 اتبع هذه الخطوات لتثبيت Osticket مع Nginx على Ubuntu 18.04 LTS.
   * إنشاء دليل جديد لـ Osticket.
 ```
@@ -149,7 +152,8 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## الخاتمة   {#conclusion}
+## خاتمة {#conclusion}
+
 يعتبر Osticket الأنسب للشركات ذات الميزانية المنخفضة أو الذين يريدون نظام مكتب مساعدة بسيط وليس معقدًا. إنها بسيطة وخفيفة الوزن وموثوقة ومفتوحة المصدر وبرنامج مكتب مساعدة عبر الإنترنت مجاني تمامًا. مما يجعل Osticket بديلاً رائعًا لأنظمة دعم العملاء ذات التكلفة العالية. لمعرفة المزيد حول ميزات Osticket ودليل التثبيت ، يرجى مراجعة البرنامج التعليمي التالي.
 
 ## يستكشف
@@ -159,13 +163,14 @@ chmod 0644 include/ost-config.php
 [كيفية تنفيذ مستأجر متعدد في Osticket][8]
 [أتمتة نظام التذاكر باستخدام WordPress و Osticket][9]
 
-  
-[1]: #osticket
-[2]: #pros
-[3]: #how
-[4]: #conclusion
-[5]: https://products.containerize.com/helpdesk/
-[6]: https://products.containerize.com/helpdesk/osticket
-[7]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
-[8]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
-[9]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+
+ [1]: #osticket
+ [2]: #pros
+ [3]: #how
+ [4]: #conclusion
+ [5]: https://products.containerize.com/helpdesk/
+ [6]: https://products.containerize.com/helpdesk/osticket
+ [7]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
+ [8]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
+ [9]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

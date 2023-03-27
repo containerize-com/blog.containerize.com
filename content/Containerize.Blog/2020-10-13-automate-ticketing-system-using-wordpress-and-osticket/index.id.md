@@ -20,7 +20,8 @@ Osticket adalah sistem tiket helpdesk open-source dan gratis. Pelanggan dapat me
   * [Prosedur Otentikasi][3]
   * [Kesimpulan][4]
 
-Proses integrasi ## :  {#integrasi}
+## Proses Integrasi: {#integration}
+
 Integrasi Osticket dan WordPress membutuhkan formulir kontak di situs WordPress dengan bidang berikut
   1. Bantuan topik
   2. Email
@@ -29,7 +30,8 @@ Integrasi Osticket dan WordPress membutuhkan formulir kontak di situs WordPress 
   5. Pesan
 Formulir kontak harus mengirim email, karena plugin ini mengaitkan fungsi WP_Mail untuk mendapatkan data formulir.
 
-Instalasi plugin ## WordPress:  {#WordPress}
+## Instalasi Plugin WordPress: {#wordpress}
+
   1. Buka dasbor admin dari situs WordPress Anda.
   2. Selanjutnya buka bagian plugin.
   3. Kemudian instal [plugin] ini [5].
@@ -42,20 +44,22 @@ Instalasi plugin ## WordPress:  {#WordPress}
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Integrasi Osticket-WordPress untuk mengotomatiskan sistem tiket">}}
 
 
-Prosedur otentikasi ## :  {#Auth}
+## Prosedur otentikasi: {#auth}
+
 Otentikasi API dilakukan melalui tombol API yang dikonfigurasi di dalam panel admin osticket. Kunci API dihasilkan dan ditautkan ke alamat IP sumber yang diverifikasi terhadap Sumber IP dari permintaan API HTTP. Untuk membuat kunci API
   1. Buka panel admin osticket.
   2. Klik "Kelola".
   3. Buka sub menu “Kunci API”.
   4. Klik “Tambahkan Kunci API Baru”.
   5. Atur "Status" ke Aktif.
-  6. Centang kotak centang "dapat membuat tiket".
+  6. Centang kotak centang “dapat membuat tiket”.
   7. Masukkan alamat IP dari situs WordPress Anda dan tekan "Tambahkan Kunci".
 
 {{< figure align=center src="images/osticket-1024x729.png" alt="Integrasi Osticket-WordPress untuk mengotomatiskan sistem tiket">}}
 
 
-## kesimpulan:   {#conclusion}
+## Kesimpulan: {#conclusion}
+
 Integrasi Osticket-WordPress akan mengotomatiskan proses tiket. Oleh karena itu akan membuat hidup lebih mudah bagi tim pendukung. Pertanyaan di situs web WordPress akan secara otomatis dikonversi menjadi tiket dukungan di Osticket. Sehingga tim pendukung dapat mengelola semua pertanyaan pelanggan dengan lebih mudah dan efisien. Agen pendukung akan diberitahu dengan pemberitahuan email. Oleh karena itu, agen dapat menyelesaikan pertanyaan pelanggan tepat waktu. Bagian komentar tentang Osticket membantu pelanggan dan agen pendukung untuk berkomunikasi secara efektif dan tepat waktu. Ini juga memudahkan manajer untuk melacak kemajuan untuk setiap tiket.
 
 ## Mengeksplorasi:
@@ -64,7 +68,8 @@ Untuk mempelajari lebih lanjut tentang Osticket dan WordPress, silakan periksa h
   * [WordPress - Sumber terbuka gratis dan CMS dan alat blogging yang paling banyak digunakan][8]
   * [Cara Mengatur Perangkat Lunak Meja Bantuan Online Menggunakan Osticket][9]
 
-  
+
+
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

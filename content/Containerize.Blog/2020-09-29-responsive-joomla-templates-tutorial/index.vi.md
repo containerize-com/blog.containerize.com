@@ -15,26 +15,28 @@ categories: ['Content Management']
 
 
 ## Tổng quan
-Một trang web kinh doanh được thiết kế tốt đóng một phần quan trọng để mang và giữ chân khách truy cập bằng cách cho họ dễ dàng điều hướng.**Đầy đủ tính năng của Joomla**tạo điều kiện cho người dùng của mình với một số bố cục đáp ứng và phát triển mẫu Joomla kiểm soát thẩm mỹ của một trang web kinh doanh.
+Một trang web kinh doanh được thiết kế tốt đóng một phần quan trọng để mang và giữ chân khách truy cập bằng cách cho họ dễ dàng điều hướng. **Đầy đủ tính năng của Joomla** tạo điều kiện cho người dùng của mình với một số bố cục đáp ứng và phát triển mẫu Joomla kiểm soát thẩm mỹ của một trang web kinh doanh.
 Trong giai đoạn phát triển, việc đặt các yếu tố thiết kế rất quan trọng để có được:
   * Tính nhất quán
   * Điều hướng dễ dàng
   * Sự đơn giản
   * Khả năng tương thích di động
   * Khả năng đọc
-Đây là các mẫu**Joomla**. Phần mềm nguồn mở này cung cấp để phát triển hoặc sử dụng các bố cục đáp ứng được xác định trước cho tất cả các trang web thay vì viết mã cho từng trang một cách riêng biệt.
+Đây là các mẫu **Joomla** . Phần mềm nguồn mở này cung cấp để phát triển hoặc sử dụng các bố cục đáp ứng được xác định trước cho tất cả các trang web thay vì viết mã cho từng trang một cách riêng biệt.
 Trong bài đăng trên blog này, chúng tôi sẽ tìm hiểu những điều sau đây về cách tạo và thiết lập một mẫu thân thiện với người dùng****trong Joomla.
-* [**Bố cục Joomla là gì?**][2]
-* [**Cách tạo một mẫu đáp ứng đơn giản trong Joomla?**][3]
-* [**Cách cài đặt mẫu Joomla?**][4]
-* [**Kết luận**][5]
+* [ **Bố cục Joomla là gì?** ][2]
+* [ **Cách tạo một mẫu đáp ứng đơn giản trong Joomla?** ][3]
+* [ **Cách cài đặt mẫu Joomla?** ][4]
+* [ **Kết luận** ][5]
 
-## Bố cục Joomla là gì?   {#Gì}
-Joomla cung cấp các mẫu cho mặt trước cũng như cho phần cuối. Nó đi kèm với nhiều mẫu đã sẵn sàng và nó cung cấp cho các nhà phát triển xây dựng**Chủ đề Bootstrap phản hồi miễn phí**theo các trường hợp sử dụng của họ. Có hai loại mẫu trong Joomla.
-* * Mẫu mặt trước:**Liên quan đến người dùng đối mặt với một phần của trang web doanh nghiệp.
-* * Các mẫu back-end:**Các mẫu này được liên kết với logic kinh doanh của một trang web.
+## Bố cục Joomla là gì? {#what}
 
-## Làm thế nào để tạo một mẫu đáp ứng đơn giản trong Joomla?   {#Làm sao}
+Joomla cung cấp các mẫu cho mặt trước cũng như cho phần cuối. Nó đi kèm với nhiều mẫu đã sẵn sàng và nó cung cấp cho các nhà phát triển xây dựng **Chủ đề Bootstrap phản hồi miễn phí** theo các trường hợp sử dụng của họ. Có hai loại mẫu trong Joomla.
+**Mẫu mặt trước:**  Liên quan đến người dùng đối mặt với một phần của trang web doanh nghiệp.
+**Các mẫu back-end:**  Các mẫu này được liên kết với logic kinh doanh của một trang web.
+
+## Làm thế nào để tạo một mẫu đáp ứng đơn giản trong Joomla? {#how}
+
 Trong phần này, chúng tôi sẽ bao gồm các bước của hướng dẫn mẫu Joomla này.
 Trước khi nhảy vào phần này, hãy chắc chắn rằng bạn có sự hiểu biết về những điều sau đây:
   * HTML
@@ -43,29 +45,29 @@ Trước khi nhảy vào phần này, hãy chắc chắn rằng bạn có sự h
   * PHP
 Vì vậy, việc tạo các mẫu tùy chỉnh trong Joomla chưa bao giờ khó khăn và phức tạp như vậy. Tuy nhiên, hãy để bắt đầu tạo mẫu Joomla đầu tiên của chúng tôi.
 
-## **Cấu trúc thư mục thiết lập**
-Trước hết, hãy tạo một thư mục có tên là**myTemplate**bên trong thư mục****.
-Tạo các tệp sau đây bên trong thư mục**MyTemplate**:
-***index.php**: Đây là tệp cốt lõi chứa mã HTML và PHP cho toàn bộ trang mẫu.
-***Templatedetails.xml**: Tệp này chứa dữ liệu meta của mẫu và bắt buộc vì được Joomla chú ý.
-Bây giờ, hãy tạo ba thư mục bên trong thư mục**MyTemplate**với các tên sau:
-***JS**: Thư mục này sẽ chứa tất cả các tệp JavaScript cần thiết cho mẫu
-***CSS**: Tất cả các tệp CSS để tạo kiểu sẽ đi vào thư mục này
-***Hình ảnh**: Hình ảnh được sử dụng bởi mẫu sẽ nằm trong thư mục này
-Tạo một tệp CSS có tên là**Mẫu.css**bên trong thư mục****CSS**.
+## **Cấu trúc thư mục thiết lập** 
+Trước hết, hãy tạo một thư mục có tên là **myTemplate** bên trong thư mục****.
+Tạo các tệp sau đây bên trong thư mục **MyTemplate** :
+* **index.php** : Đây là tệp cốt lõi chứa mã HTML và PHP cho toàn bộ trang mẫu.
+* **Templatedetails.xml** : Tệp này chứa dữ liệu meta của mẫu và bắt buộc vì được Joomla chú ý.
+Bây giờ, hãy tạo ba thư mục bên trong thư mục **MyTemplate** với các tên sau:
+* **JS** : Thư mục này sẽ chứa tất cả các tệp JavaScript cần thiết cho mẫu
+* **CSS** : Tất cả các tệp CSS để tạo kiểu sẽ đi vào thư mục này
+* **Hình ảnh** : Hình ảnh được sử dụng bởi mẫu sẽ nằm trong thư mục này
+Tạo một tệp CSS có tên là **Mẫu.css**bên trong thư mục****CSS** .
 ```
 * mytemplate/
-**css/
+** css/
 *** template.css
-**images/
-**js/
-**index.php
-**templateDetails.xml
+** images/
+** js/
+** index.php
+** templateDetails.xml
 ```
 Cuối cùng, đây là cách cấu trúc thư mục sẽ trông như thế nào.
 
 ## hãy đặt một số mã
-Đặt mã này vào tệp**Templatedetails.xml**.
+Đặt mã này vào tệp **Templatedetails.xml** .
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,11 +103,11 @@ Cuối cùng, đây là cách cấu trúc thư mục sẽ trông như thế nào
 ```
 Như đã đề cập trước đó, tệp này chứa siêu dữ liệu về các bố cục phản hồi được xác định giữa các thẻ đánh dấu. Tuy nhiên, bạn có thể thay đổi thông tin chung như tên, tác giả và mô tả.
 Tệp này cũng chứa thông tin về các tệp và thư mục khác được sử dụng bởi mẫu.
-Bây giờ, hãy mở tệp**index.php**và bắt đầu đặt mã sau:
+Bây giờ, hãy mở tệp **index.php** và bắt đầu đặt mã sau:
 ```
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 ```
-Tệp này sẽ bắt đầu với dòng này để ngăn những người khác đọc mã PHP của bạn.
+Tệp này sẽ bắt đầu với dòng này ngăn chặn những người khác đọc mã PHP của bạn.
 ```
 <!DOCTYPE html>
 ```
@@ -114,7 +116,7 @@ Tệp này sẽ bắt đầu với dòng này để ngăn những người khác
 <html xmlns="http://www.w3.org/1999/xhtml" 
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 ```
-Các tài liệu HTML bắt đầu với dòng này và thuộc tính**XMLNS**cho biết không gian tên XML cho tài liệu.
+Các tài liệu HTML bắt đầu với dòng này và thuộc tính **XMLNS** cho biết không gian tên XML cho tài liệu.
 ```
 <head>
     <jdoc:include type="head" />
@@ -168,8 +170,8 @@ Phần cơ thể bắt đầu sau khi phần đầu chứa tất cả dữ liệ
 ```
 <jdoc:include type="modules" name="position-7" style="well" />
 ```
-Tuyên bố này được gọi là câu lệnh JDOC được sử dụng để hướng dẫn Joomla thêm một mô-đun có tên là Vị trí-7. Có một số câu lệnh JDOC thường được sử dụng trong**Phát triển mẫu Joomla**.
-Đây là tệp hoàn chỉnh cuối cùng**index.php**với tất cả các mã cần thiết cho một mẫu joomla cơ bản.
+Tuyên bố này được gọi là câu lệnh JDOC được sử dụng để hướng dẫn Joomla thêm một mô-đun có tên là Vị trí-7. Có một số câu lệnh JDOC thường được sử dụng trong **Phát triển mẫu Joomla** .
+Đây là tệp hoàn chỉnh cuối cùng **index.php** với tất cả các mã cần thiết cho một mẫu joomla cơ bản.
 ```
 <!DOCTYPE html>
 
@@ -220,7 +222,8 @@ Tuyên bố này được gọi là câu lệnh JDOC được sử dụng để 
 ```
 Mọi thứ được đặt ra cho một mẫu rất cơ bản. Bây giờ, đã đến lúc cài đặt nó trên máy chủ Joomla và xem cách nó tiếp tục.
 
-## Làm thế nào để cài đặt mẫu Joomla?   {#cài đặt}
+## Làm thế nào để cài đặt mẫu Joomla? {#install}
+
 Quá trình cài đặt mẫu Joomla khá thẳng và dễ dàng. Có các bước sau để cài đặt:
 Chuyển đến phần mở rộng của " -> Quản lý -> Cài đặt
 
@@ -237,9 +240,10 @@ Sau khi mẫu được cài đặt, bạn có thể truy cập và sửa đổi 
 
 Bây giờ, bạn có thể xem mẫu Joomla đầu tiên của bạn vào trình duyệt!
 
-## Kết luận   {#conclusion}
-Một mẫu tốt và đáp ứng là nền tảng cho mô hình trang web tổng thể.**Bố cục đáp ứng**Tại Joomla là đa chức năng và có thể được sử dụng cho các dự án khác nhau. Từ việc viết mã đến phát triển mẫu Joomla trở nên rất đơn giản với sự trợ giúp của bảng điều khiển quản trị trực quan. Joomla cung cấp quyền kiểm soát hoàn toàn đối với sự phát triển mẫu để đáp ứng mong muốn của người dùng.
-Vì**Phần mềm CMS**Danh mục đang được cải thiện nhất quán và nhiều hướng dẫn hơn về các hệ thống quản lý nội dung khác sẽ được thêm vào danh sách, vui lòng giữ liên lạc với phần [Hệ thống quản lý nội dung][6] để cập nhật thường xuyên.
+## Phần kết luận {#Phần kết luận}
+
+Một mẫu tốt và đáp ứng là nền tảng cho mô hình trang web tổng thể. **Bố cục đáp ứng** Tại Joomla là đa chức năng và có thể được sử dụng cho các dự án khác nhau. Từ việc viết mã đến phát triển mẫu Joomla trở nên rất đơn giản với sự trợ giúp của bảng điều khiển quản trị trực quan. Joomla cung cấp quyền kiểm soát hoàn toàn đối với sự phát triển mẫu để đáp ứng mong muốn của người dùng.
+Vì **Phần mềm CMS** Danh mục đang được cải thiện nhất quán và nhiều hướng dẫn hơn về các hệ thống quản lý nội dung khác sẽ được thêm vào danh sách, vui lòng giữ liên lạc với phần [Hệ thống quản lý nội dung][6] để cập nhật thường xuyên.
 
 ## trang sản phẩm có liên quan
 Bạn có thể tìm thấy các liên kết sau có liên quan:
@@ -256,7 +260,8 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Nhà máy lọc dầu CMS][16]
   * [Locomotivecms][17]
 
-  
+
+
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

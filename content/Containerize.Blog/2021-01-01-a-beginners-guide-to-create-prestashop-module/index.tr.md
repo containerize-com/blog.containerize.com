@@ -1,6 +1,6 @@
 ---
-title: "Prestashop modülü oluşturmak için yeni başlayanlar rehberi" 
-seoTitle: "Prestashop modülü oluşturmak için yeni başlayanlar rehberi" 
+title: "Prestashop Modülü Oluşturmak İçin Yeni Başlayanlar Kılavuzu" 
+seoTitle: "Prestashop Modülü Oluşturmak İçin Yeni Başlayanlar Kılavuzu" 
 description: "Prestashop, çevrimiçi mağaza kurmak için verimli ve uygun maliyetli bir açık kaynak e -ticaret yazılımıdır. Prestashop eklentileri, işlevselliği genişletmek için sahiplerinin depolanmasına yardımcı olur." 
 date: Fri, 01 Jan 2021 21:45:49 +0000
 author: Masood Anwer
@@ -13,28 +13,31 @@ categories: ['Shopping Cart Software']
 
 {{< figure align=center src="images/prestashop-module.png" alt="Prestashop modülü">}}
 
- **Prestashop ** % 100 ücretsiz ve açık kaynak olan e -ticaret yazılımıdır. Bu, mağaza sahiplerinin çevrimiçi varlıklarını kolayca kurmalarını ve işleri geniş bir ölçekte ölçeklendirmelerini sağlar. Prestashop varsayılan özelliklerle birlikte gelir ve iş gereksinimleriniz için zaman zaman daha fazla işlevselliğe ihtiyacınız olabilir. Prestashop için pazar, mağaza işlevselliğini genişletmek için kullanılabilecek eklenti özellikleri bulmak için harika bir yerdir. Ayrıca, hem ücretsiz hem de ücretli modülleri Marketplace'de bulabilirsiniz. Ancak, sıfırdan da özel modül oluşturabilirsiniz.
- **Prestashop modülü oluşturma **  için aşağıdaki konuları ayrıntılı olarak tartışacağız.
+**Prestashop** % 100 ücretsiz ve açık kaynak olan e -ticaret yazılımıdır. Bu, mağaza sahiplerinin çevrimiçi varlıklarını kolayca kurmalarını ve işleri geniş bir ölçekte ölçeklendirmelerini sağlar. Prestashop varsayılan özelliklerle birlikte gelir ve iş gereksinimleriniz için zaman zaman daha fazla işlevselliğe ihtiyacınız olabilir. Prestashop için pazar, mağaza işlevselliğini genişletmek için kullanılabilecek eklenti özellikleri bulmak için harika bir yerdir. Ayrıca, hem ücretsiz hem de ücretli modülleri Marketplace'de bulabilirsiniz. Ancak, sıfırdan da özel modül oluşturabilirsiniz.
+**Prestashop modülü oluşturma** için aşağıdaki konuları ayrıntılı olarak tartışacağız.
   * [Gereksinimler][1]
   * [Modül Gelişiminin Temelleri][2]
   * [Prestashop modülümüzü oluştur][3]
   * [Sonuç][4]
 
-## Gereksinimler   {#req}
+## Gereksinimler {#Req}
+
   * Prestashop 1.6 veya daha yüksek yükleyin.
   * Prestashop'a aşina.
   * PHP'nin anlaşılması.
 
-## Modül Geliştirme Temelleri   {#basics}
-Kodlamaya başlamadan önce,  **prestashop modül geliştirme **  için temel kavramları bilmek gerçekten önemlidir. Modülünüzü hızlı bir şekilde oluşturmanıza ve yönetmenize izin verecektir.
- **Yapılandırma **  - Yapılandırma, modüle özgü bir tablo gerektirmeden mağaza veritabanına veri kaydetmenizi sağlar. Yapılandırma tablosu, her yerden erişilebilen anahtar değer özelliklerinin bir listesini içerir.
- **Hooks **  - Kancalar, belirli bir prestashop etkinliğini kodunuza bağlamanın bir yoludur. Kodunuzu sayfalara yerleştirmek ve belirli bir etkinliğe e -posta göndermek gibi belirli işlemler için kancaları kullanabilirsiniz.
- **Widget'lar **  - Modül geliştiricileri, gerektiğinde içeriği görüntülemek için widget'ları kullanır.
- **Doktrin **  - Doktrin ORM, veritabanı verilerinizi nesneler aracılığıyla yönetmenizi sağlar. Bu, basit çağrı ile ekleme/güncelleme eylemleri gerçekleştirmenizi sağlayan soyut bir katman sağlar.
+## Modül Gelişiminin Temelleri {#Basics}
 
-## Prestashop modülümüzü oluştur   {#create}
-  *Prestashop kurulumunuzun  **Modüller **  dizininde  **MyFirstModule **  adlı modül dizini oluşturun. Tüm dosyaları modül dizininize yerleştirin.
-  *Adlı ana dosya oluşturun  **myfirstmodule.php **  ve içindeki aşağıdaki kodu kopyalayın.
+Kodlamaya başlamadan önce, **prestashop modül geliştirme** için temel kavramları bilmek gerçekten önemlidir. Modülünüzü hızlı bir şekilde oluşturmanıza ve yönetmenize izin verecektir.
+**Yapılandırma** - Yapılandırma, modüle özgü bir tablo gerektirmeden mağaza veritabanına veri kaydetmenizi sağlar. Yapılandırma tablosu, her yerden erişilebilen anahtar değer özelliklerinin bir listesini içerir.
+**Hooks** - Kancalar, belirli bir prestashop etkinliğini kodunuza bağlamanın bir yoludur. Kodunuzu sayfalara yerleştirmek ve belirli bir etkinliğe e -posta göndermek gibi belirli işlemler için kancaları kullanabilirsiniz.
+**Widget'lar** - Modül geliştiricileri, gerektiğinde içeriği görüntülemek için widget'ları kullanır.
+**Doktrin** - Doktrin ORM, veritabanı verilerinizi nesneler aracılığıyla yönetmenizi sağlar. Bu, basit çağrı ile ekleme/güncelleme eylemleri gerçekleştirmenizi sağlayan soyut bir katman sağlar.
+
+## Prestashop Modülümüzü Oluşturun {#Create}
+
+* Prestashop kurulumunuzun **Modüller**dizininde**MyFirstModule** adlı modül dizini oluşturun. Tüm dosyaları modül dizininize yerleştirin.
+* Adlı ana dosya oluşturun **myfirstmodule.php** ve içindeki aşağıdaki kodu kopyalayın.
 ```
 <?php
 if (!defined('_PS_VERSION_'))
@@ -64,7 +67,7 @@ class MyFirstModule extends Module
   }
 }
 ```
-  *Create  **install () **  ve  **kaldırma () **  Yöntemler. Aşağıdaki yöntemleri  **myfirstmodule.php **  dosyasına ekleyin.
+* Create **install ()**ve **kaldırma ()** Yöntemler. Aşağıdaki yöntemleri**myfirstmodule.php** dosyasına ekleyin.
 ```
 public function install()
 {
@@ -81,7 +84,7 @@ public function uninstall()
   return true;
 }
 ```
-  * Kayıtlı kancalarımızı etkinleştirmek için özel yöntemleri arayın. Bu yöntemleri “Merhaba Dünya!” Diye görüntülemek için kullanacağız. Kenar çubuklarına metin. Aşağıdaki kodu  **myfirstmodule.php **  dosyasına ekleyin.
+  * Kayıtlı kancalarımızı etkinleştirmek için özel yöntemleri arayın. Bu yöntemleri “Merhaba Dünya!” Diye görüntülemek için kullanacağız. Kenar çubuklarına metin. Aşağıdaki kodu **myfirstmodule.php** dosyasına ekleyin.
 ```
 public function hookLeftColumn($params)
 {
@@ -93,17 +96,19 @@ public function hookRightColumn($params)
    return $this->hookLeftColumn($params);
 }
 ```
-  *Son olarak, Yönetici bölümünü açın, yükleyin ve  **Prestashop modülünü yükleyin ** .
+* Son olarak, yönetici bölümünü açın, yükleyin ve **prestashop modülünü yükleyin** .
 
-## Sonuç   {#Conclusion}
-Bu öğreticide  **prestashop modülünü **  inşa etmek için temel kavramları tartıştık. Ayrıca, daha fazla ileri modül için başlangıç ​​noktası olarak kullanılabilecek temel modül geliştirdik. [Containerize.com][5] sürekli olarak yeni öğretici blog yayınları üzerinde çalışıyor. En son güncellemeler için lütfen [alışveriş sepeti yazılımı][6] kategorisiyle iletişim halinde olun.
+## Çözüm {#Çözüm}
+
+Bu öğreticide **prestashop modülünü** inşa etmek için temel kavramları tartıştık. Ayrıca, daha fazla ileri modül için başlangıç ​​noktası olarak kullanılabilecek temel modül geliştirdik. [Containerize.com][5] sürekli olarak yeni öğretici blog yayınları üzerinde çalışıyor. En son güncellemeler için lütfen [alışveriş sepeti yazılımı][6] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
-Aşağıdaki bağlantıları  **Prestashop Modülü Oluşturma Eğitimi **  'na ek olarak yararlı bulabilirsiniz.
+Aşağıdaki bağlantıları **Prestashop Modülü Oluşturma Eğitimi** 'na ek olarak yararlı bulabilirsiniz.
   * [Prestashop - Ücretsiz Alışveriş Sepeti Yazılımı][7]
   * [2020'de Top 5 Açık Kaynak Alışveriş Sepeti Yazılımı][8]
 
-  
+
+
 [1]: #Req
 [2]: #Basics
 [3]: #Create

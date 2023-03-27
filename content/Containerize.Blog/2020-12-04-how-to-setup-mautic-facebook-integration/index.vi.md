@@ -20,7 +20,8 @@ Chúng tôi sẽ bao gồm các phần sau trong hướng dẫn này:
   * [Cấu hình plugin Maitic][3]
   * [Kết luận][4]
 
-## Cấu hình tài khoản nhà phát triển Facebook   {#account}
+## Định cấu hình tài khoản nhà phát triển Facebook {#account}
+
   * Truy cập [Facebook cho các nhà phát triển][5]
   * Đăng ký tài khoản của bạn nếu bạn không có.
   * Để đăng ký một tài khoản mới, hãy truy cập và nhấp vào trên Get Get bắt đầu từ góc trên bên phải.
@@ -30,7 +31,8 @@ Chúng tôi sẽ bao gồm các phần sau trong hướng dẫn này:
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Maitic - Tích hợp Facebook - Tài khoản nhà phát triển đăng ký">}}
 
 
-## Cấu hình ứng dụng của nhà phát triển Facebook   {#App}
+## Định cấu hình ứng dụng nhà phát triển Facebook {#app}
+
   * Nhấp vào "Tạo ứng dụng đầu tiên"
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Tích hợp Facebook - Tạo ứng dụng đầu tiên">}}
@@ -49,7 +51,7 @@ Chúng tôi sẽ bao gồm các phần sau trong hướng dẫn này:
 
   * Từ menu bên trái, nhấp vào Cài đặt trực tuyến trong các sản phẩm -> Đăng nhập Facebook.
 
-{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Login-1024x621.png" alt="MAUTIC - Tích hợp Facebook - Định cấu hình đăng nhập FB">}}
+{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Login-1024x621.png" alt="MAUTIC - Tích hợp Facebook - Cấu hình đăng nhập FB">}}
 
   * Nhập URL trang web Mautic của bạn. Đặt ứng dụng khách OAuth đăng nhập và đăng nhập Web OAuth đăng nhập thành
   * Bây giờ đi đến Cài đặt -> Cài đặt cơ bản. Từ dưới cùng của trang, nhấp vào nút+ Thêm nút nền tảng. Sau đó, một cửa sổ bật lên sẽ mở. Nhập URL trang web của bạn và lưu các thay đổi.
@@ -57,7 +59,8 @@ Chúng tôi sẽ bao gồm các phần sau trong hướng dẫn này:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Tích hợp Facebook - Thêm trang web làm nền tảng">}}
 
 
-## Cấu hình plugin Mautic   {#configuration}
+## Cấu hình plugin Maitic {#configuration}
+
   * Đi đến bảng điều khiển Mautic.
   * Sau đó, chuyển sang các cài đặt trên mạng từ góc trên cùng bên phải.
   * Nhấp vào plugin plugin.
@@ -72,7 +75,8 @@ Chúng tôi sẽ bao gồm các phần sau trong hướng dẫn này:
   * Tại đây bạn có thể ánh xạ các trường liên hệ của mình đến các trường Facebook.
   * Cuối cùng, xuất bản các cài đặt và bạn tốt để đi.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 MAINTIC - Tích hợp Facebook có thể giúp đồng bộ hóa các dẫn đầu trên Facebook của bạn vào hệ thống Maitic mà không gặp khó khăn gì. Trong ứng dụng Maitic, bạn có thể thêm tất cả các khách hàng tiềm năng này vào một phân đoạn. Bạn có thể chạy các chiến dịch tiếp thị qua email trên chúng. Điều này thực sự có thể giúp doanh nghiệp của bạn phát triển, tiếp thị và bán sản phẩm/dịch vụ cho đối tượng mục tiêu lớn hơn nhiều.
 
 ## Khám phá
@@ -83,7 +87,8 @@ MAINTIC - Tích hợp Facebook có thể giúp đồng bộ hóa các dẫn đ�
   * [Tự động hóa tiếp thị với tích hợp Maitic và WooC Commerce][9]
   * [Tích hợp Mautic & Joomla cho tự động hóa tiếp thị kỹ thuật số][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

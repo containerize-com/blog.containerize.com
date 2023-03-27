@@ -14,12 +14,13 @@ categories: ['Web Server Solution Stack']
 {{< figure align=center src="images/htaccess-rewrite-rules-to-nginx-location-directives.png" alt="Chuyển đổi .htaccess Viết lại các quy tắc sang Nginx Chỉ thị">}}
 
 Trong hướng dẫn cuối cùng của chúng tôi, chúng tôi đã học [cách cài đặt nhiều phiên bản PHP với NGINX trên Ubuntu][1]. Apache là một trong những webserver phổ biến nhất nhưng gần đây, Nginx đã tự mình trở thành đối thủ cạnh tranh với Apache. Nhưng Nginx không hỗ trợ các quy tắc viết lại HTACCESS. Vì vậy, trong bài viết này, chúng tôi sẽ học cách chuyển đổi các quy tắc viết lại HTACCESS sang Nginx viết lại các chỉ thị. Bắt đầu nào!
-  * **[Nginx viết lại quy tắc][2]**
-  *[**. Htaccess viết lại các quy tắc**][3]
-  *[ **Chuyển đổi .htaccess Viết lại các quy tắc sang Nginx Viết lại Chỉ thị** ][4]
-  *[ **Kết luận** ][5]
+*  **[Nginx viết lại quy tắc][2]**  
+* [  **. Htaccess viết lại các quy tắc**  ][3]
+* [  **Chuyển đổi .htaccess Viết lại các quy tắc sang Nginx Viết lại Chỉ thị**  ][4]
+* [  **Kết luận**  ][5]
 
-## nginx viết lại quy tắc   {#nginx}
+## Nginx viết lại các quy tắc {#nginx}
+
 Viết lại các quy tắc thay đổi phần hoặc tất cả URL trong yêu cầu của khách hàng, thường là để thông báo cho khách hàng rằng tài nguyên mà họ yêu cầu hiện đang cư trú tại một vị trí khác hoặc để kiểm soát luồng xử lý trong Nginx. Ví dụ: để chuyển tiếp các yêu cầu đến một máy chủ ứng dụng khi nội dung cần được tạo động. Chỉ thị Try_Files thường được sử dụng cho mục đích này.
 Hai chỉ thị cho bản viết lại nginx đa năng là _return_ và _rewrite_, và Chỉ thị _Try_Files_ là một cách tiện dụng để trực tiếp yêu cầu đến máy chủ ứng dụng.
 Chỉ thị trả lại là đơn giản hơn trong hai chỉ thị đa năng. Bạn gửi lại lợi nhuận trong bối cảnh máy chủ hoặc vị trí.
@@ -44,7 +45,8 @@ server {
 }
 ```
 
-## .htaccess viết lại các quy tắc   {#Apache}
+## .htaccess viết lại các quy tắc {#apache}
+
 Tệp .htaccess kiểm soát một số cách mà một trang web có thể được truy cập, chặn và chuyển hướng. Nó thực hiện điều này bằng cách sử dụng một loạt một hoặc nhiều .htaccess viết lại các quy tắc. Các bản viết lại này được thực hiện bởi mô -đun Apache Mod Mod_rewrite.
 MOD_REWRITE cung cấp một cách để sửa đổi các yêu cầu URL đến, một cách linh hoạt, dựa trên các quy tắc biểu thức thông thường. Điều này cho phép bạn ánh xạ bất kỳ URL nào lên cấu trúc URL nội bộ của bạn theo bất kỳ cách nào bạn muốn. Điều này cũng được sử dụng để làm cho các URL bên ngoài của bạn sạch sẽ và sau đó ánh xạ chúng lên các URL nội bộ trông xấu xí.
 Ví dụ: sau đây .htaccess viết lại quy tắc làm lại một URL không www thành URL www.
@@ -54,7 +56,8 @@ RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
 RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
 ```
 
-## Chuyển đổi .htaccess viết lại các quy tắc thành nginx viết lại các chỉ thị   {#convert}
+## Chuyển đổi .htaccess Viết lại các quy tắc thành Nginx Viết lại Chỉ thị {#convert}
+
 Như chúng tôi đã trình bày trong ví dụ của chúng tôi ở trên để chuyển hướng URL không phải WWW sang URL WWW, hãy để Lừa chuyển đổi quy tắc viết lại .htaccess thành Chỉ thị Vinx.
 ```
 server {
@@ -82,7 +85,7 @@ server {
 }
 ```
 Để rõ ràng hơn, hãy để chuyển đổi các quy tắc HTACCess WordPress thành Chỉ thị nginx Try_Files.
-[WordPress.org phân phối][6] Một mặc định cơ bản **. Htaccess** với các tệp sau. HTAccess viết lại các quy tắc cho phép PromaLinks khá:
+[WordPress.org phân phối][6] Một mặc định cơ bản  **. Htaccess**  với các tệp sau. HTAccess viết lại các quy tắc cho phép PromaLinks khá:
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -93,25 +96,27 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 ```
-Tại đây, chỉ thị nginx try_files đã chuyển đổi
+Ở đây, chỉ thị nginx try_files đã chuyển đổi
 ```
 location / {
     try_files $uri $uri/ /index.php?$args;
 }
 ```
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Trong hướng dẫn này, chúng tôi đã khám phá các quy tắc viết lại của Apache .htaccess và cách chúng tôi có thể chuyển đổi các quy tắc .htaccess viết lại các quy tắc thành các chỉ thị nginx viết lại. Chúng tôi tiếp tục khám phá các chỉ thị nginx khác nhau có thể được sử dụng để viết lại các URL. Chúng tôi cũng đã đưa ra các quy tắc viết ví dụ cho cả Nginx và Apache. Hy vọng hướng dẫn là hữu ích cho bạn.
 
 ## Khám phá
   * [Cách cài đặt nhiều phiên bản PHP với NGINX trên Ubuntu][1]
   * [Cách thiết lập và định cấu hình Nginx dưới dạng proxy ngược][7]
 
-  
-[1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
-[2]: #nginx
-[3]: #apache
-[4]: #convert
-[5]: #conclusion
-[6]: https://codex.wordpress.org/htaccess
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+
+
+ [1]: https://blog.containerize.com/web-server-solution-stack/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
+ [2]: #nginx
+ [3]: #apache
+ [4]: #convert
+ [5]: #conclusion
+ [6]: https://codex.wordpress.org/htaccess
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/

@@ -9,29 +9,31 @@ url: /zh-hant/how-to-setup-consensys-quorum-blockchain-network-locally/
 categories: ['Blockchain Platforms']
 ---
 
-## 建立自己的公共/私人區塊鍊網絡，以管理和監視業務數字交易。讓我們學習如何在Localhost上設置COSSENSYS QUORUM。
+##建立自己的公共/私人區塊鍊網絡，以管理和監視業務數字交易。讓我們學習如何在Localhost上設置COSSENSYS QUORUM。
 
 {{< figure align=center src="images/quorum.png" alt="共識法規">}}
 
 
 ## 概述
 在最近的過去，我們發表了有關區塊鏈相關主題的博客文章，例如[2020年的前5個開源區塊鏈平台][1]，[關於如何創建以太坊智能合約的基本指南][2]技術升級了您的業務策略][3]和[在Localhost上設置以太坊節點的初學者指南][4]。在本文中，我們將通過涵蓋以下幾點來查看如何在Localhost上設置Consensys Quorum區塊鍊網絡。
-  * **[簡要介紹共識Quorum][5]**
-  * **[前提條件和**安裝過程**？][6]**
-  * **[如何啟動網絡？][7]**
-  * **[結論][8]**
+* **[簡要介紹共識Quorum][5]** 
+* **[前提條件和**安裝過程**？][6]** 
+* **[如何啟動網絡？][7]** 
+* **[結論][8]** 
 
-## **簡要介紹共識Quorum**   {#indroduction}
-[Consensys Quorum][9]是基於**分散分類帳技術**的開源平台。但是，它提供了一個完全易於開發的環境，可以構建基於區塊鏈的應用程序，以處理快速和高通量交易。它是基於以太坊**，可擴展的，並提供許多插件。此外，此開源分佈式系統具有高安全性和隱私標準。此外，還有許多強大的功能，例如許可API和監視。此外，這個 **DLT平台** 是自託管的，並提供了有關開發和部署的詳細文檔。該免費軟件的源代碼可在[GitHub][10]上獲得。
+## **簡短介紹共識法規** {#Introduction}
+
+[Consensys Quorum][9]是基於 **分散分類帳技術**的開源平台。但是，它提供了一個完全易於開發的環境，可以構建基於區塊鏈的應用程序，以處理快速和高通量交易。它是基於以太坊**，可擴展的，並提供許多插件。此外，此開源分佈式系統具有高安全性和隱私標準。此外，還有許多強大的功能，例如許可API和監視。此外，這個** DLT平台**是自託管的，並提供了有關開發和部署的詳細文檔。該免費軟件的源代碼可在[GitHub][10]上獲得。
 Consensys Quorum提供以下重要功能：
-  *可容納的建築
-  *基於以太坊
+* 可容納的建築
+* 基於以太坊
   * 安全的
-  *自我託管
-  *公共/私人網絡
+* 自我託管
+* 公共/私人網絡
 [了解有關共識法規的更多信息][11]
 
-## ****有哪些先決條件和安裝過程？****   {#前提條件}
+##* ***有什麼先決條件和安裝程序？****{#pre-requisites}
+
 在本節中，我們將安裝所需的依賴項並設置本地環境。在進入下一步之前，請確保已安裝以下先決條件：
   * nodejs v10+
   * Docker
@@ -45,7 +47,8 @@ npx quorum-dev-quickstart
 {{< figure align=center src="images/Screenshot-2021-04-30-at-03.32.07-1024x677.png" alt="共識法規">}}
 
 
-## ****如何啟動網絡？****   {#start}
+##* ***如何啟動網絡？****{#start}
+
 現在，我們已經制定了源代碼。因此，下一步是使網絡實時。
 運行以下命令進入根目錄。
 ```
@@ -72,7 +75,8 @@ http://localhost:25000
 ./stop.sh 
 ```
 
-## 結論 {#conclusion}
+## 結論 {#結論}
+
 這是本教程的結尾。最重要的是，以太坊的共識群體是一項專門用於財務用例的數字金融技術**。它具有基於投票的共識算法。但是，這項分散技術的主要動機是為企業建立有效的解決方案。
 最後，[containerize.com][12]在[blog.containerize.com][13]上發表了許多有關流行開源產品的技術博客文章和教程。因此，請堅持[區塊鏈平台][14]類別以進行常規更新。
 
@@ -85,7 +89,8 @@ http://localhost:25000
   * [Multichain][19]
   * [共識法規][9]
 
-  
+
+
 [1]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [2]: https://blog.containerize.com/
 [3]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/

@@ -17,27 +17,30 @@ categories: ['Healthcare Software']
 ## Ringkasan
 Kami baru -baru ini menerbitkan posting blog tentang [bagaimana perangkat lunak layanan kesehatan online memberdayakan industri kesehatan][1] yang menggambarkan dampak sistem manajemen rumah sakit open source pada industri perawatan kesehatan. Industri perangkat lunak perawatan kesehatan global mendapatkan nilai dengan berlalunya waktu. Faktanya adalah bahwa teknologi telah mengubah setiap bidang kehidupan. Jumlah pasien dan anggota staf hilang begitu tinggi sehingga telah merepotkan untuk mengelola data yang begitu besar. Di sisi lain, ada banyak tugas yang memakan waktu yang terjadi setiap hari dan entitas perawatan kesehatan berulang kali melakukan tugas-tugas itu. Oleh karena itu, komunitas sumber open-source telah mengembangkan perangkat lunak medis open source yang datang dengan banyak modul bermanfaat untuk memenuhi kebutuhan perawatan kesehatan.
 Perangkat lunak medis open-source dikembangkan untuk mengelola catatan pasien mengenai riwayat medis mereka serta ketentuan untuk manajemen rumah sakit. Selain itu, perangkat lunak layanan kesehatan open source memanfaatkan kecerdasan buatan untuk memberikan tingkat layanan lanjutan. Sebagian besar perawatan penyakit sekarang sedang ditangani oleh perangkat lunak yang tidak hanya mendiagnosis masalah tetapi juga memberikan bantuan dalam penyembuhan. Namun, ada banyak perangkat lunak yang muncul untuk rumah sakit. Dalam posting blog ini, kami akan membahas poin -poin berikut.
-  *[**Apa itu HospitalRun?** ][2]
-  *[**Apa saja fitur HospitalRun** ][3]
-  *[**Langkah instalasi rumah sakit?** ][4]
-  *[**Kesimpulan** ][5]
+* [ **Apa itu HospitalRun?** ][2]
+* [ **Apa saja fitur HospitalRun** ][3]
+* [ **Langkah instalasi rumah sakit?** ][4]
+* [ **Kesimpulan** ][5]
 
-## Apa itu HospitalRun?   {#intro}
+## Apa itu HospitalRun? {#intro}
+
 HospitalRun adalah sistem manajemen informasi rumah sakit open-source gratis. Solusi perawatan kesehatan gratis ini ramah lingkungan karena pengguna dapat memanfaatkan sepenuhnya perangkat lunak gratis ini bahkan jika tidak ada konektivitas internet. Ini menyediakan banyak fitur seperti manajemen pengguna, pendaftaran pasien, janji temu, sistem penagihan, sistem pelepasan pasien, dan banyak lagi. Antarmuka pengguna sistem eHealth open source ini adalah logis di mana pengguna dapat menavigasi melalui berbagai elemen dengan mudah. Selain itu, mudah diatur dan menawarkan gambar Docker di mana pengembang dapat menggunakannya menggunakan gambar Docker.
-Sistem manajemen rumah sakit **ini**  menawarkan ketentuan untuk mengintegrasikan laboratorium untuk memusatkan catatan medis pasien. Selain itu, ini juga memungkinkan pengguna menyimpan catatan kunjungan pasien, obat, dan penilaian. Sistem catatan eHealth ini aman, fleksibel dan menawarkan integrasi dengan aplikasi pihak ketiga. Ada komunitas yang sangat bersemangat yang memberikan dukungan untuk HospitalRun. Selanjutnya, ada sistem pelepasan pasien yang lengkap. Perangkat lunak medis open source ini sepenuhnya ditulis dalam JavaScript. Selain itu, ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Faktanya, perangkat lunak medis open source ini menyediakan dasbor yang berbeda untuk berbagai departemen seperti departemen dukungan, departemen klinis, dan departemen administrasi. Semua peran ini datang dengan berbagai tingkat izin dan akses.
+Sistem manajemen rumah sakit **ini** menawarkan ketentuan untuk mengintegrasikan laboratorium untuk memusatkan catatan medis pasien. Selain itu, ini juga memungkinkan pengguna menyimpan catatan kunjungan pasien, obat, dan penilaian. Sistem catatan eHealth ini aman, fleksibel dan menawarkan integrasi dengan aplikasi pihak ketiga. Ada komunitas yang sangat bersemangat yang memberikan dukungan untuk HospitalRun. Selanjutnya, ada sistem pelepasan pasien yang lengkap. Perangkat lunak medis open source ini sepenuhnya ditulis dalam JavaScript. Selain itu, ada dokumentasi komprehensif yang tersedia mengenai pengembangan dan penyebaran. Faktanya, perangkat lunak medis open source ini menyediakan dasbor yang berbeda untuk berbagai departemen seperti departemen dukungan, departemen klinis, dan departemen administrasi. Semua peran ini datang dengan berbagai tingkat izin dan akses.
 
-## Apa saja fitur HospitalRun?   {#fitur}
+## Apa saja fitur HospitalRun? {#features}
+
 Di bagian ini, kami akan melalui beberapa fitur utama berikut dari sistem eHealth ini.
-  ***Self-hosting** : HospitalRun hadir dengan kemampuan tuan rumah mandiri dan membutuhkan lebih sedikit upaya untuk digunakan pada server.
-  ***Penjadwalan janji temu** : Sistem kesehatan ini memungkinkan pengguna menjadwalkan janji temu. Ada modul lengkap untuk janji temu yang tersedia di dasbor. Selanjutnya, pengguna dapat mencari janji dengan bantuan filter.
-  ***Sistem pelepasan pasien** : Sistem manajemen rumah sakit ini memelihara catatan pasien yang telah habis.
-  ***Manajemen Obat** : Sistem catatan eHealth ini memungkinkan pengguna untuk merekam data lengkap obat dari pasien tertentu.
-  ***Manajemen Catatan Pasien** : Ada modul lengkap untuk manajemen catatan pasien. Pengguna dapat mencatat rincian pasien baru, menerima pasien terhadap riwayat medis lengkap mereka seperti obat, laporan dan kunjungan.
-  ***Sistem penagihan yang disesuaikan** : Ada sistem penagihan yang kaya yang tersedia dalam perangkat lunak layanan kesehatan open source ini. Ini memungkinkan pengguna menghasilkan dan mengelola faktur dengan detail lengkap seperti harga laboratorium, biaya lingkungan, harga pencitraan dan dll.
-  ***Catatan Medis Elektronik** : Perangkat lunak medis open source ini menyediakan semua modul yang diperlukan untuk menyimpan catatan medis dan administrasi.
-  ***Fleksibel** : HospitalRun fleksibel dan cukup dapat diperluas sehingga pengembang dapat memperluas fungsinya untuk memenuhi fungsionalitas yang dibutuhkan.
+* **Self-hosting** : HospitalRun hadir dengan kemampuan tuan rumah mandiri dan membutuhkan lebih sedikit upaya untuk digunakan pada server.
+* **Penjadwalan janji temu** : Sistem kesehatan ini memungkinkan pengguna menjadwalkan janji temu. Ada modul lengkap untuk janji temu yang tersedia di dasbor. Selanjutnya, pengguna dapat mencari janji dengan bantuan filter.
+* **Sistem pelepasan pasien** : Sistem manajemen rumah sakit ini menyimpan catatan pasien yang telah habis.
+* **Manajemen Obat** : Sistem catatan eHealth ini memungkinkan pengguna untuk merekam data lengkap obat dari pasien tertentu.
+* **Manajemen Catatan Pasien** : Ada modul lengkap untuk manajemen catatan pasien. Pengguna dapat mencatat rincian pasien baru, menerima pasien terhadap riwayat medis lengkap mereka seperti obat, laporan dan kunjungan.
+* **Sistem penagihan yang disesuaikan** : Ada sistem penagihan yang kaya yang tersedia dalam perangkat lunak layanan kesehatan open source ini. Ini memungkinkan pengguna menghasilkan dan mengelola faktur dengan detail lengkap seperti harga laboratorium, biaya lingkungan, harga pencitraan dan dll.
+* **Catatan Medis Elektronik** : Perangkat lunak medis open source ini menyediakan semua modul yang diperlukan untuk menyimpan catatan medis dan administrasi.
+* **Fleksibel** : HospitalRun fleksibel dan cukup dapat diperluas sehingga pengembang dapat memperluas fungsinya untuk memenuhi fungsionalitas yang dibutuhkan.
 
-## Langkah -langkah instalasi HospitalRun?   {#Langkah}
+## Langkah instalasi HospitalRun? {#steps}
+
 Bagian posting blog ini menjelaskan langkah -langkah instalasi HospitalRun.
 Sebelum kita mulai, pertama-tama instal prasyarat berikut:
   * [Docker][6]
@@ -58,9 +61,10 @@ Akhirnya, Anda dapat mengakses solusi perawatan kesehatan ini di browser di http
 {{< figure align=center src="images/Screenshot-2021-02-16-at-23.46.35-1024x676.png" alt="Sistem Manajemen Rumah Sakit">}}
 
 
-## kesimpulan   {#conclusion}
+## Kesimpulan {#Kesimpulan}
+
 Ini adalah akhir dari artikel tutorial ini. Sistem catatan pasien ini sangat membantu mengotomatisasi **layanan kesehatan** . Sistem manajemen rumah sakit open source modern dilengkapi dengan alat analitik data yang membantu petugas kesehatan untuk mengambil tindakan yang diperlukan untuk fasilitas perawatan kesehatan yang lebih baik. Posting blog ini akan sangat membantu Anda jika Anda serius ingin menggunakan sistem eHealth untuk rumah sakit/klinik Anda. Solusi open-source ini hemat biaya karena terintegrasi dengan laboratorium dan klinik lain dan juga meminimalkan dokumen dengan mengkomputerisasi setiap proses. Solusi kesehatan open source memungkinkan pengguna untuk memiliki visual dari semua operasi perawatan kesehatan seperti obat pasien, pelepasan, laporan, dan manajemen penagihan. Selain itu, Anda dapat fokus pada tugas -tugas penting lainnya seperti perencanaan sumber daya dan evaluasi risiko. Namun, ada banyak perangkat lunak tingkat perusahaan lainnya untuk rumah sakit yang disebutkan di bagian "Jelajahi" di bawah ini.
-Pada akhirnya, ****[containerize.com][9] ****  dimaksudkan untuk menulis pada produk open source lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [Teknologi Kesehatan][10] ini untuk pembaruan terbaru.
+Pada akhirnya,* ***[containerize.com][9]****dimaksudkan untuk menulis pada produk open source lebih lanjut. Oleh karena itu, tetap berhubungan dengan kategori [Teknologi Kesehatan][10] ini untuk pembaruan terbaru.
 
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
@@ -73,10 +77,11 @@ Anda mungkin menemukan tautan berikut yang relevan:
   * [Fitur Eksplorasi Medical Record Manager HospitalRun][17]
   * [Perangkat lunak catatan kesehatan pasien open source teratas][18]
   * [Fitur Eksplorasi OpenemR Solusi Kesehatan Medis][19]
-  * [Cara Mengatur Sistem EHealth Hospitalrun di localhost][20]
+  * [Cara Mengatur Sistem EHealth Hospitalrun di LocalHost][20]
   * [Bagaimana Perangkat Lunak Kesehatan Online Memberdayakan Industri Kesehatan][1]
 
-  
+
+
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: #intro
 [3]: #features

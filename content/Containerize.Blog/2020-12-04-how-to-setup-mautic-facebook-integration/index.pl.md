@@ -15,22 +15,24 @@ categories: ['Marketing Automation']
 
 Mautic to oprogramowanie do automatyzacji marketingu i zapewnia pełną kontrolę nad e -mailem marketingowym, stronami lądowania i przepływami pracy w zakresie działań marketingowych. Kampanie kroplowe Mautic pomagają zaangażować grupę odbiorców i informować je o swoich produktach. Integracja Mauutic na Facebooku stanowi sposób dodania nowych potencjalnych klientów do Mauutic. Dzięki tej mautycznej integracji na Facebooku Lods z Twojej kampanii na Facebooku zostaną automatycznie dodane do Mautyc.
 W tym samouczku omówimy następujące sekcje:
-  * [Skonfiguruj konto programisty Facebooka][1]
+  * [Konfiguruj konto programisty Facebooka][1]
   * [Skonfiguruj aplikację programisty Facebooka][2]
   * [Konfiguracja wtyczek mautic][3]
   * [Wniosek][4]
 
-## Skonfiguruj konto programisty Facebooka   {#Account}
+## Skonfiguruj konto programisty Facebooka {#account}
+
   * Przejdź do [Facebook dla programistów][5]
   * Zarejestruj swoje konto, jeśli go nie masz.
   * Aby zarejestrować nowe konto, przejdź i kliknij „Zacznij” z prawego górnego rogu.
-  * Następnie wybierz swoje konto na Facebooku i naciśnij „Kontynuuj”.
+  * Następnie wybierz konto na Facebooku i naciśnij „Kontynuuj”.
   * Następnie z okna wyskakującego kliknij przycisk „Deweloper”.
 
 {{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="MAUTIC - Integracja Facebooka - rejestracja konta programistów">}}
 
 
-## Skonfiguruj aplikację programisty Facebooka   {#App}
+## Skonfiguruj aplikację programisty Facebooka {#app}
+
   * Kliknij „Utwórz pierwszą aplikację”
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="MAUTIC - Integracja na Facebooku - Utwórz pierwszą aplikację">}}
@@ -57,33 +59,36 @@ W tym samouczku omówimy następujące sekcje:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - integracja na Facebooku - Dodaj stronę internetową jako platformę">}}
 
 
-## MAUTIC CONDIN CONFIGURACJA   {#Configuration}
-  * Idź do Mautic Pulpitboard.
+## Mautyczna konfiguracja wtyczek {#configuration}
+
+  * Idź do mautic pulpit nawigacyjny.
   * Następnie przejdź do „Ustawienia” z prawego górnego rogu.
   * Kliknij „Wtyczki”.
   * Następnie otwórz ustawienia wtyczek „Facebook”.
   * Następnie wprowadź identyfikator klienta i sekret klienta. Uzyskaj te klucze z aplikacji Facebook Developers, którą właśnie utworzyłeś następujące powyższe kroki.
 
-{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Plugin-on-Mautic.png" alt="MAUTIC - Integracja na Facebooku - Skonfiguruj wtyczkę FB na Mautyc">}}
+{{< figure align=center src="images/Mautic-–-Facebook-Integration-Configure-FB-Plugin-on-Mautic.png" alt="MAUTIC - Integracja na Facebooku - skonfiguruj wtyczkę FB na Mauutic">}}
 
   * Naciśnij przycisk „Autoryzuj aplikację”.
   * Następnie otworzy się nowe okno autoryzacji na Facebooku. Postępuj zgodnie z monitami do wypełnienia autoryzacji aplikacji.
-  * Po pomyślnej autoryzacji przejdź do zakładki „Mapowanie kontaktu” z wtyczki na Facebooku Mautica.
+  * Po pomyślnej autoryzacji przejdź do zakładki „Mapowanie kontaktu” z wtyczki Mautica na Facebooku.
   * Tutaj możesz zmapować swoje pola kontaktowe na pola Facebooka.
   * Na koniec opublikuj ustawienia i możesz iść.
 
-## Wniosek   {#Conclusion}
+## Wniosek {#conclusion}
+
 MAUTIC - Integracja na Facebooku może pomóc zsynchronizować Twoje kierunki Facebooka w system mautic bez trudności. W aplikacji Maucing możesz dodać wszystkie te przewody do segmentu. Możesz prowadzić na nich kampanie e -mail marketingowe. Może to naprawdę pomóc Twojej firmie w rozwoju, sprzedaży i sprzedaży produktów/usług dla znacznie większych docelowych odbiorców.
 
 ## Badać
 Aby dowiedzieć się więcej o Mautic i Facebooku, odwiedź:
   * [Mautic | Platforma technologii content marketingu open source][6]
   * [Jak skonfigurować kampanie mauticowe za pomocą konstruktora kampanii][7]
-  * [Integracja Drupal Mautic w celu automatyzacji pielęgnacji ołowiu][8]
+  * [Integracja Drupal Mautyczna w celu automatyzacji pielęgnacji ołowiu][8]
   * [Automatyzacja marketingowa z integracją Mautic i WooCommerce][9]
   * [Zintegruj Mautic i Joomla do automatyzacji marketingu cyfrowego][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

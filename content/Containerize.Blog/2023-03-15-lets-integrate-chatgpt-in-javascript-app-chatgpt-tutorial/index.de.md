@@ -16,23 +16,26 @@ categories: [ 'Artificial intelligence']
 
 
 ## Überblick
-Hallo Leser! Vielen Dank für Ihre überwältigende Antwort auf die Blog -Beiträge, die wir in [CHATGPT][1] Integrationen veröffentlicht haben. Wir sind hier mit einem weiteren nützlichen**CHATGPT -Tutorial**nach Ihrem Interesse. Darüber hinaus werden wir in einer Schleife sein, um Artikel zu veröffentlichen, die für Ihre Akademiker und Ihre Karriere von Vorteil sind. Wir haben jedoch eine [Serie][20] von JavaScript -Tutorials gestartet, daher ist es der beste Zeitpunkt, um einen Leitfaden zu schreiben, der zeigt, wie Chatgpt in JavaScript AQPP**programmatisch integriert wird. Darüber hinaus werden wir den Code-Snippet schreiben, um diese GPT-3-basierte**virale Chatbot**-Funktionalität zu erstellen. Zu diesem Zweck ermöglichen wir die ChatGPT -Funktionalität in einer Node.js -App. Daher ist ein grundlegendes Maß an Vorkenntnis von Node.js ein Plus, wenn Sie diesen Leitfaden durchlaufen.
+Hallo Leser! Vielen Dank für Ihre überwältigende Antwort auf die Blog -Beiträge, die wir in [CHATGPT][1] Integrationen veröffentlicht haben. Wir sind hier mit einem weiteren nützlichen  **CHATGPT -Tutorial** nach Ihrem Interesse. Darüber hinaus werden wir in einer Schleife sein, um Artikel zu veröffentlichen, die für Ihre Akademiker und Ihre Karriere von Vorteil sind. Wir haben jedoch eine [Serie][20] von JavaScript -Tutorials gestartet, daher ist es der beste Zeitpunkt, um einen Leitfaden zu schreiben, der zeigt, wie Chatgpt in JavaScript AQPP **programmatisch integriert wird. Darüber hinaus werden wir den Code-Snippet schreiben, um diese GPT-3-basierte**  virale Chatbot**-Funktionalität zu erstellen. Zu diesem Zweck ermöglichen wir die ChatGPT -Funktionalität in einer Node.js -App. Daher ist ein grundlegendes Maß an Vorkenntnis von Node.js ein Plus, wenn Sie diesen Leitfaden durchlaufen.
 Die folgenden Abschnitte werden in diesem ChatGPT -Tutorial behandelt:
-* **[Voraussetzungen - Chatgpt JavaScript -Wrapper][2]**
-* **[CHATGPT -Integration mit node.js Anwendung][3]**
+*  **[Voraussetzungen - Chatgpt JavaScript -Wrapper][2]**  
+*  **[CHATGPT -Integration mit node.js Anwendung][3]**  
 
-## Voraussetzungen-Chatgpt JavaScript-Wrapper   {#Voraussetzungen --- Chatgpt-Javascript-Wrapper-}
+## Voraussetzungen - Chatgpt JavaScript -Wrapper {#Pre-requisites---ChatGPT-JavaScript-wrapper-}
+
 Dieser Abschnitt zeigt die Anforderungen, die erforderlich sind, um die ChatGPT-Integration in eine node.js-basierte Anwendung zu ermöglichen. Die Anforderungen sind unkompliziert und einfach auf Ihrem System zu installieren.
 Im Folgenden finden Sie die Voraussetzungen, um diese Chatgpt-JavaScript-Integration zu üben:
 
  * [Nodejs4](>= 18)
 
  * [NPM5](>=9)
+ 
 Sobald die oben genannten Voraussetzungen installiert sind, besteht der nächste Schritt darin, einen OpenAI -API -Schlüssel zu erhalten. Dieser Schlüssel wird verwendet, um API -Anfragen programmgesteuert an das ChatGPT zu stellen. Bitte besuchen Sie diesen [Link][6], um zu erfahren, wie Sie den OpenAI -API -Schlüssel erhalten, falls Sie das Verfahren nicht kennen.
 Bitte halten Sie Ihren API -Schlüssel an einem sicheren Ort und das ist alles für die Anforderungensphase.
 
-## CHATGPT-Integration mit node.js Anwendung   {#Chatgpt-Integration-with-node.js-Application}
-Jetzt sind wir alle auf**in die JavaScript -App integrieren.**Öffnen Sie zuerst den Terminal und führen Sie den folgenden Befehl aus:
+## CHATGPT -Integration in die Anwendung node.js {#ChatGPT-integration-with-Node.js-application}
+
+Jetzt sind wir alle auf  **in die JavaScript -App integrieren.**  Öffnen Sie zuerst den Terminal und führen Sie den folgenden Befehl aus:
 ```
 npm i chatgpt
 ```
@@ -46,7 +49,7 @@ Kopieren Sie den obigen Code -Snippet in Ihre Hauptserverdatei und führen Sie d
 ```
 node index.js
 ```
-**HINWEIS**: Bitte hinzufügen ("Typ": "Modul",) in Ihre Paket.json -Datei, falls Sie einen Fehler erhalten "keine Importanweisung außerhalb eines Moduls" verwenden kann ".
+ **HINWEIS** : Bitte hinzufügen ("Typ": "Modul",) in Ihre Paket.json -Datei, falls Sie einen Fehler erhalten "keine Importanweisung außerhalb eines Moduls" verwenden kann ".
 Sie können die Ausgabe im Bild unten sehen:
 
 {{< figure align=center src="images/chatgpt_tutorial.png" alt="Chatgpt -Tutorial">}}
@@ -61,7 +64,7 @@ console.log(res.text);
 Ebenso können Sie viele andere angebotene Methoden untersuchen [hier][7]. Diese OpenAI-Chatbot-Integration kann Ihrer Anwendung auf Unternehmensebene einen Wettbewerbsvorteil verleihen.
 
 ## Abschluss
-Dieser Punkt bringt uns zum Ende dieses**CHATGPT -Tutorials**. Wir hoffen, Sie haben gelernt, wie man Chatgpt in JavaScript App**programmatisch integriert. Darüber hinaus haben Sie den Arbeitscode -Snippet, den Sie auf Ihrem lokalen Computer testen können. Dieser Blog -Beitrag ist ein Kapital, wenn Sie in Ihrer Node.js -Anwendung**Chatgpt -Integration**gedeihen.
+Dieser Punkt bringt uns zum Ende dieses  **CHATGPT -Tutorials** . Wir hoffen, Sie haben gelernt, wie man Chatgpt in JavaScript App **programmatisch integriert. Darüber hinaus haben Sie den Arbeitscode -Snippet, den Sie auf Ihrem lokalen Computer testen können. Dieser Blog -Beitrag ist ein Kapital, wenn Sie in Ihrer Node.js -Anwendung**  Chatgpt -Integration**gedeihen.
 
 ## Verbinde dich mit uns
 Schließlich schreibt [containerize.com][8] kontinuierlich Blog -Beiträge zu verschiedenen Themen. Darüber hinaus können Sie uns in unseren Social -Media -Konten [Facebook][9], [LinkedIn][10] und [Twitter][11] folgen.
@@ -70,7 +73,7 @@ Schließlich schreibt [containerize.com][8] kontinuierlich Blog -Beiträge zu ve
 Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][12] informieren.
 
 ## FAQs
-**Wie kann ich Chatgpt in JavaScript integrieren?**
+ **Wie kann ich Chatgpt in JavaScript integrieren?** 
 Bitte folgen Sie diesem ChatGPT [Tutorial][2], um die Schritte und den Code -Snippet zu erlernen, um ChatGPT programmatisch in die JavaScript -App zu integrieren.
 
 ## Siehe auch
@@ -82,7 +85,8 @@ Bitte folgen Sie diesem ChatGPT [Tutorial][2], um die Schritte und den Code -Sni
   * [Was sind die Top 5 Open-Source-AI-Frameworks][18]
   * [Was ist generative AI | Generative künstliche Intelligenz][19]
 
-  
+
+
 [1]: https://blog.containerize.com/categories/artificial-intelligence/
 [2]: #Pre-requisites---ChatGPT-JavaScript-wrapper-
 [3]: #ChatGPT-integration-with-Node.js-application

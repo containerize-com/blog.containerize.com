@@ -13,8 +13,8 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/top-5-open-source-newsletter-software.png" alt="Beste E -Mail -Newsletter -Software">}}
 
-Newsletter -Marketing -Tools helfen Unternehmen bei E -Mail -Marketing- und Werbekampagnen, sich direkt mit potenziellen Kunden in Verbindung zu setzen. **Open -Source -Newsletter -Software  **Hilfe bei der Integration von E -Mail -Funktionen an einem Ort sowie die Automatisierung des E -Mail -Sendenprozesses sowie Antworten und Abfragen von Kunden und Abonnenten. Die besten Newsletter -Marketing -Tools tragen auch dazu bei, Kampagnen basierend auf der E -Mail -Plattform zu erstellen und zu verwalten, die Werbung, Produkte und Direktverkäufe von Produkten und Dienstleistungen umfasst. Es macht Unternehmen dazu, ein riesiges Ökosystem auf der Mail -Plattform zu haben, um die Ausgabe so weit wie möglich zu verbessern. Einige der großartigen Funktionen einer E -Mail **  Newsletter  ****  Marketing -Software**  enthalten, E -Mail -Automatisierung, Analyse und Metriken, Social -Media -Management und Integrationen.
-Open Source **Newsletter Solutions  **Hilf Geschäftsinhabern helfen, Marketingkampagnen, Produktaktualisierungen und Werbeaktionen an bestehende und potenzielle Kunden zu senden. Es hilft Unternehmen auch, neue Kunden zu gewinnen und das Geschäft in großem Umfang zu skalieren. Wir werden die folgende Top **  Open Source Newsletter -Software**  in diesem Beitrag hervorheben.
+Newsletter -Marketing -Tools helfen Unternehmen bei E -Mail -Marketing- und Werbekampagnen, sich direkt mit potenziellen Kunden in Verbindung zu setzen. **Open -Source -Newsletter -Software**Hilfe bei der Integration von E -Mail -Funktionen an einem Ort sowie die Automatisierung des E -Mail -Sendenprozesses sowie Antworten und Abfragen von Kunden und Abonnenten. Die besten Newsletter -Marketing -Tools tragen auch dazu bei, Kampagnen basierend auf der E -Mail -Plattform zu erstellen und zu verwalten, die Werbung, Produkte und Direktverkäufe von Produkten und Dienstleistungen umfasst. Es macht Unternehmen dazu, ein riesiges Ökosystem auf der Mail -Plattform zu haben, um die Ausgabe so weit wie möglich zu verbessern. Einige der großartigen Funktionen einer E -Mail**Newsletter****Marketing -Software**enthalten, E -Mail -Automatisierung, Analyse und Metriken, Social -Media -Management und Integrationen.
+Open Source **Newsletter Solutions**Hilf Geschäftsinhabern helfen, Marketingkampagnen, Produktaktualisierungen und Werbeaktionen an bestehende und potenzielle Kunden zu senden. Es hilft Unternehmen auch, neue Kunden zu gewinnen und das Geschäft in großem Umfang zu skalieren. Wir werden die folgende Top**Open Source Newsletter -Software** in diesem Beitrag hervorheben.
   * [Phplist][1]
   * [MailTrain][2]
   * [ListMonk][3]
@@ -22,7 +22,8 @@ Open Source **Newsletter Solutions  **Hilf Geschäftsinhabern helfen, Marketingk
   * [Mailman][5]
   * [Andere Open-Source-E-Mail-Marketing-Lösungen][6]
 
-## 1. Phplist   {#Phplist}
+## 1. Phplist {#phpList}
+
 [Phplist][7] ist eine großartige kostenlose und **Open -Source -Newsletter -Software** . Dadurch können Benutzer innerhalb kurzer Zeit Newsletter -Kampagnen an Millionen von Abonnenten senden. Phplist ist ein sicheres, skalierbares und erweiterbares E -Mail -Marketingsystem. Darüber hinaus kann es von kleinen bis großen Unternehmen verwendet werden. Phplist verfügt über eine hervorragende Funktion des Abonnenten -Managements, die es Unternehmen ermöglicht. Benutzer können einfach erstellen, Kampagnen senden und sogar an bestimmten Daten planen. Darüber hinaus unterstützt es Plugin und Benutzer können das System erweitern. PHPLIST ist in PHP und verwendet die MySQL -Datenbank, um Informationen zu speichern. Daher ist der gesamte Quellcode unter [Github][8] verfügbar.
 Vor allem sind einige der wichtigsten Merkmale des Phplisten:
   * E -Mail -Listen verwalten
@@ -32,7 +33,8 @@ Vor allem sind einige der wichtigsten Merkmale des Phplisten:
   * Datenimport- und Exporttools
 [Erfahren Sie mehr über Phplist][7]
 
-## 2. MailTrain   {#mailtrain}
+## 2. MailTrain {#Mailtrain}
+
 [MailTrain][9] ist eine selbst gehostete **Newsletter-Lösung** . Es ist ein MailChimp -Klon und verfügt über großartige Funktionen. MailTrain kann von jeder Art von Unternehmen und Funktionen verwendet werden, um eine E -Mail -Kampagne an eine beliebige Menge an Publikum zu senden. Es ermöglicht die Aufrechterhaltung sehr großer Listen. Darüber hinaus ermöglicht MailTrain Benutzern, Abonnenten manuell hinzuzufügen oder sie aus einer CSV -Datei zu importieren. Außerdem können Benutzer Abonnenten über API hinzufügen. MailTrain basiert auf node.js und MySQL/Mariadb. Die Lizenz für diese Open-Source-Newsletter-Software lautet GPL-3.0 und der Quellcode ist unter [Github][10] verfügbar.
 Hier sind einige wichtige Funktionen von MailTrain:
   * Abonnentenlistenmanagement
@@ -42,8 +44,9 @@ Hier sind einige wichtige Funktionen von MailTrain:
   * Über mehrere Anbieter senden
 [Erfahren Sie mehr über MailTrain][9]
 
-## 3. LISTMONK   {#LISTMONK}
-[ListMonk][11] ist eine der besten E -Mail -Newsletter -Software **. Es wurde so konzipiert, dass es sich um ein selbst gehosteter Newsletter- und Mailing-List-Manager-Tool handelt. Es ist leicht und verfügt über eine einzelne Binärdatei. ListMonk bietet hoch konfigurierbare Multi-Thread-Multi-SMTP-E-Mail-Warteschlangen mit hohem Durchsatz für die superschnelle Verteilung des Newsletters. Darüber hinaus ermöglicht das Senden von WhatsApp -Nachrichten, SMS, FCM -Benachrichtigungen und vielen anderen. Abonnenten können komplette Profildaten zusammen mit Statistiken exportieren und für diese vollständige Privatsphäre bereitstellen. Darüber hinaus ermöglicht ListMonk S3 zur Speicherung. ListMonk basiert auf modernen Technologien wie Go, VueJs und PostgreSQL. Sie können Quellcode unter [Github][12] finden.
+## 3. Listmonk {#listmonk}
+
+[ListMonk][11] ist eine der besten E -Mail -Newsletter -Software**. Es wurde so konzipiert, dass es sich um ein selbst gehosteter Newsletter- und Mailing-List-Manager-Tool handelt. Es ist leicht und verfügt über eine einzelne Binärdatei. ListMonk bietet hoch konfigurierbare Multi-Thread-Multi-SMTP-E-Mail-Warteschlangen mit hohem Durchsatz für die superschnelle Verteilung des Newsletters. Darüber hinaus ermöglicht das Senden von WhatsApp -Nachrichten, SMS, FCM -Benachrichtigungen und vielen anderen. Abonnenten können komplette Profildaten zusammen mit Statistiken exportieren und für diese vollständige Privatsphäre bereitstellen. Darüber hinaus ermöglicht ListMonk S3 zur Speicherung. ListMonk basiert auf modernen Technologien wie Go, VueJs und PostgreSQL. Sie können Quellcode unter [Github][12] finden.
 Vor allem hier sind die beliebten Merkmale von ListMonk:
   * Newsletter Manager
   * Mailing List Manager
@@ -52,7 +55,8 @@ Vor allem hier sind die beliebten Merkmale von ListMonk:
   * S3 Speicher
 [Erfahren Sie mehr über ListMonk][11]
 
-## 4. Moonmail   {#moonmail}
+## 4. Moonmail {#MoonMail}
+
 [Moonmail][13] ist ein weiteres kostenloses und **Open -Source -Newsletter -Tool** . Es ermöglicht Unternehmen, Massen -E -Mails über Amazon SES zu senden. Moonmail ist ein React- und Serverless Framework-basierte Open-Source-Newsletter-Tool. API und Ereignisse sind die beiden Hauptkomponenten. Darüber hinaus wird das serverlose Framework verwendet, um den Ereignisabschnitt zu konstruieren. Darüber hinaus besteht es aus Mikrodiensten, die als Reaktion auf Ereignisse aktiviert werden. Es verfügt auch über eine REST -API, die verwendet werden kann, um in andere Geschäftsanwendungen zu integrieren. Moonmail Open-Source-E-Mail-Marketing-Solutions ist unter der MIT-Lizenz lizenziert. Der gesamte Quellcode ist unter [Github][14] verfügbar.
 Auf der anderen Seite sind einige coole Merkmale von Moonmail:
   * Erstellen und Speichern von Empfängern in Listen
@@ -62,7 +66,8 @@ Auf der anderen Seite sind einige coole Merkmale von Moonmail:
   * Planen Sie Kampagnen, die in Zukunft gesendet werden sollen
 [Erfahren Sie mehr über Moonmail][13]
 
-## 5. Mailman   {#mailman}
+## 5. Mailman {#Mailman}
+
 [Mailman][15] ist eine Open -Source -Mailing -List -Managerin und Newsletter -Software. Es ermöglicht Geschäftsinhabern, Marketing -E -Mails an eine beliebige Anzahl von Abonnenten zu senden. Mailman verfügt über außerhalb der Box-Funktionen wie Verwaltungslisten, Abonnentenverwaltung, Bounce Management und vieles mehr. Ermöglicht es einfach, in einen externen SMTP -Server zum Senden von E -Mails in einen externen SMTP -Server zu integrieren. Mailman wird in Python entwickelt und der Quellcode ist unter [GitLab][16] verfügbar.
 Hier finden Sie vor allem einige wichtige Funktionen von Mailman:
   * Mehrsprachige Unterstützung
@@ -73,7 +78,7 @@ Hier finden Sie vor allem einige wichtige Funktionen von Mailman:
 [Erfahren Sie mehr über Mailman][15]
 
 ## Andere Open-Source-E-Mail-Marketing-Lösungen
-Newsletter und **E -Mail -Marketing -Software  **sind für große Unternehmen im Internet -Zeitalter sehr wichtig. Mit Hilfe der besten Business -Newsletter halten die Eigentümer regelmäßig Kontakt mit Kunden. Gute Newsletter -Beispiele sind ein ziemlich direktes Medium für die Markt- und Werbung für Produkte für ein kleines oder mittelgroßes Unternehmen. Das Wichtigste ist, dass diese absolut kostenlos und Open Source sind, was sie entsprechend den Geschäftsbedürfnissen leicht anpassbar und anpassbar macht. Fast alle oben genannten **  Toller Newsletter -Beispiele**  Software sollten für die Anforderungen Ihrer Unternehmen ausreichen.
+Newsletter und **E -Mail -Marketing -Software**sind für große Unternehmen im Internet -Zeitalter sehr wichtig. Mit Hilfe der besten Business -Newsletter halten die Eigentümer regelmäßig Kontakt mit Kunden. Gute Newsletter -Beispiele sind ein ziemlich direktes Medium für die Markt- und Werbung für Produkte für ein kleines oder mittelgroßes Unternehmen. Das Wichtigste ist, dass diese absolut kostenlos und Open Source sind, was sie entsprechend den Geschäftsbedürfnissen leicht anpassbar und anpassbar macht. Fast alle oben genannten**Toller Newsletter -Beispiele** Software sollten für die Anforderungen Ihrer Unternehmen ausreichen.
   * [Dada Mail][17] selbst gehostet mit minimalen Abhängigkeiten vom E-Mail-Marketing.
   * [Sympa][18] Secure Perl-basierte Open-Source Mailing List Management-Software.
   * [OpenEMM][19] Funktionsreiche webbasierte Open-Source-E-Mail-Marketinglösung.
@@ -94,7 +99,8 @@ Möglicherweise finden Sie die folgenden Links relevant:
   * [Moonmail - Mailingliste und E -Mail -Marketing -Software][13]
   * [Mailman - Open Source Newsletter und Mailing List Manager][15]
 
-  
+
+
 [1]: #phpList
 [2]: #Mailtrain
 [3]: #listmonk

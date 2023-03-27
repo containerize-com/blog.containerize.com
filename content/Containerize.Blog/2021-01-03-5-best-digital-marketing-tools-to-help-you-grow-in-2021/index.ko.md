@@ -11,46 +11,51 @@ categories: ['Marketing Automation']
 
 ## 대부분의 회사는 마케팅 도구를 사용하여 제품 및 서비스를 홍보하고 판매합니다. 2021 년 비즈니스를위한 5 가지 디지털 마케팅 도구에 대해 알아 보겠습니다.
 
-{{< figure align=center src="images/5-Digital-Marketing-Tools-You-Shouldnt-Live-Without-in-2021.png" alt="성장하는 데 도움이되는 5 가지 최고의 디지털 마케팅 도구">}}
+{{< figure align=center src="images/5-Digital-Marketing-Tools-You-Shouldnt-Live-Without-in-2021.png" alt="성장에 도움이되는 5 가지 최고의 디지털 마케팅 도구">}}
 
 
-##  **개요** 
+##  **개요**  
 온라인 마케팅 계획이 성공하도록하기 위해 적절한 시간에 올바른 도구를 사용하는 것을 의미합니다. 구현할 전략과 사용해야 할 디지털 마케팅 도구를 알아야합니다. 생산성을 크게 향상시키고 판매를 늘릴 수있는 온라인 디지털 마케팅 도구가 많이 있습니다. 이 게시물에서는 비즈니스를 시작할 때 필요한 5 온라인 최고의 디지털 마케팅 도구를 개요 할 것입니다. 이러한 각 도구는 경쟁 우위를 확보하는 데 도움이됩니다.
 이 기사에서는 최고의 디지털 마케팅 도구 목록에 중점을 두어 트래픽을 늘리고 판매를 생성합니다.
-  * **[semrush][1]**
-  *[ **Google Analytics** ][2]
-  *[ **메일 침팬지** ][3]
-  *[ **Google 검색 콘솔** ][4]
-  * **[언급][5]**
-  * **[결론][6]**
+*  **[semrush][1]**  
+* [  **Google Analytics**  ][2]
+* [  **메일 침팬지**  ][3]
+* [  **Google 검색 콘솔**  ][4]
+*  **[언급][5]**  
+*  **[결론][6]**  
 
-##  **1- Semrush** 
+##  **1- Semrush**  
 [Semrush][7]는 비즈니스가 모든 주요 채널에서 온라인 가시성을 최적화 할 수있는 매우 인기있는 올인원 디지털 마케팅 도구입니다. 온라인 마케팅 노력의 성공을 관찰 할 수 있습니다. 또한 사이트 건강 검사기, 트래픽 분석, 경쟁 업체 트레이서, 백 링크 체커 및 키워드 생성기 도구로도 작동합니다. Semrush는 최고의 디지털 마케팅 플랫폼 중 하나이며 경쟁 업체가 어떻게 수행하는지 분석하는 확실한 SEO 도구입니다.
 Semrush 키워드 생성기 도구의 데이터 및 통찰력은 전 세계 최고의 미디어 아울렛 및 마케팅 전문가에 의해 신뢰됩니다. 시장 리더 인 Semrush는 SEO 연구, 컨텐츠 마케팅, Google ADS 캠페인 최적화 및 경쟁사 분석을 전문으로합니다. Semrush Marketplace는 귀하의 사이트 순위가 매일 백 링크 또는 키워드 연구와 관련된 많은 데이터를 제공합니다.
 
-##  **2- Google 웹 로그 분석** {#GoogleAnalytics}
+##  **2- Google 웹 로그 분석**  {#GoogleAnalytics}
+
 [Google Analytics][8]는 세션 기간, 세션 당 페이지, 바운스 요금 등 및 웹 사이트 트래픽을보고하는 웹 사이트를 추적하는 가장 인기있는 평판 관리 도구 중 하나입니다. 마케팅 담당자 및 웹 사이트 소유자에게 웹 사이트 트래픽 및 방문자 행동에 대한 자세한 통계를 제공합니다. Google Analytics는 웹에서 가장 널리 사용되는 웹 분석 디지털 마케팅 및 최고의 인터넷 마케팅 도구 서비스로 트래픽 패턴을 모니터링하고 방문자가 웹 사이트를 탐색 할 수 있습니다.
 현재 Google Analytics는 GA4라고하는 4 번째 플랫폼에 있습니다. GA4는 현재 UA (Universal Analytics)를 대체했습니다. GA API는 제 3자가 사용자 정의 응용 프로그램 및보고 도구를 구축하는 데 사용될 수 있습니다. Google 웹 로그 분석 추적 코드는 클라이언트가 페이지를 탐색하고 Google Data Collection Server로 전송하기 전에 방문자 데이터를 수집 할 때 클라이언트 브라우저에서 실행됩니다. Google Analytics 추적 코드는 Google 서버로 데이터를 전송하는 것 외에도 첫 번째 파티 쿠키를 설정합니다. 콘텐츠 마케팅 성공은 데이터 생성에 중점을두고 있으며 Google 웹 로그 분석을 통해 디지털 마케팅 분석 도구에 의존 할 때 데이터가 얻을 수 있습니다.
 Google Digital Analytics 도구를 Google 광고와 연결하면 사용자는 Analytics의 Google Ads 보고서에서 온라인 캠페인을 작성하고 검토 할 수 있습니다. Google 웹 로그 분석의 두 가지 기능은 우리가 가장 좋아하는 것 중 일부에 불과합니다.
-**바운스 율** 사이트에 오는 방문자 수를 측정합니다.
-**전환율** 웹 사이트 방문자가 관심있는 행동을 수행하고 고객에게 "전환"할 때 측정합니다.
+ **바운스 율** 사이트에 오는 방문자 수를 측정합니다.
+ **전환율** 웹 사이트 방문자가 관심있는 행동을 수행하고 고객에게 "전환"할 때 측정합니다.
 
-##  **3- 메일 침팬지** {#mailchimp}
+##  **3- 메일 침팬지**  {#MailChimp}
+
 모든 마케팅 담당자는 이메일 마케팅 서비스가 필요하며 [MailChimp][9] 마케팅 자동화 플랫폼은 제가 사용하는 것입니다. MailChimp는 고객에게 더 나은 이메일을 돕고 관리하는 하나의 목표와 하나의 목표 만 있습니다.
 [MailChimp][9]는 올인원 통합 이메일 마케팅 서비스이며 매일 1 천만 명 이상의 사용자를 자랑하는 최고의 디지털 마케팅 도구 예 중 하나입니다. 이 이메일 플랫폼의 모든 이점과 기능을 나열하는 것은 불가능하지만 연락처 관리 관행, 설계된 캠페인 및 강력한 데이터 분석에 중점을 둡니다.
 MailChimp에는 강력한보고 및 이메일 디자이너 기능이 있습니다. 소셜 공유 통합은 WordPress, Twitter, Facebook, Magento, Salesforce, Zendesk, Shopify, Woocommerce, Mandrill, Eventbrite, Unbounce, Squarespace, Drupal, Slack 및 Google Analytics 등의 소셜 공유 작동입니다. 이메일 수신자는 트위터에서 콘텐츠를 공유하여 도움을 줄 수 있습니다. 유기농 트래픽을 늘리십시오.
 또한 한 번에 수백 또는 수천 명의 수신자에게 이메일을 보낼 수 있습니다. 메일 링리스트를 작성, 전송 및 관리하는 데 도움이됩니다. 또한 이메일 캠페인, 뉴스 레터 및 리드 수집도 분석합니다.
 
-##  **4- Google 검색 콘솔** {#googlesearchConsole}
+##  **4- Google 검색 콘솔**  {#GoogleSearchConsole}
+
 [Google Search Console][10]는 인덱싱 문제, 수동 페널티, 재 입원 요청, 웹 사이트의 가시성 최적화 및 크롤링 오류를 포함하여 사이트에서 가능한 문제를 식별하는 데 도움이되는 주요 웹 서비스입니다. Search Console은 Google 검색 결과에서 웹 사이트 존재를 해결, 유지 관리 및 모니터링하는 데 도움이되는 무료 서비스입니다.
 Google 검색 콘솔은 콘솔받은 편지함에서 웹 사이트에서 찾은 오류를 즉시 알릴 수 있습니다. Google이 사이트를 수정하고 크롤링 할 수 있음을 확인합니다. Google Search Console에서 자세한 내용과 개요를 찾을 수 있으며 Google Search Console을 사용하여 다음 안내서 [Link][10]를 통해 사이트에 대한 Google 검색을 설정할 수 있습니다.
 
-##  **5- 언급** {#mention}
+##  **5- 언급**  {#Mention}
+
 [언급][11]은 브랜드와 대행사가 소셜 언급을 추적하고, 경쟁사를 분석하고, 리드를 생성 할 수있는 훌륭한 소셜 미디어 모니터링 도구입니다. 인터넷 마케팅 소프트웨어를 언급하면 ​​온라인 청중을 확보하고 소셜 미디어를 관리하여 누군가가 손가락 끝에서 이름, 브랜드 또는 대상 키워드를 언급 할 때마다 추적 할 수 있습니다.
 또한 키워드 추적을 통해 업계의 관련 국소 토론에 대해 즉시 정보를 제공 할 수 있습니다. 누군가가 귀하 또는 귀하의 브랜드에 대해 이야기하는 지점은 자신의 앱 중 하나를 통해이를 즉시 볼 수 있으며, 이는 관련 잠재 고객 내에서 브랜드 인지도를 구축 할 수있는 기회를 제공합니다.
 누군가가 당신의 브랜드 나 비즈니스에 대해 불평하고 아무도 이것에 응답하지 않는다고 상상해보십시오. 에스컬레이션하기 전에보고 된 문제로 즉시 답변하고 처리 할 수 ​​있습니다. 경쟁사 이름을 추적 할 수 있으며 더 많은 비즈니스를 얻을 수있는 좋은 기회가 될 수 있습니다. 언급에는 한 달 안에 최대 500 개의 언급을 추적 할 수있는 비용 무료 계획이 있습니다.
 
-##  **결론**  :   {#conclusion}
+##  **결론**  : {#Conclusion}
+
 디지털 마케팅에 사용되는이 도구 목록이 디지털 마케팅 기술에 도움이되며 원하는 성공을 가져 오기를 바랍니다. 다른 많은 웹 사이트 마케팅 도구 및 모니터링 앱이 있습니다. 새로운 것을 배웠고 이러한 디지털 마케팅 도구에 대해 놓치면 마케팅이 개선되는 것을 방해 할 수 있기를 바랍니다.
 우리는 디지털 마케팅 플랫폼의 목록을 구성했습니다. 이 온라인 마케팅 도구 목록을 잘 이해하여 온라인 브랜드 이름이 크게 향상되었습니다. 더 나은 포괄적 인 도구는 더 나은 마케팅과 동일합니다. 이 목록이 유용하기를 바랍니다.이 기사에서 다룬 디지털 마케팅 도구 중 가장 유용한 것은 무엇입니까?
 _ 온라인에서 어떤 디지털 마케팅 _ _tools를 사용하십니까?. 질문이나 생각이 있으시면 제발 _ [12][터치][13].
@@ -63,22 +68,23 @@ _ 온라인에서 어떤 디지털 마케팅 _ _tools를 사용하십니까?. �
   * [오픈 소스 Udemy 클론 학습 및 교육 시장][17]
   * [최고 오픈 소스 마켓 플레이스 소프트웨어 옵션][18]
 
-  
-[1]: #SEMRush
-[2]: #GoogleAnalytics
-[3]: #MailChimp
-[4]: #GoogleSearchConsole
-[5]: #Mention
-[6]: #Conclusion
-[7]: https://www.semrush.com/
-[8]: https://analytics.google.com/
-[9]: https://mailchimp.com/
-[10]: https://search.google.com/search-console/about
-[11]: https://mention.com/en/
-[12]: mailto:yasir.saeed@aspose.com
-[13]: https://forum.containerize.com
-[14]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/
-[15]: https://products.containerize.com/marketplace/sharetribe/
-[16]: https://products.containerize.com/marketplace/cocorico/
-[17]: https://products.containerize.com/marketplace/edurge/
-[18]: https://products.containerize.com/marketplace/
+
+
+ [1]: #SEMRush
+ [2]: #GoogleAnalytics
+ [3]: #MailChimp
+ [4]: #GoogleSearchConsole
+ [5]: #Mention
+ [6]: #Conclusion
+ [7]: https://www.semrush.com/
+ [8]: https://analytics.google.com/
+ [9]: https://mailchimp.com/
+ [10]: https://search.google.com/search-console/about
+ [11]: https://mention.com/en/
+ [12]: mailto:yasir.saeed@aspose.com
+ [13]: https://forum.containerize.com
+ [14]: https://blog.containerize.com/marketplace/top-5-open-source-marketplace-software-in-2021/
+ [15]: https://products.containerize.com/marketplace/sharetribe/
+ [16]: https://products.containerize.com/marketplace/cocorico/
+ [17]: https://products.containerize.com/marketplace/edurge/
+ [18]: https://products.containerize.com/marketplace/

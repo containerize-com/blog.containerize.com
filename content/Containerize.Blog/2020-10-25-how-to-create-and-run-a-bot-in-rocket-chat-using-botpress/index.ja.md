@@ -1,7 +1,7 @@
 ---
 title: "botpressを使用してrocket.chatでボットを作成して実行する方法" 
 seoTitle: "botpressを使用してrocket.chatでボットを作成して実行する方法" 
-description: "このガイドは、Botpressを使用してボットを作成する方法とRocket.chatとの統合をシンプルで簡単な手順で教えてくれます。" 
+description: "このガイドは、Botpressを使用してボットを作成する方法とRocket.chatとの統合をシンプルで簡単なステップで教えてくれます。" 
 date: Sun, 25 Oct 2020 15:01:25 +0000
 author: Assad Mahmood
 summary: "このチュートリアルでは、botpressを使用してボットを作成する方法と、Rocket.chatとの統合について説明します。" 
@@ -22,36 +22,44 @@ Rocket.chatは、チャットボットとメッセージングの自動化統合
   * [ボットプレスを使用してボットをコード][4]
   * [結論][5]
 
-## # Rocket.Chat   {#Rocketchat}
+
+### Rocket.chat {#rocketchat}
+
 Rocket.chatは、人気のあるライブチャットソフトウェアの一部であり、一部はオープンソースのライブチャットプロジェクトです。コミュニティエディションとして無料のライブチャットバージョンがあります。同様に、プライベート内部チャット機能を備えた大企業向けの有料のホストライブチャットバージョン。このライブチャットアプリケーションはブラウザで実行されますが、独自のサーバーにもインストールできます。 [続きを読む][6]
 
-## # botpress   {#botpress}
+
+### botpress {#botpress}
+
 会話のチャットボットにより、企業は顧客に常に利用可能なハイタッチサポートを提供できるようになりました。 Botpressは、自然言語処理が組み込まれた最も人気のあるオープンソースボット作成ツールの1つです。 BotpressのNLUテクノロジーは、Botkit、Dialogflow、Microsoft Bot Frameworkなどの分野での競合他社よりも一歩進んでいます。 [続きを読む][7]
 
-## # rocket.chat   {#createbotuser}でボットユーザーを作成します
+
+### Rocket.chatでボットユーザーを作成します {#createbotuser}
+
 チャットボットに相談するには、ボットがログインできるRocket.chatサーバーに事前に構成されたユーザーアカウントが必要です。
 アカウントを作成するには、管理者特権を持つ必要があります。
-  1.トップバーで、3つのドット（オプション）をクリックしてから[管理] **をクリックします**
-  2.左側のサイドバーから**ユーザー**を選択します
+  1.トップバーで、3つのドット（オプション）をクリックしてから[管理]  **をクリックします**  
+  2.左側のサイドバーから  **ユーザー**  を選択します
   3.右側のサイドバーの[ユーザーの追加]ボタンをクリックします
-  4.表示されるプロファイルウィンドウで、_name_、_username_、_email_、_password_フィールドに記入します
+  4.表示されるプロファイルウィンドウで、_name_、_username_、_email_、_password_ fieldsに記入してください
   5. _email_フィールドの下で_verified_トグルを有効にします
   6. _password_フィールドの下で_ Requireパスワードchange _トグル
-  7. [ロールの追加]メニューから[ボット]を選択し、右側の[_add role_ボタン]ボタンをクリックします
+  7.「ロールの追加」メニューから「ボット」を選択し、右側の[_Addロール_ボタン]ボタンをクリックします
   8. _join default channels_および_sendを無効にすること
   9. _save_をクリックします
 保存すると、ボットはステップ4に設定されたユーザー名とパスワードで構成されます。「Rocketchat \ _user」および「Rocketchat \ _Password」環境変数を使用して、このユーザー名とパスワードペアでRocket.chatサーバーにログインします。
 
-## # botpressを使用してボットをコードします {#codebot}
-botpressはnode.jsパッケージであり、ノードとnpmで動作します。
+
+### ボットプレスを使用してボットをコードします {#codebot}
+
+Botpressはnode.jsパッケージであり、ノードとNPMで動作します。
 ボットプレスから始める最速の方法は、[botpress-kick-starter][8]リポジトリを使用することです。
 ボットで作業するフォルダーに移動し、次の手順を進めます。
-**ボットプレスパッケージをインストール**
+ **ボットプレスパッケージをインストール** 
 ```
 npm init -y
 npm install botpress@10.40.0
 ```
-**ボットを作成**
+ **ボットを作成** 
 ```
 mkdir bot
 cd bot
@@ -109,7 +117,7 @@ Next steps:
 
 Enjoy Botpress!
 ```
-**ボットプレスコネクタとボット依存関係**
+ **ボットプレスコネクタとボット依存関係** 
 ```
 npm install
 npm install botpress-channel-rocketchat
@@ -126,23 +134,26 @@ npm install botpress-channel-rocketchat
     "scope": ""
 }
 ```
-**ボットを実行**
+ **ボットを実行** 
 ```
 npm start
 ```
-**あなたのボットと話す**
+ **あなたのボットと話す** 
 サーバーでは、通常のユーザー（ボットユーザーではなく）としてログインし、一般的な部屋に移動し、新しく作成したボットに相談してください。
 
-## # 結論 {#conclusion}
+
+### 結論 {#conclusion}
+
 この記事では、ボットプレスでボットを作成する方法を学びました。そして、Rocket.chatでそれを構成する方法。 BotPressにより、ユーザーは革新的な自動化されたワークフローを簡単に作成できます。また、Rocket.Chatとの統合により、会話的な方法でそれらを制御できます。
 
-  
-[1]: #rocketchat
-[2]: #botpress
-[3]: #createbotuser
-[4]: #codebot
-[5]: #conclusion
-[6]: https://products.containerize.com/live-chat/rocketchat
-[7]: https://products.containerize.com/live-chat/botpress
-[8]: https://github.com/RocketChat/botpress-kick-starter
-[9]: https://github.com/RocketChat/botpress-channel-rocketchat
+
+
+ [1]: #rocketchat
+ [2]: #botpress
+ [3]: #createbotuser
+ [4]: #codebot
+ [5]: #conclusion
+ [6]: https://products.containerize.com/live-chat/rocketchat
+ [7]: https://products.containerize.com/live-chat/botpress
+ [8]: https://github.com/RocketChat/botpress-kick-starter
+ [9]: https://github.com/RocketChat/botpress-channel-rocketchat

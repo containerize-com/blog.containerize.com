@@ -26,36 +26,40 @@ Vous trouverez ci-dessous une liste des logiciels de piratage les plus populaire
   * Autres options de logiciels de piratage éthique à considérer:
   * Conclusion
 
-## 1. Metasploit   {#42DB}
+## 1. Metasploit {#42db}
+
 [Metasploit][1] Framework est un outil open-source et peut être téléchargé gratuitement. Metasploit Pro est un produit commercial. L'essai gratuit est disponible pendant 14 jours. Contactez l'entreprise pour en savoir plus sur ses détails de prix.
-Il s'agit du logiciel pour les tests de pénétration. À l'aide du cadre Metasploit, vous pouvez développer et exécuter du code d'exploitation par rapport à une machine distante. Il prend en charge la plate-forme multipliée. Il est **** le meilleur pour construire des outils anti-forensiques et d'évasion.
-**Principales caractéristiques:**
+Il s'agit du logiciel pour les tests de pénétration. À l'aide du cadre Metasploit, vous pouvez développer et exécuter du code d'exploitation par rapport à une machine distante. Il prend en charge la plate-forme multipliée. Il est****le meilleur pour construire des outils anti-forensiques et d'évasion.
+**Principales caractéristiques:** 
   * Il est utile pour connaître les vulnérabilités de sécurité.
   * Aide aux tests de pénétration.
   * Aide au développement de la signature d'IDS.
   * Vous pouvez créer des outils de test de sécurité.
 
-## 2. SQLMAP   {#66FD}
-[SQLMAP][2] est un outil pour automatiser le processus de détection et d'exploitation des défauts d'injection SQL et de prise en charge des serveurs de base de données. Il s'agit d'un outil open-source et dispose d'un puissant moteur de détection. Il prend en charge MySQL, Oracle, PostgreSQL et bien d'autres. Il prend en charge six techniques d'injection SQL, les aveugles booléens, les aveugles basés sur le temps, les erreurs, les requêtes basées sur les requêtes et les requêtes empilées et les bandes hors bande.
+## 2. Sqlmap {#66fd}
+
+[SQLMAP][2] est un outil pour automatiser le processus de détection et d'exploitation des défauts d'injection SQL et de prise en charge des serveurs de base de données. Il s'agit d'un outil open-source et dispose d'un puissant moteur de détection. Il prend en charge MySQL, Oracle, PostgreSQL et bien d'autres. Il prend en charge six techniques d'injection SQL, les aveugles booléens, les aveugles basés sur le temps, les erreurs, les requêtes basées sur les requêtes, les requêtes empilées et les bandes hors bande.
 SQLMAP prend en charge l'exécution de commandes arbitraires et la récupération de leur sortie standard, le téléchargement et le téléchargement de n'importe quel fichier, la recherche de noms de base de données spécifiques, etc. Il vous permettra de vous connecter directement à la base de données.
-**Principales caractéristiques:**
+**Principales caractéristiques:** 
   * Les utilisateurs, les hachages de mot de passe, les droits, les rôles, les bases de données, les tables et les colonnes peuvent tous être énumérés.
   * Les formats de hachage de mot de passe sont automatiquement reconnus et une attaque basée sur le dictionnaire peut être utilisée pour les casser.
   * Prise en charge du vidage des tables de base de données entières, une gamme d'entrées ou des champs de sélection en fonction des préférences de l'utilisateur. L'utilisateur peut également sélectionner un sous-ensemble de caractères de l'entrée de chaque colonne pour vider.
 
-## 3. Hashcat   {#66FD}
+## 3. Hashcat {#66fd}
+
 [Hashcat][3], même si le dernier sur notre liste, est l'un des programmes de craquage de mot de passe et de piratage éthiques les plus puissants disponibles. C'est l'un des meilleurs programmes de pirates disponibles, et il peut aider les utilisateurs à récupérer les mots de passe oubliés, à auditer la sécurité des mots de passe ou à déterminer simplement quelles données sont incluses dans un hachage. Cet outil est disponible gratuitement.
-**Principales caractéristiques:**
+**Principales caractéristiques:** 
   * Prend en charge le fonctionnement du cerveau candidat de mot de passe.
   * Les réseaux de craquage distribués sont pris en charge (utilisant une superposition)
   * La pause / CV interactive est pris en charge.
   * Les séances sont aidées.
   * Aide à la restauration de
 
-## 4. nmap   {#b3ed}
+## 4. NMAP {#b3ed}
+
 [NMAP][4] est un scanner de sécurité, un scanner de port, ainsi qu'un outil d'exploration de réseau. Il s'agit d'un logiciel open-source et est disponible gratuitement. Il est préférable de scanner les réseaux, facile à utiliser et rapide également. Il signifie Network Mapper.
 Il prend en charge la plate-forme multipliée. Il peut être utilisé pour l'inventaire du réseau, la gestion des horaires de mise à niveau des services et pour surveiller l'hôte et la disponibilité des services. Il peut fonctionner pour un seul hôte ainsi que de grands réseaux. Il fournit des packages binaires pour Linux, Windows et Mac OS X.
-**Principales caractéristiques:**
+**Principales caractéristiques:** 
   * Outil de transfert de données, de redirection et de débogage (NCAT),
   * Résultats de numérisation comparant l'utilité (NDIFF),
   * Outil de génération de paquets et d'analyse de réponse (NPing),
@@ -66,15 +70,17 @@ Il prend en charge la plate-forme multipliée. Il peut être utilisé pour l'inv
   * Filtres de paquets qu'ils utilisent.
   * Et de nombreuses autres caractéristiques.
 
-## 5. John The Ripper   {#b3ed}
+## 5. John l'éventreur {#b3ed}
+
 [John the Ripper][5] est un outil pour la fissuration du mot de passe. Il peut être utilisé sur Windows, DOS et Open VMS. Il s'agit d'un outil open-source. Il est créé pour détecter les mots de passe UNIX faibles. Il est préférable pour la fissuration rapide dans le mot de passe.
-**Principales caractéristiques:**
+**Principales caractéristiques:** 
   * John L'éditeur peut être utilisé pour tester divers mots de passe chiffrés.
   * Il effectue des attaques de dictionnaire.
   * Il fournit divers crackers de mot de passe dans un seul package.
   * Il fournit un cracker personnalisable.
 
-## Autres options de logiciels de piratage éthique à considérer:   {#42db}
+## Autres options de logiciels de piratage éthique à considérer: {#42db}
+
 Il existe des dizaines d'autres plate-forme de piratage éthique open source comme indiqué ci-dessous:
   * **Angry IP Scanner** 
   * **Aircrack** 
@@ -82,7 +88,8 @@ Il existe des dizaines d'autres plate-forme de piratage éthique open source com
   * **Nikto** 
   * **Zenmap** 
 
-## Conclusion:   {#4A1A}
+## Conclusion: {#4a1a}
+
 Comme expliqué ici, Metasploit est également pour la sécurité et est bon pour construire des outils anti-formensiques et d'évasion. NMAP est utilisé pour la sécurité informatique et la gestion du réseau. Il est bon pour scanner le réseau. Selon les avis disponibles en ligne, les gens recommandent d'utiliser NMAP au lieu du scanner IP en colère car le scanner IP Angry est livré avec des applications indésirables. John the Ripper est rapide dans le mot de passe. Nikto est un bon outil open source pour les tests de pénétration.
 _WHAT _Open Source Ethical Hacking Tools__ _De que vous utilisez?. Si vous avez des questions ou des commentaires, veuillez vous contacter][6].
 
@@ -94,7 +101,8 @@ Vous pouvez trouver les articles ci-dessous les plus liés:
   * [Options logicielles du marché numérique du numérique][10]
   * [Top 5 des logiciels de stockage cloud open source en 2021][11]
 
-  
+
+
 [1]: https://www.metasploit.com/
 [2]: https://sqlmap.org/
 [3]: https://hashcat.net/hashcat/

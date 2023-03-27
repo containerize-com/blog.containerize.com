@@ -13,9 +13,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
 
 {{< figure align=center src="images/zuMM6v9k-1024x536.png" alt="عملکردهای تجاری را با نرم افزار منبع باز رایگان خودکار کنید">}}
 
-راه اندازی یک تجارت از راه دور با ظهور فن آوری ها و چارچوب های جدید وب ضروری شده است. اکنون هیچ تجارت مشتری محور نمی تواند بدون حضور در وب مرتبط باشد. علاوه بر این ، همه گیر Coronavirus اخیر همه را وادار کرد تا در مورد آن فکر کنند. بنابراین ، تنظیم فرآیندهای تجاری از راه دور یا**بدون کاغذ**ضروری است. استراتژی های واقع بینانه زیادی وجود دارد. با این حال ، استفاده از**رایگان**و**نرم افزار منبع باز**برای بالا بردن فرآیندهای تجاری خود به صورت آنلاین مؤثرترین استراتژی است. مجموعه مناسب نرم افزار منبع باز صالح می تواند به صورت تصاعدی تجارت را رشد دهد.
-بنابراین ، ارائه راه حل های تجاری قوی ، کمتر استرس ، کامل و مهم. ما لیست محبوب ترین و موفق ترین نرم افزار منبع باز سطح شرکت را در [products.containerize.com][1] شروع کرده ایم. علاوه بر این ، ما لیست را با توجه به ماهیت کارکردهای تجاری یا عملیات طبقه بندی کردیم. اطلاعات لازم در مورد هر نرم افزار منبع باز ارائه شده است. به عنوان مثال ، نمای کلی ، مربوط به**مخزن عمومی GitHub**پیوند. علاوه بر این ، ما همچنین نیازهای سیستم ، ویژگی ها ، دستورالعمل های نصب و هرگونه جزئیات مربوطه را نیز مستند می کنیم.
-این**پست وبلاگ مقدماتی**ارائه مروری بر محصولات نرم افزاری منبع باز است که در دسته های فعلی Containerize.com ذکر شده است. پس از آن ، لیست تحت تغییرات مداوم و افزودنی قرار خواهد گرفت. بنابراین ، می توانید انتظار داشته باشید که در هر بازدید جدید ، برخی از نرم افزارهای جدید منبع باز محبوب را در یک گروه پیدا کنید. ممکن است یک دسته جدید را که شامل یک عملکرد مهم تجاری دیگر است ، پیدا کنید.
+راه اندازی یک تجارت از راه دور با ظهور فن آوری ها و چارچوب های جدید وب ضروری شده است. اکنون هیچ تجارت مشتری محور نمی تواند بدون حضور در وب مرتبط باشد. علاوه بر این ، همه گیر Coronavirus اخیر همه را وادار کرد تا در مورد آن فکر کنند. بنابراین ، تنظیم فرآیندهای تجاری از راه دور یا  **بدون کاغذ** ضروری است. استراتژی های واقع بینانه زیادی وجود دارد. با این حال ، استفاده از  **رایگان**  و **نرم افزار منبع باز**  برای بالا بردن فرآیندهای تجاری خود به صورت آنلاین مؤثرترین استراتژی است. مجموعه مناسب نرم افزار منبع باز صالح می تواند به صورت تصاعدی تجارت را رشد دهد.
+بنابراین ، ارائه راه حل های تجاری قوی ، کمتر استرس ، کامل و مهم. ما لیست محبوب ترین و موفق ترین نرم افزار منبع باز سطح شرکت را در [products.containerize.com][1] شروع کرده ایم. علاوه بر این ، ما لیست را با توجه به ماهیت کارکردهای تجاری یا عملیات طبقه بندی کردیم. اطلاعات لازم در مورد هر نرم افزار منبع باز ارائه شده است. به عنوان مثال ، نمای کلی ، مربوط به  **مخزن عمومی GitHub**  پیوند. علاوه بر این ، ما همچنین نیازهای سیستم ، ویژگی ها ، دستورالعمل های نصب و هرگونه جزئیات مربوطه را نیز مستند می کنیم.
+این  **پست وبلاگ مقدماتی**  ارائه مروری بر محصولات نرم افزاری منبع باز است که در دسته های فعلی Containerize.com ذکر شده است. پس از آن ، لیست تحت تغییرات مداوم و افزودنی قرار خواهد گرفت. بنابراین ، می توانید انتظار داشته باشید که در هر بازدید جدید ، برخی از نرم افزارهای جدید منبع باز محبوب را در یک گروه پیدا کنید. ممکن است یک دسته جدید را که شامل یک عملکرد مهم تجاری دیگر است ، پیدا کنید.
   * [سیستم های مدیریت محتوا][2]
   * [سیستم عامل های وبلاگ نویسی][3]
   * [انجمن های بحث و گفتگو][4]
@@ -29,7 +29,8 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [نرم افزار صورتحساب][12]
   * [تک علامت روی سیستم ها][13]
 
-## **تولید و سازماندهی مطالب برای وب سایت تجارت** {#cms
+##  **تولید و سازماندهی مطالب برای وب سایت تجارت**  {#cms}
+
 صفحه وب سایت ، محصولات خانه و صفحات فرود محصولات مکان اصلی بازاریابی برای محصولات یا خدمات ارائه می دهد. بنابراین ، شما می توانید آن را به عنوان یک کارخانه از یک کارخانه در نظر بگیرید که مشتریان می توانند مشاهده کنند ، امتحان کنند و خرید کنند. بنابراین ، شما به یک نرم افزار مناسب مدیریت محتوای محتوا نیاز دارید. علاوه بر این ، این نرم افزار به کنترل ساختار ، چیدمان و جریان محتویات کمک می کند. در دسته نرم افزار CMS ، بسیاری از گزینه های محبوب نرم افزار منبع باز به زبان ها و سیستم عامل های مختلف وجود دارد. در این مرحله ، Containerize.com سیستم عامل های CMS محبوب زیر را پوشش می دهد:
   * [جوملا][14] - یک نرم افزار پیشرو CMS با هزاران پسوند.
   * [دروپال][15] - یک نرم افزار قابل استفاده برای انعطاف پذیر PHP CMS با جامعه پر جنب و جوش
@@ -38,28 +39,31 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [Umbraco][18] - سیستم مدیریت محتوای مبتنی بر .NET انعطاف پذیر و دوستانه
 ما به زودی اطلاعات مربوط به گزینه های بیشتر CMS را به همراه منابع مفید ارائه خواهیم داد. بنابراین ، لطفاً برای به روزرسانی های بیشتر به بخش [مدیریت محتوا][19] توجه کنید.
 
-## **یک بستر خوب وبلاگ نویسی را انتخاب کنید** {#Blogging
+##  **یک بستر وبلاگ نویسی خوب را انتخاب کنید**  {#blogging}
+
 وبلاگ نویسی یک بخش اساسی از هر مشاغل است. شرکت ها از وبلاگ ها برای انتشار به روزرسانی ها و اطلاعیه ها استفاده می کنند. تیم های پشتیبانی همچنین می توانند از وبلاگ ها برای انتشار آموزش های مفید در مورد خدمات و محصولات شما استفاده کنند. علاوه بر این ، ویژگی نظرات یک روش عالی برای تعامل با مخاطبان شما است. به طور خلاصه ، وبلاگ واسطه ای است که مخاطبان خود را آگاه و درگیر نگه می دارد.
-در حال حاضر ،**بهترین سیستم عامل های وبلاگ نویسی**ثبت نام شده است:
-  * [وردپرس][20] - بهترین پلتفرم وبلاگ نویسی با افزونه های غنی و قابلیت میزبانی خود
+در حال حاضر ،  **بهترین سیستم عامل های وبلاگ نویسی**  ثبت نام شده است:
+  * [WordPress][20] - بهترین پلتفرم وبلاگ نویسی با افزونه های غنی و قابلیت میزبانی خود
   * [شبح][21] - پلت فرم انتشار سریع ، ایمن و حرفه ای که در JavaScript نوشته شده است
   * [Jekyll][22] - سایت وبلاگ ساده مبتنی بر زبان یاقوت
   * [serendipity][23] - پلت فرم وبلاگ نویسی مبتنی بر PHP ساده و قدرتمند
   * [Silverstripe][24] - CMS مبتنی بر PHP بسیار قابل تنظیم و بستر وبلاگ نویسی
 نرم افزار وبلاگ نویسی منبع باز بیشتر به لیست اضافه می شود. بنابراین ، لطفاً برای به روزرسانی ها با بخش [نرم افزار وبلاگ نویسی][25] در تماس باشید.
 
-## **انجمن بحث و گفتگو برای ساختمان جامعه** {#forums}
-انجمن بحث و گفتگو برای انجام مباحث عمومی در مورد محصولات ، پیشنهادات یا خدمات شما استفاده می شود. چنین بحث های عمومی مخاطب را ترغیب می کند تا به بحث و گفتگو بپیوندند. بنابراین ، شما می توانید بینش در مورد تجارت خود را با مزیت اضافی در ایجاد جامعه توسعه دهید. مهمتر از همه ، بیشتر فروش ها حول کلمه دهان می چرخند. بنابراین در صورت ، شما می توانید یک جامعه خوب ایجاد کنید ، رشد فروش نیز به دست می آید. علاوه بر این ، از دیدگاه موتور جستجو ، بحث های جامعه در تولید محتوای تازه ادامه می یابد. از این رو ، ارزش ترافیک ارگانیک را نیز اضافه می کند. در حال حاضر ، Containerize.com پشته ای از زیر**انجمن های بحث را حفظ می کند:**
+##  **انجمن بحث برای ایجاد جامعه**  {#forums}
+
+انجمن بحث و گفتگو برای انجام مباحث عمومی در مورد محصولات ، پیشنهادات یا خدمات شما استفاده می شود. چنین بحث های عمومی مخاطب را ترغیب می کند تا به بحث و گفتگو بپیوندند. بنابراین ، شما می توانید بینش در مورد تجارت خود را با مزیت اضافی در ایجاد جامعه توسعه دهید. مهمتر از همه ، بیشتر فروش ها حول کلمه دهان می چرخند. بنابراین در صورت ، شما می توانید یک جامعه خوب ایجاد کنید ، رشد فروش نیز به دست می آید. علاوه بر این ، از دیدگاه موتور جستجو ، بحث های جامعه در تولید محتوای تازه ادامه می یابد. از این رو ، ارزش ترافیک ارگانیک را نیز اضافه می کند. در حال حاضر ، Containerize.com پشته ای از زیر  **انجمن های بحث را حفظ می کند:**   
   * [گفتمان][26]-بهترین پلت فرم بحث و گفتگو با ویژگی های اعتدال داخلی
   * [flarum][27] - بستر بحث و گفتگو در جامعه سبک با تجربه کاربر غنی
   * [وانیل][28] - نرم افزار و دانش مبتنی بر ابر و مبتنی بر ابر در گروه انجمن
   * [nodebb][29] - نرم افزار انجمن بحث و گفتگو مبتنی بر Node.js با ویژگی های اجتماعی مدرن
   * [PHPBB][30]-نرم افزار انجمن قدرتمند بحث و گفتگو با سبک مسطح مبتنی بر PHP
-این نرم افزار منبع باز پشتیبانی کاملی را برای یک پلت فرم بحث و گفتگوی فعال****ارائه می دهد. علاوه بر این ، نرم افزار انجمن بحث و گفتگو در منبع باز مفید و محبوب در بخش [بحث و گفتگو][31] با اطلاعات لازم و مفید اضافه می شود.
+این نرم افزار منبع باز پشتیبانی کاملی را برای یک پلت فرم بحث و گفتگو فعال****ارائه می دهد. علاوه بر این ، نرم افزار انجمن بحث و گفتگو در منبع باز مفید و محبوب در بخش [بحث و گفتگو][31] با اطلاعات لازم و مفید اضافه می شود.
 
-## **سیستم بلیط راهنما برای پشتیبانی مشتری** {#helpdesk}
+##  **سیستم بلیط فروشی HelpDesk برای پشتیبانی مشتری**  {#helpdesk}
+
 خدمات پشتیبانی مشتری مهمترین بخش برای رضایت مشتری است. بدون رضایت مشتری ، بقای شما در معرض خطر است به خصوص هنگامی که گزینه های مختلفی در دسترس است. یک سیستم HelpDesk مبتنی بر بلیط به مشتریان امکان می دهد بلیط های خصوصی را برای مسائلی که با آنها روبرو هستند ایجاد کنند ، در حالی که به صاحبان مشاغل کمک می کند تا یک سیستم سیستماتیک از مشکلات مشتری را حفظ کنند تا توپ هرگز از بین نرود.
-در این گروه ، Containerize.com جزئیات مربوط به منبع باز**سیستم های بلیط را ارائه می دهد:**
+در این گروه ، Containerize.com جزئیات مربوط به منبع باز  **سیستم های بلیط را ارائه می دهد:**   
   * [OSTICKET][32]-سیستم بلیط فروشی مبتنی بر وب چند کاربر بسیار مورد استفاده
   * [UVDESK][33] - راه حل بسیار قابل تنظیم راهنما در ارتباط با تجارت الکترونیک
   * [Zammad][34] - سیستم های بلیط فروشی محبوب با پشتیبانی چند زبانی مرتبط با توییتر و فیس بوک
@@ -67,8 +71,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [Helpy][36] - نرم افزار MulticHannel HelpDesk یکپارچه با MailGun
 اینها سیستم های بلیط پشتیبانی منبع باز محبوب هستند که مشتریان را قادر می سازد تا مشکلات را گزارش دهند. علاوه بر این ، این سیستم ها به تیم های پشتیبانی شما اجازه می دهند تا مسائل گزارش شده خود را حل کنند. بنابراین ، مشتریان و تیم های پشتیبانی می توانند مسائل گزارش شده را پیگیری کنند. لطفاً برای به روزرسانی های بیشتر در مورد بخش [نرم افزار HelpDesk][37] آگاه باشید.
 
-## **اتوماسیون بازاریابی محتوای دیجیتال** {#crm}
-بخش های بازاریابی و فروش از**ابزارهای اتوماسیون بازاریابی**برای کمپین های بازاریابی و فعالیت های فروش به منظور تولید سرب ، درگیر کردن مشتریان و به حداکثر رساندن کارآیی استفاده می کنند. در حال حاضر ، Containerize.com اطلاعات مربوط به پیروی از سیستم عامل های اتوماسیون بازاریابی منبع باز را ارائه می دهد:
+##  **اتوماسیون بازاریابی محتوای دیجیتال**  {#crm}
+
+بخش های بازاریابی و فروش از  **ابزارهای اتوماسیون بازاریابی**  برای کمپین های بازاریابی و فعالیت های فروش به منظور تولید سرب ، درگیر کردن مشتریان و به حداکثر رساندن کارآیی استفاده می کنند. در حال حاضر ، Containerize.com اطلاعات مربوط به پیروی از سیستم عامل های اتوماسیون بازاریابی منبع باز را ارائه می دهد:
   * [Mautic][38] - پلت فرم اتوماسیون بازاریابی برای ارائه کمپین های با عملکرد بالا
   * [Civicrm][39] - CRM همه کاره برای خودکار سازی کمپین های بازاریابی با پسوندهای بسیاری
   * [Suitecrm][40] - نرم افزار اتوماسیون بازاریابی سطح شرکت مبتنی بر PHP
@@ -76,7 +81,8 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [Espocrm][42] - فناوری بازاریابی منبع باز با MailChimp یکپارچه شده است
 در بالا ذکر شده نرم افزار CRM منبع باز به شما در شناسایی مخاطبان خود کمک می کند. علاوه بر این ، اینها به طراحی محتوای مناسب کمک می کنند و به طور خودکار اقدامات را بر اساس برنامه ها و رفتار مشتری ایجاد می کنند. سیستم عامل های اتوماسیون بازاریابی منبع باز بیشتر به لیست اضافه می شوند ، لطفاً برای به روزرسانی ها به بخش [اتوماسیون بازاریابی][43] توجه کنید.
 
-## **نرم افزار چت زنده برای پشتیبانی فوری** {#چت زنده}
+##  **نرم افزار چت زنده برای پشتیبانی فوری**  {#live-chat}
+
 پشتیبانی چت زنده بخشی از یک تجارت آنلاین برای ارائه پاسخ های فوری در زمان واقعی به سؤالات مشتریان غیرقابل اجتناب است. در این گروه ، جزئیات مربوط به دنبال کردن نرم افزار محبوب چت زنده منبع آزاد را می توان در Containeerize.com یافت:
   * [Rocket.Chat][44] - راه حل نرم افزار چت تیمی با چندین ویژگی ارتباطی
   * [Zulip][45]-نرم افزار همکاری در زمان واقعی برای تیم های از راه دور
@@ -86,8 +92,9 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [botkit][49] - سازنده ربات برای Facebook ، Slack و Webchat
 همه موارد فوق نرم افزار چت زنده رایگان و منبع باز است. اینها مطمئناً بهترین نرم افزار چت زنده هستند و از چندین چت به همراه سایر ویژگی های مدرن پشتیبانی می کنند. ما بستر چت منبع باز بیشتری را به لیست اضافه خواهیم کرد. بنابراین ، برای آخرین به روزرسانی ها به بخش [نرم افزار چت زنده][50] توجه کنید.
 
-## **ساخت فرم های تجاری با استفاده از فرم ساز** {#فرم های سازنده}
-شرکت ها برای جمع آوری داده های مربوط به بازخورد مشتری از فرم ها استفاده می کنند. علاوه بر این ، می توانید از فرم هایی برای تقسیم بندی بازاریابی ، نظرسنجی ها و هر تجزیه و تحلیل تحقیق استفاده کنید. از آنجا که این فرم ها HTML مبتنی بر دستگاه مستقل از دستگاه هستند و از دسک تاپ و همچنین دستگاه های هوشمند قابل دسترسی و پر هستند. در این گروه ، Containerize.com اطلاعات مربوط به منبع باز زیر**سازندگان فرم را ارائه می دهد:**
+##  **ساخت فرم های تجاری با استفاده از فرم سازنده**  {#forms-builder}
+
+شرکت ها برای جمع آوری داده های مربوط به بازخورد مشتری از فرم ها استفاده می کنند. علاوه بر این ، می توانید از فرم هایی برای تقسیم بندی بازاریابی ، نظرسنجی ها و هر تجزیه و تحلیل تحقیق استفاده کنید. از آنجا که این فرم ها HTML مبتنی بر دستگاه مستقل از دستگاه هستند و از دسک تاپ و همچنین دستگاه های هوشمند قابل دسترسی و پر هستند. در این گروه ، Containerize.com اطلاعات مربوط به منبع باز زیر  **سازندگان فرم را ارائه می دهد:**   
   * [form.io][51] - بهترین سازنده فرم مبتنی بر وب با پلت فرم API REST برای نرم افزار بدون سرور
   * [orbeon][52] - سازنده فرم وب برای دسترسی آسان و پشتیبانی از تولید PDF از جعبه
   * [Ohmyform][53] - یک جایگزین رایگان برای تایپ برای ساخت فرم های وب تعبیه شده و نظرسنجی های آنلاین
@@ -96,43 +103,48 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [formtools][56] - یک شکل باورنکردنی و راه حل مدیریت داده با پشتیبانی ساخته شده برای recaptcha و تجسم داده ها
 این نرم افزار منبع باز قابلیت ها و ویژگی های منحصر به فردی را ارائه می دهد. به عنوان مثال رابط کشیدن و رها کردن ، نقش ها/مدیریت کاربر ، مدیریت داده ها و فرم های تعبیه شده. سیستم عامل های تولید کننده فرم HTML منبع باز بیشتر به لیست اضافه می شوند. بنابراین برای به روزرسانی های بعدی ، لطفاً به بخش [نرم افزار فرم][57] مراجعه کنید.
 
-## **سیستم عامل های تحویل ایمیل یا فله** {#معامله-ایمیل}
-برخی از رویدادها و کمپین های برنامه های وب باعث ایجاد ایمیل های معامله می شوند. پس از خدمات ایمیل معامله ای به تنظیم گردش کار تجاری برای این رویدادها کمک می کند. می توانید اطلاعات بیشتری در مورد این موارد در [products.containerize.com][1] پیدا کنید.**نرم افزار ایمیل معامله:**
+##  **سیستم عامل های تحویل ایمیل یا فله**  {#transactional-email}
+
+برخی از رویدادها و کمپین های برنامه های وب باعث ایجاد ایمیل های معامله می شوند. پس از خدمات ایمیل معامله ای به تنظیم گردش کار تجاری برای این رویدادها کمک می کند. می توانید اطلاعات بیشتری در مورد این موارد در [products.containerize.com][1] پیدا کنید.  **نرم افزار ایمیل معامله:**   
   * [Postal][58] - در مورد جایگزین فرضیه SendGrid و MailGun برای ارسال ایمیل از برنامه های وب و تلفن همراه خود.
   * [cuttlefish][59] - نرم افزار تحویل پست الکترونیکی خود میزبان منبع باز با ویژگی های ردیابی ایمیل.
   * [Mail-in-A-Box][60]-یک سرور پست الکترونیکی مبتنی بر PostFix برای تنظیم Gmail خود بدون تخصص فنی.
   * [postfix][61] - یک سرور پست الکترونیکی برای مسیریابی و تحویل ایمیل.
   * [EXIM][62] - یک نرم افزار محبوب مسیریابی ایمیل ، که بر شخصی سازی و امنیت متمرکز است.
   * [IREDMAIL][63] - یک راه حل کامل سرور پست الکترونیکی بر اساس PostFix.
-علاوه بر این**سیستم عامل های پستی**به لیست ذکر شده در بالا اضافه می شود. لطفاً در بخش [نرم افزار ایمیل معامله ای][64] چشم خود را حفظ کنید.
+علاوه بر این  **سیستم عامل های پستی**  به لیست ذکر شده در بالا اضافه می شود. لطفاً در بخش [نرم افزار ایمیل معامله ای][64] چشم خود را حفظ کنید.
 
-## **خبرنامه AKA نرم افزار بازاریابی ایمیل** {#newsletter
-یک خبرنامه به خوبی طراحی شده برای گسترش قرار گرفتن در معرض مهم است. همچنین به ارتباط با مشتریان کمک می کند. بنابراین ، نرم افزار خبرنامه برای طراحی خبرنامه های ظریف ضروری می شود. علاوه بر این ، Containerize.com اطلاعات مربوط به منبع باز**نرم افزار طراحی خبرنامه را ارائه می دهد:**
+##  **خبرنامه AKA نرم افزار بازاریابی ایمیل**  {#newsletter}
+
+یک خبرنامه به خوبی طراحی شده برای گسترش قرار گرفتن در معرض مهم است. همچنین به ارتباط با مشتریان کمک می کند. بنابراین ، نرم افزار خبرنامه برای طراحی خبرنامه های ظریف ضروری می شود. علاوه بر این ، Containerize.com اطلاعات مربوط به منبع باز  **نرم افزار طراحی خبرنامه را ارائه می دهد:**   
   * [Phplist][65] - نرم افزار بازاریابی ایمیل برای ارسال خبرنامه به مخاطبان بزرگ.
   * [MailTrain][66] - برنامه خبرنامه خود میزبان ساخته شده برای مدیریت لیست پستی عظیم.
   * [ListMonk][67]-یک خبرنامه معتبر ، ایمن و بسته بندی شده و نرم افزار لیست پستی.
   * [Moonmail][68] - یک خبرنامه منبع باز و سیستم لیست پستی که از ادغام با آمازون SES پشتیبانی می کند.
   * [Mailman][69]-نرم افزار پیش فرض رایگان برای مدیریت لیست های پستی و ارسال خبرنامه.
-* * A**BOVE ذکر شده نرم افزار بازاریابی ایمیل با پشته های غنی از ویژگی ها همراه است. مانند آهنگسازی و خبرنامه هایی که در غیر این صورت طراحی و نگهداری آنها به دلیل ارائه غیرقابل پیش بینی مشتری های پست الکترونیکی دشوار است. در آینده نزدیک ، نرم افزار بازاریابی ایمیل رایگان و منبع باز به بخش [نرم افزار خبرنامه][70] اضافه می شود.
+**A** BOVE ذکر شده نرم افزار بازاریابی ایمیل با پشته های غنی از ویژگی ها همراه است. مانند آهنگسازی و خبرنامه هایی که در غیر این صورت طراحی و نگهداری آنها به دلیل ارائه غیرقابل پیش بینی مشتری های پست الکترونیکی دشوار است. در آینده نزدیک ، نرم افزار بازاریابی ایمیل رایگان و منبع باز به بخش [نرم افزار خبرنامه][70] اضافه می شود.
 
-## **وضعیت سرور مانیتور AKA STATUSPAGE نرم افزار** {#وضعیت صفحه}
+##  **وضعیت سرور مانیتور AKA STATUSPAGE نرم افزار**  {#status-page}
+
 از ابزارهای نظارت برای بررسی وضعیت و عملکرد اجزای نرم افزاری بحرانی استفاده می شود. در این گروه ، جزئیات مربوط به محصولات نظارت بر وضعیت سرور زیر در Containerize.com موجود است:
-  * [cachet][71] - بهترین نظارت بر خرابی مقرون به صرفه با سیستم صفحه وضعیت Cachet
+  * [cachet][71] - بهترین نظارت بر خرابی مقرون به صرفه با سیستم صفحه وضعیت cachet
   * [Stating][72]-صفحه وضعیت خود میزبان برای نظارت بر وب سایت ها و خدمات
   * [مانیتور][73] - یک منبع نظارت سبک وزن و قابل اعتماد برای همه ابزارهای شما در یک مکان.
 محصولات فوق منبع باز هستند و ویژگی های غنی را ارائه می دهند که شامل ادغام با سایر خدمات میزبان****است. این محصولات همچنین نظارت و قابلیت اطمینان خرابی مقرون به صرفه را ارائه می دهند. لطفاً در مورد افزودن محصولات بیشتر در بخش [نرم افزار صفحه وضعیت][74] آگاه باشید.
 
-## **نرم افزار حسابداری با نام نرم افزار صورتحساب** {#invoicing}
+##  **نرم افزار حسابداری با نام نرم افزار صورتحساب**  {#invoicing}
+
 اگر در حال فروش محصولات یا خدمات هستید ، واقعاً علاقه مند به داشتن یک نرم افزار صورتحساب در تجارت هستید. بنابراین ، Containerize.com جزئیات مربوط به یک نرم افزار صورتحساب منبع باز را ارائه می دهد:
   * [Fondoiceninja][75] - مدیر فاکتور برای فاکتور ، صورتحساب و مدیریت پرداخت.
   * [با نام مستعار][76] - یک راه حل حسابداری آنلاین برای مدیریت و ردیابی پول.
   * [فاکتورپلن][77]-یک کتاب با غنی از ویژگی و خود میز نگه داشتن نرم افزار برای کلیه عملیات حسابداری.
   * [Bill Bill][78] - یک نرم افزار فاکتور و پرداخت منبع آزاد و منبع باز.
   * [کارتر][79]-یک سیستم صورتحساب خود میزبان که به مشاغل کوچک اجازه می دهد تا فاکتورها تولید کنند.
-این**راه حل های مالی**صورتحساب خودرو صرفه جویی در وقت ، گزارش جامع از پرداخت ها و موارد دیگر را ارائه می دهد. جالبترین قسمت گزینه خودآزایی است که به شما امکان می دهد کل سیستم را در تجارت خود تنظیم کنید. نرم افزار صورتحساب منبع باز بیشتر اضافه می شود. لطفاً برای به روزرسانی های منظم به بخش [نرم افزار صورتحساب][80] مراجعه کنید.
+این  **راه حل های مالی**  صورتحساب خودرو صرفه جویی در وقت ، گزارش جامع از پرداخت ها و موارد دیگر را ارائه می دهد. جالبترین قسمت گزینه خودآزایی است که به شما امکان می دهد کل سیستم را در تجارت خود تنظیم کنید. نرم افزار صورتحساب منبع باز بیشتر اضافه می شود. لطفاً برای به روزرسانی های منظم به بخش [نرم افزار صورتحساب][80] مراجعه کنید.
 
-## **احراز هویت متمرکز یا یک علامت واحد در** {#sso
-* * Single Sign-On**راه حل به کاربر اجازه می دهد تا با استفاده از همان مجموعه اعتبارنامه ، به سیستم های مختلف در یک سازمان دسترسی پیدا کند. مشاغل سازمانی همیشه تمایل به بهبود توانایی های امنیتی برای مقابله با تهدیدها و خطرات احتمالی دارند. در ضمن ، یک نقطه مدیریت کاربر واحد را برای همه برنامه های وب حفظ کنید. Containerize.com نور را بر روی منبع باز زیر**SSO Solutions:**روشن می کند
+##  **احراز هویت متمرکز یا یک علامت واحد در**  {#sso}
+
+ **Single Sign-On** راه حل به کاربر اجازه می دهد تا با استفاده از همان مجموعه اعتبارنامه ، به سیستم های مختلف در یک سازمان دسترسی پیدا کند. مشاغل سازمانی همیشه تمایل به بهبود توانایی های امنیتی برای مقابله با تهدیدها و خطرات احتمالی دارند. در ضمن ، یک نقطه مدیریت کاربر واحد را برای همه برنامه های وب حفظ کنید. Containerize.com نور را بر روی منبع باز زیر **SSO Solutions:**  روشن می کند
   * [IdentityServer][81] - به شما امکان می دهد راه حل ارائه دهنده هویت خود را با استفاده از پروتکل OpenID Connect تنظیم کنید.
   * [KeyCloak][15] - به شما امکان می دهد با استفاده از OAUTH2.0 ، پروتکل های OpenID Connect ، ارائه دهنده هویت و سیستم مدیریت دسترسی را توسعه دهید و با LDAP و Active Directory به خوبی کار می کند.
   * [CAS][82] - علامت واحد چند زبانه با تأیید اعتبار.
@@ -141,95 +153,96 @@ categories: ['Blogging', 'Content Management', 'Discussion Forum', 'Form', 'Help
   * [OpenIdentityPlatform][85] - پلت فرم منبع باز برای یک علامت تک ، SAML 2.0 OAUTH 2.0 و پروتکل های OpenID Connect.
 به همین ترتیب ، دسته های دیگر ، [Containerize.com][1] به طور مداوم در این گروه کار می کند تا محصولات SSO بیشتری را در پشته تحت فشار قرار دهد. بنابراین ، لطفاً برای آخرین به روزرسانی ها در مورد بخش [Single Sign-On][86] به روز شوید.
 
-## **افکار نهایی**
-در پایان ، انتخاب اتوماسیون مناسب**فرآیند تجاری**ابزارها برای اجرای یک تجارت از راه دور بدون کاغذ**یا حتی یک تجارت فیزیکی اجباری هستند. ابزارهای ذکر شده در این پست وبلاگ صرفه جویی در وقت و صرفه جویی در هنگام کار از هرجای دیگر است و همه آنها نرم افزار منبع باز هستند ،**تنظیم و گسترش آسان در هر بخش از تجارت.
+##  **افکار نهایی**  
+در پایان ، انتخاب اتوماسیون مناسب  **فرآیند تجاری** ابزارها برای اجرای یک تجارت از راه دور بدون کاغذ **یا حتی یک تجارت فیزیکی اجباری هستند. ابزارهای ذکر شده در این پست وبلاگ صرفه جویی در وقت و صرفه جویی در هنگام کار از هرجای دیگر است و همه آنها نرم افزار منبع باز هستند ،**  تنظیم و گسترش آسان در هر بخش از تجارت.
 بنابراین ، Containerize.com در راه افزایش پشته محصولات منبع باز به زبان های مختلف و چارچوب ها است. برای به روزرسانی های منظم ، لطفاً در [Containerize.com][1] با ما همراه باشید. برای هرگونه پیشنهاد ، بازخورد یا سوالات ، لطفاً با شروع موضوعی در [انجمن پشتیبانی][87] با ما در تماس باشید.
 
-  
-[1]: https://products.containerize.com/
-[2]: #cms
-[3]: #blogging
-[4]: #forums
-[5]: #helpdesk
-[6]: #crm
-[7]: #live-chat
-[8]: #forms-builder
-[9]: #transactional-email
-[10]: #newsletter
-[11]: #status-page
-[12]: #invoicing
-[13]: #sso
-[14]: https://products.containerize.com/content-management/joomla
-[15]: https://products.containerize.com/content-management/drupal
-[16]: https://products.containerize.com/content-management/pyro
-[17]: #
-[18]: https://products.containerize.com/content-management/umbraco
-[19]: https://products.containerize.com/content-management
-[20]: https://products.containerize.com/blogging/wordpress
-[21]: https://products.containerize.com/blogging/jekyll
-[22]: https://products.containerize.com/blogging/ghost
-[23]: https://products.containerize.com/blogging/serendipity
-[24]: https://products.containerize.com/blogging/silverstripe
-[25]: https://href.li/?https://products.containerize.com/blogging
-[26]: https://products.containerize.com/discussion-forum/discourse
-[27]: https://products.containerize.com/discussion-forum/flarum
-[28]: https://products.containerize.com/discussion-forum/vanilla
-[29]: https://products.containerize.com/discussion-forum/nodebb
-[30]: https://products.containerize.com/discussion-forum/phpbb
-[31]: https://products.containerize.com/discussion-forum
-[32]: https://products.containerize.com/helpdesk/osticket
-[33]: https://products.containerize.com/helpdesk/uvdesk
-[34]: https://products.containerize.com/helpdesk/zammad
-[35]: https://products.containerize.com/helpdesk/freescout
-[36]: https://products.containerize.com/helpdesk/helpy
-[37]: https://products.containerize.com/helpdesk
-[38]: https://products.containerize.com/marketing-automation/mautic
-[39]: https://products.containerize.com/marketing-automation/civicrm
-[40]: https://products.containerize.com/marketing-automation/suitecrm
-[41]: https://products.containerize.com/marketing-automation/odoo
-[42]: https://products.containerize.com/marketing-automation/espocrm
-[43]: https://products.containerize.com/marketing-automation
-[44]: https://products.containerize.com/live-chat/rocketchat
-[45]: https://products.containerize.com/live-chat/zulip
-[46]: https://products.containerize.com/live-chat/lets-chat
-[47]: https://products.containerize.com/live-chat/mattermost
-[48]: https://products.containerize.com/live-chat/botpress
-[49]: https://products.containerize.com/live-chat/botkit
-[50]: https://products.containerize.com/live-chat
-[51]: https://products.containerize.com/form/formio
-[52]: https://products.containerize.com/form/orbeon
-[53]: https://products.containerize.com/form/ohmyform
-[54]: https://products.containerize.com/form/webiny
-[55]: https://products.containerize.com/form/formbuilder
-[56]: https://products.containerize.com/form/formtools
-[57]: https://products.containerize.com/form
-[58]: https://products.containerize.com/transactional-email/postal
-[59]: https://products.containerize.com/transactional-email/cuttlefish
-[60]: https://products.containerize.com/transactional-email/mail-in-a-box
-[61]: https://products.containerize.com/transactional-email/postfix
-[62]: https://products.containerize.com/transactional-email/exim
-[63]: https://products.containerize.com/transactional-email/iredmail
-[64]: https://products.containerize.com/transactional-email
-[65]: https://products.containerize.com/newsletter/phplist
-[66]: https://products.containerize.com/newsletter/mailtrain
-[67]: https://products.containerize.com/newsletter/listmonk
-[68]: https://products.containerize.com/newsletter/moonmail
-[69]: https://products.containerize.com/newsletter/mailman
-[70]: https://products.containerize.com/newsletter
-[71]: https://products.containerize.com/status/cachet
-[72]: https://products.containerize.com/status/statping
-[73]: https://products.containerize.com/status/monitoror
-[74]: https://products.containerize.com/status
-[75]: https://products.containerize.com/invoicing/invoiceninja
-[76]: https://products.containerize.com/invoicing/akaunting
-[77]: https://products.containerize.com/invoicing/invoiceplane
-[78]: https://products.containerize.com/invoicing/killbill
-[79]: https://products.containerize.com/invoicing/crater
-[80]: https://products.containerize.com/invoicing
-[81]: https://products.containerize.com/single-sign-on/identity-server
-[82]: https://products.containerize.com/single-sign-on/cas
-[83]: https://products.containerize.com/single-sign-on/authelia
-[84]: https://products.containerize.com/single-sign-on/wso2
-[85]: https://products.containerize.com/single-sign-on/openidentityplatform
-[86]: https://products.containerize.com/single-sign-on
-[87]: https://forum.containerize.com
+
+
+ [1]: https://products.containerize.com/
+ [2]: #cms
+ [3]: #blogging
+ [4]: #forums
+ [5]: #helpdesk
+ [6]: #crm
+ [7]: #live-chat
+ [8]: #forms-builder
+ [9]: #transactional-email
+ [10]: #newsletter
+ [11]: #status-page
+ [12]: #invoicing
+ [13]: #sso
+ [14]: https://products.containerize.com/content-management/joomla
+ [15]: https://products.containerize.com/content-management/drupal
+ [16]: https://products.containerize.com/content-management/pyro
+ [17]: #
+ [18]: https://products.containerize.com/content-management/umbraco
+ [19]: https://products.containerize.com/content-management
+ [20]: https://products.containerize.com/blogging/wordpress
+ [21]: https://products.containerize.com/blogging/jekyll
+ [22]: https://products.containerize.com/blogging/ghost
+ [23]: https://products.containerize.com/blogging/serendipity
+ [24]: https://products.containerize.com/blogging/silverstripe
+ [25]: https://href.li/?https://products.containerize.com/blogging
+ [26]: https://products.containerize.com/discussion-forum/discourse
+ [27]: https://products.containerize.com/discussion-forum/flarum
+ [28]: https://products.containerize.com/discussion-forum/vanilla
+ [29]: https://products.containerize.com/discussion-forum/nodebb
+ [30]: https://products.containerize.com/discussion-forum/phpbb
+ [31]: https://products.containerize.com/discussion-forum
+ [32]: https://products.containerize.com/helpdesk/osticket
+ [33]: https://products.containerize.com/helpdesk/uvdesk
+ [34]: https://products.containerize.com/helpdesk/zammad
+ [35]: https://products.containerize.com/helpdesk/freescout
+ [36]: https://products.containerize.com/helpdesk/helpy
+ [37]: https://products.containerize.com/helpdesk
+ [38]: https://products.containerize.com/marketing-automation/mautic
+ [39]: https://products.containerize.com/marketing-automation/civicrm
+ [40]: https://products.containerize.com/marketing-automation/suitecrm
+ [41]: https://products.containerize.com/marketing-automation/odoo
+ [42]: https://products.containerize.com/marketing-automation/espocrm
+ [43]: https://products.containerize.com/marketing-automation
+ [44]: https://products.containerize.com/live-chat/rocketchat
+ [45]: https://products.containerize.com/live-chat/zulip
+ [46]: https://products.containerize.com/live-chat/lets-chat
+ [47]: https://products.containerize.com/live-chat/mattermost
+ [48]: https://products.containerize.com/live-chat/botpress
+ [49]: https://products.containerize.com/live-chat/botkit
+ [50]: https://products.containerize.com/live-chat
+ [51]: https://products.containerize.com/form/formio
+ [52]: https://products.containerize.com/form/orbeon
+ [53]: https://products.containerize.com/form/ohmyform
+ [54]: https://products.containerize.com/form/webiny
+ [55]: https://products.containerize.com/form/formbuilder
+ [56]: https://products.containerize.com/form/formtools
+ [57]: https://products.containerize.com/form
+ [58]: https://products.containerize.com/transactional-email/postal
+ [59]: https://products.containerize.com/transactional-email/cuttlefish
+ [60]: https://products.containerize.com/transactional-email/mail-in-a-box
+ [61]: https://products.containerize.com/transactional-email/postfix
+ [62]: https://products.containerize.com/transactional-email/exim
+ [63]: https://products.containerize.com/transactional-email/iredmail
+ [64]: https://products.containerize.com/transactional-email
+ [65]: https://products.containerize.com/newsletter/phplist
+ [66]: https://products.containerize.com/newsletter/mailtrain
+ [67]: https://products.containerize.com/newsletter/listmonk
+ [68]: https://products.containerize.com/newsletter/moonmail
+ [69]: https://products.containerize.com/newsletter/mailman
+ [70]: https://products.containerize.com/newsletter
+ [71]: https://products.containerize.com/status/cachet
+ [72]: https://products.containerize.com/status/statping
+ [73]: https://products.containerize.com/status/monitoror
+ [74]: https://products.containerize.com/status
+ [75]: https://products.containerize.com/invoicing/invoiceninja
+ [76]: https://products.containerize.com/invoicing/akaunting
+ [77]: https://products.containerize.com/invoicing/invoiceplane
+ [78]: https://products.containerize.com/invoicing/killbill
+ [79]: https://products.containerize.com/invoicing/crater
+ [80]: https://products.containerize.com/invoicing
+ [81]: https://products.containerize.com/single-sign-on/identity-server
+ [82]: https://products.containerize.com/single-sign-on/cas
+ [83]: https://products.containerize.com/single-sign-on/authelia
+ [84]: https://products.containerize.com/single-sign-on/wso2
+ [85]: https://products.containerize.com/single-sign-on/openidentityplatform
+ [86]: https://products.containerize.com/single-sign-on
+ [87]: https://forum.containerize.com

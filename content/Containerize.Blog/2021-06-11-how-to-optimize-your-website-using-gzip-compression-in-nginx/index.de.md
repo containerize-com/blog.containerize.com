@@ -21,20 +21,24 @@ Dieser Artikel befindet sich in Fortsetzung unserer Tutorials über Nginx. Bishe
   * [Überprüfen Sie die GZIP -Komprimierung][5]
   * [Schlussfolgerung][6]
 
-## Website -Optimierung mit Komprimierung   {#optimize}
+## Website -Optimierung mit Komprimierung {#optimize}
+
 Die Leistung einer Website hängt von einer Reihe von Faktoren ab. Einer der Faktoren, von denen es teilweise abhängt, ist die Größe aller Dateien, die der Browser eines Benutzers von Ihrem Server herunterladen muss. Durch Reduzieren oder Komprimieren der Größe dieser übertragenen Dateien kann Ihre Website für den Benutzer schneller geladen werden. Es kann auch die Rechnung für Ihre Website reduzieren, falls Sie für die Bandbreitennutzung für gemessene Verbindungen bezahlen. Komprimierung kann also eine sehr wichtige Rolle bei Ihrer Website -Optimierung spielen.
 Da Google und andere Suchmaschinen die Benutzererfahrung einer Website (UX) als entscheidende Faktor in ihren Ranking -Algorithmen in Betracht ziehen. Es ist wichtiger geworden, Ihre Website für Top -Bewertungen zu verbessern und zu optimieren. Zu den wichtigsten Faktoren, auf die Sie achten sollten, gehören die Seitengeschwindigkeit und die Ladezeiten. Der schnellste und einfachste Weg, um die Geschwindigkeit und Leistung Ihrer Website zu verbessern, besteht darin, die Gzip -Komprimierung auf Ihrer Website zu ermöglichen.
 
-## Was ist GZIP -Komprimierung?   {#What-Gzip}
+## Was ist Gzip -Komprimierung? {#what-gzip}
+
 GZIP ist ein **Dateiformat und eine Softwareanwendung** , die für die Dateikomprimierung und Dekompression verwendet wird. Webserver oder andere Software verwenden die GZIP -Komprimierung, um Datendateien zu komprimieren, bevor sie an die Browser der Benutzer gesendet werden. Dies verkürzt die Download -Zeit für die Datei, die Ihre Website schneller macht. Alle modernen Browser unterstützen die GZIP -Komprimierung.
 Es ist auch wichtig zu beachten, dass die GZIP -Komprimierung auf Ihrem Webserver aktiviert werden muss, bevor Sie die Datei- und Ordnerkomprimierung aktivieren können. In Kürze werden wir sehen, wie die Gzip -Komprimierung in Nginx aktiviert werden kann.
 
-## Wie funktioniert die Gzip -Komprimierung?   {#how-gzip}
+## Wie funktioniert die Gzip -Komprimierung? {#how-gzip}
+
 GZIP, die beliebteste Komprimierungsmethode, wird von Webservern und Browsern verwendet, um den Inhalt zu komprimieren und zu dekomprimieren, wenn sie über das Internet übertragen werden. Es wird hauptsächlich in Code- und Textdateien verwendet. GZIP kann die Größe von JavaScript-, CSS- und HTML -Dateien um bis zu 90%verringern.
 Standardmäßig komprimiert die GZIP -Komprimierung keine Bilder oder Videos. Aus diesem Grund empfehlen die meisten Tools für die Speed ​​-Test -Test -Testtests von Google PageSpeed ​​dringend, die GZIP -Komprimierung zu aktivieren.
 Wenn ein Webserver eine Anfrage für eine Webseite erhält, überprüft der Webserver den Kopfzeilen der Anfrage, um zu überprüfen, ob der Browser GZIP unterstützt. In diesem Fall generiert der Server das Markup für die Seite, bevor Sie GZIP anwenden. GZIP wandelt das HTML-Markup in eine komprimierte Daten um, die dann an den Endbenutzer zugeführt wird. Wenn der Endbenutzer die komprimierten Daten empfängt, dekomprimiert sein Browser sie.
 
-## Aktivieren Sie die GZIP-Komprimierung in nginx   {#enable-gzip}
+## Aktivieren Sie die GZIP -Komprimierung in Nginx {#enable-gzip}
+
 Um die Nginx -GZIP -Konfiguration zu ändern, öffnen Sie die Hauptnginx -Konfigurationsdatei in „_vi_“ oder in Ihrem bevorzugten Texteditor:
 ```
 sudo vi /etc/nginx/nginx.conf
@@ -98,7 +102,8 @@ gzip_types
 ```
 Starten Sie nun Nginx neu, um neue Einstellungen in Kraft zu setzen.
 
-## Überprüfen Sie die GZIP -Komprimierung   {#Verify}
+## Überprüfen Sie die GZIP -Kompression {#verify}
+
 Nachdem wir die GZIP -Komprimierung aktiviert haben, lassen Sie es uns überprüfen.
 ```
 curl -H "Accept-Encoding: gzip" -I http://localhost/test.html
@@ -117,14 +122,16 @@ ETag: W/"6222dc8d-500"
 <strong>Content-Encoding: gzip</strong>
 ```
 
-## Schlussfolgerung   {#Conclusion}
+## Abschluss {#conclusion}
+
 In diesem Artikel haben wir erfahren, dass Sie das Nginx -GZIP -Modul verwenden können, um Dateiübertragungen zu beschleunigen. Wir haben Ihnen Schritt für Schritt gezeigt, wie Sie die GZIP -Komprimierung in Nginx mithilfe des GZIP -Moduls aktivieren können. In der offiziellen Dokumentation für [GZIP -Modul][7] werden andere Konfigurationsanweisungen aufgeführt, die Sie sich möglicherweise ansehen möchten. Ich hoffe, dieses Tutorial hilft Ihnen bei der Optimierung Ihrer Website -Leistung und -geschwindigkeit.
 
 ## Erkunden
   * [So installieren Sie mehrere PHP -Versionen mit Nginx auf Ubuntu][8]
   * [So richten und konfigurieren Sie Nginx als Reverse Proxy][9]
 
-  
+
+
 [1]: #optimize
 [2]: #what-gzip
 [3]: #how-gzip

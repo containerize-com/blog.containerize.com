@@ -19,11 +19,13 @@ Cho dù bạn chỉ chụp với điện thoại thông minh của mình hay b�
   * [Cách sử dụng Digikam?][4]
   * [Kết luận][5]
 
-## Digikam là gì?   {#digikam}
+## Digikam là gì? {#digikam}
+
 Đối với bất kỳ nhiếp ảnh gia kỹ thuật số nào có một phần mềm sẽ hỗ trợ quy trình chụp ảnh và làm cho nó liền mạch có thể tạo ra sự khác biệt lớn đối với không chỉ chất lượng ảnh của bạn mà cả quá trình chỉnh sửa. Digikam là một người quản lý quy trình chụp ảnh kỹ thuật số cho phép các nhiếp ảnh gia không chỉ phân loại các tệp một cách riêng biệt với số lượng lớn, mà còn áp dụng nhiều hiệu ứng chỉnh sửa. Bạn cũng có thể trực tiếp tải lên hình ảnh thô và chuyển đổi chúng thành DNG mà không mất chất lượng và hỗ trợ nhiều mẫu máy ảnh kỹ thuật số. Là trình chỉnh sửa hình ảnh nguồn mở, bạn cũng có thể lưu trữ các tệp cục bộ hoặc trên máy chủ từ xa. Digikam cung cấp nhiều hỗ trợ cơ sở dữ liệu bao gồm SQL, MySQL và MariaDB.
 Digikam có giao diện dễ sử dụng. Nó cho phép bạn kết nối với máy ảnh hoặc hình ảnh xem trước. Bố cục của nó rất trực quan và dễ hiểu. Ở bên trái có các điều khiển để xem ảnh và bên phải có các điều khiển cho các hiệu ứng và bộ lọc. DGIKAM về cơ bản là một ứng dụng hoàn chỉnh và ổn định trong một thời gian khá lâu, vì vậy, nó sẽ là một trải nghiệm tốt cho bạn.
 
-## Làm thế nào để cài đặt Digikam?   {#cài đặt}
+## Làm thế nào để cài đặt Digikam? {#install}
+
 [Digikam][1] Hỗ trợ nhiều hệ điều hành bao gồm Windows, Mac OS và Linux. Là một phần mềm chỉnh sửa hình ảnh miễn phí, phiên bản Digikam mới nhất khá ổn định và sẵn sàng để được cài đặt cho hệ điều hành ưa thích của bạn.
 Đối với Linux đây là cách cài đặt Digikam:
 {{_LINE_23_}}
@@ -48,7 +50,8 @@ sudo apt install digikam
   * Và bạn đã hoàn tất, bây giờ bạn có thể khởi chạy ứng dụng và thiết lập hành vi tệp theo nhu cầu của bạn.
 Điều quan trọng cần lưu ý là sự ra mắt đầu tiên của Digikam sẽ là hiệu suất chậm, vì Digikam sẽ phân tích bộ sưu tập ảnh của bạn và tạo thông tin cho nó. Điều này có thể mất một thời gian để tốt hơn là để nó chạy qua đêm nếu bạn có một bộ sưu tập lớn và bắt đầu sử dụng vào ngày hôm sau. Bây giờ chúng ta có thể chuyển sang chỉnh sửa hình ảnh với phần mềm chỉnh sửa ảnh nguồn mở này.
 
-## Làm thế nào để sử dụng Digikam?   {#sử dụng}
+## Làm thế nào để sử dụng Digikam? {#use}
+
 Digikam có một giao diện khá dễ dàng để điều hướng và hiểu được cho phép các nhiếp ảnh gia và biên tập viên hình ảnh bắt đầu với quy trình làm việc của họ ngay lập tức. Cho dù bạn đang tải lên hình ảnh trực tiếp từ máy ảnh, máy chủ cục bộ hoặc máy chủ từ xa, Digikam có làm cho việc tổ chức và chỉnh sửa hình ảnh kỹ thuật số khá đơn giản và nhanh chóng.
 Một trong những tính năng chính của Digikam là bảng ánh sáng tự động hiển thị các cải tiến có thể tinh chỉnh chất lượng ảnh kỹ thuật số của bạn mà không mất chất lượng. Nó chỉ đơn giản là chạm vào và đi. Tương tự, trình soạn thảo hình ảnh của Digikam cung cấp nhiều công cụ và hiệu ứng giúp chỉnh sửa khá dễ dàng và đơn giản.
 Dưới đây là tất cả các chỉnh sửa hình ảnh bạn có thể làm thông qua Digikam:
@@ -101,7 +104,8 @@ Dưới đây là tất cả các chỉnh sửa hình ảnh bạn có thể làm
 {{< figure align=center src="images/Beginners-Guide-To-Start-Free-Image-Editing-Using-Digikam-6-1024x570.jpeg" alt="Hướng dẫn của người mới bắt đầu để bắt đầu chỉnh sửa hình ảnh miễn phí bằng Digikam">}}
 
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Digikam là một phần mềm chỉnh sửa hình ảnh hữu ích, chức năng, dễ điều hướng, đơn giản và miễn phí và quản lý công việc chụp ảnh kỹ thuật số. Nó cho phép bạn sắp xếp hình ảnh của bạn và chỉnh sửa chúng là tốt. Chúng tôi hy vọng hướng dẫn này hữu ích trong việc cung cấp cho bạn một sự hiểu biết cơ bản về những gì bạn có thể đạt được với Digikam như một nhiếp ảnh gia kỹ thuật số mới hoặc nâng cao. Để đọc thêm các đánh giá và hướng dẫn về các ứng dụng phần mềm hữu ích cho các cuộc phiêu lưu chỉnh sửa hình ảnh và chụp ảnh của bạn, hãy chú ý đến các chủ đề mới trên [containerize.com][6].
 
 ## Khám phá
@@ -110,7 +114,8 @@ Digikam là một phần mềm chỉnh sửa hình ảnh hữu ích, chức năn
   * [Digikam | Một ứng dụng quản lý ảnh kỹ thuật số nguồn mở][1]
   * [Top 5 Phần mềm Trình chỉnh sửa ảnh nguồn mở vào năm 2021][8]
 
-  
+
+
 [1]: https://products.containerize.com/photo-editing-software/digikam/
 [2]: #digikam
 [3]: #install

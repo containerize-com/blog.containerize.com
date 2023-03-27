@@ -21,13 +21,19 @@ Il est difficile d'intégrer un forum avec des sites Web alimentés par WordPres
   * [Installation][4]
   * [Paramètres][5]
 
-## # Discours   {#Discourse}
+
+### Discours {#discourse}
+
 Le discours est un logiciel de forum de discussion communautaire riche en fonctionnalités, entièrement open source, moderne, facile à utiliser et riche en fonctionnalités. Il accompagne un large éventail d'outils pour les discussions communautaires. Par conséquent, sa plate-forme fiable et adaptable. [Lire la suite][6]
 
-## # wordPress   {#wordpress}
+
+### Wordpress {#wordpress}
+
 WordPress est l'un des logiciels de construction et de blogs les plus populaires. Son 100% open source et ont une énorme communauté de développeurs. En conséquence, cela en fait le choix numéro un des développeurs, des blogueurs et des constructeurs de sites Web. Un grand nombre de sites Web en ligne fonctionnent aujourd'hui sur WordPress. Parce que, cela permet à toute personne sans expérience de développement de créer des sites Web. [Lire la suite][7]
 
-## # Plugin WordPress officiel pour le discours   {#Plugin}
+
+### Plugin officiel WordPress pour le discours {#plugin}
+
 Considérant le volume de sites Web alimentés par WordPress. Et, une énorme demande d'intégration avec WordPress. Discours, a publié un plugin WordPress officiel qui rend l'intégration vraiment facile.
 [WP Discourse][8] est le plugin officiel du discours WordPress est 100% open source. Et, est disponible gratuitement en téléchargement à partir du référentiel. Le code source est disponible sur [github][9].
 Ce plugin vous permet d'utiliser le discours comme moteur communautaire pour votre site Web ou blog WordPress. Il a de nombreuses fonctionnalités et certains des points forts du plugin, et ce qui peut être réalisé est le suivant.
@@ -37,7 +43,9 @@ Ce plugin vous permet d'utiliser le discours comme moteur communautaire pour vot
   * Le plugin est également livré avec une fonctionnalité SSO en option qui vous permet d'utiliser votre site WordPress comme fournisseur de signe unique pour votre forum de discours.
   * Le plugin vous permet d'utiliser le discours comme fournisseur d'authentification pour votre site WordPress.
 
-## # Installation   {#installation}
+
+### Installation {#installation}
+
 Vous pouvez facilement installer le plugin en recherchant un «discours WP» dans votre tableau de bord WordPress.
   * Du tableau de bord WordPress, accédez à des plugins> Ajouter un nouveau
   * Recherchez «Discours WP»
@@ -46,12 +54,14 @@ Vous pouvez facilement installer le plugin en recherchant un «discours WP» dan
 {{< figure align=center src="images/image_2020_10_13T06_56_27_837Z-1024x504.png" alt="Installez le plugin de discours WP à partir du tableau de bord WordPress">}}
 
 
-## # Paramètres   {#settings}
+
+### Paramètres {#settings}
+
 Le discours WP vous donne un contrôle total avec les paramètres. Il vous permet d'établir une connexion entre les deux plates-formes. Publication des paramètres, vous permet de contrôler la façon dont vous souhaitez publier le contenu de WordPress au discours.
 
 {{< figure align=center src="images/screenshot-3-1024x930.png" alt="Paramètres communs">}}
 
-Avec les paramètres de commentaires, vous pouvez choisir de remplacer complètement les commentaires par défaut WordPress ou ajouter des discussions sur le forum de discours en plus de vos commentaires WordPress pour les publications publiées par le discours.
+Avec les paramètres de commentaires, vous pouvez choisir de remplacer complètement les commentaires par défaut WordPress ou d'ajouter des discussions sur le forum de discours en plus de vos commentaires WordPress pour les publications publiées sur le discours.
 
 {{< figure align=center src="images/screenshot-5-1024x943.png" alt="COMMENTAIRES Paramètres">}}
 
@@ -64,16 +74,17 @@ Les paramètres SSO vous permettent d'activer la connexion unique entre votre si
 {{_LINE_47_}}
 {{_LINE_48_}}
 
-## # Conclusion
+### Conclusion
 Dans ce tutoriel, nous avons appris à intégrer le discours avec WordPress. WP Discours a facilité la fabrication d'une fusion de deux produits de première classe. En conséquence, l'intégration avec WordPress a résolu le problème d'une énorme communauté qui avait du mal à gérer un forum.
 
-  
-[1]: #discourse
-[2]: #wordpress
-[3]: #plugin
-[4]: #installation
-[5]: #settings
-[6]: https://products.containerize.com/discussion-forum/discourse
-[7]: https://products.containerize.com/blogging/wordpress
-[8]: https://wordpress.org/plugins/wp-discourse/
-[9]: https://github.com/discourse/wp-discourse
+
+
+ [1]: #discourse
+ [2]: #wordpress
+ [3]: #plugin
+ [4]: #installation
+ [5]: #settings
+ [6]: https://products.containerize.com/discussion-forum/discourse
+ [7]: https://products.containerize.com/blogging/wordpress
+ [8]: https://wordpress.org/plugins/wp-discourse/
+ [9]: https://github.com/discourse/wp-discourse

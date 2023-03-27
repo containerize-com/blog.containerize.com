@@ -19,28 +19,33 @@ Contiene le seguenti sezioni:
   * [Implementazione di 2FA in .NET5][5]
 Prima di tutto, capiamo cos'è 2FA e perché deve essere parte integrante di ogni moderna applicazione Web.
 
-## Che cos'è l'autenticazione a due fattori?   {#2fa}
+## Cos'è l'autenticazione a due fattori? {#2FA}
+
 Un fattore in questo contesto implica un modo in cui puoi convincere un'app o un servizio che sei il proprietario dell'account. Nome utente/password è ampiamente utilizzato come fattore di autenticazione più comune. Tuttavia, a causa di molti problemi di sicurezza associati ad esso e recenti violazioni dei dati diffusi, l'autenticazione a fattore singolo è diventata meno sicura.
 L'autenticazione a due fattori è un ulteriore livello di sicurezza, che entra in gioco prima di poter accedere al tuo account. In-ADDIZIONE al processo di accesso standard: introduce un passaggio aggiuntivo per verificare l'identità dell'utente inviando un codice (alla tua e-mail o come messaggio di testo). In questo modo, la tua identità è dimostrata e viene concesso solo l'accesso.
 
-## Come funziona 2FA?   {#2Fawork}
+## Come funziona 2FA? {#2fawork}
+
 In 2FA, la password è ancora il tuo primo fattore di autenticazione, quindi quando accedi al tuo account ti reindirizzerà a un'altra pagina in cui è necessario verificare la proprietà dell'account. Questo può essere fatto usando vari modi:
   1. L'applicazione invia un codice di verifica spesso chiamato OTP (password una tantum) al tuo indirizzo e-mail.
   2. Il codice viene consegnato come messaggio di testo sul tuo telefono.
   3. Installa un'app di autenticatore su dispositivi mobili attraverso la quale è possibile autorizzare le richieste di accesso.
 Nota: questi codici di verifica vengono generati in modo casuale e scaduti una volta utilizzati. Inoltre, hanno una vita di breve
 
-## Possiamo chiamare 2FA come autenticazione a più fattori?   {#Mfa}
+## Possiamo chiamare 2FA come autenticazione a più fattori? {#MFA}
+
 I metodi di autenticazione non sono limitati a due fattori. Molte app e servizi stanno spostando i loro utenti oltre 2FA e utilizzando l'autenticazione a più fattori.
 2FA e MFA (autenticazione a più fattori) sono spesso usati in modo intercambiabile. Tuttavia c'è una differenza. Nell'autenticazione a più fattori vengono utilizzati due o più fattori.
 Può controllare l'indirizzo IP di un utente, la geo-locazione e le informazioni sul dispositivo nell'aggiunta di altri fattori come una password e OTP per verificare l'identità dell'utente.
 Pertanto, possiamo dire che il 2FA è un sottoinsieme di MFA. In 2FA ci saranno solo due fattori mentre il multi-fattore può utilizzare due o più fattori. L'MFA rende difficile per gli hacker in quanto aggiunge più livelli di sicurezza nel tradizionale processo di autenticazione.
 
-## Ci sono degli svantaggi usando 2FA?   {#MFA-CONS}
+## Ci sono degli svantaggi che usano 2FA? {#mfa-cons}
+
 Simile a molte soluzioni di "sicurezza e privacy" che esistono nelle app moderne. Viene inoltre con un prezzo - inconveniente, in quanto è coinvolto un ulteriore passo che può causare attrito nell'esperienza dell'utente.
 Tuttavia, viene adottato da molte app e servizi, quindi questo compromesso sta diventando accettabile.
 
-## Come posso implementare l'autenticazione 2FA?   {#implementing2fa}
+## Come posso implementare l'autenticazione 2FA? {#implementing2fa}
+
 In questa sezione, impareremo come implementare 2FA in .NET5 usando IdentityServer4 e Twilio.
 Quindi creiamo un account di prova su Twilio:
   1. Iscriviti
@@ -186,11 +191,12 @@ Il codice Step-4 viene verificato e l'autenticazione 2FA è stata completata.
 {{< figure align=center src="images/2021-03-11-09_21_32-Window-1024x462.png" alt="2Fademo - Pagina autorizzata">}}
 
 
-## # Conclusione:
+### Conclusione:
 In questo articolo, abbiamo appreso 2FA e la sua implementazione in .NET5 usando IdentityServer4 e Twilio. È possibile scaricare il codice di esempio utilizzato in questo articolo da questo [Repo][6].
 L'uso di SMS per 2FA sicuramente rafforza la tua sicurezza, ma è ancora vulnerabile agli [attacchi di scambio SIM][7]. Pertanto, i ricercatori della sicurezza stanno incoraggiando 2FA a utilizzare altri approcci come le app di autenticato e le chiavi di sicurezza ([Yubikey][8]) che non possono essere intercettate sulla rete telefonica. Impareremo di più su questo in un prossimo articolo: rimanete sintonizzati!
 
-  
+
+
 [1]: #2FA
 [2]: #2fawork
 [3]: #MFA

@@ -41,7 +41,7 @@ GIMP jest jednym z najlepszych bezpłatnych oprogramowania do edycji zdjęć. Ma
 
 ## Photivo
 Dzięki Photivo możesz użyć edytora obrazu do przetwarzania nie tylko plików RAW, ale także plików Bitmap, takich jak JPEG, PNG, TIFF, BMP i wiele innych. Wykorzystuje wiele algorytmów już dostępnych do zmiany lokalnego kontrastu, ostrzenia obrazów, stosowania filtrów i wielu innych. Photivo jest kompatybilne z wieloma systemami operacyjnymi i pozwala również na integrację GIMP. Oto kilka wyróżniających się funkcji Photivo:
-  * Poprawia aberracja chromatyczna
+  * Koryguje aberracja chromatyczna
   * Poprawia złą redukcję pikseli
   * Poprawia linię Denoise
   * Łatwo przechylić, przesuń lub zastosuj efekt zabawki
@@ -56,7 +56,7 @@ Digikam jest edytorem obrazów typu open source. Jest kompatybilny z wieloma sys
   * Wiele funkcji importu obrazu
   * Organizuj przez Hierchary
   * Ma całą listę wtyczek
-  * Zapewnia menedżera kolejki wsadowej do przetwarzania dużej liczby plików
+  * Zapewnia menedżer kolejki wsadowej do przetwarzania dużej liczby plików
 [Czytaj więcej][9]
 
 ## RawTherapee
@@ -79,7 +79,8 @@ Niezależnie od tego, czy tylko strzelasz ze smartfonem, czy jesteś profesjonal
   * [Digikam][9]
   * [RawTherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

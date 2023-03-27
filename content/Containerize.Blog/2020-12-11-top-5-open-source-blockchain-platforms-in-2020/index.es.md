@@ -16,14 +16,15 @@ categories: ['Blockchain Platforms']
 
 ## Descripción general
 Recientemente publicamos publicaciones de blog sobre [Blockchain Technology for Business][1] y un artículo de tutorial sobre la creación de un [contrato inteligente básico][2]. Sin embargo, hemos compilado una lista de las siguientes plataformas populares de blockchain de 2020.
-  ***[Ethereum][3]** 
-  ***[Fabric de hipeledger][4]** 
-  ***[OpenChain][5]** 
-  ***[Multichain][6]** 
-  ***[Ripple][7]** 
-  ***[Conclusión][8]** 
+*  **[Ethereum][3]**  
+*  **[Fabric de hipeledger][4]**  
+*  **[OpenChain][5]**  
+*  **[Multichain][6]**  
+*  **[Ripple][7]**  
+*  **[Conclusión][8]**  
 
-## Ethereum   {#ether}
+## Ethereum {#ether}
+
 [Ethereum][9] es una plataforma basada en blockchain de código abierto líder. Proporciona un marco completo para administrar activos digitales, escribir contratos inteligentes y crear aplicaciones descentralizadas. Este software utiliza un algoritmo de consenso llamado Prueba de trabajo (POW). Apoya su propia criptomoneda llamada Ether. Además, Ethereum tiene cinco componentes principales de Ethereum Virtual Machine, Smart Contracts, Ethereum Nodes, Ethereum Client API y aplicaciones de usuario final. Está escrito en el lenguaje GO y todo el código fuente está disponible en [GitHub][10].
 Las siguientes son las características destacadas:
   * Seguro con criptografía
@@ -33,7 +34,8 @@ Las siguientes son las características destacadas:
   * Arquitectura de múltiples capas
 [Leer más][11]
 
-## Fabric de Hypeledger   {#hyper}
+## Tela hipeledger {#hyper}
+
 [Hyperledger Fabric][12] es una cadena de bloques de código abierto con permiso construido sobre una arquitectura modular. Sin embargo, proporciona la provisión a los usuarios para usar cualquier protocolo de consenso dependiendo del caso de uso. Además, este software es escalable, robusto y eficiente. Proporciona integración con software de terceros como LDAP, OpenID Connect y Bibliotecas criptográficas. También está escrito en el idioma GO y su código fuente está disponible en [GitHub][13].
 La tela Hyperledger tiene las siguientes características clave:
   * Soporte para EVM y solidez
@@ -43,7 +45,8 @@ La tela Hyperledger tiene las siguientes características clave:
   * Datos de consulta
 [Leer más][14]
 
-## OpenChain   {#open}
+## Cadena de opción {#open}
+
 [OpenChain][15] es relativamente una nueva tecnología blockchain y se basa en la arquitectura del servidor de clientes. Además, cualquiera puede configurar una instancia de este software de código abierto y hay un administrador para cada instancia que valida las transacciones. Además, no hay un mecanismo minero admitido en OpenChain. Sobre todo, el algoritmo de consenso partidario se está utilizando en esta plataforma. Está escrito en el idioma C# y su código fuente está disponible en [Github][16].
 OpenChain ofrece las siguientes características importantes:
   * Provisión para definir reglas
@@ -63,8 +66,9 @@ MultiChain presenta las siguientes características clave:
   * Datos en tiempo real alimentados
 [Leer más][18]
 
-## Ripple   {#ripple}
-[Ripple][20] es la plataforma blockchain de código abierto de nivel empresarial con características avanzadas. Por lo tanto, se basa en una infraestructura descentralizada que admite transacciones seguras de activos digitales. Sobre todo, tiene una amplia gama de características que son suficientes para establecer un negocio de pagos. Además, está impulsado por un libro de contabilidad XRP que es un libro de contabilidad descentralizado. Sin embargo, este software de código abierto está escrito en lenguaje C ++ con la entrada de otros idiomas también y su código fuente está disponible en [GitHub][21].
+## Onda {#Onda}
+
+[Ripple][20] es la plataforma blockchain de código abierto de nivel empresarial con características avanzadas. Por lo tanto, se basa en una infraestructura descentralizada que admite transacciones seguras de activos digitales. Sobre todo, tiene una amplia gama de características que son suficientes para establecer un negocio de pagos. Además, está impulsado por un libro de contabilidad XRP que es un libro de contabilidad descentralizado. Sin embargo, este software de código abierto está escrito en lenguaje C ++ con la entrada de otros idiomas también y su código fuente está disponible en [Github][21].
 Ripple ofrece los siguientes puntos clave:
   * Alimentado por XRP Ledger
   * Ofrece transferencia de activos conveniente
@@ -73,7 +77,8 @@ Ripple ofrece los siguientes puntos clave:
   * Multipropósito
 [Leer más][22]
 
-## conclusión   {#conclusion}
+## Conclusión {#Conclusión}
+
 En esta publicación de blog, revisamos algunas de las populares plataformas de blockchain de código abierto. Dado que hay muchas otras plataformas populares disponibles, las nuevas plataformas han comenzado a obtener la intención de la comunidad al ofrecer características avanzadas. Por lo tanto, siempre es una buena idea investigar adecuadamente antes de tomar cualquier decisión.
 Finalmente, [Contenerize.com][23] está ampliando su lista de software de código abierto y publicaciones de blog. Por lo tanto, manténgase en contacto con la categoría [plataformas blockchain][24] para actualizaciones regulares.
 
@@ -86,7 +91,8 @@ Puede encontrar los siguientes enlaces relevantes:
   * [Multichain][25]
   * [Consensys Quorum][26]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: #ether

@@ -14,15 +14,16 @@ categories: ['Form']
 {{< figure align=center src="images/formbuilder.png" alt="Trình tạo biểu mẫu HTML">}}
 
 
-## **Tổng quan**
+## **Tổng quan** 
 Gần đây chúng tôi đã xuất bản một số bài viết về các chủ đề như [Cách thiết lập Bootstrap Form Creator.io trên localhost][1] và [5 nhà xây dựng biểu mẫu trực tuyến nguồn mở hàng đầu trong năm 2020][2]. Bài đăng trên blog đầu tiên là một bài viết hướng dẫn thể hiện quy trình thiết lập và tính năng của Trình tạo mẫu Bootstrap [Form.io][3]. Bài viết thứ hai nói về các nhà xây dựng mẫu nguồn mở được sử dụng rộng rãi. Tại thời điểm hiện tại, tương tác hai chiều là điều quan trọng nhất giữa các nhà cung cấp dịch vụ và người tiêu dùng dịch vụ. Các tổ chức có xu hướng nhận được phản hồi nhất quán về dịch vụ của họ và sau đó họ xây dựng các chiến lược kinh doanh trong tương lai. Tuy nhiên, các hình thức là để thu thập và lưu trữ thông tin từ khách hàng. Các doanh nghiệp sản xuất một số hình thức để thu thập dữ liệu về các hoạt động liên tục khác nhau và có nhiều loại hình thức Một số trong số chúng là một trang đơn và một số trong số chúng là các hình thức nhiều trang. Một số doanh nghiệp đã nhúng các biểu mẫu trên cổng thông tin trực tuyến của họ hoặc một số trong số họ sử dụng email hoặc các loại phương tiện khác để hiển thị các biểu mẫu của họ để thu thập dữ liệu.
-Do đó, có nhiều biểu mẫu nguồn mở và phần mềm quản lý dữ liệu có sẵn với các khả năng của Trình tạo mẫu phong phú. Trong bài viết này, chúng tôi sẽ khám phá Trình tạo biểu mẫu HTML miễn phí  **[FormBuilder][4]**  bằng cách bao gồm các điểm sau.
-  * **[FormBuilder là gì?][5]**
-  *[ **Cách thiết lập? ** ][6]
-  *[ **Cách tạo biểu mẫu bằng FormBuilder? ** ][7]
-  * **[Kết luận][8]**
+Do đó, có nhiều biểu mẫu nguồn mở và phần mềm quản lý dữ liệu có sẵn với các khả năng của Trình tạo mẫu phong phú. Trong bài viết này, chúng tôi sẽ khám phá Trình tạo biểu mẫu HTML miễn phí **[FormBuilder][4]** bằng cách bao gồm các điểm sau.
+* **[FormBuilder là gì?][5]** 
+* [ **Cách thiết lập?** ][6]
+* [ **Cách tạo biểu mẫu bằng FormBuilder?** ][7]
+* **[Kết luận][8]** 
 
-## FormBuilder là gì?   {#Gì}
+## FormBuilder là gì? {#what}
+
 [FormBuilder][4] là một nhà thiết kế biểu mẫu nguồn mở cho phép người dùng tạo các biểu mẫu tương tác. Nó là an toàn, có thể mở rộng và đi kèm với khả năng tự lưu trữ. Trình tạo biểu mẫu HTML này là đa ngôn ngữ và cung cấp hỗ trợ cho nhiều ngôn ngữ. Có một giao diện người dùng thân thiện với người dùng, nơi người dùng có thể kéo và thả các thành phần biểu mẫu để hình thành mẫu biểu mẫu cần thiết. Hơn nữa, nó cung cấp các điều khiển phong phú và các mẫu hình thức cấu hình. Ngoài ra, người dùng có thể tạo nhiều tab trên giao diện người dùng để xây dựng các biểu mẫu nhiều trang. Trên hết, người dùng có thể có xu hướng xây dựng biểu mẫu miễn phí này bằng cách phát triển các plugin của mình. Nó có tất cả các tài liệu có sẵn liên quan đến phát triển và triển khai. Nó được viết bằng Node.js và tất cả các mã nguồn có sẵn trên [GitHub][9].
 Dưới đây là những điểm nổi bật hàng đầu của Mẫu.IO
   * I18N Tích hợp
@@ -31,7 +32,8 @@ Dưới đây là những điểm nổi bật hàng đầu của Mẫu.IO
   * Hỗ trợ cho các khung đầu tiên JavaScript phổ biến
   * Kéo và thả ui
 
-## Làm thế nào để thiết lập?   {#cài đặt}
+## Làm thế nào để thiết lập? {#setup}
+
 Phần này của hướng dẫn xây dựng biểu mẫu sẽ chỉ cho bạn cách thiết lập FormBuilder trên máy cục bộ.
 Trước khi đi xa hơn, hãy chắc chắn rằng bạn đã cài đặt các điều kiện tiên quyết sau đây.
   * Node.js> = 10.9.0
@@ -54,7 +56,8 @@ Cuối cùng, lệnh trên sẽ mở ứng dụng vào trình duyệt tại đ�
 http://localhost:8080/
 ```
 
-## Làm thế nào để tạo biểu mẫu bằng FormBuilder?   {#Làm sao}
+## Làm thế nào để tạo các biểu mẫu bằng FormBuilder? {#how}
+
 Trong phần này, chúng tôi sẽ khám phá các tính năng của trình tạo biểu mẫu HTML này và chúng tôi sẽ tìm hiểu làm thế nào chúng tôi có thể tạo các biểu mẫu.
 Giao diện người dùng sau sẽ xuất hiện khi bạn khởi động máy chủ.
 
@@ -70,23 +73,25 @@ Tiếp theo, chúng ta có thể kéo và thả bất kỳ phần tử biểu m�
 
 Khi bạn đã hoàn thành việc xây dựng biểu mẫu, bạn có thể hiển thị biểu mẫu bằng cách nhấn nút Render Render được đặt ở giữa trên cùng. Hơn nữa, có nhiều tùy chọn biểu mẫu khác nhau, nơi người dùng có thể nhận được HTML được tạo ra phía sau các biểu mẫu. Có các tùy chọn khác cũng như tải mẫu người dùng, hiển thị dữ liệu người dùng, biểu mẫu người dùng và biểu mẫu người dùng rõ ràng. Cùng với các tính năng này, có nhiều hành động biểu mẫu có sẵn như là Get GetFieldTyPes, trả về các loại trường đã đăng ký cho biểu mẫu. Tương tự, có nhiều hành động khác như hiển thị dữ liệu, nhận XML, đặt dữ liệu, chuyển đổi chỉnh sửa và một số hành động khác. Tuy nhiên, có nhiều thứ khác mà bạn có thể tự kiểm tra. Vì nó là nguồn mở, bạn có thể sửa đổi nó theo yêu cầu của bạn.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#Phần kết luận}
+
 Đây là kết thúc của bài viết trên blog. Chúng tôi hy vọng hướng dẫn này sẽ thực sự giúp bạn nếu bạn đang tìm cách triển khai một trình tạo biểu mẫu HTML nguồn mở. Bài viết này đã đề cập đến nhiều khía cạnh của FormBuilder để bạn có thể dễ dàng đưa ra lựa chọn xem xét nhu cầu kinh doanh của mình. Những nhà xây dựng mẫu nguồn mở miễn phí này có hiệu quả về chi phí và tiết kiệm thời gian. Các công cụ miễn phí này không chỉ cung cấp các khả năng xây dựng hình thức mà còn cung cấp các biểu mẫu và quản lý dữ liệu. Bạn có thể định cấu hình các biểu mẫu với các ứng dụng web của bên thứ ba. Ngoài ra, nó loại bỏ sự rắc rối của việc tạo các hình thức khác nhau cho các ứng dụng kinh doanh khác nhau thay vì chủ doanh nghiệp có thể tạo ra bất kỳ hình thức nào bằng cách sử dụng các nhà xây dựng hình thức nguồn mở này. Hơn nữa, có những plugin có sẵn cho các trình chỉnh sửa biểu mẫu mà các nhà phát triển có thể sửa đổi theo yêu cầu. Do đó, đã đến lúc tự động hóa các tác vụ lặp đi lặp lại như vậy bằng cách sử dụng một trình tạo mẫu HTML miễn phí tốt.
 Cuối cùng, [Containererize.com][10] đang viết các bài viết trên các sản phẩm nguồn mở hơn nữa. Do đó, vui lòng giữ liên lạc với danh mục [Mẫu][11] để biết tin tức và cập nhật thường xuyên.
 
 ## Khám phá
-  * **[form.io][3]**
-  * **[Orbeon][12]**
-  * **[ohmyform][13]**
-  * **[Webiny][14]**
-  * **[formtools][15]**
-  * **[FormBuilder][4]**
-  * **[Mẫu Alpaca][16]**
-  *[ **Cách thiết lập biểu mẫu Bootstrap Formor.io trên localhost ** ][1]
-  *[ **Tự động hóa hoạt động kinh doanh bằng phần mềm nguồn mở và miễn phí ** ][17]
-  *[ **Nhà xây dựng biểu mẫu trực tuyến nguồn mở hàng đầu 5 trong năm 2020 ** ][2]
+* **[form.io][3]** 
+* **[Orbeon][12]** 
+* **[ohmyform][13]** 
+* **[Webiny][14]** 
+* **[formtools][15]** 
+* **[FormBuilder][4]** 
+* **[Mẫu Alpaca][16]** 
+* [ **Cách thiết lập biểu mẫu Bootstrap Formor.io trên localhost** ][1]
+* [ **Tự động hóa hoạt động kinh doanh bằng phần mềm nguồn mở và miễn phí** ][17]
+* [ **Nhà xây dựng biểu mẫu trực tuyến nguồn mở hàng đầu 5 trong năm 2020** ][2]
 
-  
+
+
 [1]: https://blog.containerize.com/form/how-to-setup-bootstrap-form-creator-formio-on-localhost/
 [2]: https://blog.containerize.com/form/top-5-open-source-online-form-builders-in-year-2020/
 [3]: https://products.containerize.com/form/formio/

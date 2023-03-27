@@ -18,7 +18,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 OwnCloud, PHP'de yazılmış ve veri senkronizasyonu ve dosya paylaşımı için kullanılan ücretsiz ve popüler sağlam açık kaynaklı kurumsal web uygulamasıdır. Ayrıca veri dosyalarını, kişileri, takvimleri, listeleri yapmak ve daha fazlasını kolayca yönetmenizi sağlar. Google Drive, Dropbox, ICloud ve diğer bulut depolama hizmetleri gibi en popüler bulut platformlarına harika bir alternatiftir. Ancak diğer bulut depolama hizmetlerinden farklı olarak, Owncloud Selfed Barındırılan kendi ana bilgisayar bulutu oluşturmak için ücretsizdir.
 OwnCloud, özel bir bulut oluşturmak için web arayüzünü kullanarak veri erişimi sağlayan açık kaynaklı bir özel bulut yazılımıdır. Dropbox ve Google Drive'a benzer şekilde takvim etkinliklerini, arşivlerini, resimlerini, kayıtlarını, görevlerini, yer işaretleriyle adres defterlerini kolayca görüntüleyebileceğiniz ve senkronize edebileceğiniz kendi dosya paylaşım sunucunuzu oluşturmanızı sağlar. Ayrıca, tüm kontrolünüz altındaki cihazlarda verileri senkronize etme ve paylaşma seçenekleri sağlar. OwnCloud'u yükleyin ve yapılandırın, masaüstü istemcileri ve mobil uygulama cihazları için senkronize edilmiş verilerinizi destekler. Ayrıca, Ubuntu'da OwnCloud kullanarak kullanıcı başına kullanıcı ve grup erişim kısıtlamalarını kolayca uygulayabilirsiniz. Owncloud Açık Kaynak Kişisel Depolama Sunucusu bir çapraz platform uygulamasıdır ve tüm popüler işletim sistemlerine yüklenebilir.
 Bu öğretici, OwnCloud'u kurmanıza ve Ubuntu LTS sistemlerinde OwnCloud'u yapılandırmanıza yardımcı olacaktır.
-  * Lamba sunucusunu yükleyin
+  * Lamba Sunucusunu Yükle
   * Owncloud'u indirin
   * MySQL veritabanı ve kullanıcı oluşturun
   * Owncloud'u kurun
@@ -29,7 +29,7 @@ Bu öğretici, OwnCloud'u kurmanıza ve Ubuntu LTS sistemlerinde OwnCloud'u yap�
 Kendi bulut sunucusunu ve nasıl özel bir bulutun oluşturulacağını ayarlamak için önce çalışan bir lamba sunucusu kurmamız gerekir. Zaten lamba yığınını takmış ve çalıştırmışsanız, bu adımı atlayın, aksi takdirde lambayı Ubuntu sisteminizde ayarlamak için takip komutlarını kullanın.
 
 ### PHP'yi yükle
-Komutları çalıştırarak Ubuntu veya Debian sisteminize PHP 5.6 veya daha yüksek versiyonu yükleyebilirsiniz:
+Komutları çalıştırarak Ubuntu veya Debian sisteminize PHP 5.6 veya daha yüksek sürümü yükleyebilirsiniz:
 sudo apt-get install python-software properties
 sudo add -t-repository ppa: ondrej/php
 sudo apt-get güncellemesi
@@ -42,13 +42,13 @@ Apache en çok kullanılan açık kaynaklı web sunucusu yazılımıdır. Ardın
 sudo apt-get install -y apache2 libapache2-mod-php
 {{_LINE_35_}}
 
-### MySQL'i kurun
+### MySQL'i yükle
 MySQL Açık kaynaklı ilişkisel veritabanı yönetim sistemi, lamba web uygulama yazılımı yığınının ve diğerlerinin bir bileşenidir. Şimdi aşağıda çalışarak MySQL'i Ubuntu'ya yükleme:
 sudo apt-get install -y mysql-server php-mysql
 {{_LINE_39_}}
 
 ## Adım 2: Ubuntu'dan Owncloud'u indirin
-Ubuntu sisteminizde lamba sunucusunu başarıyla yapılandırdıktan sonra, en son Owncloud özel bulut depolama çözümünü [resmi web sitesi][1] 'den indirelim.
+Ubuntu sisteminizde lamba sunucusunu başarıyla yapılandırdıktan sonra, [resmi web sitesi][1] 'den en son OwnCloud özel bulut depolama çözümünü indirelim.
 CD /TMP
 wget https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2
 {{_LINE_44_}}
@@ -83,7 +83,7 @@ Açık kaynak Owncloud giriş sayfasını görmelisiniz. Yönetici hesabı oluş
 {{< figure align=center src="images/owncloud-setup-1.png" alt="Ubuntu'da Apache ile Owncloud'u kurun">}}
 
 {{_LINE_71_}}
-Şimdi sayfanızı aşağı kaydırın. Aşağıdaki formda, yöneticiye en iyi kişisel bulut sunucusu Owncloud paneline kullanıcı adı ve şifre girmeniz gerekir. Ayrıca, OwnCloud sunucusunu veritabanı sunucusuna, veri klasörünün konumu ile bağlamak için veritabanını kullanıcı adı ve şifre ile birlikte sağlayın ve **Bitiş Kurulumu**  'a tıklayın.
+Şimdi sayfanızı aşağı kaydırın. Aşağıdaki formda, yöneticiye en iyi kişisel bulut sunucusu Owncloud paneline kullanıcı adı ve şifre girmeniz gerekir. Ayrıca, OwnCloud sunucusunu veritabanı sunucusu, veri klasörünün konumu ile bağlamak için veritabanını kullanıcı adı ve şifre ile birlikte sağlayın ve **Bitiş Kurulumu** tıklayın.
 {{_LINE_73_}}
 
 {{< figure align=center src="images/owncloud-setup-2.png" alt="Ubuntu'da Owncloud'u yapılandırın">}}
@@ -97,15 +97,17 @@ Kurulumu tamamladıktan sonra Yönetici Gösterge Tablosunu alacaksınız. Nered
 {{_LINE_79_}}
 Evet! Kişisel bulut depolama alanı oluşturmak için Owncloud kurulum kılavuzu ile işimiz bitti. Artık Dropbox veya Google Drive'a benzer adım adım özel bir bulut oluşturmak için Ubuntu'ya Owncloud'u nasıl yükleyeceğinizi biliyorsunuz.
 
-## **Owncloud için en iyi alternatifler nelerdir?** {#4A1A}
-Aşağıda, kendinden barındırılan Owncloud alternatifleri ve rakipler dosya barındırma yazılımı bulunmaktadır.
-  ***SEAFILE**  Açık kaynaklı platformlu dosya barındırma yazılım sistemidir
-  ***NextCloud**  Ücretsiz ve Açık Kaynak Bulut Depolama Platformu
-  ***Resilio Sync**  Açık Kaynak Eşleme Dosyası Senkronizasyon Uygulamasıdır
-  ***Pydio Hücreleri**  Açık kaynaklı dosya paylaşımı ve senkronizasyon yazılımıdır
-  ***senkronizasyon**  ücretsiz ve açık kaynaklı eşler arası dosya senkronizasyon uygulaması
+## **Owncloud için en iyi alternatifler nelerdir?** {#4a1a}
 
-## **Sonuç:** {#blok-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+Aşağıda, kendinden barındırılan Owncloud alternatifleri ve rakipler dosya barındırma yazılımı bulunmaktadır.
+* **SEAFILE** Açık kaynaklı platformlu dosya barındırma yazılım sistemidir
+* **NextCloud** Ücretsiz ve Açık Kaynak Bulut Depolama Platformu
+* **Resilio Sync** Açık Kaynak Eşleme Dosyası Senkronizasyon Uygulamasıdır
+* **Pydio Hücreleri** Açık kaynaklı dosya paylaşımı ve senkronizasyon yazılımıdır
+* **senkronizasyon** ücretsiz ve açık kaynaklı eşler arası dosya senkronizasyon uygulaması
+
+## **Çözüm:**  {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 Tebrikler! Ubuntu makinesinde Apache ile kendi özel bulutunuzu oluşturmak için OwnCloud'u başarıyla yüklediniz ve yapılandırdınız. Artık verileriniz asla üçüncü tarafların elinde değildir ve sanal özel bulut owncloud ubuntu sunucu depolamasında özel olarak yönetilebilir. Birçok şirket, verilerin gizliliği ile ilgili birçok sorun nedeniyle birçok hayati bilgi ile Owncloud sunucularını oluşturmayı seçmektedir. Yaklaşan öğreticilerimizde, web sunucusu çözüm yığınlarının daha ilginç konularını tartışacağız.
 _ [Twitter][2], [LinkedIn][3] ve [Facebook][4] sayfamızda bize katılabilirsiniz. Çevrimiçi bulut tabanlı depolama çözümünü hangi kullanıyorsunuz? Herhangi bir sorunuz varsa, lütfen_ [iletişime geçin][5].
 
@@ -113,11 +115,12 @@ _ [Twitter][2], [LinkedIn][3] ve [Facebook][4] sayfamızda bize katılabilirsini
 Ayrıca sunucunuzun günlük yönetimi ile ilgili başka birkaç makalemiz de var.
   * [Apache'yi Ubuntu/Debian için ters proxy olarak nasıl yapılandırır][6]
   * [Ubuntu'da nginx ile phpmyadmin nasıl kurulur ve güvence altına alınır][7]
-  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i güvenli ve şifreleyin][8]
+  * [Ubuntu 20.04'te Let's Şifreleme ile Nginx'i Güvenli ve Şifreleyin][8]
   * [Ubuntu/Debian'da Nginx'te HTTP/2 desteğini yapılandırın][9]
   * [AWS Üretim Sunucusunda Yolcu ile Nginx'i Kurun][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

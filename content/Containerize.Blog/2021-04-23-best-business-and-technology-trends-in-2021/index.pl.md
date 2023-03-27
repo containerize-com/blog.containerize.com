@@ -14,7 +14,7 @@ categories: ['Business Intelligence Software']
 {{< figure align=center src="images/business-and-technology-trends.png" alt="Najlepsze trendy technologiczne i biznesowe dla 2021">}}
 
 
-## **Przegląd**
+## **Przegląd** 
 Pandemia wirusa Corona zmusiła firmy do przyjęcia transformacji cyfrowej w prawie każdej branży. Covid-19 nadal sędzi spustoszenie i zakłócenia na całym świecie. 2020 było bardzo trudnym rokiem pandemii i niepewności. 2020 przyspieszył proces innowacji jako najlepsze technologie i trendy biznesowe. Właśnie dlatego zostanie zapamiętany jako rok, który zmienił nasze sposoby życia. Wiele osób pracujących w domu. Miliony ludzi na całym świecie muszą polegać na wideokonferencjach takich jak Zoom lub Skype, aby się ze sobą komunikować.
 Coronawirus Pandemic przyspieszył także główne przyjęcie transformacji cyfrowej, takiej jak praca zdalna, sieci 5G. Przyspieszane są również inne zdalne rozwiązania technologiczne i zdalne cyfrowe operacje chirurgiczne. W świecie po Covid-19 ludzie dostosowują się do nowych sposobów życia. Innowacyjne firmy startupowe, które umożliwiają nam pracę i komunikowanie się wirtualnie, popychają kopertę, wprowadzając nowe technologie. Pomoże nam lepiej stawić czoła wyzwaniom związanym z życiem pandemii. W tym poście na blogu przeanalizujemy nowe technologie i trendy biznesowe w 2021 r. Może to wyznaczyć przebieg nowych pomysłów biznesowych na następne kilka lat.
   * Praca zdalna i technologia HR
@@ -44,9 +44,10 @@ Startupy nowych technologii i najsłynniejsze firmy publiczne, takie jak One Med
 Sztuczna inteligencja (AI) będzie nie tylko projektować produkty, ale także podejmuje decyzje dotyczące ich produkowania i przetwarzania. Sztuczna inteligencja to popularne trendy technologiczne w biznesie i najnowsze trendy w międzynarodowym biznesie. Dzisiejszy rozwój nowych leków opiera się całkowicie na próbach i błędach, a sztuczna inteligencja radykalnie poprawi czas cyklu, aby wprowadzić leki na rynek. Dane i analityka pomogą w podejmowaniu decyzji w czasie rzeczywistym. Algorytmy poprawią jakość wraz z wkładem i oczekuje się, że sztuczna inteligencja w firmach produkcyjnych zmniejszy marnotrawstwo o 50% lub więcej.
 Sztuczna inteligencja (AI) poprawiła działalność dla wielu firm i firm. Pandemia sprawiła, że ​​jego użycie było bardziej powszechne. AI, dane i uczenie maszynowe odegrały niezrównaną rolę podczas tej pandemii Coronawirusa. Sztuczna inteligencja pomaga dostarczyć klientom sugestie podczas zakupów w Amazon, a nawet podczas oglądania filmów w Netflix. Więcej firm i firm skorzysta z sztucznej inteligencji, ponieważ przetwarzanie w chmurze nadal umożliwia dostęp do rosnącego oprogramowania, energii obliczeniowej i aplikacji. Szacuje się, że 50% firm korzystających z sztucznej inteligencji zwiększyło całkowite wydatki na klienta.
 
-## Wniosek:   {#Conclusion}
+## Wniosek: {#conclusion}
+
 Najlepsze trendy biznesowe i technologiczne mogły się rozpocząć, a zobaczysz poważne zmiany w roku 2021. Pandemia Covid-19 na stałe zmieniła trajektorię naszych firm i sposób myślenia o bezpieczeństwie w miejscu pracy. Te nowe technologie mogą wpłynąć na ciebie na lepsze, a wiele naszych nowych zachowań stanie się częścią nowej normalnej pandemii w 2021 r., Aby pomóc w prowadzeniu dużych sztucznej inteligencji oraz innowacji technologicznych i biznesowych uczenia maszynowego. W 2021 r. Pandemic bardzo ważne jest, aby firmy nadal inwestowały w najwyższe technologie IT.
-Nasz zespół kontenerowy pomaga firmom skorzystać z pojawiających się trendów technologicznych, aby napędzać ich rozwój. Nasz zespół produktów kontenerowych ma doświadczenie w obsłudze łatwych do złożonych projektów, a jeśli masz wyzwanie technologiczne i potrzebujesz pewnego wsparcia na drodze, skontaktuj się z nami.
+Nasz zespół kontenerowy pomaga firmom skorzystać z pojawiających się trendów technologicznych, aby napędzać ich rozwój. Nasz zespół produktów kontenerowych ma doświadczenie w obsłudze łatwych do złożonych projektów, a jeśli masz wyzwanie technologiczne i potrzebujesz wsparcia na drodze, skontaktuj się z nami.
 _Your może dołączyć do nas na [Twitter][1], [LinkedIn][2] i naszą stronę [Facebook][3]. Jakie trendy biznesowe i technologiczne wolisz?. Jeśli masz jakieś pytania lub opinie, proszę [skontaktuj się][4].
 
 ## Badać
@@ -59,7 +60,8 @@ Można znaleźć bardziej powiązane poniżej artykuły:
   * [Najpopularniejsze oprogramowanie do kolejki wiadomości (MQ) w 2021 r.][10]
   * [Top 5 open source cyfrowe narzędzia kryminalistyczne w 2021 r.][11]
 
-  
+
+
 [1]: https://twitter.com/containerize_co
 [2]: https://www.linkedin.com/company/containerize/
 [3]: http://facebook.com/containerize

@@ -15,24 +15,28 @@ Jak utworzyć motyw WordPress, należy do najważniejszych zapytań w wyszukiwar
   * [Wymagania][1]
   * [Przewodnik po kroku][2]
 
-## # wymagania   {#Requirements}
+
+### Wymagania {#requirements}
+
 Pierwszą i najważniejszą rzeczą, którą musisz zrobić, jest zainstalowanie WordPress. WordPress jest dobrze znany ze swojej łatwości instalacji. Jest to prosty proces i można go łatwo wykonać sam, śledząc [przewodnik][3].
 
-## # Jak tworzyć motyw WordPress; Podręcznik kroku po kroku   {#Guide}
-W przypadku motywu WordPress wszystko zostanie zrobione tylko w katalogu**WP_Content**. Po prostu zrób nowy podfolder motywu w folderze**WP_Content → Motywy.**Załóżmy, że nazywasz go**„Customtheme”**.
-Drugą rzeczą jest decydowanie o układzie tematu. Tutaj samouczek pokazuje podstawowy układ składający się z**nagłówka, głównego obszaru, stopki, paska bocznego**.
-Zasadniczo WordPress potrzebuje tylko 2 plików, tj. Style.css i index.php. Ale w tym układzie potrzebujesz**5 plików**, w następujący sposób;
-***Header.php -**zawiera kod sekcji nagłówka motywu.
-***index.php -**zawiera kod głównego obszaru i określi, gdzie zostaną uwzględnione pozostałe pliki. To jest główny plik motywu.
-***Sidebar.php -**zawiera informacje o pasku bocznym.
-***stopa.php -**radzi sobie z sekcją stopki.
-***Style.css -**Odpowiedzialny za styl motywu.
-***Bootstrap.css -**Nie jest wymagany odrębny kod CSS; wysoce responsywny.
-***Bootstrap.js -**zapewnia własne JS dla paska nawigacyjnego lub zakładek itp.
-* * Bootstrap.js**i**bootstrap.css**należy pobrać z pakietu Bootstrap i skopiować do folderu**motyw**.
+
+### Jak stworzyć motyw WordPress; Przewodnik krok po kroku {#guide}
+
+W przypadku motywu WordPress wszystko zostanie zrobione tylko w katalogu  **WP_Content** . Po prostu zrób nowy podfolder motywu w folderze  **WP_Content → Motywy.**  Załóżmy, że nazywasz go **„Customtheme”**  .
+Drugą rzeczą jest decydowanie o układzie tematu. Tutaj samouczek pokazuje podstawowy układ składający się z  **nagłówka, głównego obszaru, stopki, paska bocznego**  .
+Zasadniczo WordPress potrzebuje tylko 2 plików, tj. Style.css i index.php. Ale w tym układzie potrzebujesz  **5 plików**  , w następujący sposób;
+*  **Header.php -**  zawiera kod sekcji nagłówka motywu.
+*  **index.php -**  zawiera kod głównego obszaru i określi, gdzie zostaną uwzględnione pozostałe pliki. To jest główny plik motywu.
+*  **Sidebar.php -**  zawiera informacje o pasku bocznym.
+*  **stopa.php -**  radzi sobie z sekcją stopki.
+*  **Style.css -**  Odpowiedzialny za styl motywu.
+*  **Bootstrap.css -**  Nie jest wymagany odrębny kod CSS; wysoce responsywny.
+*  **Bootstrap.js -**  zapewnia własne JS dla paska nawigacyjnego lub zakładek itp.
+ **Bootstrap.js** i **bootstrap.css** należy pobrać z pakietu Bootstrap i skopiować do folderu **motyw** .
 Oto kroki, które należy śledzić, aby skonfigurować motyw
 
-## # Krok 1: Plik nagłówkowy.php
+### Krok 1: Plik naczelny.php
 Umieść następujący kod w pliku Header.php.
 ```
 <html>
@@ -57,7 +61,7 @@ Umieść następujący kod w pliku Header.php.
 ```
 Ten plik nagłówkowy Wyświetla nagłówek strony.
 
-## # Krok 2: Plik index.php
+### Krok 2: Plik index.php
 Umieść następujący kod w głównym indeksowaniu plików.php
 ```
 <?php get_header(); ?>
@@ -83,7 +87,7 @@ Umieść następujący kod w głównym indeksowaniu plików.php
 ```
 Powyższy kod wyświetla główną zawartość postu, paska bocznego i stopki.
 
-## # Krok 3: Plik boibar.php
+### Krok 3: Plik boibar.php
 Dodaj następujący kod w Sidebar.php
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,8 +99,8 @@ Dodaj następujący kod w Sidebar.php
 ```
 W powyższym kodzie wywoływane są wewnętrzne funkcje WordPress w celu wyświetlania różnych kategorii, archiwa postów.
 
-## # Krok 4: Plik stopki.php
-Dodaj poniższe wiersze kodu do pliku stopa.php:
+### Krok 4: Plik stopki.php
+Dodaj poniższe linie kodu do pliku stopa.php:
 ```
 <div id= "ttr_footer">
 <h1>FOOTER</h1>
@@ -132,10 +136,11 @@ font-weight: bold;
 ```
 Po wykonaniu wszystkich powyższych kroków będziesz mieć podstawowy działający motyw WordPress. Możesz go dalej zmodyfikować, aby był piękniejszy i pasuje do twoich wymagań.
 
-## # Wniosek
+### Wniosek
 W tym samouczku wyjaśniliśmy, jak tworzyć motyw WordPress w prostych i łatwych krokach. Po przeczytaniu i wykonaniu kroków tworzenia motywu WordPress nie jest teraz trudniejszym zadaniem. Ale oczywiście ten samouczek trzyma się bardzo podstawowej konfiguracji i aby ulepszyć go, musisz dowiedzieć się więcej o HTML, CSS, JS i PHP.
 
-  
-[1]: #requirements
-[2]: #guide
-[3]: https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #requirements
+ [2]: #guide
+ [3]: https://products.containerize.com/blogging/wordpress

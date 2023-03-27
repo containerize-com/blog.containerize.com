@@ -17,16 +17,18 @@ categories: ['Blockchain Platforms']
 ## Aperçu
 Dans le passé récent, nous avons publié un [article de blog][1] qui met en évidence l'impact et l'importance de la technologie de la blockchain. Il y a un autre article de blog intéressant [Qu'est-ce que NFT? | Des jetons non fongibles expliqués][2]. La technologie du grand livre distribué est basée sur certains concepts de base tels que les contrats intelligents, les nœuds, l'exploitation minière, les algorithmes de consensus, les transactions numériques et les réseaux entre pairs. Comme il est open source, il existe donc une énorme fenêtre pour une extension concernant les cas d'utilisation. En fait, il existe de nombreuses plateformes de gestion des actifs numériques open source et gratuites qui sont distribuées et nécessitent un logiciel pour régir les transactions.
 Dans ce tutoriel de contrat intelligent, nous apprendrons à créer un contrat intelligent Ethereum en couvrant les puces suivantes.
-  * [**Qu'est-ce qu'un contrat intelligent?** ][3]
-  * [**Comment créer un contrat intelligent de base?** ][4]
-  * [**Comment exécuter et déployer un contrat intelligent?** ][5]
-  * [**Conclusion** ][6]
+  * [ **Qu'est-ce qu'un contrat intelligent?** ][3]
+  * [ **Comment créer un contrat intelligent de base?** ][4]
+  * [ **Comment exécuter et déployer un contrat intelligent?** ][5]
+  * [ **Conclusion** ][6]
 
-## Qu'est-ce qu'un contrat intelligent?   {#quoi}
+## Qu'est-ce qu'un contrat intelligent? {#what}
+
 Un contrat intelligent est un programme qui s'exécute sur la blockchain pour régir les transactions numériques. Ce morceau de code contient les règles et procédures définies qui s'assurent la transparence d'une transaction. Chaque contrat intelligent contient une adresse et cette adresse est utilisée pour accéder à toute fonction d'un contrat intelligent particulier. De plus, les contrats intelligents apportent la transparence, la confiance et la sécurité dans le réseau de blockchain. Ces pièces de code s'exécutent automatiquement une fois que certaines conditions sont remplies.
 Cependant, tout développeur peut rédiger un contrat intelligent et le déployer sur le réseau. De plus, les contrats intelligents rendent les processus assez robustes car il n'y a pas de dépendance impliquée dans l'exécution de ces pièces de code. De plus, les contrats intelligents stockent les informations nécessaires liées à chaque transaction que les participants peuvent récupérer et vérifier. De nombreuses industries telles que Healthcare, Banking, adoptent fortement cette technologie de registre distribué. Les institutions gouvernementales souhaitent également déployer des applications décentralisées (DAPP) pour apporter l'authenticité et la transparence dans le système électoral. Il existe de nombreuses [plates-formes de blockchain][7] comme [Ethereum][8], [Ripple][9], [Corda][10], et encore plus, cependant, dans ce guide, nous créerons notre premier contrat intelligent sur Ethereum.
 
-## Comment créer un contrat intelligent de base?   {#construire}
+## Comment créer un contrat intelligent de base? {#build}
+
 Dans cette section du tutoriel de contrat intelligent, nous verrons les étapes pour configurer l'environnement pour notre premier contrat intelligent.
 Les contrats intelligents peuvent être écrits en plusieurs langues, mais nous utiliserons [Solidity][11] qui est un langage de haut niveau pour rédiger des contrats intelligents.
 Nous utiliserons [Ethereum Studio][12] qui est un IDE basé sur le Web. Il est utilisé pour rédiger des contrats intelligents ainsi que des applications décentralisées pour interagir avec les contrats intelligents. Il fournit des modèles de projet prédéfinis où vous pouvez commencer à écrire votre logique immédiatement.
@@ -46,7 +48,8 @@ Le dossier de l'application appartient à l'application Web et contient les fich
 De même, le dossier Contracts contient le fichier source du contrat.
 Maintenant, ouvrons le fichier helloworld.sol qui peut être trouvé dans des fichiers / contrats / helloworld.sol. Fondamentalement, il s'agit du fichier principal qui contient le code du contrat intelligent écrit en solidité. Vous pouvez modifier le code si vous le souhaitez, nous le laisserons tel quel.
 
-## Comment exécuter et déployer un contrat intelligent?   {#déployer}
+## Comment exécuter et déployer un contrat intelligent? {#deploy}
+
 Dans cette section du tutoriel de contrat intelligent, nous verrons comment exécuter et déployer un contrat intelligent. Ethereum Studio compile le code de solidité en code d'octets. Par conséquent, enregistrez le code et déployons notre premier contrat intelligent.
 Sur le panneau de gauche, appuyez sur l'icône de fusée.
 
@@ -69,7 +72,8 @@ De plus, il existe une application frontale qui permet aux utilisateurs d'intera
 {{< figure align=center src="images/Screen-Shot-2020-11-30-at-6.02.38-PM-746x1024.png" alt="Qu'est-ce qu'un contrat intelligent">}}
 
 
-## Conclusion   {#con}
+## Conclusion {#con}
+
 Cela nous amène à la fin de ce tutoriel de contrat intelligent. J'espère que cet article vous a aidé à comprendre les étapes clés de la construction et du déploiement du contrat intelligent Ethereum. Alors que la technologie de la blockchain évolue à un rythme élevé, il est temps d'obtenir une forte pratique pratique sur le système d'écho de la blockchain. Cette technologie de registre distribuée est hautement configurable et extensible. Ce billet de blog vous aidera vraiment si vous êtes prêt à apprendre le développement de contrats intelligents. De plus, il existe de nombreux tutoriels utiles et plates-formes de gestion des actifs numériques open source mentionnées dans la section «Explorer» ci-dessous.
 En fin de compte, [contenerize.com][13] est entièrement dédié à la compilation de la liste des logiciels open source. Il existe de nombreux tutoriels et articles de blog sur les logiciels open source et un certain nombre de articles de blog sont en cours. Par conséquent, veuillez rester en contact avec la catégorie [plates-formes blockchain][7] pour les mises à jour régulières.
 
@@ -88,7 +92,8 @@ Vous pouvez trouver les liens suivants pertinents:
   * [Comment la technologie décentralisée améliore votre stratégie commerciale][22]
   * [Comment configurer le réseau de blockchain au quorum consensys localement][19]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/blockchain-platforms/what-is-nft-non-fungible-tokens-explained/
 [3]: #what

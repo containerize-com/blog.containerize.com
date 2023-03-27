@@ -15,7 +15,7 @@ categories: ['Web Server Solution Stack']
 
 
 ## Descripción general
-Aunque Apache y Nginx comparten muchas cualidades, no deben considerarse completamente intercambiables. Ambos servidores web de código abierto son diferentes entre sí y deben seleccionarse de acuerdo con las necesidades de sus aplicaciones web. En este artículo, discutiremos **Apache vs Nginx**  Comparación en detalle.
+Aunque Apache y Nginx comparten muchas cualidades, no deben considerarse completamente intercambiables. Ambos servidores web de código abierto son diferentes entre sí y deben seleccionarse de acuerdo con las necesidades de sus aplicaciones web. En este artículo, discutiremos **Apache vs Nginx** Comparación en detalle.
   * [¿Qué es Apache?][1]
   * [¿Qué es Nginx?][2]
   * [Comparación Apache vs Nginx][3]
@@ -23,13 +23,16 @@ Aunque Apache y Nginx comparten muchas cualidades, no deben considerarse complet
   * [Conclusión][5]
   * [Explorar][6]
 
-## ¿Qué es Apache?   {#whatisapache}
+## ¿Qué es Apache? {#whatisapache}
+
 El servidor web Apache es uno de los servidores más populares en Internet y sirve a más del 27% de los sitios web. Apache es principalmente la primera opción de desarrolladores debido a su flexibilidad, energía, así como soporte generalizado y documentación detallada. Admite módulos cargables dinámicamente que permiten a los desarrolladores extender fácilmente su funcionalidad.
 
-## ¿Qué es Nginx?   {#whatisnginx}
+## ¿Qué es Nginx? {#whatisnginx}
+
 Este artículo trata sobre la comparación Apache vs Nginx. Ambos servidores web son de código abierto, configurables y manejan más de la mitad del tráfico de Internet del mundo.
 
-## Apache vs Nginx Comparación   {#apachevsnginx}
+## Apache vs Nginx Comparación {#apachevsnginx}
+
 En esta sección, comparemos Apache y Nginx sobre la base de soporte, documentación, tipo de contenido y estructura de configuración.
 
 #### Arquitectura
@@ -50,14 +53,17 @@ Apache Server tiene la capacidad de interpretar una solicitud como un recurso f�
 #### Configuración
 Apache proporciona la capacidad de los desarrolladores para establecer la configuración en el nivel de directorio utilizando el archivo denominado .htaccess. Pero en el caso de Nginx, no existe tal mecanismo para establecer la configuración en el nivel de directorio. Apache proporciona más flexibilidad que NGINX en términos de configuraciones.
 
-## ¿Nginx es mejor que Apache?   {#nginx}
+## ¿Nginx es mejor que Apache? {#nginx}
+
 Nginx es más rápido que Apache para servir contenido estático. Entonces, si su aplicación web sirve mucho contenido estático, sí, sí, Nginx es mejor y más rápido que Apache. En lo que respecta al contenido dinámico, ambos servidores web casi dan el mismo rendimiento, por lo que no hay un ganador claro aquí. Tanto Apache como Nginx se ejecutan en casi todos los sistemas operativos, pero el rendimiento de Nginx en Windows no es tan bueno en comparación con el de Apache. Si su sistema operativo es un sistema similar a UNIX y su aplicación web es crítica de rendimiento, entonces sí, NGINX es mejor que Apache.
 
-## conclusión   {#conclusion}
+## Conclusión {#conclusion}
+
 Tanto Apache como Nginx son capaces a su manera. Hemos discutido la comparación Apache vs Nginx, qué es Apache, qué está en detalle Nginx y la diferencia entre Apache y Nginx. Seleccionar uno de estos dos servidores web más populares depende totalmente de los requisitos de sus aplicaciones web. La selección depende de sus expectativas con el rendimiento, la utilización de recursos, la velocidad, la escalabilidad y el soporte de un servidor web. Ambos tienen sus propios beneficios. No existe un servidor web único para todos, así que use la solución que mejor se adapte a sus objetivos y expectativas.
 Finalmente, [Contenerize.com][7] escribe continuamente publicaciones de blog sobre otros productos y temas de código abierto. Por lo tanto, manténgase en contacto con la categoría [Servidores web de código abierto][8] para actualizaciones regulares. Además, puede seguirnos en nuestras cuentas de redes sociales [Facebook][9], [LinkedIn][10] y [Twitter][11].
 
-## Explore   {#Explore}
+## Explorar {#explore}
+
 Puede encontrar los siguientes enlaces relevantes:
   * [Top 5 Pilas de soluciones de servidor web de código web abierto en 2021][12]
   * [Configurar XAMPP y PhPMyAdmin como localhost en Windows][13]
@@ -65,7 +71,8 @@ Puede encontrar los siguientes enlaces relevantes:
   * [Nginx | Servidor web ligero y de alto rendimiento][15]
   * [Tutorial de configuración para Lemp Stack en Ubuntu 18.04][16]
 
-  
+
+
 [1]: #whatisapache
 [2]: #whatisnginx
 [3]: #apachevsnginx

@@ -14,27 +14,29 @@ categories: ['Content Management']
 {{< figure align=center src="images/banner_1200x628.png" alt="Sviluppo del modello Joomla">}}
 
 
-Panoramica ## 
-Un sito Web di business ben progettato gioca una parte vitale per portare e trattenere i visitatori dando loro la facilità di navigazione.**Full ha caratterizzato Joomla**facilita i suoi utenti con una serie di layout reattivi e lo sviluppo del modello Joomla che controllano l'estetica di un sito Web aziendale.
+Panoramica ##
+Un sito Web di business ben progettato gioca un ruolo vitale per portare e trattenere i visitatori dando loro la facilità di navigazione. **Full ha caratterizzato Joomla** facilita i suoi utenti con una serie di layout reattivi e lo sviluppo del modello Joomla che controllano l'estetica di un sito Web aziendale.
 Durante la fase di sviluppo, il posizionamento degli elementi di progettazione è molto fondamentale per ottenere:
   * Consistenza
   * Navigazione facile
   * Semplicità
   * Compatibilità mobile
   * Leggibilità
-Ecco che arrivano i modelli**Joomla**. Questo software open source fornisce disposizione per sviluppare o utilizzare layout reattivi predefiniti per tutte le pagine Web piuttosto che scrivere il codice per ciascuna pagina separatamente.
-In questo post sul blog, impareremo le seguenti cose su come creare e configurare un**modello di facile utilizzo**in Joomla.
-* [**Cosa sono i layout Joomla?**][2]
-* [**Come creare un semplice modello reattivo in Joomla?**][3]
-* [**Come installare un modello Joomla?**][4]
-* [**conclusione**][5]
+Ecco che arrivano i modelli **Joomla** . Questo software open source fornisce disposizione per sviluppare o utilizzare layout reattivi predefiniti per tutte le pagine Web piuttosto che scrivere il codice per ciascuna pagina separatamente.
+In questo post sul blog, impareremo le seguenti cose su come creare e configurare un **modello di facile utilizzo** in Joomla.
+* [ **Cosa sono i layout Joomla?** ][2]
+* [ **Come creare un semplice modello reattivo in Joomla?** ][3]
+* [ **Come installare un modello Joomla?** ][4]
+* [ **conclusione** ][5]
 
-## Cosa sono i layout Joomla?   {#Che cosa}
-Joomla fornisce modelli per la parte anteriore e per il back -end. Viene fornito con molti modelli pronti e offre agli sviluppatori di costruire**temi bootstrap reattivi gratuiti**in base ai loro casi d'uso. Esistono due tipi di modelli in Joomla.
-* * Modelli front-end:**relativi all'utente che affronta parte di un sito Web aziendale.
-* * Modelli di back-end:**Questi modelli sono collegati alla logica aziendale di un sito.
+## Cosa sono i layout di Joomla? {#what}
 
-## Come creare un semplice modello reattivo in Joomla?   {#Come}
+Joomla fornisce modelli per la parte anteriore e per il back -end. Viene fornito con molti modelli pronti e offre agli sviluppatori di costruire **temi bootstrap reattivi gratuiti** in base ai loro casi d'uso. Esistono due tipi di modelli in Joomla.
+**Modelli front-end:**  relativi all'utente che affronta parte di un sito Web aziendale.
+**Modelli di back-end:**  Questi modelli sono collegati alla logica aziendale di un sito.
+
+## Come creare un semplice modello reattivo in Joomla? {#how}
+
 In questa sezione, tratteremo i passaggi di questo tutorial del modello Joomla.
 Prima di saltare in questa sezione, assicurati di avere una comprensione di quanto segue:
   * Html
@@ -43,29 +45,29 @@ Prima di saltare in questa sezione, assicurati di avere una comprensione di quan
   * Php
 Quindi, creare modelli personalizzati in Joomla non è mai stato così difficile e complesso. Tuttavia, iniziamo a creare il nostro primo modello Joomla.
 
-## **Struttura della directory di configurazione**
-Prima di tutto, crea una cartella chiamata "**MyTemplate**" all'interno della cartella "**Modelli**".
-Crea i seguenti file all'interno della cartella "**MyTemplate**":
-***INDICE.php**: questo è il file principale che contiene il codice HTML e PHP per le pagine di interi modelli.
-***templatedEtails.xml**: questo file contiene i meta dati del modello ed è obbligatorio per essere notato da Joomla.
-Ora, crea tre cartelle all'interno della cartella "**MyTemplate**" con i seguenti nomi:
-***JS**: questa cartella conterrà tutti i file JavaScript necessari per il modello
-***CSS**: tutti i file CSS per lo styling arriveranno in questa cartella
-***Immagini**: le immagini utilizzate dal modello risiederanno in questa cartella
-Crea un file CSS chiamato "**template.css**" all'interno della cartella "**CSS**".
+## **Struttura della directory di configurazione** 
+Prima di tutto, crea una cartella chiamata " **MyTemplate**" all'interno della cartella "**Modelli** ".
+Crea i seguenti file all'interno della cartella " **MyTemplate** ":
+* **INDICE.php** : questo è il file principale che contiene il codice HTML e PHP per le pagine di interi modelli.
+* **templatedEtails.xml** : questo file contiene i meta dati del modello ed è obbligatorio per essere notato da Joomla.
+Ora, crea tre cartelle all'interno della cartella " **MyTemplate** " con i seguenti nomi:
+* **JS** : questa cartella conterrà tutti i file JavaScript necessari per il modello
+* **CSS** : tutti i file CSS per lo styling arriveranno in questa cartella
+* **Immagini** : le immagini utilizzate dal modello risiederanno in questa cartella
+Crea un file CSS chiamato " **template.css**" all'interno della cartella "**CSS** ".
 ```
 * mytemplate/
-**css/
+** css/
 *** template.css
-**images/
-**js/
-**index.php
-**templateDetails.xml
+** images/
+** js/
+** index.php
+** templateDetails.xml
 ```
 Alla fine, ecco come sarà la struttura della directory.
 
 ## Mettiamo un po 'di codice
-Metti questo codice nel file**templateDetails.xml**.
+Metti questo codice nel file **templateDetails.xml** .
 ```
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -101,7 +103,7 @@ Metti questo codice nel file**templateDetails.xml**.
 ```
 Come accennato in precedenza, questo file contiene i metadati sui layout reattivi definiti tra i tag di markup. Tuttavia, è possibile modificare le informazioni generali come il nome, l'autore e la descrizione.
 Questo file contiene anche informazioni sugli altri file e cartelle utilizzati dal modello.
-Ora, apri il file**indice.php**e inizia a mettere il seguente codice:
+Ora, apri il file **indice.php** e inizia a mettere il seguente codice:
 ```
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 ```
@@ -114,7 +116,7 @@ Questo per far conoscere al browser il tipo di documento.
 <html xmlns="http://www.w3.org/1999/xhtml" 
    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
 ```
-I documenti HTML iniziano con questa riga e l'attributo**xmlns**indica lo spazio dei nomi XML per il documento.
+I documenti HTML iniziano con questa riga e l'attributo **xmlns** indica lo spazio dei nomi XML per il documento.
 ```
 <head>
     <jdoc:include type="head" />
@@ -168,8 +170,8 @@ La sezione del corpo inizia dopo che la sezione della testa contiene tutti i dat
 ```
 <jdoc:include type="modules" name="position-7" style="well" />
 ```
-Questa affermazione si chiama istruzione JDOC che viene utilizzata per istruire Joomla ad aggiungere un modulo chiamato "Position-7". Esistono diverse dichiarazioni JDOC che vengono spesso utilizzate nello sviluppo del modello**Joomla**.
-Questo è il file Final Complete**Index.php**con tutto il codice richiesto per un modello di Joomla di base.
+Questa affermazione si chiama istruzione JDOC che viene utilizzata per istruire Joomla ad aggiungere un modulo chiamato "Position-7". Esistono diverse dichiarazioni JDOC che vengono spesso utilizzate nello sviluppo del modello **Joomla** .
+Questo è il file Final Complete **Index.php** con tutto il codice richiesto per un modello di Joomla di base.
 ```
 <!DOCTYPE html>
 
@@ -220,7 +222,8 @@ Questo è il file Final Complete**Index.php**con tutto il codice richiesto per u
 ```
 Tutto è a posto per un modello molto semplice. Ora, è tempo di installarlo sul server Joomla e vedere come va avanti.
 
-## come installare il modello Joomla?   {#installare}
+## Come installare il modello Joomla? {#install}
+
 Il processo di installazione del modello Joomla è piuttosto dritto e facile. Ci sono i seguenti passaggi da installare:
 Vai a “Extensions -> Gestisci -> Installa
 
@@ -235,11 +238,12 @@ Dopo aver installato il modello, è possibile accedere e modificare i file del m
 
 {{< figure align=center src="images/Screen-Shot-2020-09-25-at-12.46.35-PM-1024x580.png" alt="Joomla">}}
 
-Ora puoi visualizzare il tuo primo modello Joomla nel browser!
+Ora, puoi visualizzare il tuo primo modello Joomla nel browser!
 
-## conclusioni   {#conclusion}
-Un modello buono e reattivo è la base per la modellazione complessiva del sito.**Layout reattivo**a Joomla sono multifunzionali e possono essere utilizzati per vari progetti. Dalla scrittura del codice allo sviluppo del modello Joomla diventa molto semplice con l'aiuto di un dashboard di amministrazione intuitivo. Joomla fornisce il controllo completo sullo sviluppo del modello per soddisfare i desideri dell'utente.
-Poiché il software**CMS**la categoria è in costante miglioramenti e verranno aggiunti altri tutorial su altri sistemi di gestione dei contenuti all'elenco, rimani in contatto con la sezione [Sistema di gestione dei contenuti][6] per aggiornamenti regolari.
+## Conclusione {#Conclusione}
+
+Un modello buono e reattivo è la base per la modellazione complessiva del sito. **Layout reattivo** a Joomla sono multifunzionali e possono essere utilizzati per vari progetti. Dalla scrittura del codice allo sviluppo del modello Joomla diventa molto semplice con l'aiuto di un dashboard di amministrazione intuitivo. Joomla fornisce il controllo completo sullo sviluppo del modello per soddisfare i desideri dell'utente.
+Poiché il software **CMS** la categoria è in costante miglioramenti e verranno aggiunti altri tutorial su altri sistemi di gestione dei contenuti all'elenco, rimani in contatto con la sezione [Sistema di gestione dei contenuti][6] per aggiornamenti regolari.
 
 ## pagine di prodotto pertinenti
 Potresti trovare i seguenti collegamenti pertinenti:
@@ -256,7 +260,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Refinery CMS][16]
   * [Locomotivecms][17]
 
-  
+
+
 [1]: https://products.containerize.com/content-management/joomla
 [2]: #what
 [3]: #how

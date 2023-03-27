@@ -19,23 +19,26 @@ Osticket là một giải pháp phần mềm bàn trợ giúp trực tuyến ngu
   * [Làm thế nào để thiết lập Osticket?][3]
   * [Kết luận][4]
 
-## Osticket là gì?   {#osticket}
+## Osticket là gì? {#osticket}
+
 Osticket cung cấp một bảng điều khiển thân thiện với người dùng và thành phần báo cáo thời gian thực. Người dùng chỉ có thể đăng nhập và tạo vé trong một vài bước dễ dàng. Họ có thể tạo vé thông qua trang web, email hoặc điện thoại của bạn. Vé đến sau đó sẽ được lưu và gán cho các đại lý. Đại lý sẽ nhận được thông báo email và sẽ trả lời các truy vấn để giúp giải quyết các vấn đề của họ. Khách hàng và đại lý có thể thảo luận chi tiết và tiến bộ trong phần bình luận. Khách hàng có thể theo dõi các yêu cầu và tiến trình của họ thông qua cổng thông tin khách hàng tích hợp được cung cấp bởi phần mềm bàn trợ giúp trực tuyến này.
 
-## Ưu và nhược điểm của Osticket   {#Pros}
+## Ưu và nhược điểm của Osticket {#pros}
 
-## ## Ưu điểm
+
+#### Ưu điểm
   * Osticket cực kỳ thân thiện với người dùng cho cả người dùng cuối và đại lý hỗ trợ.
-  * Được đóng gói với các tính năng phong phú, Osticket có mọi thứ bạn cần mà không quá phức tạp.
+  * Được gói với các tính năng phong phú, Osticket có mọi thứ bạn cần mà không quá phức tạp.
   * Osticket hoàn toàn miễn phí và phần mềm quản lý vé nguồn mở.
   * Nó là nhẹ, an toàn, đáng tin cậy và dễ dàng cài đặt phần mềm quản lý bàn trợ giúp.
   * Thật linh hoạt khi chạy trên tất cả các máy chủ web phổ biến bao gồm Apache, Nginx, LightTPD và IIS, v.v.
 
-## ## nhược điểm
+#### nhược điểm
   * Osticket không cung cấp chi tiết phân tích vé và số liệu thống kê như các hệ thống bàn trợ giúp trả phí khác.
   * Giao diện người dùng của nó rất đơn giản và cơ bản khi so sánh với các hệ thống hỗ trợ khác.
 
-## Làm thế nào để cài đặt Osticket?   {#Làm sao}
+## Làm thế nào để cài đặt Osticket? {#how}
+
 Thực hiện theo các bước này để cài đặt Osticket với Nginx trên Ubuntu 18.04 LTS.
   * Tạo một thư mục mới cho Osticket.
 ```
@@ -135,8 +138,8 @@ sudo systemctl restart nginx
 
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-2.png" alt="Cách thiết lập phần mềm bàn trợ giúp trực tuyến bằng Osticket">}}
 
-  * Kích hoạt các tiện ích mở rộng cần thiết từ php.ini và nhấp vào Tiếp tục.
-* Điền vào tất cả thông tin cần thiết và nhấp vào nút**Cài đặt ngay bây giờ**nút**.
+  * Kích hoạt các tiện ích mở rộng bắt buộc từ php.ini và nhấp vào Tiếp tục.
+* Điền vào tất cả thông tin cần thiết và nhấp vào nút  **Cài đặt ngay bây giờ**  nút**.
 
 {{< figure align=center src="images/How-To-Set-Up-Help-Desk-System-Using-osTicket-3.png" alt="Cách thiết lập phần mềm bàn trợ giúp trực tuyến bằng Osticket">}}
 
@@ -149,7 +152,8 @@ cd /var/www/osticket/upload/
 chmod 0644 include/ost-config.php
 ```
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Osticket phù hợp nhất cho các công ty có ngân sách thấp hoặc những người muốn có một hệ thống bàn trợ giúp đơn giản chứ không phải là một hệ thống phức tạp. Nó đơn giản, nhẹ, đáng tin cậy, nguồn mở và phần mềm bàn trợ giúp trực tuyến hoàn toàn miễn phí. Điều này làm cho Osticket trở thành một sự thay thế tuyệt vời cho các hệ thống hỗ trợ khách hàng chi phí cao hơn. Để tìm hiểu thêm về các tính năng của Osticket và hướng dẫn cài đặt, vui lòng xem hướng dẫn sau đây.
 
 ## Khám phá
@@ -159,13 +163,14 @@ Osticket phù hợp nhất cho các công ty có ngân sách thấp hoặc nhữ
 [Cách thực hiện nhiều người thuê trong Osticket][8]
 [Tự động hóa hệ thống bán vé bằng cách sử dụng WordPress và Osticket][9]
 
-  
-[1]: #osticket
-[2]: #pros
-[3]: #how
-[4]: #conclusion
-[5]: https://products.containerize.com/helpdesk/
-[6]: https://products.containerize.com/helpdesk/osticket
-[7]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
-[8]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
-[9]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/
+
+
+ [1]: #osticket
+ [2]: #pros
+ [3]: #how
+ [4]: #conclusion
+ [5]: https://products.containerize.com/helpdesk/
+ [6]: https://products.containerize.com/helpdesk/osticket
+ [7]: https://blog.containerize.com/helpdesk/how-to-develop-osticket-plugin-it-helpdesk-software/
+ [8]: https://blog.containerize.com/helpdesk/how-to-implement-multi-tenancy-in-osticket/
+ [9]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

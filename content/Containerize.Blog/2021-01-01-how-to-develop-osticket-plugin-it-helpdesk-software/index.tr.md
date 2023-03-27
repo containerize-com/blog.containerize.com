@@ -22,22 +22,25 @@ Bu Açık Kaynak Biletleme Sistemi (Osticket), istemci, sayfalara ve bildirimler
   * [Osticket’in eklentisi nasıl geliştirilir?][6]
   * [Sonuç][7]
 
-## Neden eklentileri kullanabilirim?   {#Neden}
-Bu konuda, bu **Yardım Masası Yazılımı**  (Osticket) temel işlevselliğini genişletmek için basit bir eklentinin nasıl oluşturulacağını öğreneceğiz. Bir eklenti, herhangi bir uygulamanın/yazılımın temel işlevselliğini genişleten bir yazılım parçasıdır. Buna ek olarak, işlevsellikleri genişleten büyük bir eklenti yığınına sahip birçok kurumsal düzey açık kaynak yazılımı vardır. Ayrıca, bu popüler açık kaynak yazılımı WordPress, Joomla ve daha fazlasını içerir. Her şeyden önce, canlı ve canlı topluluklar ihtiyaçlara göre eklentileri destekler ve geliştirir. Ancak, çerçeveler eklentilerin geliştirilmesi ile ilgili kapsamlı belgeler sunar. Uygulamaların eklentileri desteklemesi için bazı nedenler aşağıdadır:
+## Neden eklentileri kullanmalısınız? {#why}
+
+Bu konuda, bu  **Yardım Masası Yazılımı**  (Osticket) temel işlevselliğini genişletmek için basit bir eklentinin nasıl oluşturulacağını öğreneceğiz. Bir eklenti, herhangi bir uygulamanın/yazılımın temel işlevselliğini genişleten bir yazılım parçasıdır. Buna ek olarak, işlevsellikleri genişleten büyük bir eklenti yığınına sahip birçok kurumsal düzey açık kaynak yazılımı vardır. Ayrıca, bu popüler açık kaynak yazılımı WordPress, Joomla ve daha fazlasını içerir. Her şeyden önce, canlı ve canlı topluluklar ihtiyaçlara göre eklentileri destekler ve geliştirir. Ancak, çerçeveler eklentilerin geliştirilmesi ile ilgili kapsamlı belgeler sunar. Uygulamaların eklentileri desteklemesi için bazı nedenler aşağıdadır:
   * Üçüncü taraf geliştiricilerin bir uygulamanın işlevselliğini genişleten yazılım bileşenleri oluşturmalarını sağlar.
   * Eklentiler yeni özellikleri kolayca entegre etmeyi sağlar.
   * Ayrıca bir uygulamanın boyutunu ve karmaşıklığını artırmaz.
   * Ve geliştiriciler eklentilerin kodunu temel uygulamadan ayrı olarak saklayabilir ve yönetebilir.
 
-## Gereksinimler   {#Requirements}
-**BT Help Sıvacı Yazılımı**  kılavuzunun bu bölümü Osticket eklentisini geliştirmek için gereken gereksinimleri açıklar.
+## Gereksinimler {#requirements}
+
+ **BT Help Sıvacı Yazılımı** kılavuzunun bu bölümü Osticket eklentisini geliştirmek için gereken gereksinimleri açıklar.
   * PHP sürüm 5.6 veya üstü
   * osticket kurulumu
   * Temel PHP bilgisi
 
-## Osticket’in eklentisini nasıl geliştirir?   {#Nasıl}
+## Osticket’in eklentisi nasıl geliştirilir? {#how}
+
 Bu bölümde, bu açık kaynak biletleme sisteminin (Osticket) eklenti geliştirme adımlarını inceleyeceğiz.
-  * Eklentinin klasörünü oluşturun /dahil /eklentiler dizin. Bu öğreticide **Osticket Sistemini**  Redmine ile entegre eden bir demo eklentisi oluşturacağız.
+  * Eklentinin klasörünü oluşturun /dahil /eklentiler dizin. Bu öğreticide  **Osticket Sistemini**  Redmine ile entegre eden bir demo eklentisi oluşturacağız.
   * Gerekli dosyalara sahip olmalıdır: Plugin.php ve config.php.
   * Plugin.php dosyası eklentinin genel açıklamasını içerir. Plugin.php dosyasında aşağıdaki örnek kodu kullanın:
 ```
@@ -93,18 +96,18 @@ class DynabicRedminePluginConfig extends PluginConfig {
     }
 }
 ```
-  * Sonuç olarak, burada gösterildiği gibi yapılandırma sayfasında kullanıcı adı ve şifre alanları oluşturur:
+  * Sonuç olarak, burada gösterildiği gibi yapılandırma sayfasında kullanıcı adı ve şifre alanları oluşturacaktır:
 
 {{< figure align=center src="images/A-Beginners-Guide-To-Develop-osTickets-Plugin-1024x368.png" alt="Osticket eklentisini geliştirmek için yeni başlayan bir kılavuz">}}
 
   * Aşağıda, mevcut sınıf alanlarının bir listesidir, bunlar `[install_root]/incown/class.forms.php`::
       * TextBoxfield - Metin Kutusu
-      * Textareaffield - Metin alanı
+      * Textareaffield - metin alanı
       * Threadentryfield - Tartışma Konuları için kullanılan zengin metin alanı
       * DateTimeField - JQuery DatePicker
       * Telefon alanı - Telefon numaraları için optimize edilmiş metin kutusu
       * Booneanfield - onay kutusu
-      * ChoiceField-açılır seçme alanı
+      * ChoiceField-açılır Seç alanı
       * BölümBreakfield - Yatay bölüm molası
   * Bundan sonra, eklentinin işlevselliğinin tanımlanacağı dosyayı oluşturmamız gerekir.
   * Dosya adı Plugin.php dosyasında tanımlandığı gibi olmalıdır. yani redmine.php.
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Bu kod yapılandırma değerlerini getirdi ve bu değerleri işlevlerinizde kullanabilirsiniz. Bu dosyada eklentinizin işlevselliğini gereksinimleriniz olarak ekleyebilirsiniz.
 
-## Sonuç   {#Conclusion}
-Bu bizi bu blog yazısının sonuna getiriyor. Osticket, gereksinimlere göre yeni işlevsellik ekleyebilmeleri için geliştiriciler için eklenti yapısı sunan bir biletleme yönetimi yazılımıdır. Eklentiler, herhangi bir uygulamanın/yazılımın temel işlevselliğini genişleten bileşenlerdir. Makalesinde, geliştiricilerin gereksinimlerine göre özel özellikler ve geliştirmeler eklemelerine yardımcı olan bu **Müşteri Destek Sistemi  **(Osticket) eklentisi geliştirmeyi tartıştık. Bu nedenle, bu blog yazısı, işiniz için bir **  Help Sıvacı Yazılımı  **dağıtmak istiyorsanız size gerçekten yardımcı olacaktır. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen başka **  yardım masası bilet yazılımı**  ve makaleler de vardır.
+## Çözüm {#conclusion}
+
+Bu bizi bu blog yazısının sonuna getiriyor. Osticket, gereksinimlere göre yeni işlevsellik ekleyebilmeleri için geliştiriciler için eklenti yapısı sunan bir biletleme yönetimi yazılımıdır. Eklentiler, herhangi bir uygulamanın/yazılımın temel işlevselliğini genişleten bileşenlerdir. Makalesinde, geliştiricilerin gereksinimlerine göre özel özellikler ve geliştirmeler eklemelerine yardımcı olan bu  **Müşteri Destek Sistemi** (Osticket) eklentisi geliştirmeyi tartıştık. Bu nedenle, bu blog yazısı, işiniz için bir  **Help Sıvacı Yazılımı**  dağıtmak istiyorsanız size gerçekten yardımcı olacaktır. Ayrıca, aşağıdaki “Keşfet” bölümünde belirtilen başka **yardım masası bilet yazılımı**  ve makaleler de vardır.
 Son olarak, [Containerize.com][8] sürekli olarak açık kaynaklı ürünler ve konular üzerine blog yayınları yazıyor. Bu nedenle, düzenli güncellemeler için lütfen [Yardım Masası biletleme yazılımı][1] kategorisiyle iletişime geçin. Dahası, bizi sosyal medya hesaplarımızda [Facebook][9], [LinkedIn][10] ve [Twitter][11] 'te takip edebilirsiniz.
 
 ## Keşfetmek
@@ -143,7 +147,8 @@ Aşağıdaki bağlantıları alakalı bulabilirsiniz:
   * [WordPress ve Osticket kullanarak biletleme sistemini otomatikleştirin][3]
   * [Ücretsiz ve açık kaynaklı yazılım kullanarak iş operasyonlarını otomatikleştirin][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

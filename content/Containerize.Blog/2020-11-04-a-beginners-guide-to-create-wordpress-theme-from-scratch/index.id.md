@@ -15,24 +15,28 @@ Cara membuat tema WordPress adalah salah satu kueri teratas dalam pencarian Goog
   * [Persyaratan][1]
   * [Panduan Langkah demi Langkah][2]
 
-## # Persyaratan   {#Requirements}
+
+### Persyaratan {#requirements}
+
 Hal pertama dan terpenting yang perlu Anda lakukan adalah, instal WordPress. WordPress terkenal karena kemudahan pemasangannya. Ini adalah proses yang sederhana dan dapat dilakukan dengan mudah sendiri dengan mengikuti [panduan][3].
 
-## # Cara membuat tema WordPress; Panduan Langkah demi Langkah   {#Guide}
-Untuk tema WordPress, semuanya akan dilakukan di direktori **wp_content  **saja. Buat saja subfolder tema baru di folder **  wp_content → tema.  **Mari kita asumsikan nama Anda **  "CustomTheme"** .
-Yang kedua adalah memutuskan tata letak tema. Di sini, tutorial ini menunjukkan tata letak dasar yang terdiri dari **header, area utama, footer, bilah samping** .
-Pada dasarnya, WordPress hanya membutuhkan 2 file yaitu style.css dan index.php. Tapi, untuk tata letak ini, Anda memerlukan **5 file** , sebagai berikut;
-  ***header.php -**  berisi kode untuk bagian header tema.
-  ***index.php -**  berisi kode untuk area utama dan akan menentukan di mana file lainnya akan disertakan. Ini adalah file utama tema.
-  ***sidebar.php -**  berisi informasi tentang bilah samping.
-  ***footer.php -**  Menangani bagian footer.
-  ***style.css -**  Bertanggung jawab atas gaya tema Anda.
-  ***bootstrap.css -**  Tidak ada kode CSS terpisah diperlukan; sangat responsif.
-  ***bootstrap.js -**  menyediakan JS sendiri untuk bilah navigasi, atau tab, dll.
-**bootstrap.js  **dan **  bootstrap.css  **perlu diunduh dari paket bootstrap dan disalin ke folder **  tema** .
+
+### Cara membuat tema WordPress; Panduan Langkah demi Langkah {#guide}
+
+Untuk tema WordPress, semuanya akan dilakukan di direktori  **wp_content** saja. Buat saja subfolder tema baru di folder  **wp_content → tema.**  Mari kita asumsikan nama Anda **"CustomTheme"**  .
+Yang kedua adalah memutuskan tata letak tema. Di sini, tutorial ini menunjukkan tata letak dasar yang terdiri dari  **header, area utama, footer, bilah samping**  .
+Pada dasarnya, WordPress hanya membutuhkan 2 file yaitu style.css dan index.php. Tapi, untuk tata letak ini, Anda memerlukan  **5 file**  , sebagai berikut;
+*  **header.php -**  berisi kode untuk bagian header tema.
+*  **index.php -**  berisi kode untuk area utama dan akan menentukan di mana file lainnya akan disertakan. Ini adalah file utama tema.
+*  **sidebar.php -**  berisi informasi tentang bilah samping.
+*  **footer.php -**  Menangani bagian footer.
+*  **style.css -**  Bertanggung jawab atas gaya tema Anda.
+*  **bootstrap.css -**  Tidak ada kode CSS terpisah diperlukan; sangat responsif.
+*  **bootstrap.js -**  menyediakan JS sendiri untuk bilah navigasi, atau tab, dll.
+ **bootstrap.js** dan **bootstrap.css** perlu diunduh dari paket bootstrap dan disalin ke folder **tema** .
 Berikut adalah langkah -langkah yang harus diikuti untuk mengatur tema
 
-## # Langkah 1: File header.php
+### Langkah 1: File header.php
 Masukkan kode berikut di file header.php.
 ```
 <html>
@@ -57,7 +61,7 @@ Masukkan kode berikut di file header.php.
 ```
 File header.php ini berisi kode untuk bagian header di mana file JS dan gaya ditautkan. Ini menampilkan header halaman.
 
-## # Langkah 2: File index.php
+### Langkah 2: File index.php
 Masukkan kode berikut di indeks file utama.php
 ```
 <?php get_header(); ?>
@@ -83,7 +87,7 @@ Masukkan kode berikut di indeks file utama.php
 ```
 Kode di atas menampilkan konten utama postingan, sidebar, dan footer.
 
-## # Langkah 3: File sidebar.php
+### Langkah 3: File sidebar.php
 Tambahkan kode berikut di sidebar.php
 ```
 <div id="ttr_sidebar" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -95,7 +99,7 @@ Tambahkan kode berikut di sidebar.php
 ```
 Dalam kode di atas, fungsi WordPress internal dipanggil untuk menampilkan berbagai kategori, arsip posting.
 
-## # Langkah 4: File footer.php
+### Langkah 4: File footer.php
 Tambahkan baris kode di bawah ini ke file footer.php:
 ```
 <div id= "ttr_footer">
@@ -132,10 +136,11 @@ font-weight: bold;
 ```
 Setelah mengikuti semua langkah di atas, Anda akan memiliki tema WordPress yang berfungsi dasar. Anda dapat memodifikasinya lebih lanjut untuk membuatnya lebih indah dan sesuai dengan kebutuhan Anda.
 
-## # Kesimpulan
+### Kesimpulan
 Dalam tutorial ini kami telah menjelaskan cara membuat tema WordPress dalam langkah -langkah sederhana dan mudah. Setelah membaca dan mengikuti langkah -langkah yang membuat tema WordPress adalah tugas yang lebih sulit sekarang. Tapi, jelas tutorial ini menempel pada pengaturan yang sangat mendasar dan untuk meningkatkan di atasnya, Anda harus mempelajari lebih lanjut tentang HTML, CSS, JS dan PHP.
 
-  
-[1]: #requirements
-[2]: #guide
-[3]: https://products.containerize.com/blogging/wordpress
+
+
+ [1]: #requirements
+ [2]: #guide
+ [3]: https://products.containerize.com/blogging/wordpress

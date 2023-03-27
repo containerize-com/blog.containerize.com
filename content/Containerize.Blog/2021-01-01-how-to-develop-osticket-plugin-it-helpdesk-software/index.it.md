@@ -14,7 +14,7 @@ categories: ['Help Desk']
 {{< figure align=center src="images/A-beginners-guide-to-develop-osTickets-plugin.png" alt="software di helpdesk">}}
 
 
-Panoramica ## 
+Panoramica ##
 Benvenuti in un altro interessante post sul blog nella serie di [software di biglietteria helpdesk][1]. Abbiamo pubblicato alcuni post sul blog su argomenti come [Helpdesk e sistema di assistenza clienti popolari basati su biglietteria Tuttavia, Osticket è un sistema HelpDesk basato su biglietteria open source progettato per i clienti per segnalare le loro domande e reclami per supportare il personale. Questo sistema di supporto gratuito fornisce un modulo di gestione delle richieste di facile utilizzo che converte le richieste provenienti da telefoni, e-mail e moduli in biglietti basati sul Web. Offre una vasta gamma di funzionalità e opzioni che consentono al personale di supporto di offrire un'incredibile esperienza di supporto ai clienti per i clienti.
 Questo sistema di biglietteria open source (OSCKET) è un framework di biglietti di supporto completamente flessibile che offre numerose opzioni per aiutare a personalizzare tutte le parti dell'esperienza di supporto del cliente come messaggi inviati a clienti, pagine e notifiche. Nel suo articolo, impareremo lo sviluppo del plug -in Osticket per migliorare la funzionalità in base alle nostre esigenze. Per fare ciò, copriremo i seguenti argomenti:
   * [Perché usare i plugin?][4]
@@ -22,20 +22,23 @@ Questo sistema di biglietteria open source (OSCKET) è un framework di biglietti
   * [Come sviluppare il plugin di Osticket?][6]
   * [Conclusione][7]
 
-## Perché usare i plugin?   {#Perché}
+## Perché usare i plugin? {#why}
+
 In questo argomento, impareremo come creare un plug -in semplice per estendere la funzionalità di base di questo  **software helpdesk**  (osticket). Un plugin è un software, che estende la funzionalità di base di qualsiasi app/software. Inoltre, ci sono molti software open source a livello aziendale che ha un enorme stack di plugin che estendono le funzionalità. Inoltre, questi popolari software open source includono WordPress, Joomla e molti altri. Soprattutto, le comunità vibranti e vive supportano e sviluppano plugin secondo le esigenze. Tuttavia, i framework offrono una documentazione completa sullo sviluppo dei plugin. Di seguito sono riportati alcuni motivi per cui le app per supportare i plugin:
   * Consente agli sviluppatori di terze parti di creare componenti software che estendono la funzionalità di un'applicazione.
   * I plugin consentono di integrare facilmente nuove funzionalità.
   * Inoltre non aumenta le dimensioni e la complessità di un'applicazione.
   * Così come gli sviluppatori possono mantenere e gestire il codice dei plugin separatamente dall'applicazione principale.
 
-Requisiti ##  {#Requirements}
+## Requisiti {#requirements}
+
 Questa sezione del  **Guida del software di helpdesk**  descrive i requisiti necessari per sviluppare il plug -in Osticket.
   * PHP versione 5.6 o superiore
   * Installazione Osticket
   * Conoscenza di base PHP
 
-## Come sviluppare il plugin di Osticket?   {#Come}
+## Come sviluppare il plugin di Osticket? {#how}
+
 In questa sezione, passeremo attraverso i passaggi dello sviluppo del plug -in di questo sistema di biglietteria open source (OSCKET).
   * Crea la cartella del plug -in nella directory /include /plugin. In questo tutorial creeremo un plug -in demo che integra  **Sistema Osticket**  con Redmine.
   * Dovrebbe avere i seguenti file necessari: plugin.php e config.php.
@@ -101,7 +104,7 @@ class DynabicRedminePluginConfig extends PluginConfig {
       * TextBoxField - Casella di testo
       * TextAreafield - Area di testo
       * Threadentryfield - Area di testo ricca, utilizzata per i thread di discussione
-      * Datetimefield - jQuery DatePicker
+      * DateTimefield - jQuery DatePicker
       * Campo telefonico - casella di testo ottimizzata per i numeri di telefono
       * Booleanfield - Casella di controllo
       * Choicefield-Campo Seleziona a discesa
@@ -126,8 +129,9 @@ class DynabicRedminePlugin extends Plugin {
 ```
   * Questo codice ha recuperato i valori di configurazione e puoi utilizzare questi valori nelle funzioni. In questo file puoi aggiungere la funzionalità del plugin come requisiti.
 
-## conclusioni   {#conclusion}
-Questo ci porta alla fine di questo post sul blog. Osticket è un software di gestione dei biglietti che offre una struttura plugin per gli sviluppatori in modo che possano aggiungere nuove funzionalità secondo i requisiti. I plugin sono i componenti che estendono la funzionalità di base di qualsiasi app/software. Nel suo articolo, abbiamo discusso dello sviluppo del plug -in di questo **Sistema di assistenza clienti  **(Osticket), che aiuta gli sviluppatori ad aggiungere funzionalità e miglioramenti personalizzati in base alle loro esigenze. Pertanto, questo post sul blog ti aiuterà davvero se stai cercando di distribuire un **  software helpdesk  **per la tua attività. Inoltre, ci sono altri**   software di biglietteria di helpdesk** e articoli menzionati nella sezione "Esplora" di seguito.
+## Conclusione {#conclusion}
+
+Questo ci porta alla fine di questo post sul blog. Osticket è un software di gestione dei biglietti che offre una struttura plugin per gli sviluppatori in modo che possano aggiungere nuove funzionalità secondo i requisiti. I plugin sono i componenti che estendono la funzionalità di base di qualsiasi app/software. Nel suo articolo, abbiamo discusso dello sviluppo del plug -in di questo  **Sistema di assistenza clienti** (Osticket), che aiuta gli sviluppatori ad aggiungere funzionalità e miglioramenti personalizzati in base alle loro esigenze. Pertanto, questo post sul blog ti aiuterà davvero se stai cercando di distribuire un  **software helpdesk**  per la tua attività. Inoltre, ci sono altri **software di biglietteria di helpdesk**  e articoli menzionati nella sezione "Esplora" di seguito.
 Infine, [Containerize.com][8] scrive continuamente post sul blog su ulteriori prodotti e argomenti open source. Pertanto, rimani in contatto con la categoria [HelpDesk Ticketing Software][1] per aggiornamenti regolari. Inoltre, puoi seguirci sui nostri account di social media [Facebook][9], [LinkedIn][10] e [Twitter][11].
 
 ## Esplorare
@@ -143,7 +147,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [Automatizza il sistema di biglietteria utilizzando WordPress e Osticket][3]
   * [Automatizza le operazioni aziendali utilizzando software gratuito e open source][19]
 
-  
+
+
 [1]: https://products.containerize.com/video-editing-software
 [2]: https://products.containerize.com/helpdesk/osticket
 [3]: https://blog.containerize.com/blogging/automate-ticketing-system-using-wordpress-and-osticket/

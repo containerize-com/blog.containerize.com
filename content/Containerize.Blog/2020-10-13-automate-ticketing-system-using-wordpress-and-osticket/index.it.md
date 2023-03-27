@@ -20,7 +20,8 @@ Osticket è un sistema di biglietteria Open-Source e HelpDesk. I clienti possono
   * [Procedura di autenticazione][3]
   * [Conclusione][4]
 
-Processo di integrazione ## :  {#integration}
+## Processo di integrazione: {#integration}
+
 L'integrazione Osticket e WordPress richiede un modulo di contatto sul sito WordPress con i seguenti campi
   1. Aiuto argomento
   2. Email
@@ -29,7 +30,8 @@ L'integrazione Osticket e WordPress richiede un modulo di contatto sul sito Word
   5. Messaggio
 Il modulo di contatto deve inviare e -mail, perché questo plugin aggancia la funzione WP_Mail per ottenere i dati dei moduli.
 
-## installazione del plugin WordPress:   {#wordpress}
+## Installazione del plug -in WordPress: {#wordpress}
+
   1. Vai alla dashboard admin del tuo sito WordPress.
   2. Quindi vai alla sezione plugin.
   3. Quindi installa questo [plugin][5].
@@ -42,7 +44,8 @@ Il modulo di contatto deve inviare e -mail, perché questo plugin aggancia la fu
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Integrazione Osticket-WordPress per automatizzare il sistema di biglietteria">}}
 
 
-## procedura di autenticazione:   {#auth}
+## Procedura di autenticazione: {#auth}
+
 L'autenticazione API viene eseguita tramite chiavi API configurate all'interno del pannello di amministrazione di osticket. Le chiavi API vengono generate e collegate a un indirizzo IP di origine che viene verificato rispetto all'IP di origine delle richieste API HTTP. Per creare la chiave API
   1. Vai al pannello di amministratore di osticket.
   2. Fare clic su "Gestisci".
@@ -55,7 +58,8 @@ L'autenticazione API viene eseguita tramite chiavi API configurate all'interno d
 {{< figure align=center src="images/osticket-1024x729.png" alt="Integrazione Osticket-WordPress per automatizzare il sistema di biglietteria">}}
 
 
-## conclusione:   {#conclusion}
+## Conclusione: {#conclusion}
+
 L'integrazione di Osticket-WordPress automatizzerà il processo di biglietteria. Quindi renderà la vita più facile per il team di supporto. Le richieste sul sito Web WordPress si converteranno automaticamente in biglietti di supporto su Osticket. In modo che il team di supporto possa gestire tutte le domande dei clienti in modo più semplice ed efficiente. Gli agenti di supporto saranno notificati tramite notifiche e -mail. Pertanto, gli agenti possono risolvere le domande dei clienti in tempo. La sezione commenti su Osticket aiuta sia i clienti che gli agenti di supporto a comunicare in modo efficace e tempestivo. Rende anche più facile per i manager tenere traccia dei progressi per ogni biglietto.
 
 ## Esplorare:
@@ -64,7 +68,8 @@ Per saperne di più su Osticket e WordPress, controlla queste pagine:
   * [WordPress - Open Source gratuito e strumento CMS e blogging più utilizzato][8]
   * [Come impostare il software di help desk online utilizzando Osticket][9]
 
-  
+
+
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

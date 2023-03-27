@@ -15,16 +15,17 @@ categories: ['Video Editing Software']
 
 
 Panoramica ##
-Nel recente passato, abbiamo pubblicato alcuni post sul blog su strumenti di creazione di video gratuiti. Il primo post sul blog ha parlato dell'impatto [**del marketing video sul business **][1] e il secondo post sul blog è stato un articolo [ **Tutorial su un popolare editor video OpenShot**  ][2].
+Nel recente passato, abbiamo pubblicato alcuni post sul blog su strumenti di creazione di video gratuiti. Il primo post sul blog ha parlato dell'impatto [ **del marketing video sul business**][1] e il secondo post sul blog è stato un articolo [**Tutorial su un popolare editor video OpenShot** ][2].
 In questo post sul blog, tratteremo la breve introduzione del seguente software di video editor.
-  * **[OpenShot][3]**
-  *[**shotcut** ][4]
-  * **[flowlade][5]**
-  * **[KdenLive][6]**
-  * **[Blender][7]**
-  * **[Conclusione][8]**
+* **[OpenShot][3]** 
+* [ **shotcut** ][4]
+* **[flowlade][5]** 
+* **[KdenLive][6]** 
+* **[Blender][7]** 
+* **[Conclusione][8]** 
 
-## OpenShot   {#openshot}
+## OpenShot {#openshot}
+
 [OpenShot][9] è un editor di video multipiattaforma e pluripremiati open source. Fornisce molte potenti funzionalità come il taglio, il taglio, gli effetti, le animazioni 3D 2D e l'interfaccia intuitiva. Inoltre, è la migliore piattaforma per realizzare video in quanto fornisce integrazioni REST API e desktop in cui è possibile trascinare e rilasciare i file. Questo software open source è multilingue, robusto e sicuro. Inoltre, è disponibile una documentazione completa per quanto riguarda la distribuzione e lo sviluppo. OpenShot è scritto in Python. Pertanto, tutto il codice sorgente è disponibile su [github][10].
 Di seguito sono riportate le caratteristiche di spicco:
   * Interfaccia riposante
@@ -34,7 +35,8 @@ Di seguito sono riportate le caratteristiche di spicco:
   * Modifica proxy
 [Scopri di più su OpenShot][11]
 
-## shotcut   {#shotcut}
+## Shotcut {#Shotcut}
+
 [Shotcut][12] è un altro produttore di video open source gratuito con molte potenti capacità. È multipiattaforma e personalizzabile. Inoltre, ci sono filtri video a 360 ° di alta qualità ed effetti disponibili in questo software di editing video. ShotCut Video Maker fornisce supporto per tutti i formati di immagini popolari come TIFF, BMP, GIF, TGA, WebP, PNG, JPEG, SVG e JPEG. ShotCut è in grado di funzionare come app portatile da un'unità esterna. Tuttavia, questo software è scritto in C ++, QML e JavaScript e tutto il codice sorgente è disponibile su [GitHub][13].
 ShotCut ha le seguenti caratteristiche chiave:
   * Editing a 3 punti
@@ -45,7 +47,8 @@ ShotCut ha le seguenti caratteristiche chiave:
   * Misurazione della qualità del video
 [Scopri di più su Shotcut][14]
 
-## flowBlade   {#flowblade}
+## Flowlade {#Flowlade}
+
 [FlowBlade][15] è un creatore di video open source multitraccia competente. Si presenta con ricche funzionalità di editing video che includono un'interfaccia utente di trascinamento. Inoltre, questo editor di video utilizza la tecnologia di filtraggio delle immagini open source G’Mic. Esistono potenti controlli come la sincronizzazione audio della sequenza temporale, la parte divisa dei video clip, la creazione di immagini composti e la modalità di compositing di traccia completa. FlowBlade è scritto in Python con un piccolo input da altre lingue come HTML, JavaScript CSS. Pertanto, il suo codice sorgente è disponibile su [github][16].
 FlowBlade offre le seguenti caratteristiche importanti:
   * Miscela e trasformazione
@@ -55,7 +58,8 @@ FlowBlade offre le seguenti caratteristiche importanti:
   * Drag & Drop Ui
 [Scopri di più su FlowLade][17]
 
-## kdenlive   {#KdenLive}
+## Kdenlive {#Kdenlive}
+
 KdenLive è un altro software di editing video open source. Questo software è basato su [QT][18], FFMPEG e le librerie [KDE][19] a causa delle quali può elaborare tutti i formati video/audio ampiamente utilizzati. Soprattutto, la sua interfaccia utente configurabile attira gli utenti a utilizzarlo per scopi di editing video professionali. Inoltre, ci sono ricche opzioni riguardanti effetti, transizioni e supporto per audiometro e istogramma. Inoltre, la cosa più bella di questo software open source è il backup di versione e automatico dei file di progetto. KdenLive è scritto in C ++ e tutto il codice sorgente è disponibile su [github][20].
 KdenLive emette le seguenti caratteristiche chiave:
   * Interfaccia configurabile
@@ -65,7 +69,8 @@ KdenLive emette le seguenti caratteristiche chiave:
   * Editing video multi-track
 [Scopri di più su KdenLive][21]
 
-## blender   {#blender}
+## Miscelatore {#Miscelatore}
+
 [Blender][22] è un'altra applicazione di editor video open source. Non è solo un editor video ma una suite di creazione 3D completa che include animazione 2D, simulazione e monitoraggio del movimento. Inoltre, questo editor video open source fornisce un'interfaccia utente completamente personalizzabile. C'è anche API disponibile per qualsiasi tipo di script e modifica. Soprattutto, Blender offre fino a 32 strumenti per l'editing video con controlli multimediali. Questo software è scritto in C, C ++ e Python. Il codice sorgente di questa applicazione è disponibile su [github][23].
 Blender offre i seguenti punti chiave:
   * Interfaccia personalizzabile
@@ -75,7 +80,8 @@ Blender offre i seguenti punti chiave:
   * Visualizza istogramma
 [Scopri di più su Blender][22]
 
-## conclusioni   {#conclusion}
+## Conclusione  {#Conclusione}
+
 Porta alla fine di questo post sul blog. Questo articolo può aiutarti a fare una scelta tra i popolari strumenti di creazione di video gratuiti. Tuttavia, fai la scelta giusta e crea video aziendali di alta qualità convincenti.
 Infine, [Containerize.com][24] scrive continuamente post sul blog su ulteriori prodotti e argomenti open source. Pertanto, rimanete in contatto con la categoria [software di editing video][25] per aggiornamenti regolari.
 
@@ -87,7 +93,8 @@ Potresti trovare i seguenti collegamenti pertinenti:
   * [KdenLive][26]
   * [Blender][27]
 
-  
+
+
 [1]: https://blog.containerize.com/video-editing-software/how-video-editing-software-improves-business-video-marketing/
 [2]: https://blog.containerize.com/2020/12/30/a-beginners-guide-to-start-video-editing-with-free-openshot/
 [3]: #openshot

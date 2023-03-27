@@ -14,17 +14,19 @@ categories: ['Web Hosting']
 
 ## Webmin là một công cụ quản trị hệ thống dựa trên web là một giải pháp thay thế đơn giản cho quản trị hệ thống dòng lệnh. Bài viết này hướng dẫn cách cài đặt webmin
 Với bài viết này, Cách thức cài đặt webmin với SSL trên Ubuntu 20.04, chúng tôi đang bắt đầu loạt hướng dẫn mới về phần mềm và công cụ lưu trữ web. Với webmin, bạn có thể thiết lập tài khoản người dùng, bật chia sẻ tệp, cấu hình cài đặt Apache và DNS và thực hiện nhiều tác vụ liên quan đến lưu trữ web. Nó cho phép bạn quản lý toàn bộ máy chủ lưu trữ web. Nó loại bỏ các rắc rối của việc chỉnh sửa các tệp cấu hình Linux theo cách thủ công. Vì vậy, hãy để Lừa học cách cài đặt webmin với SSL.
-  * **[Giới thiệu về webmin][1]**
-  *[ **Các tính năng được tô sáng** ][2]
-  *[ **Hệ điều hành được hỗ trợ** ][3]
-  *[ **Cài đặt webmin trên Ubuntu** ][4]
-  *[ **Cài đặt Apache bằng webmin** ][5]
-  *[ **Kết luận** ][6]
+* **[Giới thiệu về webmin][1]** 
+* [ **Các tính năng được tô sáng** ][2]
+* [ **Hệ điều hành được hỗ trợ** ][3]
+* [ **Cài đặt webmin trên Ubuntu** ][4]
+* [ **Cài đặt Apache bằng webmin** ][5]
+* [ **Kết luận** ][6]
 
-## Giới thiệu về webmin   {#Intro}
+## Giới thiệu về webmin {#intro}
+
 Webmin là một giao diện dựa trên web để quản trị hệ thống cho Linux. Nó giúp bạn quản lý máy chủ lưu trữ của riêng bạn từ xa từ bất kỳ trình duyệt web hiện đại nào. Với webmin, bạn có thể định cấu hình các bên trong hệ điều hành như tài khoản người dùng, Apache, DNS, chia sẻ tệp và nhiều hơn nữa. Webmin cũng cho phép điều khiển nhiều máy thông qua một giao diện duy nhất hoặc đăng nhập liền mạch trên các máy chủ webmin khác trên cùng một mạng con hoặc mạng LAN. Webmin, dựa trên Perl, chạy như quá trình riêng và máy chủ web. Và phần tốt nhất về webmin là nguồn mở và miễn phí 100% và có một cộng đồng nhà phát triển rất thịnh vượng.
 
-## Các tính năng được tô sáng   {#Features}
+## Các tính năng nổi bật {#features}
+
   * Cho phép bạn tạo và chỉnh sửa miền, bản ghi DNS, tùy chọn liên kết và chế độ xem.
   * Giúp cấu hình tường lửa bằng cách tạo và chỉnh sửa các quy tắc bằng IPFW.
   * Hãy để bạn thiết lập các tập lệnh để chạy vào thời điểm khởi động từ /etc/init.d hoặc /etc/rc.local
@@ -35,12 +37,13 @@ Webmin là một giao diện dựa trên web để quản trị hệ thống cho
   * Cho phép bạn chạy các lệnh trên nhiều máy chủ cùng một lúc
   * Cho phép bạn thiết lập và chỉnh sửa hạn ngạch người dùng hoặc nhóm cho hệ thống tập tin cục bộ
   * Bao gồm sao lưu và khôi phục hệ thống tập tin bằng cách sử dụng kết xuất và khôi phục gia đình lệnh
-  * Sử dụng trình quản lý tệp tương tự như Windows, bạn có thể xem, chỉnh sửa và thay đổi quyền trên các tệp và thư mục trên máy chủ của bạn
+  * Sử dụng trình quản lý tệp tương tự như Windows, bạn có thể xem, chỉnh sửa và thay đổi quyền trên các tệp và thư mục trên máy chủ của mình
   * Bạn có thể định cấu hình máy chủ giao thức vị trí dịch vụ
   * Xem, chỉnh sửa và thay đổi quyền trên các tệp và thư mục trên hệ thống của bạn với trình quản lý tệp giống như Windows
   * Nó giúp thiết lập các đường hầm SSL để mã hóa các dịch vụ như POP3 và IMAP, sử dụng Stunnel Run từ InetD.
 
-## Hệ điều hành được hỗ trợ   {#support}
+## hệ điều hành được hỗ trợ {#support}
+
 Bởi vì các hệ điều hành và phân phối Linux giống như UNIX khác nhau sử dụng các vị trí khác nhau cho các tệp cấu hình khác nhau, WebMin chỉ có thể hỗ trợ các hệ thống mà nó đã được cấu hình. Các hệ điều hành sau đây được hỗ trợ bởi phiên bản 1.979 của webmin:
   * Almalinux Linux
   * Linux Alphacore
@@ -60,7 +63,7 @@ Bởi vì các hệ điều hành và phân phối Linux giống như UNIX khác
   * Cloudlinux
   * Cloudrouter Linux
   * Cobalt Linux
-  * Linux công nghệ kết hợp
+  * Công nghệ kết hợp Linux
   * Conectiva Linux
   * Corel Linux
   * Corvus Latinux
@@ -72,7 +75,7 @@ Bởi vì các hệ điều hành và phân phối Linux giống như UNIX khác
   * Dragonfly BSD
   * Tường lửa Endian Linux
   * Fedora Linux
-  * FreeBsd
+  * FreeBSD
   * Linux chung
   * Gentoo Linux
   * Gralinux
@@ -138,7 +141,7 @@ Bởi vì các hệ điều hành và phân phối Linux giống như UNIX khác
   * Tao Linux
   * Máy chủ Tawie Linux
   * Máy tính để bàn Thizlinux
-  * ThizServer
+  * Thizerver
   * Tinysofa Linux
   * Trustix
   * Trustix SE
@@ -159,8 +162,9 @@ Bởi vì các hệ điều hành và phân phối Linux giống như UNIX khác
   * Yoper Linux
 Các hệ thống được hỗ trợ tốt nhất tại thời điểm này là Solaris, Linux (đặc biệt là Redhat) và FreeBSD.
 
-## Cài đặt webmin trên ubuntu   {#install}
-Để cài đặt webmin, bạn sẽ cần có quyền truy cập vào người dùng với các đặc quyền **root **. Bạn nên thiết lập một người dùng không root với quyền truy cập ** sudo** .
+## Cài đặt webmin trên Ubuntu {#install}
+
+Để cài đặt webmin, bạn sẽ cần có quyền truy cập vào người dùng với các đặc quyền **root**. Bạn nên thiết lập một người dùng không root với quyền truy cập**sudo** .
 Đầu tiên SSH vào máy chủ của bạn bằng lệnh sau
 ```
 ssh user@server_IP_address
@@ -195,26 +199,29 @@ Tại thời điểm này, bạn sẽ thấy màn hình đăng nhập webmin:
 
 {{< figure align=center src="images/webmin-login-screen.png" alt="Cài đặt webmin">}}
 
-Khi bạn lần đầu tiên đăng nhập vào webmin, bạn sẽ được đưa vào trang  **Thông tin hệ thống** . Nó cung cấp cho bạn một cái nhìn tổng quan về tài nguyên hệ thống của bạn và các thông tin linh tinh khác.
+Khi bạn lần đầu tiên đăng nhập vào webmin, bạn sẽ được đưa vào trang **Thông tin hệ thống** . Nó cung cấp cho bạn một cái nhìn tổng quan về tài nguyên hệ thống của bạn và các thông tin linh tinh khác.
 
 {{< figure align=center src="images/install-webmin-system-info.png" alt="Cài đặt thông tin hệ thống webmin">}}
 
 
-## Cài đặt Apache bằng webmin   {#install-apache}
+## Cài đặt Apache bằng WebMin {#install-apache}
+
 Webmin đi kèm với một loạt các mô -đun quản lý các gói phần mềm khác nhau. Để cài đặt Apache bằng WebMin, hãy làm theo các hướng dẫn bên dưới
-**Bước 1 **: Trong menu điều hướng, nhấp vào **Các mô-đun không sử dụng  **để mở rộng danh mục, sau đó nhấp vào**   Apache Webserver**.
+**Bước 1 **: Trong menu điều hướng, nhấp vào** Các mô-đun không sử dụng**để mở rộng danh mục, sau đó nhấp vào** Apache Webserver**.
 Nếu bạn chưa cài đặt Apache trên máy chủ, mô -đun sẽ thông báo cho bạn và cung cấp cho bạn cách cài đặt Apache.
-**Bước 2 **: Sử dụng  **Bấm vào đây**  Liên kết (trong câu cuối) để cài đặt Apache thông qua APT-Get thông qua webmin.
+**Bước 2**: Sử dụng** Bấm vào đây**Liên kết (trong câu cuối) để cài đặt Apache thông qua APT-Get thông qua webmin.
 Sau khi cài đặt Apache hoàn tất, máy chủ của bạn sẽ chạy máy chủ Apache mặc định.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Bài viết này thảo luận ngắn gọn nhiều điều mà webmin có thể làm, webmin là một trong những công cụ tốt nhất để quản lý các máy chủ Linux/UNIX của bạn. Trong hướng dẫn này, chúng tôi cũng đã học cách cài đặt webmin trên Ubuntu, vì chúng tôi đã thảo luận về cách cài đặt Apache trên máy chủ của bạn bằng WebMin.
 
 ## Khám phá
   * [Cách cài đặt nhiều phiên bản PHP với NGINX trên Ubuntu][7]
   * [Cách thiết lập và định cấu hình Nginx dưới dạng proxy ngược][8]
 
-  
+
+
 [1]: #intro
 [2]: #features
 [3]: #support

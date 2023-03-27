@@ -13,32 +13,35 @@ categories: ['Transactional Email']
 
 {{< figure align=center src="images/postal-banner.png" alt="Serwer poczty typu open source">}}
 
-Wysyłanie wiadomości e -mail na różne rodzaje zdarzeń jest niezbędne do nowoczesnych aplikacji. Każda firma potrzebuje niezawodnego **serwera poczty  **do wychodzących wiadomości e -mail. Ponadto firmy potrzebują serwera pocztowego do wysyłania masowych wiadomości e -mail do kampanii marketingowych, biuletynów i wielu innych zadań. Dostępnych jest kilka **  serwera poczty open source  **do tego. W tym poście omówimy jednak**   serwer pocztowy** i omówimy następujące tematy.
+Wysyłanie wiadomości e -mail na różne rodzaje zdarzeń jest niezbędne do nowoczesnych aplikacji. Każda firma potrzebuje niezawodnego  **serwera poczty** do wychodzących wiadomości e -mail. Ponadto firmy potrzebują serwera pocztowego do wysyłania masowych wiadomości e -mail do kampanii marketingowych, biuletynów i wielu innych zadań. Dostępnych jest kilka  **serwera poczty open source**  do tego. W tym poście omówimy jednak **serwer pocztowy**  i omówimy następujące tematy.
   * [Co to jest serwer poczty pocztowej?][1]
   * [Funkcje pocztowe][2]
   * [Instalacja pocztowa][3]
   * [Wniosek][4]
 
-## Co to jest serwer poczty pocztowej?   {#Pocztowy}
-[**Postal **][5] to bezpłatny i  **serwer poczty open source ** . Jest to w pełni funkcjonalny serwer pocztowy dla stron internetowych i aplikacji internetowych. Serwer poczty pocztowej jest alternatywą dla istniejącego popularnego  **Server poczty ** , takich jak SendGrid i Mailgun.  **Postal **  to solidna, bezpieczna i skalowalna platforma dostarczania wiadomości e -mail typu open source. Cały kod źródłowy i dokumentacja są dostępne na [ **github ** ][6]. Możesz pobrać, zainstalować go na prywatnym serwerze i zachować pełną kontrolę nad nim. Możesz także poprawić i ulepszyć go zgodnie z potrzebami biznesowymi. Ponadto ** Postal Mail Server**  obsługuje wiele organizacji.
+## Co to jest serwer poczty pocztowej? {#Postal}
+
+[  **Postal** ][5] to bezpłatny i  **serwer poczty open source**  . Jest to w pełni funkcjonalny serwer pocztowy dla stron internetowych i aplikacji internetowych. Serwer poczty pocztowej jest alternatywą dla istniejącego popularnego  **Server poczty**  , takich jak SendGrid i Mailgun.  **Postal**  to solidna, bezpieczna i skalowalna platforma dostarczania wiadomości e -mail typu open source. Cały kod źródłowy i dokumentacja są dostępne na [  **github**  ][6]. Możesz pobrać, zainstalować go na prywatnym serwerze i zachować pełną kontrolę nad nim. Możesz także poprawić i ulepszyć go zgodnie z potrzebami biznesowymi. Ponadto **Postal Mail Server**  obsługuje wiele organizacji.
 Użytkownicy mogą przeglądać wykresy i statystyki pokazujące wolumen maili przychodzących i wychodzących. Ponadto możesz uzyskać dostęp do pełnej kolejki wiadomości wychodzących i przychodzących. Serwer poczty pocztowej zapewnia funkcjonalność dla Webhooks. Możesz skonfigurować WebHooks, aby otrzymywać informacje na żywo o informacji o dostawie w czasie rzeczywistym. Oferuje również retencję wiadomości, która pozwala przechowywać i zbadać wszystkie wysyłanie i odbieranie wiadomości. Dostawa e -maili jest bardzo ważna w firmie, aby upewnić się, że użytkownicy otrzymali wiadomość e -mail. Czasami jednak e -mail dostarcza użytkownikowi i musisz zbadać problem.  **Incoming i wychodzący serwer poczty**  zapewnia również pełne rejestrowanie i narzędzia do przeprowadzenia dochodzenia.
 
-## funkcje pocztowej   {#Features}
-Serwer poczty pocztowej oferuje wiele funkcji. Omówimy jednak następujące kluczowe funkcje w tym artykule.
-**Wysyłanie e -maili**: Pocztowy serwer pocztowy zawiera dwie techniki wychodzących e -maili, w tym interfejs API HTTP i SMTP. Możesz łatwo użyć interfejsu API HTTP do integracji z aplikacjami internetowymi. Możesz także użyć serwera SMTP do integracji z istniejącymi aplikacjami i systemami.
-**E -maile przychodzące **: **Poczta przychodząca  **Można przesłać do punktu końcowego HTTP,**   SMTP Server** i innych adresów e -mail za pomocą poczty pocztowej.
-**Sprawdzanie spamu i wirusa**: Spamassassin i CLAMAV można zintegrować z pocztą, aby automatycznie skanować wiadomości przychodzące i wychodzące, gdy przechodzą przez serwery pocztowe. Ta funkcja jest również domyślnie wyłączona.
-**Kliknij i otwórz śledzenie**: Otwarcia e -maila i kliknięcia można śledzić za pomocą poczty. Postal skanuje Twoje wiadomości wychodzące i zastąpi wszelkie linki nowym linkiem, który przechodzi przez pocztą serwer WWW. Gdy użytkownik kliknie link, Postal rejestruje akcję i natychmiast przekierowuje je do oryginalnego adresu URL. Nie jest to jednak domyślnie aktywowane.
-**Pule IP**: Postal umożliwia wysyłanie wiadomości z różnych adresów IP. Umożliwia to przypisanie wielu adresów IP do różnych serwerów poczty lub wysyłanie z różnych adresów IP w zależności od adresów nadawcy lub odbiorcy.
+## Cechy pocztowe {#Features}
 
-## instalacja pocztowa   {#Installation}
-Postępuj zgodnie z poniższym przewodnikiem krok po kroku, aby zainstalować oprogramowanie pocztowe  **Server Server**  na Ubuntu 18.04.
+Serwer poczty pocztowej oferuje wiele funkcji. Omówimy jednak następujące kluczowe funkcje w tym artykule.
+ **Wysyłanie e -maili** : Pocztowy serwer pocztowy zawiera dwie techniki wychodzących e -maili, w tym interfejs API HTTP i SMTP. Możesz łatwo użyć interfejsu API HTTP do integracji z aplikacjami internetowymi. Możesz także użyć serwera SMTP do integracji z istniejącymi aplikacjami i systemami.
+ **E -maile przychodzące** : **Point Mocning Mail** można przesłać do punktu końcowego HTTP, **SMTP Server** i innych adresów e -mail za pomocą poczty pocztowej.
+ **Sprawdzanie spamu i wirusa** : Spamassassin i CLAMAV można zintegrować z pocztą, aby automatycznie skanować wiadomości przychodzące i wychodzące, gdy przechodzą przez serwery pocztowe. Ta funkcja jest również domyślnie wyłączona.
+ **Kliknij i otwórz śledzenie** : Otwarcia e -maila i kliknięcia można śledzić za pomocą poczty. Postal skanuje Twoje wiadomości wychodzące i zastąpi wszelkie linki nowym linkiem, który przechodzi przez pocztą serwer WWW. Gdy użytkownik kliknie link, Postal rejestruje akcję i natychmiast przekierowuje je do oryginalnego adresu URL. Nie jest to jednak domyślnie aktywowane.
+ **Pule IP** : Postal umożliwia wysyłanie wiadomości z różnych adresów IP. Umożliwia to przypisanie wielu adresów IP do różnych serwerów poczty lub wysyłanie z różnych adresów IP w zależności od adresów nadawcy lub odbiorcy.
+
+## Instalacja pocztowa {#Installation}
+
+Postępuj zgodnie z poniższym przewodnikiem krok po kroku, aby zainstalować oprogramowanie pocztowe  **serwer pocztowych**  na Ubuntu 18.04.
   * Po pierwsze, musisz podłączyć serwer VIS SSH. Uruchom następujące polecenie, aby zaktualizować system z najnowszymi dostępnymi pakietami.
 ```
 sudo apt-get update
 ```
 
-## # Zainstaluj serwer bazy danych mariadb
+### Zainstaluj serwer bazy danych mariadb
   * Uruchom polecenie, aby zainstalować Mariadb.
 ```
 sudo apt install mariadb-server libmysqlclient-dev
@@ -56,7 +59,7 @@ Disallow root login remotely? [Y/n]: Y
 Remove test database and access to it? [Y/n]:  Y
 Reload privilege tables now? [Y/n]:  Y
 ```
-  * Połącz się z serwerem Mariadb za pomocą następującego polecenia.
+  * Połącz z serwerem Mariadb za pomocą następującego polecenia.
 ```
 mysql -u root -p
 ```
@@ -68,7 +71,7 @@ CREATE DATABASE postal CHARSET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 CREATE USER 'postaluser'@'localhost' IDENTIFIED BY 'new_password_here';
 ```
-  * Następnie udzielaj użytkownikowi pełny dostęp do bazy danych „Postaluser”.
+  * Następnie udziel pełnego dostępu użytkownika do bazy danych „Postaluser”.
 ```
 GRANT ALL ON postal.* TO 'postaluser'@'localhost' WITH GRANT OPTION;
 ```
@@ -78,7 +81,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 
-## # Zainstaluj Ruby
+### Zainstaluj Ruby
   * Najpierw dodaj PPA innych firm, aby zainstalować Ruby. Uruchom następujące polecenia.
 ```
 sudo apt-get install software-properties-common
@@ -93,7 +96,7 @@ sudo apt update
 sudo apt install ruby2.3 ruby2.3-dev build-essential
 ```
 
-## # Zainstaluj Rabbitmq
+### Zainstaluj Rabbitmq
   * Erlang jest zobowiązany do zainstalowania RabbitMQ, więc musisz go również zainstalować. Dodaj klucz repozytorium Erlang do Ubuntu za pomocą poniższego polecenia.
 ```
 wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
@@ -132,7 +135,7 @@ sudo rabbitmqctl add_user postal type_password_here
 sudo rabbitmqctl set_permissions -p /postal postal ".*" ".*" ".*"
 ```
 
-## # Zainstaluj NodeJS
+### Zainstaluj NodeJS
   * Dodaj repozytorium NodeJS z następującym poleceniem.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -142,7 +145,7 @@ curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt-get install nodejs
 ```
 
-## # Zainstaluj pocztę pocztową
+### Zainstaluj pocztę pocztową
   * Po pierwsze, musisz utworzyć użytkownika dla pocztowego serwera pocztowego. Utwórz go za pomocą następującego polecenia.
 ```
 sudo useradd -r -m -d /opt/postal -s /bin/bash postal
@@ -247,7 +250,7 @@ This tool is usually only used to create your initial admin user.
 E-Mail Address      : admin@example.com
 First Name          : Admin
 Last Name           : Postal
-Initial Password:   :*********
+Initial Password:   :  ****** ***
 
 User has been created with e-mail address admin@example.com
 ```
@@ -257,7 +260,7 @@ sudo -u postal postal start
 sudo -u postal postal status
 ```
 
-## # Zainstaluj Nginx
+### Zainstaluj Nginx
   * Uruchom poniższe polecenie, aby zainstalować serwer WWW Nginx.
 ```
 sudo apt install nginx
@@ -280,24 +283,26 @@ sudo systemctl restart nginx
 ```
   * Na koniec otwórz przeglądarkę i wpisz adres URL https://postal.example.com. Zostaniesz przekierowany na stronę logowania.
 
-## Wniosek   {#Conclusion}
-Głęboko omówiliśmy wprowadzenie i podstawowe funkcje serwera pocztowego pocztowego. Dołączyliśmy również instrukcje krok po kroku dotyczące konfigurowania tego  **Agent przesyłania poczty** . Ponadto daliśmy pewien wgląd w konfigurację. Konfigurowanie serwera poczty pocztowej to prosty proces. Mam nadzieję, że ten artykuł jest rzeczywiście pomocny w konfigurowaniu i konfigurowaniu serwera poczty pocztowej dla Twojej firmy.
-Wreszcie [**Containerize.com **][7] jest w spójnym procesie pisania postów na blogu na temat dalszych najnowszych produktów typu open source. Dlatego pozostań w kontakcie z tą [**  transakcyjną e -mail**][8] w celu uzyskania najnowszych aktualizacji.
+## Wniosek {#Wniosek}
+
+Głęboko omówiliśmy wprowadzenie i podstawowe funkcje serwera pocztowego pocztowego. Dołączyliśmy również instrukcje krok po kroku dotyczące konfigurowania tego  **Agent przesyłania poczty**  . Ponadto daliśmy pewien wgląd w konfigurację. Konfigurowanie serwera poczty pocztowej to prosty proces. Mam nadzieję, że ten artykuł jest rzeczywiście pomocny w konfigurowaniu i konfigurowaniu serwera poczty pocztowej dla Twojej firmy.
+Wreszcie [  **Containerize.com** ][7] jest w spójnym procesie pisania postów na blogu na temat dalszych najnowszych produktów typu open source. Dlatego pozostań w kontakcie z tą [ **transakcyjną e -mail**  ][8] w celu uzyskania najnowszych aktualizacji.
 
 ## Badać
 Możesz znaleźć istotne następujące linki:
-  *[ **Najlepsze transakcyjne oprogramowanie do e -mail** ][9]
-  *[ **potal - serwer poczty open source** ][5]
-  *[ **5 Najlepsze oprogramowanie serwera pocztowego open source dla firm w 2020** ][10]
+* [  **Najlepsze transakcyjne oprogramowanie do e -mail**  ][9]
+* [  **potal - serwer poczty open source**  ][5]
+* [  **5 Najlepsze oprogramowanie serwera pocztowego open source dla firm w 2020**  ][10]
 
-  
-[1]: #Postal
-[2]: #Features
-[3]: #Installation
-[4]: #Conclusion
-[5]: https://products.containerize.com/transactional-email/postal/
-[6]: https://github.com/postalhq/postal
-[7]: https://containerize.com
-[8]: https://blog.containerize.com/category/transactional-email/
-[9]: https://products.containerize.com/transactional-email/
-[10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/
+
+
+ [1]: #Postal
+ [2]: #Features
+ [3]: #Installation
+ [4]: #Conclusion
+ [5]: https://products.containerize.com/transactional-email/postal/
+ [6]: https://github.com/postalhq/postal
+ [7]: https://containerize.com
+ [8]: https://blog.containerize.com/category/transactional-email/
+ [9]: https://products.containerize.com/transactional-email/
+ [10]: https://blog.containerize.com/transactional-email/top-5-open-source-mail-transfer-agents-for-linux-in-2020/

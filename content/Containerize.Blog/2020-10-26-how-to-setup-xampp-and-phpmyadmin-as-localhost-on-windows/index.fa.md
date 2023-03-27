@@ -9,7 +9,7 @@ url: /fa/how-to-setup-xampp-and-phpmyadmin-as-localhost-on-windows/
 categories: ['Database Management Software', 'Web Server Solution Stack']
 ---
 
-## تنظیم یک محیط توسعه با پشته سرور وب رایگان و منبع باز (XAMPP) و نرم افزار مدیریت پایگاه داده (PHPMYADMIN)
+## تنظیم یک محیط توسعه با پشته سرور وب رایگان و منبع باز (XAMPP) و نرم افزار مدیریت پایگاه داده (PhpMyadmin)
 
 {{< figure align=center src="images/xampp-phpmyadmin-blog-1024x536.png" alt="xampp و phpmyadmin به عنوان localhost">}}
 
@@ -20,16 +20,18 @@ XAMPP و PHPMYADMIN به عنوان LocalHost یک سرور محلی را برا
   * [داشبورد phpmyadmin][3]
   * [افکار نهایی][4]
 
-## توضیحات:   {#description
+## شرح: {#description}
+
 XAMPP رایگان و پشته راه حل سرور وب منبع باز است. این شامل Apache ، MySQL ، Mariadb ، PHP و Perl است. XAMPP برای سیستم عامل های ویندوز در دسترس است. نصب و استفاده از آن بسیار آسان است. به همین دلیل محبوب ترین محیط توسعه PHP است. XAMPP و PHPMYADMIN به عنوان LocalHost محیطی کامل را برای توسعه و آزمایش برنامه های وب فراهم می کند.
 الفبای موجود در XAMPP برای:
-***X**-Cross-Platform (از چندین سیستم عامل از جمله لینوکس ، ویندوز و سیستم عامل MAC پشتیبانی می کند)
-***A**- سرور HTTP Apache
-***m**- mariadb (پایگاه داده)
-***p**- php
-***p**- perl
+* **X** -Cross-Platform (از چندین سیستم عامل از جمله لینوکس ، ویندوز و سیستم عامل MAC پشتیبانی می کند)
+* **A** - سرور HTTP Apache
+* **m** - mariadb (پایگاه داده)
+* **p** - php
+* **p** - perl
 
-## نصب xampp   {#xampp}
+## نصب XAMPP {#xampp}
+
   * بارگیری XAMPP را از [اینجا][5] بارگیری کنید.
 
 {{< figure align=center src="images/xampp1.png" alt="xampp به عنوان localhost">}}
@@ -53,7 +55,8 @@ XAMPP رایگان و پشته راه حل سرور وب منبع باز است.
 {{< figure align=center src="images/xampp5.png" alt="XAMPP به عنوان LocalHost مرحله 4">}}
 
 
-## داشبورد phpmyadmin:   {#phpmyadmin}
+## داشبورد phpmyadmin: {#phpmyadmin}
+
 برای دسترسی به داشبورد phpmyadmin ، روی دکمه "مدیر" در کنار سرویس MySQL کلیک کنید. همچنین می توانید با مراجعه به http: // localhost/phpmyadmin از مرورگر خود به phpmyadmin دسترسی پیدا کنید. در اینجا می توانید پایگاه داده ایجاد کنید. برای ایجاد یک پایگاه داده جدید ، این مراحل را دنبال کنید.
   * از داشبورد ، روی برگه "پایگاه داده" کلیک کنید.
 
@@ -75,14 +78,16 @@ XAMPP رایگان و پشته راه حل سرور وب منبع باز است.
 {{< figure align=center src="images/db4-1024x564.png" alt="phpmyadmin at localhost مرحله 4">}}
 
 
-## افکار نهایی:   {#final}
+## افکار نهایی: {#final}
+
 نصب XAMPP ساده و مستقیم به جلو است. بیش از 15 دقیقه به سرور تنظیم XAMPP طول نمی کشد. پس از نصب ، توسعه دهندگان می توانند برنامه های وب مبتنی بر PHP خود را حتی بدون اتصال به اینترنت بسازند و آزمایش کنند. به جای آزمایش مستقیم پروژه ها بر روی یک سرور وب زنده ، آزمایش آنها در محلی ساده و صرفه جویی در وقت است. این یک بستر عالی برای مبتدیان است که مهارت های PHP ، PERL و پایگاه داده خود را یاد بگیرند.
 
 ## کاوش:
 [پشته راه حل سرور منبع باز برای توسعه دهندگان PHP و PERL][6]
 [بهترین گزینه های راه حل راه حل سرور منبع باز][7]
 
-  
+
+
 [1]: #description
 [2]: #xampp
 [3]: #phpmyadmin

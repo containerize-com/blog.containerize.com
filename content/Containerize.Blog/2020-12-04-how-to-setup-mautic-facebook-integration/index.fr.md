@@ -20,17 +20,19 @@ Nous couvrirons les sections suivantes dans ce tutoriel:
   * [Configuration du plugin Mautic][3]
   * [Conclusion][4]
 
-## Configurer le compte de développeur Facebook   {#Account}
+## Configurer le compte de développeur Facebook {#account}
+
   * Allez sur [Facebook pour les développeurs][5]
   * Enregistrez votre compte si vous n'en avez pas.
   * Pour enregistrer un nouveau compte, accédez à et cliquez sur «Démarrer» à partir du coin supérieur droit.
   * Après cela, sélectionnez votre compte Facebook et appuyez sur «Continuer».
   * Ensuite, à partir de la fenêtre contextuelle, cliquez sur le bouton «développeur».
 
-{{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Intégration Facebook - Registre le compte de développeur">}}
+{{< figure align=center src="images/Mautic-Facebook-Integration-Register-Developer-Account-1024x582.png" alt="Mautic - Intégration Facebook - Registre du compte de développeur">}}
 
 
-## Configurer l'application du développeur Facebook   {#App}
+## Configurer l'application du développeur Facebook {#app}
+
   * Cliquez sur «Créer une première application»
 
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Create-First-APP.png" alt="Mautic - Intégration Facebook - Créez la première application">}}
@@ -57,7 +59,8 @@ Nous couvrirons les sections suivantes dans ce tutoriel:
 {{< figure align=center src="images/Mautic-–-Facebook-Integration-Add-Website-as-Platform-1024x179.png" alt="Mautic - Intégration Facebook - Ajouter le site Web en tant que plate-forme">}}
 
 
-## Configuration du plugin Mautic   {#configuration}
+## Configuration du plugin Mautic {#configuration}
+
   * Allez au tableau de bord Mautic.
   * Ensuite, passez aux «Paramètres» du coin supérieur droit.
   * Cliquez sur «Plugins».
@@ -72,7 +75,8 @@ Nous couvrirons les sections suivantes dans ce tutoriel:
   * Ici, vous pouvez cartographier vos champs de contact dans les champs Facebook.
   * Enfin, publiez les paramètres et vous êtes prêt à partir.
 
-## Conclusion   {#conclusion}
+## Conclusion {#conclusion}
+
 Mautic - L'intégration Facebook peut aider à synchroniser vos prospects Facebook dans le système Mautic sans aucune difficulté. Dans l'application Mautic, vous pouvez ajouter tous ces fils dans un segment. Vous pouvez exécuter des campagnes de marketing par e-mail sur eux. Cela peut vraiment aider votre entreprise à développer, commercialiser et vendre des produits / services à un public cible beaucoup plus important.
 
 ## Explorer
@@ -83,7 +87,8 @@ Pour en savoir plus sur Mautic et Facebook, veuillez visiter:
   * [Automatisation du marketing avec l'intégration Mautic et WooCommerce][9]
   * [Intégrer Mautic & Joomla pour l'automatisation du marketing numérique][10]
 
-  
+
+
 [1]: #account
 [2]: #app
 [3]: #configuration

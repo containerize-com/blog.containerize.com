@@ -20,31 +20,37 @@ Phplist'e [Multi-Tenacy][1] ve [bülten kampanyası][2][gönderme gönderme][2] 
   * [Sıçrama nasıl işlenir?][6]
   * [Sonuç][7]
 
-## Phplist nedir?   {#phplist}
+## Phplist nedir? {#phplist}
+
 Phplist en popüler ücretsiz ve açık kaynaklı bülten gönderme yazılımıdır. Phplist, işletmelerin abonelere pazarlama e -postaları, ürün güncellemeleri ve duyurular göndermelerini sağlar. İşletmelerin listeleme, güzel bülten tasarımı, program kampanyası ve sıçrama yönetimi için yardımcı olmasına yardımcı olur. [Devamını oku][8]
 
-## Bounce nedir?   {#sıçrama}
+## Bounce nedir? {#bounce}
+
 Sıçrama, neden sayısı nedeniyle teslim edilemeyen ve gönderene geri dönemeyen bir e -posta mesajıdır. Posta kutusu dolu, e -posta adresi artık geçerli veya yanlış e -posta adresi gibi nedenlerimiz olabilir. Bu nedenle, geçersiz e -posta adreslerine e -posta göndermemeniz için sıçramaları işlemeniz gerekir.
 
-## Kurulum Girişim Yönetimi   {#setup}
+## Kurulum sıçrama yönetimi {#setup}
+
 Boşluk yönetimini ayarlamak için, Config.php dosyasında aşağıdaki ayarları yapılandırmanız gerekir.
 
 {{< figure align=center src="images/bounce-handling-phplist.png" alt="Phplist - Sıçrama İşleme Yönetimi">}}
 
 Bu konfigürasyonlar hakkında aşağıdaki adımlarda daha fazla açıklayacağız.
-  * İlk olarak, sıçrama mesajları almak istediğiniz e -posta adresi eklemeniz gerekir. **Message_envelope**  Değişken'i bulabilir ve e -posta adresinizi ekleyebilirsiniz.
-  *Phplist, **Mbox ve Pop3  **iki protokolle Bounce posta kutusundan e -postaları getirebilir. Yani, **  Bounce_protocol**  değişken bulun ve ortamınıza göre değiştirin.
-  ***Mbox  **Prototcol ayarladıysanız, bunun için dosya biçimini tanımlamanız gerekir. Yani, **  Bounce_mailbox**  bulun ve "/var/mako/posta/liste/listbounces" gibi yolu ayarlayın.
-  ***POP3  **protokolü kullandıysanız, posta kutusu için **  ana bilgisayar, kullanıcı adı ve şifre**  yapılandırmanız gerekir. Bu ayarı yukarıdaki Sreenshot'ta görebilirsiniz.
-  ***POP3**  protokolü için yukarıdaki ayarlara ek olarak, bağlantı noktası ve şifreleme eklemeniz gerekebilir.
+  * İlk olarak, sıçrama mesajları almak istediğiniz e -posta adresi eklemeniz gerekir. **Message_envelope** Değişken'i bulabilir ve e -posta adresinizi ekleyebilirsiniz.
+* Phplist, **Mbox ve Pop3**iki protokolle Bounce posta kutusundan e -postaları getirebilir. Yani,**Bounce_protocol** değişken bulun ve ortamınıza göre değiştirin.
+* **Mbox**Prototcol ayarladıysanız, bunun için dosya biçimini tanımlamanız gerekir. Yani,**Bounce_mailbox** bulun ve "/var/mako/posta/liste/listbounces" gibi yolu ayarlayın.
+* **POP3**protokolü kullandıysanız, posta kutusu için**ana bilgisayar, kullanıcı adı ve şifre** yapılandırmanız gerekir. Bu ayarı yukarıdaki Sreenshot'ta görebilirsiniz.
+* **POP3** protokolü için yukarıdaki ayarlara ek olarak, bağlantı noktası ve şifreleme eklemeniz gerekebilir.
 
-## sıçrama nasıl işlenir?   {#işlem}
-Phplist, işlem sıçramaları için iki yöntemi destekler: manuel ve otomatik. Sıçrama işlemeyi otomatikleştirmek için Cron Job oluşturmanız gerekecek. Ayrıca **Sistem> Process Sıçramaları  **sayfasını ziyaret ederek sıçramaları manuel olarak işleyebilirsiniz. Bu nedenle, önce gereksinimlerinize göre **  manuel olarak \ _Process \ _Bounces**  ayarlarını değiştirmeniz gerekir. Süreç sıçramaları için CRON Job'u kurmak için [Phplist Docs][9] ziyaret edebilirsiniz.
+## Sıçrama nasıl işlenir? {#process}
 
-## Sonuç   {#Conclusion}
+Phplist, işlem sıçramaları için iki yöntemi destekler: manuel ve otomatik. Sıçrama işlemeyi otomatikleştirmek için Cron Job oluşturmanız gerekecek. Ayrıca **Sistem> Process Sıçramaları**sayfasını ziyaret ederek sıçramaları manuel olarak işleyebilirsiniz. Bu nedenle, önce gereksinimlerinize göre**manuel olarak \ _Process \ _Bounces** ayarlarını değiştirmeniz gerekir. Süreç sıçramaları için CRON Job'u kurmak için [Phplist Docs][9] ziyaret edebilirsiniz.
+
+## Çözüm {#conclusion}
+
 Bu yazıda, sıçrama e -posta adresini ve süreç sıçramalarını nasıl yapılandıracağımızı öğrendik. Daha az aboneniz varsa, sıçramaları manuel yöntemle kolayca işleyebilirsiniz. Ancak, büyük listeler için otomatik sıçrama işleme işlemini kullanmanız gerekir. Zamanınızı koruyacak ve temiz ve geçerli abone listeleri oluşturmanıza yardımcı olacaktır.
 
-  
+
+
 [1]: https://blog.containerize.com/newsletter/how-to-implement-multi-tenancy-in-phplist/
 [2]: https://blog.containerize.com/newsletter/how-to-create-and-send-newsletter-using-phplist/
 [3]: #phplist

@@ -24,7 +24,7 @@ Jika Anda mencari aplikasi manajemen foto digital yang mudah digunakan dan kuat 
 Darktable adalah perangkat lunak pengeditan gambar gratis yang menyediakan fitur fitur manajemen warna profesional dan memungkinkan fotografer dan pengembang untuk membuat pipa untuk pengeditan dan penyempurnaan gambar Anda. Demikian pula, sebagai aplikasi aplikasi editor foto open source, Darktable tidak memerlukan keterampilan teknis bagi pengguna untuk dapat memperoleh manfaat dari fitur -fiturnya. Berikut adalah beberapa fitur yang menonjol dari Darktable:
   * Kecepatan cepat
   * Manajemen Warna Profesional
-  * Kompatibilitas Lintas Platform
+  * Kompatibilitas lintas platform
   * Kompatibilitas dengan jenis file gambar yang berbeda
   * Modul gambar warna
 [Baca lebih lanjut][6]
@@ -79,7 +79,8 @@ Apakah Anda hanya memotret dengan ponsel cerdas Anda atau Anda seorang fotografe
   * [Digikam][9]
   * [Rawtherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

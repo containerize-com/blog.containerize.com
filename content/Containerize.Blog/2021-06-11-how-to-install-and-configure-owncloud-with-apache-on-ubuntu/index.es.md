@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-## **Descripción general**
+## **Descripción general** 
 OwnCloud es una aplicación web de origen abierta sólida y popular gratuita escrita en PHP que se utiliza para la sincronización de datos y el intercambio de archivos. También le permite administrar fácilmente archivos de datos, contactos, calendarios, listas de tareas y muchas más. Es una gran alternativa a las plataformas en la nube más populares como Google Drive, Dropbox, iCloud y otros servicios de almacenamiento en la nube. Pero a diferencia de los otros servicios de almacenamiento en la nube, OwnCloud Self Hosted es gratuito para crear su propia nube de host.
 OwnCloud es un software de nube privado de código abierto que proporciona acceso a datos utilizando la interfaz web para crear una nube privada. Le permite crear su propio servidor de intercambio de archivos donde puede ver y sincronizar fácilmente eventos calendario, archivos, imágenes, grabaciones, tareas, libros de direcciones con marcadores, similares a Dropbox y Google Drive. También proporciona opciones para sincronizar y compartir datos en todos los dispositivos, todos bajo su control. Instalar y configurar OwnCloud admite sus datos sincronizados para clientes de escritorio, así como dispositivos de aplicaciones móviles. Además, puede implementar fácilmente restricciones de acceso de usuario y agrupar en archivos por usuario que usan OwnCloud en Ubuntu. OwnCloud Open Source Storage Storage Server es una aplicación de plataforma cruzada y se puede instalar en todos los sistemas operativos populares.
 Este tutorial lo ayudará a configurar OwnCloud y configurar OwnCloud en los sistemas Ubuntu LTS.
@@ -97,15 +97,17 @@ Después de completar la configuración, obtendrá el tablero de administración
 {{_LINE_79_}}
 ¡Sí! Hemos terminado con OwnCloud Installation Guide para crear almacenamiento personal en la nube. Ahora sabe cómo instalar completamente OwnCloud en Ubuntu para construir una nube privada paso a paso similar a Dropbox o Google Drive.
 
-## **¿Cuáles son las mejores alternativas para OwnCloud?** {#4A1A}
-Los siguientes son las alternativas propias y del software de alojamiento de archivos de competidores autopendiados.
-  ***SEAFILE**  ES SISTEMA DE SOFTWARE DE ALTENCIÓN DE ARCHIVO CON CONTRAJE DE CORRECTO DE OPOR
-  ***NextCloud**  es una plataforma de almacenamiento en la nube gratuita y de código abierto
-  ***Resilio Sync**  es una aplicación de sincronización de archivos de código abierto de código abierto
-  ***Celdas Pydio**  es un software de intercambio de archivos y sincronización de código abierto
-  ***Syncthing**  es una aplicación de sincronización de archivos entre pares de código abierto y de código abierto
+## **¿Cuáles son las mejores alternativas para OwnCloud?** {#4a1a}
 
-## **Conclusión:** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+Los siguientes son las alternativas propias y del software de alojamiento de archivos de competidores autopendiados.
+* **SEAFILE** ES SISTEMA DE SOFTWARE DE ALTENCIÓN DE ARCHIVO CON CONTRAJE DE CORRECTO DE OPOR
+* **NextCloud** es una plataforma de almacenamiento en la nube gratuita y de código abierto
+* **Resilio Sync** es una aplicación de sincronización de archivos de código abierto de código abierto
+* **Celdas Pydio** es un software de intercambio de archivos y sincronización de código abierto
+* **Syncthing** es una aplicación de sincronización de archivos entre pares de código abierto y de código abierto
+
+## **Conclusión:**  {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 ¡Felicidades! Ha instalado y configurado con éxito OwnCloud para construir su propia nube privada con Apache en Ubuntu Machine. Ahora sus datos nunca están en manos de terceros y se pueden administrar en privado en el almacenamiento de servidor privado de Ubuntu de Cloud Virtual Cloud. Muchas compañías eligen crear sus propios servidores de Cloud con mucha información vital debido a muchos problemas con la privacidad de los datos. En nuestros próximos tutoriales, discutiremos temas más interesantes de las pilas de soluciones de servidor web.
 _Un puede unirse a nosotros en [Twitter][2], [LinkedIn][3] y nuestra página [Facebook][4]. ¿Qué solución de almacenamiento basada en la nube usa en línea? Si tiene alguna pregunta, por favor_ [póngase en contacto][5].
 
@@ -117,7 +119,8 @@ También tenemos varios otros artículos relacionados con la administración dia
   * [Configurar el soporte HTTP/2 en Nginx en Ubuntu/Debian][9]
   * [Configurar nginx con pasajero en el servidor de producción de AWS][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

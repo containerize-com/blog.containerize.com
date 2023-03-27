@@ -14,19 +14,21 @@ categories: ['Game Development Software']
 {{< figure align=center src="images/gdevelop-game.png" alt="Cách tạo một trò chơi trên đầu">}}
 
 
-## **Tổng quan**
+## **Tổng quan** 
 Trong quá khứ gần, chúng tôi đã xuất bản nhiều bài đăng trên blog về phần mềm phát triển trò chơi miễn phí nguồn mở như [phần mềm phát triển trò chơi miễn phí hàng đầu năm 2021][1], [bắt đầu với sự phát triển trò chơi bằng cách sử dụng siêu năng lực][2], [trò chơi Hướng dẫn phát triển | Chuyển động của người chơi trong GDevelop][3], [Hướng dẫn phát triển trò chơi HTML5 cho các lập trình viên trò chơi video][4], [Làm thế nào ngành công nghiệp trò chơi toàn cầu tận dụng phần mềm nguồn mở][5], và [Hướng dẫn phát triển GDevelop để bắt đầu phát triển trò chơi][6 ]. Những tiến bộ mới nhất trong thời đại của internet đã mang lại xu hướng mới trong ngành công nghiệp trò chơi video. Một nền tảng xây dựng trò chơi nguồn mở cung cấp một hệ sinh thái hoàn chỉnh để phát triển các trò chơi một cách độc lập và các nhà phát triển sau đó trưởng thành nền tảng đó theo nhu cầu. Trong bài đăng trên blog này, chúng tôi sẽ học cách tạo một trò chơi trên đầu bằng cách sử dụng [GDevelop][7] bằng cách bao quát các điểm sau.
-  * **[Tại sao chúng ta nên sử dụng GDevelop?][8]**
-  * **[Thiết lập dự án][9]**
-  * **[Làm thế nào để chuẩn bị nền và đối tượng?][10]**
-  * **[Thêm Behviors vào đối tượng][11]**
-  * **[Chạy trò chơi][12]**
-  * **[Kết luận][13]**
+* **[Tại sao chúng ta nên sử dụng GDevelop?][8]** 
+* **[Thiết lập dự án][9]** 
+* **[Làm thế nào để chuẩn bị nền và đối tượng?][10]** 
+* **[Thêm Behviors vào đối tượng][11]** 
+* **[Chạy trò chơi][12]** 
+* **[Kết luận][13]** 
 
-## Tại sao chúng ta nên sử dụng GDevelop?   {#Tại sao}
+## Tại sao chúng ta nên sử dụng GDevelop? {#why}
+
 [GDevelop][7] là một phần mềm chơi game nguồn mở. Nó đi kèm với khả năng tự lưu trữ và có nền tảng chéo trong tự nhiên. Bạn có thể tải xuống và cài đặt nó, hoặc bạn có thể sử dụng phiên bản trực tuyến của nó để chơi với nó. Người dùng không cần phải có bất kỳ kiến ​​thức lập trình nào để sử dụng Trình tạo trò chơi này. Trên hết, nó cung cấp giao diện người dùng kéo và thả đi kèm với các hành vi, mẫu và đối tượng trò chơi được xây dựng sẵn. Phần mềm phát triển trò chơi miễn phí này có cấu hình cao và cung cấp tích hợp với các thư viện của bên thứ ba. Để biết thêm thông tin về công cụ miễn phí này, bạn có thể kiểm tra liên kết này để tìm hiểu thêm về các tính năng của nó và quy trình thiết lập.
 
-## Thiết lập dự án   {#SinSoning}
+## Thiết lập dự án {#setting}
+
 Trong phần này, chúng tôi sẽ tạo ra dự án của chúng tôi để xây dựng một trò chơi đua xe tải với một số chức năng cơ bản. Thực hiện theo điều này [liên kết][6] Nếu bạn muốn thiết lập trên máy cục bộ của mình hoặc bạn có thể sử dụng phiên bản trực tuyến bằng cách truy cập [link][14] này.
 Vì vậy, bạn sẽ tìm thấy màn hình sau khi bạn nhấp vào trên Tạo một dự án mới và sau đó nhấp vào trò chơi trống rỗng.
 
@@ -37,13 +39,15 @@ Bạn có thể thấy thanh menu ở phía bên trái của cửa sổ. Bây gi
 {{< figure align=center src="images/Screenshot-2021-08-24-at-23.46.43-1024x580.png" alt="Hướng dẫn phát triển">}}
 
 
-## Làm thế nào để chuẩn bị nền và đối tượng?   {#chuẩn bị}
+## Làm thế nào để chuẩn bị nền và đối tượng? {#prepare}
+
 Trong thanh tìm kiếm, hãy tìm đối tượng xe tải và nhấp đúp vào nó và nhấn vào Thêm vào trò chơi, một khi nó xuất hiện trong kết quả. Lặp lại bước này cho hai bánh xe và một đối tượng nền tảng. Bây giờ, nhấp chuột phải vào đối tượng Greenfloor và chỉnh sửa.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-00.07.21-1024x580.png" alt="Hướng dẫn phát triển trò chơi">}}
 
 
-## Thêm Behviors vào đối tượng   {#ADD}
+## Thêm Behviors vào đối tượng {#add}
+
 Tiếp theo, kéo và thả Greenfloor xuống màn hình trò chơi và điều chỉnh chiều cao và chiều rộng của nó theo mong muốn của bạn. Kéo đối tượng xe tải và thả nó trên màn hình trò chơi và sau đó các đối tượng bánh xe. Di chuyển về phía trước, nhấp chuột phải vào thân xe tải và nhấn Chỉnh sửa đối tượng Truckbody, nhấp vào hành vi, nhấp vào Thêm một hành vi vào đối tượng và nhấp vào động cơ vật lý 2.0 và bạn sẽ thấy cửa sổ sau.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-02.54.06-1024x579.png" alt="Cách tạo một trò chơi trên đầu">}}
@@ -64,36 +68,39 @@ Bây giờ, hãy sao chép hành động nhưng đảm bảo hành động đư�
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-04.32.37-1024x550.png" alt="Hướng dẫn phát triển trò chơi">}}
 
-Sau đó, thêm một điều kiện mới, tìm kiếm phím đã nhấn và đặt nó sang trái. Bây giờ, thêm hành động, chọn bánh xe đầu tiên, tìm kiếm vận tốc tuyến tính X, dấu hiệu sửa đổi để trừ phép và đặt giá trị 50. Lặp lại bước này cho phím phù hợp nhưng đảm bảo dấu hiệu sửa đổi thêm như hiển thị bên dưới.
+Sau đó, thêm một điều kiện mới, tìm kiếm khóa đã nhấn và đặt nó sang trái. Bây giờ, thêm hành động, chọn bánh xe đầu tiên, tìm kiếm vận tốc tuyến tính X, dấu hiệu sửa đổi để trừ phép và đặt giá trị 50. Lặp lại bước này cho phím phù hợp nhưng đảm bảo dấu hiệu sửa đổi thêm như hiển thị bên dưới.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-04.38.34-1024x547.png" alt="Hướng dẫn phát triển trò chơi">}}
 
 
-## chạy trò chơi   {#run}
+## Chạy trò chơi {#run}
+
 Một khi tất cả các bước được hoàn thành. Đã đến lúc chạy trò chơi bằng cách nhấn nút được đặt ở góc trên cùng bên trái. Nó sẽ ra mắt trò chơi vào cửa sổ mới.
 
 {{< figure align=center src="images/Screenshot-2021-08-25-at-05.15.59-1024x543.png" alt="Cách tạo một trò chơi trên đầu">}}
 
 
-## Kết luận   {#conclusion}
-Đây là kết thúc của bài đăng trên blog này và bạn chắc chắn đã biết rằng làm thế nào để làm một trò chơi trên đầu. Tuy nhiên, có rất nhiều phần mềm thiết kế trò chơi  **miễn phí **  có sẵn trên thị trường vì ngành này đang trở nên phổ biến và nhu cầu. Có một số lý do đằng sau nó như phần mềm nguồn mở có thể mở rộng, có thể định cấu hình, tiết kiệm chi phí và dễ bảo trì. Ngoài ra, nhu cầu về các nhà xây dựng trò chơi đa nền tảng đang tăng lên khi các nhà phát triển cảm thấy thoải mái khi xây dựng một trò chơi chạy trên tất cả các nền tảng phổ biến như Android, iOS, Web và Desktop. Mặt khác, sự ra đời của đại dịch đã thay đổi cuộc sống của mọi người và bây giờ họ thích ở trong nhà. Vì vậy, mọi người có xu hướng chơi trò chơi video trong thời gian giải trí của họ.
-Cuối cùng, [Containererize.com][15] tất cả đã được thiết lập để tăng cường cơ sở hướng dẫn của nó với một số hướng dẫn phát triển trò chơi thú vị hơn **. Vui lòng duy trì kết nối với danh mục [Phần mềm phát triển trò chơi][16] này để cập nhật thường xuyên.
+## Phần kết luận {#Phần kết luận}
+
+Đây là kết thúc của bài đăng trên blog này và bạn chắc chắn đã biết rằng làm thế nào để làm một trò chơi trên đầu. Tuy nhiên, có rất nhiều phần mềm thiết kế trò chơi **miễn phí** có sẵn trên thị trường vì ngành này đang trở nên phổ biến và nhu cầu. Có một số lý do đằng sau nó như phần mềm nguồn mở có thể mở rộng, có thể định cấu hình, tiết kiệm chi phí và dễ bảo trì. Ngoài ra, nhu cầu về các nhà xây dựng trò chơi đa nền tảng đang tăng lên khi các nhà phát triển cảm thấy thoải mái khi xây dựng một trò chơi chạy trên tất cả các nền tảng phổ biến như Android, iOS, Web và Desktop. Mặt khác, sự ra đời của đại dịch đã thay đổi cuộc sống của mọi người và bây giờ họ thích ở trong nhà. Vì vậy, mọi người có xu hướng chơi trò chơi video trong thời gian giải trí của họ.
+Cuối cùng, [Containererize.com][15] tất cả đã được thiết lập để tăng cường cơ sở hướng dẫn của nó với một số hướng dẫn phát triển trò chơi thú vị hơn**. Vui lòng duy trì kết nối với danh mục [Phần mềm phát triển trò chơi][16] này để cập nhật thường xuyên.
 
 ## Khám phá
-  * **[GDevelop][7]**
-  * **[Godot][17]**
-  * **[Siêu năng lực][18]**
-  * **[Người tạo Cocos][19]**
-  * **[Panda3d][20]**
-  * **[PlayCanvas][21]**
-  * **[Bắt đầu với sự phát triển trò chơi bằng Siêu năng lực][2]**
-  * **[Hướng dẫn phát triển trò chơi | Chuyển động của người chơi trong GDevelop][3]**
-  * **[Hướng dẫn phát triển trò chơi HTML5 cho các lập trình viên trò chơi video][4]**
-  * **[Làm thế nào ngành công nghiệp trò chơi toàn cầu tận dụng phần mềm nguồn mở][5]**
-  * **[Hướng dẫn phát triển cho người mới bắt đầu phát triển trò chơi][6]**
-  *[ **Phần mềm phát triển trò chơi miễn phí hàng đầu trong năm 2021 ** ][1]
+* **[GDevelop][7]** 
+* **[Godot][17]** 
+* **[Siêu năng lực][18]** 
+* **[Người tạo Cocos][19]** 
+* **[Panda3d][20]** 
+* **[PlayCanvas][21]** 
+* **[Bắt đầu với sự phát triển trò chơi bằng Siêu năng lực][2]** 
+* **[Hướng dẫn phát triển trò chơi | Chuyển động của người chơi trong GDevelop][3]** 
+* **[Hướng dẫn phát triển trò chơi HTML5 cho các lập trình viên trò chơi video][4]** 
+* **[Làm thế nào ngành công nghiệp trò chơi toàn cầu tận dụng phần mềm nguồn mở][5]** 
+* **[Hướng dẫn phát triển cho người mới bắt đầu phát triển trò chơi][6]** 
+* [ **Phần mềm phát triển trò chơi miễn phí hàng đầu trong năm 2021** ][1]
 
-  
+
+
 [1]: https://blog.containerize.com/game-development-software/top-5-free-game-development-software-in-the-year-2021/
 [2]: https://blog.containerize.com/game-development-software/superpowers-animation-getting-started-with-game-development/
 [3]: https://blog.containerize.com/game-development-software/game-development-tutorial-player-movement-in-gdevelop/

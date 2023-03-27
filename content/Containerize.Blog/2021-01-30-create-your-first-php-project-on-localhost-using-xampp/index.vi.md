@@ -20,17 +20,20 @@ XAMPP là một máy chủ web nguồn mở cung cấp môi trường cục bộ
   * [Chạy và kiểm tra tập lệnh PHP][5]
   * [Kết luận][6]
 
-## Yêu cầu   {#Requirements}
+## Yêu cầu {#requirements}
+
   * Cài đặt XAMPP
   * Ứng dụng Trình chỉnh sửa mã
   * Kiến thức PHP cơ bản
   * Kiến thức cơ bản HTML và JavaScript
 
-## xampp là gì?   {#xampp}
+## XAMPP là gì? {#xampp}
+
 XAMPP là một ngăn xếp giải pháp máy chủ web nguồn mở. Nó chứa Apache, MySQL, MariaDB, PHP và Perl. Nó là cực kỳ dễ dàng để cài đặt và sử dụng. Đó là lý do tại sao nó là môi trường phát triển PHP phổ biến nhất. XAMPP Server cung cấp một môi trường hoàn chỉnh để phát triển ứng dụng web PHP. Nếu bạn không có cài đặt làm việc XAMPP, thì hãy làm theo hướng dẫn này để cài đặt XAMPP:
 [Cài đặt XAMPP và PHPMyAdmin là Localhost trên Windows][7]
 
-## Tạo tập lệnh PHP   {#PHP}
+## Tạo tập lệnh PHP {#php}
+
   * Giả sử rằng bạn đã cài đặt XAMPP bằng cách làm theo hướng dẫn ở trên, bây giờ hãy để tạo ra một tập lệnh PHP đơn giản và kiểm tra nó trên XAMPP.
   * Trước tiên hãy mở trình chỉnh sửa của bạn. Nếu bạn không có một trình soạn thảo lập trình, chỉ cần mở Notepad.
   * Nhập mã sau
@@ -42,13 +45,14 @@ echo "This is my first PHP project";
   * Nhấp vào tệp File File ở góc trên cùng bên phải.
   * Nhấn nút Lưu dưới dạng nút.
   * Nhập tên với tiện ích mở rộng .Php.
-  *Đối với Save Save dưới dạng loại, chọn tùy chọn Tất cả các tệp (\*. \*).
+* Đối với Save Save dưới dạng loại, chọn tùy chọn Tất cả các tệp (\*. \*).
   * Và cuối cùng nhấn nút Lưu Lưu.
 
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="Tạo dự án PHP đầu tiên của bạn với máy chủ web nguồn mở XAMPP">}}
 
 
-## chạy và kiểm tra tập lệnh php   {#test}
+## Chạy và kiểm tra tập lệnh PHP {#test}
+
   * Sao chép tập lệnh PHP này vào thư mục HTDOCS bên trong cài đặt XAMPP của bạn. Thư mục chủ yếu là HTDOCS cư trú tại đây: C: \ XAMPP \ HTDOCS
   * Mở trình duyệt của bạn.
   * Truy cập localhost/của tôi \ _first \ _php_project.php
@@ -57,7 +61,8 @@ echo "This is my first PHP project";
 
 Chúc mừng! Bạn vừa tạo dự án PHP đầu tiên của bạn.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Tạo dự án web đầu tiên luôn rất thú vị cho người mới bắt đầu. Nó cảm thấy tuyệt vời khi bạn thiết kế tập lệnh động đầu tiên của bạn, chạy nó và xem nó hoạt động trên trình duyệt của bạn. Tôi hy vọng hướng dẫn đơn giản này đã giúp bạn tạo và chạy dự án PHP đầu tiên của bạn với máy chủ web nguồn mở XAMPP.
 
 ## Khám phá
@@ -65,7 +70,8 @@ Tạo dự án web đầu tiên luôn rất thú vị cho người mới bắt �
 [Cài đặt XAMPP và PHPMyAdmin là Localhost trên Windows][7]
 [Ngăn xếp giải pháp máy chủ web miễn phí cho các nhà phát triển PHP & Perl][1]
 
-  
+
+
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp

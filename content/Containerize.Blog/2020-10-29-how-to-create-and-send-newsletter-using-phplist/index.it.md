@@ -24,37 +24,44 @@ In questo post sul blog, ci concentreremo sulla progettazione e l'invio di una c
   * [Conclusione][7]
 
 ## **Crea campagna/newsletter** {#create}
-  * Accedi all'interfaccia di amministrazione dell'installazione di Phlist. Fare clic su**Avvia o continua il pulsante della campagna**su Dashboard o invia un collegamento alla campagna nella campagna nella navigazione sul lato sinistro.
+
+  * Accedi all'interfaccia di amministrazione dell'installazione di Phlist. Fare clic su **Avvia o continua il pulsante della campagna** su Dashboard o invia un collegamento alla campagna nella campagna nella navigazione sul lato sinistro.
   * Fare clic su Avvia un nuovo pulsante campagna.
   * Riempi i campi con le opzioni come soggetto, da linea, contenuto e piè di pagina come mostrato nell'immagine seguente.
 
 {{< figure align=center src="images/create-campaign.png" alt="Design Newsletter in Phplist">}}
 
 
-Campagna di pianificazione ## ****{#Schedule}
+## **Campagna di programmazione** {#schedule}
+
   * La pianificazione ti consente di selezionare le date quando si desidera avviare la campagna. La campagna non verrà inviata prima/dopo le date selezionate.
   * Non è necessario modificare le date, se si desidera inviare immediatamente la campagna.
 
 {{< figure align=center src="images/scheduling.png" alt="Pianifica la newsletter in Phplist">}}
 
 
-## **Assegna elenchi alla campagna** {#List}
+## **Assegna elenchi alla campagna** {#list}
+
 Tutti gli elenchi verranno visualizzati nella scheda Elenchi, selezionare Elenco appropriato. La campagna consegnerà solo gli elenchi di assegnazione. Tuttavia, puoi rendere l'elenco pubblico o privato durante la creazione/aggiornamento dell'elenco.
 
 {{< figure align=center src="images/lists.png" alt="Assegna elenchi alla newsletter in Phplist">}}
 
 
-## **finisce campagna** {#finish}
-Fine è l'ultimo passo nel processo di creazione della campagna. Puoi aggiungere e -mail per le notifiche, aggiungere il codice di tracciamento di Google Analytics. Fai clic sul pulsante**Invia campagna**per iniziare a inviare messaggi agli abbonati. Ora, hai fatto con la progettazione di newsletter e il processo della campagna. Ma devi elaborare la coda e puoi saperne di più nella prossima sezione.
+## **Finita campagna** {#finish}
 
-## **elabora la coda** {#queue}
+Fine è l'ultimo passo nel processo di creazione della campagna. Puoi aggiungere e -mail per le notifiche, aggiungere il codice di tracciamento di Google Analytics. Fai clic sul pulsante **Invia campagna** per iniziare a inviare messaggi agli abbonati. Ora, hai fatto con la progettazione di newsletter e il processo della campagna. Ma devi elaborare la coda e puoi saperne di più nella prossima sezione.
+
+## **Elabora la coda** {#queue}
+
 La coda di processo è un processo per iniziare l'invio della campagna. È possibile avviare il processo manualmente, con lo script della riga di comando o creare un lavoro cron. È facile elaborare manualmente la coda per pochi abbonati affollati. Ma è bene usare Cron Job per elaborare la coda, se hai migliaia/milioni di abbonati. È possibile visitare Phplist ufficiale [sito Web][8] per informazioni per creare un lavoro cron.
 
-## **conclusione** {#Conclusione}
+## **Conclusione** {#conclusion}
+
 Phplist è uno strumento perfetto per le aziende che desiderano utilizzare il software di newsletter open source per l'email marketing. Abbiamo descritto il processo in dettaglio per la progettazione e l'invio di campagne. Puoi seguirlo per la tua prossima newsletter e goderti il ​​vero potere di Phplist.
 Infine, con alcuni tutorial più affascinanti, [Containerize.com][9] è pronto per migliorare la sua base di tutorial. Per aggiornamenti regolari, rimani in contatto con la categoria [newsletter][10].
 
-  
+
+
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #create
 [3]: #schedule

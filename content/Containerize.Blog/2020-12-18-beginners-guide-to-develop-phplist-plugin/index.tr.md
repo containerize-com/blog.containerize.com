@@ -13,32 +13,35 @@ categories: ['Newsletters']
 
 {{< figure align=center src="images/phplist-plugin.png" alt="flist eklentisi">}}
 
-Eklenti desteği, özellikle açık kaynak sistemleri için yazılımın önemli bir parçasıdır. Bu, geliştiricilerin özellikleri genişletmek için yeni bir eklenti oluşturmalarını sağlar. **Phplist**  Eklentilerin geliştirilmesini teşvik eder, böylece geliştiriciler bunları iş gereksinimlerine göre yeni özellikler eklemek için kullanabilirler. Bir Phplist eklentisi, PHP, HTML, CSS ve JavaScript için kod içeren bağımsız bir kod koleksiyonudur.
+Eklenti desteği, özellikle açık kaynak sistemleri için yazılımın önemli bir parçasıdır. Bu, geliştiricilerin özellikleri genişletmek için yeni bir eklenti oluşturmalarını sağlar. **Phplist** Eklentilerin geliştirilmesini teşvik eder, böylece geliştiriciler bunları iş gereksinimlerine göre yeni özellikler eklemek için kullanabilirler. Bir Phplist eklentisi, PHP, HTML, CSS ve JavaScript için kod içeren bağımsız bir kod koleksiyonudur.
 Uygulamalar birçok nedenden dolayı eklentileri destekleyin ve bazıları:
   * Temel işlevselliği değiştirmeyin.
   * Geliştiricilerin yeni özellikler oluşturmasına izin verin.
   * Yazılımın boyutunu azaltın.
 Aşağıdaki konuları bu öğreticide ayrıntılı olarak tartışacağız.
-  *[**Önkoşul** ][2]
-  *[**Phplist Eklenti Gelişiminin Temelleri** ][3]
-  *[**PHPLIST eklentimizi oluştur** ][4]
-  *[**Sonuç** ][5]
+* [ **Önkoşul** ][2]
+* [ **PHPLIST eklenti geliştirmenin temelleri** ][3]
+* [ **PHPLIST eklentimizi oluştur** ][4]
+* [ **Sonuç** ][5]
 
-## Önkoşullar   {#req}
+## Önkoşul {#Req}
+
   * Phplist'in son sürümü.
   * Phplist ve PHP'ye aşina.
   * HTML / CSS ve JavaScript'in anlaşılması.
 
-## Phplist eklenti geliştirme temelleri   {#basics}
-Aşağıdaki yöntemler bir Phplist eklentisinin işlevselliğini geliştirecektir.
-  ***Sayfalar**  - Raporlama, istatistik, bilgi görüntüleme ve daha fazlası gibi etkinlikler için sayfalar oluşturun.
-  ***Hooks**  - Bu, belirli yerlerde işlevselliği çağırmanıza olanak tanır.
-Phplist için üç tür özel eklenti vardır. Her türden bir eklenti yalnızca etkinleştirilebilir.
-  ***Editör eklentisi**  - Kampanyaları veya şablonları düzenleme için düzenleyicinin uygulanmasına izin verir.
-  ***Kimlik Doğrulama Eklentisi**  - Bu, yöneticilerin kimlik doğrulaması için yeni bir mekanizma eklemesini sağlar.
-  ***E-posta Gönderen eklentisi** -Yerleşik işlevler yerine e-posta gönderme için yeni bir yöntem uygulanmasına izin verir.
+## Phplist eklenti gelişiminin temelleri {#Basics}
 
-## Phplist eklentimizi oluştur   {#create}
+Aşağıdaki yöntemler bir Phplist eklentisinin işlevselliğini geliştirecektir.
+* **Sayfalar** - Raporlama, istatistik, bilgi görüntüleme ve daha fazlası gibi etkinlikler için sayfalar oluşturun.
+* **Hooks** - Bu, belirli yerlerde işlevselliği çağırmanıza olanak tanır.
+Phplist için üç tür özel eklenti vardır. Her türden bir eklenti yalnızca etkinleştirilebilir.
+* **Editör eklentisi** - Kampanyaları veya şablonları düzenleme için düzenleyicinin uygulanmasına izin verir.
+* **Kimlik Doğrulama Eklentisi** - Bu, yöneticilerin kimlik doğrulaması için yeni bir mekanizma eklemesini sağlar.
+* **E-posta Gönderen eklentisi** -Yerleşik işlevler yerine e-posta gönderme için yeni bir yöntem uygulanmasına izin verir.
+
+## Phplist eklentimizi oluşturun {#Create}
+
 Her şeyden önce, PhplistPlugin çekirdek sınıfını genişletmeniz gerekir. Bir eklenti oluşturmak için \ _rootdir eklentisi altında “Helloworld” adlı bir dizin oluşturmanız ve eklenti dizininin kökeninde helloworld.php adlı bir dosya oluşturmanız gerekir. \ _Rootdir değişken eklentisinin değerini bulmak için config.php dosyasını kontrol edebilirsiniz. Aşağıdaki kodu helloworld.php dosyasına kopyalayın.
 ```
 <?php
@@ -76,22 +79,24 @@ $tk = $_REQUEST['tk'];
 Eklenti yüklemek için Helloworld.php sınıf dosyasını ve eklenti dizininizi eklenti rootdirine yerleştirin. Bir eklentiyi etkinleştirmek için menü çubuğundaki yapılandırma sekmesini tıklayın ve ardından Eklentileri Yönetin. Eklenti sayfası size kullanılabilir eklentilerin bir listesini gösterecek ve eklenti formunuzu orada etkinleştirebilir/devre dışı bırakabilirsiniz.
 Eklentinize http://example.com/admin/?page=main&pi=helloworld gibi aşağıdaki URL ile erişebilirsiniz. Örnek.com'u alan adınızla değiştirin.
 
-## Sonuç   {#con}
+## Çözüm {#Con}
+
 ** Phplist eklentisinin temellerini öğrendik ve bir örnek eklentisi oluşturduk. Bir başlangıç ​​noktası olarak, bu kılavuzu izleyebilir ve işlevselliği geliştirmek için eklenti geliştirmeyi daha fazla keşfedebilirsiniz.
-Son olarak, [**Containerize.com **][6], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [ **bültenler**  ][7] kategorisiyle iletişim halinde olun.
+Son olarak, [ **Containerize.com**][6], en son açık kaynaklı ürünler hakkında blog yazıları yazma sürecindedir. Bu nedenle, en son güncellemeler için bu [**bültenler** ][7] kategorisiyle iletişim halinde olun.
 
 ## Keşfetmek
 Aşağıdaki bağlantıları alakalı bulabilirsiniz.
-  *[**Phplist** ][8]
-  *[**Mailtrain** ][9]
-  *[**ListMonk** ][10]
-  *[**Moonmail** ][11]
-  *[**Mailman** ][12]
-  *[**2021'de Top 5 Açık Kaynak Haber Bülteni Yazılımı** ][13]
-  *[**Phplist'de Çok Kenti Uygulaması Nasıl Yapılandırılır** ][14]
-  *[**Phplist kullanarak bülten nasıl oluşturulur ve gönderilir** ][15]
+* [ **Phplist** ][8]
+* [ **Mailtrain** ][9]
+* [ **ListMonk** ][10]
+* [ **Moonmail** ][11]
+* [ **Mailman** ][12]
+* [ **2021'de Top 5 Açık Kaynak Bülteni Yazılımı** ][13]
+* [ **Phplist'de Çok Kenti Uygulaması Nasıl Yapılandırılır** ][14]
+* [ **Phplist kullanarak bülten nasıl oluşturulur ve gönderilir** ][15]
 
-  
+
+
 [1]: https://products.containerize.com/newsletter/phplist
 [2]: #Req
 [3]: #Basics

@@ -17,15 +17,17 @@ categories: ['Blogging']
 ## Tổng quan
 GatsByjs là một trình tạo trang tĩnh được sử dụng lại dựa trên phản ứng miễn phí và nguồn mở. Nó sử dụng cấu hình trước mạnh mẽ để xây dựng một trang web chỉ sử dụng các tệp tĩnh cho tải trang cực kỳ nhanh. WordPress là một nền tảng viết blog nguồn mở tuyệt vời. Do đó, có rất nhiều người biết cách tìm hiểu xem một trang web là trang web WordPress để họ có thể hack nó và đánh cắp thông tin. Sử dụng Gatsby WordPress cùng nhau sẽ cung cấp cho bạn sức mạnh tương tự của quản lý nội dung WordPress và tốc độ của Gatsby.
 Trong bài viết này, chúng tôi sẽ xem xét Gatsby là gì và tại sao bạn cần sử dụng nó với phần mềm CMS. Sau đó, chúng tôi sẽ đi sâu vào chi tiết về cách sử dụng WordPress và Gatsby cùng nhau để xây dựng trải nghiệm trang web tuyệt vời. Hãy bắt đầu!
-* [**Gatsby**là gì?][1]
-* **[Ưu và nhược điểm của việc sử dụng WordPress và Gatsby][2]**
-* **[Cách sử dụng Gatsby với WordPress][3]**
-* **[Kết luận][4]**
+* [ **Gatsby** là gì?][1]
+* **[Ưu và nhược điểm của việc sử dụng WordPress và Gatsby][2]** 
+* **[Cách sử dụng Gatsby với WordPress][3]** 
+* **[Kết luận][4]** 
 
-## Gatsby   {#gatsby} là gì
+## Gatsby là gì {#gatsby}
+
 Gatsby là một trình tạo trang web tĩnh. Điều này có nghĩa là Gatsby tạo ra các tệp HTML tĩnh được tải lên máy chủ trang web của bạn. Khi một khách truy cập hạ cánh trên trang web của bạn, các tệp tĩnh này được phục vụ cho trình duyệt của họ, thay vì nội dung động WordPress thường phục vụ. Đây là một khung nguồn miễn phí và mở dựa trên React giúp các nhà phát triển xây dựng các trang web và ứng dụng nhanh chóng.
 
-## Ưu và nhược điểm của việc sử dụng WordPress và Gatsby   {#Proscons}
+## Những ưu và nhược điểm của việc sử dụng WordPress và Gatsby {#proscons}
+
 Theo chính thức của Gatsby, [tài liệu][5], họ đã biên soạn một bảng, người mà sự kết hợp của Gatsby WordPress là tuyệt vời và người mà nó không phải là người. Để dễ dàng, tôi đã liệt kê những người ở đây.
 {{_LINE_23_}}
 {{_LINE_24_}}
@@ -105,7 +107,8 @@ Bên cạnh những điểm chính thức này, tôi sẽ muốn liệt kê mộ
 {{_LINE_98_}}
 {{_LINE_99_}}
 
-## Cách sử dụng Gatsby với WordPress   {#howto}
+## Cách sử dụng Gatsby với WordPress {#howto}
+
 Trước khi bạn có thể cài đặt Gatsby, bạn cần cài đặt [NodeJS][6] và [NPM][7] trong môi trường trang web của bạn.
 
 ### Bước 1 - Cài đặt Gatsby
@@ -159,7 +162,7 @@ Cập nhật mã này để trỏ đến trang web WordPress của bạn. Nếu 
 
 ### Bước 4 - Mẫu trang xây dựng
 Các mẫu trang xây dựng cho phép Trình tạo trang web này tạo một bài đăng cho mỗi trang trên trang web WordPress của bạn. Plugin nguồn sẽ lấy dữ liệu bạn cần từ WordPress cho các trang này, nhưng bạn sẽ phải tạo mẫu thiết kế.
-Trong tệp _gatsby-node.js_ của bạn, hãy thêm mã sau
+Trong tệp _gatsby-node.js_ của bạn, thêm mã sau
 ```
 const path = require(`path`)
 const { slash } = require(`gatsby-core-utils`)
@@ -196,11 +199,13 @@ exports.createPages = async ({ graphql, actions }) => {
 ```
 Sau khi gọi tất cả dữ liệu, Gatsby sẽ tạo một trang cho mỗi bài đăng. Sử dụng lệnh phát triển, bạn có thể điều hướng đến từng trang mới bằng URL được tạo.
 
-## Kết luận   {#conclusion}
+## Phần kết luận {#conclusion}
+
 Trong hướng dẫn Gatsby WordPress này, chúng tôi đã đề cập đến cách tạo một trang web Gatsby từ WordPress. Chúng tôi đã học được những ưu và nhược điểm của hai phần mềm nguồn mở này là gì. Chúng tôi cũng đề cập đến cách cài đặt và bắt đầu với môi trường phát triển Gatsby.
 Cuối cùng, [containerize.com][8] đang viết bài về các sản phẩm nguồn mở hơn nữa. Do đó, vui lòng giữ liên lạc với danh mục Nền tảng nguồn mở [Blog][9] để biết tin tức và cập nhật thường xuyên.
 
-  
+
+
 [1]: #gatsby
 [2]: #proscons
 [3]: #howto

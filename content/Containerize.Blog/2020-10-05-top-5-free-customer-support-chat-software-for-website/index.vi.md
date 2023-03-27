@@ -23,7 +23,8 @@ Sử dụng giải pháp phần mềm trò chuyện trực tiếp phù hợp gi�
   * [Hãy để trò chuyện][4]
   * [Botpress][5]
 
-## **Rocket.chat** {#Rocket-Chat}
+## **Rocket.chat** {#rocket-chat}
+
 Rocket.chat là một phần mềm trò chuyện web nguồn mở.**Nó là một hệ thống trò chuyện hoàn toàn miễn phí và tự lưu trữ. Nó có một nền tảng truyền thông toàn diện cung cấp giao tiếp nhóm bằng tin nhắn trực tiếp và tin nhắn nhóm.
 Rocket.chat có một cộng đồng nguồn mở khổng lồ. Kết quả của điều này, ứng dụng trò chuyện nguồn mở**này có sẵn nhiều plugin hơn để nâng cao hơn nữa trải nghiệm của sản phẩm. Nó giúp các nhóm làm việc từ xa vì nó cung cấp các công cụ trò chuyện âm thanh và video. Nó có thể là một sự thay thế rẻ tiền để phóng to và chùng. Dưới đây là các tính năng đáng chú ý của giải pháp trò chuyện nguồn mở này.
   * BYOS (mang máy chủ của riêng bạn)
@@ -33,32 +34,35 @@ Rocket.chat có một cộng đồng nguồn mở khổng lồ. Kết quả củ
   * Ứng dụng máy tính để bàn đa nền tảng gốc
     [Đọc thêm][6]
 
-## **zulip** {#zulip}
+## **Zulip** {#zulip}
+
 Zulip là một trong những giải pháp trò chuyện nguồn mở phổ biến nhất**theo mô hình luồng dựa trên luồng. Trong Zulip, bạn đăng ký các luồng thay vì các kênh để bạn chỉ được thông báo về các luồng bạn quan tâm. Đăng ký luồng này giúp bạn theo dõi các cuộc hội thoại sau và giữ tổ chức.
-Ứng dụng trò chuyện nguồn mở này**là đa nền tảng và cung cấp API để phát triển các tích hợp tùy chỉnh của riêng bạn. Giống như các phần mềm trò chuyện web khác**, nó hỗ trợ biểu tượng cảm xúc, hình ảnh nội tuyến, video và bản xem trước tweet. Zulip là phần mềm nguồn mở miễn phí và nguồn mở 100%. Dưới đây là các tính năng hàng đầu của phần mềm trò chuyện hỗ trợ khách hàng**này**.
+Ứng dụng trò chuyện nguồn mở này **là đa nền tảng và cung cấp API để phát triển các tích hợp tùy chỉnh của riêng bạn. Giống như các phần mềm trò chuyện web khác**, nó hỗ trợ biểu tượng cảm xúc, hình ảnh nội tuyến, video và bản xem trước tweet. Zulip là phần mềm nguồn mở miễn phí và nguồn mở 100%. Dưới đây là các tính năng hàng đầu của phần mềm trò chuyện hỗ trợ khách hàng**này** .
   * Hình ảnh nội tuyến, video và tweet Xem trước: Zulip tự động tạo bản xem trước các liên kết bạn gửi trong các cuộc hội thoại
   * Liên kết tự động tùy chỉnh: Tùy chỉnh đánh dấu Zulip, để tự động liên kết trở lại Trình theo dõi vấn đề hoặc GitHub của bạn.
   * Tích hợp: Nhận thông báo và cập nhật từ các dịch vụ yêu thích của bạn với các tích hợp ngoài luồng cho Trac, Nagios, GitHub, Jenkins, v.v.
-  * API: Zulip có API RESTFUL đơn giản chết người
+  Quyết
   * Ứng dụng di động: Hỗ trợ các ứng dụng iOS và Android chất lượng gốc.
   * Ứng dụng máy tính để bàn: Hỗ trợ các ứng dụng máy tính để bàn đa nền tảng.
     [Đọc thêm][7]
 
-## **vấn đề tối đa** {#matter tối đa}
-Matterval là một phần mềm trò chuyện web nguồn mở**, rất an toàn và có thể mở rộng. Đầu tiên, nó được coi là một thay thế cho các ứng dụng trò chuyện trực tiếp độc quyền phổ biến nhất. Thứ hai, ứng dụng trò chuyện nguồn mở**này là hỗn hợp của cả hai đội Slack và Microsoft. Tóm lại, làm cho nó trở thành một siêu cấp của cả hai ứng dụng.
+## **vấn đề nhất** {#mattermost}
+
+Matterval là một phần mềm trò chuyện web nguồn mở **, rất an toàn và có thể mở rộng. Đầu tiên, nó được coi là một thay thế cho các ứng dụng trò chuyện trực tiếp độc quyền phổ biến nhất. Thứ hai, ứng dụng trò chuyện nguồn mở** này là hỗn hợp của cả hai đội Slack và Microsoft. Tóm lại, làm cho nó trở thành một siêu cấp của cả hai ứng dụng.
 Giải pháp trò chuyện nguồn mở này**giúp các công ty lớn củng cố tất cả các thông tin liên lạc của họ. Ví dụ: trò chuyện nhóm, trò chuyện video và chia sẻ tài liệu ngay lập tức. Do đó, làm cho nó đơn giản để tìm kiếm và khám phá thông tin.
 Dưới đây là một số tính năng hàng đầu của vấn đề nhất
   * Tăng tốc quy trình công việc với các công cụ tích hợp
   * Bộ tích hợp DevOps
   * Webhooks đến và đi
   * Plugin và tiện ích mở rộng
-  * Bot và công cụ phát triển
+  * Bots và bộ công cụ phát triển
   * Thư viện API mạnh mẽ
     [Đọc thêm][8]
 
-## **Hãy để trò chuyện** {#cho phép-Chat}
-Hãy để trò chuyện là một phần mềm trò chuyện hỗ trợ khách hàng tự lưu trữ**cho các nhóm nhỏ. Phần mềm trò chuyện web**này được phát triển bằng Node.js và MongoDB và tập trung vào việc triển khai dễ dàng và nhanh chóng. Bạn có thể cài đặt nó trên máy chủ của bạn với một vài cú nhấp chuột. Nó có nguồn 100% miễn phí và nguồn mở với mã nguồn có sẵn trên GitHub.
-Điều làm cho Let Let trò chuyện độc đáo từ phần mềm nguồn mở khác là các tính năng của doanh nghiệp như xác thực LDAP và Kerberos. Phần mềm trò chuyện hỗ trợ khách hàng**này**liên tục được nhóm phát triển cập nhật và ngày càng có nhiều tính năng được thêm vào. Dưới đây là các tính năng hàng đầu hiện có
+## **Hãy tán gẫu nào** {#lets-chat}
+
+Hãy để trò chuyện là một phần mềm trò chuyện hỗ trợ khách hàng tự lưu trữ **cho các nhóm nhỏ. Phần mềm trò chuyện web** này được phát triển bằng Node.js và MongoDB và tập trung vào việc triển khai dễ dàng và nhanh chóng. Bạn có thể cài đặt nó trên máy chủ của bạn với một vài cú nhấp chuột. Nó có nguồn 100% miễn phí và nguồn mở với mã nguồn có sẵn trên GitHub.
+Điều làm cho Let Let trò chuyện độc đáo từ phần mềm nguồn mở khác là các tính năng của doanh nghiệp như xác thực LDAP và Kerberos. Phần mềm trò chuyện hỗ trợ khách hàng **này** liên tục được nhóm phát triển cập nhật và ngày càng có nhiều tính năng được thêm vào. Dưới đây là các tính năng hàng đầu hiện có
   * Xác thực LDAP / Kerberos
   * Trò chuyện đa người dùng XMPP (MUC)
   * Hubot thân thiện
@@ -67,9 +71,10 @@ Hãy để trò chuyện là một phần mềm trò chuyện hỗ trợ khách 
     [Đọc thêm][9]
 
 ## **Botpress** {#botpress}
+
 Chatbots đang gia tăng những ngày này. Cho dù bạn sử dụng chúng để bán hàng, tiếp thị hoặc hỗ trợ, chúng có thể là một bổ sung tuyệt vời cho nhóm ảo của bạn.
-Do đó, BotPress là một trong những phần mềm trò chuyện trực tiếp phổ biến nhất**cho các trang web**. Nó có một người xây dựng cuộc trò chuyện trực quan và một trình giả lập để kiểm tra các cuộc hội thoại của bạn. Nó sử dụng AI và hiểu ngôn ngữ tự nhiên (NLU). Do đó, là cho phép các chuyên gia khác nhau kết hợp kiến ​​thức của họ để xây dựng các trợ lý đàm thoại tốt hơn. Do đó cải thiện sức mạnh của máy để hiểu con người.
-Trí tuệ nhân tạo và học máy đã được cải thiện rất nhiều gần đây. Do đó, nhu cầu về phần mềm trò chuyện hỗ trợ khách hàng**dựa trên AI**đã đạt được rất nhiều sự gia tăng. Vì vậy, đây là các tính năng đáng chú ý mà Botpress cung cấp.
+Do đó, BotPress là một trong những phần mềm trò chuyện trực tiếp phổ biến nhất **cho các trang web** . Nó có một người xây dựng cuộc trò chuyện trực quan và một trình giả lập để kiểm tra các cuộc hội thoại của bạn. Nó sử dụng AI và hiểu ngôn ngữ tự nhiên (NLU). Do đó, là cho phép các chuyên gia khác nhau kết hợp kiến ​​thức của họ để xây dựng các trợ lý đàm thoại tốt hơn. Do đó cải thiện sức mạnh của máy để hiểu con người.
+Trí tuệ nhân tạo và học máy đã được cải thiện rất nhiều gần đây. Do đó, nhu cầu về phần mềm trò chuyện hỗ trợ khách hàng **dựa trên AI** đã đạt được rất nhiều sự gia tăng. Vì vậy, đây là các tính năng đáng chú ý mà Botpress cung cấp.
   * Trình quản lý luồng hội thoại
   * Tích hợp bên thứ ba
   * Phân tách nội dung & dòng chảy
@@ -78,8 +83,8 @@ Trí tuệ nhân tạo và học máy đã được cải thiện rất nhiều 
     [Đọc thêm][10]
 
 ## Phần kết luận
-Trong bài viết này, bạn đã xem xét phần mềm trò chuyện web nguồn mở tốt nhất**có sẵn cho các doanh nghiệp và nhóm vừa và nhỏ. Bài đăng trên blog này sẽ thực sự giúp bạn đưa ra lựa chọn đúng trong khi chọn một phần mềm trò chuyện hỗ trợ khách hàng**cho trang web doanh nghiệp của bạn. Đầu tiên, chúng tôi đã liệt kê các tính năng hàng đầu của Rocket.chat, Zulip, Matterest, Let Let Chat và Botpress. Thứ hai, chúng tôi đã giải thích làm thế nào các tính năng này làm cho chúng độc đáo. Tóm lại, Rocket.Chat và Matterial là những lựa chọn phù hợp nếu bạn muốn có nhiều plugin và tích hợp hơn. Zulip và Let Let trò chuyện có thể là phần mềm LiveChat tốt nếu bạn cần một giải pháp nhanh chóng và dễ dàng. Đối với bot xây dựng tên lửa.chat không cung cấp các tính năng. Nhưng Botpress là một lựa chọn phổ biến hơn.
-Cuối cùng, [**containerize.com**][11] đang viết các bài viết trên nguồn mở hơn nữa**Ứng dụng trò chuyện nguồn mở.**Do đó, vui lòng giữ liên lạc với danh mục [Trò chuyện trực tiếp][12] để cập nhật thông thường.
+Trong bài viết này, bạn đã xem xét phần mềm trò chuyện web nguồn mở tốt nhất **có sẵn cho các doanh nghiệp và nhóm vừa và nhỏ. Bài đăng trên blog này sẽ thực sự giúp bạn đưa ra lựa chọn đúng trong khi chọn một phần mềm trò chuyện hỗ trợ khách hàng** cho trang web doanh nghiệp của bạn. Đầu tiên, chúng tôi đã liệt kê các tính năng hàng đầu của Rocket.chat, Zulip, Matterest, Let Let Chat và Botpress. Thứ hai, chúng tôi đã giải thích làm thế nào các tính năng này làm cho chúng độc đáo. Tóm lại, Rocket.Chat và Matterial là những lựa chọn phù hợp nếu bạn muốn có nhiều plugin và tích hợp hơn. Zulip và Let Let trò chuyện có thể là phần mềm LiveChat tốt nếu bạn cần một giải pháp nhanh chóng và dễ dàng. Đối với bot xây dựng tên lửa.chat không cung cấp các tính năng. Nhưng Botpress là một lựa chọn phổ biến hơn.
+Cuối cùng, [ **containerize.com**][11] đang viết các bài viết trên nguồn mở hơn nữa**Ứng dụng trò chuyện nguồn mở.** Do đó, vui lòng giữ liên lạc với danh mục [Trò chuyện trực tiếp][12] để cập nhật thông thường.
 
 ## Khám phá
   * [Cách tạo Bot FAQ dựa trên AI cho doanh nghiệp của bạn bằng BotPress][13]
@@ -88,7 +93,8 @@ Cuối cùng, [**containerize.com**][11] đang viết các bài viết trên ngu
   * [Tự động hóa hoạt động kinh doanh bằng phần mềm nguồn mở và miễn phí][16]
   * [Cách tạo và chạy bot trong Rocket.chat bằng BotPress][17]
 
-  
+
+
 [1]: #rocket-chat
 [2]: #zulip
 [3]: #mattermost

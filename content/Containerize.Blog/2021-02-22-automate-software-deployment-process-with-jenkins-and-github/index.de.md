@@ -13,23 +13,27 @@ categories: ['Deployment Tools']
 
 {{< figure align=center src="images/ci-cd-post.png" alt="Kontinuierliche Integration und kontinuierliche Bereitstellung">}}
 
-Entwicklungsteams verwenden verschiedene Methoden für die Softwarebereitstellung wie FTP, den Code aus dem Repository und vieles mehr. Alle diese Methoden werden manuell durchgeführt und erfordern viel Aufwand. Wir können sehen, dass mehr Teams agile Methodik für die Softwareentwicklung folgen. Sie veröffentlichen also häufig neue Funktionen und Fehlerbehebungen. Die Automatisierung von Workflows der Software -Lieferung hilft daher den Teams, neue Versionen schnell und ohne Fehler zu starten. Wir werden lernen, wie man **CI/CD mit Jenkins**  und GitHub verwendet, um den Software -Zustellungsprozess zu automatisieren. Wir werden die folgenden Abschnitte in diesem Artikel behandeln.
-  *[**Was ist Jenkins?** ][1]
-  *[**Kontinuierliche Integration** ][2]
-  *[**kontinuierliche Bereitstellung** ][3]
-  *[**Konfigurieren Sie Jenkins** ][4]
-  *[**Jenkins Job erstellen** ][5]
+Entwicklungsteams verwenden verschiedene Methoden für die Softwarebereitstellung wie FTP, den Code aus dem Repository und vieles mehr. Alle diese Methoden werden manuell durchgeführt und erfordern viel Aufwand. Wir können sehen, dass mehr Teams agile Methodik für die Softwareentwicklung folgen. Sie veröffentlichen also häufig neue Funktionen und Fehlerbehebungen. Die Automatisierung von Workflows der Software -Lieferung hilft daher den Teams, neue Versionen schnell und ohne Fehler zu starten. Wir werden lernen, wie man **CI/CD mit Jenkins** und GitHub verwendet, um den Software -Zustellungsprozess zu automatisieren. Wir werden die folgenden Abschnitte in diesem Artikel behandeln.
+* [ **Was ist Jenkins?** ][1]
+* [ **Kontinuierliche Integration** ][2]
+* [ **kontinuierliche Bereitstellung** ][3]
+* [ **Konfigurieren Sie Jenkins** ][4]
+* [ **Jenkins Job erstellen** ][5]
 
-## Was ist Jenkins?   {#Jenkins}
-**Jenkins  **ist ein leistungsstarkes **  kostenloser Bereitstellungstool  **zum automatischen Zustellung des Software -Zustellung. Es ist ein Open -Source -Automatisierungsserver zum Erstellen, Testen und Bereitstellungen. Jenkins verwendet Master-Slave-Architektur. Auf diese Weise können Software -Teams mehrere Builds und Tests für Software gleichzeitig ausführen. Darüber hinaus sind viele Plugins verfügbar und Teams können sie bei Bedarf verwenden. Sie können die Seite [**  Jenkins "**][6] für weitere Informationen und Installation besuchen. Darüber hinaus finden Sie Quellcode bei Jenkins [ **Github**  ][7] Repository.
+## Was ist Jenkins? {#Jenkins}
 
-## Kontinuierliche Integration   {#ci}
-**Continuous Integration**  ist eine Entwicklungspraxis, in der Entwickler den Code häufig in ein gemeinsam genutztes Repository integrieren müssen. Jede Integration/COSE -PUSCH in das Repository kann durch automatisierte Build und Tests überprüft werden. Es ermöglicht Entwicklern auch, Probleme im Code leicht zu identifizieren.
+**Jenkins **ist ein leistungsstarkes** kostenloser Bereitstellungstool **zum automatischen Zustellung des Software -Zustellung. Es ist ein Open -Source -Automatisierungsserver zum Erstellen, Testen und Bereitstellungen. Jenkins verwendet Master-Slave-Architektur. Auf diese Weise können Software -Teams mehrere Builds und Tests für Software gleichzeitig ausführen. Darüber hinaus sind viele Plugins verfügbar und Teams können sie bei Bedarf verwenden. Sie können die Seite [** Jenkins "**][6] für weitere Informationen und Installation besuchen. Darüber hinaus finden Sie Quellcode bei Jenkins [** Github**][7] Repository.
 
-## kontinuierliche Bereitstellung   {#CD}
-**Continuous Bereitstellung**  ist der nächste Schritt nach der kontinuierlichen Integration. Es würde es Teams ermöglichen, Code auf dem Server kontinuierlich bereitzustellen. Darüber hinaus hilft es Entwicklern, sich wiederholende Aufgaben zu reduzieren und die Beweglichkeit zu erhöhen.
+## Kontinuierliche Integration {#CI}
 
-## Konfigurieren Sie Jenkins   {#Configure}
+**Continuous Integration** ist eine Entwicklungspraxis, in der Entwickler den Code häufig in ein gemeinsam genutztes Repository integrieren müssen. Jede Integration/COSE -PUSCH in das Repository kann durch automatisierte Build und Tests überprüft werden. Es ermöglicht Entwicklern auch, Probleme im Code leicht zu identifizieren.
+
+## Kontinuierliche Bereitstellung {#CD}
+
+**Continuous Bereitstellung** ist der nächste Schritt nach der kontinuierlichen Integration. Es würde es Teams ermöglichen, Code auf dem Server kontinuierlich bereitzustellen. Darüber hinaus hilft es Entwicklern, sich wiederholende Aufgaben zu reduzieren und die Beweglichkeit zu erhöhen.
+
+## Konfigurieren Sie Jenkins {#Configure}
+
 Folgen Sie den folgenden Schritt -für -Schritt -Richtlinien für die Konfiguration in Jenkins.
   * Öffnen Sie Ihre Jenkins -Website und loggen Sie sich an.
   * Installieren Sie das Plugin "Over SSH". Sie können es durchsuchen, indem Sie navigieren, um „Jenkins verwalten → Plugins verwalten → verfügbar“.
@@ -57,34 +61,36 @@ $ nano authorized_keys
   * Klicken Sie auf die Schaltfläche Testkonfiguration, um sicherzustellen, dass Jenkins eine Verbindung zum Bereitstellungsserver herstellen kann.
   * Klicken Sie schließlich auf die Schaltfläche Speichern, um Informationen zu speichern.
 
-## Jenkins Job   {#create} erstellen
+## Erstellen Sie Jenkins Job {#Create}
+
 Sie können diese Schritte verwenden, um Jenkins Job zu erstellen.
   * Öffnen Sie Jenkins Dashboard und klicken Sie auf die Schaltfläche „Neue Artikeln“.
   * Geben Sie den Projektnamen ein und wählen Sie "Freestyle Job".
-  * Github Repository -URL unter "Konfigurationsfenster" eingeben.
+  * GitHub Repository -URL unter "Konfigurationsfenster" eingeben.
   * Überprüfen Sie im Abschnitt "Umgebungsumgebung" diese Optionen "Arbeitsbereich vor dem Erstellen löschen" und "Dateien senden oder Befehle nach SSH nach dem Build -Ausführen ausführen".
   * Geben Sie den Namen, die Quelldateien und das Remote -Verzeichnis in der Build -Umgebung ein.
   * Speichern Sie den Job und bauen Sie ihn auf.
   * Stellen Sie eine Verbindung zum Bereitstellungsserver her und stellen Sie sicher, dass der Code vorhanden ist.
 
 ## Abschluss
-Wir haben in diesem Artikel den **Jenkins -Server **,  **Continuous Integration **  und  **Continuous Deployment **  besprochen. Wir haben auch gelernt, wie man das  **Free Deployment Tool**   konfiguriert und mit GitHub einen Jenkins -Job für die Bereitstellung erstellt. Das kostenlose CI/CD -Tool ermöglicht es dem Entwicklungsteam, Software -Bereitstellungsworkflows zu automatisieren und sich auf wichtige Jobs zu konzentrieren. Wir werden in den kommenden Beiträgen andere Bereitstellungswerkzeuge abdecken.
-Schließlich veröffentlichen [**containerize.com **][8] Artikel zu weiteren Open -Source -Bereitstellungswerkzeugen. Bitte bleiben Sie in Kontakt mit [ **Bereitstellungswerkzeugen**  ][9] Kategorie für regelmäßige Aktualisierungen.
+Wir haben in diesem Artikel den **Jenkins -Server**, **Continuous Integration** und **Continuous Deployment** besprochen. Wir haben auch gelernt, wie man das**Free Deployment Tool** konfiguriert und mit GitHub einen Jenkins -Job für die Bereitstellung erstellt. Das kostenlose CI/CD -Tool ermöglicht es dem Entwicklungsteam, Software -Bereitstellungsworkflows zu automatisieren und sich auf wichtige Jobs zu konzentrieren. Wir werden in den kommenden Beiträgen andere Bereitstellungswerkzeuge abdecken.
+Schließlich veröffentlichen [ **containerize.com**][8] Artikel zu weiteren Open -Source -Bereitstellungswerkzeugen. Bitte bleiben Sie in Kontakt mit [**Bereitstellungswerkzeugen** ][9] Kategorie für regelmäßige Aktualisierungen.
 
 ## Erkunden
 Möglicherweise finden Sie die folgenden Links relevant:
-  ***[Jenkins][6]** 
-  *[**Drohne** ][10]
-  *[**Deploymer** ][11]
-  *[**Capistrano** ][12]
-  *[**Rancher** ][13]
-  *[**Concourse** ][14]
-  *[**Ansible** ][15]
-  *[**GOCD** ][16]
-  *[**Top 5 Open Source -Bereitstellungswerkzeuge in 2021** ][17]
-  *[**Automatisieren Sie die PHP -Anwendungsbereitstellung mit Deploymer** ][18]
+* **[Jenkins][6]** 
+* [ **Drohne** ][10]
+* [ **Deploymer** ][11]
+* [ **Capistrano** ][12]
+* [ **Rancher** ][13]
+* [ **Concourse** ][14]
+* [ **Ansible** ][15]
+* [ **GOCD** ][16]
+* [ **Top 5 Open Source -Bereitstellungswerkzeuge in 2021** ][17]
+* [ **Automatisieren Sie die PHP -Anwendungsbereitstellung mit Deploymer** ][18]
 
-  
+
+
 [1]: #Jenkins
 [2]: #CI
 [3]: #CD

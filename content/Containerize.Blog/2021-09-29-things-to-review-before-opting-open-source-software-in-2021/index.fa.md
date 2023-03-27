@@ -15,40 +15,47 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
 
 
 ## بررسی اجمالی
-اگر از شما تعجب می کنید که نرم افزاری را برای تقویت تجارت خود اتخاذ کنید ، در جای مناسب قرار دارید. در این دنیای به سرعت در حال رشد فناوری و نوآوری ، عوامل بسیاری وجود دارد که می توانند متوقف شوند مانند هزینه ، زمان ، مهارت ، منابع و موارد دیگر. از طرف دیگر ، این یک معامله گران قیمت برای تهیه نرم افزار از ابتدا برای برآورده کردن نیازهای تجاری است. در اینجا نرم افزار منبع باز **** آمده است. نرم افزار منبع باز (OSS) با تمام کد منبع و مستندات تحت مجوز ، به صورت عمومی در دسترس همه است. این می تواند توسط یک توسعه دهنده واحد یا گروهی از توسعه دهندگان ساخته شود که سپس آن را علنی می کنند. هنگامی که دید نرم افزار رایگان عمومی باشد ، سایر توسعه دهندگان می توانند برای پیشرفت در آن نرم افزار کمک کنند.
+اگر از شما تعجب می کنید که نرم افزاری را برای تقویت تجارت خود اتخاذ کنید ، در جای مناسب قرار دارید. در این دنیای به سرعت در حال رشد فناوری و نوآوری ، عوامل بسیاری وجود دارد که می توانند به عنوان هزینه ، زمان ، مهارت ، منابع و موارد دیگر متوقف شوند. از طرف دیگر ، این یک معامله گران قیمت برای تهیه نرم افزار از ابتدا برای برآورده کردن نیازهای تجاری است. در اینجا نرم افزار منبع باز****آمده است. نرم افزار منبع باز (OSS) با تمام کد منبع و مستندات تحت مجوز ، به صورت عمومی در دسترس همه است. این می تواند توسط یک توسعه دهنده واحد یا گروهی از توسعه دهندگان ساخته شود که سپس آن را علنی می کنند. هنگامی که دید نرم افزار رایگان عمومی باشد ، سایر توسعه دهندگان می توانند برای پیشرفت در آن نرم افزار کمک کنند.
 علاوه بر این ، جامعه منبع باز بسیار پر جنب و جوش و پشتیبان است که در امتداد  **لیست نرم افزار منبع باز**  توسعه یافته است. تابلوهای بحث و گفتگو وجود دارد که همکاران و کاربران برای به اشتراک گذاشتن راه حل ها و افکار جمع می شوند. طیف گسترده ای از دسته های OSS وجود دارد که بیشتر جنبه های تجاری را در بر می گیرد. البته مواردی وجود دارد که باید قبل از مراجعه به یک برنامه منبع باز در نظر گرفته شود که با پوشش نکات زیر در این پست وبلاگ بحث خواهیم کرد.
-  * **[جامعه][1]**
-  * **[مستندات][2]**
-  * **[قابلیت حمل][3]**
-  * **[آمار git][4]**
-  * **[مجوز][5]**
-  * **[گسترش][6]**
-  * **[امنیت][7]**
+*  **[جامعه][1]**  
+*  **[مستندات][2]**  
+*  **[قابلیت حمل][3]**  
+*  **[آمار git][4]**  
+*  **[مجوز][5]**  
+*  **[گسترش][6]**  
+*  **[امنیت][7]**  
 
-## جامعه   {#Community}
+## انجمن {#انجمن}
+
 این مهمترین عامل در هنگام انتخاب راه حل منبع باز (OSS) است. اگر پشتیبانی کافی در دسترس نباشد ، مدیریت نرم افزار بسیار سخت می شود. بیشتر توسعه دهندگان تمایل به حفظ قابلیت اطمینان نرم افزار دارند. بنابراین ، شما همیشه باید  **نرم افزار منبع باز (FOSS)**  را که از جامعه پر جنب و جوش برخوردار است ، ترجیح دهید تا در صورت بروز مشکل جدی که رخ می دهد ، حل شود.
 
-## مستندات   {#Documentation}
+## مستندات {#مستندات}
+
 جنبه مهم بعدی در انتخاب  **برنامه های منبع باز**  مستندات است. بیشتر نرم افزار منبع باز (OSS) با مستندات دقیق و جامع همراه است. با این حال ، هنوز هم در مورد هر OSS اینگونه نیست. نرم افزاری با اسناد کمتر یا بدون اسناد می تواند شما را دچار مشکل کند. بعضی اوقات ، توسعه دهندگان کتابچه راهنمای کاربر را به فضای دیگری غیر از سایت نرم افزار می نویسند. بنابراین ، همیشه اطمینان حاصل کنید که با مستندات کامل ، OSS را انتخاب کرده اید.
 
-## قابلیت حمل   {#Portability}
-این ویژگی به همان اندازه سایر موارد مانند اسناد ، امنیت و غیره مهم است. شما باید اطمینان حاصل کنید که نرم افزار **منبع باز (OSS)  **قابل حمل و سازگار با محیط است. به راحتی میزبان است و با فایلهای کامل کد منبع ارائه می شود. قابلیت حمل و نقل هیچ ارتباطی با نصب کننده به جز پرونده های نرم افزاری ندارد.**   نرم افزار خود میزبان** توسعه دهندگان را قادر می سازد تا کنترل کاملی بر توسعه ، وضعیت تولید و امنیت کسب کنند.
+## قابلیت حمل {#قابلیت حمل}
 
-## git stat   {#git-stats}
+این ویژگی به همان اندازه سایر موارد مانند اسناد ، امنیت و غیره مهم است. شما باید اطمینان حاصل کنید که نرم افزار  **منبع باز (OSS)** قابل حمل و سازگار با محیط است. به راحتی میزبان است و با فایلهای کامل کد منبع ارائه می شود. قابلیت حمل و نقل هیچ ارتباطی با نصب کننده به جز پرونده های نرم افزاری ندارد. **نرم افزار خود میزبان**  توسعه دهندگان را قادر می سازد تا کنترل کاملی بر توسعه ، وضعیت تولید و امنیت کسب کنند.
+
+## آمار git {#Git-Stats}
+
 این یک فعالیت بسیار اساسی و در عین حال مهم قبل از انتخاب نرم افزار رایگان است. همیشه repo git یک محصول خاص را به طور کامل مرور کنید. این شامل تعداد چنگال ها ، ستاره ها و سایر آمار است که محبوبیت ابزارهای منبع باز را نشان می دهد. همچنین ، بخش موارد مربوط به repo git را بررسی کنید تا مطمئن شوید که هیچ مسئله جدی با این برنامه منبع باز پیوسته نیست.
 
-## مجوز   {#licensing}
+## مجوز {#مجوز}
+
 این عامل هنگام انتخاب نرم افزار منبع باز رایگان (FOSS) اجتناب ناپذیر است. در حین کاوش در آمار repo git ، مجوز محصول را در مورد مجوزها بررسی کنید. شرایط و ضوابط نوشته شده در مورد استفاده ، توسعه و توزیع OSS را طی کنید. برخی از مجوزها منبع آزاد هستند اما رایگان نیستند. بنابراین ، شما باید نرم افزار رایگان را انتخاب کنید که کاملاً منبع باز و رایگان باشد.
 
-## گسترش پذیری   {#extensibility}
+## قابلیت گسترش {#قابلیت گسترش}
+
 بزرگترین دلیل انتخاب ابزار منبع باز ، ماهیت گسترده آن است. نرم افزار رایگان باید قابل تنظیم ، مقیاس پذیر و آسان باشد. جامعه منبع باز بهترین راهها را برای انعطاف پذیری نرم افزار در مورد هر جنبه فراهم می کند تا کاربران در زمان هرگونه تجدید نظر یا افزودن عملکرد جدید ، وحشت دریافت نکنند. علاوه بر این ، کاربران می توانند تعدادی از افزونه ها را پیدا کنند ، API های REST که در معرض اکثر ابزارهای منبع باز محبوب مانند نرم افزار مدیریت محتوا ، نرم افزار وبلاگ نویسی ، توسعه سریع برنامه و موارد دیگر قرار دارند.
 
-## امنیت   {#Security}
+## امنیت {#امنیت}
+
 نکته آخر اینکه ، امنیت هر نرم افزار به هر قیمتی به خطر نمی افتد. با این حال ، شما باید معماری نرم افزار را به صورت انتقادی تجزیه و تحلیل کنید تا اطمینان حاصل کنید که هیچ نقض امنیتی وجود ندارد. در گذشته این تصور غلط بود که نرم افزار منبع باز (OSS) در برابر تهدیدهای خارجی آسیب پذیر است. بنابراین ، در زمان فعلی این مورد اتفاق نمی افتد زیرا بلوغ و محبوبیت با گذشت زمان در حال افزایش است.
 
 ## افکار نهایی
-این ما را به پایان این پست وبلاگ می رساند. ما شیوه های مهمی را که باید هنگام انتخاب یک نرم افزار **منبع باز (OSS)  **دنبال شود ، طی کرده ایم. ما دیده ایم که بسیاری از غول های فنی در حال اتخاذ نرم افزار منبع باز**   (FOSS)** برای تأمین نیازهای تجاری هستند. با این حال ، این گسترده نشانگر استحکام و کارآیی برنامه های منبع باز است. یک لیست ابزارهای منبع باز طولانی در بخش کاوش در زیر ذکر شده است. علاوه بر این ، شما می توانید بسیاری از OS را در Containerize.com پیدا کنید که همه آنها رایگان ، منبع باز هستند و دارای قابلیت های خود میزبانی هستند. من به شما توصیه می کنم یک راه حل منبع باز را برای تجارت خود انتخاب کنید که نیازهای تجاری شما را برآورده کند.
-سرانجام ، [ **Containerize.com** ][8] در حال نوشتن مقاله در مورد محصولات منبع باز بیشتر است. بنابراین ، لطفاً برای به روزرسانی های منظم در تماس باشید.
+این ما را به پایان این پست وبلاگ می رساند. ما شیوه های مهمی را که باید هنگام انتخاب یک نرم افزار  **منبع باز (OSS)** دنبال شود ، طی کرده ایم. ما دیده ایم که بسیاری از غول های فنی در حال اتخاذ نرم افزار منبع باز **(FOSS)**  برای تأمین نیازهای تجاری هستند. با این حال ، این گسترده نشانگر استحکام و کارآیی برنامه های منبع باز است. یک لیست ابزارهای منبع باز طولانی در بخش کاوش در زیر ذکر شده است. علاوه بر این ، شما می توانید بسیاری از OS را در Containerize.com پیدا کنید که همه آنها رایگان ، منبع باز هستند و دارای قابلیت های خود میزبانی هستند. من به شما توصیه می کنم یک راه حل منبع باز را برای تجارت خود انتخاب کنید که نیازهای تجاری شما را برآورده کند.
+سرانجام ، [  **Containerize.com**  ][8] در حال نوشتن مقاله در مورد محصولات منبع باز بیشتر است. بنابراین ، لطفاً برای به روزرسانی های منظم در تماس باشید.
 
 ## کاوش کنید
 ممکن است پیوندهای زیر مربوطه را پیدا کنید:
@@ -59,57 +66,58 @@ categories: ['CMDB Software', 'Content Management', 'Digital Forensic Tools', 'F
   * [خبرنامه][23] ، [صفحه وضعیت][24] ، [صورتحساب][25] ، [مدیریت رمز عبور][26] ، [نرم افزار صف پیام][27]
   * [تک ثبت نام][28] ، [مدیریت پروژه][29] ، [توسعه سریع برنامه][30] ، [نرم افزار انیمیشن][31]
   * [سبد خرید][32] ، [کنترل نسخه منبع باز][33] ، [پشته راه حل سرور وب][34] ، [نرم افزار ویرایش عکس][35]
-  * [مدیریت بانک اطلاعاتی][36] ، [کنفرانس ویدیویی][37] ، [سیستم عامل های blockchain][38] ، [Big Data][39]
+  * [مدیریت بانک اطلاعاتی][36] ، [کنفرانس ویدیویی][37] ، [سیستم عامل های blockchain][38] ، [داده های بزرگ][39]
   * [نرم افزار CMDB][40] ، [نرم افزار توسعه بازی][41] ، [برنامه ریزی منابع سازمانی (ERP)][42]
   * [نرم افزار ویرایش ویدیو][43] ، [سیستم های مدیریت پایگاه داده][44] ، [بهره وری دفتر][45]
   * [سیستم مدیریت یادگیری (LMS)][46] ، [نرم افزار پشتیبان گیری و همگام سازی][47] ، [نرم افزار پزشکی قانونی دیجیتال][48]
 
-  
-[1]: #Community
-[2]: #Documentation
-[3]: #Portability
-[4]: #Git-Stats
-[5]: #Licensing
-[6]: #Extensibility
-[7]: #Security
-[8]: https://www.containerize.com/
-[9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
-[10]: https://products.containerize.com/content-management/
-[11]: https://products.containerize.com/blogging/
-[12]: https://products.containerize.com/discussion-forum/
-[13]: https://products.containerize.com/healthcare-technologies/
-[14]: https://products.containerize.com/helpdesk/
-[15]: https://products.containerize.com/marketing-automation/
-[16]: https://products.containerize.com/marketplace/
-[17]: https://products.containerize.com/deployment-tools/
-[18]: https://products.containerize.com/security-testing-tools/
-[19]: https://products.containerize.com/live-chat/
-[20]: https://products.containerize.com/form/
-[21]: https://products.containerize.com/transactional-email/
-[22]: https://products.containerize.com/business-intelligence/
-[23]: https://products.containerize.com/newsletter/
-[24]: https://products.containerize.com/status/
-[25]: https://products.containerize.com/invoicing/
-[26]: https://products.containerize.com/password-management/
-[27]: https://products.containerize.com/message-queue-software/
-[28]: https://products.containerize.com/single-sign-on/
-[29]: https://products.containerize.com/project-management/
-[30]: https://products.containerize.com/rad/
-[31]: https://products.containerize.com/animation-software/
-[32]: https://products.containerize.com/ecommerce/
-[33]: https://products.containerize.com/version-control/
-[34]: https://products.containerize.com/solution-stack/
-[35]: https://products.containerize.com/photo-editing-software/
-[36]: https://products.containerize.com/database-management/
-[37]: https://products.containerize.com/video-conferencing/
-[38]: https://products.containerize.com/blockchain-platforms/
-[39]: https://products.containerize.com/big-data/
-[40]: https://products.containerize.com/cmdb-software/
-[41]: https://products.containerize.com/game-development-software/
-[42]: https://products.containerize.com/erp/
-[43]: https://products.containerize.com/video-editing-software/
-[44]: https://products.containerize.com/database-management-system/
-[45]: https://products.containerize.com/office-productivity/
-[46]: https://products.containerize.com/lms/
-[47]: https://products.containerize.com/backup-and-sync/
-[48]: https://products.containerize.com/digital-forensic-software/
+
+
+ [1]: #Community
+ [2]: #Documentation
+ [3]: #Portability
+ [4]: #Git-Stats
+ [5]: #Licensing
+ [6]: #Extensibility
+ [7]: #Security
+ [8]: https://www.containerize.com/
+ [9]: https://blog.containerize.com/blogging/automate-business-operations-using-open-source-software/
+ [10]: https://products.containerize.com/content-management/
+ [11]: https://products.containerize.com/blogging/
+ [12]: https://products.containerize.com/discussion-forum/
+ [13]: https://products.containerize.com/healthcare-technologies/
+ [14]: https://products.containerize.com/helpdesk/
+ [15]: https://products.containerize.com/marketing-automation/
+ [16]: https://products.containerize.com/marketplace/
+ [17]: https://products.containerize.com/deployment-tools/
+ [18]: https://products.containerize.com/security-testing-tools/
+ [19]: https://products.containerize.com/live-chat/
+ [20]: https://products.containerize.com/form/
+ [21]: https://products.containerize.com/transactional-email/
+ [22]: https://products.containerize.com/business-intelligence/
+ [23]: https://products.containerize.com/newsletter/
+ [24]: https://products.containerize.com/status/
+ [25]: https://products.containerize.com/invoicing/
+ [26]: https://products.containerize.com/password-management/
+ [27]: https://products.containerize.com/message-queue-software/
+ [28]: https://products.containerize.com/single-sign-on/
+ [29]: https://products.containerize.com/project-management/
+ [30]: https://products.containerize.com/rad/
+ [31]: https://products.containerize.com/animation-software/
+ [32]: https://products.containerize.com/ecommerce/
+ [33]: https://products.containerize.com/version-control/
+ [34]: https://products.containerize.com/solution-stack/
+ [35]: https://products.containerize.com/photo-editing-software/
+ [36]: https://products.containerize.com/database-management/
+ [37]: https://products.containerize.com/video-conferencing/
+ [38]: https://products.containerize.com/blockchain-platforms/
+ [39]: https://products.containerize.com/big-data/
+ [40]: https://products.containerize.com/cmdb-software/
+ [41]: https://products.containerize.com/game-development-software/
+ [42]: https://products.containerize.com/erp/
+ [43]: https://products.containerize.com/video-editing-software/
+ [44]: https://products.containerize.com/database-management-system/
+ [45]: https://products.containerize.com/office-productivity/
+ [46]: https://products.containerize.com/lms/
+ [47]: https://products.containerize.com/backup-and-sync/
+ [48]: https://products.containerize.com/digital-forensic-software/

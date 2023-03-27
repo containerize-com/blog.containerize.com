@@ -20,7 +20,8 @@ Osticket açık kaynaklı ve ücretsiz bir yardım masası biletleme sistemidir.
   * [Kimlik Doğrulama Prosedürü][3]
   * [Sonuç][4]
 
-## entegrasyon işlemi:   {#integration}
+## Entegrasyon Süreci: {#integration}
+
 Osticket ve WordPress entegrasyonu, WordPress sitesinde aşağıdaki alanlarla bir iletişim formu gerektirir
   1. Yardım Konusu
   2. E -posta
@@ -29,7 +30,8 @@ Osticket ve WordPress entegrasyonu, WordPress sitesinde aşağıdaki alanlarla b
   5. Mesaj
 İletişim formu e -postalar göndermelidir, çünkü bu eklenti formların verilerini almak için WP_MAIL işlevini kanca yapar.
 
-## WordPress eklenti yüklemesi:   {#wordpress}
+## WordPress eklentisi kurulumu: {#wordpress}
+
   1. WordPress sitenizin Yönetici Gösterge Tablosuna gidin.
   2. Ardından Eklentiler bölümüne gidin.
   3. Sonra bu [eklenti][5] takın.
@@ -42,7 +44,8 @@ Osticket ve WordPress entegrasyonu, WordPress sitesinde aşağıdaki alanlarla b
 {{< figure align=center src="images/wordpress-osticket-1024x776.png" alt="Biletleme sistemini otomatikleştirmek için osticket-wordpress entegrasyonu">}}
 
 
-## Kimlik Doğrulama Prosedürü:   {#Auth}
+## Kimlik Doğrulama Prosedürü: {#auth}
+
 API kimlik doğrulaması, Osticket'in yönetici panelinde yapılandırılan API tuşları aracılığıyla gerçekleştirilir. API anahtarları oluşturulur ve HTTP API isteklerinin kaynak IP'sine göre doğrulanan bir kaynak IP adresine bağlanır. API anahtarı oluşturmak için
   1. Osticket Yönetici Paneline gidin.
   2. “Yönet” e tıklayın.
@@ -55,7 +58,8 @@ API kimlik doğrulaması, Osticket'in yönetici panelinde yapılandırılan API 
 {{< figure align=center src="images/osticket-1024x729.png" alt="Biletleme sistemini otomatikleştirmek için osticket-wordpress entegrasyonu">}}
 
 
-## Sonuç:   {#Conclusion}
+## Çözüm: {#conclusion}
+
 Osticket-WordPress entegrasyonu biletleme sürecini otomatikleştirecektir. Bu nedenle destek ekibi için hayatı kolaylaştıracaktır. WordPress web sitesindeki sorular otomatik olarak Osticket'teki destek biletlerine dönüşecektir. Böylece destek ekibi tüm müşterilerin sorgularını daha kolay ve verimli bir şekilde yönetebilir. Destek aracılarına e -posta bildirimleri ile bilgilendirilecektir. Bu nedenle, temsilciler müşterilerin sorgularını zamanında çözebilir. Osticket ile ilgili yorum bölümü hem müşterilerin hem de destek temsilcilerinin etkili ve zamanında iletişim kurmasına yardımcı olur. Ayrıca, yöneticilerin her bilet için ilerlemeyi takip etmelerini kolaylaştırır.
 
 ## Keşfetmek:
@@ -64,7 +68,8 @@ Osticket ve WordPress hakkında daha fazla bilgi edinmek için lütfen şu sayfa
   * [WordPress - ücretsiz açık kaynak ve en yaygın kullanılan CMS ve bloglama aracı][8]
   * [Osticket kullanarak çevrimiçi yardım masası yazılımı nasıl kurulur][9]
 
-  
+
+
 [1]: #integration
 [2]: #wordpress
 [3]: #auth

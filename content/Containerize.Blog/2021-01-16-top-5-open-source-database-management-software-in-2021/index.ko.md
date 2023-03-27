@@ -23,13 +23,14 @@ categories: ['Database Management Software']
   * [Cubrid][7]
   * [heidisql][8]
 
-## phpmyadmin   {#phpmyadmin}
+## phpmyadmin {#phpmyadmin}
+
 Phpmyadmin은 XAMPP 및 WAMPP 웹 서버를 갖춘 내장 구성 요소로 제공됩니다. 현재 Phpmyadmin은 가장 널리 사용되는 데이터베이스 관리 소프트웨어입니다. 개발자는 인터페이스를 통해 정보, 테이블, 열, 관계, 참조, 사용자 및 권한 등을 관리 할 수 ​​있습니다. 또한 데이터베이스 작성, 쿼리 실행 및 사용자 계정 추가 등 대부분의 관리 작업을 수행하는 데 사용됩니다. 이 데이터베이스 관리 시스템은 JavaScript 및 SCSS와 같은 다른 언어의 입력과 함께 PHP로 작성됩니다. 따라서 모든 문서는 개발 및 배포와 관련하여 사용할 수 있습니다. 이것들은 phpmyadmin의 눈에 띄는 기능입니다.
   * 사용하기 쉬운 웹 인터페이스.
   * 여러 MySQL 기능 지원.
   * 데이터베이스, 테이블, 행, 열 등과 같은 정보를 찾아보십시오.
   * 데이터베이스, 테이블 및 열 이름을 만들고, 복사, 버리고, 이름을 바꾸고 수정하고 수정하십시오.
-  * SQL 문 또는 배치 쿼리에 대한 북마크를 작성, 편집 및 표시합니다.
+  * 모든 SQL 문 또는 배치 쿼리에 대한 북마크를 작성, 편집 및 표시합니다.
 [더 읽기][9]
 
 ## 관리자
@@ -58,7 +59,7 @@ Cubrid의 주요 기능에는 데이터 공유, 고성능 데이터 캐싱, 객�
   * 중첩 및 계층 적 쿼리.
   * LOB 데이터 지원 (Blob/Clob).
   * 커서, 트리거 및 저장 절차.
-  *로드 밸런싱 및 배포.
+* 로드 밸런싱 및 배포.
 [더 읽기][12]
 
 ## Heidisql
@@ -81,9 +82,10 @@ HEIDISQL은 MariADB 또는 MySQL 서버, Microsoft SQL 데이터베이스, Postg
   * [관리자 데이터베이스 관리 도구로 데이터베이스 관리][20]
   * [레디스 인 메모리 데이터베이스에 대한 초보자 안내서][21]
   * [MySQL이 인기있는 오픈 소스 데이터베이스 관리 시스템 인 이유는 무엇입니까?][2]
-  * [Kafka vs Redis Pub-Sub, 알아야 할 차이][3]
+  * [Kafka vs Redis Pub-Sub, 당신이 알아야 할 차이점][3]
 
-  
+
+
 [1]: https://products.containerize.com/database-management/
 [2]: https://blog.containerize.com/2021/02/18/why-mysql-is-a-popular-open-source-database-management-system/
 [3]: https://blog.containerize.com/database-management-software/kafka-vs-redis-pub-sub-differences-which-you-should-know/

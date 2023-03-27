@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-## **Tổng quan**
+## **Tổng quan** 
 Owncloud là ứng dụng web doanh nghiệp nguồn mở mạnh mẽ và miễn phí và phổ biến được viết bằng PHP mà sử dụng để đồng bộ hóa dữ liệu và chia sẻ tệp. Nó cũng cho phép bạn dễ dàng quản lý các tệp dữ liệu, danh bạ, lịch, để làm danh sách và nhiều hơn nữa. Đây là một sự thay thế tuyệt vời cho các nền tảng đám mây phổ biến nhất như Google Drive, Dropbox, iCloud và các dịch vụ lưu trữ đám mây khác ngoài kia. Nhưng không giống như các dịch vụ lưu trữ đám mây khác, sở hữu tự lưu trữ tự do tạo ra đám mây chủ riêng.
 Owncloud là một phần mềm đám mây riêng nguồn nguồn mở cung cấp quyền truy cập dữ liệu bằng giao diện web để tạo đám mây riêng. Nó cho phép bạn tạo máy chủ chia sẻ tệp của riêng mình, nơi bạn có thể dễ dàng xem và đồng bộ hóa các sự kiện lịch, tài liệu lưu trữ, hình ảnh, bản ghi, tác vụ, sách địa chỉ với dấu trang, tương tự như Dropbox và Google Drive. Nó cũng cung cấp các tùy chọn để đồng bộ hóa và chia sẻ dữ liệu trên tất cả các thiết bị dưới sự kiểm soát của bạn. Cài đặt và định cấu hình Owncloud hỗ trợ dữ liệu của bạn được đồng bộ hóa cho máy khách máy tính để bàn cũng như các thiết bị ứng dụng di động. Ngoài ra, bạn có thể dễ dàng thực hiện các hạn chế truy cập người dùng và nhóm trên các tệp trên mỗi người dùng bằng cách sử dụng Owncloud trên Ubuntu. Owncloud Open Open Source Storage Server là một ứng dụng nền tảng chéo và có thể được cài đặt trên tất cả các hệ điều hành phổ biến.
 Hướng dẫn này sẽ giúp bạn thiết lập Owncloud và định cấu hình owncloud trên các hệ thống Ubuntu LTS.
@@ -71,7 +71,7 @@ mysql> cấp tất cả trên owncloud.* to 'owncloud'@'localhost' được xác
 mysql> đặc quyền tuôn ra;
 mysql> bỏ
 {{_LINE_62_}}
-Tiếp theo, chúng ta cần cài đặt owncloud trên Ubuntu từ giao diện web để tạo đám mây riêng.
+Tiếp theo, chúng ta cần cài đặt owncloud trên Ubuntu từ giao diện web để tạo một đám mây riêng.
 
 ## Bước 4: Cài đặt Owncloud trên Ubuntu
 Bây giờ hãy truy cập thư mục bảng điều khiển web Cloud Cloud Server tốt nhất của Owncloud trên trình duyệt web. Thay đổi localhost thành địa chỉ IP hoặc tên miền của máy chủ.
@@ -97,27 +97,30 @@ Sau khi hoàn thành thiết lập, bạn sẽ nhận được bảng điều kh
 {{_LINE_79_}}
 Vâng! Chúng tôi được thực hiện với Hướng dẫn cài đặt Owncloud để xây dựng lưu trữ đám mây cá nhân. Bây giờ bạn đã biết cách cài đặt hoàn toàn Owncloud trên Ubuntu để xây dựng một đám mây riêng từng bước tương tự như Dropbox hoặc Google Drive.
 
-## **Các lựa chọn thay thế tốt nhất cho Owncloud là gì?** {#4A1A}
-Sau đây là các lựa chọn thay thế sở hữu bản thân và phần mềm lưu trữ tệp đối thủ cạnh tranh.
-  ***Seafile**  là hệ thống phần mềm lưu trữ tệp đa nền tảng nguồn mở
-  ***NextCloud**  là nền tảng lưu trữ đám mây miễn phí và nguồn mở
-  ***Resilio Sync**  là ứng dụng đồng bộ hóa tệp PEER nguồn mở
-  ***Tế bào Pydio**  là phần mềm chia sẻ và đồng bộ hóa tệp nguồn mở
-  ***Syncthing**  là ứng dụng đồng bộ hóa tệp ngang hàng miễn phí và nguồn mở
+## **Những lựa chọn thay thế tốt nhất cho Owncloud là gì?** {#4a1a}
 
-## **Kết luận:** {#Block-DD1258F4-E0C5-4AC9-BE18-7DD2A700F09E}
+Sau đây là các lựa chọn thay thế sở hữu bản thân và phần mềm lưu trữ tệp đối thủ cạnh tranh.
+* **Seafile** là hệ thống phần mềm lưu trữ tệp đa nền tảng nguồn mở
+* **NextCloud** là nền tảng lưu trữ đám mây miễn phí và nguồn mở
+* **Resilio Sync** là ứng dụng đồng bộ hóa tệp PEER nguồn mở
+* **Tế bào Pydio** là phần mềm chia sẻ và đồng bộ hóa tệp nguồn mở
+* **Syncthing** là ứng dụng đồng bộ hóa tệp ngang hàng miễn phí và nguồn mở
+
+## **Phần kết luận:**  {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 Chúc mừng! Bạn đã cài đặt thành công và cấu hình owncloud để xây dựng đám mây riêng của riêng bạn với Apache trên máy Ubuntu. Bây giờ dữ liệu của bạn không bao giờ nằm ​​trong tay của các bên thứ ba và có thể được quản lý riêng tư trong bộ lưu trữ máy chủ Ubuntu Ubuntu riêng. Nhiều công ty đang chọn để tạo ra các máy chủ riêng của họ với nhiều thông tin quan trọng do nhiều vấn đề với sự riêng tư của dữ liệu. Trong các hướng dẫn sắp tới của chúng tôi, chúng tôi sẽ thảo luận về các chủ đề thú vị hơn về các ngăn xếp giải pháp máy chủ web.
 _Your có thể tham gia với chúng tôi trên [Twitter][2], [LinkedIn][3] và trang [Facebook][4] của chúng tôi. Bạn sử dụng giải pháp lưu trữ dựa trên đám mây nào trực tuyến ?. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ][5].
 
 ## Khám phá:
 Chúng tôi cũng có một số bài viết khác liên quan đến việc quản lý hàng ngày của máy chủ của bạn.
-  * [Cách định cấu hình Apache dưới dạng proxy ngược cho ubuntu/debian][6]
+  * [Cách định cấu hình Apache dưới dạng proxy ngược cho Ubuntu/Debian][6]
   * [Cách cài đặt và bảo mật phpmyadmin với nginx trên ubuntu][7]
   * [Bảo mật và mã hóa Nginx với Let Let Encrypt trên Ubuntu 20.04][8]
   * [Định cấu hình hỗ trợ HTTP/2 trong Nginx trên Ubuntu/Debian][9]
   * [Thiết lập Nginx với hành khách trên máy chủ sản xuất AWS][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

@@ -20,7 +20,8 @@ Bu makale, Nginx hakkında öğreticilerle ilgili dizilerimizin devamıdır. Şi
   * [Nginx'i web siteleri için farklı sürümler çalıştıracak şekilde yapılandırın][4]
   * [Sonuç][5]
 
-## nginx   {#nginx} yükle
+## Nginx'i yükle {#nginx}
+
 Nginx (“Engine-X” olarak telaffuz edilir), genellikle ters proxy veya HTTP önbellek olarak kullanılan açık kaynaklı bir web sunucusudur. Linux için ücretsiz olarak kullanılabilir.
 Nginx'i yüklemek için aşağıdaki komutu kullanın:
 ```
@@ -32,10 +33,11 @@ Kurulum yapıldıktan sonra tarayıcınızda “http: // localhost” açabilirs
 {{< figure align=center src="images/php-with-nginx-install.png" alt="PHP'yi Nginx ile yükleyin">}}
 
 
-## Birden çok PHP sürümünü yükleyin   {#php}
-**PHP  **(**  PHP: HyperText Önişlemcisi**  için özyinelemeli kısaltma), web siteleri ve web tabanlı uygulamalar geliştirmek için yaygın olarak kullanılan ve en uygun olan açık kaynaklı, popüler bir genel amaçlı komut dosyası dilidir. HTML'ye gömülebilen bir sunucu tarafı komut dosyası dilidir.
-Şu anda, **PHP **, yani  **PHP 5.6 ** ,  **7.0, **  ve  **8.0 **  destekli üç versiyonu vardır. Anlam  **PHP 5.3 ** ,  **5.4, **  ve  **5.5**   hepsi yaşamın sonuna ulaştı; Artık güvenlik güncellemeleri ile desteklenmiyorlar. Önce PHP 7.0 ve PHP 7.2'yi PHP-FPM ile yükleyelim.
-Aslında kurulumla hareket etmeden önce ilk önce PHP-fpm olduğunu vurgulayalım. **php-fpm  **(**  fastcgi proses yöneticisinin kısaltması** ) son derece popüler bir alternatif PHP (hipermetin işlemci) fastcgi uygulamasıdır. PHP-FPM, büyük miktarlarda trafik alan web siteleri için faydalı olabilecek çok sayıda özellik içerir.
+## Birden çok PHP sürümünü kurun {#php}
+
+ **PHP** ( **PHP: HyperText Önişlemcisi** için özyinelemeli kısaltma), web siteleri ve web tabanlı uygulamalar geliştirmek için yaygın olarak kullanılan ve en uygun olan açık kaynaklı, popüler bir genel amaçlı komut dosyası dilidir. HTML'ye gömülebilen bir sunucu tarafı komut dosyası dilidir.
+Şu anda,  **PHP** , yani  **PHP 5.6**  ,  **7.0,**  ve  **8.0**  destekli üç versiyonu vardır. Anlam  **PHP 5.3**  ,  **5.4,**  ve **5.5**  hepsi yaşamın sonuna ulaştı; Artık güvenlik güncellemeleri ile desteklenmiyorlar. Önce PHP 7.0 ve PHP 7.2'yi PHP-FPM ile yükleyelim.
+Aslında kurulumla hareket etmeden önce ilk önce PHP-fpm olduğunu vurgulayalım.  **php-fpm** ( **fastcgi proses yöneticisinin kısaltması**  ) son derece popüler bir alternatif PHP (hipermetin işlemci) fastcgi uygulamasıdır. PHP-FPM, büyük miktarlarda trafik alan web siteleri için faydalı olabilecek çok sayıda özellik içerir.
 İlk olarak PHP 7.0 ve 7.2'yi yüklemek için, PHP'nin birden fazla sürümünü yüklemek için sunucunuza PHP depo eklemeniz gerekir. Aşağıdaki komutla ondrej php depo ekleyebilirsiniz:
 ```
 sudo apt-get install software-properties-common -y
@@ -52,7 +54,8 @@ systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-## PHP ile birden çok web sitesi oluşturun   {#web}
+## PHP ile birden çok web sitesi oluşturun {#web}
+
 Varsayılan sayfa/var/www/html/konumuna yerleştirilir. Statik sayfalarınızı buraya yerleştirebilir veya sanal ana bilgisayar kullanabilir ve başka bir konumu yerleştirebilirsiniz
 ```
 mkdir /var/www/html/site1.containerize.com
@@ -104,7 +107,8 @@ chown -R www-data:www-data /var/www/html/site1.containerize.com
 chown -R www-data:www-data /var/www/html/site2.containerize.com
 ```
 
-## Nginx'i yapılandırın   {#configure}
+## Nginx'i yapılandırın {#configure}
+
 Ardından, PHP 7.0'ı kullanan alan Sitesi1.containerize.com için bir NGINX sanal ana bilgisayar dosyası oluşturmanız gerekecektir. Ve site için bir diğeri.
 ```
 vi /etc/nginx/sites-available/site1.containerize.com.conf
@@ -168,18 +172,20 @@ systemctl restart php7.0-fpm
 systemctl restart php7.2-fpm
 ```
 
-## Sonuç   {#Conclusion}
+## Çözüm {#conclusion}
+
 Bu öğreticide Ubuntu'da birden fazla PHP sürümünün nasıl yapılacağını araştırdık. Nginx'in nasıl kurulacağını öğrendik. Sonra Nginx'te iki farklı web sitesinin nasıl kurulacağını araştırdık. Ve son olarak, Nginx ile PHP'nin farklı sürümlerine sahip iki farklı web sitesinin nasıl yapılandırılacağını öğrendik. Umarım öğretici size yardımcı oldu.
 
 ## Keşfetmek
   * [Nginx'i ters proxy olarak nasıl kurar ve yapılandırır][6]
   * [Uygulamanız için Nginx nasıl yük dengeleyici olarak kullanılır][7]
 
-  
-[1]: #nginx
-[2]: #php
-[3]: #web
-[4]: #configure
-[5]: #conclusion
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+
+ [1]: #nginx
+ [2]: #php
+ [3]: #web
+ [4]: #configure
+ [5]: #conclusion
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/

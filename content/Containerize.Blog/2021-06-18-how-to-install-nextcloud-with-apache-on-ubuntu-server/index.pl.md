@@ -14,18 +14,18 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/install-nextcloud-ubuntu.png" alt="Jak zainstalować NextCloud z Apache na Ubuntn">}}
 
 
-## **Przegląd**
-**[NextCloud][1]**to bezpłatne i bezpieczne  **samoobsługowe rozwiązanie do przechowywania w chmurze**   Wpisane w języku programowania PHP. Zapewnia dostęp do danych za pomocą interfejsu internetowego i funkcjonalnie podobnego do Dropbox. Zastrzeżone rozwiązania do przechowywania w chmurze, takie jak Dropbox i Google Drive, są wygodne, ale można je wykorzystać do gromadzenia danych osobowych, ponieważ twoje pliki są przechowywane w ich systemach. Jeśli potrzebujesz bezpiecznego, bezpiecznego i zgodnego rozwiązania synchronizacji i udostępniania plików, możesz przełączyć na Open Source NextCloud Server. Konfiguracja NextCloud może być zainstalowana na prywatnych serwerach domowych lub na wirtualnym serwerze prywatnym.
-NextCloud Open Source zapewnia **END-to-end Szyfrowanie**  oznacza, że ​​pliki można szyfrować na urządzeniu klienckim przed przesłaniem do serwera. Można go również zintegrować z internetowym pakietem biurowym, takim jak Colobora, OnlyOffice NextCloud, abyś mógł tworzyć i edytować pliki DOC, PPT, XLS bezpośrednio z klienta NextCloud. Możesz udostępniać i synchronizować jeden lub więcej plików i folderów na komputerze z serwerem NextCloud po pobraniu klienta NextCloud. Pobieranie pulpitu NextCloud i klienci mobilni zapewniają opcje synchronizacji i udostępniania wszystkich urządzeń pod kontrolą. Umieść pliki danych w lokalnych katalogach udostępnionych, a pliki te są natychmiast zsynchronizowane z serwerem i innymi urządzeniami za pomocą klienta Sync NextCloud Desktop, aplikacji iOS lub urządzeń z Androidem.
+## **Przegląd** 
+**[NextCloud][1] **to bezpłatne i bezpieczne** samoobsługowe rozwiązanie do przechowywania w chmurze**Wpisane w języku programowania PHP. Zapewnia dostęp do danych za pomocą interfejsu internetowego i funkcjonalnie podobnego do Dropbox. Zastrzeżone rozwiązania do przechowywania w chmurze, takie jak Dropbox i Google Drive, są wygodne, ale można je wykorzystać do gromadzenia danych osobowych, ponieważ twoje pliki są przechowywane w ich systemach. Jeśli potrzebujesz bezpiecznego, bezpiecznego i zgodnego rozwiązania synchronizacji i udostępniania plików, możesz przełączyć na Open Source NextCloud Server. Konfiguracja NextCloud może być zainstalowana na prywatnych serwerach domowych lub na wirtualnym serwerze prywatnym.
+NextCloud Open Source zapewnia **END-to-end Szyfrowanie** oznacza, że ​​pliki można szyfrować na urządzeniu klienckim przed przesłaniem do serwera. Można go również zintegrować z internetowym pakietem biurowym, takim jak Colobora, OnlyOffice NextCloud, abyś mógł tworzyć i edytować pliki DOC, PPT, XLS bezpośrednio z klienta NextCloud. Możesz udostępniać i synchronizować jeden lub więcej plików i folderów na komputerze z serwerem NextCloud po pobraniu klienta NextCloud. Pobieranie pulpitu NextCloud i klienci mobilni zapewniają opcje synchronizacji i udostępniania wszystkich urządzeń pod kontrolą. Umieść pliki danych w lokalnych katalogach udostępnionych, a pliki te są natychmiast zsynchronizowane z serwerem i innymi urządzeniami za pomocą klienta Sync NextCloud Desktop, aplikacji iOS lub urządzeń z Androidem.
 Ten samouczek pomoże Ci zainstalować NextCloud w systemie operacyjnym Ubuntu 20.04 LTS Linux z Apache.
-  ***Zainstaluj warunki wstępne (stos lampy)** 
-  ***Pobierz archiwum NextCloud na Ubuntu** 
-  ***Utwórz bazę danych mysql** 
-  ***Uruchom instalator Web NextCloud** 
-  ***Owinięcie** 
+* **Zainstaluj warunki wstępne (stos lampy)** 
+* **Pobierz archiwum NextCloud na Ubuntu** 
+* **Utwórz bazę danych mysql** 
+* **Uruchom instalator Web NextCloud** 
+* **Owinięcie** 
 
 ## Krok 1: Zainstaluj warunki wstępne (stos lampy)
-Pierwszą rzeczą do instalacji NextCloud na Ubuntu jest to, że musisz mieć uruchamianie **serwer lamp  **w systemie Ubuntu LTS. Zaloguj się do systemu i dostęp do terminalu. Jeśli masz już uruchamianie **  Lampa Stack**  Pomiń ten krok, a następnie użyj następujących poleceń, aby zainstalować niezbędne zależności.
+Pierwszą rzeczą do instalacji NextCloud na Ubuntu jest to, że musisz mieć uruchamianie **serwer lamp**w systemie Ubuntu LTS. Zaloguj się do systemu i dostęp do terminalu. Jeśli masz już uruchamianie**Lampa Stack** Pomiń ten krok, a następnie użyj następujących poleceń, aby zainstalować niezbędne zależności.
 
 ### Zainstaluj php
 Zacznijmy od instalacji wersji PHP w wersji 5.6 lub wyższej na serwerze Ubuntu:
@@ -66,7 +66,7 @@ Po wyodrębnianiu kodu źródłowego utwórzmy bazę danych NextCloud MySQL i ko
 mysql -u root -p
 Wprowadź hasło:
 mysql> Utwórz bazę danych NextCloud;
-mysql> daj wszystko na następnycloud.* Do „NextCloud”@'localHost' zidentyfikowane przez „yasir_pa $$ w0rd_”;
+mysql> daj wszystko na następnej cloud.* Do „NextCloud”@'localHost' identyfikowany przez „yasir_pa $$ w0rd_”;
 mysql> uprawnienia spłukające;
 mysql> rezygnuj
 {{_LINE_61_}}
@@ -95,7 +95,8 @@ Po zakończeniu instalacji powinieneś zobaczyć pulpit nawigacyjny NextCloud na
 {{_LINE_77_}}
 Gratulacje, masz działające rozwiązanie w chmurze NextCloud w systemie Ubuntu LTS. Możesz teraz zacząć dostosowywać swój serwer w chmurze, aby idealnie zaspokoić Twoje potrzeby.
 
-## **Owinięcie:** {#4a1a}
+## **Podsumowanie:**  {#4a1a}
+
 Gratulacje! Z powodzeniem **skonfigurowałeś i zainstalowałeś NextCloud na serwerze Ubuntu z Apache** . Nauczyłeś się tworzyć prywatną chmurę. NextCloud Ubuntu Server to niesamowita platforma współpracy w chmurze, która może zaspokoić praktycznie prywatne lub hybrydowe potrzeby przechowywania chmury. Teraz wiesz, jak zainstalować NextCloud na Ubuntu, a Twoje dane są bezpieczne w chmurze hostowanej. W naszych nadchodzących samouczkach omówimy bardziej interesujące tematy związane ze stosami rozwiązań serwera WWW.
 _ Wolisz oparte na chmurze rozwiązanie pamięci masowej?. Jeśli masz jakieś pytania, skontaktuj się [3] ._
 
@@ -104,11 +105,12 @@ Możesz polubić następujące artykuły dotyczące codziennego zarządzania ser
   * [Jak zainstalować i skonfigurować OwnCloud z Apache na Ubuntu][4]
   * [Jak skonfigurować Apache jako odwrotną proxy dla Ubuntu lub Debian][5]
   * [Zainstaluj i zabezpiecz phpMyAdmin z Nginx na Ubuntu][6]
-  * [Zabezpiecz i szyfruj Nginx za pomocą Let's Encrypt on Ubuntu 20.04][7]
+  * [Zabezpiecz i szyfruj Nginx z Let's Encrypt on Ubuntu 20.04][7]
   * [Konfiguruj obsługę HTTP/2 w Nginx na Ubuntu/Debian][8]
   * [Ustaw nginx z pasażerem na serwerze produkcyjnym AWS][9]
 
-  
+
+
 [1]: https://nextcloud.com/
 [2]: https://nextcloud.com/install/
 [3]: mailto:yasir.saeed@aspose.com

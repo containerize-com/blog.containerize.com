@@ -9,7 +9,7 @@ url: /ru/how-to-install-multiple-php-versions-with-nginx-on-ubuntu/
 categories: ['Web Server Solution Stack']
 ---
 
-{{< figure align=center src="images/php-with-nginx-multiple-versions.png" alt="PHP с NGINX Multy PHP -версиями">}}
+{{< figure align=center src="images/php-with-nginx-multiple-versions.png" alt="PHP с NGINX множество версий PHP">}}
 
 
 ## Если вы хотите использовать несколько версий PHP с nginx, то в этой статье мы направим вас пошаговым по шагам о том, как установить PHP с Nginx на Ubuntu.
@@ -20,7 +20,8 @@ categories: ['Web Server Solution Stack']
   * [Настроить Nginx для запуска разных версий для веб -сайтов][4]
   * [Заключение][5]
 
-## установить nginx   {#nginx}
+## Установите Nginx {#nginx}
+
 Nginx (произносится как «Engine-X»)-это веб-сервер с открытым исходным кодом, который часто используется в качестве обратного прокси или кэша HTTP. Он доступен для Linux бесплатно.
 Чтобы установить Nginx, используйте следующую команду:
 ```
@@ -32,10 +33,11 @@ sudo apt install nginx
 {{< figure align=center src="images/php-with-nginx-install.png" alt="Установите PHP с nginx">}}
 
 
-## Установить несколько версий PHP   {#PHP}
-**PHP  **(рекурсивная аббревиатура для **  PHP: гипертекстовый препроцессор** )-это популярный язык сценариев с открытым исходным кодом, который широко используется и лучше всего подходит для разработки веб-сайтов и веб-приложений. Это язык сценариев на стороне сервера, который может быть встроен в HTML.
-В настоящее время существует три поддерживаемые версии **Php **, то есть  **Php 5,6 ** ,  **7.0, **  и  **8.0 ** . Значение  **Php 5.3 ** ,  **5.4, **  и  **5.5**   все достигли конца жизни; Они больше не поддерживаются обновлениями безопасности. Итак, давайте сначала установим PHP 7.0 и PHP 7.2 с PHP-FPM.
-На самом деле перед тем, как мы перейдем к установке, давайте сначала не подчиняются тому, что является PHP-FPM. **PHP-FPM  **(аббревиатура **  FASTCGI Process Manager** ) является чрезвычайно популярной альтернативной реализацией FASTCGI. PHP-FPM включает в себя множество функций, которые могут оказаться полезными для веб-сайтов, получающих трафик в больших объемах.
+## Установите несколько версий PHP {#php}
+
+ **PHP** (рекурсивная аббревиатура для **PHP: гипертекстовый препроцессор** )-это популярный язык сценариев с открытым исходным кодом, который широко используется и лучше всего подходит для разработки веб-сайтов и веб-приложений. Это язык сценариев на стороне сервера, который может быть встроен в HTML.
+В настоящее время существует три поддерживаемые версии  **Php** , то есть  **Php 5,6**  ,  **7.0,**  и  **8.0**  . Значение  **Php 5.3**  ,  **5.4,**  и **5.5**  все достигли конца жизни; Они больше не поддерживаются обновлениями безопасности. Итак, давайте сначала установим PHP 7.0 и PHP 7.2 с PHP-FPM.
+На самом деле перед тем, как мы перейдем к установке, давайте сначала не подчиняются тому, что является PHP-FPM.  **PHP-FPM** (аббревиатура **FASTCGI Process Manager**  ) является чрезвычайно популярной альтернативной реализацией FASTCGI. PHP-FPM включает в себя множество функций, которые могут оказаться полезными для веб-сайтов, получающих трафик в больших объемах.
 Сначала для установки PHP 7.0 и 7.2 вам необходимо добавить репозиторий PHP на ваш сервер для установки нескольких версий PHP. Вы можете добавить репозиторий PHP Ondrej со следующей командой:
 ```
 sudo apt-get install software-properties-common -y
@@ -46,13 +48,14 @@ sudo apt-get update -y
 ```
 apt-get install php7.0 php7.0-fpm php7.2 php7.2-fpm -y
 ```
-Как только установка будет завершена, проверьте состояние PHP-FPM со следующей командой:
+После завершения установки проверьте состояние PHP-FPM со следующей командой:
 ```
 systemctl status php7.0-fpm
 systemctl status php7.2-fpm
 ```
 
-## Создать несколько веб -сайтов с php   {#web}
+## Создайте несколько веб -сайтов с PHP {#web}
+
 Страница по умолчанию размещена в/var/www/html/dociation. Вы можете разместить здесь свои статические страницы или использовать виртуальный хост и поместить его в другое место
 ```
 mkdir /var/www/html/site1.containerize.com
@@ -104,7 +107,8 @@ chown -R www-data:www-data /var/www/html/site1.containerize.com
 chown -R www-data:www-data /var/www/html/site2.containerize.com
 ```
 
-## configure nginx   {#configure}
+## Настройка nginx {#configure}
+
 Затем вам нужно будет создать файл виртуального хоста Nginx для домена Site1.containerize.com, который использует PHP 7.0. И другой для сайта2.containerize.com, который использует PHP 7.2.
 ```
 vi /etc/nginx/sites-available/site1.containerize.com.conf
@@ -168,18 +172,20 @@ systemctl restart php7.0-fpm
 systemctl restart php7.2-fpm
 ```
 
-## Заключение   {#conclusion}
+## Заключение {#conclusion}
+
 В этом уроке мы исследовали, как несколько версий PHP на Ubuntu. Мы научились установить Nginx. Затем мы исследовали, как настроить два разных веб -сайта в Nginx. И, наконец, мы узнали, как настроить два разных веб -сайта с разными версиями PHP с Nginx. Надеюсь, учебник помог вам.
 
 ## Исследовать
-  * [Как настроить и настроить Nginx как обратный прокси][6]
+  * [Как настроить и настроить nginx как обратный прокси][6]
   * [Как использовать Nginx в качестве балансировщика нагрузки для вашего приложения][7]
 
-  
-[1]: #nginx
-[2]: #php
-[3]: #web
-[4]: #configure
-[5]: #conclusion
-[6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
-[7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/
+
+
+ [1]: #nginx
+ [2]: #php
+ [3]: #web
+ [4]: #configure
+ [5]: #conclusion
+ [6]: https://blog.containerize.com/web-server-solution-stack/how-to-setup-and-configure-nginx-as-reverse-proxy/
+ [7]: https://blog.containerize.com/web-server-solution-stack/how-to-use-nginx-as-load-balancer-for-your-application/

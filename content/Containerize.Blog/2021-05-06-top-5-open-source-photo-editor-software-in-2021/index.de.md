@@ -9,7 +9,7 @@ url: /de/photo-editing-software/top-5-open-source-photo-editor-software-in-2021/
 categories: ['Photo Editing Software']
 ---
 
-## Photo Editoren sind die erweiterten Bildbearbeitungswerkzeuge, die den ausgeklügelten Algorithmen folgen, um vorhandene Bilder in brandneue Fotos zu bearbeiten und zu manipulieren.
+## Photo Editoren sind die erweiterten Bildbearbeitungswerkzeuge, die den hoch entwickelten Algorithmen folgen, um vorhandene Bilder in brandneue Fotos zu bearbeiten und zu manipulieren.
 
 {{< figure align=center src="images/Top-5-Open-Source-Photo-Editing-Software-In-2021.png" alt="Top 5 Open Source Photo Editor -Software in 2021">}}
 
@@ -35,7 +35,7 @@ GIMP ist eine der besten kostenlosen Software zur Bildbearbeitung. Es verfügt �
   * Fassverzerrung
   * Die Farbsättigung, Helligkeit, Kontrast und mehr leicht zu korrigieren
   * Bilder digital retuschieren, indem unnötige Details entfernt werden
-  * Bietet parametrische Pinsel zum digitalen Malmalerei Bilder
+  * Bietet parametrische Pinsel zum digital malen Bildern
   * Ermöglicht die Verwendung von Plugins von Drittanbietern
 [Lesen Sie mehr][7]
 
@@ -43,7 +43,7 @@ GIMP ist eine der besten kostenlosen Software zur Bildbearbeitung. Es verfügt �
 Mit Photivo können Sie den Image -Editor verwenden, um nicht nur Rohdateien, sondern auch Bitmap -Dateien wie JPEG, PNG, TIFF, BMP und viele mehr zu verarbeiten. Es verwendet viele Algorithmen, die bereits verfügbar sind, um den lokalen Kontrast zu ändern, Bilder zu schärfen, Filter anzuwenden und vieles mehr. Photivo ist mit mehreren Betriebssystemen kompatibel und ermöglicht auch die GIMP -Integration. Hier sind einige herausragende Merkmale von Photivo:
   * Korrigiert die chromatische Aberration
   * Korrigiert schlechte Pixelreduzierung
-  * Korrigiert die Zeile -Denoise
+  * Korrigiert die Zeilen -Denoise
   * Einen Spielzeugeffekt leicht zu neigen, zu verschieben oder anzuwenden
   * Filmkornsimulation anwenden, adaptive Sättigung
   * In mehreren Sprachen verfügbar
@@ -79,7 +79,8 @@ Egal, ob Sie nur mit Ihrem Smartphone oder einem professionellen Fotografen foto
   * [Digikam][9]
   * [Rawtherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

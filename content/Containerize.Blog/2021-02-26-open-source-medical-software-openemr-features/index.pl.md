@@ -4,7 +4,7 @@ seoTitle: "Oprogramowanie medyczne typu open source | Funkcje OpenEMR"
 description: "OpenEMR to oprogramowanie medyczne z open source do zarządzania praktykami medycznymi i zasobami. Przejrzyj ten post na blogu, aby dowiedzieć się o jego ważnych funkcjach." 
 date: Fri, 26 Feb 2021 09:22:16 +0000
 author: muhammadmustafa
-summary: "Certyfikowane przez ONC crossplatform Free Medical Health Solution. Automatyzuje kilka zadań, takich jak wizyty pacjentów, zapisy pacjentów, faktury i wiele więcej." 
+summary: "Certyfikowane przez ONC cross-platform Free Medical Health Solution. Automatyzuje kilka zadań, takich jak wizyty pacjentów, zapisy pacjentów, faktury i wiele więcej." 
 url: /pl/open-source-medical-software-openemr-features/
 categories: ['Healthcare Software']
 ---
@@ -15,18 +15,20 @@ categories: ['Healthcare Software']
 
 
 ## Przegląd
-W ostatnim czasie opublikowaliśmy posty na blogu na temat [How Online Healthcare Software upoważnia branżę opieki zdrowotnej][1] oraz artykuł samouczka [Jak skonfigurować EHealth System HospitalRun na LocalHost][2]. W tym artykule przejdziemy obiecujące funkcje oferowane przez  **Medical Health Solution**  OpenEMR. W obecnym momencie każdy sektor biznesowy jest digitalizowany. Ogromne maszyny i oprogramowanie zastępują siłę roboczą ze względu na pewne cechy. Dlatego dziedzina medyczna i opieki zdrowotnej jest w dużej mierze zrewolucjonizowana przez Internet przedmiotów. Istnieją złożone zasoby cyfrowe, które są ze sobą powiązane poprzez złożone sieci i oprogramowanie. Termin EHealth staje się popularny, w którym lekarze w pełni wykorzystują oprogramowanie i komunikację opieki zdrowotnej.
+W ostatnim czasie opublikowaliśmy posty na blogu na temat [How Online Healthcare Software upoważnia branżę opieki zdrowotnej][1] oraz artykuł samouczka [Jak skonfigurować EHealth System HospitalRun na LocalHost][2]. W tym artykule przejdziemy obiecujące funkcje oferowane przez **Medical Health Solution** OpenEMR. W obecnym momencie każdy sektor biznesowy jest digitalizowany. Ogromne maszyny i oprogramowanie zastępują siłę roboczą ze względu na pewne cechy. Dlatego dziedzina medyczna i opieki zdrowotnej jest w dużej mierze zrewolucjonizowana przez Internet przedmiotów. Istnieją złożone zasoby cyfrowe, które są ze sobą powiązane poprzez złożone sieci i oprogramowanie. Termin EHealth staje się popularny, w którym lekarze w pełni wykorzystują oprogramowanie i komunikację opieki zdrowotnej.
 Istnieje wiele oprogramowania medycznego open source, które zapewnia wydajność, lepszą jakość i bezpieczeństwo. Cyfrowe usługi opieki zdrowotnej zmniejszyły różne koszty, takie jak koszty podróży, koszty papieru i koszty człowieka. Jednak omówimy następujące punkty.
-  *[ **What Is OpenEMr** ][3]
-  *[ **OpenEMR cechy** ][4]
-  *[ **Wniosek** ][5]
+* [ **What Is OpenEMr** ][3]
+* [ **OpenEMR cechy** ][4]
+* [ **Wniosek** ][5]
 
-## Co to jest OpenEMr   {#intro}
+## Co to jest OpenEMr {#intro}
+
 [OpenEMR][6] to wielojęzyczne rozwiązanie opieki medycznej open source. Oferuje bezpieczeństwo danych za pomocą technik szyfrowania. To bezpłatne rozwiązanie opieki zdrowotnej ułatwia użytkownikom zarządzanie dokumentacją medyczną pacjentów i zapasami medycyny. Ponadto istnieje wiele funkcji, takich jak planowanie wizyt pacjentów, przypomnienia i integracja laboratorium. Jednak to oprogramowanie medyczne typu open source ma bardzo potężny zintegrowany moduł rozliczeniowy do zarządzania transakcjami finansowymi i fakturami. OPENEMR jest wielojęzyczny i zapewnia obsługę prawie 100 języków.
 To internetowe oprogramowanie do rozliczeń medycznych jest samowystarczalne i zapewnia logiczny, przyjazny dla użytkownika interfejs. Ponadto e-odpryka jest bardzo potężnym modułem tego bezpłatnego narzędzia. Przede wszystkim istnieją bogate możliwości wyszukiwania, w których administratorzy oprogramowania medycznego mogą przeprowadzać wyszukiwania w modułach podstawowych. Jest wysoce rozszerzalny i oferuje obsługę integracji aplikacji innych firm. OpenEMR jest napisane w PHP i jest w pełni udokumentowane w zakresie rozwoju i wdrażania. Ponadto to rozwiązanie zdrowia medycznego jest łatwe do skonfigurowania i wymaga prostych wymagań, takich jak Apache, PHP i MySQL.
 
-## OpenEMR Funkcje   {#Features}
-W tej sekcji zbadamy niektóre z głównych modułów oferowanych przez to  **niestandardowe oprogramowanie do opieki zdrowotnej** .
+## Funkcje OpenEMR {#features}
+
+W tej sekcji zbadamy niektóre z głównych modułów oferowanych przez to **niestandardowe oprogramowanie do opieki zdrowotnej** .
 Możesz samodzielnie doświadczyć OpenEMR, klikając ten [link][7]. Po otwarciu tego linku wylądujesz na stronie logowania. Możesz użyć następujących poświadczeń, aby zalogować się jako administrator.
 Nazwa użytkownika: admin
 Hasło: Pass
@@ -52,7 +54,8 @@ Użytkownicy mogą zobaczyć i przeszukiwać raporty pacjentów z interfejsu uż
 
 Podobnie w tym systemie zarządzania szpitalem dostępnych jest wiele bogatych funkcji. Ponadto istnieje moduł do zarządzania odpowiednimi dokumentami, podobnie jak baza wiedzy, a także postanowienie książki adresowej, która służy do utrzymania adresów podmiotów. Ponadto możesz mieć dokładną recenzję, a następnie hostować ją na własnych serwerach.
 
-## Wniosek   {#Conclusion}
+## Wniosek {#Wniosek}
+
 Ostatecznie możemy bezpiecznie powiedzieć, że to rozwiązanie zdrowia medycznego jest naprawdę rozwiązaniem opieki zdrowotnej na poziomie przedsiębiorstwa w celu zarządzania codziennymi praktykami medycznymi. Istnieje wiele oprogramowania medycznego open source, które oferuje obiecujące funkcje zaspokojenia potrzeb biznesowych i społeczności. OpenEMR wydaje się zaspokoić podstawowe i podstawowe potrzeby branży opieki zdrowotnej, a co ważniejsze, jest bezpłatne i łatwe do rozszerzenia. Dlatego społeczność open source aktywnie pracuje nad ulepszeniem istniejącego oprogramowania w celu świadczenia usług opieki zdrowotnej. Ten post na blogu naprawdę pomoże ci, jeśli chcesz zdecydować się na eHealth. Ponadto możesz zobaczyć oprogramowanie medyczne open source zaciągnięte w sekcji Explore poniżej. Wreszcie [Containerize.com][8] jest w spójnym procesie pisania postów na blogu na temat dalszych najnowszych produktów typu open source. Dlatego pozostań w kontakcie z tą kategorią [Technologie opieki zdrowotnej][9] w celu uzyskania najnowszych aktualizacji.
 
 ## Badać
@@ -63,13 +66,14 @@ Możesz znaleźć istotne następujące linki:
   * [Open Hospital][13]
   * [Solumsed][14]
   * [Rzeczy do przejrzenia przed wyborem oprogramowania open source w 2021 r.][15]
-  * [Zawiera eksplorację menedżera menedżera HospitalRun][16]
+  * [Funkcje eksploracji menedżera menedżera HospitalRun][16]
   * [Top 5 Open Source Patient Record Software][17]
   * [Technologia w opiece zdrowotnej | Wpływ na przemysł opieki zdrowotnej][18]
   * [Jak skonfigurować EHealth System HospitalRun na LocalHost][2]
   * [[Zautomatyzuj operacje biznesowe za pomocą oprogramowania bezpłatnego i open source][19]][20]
 
-  
+
+
 [1]: https://blog.containerize.com/2021/02/12/how-online-healthcare-software-empowers-healthcare-industry/
 [2]: https://blog.containerize.com/healthcare-software/how-to-install-hospitalrun-hospital-management-system/
 [3]: #intro

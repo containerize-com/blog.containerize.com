@@ -79,7 +79,8 @@ Cho dù bạn chỉ chụp với điện thoại thông minh của mình hay b�
   * [Digikam][9]
   * [Rawtherapee][10]
 
-  
+
+
 [1]: #darktable
 [2]: #gimp
 [3]: #photivo

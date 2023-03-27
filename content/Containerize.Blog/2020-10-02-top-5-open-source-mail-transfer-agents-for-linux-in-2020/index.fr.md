@@ -22,7 +22,9 @@ Voici une liste des 5 meilleurs agents de transfert de courrier open source que 
   * [Postfix][5]
   * [Exim][6]
 
+
 ### **Postal** {#postal}
+
 Postal est une alternative complète sur prémisse à SendGrid et Mailgun. Il est livré avec une simple API HTTP pour une intégration facile avec les applications Web. Postal est 100% gratuit et open source, vous pouvez télécharger le code source le modifier selon vos exigences.
 Ses caractéristiques notables entre autres sont les suivantes:
   * Prise en charge de plusieurs organisations avec des serveurs et des utilisateurs de messagerie à l'intérieur.
@@ -32,7 +34,9 @@ Ses caractéristiques notables entre autres sont les suivantes:
   * Vérification et surveillance DNS intégrées pour garantir que les domaines dont vous envoyez le courrier sont configurés correctement pour une délivrabilité maximale.
     [Lire la suite][7]
 
+
 ### **seiche** {#cuttlefish}
+
 Slectlefish est un logiciel de livraison de courrier auto-hébergé et est largement utilisé pour envoyer facilement de grands volumes d'e-mails. Il prend en charge le protocole SMTP. Par conséquent, vous permet d'envoyer des e-mails de votre demande sans effort. Slectlefish utilise Postfix pour la livraison par e-mail qui est l'un des agents de transfert de courrier open source les plus populaires et les plus fiables. Par conséquent, il a toute la fiabilité de la post-fixe.
 Voici les caractéristiques notables:
   * Assure que vos e-mails arrivent à leurs destinations.
@@ -42,7 +46,9 @@ Voici les caractéristiques notables:
   * Fonctionne avec n'importe quel cadre Web et langue
     [Lire la suite][8]
 
-### **MAIL-IN-BOX** {#Mail-in-A-Box}
+
+### **MAIL-IN-BOX** {#mail-in-a-box}
+
 Mail-in-A-Box est un serveur de messagerie Linux innovant qui se concentre sur un déploiement facile. Il fournit un serveur Webmail et IMAP / SMTP pratique avec des configurations DNS automatiques. Il vous aide à configurer votre propre Gmail sans aucune expertise technique. Ses principales fonctionnalités incluent:
   * Configuration DNS automatique
   * Filtrage de spam.
@@ -52,7 +58,9 @@ Mail-in-A-Box est un serveur de messagerie Linux innovant qui se concentre sur u
   * Hôtez le courrier pour plusieurs utilisateurs et plusieurs noms de domaine.
     [Lire la suite][9]
 
-### **PostFix** {#postfix}
+
+### **Postfix** {#postfix}
+
 Postfix est un puissant serveur de messagerie open source qui peut être utilisé pour le routage et la livraison des e-mails. Cependant, il a été initialement développé pour remplacer l'agent de transfert de courrier populaire Sendmail. Même s'il suit beaucoup Sendmail. Mais, dans la mise en œuvre, il est assez distinct et unique. Il offre de nombreuses fonctionnalités, notamment
   * Contrôle du courrier indésirable
   * Prend en charge plusieurs protocoles
@@ -61,7 +69,9 @@ Postfix est un puissant serveur de messagerie open source qui peut être utilis�
   * Adressez le support de manipulation et bien d'autres
     [Lire la suite][10]
 
+
 ### **exim** {#exim}
+
 EXIM est un serveur de messagerie complet utilisé sur de nombreux systèmes d'exploitation de type UNIX. Il offre une prise en charge croisée, ce qui en fait un bon choix pour les serveurs de messagerie. EXIM est un serveur hautement personnalisable pour le routage et la livraison des e-mails. EXIM est comme un framework avec son langage d'application pour configurer des configurations complexes. Il a une logique avancée de traitement du courrier en plusieurs étapes qui l'aide à résoudre des cas d'utilisation complexes. Voici les principales fonctionnalités d'Exim:
   * Prend en charge des protocoles tels que RFC 2821 SMTP et RFC 2033 LMTP Transport du message e-mail
   * Les configurations incluent les listes de contrôle d'accès, la numérisation de contenu, le chiffrement, les contrôles de routage entre autres
@@ -72,7 +82,8 @@ EXIM est un serveur de messagerie complet utilisé sur de nombreux systèmes d'e
 ### Conclusion
 Dans cet article, vous avez examiné le meilleur agent de transfert de courrier open source. Premièrement, nous avons répertorié les principaux points forts de chaque MTA répertorié. Après cela, nous avons expliqué comment ces fonctionnalités les rendent uniques. En conclusion, si vous recherchez une solution rapide et facile sans configurations complexes, les postes, la seiche et le courrier-a-box sont vos choix. Cependant, si vous recherchez un contrôle plus avancé via des configurations, vous pouvez choisir EXIM ou Postfix.
 
-  
+
+
 [1]: https://products.containerize.com/transactional-email
 [2]: #postal
 [3]: #cuttlefish

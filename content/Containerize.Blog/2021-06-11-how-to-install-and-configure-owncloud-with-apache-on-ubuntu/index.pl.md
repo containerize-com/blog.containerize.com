@@ -14,7 +14,7 @@ categories: ['Backup and Sync Software', 'Web Server Solution Stack']
 {{< figure align=center src="images/Install-and-Configure-ownCloud-with-Apache-on-Ubuntu.png" alt="">}}
 
 
-## **Przegląd**
+## **Przegląd** 
 OwnCloud jest bezpłatny i popularny solidna aplikacja internetowa przedsiębiorstwa typu open source napisana w PHP, która jest używana do synchronizacji danych i udostępniania plików. Umożliwia także łatwe zarządzanie plikami danych, kontaktami, kalendarzami, do robienia list i wielu innych. Jest to świetna alternatywa dla najpopularniejszych platform chmurowych, takich jak Dysk Google, Dropbox, iCloud i inne usługi przechowywania w chmurze. Ale w przeciwieństwie do innych usług pamięci masowej w chmurze, własny hosted jest bezpłatny do tworzenia własnej chmury hosta.
 OwnCloud to oprogramowanie do chmury prywatnej open source, które zapewnia dostęp do danych za pomocą interfejsu internetowego do tworzenia chmury prywatnej. Umożliwia tworzenie własnego serwera udostępniania plików, na którym można łatwo przeglądać i synchronizować zdarzenia kalendarzowe, archiwa, zdjęcia, nagrywania, zadania, książki adresowe z zakładkami, podobne do Dropbox i Google Drive. Zapewnia również opcje synchronizacji i udostępniania danych na wszystkich urządzeniach pod kontrolą. Zainstaluj i skonfiguruj własne, obsługuje Twoje dane synchronizowane dla klientów komputerowych, a także urządzeń aplikacji mobilnych. Ponadto możesz łatwo zaimplementować ograniczenia dostępu użytkowników i grupy na plikach na użytkownika za pomocą OwnCloud na Ubuntu. OwnCloud Open Source Personal Server Storage Server to aplikacja między platformami i może być instalowana we wszystkich popularnych systemach operacyjnych.
 Ten samouczek pomoże Ci skonfigurować OwnCloud i skonfigurować OwnCloud w systemach Ubuntu LTS.
@@ -26,14 +26,14 @@ Ten samouczek pomoże Ci skonfigurować OwnCloud i skonfigurować OwnCloud w sys
   * Wniosek
 
 ## Krok 1: Zainstaluj serwer LAMP
-Aby skonfigurować własny serwer chmurowy i sposób utworzenia prywatnej chmury, najpierw musimy skonfigurować działający serwer lamp. Jeśli już zainstalowałeś i działając stosowanie lampy, pomiń ten krok, a następnie użyj poleceń obserwujących, aby skonfigurować lampę w systemie Ubuntu.
+Aby skonfigurować własny serwer chmurowy i sposób utworzenia chmury prywatnej, najpierw musimy skonfigurować działający serwer lamp. Jeśli już zainstalowałeś i działając stosowanie lampy, pomiń ten krok, a następnie użyj poleceń obserwujących, aby skonfigurować lampę w systemie Ubuntu.
 
 ### Zainstaluj php
 Możesz zainstalować wersję PHP 5.6 lub wyższą w systemie Ubuntu lub Debian, uruchamiając polecenia:
 sudo apt-get instaluj Python-Sofware-Properties
 sudo add-apt-repozytory PPA: ondrej/php
 Aktualizacja sudo apt-get
-sudo apt -get aktualia -y -y
+sudo apt -get aktualiza
 sudo apt-get instaluj -y php php-gd php-curl php-zip php-akt php-xml php-simplexml php-mbstring
 {{_LINE_31_}}
 
@@ -83,10 +83,10 @@ Powinieneś zobaczyć stronę logowania własnego źródła. Wprowadź nowe poś
 {{< figure align=center src="images/owncloud-setup-1.png" alt="Zainstaluj własny CLOUD z Apache na Ubuntu">}}
 
 {{_LINE_71_}}
-Teraz zsuń swoją stronę. W poniższym formularzu należy wprowadzić nazwę użytkownika i hasło do najlepszego panelu Personal Personal Personal Server Server. Podaj także bazę danych wraz z nazwą użytkownika i hasłem, aby połączyć własny serwer z serwerem bazy danych, lokalizację folderu danych i kliknij **Konfiguracja zakończ** .
+Teraz zsuń swoją stronę. W poniższym formularzu należy wprowadzić nazwę użytkownika i hasło do najlepszego panelu Personal Personal Personal Server Server. Podaj także bazę danych wraz z nazwą użytkownika i hasłem, aby połączyć własny serwer z serwerem bazy danych, lokalizację folderu danych i kliknij **Zakończ konfigurację** .
 {{_LINE_73_}}
 
-{{< figure align=center src="images/owncloud-setup-2.png" alt="Skonfiguruj OwnCloud na Ubuntu">}}
+{{< figure align=center src="images/owncloud-setup-2.png" alt="Skonfiguruj własne CLOUD NA UBUNTU">}}
 
 {{_LINE_75_}}
 Po zakończeniu konfiguracji otrzymasz deskę rozdzielczą administratora. Gdzie możesz tworzyć użytkowników, grupy i przypisać im uprawnienia itp.
@@ -98,14 +98,16 @@ Po zakończeniu konfiguracji otrzymasz deskę rozdzielczą administratora. Gdzie
 Tak! Skończyliśmy z podręcznikiem instalacji własnej, aby budować osobistą pamięć w chmurze. Teraz wiesz, jak całkowicie zainstalować OwnCloud na Ubuntu do budowy chmury prywatnej krok po kroku podobnie jak Dropbox lub Drive Google.
 
 ## **Jakie są najlepsze alternatywy dla OwnCloud?** {#4a1a}
-Poniżej przedstawiono własne oprogramowanie do hostingu plików własnych i konkurentów.
-  ***Seafile**  to system oprogramowania hostingowego plików typu open source
-  ***NextCloud**  jest bezpłatny i platforma pamięci masowej w chmurze typu open source
-  ***Resilio Sync**  to aplikacja do synchronizacji plików open source
-  ***Komórki Pydio**  to oprogramowanie do udostępniania i synchronizacji plików typu open source
-  ***Syncing**  jest bezpłatny i aplikacja synchronizacji plików peer-to-peer typu open source
 
-## **Wniosek:** {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+Poniżej przedstawiono własne oprogramowanie do hostingu plików własnych i konkurentów.
+* **Seafile** to system oprogramowania hostingowego plików typu open source
+* **NextCloud** jest bezpłatny i platforma pamięci masowej w chmurze typu open source
+* **Resilio Sync** to aplikacja do synchronizacji plików open source
+* **Komórki Pydio** to oprogramowanie do udostępniania i synchronizacji plików typu open source
+* **Syncing** jest bezpłatny i aplikacja synchronizacji plików peer-to-peer typu open source
+
+## **Wniosek:**  {#block-dd1258f4-e0c5-4ac9-be18-7dd2a700f09e}
+
 Gratulacje! Z powodzeniem zainstalowałeś i skonfigurowałeś OwnCloud, aby budować własną prywatną chmurę z Apache na komputerze Ubuntu. Teraz Twoje dane nigdy nie są w rękach stron trzecich i mogą być zarządzane prywatnie w wirtualnej prywatnej chmurze własnej pamięci serwera Ubuntu Ubuntu. Wiele firm decyduje się na tworzenie własnych serwerów z dużą ilością istotnych informacji ze względu na wiele problemów z prywatnością danych. W naszych nadchodzących samouczkach omówimy bardziej interesujące tematy stosów rozwiązań serwera WWW.
 _Your może dołączyć do nas na [Twitter][2], [LinkedIn][3] i naszą stronę [Facebook][4]. Jakiego rozwiązania do przechowywania w chmurze używasz online? Jeśli masz jakieś pytania, proszę [skontaktuj się][5].
 
@@ -113,11 +115,12 @@ _Your może dołączyć do nas na [Twitter][2], [LinkedIn][3] i naszą stronę [
 Mamy również kilka innych artykułów dotyczących codziennego zarządzania twoim serwerem.
   * [Jak skonfigurować Apache jako odwrotną proxy dla Ubuntu/Debian][6]
   * [Jak zainstalować i zabezpieczyć phpMyAdmin z Nginx na Ubuntu][7]
-  * [Zabezpiecz i szyfruj Nginx za pomocą Let's Encrypt on Ubuntu 20.04][8]
-  * [Konfiguruj obsługę HTTP/2 w Nginx na Ubuntu/Debian][9]
+  * [Zabezpiecz i szyfruj Nginx z Let's Encrypt on Ubuntu 20.04][8]
+  * [Skonfiguruj obsługę HTTP/2 w Nginx na Ubuntu/Debian][9]
   * [Ustaw nginx z pasażerem na serwerze produkcyjnym AWS][10]
 
-  
+
+
 [1]: https://owncloud.org/install/
 [2]: https://twitter.com/containerize_co
 [3]: https://www.linkedin.com/company/containerize/

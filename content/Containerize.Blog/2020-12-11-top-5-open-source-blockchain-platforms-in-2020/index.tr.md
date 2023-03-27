@@ -16,14 +16,15 @@ categories: ['Blockchain Platforms']
 
 ## Genel Bakış
 Kısa süre önce [Blockchain Technology For Business][1] hakkında blog yayınları ve [temel akıllı sözleşme][2] oluşturma hakkında bir öğretici makale yayınladık. Ancak, 2020'nin aşağıdaki popüler blockchain platformlarının bir listesini derledik.
-  ***[Ethereum][3]** 
-  ***[Hypeledger kumaş][4]** 
-  ***[Openchain][5]** 
-  ***[MultiCain][6]** 
-  ***[Ripple][7]** 
-  ***[Sonuç][8]** 
+*  **[Ethereum][3]**  
+*  **[Hypeledger kumaş][4]**  
+*  **[Openchain][5]**  
+*  **[MultiCain][6]**  
+*  **[Ripple][7]**  
+*  **[Sonuç][8]**  
 
-## Ethereum   {#ether}
+## Eti {#ether}
+
 [Ethereum][9] önde gelen açık kaynaklı blockchain tabanlı bir platformdur. Dijital varlıkları yönetmek, akıllı sözleşmeler yazmak ve merkezi olmayan uygulamalar oluşturmak için eksiksiz bir çerçeve sağlar. Bu yazılım, İş Kanıtı (POW) adlı bir konsensüs algoritması kullanır. Ether adı verilen kendi kripto para birimini destekler. Ayrıca, Ethereum'un Ethereum Sanal Makinesi, Akıllı Sözleşmeler, Ethereum düğümleri, Ethereum istemci API'leri ve son kullanıcı uygulamaları beş ana bileşeni vardır. Go dilinde yazılmıştır ve tüm kaynak kodu [GitHub][10] 'da mevcuttur.
 Aşağıda öne çıkan özellikler:
   * Kriptografi ile güvenli
@@ -33,7 +34,8 @@ Aşağıda öne çıkan özellikler:
   * Çok katmanlı mimari
 [Devamını oku][11]
 
-## Hypeledger kumaş   {#hyper}
+## Hipelli kumaş {#hyper}
+
 [Hyperledger kumaş][12], modüler bir mimari üzerine inşa edilmiş açık kaynaklı izinli bir blockchain'dir. Bununla birlikte, kullanıcılara kullanım durumuna bağlı olarak herhangi bir konsensüs protokolünü kullanmaları için hüküm verir. Ayrıca, bu yazılım ölçeklenebilir, sağlam ve verimlidir. LDAP, OpenID Connect ve Cryptografik Kütüphaneler gibi üçüncü taraf yazılımlarla entegrasyon sağlar. Ayrıca Go dilinde yazılmıştır ve kaynak kodu [GitHub][13] 'te mevcuttur.
 Hyperledger kumaş aşağıdaki temel özelliklere sahiptir:
   * EVM ve sağlamlık desteği
@@ -43,7 +45,8 @@ Hyperledger kumaş aşağıdaki temel özelliklere sahiptir:
   * Sorgulanabilir veriler
 [Devamını oku][14]
 
-## openchain   {#open}
+## Açık zincir {#open}
+
 [Openchain][15] nispeten yeni bir blockchain teknolojisidir ve istemci sunucusu mimarisine dayanmaktadır. Ayrıca, herkes bu açık kaynak yazılımının bir örneğini ayarlayabilir ve her örnek için işlemleri doğrulayan bir yönetici vardır. Ek olarak, Openchain'de desteklenen bir madencilik mekanizması yoktur. Her şeyden önce, bu platformda yerleşim konsensüs algoritması kullanılmaktadır. C# dilinde yazılmıştır ve kaynak kodu [GitHub][16] 'da mevcuttur.
 Openchain aşağıdaki önemli özellikleri sunar:
   * Kuralları tanımlamak için hüküm
@@ -63,7 +66,8 @@ MultiChain aşağıdaki temel özelliklerle birlikte gelir:
   * Gerçek zamanlı veri beslemeleri
 [Devamını oku][18]
 
-## Ripple   {#ripple}
+## Dalgalanma {#Dalgalanma}
+
 [Ripple][20] gelişmiş özelliklere sahip kurumsal düzey açık kaynak blockchain platformudur. Bu nedenle, dijital varlıkların güvenli işlemlerini destekleyen merkezi olmayan bir altyapıya dayanmaktadır. Her şeyden önce, bir ödeme işi kurmak için yeterli olan çok çeşitli özelliklere sahiptir. Dahası, merkezi olmayan bir şifreleme defteri olan bir XRP defteri ile güçlendirilir. Ancak, bu açık kaynak yazılım diğer dillerin girdisi ile C ++ dilinde yazılmıştır ve kaynak kodu [GitHub][21] 'de mevcuttur.
 Ripple aşağıdaki önemli noktaları sunar:
   * XRP Defteri tarafından güçlendirilir
@@ -73,7 +77,8 @@ Ripple aşağıdaki önemli noktaları sunar:
   * Çok amaçlı
 [Devamını oku][22]
 
-## Sonuç   {#Conclusion}
+## Çözüm {#Çözüm}
+
 Bu blog yazısında, popüler açık kaynaklı blockchain platformlarından bazılarından geçtik. Mevcut birçok popüler platform olduğundan, yeni platformlar gelişmiş özellikler sunarak topluluğun niyetini kazanmaya başladı. Bu nedenle, herhangi bir seçim yapmadan önce düzgün bir şekilde araştırmak her zaman iyi bir fikirdir.
 Son olarak, [Containerize.com][23] açık kaynaklı yazılım ve blog yayınları listesini genişletiyor. Bu nedenle, düzenli güncellemeler için lütfen [Blockchain Platformları][24] kategorisiyle iletişime geçin.
 
@@ -86,7 +91,8 @@ Aşağıdaki bağlantıları alakalı bulabilirsiniz:
   * [MultiCain][25]
   * [Consensys Quorum][26]
 
-  
+
+
 [1]: https://blog.containerize.com/2020/11/27/how-blockchain-technology-can-upgrade-your-business-strategy/
 [2]: https://blog.containerize.com/
 [3]: #ether

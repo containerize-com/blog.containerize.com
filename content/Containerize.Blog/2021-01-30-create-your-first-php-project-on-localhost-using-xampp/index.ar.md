@@ -20,17 +20,20 @@ XAMPP هو خادم ويب مفتوح المصدر يوفر بيئة محلية 
   * [تشغيل واختبار البرنامج النصي PHP][5]
   * [الخلاصة][6]
 
-## المتطلبات   {#Requirements}
+## متطلبات {#requirements}
+
   * XAMPP التثبيت
   * تطبيق محرر الرمز
   * المعرفة الأساسية PHP
   * المعرفة الأساسية HTML و JavaScript
 
-## ما هو xampp؟   {#xampp}
+## ما هو xampp؟ {#xampp}
+
 XAMPP هي مكدس حل خادم الويب مفتوح المصدر. أنه يحتوي على Apache و MySQL و Mariadb و PHP و Perl. من السهل للغاية التثبيت والاستخدام. لهذا السبب هي بيئة تطوير PHP الأكثر شعبية. يوفر XAMPP Server بيئة كاملة لتطوير تطبيق الويب PHP. إذا لم يكن لديك بالفعل تثبيت عمل XAMPP ، فاتبع هذا الدليل لتثبيت XAMPP:
 [Setup Xampp و Phpmyadmin كضيف محلي على Windows][7]
 
-## قم بإنشاء نص php   {#php}
+## إنشاء نص PHP {#php}
+
   * على افتراض أنك قمت بالفعل بتثبيت XAMPP من خلال اتباع البرنامج التعليمي أعلاه ، دعنا الآن إنشاء برنامج نصي PHP بسيط واختباره على XAMPP.
   * افتح المحرر أولاً. إذا لم يكن لديك محرر برمجة ، فما عليك سوى فتح المفكرة.
   * أدخل الرمز التالي
@@ -42,13 +45,14 @@ echo "This is my first PHP project";
   * انقر فوق "ملف" في أعلى الزاوية اليمنى.
   * اضغط على زر "حفظ AS".
   * أدخل الاسم مع الامتداد ".php".
-  *من أجل "حفظ AS type" ، حدد خيار "All Files (\*. \*)".
+* من أجل "حفظ AS type" ، حدد خيار "All Files (\*. \*)".
   * وأخيرا اضغط على زر "حفظ".
 
 {{< figure align=center src="images/Create-your-first-PHP-Project-using-XAMPP-1024x598.png" alt="قم بإنشاء أول مشروع PHP الخاص بك مع خادم الويب Open Source Open">}}
 
 
-## تشغيل واختبار PHP Script   {#Test}
+## تشغيل واختبار البرنامج النصي PHP {#test}
+
   * انسخ هذا البرنامج النصي PHP إلى مجلد HTDOCS داخل تثبيت XAMPP الخاص بك. يتواجد مجلد Htdocs في الغالب: C: \ xampp \ htdocs
   * افتح متصفحك.
   * انتقل إلى LocalHost/my \ _first \ _php_project.php
@@ -57,7 +61,8 @@ echo "This is my first PHP project";
 
 تهانينا! لقد قمت للتو بإنشاء أول مشروع PHP الخاص بك.
 
-## الخاتمة   {#conclusion}
+## خاتمة {#conclusion}
+
 يعد إنشاء مشروع الويب الأول دائمًا مثيرًا للغاية للمبتدئين. إنه شعور رائع عند تصميم البرنامج النصي الديناميكي الأول ، وقم بتشغيله وعرضه على العمل على متصفحك. آمل أن يكون هذا الدليل البسيط قد ساعدك في إنشاء وتشغيل أول مشروع PHP الخاص بك مع خادم Web Open Source Open Server XAMPP.
 
 ## يستكشف
@@ -65,7 +70,8 @@ echo "This is my first PHP project";
 [Setup Xampp و Phpmyadmin كضيف محلي على Windows][7]
 [مكدس حل خادم الويب المجاني لمطوري PHP & Perl][1]
 
-  
+
+
 [1]: https://products.containerize.com/solution-stack/xampp
 [2]: #requirements
 [3]: #xampp
