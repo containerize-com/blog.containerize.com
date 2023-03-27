@@ -16,20 +16,20 @@ categories: ['Artificial intelligence', 'Blogging']
 
 
 ## Überblick
-Wie versprochen sind wir hier mit einem anderen [CHATGPT] [1] Tutorial, in dem wir Chatgpt für [WordPress] [2] untersuchen werden. Wir empfehlen Ihnen, unsere vorherigen [Artikel] [3] auf ChatGPT und GPT-3 zu besuchen, falls Sie dieses künstliche Intelligenz-basierte Chatbot nicht kennen oder Ihr Wissen aktualisieren möchten. Dieser **virale Chatbot ** hat die technische Welt in einem wirklichen Sinne revolutioniert. Fast jede Lebensabteilung kann diese KI-angetriebene Technologie in Bezug auf Forschung, Inhaltserstellung und Formulierung von Kundendienststrategien nutzen. Daher haben wir diesen Blog -Beitrag so skizziert, dass er ** CHATGP -Plugin für WordPress** und wie Sie ChatGPT in Ihre WordPress -Website integrieren können.
+Wie versprochen sind wir hier mit einem anderen [CHATGPT][1] Tutorial, in dem wir Chatgpt für [WordPress][2] untersuchen werden. Wir empfehlen Ihnen, unsere vorherigen [Artikel][3] auf ChatGPT und GPT-3 zu besuchen, falls Sie dieses künstliche Intelligenz-basierte Chatbot nicht kennen oder Ihr Wissen aktualisieren möchten. Dieser **virale Chatbot ** hat die technische Welt in einem wirklichen Sinne revolutioniert. Fast jede Lebensabteilung kann diese KI-angetriebene Technologie in Bezug auf Forschung, Inhaltserstellung und Formulierung von Kundendienststrategien nutzen. Daher haben wir diesen Blog -Beitrag so skizziert, dass er ** CHATGP -Plugin für WordPress** und wie Sie ChatGPT in Ihre WordPress -Website integrieren können.
 Wir werden die folgenden Punkte in diesem Chatgpt WordPress -Integrationshandbuch behandeln:
-  ***[Was ist neu in GPT-4?] [4]**
-  ***[Wie installiere ich WordPress -Plugin für Chatgpt?] [5]**
-  ***[Konfigurieren von Chatgpt -Plugin für WordPress] [6]**
+  * **[Was ist neu in GPT-4?][4]**
+  * **[Wie installiere ich WordPress -Plugin für Chatgpt?][5]**
+  * **[Konfigurieren von Chatgpt -Plugin für WordPress][6]**
 
 ## Was ist neu in GPT-4? {#Whats-New-in-GPT-4}
 
-Zusammenfassend ist GPT (Generative PreAnted Transformator) ein natürliches Sprachverarbeitungsmodell, das von [OpenAI] [7] unterstützt wird. Tatsächlich ist GPT-3 ein künstliches neuronales Netzwerk, das auf massiven Datensätzen ausgebildet ist und menschliche Gespräche führen kann. In der letzten Woche (d. H. Überraschenderweise gibt es in GPT-4 100 Billionen Parameter, die tatsächlich wie ein menschliches Gehirn funktionieren können. Mit anderen Worten, es ist eine Simulation des menschlichen Gehirns, die sogar die Emotionen des Gesprächs erfassen und den nächsten Satz vorhersagen kann.
-Sie können jedoch Anwendungen auf Unternehmensebene erstellen, mit denen Zwei-Wege-Konversationen in Form von Text und Bilder durchgeführt werden können, um reale Szenarien abzudecken. Nun, Sie können sagen, dass GPT-4 eine raffinierte Version von GPT-3 ist, da die neueste Version eine bessere Bildverarbeitung hat, Videospiele erstellen kann und vieles mehr. Darüber hinaus können Sie die offizielle [Site] [8] besuchen, um weiter zu erkunden.
+Zusammenfassend ist GPT (Generative PreAnted Transformator) ein natürliches Sprachverarbeitungsmodell, das von [OpenAI][7] unterstützt wird. Tatsächlich ist GPT-3 ein künstliches neuronales Netzwerk, das auf massiven Datensätzen ausgebildet ist und menschliche Gespräche führen kann. In der letzten Woche (d. H. Überraschenderweise gibt es in GPT-4 100 Billionen Parameter, die tatsächlich wie ein menschliches Gehirn funktionieren können. Mit anderen Worten, es ist eine Simulation des menschlichen Gehirns, die sogar die Emotionen des Gesprächs erfassen und den nächsten Satz vorhersagen kann.
+Sie können jedoch Anwendungen auf Unternehmensebene erstellen, mit denen Zwei-Wege-Konversationen in Form von Text und Bilder durchgeführt werden können, um reale Szenarien abzudecken. Nun, Sie können sagen, dass GPT-4 eine raffinierte Version von GPT-3 ist, da die neueste Version eine bessere Bildverarbeitung hat, Videospiele erstellen kann und vieles mehr. Darüber hinaus können Sie die offizielle [Site][8] besuchen, um weiter zu erkunden.
 
 ## Wie installiere ich WordPress -Plugin für Chatgpt? {#How-to-install-WordPress-plugin-for-ChatGPT}
 
-Dieser Abschnitt zeigt ChatGPT für WordPress und die Installationsverfahren. Bevor Sie sich weiterentwickeln, können Sie unsere Kategorie [Blogging] [22] besuchen, um über Artikel über WordPress zu erfahren. Darüber hinaus finden Sie, wie Sie WordPress auf Ihrem Server zusammen mit den Nutzungsleitfäden installieren.
+Dieser Abschnitt zeigt ChatGPT für WordPress und die Installationsverfahren. Bevor Sie sich weiterentwickeln, können Sie unsere Kategorie [Blogging][22] besuchen, um über Artikel über WordPress zu erfahren. Darüber hinaus finden Sie, wie Sie WordPress auf Ihrem Server zusammen mit den Nutzungsleitfäden installieren.
 Beginnen wir nun **Chatgpt WordPress -Integration.**
 Gehen Sie zunächst zum WordPress -Dashboard und klicken Sie auf die Option "Plugins", die Sie in der linken Menü des Fensters sehen.
 Klicken Sie in der Suchleiste auf "Neue" und geben Sie "Chatgpt" ein.
@@ -41,7 +41,7 @@ Drücken Sie nun die Taste "Jetzt installieren", um sie zu installieren, und akt
 ## Konfigurieren von ChatGPT -Plugin für WordPress {#Configuring-ChatGPT-plugin-for-WordPress}
 
 Dies ist der Punkt, an dem Sie einen **OpenAI -API -Schlüssel benötigen.**
-**Bitte besuchen Sie dieses [Tutorial] [9], um zu erfahren, wie Sie diesen API -Schlüssel erhalten, falls Sie die Prozedur nicht kennen.**
+**Bitte besuchen Sie dieses [Tutorial][9], um zu erfahren, wie Sie diesen API -Schlüssel erhalten, falls Sie die Prozedur nicht kennen.**
 Gehen Sie anschließend zu den Einstellungen dieses Chatgpt -Plugins und drücken Sie die Taste "Einstellungen" und fügen Sie Ihre OpenAI -API -Taste wie im folgenden Bild gezeigt ein:
 
 {{< figure align=center src="images/chatgpt-wordpress-integration.png" alt="Chatgpt WordPress -Integration">}}
@@ -60,24 +60,24 @@ Ebenso können Sie diese Chatgpt -WordPress -Integration selbst untersuchen. Dar
 Dies bringt uns zum Ende dieses **WordPress-Tutorials **, in dem wir ** GPT-4 und Chatgpt for WordPress-Website behandelt haben. Merkmale. Außerdem haben wir ** Chatgpt WordPress-Integration** implementiert und mit diesem AI-betriebenen Chatbot interagiert. Schließlich gibt es viele relevante Chatgpt -Tutorials, die in den Abschnitt "Siehe auch" eingetragen sind, dass Sie möglicherweise überprüfen.
 
 ## Verbinde dich mit uns
-Schließlich befindet sich [containerize.com] [10] in einem konsistenten Prozess des Schreibens von Blog -Posts zu neuen Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook] [11], [LinkedIn] [12] und [Twitter] [13], folgen.
+Schließlich befindet sich [containerize.com][10] in einem konsistenten Prozess des Schreibens von Blog -Posts zu neuen Themen. Sie können in der Schleife bleiben, indem Sie uns auf unseren Social -Media -Plattformen, einschließlich [Facebook][11], [LinkedIn][12] und [Twitter][13], folgen.
 
 ## Stelle eine Frage
-Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum] [14] informieren.
+Sie können uns über Ihre Fragen oder Abfragen in unserem [Forum][14] informieren.
 
 ## FAQs
 **Wie benutze ich Chatgpt in WordPress?**
-Bitte besuchen Sie diesen [Link] [5], um diesen viralen Chatbot in WordPress zu installieren.
+Bitte besuchen Sie diesen [Link][5], um diesen viralen Chatbot in WordPress zu installieren.
 
 ## Siehe auch
- * [Lassen Sie uns Chatgpt in die JavaScript -App | integrieren | Chatgpt Tutorial] [15]
- * [Eine Einführung in die künstliche Intelligenz | Was ist ai?] [16]
- * [So integrieren Sie Chatgpt in Google Sheets] [17]
- * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT] [18]
- * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution] [1]
- * [Google docs Integration in Chatgpt | OpenAI GPT-3] [19]
- * [Was sind die Top 5 Open-Source-AI-Frameworks] [20]
- * [Was ist generative AI | Generative künstliche Intelligenz] [21]
+ * [Lassen Sie uns Chatgpt in die JavaScript -App | integrieren | Chatgpt Tutorial][15]
+ * [Eine Einführung in die künstliche Intelligenz | Was ist ai?][16]
+ * [So integrieren Sie Chatgpt in Google Sheets][17]
+ * [So verwenden Sie Chatgpt in VSCODE | Der VSCODE -Erweiterungscode GPT][18]
+ * [Was ist Openai Chatbot GPT-3 | CHATGPT Eine AI -Revolution][1]
+ * [Google docs Integration in Chatgpt | OpenAI GPT-3][19]
+ * [Was sind die Top 5 Open-Source-AI-Frameworks][20]
+ * [Was ist generative AI | Generative künstliche Intelligenz][21]
 
 
 
