@@ -68,7 +68,9 @@ params:
     pl: containerize-pl
 
 # Disabled languages
-disableLanguages: [ja,ko,es,de,ru,fr,zh,it,pt,ar,vi,zh-hant,tr,id,th,fa,pl]
+# disableLanguages: [ja,ko,es,de,ru,fr,zh,it,pt,ar,vi,zh-hant,tr,id,th,fa,pl]
+disableLanguages: [] # Disabled languages not trasalted
+#ko,it,ar,vi,zh-hant,fa,pl
 defaultContentLang: en
 
 languages:
