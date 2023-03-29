@@ -30,7 +30,7 @@ Node.js is an [open-source][5] JavaScript runtime environment that executes Java
 
 Another important component of this runtime environment is Libuv. What is Libuv? Libuv is a library written in C that helps Node.js in executing tasks asynchronously. However, we will explore Node.js architecture in the next section where we will learn a little more about Libuv.  
 
-## Node.js Architecture | What is Event Loop? {#Node.js-Architecture-|-What-is-Event-Loop}
+## Node.js Architecture | What is Event Loop? {#Node.js-Architecture-What-is-Event-Loop}
 
 Again, Libuv is an integral part of Node.js architecture as it facilitates this runtime environment to handle operations asynchronously. So, there are the following three core components offered by Libuv:
 
@@ -52,7 +52,7 @@ Let's enlist the steps that are being done to entertain a user request:
 
 That is the Node.js architecture and that’s how it handles multiple user requests asynchronously.
 
-## Applications of Node.js {Applications-of-Node.js}
+## Applications of Node.js {#Applications-of-Nodejs}
 
 So far, we know what is Node.js and we have also seen Node.js architecture. Now, let's see in which scenarios we should opt for this event-driven software infrastructure.
 
@@ -92,8 +92,8 @@ Please go through this [link][2] to get a detailed answer.
 
  [1]: https://blog.containerize.com/categories/programming/
  [2]: #What-is-Node.js
- [3]: #Node.js-Architecture-|-What-is-Event-Loop
- [4]: #Applications-of-Node.js
+ [3]: #Node.js-Architecture-What-is-Event-Loop
+ [4]: #Applications-of-Nodejs
  [5]: https://products.containerize.com/
  [6]: https://www.containerize.com/
  [7]: https://web.facebook.com/containerize
