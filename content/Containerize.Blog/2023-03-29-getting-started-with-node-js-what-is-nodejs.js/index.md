@@ -47,7 +47,7 @@ Let's enlist the steps that are being done to entertain a user request:
  * The client makes a request to the Node.js server.
  * Node.js server places the incoming request into the Event Queue.
  * There is an Event Loop consistently checking the Event Queue whether it has any user’s request or not.
- * If there is any request that does not require I/O operations such as reading file system or Database, Event Loops picks it us, process it, generates a response, and sends it back to the user.
+ * If there is any request that does not require I/O operations such as reading file system or Database, Event Loops picks it up, process it, generates a response, and sends it back to the user.
  * In case of a request that requires I/O operation, Event Loop picks up a thread from the worker thread pool and assigns that request to this thread. Now, this thread processes the request, generates a response, and sends it back to Event Loop and Event Loop sends the response to the client.
 
 That is the Node.js architecture and that’s how it handles multiple user requests asynchronously.
@@ -60,13 +60,13 @@ So far, we know what is Node.js and we have also seen Node.js architecture. Now,
 
 **Real-time applications:** If you are building chat apps or applications that involved intensive I/O operations, Node.js is the best option to build scalable and extensible software that performs real-time tasks. It includes payment processing apps, data streaming and networking apps, and the internet of things.
 
-**REST APIs:** This JavaScript runtime environment is not only used to develop web servers but also used to develop RESTful APIs. At the current point in time, there is a huge number of APIs that developers have developed using this software.
+**REST APIs:** This JavaScript runtime environment is not only used to develop web servers but also used to develop RESTful APIs. At the current point in time, there is a huge number of APIs that developers have developed using this software infrastructure.
 
 Likewise, there are many other applications that you may explore yourself. 
 
 ## Conclusion
 
-This brings us to the end of this JavaScript tutorial. We have explored **what is Node.js** and its working mechanism. In addition, there is a demonstration of Event Loop being covered. This guide will help you if you are keen to learn this open-source JavaScript runtime environment.
+This brings us to the end of this JavaScript tutorial. We have explored **what is Node.js** and its working mechanism. In addition, there is a demonstration of Event Loop which is also being covered. This guide will help you if you are keen to learn this open-source JavaScript runtime environment.
 
 ## Connect with us
 
