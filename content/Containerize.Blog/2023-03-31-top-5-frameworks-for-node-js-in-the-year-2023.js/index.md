@@ -16,7 +16,7 @@ categories: ['Programming']
 {{< figure align=center src="images/top-5-frameworks-for-node-js-in-the-year-2023.png" alt="Frameworks For Node.js">}}
 ## Overview
 
-In our previous [blog post][30], we publish a getting-started guide with Node.js in which we thoroughly covered Node.js architecture and its applications. Since our [series][1] on JavaScript tutorials is still on so we are going to learn about the top 5 frameworks for Node.js. In this Node.js tutorial, we are going to cover very popular rich-featured server-side frameworks for Node.js programming. This open-source JavaScript run-time environment has opened new horizons for JavaScript developers. In addition, this stack enables developers to work on the front end and back end both. Therefore, please read this article from start to end and you will end up with a strong knowledge of Node.js frameworks.
+In our previous [blog post][30], we publish a getting-started guide with Node.js in which we thoroughly covered Node.js architecture and its applications. Since our [series][1] on JavaScript tutorials is still on so we are going to learn about the top 5 frameworks for Node.js. In this Node.js tutorial, we are going to cover very popular rich-featured server-side frameworks for Node.js programming. This open-source JavaScript run-time environment has opened new horizons for JavaScript developers. In addition, this stack enables developers to work on the front end and back end both. Therefore, please read this article from start to end and you will end up with a strong knowledge of **Node.js frameworks**.
 
 Node.js frameworks are as follows:
 
