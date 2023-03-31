@@ -80,6 +80,7 @@ categories: ['Blockchain Platforms']
 ## يستكشف
 قد تجد الروابط التالية ذات الصلة:
   * [Ethereum][8]
+  * [What is Ethereum? (ETH)][23]
   * [نسيج hyperledger][14]
   * [OpenChain][15]
   * [تموج][16]
@@ -116,3 +117,4 @@ categories: ['Blockchain Platforms']
 [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [21]: https://blog.containerize.com/
 [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+[23]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

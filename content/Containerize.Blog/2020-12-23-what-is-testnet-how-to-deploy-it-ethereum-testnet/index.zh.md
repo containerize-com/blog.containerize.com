@@ -101,6 +101,7 @@ eth.accounts
 ## 探索
 您可能会发现以下链接相关：
   * [以太坊][7]
+  * [What is Ethereum? (ETH)][20]
   * [Hyperledger织物][13]
   * [openchain][14]
   * [Ripple][15]
@@ -132,3 +133,4 @@ eth.accounts
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

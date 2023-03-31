@@ -80,6 +80,7 @@ WebベースのIDEである[Ethereum Studio][12]を使用します。スマー�
 ## 探検
 次のリンクが関連する場合があります。
   * [イーサリアム][8]
+  * [What is Ethereum? (ETH)][23]
   * [Hyperledger Fabric][14]
   * [OpenChain][15]
   * [波紋][16]
@@ -116,3 +117,4 @@ WebベースのIDEである[Ethereum Studio][12]を使用します。スマー�
 [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [21]: https://blog.containerize.com/
 [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+[23]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

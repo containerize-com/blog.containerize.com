@@ -101,6 +101,7 @@ Pembaruan terbaru dalam jaringan Ethereum telah membuat jaringan lebih hemat bia
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
   * [Ethereum][7]
+  * [What is Ethereum? (ETH)][20]
   * [Hyperledger Fabric][13]
   * [OpenChain][14]
   * [Riak][15]
@@ -132,3 +133,4 @@ Anda mungkin menemukan tautan berikut yang relevan:
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

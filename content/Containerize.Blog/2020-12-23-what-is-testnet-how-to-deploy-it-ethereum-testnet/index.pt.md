@@ -101,6 +101,7 @@ As atualizações mais recentes na rede Ethereum tornaram a rede mais econômica
 ## Explore
 Você pode encontrar os seguintes links relevantes:
   * [Ethereum][7]
+  * [What is Ethereum? (ETH)][20]
   * [Tecido hyperledger][13]
   * [OpenChain][14]
   * [Ripple][15]
@@ -132,3 +133,4 @@ Você pode encontrar os seguintes links relevantes:
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

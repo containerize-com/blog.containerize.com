@@ -101,6 +101,7 @@ Les dernières mises à jour du réseau Ethereum ont rendu le réseau plus renta
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
   * [Ethereum][7]
+  * [What is Ethereum? (ETH)][20]
   * [Tissu hyperlédger][13]
   * [OpenChain][14]
   * [Ripple][15]
@@ -132,3 +133,4 @@ Vous pouvez trouver les liens suivants pertinents:
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

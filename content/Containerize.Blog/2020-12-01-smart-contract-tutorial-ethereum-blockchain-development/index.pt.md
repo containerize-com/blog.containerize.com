@@ -80,6 +80,7 @@ No final, [contémize.com][13] é totalmente dedicado a compilar a lista de soft
 ## Explore
 Você pode encontrar os seguintes links relevantes:
   * [Ethereum][8]
+  * [What is Ethereum? (ETH)][23]
   * [Tecido hyperledger][14]
   * [OpenChain][15]
   * [Ripple][16]
@@ -116,3 +117,4 @@ Você pode encontrar os seguintes links relevantes:
 [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [21]: https://blog.containerize.com/
 [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+[23]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

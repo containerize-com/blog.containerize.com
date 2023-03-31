@@ -101,6 +101,7 @@ Các bản cập nhật mới nhất trong mạng Ethereum đã làm cho mạng 
 ## Khám phá
 Bạn có thể tìm thấy các liên kết sau có liên quan:
   * [Ethereum][7]
+  * [What is Ethereum? (ETH)][20]
   * [Vải Hyperledger][13]
   * [Openchain][14]
   * [Ripple][15]
@@ -132,3 +133,4 @@ Bạn có thể tìm thấy các liên kết sau có liên quan:
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

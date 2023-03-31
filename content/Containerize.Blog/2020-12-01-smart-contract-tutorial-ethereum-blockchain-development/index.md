@@ -93,6 +93,7 @@ In the end, [containerize.com][13] is fully dedicated to compiling the list of 
 You may find the following links relevant:
 
   * [Ethereum][8]
+  * [What is Ethereum? (ETH)][23]
   * [Hyperledger Fabric][14]
   * [Openchain][15]
   * [Ripple][16]
@@ -131,3 +132,4 @@ You may find the following links relevant:
  [21]: https://blog.containerize.com/
 
  [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [23]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

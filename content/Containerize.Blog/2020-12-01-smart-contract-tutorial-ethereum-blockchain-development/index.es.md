@@ -80,6 +80,7 @@ Al final, [Contenerize.com][13] está completamente dedicado a compilar la lista
 ## Explorar
 Puede encontrar los siguientes enlaces relevantes:
   * [Ethereum][8]
+  * [What is Ethereum? (ETH)][23]
   * [Fabric de Hyperledger][14]
   * [OpenChain][15]
   * [Ripple][16]
@@ -116,3 +117,4 @@ Puede encontrar los siguientes enlaces relevantes:
 [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [21]: https://blog.containerize.com/
 [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+[23]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

@@ -101,6 +101,7 @@ Gli ultimi aggiornamenti nella rete Ethereum hanno reso la rete più conveniente
 ## Esplorare
 Potresti trovare i seguenti collegamenti pertinenti:
   * [Ethereum][7]
+  * [What is Ethereum? (ETH)][20]
   * [Tessuto hyperledger][13]
   * [OpenChain][14]
   * [Ripple][15]
@@ -132,3 +133,4 @@ Potresti trovare i seguenti collegamenti pertinenti:
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

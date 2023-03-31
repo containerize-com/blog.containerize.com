@@ -80,6 +80,7 @@ Pada akhirnya, [containerize.com][13] sepenuhnya didedikasikan untuk menyusun da
 ## Mengeksplorasi
 Anda mungkin menemukan tautan berikut yang relevan:
   * [Ethereum][8]
+  * [What is Ethereum? (ETH)][23]
   * [Hyperledger Fabric][14]
   * [OpenChain][15]
   * [Riak][16]
@@ -116,3 +117,4 @@ Anda mungkin menemukan tautan berikut yang relevan:
 [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [21]: https://blog.containerize.com/
 [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+[23]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

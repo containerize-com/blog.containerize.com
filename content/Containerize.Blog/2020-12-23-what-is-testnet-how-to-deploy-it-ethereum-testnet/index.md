@@ -140,6 +140,7 @@ The latest updates in the Ethereum network have made the network more cost-effec
 You may find the following links relevant:
 
   * [Ethereum][7]
+  * [What is Ethereum? (ETH)][20]
   * [Hyperledger Fabric][13]
   * [Openchain][14]
   * [Ripple][15]
@@ -172,3 +173,4 @@ You may find the following links relevant:
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
 
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+ [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/

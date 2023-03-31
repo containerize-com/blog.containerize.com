@@ -80,6 +80,7 @@ En fin de compte, [contenerize.com][13] est entièrement dédié à la compilati
 ## Explorer
 Vous pouvez trouver les liens suivants pertinents:
   * [Ethereum][8]
+  * [What is Ethereum? (ETH)][23]
   * [Tissu hyperledger][14]
   * [OpenChain][15]
   * [Ripple][16]
@@ -116,3 +117,4 @@ Vous pouvez trouver les liens suivants pertinents:
 [20]: https://blog.containerize.com/blockchain-platforms/top-5-open-source-blockchain-platforms-in-2020/
 [21]: https://blog.containerize.com/
 [22]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
+[23]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/
