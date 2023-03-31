@@ -30,7 +30,7 @@ Node.js frameworks are as follows:
 
 [Nestjs][7] is one the most popular backend frameworks in JavaScript. It is widely used to build scalable business applications. Further, this Node.js framework offers support for TypeScript and its architecture is inspired by Angular. In addition, Nestjs leverages the feature of Expressjs and is highly extensible as it offers integrations with third-party libraries.
 
-This JavaScript framework offers rich scaffolding options. Moreover, you can create a project by sampling the running command in the terminal. Above all, it is fast, efficient and makes your code maintainable. However, you can achieve abstraction and a modular approach to building applications. There are a number of modules available in its library pool to configure databases, ORM, and more. 
+This JavaScript framework offers rich scaffolding options. Moreover, you can create a project simply by running the command in the terminal. Above all, it is fast, efficient and makes your code maintainable. However, you can achieve abstraction and a modular approach to building applications. There are a number of modules available in its library pool to configure databases, ORM, and more. 
 
 So, you can install this Node.js framework by running the following command in the terminal:
 ```
@@ -40,7 +40,7 @@ npm i -g @nestjs/cli
 
 ## Express.js {#Express}
 
-[Express.js][9] is another top-level framework for server-side programming. It is considered the fastest and go-to Node.js framework when it comes to developing the back end of web-based applications. Further, its architecture is based on MVC(Model, View, Controler). Further, Express.js is a highly matured framework and there is a huge number of modules developed to enhance its functionality.
+[Express.js][9] is another top-level framework for server-side programming. It is considered the fastest and go-to Node.js framework when it comes to developing the back end of web-based applications. Further, its architecture is based on MVC(Model, View, Controller). Further, Express.js is a highly matured framework and there is a huge number of modules developed to enhance its functionality.
 
 This backend framework also offers support for TypeScript. In addition, Express.js lets you opt for a modular approach and you can leverage rich routing features to build scalable I/O-intensive apps. Above all, it is the first choice of developers for building REST APIs.
 
@@ -52,7 +52,7 @@ npm install express --save
 
 ## Koa.js {#Koa}
 
-[Koa.js][11] offers many similarities with Express.js in terms of features and code style. This is one of those frameworks for Node.js that offer high-level of error handling. Further, you can write moffers many similarities with Express.js in terms of features and code style. This is one of those frameworks for Node.js that offer a high level of error handling. Further, you can write maintainable, and clean code to perform rapid application development. Koa.js is highly robust and handles async calls quite efficiently.
+[Koa.js][11] offers many similarities with Express.js in terms of features and code style. This is one of those frameworks for Node.js that offer high-level of error handling. Further, you can write maintainable, and clean code to perform rapid application development. Koa.js is highly robust and handles async calls quite efficiently.
 
 Moreover, it has a huge developers community and provides rich error-handling techniques. Since it is very similar to Express.js so it is quite easy for Express.js developers to adapt to Koa.js.
 
