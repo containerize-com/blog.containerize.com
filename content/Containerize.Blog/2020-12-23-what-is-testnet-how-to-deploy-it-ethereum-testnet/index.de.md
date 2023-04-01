@@ -133,4 +133,4 @@ Möglicherweise finden Sie die folgenden Links relevant:
  [17]: https://products.containerize.com/blockchain-platforms/consensys-quorum
  [18]: https://blog.containerize.com/blockchain-platforms/how-to-setup-consensys-quorum-blockchain-network-locally/
  [19]: https://blog.containerize.com/2020/11/27/how-decentralized-technology-upgrades-your-business-strategy/
- [20]: https://docs.koinize.com/cryptocurrencies/ethereum-eth/
+ [20]: https://docs.koinize.com/de/cryptocurrencies/ethereum-eth/
